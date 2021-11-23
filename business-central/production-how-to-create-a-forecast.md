@@ -1,6 +1,6 @@
 ---
 title: Kysyntäennusteen luominen
-description: Tietoja Business Centralin ennusteominaisuudesta sekä myynti- ja tuotantoennusteiden luomisesta.
+description: Tietoja kysyntäennusten ominaisuuksista sekä myynti- ja tuotantoennusteiden luomisesta.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 19b168e60fab61f12a631d8e449b7e05753640eb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9c3097e102de7b0f4be6da114245ac1bbb4f4fe0
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438685"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643965"
 ---
 # <a name="create-a-demand-forecast"></a>Kysyntäennusteen luominen
 Voit luoda myynti- ja tuotantoennusteita **Kysyntäennuste**-sivulla.  
@@ -41,18 +41,17 @@ Määritä ennusteen mukaan *Nimikkeen myynti*, *Osa* tai *Molemmat*. Ennustetyy
 ## <a name="component-forecast"></a>Komponenttiennuste  
 Komponenttiennustetta voisi pitää vaihtoehtoisena ennusteena suhteessa päänimikkeeseen. Siitä voi olla hyötyä, jos suunnittelija voi esimerkiksi ennakoida komponentin kysynnän.  
 
-Koska komponenttiennuste on suunniteltu määrittämään päänimikkeen vaihtoehdot, komponenttiennusteen pitäisi olla yhtä suuri tai pienempi kuin myyntinimikkeen ennusteen määrä. Jos komponenttiennuste on suurempi kuin myyntinimikkeen ennuste, järjestelmä käsittelee näiden kahden ennustetyypin erotusta erillisenä kysyntänä.  
+Koska komponenttiennuste on suunniteltu määrittämään päänimikkeen vaihtoehdot, komponenttiennusteen pitäisi olla pienempi tai yhtä suuri kuin myyntinimikkeen ennusteen määrä. Jos komponenttiennuste on suurempi kuin myyntinimikkeen ennuste, järjestelmä käsittelee näiden kahden ennustetyypin erotusta erillisenä kysyntänä.  
 
 ## <a name="forecasting-periods"></a>Ennustejaksot  
- Ennustejakso on kelvollinen alkamispäivämäärästä seuraavan ennusteen alkamispäivämäärään saakka. Aikavälisivulla on useita vaihtoehtoja, joiden avulla voit lisätä kysynnän tiettyyn jakson päivämäärään. Sen vuoksi ennustejakson pituutta ei kannatakaan muuttaa, jos aloituspäivämäärän kaikkia ennustetapahtumia ei ole tarkoitus siirtää tämän jakson alkamispäivämäärään.  
+Ennustejakso on kelvollinen alkamispäivämäärästä seuraavan ennusteen alkamispäivämäärään saakka. Aikavälisivulla on useita vaihtoehtoja, joiden avulla voit lisätä kysynnän tiettyyn jakson päivämäärään. Sen vuoksi ennustejakson pituutta ei kannatakaan muuttaa, jos aloituspäivämäärän kaikkia ennustetapahtumia ei ole tarkoitus siirtää tämän jakson alkamispäivämäärään.  
 
 ## <a name="forecast-by-locations"></a>Ennusteet sijainnin mukaan  
-
-Voit määrittää **Tuotannon asetukset** -sivulla, miten haluat käsitellä ennusteissa määritettyjä sijainteja suunnitelman laskennan yhteydessä. 
+Voit määrittää **Tuotannon asetukset** -sivulla, miten ennusteissa määritetyt sijainnit otetaan huomioon suunnitelmien laskennan yhteydessä. 
 
 ### <a name="use-forecast-by-locations"></a>Käytä ennusteita sijaintien mukaan
 
-Jos valitset **Käytä ennusteita sijaintien mukaan** -kentän, [!INCLUDE[prod_short](includes/prod_short.md)] ottaa huomioon kaikki kuellkin kysyntäennustetapahtumalle määritetyt sijaintikoodit ja laskee jäljellä olevan ennusteen kullekin sijainnille.  
+Jos **Käytä ennusteita sijaintien mukaan** -vaihtopainike siirretään käyttöasentoon, [!INCLUDE[prod_short](includes/prod_short.md)] ottaa huomioon kaikki kullekin kysyntäennustetapahtumalle määritetyt sijaintikoodit ja laskee jäljellä olevan ennusteen kullekin sijainnille.  
 
 Harkitse tätä esimerkkiä: yrityksesi ostaa ja myy nimikkeitä kahdessa paikassa: ITÄ ja LÄNSI. Molempien sijaintien osalta on määritetty erästä-erään-uusintatilauskäytäntö. Luo ennuste kahdelle sijainnille:
 
@@ -68,7 +67,7 @@ Luo sitten myyntitilaus, jonka määrä on 12 sijainnissa LÄNSI. Suunnittelujä
 >  Jos sijaintiperustaisia ennusteita tarkastellaan erillään muista, kokonaisennuste ei välttämättä ole totuudenmukainen.
 
 ### <a name="do-not-use-forecast-by-locations"></a>Älä käytä ennusteita sijaintien mukaan
-Jos otat **Käytä ennusteita sijaintien mukaan** -asetuksen pois käytösstä, [!INCLUDE[prod_short](includes/prod_short.md)] ohittaa kaikki kullekin kysyntäennustetapahtumalle määritetyt sijaintikoodit ja koostaa ennusteet tyhjien sijaintien ennusteille.  
+Jos poistat **Käytä ennusteita sijaintien mukaan** -vaihtopainikkeen käytöstä, [!INCLUDE[prod_short](includes/prod_short.md)] ohittaa kaikki kullekin kysyntäennustetapahtumalle määritetyt sijaintikoodit ja koostaa ennusteet tyhjien sijaintien ennusteille.  
 
 Harkitse tätä esimerkkiä: yrityksesi ostaa ja myy nimikkeitä kahdessa paikassa: ITÄ ja LÄNSI. Molempien sijaintien osalta on määritetty erästä-erään-uusintatilauskäytäntö. Luo ennuste kahdelle sijainnille:
 

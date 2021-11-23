@@ -1229,6 +1229,8 @@
 ##### [ALV-tapahtumaraporttien valmisteleminen](LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports.md)
 ##### [KP-kirjojen ja ALV-rekistereiden tulostaminen ja tulostaminen uudelleen](LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers.md)
 ##### [Italian Intrastat-raporttien tulostaminen](LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy.md)
+#### Ennakonpidätys
+##### [Ennakonpidätyksen määrittäminen italialaisessa versiossa](LocalFunctionality/Italy/set-up-withholding-tax.md)
 ##### [Ennakonpidätysraporttien tulostaminen:](LocalFunctionality/Italy/how-to-print-withholding-tax-reports.md)
 #### Pankkitoiminta ja maksut
 ##### [Maksuehtojen määrittäminen:](LocalFunctionality/Italy/how-to-set-up-payment-terms.md)
@@ -1258,11 +1260,7 @@
 #### [Paikallinen toiminnallisuus Meksikon versiossa](LocalFunctionality/Mexico/mexico-local-functionality.md)
 #### Vero
 ##### [Määritä ja luo DIOT-raportteja](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
-##### [Meksikon myyntivero](LocalFunctionality/Mexico/mexico-sales-tax.md)  
-##### [Käyttöveron ja ostoveron määrittäminen](LocalFunctionality/Mexico/how-to-set-up-use-tax-and-purchase-tax.md)  
-##### [Toteutumattoman myyntiveron ja myynnin maksualennusten määrittäminen](LocalFunctionality/Mexico/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
-##### [Myyntiveron ilmoittaminen Meksikossa](LocalFunctionality/Mexico/mexico-sales-tax.md)
-##### [Talletusten luominen](LocalFunctionality/Mexico/how-to-create-deposits.md)  
+##### [Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen](finance-setup-vat.md)  
 ##### [Meksikon verotunnustyypit](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [Arvonlisäveron uudelleenlaskenta](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Sähköinen laskutus
@@ -1274,12 +1272,13 @@
 #### Yleiset
 ##### [PAC-verkkopalvelujen määrittäminen](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Vianmääritysraporttien tulostaminen](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
+##### [Talletusten luominen](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 
 ### Alankomaat
 #### [Paikallinen toiminnallisuus Hollannin versiossa](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
 #### ALV
 ##### [Veroviranomaisille tarkoitetun tarkistustiedoston luominen](LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md)
-##### [ALV-luokkien määrittäminen](LocalFunctionality\Netherlands\how-to-set-up-vat-categories.md)
+##### [ALV-luokkien määrittäminen](LocalFunctionality/Netherlands/how-to-set-up-vat-categories.md)
 ##### [Sähköiset ALV- ja ICP-ilmoitukset](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
 ##### [Sähköisten ALV- ja ICP-ilmoitusten määrittäminen](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)
 ##### [Sähköisten ALV- ja ICP-ilmoitusten lähettäminen](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
@@ -1290,7 +1289,7 @@
 ##### [Maksutapaus 1 – Kotimaan maksut (paikallisesta valuutasta paikalliseen valuuttaan)](LocalFunctionality/Netherlands/payment-scenario-1-domestic-payments-lcy-to-lcy-.md)  
 ##### [Maksutapaus 2 – Ulkomaan maksu (ulkomaan valuutasta ulkomaan valuuttaan)](LocalFunctionality/Netherlands/payment-scenario-2-foreign-payment-fcy-to-fcy-.md)  
 ##### [Maksutapaus 3 – Ulkomaan maksu (kotimaan valuutasta ulkomaan valuuttaan)](LocalFunctionality/Netherlands/payment-scenario-3-foreign-payment-lcy-to-fcy-.md)
-##### [Ehdotusten luominen](LocalFunctionality\Netherlands\how-to-create-proposals.md)
+##### [Ehdotusten luominen](LocalFunctionality/Netherlands/how-to-create-proposals.md)
 ##### [Lähetysluetteloraportit](LocalFunctionality/Netherlands/docket-reports.md)
 ##### [Kassapäiväkirjojen ja pankin päiväkirjojen tai pankkisiirron päiväkirjojen vienti ja kirjaus](LocalFunctionality/Netherlands/how-to-enter-and-post-cash-and-bank-or-giro-journals.md)
 ##### [Kassapäiväkirjojen ja pankin päiväkirjojen tai pankkisiirron päiväkirjojen testiraporttien tulostaminen](LocalFunctionality/Netherlands/how-to-print-the-test-reports-for-cash-and-bank-or-giro-journals.md)
@@ -1298,7 +1297,7 @@
 ##### [SEPA-maksujen aktivointi](LocalFunctionality/Netherlands/how-to-activate-sepa-payments.md)
 ##### [Toimittajamaksujen lähettäminen sähköisesti SEPA ISO 20022 -maksumuodossa](LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)
 ##### [Maksuhistorian luominen ja vieminen](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
-##### [Tiliotteiden tuominen ja täsmäyttäminen](LocalFunctionality\Netherlands\how-to-import-and-reconcile-bank-statements.md)
+##### [Tiliotteiden tuominen ja täsmäyttäminen](LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements.md)
 #### Perusrahoitus
 ##### [Pääkirjanpidon tapahtumien kohdistaminen ja kohdistamisen poistaminen](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [KP-tapahtumien pakolliset kuvaukset](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)

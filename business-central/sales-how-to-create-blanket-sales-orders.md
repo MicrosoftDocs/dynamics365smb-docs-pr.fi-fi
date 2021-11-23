@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ac3d45bb7de166a4861e22e1919c9c722602b13
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4299924a1845245eb8b73192bb14232bad25d80b
+ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442698"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7752578"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Puiteostotilausten tai ostotilausten käsitteleminen
 
@@ -67,7 +67,7 @@ Voit nähdä puitemyyntitilauksen tilan **Puitemyyntitilauksen tilastot** -sivul
 - Voit tarkastella **Laskutus**-pikavälilehdessä yhteenvetotietoja puitemyyntitilauksen rivien **Laskutettava määrä** -kenttien yhteismäärän perusteella.  
 - Voit tarkastella **Toimitus**-pikavälilehdessä yhteenvetotietoja puitemyyntitilauksen rivien **Vastaanotettava määrä** -kenttien yhteismäärän perusteella.  
 - **Ennakkomaksu**-pikavälilehdessä voit tarkastella yhteenvetotietoja mahdollisista ennakkoon maksetuista summista.  
-- **Toimittaja**-pikavälilehdessä voit tarkastella toimittajaa koskevia perustietoja.    
+- **Toimittaja**-pikavälilehdessä voit tarkastella toimittajaa koskevia perustietoja.
 
 ## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Kirjaamattomien ja kirjattujen puitemyyntitilausrivien näyttäminen   
 Linkki puitemyyntitilauksen ja alkuperäisen myyntiasiakirjan, sekä kaikkien muiden myyntiasiakirjojen välillä säilytetään kirjaamisen jälkeen luettelona kirjatuista ja kirjaamattomista myyntitilauksen laskuriveistä.  
@@ -76,21 +76,21 @@ Linkki puitemyyntitilauksen ja alkuperäisen myyntiasiakirjan, sekä kaikkien mu
 2. Avaa tarkasteltava puitemyyntitilaus.
 3. Näytä kirjaamattomat tapahtumat valitsemalla ensin kyseinen rivi, sitten **Rivi**-toiminto ja lopuksi **Kirjaamattomat rivit** -toiminto. Valitse yksi seuraavista vaihtoehdoista.  
 
-    |Asetus|Description|
-    |--|--|
-    |**Tilaukset**|Määrittää avoimet tilaukset, jotka on merkitty liittyviksi valittuun riviin.|
-    |**Laskut**|Määrittää avoimet laskut, jotka on merkitty liittyviksi valittuun riviin. Avoimet laskut on liitetty manuaalisesti puitetilaukseen syöttämällä puitetilauksen numero myyntilaskuriville.|
-    |**Palautustilaukset**|Määrittää avoimet palautustilaukset, jotka on merkitty liittyviksi valittuun riviin.|
-    |**Hyvityslaskut**|Määrittää avoimet hyvityslaskut, jotka on merkitty liittyviksi valittuun riviin.|
+|Asetus|Description|
+|--|--|
+|**Tilaukset**|Määrittää avoimet tilaukset, jotka on merkitty liittyviksi valittuun riviin.|
+|**Laskut**|Määrittää avoimet laskut, jotka on merkitty liittyviksi valittuun riviin. Avoimet laskut on liitetty manuaalisesti puitetilaukseen syöttämällä puitetilauksen numero myyntilaskuriville.|
+|**Palautustilaukset**|Määrittää avoimet palautustilaukset, jotka on merkitty liittyviksi valittuun riviin.|
+|**Hyvityslaskut**|Määrittää avoimet hyvityslaskut, jotka on merkitty liittyviksi valittuun riviin.|
 
 4. Näytä kirjatut tapahtumat valitsemalla ensin kyseinen rivi, sitten **Rivi**-toiminto ja lopuksi **Kirjatut rivit** -toiminto. Valitse yksi seuraavista vaihtoehdoista.  
 
-    |Asetus|Description|
-    |---|----|
-    |**Toimitukset**|Valittuun riviin liitetyt kirjatut toimitukset.|
-    |**Laskut**|Valittuun riviin liitetyt kirjatut laskut.|
-    |**Palautusvast.otot**|Valittuun riviin liitetyt kirjatut palautusvastaanotot.|
-    |**Hyvityslaskut**|Valittuun riviin liitetyt kirjatut hyvityslaskut.|
+|Asetus|Description|
+|---|----|
+|**Toimitukset**|Valittuun riviin liitetyt kirjatut toimitukset.|
+|**Laskut**|Valittuun riviin liitetyt kirjatut laskut.|
+|**Palautusvast.otot**|Valittuun riviin liitetyt kirjatut palautusvastaanotot.|
+|**Hyvityslaskut**|Valittuun riviin liitetyt kirjatut hyvityslaskut.|
 
 5. Näytä tapahtuma valitsemalla **Näytä asiakirja** -toiminto **Myyntirivit**-sivulla.
 

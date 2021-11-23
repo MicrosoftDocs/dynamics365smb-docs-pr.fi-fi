@@ -11,12 +11,12 @@ ms.search.keywords: connectivity, troubleshooting, connection problems
 ms.date: 06/17/2021
 ms.author: jswymer
 ROBOTS: NOINDEX
-ms.openlocfilehash: db7b9e602817d7dddcf6bce1b35ede078bd70aa0
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e08d6148001e324bc7217771434ff6862fe984a6
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443179"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7748959"
 ---
 # <a name="troubleshoot-connectivity-for-business-central"></a>Business Central -yhteyden vianmääritys
 
@@ -31,13 +31,22 @@ ms.locfileid: "6443179"
 
 ## <a name="start-the-connectivity-check"></a>Aloita yhteyden tarkistus 
 
-1. Valitse [tämä linkki](https://businesscentral.dynamics.com/connectivity) tai avaa Internet-selain ja kirjoita osoitteeseen seuraava URL-osoite:
+1. Avaa selain.
+2. Kirjoita osoitteeksi URL-osoite, jolla Business Central avataan, ja kirjoita loppuun `/connectivity`. 
+
+    Jos käytössä on esimerkiksi `https://businesscentral.dynamics.com`, kirjoita
 
     ```http
     https://businesscentral.dynamics.com/connectivity
     ```
 
-2. Valitse **Yhteyden vianmääritys** -sivulla **Aloita tarkistus**.
+    Tai jos URL-osoite sisältää vuokraajan tunnuksen, kuten `https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB`, kirjoita sitten
+
+    ```http
+    https://businesscentral.dynamics.com/12345678-1234-1234-1234-1234567890AB/connectivity
+    ```
+ 
+3. Valitse **Yhteyden vianmääritys** -sivulla **Aloita tarkistus**.
 
     Suoritetaan sarja tarkistuksia, ja kunkin tarkistuksen tulos näytetään:
 
@@ -45,7 +54,7 @@ ms.locfileid: "6443179"
     - ![Yhteyden tarkistus epäonnistui.](media/connectivity-failed.png) ilmaisee, että tarkistus epäonnistui. Katso lisätietoja tarkistuksen alla olevasta viestistä.
     - ![Yhteyden tarkistusta ei suoritettu.](media/connectivity-blocked.png) ilmaisee, että tarkistusta ei suoritettu, mikä johtuu yleensä edellisen tarkistuksen epäonnistumisesta. Katso lisätietoja tarkistuksen alla olevasta viestistä.
 
-3. Jos haluat suorittaa tarkistuksen uudelleen, valitse **Käynnistä tarkistus uudelleen**.
+4. Jos haluat suorittaa tarkistuksen uudelleen, valitse **Käynnistä tarkistus uudelleen**.
 
 Seuraavissa osissa selitetään suoritettavat tarkistukset ja annetaan vihjeitä ongelmien korjaamiseen.
 

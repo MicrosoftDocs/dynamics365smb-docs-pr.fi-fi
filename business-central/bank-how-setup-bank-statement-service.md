@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Yodlee, feed, stream, payment process
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a01bbbcb158e975c2b6f21ce2dd2468f8b3fa431
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8c27b2c158d817a6e58a72d49d65d75bb8470f65
+ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443521"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7651460"
 ---
 # <a name="set-up-the-envestnet-yodlee-bank-feeds-service"></a>Envestnet Yodlee Bank Feeds -palvelun määrittäminen
 
@@ -97,6 +97,11 @@ Pankkisyötepalvelu otetaan käyttöön, kun linkität pankkitilin siihen liitty
 5. Valitse **OK**-painike.
 
 **Pankkitililuettelo**-sivun **Linkitetty**-valintaruutu valitaan.
+
+## <a name="to-edit-the-credentials-for-an-online-bank-account"></a>Verkkopankkitilin tunnistetietojen muokkaaminen
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilit** ja valitse sitten liittyvä linkki.  
+2. Valitse sen pankkitilin rivi, joka on linkitetty verkkopankkitiliin, ja valitse sitten **Muokkaa verkkopankkitilin tietoja** -toiminto.
+3. Päivitä tunnistetiedot.
 
 ## <a name="to-unlink-a-bank-account"></a>Pankkitilin linkityksen poistaminen
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten vastaava linkki.  

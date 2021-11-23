@@ -1,8 +1,6 @@
 ---
-title: Synkronointivirheiden vianmääritys | Microsoft Docs
+title: Synkronointivirheiden vianmääritys
 description: Tämä aihe sisältää ohjeita synkronointivirheiden tunnistamista, määrittämistä ja ratkaisemista varten.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3ed35bc7d0d9db1cd609078372d98535703f6583
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: b5e7b9c6cc6d7ac39b0067b723a5325ee9972c2e
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326511"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "7749009"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Synkronointivirheiden vianmääritys
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -26,37 +24,20 @@ Sovellusten [!INCLUDE[prod_short](includes/prod_short.md)] ja [!INCLUDE[prod_sho
 
 Virheet johtuvat usein siitä, että käyttäjä on tehnyt jotain yhdistetyille tietueille tai integroinnin määrittämisessä on tapahtunut virhe. Jos virheet ovat tapahtuneet yhdistettyjen tietueiden vuoksi, käyttäjät voivat ratkaista ne itse. Nämä virheet johtuvat esimerkiksi siitä, että poistat tietoja yhdestä liiketoimintasovelluksesta, mutta et molemmista, ja synkronoit tämän jälkeen. Lisätietoja on kohdassa [Synkronoinnin tilan näyttäminen](admin-how-to-view-synchronization-status.md).
 
-## <a name="example"></a>Esimerkki
-Tässä videossa on esimerkki siitä, miten tuotteen [!INCLUDE[prod_short](includes/cds_long_md.md)] synkronoinnissa tapahtuneet virheet voidaan korjata. Prosessi on sama kaikille integroinneille. 
+Integroinnin määrittämiseen liittyvät virheet vaativat yleensä järjestelmänvalvojan toimia. Voit tarkastella näitä virheitä **Integroinnin synkronointivirheet** -sivulla. 
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
+Seuraavassa taulukossa on esimerkkejä tyypillisistä ongelmista:  
 
-Integroinnin määrittämiseen liittyvät virheet vaativat yleensä järjestelmänvalvojan toimia. Voit tarkastella näitä virheitä **Integroinnin synkronointivirheet** -sivulla. Seuraavassa esitellään tyypillisiä virheitä:  
-  
-* Käyttäjille määritetyt käyttöoikeudet ja roolit ovat virheellisiä.  
-* Järjestelmänvalvojan tili on määritetty integroinnin käyttäjäksi.  
-* Integroinnin käyttäjän salasana on määritetty vaihdettavaksi, kun käyttäjä kirjautuu sisään.  
-* Valuuttojen vaihtokursseja ei ole määritetty yhdessä tai kummassakaan sovelluksessa.  
-  
-Nämä virheet on ratkaistava manuaalisesti. Sivulla olevat toiminnot voivat kuitenkin auttaa tässä. Esimerkiksi:  
+|Ongelma  |Ratkaisu  |
+|---------|---------|
+|Integroinnin käyttäjille määritetyt käyttöoikeudet ja roolit ovat virheellisiä. | Virheen lähde on [!INCLUDE[prod_short](includes/cds_long_md.md)], ja siinä on usein seuraava teksti: Pääkäyttäjästä (ID=\<user id>, type=8) puuttuu oikeus \<privilegeName>. Tämä virhe tapahtuu, koska integroinnin käyttäjältä puuttuu oikeus, joka sallii entiteetin käytön. Yleensä tämä virhe tapahtuu mukautettuja entiteettejä synkronoitaessa tai jos [!INCLUDE[prod_short](includes/cds_long_md.md)]en on asennettu sovellus, joka tarvitsee oikeuden muiden [!INCLUDE[prod_short](includes/cds_long_md.md)]-entiteettien käyttämiseen. Tämä virhe ratkaistaan määrittämällä oikeus integroinnin käyttäjälle [!INCLUDE[prod_short](includes/cds_long_md.md)]ssä.<br><br> Integroinnin käyttäjän nimi löytyy **Dataverse-yhteyden asetukset** -sivulla. Virhesanoma sisältää oikeuden nimen, mikä voi auttaa tunnistamaan entiteetin, jonka käyttöön tarvitaan oikeus. Lisää puuttuva oikeus kirjautumalla [!INCLUDE[prod_short](includes/cds_long_md.md)]en järjestelmänvalvojan tilillä ja muokkaamalla integroinnin käyttäjälle määritettyä käyttöoikeusroolia. Lisätietoja on kohdassa [Käyttöoikeuksien hallinta luomalla käyttöoikeusrooli tai muokkaamalla sitä](/power-platform/admin/create-edit-security-role). |
+|Olet yhdistämässä tietuetta, joka käyttää toista yhdistämätöntä tietuetta. Esimerkiksi asiakas, jonka valuuttaa ei ole yhdistetty, tai nimike, jonka mittayksikköä ei ole yhdistetty. | Riippuvainen tietue, kuten valuutta tai mittayksikkö on yhdistettävä ensin, ja sen jälkeen yhdistämistä voidaan kokeilla uudelleen. |
+
+Seuraavat Integroinnin synkronointivirheet -sivun työkalut auttavat ratkaisemaan näitä ongelmia manuaalisesti.  
 
 * **Lähde**- ja **Kohde**-kentät voivat sisältää linkkejä riviin, josta virhe löytyi. Tutki virhettä napsauttamalla linkkiä.  
 * **Poista yli 7 päivää vanhat tapahtumat**- ja **Poista kaikki tapahtumat** -toiminnot tyhjentävät luettelon. Näitä toimintoja käytetään yleensä sen jälkeen, kun useisiin tietueisiin vaikuttavan virheen syy on selvitetty. Mieti kuitenkin tarkasti, kun teet sen. Nämä toiminnot saattavat poistaa virheitä, jotka vielä vaikuttavat toimintaan.
-
-Joskus tietueiden aikaleimat voivat aiheuttaa ristiriitoja. "CDS-integrointitietue" -taulukossa on aikaleimat "Viimeinen synkronointi muokattu" ja "Synkronoitu viimeksi CDS muokattu" viimeiselle yhdistämiselle, joka on tehty riville molempiin suuntiin. Näitä aikaleimoja verrataan liike Business Centralin ja myyntitietueiden aikaleimoihin. Business Centralin aikaleima on Integrointitietue -taulukossa.
-
-Voit suodattaa synkronoitavat tietueet vertaamalla rivin aikaleimoja taulukossa Integrointitaulukon linkitys -kentissä Synkronoi mukautettu suodattimessa ja Synkronoi sis. taul. Muok. Suodattimella.”.
-
-Ristiriidan virhesanoma "Asiakastietuetta ei voida päivittää, koska sen muokkauspäivämäärä on myöhäisempi kuin tilitietueessa" tai "Tilitietuetta ei voida päivittää, koska sen muokkauspäivämäärä on myöhäisempi kuin asiakastietueessa" voi tapahtua, jos rivillä on aikaleima, joka on suurempi kuin IntegrationTableMapping."Synch. Modified On Filter", mutta se ei ole myöhäisempi kuin myynnin integroinnin tietueen aikaleima. Se tarkoittaa sitä, että lähderivi synkronoitiin manuaalisesti, mutta ei työjonotapahtuman mukaan. 
-
-Ristiriita johtuu siitä, että myös kohderiviä on muutettu – rivin aikaleima on uudempi kuin myynnin integroinnin tietueen aikaleima. Kohde tarkistetaan vain kaksisuuntaisissa taulukoissa. 
-
-Nämä tietueet siirretään nyt "Ohitettu synkronointi" -sivulle, jonka voit avata Business Centralin Microsoft Dynamics yhteyden asetukset -sivulta. Siellä voit määrittää säilytettävät muutokset ja synkronoida sitten tietueet uudelleen.
-
-## <a name="remove-couplings-between-records"></a>Liitosten poistaminen tietueiden väliltä
-Kun integraatiossa on jotain vikaa ja haluat poistaa tietueiden synkronoinnin pysäyttämisen, voit tehdä sen yhden tai usean tietueen kanssa kerralla. Voit irrottaa yhden tai useamman tietueen luettelosivuilta tai **Yhdistettyjen tietojen synkronointivirheet** -sivulta valitsemalla yhden tai useamman rivin ja valitsemalla **Poista yhdistäminen**. Voit myös poistaa kaikki yhden tai useamman taulukon yhdistämismäärityksen yhdistämiset **Integrointitaulukon yhdistämismääritykset** -sivulla. 
-
-Jos entiteetti, jolla on yksisuuntainen yhdistämismääritys, on poistettu tuotteesta [!INCLUDE[prod_short](includes/prod_short.md)], rikottu yhdistämismääritys on poistettava manuaalisesti. Voit tehdä tämän **Yhdistettyjen tietojen synkronointivirheet** -sivulla valitsemalla **Etsi poistettavaksi** -toiminnon ja poistamalla yhdistämismääritykset.
+* **Näytä virheen kutsupino** -toiminto näyttää tiedot, jotka voivat auttaa tunnistamaan virheen syyn. Jos virhettä ei voi ratkaista itse ja päätät lähettää tukipyynnön, sisällytä tiedot tukipyyntöön.
 
 ## <a name="see-also"></a>Katso myös
 [Integrointi Microsoft Dataversein kanssa](admin-prepare-dynamics-365-for-sales-for-integration.md)  

@@ -5,14 +5,14 @@ author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keyword: prepayment
-ms.date: 06/29/2021
+ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: a8b647e52457fc4bc2c7377ad6d4fb4f40d6dc58
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 517d815e323f2b1d0e3c120808a5543bff462ff3
+ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446313"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7701513"
 ---
 # <a name="set-up-prepayments"></a>Ennakkomaksujen määrittäminen
 Jos haluat, että asiakkaat lähettävät maksun ennen kuin toimitat heille tilauksen tai jos toimittaja haluaa maksun ennen kuin toimitus lähetetään sinulle, voit käyttää Ennakkomaksu-toimintoa. Ennakkomaksutoiminnon avulla voit laskuttaa ja periä toiminnolla asiakkailta edellytettäviä talletuksia tai suorittaa talletuksia toimittajille sekä varmistaa, että kaikki osamaksut kohdistetaan laskuun. Lisätietoja on kohdassa [Ennakkomaksulaskujen luominen](finance-how-to-create-prepayment-invoices.md).
@@ -60,14 +60,15 @@ Jos et ole vielä määrittänyt ennakkomaksujen pääkirjanpitotilejä, voit av
 > [!NOTE]  
 > Voit käyttää ennakkomaksuissa ja tavallisissa maksuissa samoja tai erilaisia numerosarjoja. Jos käytät erilaisia sarjoja, ne eivät saa olla päällekkäisiä, koska sarjoissa ei saa olla samoja numeroita.  
 
-## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Nimikkeiden, asiakkaiden ja toimittajien ennakkomaksuprosenttien määrittäminen  
-Voit määrittää nimikkeelle oletusennakkomaksuprosentin kaikkia asiakkaita, tiettyä asiakasta tai asiakkaan hintaryhmää kohti.  
+## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Nimikkeiden, asiakkaiden ja toimittajien ennakkomaksuprosenttien määrittäminen
+
+Voit määrittää nimikkeelle oletusennakkomaksuprosentin kaikkia asiakkaita, tiettyä asiakasta tai asiakkaan hintaryhmää kohti. Jos samaa ennakkomaksuprosenttia ei haluta käyttää kaikissa asiakkaissa, on määritettävä, mitä asiakkaita tai asiakashintaryhmiä ennakkomaksuprosentti koskee.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
 2. Valitse ensin nimike ja sitten **Ennakkomaksuprosentit**-toiminto.  
 3. Täytä tarvittavat kentät **Myynnin ennakkomaksuprosentit** -sivulla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-Voit määrittää asiakkaalle tai toimittajalle yhden kaikkia nimikkeitä ja kaikentyyppisiä myyntirivejä koskevan oletusennakkomaksuprosentin. Voit antaa sen asiakkaan tai toimittajan kortissa.
+Voit määrittää asiakkaalle tai toimittajalle yhden kaikkia nimikkeitä ja kaikentyyppisiä myyntirivejä koskevan oletusennakkomaksuprosentin. Voit antaa sen asiakkaan tai toimittajan kortissa. Vaikka seuraava menettely näyttää, miten asiakkaan ennakkomaksuprosentti määritetään, vastaavat vaiheet koskevat toimittajia.  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten vastaava linkki.
 2. Avaa asiakkaan kortti.

@@ -9,14 +9,14 @@ metadata:
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: phone, tablet
-  ms.date: 04/01/2021
+  ms.date: 10/25/2021
   ms.author: edupont
-  ms.openlocfilehash: 81887822a3163a7fee0d027ac1969545990f749a
-  ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+  ms.openlocfilehash: f0d31833373014ac5f1f089537bf03091540e223
+  ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
   ms.translationtype: HT
   ms.contentlocale: fi-FI
-  ms.lasthandoff: 05/28/2021
-  ms.locfileid: "6115944"
+  ms.lasthandoff: 11/04/2021
+  ms.locfileid: "7752528"
 title: Mobiilisovellukset – usein kysytyt kysymykset
 summary: "Tässä artikkelissa vastataan kokeneiden käyttäjien [!INCLUDE [prod_short](includes/prod_short.md)]in mobiilisovelluksia koskeviin usein kysyttyihin kysymyksiin.  \n"
 sections:
@@ -85,4 +85,7 @@ sections:
   - question: >
       Voinko liittää sovelluksen paikalliseen ratkaisuun?
     answer: "Kyllä saat. Se on hieman erilainen tapa kirjautua sisään, siinä kaikki. Lisätietoja on kohdassa [Business Central on-premises -version käyttäminen](install-mobile-app.md#using-business-central-on-premises).  \n"
-additionalContent: "\n## <a name=\"see-also\"></a>Katso myös\n\n[Business Central -sovelluksen hakeminen mobiililaitteeseen](install-mobile-app.md)  \n[Business Central -sovelluksen asentaminen Microsoft Teamsiin](across-install-app-for-teams.md)  \n\n[!INCLUDE[footer-include](includes/footer-banner.md)]"
+  - question: >
+      Voiko vieraskäyttäjät käyttää Business Central -ratkaisua sovelluksen avulla?
+    answer: "Ei. Vieraskäyttäjät ovat jostain muusta kuin omasta Azure Active Directory (AD) -vuokraajasta kutsuttuja käyttäjiä. Tässä tapauksessa sovellus todennetaan vieraskäyttäjän ensisijaiseen Azure AD -vuokraajaan. Kokeile Business Central -päätepisteen avaamista kyseisessä vuokraajassa oman vuokraajan sijaan.  \n"
+additionalContent: "\n## <a name=\"see-also\"></a>Katso myös\n\n[Business Centralin hakeminen mobiililaitteeseen](install-mobile-app.md)  \n[Business Central -sovelluksen asentaminen Microsoft Teamsiin](across-install-app-for-teams.md)  \n\n[!INCLUDE[footer-include](includes/footer-banner.md)]"

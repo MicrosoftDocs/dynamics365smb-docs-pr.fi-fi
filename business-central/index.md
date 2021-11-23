@@ -9,12 +9,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 14dd0aa40524ca1e261b0e57aa62bfcccd80afd4
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 91faf4a1adeb6b53ffd8dbca81d8ef72df90b97e
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588199"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724835"
 ---
 # <a name="welcome-to-prod_long"></a>Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin
 
@@ -90,12 +90,7 @@ Videokirjastossa voi katsoa myös uusia ja usein käytettyjä ominaisuuksia kosk
 
 ## <a name="get-notified-about-changes-through-an-rss-feed"></a>Ilmoitukset tehdyistä muutoksista RSS-syötteen kautta
 
-Jos haluat tilata RSS (Really Simple Syndication) -syötteen kaikista päivityksistä, jotka on tehty docs.microsoft.com -järjestelmässä [!INCLUDE [prod_short](includes/prod_short.md)]in yritystoimintoihin, käytä seuraavaa linkkiä:
-
-[RSS-syöte](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-bc-app%27)&locale=en-us)
-
-> [!NOTE]
-> RSS-syöte palauttaa luettelon viimeksi päivitetyistä 100 artikkelista. Luetteloa ei lajitella päivämäärän mukaan.  
+[!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 

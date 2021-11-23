@@ -12,12 +12,12 @@ ms.workload: na
 ms.search.keywords: purchase fixed asset
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8d57fedc09b6c94ecfce7e24e1eea097f837030e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 47eb44e7915407c1091791153ed62eb7b473a3a0
+ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442283"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7643928"
 ---
 # <a name="acquire-fixed-assets"></a>Hankittu käyttöomaisuus
 Kunkin käyttöomaisuuserän osalta tulee määrittää kortti, joka sisältää tietoja kyseisestä käyttöomaisuuserästä. Voit määrittää rakennuksia tai tuotantolaitoksia pääkäyttöomaisuuseräksi. Voit myös ryhmitellä niitä eri tavoin, kuten esimerkiksi luokan, osaston ja sijainnin mukaan. Kullekin käyttöomaisuuserälle on määritettävä ja liitettävä poistokirja ennen hankintaa.
@@ -75,7 +75,7 @@ Seuraavassa kerrotaan, miten käyttöomaisuus hankitaan manuaalisesti luomalla j
 ## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Yhden käyttöomaisuuserän hankintamenon kirjauksen peruuttaminen
 Jos teet virheen hankintamenon kirjaamisessa, voit poistaa tapahtuman **Peruuta KO-tapahtumia** -eräajon avulla ja kirjata sitten oikean hankintatapahtuman. Virheelliset merkinnät siirretään **KO-virhetapahtumat** -sivulle.
 
-Jos esimerkiksi kirjaat hankinnan virheelliselle päivämäärälle, se on korjattava mahdollisimman pian, koska käyttöomaisuuserän kirjauspäivämäärää käytetään useissa tärkeissä laskelmissa.
+Jos esimerkiksi kirjaat hankinnan väärälle päivämäärälle, se on korjattava mahdollisimman pian, koska käyttöomaisuuserän kirjauspäivämäärää käytetään monissa laskelmissa.
 
 > [!IMPORTANT]  
 >   **Peruuta tapahtumat** -toimintoa ei voi käyttää käyttöomaisuustapahtumissa.
@@ -90,9 +90,12 @@ Voit peruuttaa useiden käyttöomaisuuserien tapahtumakirjaukset kerralla **Peru
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Jäännösarvon kirjaaminen yhdessä hankintamenon kanssa
 Jäännösarvon voi kirjata käyttöomaisuuden KP-päiväkirjasta yhdessä hankintamenon kanssa.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO-päiväkirjat** ja valitse sitten vastaava linkki.
+> [!NOTE]
+> Tämä prosessi voi edellyttää, että Käyttöomaisuuspäiväkirjat-sivua mukautetaan lisäämällä Jäännösarvo-kenttä. Kenttää ei oletusarvoisesti näytetä sivulla. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuuspäiväkirjat** ja valitse sitten liittyvä linkki.
 2. Luo hankintarivi **Käyttöomaisuuspäiväkirjat**-sivulla. Lisätietoja on kohdassa [Käyttöomaisuuden hankinnan kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjan avulla](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
-3. Syötä jäännösarvosumma hyvityksenä (miinusmerkillä varustettuna) **Jäännösarvo**-kenttään.
+3. Syötä kirjankansionrivien **Jäännösarvo**-kenttään jäännösarvosumma hyvityksenä (lisää summan eteen miinusmerkki, kuten **-** 100).
 4. Valitse **Kirjaa**-toiminto.
 
 > [!NOTE]

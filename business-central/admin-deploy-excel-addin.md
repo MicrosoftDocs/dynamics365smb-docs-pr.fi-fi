@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
-ms.date: 10/01/2021
+ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 5788671162dc6480c8404338f6325dfae9233f44
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 06d3e22d0cdb68daa2b87e3569660dfd4e5724fd
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589374"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724610"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Business Central -apuohjelman hankkiminen Exceliin
 
@@ -25,7 +25,7 @@ ms.locfileid: "7589374"
 
 ### <a name="about-the-add-in"></a>Tietoja apuohjelmasta
 
-Apuohjelma on nimeltään **Microsoft Dynamics Office-apuohjelma**, ja sen voi asentaa [Office-kaupasta (AppSourcesta)](https://appsource.microsoft.com/). Kun apuohjelma on asennettu, **Muokkaa Excelissä** -toiminto on käytettävissä useimmissa luettelo- ja luettelo-osa-sivuissa **Jaa**-kuvakkeesta ![Jaa sivu toisessa sovelluksessa.](media/share-icon.png). Lisätietoja apuohjelman käyttämisestä on kohdassa [Tarkasteleminen ja muokkaaminen Excelissä Business Centralista](across-work-with-excel.md)
+Apuohjelma on nimeltään **Microsoft Dynamics Office-apuohjelma**, ja sen voi asentaa [Office-kaupasta (AppSourcesta)](https://appsource.microsoft.com/). Kun apuohjelma on asennettu, **Muokkaa Excelissä** -toiminto on käytettävissä useimmissa luettelo- ja luettelo-osa-sivuissa **Jaa**-kuvakkeesta ![Jaa sivu toisessa sovelluksessa.](media/share-icon.png). Lisätietoja apuohjelman käyttämisestä on kohdassa [Tarkasteleminen ja muokkaaminen Excelissä Business Centralista](across-work-with-excel.md).
 
 > [!NOTE]
 > Apuohjelma toimii vain Windowsissa, ei Mac-käyttöjärjestelmässä.
@@ -118,7 +118,7 @@ Apuohjelma on nyt yhdistetty [!INCLUDE [prod_short](includes/prod_short.md)]iin\
 
 ## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Valmistele laitteet ja verkko Excel-apuohjelmaa varten
 
-Verkkopalveluiden, kuten välityspalvelimien tai palomuurien, on sallittava reititys kunkin sellaisen asiakaslaitteen, johon apuohjelma on asennettu, ja useiden palvelun päätepisteiden välillä. Luettelo päätepisteistä on kohdassa [Verkon valmisteleminen Excel-apuohjelmaa varten](/dev-itpro/administration/configuring-network-for-addins).
+Verkkopalveluiden, kuten välityspalvelimien tai palomuurien, on sallittava reititys kunkin sellaisen asiakaslaitteen, johon apuohjelma on asennettu, ja useiden palvelun päätepisteiden välillä. Luettelo päätepisteistä on kohdassa [Verkon valmisteleminen Excel-apuohjelmaa varten](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
 ## <a name="troubleshooting"></a>Vianetsintä
 

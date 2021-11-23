@@ -1,5 +1,5 @@
 ---
-title: Ennakkolaskujen luominen
+title: Ennakkomaksulaskujen luominen
 description: Toiminta tilanteissa, joissa edellytät itse ennakkomaksua tai toimittajasi edellyttää sitä. Käytä kullekin myynti- tai ostoriville oletusprosenttiosuuksia tai muuta laskun summia tarpeen mukaan.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 94822d323c5b50cae66196b314316eb7a5c93a1d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2d5f6a7b39ccc5c77ee68d7a62e33bd166551095
+ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442183"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7701563"
 ---
 # <a name="create-prepayment-invoices"></a>Ennakkomaksulaskujen luominen
 
 Jos asiakkaiden on lähetettävä maksu, ennen kuin lähetät tilauksen heille, voit käyttää ennakkomaksutoimintoja. Näin voi toimia myös silloin, jos toimittaja edellyttää, että lähetät maksun ennen tilauksen toimittamista.  
 
-Voit aloittaa ennakkomaksuprosessin, kun olet luonut ostotilauksen. Jos kyseisellä asiakkaalla tai toimittajalla on oletusarvoinen ennakkomaksuprosentti, se sisällytetään automaattisesti tuloksena olevaan ennakkomaksulaskuun. Voit määrittää ennakkomaksuprosentin myös koko asiakirjalle.
+Voit aloittaa ennakkomaksuprosessin, kun olet luonut ostotilauksen. Jos tietyllä tilauksen nimikkeellä tai asiakkaalla tai toimittajalla on oletusarvoinen ennakkomaksuprosentti, se sisällytetään automaattisesti tuloksena olevaan ennakkomaksulaskuun. Voit määrittää ennakkomaksuprosentin myös koko asiakirjalle.
 
 Kun olet luonut myynti- tai ostotilauksen, voit luoda ennakkomaksun laskun. Voit käyttää kullekin myynti- tai ostoriville oletusprosenttiosuuksia tai voit muuttaa laskun summia tarpeen mukaan. Voit määrittää esimerkiksi koko tilauksen yhteissumman.  
 

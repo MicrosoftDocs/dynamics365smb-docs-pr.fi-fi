@@ -9,13 +9,13 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
 ms.date: 09/29/2021
-ms.author: a-jillk
-ms.openlocfilehash: 810888552252f06ab4b05931b408b4489409a80b
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.author: edupont
+ms.openlocfilehash: 0114eb0342f4113c40e85f15c21a9d628da7ffbb
+ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589371"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7724785"
 ---
 # <a name="business-central-quick-starts"></a>Business Centralin pika-aloitus
 
@@ -30,14 +30,14 @@ Ensimmäinen vaihe on yrityksen perustietojen antaminen. Näitä tietoja ovat es
 <!--
 ## Financial Basics
 
-[Financial Information](quick-start-financial-information.md)  
+Financial Information  
 (chart of accounts, but explained for non-accountants)
 -->
 
 <!--
 ## Basic Reports and Output Documents
 
-[Reports and Documents](quick-start-reports-and-documents.md)  
+Reports and Documents  
 (final reports, but also documents - how do I style invoices to work better for me?)
 -->
 
@@ -60,7 +60,7 @@ Lisätietoja tuotteiden ja palveluiden hankkimisesta on [Hankinnan pika-aloitus]
 <!--
 ## Understand Your Business with Business Intelligence
 
-[Business Intelligence](quick-start-business-intelligence.md)  
+Business Intelligence  
 (reports)
 -->
 

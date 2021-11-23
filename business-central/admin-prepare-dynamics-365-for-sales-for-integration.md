@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: dc4cf3d98fbbd4f7496820d152f009602192030a
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: afc1b56d2bfb1f94844b7b1e10af8a2522738dab
+ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482320"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7651485"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Dynamics 365 Sales -integrointi
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -97,6 +97,9 @@ Seuraavassa taulukossa on luettelo [!INCLUDE[prod_short](includes/prod_short.md)
 | Mittayksikkö | Yksikköryhmä | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Nimike | Tuote | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales-sovelluksen kontaktin suodatin: **Tuotteen tyyppi** on **Myyntivarasto** |
 | Resurssi | Tuote | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | Sales-sovelluksen kontaktin suodatin: **Tuotteen tyyppi** on **Palvelut** |
+| Nimikkeen mittayksikkö | CRM-mittayksikkö |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]| |
+| Resurssin mittayksikkö | CRM-mittayksikkö |[!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)]||
+| Yksikköryhmä | CRM Uomschedule | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ||
 | Asiakkaan hintaryhmä | Hinnasto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Myyntihinta | Tuotehinnasto | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] kontaktisuodatin: **Myyntikoodi** ei ole tyhjä, **Myyntityyppi** on **Asiakkaan hintaluokka** |
 | Mahdollisuus | Mahdollisuus | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
@@ -104,6 +107,50 @@ Seuraavassa taulukossa on luettelo [!INCLUDE[prod_short](includes/prod_short.md)
 | Myyntilaskurivi | Laskutustuote | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Myyntitilauksen otsikko | Myyntitilaus | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] Myynnin Ylätunnuksen suodatin: **Dokumenttityyppi** on Järjestys, **Tila** on Vapautettu. |
 | Myyntitilauksen huomautukset | Myyntitilauksen huomautukset | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
+
+> [!NOTE]
+> Nimikkeen mittayksikkö-, Resurssin mittayksikkö- ja Yksikköryhmä-taulukoiden yhdistämismääritykset ovat käytettävissä vain, jos järjestelmänvalvoja on ottanut **Ominaisuuspäivitys: useiden mittayksiköiden synkronointi Dynamics 365 Salesin kanssa** -ominaisuuden käyttöön **Ominaisuuksien hallinta** -sivulla. Lisätietoja on kohdassa [Nimikkeiden ja resurssien synkronointi eri mittayksiköitä käyttävien tuotteiden kanssa](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
+
+## <a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a>Nimikkeiden ja resurssien synkronointi eri mittayksiköitä käyttävien tuotteiden kanssa
+Yritykset usein tuottavat tai ostavat tiettyä mittayksikköä käyttäviä nimikkeitä ja myyvät niitä sitten käyttämällä toista mittayksikköä. Useita mittayksiköitä käyttävien nimikkeiden synkronointi edellyttää, että **Ominaisuuspäivitys: useiden mittayksiköiden synkronointi Dynamics 365 Salesin kanssa** -ominaisuus otetaan käyttöön **Ominaisuuksien hallinta** -sivulla. 
+
+Kun näin tehdään, uusi Yksikköryhmä-taulukko luodaan, ja se määritetään kullekin nimikkeelle ja resurssille [!INCLUDE[prod_short](includes/prod_short.md)]issa. Tällä tavoin [!INCLUDE[prod_short](includes/prod_short.md)]in Yksikköryhmä-, Nimikkeen mittayksikkö- ja Resurssin mittayksikkö -taulukot voidaan yhdistää Dynamics 365 Salesin yksikköryhmään <!--Need to verify this name--> [!INCLUDE[crm_md](includes/crm_md.md)]ssa seuraavassa kuvassa näkyvällä tavalla.
+
+:::image type="content" source="media/unit group 1.png" alt-text="Yksikköryhmien taulukoiden yhdistämismääritykset":::
+
+Kullekin yksikköryhmälle voidaan luoda useita mittayksiköitä, ja nämä ryhmät voidaan määrittää tuotteisiin [!INCLUDE[crm_md](includes/crm_md.md)]issa. Tämän jälkeen tuotteet voidaan synkronoida nimikkeiden ja resurssien kanssa [!INCLUDE[prod_short](includes/prod_short.md)]issa. Nimikkeen mittayksiköt ja resurssiin mittayksiköt voidaan yhdistää manuaalisesti yksikköryhmään. Jos nimikkeen tai resurssin yksikköryhmää ei näin toimittaessa ole yhdistetty [!INCLUDE[crm_md](includes/crm_md.md)]in yksikköryhmään esimerkiksi siksi, että yksikköryhmää ei ole, [!INCLUDE[prod_short](includes/prod_short.md)] luo yksikköryhmän automaattisesti [!INCLUDE[crm_md](includes/crm_md.md)]issa.
+
+### <a name="mapping-items-and-resources-to-products"></a>Nimikkeiden ja resurssien yhdistäminen tuotteisiin
+Kun **Ominaisuuspäivitys: useiden mittayksiköiden synkronointi Dynamics 365 Salesin kanssa** -ominaisuus otetaan käyttöön, tuloksena on seuraavat:
+
+* Nimikkeille ja resursseille luodaan uudet yhdistämismääritykset.
+* Aiemmin luodut yhdistämismääritykset poistetaan. <!--which mappings?-->
+* Tietojen päivitys luo yksikköryhmät nimikkeille ja resursseille.
+
+Näiden uusien yhdistämismääritysten käyttämäinen edellyttää, että yksikköryhmät, nimikkeen mittayksikkö ja resurssin mittayksikkö synkronoidaan. Lisäksi nimikkeet ja resurssit on synkronoitava uudelleen. 
+
+> [!NOTE]
+> [!INCLUDE[crm_md](includes/crm_md.md)] ei salli tuotteen yksikköryhmän muuttamista. Niinpä tuotteet on poistettava käytöstä sekä nimikkeiden ja resurssien yhdistäminen purettava, jonka jälkeen synkronointi tehdään luomalla uudet tuotteet [!INCLUDE[crm_md](includes/crm_md.md)]issa. 
+
+Yksikköryhmien yhdistäminen aloitetaan seuraavasti:
+
+1. Varmista, että [!INCLUDE[crm_md](includes/crm_md.md)]in tuotteita ei ole yhdistetty [!INCLUDE[prod_short](includes/prod_short.md)]in nimikkeisiin tai resursseihin. Jos ne on yhdistetty, siirry **Nimikkeet** ja/tai **Resurssit**-sivulle, valitse yhdistetyt tietueet suodatinvaihtoehtojen avulla. Valitse sitten **Dynamics 365 Sales** -toiminto ja valitse lopuksi **Poista yhdistäminen**. Tämä aikatauluttaa taustatyön poistamaan tietueiden yhdistämisen. Suoritettavan työn tila voidaan tarkistaa käyttämällä **Synkronointiloki**-toimintoa. Lisätietoja on kohdassa [Yhdistäminen ja synkronointi](admin-how-to-couple-and-synchronize-records-manually.md). 
+2. Koska uudet tuotteet luodaan [!INCLUDE[crm_md](includes/crm_md.md)]issa siten, että niissä on uudet yksikköryhmät, nimien kaksoiskappaleet voidaan estää jollakin seuraavista tavoista:
+    
+    * Anna tuotteille uusi nimi ja poista ne sitten käytöstä [!INCLUDE[crm_md](includes/crm_md.md)]issa. Lisätietoja on kohdassa [Tuotteiden poistaminen käytöstä (myyntikeskus)](/dynamics365/sales-enterprise/retire-product). Tuotteita voi joukkomuokata Microsoft Excelissa kirjautumalla Power Appsiin, valitsemalla ympäristön, siirtymällä **Tuotteet**-taulukkoon ja valitsemalla **Tiedot**-taulukon. Poista kaikki käytetyt suodattimet. Valitse **Tiedot**-ryhmässä **Muokkaa tietoja Excelissä** -toiminto. Lisää yhdistettyihin tuotteisiin etu- tai jälkiliite ja poista ne käytöstä.
+    * Poista tuotteet käytöstä ja poista ne. 
+
+3. Synkronoi **Yksikköryhmät**, **Mittayksiköt**, **Nimikkeet** ja **Resurssit** seuraavasti:
+    1. Avaa [!INCLUDE[prod_short](includes/prod_short.md)]issa **Dynamics 365 Sales -yhteysasetukset** -sivu.
+    2. Avaa **Dataversen täyden synkronoinnin tarkistus** -sivu **Suorita täysi synkronointi** -toiminnolla.
+    3. Valitse **NIMIKKEEN MITTAYKSIKKÖ**-, **RESURSSIN MITTAYKSIKKÖ**- JA **YKSIKKÖRYHMÄ**-yhdistämismäärityksiin **Suosittele täyttä synkronointia** -toiminto.
+    4. Valitse **Synkronoi kaikki** -toiminto.
+
+    > [!NOTE]
+    > Toiminto tee täyden synkronoinnin kaikille yhdistämismäärityksille, joissa ei ole vielä täysin synkronoitu. Kyseisten yhdistämismääritysten synkronointi voidaan estää poistamalla yhdistämismääritykset sivulta. Ne poistetaan tässä tapauksessa vain nykyisestä täydestä synkronoinnista; yhdistämismäärityksiä ei siis poisteta kokonaan.
+    
+5. Valitse ensin **NIMIKE-TUOTE**-yhdistämismääritys ja sitten **Käynnistä uudelleen** -toiminto. Näin [!INCLUDE[crm_md](includes/crm_md.md)]in nimikkeistä luodaan uudet tuotteet ja määritetään nimikekohtainen uusi yksikköryhmä.
+6. Valitse ensin **RESURSSI-TUOTE**-yhdistämismääritys ja sitten **Käynnistä uudelleen** -toiminto. Näin [!INCLUDE[crm_md](includes/crm_md.md)]in resursseista luodaan uudet tuotteet ja määritetään resurssikohtainen uusi yksikköryhmä.
 
 ### <a name="synchronization-rules"></a>Synkronointisäännöt
 

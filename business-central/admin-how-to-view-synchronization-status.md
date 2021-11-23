@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0a33631908d0f3943486f96bbf6b5e2f801c440b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: dce8b5b3d762d3e4d98668530685fdeb9cb58de4
+ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441316"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7751740"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Synkronointitöiden tilan näyttäminen
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -28,11 +28,11 @@ Käytä **Yhdistettyjen tietojen synkronointivirheet** -sivua, kun haluat näytt
 > [!Note]
 > **Yhdistettyjen tietojen synkronointivirheet** -sivulla näkyvät yhdistettyjen tietueiden töihin liittyvät tiedot. Jos ratkaiset kaikki virheet, mutta tietueita ei silti synkronoida, syy voi olla integroinnin asetuksissa. Järjestelmänvalvojan on yleensä ratkaistava tämäntyyppiset virheet.   
 
-<!--
+## <a name="example"></a>Esimerkki
+Tässä videossa on esimerkki siitä, miten tuotteen [!INCLUDE[prod_short](includes/cds_long_md.md)] synkronoinnissa tapahtuneet virheet voidaan korjata. Prosessi on sama kaikille integroinneille. 
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098171]
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
 
--->
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Yhdistettyjen tietueiden synkronointivirheiden tarkasteleminen ja ratkaiseminen
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yhdistettyjen tietojen synkronointivirheet** ja valitse sitten aiheeseen liittyvä linkki.
@@ -51,6 +51,11 @@ Käytä **Yhdistettyjen tietojen synkronointivirheet** -sivua, kun haluat näytt
 ## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Tietyn (manuaalisesti synkronoidun) tietueen synkronointilokin näyttäminen
 1. Voit esimerkiksi avata asiakkaan, nimikkeen tai minkä tahansa muun tietoja [!INCLUDE[prod_short](includes/prod_short.md)]- ja Dataverse- tai [!INCLUDE[crm_md](includes/crm_md.md)]-sovelluksen välillä synkronoivan tietueen.
 2. Valitse **Synkronointiloki** toimenpide tarkastellaksesi valitun tietueen synkronointilokia. Esimerkiksi tiettyä asiakasta jonka synkronoit manuaalisesti.
+
+## <a name="remove-couplings-between-records"></a>Liitosten poistaminen tietueiden väliltä
+Kun integraatiossa on jotain vikaa ja haluat poistaa tietueiden synkronoinnin pysäyttämisen, voit tehdä sen yhden tai usean tietueen kanssa kerralla. Voit irrottaa yhden tai useamman tietueen luettelosivuilta tai **Yhdistettyjen tietojen synkronointivirheet** -sivulta valitsemalla yhden tai useamman rivin ja valitsemalla **Poista yhdistäminen**. Voit myös poistaa kaikki yhden tai useamman taulukon yhdistämismäärityksen yhdistämiset **Integrointitaulukon yhdistämismääritykset** -sivulla. 
+
+Jos entiteetti, jolla on yksisuuntainen yhdistämismääritys, on poistettu tuotteesta [!INCLUDE[prod_short](includes/prod_short.md)], rikottu yhdistämismääritys on poistettava manuaalisesti. Voit tehdä tämän **Yhdistettyjen tietojen synkronointivirheet** -sivulla valitsemalla **Etsi poistettavaksi** -toiminnon ja poistamalla yhdistämismääritykset.
 
 ## <a name="see-also"></a>Katso myös  
 [Dynamics 365 Sales -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md)  
