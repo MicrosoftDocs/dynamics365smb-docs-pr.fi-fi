@@ -24,27 +24,13 @@
 
 ### Rakennetiedot
 #### [Sovellussuunnittelun tietojen yleiskuvaus](design-details-application-design.md)
-#### Rakennetiedot: tarjonnan suunnittelu
-##### [Tarjonnan suunnitteluyhteenveto](design-details-supply-planning.md)
-##### [Rakennetiedot: Suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md)  
-##### [Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys](design-details-reservation-order-tracking-and-action-messaging.md)  
-##### [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)  
-##### [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)  
-##### [Rakennetiedot: suunnittelun parametrit](design-details-planning-parameters.md)  
-##### [Rakennetiedot: suunnittelun kohdistustaulukko](design-details-planning-assignment-table.md)  
-##### [Rakennetiedot: kysyntä tyhjä-sijainnissa](design-details-demand-at-blank-location.md)  
-##### [Rakennetiedot: siirrot suunnittelussa](design-details-transfers-in-planning.md)
 #### Rakennetiedot: varaston arvostus
-##### [Kustannuslaskennan yleiskuvaus](design-details-inventory-costing.md)
+##### [Varaston arvostus: rakennetiedot](design-details-inventory-costing.md)
 ##### [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)  
 ##### [Rakennetiedot: nimikkeiden arvostusmenetelmän muuttaminen](design-details-changing-costing-methods.md)
 ##### [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md)  
 ##### [Rakennetiedot: Nimikkeen kohdistuksen tunnettu ongelma](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 ##### [Rakennetiedot: Kustannuksen muutos](design-details-cost-adjustment.md)  
-##### Rakennetiedot: Muutoksen arvotapahtuman kirjauspäivämäärä
-###### [Rakennetiedot: Muutoksen arvotapahtuman kirjauspäivämäärä](design-details-inventory-adjustment-value-entry-posting-date.md)  
-###### [Virhesanoma: "Kirjauspäivämäärä ei kuulu sallittujen kirjauspäivämäärien alueeseen"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
-###### [Oikaisun arvon tapahtuman kirjauspäivämäärä verrattuna lähdetapahtumaan](design-details-inventory-adjustment-value-entry-source-entry.md)  
 ##### [Rakennetiedot: Oletetun kustannuksen kirjaus](design-details-expected-cost-posting.md)  
 ##### [Rakennetiedot: Keskimääräinen kustannus](design-details-average-cost.md)  
 ##### [Rakennetiedot: varianssi](design-details-variance.md)  
@@ -58,8 +44,26 @@
 ##### [Rakennetiedot: pääkirjanpidon tilit](design-details-accounts-in-the-general-ledger.md)
 ##### [Rakennetiedot: varaston arvostus](design-details-inventory-valuation.md)  
 ##### [Rakennetiedot: uudelleenarvostus](design-details-revaluation.md)
+#### Rakennetiedot: Muutoksen arvotapahtuman kirjauspäivämäärä
+##### [Muutoksen arvotapahtuman kirjauspäivämäärän yleiskatsaus](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Virhesanoma: "Kirjauspäivämäärä ei kuulu sallittujen kirjauspäivämäärien alueeseen"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+##### [Oikaisun arvon tapahtuman kirjauspäivämäärä verrattuna lähdetapahtumaan](design-details-inventory-adjustment-value-entry-source-entry.md)
+#### Rakennetiedot: dimensioyhdistelmä-tapahtumat
+##### [Rakennetiedot: Dimensioyhdistelmätapahtumien yleiskatsaus](design-details-dimension-set-entries-overview.md)
+##### [Rakennetiedot: Dimensioyhdistelmien etsiminen](design-details-searching-for-dimension-combinations.md)
+##### [Rakennetiedot: taulukkorakenne](design-details-table-structure.md)
+#### Rakennetiedot: tarjonnan suunnittelu
+##### [Tarjonnan suunnittelu: rakennetiedot](design-details-supply-planning.md)
+##### [Rakennetiedot: Suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md)  
+##### [Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys](design-details-reservation-order-tracking-and-action-messaging.md)  
+##### [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)  
+##### [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)  
+##### [Rakennetiedot: suunnittelun parametrit](design-details-planning-parameters.md)  
+##### [Rakennetiedot: suunnittelun kohdistustaulukko](design-details-planning-assignment-table.md)  
+##### [Rakennetiedot: kysyntä tyhjä-sijainnissa](design-details-demand-at-blank-location.md)  
+##### [Rakennetiedot: siirrot suunnittelussa](design-details-transfers-in-planning.md)
 #### Rakennetiedot: f. varaston hallinta
-##### [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
+##### [Warehouse Managementin rakennetiedot](design-details-warehouse-management.md)
 ##### [Rakennetiedot: Fyysisen varaston yleiskuvaus](design-details-warehouse-overview.md)  
 ##### [Rakennetiedot: f. varaston asetus](design-details-warehouse-setup.md)  
 ##### [Rakennetiedot: saapuvan fyysisen varastoinnin virta](design-details-inbound-warehouse-flow.md)  
@@ -68,7 +72,7 @@
 ##### [Rakennetiedot: lähtevän fyysisen varastoinnin virta](design-details-outbound-warehouse-flow.md)  
 ##### [Rakennetiedot: integrointi varaston kanssa](design-details-integration-with-inventory.md)
 #### Rakennetiedot: nimikkeen seuranta
-##### [Nimikkeen seurannan yleiskuvaus](design-details-item-tracking.md)
+##### [Nimikkeen seuranta: rakennetiedot](design-details-item-tracking.md)
 ##### [Rakennetiedot: nimikkeen seurannan rakenne](design-details-item-tracking-design.md)  
 ##### [Rakennetiedot: nimikkeen seurannan kirjauksen rakenne](design-details-item-tracking-posting-structure.md)  
 ##### [Rakennetiedot: aktiivisen nimikkeen seurantatapahtumat verrattuna historiallisen nimikkeen seurantatapahtumiin](design-details-active-versus-historic-item-tracking-entries.md)  
@@ -78,14 +82,10 @@
 ##### [Rakennetiedot: nimikkeen seuranta ja varaukset](design-details-item-tracking-and-reservations.md)  
 ##### [Rakennetiedot: nimikkeen seuranta f. varastossa](design-details-item-tracking-in-the-warehouse.md)
 #### Rakenteen tiedot: Yleisen päiväkirjan kirjausrivi
-##### [Yleisen päiväkirjan kirjausrivi](design-details-general-journal-post-line.md)
+##### [Yleisen päiväkirjan kirjausrivin rakennetiedot](design-details-general-journal-post-line.md)
 ##### [Yleisen päiväkirjan kirjausrivin yleiskuva](design-details-general-journal-post-line-overview.md)  
 ##### [Rakenteen tiedot: Kirjausliittymän rakenne](design-details-posting-interface-structure.md)  
 ##### [Rakenteen tiedot: Kirjausohjelman rakenne](design-details-posting-engine-structure.md)  
-#### Rakennetiedot: dimensioyhdistelmä-tapahtumat
-##### [Rakennetiedot: Dimensioyhdistelmätapahtumien yleiskatsaus](design-details-dimension-set-entries-overview.md)  
-##### [Rakennetiedot: Dimensioyhdistelmien etsiminen](design-details-searching-for-dimension-combinations.md)  
-##### [Rakennetiedot: taulukkorakenne](design-details-table-structure.md)  
 
 ## Kokeile
 ### [Kokeilut ja tilaukset](across-preview.md)
@@ -703,6 +703,7 @@
 ### [Käyttöomaisuuden poisto tai kuolettaminen](fa-how-depreciate-amortize.md)
 ### [Käyttöomaisuuden käytöstä poistaminen](fa-how-dispose-retire.md)
 ### [Käyttöomaisuuden budjettien hallinta](fa-how-manage-budgets.md)
+### [KO-tapahtumien vianetsintä](fa-troubleshooting-fa-ledger-entries.md)
 
 ## Kontaktienhallinta
 ### [Liikesuhteiden hallinnan yleiskatsaus](marketing-relationship-management.md)
@@ -1264,13 +1265,14 @@
 ##### [Meksikon verotunnustyypit](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [Arvonlisäveron uudelleenlaskenta](LocalFunctionality/Mexico/vat-recalculation.md)
 #### Sähköinen laskutus
-##### [Sähköinen laskutus](LocalFunctionality/Mexico/electronic-invoicing.md)
-##### [Sähköisen laskutuksen määrittäminen](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
-##### [Sähköisten laskujen luominen](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Sähköinen laskutus (MX)](LocalFunctionality/Mexico/electronic-invoicing.md)
+##### [PAC-verkkopalvelujen määrittäminen](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
+##### [Sähköisen laskutuksen määrittäminen (MX)](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
+##### [Sähköisten laskujen luominen (MX)](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
+##### [Carta de Porte -pakkausluettelot ja siirtotilaukset (MX)](LocalFunctionality/Mexico/packing-slips-transfer-orders.md)
+#### Yleiset
 ##### [Meksikon sähköisen kirjanpidon säädökset](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
 ##### [Sähköisten maksujen suorittaminen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### Yleiset
-##### [PAC-verkkopalvelujen määrittäminen](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Vianmääritysraporttien tulostaminen](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
 ##### [Talletusten luominen](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 

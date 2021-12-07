@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: cf59fb5169419698e3593e1326a38898543b2ac9
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: a2acba6a6140be088d38d7473557fc4b7cd40fae
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588249"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865440"
 ---
 # <a name="keyboard-shortcuts"></a>Pikanäppäimet
 
@@ -37,7 +37,7 @@ Pikanäppäimet ovat helppokäyttötoimintoja. Ne auttavat ja tehostavat sivun e
 Useimmat pikanäppäimet ovat samoja sekä Windows- että macOS-käyttöjärjestelmissä. Jotkin pikanäppäimet ovat kuitenkin erilaisia macOS-järjestelmässä. Seuraavissa osa macOS-käyttöjärjestelmän pikanäppäimet ovat sulkeissa.
 
 > [!NOTE]
-> Tässä ohjeaiheessa käsiteltyjen yleisten pikanäppäimien lisäksi käytössä on useita liiketoimintakohtaisia pikanäppäimiä. Esimerkiksi [!INCLUDE[prod_short](includes/prod_short.md)]in yleisessä versiossa F9 kirjaa asiakirjan ja CTRL+F7 näyttää tietueen kirjanpitotapahtumat, kun avataan tietue kortissa. (Käytetyssä ratkaisussa voi olla käytössä jotkin muut pikanäppäimet.) Pikanäppäin näkyy kyseisen toiminnon työkaluvihjeessä.
+> Tässä artikkelissa käsiteltyjen yleisten pikanäppäimien lisäksi käytössä on useita liiketoimintakohtaisia pikanäppäimiä. Esimerkiksi [!INCLUDE[prod_short](includes/prod_short.md)]in yleisessä versiossa F9 kirjaa asiakirjan ja CTRL+F7 näyttää tietueen kirjanpitotapahtumat, kun avataan tietue kortissa. Tämä artikkeli sisältää joitakin yleisempiä yrityskohtaisia pikanäppäimiä, jotka näkyvät kursivoituna. Huomaa, että todelliset pikakuvakkeet voivat olla erilaisia ratkaisussa. Käyttöliittymässä pikanäppäin näkyy kyseisen toiminnon työkaluvihjeessä.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Yleiset pikanäppäimet
 
@@ -83,7 +83,15 @@ Seuraavassa taulukossa kuvataan luettelosivulla käytettävät pikanäppäimet. 
 |--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |Lajittele valittu sarake nousevaan tai laskevaan järjestykseen.|Ei sovellu.|
 |Alt+N|Lisää uusi rivi muokattavaan luetteloon, kuten **KP-budjetit**-sivulle.|Sama.|
+|Shift+F9|Kirjaa ja tulosta asiakirja.|Sama.|
 |Shift+F10 |Avaa valitulla rivillä käytettävissä olevien asetusten valikko.|Sama.|
+|Alt + D|Avaa dimensioyhdistelmän tapahtumat.|Sama.|
+|Ctrl+F7|Avoimet tapahtumat, lokitapahtumat, kustannustapahtumat ja niin edelleen.|
+|Ctrl+F9|Vapauta asiakirja.|Sama.|
+|*F7*|Avaa tilastot.|Sama.|
+|*F9*|Kirjaa, myönnä, rekisteröi tai peruuta asiakirja.|Sama.|
+|*Shift + Ctrl + F*|Lähetä ehdotetut rivit kassavirtalaskentataulukkosivulla.|Ei sovellu.|
+|*Shift + Ctrl + I*|Tarkastele sarja- ja eränumeroita, jotka on nimitetty asiakirjan tai päiväkirjan nimikkeelle.|Ei sovellu.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Rivien ja sarakkeiden välillä siirtyminen
 
@@ -103,7 +111,7 @@ Rivejä ja sarakkeita sisältäviä ruudukoita on useilla sivutyypeillä sovellu
 | Ylänuoli | Siirry saman sarakkeen ylemmän rivin kenttään. | Siirry saman sarakkeen ylemmän rivin ruutuun. |
 | Oikea nuoli | Siirry vain luku -luettelossa saman rivin seuraavaan oikealla olevaan kenttään.<br /><br />Siirry muokattavassa luettelossa oikealle nykyisestä kentästä. | Siirry saman rivin seuraavaan oikealla olevaan ruutuun. |
 | Vasen nuoli | Siirry vain luku -luettelossa saman rivin edelliseen vasemmalla olevaan kenttään. <br /><br />Siirry muokattavassa luettelossa vasemmalle nykyisestä kentästä. | Siirry saman rivin edelliseen vasemmalla olevaan ruutuun. |
-| Sarkain | Siirry muokattavassa luettelossa saman rivin seuraavaan oikealla olevaan kenttään. | Ei sovellu. |  |
+| Sarkain | Siirry muokattavassa luettelossa saman rivin seuraavaan oikealla olevaan kenttään. | Ei sovellu. | 
 | Vaihto+Sarkain | Siirry muokattavassa luettelossa saman rivin edelliseen vasemmalla olevaan kenttään. | Ei sovellu. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Valitseminen, kopioiminen ja liittäminen
@@ -142,7 +150,9 @@ Seuraavilla pikanäppäimillä voi näyttää ja muokata tietueita korttisivuill
 
 |Paina näitä näppäimiä<br />(macOS)|Tehtävä|
 |--------------------------------|----------|
+|Alt + D|Avaa dimensioyhdistelmän tapahtumat.|
 |Alt+F6|Vaihtele nykyisen pikavälilehden tai osan (alasivu) tiivistystä ja laajennusta.|
+|Alt+F9|Luo uusi asiakirja ja kirjaa se.|
 |Alt+G|Avaa kirjattuun asiakirjaan liittyvien tapahtumien haku **Etsi tapahtumat** -sivulta. Toimii myös luetteloissa.|
 |Alt+N |Lue uusi tietue avaamalla sivu; vastaa **Uusi**-toiminnon valitsemista. |
 |Alt+Vaihto+N |Sulje sivu ja luo uusi tietue avaamalla uusi sivu; vastaa **OK ja uusi**-toiminnon valitsemista. |
@@ -152,9 +162,15 @@ Seuraavilla pikanäppäimillä voi näyttää ja muokata tietueita korttisivuill
 |Ctrl + Ylänuoli |Avaa objektin edellinen tietue.|
 |Ctrl+Insert |Lisää uusi rivi asiakirjoihin.|
 |Ctrl+Delete |Poista asiakirjojen, päiväkirjojen ja työkirjojen rivi.|
+|Ctrl+F7|Avoimet tapahtumat, lokitapahtumat, kustannustapahtumat ja niin edelleen.|
+|Ctrl+F9|Vapauta asiakirja.|
 |Ctrl+Shift+F12 |Suurenna asiakirjasivun rivinimikeosa. Palaa normaalinäyttöön painamalla näppäimiä uudelleen. Lisätietoja on kohdassa [Kohdistaminen rivinimikkeisiin](ui-enter-data.md#Focus).|
 |F6|Siirry seuraavaan pikavälilehteen tai osaan (tai alisivulle).|
+|*F7*|Avaa tilastot.|
+|*F9*|Kirjaa, myönnä, rekisteröi tai peruuta asiakirja.|
+|*Shift + Ctrl + F9*|Kirjaa, tulosta ja hyllytä fyysisen varastoinnin vastaanotto.|
 |Shift+F6|Siirry edelliseen pikavälilehteen tai osaan (tai alisivulle).|
+|*Shift + F9*|Kirjaa ja tulosta asiakirja.|
 
 ## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Kenttien pikatapahtuman pikanäppäimet
 

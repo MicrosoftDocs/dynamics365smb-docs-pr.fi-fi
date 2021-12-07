@@ -11,12 +11,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 1345, 7002, 7007, 7015, 7016, 7023
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8b7943caba8482e39217307be904f368f0ec31c0
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: 5d03e3c567ed6a2932691cee58685e522814a03f
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752428"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865544"
 ---
 # <a name="record-sales-prices-and-discounts"></a>Myyntihintojen ja -alennusten kirjaaminen
 > [!NOTE]
@@ -52,15 +52,13 @@ Myyntialennuksia varten voidaan määrittää ja niissä voidaan käyttää seur
 
 Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käyttöön **Uusi myyntihinnoittelukokemus** -ominaisuuspäivityksen. Jos ominaisuuspäivitystä ei ole otettu käyttöön, noudata Nykyinen kokemus -välilehdessä olevia ohjeita. 
 
-#### <a name="current-experience"></a>[Nykyinen kokemus](#tab/current-experience/)
+## <a name="current-experience"></a>[Nykyinen kokemus](#tab/current-experience)
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten vastaava linkki.
 2. Valitse asiakas ja valitse sitten **Hinnat**-toiminto.
 3. Täytä tarvittaessa rivin muut kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Täytä rivi jokaiselle yhdistelmälle, jossa asiakkaalle myönnetään erikoismyyntihinta.
 
----
-
-#### <a name="new-experience"></a>[Uusi kokemus](#tab/new-experience/)  
+## <a name="new-experience"></a>[Uusi kokemus](#tab/new-experience)  
 Uusien hinnastojen tila on oletusarvoisesti Luonnos. Luonnoshinnastoja ei sisällytetä hintalaskelmiin. Kun rivejä ei enää lisätä ja haluat aloittaa hintojen käyttämisen, muuta tilaksi Aktiivinen.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten vastaava linkki.
@@ -100,7 +98,7 @@ Kun **Uusi myyntihinnoittelukokemus** -ominaisuuspäivitys otetaan käyttöön *
 
 Jos uusi hinnoittelukokemus on jo otettu käyttöön, oletushinnastot voidaan luoda manuaalisesti tai aiemmin luotu hinnasto voidaan määrittää oletukseksi. Aiemmin luotu hinnasto määritetään oletukseksi siirtämällä **Salli oletusten päivittäminen** -vaihtopainike hinnastossa käyttöönottoasentoon. Määritä hinnasto sitten oletukseksi **Myyntien ja myyntisaamisten asetukset**-, **Ostojen ja ostovelkojen asetukset**- tai **Projektienhallinnan asetukset** -sivuilla.
 
-### <a name="editing-active-price-lists"></a>Aktiivisen hinnastojen muokkaaminen
+## <a name="editing-active-price-lists"></a>Aktiivisen hinnastojen muokkaaminen
 Jos hintojen muokkaaminen halutaan sallia nimikkeiden, resurssien, asiakkaiden, toimittajien tai muiden hinnoittelua käyttävien entiteettien aktiivisissa hinnastoissa, **Sallii aktiivisen hinnan muokkaaminen** -vaihtopainike siirretään käyttöönottoasentoon **Myyntien ja myyntisaamisten asetukset**- ja **Ostojen ja ostovelkojen asetukset** -sivuilla. 
 
 Kun **Salli aktiivisen hinnan muokkaus** -vaihtopainike on siirretty käytöstäpoistoasentoon, hinnaston päivittäminen edellyttää, että hinnaston tilaksi muutetaan **Luonnos**. Muutos tehdään tämän jälkeen ja hinnasto aktivoidaan uudelleen.
@@ -121,7 +119,7 @@ Uusia hintoja voi sitten verrata muihin hinnastoihin **Ota käyttöön hinnan mu
 ## <a name="to-copy-sales-prices"></a>Myyntihintojen kopioiminen
 Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käyttöön **Uusi myyntihinnoittelukokemus** -ominaisuuspäivityksen. Jos ominaisuuspäivitystä ei ole otettu käyttöön, noudata Nykyinen kokemus -välilehdessä olevia ohjeita.
 
-#### <a name="current-experience"></a>[Nykyinen kokemus](#tab/current-experience/)  
+## <a name="current-experience"></a>[Nykyinen kokemus](#tab/current-experience)  
 
 Jos haluat kopioida myyntihintoja, kuten jonkin yksittäisen asiakkaan hintoja koko asiakashintaryhmälle, sinun tulee ajaa **Ehdota myyntihinta työkirja** -erätyö **Myyntihintatyökirja**-sivulla.  
 
@@ -135,9 +133,7 @@ Jos haluat kopioida myyntihintoja, kuten jonkin yksittäisen asiakkaan hintoja k
    > [!NOTE]  
    > Tämä eräajo luo ainoastaan ehdotuksia eikä se ota ehdotettuja muutoksia käyttöön. Jos olet tyytyväinen ehdotuksiin ja haluat ottaa ne käyttöön eli lisätä ne **Myyntihinnat**-sivulle, valitse **Ota käyttöön hinnan muutos** -toiminto **Myyntihinnan työkirja** -sivulla.
 
----
-
-#### <a name="new-experience"></a>[Uusi kokemus](#tab/new-experience/)  
+## <a name="new-experience"></a>[Uusi kokemus](#tab/new-experience)  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntihinnastot** ja valitse sitten liittyvä linkki. 
 2. Valitse kopioitava hinnasto ja valitse sitten **Kopioi rivit**.
@@ -151,7 +147,7 @@ Jos haluat kopioida myyntihintoja, kuten jonkin yksittäisen asiakkaan hintoja k
 ## <a name="to-bulk-update-item-prices"></a>Nimikehintojen joukkopäivitys
 Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käyttöön **Uusi myyntihinnoittelukokemus** -ominaisuuspäivityksen. Jos ominaisuuspäivitystä ei ole otettu käyttöön, noudata Nykyinen kokemus -välilehdessä olevia ohjeita.
 
-#### <a name="current-experience"></a>[Nykyinen kokemus](#tab/current-experience/)
+### <a name="current-experience"></a>[Nykyinen kokemus](#tab/current-experience)
 
 Jos nimikehinnoille halutaan tehdä joukkopäivitys, kuten nostaa kaikkien nimikkeiden hintoja tietyllä prosenttiosuudella, **Myyntihinnan työkirja** voidaan täyttää seuraavilla erätöillä:
 
@@ -167,14 +163,14 @@ Jos nimikehinnoille halutaan tehdä joukkopäivitys, kuten nostaa kaikkien nimik
 7. Täytä **Myyntihinnan työkirja** -sivun rivit ehdotetuilla uusilla hinnoilla valitsemalla **OK**.
 8. Ehdotukset toteutetaan **Toteuta hinnan muutokset** -toiminnolla. Eräajo luo ehdotuksia muttei toteuta niitä.
 
----
-
-#### <a name="new-experience"></a>[Uusi kokemus](#tab/new-experience/)
+## <a name="new-experience"></a>[Uusi kokemus](#tab/new-experience)
 
 Jos haluat päivittää monien nimikkeiden hinnat, sinun täytyy luoda uusi hinnasto ja kopioida rivit olemassa olevasta hinnastosta. Kun kopioit rivit, voit määrittää suodattimien avulla, mitä haluat kopioida, ja voit määrittää kokonaisluvun tai desimaaliluvun **Muutoskerroin**-kenttään hintojen korottamiseksi tai vähentämiseksi. Hinnaston tilan on oltava **Luonnos**. Voit poistaa vanhan hinnaston käytöstä tarpeen mukaan.
 
 > [!NOTE]
 > Kahdella eri rivillä ei voi olla samoja asetuksia mutta eri hintoja. Jos näin tapahtuu, näyttöön tulee sanoma, kun aktivoit hinnaston. Voit valita käytettävän hinnan avaamalla hinnaston ja poistamalla virheellisen hinnan.  
+
+---
 
 ## <a name="sales-invoice-discounts-and-service-charges"></a>Myyntilaskualennukset ja palvelumaksut
 Laskualennuksia käytettäessä laskun loppusumma määrittää annettavan alennuksen suuruuden. Voit lisätä **Asiakkaan laskualennukset** -sivulla tietyn summaisille laskuille myös palvelumaksuja.  
@@ -189,8 +185,6 @@ Alennusprosentin lisäksi tai sen sijaan tiettyyn laskusummaan voidaan linkittä
 
 Koulutusta myynnin alennuksista on Microsoft Learnin kohteessa [Alennusten määrittäminen asiakkaillesi](/learn/modules/customer-discounts-dynamics-365-business-central/index).  
 
----
-
 ### <a name="calculating-invoice-discounts-on-sales"></a>Myynnin laskualennusten laskenta
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
@@ -198,7 +192,7 @@ Koulutusta myynnin alennuksista on Microsoft Learnin kohteessa [Alennusten mää
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Myyntirivialennuksien määrittäminen asiakkaalle
 Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käyttöön **Uusi myyntihinnoittelukokemus** -ominaisuuspäivityksen. Jos ominaisuuspäivitystä ei ole otettu käyttöön, noudata Nykyinen kokemus -välilehdessä olevia ohjeita.
 
-#### <a name="current-experience"></a>[Nykyinen kokemus](#tab/current-experience/)  
+## <a name="current-experience"></a>[Nykyinen kokemus](#tab/current-experience)  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.
 2. Avaa kyseessä olevan asiakkaan kortti ja valitse **Rivialennukset**-toiminto.
@@ -209,9 +203,7 @@ Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käytt
 >
 > Kun haluat määrittää hinnat tai rivialennukset kaikille asiakkaille, asiakkaan hintaryhmälle tai kampanjalle, sinun täytyy avata sivut nimikekortista. Vaihtoehtoisesti voit käyttää myyntihinnoille **Myyntihinnan työkirja** -sivua. Lisätietoja on kohdassa [Nimikehintojen joukkopäivitys](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
 
----
-
-#### <a name="new-experience"></a>[Uusi kokemus](#tab/new-experience/)  
+## <a name="new-experience"></a>[Uusi kokemus](#tab/new-experience)  
 
 1. Valitse ![Lamppu, joka avaa Kerro -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä")-kuvake, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.
 2. Valitse asiakas ja valitse sitten **Myyntihinnastot**-toiminto.
@@ -220,10 +212,12 @@ Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käytt
 5. Valitse **Määrittää**-kentässä joko **Hinta ja alennus** tai vain **Alennus**. 
 6. Määritä alennusprosentti **Rivialennus-%**-kentässä.
 
-    > [!TIP]
-    > Rivejä voidaan suodattaa valitsemalla sopiva vaihtoehto **Näytä sarakkeet kohteelle** -kentässä.
-    > [!NOTE]  
-    > Laskualennuksen koodit ilmaistaan aiemmin luoduissa asiakaskorteissa. Kun asiakkaiden nimiä käytetään koodeina, laskualennusten ehdot voidaan määrittää nopeasti asiakkaille valitsemalla sellaisen asiakkaan nimi, jolla on samat ehdot. Voit määrittää asiakaskohtaisia laskualennusehtoja määrittämällä **Laskun alennuskoodi** -kentän asiakkaan asiakaskoodille ja jatkamalla sitten seuraavaan vaiheeseen.
+   > [!TIP]
+   > Rivejä voidaan suodattaa valitsemalla sopiva vaihtoehto **Näytä sarakkeet kohteelle** -kentässä.   
+  
+   > [!NOTE]
+   > Laskualennuksen koodit ilmaistaan aiemmin luoduissa asiakaskorteissa. Kun asiakkaiden nimiä käytetään koodeina, laskualennusten ehdot voidaan määrittää nopeasti asiakkaille valitsemalla sellaisen asiakkaan nimi, jolla on samat ehdot. Voit määrittää asiakaskohtaisia laskualennusehtoja määrittämällä **Laskun alennuskoodi** -kentän asiakkaan asiakaskoodille ja jatkamalla sitten seuraavaan vaiheeseen.
+
 ---
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Laskualennuksen määrittäminen asiakkaalle
@@ -243,8 +237,6 @@ Seuraavaksi määritetään uuden myyntilaskun alennusehdot.
 3. Syötä **Vähimmäissumma**-kenttään laskun vähimmäissumma, joka oikeuttaa alennukseen.
 4. Syötä **Alennus-%**-kohtaan laskun alennus prosentteina laskun summasta.
 5. Toista vaiheet 5–7 jokaiselle valuutalle, jossa asiakas saa eri laskualennuksen.
-
----
 
 ## <a name="best-price-calculation"></a>Parhaan hinnan laskenta
 Kun olet kirjannut myynnin ja ostojen erikoishinnat ja rivialennukset, [!INCLUDE[d365fin](includes/d365fin_md.md)] varmistaa, että nimikekaupan tuotto on aina optimaalinen laskemalla automaattisesti parhaan hinnan myynti- ja ostoasiakirjoille sekä projekti- ja nimikepäiväkirjan riville.

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: crm, sales, couple, decouple, synchronize
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8e2b36b4b90e1cc348ef381a6d0f6145a87ed043
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: c21d06eaaa9200bb11839d1b2db1666c816638b3
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588724"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865388"
 ---
 # <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Tietueiden yhdistäminen ja synkronoiminen Dataversen ja Business Centralin välillä
 
@@ -25,6 +25,7 @@ Tässä ohjeaiheessa kerrotaan, miten yksi tietue tai useita tietueita yhdistet�
 > Tietojen yhdistäminen ja synkronointi on käytettävissä vain, jos järjestelmänvalvoja on muodostanut yhteyden [!INCLUDE[prod_short](includes/prod_short.md)]:n ja Dataversen tai [!INCLUDE[crm_md](includes/crm_md.md)]:n välille. Asian voi tarkistaa nopeasti avaamalla **Asiakas**-kortin ja etsimällä **Määritä yhdistäminen** -toiminnon. Jos toiminto on käytettävissä, sovellukset on yhdistetty.   
 
 ## <a name="video-example"></a>Esimerkkivideo
+Tässä videossa näytetään tietojen kytkentä ja synkronointi osana [!INCLUDE[crm_md](includes/crm_md.md)] -ohjelman integrointia.
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098376]
 

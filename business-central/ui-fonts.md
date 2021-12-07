@@ -1,6 +1,6 @@
 ---
 title: Käytettävissä olevat fontit
-description: Business Centralin online-versio sisältää valmiiksi asennetut fontit palvelimissa, joita voidaan käyttää raporttien luomisessa.
+description: Tutustu valmiiksi asennettuihin fontteihin, joita voit käyttää ulkopuolisille suunnatuissa raporteissaesi.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 11/30/2021
 ms.author: edupont
-ms.openlocfilehash: 0cfcf4bcda748ec2f46f24013d887252310596c0
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 6e57ffa9a004417fa16c92780b8c1bdc73c17570
+ms.sourcegitcommit: 58df17a2b79f32adb777fe1b1916baebc23cb584
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588022"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "7868299"
 ---
 # <a name="available-fonts"></a>Käytettävissä olevat fontit
 
@@ -48,15 +48,22 @@ MICR-fonttien lisäksi käytettävissä on erityisiä suojausfontteja, joiden av
 Lisätietoja on kohdassa [Sekin asettelun valitseminen](finance-how-define-check-layouts.md).  
 
 ## <a name="fonts-for-barcodes"></a>Viivakoodien fontit
-Yksiulotteisten viivakoodien luomiseen käytettävät fontit ovat asennettuina ja käytettävissä sekä Word- että RDLC-raporttiasetteluissa.
+Viivakoodien luomiseen käytettävät fontit ovat asennettuina ja käytettävissä sekä Word- että RDLC-raporttiasetteluissa.
 
-Seuraavia viivakoodisymbolijärjestelmiä tuetaan:
+Seuraavia yksiulotteisia viivakoodisymbolijärjestelmiä tuetaan:
 * Koodi 3/9 (koodi 39)
 * Koodi 128
 * Koodi 93
 * Codabar
 * MSI
 * Interleaved 2 ja 5
+
+Seuraavia kaksiulotteisia viivakoodisymbolijärjestelmiä tuetaan:
+* Aztec
+* Tietomatriisi
+* MaxiCode
+* PDF417
+* QR-koodi
 
 Lisätietoja on kohdassa [Business Central Onlinen viivakoodifontit](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 

@@ -10,16 +10,16 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 06d3e22d0cdb68daa2b87e3569660dfd4e5724fd
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: 6bb034f9809f4241a4a538d6ecb133976fb60fb2
+ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724610"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "7865490"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Business Central -apuohjelman hankkiminen Exceliin
 
-[!INCLUDE[prod_short](includes/prod_short.md)] sisältää Excelin apuohjelman, jonka avulla käyttäjät voivat valita **Muokkaa Excelissä** -toiminnon tietyillä sivuilla tietojen avaamiseksi Excel-työkirjassa. Tämä toiminto ei ole sama kuin **Avaa Excelissä** -toiminto, koska sen avulla käyttäjät voivat tehdä muutoksia Excelissä ja julkaista muutokset sitten takaisin [!INCLUDE[prod_short](includes/prod_short.md)]iin\
+[!INCLUDE[prod_short](includes/prod_short.md)] sisältää Excelin apuohjelman, jonka avulla käyttäjät voivat valita **Muokkaa Excelissä** -toiminnon tietyillä sivuilla tietojen avaamiseksi Excel-työkirjassa. Tämä toiminto ei ole sama kuin **Avaa Excelissä** -toiminto, koska sen avulla käyttäjät voivat tehdä muutoksia Excelissä ja julkaista muutokset sitten takaisin kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ## <a name="overview"></a>Yleiskuvaus
 
@@ -38,9 +38,9 @@ Loppukäyttäjän osalta asennuskokemus poikkeaa kahdessa käyttöönottoskenaar
 
 - Kun yksittäisessä hankkimisessa käyttäjä ensimmäisen kerran valitsee **Muokkaa Excelissä** -toiminnon, **Uusi Office-apuohjelma** -ruutu avautuu Excelissä. Jos käyttäjä haluaa asentaa apuohjelman, käyttäjä valitsee **Luota tähän apuohjelmaan**, joka puolestaan asentaa apuohjelman suoraan Office-kaupasta. Käyttäjät kirjautuvat sitten sisään [!INCLUDE[prod_short](includes/prod_short.md)]iin käyttäjänimen ja salasanan avulla.
 
-- Kun keskitetyssä käyttöönotossa käyttäjät valitsevat ensimmäisen kerran **Muokkaa Excelissä** -toiminnon, apuohjelma asennetaan automaattisesti keskitetystä käyttöönotosta, ei Office-kaupasta. Käyttäjän tarvitsee vain kirjautua sisään [!INCLUDE[prod_short](includes/prod_short.md)]iin\
+- Kun keskitetyssä käyttöönotossa käyttäjät valitsevat ensimmäisen kerran **Muokkaa Excelissä** -toiminnon, apuohjelma asennetaan automaattisesti keskitetystä käyttöönotosta, ei Office-kaupasta. Käyttäjän tarvitsee vain kirjautua sisään kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Molempien käyttöönotto vaihtoehtojen yhteydessä apuohjelma määritetään automaattisesti muodostamaan yhteys [!INCLUDE[prod_short](includes/prod_short.md)]iin\. Kolmas käyttöönottovaihtoehto on apuohjelman manuaalinen asennus suoraan Excelistä. Tässä vaihtoehdossa käyttäjän on määritettävä apuohjelman muodostamaan yhteys [!INCLUDE[prod_short](includes/prod_short.md)]iin\
+Molempien käyttöönotto vaihtoehtojen yhteydessä apuohjelma määritetään automaattisesti muodostamaan yhteys kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]. Kolmas käyttöönottovaihtoehto on apuohjelman manuaalinen asennus suoraan Excelistä. Tässä vaihtoehdossa käyttäjän on määritettävä apuohjelman muodostamaan yhteys kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around"></a><a name="switch"></a>Siirtyminen yksittäisestä hankinnasta keskitettyyn käyttöönottoon tai toisin päin
 
@@ -63,13 +63,13 @@ Keskitetty käyttöönotto on Microsoft 365 -hallintakeskuksen ominaisuus, jonka
 - Jos olet vaihtamassa yksittäisestä hankinnasta, katso [Siirtyminen yksittäisestä hankinnasta keskitettyyn käyttöönottoon](#switch)
 
 > [!NOTE]
-> Keskitetyn käyttöönoton ottaminen käyttöön vaikuttaa Excel-apuohjelmaa käyttäviin ominaisuuksiin, kuten **Muokkaa Excelissä** -toimintoon. Sillä ei ole vaikutusta muihin Exceliin liittyviin toimintoihin ja tai käyttöoikeuksiin, jotka on määritetty käyttäjille [!INCLUDE[prod_short](includes/prod_short.md)]issa\
+> Keskitetyn käyttöönoton ottaminen käyttöön vaikuttaa Excel-apuohjelmaa käyttäviin ominaisuuksiin, kuten **Muokkaa Excelissä** -toimintoon. Sillä ei ole vaikutusta muihin Exceliin liittyviin toimintoihin ja tai käyttöoikeuksiin, jotka on määritetty käyttäjille kohteessa [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ### <a name="set-up-centralized-deployment-of-the-add-in"></a>Määritä apuohjelman keskitetty käyttöönotto
 
 Työskentelet sekä [!INCLUDE[prod_short](includes/prod_short.md)]issa että Microsoft 365 -hallintakeskuksessa.
 
-1. Valitse [!INCLUDE[prod_short](includes/prod_short.md)]issa\, ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Excel-apuohjelman keskitetty käyttöönotto** ja valitse sitten liittyvä linkki.
+1. Valitse [!INCLUDE[prod_short](includes/prod_short.md)]issa ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Excel-apuohjelman keskitetty käyttöönotto** ja valitse sitten liittyvä linkki.
 2. Lue tiedot **Business Centralin Excel-apuohjelman määritys** -sivulta ja valitse **Seuraava**.
 3. Kirjaudu [Microsoft 365 -hallintakeskukseen](https://go.microsoft.com/fwlink/?linkid=2163967) ja valitse **Integroidut sovellukset**<!--**Add-ins**-->.
 
@@ -81,7 +81,7 @@ Työskentelet sekä [!INCLUDE[prod_short](includes/prod_short.md)]issa että Mic
     5. Odota, että apuohjelman **Käyttöönotettu**-kohdan vieressä oleva vihreä valintamerkki näkyy ja valitse sitten **Valmis**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
        Apuohjelma näkyy **Apuohjelmat**-sivulla. Lisätietoja apuohjelmien käyttöönotosta Microsoft 365 -hallintakeskuksessa on kohdassa [Apuohjelmien käyttöönotto hallintakeskuksessa](/microsoft-365/admin/manage/manage-deployment-of-add-in).
-4. Siirry takaisin **Excel-apuohjelman keskitetyn käyttöönoton** avustettuun määritykseen [!INCLUDE[prod_short](includes/prod_short.md)]\, ja valitse **Seuraava**.
+4. Siirry takaisin **Excel-apuohjelman keskitetyn käyttöönoton** avustettuun määritykseen kohteessa [!INCLUDE[prod_short](includes/prod_short.md)] ja valitse **Seuraava**.
 5. Ota käyttöön **Käytä keskitettyä käyttöönottoa** ja valitse **Valmis**.
 
     Jos et ota tätä valitsinta käyttöön, [!INCLUDE[prod_short](includes/prod_short.md)] hakee apuohjelman suoraan Office-kaupasta.
@@ -114,7 +114,7 @@ Jos käyttäjä ei voi muodostaa yhteyttä automaattisesti, voit poistaa eston p
 4. Kirjaudu kehotteessa Business Centralin käyttäjänimen ja salasanan avulla.
 5. Valitse vaihtoehtoisesti ympäristö ja yritys, joihin haluat muodostaa yhteyden.
 
-Apuohjelma on nyt yhdistetty [!INCLUDE [prod_short](includes/prod_short.md)]iin\, ja voit muokata tietoja ja julkaista muutokset [!INCLUDE [prod_short](includes/prod_short.md)]iin\. 
+Apuohjelma on nyt yhdistetty kohteeseen [!INCLUDE [prod_short](includes/prod_short.md)] ja voit muokata tietoja ja julkaista muutokset kohtaan [!INCLUDE [prod_short](includes/prod_short.md)].  
 
 ## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Valmistele laitteet ja verkko Excel-apuohjelmaa varten
 
@@ -127,9 +127,9 @@ Toisinaan käyttäjät kohtaavat ongelmia Excel-apuohjelmassa. Tässä osassa on
 |Ongelma  |Ratkaisu tai kiertotapa  |Kommentit  |
 |---------|---------|---------|
 |Apuohjelma ei käynnisty|Tarkista, onko apuohjelma otettu käyttöön keskitetysti. Tai tarkista, onko käyttäjän asennus estetty paikallisesti. | Järjestelmänvalvoja voi määrittää Officen niin, että käyttäjät eivät pysty hankkimaan apuohjelmia. Näissä tapauksissa järjestelmänvalvojan on otettava apuohjelma käyttöön keskitetysti. Lisätietoja on kohdassa [Apuohjelmien käyttöönotto hallintakeskuksessa](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
-|Tietoja ei ladata Exceliin|Yhteyden testaaminen avaamalla toinen luettelo Excelissä [!INCLUDE [prod_short](includes/prod_short.md)]ista\. Tai avaa työkirja Excelissä selaimessa.|Jos käyttäjä on määrittänyt yrityksen nimen, jossa on erikoismerkkejä, apuohjelma ei voi muodostaa yhteyttä. |
-|Tietoja ei voi julkaista takaisin [!INCLUDE [prod_short](includes/prod_short.md)]iin\.|Testaa yhteys avaamalla työkirja Excelissä selaimessa. |Joskus laajennus voi estää julkaisutyön. Jos sivua on laajennettu tai mukautettu, poista laajennukset ja yritä uudelleen.|
-|Päivämäärät ovat vääriä  |Excel saattaa näyttää ajat ja päivämäärät eri muodossa kuin [!INCLUDE [prod_short](includes/prod_short.md)]issa\. Tämä ei tee niistä virheellisiä, eivätkä tiedot [!INCLUDE [prod_short](includes/prod_short.md)]issa\ mene sekaisin.|         |
+|Tietoja ei ladata Exceliin|Yhteyden testaaminen avaamalla toinen luettelo Excelissä osoitteesta [!INCLUDE [prod_short](includes/prod_short.md)]. Tai avaa työkirja Excelissä selaimessa.|Jos käyttäjä on määrittänyt yrityksen nimen, jossa on erikoismerkkejä, apuohjelma ei voi muodostaa yhteyttä. |
+|Tietoja ei voi julkaista takaisin osoitteeseen [!INCLUDE [prod_short](includes/prod_short.md)].|Testaa yhteys avaamalla työkirja Excelissä selaimessa. |Joskus laajennus voi estää julkaisutyön. Jos sivua on laajennettu tai mukautettu, poista laajennukset ja yritä uudelleen.|
+|Päivämäärät ovat vääriä  |Excel saattaa näyttää ajat ja päivämäärät eri muodossa kuin kohdassa [!INCLUDE [prod_short](includes/prod_short.md)]. Tämä ei tee niistä virheellisiä, eivätkä tiedot kohdassa [!INCLUDE [prod_short](includes/prod_short.md)] mene sekaisin.|         |
 |Joillakin luettelosivuilla useiden rivien muokkaaminen Excelissä aiheuttaa toistuvasti virheitä. Tämä ehto voi ilmetä, jos OData-kutsut sisältävät FlowFields-kenttiä ja kenttiä toistinohjausobjektin ulkopuolella.|Valitse **Verkkopalvelut**-sivulla **Jätä pois ei-muokattavat FlowField-kentät**- ja **Jätä pois toistimen ulkopuoliset kentät** -valintaruudut julkaistulle sivulle. Jos valitset nämä valintaruudut, se jättää pois ei-muokattavat FlowField-kentät ja kentät eTag-laskennasta. |Nämä valintaruudut on oletusarvoisesti piilotettu. Voit näyttää ne **Verkkopalvelut**-sivulla käyttämällä [mukauttamista](/dynamics365/business-central/ui-personalization-user). |
 
 
@@ -162,7 +162,7 @@ For [!INCLUDE [prod_short](includes/prod_short.md)] online, the administrator ca
 When the add-in is installed, it shows up as a panel in Excel. Next, you must configure the connection.
 
 > [!TIP]
-> If the workbook is not automatically saved to the user's OneDrive, then recommend them to save all workbooks that they export from [!INCLUDE [prod_short](includes/prod_short.md)]\.When they open the workbook again, the connection is still available, so they do not have to configure the connection again.
+> If the workbook is not automatically saved to the user's OneDrive, then recommend them to save all workbooks that they export from [!INCLUDE [prod_short](includes/prod_short.md)].When they open the workbook again, the connection is still available, so they do not have to configure the connection again.
 
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->

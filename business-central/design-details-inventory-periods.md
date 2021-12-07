@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a79b1b791a56bddaa97ac9b66428d6bb32652f58
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 66624cd4a6992ed227055748f5e8bc972187a8dc
+ms.sourcegitcommit: 641d7018f7ee21345a67651bfa4603e6dd2c4bab
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6324507"
+ms.lasthandoff: 11/27/2021
+ms.locfileid: "7865681"
 ---
 # <a name="design-details-inventory-periods"></a>Rakennetiedot: varastokausi
 Takautuvat tapahtumat tai kustannusten muutokset vaikuttavat usein varaston arvostukseen tilikausilla, joiden voidaan katsoa olevan suljettuja. Tällä voi olla kielteisiä vaikutuksia raportointiin erityisesti globaaleissa yrityksissä. Varastojaksot -toimintoa voidaan käyttää tällaisten ongelmien välttämiseen avaamalla tai sulkemalla varastokausia, jolloin voidaan rajata tiliöinti ajanjaksosarjaan.  
@@ -30,9 +30,12 @@ Takautuvat tapahtumat tai kustannusten muutokset vaikuttavat usein varaston arvo
 
  Kun suljet varastokauden, varastokauden tapahtuma luodaan varastokauden edellisen nimiketapahtuman numeron avulla. Lisäksi varastokauden tapahtumaan tallennetaan aika, päivämäärä ja kauden sulkevan käyttäjän käyttäjäkoodi. Käyttämällä tätä tietoa edellisen kauden viimeisen nimikerekisterin kanssa voit nähdä mitkä varastotapahtumat kirjattiin varastokaudella. Varastojaksojen uudelleen avaaminen on myös mahdollista, jos sinun tarvitsee kirjata suljetulla kaudella. Varastokauden avaamisen yhteydessä luodaan varastokauden tapahtuma.  
 
-## <a name="see-also"></a>Katso myös  
- [Rakennetiedot: varaston arvostus](design-details-inventory-costing.md) [Varaston kustannusten hallinta](finance-manage-inventory-costs.md) [Rahoitus](finance.md)  
- [Business Central -sovelluksen käyttäminen](ui-work-product.md)
+## <a name="see-also"></a>Katso myös
+
+[Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)  
+[Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
+[Rahoitus](finance.md)  
+[Business Central -sovelluksen käyttäminen](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

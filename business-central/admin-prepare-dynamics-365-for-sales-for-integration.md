@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: afc1b56d2bfb1f94844b7b1e10af8a2522738dab
-ms.sourcegitcommit: 2b34394a855845457bb705178470e2cbfa77141c
+ms.openlocfilehash: 5aa6849ebb591622828eed1cd40f5bd7be58262d
+ms.sourcegitcommit: 641d7018f7ee21345a67651bfa4603e6dd2c4bab
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7651485"
+ms.lasthandoff: 11/27/2021
+ms.locfileid: "7865719"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Dynamics 365 Sales -integrointi
 [!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
@@ -26,7 +26,7 @@ Myyjää pidetään usein liiketoiminnan eniten ulospäin suuntautuneena tehtäv
 > Tässä ohjeaiheessa kerrotaan [!INCLUDE[crm_md](includes/crm_md.md)]- ja [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen online-versioiden integroinnista [!INCLUDE[prod_short](includes/cds_long_md.md)] -palvelun avulla. Lisätietoja paikallisesta määrityksestä on kohdassa [Paikallisen Dynamics 365 Salesin integroinnin valmistelu](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
 ## <a name="integrating-through-dataverse"></a>Integroiminen Dataverse -palvelun avulla
-[!INCLUDE[prod_short](includes/prod_short.md)] voidaan integroida myös [!INCLUDE[prod_short](includes/cds_long_md.md)] -palvelun kanssa. Tämän vuoksi tietoja on helppo yhdistää ja synkronoida muiden Dynamics 365 -sovellusten, kuten [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen, tai jopa itse luotujen sovellusten kanssa. Jos integrointi tehdään ensimmäistä kertaa, on suositeltavaa tehdä se [!INCLUDE[prod_short](includes/cds_long_md.md)] -palvelun kanssa. Lisätietoja on kohdassa [Integroiminen Dataverse -palvelun kanssa](admin-common-data-service.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] voidaan integroida myös [!INCLUDE[prod_short](includes/cds_long_md.md)] -palvelun kanssa. Tämän vuoksi tietoja on helppo yhdistää ja synkronoida muiden Dynamics 365 -sovellusten, kuten [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen, tai jopa itse luotujen sovellusten kanssa. Jos integrointi tehdään ensimmäistä kertaa, se on tehtävä [!INCLUDE[prod_short](includes/cds_long_md.md)] -palvelun kanssa. Lisätietoja on kohdassa [Integroiminen Dataverse -palvelun kanssa](admin-common-data-service.md).
 
 Jos integrointi [!INCLUDE[crm_md](includes/crm_md.md)]- ja [!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisun välillä on jo tehty, voit jatkaa tietojen synkronointia asetuksen avulla. Jos kuitenkin päivität [!INCLUDE[crm_md](includes/crm_md.md)] -integroinnin tai otat sen pois käytöstä, voit ottaa sen käyttöön uudelleen [!INCLUDE[prod_short](includes/cds_long_md.md)] -palvelun avulla. Lisätietoja on kohdassa [Integroinnin päivittäminen Dynamics 365 Salesin avulla](admin-upgrade-sales-to-cds.md).
 
@@ -134,10 +134,10 @@ Näiden uusien yhdistämismääritysten käyttämäinen edellyttää, että yksi
 
 Yksikköryhmien yhdistäminen aloitetaan seuraavasti:
 
-1. Varmista, että [!INCLUDE[crm_md](includes/crm_md.md)]in tuotteita ei ole yhdistetty [!INCLUDE[prod_short](includes/prod_short.md)]in nimikkeisiin tai resursseihin. Jos ne on yhdistetty, siirry **Nimikkeet** ja/tai **Resurssit**-sivulle, valitse yhdistetyt tietueet suodatinvaihtoehtojen avulla. Valitse sitten **Dynamics 365 Sales** -toiminto ja valitse lopuksi **Poista yhdistäminen**. Tämä aikatauluttaa taustatyön poistamaan tietueiden yhdistämisen. Suoritettavan työn tila voidaan tarkistaa käyttämällä **Synkronointiloki**-toimintoa. Lisätietoja on kohdassa [Yhdistäminen ja synkronointi](admin-how-to-couple-and-synchronize-records-manually.md). 
+1. Varmista, että [!INCLUDE[crm_md](includes/crm_md.md)]in tuotteita ei ole yhdistetty [!INCLUDE[prod_short](includes/prod_short.md)]in nimikkeisiin tai resursseihin. Jos ne on yhdistetty, siirry **Nimikkeet** ja/tai **Resurssit**-sivulle ja valitse yhdistetyt tietueet suodatinvaihtoehtojen avulla. Valitse sitten **Dynamics 365 Sales** -toiminto ja valitse sitten **Poista pari**. Tämä aikatauluttaa taustatyön poistamaan tietueiden yhdistämisen. Suoritettavan työn tila voidaan tarkistaa käyttämällä **Synkronointiloki**-toimintoa. Lisätietoja on kohdassa [Yhdistäminen ja synkronointi](admin-how-to-couple-and-synchronize-records-manually.md). 
 2. Koska uudet tuotteet luodaan [!INCLUDE[crm_md](includes/crm_md.md)]issa siten, että niissä on uudet yksikköryhmät, nimien kaksoiskappaleet voidaan estää jollakin seuraavista tavoista:
     
-    * Anna tuotteille uusi nimi ja poista ne sitten käytöstä [!INCLUDE[crm_md](includes/crm_md.md)]issa. Lisätietoja on kohdassa [Tuotteiden poistaminen käytöstä (myyntikeskus)](/dynamics365/sales-enterprise/retire-product). Tuotteita voi joukkomuokata Microsoft Excelissa kirjautumalla Power Appsiin, valitsemalla ympäristön, siirtymällä **Tuotteet**-taulukkoon ja valitsemalla **Tiedot**-taulukon. Poista kaikki käytetyt suodattimet. Valitse **Tiedot**-ryhmässä **Muokkaa tietoja Excelissä** -toiminto. Lisää yhdistettyihin tuotteisiin etu- tai jälkiliite ja poista ne käytöstä.
+    * Anna tuotteille uusi nimi ja poista ne sitten käytöstä [!INCLUDE[crm_md](includes/crm_md.md)]issa. Lisätietoja on kohdassa [Tuotteiden poistaminen käytöstä (myyntikeskus)](/dynamics365/sales-enterprise/retire-product). Tuotteita voi joukkomuokata Microsoft Excelissa kirjautumalla Power Appsiin, valitsemalla ympäristön, siirtymällä **Tuotteet**-taulukkoon ja sitten valitsemalla **Tiedot**-taulukon. Poista kaikki käytetyt suodattimet. Valitse **Tiedot**-ryhmässä **Muokkaa tietoja Excelissä** -toiminto. Lisää yhdistettyihin tuotteisiin etu- tai jälkiliite ja poista ne käytöstä.
     * Poista tuotteet käytöstä ja poista ne. 
 
 3. Synkronoi **Yksikköryhmät**, **Mittayksiköt**, **Nimikkeet** ja **Resurssit** seuraavasti:
