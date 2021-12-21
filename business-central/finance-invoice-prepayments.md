@@ -1,29 +1,34 @@
 ---
 title: Ennakkomaksujen laskutus
 description: Tietoja siitä, miten ennakkomaksutoimintojen avulla voit laskuttaa ja kerätä asiakkailta talletuksia tai suorittaa talletuksia toimittajille Business Centralissa.
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/29/2021
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 57326180b6adca053896b3e4da3362f2f6b3e310
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 3c919a5d63e4468b7f3182afe04890c6733d0cad
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6322527"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889867"
 ---
 # <a name="invoicing-prepayments"></a>Ennakkomaksujen laskuttaminen
 
-Ennakkomaksut ovat maksuja, jotka on laskutettu sekä kirjattu myynti- tai ostoennakkomaksun tilaukseen ennen lopullista laskutusta. Esimerkiksi ennen tilattujen nimikkeiden valmistamista voidaan edellyttää talletuksen tekemistä, tai ennen nimikkeiden toimittamista asiakkaalle voidaan edellyttää maksun suorittamista. Ennakkomaksutoimintojen avulla voit laskuttaa ja kerätä asiakkailta edellytettyjä talletuksia ja suorittaa talletuksia toimittajille. Näin voit varmistaa, että kaikki maksut kirjataan laskua vastaan.  
+[!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
- Asiakkaalle tai toimittajalle voi määrittää joko kaikkia nimikkeitä tai valittuja nimikkeitä koskevia ennakkomaksuvaatimuksia. Kun olet määrittänyt tarvittavat asetukset, voit luoda osto- ja myyntitilauksista lasketun ennakkomaksun summan mukaisia ennakkomaksulaskuja. Voit muuttaa laskun summia tarvittaessa. Voit määrittää esimerkiksi koko tilauksen yhteissumman. Voit myös lähettää lisäennakkomaksulaskuja, jos tilaukseen esimerkiksi lisätään nimikkeitä. Voit suurentaa määriä tai lisätä tilaukseen uusia rivejä ennakkomaksun lähettämisen jälkeen sekä kirjata sitten uuden ennakkomaksulaskun. Jos haluat poistaa rivin, jonka ennakkomaksu on jo laskutettu, sinun on lähetettävä ennakkomaksun hyvityslasku ennen rivin poistamista.  
+[!INCLUDE [prepayment_req](includes/prepayment_req.md)]
 
- Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.
+Voit esimerkiksi määrittää koko tilauksen kokonaissumman tai voit jakaa ennakkomaksun tilauksen jokaiseen riviin. Voit myös lähettää lisäennakkomaksulaskuja, jos tilaukseen esimerkiksi lisätään nimikkeitä. Voit suurentaa määriä tai lisätä tilaukseen uusia rivejä ennakkomaksun lähettämisen jälkeen sekä kirjata sitten uuden ennakkomaksulaskun.  
+
+> [!NOTE]
+> Jos haluat poistaa rivin, jonka ennakkomaksu on jo laskutettu, sinun on lähetettävä ennakkomaksun hyvityslasku ennen rivin poistamista.
+
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  

@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
+ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: 2d5f6a7b39ccc5c77ee68d7a62e33bd166551095
-ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.openlocfilehash: f1000be46bebe766e8f3dd060f44b98a775c1356
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7701563"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889834"
 ---
 # <a name="create-prepayment-invoices"></a>Ennakkomaksulaskujen luominen
 
@@ -47,6 +47,9 @@ Seuraavaksi käsitellään myyntitilauksen ennakkomaksun laskuttamista. Ostotila
 
     Jos olet määrittänyt oletusarvoisen ennakkomaksuprosentin joko asiakkaalle tai tämän asiakirjan **Ennakkomaksu**-pikavälilehdessä, tämä arvo kopioidaan kullekin riville. Voit muuttaa rivin **Ennakkomaksuprosentti**-kentän sisällön.  
 
+    > [!TIP]
+    > Jos et näe **Ennakkomaksuprosentti**-kenttää, voit lisätä sen mukauttamisen avulla.  Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
+
 4. Valitse **Tilastot**-toiminto, jos haluat tarkastella ennakkomaksun kokonaissummaa.
 
     Jos haluat muuttaa ennakkomaksun kokonaissummaa, voit muuttaa **Myyntitilaustilastot**-sivun **Ennakkomaksun summa** -kentän sisältöä.  
@@ -72,7 +75,8 @@ Voit antaa lisää tilauksen ennakkomaksulaskuja. Tee tämä nostamalla yhden ta
 [Ennakkomaksujen laskuttaminen](finance-invoice-prepayments.md)  
 [Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Rahoitus](finance.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Työtilan mukauttaminen](ui-personalization-user.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

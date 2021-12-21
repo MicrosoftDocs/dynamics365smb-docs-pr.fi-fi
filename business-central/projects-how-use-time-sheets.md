@@ -1,6 +1,6 @@
 ---
-title: Aikaraporttien käyttäminen projekteissa
-description: Tässä ohjeaiheessa kerrotaan, miten projektin aikaraportti luodaan, suunnittelurivit kopioidaan siihen, työtyypit määritetään, aikaraportti täytetään ja lähetetään hyväksyttäväksi.
+title: Käytä tuntiraportteja
+description: Tässä ohjeaiheessa kerrotaan, miten voit luoda tuntiraportteja, määrittää tietotyyppejä, täyttää tuntiraportteja ja lähettää ne hyväksyntää varten.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,18 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
-ms.date: 08/24/2021
+ms.search.form: 973
+ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 3e29d1b745c27f7d6e5f0e8d9e444d70b2218b10
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: a5fdd86d63fa19a0a7f473d58abf34242e4e5cd5
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588830"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920901"
 ---
-# <a name="use-time-sheets-for-projects"></a>Aikaraporttien käyttäminen projekteissa
+# <a name="use-time-sheets"></a>Käytä tuntiraportteja
 
-Käytä **Luo aikaraportit** -eräajoa, kun määrität aikaraportit tietylle määrälle ajanjaksoja tai viikkoja. Sinulla on oltava oikeudet luoda aikaraportteja.
+Tuntiraportteja voidaan käyttää kohteessa [!INCLUDE [prod_short](includes/prod_short.md)] poissaolojen sekä projektiin käytetyn ajan ja resurssien seuraamiseen. Ajanhallinnan avulla voit tunnistaa ongelmat aikaisessa vaiheessa ja välttää viiveet tai kustannusylitykset. Resurssi voidaan helposti raportoida tuntiraporttien avulla yksityishenkilölle tai koneelle ja esimies voi helposti tarkastella käyttöä ja jakamista. Tässä artikkelissa kerrotaan, miten tuntiraportti luodaan, työtyypit määritetään, tuntiraportti täytetään ja lähetetään hyväksyttäväksi.  
 
 Voit kopioida projektin suunnittelurivit aikaraportista ja käyttää niitä. Näin tehtäessä tiedot on syötettävä vain yhteen paikkaan, ja ne ovat aina ajantasaisia.
 
@@ -32,64 +33,106 @@ Ennen kuin käytät aikaraportteja, sinun on määritettävä aikaraporttien yle
 
 ## <a name="to-create-time-sheets"></a>Luo aikaraportit
 
-Käytä **Luo aikaraportit** -eräajoa, kun määrität aikaraportit tietylle määrälle ajanjaksoja tai viikkoja. Tämän jälkeen aikaraportin omistaja voi avata sen ja kirjata ajan, joka tehtävään on kulunut.
+Käytä **Luo aikaraportit** -eräajoa, kun määrität aikaraportit tietylle määrälle ajanjaksoja tai viikkoja. Tämän jälkeen aikaraportin omistaja voi avata sen ja kirjata ajan, joka tehtävään on kulunut.  
+
+> [!IMPORTANT]
+> Sinulla on oltava oikeudet luoda aikaraportteja.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuntiraportit** ja valitse sitten vastaava linkki.
-2. Valitse **Aikaraporttiluettelo**-sivulla **Luo aikaraportit** -toiminto.
+2. Valitse **Tuntiraportit**-sivulla **Luo tuntiraportit** -toiminto.
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
     > Aikaraportin resurssikortin **Käytä aikaraporttia**- ja **Aikaraportin omistajan käyttäjätunnus** -kenttä on täytettävä.
 4. Valitse **OK**-painike.  
 
-Voit tarkastella samoja aikaraportteja, jotka olet luonut **Aikaraporttiluettelo**-sivulla.
+Voit tarkastella samoja tuntiraportteja, jotka olet luonut **Tuntiraportit**-sivulla. Jokainen tuntiraportti koostuu yhdestä tai useammasta rivistä, jotka määrittävät hyväksyntää varten lähetettävän ajan. Seuraavassa taulukossa kuvataan, millaisia rivejä voit lisätä tuntiraporttiin.
+
+| **Kenttä** | **Kuvaus** |
+|---|---|
+| | Voit lisätä muistiinpanon tai merkin **Kuvaus**-kenttään tuntiraportin riville. Tätä kenttää voi esimerkiksi käyttää tuntiraportin tapahtumien luokittelussa. Jos jätät tuntiraportin rivin **Tyyppi**-kentän tyhjäksi, et voi syöttää tämän rivin viikonpäiväkenttiin aika-arvoja. |
+| Poissaolo | Voit rekisteröidä ajan, jonka olet poissa työviikon aikana. Täydennä rivin tiedot määrittämällä poissaolostyyppi **Poissaolon syyn koodi** -kentässä. |
+| Kokoonpanotilaus | Käytetään ajan rekisteröintiin kokoonpanotilauksissa. Tämän tyypin tuntiraportin rivi luodaan kirjattaessa kokoonpanotilauksen rivit, joihin resurssi on määritetty käyttämään tuntiraportteja. Et voi valita tämäntyyppistä riviä manuaalisesti. |
+| Projekti | Käytä ajankäytön rekisteröintiin projektissa. Saadaksesi rivin tiedot valmiiksi määritä työnumero ja työn tehtävän numero, jolle haluat rekisteröidä aikaa. Voit rekisteröidä ajan riveille, joita et ole aikatauluttanut.|
+| Resurssi | Käytä ajankäytön rekisteröintiin resurssissa. Täydennä rivin tiedot antamalla työn kuvaus. |
+| Palvelu | Käytä ajankäytön rekisteröintiin huoltotilauksessa tai hyvityslaskussa. |
+
+Jos haluat esimerkiksi lähettää tuntiraportin työviikolle, jolloin työskentelit siivoustehtävissä useimpina päivinä mutta olit yhden päivän poissa lääkärin tapaamisen vuoksi, sinun tulisi lisätä rivejä seuraavassa taulukossa kuvatulla tavalla.
+
+| Tyyppi | Kuvaus | Työtyypin koodi | Poissaolon tyypin koodi |
+|--|--|--|--|
+| Resurssi | Työaika | Siivous |  |
+| Poissaolo | Poissaolo |  | Terveys |
+|  | Olin tiistaina poissa lääkärin tapaamisen vuoksi. |  |  |
+
+Tässä hypoteettisessa esimerkissä asianmukaiset tunnit pitäisi rekisteröidä kunkin viikonpäivän asianmukaisiin kenttiin.  
+
+> [!TIP]
+> Useimmissa tapauksissa yrityksillä on ennalta määritettyjä työtyyppejä eri rivityypeille. Tällaisissa tapauksissa valitset vain haluamasi työtyypin luettelosta ja lisäät sitten oman kuvauksesi.  
+>
+> Valitse työtyyppi valitsemalla **Kuvaus**-kentän :::image type="icon" source="media/assist-edit-icon.png" border="false":::-painike, valitsemalla sitten **Toiminnon yksityiskohdat** -toiminto ja määrittämällä se avautuvassa sivussa tai valitsemalla se **Työtyypin koodi**- tai **Poissaolon tyyppi koodi** -kentässä. Tässä tapauksessa voit ohittaa [Työtyyppien määrittäminen ja yhden työtyypin lisääminen tuntiraporttiin](#to-define-work-types-and-add-one-to-a-time-sheet) -osan.  
+
+## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Aikaraportin rivien käyttäminen uudelleen muissa aikaraporteissa
+
+Jos aikaraportin tiedot pysyvät samoina ajanjaksosta toiseen, voit tallentaa ajan kopioimalla rivit edelliseltä ajanjaksolta. Sitten vain kirjoitetaan käytetty aika uudelle jaksolle.
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuntiraportit** ja valitse sitten vastaava linkki.  
+2. Avaa aikaraportti jaksolle, joka on myöhempi kuin olemassa oleva aikaraportti ja sen rivit.  
+3. Valitse **Kopioi rivit aiemmasta aikaraportista** -toiminto.
+
+Rivit kopioidaan, mukaan lukien tarkat tiedot, kuten tyyppi ja kuvaus. Jos rivi liittyy projektiin, **Projektinro** kopioidaan. Kaikki kopioitujen rivien tila on **Avoin**. Voit nyt muokata rivejä tarpeen mukaan.
 
 ## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a>Kopioi työn suunnittelurivit aikaraporttiin
 Seuraavassa ohjeessa neuvotaan, miten lisätään projektin suunnittelurivejä nopeasti aikaraportille.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuntiraportit** ja valitse sitten vastaava linkki.  
-2. Valitse kyseisen ajanjakson aikaraportti **Aikaraporttiluettelo** -sivulla.  
-3. Valitse **Rivi**-toiminto ja valitse sitten **Luo rivejä työn suunnittelusta** -toiminto. Kaikki aikaraportin ajanjakson projektin suunnittelurivit kopioidaan sen henkilön tai koneen aikaraporttiin, joka mainitaan aikaraportin **Resurssin nro** -aikaraportissa.
+2. Valitse kyseisen ajanjakson tuntiraportti **Tuntiraportit** -sivulla.  
+3. Valitse **Luo rivejä projektin suunnittelusta** -toiminto. Kaikki aikaraportin ajanjakson projektin suunnittelurivit kopioidaan sen henkilön tai koneen aikaraporttiin, joka mainitaan aikaraportin **Resurssin nro** -aikaraportissa.
 
 ## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Työtyyppien määrittäminen ja yhden työtyypin lisääminen aikaraporttiin
-Voit määrittää projektien kaikille aikaraporttiriveille työtyypin. Tällä tavalla voit lisätä tiedot, joita tarvitse asiakkaan laskuttamiseen erityyppisistä töistä.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuntiraportit** ja valitse sitten vastaava linkki.   
-2. Avaa asianmukainen aikaraportti.
-3. Valitse **Kuvaus**-kenttä.  
-4. Valitse **Aikaraporttirivin projektierittely** -sivulla **Työtyyppikoodi**-kenttä. Valitse sitten luettelosta työtyyppi, kuten **Mailit**.  
-5. Jos työtyyppiä ei ole, valitse **Uusi**-toiminto.
-6. Täytä **Työtyypit**-sivulla tarvittavat kentät.
-7. Määritä uusi työtyyppi aikaraporttiin toistamalla vaihe 4.
+Voit määrittää työtyypin kaikissa tuntiraporttiriveissä huoltotilauksia, työtilauksia ja resursseja varten. Tällä tavalla voit lisätä tiedot, joita tarvitse asiakkaan laskuttamiseen erityyppisistä töistä.  
 
-## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Aikaraportin rivien käyttäminen uudelleen muissa aikaraporteissa
-Jos aikaraportin tiedot pysyvät samoina ajanjaksosta toiseen, voit tallentaa ajan kopioimalla rivit edelliseltä ajanjaksolta. Sitten vain kirjoitetaan käytetty aika uudelle jaksolle.
+1. Valitse **Tuntiraportit**-sivulla asianmukainen tuntiraportti.
+2. Valitse **Rivit**-osan ensimmäisen rivin kohdalla **Tyyppi**-kenttä ja valitse sitten asianmukainen tyyppi, kuten *Resurssi*.  
+3. Valitse **Kuvaus**-kenttä ja täytä kentät **Tuntiraporttirivin resurssien tiedot** -sivulla. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+    1. Jos työtyyppiä ei ole, valitse **Uusi**-toiminto.
+    2. Täytä **Työtyypit**-sivulla tarvittavat kentät ja palaa sitten takaisin tuntiraporttiin.
+4. Täytä tuntiraportin muut kentät. Lisätietoja on saatavilla [Tuntiraporttirivien täyttäminen ja lähettäminen hyväksyttäväksi](#to-fill-in-time-sheet-lines-and-submit-for-approval) -kohdasta.  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuntiraportit** ja valitse sitten vastaava linkki.  
-2. Avaa aikaraportti jaksolle, joka on myöhempi kuin olemassa oleva aikaraportti ja sen rivit.  
-3. Valitse **Rivi**-toiminto ja valitse sitten **Kopioi rivit edellisestä aikaraportista** -toiminto.
-
-Rivit kopioidaan, mukaan lukien tarkat tiedot, kuten tyyppi ja kuvaus. Jos rivi liittyy projektiin, **Projektinro** kopioidaan. Kaikki kopioitujen rivien tila on **Avoin**. Voit nyt muokata rivejä tarpeen mukaan.
+> [!TIP]
+> Vastaavat työvaiheet koskevat poissaolokoodien määrittämistä.
 
 ## <a name="to-fill-in-time-sheet-lines-and-submit-for-approval"></a>Aikaraporttirivien täyttäminen ja lähettäminen hyväksyttäväksi
-Aikaraportin rekisteröintiä seurataan tunneissa, resurssien perusmittayksikköissä. Oletusarvon mukaan aikaraportti näyttää yleiset työpäivät maanantaista perjantaihin.
+
+Aikaraportin rekisteröintiä seurataan tunneissa, resurssien perusmittayksikköissä. Oletusarvon mukaan aikaraportti näyttää yleiset työpäivät maanantaista perjantaihin.  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuntiraportit** ja valitse sitten vastaava linkki.  
 2. Valitse aikaraportti asianmukaiselle kaudelle.
 3. Täytä tarvittaessa rivin kentät. Syötä resurssin kunkin viikonpäivän käyttötunnit.  
 
+    Voit useimmissa tapauksissa seurata työtä lisäämällä rivin, jonka tyyppi on *Resurssi*, ja rekisteröimällä sitten kunakin päivänä käytetyt tunnit. Jos haluat rekisteröidä poissaoloja, lisää rivi, jonka tyyppi on *Poissaolo*.  
+
     > [!TIP]  
-    >   Voit esikatsella aikaraportin tuntimäärää, jonka olet antanut **Toteutunut/budjetoitu yhteenveto** -tietoruudussa.  
-4. Toista vaihe 3 muille resurssin suorittamille työtyypeille.
-5. Valitse **Prosessi**-toiminto, sitten **Lähetä**-toiminto. Lähetä sitten kaikki rivit valitsemalla **Kaikki avoimet rivit** -toiminto tai lähetä vain **Aikaraportti**-sivulla valitut rivit valitsemalla **Vain valitut rivit** -toiminto.  
+    > Voit esikatsella aikaraportin tuntimäärää, jonka olet antanut **Toteutunut/budjetoitu yhteenveto** -tietoruudussa.  
+4. Toista vaihe 3 muille resurssin suorittamille työtyypeille.  
+
+    Sinun täytyy seuraavaksi päättää, haluatko lähettää kaikki tuntiraportin rivit vaiko yksittäisiä rivejä.  
+
+    * Jos haluat lähettää tuntiraportin yhden tai useamman rivin osalta, valitse haluamasi rivi ja valitse sitten **Lähetys**-toiminto.
+
+        Valitse lähetyssivulla **Vain valitut rivit** -toiminto. Rivin tila muuttuu *Avoin*-tilasta *Lähetetty*-tilaan.
+    * Jos haluat lähettää tuntiraportin kaikkien avoimien rivien osalta, valitse **Lähetys**-toiminto **Tuntiraportti**-sivun yläosasta.  
+
+        Sinua pyydetään vahvistamaan, että haluat lähettää kaikki nykyisen tuntiraportin avoimet rivit.  
 
     > [!NOTE]  
-    >   Voit lähettää vain ne aikaraporttirivit, joille on annettu aika.  
-6. Muokkaa tietoja rivillä, jonka tilaksi on määritetty **Lähetetty**, valitsemalla rivi ja valitsemalla sitten **Avaa uudelleen** -toiminto.
+    > Voit lähettää vain ne aikaraporttirivit, joille on annettu aika.  
+5. Muokkaa tietoja rivillä, jonka tilaksi on määritetty **Lähetetty**, valitsemalla rivi ja valitsemalla sitten **Avaa uudelleen** -toiminto.
 
     > [!NOTE]  
     >   Esimies voi hylätä aikaraporttirivin, joka on lähetetty hyväksyttäväksi. Jos rivin tila on **Hylätty**, voit muuttaa riviä ja valita sitten uudelleen **Lähetä**-kohdan.  
-7. Valitse **OK**-painike.
+6. Valitse **OK**-painike.
 
 ## <a name="to-approve-or-reject-a-time-sheet"></a>Hyväksy tai hylkää aikaraportti
 Aikaraportti on lähetettävä hyväksyttäväksi, jotta sitä voidaan käyttää. Voit hyväksyä ja hylätä aikarapportin yksittäisiä rivenä tai lähettää ne takaisin lähettäjälle lisätoimenpiteitä varten. Aikaraportti voidaan hyväksyä kahdella seuraavalla tavalla:
@@ -172,7 +215,7 @@ Kun olet kirjannut aikaraportit, voit arkistoida ne myöhempää käyttöä vart
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuntiraportit** ja valitse sitten vastaava linkki.
 2. Valitse **Siirrä aikaraportit arkistoon** -toiminto.  
 3. Täytä **Siirrä aikaraportit arkistoon** -sivulla tarvittavat kentät ja valitse sitten **OK**-painike.  
-4. Jos haluat tarkastella arkistoituja tuntiraportteja, valitse ![Kerro-ominaisuuden avaava Hehkulamppu.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuntiraporttiarkistot** tai **Päällikön tuntiraporttiarkistot** ja valitse vastaava linkki.
+4. Jos haluat tarkastella arkistoituja tuntiraportteja, valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuntiraporttiarkistot** tai **Päällikön tuntiraporttiarkistot** ja valitse vastaava linkki.
 
 ## <a name="see-also"></a>Katso myös
 [Projektinhallinta](projects-manage-projects.md)  

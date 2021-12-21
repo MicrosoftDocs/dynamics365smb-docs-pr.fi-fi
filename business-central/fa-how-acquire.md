@@ -10,14 +10,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase fixed asset
-ms.date: 04/01/2021
+ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 47eb44e7915407c1091791153ed62eb7b473a3a0
-ms.sourcegitcommit: c35a132cc615629e4f873177755a39ab58783e38
+ms.openlocfilehash: 997e9e9d26ccb2beaafcb9e3e6cdf8fb467652ef
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "7643928"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920953"
 ---
 # <a name="acquire-fixed-assets"></a>Hankittu käyttöomaisuus
 Kunkin käyttöomaisuuserän osalta tulee määrittää kortti, joka sisältää tietoja kyseisestä käyttöomaisuuserästä. Voit määrittää rakennuksia tai tuotantolaitoksia pääkäyttöomaisuuseräksi. Voit myös ryhmitellä niitä eri tavoin, kuten esimerkiksi luokan, osaston ja sijainnin mukaan. Kullekin käyttöomaisuuserälle on määritettävä ja liitettävä poistokirja ennen hankintaa.
@@ -78,14 +78,14 @@ Jos teet virheen hankintamenon kirjaamisessa, voit poistaa tapahtuman **Peruuta 
 Jos esimerkiksi kirjaat hankinnan väärälle päivämäärälle, se on korjattava mahdollisimman pian, koska käyttöomaisuuserän kirjauspäivämäärää käytetään monissa laskelmissa.
 
 > [!IMPORTANT]  
->   **Peruuta tapahtumat** -toimintoa ei voi käyttää käyttöomaisuustapahtumissa.
+> **Peruuta tapahtumat** -toimintoa ei voi käyttää käyttöomaisuustapahtumissa.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Peruuta KO -tapahtumia** ja valitse sitten vastaava linkki.
-2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Suorita eräajo valitsemalla **OK**.
-4. Kun virheellinen tapahtuma tai tapahtumat on peruutettu, voit kirjata oikean hankintamenon.
-
-Voit peruuttaa useiden käyttöomaisuuserien tapahtumakirjaukset kerralla **Peruuta KO-tapahtumat** -eräajon avulla.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvake, syötä **KO-tapahtumat** ja valitse sitten vastaava linkki.  
+2. Valitse **KO-tapahtumat**-sivulta tapahtuma tai tapahtumat, jotka haluat peruuttaa.  
+3. Valitse **Toiminnot**-valikko ja valitse sitten **Peruuta tapahtumat** -toiminto.
+4. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+5. Suorita eräajo valisemalla **OK**.
+6. Kun virheellinen tapahtuma tai tapahtumat on peruutettu, voit kirjata oikean hankintamenon.
 
 ## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Jäännösarvon kirjaaminen yhdessä hankintamenon kanssa
 Jäännösarvon voi kirjata käyttöomaisuuden KP-päiväkirjasta yhdessä hankintamenon kanssa.

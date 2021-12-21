@@ -1,6 +1,6 @@
 ---
 title: Aikaraporttien ja niiden hyväksymisen määrittäminen
-description: Aikaraportit määritetään seuraamaan projekteihin käytettyä aikaa ja resurssien käyttöä, mikä auttaa projektinhallinnan, henkilöstön ja kapasiteetin suhteen.
+description: Tuntiraportit määritetään seuraamaan tehtäviin ja projekteihin käytettyä aikaa ja resurssien käyttöä, mikä auttaa projektinhallinnan, henkilöstön ja kapasiteetin suhteen
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,25 +8,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheet
-ms.date: 10/01/2021
+ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 72618aaeddae0a72a0c699f19a04a388ced0b9c1
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 46e5cf2c7728e7c154841b6d407423344020d818
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589205"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920978"
 ---
 # <a name="set-up-time-sheets"></a>Aikaraporttien määrittäminen
 
-[!INCLUDE[prod_short](includes/prod_short.md)]in aikaraportit käsittelevät aikarekisteröintiä viikoittain seitsemän päivän välein. Voit käyttää niitä projekteissa käytettävän ajan seuraamiseen ja yksinkertaisen resurssin aikarekisteröinnin kirjaamiseen. Ennen kuin voit käyttää aikaraportteja, on määritettävä tavat niiden määrittämiseen ja asetuksiin.
+[!INCLUDE[prod_short](includes/prod_short.md)]in aikaraportit käsittelevät aikarekisteröintiä viikoittain seitsemän päivän välein. Voit käyttää niitä projekteissa käytettävän ajan seuraamiseen ja yksinkertaisen resurssin aikarekisteröinnin kirjaamiseen. Ennen kuin voit käyttää tuntiraportteja, sinun täytyy määrittää tuntiraportteja lähettävät käyttäjät ja tavan, jolla määrität tuntiraportteja.  
 
-Kun olet määrittänyt, miten organisaatiossa käytetään aikaraportteja, voit määrittää aikaraporttien hyväksymistä koskevat ehdot. Organisaation tarpeista riippuen voit määrittää seuraavat vaihtoehdot:
+> [!TIP]
+> Tuntiraporttien käyttäjät kohteessa [!INCLUDE [prod_short](includes/prod_short.md)] ovat *resursseja*. Tällä tavalla voit esimerkiksi käyttää tuntiraportteja muiden kuin työntekijöiden työn seuraamista varten. Jotta voit seurata työntekijöiden työtä tai seurata heidän poissaoloaan käyttämällä tuntiraportteja, sinun täytyy liittää *työntekijät* *resursseihin* asetusoppaassa.  
+
+Voit myös määrittää, milloin ja miten tuntiraportit hyväksytään. Organisaation tarpeista riippuen voit määrittää seuraavat vaihtoehdot:
 
 * Vähintään yhden käyttäjän aikaraportin järjestelmänvalvojaksi ja hyväksyjäksi kaikkia aikaraportteja varten.
 * Kunkin resurssin aikaraportin hyväksyjän.
 
-Kun olet määrittänyt aikaraportit, voit luoda resursseille aikaraportit, määrittää ne projektin suunnitteluriveille ja kirjata aikaraporttirivit. Lisätietoja on kohdassa [Aikaraporttien käyttäminen](projects-how-use-time-sheets.md).  
+Kun olet määrittänyt tuntiraportit, voit luoda resursseille tuntiraportit ja resurssit voivat kirjata tuntiraporttirivit. Voit myös määrittää tuntiraportit projektin suunnitteluriveille. Lisätietoja on kohdassa [Aikaraporttien käyttäminen](projects-how-use-time-sheets.md).  
 
 ## <a name="set-up-time-sheets-with-the-assisted-setup-guide"></a>Määritä aikaraportit tuetun asetusoppaan avulla
 
@@ -42,6 +45,8 @@ Vuoden 2021 2. julkaisuaallosta eteenpäin voit määrittää tuntiraportteja av
 Avustava asetusopas johdattaa sinut alusta loppuun seuraavat vaiheet:
 
 1. Määritä osallistujat tuntiraporttiprosesseihin
+
+    Kohteen [!INCLUDE [prod_short](includes/prod_short.md)] käyttäjien määrä näkyy oppaan ensimmäisellä sivulla. Siinä näkyy myös muita pakollisia ja valinnaisia tietoja.  
 2. Määrittele työviikon ensimmäinen päivä tässä organisaatiossa
 
     Työviikon ensimmäinen päivä on kaikkien aikataulukkojen oletusarvoinen ensimmäinen päivä.
@@ -50,10 +55,7 @@ Avustava asetusopas johdattaa sinut alusta loppuun seuraavat vaiheet:
     Tämä henkilö voi muokata ja poistaa kaikkia tuntiraportteja. Vaihtoehtoisesti voit lisätä saman roolin muille käyttäjille **Käyttäjäasetukset**-sivulla.
 4. Määritä resurssit, jotka käyttävät tuntiraportteja, ja henkilöt, jotka hyväksyvät tuntiraportteja.
 
-    > [!NOTE]
-    > Projektien ja töiden osalta tuntiraporttien käyttäjät ovat *resursseja*, eivät työntekijöitä. Jotta siis voisit seurata työntekijöiden työtä, sinun täytyy liittää resurssit työntekijöihin asetusoppaassa.
-
-Asennusoppaan lopussa voit määrittää, että [!INCLUDE [prod_short](includes/prod_short.md)] luo tuntiraportteja kokoonpanon perusteella. Vaihtoehtoisesti voit suorittaa avustetun asennusoppaan uudelleen tai viimeistellä asetukset manuaalisesti.  
+Asennusoppaan lopussa voit määrittää, että [!INCLUDE [prod_short](includes/prod_short.md)] luo tuntiraportteja kokoonpanon perusteella. Voit tarkastella uusia tuntiraportteja **Tuntiraportit**-sivulla, jonka voit avata [tästä](https://businesscentral.dynamics.com/?page=951). Vaihtoehtoisesti voit suorittaa avustetun asennusoppaan uudelleen tai viimeistellä asetukset manuaalisesti.  
 
 ## <a name="set-up-time-sheets-manually"></a>Aikaraporttien määrittäminen manuaalisesti
 
@@ -92,7 +94,7 @@ Seuraavissa osissa kuvataan, miten voit määrittää tuntiraportteja, jos et k�
 
 ## <a name="see-also"></a>Katso myös
 
-[Aikaraporttien käyttäminen projekteissa](projects-how-use-time-sheets.md)  
+[Tuntiraporttien käyttäminen projekteissa](projects-how-use-time-sheets.md)  
 [Luo aikaraportit](projects-how-use-time-sheets.md#to-create-time-sheets)  
 [Projektien kulutuksen tai käytön kirjaaminen](projects-how-record-job-usage.md)  
 [Projektinhallinnan määrittäminen](projects-setup-projects.md)  

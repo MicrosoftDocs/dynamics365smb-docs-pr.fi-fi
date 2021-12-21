@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.search.keyword: prepayment
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 517d815e323f2b1d0e3c120808a5543bff462ff3
-ms.sourcegitcommit: 400554d3a8aa83d442f134c55da49e2e67168308
+ms.openlocfilehash: a09f0cd35c62b65bf690fd785c0fc9a4b4b178d7
+ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "7701513"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "7889818"
 ---
 # <a name="set-up-prepayments"></a>Ennakkomaksujen määrittäminen
+
 Jos haluat, että asiakkaat lähettävät maksun ennen kuin toimitat heille tilauksen tai jos toimittaja haluaa maksun ennen kuin toimitus lähetetään sinulle, voit käyttää Ennakkomaksu-toimintoa. Ennakkomaksutoiminnon avulla voit laskuttaa ja periä toiminnolla asiakkailta edellytettäviä talletuksia tai suorittaa talletuksia toimittajille sekä varmistaa, että kaikki osamaksut kohdistetaan laskuun. Lisätietoja on kohdassa [Ennakkomaksulaskujen luominen](finance-how-to-create-prepayment-invoices.md).
 
 Ennen kuin voit kirjata ennakkomaksulaskuja, sinun on määritettävä kirjaustilit pääkirjanpitoon sekä määritettävä numerosarjat ennakkomaksuasiakirjoille. Määritä myyntiin ja ostoon liittyville ennakkomaksuille tilit. Voit määrittää kirjaustilit, joita käytetään kaikille yleisiin liiketoiminnan kirjausryhmiin tai yleisiin tuotteen kirjausryhmiin liittyville ennakkomaksuille. Voit myös määrittää tietyille myynnin ja oston kirjausryhmille omat tilit. Tämä riippuu siitä, millaisia vaatimuksia yrityksellä on ennakkomaksujen seurantaa varten.  
@@ -23,6 +24,7 @@ Voit määrittää toimittajan tai asiakkaan ennakkomaksuna laskutettavan rivisu
 
 > [!NOTE]
 > 100 prosentin ennakkomaksua ei kannata käyttää seuraavissa tilanteissa:
+>
 > * Sijaintisi on Pohjois-Amerikassa. Verojen laskutavan vuoksi 100 prosentin ennakkomaksu voi aiheuttaa ongelmia ennakkomaksulaskuissa.
 > * Kaikilla alueilla, jos maksualennus vähennetään manuaalisesti laskusta. 100 prosentin ennakkomaksua ei jätä automaattisesti summaa, josta alennus vähennetään. 
 
@@ -33,10 +35,10 @@ Koska ennakkoon maksettu summa kuuluu ostajalle siihen asti, kunnes hän on vast
 ## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Ennakkomaksutilien lisääminen yleisiin kirjausasetuksiin  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleiset kirjausasetukset** ja valitse sitten vastaava linkki.
-2. Täytä **Yleiset kirjausasetukset** -sivulla seuraavat kentät:  
+2. Täytä **Yleiset kirjausasetukset** -sivulla seuraavat kentät tarvittavien rivien osalta:  
 
-    - **Myynnin ennakkomaksutili**  
-    - **Ostojen ennakkomaksutili**  
+    * **Myynnin ennakkomaksutili**  
+    * **Ostojen ennakkomaksutili**  
 
 > [!TIP]
 > Jos **Yleiset kirjausasetukset** -sivun kentät eivät ole näkyvissä, siirry sivulla oikealle sivun alaosassa olevan vaakavierityspalkin avulla.  
@@ -46,16 +48,16 @@ Jos et ole vielä määrittänyt ennakkomaksujen pääkirjanpitotilejä, voit av
 ## <a name="to-set-up-number-series-for-prepayment-documents"></a>Ennakkomaksuasiakirjojen numerosarjojen määrittäminen  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntien ja myyntisaamisten asetukset** ja valitse sitten vastaava linkki.
-2. Täytä seuraavat kentät **Myyntien ja myyntisaamisten asetukset** -sivulla.  
+2. Täytä seuraavat kentät **Myyntien ja myyntisaamisten asetukset** -sivun **Numerosarjat**-pikavälilehdessä:  
 
-   - **Kirjattujen ennakkomaksulaskujen nrot**
-   - **Kirjattujen ennakkomaksun hyvityslaskujen nrot**
+   * **Kirjattujen ennakkomaksulaskujen nrot**
+   * **Kirjattujen ennakkomaksun hyvityslaskujen nrot**
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostojen ja maksettavien määritys** ja valitse sitten vastaava linkki.
-2. Täytä **Ostojen ostovelkojen asetukset** -sivulla seuraavat kentät:
+3. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostojen ja maksettavien määritys** ja valitse sitten vastaava linkki.
+4. Täytä seuraavat kentät **Ostojen ja ostovelkojen asetukset** -sivun **Numerosarjat**-pikavälilehdessä:
 
-    - **Kirjattujen ennakkomaksulaskujen nrot**
-    - **Kirjattujen ennakkomaksun hyvityslaskujen nrot**
+    * **Kirjattujen ennakkomaksulaskujen nrot**
+    * **Kirjattujen ennakkomaksun hyvityslaskujen nrot**
 
 > [!NOTE]  
 > Voit käyttää ennakkomaksuissa ja tavallisissa maksuissa samoja tai erilaisia numerosarjoja. Jos käytät erilaisia sarjoja, ne eivät saa olla päällekkäisiä, koska sarjoissa ei saa olla samoja numeroita.  
@@ -74,6 +76,9 @@ Voit määrittää asiakkaalle tai toimittajalle yhden kaikkia nimikkeitä ja ka
 2. Avaa asiakkaan kortti.
 3. Täytä **Ennakkomaksuprosentti**-kenttä.
 4. Toista vaiheet muiden asiakkaiden tai toimittajien kohdalla.  
+
+> [!TIP]
+> Voit myös käyttää **Myynnin ennakkomaksuprosentit** -sivua asiakkaan tai toimittajan kortilta.
 
 ### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Etusijalla olevan ennakkomaksuprosentin määrittäminen  
 

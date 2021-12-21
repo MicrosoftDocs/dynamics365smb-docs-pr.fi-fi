@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: c4072e0371499982fc86d6c16b4d614552bc4533
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 44dd13f986098283d29e58d3e8c4ce0218b4a083
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660179"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921056"
 ---
 # <a name="update-currency-exchange-rates"></a>Valuutan vaihtokurssien päivittäminen
 
@@ -174,7 +174,10 @@ Muutostapahtumille on määritetty niiden KP-tilien dimensiot, joille ne on kirj
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
 ## <a name="to-set-up-a-currency-exchange-rate-service"></a>Valuutanvaihdon kurssipalvelun määrittäminen
-Voit pitää valuutan vaihtokurssit ajan tasalla ulkoisen palvelun, kuten FloatRatesin avulla.
+Voit pitää valuutan vaihtokurssit ajan tasalla ulkoisen palvelun, kuten FloatRatesin avulla. 
+
+> [!NOTE]
+> Useimmat vaihtokurssipalvelut sisältävät tietoja, jotka ovat yhteensopivia kohteen [!INCLUDE[prod_short](includes/prod_short.md)] tuontiprosessin kanssa. Joskus tiedot kuitenkin muotoillaan eri tavalla, ja sinun on mukautettava tuontiprosessia. Voit tehdä näin tiedonsiirtokehyksen avulla lisäämällä oman koodiyksikön. Tarvitset luultavasti kehittäjän apua. Lisätietoja on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvake, syötä **Valuutanvaihdon kurssipalvelut** ja valitse liittyvä linkki.
 2. Valitse **Uusi**-toiminto.

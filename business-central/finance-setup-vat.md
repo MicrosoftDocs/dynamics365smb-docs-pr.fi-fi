@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: d0cea6be92becb3d44507687954f59fcdc6d5de3
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e62a4709b493d44487d189dfd9ec5b76bc6987b8
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446163"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7921007"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen
 
@@ -31,7 +31,10 @@ Voit määrittää ALV-laskelmat manuaalisesti, mutta se voi olla hankalaa ja ai
 > [!NOTE]  
 > Voit käyttää opasta vain siinä tapauksessa, että olet luonut oman yrityksen etkä ole kirjannut ALV:n sisältäviä tapahtumia. Muussa tapauksessa on erittäin helppoa käyttää vahingossa eri ALV-prosentteja, mikä johtaisi virheellisiin ALV-raportteihin.  
 
-Jos haluat määrittää ALV-laskelmat itse tai jos haluat lisätietoja kustakin vaiheesta, kukin vaihe käsitellään tässä ohjeaiheessa.
+Jos haluat määrittää ALV-laskelmat itse tai jos haluat lisätietoja kustakin vaiheesta, kukin vaihe käsitellään tässä ohjeaiheessa.  
+
+> [!TIP]
+> [!INCLUDE [prod_short](includes/prod_short.md)] on saatavilla maissa, joissa ei käytetä ALV:tä. Saat lisätietoja veron määrittämisestä ja raportoinnista tietyssä maassa [Business Centralin paikalliset toiminnot](about-localization.md) -osion artikkeleista.  
 
 ## <a name="to-use-the-vat-setup-assisted-setup-guide-to-set-up-vat-recommended"></a>ALV-asetusten ohjatun määritysoppaan käyttäminen ALV:n määrityksessä (suositus)
 

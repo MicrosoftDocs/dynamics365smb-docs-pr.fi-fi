@@ -6,13 +6,13 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.service: dynamics365-business-central
 ms.author: edupont
-ms.date: 07/09/2021
-ms.openlocfilehash: 3dc07c19093ff2068a2d749fdf2b260ea82c4672
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.date: 10/26/2021
+ms.openlocfilehash: bc04ebdbd8092fc480fdaa00043b4e4c49fa823e
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588049"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920926"
 ---
 # <a name="resources-for-help-and-support"></a>Ohje- ja tukiresurssit
 
@@ -85,7 +85,7 @@ Pidemmän ajan kattavan yleiskuvan saa [!INCLUDE[prod_short](includes/prod_short
 Tässä osassa on Microsoft AppSourcen pikakuvakkeet, ja voit etsiä sieltä [!INCLUDE[prod_short](includes/prod_short.md)] -kumppaneiden ratkaisuja ja palveluja. Voit tutustua linkkien avulla kaikkiin [!INCLUDE[prod_short](includes/prod_short.md)]in ominaisuuksiin, ennen kuin päätät, haluatko ostaa tilauksen. Täällä on myös linkki, jolla voi olla yhteyttä myyntitiimiin.
 
 > [!NOTE]
-> Tämä osa on käytössä vain kokeiluversioissa. Jos olet jo ostanut [!INCLUDE[prod_short](includes/prod_short.md)]in, osa ei enää näy.
+> Tämä osa on käytössä vain kohteen [!INCLUDE[prod_short](includes/prod_short.md)] verkkokokeiluversioissa. Jos olet jo ostanut kohteen [!INCLUDE[prod_short](includes/prod_short.md)], osa ei enää näy.
 
 ### <a name="give-feedback"></a>Anna palautetta
 
@@ -95,7 +95,7 @@ Varmista, että käyt läpi lähetettyjen ehdotusten luettelon. On todennäköis
 
 ### <a name="troubleshooting"></a>Vianetsintä
 
-**Vianetsintä**-osassa on teknisiä tietoja, joiden avulla järjestelmänvalvoja tai [!INCLUDE[prod_short](includes/prod_short.md)] -kumppani voi auttaa käyttäjiä selviämään ongelmista. Nämä tiedot sisältävät myös viimeisen virhesanomat tiedot, [!INCLUDE[prod_short](includes/prod_short.md)]in nykyisen version ja linkin **Sivun tarkastus** -sivulle. Lisätietoja on kohdassa [Sivujen tarkastaminen Business Centralissa](across-inspect-page.md).  
+**Vianetsintä**-osassa on teknisiä tietoja, joiden avulla järjestelmänvalvoja tai [!INCLUDE[prod_short](includes/prod_short.md)] -kumppani voi auttaa käyttäjiä selviämään ongelmista. Osio sisältää myös viimeisen virhesanomat tiedot, [!INCLUDE[prod_short](includes/prod_short.md)]in nykyisen version ja linkin **Sivun tarkastus** -sivulle. Lisätietoja on kohdassa [Sivujen tarkastaminen Business Centralissa](across-inspect-page.md).  
 
 Lisätietojen lokiinkirjauksen ottaminen käyttöön **Ilmoita ongelmasta** -osassa auttaa sinua tai tukikumppaniasi vianmäärityksessä. Tämän jälkeen voit analysoida lisätelemetrian esimerkiksi hallintakeskuksessa tai Application Insightsissa.  
 
@@ -108,18 +108,23 @@ Sisäinen järjestelmänvalvoja voi käyttää hallintakeskusta, jossa voit jatk
 
 ### <a name="report-a-problem"></a>Ongelman ilmoittaminen
 
-[!INCLUDE[prod_short](includes/prod_short.md)] -jälleenmyyntikumppani antaa teknistä tukea. Tämä osa helpottaa yhteyden ottamista jälleenmyyntikumppaniin, jos tämä on antanut tuen yhteystiedot. Jos [!INCLUDE[prod_short](includes/prod_short.md)] -kumppani, ei pysty ratkaisemaan ongelmaan, he voivat tehdä tukipyynnön Microsoftille.  
+[!INCLUDE[prod_short](includes/prod_short.md)] -jälleenmyyntikumppani antaa teknistä tukea. Tämä osa helpottaa yhteyden ottamista jälleenmyyntikumppaniin, jos tämä on antanut tuen yhteystiedot. Jos [!INCLUDE[prod_short](includes/prod_short.md)] -kumppani ei pysty ratkaisemaan ongelmaaa, he voivat tehdä tukipyynnön Microsoftille.  
 
 Lisätietoja on ohjeaiheessa [Tukiongelmien eskalointi Microsoftille](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) hallintasisällössä.  
 
 > [!NOTE]
-> Tämä osa on käytettävissä vain, jos sinulla on maksullinen [!INCLUDE[prod_short](includes/prod_short.md)] -tilaus. Jos olet rekisteröitynyt kokeiluversioon etkä ole vielä ostanut [!INCLUDE[prod_short](includes/prod_short.md)]ia, sinulla ei ole jälleenmyyntikumppania etkä voi ottaa yhteyttä Microsoftin tukeen. Voit etsiä [!INCLUDE[prod_short](includes/prod_short.md)] -kumppanin [Ratkaisutoimittajan haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#findpartner).  
+> Kun [!INCLUDE[prod_short](includes/prod_short.md)] on muodostanut yhteyden verkkoon, **Ongelman ilmoittaminen** -osio on käytettävissä vain, jos sinulla on maksullinen [!INCLUDE[prod_short](includes/prod_short.md)]-tilaus. Jos olet rekisteröitynyt kokeiluversioon etkä ole vielä ostanut [!INCLUDE[prod_short](includes/prod_short.md)]ia, sinulla ei ole jälleenmyyntikumppania etkä voi ottaa yhteyttä Microsoftin tukeen. Voit etsiä [!INCLUDE[prod_short](includes/prod_short.md)] -kumppanin [Ratkaisutoimittajan haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#findpartner).  
+>
+> Kun [!INCLUDE[prod_short](includes/prod_short.md)] on paikallisessa ympäristössä, tämä osio on saatavilla vain 2020 julkaisuaallossa 2 (versio 18) ja uudemmissa versioissa.
 
 ### <a name="support-contacts"></a>Tukikontaktit
 
 **Ilmoita ongelmasta** -osassa on sähköpostiosoite tai hyperlinkki, jonka avulla voit ottaa yhteyden asiakastukeen tai tukitiimiin. Jos olet vuokraajan [!INCLUDE[prod_short](includes/prod_short.md)] -jälleenmyyntikumppani, voit määrittää ensisijaisen tukikontaktin yhteystiedot hallintakeskuksessa. Lisätietoja on hallintasisällön kohdassa [Tukikokemuksen määrittäminen](/dynamics365/business-central/dev-itpro/technical-support#configuring-the-support-experience).  
 
 Jos haluat ilmoittaa kumppanille ongelmasta, lähetä joko sähköpostiviesti valitsemalla linkki tai avaa tukisivusto uudessa selainvälilehdessä. Voit sitten lisätä teknisiä tietoja Azure Active Directory -vuokraajasta **Vianmääritys**-osasta ja muita mielestäsi tärkeitä tietoja.  
+
+> [!NOTE]
+> Tukihenkilöiden tietoja ei ole saatavilla paikallisessa [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## <a name="use-the-docsmicrosoftcom-site-to-learn-more"></a>Lisätietojen etsiminen docs.microsoft.com-sivustossa
 
@@ -167,7 +172,7 @@ Jos artikkeli ei vastaa kysymyksiin, muuta sisältöä voi etsiä kahdella taval
 
 ### <a name="languages"></a>Kielet
 
-Liiketoimintatoimintojen sisältöä julkaistaan useilla kielillä. Kun sivustoon docs.microsoft.com siirrytään tuotteesta, sisältö sillä kielellä, joka on määritetty [!INCLUDE [prod_short](includes/prod_short.md)]issa, paitsi siinä tapauksessa, että kieltä ei käytetä sivustossa docs.microsoft.co.  
+Liiketoimintatoimintojen sisältöä julkaistaan useilla kielillä. Kun sivustoon docs.microsoft.com siirrytään tuotteesta, sisältö näytetään sillä kielellä, joka on määritetty [!INCLUDE [prod_short](includes/prod_short.md)]issa, paitsi siinä tapauksessa, että kieltä ei käytetä sivustossa docs.microsoft.co.  
 
 Voit vaihtaa kielen muuttamalla URL-osoitteen tai käyttämällä kielivalitsinta sivuston vasemmassa alakulmassa.  
 
@@ -181,7 +186,7 @@ Maaliskuussa 2021 docs.microsoft.com-sivuston useimpiin artikkeleihin tuli näky
 
 ### <a name="tell-us-what-you-think"></a>Kerro mielipiteesi
 
-Kunkin docs.microsoft.com-artikkelin lopussa on kaksi painiketta. *Tämä tuote* -painike vie ideasivustoon ja *Tämä sivu* -painikkeella voi lähettää sisältöä koskevaa palautetta GitHubin kautta. Kummassakin tapauksessa on luotava tili, jos sitä ei vielä ole. *Tuotteen palautetta* varten kirjauttamiseen on käytettävä työpaikan tai organisaation sähköpostitiliä. *GitHubissa* tilin voi luoda millä tahansa sähköpostiosoitteella.  
+Kunkin docs.microsoft.com-artikkelin lopussa on kaksi painiketta. *Tämä tuote* -painike vie ideasivustoon ja **Tämä sivu** -painikkeella voi lähettää sisältöä koskevaa palautetta GitHubin kautta. Kummassakin tapauksessa on luotava tili, jos sitä ei vielä ole. *Tuotteen palautetta* varten kirjauttamiseen on käytettävä työpaikan tai organisaation sähköpostitiliä. *GitHubissa* tilin voi luoda millä tahansa sähköpostiosoitteella.  
 
 Ehdotukset ovat tervetulleita sekä pull-pyyntöinä, joissa on sisältöä koskevia ehdotuksia tai korjauksia, että GitHub-ongelmina, jotka koskevat ohjelmistovirheitä tai kysymyksiä. On kuitenkin muistettava, että *dynamics365smb-docs*-säilöä koskeva palaute ja ehdotukset koskevat sisältöä eivätkä tuotetta.  
 

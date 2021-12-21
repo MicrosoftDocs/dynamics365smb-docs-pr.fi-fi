@@ -684,7 +684,7 @@
 ### [Projektiraportit](project-reports.md)
 ### [Projektien luominen](projects-how-create-jobs.md)
 ### [Resurssien käyttäminen projekteissa](projects-how-use-resources.md)
-### [Aikaraporttien käyttäminen projekteissa](projects-how-use-time-sheets.md)
+### [Käytä tuntiraportteja](projects-how-use-time-sheets.md)
 ### [Projektibudjettien hallinta](projects-how-manage-budgets.md)
 ### [Projektien käytön kirjaaminen](projects-how-record-job-usage.md)
 ### [Projektin tarvikkeiden hallinta](projects-how-manage-project-supplies.md)
