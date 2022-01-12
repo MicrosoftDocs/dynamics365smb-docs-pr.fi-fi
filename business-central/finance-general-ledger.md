@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 183aa0cee83c826d51f582faead9d3a53b02ce71
-ms.sourcegitcommit: 4223484b0eeceb0258dae5abfd04e1a9a4a0990d
+ms.openlocfilehash: 2af34c84c7b359d2cae64d19a9aec151e0d9a3bb
+ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2021
-ms.locfileid: "7889792"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928807"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Tietoja pääkirjanpidosta ja tilikartasta
 
@@ -45,7 +45,7 @@ Kaikki pääkirjanpidon tilit näkyvät tilikartassa. Tilikartassa voi tehdä es
 
 * Voit tarkastella pääkirjanpitotapahtumat- ja saldot näyttäviä raportteja.  
 * Voit sulkea tuloslaskelman.  
-* Voita avata KP-tilikortin asetusten lisäämistä tai muuttamista varten.  
+* Voita avata pääkirjanpitotilikortin (KP) asetusten lisäämistä tai muuttamista varten.  
 * Voit tarkastella luetteloa kirjausryhmistä, jotka tekevät kirjauksia kyseiselle tilille.
 * Yhden tilin erillisten debet- ja kreditsaldojen näyttäminen  
 
@@ -55,7 +55,7 @@ Voit lisätä, muuttaa tai poistaa pääkirjanpidon tilejä. Ristiriitojen estä
 
 Voit räätälöidä rahoituslaskelmien rakennetta yhdistämällä pääkirjanpidon tilit tililuokkiin.  
 
-**KP-tilin luokat** -sivulla on aiemmin luodut pää- ja alaluokat sekä niihin liitetyt KP-tilit. Voit luoda uusia alaluokkia ja liittää luokat aiemmin luotuihin tileihin.  
+**KP-tilin luokat** -sivulla on aiemmin luodut pää- ja alaluokat sekä niihin liitetyt pääkirjanpitotilit. Voit luoda uusia alaluokkia ja liittää luokat aiemmin luotuihin tileihin.  
 
 Voit luoda luokkaryhmän sisentämällä **KP-tilin luokat** -sivun rivin alla olevia muita alaluokkia. Tällöin yleiskuvauksen saaminen on helppoa, koska kunkin ryhmittelyn yhteydessä näytetään kokonaissaldo. Voit luoda esimerkiksi alaluokkia eri käyttöomaisuustyypeille ja luoda sitten luokkaryhmiä esimerkiksi käyttöomaisuudelle ja nykyisille vastaaville.  
 

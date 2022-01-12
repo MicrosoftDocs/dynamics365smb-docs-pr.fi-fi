@@ -9,18 +9,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sandbox, demo, develop
-ms.date: 07/27/2021
+ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: db390d1f4ee690b9e461bfccd77155ec0b66a2b6
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: d82497d8df7ccc414a1a71b23a277e7105903f5c
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589373"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940624"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Eristysympäristöt [!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisussa
 
 [!INCLUDE[prod_short](includes/prod_short.md)] onlinen avulla voit helposti luoda turvallisen ympäristön, jossa voit testata, kouluttaa tai tehdä vianmäärityksiä häiritsemättä yrityksen työprosesseja tai liiketoimintatietoja. Tällaista ei-tuotantoympäristöä kutsutaan *eristysympäristöksi (sandbox)*. Tuotannosta eristetty Sandbox-ympäristö on paikka, jossa voi turvallisesti tutustua palveluun, opetella sen käyttöä sekä kehittää ja testata sitä ilman, että tuotantoympäristön tiedot ja asetukset vaarantuvat.  
+
+> [!TIP]
+> Päädyitkö tähän artikkeliin sen jälkeen, kun valitsit [!INCLUDE [prod_short](includes/prod_short.md)] -ympäristösi nimen yläpalkissa? Tällä hetkellä nimeä tai ympäristöä ei voi muuttaa tuolla tavalla. Sen sijaan sinun täytyy pyytää järjestelmänvalvojaa muuttamaan nimeä tai pyytää heitä jakamaan linkki toiseen ympäristöön.
 
 Järjestelmänvalvoja hallitsee eristysympäristöjä [hallintakeskuksessa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments?toc=/dynamics365/business-central/toc.json).  
 

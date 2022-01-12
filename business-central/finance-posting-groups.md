@@ -1,8 +1,6 @@
 ---
 title: Kirjausryhmän määrittäminen| Microsoft Docs
 description: Yleiskatsaus kirjausryhmistä, joiden avulla voit säästää aikaa ja välttää virheitä tapahtumia kirjattaessa.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
-ms.date: 04/01/2021
+ms.date: 12/17/2021
 ms.author: bholtorf
-ms.openlocfilehash: fc57271d36d02c3ca7dcb8ad30ce597d9f9a7673
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: ed369b94948846ca380a3480e79660a6aafe292a
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588805"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940749"
 ---
 # <a name="setting-up-posting-groups"></a>Kirjausryhmien määrittäminen
 Kirjausryhmät yhdistävät objektit, kuten asiakkaat, toimittajat, nimikkeet, resurssit sekä myynti- ja ostoasiakirjoja pääkirjanpidon tileille. Ne säästävät aikaa ja auttavat välttämään virheitä tapahtumia kirjattaessa. Tapahtuman arvot viedään kyseisen objektin kirjausryhmässä määritetylle tilille. Kirjausryhmiä varten tarvitaan vain tilikartta. Lisätietoja on kohdassa [Tilikartan määrittäminen](finance-setup-chart-accounts.md).  
@@ -74,6 +72,17 @@ Kirjausajankohta määräytyy asetusten mukaan. Esimerkiksi jaksoittaiset toimin
 
 ## <a name="copying-posting-setup-lines"></a>Kirjausasetusrivien kopioiminen
 Mitä enemmän tuotteen ja liiketoiminnan kirjausryhmiä on luotu, sitä enemmän rivejä näkyy Yleiset kirjausasetukset -sivulla. Yrityksen yleisten kirjausasetusten määrittäminen voi siis vaatia paljon tietojen syöttämistä. Vaikka liiketoiminnan ja tuotteen kirjausryhmiä saattaa olla useita, eri yhdistelmillä voi kuitenkin kirjata samoille pääkirjanpidon tileille. Manuaalisia vientejä voi rajoittaa kopioimalla pääkirjanpidon tilit aiemmin luodulta riviltä **Yleiset kirjausasetukset** -sivulla.
+
+## <a name="set-up-posting-groups-on-the-go"></a>Kirjausryhmien määrittäminen liikkeellä ollessa
+
+Jotta käyttäjät voisivat aloittaa nopeammin, [!INCLUDE[prod_short](includes/prod_short.md)] tarjoaa apua ilmoittamalla puuttuvista pääkirjanpitotileistä asiakirjojen eri kirjausryhmien asetuksissa. Jos haluat saada nämä ilmoitukset, varmista, että **KP-tili puuttuu kirjausryhmästä tai asetuksesta** -ilmoitus on valittuna **Omat ilmoitukset** -sivulla, jonka voit avata **Omat asetukset**-sivun **Muuta vastaanotettaessa ilmoituksia** -kentän avulla.  
+
+Tällöin saat ilmoituksen, kun työskentelet asiakirjan parissa, joka käyttää kirjausryhmää tai kokoonpanoa, josta puuttuu vaadittu pääkirjanpitotili. Valitse ilmoituksessa oleva linkki avataksesi sivun, jolla voit tehdä tarvittavat muutokset, jos sinulla on siihen oikeus.  
+
+> [!NOTE]
+> Jotta voisit siirtyä suoraan kirjausryhmään tai asetukseen, joista puuttuu pääkirjanpitotili, [!INCLUDE[prod_short](includes/prod_short.md)] luo paikkamerkkikirjausryhmän tai -asetukset. Kirjausryhmät ja -asetukset ovat tapa, jolla kirjanpitäjä voi hallita sitä, kuinka kirjaukset kirjataan pääkirjaan, joten tällainen kirjausryhmien ja -asetusten luominen oikeaan aikaan ei ehkä ole sallittua organisaatiossasi.  
+> 
+> Poista siinä tapauksessa käytöstä **KP-tili puuttuu kirjausryhmästä tai asetuksesta** -ilmoitus, ja tee sitten tarvittavat muutokset kirjausryhmään, asetuksiin tai asiakirjaan yhdessä kirjanpitäjän kanssa. Tämä on tärkeä vaihe, koska asiakirjojen kirjaamisen jälkeen kaikkia virheellisesti käytettyjä kirjausryhmiä tai asetuksia ei voi poistaa, koska niille on luotu pääkirjanpidon tapahtumia. 
 
 ## <a name="troubleshooting-posting-group-errors"></a>Kirjausryhmän virheiden vianetsintä
 Kirjausryhmät ovat eräs kehittyneimmistä käsitteistä, jotka määritetään [!INCLUDE[prod_short](includes/prod_short.md)]issa. Jos niitä ei ole määritetty oikein, asiakirjojen tai päiväkirjarivien kirjauksessa voi ilmetä virheitä. Virheet johtuvat esimerkiksi siitä, miten kirjanpitotilit määritetään tai miten kirjausryhmät yhdistetään virheellisesti.

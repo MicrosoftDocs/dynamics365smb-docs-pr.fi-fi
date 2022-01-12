@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: ddf848c3fb4845f802276843dfa6521eca20f896
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b3c459ab6c4056b40c5e83db70a0cafab48359a1
+ms.sourcegitcommit: 13b811918b3c9f1598150b5cbbf387974b2a6df6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442483"
+ms.lasthandoff: 01/04/2022
+ms.locfileid: "7949092"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet
 
@@ -122,7 +122,7 @@ Lisätietoja on kohdassa [Rakennetiedot: siirrot suunnittelussa](design-details-
 
 ### <a name="order-priority"></a>Tilauksen prioriteetti
 
-Pyydetty tai käytettävissä oleva päivämäärä edustaa annetun varastointiyksikön korkeinta prioriteettia. Tämän päivän kysyntä tulee käsitellä ennen tulevien päivien kysyntää. Mutta lukuun ottamatta tätä jonkinlaista prioriteettia, eri kysynnän ja tarjonnan tyypit järjestetään liiketoiminnan tärkeyden perusteella jotta voidaan päättää mikä kysyntä on täytettävä ennen kuin täytetään toinen kysyntä. Tarjonnan puolella tilauksen prioriteetti kertoo mitä tarjontalähdettä tulisi soveltaa ennen muiden tarjontalähteiden käyttöä.  
+Pyydetty tai käytettävissä oleva päivämäärä edustaa annetun varastointiyksikön korkeinta prioriteettia. Tämän päivän kysyntä tulee käsitellä ennen tulevien päivien kysyntää. Mutta lukuun ottamatta tämän kaltaista prioriteettia, eri kysynnän ja tarjonnan tyypit järjestetään liiketoiminnan tärkeyden perusteella jotta voidaan päättää mikä kysyntä on täytettävä ennen kuin täytetään toinen kysyntä. Tarjonnan puolella tilauksen prioriteetti kertoo mitä tarjontalähdettä tulisi soveltaa ennen muiden tarjontalähteiden käyttöä.  
 
 Lisätietoja on kohdassa [Projektitilausten priorisointi](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
 

@@ -10,17 +10,17 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: b7f23153fe59451b6fc943b0e1115ae0bc895b7c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: b7d7493f0bada0796ee910ca8df01465c3086cd2
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442748"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940499"
 ---
 # <a name="calculate-order-promising-dates"></a>Toimituksen lupaamisen päivämäärien laskeminen
 Yrityksen on voitava ilmoittaa asiakkailleen tilauksen toimituksen päivämäärät. Voit tehdä tämän **Toimituksen lupaamisen rivit** -sivulla myyntitilauksesta.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] laskee heti nimikkeen tunnettujen ja oletettujen päivämäärien perusteella toimitus- ja lähetyspäivämäärät, jotka voidaan sitten luvata asiakkaalle.  
+[!INCLUDE[prod_short](includes/prod_short.md)] laskee lähetys- ja toimituspäivämäärät tuotteen tunnettujen ja odotettavissa olevien saatavuuspäivien perusteella, jotka voit luvata asiakkaille.  
 
 Jos määrität pyydetyn toimituspäivämäärän myyntitilausrivillä, kyseistä päivämäärää käytetään lähtökohtana seuraaville laskelmille:  
 
@@ -43,7 +43,7 @@ Toimituksen lupaamistoiminnon ansiosta voidaan luvata, että tilaus lähetetää
 - Mahdollinen luvattavaksi (CTP)  
 
 ### <a name="available-to-promise"></a>Luvattavissa  
-Luvattavissa (ATP) laskee päivämäärät varausjärjestelmän mukaan. Se suorittaa varaston varaamattomien määrien saatavuustarkistuksen suunnitellun tuotannon, ostojen, siirtojen ja myyntipalautusten varalta. [!INCLUDE[prod_short](includes/prod_short.md)] laskee näiden tietojen perusteella automaattisesti asiakkaan tilauksen toimituspäivämäärän, koska nimikkeet ovat käytettävissä joko varastossa tai suunnitelluissa vastaanotoissa.  
+Luvattavissa (ATP) laskee päivämäärät varausjärjestelmän mukaan. Se suorittaa varaston varaamattomien määrien saatavuustarkistuksen suunnitellun tuotannon, ostojen, siirtojen ja myyntipalautusten varalta. [!INCLUDE[prod_short](includes/prod_short.md)] laskee näiden tietojen perusteella asiakkaan tilauksen toimituspäivämäärän, koska nimikkeet ovat käytettävissä joko varastossa tai suunnitelluissa vastaanotoissa.  
 
 ### <a name="capable-to-promise"></a>Mahdollinen luvattavaksi  
 Mahdollinen luvattavaksi (CTP) olettaa entä jos -esimerkkitilanteen, joka koskee vain nimikemääriä, jotka eivät ole varastossa tai aikataulutetuissa tilauksissa. [!INCLUDE[prod_short](includes/prod_short.md)] laskee tämän skenaarion perusteella varhaisimman päivämäärän, jolloin nimike voi olla käytettävissä, jos se tuotetaan, ostetaan tai siirretään.
@@ -92,38 +92,20 @@ Tilausten käsittelijä päättää CTP-prosessin hyväksymällä päivämäär�
 4. Anna **Toimituksen lupaamisen malli** -kenttään toimituksen lupaamisen malli valitsemalla rivi **Hankintalistan mallien luett.** -sivun luettelosta.  
 5. Anna **Toimituk. lupaamisen työkirja** -kenttään hankintalista valitsemalla rivi **Hankintalistojen nimet** -sivun luettelosta.
 
-### <a name="to-enter-inbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Saapuvan fyysisen varastoinnin käsittelyajan antaminen varastonhallinnan asetussivulla  
-Jos haluat ohjelman sisällyttävän saapuvan fyysisen varastoinnin käsittelyajan ostorivin toimituksen lupaamisen laskentaan, voit määrittää sen oletusarvoksi varastolle ja sijainnille.    
+### <a name="inbound-and-outbound-warehouse-handling-times-in-order-promising"></a>Saapuvan ja lähtevän fyysisen varastoinnin käsittelyajat toimituksen lupaamisen aikana  
+Jos haluat sisällyttää varaston käsittelyajan ostorivin tilauslupaavaan laskelmaan, **Varaston asetukset** -sivulla voit määrittää oletuskäsittelyn ajan myynti- ja ostotositteisiin käytettäväksi. Voit myös määrittää kullekin sijainnille tietyt ajat **Sijaintikortti**-sivulla. 
+
+#### <a name="to-enter-default-inbound-and-outbound-warehouse-handling-times-for-sales-and-purchase-documents"></a>Saapuvien ja lähtevien varastointien oletuskäsittelyaikojen syöttäminen myynti- ja ostoasiakirjoihin
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastonhallinnan asetukset** ja valitse sitten vastaava linkki.  
-2. Syötä **Yleinen**-pikavälilehden **Saapuva f. var. käsittelyaika** -kenttään päivien lukumäärä, jonka haluat ohjelman sisällyttävän tilauksen lupaamisen laskentaan.  
+2. Syötä **Yleinen**-pikavälilehden **Saapuva f. var. käsittelyaika**- ja **Lähtevä f. var. käsittelyaika** -kenttiin päivien lukumäärä, jonka haluat ohjelman sisällyttävän tilauksen lupaamisen laskentaan.  
 
-> [!NOTE]  
->  Jos olet täyttänyt **Saapuva f. var. käsittelyaika** -kentän **sijaintikortissa** sijaintisi osalta, ohjelma käyttää kyseisen kentän sisältöä oletusarvoisena saapuvan fyysisen varastoinnin käsittelyaikana.  
-
-### <a name="to-enter-inbound-warehouse-handling-time-on-location-cards"></a>Saapuvan fyysisen varastoinnin käsittelyajan syöttäminen sijaintikortteihin  
+#### <a name="to-enter-inbound-and-outbound-warehouse-handling-times-on-locations"></a>Saapuvan ja lähtevän fyysisen varastoinnin käsittelyaikojen syöttäminen sijainteihin  
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainti** ja valitse sitten vastaava linkki.  
 2.  Avaa käsiteltävä sijainnin kortti.  
-3.  Syötä **Fyysinen varasto**-pikavälilehden **Saapuva f. var. käsittelyaika** -kenttään päivien lukumäärä, jonka haluat ohjelman sisällyttävän tilauksen lupaamisen laskentaan.  
+3.  Syötä **Fyysinen varasto** -pikavälilehden **Saapuva f. var. käsittelyaika**- ja **Lähtevä f. var. käsittelyaika** -kenttiin päivien lukumäärä, jonka haluat ohjelman sisällyttävän tilauksen lupaamisen laskentaan.  
 
 > [!NOTE]  
->  Jos jätät **Saapuva f. var. käsittelyaika** -kentän tyhjäksi, laskennassa käytetään **Varastonhallinnan asetukset** -sivulla olevaa arvoa.
-
-### <a name="to-enter-outbound-warehouse-handling-time-in-the-inventory-setup-page"></a>Lähtevän fyysisen varastoinnin käsittelyajan antaminen varastonhallinnan asetussivulla  
-Jos haluat määrittää lähtevän fyysisen varastoinnin käsittelyajan sisällytettäväksi myyntirivin toimituksen lupaamisen laskentaan, voit määrittää tämän oletusarvoksi varastolle.
-
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastonhallinnan asetukset** ja valitse sitten vastaava linkki.  
-2. Syötä **Yleinen**-pikavälilehden **Lähtevä f. var. käsittelyaika** -kenttään päivien lukumäärä, jonka haluat ohjelman sisällyttävän tilauksen lupaamisen laskentaan.  
-
-> [!NOTE]  
->  Jos olet täyttänyt **Lähtevä f. var. käsittelyaika** -kentän sijaintikortissa sijaintisi osalta, ohjelma käyttää kyseisen kentän sisältöä oletusarvoisena lähtevän fyysisen varastoinnin käsittelyaikana.  
-
-### <a name="to-enter-outbound-warehouse-handling-time-on-location-cards"></a>Lähtevän fyysisen varastoinnin käsittelyajan syöttäminen sijaintikortteihin  
-1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten vastaava linkki.  
-2.  Avaa käsiteltävä sijainnin kortti.  
-3.  Syötä **Fyysinen varasto**-pikavälilehden **Lähtevä f. var. käsittelyaika** -kenttään päivien lukumäärä, jonka haluat ohjelman sisällyttävän tilauksen lupaamisen laskentaan.  
-
-> [!NOTE]  
->  Jos jätät **Lähtevä f. var. käsittelyaika** -kentän tyhjäksi, laskennassa käytetään **Varastonhallinnan asetukset** -sivulla olevaa arvoa.
+>  Kun luot ostotilausta, valitse **Toimitus ja maksu** -pikavälilehden **Lähetys**-kentässä **Sijainti** ja valitse sitten sijainti **Sijaintikoodi**-kentässä, **Lähtevä f. var. käsittelyaika** ja **Saapuva f. var. käsittelyaika** -kentät käyttävät sijainnille määritettyä käsittelyaikaa. Myyntitilausten osalta sama pätee, jos valitset sijainnin **Sijaintikoodi**-kentässä. Jos sijainnille ei ole määritetty käsittelyaikaa, **Lähtevä f. var. käsittelyaika** ja **Saapuva f. var. käsittelyaika** -kentät ovat tyhjiä. Jos jätät **Sijaintikoodi**-kentän tyhjäksi osto- ja myyntiasiakirjoissa, laskennassa käytetään **Varastonhallinnan asetukset** -sivulla määritettyä käsittelyaikaa.
 
 ## <a name="to-make-an-item-critical"></a>Nimikkeen määritteleminen kriittiseksi  
 Nimike on merkittävä kriittiseksi, ennen kuin sen voi sisällyttää toimituksen lupaamislaskentaan. Tämä asetus varmistaa, etteivät ei-kriittiset nimikkeet aiheuta turhia toimituksen lupaamislaskutoimituksia.   

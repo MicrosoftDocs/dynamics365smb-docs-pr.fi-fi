@@ -1,8 +1,6 @@
 ---
-title: Kassavirtojen analyysi| Microsoft Docs
+title: Kassavirtojen analysoiminen
 description: Tässä artikkelissa kerrotaan, miten käyttöpääomasykli-, tulot ja kulut-, kassavirta- ja kassavirtaennustekaavioilla voidaan analysoida yrityksen historiallista ja tulevaa kassavirran liikkumista.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.date: 04/01/2021
+ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: aed1ce045e4dceb2467a901278300e404cd3e32b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 4d4cdac7b68e0ec59edfaf88d74cdfb4dde9e3a1
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780905"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940099"
 ---
 # <a name="analyzing-cash-flow-in-your-company"></a>Yrityksen kassavirran analysoiminen
 Kirjanpitäjän roolikeskuksesta saa merkityksellisiä tietoja, joiden avulla voi päättää järkevästi käteisvarojen käytöstä.  
@@ -45,6 +43,7 @@ Jos haluat tarkastella ennustetta, voit perehtyä ennustetapahtumien lisäksi my
 * ohittaa myynti- ja ostotilausten kaksoiskappaleet.  
 
 ## <a name="to-view-a-cash-flow-worksheet"></a>Kassavirtatyökirjan tarkastelu
+
 1. Hae **Kassavirtaennusteet** ja valitse liittyvä linkki.  
 2. Valitse ensin kassavirtaennustee ja sitten **Kassavirtatyökirja**-toiminto.  
 3. Valitse **Kassavirtatyökirja**-sivulla **Ehdota työkirjan rivejä** -toiminto.  
@@ -52,9 +51,11 @@ Jos haluat tarkastella ennustetta, voit perehtyä ennustetapahtumien lisäksi my
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
+
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Kassavirta-analyysin määrittäminen](finance-setup-cash-flow-analyses.md)  
-
+[Kassavirran ennustaminen Dynamics 365 Business Centralissa (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Määritä kassavirtaennusteet käyttämällä Azure AI:n määritystä Dynamics 365 Business Centralissa (Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

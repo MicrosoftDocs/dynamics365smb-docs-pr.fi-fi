@@ -8,16 +8,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer, payment, invoice, sales, invoice, quote
-ms.date: 06/23/2021
+ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: be2916e266e404ae1975eb4b721a8b83f1d02791
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: dd943c5ad9464b9ebd1629c5dbc8a3f5545e9d9c
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6434906"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940824"
 ---
-# <a name="the-late-payment-prediction-extension"></a>Myöhästyneen maksun ennusteen laajennus  
+# <a name="the-late-payment-prediction-extension"></a>Myöhästyneen maksun ennusteen laajennus
+
 Tehokas myyntisaamisten hallinta on tärkeää yrityksen taloudellisen tilanteen yleiskuvan kannalta. Myöhästyneen maksun ennusteen laajennus voi auttaa avointen myyntisaamisten vähentämisessä ja perintästrategian tarkentamisessa ennustamalla, maksetaanko myyntilaskut ajoissa. Jos maksun ennustetaan olevan myöhässä, voit esimerkiksi muuttaa asiakkaan maksuehtoja tai maksutapaa.
 
 ## <a name="getting-started"></a>Aloitusopas
@@ -107,10 +108,13 @@ Voit myös luoda oman ennakoivan verkkopalvelun **Dynamics 365 Business Centrali
 7. Valitse **Käytä omaa Azure-tilausta** -valintaruutu.
 8. Syötä **Oman mallin tunnistetiedot** -pikavälilehteen mallin ohjelmointirajapinnan URL-osoite ja avain.  .  
 
-## <a name="see-also"></a>Katso myös  
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on [Microsoft Learnissa](/learn/modules/predict-late-payments-sales-documents/)
+
+## <a name="see-also"></a>Katso myös
+
 [Azure Machine Learning Studio -dokumentaatio](/azure/machine-learning/classic/)  
 [Business Central -sovelluksen mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin!](index.md)  
-
+[Tekoälyn käyttäminen Microsoft Dynamics 365 Business Centralissa (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

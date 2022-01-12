@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments
-ms.date: 06/08/2021
+ms.date: 12/20/2021
 ms.author: edupont
 ms.reviewer: edupont
-ms.openlocfilehash: 1c506e8d2471e7112b523b05d80e47d6f1700a64
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: c7b75e75d86d18f686b89576ee9560b9246b3eee
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724810"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940199"
 ---
 # <a name="cash-flow-overview"></a>Kassavirta – yleistä
 
@@ -26,7 +26,7 @@ Tietoja siitä, että saapuvat ja lähtevät kassavirrat ovat avain onnistuneese
 
 Termi *kassavirta* tarkoittaa tietyn ajanjakson aikana määritettyjä kassaanmaksuja, joista on vähennetty kassastamaksut. Se on arvio rahasummasta, jonka odotetaan siirtyvän yritykseen ja yrityksestä, ja se sisältää kaikki ennustetut tulot ja menot.
 
-## <a name="cash-flow-overview"></a>Kassavirta – yleistä
+## <a name="work-with-cash-flow"></a>Kassavirtojen käsittely
 
 Seuraavassa kuvassa on yhteenveto siitä, miten voit käsitellä kassavirtaa.
 
@@ -74,7 +74,10 @@ Kassavirta tai käteisvarat lasketaan kunkin jakson lopussa vähentämällä mak
 Ennustetta voidaan käyttää sisäisen päätöksenteon työkaluna, jonka avulla voit suunnitella etukäteen ja tehdä yrityksen toiminnalle tärkeitä strategisia päätöksiä.
 
 ## <a name="see-also"></a>Katso myös
+
 [Kassavirta-analyysin määrittäminen](finance-setup-cash-flow-analyses.md)  
-[Kassavirran analysoiminen](finance-analyze-cash-flow.md)
+[Kassavirran analysoiminen](finance-analyze-cash-flow.md)  
+[Kassavirran ennustaminen Dynamics 365 Business Centralissa (Microsoft Learn)](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)  
+[Määritä kassavirtaennusteet käyttämällä Azure AI:n määritystä Dynamics 365 Business Centralissa (Microsoft Learn)](/learn/modules/setup-cash-flow-forecasts/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

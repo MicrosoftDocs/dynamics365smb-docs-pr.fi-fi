@@ -1,5 +1,5 @@
 ---
-title: Nimikkeiden järjestäminen luokkiin| Microsoft Docs
+title: Nimikkeiden järjestäminen luokkiin (sisältää videon) | Microsoft Docs
 description: Nimikkeiden hakemista ja löytämistä helpottaa, kun nimikkeille määritetään määritteitä ja nimikkeet järjestetään luokkiin.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: category, search, attribute, facet
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b831443bd9e068b4c20f583cc8e0e7132d75ac5e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f998b34af576f4b8bedac93f9570fb8092e6a46f
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441141"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940299"
 ---
 # <a name="categorize-items"></a>Nimikkeiden luokitteleminen
 
