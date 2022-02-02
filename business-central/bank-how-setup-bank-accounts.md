@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Yodlee, feed, stream
-ms.date: 06/22/2021
+ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: f7984f5bf96208582be5a25a817cabb77589fe99
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 816b46e859fb4125c93346243f57f88b5f941a70
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940599"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029272"
 ---
 # <a name="set-up-bank-accounts"></a>Pankkitilien määrittäminen
 
@@ -90,6 +91,8 @@ Mitä parempia yhdistämistietoja teet maksujen täsmäytyskirjauskansiossa, sit
 2. Valitse **Pankkitilit**-sivulla **Uusi**-toiminto.
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
+    Esimerkiksi **Pankkitilin kirjausryhmä** -kenttä yhdistää pankkitilin taseen taustalla olevaan KP-tiliin. Lisätietoja on kohdassa [Kirjausryhmien määrittäminen](finance-posting-groups.md).
+
 > [!TIP]
 > Jotkin kentät on piilotettu, kunnes valitset **Näytä lisää** -toiminnon, koska niitä käytetään harvoin. Toiset on lisättävä mukauttamisen avulla. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
@@ -152,7 +155,12 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
 -->
 > [!NOTE]
-> Voit täyttää **Saldo**-kenttään alkusaldo, kun pankkitilitapahtuma ja kyseinen summa on kirjattu. Voit tehdä tämän suorittamalla pankkitilin täsmäytyksen. Lisätietoja on kohdassa [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md). Vaihtoehtoisesti voit ottaa käyttöön alkusaldon osana yleistietojen luontia uusissa yrityksissä käyttämällä ohjattua **Siirrä yritystiedot** -asetusten määritystä. Lisätietoja on ohjeaiheessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md). Lisätietoja avaussaldojen luomisesta [!INCLUDE[prod_short](includes/prod_short.md)]issa on kohdassa [Päiväkirjan avaussaldojen luominen](admin-how-to-create-journal-opening-balances.md).
+> Voit täyttää **Saldo**-kenttään alkusaldo, kun pankkitilitapahtuma ja kyseinen summa on kirjattu. Voit tehdä tämän suorittamalla pankkitilin täsmäytyksen. Lisätietoja on kohdassa [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md).  
+>
+> Vaihtoehtoisesti voit ottaa käyttöön alkusaldon osana yleistietojen luontia uusissa yrityksissä käyttämällä ohjattua **Siirrä yritystiedot** -asetusten määritystä. Lisätietoja on ohjeaiheessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
+
+> [!IMPORTANT]
+> On tärkeää, että et kirjaa alkusaldoa suoraan pääkirjanpitoon. Jos KP-tilin kirjauksia kirjataan suoraan KP-tiliin, tuloksena on yleensä se, että et voi täsmäyttää pankkitiliä tai, jos kyseessä on ulkomaan valuutan pankkitili, tuloksena on eroja, jotka kertyvät ylimääräisiä pankkitäsmäytyksiä kirjatessa. Usein pankin avaussaldo kirjataan suoraan pankkitilille, ja summa päätyy KP-tiliin. Voit vaihtoehtoisesti kumota sen myöhemmin sellaisen nimetyn KP-tilin osalta, jota olet käyttänyt pääkirjanpidon avaussaldon tasapainottamista varten. Molemmissa tapauksissa sinun on tasapainotettava mahdolliset suorat kirjaukset KP-tiliin ennen ensimmäisen pankkitäsmäytyksen aloittamista ja erityisesti silloin, kun pankkitili käyttää ulkomaan valuuttaa.  
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Pankkitilin määrittäminen pankkitiedostojen tuontia tai vientiä varten
 

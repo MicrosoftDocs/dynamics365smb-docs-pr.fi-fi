@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f2c12e89ced755a220cabf2d4b5712741deab7aa
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2c3e4bc2b75133b0a46d3d5746841d6caf76589c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439408"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971650"
 ---
 # <a name="collect-outstanding-balances"></a>Avointen saldojen perintä
 
@@ -186,7 +186,7 @@ Kun lähetät muistutuksen, muistutustapahtuma luodaan **Muistutus-/viivästysku
 
 ## <a name="multiple-interest-rates"></a>Useita korkoprosentteja
 
-Kun määrität viivästyskuluehdot ja muistutusehdot viivästysmaksulle, voit määrittää useita korkoprosentteja. Viivästysmaksu siis lasketaan eri kausille eri korkoprosentin mukaan. Jos useita korkoprosentteja ei ole määritetty, korkoprosentti ja kausi määritetään **Viivästyskuluehdot**- ja **Muistutusehdot**-sivuilla laskennan koko kaudelle. Lisätietoja on kohdassa [Useiden korkoprosenttien määrittäminen](finance-how-to-set-up-multiple-interest-rates.md).  
+[!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)]Lisätietoja on kohdassa [Useiden korkoprosenttien määrittäminen](finance-how-to-set-up-multiple-interest-rates.md).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 

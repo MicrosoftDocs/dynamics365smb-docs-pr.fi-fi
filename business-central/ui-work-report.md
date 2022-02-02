@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.date: 06/21/2021
 ms.author: jswymer
-ms.openlocfilehash: 9deb7e30e05da74e6ea263a0262680d2e99b8b4b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d62c16ef8c511464fde86a1766499e37f8a07b1f
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439948"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972198"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Raporttien, eräajojen ja XMLportien käsitteleminen
 
@@ -139,6 +139,12 @@ Lisätietoja raportin rakenteesta on kohdassa [Raportin yleiskatsaus](/dynamics3
 
 > [!NOTE]
 > Jotkin raportit vievät lukuja tekstinä, mikä estää laskutoimitusten suorittamisen tai Power Pivotin käyttämisen Excel-työkirjan soluissa. Viennin jälkeen työkirjan numerot kannattaa tarkistaa. Jos haluat analysoida ja kartoittaa lukuja, muuta asiaankuuluvat solut muodosta **Teksti** muotoon **Luku**. Lisätietoja solujen lukujen muotoilusta on videossa [Lukujen muotoileminen soluissa Microsoft Excelissä](https://www.youtube.com/watch?v=2suE4YmZu_Q).
+
+### <a name="microsoft-word-document"></a>Microsoft Word -asiakirja
+Luo raportti Word-asiakirjana käyttämällä **Microsoft Word -asiakirja** -vaihtoehtoa.  
+
+> [!NOTE]
+> Voit määrittää kullekin raportille käytettävän asettelun **Raporttivalinta**-sivun **Valittu asettelu** -kentässä. Raporttien oletusarvo on **RDL (sisäänrakennettu)**, joka tuottaa raportteja samalla tai vastaavalla asettelulla kuin **Microsoft Word -asiakirjassa**. Tärkein ero on kuitenkin siinä, haluatko luoda yhden vai useamman raporttiasiakirjan. Yksittäisiä asiakirjoja varten voit käyttää RDLC (sisäänrakennettu) -asetusta. Useita asiakirjoja varten voit määrittää **Microsoft Word -asiakirjan** raportin oletusarvoiseksi asetteluksi. Lisätietoja on kohdassa [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md).
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Suoritettavan raportin aikatauluttaminen
 

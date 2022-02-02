@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 30, 42, 43
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: b3bfdbc2fb163d48edb6bf22eb79efa01b63090f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 78c69d4849dc7e7687f6bb0cdeb0229baeec1b0c
+ms.sourcegitcommit: 1e6addcd6ecc25489fc17388409989440a210895
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442433"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7974990"
 ---
 # <a name="design-details-costing-methods"></a>Rakennetiedot: arvostusmenetelmät
 
@@ -34,11 +34,11 @@ Seuraavia menetelmiä tuetaan kohteessa [!INCLUDE[prod_short](includes/prod_shor
 | Määrätty | Nimikkeen yksikkökustannus on tarkka kustannus, jolloin tietty yksikkö vastaanotettiin. | Tuotannon tai kaupan helposti tunnistettavissa nimikkeissä, joilla on suhteellisen korkeat yksikkökustannukset.<br /><br /> Nimikkeille, jotka ovat säätelyn alaisia.<br /><br /> Nimikkeille, joilla on sarjanumero. |
 | Vakio | Nimikkeen yksikkökustannus määritetty etukäteen arvion perusteella.<br /><br /> Kun todelliset kustannukset realisoituvat myöhemmin, vakiokustannus täytyy mukauttaa todellisiin kustannuksiin varianssin arvojen kautta. | Missä kustannusten valvonta on erittäin tärkeää.<br /><br /> Toistuvassa valmistuksessa arvostaaksesi suoria materiaali- ja resurssikustannuksia sekä valmistuksen yleiskustannuksia.<br /><br /> Jos standardien ylläpitämiseksi on olemassa kurinalaisuutta ja henkilöstöä. |
 
- Seuraavassa kuvassa esitetään, kuinka kustannukset virtaavat varaston läpi kussakin kustannuslaskelmamenetelmässä.  
+Seuraavassa kuvassa esitetään, kuinka kustannukset virtaavat varaston läpi kussakin kustannuslaskelmamenetelmässä.  
 
  ![Arvostusmenetelmät.](media/design_details_inventory_costing_7_costing_methods.png "Arvostusmenetelmät")  
 
- Arvostusmenetelmät eroavat siinä, miten ne arvostavat varaston vähennyksiä, ja että käyttävätkö ne todellista kustannusta vai vakiokustannusta arvostuksen perustana. Seuraavassa taulukossa selitetään eri ominaisuudet. (LIFO-menetelmä on suljettu pois, koska se on hyvin samankaltainen kuin FIFO-menetelmä.)  
+Arvostusmenetelmät eroavat siinä, miten ne arvostavat varaston vähennyksiä, ja että käyttävätkö ne todellista kustannusta vai vakiokustannusta arvostuksen perustana. Seuraavassa taulukossa selitetään eri ominaisuudet. (LIFO-menetelmä on suljettu pois, koska se on hyvin samankaltainen kuin FIFO-menetelmä.)  
 
 |Luokka|FIFO|Keskiarvo|Vakio|Määrätty|  
 |-|----------|-------------|--------------|--------------|  
@@ -47,10 +47,11 @@ Seuraavia menetelmiä tuetaan kohteessa [!INCLUDE[prod_short](includes/prod_shor
 |Uudelleenarvostus|Uudelleen arvostaa vain laskutetut määrät.<br /><br /> Voidaan suorittaa nimikekohtaisesti tai tapahtumakohtaisesti.<br /><br /> Voidaan suorittaa ajassa taaksepäin.|Uudelleen arvostaa vain laskutetut määrät.<br /><br /> Voidaan suorittaa vain nimikettä kohden.<br /><br /> Voidaan suorittaa ajassa taaksepäin.|Uudelleen arvostaa laskutetut ja laskuttamattomat määrät.<br /><br /> Voidaan suorittaa nimikekohtaisesti tai tapahtumakohtaisesti.<br /><br /> Voidaan suorittaa ajassa taaksepäin.|Uudelleen arvostaa vain laskutetut määrät.<br /><br /> Voidaan suorittaa nimikekohtaisesti tai tapahtumakohtaisesti.<br /><br /> Voidaan suorittaa ajassa taaksepäin.|  
 |Sekalaista|Jos asetat varaston arvon vähennyksen takautuvasti, olemassa olevia tapahtumia EI kohdisteta uudelleen oikean FIFO-kustannusvirran luomiseksi.|Jos asetat varaston arvon nousun tai vähennyksen takautuvasti, keskimääräinen kustannus lasketaan uudelleen ja kaikki liittyvät tapahtumat oikaistaan.<br /><br /> Jos vaihdat jaksoa tai laskentatyyppiä, kaikkia liittyviä tapahtumia on muutettava.|Voit päivittää ja vyöryttää vakiokustannukset säännöllisesti **Vakiotyökirja**-sivun avulla.<br /><br /> EI tueta varastoyksikkökohtaisesti.<br /><br /> Historiallisia tietueita ei ole olemassa standardikustannuksille.|Voit käyttää tietyn nimikkeen seurantaa ilman Spesifinen-arvostusmenetelmän käyttöä. Kustannukset eivät seuraa eränumeroa, vaan valitun arvostusmenetelmän kustannusten oletusta.|  
 
-## <a name="example"></a>Esimerkki  
- Tässä osassa on esimerkkejä siitä, miten erilaiset arvostusmenetelmät vaikuttavat varaston arvoon.  
+## <a name="example"></a>Esimerkki
 
- Seuraavassa taulukossa esitetään varaston kasvut ja vähennykset, joihin esimerkit perustuvat.  
+Tässä osassa on esimerkkejä siitä, miten erilaiset arvostusmenetelmät vaikuttavat varaston arvoon.  
+
+Seuraavassa taulukossa esitetään varaston kasvut ja vähennykset, joihin esimerkit perustuvat.  
 
 |Kirjauspvm|määrä.|Tapahtumanro|  
 |------------------|--------------|---------------|  
@@ -62,108 +63,111 @@ Seuraavia menetelmiä tuetaan kohteessa [!INCLUDE[prod_short](includes/prod_shor
 |04-01-20|-1|6|  
 
 > [!NOTE]  
->  Tästä seuraava määrä varastossa on nolla. Näin ollen myös varastoarvon on oltava nolla arvostusmenetelmästä riippumatta.  
+> Tästä seuraava määrä varastossa on nolla. Näin ollen myös varastoarvon on oltava nolla arvostusmenetelmästä riippumatta.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Arvostusmenetelmien vaikutus arvostetussa varastossa kasvaa  
- **FIFO**/**LIFO**/**Keskimääräinen**/**Spesifinen**  
+### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Arvostusmenetelmien vaikutus arvostetussa varastossa kasvaa
 
- Niiden nimikkeiden kohdalla, jotka käyttävät todelliseen kustannukseen pohjautuvaa arvostusmenetelmää (**FIFO**, **LIFO**, **Keskimääräinen** tai **Spesifinen**), varaston arvon nousut arvostetaan nimikkeen hankintamenon mukaan.  
+- **FIFO**/**LIFO**/**Keskimääräinen**/**Spesifinen**  
 
- Seuraavassa taulukossa esitetään, kuinka varaston vähennyksiä arvotetaan kaikissa kustannuslaskelmamenetelmissä, paitsi **Perus**-menetelmässä.  
+    Niiden nimikkeiden kohdalla, jotka käyttävät todelliseen kustannukseen pohjautuvaa arvostusmenetelmää (**FIFO**, **LIFO**, **Keskimääräinen** tai **Spesifinen**), varaston arvon nousut arvostetaan nimikkeen hankintamenon mukaan.  
 
-|Kirjauspvm|määrä.|Kustannussumma (Tod.)|Tapahtumanro|  
-|------------------|--------------|----------------------------|---------------|  
-|01-01-20|1|10,00|1|  
-|01-01-20|1|20,00|2|  
-|01-01-20|1|30,00|3|  
+    Seuraavassa taulukossa esitetään, kuinka varaston vähennyksiä arvotetaan kaikissa kustannuslaskelmamenetelmissä, paitsi **Perus**-menetelmässä.  
 
- **Vakio**  
+    |Kirjauspvm|määrä.|Kustannussumma (Tod.)|Tapahtumanro|  
+    |------------------|--------------|----------------------------|---------------|  
+    |01-01-20|1|10,00|1|  
+    |01-01-20|1|20,00|2|  
+    |01-01-20|1|30,00|3|  
 
- **Vakio** arvostusmenetelmää käyttävien nimikkeiden kohdalla varastoarvon nousut arvostetaan nimikkeen nykyisellä vakiokustannuksella.  
+- **Vakio**  
 
- Seuraavassa taulukossa esitetään, kuinka varaston kasvua arvotetaan **Perus**-kustannuslaskelmamenetelmässä.  
+    **Vakio** arvostusmenetelmää käyttävien nimikkeiden kohdalla varastoarvon nousut arvostetaan nimikkeen nykyisellä vakiokustannuksella.  
 
-|Kirjauspvm|määrä.|Kustannussumma (Tod.)|Tapahtumanro|  
-|------------------|--------------|----------------------------|---------------|  
-|01-01-20|1|15,00|1|  
-|01-01-20|1|15,00|2|  
-|01-01-20|1|15,00|3|  
+    Seuraavassa taulukossa esitetään, kuinka varaston kasvua arvotetaan **Perus**-kustannuslaskelmamenetelmässä.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Arvostusmenetelmien vaikutus arvostetussa varastossa laskee  
- **FIFO**  
+    |Kirjauspvm|määrä.|Kustannussumma (Tod.)|Tapahtumanro|  
+    |------------------|--------------|----------------------------|---------------|  
+    |01-01-20|1|15,00|1|  
+    |01-01-20|1|15,00|2|  
+    |01-01-20|1|15,00|3|  
 
- **FIFO**-arvostusmenetelmää käyttävien nimikkeiden osalta ensimmäisinä ostetut nimikkeet myydään aina ensin (tapahtumanumerot 3, 2 ja 1 tässä esimerkissä). Vastaavasti, varaston arvon laskut arvostetaan ottamalla varaston ensimmäisen arvonnousun arvo.  
+### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Arvostusmenetelmien vaikutus arvostetussa varastossa laskee
 
- Myytyjen tuotteiden kustannukset lasketaan käyttämällä ensimmäisen varastohankinnan arvoa.  
+- **FIFO**  
 
- Seuraavassa taulukossa esitetään, kuinka varaston vähennyksiä arvotetaan **FIFO**- kustannuslaskelmamenetelmässä.  
+    **FIFO**-arvostusmenetelmää käyttävien nimikkeiden osalta ensimmäisinä ostetut nimikkeet myydään aina ensin (tapahtumanumerot 3, 2 ja 1 tässä esimerkissä). Vastaavasti, varaston arvon laskut arvostetaan ottamalla varaston ensimmäisen arvonnousun arvo.  
 
-|Kirjauspvm|määrä.|Kustannussumma (Tod.)|Tapahtumanro|  
-|------------------|--------------|----------------------------|---------------|  
-|02-01-20|-1|-10.00|4|  
-|03-01-20|-1|-20.00|5|  
-|04-01-20|-1|-30.00|6|  
+    Myytyjen tuotteiden kustannukset lasketaan käyttämällä ensimmäisen varastohankinnan arvoa.  
 
- **LIFO**  
+    Seuraavassa taulukossa esitetään, kuinka varaston vähennyksiä arvotetaan **FIFO**- kustannuslaskelmamenetelmässä.  
 
- **LIFO**-arvostusmenetelmää käyttävien nimikkeiden osalta viimeksi ostetut nimikkeet myydään aina ensin (tapahtumanumerot 3, 2 ja 1 tässä esimerkissä). Vastaavasti, varaston arvon laskut arvostetaan ottamalla varaston viimeisen arvonnousun arvo.  
+    |Kirjauspvm|määrä.|Kustannussumma (Tod.)|Tapahtumanro|  
+    |------------------|--------------|----------------------------|---------------|  
+    |02-01-20|-1|-10.00|4|  
+    |03-01-20|-1|-20.00|5|  
+    |04-01-20|-1|-30.00|6|  
 
- Myytyjen tuotteiden kustannukset lasketaan käyttämällä viimeisimmän varastohankinnan arvoa.  
+- **LIFO**  
 
- Seuraavassa taulukossa esitetään, kuinka varaston vähennyksiä arvotetaan **LIFO**- kustannuslaskelmamenetelmässä.  
+    **LIFO**-arvostusmenetelmää käyttävien nimikkeiden osalta viimeksi ostetut nimikkeet myydään aina ensin (tapahtumanumerot 3, 2 ja 1 tässä esimerkissä). Vastaavasti, varaston arvon laskut arvostetaan ottamalla varaston viimeisen arvonnousun arvo.  
 
-|Kirjauspvm|määrä.|Kustannussumma (Tod.)|Tapahtumanro|  
-|------------------|--------------|----------------------------|---------------|  
-|02-01-20|-1|-30.00|4|  
-|03-01-20|-1|-20.00|5|  
-|04-01-20|-1|-10.00|6|  
+    Myytyjen tuotteiden kustannukset lasketaan käyttämällä viimeisimmän varastohankinnan arvoa.  
 
- **Keskiarvo**  
+    Seuraavassa taulukossa esitetään, kuinka varaston vähennyksiä arvotetaan **LIFO**- kustannuslaskelmamenetelmässä.  
 
- Niiden nimikkeiden kohdalla, jotka käyttävät **Keskimääräinen** arvostusmenetelmää, varastoarvon vähennykset määritetään laskemalla painotettu keskiarvo jäljellä olevasta varastosta viimeisenä keskimääräisen kustannusjakson päivänä jona varastoarvon vähennys kirjattiin. Katso lisätietoja kohdasta [Rakennetiedot: Keskimääräinen kustannus](design-details-average-cost.md).  
+    |Kirjauspvm|määrä.|Kustannussumma (Tod.)|Tapahtumanro|  
+    |------------------|--------------|----------------------------|---------------|  
+    |02-01-20|-1|-30.00|4|  
+    |03-01-20|-1|-20.00|5|  
+    |04-01-20|-1|-10.00|6|  
 
- Seuraavassa taulukossa esitetään, kuinka varaston vähennyksiä arvotetaan **Keskimääräisessä** kustannuslaskelmamenetelmässä.  
+- **Keskiarvo**  
 
-|Kirjauspvm|määrä.|Kustannussumma (Tod.)|Tapahtumanro|  
-|------------------|--------------|----------------------------|---------------|  
-|02-01-20|-1|-20.00|4|  
-|03-01-20|-1|-20.00|5|  
-|04-01-20|-1|-20.00|6|  
+    Niiden nimikkeiden kohdalla, jotka käyttävät **Keskimääräinen** arvostusmenetelmää, varastoarvon vähennykset määritetään laskemalla painotettu keskiarvo jäljellä olevasta varastosta viimeisenä keskimääräisen kustannusjakson päivänä jona varastoarvon vähennys kirjattiin. Katso lisätietoja kohdasta [Rakennetiedot: Keskimääräinen kustannus](design-details-average-cost.md).  
 
- **Vakio**  
+    Seuraavassa taulukossa esitetään, kuinka varaston vähennyksiä arvotetaan **Keskimääräisessä** kustannuslaskelmamenetelmässä.  
 
- **Vakio**-arvostusmenetelmää käyttävien nimikkeiden osalta varaston arvon vähennykset arvostetaan vastaavasti kuin **FIFO**- arvostusmenetelmässä, mutta arvostus perustuu vakiokustannukseen, eikä todelliseen kustannukseen.  
+    |Kirjauspvm|määrä.|Kustannussumma (Tod.)|Tapahtumanro|  
+    |------------------|--------------|----------------------------|---------------|  
+    |02-01-20|-1|-20.00|4|  
+    |03-01-20|-1|-20.00|5|  
+    |04-01-20|-1|-20.00|6|  
 
- Seuraavassa taulukossa esitetään, kuinka varaston vähennyksiä arvotetaan **Perus**-kustannuslaskelmamenetelmässä.  
+- **Vakio**  
 
-|Kirjauspvm|määrä.|Kustannussumma (Tod.)|Tapahtumanro|  
-|------------------|--------------|----------------------------|---------------|  
-|02-01-20|-1|-15.00|4|  
-|03-01-20|-1|-15.00|5|  
-|04-01-20|-1|-15.00|6|  
+    **Vakio**-arvostusmenetelmää käyttävien nimikkeiden osalta varaston arvon vähennykset arvostetaan vastaavasti kuin **FIFO**- arvostusmenetelmässä, mutta arvostus perustuu vakiokustannukseen, eikä todelliseen kustannukseen.  
 
- **Määrätty**  
+    Seuraavassa taulukossa esitetään, kuinka varaston vähennyksiä arvotetaan **Perus**-kustannuslaskelmamenetelmässä.  
 
- Arvostusmenetelmät luovat oletuksen siitä, kuinka kustannusvirtaukset varastosta nousevat varaston vähentyessä. Jos kustannusvirrasta on kuitenkin olemassa tarkempia tietoja, voit ohittaa tämän oletuksen luomalla tapahtumien välille kiinteän kohdistuksen. Kiinteä kohdistus luo linkin varaston arvon vähennyksen ja tietyn varaston lisäyksen välille ja ohjaa kustannusvirran vastaavasti.  
+    |Kirjauspvm|määrä.|Kustannussumma (Tod.)|Tapahtumanro|  
+    |------------------|--------------|----------------------------|---------------|  
+    |02-01-20|-1|-15.00|4|  
+    |03-01-20|-1|-15.00|5|  
+    |04-01-20|-1|-15.00|6|  
 
- **Spesifinen**-arvostusmenetelmää käyttävien nimikkeiden osalta varaston arvon vähennykset arvostetaan varaston arvon nousun mukaan, johon se on linkitetty kiinteällä kohdistuksella.  
+- **Määrätty**  
 
- Seuraavassa taulukossa esitetään, kuinka varaston vähennyksiä arvotetaan **Erityisessä** kustannuslaskelmamenetelmässä.  
+    Arvostusmenetelmät luovat oletuksen siitä, kuinka kustannusvirtaukset varastosta nousevat varaston vähentyessä. Jos kustannusvirrasta on kuitenkin olemassa tarkempia tietoja, voit ohittaa tämän oletuksen luomalla tapahtumien välille kiinteän kohdistuksen. Kiinteä kohdistus luo linkin varaston arvon vähennyksen ja tietyn varaston lisäyksen välille ja ohjaa kustannusvirran vastaavasti.  
 
-|Kirjauspvm|määrä.|Kustannussumma (Tod.)|Kohdistetaan tapahtumaan|Tapahtumanro|  
-|------------------|--------------|----------------------------|-----------------------|---------------|  
-|02-01-20|-1|-20.00|**2**|4|  
-|03-01-20|-1|-10.00|**1**|5|  
-|04-01-20|-1|-30.00|**3**|6|  
+    **Spesifinen**-arvostusmenetelmää käyttävien nimikkeiden osalta varaston arvon vähennykset arvostetaan varaston arvon nousun mukaan, johon se on linkitetty kiinteällä kohdistuksella.  
 
-## <a name="see-also"></a>Katso myös  
- [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)   
- [Rakennetiedot: varianssi](design-details-variance.md)   
- [Rakennetiedot: keskimääräinen kustannus](design-details-average-cost.md)   
- [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md)  
- [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
- [Rahoitus](finance.md)  
- [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+    Seuraavassa taulukossa esitetään, kuinka varaston vähennyksiä arvotetaan **Erityisessä** kustannuslaskelmamenetelmässä.  
+
+    |Kirjauspvm|määrä.|Kustannussumma (Tod.)|Kohdistetaan tapahtumaan|Tapahtumanro|
+    |------------|--------|--------------------|----------------|---------|  
+    |02-01-20|-1|-20.00|**2**|4|  
+    |03-01-20|-1|-10.00|**1**|5|  
+    |04-01-20|-1|-30.00|**3**|6|  
+
+## <a name="see-also"></a>Katso myös
+
+[Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)   
+[Rakennetiedot: varianssi](design-details-variance.md)   
+[Rakennetiedot: keskimääräinen kustannus](design-details-average-cost.md)   
+[Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md)  
+[Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
+[Rahoitus](finance.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

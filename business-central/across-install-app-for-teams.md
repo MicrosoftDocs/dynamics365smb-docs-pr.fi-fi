@@ -1,5 +1,5 @@
 ---
-title: Business Central -sovelluksen asentaminen Microsoft Teamsissa | Microsoft Docs
+title: Business Central -sovelluksen asentaminen Microsoft Teamsissa
 description: Business Central -sovelluksen asentaminen Microsoft Teamsiin.
 author: jswymer
 ms.service: dynamics365-business-central
@@ -10,18 +10,18 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 420a94c3996840c2d75687f533e06625258ca0f7
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 1552a804db7dab86dccfcab99f098578bd930ad2
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588174"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012207"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Asenna [!INCLUDE [prod_short](includes/prod_short.md)] -sovellus Microsoft Teamsiin
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-Tässä artikkelissa opit asentamaan [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen [Microsoft Teamsiin](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams). Sovellus on saatavilla Teams marketplacesta, ja sitä voi käyttää Teamsin verkko-, työpöytä- tai mobiilisovelluksella.
+Tässä artikkelissa opit asentamaan [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen [Microsoft Teamsiin](https://www.microsoft.com/microsoft-teams/). Sovellus on saatavilla Teams marketplacesta, ja sitä voi käyttää Teamsin verkko-, työpöytä- tai mobiilisovelluksella.
 
 > [!NOTE]
 > Järjestelmänvalvoja on saattanut määrittää asiat niin, että sovellus asennetaan automaattisesti puolestasi. Jos haluat tarkistaa, onko sovellus asennettu, avaa Teams ja valitse **Sovellukset**. Etsi **Business Central** ja valitse se, kun löydät sen. Jos näet **Avaa**-painikkeen **Business Central** -sivulla, sovellus on jo asennettu.  

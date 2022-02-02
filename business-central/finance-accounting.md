@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
+ms.search.form: 100, 1156, 1157, 1314, 1315, 1316, 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c2c92e72f20c26fe1505834e70d58981093c24b8
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 9d4c7884ead0b7821556c1db410f0fe06ea5aeff
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940224"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029454"
 ---
 # <a name="accountant-experiences-in-prod_long"></a>Kirjanpitäjän käyttökokemukset [!INCLUDE[prod_long](includes/prod_long.md)]issa
 
@@ -49,9 +50,9 @@ Ulkopuolisen kirjanpitäjän kutsumista on helpotettu. Avaa vain **Käyttäjät*
 > [!IMPORTANT]  
 > Kirjanpitäjän sähköpostiosoitteen on oltava Azure Active Directoryyn perustuva työsähköpostiosoite. Jos kirjanpitäjä käyttää jotakin muuta sähköpostityyppiä, kutsua ei voi lähettää.
 >
-> Tämä tehtävä edellyttää pääsyä käyttäjien ja käyttöoikeuksien hallintaan Azure Active Directoryssä. Tämän kutsun lähettäneen käyttäjän on määritettävä **Yleinen järjestelmänvalvoja** -rooli tai **Käyttäjän järjestelmänvalvoja** -rooli Microsoft 365 -hallintakeskuksessa. Lisätietoja on kohdassa [Tietoja järjestelmänvalvojarooleista](/microsoft-365/admin/add-users/about-admin-roles) Microsoft 365 -järjestelmänvalvojasisällössä.  
+> Tämä tehtävä edellyttää pääsyä käyttäjien ja käyttöoikeuksien hallintaan Azure Active Directoryssä. Tämän kutsun lähettäneen käyttäjän on määritettävä **Yleinen järjestelmänvalvoja** -rooli tai **Käyttäjän järjestelmänvalvoja** -rooli Microsoft 365 -hallintakeskuksessa. Lisätietoja on kohdassa [Tietoja järjestelmänvalvojarooleista](/microsoft-365/admin/add-users/about-admin-roles)(Microsoft 365:n järjestelmänvalvojasisältö).  
 
-### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Kirjanpitäjän lisääminen Microsoft 365:een Azure-portaalissa
+### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Kirjanpitäjän lisääminen Microsoft 365:iin Azure-portaalissa
 
 Jos järjestelmänvalvoja tai jälleenmyyntikumppani ei halua käyttää **Ulkoisen kirjanpitäjän kutsuminen** -opasta, hän voi lisätä ulkoisen käyttäjän Azure-portaaliin ja määrittää tälle käyttäjälle *ulkoisen kirjanpitäjän* käyttöoikeuden. Lisätietoja on kohdassa [Nopeasti alkuun: Lisää vieraskäyttäjiä hakemistoon Azure-portaalissa](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
@@ -92,7 +93,7 @@ Kirjanpitäjä saa sähköpostiviestin, joka ilmoittaa hänelle, että hänelle 
 
 1. Avaa [!INCLUDE[prod_short](includes/prod_short.md)]-yritys, johon haluat antaa kirjanpitäjälle käyttöoikeuden, kohteessa [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten vastaava linkki.  
-3. Valitse **Hae uudet käyttäjät Microsoft 365:sta** -toiminto.
+3. Valitse **Hae uudet käyttäjät Microsoft 365:stä** -toiminto.
 
 Tämä tuo käyttäjätilin, jonka loit Azure-portaalissa yritykselle. Lisätietoja on kohdassa [Käyttäjän lisääminen Business Centralissa](ui-how-users-permissions.md#adduser).  
 

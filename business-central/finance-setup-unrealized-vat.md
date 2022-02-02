@@ -1,5 +1,5 @@
 ---
-title: Ei-realisoituneen arvonlisäveron määrittäminen | Microsoft Docs
+title: Ei-realisoituneen arvonlisäveron määrittäminen
 description: Jos käytät kassaperusteista kirjanpitoa, voit määrittää, miten myynnin ja ostojen ei-realisoitunut ALV käsitellään.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,22 +8,26 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cash, VAT, unrealized, cash-based
+ms.search.form: 118, 472, 473
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ca04192ef31e281e7d3e07e2f1823079e1f89151
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 02ad408b55340bca218859d6742b0d74fbb1a294
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446188"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971886"
 ---
 # <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Ei-realisoituneen arvonlisäveron määrittäminen kassaperusteista kirjanpitoa varten
+
 Jos käytät kassaperusteista kirjanpitoa, voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in käsittelemään ei-realisoidun arvonlisäveron.
 
 ## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Pääkirjanpidon tilien käyttäminen ei-realisoitunutta arvonlisäveroa varten
+
 ALV-summat voidaan laskea ja kirjata väliaikaiselle kirjanpitotilille laskun kirjaamisen yhteydessä. Sen jälkeen ne voidaan kirjata oikealle kirjanpitotilille ja sisällyttää ALV-ilmoituksiin laskun maksun kirjaamisen yhteydessä. Ennen sitä sinun täytyy määrittää ALV-kirjausasetukset.
 
 Käytä ei-realisoituneen arvonlisäveron tilejä seuraavasti:
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake ja syötä **Kirjanpidon asetukset**.
 2. Valitse **Pääkirjanpidon asetukset**-sivulla **Ei-realisoitunut ALV** -valintaruutu.
 3. Valitse **Hae sivua tai raporttia** -kuvake ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") ja syötä **ALV-kirjausten asetukset**.

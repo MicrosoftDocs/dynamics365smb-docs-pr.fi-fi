@@ -1,5 +1,5 @@
 ---
-title: Kirjanpidon käyttöomaisuuden määrittäminen| Microsoft Docs
+title: Yleisten KO-tietojen määrittäminen
 description: Ennen kuin voit käyttää käyttöomaisuutta, sinun tulee määrittää oletusarvoiset KP-tilit, kirjausryhmät, kohdistusavaimet, päiväkirjamallit ja -erät, sekä luokkakoodit.
 author: edupont04
 ms.service: dynamics365-business-central
@@ -7,14 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 5623, 5615, 5661, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608. 5635, 9277, 5662, 5627, 5616, 5620
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8fed97e698cf5613700b53db3aa5a4292d12f554
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f4303fef538bd41d43d44aa4f79ae84384e22f8f
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440672"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029008"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Käyttöomaisuuden yleisten tietojen määrittäminen
 Ennen kuin voit hallita käyttöomaisuuseriä, sinun on määritettävä oletusarvoiset KP-tilit, kohdistustunnukset, päiväkirjamallit ja -erät käyttöomaisuuden kirjaamista ja uudelleenluokittelua varten. Voit luokitella käyttöomaisuuserät luokkiin, kuten aineellisiin ja aineettomiin.

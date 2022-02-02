@@ -1,5 +1,5 @@
 ---
-title: Palautusten tai peruutusten käsitteleminen | Microsoft Docs
+title: Palautusten tai peruutusten käsittely
 description: Tässä ohjeaiheessa kerrotaan, miten ostohyvityslasku luodaan kirjataan, kun haluat palauttaa nimikkeitä toimittajalle tai peruuttaa ostetut palvelut.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cancel, undo, correct
+ms.search.form: 6640, 6643
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e43f5c5dd2a785a0268b9cf61794de1f8fa73a9a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f888ada5a196f763fa265997a05a994b095fbab6
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445549"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953457"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Ostopalautusten tai peruutusten käsittely
 

@@ -7,15 +7,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 630
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 032c425f10bae29416cf8602d0c339f3ffaa3043
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 4070ff5658ad4aa976c181a3df377155080f1e3b
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589380"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012075"
 ---
 # <a name="the-data-archive-extension"></a>Tietoarkisto-laajennus
 Ajan mittaan yrityksesi kerää huomattavan määrän tietoa, ja järjestelmänvalvojana on todennäköisesti hyvä luoda tietojen arkistointistrategia. Kun tietoja on paljon, esimerkiksi raporttien luominen tai tietueiden luominen voi kestää hieman kauemmin, tai tietueet voivat jopa lukittua. Lisäksi suuret tietomäärät voivat aiheuttaa lisääntyneitä tallennuskustannuksia.
@@ -39,19 +39,19 @@ Tietoarkistolaajennuksia käyttävät seuraavat erätyöt päivämäärätiivist
 
 |Eräajot  |
 |---------|
-|Pvmtiivistys Nimikkeiden budjettitapahtumat     |
-|Tiivistä pankkitilikirjaukset     |
-|Tiivistä asiakastapahtumat     |
-|Tiivistä KO-kirjaukset     |
-|Tiivistä pääkirjanpito     |
-|Tiivistä vakuutuskirjaukset     |
-|Tiivistä kunn.pitokirjaukset Kirjanpito     |
-|Tiivistä kunn.pitokirjaukset Kirjanpito     |
-|Tiivistä resurssikirjaukset     |
-|Tiivistä ALV-tapahtumat     |
-|Tiivistä toimittajakirjaukset     |
-|Pvm-tiivistä f.var. tapahtumat Tapahtumat     |
-|Pvmtiivistys KP-budjetin tapahtumat     |
+|Pvmtiivistys Nimikkeiden budjettitapahtumat |
+|Tiivistä pankkitilikirjaukset |
+|Tiivistä asiakastapahtumat |
+|Tiivistä KO-kirjaukset |
+|Tiivistä pääkirjanpito |
+|Tiivistä vakuutuskirjaukset |
+|Tiivistä kunn.pitokirjaukset Kirjanpito |
+|Tiivistä kunn.pitokirjaukset Kirjanpito |
+|Tiivistä resurssikirjaukset |
+|Tiivistä ALV-tapahtumat |
+|Tiivistä toimittajakirjaukset |
+|Pvm-tiivistä f.var. tapahtumat Tapahtumat |
+|Pvmtiivistys KP-budjetin tapahtumat |
 
 Voit aloittaa tietojen arkistoinnin, kun suoritat yhden eräajosta, ottamalla käyttöön **Arkistoi poistetut tapahtumat** -valitsimen.
 

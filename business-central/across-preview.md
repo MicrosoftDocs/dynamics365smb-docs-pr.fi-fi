@@ -6,14 +6,15 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
+ms.search.form: 1803, 1801
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 97df95921b7b1b503580b207ac1ebd858b57b135
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 01bdfbd52db384176defb5383470346b086fe293
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589305"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011544"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] – Kokeilut ja tilaukset
 
@@ -74,7 +75,7 @@ Jos olet lisännyt tietoja maksuttomaan [!INCLUDE[prod_short](includes/prod_shor
 
 Aina kun kirjaudut sovellukseen kokeilujakson aikana, jäljellä oleva aika näkyy yläreunassa olevassa sinisessä palkissa. Jos päätät tehdä tilauksen, voit etsiä [!INCLUDE[prod_short](includes/prod_short.md)] -kumppanin. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#findpartner). Jälleenmyyjäkumppanin avulla voit määrittää sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] yrityksesi tarpeiden mukaan, kuten tietojen tuomisen aiemmasta järjestelmästä. Voit myös mukauttaa [!INCLUDE[prod_short](includes/prod_short.md)]ia lisäämällä sovelluksia [Microsoftin kaupallisesta sovelluskaupasta](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] online käyttää Microsoft 365:ttä. Jos yrityksesi käyttää eri tyyppisiä sähköpostiasetuksia, jälleenmyynnin kumppani voi auttaa sinua päättämään, miten tiedot siirretään tai pitäisikö käyttää [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versiota.  
+[!INCLUDE[prod_short](includes/prod_short.md)] online käyttää Microsoft 365:tä. Jos yrityksesi käyttää eri tyyppisiä sähköpostiasetuksia, jälleenmyynnin kumppani voi auttaa sinua päättämään, miten tiedot siirretään tai pitäisikö käyttää [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versiota.  
 
 Voit ottaa yhteyttä myös [[!INCLUDE[prod_short](includes/prod_short.md)] -myyntiryhmään](https://go.microsoft.com/fwlink/?linkid=828707).  
 

@@ -1,8 +1,6 @@
 ---
-title: Intrastat-ilmoituksen määrittäminen ja raportoiminen| Microsoft Docs
+title: Intrastat-ilmoituksen määrittäminen ja raportoiminen
 description: Opi määrittämään Intrastat-raportointiominaisuudet ja raportoimaan muiden EU-maissa toimivien yritysten kanssa käyty kauppa.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
+ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 219c7a779bc29eda81243362f79e1e7d2cec6b8a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c2f54f37791b93f41aa4cf03aaf7b6d6856cd15c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444410"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971091"
 ---
 # <a name="set-up-and-report-intrastat"></a>Intrastat-ilmoituksen määrittäminen ja raportoiminen
+
 Kaikkien Euroopan unionin alueen yritysten täytyy raportoida kaupastaan muiden EU-maiden/alueiden kanssa. Tavaran liikkuminen on raportoitava kotimaan/-alueen tilastoviranomaisille kuukausittain ja raportti on toimitettava veroviranomaisille. Ohjelmassa tätä kutsutaan Intrastat-raportoinniksi. **Intrastat-ilmoitus**-sivulla voi täyttää jaksottaiset Intrastat-ilmoitukset.  
 
 ## <a name="required-and-optional-setups"></a>Pakolliset ja valinnaiset määritykset
@@ -30,10 +30,15 @@ Sinun on määritettävä useita asetuksia, ennen kuin voit raportoida Intrastat
 * **Kauppatavarakoodit**: Tulli- ja veroviranomaiset ovat luoneet nimikkeiden ja palvelujen luokittelua varten numeeriset koodit. Nämä koodit määritetään nimikkeissä.
 * **Kauppatapahtuman luonteen koodit**: Mailla ja alueilla on eri koodit Intrastat-tapahtumatyypeille, kuten tavallisille ostoille ja myynneille, palautettujen tavaroiden vaihdolle ja palauttamattomien tavaroiden vaihdolle. Määritä omaa maata tai aluetta koskevat koodit. Voit käyttää niitä myynti- ja ostoasiakirjoissa ja palautusten käsittelyssä.  
 * **Kuljetusmuodot**: Intrastat-kuljetusmuodoilla on seitsemän yksimerkkistä koodia. **1** tarkoittaa merikuljetusta, **2** rautatiekuljetusta, **3** tiekuljetusta, **4** ilmakuljetusta, **5** postitusta, **7** kiinteää asennusta ja **9** omaa käyttövoimaa (kuten auton kuljettaminen sitä ajamalla). [!INCLUDE[prod_short](includes/prod_short.md)] ei edellytä näitä koodeja, mutta suosituksena on käyttää merkitykseltään vastaavia kuvauksia.  
+* **Tapahtumamääritykset**: Voit täydentää näiden määritysten avulla tapahtumatyyppien kuvauksia.  
+* **Alkuperämaa** : Käytä kaksikirjaimisia ISO-alfakoodeja sen maan osalta, jossa tuote hankittiin tai tuotettiin. Jos tuotetta on tuotettu useammassa kuin yhdessä maassa, alkuperämaa on viimeinen maa, jossa sitä käsiteltiin merkittävästi. 
+* **Tuontijäsenmaassa sijaitsevan kumppanin ALV-tunnistenumero** : Tämä on sen kumppanin ALV-tunnistenumero, joka sijaitsee jäsenvaltiossa, johon tuote tuotiin. ALV-tunnusta käytetään myös EU-maiden välisten vientitietojen vaihdossa jäsenvaltioiden kesken, ja sen avulla jäsenvaltiot voivat jakaa vastaanotetut tiedot oman maansa tuontiyritykselle. Raportointiyksiköiden on ilmoitettava sen yrityksen ALV-tunnus, joka on ilmoittanut unionin sisäisen tuotteiden hankinnan jäsenvaltiossa, johon tuote tuotiin. 
+
+> [!NOTE]
+> Liikekumppanien ALV-tunnus voi vaihdella liiketoimintaolosuhteiden mukaan. Käytettävä tunnus eroaa esimerkiksi ketju myynnin tapauksista, joissa toimittaja myy tuotteen toiseen maahan, ja sitten kyseinen yritys esimerkiksi myy nimikkeen toiselle yritykselle samassa maassa tai kolmikantakaupassa. Jos et ole varma oikeasta ALV-tunnuksesta, suosittelemme, että pyydät samassa maassa tai samalla alueella asuvan asiantuntijan neuvoa. 
 
 Myös seuraavat voi määrittää:
 
-* **Tapahtumamääritykset**: Voit täydentää näiden määritysten avulla tapahtumatyyppien kuvauksia.  
 * **Alueet**: Voit täydentää tämän vaihtoehdon avulla maita ja alueita koskevia tietoja.  
 * **Tulo-/ lähtöpaikat**: Voit määrittää tämän vaihtoehdon avulla sijainnit, joissa lähetät nimikkeitä muihin maihin tai vastaanotat nimikkeitä muista maista. Heathrow'n lentoasema on esimerkki tulo- tai lähtöpaikasta. Tulo- tai lähtöpaikat annetaan myynti- ja ostoasiakirjoihin **Ulkomaankauppa**-pikavälilehdessä. Nämä tiedot kopioidaan myös nimiketapahtumista Intrastat-ilmoituksen luomisen yhteydessä.  
 
@@ -53,35 +58,49 @@ Voit viedä tapahtumat tiedostoon, jonka voit lähettää Intrastat-viranomaisil
 > [!Note]
 > Anna tilastokausi **Tilastokausi**-kenttään nelinumeroisena lukuna, jossa kaksi ensimmäistä lukua merkitsevät vuotta ja kaksi seuraavaa kuukautta. Anna esimerkiksi kesäkuulle 2017 luku 1706.
 
-### <a name="to-set-up-commodity-codes"></a>Kauppatavarakoodien määrittäminen
-Kaikilla ostettavilla ja myytävillä nimikkeillä on oltava kauppatavarakoodi.  
-
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kauppatavarakoodit** ja valitse sitten vastaava linkki.  
-2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Määritä kauppatavarakoodi laajentamalla **Nimikkeen kortti** -sivulla **Kustannukset ja kirjaus** -pikavälilehti ja antamalla koodi **Kauppatavarakoodi**-kenttään.   
-
-### <a name="to-set-up-transaction-nature-codes"></a>Kauppatapahtuman luonteen koodien määrittäminen
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tapahtuman luonteen koodit** ja valitse sitten vastaava linkki.  
-2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-
-> [!Tip]
-> Jos käytät tiettyä kauppatapahtuman luonteen koodia usein, voit määrittää sen oletusasetukseksi. Se onnistuu valitsemalla koodi **Valtiokohtaiset asetukset** -sivulla.
-
 ### <a name="to-set-up-transport-methods"></a>Kuljetusmuotojen määrittäminen
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kuljetusmuodot** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Joidenkin Intrastat-raportin kenttien määrittäminen pakolliseksi
+
 Joissakin maissa, kuten Espanjassa ja Isossa-Britanniassa, viranomaiset vaativat Intrastat-raportteihin esimerkiksi ostojen toimitustavan tai joitakin arvoja myynnin ylittäessä tietyn raja-arvon. Voit valita **Intrastat-asetukset**-sivulla voi osoittaa, että **Intrastat-tarkistusluettelon asetukset** määrittää pakolliset kentät **Intrastat-ilmoitus**-sivulla.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Valtiokohtaiset asetukset** ja valitse sitten vastaava linkki.
 2. Valitse **Intrastat-tarkistusluettelon asetukset** -toiminto.
 3. Valitse **Intrastat-tarkistusluettelon asetukset** -sivulla **Kentän nimi** ja valitse se Intrastat-raportin kenttä, josta tehdään pakollinen.
 
+### <a name="czechia"></a>Tšekki
+
+Erityisesti tšekkiläisten yritysten on määritettävä myös kauppatavarakoodit ja tapahtumien luonteiden koodit.  
+
+#### <a name="to-set-up-commodity-codes"></a>Kauppatavarakoodien määrittäminen
+
+Kaikilla ostettavilla ja myytävillä nimikkeillä on oltava kauppatavarakoodi.  
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kauppatavarakoodit** ja valitse sitten vastaava linkki.  
+2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Määritä kauppatavarakoodi laajentamalla **Nimikkeen kortti** -sivulla **Kustannukset ja kirjaus** -pikavälilehti ja antamalla koodi **Kauppatavarakoodi**-kenttään.   
+
+### <a name="italy"></a>Italia
+
+Erityisesti italialaisten yritysten on määritettävä myös kauppatavarakoodit ja tapahtumien luonteiden koodit.  
+
+#### <a name="to-set-up-transaction-nature-codes"></a>Kauppatapahtuman luonteen koodien määrittäminen
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tapahtuman luonteen koodit** ja valitse sitten vastaava linkki.  
+2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+
+> [!Tip]
+> Jos käytät tiettyä kauppatapahtuman luonteen koodia usein, voit määrittää sen oletusasetukseksi. Se onnistuu valitsemalla koodi **Valtiokohtaiset asetukset** -sivulla.
+
 ## <a name="to-report-intrastat"></a>Intrastat-raportointi
+
 Kun olet täyttänyt Intrastat-ilmoituksen, voit suorittaa **Tarkistusluettelo-raportti**-toiminnon ja varmistaa, että kaikki ilmoituksen tiedot ovat oikein. **Intrastat-tarkistusluettelon asetukset** -sivulla määritetyt pakolliset kentät, joissa ei ole arvoja, näytetään Virheet ja varoitukset -tietoruudussa **Intrastat-kirjaus**-sivulla. Voit sitten tulostaa Intrastat-raportin lomakkeena tai luoda tiedoston, jonka voit lähettää oman maasi tai alueesi veroviranomaisille.  
 
-### <a name="to-fill-in-intrastat-journals"></a>Intrastat-ilmoitusten täyttäminen  
+### <a name="to-fill-in-intrastat-journals"></a>Intrastat-ilmoitusten täyttäminen
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Intrastat-ilmoitus** ja valitse sitten vastaava linkki.  
 2. Valitse **Intrastat-ilmoitus**-sivulla **Erän nimi** -kentässä käsiteltävä kirjauskansion erä ja valitse sitten **OK**.  
 3. Valitse **Ehdota rivejä** -toiminto. **Aloituspvm**- ja **Lopetuspvm**-kentissä on valmiina päivämäärät, jotka määriteltiin tilastokaudelle päiväkirjan erässä.  
@@ -91,9 +110,10 @@ Kun olet täyttänyt Intrastat-ilmoituksen, voit suorittaa **Tarkistusluettelo-r
 Eräajo hakee kaikki tämän tilastokauden nimiketapahtumat ja lisää ne riveiksi Intrastat-ilmoitukseen. Voit muokata rivejä tarvittaessa.  
 
 > [!IMPORTANT]  
->  Eräajo hakee vain ne tapahtumat, joilla on sellainen maa- tai aluekoodi, joille Intrastat-koodi annettiin **Maat/alueet**-sivulla. Siksi on tärkeää, että syötät Intrastat-koodit sellaisille maa-/aluekoodeille, joilla tulet tekemään eräajoja.  
+> Eräajo hakee vain ne tapahtumat, joilla on sellainen maa- tai aluekoodi, joille Intrastat-koodi annettiin **Maat/alueet**-sivulla. Siksi on tärkeää, että syötät Intrastat-koodit sellaisille maa-/aluekoodeille, joilla tulet tekemään eräajoja.  
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Intrastat-raportointi lomakkeella tai tiedostona
+
 Saat Intrastat-lomakkeeseen tarvittavat tiedot tilastoja ylläpitäviltä viranomaisilta tulostamalla **Intrastat – lomake** -raportin. Ennen sitä sinun täytyy laatia Intrastat-ilmoitus ja täyttää se. Jos sinulla on sekä myyntiin että ostoihin liittyviä kauppatahtumia, sinun täytyy tehdä erillinen lomake molemmille tyypeille, ja sinun täytyy siten tulostaa raportti kahdesti.  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Intrastat-ilmoitukset** ja valitse sitten vastaava linkki.  
@@ -104,6 +124,7 @@ Saat Intrastat-lomakkeeseen tarvittavat tiedot tilastoja ylläpitäviltä virano
 6. Tulosta raportti valitsemalla **Lähetä kohteeseen**.  
 
 ### <a name="report-intrastat-in-a-file"></a>Intrastat-raportointi tiedostona
+
 Voit nyt lähettää Intrastat-raportin tiedostona. Ennen tiedoston luomista voit tulostaa tarkastusluettelon, jossa on samat tiedo kuin mitä tiedostossa tulee olemaan.  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Intrastat-ilmoitus** ja valitse sitten vastaava linkki.  
@@ -115,6 +136,7 @@ Voit nyt lähettää Intrastat-raportin tiedostona. Ennen tiedoston luomista voi
 7. Selaa sijaintiin, jonne haluat tallentaa tiedoston. Anna tiedoston nimi ja valitse sitten **Tallenna**.
 
 ## <a name="reorganize-intrastat-journals"></a>Intrastat-ilmoitusten uudelleenjärjestely
+
 Koska Intrastat-raportti on lähetettävä joka kuukausi ja luot uuden päiväkirjan erä kullekin raportille, sinulla tulee olemaan ajan mittaan useita päiväkirjan eriä. Kirjauskansiorivejä ei poisteta automaattisesti. Haluat ehkä järjestää päiväkirjan erien nimet uudelleen jaksoittain. Voit tehdä sen poistamalla ne päiväkirjan erät, joita et enää tarvitse. Näissä erissä olevat päiväkirjan rivit poistuvat myös.  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Intrastat-ilmoitukset** ja valitse sitten vastaava linkki.  

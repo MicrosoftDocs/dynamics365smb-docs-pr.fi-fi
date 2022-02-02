@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: ac7fea479237d985204820d54953689566f5c2ac
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ad338aaccb9bc912ff2861423e4ad3b170aa566d
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319536"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029086"
 ---
 # <a name="create-journal-opening-balances"></a>Kirjauskansion alkusaldojen luominen
 
@@ -45,6 +45,9 @@ Varmista ennen aloittamista, että käytät järjestelmänvalvojan roolikeskukse
 
 > [!TIP]
 > Voit käyttää samoja eräajoja avaussaldojen lisäämiseen aina kun rekisteröit uuden asiakkaan tai toimittajan, jonka kanssa sinulla on ollut liiketoimintaa aiemmin, mutta et ole rekisteröitynyt kohteeseen [!INCLUDE [prod_short](includes/prod_short.md)]. Etsi vain haluamasi tehtävä ja valitse sitten asianmukainen linkki.
+
+> [!IMPORTANT]
+> Erityisesti pankkitilien alkusaldoja avattaessa tämän artikkelin ohjeita, joiden mukaan kirjaus tulisi lähettää suoraan asianomaisiin pankkitileihin liittyviin KP-tileihin, ei tulisi noudattaa. Lisätietoja on kohdassa [Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md).  
 
 ## <a name="see-also"></a>Katso myös
 

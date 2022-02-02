@@ -1,5 +1,5 @@
 ---
-title: Tietojen puhdistaminen säilytyskäytäntöjen avulla | Microsoft Docs
+title: Tietojen puhdistaminen säilytyskäytäntöjen avulla
 description: Voit määrittää, kuinka usein haluat poistaa tietyntyyppiset tiedot.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: delete, data, retention, policy, policies
+ms.search.form: 3903, 3901
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3ee0149461730e20e996f31dc7175ff3325bceca
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ab16aacb7689287eac259658a8ef6bb355f04842
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443916"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012391"
 ---
 # <a name="define-retention-policies"></a>Määritä säilytyskäytännöt
 Järjestelmänvalvojat voivat määrittää säilytyskäytäntöjä ja määrittää, kuinka usein he haluavat [!INCLUDE[prod_short](includes/prod_short.md)]:n poistavan vanhentuneita tietoja lokimerkintöjä ja arkistoituja tietueita sisältävissä taulukoissa. Esimerkiksi lokitapahtumien puhdistaminen voi helpottaa todella merkityksellisten tietojen käyttöä. Käytännöt voivat sisältää kaikki niiden taulukoiden tiedot, joiden vanhentumispäivämäärä on kulunut, tai voit lisätä suodatusehtoja, jotka sisältävät vain tietyt käytännön vanhentuneet tiedot. 

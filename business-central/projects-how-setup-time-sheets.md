@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheet
+ms.search.form: 977, 462, 76, 77
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 46e5cf2c7728e7c154841b6d407423344020d818
-ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
+ms.openlocfilehash: 21993ad4ee675384f7ffebfc77e0999d5dec05a6
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/14/2021
-ms.locfileid: "7920978"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972224"
 ---
 # <a name="set-up-time-sheets"></a>Aikaraporttien määrittäminen
 
@@ -41,6 +42,8 @@ Vuoden 2021 2. julkaisuaallosta eteenpäin voit määrittää tuntiraportteja av
 > Ota **Ominaisuuden päivitys: Uusi tuntiraporttikokemus** -ominaisuus käyttöön [Ominaisuuksien hallinta](https://businesscentral.dynamics.com/?page=2610) -sivulla, jotta voit käyttää tätä ominaisuutta.
 >
 > Saman ominaisuuden avulla on myös helppo hallita mobiililaitteen työaikataulukoita.
+
+Avaa **Aikaraporttien määrittäminen** -avustettu määritysopas [Ohjattu määritys](https://businesscentral.dynamics.com/?page=1801) -sivulla.
 
 Avustava asetusopas johdattaa sinut alusta loppuun seuraavat vaiheet:
 

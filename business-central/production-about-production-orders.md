@@ -7,35 +7,36 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 689fbf78a5337076e7f10a8825d01cd77018c670
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 6a72c3ae54138d2d67f4fdd2025d385c35b92af2
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321389"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972406"
 ---
 # <a name="about-production-orders"></a>Tietoja tuotantotilauksista
+
 Tuotantotilauksilla hallitaan ostettujen materiaalien muuntamista valmistetuiksi tuotteiksi. Tuotantotilaukset reitittävät työn tuotannon eri tuotantosoluihin tai kuormitusryhmiin.  
 
 Ennen tuotannon aloittamista, useimmat yritykset suorittavat tuotantosuunnittelun (yleensä kerran viikossa). Tuotantosuunnittelussa lasketaan, kuinka monta tuotantotilausta ja ostotilausta on suoritettava, jotta viikon myyntikysyntä täytetään. Ostotilaukset määrittävät osat, joita tarvitaan tuotannon tuotantorakenteen mukaan lopputuotteiden valmistamiseen.
 
 Tuotantotilaukset kuuluvat keskeisesti sovelluksen tuotantotoimintoihin, ja niissä on mukana seuraavat tiedot:  
 
--   tuotteet, joiden valmistamista suunnitellaan  
--   suunnitelluissa tuotantotilauksissa tarvittavat materiaalit  
--   hiljattain valmistetut tuotteet  
--   valmiiksi valitut materiaalit  
--   aiemmin valmistetut tuotteet  
--   edeltävissä tuotanto-operaatioissa käytetyt materiaalit.  
+- tuotteet, joiden valmistamista suunnitellaan  
+- suunnitelluissa tuotantotilauksissa tarvittavat materiaalit  
+- hiljattain valmistetut tuotteet  
+- valmiiksi valitut materiaalit  
+- aiemmin valmistetut tuotteet  
+- edeltävissä tuotanto-operaatioissa käytetyt materiaalit.  
 
 Tuotantotilaukset toimivat lähtökohtana  
 
--   tulevan tuotannon suunnittelussa  
--   meneillään olevan tuotannon hallinnassa  
--   valmistuneen tuotannon seurannassa.  
+- tulevan tuotannon suunnittelussa  
+- meneillään olevan tuotannon hallinnassa  
+- valmistuneen tuotannon seurannassa.  
 
 ## <a name="production-order-creation"></a>Tuotantotilausten luominen  
 Tuotantotilauksia voi luoda manuaalisesti tilaus kerrallaan **Tuotantotilaus**-sivulla, mutta niitä voi luoda myös **Myyntitilauksen suunnittelu**- tai **Tilauksen suunnittelu** -sivuilla. **Suunnittelutyökirja**-sivulla luodaan useita tilauksia.  
@@ -51,10 +52,10 @@ Seuraavien kohteiden tietoja käytetään tuotantotilausten luonnissa:
 ## <a name="limitations-on-production-order-creation"></a>Tuotantotilauksen luomiseen liittyviä rajoituksia  
 Tuotantotilaukset varataan ja niitä seurataan automaattisesti lähteeseen, kun  
 
--   Luotu **[suunnittelutyökirjasta](production-how-to-run-mps-and-mrp.md)**  
--   Luotu **[Tilauksen suunnittelu](production-how-to-create-production-orders-from-sales-orders.md)** -sivulta  
--   Luotu **[Tilauksen suunnittelu](production-how-to-plan-for-new-demand.md)** -sivulta  
--   **[Uudelleensuunnittele](production-how-to-replan-refresh-production-orders.md)**-toiminnon käyttäminen tuotantotilauksissa  
+- Luotu **[suunnittelutyökirjasta](production-how-to-run-mps-and-mrp.md)**  
+- Luotu **[Tilauksen suunnittelu](production-how-to-create-production-orders-from-sales-orders.md)** -sivulta  
+- Luotu **[Tilauksen suunnittelu](production-how-to-plan-for-new-demand.md)** -sivulta  
+- **[Uudelleensuunnittele](production-how-to-replan-refresh-production-orders.md)**-toiminnon käyttäminen tuotantotilauksissa  
 
 Lisätietoja on kohdassa [Kysynnän ja tarjonnan välisten suhteiden seuranta](production-how-track-demand-supply.md).
 
@@ -117,9 +118,9 @@ Sovelluksessa on useita vaihtoehtoja sille, miten tuotantoyrityksen kannattaa ki
 
 Materiaalin kulutusta voi käsitellä [kulutuspäiväkirjan](production-how-to-post-consumption.md) avulla, mutta sovellus voi kirjata kulutuksen myös automaattisesti. Tätä kutsutaan automaattiseksi raportoinniksi (materiaaliotto). Raportointimenetelmiä ovat  
 
--   Manuaalinen  
--   Eteenpäin  
--   Taaksepäin  
+- Manuaalinen  
+- Eteenpäin  
+- Taaksepäin  
 
 Manuaaliset kulutusraportit käyttävät kulutuspäiväkirjaa määrittämään materiaalin poiminta.  
 
@@ -181,9 +182,9 @@ Tuotantopäiväkirja eroaa kuitenkin seuraavilla tavoilla kulutus- ja tuotospäi
 Tuotantopäiväkirjassa kulutusmäärät kirjataan negatiivisina nimiketapahtumina, tuotoksen määrät kirjataan positiivisina tapahtumina ja käytetyn ajan tiedot kirjataan kapasiteettitapahtumina.  
 
 ## <a name="see-also"></a>Katso myös
-[Tuotanto](production-manage-manufacturing.md)    
+[Tuotanto](production-manage-manufacturing.md)
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
-[Suunnittelu](production-planning.md)      
+[Suunnittelu](production-planning.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

@@ -3,19 +3,19 @@ title: Business Centralin ja Microsoft Teamsin integroinnin yleiskatsaus | Micro
 description: Jaa Business Central -tietueita suoraan Teams-keskusteluissa.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: get-started-article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 49cc504c95d5636957e93b4543b05e3bfb22d989
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 943fd46025a736ae7f32f8fbb02fcacbefb32e8e
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587503"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011843"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Centralin ja Microsoft Teamsin integraatio
 
@@ -53,7 +53,7 @@ Lisätietoja on kohdassa [Jaa tietueita Microsoft Teams](across-working-with-tea
 
 ### <a name="share-links-from-pages-in-business-central-to-teams"></a>Jaa sivujen linkit Business Centralista Teamsiin
 
-Suoraan useimmista Business Centralin kokoelma- ja tietosivuilta voit käyttää **Jaa Teamsiin** -toimintoa ![!Sivujen Jaa-valikkokuvake.](media/share-icon.png "Kortilla näkyvä Jaa-valikko.") -kuvakkeesta, jolloin voit kirjoittaa viestin, valita vastaanottajat, kuten ryhmän jäsenet, ryhmät tai kanavat, ja lähettää viestin, jossa on linkki Business Central -sivulle.
+Suoraan useimmista Business Centralin kokoelma- ja tietosivuilta voit käyttää **Jaa Teamsiin** -toimintoa ![!Sivujen Jaa-valikkokuvakkeen kautta.](media/share-icon.png "Kortilla näkyvä Jaa-valikko.") -kuvakkeesta, jolloin voit kirjoittaa viestin, valita vastaanottajat, kuten ryhmän jäsenet, ryhmät tai kanavat, ja lähettää viestin, jossa on linkki Business Central -sivulle.
 
 ![! Kortilla näkyvä Jaa-valikko.](media/teams-share-link.png "Kortilla näkyvä Jaa-valikko.")
 

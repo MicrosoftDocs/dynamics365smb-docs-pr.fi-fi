@@ -1,19 +1,20 @@
 ---
-title: Projektin projektikortin luominen ja tehtävien määrittäminen| Microsoft Docs
+title: Projektin projektikortin luominen ja tehtävien määrittäminen
 description: Uudelle projektille luodaan projektin tehtävät ja suunnittelurivit sisältävä projektikortti, mikä auttaa edistymisen ja budjettien hallinnassa.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management, task
+ms.search.form: 88, 1001, 1002, 1003, 1004, 1005, 1006, 1007
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 13037a0f984a3e390f194572afc0362360ab7187
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 88da1794619da0fce6001d70482a021d8efbe8cf
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439818"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973308"
 ---
 # <a name="create-jobs"></a>Projektien luominen
 Uuden projektin aloittamisen yhteydessä on luotava projektikortti sekä integroidut projektitehtävät ja projektin suunnittelurivit kahteen eri tasoon.  

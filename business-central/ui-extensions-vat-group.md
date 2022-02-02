@@ -1,5 +1,5 @@
 ---
-title: ALV-ryhmän hallinnan laajennus | Microsoft Docs
+title: ALV-ryhmän hallinnan laajennus
 description: Voit olla yhteydessä muihin yrityksiin, jos haluat muodostaa alv-ryhmän, ja toimia ryhmän jäsenenä tai edustajana ALV-raportoinnin yhteydessä.
 author: bholtorf
 manager: annbe
@@ -11,12 +11,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 093b361bf2d3f02d08dc6b8d53ad4b58a086f88b
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 7148fa8e59a509af3206e7da898a371ffb5332a5
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5771285"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029138"
 ---
 # <a name="the-vat-group-management-extension"></a>ALV-ryhmän hallinnan laajennus
 
@@ -116,8 +116,12 @@ Kun alv-ryhmän edustajan ALV-ilmoitus on lähetetty viranomaisille koko ryhmän
 > ALV-ryhmien toimintoa tuetaan vain niillä markkina-alueilla, joissa [!INCLUDE[prod_short](includes/prod_short.md)] käyttää ALV-palautuksista ja ALV-palautusjaksoista koostuvaa ALV-kehystä. Et voi käyttää ALV-ryhmiä muilla markkina-alueilla, joilla on muita paikallisia ALV-raportoinnin toteutuksia, kuten Itävalta, Saksa, Italia, Espanja ja Sveitsi. 
 
 ## <a name="see-also"></a>Katso myös
+
 [Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)  
-[Määritä arvolisävero](finance-setup-vat.md)
+[Määritä arvolisävero](finance-setup-vat.md)  
+[Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)  
+[Veron määrittäminen digitaaliseksi Yhdistyneessä Kuningaskunnassa](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  
+[Norjan ALV-raportointi Norjan versiossa](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

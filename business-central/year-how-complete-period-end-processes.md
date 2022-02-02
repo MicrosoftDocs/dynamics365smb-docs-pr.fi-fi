@@ -1,28 +1,28 @@
 ---
-title: Jaksojen sulkemisen valinnaiset toiminnot | Microsoft Docs
+title: Jaksojen sulkemisen valinnaiset toiminnot
 description: Tässä ohjeaiheessa kerrotaan Business Central -sovelluksen kirjanpitojaksojen sulkemisen valinnaisista prosesseista ja toiminnoista.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 6f1bbed79a2f5d817e3f486cfb4207e5b285aef2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9442b0617691098b32e5012a5a708e14fe5a0187
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775248"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011997"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Kirjanpitojaksojen sulkemistehtävien yleiskatsaus
+
 [!INCLUDE[prod_short](includes/prod_short.md)] ei pakota päättämään kausia, joskin on monia kauden lopussa (kuukauden lopussa) aktiviteetteja, jotka voit tehdä. Tässä ohjeaiheessa on yleiskatsaus kausien päättämiseen liittyvistä valinnaisista prosesseista ja aktiviteeteista.  
 
 ## <a name="general-ledger"></a>Pääkirjanpito
+
 * Määritä järjestelmänlaajuiset ja käyttäjäkohtaiset kirjausjaksot.  
 
     Tässä määritetään kirjausten sallittu päivämääräväli. Liiketoiminnan tarpeiden mukaan voit sallia kirjauksen jakson alussa tai jakson loppupuolella. Lisätietoja on kohdassa [Kirjausjaksojen määrittäminen](finance-how-specify-posting-periods.md).  
@@ -33,6 +33,7 @@ ms.locfileid: "5775248"
   * Avaa **KP-raporttimalli**-sivu ja valitse sitten **Tulosta**-toiminto.  
 
 ## <a name="sales-and-receivables"></a>Myynnit ja myyntisaamiset
+
 * Kirjaa kaikki myyntitilaukset, laskut, hyvityslaskut ja palautustilaukset.  
 * Kirjaa kaikki kassapäiväkirjat.  
 * Päivitä ja kirjaa myyntiin ja myyntisaamisiin liittyvät toistuvat päiväkirjat.  
@@ -40,26 +41,31 @@ ms.locfileid: "5775248"
 * Suorita **Poista laskutetut myyntitilaukset** -eräajo.  
 
 ## <a name="purchases-and-payables"></a>Ostot ja ostovelat
+
 * Kirjaa kaikki ostotilaukset, laskut, hyvityslaskut ja palautustilaukset.  
 * Kirjaa kaikki maksupäiväkirjat.  
 * Päivitä ja kirjaa ostoihin ja ostovelkoihin liittyvät toistuvat päiväkirjat.  
 * Suorita **Ostovelkojen tilanne** -raportti ja täsmäytä ostovelat pääkirjanpitoon.  
 * Suorita **Poista laskutetut ostotilaukset** -eräajo.  
 
-Käyttöomaisuus
+## <a name="fixed-assets"></a>Käyttöomaisuus
+
 * Kirjaa kaikki kunnossapitokustannukset, jotka on kirjattu käyttöomaisuuspäiväkirjojen tai laskujen kautta.
 * Kirjaa muutokset.
 * Kirjaa arvonkorotus.
 * Kirjaa arvonalennus.
 * Päivitä ja kirjaa toistuva käyttöomaisuuspäiväkirja.
 
-Konserni
+## <a name="intercompany"></a>Konserni
+
 * Konsernin tapahtumien käsitteleminen
 
 ## <a name="calculate-and-process-sales-tax"></a>Arvonlisäveron laskeminen ja käsitteleminen
+
 * Täytä ALV-ilmoitukset.  
 
 ## <a name="see-also"></a>Katso myös
+
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
 [Kirjojen sulkeminen](year-close-books.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

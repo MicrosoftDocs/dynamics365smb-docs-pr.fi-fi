@@ -10,20 +10,16 @@ ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5205f5ed9e8f668a6705d2edfe0e07d328869b16
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 6eb37cbe2c4891c35b24a3ae7517add73669a2ac
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435057"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971273"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Automaattinen maksujen soveltamisen sääntöjen määrittäminen
 
-**Maksun sovellussäännöt** -sivulla määritetään sääntöjä, jotka määrittävät, miten maksuteksti (pankkitapahtumassa) kohdistetaan automaattisesti seuraavien kahden prosessin avointen tapahtumien tekstiin:
-
-- Määritä säännöt, jotka hallinnoivat sitä, kuinka maksuja/pankkitapahtumia sovelletaan automaattisesti niihin liittyviin avoimiin (maksamattomiin) laskuihin, hyvityslaskuihin tai muihin kirjanpitotapahtumiin, kun käytät **Sovella automaattisesti** -toimintoa **Maksujen täsmäytyskirjauskansio** -sivulla. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
-
-- Täsmäytä pankkitapahtumat automaattisesti niihin liittyviin sisäisiin pankkitilitapahtumiin valitsemalla **Täsmäytä automaattisesti** -toiminto **Pankkitilin täsmäytys** -sivulla. Lisätietoja on kohdassa [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md).
+Määritä **Maksusovelluksen säännöt** -sivulla säännöt, jotka hallinnoivat sitä, kuinka (pankkitapahtuman) maksutekstit kohdistetaan automaattisesti niihin liittyviin avoimiin (maksamattomiin) laskuihin, hyvityslaskuihin tai muihin kirjauksiin, kun käytät **Sovella automaattisesti** -toimintoa **Maksujen täsmäytyskirjauskansio** -sivulla. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
 
 Voit asettaa uuden maksun sovellussäännön valitsemalla minkä tyyppisten tietojen maksujen täsmäytyskirjauskansion rivillä tulee vastata tietoja yhdessä tai useammassa avoimessa tapahtumassa, ennen kuin liittyvä maksu yhdistetään automaattisesti avoimiin tapahtumiin. Jokaisen automaattisen sovelluksen laatu näkyy käytetyn maksun kohdistussäännön mukaan arvona **Matalasta** **Korkeaan** **Vastaavuuden luotettavuus** -kentässä **Maksujen täsmäytyskirjauskansio** -sivulla sen maksusovellussäännön mukaisesti, jota käytettiin.
 

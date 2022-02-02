@@ -1,21 +1,23 @@
 ---
-title: Resurssien ja tuntiraporttien käyttäminen projektitehtävissä
+title: Projektinhallinta
 description: Tässä ohjeaiheessa kerrotaan, miten resursseja, tuntiraportteja ja projekteja käytetään hallitsemaan projekteja ja niiden budjetteja.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
+ms.search.form: 89, 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: bbb0fbf1500daa284ac99e03d01e8c9a64e417bf
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 8f08b42af793772c98c0671cdf44934638fb8db7
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321087"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972146"
 ---
 # <a name="project-management"></a>Projektinhallinta
+
 [!INCLUDE[prod_short](includes/prod_short.md)]issa voi suorittaa yleisiä projektinhallinnan tehtäviä, kuten projektin määrittämistä ja resurssin aikatauluttamista, sekä budjettien hallinnassa ja projektin etenemisen valvonnassa tarvittavien tietojen antamista. Voit seurata projektin koneiden käyttötunteja ja työntekijöiden työtunteja käyttämällä aikaraportteja. Projektipäällikkönä saat hyvän yleiskuvan yksittäisten projektien lisäksi työntekijöiden varauksista sekä koneiden ja muiden resurssien käytöstä kaikissa projekteissa.
 
 Ennen kuin voit käyttää [!INCLUDE[prod_short](includes/prod_short.md)]ia projektien hallintaan, on määritettävä resurssit, aikaraportit ja projektit. Lisätietoja on kohdassa [Projektinhallinnan määrittäminen](projects-setup-projects.md).  

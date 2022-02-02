@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
+ms.search.form: 1831, 1832
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: bbc68f5ed274328a9ea1fe7229a79bfba5a8bdf5
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 7d248158b7efa5960bbaeaf4b99f3ef8655b627c
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587938"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012365"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Business Central -apuohjelman hankkiminen Outlookiin
 
@@ -68,7 +69,7 @@ Keskitetty käyttöönotto on Microsoft 365 -hallintakeskuksen ominaisuus, jonka
 5. Tässä vaiheessa olet suorittanut kaiken Business Centralissa, joten voit valita **Valmis**.
 
    >[!TIP]
-   > Ennen kuin valitset **Seuraava**, valitse **Siirry Microsoft 365:een (avautuu uuteen ikkunaan)** -linkki avataksesi ja kirjautuaksesi Microsoft 365 hallintakeskukseen uudessa selainikkunassa. Sinun on kuitenkin mentävä Microsoft 365 -hallintakeskukseen myöhemmässä vaiheessa.
+   > Ennen kuin valitset **Seuraava**, valitse **Siirry Microsoft 365:een (avautuu uuteen ikkunaan)** -linkki avataksesi ja kirjautuaksesi Microsoft 365 -hallintakeskukseen uudessa selainikkunassa. Sinun on kuitenkin mentävä Microsoft 365 -hallintakeskukseen myöhemmässä vaiheessa.
 
 6. Siirry kansioon, johon OutlookAddins.zip on ladattu, ja pura **Contact Insights.xml**- ja **Document View.xml**-tiedostot haluamaasi kansioon.
 

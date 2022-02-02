@@ -1,5 +1,5 @@
 ---
-title: Varastokausien käyttäminen | Microsoft Docs
+title: Varastokausien käsitteleminen
 description: Määrittämällä varastokauden voi hallita aikajaksoa, jolloin henkilöt voivat kirjata muutoksia varastoon.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: inventory, periods
+ms.search.form: 5828
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7d946020bb6f9a1eabf5ab68d3dd64a9af344993
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d41936ece0911f726a72476716b148bede71a25b
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442058"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970620"
 ---
 # <a name="work-with-inventory-periods"></a>Varastokausien käsitteleminen
+
 Varastokaudet määrittävät aikajakson, jolloin voit kirjata varastoon muutoksia. Lopetuspäivämäärä määrittää, milloin varastokausi loppuu. Kun suljet varastokauden, et voi enää kirjata varastoon odotettuja tai laskutettuja muutoksia ennen tätä lopetuspäivämäärää. Et voi kirjata varastoon uusia arvoja ennen lopetuspäivämäärää. Jos suljetulla kaudella on avoimia nimiketapahtumia eli positiivisia määriä, joita ei ole vielä kohdistettu lähteviin transaktioihin, voit yhä kohdistaa lähteviä määriä näihin transaktioihin, vaikka kausi on suljettu.  
 
 Seuraavissa luvuissa kerrotaan, miten
@@ -26,13 +28,15 @@ Seuraavissa luvuissa kerrotaan, miten
 * varastokausia suljetaan  
 * varastokausia avataan uudelleen.  
 
-## <a name="to-create-an-inventory-period"></a>Varastokauden luominen  
+## <a name="to-create-an-inventory-period"></a>Varastokauden luominen
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastokaudet** ja valitse sitten vastaava linkki.  
 2. Luo uusi rivi.  
 3. Syötä **Lopetuspvm**-kenttään viimeinen päivämäärä, jonka haluat varastokaudelle määrittää. Kun kausi suljetaan, et voi enää kirjata ennen tätä päivämäärää tapahtuneita varaston muutoksia.  
 4. Anna **Nimi**-kenttään kuvaava nimi. Valitse **OK**-painike.  
 
-## <a name="closing-inventory-periods"></a>Varastokausien sulkeminen  
+## <a name="closing-inventory-periods"></a>Varastokausien sulkeminen
+
 **Suljettu**-kenttä osoittaa, onko varastokausi suljettu varaston arvon muutoksilta. Et voi muokata tätä kenttää.  
 
 Voit sulkea minkä tahansa varastokauden, jos seuraavat kohdat toteutuvat:  
@@ -43,12 +47,13 @@ Voit sulkea minkä tahansa varastokauden, jos seuraavat kohdat toteutuvat:
 Tällöin kaikki lähtevät transaktiot, kuten myyntitilausten, lähtevien siirtojen, myyntilaskujen, ostopalautusten ja ostohyvityslaskujen transaktiot, on kohdistettava varastomäärään.  
 
 ### <a name="to-close-an-inventory-period"></a>Sulje varastokausi  
+
 1. Valitse **Muuta kustannuksia - Nimiketapahtumat** -toiminto ennen varastokauden sulkemista. Näin voit varmistaa, että kaikkien kustannusten muutokset on kirjattu.
 
-     Suorittamalla **Sulje varastokausi - Testaa** -raportin voit määrittää, onko varastokaudella avoimia lähteviä transaktioita tai nimikkeitä, joiden kustannuksia ei ole vielä muutettu.  
+    Suorittamalla **Sulje varastokausi - Testaa** -raportin voit määrittää, onko varastokaudella avoimia lähteviä transaktioita tai nimikkeitä, joiden kustannuksia ei ole vielä muutettu.  
 2. Valitse **Sulje varastokausi – Testaa** -toiminto.  
 
-     Suorittamalla **Kirjaa varaston kustannus KP:oon** -eräajon voit varmistaa, että kaikki kustannukset on viety pääkirjanpitoon.  
+    Suorittamalla **Kirjaa varaston kustannus KP:oon** -eräajon voit varmistaa, että kaikki kustannukset on viety pääkirjanpitoon.  
 3. Valitse **Kirjaa varasto kirjanpitoon** -toiminto.  
 4. Valitse suljettava varastokausi **Varastokaudet**-sivulla.  
 5. Valitse **Sulje varastokausi** -toiminto. Varastokauden sulkeuduttua et voi enää kirjata varaston muutoksia ennen lopetuspäivämäärää. Kaikkien nimikkeiden kustannus on muutettava **Muuta kustannuksia - Nimiketapahtumat** -eräajolla ennen varastokauden sulkemista.  

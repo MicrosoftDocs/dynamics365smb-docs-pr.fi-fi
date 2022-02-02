@@ -4,19 +4,19 @@ description: Saat tietoja nimikkeiden tai varaston saatavuudesta eri sijainneiss
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1f5913dd06e56e4a49169827a90b96405b294b5e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5a65e56a58f0224230770dd9d2c847b754125d20
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441191"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012313"
 ---
 # <a name="view-the-availability-of-items"></a>Nimikkeiden saatavuuden tarkasteleminen
 Voit saada, liiketoimintaan liittyvän tehtävän kontekstissa, lisätietoja milloin ja mistä nimike on saatavissa, esimerkiksi kun kerrot asiakkaalle toimitusaikataulua.

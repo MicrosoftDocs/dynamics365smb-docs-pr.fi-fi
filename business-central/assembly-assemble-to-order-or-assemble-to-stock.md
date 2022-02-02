@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: deaefbebf1520bc936c078ff7f74b18c34de4d89
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 4f47d2e60ae1adeab814ab630f8f90877881b4ae
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326336"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011176"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista
 Kokoonpanon osat voidaan toimittaa seuraavaan kahteen prosessiin:  
@@ -70,20 +70,29 @@ Kun syötät myyntiriville kokoonpano tilausta varten nimikkeen, kokoonpanotilau
 
  Voit esimerkiksi muokata kokoonpanomäärää, jos haluat kirjata varastomäärän toimituksen osittain, ennen kuin koko kokoonpanomäärä voidaan toimittaa.  
 
- Seuraavassa taulukossa käsitellään sääntöjä, joilla määritetään pienin ja suurin **Kokoonpantava määrä** -kenttään annettava arvo, kun halutaan poiketa yhdistelmätilanteen oletusarvosta. Taulukossa näkyy yhdistelmätilanne, jossa linkitetyn myyntitilausrivin arvo **Toimitettava määrä** -kentässä muutetaan 7:stä 4:ksi, ja **Kokoonpantava määrä** -oletusarvoksi tulee sen vuoksi 4.  
+ Seuraavissa taulukoissa käsitellään sääntöjä, joilla määritetään pienin ja suurin **Kokoonpantava määrä** -kenttään annettava arvo, kun halutaan poiketa yhdistelmätilanteen oletusarvosta. Taulukossa näkyy yhdistelmätilanne, jossa linkitetyn myyntitilausrivin arvo **Toimitettava määrä** -kentässä muutetaan 7:stä 4:ksi, ja **Kokoonpantava määrä** -oletusarvoksi tulee sen vuoksi 4.  
 
-|-|Myyntitilausrivi|Kokoonpanotilauksen otsikko|||||||  
-|-|----------------------|---------------------------|-|-|-|-|-|-|  
-||**määrä**|**Toimitettava määrä**|**Kokoonpantava määrä tilausta varten**|**Toimitettu määrä**|**Määrä**|**Kokoonpantava määrä**|**Kokoonpantu määrä**|**Jäljellä oleva määrä**|  
-|Alku|10|7|7|0|7|7|0|7|  
-|Vaihtoraha||4||||4 (lisätään oletusarvon mukaan)|||  
+- Myyntitilausrivi
 
- Edellä mainitun tilanteen perusteella voit muuttaa vain **Kokoonpantava määrä** -kentän seuraavasti:  
+    |                | **määrä** | **Toimitettava määrä** | **Kokoonpantava määrä tilausta varten** | **Toimitettu määrä** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Alkuarvo**| 10          | 7                | 7                             | 0                    |
+    |**Muutos**      |              | 4                |                               |                      |
 
--   Pienin määrä, joka voidaan syöttää on 1. Tämä johtuu siitä, että ainakin yksi yksikkö on koottava, jotta voit myydä neljä yksikköä, olettaen, että loput kolme ovat saatavilla varastossa.  
--   Suurin määrä, joka voidaan syöttää on 4. Näin varmistetaan, että tilaukselle ei koota enempää nimikkeitä kuin mitä myyntiin tarvitaan.  
+- Kokoonpanotilauksen otsikko
 
-## <a name="see-also"></a>Katso myös  
+    |                | **määrä** | **Toimitettava määrä** | **Kokoonpantava määrä tilausta varten** | **Toimitettu määrä** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Alkuarvo**| 7           | 7                | 0                             | 7                    |
+    |**Muutos**      |              | 4 (lisätään oletusarvon mukaan)|                         |                      |
+
+Tämän esimerkin perusteella voit muuttaa vain **Kokoonpantava määrä** -kentän seuraavasti:  
+
+- Pienin määrä, joka voidaan syöttää on 1. Tämä johtuu siitä, että ainakin yksi yksikkö on koottava, jotta voit myydä neljä yksikköä, olettaen, että loput kolme ovat saatavilla varastossa.  
+- Suurin määrä, joka voidaan syöttää on 4. Näin varmistetaan, että tilaukselle ei koota enempää nimikkeitä kuin mitä myyntiin tarvitaan.  
+
+## <a name="see-also"></a>Katso myös
+
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  

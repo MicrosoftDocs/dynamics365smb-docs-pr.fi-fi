@@ -8,21 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, customize
+ms.search.form: 374, 404
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6d083e3eea85fde087a431d21bb9eae8bb4b8c5e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4278cb474440e8746bcc423c3dd10dbc209fdb9a
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444635"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971663"
 ---
 # <a name="select-a-check-layout"></a>Sekin asettelun valitseminen
+
 Voit suunnitella omat sekit, joiden avulla pystyt noudattamaan paikallisten viranomaisten määrittämiä standardeja. Sekkikuvat voidaan tulostaa englannin-, ranskan ja espanjankielisinä.
 
 Sekit suunnitellaan tulostettavaksi sekä Yhdysvaltojen että Kanadan sekkikuvamuodoissa joko muodossa sekki-talonki-sekki tai talonki-talonki-sekki.
 
 ## <a name="to-select-a-check-layout"></a>Sekin asettelun valitseminen
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttivalintojen pankkitili** ja valitse sitten vastaava linkki.
 2. Valitse **Raporttivalinta - Pankkitili** -sivun **Käyttö**-kentässä **Sekki**.
 3. Valitse jompikumpi seuraavista raportin tunnuksista:
@@ -39,6 +42,7 @@ Kun olet määrittänyt sekkien asettelut, voit tulostaa sekit **Maksupäiväkir
 Voit muuttaa jotakin näistä sekkien oletusasetteluista käyttämällä joko Word- tai RDLC-integrointia. Lisätietoja on kohdassa [Raportin mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md).
 
 ## <a name="using-micr-and-security-fonts"></a>MICR- ja suojausfonttien käyttäminen
+
 [!INCLUDE[prod_short](includes/prod_short.md)]:n online-versio sisältää valmiiksi asennetut fontit palvelimissa, joita voidaan käyttää sekin asettelujen määrittämisessä. Seuraavassa on esitetty, mitkä fontit ovat käytettävissä, ja siinä on linkit kolmansien osapuolten fonttien toimittajien yksityiskohtaisiin tietoihin.
 
 > [!Important]
@@ -50,33 +54,38 @@ Päivityksessä 15.3 ja uudemmissa on asennettu magneettisten merkkien tunnistuk
 > Suojaus- ja oikeudellisista syistä mukautettuja fontteja ei voi ladata [!INCLUDE[prod_short](includes/prod_short.md)]-ympäristöön.
 
 ### <a name="micr-e-13b-specifications"></a>MICR E-13B -määritykset
+
 Seuraavassa on yhteenveto MICR E-13B -fonteista, joista voi olla hyötyä, kun fontteja kalibroidaan sekkiasetteluissa tiettyjen MICR-tulostimien avulla.
 
 ![MICR E-13B -määritykset.](media/font_MICR_E-13B_Specifications.png "MICR E-13B -määritykset")
 
 ### <a name="delimiter-characters"></a>Erottimen merkit
+
 ![Erottimen merkit.](media/font-micr-letters.png "Erottimen merkit")
 
 MICR E-13B -fonttien kokomääritys löytyy toimittajan dokumentaatiosta täältä: (https://www.idautomation.com/micr-fonts/e13b/).
 
 ### <a name="micr-cmc-7-specifications"></a>MICR CMC-7 -määritykset
+
 Seuraavat CMC-7 -fontit ovat käytettävissä [!INCLUDE[prod_short](includes/prod_short.md)] -online-käytössä:
 
 - IDAutomationCMC7
 - IDAutomationCMC7n10
 - IDAutomationCMC7n25
--   IDAutomationCMC7n40
+- IDAutomationCMC7n40
 
 Seuraavassa on yhteenveto MICR CMC-7 -fonteista, joista voi olla hyötyä, kun fontteja kalibroidaan sekkiasetteluissa tiettyjen MICR-tulostimien avulla.
 
 ![MICR CMC-7 -määritykset.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 -määritykset")
 
 ### <a name="delimiter-characters"></a>Erottimen merkit
+
 ![Erottimen CMC-7-merkit.](media/font-cmc7-letters.png "Erottimen CMC-7-merkit")
 
 MICR CMC-7 -fonttien kokomääritys löytyy toimittajan dokumentaatiosta täältä: (http://www.idautomation.com/micr-fonts/cmc7/).
 
 ### <a name="secure-font-specifications"></a>Suojattujen fonttien määritykset
+
 Seuraavassa on yhteenveto sekkisuojausfonteista, joista voi olla hyötyä, kun fontteja kalibroidaan sekkiasetteluissa tiettyjen MICR-tulostimien avulla.
 
 ![Suojausfonttien määritysten tarkistaminen.](media/font_check-security-font_Specifications.png "Suojausfonttien määritysten tarkistaminen")
@@ -86,6 +95,7 @@ Sekkisuojausfonttien kokomääritys löytyy toimittajan dokumentaatiosta täält
 Fontit muihin tarkoituksiin ovat myös saatavilla [!INCLUDE[prod_short](includes/prod_short.md)]. Lisätietoja on kohdassa [Käytettävissä olevat fontit](ui-fonts.md)
 
 ## <a name="see-also"></a>Katso myös
+
 [Raporttien mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)  
 [Fontit Business Centralissa](ui-fonts.md)  
 [Ostovelkojen hallinta](payables-manage-payables.md)  

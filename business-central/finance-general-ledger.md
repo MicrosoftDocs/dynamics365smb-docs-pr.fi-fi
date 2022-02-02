@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
+ms.search.form: 18, 20, 37, 65, 99, 312, 313, 395, 552, 569, 570, 634, 790, 791, 1158
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 2af34c84c7b359d2cae64d19a9aec151e0d9a3bb
-ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
+ms.openlocfilehash: 98aca02ceba638b65849ff8218bafe07be2190db
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928807"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973065"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Tietoja pääkirjanpidosta ja tilikartasta
 
@@ -75,6 +76,7 @@ Esimerkiksi oletussaldon tiliotteessa on *Käteisvarat*-alaluokka *Vastaavaa*-ko
 Kun luot seuraavan kerran KP-raporttimalleja, tiliotteessa näkyy käteisvarojen kokonaissaldo sekä käteiskassan ja sekkitilin saldojen kaksi riviä.  
 
 ## <a name="getting-a-quick-overview"></a>Nopean yleiskuvauksen saaminen
+
 Tilikartassa näkyvät hierarkkisessa luettelossa olevat tilit, jotka tarjoavat nopean pääsyn kunkin tilin avaintietoihin. Luettelo on kuitenkin staattinen, ja jos sinulla on paljon tilejä, sinun on ehkä tehtävä hieman vieritystä nähdäksesi eri tileille liittyvät tiedot. Jos haluat vain nopean yleiskatsauksen perusasioista, kuten nettomuutoksista ja saldoista, **Tilikartan yleiskuvaus** -sivu on hyödyllinen vaihtoehto. Sivun sarakeasettelu on nyt sama kuin löydät Tilikartta-sivulta (niitä on vain vähän), joten sinun ei tarvitse orientoitua uudelleen, ja voit säätää näkymää laajentamalla tai tiivistämällä hierarkiatasoja. Jotta sivuja olisi helppo vaihtaa, **Tilikartan yleiskuvaus** -sivu on käytettävissä Tilikartta-sivulta.
 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Luo ja muokkaa tilejä ja tililuokkia

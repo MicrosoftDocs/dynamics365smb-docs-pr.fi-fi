@@ -1,8 +1,6 @@
 ---
 title: Kirjauksen kumoaminen kirjaamalla palautustapahtuma
 description: Jos olet tehnyt virheellisen kirjauksen yleiseen päiväkirjaan, Peruuta tapahtuma -toiminnolla kumottu kirjaus luo oikean kirjausketjun.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -10,16 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
+ms.search.form: 20, 25, 29, 38, 202, 5912,
 ms.date: 07/22/2021
 ms.author: edupont
-ms.openlocfilehash: c23dcaed561997b5c0f38b4cd5ad5631b8519706
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 10a1532ea7772aa8f2c35df118388e57dc4dc52d
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660154"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972536"
 ---
 # <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen
+
 Käänteisiä päiväkirjan kirjauksia ei käytetä vain virheiden korjaamiseen, vaan niitä voidaan käyttää myös vanhan jaksotustapahtuman tyhjentämiseen ennen esimerkiksi uuden syöttämistä. Valitset tapahtuman luomalla peruutustapahtuman (alkuperäistä tapahtumaa vastaava tapahtuma, jossa summakentässä on vastakkainen etumerkki), jossa on sama asiakirjanumero ja kirjauspäivämäärä kuin alkuperäisessä tapahtumassa. Kun olet peruuttanut tapahtuman, lisää tapahtuma korjattuna.
 
 Vain yleisen päiväkirjan riviltä kirjatut tapahtumat voi peruuttaa. Tapahtuman voi peruuttaa vain kerran.
@@ -80,6 +80,7 @@ Seuraavaksi kerrotaan, miten kirjattu nimikkeiden tai resurssien palautustoimitu
 8.  Korjaa tapahtuma **Määrä**-kentässä ja kirjaa ostopalautustilaus uudelleen.  
 
 ## <a name="see-also"></a>Katso myös
+
 [Kokoonpanon kirjauksen kumoaminen](assembly-how-to-undo-assembly-posting.md)  
 [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
