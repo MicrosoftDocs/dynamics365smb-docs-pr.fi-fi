@@ -11,12 +11,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
 ms.search.form: 1831, 1832
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: 7d248158b7efa5960bbaeaf4b99f3ef8655b627c
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 7fa8eabcffeb19b77c98ed9f9b7036dff6cbbf35
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012365"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049587"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Business Central -apuohjelman hankkiminen Outlookiin
 
@@ -78,7 +78,7 @@ Keskitetty käyttöönotto on Microsoft 365 -hallintakeskuksen ominaisuus, jonka
 
 8. Valitse **Lataa mukautetut sovellukset**.
 9. Valitse **Lataa käyttöön otettavat sovellukset** -sivulla **Lataa luettelotiedosto (.xml) laitteesta** > **Valitse tiedosto**.
-10. Valitse jokin aiemmin puretuista lisätiedostoista, esimerkiksi **Content Insights.xml**.
+10. Valitse jokin aiemmin puretuista lisätiedostoista, esimerkiksi **Contact Insights.xml**.
 11. Määritä käyttäjät ja ota apuohjelma käyttöön noudattamalla ohjeita.
 12. Toista vaiheet 9-11 halutessasi muille apuohjelmille.
 

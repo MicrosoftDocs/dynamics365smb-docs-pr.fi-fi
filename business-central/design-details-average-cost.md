@@ -1,5 +1,5 @@
 ---
-title: Rakennetiedot – Keskimääräinen kustannus | Microsoft Docs
+title: Rakennetiedot - keskimääräinen kustannus
 description: Nimikkeen keskimääräiskustannukset on laskettu kausittain painotetulla keskiarvolla perustuen keskimääräiskustannusten kauteen, joka on määritetty Business Central -sovelluksessa.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 87bbd5d77bc677220b82789e343af1bda2300cbd
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: d670fb96b0f29c8a34f7076429d6a56f834d2e5d
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215476"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115090"
 ---
 # <a name="design-details-average-cost"></a>Rakennetiedot: keskimääräinen kustannus
 Nimikkeen keskimääräiskustannukset on laskettu kausittain painotetulla keskiarvolla perustuen keskimääräiskustannusten kauteen, joka on määritetty [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa.  
@@ -28,7 +29,7 @@ Nimikkeen keskimääräiskustannukset on laskettu kausittain painotetulla keskia
 |Kenttä|Kuvaus|  
 |---------------------------------|---------------------------------------|  
 |**Keskimääräisen kustannuksen jakso**|Määrittää miltä aikakaudelta keskimääräiskustannukset lasketaan. Käytettävissä ovat seuraavat vaihtoehdot:<br /><br /> -   **Päivä**<br />-   **Viikko**<br />-   **Kuukausi**<br />-   **Kirjanpitojakso**<br /><br /> Kaikki keskimääräisellä kustannuksen jaksolla kirjatut varaston arvon laskut saavat tälle jaksolle lasketun keskimääräisen kustannuksen.|  
-|**Keskim. kust. laskentatyyppi**|Määrittää, kuinka keskimääräinen kustannus lasketaan. Käytettävissä ovat seuraavat vaihtoehdot:<br /><br /> -   **Vaihtoehto**<br />-   **Nimike, variantti ja sijainti**<br />     Kun tämä vaihtoehto on valittuna, keskimääräinen kustannus lasketaan jokaiselle nimikkeelle, sijainnille ja nimikkeen variantille. Tämä tarkoittaa sitä, että nimikkeen keskimääräinen kustannus riippuu siitä, missä se on varastoitu ja minkä nimikkeen variantin, kuten esimerkiksi värin, olet valinnut.|  
+|**Keskim. kust. laskentatyyppi**|Määrittää, kuinka keskimääräinen kustannus lasketaan. Käytettävissä ovat seuraavat vaihtoehdot:<br /><br /> -   **Vaihtoehto**<br />-   **Nimike, variantti ja sijainti**<br /> Kun tämä vaihtoehto on valittuna, keskimääräinen kustannus lasketaan jokaiselle nimikkeelle, sijainnille ja nimikkeen variantille. Tämä tarkoittaa sitä, että nimikkeen keskimääräinen kustannus riippuu siitä, missä se on varastoitu ja minkä nimikkeen variantin, kuten esimerkiksi värin, olet valinnut.|  
 
 > [!NOTE]  
 >  Voit käyttää tilikaudella vain yhtä keskimääräistä kustannuksen jaksoa ja yhtä keskimääräisten kustannusten laskentatyyppiä.  
@@ -55,37 +56,37 @@ Nimikkeen keskimääräiskustannukset on laskettu kausittain painotetulla keskia
 
  Seuraavassa taulukossa esitetään nimikkeen pääkirjan kirjaukset esimerkkinä olevalle keskimääräiskustannusnimikkeelle, NIMIKE1, ennen kuin **Muuta kustannuksia - Nimiketapahtumat** -eräajo on ajettu.  
 
-|**Kirjauspvm**|**Nimiketapahtuman tyyppi**|**Määrä**|**Kustannussumma (todellinen)**|**Tapahtumanro**|  
-|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Osto|1|20.00|1|  
-|01-01-20|Osto|1|40.00|2|  
-|01-01-20|Myynti|-1|-20.00|3|  
-|02-01-20|Myynti|-1|-40.00|4|  
-|02-02-20|Osto|1|100,00|5|  
-|02-03-20|Myynti|-1|-100.00|6|  
+| **Kirjauspvm** | **Nimiketapahtuman tyyppi** | **Määrä** | **Kustannussumma (todellinen)** | **Tapahtumanro** |
+|--|--|--|--|--|
+| 01-01-20 | Osto | 1 | 20.00 | 1 |
+| 01-01-20 | Osto | 1 | 40.00 | 2 |
+| 01-01-20 | Myynti | -1 | -20.00 | 3 |
+| 02-01-20 | Myynti | -1 | -40.00 | 4 |
+| 02-02-20 | Osto | 1 | 100,00 | 5 |
+| 02-03-20 | Myynti | -1 | -100.00 | 6 |
 
 > [!NOTE]  
 >  Koska kustannuksia ei ole vielä muutettu, varaston **Kustannussumma (todellinen)** -kentän arvot vähenevät vastaten varaston kasvua, johon ne on kohdistettu.  
 
  Seuraavassa taulukossa esitetään kirjaukset **Keskim. kust. muutoksen tulopaikka** -taulukossa, jotka koskevat arvokirjauksia, jotka johtuvat nimikkeen pääkirjan kirjauksista edellisessä taulukossa.  
 
-|**Nimikkeen nro**|**Varianttikoodi**|**Sijaintikoodi**|**Arvostuspvm**|**Kustannusta on muutettu**|  
-|-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|NIMIKE1||SININEN|01-01-20|Ei|  
-|NIMIKE1||SININEN|02-01-20|Ei|  
-|NIMIKE1||SININEN|02-02-20|Ei|  
-|NIMIKE1||SININEN|02-03-20|Ei|  
+| **Nimikkeen nro** | **Varianttikoodi** | **Sijaintikoodi** | **Arvostuspvm** | **Kustannusta on muutettu** |
+|--|--|--|--|--|
+| NIMIKE1 |  | SININEN | 01-01-20 | Ei |
+| NIMIKE1 |  | SININEN | 02-01-20 | Ei |
+| NIMIKE1 |  | SININEN | 02-02-20 | Ei |
+| NIMIKE1 |  | SININEN | 02-03-20 | Ei |
 
  Seuraavassa taulukossa esitetään nimikkeen pääkirjan kirjaukset, kun **Muuta kustannuksia - Nimiketapahtumat** -eräajo on ajettu. Päiväkohtainen, keskimääräinen kustannus lasketaan ja kohdistetaan varastoarvon laskuihin.  
 
-|**Kirjauspvm**|**Nimiketapahtuman tyyppi**|**Määrä**|**Kustannussumma (todellinen)**|**Tapahtumanro**|  
-|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Osto|1|20.00|1|  
-|01-01-20|Osto|1|40.00|2|  
-|01-01-20|Myynti|-1|-30.00|3|  
-|02-01-20|Myynti|-1|-30.00|4|  
-|02-02-20|Osto|1|100,00|5|  
-|02-03-20|Myynti|-1|-100.00|6|  
+| **Kirjauspvm** | **Nimiketapahtuman tyyppi** | **Määrä** | **Kustannussumma (todellinen)** | **Tapahtumanro** |
+|--|--|--|--|--|--|
+| 01-01-20 | Osto | 1 | 20.00 | 1 |
+| 01-01-20 | Osto | 1 | 40.00 | 2 |
+| 01-01-20 | Myynti | -1 | -30.00 | 3 |
+| 02-01-20 | Myynti | -1 | -30.00 | 4 |
+| 02-02-20 | Osto | 1 | 100,00 | 5 |
+| 02-03-20 | Myynti | -1 | -100.00 | 6 |
 
 ### <a name="example-average-cost-period--month"></a>Esimerkki: keskimääräinen kustannusjakso = kuukausi  
  Seuraavassa esimerkissä kuvataan kuukauden keskimääräiskustannusjaksoon perustuvan keskimääräiskustannusten laskennan vaikutus. **Varastonhallinnan asetukset** -sivun **Keskim. kust. laskentatyyppi** -kentän arvoksi on asetettu **Nimike**.  
@@ -94,24 +95,24 @@ Nimikkeen keskimääräiskustannukset on laskettu kausittain painotetulla keskia
 
  Seuraavassa taulukossa esitetään nimikkeen pääkirjan kirjaukset esimerkkinä olevalle keskimääräiskustannusnimikkeelle, NIMIKE1, ennen kuin **Muuta kustannuksia - Nimiketapahtumat** -eräajo on ajettu.  
 
-|**Kirjauspvm**|**Nimiketapahtuman tyyppi**|**Määrä**|**Kustannussumma (todellinen)**|**Tapahtumanro**|  
-|---------------------------------------|---------------------------------------------------|------------------------------------|----------------------------------------------------|------------------------------------|  
-|01-01-20|Osto|1|20.00|1|  
-|01-01-20|Osto|1|40.00|2|  
-|01-01-20|Myynti|-1|-20.00|3|  
-|02-01-20|Myynti|-1|-40.00|4|  
-|02-02-20|Osto|1|100,00|5|  
-|02-03-20|Myynti|-1|-100.00|6|  
+| **Kirjauspvm** | **Nimiketapahtuman tyyppi** | **Määrä** | **Kustannussumma (todellinen)** | **Tapahtumanro** |
+|--|--|--|--|--|
+| 01-01-20 | Osto | 1 | 20.00 | 1 |
+| 01-01-20 | Osto | 1 | 40.00 | 2 |
+| 01-01-20 | Myynti | -1 | -20.00 | 3 |
+| 02-01-20 | Myynti | -1 | -40.00 | 4 |
+| 02-02-20 | Osto | 1 | 100,00 | 5 |
+| 02-03-20 | Myynti | -1 | -100.00 | 6 |
 
 > [!NOTE]  
 >  Koska kustannuksia ei ole vielä muutettu, varaston **Kustannussumma (todellinen)** -kentän arvot vähenevät vastaten varaston kasvua, johon ne on kohdistettu.  
 
  Seuraavassa taulukossa esitetään kirjaukset **Keskim. kust. muutoksen tulopaikka** -taulukossa, jotka koskevat arvokirjauksia, jotka johtuvat nimikkeen pääkirjan kirjauksista edellisessä taulukossa.  
 
-|**Nimikkeen nro**|**Varianttikoodi**|**Sijaintikoodi**|**Arvostuspvm**|**Kustannusta on muutettu**|  
-|-------------------------------------|-----------------------------------------|------------------------------------------|-------------------------------------------|---------------------------------------------|  
-|NIMIKE1||SININEN|01-31-20|Ei|  
-|NIMIKE1||SININEN|02-28-20|Ei|  
+| **Nimikkeen nro** | **Varianttikoodi** | **Sijaintikoodi** | **Arvostuspvm** | **Kustannusta on muutettu** |
+|--|--|--|--|--|
+| NIMIKE1 |  | SININEN | 01-31-20 | Ei |
+| NIMIKE1 |  | SININEN | 02-28-20 | Ei |
 
 > [!NOTE]  
 >  Arvostuspäivämääräksi määritetään keskimääräisten kustannusten jakson viimeinen päivä, joka on tässä tapauksessa kuukauden viimeinen päivä.  

@@ -1,7 +1,6 @@
 ---
-title: Luettelonimikkeiden luominen ja hallinta | Microsoft Docs
+title: Luettelonimikkeiden luominen ja hallinta
 description: Tässä artikkelissa kerrotaan, miten sellaisilla nimikkeillä käydään kauppaa, jotka ovat kuuluvat toimittajien nimikeluetteloon, mutta eivät omaan nimikeluetteloosi.
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -9,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
+ms.search.forms: 5725, 5726, 5732
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 328417821e8e5cc14bc8267e64687ce2a14f15af
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 8e90de738a03887518ba8e4c33e0185da3134a6b
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588549"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060004"
 ---
 # <a name="work-with-catalog-items"></a>Luettelonimikkeiden käsitteleminen
 Voit tarjota asiakkaille tiettyjä nimikkeitä, joita et halua ylläpitää järjestelmässäsi ennen kuin niitä myydään. Kun haluat alkaa ylläpitää tällaisia nimikkeitä järjestelmässäsi, voit muuntaa ne normaaleiden nimikkeiden korteiksi kahdella eri tavalla.

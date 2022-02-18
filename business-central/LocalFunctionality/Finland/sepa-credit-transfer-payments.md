@@ -1,8 +1,6 @@
 ---
-title: SEPA-hyvityksen siirron maksut
+title: SEPA-hyvityksen siirron maksut (FI)
 description: Suomessa käytettävien lisätoimintojen avulla voit luoda SEPA (Single Euro Payments Area) -hyvitysten siirtotiedostot ja lähettää toimittajamaksut pankeille.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,19 +10,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 38e4a425cfc5f4701fe74c9aac769538485e8696
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f1b671c84af9446c5b85679ebcd58a7d878cdf1a
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5784053"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115222"
 ---
-# <a name="sepa-credit-transfer-payments"></a>SEPA-hyvityksen siirron maksut
+# <a name="sepa-credit-transfer-payments-in-the-finnish-version"></a>SEPA-hyvityksen siirron maksut suomalaisessa versiossa
+
 [!INCLUDE[prod_short](../../includes/prod_short.md)] sisältää Suomessa käytettäviä lisätoimintoja, joiden avulla voi luoda SEPA (Single Euro Payments Area) -hyvitysten siirtotiedostot ja lähettää toimittajamaksut pankeille. SEPA-hyvityksen siirto on maksu, joka siirretään Euroopan maksuneuvoston määrittämän tiedostomuodon mukaan.  
 
-## <a name="see-also"></a>Katso myös  
- [Suomen paikalliset toiminnot](finland-local-functionality.md)   
- [Pankin viitetiedostojen määrittäminen](how-to-set-up-bank-reference-files.md)
+## <a name="see-also"></a>Katso myös
+
+[Suomen paikalliset toiminnot](finland-local-functionality.md)  
+[Pankin viitetiedostojen määrittäminen](how-to-set-up-bank-reference-files.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

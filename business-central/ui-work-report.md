@@ -8,14 +8,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.date: 06/21/2021
+ms.date: 02/09/2022
 ms.author: jswymer
-ms.openlocfilehash: d62c16ef8c511464fde86a1766499e37f8a07b1f
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 142a9f826e200f06172b741e72e54d49ff9caf47
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972198"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102601"
 ---
 # <a name="working-with-reports-batch-jobs-and-xmlports"></a>Raporttien, eräajojen ja XMLportien käsitteleminen
 
@@ -32,7 +32,7 @@ Löydät raportteja valittujen sivujen **Raportit**-välilehdessä tai käytä !
 
 Raportissa, erätyössä tai XMLportissa avautuu ensimmäisenä pyyntösivu, johon voi tyypillisesti määrittää erilaisia vaihtoehtoja ja suodattimia. Raportin sisältö määrittyy näiden tietojen mukaan. Seuraavissa osissa kerrotaan, kuinka pyyntösivua käytetään raportin luomiseen, esikatseluun ja tulostamiseen.
 
-## <a name="using-default-values---predefined-settings"></a><a name="SavedSettings"></a>Oletusarvojen käyttäminen - ennalta määritetyt asetukset 
+## <a name="using-default-values---predefined-settings"></a><a name="SavedSettings"></a>Oletusarvojen käyttäminen - ennalta määritetyt asetukset
 
 Useimmat pyyntösivut sisältävät **Käytä oletusarvoja** -kentän. Tämän kentän avulla voit valita raportille ennalta määritettyjä asetuksia, jotka automaattisesti antavat raportin asetukset ja suodattimet. Valitse tapahtuma avattavasta luettelosta ja näet vaihtoehdot ja suodattimet muutospyyntösivulla vastaavasti.
 
@@ -84,67 +84,18 @@ Raportin esiversion valikkorivin avulla voi:
 
 Voit tallentaa raportin PDF-tiedostona, Microsoft Word -asiakirjana tai Microsoft Excel -työkirjana valitsemalla **Lähetä kohteeseen** -painikkeen ja tekemällä valinnan.
 
-### <a name="send-to-excel"></a>Lähetä Exceliin
+### <a name="about-sending-to-excel"></a>Tietoja Exceliin lähettämisestä
 
-<!-- The following table describes the options for saving the report results as a worksheet in an Excel workbook.
+Voit käsitellä [!INCLUDE [prod_short](includes/prod_short.md)] -tietoja Excelissä tarkempia analyyseja varten. Lisätietoja [Raporttitietojen analysointi Excelissä](report-analyze-excel.md).  
+<!--
+### About sending to Word
 
-|Option  |Description  |
-|---------|---------|
-|Microsoft Excel Document (data and layout)|Export the report results with the RDLC layout applied. Use this option if you want to export the data one time, and only want to make minor changes to its appearance, such as font and color scheme. <br><br>**Note**: Some reports might export numbers as text, so it's a good idea to verify the numbers. |
-|Microsoft Excel Document (data only)|Export the report results and the criteria that was used to generate them, such as the parameters you specified on the request page, metadata, and the fields that control the layout of the printed report. Use this option when you want to do ad hoc analysis of the data or diagnose data issues in reports. For example, you can filter the data and use Power Pivot to display it.<br><br>This option exports all columns, including columns that hold formatting instructions for other values and filters. In columns that hold binary data like images, instead of actually values, fields will include the text **Binary data ({0} bytes)**, where **{0}** indicates the number of bytes.<br><br>**NOTE** With Business Central on-premises, the Business Central Server includes a configurations setting, called **Max Data Rows Allowed to Send to Excel**. This setting limits the number of rows that can be exported to Excel. If you don't see the expected number of rows, it might be because of this setting. For more information, see [Configuring Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) or contact your administrator.|-->
-
-Raportin tulosten tallentamiseen laskentataulukkona Excel-työkirjaan on kaksi vaihtoehtoa: **Microsoft Excel -asiakirja (tiedot ja asettelu)** ja **Microsoft Excel -asiakirja (vain tiedot)**
-
-#### <a name="microsoft-excel-document-data-and-layout"></a>[Microsoft Excel -asiakirja (tiedot ja asettelu)](#tab/data-and-layout)
-
-Tämä vaihtoehto on käytettävissä vain raporteissa, jotka käyttävät RDLC-asettelua. Se vie raportin tulokset ja soveltaa RDLC-asettelua. Käytä tätä asetusta, jos haluat viedä tiedot kerran ja haluat tehdä vain pieniä muutoksia sen ulkoasuun, kuten fonttiin ja värimalliin.
-
-#### <a name="microsoft-excel-document-data-only"></a><a name="exportdataonly"></a>[Microsoft Excel -asiakirja (vain tiedot)](#tab/data-only)
-
-**Microsoft Excel -asiakirja (vain tiedot)** -vaihtoehto vie raportin tulokset ja ehdot, jonka perusteella ne luotiin&mdash;mutta ei sisällä raportin asettelua. Excel-tiedosto sisältää koko tietojoukon raakatietoina riveille ja sarakkeisiin järjestettyinä. Kaikki raportin tietojoukon tietosarakkeet sisällytetään riippumatta siitä, käytetäänkö niitä raportin asettelussa.  Käytä tätä vaihtoehtoa, kun haluat:
-
-- Analysoida tiedot tapauskohtaisesti. Voit esimerkiksi suodattaa tiedot ja käyttää Power Pivotia niiden näyttämiseen.
-
-  Aina kun viet tuloksia, uusi työkirja luodaan. Käyttämällä **Microsoft Excel -asiakirja (vain tiedot)** -asetusta voit suorittaa saman raportin ja käyttää muotoilumuutoksia uudelleen. Power Pivotia varten voit esimerkiksi suorittaa raportin uudelleen toiselle ajanjaksolle, kopioida tulokset työkirjaan ja päivittää sitten työkirjan. Myös [AppSource](https://appsource.microsoft.com/) sisältää raportointisovelluksia.
-- Tarkista raportin tietojoukko, kun luot tai muokkaat mukautettuja raportin asetteluja.
-
-  Lisätietoja mukautettujen raporttiasettelujen luomisesta on kohdassa [Mukautettujen raporttiasettelujen luominen tai muokkaaminen](ui-how-create-custom-report-layout.md)
-- Diagnosoi raporttien tieto-ongelmat.
-
-##### <a name="for-administrators"></a>Järjestelmänvalvojille
-
-- **Microsoft Excel Asiakirja (vain tiedot)** otettiin käyttöön valinnaisena ominaisuutena vuoden 2021 julkaisuaallossa 1, päivitys 18.3. Jos haluat antaa käyttäjille pääsyn tähän ominaisuuteen, ota käyttöön **Tallenna raportin tietojoukko Microsoft Excel -asiakirjaan** -ominaisuuden päivitys **Ominaisuuksien hallinnassa**. Lisätietoja on kohdassa [Tulevien ominaisuuksien ottaminen käyttöön etuajassa](/dynamics365/business-central/dev-itpro/administration/feature-management). Vuoden 2021 julkaisuaallossa 2 tästä ominaisuudesta tulee pysyvä, joten sinun ei tarvitse ottaa sitä käyttöön.
-
-- Käyttäjätilit tarvitsevat **<!--Export Report Dataset To Excel-->Salli raportin tietojoukon vientitoiminto Exceliin** -oikeuden, jonka voit ottaa käyttöön käyttämällä käyttöoikeuksien joukkoa **Vianmääritystyökalut** tai käyttöoikeuksien joukkoa **Vie raportti Exceliin**.  
-
-- Et voi viedä raporttia, jossa on enemmän kuin 1 048 576 riviä tai 16 384 saraketta.
-
-    > [!NOTE]
-    > Kun Business Central on paikallinen, vietyjen rivien enimmäismäärä saattaa olla vielä pienempi. Business Central Server sisältää määritysasetuksen nimeltä **Exceliin lähetettävien tietorivien sallittu enimmäismäärä**, jonka tarkoitus on laskea enimmäisarvon rajaa. Katso lisätietoja kohdassa [Business Central Serverin määrittäminen](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) tai ota yhteyttä järjestelmänvalvojaan.
-
-##### <a name="for-developers-and-advanced-users"></a>Kehittäjille ja kokeneille käyttäjille
-
-**Microsoft Excel -asiakirja (vain tiedot)** -asetus vie kaikki sarakkeet, mukaan lukien sarakkeet, joissa on suodattimia tai muotoiluohjeita muita arvoja varten. Tässä muutamia kiinnostavia kohtia:
-
-- Kentän binaaritietoja, kuten kuvaa, ei viedä.
-
-  Binaaritietoja sisältävissä sarakkeissa kenttiin tulee teksti **Binaaritiedot ({0} tavua)**, jossa **{0}** ilmaisee tavujen määrän.
-- Business Central 2021:n julkaisuaallosta 2 alkaen Excel-tiedosto sisältää myös **Raportin metatiedot** -työkirjan.
-
-  Tämä työkirja näyttää suodattimet, joita on sovellettu raporttiin ja raportin yleisiin ominaisuuksiin, kuten nimeen, tunnisteeseen ja laajennustietoihin. Suodattimet näkyvät **Suodatin (DataItem::Table::FilterGroupNo::FieldName)** -sarakkeessa. Tämän sarakkeen suodattimet sisältävät raportin pyyntösivulle määritettyjä suodattimia. Se sisältää myös AL-koodissa, esimerkiksi [DataItemLink -ominaisuutta](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemlink-reports-property) ja [DataItemTableView -ominaisuutta](/dynamics365/business-central/dev-itpro/developer/properties/devenv-dataitemtableview-property) käyttäen määritettyjä suodattimia.
-
-Lisätietoja raportin rakenteesta on kohdassa [Raportin yleiskatsaus](/dynamics365/business-central/dev-itpro/developer/devenv-reports).
-
----
+Use the **Microsoft Word Document** option to generate a report as a Word document.  
 
 > [!NOTE]
-> Jotkin raportit vievät lukuja tekstinä, mikä estää laskutoimitusten suorittamisen tai Power Pivotin käyttämisen Excel-työkirjan soluissa. Viennin jälkeen työkirjan numerot kannattaa tarkistaa. Jos haluat analysoida ja kartoittaa lukuja, muuta asiaankuuluvat solut muodosta **Teksti** muotoon **Luku**. Lisätietoja solujen lukujen muotoilusta on videossa [Lukujen muotoileminen soluissa Microsoft Excelissä](https://www.youtube.com/watch?v=2suE4YmZu_Q).
+> You can specify the layout to use for each report on the **Report Selection** page in the **Selected Layout** field. The default setting for reports is **RDLC (built-in)**, which produces reports in the same, or similar, layout as the **Microsoft Word Document** layout. However, the key difference is whether you want to generate a single or multiple report documents. For single documents, you can use the RDLC (built-in) option. For multiple documents, set the **Microsoft Word Document** as the default layout for the report. For more information, see [Managing Report and Document Layouts](ui-manage-report-layouts.md).
 
-### <a name="microsoft-word-document"></a>Microsoft Word -asiakirja
-Luo raportti Word-asiakirjana käyttämällä **Microsoft Word -asiakirja** -vaihtoehtoa.  
-
-> [!NOTE]
-> Voit määrittää kullekin raportille käytettävän asettelun **Raporttivalinta**-sivun **Valittu asettelu** -kentässä. Raporttien oletusarvo on **RDL (sisäänrakennettu)**, joka tuottaa raportteja samalla tai vastaavalla asettelulla kuin **Microsoft Word -asiakirjassa**. Tärkein ero on kuitenkin siinä, haluatko luoda yhden vai useamman raporttiasiakirjan. Yksittäisiä asiakirjoja varten voit käyttää RDLC (sisäänrakennettu) -asetusta. Useita asiakirjoja varten voit määrittää **Microsoft Word -asiakirjan** raportin oletusarvoiseksi asetteluksi. Lisätietoja on kohdassa [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md).
+-->
 
 ## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Suoritettavan raportin aikatauluttaminen
 

@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: d1feca5e6eddd6115d10d1395eecccde3b09039f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 2631307db3975eeb406662caac2edf2f9d83238c
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323716"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101450"
 ---
 # <a name="application-compliance"></a>Sovelluksen yhteensopivuus
 
@@ -77,7 +77,6 @@ Voit antaa työntekijöillesi integroidut tiedot, kohdistetut prosessit ja helpp
 - Säästä aikaa yleisiä liiketoimintaparametreja ja -ehtoja käyttävien standardiraporttien luonnissa. Tällaiset raportit koskevat tyypillisesti monenlaisia tarpeita tilausten yhteenvedoista erääntyvään myyntireskontraan.
 - Suorita monimutkaisia arviointeja perustason ja edistyneillä liiketoiminta-analyysitoiminnoilla.
 - Luo mukautettuja raportteja ja näytä ne tuotteessa käyttämällä Microsoft PowerBI -integrointia.
-- Nopeuta taloustietojen lähettämistä asiakkaille, sidosryhmille ja viranomaisille sekä niiden yleistä julkaisemista XML-pohjaisilla XBRL-asiakirjoilla, jotka tukevat taloushallinnon tietojen vaihtamista ohjelmistojen ja tekniikoiden välillä. Tämä koskee myös internetiä.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Selkeiden kirjausketjujen varmistaminen
 

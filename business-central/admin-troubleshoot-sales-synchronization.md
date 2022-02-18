@@ -10,15 +10,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: b5e7b9c6cc6d7ac39b0067b723a5325ee9972c2e
-ms.sourcegitcommit: 75c05a77e74d8a6a8a52b25999d98b66716e0f68
+ms.openlocfilehash: a643ec77f960114941bcef44ed3b37cb24d4410f
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "7749009"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049638"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Synkronointivirheiden vianmääritys
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Sovellusten [!INCLUDE[prod_short](includes/prod_short.md)] ja [!INCLUDE[prod_short](includes/cds_long_md.md)] integrointi sisältää useita vaiheita, ja joskus tapahtuu virheitä. Tässä ohjeaiheessa kerrotaan yleisimpiä virheitä ja annetaan vinkkejä niiden korjaamiseen.
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 5dde158d3710219fec518633d90d145acb3e420b
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 3727faf800bf6ecf326009588eb3e1588a1bcfc3
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587997"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049430"
 ---
 # <a name="power-bi--faq"></a>Power BI – usein kysytyt kysymykset
 
@@ -140,18 +140,55 @@ Ei. Ei vielä.
 
 Verkkopalveluissa julkaistut kyselyt ovat yleensä nopeampia kuin vastaavat julkaistut sivut. Syy on se, että kyselyt on optimoitu tietojen lukemista varten. Ne eivät sisällä kalliita käynnistimiä, kuten OnAfterGetRecord-käynnistintä.
 
-Uusi yhdistin on saatavilla vuoden 2021 kesäkuussa. Tämän jälkeen on suositeltavaa käyttää ohjelmointirajapinnan sivuja verkkopalveluina julkaistujen kyselyjen sijaan.
+Verkkopalvelut perustuvat sivuihin tai kyselyihin, jotka on suunniteltu käytettäväksi verkosta käsin eikä yleensä optimoitu käytettäväksi ulkoisten palvelujen kautta. Vaikka Business Central -yhdistin tukee edelleen tietojen hakemista verkkopalveluista, suosittelemme käyttämään ohjelmistorajapintasivuja verkkopalvelujen sijaan aina, kun se on mahdollista.
 
 <!-- 13 --> 
 ### <a name="is-there-a-way-for-an-end-user-to-create-a-web-service-with-a-column-thats-in-a-business-central-table-but-not-a-page-or-will-the-developer-have-to-create-a-custom-query"></a>Voiko käyttäjä luoda verkkopalvelun sellaisen sarakkeen avulla, joka on Business Centralin taulukossa, mutta ei sivulla? Vai onko kehittäjän luotava mukautettu kysely? 
 
-Kyllä. Kun uusi yhdistin on saatavilla vuoden 2021 kesäkuussa, kehittäjä voi luoda uuden API-sivun tämän vaatimuksen täyttämiseksi. 
+Verkkopalveluun ei tällä hetkellä pysty lisäämään uutta kenttää. Ohjelmointirajapintasivut tarjoavat täyden joustavuuden sivun rakenteen osalta, joten kehittäjä voi luoda uuden ohjelmistorajapintasivun tämän vaatimuksen täyttämiseksi. 
 
 <!-- 28 --> 
 ### <a name="can-i-connect-power-bi-to-a-read-only-database-server-of-business-central-online"></a>Voinko yhdistää Power BI:n Business Central Onlinen vain luku -tilassa olevaan tietokantapalvelimeen? 
 
-Ei. Mutta tämä toiminto on pitkän aikavälin toteutussuunnitelmassamme. 
+Tämä toiminto on saatavilla pian. Helmikuusta 2022 lähtien uudet Business Central Online -tietojen perusteella luotavat raportit yrittävät automaattisesti muodostaa yhteyden vain luku -tyyppiseen tietokantareplikaan. Tämän ansiosta raportit päivittyvät nopeammin ja ne vaikuttavat suorituskykyyn vähemmän, jos käytät Business Centralia, kun raporttia päivitetään. Suosittelemme edelleen, että raportit ajastetaan päivittymään tavanomaisten työtuntien ulkopuolella aina, kun se on mahdollista.
 
+Jos sinulla on vanhoja Business Central -tietoihin perustuvia raportteja, ne eivät muodosta yhteyttä vain luku -tyyppisiin tietokantareplikoihin.
+
+### <a name="ive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it"></a><a name="databasemods"></a>Olen kokeillut helmikuun 2022 päivityksen uuden yhdistimen esikatselua. Kun muodostan yhteyden mukautettuun Business Central -ohjelmointirajapintasivuun, näkyviin tulee virhe Tietuetta ei voi lisätä. Nykyinen yhteystarkoitus on vain luku -muodossa.". Miten voin korjata asian?
+
+Uuden yhdistimen myötä uudet Business Central -tietoja käyttävät raportit muodostavat oletusarvoisesti yhteyden Business Central -tietokannan replikaan. Tämä muutos parantaa suorituskykyä. Joissakin harvoissa tapauksissa se voi kuitenkin aiheuttaa virheen. Tämä virhe johtuu yleensä siitä, että mukautettu ohjelmointirajapinta tekee muutoksia Business Central -tietueisiin, kun Power BI yrittää noutaa kyseisiä tietoja. Erityisesti virhettä esiintyy osana AL-käynnistimiä: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord ja OnAfterGetCurrRecord.
+
+Katso ohjeet tämän ongelman korjaamiseen pakottamalla Business Central -yhdistimen sallimaan tämän toiminnan: [Power BI -raporttien koostaminen näyttämään Business Central -tietoja – Ongelmien korjaaminen](across-how-use-financials-data-source-powerbi.md#fixing-problems).
+
+<!--
+In general, we recommend avoiding any database modifications in API pages when they're opening or loading records, because they cause performance issues and might cause your report refresh to fail. In some cases, you might still need to make a database modification when your custom API page opens or loads records. You can force the Business Central connector to allow this behavior. Do the following steps when getting data from Business Central for the report in Power BI Desktop:
+
+1. Start Power BI Desktop.
+2. In the ribbon, select **Get Data** > **Online Services**.
+3. In the **Online Services** pane, select **Dynamics 365 Business Central**, then **Connect**.
+4. In the **Navigator** window, select the API endpoint that you want to load data from.
+5. In the preview pane on the right, you'll see the following error:
+
+   *Dynamics365BusinessCentral: Request failed: The remote server returned an error: (400) Bad Request. (Cannot insert a record. Current connection intent is Read-Only. CorrelationId: [...])".*
+
+6.  Select **Transform Data** instead of **Load** as you might normally do.
+7. In **Power Query Editor**, select **Advanced Editor** from the ribbon.
+8.  Replace the following line:
+
+   ```
+   Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, null),
+   ```
+
+   with the line:
+
+   ```
+   Source = Dynamics365BusinessCentral.ApiContentsWithOptions(null, null, null, [UseReadOnlyReplica = false]),
+   ```
+
+9.  Select **Done**.
+10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
+
+-->
 ### <a name="how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop"></a><a name="perms"></a>Miten muutan tai tyhjennän käyttäjän, jota tällä hetkellä käytän yhteyden muodostamiseen Business Centraliin Power BI Desktopista?
 
 Tee Power BI Desktopissa seuraavat vaiheet:
@@ -207,9 +244,9 @@ Kyllä. Tämä lisäskenaario auttaa Business Centralia pysymään suorituskykyi
 
 Tutkimme tätä ominaisuutta. Power BI sisältää monipuolisia ohjelmointirajapintoja raportin käyttöönottojen hallintaa varten. Lisätietoja on kohdassa [Käyttöönottoputkien esittely](/power-bi/create-reports/deployment-pipelines-overview).
 
-### <a name="ive-tried-the-preview-of-the-new-connector-which-will-be-live-in-june-2021-i-see-some-values-like-_x0020_-when-connecting-to-api-v20-what-are-these-values"></a>Olen yrittänyt käyttää uuden, vuoden 2021 kesäkuussa julkaistavan yhdistimen esiversiota. Näkyvissä on esimerkiksi arvo _x0020_, kun yhteyttä muodostetaan ohjelmointirajapintaan v2.0. Mitä nämä arvot ovat?
+### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-_x0020_-what-are-these-values"></a>Kun noudan tietoja Business Centralista käytettäväksi Power BI -raporteissa, näkyviin tulee tämänkaltaisia arvoja: _x0020_. Mitä nämä arvot ovat?
 
-Seuraava Power BI:n yhdistimen version avulla on mahdollista muodostaa yhteys Business Centralin ohjelmointirajapinnan sivuille, myös ohjelmointirajapinnan v2.0. Nämä sivut sisältävät muutamia kenttiä, jotka perustuvat [AL Enum -objekteihin](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Kentillä, jotka perustuvat AL Enum-objekteihin, on oltava yhdenmukaiset ja aina samat nimet. Tällöin raporttien suodattimet toimivat aina &mdash; kielestä ja käyttöjärjestelmästä huolimatta. Tästä syystä AL Enum -objekteihin perustuvia kenttiä ei käännetä. Ne myös koodataan, jotta vältetään erikoismerkit, myös välilyönti. Erityisesti jos AL Enum -objektissa on tyhjä vaihtoehto, se arvoksi koodataan _x0020_. Voit pyytää aina Power BI:n tietojen muunnosta, jos haluat näyttää näissä kentissä eri arvoja, esimerkiksi Tyhjä-arvon.
+Jotkut ohjelmointirajapintasivut, kuten useimmat API v2.0 -sivut, sisältävät [AL Enum -objekteihin](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums) perustuvia kenttiä. Kentillä, jotka perustuvat AL enum -objekteihin, on oltava yhdenmukaiset ja aina samat nimet. Tällöin raporttien suodattimet toimivat aina &mdash; kielestä ja käyttöjärjestelmästä huolimatta. Tästä syystä AL enum -objekteihin perustuvia kenttiä ei käännetä. Ne myös koodataan, jotta vältetään erikoismerkit, myös välilyönti. Erityisesti jos AL Enum -objektissa on tyhjä vaihtoehto, se arvoksi koodataan _x0020_. Voit pyytää aina Power BI:n tietojen muunnosta, jos haluat näyttää näissä kentissä eri arvoja, esimerkiksi Tyhjä-arvon.
 
 
 ---

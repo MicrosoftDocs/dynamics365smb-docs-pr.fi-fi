@@ -8,20 +8,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: phone, tablet
-ms.date: 10/01/2021
+ms.date: 01/11/2022
 ms.author: jswymer
-ms.openlocfilehash: babf20be3c22a3d4b7dd710e2486c59bc11351fe
-ms.sourcegitcommit: 795f0298e32b4c0174aeeb9a7da64f1e5c8457d6
+ms.openlocfilehash: 6372d08aef8dfaca6044101a17eea40d89d82722
+ms.sourcegitcommit: 9244ec802d68a7d90b13678ec3dfab5abb79c734
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7596645"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8050903"
 ---
 # <a name="get-business-central-desktop-app"></a>Business Central -työpöytäsovelluksen hankkiminen
 
-Jos sinulla on Windows (PC)- tai macOS-tietokone, voit asentaa Business Central -sovelluksen työpöydälle. 
-> [!NOTE]
-> Jos käytät Business Centralin vuoden 2021 1. julkaisuaallon versiota tai sitä vanhempaa versiota, hanki sovellus [Windows-kaupasta](https://go.microsoft.com/fwlink/?LinkId=734848).
+Jos sinulla on Windows (PC)- tai macOS-tietokone, voit asentaa Business Central -sovelluksen työpöydälle. Sovellus toimii Business Central Onlinessa ja paikallisesti.
 
 ## <a name="why-use-the-app"></a>Miksi käyttää sovellusta?
 
@@ -34,7 +32,19 @@ Business Central -sovellus muistuttaa verkkoasiakasta, mutta siinä on muutamia 
 
      Kun avaat sovelluksen tiettyä ympäristöä varten, ympäristön nimi sisältyy ikkunan otsikkoon. Kun työskentelet useissa [!INCLUDE[prod_short](includes/prod_short.md)] -ympäristöissä, jokainen sovellusikkuna näytetään erikseen. Nimi helpottaa sinua näkemään, mikä ikkuna kuhunkin ympäristöön liittyy.
 
-## <a name="install-the-app"></a>Asenna sovellus
+## <a name="install-the-app-for-business-central-online"></a>Sovelluksen asentaminen Business Central Onlinea varten
+
+Business Central Onlinen sovelluksen voi asentaa kahdella tavalla. Voit asentaa sen suoraan selaimesta tai Microsoft Storesta. Sovellus on kummassakin tapauksessa sama. Erona on se, että asentaminen selaimesta mahdollistaa sovelluksen asentamisen jokaiseen ympäristöön, kun ympäristöjä on enemmän kuin yksi.
+
+### <a name="from-microsoft-store"></a>Microsoft Storesta
+
+1. Siirry [Microsoft Storeen](https://go.microsoft.com/fwlink/?linkid=2182870).
+2. Valitse **Hanki** > **Asenna**. 
+3. Kun sovellus on asennettu, valitse **Avaa** ja kirjaudu Business Centraliin.
+
+Kun seuraavan kerran haluat avata sovelluksen, etsi se **Käynnistä**-valikosta.
+
+### <a name="from-the-browser"></a>Selaimesta
 
 1. Avaa [!INCLUDE[prod_short](includes/prod_short.md)] -verkkoasiakas joko Microsoft Edgessä tai Google Chromessa.
 
@@ -54,16 +64,14 @@ Business Central -sovellus muistuttaa verkkoasiakasta, mutta siinä on muutamia 
 
 Kun sovellus on asennettu, se näkyy **Käynnistä**-valikossa. Jos olet valinnut sovellukselle tietyn ympäristön, ympäristön nimi lisätään sovelluksen nimeen **Käynnistä**-valikossa.
 
-### <a name="for-business-central-on-premises"></a>Business Central on-premises -versiolle
+## <a name="install-the-app-for-business-central-on-premises"></a>Sovelluksen asentaminen paikallista Business Centralia varten
 
-Sovelluksen asentaminen käytettäessä Business Centralin on-premises -versiota on periaatteessa sama kuin yllä kuvatulla tavalla. Jos sinulla on vain yksi vuokraaja, avaa vain Business Central selaimessasi ja valitse sitten joko ![kuvake sovelluksen asentamiseen Edgessä.](media/ui-edge-install-app-icon.png) **Sovellus saatavilla. Asenna Business Central** tai ![Kuvake sovelluksen asentamiseen Chromessa.](media/ui-chrome-install-app-icon.png) **Asenna Business Central** yllä kuvatulla tavalla. 
+Käytettäessä Business Centralia paikallisesti työpöytäsovellus asennetaan suoraan selaimesta, kuten [edellä kuvataan](#from-the-browser). Jos sinulla on vain yksi vuokraaja, avaa vain Business Central selaimessasi ja valitse sitten joko ![kuvake sovelluksen asentamiseen Edgessä.](media/ui-edge-install-app-icon.png) **Sovellus saatavilla. Asenna Business Central** tai ![Kuvake sovelluksen asentamiseen Chromessa.](media/ui-chrome-install-app-icon.png) **Asenna Business Central** yllä kuvatulla tavalla.
 
-Eroa on silloin, kun sinulla on useampia vuokraajia. Toisin kuin [!INCLUDE[prod_short](includes/prod_short.md)] onlinessa, jossa voit asentaa sovelluksen erikseen eri ympäristöjä varten, on-premises-versiossa voit asentaa sovelluksen vain yhdelle vuokralaiselle. Joten ennen kuin asennat sovelluksen, kun sinulla on useampia vuokraajia, muista vaihtaa oikea vuokraaja. Kun sovellus on asennettu ja se avataan, se avaa vuokraajan suoraan.
+Eroa on silloin, kun sinulla on useampia vuokraajia. Toisin kuin [!INCLUDE[prod_short](includes/prod_short.md)] onlinessa, jossa voit asentaa sovelluksen eri ympäristöjä varten, voit asentaa sovelluksen vain yhdelle vuokralaiselle. Joten ennen kuin asennat sovelluksen, kun sinulla on useampia vuokraajia, muista vaihtaa oikea vuokraaja. Kun sovellus on asennettu ja se avataan, se avaa vuokraajan suoraan.
 
-<!-- for FAQ or troubleshooting
-> [!NOTE]
-> To install the app, [!INCLUDE[prod_short](includes/prod_short.md)] must be configured for HTTPS. If it isn't, you won't see ![Icon for installing an app in Edge.](media/ui-edge-install-app-icon.png) **App available. Install Business Central** or ![Icon for installing an app in Chrome.](media/ui-chrome-install-app-icon.png) **Install Business Central** in the browser. If you're having problems, contact your administrator or see [Configuring SSL to Secure the Business Central Web Client Connection](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection) about how to configure HTTPS.
--->
+> [!IMPORTANT]
+> Jos käytät Business Centralin vuoden 2021 julkaisuaaltoa 1 (versio 18) tai sitä vanhempaa versiota, et voi asentaa sovellusta tässä artikkelissa kuvatulla tavalla. Asenna sen sijaan sovellus [Microsoft Storesta ](https://go.microsoft.com/fwlink/?LinkId=734848). Lisätietoja ja ohjeita tämän vanhan sovelluksen asentamisesta: [Business Central -sovelluksen valmistelu ja asennus](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on [Microsoft Learnissa](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

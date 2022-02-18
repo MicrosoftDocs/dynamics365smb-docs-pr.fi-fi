@@ -8,12 +8,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: 0e9fd6f09e428b067b240efd150166c32577ca92
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 9d9decead1e6207915fd3a162cadae0354f0f257
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970385"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8100897"
 ---
 # <a name="set-up-prepayments"></a>Ennakkomaksujen määrittäminen
 
@@ -27,7 +27,9 @@ Voit määrittää toimittajan tai asiakkaan ennakkomaksuna laskutettavan rivisu
 > 100 prosentin ennakkomaksua ei kannata käyttää seuraavissa tilanteissa:
 >
 > * Sijaintisi on Pohjois-Amerikassa. Verojen laskutavan vuoksi 100 prosentin ennakkomaksu voi aiheuttaa ongelmia ennakkomaksulaskuissa.
-> * Kaikilla alueilla, jos maksualennus vähennetään manuaalisesti laskusta. 100 prosentin ennakkomaksua ei jätä automaattisesti summaa, josta alennus vähennetään. 
+> * Kaikilla alueilla, jos maksualennus vähennetään manuaalisesti laskusta. 100 prosentin ennakkomaksua ei jätä automaattisesti summaa, josta alennus vähennetään.
+>
+> Lisäksi, kun käytetään 100 prosentin ennakkomaksua, tuotteen [!INCLUDE[prod_short](includes/prod_short.md)] voi olla tarpeen luoda pyöristäviä vastakirjauksia. Kun näin tapahtuu, sinun on valittava KP-tili **Asiakkaan kirjausryhmät** -sivun **Laskun pyöristystili** -kentässä. Tämä on totta, vaikka et olisi kytkenyt **Laskun pyöristys** -valitsinta päälle **Myyntien ja myyntisaamisten asetukset** -sivulla. Jos et määritä tiliä, et voi kirjata ennakkomaksulaskuja. 
 
 Koska ennakkoon maksettu summa kuuluu ostajalle siihen asti, kunnes hän on vastaanottanut tavarat tai palvelut, sinun on määritettävä KP-tilit, joilla ennakkomaksusummia pidetään viimeisen laskun lähetykseen asti. Myynnin ennakkomaksut on tallennettava ostovelkatilille nimikkeiden toimitukseen asti. Oston ennakkomaksut on tallennettava käyttöomaisuustilille nimikkeiden vastaanottoon asti. Lisäksi on määritettävä erillinen kirjanpitotili jokaiselle ALV-tunnukselle.  
 

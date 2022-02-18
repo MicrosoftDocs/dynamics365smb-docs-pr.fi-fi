@@ -483,6 +483,7 @@
 #### [Asiakkaan maksujen täsmäyttäminen kassapäiväkirjan avulla tai asiakastapahtumista](receivables-how-apply-sales-transactions-manually.md)
 #### [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)
 #### [Maksujen kerääminen SEPA-suoraveloitusperintänä.](finance-collect-payments-with-sepa-direct-debit.md)
+#### [Lähetä muistutuksia avoimista saldoista](receivables-send-reminders.md)
 #### [Asiakkaiden estäminen](receivables-how-block-customers.md)
 #### [Maksutoleranssien ja maksualennustoleranssien käsitteleminen](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Myöhästyneen maksun ennusteen laajennus](ui-extensions-late-payment-prediction.md)
@@ -1605,6 +1606,120 @@
 ##### [Vianmääritysraporttien tulostaminen](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Lakisääteisten ilmoitusten lähettäminen](submit-regulatory-alerts.md)
 
+<!--Reporting landing page-->
+# Business Intelligence ja raportointi 
+
+## [Yleiskuvaus](reports-bi-reporting.md)
+
+## Raporttien käyttö päivittäisessä työssä
+### [Yleiskuvaus](reports-use-reports.md)
+### [Raporttien suorittaminen](ui-work-report.md)
+### [Kirjainmerkin lisääminen raporttiin](ui-bookmarks.md)
+### [Raporttitietojen analysointi Excelillä](report-analyze-excel.md)
+<!--### [Using the report inbox] (missing.md)-->
+### [Raporttien tulostus](ui-specify-printer-selection-reports.md#default)
+### [Raporttien aikataulutus](ui-work-report.md#ScheduleReport)
+### [Tallennettujen raporttiasetusten hallinta](reports-saving-reusing-settings.md)
+### [Raportin oletusasettelun muuttaminen](ui-how-change-layout-currently-used-report.md)
+
+## Valmiit raportit
+### [Raportin yleiskuvaus](reports-available-reports.md)
+### Rahoitus
+#### [Talousanalytiikka](bi.md)
+#### [Rahoituslaskelmien analysoiminen Excelissä](finance-analyze-excel.md)
+#### [Keskeiset talousraportit](finance-reports.md)
+#### [Myyntisaatavien raportit](receivables-reports.md)
+#### [Ostovelkojen raportit](payables-reports.md)
+#### [Kassavirta-analyysi](finance-setup-cash-flow-analyses.md)
+#### [Usean yrityksen kirjanpitotietojen konsolidointi](finance-consolidated-company-reporting.md)
+
+### Myynti
+#### [Myyntiraportit](sales-reports.md)
+#### [Puitemyyntitilauksen tila](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
+#### [Paketin seuranta](sales-how-track-packages.md)
+#### [Kirjaamattomien ja kirjattujen puitemyyntitilausrivien näyttäminen](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
+
+### Ostaminen
+#### [Ostoraportit](purchase-reports.md)
+#### [Ostotapahtumamerkintöjen tarkastelu](ui-post-purchases.md#viewing-ledger-entries)
+
+### Varasto ja fyysinen varasto
+#### [Varaston ja fyysisen varastoinnin raportit](inventory-wms-reports.md)
+#### [Nimikkeen saatavuus](inventory-how-availability-overview.md)
+#### [Sarja-, erä- ja pakettinumeroita sisältävien nimikkeiden seuraaminen](inventory-how-work-item-tracking.md)
+#### [Nimikeseurannan nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)
+#### [Varastotapahtumien ja pääkirjanpidon välisen täsmäytyksen tarkistaminen](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
+#### [Laituroitujen nimikkeiden tarkasteleminen toimituksissa tai poimintatyökirjassa](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+
+### Projektin
+#### [Projektiraportit](project-reports.md)
+#### [Projektin käytön ja arvioiden katsominen](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
+#### [Projektin edistymisen ja suorituskyvyn valvonta](projects-how-monitor-progress-performance.md)
+
+### Käyttöomaisuus
+#### [Käyttöomaisuuden raportit](fa-reports.md)
+#### [Kunnossapitokustannusten valvonta](fa-how-maintain.md#to-monitor-maintenance-costs)
+#### [Vakuutuksen kattavuuden tarkkailu](fa-how-insure.md#to-monitor-insurance-coverage)
+#### [Muuttuneiden poistokirja-arvojen tarkastelu](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+#### [Katso luovutustapahtumia](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+#### [Suunniteltujen luovutusarvojen katsominen](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+
+### Kokoonpanon hallinta
+#### [Kokoonpanohallinnan raportit](assembly-reports.md)
+#### [Tuoterakenteen (BOM) tarkastelu](inventory-how-work-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
+
+### Tuotanto
+#### [Tuotantoraportit](production-reports.md)
+#### [Tuotantosolujen ja kuormituskeskusten kuormituksen tarkasteleminen](production-how-to-view-the-load-on-work-centers.md)
+#### [Tuotantosolutapahtumien näyttäminen](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
+
+### Huoltohallinto
+#### [Huoltotilastojen katsominen](service-service-statistics.md)
+#### [Huoltotilausten yhteenveto](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Huoltotarjousten yhteenveto](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
+#### [Kirjatun huoltoasiakirjan yhteenveto](service-service-posting.md#to-view-information-about-a-posted-service-document)
+
+## Ad-hoc-tietoanalyysi
+### [Yleiskuvaus](reports-adhoc-analysis.md)
+### [Lajitteleminen, hakeminen ja suodattaminen](ui-enter-criteria-filters.md)
+### [Usein kysyttyjen kysymysten haku ja suodatus](ui-search-filter-faq.yml)
+### [Sivutietojen analysointi Excelissä](across-work-with-excel.md)
+### [Raporttitietojen analysointi Excelissä](ui-work-report.md#saving-a-report-to-a-file)
+### [Talousanalytiikka](bi.md)
+
+## Valmis analytiikka 
+### [Yleiskuvaus](reports-built-in-analytics.md)
+### [Älykkäät Tiedot ](about-intelligent-cloud.md)
+### [Power BI -raporttien käyttö](across-working-with-powerbi.md)
+### [Talousanalytiikka](bi.md)
+### [Rahoituslaskelmien analysoiminen Excelissä](finance-analyze-excel.md)
+### [Usean yrityksen kirjanpitotietojen konsolidointi](finance-consolidated-company-reporting.md)
+### [Raportin käytön telemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
+
+## Tietojen analysointi BI-työkaluilla
+### [Yleiskuvaus](reports-external-analysis.md)
+### [Power BI:n käyttäminen yhdessä Business Centralin kanssa](admin-powerbi.md)
+### [Rahoituslaskelmien analysoiminen Excelissä](finance-analyze-excel.md)
+### [Tietojen poimiminen tietovarastoon tai Data Lakeen](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Tietojen lukeminen Business Centralin ohjelmointirajapinnalla](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+## Raporttien kehittäminen
+### [Yleiskuvaus](reports-develop-reports.md)
+### Raporttiasettelujen kehittäminen
+#### [Asettelutyypit (Word ja RDLC)](ui-manage-report-layouts.md)
+#### [Uuden asettelun luominen](ui-how-create-custom-report-layout.md)
+#### [Fonttien käyttö asettelussa](ui-fonts.md)  
+#### [Wordin asettelujen käyttö](ui-how-add-fields-word-report-layout.md)
+#### [Asettelun tuonti/vienti](ui-how-import-and-export-report-layout.md)
+#### [Asettelun päivittäminen](ui-update-report-layouts.md)
+#### [Oletusasettelun muuttaminen](ui-how-change-layout-currently-used-report.md)
+### Raporttitietojoukkojen kehittäminen
+#### [Raporttien kehittämisopas](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
+#### [Raporttien suorituskyvyn hienosäätöopas](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+
+<!--Security landing page-->
 # Suojaus, tietosuoja, vaatimustenmukaisuus
 ## Tietosuoja ja tietoturva
 ### [Tietoturvan ja suojauksen yleiskatsaus (vain englanniksi)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

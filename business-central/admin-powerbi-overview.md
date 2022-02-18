@@ -11,12 +11,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9ce0b5232a0629bb6248eaaaade69b7c7ebceb02
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 6260edff16c0d9123d389f59f0d035b2e87766b4
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012339"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049509"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in Power BI -integrointiosa ja arkkitehtuurin yleiskatsaus
 
@@ -48,7 +48,9 @@ Seuraavassa taulukossa käsitellään käytettävissä olevat ominaisuudet.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] integroidaan Power BI:n kanssa ODataa käyttävällä yhdistimellä. Power BI -raporttien tietolähde näkyy API-sivuina ja OData-verkkopalveluina.
 
-![Power BI:n ja Business Centralin integrointiarkkitehtuuri.](./media/power-bi-architecture.png)
+:::image type="content" source="./media/power-bi-architecture.png" alt-text="Kuvan vaihtoehtoinen teksti." lightbox="./media/power-bi-architecture.png":::
+
+Helmikuusta 2022 alkaen [!INCLUDE[prod_short](includes/prod_short.md)] Onlinen Power BI -raporttien lähteenä käytetään toissijaista vain luku -tilassa olevaa tietokantareplikaa. Tietokantareplika on osa [lukemisen skaalaus](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) -ominaisuutta [!INCLUDE[prod_short](includes/prod_short.md)] Onlinessa. Tämä määritys vapauttaa päätietokannan tapahtumia varten, mikä parantaa järjestelmän suorituskykyä. Yhteyden muodostaminen vain luku -tilassa olevaan tietokantareplikaan on osa Business Central Onlinen yhdistintä eikä vaadi sinulta lisämäärityksiä. Kaikki uudet raportit luovat oletusarvoisesti yhteyden vain luku -tilassa olevaan tietokantaan. Vanhat raportit käyttävät edelleen päätietokantaa. Lisätietoja: [Business Centralin vuoden 2021 julkaisuaallon 2 suunnitelma](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
 
 ## <a name="general-flow"></a>Yleinen työnkulku
 

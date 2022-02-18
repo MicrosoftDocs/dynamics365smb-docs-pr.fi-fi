@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 11207, 11208
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 98342ed27a3dc026bcff7ba81fe5691e6c1803f0
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a3bd75f5d2977b09e09965d09b43f4d1d51a54c2
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5774394"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115055"
 ---
 # <a name="automatic-account-codes-in-the-finnish-version"></a>Automaattiset tilikoodit suomenkielisessä versiossa
 

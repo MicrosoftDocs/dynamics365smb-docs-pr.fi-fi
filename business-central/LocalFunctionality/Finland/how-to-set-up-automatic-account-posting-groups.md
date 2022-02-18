@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 11207, 11208
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d329c83b1a7a12c3e16ca4959aefc252179940c5
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 888ee5639897393fca1cc68ae49c7a09734af632
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321746"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115220"
 ---
 # <a name="set-up-automatic-account-posting-groups-in-the-finnish-version"></a>Automaattisten tilikirjausryhmien määrittäminen suomalaisessa versiossa
 

@@ -1,8 +1,6 @@
 ---
 title: Poistoerojen kirjaaminen [FI]
 description: Tietoja siitä, miten eri poistomenetelmien kertyneiden poistojen erotuksen kirjaaminen lasketaan ja kirjataan kirjanpitoon.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -12,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 273e76019a77972fcbd854842b3a29f13e00d30f
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 92c47ed631be1efc8037fd7f062a3062a3f5e3a1
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319273"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115054"
 ---
 # <a name="posting-depreciation-differences-in-the-finnish-version"></a>Poistoerojen kirjaaminen Suomi-versioissa
 Suomessa käyttöomaisuuden poistoissa käytetään yleisesti seuraavia poistotapoja:  

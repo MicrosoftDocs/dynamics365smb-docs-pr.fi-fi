@@ -1,6 +1,6 @@
 ---
 title: Varaston laskeminen ja muuttaminen
-description: Käsitellään inventoinnin suorittamista Inventointitilaukset- ja Inventointitallennus-sivujen avulla sekä negatiivisten tai positiivisten muutosten tekemistä varastoasiakirjojen avulla.
+description: Kuvaa, miten fyysistä varastoa lasketaan ja miten varastoasiakirjoja käytetään käytettävissä olevan varaston säätämiseen.
 author: SorenGP
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
+ms.search.forms: 5895, 6561, 6562, 6563, 6564, 6565, 6566, 5892, 5891, 5879, 5880, 5893, 5897, 5882, 5881, 5899, 5875, 5878, 5877, 5876, 5896, 6567, 6568, 6569, 6570, 6571, 6572, 5883, 5886, 884, 5898, 5885, 5890, 5888, 5889, 5887, 5894, 6774, 6775, 6776, 6780, 6781, 6782, 6783
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fccbb5d15c73a2ab74d6b14e54be1fa098dc3a12
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 45001f05d2ddedcd254fafbd78f38e03cd87b93c
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435670"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115282"
 ---
 # <a name="count-and-adjust-inventory-using-documents"></a>Varastojen laskenta ja muutos asiakirjoja käyttämällä
 

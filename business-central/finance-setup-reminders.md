@@ -8,15 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.search.form: 431, 432, 478
-ms.date: 04/01/2021
+ms.search.form: 431, 432, 436, 478
+ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: d22b970f2bd400e8bd5886266cf21ee32a6c9dee
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: caa31498ac63d376d4fb13f83c66664a1cf78bcd
+ms.sourcegitcommit: 8a968e9176a913635e47e5170c66962e485e6689
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970354"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "8105748"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Muistutusehtojen ja -tasojen määrittäminen.
 
@@ -102,6 +102,7 @@ Kun olet määrittänyt muistutusehdot sekä lisätasot ja tekstin, määritä j
 ## <a name="see-also"></a>Katso myös
 
 [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)  
+[Lähetä muistutuksia avoimista saldoista](receivables-send-reminders.md)  
 [Viivästyskuluehtojen määrittäminen](finance-setup-finance-charges.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 

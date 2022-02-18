@@ -1,5 +1,5 @@
 ---
-title: Fyysisten varastojen järjesteleminen uudelleen
+title: Fyysisten varastojen uudelleenjärjestely
 description: Opi uudistamaan fyysisen varastoinnin rakennetta uusilla varastopaikkakoodeilla ja uusilla varastopaikan ominaisuuksilla, jotta voit saavuttaa tai ylläpitää tehokkaampaa toimintaa.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 9813, 9814
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4fb323253d9eb27216ae1d340ace6978a05afe65
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: fe027e43c91723c4e2a24d8afab373f2b96b07eb
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438055"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115228"
 ---
 # <a name="restructure-warehouses"></a>Fyysisten varastojen uudelleenjärjestely
 Haluat ehkä järjestellä fyysisen varaston uudelleen käyttämällä uusia varastopaikan koodeja ja uusia varastopaikan ominaispiirteitä. Tällaista toimintoa ei suoriteta kovin usein, mutta eteen voi tulla tilanteita, jolloin uudelleenluokittelu on tarpeen, jotta saavutettaisiin tai ylläpidettäisiin tehokkaampaa toimintaa. Esimerkiksi:  

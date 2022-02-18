@@ -7,34 +7,21 @@ ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: 26dbb93fe003caf140caaad07d31b85be508085b
-ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
+ms.openlocfilehash: 5488ba8331494ba662960e84d4907de76a68e72b
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6543143"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102341"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>Talousraportit ja analytiikka Business Centralissa
 
 [!INCLUDE [prod_short](includes/prod_short.md)]in talousraportoinnin avulla talouden ja liiketoiminnan ammattilaiset voivat luoda, ylläpitää, ottaa käyttöön ja tarkastella taloudellisia raportteja. Se ylittää perinteisen raportoinnin rajoitukset, jotta voit suunnitella tehokkaasti erityyppisiä raportteja. [!INCLUDE [prod_short](includes/prod_short.md)] sisältää useita raportteja, jäljitystoimintoja ja työkaluja, joiden avulla tilintarkastajat tai valvojat ovat vastuussa talousosaston raportoinnista. Taloudelliseen raportointiin sisältyy dimensioiden tuki, joten tilisegmentit tai -dimensiot ovat heti saatavilla. Muita työkaluja tai määritysvaiheita ei edellytetä.  
 
+[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
+
 ## <a name="reports"></a>Raportit
-
-Seuraavassa taulukossa kuvataan joitakin talousraportoinnin keskeisiä raportteja.
-
-| Raportti | Objektin tunnus | Kuvaus |
-|--|--|--|
-| **Alustava tulos/tase** | 6 | Raportissa näkyy tilikartta saldoineen ja nettomuutoksineen. Voit haluta esimerkiksi tarkastella tiettyjen dimensioiden alustavia saldoja. Raporttia voi käyttää kirjanpitojakson tai tilikauden päättyessä. |
-| **Alustava tulos jakson mukaan** | 38 | Tässä raportissa on KP-tilikohtainen alkusaldo, valitun jakson (kuukauden, vuosineljänneksen tai vuoden) tapahtumat ja tuloksena oleva loppusaldo. |
-| **Alustava tulos/tase / Budjetti** | 9 | Raportissa näkyy alustava saldo verrattuna budjettiin. Voit haluta esimerkiksi tarkastella tiettyjen dimensioiden alustavia saldoja. Raporttia voi käyttää kirjanpitojakson tai tilikauden päättyessä. |
-| **Eritelty alustava saldo** | 4 | Raportissa näkyy eritelty alustava saldo valituilta KP-tileiltä. Raporttia voi käyttää kirjanpitojakson tai tilikauden päättyessä. Asettamalla suodattimia voit määrittää, mitkä tilit sisällytetään eräajoon. |
-| **Alust. saldo / Ed. vuosi** | 7 | Tässä raportissa näkyy alustava saldo verrattuna edellisen vuoden lukuihin. Voit haluta esimerkiksi tarkastella tiettyjen dimensioiden alustavia saldoja. Raporttia voi käyttää kirjanpitojakson tai tilikauden päättyessä. *Edellinen vuosi* tarkoittaa tässä samaa jaksoa yhtä kalenterivuotta aikaisemmin. |
-| **KP-raporttimalli** | 25 | KP-raporttimalleilla voidaan näyttää pääkirjanpidon tilit eri tavalla kuin tilikartassa. KP-raporttimalleja voidaan käyttää esimerkiksi tunnuslukuraportteja varten. |
-<!-- | **Tase** (KP-raporttimalli tai Excel) tai **Alustava saldo** |  |  |
-| **Kassavirtalaskelma** (KP-raporttimalli) |  |  |
-| **Alustavan taseen yhteenveto/erittely** |  |  |
-| **Tuloslaskelma** (KP-raporttimalli tai Excel) |  |  |
-| **Budjetti** |  |  | -->
+[!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 ## <a name="tasks"></a>Tehtävät
 

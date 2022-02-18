@@ -8,18 +8,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, distribution center
+ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1d65213d81c2a615481e753adb380675ff2ee691
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 2482b25e6b8e29e5cff420db1700943ca4f1df51
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940724"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060088"
 ---
 # <a name="set-up-locations"></a>Sijaintien määrittäminen
 
-Jos ostat, varastoit tai myyt nimikkeitä useamman varaston avulla, sijaintikortti ja siirtoreitit on määritettävä jokaiselle sijainnille. [!INCLUDE [prod_short](includes/prod_short.md)] käyttää sijainteja varaston seurannassa sekä yksinkertaisemmissa tapauksissa että monimutkaisemmissa varastoprosesseissa.
+Sijainnit ovat paikkoja, kuten varasto, jossa nimikkeitä ostetaan, säilytetään tai myydään. [!INCLUDE [prod_short](includes/prod_short.md)] käyttää sijainteja varaston seurannassa sekä yksinkertaisissa että monimutkaisissa varastoprosesseissa.
 
 Voit sitten luoda asiakirjarivejä tietylle sijainnille, tarkastella saatavuutta sijainnin perusteella ja siirtää varastonimikkeitä sijainnista toiseen. Lisätietoja on myös kohdassa [Varaston hallinta](inventory-manage-inventory.md).
 <br><br>  
@@ -27,16 +28,15 @@ Voit sitten luoda asiakirjarivejä tietylle sijainnille, tarkastella saatavuutta
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
 ## <a name="location-cards"></a>Sijaintikortit
-
-Sijaintikortissa määritetään tietoja sijainnista, esimerkiksi fyysisestä varastosta tai jakelukeskuksesta. Kullekin sijainnille annetaan sijaintia kuvaava nimi ja koodi. Tämän jälkeen sijaintikoodin voi syöttää muualle ohjelmaan silloin, kun haluat tallentaa transaktioita tietylle sijainnille.  
+Tietoja sijainnista, esimerkiksi fyysisestä varastosta tai jakelukeskuksesta määritetään **Sijaintikortti**-sivulla. Kullekin sijainnille annetaan sijaintia kuvaava nimi ja koodi. Tämän jälkeen sijaintikoodin voi syöttää muualle ohjelmaan silloin, kun haluat tallentaa transaktioita tietylle sijainnille.  
 
 Voit syöttää tietoja varastopaikasta ja fyysisen varaston periaatteista jokaiselle sijainnille. Valitsemiesi fyysisen varaston periaatteiden perusteella voit määrittää **Varastopaikat**-pikavälilehden vaihtoehtojen avulla varastopaikat, joita käytetään oletusvarastopaikkoina toteutettaessa tapahtumia. Jos käytät ohjattua hyllytystä ja poimintaa, voit määrittää **Var.paikkojen periaatteet** -pikavälilehden vaihtoehtojen avulla, miten haluat käyttää fyysisen varaston eri lisäominaisuuksia.  
 
-Jotkut vaihtoehtokentät ovat harmaana ja poissa käytöstä muiden asetusten vuoksi **Sijaintikortti**-sivulla. Tällä rajoitetaan asetusyhdistelmiä, joita ei tueta.  
+Jotkut vaihtoehtokentät määräytyvät **Sijaintikortti**-sivun asetusten mukaan. Tällä rajoitetaan asetusyhdistelmiä, joita ei tueta.  
 
-Valitse toiminto **Alueet** tai **Varastopaikat** nähdäksesi tiedot alueista ja varastopaikoista, jotka voidaan määrittää sijaintiin.
+Valitse toiminnot **Alueet** tai **Varastopaikat** nähdäksesi tiedot alueista ja varastopaikoista, jotka on määritetty sijainnille.
 
-### <a name="to-create-a-location-card"></a>Sijaintikortin luominen
+### <a name="to-set-up-a-location"></a>Sijaintien määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi**-toiminto.
@@ -44,11 +44,11 @@ Valitse toiminto **Alueet** tai **Varastopaikat** nähdäksesi tiedot alueista j
 4. Toista vaiheet 2 ja 3 jokaiselle sijainnille, jossa haluat pitää varastoa.
 
 > [!NOTE]  
-> Monet sijaintikortin kentät viittaavat saapuvien ja lähtevien varastoprosessien nimikkeiden käsittelyyn. Kentät eivät ole olennaisia yrityksille, jotka eivät tarvitse monimutkaisempaa varastotoimintoa. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).
+> Monet sijaintikorttisivun kentät viittaavat saapuvien ja lähtevien varastoprosessien nimikkeiden käsittelyyn. Nämä kentät eivät ole olennaisia yrityksille, jotka eivät tarvitse monimutkaista varastotoimintoa. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).
 
 Voit muuttaa sijainnin määritystä myöhemmin, mutta et voi muokata asetuksia niille sijainneille, joilla on kirjanpitotapahtumia.  
 
-Jos sinulla on useampia sijainteja, seuraavaksi voit määrittää sijaintien välisiä siirtoreittejä.  
+Jos sinulla on useampia sijainteja, voit määrittää sijaintien välisiä siirtoreittejä. Lisätietoja on ohjeaiheessa [Siirtoreittien luonti](inventory-how-setup-locations.md#to-create-a-transfer-route). 
 
 ### <a name="to-create-a-transfer-route"></a>Siirtoreittien luominen
 
@@ -61,14 +61,12 @@ Voit nyt siirtää varastonimikkeitä sijaintien välillä. Lisätietoja on kohd
 
 ## <a name="bins"></a>Varastopaikat
 
-Varastopaikkat edustavat varastoinnin perusrakennetta ja niitä käytetään ehdotusten tekemiseksi nimikkeiden sijoittelusta. Kun olet luonut varastopaikat, voit määrittää tarkasti sisällön, jonka haluat ohjelman sijoittavan kuhunkin varastopaikkaan, tai varastopaikka voi toimia määrittelemättömänä varastopaikkana, jolla ei ole määritettyä sisältöä. Varastopaikkoja käytetään pääasiassa varaston perus- ja lisäoperaatioissa. Jos hallitset varastoa yksinkertaisemmassa asetelmassa, et todennäköisesti tarvitse varastopaikkoja.
+Varastopaikkat edustavat varastoinnin perusrakennetta ja niitä käytetään ehdotusten tekemiseksi nimikkeiden sijoittelusta. Kun olet luonut varastopaikat, voit määrittää niiden sisällön. Varastopaikka voi myös toimia määrittelemättömänä varastopaikkana, jolla ei ole määritettyä sisältöä. Varastopaikkoja käytetään pääasiassa varaston perus- ja lisäoperaatioissa. Jos hallitset varastoa yksinkertaisemmassa asetelmassa, et todennäköisesti tarvitse varastopaikkoja.
 
-Jos haluat käyttää varastopaikkatoimintoa sijainnissa, aktivoi toiminto ensin **Sijainti**-kortissa valitsemalla **Varastopaikat pakollisia** -kenttä **Fyysinen varastointi**-pikavälilehdessä. Sitten voi suunnitella nimikevirran sijainnissa määrittämällä varastopaikkakoodit määrityskentistä, jotka edustavat eri virtoja.
+Jos haluat käyttää varastopaikkatoimintoa sijainnissa, aktivoi toiminto ensin **Sijaintikortti**-sivulla valitsemalla **Varastopaikat pakollisia** -kenttä **Fyysinen varastointi**-pikavälilehdessä. Sitten voi suunnitella nimikevirran sijainnissa määrittämällä varastopaikkakoodit määrityskentistä, jotka edustavat eri virtoja.
 
 > [!NOTE]
-> Ennen kuin voit määrittää varastopaikkakoodeja sijaintikortissa, on luotava varastopaikkakoodit.
-
-Lisätietoja on kohdissa [Varastopaikkojen luominen](warehouse-how-to-create-individual-bins.md) ja [Varastopaikkatyyppien määrittäminen](warehouse-how-to-set-up-bin-types.md).  
+> Ennen kuin voit määrittää varastopaikkakoodeja sijainnissa, on luotava varastopaikkakoodit. Lisätietoja on kohdissa [Varastopaikkojen luominen](warehouse-how-to-create-individual-bins.md) ja [Varastopaikkatyyppien määrittäminen](warehouse-how-to-set-up-bin-types.md).  
 
 ## <a name="zones"></a>Alueet
 

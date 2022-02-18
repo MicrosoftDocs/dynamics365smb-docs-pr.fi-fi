@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 932bf57b8801c758c6bcaff4fbdad69265853487
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: c8f12e98196d8dd22ff63c73ffd3967cf256244c
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724686"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049872"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Power BI:n ja [!INCLUDE[prod_short](includes/prod_short.md)]in integroinnin ottaminen käyttöön
 
@@ -44,7 +44,12 @@ API-sivu on erityinen AL-koodissa luotu sivutyyppi, joka tarjoaa yhteyden tietok
 
 Business Central online sisältää useita sisäänrakennettuja ohjelmointirajapintoja, joiden avulla voit saada tietoja yleisimmistä liiketoimintaentiteeteistä, kuten asiakkaista, nimikkeistä ja myyntitilauksista. Näiden ohjelmointirajapintojen käyttö raporttien tietolähteenä ei edellytä lisätyötä tai Power BI -asetuksia. Lisätietoja näistä ohjelmointirajapinnoista on kohdassa [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/).
 
-Business Central online tukee myös mukautettuja ohjelmointirajapintoja. Business Central -ratkaisujen soveluskehittäjät voivat luoda omia API-sivujaan ja pakata ne laajennuksiksi. Voit asentaa laajennukset vuokraajaan. Kun asennus on valmis, voit käyttää API-sivuja Power BI -raporteissasi, kuten tekisit sisäänrakennettujen ohjelmointirajapintojenkin (v2.0) kanssa. Lisätietoja API-sivujen luomisesta on kohdassa [Mukautetun ohjelmointirajapinnan kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+Business Central online tukee myös mukautettuja ohjelmointirajapintoja. Business Central -ratkaisujen soveluskehittäjät voivat luoda omia API-sivujaan ja pakata ne laajennuksiksi. Sitten laajennukset asennetaan vuokraajaan. Kun asennus on valmis, voit käyttää API-sivuja Power BI -raporteissasi, kuten tekisit sisäänrakennettujen ohjelmointirajapintojenkin (v2.0) kanssa. Lisätietoja API-sivujen luomisesta on kohdassa [Mukautetun ohjelmointirajapinnan kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
+
+> [!IMPORTANT]
+> Helmikuusta 2022 alkaen [!INCLUDE[prod_short](includes/prod_short.md)] Onlinen Power BI -raporttien lähteenä käytetään suorituskykysyistä toissijaista vain luku -tilassa olevaa tietokantareplikaa. Tämän seurauksena AL-kehittäjien pitäisi välttää sellaisten ohjelmointirajapintasivujen kehittämistä, jotka muokkaavat tietokantoja, kun sivut avautuvat tai lataavat tietueita. Erityistä huomiota kannattaa kiinnittää AL-käynnistinten OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord ja OnAfterGetCurrRecord koodiin. Nämä tietokantamuutokset voivat joissakin tapaukissa aiheuttaa suorituskykyongelmia ja estää raporttia päivittämästä tietoja. Lisätietoja on Business Centralin kehitysohjeen kohdassa [Kehittäjien suorituskykyartikkelit](/dynamics365/business-central/dev-itpro/performance/performance-developer?branch=main#writing-efficient-web-services).
+>
+> Joissakin harvoissa tapauksissa tämä toiminta aiheuttaa virheen, kun käyttäjä yrittää noutaa tietoja ohjelmointirajapintasivulta Power BI Desktop -raporttia varten. Jos tietokantamuutokset kuitenkin ovat tarpeen muokatulla ohjelmointirajapintasivulla, Power BI Desktopin käyttäjät voivat pakottaa tämän toimintatavan. Lisätietoja: [Power BI -raporttien kokoaminen näyttämään Business Central -tietoja](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 
 ### <a name="odata-web-services"></a>OData-verkkopalvelut
 
@@ -91,6 +96,7 @@ Tässä osassa käsitellään paikallisen [!INCLUDE[prod_short](includes/prod_sh
     Ennen kuin loppukäyttäjät voivat käyttää Power BI:tä [!INCLUDE[prod_short](includes/prod_short.md)]issa, Azure-sovelluksen järjestelmänvalvojan täytyy antaa suostumuksensa Power BI-palvelulle.
 
     Voit muodostaa ensimmäisen yhteyden avaamalla [!INCLUDE[prod_short](includes/prod_short.md)]in ja suorittamalla roolikeskuksessa **Aloita Power BI:n käyttö** -toiminnon. Tämä toiminto opastaa hyväksyntäprosessin läpi ja tarkistaa Power BI -käyttöoikeutesi. Ohjelma pyytää kirjautumaan sisään käyttämällä Azuren järjestelmänvalvojatiliä. Lisätietoja on kohdassa [Power BI -yhteyden muodostaminen – kerran](across-working-with-powerbi.md#connect).
+
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e459c854bfba13689b5dc6213ed7e88347780483
-ms.sourcegitcommit: 81a35248e6f1e8773339281b6f5c0ebd4942e05a
+ms.openlocfilehash: 79f9e9d03eb8ac58bcddfeb39669b0dc08763f1f
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547046"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102445"
 ---
 # <a name="set-up-printers"></a>Tulostimien määrittäminen
 
@@ -84,7 +84,7 @@ Lisätietoja määrittämisestä on yleistulostuksen ohjeiden kohdassa [Aloitus:
 
     Käyttöoikeuden määrittäminen määräytyy sen mukaan, integroidaanko paikallinen Business Central vai verkkoversio.
 
-    - Jos kyseessä on [!INCLUDE[prod_short](includes/prod_short.md)] online, käyttöoikeudet määritetään Microsoft 365 -hallintakeskuksessa.
+    - Jos kyseessä on [!INCLUDE[prod_short](includes/prod_short.md)] Online, käyttöoikeudet määritetään Microsoft 365 -hallintakeskuksessa.
 
       Lisätietoja on kohdassa [Microsoft-hallintakeskuksen ohje – Käyttöoikeuksien määrittäminen käyttäjille](/microsoft-365/admin/manage/assign-licenses-to-users).
 
@@ -267,6 +267,9 @@ Sinä tai järjestelmänvalvoja voitte käyttää myös **Tulostinvalinnat**-siv
 
 > [!NOTE]
 > Yksityiskohtaiset tulostinvalinnat ohittavat yleisemmät tulostinvalinnat. Esimerkiksi tulostinvalinta, jossa on arvot **Käyttäjän tunnus**-, **Raportin tunnus**- ja **Tulostimen nimi** -kentissä, ohittaa tulostinvalinnan, jossa **Käyttäjän tunnus**- tai **Raportin tunnus** -kentät ovat tyhjät.
+
+### <a name="choosing-the-printer-when-running-a-report"></a>Tulostimen valitseminen raporttia suoritettaessa
+Sen sijaan, että käytät oletustulostinta raporttia suoritettaessa, voit ohittaa tämän asetuksen pyyntösivulla. Valitse vain avattavasta **Tulostin**-valikosta, mitä tulostinta haluat käyttää tässä raportin ilmentymässä.
 
 ### <a name="sizing-print-jobs"></a>Tulostustöiden mitoitus
 

@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: remove, delete
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6330aeb05bf2f0ba84585c0cd8391b7cf3338de4
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c7ecf1d5bcd9d59acccf0a300a9a126e9910c12b
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786855"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059501"
 ---
 # <a name="unsubscribe-or-remove-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in tilauksen peruuttaminen tai poistaminen
 
@@ -23,7 +23,7 @@ Jos haluat lopettaa [!INCLUDE[prod_short](includes/prod_short.md)]:n käytön, v
 
 ## <a name="closing-your-free-trial-of-prod_short"></a>Maksuttoman [!INCLUDE[prod_short](includes/prod_short.md)] -kokeilun sulkeminen
 
-Jos rekisteröit maksuttoman kokeilun mutta et halua jatkaa [!INCLUDE[prod_short](includes/prod_short.md)] -käyttöä, voit sulkea tilisi milloin tahansa. On suositeltavaa viedä kaikki omat tiedot, ennen kuin suljet tilin. 
+Jos rekisteröit maksuttoman kokeilun mutta et halua jatkaa [!INCLUDE[prod_short](includes/prod_short.md)] -käyttöä, voit sulkea tilisi milloin tahansa. On suositeltavaa viedä kaikki omat tiedot, ennen kuin suljet tilin. Voit lukea tietojen viemisestä Exceliin kohdasta [Tietojen vienti muihin rahoitusjärjestelmiin](about-export-data.md#exporting-data-to-other-finance-systems). Jos haluat mieluummin viedä kaikki tiedot Azure Storage -konttiin, Microsoft 365 -järjestelmänvalvoja voi tehdä sen hallintakeskuksessa. Lisätietoja on kohdassa [Tietokantojen vieminen hallintakeskuksessa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export).  
 
 Sinun on pyydettävä Microsoft 365 -järjestelmänvalvojaa poistamaan kokeiluversion tilaus yrityksen tililtä [Microsoft 365 -hallintakeskuksessa](https://admin.microsoft.com/).  
 
@@ -38,14 +38,18 @@ Jos yrityksesi haluaa peruuttaa [!INCLUDE[prod_short](includes/prod_short.md)] -
 Käyttäjätilejä ja käyttöoikeustiedostoja hallitaan kohdassa [Microsoft 365 -hallintakeskus](https://admin.microsoft.com/). Vain järjestelmänvalvojat voivat poistaa [!INCLUDE[prod_short](includes/prod_short.md)] -lisenssit käyttäjätileiltä tai tilauksen yrityksen tililtä.  
 
 ## <a name="removing-prod_short-from-your-app-launcher"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in poistaminen sovellusten käynnistysohjelmasta
+
 Jos haluat piilottaa [!INCLUDE[prod_short](includes/prod_short.md)]in sovellusten käynnistysohjelmalta, sinun tarvitsee vain poistaa sen kiinnitys. Tällöin tietoja ei poisteta, eikä tilausta peruuteta.  
 
 ## <a name="see-also"></a>Katso myös
+
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Uusien yritysten luominen](about-new-company.md)  
 [Liiketoimintatietojen vienti Exceliin](about-export-data.md)  
 [Microsoft 365 -hallintakeskus](https://admin.microsoft.com/)  
 [Mikä on kokeilujakson pituus ja miten kokeilu peruutetaan?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
+[Liiketoimintatietojen vienti Exceliin](about-export-data.md)  
+[Tietokantojen vienti hallintakeskuksessa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

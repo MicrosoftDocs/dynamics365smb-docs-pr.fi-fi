@@ -8,14 +8,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: costing methods, costing, item cost
+ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: bholtorf
-ms.openlocfilehash: f8bb3bc0966e25e99213217501a5337f9440abfc
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: 732bbc50f46573484682104e3beb71fbce1f5894
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215426"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115474"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Rakennetiedot: nimikkeiden arvostusmenetelmän muuttaminen
 
@@ -78,18 +79,18 @@ Uusien nimikkeiden täysi käytettävyys edellyttää, että joitakin päätieto
 
 |Alue  |Kopioitava sisältö  |Kopiointiohjeet  |
 |---------|---------|---------|
-|Varasto     |Varastointiyksiköt (SKU:t)         |Tarkista, onko alkuperäiselle nimikkeelle määritetty varastointiyksikkö. Jos jokaiseen SKU-korttiin on lisätty suunnitteluparametrit, SKU on luotava manuaalisesti uudelle nimikkeelle. Jos parametreja ei ole määritetty, tiedot voidaan luoda käyttämällä **Nimikkeen kortti** -sivun **Luo varastointiyksikkö** -erätyötä.        |
-|     |Nimikekorvaukset         |Tarkista, onko alkuperäiselle nimikkeelle määritetty nimikekorvauksia. Jos niitä on, siirrä tiedot uuteen nimikkeeseen. Korvaavia nimikkeitä voi tarkastella **Nimikkeen kortti** -sivun **Korvaukset**-toiminnolla.         |
-|     |Analyysiraportit         |Tarkista nimikkeen, myynnin ja oston analyysiraportit. Jos raportti viittaa alkuperäisiin nimikkeisiin, sen osalta voidaan joko luoda uusi analyysiraportti, jossa on viittaus uuteen nimikkeeseen (ja alkuperäinen analyysiraportti säilytetään historiatietona) tai raportti oikaistaan viittaamaan uuteen nimikkeeseen.         |
-|     |Vakiopäiväkirjat         |Tarkista, viittaavatko vakiopäiväkirjat alkuperäiseen nimikkeeseen ja siirrä kyseiset tiedot tarvittaessa uuteen nimikkeeseen. Nämä tiedot ovat vakiopäiväkirjoissa, jotka ovat saatavana nimikepäiväkirjassa.          |
-|Myynti     |Myynnin ennakkomaksuprosentti         | Tarkista, onko alkuperäiselle nimikkeelle määritetty myynnin ennakkomaksuprosentteja, ja siirrä kyseiset tiedot uuteen nimikkeeseen. Ennakkomaksuprosentteja voi tarkastella valitsemalla **Nimikkeen kortti** -sivulla ensin **Myynti** ja sitten **Ennakkomaksuprosentit**.        |
-|Osto     |Oston ennakkomaksuprosentti         |Tarkista, onko alkuperäiselle nimikkeelle määritetty oston ennakkomaksuprosentteja, ja siirrä kyseiset tiedot uuteen nimikkeeseen. Ennakkomaksuprosentteja voi tarkastella valitsemalla **Nimikkeen kortti** -sivulla ensin **Ostot** ja sitten **Ennakkomaksuprosentit**.                 |
-|F. varastointi     |Varastopaikan sisältö         |Tarkista alkuperäiselle nimikkeelle määritetty varastopaikan sisältö. Jos sarakkeet, kuten Vähimmäismäärä, Enimmäismäärä, Oletus ja Erityinen on annettu erikseen, uuden nimikkeen varastopaikan sisältö on luotava manuaalisesti. Jos niitä ei ole, mitään toimenpiteitä ei tarvita. [!INCLUDE[prod_short](includes/prod_short.md)] säilyttää tietueet, fyysisen varastoinnin asiakirjoja ja päiväkirjoja rekisteröidään.|
-|Projekti     |Projektihinnat         |Tarkista, onko alkuperäiselle nimikkeelle määritetty projektihintoja, ja siirrä kyseiset tiedot uuteen nimikkeeseen. Nämä tiedot ovat saatavana **Projektikortti**-sivulla **tietoruudun** **Projektin tiedot - Hintojen määrä** -kohdassa.         |
-|Palvelu     |Palveluresurssin taito         |Tarkista, onko alkuperäiselle nimikkeelle määritetty palveluresurssin taitoja, ja siirrä kyseiset tiedot uuteen nimikkeeseen. Resurssin taitoja voi tarkastella **Nimikkeen kortti** -sivun **Resurssin taidot** -toiminnolla.          |
-|     |Huoltonimikkeen komponentit         |Tarkista, onko alkuperäiselle huoltonimikkeelle määritetty komponentteja, ja siirrä kyseiset tiedot uuteen nimikkeeseen. Huoltonimikekomponentteja voi tarkastella avaamalla **Nimikkeen kortti** -sivulla **Huoltonimike**-toiminnolla luettelon liittyvistä huoltonimikkeistä ja valitsemalla sitten **Komponentit**-toiminnon.          |
-|Tuotanto     |Tuotantotuoterakent.         |Tarkista, sisältääkö jokin tuotannon tuoterakenne alkuperäisen nimikkeen, ja korvaa se uudella nimikkeellä. Alkuperäinen nimike korvataan valitsemalla **Tuotannon tuoterakenteet** -sivulla **Vaihda tuotannon tuoterakenteen nimike** -toiminto.         |
-|Kokoonpano     |Kokoonpanon tuoterakenteet         |Tarkista, sisältääkö jokin kokoonpanon tuoterakenne alkuperäisen nimikkeen, ja korvaa se manuaalisesti uudella nimikkeellä.         |
+|Varasto |Varastointiyksiköt (SKU:t) |Tarkista, onko alkuperäiselle nimikkeelle määritetty varastointiyksikkö. Jos jokaiseen SKU-korttiin on lisätty suunnitteluparametrit, SKU on luotava manuaalisesti uudelle nimikkeelle. Jos parametreja ei ole määritetty, tiedot voidaan luoda käyttämällä **Nimikkeen kortti** -sivun **Luo varastointiyksikkö** -erätyötä.|
+| |Nimikekorvaukset |Tarkista, onko alkuperäiselle nimikkeelle määritetty nimikekorvauksia. Jos niitä on, siirrä tiedot uuteen nimikkeeseen. Korvaavia nimikkeitä voi tarkastella **Nimikkeen kortti** -sivun **Korvaukset**-toiminnolla. |
+| |Analyysiraportit |Tarkista nimikkeen, myynnin ja oston analyysiraportit. Jos raportti viittaa alkuperäisiin nimikkeisiin, sen osalta voidaan joko luoda uusi analyysiraportti, jossa on viittaus uuteen nimikkeeseen (ja alkuperäinen analyysiraportti säilytetään historiatietona) tai raportti oikaistaan viittaamaan uuteen nimikkeeseen. |
+| |Vakiopäiväkirjat |Tarkista, viittaavatko vakiopäiväkirjat alkuperäiseen nimikkeeseen ja siirrä kyseiset tiedot tarvittaessa uuteen nimikkeeseen. Nämä tiedot ovat vakiopäiväkirjoissa, jotka ovat saatavana nimikepäiväkirjassa.  |
+|Myynti |Myynnin ennakkomaksuprosentti | Tarkista, onko alkuperäiselle nimikkeelle määritetty myynnin ennakkomaksuprosentteja, ja siirrä kyseiset tiedot uuteen nimikkeeseen. Ennakkomaksuprosentteja voi tarkastella valitsemalla **Nimikkeen kortti** -sivulla ensin **Myynti** ja sitten **Ennakkomaksuprosentit**.|
+|Osto |Oston ennakkomaksuprosentti |Tarkista, onko alkuperäiselle nimikkeelle määritetty oston ennakkomaksuprosentteja, ja siirrä kyseiset tiedot uuteen nimikkeeseen. Ennakkomaksuprosentteja voi tarkastella valitsemalla **Nimikkeen kortti** -sivulla ensin **Ostot** ja sitten **Ennakkomaksuprosentit**. |
+|F. varastointi |Varastopaikan sisältö |Tarkista alkuperäiselle nimikkeelle määritetty varastopaikan sisältö. Jos sarakkeet, kuten Vähimmäismäärä, Enimmäismäärä, Oletus ja Erityinen on annettu erikseen, uuden nimikkeen varastopaikan sisältö on luotava manuaalisesti. Jos niitä ei ole, mitään toimenpiteitä ei tarvita. [!INCLUDE[prod_short](includes/prod_short.md)] säilyttää tietueet, fyysisen varastoinnin asiakirjoja ja päiväkirjoja rekisteröidään.|
+|Projekti |Projektihinnat |Tarkista, onko alkuperäiselle nimikkeelle määritetty projektihintoja, ja siirrä kyseiset tiedot uuteen nimikkeeseen. Nämä tiedot ovat saatavana **Projektikortti**-sivulla **tietoruudun** **Projektin tiedot - Hintojen määrä** -kohdassa. |
+|Palvelu |Palveluresurssin taito |Tarkista, onko alkuperäiselle nimikkeelle määritetty palveluresurssin taitoja, ja siirrä kyseiset tiedot uuteen nimikkeeseen. Resurssin taitoja voi tarkastella **Nimikkeen kortti** -sivun **Resurssin taidot** -toiminnolla.  |
+| |Huoltonimikkeen komponentit |Tarkista, onko alkuperäiselle huoltonimikkeelle määritetty komponentteja, ja siirrä kyseiset tiedot uuteen nimikkeeseen. Huoltonimikekomponentteja voi tarkastella avaamalla **Nimikkeen kortti** -sivulla **Huoltonimike**-toiminnolla luettelon liittyvistä huoltonimikkeistä ja valitsemalla sitten **Komponentit**-toiminnon.  |
+|Tuotanto |Tuotantotuoterakent. |Tarkista, sisältääkö jokin tuotannon tuoterakenne alkuperäisen nimikkeen, ja korvaa se uudella nimikkeellä. Alkuperäinen nimike korvataan valitsemalla **Tuotannon tuoterakenteet** -sivulla **Vaihda tuotannon tuoterakenteen nimike** -toiminto. |
+|Kokoonpano |Kokoonpanon tuoterakenteet |Tarkista, sisältääkö jokin kokoonpanon tuoterakenne alkuperäisen nimikkeen, ja korvaa se manuaalisesti uudella nimikkeellä. |
 
 > [!IMPORTANT]
 > Jos uutena arvostusmenetelmänä on Vakio, arvo annetaan **Nimikkeen kortti** -sivun **Vakiokustannus**-kentässä. Kustannusjakauma voidaan sitten määrittää **Vakiokustannustyökirja**-sivulla. Lisätietoja on kohdassa [Vakiokustannusten päivittäminen](finance-how-to-update-standard-costs.md).
@@ -116,23 +117,23 @@ Kokoonpanotilauksia luotaessa käytetään Kun luot kokoonpano tilauksia, käyte
 
 |Kenttä  |Annettava arvo  |
 |---------|---------|
-|Nimikkeen nro     |Uuden nimikkeen numero.         |
-|määrä     |Inventointipäiväkirjan määrä.<br> **HUOMAUTUS:** inventointipäiväkirjojen laskevat määrät eivät sisällä toimittamattomien tilausten määriä.          |
-|Varianttikoodi     |Sama kuin inventointipäiväkirjassa.          |
-|Sijaintikoodi      |Sama kuin inventointipäiväkirjassa.         |
-|Mittayksikön koodi     |Sama kuin inventointipäiväkirjassa.         |
-|Varastopaikan koodi     |Sama kuin inventointipäiväkirjassa.         |
+|Nimikkeen nro |Uuden nimikkeen numero. |
+|määrä |Inventointipäiväkirjan määrä.<br> **HUOMAUTUS:** inventointipäiväkirjojen laskevat määrät eivät sisällä toimittamattomien tilausten määriä.  |
+|Varianttikoodi |Sama kuin inventointipäiväkirjassa.  |
+|Sijaintikoodi  |Sama kuin inventointipäiväkirjassa. |
+|Mittayksikön koodi |Sama kuin inventointipäiväkirjassa. |
+|Varastopaikan koodi |Sama kuin inventointipäiväkirjassa. |
 
 #### <a name="lines"></a>Rivit
 
 |Kenttä  |Annettava arvo  |
 |---------|---------|
-|Tyyppi     |Nimike         |
-|Ei.     |Alkuperäisen nimikkeen numero.         |
-|Määrä per     |1         |
-|Varianttikoodi     |Sama kuin inventointipäiväkirjassa.         |
-|Sijaintikoodi      |Sama kuin inventointipäiväkirjassa.         |
-|Mittayksikön koodi     |Sama kuin inventointipäiväkirjassa.         |
+|Tyyppi |Nimike |
+|Ei. |Alkuperäisen nimikkeen numero. |
+|Määrä per |1 |
+|Varianttikoodi |Sama kuin inventointipäiväkirjassa. |
+|Sijaintikoodi  |Sama kuin inventointipäiväkirjassa. |
+|Mittayksikön koodi |Sama kuin inventointipäiväkirjassa. |
 
 > [!NOTE]
 > Kokoonpanotilaus voi käsitellä kerrallaan vain yhden nimikkeen SKU:n. Kokoonpanotilaus on luotava jokaiselle SKU-yhdistelmälle, jolla on varastossa määrä.
@@ -153,15 +154,15 @@ Seuraavassa taulukossa käsitellään toiminnallisia alueita, joilla voi olla av
 
 |Alue  |Avoimien määrien etsiminen  |
 |---------|---------|
-|Myynti     |Myyntiasiakirjat, kuten tilaukset, palautustilaukset, laskut, tarjoukset, puitetilaukset ja hyvityslaskut         |
-|Varasto     |Nimikepäiväkirjat, varaukset, nimikeseuranta ja vakiokustannustyökirja         |
-|Osto     |Ostoasiakirjat, kuten tilaukset, palautustilaukset, laskut, tarjoukset, puitetilaukset ja hyvityslaskut         |
-|Suunnittelu     |Hankintatyökirja, suunnittelutyökirja ja tilauksen suunnittelu         |
-|F. varastointi     |Siirtotilaukset, varastotoimitukset, fyysisen varastoinnin päiväkirjat ja varastopoiminnat, hyllytykset ja siirrot, sisäiset poiminnat ja hyllytykset sekä varastopaikan luontityökirjat         |
-|Kokoonpano     |Kokoonpanoasiakirjat, kuten tilaukset, palautustilaukset ja puitetilaukset         |
-|Projektit     |Projektin suunnittelurivit ja projektipäiväkirjan rivit         |
-|Palvelu     |Huoltoasiakirjat ja huoltosopimukset         |
-|Tuotanto     |Tuotantotilaukset (suunniteltu, sitovasti suunniteltu ja julkaistu)         |
+|Myynti |Myyntiasiakirjat, kuten tilaukset, palautustilaukset, laskut, tarjoukset, puitetilaukset ja hyvityslaskut |
+|Varasto |Nimikepäiväkirjat, varaukset, nimikeseuranta ja vakiokustannustyökirja |
+|Osto |Ostoasiakirjat, kuten tilaukset, palautustilaukset, laskut, tarjoukset, puitetilaukset ja hyvityslaskut |
+|Suunnittelu |Hankintatyökirja, suunnittelutyökirja ja tilauksen suunnittelu |
+|F. varastointi |Siirtotilaukset, varastotoimitukset, fyysisen varastoinnin päiväkirjat ja varastopoiminnat, hyllytykset ja siirrot, sisäiset poiminnat ja hyllytykset sekä varastopaikan luontityökirjat |
+|Kokoonpano |Kokoonpanoasiakirjat, kuten tilaukset, palautustilaukset ja puitetilaukset |
+|Projektit |Projektin suunnittelurivit ja projektipäiväkirjan rivit |
+|Palvelu |Huoltoasiakirjat ja huoltosopimukset |
+|Tuotanto |Tuotantotilaukset (suunniteltu, sitovasti suunniteltu ja julkaistu) |
 
 ### <a name="block-the-original-item-from-further-use"></a>Alkuperäisen nimikkeen käytön estäminen
 

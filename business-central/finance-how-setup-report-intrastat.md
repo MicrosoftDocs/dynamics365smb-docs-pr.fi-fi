@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
-ms.date: 04/01/2021
+ms.date: 01/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: c2f54f37791b93f41aa4cf03aaf7b6d6856cd15c
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: d51e1657d6c28581a49af9b65b7bee8a27baa57f
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971091"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049664"
 ---
 # <a name="set-up-and-report-intrastat"></a>Intrastat-ilmoituksen määrittäminen ja raportoiminen
 
@@ -28,7 +28,11 @@ Sinun on määritettävä useita asetuksia, ennen kuin voit raportoida Intrastat
 * **Valtiokohtaiset Asetukset**: Valtiokohtaiset Asetukset sivua käytetään intrastat-reportoinnin käyttöönottoon ja sen osetusaletusten määrittelyyn. Voit määrittää sen, tarvitkseeko sinun raportoida Intrastat lähetyksistä (toimitukset), kuiteista (saapuvat) vai molemmista, riippuen paikkalisten asetuksien rajoista. Voit myös määrittää oletusasetukset tapahtumatyypeille tavallisia ja palautusdokumentteja koskien, joita käytetään maksuliikenteen raportointiin.
 * **Intrastat-ilmoitusmallit**: Käytettävät Intrastat-ilmoitusmallit ja -erät on määritettävä. Koska Intrastat-tiedot raportoidaan kuukausittain, sinun on luotava 12 samaan malliin perustuvaa Intrastat-ilmoituserää.  
 * **Kauppatavarakoodit**: Tulli- ja veroviranomaiset ovat luoneet nimikkeiden ja palvelujen luokittelua varten numeeriset koodit. Nämä koodit määritetään nimikkeissä.
-* **Kauppatapahtuman luonteen koodit**: Mailla ja alueilla on eri koodit Intrastat-tapahtumatyypeille, kuten tavallisille ostoille ja myynneille, palautettujen tavaroiden vaihdolle ja palauttamattomien tavaroiden vaihdolle. Määritä omaa maata tai aluetta koskevat koodit. Voit käyttää niitä myynti- ja ostoasiakirjoissa ja palautusten käsittelyssä.  
+* **Kauppatapahtuman luonteen koodit**: Mailla ja alueilla on eri koodit Intrastat-tapahtumatyypeille, kuten tavallisille ostoille ja myynneille, palautettujen tavaroiden vaihdolle ja palauttamattomien tavaroiden vaihdolle. Määritä omaa maata tai aluetta koskevat koodit. Voit käyttää niitä myynti- ja ostoasiakirjoissa ja palautusten käsittelyssä. 
+
+    > [!NOTE]
+    > Tammikuusta 2022 alkaen Intrastat edellyttää eri tapahtuman luonteen koodia yksityishenkilöille tai ALV-rekisteröitymättömille yrityksille suunnatuille ja ALV-rekisteröityneille yrityksille osoitetuille toimituksille. Tämän vaatimuksen täyttämiseksi on suositeltavaa tarkistaa tapahtumien luonteiden koodit ja/tai lisätä uusia sellaisia **Tapahtumien tyypit** -sivulle kulloisenkin maan vaatimusten mukaisesti. Lisäksi kannattaa tarkistaa ja päivittää **Kumppanityyppi**-kenttä muotoon *Henkilö* asianomaisten asiakkaiden eli yksityishenkilöjen ja ALV-rekisteröimättömien yritysten **Asiakas**-sivulla. Jos et ole varma oikeasta kumppani- tai tapahtumatyypistä, suosittelemme, että pyydät samassa maassa tai samalla alueella asuvan asiantuntijan neuvoa. 
+ 
 * **Kuljetusmuodot**: Intrastat-kuljetusmuodoilla on seitsemän yksimerkkistä koodia. **1** tarkoittaa merikuljetusta, **2** rautatiekuljetusta, **3** tiekuljetusta, **4** ilmakuljetusta, **5** postitusta, **7** kiinteää asennusta ja **9** omaa käyttövoimaa (kuten auton kuljettaminen sitä ajamalla). [!INCLUDE[prod_short](includes/prod_short.md)] ei edellytä näitä koodeja, mutta suosituksena on käyttää merkitykseltään vastaavia kuvauksia.  
 * **Tapahtumamääritykset**: Voit täydentää näiden määritysten avulla tapahtumatyyppien kuvauksia.  
 * **Alkuperämaa** : Käytä kaksikirjaimisia ISO-alfakoodeja sen maan osalta, jossa tuote hankittiin tai tuotettiin. Jos tuotetta on tuotettu useammassa kuin yhdessä maassa, alkuperämaa on viimeinen maa, jossa sitä käsiteltiin merkittävästi. 
@@ -110,7 +114,19 @@ Kun olet täyttänyt Intrastat-ilmoituksen, voit suorittaa **Tarkistusluettelo-r
 Eräajo hakee kaikki tämän tilastokauden nimiketapahtumat ja lisää ne riveiksi Intrastat-ilmoitukseen. Voit muokata rivejä tarvittaessa.  
 
 > [!IMPORTANT]  
-> Eräajo hakee vain ne tapahtumat, joilla on sellainen maa- tai aluekoodi, joille Intrastat-koodi annettiin **Maat/alueet**-sivulla. Siksi on tärkeää, että syötät Intrastat-koodit sellaisille maa-/aluekoodeille, joilla tulet tekemään eräajoja.  
+> Eräajo hakee vain ne tapahtumat, joilla on sellainen maa- tai aluekoodi, joille Intrastat-koodi annettiin **Maat/alueet**-sivulla. Siksi on tärkeää, että syötät Intrastat-koodit sellaisille maa-/aluekoodeille, joilla tulet tekemään eräajoja. Eräajo määrittää **Kumppanin ALV-tunnus** -kentän arvoksi *QV999999999999* yksityishenkilöillä ja ALV-rekisteröimättömillä yrityksillä (asiakkailla, joiden **Kumppanityyppi**-kentän arvo on *Henkilö*) ja käyttää kirjatun nimiketapahtumamerkinnän tai työtapahtumamerkinnän **Tapahtuman tyyppi** -kentän arvoa. 
+
+### <a name="to-modify-intrastat-journals-lines"></a>Intrastat-ilmoitusten rivien muokkaaminen
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Intrastat-ilmoitus** ja valitse sitten vastaava linkki.  
+2. Valitse **Intrastat-ilmoitus**-sivulla **Erän nimi** -kentässä käsiteltävä kirjauskansion erä ja valitse sitten **OK**.  
+3. Intrastat-ilmoitusten rivien suodattamiseen tietyin perustein käytetään suodatinruutua. Esimerkiksi **Kumppanin ALV-tunnus** -kentissä voi käyttää suodattimena arvoa *QV999999999999*.
+4. Valitse **Jaa**-kuvake ![Jaa sivu toisessa sovelluksessa.](media/share-icon.png) ja valitse **Muokkaa Excelissä**
+5. Muokkaa suodattamiasi Intrastat-ilmoituksen rivejä Excelissä. Muokkaa esimerkiksi **Tapahtuman tyyppi** -kentän arvoja.  
+6. Julkaise Excelissä tehdyt muutokset takaisin kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]
+
+> [!Note]
+> [!INCLUDE[prod_short](includes/prod_short.md)] -versioissa, jotka eivät tue ilmoitusten osalta [**Muokkausta Excelissä**](across-work-with-excel.md#edit-in-excel), voit [luoda määrityspaketteja](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package) Intrastat-ilmoitusten Excellin viemistä ja sieltä tuomista varten. 
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Intrastat-raportointi lomakkeella tai tiedostona
 
