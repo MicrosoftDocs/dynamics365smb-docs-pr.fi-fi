@@ -1,24 +1,24 @@
 ---
-title: Rakennetiedot – suunnittelun parametrit
-description: Tässä aiheessa kuvataan eri suunnitteluparametrit, joita voit käyttää, ja miten ne vaikuttavat suunnittelujärjestelmään.
+title: Rakennetiedot – Suunnitteluparametrit | Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan, mitä suunnitteluparametreja Business Central -sovelluksessa voi käyttää.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 07/21/2021
-ms.author: edupont
-ms.openlocfilehash: 8d797d88930930d2cc1123a0068e44d0de3035df
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.date: 04/20/2020
+ms.author: sgroespe
+ms.openlocfilehash: 8f988be119132765fb02287c3935495e98f29b31
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649810"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3272036"
 ---
 # <a name="design-details-planning-parameters"></a>Rakennetiedot: suunnittelun parametrit
-Tässä ohjeaiheessa kerrotaan, mitä suunnitteluparametreja [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa voi käyttää.  
+Tässä ohjeaiheessa kerrotaan, mitä suunnitteluparametreja [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa voi käyttää.  
 
 Tapa, jolla suunnittelujärjestelmä ohjaa nimikkeen tarjontaa, määritetään nimikekortin tai varastointiyksikön kortin asetuksissa ja tuotannon asetusten asetuksissa. Seuraavassa taulukossa esitetään, kuinka näitä parametreja käytetään suunnittelussa.  
 
@@ -82,25 +82,25 @@ Rationaalinen toimitussuunnitelma saadaan, kun suunnittelija hienosäätää suu
 
 Uudelleenajoitusjakson, puskuriajan ja erän koontijakson ajoitus perustuu tarjonnan päivämäärään. Aikaväli perustuu suunnittelun alkupäivämäärään seuraavassa kuvassa esitetyllä tavalla.  
 
-![Aikavälin elementit.](media/supply_planning_5_time_bucket_elements.png "Aikavälin elementit")  
+![Aikavälin elementit](media/supply_planning_5_time_bucket_elements.png "Aikavälin elementit")  
 
 Seuraavassa esimerkissä mustat nuolet kuvaavat olemassa olevaa tarjontaa (ylöspäin) ja kysyntää (alaspäin). Punaiset, vihreät ja oranssit nuolet ovat suunnitteluehdotuksia.  
 
 **Esimerkki 1**: muutettu päivämäärä on uudelleenajoitusjakson ulkopuolella, joka aiheuttaa olemassa olevan tarjonnan peruutuksen. Uutta tarjontaa on ehdotettu kattamaan kysyntää erän koontijaksossa.  
 
-![Uudelleenajoitusjakso ja erän koontijakso.](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Uudelleenajoitusjakso ja erän koontijakso")  
+![Uudelleenajoitusjakso ja erän koontijakso](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Uudelleenajoitusjakso ja erän koontijakso")  
 
 **Esimerkki 2**: muutettu päivämäärä on uudelleenajoitusjaksolla, joka aiheuttaa olemassa olevan tarjonnan uudelleenajoittamisen. Uutta tarjontaa on ehdotettu kattamaan kysyntää erän koontijakson ulkopuolella.  
 
-![Uudelleenajoitusjakso, erän koontijakso ja aikatauluttaminen uudelleen.](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Uudelleenajoitusjakso, erän koontijakso ja aikatauluttaminen uudelleen")  
+![Uudelleenajoitusjakso, erän koontijakso ja aikatauluttaminen uudelleen](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Uudelleenajoitusjakso, erän koontijakso ja aikatauluttaminen uudelleen")  
 
 **Esimerkki 3**: puskuriajalla on kysyntää ja tarjonnan määrä erän koontijaksolla vastaa tarjonnan määrää. Seuraava kysyntä on katteeton ja uutta tarjontaa esitetään.  
 
-![Puskuriaika ja erän koontijakso.](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Puskuriaika ja erän koontijakso")  
+![Puskuriaika ja erän koontijakso](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Puskuriaika ja erän koontijakso")  
 
 **Esimerkki 4**: puskuriajalla on kysyntää ja tarjonta pysyy samalla päivämäärällä. Nykyisen tarjonnan määrä ei kuitenkaan riitä kattamaan kysyntää erän koontijaksolla, joten järjestelmä ehdottaa muuta määrä -toimenpidettä olemassa olevalle toimitustilaukselle.  
 
-![Puskuriaika, erän koontijakso ja muutosmäärä.](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Puskuriaika, erän koontijakso ja muutosmäärä")  
+![Puskuriaika, erän koontijakso ja muutosmäärä](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Puskuriaika, erän koontijakso ja muutosmäärä")  
 
 **Oletusarvot:** **Aikaväli**-kentän ja kolmen uudelleenjärjestelyjakson kentän oletusarvo on tyhjä. **Puskuriaika**-kenttää lukuun ottamatta arvo on muissa kentissä 0D (nolla päivää). Jos **Puskuriaika**-kenttä on tyhjä, käytetään **Tuotannon asetukset** -sivulla olevan **Oletuspuskuriaika**-kentän arvoa.  
 
@@ -114,32 +114,9 @@ Määrää vähennetään, jos se ylittää maksimitilausmäärän. Tämän jäl
 
 Jos käytetään **Varasto-ohjautuva**-vaihtoehtoa, tilaukset koskevat vain kysymyksessä olevaa nimikettä.  
 
-Jos käytetään **Tilausohjattu**-vaihtoehtoa, suunnittelujärjestelmä analysoi nimikkeen tuotannon tuoterakenteen ja luo ylimääräiset linkitetyt tilausehdotukset näille alemman tason nimikkeille, joilla on myös Tilausohjattu-määritys. Tämä jatkuu niin kauan kunnes laskevissa tuoterakenteissa on tilausohjautuvia nimikkeitä.
-
-## <a name="use-low-level-codes-to-manage-derived-demand"></a>Johdetun kysynnän hallinta matalan tason koodien avulla
-
-Matalan tason koodien avulla komponenttien johdettu kysyntä etenee tuoterakenteen alemmille tasoille. Tarkempi selvitys tästä on kohdassa [Nimikkeen prioriteetti/alatason koodi](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
-
-Alatason koodin voi määritellä kullekin tuoterakenteen tai sisennetyn tuoterakenteen osalle. Ylin lopullinen kokoonpanon taso merkitään tasoksi 0 – loppunimikkeeksi. Mitä suurempi alatason koodin numero on, sitä matalammalla nimike on hierarkiassa. Esimerkiksi loppunimikkeiden alatason koodi on 0 ja loppunimikkeen kokoonpanoon kuuluvien nimikeosien alatasojen koodit ovat 1, 2, 3 ja niin edelleen. Tulos on komponenttiosien suunnittelu, jota ohjaavat kaikkien ylätason osien numeroiden vaatimukset. Kun suunnitelmaa lasketaan, tuoterakenne puretaan suunnittelutyökirjassa, ja tason 0 bruttotarpeet siirretään suunnittelutasoja alaspäin seuraavan suunnittelutason bruttotarpeeksi.
-
-Valitse **Dynaaminen alatason koodi** -kenttä, jos haluat määrittää, määritetäänkö ja lasketaanko tuoterakenteen kullekin komponentille välittömästi alatason koodit. Jos tietoja on paljon, tällä toiminnolla voi olla negatiivinen vaikutus ohjelman suorituskykyyn esimerkiksi automaattisen kustannusten muuttamisen aikana. Muistathan, että toiminto ei ole takautuva, joten sen käyttämistä kannattaa harkita ennalta.
-
-Kentän valinnan jälkeen dynaamisesti tehtävän automaattisen laskennan sijaan voit suorittaa **Laske alatason koodi** -eräajon valitsemalla  **Tuotanto**-valikossa **Tuotesuunnittelu**, **Laske alatason koodi**.
-
-> [!IMPORTANT]
-> Jos et valitse **Dynaaminen alatason koodi** -kenttää, aja **Laske alatason koodi** -eräajo ennen toimitussuunnitelman laskemista (**Laske suunnitelma** -eräajo).  
-
-> [!NOTE]
-> Vaikka **Dynaaminen alatason koodi** -kenttä on valittu, komponenttinimikkeiden alatason koodeja ei muuteta dynaamisesti, jos päätuoterakenne on poistettu tai sitä ei ole hyväksytty. Tämä voi aiheuttaa ongelmia uusien nimikkeiden lisäyksessä tuoterakenteen loppupäässä, koska alatason koodien enimmäismäärä saattaa ylittyä. Sen vuoksi **Laske alatason koodi** -eräajo kannattaa suorittaa säännöllisesti suurissa tuoterakenteissa, joissa saavutetaan alatason koodien rajan, jotta rakenne säilyy.  
-
-### <a name="optimize-low-level-code-calculation"></a>Optimoi alatason koodin laskenta
-
-Valitse **Optimoi alatason koodin laskenta** -kenttä, jos haluat määrittää, että haluat käyttää uutta, nopeampaa alatason koodin laskentamenetelmää. Huomaa, että uusi laskenta tehdään eri tavalla, ja sen käyttö saattaa rikkoa laajennuksia, jotka perustuvat aiemmin luotuun menetelmään. Uusi laskentamenetelmä korvaa nykyisen menetelmän tulevassa julkaisussa.
+Jos käytetään **Tilausohjattu**-vaihtoehtoa, suunnittelujärjestelmä analysoi nimikkeen tuotannon tuoterakenteen ja luo ylimääräiset linkitetyt tilausehdotukset näille alemman tason nimikkeille, joilla on myös Tilausohjattu-määritys. Tämä jatkuu niin kauan kunnes laskevissa tuoterakenteissa on tilausohjautuvia nimikkeitä.  
 
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)   
 [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)   
 [Rakennetiedot: Suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

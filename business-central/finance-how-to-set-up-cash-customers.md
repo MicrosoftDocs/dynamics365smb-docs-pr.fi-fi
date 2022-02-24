@@ -1,47 +1,41 @@
 ---
-title: Käteisasiakkaiden määrittäminen
-description: Tässä aiheessa kuvataan vaiheet, joita tarvitaan laskun määrittämiseen asiakasnumerolla käteisellä maksavia asiakkaita varten.
+title: Käteisasiakkaiden määrittäminen | Microsoft Docs
+description: Tässä ohjeaiheessa käsitellään vaiheet, joilla käteisellä maksava asiakas määritetään.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 21, 22
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 7b021b957d2984d2b2ea239c1e8f737d90071215
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: ebef3cd903472a22a9e2676d0856107da3be9c0a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973438"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3183306"
 ---
 # <a name="set-up-cash-customers"></a>Käteisasiakkaiden määrittäminen
-
 Laskua ei voi luoda ilman asiakasnumeroa. Näin on, vaikka teet käteismyynnin, eikä asiakastilille ole mitään tallennettavaa.  
 
-## <a name="to-set-up-a-cash-customer"></a>Käteisasiakkaiden määrittäminen
-
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakas** ja valitse sitten vastaava linkki.  
-2. Luo uusi **Asiakkaan** kortti. Lisätietoja on kohdassa [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md).
-3. Valitse **Nro**-kenttään esimerkiksi **Käteismyynti**.  
-4. Syötä **Nimi**-kenttään esimerkiksi **Käteismyynti**.  
-5. Täytä **Laskutus**-pikavälilehden **Asiakkaan kirjausryhmä**- ja **Ylein. liiketoim. kirjausryhmä** -kentät.  
+## <a name="to-set-up-a-cash-customer"></a>Käteisasiakkaiden määrittäminen  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakas** ja valitse sitten liittyvä linkki.  
+2.  Luo uusi **Asiakkaan** kortti. Lisätietoja on kohdassa [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md).
+3.  Valitse **Nro**-kenttään esimerkiksi **Käteismyynti**.  
+4.  Syötä **Nimi**-kenttään esimerkiksi **Käteismyynti**.  
+5.  Täytä **Laskutus**-pikavälilehden **Asiakkaan kirjausryhmä**- ja **Ylein. liiketoim. kirjausryhmä** -kentät.  
 
  Nyt asiakas on määritetty, ja se sisältää riittävästi tietoa laskutusta varten.  
 
 > [!NOTE]  
-> Olet voinut valita kirjausryhmän, jota on käytetty myös kotimaisiin luottomyynteihin. Jos haluat ylläpitää erillistä tietoa käteismyynneistä esimerkiksi erityisellä myynti- tai myyntisaamistilillä, voit määrittää tätä varten ylimääräisen kirjausryhmän.  
->
-> Myyntisaamistilille täytyy syöttää numero kirjausryhmää varten, vaikka tilin saldo on aina 0 laskun kirjaamisen jälkeen.  
+>  Olet voinut valita kirjausryhmän, jota on käytetty myös kotimaisiin luottomyynteihin. Jos haluat ylläpitää erillistä tietoa käteismyynneistä esimerkiksi erityisellä myynti- tai myyntisaamistilillä, voit määrittää tätä varten ylimääräisen kirjausryhmän.  
+>   
+>  Myyntisaamistilille täytyy syöttää numero kirjausryhmää varten, vaikka tilin saldo on aina 0 laskun kirjaamisen jälkeen.  
 
 ## <a name="see-also"></a>Katso myös
-
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
-[Uusien asiakkaiden rekisteröiminen](sales-how-register-new-customers.md)
+[Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md)    
 [Rahoitus](finance.md)  
 
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,25 +1,27 @@
 ---
-title: Automaattisen maksujen soveltamisen säännöt
-description: Tietoja siitä, miten automaattisen maksujen soveltamisen säännöt määritetään Maksukohdistussäännöt-sivulla.
+title: Maksujen täsmäyttäminen automaattisen kohdistuksen avulla | Microsoft Docs
+description: Määritä Maksusovelluksen säännöt -sivulla säännöt, jotka hallinnoivat sitä, kuinka maksuja/pankkitapahtumia sovelletaan automaattisesti niihin liittyviin avoimiin kirjanpitotapahtumiin, kun käytät Sovella automaattisesti -toimintoa Maksujen täsmäytyskirjauskansio -sivulla.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 6eb37cbe2c4891c35b24a3ae7517add73669a2ac
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 64756cdc1a95cc0bb866fa4b7f87ecea0f1282ff
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971273"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3191929"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Automaattinen maksujen soveltamisen sääntöjen määrittäminen
+**Maksun sovellussäännöt** -sivulla määritetään sääntöjä, jotka määrittävät, miten maksuteksti (pankkitapahtumassa) kohdistetaan automaattisesti seuraavien kahden prosessin avointen tapahtumien tekstiin:
+- Määritä säännöt, jotka hallinnoivat sitä, kuinka maksuja/pankkitapahtumia sovelletaan automaattisesti niihin liittyviin avoimiin (maksamattomiin) laskuihin, hyvityslaskuihin tai muihin kirjanpitotapahtumiin, kun käytät **Sovella automaattisesti** -toimintoa **Maksujen täsmäytyskirjauskansio** -sivulla. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
 
-Määritä **Maksusovelluksen säännöt** -sivulla säännöt, jotka hallinnoivat sitä, kuinka (pankkitapahtuman) maksutekstit kohdistetaan automaattisesti niihin liittyviin avoimiin (maksamattomiin) laskuihin, hyvityslaskuihin tai muihin kirjauksiin, kun käytät **Sovella automaattisesti** -toimintoa **Maksujen täsmäytyskirjauskansio** -sivulla. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
+- Täsmäytä pankkitapahtumat automaattisesti niihin liittyviin sisäisiin pankkitilitapahtumiin valitsemalla **Täsmäytä automaattisesti** -toiminto **Pankkitilin täsmäytys** -sivulla. Lisätietoja on kohdassa [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md).
 
 Voit asettaa uuden maksun sovellussäännön valitsemalla minkä tyyppisten tietojen maksujen täsmäytyskirjauskansion rivillä tulee vastata tietoja yhdessä tai useammassa avoimessa tapahtumassa, ennen kuin liittyvä maksu yhdistetään automaattisesti avoimiin tapahtumiin. Jokaisen automaattisen sovelluksen laatu näkyy käytetyn maksun kohdistussäännön mukaan arvona **Matalasta** **Korkeaan** **Vastaavuuden luotettavuus** -kentässä **Maksujen täsmäytyskirjauskansio** -sivulla sen maksusovellussäännön mukaisesti, jota käytettiin.
 
@@ -36,7 +38,7 @@ Kohdistustietojen lisäksi seuraavaa sovelletaan maksumäärän etumerkkiin:
 - Positiivisille määrille täsmäytys tehdään ensin toimittajan laskuja edustavia avoimia tapahtumia vastaan ja sitten asiakkaan hyvityslaskuja vastaan.
 
 ## <a name="to-set-up-a-payment-application-rule"></a>Maksun sovellussäännön asettaminen
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksukohdistussäännöt** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Maksujen sovellussäännöt** ja valitse sitten liittyvä linkki.
 2. Määritä uusi tai muokattu maksun sovellussääntö täyttämällä rivin kentät seuraavassa taulukossa kuvatulla tavalla.
 
 |Kenttä|Kuvaus|
@@ -46,12 +48,11 @@ Kohdistustietojen lisäksi seuraavaa sovelletaan maksumäärän etumerkkiin:
 |**Liittyvän osapuolen vastaavuus**|Määrittää, kuinka paljon tietoja asiakkaasta tai toimittajasta, kuten osoite, kaupungin nimi ja pankkitilin numero, tulee vastata maksujen täsmäytyskirjauskansion rivillä avoimen tapahtuman tietoihin, ennen kuin sovellussääntöä käytetään soveltamaan automaattisesti maksua avoimeen tapahtumaan.|
 |**Asiak. nro / Ulk. asiak. nro vastaavuus**|Määrittää, pitääkö maksujen täsmäytyskirjauskansion rivin tekstin vastata avoimen tapahtuman **Asiakirjan nro**- vai **Ulkoisen asiakirjan nro** - kentän arvoa, ennen kuin kohdistussääntö automaattisesti kohdistaa maksun avoimeen tapahtumaan.|
 |**Kohdistustoleranssin sis. summa**|Määrittää, kuinka monen asiakkaan tai toimittajan tapahtumanon vastattava summaa, maksutoleranssi mukaan lukien, ennen kuin kohdistussääntöä käytetään automaattisesti kohdistamaan maksu avoimeen tapahtumaan.|
-|**Tarkistus vaaditaan**|Määrittää, suositetaanko automaattista maksukohdistusta käyttäjän manuaaliseen tarkistukseen ennen kirjausta. **Tarkistettavat rivit** -kentän valitseminen **Maksujen kohdistuksen kirjauskansio** -sivulla aloittaa ohjatun käyttökokemuksen, jossa voit helposti tarkastella useita kohdistuksia **Maksun kohdistuksen tarkistus** -sivulla.|
 
-Seuraavassa taulukossa kuvataan [!INCLUDE[prod_short](includes/prod_short.md)]in maksujen vakiokohdistuksen säännöt.
+Seuraavassa taulukossa on esitetty, mitä maksun kohdistuksen sääntöjä [!INCLUDE[d365fin](includes/d365fin_md.md)]-järjestelmän yleisessä versiossa on määritetty.
 
 > [!Important]
-> Maksun kohdistussäännöt saattavat vaihdella [!INCLUDE[prod_short](includes/prod_short.md)]-järjestelmän asennuksessasi.
+> Maksun kohdistussäännöt saattavat vaihdella [!INCLUDE[d365fin](includes/d365fin_md.md)]-järjestelmän asennuksessasi.
 
 | Vastaavuuden luotettavuus | Prioriteetti | Liittyvän osapuolen vastaavuus | Asiak. nro / Ulk. asiak. nro Vastaavuus | Kohdistustoleranssin sis. summa |
 |------------------|----------|-----------------------|--------------------------------|--------------------------------|
@@ -86,7 +87,4 @@ Seuraavassa taulukossa kuvataan [!INCLUDE[prod_short](includes/prod_short.md)]in
 [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Myynti](sales-manage-sales.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

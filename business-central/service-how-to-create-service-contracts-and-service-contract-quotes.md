@@ -1,27 +1,29 @@
 ---
 title: Huoltosopimusten ja huoltosopimustarjousten käsitteleminen | Microsoft Docs
 description: Huoltosopimus voidaan luoda joko manuaalisesti tai huoltosopimustarjouksesta. Voit luoda huoltosopimuksen huoltosopimustarjouksen perusteella.
+services: project-madeira
+documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: d011b97c81492af0ac796d08693084cf65bb7712
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 69cc8f393e60d30b5dd7fefdd3f5a49df5aaede3
+ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436374"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553914"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Huoltosopimusten ja huoltosopimustarjousten käyttäminen
 Huoltosopimus voidaan luoda joko manuaalisesti tai huoltosopimustarjouksesta. Huoltosopimustarjousta voidaan käyttää huoltosopimuksen esiasteena, jossa yrityksesi tekee asiakkaalle tarjouksen ja joka tarvitsee asiakkaan hyväksynnän, ennen kuin se voidaan muuntaa huoltosopimukseksi. Tämän vuoksi huoltosopimus ja huoltotarjous luodaan pitkälti samalla tavoin.  
 
 ## <a name="to-create-a-service-contract-or-service-contract-quote"></a>Huoltosopimuksen tai -sopimustarjouksen luominen  
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimukset** tai **Huoltosopimustarjoukset** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimukset** tai **Huoltosopimustarjoukset** ja valitse sitten liittyvä linkki.  
 2. Luo uusi huoltosopimus tai huoltosopimustarjous.  
 3. Syötä **Nro** -kentässä. Näyttöön avautuu valintaikkuna, jossa kysytään, haluatko täyttää yleiset tiedot sopimusmallista. Jos haluat luoda tällaisen huoltosopimuksen tai huoltosopimustarjouksen, valitse **Kyllä**-painike. Näyttöön tulee **Huoltosopimusmallin luettelo** -sivu.  
 4. Valitse soveltuva malli ja luo sen avulla huoltosopimus tai huoltosopimustarjous valitsemalla **OK**.  
@@ -46,7 +48,7 @@ Muiden kuin yksityiskohtaisten sopimusten laskutettu summa lasketaan seuraavasti
 * laskutettu summa = (vuosittainen summa / vuoden päivien lukumäärä) * aloitusjakson päivien lukumäärä.  
 * Jos sopimus menee vanhaksi ennen kuin aloitusjakso päättyy, vanhentumispäivämäärästä tulee aloitusjakson lopetuspäivämäärä.    
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimustarjoukset** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimustarjoukset** ja valitse sitten liittyvä linkki.  
 2. Avaa huoltosopimukseksi muunnettava huoltosopimustarjous.  
 3. Valitse **Tee sopimus** -toiminto.  
 4. Ohjelman voi antaa samaan aikaan luoda huoltolaskun sopimuksen aloitusjaksolta, jos sopimuksen aloituspäivämäärä on ennen seuraavan laskutusjakson alkua. Valitse **Kyllä**.  
@@ -56,7 +58,7 @@ Muiden kuin yksityiskohtaisten sopimusten laskutettu summa lasketaan seuraavasti
 ## <a name="to-create-contract-service-credit-memos"></a>Huoltosopimuksen hyvityslaskujen luominen
 Sopimusten huoltohyvityslaskuja voi käyttää silloin, kun asiakas peruuttaa ennakkoon maksetun huoltosopimuksen tai poistaa ennakkoon maksetusta sopimuksesta huoltonimikkeen (sopimusrivin). Niitä voi käyttää myös korjaamaan virheellisen huoltolaskun.  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huollon hyvityslaskut** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huollon hyvityslaskut** ja valitse sitten liittyvä linkki.  
 2. Luo uusi huollon hyvityslasku.  
 3. Syötä **Nro** -kentässä.  
 4. Syötä **Asiakasnro** -kentässä huoltosopimuksessa olevan asiakkaan numero.  
@@ -64,7 +66,7 @@ Sopimusten huoltohyvityslaskuja voi käyttää silloin, kun asiakas peruuttaa en
      **Asiakas**-kortista kopioidut tiedot näkyvät **Laskutus**-pikavälilehdessä. Jos haluat kirjata hyvityslaskun muulle kuin **Yleinen**-pikavälilehdessä määritetylle asiakkaalle, anna kyseisen asiakkaan numero **Laskutusasiakkaan nro** -kentässä. -kentässä.  
 
     > [!NOTE]  
-    >  Hyvityslaskua voi verrata alkuperäiseen kirjattuun asiakirjaan esimerkiksi **Kirjatut huoltolaskut** -sivulla. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut huoltolaskut** ja valitse sitten vastaava linkki.  
+    >  Hyvityslaskua voi verrata alkuperäiseen kirjattuun asiakirjaan esimerkiksi **Kirjatut huoltolaskut** -sivulla. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut huoltolaskut** ja valitse sitten liittyvä linkki.  
 
 5. Täytä **Kirjauspvm**- ja **Asiakirjan pvm** -kentät.  
 6. Syötä hyvityslaskun riveille tietoja lähetettävästä myyntialennuksesta tai nimikkeistä, jotka on palautettu tai poistettu. Voit käyttää myös **Hae enn. maksetut sop.tapaht.** -eräajoa.  
@@ -81,7 +83,7 @@ Voit muuttaa sopimuksen **Lukittu**-tilaa, lisätä ja poistaa sopimusrivejä se
 ## <a name="to-add-a-contract-line-to-a-service-contract-or-contract-quote"></a>Sopimusrivien lisääminen huoltosopimukseen tai sopimustarjoukseen:  
 Kun asiakas ostaa uuden nimikkeen ja haluaa sisällyttää sen olemassa olevaan huoltosopimukseen tai sopimustarjoukseen, nimike voidaan rekisteröidä huoltonimikkeeksi ja lisätä uutena sopimusrivinä sopimukseen tai sopimustarjoukseen.  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimukset** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimukset** ja valitse sitten liittyvä linkki.  
 2. Avaa huoltosopimus tai huoltosopimustarjous, johon haluat lisätä uuden sopimusrivin.  
 3. Avaa muokattava huoltosopimus tai huoltosopimustarjous valitsemalla **Avaa sopimus** -toiminto.  
 4. Siirry **Laskun yksityiskohdat** -pikavälilehteen ja valitse **Salli epätäsmäävät summat** -kentän valintaruutu, jos haluat muuttaa vuosittaista summaa ja jakaa vuosittaisen summan eron manuaalisesti sopimusriveille. Muussa tapauksessa poista valinta **Salli epätäsmäävät summat** -kentän valintaruudusta. Tällöin ohjelma jakaa vuosittaisen summan eron automaattisesti sopimusriveille, kun vuosittaista summaa on muutettu.  
@@ -91,7 +93,7 @@ Kun asiakas ostaa uuden nimikkeen ja haluaa sisällyttää sen olemassa olevaan 
 ## <a name="to-remove-contract-lines"></a>Sopimusrivien poistaminen  
 Huoltosopimuksesta voidaan joutua poistamaan sopimusrivejä, kun huoltonimike poistetaan huoltosopimuksesta. Sopimusrivi poistetaan tavallisesti, kun se vanhenee, tai kun huoltonimike, jota se koskee, on särkynyt.  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimukset** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimukset** ja valitse sitten liittyvä linkki.  
 2. Avaa huoltosopimus, josta haluat poistaa sopimusrivejä.  
 3. Avaa muokattava huoltosopimus valitsemalla **Avaa sopimus** -toiminto.  
 4. Valitse poistettava sopimusrivi. Kirjoita **Sopimuksen umpeutumispvm** -kenttään päivämäärä, jolloin haluat poistaa rivin. Voit määrittää esimerkiksi päivämäärän, jolloin huoltonimike särkyi.  
@@ -122,7 +124,7 @@ Huoltosopimusrivien **Rivikustannus**- ja **Rivin arvo** -summat lasketaan seura
 ## <a name="to-add-a-contract-discount-to-service-contract-quotes"></a>Sopimusalennusten lisääminen huoltosopimustarjouksiin  
 Huolloille voi lisätä sopimusalennuksia sopimustarjousten ja huoltosopimusten osalta. Alennuksia voi antaa varaosille tietyissä huoltonimikeryhmissä, resurssitunneille tietyissä resurssiryhmissä olevien resurssien osalta sekä tietylle resurssikustannuksille.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimustarjoukset** ja valitse vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimustarjoukset** ja valitse liittyvä linkki.  
 2. Valitse tarjous, johon alennukset lisätään.  
 3. Valitse **Huoltoalennukset**-toiminto. **Sopimus-/huoltoalennukset**-sivu aukeaa.  
 4. Luo uusi sopimusalennus valitsemalla **Uusi**-toiminto.  
@@ -142,7 +144,7 @@ SInun täytyy ehdkä vaihtaa huoltosopimuksen haltijaa. Jos huoltosopimuksen huo
 >   
 >  Esimerkki: Huoltonimike nro 8 kuuluu sopimuksiin SC00003 ja SC00015. Sopimus SC00015 puolestaan sisältää huoltonimikkeen nro 15, joka kuuluu myös sopimukseen SC00080. Tässä tapauksessa kaikkien näiden kolmen sopimuksen ja huoltonimikkeen haltija vaihdetaan.  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimukset** ja valitse sitten vastaava linkki. Avaa asianmukaienn huoltosopimus, jonka omistajaa haluat muuttaa.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimukset** ja valitse sitten liittyvä linkki. Avaa asianmukaienn huoltosopimus, jonka omistajaa haluat muuttaa.  
 2. Avaa muokattava sopimus valitsemalla **Avaa sopimus** -toiminto.  
 3. Valitse **Vaihda asiakas** -toiminto. **Muuta asiakasta sopimuksessa** -sivu aukeaa.  
 4. **Sopimusnro**- ja **Huoltonimikkeen nro** -kentissä voi tarkistaa valitun asiakkaan omistaman sopimuksen ja huoltonimikkeen numerot. Jos asiakkaalla on useita sopimuksia ja sopimuksissa on useita huoltonimikkeitä, kenttien arvo on **Useampi**. Valitse nämä kenttäarvot nähdäksesi sopimusten tai huoltonimikkeiden luettelon.  
@@ -154,7 +156,7 @@ SInun täytyy ehdkä vaihtaa huoltosopimuksen haltijaa. Jos huoltosopimuksen huo
 ## <a name="to-update-a-service-contract-price"></a>Päivitä huoltosopimuksen hinnat  
 Huoltosopimusten hintoja voi päivittää määrittelemällä hinnanmuutosprosentin.  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Päivitä huoltosopimuksen hinnat** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Päivitä huoltosopimuksen hinnat** ja valitse sitten liittyvä linkki.
 2. Valitse huoltosopimus.  
 3. Anna päivämäärä **Päivitä pvm:ään asti** -kentässä. Eräajo päivittää hinnat sopimuksissa, joiden seuraava hinnan päivityspäivämäärä on kyseisenä päivämääränä tai sitä ennen.  
 4. Anna **Hinnanpäivitys-%**-kenttään prosentti, jolla haluat päivittää hintoja.  
@@ -165,7 +167,7 @@ Jos työskentelet ennakkoon maksettujen huoltosopimusten parissa, ennakkoon maks
 
 Ennen kuin ennakkoon maksettuja sopimustapahtumia voi kirjata, **Huoltohallinnon asetukset** -sivun **Enn. maks. kirj.asiakirj. nrot** -kenttään tulee määrittää numerosarja.  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjaa enn.maksetut sop.tap.** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjaa enn.maksetut sop.tap.** ja valitse sitten liittyvä linkki.  
 2. Anna päivämäärä **Kirjaa pvm:ään asti** -kentässä. Eräajo kirjaa ennakkoon maksetut huoltotapahtumat, joiden kirjauspäivämäärä on ennen tähän kenttään määritettyä päivämäärää.  
 4. Anna **Kirjauspvm**-kenttään päivämäärä, jota haluat käyttää kirjauspäivämääränä yleisen päiväkirjan rivillä.  
 5. Valitse **Toiminto**-kentässä **Kirjaa ennak.maksetut sop.tap**.  
@@ -183,7 +185,7 @@ Sopimus voi olla tarpeen peruuttaa ohjelmassa, kun sopimus on vanhentunut tai ku
 > [!NOTE]  
 >  Peruutettua sopimusta ei voi avata uudelleen.  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimukset** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimukset** ja valitse sitten liittyvä linkki.  
 2. Avaa peruutettava huoltosopimus.  
 3. Avaa muokattava huoltosopimus valitsemalla **Avaa sopimus** -toiminto.  
 4. Valitse sopiva syykoodi **Peruuta syykoodi** -kentässä. Voit lisätä syykoodeja valitsemalla **Lisäasetukset**-toiminnon.  
@@ -194,12 +196,9 @@ Sopimus voi olla tarpeen peruuttaa ohjelmassa, kun sopimus on vanhentunut tai ku
 6. Jos sopimuksella on kirjaamattomia laskuja, hyvityslaskuja tai avattuja ennakkoon maksettuja tapahtumia , vahvistussanoma avautuu. Valitse sanomaruudussa **Ei**, jos haluat palata sopimukseen ja kirjata asiakirjat, tai **Kyllä**, jos haluat jatkaa peruuttamista.  
 
 ## <a name="filing-a-service-contract-or-contract-quote"></a>Huoltosopimuksen ja sopimustarjouksen arkistoiminen  
-Huoltosopimuksia ja sopimustarjouksia voi arkistoida milloin vain, jotta sopimuksesta tai huoltosopimuksesta voitaisiin tallentaa kopio. [!INCLUDE[prod_short](includes/prod_short.md)] arkistoi huoltosopimuksia automaattisesti silloin, kun sopimustarjouksia muunnetaan huoltosopimuksiksi, tai kun huoltosopimuksia peruutetaan. Voit arkistoida sopimuksen tai tarjouksen itse valitsemalla **Arkistoi sopimus** -toiminnon **Huoltosopimukset**- tai **Huoltosopimustarjoukset**-sivulla. Jos haluat tarkastella arkistoituja tarjoussopimuksia, voit hakea niitä hakusanalla **Arkistoidut sopimukset**.
+Huoltosopimuksia ja sopimustarjouksia voi arkistoida milloin vain, jotta sopimuksesta tai huoltosopimuksesta voitaisiin tallentaa kopio. [!INCLUDE[d365fin](includes/d365fin_md.md)] arkistoi huoltosopimuksia automaattisesti silloin, kun sopimustarjouksia muunnetaan huoltosopimuksiksi, tai kun huoltosopimuksia peruutetaan. Voit arkistoida sopimuksen tai tarjouksen itse valitsemalla **Arkistoi sopimus** -toiminnon **Huoltosopimukset**- tai **Huoltosopimustarjoukset**-sivulla. Jos haluat tarkastella arkistoituja tarjoussopimuksia, voit hakea niitä hakusanalla **Arkistoidut sopimukset**.
 
 ## <a name="see-also"></a>Katso myös  
 [Huoltosopimusten määrittäminen](service-how-setup-service-contracts.md)  
 [Huoltohallinto](service-service.md)  
 [ALV-summia sisältävien huoltosopimusten muuntaminen](service-how-to-convert-service-contracts.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

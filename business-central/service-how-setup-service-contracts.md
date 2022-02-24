@@ -1,21 +1,21 @@
 ---
-title: Huoltosopimusten määrittäminen
-description: Lue, miten voit määrittää huoltosopimuksia, joilla on vaaditut edellytykset, kuten huoltosopimusryhmät, sopimusmallit ja asiakasmallit.
+title: Huoltosopimusten määrittäminen | Microsoft Docs
+description: Lisätietoja huoltosopimusten määrittämisestä.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, cost, service order
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 65bee9492ebf24eb90ef8b22025a09e36d3602fa
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 96928809525ef07ee82725bad5dd7f6ac4b7a6e0
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436574"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2877349"
 ---
 # <a name="set-up-service-contracts"></a>Huoltosopimusten määrittäminen
 Seuraavat on määritettävä, ennen kuin sopimuksia voi käyttää: 
@@ -23,22 +23,22 @@ Seuraavat on määritettävä, ennen kuin sopimuksia voi käyttää:
 * **Huoltosopimusryhmät** kerää yhteen toisiinsa jollain tavoin liittyvät huoltosopimukset.
 * **Huoltosopimuksen tiliryhmiä** käytetään ryhmittelemään yhteen huoltosopimuksille luotujen huoltolaskujen huoltosopimustilit. Voit määrittää nämä ryhmät huoltosopimuksille.  
 * **Sopimusmallit** määrittävät sopimusten asettelut sopimuksille, jotka sisältävät yleisimmin käytetyt huoltosopimusten tiedot. Kun luot huoltosopimustarjouksia, voit luoda ne käyttämällä malleja. Kun luot sopimustarjouksen, kentissä on automaattisesti mallikenttien sisältö.
-* **Asiakasmallien** avulla voit luoda tarjouksia yhteyshenkilöille tai mahdollisille asiakkaille, joita ei ole rekisteröity asiakkaiksi [!INCLUDE[prod_short](includes/prod_short.md)]issa.  
+* **Asiakasmallien** avulla voit luoda tarjouksia yhteyshenkilöille tai mahdollisille asiakkaille, joita ei ole rekisteröity asiakkaiksi [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.  
 
 ## <a name="to-set-up-a-service-contract-group"></a>Huoltosopimusryhmien määrittäminen  
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimusryhmät** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huoltosopimusryhmät** ja valitse sitten liittyvä linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Valitse **Alennus vain sopimustil.** -valintaruutu, jos haluat, että sopimus- tai huoltoalennukset ovat voimassa vain sopimushuoltotilauksille, kuten ylläpidolle.  
 
 ## <a name="to-set-up-a-service-contract-account-group"></a>Huoltosopimusten tiliryhmien määrittäminen  
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimuksen tiliryhmät** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huoltosopimuksen tiliryhmät** ja valitse sitten liittyvä linkki.  
 2. Luo uusi huoltosopimuksen tiliryhmä.   
 3. Täytä **Koodi**- ja **Kuvaus**-kentät. Nämä kentät muodostavat huoltotiliryhmän kuvauksen.  
 4. Täytä  **Ei ennak. maksettu sop. tili** -kenttä ja valitse muiden kuin ennakkoon maksettujen sopimusten tilin KP-tilinumero.  
 5. Valitse **Ennak.maksetun sopimuksen tili** -kentässä ennakkoon maksettujen sopimusten tilin KP-tilinumero.  
 
 ## <a name="to-set-up-a-contract-template"></a>Sopimusmallien määrittäminen  
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimusmallit** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huoltosopimusmallit** ja valitse sitten liittyvä linkki.  
 2. Luo uusi huoltosopimusmalli.  
 3. Valitse **Nro**-kenttään sopimusmallin numero.  
   
@@ -48,7 +48,7 @@ Seuraavat on määritettävä, ennen kuin sopimuksia voi käyttää:
 5. Lisää sopimusalennukset valitsemalla **Huoltoalennukset**-toiminto.  
 
 ## <a name="to-set-up-a-customer-template"></a>Asiakasmallien määrittäminen  
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakasmallit** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakasmallit** ja valitse sitten liittyvä linkki.  
 2. Luo uusi asiakasmallin kortti.  
 3. Anna **Yleinen**-pikavälilehden **Koodi**- ja **Kuvaus**-kentissä asiakasmallin koodi ja kuvaus. 
 4. Määritä hakuehdot täyttämällä muut kentät, kuten **Maa-/aluekoodi**, **Territorion koodi** ja **Kielikoodi**.  
@@ -56,5 +56,3 @@ Seuraavat on määritettävä, ennen kuin sopimuksia voi käyttää:
 
 ## <a name="see-also"></a>Katso myös
 [Huoltohallinnon määrittäminen](service-setup-service.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

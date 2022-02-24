@@ -5,23 +5,20 @@ ms.custom: na
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: conceptual
+ms.topic: article
 ms.service: dynamics365-business-central
 author: jswymer
-ms.author: jswymer
-ms.date: 04/01/2021
-ms.openlocfilehash: 99dd133c3f3ab05806976c5fe840f81dcd8e1403
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.openlocfilehash: 7790548828595838e6c2f626194d59260ef4e8ab
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440897"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187770"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Business Centralin tarkastussivut
 
 Saat sivun tarkastustoiminnolla tietoja sivusta sekä merkityksellisiä tietoja sivun rakenteesta, elementeistä, joista sivu koostuu, ja sivulla näkyvien tietojen lähteestä. Sivun tarkastus on suunniteltu järjestelmänvalvojille, tehokäyttäjille, tukihenkilöstölle ja kehittäjille. Sen sopii erityisesti sivun taustalla olevaan tietomalliin tutustumiseen ja vianmääritykseen. Jos sivulla on esimerkiksi ongelma, saat sivun tarkastustoiminnolla tietoja, jotka voit välittää järjestelmänvalvojalle ja tukihenkilöstölle.
-
-[!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
 ## <a name="working-with-page-inspection"></a>Sivun tarkastuksen käyttäminen
 
@@ -29,7 +26,7 @@ Sivun tarkistus aloitetaan **Ohje ja tuki** -sivulla. Valitse ensin kysymysmerkk
 
 **Sivun tarkastus** -ruutu avautuu sivulle. Seuraavassa kuvassa on **Myyntitilaus**-sivun **Sivun tarkastus** -ruutu.
 
-![Sivun tarkastus.](media/page-inspection-example.png)
+![Sivun tarkastus](media/page-inspection-example.png)
 
 Kun **Sivun tarkastus** -ruutu avautuu ensimmäisen kerran, siinä pääsivukohteeseen liittyviä tietoja.
 
@@ -47,7 +44,4 @@ Käyttäjät, joilla ei ole myönnetty käyttöoikeuksia **järjestelmäkohteess
 
 ## <a name="see-also"></a>Katso myös
 
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

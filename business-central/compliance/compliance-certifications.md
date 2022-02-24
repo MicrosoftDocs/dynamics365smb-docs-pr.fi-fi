@@ -1,50 +1,42 @@
 ---
-title: Palvelun sertifioinnit
-description: Tämä sisältö sisältää tietoja Business Centraliin liittyvistä sertifikaateista, kuten aluekohtaisista sertifikaateista ja akkreditoinneista.
+title: Varmenteet | Microsoft Docs
+description: Tässä sisällössä on tietoja Business Centraliin liittyvistä varmenteista.
 author: sorenfriisalexandersen
+documentationcenter: ''
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 04/01/2020
 ms.author: soalex
-ms.openlocfilehash: c34c3843751fda22365479060fc979b2f14ea8f1
-ms.sourcegitcommit: 8566399d5181f1c171c7536fff9c890a34e94ba4
+ms.openlocfilehash: 1dde92217278ad8f4b5f8805afe052b06d6fc64b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6373185"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185946"
 ---
-# <a name="certifications"></a>Sertifikaatit
+# <a name="certifications"></a>Sertifikaatit  
+Tässä sisällössä on tietoja [!INCLUDE[d365fin](../includes/d365fin_md.md)]iin liittyvistä varmenteista.  
 
-Tässä sisällössä on tietoja [!INCLUDE[prod_short](../includes/prod_short.md)]iin liittyvistä varmenteista.  
-
-## <a name="countryregion-specific-certifications-and-accreditations"></a>Maa tai aluekohtaiset sertifioinnit ja akkreditoinnit
-
-Joissakin maissa tai alueilla kirjanpito-ohjelmiston on sertifioitava paikallisia verosäädöksiä ja taloushallintovaatimuksia noudattavaksi. Joissakin maissa se on tehtävä vuosittain, kun taas toisissa riittää, että se tehdään kerran. Seuraavassa luettelossa on mainittu maat ja alueet, joissa Business Centralilla on kyseiset sertifioinnit.
-
-> [!NOTE]
-> Tämä vaatimus on vain joissakin maissa.
-
-- Ranska (verotarkastustodistus) [(hae tuotteen nimen perusteella osoitteessa https://certificates.infocert.org/#)](https://certificates.infocert.org/#)  
-- Saksa (kattaa myös Itävallan ja Sveitsin) [(linkki saksankieliseen sertifiointiin)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)  
+## <a name="country-certifications-and-accreditations"></a>Maakohtaiset sertifioinnit ja akkreditoinnit
+Joissakin maissa kirjanpito-ohjelmiston on sertifioitava paikallisia verosäädöksiä ja taloushallintovaatimuksia noudattavaksi. Joissakin maissa se on tehtävä vuosittain, kun taas toisissa riittää, että se tehdään kerran. Seuraavassa luettelossa on mainittu maat, joissa Business Centralilla on kyseiset sertifioinnit. Huomaa, että tämä vaatimus on vain joissakin maissa.  
+- Ranska (verotarkastussertifiointi) [(linkki ranskankieliseen sertifiointiin)](https://certificates.infocert.org/certificates/CERTIF-07-181-R16.pdf) 
+- Saksa (kattaa myös Itävallan ja Sveitsin) [(linkki saksankieliseen sertifiointiin)](https://www.bdo.de/de-de/themen/softwarebescheinungen/bdo/microsoft-dynamics-365-business-central)
 
 > [!NOTE]  
-> Maissa tai alueilla, joissa Microsoft ei julkaise paikallista versiota, yleensä kumppanit hankkivat Business Centralin perustuotteen sertifioinnin sekä sen lisäksi kumppanin lokalisoinnin ja säädösten mukaiset ominaisuudet.
+>  **Sertifioinnit maissa, joissa Microsoft ei julkaise lokalisoituja versioita**  
+> Maissa, joissa Microsoft ei julkaise paikallista versiota, yleensä kumppanit hankkivat Business Centralin perustuotteen sertifioinnin sekä sen lisäksi kumppanin lokalisoinnin ja säädösten mukaiset ominaisuudet.
 
-## <a name="other-certifications"></a>Muut sertifioinnit
-
+## <a name="other-certifications"></a>Muut sertifioinnit  
 Business Central on lisäksi saanut pilvipalveluna esimerkiksi ISO 27001 -standardin kaltaisia sertifiointeja. Täydellinen sertifiointiluettelo on [tällä sivulla (PDF)](https://aka.ms/d365-compliance-list).
 
-## <a name="see-also"></a>Katso myös
-
+## <a name="see-also"></a>Katso myös  
 [Yhteensopivuus](compliance-overview.md)  
 [Sovelluksen yhteensopivuus](compliance-application-compliance.md)  
 [Palvelun yhteensopivuus](compliance-service-compliance.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+ ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+ 

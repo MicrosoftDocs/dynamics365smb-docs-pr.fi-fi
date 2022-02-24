@@ -1,57 +1,43 @@
 ---
-title: Tuotantotilausten luominen myyntitilauksista
-description: Tietoja eri tavoista, joiden avulla voit luoda tuotettujen nimikkeiden tuotantotilaukset suodaan myyntitilauksista.
+title: Tuotantotilausten luominen myyntitilauksista | Microsoft Docs
+description: Ohjelmassa voi luoda tuotantotilauksia myyntitilauksista Myynti ja markkinointi -osastossa.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000883, 99000884
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 493d47e13d9ad1d7a2424dec4cd3691e92068d73
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: d1851131512f194f708f7873978a201d85a9e248
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973360"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2314142"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Tuotantotilausten luominen myyntitilauksista
 Voit luoda tuotettujen nimikkeiden tuotantotilaukset suodaan myyntitilauksista.  
 
 ## <a name="to-create-a-production-order-from-a-sales-order"></a>Tuotantotilausten luominen myyntitilauksista  
 
-1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
 2.  Valitse myyntitilaus, jolle haluat luoda tuotantotilauksen.  
 3.  Valitse **Suunnittelu**-toiminto. **Myyntitilaus suunnittelu** -sivulla voi tarkastella myyntitilausnimikkeen saatavuutta.  
 4.  Valitse **Luo tuotantotilaus** -toiminto.  
 5.  Valitse tila ja tilaustyyppi.  
-6.  Valitse **Kyllä** -painike luodaksesi yhden tai useamman tuotantotilauksen niiden rivien osalta, joilla on **Tuotantotilaus** **Täydennysjärjestelmä**-kentässään.
+6.  Valitse **Kyllä** luodaksesi tuotantotilauksen.
 
-
-> [!NOTE]  
-> Luodun tuotantotilauksen kysyntärivit, joilla on **Tuotantotilaus** niiden **Täydennysjärjestelmä** -kentässä, edustavat perustana olevia tuotantotilauksia.. Kun olet luonut nämä tuotantotilaukset, muista tunnistaa kaikki niihin kohdistuvat täyttämättömät komponenttivaatimukset käyttämällä **Tilauksen suunnittelu** -sivua tai **Uudelleensuunnittele**-toimintoa luoduista tilauksista. 
-
-## <a name="order-type"></a>Tilaustyyppi  
-Voit valita kahdesta eri tavasta luoda tuotantotilaukset seuraavassa taulukossa kuvatulla tavalla.
-
-|Asetus|Kuvaus|
-|------|-----------|
-|Nimiketilaus|Yksi tuotantotilaus luodaan kutakin tarvittavaa tuotantotilausta varten. Sitä edustaa rivi **Myyntitilauksen suunnittelu** -ikkunassa.|
-|Projektitilaus|Yksi tuotantotilaus luodaan kaikkia tarvittavia tuotantotilauksia varten. Niitä edustavat rivit **Myyntitilauksen suunnittelu** -ikkunassa. |
-
-Kun käytät projektitilauksia, tuotantotilauksen **Lähdetyyppi**-kentässä on **Myynnin tunnistetiedot** ja tilauksessa on useita rivejä, yksi jokaista tuotettavaa myyntirivinimikettä kohden.  
-
+Voit valita myös projektituotantotilauksen luominen. Lisätietoja on kohdassa [Projektitilausten suunnitteleminen](production-how-to-plan-project-orders.md).   
 
 ## <a name="see-also"></a>Katso myös  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
 [Tuotanto](production-manage-manufacturing.md)    
-[Varasto](inventory-manage-inventory.md)  
+[Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
-[Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Parhaiden käytäntöjen määrittäminen: Toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

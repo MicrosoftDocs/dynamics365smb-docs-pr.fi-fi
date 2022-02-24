@@ -1,19 +1,23 @@
 ---
-title: Roolien sivujen mukauttaminen
+title: Roolien sivujen mukauttaminen | Microsoft Docs
 description: Lisätietoja profiilin (roolin) käyttöliittymän mukauttamisesta siten, että kaikki käyttäjät, joille kyseinen rooli on määritetty, näkevät mukautetun työtilan.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.search.form: 9171
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 370429bfbcc1d93c7cce8d40cf844eb021109e39
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 470d2542864b8d0e0f16f89fd99e422807829404
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101027"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2310802"
 ---
 # <a name="customize-pages-for-profiles"></a>Profiilien sivujen mukauttaminen
 Käyttäjät voivat mukauttaa työtilan muodostavia sivuja omien mieltymystensä mukaisesti. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
@@ -26,11 +30,11 @@ Järjestelmänvalvojat voivat mukauttaa profiilin sivuja liittyvän liiketoimint
 Sivun mukauttaminen aloitetaan **Profiilit (roolit)** -sivulla, josta järjestelmänvalvojat aloittavat yksittäisten profiilikorttien käyttäjien profiilien hallinnan. Sivun asettelun mukauttamisen lisäksi voi kunkin profiilin **Profiili (rooli)** -sivulla voi hallita useita muita profiilien asetuksia. Lisätietoja on kohdassa [Profiilien hallinta](admin-users-profiles-roles.md).
 
 ## <a name="to-customize-pages-for-a-profile"></a>Profiilin sivujen mukauttaminen
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Profiilit (Roolit)** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Profiilit (roolit)** ja valitse sitten liittyvä linkki.
 2. Valitse ensin sen profiilin rivi, jonka sivuja haluat mukauttaa, ja valitse sitten **Muokkaa**-toiminto.
 3. Valitse **Mukauta sivuja** -toiminto.
 
-    [!INCLUDE[prod_short](includes/prod_short.md)] avaa valitun profiilin uudessa selaimen välilehdessä siten, että **Mukauttaminen**-palkki on aktivoitu. **Mukauttaminen**-palkissa on samat toiminnot kuin käyttäjien käyttämässä **Mukautus**-palkissa.
+    [!INCLUDE[d365fin](includes/d365fin_md.md)] avaa valitun profiilin uudessa selaimen välilehdessä siten, että **Mukauttaminen**-palkki on aktivoitu. **Mukauttaminen**-palkissa on samat toiminnot kuin käyttäjien käyttämässä **Mukautus**-palkissa.
 
 4. Mukauta sivuja kyseisen roolin tai osaston tarpeiden mukaan samalla tavoin kuin käyttäjä tekee omat mukautuksensa. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
@@ -43,12 +47,9 @@ Sivun mukauttaminen aloitetaan **Profiilit (roolit)** -sivulla, josta järjestel
 Sivujen mukauttaminen on nyt tallennettu profiiliin.
 
 ## <a name="to-view-all-customized-pages-for-a-profile"></a>Kaikkien profiilin mukautettujen sivujen näyttäminen
-
 Saat tarvittaessa yleiskuvan profiiliin mukautetuista sivuista, mikä auttaa suunnittelemaan esimerkiksi sivujen lisämukautuksia tai poistamisia.
 
-- Valitse **Profiili (rooli)** -sivulla **Hallitse mukautettuja sivuja** -toiminto.
-
-**Mukautetut sivut** -sivulla voit poistaa mukautuksia ja tehdä vian määrityksen tarkistamalla mahdolliset ongelmat.  
+- Valitse **Profiili (rooli)** -sivulla **Mukautetut sivut** -toiminto.
 
 ## <a name="to-delete-all-customizations-for-a-profile"></a>Profiilin kaikkien mukautusten poistaminen
 Voit peruuttaa kaikki profiiliin tehdyt mukautukset. Laajennukseen perustuvia mukautuksia ja käyttäjän tekemiä mukautuksia ei poisteta. Voit poistaa kaikki mukautukset toisella toiminnolla. Lisätietoja on kohdassa [Kaikkien käyttäjän tekemien mukautusten poistaminen](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
@@ -60,18 +61,14 @@ Profiilin sivujen asetteluksi palautetaan oletusasettelu.
 ## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Profiilin tiettyjen sivujen mukautusten poistaminen
 Voit poistaa profiilin yksittäisen sivun mukautukset. Laajennukseen perustuvia mukautuksia ja käyttäjän tekemiä mukautuksia ei poisteta. Voit poistaa tietyn sivun mukautukset toisella toiminnolla. Lisätietoja on kohdassa [Tiettyjen sivujen mukautusten poistaminen](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
-1. Valitse **Profiili (rooli)** -sivulla **Hallitse mukautettuja sivuja** -toiminto.
-2. Valitse **Mukautetut sivut** -sivulla vähintään yhden poistettavan sivun mukautuksen rivi ja valitse sitten **Poista**-toiminto.
+1. Valitse **Profiili (rooli)** -sivulla **Mukautetut sivut** -toiminto.
+2. Valitse **Profiilin mukautukset** -sivulla vähintään yhden poistettavan sivun mukautuksen rivi ja valitse sitten **Poista**-toiminto.
 
 Valitun sivun asettelu muutetaan vastaamaan tekemiäsi muutoksia.
 
 ## <a name="see-also"></a>Katso myös
-
 [Työtilan mukauttaminen](ui-personalization-user.md)  
 [Profiilien hallinta](admin-users-profiles-roles.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

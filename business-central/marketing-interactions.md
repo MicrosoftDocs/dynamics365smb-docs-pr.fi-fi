@@ -1,23 +1,23 @@
 ---
-title: Kontaktien kanssa tapahtuvien vuorovaikutusten hallinta
+title: Kontaktien kanssa tapahtuvien vuorovaikutusten hallinta| Microsoft Docs
 description: Voit hallita kaikenlaista viestintää tai vuorovaikutusta yrityksesi ja kontaktiesi välillä, kuten kirjeenvaihtoa, puheluja ja kokouksia.
+services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5082,
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 6a923884e7ea28def6335f063d04e5fab9365d81
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 8e55baf7fcc375c492a4b50794d823ad13b432a4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059440"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181386"
 ---
 # <a name="record-interactions-with-contacts"></a>Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen
 Sovelluksen määrittäminen niin, että se tallentaa vuorovaikutukset, sisältää seuraavat tehtävät:
@@ -50,12 +50,9 @@ Tällä sivulla voit
 * tarkastella vuorovaikutusten tilaa
 * merkitä vuorovaikutukset peruutetuiksi.
 
-Voit poistaa vuorovaikutuslokin tapahtumia, jotka on peruutettu. Poistaaksesi vuorovaikutuslokin valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista peruutetut vuorovaikutuslokin merkinnät**, valitse liittyvä linkki ja täytä sitten tiedot.
+Voit poistaa vuorovaikutuslokin tapahtumia, jotka on peruutettu. Voit poistaa vuorovaikutuslokin tapahtumia valitsemalla ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, syöttämällä **Poista peruutetut vuorovaikutuslokin tapahtumat** ja valitsemalla sitten liittyvän linkin. Täytä tämän jälkeen tiedot.
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktien hallinta](marketing-contacts.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [Business Centralin käyttäminen](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

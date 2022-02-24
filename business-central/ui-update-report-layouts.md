@@ -1,24 +1,23 @@
 ---
-title: Päivitä mukautetut raporttiasettelut
-description: Tietoja raportissa käytettävän mukautetun raporttiasettelun päivittämisestä, kun esimerkiksi raportin tietojoukkoon on tehty rakennemuutoksia.
+title: Raporttiasettelun pitäminen ajan tasalla | Microsoft Docs
+description: Raportissa käytettyä mukautettua asettelua on ehkä päivitettävä. Tämä vaaditaan, kun raportin tietojoukko on muuttunut, esimerkiksi asettelussa käytetty kenttä on poistettu raportin tietojoukosta.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9652, 9650
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: a3d3aabe01a9969e8665f24479d8b11b26b54d5b
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.search.keywords: ''
+ms.date: 01/13/2020
+ms.author: sgroespe
+ms.openlocfilehash: ba71b9bfb23a4512e160e7b10aa065a1712aeb4d
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101475"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953105"
 ---
 # <a name="update-custom-report-layouts"></a>Päivitä mukautetut raporttiasettelut
-
 Joskus saatat joutua päivittämään raportissa käytettyä mukautettua asettelua. Tämä vaaditaan, kun raportin tietojoukko on muuttunut, esimerkiksi asettelussa käytetty kenttä on poistettu raportin tietojoukosta. Raporttiasettelu on päivitettävä, jos saat virhesanoman, kun yrität tarkastella, tulostaa tai tallentaa raportin.  
 
 Voit päivittää raporttiasettelun automaattisesti valitsemalla **Kyllä** raportin suorituksen aikana avautuvassa virhesanomassa. Voit päivittää tietyt raporttiasettelut tai kaikki mukautetut raporttiasettelut, joihin tietojoukon muutokset ovat saattaneet vaikuttaa, ennen raporttien suorittamista.  
@@ -29,7 +28,7 @@ Kaikkia raportin tietojoukon muutoksia ei voi päivittää automaattisesti rapor
 
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Vähintään yhden mukautetun raportin asettelun päivittäminen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasettelut** ja valitse sitten vastaava linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Raporttiasettelut** ja valitse sitten liittyvä linkki.  
 
 2.  Jos haluat päivittää tietyn raportin, valitse ensin asettelu luettelosta **Raporttiasettelut**-sivulla ja sitten **Päivitä asettelu** -toiminto. Jos sen sijaan haluat päivittää yrityksen kaikki mukautetut raporttiasettelut, valitse **Päivitä kaikki asettelut** -toiminto.  
 
@@ -37,7 +36,7 @@ Jos virheitä ei ilmene, päivitykset otetaan käyttöön raporttiasetteluissa. 
 
 ## <a name="to-test-custom-report-layout-updates"></a>Mukautettujen raporttiasetteluiden päivitysten testaaminen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten vastaava linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Raporttiasetteluvalinta** ja valitse sitten liittyvä linkki.  
 
 2.  Valitse **Raporttiasetteluvalinta**-sivulla **Testiasettelun päivitykset** -toiminto.  
 
@@ -68,6 +67,3 @@ Kun muutat asettelua, yritä päivittää asettelu uudelleen.
 ## <a name="see-also"></a>Katso myös  
  [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  
  [Raporttien, eräajojen ja XMLportien käsitteleminen](ui-work-report.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Rakennetiedot – kysynnän ja tarjonnan täsmäytys
-description: Suunnittelujärjestelmän toiminnan ymmärtäminen edellyttää suunnittelujärjestelmän ensisijaisten tavoitteiden ymmärtämistä. Tavoitteet saavutetaan kysynnän ja tarjonnan täsmäytyksellä.
+title: Rakennetiedot – kysynnän ja tarjonnan täsmäyttäminen | Microsoft Docs
+description: Suunnittelujärjestelmän priorisoitujen tavoitteiden ymmärtäminen edellyttää suunnittelujärjestelmän toiminnan ymmärtämistä. Tärkeimmät tavoitteet pyrkivät varmistamaan, että kaikki kysyntä täytetään riittävällä tarjonnalla ja että kaikki tarjonta palvelee tarkoitusta.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 8ff08e03196aac03a9e57519f47a37e284e8c9ff
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: a1e55d983abae5f85807039da6dd4d846c3e40b3
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442508"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185706"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Rakennetiedot: kysynnän ja tarjonnan täsmäytys
 Suunnittelujärjestelmän priorisoitujen tavoitteiden ymmärtäminen edellyttää suunnittelujärjestelmän toiminnan ymmärtämistä. Tärkeimmät tavoitteet pyrkivät varmistamaan seuraavat seikat:  
@@ -43,7 +43,7 @@ Suunnittelujärjestelmän priorisoitujen tavoitteiden ymmärtäminen edellyttä�
 
    Suunnittelumekanismin päämäärä on tasapainottaa nimikkeen kysyntää ja tarjontaa, jolloin varmistetaan se, että tarjonta vastaa kysyntää toteuttamiskelpoisella tavalla, kuten määritetty suunnitteluparametreissa ja säännöissä.  
 
-   ![Yleiskatsaus kysynnän ja tarjonnan tasapainottamiseen.](media/nav_app_supply_planning_2_balancing.png "Yleiskatsaus kysynnän ja tarjonnan tasapainottamiseen")
+   ![Yleiskatsaus kysynnän ja tarjonnan tasapainottamiseen](media/nav_app_supply_planning_2_balancing.png "Yleiskatsaus kysynnän ja tarjonnan tasapainottamiseen")
 
 ## <a name="dealing-with-orders-before-the-planning-starting-date"></a>Tilausten käsittely ennen suunnittelun aloituspäivää
 Voit estää mahdottomien ja sen vuoksi hyödyttömien ehdotusten näkymisen toimitussuunnitelmassa niin, että suunnittelujärjestelmä pitää suunnittelun alkupäivämäärää aiemman jakson jäädytetyksi alueeksi, joka ei sisällä suunnitelmia. Seuraava sääntö pätee jäädytettyyn alueeseen:  
@@ -291,6 +291,3 @@ Tämä päättää suunnittelujärjestelmän suorittaman kysynnän ja tarjonnan 
  [Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md)   
  [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)   
  [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

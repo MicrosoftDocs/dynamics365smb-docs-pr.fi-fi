@@ -1,28 +1,26 @@
 ---
-title: Termit kustannuslaskennassa
-description: Tässä aiheessa määritetään kustannuslaskennassa käytettävät keskeiset termit, kuten kohdistustunnus ja kohdistuslähde.
+title: Kustannuslaskennan termejä | Microsoft Docs
+description: Tässä aiheessa määritellään keskeiset ehdot, joita käytetään kustannuslaskennassa.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 957612150a5a5b99f41b83222ec8b84a3c617620
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 12d6f671843fe82cb83fa3128ae1cb8908d98bf4
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971904"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182682"
 ---
 # <a name="terminology-in-cost-accounting"></a>Termit kustannuslaskennassa
+Tässä aiheessa määritellään kustannuslaskennan keskeiset termit.  
 
-Tässä aiheessa määritellään keskeiset ehdot, joita käytetään kustannuslaskennassa.  
-
-## <a name="key-terms"></a>Keskeiset termit
-
+## <a name="key-terms"></a>Keskeiset termit  
  Seuraavassa taulukossa on esitetty keskeiset määritelmät kustannuslaskennassa.  
 
 |**Kausi**|**Määritys**|  
@@ -52,7 +50,4 @@ Tässä aiheessa määritellään keskeiset ehdot, joita käytetään kustannusl
 ## <a name="see-also"></a>Katso myös  
  [Tietoja kustannuslaskennasta](finance-about-cost-accounting.md)   
  [Kustannuslaskenta](finance-manage-cost-accounting.md)  
- [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

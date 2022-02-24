@@ -1,73 +1,60 @@
 ---
-title: Monikielisyys ja lokalisointi
-description: Tutustu, miten kieli ja alue vaikuttavat Business Centralin käyttökokemukseen. Voit vaihtaa käyttöliittymän kielen Omat asetukset -sivulla.
+title: Monikielisyys ja lokalisointi | Microsoft Docs
+description: Tutustu, miten kieli ja kielialue vaikuttavat Business Central -sovelluksen käyttökokemukseen.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.date: 04/01/2021
+ms.search.keywords: language, locale, localization, culture
+ms.date: 10/22/2019
 ms.author: edupont
-ms.openlocfilehash: 39927cc6adb02768a4358b2b7480a22cf68bc73a
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 81377dfe391415c6922cf0dcf00a8c8567ee4c80
+ms.sourcegitcommit: c6e28db8f78fa21db064c9b8a8d742f49d7db3ae
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588399"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692702"
 ---
-# <a name="changing-language-and-region"></a>Kielen ja alueen muuttaminen
+# <a name="changing-language-and-locale"></a>Kielen ja kielialueen muuttaminen
 
-[!INCLUDE[prod_short](includes/prod_short.md)] on saatavana useilla markkina-alueilla ja kielillä eri puolilla maailmaa. Markkina-alueilla, joilla [!INCLUDE[prod_short](includes/prod_short.md)] on saatavana, lakisääteiset ominaisuudet auttavat yrityksiä lakisääteisten vaatimusten osalta. [!INCLUDE[prod_short](includes/prod_short.md)] on käytettävissä eri kielillä, ja voit vaihtaa kielen, jolla tekstit näkyvät. Tämä muutos on tapahtuu automaattisen ulos- ja sisäänkirjautumisen aikana. Tämä asetus koskee vain muutoksen tekevää käyttäjää – ei siis yrityksen kaikkia käyttäjiä.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]ia tuetaan useilla markkina-alueilla, ja se on käännetty kielille, joita kyseisillä alueilla tarvitaan. Tämä onnistuu, koska suorituspalvelua tuetaan useilla kielillä samalla, kun tuettujen markkina-alueitten lainsäädännöllisiä vaatimuksia tuetaan. Tämän vuoksi [!INCLUDE[d365fin](includes/d365fin_md.md)] näkyy käyttäjälle eri kielillä. Voit vaihtaa kielen, jolla tekstit näkyvät. Tämä muutos on tapahtuu automaattisen ulos- ja sisäänkirjautumisen aikana. Tämä asetus koskee vain muutoksen tekevää käyttäjää – ei siis yrityksen kaikkia käyttäjiä.  
 
-Jos käytät esimerkiksi käytä kanadalaista [!INCLUDE[prod_short](includes/prod_short.md)] -versiota, voit käyttää englannin-, saksan-, ranskan- tai muun kielistä käyttöliittymää. Kyse on kuitenkin kaikilta ominaisuuksiltaan kanadalaisesta [!INCLUDE[prod_short](includes/prod_short.md)] -versiosta. Se ei ole sama kuin esimerkiksi Britanniassa käytettävä [!INCLUDE[prod_short](includes/prod_short.md)], jossa toiminnot on sopeutettu kyseisen markkina-alueen vaatimuksiin.  
+Jos käytä esimerkiksi käytä kanadalaista [!INCLUDE[d365fin](includes/d365fin_md.md)] -versiota, voit käyttää englannin- ja ranskankielistä käyttöliittymää. Kyse on kuitenkin kaikilta ominaisuuksiltaan kanadalaisesta [!INCLUDE[d365fin](includes/d365fin_md.md)] -versiosta. Se ei ole sama versio kuin esimerkiksi Isossa-Britanniassa käytettävä [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-Voit vaihtaa käyttöliittymän kielen **Omat asetukset** -sivulla. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md#language). 
-
-> [!NOTE]  
-> Kielivalinta palautetaan Microsoft 365 -profiilin asetukseen, jos järjestelmänvalvoja synkronoi käyttäjät Microsoft 365:stä [!INCLUDE[prod_short](includes/prod_short.md)]iin.
+Voit vaihtaa käyttöliittymän kielen **Omat asetukset** -sivulla. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md#language).  
 
 Sovellusdatana tallennettujen tekstien kielen muuttaminen ei ole osa monikielisyysominaisuutta. Tämä on sovelluksen suunnitteluun liittyvä asia. Nimikkeiden nimet varastossa ja asiakaskommentit ovat esimerkkejä tällaisista teksteistä. Toisin sanoen tämän tyyppisiä tekstejä ei käännetä.  
 
 > [!NOTE]  
-> [!INCLUDE[prod_short](includes/prod_short.md)] tukee ainoastaan yhtä merkistöä. Tämän vuoksi ympäristö ei välttämättä tue kaikkia merkkejä, ja saatat havaita ongelmia hakiessasi eri merkistöllä annettuja tietoja. Asennus voi tukea esimerkiksi vain englantilaisia tai venäläisiä merkkejä. Jos syötät tietoja eri kielellä, tiedot saattavat tallentua virheellisesti. Ota yhteys järjestelmänvalvojaan, jos haluat lisätietoja [!INCLUDE[prod_short](includes/prod_short.md)]in tukemista kielistä.  
+> [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee ainoastaan yhtä merkistöä. Tämän vuoksi vuokraaja ei välttämättä tue kaikkia merkkejä, ja saatat havaita ongelmia hakiessasi eri merkistöllä annettuja tietoja. Vuokraaja voi tukea esimerkiksi vain englantilaisia tai venäläisiä merkkejä. Jos annat tietoja eri kielellä, tiedot saattavat tallentua virheellisesti. Ota yhteys järjestelmänvalvojaan, jos haluat lisätietoja [!INCLUDE[d365fin](includes/d365fin_md.md)]in tukemista kielistä.  
 
-## <a name="changing-your-region-setting"></a>Alueasetuksen muuttaminen
-Alue on eri asia kuin paikallisten markkina-alueiden kielivaatimukset ja lainsäädännölliset vaatimukset. Alue määrittää, käytetäänkö tietoja annettaessa esimerkiksi pilkkuerotinta ja tapahtuuko kohdistus vasemmalle vai oikealle. Alue määrittää myös jotkin selaimen järjestelmäelementit, kuten toiminnon, jolla luetteloon luodaan uusi nimike.  
+## <a name="changing-the-locale"></a>Aluekohtaisten asetusten muuttaminen
+Aluekohtaiset asetukset poikkeavat paikallisten markkina-alueiden kielivaatimuksista ja lainsäädännöllisistä vaatimuksista. Aluekohtaiset asetukset määrittävät, käytetäänkö tietoja annettaessa esimerkiksi pilkkuerotinta ja tapahtuuko kohdistus vasemmalle vai oikealle. Aluekohtaiset asetukset määrittävät myös jotkin selaimen järjestelmäelementit, kuten toiminnon, jolla luetteloon luodaan uusi nimike.  
 
-Voit muuttaa alueen siinä selaimen välilehdessä, jossa käytät [!INCLUDE[prod_short](includes/prod_short.md)]ia. Tämä muutos koskee vain muutoksen tehnyttä käyttäjää – se ei siis koske yrityksen muita käyttäjiä.  Aluevalinta palautetaan Microsoft 365 -profiilin asetukseen, jos järjestelmänvalvoja synkronoi käyttäjät Microsoft 365:stä [!INCLUDE[prod_short](includes/prod_short.md)]iin.
+Voit muuttaa aluekohtaiset asetukset siinä selaimen välilehdessä, jolla käytät [!INCLUDE[d365fin](includes/d365fin_md.md)]ia. Tämä muutos koskee vain muutoksen tehnyttä käyttäjää – se ei siis koske yrityksen muita käyttäjiä.  
 
 > [!IMPORTANT]  
-> Kun muutat alueen asetuksia, näkyviin tulee pitkä kieli- ja alueluettelo. Alueen valinta ei kuitenkaan vaikuta kieleen.  
+>  Kun muutat aluekohtaisia asetuksia, näkyviin tulee pitkä kieli- ja alueluettelo. [!INCLUDE[d365fin](includes/d365fin_md.md)]in nykyisessä versiossa käytetään kuitenkin vain aluekohtaisia asetuksia.  
 
-Voit muuttaa alueen **Omat asetukset** -sivulla. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).  
-
-## <a name="changing-the-region-setting-for-customers-contacts-and-vendors"></a>Asiakkaiden, kontaktien ja toimittajien alueasetuksen muuttaminen
-Jotkin yritykset käyttävät ulkoista palvelua, joka tarkistaa maan tai alueen osoitetiedot. Jos kuitenkin osoite tiedot on päivitettävä, näiden palveluiden käytössä oleva rakenteellinen lähestymistapa ei välttämättä aina ole oikea ratkaisu joissakin tilanteissa. Business Central tarjoaa joustavamman keinon osoitetietojen syöttämiseen.
-
-Jos **Pääkirjanpidon asetukset** -sivulla otat käyttöön **Vaadi osoitteessa maa-/aluekoodi** -valitsimen, **Maa-/aluekoodi** -kentän muuttaminen asiakkaille, yhteyshenkilöille tai toimittajille nollaavat muiden osoitekenttien arvot.
+Voit muuttaa aluekohtaisia asetuksia **Omat asetukset** -sivulla. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).  
 
 ## <a name="application-version"></a>Sovellusversio
 
-Voit tarkistaa **Ohje ja tuki** -sivulla mihin [!INCLUDE[prod_short](includes/prod_short.md)] -versioon yrityksesi perustuu. Jos haluat perustaa yrityksen eri versioon, järjestelmänvalvoja voi luoda uuden tuotantoympäristön. Lisätietoja on kohdassa [Uuden tuotanto ympäristön luominen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) Kehittäjän ja IT-ammattilaisen sisällössä.  
+Voit tarkistaa **Ohje ja tuki** -sivulla mihin [!INCLUDE [prodshort](includes/prodshort.md)] -versioon yrityksesi perustuu. Jos haluat perustaa yrityksen eri versioon, järjestelmänvalvoja voi luoda uuden tuotantoympäristön. Lisätietoja on kohdassa [Uuden tuotanto ympäristön luominen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) Kehittäjän ja IT-ammattilaisen sisällössä.  
 
-## <a name="languages-of-the-prod_short-help"></a>[!INCLUDE[prod_short](includes/prod_short.md)]-ohjeen kielet
+## <a name="languages-of-the-d365fin-help"></a>[!INCLUDE[d365fin](includes/d365fin_md.md)]-ohjeen kielet
+[!INCLUDE[d365fin](includes/d365fin_md.md)]in perustoimintojen ohjesisältö julkaistaan Microsoft Docs -sivustossa ja on luettavissa useilla eri kielillä. Jos siirryt asiakirjoihin [!INCLUDE[d365fin](includes/d365fin_md.md)]ista, sisältö näkyy omalla kielelläsi. Jos tiettyä sivua ei ole vielä käännetty omalle kielellesi, se näkyy englanninkielisenä.
 
-[!INCLUDE[prod_short](includes/prod_short.md)]in perustoimintojen ohjesisältö julkaistaan Microsoft Docs -sivustossa ja on luettavissa useilla eri kielillä. Jos siirryt asiakirjoihin [!INCLUDE[prod_short](includes/prod_short.md)]ista, sisältö näkyy omalla kielelläsi. Jos tiettyä sivua ei ole vielä käännetty omalle kielellesi, se näkyy englanninkielisenä.
-
-### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>Miten Microsoft Docs -sivuston kieli muutetaan?
-
+### <a name="how-do-i-change-the-language"></a>Kielen vaihtaminen
 Kielen vaihtaminen on helppoa: siirry selainsivun alareunaan ja valitse vasemmassa kulmassa maapallokuvake.
 
 > [!NOTE]  
-> Avautuvassa luettelossa on kaikki Microsoft Docs-sivuston tukemat kielet. [!INCLUDE[prod_short](includes/prod_short.md)] on saatavana vain tietyissä maissa ja tietyillä alueilla eikä [!INCLUDE [prod_short](includes/prod_short.md)] -ohjesisältö ole saatavana kaikilla kielillä, joita Microsoft Docs -sivusto tukee.
+> Avautuvassa luettelossa on kaikki Microsoft Docs-sivuston tukemat kielet. [!INCLUDE[d365fin](includes/d365fin_md.md)] on käytettävissä vain tietyissä maissa ja tietyillä alueilla, mutta ohjesisältö on luettavissa myös monilla muilla kielillä. Ohjesisältö ei kuitenkaan ole luettavissa kaikilla Microsoft Docs -sivuston tukemissa kielillä.
 
 ## <a name="see-also"></a>Katso myös
 
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
-[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Käytön aloittaminen](product-get-started.md)  

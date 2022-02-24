@@ -3,19 +3,19 @@ title: Rakennetiedot –Täsmäytys pääkirjanpidon kanssa | Microsoft Docs
 description: Tässä ohjeaiheessa käsitellään täsmäytys pääkirjanpidon kanssa varastotapahtumia kirjattaessa. Näitä tapahtumia ovat esimerkiksi tapahtumat, tuotannon tuotos ja negatiiviset muutokset.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: eafc3f6ac86584cbf2bab6e5a5a82639ea718fc5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: b62bb8774bfcbd371125d0dc529ce503afd34f2c
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442333"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184842"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Rakennetiedot: täsmäytys pääkirjanpidon kanssa
 Kun kirjaat varastotapahtumia, kuten myyntitoimituksia, tuotannon tuloksia tai negatiivisia muutoksia, ohjelma kirjaa varaston määrien muutokset nimiketapahtumiin ja varaston arvojen muutokset arvotapahtumiin. Prosessin seuraava vaihe on kirjata varastoarvot pääkirjanpidon varastotileille.  
@@ -82,16 +82,16 @@ Seuraavassa taulukossa esitetään, kuinka työkeskus on määritetty työkeskus
     1. Tilapäistilit on selvitetty. (Myynti)  
     2. Myytyjen tuotteiden kustannus (MTK) kirjataan. (Myynti)  
 
-        ![Myynnin KP-tilikirjausten tulokset.](media/design_details_inventory_costing_3_gl_posting_sales.png "Myynnin KP-tilikirjausten tulokset")  
+        ![Myynnin KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_sales.png "Myynnin KP-tilikirjausten tulokset")  
 5. Käyttäjä kirjaa kulutukseksi 150 lenkkiä, joka on yhden ketjun tuottamisessa käytettyjen lenkkien määrä. (Materiaalin kulutus)  
 
-    ![Materiaalin KP-tilikirjausten tulokset.](media/design_details_inventory_costing_3_gl_posting_material.png "Materiaalin KP-tilikirjausten tulokset")  
+    ![Materiaalin KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_material.png "Materiaalin KP-tilikirjausten tulokset")  
 6. Tuotantosolulta meni 60 minuuttia ketjun tekemiseen. Käyttäjä kirjaa muunnoksen kustannukset. (Kulutus, kapasiteetti)  
 
     1. Välittömät kustannukset tiliöidään. (Kulutus, kapasiteetti)  
     2. Välilliset kustannukset lasketaan ja tiliöidään. (Kulutus, kapasiteetti)  
 
-        ![Kapasiteetin KP-tilikirjausten tulokset.](media/design_details_inventory_costing_3_gl_posting_capacity.png "Kapasiteetin KP-tilikirjausten tulokset")  
+        ![Kapasiteetin KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_capacity.png "Kapasiteetin KP-tilikirjausten tulokset")  
 7. Käyttäjä kirjaa yhden ketjun oletetut kustannukset. (Tuotto)  
 8. Käyttäjä tekee tuotantotilauksen valmiiksi ja suorittaa **Muuta kustannuksia - Nimiketapahtumat** -eräajon. (Tuotto)  
 
@@ -100,7 +100,7 @@ Seuraavassa taulukossa esitetään, kuinka työkeskus on määritetty työkeskus
     3. Välilliset kustannukset (yleiskustannukset) siirretään välillisten kustannusten tililtä varastotilille. (Tuotto)  
     4. Tuloksena on erosumma 157,00 (PVA). Varianssit lasketaan vain vakiokustannuksen omaaville nimikkeille. (Tuotto)  
 
-        ![Tuotosten KP-tilikirjausten tulokset.](media/design_details_inventory_costing_3_gl_posting_output.png "Tuotosten KP-tilikirjausten tulokset")  
+        ![Tuotosten KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_output.png "Tuotosten KP-tilikirjausten tulokset")  
 
         > [!NOTE]  
         >  Yksinkertaisuuden vuoksi näytetään vain yksi vaihtelutili. Todellisuudessa on olemassa viisi erilaista tiliä:  
@@ -113,7 +113,7 @@ Seuraavassa taulukossa esitetään, kuinka työkeskus on määritetty työkeskus
 
 9. Käyttäjä määrittää ketjun hinnaksi 140,00 (PVA) aiemman 150,00 (PVA):n sijaan. (Muutos/uudelleenarvostus/pyöristys/siirto)  
 
-    ![Muutosten KP-tilikirjausten tulokset.](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Muutosten KP-tilikirjausten tulokset")  
+    ![Muutosten KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Muutosten KP-tilikirjausten tulokset")  
 
 Saat lisätietoja tilityyppien välisestä suhteesta ja erityyppisistä arvotapahtumista kohdasta [Rakennetiedot: pääkirjanpidon tilit](design-details-accounts-in-the-general-ledger.md).  
 
@@ -123,7 +123,4 @@ Saat lisätietoja tilityyppien välisestä suhteesta ja erityyppisistä arvotapa
 [Rakennetiedot: Kustannusten muuttaminen](design-details-cost-adjustment.md)
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
 [Rahoitus](finance.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

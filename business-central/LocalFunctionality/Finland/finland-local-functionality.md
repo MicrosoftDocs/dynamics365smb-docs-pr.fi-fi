@@ -1,26 +1,25 @@
 ---
 title: Suomen paikalliset toiminnot
-description: Seuraavissa ohjeaiheissa kerrotaan Business Central -sovelluksen suomalaisen version erilaisista paikallisista toiminnoista.
+description: Seuraavissa ohjeaiheissa kerrotaan Business Central -sovelluksen suomalaisen version paikallisista toiminnoista.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 32000006
-ms.date: 06/18/2021
+ms.date: 06/09/2020
 ms.author: soalex
-ms.openlocfilehash: c1423dcf4fd29af864bfaecfa09e6840fb6f7c99
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: 7f0e420cdfa4a7dfa70d81a5ed23f2e20eb1b55b
+ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115324"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454263"
 ---
 # <a name="finland-local-functionality"></a>Suomen paikalliset toiminnot
 
-Seuraavissa ohjeaiheissa kerrotaan [!INCLUDE[prod_short](../../includes/prod_short.md)] -ohjelman suomalaisen version erityisistä paikallisista toiminnoista.  
+Seuraavissa ohjeaiheissa kerrotaan [!INCLUDE[d365fin](../../includes/d365fin_md.md)] -ohjelman suomalaisen version erityisistä paikallisista toiminnoista.  
 
 ## <a name="feature-availability"></a>Ominaisuuden käytettävyys
 
@@ -43,10 +42,7 @@ Seuraavissa ohjeaiheissa kerrotaan [!INCLUDE[prod_short](../../includes/prod_sho
 
 ## <a name="see-also"></a>Katso myös
 
-[[!INCLUDE[prod_short](../../includes/prod_short.md)] -ohjelman käyttäminen](../../ui-work-product.md)  
+[[!INCLUDE[d365fin](../../includes/d365fin_md.md)] -ohjelman käyttäminen](../../ui-work-product.md)  
 [Maa- ja aluekohtainen saatavuus ja tuetut kielet](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
-## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

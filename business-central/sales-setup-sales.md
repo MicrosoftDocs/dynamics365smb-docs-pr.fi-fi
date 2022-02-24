@@ -1,29 +1,30 @@
 ---
-title: Myyntiprosessien määritystehtävien yleiskatsaus
-description: Yhteenveto tehtävistä, joita tarvitaan määrittämään säännöt ja arvot, jotka määrittelevät myyntikäytännöt ja -prosessit, mukaan lukien yleiset asetukset ja rahoitukseen liittyvät myyntiasetukset.
+title: Myyntiprosessien määritystehtävien yleiskatsaus | Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan tehtävistä, joilla määritetään myyntikäytäntöjen ja -prosessien määrityksessä käytettävät säännöt ja arvot.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 63d9357d29fbfdc3c230c69602fd370c5d73f21b
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.date: 01/13/2020
+ms.author: sgroespe
+ms.openlocfilehash: d19d02cb770efb32441d4b1282789a92deea41a0
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115448"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2953393"
 ---
 # <a name="setting-up-sales"></a>Myynnin määrittäminen
 Ennen myyntiprosessien hallinnan aloittamista on määritettävä yrityksen myyntikäytäntöjen säännöt ja arvot.
 
-Määritä **Myynti ja myyntisaamiset** -sivun yleiset asetukset, kuten tarvittavat myyntiasiakirjat, niiden arvojen kirjaustapa sekä oletusarvon mukaan luotava rivityyppi. Nämä yleiset asetukset tehdään tavallisesti kerran alustavan käyttöönoton yhteydessä.
+Ensin määritetään yleiset asetukset, kuten tarvittavat myyntiasiakirjat ja niiden arvojen kirjaustavat. Nämä yleiset asetukset tehdään tavallisesti kerran alustavan käyttöönoton yhteydessä.
 
-Uusien asiakkaiden rekisteröintiin liittyy erillinen sarja tehtäviä, joilla kirjataan kunkin asiakkaan mahdolliset erikoishinta- tai alennussopimukset. Lisätietoja on kohdassa [Erityisten myyntihintojen ja alennusten tallentaminen](sales-how-record-sales-price-discount-payment-agreements.md).
+Uusien asiakkaiden rekisteröintiin liittyy erillinen sarja tehtäviä, joilla kirjataan kunkin asiakkaan mahdolliset erikoishinta- tai alennussopimukset.
 
 Maksumenetelmiä ja valuuttoja sekä muita rahoitukseen liittyviä myyntiasetuksia käsitellään Rahoituksen asetukset -osassa. Lisätietoja on kohdassa [Rahoituksen määrittäminen](finance-setup-finance.md).
 
@@ -38,13 +39,9 @@ Maksumenetelmiä ja valuuttoja sekä muita rahoitukseen liittyviä myyntiasetuks
 |Tarkista ALV-rekisteröintinumero EU:n verkkopalvelun avulla.|[ALV-rekisterinumeroiden tarkistaminen](finance-setup-vat.md)|
 |Määritä erilaiset incoterms-toimituslausekkeet, joita tarjoat asiakkaille tai joita toimittajat tarjoavat sinulle.|[Toimitusehtojen määrittäminen](sales-how-set-up-shipment-methods.md)|
 |Syötä käytettävien kuljetusliikkeiden tietoja, mukaan lukien linkki kuljetusliikkeiden kollinseurantapalveluun.|[Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md)|
-|Määritä oletusraportteja, joita käytetään eri asiakirjatyypeille.|[Raporttien valinta Business Centralissa](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

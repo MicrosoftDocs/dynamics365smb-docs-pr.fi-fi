@@ -1,242 +1,167 @@
 ---
-title: Microsoft Dataverseen yhdistäminen (sisältää videon)
-description: Yhteyden määrittäminen Business Centralin ja Dataversen välille. Yleensä yritykset luovat yhteyden integroidakseen tietoja toisen Dynamics 365 -liiketoimintasovelluksen kanssa.
+title: Yhteyden muodostaminen Dynamics 365 Salesiin | Microsoft Docs
+description: Dynamics 365 Salesin integrointi on mahdollista.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
+ms.devlang: na
+ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.forms: 7200, 7201
-ms.date: 09/30/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: bbe27c46562fa7550619283cb85cd1d7dcc76a3c
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: 73607d238e31cc42680fae008cfdf0ee143d08f3
+ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059542"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2910734"
 ---
-# <a name="connect-to-microsoft-dataverse"></a>Yhteyden muodostaminen Microsoft Dataverseen
+# <a name="set-up-a-connection-to-dynamics-365-sales"></a>Dynamics 365 for Sales -yhteyden määrittäminen
+Tässä ohjeaiheessa kuvataan, kuinka [!INCLUDE[d365fin](includes/d365fin_md.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] välille määritetään yhteys.
+<br><br>  
 
-
-
-Tässä ohjeaiheessa kuvataan, kuinka [!INCLUDE[prod_short](includes/prod_short.md)] ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)] välille määritetään yhteys. Yleensä yritykset luovat yhteyden integroidakseen ja synkronoidakseen tietoja toisen Dynamics 365 -liiketoimintasovelluksen kanssa. Sovellus voi olla esimerkiksi [!INCLUDE[crm_md](includes/crm_md.md)].  
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085501]
 
 ## <a name="before-you-start"></a>Ennen aloittamista
+Ennen yhteyden luomista on syytä pitää joitakin tietoja valmiina:  
 
-Ennen yhteyden luomista tarvitaan seuraavat tiedot:  
-
-* Sen [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -ympäristön URL-osoite, johon haluat muodostaa yhteyden. Jos käytät **Dataverse -yhteyden määrityksen** asetusten ohjattua määritysopasta yhteyden luomiseen, ympäristöt löydetään. Sinun on kuitenkin annettava myös vuokraajan toisen ympäristön URL-osoite.  
-* Sen tilin käyttäjätili ja salasana, jolla on järjestelmänvalvojan oikeudet [!INCLUDE[prod_short](includes/prod_short.md)]- ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -sovelluksessa.  
-* Jos käytössäsi on [!INCLUDE[prod_short](includes/prod_short.md)]vuoden 2020 1. julkaisuaallon on-premises-versio 16.5, lue [Joitakin tunnettuja ongelmia](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services) -artikkeli. Sinun on toteutettava kuvattu kiertotapa, ennen kuin voit luoda yhteyden [!INCLUDE[cds_long_md](includes/cds_long_md.md)]en.
-* Tuotteen [!INCLUDE[prod_short](includes/prod_short.md)] yrityksen paikallisvaluutan on oltava sama kuin tuotteen [!INCLUDE[cds_long_md](includes/cds_long_md.md)] perustapahtumavaluutta. Kun perustapahtuma on määritetty tuotteessa [!INCLUDE[cds_long_md](includes/cds_long_md.md)], sitä ei voi muuttaa. Lisätietoja on kohdassa [Tapahtuman valuutta (valuutta) -entiteetti](/powerapps/developer/data-platform/transaction-currency-currency-entity). Tämä tarkoittaa sitä, että kaikissa tuotteen [!INCLUDE[prod_short](includes/prod_short.md)] yrityksissä, joista muodostetaan yhteys organisaatioon [!INCLUDE[cds_long_md](includes/cds_long_md.md)] , on käytettävä samaa valuuttaa.
-
-> [!IMPORTANT]
-> [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -ympäristösi ei saa olla järjestelmänvalvojan tilassa. Järjestelmänvalvojan tila aiheuttaa yhteyden epäonnistumisen, koska yhteyden integrointikäyttäjätilillä ei ole järjestelmänvalvojan käyttöoikeuksia. Lisätietoja on kohdassa [Järjestelmänvalvojan tila](/power-platform/admin/admin-mode).
+* [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen URL-osoite. URL-osoitteen löytää nopeasti avaamalla [!INCLUDE[crm_md](includes/crm_md.md)]in, kopioimalla URL-osoitteen ja liittämällä sen sitten **Dynamics 365 Sales URL-osoite** -kenttään [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. [!INCLUDE[d365fin](includes/d365fin_md.md)] korjaa muotoilun puolestasi.  
+* Vain integroinnissa käytettävän käyttäjätilin käyttäjänimi ja salasana.  
+* Sen tilin käyttäjänimi ja salasana, jolla on järjestelmänvalvojan oikeudet.  
 
 > [!Note]
-> Seuraavat vaiheet koskevat [!INCLUDE[prod_short](includes/prod_short.md)] online -versiota.
-> Jos käytössä [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versiota eikä Azure Active Directory -tiliä käytetä muodostamaan yhteyttä [!INCLUDE [cds_long_md](includes/cds_long_md.md)]en, integrointia varten on määritettävä käyttäjätilin käyttäjänimi ja salasana. Tätä tiliä kutsutaan integroinnin käyttäjän tiliksi. Azure Active Directory -tiliä käytettäessä integroinnin käyttäjän tiliä ei tarvita eikä sitä näytetä. Integroinnin käyttäjä määritetään automaattisesti, eikä sitä varten tarvita käyttöoikeutta.
+> Seuraavat vaiheet koskevat [!INCLUDE[d365fin](includes/d365fin_md.md)]in online-versiota.
 
-## <a name="set-up-a-connection-to-cds_long_md"></a>Yhteyden määrittäminen [!INCLUDE[cds_long_md](includes/cds_long_md.md)]iin
+## <a name="set-up-test-and-enable-a-connection-to-crm_md"></a>[!INCLUDE[crm_md](includes/crm_md.md)] -yhteyden määrittäminen, testaaminen ja käyttöönotto  
+Office 365 -todennustyyppiä lukuun ottamatta Dynamics 365 Sales -yhteys määritetään kaikissa todennustyypeissä **Microsoft Dynamics 365 Sales -yhteyden määritys** -sivulla. Office 365 -todennuksessa voi käyttää myös asetusten ohjattua **Dynamics 365 Sales -yhteyden määritys** -määritysopasta, joka sisältää tarvittavat tiedot.
 
-Microsoft 365 -todennustyyppiä lukuun ottamatta [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteys määritetään kaikissa todennustyypeissä **Dataverse -yhteyden määritys** -sivulla. Microsoft 365 -todennuksessa on suositeltavaa käyttää **Dataverse-yhteyden määrityksen asetusten** ohjattua määritysopasta. Opas auttaa määrittämään nopeasti yhteyden ja lisäominaisuudet, kuten omistajamallin ja ensimmäisen synkronoinnin.  
+### <a name="to-use-an-assisted-setup-guide"></a>Asetusten ohjatun määrityksen käyttäminen
+Asetusten ohjattu **Dynamics 365 Sales -yhteyden määritys** -opas auttaa määrittämään yhteyden. Lisäksi se määrittää, otetaanko lisäominaisuudet, kuten tietueiden välinen yhdistäminen, käyttöön.
 
-> [!IMPORTANT]
-> [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteyttä määritettäessä järjestelmänvalvojaa pyydetään antamaan seuraavat käyttöoikeudet rekisteröidylle Azuren [!INCLUDE[prod_short](includes/prod_short.md)] Integration to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -sovellukselle:
->
-> * **[!INCLUDE[cds_long_md](includes/cds_long_md.md)]n käyttö sinuna** -käyttöoikeus tarvitaan, jotta [!INCLUDE[prod_short](includes/prod_short.md)] voi luoda järjestelmänvalvojan puolesta automaattisesti [!INCLUDE[prod_short](includes/prod_short.md)] Integration -sovelluksen käyttäjän, jolla ei ole käyttö- eikä vuorovaikutusoikeutta, määrittää käyttöoikeusroolit kyseiselle käyttäjälle ja ottaa käyttöön [!INCLUDE[prod_short](includes/prod_short.md)] -integrointiratkaisun [!INCLUDE[cds_long_md](includes/cds_long_md.md)]en. Tätä käyttöoikeutta käytetään vain kerran määritettäessä yhteyttä [!INCLUDE[cds_long_md](includes/cds_long_md.md)]en.  
-> * **Täydet Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)] -käyttöoikeudet** tarvitaan, jotta automaattisesti luotu [!INCLUDE[prod_short](includes/prod_short.md)] Integration -sovelluksen käyttäjä voi käyttää synkronoitavia [!INCLUDE[prod_short](includes/prod_short.md)]in tietoja.  
-> * **Kirjautuminen ja profiilin lukeminen** -käyttöoikeus tarvitaan varmistamaan, että kirjautuvalle käyttäjälle on määritetty järjestelmänvalvojan käyttöoikeusrooli [!INCLUDE[cds_long_md](includes/cds_long_md.md)]ssa.  
->
-> Antamalla suostumuksen organisaation puolesta järjestelmänvalvoja antaa [!INCLUDE[prod_short](includes/prod_short.md)] Integration to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -nimiselle Azure-sovelluksen oikeuden synkronoida tietoja käyttämällä automaattisesti luodun [!INCLUDE[prod_short](includes/prod_short.md)] Integration -sovelluksen käyttäjän tunnistetietoja.
-
-### <a name="to-use-the-dataverse-connection-setup-assisted-setup-guide"></a>Dataverse -yhteyden määrityksen asetusten ohjatun määritysoppaan käyttäminen
-Dataverse -yhteyden asetusopas helpottaa sovellusten yhdistämistä, ja se voi auttaa sinua myös suorittamaan ensimmäisen synkronoinnin. Jos päätät käynnistää ensimmäisen synkronoinnin, [!INCLUDE[prod_short](includes/prod_short.md)] tarkistaa molempien sovellusten tiedot ja antaa suosituksia ensimmäisen synkronoinnin toteutusta varten. Seuraavassa taulukossa kuvaillaan näitä suosituksia.
-
-|Suositus  |Kuvaus  |
-|---------|---------|
-|**Täysi synkronointi**|Tietoja on vain [!INCLUDE[prod_short](includes/prod_short.md)] -järjestelmässä tai vain [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -järjestelmässä. Suositus on synkronoida toiseen palveluun kaikki tiedot palvelusta, jossa tiedot ovat.|
-|**Ei synkronointia**|Molemmissa sovelluksissa on tietoja, ja täyden synkronoinnin suorittaminen loisi tietojen kaksoiskappaleita. Suositus on yhdistää tietueet.|
-|**Riippuvuus ei täyty**|Molemmissa sovelluksissa on tietoja, mutta riviä tai taulukkoa ei voi synkronoida, koska se riippuu rivistä tai taulukosta, jossa on Ei synkronointia -suositus. Jos esimerkiksi asiakkaita ei voi synkronoida, asiakastiedoista riippuvien kontaktien tietoja ei voi myöskään synkronoida.|
-
-> [!IMPORTANT]
-> Yleensä täysi synkronointi on käytössä vain, kun sovellukset integroidaan ensimmäistä kertaa ja vain yksi sovellus sisältää tietoja. Täydellisestä synkronoinnista voi olla hyötyä demoympäristössä, koska se luo ja yhdistää tietueet automaattisesti kummassakin sovelluksessa, minkä ansiosta synkronoitujen tietojen käsittelemisen aloittaminen nopeutuu. Suorita täysi synkronointi kuitenkin vain, jos haluat taulukon yhdistämismäärityksille yhden rivin [!INCLUDE[prod_short](includes/prod_short.md)]issa kutakin [!INCLUDE[cds_long_md](includes/cds_long_md.md)]n riviä kohden. Muussa tapauksessa tuloksena voi olla tietueiden kaksoiskappaleita.
-
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asetusten ohjattu määritys** ja valitse sitten vastaava linkki.
-2. Käynnistä asetusten ohjattu määritys valitsemalla **Microsoft Dataverse -yhteyden määritys**.
+1. Valitse ensin **Asennus ja laajennukset** ja valitse sitten **Asetusten ohjattu määritys**.
+2. Käynnistä asetusten ohjattu määritys valitsemalla **Dynamics 365 Sales -yhteyden määritys**.
 3. Täytä tarvittavat kentät.
+4. Käytössä on myös valinnaisia lisäasetuksia, jotka parantavat suojausta ja ottavat käyttöön [!INCLUDE[crm_md](includes/crm_md.md)]in lisäominaisuuksia, kuten myyntitilauksen käsittelyn varastomäärien tarkastelun. Lisäasetuksia käsitellään seuraavassa taulukossa.  
 
-> [!NOTE]
-> Jos sinua ei pyydetä käyttämään kirjautumiseen järjestelmänvalvojan tiliä, syynä on luultavasti estetyt ponnahdusikkunat. Kirjautumista varten on sallittava ponnahdusikkunat osoitteesta `https://login.microsoftonline.com`.
+|Kenttä|Kuvaus|
+|-----|-----|
+|**Tuo Dynamics 365 Sales -ratkaisu**|Ottamalla tämän asteuksen käyttöön voit asentaa ja määrittää integrointiratkaisun [!INCLUDE[crm_md](includes/crm_md.md)]issa. Lisätietoja on kohdassa [Tietoja Business Central -integraatioratkaisusta](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|
+|**Julkaise Nimikkeen saatavuus -verkkopalvelu**|Antaa [!INCLUDE[crm_md](includes/crm_md.md)]ia käyttäville henkilöille mahdollisuuden tarkastella nimikkeiden (tuotteiden) varastosaatavuutta [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Tämä varten tarvitaan [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjätili, jolla on verkkopalvelun käyttöoikeusavain. Avaimen määrittäminen on kaksivaiheinen prosessi. Valitse [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjätilillä **Muuta verkkopalvelun käyttöoikeusavainta** -toiminto. Määritä sitten asetusten ohjatussa Dynamics 365 Sales -yhteyden määrityksessä Dynamics 365 Business Centralin OData-verkkopalvelun URL-osoite ja anna palvelun käyttöön tarvittavat [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjän tunnistetiedot. Lisätietoja on kohdassa [OData-verkkopalvelut](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
+|**Dynamics 365 Business Centralin OData-verkkopalvelun URL-osoite**|Jos otat Nimikkeen saatavuus -verkkopalvelun käyttöön, saat OData-verkkopalvelun URL-osoitteen.|
+|**Dynamics 365 Business Centralin OData-verkkopalvelun käyttäjätunnus**|Sen [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjätilin nimi, jolla [!INCLUDE[crm_md](includes/crm_md.md)] noutaa tietoja nimikkeen saatavuudesta [!INCLUDE[d365fin](includes/d365fin_md.md)]issa OData-verkkopalvelun kautta.|
+|**Dynamics 365 Business Centralin OData-verkkopalvelun käyttöoikeusavain**|Sen käyttäjätilin käyttöoikeusavain, jolla [!INCLUDE[crm_md](includes/crm_md.md)] hakee tietoja nimikkeen saatavuudesta [!INCLUDE[d365fin](includes/d365fin_md.md)]ista OData-verkkopalvelun kautta. Avain on määritetty käyttäjälle, joka on valittu **Dynamics 365 Business Centralin OData-verkkopalvelun käyttäjätunnus** -kentässä. Voit hakea avaimen valitsemalla ensin käyttäjänimen vieressä **Hae arvo** -painikkeen ja sitten käyttäjän. Valitse seuraavaksi **Hallitse** ja lopuksi **Muokkaa**. Valitse käyttäjän kortissa ensin **Toiminnot**, **Tarkistus** ja sitten **Muuta verkkopalvelun käyttöoikeusavainta**.|
+|**Ota käyttöön myyntitilauksen integrointi**|Kun myyntitilauksia luodaan [!INCLUDE[crm_md](includes/crm_md.md)]:ssä ja tilauksia täytetään [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssä, [!INCLUDE[crm_md](includes/crm_md.md)] integroi prosessin. Lisätietoja on kohdassa [Myyntitilauksen käsittelyn integroinnin käyttöönotto](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Tätä varten on annettava järjestelmänvalvojan käyttäjätilin tunnistetiedot [!INCLUDE[crm_md](includes/crm_md.md)]issa. Lisätietoja on kohdassa [Myyntitilauksen tietojen käsitteleminen](marketing-integrate-dynamicscrm.md#handling-sales-order-data)|
+|**Ota käyttöön Dynamics 365 for Sales -yhteys**|Ota [!INCLUDE[crm_md](includes/crm_md.md)] -yhteys käyttöön.|
+|**Dynamics 365 SDK -versio**|Tällä on merkitystä vain, jos integrointi tehdään [!INCLUDE[crm_md](includes/crm_md.md)]in paikalliseen versioon. Voit yhdistää tällä Dynamics 365 SDK -versiolla (joka tunnetaan myös nimellä Xrm) [!INCLUDE[d365fin](includes/d365fin_md.md)]in [!INCLUDE[crm_md](includes/crm_md.md)]iin. Version on oltava yhteensopiva sen SDK-version kanssa, jota [!INCLUDE[crm_md](includes/crm_md.md)] käyttää. Lisäksi sen on oltava sama tai uudempi kuin versio, jota [!INCLUDE[crm_md](includes/crm_md.md)] käyttää.|
+
+> [!Note]
+> Asetusten ohjattu **Dynamics 365 Sales -yhteyden määritys**-opas määrittää integroinnissa käytettävälle käyttäjätilille **Integroinnin järjestelmänvalvoja**- ja **Integroinnin käyttäjä** -käyttöoikeusroolit.
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>Yhteyden luominen tai ylläpitäminen manuaalisesti
+Seuraavaksi käsitellään **Microsoft Dynamics 365 Sales -yhteyden määritys** -sivun kenttien täyttämistä manuaalisesti. Tällä sivulla hallitaan myös integroinnin asetuksia.
 
-Seuraavassa kerrotaan, miten yhteys määritetään manuaalisesti **Dataverse -yhteyden määritys** -sivulla. Tällä sivulla hallitaan myös integroinnin asetuksia.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Microsoft Dynamics 365 -yhteyden määritys** ja valitse sitten liittyvä linkki.
+2. Anna seuraavat tiedot yhteyden muodostamiseen [!INCLUDE[d365fin](includes/d365fin_md.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)]iin.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Dataverse-yhteyden määritys** ja valitse sitten vastaava linkki.
-2. Anna seuraavat tiedot yhteyden muodostamiseen [!INCLUDE[prod_short](includes/prod_short.md)]ista [!INCLUDE[cds_long_md](includes/cds_long_md.md)]iin.
+|Kenttä|Kuvaus|
+|-----|-----|
+|**Dynamics 365 Sales -ohjelman URL-osoite**|[!INCLUDE[crm_md](includes/crm_md.md)] -ilmentymän URL-osoite. Hae URL-osoite, avaa [!INCLUDE[crm_md](includes/crm_md.md)], kopioi URL-osoite selaimen osoiteriviltä ja liitä URL-osoite sitten kenttään. [!INCLUDE[d365fin](includes/d365fin_md.md)] varmistaa, että muoto on oikein.|
+|**Käyttäjänimi** ja **Salasana**|Integrointiin varatun käyttäjätilin tunnistetiedot. Lisätietoja on kohdassa [Dynamics 365 Sales -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md).|
+|**Käytössä**|Aloita integroinnin käyttäminen. Jos et ota yhteyttä käyttöön nyt, yhteysasetukset tallennetaan. Käyttäjät eivät kuitenkaan voi käyttää [!INCLUDE[crm_md](includes/crm_md.md)]in tietoja [!INCLUDE[d365fin](includes/d365fin_md.md)]ista. Voit palata tälle sivulle myöhemmin ottamaan yhteyden käyttöön.  |
+|**Dynamics 365 SDK -versio**|Jos integroit [!INCLUDE[crm_md](includes/crm_md.md)]in paikallisen version, muodosta yhteys [!INCLUDE[d365fin](includes/d365fin_md.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)]iin tämän Dynamics 365 SDK -version avulla (joka tunnetaan myös nimellä Xrm). Valitsemasi version on oltava yhteensopiva [!INCLUDE[crm_md](includes/crm_md.md)]in käyttämän SDK-version kanssa. Tämä versio on sama tai uudempi kuin [!INCLUDE[crm_md](includes/crm_md.md)]in käyttämä versio.|
 
-    |Kenttä|Kuvaus|
-    |-----|-----|
-    |**Ympäristön URL-osoite**|Jos [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:ssä on omia ympäristöjä, ne löytyvät ohjatun määrityksen suorittamisen yhteydessä. Jos haluat muodostaa yhteyden toiseen ympäristöön eri vuokraajassa, voit syöttää ympäristön järjestelmänvalvojan tunnistetiedot. Ympäristö löytyy niiden avulla. |
-    |**Käytössä**|Aloita integroinnin käyttäminen. Jos et ota yhteyttä käyttöön nyt, yhteysasetukset tallennetaan. Käyttäjät eivät kuitenkaan voi käyttää [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tietoja [!INCLUDE[prod_short](includes/prod_short.md)]ista. Voit palata tälle sivulle myöhemmin ottamaan yhteyden käyttöön.  |
+> [!Note]
+> Jos yhdistät [!INCLUDE[d365fin](includes/d365fin_md.md)]in paikallisen version [!INCLUDE[crm_md](includes/crm_md.md)] ja haluat määrittää yhteyden [!INCLUDE[crm_md](includes/crm_md.md)] -ilmentymään tietyllä todennustyypillä, täytä **Todennustyypin tiedot** -pikavälilehden kentät. Lisätietoja on kohdassa [Yhteyden muodostaminen Dynamics 365:een XRM-työkalujen yhteysmerkkijonojen avulla](https://go.microsoft.com/fwlink/?linkid=843055). Tätä vaihetta tarvita yhdistettäessä [!INCLUDE[d365fin](includes/d365fin_md.md)]in online-versiota.
 
-3. Valitse **Omistusmalli**-kentässä, haluatko [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:n tiimitaulukon vai jonkin tietyn käyttäjän omistavan uudet tietueet. Jos valitset **Henkilö**-kohdan, sinun täytyy määrittää jokainen käyttäjä. Jos valitset **Tiimi**-kohdan oletusliiketoimintayksikkö näkyy **Yhdistetty liiketoimintayksikkö** -kentässä.
+3. Anna seuraavat tiedot yhteyden muodostamiseen [!INCLUDE[crm_md](includes/crm_md.md)]ista [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.
 
-    <!--Need to verify the details in this table, are these specific to Sales maybe?  IK: No they are not and no longer relevant 
-    Enter the following advanced settings.-->
+|Kenttä|Kuvaus|
+|-----|-----|
+|**Dynamics 365 Business Central Web Client -sovelluksen URL-osoite**|[!INCLUDE[d365fin](includes/d365fin_md.md)] -ilmentymän URL-osoite. Näin [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjät voivat avata vastaavat tietueet [!INCLUDE[d365fin](includes/d365fin_md.md)]issa [!INCLUDE[crm_md](includes/crm_md.md)]in tietueista, kuten tilistä tai tietueesta. [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueet avautuvat [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Määritä tämän kentän arvoksi käytettävän [!INCLUDE[d365fin](includes/d365fin_md.md)] -esiintymän URL-osoite.<br /><br /> Voit palauttaa kenttään [!INCLUDE[d365fin](includes/d365fin_md.md)]in oletusarvoisen URL-osoitteen valitsemalla **Palauta verkkoasiakasohjelman URL-osoite** -toiminnon.<br /><br /> Tällä kentällä on merkitystä vain, jos [!INCLUDE[d365fin](includes/d365fin_md.md)] -integrointiratkaisu on asennettu [!INCLUDE[crm_md](includes/crm_md.md)]issa.|
+|**Nimikkeen saatavuus -verkkopalvelu käytössä**|Antaa [!INCLUDE[crm_md](includes/crm_md.md)]ia käyttäville henkilöille mahdollisuuden tarkastella nimikkeiden (tuotteiden) varastosaatavuutta [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Jos otat tämän vaihtoehdon käyttöön, sinun on annettava myös [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjänimi ja käyttöoikeusavain, mikäli haluat tehdä nimikkeiden (tuotteiden) saatavuuskyselyn OData-verkkopalvelun avulla. Lisätietoja on kohdassa [OData-verkkopalvelut](/dynamics365/business-central/dev-itpro/webservices/odata-web-services.md).|
+|**Dynamics 365 Business Centralin OData-verkkopalvelun URL-osoite**|Jos otat Nimikkeen saatavuus -verkkopalvelun käyttöön, saat OData-verkkopalvelun URL-osoitteen.|
+|**Dynamics 365 Business Centralin OData-verkkopalvelun käyttäjätunnus**|Sen käyttäjätilin nimi, jolla [!INCLUDE[crm_md](includes/crm_md.md)] hakee tietoja nimikkeen saatavuudesta [!INCLUDE[d365fin](includes/d365fin_md.md)]issa OData-verkkopalvelun kautta.|
+|**Dynamics 365 Business Centralin OData-verkkopalvelun käyttöoikeusavain**|Sen käyttäjätilin käyttöoikeusavain, jolla [!INCLUDE[crm_md](includes/crm_md.md)] hakee tietoja nimikkeen saatavuudesta [!INCLUDE[d365fin](includes/d365fin_md.md)]ista OData-verkkopalvelun kautta. Avain on määritetty käyttäjälle, joka on valittu **Dynamics 365 Business Centralin OData-verkkopalvelun käyttäjätunnus** -kentässä. Voit hakea avaimen valitsemalla ensin käyttäjänimen vieressä **Hae arvo** -painikkeen ja sitten käyttäjän. Valitse seuraavaksi **Hallitse** ja lopuksi **Muokkaa**. Valitse käyttäjän kortissa ensin **Toiminnot**, **Tarkistus** ja sitten **Muuta verkkopalvelun käyttöoikeusavainta**.|
 
-    <!-- |Field|Description|
-    |-----|-----|
-    |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you are using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who do not have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account will not have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
-    |**Current Business Central Salesperson is Mapped to a User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)] double check the name of this field|-->
-4. Jos haluat testata yhteysasetukset, valitse **Yhteys** ja valitse sitten **Testaa yhteys**.  
+4. Anna seuraavat [!INCLUDE[crm_md](includes/crm_md.md)]in asetukset.
+
+|Kenttä|Kuvaus|
+|-----|-----|
+|**Myyntitilauksen integrointi on käytössä**|Antaa käyttäjille mahdollisuuden lähettää myyntitilauksia ja aktivoituja tarjouksia [!INCLUDE[crm_md](includes/crm_md.md)]issa sekä tarkastella ja käsitellä niitä sitten [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Tämä integroi prosessin [!INCLUDE[crm_md](includes/crm_md.md)]:ssä. Lisätietoja on kohdassa [Myyntitilauksen käsittelyn integroinnin käyttöönotto](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).|
+|**Myyntitilausten automaattinen luominen**|Luo myyntitilaus [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, kun käyttäjä luo ja lähettää sellaisen [!INCLUDE[crm_md](includes/crm_md.md)]issa.|
+|**Käsittele myyntitarjoukset automaattisesti**|Käsittele myyntitarjous [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, kun käyttäjä luo ja aktivoi sellaisen [!INCLUDE[crm_md](includes/crm_md.md)]issa.|
+
+5. Anna seuraavat lisäasetukset.
+
+|Kenttä|Kuvaus|
+|-----|-----|
+|**[!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjät on yhdistettävä Dynamics 365 Sales -käyttäjiin**|Määritä, onko [!INCLUDE[d365fin](includes/d365fin_md.md)] -käyttäjätileillä oltava vastaavat käyttäjätilit [!INCLUDE[crm_md](includes/crm_md.md)]issa. [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjän **Office 365:n todennuksen sähköpostiosoitteen** on oltava sama kuin [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjän **ensisijainen sähköposti**.<br /><br /> Jos valitse arvoksi **Kyllä**, [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjillä, joilla ei ole vastaavaa [!INCLUDE[crm_md](includes/crm_md.md)]in käyttäjätiliä, ei ole käyttöliittymässä [!INCLUDE[d365fin](includes/d365fin_md.md)] -integrointiominaisuuksia. [!INCLUDE[crm_md](includes/crm_md.md)]in tietoja käytetään suoraan [!INCLUDE[d365fin](includes/d365fin_md.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)] -käyttäjätilin puolesta.<br /><br /> Jos valitset arvoksi **Ei**, kaikilla [!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäjillä on käyttöliittymässä [!INCLUDE[crm_md](includes/crm_md.md)] -integrointiominaisuudet. [!INCLUDE[crm_md](includes/crm_md.md)]in tietoja käytetään [!INCLUDE[crm_md](includes/crm_md.md)] -yhteyden (integroinnin) käyttäjän puolesta.|
+|**Nykyinen Business Central -käyttäjä yhdistetään Dynamics 365 Sales -käyttäjään**|Ilmaisee, yhdistetäänkö käyttäjätili [!INCLUDE[crm_md](includes/crm_md.md)]in tiliin.|
+
+6. Voit testata yhteysasetukset valitsemalla **Testaa yhteys**.  
 
     > [!NOTE]  
-    > Jos tietojen salaus ei ole käytössä [!INCLUDE[prod_short](includes/prod_short.md)]issa, sinulta kysytään, haluatko ottaa sen käyttöön. Ota tietojen salaus käyttöön valitsemalla **Kyllä** ja määritä tarvittavat tiedot. Valitse muussa tapauksessa **Ei**. Voit ottaa tietojen salauksen käyttöön myöhemmin. Lisätietoja on kehittäjän ja järjestelmänvalvojan ohjeen kohdassa [Tietojen salaus Dynamics 365 Business Centralissa](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data).  
-5. Jos [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in synkronointia ei ole määritetty, sinulta kysytään, haluatko käyttää oletussynkronointiasetuksia. Valitse **Kyllä** tai **Ei** sen mukaan, haluatko pitää [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in ja [!INCLUDE[prod_short](includes/prod_short.md)]in tietueet kohdistettuina.
+    >  Jos tietojen salaus ei ole käytössä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, sinulta kysytään, haluatko ottaa sen käyttöön. Ota tietojen salaus käyttöön valitsemalla **Kyllä** ja määritä tarvittavat tiedot. Valitse muussa tapauksessa **Ei**. Voit ottaa tietojen salauksen käyttöön myöhemmin. Lisätietoja on kehittäjän ja IT-ammattilaisen ohjeen kohdassa [Tietojen salaus Dynamics 365 Business Centralissa](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data).  
+
+7. Jos [!INCLUDE[crm_md](includes/crm_md.md)]in synkronointia ei ole määritetty, sinulta kysytään, haluatko käyttää oletussynkronointiasetuksia. Valitse **Kyllä** tai **Ei** sen mukaan, haluatko pitää [!INCLUDE[crm_md](includes/crm_md.md)]in ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in tietueet kohdistettuina.
+
+> [!Note]
+> Yhteyden muodostaminen Dynamics 365 Salesista **Microsoft Dynamics 365 Sales -yhteyden määritys** -sivulle voi edellyttää Integroinnin järjestelmänvalvoja- ja Integroinnin käyttäjä -käyttöoikeusroolien määrittämistä integroinnissa käytettävälle tilille. Lisätietoja on kohdassa [Käyttöoikeusroolin määrittäminen käyttäjälle](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
+
+
+> [!Note]
+> Yhteyden muodostaminen Dynamics 365 Salesista **Microsoft Dynamics 365 Sales -yhteyden määritys** -sivun avulla voi edellyttää [**Integroinnin järjestelmänvalvoja**- ja **Integroinnin käyttäjä** -käyttöoikeusroolien määrittämistä](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) integroinnissa käytettävälle käyttäjätilille.
+
+
+### <a name="to-disconnect-from-crm_md"></a>[!INCLUDE[crm_md](includes/crm_md.md)] -yhteyden katkaiseminen  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Microsoft Dynamics 365 Sales -yhteyden määritys** ja valitse sitten liittyvä linkki.
+2. Poista **Microsoft Dynamics 365 Sales -yhteyden määritys** -sivun **Käytössä**-valintaruudun valinta.  
+
+<!--## Install the [!INCLUDE[d365fin](includes/d365fin_md.md) Integration Solution
+[!INCLUDE[d365fin](includes/d365fin_md.md)] includes a solution that enables users to access coupled records, such as customers and items, from records in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts and products. The solution adds a link to the pages in [!INCLUDE[crm_md](includes/crm_md.md)] to open the coupled [!INCLUDE[d365fin](includes/d365fin_md.md)] record. The solution also displays information from [!INCLUDE[d365fin](includes/d365fin_md.md)]on certain entities in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts. Installing this solution is optional. <!--"Solution" sounds old school. Is it an app, or an add-in, or an extension?
+
+
+1.  From [!INCLUDE[d365fin](includes/d365fin_md.md)] installation media \(DVD\), copy the DynamicsNAVIntegrationSolution.zip file to your computer.  
+
+     The DynamicsNAVIntegrationSolution.zip file is located in the **CrmCustomization** folder. This file is the solution package.   
+
+2.  In [!INCLUDE[crm_md](includes/crm_md.md)], import the DynamicsNAVIntegrationSolution.zip as a solution.  
+
+     This step adds the **[!INCLUDE[d365fin](includes/d365fin_md.md) Connection** entity and **[!INCLUDE[d365fin](includes/d365fin_md.md) Account Statistics** entity in the system and additional items such as [!INCLUDE[d365fin](includes/d365fin_md.md)] integration security roles.  
+
+     For more information about how to manage solutions in [!INCLUDE[crm_md](includes/crm_md.md)], [https://go.microsoft.com/fwlink/?LinkID=616519](https://go.microsoft.com/fwlink/?LinkID=616519).  
+
+3.  Optional: Set up the **[!INCLUDE[d365fin](includes/d365fin_md.md) Connection** entity to display in the **Settings** area of [!INCLUDE[crm_md](includes/crm_md.md)].  
+
+     This enables [!INCLUDE[crm_md](includes/crm_md.md)] users who are assigned the **[!INCLUDE[d365fin](includes/d365fin_md.md) Admin** role to modify the entity in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information about how to modify entities in [!INCLUDE[crm_md](includes/crm_md.md)], see [View or edit entity information](https://go.microsoft.com/fwlink/?LinkID=616521).  
+
+4.  Assign the **[!INCLUDE[d365fin](includes/d365fin_md.md) Integration Administrator** role to the user account for the connection to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+
+5.  Assign the **Business Central Integration User** role to all users who will use the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution.  
+
+If you install the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution after you have set up the connection to [!INCLUDE[crm_md](includes/crm_md.md)] in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must modify the connection setup to point to the URL.-->
+
+<!--of the [!INCLUDE[nav_web_md](../developer/includes/nav_web_md.md)]. For more information, see [Set Up a Microsoft Dynamics 365 Sales Connection]() -->
 
 <!--
-## Show Me the Process
+# View Item Availability - Support Matrix
+For most versions of [!INCLUDE[d365fin](includes/d365fin_md.md) and Dynamics 365 Sales, you can view availability figures for items across the integrated products. The following table shows which version combinations support viewing item availability.
 
-The following video shows the steps to connect [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. <br>
-  
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ArlP]
+| |Dynamics 365 Sales version|2015/Update 1/Online|2016/Update 1/Online|Dynamics 365 Sales|
+|-|---------------------|---------------------|--------------------------|-----------------|
+|**Dynamics NAV version**|
+|**2016**||Not supported|Not supported|Not supported|
+|**2017**||Not supported - Install from 2016|Supported|Supported|
+|**Dynamics 365 for Financials**||Not supported - Install from 2016|Supported|Supported|
+
+
+> [Note]
+> You can obtain item availability support for combinations of Dynamics CRM 2015 and Business Central by running the DynamicsNAVIntegrationSolution.zip file on the Business Central product DVD.
+
+For more information, see [System Requirements for Business Central](../deployment/system-requirement-business-central.md).
 
 -->
 
-## <a name="customize-the-match-based-coupling"></a>Osumapohjaisen yhdistämisen mukauttaminen
-
-Alkaen vuoden 2021 2. julkaisuaallosta voit yhdistää tietueita [!INCLUDE [prod_short](includes/prod_short.md)]issa ja [!INCLUDE [cds_long_md](includes/cds_long_md.md)]issa ylläpitäjän määrittelemien vastaavuuskriteerien perusteella.  
-
-Tietueiden vastaavuuden algoritmi voidaan aloittaa seuraavista paikoista [!INCLUDE [prod_short](includes/prod_short.md)]ista:
-
-* Luettelosivut, jotka näyttävät [!INCLUDE [cds_long_md](includes/cds_long_md.md)]in kanssa synkronoitavia tietueita , kuten Asiakkaat- ja Nimikkeet-sivut.  
-
-    Valitse monta tietuetta ja valitse sitten **Liittyvä**-toiminto, valitse **Dataverse**, valitse **Yhdistäminen** ja valitse sitten **Vastaavuuspohjainen yhdistäminen**.
-
-    Kun vastaavuuspohjainen yhdistämisprosessi aloitetaan päätietoluettelosta, yhdistämistyö ajoitetaan suoraan sen jälkeen, kun olet valinnut yhdistämiskriteerit.  
-* **Täyden Dataverse-synkr. tarkistus** -sivu.  
-
-    Kun täyden synkronoinnin prosessi havaitsee, että ei-sidottuja tietueita on sekä [!INCLUDE [prod_short](includes/prod_short.md)]issa että [!INCLUDE [cds_long_md](includes/cds_long_md.md)]issa, **Valitse yhdistämisehdot** -linkki näkyy asianomaisen integrointitaulukon kohdalla.  
-
-    Voit käynnistää **Suorita täysi synkronointi** -toiminnon **Dataverse-yhteyden määritys**- ja **Dynamics 365 -yhteyden määritys** -sivuilta, ja se voidaan aloittaa vaiheena kohdassa **Määritä yhteys Dataverseen** avustetussa asennusoppaassa, kun valitset suorittaa asennuksen loppuun ja suorittaa täydellisen synkronoinnin lopussa.  
-
-    Kun vastaavuuspohjainen yhdistämisprosessi aloitetaan **Täyden Dataverse-synkr. tarkistus** -sivulta, yhdistämistyö ajoitetaan suoraan sen jälkeen, kun määritys on valmis.  
-* **Integrointitaulukon yhdistämismääritysluettelo**.  
-
-    Valitse yhdistämismääritys, sitten **Yhdistäminen**-toiminto ja valitse sitten **Vastaavuuspohjainen yhdistäminen**.
-
-    Kun vastaavuuspohjainen yhdistämisprosessi aloitetaan integrointitaulukon yhdistämismäärityksestä, kaikki kyseisen yhdistämismäärityksen yhdistelemättömien tietueiden yhdistämistyöt suoritetaan. Jos se on suoritettu luettelon valituille tietueille, se suoritetaan vain valittujen kytkemättömien tietueiden osalta.
-
-Kaikissa kolmessa tapauksessa **Valitse yhdistämisehdot** -sivu avautuu, jotta voit määrittää asianmukaiset kytkentäkriteerit. Mukauta tällä sivulla kytkentä seuraavien tehtävien avulla:
-
-* Valitse kentät , joiden mukaan [!INCLUDE [prod_short](includes/prod_short.md)] -tietueet ja [!INCLUDE [cds_long_md](includes/cds_long_md.md)] -entiteetit vastaavat toisiaan, ja valitse, otetaanko kentässä huomioon kirjainkoko.  
-
-* Määritä, suoritetaanko synkronointi tietueiden yhdistämisen jälkeen, ja jos tietue käyttää kaksisuuntaista yhdistämistä, valitse myös, mitä tapahtuu, jos ristiriidat on luetteloitu **Ratkaise päivitysristiriidat** -sivulla.  
-
-* Priorisoi tietueiden hakujärjestystä määrittämällä asianmukaisten yhdistettävien kenttien *vastaavuusprioriteetti*. Vastaavuusprioriteetti saa algoritmin hakemaan vastaavuutta useissa toistoissa, jotka on määritetty **Vastaavuusprioriteetti** -kentän arvoissa nousevassa järjestyksessä. **Vastaavuusprioriteetti**-kentässä oleva tyhjä arvo tulkitaan prioriteetiksi 0, joten tämän arvon kentät otetaan ensin huomioon.  
-
-* Määrittää, luodaanko uusi entiteettiesiintymä [!INCLUDE [cds_long_md](includes/cds_long_md.md)]issa siinä tapauksessa, että hakuehdoilla ei löydy yksilöllistä yhdistämättä olevaa vastaavuutta. Voit aktivoida tämän ominaisuuden valitsemalla **Luo uusi, jos ei löydy vastaavuutta** -toiminto.  
-
-### <a name="view-the-results-of-the-coupling-job"></a>Yhdistämistyön tulosten tarkasteleminen
-
-Jos haluat tarkastella yhdistämistyön tuloksia, avaa **Integrointitaulukon yhdistämismääritykset** -sivu, valitse haluamasi linkitys, valitse **Yhdistäminen**-toiminto ja valitse sitten **Integroinnin yhdistämistyön loki** -toiminto.  
-
-Jos tietueita ei ole kytketty, voit porautua alaspäin Epäonnistunut-sarakkeen arvoon, jolloin näyttöön tulee virheluettelo, joka määrittää, miksi tietueita ei voitu yhdistää.  
-
-Epäonnistunut kytkentä tapahtuu usein seuraavissa tapauksissa:
-
-* Vastaavuuskriteerejä ei ole määritetty
-
-    Tässä tapauksessa suorita vastaavuuspohjainen yhdistäminen uudelleen, mutta muista määrittää yhdistämiskriteerit.
-
-* Useista tietueista ei löytynyt vastaavuutta valittujen vastaavien kenttien perusteella.
-
-    Toista tässä tapauksessa yhdistäminen joillakin muilla vastaavilla kentillä.
-
-* Useista tietueista löytyi useita vastaavuuksia valittujen vastaavien kenttien perusteella  
-
-    Toista tässä tapauksessa yhdistäminen joillakin muilla vastaavilla kentillä.
-
-* Löytyi yksi vastine, mutta vastaava tietue on jo liitetty toiseen tietueeseen [!INCLUDE [prod_short](includes/prod_short.md)]issa  
-
-    Toista tässä tapauksessa kytkentä jollakin muulla vastaavalla kentällä tai tutki, miksi kyseinen [!INCLUDE [cds_long_md](includes/cds_long_md.md)] -objekti on liitetty kyseiseen toiseen tietueeseen [!INCLUDE [prod_short](includes/prod_short.md)]issa.
-
-> [!TIP]
-> Jotta saat yleiskuvan yhdistämisen edistymisestä, **Yhdistetty Dataverseen** -kentässä näkyy, onko tietty tietue liitetty [!INCLUDE [cds_long_md](includes/cds_long_md.md)] -kohteeseen vai ei. Voit suodattaa tämän kentän mukaan [!INCLUDE [cds_long_md](includes/cds_long_md.md)]in kanssa synkronoitavien tietueiden luettelon.
-
-## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Päivitä yhteydet Business Central Onlinesta käyttääksesi varmennepohjaista todennusta
-> [!NOTE]
-> Tämä osa on merkityksellinen vain Microsoftin isännöimille [!INCLUDE[prod_short](includes/prod_short.md)] online -vuokraajille. Tämä ei vaikuta ISV-isännöityihin online-vuokralaisiin tai paikan päällä tehtyihin asennuksiin.
-
-Huhtikuussa 2022 [!INCLUDE[cds_long_md](includes/cds_long_md.md)]issa vanhentuu Office365-todennustyyppi (käyttäjänimi/salasana). Lisätietoja on kohdassa [Office365-todennustyypin vanheneminen](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Lisäksi maaliskuussa 2022 [!INCLUDE[prod_short](includes/prod_short.md)]issa vanhenee online-vuokraajien asiakassalaisuuspohjaisen palvelujenvälisen todennuksen käyttö [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteyksissä. ISV-toimittajien isännöimät [!INCLUDE[prod_short](includes/prod_short.md)] online -vuokralaiset ja paikalliset asennukset voivat edelleen käyttää asiakkaan salaisuuden todennusta yhteyden muodostamiseen kohteeseen [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
-
-Jotta integraatiot eivät häiriinny, yhteys _on päivitettävä_ käyttämään varmennepohjaista todennusta. Vaikka muutos ajoittuu maaliskuulle 2022, suosittelemme, että päivität mahdollisimman pian. Seuraavissa vaiheissa kuvataan, miten varmennepohjaiseen todennukseen päivitetään. 
-
-### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Business Central online -yhteyden päivittäminen käyttämään varmennepohjaista todennusta
-
-> [!NOTE]
-> Varmennepohjainen todennus on käytettävissä Business Central 2021:n julkaisuaallossa 1 ja sitä uudemmissa. Jos käytät aiempaa versiota, sinun on ajoitettava Business Central 2021:n julkaisuaallon 1 päivitys ennen maaliskuuta 2022. Lisätietoja on kohdassa [Päivitysten ajoitus](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). Jos sinulla on ongelmia, ota yhteyttä kumppaniisi tai tukeen.
-
-1. Varmista [Business Centralin hallintakeskuksessa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center), että käytät Business Central 2021:n julkaisuaaltoa 1 tai uudempaa versiota (versio 18 tai uudempi).
-2. Tee jokin seuraavista toimista sen mukaan, integroitko Dynamics 365 Salesiin:
-   * Jos kyllä, avaa **Microsoft Dynamics 365 -yhteysasetukset** -sivu.
-   * Jos ei, avaa **Dataverse-yhteysasetukset**-sivu.
-3. Valitse **Yhteys** ja sitten **Käytä varmennetodennusta** päivittääksesi yhteyden käyttämään varmennepohjaista todennusta.
-4. Kirjaudu sisään Dataverse-järjestelmänvalvojan tunnistetiedoilla. Sisäänkirjautuminen kestää alle minuutin.
-
-> [!NOTE]
-> Nämä vaiheet on toistettava jokaisessa [!INCLUDE[prod_short](includes/prod_short.md)] -ympäristössä, mukaan lukien tuotanto- ja eristysympäristöt ja jokaisessa yrityksessä, jolla on yhteys [!INCLUDE[cds_long_md](includes/cds_long_md.md)]iin.
-
-## <a name="connecting-on-premises-versions"></a>Paikallisten versioiden yhdistäminen
-
-[!INCLUDE[prod_short](includes/prod_short.md)] on-premises -version yhdistäminen [!INCLUDE[cds_long_md](includes/cds_long_md.md)]en edellyttää, että **Dataverse -yhteyden määritys** -sivulla määritetään joitakin tietoja.
-
-Jos haluat muodostaa yhteyden käyttämällä Azure Active Directory (Azure AD) -tiliä, sovellus on rekisteröitävä Azure AD:ssä, minkä lisäksi on asennettava sovelluksen tunnus, avainsäilön salaisuus ja käytettävä uudelleenohjauksen URL-osoite. Uudelleenohjauksen URL-osoite täytetään valmiiksi, ja sen pitäisi toimia useimmissa asennuksissa. Asennus on määritettävä käyttämään HTTPS-yhteyttä. Lisätietoja on kohdassa [SSL:n määrittäminen suojaamaan Business Centralin verkkoasiakasohjelman yhteyttä](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Jos palvelimelle määritetään jokin muu aloitussivu, URL-osoitteen voi vaihtaa. Asiakasohjelman salaisuus tallennetaan tietokantaan salattuna merkkijonona. 
-
-### <a name="prerequisites"></a>Vaatimukset
-
-Dataversen on käytettävä jotakin seuraavista todennustyypeistä:
-
-* Office365 (vanha)
-
-  > [!IMPORTANT]
-  > Huhtikuusta 2022 alkaen Office365 (vanha) -versiota ei enää tueta. Lisätietoja on kohdassa [Power Appsiin, Power Automateen ja asiakasvuorovaikutussovelluksiin tulevia tärkeitä muutoksia (vanhentumisia)](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
-* Office365 (moderni, OAuth2-asiakasohjelman salaiseen koodiin perustuva)
-* OAuth
-
-### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Sovelluksen rekisteröiminen Azure AD:ssä muodostamaan yhteys Business Centralista Dataverseen
-
-Seuraavissa vaiheissa oletetaan, käyttäjätietojen ja käyttöoikeuksien hallintaan käytetään Azure AD:tä. Lisätietoja sovelluksen rekisteröimisestä Azure AD:ssä on kohdassa [Pika-aloitus: sovelluksen rekisteröinti Microsoftin käyttäjätietoympäristössä](/azure/active-directory/develop/quickstart-register-app). 
-
-1. Valitse Azure-portaalin **Hallinta**-kohdan siirtymisruudussa **Todennus**.  
-2. Lisää **Uudelleenohjauksen URL-osoite** -kohdassa [!INCLUDE[prod_short](includes/prod_short.md)]in **Dataverse -yhteyden määritys** -sivulla ehdotettu uudelleenohjauksen URL-osoite.
-3. Valitse **Hallinta**-kohdassa **API-käyttöoikeudet**.
-4. Valitse **Määritetyt käyttöoikeudet** -kohdassa **Lisää käyttöoikeus** ja lisää sitten delegoidut käyttöoikeudet **Microsoftin API:t** -välilehdessä seuraavasti:
-    * Business Central: lisää **Financials.ReadWrite.All**-käyttöoikeudet.
-    * Dynamics CRM: lisää **user_impersonation**-käyttöoikeudet.  
-
-    > [!NOTE]
-    > Dynamics CRM -API:n nimi voi muuttua.
-
-5. Valitse **Hallinta**-kohdassa **Varmenteet ja salaiset avaimet** ja lue sitten sovellukselle uusi salaisuus. Salaista avainta joko käytetään [!INCLUDE[prod_short](includes/prod_short.md)]in **Dataverse -yhteyden määritys** -sivun **Asiakasohjelman salainen avain** -kentässä tai se tallennetaan suojattuun tallennustilaan, josta se annetaan tapahtumaan tilaajassa aiemmin tässä aiheessa kuvatulla tavalla.
-6. Valitse **Yleiskuvaus** ja etsi sitten **Sovelluksen (asiakasohjelman) tunnus** -arvo. Tämä on sovelluksen asiakasohjelman tunnus. Se on joko annettava **Dataverse -yhteyden määritys** -sivun **Asiakasohjelman tunnus** -kentässä tai tallennettava suojattuun tallennustilaan tapahtuman tilaajassa annettavaksi.
-7. Anna [!INCLUDE[prod_short](includes/prod_short.md)]in **Dataverse -yhteyden määritys** -sivun **Ympäristön URL-osoite** -kentässä [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -ympäristön URL-osoite.
-8. [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteys otetaan käyttöön **Käytössä**-valitsimella.
-9. Käytä kirjautumiseen Azure Active Directoryn järjestelmänvalvojan tiliä. (Tämä tili tarvitsee voimassaolevan [!INCLUDE[cds_long_md](includes/cds_long_md.md)]n käyttöoikeuden, ja sen on oltava [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -ympäristön järjestelmänvalvoja.) Kirjautumisen jälkeen sinua pyydetään antamaan rekisteröidylle sovellukselle lupa kirjautua [!INCLUDE[cds_long_md](includes/cds_long_md.md)]en organisaation puolesta. Määrityksen valmistumisen edellyttää tämän luvan antamista.
-
-   > [!NOTE]
-   > Jos sinua ei pyydetä käyttämään kirjautumiseen järjestelmänvalvojan tiliä, syynä on luultavasti estetyt ponnahdusikkunat. Kirjautumista varten on sallittava ponnahdusikkunat osoitteesta `https://login.microsoftonline.com`.
-
-### <a name="to-disconnect-from-cds_long_md"></a>[!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteyden katkaiseminen
-
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Dataverse-yhteyden määritys** ja valitse sitten vastaava linkki.
-2. Poista käytöstä **Dataverse -yhteyden määritys** -sivulla **Käytössä**-valitsin.  
-
-## <a name="see-also"></a>Katso myös
-
+## <a name="see-also"></a>Katso myös  
 [Synkronoinnin tilan näyttäminen](admin-how-to-view-synchronization-status.md)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,20 +1,21 @@
 ---
-title: Tietoja standardikustannuksen laskemisesta
-description: Vakiokustannusjärjestelmässä varaston yksikkökustannus määritetään kohtuullisten aiempien tai odotettujen kustannusten perusteella.
+title: Tietoja vakiokustannusten laskennasta | Microsoft Docs
+description: Vakiokustannusjärjestelmässä varastoyksikkö määritetään kohtuullisten aiempien tai odotettujen kustannusten perusteella. Tällöin aiempien ja arvioitujen kustannusten tarkastelut muodostavat vakiokustannusten perustan.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5841
-ms.author: edupont
-ms.openlocfilehash: 6b0b531c1a41d2f19941578f8f381d56e554cb96
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.search.keywords: ''
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 208f07fe68fac326d5cc444b498d9cca09fd231b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973698"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3184266"
 ---
 # <a name="about-calculating-standard-cost"></a>Tietoja standardikustannuksen laskemisesta
 Useat tuotantoyritykset valitsevat vakiokustannusten perustaksi arvostuksen. Tämä pätee myös yrityksiin, jotka tekevät vain kevyitä tuotantotöitä, kuten kokoonpanoa ja varustelua. Vakiokustannusjärjestelmässä varastoyksikkö määritetään kohtuullisten aiempien tai odotettujen kustannusten perusteella. Tällöin aiempien ja arvioitujen kustannusten tarkastelut muodostavat vakiokustannusten perustan. Nämä kustannukset jäädytetään, kunnes niiden muutosta koskeva päätös on tehty. Tuotteen todelliset tuotantokustannukset eroavat väistämättä arvioiduista vakiokustannuksista. Todellisia kustannuksia vertaillaan tietyn nimikkeen vakiokustannuksiin johdon hallintotarkoituksia varten, ja *erot* tunnistetaan ja analysoidaan.  
@@ -32,23 +33,22 @@ Vakiokustannukset on muodostettava jokaiselle kustannuselementille, koska kokoon
 
 Nimikkeitä käsittelevällä yrityksellä, joka käyttää vakiokustannuksia, on kaksinkertainen kirjanpitotehtävä:  
 
-- valmiin nimikkeen vakiokustannusten arvioiminen ja määrittäminen nimikekorttiin.  
-- tuotannon kustannuselementtien todellisten kustannusten tallentaminen ja kohdistaminen sekä erojen asianmukainen selvitys.  
+-   valmiin nimikkeen vakiokustannusten arvioiminen ja määrittäminen nimikekorttiin.  
+-   tuotannon kustannuselementtien todellisten kustannusten tallentaminen ja kohdistaminen sekä erojen asianmukainen selvitys.  
 
 Kaikki komponentin kustannukset on laskettava yhteen, jotta valmiin nimikkeen välittömät kustannukset voidaan määrittää. Koottu tai valmistettu nimike voi sisältää osakokoonpanoja, jotka voivat myös sisältää useita osia.  
 
 Seuraavat keskeiset kustannukset muodostavat valmiiksi käsitellyn nimikkeen välittömän kokonaiskustannuksen:  
 
-- Materiaalikulut  
-- Kapasiteettikustannus  
-- Alihankintakustannukset ainoastaan tuotetuille nimikkeille.  
+-   Materiaalikulut  
+-   Kapasiteettikustannus  
+-   Alihankintakustannukset ainoastaan tuotetuille nimikkeille.  
 
-### <a name="material-costs"></a>Materiaalikustannukset
+### <a name="material-costs"></a>Materiaalikustannukset  
+ Materiaalikustannuksia ovat osakokoonpanoihin ja ostettuun raaka-aineeseen liittyvät kustannukset. Materiaaliyksikön kustannukset voivat koostua välittömistä ja välillisistä kustannuselementeistä.  
 
-Materiaalikustannuksia ovat osakokoonpanoihin ja ostettuun raaka-aineeseen liittyvät kustannukset. Materiaaliyksikön kustannukset voivat koostua välittömistä ja välillisistä kustannuselementeistä.  
-
-- Välittömät materiaalikustannukset edustavat ostettujen raaka-aineiden tai osakokoonpanon käsittelykustannusten laskutettua summaa.  
-- Välilliset kustannukset (tai *yleiskustannukset*) voivat koostua esimerkiksi tuotetun valmiin nimikkeen varastointikustannuksista.  
+-   Välittömät materiaalikustannukset edustavat ostettujen raaka-aineiden tai osakokoonpanon käsittelykustannusten laskutettua summaa.  
+-   Välilliset kustannukset (tai *yleiskustannukset*) voivat koostua esimerkiksi tuotetun valmiin nimikkeen varastointikustannuksista.  
 
 Ostettujen nimikkeiden materiaalikustannusten määrittäminen välillisiin ja välittömiin kustannuksiin riippuu kyseiselle nimikkeelle valitusta arvostusmenetelmästä. Kummankin arvostusmenetelmän kustannustiedot määritetään nimikkeen kortissa. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
 
@@ -66,13 +66,13 @@ Kapasiteetin kustannuksia ovat kustannukset, jotka liittyvät sisäisen työn ja
 
 Kapasiteettikustannusten asetukset koostuvat seuraavista elementeistä:  
 
-- Resurssin välilliset ja välittömät yksikkökustannukset.  
-- Kiinteä tai suora resurssikäyttötyyppi.  
+-   Resurssin välilliset ja välittömät yksikkökustannukset.  
+-   Kiinteä tai suora resurssikäyttötyyppi.  
 
 Tuotettujen nimikkeiden kapasiteettikustannusten asetukset koostuvat seuraavista elementeistä:  
 
-- Kuormitusryhmän tai tuotantosolun välittömät ja välilliset yksikkökustannukset.  
-- Ajan ja erän koon asetukset.  
+-   Kuormitusryhmän tai tuotantosolun välittömät ja välilliset yksikkökustannukset.  
+-   Ajan ja erän koon asetukset.  
 
 Tuotantoyrityksen on muodostettava koneen ja tuotantosolujen suorituksessa tarvittavat vakioaikapalkat kapasiteetin vakiokustannusten laskentaa varten. Toiminnon suorituksen kokonaisaika koostuu yleensä asennus- ja suoritusajasta sekä odotus- ja siirtoajasta.  
 
@@ -97,7 +97,7 @@ Vakiokustannusten päivittäminen tai laskeminen koostuu yleensä seuraavista te
 
 1.  Päivitetään kustannuksia osa- ja kapasiteettitasolla. Lisätietoja on **Ehdota nimikkeen vakiokust.**- ja **Ehdota kapasiteetin vakiokustannusta** -eräajoissa.  
 2.  Nimikkeiden kokoonpanon ja tuotannon kokonaiskustannusten laskeminen konsolidoimalla ja vyöryttämällä osa- ja kapasiteettikustannukset. Lisätietoja on kohdassa [Kokoonpanon nimikkeen vakiokustannusten laskeminen](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
-3.  Otetaan edellisten eräajojen aikana syötetyt vakiokustannukset käyttöön. Vakiokustannukset eivät tule voimaan, ennen kuin ne on otettu käyttöön. Käytä **Ota käyttöön vakiokustannusten muutokset** -erätyötä, joka päivittää nimikkeiden vakiokustannusten muutokset Vakiokustannustyökirja-taulukossa.  
+3.  Otetaan edellisten eräajojen aikana syötetyt vakiokustannukset käyttöön. Vakiokustannukset eivät tule voimaan, ennen kuin ne on otettu käyttöön. Lisätietoja on **Ota käyttöön vakiokustannusten muutokset** -eräajossa.  
 4.  Otetaan muutokset käyttöön nimikkeen kortin **Yksikkökustannus**-kentän päivittämistä ja varaston uudelleenarvostuksen suorittamista varten. Lisätietoja on kohdassa [Varaston uudelleenarvostus](inventory-how-revalue-inventory.md).
 
 ## <a name="see-also"></a>Katso myös  
@@ -105,6 +105,3 @@ Vakiokustannusten päivittäminen tai laskeminen koostuu yleensä seuraavista te
  [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)   
  [Vakiokustannusten päivittäminen](finance-how-to-update-standard-costs.md)   
  [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,32 +1,34 @@
 ---
-title: Älykkäät tiedot ja pilvisiirto
-description: Business Central onlinessa voi käyttää muita verkkopalveluja ja saada älykkäitä esimerkiksi Azuren tekoälyyn perustuvia tietoja. Jatka lukemista, jos harkitset siirtymistä paikallisesta ympäristöstä pilvipalveluihin.
+title: Älykkäät kävijätiedot ja pilvisiirto | Microsoft Docs
+description: Ota yhteys älykkäisiin tietoihin Bussiness Centralilla paikallisesta ratkaisustasi. Opettele siirtymään pilveen.
 author: bmeier94
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms. search.keywords: cloud, migrate, insights
-ms.date: 04/12/2021
-ms.author: edupont
-ms.openlocfilehash: d98f876648f642484fe44e91da14120265e9a451
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms. search.keywords: cloud, edge
+ms.date: 02/27/2020
+ms.author: bmeier
+ms.openlocfilehash: 8db6696fb7baf1b591d0129bc2b6f149ca2e4e31
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442608"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097645"
 ---
-# <a name="intelligent-insights-in-prod_short-online"></a>[!INCLUDE[prod_short](includes/prod_short.md)] Onlinen älykkäät tiedot
+# <a name="intelligent-insights-with-prodshort-online"></a>Älykkäät tiedot tuotteessa [!INCLUDE[prodshort](includes/prodshort.md)] Online
 
-[!INCLUDE[prod_short](includes/prod_short.md)] tuotteen verkkoversion käyttäjänä, sinulla on täysi käyttöoikeus skenaarioihin, jotka perustuvat älykkääseen pilveen, kuten koneoppimiseen perustuviin suorituskyvyn mittareihin tai kun tarkastalet tietoja Power BIn kautta.   
+[!INCLUDE[prodshort](includes/prodshort.md)] tuotteen verkkoversion käyttäjänä, sinulla on täysi käyttöoikeus skenaarioihin, jotka perustuvat älykkääseen pilveen, kuten koneoppimiseen perustuviin suorituskyvyn mittareihin tai kun tarkastalet tietoja Power BIn kautta.  Niin kauan kun [!INCLUDE[prodshort](includes/prodshort.md)] on ensisijaisesti pilvipalvelu, myös asiakkaat, joiden on suoritettava työt kokonaan paikallisesti tai pilvessä älykkään yhteyden avulla, voivat tehdä niin.  
 
-Jos käytössä on kuitenkin paikallinen [!INCLUDE [prod_short](includes/prod_short.md)], käytössä ei ole samoja merkityksellisiä tietoja. Jos haluat hyödyntää verkkoskenaarioita, sinun on siirryttävä [!INCLUDE [prod_short](includes/prod_short.md)] onlineen. Lisätietoja on kohdassa [Paikallisten tietojen siirtäminen Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) -ohjelmaan [!INCLUDE[prod_short](includes/prod_short.md)]-hallintasisällössä.  
+Jos olet kiinnostunut tuotteesta [!INCLUDE[prodshort](includes/prodshort.md)], voit rekisteröityä ilmaiselle kokeilujaksolle tai voit työskennellä kumppanin kanssa niin, että [!INCLUDE[prodshort](includes/prodshort.md)] asennetaan valitsemallesi paikalliselle kovalevylle. Voit sitten saada älykkäät tiedot yhdistämällä vuokraajaan pilvipalvelussa. Tuloksena paikallisesti käyttöönotetun [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksen tiedot replikoidaan älykkään pilven skenaarioiden pilveen.  
 
-## <a name="viewing-insights-in-prod_short-online"></a>[!INCLUDE[prod_short](includes/prod_short.md)] Onlinen merkityksellisten tietojen näyttäminen
+Yhteyden muodostaminen paikallisesta ratkaisusta älykkääseen pilveen edellyttää, että järjestelmänvalvoja määrittää tietokantaa koskevat tiedot. Paikallisesti käyttöönotetun [!INCLUDE [prodshort](includes/prodshort.md)] online-tilan yhdistämiseen käytettävät työkalut ovat samat, joita käytetään myös siirtoon paikallisesta online-tilaan. Lisätietoja on kohdassa [Paikallisten tietojen siirtäminen Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) -ohjelmaan [!INCLUDE[prodshort](includes/prodshort.md)]-hallintasisällössä .  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] onlinessa **Älykkään pilven tiedot** -sivulla on seuraavat neljä kohtaa, jotka ovat tärkeitä useimmissa yrityksissä:
+## <a name="viewing-intelligent-cloud-insights-in-prodshort-online"></a>Älykkään pilven tietojen tarkasteleminen [!INCLUDE[prodshort](includes/prodshort.md)] -online-versiossa
+
+[!INCLUDE[prodshort](includes/prodshort.md)] Online -yrityksessä **Älykkään pilven tiedot** -sivulla on seuraavat neljä kohtaa, jotka ovat tärkeitä useimmissa yrityksissä:
 
 - Käteisvarojen saatavuus
 - Myynnin kannattavuus
@@ -36,14 +38,17 @@ Jos käytössä on kuitenkin paikallinen [!INCLUDE [prod_short](includes/prod_sh
 KPI-kaavioiden vieressä on tietoja mahdollisista ongelma-alueista, kuten erääntyneistä maksuista. Valitse tiedot, joita haluat tarkastella.  
 
 > [!div class="mx-imgBorder"]
-> ![Älykkään pilven tiedot.](media/across-intelligent-cloud/intelligentcloudApril19.png "Näyttää Älykkäät pilvipalvelun Tiedot -sivun Business Central onlinessa")
+> ![Älykkään pilven tiedot](media/across-intelligent-cloud/intelligentcloudApril19.png "Näyttää Älykkään Pilvipalvelun Tiedot -sivun Business Centralissa")
 
-Sivu myös muodostaa yhteyden Power BI:hin, jolloin käytettävissä on entistäkin enemmän tietoja. Vaihtoehtoisesti voit muodostaa yhteyden Azuren tekoälyyn ja saada lisää älykkäitä tietoja. Lisätietoja on kohdassa [Myynti- ja varastoennustelaajennus](ui-extensions-sales-forecast.md).  
+Sivu myös muodostaa yhteyden Power BI:hin, jolloin käytettävissä on entistäkin enemmän tietoja.
+
+## <a name="viewing-intelligent-insights-on-premises"></a>Älykkäiden tietojen tarkastelu paikallisesti
+
+Kun Dynamics 365 -jälleenmyyntikumppani on hankkinut oikean käyttöoikeuden, jonka avulla paikallinen ratkaisu voi muodostaa yhteyden pilveen [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksen avulla, järjestelmänvalvoja voi määrittää yhteyden. Kun tämä on tehty, voit tarkastella pilven tietoja myös paikallisen sovelluksen avulla. Paikallisesta ratkaisusta riippuen **Älykkään pilven tiedot** -sivu voidaan upottaa kotisivulle tai se voi olla erillinen sivu samalla tavalla kuin [!INCLUDE[prodshort](includes/prodshort.md)] -sovelluksen online-versiossa ja paikallisessa versiossa.  
 
 ## <a name="see-also"></a>Katso myös
 
-[Tervetuloa Business Centraliin](index.md)  
-[Pilvipalveluihin siirtymisen laajennukset](ui-extensions-data-replication.md)  
+[Tervetuloa käyttämään Business Centralia](index.md)  
+[Business Central -sovelluksen älykkään pilven laajennus](ui-extensions-intelligent-cloud.md)  
+[Tietojen replikointilaajennus](ui-extensions-data-replication.md)  
 [Paikallisten tietojen siirtäminen Business Central Onlineen](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

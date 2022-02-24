@@ -1,21 +1,23 @@
 ---
-title: Todellisten summien analysointi budjetoituihin summiin nähden
-description: Tässä aiheessa kuvataan, miten voit analysoida todellisia summia budjetoituihin summiin verrattuna, jotta voit kerätä, analysoida ja jakaa yrityksesi tietoja.
+title: Todellinen vs. Budjetti -analyysi| Microsoft-asiakirjat
+description: Kuvaa, miten todellisia summia analysoidaan budjetoituihin summiin nähden.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 2bbdce7c34160ffc1eefc7e398574db8b642b657
-ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 32680efab7168ade5c8feca4cb69a37687da708b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "6688276"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186114"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Todellisten summien analysointi budjetoituihin summiin nähden
 Yrityksesi tietojen keräämisen, analysoinnin ja jakamisen osana tarkastelet todellisia summia ja vertaat niitä kaikkien tilien sekä useiden ajanjaksojen budjetoituihin summiin.
@@ -25,7 +27,7 @@ Budjetoitujen summia analysointia varten on ensin luotava KP-budjetteja. Lisäti
 ## <a name="to-view-a-gl-budget"></a>KP-budjetin tarkastelu
 Budjetissa, jossa on dimensioita, voi suodattaa tapahtumia ja siten tarkastella tiettyjä budjetteja.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KP-budjetit** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Pääkirjanpidon budjetit** ja valitse sitten liittyvä linkki.
 2. Avaa **KP-budjetit** -sivulla talousarvio, jota haluat tarkastella.  
 3. Täyttämällä sivun yläosan kentät määrität, mitä näytetään. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -39,9 +41,9 @@ Budjetissa, jossa on dimensioita, voi suodattaa tapahtumia ja siten tarkastella 
 >   Jos budjettia on tarpeen muokata, voit muokata budjetin tapahtumia. Valitse summa, niin saat näkyviin sen perusteena olevat KP-budjetin tapahtumat.
 
 ## <a name="to-view-actual-and-budgeted-amounts-for-all-accounts"></a>Todellisten ja budjetoitujen summien tarkastelu kaikkien tilien osalta  
-Pääkirjanpidon budjettien tarkastelu ja niiden vertaaminen todellisiin lukuihin useilla [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman osa-alueilla.
+Pääkirjanpidon budjettien tarkastelu ja niiden vertaaminen todellisiin lukuihin useilla [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman osa-alueilla.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten liittyvä linkki.  
 2. Valitse **Tilikartta**-sivulla **KP-saldo/-budjetti**-toiminto.
 3. Täyttämällä sivun yläosan kentät määrität, mitä näytetään.  
 4. Valitse kenttä nähdäksesi määrityksen, josta näkyvä summa muodostuu.  
@@ -57,7 +59,7 @@ Vasemmanpuoleisimmisssa sarakkeissa on tilikartta. Oikealla olevista viidestä s
 ## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Useiden jaksojen todellisten ja budjetoitujen summien tarkastelu  
 Sen sijaan että tarkastelisit todellisia ja budjetoituja summia kaikkien tilien osalta yhdeltä kaudelta, voit tarkastella useita yhden tilin kausia.  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten liittyvä linkki.  
 2. Valitse **Tilikartta**-sivulla haluamasi KP-tili ja valitse sitten **KP-tilin saldo/budjetti** -toiminto.  
 3. Täyttämällä sivun yläosan kentät määrität, mitä näytetään.   
 4. Valitse kenttä nähdäksesi näkyvän summan määrityksen.  
@@ -70,7 +72,4 @@ Sen sijaan että tarkastelisit todellisia ja budjetoituja summia kaikkien tilien
 [Rahoitus](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

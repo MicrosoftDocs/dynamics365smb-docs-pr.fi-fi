@@ -1,41 +1,35 @@
 ---
-title: Eräajojen ja XMLportien suorittaminen
+title: Eräajon luominen ja suorittaminen | Microsoft Docs
 description: Voit käsitellä ja päivittämää tietoja suorittamalla eräajon esimerkiksi kausiluontoisissa kirjanpitotehtävissä tai laskutoimituksissa.
+services: project-madeira
+documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process
-ms.search.form: 672, 676, 682
-ms.date: 04/01/2021
+ms.date: 04/01/2019
 ms.author: solsen
-ms.openlocfilehash: 84741ec7d98e405aeb5792a5d1a907221eef11f7
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 0b9bf37f9054d767938b851e399a1b2c347f77c3
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8100975"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1249259"
 ---
-# <a name="run-batch-jobs-and-xmlports"></a>Eräajojen ja XMLportien suorittaminen
-
+# <a name="run-batch-jobs"></a>Eräajojen ajaminen
 Eräajo on rutiini, joka käsittelee tietoja erissä, esimerkiksi **Valuuttakurssien muutoksen** eräajo. Ohjelmassa on eräajoja, jotka suorittavat säännöllisiä kirjanpidon toimintoja, kuten tuloslaskelman sulkeminen tilikauden päättyessä. Monet eräajot suorittavat laskutoimituksia. Tällaiset eräajot voivat esimerkiksi laskea viivästyskulut, vaihtokurssien muutoksen tai yksikköhinnat.
 
 Eräajo vastaa raporttia, mutta se päivittää tiedot suoraan saatujen tulosten perusteella sen sijaan, että tulokset tulostettaisiin.
 
-Voit aikatauluttaa eräajon suorittamisen. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
-
 ## <a name="to-run-a-batch-job"></a>Eräajon suorittaminen
-1. Jos haluat avata asianomaisen eräajon pyyntösivun, valitse ![Hehkulamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä eräajon nimi ja valitse sitten liittyvä linkki.
+1. Jos haluat avata liittyvän erätyön pyyntösivun, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna erätyön nimi ja valitse sitten liittyvä linkki.
 2. Jos eräajolla on **Vaihtoehdot**-pikavälilehti, voit määrittää eräajon toiminnan täyttämällä kentät.
 3. Sivulla voi olla yksi tai useita pikavälilehtiä ja suodattimia, joiden avulla voidaan rajoittaa eräajoon sisällytettyjä tietoa. Voit syöttää kriteerin ehdotetuille suodattimille tai lisätä suodattimia.
 4. Aloita eräajo valitsemalla **OK**.
 
 ## <a name="see-also"></a>Katso myös
 [Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md)  
-[Työjonojen käyttäminen ajoitustehtäviin](admin-job-queues-schedule-tasks.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

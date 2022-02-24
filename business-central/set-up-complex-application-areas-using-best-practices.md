@@ -3,26 +3,26 @@ title: Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen
 description: Uuden liiketoimintaohjelmiston toimivuuden vuoksi on tärkeää, että annettavat asetusarvot ovat oikein heti alusta alkaen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: dc9ed598938ff0bb4782e9f01aa6d35eaa9b610e
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: a09a438a7683cafb8f68eb793bdde2b93fa64409
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778120"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192336"
 ---
 # <a name="set-up-complex-application-areas-using-best-practices"></a>Määritä monimutkaiset sovellusalueet käyttäen parhaita käytäntöjä
 Uuden liiketoimintaohjelmiston toimivuuden vuoksi on tärkeää, että annettavat asetusarvot ovat oikein heti alusta alkaen.  
 
  Riippumatta siitä, otatko asetusarvot käyttöön RapidStart-määrityksellä vai annatko ne manuaalisesti uudessa yrityksessä, voit tukea määrityspäätöksiäsi tietyillä yleisillä suosituksilla sellaisissa määrityskentissä, joiden tiedetään voivan heikentää ratkaisun toimintaa, jos ne määritetään virheellisesti.  
 
- [!INCLUDE[prod_short](includes/prod_short.md)]in ohjeessa on parhaita käytäntöjä seuraavien sovellusalueiden avainkenttien määrittämiseen:  
+ [!INCLUDE[d365fin](includes/d365fin_md.md)]in ohjeessa on parhaita käytäntöjä seuraavien sovellusalueiden avainkenttien määrittämiseen:  
 
 -   [Parhaiden käytäntöjen määrittäminen: Toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
 
@@ -31,10 +31,7 @@ Uuden liiketoimintaohjelmiston toimivuuden vuoksi on tärkeää, että annettava
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
 [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

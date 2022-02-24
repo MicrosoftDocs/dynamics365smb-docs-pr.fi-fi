@@ -3,19 +3,19 @@ title: Lähetä Maksusuoritustietojen Ohjeet Laajennus | Microsoft Docs
 description: Kuvailee Lähetä Maksusuoritustietojen Ohjeet laajennusta, joka sallii maksusuoritetietojen ohjeiden uudelleenlähettämisen maksukirjauskansiosta tai toimittajatapahtumista.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: app, add-in, manifest, customize, stream, remittance, advice
-ms.date: 07/06/2021
+ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
+ms.date: 05/05/2020
 ms.author: edupont
-ms.openlocfilehash: a5b1245a47975f2db9465c5dc101ee13eea74248
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 236cb83e99c2385edc09622255037a152bf41e6e
+ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6434857"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3339920"
 ---
 # <a name="send-remittance-advice"></a>Lähetä Maksusuoritustietojen Ohjeet
 
@@ -26,22 +26,12 @@ Kun maksusuoritetietojen ohjetta käytetään tiedottamaan toimittajia maksuista
 
 Voit lähettää maksusuoritetietojen ohjeita kahdella eri tapaa:
 
-* **Maksukirjauskansio** -sivulla, valitse **Liittyvät**, **Maksut**, **Lähetä Maksusuoritetietojen Ohjeet** lähettääksesi sähköpostilla maksusuoritetietojen ohjeet yhdeltä tai useammalta maksukirjauskansion riviltä
+* **Maksukirjauskansio** -sivulla, valitse **Navigoi**, **Maksut**, **Lähetä Maksusuoritetietojen Ohjeet** lähettääksesi sähköpostilla maksusuoritetietojen ohjeet yhdeltä tai useammalta maksukirjauskansion riviltä.
 * Valitse **Toimittajatapahtumat**-sivulla **Toiminnot**, **Funktiot**, **Lähetä Maksutietojen Ohjeet** lähettääksesi sähköpostilla maksutietojen ohjeet, kun toimittajamaksut on julkaistu yhdestä tai useammasta toimittajatapahtumasta
 
 ## <a name="see-also"></a>Katso myös
 
 [Ehdota toimittajamaksuja](payables-how-suggest-vendor-payments.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
-[Sähköinen rahansiirto (EFT) Australia-versiossa](localfunctionality/australia/electronic-funds-transfer-eft-.md)  
-[Sähköisten maksujen suorittaminen (CA)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
-[Sähköinen rahansiirto (EFT) Uusi-Seelanti-versiossa](localfunctionality/newzealand/electronic-funds-transfer-eft-.md)  
-[Uusi-Seelannin paikalliset toiminnot](localfunctionality/newzealand/new-zealand-local-functionality.md)  
-[Yhdistyneen kuningaskunnan paikallinen toiminnallisuus brittiversiossa](localfunctionality/unitedkingdom/united-kingdom-local-functionality.md)  
-[Maksuosoitusehdotuksen tulostaminen brittiversiossa](localfunctionality/unitedkingdom/how-to-print-remittance-advice.md)  
-[Sähköisten maksujen suorittaminen (US)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
-  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

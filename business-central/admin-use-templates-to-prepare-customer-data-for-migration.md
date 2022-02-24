@@ -1,21 +1,21 @@
 ---
-title: Asiakastietojen siirtämisen valmisteleminen mallien avulla
-description: Tietoja määritysmallien käyttämisestä nykyisten asiakastietojen jäsentämiseen ennen päätietojen siirtämistä uuteen yrityksessä Business Centralissa.
+title: Asiakastietojen siirtämisen valmisteleminen mallien avulla | Microsoft Docs
+description: Tietoja määritysmallien käyttämisestä nykyisten asiakastietojen jäsentämiseen ennen tietojen siirtämistä uuteen yrityksessä Business Centralissa.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: 49ea877d2a6a213a1559b7269bc4b70f660745d7
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.date: 07/06/2020
+ms.author: sgroespe
+ms.openlocfilehash: 273d7a0b15684f7cd97874d4dba818b9a289e2a7
+ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649885"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "3535920"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Asiakastietojen siirtämisen valmisteleminen mallien avulla
 
@@ -28,7 +28,7 @@ Yleensä voit luoda tietomallit seuraaville päätietotaulukoille:
 - **Nimike**  
 - **Toimittaja**  
 
-Voit kuitenkin luoda mallirakenteen ja kohdistaa sen mihin tahansa ohjelman [!INCLUDE[prod_short](includes/prod_short.md)] taulukkoon.  
+Voit kuitenkin luoda mallirakenteen ja kohdistaa sen mihin tahansa ohjelman [!INCLUDE[d365fin](includes/d365fin_md.md)] taulukkoon.  
 
 > [!TIP]  
 > Voit myös käyttää tietueita päivittäisiin toimintoihin luodaksesi uusia tietueita, jotka perustuvat malleihin. Nämä tietomallit toimivat vain tuetuissa päätietotaulukoissa. Lisätietoja on esimerkiksi kohdassa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  
@@ -47,7 +47,7 @@ Kun valitset olemassa olevan tietomalliin, sinun tulee arvioida, ovatko uudelle 
 > [!TIP]  
 > Tietomallien avulla voit luoda myös uusia tilien kortteja nopeasti. Käytä niitä nopeampaa ja vaivattomampaa tietojen luomista varten. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritysmallit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määritysmallit** ja valitse sitten liittyvä linkki.  
 2. Valitse **Määritysmallit**-sivulla luettelosta tietomalli ja valitse sitten **Muokkaa**-toiminto.  
 
 Jos oletusmallit eivät vastaa tarpeitasi, voit luoda uusia malleja tai lisätä olemassa olevaan malliin kenttiä. Jos oletusmallit ovat riittäviä, voit käyttää niitä tai luoda tietueita päätietomallien perusteella.
@@ -87,7 +87,7 @@ Aiemmin luodun tietomallin taulukkotunnus, nimi ja rivit lisätään uuteen mall
 3. Anna **Oletusarvo**-kenttään asianmukainen arvo. Joissakin tapauksissa haluat ehkä käyttää arvoa, joka ei ole käytettävissä tietokannassa. Tällöin voit valita tietojen virheettömän käytön valitsemalla **Ohita suhteen tarkistus** -valintaruudun.
 
     > [!TIP]  
-    > Koska **Oletusarvo**-kentällä ei ole hakua vastaaviin [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman kenttäasetuksiin, kopioi ja liitä haluamasi arvo malliin asianmukaiselta sivulta.
+    > Koska **Oletusarvo**-kentällä ei ole hakua vastaaviin [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman kenttäasetuksiin, kopioi ja liitä haluamasi arvo malliin asianmukaiselta sivulta.
 
 4. Valitse **Pakollinen**-valintaruutu, jos käyttäjien on täytettävä kyseinen kenttä.
 
@@ -98,9 +98,9 @@ Aiemmin luodun tietomallin taulukkotunnus, nimi ja rivit lisätään uuteen mall
 
 ## <a name="to-export-to-a-template-in-excel"></a>Mallin vieminen Exceliin
 
-Voit luoda Excel-työkirjan malliksi, joka perustuu olemassa olevan tietokannan taulukon rakenteeseen nopeasti. Mallin avulla voit kerätä yhteen asiakastiedot yhdenmukaisessa muodossa myöhempää tuontia varten [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan.
+Voit luoda Excel-työkirjan malliksi, joka perustuu olemassa olevan tietokannan taulukon rakenteeseen nopeasti. Mallin avulla voit kerätä yhteen asiakastiedot yhdenmukaisessa muodossa myöhempää tuontia varten [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.
 2. Lisää taulukko luetteloon tai valitse aiemmin luotu taulukko. Lisätietoja on kohdassa [Yrityksen määrittämisen hallinta työkirjassa](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Määritä malliin taulukosta sisällytettävät kentät valitsemalla **Näytä kentät**.
 4. Valitse **Vie malliin** -toiminto.
@@ -122,8 +122,7 @@ Kun käytät tietoja mallista Excel-taulukossa taulukkoon, jossa on myös kokoon
 Tietue, jonka tietoja käytetään tällä tavalla on täydellinen, koska se koostuu Excelissä käyttäjän syöttämistä tiedoista sekä määritysmallin mukaisista oletusarvoista.
 
 > [!NOTE]
-> Jos määrityspaketin taulukoiden tiedot sisältävät päivämääriä, kuten laskujen kirjauspäiviä, päivämäärien katsotaan noudattavan [!INCLUDE[prod_short](includes/prod_short.md)]issa määritettyä aikavyöhykettä. 
-
+> Jos määrityspaketin taulukoiden tiedot sisältävät päivämääriä, kuten laskujen kirjauspäiviä, päivämäärien katsotaan noudattavan [!INCLUDE[d365fin](includes/d365fin_md.md)]issa määritettyä aikavyöhykettä. 
 
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Luo tietue konfiguraatiomallista
 
@@ -131,26 +130,17 @@ Voit käyttää tietorakennetta, joka sisältyy tietomalleihin, muuntaaksesi tie
 
 Seuraavissa vaiheissa esitellään, miten nimikekortti luodaan nimiketietomallista. Voit luoda tietueen mistä tahansa tietomallista käyttäen samaa menettelyä.  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritysmallit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määritysmallit** ja valitse sitten liittyvä linkki.  
 2. Valitse **nimikemalli** ja valitse sitten **Muokkaa**-toiminto. Lisätietoja on kohdassa [Tietomallin luominen](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Valitse **Luo instanssi** -toiminto. Ohjelma luo nimikkeen kortin.  
 4. Valitse **OK**-painike.  
-5. Jos haluat tarkastella uutta nimikorttia, valitse ![Kerro-ominaisuuden avaava Hehkulamppu.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
+5. Jos haluat tarkistaa uuden nimikkeen kortin, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
 6. Avaa uusi nimikkeen kortti.  
 7. Laajenna eri pikavälilehdet ja varmista, että niihin on syötetty oikeat tiedot.  
 
-## <a name="to-use-conversion-templates"></a>Muuntomallien käyttö
-
-Voit muuntaa kontakteja asiakkaiksi, toimittajiksi ja työntekijöiksi. 
-
-### <a name="to-convert-a-contact-into-a-customer-vendor-or-employee"></a>Yhteyshenkilön muuntaminen asiakkaaksi, toimittajaksi tai työntekijäksi
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvaketta, kirjoita **Yhteyshenkilö** ja valitse sitten oikea yhteyshenkilö. 
-2. Valitse kontaktikortissa **Toiminnot**, sitten **Funktiot** ja valitse sitten **Luo asiakkaaksi, toimittajaksi, pankiksi tai työntekijäksi**.
-
-
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Käytä konfigruointimallia tietueessa
 
-Voit käyttää tietomallia mihin tahansa tietueeseen, joka on [!INCLUDE[prod_short](includes/prod_short.md)] ja käyttää tätä tekniikkaa muuttaaksesi tai muokataksesi tietuetta. Kun teet tämän, tietueen aiemmin määritetyt arvot korvataan mallin arvoilla. Näin ollen sinun on oltava huolellinen, kun mallia sovelletaan olemassa oleviin tietueisiin.
+Voit käyttää tietomallia mihin tahansa tietueeseen, joka on [!INCLUDE[d365fin](includes/d365fin_md.md)] ja käyttää tätä tekniikkaa muuttaaksesi tai muokataksesi tietuetta. Kun teet tämän, tietueen aiemmin määritetyt arvot korvataan mallin arvoilla. Näin ollen sinun on oltava huolellinen, kun mallia sovelletaan olemassa oleviin tietueisiin.
 
 > [!WARNING]  
 > **Sovella mallia** -toiminto korvaa nykyisen tietueen tiedot. Jos tätä funktiota käytetään päätietojen siirrossa, se korvaa tuodut tiedot tietueiden luonnin yhteydessä.
@@ -163,14 +153,8 @@ Seuraava toimenpide perustuu uuteen asiakaskorttiin.
 
 Valitun asiakkaan mallin oletusarvot lisätään asiakaskorttiin.
 
-> [!NOTE]
-> Mallia ei voi käyttää asiakkaiden, toimittajien ja muiden vastaavien kohteiden kenttien tyhjentämiseen. Sen sijaan sinun on käytettävä **Muokkaa Excelissä** -toimintoa. Lisätietoja on kohdassa [Muokkaa Excelissä](across-work-with-excel.md#edit-in-excel).
-
 ## <a name="see-also"></a>Katso myös
 
 [Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)  
 [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

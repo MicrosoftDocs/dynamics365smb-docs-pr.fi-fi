@@ -1,71 +1,45 @@
 ---
 title: Document Exchange -palvelun määrittäminen | Microsoft Docs
 description: Ulkoista palveluntarjoajaa käytetään sähköisten asiakirjojen vaihtamiseen liikekumppaneiden kanssa.
-author: bholtorf
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
-ms.author: edupont
-ms.openlocfilehash: eea1b946814803c1f05d5b4985d3c5330931fbc6
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 82ccc7bc9fc9aa09c9b403f9d5a31bfa25355e3e
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588749"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3188226"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Document Exchange -palvelun määrittäminen
-Osana tiedonvaihtokehystä voit vaihtaa myynti- ja osto asiakirjoja kauppakumppaneiden kanssa ilman lisävaiheita, kuten dokumenttien liittämistä sähköpostiviesteihin PDF-tiedostoina. Kun esimerkiksi olet valmis laskuttamaan asiakasta, voit kirjata laskun ja lähettää sen maksettavaksi tiedostona, jonka asiakas voi vastaanottaa liiketoiminnan hallintasovelluksessaan. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).
+Ulkoista palveluntarjoajaa käytetään sähköisten asiakirjojen vaihtamiseen liikekumppaneiden kanssa. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).  
 
-> [!NOTE]
-> Business Centralin on-premises -version asiakirjojen vaihtopalvelun määrittäminen edellyttää joitakin lisävaiheita valtuutusta varten. Lisätietoja on kohdassa [Business Central On-Premises -version asetukset](#settings-for-business-central-on-premises).
-
-## <a name="connecting-with-trading-partners"></a>Yhdistäminen kauppakumppaneihin
-Sähköisten asiakirjojen vaihtaminen edellyttää yhteyttä kauppakumppaneihin. [!INCLUDE[prod_short](includes/prod_short.md)] online on määritetty käyttämään Business Central Integration-sovellusta, jotta suojatun yhteyden luominen on helppoa. Sovellus on saatavilla Tradeshift App Storessa, ja kaikki sinun ja liikekumppanisi tarvitsee vain luoda Tradeshift-tili ja ottaa sitten sovellus käyttöön. Business Central Integration -sovellus on saatavilla tuotanto- ja sandbox-versioina. Esimerkiksi sandbox-version käyttäminen on hyvä asiakirjojen vaihtamisen testaamista varten. Voit vaihtaa tuotanto- ja sandbox-versioiden välillä kääntämällä **Sandbox**-valitsimen päälle tai pois päältä **Document Exchange -palvelun asetukset** -sivulla. Kun teet näin, **Palvelu**-pikavälilehden tiedot päivitetään.
-
-Vaihtoehtoisesti jos haluat käyttää muuta palvelua, sinun on annettava tiedot yhteyden muodostamista varten. Lisätietoja on kohdassa [Document Exchange -palveluun yhdistäminen](across-how-to-set-up-a-document-exchange-service.md#to-connect-to-a-document-exchange-service).
-
-## <a name="to-connect-to-the-business-central-integration-app-on-tradeshift"></a>Yhteyden muodostaminen Business Central Integration -sovellukseen Tradeshiftissa
-Voit luoda nopeasti Tradeshift-tilin ja aloittaa Business Central Integration -sovelluksen käytön **Document Exchange -palvelun asetukset** -sivulta. Valitse joko **Aktivoi sovellus** linkki ilmoituksessa tai **Sovelluksen URL** -kenttä ja siirry sovellukseen Tradeshift App Storessa. Kirjaudu sisään tai rekisteröidy Tradeshiftin kirjautumissivulla.
-
-> [!NOTE]
-> Kun olet kirjautunut Tradeshift-tiliisi, sivustosi ei ehkä siirrä sivulle, jolla sovellus aktivoidaan. Voit tehdä sen napsauttamalla uudelleen Business Centralissa **Document Exchange -palvelun asetukset** -sivun linkkiä, jolloin siirryt suoraan sovellukseen.
-
-Jos päätät lopettaa Business Central Integration -sovelluksen käyttämisen, poista se Tradeshift App Storessa. 
-
-## <a name="to-connect-to-a-document-exchange-service"></a>Document Exchange -palveluun yhdistäminen  
-Jos haluat käyttää toista asiakirjan vaihtopalvelua, sinun täytyy antaa joitakin tietoja yhteyden muodostamiseksi palveluun.
-
+## <a name="to-set-up-a-document-exchange-service"></a>Document Exchange -palvelun määrittäminen  
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Document Exchange -palvelun asetukset** ja valitse sitten liittyvä linkki.  
 2. Täytä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
-    |Kenttä|Kuvaus|  
+    |Kenttä|Description|  
     |---------------------------------|---------------------------------------|  
     |**Käyttäjäagentti**|Anna teksti, jolla voidaan tunnistaa yrityksesi asiakirjan vaihtoprosesseissa.|  
-    |**Käytössä**|Määritä, onko yhteys palveluun otettu käyttöön.<br><br> **Huomautus:** Kun palvelu otetaan käyttöön, ainakin kaksi työjonon tapahtumaa luodaan lähettämään ja vastaanottamaan sähköisiä asiakirjoja. Kun palvelu poistetaan käytöstä, työjonon tapahtumat poistetaan.|  
-    |**Eristysympäristö**|Määrittää, muodostetaanko yhteys asiakirjavaihtopalvelun Sandbox-versioon.|
-    |**Rekisteröitymisen URL-osoite**|Määritä verkkosivu, jossa document exchange -palvelu rekisteröidään.|  
-    |**Sovelluksen URL-osoite**|Valitse linkki, jonka avulla voit avata sovelluskaupan ja ottaa Business Central Integration -sovelluksen käyttöön tai poistaa sen käytöstä.|
+    |**Document Exchange -palvelun vuokraajatunnus**|Anna vuokraaja document exchange -palvelussa, joka edustaa yritystäsi. Document exchange -palvelun tarjoaja tarjoaa tämän.|  
+    |**Käytössä**|Määritä, onko palvelu käytössä. **Huomautus:** heti, kun palvelu otetaan käyttöön, ainakin kaksi työjonon tapahtumaa luodaan käsittelemään sähköisten asiakirjojen liikenne sisään ja ulos [!INCLUDE[d365fin](includes/d365fin_md.md)]:sta. Kun palvelu poistetaan käytöstä, työjonon tapahtumat poistetaan.|  
+    |**Rekisteröinnin URL-osoite**|Määritä verkkosivu, jossa document exchange -palvelu rekisteröidään.|  
     |**Palvelun URL-osoite**|Määritä sen document exchange -palvelun osoite, joka kutsutaan, kun lähetät ja vastaanotat sähköisiä asiakirjoja.|  
-    |**Kirjautumisen URL-osoite**|Määritä sen sivun URL-osoite, jossa document exchange -palveluun kirjaudutaan. Tämä on sivu, johon annat yrityksesi käyttäjänimen ja salasanan.|  
-    
+    |**Sisäänkirjautumisen osoite**|Määritä document exchange -palvelun kirjautumissivu, johon kirjoitat yrityksesi käyttäjänimen ja salasanan kirjautuessasi palveluun.|  
+    |**Kuluttajan avain**|Anna kolmen osapuolen OAuth-avain kuluttaja-avaimelle. Document exchange -palvelun tarjoaja tarjoaa tämän.|  
+    |**Kuluttajan salainen avain**|Anna piilokoodi, joka suojaa kuluttaja-avainta. Saat sen Document exchange -palveluntarjoajalta.|  
+    |**Tunnus**|Anna kolmen osapuolen OAuth-avain tunnukselle. Saat sen Document exchange -palveluntarjoajalta.|  
+    |**Tunnuksen salainen avain**|Anna piilokoodi, joka suojaa tunnusta. Saat sen Document exchange -palveluntarjoajalta.|  
+
     > [!NOTE]  
-    > Kirjautumistiedot salataan automaattisesti. Salausta ei voi poistaa käytöstä.
-
-    > [!NOTE]
-    > Jos et pysty muodostamaan yhteyttä asiakirjan vaihtopalveluun valtuutusongelman vuoksi, syynä voi olla se, että [!INCLUDE[prod_short](includes/prod_short.md)] ei voi uudistaa automaattisesti käyttöoikeustunnusta. Tämä voi johtua tapahtua, jos palvelua ei ole käytetty pitkään aikaan. Voit uudistaa tunnuksen manuaalisesti **Uudista tunnus** -toiminnon avulla.
-
-## <a name="settings-for-business-central-on-premises"></a>Business Central On-Premises -version asetukset
-Jotta voisit yhdistää Business Central on-premises -versioon, sinun on luotava sovellus Tradeshift App Storessa. Kun teet näin, käytä **Document Exchange Service Setup** -sivun **Uudelleenohjauksen URL** -kenttää. Kun olet rekisteröinyt sovelluksesi, Tradeshift antaa asiakastunnuksen ja asiakassalaisuuden. Anna [!INCLUDE[prod_short](includes/prod_short.md)]issa kyseiset arvot **Document Exchange -palvelun asetukset** -sivun **Valtuutus**-pikavälilehdessä.
-
-Jos haluat tallentaa sovelluksen tunnuksen ja salaisen avaimen eri sijaintiin, Asiakasohjelman tunnus- ja Asiakasohjelman salainen avain -kentät voidaan jättää tyhjäksi. Tunnuksen ja salaisen avaimen sijainnista noutoa varten on siinä tapauksessa kirjoitettava laajennus. Salainen avain voidaan antaa suorituspalvelussa tilaamalla OnGetClientId- ja OnGetClientSecret-tapahtumat codeunitissa 1410 Doc. Exch. Service Mgt.
+    > Sisäänkirjaustiedot salataan automaattisesti.
 
 ## <a name="see-also"></a>Katso myös  
 [Tiedonsiirron määrittäminen](across-set-up-data-exchange.md)  
 [Sähköinen tiedonsiirto](across-data-exchange.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

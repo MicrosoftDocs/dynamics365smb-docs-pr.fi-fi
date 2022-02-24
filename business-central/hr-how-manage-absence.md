@@ -1,21 +1,22 @@
 ---
-title: Työntekijöiden poissaolojen hallinta
-description: Kuvaa, miten työntekijöiden poissaolot kirjataan ja poissaolotilastoja analysoidaan käyttäen Poissaolomerkintä- ja Työntekijän poissaolot -sivuja.
+title: Työntekijöiden poissaolojen hallinta| Microsoft Docs
+description: Artikkelissa käsitellään, miten työntekijöiden poissaolot kirjataan ja miten poissaolotilastoja analysoidaan.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5212, 5211, 5200
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 4b1ba11875ebd9a8ea9e2733f3f2dd6c0e876d86
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.date: 04/01/2020
+ms.author: SorenGP
+ms.openlocfilehash: d976ad8644df20821143a9ab31349a77a58eb73a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101397"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182586"
 ---
 # <a name="manage-employee-absence"></a>Työntekijöiden poissaolojen hallinta
 Voit hallita työntekijän poissaoloja rekisteröimällä poissaolot **Poissaolon rekisteröinti** -sivulla. Sen tarkastelu on mahdollista erilaisista analyysi- ja raportointitarpeiden näkökulmista.
@@ -70,8 +71,5 @@ Voit rekisteröidä työntekijöiden poissaolot päivittäin tai muulta aikaväl
 ## <a name="see-also"></a>Katso myös
 [Henkilöstöresurssien hallinta](hr-manage-human-resources.md)  
 [Rahoitus](finance.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen](ui-work-product.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,22 +1,22 @@
 ---
 title: Henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen
-description: Tässä aiheessa kerrotaan, miten henkilötietopyyntöihin vastataan. Tätä kutsutaan tietojen kohteen pyynnöksi.
+description: Tietojen kohteen pyyntöihin on vastattava.
 author: bholtorf
 ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 06/14/2021
+ms.date: 04/01/2020
 ms.reviewer: na
-ms.topic: conceptual
-ms.openlocfilehash: 77b1470ee7df736815451c03e4afbf684803aea4
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.topic: article
+ms.openlocfilehash: 16c7bb44326ebb754846171a0379cc9423754c45
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321960"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186762"
 ---
-# <a name="responding-to-requests-about-users-personal-data"></a>Käyttäjien henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen  
-Tietojen kohteet voivat pyytää erilaisia henkilökohtaisia tietoja koskevia toimintoja. Esimerkiksi yleisen tietosuoja-asetuksen (GDPR) ansiosta, EU-alueella asuvilla on oikeus pyytää henkilökohtaisten tietojensa vientiä, poistamista ja muokkaamista. Tätä kutsutaan *tietojen kohteen pyynnöksi*. Jos olet luokitellut tietojen luottamuksellisuuden ja olet varma, että ne ovat oikein, järjestelmänvalvoja voi vastata pyyntöihin **IT-päällikkö**-roolikeskuksen **Tietosuoja**-välilehden vaihtoehtojen avulla. Lisätietoja tietojen luokittelusta ja tietojen luottamuksellisuuden luokittelusta [!INCLUDE[prod_long](includes/prod_long.md)]ssa on kohdissa [Tietojen luokitteleminen](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) ja [Tietojen luottamuksellisuuden luokitteleminen](admin-classifying-data-sensitivity.md).  
+# <a name="responding-to-requests-about-personal-data"></a>Henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen  
+Tietojen kohteet voivat pyytää erilaisia henkilökohtaisia tietoja koskevia toimintoja. Esimerkiksi yleisen tietosuoja-asetuksen (GDPR) ansiosta, EU-alueella asuvilla on oikeus pyytää henkilökohtaisten tietojensa vientiä, poistamista ja muokkaamista. Tätä kutsutaan *tietojen kohteen pyynnöksi*. Jos olet luokitellut tietojen luottamuksellisuuden ja olet varma, että ne ovat oikein, järjestelmänvalvoja voi vastata pyyntöihin **IT-päällikkö**-roolikeskuksen **Tietosuoja**-välilehden vaihtoehtojen avulla. Lisätietoja tietojen luokittelusta ja tietojen luottamuksellisuuden luokittelusta [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]ssa on kohdissa [Tietojen luokitteleminen](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) ja [Tietojen luottamuksellisuuden luokitteleminen](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Pyyntöjen tyypit
 
@@ -35,13 +35,13 @@ Seuraavassa taulukossa on esimerkkejä pyyntötyypeistä, joihin voit vastata.
 Tietojen kohde voi pyytää henkilökohtaisten tietojensa käsittelyn tilapäistä lopettamista. Voit noudattaa pyyntöjä ja merkitä kyseiset tietueet estetyiksi tietosuojan vuoksi. Tällöin tietojen käsittely lopetetaan. Kun tietue on merkitty estetyksi, et voi luoda uusia tapahtumia, joissa kyseinen tietue on käytössä. Et voi esimerkiksi luoda asiakkaalle uutta laskua, jos asiakas tai myyjä on estetty. Voit merkitä tietojen kohteen estetyksi avaamalla tietojen kohteen kortin, esimerkiksi asiakkaan, toimittajan tai yhteyshenkilön kortin, ja valitsemalla **Estetty tietosuojan vuoksi** -valintaruudun. Sinun on ehkä valittava **Näytä lisää**, jotta kenttä näkyy.  
 
 ## <a name="handling-data-subject-requests-while-in-trial"></a>Tietojen kohteen pyyntöjen käsittely kokeiluversiossa
-Tietyn tyyppiset henkilötiedot ovat osa omaa Microsoft 365 -tiliäsi. Näiden tietojen vieminen vaatii järjestelmänvalvojan oikeudet, jos saat tietojen kohteen pyynnön, joka koskee tämän tyyppisiä henkilökohtaisia tietoja, joihin sovelletaan yleistä tietosuoja-asetusta (GDPR). Tietojen kohteen pyyntöjen käsittelyprosessi on erilainen [!INCLUDE[prod_short](includes/prod_short.md)] -vuokraajan tyypin mukaan.  
+Tietyn tyyppiset henkilötiedot ovat osa omaa Office 365 -tiliäsi. Näiden tietojen vieminen vaatii järjestelmänvalvojan oikeudet, jos saat tietojen kohteen pyynnön, joka koskee tämän tyyppisiä henkilökohtaisia tietoja, joihin sovelletaan yleistä tietosuoja-asetusta (GDPR). Tietojen kohteen pyyntöjen käsittelyprosessi on erilainen [!INCLUDE[d365fin](includes/d365fin_md.md)] -vuokraajan tyypin mukaan.  
 
-Jos sinulla on maksettu [!INCLUDE[prod_short](includes/prod_short.md)] -tilaus, kohdista tietojen kohteen pyyntö organisaatiosi vuokraajien hallinnoijalle. Järjestelmänvalvojalla on järjestelmänvalvojan oikeudet ja työkalut pyynnön täyttämiseksi.  
+Jos sinulla on maksettu [!INCLUDE[d365fin](includes/d365fin_md.md)] -tilaus, kohdista tietojen kohteen pyyntö organisaatiosi vuokraajien hallinnoijalle. Järjestelmänvalvojalla on järjestelmänvalvojan oikeudet ja työkalut pyynnön täyttämiseksi.  
 
-Jos olet rekisteröinyt [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen [Kokeilut](https://trials.dynamics.com/)-sivulta, etkä ole siirtynyt tästä kokeiluversiosta maksettuun tilaukseen organisaatiosi vuokraajien järjestelmänvalvojan avulla, voit täyttää tietojen kohteen pyynnön [Azure-portaalin Työpaikkojen ja oppilaitosten tietosuoja -sivulla](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Tässä voit viedä ja ladata henkilötietojasi.
+Jos olet rekisteröinyt [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen [Kokeilut](https://trials.dynamics.com/)-sivulta, etkä ole siirtynyt tästä kokeiluversiosta maksettuun tilaukseen organisaatiosi vuokraajien järjestelmänvalvojan avulla, voit täyttää tietojen kohteen pyynnön [Azure-portaalin Työpaikkojen ja oppilaitosten tietosuoja -sivulla](https://portal.azure.com#blade/Microsoft_AAD_IAM/GDPRViralBlade). Tässä voit viedä ja ladata henkilötietojasi.
 
-Työpaikkojen ja oppilaitosten tietosuoja -sivulla voit myös sulkea tilisi. Kannattaa kuitenkin varmistaa, että olet vienyt ja poistanut kaikki tiedot ensin, koska tilin poistaminen tarkoittaa sitä, menetät mahdollisuuden käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -sovellusta.  
+Työpaikkojen ja oppilaitosten tietosuoja -sivulla voit myös sulkea tilisi. Kannattaa kuitenkin varmistaa, että olet vienyt ja poistanut kaikki tiedot ensin, koska tilin poistaminen tarkoittaa sitä, menetät mahdollisuuden käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovellusta.  
 
 Voit edelleen merkitä henkilöitä estetyiksi tietosuojan vuoksi ja viedä, muokata tai poistaa tapahtumia tässä artikkelissa esitetyllä tavalla.  
 
@@ -62,6 +62,3 @@ Jos yhteyshenkilö on niin nuori, ettei hän voi antaa laillista suostumusta alu
 [Liiketoimintatietojen vieminen Exceliin](about-export-data.md)  
 [Muutosten kirjaaminen lokiin](across-log-changes.md)  
 [Tietojen kohteiden pyynnöt – GDPR](/microsoft-365/compliance/gdpr-data-subject-requests)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

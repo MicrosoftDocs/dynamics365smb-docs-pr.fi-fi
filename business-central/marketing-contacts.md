@@ -1,28 +1,26 @@
 ---
-title: Yrityksen kontaktien luominen ja hallinta
+title: Yrityksen kontaktien luonti ja hallinta| Microsoft Docs
 description: Voit määrittää kaikki ulkoiset yksiköt, joiden kanssa sinulla on liikesuhde, kontakteiksi. Kyse voi olla esimerkiksi prospekteista, asiakkaista, toimittajista ja konsulteista.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 581e89630782f4cfca364838002fa4eca4ddbb6d
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 99345104555d8cba2887361a1de4941b24b7499a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8060168"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181626"
 ---
 # <a name="managing-contacts"></a>Kontaktien hallinta
-
 Yrityksen työntekijät kohtaavat säännöllisesti mahdollisia liikesuhteita, joista voi kehittyä virallisia liikesuhteita. Kaikki tällaiset ulkoiset yhteyshenkilöt ja heidän eritellyt tietonsa tulee tallentaa järjestelmään, jotta viestintä onnistuu. Tämän jälkeen yhteyshenkilöt voidaan helposti muuntaa virallisesti asiakkaiksi, toimittajiksi tai pankkisuhteiksi.
-
-Käytä **Kontakti**-luetteloa kontaktien hallintaan. Sieltä voit luoda mahdollisuuksia ja hallita muita vuorovaikutuksia yksittäisten kontaktien kanssa. Voit myös tarkastella kontaktin tilastoja, ja voit käyttää erilaisia raportteja. Lisätietoja oikean kontaktin etsimisestä luettelosta on kohdassa [Lajittelu, hakeminen ja suodattaminen](ui-enter-criteria-filters.md).  
 
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.
 
@@ -34,10 +32,5 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Ratkaise ristiriita, kun samalla kontaktilla on ainakin kaksi tietuetta.|[Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-also"></a>Katso myös
-
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
-[Lajitteleminen, hakeminen ja suodattaminen](ui-enter-criteria-filters.md)  
 [Business Centralin käyttäminen](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

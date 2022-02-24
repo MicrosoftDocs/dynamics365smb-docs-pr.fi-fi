@@ -1,21 +1,21 @@
 ---
-title: Rakennetiedot - oletetun kustannuksen kirjaus
+title: Rakenteen tiedot – Oletetun kustannuksen kirjaus | Microsoft Docs
 description: Oletetut kustannukset kuvaavat esimerkiksi arviota ostetun nimikkeen kustannuksesta, jonka kirjaat ennen nimikkeen laskun vastaanottamista.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/20/2021
-ms.author: edupont
-ms.openlocfilehash: 1327eaf9a26ff2bbf8aa3dab8f2e7f64b8f00ab4
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 024d80039c2293924a53db31ea998a7b565c333b
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649835"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185490"
 ---
 # <a name="design-details-expected-cost-posting"></a>Rakennetiedot: oletetun kustannuksen kirjaus
 Oletetut kustannukset kuvaavat esimerkiksi arviota ostetun nimikkeen kustannuksesta, jonka kirjaat ennen nimikkeen laskun vastaanottamista.  
@@ -29,22 +29,10 @@ Oletetut kustannukset kuvaavat esimerkiksi arviota ostetun nimikkeen kustannukse
 
  Laskutetussa arvotapahtumassa näkyy väliaikaisten tilien täsmäyttämiseksi kirjattu oletettu kustannussumma. Tämä tukee täsmäytystä ja jäljitystä.  
 
-## <a name="prerequisites-for-posting-expected-costs"></a>Oletetun kustannuksen kirjaamisen edellytykset
-
-Jotta odotetut kustannukset voidaan kirjata, sinun on tehtävä seuraavat toimet:
-1. **Varastonhallinnan asetukset** -sivulla valitse **Automaattinen kustann. kirjaus** -valintaruutu ja **Oletettu kust. kirjaus KP:oon** -valintaruutu.
-2. Määritä, mitä väliaikaisia tilejä käytetään oletetun kustannuksen kirjausprosessin aikana.  
-
-  Tarkista **Varaston kirjausasetukset** -sivulla **Varastotili**- ja **Varastotili (väliaikainen)** -kentät ostettavan nimikkeen kentälle **Sijaintikoodi ja Varaston kirj.ryhmän koodi**. Lisätietoja näistä tileistä on kohdassa [Rakennetiedot - Tilit pääkirjanpidossa](design-details-accounts-in-the-general-ledger.md).
-3. Tarkista **Yleiset kirjausasetukset** -sivulla **Varaston kertymätili (väliaik)** -kenttä käyttämillesi **Yleinen liiketoim. kirjausryhmä**- ja **Yleinen tuotteen kirjausryhmä** -ryhmille.
-4. Kun luot ostotilauksen, oletusarvona on, että **Toimittajan laskun nro** -kenttä on pakollinen. Sinun on poistettava se käytöstä **Ostojen ja ostovelkojen asetukset** -sivulla poistamalla **Ulkois. asiakirjan nro pakoll.** -kentän valinta.
-
 ## <a name="example"></a>Esimerkki  
+ Seuraavassa esimerkissä näytetään oletetut kustannukset, jos **Automaattinen kustann. kirjaus** -valintaruutu ja **Oletettu kust. kirjaus KP:toon** -valintaruutu on valittu **Varastonhallinnan asetukset** -sivulla.  
 
-> [!NOTE]  
-> Tässä esimerkissä käytetyt tilinumerot ovat vain viitteenä, ja ne ovat erilaisia järjestelmässäsi. Määritä ne yllä olevissa edellytyksissä olevien ohjeiden mukaan.
-
-Kirjaa ostotilaus vastaanotetuksi. Oletetut kustannukset ovat LCY 95.00.  
+ Kirjaa ostotilaus vastaanotetuksi. Oletetut kustannukset ovat LCY 95.00.  
 
  **arvotapahtumat**  
 
@@ -85,7 +73,7 @@ Kirjaa ostotilaus vastaanotetuksi. Oletetut kustannukset ovat LCY 95.00.
 
  **Pääkirjanpidon tapahtumat**  
 
-|Kirjauspäivämäärä|KP-tili|Tilinro (Vain esimerkit!)|Summa|Tapahtumanro|  
+|Kirjauspvm|KP-tili|Tilinro (En-US-esittely)|Summa|Tapahtumanro|  
 |------------------|------------------|---------------------------------|------------|---------------|  
 |01-15-20|Varastokertymätili (väliaik)|5530|95.00|4|  
 |01-15-20|Varastotili (väliaik)|2131|-95.00|3|  
@@ -100,7 +88,4 @@ Kirjaa ostotilaus vastaanotetuksi. Oletetut kustannukset ovat LCY 95.00.
  [Rakennetiedot: varianssi](design-details-variance.md)  
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
  [Rahoitus](finance.md)  
- [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

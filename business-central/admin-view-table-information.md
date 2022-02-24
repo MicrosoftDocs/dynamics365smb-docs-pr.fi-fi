@@ -1,21 +1,19 @@
 ---
 title: Näytä taulukon tiedot
-description: Lue miten voit tarkastella tietokantataulukoiden tietoja suoraan Business Centralin asiakasliittymästä.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 8700
-ms.date: 06/14/2021
+ms.date: 04/20/2020
 ms.author: jswymer
-ms.openlocfilehash: 70aff9cf0aa2af7096c8c4c047e249585e34c777
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: de93063a60e6b64405b1491a67489c8bfa4657ad
+ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8010962"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275316"
 ---
 # <a name="viewing-table-information"></a>Näyttää taulukon tiedot
 
@@ -25,7 +23,7 @@ Näistä tiedoista on hyötyä suorituskykyongelmien vianmäärityksessä, sill�
 
 ## <a name="viewing-table-information"></a>Näyttää taulukon tiedot
 
-Avaa tämä sivu valitsemalla ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Taulukon tiedot** ja valitse sitten vastaava linkki.
+Avataksesi tämän sivun, valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, anna **Taulukon tiedot** ja valitse sitten aiheeseen liittyvä linkki.
 
 Seuraavassa taulukossa kuvataan kunkin taulukon tiedot:
 
@@ -41,6 +39,3 @@ Seuraavassa taulukossa kuvataan kunkin taulukon tiedot:
 
 [Sivujen tarkistaminen](across-inspect-page.md)  
 [Suorituskykyartikkelit kehittäjille](/dynamics365/business-central/dev-itpro/performance/performance-developer)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

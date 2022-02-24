@@ -2,35 +2,31 @@
 title: Business Central -opintoluettelo
 description: Business Central -opintoluettelo
 author: loreleishannonmsft
-ms.date: 04/01/2021
-ms.topic: conceptual
-ms.author: margoc
-ms.openlocfilehash: f7b0434be1ec49259b400403c0f8dcd7fddfcc47
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.date: 02/19/2020
+ms.topic: article
+ms.author: v-lshann
+ms.openlocfilehash: 44132a02a899202a95ad1510c9b837cb48e2150f
+ms.sourcegitcommit: 35552b250b37c97772129d1cb9fd9e2537c83824
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772452"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3097597"
 ---
 # <a name="business-central-learning-catalog"></a>Business Central -opintoluettelo
-
 Etsi oikea online-koulutus, henkilökohtaisia työpajoja ja tapahtumia oman roolin Business Central -käyttäjänä tai kumppanina.
 
 :::row:::
-
     :::column:::
 
     ### <a name="business-decision-maker"></a>Yrityksen päätöksentekijä
 
     Päätätkö sinä investoidaanko uusiin teknologioihin? 
 
-    [Opi Business Centralin liiketoiminta-arvo (ilmainen, omaan tahtiin etenevä verkko-oppimispolku)](/learn/modules/dynamics-365-business-central/)
+    [Liiketoiminnan päätöksentekijän opintoluettelo](readiness-learning-bus-decision-makers.md)
 
-    [Aloita (Ilmainen, omaan tahtiin etenevä verkko-oppimispolku)](/learn/paths/get-started-dynamics-365-business-central/)
+    [Liiketoiminta-arvo](readiness-learning-bus-decision-makers.md#busvalue)
 
-    [Tutki Dynamics 365 Business Central -ominaisuuksia](https://dynamics.microsoft.com/business-central/capabilities/)
-
-    [Business Central -videoita YouTubessa](https://go.microsoft.com/fwlink/?linkid=851533)
+    [Aloitus](readiness-learning-bus-decision-makers.md#get-started)
 
     :::column-end:::
 
@@ -40,27 +36,36 @@ Etsi oikea online-koulutus, henkilökohtaisia työpajoja ja tapahtumia oman rool
 
     Saitko juuri uuden sovelluksen käyttöön? 
 
-    [Aloita (Ilmainen, omaan tahtiin etenevä verkko-oppimispolku)](/learn/paths/get-started-dynamics-365-business-central/)
+    [Yrityskäyttäjän opintoluettelo](readiness-learning-bus-users.md)
 
-    [Business Centralin oppimispolkuja (lmaisia, omaan tahtiin eteneviä verkko-oppimispolkuja)](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
+    [Aloitus](readiness-learning-bus-users.md#get-started)
 
-    [Business Central -videoita YouTubessa](https://go.microsoft.com/fwlink/?linkid=851533)
+    [Rahoitus](readiness-learning-bus-users.md#financials)
+
+    [Kauppa](readiness-learning-bus-users.md#trade)
 
     :::column-end:::
 
 :::row-end:::
 
 :::row:::
-
     :::column:::
 
     ### <a name="developer"></a>Kehittäjä
 
     Onko sinun kirjoitettava koodi, jotta voit integroida muita tietolähteitä, laajentaa järjestelmän ytimen toimintoja tai luoda monimutkaisen sovelluksen?
 
-    [Business Centralin oppimispolkuja (lmaisia, omaan tahtiin eteneviä verkko-oppimispolkuja)](/learn/browse/?products=dynamics-business-central&roles=developer&resource_type=learning%20path)
+    [Kehittäjän opintoluettelo](readiness-learning-developers.md)
 
-    [Kehittäjän dokumentaatio](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
+    [Käytön aloittaminen](readiness-learning-developers.md#get-started)
+
+    [Uutta](readiness-learning-developers.md#whatsnew)
+
+    [Peruskehitys](readiness-learning-developers.md#core-development)
+
+    [Sovelluksen elämäntavan hallinta](readiness-learning-developers.md#applife)
+
+    [Connect apps](readiness-learning-developers.md#connect-apps)
 
     :::column-end:::
 
@@ -70,13 +75,58 @@ Etsi oikea online-koulutus, henkilökohtaisia työpajoja ja tapahtumia oman rool
     
     Oletko yrityksen toimialueen toteutusasiantuntija? 
 
-    [Business Centralin oppimispolkuja (lmaisia, omaan tahtiin eteneviä verkko-oppimispolkuja)](/learn/browse/?products=dynamics-business-central&roles=functional-consultant&resource_type=learning%20path)
+    [Toiminnallisen konsultin opintoluettelo](readiness-learning-functional-consultants.md)
 
-    [Business Central -videoita YouTubessa](https://go.microsoft.com/fwlink/?linkid=851533)
+    [Aloitus](readiness-learning-functional-consultants.md#get-started)
+
+    [Ota käyttöön](readiness-learning-functional-consultants.md#deploy)
+
+    [Rahoitus](readiness-learning-functional-consultants.md#financials)
+
+    [Kauppa](readiness-learning-functional-consultants.md#trade)
+
+    [Pilvi](readiness-learning-functional-consultants.md#cloud)
 
     :::column-end:::
 
 :::row-end:::
 
+:::row:::
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+    :::column:::
+
+    ### <a name="partner-pre-sales"></a>Kumppanin ennakkomyynti
+
+    Oletko vastuussa avaintoimintojen esittelystä asiakkaille? 
+
+    [Ennakkomyynnin opintoluettelo](readiness-learning-presales.md)
+
+    [Aloitus](readiness-learning-presales.md#get-started)
+
+    [Kasvata yritystäsi](readiness-learning-presales.md#grow)
+
+    [Liiketoiminta-arvo](readiness-learning-presales.md#busvalue)
+
+    [Uutta](readiness-learning-presales.md#whatsnew)
+
+    [Esittely](readiness-learning-presales.md#demo)
+
+    :::column-end:::
+
+    :::column:::
+
+    ### <a name="partner-sales"></a>Kumppanin myynti
+
+    Oletko vastuussa siitä, että autat asiakkaita ostamaan oikean ratkaisun? 
+
+    [Myynnin opintoluettelo](readiness-learning-sales.md)
+
+    [Aloitus](readiness-learning-sales.md#get-started)
+
+    [Kasvata yritystäsi](readiness-learning-sales.md#grow)
+
+    [Liiketoiminta-arvo](readiness-learning-sales.md#busvalue)
+
+    :::column-end:::
+
+:::row-end:::

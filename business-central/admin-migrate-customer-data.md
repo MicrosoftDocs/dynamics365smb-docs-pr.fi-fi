@@ -1,25 +1,24 @@
 ---
-title: Asiakastietojen siirtäminen
-description: Voit siirtää aiemmin luotuja asiakastietoja olemassa olevasta järjestelmästä Business Centraliin käyttämällä RapidStart Servicesia – tai vain syötä se suoraan yritykseen.
+title: Asiakastietojen siirtäminen | Microsoft Docs
+description: Voit siirtää aiemmin luodun asiakkaan tiedot aiemmin luodusta ERP-järjestelmästä Business Centraliin RapidStart Servicesin avulla. Voit käyttää Excelin .xlsx-tiedostoja tiedonkuljettajana. Voit siirtää tiedot manuaalisesti kirjoittamalla ne suoraan yrityksen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 48ce8c293b5af411763a8730c9f7d16113062d9a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437464"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186847"
 ---
 # <a name="migrate-customer-data"></a>Asiakastietojen siirtäminen
-
-Voit siirtää aiemmin luodun asiakkaan tiedot aiemmin luodusta ERP-järjestelmästä [!INCLUDE[prod_short](includes/prod_short.md)]iin RapidStart Servicesin tietojen siirto-työkalujen avulla. Voit käyttää Excel-tiedostoja tiedonkuljettajana. Voit siirtää tiedot manuaalisesti kirjoittamalla ne suoraan yrityksen.
+Voit siirtää aiemmin luodun asiakkaan tiedot aiemmin luodusta ERP-järjestelmästä [!INCLUDE[d365fin](includes/d365fin_md.md)]iin RapidStart Servicesin tietojen siirto-työkalujen avulla . Voit käyttää Excel-tiedostoja tiedonkuljettajana. Voit siirtää tiedot manuaalisesti kirjoittamalla ne suoraan yrityksen.
 
 > [!NOTE]
 > BLOB-tyypin kenttiä ei voi viedä tai tuoda Excelin avulla.
@@ -42,7 +41,7 @@ Varmista ennen aloittamista, että sinulla on oikeudet suorittaa RapidStart Serv
 > Taulukoita, joilla on poikkeavat ensisijaiset avaimet tai kenttiä, joilla on poikkeavat tietotyypit ei myöskään voi tuoda. Tietoja ei voi tuoda, jos esimerkiksi määrityspaketissa on taulukko **50000 Asiakas**, jonka ensisijainen avain on **Code20**, ja kohdetietokannassa on taulukko **50000 Asiakkaan pankkitili**,jonka ensisijainen avain on **Code20 + Code 20**.  
 
 1. Avaa uusi yritys  
-2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  
+2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  
 3. Valitse **Tuo paketti** -toiminto. Siirry tuotavaan rapidstart-paketin tiedostoon ja valitse **Avaa**-toiminto. Tuonnin aikana paketin sisältö puretaan ja paketin tietue luodaan.  
 
     Kun tuonti on valmis, näet niiden määritystaulukoiden määrän, jotka on tuotu **Taulukoiden määrä** -kentästä.  
@@ -63,7 +62,7 @@ Voit luoda uuden tietojen siirron tiedostoja ja mukauttaa niitä liiketoiminnan 
 > [!TIP]
 > Tiedostoa voi kuitenkin käyttää vain sellaisen kentän siirtämisessä, jonka **FieldClass**-ominaisuuden arvoksi on määritetty **Normaali**.  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kokoonpanopaketti** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määrityspaketti** ja valitse sitten liittyvä linkki.  
 2. Valitse ja avaa paketti, jota haluat käyttää tietojen siirtämisessä. Valitse sitten **Hae taulukot** -toiminto. **Hae pakettitaulukko** -sivu avautuu.  
 3. Anna **TableID**-kentässä taulukkonumero tai valitse taulukko luettelosta, esimerkiksi taulukko 18, **Asiakas**. **Taulukon nimi** -kenttä täytetään automaattisesti.  
 4. Valitse uusi siirtotaulukko ja valitse sitten **Taulukot**-välilehdessä **Kentät**-toiminto. **Siirtokentät**-sivu avautuu.  
@@ -79,7 +78,7 @@ Uusi siirtotaulukko luodaan.
 ## <a name="to-export-data-migration-files"></a>Vie siirtotiedostot.
 Kun olet määrittänyt taulukot, joihin haluat siirtää asiakastietoja, voit viedä tiedostot.  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  
 2. Valitse ja avaa paketti, jota haluat käyttää vientiä varten.
 3. Valitse vietävä taulukko tai vietävät taulukot ja valitse sitten **Vie Exceliin** -toiminto.
 4. Tallenna viety Excel-tiedosto.  
@@ -88,19 +87,19 @@ Kun olet määrittänyt taulukot, joihin haluat siirtää asiakastietoja, voit v
 Jos taulukko on tyhjä, tuloksena saatava tietojen siirtotaulukko sisältää tyhjiä soluja uuden yrityksen siirtotaulukoiden valinnan tai luonnin yhteydessä valittujen kenttien osalta. Jos valittu tietojen siirtotaulukko sisältää tietoja, se viedään.  
 
 ## <a name="to-map-values-to-be-used-during-import"></a>Tuonnin aikana käytettävien arvojen yhdistäminen
-Kun Excelistä tai RapidStart-paketista tuodut tiedot kohdistetaan, [!INCLUDE[prod_short](includes/prod_short.md)] käsittelee yhdistämismääritystä taulun suhteiden perusteella seuraavasti:  
+Kun Excelistä tai RapidStart-paketista tuodut tiedot kohdistetaan, [!INCLUDE[d365fin](includes/d365fin_md.md)] käsittelee yhdistämismääritystä taulun suhteiden perusteella seuraavasti:  
 
-- Jos määrität linkityksen suoraan taulukon kenttään, [!INCLUDE[prod_short](includes/prod_short.md)] käyttää sitä.  
+- Jos määrität linkityksen suoraan taulukon kenttään, [!INCLUDE[d365fin](includes/d365fin_md.md)] käyttää sitä.  
 
-- Jos kentässä on suhde toiseen taulukkoon, [!INCLUDE[prod_short](includes/prod_short.md)] -haut määritellään yhdistetyn taulukon perusavainkentän yhdistämistä varten. Liittyvän taulukon on oltava määrityspaketin osa.  
+- Jos kentässä on suhde toiseen taulukkoon, [!INCLUDE[d365fin](includes/d365fin_md.md)] -haut määritellään yhdistetyn taulukon perusavainkentän yhdistämistä varten. Liittyvän taulukon on oltava määrityspaketin osa.  
 
-- Jos määritystiedot on annettu molemmissa paikoissa, suoraan kenttään ja liittyvän taulun perusavaimeen, [!INCLUDE[prod_short](includes/prod_short.md)] etsii molemmista paikoista määrittämistä varten.  
+- Jos määritystiedot on annettu molemmissa paikoissa, suoraan kenttään ja liittyvän taulun perusavaimeen, [!INCLUDE[d365fin](includes/d365fin_md.md)] etsii molemmista paikoista määrittämistä varten.  
 
 - Jos samat määritykset tehdään suoraan kentälle ja liittyvään taulukkoon, mutta uudet arvot eivät ole samat, suoraan kenttään tehty määritys on etusijalla viittaavan kentän sisältävään taulukkoon tehtyyn määritykseen verrattuna.  
 
-Seuraavissa toimenpiteissä sinun tulisi tarkastaa ennalta mitkä arvot haluat säilyttää siirtoprosessin aikana. Seuraavien vaiheiden suorittaminen edellyttää tietojen siirtotiedostoja (.xlsx), jotka on viety [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmasta. Lisätietoja on kohdassa [Tietojen siirtotiedostojen vieminen](admin-migrate-customer-data.md#to-export-data-migration-files).
+Seuraavissa toimenpiteissä sinun tulisi tarkastaa ennalta mitkä arvot haluat säilyttää siirtoprosessin aikana. Seuraavien vaiheiden suorittaminen edellyttää tietojen siirtotiedostoja (.xlsx), jotka on viety [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmasta. Lisätietoja on kohdassa [Tietojen siirtotiedostojen vieminen](admin-migrate-customer-data.md#to-export-data-migration-files).
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.
 2. Avaa kyseisen yrityksen määrityspaketti.  
 3. Valitse taulukko, johon haluat yhdistää arvoja ja valitse sitten **Taulukot**-välilehden **Kentät**-toiminto.  
 4. Valitse jokaiselle yhdistettävälle kentälle **Yhdistämismääritys**-toiminto.  
@@ -111,16 +110,16 @@ Seuraavissa toimenpiteissä sinun tulisi tarkastaa ennalta mitkä arvot haluat s
 9. Voit ottaa määrittämäsi yhdistämismäärityksen käyttöön valitsemalla **Käytä tietoja** -toiminnon.  
 
 ### <a name="mapping-example"></a>Yhistämismäärityksen esimerkki  
-Seuraavassa esimerkissä kuvataan, kuinka [!INCLUDE[prod_short](includes/prod_short.md)] toteuttaa yhdistämismääritykset.  
+Seuraavassa esimerkissä kuvataan, kuinka [!INCLUDE[d365fin](includes/d365fin_md.md)] toteuttaa yhdistämismääritykset.  
 
 1. Luo määritystaulukko, jolla on **Myyjä/ostaja**-taulukko. Määritä yhdistämismääritys **Koodi**-kenttään.  
 2. Lisää pakettiin taulukoita, esimerkiksi **Asiakas** ja **Toimittaja**. Molemmat taulukot viittaavat **Myyjä/ostaja** -taulukkoon **myyjäkoodin** ja **ostajakoodin** kautta.  
 3. Kun käytät tietoja, vastaavuusmääritys, joka on annettu **Myyjä/ostaja**-taulukon **Koodi**-kenttään, otetaan huomioon **Myyjäkoodi**- ja **Ostajakoodi**-kentissä.
 
-## <a name="to-add-additional-values-to-prod_short"></a>Uusien arvojen lisääminen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan  
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  
+## <a name="to-add-additional-values-to-d365fin"></a>Uusien arvojen lisääminen [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  
 2. Valitse taulukko, johon haluat lisätä arvoja, ja valitse sitten **Taulukot**-pikavälilehden **Kentät**-toiminto.  
-3. Kentille, joille haluat [!INCLUDE[prod_short](includes/prod_short.md)]:n sallivan lisäarvoja siirron aikana, valitse **Luo puuttuvat koodit** -valintaruutu.  
+3. Kentille, joille haluat [!INCLUDE[d365fin](includes/d365fin_md.md)]:n sallivan lisäarvoja siirron aikana, valitse **Luo puuttuvat koodit** -valintaruutu.  
 4. Tuo asiakkaan tiedot. Lisätietoja on kohdassa [Asiakastietojen tuominen](admin-migrate-customer-data.md#to-import-customer-data).
 
 ## <a name="to-clean-up-and-process-data-before-applying-data"></a>Voit tyhjentää ja käsitellä tietoja ennen tietojen käyttämistä
@@ -143,7 +142,7 @@ Jos haluat apua XML:n käytössä, ota käyttöön Excel-valintanauhan **Kehitt�
 Seuraavassa toimenpide perustuu Excel-taulukkoon, jonka olet luonut siirtoa varten. Lisätietoja on kohdassa [Tietojen siirtotiedostojen vieminen](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 > [!IMPORTANT]  
-> Älä muuta sarakkeita Excel-työkirjoissa. Jos niitä on siirretty, muutettu tai poistettu, laskentataulukkoa ei voi tuoda [!INCLUDE[prod_short](includes/prod_short.md)]iin.
+> Älä muuta sarakkeita Excel-työkirjoissa. Jos niitä on siirretty, muutettu tai poistettu, laskentataulukkoa ei voi tuoda [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.
 
 1. Avaa viemäsi datatiedosto Excelissä. Ohjelmassa on työkirja, jossa on taulukon nimi.
 2. Nimeä sivu1 uudelleen ilmaisee, että työkirjaa käytetään tietojen siirtämiseen. Kopioi otsikkorivi ilman muotoilua viedystä taulukosta uuteen työkirjaan.
@@ -152,10 +151,10 @@ Seuraavassa toimenpide perustuu Excel-taulukkoon, jonka olet luonut siirtoa vart
 5. Kun olet yhdistänyt kaikki tiedot, kopioi tietoalue taulukon työkirjaan.
 6. Tallenna tiedosto ja varmista, että et muuta tiedostotyyppiä.
 
-Olet nyt valmis siirtämään tietojen siirto-tiedostoja, jotka sisältävät asiakkaan vanhat tiedot [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan.
+Olet nyt valmis siirtämään tietojen siirto-tiedostoja, jotka sisältävät asiakkaan vanhat tiedot [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan.
 
 ## <a name="to-import-customer-data"></a>Tuo asiakkaan tietoja
-Kun asiakkaan tiedot on syötetty siirron tiedostoihin Excelissä, voit tuoda tiedostot [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan.
+Kun asiakkaan tiedot on syötetty siirron tiedostoihin Excelissä, voit tuoda tiedostot [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan.
 
 1. Avaa **Määritä pakettikortti** -sivu.
 2. Valitse taulukko, johon haluat tuoda tiedot, ja valitse sitten **Taulukot**-välilehden **Tuo Excelistä** -toiminto.
@@ -168,7 +167,7 @@ Kun asiakkaan tiedot on syötetty siirron tiedostoihin Excelissä, voit tuoda ti
 Tiedoston tiedot on tuotu määrityspakettitaulukoihin. **Tietokantatietueiden määrä** -kentässä näet tuotujen tietueiden määrän. Lisäksi voit katsella siirtovirheitä.
 
 ## <a name="to-validate-customer-data"></a>Tarkista asiakastiedot
-Asiakkaan tiedot on tarkistettava, ennen kuin voit käyttää tietueita [!INCLUDE[prod_short](includes/prod_short.md)] -tietokannassa.  
+Asiakkaan tiedot on tarkistettava, ennen kuin voit käyttää tietueita [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietokannassa.  
 
 > [!NOTE]  
 >  Useimmissa tapauksissa tietokantaan ei luoda virheellisiä tietoja. Sovelluksen toiminta voidaan kuitenkin joskus estää, jos tuotu siirtotaulukko sisältää virheitä.  
@@ -185,7 +184,7 @@ Kun olet tehnyt korjauksen, tietue poistetaan tietueiden luettelosta **Tiedonsii
 Olet nyt valmis soveltamaan asiakkaan tietoja tietokantaan.  
 
 ## <a name="to-apply-customer-data"></a>Käytä asiakkaan tietoja
-Kun olet tuonut kaikki tietojen siirtotietueet, jotka ovat voimassa ja joissa ei ole virheitä, voit käyttää tietueita [!INCLUDE[prod_short](includes/prod_short.md)] -tietokannassa.  
+Kun olet tuonut kaikki tietojen siirtotietueet, jotka ovat voimassa ja joissa ei ole virheitä, voit käyttää tietueita [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietokannassa.  
 
 1. Avaa **Määrityspaketit**-sivu.  
 2. Valitse tietojen siirtotiedostolle taulukko, jota haluat käyttää, ja valitse sitten **Käytä tietoja** -toiminto.
@@ -197,6 +196,3 @@ Asiakkaan yritystietokanta on nyt valmiiksi asetettu ja perustiedot tuodaan. Seu
 ## <a name="see-also"></a>Katso myös  
 [Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

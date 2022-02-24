@@ -1,21 +1,21 @@
 ---
-title: Rakennetiedot – nimikeseuranta fyysisessä varastossa
-description: Saapuvissa ja lähtevissä fyysisen varaston asiakirjoissa on vakiotoiminnot nimikeseurantanumeroiden määrittämistä ja valitsemista varten.
+title: Rakennetiedot – nimikkeen seuranta varastossa | Microsoft Docs
+description: Sarjanumeron ja eränumeron käsittely on ensisijaisesti varaston tehtävä ja siksi kaikilla saapuvilla ja lähtevillä varastodokumenteilla on perustoimintatarkoitus nimikkeiden seurantanumeroiden määrittämiselle ja valinnalle. Koska varausjärjestelmä perustuu nimiketapahtumiin, sellaisia varastoinnin toimenpideasiakirjoja ei tueta täysin, jotka rekisteröivät vain fyysisen varastoinnin tapahtumia.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 3bf30b7739e488eeb3610d191cfb4f3b20e0e79e
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 02a87bc61fbadae4392800f84adbc176bfb87b23
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320362"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185010"
 ---
 # <a name="design-details-item-tracking-in-the-warehouse"></a>Rakennetiedot: nimikkeen seuranta f. varastossa
 Sarjanumeron ja eränumeron käsittely on ensisijaisesti varaston tehtävä ja siksi kaikilla saapuvilla ja lähtevillä varastodokumenteilla on perustoimintatarkoitus nimikkeiden seurantanumeroiden määrittämiselle ja valinnalle.  
@@ -31,6 +31,3 @@ Varausjärjestelmä ottaa saatavuuden laskennassa kuitenkin huomioon fyysisen va
 [Rakennetiedot: integrointi varaston kanssa](design-details-integration-with-inventory.md)  
 [Rakennetiedot: varastosaatavuus](design-details-availability-in-the-warehouse.md)  
 [Rakennetiedot: nimikkeen seurannan rakenne](design-details-item-tracking-design.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,24 +1,24 @@
 ---
-title: Varaston kustannusten hallinta
-description: Kustannusten hallinta käsittelee liiketoiminnan toimintokustannusten tallennusta ja raportointia. Se sisältää tuotanto- ja varastointikustannusten eli nimikkeiden arvon raportoinnin.
+title: Varaston kustannusten hallinta | Microsoft Docs
+description: Kustannushallinta, jota kutsutaan myös "arvostukseksi", käsittelee liiketoiminnan toimintokustannusten tallennusta ja raportointia. Se sisältää tuotanto- ja varastointikustannusten eli nimikkeiden arvon raportoinnin..
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 561401c985fc0e2f25c4f6e719252d19e76e7fe8
-ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 34912c7f87823bf6f51ca97ff579ce34c0900d69
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "6688329"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3182994"
 ---
 # <a name="managing-inventory-costs"></a>Varaston kustannusten hallinta
-Kustannushallinta, jota kutsutaan myös "arvostukseksi", käsittelee liiketoiminnan toimintokustannusten tallennusta ja raportointia. Se sisältää tuotanto- ja varastointikustannusten eli nimikkeiden arvon raportoinnin..   
+Kustannushallinta, jota kutsutaan myös arvostukseksi, käsittelee liiketoimintakustannusten kirjaamista ja raportointia. Se sisältää tuotanto- ja varastointikustannusten eli nimikkeiden arvon raportoinnin..   
 
 Tärkeintä on ymmärtää, että arvostusmenetelmät määrittävät, miten nimikkeet arvostetaan varastosta lähdön jälkeen, että kustannusten muuttaminen päivittää myytyjen tuotteiden kustannukset liittyvillä myynnin jälkeen kirjatuilla ostokustannuksilla ja että varaston arvot on kirjattava säännöllisesti erityisille KP-tileille.
 
@@ -26,8 +26,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
-|[!INCLUDE[prod_short](includes/prod_short.md)]in varaston kustannuslaskennan toiminnot. Ohjeaihe sisältää käsitteellisiä tietoja toimintoja koskevista periaatteista ja määrityksistä.|[Tietoja varaston arvostuksesta](finance-learn-about-costing.md)|  
-|Varmista. että tiedät toimitettujen nimikkeiden kulut määrittämällä lisätyt nimikekulut, kuten nimikkeiden myynnin jälkeen syntyvät rahti-, käsittely-, vakuutus- ja kuljetuskulut.|[Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md)|
+|[!INCLUDE[d365fin](includes/d365fin_md.md)]in varaston kustannuslaskennan toiminnot. Ohjeaihe sisältää käsitteellisiä tietoja toimintoja koskevista periaatteista ja määrityksistä.|[Tietoja varaston arvostuksesta](finance-learn-about-costing.md)|  
 |Lisätietoja kustannuslaskentajärjestelmän kaikista mekanismeista.|[Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)|
 |Varastokausien käyttäminen yrityksen varaston arvon pitkäaikaisessa hallinnassa määrittämällä lyhyempiä kausia, jotka voi sulkea kirjaamista varten tilikauden edetessä.|[Varastokausien käsitteleminen](finance-how-to-work-with-inventory-periods.md)|
 |Vakiokustannusten komponenttien ja valmiiden tuotteiden arvostuksen perustana käyttämisen syyt teollisuusyhtiöissä.|[Tietoja standardikustannuksen laskemisesta](finance-about-calculating-standard-cost.md)|
@@ -38,14 +37,10 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Kokoonpanon ja tuotannon tuoterakenteiden komponenttien vakiokustannukset on päivitettävä säännöllisesti ja uudet kustannukset on vyörytettävä päänimikkeelle.|[Vakiokustannusten päivittäminen](finance-how-to-update-standard-costs.md)|
 |Voit tarkastella ja muuttaa manuaalisesti tietyn nimikkeen kohdistustapahtumia, jotka on luotu automaattisesti varastotapahtumien yhteydessä.|[Nimiketapahtumien poistaminen ja uudelleenkohdistaminen](finance-how-to-remove-and-reapply-item-entries.md)|
 |Kauden lopun hallinta- ja raportointitehtävien toteuttaminen. Näitä tehtäviä ovat esimerkiksi varaston arvon laskeminen ja kustannusten kirjaaminen pääkirjanpitoon.|[Kustannusten raportointi ja täsmäyttäminen pääkirjanpidon kanssa](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
-|Lisätietoja siitä, miten voit siirtää työjonon avulla tehtäviä, jotka liittyvät varaston kustannusten säätämiseen tai sen täsmäyttämisessä taustalla KP:n kanssa.|[Varaston kustannusten muuttaminen ja täsmäyttäminen pääkirjanpidon kanssa työjonon avulla](finance-manage-inventory-costs.md)|
 
 ## <a name="see-also"></a>Katso myös  
  [Rahoitus](finance.md)  
  [Vaihto-omaisuus](inventory-manage-inventory.md)   
  [Myynti](sales-manage-sales.md)   
  [Osto](purchasing-manage-purchasing.md)  
- [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

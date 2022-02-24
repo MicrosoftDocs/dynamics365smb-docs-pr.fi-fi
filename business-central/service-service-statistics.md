@@ -1,21 +1,21 @@
 ---
-title: Huoltotilastot
-description: Saat nopean yleiskuvan huoltoasiakirjojen, esimerkiksi tilausten, tarjousten, laskujen tai hyvityslaskujen sisällöstä ja tilastoista, tietyn huoltorivin tiedoista ja huoltonimikkeistä.
+title: Huoltotilastot | Microsoft Docs
+description: Saat nopean yleiskuvan koko huoltoasiakirjojen, kuten tilausten, tarjousten, laskujen tai hyvityslaskujen sisällöstä, tietyn huoltorivin tiedoista ja huoltonimikkeistä.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
+ms.date: 04/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: eaec4f99ea07e84b1a328be3022005fac01de38d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 0e1c6fe7b5a830e17d693bcd4d48921947b0509d
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438255"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192385"
 ---
 # <a name="viewing-service-statistics"></a>Huoltotilastojen tarkasteleminen
 Voit käyttää tilastoja huoltoasiakirjojen analysoimisessa ja selvittää, miten hyvin hallitse huoltoprosesseja. Voit analysoida huoltosopimuksia, tarjouksia, tilauksia, laskuja ja hyvityslaskuja valitsemalla **Tilastot**-toiminnon. Voit käyttää huoltonimikkeissä ja -sopimuksissa myös **huoltonimikkeen Trendscape-näkymää** tai **sopimuksen Trendscape-näkymää**. Voit tarkastella näissä näkymissä tietyn huoltonimikkeen huoltotapahtumia.   
@@ -84,7 +84,7 @@ Sopimuksen voitto- tai tappiotapahtumia luodaan, kun sopimustarjous muunnetaan h
 |**Sop. voitto/tappio (syyt)**|Sopimusten voiton/tappion tarkastelu syykoodeittain|  
 |**Sop. voitto/tappio (vast.paik)**|Sopimusten voiton/tappion tarkastelu vastuupaikoittain|  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä näytettävän sivun nimi ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä näytettävän sivun nimi ja valitse sitten liittyvä linkki.  
 2. Täytä suodatusehdot, joita haluat käyttää. Valitse esimerkiksi **Sop. voitto/tappio (syyt)** -sivulla **Syykoodin suodatus** -kohdan arvo.  
 3. Valitse **Näytä matriisi** -toiminto.
 
@@ -112,6 +112,3 @@ Voit hakea kirjatun huollon hyvityslaskun rivien tilaston yleiskuvausta **Huollo
 [Huoltotilausten luominen](service-how-to-create-service-orders.md)   
 [Huoltonimikkeiden luominen](service-how-to-create-service-items.md)   
 [Huollon suunnittelu](service-plan-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

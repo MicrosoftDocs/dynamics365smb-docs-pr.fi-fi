@@ -3,19 +3,19 @@ title: Yrityksen ja ohjatun RapidStart-toiminnon määrittäminen | Microsoft Do
 description: Voit määrittää nopeasti uuden yrityksen, jonka olet luonut käyttämällä RapidStart Servicesin ohjattua määritystoimintoa.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: ca03ba59e02dd1efe1b76c679e12e77044ca95e3
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 1a9d4c2a4a99ebec0aa1fc019871608948844b7a
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439658"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187218"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Yrityksen ja ohjatun RapidStart-toiminnon määrittäminen
 Voit määrittää nopeasti uuden yrityksen, jonka olet luonut käyttämällä RapidStart Servicesin ohjattua määritystoimintoa.
@@ -39,7 +39,7 @@ Seuraavassa toimenpiteessä olet antanut asiakkaalle määrityspaketin, joka sit
     >  Muuta vain roolikeskustasi, kun yrityksen määritykset ovat valmiit. Jos harkittavia ja muokattavia asetustietoja on lisää, jatka työskentelyä ensimmäiseksi määritystyökirjan parissa. Palaa sitten ohjattuun toimintoon ja päivitä roolikeskuksen profiili tai valitse **Täydelliset asetukset** -toiminto.
 
 7. Valitse **OK**-painike.  
-8. Voit varmistaa, että määritystiedot on otettu käyttöön uudessa yrityksessä valitsemalla ![Kerro-ominaisuuden avaava hehkulamppu.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yrityksen tiedot** ja valitse sitten vastaava linkki.
+8. Voit varmistaa, että määritystiedot on otettu käyttöön uudessa yrityksessä, kun valitset ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötät **Yrityksen tiedot** ja valitset aiheeseen liittyvän linkin.
 
 **Yrityksen tiedot** -sivulla on tietoja, jotka olet määrittänyt.   
 
@@ -49,6 +49,3 @@ Olet nyt määrittänyt yrityksen ja ottanut tiedot käyttöön sitä varten.
 [Kokoonpanojen käyttäminen uusissa yrityksissä](admin-apply-configuration-to-new-companies.md)  
 [Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

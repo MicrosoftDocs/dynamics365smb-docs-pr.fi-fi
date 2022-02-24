@@ -1,23 +1,23 @@
 ---
-title: Yleiskuvaus huoltosopimusten suorittamiseen tarvittavista tehtävistä
-description: Hahmottelee asiakkaiden kanssa tehtyjen huoltosopimusten täyttämiseen liittyviä tehtäviä, kuten vakiosopimusten määrittämisen mukautettavilla malleilla.
+title: Yleiskuvaus huoltosopimusten suorittamiseen tarvittavista tehtävistä | Microsoft Docs
+description: Lisätietoja tehtävistä, joilla hallitaan asiakkaiden kanssa tehtyjä huoltosopimuksia.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: overview
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contract, agreement, configure
-ms.date: 06/23/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 56fe45da5979f6f06fc17d68b676350a70288261
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 50214fcf1e1f13c8e4fa69e1b14ba4adc537bf86
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011696"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2316210"
 ---
 # <a name="fulfilling-service-contracts"></a>Huoltosopimusten toteuttaminen 
 Huoltohallinnon liiketoiminnan voi määrittää luomalla yrityksen ja asiakkaan väliset vakiosopimukset, jotka kuvaavat huollon tason ja odotukset. Voit luoda tarvittavat tiedot sisältäviä huoltomalleja. Näitä tietoja ovat esimerkiksi asiakas, sopimuksen alkamispäivä ja laskutuskausi.  
@@ -32,11 +32,8 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 |Voit luoda huoltosopimuksia joko manuaalisesti tai huoltosopimustarjouksesta.| [Huoltosopimusten ja huoltosopimustarjousten luominen](service-how-to-create-service-contracts-and-service-contract-quotes.md)|
 |Voit muuttaa huoltosopimuksen tai sopimustarjouksen vuosittaista summaa, joten varmista, että laskutat oikean summan.|[Huoltosopimuksen tai sopimustarjouksen vuosittaisen summan muuttaminen](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)|
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös .
 [Huollon suunnittelu](service-plan-service.md)  
 [Huollon toimittaminen](service-deliver-service.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
 [Huoltosopimusten ja huoltosopimustarjousten luominen](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

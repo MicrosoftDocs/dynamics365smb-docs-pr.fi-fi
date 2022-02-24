@@ -1,6 +1,6 @@
 ---
-title: Paikalliset toiminnot ja lokalisointistrategia
-description: Tutustu Business Centralin paikalliseen saatavuuteen ja sääntelynmukaisuuteen niissä maissa ja niillä alueilla, joissa Microsoft tarjoaa paikallisia toimintoja.
+title: Business Centralin paikalliset toiminnot | Microsoft Docs
+description: Tutustu Dynamics 365 Business Centralin paikalliseen saatavuuteen ja säädösten noudattamiseen.
 author: edupont04
 ms.service: dynamics365-business-central
 ms.topic: conceptual
@@ -8,24 +8,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: availability, localization
-ms.date: 06/11/2021
+ms.date: 01/10/2020
 ms.author: edupont
-ms.openlocfilehash: 6967e54999c1bb2a0a9e7fe095e8c3cca9543ec8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 572e56b6d1ba95a427faed89c2f86471c0fea929
+ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321693"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "2952888"
 ---
-# <a name="local-functionality-in-prod_long"></a>[!INCLUDE[prod_long](includes/prod_long.md)]in paikalliset toiminnot
+# <a name="local-functionality-in-prodlong"></a>[!INCLUDE[prodlong](includes/prodlong.md)]in paikalliset toiminnot
 
-[!INCLUDE[prod_short](includes/prod_short.md)]in yhdistetty lokalisaatiostrategia sisältää sekä Microsoftin että kumppanin vetämät mallit. Tässä osassa on kuvaukset niissä maissa käytettävistä toiminnoista, joissa säädösten noudattaminen ja muut paikalliset toiminnot saadaan Microsoftin avulla.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]in yhdistetty lokalisaatiostrategia sisältää sekä Microsoftin että kumppanin vetämät mallit. Tässä osassa on kuvaukset niissä maissa käytettävistä toiminnoista, joissa säädösten noudattaminen ja muut paikalliset toiminnot saadaan Microsoftin avulla.  
 
 Luettelo tällä hetkellä tuetuista markkinoista on kohdassa [Saatavuus maassa/alueella ja tuetut käännökset.](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 
 ## <a name="local-functionality"></a>Paikalliset toiminnot
 
-Saat lisätietoja kunkin maan/alueen paikallisista toiminnoista valitsemalla sopivan linkin:
+Saat lisätietoja kunkin maan paikallisista toiminnoista valitsemalla sopivan linkin:
 
 | Alue | Maa | Lisätietoja |
 | --- | --- |--- |
@@ -51,20 +51,14 @@ Saat lisätietoja kunkin maan/alueen paikallisista toiminnoista valitsemalla sop
 |        | Yhdysvallat|[Paikalliset toiminnot Yhdysvalloissa](localfunctionality/unitedstates/united-states-local-functionality.md) |
 | Aasia ja Tyynenmeren alue |       |  |
 |        | Australia | [Australian paikalliset toiminnot](localfunctionality/australia/australia-local-functionality.md) |
-|        | Intia | [Intian paikalliset toiminnot](LocalFunctionality/India/india-local-functionality.md) |
 |        | Uusi-Seelanti | [Uusi-Seelannin paikalliset toiminnot](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
 ### <a name="other-countries"></a>Muut maat
-
-[!INCLUDE[prod_short](includes/prod_short.md)] on saatavana myös muilla markkina-alueilla lokalisointisovellusten kautta. Jos Microsoftin kumppani on kehittänyt maassasi/alueellasi käytettävän lokalisointisovelluksen, löydät sen [AppSourcesta](https://go.microsoft.com/fwlink/?linkid=2081646).
+[!INCLUDE[d365fin](includes/d365fin_md.md)] on saatavana myös muilla markkina-alueilla lokalisointisovellusten kautta. Jos Microsoftin kumppani on kehittänyt maassasi käytettävän lokalisointisovelluksen, löydät sen [AppSourcesta](https://appsource.microsoft.com/product/dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Katso myös
-
-[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
+[Käytön aloittaminen](product-get-started.md)  
 [Yhteensopivuus](compliance/compliance-overview.md)  
 [Saatavuus maassa/alueella ja tuetut käännökset](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Microsoft Dynamics 365:n kansainvälinen saatavuus](/dynamics365/get-started/availability)  
 [Lokalisointiratkaisun kehittäminen](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

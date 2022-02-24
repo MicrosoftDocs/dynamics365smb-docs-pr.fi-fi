@@ -3,19 +3,19 @@ title: 'Parhaiden käytäntöjen määrittäminen: Uusintatilaustavat | Microsof
 description: Uusintatilaustapa-kenttä nimikekorteissa antaa neljä eri suunnittelumetodia, jotka määrittävät, kuinka yksittäiset suunnitteluparametrit käyttäytyvät.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: e788fc7af4335eab99ddce35bf2822e52332a9b9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 7a6a7193d02d8d42987da7f7eeb9f5ed1ec3e2fd
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6441445"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192193"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Asetukset - parhaat käytännöt: uusintatilaustavat
 **Uusintatilaustapa**-kenttä nimikekorteissa antaa neljä eri suunnittelumetodia, jotka määrittävät, kuinka yksittäiset suunnitteluparametrit käyttäytyvät.  
@@ -28,9 +28,9 @@ Yksi hyvä perusta uusintatilaustavan valitsemiseen on nimikkeen ABC-luokittelu.
 |B|20|20|
 |N|60-70|10-30|
 
-ABC-luokittelun mukaisesti vaivaa ja rahaa voidaan säästää soveltamalla matalampiarvoisiin nimikkeisiin alemmantasoista valvontaa kuin korkea-arvoisiin nimikkeisiin. Seuraavassa kuvassa näytetään, mikä [!INCLUDE[prod_short](includes/prod_short.md)]:n sopivin kullekin A,- B,- ja C-kohteille.
+ABC-luokittelun mukaisesti vaivaa ja rahaa voidaan säästää soveltamalla matalampiarvoisiin nimikkeisiin alemmantasoista valvontaa kuin korkea-arvoisiin nimikkeisiin. Seuraavassa kuvassa näytetään, mikä [!INCLUDE[d365fin](includes/d365fin_md.md)]:n sopivin kullekin A,- B,- ja C-kohteille.
 
-![ABC-luokittelu.](media/abc_classification.png "abc_classification")
+![ABC-luokittelu](media/abc_classification.png "abc_classification")
 
 Seuraava taulukko sisältää parhaat käytännöt neljästä tavasta valitsemiseen.  
 
@@ -45,7 +45,4 @@ Seuraava taulukko sisältää parhaat käytännöt neljästä tavasta valitsemis
  [Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)   
  [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)   
  [Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen avulla](set-up-complex-application-areas-using-best-practices.md)  
- [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

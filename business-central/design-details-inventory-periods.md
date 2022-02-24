@@ -1,21 +1,21 @@
 ---
-title: Rakennetiedot – varastokaudet
-description: Varastojaksot-toiminto auttaa saldo- ja varastoarvostusongelmien välttämisessä avaamalla tai sulkemalla varastokausia, jolloin voidaan rajata tiliöinti määritettyyn ajanjaksoon.
+title: Rakennetiedot – varastokaudet | Microsoft Docs
+description: Takautuvat tapahtumat tai kustannusten muutokset vaikuttavat usein varaston arvostukseen tilikausilla, joiden voidaan katsoa olevan suljettuja. Tällä voi olla kielteisiä vaikutuksia raportointiin erityisesti globaaleissa yrityksissä. Varastojaksot -toimintoa voidaan käyttää tällaisten ongelmien välttämiseen avaamalla tai sulkemalla varastokausia, jolloin voidaan rajata tiliöinti ajanjaksosarjaan.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 66624cd4a6992ed227055748f5e8bc972187a8dc
-ms.sourcegitcommit: 641d7018f7ee21345a67651bfa4603e6dd2c4bab
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 3c7b00ebf328ae61bb298b4c9d64762b3bd528d1
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/27/2021
-ms.locfileid: "7865681"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3185250"
 ---
 # <a name="design-details-inventory-periods"></a>Rakennetiedot: varastokausi
 Takautuvat tapahtumat tai kustannusten muutokset vaikuttavat usein varaston arvostukseen tilikausilla, joiden voidaan katsoa olevan suljettuja. Tällä voi olla kielteisiä vaikutuksia raportointiin erityisesti globaaleissa yrityksissä. Varastojaksot -toimintoa voidaan käyttää tällaisten ongelmien välttämiseen avaamalla tai sulkemalla varastokausia, jolloin voidaan rajata tiliöinti ajanjaksosarjaan.  
@@ -30,12 +30,6 @@ Takautuvat tapahtumat tai kustannusten muutokset vaikuttavat usein varaston arvo
 
  Kun suljet varastokauden, varastokauden tapahtuma luodaan varastokauden edellisen nimiketapahtuman numeron avulla. Lisäksi varastokauden tapahtumaan tallennetaan aika, päivämäärä ja kauden sulkevan käyttäjän käyttäjäkoodi. Käyttämällä tätä tietoa edellisen kauden viimeisen nimikerekisterin kanssa voit nähdä mitkä varastotapahtumat kirjattiin varastokaudella. Varastojaksojen uudelleen avaaminen on myös mahdollista, jos sinun tarvitsee kirjata suljetulla kaudella. Varastokauden avaamisen yhteydessä luodaan varastokauden tapahtuma.  
 
-## <a name="see-also"></a>Katso myös
-
-[Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)  
-[Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
-[Rahoitus](finance.md)  
-[Business Central -sovelluksen käyttäminen](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## <a name="see-also"></a>Katso myös  
+ [Rakennetiedot: varaston arvostus](design-details-inventory-costing.md) [Varaston kustannusten hallinta](finance-manage-inventory-costs.md) [Rahoitus](finance.md)  
+ [Business Central -sovelluksen käyttäminen](ui-work-product.md)

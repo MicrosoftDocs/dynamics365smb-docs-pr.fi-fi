@@ -1,21 +1,21 @@
 ---
-title: Kuljetusliikkeiden määrittäminen
-description: Lue, miten voit määrittää koodin kullekin kuljetusliikkeelle ja syöttää kuvailevat tiedot kustakin sekä niiden tarjoamista palveluista.
+title: Kuljetusliikkeiden määrittäminen | Microsoft Docs
+description: Voit määrittää koodin jokaiselle kuljetusliikkeelle, ja syöttää tietoja niistä.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 1e74be125909db7f7d1c4301a33da1b12648e70a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: d6a4bac4d540a65cc164029b23b063c8c9dbc1fb
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440226"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192650"
 ---
 # <a name="set-up-shipping-agents"></a>Kuljetusliikkeiden määrittäminen
 Voit määrittää koodin jokaiselle kuljetusliikkeelle, ja syöttää tietoja niistä.  
@@ -28,7 +28,7 @@ Voit määrittää rajoittamattoman määrän palveluita jokaiselle kuljetusliik
 Kun olet määrittänyt kuljetusliikkeen palvelun myyntitilausriville, palvelun toimitusaika sisällytetään sille riville toimituksen lupaamisen laskentaan. Lisätietoja on kohdassa [Toimituksen lupaamisen päivämäärän laskeminen](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>Kuljetusliikkeiden määrittäminen  
-1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kuljetusliikkeet** ja valitse sitten vastaava linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kuljetusliikkeet** ja valitse sitten liittyvä linkki.  
 2.  Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Valitse **Kuljetusliikkeen palvelut** -toiminto.
 4. Täytä tarvittavat **Kuljetusliikkeen palvelut** -kentät.
@@ -44,7 +44,4 @@ Kun olet määrittänyt kuljetusliikkeen palvelun myyntitilausriville, palvelun 
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)     
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

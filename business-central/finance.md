@@ -1,26 +1,26 @@
 ---
-title: Taloushallinto (sisältää videon)
-description: Tutustu siihen, miten Business Central tukee taloushallinnon, kirjanpidon, tilintarkastuksen ja kirjanpidon tarpeita.
+title: Taloushallinto| Microsoft Docs
+description: Lisätietoja tehtävistä, joilla määritetään liiketoiminnan taloushallinto laskentatoimen, tilintarkastuksen tai kirjanpidon tarpeita varten.
+services: project-madeira
+documentationcenter: ''
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: conceptual
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.search.form: 1151, 1166, 9027, 9004
-ms.date: 06/15/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2582e96b8113abe91fe10a087833d4fbeb5b7da5
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 60b62845a359cec21b52f42c6692edc417a65123
+ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970909"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410745"
 ---
-# <a name="financial-management"></a>Taloushallinto
-
-[!INCLUDE[prod_short](includes/prod_short.md)] sisältää useimpien taloushallinnon prosessien vakiomäärityksen. Voit muuttaa määritystä omaa liiketoimintaasi vastaavaksi. Lisätietoja on kohdassa [Rahoituksen määrittäminen](finance-setup-finance.md).
+# <a name="finance"></a>Rahoitus
+[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää useimpien taloushallinnon prosessien vakiomäärityksen. Voit muuttaa määritystä omaa liiketoimintaasi vastaavaksi. Lisätietoja on kohdassa [Rahoituksen määrittäminen](finance-setup-finance.md).
 
 Oletusmääritys sisältää tilikartan ja vakiokirjausryhmät, joiden avulla oletuskirjanpitotilit voidaan liittää asiakkaille, toimittajille ja nimikkeille tehokkaammin.  
 
@@ -45,35 +45,25 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Liitä lisäkustannukset, kuten rahti- ja fyysisen käsittelyn kustannukset, joita joudut maksamaan kaupan yhteydessä nimikkeisiin, jotta kustannukset vaikuttavat varastonarvostukseen. |[Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md) |
 |Kirjaa työntekijöiden liiketoimintaan liittyvät henkilökohtaiset kulut ja tee hyvitykset suorittamalla maksu työntekijän pankkitilille.|[Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md)|
 | Tulouta tuotot ja kulut muissa kuin niissä jaksoissa, joiden tapahtumat on kirjattu. |[Tuottojen ja kulujen siirtäminen](finance-how-defer-revenue-expenses.md)|
-| Tietoja käytettävissä olevista vaihtoehdoista, jotka automatisoivat tilauslaskujen lähettämisen asiakkaille ja rekisteröivät toistuvan tuoton. |[Toistuvan tuoton käsitteleminen](finance-recurring-invoicing.md)|
+| Tietoja käytettävissä olevista vaihtoehdoista, jotka automatisoivat tilauslaskujen lähettämisen asiakkaille ja rekisteröivät toistuvan tuoton. |[Toistuva (tilaus-) tuotto](finance-recurring-invoicing.md)|
 |Lisätietoja lisävaluuttojen käytöstä ja vaihtokurssien päivittämisestä automaattisesti. |[Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)|
 | Tuo palkkatapahtumat palkanlaskennan tarjoajalta pääkirjanpitoon. |[Tuo palkkatapahtumat](finance-how-import-payroll-transactions.md)|
 |Laske myynti- ja ostotapahtumien arvonlisävero (ALV) funktioiden avulla, jotta voit raportoida summat veroviranomaisille.|[Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)|
 |valmistele raportti, jossa luetellaan myynneistä saatu arvonlisävero ja lähetä raportti EU:n veroviranomaiselle. | [ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)|
 |Muunna palvelusopimusten ALV-prosentti muuntamalla palvelusopimuksia manuaalisesti.|[ALV-summia sisältävien huoltosopimusten muuntaminen](service-how-to-convert-service-contracts.md)|
 | Seuraa yrityksen kassavirtaliikennettä. |[Yrityksen kassavirtojen analysoiminen](finance-analyze-cash-flow.md) |
-|Noudata ja päästä päähän -menettelyä kassavirtaennusteiden tekemisessä KP-raporttimallien avulla.|[Vaihekuvaus: Kassavirtaennusteiden tekeminen käyttäen KP-raporttimalleja](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
+|Seuranta ja päästä päähän -menettely kassavirtaennusteiden tekemisessä KP-raporttimallien avulla,|[Vaihekuvaus: tehdään kassavirtaennusteita käyttäen KP-raporttimalleja](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Käsittele tilinpäätöksiä ja yhteenvetoja Excelissä. |[Rahoituslaskelmien analysointi Excelissä](finance-analyze-excel.md) |
-|Lisätietoja kirjanpitäjän roolikeskuksesta, ulkoisen kirjanpitäjän kutsumisesta ja useiden asiakkaiden tilien hallinnasta yritystoiminnon avulla.|[Kirjanpitäjän käyttökokemukset Business Centralissa](finance-accounting.md)|  
-
-## <a name="take-a-video-tour"></a>Katso videoesittely
-
-Seuraava video esittelee joitakin keskeisiä taloudenhallinnan valmiuksia. <br><br>  
-
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
+|Lisätietoja kirjanpitäjän roolikeskuksesta, ulkoisen kirjanpitäjän kutsumisesta ja useiden asiakkaiden tilien hallinnasta Accountant Hubin avulla.|[Kirjanpitäjän käyttökokemukset Business Central -sovelluksessa](finance-accounting.md)|  
 
 ## <a name="see-also"></a>Katso myös
-
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Myynti](sales-manage-sales.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Kirjanpitokausien sulkeminen](year-close-years-periods.md)  
-[Projektien hallinta](projects-manage-projects.md)  
+[Projektien hallinta](projects-manage-projects.md)    
 [Tietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

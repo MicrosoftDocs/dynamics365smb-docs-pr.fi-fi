@@ -6,17 +6,16 @@ ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.service: dynamics365-business-central
-ms.topic: conceptual
-ms.search.form: 1752
-ms.date: 06/14/2021
-ms.openlocfilehash: ace00c39b6c5186e40d4f8eb20b0e7d7ad6030ce
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.topic: article
+ms.date: 04/01/2020
+ms.openlocfilehash: e1b199c16bb39feb4ecbef9b36ccd49a5c32e3c8
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012629"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3187410"
 ---
-# <a name="classifying-data-sensitivity-fields"></a>Tietojen luottamuksellisuuskenttien luokitteleminen
+# <a name="classifying-data-sensitivity"></a>Tietojen luottamuksellisuuden luokitteleminen
 Microsoft-kumppani voi luokitella luottamuksellisia tai henkilökohtaisia tietoja sisältävät kentät määrittämällä kentille ominaisuuden ```DataClassification```. Tämä edellyttää tietokantataulujen käyttämistä joko kehitysympäristössä tai suorittamalla Windows PowerShell -komentosarja. Lisätietoja on kohdassa [Tietojen luokitteleminen](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Asiakkaana voit lisätä luokittelulle toisen tason, kun määrität vakiokentille ja mukautetuille kentille tietojen luottamuksellisuuden tasot. Tietojen luottamuksellisuuden luokitteleminen auttaa varmistamaan, että tiedät henkilökohtaisten tietojen tallennussijainnin järjestelmässä. Sen avulla on myös helppo vastata tietojen kohteiden pyyntöihin. Yhteyshenkilö tai asiakas voi esimerkiksi pyytää henkilökohtaisten tietojen viemistä. Lisätietoja on kohdassa [Henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen](admin-responding-to-requests-about-personal-data.md).
@@ -51,6 +50,3 @@ Tietojen luokittelun työkirjan avulla voit tehdä esimerkiksi seuraavat toiminn
 ## <a name="see-also"></a>Katso myös
 
 [Tietojen luokitteleminen](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
