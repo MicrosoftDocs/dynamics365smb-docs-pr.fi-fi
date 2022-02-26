@@ -1,24 +1,24 @@
 ---
-title: Rakennetiedot – Kokoonpanotilauksen kirjaus | Microsoft Docs
-description: Kokoonpanotilauksen kirjaus perustuu samoihin periaatteisiin kuin myyntitilausten ja tuotannon kulutuksen / tuotoksen kirjauksen vastaavat toiminnot. Periaatteet on kuitenkin yhdistetty niin, että kokoonpanotilauksilla on omat kirjauksen käyttöliittymänsä, kuten myyntitilauksille on omansa ja todellinen tapahtuman kirjaus tapahtuu taustalla suorana nimikkeen ja resurssipäiväkirjan kirjauksena, kuten tuotannon kulutukselle, tuotokselle ja kapasiteetille.
+title: Rakennetiedot – kokoonpanotilauksen kirjaus
+description: Kokoonpanotilauksen kirjaus perustuu samoihin periaatteisiin kuin myyntitilausten ja tuotannon kulutuksen / tuotoksen kirjauksen vastaavat toiminnot.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 2c90a6b4a122c9a224e26ef57a03a7f6c981177f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 155fbf64c5ca0dcffce22f16f7ffbfc6375250f1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185802"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442558"
 ---
 # <a name="design-details-assembly-order-posting"></a>Rakennetiedot: kokoonpanotilauksen kirjaus
-Kokoonpanotilauksen kirjaus perustuu samoihin periaatteisiin kuin myyntitilausten ja tuotannon kulutuksen tai tuotoksen kirjauksen vastaavat toiminnot. Periaatteet on kuitenkin yhdistetty niin, että kokoonpanotilauksilla on omat kirjauksen käyttöliittymänsä, kuten myyntitilauksille on omansa ja todellinen tapahtuman kirjaus tapahtuu taustalla suorana nimikkeen ja resurssipäiväkirjan kirjauksena, kuten tuotannon kulutukselle, tuotokselle ja kapasiteetille.  
+Kokoonpanotilauksen kirjaus perustuu samoihin periaatteisiin kuin myyntitilausten ja tuotannon kulutuksen / tuotoksen kirjauksen vastaavat toiminnot. Periaatteet on kuitenkin yhdistetty niin, että kokoonpanotilauksilla on omat kirjauksen käyttöliittymänsä, kuten myyntitilauksille on omansa ja todellinen tapahtuman kirjaus tapahtuu taustalla suorana nimikkeen ja resurssipäiväkirjan kirjauksena, kuten tuotannon kulutukselle, tuotokselle ja kapasiteetille.  
 
 Samoin kuin tuotantotilauksen tiliöinti, käytetyt osat ja käytetyt resurssit muunnetaan ja tuotetaan kokoonpanonimikkeenä, kun kokoonpanotuotantotilaus on lähetetty. Katso lisätietoja kohdasta [Rakennetiedot: tuotantotilauksen kirjaus](design-details-production-order-posting.md). Kokoonpanotilausten kustannusvirta on kuitenkin yksinkertaisempi, erityisesti siksi, koska kokoonpanokustannuksen kirjaus tapahtuu vain kerran, ja tämän vuoksi se ei luo keskeneräisten töiden varastoa.  
 
@@ -31,14 +31,14 @@ Seuraavat lokitiliöinnit tapahtuvat kokoonpanotilauksen tiliöinnin aikana:
 
 Seuraavassa kaaviossa esitetään nimikkeen ja lähteenä olevan pääkirjan kirjausten rakenne, jotka ovat seurausta kokoonpanotilauksen tiliöinnistä.  
 
-![Kokoonpanotilauksen kirjaamisesta johtuvat nimike-, resurssi-ja kapasiteettitapahtumat](media/design_details_assembly_posting_1.png "Kokoonpanotilauksen kirjaamisesta johtuvat nimike-, resurssi-ja kapasiteettitapahtumat")  
+![Kokoonpanotilauksen kirjaamisesta johtuvat nimike-, resurssi-ja kapasiteettitapahtumat.](media/design_details_assembly_posting_1.png "Kokoonpanotilauksen kirjaamisesta johtuvat nimike-, resurssi-ja kapasiteettitapahtumat")  
 
 > [!NOTE]  
 >  Kuormitusryhmät ja tuotantosolut on sisällytetty sen kuvaamiseksi, että kapasiteettitapahtumat luodaan sekä tuotannosta että kokoonpanosta.  
 
 Seuraavassa kaaviossa esitetään, kuinka kokoonpanotiedot kulkevat pääkirjaan tiliöinnin aikana:  
 
-![Kokoonpanoon liittyvien tapahtumien työnkulku kirjauksen aikana](media/design_details_assembly_posting_2.png "Kokoonpanoon liittyvien tapahtumien työnkulku kirjauksen aikana")  
+![Kokoonpanoon liittyvien tapahtumien työnkulku kirjauksen aikana.](media/design_details_assembly_posting_2.png "Kokoonpanoon liittyvien tapahtumien työnkulku kirjauksen aikana")  
 
 ## <a name="posting-sequence"></a>Järjestyksen kirjaaminen  
 Kokoonpanotilauksen tiliöinti tapahtuu seuraavassa järjestyksessä:  
@@ -69,7 +69,7 @@ Tilaustason havainnointitoimintoa käytetään muunto-, tuotanto- ja kokoonpanos
 
 Seuraavassa kaaviossa esitetään sopeuttamiskirjauksen rakenne ja kuinka kokoonpanokustannukset määritellään.  
 
-![Kokoonpanoon liittyvien tapahtumien työnkulku kustannusoikaisun aikana](media/design_details_assembly_posting_3.png "Kokoonpanoon liittyvien tapahtumien työnkulku kirjauksen aikana")  
+![Kokoonpanoon liittyvien tapahtumien työnkulku kustannusoikaisun aikana.](media/design_details_assembly_posting_3.png "Kokoonpanoon liittyvien tapahtumien työnkulku kirjauksen aikana")  
 
 ### <a name="performing-the-adjustment"></a>Muutoksen suorittaminen  
 Havaittujen materiaali- ja resurssikustannusten määritysten laajennus kokoonpanon tuotantokirjauksiin suoritetaan **Määritä kustannukset – nimikekirjaukset** eräajossa. Se sisältää Suorita monitasoinen muutos -toiminnon, joka muodostuu seuraavista kahdesta elementistä:  
@@ -77,7 +77,7 @@ Havaittujen materiaali- ja resurssikustannusten määritysten laajennus kokoonpa
 -   Suorita kokoonpanotilauksen muutos – joka välittää kustannuksen materiaalin ja resurssien käytöstä kokoonpanon tuotos-tapahtumaan. Alla olevan algoritmin rivit 5 ja 6 vastaavat tästä.  
 -   Suorita yhden tason muutokset – joka välittää yksittäisten nimikkeiden kustannukset niiden arvostusmenetelmällä. Alla olevan algoritmin rivit 9 ja 10 vastaavat tästä.  
 
-![Kokoonpanon kirjauksen kustannusten muuttamisen algoritmin yhteenveto](media/design_details_assembly_posting_4.jpg "Kokoonpanon kirjauksen kustannusten muuttamisen algoritmin yhteenveto")  
+![Kokoonpanon kirjauksen kustannusten muuttamisen algoritmin yhteenveto.](media/design_details_assembly_posting_4.jpg "Kokoonpanon kirjauksen kustannusten muuttamisen algoritmin yhteenveto")  
 
 > [!NOTE]  
 >  Tee WIP-sopeutukset -elementti riveillä 7 ja 8 on vastuussa tuotantomateriaalin ja kapasiteetin käytön eteenpäin toimittamisesta keskeneräisten tuotantotilausten tuotantoon. Tätä ei käytetä, kun kokoonpanotilauksen kustannuksia muutetaan, sillä KET ei koske kokoonpanoa.  
@@ -115,4 +115,7 @@ Niiden myyntitilausrivien kirjaaminen, joilla osa on varastomäärä ja osa koko
  [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)  
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
  [Rahoitus](finance.md)  
- [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+ [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

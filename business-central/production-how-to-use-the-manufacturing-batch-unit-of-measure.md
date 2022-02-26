@@ -1,21 +1,21 @@
 ---
-title: Tuotantoerän mittayksikön käyttäminen | Microsoft Docs
-description: Jos nimike varastoidaan yhtä mittayksikköä ja tuotetaan toista mittayksikköä käyttäen, tuotantotilauksen on käytettävä tuotantoerän mittayksikköä komponenttien oikean määrän laskemiseen. Tuotantoerän mittayksikön laskentaa voidaan tarvita esimerkiksi, kun nimike varastoidaan kappaleina mutta tuotetaan tonneina.
+title: Tuotantoerän mittayksikön käyttäminen
+description: Tässä ohjeaiheessa on yleiskatsaus siitä, miten tuotantoerän mittayksiköitä voidaan käyttää Business Centralissa.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 550a7ff11dc63f35326f5daabfe0d25d928c86d7
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: d0fed17c296932afd5f976d5cceb7a4b83c79dae
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877733"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6321239"
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Tuotantoerän mittayksiköiden käyttäminen
 Jos nimike varastoidaan yhtä mittayksikköä ja tuotetaan toista mittayksikköä käyttäen, ohjelma voi laskea komponenttien oikean määrän **Päivitä tuotantotilaus** -eräajon aikana luomalla tuotantoerän mittayksikköä käyttävän tuotantotilauksen. Tuotantoerän mittayksikön laskentaa voidaan tarvita esimerkiksi, kun nimike varastoidaan kappaleina mutta tuotetaan tonneina.  
@@ -51,4 +51,7 @@ Voit tarkastella tuloksia valitsemalla ensin **Rivit**-pikavälilehdessä **Rivi
 [Suunnittelu](production-planning.md)   
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

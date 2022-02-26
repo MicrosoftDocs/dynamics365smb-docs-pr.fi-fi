@@ -1,29 +1,28 @@
 ---
-title: Kohdistustunnusten käyttäminen yleisissä päiväkirjoissa | Microsoft Docs
-description: Lisätietoja kohdistusavaimen käytöstä kirjauskansioissa.
-services: project-madeira
-documentationcenter: ''
+title: Kohdistustunnusten käyttäminen yleisissä päiväkirjoissa
+description: Voit kohdistaa yleisen päiväkirjan tapahtuman useille eri tileille päiväkirjan kirjaamisen yhteydessä.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: cost accounting
-ms.date: 10/01/2019
+ms.search.form: 283, 284
+ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 9c540b04b7dcda7cd3b656a86679228af08261c9
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 347e4999be079d31aa06cc80a1b7c9858d19ff57
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2310922"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101293"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Kohdistustunnusten käyttäminen yleisissä päiväkirjoissa
 Voit kohdistaa yleisen päiväkirjan tapahtuman useille eri tileille päiväkirjan kirjaamisen yhteydessä. Kohdistus voidaan tehdä määrän, prosentin tai summan mukaan.
 
 ## <a name="to-set-up-allocation-keys"></a>Kohdistusavaimien määrittäminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toistuva yleinen päiväkirja** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pr.pvk:n toist. kirj.** ja valitse sitten liittyvä linkki.
 2. Valitse **Erän nimi** -kenttä, kun haluat avata **Yleisen päiväkirjan erät** -sivun.
 3. Voit muokata luettelon olemassa olevan erän kohdistuksia tai luoda uuden erän ja kohdistukset.
    * Luo uusi erä valitsemalla **Uusi**-toiminto ja siirtymällä seuraavaan vaiheeseen.
@@ -38,7 +37,7 @@ Voit kohdistaa yleisen päiväkirjan tapahtuman useille eri tileille päiväkirj
 11. Kirjaa päiväkirja.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Aiemmin määritetyn kohdistusavaimen muuttaminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Toistuva yleinen päiväkirja** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pr.pvk:n toist. kirj.** ja valitse sitten liittyvä linkki.
 2. Valitse **Toistuva yleinen päiväkirja** -sivulla päiväkirja, jossa kohdistus on.
 3. Valitse ensin kohdistuksen rivi ja sitten **Kohdistukset**-toiminto.
 4. Vaihda soveltuvat kentät ja valitse sitten **OK**-painike.
@@ -46,4 +45,7 @@ Voit kohdistaa yleisen päiväkirjan tapahtuman useille eri tileille päiväkirj
 ## <a name="see-also"></a>Katso myös
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
 [Asiakirjojen ja päiväkirjojen kirjaaminen](ui-post-documents-journals.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

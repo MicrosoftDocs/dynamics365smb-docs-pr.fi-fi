@@ -1,21 +1,21 @@
 ---
-title: Rakenteen tiedot – Kirjausohjelman rakenne | Microsoft Docs
-description: Kirjausliittymä ja tietyt muut funktiot koodiyksikkö 12:ssa käyttävät kirjausohjelman toimintoja pääkirjanpidon tapahtumien ja ALV-tapahtumatietueiden valmisteluun ja lisäykseen. Kirjausohjelma vastaa myös kirjanpitorekisterin luomisesta.
+title: Rakenteen tiedot – Kirjausohjelman rakenne
+description: Kirjausliittymä käyttää kirjausohjelman toimintoja pääkirjanpidon tapahtumien ja ALV-tapahtumatietueiden valmisteluun ja lisäykseen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3e49d9c521ebfb73caeae6987472c5123ab54eba
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 68375a306983551a51a59ac448b4f0bfa7ad6917
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185466"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318406"
 ---
 # <a name="design-details-posting-engine-structure"></a>Rakenteen tiedot: Kirjausohjelman rakenne
 Kirjausliittymä ja tietyt muut funktiot koodiyksikkö 12:ssa käyttävät kirjausohjelman toimintoja pääkirjanpidon tapahtumien ja ALV-tapahtumatietueiden valmisteluun ja lisäykseen. Kirjausohjelma vastaa myös kirjanpitorekisterin luomisesta.  
@@ -39,3 +39,5 @@ Kirjausliittymä ja tietyt muut funktiot koodiyksikkö 12:ssa käyttävät kirja
   
 ## <a name="see-also"></a>Katso myös  
  [Rakenteen tiedot: Kirjausliittymän rakenne](design-details-posting-interface-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

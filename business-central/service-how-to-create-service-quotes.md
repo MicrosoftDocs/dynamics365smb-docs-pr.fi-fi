@@ -1,21 +1,21 @@
 ---
-title: Huoltotarjousten luominen | Microsoft Docs
-description: '**Huoltotarjous**-sivulla voidaan luoda asiakirjoja, joihin syötetään tietoja asiakkaan pyynnöstä tehtävästä huoltonimikkeiden huollosta (korjauksesta tai ylläpidosta). Voit käyttää huoltotarjousta huoltotilauksen luonnoksena ja muuntaa tarjouksen sitten huoltotilaukseksi.'
+title: Huoltotarjousten luominen
+description: Tietoja siitä, miten voit käyttää huoltotarjousta huoltotilauksen luonnoksena ja muuntaa tarjouksen sitten huoltotilaukseksi.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 4e04c2dc74ab1ecc0c0041258ca1824f872caac8
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 3a28ee7522faa1e08608deb00718bf955e0e4984
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877229"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441908"
 ---
 # <a name="create-service-quotes"></a>Huoltotarjousten luominen
 Huoltotarjoukset voidaan mieltää huoltotilausten pohjaksi. Ne ovatkin itse asiassa lähes samanlaisia. Kummassakin on tietoja esimerkiksi asiakkaasta, tilaustyypistä, huollettavista nimikkeistä, laskutus- ja toimitustiedoista sekä tehtävästä huoltotyöstä.
@@ -23,7 +23,7 @@ Huoltotarjoukset voidaan mieltää huoltotilausten pohjaksi. Ne ovatkin itse asi
 Voit käyttää huoltotarjousta huoltotilauksen luonnoksena ja muuntaa tarjouksen sitten huoltotilaukseksi.  
   
 ## <a name="to-create-a-service-quote"></a>Huoltotarjousten luominen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huoltotarjoukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotarjoukset** ja valitse sitten vastaava linkki.  
 2. Luo uusi huoltotarjous.  
 3. Valitse **Nro**-kenttään numero huoltotarjoukselle. Vaihtoehtoisesti jos olet määrittänyt huoltotarjouksille numerosarjan **Huoltohallinnon asetukset** -sivulla, voit painaa Enter, jolloin ohjelma syöttää seuraavan saatavilla olevan huoltotarjouksen numeron.  
 4. Syötä **Asiakasnro** -kentässä  asiamukainen asiakas luettelosta.  
@@ -40,3 +40,5 @@ Voit käyttää huoltotarjousta huoltotilauksen luonnoksena ja muuntaa tarjoukse
 [Huoltotehtävien käyttäminen](service-how-to-work-on-service-tasks.md)  
 
  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

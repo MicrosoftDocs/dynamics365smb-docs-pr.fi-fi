@@ -1,28 +1,31 @@
 ---
-title: Rakennetiedot – Varaston arvostus | Microsoft Docs
+title: Rakennetiedot - varaston arvostus
 description: Tässä dokumentaatiossa on yksityiskohtaisia teknisiä tietoja Business Central -sovelluksen varaston arvostuksen toiminnoissa käytettävistä konsepteista ja periaatteista.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, costing
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8dc7f7ac1e9f1d6b9919ecf7401d5cadf69a56c0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 8645
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: b76d0ccdfce2ef69da4b49e4b4e143de5a61d23c
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185298"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115117"
 ---
 # <a name="design-details-inventory-costing"></a>Rakennetiedot: varaston arvostus
-Tässä dokumentaatiossa on yksityiskohtaisia teknisiä tietoja [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman varaston arvostuksen toiminnoissa käytettävistä konsepteista ja periaatteista.  
+
+Tässä dokumentaatiossa on yksityiskohtaisia teknisiä tietoja [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman varaston arvostuksen toiminnoissa käytettävistä konsepteista ja periaatteista.  
 
 Varaston arvostus, jota kutsutaan myös kustannuslaskennaksi, käsittelee liiketoiminnan toimintokustannusten tallennusta ja raportointia.  
 
-## <a name="in-this-section"></a>Tämän osan sisältö  
+## <a name="in-this-section"></a>Tämän osan sisältö
+
 [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)  
 [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md)  
 [Rakennetiedot: Nimikkeen kohdistuksen tunnettu ongelma](design-details-inventory-zero-level-open-item-ledger-entries.md)  
@@ -41,3 +44,6 @@ Varaston arvostus, jota kutsutaan myös kustannuslaskennaksi, käsittelee liiket
 [Rakennetiedot: pääkirjanpidon tilit](design-details-accounts-in-the-general-ledger.md)  
 [Rakennetiedot: varaston arvostus](design-details-inventory-valuation.md)  
 [Rakennetiedot: uudelleenarvostus](design-details-revaluation.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

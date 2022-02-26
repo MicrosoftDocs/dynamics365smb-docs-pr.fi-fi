@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 69e5cbb897527a903594af893c0af44a48dbee27
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: ed9a7b84798ac7b0bf103329c9e06ea0468aa03b
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181242"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788075"
 ---
 # <a name="set-up-contacts"></a>Kontaktien määrittäminen
 Voit antaa kontaktien luomisen yhteydessä tietoja, kuten toimialan, johon kontakti kuuluu, sekä liikesuhteesi kontakteihin.
@@ -149,7 +149,7 @@ Kenttien periytyminen syrjäyttää määrittämäsi oletusarvot. Jos olet esime
 ## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa
 Kontaktin kortti voidaan synkronoida linkitetyn asiakkaan, toimittajan tai pankkitiliin kortin kanssa, kun täytät asianmukaisen kentän **Kontaktienhallinnan asetukset** -sivun **Vuorovaikutukset**-pikavälilehden **Liikesuhteen koodi kohteelle** -osassa.  
 
-Lisätietoja on kohdassa [Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-and-bank-accounts).
+Lisätietoja on kohdassa [Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
 ## <a name="searching-for-duplicate-contacts"></a>Kontaktien kaksoiskappaleiden hakeminen
 Voit valita, että sovellus hakee kaksoiskappaleita automaattisesti aina, kun luot kontaktin. Vaihtoehtoisesti voit valita, että haet kaksoiskappaleet manuaalisesti kontaktien luomisen jälkeen. Voit myös valita, että sovellus päivittää hakumerkkijonot automaattisesti aina, kun muutat kontaktin tietoja tai luot uuden kontaktin. Voit päättää Haun osuma-%:n, siis sen identtisten merkkijonojen prosenttiosuuden, joka kahdella kontaktilla täytyy olla, jotta sovellus tulkitsee ne kopioiksi. Tämä määritetään **Kontaktienhallinnan asetukset** -sivun **Kopiot**-pikavälilehdessä.
@@ -160,4 +160,7 @@ Jos löydät kontaktin kaksoiskappaleen, voit yhdistää sen säilytettävään 
 [Kontaktien hallinta](marketing-contacts.md)  
 [Kontaktien luominen](marketing-create-contact-companies.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,49 +1,59 @@
 ---
-title: Tuotannon tuotos- ja suoritusaikojen eräkirjaus| Microsoft Docs
-description: Tuotosmäärä kuvaa työn edistymistä valmiin määrän muodossa.
+title: Tuotannon tuotos- ja suoritusaikojen eräkirjaus
+description: Tuotosmäärä ilmaisee työn edistymisen valmiina määränä ja tuotantosolun tai kuormitusryhmän käytettynä kapasiteettina.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: a0eeb0a944a0feaee27fcb6d5891f83151499940
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 99000773, 99000778, 99000823, 99000827
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: d5adb9f1f4eb1edefdeb15b6f716458247b4ebf9
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877781"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970424"
 ---
 # <a name="batch-post-output-and-run-times"></a>Tuotos- ja suoritusaikojen eräkirjaus
-Tuotosmäärä kuvaa työn edistymistä valmiin määrän muodossa.  
+Tuotosmäärä ilmaisee työn edistymisen valmiina määränä ja tuotantosolun tai kuormitusryhmän käytettynä kapasiteettina.
+
+Tuotospäiväkirjaa voi käyttää seuraaviin:
+
+* Varastomäärän muutos valmiiden nimikkeiden tuotannon mukaan.
+* Määrien ja hävikin rekisteröinti kussakin tuotantoreitityksen toiminnossa.
+* Tuotantosolujen ja kuormitusryhmien määrityksen ja suoritusajan rekisteröinti.
 
 > [!NOTE]
-> Varasto päivitetään automaattisesti vasta, kun kirjaat viimeisen toiminnon tuotosmäärän.  
+> Jos tuotannon reititystä käytetään, varasto päivitetään vasta, kun kirjaat viimeisen toiminnon tuotosmäärän.
 
-## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a>Vähintään yhden tuotantotilausrivin tuotosmäärän kirjaaminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Tuotospäiväkirja** ja valitse sitten liittyvä linkki.  
-2. Täytä kentät tuotantotilauksen tiedoilla ja tuotostiedoilla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+**Tuotantopäiväkirja**-ikkunassa voi suorittaa samat tehtävät kuin **Tuotospäivä**-ikkunassa ja samaan aikaan voi suorittaa kulutuskirjauksiin liittyviä tehtäviä. Lisätietoja on kohdassa [Yhden vapautetun tuotantotilausrivin kulutuksen ja tuotoksen rekisteröiminen](production-how-to-register-consumption-and-output.md).
+
+## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Vähintään yhden tuotantotilausrivin tuotosmäärän ja/tai suoritusaikojen kirjaaminen
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotospäiväkirja** ja valitse sitten vastaava linkki.  
+2. Täytä kentät tuotantotilauksen tiedoilla, tuotostiedoilla ja/tai suoritusajalla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+  
+    **Pura reititys** -toiminnolla voi luoda päiväkirjarivejä tuotantotilauksista.
+  
 3. Jos toiminto on valmis, valitse **Valmis**-kenttä.  
+4. Kirjaa toiminnot valitsemalla **Kirjaa**-toiminto. 
 
-    Jos fyysisen varaston sijainti, johon nimikkeet hyllytetään, käyttää varastopaikkoja, mutta ei vaadi hyllytystä,  määritä päiväkirjan riville varastopaikkakoodi osoittamaan, mihin nimikkeet tulee sijoittaa fyysisessä varastossa. Lisätietoja on kohdassa [Tuotannon tai kokoonpanon tuotoksen hyllytys](warehouse-how-to-put-away-production-output.md).  
+Kapasiteettitapahtumat kirjataan käytetyille tuotantosoluille ja kuormitusryhmille yhdessä aikaa sekä tuotoksen ja hävikin määrää koskevien tietojen kanssa.  
 
-4. Kirjaa toiminnot valitsemalla **Kirjaa**-toiminto. Tuotosmäärä kirjataan. Nimike on nyt saatavilla toimitettavaksi.  
+Jos viimeinen toiminto on kirjattu, nimike lisätään varastoon.  
 
-## <a name="to-post-run-times-for-one-or-more-production-order-lines"></a>Vähintään yhden tuotantotilausrivin suoritusaikojen kirjaaminen
-Ajoaika kuvastaa työn edistymistä tarvittavan työajan muodossa.    
+## <a name="see-also"></a>Katso myös
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Tuotospäiväkirja** ja valitse sitten liittyvä linkki.  
-2. Täytä kentät tuotantotilauksen tiedoilla ja tuotostiedoilla.  
-3.  Jos toiminto on valmis, valitse **Valmis**-kenttä.  
-4. Kirjaa toimintakohtainen kulutettu aika valitsemalla **Kirjaa**-toiminto. Käytettyjen tuotantosolujen tai kuormitusryhmien kapasiteettitapahtumat päivitetään.
-
-## <a name="see-also"></a>Katso myös  
-[Tuotanto](production-manage-manufacturing.md)    
+[Hävikin kirjaaminen manuaalisti](production-how-to-post-scrap.md)
+[Tuotoksen kirjaamisen peruuttaminen](production-how-to-reverse-output-posting.md)
+[Tuotanto](production-manage-manufacturing.md)
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
-[Suunnittelu](production-planning.md)      
+[Suunnittelu](production-planning.md)  
 [Varasto](inventory-manage-inventory.md)  
-[Osto](purchasing-manage-purchasing.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

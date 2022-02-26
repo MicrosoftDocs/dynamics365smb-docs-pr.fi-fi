@@ -1,28 +1,28 @@
 ---
-title: Huoltosopimuksen tai sopimustarjouksen vuosittaisen summan muuttaminen | Microsoft Docs
+title: Huoltosopimuksen tai sopimustarjouksen vuosittaisen summan muuttaminen
 description: Voit muuttaa huoltosopimuksen tai huoltosopimustarjouksen vuosittain laskutettavaa summaa.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ad5193621f0f581e5b2cdec305e08b20ca80ef4e
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: bb4fa7b9d75afa49846247b1fdce3fa25f19334a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402548"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436425"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Huoltosopimuksen tai sopimustarjouksen vuosittaisen summan muuttaminen
 Huoltosopimuksen tai sopimustarjouksen vuosittaista summaa voidaan muuttaa, jos vuosittain laskutettavaa summaa tarvitsee korjata.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Huoltosopimuksen tai sopimustarjouksen vuosittaisen summan muuttaminen  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huoltosopimukset** tai **Huoltosopimustarjoukset**, ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimukset** tai **Huoltosopimustarjoukset** ja valitse sitten vastaava linkki.  
 2. Valitse sopimus tai sopimustarjous.  
 3. Avaa muokattava sopimus tai sopimustarjous valitsemalla **Avaa sopimus** -toiminto.  
 4. Valitse **Salli epätäsmäävät summat** -valintaruutu, jos haluat muuttaa vuosittaista summaa ja jakaa vuosittaisen summan eron manuaalisesti sopimusriveille. Poista muussa tapauksessa valintaruudun valinta, jotta vuosittainen summa neron jaetaan automaattisesti sopimusriveille, kun vuosittaista summaa on muutettu.  
@@ -150,3 +150,6 @@ Sopimusriveillä on lopuksi seuraavat tiedot:
 ## <a name="see-also"></a>Katso myös  
 [Huoltosopimusten ja huoltosopimustarjousten luominen](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

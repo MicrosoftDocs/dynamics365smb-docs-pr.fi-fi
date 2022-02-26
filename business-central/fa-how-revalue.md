@@ -1,22 +1,21 @@
 ---
-title: Käyttöomaisuuden uudelleenarvostus| Microsoft Docs
+title: Käyttöomaisuuden uudelleenarvostus
 description: Opi muuttamaan käyttöomaisuuden arvoa, kirjaamaan uusia summia arvonalennuksiksi tai -korotuksiksi sekä kirjaamaan muita hankintakustannuksia.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ec162eca522184807554fb9f46d71606ad9c8870
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 5628
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: c79cbff9d6f16ad3c93b126f01f5c28794df4127
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184338"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029506"
 ---
 # <a name="revalue-fixed-assets"></a>Käyttöomaisuuden uudelleenarvostus
 Käyttöomaisuuserien uudelleenarvostus voi koostua arvonkorotuksista, arvonalennuksista tai yleisistä arvon oikaisuista.
@@ -28,7 +27,7 @@ Kun käyttöomaisuuserän arvoa on vähennetty, voit kirjata päiväkirjariville
 Indeksointia käytetään muuttamaan useiden käyttöomaisuuserien arvoja esimerkiksi yleisten hintatason muutosten mukaan. **Tee indeksimuutos KO:teen** -eräajon avulla voi muuttaa erilaisia summia, kuten arvonalennus- ja arvonkorotussummia.
 
 ## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>Arvonkorotuksen kirjaaminen käyttöomaisuuden KP-päiväkirjasta
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuuden KP-päiväkirjat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten vastaava linkki.  
 2. Luo alkuperäisen päiväkirjan rivi ja täytä kentät tarpeen mukaan.
 3. Valitse **KO:n kirjaustyyppi** -kentässä **Uudelleenarvostus**.
 4. Valitse **Syötä KO-vastatili** -toiminto. Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty arvonkorotuksen kirjaamista varten.
@@ -38,7 +37,7 @@ Indeksointia käytetään muuttamaan useiden käyttöomaisuuserien arvoja esimer
 5. Valitse **Kirjaa**-toiminto.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Arvonalennuksen kirjaaminen käyttöomaisuuden KP-päiväkirjasta
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuuden KP-päiväkirjat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten vastaava linkki.  
 2. Luo alkuperäisen päiväkirjan rivi ja täytä kentät tarpeen mukaan.
 3. Valitse **KO:n kirjaustyyppi** -kentässä **Arvonalennus**.
 4. Valitse **Syötä KO-vastatili** -toiminto. Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty arvonalennuksen kirjaamista varten.
@@ -50,12 +49,12 @@ Indeksointia käytetään muuttamaan useiden käyttöomaisuuserien arvoja esimer
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Käyttöomaisuuden yleisen uudelleenarvostuksen suorittaminen
 Indeksointia käytetään muuttamaan useiden käyttöomaisuuserien arvoja esimerkiksi yleisten hintatason muutosten mukaan. **Tee indeksimuutos KO:teen** -eräajon avulla voi muuttaa erilaisia summia, kuten arvonalennus- ja arvonkorotussummia. **Salli indeksimuutokset** -valintaruudun on oltava valittuna **Poistokirja**-sivulla.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tee indeksimuutos KO:teen** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tee indeksimuutos KO:teen** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät.
 3. Valitse **OK**-painike.
 
     Uudelleenarvostuksen rivit luodaan vaiheessa 2 tehtyjen asetusten mukaan. Rivit luodaan joko käyttöomaisuuden päiväkirjassa tai käyttöomaisuuden KP-päiväkirjassa **KO-päiväkirjan asetukset** -sivun mallin ja erän asetusten mukaan. Lisätietoja on kohdassa [Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md).
-4. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuuden KP-päiväkirjat** ja valitse sitten liittyvä linkki.  
+4. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten vastaava linkki.  
 5. Valitse päiväkirja, joka sisältää uudelleenarvostettavat käyttöomaisuuserät, ja valitse sitten **Tapahtumakirjaukset**-toiminto.  
 6. Tarkista luodut tapahtumat ja kirjaa päiväkirja **Kirjaa**-toiminnon avulla.
 
@@ -120,5 +119,8 @@ Jos et valinnut **Poisto KO-kirjauspvm:ään asti** -kenttää, omaisuuserä men
 [Käyttöomaisuus](fa-manage.md)  
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Rahoitus](finance.md)  
-[Käytön aloittaminen](product-get-started.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

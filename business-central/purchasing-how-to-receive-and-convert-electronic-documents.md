@@ -1,67 +1,73 @@
 ---
-title: Sähköisten asiakirjojen vastaanottaminen ja muuntaminen | Microsoft Docs
-description: Voit vastaanottaa sähköisiä asiakirjoja suoraan kauppakumppaneilta tai OCR-palvelusta.
+title: Sähköisten asiakirjojen vastaanottaminen ja muuntaminen
+description: Tämä aihe kuvailee, miten voit vastaanottaa sähköisiä asiakirjoja suoraan kauppakumppaneilta tai OCR-palvelusta.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/13/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8571e0cbaa7104d6db8fc29ca11530a2c42464de
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.search.form: 189, 190, 191
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: b5fbf5266b95a4ed0ba5ebdd8cda00a71a924182
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953489"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7952907"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Sähköisten asiakirjojen vastaanottaminen ja muuntaminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman yleinen versio tukee sähköisten laskujen ja hyvityslaskujen vastaanottamista PEPPOL-muodossa. Suurimmat document exchange -palveluiden tarjoajat tukevat tätä muotoa. Jotta voisit saada laskun toimittajalta sähköisenä PEPPOL-asiakirjana, asiakirja on muunnettava Saapuvat asiakirjat -sivulla [!INCLUDE[d365fin](includes/d365fin_md.md)]in ostolaskuksi tai päiväkirjan riviksi.
 
- Kauppakumppaneiden sähköisten asiakirjojen suoran vastaanottamisen lisäksi voit saada sähköisiä asiakirjoja OCR-palvelusta, joka on muuntanut PDF- tai kuvatiedostoja sähköisiksi asiakirjoiksi.  
+[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman yleinen versio tukee sähköisten laskujen ja hyvityslaskujen vastaanottamista PEPPOL-muodossa. Suurimmat document exchange -palveluiden tarjoajat tukevat tätä muotoa. Jotta voisit saada laskun toimittajalta sähköisenä PEPPOL-asiakirjana, asiakirja on muunnettava Saapuvat asiakirjat -sivulla [!INCLUDE[prod_short](includes/prod_short.md)]in ostolaskuksi tai päiväkirjan riviksi.
 
- Ennen kuin voit vastaanottaa sähköisiä asiakirjoja Document Exchange -palvelun avulla, sinun on määritettävä perustietoja, kuten yritystiedot, toimittajat, nimikkeet ja mittayksiköt. Niiden avulla tunnistetaan liikekumppaneja ja nimikkeitä, kun saapuvassa asiakirjatiedostossa olevien elementtien tiedot muunnetaan [!INCLUDE[d365fin](includes/d365fin_md.md)]in kentiksi. Lisätietoja on kohdassa [Document Exchange -palvelun määrittäminen](across-how-to-set-up-a-document-exchange-service.md).  
+Kauppakumppaneiden sähköisten asiakirjojen suoran vastaanottamisen lisäksi voit saada sähköisiä asiakirjoja OCR-palvelusta, joka on muuntanut PDF- tai kuvatiedostoja sähköisiksi asiakirjoiksi.  
 
- Ennen kuin voit vastaanottaa sähköisiä asiakirjoja OCR-palvelun kautta, määritä ja ota käyttöön ennalta määritetty palveluyhteys. Lisätietoja on kohdassa [Saapuvien asiakirjojen määrittäminen](across-how-setup-income-documents.md).  
+Ennen kuin voit vastaanottaa sähköisiä asiakirjoja Document Exchange -palvelun avulla, sinun on määritettävä perustietoja, kuten yritystiedot, toimittajat, nimikkeet ja mittayksiköt. Niiden avulla tunnistetaan liikekumppaneja ja nimikkeitä, kun saapuvassa asiakirjatiedostossa olevien elementtien tiedot muunnetaan [!INCLUDE[prod_short](includes/prod_short.md)]in kentiksi. Lisätietoja on kohdassa [Document Exchange -palvelun määrittäminen](across-how-to-set-up-a-document-exchange-service.md).  
 
- Sähköisten asiakirjojen saapuvan ja lähtevän liikenteen [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa hallitsee työjono-ominaisuus. Ennen kuin voit vastaanottaa sähköisiä asiakirjoja, on aloitettava asianmukainen työjono.  
+Ennen kuin voit vastaanottaa sähköisiä asiakirjoja OCR-palvelun kautta, määritä ja ota käyttöön ennalta määritetty palveluyhteys. Lisätietoja on kohdassa [Saapuvien asiakirjojen määrittäminen](across-how-setup-income-documents.md).  
 
- Sähköisten asiakirjojen muuntaminen voit käynnistää joko manuaalisesti tässä proseduurissa kuvatulla tavalla tai voit ottaa työnkulun muuntamaan sähköiset asiakirjat automaattisesti niiden saapuessa. Yleinen [!INCLUDE[d365fin](includes/d365fin_md.md)] -versio sisältää työnkulkumallin, *Saapuvasta sähköisestä OCR:n kautta avoimen ostolaskun työnkulkuun*, joka on valmis kopioitavaksi työnkuluun ja otettavaksi käyttöön. Lisätietoja on kohdassa [Työnkulku](across-workflow.md).  
+Sähköisten asiakirjojen saapuvan ja lähtevän liikenteen [!INCLUDE[prod_short](includes/prod_short.md)]:ssa hallitsee työjono-ominaisuus. Ennen kuin voit vastaanottaa sähköisiä asiakirjoja, on aloitettava asianmukainen työjono.  
+
+Sähköisten asiakirjojen muuntaminen voit käynnistää joko manuaalisesti tässä proseduurissa kuvatulla tavalla tai voit ottaa työnkulun muuntamaan sähköiset asiakirjat automaattisesti niiden saapuessa. Yleinen [!INCLUDE[prod_short](includes/prod_short.md)] -versio sisältää työnkulkumallin, *Saapuvasta sähköisestä OCR:n kautta avoimen ostolaskun työnkulkuun*, joka on valmis kopioitavaksi työnkuluun ja otettavaksi käyttöön. Lisätietoja on kohdassa [Työnkulku](across-workflow.md).  
 
 > [!NOTE]  
->  Kun muunnat OCR-palvelusta vastaanotettuja sähköisiä asiakirjoja tai päiväkirjarivejä [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa, monta lähdeasiakirjan riviä yhdistetään yhdelle riville. Yhden rivin tyypiksi tulee KP-tili, ja **Kuvaus**- ja (KP-tilin) **Nro**-kentät ovat tyhjiä. **Summa**-kentän arvo on sama kuin kaikkien lähdeasiakirjan rivien kokonaissumma ilman ALV:tä.  
->   
->  Varmistaaksesi, että **Kuvaus** ja **Nro**-kentät on täytetty, voit valita **Linkitä teksti tiliin** -painikkeen **Saapuvat asiakirjat** -sivulla määrittääksesi, että tietty laskun teksti yhdistetään aina tiettyyn debet- tai kredit-tiliin pääkirjanpidossa. Jatkossa toimittajan tai asiakkaan sähköisestä asiakirjasta luotujen asiakirjan tai päiväkirjan rivien **Kuvaus**-kenttä täytetään kyseisellä tekstillä ja kyseisin tilin KP-tilin **Nro**-kentällä .  
->   
->  KP-tiliin yhdistämisen sijasta voit myös yhdistää pankkitiliin. Tämä on käytännöllistä esimerkiksi sähköisille asiakirjoille, jotka on jo maksettu, johon haluat luoda yleisen päiväkirjarivin, joka on valmis kirjattavajsu pankkitilille.  
+> Kun muunnat OCR-palvelusta vastaanotettuja sähköisiä asiakirjoja tai päiväkirjarivejä [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa, monta lähdeasiakirjan riviä yhdistetään yhdelle riville. Yhden rivin tyypiksi tulee KP-tili, ja **Kuvaus**- ja (KP-tilin) **Nro**-kentät ovat tyhjiä. **Summa**-kentän arvo on sama kuin kaikkien lähdeasiakirjan rivien kokonaissumma ilman ALV:tä.  
+>
+> Varmistaaksesi, että **Kuvaus** ja **Nro**-kentät on täytetty, voit valita **Linkitä teksti tiliin** -painikkeen **Saapuvat asiakirjat** -sivulla määrittääksesi, että tietty laskun teksti yhdistetään aina tiettyyn debet- tai kredit-tiliin pääkirjanpidossa. Jatkossa toimittajan tai asiakkaan sähköisestä asiakirjasta luotujen asiakirjan tai päiväkirjan rivien **Kuvaus**-kenttä täytetään kyseisellä tekstillä ja kyseisin tilin KP-tilin **Nro**-kentällä .  
+>
+> KP-tiliin yhdistämisen sijasta voit myös yhdistää pankkitiliin. Tämä on käytännöllistä esimerkiksi sähköisille asiakirjoille, jotka on jo maksettu, johon haluat luoda yleisen päiväkirjarivin, joka on valmis kirjattavajsu pankkitilille.  
 
- Seuraavassa kuvataan, miten toimittajan lasku vastaanotetaan ja muunnetaan ostolaskuksi [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssa. Menettely on sama, kun muunnat toimittajalaskun päiväkirjan riville.  
+Seuraavassa kuvataan, miten toimittajan lasku vastaanotetaan ja muunnetaan ostolaskuksi [!INCLUDE[prod_short](includes/prod_short.md)]:ssa. Menettely on sama, kun muunnat toimittajalaskun päiväkirjan riville.  
 
-### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Sähköisen laskun vastaanottaminen ja muuntaminen ostolaskuksi  
+### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Sähköisen laskun vastaanottaminen ja muuntaminen ostolaskuksi
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Saapuvat asiakirjat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Saapuvat asiakirjat** ja valitse sitten vastaava linkki.  
 
-2.  Valitse rivi sille saapuvalle asiakirjatietueelle, joka edustaa uutta saapuvaa sähköistä laskua, ja valitse sitten **Muokkaa**-toiminto.  
+2. Valitse rivi sille saapuvalle asiakirjatietueelle, joka edustaa uutta saapuvaa sähköistä laskua, ja valitse sitten **Muokkaa**-toiminto.  
 
-     Aiheeseen liittyvä XML-tiedosto liitetään **Saapuvan asiakirjan kortti** -sivulla, ja useimmat sen kentät on esitäytetty sähköisen laskun tiedoilla. Lisätietoja on kohdassa [Saapuvien asiakirjatietueiden luominen](across-how-create-income-document-records.md).  
+    Aiheeseen liittyvä XML-tiedosto liitetään **Saapuvan asiakirjan kortti** -sivulla, ja useimmat sen kentät on esitäytetty sähköisen laskun tiedoilla. Lisätietoja on kohdassa [Saapuvien asiakirjatietueiden luominen](across-how-create-income-document-records.md).  
 
-3.  Valitse **Tiedonsiirron tyyppi** -kentässä **PEPPOL-lasku** tai **OCR-lasku** sähköisen asiakirjan lähteen mukaan.  
+3. Valitse **Tiedonsiirron tyyppi** -kentässä **PEPPOL-lasku** tai **OCR-lasku** sähköisen asiakirjan lähteen mukaan.  
 
-4.  Toimittajalaskun tekstin liittäminen tiettyyn debet-tiliin tehdään valitsemalla **Toiminnot**-välilehden **Yleinen**-ryhmässä **Linkitä teksti tiliin** ja täyttämällä sitten **Tekstin yhdistäminen tiliin** -sivun tiedot.  
+4. Toimittajalaskun tekstin liittäminen tiettyyn debet-tiliin tehdään valitsemalla **Toiminnot**-välilehden **Yleinen**-ryhmässä **Linkitä teksti tiliin** ja täyttämällä sitten **Tekstin yhdistäminen tiliin** -sivun tiedot.  
 
-5.  Valitse **Luo tiedosto** -toiminto.  
+5. Valitse **Luo tiedosto** -toiminto.  
 
-     [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa luodaan ostolasku, joka perustuu sähköisen asiakirjan tietoihin.  
+    [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa luodaan ostolasku, joka perustuu sähköisen asiakirjan tietoihin.  
 
-     Yleensä vääriin tai puuttuviin perustietoihin liittyvät virheet näkyvät [!INCLUDE[d365fin](includes/d365fin_md.md)]in **Virhesanomat**-pikalomakkeessa.  
+    Yleensä vääriin tai puuttuviin perustietoihin liittyvät virheet näkyvät [!INCLUDE[prod_short](includes/prod_short.md)]in **Virhesanomat**-pikalomakkeessa.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Katso myös  
+## <a name="see-also"></a>Katso myös
+
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Saapuvat asiakirjat](across-income-documents.md)  
 [Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Sähköinen tiedonsiirto](across-data-exchange.md)   
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

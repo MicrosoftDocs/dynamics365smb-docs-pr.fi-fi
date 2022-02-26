@@ -1,32 +1,34 @@
 ---
-title: Toimitusten suunnittelu | Microsoft Docs
+title: Toimitusten suunnittelu
 description: Valmistele myynti- ja tuotantotarvetta varten seikkaperäinen ja toteuttamiskelpoinen suunnitelma sekä viimeistelykokoonpanon tuotantoaikataulu.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 05/05/2020
-ms.author: sgroespe
-ms.openlocfilehash: f2389dad61a943520cf7e09a5d8e0118b61db5c8
-ms.sourcegitcommit: 57e31a8b92feeaf8c6c63eba147f36b38eee7679
+ms.search.for: 291, 292, 293, 295, 517, 9010, 9038
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: c589fbccabed3f8e021e503ee8a1fbac17ad5db7
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3339968"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972617"
 ---
 # <a name="planning"></a>Suunnittelu
-Tuotanto-operaatiot, joita tarvitaan panoksen muuttamiseen lopputuotteiksi, on suunniteltava päivittäin tai viikoittain volyymin ja tuotteiden luonteen mukaan. [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää toimintoja, joiden avulla voidaan vastata myynnin, kokoonpanon ja tuotannon ennakoituun ja todelliseen kysyntään. Lisäksi siinä on toimintoja, joita käytetään jakelun suunnitteluun varastointiyksiköiden ja sijaintisiirtojen avulla.
+
+Tuotanto-operaatiot, joita tarvitaan panoksen muuttamiseen lopputuotteiksi, on suunniteltava päivittäin tai viikoittain volyymin ja tuotteiden luonteen mukaan. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää toimintoja, joiden avulla voidaan vastata myynnin, kokoonpanon ja tuotannon ennakoituun ja todelliseen kysyntään. Lisäksi siinä on toimintoja, joita käytetään jakelun suunnitteluun varastointiyksiköiden ja sijaintisiirtojen avulla.
 
 > [!NOTE]
-> Tässä ohjeaiheessa käsitellään lähinnä tuotantoon tai kokoonpanon hallintaan liittyviä yrityksiä, joissa toimitustilaukset voivat olla tuotanto-, kokoonpano-, siirto- tai ostotilauksia. Tämä suunnittelutyö tehdään pääasiassa **Suunnittelutyökirja**-sivulla.<br /><br />
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] tukee myös niitä tukkukaupan yritysten toimitussuunnittelua, joissa syntyvät toimitustilaukset voivat olla vain siirto- tai ostotilauksia. Tämä suunnittelutyö tehdään pääasiassa **Hankintalista**-sivulla, jota käsitellään epäsuorasti tässä ohjeaiheessa, sillä useimmat suunnittelutoiminnot koskevat molempia sivuja.
+> Tässä ohjeaiheessa käsitellään lähinnä tuotantoon tai kokoonpanon hallintaan liittyviä yrityksiä, joissa toimitustilaukset voivat olla tuotanto-, kokoonpano-, siirto- tai ostotilauksia. Tämä suunnittelutyö tehdään pääasiassa **Suunnittelutyökirja**-sivulla.
+>
+> [!INCLUDE[prod_short](includes/prod_short.md)] tukee myös niitä tukkukaupan yritysten toimitussuunnittelua, joissa syntyvät toimitustilaukset voivat olla vain siirto- tai ostotilauksia. Tämä suunnittelutyö tehdään pääasiassa **Hankintalista**-sivulla, jota käsitellään epäsuorasti tässä ohjeaiheessa, sillä useimmat suunnittelutoiminnot koskevat molempia sivuja.
 
 Suunnittelu voidaan nähdä valmistautumisena tarvittaviin tilauksiin myynti-, kokoamis- tai valmistusosastoilla myyntien toteuttamiseksi tai tuotteiden tarpeen lopettamiseksi. Lisätietoja, katso [Ostaminen](purchasing-manage-purchasing.md), [Kokoonpanon Hallinta](assembly-assemble-items.md) ja [Valmistus](production-manage-manufacturing.md)
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.   
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.  
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
@@ -34,11 +36,10 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Ymmärrä kuinka kaikki suunnitelusysteemin osa-alueet toimivat ja kuinka muokata algoritmejä suunnitelutarpeiden vastaamiseen eilaisissa ympäristöissä.|[Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)|
 |Tutustu, miten suunnittelulogiikka tekee eron sijaintien kysynnän välillä varastointiyksikön asetusten mukaan ja silloin, kun kysynnällä ei ole sijaintikoodeja.|[Suunnittelu sijainteja käyttämällä tai ilman niitä](production-planning-with-without-locations.md)|
 |Ennustettu kysyntä odotetun myynnin ja tuotannon komponenttien perusteella.|[Kysyntäennusteen luominen](production-how-to-create-a-forecast.md)|  
-|Luo myyntitilauksesta riippuvaisia tuotantotilauksia, jotka kattavat täsmällisesti myyntitilausrivin kysynnän.|[Tuotantotilausten luominen myyntitilauksista:](production-how-to-create-production-orders-from-sales-orders.md)|
-|Luo tuotantoprojektia edustava projektituotantotilaus suoraan monirivistä myyntitilauksesta.|[Projektitilausten suunnitteleminen](production-how-to-plan-project-orders.md)|
+|Luo myyntitilauksesta riippuvaisia tilauksia tai projektituotantotilauksia, jotka kattavat täsmällisesti myyntitilausrivin kysynnän.|[Tuotantotilausten luominen myyntitilauksista:](production-how-to-create-production-orders-from-sales-orders.md)|
 |Käytä **Tilauksen suunnittelu** -sivua, jonka avulla voit suunnitella myynnin tai tuotantokysynnän manuaalisesti yksi tuotannon tuoterakenne kerrallaan.|[Uuden kysynnän tilauskohtainen suunnittelu](production-how-to-plan-for-new-demand.md)|
 |Voit suorittaa **Suunnittelutyökirja**-sivulla sekä tuotanto-ohjelman että tarvelaskennan ja luoda niiden avulla joko ylätason tai yksityiskohtaisen toimitussuunnitelman kaikilla nimiketasoilla.|[Kokonaisvaltaisen suunnittelun, tuotanto-ohjelman tai tarvelaskennan suorittaminen](production-how-to-run-mps-and-mrp.md)|
-|Suorita hankintalista, jonka avulla voit luoda automaattisesti yksityiskohtaisen toimitussuunnitelman, joka kattaa sellaisten nimikkeiden kysynnän, joita täydennetään vain ostojen tai siirtojen avulla.|**Hankintalista**-sivu|  
+|Käytä **Hankintatyökirja**-sivua luodaksesi automaattisesti yksityiskohtaisen toimitussuunnitelman, joka kattaa sellaisten nimikkeiden kysynnän, joita täydennetään vain ostojen tai siirtojen avulla.|[Hankintatyökirja](production-about-planning-functionality.md#requisition-worksheet)|  
 |Aloita tai päivitä tuotantotilaus raakasuunniteltuna operaationa päätuotantoaikataulussa.|[Tuotantotilausten suora uudelleensuunnittelu tai päivittäminen](production-how-to-replan-refresh-production-orders.md)|
 |Laske tuotantosolun tai kuormitusryhmän kalenterit uudelleen suunnittelun muutosten vuoksi.|[Tuotantosolun kalenterin laskeminen](production-how-to-create-work-center-calendars.md#to-calculate-a-work-center-calendar)|
 |Seuraa tilauskysyntää (seurattu määrä), ennustetta, myyntipuitetilausta tai suunnitteluparametria (ei-seurattu määrä), joka on kiinnittänyt huomion kyseiseen suunnitteluriviin.|[Kysynnän ja tarjonnan välisten suhteiden seuraaminen](production-how-track-demand-supply.md)|
@@ -53,6 +54,9 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 [Osto](purchasing-manage-purchasing.md)  
 [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)  
 [Parhaiden käytäntöjen määrittäminen: Toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

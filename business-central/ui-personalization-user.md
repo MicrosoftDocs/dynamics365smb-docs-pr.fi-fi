@@ -1,21 +1,21 @@
 ---
-title: Sivujen mukauttaminen | Microsoft Docs
-description: Lisätietoja käyttöliittymän mukauttamisesta omaan Business Centralin käyttötapaan sopivaksi.
+title: Sivujen mukauttaminen (sisältää videon)
+description: Lisätietoja käyttöliittymän ja työtilan mukauttamisesta omaan Business Centralin käyttötapaan ja omiin preferensseihin sopivaksi.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c0fe93df0022f66aa5cc3964c2717e2e6ca76147
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: cd25d18787f8f28b01974e59580f7e83425e54bf
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262188"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940274"
 ---
 # <a name="personalize-your-workspace"></a>Työtilan mukauttaminen
 Voit mukauttaa työtilan työskentelyysi ja valintoihisi sopivaksi muuttamalla sivujen ulkoasua siten, että vain tarvitsemasi tiedot näkyvät siellä, missä niitä tarvitset. Mukauttamalla tehdyt muutokset koskevat vain omaa näkymääsi; muut käyttäjät eivät siis näe mukautuksiasi.
@@ -28,6 +28,11 @@ Sivun tyypin ja sen sisällön mukaan voit tehdä erilaisia muutoksia, kuten sii
 > Järjestelmänvalvojat voivat tehdä samat asettelun muutokset kuin käyttäjät mukauttamalla sellaisen profiilin työtilaa, johon on määritetty useita käyttäjiä. Lisätietoja on kohdassa [Roolien sivujen mukauttaminen](ui-personalization-manage.md).<br /><br />
 Järjestelmänvalvojat voivat myös ohittaa käyttäjien mukauttamiset tai poistaa ne käytöstä sekä määrittää, mitkä ominaisuudet käyttäjät näkevät kaikissa tai tietyissä yrityksissä. Lisätietoja on kohdassa [Business Centralin mukauttaminen](ui-customizing-overview.md).
 
+## <a name="video-overview"></a>Videon yleiskuvaus
+Seuraava video näyttää joitakin tapoja, joilla voit mukauttaa roolikeskuksesi.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
+
 ## <a name="to-change-the-width-of-a-column"></a>Sarakkeen leveyden muuttaminen
 Luettelon sarakkeiden kokoa on helppo muuttaa vetämällä kahden sarakkeen rajaa vasemmalle tai oikealle.
 1. Valitse ja vedä sarakkeiden välissä olevaa rajaa luettelon otsikossa.
@@ -37,7 +42,7 @@ Muiden mukautusten tavoin sarakkeen leveyteen tehdyt muutokset tallennetaan tili
 
 ## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Sivun mukauttamisen aloittaminen **Mukauttaminen**-palkin avulla
 1. Avaa mukautettava sivu.
-2. Valitse oikeassa yläkulmassa ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake")-kuvake, ja valitse sen jälkeen **Mukauta**-toiminto.
+2. Valitse oikeasta yläkulmasta ![Asetukset.](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") -kuvake ja valitse sitten **Mukauta**-toiminto.
 
     **Mukautetaan**-palkki tulee yläreunaan osoittamaan, että voit aloittaa muutosten tekemisen.
 
@@ -60,7 +65,7 @@ Muiden mukautusten tavoin sarakkeen leveyteen tehdyt muutokset tallennetaan tili
 |Esimerkiksi kentän, luettelon sarakkeen, ruudun, toiminnon tai osan piilottaminen|Valitse ensin nuolenpää ja sitten <b>Piilota</b>.|Elementti näkyy harmaana, kun olet mukautustilassa. Jos piilottamasi kenttä näkyy myös tiivistetyn pikavälilehden otsikossa, kenttä ei enää näy tässä kohdassa.|
 |Piilotettujen toimintojen ja osien näyttäminen.|Valitse ensin harmaan (piilotetun) elementin nuolenpää ja sitten <b>Näytä</b>.|Piilotettu elementti on taas näkyvissä.|
 |Kentän tai sarakkeen lisääminen|Valitse <b>Mukauttaminen</b>-palkissa <b>+ Kenttä</b>-toiminto.<br /></br><b>Lisää kenttä sivulle</b> -ruutu avautuu näytössä oikealla. Siinä on luettelo sivulle lisättävistä kentistä.<br /><br />Lisää kenttä vetämällä se ruudusta haluamaasi paikkaa. Paikka osoitetaan paksulla vaaka- tai pystyviivalla.|Kullakin sivulla on valmiiksi määritetty joukko näytettäviä kenttiä. Voit lisätä tällä tavalla kenttiä tai sarakkeita, joita ei ole aiemmin näytetty, tai näyttää piilotettuja kenttiä.|
-|Kentän näyttäminen kutistetun pikavälilehden otsikossa|Valitse ensin nuolenpää ja sitten <b>Näytä, kun tiivistetty</b>. <br /> <br />Jos tämä vaihtoehto ei näy, se on jo määritetty. Valitse tässä tapauksessa <b>Näytä aina</b>, jos haluat, että kenttä ei enää näy pikavälilehden otsikossa.|*Pikavälilehdellä* tarkoitetaan kenttiä, jotka on ryhmitetty yhteisen otsikon alle. Tärkeimmät kentät näkyvät, kun valitset <b>Näytä, kun tiivistetty</b>. Jos valitset otsikossa olevan kentän, pikavälilehti avautuu ja kohdistus on valitussa kentässä.<br /><br />Tämä vaihtoehto on käytettävissä vain, jos sivulla on useita pikavälilehtiä. Jos pikavälilehtiä on vain yksi, sitä ei voi tiivistää, joten <b>Näytä, kun tiivistetty</b> -vaihtoehto ei ole käytettävissä.|
+|Kentän näyttäminen kutistetun pikavälilehden otsikossa.|Valitse ensin nuolenpää ja sitten <b>Näytä, kun tiivistetty</b>. <br /> <br />Jos tämä vaihtoehto ei näy, se on jo määritetty. Valitse tässä tapauksessa <b>Näytä aina</b>, jos haluat, että kenttä ei enää näy pikavälilehden otsikossa.|*Pikavälilehdellä* tarkoitetaan kenttiä, jotka on ryhmitetty yhteisen otsikon alle. Tärkeimmät kentät näkyvät, kun valitset <b>Näytä, kun tiivistetty</b>. Jos valitset otsikossa olevan kentän, pikavälilehti avautuu ja kohdistus on valitussa kentässä.<br /><br />Tämä vaihtoehto on käytettävissä vain, jos sivulla on useita pikavälilehtiä. Jos pikavälilehtiä on vain yksi, sitä ei voi tiivistää, joten <b>Näytä, kun tiivistetty</b> -vaihtoehto ei ole käytettävissä.|
 |Kentän näyttäminen vain, kun **Näytä enemmän** on valittu|Valitse ensin nuolenpää ja sitten <b>Näytä kohdassa Näytä lisää</b>. <br /> <br />Jos <b>Näytä kohdassa Näytä lisää</b> -vaihtoehto ei ole näkyvissä, se on jo määritetty. Tällöin saat näkyviin aina, eikä vain, kun valitset-kentän **Näytä useita**, valitse <b>Näytä aina</b>.||
 |Kiinnitysruudun muuttaminen toiseen sarakkeeseen luettelossa |Valitse sen sarakkeen nuolenpää, jonka haluat olevan kiinnitysruudun viimeinen sarake, ja valitse sitten <b>Määritä kiinnitysruutu</b>.<br /><br/>Jos haluat määrittää kiinnitysruudun takaiseen alkuperäiseen paikkaan, valitse ensin nykyisen kiinnitysruutusarakkeen nuolenpää ja sitten <b>Tyhjennä kiinnitysruutu</b>. Huomautus: Et voi poistaa tätä kiinnitysruutua.|Kiinnitysruutu määrittää aina vasemmalla puolella näkyvät sarakkeet; nämä sarakkeet näkyvät myös vaakasuoraan vieritettäessä.|  
 |Kentän ohittaminen Enter-näppäintä painettaessa|Valitse ensin kentän vieressä oleva nuolenpää tai sarakkeen otsikko luettelossa ja valitse sitten **Sulje pois pikatapahtumasta**. <br /><br /> Jos tämä vaihtoehto ei ole näkyvissä, kenttä on jo määritetty ohitettavaksi. Voit siinä tapauksessa lopettaa kentän ohittamisen valitsemalla **Sisällytä pikatapahtumaan**. |Lisätietoja on kohdassa [Tietojen syöttämisen helpottaminen pikatapahtuman avulla](ui-enter-data.md#QuickEntry)|
@@ -138,6 +143,9 @@ Seuraavat seikat auttavat ymmärtämään mukauttamista entistä paremmin.
 
 ## <a name="see-also"></a>Katso myös
 [Profiilien sivujen mukauttaminen](ui-personalization-manage.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

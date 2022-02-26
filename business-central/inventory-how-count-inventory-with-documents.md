@@ -1,30 +1,33 @@
 ---
-title: Varaston laskenta asiakirjapohjaisilla toiminnoilla| Microsoft Docs
-description: Tietoja inventoinnista käyttämällä Inventointitilaus- ja Inventointitallennus-sivuja.
+title: Varaston laskeminen ja muuttaminen
+description: Kuvaa, miten fyysistä varastoa lasketaan ja miten varastoasiakirjoja käytetään käytettävissä olevan varaston säätämiseen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: adjustment, status, negative, positive, increase, decrease
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 944ce9e3950ea64fafada118b6f99f5d891242a5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.keywords: adjustment, status, negative, positive, increase, decrease, inventory
+ms.search.forms: 5895, 6561, 6562, 6563, 6564, 6565, 6566, 5892, 5891, 5879, 5880, 5893, 5897, 5882, 5881, 5899, 5875, 5878, 5877, 5876, 5896, 6567, 6568, 6569, 6570, 6571, 6572, 5883, 5886, 884, 5898, 5885, 5890, 5888, 5889, 5887, 5894, 6774, 6775, 6776, 6780, 6781, 6782, 6783
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 45001f05d2ddedcd254fafbd78f38e03cd87b93c
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182202"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115282"
 ---
-# <a name="count-inventory-using-documents"></a>Varastojen laskenta asiakirjoja käyttämällä
+# <a name="count-and-adjust-inventory-using-documents"></a>Varastojen laskenta ja muutos asiakirjoja käyttämällä
+
 Voit inventoida nimikkeet käyttämällä inventointitilauksen ja inventointitallennuksen asiakirjoja. **Inventointitilaus**-sivulla järjestetään täydellinen inventointiprojekti, kuten yksi kussakin toimipisteessä. **Inventointitallennus**-sivun avulla ilmoitetaan ja tallennetaan nimikkeiden varsinainen inventointi. Voit luoda yhdelle tilaukselle useita  tallenteita, jolloin voit esimerkiksi jakaa nimekeryhmiä eri työntekijöille.
 
-Jokaisesta tallenteesta voidaan tulostaa **Inventointitallennus**-raportti. Tämän raportin määräkentät ovat tyhjiä, ja laskettu varasto voidaan sitten lisätä näihin kenttiin. Kun käyttäjä lopettaa inventoinnin ja määrät on lisätty **Inventointitallennus**-sivulla, valitse **Valmis**-toiminto. Määrät siirretään nyt liittyville riveille **Inventointitilaus**-sivulla. Toiminto varmistaa, ettei mitään nimikettä tallennetta kahdesti.      
+Jokaisesta tallenteesta voidaan tulostaa **Inventointitallennus**-raportti. Tämän raportin määräkentät ovat tyhjiä, ja laskettu varasto voidaan sitten lisätä näihin kenttiin. Kun käyttäjä lopettaa inventoinnin ja määrät on lisätty **Inventointitallennus**-sivulla, valitse **Valmis**-toiminto. Määrät siirretään nyt liittyville riveille **Inventointitilaus**-sivulla. Toiminto varmistaa, ettei mitään nimikettä tallennetta kahdesti.  
 
 > [!NOTE]
-> Tässä toiminto-ohjeessa käsitellään asiakirjoja hyödyntävää inventointia, joka parantaa hallintaa ja tukee inventoinnin jakamista useille työntekijöille. Tehtävän voi suorittaa myös käyttämällä päiväkirjojen **Varastopäiväkirjat**- ja **F. var. inventointipäiväkirjat** -sivuja. Lisätietoja on kohdassa [Varaston laskeminen, muuttaminen ja uudelleenluokitus päiväkirjojen avulla](inventory-how-count-adjust-reclassify.md).<br /><br />
-> Huomaa, että jos käytät Varastopaikat- tai Alueet-toimintoja, et voi käyttää inventointitilauksia. Käytä sen sijaan **F. var. inventointipäiväkirja** -sivua fyysisen varastoinnin tapahtumien laskemiseen, ennen kuin ne synkronoidaan nimiketapahtumien kanssa.
+> Asiakirjoja hyödynnetään inventoinnissa, mikä parantaa hallintaa ja tukee inventoinnin jakamista useille työntekijöille. Tehtävän voi suorittaa myös käyttämällä päiväkirjojen, kuten **Varastopäiväkirjat**- ja **F. var. inventointipäiväkirjat**, sivuja. Lisätietoja on kohdassa [Varaston laskeminen, muuttaminen ja uudelleenluokitus päiväkirjojen avulla](inventory-how-count-adjust-reclassify.md). Tässä artikkelissa käsitellään inventointia asiakirjoja käyttämällä.
+>
+> Jos vyöhykkeet ovat käytössä, inventointitilauksia ei voi käyttää. Käytä sen sijaan **Fyysisen varaston inventointipäiväkirja** -sivua fyysisten varastointitapahtumien laskemiseen, ennen kuin ne synkronoidaan nimiketapahtumien kanssa.
 
 Asiakirjoja hyödyntävä varaston laskenta sisältää yleisesti seuraavat vaiheet:
 
@@ -38,19 +41,19 @@ Inventointitilaus on valmis asiakirja, joka koostuu inventointitilauksen otsikos
 
 Inventointitilauksen rivit luodaan yleensä käyttämällä **Laske rivit** -toimintoa siten, että ne vastaavat nykyistä varastoa tilauksen riveinä. Vaihtoehtoisesti voit täyttää toisen avoimen tai kirjatun inventointitilauksen rivit **Kopioi asiakirjasta** -toiminnolla. Seuraavassa toimintaohjeessa käsitellään vain **Laske rivit** -toiminnon käyttö.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Inventointitilausten kirjaaminen** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston tilaukset** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi**-toiminto.
-3. Täytä **Yleinen**-pikavälilehden pakolliset kentät. [!INCLUDE [tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Täytä **Yleinen**-pikavälilehden pakolliset kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Valitse **Laske rivit** -toiminto.
 5. Valitse tarvittavat vaihtoehdot.
 6. Määritä suodattimen, jotka esimerkiksi sisällyttävät vain ensimmäisessä tallenteessa inventoitavien nimikkeiden alijoukon.
 
     > [!TIP]
-    > Jos tarkoituksena on, että varaston laskentaan osallistuu useita työntekijöitä, on suositeltavaa määrittää eri suodattimet aina **Laske rivit** -toimintoa käytettäessä. Tällä tavoin tilaukseen täytetään vain yhden käyttäjän tallentamien varastonimikkeiden alijoukko. Tällä tavoin riski nimekkeiden inventoinnista kahdeksi on vähäinen, kun useille työntekijöille luodaan useita inventointitallenteita. Lisätietoja on kohdassa Inventointitallennuksen luominen.
+    > Jos tarkoituksena on, että varaston laskentaan osallistuu useita työntekijöitä, on suositeltavaa määrittää eri suodattimet aina **Laske rivit** -toimintoa käytettäessä. Tällä tavoin tilaukseen täytetään vain yhden käyttäjän tallentamien varastonimikkeiden alijoukko. Tällä tavoin riski nimekkeiden inventoinnista kahdeksi on vähäinen, kun useille työntekijöille luodaan useita inventointitallenteita. Lisätietoja on kohdassa [Inventointitallennuksen luominen](#to-create-a-physical-inventory-recording).
 
-7.  Valitse **OK**-painike.
+7. Valitse **OK**-painike.
 
-Tilaukseen lisätään rivi kullekin nimikkeelle, joka on valitussa sijainnissa ja joka on valittujen suodattimien ja vaihtoehtojen mukainen. Nimikkeillä, joille on määritetty nimikeseuranta, on valittuna **Käytä nimikeseurantaa** -valintaruutu. Tietoja odotetuista sarja- ja eränumeroista saa valitsemalla ensin **Rivit**-toiminnon ja sitten **Nimikkeen seurantarivit**. Lisätietoja on kohdassa Nimikeseurannan käsittely varastoa laskettaessa.
+Tilaukseen lisätään rivi kullekin nimikkeelle, joka on valitussa sijainnissa ja joka on valittujen suodattimien ja vaihtoehtojen mukainen. Nimikkeillä, joille on määritetty nimikeseuranta, on valittuna **Käytä nimikeseurantaa** -valintaruutu. Tietoja odotetuista sarja- ja eränumeroista saa valitsemalla ensin **Rivit**-toiminnon ja sitten **Nimikkeen seurantarivit**. Lisätietoja on kohdassa [Nimikeseurannan käsittely varastoa laskettaessa](#handling-item-tracking-when-counting-inventory).
 
 Voit nyt siirtyä luomaan vähintään yhden tallenteen. Tallenteet inventointia suorittaville työntekijöille suunnattuja ohjeita.  
 
@@ -72,7 +75,7 @@ Jos kyse on manuaalisesta laskennasta, voit tulostaa luettelon, **Inventointital
 5. Avaa **Inventointitallennusluettelo**-sivu valitsemalla **Tallennukset**-toiminto.
 6. Avaa liittyvä tallenne.
 7. Täytä **Yleiset**-pikavälilehdessä tarvittavat kentät.
-8. Luo nimikeseurantaa käyttäville nimikkeille kullekin erä- tai sarjanumerokoodille lisärivi valitsemalla ensin **Toiminnot**- ja sitten **Kopioi rivi** -toiminto. Lisätietoja on kohdassa Nimikeseurannan käsittely varastoa laskettaessa.    
+8. Luo nimikeseurantaa käyttäville nimikkeille kullekin erä- tai sarjanumerokoodille lisärivi valitsemalla ensin **Toiminnot**- ja sitten **Kopioi rivi** -toiminto. Lisätietoja on kohdassa [Nimikeseurannan käsittely varastoa laskettaessa](#handling-item-tracking-when-counting-inventory).  
 9. Valmistele fyysinen asiakirja, johon työntekijät kirjoittavat lasketut määrät, valitsemalla **Tulosta**-toiminto.
 
 ## <a name="to-finish-a-physical-inventory-recording"></a>Inventointitallennuksen valmistuminen
@@ -80,14 +83,14 @@ Kun työntekijät ovat laskeneet varastomäärät, niiden kirjaaminen järjestel
 
 1. Valitse **Inventointitallennusluettelo**-sivulla viimeisteltävä inventointitallenne ja valitse sitten **Muokkaa**-toiminto.
 2. Täytä laskettu määrä **Rivit**-pikavälilehdessä kunkin rivin **Määrä**-kenttään.
-3. Jos nimikkeellä on sarja- tai eränumero (**Käytä nimikeseurantaa** -valintaruutu on valittu), lisää lasketut määrät nimikkeen sarja- ja eränumeroriveille. Lisätietoja on kohdassa Nimikeseurannan käsittely varastoa laskettaessa.
+3. Jos nimikkeellä on sarja- tai eränumero (**Käytä nimikeseurantaa** -valintaruutu on valittu), lisää lasketut määrät nimikkeen sarja- ja eränumeroriveille. Lisätietoja on kohdassa [Nimikeseurannan käsittely varastoa laskettaessa](#handling-item-tracking-when-counting-inventory).
 4. Valitse **Tallennettu**-valintaruutu kullakin rivillä.
 5. Kun olet antanut kaikki inventointitallenteen tiedot, valitse **Valmis**-toiminto. Huomaa, että **Tallennettu**-valintaruudun on oltava valittuna kaikilla riveillä.
 
 > [!NOTE]
 > Kun inventointitallenne on valmis, kukin rivi siirretään sitä täsmälleen vastaavalle liittyvän inventointitilauksen riville. Vastaavuus edellyttää, että **Nimikenro**-, **Varianttikoodi**-, **Sijaintikoodi**- ja **Varastopaikan koodi** -kenttien arvot ovat samat tallenteessa ja tilausriveillä.<br /><br />
 > Jos vastaavaa inventointitilausriviä ei ole ja jos **Salli tallennus ilman tilausta** -valintaruutu on valittu, uusi rivi lisätään automaattisesti ja **Tallennettu ilman tilausta** -valintaruutu valitaan liittyvän inventointitilauksen rivillä. Muussa tapauksessa avautuu virhesanoma ja prosessi peruutetaan.<br /><br />
-> Jos useat inventointitallennuksen rivit vastaavat inventointitilauksen riviä, avautuu sanoma ja prosessi peruutetaan. Jos kaksi täysin samanlaista inventointiriviä päätyy jostain syystä inventointitilaukseen, voit ratkaista asian toiminnolla. Lisätietoja on kohdassa Inventointitallennuksen rivien kaksoiskappaleiden löytäminen.
+> Jos useat inventointitallennuksen rivit vastaavat inventointitilauksen riviä, avautuu sanoma ja prosessi peruutetaan. Jos kaksi täysin samanlaista inventointiriviä päätyy jostain syystä inventointitilaukseen, voit ratkaista asian toiminnolla. Lisätietoja on kohdassa [Inventointitallennuksen rivien kaksoiskappaleiden löytäminen](#to-find-duplicate-physical-inventory-order-lines).
 
 ## <a name="to-complete-a-physical-inventory-order"></a>Inventointitilauksen viimeisteleminen
 Kun inventointitallennus on valmis, liittyvän inventointitilauksen **Tallennettujen määrä (perus)** -kenttä päivitetään lasketuilla (tallennetuilla) arvoilla ja **Tallennuksessa**-valintarivi valitaan. Jos laskettu arvo poikkeaa odotetusta arvosta, arvojen välinen ero näkyy **Posit. määrä (perus)**- tai **Negat. määrä (perus)**-kentässä.
@@ -98,7 +101,7 @@ Voit valita myös **Inventointitilauksen erotus** -toiminnon ja tarkastella odot
 
 ### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Inventointitilausrivien kaksoiskappaleiden löytäminen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Inventointitilausten kirjaaminen** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston tilaukset** ja valitse sitten vastaava linkki.
 2. Avaa inventointitilaus, jossa haluat tarkastella rivien kaksoiskappaleita.
 3. Valitse **Näytä rivien kaksoiskappaleet** -toiminto.
 
@@ -111,7 +114,7 @@ Kun inventointitilaus on valmistunut ja sen tilaksi on muuttunut **Valmis**, voi
 - Jokainen inventointitilausrivi on laskettu vähintään yhdellä varastotallennusrivillä.
 - **Tallennusriveillä**- ja **Oletettu määrä laskettu** -valintaruudut on valittu kaikille inventointitilausriveille.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Inventointitilausten kirjaaminen** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston tilaukset** ja valitse sitten vastaava linkki.
 2. Valitse ensin viimeisteltävä inventointitilaus ja sitten **Muokkaa**-toiminto.
 
     Voit tarkastella **Inventointitilaus**-sivulla **Tallennettujen määrä (perus)** -kenttään tallennettuja arvoja.
@@ -125,7 +128,7 @@ Liittyvät nimiketapahtumat päivitetään nyt mahdollisten liittyvien nimikeseu
 ### <a name="to-view-posted-physical-inventory-orders"></a>Kirjattujen inventointitilausten tarkasteleminen
 Inventointitilaus poistetaan kirjaamisen jälkeen, jonka jälkeen voit tarkastella ja arvioida asiakirjaa kirjattuna inventointitilauksena, joka sisältää myös inventointitallennukset ja mahdolliset kommentit.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut inventointitilaukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut fyysisen varaston tilaukset** ja valitse sitten vastaava linkki.
 2. Valitse **Kirjatut inventointitilaukset** -sivulla kirjattu inventointitilaus, jota haluat tarkastella, ja valitse sitten **Näytä**-toiminto.
 3. Voit tarkastella liittyvien inventointitallennusten luetteloa valitsemalla **Tallennukset**-toiminnon.
 
@@ -183,6 +186,51 @@ Eräseurattu nimike tallennetaan varastoon LOT-numerosarjaan.
 
 **Inventointitilaus**-sivun **Negat. määrä (perus)** -kentän arvo on *8*. Kyseisen tilausrivin **Inventoinnin nimikeseurantaluettelo** -sivulla on yksittäisten eränumeroiden positiiviset tai negatiiviset määrät.
 
+## <a name="inventory-documents"></a>Varastoasiakirjat
+Seuraavat asiakirjatyypit ovat käteviä fyysisen varaston hallinnassa:
+
+- **Varaston vastaanotoilla** voi rekisteröidä nimikkeiden positiiviset muutokset määrän, laadun ja kustannuksen perusteella.
+- **Varaston lähetysten** avulla voi kirjata pois puuttuvia tai vaurioituneita tuotteita.
+
+Nämä asiakirjat voidaan tulostaa koska tahansa. Ne voidaan vapauttaa ja avata uudelleen, minkä lisäksi niiden otsikkoon voidaan määrittää yleisiä arvoja, mukaan lukien dimensioita. Jos haluat tulostaa asiakirjat uudelleen sen jälkeen, kun ne on kirjattu, se voidaan tehdä **Kirjatut varastovastaanotot**- ja **Kirjatut varastolähetykset** -sivuilla.
+
+> [!NOTE]
+> Ennen kuin näitä asiakirjoja voidaan käyttää, niille on luotava tunnisteet määrittämällä numerosarja. Lisätietoja on seuraavassa osassa.
+
+### <a name="to-set-up-numbering-for-inventory-documents"></a>Varastoasiakirjojen numeroinnin määrittäminen
+Seuraavaksi käsitellään varastoasiakirjojen numeroinnin määrittämistä.
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastonhallinnan asetukset** ja valitse sitten vastaava linkki.
+2. Määritä seuraavissa **Numerointi**-pikavälilehden kentissä asiakirjojen numerosarjat:
+   - **Varaston vastaanoton nrot**  
+   - **Kirjattujen varastovastaanottojen nrot**  
+   - **Varastotoimitusten nrot**  
+   - **Kirjattujen varastotoimitusten nrot**  
+
+### <a name="to-create-and-post-an-inventory-document"></a>Varastoasiakirjan luominen ja kirjaaminen
+Seuraavaksi käsitellään varastovastaanoton luomista, tulostamista ja kirjaamista. Varastotoimitusten vaiheet ovat vastaavanlaiset.
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston vastaanotot** ja valitse sitten vastaava linkki.  
+2. Valitse **Varaston vastaanotto** -sivulla **Sijaintikoodi**-kentän sijainti ja täytä sitten jäljellä olevat kentät tarpeen mukaan.
+3. Valitse **Rivit**-pikavälilehden **Nimike**-kentässä varastonimike. Anna lisättävien nimikkeiden lukumäärä **Määrä**-kentässä. 
+4. **Varaston vastaanotto** -raportin voi tulostaa **Varaston vastaanotto** -sivulla valitsemalla **Tulosta**-toiminnon.
+
+**Varaston vastaanotto** -sivulla on käytössä seuraavat toiminnot:
+
+- Seuraavan käsittelyvaiheen tila määritetään **Vapauta**- tai **Avaa uudelleen** -toiminnolla  
+- Kirjaa varaston vastaanotto valitsemalla **Kirjaa**-toiminto tai kirjaa vastaanotto ja tulosta testiraportti valitsemalla **Kirjaa ja tulosta**  
+
+## <a name="printing-inventory-documents"></a>Varastoasiakirjojen tulostaminen
+Eri vaiheissa tulostettavat raportit voidaan määrittää valitsemalla jokin seuraavista vaihtoehdoista **Raportin valinta – varasto** -sivun **Käyttö**-kentässä:
+
+- Varaston vastaanotto
+- Varastotoimitus
+- Kirjattu varaston vastaanotto
+- Kirjattu varastotoimitus
+
+> [!NOTE]
+> Käytettävissä olevat raportit voivat vaihdella maan lokalisoinnin mukaan. Perussovellus ei sisällä asetteluja.
+
 ## <a name="see-also"></a>Katso myös
 [Varaston laskeminen, muuttaminen ja uudelleenluokitus käyttämällä päiväkirjoja](inventory-how-count-adjust-reclassify.md)  
 [Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md)  
@@ -190,4 +238,7 @@ Eräseurattu nimike tallennetaan varastoon LOT-numerosarjaan.
 [Varastoinninhallinta](warehouse-manage-warehouse.md)    
 [Myynti](sales-manage-sales.md)  
 [Osto](purchasing-manage-purchasing.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

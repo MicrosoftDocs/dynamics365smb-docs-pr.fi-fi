@@ -1,21 +1,22 @@
 ---
-title: Kulujen tai tuottojen kirjaaminen suoraan kirjanpitoon| Microsoft Docs
-description: Liiketoiminnan aktiviteeteille, joihin ei liity asiakirjaa, kuten pienille kuluille tai käteissuorituksille voi luoda liittyvät tapahtumat kirjaamalla päiväkirjarivit Yleinen päiväkirja -sivulla.
+title: Kulujen tai tuottojen kirjaaminen suoraan kirjanpitoon
+description: Liiketoiminnan aktiviteeteille, joihin ei liity asiakirjaa, voi luoda liittyvät tapahtumat kirjaamalla päiväkirjarivit Yleinen päiväkirja -sivulla.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: direct posting, general ledger
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f0c1efcee7db0239efa739dd0ea8d8ce45e2dbd7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 39, 251
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: f8a11cf0efb34863c4d2ddf7519847e27f5a2001
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183954"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973464"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Tapahtumien kirjaaminen suoraan pääkirjanpitoon
 
@@ -29,7 +30,7 @@ Toisin kuin tapahtumat, jotka on kirjattu asiakirjasta ja edellyttävät hyvitys
 
 ## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Tapahtumien kirjaaminen suoraan pääkirjanpitoon
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Yleiset päiväkirjat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleiset päiväkirjat** ja valitse sitten vastaava linkki.
 2. Avaa liittyvä yleisen päiväkirjan erä. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).
 3. Täytä tarvittaessa uuden päiväkirjarivin kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]    
 
@@ -47,4 +48,7 @@ Toisin kuin tapahtumat, jotka on kirjattu asiakirjasta ja edellyttävät hyvitys
 [Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md)  
 [Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md)  
 [Rahoitus](finance.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

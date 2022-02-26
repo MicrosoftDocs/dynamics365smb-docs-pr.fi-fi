@@ -1,21 +1,21 @@
 ---
-title: Nimikkeiden kokoaminen | Microsoft Docs
-description: Jos nimikkeen kortin **Täydennysjärjestelmä**-kenttä sisältää **kokoonpanon**, nimikkeen toimituksen oletustapa on koota nimike määritetyistä komponenteista ja mahdollisesti määritetyn resurssin toimesta.
+title: Nimikkeiden kokoaminen
+description: Jos nimikkeen kortin Täydennysjärjestelmä-kenttä sisältää kokoonpanon, nimikkeen toimituksen oletustapa on koota nimike määritetyistä komponenteista.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b42fb9d04d626dcd46eda1a07c79f610dc5c8c51
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 6fd6e5e90c8307c76868570642a216387d86641d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186426"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435492"
 ---
 # <a name="assemble-items"></a>Kokoa nimikkeet
 Jos nimikkeen kortin **Täydennysjärjestelmä**-kenttä sisältää **kokoonpanon**, nimikkeen toimituksen oletustapa on koota nimike määritetyistä komponenteista ja mahdollisesti määritetyn resurssin toimesta.  
@@ -41,7 +41,7 @@ Nämä asetukset ovat oletusasetuksia, jotka hallitsevat sitä, miten myynnin ja
 Tässä toimenpiteessä luot kokoonpanotilauksen varastoon (eli ilman myyntitilausta) koottavia nimikkeitä varten ja käsittelet tilausta. Vaiheita ovat kokoonpanotilauksen käynnistäminen, mahdollisten osien saatavuusongelmien käsitteleminen ja osittainen kokoonpanon nimikkeen tuotoksen kirjaaminen.
 
 ## <a name="to-assemble-an-item"></a>Kokoa nimike  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kokoonpanotilaukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kokoonpanotilaukset** ja valitse sitten vastaava linkki.  
 2.  Valitse **Uusi**-toiminto. **Uusi kokoonpanotilaus**-sivu avautuu.  
 3.  Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4.  Valitse **Nimikenro**-kentässä kokoonpanon nimike, jota haluat käsitellä. Kenttä on suodatettu näyttämään vain ne kohteet, jotka on määritetty kokoonpanolle, joka tarkoittaa sitä, että niille on määritetty kokoonpanon tuoterakenne.  
@@ -72,4 +72,7 @@ Kun kirjaus on onnistunut, kokoonpanon nimike kirjatataan sijaintikoodiin ja mah
 [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

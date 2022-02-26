@@ -1,23 +1,24 @@
 ---
-title: Pinon toiminnon visuaalisien signaalien mukauttaminen määrittämällä värilliset mittarit yritykselle tai yksittäisille käyttäjille | Microsoft Docs
+title: Mukautettujen värillisten osoittimien määrittäminen pinon aktiviteetille
 description: Järjestelmänvalvojana voit määrittää pinot, jotka näkyvät käyttäjien Roolikeskuksissa sisällyttääksesi ilmaisimen, joka vaihtaa väriä pinojen arvojen mukaan.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.search.form: 9701, 9702
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 0411e080aa5304b47ec64a9248368fc8385d4ee5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8dfd2a4c731ebc9663f3916694903ad8ac010ca5
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187338"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012443"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Pinojen värillisen ilmaisimen määrittäminen yrityskäyttäjille tai yksittäisille käyttäjille
+
 Järjestelmänvalvojana voit määrittää pinot, jotka näkyvät käyttäjien Roolikeskuksissa sisällyttääksesi ilmaisimen, joka vaihtaa väriä pinojen arvojen mukaan.  
 
 Ilmaisin näkyy värillisenä palkkina pinon ruudun yläreunassa. Se antaa visuaalisen signaalin pinon toiminnan tilasta, joka voi ilmaista suotuisia tai epäsuotuisia olosuhteita ja kehottaa käyttäjää toimimaan. Esimerkiksi, jos pino näyttää myyntilaskujen jatkuvan, voit määrittää ilmaisimen näkymään vihreänä (hyvä), kun jatkuva myyntilaskujen määrä on alle 10, ja se muuttuu punaiseksi (epäsuotuisa) kun summa on yli 20.  
@@ -27,7 +28,7 @@ Ilmaisin näkyy värillisenä palkkina pinon ruudun yläreunassa. Se antaa visua
 Jotta voit määrittää ilmaisimen, sinun on määritettävä korkeintaan kaksi raja-arvoa, jotka määrittävät kolme arvoaluetta (matala, keskisuuri ja korkea), joihin voit käyttää eri värejä (tai tyyliä).  
 
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Värillisten ilmaisinten määrittäminen pinoissa  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvake, syötä **Pinon asetukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pinon asetukset** ja valitse sitten vastaava linkki.  
 
      **Pinon asetukset** -sivu avautuu. Sivulla on luettelo ilmaisimista, jotka on tällä hetkellä määritetty pinoissa. Kaikkia yrityksen käyttäjiä koskevissa ilmaisimissa on tyhjä **Käyttäjänimi**-kenttä. Tiettyä käyttäjää koskevat ilmaisimet sisältävät käyttäjän nimen **Käyttäjänimi**-kentässä.  
 
@@ -64,3 +65,6 @@ Jotta voit määrittää ilmaisimen, sinun on määritettävä korkeintaan kaksi
     |**Alataso**|Harmaa|  
 
 ## <a name="see-also"></a>Katso myös
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

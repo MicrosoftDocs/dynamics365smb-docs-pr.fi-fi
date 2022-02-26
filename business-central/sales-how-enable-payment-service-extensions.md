@@ -1,31 +1,32 @@
 ---
-title: Asiakasmaksujen ottaminen käyttöön maksupalvelujen kautta | Microsoft Docs
-description: Kun otat maksupalvelut käyttöön, asiakkaiden on helpompi maksaa laskunsa.
+title: Asiakasmaksujen ottaminen käyttöön maksupalvelujen kautta
+description: Kun otat asiakkaiden maksuille maksupalvelut käyttöön, asiakkaiden on helpompi maksaa laskunsa.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 18ed3b77ffa369d4d9f3bd66ea54b81adb0c88e3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.forms: 1060, 1061, 1062
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 8216c4f34cf63b1dcc9a501747ae8738309ba511
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191809"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059854"
 ---
 # <a name="enable-customer-payments-through-payment-services"></a>Asiakasmaksujen ottaminen käyttöön maksupalvelujen kautta
-Pankkisiirron tai luottokorttien lisäksi asiakkaat voivat maksaa sinulle maksupalvelutilin, kuten Microsoft Payn, PayPalin tai WorldPayn, avulla.  
+Pankkisiirron tai luottokorttien lisäksi asiakkaat voivat maksaa sinulle maksupalvelutilin, kuten PayPalin tai WorldPayn, avulla.  
 
-Kun olet ottanut maksupalvelun käyttöön [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, palvelun linkki on käytössä sähköpostitse asiakkaille lähetettävissä myyntiasiakirjoissa. Asiakkaat voivat siirtyä linkin kautta maksupalveluun ja maksaa laskun suoraan myyntiasiakirjasta. Jos et halua lisätä linkkiä esimerkiksi silloin, kun asiakas maksaa käteisellä, voit poistaa maksupalvelun laskusta ennen kirjaamista.  
+Kun olet ottanut maksupalvelun käyttöön [!INCLUDE[prod_short](includes/prod_short.md)]issa, palvelun linkki on käytössä sähköpostitse asiakkaille lähetettävissä myyntiasiakirjoissa. Asiakkaat voivat siirtyä linkin kautta maksupalveluun ja maksaa laskun suoraan myyntiasiakirjasta. Jos et halua lisätä linkkiä esimerkiksi silloin, kun asiakas maksaa käteisellä, voit poistaa maksupalvelun laskusta ennen kirjaamista.  
 
-Microsoft Pay, PayPal Payments Standard- ja WorldPay Payments Standard -laajennukset on asennettu [!INCLUDE[d365fin](includes/d365fin_md.md)]iin, ja ne odottavat käyttöönottoa.  
+PayPal Payments Standard- ja WorldPay Payments Standard -laajennukset ovat asennettuina [!INCLUDE[prod_short](includes/prod_short.md)]iin, ja ne ovat valiina otettaviksi käyttöön.  
 
-## <a name="to-enable-a-payment-service-in-d365fin"></a>Maksupalvelun ottaminen käyttöön [!INCLUDE[d365fin](includes/d365fin_md.md)]issa
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupalvelut** ja valitse sitten liittyvä linkki.  
+## <a name="to-enable-a-payment-service-in-prod_short"></a>Maksupalvelun ottaminen käyttöön [!INCLUDE[prod_short](includes/prod_short.md)]issa
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupalvelut** ja valitse sitten vastaava linkki.  
 2. Valitse **Maksupalvelut**-sivulla **Uusi**-toiminto.  
 3. Valitse maksupalvelu ja sulje sitten sivu.  
 4. Valitse **Maksupalvelut**-sivulla **Määritys**-toiminto.  
@@ -33,7 +34,7 @@ Microsoft Pay, PayPal Payments Standard- ja WorldPay Payments Standard -laajennu
 6. Sulje sivu.  
 
 ## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Maksupalvelun valitseminen myyntilaskussa
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntilaskut** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntilaskut** ja valitse sitten vastaava linkki.  
 2. Avaa myyntilasku, jonka haluat maksaa maksupalvelun avulla.  
 3. Valitse maksupalvelu **Maksupalvelu**-kentässä.  
 
@@ -43,5 +44,8 @@ Microsoft Pay, PayPal Payments Standard- ja WorldPay Payments Standard -laajennu
 ## <a name="see-also"></a>Katso myös  
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Myynti](sales-manage-sales.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

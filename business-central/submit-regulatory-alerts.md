@@ -1,19 +1,19 @@
 ---
-title: Lakisääteisten ilmoitusten lähettäminen | Microsoft Docs
-description: Jos olet tietoinen uudesta lainsäädännöstä, jota mielestäsi on tuettava Business Centralissa, voit lähettää lakisääteisen ilmoituksen tuotetiimille tämän oppaan ohjeiden avulla.
+title: Lakisääteisten ilmoitusten lähettäminen
+description: Jos olet tietoinen uudesta lainsäädännöstä, jota on tuettava Business Centralissa, voit lähettää lakisääteisen ilmoituksen tuotetiimille tämän oppaan ohjeiden avulla.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2021
 ms.author: soalex
-ms.openlocfilehash: 349c930a5103814d6d7befc3a4e8135bc92081b0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: dc993a446219c5dcb28cd9a90756c0355ba30a16
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192145"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319979"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Maa- tai aluekohtaisten lakisääteisiä ominaisuuksia koskevien ilmoitusten lähettäminen
 
@@ -52,7 +52,7 @@ Voit lähettää lakisääteisiä ilmoituksia Microsoft Dynamics Lifecycle Servi
         |Description  | Kirjoita lyhyt lainsäädännön kuvaus. Kuvauksen pitäisi keskittyä tuotannonohjaus- eli ERP-toimiin liittyviin ongelmiin, jotta käyttäjät ymmärtävät ylätason vaatimukset lainsäädäntöön tutustumatta.|
         |Maa  | Määritä maa tai alue, jota lainsäädäntö koskee.|
         |Toimiala| Määritä toimiala, jos vaatimus koskee vain tiettyjä toimialoja. Valitse esimerkiksi **julkinen sektori**, **vähittäismyynti** tai **tuotanto**.|
-        |Ominaisuusviite  | Tämä ei koske Dynamics 365 Business Centralia, mutta jos sinulla on ominaisuusviite, voit antaa sen. Maakohtainen ominaisuusluettelo on CustomerSource-sivuston [lokalisointiportaalissa](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). |
+        |Ominaisuusviite  | Tämä ei koske Dynamics 365 Business Centralia, mutta jos sinulla on ominaisuusviite, voit antaa sen. Maakohtainen ominaisuusluettelo on CustomerSource-sivuston [lokalisointiportaalissa](/dynamics/s-e/). |
         |Lainsäädännön voimaantulopäivä  | Määritä päivämäärä, jolloin asiakkaiden on aloitettava lainsäädännön noudattaminen.|
         |Julkishallinnon ilmoituspäivä  | Määritä päivämäärä, jolloin viranomainen ilmoitti muutoksesta.|
         |Viimeisin ilmoituspäivä  | Valitse määräaika, jolloin uusi tai muuttunut raportti on lähetettävä ensimmäisen kerran.|
@@ -74,9 +74,12 @@ Voit lähettää lakisääteisiä ilmoituksia Microsoft Dynamics Lifecycle Servi
 
 ## <a name="see-also"></a>Katso myös
 
-[[!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]in paikalliset toiminnot](about-localization.md)  
+[[!INCLUDE[prod_long](includes/prod_long.md)]in paikalliset toiminnot](about-localization.md)  
 [Kielen ja kielialueen muuttaminen](about-locale-language.md)  
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Tervetuloa Business Centraliin](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

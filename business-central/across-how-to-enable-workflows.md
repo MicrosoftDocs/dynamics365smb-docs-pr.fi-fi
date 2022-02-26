@@ -3,19 +3,19 @@ title: Työnkulkujen ottaminen käyttöön | Microsoft Docs
 description: Kun olet luonut työnkulun ja olet varma, että se on valmis, työnkulku on otettava käyttöön.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: be8d5805c86161eb264a62dc8a97f71a7f49149b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 34f4582eabfcace038c54cb0b6a60d0e7217496b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188298"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438355"
 ---
 # <a name="enable-workflows"></a>Työnkulkujen ottaminen käyttöön
 Kun olet luonut työnkulun ja olet varma, että se on valmis, työnkulku on otettava käyttöön.  
@@ -23,7 +23,7 @@ Kun olet luonut työnkulun ja olet varma, että se on valmis, työnkulku on otet
  Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan. Työnkulku määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita. Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).  
 
 ## <a name="to-enable-a-workflow"></a>Työnkulun ottaminen käyttöön  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvake, syötä **Työnkulut** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut** ja valitse sitten vastaava linkki.  
 2.  Avaa työnkulku, jonka haluat ottaa käyttöön.  
 3.  Valitse **Työnkulku**-sivun **Käytössä**-valintaruutu.  
 
@@ -35,3 +35,6 @@ Kun olet luonut työnkulun ja olet varma, että se on valmis, työnkulku on otet
  [Työnkulkujen käyttäminen](across-use-workflows.md)   
  [Vaihekuvaus: Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Työnkulku](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

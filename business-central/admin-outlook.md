@@ -1,84 +1,137 @@
 ---
-title: Business Central -sovelluksen käyttäminen Outlookin kanssa | Microsoft Docs
-description: Tämä palvelu integroituu kattavasti Office 365:n kanssa, joten voit hallita kaikkea yrityksen asiakkaiden ja toimittajien kanssa tapahtuvaa viestintää suoraan Outlookissa.
-author: edupont04
+title: Business Central -apuohjelman hankkiminen Outlookiin
+description: Tutustu siihen, miten Outlookin Business Central -apuohjelma asennetaan organisaatioosi tai omaan käyttöön.
+author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: SMTP, mail, Office 365
-ms.date: 04/01/2020
-ms.author: edupont
-ms.openlocfilehash: b088cf18c10dd451c7c5974e98f0c0cbba5bad0b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
+ms.search.form: 1831, 1832
+ms.date: 08/13/2021
+ms.author: jswymer
+ms.openlocfilehash: 7fa8eabcffeb19b77c98ed9f9b7036dff6cbbf35
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186894"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049587"
 ---
-# <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa
+# <a name="get-the-business-central-add-in-for-outlook"></a>Business Central -apuohjelman hankkiminen Outlookiin
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] esittelee mahdollisuuden hallita liiketoiminnallisia vuorovaikutuksia asiakkaiden ja toimittajien kanssa suoraan Microsoft Outlookista. [!INCLUDE[d365fin](includes/d365fin_md.md)]in Outlook-apuohjelmien avulla voit tarkastella asiakkaisiin ja toimittajiin liittyviä taloustietoja sekä luoda ja lähettää talousasiakirjoja, kuten tarjouksia ja laskuja.  
+[!INCLUDE[prod_short](includes/prod_short.md)]in avulla voit hallita liiketoiminnallisia vuorovaikutuksia asiakkaiden ja toimittajien kanssa suoraan Microsoft Outlookista. [!INCLUDE[prod_short](includes/prod_short.md)]in Outlook-apuohjelman avulla voit tarkastella asiakkaisiin ja toimittajiin liittyviä taloudellisia tietoja. Voit myös luoda ja lähettää rahoitusasiakirjoja, kuten tarjouksia ja laskuja.  
 
-## <a name="getting-the-add-in"></a>Apuohjelman hakeminen
-Outlookin [!INCLUDE[d365fin](includes/d365fin_md.md)] -apuohjelman käytön aloittaminen on helppoa. Voit määrittää asetusten ohjatussa määritysoppaassa **Määritä Outlookin yrityssähköposti** itsesi ja organisaation välisen yhteyden, jos yrityksessä on käytössä Office 365. Yksinkertaista Office 365 -käyttäjänimen ja -salasanan määrittämistä pyydettäessä, ja kerro meille, haluatko saada näytesähköpostiviestin. [!INCLUDE[d365fin](includes/d365fin_md.md)]in apuohjelmat lisätään tämän jälkeen automaattisesti Outlookiin. Lisätietoja on kohdassa [Outlookin vähimmäisvaatimukset](product-requirements.md#outlook).  
+On kaksi tapaa saada Business Central -lisäosa Outlookiin asennetuksi organisaatioroolistasi riippuen:
 
-Kun sitten avaat Outlookin, näet *Dynamics 365 Business Centralin järjestelmänvalvojan* lähettämän sähköpostiviestin. Uudet apuohjelmat lisätään Outlookin valintanauhaan, ja [!INCLUDE[prodshort](includes/prodshort.md)]in apuohjelmat näkyvät selaimessa heti sähköpostiviestin perustekstin ylä- tai alapuolella. Apuohjelmat päivitetään ajoittain, ja saat ilmoituksen, kun uusi versio on valmiina Outlookissa.  
+- Microsoft 365 -järjestelmänvalvojana voit asentaa apuohjelman automaattisesti käyttäen *keskitettyä käyttöönottoa* koko organisaatiolle, ryhmille tai tiettyjen käyttäjien osalta.
 
-> [!TIP]
-> Jos käytät uutta Outlookia verkossa [!INCLUDE [prodshort](includes/prodshort.md)]in apuohjelmat voivat olla piilotettuina **Lisää toimintoja** -kohdassa. Jos käytät apuohjelmaa usein, voit kiinnittää sen niin, että se näkyy aina heti. Lisätietoja on kohdassa [Outlook-verkkoversion apuohjelmien käyttäminen](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
+- Tavallinen käyttäjä voi asentaa lisäosan omaan käyttöön, jos järjestelmänvalvoja ei ole jo ottanut sitä käyttöön.
 
-Jos työskentelet useamman kuin yhden [!INCLUDE [prodshort](includes/prodshort.md)] -yrityksen kanssa, voit helposti vaihtaa yritysten välillä Outlookissa. Valitse apuohjelman toimintopalkista **Lisää toimintoja**, ja sen jälkeen näet vaihtoehdon, jolla voi siirtyä yritysten välillä.  
+## <a name="about-the-business-central-add-in-for-outlook"></a>Tietoja Outlookin Business Central -apuohjelmasta
 
-<!--TEMP-->
+Outlookin Business Central -apuohjelma koostuu kahdesta pienemmästä apuohjelmista:
+
+- Kontaktien tiedot
+
+    Tämä apuohjelma tarjoaa [!INCLUDE[prod_short](includes/prod_short.md)]in asiakas- tai toimittajatiedot Outlookin sähköposteissa ja kalenteritapaamisissa. Sen avulla voit myös luoda ja lähettää [!INCLUDE[prod_short](includes/prod_short.md)]in liiketoiminta-asiakirjoja, kuten myyntitarjouksia ja laskuja kontaktille. <!--To support these task, the add-in adds actions to the Outlook ribbon, in the **Business Central** group. --> 
+
+- Asiakirjanäkymä
+
+    Kun sähköpostiviestissä viitataan sähköpostin tekstissä olevaan liiketoiminta-asiakirjan numeroon, tämä apuohjelma antaa sähköpostiviestin leipätekstin sisäisen suoran linkin varsinaiseen liiketoiminta-asiakirjaan [!INCLUDE[prod_short](includes/prod_short.md)]issa.
+
+Lisätietoja apuohjelmien käytöstä on kohdassa [Business Centralin käyttäminen yrityksen liiketoimintakansiona Outlookissa](work-outlook-addin.md).
+
+Jokainen apuohjelma toimitetaan XML-tiedostona eli *luettelotiedostona*, joka on asennettava kaikkien niiden henkilöiden Outlookiin, jotka haluavat tämän toiminnon. Näissä tiedostoissa kuvataan, miten apuohjelmat aktivoidaan ja yhdistetään Business Centraliin, kun niitä käytetään Outlookissa. Näiden tiedostojen käsitteleminen tapahtuu tavallisesti ylläpitäjän toimesta. Tavallisena käyttäjänä sinun ei useimmiten tarvitse käsitellä näitä tiedostoja suoraan. Joko järjestelmänvalvoja määrittää apuohjelman asennettavaksi automaattisesti puolestasi tai voit käyttää sisäänrakennettua avustettua määritystä asennuksen käsittelemiseen.
+
+## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Apuohjelman käyttöönottaminen keskitetyn käyttöönoton avulla järjestelmänvalvojana
+
+Keskitetty käyttöönotto on Microsoft 365 -hallintakeskuksen ominaisuus, jonka avulla voit asentaa apuohjelmat automaattisesti käyttäjien Office-sovelluksiin, kuten Outlookiin. Se on suositeltava tapa, jolla järjestelmänvalvojat voivat ottaa Office-apuohjelmia käyttöön organisaatiossasi oleville käyttäjille ja ryhmille.
+
 > [!NOTE]
-> Yritysten välillä siirtyminen edellyttää [!INCLUDE [prodshort](includes/prodshort.md)]in vuoden 2019 2. julkaisuaallon version ta tai uudemman, kuten [julkaisusuunnitelmassa ilmoitettiin](/dynamics365-release-plan/2019wave2/dynamics365-business-central/switch-between-companies-business-inbox-outlook).
+> Katso Business Central on-premises -versiolle järjestelmänvalvojan sisällössä ohjeaihe [Outlook-integraation apuohjelman määrittäminen Business Central on-premises -versiolle](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) (vain englanniksi).
 
-Jotkin Office 365:ää käyttävät yrityksen rajoittavat käyttäjien oikeuksia ottaa apuohjelmia käyttöön. Varmista tämän vuoksi, että Office 365 -tilauksesi sisältää sähköpostin ja mahdollistaa apuohjelmien käyttämisen. Jos haluat kokeilla apuohjelma joka tapauksessa, voit [kokeilla Office 365:ää maksutta](https://products.office.com/try).  
+### <a name="prerequisites"></a>Vaatimukset
 
-## <a name="using-the-contact-insights-add-in"></a>Kontaktien tiedot -apuohjelman käyttäminen
-Oletetaan, että saat sähköpostiviestin asiakkaalta, joka haluaa tarjouksen tietyistä nimikkeistä. Voit avata [!INCLUDE[d365fin](includes/d365fin_md.md)] -apuohjelman suoraan Outlookissa, jossa lähettäjä tunnistetaan asiakkaaksi ja yrityksen asiakaskortti avataan. Tässä koontinäytössä näytetään asiakkaan yleiskuvauksen tiedot. Koontinäytössä voit myös siirtyä tiettyjen asiakirjojen lisätietoihin. Voit siirtyä tarkastelemaan myös asiakkaan myyntihistoriaa. Jos kyseessä on uusi yhteyshenkilö, voit luoda uuden asiakkaan [!INCLUDE[d365fin](includes/d365fin_md.md)]issa Outlookista poistumatta.  
+- Microsoft 365 -tilaus  
+- Käyttäjille on määritetty Microsoft 365 -käyttöoikeus.  
+- Microsoft 365 -tilillä on *Yleinen järjestelmänvalvoja*- tai *Exchange-järjestelmänvalvoja* -rooli
 
-Apuohjelmassa voit luoda myyntitarjouksen ja lähettää sen takaisin asiakkaalle ilman, että poistut Outlookista. Kaikki myyntitarjouksessa tarvitsemasi tiedot ovat käytettävissä Outlookin yrityssähköpostissa.  
-Kun tiedot on syötetty, voit kirjata tarjouksen. Tämän jälkeen voit lähettää sen sähköpostitse. [!INCLUDE[d365fin](includes/d365fin_md.md)] luo myyntitarjouksen sisältävän .PDF-tiedoston ja liittää sen apuohjelmassa tekemääsi sähköpostiviestin luonnokseen.  
+### <a name="deploy-the-add-in"></a>Apuohjelman käyttöönotto
 
-Jos vastaavasti saat sähköpostia toimittajalta, voit käsitellä toimittajia ja ostolaskuja apuohjelman avulla.  
+1. Valitse Business Centralissa ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asetusten ohjattu määritys** ja valitse sitten vastaava linkki.
+2. Valitsemalla **Outlook-lisäohjelman keskitetty käyttöönotto** voit käynnistää avustetun asennusoppaan.
+3. Tarkista ensimmäinen sivu ja avaa sivu apuohjelmien lataamista varten valitsemalla **Seuraava**.
+4. Valitse **Käyttöönotto**-sarakkeesta käyttöönotettavien apuohjelmien valintaruutu ja valitse sitten **Lataa ja jatka**.
 
-Joskus haluat nähdä enemmän kenttiä kuin lisäohjelmassa on. Näin voi tapahtua esimerkiksi silloin, kun haluat täyttää laskun rivejä. Saat lisää työskentelytilaa, kun avaat apuohjelman erillisellä sivulla. Se on yhä osa Outlookia, mutta käytettävissä on enemmän tilaa. Muutokset tallennetaan automaattisesti samalla, kun syötät asiakirjan tietoja ponnahdusikkunaan. Kun asiakirjan tiedot on annettu, voit valita **OK**-painikkeen. Kun apuohjelman kehys valitaan, Outlook päivittää ponnahdusikkunaan tekemäsi muutokset automaattisesti asiakirjaan.  
+    Laitteeseen ladataan tiedosto, jonka nimi on *OutlookAddins.zip*
 
-## <a name="creating-invoices-from-your-meeting-appointments"></a>Laskujen luominen kokouksen tapaamisista
-Joissakin yrityksissä kaikki laskutettavat tapaamiset kirjataan Outlookin kalenteriin. Voit luoda [!INCLUDE[d365fin](includes/d365fin_md.md)]issa asiakkaalle laskun suodaan kalenterinimikkeestä: Avaa ensin tapaaminen ja sitten [!INCLUDE[d365fin](includes/d365fin_md.md)]in apuohjelma. Etsi aiemmin luodut tiedot tai luo lasku tai muu myyntiasiakirja suoraan sovelluksessa.  
+5. Tässä vaiheessa olet suorittanut kaiken Business Centralissa, joten voit valita **Valmis**.
 
-## <a name="doing-quick-document-lookup"></a>Asiakirjan pikahaku
-[!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakirjalinkkien apuohjelman avulla voit ottaa sähköpostiviesteissä mainitut asiakirjat nopeasti käyttöön. Apuohjelma on sähköpostiviestin käytettävissä, jos viestin leipätekstin asiakirjanumero tunnistetaan. Apuohjelman avaaminen mahdollistaa asiakirjan nopean käyttämisen.  
+   >[!TIP]
+   > Ennen kuin valitset **Seuraava**, valitse **Siirry Microsoft 365:een (avautuu uuteen ikkunaan)** -linkki avataksesi ja kirjautuaksesi Microsoft 365 -hallintakeskukseen uudessa selainikkunassa. Sinun on kuitenkin mentävä Microsoft 365 -hallintakeskukseen myöhemmässä vaiheessa.
 
-Jos vastaanotat esimerkiksi sähköpostiviestin, joka sisältää tekstin *S-QUO100*, [!INCLUDE[d365fin](includes/d365fin_md.md)] tunnistaa sen myyntitarjoukseksi. Tämän jälkeen voit avata asiakirjan Outlookissa. Valitse Outlookissa **Asiakirjalinkit**-painike, joka on heti sähköpostiviestin leipätekstin yläpuolella. Valitse Outlookin verkkosovelluksessa sähköpostiviestin leipätekstin *S-QUO1001*-teksti.  
+6. Siirry kansioon, johon OutlookAddins.zip on ladattu, ja pura **Contact Insights.xml**- ja **Document View.xml**-tiedostot haluamaasi kansioon.
 
-Voit muokata Asiakirjalinkit-apuohjelmassa asiakirjaa ja suorittaa sille toimintoja samoin kuin [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.
+    Lisätietoja on artikkelissa [Tiedostojen ja kansioiden pakkaaminen ja purkaminen](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
+7. Kirjaudu Microsoft 365 -hallintakeskukseen ja valitse sitten [Integroidut sovellukset](https://go.microsoft.com/fwlink/?linkid=2163967).
 
-## <a name="adding-the-add-ins-manually"></a>Apuohjelmien lisääminen manuaalisesti
-Joissakin tapauksissa apuohjelmia ei lisätä automaattisesti Outlookiin. Vaikka sinä tai kollegasi suoritti avustetun asennusoppaan yrityksen puolesta, [!INCLUDE[d365fin](includes/d365fin_md.md)] ei ehkä näy Outlookissa. Jos tämä ongelma esiintyy, voit lisätä [!INCLUDE[d365fin](includes/d365fin_md.md)]in apuohjelmat manuaalisesti.  
+8. Valitse **Lataa mukautetut sovellukset**.
+9. Valitse **Lataa käyttöön otettavat sovellukset** -sivulla **Lataa luettelotiedosto (.xml) laitteesta** > **Valitse tiedosto**.
+10. Valitse jokin aiemmin puretuista lisätiedostoista, esimerkiksi **Contact Insights.xml**.
+11. Määritä käyttäjät ja ota apuohjelma käyttöön noudattamalla ohjeita.
+12. Toista vaiheet 9-11 halutessasi muille apuohjelmille.
 
-Tarkista ensin, että voit käyttää apuohjelmia Office 365 -tililläsi. Avaa Outlook selaimessa ja avaa sitten viesti. Valitse **Lisää toimintoja** (...) viestin yläosassa ja valitse sitten luettelon alaosasta **Hae apuohjelmia**. Näyttöön avautuu **Outlookin apuohjelmat** -sivu, jossa voit ottaa käyttöön kohteen [!INCLUDE[prodshort](includes/prodshort.md)] Outlookia varten. Kun siirryt takaisin Outlookiin, [!INCLUDE[prodshort](includes/prodshort.md)]in pitäisi olla käytettävissä.  
+> [!IMPORTANT]
+> Vihreä valintamerkki tulee näkyviin, kun apuohjelma otetaan käyttöön hallintakeskuksessa. Outlook-sovelluksen käyttöönotto käyttäjille voi kuitenkin kestää 24 tuntia. Käyttäjät voivat myös joutua käynnistämään Outlookin uudelleen.
 
-Voit varmistaa myös Outlookin työpöytäversiossa, että [!INCLUDE[d365fin](includes/d365fin_md.md)] on mainittu **Hae apuohjelmia** -sivulla.  
+Kun olet valmis, voit aina muuttaa käyttöönottoa Microsoft 365 -hallintakeskuksessa, kuten määrittää useampia käyttäjiä. Lisätietoja apuohjelmien käyttöönotosta hallintakeskuksessa on kohdassa [Apuohjelmien käyttöönotto hallintakeskuksessa](/microsoft-365/admin/manage/manage-deployment-of-add-in).
 
-Jos [!INCLUDE[d365fin](includes/d365fin_md.md)]ia ei voi edelleenkään käyttää, sinun on haettava kummassakin tapauksessa apuohjelman kokoonpanotiedostot. Pyydä lisätietoja Office 365:n järjestelmänvalvojalta.
+## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Apuohjelman asentaminen omaan käyttöön
 
-## <a name="using-other-email-accounts"></a>Muiden sähköpostitilien käyttäminen
+Jos organisaatiosi sen sallii, voit asentaa Business Central -apuohjelman vain itseäsi varten. Jos et ole varma, kysy järjestelmänvalvojalta.
 
-Apuohjelmat on suunniteltu Office 365:n kanssa käytettäväksi . Jos käytät paikallista [!INCLUDE [prodshort](includes/prodshort.md)] -versiota, järjestelmänvalvoja tietää, voitko käyttää [!INCLUDE [prodshort](includes/prodshort.md)]in apuohjelmia Outlookissa. Lisätietoja on kohdissa [Mitä sähköpostiosoitetta käytetään [!INCLUDE[prodshort](includes/prodshort.md)]in kanssa?](across-faq.md#email) ja [Erityisolosuhteita edellyttävät ominaisuudet](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises#features-that-require-specific-circumstances).  
+1. Valitse Business Centralissa ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Hanki Outlook-apuohjelma** ja valitse sitten liittyvä linkki.
+2. Lue sivu ja valitse **Seuraava**, kun olet valmis.
+3. Jos haluat saada Business Centralin tervetulosähköpostiviestin, jossa on yleiskatsaus lisäosan käyttämisestä, ota käyttöön **Lähetä esimerkkisähköpostiviesti**.
+4. Valitse **Valmis** asennuksen viimeistelemiseksi.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+Business Central muodostaa yhteyden sähköpostipalvelimeen ja asentaa apuohjelman Outlookiin. Tämä ei vie kauan. Olet nyt valmis aloittamaan apuohjelman käyttämisen Outlookissa.
+
+### <a name="for-business-central-on-premises"></a><a name="onprem"></a>Business Central on-premises -versiolle
+
+Jos käytät Business Centralin on-premises -asennusta, apuohjelman asentaminen voi olla hieman erilaista.
+
+1. Valitse Business Centralissa ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Hanki Outlook-apuohjelma** ja valitse sitten liittyvä linkki.
+2. Lue sivu ja valitse **Seuraava**, kun olet valmis.
+3. Valitse jokin seuraavista vaiheista sen mukaan, mikä sivu näkyy:
+
+    - Jos näet **Asenna omaan Outlookiin** -painikkeen, valitse se ja olet valmis.
+    - Jos näet **Seuraava**-painikkeen, valitse se. Jos haluat saada Business Centralin tervetulosähköpostiviestin, jossa on yleiskatsaus lisäosan käyttämisestä, ota seuraavalla sivulla käyttöön **Lähetä esimerkkisähköpostiviesti**. Valitse sitten **Valmis**, niin olet valmis.
+    - Jos näet **Lataa lisäosa** -painikkeen, valitse se ja siirry seuraavaan vaiheeseen.
+4. Kun valitset **Lataa lisäosa**, laitteeseen ladataan tiedosto, jonka nimi *OutlookAddins.zip*. Sinun pitäisi nähdä tiedosto selaimen yläreunassa.
+
+   Siirry kansioon, johon OutlookAddins.zip on ladattu, ja pura **Contact Insights.xml**- ja **Document View.xml**-tiedostot haluamaasi kansioon. Lisä tietoja tiedostojen purkamisesta on ohjeaiheessa [Tiedostojen ja kansioiden pakkaaminen ja purkaminen](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
+
+5. Avaa Outlook ja valitse valintanauhasta **Hae apuohjelmia**. Jos käytät Outlookia verkossa, valitse avattavasta valikosta uudessa tai olemassa olevassa sähköpostiviestissä ja valitse sitten **Hae apuohjelmat**.
+6. Valitse **Omat apuohjelmat** > **Lisää mukautettu apuohjelma** > **Lisää tiedostosta**.
+7. Valitse jokin puretuista .xml-tiedostoista, kuten **Contact Insights.xml**, ja valitse sitten **Avaa** > **Asennus**.
+8. Toista vaiheet 6 ja 7 muille .xml-tiedostoille, jos latasit sellaisia.
+
+Olet nyt valmis aloittamaan apuohjelman käyttämisen Outlookissa.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on [Microsoft Learnissa](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 
-[Käytön aloittaminen](product-get-started.md)  
-[Business Central -sovelluksen hakeminen omaan mobiililaitteeseen](install-mobile-app.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
+[Business Centralin hakeminen omaan mobiililaitteeseen](install-mobile-app.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
 [Rahoitus](finance.md)  
 [Myynti](sales-manage-sales.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Outlookin vähimmäisvaatimukset](product-requirements.md#outlook)  
 [Apuohjelmien käyttäminen Outlookin verkkoversiossa](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

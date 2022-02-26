@@ -1,37 +1,37 @@
 ---
-title: Hyväksyjäasiakkaiden määrittäminen | Microsoft Docs
-description: Ennen kuin voit luoda työnkulkuja, joihin liittyy hyväksyntävaiheita, sinun on määritettävä hyväksymisprosesseihin osallistuvat työnkulun käyttäjät. Voit myös määrittää Hyväksynnän käyttäjäasetukset -sivulla rajoituksia tietynlaisille pyynnöille sekä korvaavia hyväksyjiä, jotka voivat hyväksyä pyyntöjä alkuperäisen hyväksyjän ollessa poissa.
+title: Hyväksynnän käyttäjien määrittäminen
+description: Ennen kuin voit luoda työnkulkuja, joihin liittyy hyväksyntävaiheita, sinun on määritettävä hyväksymisprosesseihin osallistuvat työnkulun käyttäjät hyväksynnän käyttäjäasetusten avulla.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: dc002fec423b7dfa3f9bf88a599cc31227824446
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 663
+ms.date: 06/11/2021
+ms.author: edupont
+ms.openlocfilehash: 44b3eea21fdf26433fec70588859f710235e7dc5
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188202"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012599"
 ---
 # <a name="set-up-approval-users"></a>Hyväksynnän käyttäjien määrittäminen
+
 Ennen kuin voit luoda työnkulkuja, joihin liittyy hyväksyntävaiheita, sinun on määritettävä hyväksymisprosesseihin osallistuvat työnkulun käyttäjät. Voit myös määrittää **Hyväksynnän käyttäjäasetukset** -sivulla rajoituksia tietynlaisille pyynnöille sekä korvaavia hyväksyjiä, jotka voivat hyväksyä pyyntöjä alkuperäisen hyväksyjän ollessa poissa.  
 
 > [!NOTE]  
->  Hyväksynnän pyytäjät ja hyväksyjät on ensin määritettävä työnkulun käyttäjiksi **Työnkulun käyttäjäryhmä** -sivulla. Lisätietoja on kohdassa [Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md).  
+> Hyväksynnän pyytäjät ja hyväksyjät on ensin määritettävä työnkulun käyttäjiksi **Työnkulun käyttäjäryhmä** -sivulla. Lisätietoja on kohdassa [Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md).  
 
  Kun olet määrittänyt hyväksynnän käyttäjät, voit määrittää työnkulun vastaukset hyväksynnän työnkuluille. Lisätietoja on kohdan [Työnkulkujen luominen](across-how-to-create-workflows.md) vaiheessa 9.  
 
 > [!NOTE]  
->  Jos haluat määrittää, että hyväksymispyyntöä ei ole hyväksytty, ennen kuin useat hyväksyntäketjun hyväksyjät ovat hyväksyneet sen, määritä hyväksyjien hierarkia. Käyttäjätunnukselle **Hyväksyjä** on määritettävä hyväksyjä **Hyväksynnän käyttäjäasetukset** -sivulla. Määritä hyväksyjät **Työnkulun käyttäjäryhmä** -hyväksyjätyypille **Työnkulun käyttäjäryhmät** -sivulla ja määritä hierarkia määrittämällä kullekin hyväksyjälle **Järjestysnro** -kentässä. Lisätietoja on tässä ohjeaiheessa ja kohdassa [Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md).  
->   
->  Voit määrittää, että hyväksymispyyntöä ei ole hyväksytty, ennen kuin usea hyväksyjä on hyväksynyt sen, huolimatta hierarkiasta, määrittämällä tasainen työnkulun käyttäjäryhmän. Määritä hyväksyjät hyväksyjätyypille **Työnkulun käyttäjäryhmä** **Työnkulun käyttäjäryhmät** -sivulla ja määritä kullekin hyväksyjälle sama numero **Järjestysnro** -kentässä. Lisätietoja on kohdassa [Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md).  
+> Jos haluat määrittää, että hyväksymispyyntöä ei ole hyväksytty, ennen kuin useat hyväksyntäketjun hyväksyjät ovat hyväksyneet sen, määritä hyväksyjien hierarkia. Käyttäjätunnukselle **Hyväksyjä** on määritettävä hyväksyjä **Hyväksynnän käyttäjäasetukset** -sivulla. Määritä hyväksyjät **Työnkulun käyttäjäryhmä** -hyväksyjätyypille **Työnkulun käyttäjäryhmät** -sivulla ja määritä hierarkia määrittämällä kullekin hyväksyjälle **Järjestysnro** -kentässä. Lisätietoja on tässä ohjeaiheessa ja kohdassa [Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md).  
 
-## <a name="to-set-up-an-approval-user"></a>Hyväksynnän käyttäjän määrittäminen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyväksynnän käyttäjäasetukset** ja valitse sitten liittyvä linkki.  
+## <a name="to-set-up-an-approval-user"></a>Hyväksynnän käyttäjän määrittäminen
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyväksynnän käyttäjäasetukset** ja valitse sitten vastaava linkki.  
 2. Luo uusi rivi **Hyväksynnän käyttäjäasetukset** -sivulla ja täytä sitten kentät seuraavassa taulukossa kuvatulla tavalla.  
 
     |Kenttä|Description|  
@@ -45,20 +45,24 @@ Ennen kuin voit luoda työnkulkuja, joihin liittyy hyväksyntävaiheita, sinun o
     |**Rajaton ostojen hyväksyntä**|Määritä, että **Käyttäjätunnus**-kenttään määritetty käyttäjä saa hyväksyä kaikki ostopyynnöt summasta riippumatta.<br /><br /> Jos valitset tämän valintaruudun, et voi täyttää **Myyntisumman hyväksymisraja** -kenttää.|  
     |**Pyyntösumman hyväksymisraja**|Määritä paikallisessa rahayksikössä suurin myyntitarjouksen summa, jonka **Käyttäjätunnus**-kenttään määritetty käyttäjä saa hyväksyä.<br /><br /> Jos haluat käyttää tätä kenttää, **Työnkulun vastaus** -sivulla olevan **Hyväksyjän rajatyyppi** -kentän valinnaksi on asetettava **Hyväksyjäketju**.|  
     |**Rajaton pyyntöjen hyväksyntä**|Määritä, että **Käyttäjätunnus**-kenttään määritetty käyttäjä saa hyväksyä kaikki ostotarjoukset summasta riippumatta.<br /><br /> Jos valitset tämän valintaruudun, et voi täyttää **Pyyntösumman hyväksymisraja** -kenttää.|  
-    |**Varahyväksyjä**|Valitse hyväksyntäprosessiin liittyvän käyttäjän tunnus, jonka on hyväksyttävä **Käyttäjätunnus** -kentässä olevan käyttäjän pyynnöt jos **Hyväksyjän tunnus** -kentässä oleva käyttäjä ei ole saatavilla. **Huomautus:** korvaava voi olla joko käyttäjä **Korvaava**-kentässä, suora hyväksyjä tai hyväksynnän järjestelmänvalvoja, tässä järjestyksessä. Lisätietoja on kohdassa [Hyväksymistyönkulkujen käyttäminen](across-how-use-approval-workflows.md).|  
+    |**Varahyväksyjä**|Valitse hyväksyntäprosessiin liittyvän käyttäjän tunnus, jonka on hyväksyttävä **Käyttäjätunnus** -kentässä olevan käyttäjän pyynnöt jos **Hyväksyjän tunnus** -kentässä oleva käyttäjä ei ole saatavilla. <br /><br />**Huomautus:** korvaava voi olla joko käyttäjä **Korvaava**-kentässä, suora hyväksyjä tai hyväksynnän järjestelmänvalvoja, tässä järjestyksessä. Lisätietoja on kohdassa [Hyväksymistyönkulkujen käyttäminen](across-how-use-approval-workflows.md).|  
     |**Sähköpostiosoite**|Määritä **Käyttäjätunnus**-kenttään syötetyn käyttäjän sähköpostiosoite.|  
     |**Hyväksynnän järjestelmänvalvoja**|Määritä käyttäjä, jolla on oikeus avata hyväksynnän työnkulkuja, esimerkiksi delegoimalla hyväksyntäpyyntöjä uusille korvaaville hyväksyjille tai poistamalla hyväksyntäpyyntöjä, joiden määräaika on ohi.|
 
     > [!Note]
-    > Vain yksi henkilö voi olla hyväksynnän järjestelmänvalvoja.|  
+    > Vain yksi henkilö voi olla hyväksynnän järjestelmänvalvoja.
 
 3. Voit testata hyväksyjäkäyttäjän asetukset valitsemalla **Hyväksynnän käyttäjien määrityksen testi** -toiminto.  
 4. Toista vaiheet 2 ja 3 jokaiselle käyttäjälle, jonka haluat määrittää hyväksynnän käyttäjäksi.  
 
-## <a name="see-also"></a>Katso myös  
+## <a name="see-also"></a>Katso myös
+
 [Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md)   
 [Työnkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md)   
 [Työnkulkujen luominen](across-how-to-create-workflows.md)   
 [Työnkulkujen määrittäminen](across-set-up-workflows.md)   
 [Vaihekuvaus: Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
 [Työnkulku](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

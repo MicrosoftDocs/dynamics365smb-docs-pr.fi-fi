@@ -1,21 +1,21 @@
 ---
-title: Kokoonpanon kirjauksen kumoaminen | Microsoft Docs
-description: Voit joutua joskus kumoamaan kirjatun kokoonpanotilauksen, jos esimerkiksi tilaukseen kirjattiin virheitä, jotka on korjattava, tai jos kyseistä kirjausta ei olisi pitänyt tehdä lainkaan ja se on palautettava.
+title: Kokoonpanon kirjauksen kumoaminen
+description: Joskus täytyy kumota kirjattu kokoonpanotilaus esimerkiksi siksi, että kirjatussa tilauksessa on virheitä, jotka on korjattava.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 450a52ee07579d7bf8f5b7456f44a2acb5af8920
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 48c454084e850b5dedf58c499263258c0ae8294c
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187290"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435342"
 ---
 # <a name="undo-assembly-posting"></a>Kokoonpanon kirjauksen kumoaminen
 Voit joutua joskus kumoamaan kirjatun kokoonpanotilauksen, jos esimerkiksi tilaukseen kirjattiin virheitä, jotka on korjattava, tai jos kyseistä kirjausta ei olisi pitänyt tehdä lainkaan ja se on palautettava.
@@ -40,7 +40,7 @@ Lisäksi olemassa olevia kokoonpanotilauksista voi palauttaa vain, jos alkuperä
 Seuraavassa ohjeessa neuvotaan, miten perutaan jo kirjattuja kokoonpanotilauksia, joiden nimikkeet on koottu varastoon. Jos haluat peruuttaa kirjatut kokoonpanotilaukset, joissa nimikkeet on koottu myyntitilausta varten, käytä kirjatun toimituksen **Peruuta toimitus** -funktiota kirjatun kokoonpanotilauksen vapauttamiseksi. Lisätietoja on kohdassa [Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md). Kirjatun kokoonpanotilauksen peruuttaminen tapahtuu sitten automaattisesti samalla tavalla, kuin tässä ohjeaiheessa on kuvattu.  
 
 ## <a name="to-undo-posting-of-an-assembly-order"></a>Kumoa kokoonpanotilauksen kirjaus  
-1.  Jos haluat peruuttaa kokonaan tai osittain kirjatun kokoonpanotilauksen, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kirjatut kokoonpanotilaukset** ja valitse liittyvä linkki.  
+1.  Jos haluat kumota kokonaan tai osittain kirjatun kokoonpanotilauksen, valitse ![Kerro-ominaisuuden avaava hehkulamppu.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut kokoonpanotilaukset** ja valitse sitten vastaava linkki.  
 
     Avautuvassa **Kirjatut kokoonpanotilaukset** -sivulla esitetään yksi tai useampi kirjattu kokoonpanotilaus, joka on kirjattu kyseisestä kokoonpanotilauksesta. Jokainen osittainen kirjaus luo erillisen kirjatun kokoonpanotilauksen.  
 2.  Avaa kumottava kirjattu kokoonpanotilaus ja valitse sitten **Kumoa kokoonpano** -toiminto.  
@@ -60,4 +60,7 @@ Kokoonpanotilauksen **Peruutettu**-otsikkokentän arvoksi tulee **Kyllä**. Koko
 [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

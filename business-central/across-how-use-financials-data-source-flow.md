@@ -1,90 +1,131 @@
 ---
 title: Tietojen yhdistäminen Power Automateeen | Microsoft Docs
 description: Voit tehdä Business Central -tiedoistasi tietolähteen ja määrittää verkkopalveluidesi OData-osoitteen, jolla rakennat automaattisen työkulun.
-author: bmeier90
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.reviewer: edupont
-ms.search.keywords: workflow, OData, Power App, SOAP
-ms.date: 04/01/2020
-ms.author: bmeier
-ms.openlocfilehash: 6dbc2fd67b5156c47690661016d4e7d3aae64a09
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions
+ms.date: 07/27/2021
+ms.author: edupont
+author: jswymer
+ms.openlocfilehash: fb79c3ab799c5a77ff725ce05d1469f5bec7c9f5
+ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187938"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "6688368"
 ---
-# <a name="using-prodshort-in-an-automated-workflow"></a>[!INCLUDE[prodshort](includes/prodshort.md)]in käyttäminen automaattisessa työnkulussa
+# <a name="using-prod_short-in-an-automated-workflow"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen automaattisessa työnkulussa
 
-Voit käyttää [!INCLUDE[prodshort](includes/prodshort.md)]in tietoja työnkulun osana Microsoft Power Automatessa.
+Voit käyttää [!INCLUDE[prod_short](includes/prod_short.md)]in tietoja työnkulun osana Microsoft Power Automate'ssa.
 
 > [!NOTE]
-> Power Automate'n lisäksi voi käyttää työnkulkutoimintoa [!INCLUDE[prodshort](includes/prodshort.md)]issa. Huomaa, että vaikka kyse on erillisistä työnkulkujärjestelmistä, jokainen Power Automatessa luotu työnkulkumalli lisätään työnkulkuluetteloon [!INCLUDE[prodshort](includes/prodshort.md)]issa. Lisätietoja on kohdassa [Työnkulku](across-workflow.md).  
+> Power Automate'n lisäksi voi käyttää työnkulkutoimintoa [!INCLUDE[prod_short](includes/prod_short.md)]issa. Huomaa, että vaikka kyse on erillisistä työnkulkujärjestelmistä, jokainen Power Automatessa luotu työnkulkumalli lisätään työnkulkuluetteloon [!INCLUDE[prod_short](includes/prod_short.md)]issa. Lisätietoja on kohdassa [Työnkulku](across-workflow.md).  
 
 > [!NOTE]  
-> Sinulla on oltava kelvollinen [!INCLUDE[prodshort](includes/prodshort.md)]- ja Power Automate -tili.  
+> Sinulla on oltava kelvollinen [!INCLUDE[prod_short](includes/prod_short.md)]- ja Power Automate -tili.  
 
-## <a name="to-add-prodshort-as-a-data-source-in-power-automate"></a>[!INCLUDE[prodshort](includes/prodshort.md)]in lisääminen Power Automatein tietolähteeksi
+## <a name="add-prod_short-as-a-data-source-in-power-automate"></a>[!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisun lisääminen Power Automaten tietolähteeksi
 
 1. Siirry selaimessa osoitteeseen [flow.microsoft.com](https://flow.microsoft.com) ja kirjaudu sisään.
 2. Valitse sivun yläosan valintanauhassa **Omat työnkulut**.
 3. Työnkulun luontiin on kolme tapaa: **Aloita mallista**, **Aloita tyhjästä** ja **Aloita yhdistimestä**. Malli on ennalta määritetty työnkulku, joka on luotu käyttäjälle. Mallin käyttö on helppoa: valitse malli ja luo yhteys jokaiseen mallin käyttämään palveluun. **Aloita tyhjästä**- ja **Aloita yhdistimestä** -vaihtoehdoissa uusi työnkulku voidaan luoda kokonaisuudessaan itse.
 4. Voit luoda mallin tyhjästä valitsemalla **Omat työnkulut** -sivulla **Aloita tyhjästä**- ja **Automatisoitu työnkulku** -vaihtoehdot.
-5. Etsi Connector for **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]**.
+5. Etsi Connector for **Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]**.
 6. Määritä nimi ja valitse työnkulussa käytettävä käynnistin.
-7. Valitse käytettävissä olevien käynnistimien luettelosta jokin [!INCLUDE[prodshort](includes/prodshort.md)] -käynnistin:  
+7. Valitse käytettävissä olevien käynnistimien luettelosta jokin [!INCLUDE[prod_short](includes/prod_short.md)] -käynnistin:  
 
-    *Kun toimittajan hyväksyntää on pyydetty*  
-    *Kun yleisen päiväkirjan rivin hyväksymistä on pyydetty*  
-    *Kun tietue poistetaan*  
-    *Kun tietuetta muutetaan*  
-    *Kun tietue luodaan*  
-    *Kun tietuetta muokataan*  
-    *Kun yleisen päiväkirjan erän hyväksymistä on pyydetty*  
-    *Kun asiakkaan hyväksyntää on pyydetty*  
-    *Kun nimikkeen hyväksyntää on pyydetty*  
-    *Kun ostoasiakirjan hyväksyntää on pyydetty*  
-    *Kun myyntiasiakirjan hyväksyntää on pyydetty*.
+    - *Kun toimittajan hyväksyntää on pyydetty*  
+    - *Kun yleisen päiväkirjan rivin hyväksymistä on pyydetty* 
+    - *Kun tietue poistetaan*
+    - *Kun tietuetta muutetaan*
+    - *Kun tietue luodaan*
+    - *Kun tietuetta muokataan*
+    - *Kun yleisen päiväkirjan erän hyväksymistä on pyydetty* 
+    - *Kun asiakkaan hyväksyntää on pyydetty*
+    - *Kun nimikkeen hyväksyntää on pyydetty*
+    - *Kun ostoasiakirjan hyväksyntää on pyydetty*
+    - *Kun myyntiasiakirjan hyväksyntää on pyydetty*
 
-8. Power Automate pyytää sinua valitsemaan ympäristön ja yrityksen [!INCLUDE[prodshort](includes/prodshort.md)] -vuokraajassa sekä mahdollisesti kuunneltavien tietojen ehdot.
+8. Power Automate pyytää sinua valitsemaan ympäristön ja yrityksen [!INCLUDE[prod_short](includes/prod_short.md)] -vuokraajassa sekä mahdollisesti kuunneltavien tietojen ehdot.
 
     > [!NOTE]
-    > [!INCLUDE[prodshort](includes/prodshort.md)]in Power Automate -yhdistin tukee useita tuotanto- ja sandbox-ympäristöjä. Jos et ole luonut useaa tuotanto- tai sandbox-ympäristöjä, **Tuotanto** on ainoa valittavissa oleva vaihtoehto.  
+    > [!INCLUDE[prod_short](includes/prod_short.md)]in Power Automate -yhdistin tukee useita tuotanto- ja sandbox-ympäristöjä. Jos et ole luonut useaa tuotanto- tai sandbox-ympäristöjä, **Tuotanto** on ainoa valittavissa oleva vaihtoehto.  
 
-    Olet nyt muodostanut yhteyden Business Centralin [!INCLUDE [prodshort](includes/prodshort.md)] -tietoihin ja olet valmis aloittamaan oman työnkulun luomisen.
+    Olet nyt muodostanut yhteyden Business Centralin [!INCLUDE[prod_short](includes/prod_short.md)] -tietoihin ja olet valmis aloittamaan oman työnkulun luomisen.
 
 9. Voit luoda mallin valitsemalla **Aloita mallista** -vaihtoehdon.
-10. Etsi **Microsoft [!INCLUDE[prodlong](includes/prodlong.md)]** -malleja.
+10. Etsi **Microsoft [!INCLUDE[prod_long](includes/prod_long.md)]** -malleja.
 11. Valitse käytettävissä olevien mallien luettelosta ensin yksi malli ja valitse sitten **Luo**.  
 
-    *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -myyntitilauksen hyväksyntäpyyntö*  
-    *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -myyntitarjouksen hyväksyntäpyyntö*  
-    *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -myyntilaskun hyväksyntäpyyntö*  
-    *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -myyntihyvityslaskun hyväksyntäpyyntö*  
-    *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -asiakkaan hyväksyntäpyyntö*  
-    *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -ostotilauksen hyväksyntäpyyntö*  
-    *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -ostolaskun hyväksyntäpyyntö*  
-    *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -ostohyvityslaskun hyväksyntäpyyntö*  
-    *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -nimikkeen hyväksyntäpyyntö*  
-    *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] -toimittajan hyväksyntäpyyntö*  
-    *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)]in yleisen päiväkirjan erän hyväksyntäpyyntö* tai    
-    *Microsoft [!INCLUDE[d365fin_long_md](includes/d365fin_long_md.md)] yleisen päiväkirjan rivien hyväksyntäpyyntö*.  
+    - *Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] -myyntitilauksen hyväksyntäpyyntö*
+    - *Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] -myyntitarjouksen hyväksyntäpyyntö*
+    - *Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] -myyntilaskun hyväksyntäpyyntö*
+    - *Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] -myyntihyvityslaskun hyväksyntäpyyntö*
+    - *Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] -asiakkaan hyväksyntäpyyntö*
+    - *Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] -ostotilauksen hyväksyntäpyyntö*
+    - *Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] -ostolaskun hyväksyntäpyyntö*
+    - *Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] -ostohyvityslaskun hyväksyntäpyyntö*  
+    - *Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] -nimikkeen hyväksyntäpyyntö*
+    - *Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] -toimittajan hyväksyntäpyyntö*
+    - *Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] yleisen päiväkirjan erän hyväksyntäpyyntö*  
+    - *Microsoft [!INCLUDE[prod_long](includes/prod_long.md)] yleisen päiväkirjan rivien hyväksyntäpyyntö*
 12. Power Automate näyttää luettelon työnkulkumallissa käytettävistä palveluista ja yrittää muodostaa automaattisesti yhteyden näihin palveluihin. Jos yhteyttä palvelimeen ei ole muodostettu aiemmin, sinua pyydetään kirjautumaan kuhunkin palveluun, johon yhteys on muodostettava. Vihreä valintamerkki tulee näkyviin palvelun viereen, kun yhteys on muodostettu. Valitse **Jatka**.
-13. Power Automate pyytää valitsemaan ympäristön ja yrityksen [!INCLUDE[prodshort](includes/prodshort.md)] -vuokraajassa. Koska seuraavat vaiheet eivät vaikuta työnkulun vaiheisiin, saatat joutua määrittämään ympäristön ja yrityksen useita kertoja [!INCLUDE[prodshort](includes/prodshort.md)]n Power Automate -mallissa.
+13. Power Automate pyytää valitsemaan ympäristön ja yrityksen [!INCLUDE[prod_short](includes/prod_short.md)] -vuokraajassa. Koska seuraavat vaiheet eivät vaikuta työnkulun vaiheisiin, saatat joutua määrittämään ympäristön ja yrityksen useita kertoja [!INCLUDE[prod_short](includes/prod_short.md)]n Power Automate -mallissa.
 
 Lisätietoja on [Power Automate -dokumentaatiossa](/power-automate/getting-started).
 
+## <a name="troubleshooting"></a>Vianetsintä
+
+### <a name="entity-set-not-found-error"></a>"Entiteettijoukkoa ei löydy" -virhe
+
+#### <a name="problem"></a>Ongelma
+
+Kun luot uuden Power Automate -työnkulun [!INCLUDE[prod_short](includes/prod_short.md)] -hyväksymiskäynnistimen avulla, esimerkiksi *Kun ostoasiakirjan hyväksyntää pyydetään*, näyttöön tulee seuraavan kaltainen virhesanoma:
+
+**Entiteettijoukkoa ei löydy: \<name\>**
+
+missä **\<name\>** on puuttuvan Web-palvelun palvelun nimi, kuten **workflowWebhookSubscriptions** tai **workflowPurchaseDocumentLines**.
+
+#### <a name="possible-cause"></a>Mahdollinen syy
+
+Jos käytät Power Automatea integrointiin [!INCLUDE[prod_short](includes/prod_short.md)]:n kanssa, hyväksynnät edellyttävät, että tietyt sivu-ja koodiyksikköobjektit julkaistaan Web-palveluina. Oletusarvon mukaan useimmat tarvittavista objekteista julkaistaan Web-palveluina. Joissakin tapauksissa ympäristösi on ehkä mukautettu siten, että näitä objekteja ei enää julkaista.
+
+#### <a name="fix"></a>Korjaa
+
+Siirry **Verkkopalvelut**-sivulle ja varmista, että seuraavat objektit on julkaistu Web-palveluina. Kaikille objekteille tulisi olla merkintä luettelossa , ja **Julkaistu**-valintaruutu valittuna. 
+
+|Objektityyppi|Objektin tunnus|Objektin nimi|Palvelun nimi|
+|-----------|---------|-----------|------------|
+|Codeunit|  1544    |WorkflowWebhookSubscription|WorkflowActionResponse|
+|Sivu|  6408|   workflowCustomers|  workflowCustomers|
+|Sivu   |6406   |workflowGenJournalBatches| workflowGenJournalBatches|
+|Sivu   |6407   |workflowGenJournalLines|workflowGenJournalLines|
+|Sivu   |6409   |workflowItems| workflowItems|
+|Sivu   |6405   |Ostoasiakirjarivin entiteetti|workflowPurchaseDocumentLines|
+|Sivu|  6404    |workflowPurchaseDocuments| workflowPurchaseDocuments|
+|Sivu|  6403    |Myyntiasiakirjarivin entiteetti |workflowSalesDocumentLines|
+|Sivu|  6402|   workflowSalesDocuments| workflowSalesDocuments|
+|Sivu|  6410    |workflowVendors|   workflowVendors|
+|Sivu|  831 |workflowWebhookSubscriptions|  workflowWebhookSubscriptions|
+
+> [!NOTE]
+> **Palvelun nimi** -arvon täytyy olla täsmälleen sama kuin taulukossa on esitetty. Älä muuta tai käännä palvelun nimeä.
+
+Lisätietoja verkkopalvelujen julkaisemisesta on kohdassa [Verkkopalvelun julkaiseminen](across-how-publish-web-service.md).
+
 ## <a name="see-also"></a>Katso myös
 
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Työnkulku](across-workflow.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md)  
-[[!INCLUDE[prodlong](includes/prodlong.md)]in työnkulkujen hallinta](across-use-workflows.md)  
+[[!INCLUDE[prod_long](includes/prod_long.md)]in työnkulkujen hallinta](across-use-workflows.md)  
 [Hyväksynnän käyttäjäasetukset](across-how-to-set-up-approval-users.md)  
-[[!INCLUDE[prodshort](includes/prodshort.md)]in määrittäminen](setup.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  
 [Rahoitus](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

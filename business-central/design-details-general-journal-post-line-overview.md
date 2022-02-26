@@ -1,26 +1,27 @@
 ---
-title: Yleisen päiväkirjarivin yleiskuvaus | Microsoft Docs
-description: Tässä ohjeaiheessa esitellään koodiyksikköön 12, **Yleinen päiväkirja - rivin kirjaus**, tehdyt muutokset. Se on pääkirjanpidon kirjauksen tärkeä sovellusobjekti ja ainoa paikka, jossa lisätään pääkirja-, ALV-, asiakas- ja toimittajatapahtumia.
+title: Yleisen päiväkirjan kirjausrivin yleiskuva
+description: Tässä aiheessa on tietoja muutoksista Codeunit 12, Gen. Jnl.-Post -riviin, ja se on ainoa paikka, jossa voidaan lisätä kirjanpito-, ALV- sekä asiakas- ja toimittajatapahtumia.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ffe7e29d26b386f0a69cc3a7377bf9ff58f93abf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 849bf54380aa7ee3abe09986a168aa946a1b3426
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185442"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011031"
 ---
 # <a name="general-journal-post-line-overview"></a>Yleisen päiväkirjan kirjausrivin yleiskuva
-Koodiyksikkö 12, **Yleinen päiväkirja - rivin kirjaus**, on pääkirjanpidon kirjauksen tärkeä sovellusobjekti ja ainoa paikka, jossa lisätään pääkirja-, ALV- sekä asiakkaan ja toimittajan reskontratapahtumia. Tätä koodiyksikköä käytetään myös Käytä-, Peruuta kohdistus- ja Peruuta-toiminnoissa.  
+
+Codeunit 12, **Yleinen päiväkirja - rivin kirjaus**, on pääkirjanpidon kirjauksen tärkeä sovellusobjekti ja ainoa paikka, jossa lisätään pääkirja-, ALV- sekä asiakkaan ja toimittajan reskontratapahtumia. Tätä codeunitia käytetään myös Käytä-, Peruuta kohdistus- ja Peruuta-toiminnoissa.  
   
-Vaikka koodiyksikköä on parannettu jokaisessa versiossa yli kymmenen vuoden ajan, sen arkkitehtuuri on pysynyt olennaisilta osiltaan samana. Koodiyksiköstä tuli suuri noin 7 600 rivien kanssa. Tässä [!INCLUDE[d365fin](includes/d365fin_md.md)] -versiossa arkkitehtuuria on muutettu ja koodiyksiköstä on tehty yksinkertaisempi ja ylläpidettävämpi. Tässä ohjeessa esitellään muutokset ja tiedot, joita tarvitset päivitystä varten.  
+Microsoft Dynamics NAV 2013 R2:n codeunit uusittiin, koska siitä oli tullut hyvin suuri, noin 7 600 koodiriviä. Arkkitehtuuri muutettiin ja codeunitista tehtiin yksinkertaisempi ja ylläpidettävämpi. Tässä ohjeessa kuvaillaan muutokset ja tiedot, joita tarvitset päivitystä varten.  
   
 ## <a name="old-architecture"></a>Vanha arkkitehtuuri  
 Vanhassa arkkitehtuurissa oli seuraavat ominaisuudet:  
@@ -30,19 +31,24 @@ Vanhassa arkkitehtuurissa oli seuraavat ominaisuudet:
 * Useita proseduureja, joita käytettiin vain paikallisesti ja jotka oli tarkoitettu vain paikallisesti käytettäviksi, ei ollut merkitty paikallisiksi.  
 * Suurimmalla osalla proseduureista ei ole parametreja eikä käytettyjä yleisiä muuttujia. Osa käytti parametreja ja korvasi yleisiä muuttujia paikallisilla.  
 * Kirjanpitotilien hakujen koodikuvioita ja kirjanpito- ja ALV-tapahtumien luontia ei ole standardoitu ja ne vaihtelevat paikasta toiseen. Lisäksi oli paljon päällekkäisiä koodeja sekä asiakas- ja toimittajakoodien välisiä symmetriakatkoksia.  
-* Suuri osa koodiyksikön 12 koodista, noin 30 prosenttia, liittyy maksualennus- ja toleranssilaskelmiin, vaikka useissa maissa tai alueilla näitä ominaisuuksia ei tarvita.  
-* Kirjaus, kohdista, peruuta kohdistus, peruuta, maksualennus ja toleranssi sekä vaihtokurssin muutos on liitetty yhteen koodiyksikössä 12 yleisten muuttujien pitkää listaa käyttäen.  
+* Suuri osa codeunitin 12 koodista, noin 30 prosenttia, liittyy maksualennus- ja toleranssilaskelmiin, vaikka useissa maissa tai alueilla näitä ominaisuuksia ei tarvita.  
+* Kirjaus, kohdista, peruuta kohdistus, peruuta, maksualennus ja toleranssi sekä vaihtokurssin muutos on liitetty yhteen codeunitissa 12 yleisten muuttujien pitkää listaa käyttäen.  
   
 ### <a name="new-architecture"></a>Uusi arkkitehtuuri  
-[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa koodiyksikkö 12 on saanut seuraavia parannuksia:  
+[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa codeunit 12 on saanut seuraavia parannuksia:  
   
-* Koodiyksikkö 12 on jaettu pienempiin osiin (kaikissa alle 100 koodiriviä).  
+* Codeunit 12 on jaettu pienempiin osiin (kaikissa alle 100 koodiriviä).  
 * Kirjanpitotilien hakujen vakiomallit on toteutettu käyttämällä kirjausryhmä-taulukoiden apufunktioita.  
 * Kirjausohjelmakehys on toteutettu tapahtumien aloituksen ja lopetuksen hallintaan sekä eristämään luonti kirjanpidosta ja ALV-tapahtumista, ALV-muutosten keräämiseen ja lisävaluutan summien laskemista varten.  
 * Koodin kopiointi on poistettu.  
 * Monet aputoiminnot on siirretty vastaaviin asiakkaan ja toimittajan tapahtumataulukoihin.  
 * Yleisten muuttujien käyttö on minimoitu, jotta jokainen toimintosarja käyttää parametreja ja kapseloi oman sovelluslogiikkansa.  
   
-## <a name="see-also"></a>Katso myös  
-[Rakenteen tiedot: Kirjausliittymän rakenne](design-details-posting-interface-structure.md)   
-[Rakenteen tiedot: Kirjausohjelman rakenne](design-details-posting-engine-structure.md)
+## <a name="see-also"></a>Katso myös
+
+[Rakenteen tiedot: Kirjausliittymän rakenne](design-details-posting-interface-structure.md)  
+[Rakenteen tiedot: Kirjausohjelman rakenne](design-details-posting-engine-structure.md)  
+[Rakenteen tiedot: Yleisen päiväkirjan kirjausrivi (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

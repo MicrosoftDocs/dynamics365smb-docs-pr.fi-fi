@@ -1,21 +1,21 @@
 ---
-title: Hyllytysten suunnitteleminen työkirjoissa | Microsoft Docs
-description: Jos sijainnissa on määritetty sekä hyllytyksen että vastaanoton käsittely pakolliseksi ja haluat suunnitella hyllytysohjeita useille vastaanotoille, voit käyttää hyllytystyökirjaa sen sijaan, että työntekijät noudattaisivat sovelluksen luomia ohjeita erillisille kirjatuille vastaanotoille.
+title: Hyllytysten suunnitteleminen työkirjoissa
+description: Määritä fyysinen varasto niin, että vastaanottorivit ovat käytettävissäsi hyllytystyökirjassa, kun haluat suunnitella vastaanoton hyllytysohjeita.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: d7cea5a62f432b569967c088211ad7c41c5f4a64
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: cfe8f04e84c2bb5cddcbad71fd71b1253043b60f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192913"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438180"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Hyllytysten suunnitteleminen työkirjoissa
 Jos sijainnissa on määritetty sekä hyllytyksen että vastaanoton käsittely pakolliseksi ja haluat suunnitella hyllytysohjeita useille vastaanotoille, voit käyttää hyllytystyökirjaa sen sijaan, että työntekijät noudattaisivat sovelluksen luomia ohjeita erillisille kirjatuille vastaanotoille.  
@@ -31,7 +31,7 @@ Jos et valitse tätä kenttää, sovellus luo automaattisesti hyllytysohjeita va
 > 2.  Jatka prosessia niin monessa hyllytyksessä kuin haluat siihen asti, kun olet poistanut kaikki rivit, joiden parissa haluat työskennellä työkirjassa. Napsauta nyt **Hyllytystyökirjat** ja jatka suunnittelua.  
 
 ## <a name="to-plan-instructions-in-the-put-away-worksheet"></a>Ohjeiden suunnittelu hyllytystyökirjassa  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Hyllytystyökirja** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyllytystyökirja** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Hae f. varastoinnin asiakirjat** -toiminto. Näyttöön tulee **Hyllytyksen valinta** -sivu.  
 
     Näet kaikki kirjatut vastaanotot ja rekisteröidyt sisäiset hyllytykset, jotka on lähetetty eteenpäin hyllytys-funktioon, mukaan lukien ne, joille hyllytysohjeita on jo luotu. Asiakirjat, joissa on hyllytysrivejä, joita ei ole täysin hyllytetty ja rekisteröity, ei näytetä tässä luettelossa.  
@@ -44,7 +44,7 @@ Jos et valitse tätä kenttää, sovellus luo automaattisesti hyllytysohjeita va
 4. Järjestä rivit haluamallasi tavalla täyttämällä **Järjestämistapa**-kenttä.  
 
     > [!NOTE]  
-    >  ( Rivien järjestelytapa työkirjassa ei siirry automaattisesti hyllytysohjeeseen, mutta samat järjestelymahdollisuudet – sekä yksi lisää, varastopaikan luokittelu – on saatavilla hyllytysohjeissa. Työkirjassa suunnittelemasi rivijärjestys voidaan siten luoda helposti uudelleen silloin, kun luodaan hyllytysohjeita, tai järjestelemällä hyllytysohjeissa.)  
+    >  Rivien järjestelytapa työkirjassa ei siirry automaattisesti hyllytysohjeeseen, mutta samat järjestelymahdollisuudet – sekä yksi lisää, varastopaikan luokittelu – on saatavilla hyllytysohjeissa. Työkirjassa suunnittelemasi rivijärjestys voidaan siten luoda helposti uudelleen silloin, kun luodaan hyllytysohjeita, tai järjestelemällä hyllytysohjeissa.  
 
 5.  Täytä **Käsiteltävä määrä** -kenttä. Valitse **Täytä autom. käsitelt. määrä** -toiminto tai täytä kentät manuaalisesti.  
 6.  Muokkaa rivejä tarvittaessa manuaalisesti. Voit poistaa rivejä esimerkiksi, jos jotkin nimikkeet tulee hyllyttää varastopaikkaan, joka on kaukana muiden nimikkeiden varastopaikoista.  
@@ -68,4 +68,7 @@ Jos et valitse tätä kenttää, sovellus luo automaattisesti hyllytysohjeita va
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)     
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

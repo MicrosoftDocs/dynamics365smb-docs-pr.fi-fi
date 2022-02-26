@@ -1,24 +1,26 @@
 ---
-title: Raporttien, aikaraporttien ja projektien määrittäminen| Microsoft Docs
-description: Ohjeaiheessa kerrotaan, miten resursseja, aikaraportteja ja projektitöitä määritetään projektin hallintaa varten.
+title: Raporttien, tuntiraporttien ja projektien määrittäminen
+description: Tässä ohjeaiheessa kerrotaan, miten resurssit, tuntiraportit ja projektit on määritetty hallitsemaan projekteja ja niiden budjetteja.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: f2c02cdcad7c0b33ad172df0b8a4d821f7fcd2df
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 289, 290, 376, 462, 463, 1029, 8904, 9014, 9015
+ms.date: 06/22/2021
+ms.author: edupont
+ms.openlocfilehash: 0780cf84b5c13934ccc9dcaf2d3576731cbf07a3
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312626"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973756"
 ---
 # <a name="setting-up-project-management"></a>Projektinhallinnan määrittäminen
-Ennen kuin voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ia projektien hallintaan, on määritettävä resurssit, aikaraportit ja projektit.
+
+Ennen kuin voit käyttää [!INCLUDE[prod_short](includes/prod_short.md)]ia projektien hallintaan, on määritettävä resurssit, aikaraportit ja projektit.
 
 Tämän jälkeen voit luoda projekteja ja ajoittaa projektien resursseja sekä hallita budjetteja ja seurata koneiden ja työntekijöiden työtunteja aikaraporttien avulla. Lisätietoja on kohdassa [Projektien hallinta](projects-manage-projects.md).  
 
@@ -38,4 +40,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 [Rahoitus](finance.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Myynti](sales-manage-sales.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

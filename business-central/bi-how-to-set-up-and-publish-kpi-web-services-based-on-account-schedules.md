@@ -1,27 +1,30 @@
 ---
-title: KP-raporttimallien KPI-verkkopalvelun määrittäminen ja julkaiseminen | Microsoft Docs
+title: KPI-verkkopalvelun määrittäminen ja julkaiseminen KP-raporttimalleja varten
 description: Tässä ohjeaiheessa kuvataan, miten KP-raporttimallin KPI-tiedot näytetään tietyissä KP-raporttimalleissa.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5483c827c9e59b29b7e3f4756ec50ba5977ce923
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: b224ea5e9bb2d0f53ce41c2dac66a1686dd5a90b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186042"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436999"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>KP-raporttimalleihin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen
 Voit määrittää **KP-raporttimallin KPI-verkkopalvelun asetukset** -sivulla, miten KP-raporttimallin KPI-tiedot näytetään ja mihin tiettyihin KP-raporttimalleihin KPI:t perustuvat. Kun valitset **Julkaise verkkopalvelu** -painikkeen, määritellyt KP-raporttimallin KPI-tiedot lisätään julkaistujen verkkopalveluiden luetteloon **Verkkopalvelut**-sivulla.  
 
+> [!NOTE]
+> Kun käytät tätä verkkopalvelua, tietojoukkoon ei sisällytetä sulkemispäivämääriä. Tämä vuoksi Power BI:ssä voidaan käyttää suodattimia eri ajanjaksojen analysoimiseksi.
+
 ## <a name="to-set-up-and-publish-a-kpi-web-service-that-is-based-on-account-schedules"></a>KP-raporttimalleihin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **KP-raporttimallin KPI-verkkopalvelun asetukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KP-raporttimallin KPI-verkkopalvelun asetukset** ja valitse sitten liittyvä linkki.  
 2.  Täytä **Yleinen**-pikavälilehden kentät seuraavassa taulukossa kuvatulla tavalla.  
 
     |Kenttä|Kuvaus|  
@@ -54,4 +57,7 @@ Voit määrittää **KP-raporttimallin KPI-verkkopalvelun asetukset** -sivulla, 
 [Rahoitus](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

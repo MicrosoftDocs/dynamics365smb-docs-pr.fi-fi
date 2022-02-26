@@ -1,21 +1,21 @@
 ---
-title: Maksutoleranssi ja maksualennustoleranssi | Microsoft Docs
+title: Maksutoleranssi ja maksualennustoleranssi
 description: Voit määrittää maksutoleranssin sulkeaksesi laskun, kun maksu ei täysin kata laskun summaa.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 42f89bc4f62cdcb4b2abcd9c919006a65451330b
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.search.form: 118, 314, 395
+ms.date: 10/29/2021
+ms.author: edupont
+ms.openlocfilehash: fa9e4abb37788b7aa8261ab0a5a705edef27e3c4
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262236"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972484"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Maksutoleranssien ja maksualennustoleranssien käsitteleminen
 Voit määrittää maksutoleranssin ja sulkea sen avulla laskun, kun maksu ei täysin kata laskun summaa. Esimerkiksi maksutoleranssit ovat tyypillisesti pieniä maksuja, joiden korjaaminen maksaa enemmän kuin niiden hyväksyntä. Voit määrittää maksualennustoleranssin, jolla voi myöntää maksualennuksen sen jälkeen kun maksualennuspäivämäärä on ohitettu.  
@@ -45,40 +45,40 @@ Lisätietoja on kohdassa [Maksutoleranssin varoitusten käyttöönotto tai käyt
 Toleranssi päivillä ja summilla sallii laskun sulkemisen vaikka maksu ei täysin kata laskun summaa, johtuu tämä sitten maksualennuspäivän ylittämisestä, virheellisten tavaroiden aiheuttamasta vähennyksestä tai pienestä virheestä. Tämä pätee myös hyvityksiin ja hyvityslaskuihin.  
 
 Määrittääksesi toleranssin sinun tulee määrittää useita toleranssitilejä, sekä maksualennustoleranssin että maksutoleranssin kirjaustavat ja sitten ajaa **Muuta maksutoleranssia** -eräajo  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Yleiset kirjausasetukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleiset kirjausasetukset** ja valitse sitten vastaava linkki.  
 2. Määritä **Yleiset kirjausasetukset** -sivulla debet- ja kredit-myynnin maksutoleranssin tili ja debet- ja kredit-ostojen maksutoleranssin tili.  
-3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakkaan kirjausryhmät** ja valitse sitten liittyvä linkki.    
+3. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaan kirjausryhmät** ja valitse sitten vastaava linkki.    
 4. Määritä **Asiakkaan kirjausryhmät** -sivulla debet- ja kredit-maksutoleranssitili. Lisätietoja on kohdassa [Kirjausryhmien määrittäminen](finance-posting-groups.md).  
-5. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Toimittajan kirjausasetukset** ja valitse sitten liittyvä linkki.  
+5. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajan kirjauksien asetukset** ja valitse sitten vastaava linkki.  
 6. Määritä **Toimittajan kirjausryhmät** -sivulla debet- ja kredit-maksutoleranssitili.  
-7. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon määritykset** ja valitse sitten liittyvä linkki.  
+7. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** ja valitse sitten vastaava linkki.  
 8. Avaa **Pääkirjanpidon asetukset** -sivu.  
-9. Täytä **Kohdistus** -pikavälilehdessä **Maksualennustoler. kirjaaminen**-, **Maksualennuksen ylityskausi**- ja **Maksutoleranssin kirjaus** -kentät.   
+9. Täytä **Kohdistus** -pikavälilehdessä **Maksualennustoleranssin kirjaaminen**-, **Maksualennuksen ylityskausi**- ja **Maksutoleranssin kirjaus** -kentät.   
 10. Valitse **Muuta maksutoleranssia** -toiminto.
 11. Täytä **Muuta maksutoleranssia** -sivulla **Maksutoleranssi %**- ja **Maksimi maksutoleranssisumma** -kentät ja valitse **OK**.
 
 > [!IMPORTANT]  
->  Nyt olet määrittänyt maksutoleranssin vain paikalliselle valuutalle. Jos haluat, että [!INCLUDE[d365fin](includes/d365fin_md.md)] käsittelevän maksujen, hyvityslaskujen ja hyvitysten toleransseja ulkomaan valuuttana, sinun on tehtävä **Muuta maksutoleranssia** -eräajo **Valuuttakoodi**-kentän arvolla.  
+>  Nyt olet määrittänyt maksutoleranssin vain paikalliselle valuutalle. Jos haluat, että [!INCLUDE[prod_short](includes/prod_short.md)] käsittelevän maksujen, hyvityslaskujen ja hyvitysten toleransseja ulkomaan valuuttana, sinun on tehtävä **Muuta maksutoleranssia** -eräajo **Valuuttakoodi**-kentän arvolla.  
 
 > [!NOTE]  
 >  Mikäli haluat saada maksutoleranssivaroituksen joka kerran kun kirjaat kohdistuksen, joka osuu toleranssialueelle, sinun tulee aktivoida maksualennusvaroitus. Lisätietoja on kohdassa [Maksutoleranssin varoituksen ottaminen käyttöön tai poistaminen käytöstä](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
 >  Jos haluat poistaa toleranssin käytöstä asiakkaalta tai toimittajalta, toleranssit on estettävä kyseisen asiakkaan tai toimittajan kortissa. Lisätietoja on kohdassa [Asiakkaiden maksutoleranssin estäminen](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
->  Kun määrität toleranssin, [!INCLUDE[d365fin](includes/d365fin_md.md)] tarkastaa onko avoimia tapahtumia ja laskee toleranssin myös näille tapahtumille.
+>  Kun määrität toleranssin, [!INCLUDE[prod_short](includes/prod_short.md)] tarkastaa onko avoimia tapahtumia ja laskee toleranssin myös näille tapahtumille.
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Maksutoleranssivaroitusten ottaminen käyttöön tai poistaminen käytöstä
 Maksutoleranssivaroitus ilmestyy, kun kirjaat kohdistuksen, jonka saldo mahtuu sallittuun toleranssiin. Voit sitten päättää kuinka kirjaat ja dokumentoit saldon.    
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon määritykset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** ja valitse sitten vastaava linkki.  
 2. Voit ottaa varoituksen käyttöön laittamalla **Pääkirjanpidon asetukset** -sivun **Kohdistus**-pikavälilehden **Maksutoleranssin varoitus** -kytkimen päälle. Voit poistaa varoituksen käytöstä laittamalla kytkimen pois päältä.  
 
 > [!NOTE]  
->  Oletusarvon mukainen vaihtoehto **Maksutoleranssin varoitus** -sivulla on **Jätä saldo jäljelläolevaksi summaksi**. Oletusarvon mukainen vaihtoehto **Maksualennustoler. varoitus** -sivulle on **Älä hyväksy myöhästynyttä maksualennusta**.
+>  Oletusarvon mukainen vaihtoehto **Maksutoleranssin varoitus** -sivulla on **Jätä saldo jäljelläolevaksi summaksi**. Oletusarvon mukainen vaihtoehto **Maksualennustoleranssin varoitus** -sivulle on **Älä hyväksy myöhästynyttä maksualennusta**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Maksutoleranssin estäminen asiakkailta  
 Oletusarvo maksutoleranssiasetukselle on sallittu. Estääksesi tietyn asiakkaan tai toimittajan maksutoleranssin sinun tulee estää toleranssi kyseisen asiakkaan tai toimittajan kortilta Seuraavaksi kerrotaan, miten se tehdään asiakkaalle. Toimittajaa koskevat vaiheet ovat samanlaisia.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakas** tai **Toimittaja** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakas** tai **Toimittaja** ja valitse sitten vastaava linkki.  
 2. Valitse **Maksut**-pikavalintalehdessä **Estä maksutoleranssi** -valintaruutu.  
 
 > [!NOTE]  
@@ -96,24 +96,24 @@ Seuraavissa tilanteissa käytössä on vaihtoehto A tai B:
 - **A** Tässä tapauksessa maksualennustoleranssivaroitus on suljettu TAI käyttäjällä on varoitus käytössä ja hän on sallinut myöhästyneen maksualennuksen (Kirjataanko saldo maksutoleranssina?).  
 - **B** Tässä tapauksessa käyttäjällä on käytössä varoitus ja hän on valinnut, ettei salli myöhästynyttä maksualennusta (Jätä saldo jäljellä olevaksi summaksi).  
 
-|—|Lask.|Maksuale|Maks. maksutol.|Maksualen. pvm|Maksualen.tol. Pvm|Maksupvm|Maksu|Tol. tyyppi|Kaikki tapaht. suljettu|Maksualen.tol. KP/MR|Maksutol. KP|  
+|—|Lask.|Maksualennus|Maksimi maksutoleranssi|Maksualennuksen päivämäärä|Maksualennustoleranssin päivämäärä|Maksupvm|Maksu|Tol. tyyppi|Kaikki tapaht. suljettu|Maksualennustoleranssi KP/MR|Maksutoleranssi KP|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
-|1|1000|20|5|01/15/03|20.1.03|<=15.1.03|985|Maksutol.|Kyllä|0|-5|  
+|1|1000|20|5|01/15/03|20.1.03|<=15.1.03|985|Maksutoleranssi|Kyllä|0|-5|  
 |2|**1,000**|**20**|**5**|**15.1.03**|**20.1.03**|**<=15.01.03**|**980**|**Ei mitään**|**Kyllä**|**0**|**0**|  
-|3|1000|20|5|01/15/03|n|<=15.1.03|975|Maksutol.|Kyllä|0|5|  
-|4A|1000|20|5|01/15/03|20.1.03|16.1.03 20.1.03|1005|Maksuale. tol.|Ei, 25 maksulla|20/-20|0|  
-|5A|1000|20|5|01/15/03|20.1.03|16.1.03 20.1.03|1000|Maksuale. tol.|Ei, 20 maksulla|20/-20|0|  
-|6A|1000|20|5|01/15/03|20.1.03|16.1.03 20.1.03|995|Maksuale. tol.|Ei, 15 maksulla|20/-20|0|  
-|4B|1000|20|5|01/15/03|20.1.03|16.1.03 20.1.03|1005|Maksutol.|Kyllä|0|-5|  
+|3|1000|20|5|01/15/03|n|<=15.1.03|975|Maksutoleranssi|Kyllä|0|5|  
+|4A|1000|20|5|01/15/03|20.1.03|16.1.03 20.1.03|1005|Maksualennustoleranssi|Ei, 25 maksussa|20/-20|0|  
+|5A|1000|20|5|01/15/03|20.1.03|16.1.03 20.1.03|1000|Maksualennustoleranssi|Ei, 20 maksussa|20/-20|0|  
+|6A|1000|20|5|01/15/03|20.1.03|16.1.03 20.1.03|995|Maksualennustoleranssi|Ei, 15 maksussa|20/-20|0|  
+|4B|1000|20|5|01/15/03|20.1.03|16.1.03 20.1.03|1005|Maksutoleranssi|Kyllä|0|-5|  
 |**5B**|**1,000**|**20**|**5**|**15.1.03**|**20.1.03**|**16.1.03 20.1.03**|**1000**|**Ei mitään**|**Kyllä**|**0**|**0**|  
-|6B|1000|20|5|01/15/03|20.1.03|16.1.03 20.1.03|995|Maksutol.|Kyllä|0|5|  
-|7|1000|20|5|01/15/03|20.1.03|16.1.03 20.1.03|985|Maksuale. tol. ja Maksutol.|Kyllä|20/-20|-5|  
-|8|1000|20|5|01/15/03|20.1.03|16.1.03 20.1.03|980|Maksuale. tol.|Kyllä|20/-20|0|  
-|9|1000|20|5|01/15/03|20.1.03|16.1.03 20.1.03|975|Maksuale. tol. ja Maksutol.|Kyllä|20/-20|5|  
-|10|1000|20|5|01/15/03|20.1.03|>20.1.03|1005|Maksutol.|Kyllä|0|-5|  
+|6B|1000|20|5|01/15/03|20.1.03|16.1.03 20.1.03|995|Maksutoleranssi|Kyllä|0|5|  
+|7|1000|20|5|01/15/03|20.1.03|16.1.03 20.1.03|985|Maksualennustoleranssi ja maksutoleranssi|Kyllä|20/-20|-5|  
+|8|1000|20|5|01/15/03|20.1.03|16.1.03 20.1.03|980|Maksualennustoleranssi|Kyllä|20/-20|0|  
+|9|1000|20|5|01/15/03|20.1.03|16.1.03 20.1.03|975|Maksualennustoleranssi ja maksutoleranssi|Kyllä|20/-20|5|  
+|10|1000|20|5|01/15/03|20.1.03|>20.1.03|1005|Maksutoleranssi|Kyllä|0|-5|  
 |**11**|**1,000**|**20**|**5**|**15.1.03**|**20.1.03**|**>20.1.03**|**1000**|**Ei mitään**|**Kyllä**|**0**|**0**|  
-|12|1000|20|5|01/15/03|20.1.03|>20.1.03|995|Maksutol.|Kyllä|0|5|  
-|13|1000|20|5|01/15/03|20.1.03|>20.1.03|985|Ei mitään|Ei, 15 laskulla|0|0|  
+|12|1000|20|5|01/15/03|20.1.03|>20.1.03|995|Maksutoleranssi|Kyllä|0|5|  
+|13|1000|20|5|01/15/03|20.1.03|>20.1.03|985|Ei yhtään|Ei, 15 laskulla|0|0|  
 |14|1000|20|5|01/15/03|20.1.03|>20.1.03|980|Ei mitään|Ei, 20 laskulla|0|0|  
 |15|1000|20|5|01/15/03|20.1.03|>20.1.03|975|Ei mitään|Ei, 25 laskulla|0|0|  
 
@@ -125,7 +125,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Kertamaksutoleranssin säännöt 1](media/singlePmtTolRules(Pre1503).gif "Kertamaksutoleranssin säännöt 1")  
+![Kertamaksutoleranssin säännöt 1.](media/singlePmtTolRules_Pre1503.gif "Kertamaksutoleranssin säännöt 1")  
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 
@@ -136,7 +136,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Kertamaksutoleranssin säännöt 2](media/singlePmtTolRules(GracePeriod).gif "Kertamaksutoleranssin säännöt 2")  
+![Kertamaksutoleranssin säännöt 2.](media/singlePmtTolRules_GracePeriod.gif "Kertamaksutoleranssin säännöt 2")  
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 
@@ -147,7 +147,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Kertamaksutoleranssin säännöt 3](media/singlePmtTolRules(Post0120).gif "Kertamaksutoleranssin säännöt 3")  
+![Kertamaksutoleranssin säännöt 3.](media/singlePmtTolRules_Post0120.gif "Kertamaksutoleranssin säännöt 3")  
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 
@@ -167,38 +167,38 @@ Seuraavissa tilanteissa käytössä on vaihtoehdot A, B, C tai D:
 - **C** Tässä tapauksessa käyttäjällä on varoitus käytössä ja hän on päättänyt sallia myöhästyneen maksualennuksen ensimmäisessä laskussa mutta ei toisessa.  
 - **D** Tässä tapauksessa käyttäjällä on varoitus käytössä ja hän on päättänyt ettei salli myöhästynyttä maksualennusta ensimmäisessä laskussa mutta sallii sen toisessa.  
 
-|—|Lask.|Maksuale|Maks. maksutol.|Maksualen. pvm|Maksualen.tol. Pvm|Maksupvm|Maksu|Tol. tyyppi|Kaikki tapaht. suljettu|Maksualen.tol. KP/MR|Maksutol. KP|  
+|—|Lask.|Maksualennus|Maksimi maksutoleranssi|Maksualennuksen päivämäärä|Maksualennustoleranssin päivämäärä|Maksupvm|Maksu|Tol. tyyppi|Kaikki tapaht. suljettu|Maksualennustoleranssi KP/MR|Maksutoleranssi KP|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
-|1|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|<=15.1.03|1920|Maksutol.|Kyllä|0<br /><br /> 0|-5 <br />-5|  
+|1|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|<=15.1.03|1920|Maksutoleranssi|Kyllä|0<br /><br /> 0|-5 <br />-5|  
 |**2**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.1.03** <br />**17.1.03**|**20.1.03** <br />**22.1.03**|**<=15.01.03**|**1910**|**Ei mitään**|**Kyllä**|**0**<br /><br /> **0**|0 <br />0|  
-|3|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|<=15.1.03|1900|Maksutol.|Kyllä|0<br /><br /> 0|5 <br />5|  
-|4B|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|16.1.03 - 16.1.03|1980|Maksutol.|Kyllä|0<br /><br /> 0|-5<br /><br /> -5|  
+|3|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|<=15.1.03|1900|Maksutoleranssi|Kyllä|0<br /><br /> 0|5 <br />5|  
+|4B|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|16.1.03 - 16.1.03|1980|Maksutoleranssi|Kyllä|0<br /><br /> 0|-5<br /><br /> -5|  
 |**5B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.1.03** <br />**17.1.03**|**20.1.03** <br />**22.1.03**|**16.1.2003 17.1.2013**|**1970**|**Ei mitään**|**Kyllä**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|6B|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|16.1.03 - 16.1.03|1960|Maksutol.|Kyllä|0<br /><br /> 0|5<br /><br /> 5|  
-|7A|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|16.1.03 - 16.1.03|1920|Maksuale. tol. ja Maksutol.|Kyllä|60/60<br /><br /> 0/0|-5 <br />-5|  
-|8A|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|16.1.03 - 16.1.03|1910|Maksuale. tol.|Kyllä|60/60<br /><br /> 0/0|0 <br />0|  
-|9A|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|16.1.03 - 16.1.03|1900|Maksuale. tol. ja Maksutol.|Kyllä|60/60|5 <br />5|  
-|10B|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|2010|Maksutol.|Kyllä|0<br /><br /> 0|-5<br /><br /> -5|  
+|6B|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|16.1.03 - 16.1.03|1960|Maksutoleranssi|Kyllä|0<br /><br /> 0|5<br /><br /> 5|  
+|7A|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|16.1.03 - 16.1.03|1920|Maksualennustoleranssi ja maksutoleranssi|Kyllä|60/60<br /><br /> 0/0|-5 <br />-5|  
+|8A|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|16.1.03 - 16.1.03|1910|Maksualennustoleranssi|Kyllä|60/60<br /><br /> 0/0|0 <br />0|  
+|9A|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|16.1.03 - 16.1.03|1900|Maksualennustoleranssi ja maksutoleranssi|Kyllä|60/60|5 <br />5|  
+|10B|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|2010|Maksutoleranssi|Kyllä|0<br /><br /> 0|-5<br /><br /> -5|  
 |**11B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.1.03** <br />**17.1.03**|**20.1.03** <br />**22.1.03**|**18.1.2013 20.1.2013**|**2000**|**Ei mitään**|**Kyllä**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|12B|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|1990|Maksutol.|Kyllä|0<br /><br /> 0|5<br /><br /> 5|  
-|13D|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|1980|Maksuale. tol. ja Maksutol.|Kyllä|0/0<br /><br /> 30/-30|-5 <br />-5|  
-|14D|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|1970|Maksuale. tol.|Kyllä|0/0<br /><br /> 30/-30|0 <br />0|  
-|15D|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|1960|Maksuale. tol. ja Maksutol.|Kyllä|0/0<br /><br /> 30/-30|5 <br />5|  
-|16D|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|1950|Maksuale. tol. ja Maksutol.|Kyllä|60/-60<br /><br /> 0/0|-5 <br />-5|  
-|17D|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|1940|Maksuale. tol.|Kyllä|60/-60<br /><br /> 0/0|0 <br />0|  
-|18D|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|1930|Maksuale. tol. ja Maksutol.|Kyllä|60/-60<br /><br /> 0/0|5 <br />5|  
-|19A|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|1920|Maksuale. tol. ja Maksutol.|Kyllä|60/-60<br /><br /> 30/-30|-5 <br />-5|  
-|20A|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|1910|Maksuale. tol.|Kyllä|60/-60<br /><br /> 30/-30|0 <br />0|  
-|21A|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|1900|Maksuale. tol. ja Maksutol.|Kyllä|60/-60<br /><br /> 30/-30|5 <br />5|  
-|22B|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|21.1.2013 22.1.2013|2010|Maksutol.|Kyllä|0<br /><br /> 0|-5<br /><br /> -5|  
+|12B|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|1990|Maksutoleranssi|Kyllä|0<br /><br /> 0|5<br /><br /> 5|  
+|13D|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|1980|Maksualennustoleranssi ja maksutoleranssi|Kyllä|0/0<br /><br /> 30/-30|-5 <br />-5|  
+|14D|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|1970|Maksualennustoleranssi|Kyllä|0/0<br /><br /> 30/-30|0 <br />0|  
+|15D|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|1960|Maksualennustoleranssi ja maksutoleranssi|Kyllä|0/0<br /><br /> 30/-30|5 <br />5|  
+|16D|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|1950|Maksualennustoleranssi ja maksutoleranssi|Kyllä|60/-60<br /><br /> 0/0|-5 <br />-5|  
+|17D|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|1940|Maksualennustoleranssi|Kyllä|60/-60<br /><br /> 0/0|0 <br />0|  
+|18D|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|1930|Maksualennustoleranssi ja maksutoleranssi|Kyllä|60/-60<br /><br /> 0/0|5 <br />5|  
+|19A|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|1920|Maksualennustoleranssi ja maksutoleranssi|Kyllä|60/-60<br /><br /> 30/-30|-5 <br />-5|  
+|20A|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|1910|Maksualennustoleranssi|Kyllä|60/-60<br /><br /> 30/-30|0 <br />0|  
+|21A|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|18.1.2013 20.1.2013|1900|Maksualennustoleranssi ja maksutoleranssi|Kyllä|60/-60<br /><br /> 30/-30|5 <br />5|  
+|22B|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|21.1.2013 22.1.2013|2010|Maksutoleranssi|Kyllä|0<br /><br /> 0|-5<br /><br /> -5|  
 |**23B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.1.03** <br />**17.1.03**|**20.1.03** <br />**22.1.03**|**21.1.03 22.1.03**|**2000**|**Ei mitään**|**Kyllä**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|24B|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|21.1.2013 22.1.2013|1990|Maksutol.|Kyllä|0<br /><br /> 0|5<br /><br /> 5|  
-|25A|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|21.1.2013 22.1.2013|1980|Maksuale. tol. ja Maksutol.|Kyllä|0/0<br /><br /> 30/30|-5 <br />-5|  
-|26A|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|21.1.2013 22.1.2013|1970|Maksuale. tol.|Kyllä|0/0<br /><br /> 30/30|0 <br />0|  
-|27A|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|21.1.2013 22.1.2013|1960|Maksuale. tol. ja Maksutol.|Kyllä|0/0<br /><br /> 30/30|5 <br />5|  
-|28|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|>22.1.03|2010|Maksutol.|Kyllä|0|-5|  
+|24B|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|21.1.2013 22.1.2013|1990|Maksutoleranssi|Kyllä|0<br /><br /> 0|5<br /><br /> 5|  
+|25A|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|21.1.2013 22.1.2013|1980|Maksualennustoleranssi ja maksutoleranssi|Kyllä|0/0<br /><br /> 30/30|-5 <br />-5|  
+|26A|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|21.1.2013 22.1.2013|1970|Maksualennustoleranssi|Kyllä|0/0<br /><br /> 30/30|0 <br />0|  
+|27A|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|21.1.2013 22.1.2013|1960|Maksualennustoleranssi ja maksutoleranssi|Kyllä|0/0<br /><br /> 30/30|5 <br />5|  
+|28|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|>22.1.03|2010|Maksutoleranssi|Kyllä|0|-5|  
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.1.03** <br />**17.1.03**|**20.1.03** <br />**22.1.03**|**>22.1.03**|**2000**|**Ei mitään**|**Kyllä**|**0**|**0**|  
-|30|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|>22.1.03|1990|Maksutol.|Kyllä|0|5|  
+|30|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|>22.1.03|1990|Maksutoleranssi|Kyllä|0|5|  
 
 ### <a name="payment-range-diagrams"></a>Maksualuediagrammit  
 Yo. tapaukseen liittyen maksudiagrammi on seuraavanlainen:  
@@ -208,7 +208,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Useiden maksujen toleranssin säännöt 1](media/multiplePmtTolRules(Pre1503).gif "Useiden maksujen toleranssin säännöt 1")  
+:::image type="content" source="media/multiplePmtTolRules_Pre1503.gif" alt-text="Useiden maksujen toleranssin säännöt 1a":::
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 
@@ -219,7 +219,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Useiden maksujen toleranssin säännöt 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Useiden maksujen toleranssin säännöt 2")  
+:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv1-2.gif" alt-text="Useiden maksujen toleranssin säännöt 2":::
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 
@@ -230,7 +230,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Useiden maksujen toleranssin säännöt 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Useiden maksujen toleranssin säännöt 3")  
+:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv1.gif" alt-text="Useiden maksujen toleranssin säännöt 3":::
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 
@@ -241,7 +241,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Useiden maksujen toleranssin säännöt 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Useiden maksujen toleranssin säännöt 4")  
+:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv2.gif" alt-text="Useiden maksujen toleranssin säännöt 4":::
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 
@@ -252,7 +252,7 @@ Jäljellä oleva summa per
 
 Normaalit kohdistussäännöt  
 
-![Useiden maksujen toleranssin säännöt 5](media/multiplePmtTolRules(Post0122).gif "Useiden maksujen toleranssin säännöt 5")  
+:::image type="content" source="media/multiplePmtTolRules_Post0122.gif" alt-text="Useiden maksujen toleranssin säännöt 5":::
 
 (1) Mikäli maksu osuu tälle välille, kaikki kohdistettavat tapahtumat voidaan sulkea toleranssilla tai ilman sitä.  
 
@@ -262,4 +262,7 @@ Normaalit kohdistussäännöt
 [Rahoitus](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

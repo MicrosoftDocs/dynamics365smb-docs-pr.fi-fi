@@ -1,24 +1,24 @@
 ---
-title: Myynnin päivämäärälaskenta | Microsoft Docs
-description: Sovellus laskee automaattisesti päivämäärän, jolloin nimike on tilattava sen saamiseksi tietyn päivän varastoon. Tämä on päivämäärä, jolloin voi odottaa tiettynä päivänä tilattujen nimikkeiden olevan valmiita poimittaviksi.
+title: Myynnin päivämäärälaskenta
+description: Sovellus laskee automaattisesti päivämäärän, jolloin nimike on tilattava sen saamiseksi tietyn päivän varastoon ja poimittavaksi.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7cbaeda98b06b742175563646f513ca78f874b70
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 221580cebab85be781cd56d461e9d75bb321c15b
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191857"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320204"
 ---
 # <a name="date-calculation-for-sales"></a>Myynnin päivämäärälaskenta
-[!INCLUDE[d365fin](includes/d365fin_md.md)] laskee automaattisesti varhaisimman mahdollisen päivämäärän, jolloin myyntitilausrivin nimike voidaan toimittaa.
+[!INCLUDE[prod_short](includes/prod_short.md)] laskee automaattisesti varhaisimman mahdollisen päivämäärän, jolloin myyntitilausrivin nimike voidaan toimittaa.
 
 Jos asiakas on pyytänyt tietyn toimituspäivämäärän, ohjelma laskee päivämäärän, jolloin nimikkeiden tulee olla poimittavissa, jotta toimitus onnistuu sinä päivänä.
 
@@ -45,4 +45,7 @@ Jos myyntitilausrivillä ei ole pyydettyä toimituspäivämäärää, tai jos to
 ## <a name="see-also"></a>Katso myös  
  [Ostojen päivämäärälaskenta](purchasing-date-calculation-for-purchases.md)   
  [Toimituksen lupaamisen päivämäärien laskeminen](sales-how-to-calculate-order-promising-dates.md)  
- [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+ [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,35 +1,36 @@
 ---
-title: KP-budjettien luominen| Microsoft Docs
+title: Luodaan KP-budjetteja
 description: Tässä artikkelissa käsitellään, miten luodaan KP-budjetteja ennustamaan erilaisia taloudellisia toimintoja ja miten dimensiot määritetään liiketoimintatietoja varten.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: postpone
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b18322180f833a63b7f4565bd4000bdc3bd4f571
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 37be635e57090e6e661a76ac3c0d7ea8473796a1
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183714"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971704"
 ---
 # <a name="create-gl-budgets"></a>KP-budjettien luominen
+
 Sinulla voi olla useita budjetteja samalle ajanjaksolle, kun luot budjetit eri nimillä. Määrittele ensin budjetin nimi ja syötä budjettiluvut. Budjetin nimi tulee sitten kaikkiin luomiisi budjettitapahtumiin.  
 
 Kun luot budjetin, voit määritellä jokaiselle budjetille neljä dimensiota. Näitä budjettikohtaisia dimensioita kutsutaan budjettidimensioiksi. Valitse budjettidimensiot jo luomistasi dimensioista. Budjettidimensioita voidaan käyttää, kun halutaan asettaa suodatin budjetille tai kun halutaan lisätä dimensiotietoa budjettitapahtumiin. Lisätietoja on kohdassa [Dimensioiden käyttäminen](finance-dimensions.md).
 
 Budjeteilla on tärkeä osa liiketoimintatiedoissa, kuten KP-raporttimalleihin perustuvissa tilinpäätöksissä, jotka sisältävät budjettitapahtumia, tai analysoitaessa budjetoituja summia todellisia summia vastaan tilikartassa. Lisätietoja on kohdassa [Business Intelligence](bi.md).
 
-Voit käsitellä kustannusbudjetteja samalla tavoin kustannuslaskennassa. Lisätietoja on kohdassa [Kustannusbudjettien luominen](finance-create-cost-budgets.md).    
+Voit käsitellä kustannusbudjetteja samalla tavoin kustannuslaskennassa. Lisätietoja on kohdassa [Kustannusbudjettien luominen](finance-create-cost-budgets.md).  
 
-## <a name="to-create-a-new-gl-budget"></a>Uuden KP-budjetin luominen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Pääkirjanpidon budjetit** ja valitse sitten liittyvä linkki.  
+## <a name="to-create-a-new-gl-budget"></a>Uuden KP-budjetin luominen
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KP-budjetit** ja valitse sitten vastaava linkki.  
 2. Valitse **Muokkaa luetteloa** -toiminto ja täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Valitse **Muokkaa budjettia** -toiminto.
 4. Täyttämällä **Budjetti**-sivun yläosan kentät määrität, mitä näytetään.  
@@ -40,9 +41,10 @@ Voit käsitellä kustannusbudjetteja samalla tavoin kustannuslaskennassa. Lisät
 7. Toista vaiheet 5 ja 6, kunnes olet määrittänyt kaikki budjettisummat.  
 
 > [!NOTE]  
->  **Suodattimet** -pikavälilehdessä voit suodattaa budjettitietoja sen mukaan, mitä budjettidimensioita olet luonut budjetin nimen alle.
+> **Suodattimet** -pikavälilehdessä voit suodattaa budjettitietoja sen mukaan, mitä budjettidimensioita olet luonut budjetin nimen alle.
 
 ## <a name="exporting-and-importing-gl-budgets-with-excel"></a>KP-budjettien vieminen ja tuominen Excelissä
+
 Niin kuin käytännössä kaikkia muitakin sivuja voit viedä budjettisivujen tiedot Exceliin lisäkäsittelyä tai -analyysia varten. Lisätietoja on kohdassa [Liiketoimintatietojen vieminen Exceliin](about-export-data.md).
 
 > [!NOTE]
@@ -51,9 +53,13 @@ Niin kuin käytännössä kaikkia muitakin sivuja voit viedä budjettisivujen ti
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
+
 [Liiketoimintatietojen vienti Exceliin](about-export-data.md)  
 [Rahoitus](finance.md)  
 [Business Intelligence](bi.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,22 @@
 ---
-title: Käyttöomaisuuden käytöstä poistaminen| Microsoft Docs
-description: Käyttöomaisuudelle on kirjattava poistoarvo, kun se hävitetään, myydään tai poistetaan käytöstä.
+title: Käyttöomaisuuden käytöstä poistaminen
+description: Kun myyt tai muuten luovutat käyttöomaisuuden, luovutusarvo on kirjattava voiton tai tappion laskemista ja tallentamista varten.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: scrap
-ms.date: 06/04/2020
+ms.search.form: 5628, 5610, 5611
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 29293e957617fea91c9a8e8b8c1f988b06104494
-ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
+ms.openlocfilehash: 1f3a593b96f311cf742fa4edf510d4b2e930b05d
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435205"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029298"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Käyttöomaisuuden käytöstä poistaminen
 
@@ -28,7 +29,7 @@ Seuraavissa vaiheissa oletetaan, että asianmukaiset kirjausryhmät on jo määr
 
 ## <a name="to-post-a-disposal-from-the-fixed-asset-gl-journal"></a>Luovutuksen kirjaaminen käyttöomaisuuden KP-päiväkirjasta
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuuden KP-päiväkirjat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöom. KP-päiväkirjat** ja valitse sitten liittyvä linkki.  
 2. Luo alkuperäisen päiväkirjan rivi ja täytä kentät tarpeen mukaan. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Valitse **KO:n kirjaustyyppi** -kentässä **Luovutus**.  
 4. Valitse **Syötä KO-vastatili** -toiminto. Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty luovutuksen kirjaamista varten.  
@@ -42,11 +43,11 @@ Jos myyt osan käyttöomaisuudesta tai muuten luovut osasta käyttöomaisuutta, 
 ## <a name="to-view-disposal-ledger-entries"></a>Luovutustapahtumien katsominen
 Kun myyt tai luovutat käyttöomaisuutta, luovutusarvo kirjataan pääkirjanpitoon, jossa tulosta voi tarkastella.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuus** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuus** ja valitse sitten vastaava linkki.  
 2. Valitse käyttöomaisuus, jonka tapahtumia haluat tarkastella. Valitse sitten **Poistokirjat**-toiminto.  
 3. Valitse poistokirja, jonka tapahtumia haluat tarkastella. Valitse sitten **Tapahtumakirjaukset**-toiminto.  
-4. Valitse **KO:n kirjausluokka** -kentässä rivi, joka sisältää **luovutuksen**. Valitse sitten **Navigoi**-toiminto.  
-5. Valitse **Navigointi**-sivulla pääkirjanpidon tapahtuman rivi ja valitse sitten **Näytä**-toiminto.  
+4. Valitse **KO:n kirjausluokka** -kentässä rivi, joka sisältää **luovutuksen**. Valitse sitten **Etsi kirjaukset**-toiminto.  
+5. Valitse **Etsi kirjaukset**-sivulla pääkirjanpidon tapahtuman rivi ja valitse sitten **Näytä liittyvät kirjaukset**-toiminto.  
 
 Näyttöön tulee **Pääkirjanpidon tapahtumat** -sivu, jossa näkyvät tapahtumat, joiden tuloksena on luovutuksen kirjaaminen.  
 
@@ -56,5 +57,9 @@ Näyttöön tulee **Pääkirjanpidon tapahtumat** -sivu, jossa näkyvät tapahtu
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Käyttöomaisuuden kirjausryhmien määrittäminen](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 [Rahoitus](finance.md)  
-[Käytön aloittaminen](product-get-started.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Etsi tapahtumat](ui-find-entries.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

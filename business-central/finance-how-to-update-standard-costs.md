@@ -1,34 +1,34 @@
 ---
-title: Vakiokustannusten päivittäminen | Microsoft Docs
+title: Vakiokustannusten päivittäminen
 description: Komponenttien vakiokustannukset on päivitettävä säännöllisesti ja uudet kustannukset on vyörytettävä päänimikkeelle.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7fb47fe72d323182973e970867ad6648652bc62f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 5841
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 26fc683f1c11a8341437823ceef438eaa269deb1
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183234"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972458"
 ---
 # <a name="update-standard-costs"></a>Vakiokustannusten päivittäminen
 Komponenttien vakiokustannukset on päivitettävä säännöllisesti ja uudet kustannukset on vyörytettävä päänimikkeelle. Prosessi sisältää yleensä seuraavat neljä vaihetta:  
 
 1.  Päivitä kustannukset osa- ja kapasiteettitasolla. Lisätietoja on kohdassa **Ehdota nimikkeen vakiokust.** -eräajo.  
 2.  Yhdistä ja kokoa osa- ja kapasiteettikustannukset laskeaksesi nimikkeiden tuotannon tai kokoonpanon kokonaiskustannuksen.  
-3.  Ota käyttöön edellisten eräajojen aikana syötetyt vakiokustannukset. Vakiokustannukset eivät tule voimaan, ennen kuin ne on otettu käyttöön. Lisätietoja on ohjeaiheessa Ota käyttöön vakiokustannusten muutokset.  
+3.  Ota käyttöön edellisten eräajojen aikana syötetyt vakiokustannukset. Vakiokustannukset eivät tule voimaan, ennen kuin ne on otettu käyttöön. Käytä **Ota käyttöön vakiokustannusten muutokset** -erätyötä, joka päivittää nimikkeiden vakiokustannusten muutokset Vakiokustannustyökirja-taulukossa.  
 4.  Ota muutokset käyttöön nimikkeen kortin **Yksikkökustannus**-kentän päivittämistä ja varaston uudelleenarvostuksen suorittamista varten. Lisätietoja on kohdassa [Varaston uudelleenarvostus](inventory-how-revalue-inventory.md).  
 
-Lisätietoja on kohdassa [Tietoja vakiokustannusten laskennasta](finance-about-calculating-standard-cost.md).  
-## <a name="to-update-standard-costs"></a>Vakiokustannusten päivittäminen  
+Lisätietoja on kohdassa [Tietoja vakiokustannusten laskennasta](finance-about-calculating-standard-cost.md).
+  
+## <a name="to-update-standard-costs"></a>Vakiokustannusten päivittäminen
+
 1.  Suorita **Muuta kustannuksia - Nimiketapahtumat** -eräajo.  
 2.  Suorita **Kirjaa varaston kust. KP:oon** -eräajo.  
 3.  Avaa **Vakiokust. työkirja** ja käytä vähintään yhtä seuraavista toiminnoista:  
@@ -42,8 +42,12 @@ Lisätietoja on kohdassa [Tietoja vakiokustannusten laskennasta](finance-about-c
     7.  Suorita **Ota käyttöön vakiokustannusten muutokset** -eräajo.  
 4.  Tarkasta ja kirjaa **Uudelleenarvostus pvk** -sivu, jonka tapahtumat on täytetty tämän prosessin aiemmissa vaiheissa.  
 
-## <a name="see-also"></a>Katso myös  
+## <a name="see-also"></a>Katso myös
+
  [Tietoja standardikustannuksen laskemisesta](finance-about-calculating-standard-cost.md)   
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)   
  [Rakennetiedot: arvostusmenetelmät](design-details-costing-methods.md) [Rahoitus](finance.md)  
- [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+ [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

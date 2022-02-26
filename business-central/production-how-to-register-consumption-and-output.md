@@ -1,23 +1,24 @@
 ---
-title: Yhden tuotantotilauksen kulutuksen ja tuotoksen rekisteröiminen | Microsoft Docs
-description: Tämä suoritustehtävä suoritetaan **Tuotantopäiväkirja**-sivulla. Päiväkirjassa yhdistetään erillisten kulutuspäiväkirjan ja tuotospäiväkirjan toiminnot yhteen. Tuotantopäiväkirjassa yhdistyvät erillisten kulutus- ja tuotospäiväkirjojen toiminnot yhdeksi päiväkirjaksi, joka voidaan avata suoraan vapautetusta tuotantotilauksesta. Sitä käytetään pääasiassa komponenttien kulutuksen, lopullisten tuotettujen nimikkeiden määrän sekä operaatioihin käytetyn ajan manuaaliseen kirjaukseen.
+title: Kulutustuotoksen rekisteröiminen tuotantotilaukselle
+description: Tässä aiheessa kerrotaan, miten rekisteröidään kulutus ja tuotos vapautetun tuotantotilauksen riville, jota tarkastellaan Tuotantopäiväkirja-sivulla.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 747a38ae8390c45995091c377c5c05d3140949dc
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 5510
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: 43f49adcc182f279126fbb8d2d6652153a626b4d
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877877"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973809"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Yhden vapautetun tuotantotilausrivin kulutuksen ja tuotoksen rekisteröiminen
+
 Tämä suoritustehtävä suoritetaan **Tuotantopäiväkirja**-sivulla. Päiväkirjassa yhdistetään erillisten kulutuspäiväkirjan ja tuotospäiväkirjan toiminnot yhteen. Tuotantopäiväkirjassa yhdistyvät erillisten kulutus- ja tuotospäiväkirjojen toiminnot yhdeksi päiväkirjaksi, joka voidaan avata suoraan vapautetusta tuotantotilauksesta. Sitä käytetään pääasiassa komponenttien kulutuksen, lopullisten tuotettujen nimikkeiden määrän sekä operaatioihin käytetyn ajan manuaaliseen kirjaukseen. Arvot kirjataan vapautetun tuotantotilauksen tapahtumiksi: Kulutusmäärät kirjataan negatiivisiksi nimiketapahtumiksi, tuotosmäärät positiivisiksi tapahtumiksi ja käytetyt ajat kapasiteettitapahtumiksi. Kirjattuja arvoja voidaan tarkastella päiväkirjan alaosassa myös todellisina määrinä.  
 
 > [!NOTE]  
@@ -27,7 +28,7 @@ Tämä suoritustehtävä suoritetaan **Tuotantopäiväkirja**-sivulla. Päiväki
 >  Komponentit, joilla ei ole reitityslinkkien koodeja, näkyvät päiväkirjassa ensimmäisinä.  
 
 ## <a name="to-register-consumption-and-output"></a>Kulutuksen ja tuotoksen rekisteröiminen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Vapautetut tuotantotilaukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vapautetut tuotantotilaukset** ja valitse sitten vastaava linkki.  
 2.  Avaa rekisteröimistä odottava vapautettu tuotantotilausrivi ja valitse sitten **Rivit**-pikavälilehdessä ensin **Rivi**-toiminto ja lopuksi **Tuotantopäiväkirja**-toiminto.  
 
     **Tuotantopäiväkirja**-sivu avautuu, ja siinä näkyvät tuotantotilausrivin arviointiperusteeksi päiväkirjarivit **Tuotantotilauksen komponentti** ja **Tuotantotilauksen reititys** -sivujen mukaisesti. Nämä rivit ovat peräisin tuotannossa olevaan nimikkeeseen liitetystä tuoterakenteesta ja reitityksestä.  Lisätietoja on kohdassa [Tuotannon tuoterakenteiden luominen](production-how-to-create-routings.md).  
@@ -37,15 +38,15 @@ Tämä suoritustehtävä suoritetaan **Tuotantopäiväkirja**-sivulla. Päiväki
     > [!NOTE]  
     >  Itse riville annettu kirjauspäivämäärä kumoaa tämän kentän arvon.  
 
-4.  Päiväkirjan yläreunan **Materiaalinottotapa**-suodatinkentässä voit valita, näytetäänkö myös kulutus ja tuotos, joka on kirjattu automaattisesti nimikkeelle ja resurssille määritettyjen materiaalinottotapojen mukaan.  
+4.  Päiväkirjan yläreunan **Materiaalinottotapa**-suodatinkentässä voit valita, näytetäänkö myös kulutus ja tuotos, joka on kirjattu automaattisesti nimikkeelle ja resurssille määritettyjen materiaalinottotapojen mukaan. Lisätietoja on kohdassa [Komponenttien materiaalinoton ottaminen käyttöön toiminnan tuotoksen mukaan](production-how-to-flush-components-according-to-operation-output.md).   
 
+5.  Jatka antamalla muokattaviin kenttiin tarvittavat määrät – kulutus ja tuotos.  
+  
     Päiväkirjan kunkintyyppisellä rivillä näytetään vain tarvittavat kentät. Loput ovat tyhjiä ja kirjoitussuojattuja.  
 
     Kun päiväkirja avataan, siihen on täytetty valmiiksi kirjattavat määrät. Jos mitään ei vielä ole kirjattu, kaikissa määräkentissä näytetään oletusarvona tuotantotilauksesta haetut oletetut määrät. Jos on tehty osittaisia kirjauksia, rivien määräkentissä näytetään jäljellä olevat määrät. Tilaukselle jo kirjatut määrät ja ajat näytetään päiväkirjan alaosassa todellisina tapahtumina.  
 
     Voit valita, mitkä arvot **Tuotoksen määrä** -kentässä näytetään valmiina, kun päiväkirja avataan ensimmäisen kerran. Valinta tehdään **Tuotannon asetukset** -sivun **Yleinen**-pikavälilehden **Esias. tuotoksen määrä** -kentässä.
-
-5.  Jatka antamalla muokattaviin kenttiin tarvittavat määrät – kulutus ja tuotos.  
 
     > [!NOTE]  
     >  Huomaa, että vain tapahtumatyyppiä **Tuotos** oleva viimeisellä päiväkirjan rivillä oleva tuotoksen määrä muuttaa varastotasoa päiväkirjan kirjauksen yhteydessä. Älä siis kirjaa päiväkirjaa, jonka viimeisellä tuotosrivillä on esiasetettu tuotoksen oletusmäärä, ennen kuin kaikki lopulliset nimikkeet on todella tuotettu.  
@@ -70,4 +71,7 @@ Jos arvot pysyvät kirjattuina, päiväkirja sisältää nämä jäljellä oleva
 [Suunnittelu](production-planning.md)      
 [Varasto](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

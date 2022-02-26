@@ -1,21 +1,21 @@
 ---
-title: Raportin ja asiakirjan asettelun tuonti ja vienti | Microsoft Docs
+title: Raporttien ja asiakirjojen asettelun tuonti ja vienti
 description: Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tietokoneen tai verkon sijainnista ja sijaintiin.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 01/13/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8ec498030368aa2e6378068c88910b787c3632f8
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.search.form: 9652, 9650
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: cb929e1e18d6e0711fd23ae12255220fdae1080d
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954030"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101345"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Tuo ja vie mukautettuja raporttiasetteluja
 Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tietokoneen tai verkon sijainnista ja sijaintiin. Voit esimerkiksi viedä raporttiasettelun ja lähettää sitten tiedoston toiselle henkilölle muokkausta varten. Kyseinen henkilö voi tehdä muutoksia asetteluun ja palauttaa tiedoston sinulle, jotta voit tuoda sen takaisin.  
@@ -25,7 +25,7 @@ Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tie
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>Raporttiasettelun vienti tiedostoon  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Raporttiasetteluvalinta** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten vastaava linkki.  
 
 2.  Valitse raporttirivi, joka sisältää mukautetun raporttiasettelun, jonka haluat viedä, ja valitse sitten **Mukautetut asettelut** -toiminto.  
 
@@ -39,7 +39,7 @@ Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tie
 
      Word-raporttiasettelutiedoston tiedostotyypin on oltava .docx. RDLC-raporttiasettelutiedoston on oltava .rdlc- tai RDL-tiedostotyyppiä.  
 
-2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Raporttiasetteluvalinta** ja valitse sitten liittyvä linkki.  
+2.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten vastaava linkki.  
 
 3.  Valitse sen raportin rivi, johon haluat tuoda raporttiasettelun, ja valitse sitten **Mukautetut asettelut** -toiminto.  
 
@@ -51,7 +51,11 @@ Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tie
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Katso myös  
- [Raporttien mukautetun asettelun luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)   
- [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md)  
- [Raporttien, eräajojen ja XMLportien käsitteleminen](ui-work-report.md)    
+## <a name="see-also"></a>Katso myös
+
+[Raporttien mukautetun asettelun luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)   
+[Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md)  
+[Raporttien, eräajojen ja XMLportien käsitteleminen](ui-work-report.md)    
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, relationship, prospect, contact, client, customer
-ms.date: 04/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 3c860ac8fec0e9a3cdf697ee59789d55387e5dc1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 0d6365bda6f8d027f01cc9cfa381463fa925ad91
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181666"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437289"
 ---
 # <a name="recording-interactions-with-contacts-automatically"></a>Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen automaattisesti
 Voit määrittää sovelluksen niin, että myynti-, osto- ja huoltoasiakirjojen, kansilehtien, sähköpostien ja puheluiden vuorovaikutukset tallennetaan automaattisesti seuraavasti:
@@ -29,8 +29,11 @@ Voit määrittää sovelluksen niin, että myynti-, osto- ja huoltoasiakirjojen,
 * Soita kontakteillesi, jos sinulla on TAPI-yhteensopiva puhelin, ja se on oikein asennettu.
 
 Voit määrittää näille vuorovaikutuksille automaattisen tallentamisen määrittämällä asiakirjojen ja toimintojen vuorovaikutusmallit **Vuorovaikutusmallin asetukset** -sivulla.  
-Jos haluat avata **Markkinoinnin asetukset** -sivun, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, syötä **Vuorovaikutusmallin asetukset** ja valitse liittyvä linkki.
+Avataksesi **Vuorovaikutusmallin asetukset** -sivun valitse ![Kerro-ominaisuuden avaava hehkulamppu.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vuorovaikutusmallin asetukset** ja valitse sitten vastaava linkki.
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen](marketing-interactions.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,30 +1,32 @@
 ---
-title: Varastonarvostuksen ja kustannuslaskennan määrittäminen | Microsoft Docs
-description: Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.
+title: Varastonarvostuksen ja kustannuslaskennan määrittäminen
+description: Voit varmistaa, että varastokustannukset kirjataan oikein, määrittämällä tietyt kentät ja sivut ennen nimiketapahtumien tekemistä.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ab2ae5103a1bcc613309412744e913b09a054647
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: fa04fa90e749434d6ccf19e10e1a7daa1a4eaba8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182874"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6327136"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Varastonarvostuksen ja kustannuslaskennan määrittäminen
-Voit varmistaa, että varastokustannukset kirjataan oikein, määrittämällä tietyt kentät ja sivut ennen nimiketapahtumien tekemistä.
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.
+Voit varmistaa, että varastokustannukset kirjataan oikein, määrittämällä tietyt kentät ja sivut ennen nimiketapahtumien tekemistä. Yleensä yritykset valitsevat tietyn kustannuslaskentamenetelmän ja soveltavat niitä esimerkiksi varastonimikkeisiin voidakseen seurata varastossa olevien nimikkeiden arvoa.  
+
+> [!TIP]
+> Lisätietoja kustannuslaskennan käyttöönotosta [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa on kohdassa [Tietoja kustannuslaskennasta](finance-learn-about-costing.md).
+
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.
 
 |**Tehtävä**|**Katso**|  
-|------------|-------------|  
-|Kustannuslaskentamenetelmän määrittäminen kullekin nimikkeelle. Valitun menetelmän mukaan määräytyy, miten nimikkeen saapuvia kustannuksia käytetään varaston arvon ja myytyjen tuotteiden kustannusten laskemiseen.|[Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)|  
+|------------|-------------|
+|Määritä yritykselle oletusarvoinen kustannuslaskentamenetelmä sen hallitsemiseksi, kuinka saapuvia kustannuksia käytetään varastojen arvon ja myytyjen tavaroiden kustannusten laskemiseen.|[Yleisten varastotietojen määrittäminen](inventory-how-setup-general.md)|  
+|Määrittele yksittäisten nimikkeiden kustannuslaskentamenetelmä, jos ne edellyttävät eri kustannuslaskentamenetelmää.|[Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)|  
 |Varmistaminen, että kustannus kirjataan automaattisesti pääkirjanpitoon aina, kun varastotapahtuma kirjataan.|**Varastonhallinnan asetukset** -sivun **Automaattinen kustann. kirjaus** -kenttä|  
 |Varmistaminen, että oletetut kustannukset kirjataan pääkirjanpitoon, jotta väliaikaisilla KP-tileillä näkyy arvio erääntyvistä summista ja kaupattujen nimikkeiden kustannuksista ennen nimikkeiden varsinaista laskuttamista.|**Varastonhallinnan asetukset** -sivun **Oletettu kust. kirjaus KP:toon** -kenttä|  
 |Järjestelmän määrittäminen siten, että kustannusmuutokset päivittyvät automaattisesti aina varastotapahtumien kirjaamisen yhteydessä.|[Nimikekustannusten muuttaminen](inventory-how-adjust-item-costs.md)|  
@@ -35,7 +37,16 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 |Varmista, että ostopalautukset kohdistetaan alkuperäiseen saapuvaan tapahtumaan varaston arvon säilyttämiseksi.|**Ostot ja ostovelat** -sivun **Todellisen kust. peruutt. pakollinen** -kenttä|
 |Nimikehintojen ja vakiokustannusten muuttamisessa tai ehdottamisessa käytettävien pyöristyssääntöjen määrittäminen.|**Pyöristystapa**-sivu|  
 
-## <a name="see-also"></a>Katso myös  
+## <a name="see-also"></a>Katso myös
+
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
-[Business Central -sovelluksen käyttäminen](ui-work-product.md)  
+[Yleisten varastotietojen määrittäminen](inventory-how-setup-general.md)  
+[Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
+[Parhaiden käytäntöjen määrittäminen: Arvostusmenetelmä](setup-best-practices-costing-method.md)  
+[Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)  
+[Rakennetiedot: nimikkeiden arvostusmenetelmän muuttaminen](design-details-changing-costing-methods.md)  
+[Business Centralin käyttäminen](ui-work-product.md)  
 [Rahoitus](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

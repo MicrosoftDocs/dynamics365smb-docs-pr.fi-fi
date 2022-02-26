@@ -1,21 +1,21 @@
 ---
-title: Rakennetiedot – sisäisen fyysisen varastoinnin virrat | Microsoft Docs
-description: Nimikkeiden kulku binien välillä yrityksen sijaintikeskuksissa osien poimintaan ja loppunimikkeiden poistoon kokoonpano- tai tuotantotilauksissa ja tilapäisissä liikkeissä, kuten binin täydentämisissä ilman suhdetta lähdedokumentteihin.
+title: Rakennetiedot – fyysisen varaston sisäiset virrat
+description: Työnkulku varastopaikkojen välillä komponenttien poiminnassa ja kokoonpano- tai tuotantotilausten loppunimikkeiden ja suunnittelemattomien siirtojen hyllyttämisessä ilman lähdeasiakirjoja.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 7fa2f139935e279af47548b5c8e8a28b84845521
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 6749921fc02776fc267f7f40cde7ccea4b8fe6cf
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185322"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441745"
 ---
 # <a name="design-details-internal-warehouse-flows"></a>Rakennetiedot: sisäisen fyysisen varastoinnin virta
 Nimikkeiden kulku varastopaikkojen välillä yrityksen sijaintikeskuksissa kokoonpano- tai tuotantotilauksien komponentteja poimittaessa ja loppunimikkeitä hyllytettäessä sekä suunnittelemattomissa siirroissa, kuten varastopaikkojen täydennyksissä, ilman suhdetta lähdeasiakirjoihin. Liittyvien toimenpiteiden laajuus ja luonne vaihtelee perus- ja kehittyneen varastoinnin välillä.  
@@ -90,7 +90,7 @@ Nimikkeiden kulku varastopaikkojen välillä yrityksen sijaintikeskuksissa kokoo
 ## <a name="flushing-production-components-in-the-warehouse"></a>Materiaalioton tuotantokomponentit f. varastossa  
  Jos nimikkeen kortilla on näin asetettu, varastoinnin poiminnalla poimitut komponentit kirjataan tuotantotilauksen kuluttamiksi, kun varastoinnin poiminta rekisteröidään. Käyttämällä **Poiminta + eteenpäin** -menetelmää ja **Poiminta + taaksepäin**-materiaalinottotapaa, poiminnan rekisteröinti laukaisee liittyvän kulutuksen kirjaamisen ensimmäisen toimenpiteen alettua tai viimeisen toimenpiteen päätyttyä.  
 
- Mietitään seuraavaa tilannetta, joka perustuu [!INCLUDE[d365fin](includes/d365fin_md.md)]in esittelytietokannan VALKOINEN-sijaintiin.  
+ Mietitään seuraavaa tilannetta, joka perustuu [!INCLUDE[prod_short](includes/prod_short.md)]in esittelytietokannan skenaarioon.  
 
  Nimikkeen LS-100 15 kappaleen tuotantotilaus on olemassa. Jotkut osaluettelon nimikkeistä täytyy pakottaa manuaalisesti kulutuserään ja toiset luettelon nimikkeet voidaan poimia ja pakottaa automaattisesti käyttämällä **Poimi + takaisin** -virtausmenetelmää.  
 
@@ -114,7 +114,10 @@ Nimikkeiden kulku varastopaikkojen välillä yrityksen sijaintikeskuksissa kokoo
 
  Seuraavassa kuvassa esitetään, milloin **Bin-koodi** -kenttä osaluettelossa täytetään sijainnin tai koneen/työkeskuksen asetusten mukaisesti.  
 
- ![Yleiskuvaus siitä, milloin/miten Varastopaikkakoodi-kenttä täytetään](media/binflow.png "Yleiskuvaus siitä, milloin/miten Varastopaikkakoodi-kenttä täytetään")  
+ ![Yleiskuvaus siitä, milloin/miten Varastopaikkakoodi-kenttä täytetään.](media/binflow.png "Yleiskuvaus siitä, milloin/miten Varastopaikkakoodi-kenttä täytetään")  
 
 ## <a name="see-also"></a>Katso myös  
  [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

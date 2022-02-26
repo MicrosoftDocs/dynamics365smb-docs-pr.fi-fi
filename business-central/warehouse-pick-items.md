@@ -1,25 +1,24 @@
 ---
-title: Nimikkeiden poiminta | Microsoft Docs
-description: 'Jos varastotoimintona on nimikkeiden poimiminen ennen nimikkeiden toimitusta tai kulutusta, se voidaan suorittaa eri tavoilla sen mukaan, miten varastoinninhallinnan ominaisuudet on määritetty. [Määritysten](../configure-warehouse-processes.md) monimutkaisuus voi vaihdella: ominaisuusluettelossa ei ole varastotoimintoja lainkaan, tilauskohtaisessa fyysisen varastoinnin perusmäärityksissä käsittelytoimintoja on vain muutama toiminto, kun laajennetuissa varastomäärityksissä kaikki varastotoiminnot tehdään ohjatun työnkulun mukaisesti.'
-services: project-madeira
-documentationcenter: ''
+title: Nimikkeiden poiminta
+description: Nimikkeiden poimiminen ennen nimikkeiden toimitusta tai kulutusta voidaan suorittaa eri tavoilla sen mukaan, miten varastoinninhallinnan ominaisuudet on määritetty.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 23c01374b7b044c8f497126ef6409bf27b80dffe
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 5779, 5798, 7343, 7345, 7357, 7359, 7377, 7392, 7395, 7397, 9313, 9316, 9344
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 10b5c682fa5237aa49152306698c17dad247e664
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313830"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970750"
 ---
 # <a name="pick-items"></a>Nimikkeiden poiminta
+
 Jos varastotoimintona on nimikkeiden poimiminen ennen nimikkeiden toimitusta tai kulutusta, se voidaan suorittaa eri tavoilla sen mukaan, miten varastoinninhallinnan ominaisuudet on määritetty. Määritysten monimutkaisuus voi vaihdella: ominaisuusluettelossa ei ole varastotoimintoja lainkaan, fyysisen varastoinnin perusmääritysten tilausten käsittelyssä on vain yksi tai useita toimintoja ja laajennetuissa varastomäärityksissä kaikki varastotoiminnot on suoritettava ohjatun työnkulun mukaisesti. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).
 
 Jos haluat järjestää ja kirjata poimintatoiminnot varastoasiakirjoihin, lisää valintamerkki sijaintikortin **Vaadi poiminta** -kenttään. Tämä tarkoittaa, että kun lähtevälle lähdeasiakirjalle on poimittava nimikkeitä, järjestelmän on ohjattava näiden nimikkeiden poimintaa. Lähtevä lähdeasiakirja voi olla myyntitilaus, ostopalautustilaus, lähtevä siirtotilaus, huoltotilaus tai tuotantotilaus, jonka komponentit on poimittava.
@@ -49,7 +48,10 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 ## <a name="see-also"></a>Katso myös  
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
-[Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)     
-[Kokoonpanon hallinta](assembly-assemble-items.md)    
-[Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Warehouse Managementin määrittäminen](warehouse-setup-warehouse.md) 
+[Kokoonpanon hallinta](assembly-assemble-items.md)
+[Rakennetiedot: Warehouse Management](design-details-warehouse-management.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

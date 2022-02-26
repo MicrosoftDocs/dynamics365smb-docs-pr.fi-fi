@@ -1,21 +1,22 @@
 ---
-title: Kirjausketjujen määrittäminen | Microsoft Docs
+title: Kirjausketjujen määrittäminen
 description: Lue lisää kirjausketjujen seurantaan käytettävien lähdekoodien ja syykoodien määrittämisestä.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/12/2020
+ms.search.form: 257, 259, 279
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: eac9b5268cda8671a7189a429dedd9eb3cbfbc53
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: c6327be4cdcd1e51096a8e19601556305b772011
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372685"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971938"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Kirjausketjujen lähdekoodien ja syykoodien määrittäminen
 
@@ -33,7 +34,7 @@ Kun kirjaat tai suoritat eräajon, ohjelma liittää tapahtumaan automaattisesti
 
 ### <a name="to-define-source-codes"></a>Lähdekoodien määrittely
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, anna **Lähdekoodin määrittely** ja valitse sitten aiheeseen liittyvä linkki.  
+1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Lähdekoodin määritys** ja valitse sitten vastaava linkki.  
 
 2. Määritä **lähdekoodin määrittely** -ikkunassa kunkin kirjaustyypin ja eräajon osalta asianmukainen lähdekoodi.  
 
@@ -45,7 +46,7 @@ Haluat ehkä muuttaa lähdekoodia. Saatat haluta muuttaa lähdekoodin *YLEINENPV
 
 ### <a name="to-change-source-codes"></a>Lähdekoodien muuttaminen
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, anna **Lähdekoodit** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Lähdekoodit** ja valitse sitten vastaava linkki.
 
 2. Valitse sillä rivillä, jolla muutettava koodi on, koodi **Koodi**-kentästä.
 
@@ -59,7 +60,7 @@ Syykoodit täydentävät lähdekoodeja, ja niiden avulla ilmaistaan, miksi tapah
 
 ### <a name="to-set-up-reason-codes"></a>Syykoodien määrittäminen
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, anna **Syykoodit** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake")  -kuvake, syötä **Syykodit** ja valitse sitten vastaava linkki.
 
 2. Anna **Syykoodit**-ikkunan **Koodi**-kenttään ensimmäinen koodi. Syötä **Kuvaus**-kenttään selittävä teksti.
 
@@ -69,7 +70,7 @@ Seuraavassa kuvataan, miten syykoodi lisätään päiväkirjan malliin, mutta va
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>Syykoodien määrittäminen päiväkirjan malleissa
 
-1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, anna **Yleinen päiväkirjamalli** ja valitse sitten aiheeseen liittyvä linkki.
+1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake")  -kuvake, syötä **Yleisen päiväkirjan mallit** ja valitse sitten liittyvä linkki.
 
 2. Määritä haluamasi koodi valitsemasi päiväkirjan mallin sisältävän rivin **Syykoodi**-kenttään.
 
@@ -94,6 +95,9 @@ Kun lasku on kirjattu, syykoodi kopioituu kaikkiin KP-, asiakas- ja toimittajata
 [Dimensioiden käyttäminen](finance-dimensions.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [Yrityksen kassavirran analysoiminen](finance-analyze-cash-flow.md)  
-[[!INCLUDE[prodshort](includes/prodshort.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

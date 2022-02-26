@@ -1,21 +1,22 @@
 ---
-title: Toimittajille suoritettavien maksujen hallintatehtävien yleiskatsaus| Microsoft Docs
+title: Toimittajille suoritettavien maksujen hallintatehtävien yleiskatsaus
 description: Tässä ohjeaiheessa kerrotaan toimittajille tai luotonantajille suoritettavien maksujen hallintatehtävistä, kuten maksurivien kirjaamisesta ja erääntyvän saldon yleiskatsauksen hakemisesta.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 10/01/2019
+ms.search.form: 254, 256, 1190, 1191, 1227, 1228, 1229
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 99da82d54a2e769c2ebbaf7d4c103791119517d9
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.openlocfilehash: 2abf1886541e51e23b5ebc9bbb5dec1d4a83bd06
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076460"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101423"
 ---
 # <a name="making-payments"></a>Maksujen suorittaminen
 
@@ -37,7 +38,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 |Kirjaa maksut toimittajille tai työntekijöille ja hyvitykset asiakkaille. Valinnaisesti voit kohdistaa maksut liittyviin maksamattomiin laskuihin/hyvityslaskuihin ja sulkea ne maksettuina.|[Maksujen ja hyvitysten kirjaaminen](payables-how-post-payments-refunds.md)|
 | Käytä **Maksupäiväkirja**-sivun toimintoa ehdottaaksesi toimittajan maksuja valittujen ehtojen, kuten eräpäivän, alennuskelpoisuuden ja maksuvalmiutesi, mukaan. |[Ehdota toimittajamaksuja](payables-how-suggest-vendor-payments.md) |
 | Myönnä sekkejä toimittajan maksuille tai asiakkaan hyvityksille joko tulosteina tai tietokonesekkeinä. Mitätöi sekit ennen kirjaamista tai sen jälkeen. |[Sekkimaksujen suorittaminen](payables-how-work-checks.md) |
-|Suorita sähköiset maksut EU:n SEPA-tilisiirtostandardin mukaisesti.|[Maksujen suorittaminen AMC Banking 365 -perusteiden laajennuksen tai SEPA-tilisiirron avulla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
+|Suorita sähköiset maksut EU:n SEPA-tilisiirtostandardin mukaisesti.|[Maksujen suorittaminen AMC Banking 365 Fundamentals -laajennuksen tai SEPA-tilisiirron avulla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)|
 | Maksaa toimittajalle käteisellä tai sekillä ja kirjaa maksu, kun lasku kirjataan. |[Ostolaskujen selvittäminen viipymättä](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Varmista lähettämällä toimittaja-, sekki- ja maksutiedot sisältävä tiedosto, että pankki vahvistaa vain tarkistetut sekit ja summat. |[Positive Pay -tiedoston vienti](finance-how-positive-pay.md) |
 
@@ -45,4 +46,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

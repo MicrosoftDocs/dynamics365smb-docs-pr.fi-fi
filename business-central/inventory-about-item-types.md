@@ -1,38 +1,37 @@
 ---
-title: Tietoja nimiketyypeistä | Microsoft Docs
-description: Voit muuttaa nimikkeen varastonarvostusta FIFO- tai Keskiarvo-arvostusmenetelmällä, esimerkiksi silloin, kun nimikkeen kustannusten muutoksen syynä on jokin muu kuin tapahtuma.
-services: project-madeira
+title: Tietoja nimiketyypeistä
+description: Voit muuttaa nimikkeen varastonarvostusta FIFO- tai Keskiarvo-arvostusmenetelmällä, kun nimikkeen kustannusten muutoksen syynä on jokin muu kuin tapahtuma.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 481e8bbdb13863055c4dc532cb2c214228b8a8ba
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.search.form: 9297, 5845, 30,
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: acb6ab4436f32760d905701348a242a4374b6b2d
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454294"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059620"
 ---
 # <a name="about-item-types"></a>Tietoja nimiketyypeistä
-Voit valita **Nimikkeen kortti** -sivun **Tyyppi**-kentässä nimikkeen käyttötarkoituksen yrityksessä. Valinta määrittää myös sen, miten nimikettä ylläpidetään järjestelmässä. Valittavana on seuraavat kolme vaihtoehtoa:
+Voit valita **Nimikkeen kortti** -sivun **Tyyppi**-kentässä nimikkeen käyttötarkoituksen yrityksessä. Valinta määrittää myös sen, missä määrin voit hallita tavaraa varastossa. Seuraavassa taulukossa on lueteltu ja kuvattu käytettävissä olevat kolme nimiketyyppiä.
 
 |Asetus|Tyypillinen tarkoitus|
 |------|-----------|
-|Vaihto-omaisuus|Fyysinen yksikkö, kuten polkupyörä, jolla on yrityksen täysi tuki.|
-|Muu kuin varasto|Fyysinen yksikkö, kuten pultti, jolla on yrityksen rajoitettu tuki esimerkiksi siksi, että nimikettä käytetään vain sisäisesti ja sen arvo on vähäinen.|
+|Varasto|Fyysiset asiat, kuten polkupyörät, puhelimet ja työpöydät, joiden osalta haluat pystyä käyttämään kaikkia varastoprosesseja. Tämä voi sisältää myös muita kuin fyysisiä nimikkeitä, kuten ohjelmistolisenssit ja -tilaukset, jos nimikkeillä on tunnistenumerot, kuten sarjanumerot. Voit seurata täysin tuotteiden arvoja ja saatavuutta varastossa.|
+|Muu kuin varasto|Tyypillisesti ei-varastotuotteet ovat fyysisiä tavaroita, kuten pultteja tai kyniä, joita yritys kuluttaa, mutta joita ei haluta seurata täysin varastossa. Esimerkiksi, koska ne ovat edullisia nimikkeitä ja niitä käytetään vain sisäisesti.|
 |Palvelu|Työn aikayksikkö, kuten konsultointitunti, jolla on yrityksen rajoitettu tuki.|
 
-**Varasto**-tyyppi käsittää varaston määrän ja arvon täydellisen seurannan. Sen vuoksi kaikkia nimiketapahtuman tyyppejä tuetaan ja nimikkeitä, joiden tyyppi on Varasto, voidaan käyttää kaikissa nimikkeitä käsittelevissä toiminnoissa.
+> [!NOTE]
+> **Huolto**- ja **Muu kuin varasto** -tyypit eivät tue varaston määrien ja arvojen seurantaa. Vain valittuja nimiketapahtuman tyyppejä ja toimintoja tuetaan.
 
-**Huolto**- ja **Muu kuin varasto** -tyypit eivät sisällä varaston määrän ja arvon seurantaa. Tämän vuoksi vain valittuja nimiketapahtuman tyyppejä ja toimintoja tuetaan.
-
-Kolme nimiketyyppiä tukevat seuraavia toimintoja.
+Seuraavassa taulukossa on lueteltu ominaisuudet, joita nämä kolme kohdetyyppiä tukevat.
 
 |Nimiketyyppi|Myynti|Ostaminen|Projektin kulutus|Huollon kulutus|Kokoonpanon kulutus|Tuotanto Kulutus|Kokoonpanon tuotos|Tuotannon tuotos|Sijainnin siirto|Fyysinen inventointi|varaston uudelleenarvostus|Varaston arvostus|Nimikeseuranta|Varaus|Varastointi|Suunnittelu|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -57,4 +56,7 @@ Asiakkaiden nimikkeitä, joita huolletaan (esimerkiksi tulostin), sanotaan huolt
 [Varaston määrittäminen](inventory-setup-inventory.md)  
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Nimiketapahtumien poistaminen ja uudelleenkohdistaminen | Microsoft Docs
+title: Nimiketapahtumien poistaminen ja uudelleenkohdistaminen
 description: Voit tarkastella ja muuttaa manuaalisesti tietyn nimikkeen kohdistustapahtumia, jotka on luotu automaattisesti varastotapahtumien yhteydessä.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: cf3ed7552d3b9bfef3c787e03357279f4ad4fc93
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 506, 521, 9125
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 9ec35c8f618a916661018719b4da05f7e2b43566
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183330"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971014"
 ---
 # <a name="remove-and-reapply-item-ledger-entries"></a>Nimiketapahtumien poistaminen ja uudelleenkohdistaminen
 Voit tarkastella ja muuttaa **Kohdistustyökirja**-sivulla manuaalisesti tietyn nimikkeen kohdistustapahtumia, jotka on luotu automaattisesti varastotapahtumien yhteydessä.  
@@ -36,12 +36,13 @@ Jos et tehdä uudelleenkohdistusta, kuten korjata kiinteää kohdistusta, asiaki
 > Seuraavassa on tärkeitä muistettavia asioita, kun käsitellään kohdistustyökirjaa:
     - Älä jätä kohdistustapahtumia pitkäksi aikaa käyttämättä, koska muut käyttäjät eivät voi käsitellä nimikkeitä ennen kuin käytät kohdistustapahtumia uudelleen tai suljet **Sovellustyökirja**-sivun. Käyttäjät, jotka yrittävät tehdä toimia, joihin liittyy manuaalisesti kohdistamattoman kohdistustapahtuman saavat seuraavan virhesanoman: "Tätä toimintoa ei voi suorittaa, koska kohteen XXX tapahtumia ei ole käytetty sovelluksen asiakirjasta käyttäjän XXX toimesta."
     - Nimiketapahtumien uudelleenkohdistus on suositeltavaa tehdä muuna kuin työaikana. Tällöin vältetään ristiriidat muiden käyttäjien kirjatessa tapahtumia samalle nimikkeelle.
-    - Kun suljet kohdistustyökirjan, [!INCLUDE[d365fin](includes/d365fin_md.md)] suorittaa tarkistuksen ja varmistaa, että kaikki tapahtumat on kohdistettu. Jos esimerkiksi poistat määrän kohdistuksen, mutta et luo uutta kohdistusta, ja suljet sen jälkeen kohdistustyökirjan, ohjelma luo uuden kohdistuksen jos mahdollista. Tällöin kustannukset pysyvät samoina. Huomaa kuitenkin, että jos poistat kiinteän kohdistuksen, ohjelma ei luo uutta kiinteää kohdistusta automaattisesti työarkin sulkemisen yhteydessä. Sinun on luotava uusi kohdistus manuaalisesti työarkissa.
+    - Kun suljet kohdistustyökirjan, [!INCLUDE[prod_short](includes/prod_short.md)] suorittaa tarkistuksen ja varmistaa, että kaikki tapahtumat on kohdistettu. Jos esimerkiksi poistat määrän kohdistuksen, mutta et luo uutta kohdistusta, ja suljet sen jälkeen kohdistustyökirjan, ohjelma luo uuden kohdistuksen jos mahdollista. Tällöin kustannukset pysyvät samoina. Huomaa kuitenkin, että jos poistat kiinteän kohdistuksen, ohjelma ei luo uutta kiinteää kohdistusta automaattisesti työarkin sulkemisen yhteydessä. Sinun on luotava uusi kohdistus manuaalisesti työarkissa.
     - Voit poistaa usean tapahtuman kohdistukset samanaikaisesti kohdistustyökirjassa. Koska tapahtumien kohdistaminen vaikuttaa useisiin kohdistuksen käytettävissä oleviin tapahtumiin, voit luoda kohdistuksen vain yhdelle tapahtumalle samanaikaisesti.
     - Kohdistustyökirja ei voi tehdä kohdistusta seuraavassa tilanteessa: Jos varastossa ei ole tarpeeksi kohdistettavaa määrää, kohdistustyökirja ei voi tehdä kohdistusta, jos yrität kohdistaa varaston vähennystapahtumaa, jolla ei ole nimikeseurannan tietoja, sellaiseen varaston lisäystapahtumaan, jolla on nimikeseurannan tiedot.
 
-## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Nimikkeen kohdistuksen ja kohdistustyökirjan poistaminen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kohdistustyökirja** ja valitse sitten liittyvä linkki.  
+## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Nimikkeen kohdistuksen ja kohdistustyökirjan poistaminen
+
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kohdistustyökirja** ja valitse sitten vastaava linkki.  
 2.  **Kohdistustyökirja**-sivu aukeaa näyttäen kaikkia nimikkeitä koskevat nimiketapahtumat.  
 3.  Syötä suodattimet **Yleinen**-pikavälilehdelle, jotta on helpompi löytää nimiketapahtumat, joille haluat muuttaa sovelluksen.  
 4.  Valitse ensin nimiketapahtuma ja sitten **Kohdistetut tapahtumat** -toiminto. **Näytä kohdistetut tapahtumat - Kohdistetut tapahtumat** -sivu avautuu ja sivulla näkyvä valittuun tapahtumaan kohdistetut nimiketapahtumat.  
@@ -54,10 +55,11 @@ Jos et tehdä uudelleenkohdistusta, kuten korjata kiinteää kohdistusta, asiaki
 > [!IMPORTANT]  
 >  Älä jätä kohdistustapahtumia pitkäksi aikaa käyttämättä, koska muut käyttäjät eivät voi käsitellä nimikkeitä ennen kuin käytät kohdistustapahtumia uudelleen tai suljet **Kohdistustyökirja**-sivun. Seuraava virhesanoma näytetään, jos yrität suorittaa toimintoja, jotka liittyvät manuaalisesti peruutettuun kohdistustapahtumaan:  
 >   
->  **Et voi suorittaa tätä toimintoa, koska käyttäjä <user> on peruuttanut nimikkeen <item> kohdistuksen kohdistustyökirjassa.**  
+>  **Et voi suorittaa tätä toimintoa, koska käyttäjä \<user\> on peruuttanut nimikkeen \<item\> kohdistuksen kohdistustyökirjassa.**  
 
-## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Nimikkeen kohdistuksen ja kohdistustyökirjan luominen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kohdistustyökirja** ja valitse sitten liittyvä linkki.  
+## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Nimikkeen kohdistuksen ja kohdistustyökirjan luominen
+
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 2.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kohdistustyökirja** ja valitse sitten vastaava linkki.  
 2.  **Kohdistustyökirja**-sivu aukeaa näyttäen kaikkia nimikkeitä koskevat nimiketapahtumat.  
 3.  Voit kohdistaa työkirjan avaamisen jälkeen poistetut tapahtumat uudelleen valitsemalla uudelleenkohdistettavan nimiketapahtuman ja valitsemalla sitten **Kohdista uudelleen** -toiminto.  
 
@@ -72,9 +74,13 @@ Jos et tehdä uudelleenkohdistusta, kuten korjata kiinteää kohdistusta, asiaki
     >  Jos olet valinnut sellaisen kohdistuksen tekemisen, joka loisi päättymättömän silmukan kustannusten muutosprosessiin, ehdottamaasi kohdistusta ei tehdä. Näin voi tapahtua, kun alkuperäiset tapahtumat loivat negatiivisen varaston. Sovellusta ei ole tehty. Tämän vuoksi on valittava sovellukselle eri tapahtuma.  
 6.  Jos **varastonhallinnan asetusten** **Automaattinen kustannusten muuttaminen** -kentän arvoksi määritetään **Aina**, kustannusten muuttamisen eräajo suoritetaan automaattisesti uudelleenkohdistuksen jälkeen. Muussa tapauksessa voit varmistaa suorittamalla **Muuta kustannuksia - Nimiketapahtumat** -eräajon, että kaikki kustannukset on päivitetty.  
 
-## <a name="see-also"></a>Katso myös  
+## <a name="see-also"></a>Katso myös
+
 [Nimikepäiväkirjan kiinteästä kohdistuksesta aiheutuvien avointen nimiketapahtumien sulkeminen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
  [Ostopalautusten tai peruutusten käsittely](purchasing-how-process-purchase-returns-cancellations.md)  
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)   
  [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md)  
- [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+ [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

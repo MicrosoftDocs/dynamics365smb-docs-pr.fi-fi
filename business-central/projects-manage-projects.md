@@ -1,24 +1,26 @@
 ---
-title: Resurssien ja aikaraporttien käyttö projektitehtävissä| Microsoft Docs
-description: Yleisiä tietoja projektien hallinnasta resurssien, aikaraporttien ja projektitöiden avulla.
+title: Projektinhallinta
+description: Tässä ohjeaiheessa kerrotaan, miten resursseja, tuntiraportteja ja projekteja käytetään hallitsemaan projekteja ja niiden budjetteja.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2019
+ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: aa3158789f22cbb3a534bda2a83e2def209f9826
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2c53179960fc6b9ebd7a77193b13d271f22fe1b1
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312650"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101267"
 ---
 # <a name="project-management"></a>Projektinhallinta
-[!INCLUDE[d365fin](includes/d365fin_md.md)]issa voi suorittaa yleisiä projektinhallinnan tehtäviä, kuten projektin määrittämistä ja resurssin aikatauluttamista, sekä budjettien hallinnassa ja projektin etenemisen valvonnassa tarvittavien tietojen antamista. Voit seurata projektin koneiden käyttötunteja ja työntekijöiden työtunteja käyttämällä aikaraportteja. Projektipäällikkönä saat hyvän yleiskuvan yksittäisten projektien lisäksi työntekijöiden varauksista sekä koneiden ja muiden resurssien käytöstä kaikissa projekteissa.
 
-Ennen kuin voit käyttää [!INCLUDE[d365fin](includes/d365fin_md.md)]ia projektien hallintaan, on määritettävä resurssit, aikaraportit ja projektit. Lisätietoja on kohdassa [Projektinhallinnan määrittäminen](projects-setup-projects.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)]issa voi suorittaa yleisiä projektinhallinnan tehtäviä, kuten projektin määrittämistä ja resurssin aikatauluttamista, sekä budjettien hallinnassa ja projektin etenemisen valvonnassa tarvittavien tietojen antamista. Voit seurata projektin koneiden käyttötunteja ja työntekijöiden työtunteja käyttämällä aikaraportteja. Projektipäällikkönä saat hyvän yleiskuvan yksittäisten projektien lisäksi työntekijöiden varauksista sekä koneiden ja muiden resurssien käytöstä kaikissa projekteissa.
+
+Ennen kuin voit käyttää [!INCLUDE[prod_short](includes/prod_short.md)]ia projektien hallintaan, on määritettävä resurssit, aikaraportit ja projektit. Lisätietoja on kohdassa [Projektinhallinnan määrittäminen](projects-setup-projects.md).  
 
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.
 
@@ -36,7 +38,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 
 ## <a name="get-started-with-projects"></a>Projektien käytön aloittaminen
 
-Projektinhallinta on jo sinänsä monimutkaista, ja projektien luonti- ja työn hallintaprosessin oppiminen uudessa työkalussa voi olla lisähaaste. Voit aloittaa projektinhallinnan käytön [!INCLUDE [prodshort](includes/prodshort.md)] -sovelluksessa katsomalla [töiden luontia käsittelevän videon](https://www.youtube.com/watch?v=VqaPWr7BWmw) [!INCLUDE [prodshort](includes/prodshort.md)] YouTube -kanavassa.  
+Projektinhallinta on jo sinänsä monimutkaista, ja projektien luonti- ja työn hallintaprosessin oppiminen uudessa työkalussa voi olla lisähaaste. Voit aloittaa projektinhallinnan käytön [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa katsomalla [töiden luontia käsittelevän videon](https://www.youtube.com/watch?v=VqaPWr7BWmw) [!INCLUDE[prod_short](includes/prod_short.md)] YouTube -kanavassa.  
 
 ## <a name="see-also"></a>Katso myös
 
@@ -46,6 +48,9 @@ Projektinhallinta on jo sinänsä monimutkaista, ja projektien luonti- ja työn 
 [Osto](purchasing-manage-purchasing.md)  
 [Myynti](sales-manage-sales.md)  
 [Rahoitus](finance.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,32 +1,29 @@
 ---
-title: Syitä, miksi sivun mukauttaminen ei onnistu | Microsoft Docs
+title: Syitä, miksi sivun mukauttaminen ei onnistu
 description: Lisätietoja syistä, miksi sivua ei voi mukauttaa ja miten sivun lukituksen voi avata mukauttamista varten.
-author: jswymer
+author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.date: 04/01/2019
-ms.author: jswymer
-ms.openlocfilehash: 1a3edaca2e76388d82ea8991c3196410dd9c7288
-ms.sourcegitcommit: a88d1e9c0ab647cb8d9d81d32c0bdc82843f4145
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 74fbbefaaf9ef62c1241032b09cdf1f40b1b4bd1
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1796757"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445895"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Sivun mukauttamisen estäminen lukitsemalla
 
-Kaksi ehtoa estää sivun mukauttamisen. Sivu on joko lukittu (jonka ![Mukautuksen lukitus](media/personalization-lock-icon.png "Mukautuksen lukitus") ilmaisee) tai se on estetty (jonka ![Mukautuksen esto](media/personalization-blocked-icon.png "Mukautuksen esto") ilmaisee).
+Kaksi ehtoa estää sivun mukauttamisen. Sivu on joko lukittu (kuten ![Mukautuksen lukitus.](media/personalization-lock-icon.png "Mukautuksen lukitus") -kuvake ilmaisee) tai se on estetty (kuten ![Mukautuksen esto.](media/personalization-blocked-icon.png "Mukauttaminen estetty") -kuvake ilmaisee).
 
 ## <a name="locked-from-personalizing"></a>Mukauttaminen estetty lukitsemalla
 
-Jos avatun sivun **Mukautetaan**-palkissa on ![Mukautuksen lukitus](media/personalization-lock-icon.png "Mukautuksen lukitus") -kuvake (kuten kuvassa), sivua ei voi tällä hetkellä muuttaa mukauttamalla.
-
-![Mukautuksen lukitus](media/personalization-locked.png "Mukautuksen lukitus")
-
+Jos ![Mukautuksen lukitus.](media/personalization-lock-icon.png "Mukautuksen lukitus") -kuvake on näkyvissä **Mukautetaan**-palkissa, kun avaat sivun, sivun muuttaminen mukauttamalla on tällä hetkellä estetty.
 
 <!-- This is because we changed the way personalization works behind the scenes since the last time that you personalized the page. Unfortunately, the old way and new of doing things do not work together.
 
@@ -41,7 +38,7 @@ Syitä voi olla kaksi:
 
 ### <a name="unlocking-the-page"></a>Sivun lukituksen poistaminen
 
-Jos haluat poistaa sivun lukituksen ja jatkaa sen mukauttamista, valitse ensin ![Mukautuksen lukitus](media/personalization-lock-icon.png "Mukautuksen lukitus") ja sitten **Poista lukitus**.  
+Jos haluat poistaa sivun lukituksen ja jatkaa sen mukauttamista, valitse ensin ![Mukautuksen lukitus](media/personalization-lock-icon.png "Mukautuksen lukitus") -kuvake ja valitse sitten **Poista lukitus** -toiminto.  
 
 Ota kuitenkin seuraavat huomioon ennen sivun lukituksen poistamista:
 
@@ -51,14 +48,17 @@ Ota kuitenkin seuraavat huomioon ennen sivun lukituksen poistamista:
 
 ## <a name="blocked-from-personalizing"></a>Mukauttaminen estetty
 
-Jos Mukautetaan-palkissa on ![Mukautuksen esto](media/personalization-blocked-icon.png "Mukautuksen esto") -kuvake, mukauttaminen sivulla on estetty.
+Jos ![Mukautuksen esto](media/personalization-blocked-icon.png "Mukauttaminen estetty") -kuvake on **Mukautetaan**-palkissa, sivulle ei voi tehdä mukautuksia.
 
-![Mukautuksen esto](media/personalization-blocked.png "Mukautuksen esto")
+<!-- Only text is translated, so removing this image for non-English UX reasons.  ![Personalize blocked.](media/personalization-blocked.png "Personalize lock") -->
 
-Syynä on se, että käyttäjätiliin tällä hetkellä liitetty roolikeskus tai rooli muokkaa tätä sivua roolin mukaisesti. Pyydä apua järjestelmänvalvojalta tai jos se tuntuu järkevältä, yritä vaihtaa roolikeskukseen, joka sisältää tämän sivun roolin mukauttamisen. (Valitse [**Omat asetukset**](https://businesscentral.dynamics.com?page=9176 "Siirry suoraan Business Centralin käyttäjäasetusten sivulle").)
+Syynä on se, että käyttäjätiliin tällä hetkellä liitetty roolikeskus tai rooli muokkaa tätä sivua roolin mukaisesti. Pyydä apua järjestelmänvalvojalta. Vaihtoehtoisesti voit yrittää siirtyä roolikeskukseen, jossa on tämän sivun roolimukautus. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).
 
 ## <a name="see-also"></a>Katso myös
-[Työtilan mukauttaminen](ui-personalization-manage.md)  
-[Mukautuksen hallinta](ui-personalization-manage.md)  
+[Työtilan mukauttaminen](ui-personalization-user.md)  
+[Profiilien sivujen mukauttaminen](ui-personalization-manage.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

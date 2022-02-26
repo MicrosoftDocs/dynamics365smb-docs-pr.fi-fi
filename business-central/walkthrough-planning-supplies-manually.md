@@ -1,27 +1,27 @@
 ---
-title: Vaihekuvaus – Toimitusten manuaalinen suunnittelu | Microsoft Docs
-description: Tässä vaihekuvauksessa kuvataan toimitustilausten suunnitteluprosessi uuden kysynnän täyttämiseksi. Voit aloittaa tarjonnan suunnittelun tietyin välein, esimerkiksi joka aamu tai joka maanantai, tai kun myynti tai tuotanto ilmoittaa ne kysyntätyypin mukaan.
+title: Vaihekuvaus – Toimitusten manuaalinen suunnittelu
+description: Tässä opastuksessa esitellään prosessi, jossa toimitustilauksia suunnitellaan uuden kysynnän tyydyttämiseksi, mukaan lukien osto-, siirto- ja tuotantotilauksen suunnittelu.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 0da12af6eb5a165c717cd112735a91aebe3ae85d
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: ef6ff3f6d31b43b127146404bd9aa7407d950677
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2876965"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438991"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Vaihekuvaus: Toimitusten manuaalinen suunnittelu
 
-**Huomautus**: Tämä vaihekuvaus on suoritettava esittely-yrityksessä siten, että asetuksena on **Täydellinen arviointi - Kaikki mallitiedot**, joka on käytettävissä Sandbox-ympäristössä. Lisätietoja on kohdassa [Sandbox-ympäristön luominen](across-how-create-sandbox-environment.md).
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
-Tässä vaihekuvauksessa käsitellään toimitustilausten suunnitteluprosessia uuden kysynnän täyttämiseksi. Voit aloittaa tarjonnan suunnittelun tietyin välein, esimerkiksi joka aamu tai joka maanantai, tai kun myynti tai tuotanto ilmoittaa ne kysyntätyypin mukaan. Tässä vaihekuvauksessa käytetään **Tilauksen suunnittelu** -sivua. Se on yksinkertainen toimitusten suunnittelutyökalu, joka perustuu parametripohjaisen automaattisen suunnittelun asemesta manuaaliseen päätöksentekoon.  
+Tässä vaihekuvauksessa kuvataan toimitustilausten suunnitteluprosessi uuden kysynnän täyttämiseksi. Voit aloittaa tarjonnan suunnittelun tietyin välein, esimerkiksi joka aamu tai joka maanantai, tai kun myynti tai tuotanto ilmoittaa ne kysyntätyypin mukaan. Tässä vaihekuvauksessa käytetään **Tilauksen suunnittelu** -sivua. Se on yksinkertainen toimitusten suunnittelutyökalu, joka perustuu parametripohjaisen automaattisen suunnittelun asemesta manuaaliseen päätöksentekoon.  
 
 ## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta  
  Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:  
@@ -38,10 +38,10 @@ Tässä vaihekuvauksessa käsitellään toimitustilausten suunnitteluprosessia u
 -   myyntitilausten käsittelijä  
 
 ## <a name="prerequisites"></a>Vaatimukset  
- Ennen kuin aloitat tämän vaihekohtaisen ohjeen, sinun on asennettava [!INCLUDE[d365fin](includes/d365fin_md.md)]. Tietokantaan on tehtävä seuraavat muutokset:  
+ Ennen kuin aloitat tämän vaihekohtaisen ohjeen, sinun on asennettava [!INCLUDE[prod_short](includes/prod_short.md)]. Tietokantaan on tehtävä seuraavat muutokset:  
 
 -   Poista kaikki aiemmat polkupyörien myyntitilaukset.  
--   Luo kymmenelle polkupyörälle yksi myyntitilaus SININEN-sijaintiin.  
+-   Luo kymmenelle polkupyörälle yksi myyntitilaus ITÄ-sijaintiin.  
 -   Poista kaikki suunnitellut ja sitovasti suunnitellut tuotantotilaukset. Älä poista aloitettuja tilauksia, joissa on aiemmin kirjattuja tapahtumia.  
 
  Tässä vaihekuvauksessa kannattaa käyttää ehdotettuja tietoja, koska näissä tiedoissa on tarvittavat tietueet.  
@@ -67,7 +67,7 @@ Tässä vaihekuvauksessa käsitellään toimitustilausten suunnitteluprosessia u
 
 ### <a name="to-use-the-order-planning-page"></a>Tilauksen suunnittelu -sivun käyttäminen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Tilauksen suunnittelu** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilauksen suunnittelu** ja valitse sitten vastaava linkki.  
 
      Kun **Tilauksen suunnittelu** -sivu avautuu, suunnitelma on laskettava, jotta uusi, edellisen laskennan jälkeinen kysyntä tulee näyttöön.  
 
@@ -148,7 +148,7 @@ Tässä vaihekuvauksessa käsitellään toimitustilausten suunnitteluprosessia u
 4.  Varaa kymmenen saatavilla olevaa nimikettä valitsemalla **OK**.  
 
     > [!NOTE]  
-    >  Siirto VIHREÄ-sijainnista on vaihdettu ehdotetun oston tilalle kysyntäriville. **Tee tilaukset** -toiminto luo siirtotilauksen VIHREÄ-sijainnista vaadittuun sijaintiin. **Korvaavia olemassa** -kenttä toimii samalla tavalla.  
+    >  Siirto PÄÄ-sijainnista on vaihdettu ehdotetun oston tilalle kysyntäriville. **Tee tilaukset** -toiminto luo siirtotilauksen PÄÄ-sijainnista vaadittuun sijaintiin. **Korvaavia olemassa** -kenttä toimii samalla tavalla.  
 
 5.  Valitse **Tee tilaukset** -toiminto. **Tee toimitustilaukset** -sivu avautuu.  
 6.  Valitse **Tee tilaukset** -kentän **Tilauksen suunnittelu** -pikavälilehdessä **Aktiivinen tilaus**.  
@@ -225,10 +225,13 @@ Tässä vaihekuvauksessa käsitellään toimitustilausten suunnitteluprosessia u
 
      Sanomassa ilmoitetaan, että kaikki vaaditut nimikkeet on nyt toimitettu. Varmista sitovasti suunnitellut tuotantotilaukset, jotka on luotu.  
 
-13. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sitovasti suunn. tuotantotil.** ja valitse sitten liittyvä linkki.  
+13. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sitovasti suunn. tuotantotil.** ja valitse sitten vastaava linkki.  
 
      Tarkista **Sitovasti suunn. tuotantotil.** -sivulla, miten yksittäisten tilausten aloitus- ja päättymisajat on ajoitettu tuoterakenteen mukaan. Alimman tason komponentit tuotetaan ensin. Monitasoisten tilausten suunnitteleminen onkin tärkeää, kuten tässä suunnittelun työnkulussa on havainnollistettu.  
 
 ## <a name="see-also"></a>Katso myös  
  [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)   
- [Vaihekuvaus: Toimitusten automaattinen suunnittelu](walkthrough-planning-supplies-automatically.md)
+<!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

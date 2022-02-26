@@ -1,21 +1,21 @@
 ---
-title: Poiminta sisäisissä toiminnoissa laajennetuissa varastomäärityksissä | Microsoft-asiakirjat
-description: Jos sijainti on määritetty laajennetuissa varastomäärityksissä käyttämään sekä poimintaa että toimitusta, tuotannon ja kokoonpanon toimintojen komponentteja voi poimia **F.varastoinnin poiminta** -sivulla.
+title: Poiminta sisäisissä toiminnoissa laajennetuissa varastomäärityksissä
+description: Jos sijainnit käyttävät poimintaa sekä toimituksia, poimi komponentteja tuotannon ja kokoonpanon toimintoja varten F.varastoinnin poiminta -sivulla.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f14033311acdca8819d6dcb585195018ebea6c0f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 5ef90e4c99a567e6abe18f06b8a9be29365323bb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192967"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445770"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Tuotanto- tai kokoonpanopoiminta laajennetuissa varastointimäärityksissä
 Jos sijainti on määritetty laajennetuissa varastomäärityksissä käyttämään sekä poimintaa että toimitusta, tuotannon ja kokoonpanon toimintojen komponentteja voi poimia **F.varastoinnin poiminta** -sivulla.  
@@ -40,7 +40,7 @@ Luodaksesi poimintapyynnöt sekä veto- että työntötilanteille, kyseiset läh
 |Kokoonpanotilaus|Muuta tilaksi Vapautettu.|  
 
 ## <a name="to-pick-components-using-the-pick-worksheet"></a>Komponenttien poiminta poimintatyökirjoista  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Poimintatyökirja** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poimintatyökirja** ja valitse sitten vastaava linkki.  
 2.  Valitse ensin **Hae f. varastoinnin asiakirjat** -toiminto ja sitten komponenttirivit vapautetusta tuotantotilauksesta.  
 3.  Käy rivit läpi, järjestele ne tehokkaaksi poimintakierrokseksi ja yhdistele niitä tarpeen mukaan muiden työkirjarivien kanssa siten, että työntekijän aika käytetään mahdollisimman tehokkaasti.  
 4.  Valitse **Luo poiminta** -toiminto.  
@@ -52,7 +52,7 @@ Jos sisäiselle toimintoalueelle, kuten tuotantokerrokselle, määritetään ole
 ## <a name="filling-the-consumption-bin"></a>Kulutuksen varastopaikan täyttäminen
 Tämä työnkulkukaavio näyttää, miten tuotantotilauksen osarivien **Varastopaikkakoodi**-kenttä täytetään sijaintiasetusten mukaisesti.
 
-![Varastopaikkojen työnkulkukaavio](media/binflow.png "BinFlow")  
+![Varastopaikkojen työnkulkukaavio.](media/binflow.png "BinFlow")  
 
 ## <a name="see-also"></a>Katso myös
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
@@ -60,4 +60,7 @@ Tämä työnkulkukaavio näyttää, miten tuotantotilauksen osarivien **Varastop
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)     
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

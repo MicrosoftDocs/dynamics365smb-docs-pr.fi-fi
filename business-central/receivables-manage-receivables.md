@@ -1,30 +1,29 @@
 ---
-title: Myyntisaamisten hallintatehtävien yleiskatsaus | Microsoft Docs
+title: Myyntisaamisten hallintatehtävien yleiskatsaus
 description: Ohjeaiheessa kerrotaan tehtävistä, joilla hallitaan myyntisaamisia ja kohdistetaan maksuja asiakas- ja toimittajatapahtumiin.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customer payment, debtor, balance due, AR
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 4d9431ba233f1fa304fab589a3dc85e831e53217
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 2c12c55b812c5ee92c32f30457f50851841b97d0
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3191905"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011228"
 ---
 # <a name="managing-receivables"></a>Myyntisaamisten hallinta
+
 Säännöllinen vaihe missä tahansa rahoituskierrossa on pankkitilien täsmäyttäminen, mikä edellyttää saapuvien maksujen kohdistamista asiakas- tai toimittajatapahtumiin, jotta myyntilaskut tai ostohyvityslaskut voidaan sulkea maksettuina.
 
 Useimmat asiakkaat yritysympäristöissä maksavat jonkin aikaa toimituksen jälkeen jättäen kirjatun myyntilaskun avoimeksi myyntireskontraosaston suljettavaksi (kohdistettavaksi) kun maksu vastaanotetaan. Jotkin myyntilaskut voidaan kuitenkin maksaa heti esimerkiksi PayPal-maksuna. Tällaiset laskut kohdistetaan välittömästi maksetuiksi kirjaamisen yhteydessä ja siksi ne eivät näy myyntireskontralle käsiteltävinä maksuina. Lisätietoja on esimerkiksi kohdassa [Myynnin laskutus](sales-how-invoice-sales.md).  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]issa voi rekisteröidä maksut nopeasti **Maksujen täsmäytyskirjauskansio** -sivun avulla tuomalla pankin tiliotteen tai syötteen. Maksut kohdistetaan avoimiin asiakas- tai toimittajatapahtumiin maksutekstin ja tapahtumatietojen välisen täsmäytyksen perusteella. Voit tarkastella ja muuttaa täsmäytyksiä ennen päiväkirjan kirjaamista sekä sulkea tapahtumien pankkitilitapahtumia päiväkirjaan kirjauksen aikana. Pankkitili täsmäytetään, kun kaikki maksut on kohdistettu.
+[!INCLUDE[prod_short](includes/prod_short.md)]issa voi rekisteröidä maksut nopeasti **Maksujen täsmäytyskirjauskansio** -sivun avulla tuomalla pankin tiliotteen tai syötteen. Maksut kohdistetaan avoimiin asiakas- tai toimittajatapahtumiin maksutekstin ja tapahtumatietojen välisen täsmäytyksen perusteella. Voit tarkastella ja muuttaa täsmäytyksiä ennen päiväkirjan kirjaamista sekä sulkea tapahtumien pankkitilitapahtumia päiväkirjaan kirjauksen aikana. Pankkitili täsmäytetään, kun kaikki maksut on kohdistettu.
 
 On olemassa muita sivuja, joissa voit joko kohdistaa maksuja tai täsmäyttää pankkitilejä:
 
@@ -32,7 +31,7 @@ On olemassa muita sivuja, joissa voit joko kohdistaa maksuja tai täsmäyttää 
 * Voit kohdistaa manuaalisesti **Maksurekisteröinti**-sivulla käteisenä, sekkinä tai pankkitapahtumana vastaanotetut maksut maksamattomia myyntiasiakirjoja vastaan. Huomaa, että tämä toiminto on käytettävissä vain myyntiasiakirjoja varten. Tässä ei voi kohdistaa lähteviä maksuja eikä täsmäyttää pankkitilejä.
 * **Kassapäiväkirja**-sivulla, jossa vastaanotot kirjataan antamalla manuaalisesti maksurivi soveltuvaan pääkirjaan tai soveltuvalle asiakkaalle tai toiselle tilille. Voit kohdistaa vastaanoton tai hyvityksen yhteen avoimeen tapahtumaan tai useisiin avoimiin tapahtumiin, ennen kuin kirjaat kassapäiväkirjan. Voit tehdä kohdistuksen myös asiakastapahtumista. Tässä ei voi täsmäyttää pankkitilejä.
 
-**Maksujen täsmäytyskirjauskansio**- ja **Pankkitilin täsmäytys**- sivuilla käytetään automaattista täsmäytyslogiikkaa, jonka voit määrittää **Maksusovelluksen säännöt** -sivulla. Lisätietoja on kohdassa [Määritä sääntöjä maksujen automaattiselle soveltamiselle](receivables-how-set-up-payment-application-rules.md).
+**Maksujen täsmäytyskirjauskansio** -sivulla käytetään automaattista täsmäytyslogiikkaa, jonka voi määrittää **Maksusovelluksen säännöt** -sivulla. Lisätietoja on kohdassa [Määritä sääntöjä maksujen automaattiselle soveltamiselle](receivables-how-set-up-payment-application-rules.md).  
 
 Myyntisaamisten hallinnassa kerätään myös avoimet saldot, kuten viivästyskulut, ja lähetetään muistutuksia sekä määritetään pankkitilit sallimaan asiakkaiden maksujen nostamien heidän tileiltään automaattisesti.
 
@@ -46,7 +45,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Asiakkaiden muistuttaminen erääntyneistä summista, koron laskeminen ja viivästyskululaskut sekä myyntireskontran hallinta. |[Avointen saldojen perintä](receivables-collect-outstanding-balances.md) |
 |Asiakkaan suostumuksella voit kerätä maksut suoraan asiakkaan pankkitililtä. Tämä on mahdollista vain euroina.|[Maksujen kerääminen SEPA-suoraveloitusperintänä.](finance-collect-payments-with-sepa-direct-debit.md)|
 |Estä asiakkaan syöttäminen asiakirjoihin tai kirjauksesta esimerkiksi maksukyvyttömyyden vuoksi.|[Asiakkaiden estäminen](receivables-how-block-customers.md)|
-|Varmista. että tiedät toimitettujen nimikkeiden kulut määrittämällä lisätyt nimikekulut, kuten nimikkeiden myynnin jälkeen syntyvät rahti-, käsittely-, vakuutus- ja kuljetuskulut.|[Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md)|
 |Määritä toleranssi, jonka mukaan järjestelmä sulkee laskun, vaikka maksu ja mahdolliset alennukset eivät täysin vastaa laskun koko summaa.|[Maksutoleranssien ja maksualennustoleranssien käsitteleminen](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Ennusta, milloin myyntiasiakirjan laskut määritetään myöhästyneiksi. | [Myöhästyneen maksun ennusteen laajennus](ui-extensions-late-payment-prediction.md) |
 
@@ -55,7 +53,10 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  
 [Ostovelkojen hallinta](payables-manage-payables.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

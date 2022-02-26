@@ -3,19 +3,19 @@ title: Analyysiraporttien luominen | Microsoft Docs
 description: Kuvaa, miten uusien analyysiraporttien luominen myyntejä, ostoja ja varastoa varten sekä analyysimallien määrittäminen tapahtuu.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: eae3cec231fd7c1da537ebf64c1008c8e114c9eb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: f8454b9427398dcd95df914ffb9596bf0318f9ba
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186090"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437049"
 ---
 #  <a name="create-analysis-reports"></a>Analyysiraporttien luominen
 Myyntipäälliköiden on analysoitava liikevaihtoa, bruttokatetta ja muita myynnin tunnuslukuja säännöllisesti. Ostajat ovat kiinnostuneempia ostovolyymien dynamiikasta, toimittajien suorituskyvystä ja ostohinnoista. Logistiikka-/varastopäälliköt puolestaan tarvitsevat tietoja varaston kierrosta, varaston siirtoanalyysin ja tilastotietoja varaston arvosta.  
@@ -41,11 +41,11 @@ Sen jälkeen voit määrittää seuraavanlaiset sarakkeet:
 - Edellisen kuukauden myynti prosentteina.  
 
 ## <a name="setting-up-line-and-column-layouts"></a>Rivi- ja sarakeasettelujen määrittäminen  
- **Analyysiraportti**-sivun avulla voit katsella eri rivi- ja sarakeasetteluja sen mukaan, mitä olet määrittänyt. Rivit tai rivimallit määritetään **Analyysirivimallit**-sivulla. Voit määrittää tällä sivulla raportin nimen ja raportin riveillä näkyvät objektit. Sarakkeet määritetään **Analyysisarakkeen mallit** -sivulla. Voit määrittää tällä sivulla sarakkeen mallin nimen ja raportissa sarakkeina esitettävät analyysin parametrit. **Analyysisarakkeen mallit** -sivulla jokainen rivi vastaa raportin saraketta. Huomaa, että analyysin rivit ja sarakkeet ovat riippumattomia toisistaan.  
+ **Analyysiraportti**-sivulla voi tarkastella erilaisia rivi- ja sarakeasetteluja sen mukaan, miten rivit ja rivimallit on määritetty **Analyysirivimallit**-sivulla. Voit määrittää raportin nimen ja raportin riveillä näkyvät objektit. Sarakkeet määritetään **Analyysisarakkeen mallit** -sivulla. Voit määrittää sarakkeen mallin nimen ja raportissa sarakkeina esitettävät analyysin parametrit. **Analyysisarakkeen mallit** -sivulla jokainen rivi vastaa raportin saraketta. Huomaa, että analyysin rivit ja sarakkeet ovat riippumattomia toisistaan.  
 
-Sovellus yhdistää raportin tuloksen **Analyysiraportti**-sivulla määrittämiesi rivien ja sarakkeiden perusteella käyttämällä esimerkiksi seuraavanlaista matriisia:  
+[!INCLUDE[prod_short](includes/prod_short.md)] yhdistää raportin tuloksen **Analyysiraportti**-sivulla määritettyjen rivien ja sarakkeiden perusteella seuraavassa taulukossa näytetyllä tavalla.  
 
-| |Kuluvan kuukauden myynti|Edellisen kuukauden myynti|Edellisen kuukauden myynti (%)|  
+|- |Kuluvan kuukauden myynti|Edellisen kuukauden myynti|Edellisen kuukauden myynti (%)|  
 |-|-|-|-|  
 |Tietokoneet| | | |  
 |Näytöt| | | |  
@@ -61,7 +61,7 @@ Analyysin parametrit näkyvät analyysiraportissa sarakkeina. Voit määrittää
 
 Malli sisältää joukon rivejä, joista jokainen vastaa analyysiraportissa näkyviä analyysisarakkeita. Kun määrität sarakkeen, liitä analyysin tyyppikoodi riviin. Analyysin tyyppikoodi määrittää lähdetietojen tyypin nimiketapahtumissa, joihin analyysi perustuu. Lähdetiedot sisältävät kustannukset, myyntisumman tai määrän ja niihin liittyvät arvotapahtumat. Voit määrittää haluamasi määrän sarakkeen malleja ja luoda sen jälkeen niiden avulla uusia analyysiraportteja.    
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myynnin sarakemallit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntisarakemallit** ja valitse sitten liittyvä linkki.  
 2. Valitse ensimmäinen tyhjä rivi ja täytä tarvittavat kentät.
 3. Valitse **Sarakkeet**-toiminto.  
 4. Määritä analyysiraporttiin sisällytettävät sarakkeet täyttämällä **Analysointisarakkeet**-sivun kentät.  
@@ -78,7 +78,7 @@ Analyysin objektit näkyvät analyysiraportissa riveillä. Voit määrittää an
 
 Malli sisältää joukon rivejä, jotka vastaavat analyysiraportissa näkyviä rivejä. Rivi voi tarkoittaa yhtä nimikettä tai nimikkeiden aluetta, yhtä asiakasta tai asiakkaiden aluetta, yhtä toimittajaa tai toimittajien aluetta tai yhtä ryhmää tai ryhmien aluetta. Voit myös luoda riville kaavan, joka laskee muut rivit yhteen. Voit määrittää haluamasi määrän rivimalleja ja luoda niiden avulla sen jälkeen uusia analyysiraportteja.    
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntirivimallit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntirivimallit** ja valitse sitten liittyvä linkki.  
 2. Valitse ensimmäinen tyhjä rivi ja täytä tarvittavat kentät.
 3. Valitse **Rivit**-toiminto.  
 4. Luo **Analyysin rivit** -sivulla rivejä niitä nimikkeitä, asiakkaita, toimittajia tai myyjiä varten, joiden luvut haluat näyttää analyysiraportissa. Täytä **Tyyppi**-, **Alue**- ja **Kuvaus**-kenttä.  
@@ -91,7 +91,7 @@ Seuraava toimenpide perustuu myynnin analyysiraportteihin. Vaiheet ovat samanlai
 
 Analyysiraporttien avulla voit analysoida myynnin dynamiikkaa tunnuslukujen mukaan, jotka valitset, esimerkiksi liikevaihto, sekä summat että määrät, katetuotto tai todellisen myynnin edistyminen budjettiin verraten. Raportin avulla voit myös analysoida keskimääräisiä myyntihintojasi ja arvioida myyntihenkilöstösi myyntituloksia.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myynnin analyysiraportit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myynnin analyysiraportit** ja valitse sitten liittyvä linkki.  
 2. Valitse **Analyysiraportti - Myynti** -sivulla **Uusi**-toiminto.
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Valitse **Muokkaa analyysiraporttia** -toiminto.
@@ -105,4 +105,7 @@ Analyysiraporttien avulla voit analysoida myynnin dynamiikkaa tunnuslukujen muka
 [Rahoitus](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

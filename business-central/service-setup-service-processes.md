@@ -3,19 +3,19 @@ title: Huoltohallintoprosessien määrittäminen | Microsoft Docs
 description: Lisätietoja sellaisten prosessien määrittämisestä, joilla voidaan varmistaa asiakkaiden tyytyväisyys asiakaspalveluun.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
-ms.date: 04/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 80f56b9572e8ff20c29174e738aff135243530b7
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 91a6b16b4a7670fa78ddda0317ce20f259d35892
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192292"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438230"
 ---
 # <a name="configure-service-processes"></a>Huoltoprosessien määrittäminen
 Seuraavaksi käsitellään esimerkkejä asetuksista, joita voidaan käyttää huoltohallintoprosesseissa:  
@@ -27,7 +27,7 @@ Seuraavaksi käsitellään esimerkkejä asetuksista, joita voidaan käyttää hu
 * Huoltoon liittyvissä asiakirjoissa ja nimikkeissä käytettävät numerosarjat.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Yleisten ja pakollisten asetusten antaminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huollon hallinnan asetukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltohallinnon asetukset** ja valitse sitten vastaava linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Katso myös  
@@ -37,3 +37,6 @@ Seuraavaksi käsitellään esimerkkejä asetuksista, joita voidaan käyttää hu
 [Huollon lisäkustannusten määrittäminen](service-how-setup-service-costs-pricing.md)  
 [Vianmäärityksen määrittäminen](service-how-setup-troubleshooting.md)  
 [Huoltohallinto](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

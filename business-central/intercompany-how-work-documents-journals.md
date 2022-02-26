@@ -1,21 +1,22 @@
 ---
-title: Konsernin asiakirjojen ja päiväkirjojen kirjaaminen| Microsoft Docs
-description: Tapahtumien kirjaaminen yhdessä konsernikumppanien kanssa konsernin asiakirjojen avulla.
+title: Konsernin asiakirjojen ja päiväkirjojen kirjaaminen
+description: Tämä aihe selitää, miten voit kirjata tapahtumat konsernikumppanien kanssa konsernin asiakirjojen tai päiväkirjojen avulla.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 55f7e0f58634ad56d88d6e826f42eafdc92c6a6a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 610
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 903a0b1770bb29cb744f2aa8dc9510541ca7539c
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182418"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029402"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Konserniasiakirjojen ja -päiväkirjojen käyttäminen
 Voit kirjata tapahtumat konsernikumppanien kanssa konsernin asiakirjojen tai päiväkirjojen avulla. Kun kirjaat konsernin asiakirja- tai päiväkirjarivin omassa yrityksessä, vastaava asiakirja- ja päiväkirjarivi luodaan konsernin Lähtevät-kansioon kumppanille lähettämistä varten. Kumppaniyritys voi sitten kirjata vastaavan tapahtuman omassa yrityksessään ilman, että tiedot on annettava uudelleen.
@@ -29,7 +30,7 @@ Voit lähettää myynti- ja ostotilauksia sekä palauttaa tilauksia ennen kirjaa
 
 Seuraavissa ohjeissa neuvotaan, kuinka voit täyttää ja lähettää konsernin myyntitilauksen. Samat ohjeet koskevat myös konsernin osto- ja palautustilauksia sekä kirjattuja konsernin laskuja ja hyvityslaskuja.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 2. Luo uusi myyntitilaus valitsemalla **Uusi**. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).  
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Varmista, että asiakas konsernikumppani.
@@ -41,7 +42,7 @@ Seuraavissa ohjeissa neuvotaan, kuinka voit täyttää ja lähettää konsernin 
 ## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Voit täyttää ja kirjata konsernin päiväkirjan seuraavasti
 Kun kirjaat konsernin yleisen päiväkirjan rivin omassa yrityksessä, vastaava päiväkirjarivi luodaan konsernin Lähtevät-kansioon kumppanille lähettämistä varten. Kumppaniyritys voi sitten kirjata vastaavan tapahtuman omassa yrityksessään ilman, että tiedot on annettava uudelleen.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Konsernin yleiset päiväkirjat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Konsernin yleiset päiväkirjat** ja valitse sitten vastaava linkki.  
 2. Avaa käsiteltävä päiväkirjaerä. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).
 3. Täytä tarvittavat kentät.
 4. Anna **Konsernikumppanin KP-tilinro** kentässä se konsernin kirjanpitotilin numero, jolle summa kirjataan kumppaniyrityksessä.
@@ -57,4 +58,7 @@ Kyseiset tapahtumat kirjataan omaan yritykseen ja päiväkirjaan. Lisäksi vasta
 [Rahoitus](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

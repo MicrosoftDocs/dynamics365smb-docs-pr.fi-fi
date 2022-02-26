@@ -1,23 +1,23 @@
 ---
 title: Tietokannan lukitusten tarkasteleminen
+description: Lue miten voit tarkastella asiakkaan tietokantalukkojen tietoja suoraan Business Centralin asiakasliittymästä.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.search.form: 9511
+ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: abee0f31d66f648f4b0be567d8599b31c536a193
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.openlocfilehash: 6fe59a57514225a0a03d45770df2329c63fda4af
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324100"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011729"
 ---
 # <a name="viewing-database-locks"></a>Tietokannan lukitusten tarkasteleminen
-
-## <a name="about-locks"></a>Tietoja lukituksista
 
 Tietokannan lukitseminen ohjaa useiden käyttäjien samojen tietojen samanaikaista käyttöoikeutta. Voit suojata tapahtuman niin, että muut tapahtumat eivät voi muokata samoja tietoja, jos ensimmäinen tapahtuma asettaa tiedoille lukituksen. Lukitus säilyy tapahtuman valmistumiseen asti.
 
@@ -25,7 +25,7 @@ Käyttäjät eivät ehkä voi suorittaa tapahtumia lukittujen tietojen kanssa. Y
 
 ## <a name="to-view-database-locks"></a>Tietokannan lukitusten tarkasteleminen
 
-Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Tietokannan lukitukset** ja valitse sitten aiheeseen liittyvä linkki.
+Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Tietokannan lukitukset** ja valitse sitten vastaava linkki.
 
 **Tietokannan lukitukset** -sivu sisältää kaikkien nykyisten tietokannan lukitusten tilannevedoksen.
 
@@ -34,3 +34,6 @@ Lisätietoja tietokannan lukituksesta on kohdassa [Tietokannan lukitusten valvon
 ## <a name="see-also"></a>Katso myös
 
 [Tietokannan lukitusten valvonta](/dynamics365/business-central/dev-itpro/administration/monitor-database-locks) 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

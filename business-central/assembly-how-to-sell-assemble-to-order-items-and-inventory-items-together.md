@@ -1,21 +1,21 @@
 ---
-title: Kokoonpano tilausta varten -nimikkeiden ja varastonimikkeiden myyminen yhdessä | Microsoft Docs
-description: Jos kokoonpanon nimike on määritetty Kokoonpano varastoon -toimintoa varten, myyntitilauksen oletusprosessi olettaa, että nimike on jo koottu ja se voidaan poimia varastosta, jos sitä on saatavana. Mutta jos osa määrästä (tai koko määrä) ei ole saatavilla, voit luoda joustavasti kokoonpanotilauksen jäljellä olevalle määrälle.
+title: Kokoonpano tilausta varten -nimikkeiden ja varastonimikkeiden myyminen yhdessä
+description: Jos osa kokoonpanon nimikkeestä, jossa on kokoonpano varastoon -määritys, ei ole saatavilla, voit luoda joustavasti kokoonpanotilauksen jäljellä olevalle määrälle.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 790e4cae4e13eae0d394859f2944b56f2dbefc50
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 08b7d36eb7cace9b70f5b58a387907ecb54f39e8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186450"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6326296"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Kokoonpano tilausta varten -nimikkeiden ja varastonimikkeiden myyminen yhdessä
 Jos kokoonpanon nimikkeen kortin **Kokoonpanokäytäntö**-kenttä sisältää **Kokoonpano varastoon** -kohdan, myyntitilauksen oletusprosessi olettaa, että nimike on jo koottu ja se voidaan poimia varastosta, jos sitä on saatavana. Tämän vuoksi yhtään kokoonpanotilausta ei luoda automaattisesti ja linkitetä myyntitilauksen riviin. Jos koko (tai osa) määrästä ei ole saatavana, voit luoda kokoonpanotilauksen jäljellä olevalle määrälle täyttämällä myyntitilausrivin **Kokoonpantava määrä tilausta varten** -kenttään arvon. Tällä tavalla voit määrittää nimikkeen kokoonpanon tilausta varten, vaikka se on määritetty kokoonpantavaksi varastoon.  
@@ -43,4 +43,7 @@ Samanlainen joustavuus on olemassa, kun myyt tilaukseen koottavia nimikkeitä, j
 [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

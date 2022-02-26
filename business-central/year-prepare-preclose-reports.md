@@ -1,24 +1,24 @@
 ---
-title: Tilin tietojen oikeellisuuden varmistamiseen käytettävien sulkemista edeltävien raporttien yleiskatsaus | Microsoft Docs
+title: Tilin tietojen oikeellisuuden varmistamiseen käytettävien sulkemista edeltävien raporttien yleiskatsaus
 description: Ohjeaiheessa on yleiskatsaus raporteista, joilla voidaan varmistaa tilien tietojen oikeellisuus ennen kirjojen sulkemista vuoden tai kauden lopussa.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2019
+ms.search.form: 1393, 1394
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d3e522f1fedf4e5ea5beaccd0e0fc015414b87c6
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 877f2ed9ba278ccafb26266d85165b8cfc5589d3
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1249696"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012655"
 ---
 # <a name="using-pre-closing-reports"></a>Sulkemista edeltävien raporttien käyttäminen
+
 Ennen kirjojen sulkemista vuoden tai kauden lopussa voit varmistaa tilien tietojen oikeellisuuden käyttämällä useita eri vakioraportteja. Voit esimerkiksi tarkistaa **Asiakas - Alust. saldo** -raportin avulla, että asiakkaan kirjausryhmän saldo vastaa vastaavan kirjanpitotilin saldoa tiettynä päivämääränä.
 
 Seuraavassa taulukossa on luettelo raporteista, joista voi olla hyötyä tässä prosessissa.
@@ -35,9 +35,13 @@ Seuraavassa taulukossa on luettelo raporteista, joista voi olla hyötyä tässä
 | Kirjanpitotilien saldot ja nettomuutokset sisältävän alustavan saldoraportin tulostaminen. |Alustava tulos/tase |
 | Konsolidoidun yrityksen alustavan saldon tulostaminen. |Konsolidoitu alust. tulos/tase |
 
-Jos haluat nähdä kaikki raportin, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, kirjoita taulukossa oleva nimi ja valitse sitten liittyvä linkki.
+Raportin nähdäksesi valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita nimi sellaisena kuin se näkyy taulukossa ja valitse sitten liittyvä linkki.
 
 ## <a name="see-also"></a>Katso myös
-[Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
 
+[Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

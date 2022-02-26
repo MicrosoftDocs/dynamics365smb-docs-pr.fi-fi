@@ -1,20 +1,21 @@
 ---
-title: Käyttöomaisuuden uudelleen luokittelu| Microsoft Docs
+title: Käyttöomaisuuden luokitteleminen uudelleen
 description: Voit luokitella käyttöomaisuuden uudelleen eri osastoon, jakaa sen tai yhdistää sen käyttöomaisuuseriin.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/04/2020
+ms.search.form: 5638, 5636, 5640, 5637
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0232ef89cd708c33d1db716a337edc8cb97c58d3
-ms.sourcegitcommit: ccae3ff6aaeaa52db9d6456042acdede19fb9f7b
+ms.openlocfilehash: a3f95096a2c4cfaf80e3473c405e527014e6697a
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435181"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029220"
 ---
 # <a name="transfer-split-or-combine-fixed-assets"></a>Käyttöomaisuuserien siirtäminen, jakaminen tai yhdistäminen
 
@@ -26,12 +27,12 @@ Käyttöomaisuus on ehkä siirrettävä toiselle osastolle esimerkiksi silloin, 
 
 1. Määritä uusi käyttöomaisuuserä. Syötä uusi osasto dimensioksi.  
 2. Liitä käyttöomaisuuden poistokirja uuteen käyttöomaisuuteen. Lisätietoja on kohdassa [Käyttöomaisuuden hankinta](fa-how-acquire.md).
-3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuuden uudelleenluokituspäiväkirjat** ja valitse sitten liittyvä linkki.
+3. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuuden uudelleenluokittelun päiväkirjat** ja valitse sitten liittyvä linkki.
 4. Luo päiväkirjan rivi, jonka **KO-nro**-kentässä on alkuperäinen käyttöomaisuuserä ja **Uusi KO-nro** -kentässä on uusi siirrettävä käyttöomaisuuserä. Täytä tarvittaessa myös muut kentät.  
 5. Valitse **Uudelleenluokita** -toiminto.
 
     Rivit luodaan nyt käyttöomaisuuden KP-päiväkirjaan käyttämällä mallia ja erää, jotka olet määrittänyt **KO-päiväkirjan asetukset** -sivulla määritellyn poistokirjan osalta. Lisätietoja on kohdassa [Käyttöomaisuuden poiston määrittäminen](fa-how-setup-depreciation.md).
-6. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuuden KP-päiväkirjat** ja valitse sitten liittyvä linkki.    
+6. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten vastaava linkki.    
 7. Valitse **Käyttöomaisuuden KP-päiväkirja** -sivulla **Kirjaa**-toiminto ja kirjaa vaiheissa 4 ja 5 suoritettu uudelleenluokittelu.
 
 Jos yhdelle omaisuuserälle on kirjattu hankintameno, käyttöomaisuuden uudelleenluokituspäiväkirjaa voidaan käyttää jakamaan hankintameno usean omaisuuserän kesken.  
@@ -41,7 +42,7 @@ Voit jakaa yhden käyttöomaisuuserän useiksi käyttöomaisuuseriksi esimerkiks
 
 1. Määritä kaksi uutta käyttöomaisuuserää. Syötä asiaankuuluvat osastot dimensioiksi.  
 2. Liitä käyttöomaisuuden poistokirjat uusiin käyttöomaisuuseriin. Lisätietoja on kohdassa [Käyttöomaisuuden hankinta](fa-how-acquire.md).
-3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuuden uudelleenluokituspäiväkirjat** ja valitse sitten liittyvä linkki.
+3. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuuden uudelleenluokittelun päiväkirjat** ja valitse sitten liittyvä linkki.
 4. Luo kaksi uudelleenluokittelupäiväkirjan riviä, yksi kullekin uudelle käyttöomaisuuserälle.
 5. Anna ensimmäisellä rivillä toinen käyttöomaisuuserä **Uusi KO-nro** -kentässä ja 25 **Uudell.luokita hankintameno-%** -kentässä.
 6. Anna toisella rivillä kolmas käyttöomaisuuserä **Uusi KO-nro** -kentässä ja 40 **Uudell.luokita hankintameno-%** -kentässä.
@@ -49,26 +50,26 @@ Voit jakaa yhden käyttöomaisuuserän useiksi käyttöomaisuuseriksi esimerkiks
 8. Valitse **Uudelleenluokita** -toiminto.  
 
     Rivit luodaan nyt käyttöomaisuuden KP-päiväkirjaan käyttämällä mallia ja erää, jotka olet määrittänyt **KO-päiväkirjan asetukset** -sivulla määritellyn poistokirjan osalta. Lisätietoja on kohdassa [Käyttöomaisuuden poiston määrittäminen](fa-how-setup-depreciation.md).    
-9. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuuden KP-päiväkirjat** ja valitse sitten liittyvä linkki.
+9. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten vastaava linkki.
 10. Valitse **Käyttöomaisuuden KP-päiväkirja** -sivulla **Kirjaa**-toiminto ja kirjaa vaiheissa 4–8 suoritettu uudelleenluokittelu.
 
 ## <a name="to-combine-two-fixed-assets-into-one"></a>Kahden käyttöomaisuuserän yhdistäminen yhdeksi eräksi
 
 Voit yhdistää useita käyttöomaisuuseriä yhdeksi käyttöomaisuuseräksi esimerkiksi silloin, kun siirrät jaetut käyttöomaisuuserät yhteen osastoon. Jos olet kirjannut siirrettävän käyttöomaisuuserän hankintamenot ja poiston, nämä arvot voidaan yhdistää yhdeksi käyttöomaisuuseräksi.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuuden uudelleenluokituspäiväkirjat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuuden uudelleenluokittelun päiväkirjat** ja valitse sitten liittyvä linkki.
 2. Luo uudelleenluokittelupäiväkirjan, jonka **KO-nro**-kentässä on siirrettävä tai yhdistettäv käyttöomaisuuserä ja **Uusi KO-nro** -kentässä on käyttöomaisuuserä, jonka kanssa se yhdistetään.
 3. Jätä **Uudell.luokita hankintameno-%** -kenttä tyhjäksi ja siirrä/yhdistä kaikki hankintamenot.  
 4. Valitse **Uudelleenluokita hankintameno**- ja **Uudelleenluokita poisto** -valintaruutu.
 5. Valitse **Uudelleenluokita** -toiminto.
 
     Rivit luodaan nyt käyttöomaisuuden KP-päiväkirjaan käyttämällä mallia ja erää, jotka olet määrittänyt **Käyttöomaisuuspäiväkirjan asetukset** -sivulla määritellyn poistokirjan osalta. Lisätietoja on kohdassa [Käyttöomaisuuden poiston määrittäminen](fa-how-setup-depreciation.md).   
-6. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuuden KP-päiväkirjat** ja valitse sitten liittyvä linkki.
+6. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöom. KP-päiväkirjat** ja valitse sitten liittyvä linkki.
 7. Valitse **Käyttöomaisuuden KP-päiväkirja** -sivulla **Kirjaa**-toiminto ja kirjaa vaiheissa 2–5 suoritettu uudelleenluokittelu.
 
 ## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>Muutetun poistokirjan arvojen tarkasteleminen käyttöomaisuuden uudelleenluokittelun vuoksi
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuuden kirjanpitoarvo 02** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuuden kirjanpitoarvo 02** ja valitse sitten liittyvä linkki.
 2. Täytä tarvittavat kentät.
 3. Valitse **Tulosta**- tai **Esikatsele**-painike.  
 
@@ -77,5 +78,8 @@ Voit yhdistää useita käyttöomaisuuseriä yhdeksi käyttöomaisuuseräksi esi
 [Käyttöomaisuus](fa-manage.md)  
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Rahoitus](finance.md)  
-[Käytön aloittaminen](product-get-started.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

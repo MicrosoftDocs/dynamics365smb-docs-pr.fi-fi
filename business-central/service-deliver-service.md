@@ -5,28 +5,28 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, respond, response
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 08989bb6903aa9f236b89d55d4b54af4db51cf1a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 8a0e8225d69d04ce82d0e0243f3e98207c892175
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2311906"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011969"
 ---
 # <a name="delivering-service"></a>Huollon toimittaminen
-[!INCLUDE[d365fin](includes/d365fin_md.md)]:n toiminnot helpottavat huollon toimittamista luotujen sopimusten ja huoltotilausten mukaisesti. Huoltoteknikot ja huollon aikatauluttajat voivat tarkastaa odottavat huoltotilaukset helposti **lähetystaulukosta**. **Lähetystaulukosta** ilmenevät sekä käynnissä olevat että valmiit tilaukset.  
+[!INCLUDE[prod_short](includes/prod_short.md)]:n toiminnot helpottavat huollon toimittamista luotujen sopimusten ja huoltotilausten mukaisesti. Huoltoteknikot ja huollon aikatauluttajat voivat tarkastaa odottavat huoltotilaukset helposti **lähetystaulukosta**. **Lähetystaulukosta** ilmenevät sekä käynnissä olevat että valmiit tilaukset.  
   
 Voit tarkastella jonossa olevia huoltotilauksia myös **Huoltotehtävät**-sivulla. Tästä huoltovelvoitteiden näkymästä voi tarkistaa, missä kohtaa huoltotyönkulkua tilaus on. Samassa näkymässä voi myös muuttaa tilauksen tilan ajan tasalle.  
   
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.   
 
-Asiakkaiden huoltopyyntöjen käsitteleminen on olennainen osa huoltohallintosovellusta. Huoltopyynnöt muunnetaan yleensä huoltotilauksiksi. [!INCLUDE[d365fin](includes/d365fin_md.md)]:n työkaluilla voit luoda tilauksen suoraan vastauksena asiakkaan pyyntöön tai osana sopimusprosessia, jos sovellus näin määritetään.  
+Asiakkaiden huoltopyyntöjen käsitteleminen on olennainen osa huoltohallintosovellusta. Huoltopyynnöt muunnetaan yleensä huoltotilauksiksi. [!INCLUDE[prod_short](includes/prod_short.md)]:n työkaluilla voit luoda tilauksen suoraan vastauksena asiakkaan pyyntöön tai osana sopimusprosessia, jos sovellus näin määritetään.  
   
 Voit hallita tarvittaessa asiakkaiden lainatavaraohjelmaa. Voit myös selvittää hinnoittelurakenteen, asettaa huoltohinnoittelutarjoukset loogisiin ryhmittelyihin ja luoda hintojen muutokset.  
   
@@ -46,3 +46,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 [Huollon suunnittelu](service-plan-service.md)  
 [Huoltosopimusten toteuttaminen](service-fulfill-service-contracts.md)  
 [Projektien hallinta](projects-manage-projects.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

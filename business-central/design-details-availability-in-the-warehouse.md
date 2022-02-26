@@ -3,19 +3,19 @@ title: Rakennetiedot – Saatavuus varastossa | Microsoft Docs
 description: Järjestelmän on valvottava varaston nimikkeiden saatavuutta jatkuvasti, jotta lähtevät tilaukset toimitetaan tehokkaasti ja toimitukset saadaan halutussa ajassa.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 10eb4e51a90437d847d01fdbf577adba8c8275eb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 7d23dc10ffb215ee2ac160c9ec9b9fd1ddb5cc2d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185754"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442533"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Rakennetiedot: saatavuus varastossa
 Järjestelmän on valvottava varaston nimikkeiden saatavuutta jatkuvasti, jotta lähtevät tilaukset toimitetaan tehokkaasti ja toimitukset saadaan halutussa ajassa.  
@@ -47,7 +47,7 @@ Jos yksi tai useampi ehdoista ei täyty, erilaisia virheilmoituksia saattaa ilme
 
  Seuraava kaavio sisältää laskelman eri elementit.  
 
- ![Käytettävissä poimintaan, kun varaus on päällekkäinen](media/design_details_warehouse_management_availability_2.png "Käytettävissä poimintaan, kun varaus on päällekkäinen")  
+ ![Käytettävissä poimintaan, kun varaus on päällekkäinen.](media/design_details_warehouse_management_availability_2.png "Käytettävissä poimintaan, kun varaus on päällekkäinen")  
 
 ## <a name="quantity-available-to-reserve"></a>Varattavissa oleva määrä  
  Koska lokeron sisältö ja varaus ovat olemassa, varattavien nimikkeiden määrä tulee kohdistaa varauksilla lähtevän fyysisen varastoinnin asiakirjoihin.  
@@ -72,8 +72,11 @@ Jos yksi tai useampi ehdoista ei täyty, erilaisia virheilmoituksia saattaa ilme
 
  Seuraava kaavio sisältää laskelman eri elementit.  
 
- ![Varattavissa varaston kohdistusta kohden](media/design_details_warehouse_management_availability_3.png "Varattavissa varaston kohdistusta kohden")  
+ ![Varattavissa varaston kohdistusta kohden.](media/design_details_warehouse_management_availability_3.png "Varattavissa varaston kohdistusta kohden")  
 
 ## <a name="see-also"></a>Katso myös  
  [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
  [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

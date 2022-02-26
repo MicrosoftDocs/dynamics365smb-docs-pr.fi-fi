@@ -3,20 +3,20 @@ title: Tietojen lisääminen tietueisiin omaa käyttöä varten | Microsoft Docs
 description: Voit liittää muistiinpanon mihin tahansa sovelluksen tietueeseen. Jos sinulla on esimerkiksi myyntitilaukseen liittyviä lisätietoja, jotka eivät kuitenkaan sovi mihinkään myyntitilauksen kenttään, voit kirjoittaa muistion.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ROBOTS: NOINDEX,NOFOLLOW
-ms.date: 04/01/2019
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 82b2dd880618f8ee7f44203db5638ef6da12c5cc
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 4199cfc818aed1baacd5d1c70b74d27883000829
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1247787"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772152"
 ---
 # <a name="add-and-view-notes-on-records"></a>Muistiinpanojen lisääminen tietueisiin ja niiden tarkasteleminen
  Voit <!--OnPrem and your colleagues -->lisätä muistiinpanoja sovelluksen tietueisiin. Monilla sivuilla, etenkin niillä sivuilla, joissa näkyy tietueluetteloita, kuten **Myyntitilaukset**-sivulla, on **Muistiinpanot**-toiminto tai **Muistiinpanot**-tietoruutu. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
@@ -48,4 +48,7 @@ ms.locfileid: "1247787"
 <!--OnPrem
 3.  Choose the **OK** button.  -->
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

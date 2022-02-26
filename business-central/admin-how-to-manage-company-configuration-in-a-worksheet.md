@@ -1,34 +1,34 @@
 ---
-title: Yrityksen määrittämisen hallinta työkirjassa | Microsoft Docs
-description: Määritykset-työkirja on keskitetty sijainti, jossa voit suunnitella, seurata ja tehdä määrityksiä. Voit luoda taulukon kunkin yrityksen osalta, jonka kanssa toimit tai luoda perusmäärityskirjan, jonka avulla voidaan määrittää useita samankaltaisia yrityksiä.
+title: Yrityksen määrittämisen hallinta työkirjassa
+description: Määritykset-työkirja on keskitetty sijainti, jossa voit suunnitella, seurata ja tehdä yrityksen määrityksiä.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ab8b53ec5f913e07b80cc04a44805d77b10ffe86
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 34d21b0daca39c1b7895800a5f7fbc48485c6c20
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187122"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437960"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Yrityksen määrittämisen hallinta työkirjassa
 Määritykset-työkirja on keskitetty sijainti, jossa voit suunnitella, seurata ja tehdä määrityksiä. Voit luoda taulukon kunkin yrityksen osalta, jonka kanssa toimit tai luoda perusmäärityskirjan, jonka avulla voidaan määrittää useita samankaltaisia yrityksiä.  
 
-Kokoonpanopaketin valmistelun ensimmäinen vaihe on sellaisen yrityksen valinta, jonka olet jo luonut ja muokannut omia tarpeitasi varten. Tämä yritys toimii määritysten pohjana, kun määrität kokoonpanoja uusille yrityksille. Työkirjassa määritetään taulukot, joita määritysten halutaan hallitsevan ja käsittelevän. Koska useimmilla taulukoilla [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa on suhteita tai riippuvuuksia muihin taulukoihin, tulisi liittyvät taulukot myös sisällyttää tarpeen mukaan. Nämä taulukot toimivat yhdessä rakenteena, jonka ympärille muodostetaan uusi yritys. Seuraavat vaiheet opastavat kokoonpanosi paketoinnissa ja asentamisessa.  
+Kokoonpanopaketin valmistelun ensimmäinen vaihe on sellaisen yrityksen valinta, jonka olet jo luonut ja muokannut omia tarpeitasi varten. Tämä yritys toimii määritysten pohjana, kun määrität kokoonpanoja uusille yrityksille. Työkirjassa määritetään taulukot, joita määritysten halutaan hallitsevan ja käsittelevän. Koska useimmilla taulukoilla [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa on suhteita tai riippuvuuksia muihin taulukoihin, tulisi liittyvät taulukot myös sisällyttää tarpeen mukaan. Nämä taulukot toimivat yhdessä rakenteena, jonka ympärille muodostetaan uusi yritys. Seuraavat vaiheet opastavat kokoonpanosi paketoinnissa ja asentamisessa.  
 
 Voit helpottaa työsi seurantaa ja tarkastusta käyttämällä **Määrityspaketin taulukko** -tietoruutua nähdäksesi lisätietoja tietueista. Voit tarkkailla taulukoiden suhteita **Määritykseen liittyvä taulukko** -tietoruudussa.  
 
 Seuraavissa ohjeissa näytetään, miten voit lisätä ja mukauttaa kokoonpanosi taulukoiden tietoja.  
 
 ## <a name="to-open-the-configuration-worksheet"></a>Avaa määritystyökirja  
-1.  Avaa [!INCLUDE[d365fin](includes/d365fin_md.md)]issa yritys, joka on määrityksen pohjana, ja avaa sitten sen RapidStart Servicesin käyttöönottajien roolikeskus.  
-2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.  
+1.  Avaa [!INCLUDE[prod_short](includes/prod_short.md)]issa yritys, joka on määrityksen pohjana, ja avaa sitten sen RapidStart Servicesin käyttöönottajien roolikeskus.  
+2.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Taulukon lisääminen työkirjaan  
 1.  Valitse **Määritä työkirja** -sivulla **Muokkaa luetteloa** -toiminto.  
@@ -62,7 +62,7 @@ Seuraavissa ohjeissa näytetään, miten voit lisätä ja mukauttaa kokoonpanosi
     |**Sisällytä vain lisensoidut taulukot**|Valitse valintaruutu sisällyttääksesi vain taulukot, joita voit käyttöoikeutesi (jonka alaisena luot työkirjaa) mukaan käyttää.|
 
 3. Määritä **Objekti**-pikavälilehdessä asianmukaiset suodattimet sen mukaan, minkätyyppiset taulukot haluat sisällyttää ja jättää pois.  
-4. Valitse **OK**-painike. [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukot lisätään työkirjaan. Jokaisen luettelon tapahtumalla on rivi, jonka tyyppi on **Taulukko**.  
+4. Valitse **OK**-painike. [!INCLUDE[prod_short](includes/prod_short.md)] -taulukot lisätään työkirjaan. Jokaisen luettelon tapahtumalla on rivi, jonka tyyppi on **Taulukko**.  
 5. Voit poistaa taulukkotietojen kaksoiskappaleet, joita voi syntyä **Hae taulukot** -toiminnossa, valitsemalla **Poista rivien kaksoiskappaleet** -toiminto. Tämä poistaa päällekkäisiä taulukoita, joilla on sama pakettikoodi.  
 6. Voit lisätä taulukoita työkirjoihin, jotka liittyvät valitsemaasi taulukkoon. Tarkasta **Liittyvät taulukot**-tietoruudun tiedot nähdäksesi, puuttuuko taulukoita. Voit lisätä tiettyyn taulukkoon liittyvät taulukot valitsemalla taulukon luettelosta ja valitsemalla sitten **Hae liittyvät taulukot** -toiminto.  
 
@@ -97,7 +97,7 @@ Seuraavassa kuvaillaan, miten luodaan alue- ja ryhmänimityksiä ensimmäisen ta
 4. Valitse **Rivityyppi**-kentässä **Ryhmä**. Kirjoita **Nimi**-kenttään alueen nimi. Ryhmän nimet sisennetään automaattisesti.  
 5. Siirrä taulukoita asianmukaiseen luokkaan valitsemalla siirrettävä taulukko ja valitsemalla sitten **Siirrä ylös**- tai **Siirrä alas** -toiminto. Voit myös poistaa työkirjan rivin ja lisätä taulukon uudelleen tarvittavaan sijaintiin.  
 
-Jotkut [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukot ovat vakiomuotoisia, ja niiden tiedot eivät todennäköisesti muutu toteutusten välillä. Näin ollen asiakkaan kohdistuksen avustamiseksi voit poistaa nämä taulukot työkirjoista sen jälkeen, kun olet sisällyttänyt ne määrityspakettiin. Kun taulukot on lisätty, ne säilyvät määrityspaketin osina.  
+Jotkut [!INCLUDE[prod_short](includes/prod_short.md)] -taulukot ovat vakiomuotoisia, ja niiden tiedot eivät todennäköisesti muutu toteutusten välillä. Näin ollen asiakkaan kohdistuksen avustamiseksi voit poistaa nämä taulukot työkirjoista sen jälkeen, kun olet sisällyttänyt ne määrityspakettiin. Kun taulukot on lisätty, ne säilyvät määrityspaketin osina.  
 
 ## <a name="to-remove-a-standard-table-in-the-worksheet"></a>Siirrä vakiotaulukko työkirjassa  
 Kun olet lisännyt kaikki tarvittavat taulukot kokoonpanopakettiin, määritä, mitkä taulukot eivät edellytä asiakkaan toimia.  
@@ -114,11 +114,11 @@ Kun luot kokoonpanonpaketin ratkaisua varten, voit tarkastella ja mukauttaa käy
 1.  Etsi **Määritystyökirja** -sivulta taulukot, joiden tietoja haluat tarkastella tai muokata.  
 
     > [!NOTE]  
-    >  Varmista, että jokaiseen taulukkoon on määritetty sivun tunnus. Tämä arvo on täytetty automaattisesti vakiomuotoisissa [!INCLUDE[d365fin](includes/d365fin_md.md)] -taulukoissa. Mukautetuille taulukoille tunnus on kuitenkin annettava.  
+    >  Varmista, että jokaiseen taulukkoon on määritetty sivun tunnus. Tämä arvo on täytetty automaattisesti vakiomuotoisissa [!INCLUDE[prod_short](includes/prod_short.md)] -taulukoissa. Mukautetuille taulukoille tunnus on kuitenkin annettava.  
 
 2.  Valitse **Tietokantatiedot**-toiminto.  
 
-     Sivun [!INCLUDE[d365fin](includes/d365fin_md.md)] -sivu avautuu.  
+     Sivun [!INCLUDE[prod_short](includes/prod_short.md)] -sivu avautuu.  
 
 3.  Tarkastele käytettävissä olevia tietoja Muokkaa sitä tarpeen mukaan poistamalla epäolennaiset tietueet tai lisäämällä uusia.
 
@@ -126,3 +126,6 @@ Kun luot kokoonpanonpaketin ratkaisua varten, voit tarkastella ja mukauttaa käy
 [Yrityksen konfiguroinnin määrittäminen](admin-set-up-company-configuration.md)  
 [Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

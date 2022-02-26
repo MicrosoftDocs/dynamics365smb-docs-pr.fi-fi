@@ -1,21 +1,22 @@
 ---
-title: Myynnin hallintatehtävien yleiskatsaus | Microsoft Docs
-description: Tässä artikkelissa määritetään, miten myyntiaktiviteetteja hallitaan.
+title: Myynnin hallintatehtävien yleiskatsaus
+description: 'Lue lisää Business Centralin palveluiden käytöstä myynnin aktiviteettien hallintaan asiakkaiden kanssa: esimerkkeinä myyntilaskut, tilaukset ja tarjoukset.'
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/27/2020
-ms.author: sgroespe
-ms.openlocfilehash: c7b1d4b82d82b4957d7bd0d295182189ede60a79
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.search.form: 253
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 815c9240c9c81129009f70f050c869df4eea9b3a
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324364"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101001"
 ---
 # <a name="sales"></a>Myynti
 Luo myyntilasku tai -tilaus tallentaaksesi sopimuksesi asiakkaan kanssa ja myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla.
@@ -26,7 +27,7 @@ Voit neuvotella asiakkaan kanssa luomalla ensin myyntitarjoukseen, jonka voit mu
 
 Voit helposti korjata tai peruuttaa kirjatun myyntilaskun ennen kuin se on maksettu. Tästä on hyötyä, jos haluat korjata kirjoitusvirheen tai jos asiakas pyytää muutosta prosessin alkuvaiheessa. Jos kirjattu myyntilasku maksetaan, sinun on peruutettava myynti luomalla myyntihyvityslasku tai myyntipalautustilaus.
 
-Tärkeintä hyvissä myynti- ja markkinointikäytännöissä on tehdä oikeita päätöksiä oikeaan aikaan. [!INCLUDE[d365fin](includes/d365fin_md.md)]in markkinointitoiminnot tarjoavat yhteystietojen yleiskuvauksen tarkasti ja oikea-aikaisesti, mikä tehostaa mahdollisten asiakkaiden palvelemista ja parantaa asiakastyytyväisyyttä. Lisätietoja on kohdassa [Kontaktienhallinta](marketing-relationship-management.md).
+Tärkeintä hyvissä myynti- ja markkinointikäytännöissä on tehdä oikeita päätöksiä oikeaan aikaan. [!INCLUDE[prod_short](includes/prod_short.md)]in markkinointitoiminnot tarjoavat yhteystietojen yleiskuvauksen tarkasti ja oikea-aikaisesti, mikä tehostaa mahdollisten asiakkaiden palvelemista ja parantaa asiakastyytyväisyyttä. Lisätietoja on kohdassa [Kontaktienhallinta](marketing-relationship-management.md).
 
 Jos käytät Dynamics 365 Salesia asiakassuhteissa, saat käyttöösi saumattoman integroinnin liidistä tuottoon käyttämällä Business Centralia taustatehtäviin, kuten tilausten käsittelyyn, varastonhallintaan ja talousasioihin. Lisätietoja on kohdassa [Dynamics 365 Salesin käyttäminen Business Centralissa](marketing-integrate-dynamicscrm.md).
 
@@ -55,7 +56,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 |Myy kokoonpanon nimikkeet, jotka eivät ole tällä hetkellä saatavilla, luomalla linkitetty kokoonpanotilaus toimittamaan myyntilauksen koko määrä tai sen osa.|[Kokoonpano tilausta varten -nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md)|
 |Laskuta asiakasta vain kerran yhdistämällä useiden toimitusten toimitukset yhteen laskuun.|[Toimitusten yhdistäminen yhteen laskuun](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Ilmoitta tilauksen toimiaika asiakkaille laskemalla joko mahdollinen luvattavaksi- tai luvattavissa -päivämäärä.|[Toimituksen lupaamisen päivämäärien laskeminen](sales-how-to-calculate-order-promising-dates.md)|
-|Rekisteröi nimike- ja kausikohtaisesti määritetyt tulevan myynnin arviot, jotka toimivat lähinnä tuotantosuunnittelun syöttötietoina.|[Ennusteen luominen](production-how-to-create-a-forecast.md)|
 |Ratkaise ristiriita, kun samalla asiakkaalla on ainakin kaksi tietuetta.|[Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)
@@ -66,7 +66,10 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Projektinhallinta](projects-manage-projects.md)    
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

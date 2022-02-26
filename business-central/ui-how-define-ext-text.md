@@ -1,20 +1,21 @@
 ---
-title: Laajennettujen kuvausten määrittäminen ylimääräisiä rivejä lisäämällä
+title: Lisätekstin lisääminen
 description: Voit laajentaa nimikkeen, KP-tilin ja muiden tietojen kuvauksena käytettävää vakiotekstiä lisäämällä ylimääräisiä rivejä.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/08/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0b611a4f2bcabec7cda408790ab659c6cf3f8e97
-ms.sourcegitcommit: 8b2f02dd5189c46ecff33c07223ed62b36842d34
+ms.search.form: 391, 30
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: 0a9a56e44ecf9e832da99f60a6256aa93240e524
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "3542565"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101189"
 ---
 # <a name="add-extended-text"></a>Lisätekstin lisääminen
 
@@ -43,4 +44,7 @@ Tämän lisätekstin voi lisätä nyt asiakirjoihin. Seuraavaksi käsitellään 
 ## <a name="see-also"></a>Katso myös
 
 [Varaston määrittäminen](inventory-setup-inventory.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

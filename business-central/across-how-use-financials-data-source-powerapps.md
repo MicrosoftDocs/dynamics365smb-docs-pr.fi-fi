@@ -3,56 +3,59 @@ title: Sovelluksen luominen omista tiedoista| Microsoft Docs
 description: Voit tehdä Business Central -tiedoistasi tietolähteen ja määrittää verkkopalveluidesi OData-osoitteen, jolla luot Power Appsin avulla yrityssovelluksen.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OData, Power App, SOAP
-ms.date: 04/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f6b771b0107214702785d2b124983eb369741a84
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 25607473e20bca8cec8cd65e2e808e12dda47869
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187914"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5774534"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Yhteyden muodostaminen Business Central -tietoihin yrityssovelluksen luomista varten Power Appsin avulla
 
-Voit käyttää [!INCLUDE[prodshort](includes/prodshort.md)] -tietoja Power Appsin tietolähteenä.  
+Voit käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -tietoja Power Appsin tietolähteenä.  
 
 > [!NOTE]  
-> Sinulla on oltava kelvollinen [!INCLUDE[prodshort](includes/prodshort.md)]- ja Power Apps -tili.  
+> Sinulla on oltava kelvollinen [!INCLUDE[prod_short](includes/prod_short.md)]- ja Power Apps -tili.  
 
-## <a name="to-add-prodshort-as-a-data-source-in-power-apps"></a>[!INCLUDE[prodshort](includes/prodshort.md)]in lisääminen Power Appsin tietolähteeksi
+## <a name="to-add-prod_short-as-a-data-source-in-power-apps"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in lisääminen Power Appsin tietolähteeksi
 
 1. Siirry selaimessa osoitteeseen [powerapps.microsoft.com](https://powerapps.microsoft.com/) ja kirjaudu sisään.
-2. Luo uusi kaaviosovellus valitsemalla aloitussivulla **Sovellukset**, **Luo sovellus** ja **Kangas**. Tämä sovellus suunnitellaan mobiililaitekäyttöön, mutta voit valita myös toisenlaisen mallin.
+2. Valitse aloitussivun **Aloita tiedoista** -osassa **Muut tietolähteet** -ruutu.  
 
-    Power App -sovelluksen luonnin seuraavana vaiheena on tietojen valinta. Valitse sivun vasemmassa yläosassa ensin nuolikuvake ja sitten **Uusi yhteys** -asetus.
+    Power Apps Studio avautuu. Ensimmäisellä kertaa kirjauduttaessa on määritettävä maa tai alue.  
 3. Tarjolla olevien yhteyksien joukosta, valitse **Business Central**, ja valitse sitten **Luo** nappula.
 
-    Power Apps muodostaa [!INCLUDE [prodshort](includes/prodshort.md)] -yhteyden niillä käyttäjätiedoilla, joilla olet kirjautunut sisään. Jos et ole järjestelmänvalvoja [!INCLUDE [prodshort](includes/prodshort.md)] sovelluksessa, sinun täytyy ehkä kirjautua toisella käyttäjällä.  
+    Power Apps muodostaa [!INCLUDE[prod_short](includes/prod_short.md)] -yhteyden niillä käyttäjätiedoilla, joilla olet kirjautunut sisään. Jos et ole järjestelmänvalvoja [!INCLUDE[prod_short](includes/prod_short.md)] sovelluksessa, sinun täytyy ehkä kirjautua toisella käyttäjällä.  
 
-4. Power Apps näyttää luettelon *ympäristöistä ja yrityksistä*, jotka ovat käytettävissä [!INCLUDE [prodshort](includes/prodshort.md)]issa. Valitse ne tiedot sisältävä ympäristö ja yritys, joihin haluat muodostaa yhteyden. Seuraavaksi näyttöön tulee ohjelmointirajapintaluettelo. Valitse **Ohjelmointirajapinta**, johon haluat muodostaa yhteyden.
+4. Power Apps näyttää luettelon *ympäristöistä ja yrityksistä*, jotka ovat käytettävissä [!INCLUDE[prod_short](includes/prod_short.md)]issa. Valitse ne tiedot sisältävä ympäristö ja yritys, joihin haluat muodostaa yhteyden, kuten *TUOTANTO – oma yritys*.  
 
-Nämä niin kutsutut taulukot ovat osa [!INCLUDE [prodshort](includes/prodshort.md)] API:a. Sinun ei tarvitse määrittää päätepisteitä itse – [!INCLUDE [prodshort](includes/prodshort.md)]in Power Apps-yhdistin tekee sen puolestasi.  
+5. Seuraavaksi näkyviin tulee taulukkoluettelo, jotka näkyvät ympäristön ohjelmointirajapinnan osana. Valitse taulukko, johon haluat muodostaa yhteyden ja valitse sitten **Yhdistä**.
+
+Power Appsin [!INCLUDE[prod_short](includes/prod_short.md)] -yhdistin näyttää nämä niin kutsutut taulukot päätepisteinä.  
 
 > [!NOTE]
-> Jos haluat sisällyttää muiden taulukoiden dataa sovelluksessa [!INCLUDE [prodshort](includes/prodshort.md)], sinun tulee työskennellä kehittäjän kanssa, jotta voitte määrittää mukautetun API:n sovelluksessa [!INCLUDE [prodshort](includes/prodshort.md)] ja käyttää tätä mukautettua API:a mukautetun yhdistimen kautta Power Appsissa. Lisätietoja, katso [Mukautetun yhdistimen luominen tyhjästä](/connectors/custom-connectors/define-blank).  
+> Jos haluat sisällyttää muiden taulukoiden dataa sovelluksessa [!INCLUDE[prod_short](includes/prod_short.md)], sinun tulee työskennellä kehittäjän kanssa, jotta voitte määrittää mukautetun API:n sovelluksessa [!INCLUDE[prod_short](includes/prod_short.md)] ja käyttää tätä mukautettua API:a mukautetun yhdistimen kautta Power Appsissa. Lisätietoja, katso [Mukautetun yhdistimen luominen tyhjästä](/connectors/custom-connectors/define-blank).  
 
-Tässä kohtaa olet yhdistänyt [!INCLUDE [prodshort](includes/prodshort.md)] dataasi ja olet valmis aloittamaan PowerAppisi rakentamisen. Voit luoda lisää ruutuja ja yhdistää lisädataan [!INCLUDE [prodshort](includes/prodshort.md)]. Lisätietoja on kohdassa [Kaaviosovelluksen luominen Power Appsin mallista](/powerapps/maker/canvas-apps/get-started-test-drive).  
+Tässä kohtaa olet yhdistänyt [!INCLUDE[prod_short](includes/prod_short.md)] dataasi ja olet valmis aloittamaan PowerAppisi rakentamisen. Voit luoda lisää ruutuja ja yhdistää lisädataan [!INCLUDE[prod_short](includes/prod_short.md)]. Lisätietoja on kohdassa [Kaaviosovelluksen luominen Power Appsin mallista](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
 
 Kun olet suunnitellut ja rakentanut sovelluseksi, voit jakaa sen kollegoidesi kanssa. Lisätietoja on kohdassa [Kaaviosovelluksen tallentaminen julkaiseminen Power Appsissa](/powerapps/maker/canvas-apps/save-publish-app).  
 
 > [!NOTE]
-> Jos haluat yhdistää [!INCLUDE [prodshort](includes/prodshort.md)]iin paikallisesti, sinun täytyy valita  **Business Central (paikallinen)** yhdistin vaiheessa 3.  
+> Jos haluat yhdistää [!INCLUDE[prod_short](includes/prod_short.md)]iin paikallisesti, sinun täytyy valita  **Business Central (paikallinen)** yhdistin vaiheessa 3.  
 
 ## <a name="see-also"></a>Katso myös
 
 [Kaaviosovelluksen luominen Power Appsin mallista](/powerapps/maker/canvas-apps/get-started-test-drive)  
-[Käytön aloittaminen](product-get-started.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
-[Rahoitus](finance.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  
 [Yhdistinsovellusten Kehittäminen tuotteessa Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,23 @@
 ---
-title: Myyntisyklien myyntimahdollisuuksien käsitteleminen| Microsoft Docs
-description: Voit tarkastella, sulkea tai poistaa myyntimahdollisuuksia. Voit myös luoda mahdollisuuksille tarjouksia ja myyntitilauksia sekä siirtää mahdollisuuden myyntisyklin vaiheiden väli.
+title: Myyntisyklien myyntimahdollisuuksien käsitteleminen
+description: Tässä aiheessa kuvataan erilaisia tapoja käsitellä myyntimahdollisuuksia myyntisykleissä ja siirtää mahdollisuutta myyntisyklin vaiheissa.
 services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: e4e56b2594820cc1af4861d0117b9e7d6af891ec
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d67e1d1eda6cf3ae80ebad185a0db3fadd3eec1b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181324"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437600"
 ---
 # <a name="process-sales-opportunities"></a>Myyntimahdollisuuksien käsitteleminen
 Mahdollisuuden luomisen jälkeen sen hallinnassa ja valmistumisprosessissa voidaan käyttää useita toimintoja.
@@ -27,9 +27,9 @@ Olemassa olevat myyntimahdollisuudet ovat käytettävissä **Mahdollisuusluettel
 
 | Mahdollisuuksien tarkasteminen | Sitten |
 | --- | --- |
-| Kaikki myyjät ja kontaktit |Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Mahdollisuusluettelo** ja valitse sitten liittyvä linkki. |
-| Määritetty myyjä |Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyjät** ja valitse sitten liittyvä linkki. Valitse myyjä, valitse sitten **Mahdollisuudet**-toiminto. Valitse tämän jälkeen **Luettelo**-toiminto. |
-| Määritetty kontakti |Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yhteyshenkilöt** ja valitse sitten liittyvä linkki. Valitse kontakti luettelosta ja valitse sitten **Mahdollisuudet**-toiminto. |
+| Kaikki myyjät ja kontaktit |Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Mahdollisuusluettelo** ja valitse sitten vastaava linkki. |
+| Määritetty myyjä |Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyjät** ja valitse sitten vastaava linkki. Valitse myyjä, valitse sitten **Mahdollisuudet**-toiminto. Valitse tämän jälkeen **Luettelo**-toiminto. |
+| Määritetty kontakti |Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktit** ja valitse sitten vastaava linkki. Valitse kontakti luettelosta ja valitse sitten **Mahdollisuudet**-toiminto. |
 
 Jokainen näistä tehtävistä avaa **Mahdollisuusluettelo**-sivun.
 
@@ -44,7 +44,8 @@ Voit sulkea mahdollisuuden, kun neuvottelut ovat ohi. Mahdollisuuden sulkemisen 
    Valitse **Sulje mahdollisuuden koodi** -kentässä jokin olemassa olevista suljettujen mahdollisuuksien koodeista tai lisää uusi koodi. Voit lisätä uuden koodin valitsemalla avattavasta luettelosta **Valitse koko luettelosta** ja valitsemalla sitten **Uusi**. Täytä tyhjän rivin **Koodi**-, **Tyyppi**- ja **Kuvaus**-kenttä ja valitse sitten **OK**-painike.
 
 ## <a name="to-create-quotes-for-opportunities"></a>Tarjousten luominen mahdollisuuksille
-Voit luoda myyntitarjouksia kontakteille, joita ei ole tallennettu asiakkaiksi.
+> [!NOTE]
+> Voit luoda myyntitarjouksia vain mahdollisuuksista, joiden yhteyshenkilön tyyppi on Yritys.
 
 1. Valitse **Mahdollisuusluettelo**-sivulla mahdollisuus ja valitse sitten **Määritä myyntitarjous** -toiminto. **Myyntitarjous**-sivu aukeaa.
 2. Täytä asianmukaiset kentät.
@@ -65,7 +66,7 @@ Voit poistaa suljetut mahdollisuudet **Mahdollisuusluettelo**-sivulla valitsemal
 
 Voit poistaa suljetut mahdollisuudet **Poista suljetut mahdollisuudet** -eräajon avulla seuraavien vaiheiden avulla:
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Poista mahdollisuudet** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvake, syötä **Poista mahdollisuudet** ja valitse sitten vastaava linkki.
 2. Määritä **Mahdollisuus**-osassa suodattimet, jotka määrittävät poistettavat suljetut mahdollisuudet.
 3. Valitse **OK**-painike.
 
@@ -86,4 +87,7 @@ Jos mahdollisuus seuraa myyntisykliä, voit siirtää sitä vaiheittain eteen- t
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  
 [Kontaktien luonti ja hallinta](marketing-contacts.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

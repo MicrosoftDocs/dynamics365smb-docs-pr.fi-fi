@@ -2,15 +2,15 @@
 title: Yrityskäyttäjien opintoluettelo
 description: Etsi kaikki käytettävissä olevat opinnot Business Centralille.
 author: loreleishannonmsft
-ms.date: 04/20/2020
-ms.topic: article
-ms.author: v-lshann
-ms.openlocfilehash: 2076c0b3cf17167bea654e136be98c6cb9522718
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.date: 04/01/2021
+ms.topic: conceptual
+ms.author: margoc
+ms.openlocfilehash: fd0b839e402ff59ec5fb875d026eb5fe2202850e
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3271940"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772427"
 ---
 # <a name="business-users-learning-catalog"></a>Yrityskäyttäjien opintoluettelo
 
@@ -48,3 +48,6 @@ Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja pe
 | [Nimikkeiden palautus Microsoft Dynamics 365 Business Centralissa](/learn/paths/return-items-dynamics-365-business-central/)                                                   | Haluatko palauttaa nimikkeitä toimittajille ja hyväksyä asiakkailta palautuksia? Tämän polun avulla opit käsittelemään palautuksia.                                                                                                                                                                         | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 1 tunti 25 minuuttia  |
 | [Nimikkeiden täydentäminen Microsoft Dynamics 365 Business Centralissa](/learn/paths/replenish-items-dynamics-365-business-central/)                                             | Haluatko täydentää varastonimikkeitä yrityksessäsi? Tämä oppimispolku näyttää vaihtoehdot, joiden avulla voit tehokkaasti täydentää Business Centralin nimikkeitä.                                                                                                                                     | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 1 tunti 46 minuuttia  |
 | [Nimikkeiden kokoaminen Microsoft Dynamics 365 Business Centralissa](/learn/paths/assemble-items-dynamics-365-business-central/)                                               | Myytkö koottuja nimikkeitä? Tässä oppimispolussa on tietoja, joita tarvitaan kokoonpanon hallintaan ja kohteisiin. Se sisältää myös vaiheet, jotka tuottavat kootut nimikkeet varastoon tai tilaukseen.                                                                                                                | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 2 tuntia 26 minuuttia |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

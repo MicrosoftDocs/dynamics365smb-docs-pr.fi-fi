@@ -3,19 +3,19 @@ title: Rakennetiedot – Varianssi | Microsoft Docs
 description: Varianssi on todellisten kustannusten ja vakiokustannuksen välinen ero seuraavan kaavan määrittämällä tavalla.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 037af68ad735b84ca9cb0bf038bf2705d08aff7a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 3b6ec6cbd2ebef6ff2cd44a49284821485d63f6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184602"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439558"
 ---
 # <a name="design-details-variance"></a>Rakennetiedot: varianssi
 Varianssi on todellisten kustannusten ja vakiokustannuksen välinen ero seuraavan kaavan määrittämällä tavalla.  
@@ -38,7 +38,7 @@ Varianssi on todellisten kustannusten ja vakiokustannuksen välinen ero seuraava
 
  Seuraavassa taulukossa on tuloksena saatavat arvotapahtumat.  
 
- ![Ostovarianssin laskenta](media/design_details_inventory_costing_11_purchase_variance.png "Ostovarianssin laskenta")  
+ ![Ostovarianssin laskenta.](media/design_details_inventory_costing_11_purchase_variance.png "Ostovarianssin laskenta")  
 
 ## <a name="determining-the-standard-cost"></a>Vakiokustannuksen määrittäminen  
  Peruskustannuksia käytetään, kun lasketaan varianssia ja hyödynnettävää määrää. Koska peruskustannus voidaan vaihtaa ajan kuluessa manuaalisista päivityslaskuista johtuen, sinulla tulee olla ajankohta, kun peruskustannus on kiinteä varianssilaskennalle. Tässä kohdassa varastoarvon nousu laskutetaan. Valmistettujen tai koottujen nimikkeiden osalta vakiokustannuksen määrityskohta on kustannuksen muutoshetki.  
@@ -48,19 +48,22 @@ Varianssi on todellisten kustannusten ja vakiokustannuksen välinen ero seuraava
 |Kustannusjakauma|Ostettu nimike|Tuotettu tai koottu nimike|  
 |----------------|--------------------|------------------------------|  
 |**Vakiokustannus**||Yksitasoiset materiaalikustannukset + Yksitasoiset kapasiteettikustannukset + Yksitasoiset aliurakointikust. + Yksitasoiset kapasit. yleiskust. + Yksitasoiset tehdastuot. yleiskust.|  
-|**Yksitasoinen materiaalikust.**|Yksikkökustannus|![Kaava 1](media/design_details_inventory_costing_11_equation_1.png "Kaava 1")|  
-|**Yksitasoinen kapasiteettikust.**|Ei sovellu|![Kaava 2](media/design_details_inventory_costing_11_equation_2.png "Kaava 2")|  
-|**Yksitasoinen alihank. kust.**|Ei sovellu|![Kaava 3](media/design_details_inventory_costing_11_equation_3.png "Kaava 3")|  
-|**Yksitasoinen kap. yleiskust.**|Ei sovellu|![Kaava 4](media/design_details_inventory_costing_11_equation_4.png "Kaava 4")|  
+|**Yksitasoinen materiaalikust.**|Yksikkökustannus|![Kaava 1.](media/design_details_inventory_costing_11_equation_1.png "Kaava 1")|  
+|**Yksitasoinen kapasiteettikust.**|Ei sovellu|![Kaava 2.](media/design_details_inventory_costing_11_equation_2.png "Kaava 2")|  
+|**Yksitasoinen alihank. kust.**|Ei sovellu|![Kaava 3.](media/design_details_inventory_costing_11_equation_3.png "Kaava 3")|  
+|**Yksitasoinen kap. yleiskust.**|Ei sovellu|![Kaava 4.](media/design_details_inventory_costing_11_equation_4.png "Kaava 4")|  
 |**Yksitasoinen tuotannon yleisk.**|Ei sovellu|(Yksitasoinen materiaalikust. + yksitasoinen kapasiteettikust. + yksitasoinen alihank. kustannus-) * välillinen kustannus % / 100 + yleiskustannus|  
-|**Vyörytetty materiaalikust.**|Yksikkökustannus|![Kaava 5](media/design_details_inventory_costing_11_equation_5.png "Kaava 5")|  
-|**Vyörytetty kapasiteettikust.**|Ei sovellu|![Kaava 6](media/design_details_inventory_costing_11_equation_6.png "Kaava 6")|  
-|**Vyörytetty alihankkijakust.**|Ei sovellu|![Kaava 7](media/design_details_inventory_costing_11_equation_7.png "Kaava 7")|  
-|**Vyörytetty kapasiteettiyleiskustannus**|Ei sovellu|![Kaava 8](media/design_details_inventory_costing_11_equation_8.png "Kaava 8")|  
-|**Vyörytetty tuotannon yleiskust**|Ei sovellu|![Kaava 9](media/design_details_inventory_costing_11_equation_9.png "Kaava 9")|  
+|**Vyörytetty materiaalikust.**|Yksikkökustannus|![Kaava 5.](media/design_details_inventory_costing_11_equation_5.png "Kaava 5")|  
+|**Vyörytetty kapasiteettikust.**|Ei sovellu|![Kaava 6.](media/design_details_inventory_costing_11_equation_6.png "Kaava 6")|  
+|**Vyörytetty alihankkijakust.**|Ei sovellu|![Kaava 7.](media/design_details_inventory_costing_11_equation_7.png "Kaava 7")|  
+|**Vyörytetty kapasiteettiyleiskustannus**|Ei sovellu|![Kaava 8.](media/design_details_inventory_costing_11_equation_8.png "Kaava 8")|  
+|**Vyörytetty tuotannon yleiskust**|Ei sovellu|![Kaava 9.](media/design_details_inventory_costing_11_equation_9.png "Kaava 9")|  
 
 ## <a name="see-also"></a>Katso myös  
  [Rakennetiedot: varaston arvostus](design-details-inventory-costing.md)   
  [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md) [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
  [Rahoitus](finance.md)  
- [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+ [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

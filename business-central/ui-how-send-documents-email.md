@@ -1,77 +1,82 @@
 ---
-title: Asiakirjakohtaisen sähköpostisisällön määrittäminen | Microsoft Docs
+title: Asiakirjojen ja sähköpostien lähettäminen
 description: Voit määrittää sähköpostiviestin perustekstiin lisättävän sisällön, kuten PayPal-linkin. Voit myös liittää asiakirjoja sähköpostiviesteihin.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: SMTP, mail, Office 365, cover, body, PayPal, layout
-ms.date: 05/13/2020
+ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: acc68a2f5fc657e133f32e7945f3b34f8daa2892
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.openlocfilehash: 3322199feee09c656b01c7723a8c95396015cde4
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402487"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588449"
 ---
-# <a name="send-documents-by-email"></a>Asiakirjojen lähettäminen sähköpostitse
+# <a name="send-documents-and-emails"></a>Asiakirjojen ja sähköpostien lähettäminen
 
-Voit kertoa liiketoiminta-asiakirjojen sisällön, kuten esimerkiksi asiakkaiden myyntiasiakirjojen maksutiedot, liiketoimintakumppaneille nopeasti Raporttiasettelu-toiminnolla. Voit määrittää asiakirjakohtaisen sisällön, joka lisätään sähköpostien perustekstiin automaattisesti. Lisätietoja on kohdassa [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md).
+Voit helposti jakaa tietoja ja asiakirjoja, kuten myynti- ja ostotilauksia ja laskuja, sähköpostitse suoraan [!INCLUDE[prod_short](includes/prod_short.md)]ista ilman sähköpostisovelluksen avaamista.  
 
-Ota sähköpostit käyttöön [!INCLUDE[d365fin](includes/d365fin_md.md)]issa käynnistämällä ohjattu **Määritä sähköposti** -määritys roolikeskuksessa.
+Voit lähettää lähes kaikentyyppisiä asiakirjoja PDF-liitteinä. Vaihtoehtoisesti voit määrittää raportin asettelun, joka sisältää asiakirjan tiedot sähköpostin tekstissä sekä tekstin, joka tekee sähköposteista entistä ystävällisempiä, esimerkiksi vakiotervehdyksen. Lisätietoja on kohdassa [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
 
-Voit lähettää käytännössä kaikkia asiakirjatyyppejä sähköpostitse sähköpostiviestien liitteinä suoraan asiakirjan näyttävältä sivulta. Liitteen lisäksi voit määrittää asiakirjakohtaisia sähköpostin perustekstejä, jotka sisältävät asiakirjan perustiedot. Niitä edeltää vakioteksti, jossa tervehditään viestin vastaanottajaa ja esitellään kyseessä oleva asiakirja. Voit tarjota asiakkaillesi mahdollisuuden maksaa sähköisesti käyttämällä maksupalvelua, kuten PayPalia. Sähköpostin perustekstiin voi siten lisätä myös PayPal-tiedot ja -hyperlinkin.
+Laskujen lähettämisen yhteydessä asiakkaiden on helpompi suorittaa maksuja maksupalvelun (esimerkiksi PayPalin) kautta lisäämällä automaattisesti sähköpostissa tietoja ja linkin palveluun. Lisätietoja on kohdassa [Asiakasmaksujen ottaminen käyttöön maksupalvelujen kautta](sales-how-enable-payment-service-extensions.md).
 
-Sähköpostin luominen aloitetaan kaikissa tuetuissa asiakirjoissa valitsemalla **Lähetä**-toiminto kirjatuissa asiakirjoissa ja **Kirjaa ja lähetä** -toiminto muissa kuin kirjatuissa asiakirjoissa.
+Ota sähköpostit käyttöön [!INCLUDE[prod_short](includes/prod_short.md)]issa käynnistämällä ohjattu **Määritä sähköposti** -määritys. Lisätietoja on kohdassa [Sähköpostin määrittäminen](admin-how-setup-email.md).
 
-Jos **Sähköposti**-kentän arvoksi on **Lähetä asiakirja kohteeseen** -sivulla määritetty **Kyllä (Pyydä asetuksia)**, **Lähetä sähköposti** -sivu avautuu. Sivun **Vastaanottaja:**-kenttään on esitäytetty kontaktihenkilön tiedot ja asiakirja on liitetty PDF-tiedostona. Voit syöttää tekstin manuaalisesti **Perusteksti**-kenttään tai kenttään voidaan täyttää määrittämäsi asiakirjakohtaisen sähköpostin perusteksti.
-
-Seuraavassa kuvataan, miten sähköpostitse lähetettävien myyntilaskujen asiakirjakohtaisissa sähköpostien perusteksteissä käytettävä **Myyntilasku**-raportti määritetään.
-
-## <a name="to-set-up-a-document-specific-email-body-for-sales-invoices"></a>Asiakirjakohtaisen sähköpostin perustekstin määrittäminen myyntilaskuille
-
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raportin valinnat - Sales** ja valitse sitten liittyvä linkki.
-2. Valitse **Raporttivalinta - Myynti** -sivun **Käyttö**-kentässä **Lasku**.
-3. Valitse **Raportin tunnus** -kentän uudella rivillä esimerkiksi vakioraportti 1306.
-4. Valitse **Käytä sähköpostin perustekstinä** -valintaruutu.
-5. Valitse ensin **Sähköpostin perustekstin asettelun koodi** -kenttä ja sitten asettelu avattavasta luettelosta.
-
-    Raporttiasettelut määrittävät sähköpostin perustekstin tyylin ja sisällön. Siihen kuuluu myös vakioteksti, joka edeltää asiakirjan perustietoja sähköpostin perustekstissä. Saat kaikki käytettävissä olevat raporttiasettelut näkyviin, jos valitset avattavassa luettelossa **Valitse koko luettelosta** -painikkeen.
-6. Voit tarkastella tai muokata asettelua, johon sähköpostin perusteksti perustuu, valitsemalla ensin asettelun **Mukautetut raporttiasettelut** -sivulla ja sitten **Muokkaa asettelua** -toiminnon.
-7. Jos haluat tarjota asiakkaillesi mahdollisuuden maksaa sähköisesti, voit määrittää liittyvän maksupalvelun, kuten PayPalin. Tämän jälkeen sähköpostin perustekstiin voi lisätä myös PayPal-tiedot ja -hyperlinkin. Lisätietoja on kohdassa [Asiakkaan maksujen ottaminen käyttöön PayPalin kautta](sales-how-enable-payment-service-extensions.md).
-8. Valitse **OK**-painike.
-
-Kun nyt valitset esimerkiksi **Kirjattu myyntilasku** -sivulla **Lähetä**-toiminnon, sähköpostin perusteksti sisältää raportin 1306 asiakirjan tiedot, joita edeltää tyylitelty vakioteksti vaiheessa 5 valitun raporttiasettelun mukaan.
-
-Seuraavassa kerrotaan, miten kirjattu myyntilasku lähetetään sähköpostiviestinä, johon on liitetty asiakirja PDF-tiedostona ja joka sisältää asiakirjakohtaisen sähköpostin perustekstin.
+> [!NOTE]
+> [!INCLUDE[prod_short](includes/prod_short.md)] tukee vain lähteviä sähköpostiviestejä. Et voi vastaanottaa vastauksia sovelluksessa.
 
 ## <a name="to-send-documents-by-email"></a>Asiakirjojen lähettäminen sähköpostitse
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kirjatut myyntilaskut** ja valitse sitten liittyvä linkki.
-2. Valitse ensin soveltuva kirjattu myyntilasku ja sitten **Lähetä**-toiminto. **Lähetä asiakirja kohteeseen** -sivu avautuu.
+Tässä kuvataan, miten kirjattu myyntilasku liitetään sähköpostiin PDF-tiedostona ja asiakirjakohtaisen sähköpostiviestin tekstinä. <!--update this-->
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut myyntilaskut** ja valitse sitten vastaava linkki.
+2. Valitse lasku ja sitten **Tulosta/Lähetä**-toiminto ja valitse **Lähetä**.
 3. Valitse **Sähköposti**-kentässä **Kyllä (Pyydä asetuksia)**. Lisätietoja on kohdassa [Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md).
-4. Valitse **OK**-painike. **Lähetä sähköposti** -sivu avautuu.
+    
+    Jos **Sähköposti**-kentän arvoksi on **Lähetä asiakirja kohteeseen** -sivulla määritetty **Kyllä (Pyydä asetuksia)**, **Lähetä sähköposti** -sivu avautuu. Sivun **Vastaanottaja:**-kenttään on esitäytetty kontaktihenkilön tiedot ja asiakirja on liitetty PDF-tiedostona. Voit syöttää tekstin manuaalisesti **Perusteksti**-kenttään tai kenttään voidaan täyttää määrittämäsi asiakirjakohtaisen sähköpostin perusteksti.
+
+4. Valitse **OK**-painike.
 5. Syötä **Vastaanottaja:**-kenttään kelvollinen sähköpostiosoite. Oletusarvo on asiakkaan sähköpostiosoite.
 6. Kirjoita **Aihe**-kenttään kuvaava aiheteksti. Oletusarvo on asiakkaan nimi ja laskun numero.
 7. Luotu lasku on liitetty **Liite**-kenttään oletusarvoisesti PDF-tiedostona.
 8. Kirjoita **Runkoteksti**-kenttään lyhyt viesti vastaanottajalle.
 
-    Jos asiakirjakohtainen sähköpostin perusteksti on määritetty **Raporttivalinta - Myynti** -sivulla, **Perusteksti**-kenttä täytetään automaattisesti. Lisätietoja on kohdassa [Asiakirjakohtaisen sähköpostin perustekstin määrittäminen myyntilaskuille](ui-how-send-documents-email.md#to-set-up-a-document-specific-email-body-for-sales-invoices).
+    Jos asiakirjakohtainen sähköpostin teksti on määritetty **Raporttivalinta - Myynti** -sivulla, **Perusteksti**-kenttä täytetään automaattisesti. Lisätieoja: [Uudelleenkäytettävien sähköpostitekstien ja -asettelujen määrittäminen myynti- ja ostoasiakirjoille](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents).
 9. Valitse **OK**-painike, kun haluat lähettää sähköpostiviestin.
 
 > [!NOTE]  
 > Jos et halua määrittää sähköpostiviestin asetuksia aina, kun lähetät asiakirjan sähköpostitse, valitse **Kyllä (Käytä oletusasetuksia)** -vaihtoehto **Lähetä asiakirja kohteeseen** -sivun **Sähköposti**-kentässä. Tällöin **Lähetä sähköposti** -sivu ei avaudu. Lisätietoja on vaiheessa 4. Lisätietoja on kohdassa [Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md).  
 
+## <a name="to-compose-and-send-an-email"></a>Sähköpostin kirjoittaminen ja lähettäminen
+Voit luoda nopeasti sähköpostit kontakteille, asiakkaille, toimittajille, myyjille/ostajille ja pankkitileille suoraan kyseisten entiteettien sivuilta. Valitse vain **Käsittele** ja **Lähetä sähköpostiviesti** sähköpostieditorin avaamista varten. Pankkitileille **Lähetä sähköpostiviesti** -toiminto on kohdassa **Toiminnot**.
+
+> [!TIP]
+> Jos lähetät usein samankaltaisia sähköpostiviestejä tai haluat lähettää joukkoviestintää esimerkiksi myyntikampanjan mainostamista varten, voit nopeuttaa prosessia käyttämällä Word-malleja sähköpostiviesteissä. Voit luoda mallin sellaisille entiteeteille kuten asiakkaat, toimittajat ja kontaktit, jotka luovat sähköpostiviestin sisällön ja jopa räätälöivät sen vastaanottajan mukaan [!INCLUDE[prod_short](includes/prod_short.md)]in tietojen perusteella. Lisätietoja on kohdassa [Word-mallien käyttäminen joukkoviestinnässä](ui-mail-merge.md).  
+
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Asiakirjat, jotka on merkitty tulostetuiksi, kun ne lähetetään
 
-Joissakin [!INCLUDE [prodshort](includes/prodshort.md)] -sivuston asia kirjoissa on kenttä, joka määrittää, kuinka monta kertaa asiakirja on tulostettu. Kenttä päivitetään myös, jos et tulosta asiakirjaa vaan lähetät sen sähköpostissa. Kenttä päivittyy jopa, jos et itse lähetä asiakirjaa, esimerkiksi silloin, kun organisaatiossasi ei ole määritetty sähköpostia tai kun asiakirjan lähettävällä henkilöllä ei ole sähköpostiosoitetta luettelossa. Kaikissa [!INCLUDE [prodshort](includes/prodshort.md)] -ohjelmaan liittyvissä skenaarioissa asiakirja tulostetaan, koska PDF-tiedosto luodaan.  
+Joissakin [!INCLUDE[prod_short](includes/prod_short.md)] -sivuston asia kirjoissa on kenttä, joka määrittää, kuinka monta kertaa asiakirja on tulostettu. Kentän numero <!--"that field?" need a name...--> päivitetään myös, jos lähetät asiakirjan sähköpostitse, koska sille luodaan PDF-tiedosto. Numero päivittyy, vaikka et lähettäisi sähköpostia. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
-Käyttäjä ei välttämättä näe tätä luotua tiedostoa, mutta tämän vuoksi kenttä päivitetään.
+## <a name="sent-emails-and-your-email-outbox"></a>Lähetetyt sähköpostit ja lähtevien sähköpostien kansio
+
+[!INCLUDE[prod_short](includes/prod_short.md)] tallentaa lähettämäsi sähköpostit **Lähetetyt**-sivulle. Se antaa sinun lähettää sähköposteja uudelleen tai lähettää ne jollekulle muulle. Jos et löydä sähköpostia lähetetyistä kohteista, etsi se **Sähköpostin Lähtevät-kansio** -sivulta. 
+
+> [!NOTE]
+> Järjestelmänvalvoja voi nähdä kaikkien lähettämien viestien luettelon, mutta ei viestien sisältöä, sen mukaan, mitä sähköpostilaajennusta yrityksesi käyttää.
+
+**Sähköpostin Lähtevät-kansioon** on tallennettu luonnoksina tallentamasi sähköpostit ja sähköpostit, joita ei voitu lähettää, esimerkiksi jos sähköpostiosoite oli virheellinen. Viesteille, joita ei voitu lähettää, voit valita **Näytä virhe** tai **tutki virhe** ja tehdä ongelman vianmäärityksen.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/set-up-email/)
 
 ## <a name="see-also"></a>Katso myös
 
 [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md)  
 [Sähköpostin määrittäminen](admin-how-setup-email.md)  
 [Myynnin laskutus](sales-how-invoice-sales.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

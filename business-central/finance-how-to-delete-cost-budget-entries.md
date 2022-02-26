@@ -1,40 +1,45 @@
 ---
-title: Kustannusbudjettitapahtumien poistaminen | Microsoft Docs
+title: Poista kustannusbudjettitapahtumat
 description: Voit käyttää Poista kustannusbudjettitapahtumat -eräajoa peruuttaaksesi kustannusbudjetin tapahtumat kustannusbudjetinrekisteristä.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 54df71ec903cc23930a88b0a5b20a17ecfb3d561
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 1115
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 09d9d378d02ca11d09739f49e12499acf484bcb8
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183378"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971027"
 ---
 # <a name="delete-cost-budget-entries"></a>Poista kustannusbudjettitapahtumat
+
 Voit käyttää **Poista kustannusbudjettitapahtumat** -eräajoa peruuttaaksesi kustannusbudjetin tapahtumat kustannusbudjetinrekisteristä.  
 
 Välttääksesi aukkoja kustannusbudjeteissa ja kustannusrekisteritapahtumissa et voi poistaa yhtä tapahtumaa tai tapahtumia keskellä rekisteritapahtumien luetteloa.  
 
-### <a name="to-delete-a-cost-budget-entry"></a>Poista kustannusbudjettitapahtumat  
+## <a name="to-delete-a-cost-budget-entry"></a>Poista kustannusbudjettitapahtumat  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Poista kustannusbudjettitapahtumat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista kustannusbudjettitapahtumat** ja valitse sitten vastaava linkki.  
 
     **Rekisteriin nro** -kentässä on viimeisen rekisteritapahtuman numero, eikä sitä voi muuttaa.  
 
     Voit käyttää **Rekisteristä nro** -kenttää valitaksesi rekisteritapahtuman numeron, josta poisto pitäisi alkaa.  
-2.  Valitse **OK** poistaaksesi valitut kustannusbudjettitapahtumat.  
+2. Valitse **OK** poistaaksesi valitut kustannusbudjettitapahtumat.  
 
 > [!NOTE]  
->  Vältä kustannusbudjettien poistoa epähuomiossa ja sulje rekisteritapahtumat merkitsemällä rivit **Suljetuiksi** **Suljettu** -kentässä **Kustannusbudjettirekisterit** -sivulla.  
+> Vältä kustannusbudjettien poistoa epähuomiossa ja sulje rekisteritapahtumat merkitsemällä rivit **Suljetuiksi** **Suljettu** -kentässä **Kustannusbudjettirekisterit** -sivulla.  
 
-## <a name="see-also"></a>Katso myös  
+## <a name="see-also"></a>Katso myös
+
 [Kustannuslaskenta](finance-manage-cost-accounting.md)
 [Kustannusbudjettien luominen](finance-create-cost-budgets.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

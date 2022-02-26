@@ -1,26 +1,26 @@
 ---
-title: Palvelun yhteensopivuus | Microsoft Docs
-description: Tässä sisällössä on tietoja palvelun Business Centralia koskevasta yhteensopivuudesta.
+title: Palvelun vaaatimustenmukaisuus ja SLA
+description: Palvelun näkökulmasta Business Central täyttää tiukat vaatimukset ja SLA-vaatimustenmukaisuuden useissa ISO- ja toimialakohtaisissa sertifioinneissa.
 author: sorenfriisalexandersen
-documentationcenter: ''
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
 ms.reviewer: edupont
-ms.date: 04/01/2020
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 769764f94ba887552b6b23c62c0ddad3c876fda9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: e1ecec00458dbe2872eda7654fab0ff555408868
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185899"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323666"
 ---
 # <a name="service-compliance"></a>Palvelun yhteensopivuus
-Tässä sisällössä on tietoja palvelun [!INCLUDE[d365fin](../includes/d365fin_md.md)]ia koskevasta yhteensopivuudesta.  
+
+Tässä sisällössä on tietoja palvelun [!INCLUDE[prod_short](../includes/prod_short.md)] onlinea koskevasta yhteensopivuudesta.  
 
 Business Central on maailmanlaajuisesti käytettävä pilvipalvelu. Sen käyttöympäristönä on yksi maailman suurimmista hyperskaalautuvista infrastruktuureista, Microsoft Azure, jolla on konesaleja eri puolilla maailmaa olevilla alueilla. Pilvipalvelun käyttäminen edellyttää myös tiettyjen suojaus- ja yhteensopivuusstandardien noudattamista, joten palvelujen kannalta Business Central vastaa useiden ISO- ja toimialakohtaisten sertifiointien tiukkoja vaatimuksia.
 
@@ -30,9 +30,7 @@ Jos haluat nähdä täydellisen luettelon Microsoftin yhteensopivuustuotteista, 
 
 ## <a name="service-terms"></a>Palvelun ehdot
 
-[!INCLUDE [prodshort](../includes/prodshort.md)] -verkkoversiota hallitaan [modernin elinkaarimallin](https://support.microsoft.com/help/30881/modern-lifecycle-policy) mukaisesti. Palvelutasosopimuksen ehdot ovat asiakirjassa, jonka voi ladata [Käyttöoikeusehdot](https://www.microsoft.com/licensing/product-licensing/products)-sivun **Microsoft Online Servicesin palvelutasosopimukset** -osasta.  
-
-Voit lisäksi seurata vuokraajan kuntoa ja määrittää päivitysikkunat [vuokraajan hallintakeskuksessa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
+[!INCLUDE [service-terms](../includes/service-terms.md)]
 
 ## <a name="see-also"></a>Katso myös
 
@@ -40,4 +38,7 @@ Voit lisäksi seurata vuokraajan kuntoa ja määrittää päivitysikkunat [vuokr
 [Sovelluksen yhteensopivuus](compliance-application-compliance.md)  
 [Sertifikaatit](compliance-certifications.md)  
 
-## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,48 +1,66 @@
 ---
-title: Synkronointitöiden tilan näyttäminen | Microsoft Docs
-description: Lisätietoja tilan näyttämisestä yhdistettyjen tietueiden synkronoinnin jälkeen.
+title: Synkronointitöiden tilan näyttäminen (sisältää videon)
+description: Käytä Yhdistettyjen tietojen synkronointivirheet -sivua, kun haluat näyttää niiden synkronointitöiden tilan, jotka on suoritettu yhdistetyille tietueille integroinneissa.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2019
+ms.search.form: 6250
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 022e364b6a40fe8df1f9c4e3425030d35f729e6a
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: a9f4f2442e9cb3f8efc46cc7c9fd1f92c002d0dd
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304490"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115310"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Synkronointitöiden tilan näyttäminen
-Käytä **Yhdistettyjen tietojen synkronointivirheet** -sivua, kun haluat näyttää niiden synkronointitöiden tilan, jotka on suoritettu yhdistetyille tietueille [!INCLUDE[crm_md](includes/crm_md.md)] -integroinnissa. Tämä sisältää työt, jotka on suoritettu työjonosta, ja manuaaliset synkronointityöt, jotka on suoritettu [!INCLUDE[d365fin](includes/d365fin_md.md)] -tietueista. Näiden tilan näyttäminen on hyödyllistä esimerkiksi vianmäärityksen yhteydessä, koska tällöin saat tietoja yhdistettyihin tietueisiin liittyvistä virheistä. Yleensä tällaiset virheet johtuvat käyttäjän toiminnoista. Näitä ovat esimerkiksi seuraavat:  
 
-* Kaksi henkilö tekee muutoksia samaan tietueeseen kummassakin liiketoimintasovelluksessa.
-* Joku poisti tietueen yhdestä sovelluksesta, ei molemmista.
+
+Käytä **Yhdistettyjen tietojen synkronointivirheet** -sivua, kun haluat näyttää niiden synkronointitöiden tilan, jotka on suoritettu yhdistetyille tietueille Dataverse- tai [!INCLUDE[crm_md](includes/crm_md.md)] -integroinneissa. Tämä sisältää työt, jotka on suoritettu työjonosta, ja manuaaliset synkronointityöt, jotka on suoritettu [!INCLUDE[prod_short](includes/prod_short.md)] -tietueista. Näiden tilan näyttäminen on hyödyllistä esimerkiksi vianmäärityksen yhteydessä, koska tällöin saat tietoja yhdistettyihin tietueisiin liittyvistä virheistä. Yleensä tällaiset virheet johtuvat käyttäjän toiminnoista. Näitä ovat esimerkiksi seuraavat:  
+
+* Kaksi henkilö tekee muutoksia samaan tietoon kummassakin liiketoimintasovelluksessa.
+* Joku poisti tiedon yhdestä sovelluksesta, ei molemmista.
 
 > [!Note]
 > **Yhdistettyjen tietojen synkronointivirheet** -sivulla näkyvät yhdistettyjen tietueiden töihin liittyvät tiedot. Jos ratkaiset kaikki virheet, mutta tietueita ei silti synkronoida, syy voi olla integroinnin asetuksissa. Järjestelmänvalvojan on yleensä ratkaistava tämäntyyppiset virheet.   
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098171]
+## <a name="example"></a>Esimerkki
+Tässä videossa on esimerkki siitä, miten tuotteen [!INCLUDE[prod_short](includes/cds_long_md.md)] synkronoinnissa tapahtuneet virheet voidaan korjata. Prosessi on sama kaikille integroinneille. 
+
+> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2097304]
+
 
 ## <a name="to-view-and-resolve-synchronization-errors-for-coupled-records"></a>Yhdistettyjen tietueiden synkronointivirheiden tarkasteleminen ja ratkaiseminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Yhdistettyjen tietojen synkronointivirheet** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yhdistettyjen tietojen synkronointivirheet** ja valitse sitten aiheeseen liittyvä linkki.
 2. **Yhdistettyjen Tietojen Synkrnoiniti Virheet** esittää ongelmat jotka tapahtuivat yhdistetyjen tietuiden synkronoinnissa. Seuraavassa taulukossa on toimintoja, joiden avulla voit ratkaista ongelmia yksi kerrallaan.
 
 |Toiminto|Kuvaus|
 |----|----|
-|**Poista yhdistäminen**|Poistaa tietueiden yhdistämisen. Tämän jälkeen niitä ei enää synkronoida keskenään. Jos haluat jatkaa tietueiden synkronointia, tietueet on yhdistettävä uudelleen.|
-|**Yritä uudelleen**|Jos tietueesta löytyy virhe, sen synkronointi ohitetaan, kunnes ongelma korjataan manuaalisesti. Uudelleenyritys sisällyttää tietueen seuraavaan synkronointiin.|
-|**Synkronoi**|Sovellus yrittää ratkaista ristiriidan, jossa tietuetta on muutettu kummassakin liiketoimintasovelluksessa. Voit valita kummassakin sovelluksessa käytettävän tietueen version.|
-|**Palauta tietueet** ja **Poista tietueet**|Nämä ovat hyödyllisiä silloin, kun tietue on poistettu jommassakummassa sovelluksessa. Poista tietueet -vaihtoehto poistaa tietueen sovelluksesta, jossa se vielä on. Palautusvaihtoehto luo tietueen uudelleen sovellukseen, josta se poistettiin.|
+|**Poista yhdistäminen**|Poistaa tietueiden yhdistämisen. Tämän jälkeen niitä ei enää synkronoida keskenään. Jos haluat käynnistää synkronoinnin uudelleen, tietueet on yhdistettävä uudelleen. |
+|**Yritä uudelleen** ja **Yritä kaikki uudelleen**|Jos tietueesta löytyy virhe, sen synkronointi ohitetaan, kunnes ongelma korjataan. Yritä sisällyttää seuraava tietue seuraavaan synkronointiin ja **Yritä kaikkia uudelleen** sisältää kaikki tietueet.|
+|**Synkronoi**|Sovellus yrittää ratkaista ristiriidan, jossa tietoa on muutettu kummassakin liiketoimintasovelluksessa. Voit valita käytettävän tiedon.|
+|**Palauta tietueet** ja **Poista tietueet**|Nämä ovat hyödyllisiä silloin, kun tietue on poistettu jommassakummassa yrityssovelluksessa. Poista tietueet -vaihtoehto poistaa tietueen tai rivin sovelluksesta, jossa se vielä on. Palauta tietueet -vaihtoehto luo tietueen tai rivin uudelleen yrityssovellukseen, josta se poistettiin.|
+
+> [!NOTE]
+> Jotta ratkaistavana olevien ristiriitojen määrä vähenisi, voit määrittää integrointitaulukon yhdistämismääritykset, jotta nämä toiminnot ovat automaattisesti käytössä. Lisätietoja on kohdassa [Integrointitaulukoiden yhdistäminen](admin-how-to-modify-table-mappings-for-synchronization.md#mapping-integration-tables).
 
 ## <a name="to-view-the-synchronization-log-for-a-specific-manually-synchronized-record"></a>Tietyn (manuaalisesti synkronoidun) tietueen synkronointilokin näyttäminen
-1. Voit esimerkiksi avata asiakkaan, nimikkeen tai minkä tahansa muun tietoja sovellusten [!INCLUDE[d365fin](includes/d365fin_md.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] välillä synkronoivan tietueen.
+1. Voit esimerkiksi avata asiakkaan, nimikkeen tai minkä tahansa muun tietoja [!INCLUDE[prod_short](includes/prod_short.md)]- ja Dataverse- tai [!INCLUDE[crm_md](includes/crm_md.md)]-sovelluksen välillä synkronoivan tietueen.
 2. Valitse **Synkronointiloki** toimenpide tarkastellaksesi valitun tietueen synkronointilokia. Esimerkiksi tiettyä asiakasta jonka synkronoit manuaalisesti.
+
+## <a name="remove-couplings-between-records"></a>Liitosten poistaminen tietueiden väliltä
+Kun integraatiossa on jotain vikaa ja haluat poistaa tietueiden synkronoinnin pysäyttämisen, voit tehdä sen yhden tai usean tietueen kanssa kerralla. Voit irrottaa yhden tai useamman tietueen luettelosivuilta tai **Yhdistettyjen tietojen synkronointivirheet** -sivulta valitsemalla yhden tai useamman rivin ja valitsemalla **Poista yhdistäminen**. Voit myös poistaa kaikki yhden tai useamman taulukon yhdistämismäärityksen yhdistämiset **Integrointitaulukon yhdistämismääritykset** -sivulla. 
+
+Jos entiteetti, jolla on yksisuuntainen yhdistämismääritys, on poistettu tuotteesta [!INCLUDE[prod_short](includes/prod_short.md)], rikottu yhdistämismääritys on poistettava manuaalisesti. Voit tehdä tämän **Yhdistettyjen tietojen synkronointivirheet** -sivulla valitsemalla **Etsi poistettavaksi** -toiminnon ja poistamalla yhdistämismääritykset.
 
 ## <a name="see-also"></a>Katso myös  
 [Dynamics 365 Sales -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md)  
 [Dynamics 365 Salesin käyttäminen Business Centralissa](marketing-integrate-dynamicscrm.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

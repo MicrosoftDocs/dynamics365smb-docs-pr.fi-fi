@@ -1,21 +1,22 @@
 ---
-title: Projektin laskuttaminen luomalla projektimyynnin lasku| Microsoft Docs
-description: Ohjeaiheessa kerrotaan, miten projektin kustannukset laskutetaan asiakkailta projektin edetessä.
+title: Projektin laskuttaminen luomalla projektin myyntilasku
+description: Ohjeaiheessa kerrotaan, miten projektin kustannukset laskutetaan asiakkailta projektin edetessä ja kustannusten kertyessä.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 05/25/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3cf465be4d168baf586dd44df1357482b9651e66
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.search.form: 1002, 1007,
+ms.date: 06/22/2021
+ms.author: edupont
+ms.openlocfilehash: 444ecd4ea765983d2cd4c7c80962f8d2e66a737e
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402477"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973782"
 ---
 # <a name="invoice-jobs"></a>Projektien laskuttaminen
 Projektin aikana voi kertyä projektin kustannuksia resurssien käytöstä, materiaaleista ja projektiin liittyvistä ostoista. Projektin edetessä nämä tapahtumat kirjataan projektipäiväkirjaan. On tärkeää, että kaikki kustannukset kirjataan projektipäiväkirjaan ennen asiakkaan laskuttamista.
@@ -33,7 +34,7 @@ Voit luoda asiakkaalle laskun projektista tai vähintään yhdestä projektiteht
 
 Seuraavassa kerrotaan, miten eräajoa käytetään useiden projektien laskuttamisessa.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Luo projektin myyntilasku** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Luo projektin myyntilasku** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Määritä suodattimet, jos haluat rajata erätyön käsittelemien projektien määrää.
 4. Luo laskut valitsemalla **OK**.  
@@ -46,7 +47,7 @@ Voit tarkastella ja kirjata luotuja laskuja **Myyntilaskut**-ikkunassa.
 ## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Projektin myyntilaskun luominen ja kirjaaminen projektin suunnitteluriveistä
 Voit luoda laskun projektin suunnitteluriveiltä ja määrittää samalla nimikkeen määrän, resurssin tai KP-tilin, jonka haluat laskuttaa.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Työt** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten vastaava linkki.
 2. Avaa liittyvä projekti.
 3. Valitse projektitehtävä, jonka **Projektitehtävätyyppi**-kentän arvo on **Kirjaus**. Valitse sitten **Projektin suunnittelurivit** -toiminto.  
 4. Annan projektin suunnittelurivin **Laskuun siirrettävä määrä** -kentässä nimikkeen, resurssin tai pääkirjanpidon tilin tyyppi, jonka haluat laskuttaa.  
@@ -61,25 +62,13 @@ Voit luoda laskun projektin suunnitteluriveiltä ja määrittää samalla nimikk
 > [!NOTE]  
 >   Projektiin liittyvän myyntihyvityslaskun luominen, tarkistaminen ja kirjaaminen tapahtuu vastaavalla tavalla.
 
-## <a name="to-calculate-and-post-job-completion-entries"></a>Projektin valmistumistapahtumien laskeminen ja kirjaaminen
-Kun olet saanut kaikki projektin toimenpiteet, kuten käytön kirjauksen ja laskutuksen, valmiiksi, projekti on päivitettävä **tilaan** **Valmis**. Tämän jälkeen mahdollinen kirjanpitoon kirjattu KET peruuntuu.
-
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Työt** ja valitse sitten liittyvä linkki.  
-2. Valitse avoin projekti ja valitse sitten **Muokkaa**-toiminto.
-3. Valitse **Tila**-kentässä **Valmis**.
-4. Laske ja kirjaa KET ohjattujen vaiheiden avulla. Vaihtoehtoisesti voit tehdä toiminnot manuaalisesti vaiheiden 5 ja 6 mukaisesti.  
-5. Valitse **Laske KET** -toiminto.
-6. Täytä **Laske projektin KET** -sivulla tarvittavat kentät.  
-
-     Erätyön luomien projektin KET-tapahtumien vieressä on nyt valintamerkki **Projekti valmis** -kentässä. Valintamerkki osoittaa, että kyseessä ovat valmistumistapahtumat.  
-7. Valitse **Kirjaa projektin KET kirjanpitoon** -toiminto.
-8. Täytä **Kirjaa projektin KET kirjanpitoon** -sivulla tarvittavat kentät.  
-
-     Erätyön luomien projektin pääkirjanpidon KET-tapahtumien vieressä on nyt valintamerkki **Projekti valmis** -kentässä. Valintamerkki osoittaa, että kyseessä ovat valmistumistapahtumat.
 
 ## <a name="see-also"></a>Katso myös
 [Projektien hallinta](projects-manage-projects.md)  
 [Rahoitus](finance.md)  
 [Osto](purchasing-manage-purchasing.md)         
 [Myynti](sales-manage-sales.md)      
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

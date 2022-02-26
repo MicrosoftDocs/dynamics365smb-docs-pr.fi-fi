@@ -1,29 +1,27 @@
 ---
-title: Vaihekuvaus – Toimitusten automaattinen suunnittelu | Microsoft Docs
-description: Suunnittelutyökirjan ajolla ja tarvolaskennan ajolla viitataan päätuotantoaikataulun (MPS) ja materiaalien tarvelaskentaan (MRP), joka perustuu todelliseen ja ennustettuun kysyntään.
-services: project-madeira
-documentationcenter: ''
+title: Vaihekuvaus – Toimitusten automaattinen suunnittelu
+description: Tässä vaihekuvauksessa esitetään, kuinka tuotannonsuunnitelmajärjestelmää käytetään suunniteltaessa automaattisesti osto- ja tuotantotilauksia, joita tarvitaan eri myyntitilauksisssa.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: e4bfcb21263e3e0b08874fe9b9397a35fc484881
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: 86cc905a5bc3226a0bdd779b29570cbbd17ae5d4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248064"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439358"
 ---
 # <a name="walkthrough-planning-supplies-automatically"></a>Vaihekuvaus: Toimitusten automaattinen suunnittelu
 
-**Huomautus**: Tämä vaihekuvaus on suoritettava esittely-yrityksessä siten, että asetuksena on **Täydellinen arviointi - Kaikki mallitiedot**, joka on käytettävissä Sandbox-ympäristössä. Lisätietoja on kohdassa [Sandbox-ympäristön luominen](across-how-create-sandbox-environment.md).
+<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
-Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaikataulun laskentaan (MPS) ja materiaalien tarvelaskentaan (MRP), joka perustuu todelliseen ja ennustettuun kysyntään.  
+Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaikataulun (MPS) ja materiaalien tarvelaskentaan (MRP), joka perustuu todelliseen ja ennustettuun kysyntään.  
 
 -   Tuotanto-ohjelma tarkoittaa todelliseen tarpeeseen ja kysyntäennusteeseen perustuvaa tuotanto-ohjelman laskentaa. Tuotanto-ohjelman laskenta tehdään lopullisille nimikkeille, joilla on ennuste ja/tai myyntitilauksen rivi. Näitä nimikkeitä kutsutaan tuotanto-ohjelmanimikkeiksi, ja ne tunnistetaan dynaamisesti laskennan alkaessa.  
 -   MRP tarkoittaa komponenttien todelliseen tarpeeseen ja komponenttitason kysyntäennusteeseen perustuvaa materiaalitarpeen laskentaa. Tarvelaskenta tehdään vain nimikkeille, jotka eivät ole tuotanto-ohjelmanimikkeitä. Tuotanto-ohjelman yleistavoitteena on tuottaa aikavaiheistetut, viralliset nimikekohtaiset suunnitelmat, jotta oikeaa tuotetta voidaan toimittaa oikea määrä oikeaan aikaan ja oikeassa paikassa.  
@@ -33,7 +31,7 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
  Suunnittelun tulos lasketaan osittain kysyntä- ja tuotantojoukoista sekä osittain varastoyksikön korttien tai nimikkeen korttien, tuotannon tuoterakenteen ja reititysten asetusten mukaan.  
 
 ## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta  
- Tässä vaihekuvauksessa esitetään, kuinka tuotannonsuunnitelmajärjestelmää käytetään suunniteltaessa automaattisesti kaikkia osto- ja tuotantotilauksia, joita tarvitaan 15 retkipyörän valmistamiseen eri myyntitilauksisssa. Antaakseen selkeän ja realistisen vaihekuvauksen, suunnittelurivien määrä on erotettu suodattamalla pois kaikki muut kysyntä- ja tuotantojoukot CRONUS Finland Oy -esittely-yrityksessä lukuun ottamatta myynnin kysyntää sijainnissa SININEN.  
+ Tässä vaihekuvauksessa esitetään, kuinka tuotannonsuunnitelmajärjestelmää käytetään suunniteltaessa automaattisesti kaikkia osto- ja tuotantotilauksia, joita tarvitaan 15 retkipyörän valmistamiseen eri myyntitilauksisssa. Antaakseen selkeän ja realistisen vaihekuvauksen, suunnittelurivien määrä on erotettu suodattamalla pois kaikki muut kysyntä- ja tuotantojoukot CRONUS-esittely-yrityksessä lukuun ottamatta myynnin kysyntää sijainnissa ITÄ.  
 
  Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:  
 
@@ -54,13 +52,13 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 -   Muuta useita nimikkeen asetusarvoja noudattamalla osan Esimerkkitietojen valmisteleminen ohjeita jäljempänä tässä vaihekuvauksessa.  
 
 ## <a name="story"></a>Taustatietoja  
- Asiakas Tuotantoyhtymä tilaa viisi retkipyörää ja pyytää toimituspäiväksi 2.5.2014 (5. helmikuuta).  
+ Asiakas Cannon Group PLC tilaa viisi retkipyörää ja pyytää toimituspäiväksi 5.2.2021 (5. helmikuuta).  
 
- Tuotantosuunnittelija Karl suorittaa tuotantosuunnittelun helmikuun 2014 ensimmäiselle viikolle. Hän suodattaa oman sijaintinsa (SININEN) tiedot ja määrittää suunnitteluväliksi työpäivät 23.1.– 7.2.2014, ennen kuin hän laskee alustavan tuotantosuunnitelman.  
+ Tuotantosuunnittelija Karl suorittaa tuotantosuunnittelun helmikuun 2021 ensimmäiselle viikolle. Hän suodattaa oman sijaintinsa (ITÄ) tiedot ja määrittää suunnitteluväliksi työpäivät 23.1.– 7.2.2021, ennen kuin hän laskee alustavan tuotantosuunnitelman.  
 
  Tuotantoyhtymän myyntitilaus on ainoa kyseisen viikon kysyntä. Karl havaitsee, ettei suunnitteluriveillä ole varoituksia, joten hän luo ilman muutoksia toimitustilaukset ehdotetuista suunnitteluriveistä.  
 
- Seuraavana päivänä ennen alkuperäisten toimitustilausten aloittamista tai kirjaamista Karl huomaa, että toinen asiakas on tilannut kymmenen retkipyörää ja pyytänyt lähetyspäiväksi 12.2.2014. Karl laskee tiedot uudelleen ja oikaisee näin tuotantosuunnitelman kysynnän muutoksen mukaan. Uudelleenlaskenta tuottaa nettomuutossuunnitelman, jossa ehdotetaan muutoksia ensimmäisen ajon toimitustilausten aikaan ja määrään.  
+ Seuraavana päivänä ennen alkuperäisten toimitustilausten aloittamista tai kirjaamista Karl huomaa, että toinen asiakas on tilannut kymmenen retkipyörää ja pyytänyt lähetyspäiväksi 12.2.2021. Karl laskee tiedot uudelleen ja oikaisee näin tuotantosuunnitelman kysynnän muutoksen mukaan. Uudelleenlaskenta tuottaa nettomuutossuunnitelman, jossa ehdotetaan muutoksia ensimmäisen ajon toimitustilausten aikaan ja määrään.  
 
  Eri suunnitteluvaiheiden aikana Karl etsii suunnitteluun liittyvät tilaukset ja tarkistaa Tilauksen seuranta -toiminnolla, mikä toimitus kattaa minkäkin kysynnän.  
 
@@ -76,8 +74,8 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 
 ### <a name="to-change-selected-planning-parameters"></a>Vaihda valitut suunnitteluparametrit  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastointiyksiköt** ja valitse sitten liittyvä linkki.  
-2.  Avaa nimikkeen 1100 (Etupyörä) SININEN varastointiyksikön kortti.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastointiyksiköt** ja valitse sitten vastaava linkki.  
+2.  Avaa ITÄ-varastointiyksikön kortti nimikkeelle 1100 (Etupyörä).  
 3.  Täytä **Suunnittelu**-pikavälilehden kentät seuraavassa taulukossa kuvatulla tavalla.  
 
     |Uusintatilaustapa|Varmuusvaraston määrä|Erän koontijakso|Uudelleenajoitusjakso|  
@@ -89,61 +87,61 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
  Esimerkkitiedot on nyt valmisteltu tätä vaihekuvausta varten.  
 
 ## <a name="creating-a-regenerative-supply-plan"></a>Toimituksen uudelleensuunnittelun luominen  
- Kun Riku saa uuden myyntitilauksen viidestä retkipyörästä, hän aloittaa suunnitteluprosessin määrittämällä asetukset, suodattimet ja suunnittelun aikavälin jättääksen pois kaiken muun paitsi helmikuun viikon kysynnän SININEN-sijainnissa. Karl aloittaa laskemalla päätuotantoaikataulun (MPS) suodattimien sisällä, minkä jälkeen hän laskee täydellisen toimitussuunnitelman alatason kysynnälle (MRP) suodattimien sisällä.  
+ Kun Riku saa uuden myyntitilauksen viidestä retkipyörästä, hän aloittaa suunnitteluprosessin määrittämällä asetukset, suodattimet ja suunnittelun aikavälin jättääksen pois kaiken muun paitsi helmikuun viikon kysynnän ITÄ-sijainnissa. Karl aloittaa laskemalla päätuotantoaikataulun (MPS) suodattimien sisällä, minkä jälkeen hän laskee täydellisen toimitussuunnitelman alatason kysynnälle (MRP) suodattimien sisällä.  
 
 ### <a name="to-create-the-sales-order"></a>Myyntitilauksen luominen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 2.  Valitse **Uusi**-toiminto.  
 3.  Täytä **Myyntitilaus**-sivun kentät seuraavassa taulukossa kuvatulla tavalla.  
 
-    |Tilausasiakkaan nimi|Lähetyksen pvm|Nimikkeen nro|Sijainti|määrä.|  
+    |Tilausasiakkaan nimi|Lähetyksen pvm|Nimikkeen nro|Sijainti|määrä|  
     |----------------------------|-------------------|--------------|--------------|--------------|  
-    |Cannon Group|5.2.2014|1001|SININEN|5|  
+    |Cannon Group|5.2.2014|1001|ITÄ|5|  
 
 4.  Hyväksy saatavuusvaroitus ja valitse **Kyllä**. Uusi kysyntämäärä kirjataan.  
 
-### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-blue"></a>Uudelleensuunnittelun luominen SININEN-sijainnin kysynnän täyttämiseksi  
+### <a name="to-create-a-regenerative-plan-to-fulfill-demand-at-location-east"></a>Uudelleensuunnittelun luominen ITÄ-sijainnin kysynnän täyttämiseksi  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnittelutyökirja** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnittelutyökirja** ja valitse sitten vastaava linkki.  
 2.  Valitse **Laske uudelleensuunnittelu** -toiminto.  
 3.  Täytä **Laske suunn. - Suunn.työk.** -sivulla kenttä seuraavassa taulukossa kuvatulla tavalla.  
 
     |Laske suunnitelma|Aloituspvm|Lopetuspvm|Näytä tulokset:|Rajoita kokonaisarvoksi|  
     |--------------------|-------------------|-----------------|-------------------|---------------------|  
-    |**MPS** = Kyllä<br /><br /> **MRP** = Ei|23.1.2014<br /><br /> (Käsittelypäivämäärä)|7.2.2014|1001..1300|Sijaintisuodatus = SININEN|  
+    |**MPS** = Kyllä<br /><br /> **MRP** = Ei|01-23-2021<br /><br /> (Käsittelypäivämäärä)|02-07-2021|1001..1300|Sijaintisuodatus = ITÄ|  
 
 4.  Käynnistä suunnitteluajo valitsemalla **OK**.  
 
-     Järjestelmä luo yhden suunnittelurivin, jolla ehdotetaan, suunnitellulla tuotantotilauksella tuotetaan 10 retkipyörää, nimike 1001 5.2.2014 mennessä. Tämä on myyntitilauksen toimituspäivä.  
+     Järjestelmä luo yhden suunnittelurivin, jolla ehdotetaan, suunnitellulla tuotantotilauksella tuotetaan 10 retkipyörää, nimike 1001 5.2.2021 mennessä. Tämä on myyntitilauksen toimituspäivä.  
 
      Varmista seuraavaksi, että tämä suunnittelurivi vastaa Tuotantoyhtymän myyntitilausta. Tämä onnistuu **Tilauksen seuranta** -toiminnolla, joka linkittää kysynnän dynaamisesti suunniteltuun toimitukseen.  
 
 5.  Valitse ensin uusi suunnittelurivi ja sitten **Tilauksen seuranta** -toiminto.  
 6.  Valitse **Tilauksen seuranta** -sivulla **Näytä**-toiminto.  
 
-     Näyttöön tulee viiden retkipyörän myyntitilaus asiakasnumerolle 10000 5.2.2013 esitetyn mukaisesti.  
+     Näyttöön tulee viiden retkipyörän myyntitilaus asiakasnumerolle 10000 5.2.2021 esitetyn mukaisesti.  
 
 7.  Sulje **Myyntitilaus**- ja **Tilauksen seuranta** -sivut.  
 
 ### <a name="to-calculate-mrp-to-include-underlying-component-needs"></a>Laske tarvelaskenta sisällyttäen pohjana olevat osat  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Suunnittelutyökirja** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnittelutyökirja** ja valitse sitten vastaava linkki.  
 2.  Valitse **Laske uudelleensuunnittelu** -toiminto.  
 3.  Täytä **Laske suunn. - Suunn.työk.** -sivulla kenttä seuraavassa taulukossa kuvatulla tavalla.  
 
     |Laske|Aloituspvm|Lopetuspvm|Näytä tulokset:|Rajoita kokonaisarvoiksi:|  
     |---------------|-------------------|-----------------|-------------------|----------------------|  
-    |**MPS** = Kyllä<br /><br /> **MRP** = Kyllä|23.1.2014|7.2.2014|1001..1300|Sijaintisuodatus = SININEN|  
+    |**MPS** = Kyllä<br /><br /> **MRP** = Kyllä|01-23-2021|02-07-2021|1001..1300|Sijaintisuodatus = ITÄ|  
 
 4.  Käynnistä suunnitteluajo valitsemalla **OK**.  
 
-     Järjestelmä luo 14 suunnitteluriviä. Niillä ehdotetaan toimitustilauksia kysynnälle, jonka SININEN-sijainnin retkipyörien myyntitilaus edustaa.  
+     Järjestelmä luo 14 suunnitteluriviä. Niillä ehdotetaan toimitustilauksia kysynnälle, jonka ITÄ-sijainnin retkipyörien myyntitilaus edustaa.  
 
 ## <a name="analyzing-the-planning-result"></a>Suunnittelun tulosten analysoiminen  
  Karl analysoi ehdotetut määrät. Hän siirtyy valituille suunnitteluriveille ja tarkistaa nimikkeen suunnitteluparametrit sekä tilauksen seurannan merkinnät.  
 
- Huomaa **Suunnittelutyökirja** -sivun **Eräpäivä**-sarakkeessa, että ehdotetut toimitustilaukset ajoitetaan taaksepäin myyntitilauksen eräpäivästä 5.2.2014. Aikajana alkaa tuotantotilauksen ylimmästä suunnittelurivistä, joka liittyy viimeisteltyjen retkipyörien tuotantoon. Aikajana päättyy alimmaiseen suunnitteluriviin yhteen alimman tason nimikkeeseen, 1255, Takaistukka, eräpäivä 3.3.2014, liittyvän ostotilauksen kohdalla. Kuten nimikkeen 1251 suunnittelurivi, takarenkaan akseli, tämä rivi edustaa ostotilauksen osia, jotka erääntyvät tuotetun päänimikkeen aloituspäivämääränä, osakokoonpanonimike 1250, joka puolestaan erääntyy 3.2.2014. Voit nähdä koko laskentataulukossa, että kaikki taustalla olevat nimikkeet erääntyvät päätietueidensa aloituspäivänä.  
+ Huomaa **Suunnittelutyökirja** -sivun **Eräpäivä**-sarakkeessa, että ehdotetut toimitustilaukset ajoitetaan taaksepäin myyntitilauksen eräpäivästä 5.2.2021. Aikajana alkaa tuotantotilauksen ylimmästä suunnittelurivistä, joka liittyy viimeisteltyjen retkipyörien tuotantoon. Aikajana päättyy alimmaiseen suunnitteluriviin yhteen alimman tason nimikkeeseen, 1255, Takaistukka, eräpäivä 30.1.2021, liittyvän ostotilauksen kohdalla. Kuten nimikkeen 1251 suunnittelurivi, takarenkaan akseli, tämä rivi edustaa ostotilauksen osia, jotka erääntyvät tuotetun päänimikkeen aloituspäivämääränä, osakokoonpanonimike 1250, joka puolestaan erääntyy 3.2.2014. Voit nähdä koko laskentataulukossa, että kaikki taustalla olevat nimikkeet erääntyvät päätietueidensa aloituspäivänä.  
 
  Nimikkeen 1300, Ketjun kokoonpano, ehdotetaan kymmentä kappaletta. Tämä poikkeaa viidestä kappaleesta, joita odotamme myyntitilauksen täyttämiseksi. Siirry tarkastelemaan tilauksen seurantatapahtumia.  
 
@@ -162,7 +160,7 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 1.  Valitse **Ei-seuratut suunnitteluelementit** -sivulla nimikkeen 1300 tilauksen seurantarivi.  
 2.  Valitse ensin **Nimikenro**-kenttä ja sitten **Lisäasetukset**-toiminto.  
 3.  Valitse **Nimikeluettelo**-sivulla **Varastointiyksiköt**-toiminto.  
-4.  Avaa **Varastointiyksikön luettelo** -sivulla SININEN varastointiyksikön kortti.  
+4.  Avaa **Varastointiyksikön luettelo** -sivulla ITÄ varastointiyksikön kortti.  
 5.  Huomaa, että **Suunnittelu**-pikavälilehden **Vähimmäistilausmäärä**-kentässä on arvo 10.  
 6.  Sulje kaikki sivut **Suunnittelutyökirja**-sivua lukuun ottamatta.  
 
@@ -204,10 +202,10 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 4.  Luo kaikki ehdotetut toimitustilaukset automaattisesti valitsemalla **OK**.  
 5.  Sulje tyhjä **Suunnittelutyökirja**-sivu.  
 
- Toimitussuunnitelman alkuperäinen laskenta, analyysi ja luonti SININEN-sijainnin kysynnälle helmikuun ensimmäisellä viikolla on nyt valmis. Seuraavassa osassa toinen asiakas tilaa kymmenen retkipyörää, ja Karlin on laskettava suunnitelma uudelleen.  
+ Toimitussuunnitelman alkuperäinen laskenta, analyysi ja luonti ITÄ-sijainnin kysynnälle helmikuun ensimmäisellä viikolla on nyt valmis. Seuraavassa osassa toinen asiakas tilaa kymmenen retkipyörää, ja Karlin on laskettava suunnitelma uudelleen.  
 
 ## <a name="creating-a-net-change-plan"></a>Nettomuutossuunnitelman luominen  
- Seuraavana päivänä ennen toimitustilausten aloittamista tai kirjaamista saapuu uusi myyntitilaus yritykseltä Libros S.A. Tilaus käsittää kymmenen retkipyörää, ja tilauksen toimituspäivä on 12.2.2014. Karl saa ilmoituksen uudesta kysynnästä, joten hän laskee suunnitelman uudelleen. Karl laskee Nettomuutos suunnittelu -toiminnolla ainoastaan edellisen suunnitteluajon jälkeen tulleet kysynnän tai toimituksen muutokset. Lisäksi hän laajentaa suunnittelujakson 14.2.2014 asti kattamaan toisen kysyntäpäivän 14.2.2014.  
+ Seuraavana päivänä ennen toimitustilausten aloittamista tai kirjaamista saapuu uusi myyntitilaus yritykseltä Libros S.A. Tilaus käsittää kymmenen retkipyörää, ja tilauksen toimituspäivä on 12.2.2021. Karl saa ilmoituksen uudesta kysynnästä, joten hän laskee suunnitelman uudelleen. Karl laskee Nettomuutos suunnittelu -toiminnolla ainoastaan edellisen suunnitteluajon jälkeen tulleet kysynnän tai toimituksen muutokset. Lisäksi hän laajentaa suunnittelujakson 14.2.2021 asti kattamaan toisen kysyntäpäivän 12.2.2021.  
 
  Suunnittelujärjestelmä laskee parhaan tavan kattaa kahden identtisen tuotteen kysynnän. Järjestelmä määrittää, miten osa osto- ja tuotantotilauksista kannattaa yhdistää ja miten muut tilaukset lasketaan uudelleen. Järjestelmä luo myös tarvittaessa uusia tilauksia.  
 
@@ -216,23 +214,23 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 1.  Valitse **Uusi**-toiminto.  
 2.  Täytä **Myyntitilaus**-sivun kentät seuraavassa taulukossa kuvatulla tavalla.  
 
-    |Tilausasiakkaan nimi|Lähetyksen pvm|Nimikkeen nro|Sijainti|määrä.|  
+    |Tilausasiakkaan nimi|Lähetyksen pvm|Nimikkeen nro|Sijainti|määrä|  
     |----------------------------|-------------------|--------------|--------------|--------------|  
-    |Libros S.A|12.2.2014|1001|SININEN|10|  
+    |Libros S.A|02-12-2021|1001|ITÄ|10|  
 
 3.  Hyväksy saatavuusvaroitus ja valitse **Kyllä**. Uusi kysyntämäärä kirjataan.  
 4.  Seuraavaksi on tarpeen oikaista nykyinen toimitussuunnitelma.  
-5.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Suunnittelutyökirja** ja valitse sitten liittyvä linkki.  
+5.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnittelutyökirja** ja valitse sitten vastaava linkki.  
 6.  Valitse **Laske nettomuutossuunnitelma** -toiminto.  
 7.  Täytä **Laske suunn. - Suunn.työk.** -sivulla kenttä seuraavassa taulukossa kuvatulla tavalla.  
 
     |Laske suunnitelma|Aloituspvm|Lopetuspvm|Näytä tulokset:|Rajoita kokonaisarvoksi|  
     |--------------------|-------------------|-----------------|-------------------|---------------------|  
-    |**MPS** = Kyllä<br /><br /> **MRP** = Kyllä|23.1.2014|14.2.2014|1001..1300|Sijaintisuodatus = SININEN|  
+    |**MPS** = Kyllä<br /><br /> **MRP** = Kyllä|01-23-2021|02-14-2021|1001..1300|Sijaintisuodatus = ITÄ|  
 
 8.  Käynnistä suunnitteluajo valitsemalla **OK**.  
 
- Yhteensä 14 suunnittelutyökirjan riviä on luotu. Huomaa, että ensimmäisen suunnittelurivin **Toimenpideviesti**-kentässä lukee **Uusi**, **Määrä**-kentässä 10 ja **Eräpäivä**-kentässä 12.2.2014. Tämä uusi rivi luodaan yläpäänimikkeelle 1001, Retkipyörä, koska nimikkeen uusintatilaustapa on **Tilaus**. Tämä tarkoittaa, että se on toimitettava yhden suhde yhteen -suhteessa kysyntään, joka on kymmenen kappaleen myyntitilaus.  
+ Yhteensä 14 suunnittelutyökirjan riviä on luotu. Huomaa, että ensimmäisen suunnittelurivin **Toimenpideviesti**-kentässä lukee **Uusi**, **Määrä**-kentässä 10 ja **Eräpäivä**-kentässä 12.2.2021. Tämä uusi rivi luodaan yläpäänimikkeelle 1001, Retkipyörä, koska nimikkeen uusintatilaustapa on **Tilaus**. Tämä tarkoittaa, että se on toimitettava yhden suhde yhteen -suhteessa kysyntään, joka on kymmenen kappaleen myyntitilaus.  
 
  Seuraavat kaksi suunnitteluriviä ovat retkipyörien kiekkojen tuotantotilaukset. Jokaista viittä **Alkuperäinen määrä** -kentässä olemassa olevaa tilausta kasvatetaan arvoon 15 **Määrä**-kentässä. Molemmissa tuotantotilauksissa on muuttumaton eräpäivä, mistä on osoituksena **Toimenpideviesti**-kentässä näkyvä **Muuta määrä**. Tämä koskee myös nimikkeen 1300 suunnittelurivillä, joskin sen tilauskerrannainen 10,00 pyöristää seuratun kysynnän 15 kappaleesta 20 kappaleeseen.  
 
@@ -267,5 +265,8 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 
 ## <a name="see-also"></a>Katso myös  
  [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)   
- [Vaihekuvaus: Toimitusten manuaalinen suunnittelu](walkthrough-planning-supplies-manually.md)   
+<!--  [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)    -->
  [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

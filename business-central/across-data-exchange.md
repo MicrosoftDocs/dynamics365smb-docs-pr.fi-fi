@@ -1,26 +1,26 @@
 ---
-title: Business Central -sovelluksen sähköiset asiakirjat | Microsoft Docs
-description: Sähköisten asiakirjojen lähettämisen ja vastaanottamisen esittely Business Central -sovelluksessa.
+title: Sähköiset asiakirjat Business Centralissa
+description: Tämä on yleiskatsaus siihen, miten voit hallita liiketoiminta-asiakirjojen, kuten pankkitiedostojen ja vaihtokurssien siirtoa liikekumppaneille tiedonsiirtokehyksen avulla.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 01/30/2020
-ms.author: sgroespe
-ms.openlocfilehash: ac4060caf413245720c01d55e7ebf809d973a647
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
+ms.date: 06/10/2021
+ms.author: edupont
+ms.openlocfilehash: 3f67cf78444e263932897948f93c8ece028989d8
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999829"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588374"
 ---
 # <a name="exchanging-data-electronically"></a>Sähköinen tiedonsiirto
 Voit hallita liiketoiminta-asiakirjojen, pankkitiedostojen, vaihtokurssien ja muiden datatiedostojen siirtoa liikekumppaneille tiedonsiirtokehyksen avulla.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]in perusversiossa tiedonsiirtokehystä käytetään toiminnoissa, kuten elektronisissa asiakirjoissa, pankkitiedostojen tuonnissa/viennissä ja valuutanvaihtokurssien päivityksessä. Lisätietoja on kohdassa [Tietoja tiedonsiirtokehyksestä](across-about-the-data-exchange-framework.md).
+[!INCLUDE[prod_short](includes/prod_short.md)]in perusversiossa tiedonsiirtokehystä käytetään prosesseissa, kuten elektronisten asiakirjojen vaihdossa, pankkitiedostojen tuonnissa/viennissä ja valuutanvaihtokurssien päivityksessä. Lisätietoja on kohdassa [Tietoja tiedonsiirtokehyksestä](across-about-the-data-exchange-framework.md).
 
 Järjestelmänvalvojana tai Microsoft-kumppanina voit käyttää kehystä uusissa integrointiominaisuuksissa määrittämällä, mitä tietoja vaihdetaan ja miten. Lisätietoja on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).
 
@@ -39,3 +39,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 [Tiedonsiirto](across-exchange-data.md)  
 [Saapuvat asiakirjat](across-income-documents.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

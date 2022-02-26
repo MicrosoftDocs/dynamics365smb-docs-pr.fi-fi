@@ -1,26 +1,27 @@
 ---
-title: Tuotanto alihankintana | Microsoft Docs
-description: Kun ostotilaus on luotu alihankintatyökirjasta, ostotilaus voidaan kirjata.
+title: Tuotanto alihankintana
+description: Tässä aiheessa on laaja yleiskuva Business Centralin alihankinnan laajennetusta toiminnosta, mukaan lukien tuotantosolu ja reititys.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: e3d72eecf3f0d4e92b0255dffdece8dcb795cf96
-ms.sourcegitcommit: 319023e53627dbe8e68643908aacc6fd594a4957
+ms.search.keywords: 99000886
+ms.date: 06/22/2021
+ms.author: edupont
+ms.openlocfilehash: 2b3ecc4ac84c5b3958d2ada97c104e92dced9ed2
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553792"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972721"
 ---
 # <a name="subcontract-manufacturing"></a>Tuotanto alihankintana
+
 Valittujen toimintojen siirtäminen alihankintoina toimittajalle on yleistä monissa tuotantoyrityksissä. Alihankinta voi olla joko harvinaista tai keskeinen osa kaikkia tuotantoprosesseja.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]issa on useita työkaluja alihankintatöiden hallintaan:  
+[!INCLUDE[prod_short](includes/prod_short.md)]issa on useita työkaluja alihankintatöiden hallintaan:  
 
 - Tuotantosolut, joihin on määritetty alihankkija: Tämän ominaisuuden avulla voit määrittää alihankkijaan liittyvän tuotantosolun. Sitä kutsutaan alihankkijan tuotantosoluksi. Voit määrittää alihankkijan tuotantosolun reititysoperaatioon, jolloin voit käsitellä alihankkijalla teetettävän toimen. Operaation kustannukset voi myös määrittää reitityksen tai tuotantosolun tasolla.  
 - Yksikkö- tai aikaperustaiset työsolukustannukset: Tämän ominaisuuden avulla voit määrittää, perustuvatko tuotantosoluun liittyvät kustannukset tuotantoaikaan vai kiinteään yksikköperustaiseen korvaukseen. Vaikka alihankkijat laskuttavatkin palveluistaan usein yksikköperustaisen kiinteän maksun, sovellus osaa käsitellä molemmat vaihtoehdot (sekä tuotantoaikaan perustuvan että yksikköperustaisen kiinteän korvauksen).  
@@ -52,7 +53,7 @@ Kun alihankintatyökirja on laskettu, käsiteltävä asiakirja, tässä tapaukse
 >  Vai sellaisia tuotantotilauksia voi avata ja käyttää alihankintatyökirjasta, joiden tila on **Vapautettu**.  
 
 ### <a name="to-calculate-the-subcontracting-worksheet"></a>Alihankintatyökirjan laskeminen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Alihankintatyökirja** ja valitse liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Alihankintatyökirja** ja valitse sitten vastaava linkki.  
 2.  Voit laskea työkirjan valitsemalla **Laske alihankinnat** -toiminto.  
 3.  Määritä **Laske alihankinnat** -sivulla suodattimet alihankintatoimintoja tai toiminnot suorittavia tuotantosoluja varten vain olennaisten tuotantotilausten laskemiseksi.  
 4.  Valitse **OK**-painike.  
@@ -60,7 +61,7 @@ Kun alihankintatyökirja on laskettu, käsiteltävä asiakirja, tässä tapaukse
     Tarkista **Alihankintatyökirja**-sivun rivien tiedot. Tämän työkirjan tiedot ovat peräisin tuotantotilauksesta ja tuotantotilauksen reititysriveistä, ja ne tulevat näkyviin ostotilaukseen, kun kyseinen asiakirja luodaan. Voit poistaa rivin työkirjasta alkuperäisiä tietoja muuttamatta samalla tavalla kuin muistakin työkirjoista. Tiedot tulevat uudelleen näkyviin, kun seuraavan kerran suoritat **Laske alihankinnat** -toiminnon.  
 
 ### <a name="to-create-the-subcontract-purchase-order"></a>Luo alihankkijan ostotilaus  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Alihankintatyökirja** ja valitse liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Alihankintatyökirja** ja valitse sitten vastaava linkki.  
 2.  Valitse **Toteuta toimenpideviesti** -toiminto.  
 3.  Jos haluat tulostaa ostotilauksen samalla, kun se luodaan, lisää valintamerkki **Tulosta tilaukset** -kenttään.  
 4.  Valitse **OK**-painike.  
@@ -72,15 +73,8 @@ Ostotilaukseksi muuttunut työkirjarivi poistetaan työkirjasta.  Kun ostotilaus
 ## <a name="posting-subcontract-purchase-orders"></a>Alihankkijan ostotilauksen kirjaaminen  
 Kun alihankkijan ostotilaukset on luotu, ne voidaan kirjata. Kun tilaus vastaanotetaan, tuotantotilaukseen kirjataan kapasiteettitapahtuma; kun tilaus laskutetaan, ostotilauksen välitön kustannus kirjataan tuotantotilaukseen.  
 
-Ohjelma kirjaa tuotantotilauksen tuotospäiväkirjan rivin tapahtuman automaattisesti, kun ostotilaus vastaanotetaan. Tätä sovelletaan vain, jos alihankintasopimuksen työvaihe on tuotantotilauksen reitityksen viimeinen työvaihe.  
-
-> [!CAUTION]  
->  Kirjataan jatkuvan tuotantotilauksen tuotos automaattisesti, kun vastaanotettuja alihankinnan nimikkeitä ehkä haluttu. Syynä tälle voi olla, että odotettu tuotoksen määrä, joka kirjataan, voi olla erilainen kuin todellinen määrä ja automaattisen tulostuksen kirjauspäivämäärä voi olla harhaanjohtava.  
->   
->  Jos haluat välttää oletetun tuotantotilauksen tuotoksen kirjaamisen alihankintasopimuksen oston vastaanoton yhteydessä, varmista, että alihankinnan toiminto ei ole viimeinen. Lisää vaihtoehtoisesti uusi viimeinen operaatio lopullisen tuotoksen määrälle.
-
 ## <a name="to-post-a-subcontract-purchase-order"></a>Alihankkijan ostotilauksen kirjaaminen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten vastaava linkki.  
 2.  Avaa ostotilaus, joka on luotu alihankintatyökirjasta.  
 
     Ostotilausriveillä näkyy samat tiedot kuin työkirjassa. **Tuotantotilauksen nro**-, **Tuot.til. rivinro**-, **Operaation nro**- ja **Tuotantosolun nro** -kentät on täytetty lähdetuotantotilauksen tiedoilla.  
@@ -100,6 +94,9 @@ Ostotilauksen välitön kustannus kirjataan tuotantotilaukseen, kun ostotilaus k
 [Tuotanto](production-manage-manufacturing.md)    
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
 [Suunnittelu](production-planning.md)      
-[Vaihto-omaisuus](inventory-manage-inventory.md)  
+[Varasto](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

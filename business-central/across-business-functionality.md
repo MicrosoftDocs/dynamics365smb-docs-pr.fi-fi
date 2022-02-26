@@ -1,5 +1,5 @@
 ---
-title: Business Central -sovelluksen tukemat liiketoiminnan toiminnot | Microsoft Docs
+title: Business Central -sovelluksen tukemat liiketoiminnan toiminnot
 description: Tässä ohjeaiheessa on yleiskuvaus kaikista liiketoiminnan toimintojen ominaisuuksista ja osastoista, joita sovellusalueet tukevat. Tällaisia sovellusalueita ovat esimerkiksi taloushallinto, varastonhallinta ja projektinhallinta.
 author: SorenGP
 ms.service: dynamics365-business-central
@@ -8,21 +8,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b54c72614eb3e55d7cc93a0f3f9587f47e0b29d3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 8b60f8df6d40ceaf6c2c62397cb4d21f848d9aee
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188754"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588349"
 ---
 # <a name="business-functionality"></a>Liiketoiminnan toiminnallisuus
-[!INCLUDE[d365fin](includes/d365fin_md.md)]issa on lähinnä tukkukauppa- ja palvelualalla toimivien PK-yritysten tavallisissa liiketoimintaprosesseissa tarvitsemat toiminnot. Tämän lisäksi tuetaan myös monimutkaisia prosesseja, kuten kokoonpanoa, tuotantoa, huoltoa ja ohjattua varastoinninhallintaa.
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset omaa liiketoimintaasi vastaavaksi. Roolisivulla on avustettuja asennusoppaita, joiden avulla voit määrittää tiettyjä skenaarioita sekä lisätä ominaisuuksia [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmaan. Useat liiketoiminnan toiminnallisuusalueet on määritettävä manuaalisesti. Lisätietoja on ohjeaiheessa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)]issa on lähinnä tukkukauppa- ja palvelualalla toimivien PK-yritysten tavallisissa liiketoimintaprosesseissa tarvitsemat toiminnot. Tämän lisäksi tuetaan myös monimutkaisia prosesseja, kuten kokoonpanoa, tuotantoa, huoltoa ja ohjattua varastoinninhallintaa.
 
-| Vastaanottaja | Katso |
+[!INCLUDE[prod_short](includes/prod_short.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset omaa liiketoimintaasi vastaavaksi. Roolisivulla on avustettuja asennusoppaita, joiden avulla voit määrittää tiettyjä skenaarioita sekä lisätä ominaisuuksia [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan. Useat liiketoiminnan toiminnallisuusalueet on määritettävä manuaalisesti. [Business Centralin pika-aloituksen](quick-start-business-central.md) artikkelien avulla voit ottaa ensimmäiset askelet [!INCLUDE [prod_short](includes/prod_short.md)]in käyttöönotossa. Lisätietoja on ohjeaiheessa [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md).
+
+| Tehtävä | Katso |
 | --- | --- |
 |Maksujen suorittaminen ja kerääminen, kassavirran hallinta, tuottojen siirtäminen, vuoden lopun sulkemisen valmistelut ja käyttöomaisuuden hallinta.|[Rahoitus](finance.md)|
 |Tietojen hankkiminen liiketoiminnan suorituskyvystä budjettien, raportointimallien ja analyysinäkymien avulla.|[Business Intelligence](bi.md)|
@@ -40,10 +41,15 @@ ms.locfileid: "3188754"
 |Ajoita huoltokäyntejä ja määritä huoltotilauksia ja jäljitä varaosia ja tarvikkeita.|[Huoltohallinto](service-service.md)|
 |Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät eri käyttäjien tai järjestelmän suorittamia tehtäviä, kuten automaattisia kirjauksia. Uusien asiakirjojen luontiin ja kirjaukseen liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.|[Työnkulku](across-workflow.md)|
 |Mahdollista käyttäjille tietojen vaihtaminen ulkoisten lähteiden kanssa, kuten sähköisten asiakirjojen lähettämisessä ja vastaanottamisessa sekä pankkitiedostojen tuonnissa ja viennissä, että valuutan vaihtokurssien päivittämisessä.|[Sähköinen tiedonsiirto](across-data-exchange.md)|
-|Kirjaa ulkoiset asiakirjat [!INCLUDE[d365fin](includes/d365fin_md.md)]issa liitteineen ja luo sitten manuaalisesti liittyvät asiakirjat tai muunna tiedostot automaattisesti sähköisiksi asiakirjoiksi.|[Saapuvat asiakirjat](across-income-documents.md)|
+|Kirjaa ulkoiset asiakirjat [!INCLUDE[prod_short](includes/prod_short.md)]issa liitteineen ja luo sitten manuaalisesti liittyvät asiakirjat tai muunna tiedostot automaattisesti sähköisiksi asiakirjoiksi.|[Saapuvat asiakirjat](across-income-documents.md)|
 
 ## <a name="see-also"></a>Katso myös
+
+[Tutki Dynamics 365 Business Central -ominaisuuksia](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Hallinta](admin-setup-and-administration.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)  
-[Käytön aloittaminen](product-get-started.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

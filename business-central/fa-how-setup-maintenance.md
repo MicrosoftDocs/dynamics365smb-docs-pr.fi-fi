@@ -1,23 +1,22 @@
 ---
-title: KO-kunnossapidon määrittäminen| Microsoft Docs
+title: KO-kunnossapidon määrittäminen
 description: Käyttöomaisuuden korjauksia ja huoltoa hallitaan yleensä määrittämällä kunnossapidon perustiedot, työn tyyppikoodit ja kustannusten kirjaustili.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: repair, service
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f5681caba59be7c573f8c85f1629dd05da86e243
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 5600, 5642
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 1aefc5d0e1453b2f43b9e72f587c0d9f90d07b4e
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184218"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029480"
 ---
 # <a name="set-up-fixed-asset-maintenance"></a>Käyttöomaisuuden huollon määrittäminen
 Kun haluat hallita käyttöomaisuuden kunnossapitoa, määritä ensin joitakin yleisiä kunnossapitotietoja, kunnossapitokustannusten kirjaustili ja työtyyppien, kuten rutiinihuollon tai korjauksen, kunnossapitokoodit.
@@ -25,20 +24,20 @@ Kun haluat hallita käyttöomaisuuden kunnossapitoa, määritä ensin joitakin y
 ## <a name="to-set-up-general-maintenance-information"></a>Yleisten kunnossapitotietojen määrittäminen
 Jos kunnossapidolle määritetään kentät, kunnossapitokuluja voi kirjata käyttöomaisuuden päiväkirjasta.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Käyttöomaisuus** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuus** ja valitse sitten vastaava linkki.
 2. Valitse käyttöomaisuus, jolle määrität vakuutuksen kattavuuden, ja valitse sitten **Muokkaa**-toiminto.
 3. Täytä **Kunnossapito**-pikavälilehdessä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-maintenance-codes"></a>Kunnossapitokoodien määrittäminen
 Kun kunnossapitokustannuksia kirjataan (yleisestä päiväkirjasta), **Kunnossapitokoodi**-kenttään tallennetaan suoritetun kunnossapidon tyyppi, kuten rutiinihuolto tai korjaus.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ylläpito** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ylläpito** ja valitse sitten vastaava linkki.
 2. Määritä **Kunnossapito**-sivulla erityyppisten kunnossapitotöiden koodit.
 
 ## <a name="to-set-up-maintenance-expense-accounts"></a>Kunnossapitokustannusten tilien määrittäminen
 Voit kirjata kunnossapitokustannuksia, kun annat ensin tilinumeron **KO-kirjausryhmät**-sivulla.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n kirjausryhmät** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n kirjausryhmät** ja valitse sitten vastaava linkki.
 2. Täytä **Kunnossapitokustannusten tili** -kenttä kunkin kirjausryhmän osalta.
 
 > [!NOTE]  
@@ -48,5 +47,8 @@ Voit kirjata kunnossapitokustannuksia, kun annat ensin tilinumeron **KO-kirjausr
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Käyttöomaisuus](fa-manage.md)  
 [Rahoitus](finance.md)  
-[Käytön aloittaminen](product-get-started.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

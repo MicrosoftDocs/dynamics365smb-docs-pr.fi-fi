@@ -1,23 +1,23 @@
 ---
-title: Segmenttien hallinta ja sisällytettävien kontaktien valitseminen| Microsoft Docs
-description: Tässä ohjeaiheessa kerrotaan tehtävistä, joilla luodaan kontaktiryhmät tiettyjen ehtojen mukaan valitseva segmentti. Kyse voi olla esimerkiksi tietyn kohdetoimialan kontaktit.
-services: project-madeira
+title: Segmenttien hallinta ja kontaktien valitseminen
+description: Tässä aiheessa hahmotellaan, miten segmentti luodaan valitsemalla kontaktiryhmä tiettyjen ehtojen mukaisesti, jotta segmentti voidaan kohdistaa myöhemmin kampanjaan.
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.search.forms: 5150, 5142, 5140, 5141, 5144, 5091, 5143, 5093, 5092
+ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 2f4115e62b1350fe55019aca94cb1d8beb6d93ae
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 4a782c0e4fcb98243f7902d2564c79ca831b0955
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181290"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059776"
 ---
 # <a name="managing-segments"></a>Segmenttien hallinta
 Luomalla segmenttejä voit valita kontaktiryhmän tiettyjen ehtojen mukaan. Esimerkiksi segmentti voi olla toimiala, johon kontaktit kuuluvat, tai liikesuhde kontaktien kanssa. Luomalla segmentin voit valita kampanjan kohteeksi haluamasi kontaktit.
@@ -38,4 +38,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 ## <a name="see-also"></a>Katso myös
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [Kontaktien hallinta](marketing-contacts.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

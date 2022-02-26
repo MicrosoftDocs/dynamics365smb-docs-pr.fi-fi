@@ -5,25 +5,25 @@ services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
-ms.date: 04/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7383fe5e716fbd63012e8ab5ffa236af9e7a979e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 4095cfd39ad37037f7fad2a5bded7c5c71241f6a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181698"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438875"
 ---
 # <a name="add-contacts-to-segments"></a>Kontaktien lisääminen segmentteihin
 Kun olet luonut segmentin ja syöttänyt sen perustiedot, haluat ehkä lisätä segmenttiin kontakteja. Voit tehdä tämän täyttämällä rivit **Segmentti**-sivulla manuaalisesti, mutta nopeampi ja helpompi tapa on käyttää **Lisää kontakteja**-toimintoa.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Kontaktin lisääminen segmenttiin:
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Segmentit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Segmentit** ja valitse sitten vastaava linkki.  
 2. Valitse segmentti ja valitse sitten **Lisää kontakteja** -toiminto. **Lisää kontakteja** -eräajosivu avautuu.
 3. Määritä **Kontakti**-osassa suodattimet, joiden tietojen mukaan kontaktit valitaan.
 
@@ -57,4 +57,7 @@ Voit vähentää segmentin kontakteja niin monta kertaa kuin haluat. Valitse **T
 [Segmentin luominen](marketing-how-create-segment.md)   
 [Segmenttien hallinta](marketing-segments.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

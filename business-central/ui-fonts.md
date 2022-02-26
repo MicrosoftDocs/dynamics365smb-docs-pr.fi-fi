@@ -1,34 +1,77 @@
 ---
-title: Käytettävissä olevat fontit | Microsoft Docs
-description: Business Centralin online-versio sisältää valmiiksi asennetut fontit palvelimissa, joita voidaan käyttää raporttien luomisessa.
-services: project-madeira
-documentationcenter: ''
+title: Käytettävissä olevat fontit
+description: Tutustu valmiiksi asennettuihin fontteihin, joita voit käyttää ulkopuolisille suunnatuissa raporteissaesi.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/20/2020
-ms.author: sgroespe
-ms.openlocfilehash: ef1d5d9743842d9d5aba28d3bb4ad62d7359f301
-ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
+ms.date: 11/30/2021
+ms.author: edupont
+ms.openlocfilehash: 6e57ffa9a004417fa16c92780b8c1bdc73c17570
+ms.sourcegitcommit: 58df17a2b79f32adb777fe1b1916baebc23cb584
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3077362"
+ms.lasthandoff: 11/30/2021
+ms.locfileid: "7868299"
 ---
 # <a name="available-fonts"></a>Käytettävissä olevat fontit
-[!INCLUDE[d365fin](includes/d365fin_md.md)]in online-versio sisältää valmiiksi asennetut fontit palvelimissa, joita voidaan käyttää raporttien luomisessa. Seuraavassa on esitetty, mitkä fontit ovat käytettävissä, ja siinä on linkit kolmansien osapuolten fonttien toimittajien yksityiskohtaisissa tiedoissa.
+
+[!INCLUDE[prod_short](includes/prod_short.md)]in online-versio sisältää valmiiksi asennetut fontit palvelimissa, joita voidaan käyttää raporttien luomisessa. Seuraavissa osissa on esitelty, mitkä fontit ovat käytettävissä.
 
 > [!NOTE]
-> Suojaus- ja oikeudellisista syistä mukautettuja fontteja ei voi ladata [!INCLUDE[d365fin](includes/d365fin_md.md)]-ympäristöön.
+> Suojaus- ja oikeudellisista syistä mukautettuja fontteja ei voi ladata [!INCLUDE[prod_short](includes/prod_short.md)]-ympäristöön.
 
-## <a name="check-micr-and-security-fonts"></a>Sekki- (MICR- ja suojaus) fontit  
-Käytettävissä olevia magneettisten merkkien tunnistuksen (MICR) fontteja on asennettu. Sekä E-13B- että CMC-7-standardit ovat tuettuja. MICR-fonttien lisäksi käytettävissä on erityisiä suojausfontteja, joiden avulla voidaan luoda tekstiä, nimiä, summia ja valuuttasymboleita: dollari, euro, punta ja jeni, joita on vaikea väärentää, kun sekki on tulostettu. Lisätietoja on kohdassa [Sekin asettelun valitseminen](finance-how-define-check-layouts.md).
+## <a name="document-fonts"></a>Asiakirjafontit
+
+Seuraavat fontit ovat asennettuina ja käytettävissä sekä Word- että RDLC-raporttiasetteluissa:
+
+* Arial
+* Consolas
+* Courier New
+* Lucida Console
+* Segoe Print
+* Segoe Script
+* Segoe UI
+* Segoe UI Light
+* Segoe UI Semilight
+* Times New Roman
+
+## <a name="fonts-for-checks"></a>Sekkien fontit
+
+Käytettävissä olevia magneettisten merkkien tunnistuksen (MICR) fontteja on asennettu. Sekä E-13B- että CMC-7-standardit ovat tuettuja.  
+
+MICR-fonttien lisäksi käytettävissä on erityisiä suojausfontteja, joiden avulla voidaan luoda tekstiä, nimiä, summia ja valuuttasymboleita: dollari, euro, punta ja jeni, joita on vaikea väärentää, kun sekki on tulostettu.  
+
+Lisätietoja on kohdassa [Sekin asettelun valitseminen](finance-how-define-check-layouts.md).  
+
+## <a name="fonts-for-barcodes"></a>Viivakoodien fontit
+Viivakoodien luomiseen käytettävät fontit ovat asennettuina ja käytettävissä sekä Word- että RDLC-raporttiasetteluissa.
+
+Seuraavia yksiulotteisia viivakoodisymbolijärjestelmiä tuetaan:
+* Koodi 3/9 (koodi 39)
+* Koodi 128
+* Koodi 93
+* Codabar
+* MSI
+* Interleaved 2 ja 5
+
+Seuraavia kaksiulotteisia viivakoodisymbolijärjestelmiä tuetaan:
+* Aztec
+* Tietomatriisi
+* MaxiCode
+* PDF417
+* QR-koodi
+
+Lisätietoja on kohdassa [Business Central Onlinen viivakoodifontit](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 
 ## <a name="see-also"></a>Katso myös
+
 [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  
 [Sekin asettelun valitseminen](finance-how-define-check-layouts.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen](ui-work-product.md)
+[Business Central Onlineen sisältyvät viivakoodifontit](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

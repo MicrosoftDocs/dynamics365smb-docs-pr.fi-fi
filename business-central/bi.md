@@ -1,26 +1,26 @@
 ---
-title: Business Intelligence| Microsoft Docs
-description: Kaappaa ja analysoi yritystietoja, kuten organisaation myyntilukuja, ostoja, toimintakuluja, työntekijöiden palkkoja ja budjetteja, ja ne voivat olla päätöksentekijöille arvokasta liiketoimintatietoa.
+title: Business Intelligence
+description: Business Central sisältää useita ominaisuuksia, joiden avulla voit kerätä, analysoida ja jakaa arvokkaita yritystietoja liiketoimintatietoa ja päätöksentekoa varten.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6f8935ed6a8ca2ac806dd746a0376210d5e8abbf
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 866cfa9c35e7af7abb17ba9c9171244e2107de4d
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185994"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323741"
 ---
 # <a name="business-intelligence"></a>Business Intelligence
-Yritykset hankkivat päivittäisessä toiminnassaan valtavia määriä tietoja. Nämä tiedot voivat kuvata esimerkiksi organisaation myyntilukuja, ostoja, toimintakuluja, työntekijöiden palkkoja ja budjetteja, ja ne voivat olla päätöksentekijöille arvokasta liiketoimintatietoa. [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää erinäisiä toimintoja, joiden avulla voit kerätä, analysoida ja jakaa yrityksen tietoja.
+Yritykset hankkivat päivittäisessä toiminnassaan valtavia määriä tietoja. Nämä tiedot voivat kuvata esimerkiksi organisaation myyntilukuja, ostoja, toimintakuluja, työntekijöiden palkkoja ja budjetteja, ja ne voivat olla päätöksentekijöille arvokasta liiketoimintatietoa. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää erinäisiä toimintoja, joiden avulla voit kerätä, analysoida ja jakaa yrityksen tietoja.
 
 Dimensiotoiminnallisuudella on tärkeä osa liiketoimintatietojen kannalta. Dimensio on tieto, jonka voi lisätä tapahtumaan eräänlaiseksi merkiksi. Tämän tiedon avulla voi yhdistää ryhmiksi tapahtumia, joilla on samoja ominaisuuksia, kuten asiakkaita, alueita, tuotteita tai myyjiä, sekä noutaa nämä ryhmät helposti analysoitavaksi. Dimensioita voi käyttää esimerkiksi analyysinäkymien määrityksessä sekä KP-raporttimallien luonnissa. Lisätietoja on kohdassa [Dimensioiden käyttäminen](finance-dimensions.md).
 
@@ -44,6 +44,9 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 [Business Centralin käyttäminen Power BI -tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
 [Kirjanpitokausien sulkeminen](year-close-years-periods.md)  
 [Tietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
