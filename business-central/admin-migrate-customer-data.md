@@ -2,24 +2,23 @@
 title: Asiakastietojen siirtäminen
 description: Voit siirtää aiemmin luotuja asiakastietoja olemassa olevasta järjestelmästä Business Centraliin käyttämällä RapidStart Servicesia – tai vain syötä se suoraan yritykseen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.form: 1799, 1807, 8632, 1800, 1340
+ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f339e5c878d64cb243c34c97f6711629389bfa0e
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437464"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335368"
 ---
 # <a name="migrate-customer-data"></a>Asiakastietojen siirtäminen
 
-Voit siirtää aiemmin luodun asiakkaan tiedot aiemmin luodusta ERP-järjestelmästä [!INCLUDE[prod_short](includes/prod_short.md)]iin RapidStart Servicesin tietojen siirto-työkalujen avulla. Voit käyttää Excel-tiedostoja tiedonkuljettajana. Voit siirtää tiedot manuaalisesti kirjoittamalla ne suoraan yrityksen.
+Voit siirtää aiemmin luodun asiakkaan tiedot aiemmin luodusta ERP-järjestelmästä [!INCLUDE[prod_short](includes/prod_short.md)]iin RapidStart Servicesin tietojen siirto-työkalujen avulla. Voit käyttää Excel-tiedostoja tiedonkuljettajana. Voit siirtää tiedot manuaalisesti kirjoittamalla ne suoraan yrityksen. Vaihtoehtoisesti voit käyttää **Siirtyminen pilvipalveluun** -opasta, jonka avulla voit siirtää tietoja. Lisätietoja on kohdassa [Tietojen siirtäminen](/dynamics365/business-central/dev-itpro/administration/migrate-data) järjestelmänvalvojasisällössä.
 
 > [!NOTE]
 > BLOB-tyypin kenttiä ei voi viedä tai tuoda Excelin avulla.

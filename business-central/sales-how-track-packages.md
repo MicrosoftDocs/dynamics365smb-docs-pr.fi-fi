@@ -2,18 +2,17 @@
 title: Kollien seuraaminen
 description: Seuraa paketteja ja seuraa toimituksen edistymistä kuljetusliikkeen internetseurantapalvelun avulla.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
-ms.search.form: 103, 142, 800, 806
+ms.search.form: 142, 800, 806
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8c05c4a86e0bf9ace996dfc879b719324dc99593
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: b5a819c1aeea44b39f7c8497420e08af3c0ae2ab
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752364"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334484"
 ---
 # <a name="track-packages"></a>Kollien seuraaminen
 Useimmilla kuljetusliikkeillä on verkkopalvelu, jolla voi seurata matkalla olevien pakettien tilaa. Tästä tiedosta voi olla hyötyä monissa liiketoimintaprosesseissa esimerkiksi asiakaspalvelua tarjottaessa. Jos käytössä on useita kuljetusliikkeitä, voit antaa niistä perustietoja ja käyttää sitten niiden paketin seurantapalvelua suoraan Kirjatut myyntitoimitukset-, Kirjatut myyntilaskut-, Kirjatut myyntihyvityslaskut- ja Kirjattu palautusvastaanotto -sivut. Lisätietoja on kohdassa [Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md). 

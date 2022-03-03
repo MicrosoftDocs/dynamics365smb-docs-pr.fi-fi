@@ -2,7 +2,6 @@
 title: Yrityksen keskittimen vianmääritys
 description: Tietoja siitä, miten voit kiertää ongelmia käyttäessäsi Dynamics 365 Business Centralin yrityskeskusta useiden yritysten väliseen hallintaan.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: accountant, accounting, troubleshoot
 ms.search.form: 1151
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 988e59cd953339c305b704caf42d3b1c31372e50
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 585e23a25397952ede809a76d4e001df9c60b449
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8028874"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128815"
 ---
 # <a name="troubleshooting-your-company-hub"></a>Yrityksen keskittimen vianmääritys
 

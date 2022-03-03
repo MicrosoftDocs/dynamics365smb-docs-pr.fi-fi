@@ -2,19 +2,18 @@
 title: Kokeilut ja tilaukset
 description: Tietoja Business Centralin kokeiluversion hankkimisesta, eristetyn ympäristön käyttämisestä ja tilauksen rekisteröimisestä.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
-ms.date: 09/29/2021
+ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: 01bdfbd52db384176defb5383470346b086fe293
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 4b31d6d4ca0a7fba8376437fb37f3678f607f7b3
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011544"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335524"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] – Kokeilut ja tilaukset
 
@@ -38,7 +37,7 @@ Jos päätät olla käyttämättä [!INCLUDE [prod_short](includes/prod_short.md
 
 ### <a name="add-your-own-data-to-an-empty-trial-company"></a>Omien tietojen lisääminen tyhjään kokeiluyritykseen
 
-Jos haluat kokeilla [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaa omilla tiedoillasi, voit vaihtaa maksuttomaan 30 päivän kokeiluversioon, jossa on tyhjä yritys. **Määritä yritykseni** -avustetun asennusoppaan avulla voit määrittää perustietoja yrityksestäsi. Vaihtoehtoisesti voit tuoda tietoja olemassa olevasta yrityksenhallintaratkaisusta, jotta voit arvioida [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaa omia tietojasi käyttäen. Microsoft ei kuitenkaan suosittele maksuttoman kokeiluversion käyttämistä liiketoiminnassa. Ota yhteyttä [jälleenmyyjäkumppaniin](/dynamics365/business-central/across-faq#findpartner) ja lue lisää sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] käytön aloittamisesta.  
+Jos haluat kokeilla [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaa omilla tiedoillasi, voit vaihtaa maksuttomaan 30 päivän kokeiluversioon, jossa on tyhjä yritys. **Määritä yritykseni** -avustetun asennusoppaan avulla voit määrittää perustietoja yrityksestäsi. Vaihtoehtoisesti voit tuoda tietoja olemassa olevasta yrityksenhallintaratkaisusta, jotta voit arvioida [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaa omia tietojasi käyttäen. Microsoft ei kuitenkaan suosittele maksuttoman kokeiluversion käyttämistä liiketoiminnassa. Ota yhteyttä [jälleenmyyjäkumppaniin](/dynamics365/business-central/across-faq#findpartner) ja lue lisää sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] käytön aloittamisesta. Kumppani voi myös auttaa tietojen siirtämisessä [!INCLUDE [prod_short](includes/prod_short.md)] -onlineen.  
 
 Jos 30 päivää ei ole tarpeeksi päätöksen tekemiseksi, voit jatkaa kokeilua. Lisätietoja on kohdassa [Tarvitsetko lisää aikaa, ennen kuin päätät tilauksen tekemisestä?](admin-extend-trial.md).  
 
@@ -105,6 +104,7 @@ Tällä hetkellä kaikki asiakkaat voivat käyttää Sandbox-ympäristöä, muka
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Usein kysytyt kysymykset](across-faq.yml)  
 [Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#findpartner)  
+[Siirrä tiedot](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Sandbox-ympäristön valitseminen Dynamics 365 Business Centralin kehittämiseen](/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview?toc=/dynamics365/business-central/toc.json)  
 [Saatavuus maassa/alueella ja tuetut käännökset](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Kokeiluversioiden jatkaminen (järjestelmänvalvojana)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  

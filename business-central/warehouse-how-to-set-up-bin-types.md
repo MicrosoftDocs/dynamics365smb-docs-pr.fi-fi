@@ -2,7 +2,6 @@
 title: Varastopaikkatyyppien määrittäminen
 description: Määritä varastopaikkojen tyypit ja työnkulkujen perusaktiviteetit ja määritä samalla tapa, jolla varastopaikkoja käytetään tietyissä fyysisen varaston toiminnoissa.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: b867079eb08790f2cfa091d0128a876499fb2045
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: f45908cf5a1d4352039cf83ab1db2719caca8a53
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7971574"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334588"
 ---
 # <a name="set-up-bin-types"></a>Varastopaikkatyyppien määrittäminen
 Ohjelma on rakennettu ohjaamaan nimikevirta varastopaikkojen läpi, jotka olet määritellyt tietyille fyysisen varastoinnin aktiviteeteille. Kullekin varastopaikalle annetaan nimikevirran perusaktiviteetit – ja samalla määritellään tapa, jolla ohjelma käyttää varastopaikkaa – määrittelemälle sille varastopaikan tyyppi.  

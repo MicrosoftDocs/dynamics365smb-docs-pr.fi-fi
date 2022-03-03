@@ -2,18 +2,17 @@
 title: Päivitä valuutanvaihtokurssit (sisältää videon)
 description: Seuraa summia eri valuutoissa valuuttakoodeja käyttäen ja anna Business Centralin auttaa sinua säätämään FX-vaihtokursseja julkaistuille merkinnöille ulkoisen palvelun avulla.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
-ms.date: 07/23/2021
+ms.date: 02/17/2022
 ms.author: edupont
-ms.openlocfilehash: 93a5059be3810af4d0351c6508c5d6119eaa4015
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 04f96b269b842045c1a804f976ffddfd5348befc
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972877"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323264"
 ---
 # <a name="update-currency-exchange-rates"></a>Valuutan vaihtokurssien päivittäminen
 
@@ -28,6 +27,9 @@ Pääkirjanpito määritetään käyttämään paikallista valuuttaa (PVA), mutt
 
 > [!IMPORTANT]
 > Jos haluat käyttää lisäraportointivaluuttaa taloudellisessa raportoinnissa, varmista, että ymmärrät rajoitukset. Lisätietoja on kohdassa [Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md).
+
+> [!NOTE]  
+> Kun kirjaat KP:oon käyttämällä valuutan koodia, esimerkiksi kirjataksesi kulun yleiseen päiväkirjaan käyttämällä valuuttakoodia, tapahtuma muunnetaan PVA:ksi käyttäen kirjauspäivämäärän valuutanvaihtokurssia. KP-tapahtuma ei sisällä tietoja siitä, mitä valuuttaa käytettiin, ja vain sen arvo PVA:ssa. Jos haluat seurata alkuperäistä valuuttaa, esimerkiksi laskua, sinun täytyy käyttää myynti- ja ostoasiakirjoja sekä pankkitilitietoja, jotka tallentavat tapahtumien valuuttakoodin.
 
 ## <a name="currencies"></a>Valuutat
 

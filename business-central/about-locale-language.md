@@ -2,20 +2,20 @@
 title: Monikielisyys ja lokalisointi
 description: Tutustu, miten kieli ja alue vaikuttavat Business Centralin käyttökokemukseen. Voit vaihtaa käyttöliittymän kielen Omat asetukset -sivulla.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 39927cc6adb02768a4358b2b7480a22cf68bc73a
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 5187d4f98360d7cf43300f86eda9e99dcbda4063
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588399"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8323134"
 ---
 # <a name="changing-language-and-region"></a>Kielen ja alueen muuttaminen
 
