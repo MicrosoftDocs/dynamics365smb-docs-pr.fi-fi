@@ -2,12 +2,13 @@
 metadata:
   title: Sähköinen laskutus – usein kysytyt kysymykset
   description: Saat vastauksia asiakirjojen vaihtopalvelusta ja tuetuista PEPPOL-versioista.
-  ms.openlocfilehash: a71f81306cffb6b223d39b3104fcbb33ad4ab7ff
-  ms.sourcegitcommit: 5f403a0567dcfa77493178d116ac64e531c269ad
+  ms.topic: faq
+  ms.openlocfilehash: 0351a756d8b07eee489ff5457c8463f8587dded4
+  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
   ms.translationtype: HT
   ms.contentlocale: fi-FI
-  ms.lasthandoff: 02/15/2021
-  ms.locfileid: "5181802"
+  ms.lasthandoff: 02/15/2022
+  ms.locfileid: "8136216"
 title: Sähköinen laskutus – usein kysytyt kysymykset
 summary: "Sisäänrakennettu asiakirjojen vaihtopalvelu lähettää sähköiset laskut TradeShift-palveluntarjoajalle, joka välittää sähköiset laskut PEPPOLIN- tai NemHandel-vastaanottajille. Palvelu tukee kuitenkin rajoitettua määrää versioita.   \n\nTämä UKK vastaa joihinkin sähköistä laskutusta koskeviin tärkeimpiin kysymyksiin.  \n"
 sections:

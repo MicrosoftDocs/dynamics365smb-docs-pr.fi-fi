@@ -2,7 +2,6 @@
 title: Eräkokojen käsitteleminen
 description: Tässä ohje aiheessa kuvataan eri tapoja käsitellä eräkokoja.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 05e592d1f4ecd281b71ab4f182c5c535faa611a1
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 6d6316fbe214512f5d42622c47502a4361ce604e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973912"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135748"
 ---
 # <a name="handling-lot-sizes-in-production"></a>Eräkokojen käsitteleminen tuotannossa
 Määrän osalta tuotantotoiminnossa tuotettujen nimikkeiden määrä ei välttämättä korreloi niiden myynnin kanssa. Voit esimerkiksi tuottaa satoja nimikkeitä yksittäisessä erässä, mutta myydä jokaisen nimikkeen yksittäin. Kun tuotantoreitit ja tuoterakenteet määritetään, on olemassa muutamia asioita, joita kannattaa miettiä eräkokojen osalta. Tässä ohjeaiheessa kuvataan, miten eräkoot vaikuttavat kustannusten laskentaan ja resurssien suunnitteluun.

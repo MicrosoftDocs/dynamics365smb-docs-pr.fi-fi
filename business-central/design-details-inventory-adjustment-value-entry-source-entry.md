@@ -2,7 +2,6 @@
 title: Oikaisun arvon tapahtuman kirjauspäivämäärä verrattuna lähdetapahtumaan
 description: Lisätietoja skenaariosta Kirjauspvm. muutosarvotapahtumassa vs. kirjauspvm. tapahtumassa, joka aiheuttaa muutoksen, kuten uudelleenarvostus tai nimikekulu", kun suoritetaan Muuta kustannuksia – Nimiketapahtumat -eräajoa.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 09/17/2021
 ms.author: edupont
-ms.openlocfilehash: 2f3a74752faca380236a8b56c920fb5b88003073
-ms.sourcegitcommit: 772af6954539c65743d1a2f59e8a37d30bd30278
+ms.openlocfilehash: 9d77c13cbe60d9e9b5c4d12e55d75f8815a4a5ba
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "7557294"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138672"
 ---
 # <a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a>Oikaisun arvon tapahtuman kirjauspäivämäärä verrattuna lähdetapahtumaan
 

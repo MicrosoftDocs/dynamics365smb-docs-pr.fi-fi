@@ -2,7 +2,6 @@
 title: Huoltohallinnon määrittäminen | Microsoft Docs
 description: Yleiskuvaus tehtävistä, joilla huoltohallinta määritetään organisaation huollon hallintatapaan sopivaksi.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8bd4d28dd5d77c998cf2404594da115e9c95077f
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 062e74b422f2190feb15d54cea47af90db468d3b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778096"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140551"
 ---
 # <a name="setting-up-service-management"></a>Huoltohallinnon määrittäminen
 Tietyt toiminnot on määritettävä, ennen kuin [!INCLUDE[prod_short](includes/prod_short.md)]in huoltohallinnon toimintoja voi käyttää. Voit määrittää esimerkiksi vakiohuoltojen koodauksen, oire- ja vikakoodit sekä yrityksen asiakaspalvelun tarvitsemat huoltonimikkeet ja huoltonimiketyypit.  

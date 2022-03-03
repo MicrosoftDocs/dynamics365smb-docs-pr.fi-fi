@@ -2,7 +2,6 @@
 title: Tietojen lisääminen tietueisiin omaa käyttöä varten | Microsoft Docs
 description: Voit liittää muistiinpanon mihin tahansa sovelluksen tietueeseen. Jos sinulla on esimerkiksi myyntitilaukseen liittyviä lisätietoja, jotka eivät kuitenkaan sovi mihinkään myyntitilauksen kenttään, voit kirjoittaa muistion.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 4199cfc818aed1baacd5d1c70b74d27883000829
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a641c8e411b14df7097299b696d74fc56f68bd92
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772152"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129550"
 ---
 # <a name="add-and-view-notes-on-records"></a>Muistiinpanojen lisääminen tietueisiin ja niiden tarkasteleminen
  Voit <!--OnPrem and your colleagues -->lisätä muistiinpanoja sovelluksen tietueisiin. Monilla sivuilla, etenkin niillä sivuilla, joissa näkyy tietueluetteloita, kuten **Myyntitilaukset**-sivulla, on **Muistiinpanot**-toiminto tai **Muistiinpanot**-tietoruutu. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->

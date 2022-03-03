@@ -2,7 +2,6 @@
 title: Fyysisen varaston varausten etsiminen
 description: Tässä aiheessa kerrotaan, miten löydät sinulle nimikekorttisivulla määritetyt fyysisen varastoinnin varaukset, kun sinulle on luotu ohjeet.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6c861ed1f068d6381d99ef0761244befd08ba43a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5fe603b5cb2499c4b74e29725ee1747219d37e27
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444128"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141975"
 ---
 # <a name="find-your-warehouse-assignments"></a>Fyysisen varaston varausten etsiminen
 Etsi fyysisen varaston varaukset avaamalla valitun nimikkeen korttisivu. Jos fyysisen varastoinnin ohjeita on luotu, Ota- ja Aseta-rivit ovat näkyvillä ja voit alkaa käsitellä tehtävää. Joissakin varastoissa esimies on voinut määrittää erityisiä ohjeita kullekin työntekijälle. Lisätietoja on kohdassa [Varastotyöntekijöiden määrittäminen](warehouse-how-to-set-up-warehouse-employees.md).

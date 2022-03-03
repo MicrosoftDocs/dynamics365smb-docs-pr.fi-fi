@@ -2,7 +2,6 @@
 title: Asiakkaan asetusarvojen kerääminen
 description: Määrityskysely helpottaa käyttöönottoa virtaviivaistamalla uusien yritysten perustamista ja tarjoamalla asiakkaille Excel- tai XML-tiedoston.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: f0f60976283aeba5a81c9e77e329e1ba91c82ea9
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: d26fb334462ad52a14058e8d5f6b9f86088ad3d7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589255"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145968"
 ---
 # <a name="gather-customer-setup-values"></a>Asiakkaan asetusarvojen kerääminen
 Määrityskyselylomakkeen avulla vähennät toteutuksen kuormitusta virtaviivaistamalla uuden yrityksen määritystehtävän. Voit luoda määrityskyselylomakkeen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa ja toimittaa sen asiakkaalle Excel-tai XML-tiedostona.  

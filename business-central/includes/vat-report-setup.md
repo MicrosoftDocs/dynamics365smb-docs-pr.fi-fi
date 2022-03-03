@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 01/31/2022
 ms.author: edupont
-ms.openlocfilehash: b34b69928304c08658d486fa50154cf41660a5bc
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: b703ef47b5e16736a2161551397b808daa77b037
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8063763"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141149"
 ---
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 0.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-raportin asetukset** ja valitse sitten vastaava linkki.  
 2. Jos haluat, että käyttäjät voivat muuttaa ja uudelleenlähettää näitä raportteja, valitse **Muokkaa lähetettyjä raportteja** -kenttä.  

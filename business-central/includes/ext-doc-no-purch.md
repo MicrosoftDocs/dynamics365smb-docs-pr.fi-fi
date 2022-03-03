@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: edupont
-ms.openlocfilehash: 59376b96dcd6f755040b07784ceca53e157bcf14
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: f1c6ead7a776d11ccc8917944c3752ec6ac43c66
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115942"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132652"
 ---
 Ostoasiakirjoissa ja päiväkirjoissa voit määrittää asiakirjanumeron, joka viittaa toimittajan numerointijärjestelmään. Tämän kentän avulla voit tallentaa numeron, jonka toimittaja on määrittänyt tilaukselle, laskulle tai hyvityslaskulle. Tätä numeroa voi käyttää myöhemmin, jos sinun tarvitsee etsiä kirjattua merkintää tätä numeroa käyttämällä.
 

@@ -2,7 +2,6 @@
 title: Selaimen määrittäminen
 description: Tässä artikkelissa kuvataan, miten selaimet määritetään toimimaan Business Centralin ja siihen integroitavien tuotteiden kanssa.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, web client, troubleshooting, errors
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 90625ed6d5664efc9605aeacbc66d8174e55799d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: a60c9e041ec61c61374fa7860c27018d362b165f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776295"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141747"
 ---
 # <a name="setting-up-and-troubleshooting-your-browser-to-work-with-business-central-web-client"></a>Selaimen määrittäminen ja vianetsintä Business Central -verkkoasiakkaan kanssa työskentelyä varten
 

@@ -2,18 +2,17 @@
 title: Käyttäjien ja roolien hallinta
 description: Tässä ohjeaiheessa kerrotaan, miten Business Centralissa hallitaan käyttäjäprofiileja ja roolikeskuksia. Profiilien avulla järjestelmänvalvojat voivat keskitetysti määrittää ja hallita, mitä käyttäjät voivat nähdä ja tehdä.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: profiles, users
 ms.search.form: 9171
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: f585ca4e97aa002e4d9d52cd74e01e18ab511eac
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: fa9bd31f0f9ff1705f9caa7f21d9f376febdb712
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012486"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133120"
 ---
 # <a name="manage-user-profiles"></a>Käyttäjäprofiilien hallinta
 

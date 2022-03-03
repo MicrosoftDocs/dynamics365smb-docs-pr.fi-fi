@@ -2,7 +2,6 @@
 title: Business Central -apuohjelman hankkiminen Exceliin
 description: Tutustu siihen, miten voit hankkia käyttäjille Business Central -apuohjelman Exceliin.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 6bb034f9809f4241a4a538d6ecb133976fb60fb2
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: 29cfec8ea605209aed7e7005dfcfa1c10d54b7b6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865490"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141409"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Business Central -apuohjelman hankkiminen Exceliin
 
@@ -71,7 +70,7 @@ Työskentelet sekä [!INCLUDE[prod_short](includes/prod_short.md)]issa että Mic
 
 1. Valitse [!INCLUDE[prod_short](includes/prod_short.md)]issa ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Excel-apuohjelman keskitetty käyttöönotto** ja valitse sitten liittyvä linkki.
 2. Lue tiedot **Business Centralin Excel-apuohjelman määritys** -sivulta ja valitse **Seuraava**.
-3. Kirjaudu [Microsoft 365 -hallintakeskukseen](https://go.microsoft.com/fwlink/?linkid=2163967) ja valitse **Integroidut sovellukset**<!--**Add-ins**-->.
+3. Kirjaudu [Microsoft 365 -hallintakeskukseen](https://go.microsoft.com/fwlink/?linkid=2163967) ja valitse sitten **Integroidut sovellukset**<!--**Add-ins**-->.
 
     Määritä apuohjelman käyttöönotto Office-kaupasta suorittamalla seuraavat vaiheet: 
     1. Avaa Office-kauppa (AppSource) valitsemalla **Hae sovelluksia**. <!--**Deploy Add-in** 5. In the **Deploy a new add-in**, select **Choose from the store**.-->

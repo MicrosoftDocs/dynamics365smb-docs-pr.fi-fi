@@ -1,20 +1,19 @@
 ---
 author: edupont04
-ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 09/02/2021
+ms.date: 02/15/2022
 ms.author: edupont
-ms.openlocfilehash: 5bb0e2d4ec0dfe20ecb6668a6d01ba4e8a174b8e
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: c947d843a17c46323febee83a01c80a574982bbd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482295"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142495"
 ---
 > [!NOTE]
 > Seuraavissa osissa oletetaan, että sinulla on Exchange Online -järjestelmänvalvojan oikeudet.
 
-Ennen sähköpostin lokiinkirjauksen määrittämistä Office 365:een on valmisteltava [yleiset kansiot](/exchange/collaboration-exo/public-folders/public-folders?preserve-view=true). Se voidaan tehdä [Exchangen hallintakeskuksessa](/exchange/exchange-admin-center?preserve-view=true) tai käyttämällä [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true) -liittymää.
+Ennen sähköpostin lokiinkirjauksen määrittämistä Office 365:een on valmisteltava [yleiset kansiot](/exchange/collaboration-exo/public-folders/public-folders). Se voidaan tehdä [Exchangen hallintakeskuksessa](/exchange/exchange-admin-center?preserve-view=true) tai käyttämällä [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true) -liittymää.
 
 > [!TIP]
 > Jos haluat käyttää [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true) -liittymää, [BCTech-säilöön](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging) on julkaistu mallikomentosarja, joka voi toimia mallina komentosarjan määrittämisessä.
@@ -31,7 +30,7 @@ Yleisten kansioiden järjestelmänvalvojan rooliryhmän luonti seuraavan tauluko
 |Valitut roolit  |Yleiset kansiot            |
 |Valitut käyttäjät  |Sen käyttäjätilin sähköposti, jota Business Central käyttää sähköpostin lokiinkirjaustyön suorittamiseen|
 
-Lisätietoja on kohdassa [Rooliryhmien hallinta Exchange Onlinessa](/exchange/permissions-exo/role-groups?preserve-view=true).
+Lisätietoja on kohdassa [Rooliryhmien hallinta Exchange Onlinessa](/exchange/permissions-exo/role-groups).
 
 ### <a name="create-a-new-public-folder-mailbox"></a>Uuden yleisen kansion postilaatikon luominen
 
@@ -41,7 +40,7 @@ Uuden yleisen kansioin postilaatikon luonti seuraavan taulukon tietojen perustee
 |----------------|--------------------------|
 |Name            |Julkinen postilaatikko            |
 
-Lisätietoja on kohdassa [Yleisen kansion postilaatikon luonti](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox?preserve-view=true).
+Lisätietoja on kohdassa [Yleisen kansion postilaatikon luonti](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
 
 ### <a name="create-new-public-folders"></a>Uusien yleisten kansioiden luominen
 
@@ -51,7 +50,7 @@ Lisätietoja on kohdassa [Yleisen kansion postilaatikon luonti](/exchange/collab
     - `\Email Logging\Queue\`
     - `\Email Logging\Storage\`
 
-Lisätietoja on kohdassa [Yleisen kansion luonti](/exchange/collaboration-exo/public-folders/create-public-folder?preserve-view=true).
+Lisätietoja on kohdassa [Yleisen kansion luonti](/exchange/collaboration-exo/public-folders/create-public-folder).
 
 ### <a name="set-public-folder-ownership"></a>Yleisen kansion omistajuuden määrittäminen
 
@@ -61,7 +60,7 @@ Lisätietoja on kohdassa [Käyttöoikeuksien määrittäminen yleiseen kansioon]
 
 ### <a name="mail-enable-the-queue-public-folder"></a>Sähköpostin käyttöönotto yleisessä *Queue*-kansiossa
 
-  Lisätietoja on kohdassa [Sähköpostin käyttöönotto tai käytöstäpoistaminen yleisessä kansiossa](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder?preserve-view=true).
+  Lisätietoja on kohdassa [Sähköpostin käyttöönotto tai käytöstäpoistaminen yleisessä kansiossa](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
 ### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>Sähköpostin ottaminen käyttöön sähköpostien lähettämiseksi julkiseen *Jono*-kansioon
 

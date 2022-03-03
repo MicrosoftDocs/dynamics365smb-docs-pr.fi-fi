@@ -2,7 +2,6 @@
 title: Automaattisten tilin kirjausryhmien määrittäminen [FI]
 description: Voit käyttää automaattisia tilikoodeja suomenkielisessä versiossa automaattisen tilin kirjausryhmän luonnin jälkeen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 11207, 11208
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 888ee5639897393fca1cc68ae49c7a09734af632
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: ff727b5141d209ef79d5f54158977e8f3ae3e50a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115220"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145115"
 ---
 # <a name="set-up-automatic-account-posting-groups-in-the-finnish-version"></a>Automaattisten tilikirjausryhmien määrittäminen suomalaisessa versiossa
 

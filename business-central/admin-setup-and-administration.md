@@ -2,7 +2,6 @@
 title: Business Centralin hallintatehtävät
 description: Joitakin Business Central -sovelluksen tehtäviä on hallittava ja määritettävä keskitetysti. Katso lisätietoja näistä tehtävistä ja niiden määrittämisestä.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 959a56e4bb7fcaac57b05d30dca4939ed2f8576d
-ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
+ms.openlocfilehash: 26e675073dde5cae0b14f0f3ee3526ba44e4200f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "6660129"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143866"
 ---
 # <a name="administration"></a>Hallinta
 
@@ -34,7 +33,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|
-|Määritä, ketkä voivat kirjautua sisään [!INCLUDE[prod_short](includes/prod_short.md)]een luomalla käyttäjiä Microsoft 365 -hallintakeskuksessa tuotteen käyttöoikeuksien mukaan.|[Luo käyttäjät käyttöoikeuksien mukaan](ui-how-users-permissions.md)|
+|Määritä, ketkä voivat kirjautua sisään [!INCLUDE[prod_short](includes/prod_short.md)]:een luomalla käyttäjiä Microsoft 365 -hallintakeskuksessa tuotteen käyttöoikeuksien mukaan.|[Luo käyttäjät käyttöoikeuksien mukaan](ui-how-users-permissions.md)|
 |Määritä käyttöoikeuksia käyttäjille, muokata käyttöoikeusjoukkoja ja ryhmitä käyttäjiä käyttöoikeuksien helppoa hallintaa varten.|[Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-how-users-permissions.md)|
 |Lisää käyttäjiä, hallitse tietojen käyttöoikeuksia ja määritä rooleja.|[Profiilien hallinta](admin-users-profiles-roles.md)|
 |Käyttäjäasetusten, kuten yrityksen, roolin, kielen, alueen tai aikavyöhykkeen, hallinta.|[Käyttäjän asetukset](admin-manage-user-settings-preferences.md)|

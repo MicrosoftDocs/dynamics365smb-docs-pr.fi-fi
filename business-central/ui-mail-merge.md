@@ -2,7 +2,6 @@
 title: Word-mallien käyttö joukkoviestinnässä | Microsoft Docs
 description: Word-mallit helpottavat tietyille entiteeteille mukautettujen asiakirjojen joukkoluontia.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c624d718d27de607aed49a82a506f81eec57247c
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 9e87e86ea4f267bea0e636f16fab55ae485ee8cf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588905"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145314"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Word-mallien käyttö joukkoviestinnässä
 Microsoft Word -mallit helpottavat entiteettien, kuten kontaktien, asiakkaiden ja toimittajien, kanssa tapahtuvaa joukkoviestintää postitse tai sähköpostitse. Voit luoda esimerkiksi esitteitä, joissa kerrotaan asiakkaille myyntikampanjoista, kirjeitä, joissa toimittajille kerrotaan uudesta ostokäytännöstä, tai kutsuja, joilla houkutellaan yhteyshenkilöitä tulevaan tapahtumaan.

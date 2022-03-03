@@ -2,7 +2,6 @@
 title: Työ- ja huoltotuntien määrittäminen
 description: Tietoja siitä, miten ohjelma käyttää huoltotunteja silloin, kun se laskee vastauspäivämäärää ja -aikaa huoltotilauksiin ja tarjouksiin.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 2e5dac47a5d4e3ac8e707879b28660f3f62ed1ae
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 919b9c19f93e82c1dc738894e0828fc91f2af46c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436474"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139259"
 ---
 # <a name="set-up-work-hours-and-service-hours"></a>Työ- ja huoltotuntien määrittäminen
 Tavallisesti huoltohallintojärjestelmässä seurataan resurssin tunteja ja huoltotilauksen tilaa kuormituksen ja huollon tarpeiden ennustamista varten. [!INCLUDE[prod_short](includes/prod_short.md)]in sisäiset työkalut voi mukauttaa tallentamaan tällaisia tietoja.  

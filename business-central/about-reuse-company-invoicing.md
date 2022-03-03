@@ -2,7 +2,6 @@
 title: Invoicing- ja Business Central -sovellusten käyttäminen | Microsoft Docs
 description: Ratkaisu, jonka avulla voi käyttää Microsoft Invoicingia, kun olet rekisteröitynyt Dynamics 365 Business Centraliin.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ea59fa49889cd6bfc53f727123f259448242c79b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8c492b42c1b9c864f44707bebc4b61538e93b7d0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439145"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134406"
 ---
 # <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Saman Microsoft 365 -tilin käyttäminen [!INCLUDE[prod_short](includes/prod_long.md)]:ssä ja Microsoft Invoicingissa
 Kun rekisteröidyt [!INCLUDE[prod_short](includes/prod_short.md)]:n kokeiluversioon, voit siirtyä 30 päivän arviointivaiheeseen, aloittaa tilauksen tai lopettaa [!INCLUDE[prod_short](includes/prod_short.md)]:n käytön. Joka tapauksessa, olet ehkä jossain vaiheessa nähnyt jotain, jonka nimi on **Microsoft Invoicing**, ja napsauttanut sitä. Tämä oli sovellus, joka oli osa sitä, mikä nyt Microsoft 365 Business Standard ja tunnettiin aiemmin nimellä Microsoft 365 Business Premium Subscription, joten kaikki eivät ole nähneet sen ruutua Microsoft 365 -kokemuksessaan.  
@@ -25,7 +24,7 @@ Microsoft Invoicingia ei ole enää saatavilla, mutta jos sinun täytyy kirjautu
 Saat samanlaisen ilmoituksen, jos asennat Invoicingin mobiilisovelluksen.  
 
 ## <a name="workaround"></a>Ratkaisu
-Invoicing ja [!INCLUDE[prod_short](includes/prod_short.md)] jakavat saman alustan. Tämän vuoksi sinut tunnistetaan [!INCLUDE[prod_short](includes/prod_short.md)]:n nykyiseksi käyttäjäksi, kun valitset Microsoft 365 -hallintakeskusruudussa Invoicing. Syynä on se, että Invoicing ei voi käyttää samaa yritystä kuin [!INCLUDE[prod_short](includes/prod_short.md)].  
+Invoicing ja [!INCLUDE[prod_short](includes/prod_short.md)] jakavat saman alustan. Tämän vuoksi sinut tunnistetaan [!INCLUDE[prod_short](includes/prod_short.md)]:n nykyiseksi käyttäjäksi, kun valitset Microsoft 365 -hallintakeskuksessa Invoicing. Syynä on se, että Invoicing ei voi käyttää samaa yritystä kuin [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Tämän vuoksi sinun on kirjauduttava [!INCLUDE[prod_short](includes/prod_short.md)]:een ja nimettävä aiemmin luotu yritys uudelleen. Seuraavaksi sinun on luotava uusi yritys, jota voit käyttää Invoicingissa. Mitään tietoja ei siirretä tai korvata tätä ratkaisua käytettäessä.
 

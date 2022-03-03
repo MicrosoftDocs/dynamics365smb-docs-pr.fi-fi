@@ -2,7 +2,6 @@
 title: Luetteloissa näytettävän tietomäärän muuttaminen
 description: Luettelot voidaan näyttää eriteltyinä riveinä, joissa on eniten tietoja, tai ruutuina, joita on helppo silmäillä ja joissa voi olla pikkukuvia.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: personalization
 ms.search.form: 31
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fcd046027cb8646da72182aba1320b165c00c020
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 6d2fd979106f1ec9923eb3fed5717eb7e2c05b23
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012128"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141695"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Luetteloiden näyttäminen eri tavoilla
 Kaikkien [!INCLUDE[prod_short](includes/prod_short.md)]in luetteloiden oikeassa kulmassa on kuvakkeita, joiden avulla voi valita tietueiden näyttötavan. Luettelo voidaan näyttää eriteltyinä riveinä, joka sopii hyvin tilanteeseen, jossa käsiteltäviä kenttiä on paljon tai luettelon kenttiä on voitava muokata. Voit vaihtaa myös näkymään, jossa tietueet näkyvät ruutuina. Tämä vie vähemmän tilaa ja tietyn tietueen kenttiä näytetään vähemmän. Tämä on erittäin kätevää, kun tarkastellaan useiden tapahtumien yleiskuvausta. Näkymää kannattaa käyttää erityisesti pienissä laitteissa, sillä se on pienikokoinen ja sitä on helppo napauttaa.

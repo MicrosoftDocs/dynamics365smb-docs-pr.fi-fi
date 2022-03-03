@@ -2,7 +2,6 @@
 title: Asiakkaiden myyntihintojen ja -alennusten määrittäminen | Microsoft Docs
 description: Tietoja myyntiasiakirjojen hinnoittelu- ja alennussopimusten määrittämisestä ja käyttämisestä.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 1345, 7002, 7007, 7015, 7016, 7023
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5d03e3c567ed6a2932691cee58685e522814a03f
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: b62fd6f0c8bb7351b873ebe4a3f257406a827d79
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865544"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137027"
 ---
 # <a name="record-sales-prices-and-discounts"></a>Myyntihintojen ja -alennusten kirjaaminen
 > [!NOTE]

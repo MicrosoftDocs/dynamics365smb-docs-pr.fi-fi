@@ -2,7 +2,6 @@
 title: Muistutusehtojen ja -tasojen määrittäminen.
 description: Lue, miten voit määrittää Business Centralin lähettämään asiakkaalle muistutuksen erääntyvästä maksusta ja miten maksuun lisätään myöhästymismaksu.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 431, 432, 436, 478
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: caa31498ac63d376d4fb13f83c66664a1cf78bcd
-ms.sourcegitcommit: 8a968e9176a913635e47e5170c66962e485e6689
+ms.openlocfilehash: 81c86841bd4000cab881e06783fd521ae18d1cbf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "8105748"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132834"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Muistutusehtojen ja -tasojen määrittäminen.
 

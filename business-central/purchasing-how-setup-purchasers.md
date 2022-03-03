@@ -2,7 +2,6 @@
 title: Ostajien määrittäminen ja ostajien määrittäminen toimittajille (sisältää videon)
 description: Jos yrityksessä on useita ostajia, voit järjestää ne tilastoanalyyseja varten.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: purchasing agent
 ms.search.form: 14, 5116
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 83956e1e134e00c33f35b260e682bd2d467bfb9f
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.openlocfilehash: 17f307f76f4f34e431b8ee2239886d91bc2c26e3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953307"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140707"
 ---
 # <a name="set-up-purchasers"></a>Ostajien määrittäminen
 Jos yrityksessäsi työskentelee useita ostajia, ne voidaan määrittää sivulla ja kullekin voidaan määritellä koodi. Tämän jälkeen koodeja voi käyttää valmistelemaan tilastoja ja suodattamaan tietoja tulostetuissa raporteissa.<br><br>  

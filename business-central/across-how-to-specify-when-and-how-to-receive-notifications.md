@@ -2,7 +2,6 @@
 title: Työnkulkuilmoitusten vastaanoton ajankohdan ja tavan määrittäminen
 description: Kun määrität käyttäjiä hyväksymistyönkuluissa, voit määrittää, miten ja milloin kukin hyväksynnän käyttäjä saa ilmoituksia.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 6812fa270066b03fa64a7d8c664ef4df8d28eff0
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: 3f663ca22cdcfde38b42ac0285eaf403a9e0982d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102497"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129165"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Työnkulkuilmoitusten vastaanoton ajankohdan ja tavan määrittäminen
 Kun määrität hyväksynnän käyttäjiä työnkuluissa, joissa jonkun on tarkoitus hyväksyä muutokset, kuten uusia tietueita luotaessa tai jonkun pyytäessä hyväksyntää, sinun on määritettävä miten hyväksynnän käyttäjälle ilmoitetaan ja miten. Voit esimerkiksi määrittää, että hyväksynnän käyttäjä saa välittömästi sähköpostiviestin, kun joku luo uuden asiakkaan. Vaihtoehtoisesti voit aikatauluttaa toimitettavat ilmoitukset esimerkiksi viikko- tai kuukausiperusteisesti.
