@@ -2,19 +2,19 @@
 title: Näytä taulukon tiedot
 description: Lue miten voit tarkastella tietokantataulukoiden tietoja suoraan Business Centralin asiakasliittymästä.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 8700
 ms.date: 06/14/2021
 ms.author: jswymer
-ms.openlocfilehash: db1a5ef84d4174b960de6f3e20f7d4e29c8c44c8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 581d92010fa566c33775ffd6238ca6e0cfca0837
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133094"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443077"
 ---
 # <a name="viewing-table-information"></a>Näyttää taulukon tiedot
 

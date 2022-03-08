@@ -1,22 +1,23 @@
 ---
-title: Myyntimahdollisuuksien ja liidien hallinta
+title: Myyntimahdollisuuksien ja liidien hallinta| Microsoft Docs
 description: Tässä ohjeaiheessa kerrotaan saapuvien llidien tai myyntimahdollisuuksien hallintaa Business Central -sovelluksessa ja mahdollisuuden liittämisestä myyjään, jotta mahdollista myyntiä voidaan seurata.
+services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5132, 5101, 5103, 5102, 5146, 5199, 5197, 5198, 5137, 5086, 5089, 5087, 5088, 5090, 5128, 5133, 5114, 5151, 5145, 5126, 5189, 5191, 5097, 5135, 5188, 5187, 5154, 5147, 5131, 9257, 5124, 782, 5130, 5123, 5127, 5174, 5125, 5115, 5112, 5111, 5110, 5109, 5149, 5169, 5190, 783, 505, 5118, 5072, 781, 5152, 5153, 5155, 5098, 5196, 5096, 5099, 9255, 5129, 5136
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: jswymer
-ms.openlocfilehash: cf696f5e30c308e04f90983eece35017045e985d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7c8ca5500c6209c579939cdb408a8f6ed685c612
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135079"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3181362"
 ---
 # <a name="managing-sales-opportunities"></a>Myyntimahdollisuuksien hallinta
 Kaikkia saapuvia leadeja voidaan pitää myyntimahdollisuuksina. Voit luoda mahdollisuuksia ja määrittää ne myyjälle, jolloin voit seurata mahdollista myyntiä.
@@ -34,7 +35,4 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  
 [Kontaktien luonti ja hallinta](marketing-contacts.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

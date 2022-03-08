@@ -1,62 +1,61 @@
 ---
-title: Raporttien ja erätöiden tallennettujen asetusten hallinta
-description: Kuvaa kuinka järjestelmänvalvoja voi määrittää raportin esimääritettyjä vaihtoehtoja ja suodattimia sekä jakaa kyseiset asetukset yhden tai kaikkien käyttäjien kanssa.
+title: Tallennettujen asetusten käyttäminen raporteissa ja niiden muokkaaminen | Microsoft Docs
+description: Ohjeaiheessa kerrotaan ennalta määritetyistä asetuksista ja suodattimista, joilla raportti mukautetaan ja luodaan oikeita tietoja.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customization, personalization
-ms.date: 12/21/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 0534e2e5d54102d85a7cf49f20fb0a1700ff2012
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 70b3f391c141aa53dcef258a131d6395782a4488
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137183"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392547"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Raporttien ja erätöiden tallennettujen asetusten hallinta
-
-Raportteja ajettaessa käyttäjät näkyvät yleensä sivun, jossa voi valita asetuksia ja määrittää suodattimia, joita tarvitaan luotuun raporttiin sisältyvien tietojen muuttamiseen. Sivua kutsutaan *pyyntösivuksi*. Raportti voi sisältää vähintään yhdet *tallennetut asetukset*, joita voidaan käyttää pyyntösivun raportissa. *Tallennetut asetukset* ovat periaatteessa ennalta määritettyjä asetuksia ja suodattimia. Tallennettujen asetusten käyttäminen on nopea ja helppo tapa oikeiden tietojen sisältämien raporttien luomista varten. Lisätietoja on kohdassa [Oletusarvojen käyttäminen - ennalta määritetyt asetukset](ui-work-report.md#SavedSettings).
+Raportteja ajettaessa käyttäjät näkyvät yleensä sivun, jossa voi valita asetuksia ja määrittää suodattimia, joita tarvitaan luotuun raporttiin sisältyvien tietojen muuttamiseen. Sivua kutsutaan pyyntösivuksi. Raportti voi sisältää vähintään yhdet *tallennetut asetukset*, joita voidaan käyttää pyyntösivun raportissa. *Tallennetut asetukset* ovat periaatteessa ennalta määritettyjä asetuksia ja suodattimia. Tallennettujen asetusten käyttäminen on nopea ja helppo tapa oikeiden tietojen sisältämien raporttien luomista varten. Lisätietoja on kohdassa [Tallennettujen asetusten käyttäminen](ui-work-report.md#SavedSettings).
 
 > [!NOTE]
-> Tässä ohjeaiheessa viitataan pääsiassa *raportteihin*, mutta vastaavat tiedot koskevat myös *erätöitä*.
+> Tässä ohjeaiheessa viitataan pääsiassa raportteihin, mutta vastaavat tiedot koskevat myös erätöitä.
 
 Jos sinulla on tarvittavat oikeudet, voit tarkastella, luoda ja muokata yrityksen kaikkien käyttäjien kaikkien raporttien tallennettuja asetuksia. Voit määrittää raportin tallennetut asetukset yksittäisille käyttäjille tai yrityksen kaikille käyttäjille.
 
-## <a name="manage-saved-settings"></a>Tallennettujen asetusten hallinta
+<!--
+## Apply saved settings to a report
+1. Open the report.
 
+   The request page appears.    
+2. In the **Saved Settings** section of the page, set the **Name** field  to the saved settings that you want to use.
+
+   The **Saved Settings** section only appears if the report has been run before or if there are existing saved settings entries. The saved settings entry called **Last used options and filters** is always available. These settings are the option and filter values that were used the last time you ran the report.
+
+-->
+
+## <a name="to-create-and-modify-saved-settings-for-all-users"></a>Kaikkien käyttäjien tallennettujen asetusten luominen ja muokkaaminen
 Voit hallita tallennettuja asetuksia **Raporttien asetukset** -sivulla. Sivun voi avata kahdella tavalla:
+-   Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Raporttiasetukset** ja valitse sitten liittyvä linkki.
+-   Avaa raportti, valitse **Käytä oletusarvoja kohteesta:** -kentän haku ja valitse sitten **Valitse koko luettelosta** -toiminto.
 
-- Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raportin asetukset** ja valitse sitten vastaava linkki.
-- Valitse raportin pyyntösivulla **Käytä oletusarvoja kohteesta** -kentän haku ja valitse sitten **Valitse koko luettelosta** -toiminto.
-
-    Tämä kenttä näkyy vain, jos olet suorittanut raportin vähintään kerran aiemmin. Luettelossa näkyvät vain asetukset, jotka ovat käytettävissäsi, koska ne ovat omia asetuksiasi tai koska asetukset on jaettu kanssasi.
-
-**Raporttiasetukset** -sivulla näkyvät kaikkien käyttäjien kaikki aiemmin tallennetut asetukset. Jos **Määritetty kohteelle** -kentässä on käyttäjänimi, vain kyseinen käyttäjä voi käyttää liittyvään raporttiin tallennettuja asetuksia. Jos **Jaettu kaikille käyttäjille** -kentässä on valintamerkki, kaikki käyttäjät voivat käyttää raportin tallennettuja asetuksia.  
-
-> [!TIP]
-> Kun käyttäjä on suorittanut raportin, joka tukee jaettuja asetuksia, hänen asetuksensa tallennetaan ja lisätään tähän luetteloon. Useimmissa tapauksissa järjestelmänvalvoja voi muokata asetuksia ja jakaa asetukset kaikkien käyttäjien kanssa.
->
-> Joissakin tapauksissa asetuksia ei kuitenkaan voi jakaa, eikä järjestelmänvalvoja voi muuttaa niitä. Useimmat erätyöt eivät tue jaettuja asetuksia.  
-
-## <a name="create-or-modify-saved-settings-for-all-users"></a>Kaikkien käyttäjien tallennettujen asetusten luominen tai muokkaaminen
+Sivulla näkyvät kaikkien käyttäjien kaikki aiemmin tallennetut asetukset. Jos **Määritetty kohteelle** -kentässä on käyttäjänimi, vain kyseinen käyttäjä voi käyttää liittyvään raporttiin tallennettuja asetuksia. Jos **Jaettu kaikille käyttäjille** -kentässä on valintamerkki, kaikki käyttäjät voivat käyttää raportin tallennettuja asetuksia.
 
 **Raporttiasetukset** -sivulla voit:
-
-- luoda täysin uuden asetuksen tallennustapahtuman valitsemalla **Uusi**-toiminnon
-- valitse tallennettujen asetusten tapahtuman luettelosta ja luoda kopion valitsemalla **Kopioi**-toiminnon
-- valita asetusten tallennustapahtuman luettelosta ja muokata asetusten tallennustapahtumaa valitsemalla **Muokkaa**-toiminnon
+-   luoda täysin uuden asetuksen tallennustapahtuman valitsemalla **Uusi**-toiminnon
+-   valitse tallennettujen asetusten tapahtuman luettelosta ja luoda kopion valitsemalla **Kopioi**-toiminnon
+-   valita asetusten tallennustapahtuman luettelosta ja muokata asetusten tallennustapahtumaa valitsemalla **Muokkaa**-toiminnon
 
 > [!Important]
 > Harkita minkä nimen annat tallennettujen asetusten merkinnälle. Jos luot tallennettujen asetusten merkinnän kaikille käyttäjille, ja annat sille saman nimen kuin tietyn käyttäjän aiemmin tallennetuilla merkinnöillä, jotka on määritelty vain tietylle käyttäjälle, kyseinen käyttäjä ei voi käyttää kaikille tarkoitettua asetusmerkintäjoukkoa.  Käyttäjä näkee **Tallennetut asetukset** -osassa kaksi asetusten tallennustapahtumaa, jolla on sama nimi. Valitusta vaihtoehdosta riippumatta järjestelmä käyttää käyttäjän omaa asetusten tallennustapahtumaa.
 
 > [!NOTE]
-> Tallennetut asetukset -mahdollisuus on käytössä vain raporteissa, joissa raportin pyyntösivun [SaveValues-ominaisuudeksi](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) on määritetty **Kyllä**. Kehittäjä määrittää **SaveValues** -ominaisuuden.  
+> Tallennetut asetukset -ominaisuus on käytössä vain raporteissa, joissa raportin pyyntösivun [SaveValues-ominaisuudeksi](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) on määritetty **Kyllä**. **SaveValues** -ominaisuus määritetään kehitysympäristössä.  
 
 ## <a name="see-also"></a>Katso myös
-
 [Raporttien, eräajojen ja XMLportien käsitteleminen](ui-work-report.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

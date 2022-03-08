@@ -1,29 +1,30 @@
 ---
 title: Rakennetiedot – Varaston arvostus | Microsoft Docs
-description: Varaston arvostus on varastonimikkeen kustannusten määrittäminen.
+description: Varaston arvostus XE "Varaston arvostus" on varastonimikkeeseen kohdistettu kustannuksen määritys seuraavan yhtälön mukaisesti.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: a4877cf45e4cbf035e2914b72e10f4d7a4102e59
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: a734d4b270fcce9959bd720f923fc1fd990559ff
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145860"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2880278"
 ---
 # <a name="design-details-inventory-valuation"></a>Rakennetiedot: varaston arvostus
-Varaston arvostus on varastonimikkeeseen kohdistettu kustannuksen määritys seuraavan yhtälön mukaisesti.  
+Varaston arvostus XE Varaston arvostus on varastonimikkeeseen kohdistettu kustannuksen määritys seuraavan yhtälön mukaisesti.  
 
 Varasto lopussa = varasto alussa + netto-ostot – myytyjen tuotteiden kustannus  
 
-Varastoarvon laskelma käyttää nimikkeiden kirjausten **Kustannussumma (tämänhetkinen)** -kenttää nimikkeelle. Kirjaukset luokitellaan kirjaustyypin mukaan, joka vastaa kustannusosia, välittömiä kustannuksia, välillisiä kustannuksia, varianssia, uudelleenarvostusta ja pyöristystä. Katso lisätietoja kohdasta [Rakennetiedot: kustannuskomponentit](design-details-cost-components.md).  
+Varastoarvon laskelma käyttää nimikkeiden kirjausten **Kustannussumma (tämänhetkinen)** -kenttää nimikkeelle. Kirjaukset luokitellaan kirjaustyypin XE "Kirjaustyyppi" mukaan, joka vastaa kustannusosia, välittömiä kustannuksia, välillisiä kustannuksia, varianssia, uudelleenarvostusta ja pyöristystä. Katso lisätietoja kohdasta [Rakennetiedot: kustannuskomponentit](design-details-cost-components.md).  
 
-Tapahtumia käytetään toisiaan vastaan, joko kiinteällä kohdistuksella tai yleisen arvostusmenetelmän määrittämän kustannusvirtaoletuksen mukaisesti. Yksi varaston arvon vähennystapahtuma voidaan kohdistaa useampaan kuin yhteen nousutapahtumaan erilaisilla kirjauspäivämäärillä ja mahdollisesti erilaisilla hankintakustannuksilla. Katso lisätiedot kohdasta [Rakennetiedot: nimikkeen kohdistus](design-details-item-application.md). Tämän vuoksi varastoarvon laskenta tiettynä päivänä perustuu positiivisten ja negatiivisten arvotapahtumiin.  
+Tapahtumat kohdistetaan toisiinsa joko kiinteällä kohdistuksella XE Application; Fixed tai yleisen arvostusmenetelmän määrittämän kustannusvirtaoletuksen XE Method; Costing; XE Costing Method mukaisesti. Yksi varaston arvon vähennystapahtuma voidaan kohdistaa useampaan kuin yhteen nousutapahtumaan erilaisilla kirjauspäivämäärillä ja mahdollisesti erilaisilla hankintakustannuksilla XE "Acquisition Cost". Katso lisätiedot kohdasta [Rakennetiedot: nimikkeen kohdistus](design-details-item-application.md). Tämän vuoksi varastoarvon XE "Inventory Value" laskenta tiettynä päivänä perustuu positiivisten ja negatiivisten arvotapahtumiin.  
 
 ## <a name="inventory-valuation-report"></a>Varaston arvostusraportti  
 Kun **Varaston arvostus** -raportin varaston arvoa lasketaan, raportti laskee ensin nimikkeen varaston arvon annettuna alkupäivämääränä. Se lisää tämän jälkeen varaston arvon kasvatukset ja vähentää varaston arvon vähennykset annettuun lopetuspäivämäärään asti. Lopputulos on varaston arvo päättymispäivänä. Raportti laskee nämä arvot laskemalla yhteen arvot **Kustannussumma (nykyinen)** -kentän arvokirjauksissa käyttäen tiliöintipäiviä suodattimina.  
@@ -57,7 +58,4 @@ WIP-varaston arvostuksen tarkoituksena on määritellä niiden nimikkeiden arvo,
 [Rakennetiedot: Tuotantotilauksen kirjaus](design-details-production-order-posting.md)
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
 [Rahoitus](finance.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

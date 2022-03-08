@@ -1,22 +1,23 @@
 ---
-title: Työnkulkujen luominen työnkulkumalleista
-description: Voit säästää aikaa luodessasi uusia työnkulkuja luomalla ei-muokattavia työnkulkuja työnkulkumalleista, joiden etuliitteenä on "MS".
+title: Työnkulkujen luominen työnkulkumalleista | Microsoft Docs
+description: Voit säästää aikaa uusien työnkulkujen luomisessa luomalla työnkulut työnkulkumalleista.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d429b5acce6520b86a1272620379265fb01b1462
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2540632936a502cd1873c7db34733f5dd83db4b9
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147266"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5775845"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Työnkulkujen luominen työnkulkumalleista
 Voit säästää aikaa uusien työnkulkujen luomisessa luomalla työnkulut työnkulkumalleista.  
@@ -28,7 +29,7 @@ Voit säästää aikaa uusien työnkulkujen luomisessa luomalla työnkulut työn
 Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan. Työnkulku määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita. Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).  
 
 ## <a name="to-create-a-workflow-from-workflow-template"></a>Työnkulun luominen työnkulkumallista  
-1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut** ja valitse sitten vastaava linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvake, syötä **Työnkulut** ja valitse sitten liittyvä linkki.  
 2.  Valitse **Luo työnkulku mallista** -toiminto. **Työnkulkumallit**-sivu avautuu.  
 3.  Valitse työnkulkumalli ja sitten **OK**-painike.  
 

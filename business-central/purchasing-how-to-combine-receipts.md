@@ -1,21 +1,21 @@
 ---
-title: Vastaanottojen yhdistäminen yhteen laskuun
+title: Vastaanottojen yhdistäminen | Microsoft Docs
 description: Jos haluat laskuttaa useita ostovastaanottoja kerralla, voit käyttää Vastaanottojen yhdistämistoimintoa.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 136, 145, 146
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fa038043a1a9451f3f74c0ab72f8c9a2b8033cf0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 86617934ecdb0ac2f14f6cf717f8091ba96caf95
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137261"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772577"
 ---
 # <a name="combine-receipts-on-a-single-invoice"></a>Vastaanottojen yhdistäminen yhteen laskuun
 
@@ -30,7 +30,7 @@ Kun ostovastaanotot yhdistetään laskuun ja kirjataan, askutetuille riveille lu
 
 ## <a name="to-combine-receipts"></a>Vastaanottojen yhdistäminen
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Ostolaskut** ja valitse sitten liittyvä linkki.  
 2. Valitse **Uusi**-toiminto. Lisätietoja on kohdassa [Ostojen kirjaaminen](purchasing-how-record-purchases.md).  
 3. Valitse **Rivit**-pikavälilehdessä **Hae vast.oton rivit** -toiminto.  
 4. Valitse useat vastaanoton rivit, jotka haluat sisällyttää laskuun:  
@@ -40,7 +40,7 @@ Kun ostovastaanotot yhdistetään laskuun ja kirjataan, askutetuille riveille lu
 
 ## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Poista avoin ostotilaus yhdistetyn vastaanoton kirjauksen jälkeen
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista laskutetut ostotilaukset** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Poista laskutettuja ostotilauksia** ja valitse sitten liittyvä linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 3. Valitse **OK**-painike.  
 

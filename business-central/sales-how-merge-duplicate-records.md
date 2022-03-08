@@ -1,20 +1,23 @@
 ---
-title: Asiakas- tai toimittajatietueiden kaksoiskappaleiden yhdistäminen
-description: Kuvaa, miten asiakkaiden tai toimittajien tietoja kootaan yhteen, kun joistakin niistä on kaksoiskappaleita.
+title: Asiakas- tai toimittajatietueiden kaksoiskappaleiden yhdistäminen | Microsoft Docs
+description: Tässä ohjeaiheessa kerrotaan, miten asiakkaan kortti luodaan rekisteröimään tietoja kustakin uudesta asiakkaasta, jolle myyt.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: bc68aba329f391333dfddc9e6ba5ce8c59212c74
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: c23e34cfe0a1684a4bd5b95b60f56f0e411608ab
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130122"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1251798"
 ---
 # <a name="merge-duplicate-records"></a>Tietueiden kaksoiskappaleiden yhdistäminen
 Kun eri käyttäjät luovat uusia asiakkaan, toimittajan tai kontaktin kortteja ajan mittaan tai kun uusia tietueita luodaan automaattisesti siirron aikana, asiakkaalle, toimittajalle tai kontaktille voi tulla järjestelmään useita tietueita. Voit siinä tapauksessa käyttää säilytettävän tietueen kortin **Yhdistä kaksoiskappale** -sivua. Sivulla on yleiskatsaus kenttäarvoista, joilla on kaksoiskappaleita, ja toimintoja, joilla valitaan, mitkä arvot säilytetään tai hylätään, kun kaksi tietuetta yhdistetään.
@@ -27,7 +30,7 @@ Kun eri käyttäjät luovat uusia asiakkaan, toimittajan tai kontaktin kortteja 
 
 Seuraava toimenpide perustuu asiakaskorttiin. Toimittajan ja kontaktin korttien vaiheet ovat samankaltaisia.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Asiakkaat** ja valitse sitten liittyvä linkki.
 2. Valitse asiakas, johon tiedät tai epäilet tietueen kaksoiskappaleen liittyvän, ja valitse sitten **Muokkaa**-toiminto.
 3. Valitse **Asiakkaan kortti** -sivulla **Yhdistä kohteeseen** -toiminto.
 4. Valitse **Yhdistä kaksoiskappale** -sivun **Yhdistä kohteeseen** -kentässä asiakas, jonka uskot olevan **Nykyinen**-kentän avatun asiakkaan kaksoiskappale.
@@ -64,7 +67,4 @@ Seuraava toimenpide perustuu asiakaskorttiin. Toimittajan ja kontaktin korttien 
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  
 [Kontaktien määrittäminen](marketing-setup-contacts.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

@@ -1,26 +1,27 @@
 ---
-title: Poiminta ja toimitus fyysisen varastoinnin perusmäärityksissä
-description: Business Central -sovelluksessa noudon ja toimituksen lähtevät prosessit voidaan suorittaa seuraavilla neljällä tavalla käyttämällä eri toimintoja varastotason monimutkaisuudesta riippuen.
-author: jill-kotel-andersson
-ms.topic: conceptual
+title: Poiminta ja toimitus fyysisen varastoinnin perusmäärityksissä | Microsoft Docs
+description: Business Central -sovelluksessa noudon ja toimituksen lähtevät prosessit voidaan suorittaa neljällä tavalla käyttämällä eri toimintoja varastotason monimutkaisuudesta riippuen.
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 06/24/2020
 ms.author: edupont
-ms.openlocfilehash: 99271ea5f97bed9faca795f19a863977f8b0e6e4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d607037d76f0778aa0f1037ac9540cfd3d497dbd
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148094"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3786819"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Vaihekuvaus: Poiminta ja toimitus fyysisen varastoinnin perusmäärityksissä
 
-<!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)] -->
+[!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa noudon ja toimituksen lähtevät prosessit voidaan suorittaa neljällä tavalla käyttämällä eri toimintoja varastotason monimutkaisuudesta riippuen.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa noudon ja toimituksen lähtevät prosessit voidaan suorittaa neljällä tavalla käyttämällä eri toimintoja varastotason monimutkaisuudesta riippuen.  
 
 |Tapa|Saapuva prosessi|Varastopaikat|Poiminnat|Toimitukset|Monimutkaisuustaso (katso [Rakennetiedot: Fyysisen varaston asetukset](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|-----------|---------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -39,8 +40,8 @@ Jos sijainnit on määritetty fyysisen varastoinnin perusmäärityksissä edelly
 
 Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:  
 
-- ETELÄ-sijainnin määrittäminen varastopaikan käsittelyyn.  
-- Myyntitilauksen luominen asiakkaalle 10000 30 Amsterdam-lampusta.  
+- HOPEA-sijainnin määrittäminen varastopaikan käsittelyyn.  
+- Luo myyntitilaus asiakkaalle 10000 30 kaiuttimesta.  
 - Myyntitilauksen vapauttaminen varaston käsittelyyn.  
 - Varastopoiminnan julkaistusta lähdeasiakirjasta luominen  
 - Rekisteröidään fyysisen varastoinnin siirtoa varastosta ja kirjataan samanaikaisesti lähdemyyntitilauksen myyntitoimitusta.  
@@ -53,54 +54,43 @@ Tässä vaihekuvauksessa havainnollistetaan seuraavien käyttäjäroolien tehtä
 - Tilausten käsittelijä  
 - Varastotyöntekijä  
 
-<!-- ## Prerequisites
+## <a name="prerequisites"></a>Vaatimukset
 
-To complete this walkthrough, you will need:  
+Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:  
 
-- For [!INCLUDE[prod_short](includes/prod_short.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS installed.
- -->
+- [!INCLUDE[prodshort](includes/prodshort.md)] online: yritys perustuu eristysympäristön **Laajennettu arviointi - Kaikki mallitiedot** -vaihtoehtoon. [!INCLUDE[prodshort](includes/prodshort.md)] on-premises: CRONUS International Ltd. asennetaan.  
+- Tee itsestäsi fyysisen varaston työntekijä sijainnissa HOPEA seuraavasti:  
 
-## <a name="story"></a>Taustatietoja
+  1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Varastotyöntekijät** ja valitse sitten liittyvä linkki.  
+  2. Valitse ensin **Käyttäjätunnus**-kenttä ja valitse oma käyttäjätilisi **Käyttäjät**-sivulla.  
+  3. Kirjoita **Sijaintikoodi**-kenttään HOPEA.  
+  4. Valitse **Oletus**-kenttä.  
 
-Ellen, CRONUSin varastopäällikkö, määrittää ETELÄ-varaston Basic-poiminnan käsittelyä varten. Sen mukaisesti varastotyöntekijät käsittelevät lähtevät tilaukset erikseen. Susanna, tilausten käsittelijä, luo myyntitilauksen 1928-S-nimikkeen 30 yksikön toimituksesta asiakkaalle 10000 ETELÄ-varastosta. Johnin, varastotyöntekijän, täytyy varmistaa, että lähetys on valmisteltu ja toimitettu asiakkaalle. John hallitsee kaikkia **Varaston poiminta** -sivulla olevia tehtäviä, jotka viittaavat automaattisesti varastopaikkoihin, joissa nimikettä 1928-S varastoidaan.
+- Valmistusnimike LS-81 saatavilla HOPEA-sijaintiin seuraavasti:  
 
-[!INCLUDE[set_up_location.md](includes/set_up_location.md)]
-
-### <a name="setting-up-the-bin-codes"></a>Varastopaikkakoodien määrittäminen
-Kun olet määrittänyt sijainnin, sinun täytyy lisätä kaksi varastopaikkaa.
-
-#### <a name="to-setup-the-bin-codes"></a>Varastopaikkakoodien määrittäminen
-
-1. Valitse **Varastopaikat**-toiminto.
-2. Luo kaksi varastopaikkaa koodeilla *S-01-0001* ja *S-01-0002*.
-
-### <a name="making-yourself-a-warehouse-employee-at-location-south"></a>Varastotyöntekijän tekeminen sijainnissa ETELÄ
-
-Jotta voisit käyttää tätä toimintoa, sinun on lisättävä itsesi varastotyöntekijäksi tähän sijaintiin. 
-
-#### <a name="to-make-yourself-a-warehouse-employee"></a>Tee itsestäsi varastotyöntekijä
-
-  1. Valitse ![Lamppu, joka avaa ensin Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston työntekijät** ja valitse sitten vastaava linkki.  
-  2. Valitse ensin **Käyttäjätunnus**-kenttä ja valitse oma käyttäjätilisi **F.var. työntekijät** -sivulla.
-  3. Valitse **Sijaintikoodi**-kentässä ETELÄ.  
-  4. Valitse **Oletus**-kenttä ja sitten **Kyllä**-painike..  
-
-### <a name="making-item-1928-s-available"></a>Nimikkeen 1928-S tekeminen saatavaksi
-
-Tehdäksesi nimikkeen 1928-S saatavaksi ETELÄ-sijainnissa noudata seuraavia vaiheita:  
-
-  1. Valitse ![Lamppu, joka avaa toisena Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikepäiväkirjat** ja valitse sitten vastaava linkki.  
+  1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikepäiväkirjat** ja valitse sitten liittyvä linkki.  
   2. Avaa oletuspäiväkirja ja luo kaksi nimikepäiväkirjan riviä seuraavilla käsittelypäivämäärän tiedoilla (23. tammikuuta).  
 
         |Tapahtuman tyyppi|Nimikenumero|Sijaintikoodi |Varastopaikan koodi|määrä|  
         |----------------|-----------------|-------------------|--------------|--------------|  
-        |Posit. muutos|1928-S|ETELÄ|S-01-0001|20|  
-        |Posit. muutos|1928-S|ETELÄ|S-01-0002|20|  
+        |Posit. muutos|LS_81|HOPEINEN|S-01-0001|20|  
+        |Posit. muutos|LS_81|HOPEINEN|S-01-0002|20|  
 
-        Oletusarvoisesti myyntirivien **Varastopaikan koodi** -kentät on piilotettu, joten ne on tuotava näkyviin. Sen tehdäksesi sinun on muokattava sivua. Lisätietoja on kohdassa, jossa [Sivun mukauttaminen mukautusvalintanauhan avulla](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+  3. Valitse ensin **Kirjaa** -toiminto ja sitten **Kyllä**.  
 
-  3. Valitse **Toiminnot**, sitten **Kirjaus** ja valitse sitten **Kirjaa**.  
-  4. Valitse **Kyllä**-painike.  
+## <a name="story"></a>Taustatietoja
+
+Ellen, CRONUS:n varastopäällikkö, määrittää HOPEISEN varaston Basic-poiminnan käsittelyä varten,jossa varastotyöntekijät käsittelevät lähtevät tilaukset erikseen. Susanna, tilausten käsittelijä luo myyntitilauksen LS-81-nimikkeen 30 yksikön toimituksesta asiakkaalle 10000 HOPEISESTA varastosta. Johnin, varastotyöntekijän, täytyy varmistaa, että lähetys on valmisteltu ja toimitettu asiakkaalle. John hallitsee kaikkia **Varaston poiminta** -sivulla olevia tehtäviä, jotka viittaavat automaattisesti varastopaikkoihin, joissa LS-81 on tallennettu.  
+
+## <a name="setting-up-the-location"></a>Sijainnin määrittäminen
+
+**Sijaintikortti**-sivun asetuksissa määritellään yrityksen varaston työnkulut.  
+
+### <a name="to-set-up-the-location"></a>Sijainnin määrittäminen
+
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
+2. Avaa asianmukaisen HOPEA sijainnin kortti.  
+3. Valitse **Fyysinen varasto** -pikavälilehdessä **Vaadi poiminta** -valintaruutu.  
 
 ## <a name="creating-the-sales-order"></a>Myyntitilauksen luominen
 
@@ -108,13 +98,13 @@ Myyntitilaukset ovat yleisin lähtevien lähdeasiakirjojen tyyppi.
 
 ### <a name="to-create-the-sales-order"></a>Myyntitilauksen luominen
 
-1. Valitse ![Lamppu, joka avaa kolmantena Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
 2. Valitse **Uusi**-toiminto.  
 3. Luo myyntitilaus asiakkaalle 10000 (23.1.) käsittelypäivämääränä seuraavien myyntitilausrivin kanssa.  
 
-    |Nimike|Sijaintikoodi |määrä|  
+    |Nimike|Sijaintikoodi |määrä.|  
     |----|-------------|--------|  
-    |1928-S|ETELÄ|30|  
+    |LS_81|HOPEINEN|30|  
 
      Siirry ja ilmoita varastolle, että myyntitilaus on valmis varaston käsittelyyn, kun toimitus saapuu.  
 
@@ -128,7 +118,7 @@ Myyntitilaukset ovat yleisin lähtevien lähdeasiakirjojen tyyppi.
 
 ### <a name="to-pick-and-ship-items"></a>Nimikkeiden poiminta ja lähettäminen
 
-1. Valitse ![Lamppu, joka avaa neljäntenä Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston poiminnat** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Varaston poiminnat** ja valitse sitten liittyvä linkki.  
 2. Valitse **Uusi**-toiminto.  
 
     Varmista, että **Nro**-kenttä täytetään **Yleinen**-pikavälilehdessä.
@@ -141,7 +131,7 @@ Myyntitilaukset ovat yleisin lähtevien lähdeasiakirjojen tyyppi.
     Syötä vaihtoehtoisesti **Käsiteltävä määrä** -kentässä vastaavasti 10 ja 20 kahdelle varastonpoimintariville.  
 6. Valita ensin **Kirjaa**-toiminto, sitten **Toimitus** ja lopuksi **OK**.  
 
-    30 Amsterdam-lamppua on nyt rekisteröity poimituiksi varastopaikoista S-01-0001- ja S-01-0002, ja luodaan negatiivinen nimiketapahtuma, joka heijastaa kirjattua myyntitoimitusta.  
+    30 kaiutinta on nyt rekisteröity poimituiksi varastopaikoista S-01-0001- ja S-01-0002, ja luodaan negatiivinen nimiketapahtuma, joka heijastaa kirjattua myyntitoimitusta.  
 
 ## <a name="see-also"></a>Katso myös
 
@@ -153,7 +143,4 @@ Myyntitilaukset ovat yleisin lähtevien lähdeasiakirjojen tyyppi.
 [Nimikkeiden suunnittelematon siirtäminen fyysisen varastoinnin perusmäärityksissä](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)  
 [Rakennetiedot: lähtevän fyysisen varastoinnin virta](design-details-outbound-warehouse-flow.md)  
 [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

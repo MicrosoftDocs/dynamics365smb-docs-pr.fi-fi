@@ -2,17 +2,17 @@
 title: Yritysten lisääminen yrityksen keskittimeen
 description: Opi lisäämään yrityksiä muista Business Central -ympäristöistä yritystoimintoon, jotta voit hallita eri ympäristöjen välisiä töitä.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, company hub
-ms.search.form: 1151, 1155, 1166, 1165
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c6cc06c45856f1e7c10b1ac82382dae799aef409
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4954287f93ed012709a51f6fbb19d00494c63d54
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139805"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436974"
 ---
 # <a name="add-companies-to-your-company-hub"></a>Yritysten lisääminen yritystoimintoon
 

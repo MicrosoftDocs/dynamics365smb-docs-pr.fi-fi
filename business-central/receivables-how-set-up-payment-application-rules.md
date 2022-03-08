@@ -1,24 +1,29 @@
 ---
-title: Automaattisen maksujen soveltamisen säännöt
-description: Tietoja siitä, miten automaattisen maksujen soveltamisen säännöt määritetään Maksukohdistussäännöt-sivulla.
+title: Automaattinen maksujen soveltamisen sääntöjen määrittäminen
+description: Määritä Maksusovelluksen säännöt -sivulla säännöt, jotka hallinnoivat sitä, kuinka maksuja/pankkitapahtumia sovelletaan automaattisesti niihin liittyviin avoimiin kirjanpitotapahtumiin, kun käytät Sovella automaattisesti -toimintoa Maksujen täsmäytyskirjauskansio -sivulla.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 06/25/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 44e1868529d2f0852c0f21b7279f7d75df174efa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a0aad6bce483dba6edf7c6d5ab37033475413d4b
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137209"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392597"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Automaattinen maksujen soveltamisen sääntöjen määrittäminen
 
-Määritä **Maksusovelluksen säännöt** -sivulla säännöt, jotka hallinnoivat sitä, kuinka (pankkitapahtuman) maksutekstit kohdistetaan automaattisesti niihin liittyviin avoimiin (maksamattomiin) laskuihin, hyvityslaskuihin tai muihin kirjauksiin, kun käytät **Sovella automaattisesti** -toimintoa **Maksujen täsmäytyskirjauskansio** -sivulla. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
+**Maksun sovellussäännöt** -sivulla määritetään sääntöjä, jotka määrittävät, miten maksuteksti (pankkitapahtumassa) kohdistetaan automaattisesti seuraavien kahden prosessin avointen tapahtumien tekstiin:
+
+- Määritä säännöt, jotka hallinnoivat sitä, kuinka maksuja/pankkitapahtumia sovelletaan automaattisesti niihin liittyviin avoimiin (maksamattomiin) laskuihin, hyvityslaskuihin tai muihin kirjanpitotapahtumiin, kun käytät **Sovella automaattisesti** -toimintoa **Maksujen täsmäytyskirjauskansio** -sivulla. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
+
+- Täsmäytä pankkitapahtumat automaattisesti niihin liittyviin sisäisiin pankkitilitapahtumiin valitsemalla **Täsmäytä automaattisesti** -toiminto **Pankkitilin täsmäytys** -sivulla. Lisätietoja on kohdassa [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md).
 
 Voit asettaa uuden maksun sovellussäännön valitsemalla minkä tyyppisten tietojen maksujen täsmäytyskirjauskansion rivillä tulee vastata tietoja yhdessä tai useammassa avoimessa tapahtumassa, ennen kuin liittyvä maksu yhdistetään automaattisesti avoimiin tapahtumiin. Jokaisen automaattisen sovelluksen laatu näkyy käytetyn maksun kohdistussäännön mukaan arvona **Matalasta** **Korkeaan** **Vastaavuuden luotettavuus** -kentässä **Maksujen täsmäytyskirjauskansio** -sivulla sen maksusovellussäännön mukaisesti, jota käytettiin.
 
@@ -35,7 +40,7 @@ Kohdistustietojen lisäksi seuraavaa sovelletaan maksumäärän etumerkkiin:
 - Positiivisille määrille täsmäytys tehdään ensin toimittajan laskuja edustavia avoimia tapahtumia vastaan ja sitten asiakkaan hyvityslaskuja vastaan.
 
 ## <a name="to-set-up-a-payment-application-rule"></a>Maksun sovellussäännön asettaminen
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksukohdistussäännöt** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Maksujen sovellussäännöt** ja valitse sitten liittyvä linkki.
 2. Määritä uusi tai muokattu maksun sovellussääntö täyttämällä rivin kentät seuraavassa taulukossa kuvatulla tavalla.
 
 |Kenttä|Kuvaus|

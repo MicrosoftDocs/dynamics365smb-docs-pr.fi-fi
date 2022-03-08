@@ -1,23 +1,23 @@
 ---
-title: Tuotantokalentereiden määrittäminen
-description: Tuotantosolun luominen ja ottaminen käyttöön sisältää useita tehtäviä, kuten tuotantokalenterien määrittämisen ja työvuorojen luomisen.
+title: Tuotantokalenterien määrittäminen | Microsoft Docs
+description: 'Tuotantosolun kalenterissa määritetään työpäivät ja -tunnit, työvuorot, lomapäivät sekä poissaolot, jotka määräävät tuotantosolun käytettävissä olevan kokonaiskapasiteetin (ajassa mitattuna) solun tehokkuus- ja kapasiteettiarvojen mukaisesti. Tuotantosolun kalenterin luominen ja käyttöönotto edellyttävät useita valmistelutoimenpiteitä:'
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000759, 99000769, 99000770, 99000771, 99000772, 99000920
-ms.date: 06/22/2021
+ms.search.keywords: ''
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a39df1fc7ccff9d3f4fcfbf76e7d6a57a7801bce
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e542d67f3cd0516cf435b0a7110e50431aab1a1f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131325"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5781947"
 ---
 # <a name="set-up-shop-calendars"></a>Tuotantokalentereiden määrittäminen
-
 Tuotantosolun tai kuormituskeskuksen kalenterissa määritetään työpäivät ja -tunnit, työvuorot, lomapäivät sekä poissaolot, jotka määräävät tuotantosolun tai kuormituskeskuksen käytettävissä olevan kokonaiskapasiteetin (ajassa mitattuna) tehokkuus- ja kapasiteettiarvojen mukaisesti.
 
 Tuotantosolun tai kuormituskeskuksen kalenterin laskemisen perustaksi on ensin määritettävä ainakin yksi yleinen tuotantokalenteri. Tuotantokalenteriin määritetään vakiotyöviikon kunkin työpäivän alkamis- ja päättymisajat sekä työvuorot. Lisäksi tuotantokalenteriin määritetään kaikki vuoden kiinteät lomapäivät.  
@@ -25,7 +25,7 @@ Tuotantosolun tai kuormituskeskuksen kalenterin laskemisen perustaksi on ensin m
 Seuraavaksi käsitellään tuotantosolun kalenterien määrittämistä. Kuormitusryhmän kalenterit määritetään vastaavasti.  
 
 ## <a name="to-create-work-shifts"></a>Työvuorojen luominen  
-1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työvuorot** ja valitse sitten vastaava linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Työvuorot** ja valitse sitten liittyvä linkki.  
 2.  Anna tyhjälle riville **Koodi**-kenttään numero työvuoron tunnisteeksi (esimerkiksi **1**).  
 3.  Kirjoita työvuoron kuvaus **Kuvaus**-kenttään, esimerkiksi **1. vuoro**.  
 4.  Voit täyttää myös toisen tai kolmannen työvuoron rivit.  
@@ -33,7 +33,7 @@ Seuraavaksi käsitellään tuotantosolun kalenterien määrittämistä. Kuormitu
 Vaikka tuotantosolussa ei työskenneltäisi eri vuoroissa, syötä ainakin yksi työvuoron koodin.  
 
 ## <a name="to-set-up-a-shop-calendar"></a>Tuotantokalenterin määrittäminen  
-1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotantokalenterit** ja valitse sitten vastaava linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Tuotantokalenterit** ja valitse sitten liittyvä linkki.  
 2.  Anna tyhjälle riville **Koodi**-kenttään numero tuotantokalenterin tunnisteeksi (esimerkiksi 1).  
 3.  Kirjoita tuotantokalenterin kuvaus **Kuvaus**-kenttään.  
 4.  Valitse **Työpäivät**-toiminto.
@@ -68,7 +68,7 @@ Tuotantokalenteri voidaan nyt liittää tuotantosoluun, ja tuotantosolun kalente
 
 ## <a name="to-calculate-a-work-center-calendar"></a>Tuotantosolun kalenterin laskeminen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotantosolut** ja valitse sitten vastaava linkki.
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Tuotantosolut** ja valitse sitten liittyvä linkki.
 2. Avaa tuotantosolu, jonka haluat päivittää.  
 3. Valitse **Tuotantokalenterin koodi** -kentässä, mitä tuotantokalenteria käytetään tuotantosolun kalenterin pohjana.  
 4. Valitse **Kalenteri**-toiminto.  

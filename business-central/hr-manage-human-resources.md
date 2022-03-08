@@ -1,24 +1,25 @@
 ---
-title: Henkilöstöresurssien hallinta
+title: Henkilöstöhallinnon toimintojen käyttäminen| Microsoft Docs
 description: Voit rekisteröidä uutta henkilöstöä, muokata tietoja nykyisestä henkilöstöstä sekä tallentaa poissaolot ja analysoida niitä.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.search.form: 5200, 5201, 5212, 5211
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 97758b684b3a68508b9b6966d155f956d58c1f4a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e3339e5e08f8dc67dfcee469b89604c9c229e478
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135904"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746464"
 ---
 # <a name="manage-human-resources"></a>Henkilöstöresurssien hallinta
-
 Voit luoda tarkat työntekijätietueet [!INCLUDE[prod_short](includes/prod_short.md)]issa. Voit rekisteröidä ja ylläpitää työntekijöiden tietoja, kuten työsopimuksia, luottamuksellisia tietoja, pätevyystietoja ja työntekijäkontakteja.
 
 Voit myös rekisteröidä työntekijöiden poissaolot. Rekisteröityjä poissaoloja voi analysoida tarvittaessa.
@@ -33,10 +34,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Kirjaa työntekijöiden poissaoloja ja tarkastele poissaolotilastoja eri suodattimien avulla. |[Työntekijöiden poissaolojen hallinta](hr-how-manage-absence.md) |
 
 ## <a name="see-also"></a>Katso myös
-
 [Rahoitus](finance.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)        
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

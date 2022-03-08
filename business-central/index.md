@@ -1,117 +1,44 @@
 ---
-title: Tervetuloa Microsoft Dynamics 365 Business Centraliin
-description: Tutustu Business Centralin ominaisuuksiin ja työskenaarioihin, jotka auttavat yrityksiä hallitsemaan liiketoimintaansa, mukaan lukien taloushallinto, tuotanto, myynti, toimitus, projektinhallinta ja palvelut.
-author: edupont04
+title: Microsoft Dynamics 365 Business Centraliin tutustuminen
+description: Lisätietoja pienille ja keskisuurille organisaatioille tarkoitetusta liiketoiminnan Business Central -hallintaratkaisun toiminnoista ja käyttötilanteista.
+author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/29/2021
-ms.author: edupont
-ms.openlocfilehash: 95f54be520c439984343fbe9413570dc18097db9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 11/06/2019
+ms.author: sgroespe
+ms.openlocfilehash: 41dfc2ceb2fffb8f4ebb0eea50025ea50e0a0418
+ms.sourcegitcommit: 86498fe4326b9ce26cc31e8645db27570d13bdf9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138490"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2767560"
 ---
-# <a name="welcome-to-prod_long"></a>Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin
+# <a name="welcome-to-d365fin_long"></a>Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin
+[!INCLUDE[d365fin](includes/d365fin_md.md)] on pienille ja keskisuurille organisaatioille tarkoitettu liiketoiminnan hallintaratkaisu, joka automatisoi ja selkeyttää liiketoiminnan prosesseja ja auttaa liiketoiminnan hallinnassa. Yritykset voivat käyttää erittäin mukautettavaa ja monipuolista [!INCLUDE[d365fin](includes/d365fin_md.md)]ia liiketoiminnan osa-alueiden hallintaan, kuten rahoituksen, tuotannon, myynnin, toimituksen, projektinhallinnan ja huollon hallintaan. Yritykset voivat helposti lisätä omalla toiminta-alueella tarpeellisia toimintoja sekä toimintoja, jotka on mukautettu hyvinkin erikoistuneita toimialoja varten.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] on pienille ja keskisuurille organisaatioille tarkoitettu liiketoiminnan hallintaratkaisu, joka automatisoi ja selkeyttää liiketoiminnan prosesseja sekä auttaa liiketoiminnan hallinnassa. Yritykset voivat käyttää erittäin mukautettavaa ja monipuolista [!INCLUDE[prod_short](includes/prod_short.md)]ia liiketoiminnan osa-alueiden hallintaan, kuten rahoituksen, tuotannon, myynnin, toimituksen, projektinhallinnan ja huollon hallintaan. Yritykset voivat helposti lisätä omalla toiminta-alueella tarpeellisia toimintoja sekä toimintoja, jotka on mukautettu hyvinkin erikoistuneita toimialoja varten.  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]in voi ottaa nopeasti käyttöön ja sen määrittäminen on helppoa. Käytön yksinkertaisuus on ohjannut tuotesuunnittelun innovaatioita, kehitystä, toteutusta ja käytettävyyttä. Tässä osassa on lisätietoja [!INCLUDE[d365fin](includes/d365fin_md.md)]in käytöstä omassa yrityksessä. Jos olet kumppani tai asiakas, joka miettii toiminnon laajentamista, tutustu Kehittäminen ja hallinta -kohdassa oleviin linkkeihin.  
 
-Jos sinulla on jo [!INCLUDE[prod_short](includes/prod_short.md)], kirjaudu sivustossa [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Muussa tapauksessa [Lue yleiskuvaus](https://dynamics.microsoft.com/business-central/overview/), [tee opastettu kierros](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) ja sitten [aloita maksuton kokeilu](https://go.microsoft.com/fwlink/?linkid=847861). Tutustu [pika-aloitusartikkeleihin](quick-start-business-central.md), joiden avulla saat tietää enemmän [!INCLUDE [prod_short](includes/prod_short.md)]ista. Lisätietoja [!INCLUDE[prod_short](includes/prod_short.md)] -käyttöönotosta on kohdassa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
-
-> [!TIP]
-> Siirryitkö tähän [!INCLUDE [prod_short](includes/prod_short.md)]ista? Jos tiedät varmasti, mistä löydät etsimäsi, voit käyttää **otsikoita suodatusperusteena** vasemmassa siirtymisruudussa tai **Haku**-kenttää selainikkunan yläosassa.  
->
-> Voit liittyviä ohjeita myös [!INCLUDE [prod_short](includes/prod_short.md)]in hakuominaisuuksilla. Lisätietoja on kohdassa [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md).
-
-## <a name="overview"></a>Yleiskuvaus
-
-[!INCLUDE[prod_short](includes/prod_short.md)]in voi ottaa nopeasti käyttöön ja sen määrittäminen on helppoa. Käytön yksinkertaisuus on ohjannut tuotesuunnittelun innovaatioita, kehitystä, toteutusta ja käytettävyyttä. Vasemmalla olevasta siirtymispaneelista löydät tietoa [!INCLUDE[prod_short](includes/prod_short.md)]:n käyttämisestä yrityksessäsi. Linkkien etsiminen paljon käytettyihin ominaisuuksiin [Liiketoimintaprosessit](#business-processes)-osassa.  
-
-[!INCLUDE [ua-get-help](includes/ua-get-help.md)]
-
-Voit myös [vierailla videokirjastossamme](across-videos.md) tai aloittaa [Microsoft Dynamics 365 Business Centralin käytön aloittaminen](/learn/paths/get-started-dynamics-365-business-central/) -oppimispolun [Microsoft Learnissa](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
-
-> [!NOTE]
-> Ellei muuta todeta, Docs.microsoft.com-sivusto sisältö vastaa uusinta [!INCLUDE[prod_short](includes/prod_short.md)] online -versiota. Jos organisaatiossa on käytössä jokin muu [!INCLUDE[prod_short](includes/prod_short.md)] online -versio, osa ominaisuuksista ei ehkä ole vielä saatavana. Jos organisaatiossa on käytössä [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, se voi olla aikaisempi versio. Lisätietoja on kohdassa [Usein kysytyt kysymykset](across-faq.yml).
-
-Seuraavat osiot viittaavat tärkeimpiin artikkeleihin, joiden avulla voit tutustua [!INCLUDE [prod_short](includes/prod_short.md)]iin.  
-
-## <a name="business-processes"></a>Liiketoimintaprosessit
-
-- [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)
-- [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)
-- [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
-- [Hallinta](admin-setup-and-administration.md)
-- [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)
-- [Sovelluksen suunnittelutiedot](design-details-application-design.md)
-- [Business Centralin mukauttaminen](ui-customizing-overview.md)
-- [Liiketoiminnan toiminnallisuus](across-business-functionality.md)
-
-  - [Rahoitus](finance.md)
-  - [Myynti](sales-manage-sales.md)
-  - [Osto](purchasing-manage-purchasing.md)
-  - [Varasto](inventory-manage-inventory.md)
-  - [Projektinhallinta](projects-manage-projects.md)
-  - [Käyttöomaisuuserien yleiskatsaus](fa-manage.md)
-  - [Liikesuhteiden hallinta](marketing-relationship-management.md)
-  - [Henkilöstöhallinto](hr-manage-human-resources.md)
-  - [Tuotantosuunnittelu](production-planning.md)
-  - [Kokoonpanon hallinta](assembly-assemble-items.md)
-  - [Tuotanto](production-manage-manufacturing.md)
-  - [Varastoinninhallinta](warehouse-manage-warehouse.md)
-  - [Huoltohallinto](service-service.md)
-  - [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
-  - [Paikalliset toiminnot](about-localization.md)
-
-## <a name="development-and-administration-content"></a>Kehitys- ja hallintosisältö
-
-- [Kehittäminen ja hallinto](/dynamics365/business-central/dev-itpro/index)
-- [AL-kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
-- [AL-kehitysympäristö](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
-- [AL-koodin säännöt ja ohjeistus](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
-
-## <a name="learn"></a>Lisätietoja
-
-[!INCLUDE[prod_short](includes/prod_short.md)]in maksuttoman verkko-oppimissisällön etsiminen [Microsoft Learnissa](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
-
-Videokirjastossa voi katsoa myös uusia ja usein käytettyjä ominaisuuksia koskevia videoita. Lisätietoja on [videokirjastossamme](across-videos.md).  
-
-## <a name="community-resources"></a>Yhteisöresurssit
-
-- [Microsoft Dynamics 365 Business Central -yhteisö](https://community.dynamics.com/business)
-- [Microsoft Dynamics 365 Business Central Dynamics 365 -blogissa](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)
-- [Microsoft Dynamics 365:n julkaisusuunnitelmat](/dynamics365/release-plans/)
-- [Microsoft Dynamics 365 Business Central -sovelluksen toteutussuunnitelma](https://dynamics.microsoft.com/roadmap/business-central/)
-- [Microsoftin kumppaniverkoston \(käyttöön tarvitaan Microsoftin kumppaniverkoston jäsentili\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
-
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Ilmoitukset tehdyistä muutoksista RSS-syötteen kautta
-
-[!INCLUDE [ua-rss](includes/ua-rss.md)]  
-
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+|||  
+|-|-|  
+|**Liiketoimintaprosessit**|-   [Käytön aloittaminen](product-get-started.md)<br />-   [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)<br />-   [[!INCLUDE[d365fin](includes/d365fin_md.md)]in määrittäminen](setup.md)<br />-   [Hallinta](admin-setup-and-administration.md)<br />-   [Liiketoiminnan toiminnallisuus](across-business-functionality.md)<br />-   [Paikalliset toiminnot](LocalFunctionality/Austria/austria-local-functionality.md)<br />-   [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)<br />-   [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)<br />-   [Sovelluksen suunnittelutiedot](design-details-application-design.md)|  
+|**Kehittäjien ja IT-ammattilaisten sisältö**|-   [Kehittäjien ja IT-ammattilaisten [!INCLUDE [prodshort](includes/prodshort.md)] -ohje](/dynamics365/business-central/dev-itpro/index)<br />-   [AL-kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)<br />-   [AL-kehitysympäristö](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)<br />-   [AL-koodin säännöt ja ohjeistus](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)|  
+|**Yhteisöresurssit**|-   [Microsoft Dynamics 365 Business Central -yhteisö](https://community.dynamics.com/business)<br />-   [Microsoft Dynamics 365 Business Central Dynamics 365 -blogissa](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)<br />-   [Microsoft Dynamics 365:n julkaisusuunnitelmat](https://go.microsoft.com/fwlink/?linkid=2047422)<br />-   [Microsoft Dynamics 365 Business Central -sovelluksen toteutussuunnitelma](https://dynamics.microsoft.com/en-us/roadmap/business-central/)<br />-   [Microsoft Dynamics PartnerSource \(edellyttää PartnerSource-tiliä\)](https://mbs.microsoft.com/partnersource)<br />-   [Microsoftin kumppaniverkoston käyttöön \(tarvitaan Microsoftin kumppaniverkoston jäsentili\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
 ## <a name="see-also"></a>Katso myös
 
-[Dynamics 365 Business Central Microsoft Learnissa](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
-[Business Centralin pika-aloitus](quick-start-business-central.md)  
-[Business Centralin käytön aloittaminen](ui-get-ready-business.md)  
-[Microsoftin videokirjastoon tutustuminen](across-videos.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Outlookin yrityssähköpostina](admin-outlook.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)]in hakeminen mobiililaitteeseen](install-mobile-app.md)  
-[Dimensioiden käyttäminen](finance-dimensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in käyttäminen Outlookin yrityssähköpostina](admin-outlook.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in hakeminen mobiililaitteeseen](install-mobile-app.md)  
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)]in vaatimustenmukaisuus](compliance/compliance-overview.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -verkkopalvelun ehdot](compliance/compliance-service-compliance.md#service-terms)  
-[Business Central Onlinen suuret ja pienet päivitykset](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  
+[Yhteensopivuus](compliance/compliance-overview.md)  
 [Dynamics 365:n ohjeistus](/dynamics365/)  
 [Dynamics 365 Business Central microsoft.comissa](https://dynamics.microsoft.com/business-central/overview/)  
-[Tutki Dynamics 365 Business Central -ominaisuuksia](https://dynamics.microsoft.com/business-central/capabilities/)  
-[Sivuston docs.microsoft.com esittely (alkuperäinen blogikirjoitus)](/teamblog/introducing-docs-microsoft-com)  
+[Business Central -opintoluettelo](readiness/readiness-learning-catalog.md)  
+[Dynamics 365 Business Central Microsoft Learnissa](/learn/browse/?products=dynamics-business-central)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[d365fin](includes/training_link_md.md)]

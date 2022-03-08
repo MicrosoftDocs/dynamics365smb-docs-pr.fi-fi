@@ -1,44 +1,50 @@
 ---
-title: XML-mallit tiedonsiirtomääritysten valmistelua varten
-description: Käytä XML-malleja tiedonsiirtokehyksen määrittämiseen, jotta voit määrittää, minkä tietoelementtien kanssa haluat tehdä siirtoja.
+title: XML-malleihin perustuvien XMLports-kohteiden luominen | Microsoft Docs
+description: Voit määrittää tiedonsiirtokehyksen XML-mallien avulla.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
-ms.author: edupont
-ms.openlocfilehash: cbaa75f196f75b79e83becb80006f6b4dc2aa291
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 65392cc5f47353b9266d5198b739835fd329c204
+ms.sourcegitcommit: d0dc5e5c46b932899e2a9c7183959d0ff37738d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130946"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076681"
 ---
-# <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>XML-mallien käyttäminen tiedonsiirtomääritysten valmisteluun
+# <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>XML-mallien käyttäminen tietojenvaihtomääritysten valmisteluun
+Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[d365fin](includes/d365fin_md.md)]in tiedonsiirtokehyksessä määrittämällä [!INCLUDE[d365fin](includes/d365fin_md.md)]in kanssa vaihdettavat tietoelementit XML-mallien avulla. Se tehdään **XML-mallin tarkastelutoiminto** -sivulla lataamalla XML-rakennetiedosto, valitsemalla sopivat tietoelementit ja käynnistämällä joko tietojen vaihdon määritys tai XMLport.  
 
-Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[prod_short](includes/prod_short.md)]in tiedonsiirtokehyksessä määrittämällä [!INCLUDE[prod_short](includes/prod_short.md)]in kanssa vaihdettavat tietoelementit XML-mallien avulla. Se tehdään **XML-mallin tarkastelutoiminto** -sivulla lataamalla XML-rakennetiedosto, valitsemalla sopivat tietoelementit ja käynnistämällä siiten tiedonsiirtomääritys.  
+ Kun olet määrittänyt XML-mallin perusteella sisällytettävät tietoelementit, voit luoda XMLport-objektin **Luo XMLport** -toiminnolla.  
 
- Kun olet määrittänyt XML-mallin perusteella sisällytettävät tietoelementit, voit käynnistää **Luo tiedonsiirtomääritys** -toiminnolla valittuihin tietoelementteihin perustuvan tiedonsiirtomäärityksen, joka sitten viimeistellään tiedonsiirtokehyksessä. Tällä tavoin **Kirjauksen tiedonsiirtomääritykset** -sivulla luodaan tietue. Jatka sivulla määrittämällä, mitkä tiedoston elementit ja mitkä [!INCLUDE[prod_short](includes/prod_short.md)]in kentät yhdistetään toisiinsa. Lisätietoja on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).  
+ Voit myös käyttää **Luo tietojen vaihdon määritys** -toimintoa luodaksesi valittuihin tietoelementteihin perustuvan määrityksen, jonka sitten viimeistelet tietojen vaihtamiskehyksessä. Tällä tavoin **Kirjauksen tiedonsiirtomääritykset** -sivulla luodaan tietue. Jatka sivulla määrittämällä, mitkä tiedoston elementit ja mitkä [!INCLUDE[d365fin](includes/d365fin_md.md)]in kentät yhdistetään toisiinsa. Lisätietoja on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).  
 
  Tämä ohjeaihe sisältää seuraavat menettelyt:  
 
-- XML-rakennetiedoston lataaminen  
+-   XML-rakennetiedoston lataaminen  
 
-- Solmujen valitseminen ja tyhjentäminen XML-rakenteessa  
+-   Solmujen valitseminen ja tyhjentäminen XML-rakenteessa  
 
-- XML-rakenteeseen perustuvan tietojen vaihtamismäärityksen luominen  
+-   XML-rakenteeseen perustuvan tietojen vaihtamismäärityksen luominen  
 
-## <a name="to-load-an-xml-schema-file"></a>XML-rakennetiedoston lataaminen
+-   XML-rakenteeseen perustuvan XMLportin luominen  
 
-1. Varmista, että sopiva XML-rakennetiedosto on saatavilla. Tiedostotunniste on .xsd.  
+-   XMLportin tuominen objektien suunnitteluohjelmaan  
 
-2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XML-mallit** ja valitse sitten vastaava linkki.  
+### <a name="to-load-an-xml-schema-file"></a>XML-rakennetiedoston lataaminen  
 
-3. Valitse **Uusi**-toiminto.  
+1.  Varmista, että sopiva XML-rakennetiedosto on saatavilla. Tiedostotunniste on .xsd.  
 
-4. Täytä kentät seuraavassa taulukossa kuvatulla tavalla.  
+2.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XML-mallit** ja valitse sitten liittyvä linkki.  
+
+3.  Valitse **Uusi**-toiminto.  
+
+4.  Täytä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
     |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
@@ -47,7 +53,7 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[pro
 
      **Kohdenimitila**-kenttä määrittää riville ladatun XML-mallitiedoston nimitilan (joka voi olla mikä tahansa).  
 
-5. Valitse **Lataa malli** -toiminto ja valitse XML-mallitiedosto.  
+5.  Valitse **Lataa malli** -toiminto ja valitse XML-mallitiedosto.  
 
      Kun tiedosto on ladattu, rivin muihin kenttiin lisätään tiedoston tiedot ja **Malli on ladattu** -valintaruutu valitaan.  
 
@@ -56,22 +62,22 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[pro
 
 ### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Solmujen valitseminen ja tyhjentäminen XML-rakenteessa  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XML-mallin tarkastelutoiminto** ja valitse sitten vastaava linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XML-mallin tarkastelutoiminto** ja valitse sitten liittyvä linkki.  
 
-2. Täytä otsikon kentät seuraavassa taulukossa kuvatulla tavalla.  
+2.  Täytä otsikon kentät seuraavassa taulukossa kuvatulla tavalla.  
 
     |Kenttä|Kuvaus|  
     |---------------------------------|---------------------------------------|  
-    |**XML-mallin koodi**|Määritä vaiheessa 5 ladattu XML-rakennetiedosto XML-rakennetiedosto -osiossa.|  
+    |**XML-mallin koodi**|Määritä vaiheessa 5 lataamasi XML-rakennetiedosto "XML-rakenteen lataaminen" -osiossa.|  
     |**Uuden XMLportin numero**|Määritä niiden XMLporttien määrä, jotka luodaan tästä XML-kaavasta, kun valitset **Luo XMLport** -toiminnon.|  
 
      Rivit on nyt täytettä solmuilla, jotka edustavat kaikki XML-kaavan elementtejä. XML-mallin mukaan pakolliset elementtien solmut valitaan oletusarvoisesti.  
 
-3. Laajenna ensimmäisellä rivillä **Solmun nimi**-sarakkeessa **Asiakirja**-solmu ja laajenna sitten vähitellen alapuolella olevia solmuja, joita haluat tarkastella.  
+3.  Laajenna ensimmäisellä rivillä **Solmun nimi**-sarakkeessa **Asiakirja**-solmu ja laajenna sitten vähitellen alapuolella olevia solmuja, joita haluat tarkastella.  
 
      Vaihtoehtoisesti, napsauta solmua hiiren kakkospainikkeella ja valitse sitten **Laajenna kaikki**.  
 
-4. Valitse yksi seuraavista toiminnoista muuttaaksesi mitkä solmut näytetään.  
+4.  Valitse yksi seuraavista toiminnoista muuttaaksesi mitkä solmut näytetään.  
 
     |**Toiminto**|Kuvaus|  
     |----------------|---------------------------------------|  
@@ -79,43 +85,50 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[pro
     |**Piilota ei-pakollinen**|Ainoastaan XML-rakenteen perusteella pakollisia elementtejä esittävät solmut näytetään. Näiden solmujen merkintänä on yleensä **1** **MinOccurs**-kentässä.<br /><br /> Käännä näkymä valitsemalla **Näytä kaikki**.|  
     |**Piilota ei-valittu**|Vain solmut, joissa **Valittu**-valintaruutu on valittuna näytetään.<br /><br /> Käännä näkymä valitsemalla **Näytä kaikki**.|  
 
-5. Valitse **Muokkaa** -toiminto.  
+5.  Valitse **Muokkaa** -toiminto.  
 
-6. Määritä **Valittu**-valintaruutu jokaiselle solmulle, jonka elementin haluat olevan tuettuna liittyvän SEPA-pankkitiedoston tiedonsiirtomäärityksessä.  
+6.  Määritä **Valittu**-valintaruutu jokaiselle solmulle, jonka elementin haluat olevan tuettuna liittyvän SEPA-pankkitiedoston tiedonsiirtomäärityksessä.  
 
     > [!NOTE]  
     >  Kun valitset pakollisen alisolmun, kaikki sen pääsolmut valitaan myös.  
 
-7. Voit valita uudelleen kaikki solmut, jotka kuvaavat XML-mallin mukaan pakollisia elementtejä valitsemalla **Valitse kaikki pakolliset elementit** -toiminto.  
+7.  Voit valita uudelleen kaikki solmut, jotka kuvaavat XML-mallin mukaan pakollisia elementtejä valitsemalla **Valitse kaikki pakolliset elementit** -toiminto.  
 
-8. Poista kaikki valinnat valitsemalla **Poista kaikkien valinta** -toiminto.  
+8.  Poista kaikki valinnat valitsemalla **Poista kaikkien valinta** -toiminto.  
 
      **Valinta**-kenttä määrittää, että solmulla on vähintään kaksi sisarussolmua, jotka toimivat vaihtoehtoina.  
 
 ### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>XML-rakenteeseen perustuvan tietojen vaihtamismäärityksen luominen  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XML-mallit** ja valitse sitten vastaava linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XML-mallit** ja valitse sitten liittyvä linkki.  
 
-2. Valitse sopiva XML-malli ja valitse sitten **Avaa XML-mallin tarkastelutoiminto** -toiminto.  
+2.  Valitse sopiva XML-malli ja valitse sitten **Avaa XML-mallin tarkastelutoiminto** -toiminto.  
 
-3. Varmista, että tarvittavat solmut ovat valittuina. Lisätietoja on kohdassa Solmujen valitseminen ja tyhjentäminen XML-rakenteessa.  
+3.  Varmista, että tarvittavat solmut ovat valittuina. Lisätietoja on ohjeen kohdassa "Solmujen valitseminen ja tyhjentäminen XML-rakenteessa".  
 
-4. Valitse **XML-mallin tarkastelutoiminto** -sivulla **Luo tiedonsiirtomääritys** -toiminto.  
+4.  Valitse **XML-mallin tarkastelutoiminto** -sivulla **Luo tiedonsiirtomääritys** -toiminto.  
 
- Tiedonsiirtomääritys luodaan **Kirjauksen tiedonsiirtomääritykset** -sivulla, jossa sen voi viimeistellä määrittämällä, mitkä tiedoston elementit ja [!INCLUDE[prod_short](includes/prod_short.md)]in kentät yhdistetään toisiinsa. Lisätietoja on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).  
+ Tiedonsiirtomääritys luodaan **Kirjauksen tiedonsiirtomääritykset** -sivulla, jossa sen voi viimeistellä määrittämällä, mitkä tiedoston elementit ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in kentät yhdistetään toisiinsa. Lisätietoja on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).  
 
 > [!NOTE]  
-> Voit käyttää myös **Kirjauksen tiedonsiirtomääritykset** -sivun **Hae tiedostorakenne** -toimintoa. Tämä sivu täyttää **Sarakkeen määritykset** -pikavälilehden valmiiksi **XML-mallin tarkastelutoiminto** -sivun toiminnoilla.  
+>  Voit käyttää myös **Kirjauksen tiedonsiirtomääritykset** -sivun **Hae tiedostorakenne** -toimintoa. Tämä sivu täyttää **Sarakkeen määritykset** -pikavälilehden valmiiksi **XML-mallin tarkastelutoiminto** -sivun toiminnoilla.  
 
-> [!NOTE]
-> Vuoden 2019 1. julkaisuaallossa ja sitä edeltävissä versioissa voitiin luoda rakenteeseen perustuva XMLport, joka sitten tuotiin ratkaisuun. Tämä ei ole enää mahdollista.
+### <a name="to-generate-an-xmlport-that-is-based-on-an-xml-schema"></a>XML-rakenteeseen perustuvan XMLportin luominen  
 
-## <a name="see-also"></a>Katso myös
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XML-mallit** ja valitse sitten liittyvä linkki.  
 
-[Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md)  
-[Maksujen vienti pankkitiedostoon](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
-[Maksujen kerääminen SEPA-suoraveloitusperintänä.](finance-collect-payments-with-sepa-direct-debit.md)  
-[Tietoja tiedonvaihto-kehyksestä](across-about-the-data-exchange-framework.md)  
+2.  Valitse sopiva XML-malli ja valitse sitten **Avaa XML-mallin tarkastelutoiminto** -toiminto.  
 
+3.  Määritä **Uuden XMLportin numero** -kentässä numero, joka annetaan uudelle XMLport-objektille luonnin yhteydessä.  
 
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+4.  Varmista, että tarvittavat solmut ovat valittuina. Lisätietoja on ohjeen kohdassa "Solmujen valitseminen ja tyhjentäminen XML-rakenteessa".  
+
+5.  Valitse Luo **Luo XMLport** -toiminto ja tallenna objekti sitten .txt-tiedostona oikeaan paikkaan.  
+
+6. Tuo uusi XMLport [!INCLUDE[d365fin](includes/d365fin_md.md)]in kehitysympäristöön ja käännä se.
+
+## <a name="see-also"></a>Katso myös  
+[Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md)   
+[Maksujen vienti pankkitiedostoon](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)   
+[Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)   
+[Tietoja tiedonvaihto-kehyksestä](across-about-the-data-exchange-framework.md)

@@ -2,24 +2,25 @@
 title: Kentän yhdistämismääritykset SEPA CAMT -tiedostoja tuotaessa | Microsoft Docs
 description: Voit tuoda Euroopan markkinoilla tiliotetiedostot alueellisen SEPA (Single Euro Payments Area) -standardin mukaisessa muodossa.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 829ff2a07464d1c456b6776eef542914601c0a18
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5bed47fc3109d622f4078e36e29aa04678bd22f9
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141622"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3918049"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Kenttien vastaavuuksien määrittäminen tuotaessa SEPA-CAMT-tiedostoja
-[!INCLUDE[prod_short](includes/prod_short.md)] tukee SEPA-tiliotteiden (CAMT-muoto) tuontia varten alueellista SEPA (Single Euro Payments Area) -standardia. Lisätietoja on kohdassa [AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md).  
+[!INCLUDE[d365fin](includes/d365fin_md.md)] tukee SEPA-tiliotteiden (CAMT-muoto) tuontia varten alueellista SEPA (Single Euro Payments Area) -standardia. Lisätietoja on kohdassa [AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md).  
 
- SEPA CAMT-standardilla itsellään on paikalliset variaatiot. Yleistä tiedonsiirtomääritystä on ehkä tämän vuoksi muokattava, jotta se voidaan mukauttaa standardin paikalliseen versioon. (Tämä määritys on **Kirjauksen tiedonsiirtomääritykset** -sivulla mainittava **SEPA CAMT** -koodi.) Seuraavissa taulukoissa osoitetaan elementin ja kentän välinen yhdistämismääritys taulukoissa 81, 273 ja 274, kun SEPA CAMT toteutetaan [!INCLUDE[prod_short](includes/prod_short.md)]issa.  
+ SEPA CAMT-standardilla itsellään on paikalliset variaatiot. Yleistä tiedonsiirtomääritystä on ehkä tämän vuoksi muokattava, jotta se voidaan mukauttaa standardin paikalliseen versioon. (Tämä määritys on **Kirjauksen tiedonsiirtomääritykset** -sivulla mainittava **SEPA CAMT** -koodi.) Seuraavissa taulukoissa osoitetaan elementin ja kentän välinen yhdistämismääritys taulukoissa 81, 273 ja 274, kun SEPA CAMT toteutetaan [!INCLUDE[d365fin](includes/d365fin_md.md)]issa.  
 
  Lisätietoja tietojenvaihtomäärityksen luomisesta tai muuttamisesta on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).  
 
@@ -56,10 +57,10 @@ ms.locfileid: "8141622"
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Rakenteeton|Teksti|Rakenteettomassa muodossa olevat tiedot, jotka on toimitettu sen tapahtuman kohdistamiseen/täsmäytykseen nimikkeillä, jotka maksun tulisi selvittää, esimerkiksi myyntireskontrajärjestelmän kaupallisten laskujen.||6|Kuvaus|  
 |Stmt/Ntry/AddtlNtryInf|LisätiedotMerkinnästä|Teksti|Lisätietoja merkinnästä||16|Tapahtuman tiedot|  
 
- Elementit **Ntry**-solmussa, jotka on tuotu [!INCLUDE[prod_short](includes/prod_short.md)] -järjestelmään, mutta joita ei ole kohdistettu mihinkään kenttiin, tallennetaan **Kirj. tiedonsiirron sarakemääritys** -taulukkoon. Käyttäjät voivat tarkastella näitä elementtejä **Maksujen täsmäytyskirjauskansio**-, **Maksun kohdistus**- ja **Pankkitilin täsmäytys** -sivuilla valitsemalla **Pankin tiliotteen rivierittely** -toiminnon. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
+ Elementit **Ntry**-solmussa, jotka on tuotu [!INCLUDE[d365fin](includes/d365fin_md.md)] -järjestelmään, mutta joita ei ole kohdistettu mihinkään kenttiin, tallennetaan **Kirj. tiedonsiirron sarakemääritys** -taulukkoon. Käyttäjät voivat tarkastella näitä elementtejä **Maksujen täsmäytyskirjauskansio**-, **Maksun kohdistus**- ja **Pankkitilin täsmäytys** -sivuilla valitsemalla **Pankin tiliotteen rivierittely** -toiminnon. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]
-> CAMT-tiliotteiden tuonnissa [!INCLUDE[prod_short](includes/prod_short.md)] edllyttää jokaisen tapahtuman olevan yksilöllinen, mikä tarkoittaa sitä, että CAMT-tiedoston *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId*-tunnisteen **Tapahtumatunnus**-kentän tulee olla yksilöivä avoimen tilitäsmäytyksen sisällä. Jos tietoja ei ole olemassa, [!INCLUDE[prod_short](includes/prod_short.md)] jättää maksun huomiotta. Jos samalla pankkitilillä on kirjattu aikaisempi pankin täsmäytys, jolla on sama tapahtumatunnus kuin tämänhetkisessä tuonnissa, nykyistä tapahtumaa ei täsmäytetä automaattisesti, mutta se voidaan silti tuoda.
+> CAMT-tiliotteiden tuonnissa [!INCLUDE[d365fin](includes/d365fin_md.md)] edllyttää jokaisen tapahtuman olevan yksilöllinen, mikä tarkoittaa sitä, että CAMT-tiedoston *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId*-tunnisteen **Tapahtumatunnus**-kentän tulee olla yksilöivä avoimen tilitäsmäytyksen sisällä. Jos tietoja ei ole olemassa, [!INCLUDE[d365fin](includes/d365fin_md.md)] jättää maksun huomiotta. Jos samalla pankkitilillä on kirjattu aikaisempi pankin täsmäytys, jolla on sama tapahtumatunnus kuin tämänhetkisessä tuonnissa, nykyistä tapahtumaa ei täsmäytetä automaattisesti, mutta se voidaan silti tuoda.
 
 ## <a name="see-also"></a>Katso myös  
 [Tiedonsiirron määrittäminen](across-set-up-data-exchange.md)  
@@ -67,6 +68,3 @@ ms.locfileid: "8141622"
 [AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md)   
 [XML-mallien käyttäminen tietojenvaihtomääritysten valmisteluun](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

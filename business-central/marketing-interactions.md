@@ -1,22 +1,23 @@
 ---
-title: Kontaktien kanssa tapahtuvien vuorovaikutusten hallinta
+title: Kontaktien kanssa tapahtuvien vuorovaikutusten hallinta| Microsoft Docs
 description: Voit hallita kaikenlaista viestintää tai vuorovaikutusta yrityksesi ja kontaktiesi välillä, kuten kirjeenvaihtoa, puheluja ja kokouksia.
+services: project-madeira
 documentationcenter: ''
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5082,
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 464940f091356f1a0eaa0b160e2850aded545487
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2f51679cfb1481632ea1f425e4a614764410c679
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131377"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5784465"
 ---
 # <a name="record-interactions-with-contacts"></a>Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen
 Sovelluksen määrittäminen niin, että se tallentaa vuorovaikutukset, sisältää seuraavat tehtävät:
@@ -49,7 +50,7 @@ Tällä sivulla voit
 * tarkastella vuorovaikutusten tilaa
 * merkitä vuorovaikutukset peruutetuiksi.
 
-Voit poistaa vuorovaikutuslokin tapahtumia, jotka on peruutettu. Poistaaksesi vuorovaikutuslokin valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista peruutetut vuorovaikutuslokin merkinnät**, valitse liittyvä linkki ja täytä sitten tiedot.
+Voit poistaa vuorovaikutuslokin tapahtumia, jotka on peruutettu. Voit poistaa vuorovaikutuslokin tapahtumia valitsemalla ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, syöttämällä **Poista peruutetut vuorovaikutuslokin tapahtumat** ja valitsemalla sitten liittyvän linkin. Täytä tämän jälkeen tiedot.
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktien hallinta](marketing-contacts.md)  

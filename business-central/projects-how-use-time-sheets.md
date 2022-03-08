@@ -2,20 +2,21 @@
 title: Käytä tuntiraportteja
 description: Tässä ohjeaiheessa kerrotaan, miten voit luoda tuntiraportteja, määrittää tietotyyppejä, täyttää tuntiraportteja ja lähettää ne hyväksyntää varten.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
-ms.search.form: 950, 951, 973
+ms.search.form: 973
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 6cb8789b75350b3879fb0179759498394b6e22d1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a5fdd86d63fa19a0a7f473d58abf34242e4e5cd5
+ms.sourcegitcommit: 41876b559872fe7adbfa5b59a6e1a71dc907fb15
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134975"
+ms.lasthandoff: 12/14/2021
+ms.locfileid: "7920901"
 ---
 # <a name="use-time-sheets"></a>Käytä tuntiraportteja
 
@@ -35,7 +36,7 @@ Ennen kuin käytät aikaraportteja, sinun on määritettävä aikaraporttien yle
 Käytä **Luo aikaraportit** -eräajoa, kun määrität aikaraportit tietylle määrälle ajanjaksoja tai viikkoja. Tämän jälkeen aikaraportin omistaja voi avata sen ja kirjata ajan, joka tehtävään on kulunut.  
 
 > [!IMPORTANT]
-> Sinulla on oltava oikeudet luoda aikaraportteja. Lisätietoja on kohdassa [Aikaraporttien määrittäminen](projects-how-setup-time-sheets.md).
+> Sinulla on oltava oikeudet luoda aikaraportteja.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuntiraportit** ja valitse sitten vastaava linkki.
 2. Valitse **Tuntiraportit**-sivulla **Luo tuntiraportit** -toiminto.

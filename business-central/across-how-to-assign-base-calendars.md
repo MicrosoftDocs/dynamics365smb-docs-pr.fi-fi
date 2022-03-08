@@ -2,6 +2,7 @@
 title: Peruskalenterien määrittäminen
 description: Voit määrittää yrityksellesi ja sen liikekumppaneille peruskalenterin toimitus- ja vastaanottopäivämäärien laskemista varten määritettyjen työpäivien mukaan.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.form: 7600, 7601, 7602, 5703
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 25d15bfab1dac9cea52d9efdb30e5ed3c7cbb4a2
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 41f81b287ee3966ca01de9c80fdd7a167170c42d
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141591"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011834"
 ---
 # <a name="set-up-base-calendars"></a>Peruskalenterien määrittäminen
 

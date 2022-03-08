@@ -2,22 +2,23 @@
 title: Huoltohallinnon määrittäminen | Microsoft Docs
 description: Yleiskuvaus tehtävistä, joilla huoltohallinta määritetään organisaation huollon hallintatapaan sopivaksi.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 062e74b422f2190feb15d54cea47af90db468d3b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 81e6dc7fbeef043387d2e78ab549def4dc2d5e6b
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140551"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2882276"
 ---
 # <a name="setting-up-service-management"></a>Huoltohallinnon määrittäminen
-Tietyt toiminnot on määritettävä, ennen kuin [!INCLUDE[prod_short](includes/prod_short.md)]in huoltohallinnon toimintoja voi käyttää. Voit määrittää esimerkiksi vakiohuoltojen koodauksen, oire- ja vikakoodit sekä yrityksen asiakaspalvelun tarvitsemat huoltonimikkeet ja huoltonimiketyypit.  
+Tietyt toiminnot on määritettävä, ennen kuin [!INCLUDE[d365fin](includes/d365fin_md.md)]in huoltohallinnon toimintoja voi käyttää. Voit määrittää esimerkiksi vakiohuoltojen koodauksen, oire- ja vikakoodit sekä yrityksen asiakaspalvelun tarvitsemat huoltonimikkeet ja huoltonimiketyypit.  
 
 Huoltohallintoa määritettäessä on päätettävä, mitä huoltoja tarjoat asiakkaille ja mikä kyseisten huoltojen aikataulu on. Palvelu on yhden tai useamman resurssin suorittama työ, joka toimitetaan asiakkaalle. Huolto voi olla esimerkiksi tietokoneen korjaamista. Huoltonimike on laite tai nimike, joka tarvitsee huoltoa, kuten tietokone, joka on asennettu asiakkaalle. Voit määrittää palvelut osaksi ryhmää liittyviä korjaus- ja huolto-osia.  
   
@@ -40,9 +41,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 | Määritä huoltonimikkeet ja huoltonimikkeen komponentit. |[Huoltonimikkeiden määrittäminen](service-how-setup-service-items.md) |
 | Tee pohjatyö huoltosopimusten ja sopimustarjousten luontia varten. |[Huoltosopimusten määrittäminen](service-how-setup-service-contracts.md) |
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös .
 [Huoltohallinto](service-service.md)  
-[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Käytön aloittaminen](product-get-started.md)  

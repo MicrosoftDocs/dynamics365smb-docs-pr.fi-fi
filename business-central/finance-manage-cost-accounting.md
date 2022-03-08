@@ -1,20 +1,23 @@
 ---
 title: Kustannuslaskenta | Microsoft Docs
 description: Kustannuslaskennan avulla voit ymmärtää käynnissä olevan liiketoiminnan kustannuksia. Aloita Kustannuslaskenta katsomalla seuraavat aiheet.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c22248b9f81837cfaf52717314d7981a64ede8c8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 75bd53acf885a79c1d3ea236240e2e7f2ca66829
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148634"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238783"
 ---
 # <a name="accounting-for-costs"></a>Kustannuslaskenta
 Kustannuslaskenta auttaa tiedostamaan liiketoimintaan sisältyviä kustannuksia. Aloita Kustannuslaskenta katsomalla seuraavat aiheet.  
@@ -27,14 +30,10 @@ Kustannuslaskenta auttaa tiedostamaan liiketoimintaan sisältyviä kustannuksia.
 |Siirrä pääkirjanpidon tapahtumat kustannustapahtumiin.|[Kustannustapahtumien siirtäminen ja kirjaaminen](finance-transfer-and-post-cost-entries.md)|  
 |Kohdista kustannukset.|[Kustannusten määrittäminen ja kohdistaminen](finance-define-and-allocate-costs.md)|  
 |Tutustu kustannusbudjetin luonnin prosesseihin.|[Kustannusbudjettien luominen](finance-create-cost-budgets.md)|
-|Peruutat kustannusbudjettitapahtumat kustannusbudjettirekisteristä.|[Kustannusbudjettitapahtumien poistaminen](finance-how-to-delete-cost-budget-entries.md)|
+|Peruutat kustannusbudjettitapahtumat kustannusbudjettirekisteristä.|[Kustannusbudjettitapahtumien poistaminen](finance-how-to-delete-cost-budget-entries.md)| 
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös  
 [Rahoitus](finance.md)  
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

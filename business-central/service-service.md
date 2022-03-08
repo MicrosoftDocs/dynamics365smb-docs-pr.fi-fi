@@ -1,26 +1,27 @@
 ---
-title: Huoltohallinto
-description: Opi käyttämään Business Centralin ominaisuuksia, jotka on suunniteltu hallitsemaan ja seuraamaan palveluita ja siten tukemaan korjaamo- ja kenttäpalvelutoimintoja.
+title: Huoltohallinta | Microsoft Docs
+description: Lisätietoja toiminnoista, jotka on suunniteltu tukemaan korjaamossa ja kentällä tapahtuvia huoltotoimintoja.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/23/2021
-ms.author: edupont
-ms.openlocfilehash: 9b579b2b91d9699800b5fbf550c58c2e7caaa77d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: 6490ad13833c97c79c232b6433b4b2f51e51bc4f
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142904"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3192361"
 ---
 # <a name="service-management"></a>Huoltohallinto
 > [!NOTE]
 > Tässä ohjeaiheessa ja aliohjeaiheissa esitellyt toiminnot näkyvät käyttöliittymässä vain, jos käytössä on **Premium**-käyttökokemus. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
 
-Jatkuvan huollon tarjoaminen asiakkaille on tärkeä osa liiketoimintaa. Toimiva huolto lisää asiakkaiden tyytyväisyyttä ja uskollisuutta sekä kasvattaa tuottoa Huollon hallinta ja seuranta ei kuitenkaan aina ole helppoa. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää työkaluja, jotka helpottavat näitä tehtäviä. Nämä työkalut on suunniteltu tukemaan korjaamojen sekä kentällä tapahtuvan huollon toimintoja, ja niitä voi käyttää myös liiketoimintaskenaarioissa, kuten asiakaspalvelun monitasoisissa jakelujärjestelmissä, tuoterakenteita käyttävissä teollisuushuoltoympäristöissä, usean huoltoteknikon lähettämisessä sekä varaosien hallinnassa.  
+Jatkuvan huollon tarjoaminen asiakkaille on tärkeä osa liiketoimintaa. Toimiva huolto lisää asiakkaiden tyytyväisyyttä ja uskollisuutta sekä kasvattaa tuottoa Huollon hallinta ja seuranta ei kuitenkaan aina ole helppoa. [!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää työkaluja, jotka helpottavat näitä tehtäviä. Nämä työkalut on suunniteltu tukemaan korjaamojen sekä kentällä tapahtuvan huollon toimintoja, ja niitä voi käyttää myös liiketoimintaskenaarioissa, kuten asiakaspalvelun monitasoisissa jakelujärjestelmissä, tuoterakenteita käyttävissä teollisuushuoltoympäristöissä, usean huoltoteknikon lähettämisessä sekä varaosien hallinnassa.  
 
  Näillä työkaluilla voit tehdä seuraavaa:  
 
@@ -45,9 +46,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 ## <a name="see-also"></a>Katso myös  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)   
 [Projektit](projects-how-create-jobs.md)   
-[Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin!](index.md)
+[Tervetuloa [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]iin!](index.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

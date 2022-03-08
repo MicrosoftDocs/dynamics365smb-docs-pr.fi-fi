@@ -2,53 +2,41 @@
 title: Vihjeitä – RapidStart Services | Microsoft Docs
 description: Kun määrität yrityksiä RapidStart Servicesillä, voit sujuvoittaa käyttöönottoa muutamien vihjeiden avulla.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 9b08f4ed71afb580438a5fc8d67cbdfc6c0f5ac6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2020
+ms.author: sgroespe
+ms.openlocfilehash: ef836fce45dc2347f716d298207708caa54689f0
+ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129023"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3186570"
 ---
 # <a name="tips-and-tricks-rapidstart-services"></a>Vihjeitä: RapidStart Services
-
 Kun määrität yrityksiä RapidStart Servicesillä, voit sujuvoittaa käyttöönottoa muutamien vihjeiden avulla.  
 
-## <a name="take-advantage-of-configuration-templates"></a>Hyödyntää kokoonpano-malleja
-
+## <a name="take-advantage-of-configuration-templates"></a>Hyödyntää kokoonpano-malleja  
 Määritysmallien avulla voit tehostaa toteutusprosessiasi. Niiden avulla voit sisällyttää samankaltaisia asiakkaita segmentteihin ja kehittää toteutusprotokollan, joka käsittelee kaikkia segmentin asiakkaita samalla tavalla. Tällä tavoin voit esimäärittää kunkin segmentin ja jatkaa nopeaa täytäntöönpanoa.  
 
-## <a name="configuration-questionnaires"></a>Määrityskyselyt
-
+## <a name="configuration-questionnaires"></a>Määrityskyselyt  
 Tukeaksesi kyselylomakkeen täyttämisprosessia, harkitse oletusarvoisten vastausten määrittämistä parhaiden käytäntöjen osoittamiseksi.  
 
-## <a name="batch-creation-of-journal-lines"></a>Päiväkirjarivien eräluonti
-
+## <a name="batch-creation-of-journal-lines"></a>Päiväkirjarivien eräluonti  
 Suosittelemme, että käytät tietojen siirron työkaluja siirtäessäsi päiväkirjamerkintöjä. Muutoin jos luot päiväkirjarivit eräajossa, sen kattavus on rajoitettu ja se luo päiväkirjaan vain esiasetettujen oletusten mukaiset kentät. Loput kirjauskansiosta täytyy täyttää käsin.  
 
-## <a name="migrating-transactions"></a>Transaktioiden siirtäminen
+## <a name="migrating-transactions"></a>Transaktioiden siirtäminen  
+Suosittelemme, että siirrät avaussaldot seuraavassa järjestyksessä. <!--Be aware that you cannot insert ledger entries directly. Instead you must use journals to post the journal lines--> 
 
-Suosittelemme, että siirrät avaussaldot seuraavassa järjestyksessä. <!--Be aware that you cannot insert ledger entries directly. Instead you must use journals to post the journal lines-->
+1.  Siirrä pääkirjanpidon alkusaldot käyttämättä pääkirjanpidon tilin alareskontria. Käytä tiettyjä alkusaldon vastakirjauksen tilejä, yhtä kutakin alikirjausta varten. Määritä vastakirjauksen tilit sallimaan suorat kirjaukset.  
+2.  Avointen asiakastapahtumoen siirtäminen  <!--work on these-->
+3.  Siirrä avoimet nimiketapahtumat.  
+4.  Siirrä avoimet käyttöomaisuustapahtumat.  
 
-1. Siirrä pääkirjanpidon alkusaldot käyttämättä pääkirjanpidon tilin alareskontria. Käytä tiettyjä alkusaldon vastakirjauksen tilejä, yhtä kutakin alikirjausta varten. Määritä vastakirjauksen tilit sallimaan suorat kirjaukset.  
-2. Avointen asiakastapahtumoen siirtäminen  <!--work on these-->
-3. Siirrä avoimet nimiketapahtumat.  
-4. Siirrä avoimet käyttöomaisuustapahtumat.  
-
-## <a name="make-each-package-manageable"></a>Kunkin paketin tekeminen hallittavaksi
-
-Jos siirrät tietoja määrityspakettien avulla, tietojen erottaminen erillisiksi paketeiksi helpottaa siirtämistä. Jos haluat siirtää esimerkiksi 20 vuoden kirjanpitotapahtumat, tuonti voi kestää useita tunteja tai useita päiviä. Jaa tiedot sen sijaan niin, että kunkin paketin hallittavuus paranee. Tällä hetkellä käytössä ei ole selkeitä paketin suorituskykyä koskevia sääntöjä, mutta paketin tuonnissa tai viennissä esiintyy ongelmia, pienennä paketin kokoa ja kokeile, jos se auttaa.  
-
-## <a name="see-also"></a>Katso myös
-
+## <a name="see-also"></a>Katso myös  
 [Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
-[Hallinta](admin-setup-and-administration.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Hallinta](admin-setup-and-administration.md)

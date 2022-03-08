@@ -2,19 +2,20 @@
 title: Pikanäppäimet
 description: Pikanäppäinyhdistelmien täydellinen luettelo tietojen tehokasta käyttämistä varten.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2021
+ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: 490fbd0abb7bf6769e580c34f0958ec9babbe141
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f3c36a1b5d3477d6564c66ede9c1a6bff51281df
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135261"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746114"
 ---
 # <a name="keyboard-shortcuts"></a>Pikanäppäimet
 
@@ -24,7 +25,7 @@ Yleistietoja suosituimmista pikanäppäimistä on kohdassa [Pikanäppäimet (vai
 
 > [!TIP]
 > Jos haluat graafisen näkymän eniten käytetyistä pikanäppäimistä, valitse seuraava kuva ja lataa PDF-tiedosto.  
-> [ ![PDF-tiedoston kuvake.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "PDF-tiedoston avaava kuvake")
+> [ ![PDF-tiedoston kuvake](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "PDF-tiedoston avaava kuvake")
 
 ## <a name="overview"></a>Yleiskuvaus
 
@@ -36,7 +37,7 @@ Pikanäppäimet ovat helppokäyttötoimintoja. Ne auttavat ja tehostavat sivun e
 Useimmat pikanäppäimet ovat samoja sekä Windows- että macOS-käyttöjärjestelmissä. Jotkin pikanäppäimet ovat kuitenkin erilaisia macOS-järjestelmässä. Seuraavissa osa macOS-käyttöjärjestelmän pikanäppäimet ovat sulkeissa.
 
 > [!NOTE]
-> Tässä artikkelissa käsiteltyjen yleisten pikanäppäimien lisäksi käytössä on useita liiketoimintakohtaisia pikanäppäimiä. Esimerkiksi [!INCLUDE[prod_short](includes/prod_short.md)]in yleisessä versiossa F9 kirjaa asiakirjan ja CTRL+F7 näyttää tietueen kirjanpitotapahtumat, kun avataan tietue kortissa. Tämä artikkeli sisältää joitakin yleisempiä yrityskohtaisia pikanäppäimiä, jotka näkyvät kursivoituna. Huomaa, että todelliset pikakuvakkeet voivat olla erilaisia ratkaisussa. Käyttöliittymässä pikanäppäin näkyy kyseisen toiminnon työkaluvihjeessä.
+> Tässä ohjeaiheessa käsiteltyjen yleisten pikanäppäimien lisäksi käytössä on useita liiketoimintakohtaisia pikanäppäimiä. Esimerkiksi [!INCLUDE[prod_short](includes/prod_short.md)]in yleisessä versiossa F9 kirjaa asiakirjan ja CTRL+F7 näyttää tietueen kirjanpitotapahtumat, kun avataan tietue kortissa. (Käytetyssä ratkaisussa voi olla käytössä jotkin muut pikanäppäimet.) Pikanäppäin näkyy kyseisen toiminnon työkaluvihjeessä.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Yleiset pikanäppäimet
 
@@ -54,7 +55,8 @@ Seuraavassa taulukossa on kuvattu sivun eri elementtien selaamiseen ja käyttäm
 |Alt+N |Luo uusi tietue avaamalla sivu. (Vastaa **Uusi**- ja **+**-toimintojen valitsemista.)|
 |Alt+Vaihto+N |Sulje juuri luotu sivu ja luo uusi tietue avaamalla uusi sivu. Vastaavasti ALT+F9 kirjaa asiakirjan ja luo uuden.|
 |Alt+T|Avaa **Omat asetukset** -sivu.|
-|Alt+Oikea nuoli|Etsi sen kentän lisätietoja tai taustalla olevia arvoja, joka sisältää ![MuokkausApu](media/assist-edit-icon.png "MuokkausApu-painike") -painikkeen. Tätä pikanäppäintä käytetään silloin, kun tavallista avattavan luettelon painiketta (Alt+alanuoli) käytetään samassa kentässä toiseen tarkoitukseen.|
+|Alt+Oikea nuoli|Etsi sen kentän lisätietoja tai taustalla olevia arvoja, joka sisältää ![MuokkausApu](media/assist-edit-icon.png "MuokkausApu-painike")-painikkeen. Tätä pikanäppäintä käytetään silloin, kun tavallista avattavan luettelon painiketta (Alt+alanuoli) käytetään samassa kentässä toiseen tarkoitukseen.|
+|Shift+F12|Avaa roolinhallinta, ominaisuuksien yleiskuvaus. Lisätietoja on kohdassa [Sivujen etsiminen roolinhallinnalla](ui-role-explorer.md).|
 |Ctrl+Alt+Vaihto+C|Näytä yrityksen tunnuksessa olevat tiedot.|
 |Ctrl+Alt+F1|Avaa ja sulje sivun tarkastusruutu Sivun tarkastusruudussa on tietoja sivusta, kuten sen lähdetaulukko, kentät, suodattimet ja laajennukset.<br /><br />Lisätietoja on kohdassa [Tarkastussivut](across-inspect-page.md).|
 |Ctrl+C |Kopioi kentän arvo. Jos kohdistus on kentässä etkä ole valinnut kentässä tekstiä, koko arvo kopioidaan. Jos olet valinnut kentässä tekstiä, vain valittu teksti valitaan.|
@@ -82,36 +84,28 @@ Seuraavassa taulukossa kuvataan luettelosivulla käytettävät pikanäppäimet. 
 |--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |Lajittele valittu sarake nousevaan tai laskevaan järjestykseen.|Ei sovellu.|
 |Alt+N|Lisää uusi rivi muokattavaan luetteloon, kuten **KP-budjetit**-sivulle.|Sama.|
-|Shift+F9|Kirjaa ja tulosta asiakirja.|Sama.|
 |Shift+F10 |Avaa valitulla rivillä käytettävissä olevien asetusten valikko.|Sama.|
-|Alt + D|Avaa dimensioyhdistelmän tapahtumat.|Sama.|
-|Ctrl+F7|Avoimet tapahtumat, lokitapahtumat, kustannustapahtumat ja niin edelleen.|
-|Ctrl+F9|Vapauta asiakirja.|Sama.|
-|*F7*|Avaa tilastot.|Sama.|
-|*F9*|Kirjaa, myönnä, rekisteröi tai peruuta asiakirja.|Sama.|
-|*Shift + Ctrl + F*|Lähetä ehdotetut rivit kassavirtalaskentataulukkosivulla.|Ei sovellu.|
-|*Shift + Ctrl + I*|Tarkastele sarja- ja eränumeroita, jotka on nimitetty asiakirjan tai päiväkirjan nimikkeelle.|Ei sovellu.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Rivien ja sarakkeiden välillä siirtyminen
 
 Rivejä ja sarakkeita sisältäviä ruudukoita on useilla sivutyypeillä sovelluksessa [!INCLUDE[prod_short](includes/prod_short.md)]. Sivuja ovat esimerkiksi luettelosivut ja asiakirjojen **Rivit**-osat. Siirtyminen yhdestä solusta toiseen ruudukossa voidaan tehdä täysin näppäimistön avulla.
 
-| Paina näitä näppäimiä<br />(macOS) | Luettelonäkymän toiminnot | Ruutunäkymän toiminnot |
-|--|--|--|
-| Ctrl+Home<br />(Fn+vasen nuoli) | Valitse luettelon ensimmäinen rivi; kohdistuu pysyy samassa sarakkeessa. | Siirry ensimmäisen rivin ensimmäiseen ruutuun. |
-| Ctrl+End<br />(Fn+Ctrl+oikea nuoli) | Valitse luettelon viimeinen rivi; kohdistuu pysyy samassa sarakkeessa. | Siirry viimeisen rivin viimeiseen ruutuun. |
-| Kotitalous<br />(Fn+vasen nuoli) | Siirry rivin ensimmäiseen kenttään. | Siirry rivin ensimmäiseen ruutuun. |
-| End<br />(Fn+oikea nuoli) | Siirry rivin viimeiseen kenttään. | Siirry rivin viimeiseen ruutuun. |
-| Syötä | Avaa tähän kenttään liittyvä tietue.<br /><br />Käytetään vain, jos korttisivu on liitetty tietueeseen. | Avaa tietueen.<br /><br />Käytetään vain, jos korttisivu on liitetty tietueeseen. |
-| Ctrl+Enter | Siirrä kohdistus seuraavaan luettelon ulkopuolella olevaan elementtiin. | Siirrä kohdistus seuraavaan luettelon ulkopuolella olevaan elementtiin. |
-| Sivu ylös<br />(Fn+ylänuoli) | Vieritä näkymän nykyisten rivien yläpuolella olevat rivit näkyviin. | Vierittää näkymän nykyisten ruutujen yläpuolella olevat ruutujoukot näkyviin. |
-| Sivu alas<br />(Fn+alanuoli) | Vieritä näkymän nykyisten rivien alapuolella olevat rivit näkyviin. | Vieritä näkymän nykyisten ruutujen alapuolella olevat ruutujoukot näkyviin. |
-| Nuoli alas | Siirry saman sarakkeen alemman rivin kenttään. | Siirry saman sarakkeen alemman rivin ruutuun. |
-| Ylänuoli | Siirry saman sarakkeen ylemmän rivin kenttään. | Siirry saman sarakkeen ylemmän rivin ruutuun. |
-| Oikea nuoli | Siirry vain luku -luettelossa saman rivin seuraavaan oikealla olevaan kenttään.<br /><br />Siirry muokattavassa luettelossa oikealle nykyisestä kentästä. | Siirry saman rivin seuraavaan oikealla olevaan ruutuun. |
-| Vasen nuoli | Siirry vain luku -luettelossa saman rivin edelliseen vasemmalla olevaan kenttään. <br /><br />Siirry muokattavassa luettelossa vasemmalle nykyisestä kentästä. | Siirry saman rivin edelliseen vasemmalla olevaan ruutuun. |
-| Sarkain | Siirry muokattavassa luettelossa saman rivin seuraavaan oikealla olevaan kenttään. | Ei sovellu. | 
-| Vaihto+Sarkain | Siirry muokattavassa luettelossa saman rivin edelliseen vasemmalla olevaan kenttään. | Ei sovellu. |
+|Paina näitä näppäimiä<br />(macOS)|Luettelonäkymän toiminnot |Ruutunäkymän toiminnot |
+|--------------------------------|--------------------------|--------------------------|
+|Ctrl+Home<br />(Fn+vasen nuoli)|Valitse luettelon ensimmäinen rivi; kohdistuu pysyy samassa sarakkeessa.|Siirry ensimmäisen rivin ensimmäiseen ruutuun. |
+|Ctrl+End<br />(Fn+Ctrl+oikea nuoli)|Valitse luettelon viimeinen rivi; kohdistuu pysyy samassa sarakkeessa.|Siirry viimeisen rivin viimeiseen ruutuun.|
+|Kotitalous<br />(Fn+vasen nuoli)|Siirry rivin ensimmäiseen kenttään.|Siirry rivin ensimmäiseen ruutuun.|
+|End<br />(Fn+oikea nuoli)|Siirry rivin viimeiseen kenttään.|Siirry rivin viimeiseen ruutuun.|
+|Syötä|Avaa tähän kenttään liittyvä tietue.<br /><br />Käytetään vain, jos korttisivu on liitetty tietueeseen.|Avaa tietueen.<br /><br />Käytetään vain, jos korttisivu on liitetty tietueeseen.|
+|Ctrl+Enter|Siirrä kohdistus seuraavaan luettelon ulkopuolella olevaan elementtiin.|Siirrä kohdistus seuraavaan luettelon ulkopuolella olevaan elementtiin.|
+|Sivu ylös<br />(Fn+ylänuoli)|Vieritä näkymän nykyisten rivien yläpuolella olevat rivit näkyviin. |Vierittää näkymän nykyisten ruutujen yläpuolella olevat ruutujoukot näkyviin. |
+|Sivu alas<br />(Fn+alanuoli)|Vieritä näkymän nykyisten rivien alapuolella olevat rivit näkyviin.|Vieritä näkymän nykyisten ruutujen alapuolella olevat ruutujoukot näkyviin.|
+|Nuoli alas|Siirry saman sarakkeen alemman rivin kenttään. |Siirry saman sarakkeen alemman rivin ruutuun. |
+|Ylänuoli|Siirry saman sarakkeen ylemmän rivin kenttään.| Siirry saman sarakkeen ylemmän rivin ruutuun.  |
+|Oikea nuoli|Siirry vain luku -luettelossa saman rivin seuraavaan oikealla olevaan kenttään.<br /><br />Siirry muokattavassa luettelossa oikealle nykyisestä kentästä.| Siirry saman rivin seuraavaan oikealla olevaan ruutuun. |
+|Vasen nuoli|Siirry vain luku -luettelossa saman rivin edelliseen vasemmalla olevaan kenttään. <br /><br />Siirry muokattavassa luettelossa vasemmalle nykyisestä kentästä.| Siirry saman rivin edelliseen vasemmalla olevaan ruutuun. |
+|Sarkain|Siirry muokattavassa luettelossa saman rivin seuraavaan oikealla olevaan kenttään.|Ei sovellu.||
+|Vaihto+Sarkain|Siirry muokattavassa luettelossa saman rivin edelliseen vasemmalla olevaan kenttään. | Ei sovellu. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Valitseminen, kopioiminen ja liittäminen
 
@@ -149,9 +143,7 @@ Seuraavilla pikanäppäimillä voi näyttää ja muokata tietueita korttisivuill
 
 |Paina näitä näppäimiä<br />(macOS)|Tehtävä|
 |--------------------------------|----------|
-|Alt + D|Avaa dimensioyhdistelmän tapahtumat.|
 |Alt+F6|Vaihtele nykyisen pikavälilehden tai osan (alasivu) tiivistystä ja laajennusta.|
-|Alt+F9|Luo uusi asiakirja ja kirjaa se.|
 |Alt+G|Avaa kirjattuun asiakirjaan liittyvien tapahtumien haku **Etsi tapahtumat** -sivulta. Toimii myös luetteloissa.|
 |Alt+N |Lue uusi tietue avaamalla sivu; vastaa **Uusi**-toiminnon valitsemista. |
 |Alt+Vaihto+N |Sulje sivu ja luo uusi tietue avaamalla uusi sivu; vastaa **OK ja uusi**-toiminnon valitsemista. |
@@ -161,15 +153,9 @@ Seuraavilla pikanäppäimillä voi näyttää ja muokata tietueita korttisivuill
 |Ctrl + Ylänuoli |Avaa objektin edellinen tietue.|
 |Ctrl+Insert |Lisää uusi rivi asiakirjoihin.|
 |Ctrl+Delete |Poista asiakirjojen, päiväkirjojen ja työkirjojen rivi.|
-|Ctrl+F7|Avoimet tapahtumat, lokitapahtumat, kustannustapahtumat ja niin edelleen.|
-|Ctrl+F9|Vapauta asiakirja.|
 |Ctrl+Shift+F12 |Suurenna asiakirjasivun rivinimikeosa. Palaa normaalinäyttöön painamalla näppäimiä uudelleen. Lisätietoja on kohdassa [Kohdistaminen rivinimikkeisiin](ui-enter-data.md#Focus).|
 |F6|Siirry seuraavaan pikavälilehteen tai osaan (tai alisivulle).|
-|*F7*|Avaa tilastot.|
-|*F9*|Kirjaa, myönnä, rekisteröi tai peruuta asiakirja.|
-|*Shift + Ctrl + F9*|Kirjaa, tulosta ja hyllytä fyysisen varastoinnin vastaanotto.|
 |Shift+F6|Siirry edelliseen pikavälilehteen tai osaan (tai alisivulle).|
-|*Shift + F9*|Kirjaa ja tulosta asiakirja.|
 
 ## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Kenttien pikatapahtuman pikanäppäimet
 
@@ -228,26 +214,11 @@ Päivämääräkenttää määrittäessäsi voit syöttää päivämäärän man
 |Ctrl+-|Loitonna nykyistä sivua.|  
 |Ctrl+0|Lähennä tai loitonna nykyistä sivua 100 prosentin kokoon.|  
 
-## <a name="keyboard-shortcuts-for-role-explorer"></a><a name="roleexplorer"></a>Roolien hallinnan pikanäppäimet
-
-Roolien hallinta tarjoaa yleiskatsauksen ja nopean pääsyn kaikkiin roolisi käytettävissä oleviin liiketoimintaominaisuuksiin. Lisätietoja on kohdassa [Sivujen etsiminen roolinhallinnalla](ui-role-explorer.md).
-
-|Paina näitä näppäimiä<br />(macOS)|Tehtävä|
-|--------------------------------|----------|
-|Shift+F12|Avaa roolien hallinta.|
-|F3|Avaa **Etsi**-ruutu roolien hallinnassa löytääksesi ominaisuuksia tietyllä hakusanalla tai termillä.|
-|F3 tai Ctrl+ alanuoli|Siirtää kohdistuksen roolien hallinnan seuraavaan löytyneeseen toimintoon. F3 siirtää kohdistuksen **Etsi**-ruutuun viimeisen löydetyn ominaisuuden jälkeen.|
-|VAIHTO + F3 tai CTRL + YLÄNUOLI|Siirrä kohdistus roolien hallinnan edelliseen löytyneeseen toimintoon.|
-|Ctrl+Shift|Laajenna tai tiivistä kaikki alisolmut ylimmän tason solmujen lisäksi, kun valitset **Laajenna**- tai **Tiivistä**-toiminnon.|
-
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös .
 
 [Näppäimistön Pikaohje - Vain PC](keyboard-shortcuts-cheatsheet.md)  
 [Aputoiminnot](ui-accessibility.md)  
-[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
+[Käytön aloittaminen](product-get-started.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
-[Usein kysytyt kysymykset](across-faq.yml)  
+[Usein kysytyt kysymykset](across-faq.md)  
 [Etsi tapahtumat](ui-find-entries.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,23 @@
 ---
-title: Tuotantotilausten suora uudelleensuunnittelu tai päivittäminen
-description: Tässä ohjeaiheessa kuvataan tuotantotilausten uudelleensuunnittelu ja tuotantotilausten päivittäminen suoraan.
+title: 'Toimintaohje: Tuotantotilausten suora uudelleensuunnittelu tai päivittäminen| Microsoft Docs'
+description: Tuotantotilauksen rivit sisältävät nimikkeet, jotka tuotetaan tuotantotilauksessa.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000842, 99000843, 99000861, 99000862, 99000863
-ms.date: 06/25/2021
+ms.search.keywords: ''
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 4fca74c179e6da283a2486efd2dad1c22019d013
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c6fbf41975464256c95d13ae9e485f27b5a1eb5f
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132860"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5392772"
 ---
 # <a name="replan-or-refresh-production-orders-directly"></a>Tuotantotilausten suora uudelleensuunnittelu tai päivittäminen
-
 Tuotantotilausten **Uudelleensuunnittelu**-toimintoa käytetään yleensä sen jälkeen, kun alemman tason tuotantotilauksiin vaikuttavia komponentteja on lisätty tai muutettu. Toiminto laskee komponentti- ja reititysriveille tehdyt muutokset. Toiminto vaikuttaa myös tuotannon tuoterakenteen alitasoihin, joille saatetaan luoda uusia tuotantotilauksia.  
 
 Uudelleensuunnittelutoiminto laskee ja suunnittelee tuotantotilauksen uuden kysynnän komponentti- ja reititysriveille tehtyjen muutosten perusteella.  
@@ -34,23 +34,22 @@ Tuotantotilausrivit voidaan syöttää joko manuaalisesti tai voidaan käyttää
 > [!NOTE]
 > Jos päivitystoimintoa käytetään laskemaan tuotantotilausrivit uudelleen, ohjelma poistaa vanhat tuotantotilausrivit ja laskee uudet rivit.  
 
-## <a name="to-replan-a-production-order"></a>Tuotantotilauksen uudelleensuunnittelu
-
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sitovasti suunn. tuotantotil.** ja valitse sitten vastaava linkki.  
-2. Avaa uudelleensuunniteltava tuotantotilausrivi.  
-3. Valitse **Rivit**-pikavälilehdessä ensin **Rivit**-toiminto ja sitten **Komponentit**-toiminto.  
-4. Lisää komponentti, joka on tuotantonimeke (osakokoonpano).  
-5. Valitse tuotantotilauksessa **Uudelleensuunnittele**-toiminto.  
+## <a name="to-replan-a-production-order"></a>Tuotantotilauksen uudelleensuunnittelu  
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sitovasti suunn. tuotantotil.** ja valitse sitten liittyvä linkki.  
+2.  Avaa uudelleensuunniteltava tuotantotilausrivi.  
+3.  Valitse **Rivit**-pikavälilehdessä ensin **Rivit**-toiminto ja sitten **Komponentit**-toiminto.  
+4.  Lisää komponentti, joka on tuotantonimeke (osakokoonpano).  
+5.  Valitse tuotantotilauksessa **Uudelleensuunnittele**-toiminto.  
 
     Siirry **Uudelleensuunnittele tuot.til.** -sivulle määrittämään, mitä uudelleensuunnitellaan ja miten se tehdään.  
-6. Valitse **Aikataulutuksen suunta** -kentässä jokin seuraavista vaihtoehdoista:  
+6.  Valitse **Aikataulutuksen suunta** -kentässä jokin seuraavista vaihtoehdoista:  
 
-    | Asetus | Description |
-    |--|--|
-    | **Takaisin** | Taaksepäin – operaatiot lasketaan järjestyksessä taaksepäin aikaisimmasta mahdollisesta lopetuspäivämäärästä (määräytyy eräpäivän ja/tai muiden aikataulutettujen tilausten mukaan) myöhäisimpään mahdolliseen aloituspäivämäärään. **Huomautus:**  Tämä oletusvaihtoehto soveltuu useimpiin tilanteisiin. |
-    | **Eteenpäin** | Operaatiot lasketaan järjestyksessä eteenpäin myöhäisimmästä mahdollisesta aloituspäivämäärästä (määräytyy eräpäivän ja/tai muiden aikataulutettujen tilausten mukaan) aikaisimpaan mahdolliseen lopetuspäivämäärään. **Huomautus:**  Tämä vaihtoehto soveltuu vain tilauksiin, jotka halutaan tehdä niin pian kuin mahdollista. |
+    |Asetus|Description|  
+    |----------------------------------|---------------------------------------|  
+    |**Takaisin**|Taaksepäin – operaatiot lasketaan järjestyksessä taaksepäin aikaisimmasta mahdollisesta lopetuspäivämäärästä (määräytyy eräpäivän ja/tai muiden aikataulutettujen tilausten mukaan) myöhäisimpään mahdolliseen aloituspäivämäärään. **Huomautus:**  Tämä oletusvaihtoehto soveltuu useimpiin tilanteisiin.|  
+    |**Eteenpäin**|Operaatiot lasketaan järjestyksessä eteenpäin myöhäisimmästä mahdollisesta aloituspäivämäärästä (määräytyy eräpäivän ja/tai muiden aikataulutettujen tilausten mukaan) aikaisimpaan mahdolliseen lopetuspäivämäärään. **Huomautus:**  Tämä vaihtoehto soveltuu vain tilauksiin, jotka halutaan tehdä niin pian kuin mahdollista.|  
 
-7. Valitse **Suunnittele**-kentästä, lasketaanko tuotantotarpeet tuotannon tuoterakenteen tuotantonimikkeille seuraavasti:  
+7.  Valitse **Suunnittele**-kentästä, lasketaanko tuotantotarpeet tuotannon tuoterakenteen tuotantonimikkeille seuraavasti:  
 
     |Asetus|Description|  
     |----------------------------------|---------------------------------------|  
@@ -58,21 +57,20 @@ Tuotantotilausrivit voidaan syöttää joko manuaalisesti tai voidaan käyttää
     |**Yksi taso**|Suunnittele ensimmäisen tason tuotantokysyntä. Ensimmäisen tason tuotantotilauksia voidaan luoda kaikille tasoille.|  
     |**Kaikki tasot.**|Suunnittele kaikkien tasojen tuotantokysyntä. Tuotantotilauksia voidaan luoda kaikille tasoille.|  
 
-8. Valitse **Yksi taso** ja valitse **OK**, niin tuotantotilaus suunnitellaan uudelleen ja ohjelma laskee ja luo uuden alemman tason tuotantotilauksen uudelle osakokoonpanolle, jos osakokoonpano ei ole kokonaisuudessaan saatavilla  
+8.  Valitse **Yksi taso** ja valitse **OK**, niin tuotantotilaus suunnitellaan uudelleen ja ohjelma laskee ja luo uuden alemman tason tuotantotilauksen uudelle osakokoonpanolle, jos osakokoonpano ei ole kokonaisuudessaan saatavilla  
 
 > [!NOTE]  
-> **Uudelleensuunnittelutoiminnolla** tehdyt muutokset muuttavat hyvin todennäköisesti myös tuotantotilauksen kapasiteettitarvetta, joten operaatioiden aikatauluja saatetaan joutua muuttamaan päivityksen jälkeen  
+>  **Uudelleensuunnittelutoiminnolla** tehdyt muutokset muuttavat hyvin todennäköisesti myös tuotantotilauksen kapasiteettitarvetta, joten operaatioiden aikatauluja saatetaan joutua muuttamaan päivityksen jälkeen  
 
-## <a name="to-refresh-a-production-order"></a>Tuotantotilauksen päivittäminen
-
+## <a name="to-refresh-a-production-order"></a>Tuotantotilauksen päivittäminen  
 Jos olet muuttanut tuotantotilausrivejä, komponentteja tai reititysrivejä, myös tuotantotilauksen tiedot on päivitettävä. Seuraavassa toimenpiteessä komponentit lasketaan sitovasti suunnitellulle tuotantotilaukselle. Reititysrivejä koskevat vaiheet ovat samanlaisia.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 2.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sitovasti suun. tuotantotil.** ja valitse sitten vastaava linkki.  
-2. Valitse **Uusi**-toiminto. Lisätietoja on kohdassa [Tuotantotilausten luominen](production-how-to-create-production-orders.md).  
-3. Valitse **Päivitä**-toiminto.
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sitovasti suunn. tuotantotil.** ja valitse sitten liittyvä linkki.  
+2.  Valitse **Uusi**-toiminto. Lisätietoja on kohdassa [Tuotantotilausten luominen](production-how-to-create-production-orders.md).  
+3.  Valitse **Päivitä**-toiminto.
 4. Valitse **Päivitä tuotantotilaus** -sivulla jokin seuraavista vaihtoehdoista:
 
-    |Kenttä|Asetus|Kuvaus|  
+    |Asetus|Description|  
     |----------------------------------|---------------|---------------------------------------|  
     |**Aikataulutuksen suunta**|**Eteenpäin**|Aikataulutus alkaa aloituspäivämäärästä ja jatkuu eteenpäin (lopetuspäivämäärään saakka). Tämän valinnan käyttäminen edellyttää, että määrität aloituspäivämäärän.|  
     ||**Taaksepäin**|Aikataulutus alkaa lopetuspäivämäärästä ja jatkuu taaksepäin (aloituspäivämäärään asti).|  
@@ -84,10 +82,9 @@ Jos olet muuttanut tuotantotilausrivejä, komponentteja tai reititysrivejä, my�
 5. Valitse **OK**-painike vahvistaaksesi valintasi. Tuotantotilausrivit on nyt laskettu.
 
 > [!NOTE]  
-> Tuotantotilauksen komponenttien laskeminen poistaa aiemmat komponenttien muutokset.
+>  Tuotantotilauksen komponenttien laskeminen poistaa aiemmat komponenttien muutokset.
 
-## <a name="see-also"></a>Katso myös
-
+## <a name="see-also"></a>Katso myös  
 [Suunnittelu](production-planning.md)  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
 [Tuotanto](production-manage-manufacturing.md)    

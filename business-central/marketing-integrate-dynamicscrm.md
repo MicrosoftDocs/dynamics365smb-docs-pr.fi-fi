@@ -1,22 +1,22 @@
 ---
-title: Asiakkaiden hallinta Dynamics 365 Salesin avulla (sisältää videon) | Microsoft Docs
-description: Voit käyttää Dynamics 365 Salesia Business Centralissa, jolloin saavutetaan liidistä tuottoon -prosessin saumaton integrointi ja synkronointi.
+title: Asiakkaiden hallinta Dynamics 365 Salesin avulla| Microsoft Docs
+description: Voit tehdä Business Centralissa tietojen yhdistämismäärityksen Dynamics 365 Salesilla, jolloin saavutetaan liidistä tuottoon -prosessin saumaton integrointi ja synkronointi.
 documentationcenter: ''
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
-ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7a77ae97b8198e2a50c911e1be27ea76c20b9570
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9bbc7b27426befcea6d5e9c0f8b797c4652e03f6
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140840"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780655"
 ---
 # <a name="using-dynamics-365-sales-from-business-central"></a>Dynamics 365 Salesin käyttäminen Business Centralissa
 Jos käytät Dynamics 365 Salesia asiakassuhteissa, saat käyttöösi saumattoman integroinnin liidistä tuottoon käyttämällä [!INCLUDE[prod_short](includes/prod_short.md)]ia taustatehtäviin, kuten tilausten käsittelyyn, varastonhallintaan ja talousasioihin.
@@ -95,46 +95,7 @@ Kun valitset **Käsittely** [!INCLUDE[prod_short](includes/prod_short.md)]ssa ta
 ## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Kirjattujen myyntilaskujen, asiakkaiden maksujen ja tilastojen käsitteleminen
 Kun myyntitilaus on täytetty, siitä luodaan lasku. Kun myyntitilaus luodaan, kirjattu myyntilasku voidaan siirtää [!INCLUDE[crm_md](includes/crm_md.md)]:ään, jos **Kirjattu myyntilasku** -sivun **Luo lasku [!INCLUDE[crm_md](includes/crm_md.md)]:ssä** -valintaruutu on valittu. Kirjatut laskut siirretään [!INCLUDE[crm_md](includes/crm_md.md)]:ään **Laskutettu**-tilassa.
 
-Kun asiakasmaksu vastaanotetaan myyntilaskulle sovelluksessa [!INCLUDE[prod_short](includes/prod_short.md)], myyntilaskun tilaksi muutetaan **Maksettu** ja **Tilan syy** -kentän arvoksi määritetään **Osittainen**, jos lasku on maksettu osittain, tai **Kokonaan**, jos lasku on maksettu kokonaan, kun valitset **Päivitä tilin tiedot** -toiminnon [!INCLUDE[prod_short](includes/prod_short.md)] -asiakkaan sivulla. **Päivitä tilin tiedot** -toiminto päivittää myös arvot, kuten **Saldo**- ja **Kokonaismyynti**-kenttien arvot **[!INCLUDE[prod_short](includes/prod_short.md)] -tilin tiedot** -tietoruudussa [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksessa. Vaihtoehtoisesti voit käyttää ajastettuja töitä, asiakastilastoja ja POSTEDSALESINV-INV-kohdetta, jos nämä prosessit suoritetaan automaattisesti taustalla. 
-
-## <a name="handling-sales-prices"></a>Myyntihintojen käsitteleminen
-> [!NOTE]
-> Vuoden 2020 julkaisuaallossa 2 julkaisimme virtaviivaiset prosessit hintojen ja alennusten määritykseen ja hallintaan. Jos olet uusi asiakas, joka käyttää kyseistä versiota, käytät uutta käyttökokemusta. Jos olet jo asiakas, uuden käyttöokemuksen käyttö riippuu siitä, onko järjestelmänvalvoja ottanut käyttöön **Uusi myyntihinnoittelukokemus** -ominaisuuden päivityksen **ominaisuuksien hallinnassa**. Lisätietoja on kohdassa [Tulevien ominaisuuksien ottaminen käyttöön etuajassa](/dynamics365/business-central/dev-itpro/administration/feature-management).
-
-Prosessin viimeistelyvaiheet ovat erilaiset sen mukaan, onko järjestelmänvalvoja ottanut käyttöön uuden myyntihinnoittelukokemuksen vai ei. 
-
-> [!NOTE]
-> Jos vakiohinnan synkronointi ei toimi, suosittelemme integroinnin mukautusominaisuuksien käyttämistä. Lisätietoja on kohdassa [Microsoft Dataverse -palvelun avulla integroimisen mukauttaminen](/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration).
-
-#### <a name="current-experience"></a>[Nykyinen kokemus](#tab/current-experience/)
-Nykyisessä hinnoittelukokemuksessa [!INCLUDE[prod_short](includes/prod_short.md)] synkronoi myyntihinnan, joka: 
-
-* Kohdistetaan kaikkiin asiakkaisiin. Oletusmyyntihinnastot luodaan nimikkeiden **Nimikekortti**-sivun **Yksikköhinta**-kentän hinnan mukaan.
-* Kohdista tiettyyn asiakkaan hintaryhmään. Esimerkiksi vähittäismyynti-tai tukkuasiakkaiden myyntihinnat. Voit synkronoida hinnat asiakkaan hintaryhmän perusteella seuraavasti:
-
-    1. Yhdistä nimikkeet, joiden hinnat asiakkaan hintaryhmä määrittää.
-    2. Yhdistä asiakkaan hintaryhmä **Asiakkaan hintaryhmät**-sivulla valitsemalla **Liittyvät**, sitten **Dynamics 365 Sales**, **Yhdistäminen** ja lopuksi **Määritä yhdistäminen**. Yhdistäminen luo aktiivisen hinnaston tuotteelle [!INCLUDE[prod_short](includes/prod_short.md)] samalla nimellä kuin asiakkaan hintaryhmä tuotteella [!INCLUDE[crm_md](includes/crm_md.md)]. Kaikki ne nimikkeet synkronoidaan automaattisesti, joiden asiakkaan hintaryhmä määrittää hinnan.
-
-:::image type="content" source="media/customer-price-group.png" alt-text="Asiakkaan hintaryhmä -sivu.":::
-
-#### <a name="new-experience"></a>[Uusi kokemus](#tab/new-experience/)  
-
-Uusi hinnoittelukokemus synkronoi hinnastot, jotka täyttävät seuraavat ehdot:
-
-* **Salli oletusarvojen päivittäminen** on poistettu käytöstä.
-* HIntatyyppi on Myynti.
-* Summatyyppi on Hinta.
-* Rivin tuotetyypin on oltava Nimike tai Resurssi. 
-* Vähimmäismäärää ei ole määritetty.
-
-[!INCLUDE[prod_short](includes/prod_short.md)] synkronoi myyntihinnat, jotka koskevat kaikkia asiakkaita.. Oletusmyyntihinnastot luodaan nimikkeiden **Nimikekortti**-sivun **Yksikköhinta**-kentän hinnan mukaan.
-
-Voit synkronoida hinnastot valitsemalla **Myyntihinnasto**-sivulla **Liittyvät**, **Dynamics 365 Sales**, **Yhdistäminen** ja lopuksi **Määritä yhdistäminen**. 
-
-:::image type="content" source="media/sales-price-list.png" alt-text="Myyntihinnasto-sivu.":::
-
----
-
+Kun asiakasmaksu vastaanotetaan myyntilaskulle sovelluksessa [!INCLUDE[prod_short](includes/prod_short.md)], myyntilaskun tilaksi muutetaan **Maksettu** ja **Tilan syy** -kentän arvoksi määritetään **Osittainen**, jos lasku on maksettu osittain, tai **Kokonaan**, jos lasku on maksettu kokonaan, kun valitset **Päivitä tilin tiedot** -toiminnon [!INCLUDE[prod_short](includes/prod_short.md)] -asiakkaan sivulla. **Päivitä tilin tiedot** -toiminto päivittää myös arvot, kuten **Saldo**- ja **Kokonaismyynti**-kenttien arvot **[!INCLUDE[prod_short](includes/prod_short.md)] -tilin tiedot** -tietoruudussa [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksessa. Vaihtoehtoisesti voit käyttää ajastettuja töitä, asiakastilastoja ja POSTEDSALESINV-INV-kohdetta, jos nämä prosessit suoritetaan automaattisesti taustalla.
 
 ## <a name="see-also"></a>Katso myös
 [Dynamics 365 Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md)  

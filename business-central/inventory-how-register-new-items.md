@@ -1,21 +1,21 @@
 ---
-title: Tavaroiden tai palvelujen nimikekorttien luominen (sisältää videon)
-description: Nimikekortit luodaan tunteina myytäville palveluille ja fyysisille tuotteille, kuten kokoonpanon nimikkeille ja valmiille tavaroille, joita myyt varastosta.
+title: Tavaroiden tai palvelujen nimikekorttien luominen| Microsoft Docs
+description: Nimikekortit luodaan tunteina myytäville palveluille ja varastosta myytäville fyysisille tuotteille, kuten kokoonpanonimikkeille, valmiille tavaroille, komponenteille tai raaka-aineille.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
-ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
-ms.date: 09/24/2021
-ms.author: edupont
-ms.openlocfilehash: a2d64fe3a04109246540a463597dbf49684b8913
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.search.keywords: item, finished good, component, raw material, assembly item
+ms.date: 07/06/2020
+ms.author: sgroespe
+ms.openlocfilehash: 84880df39dd573e24c11e81321f023e24cd1094a
+ms.sourcegitcommit: ca5bf1d934997ef8c0bc9f8ab0e5568f0ed42fa4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148588"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "3535338"
 ---
 # <a name="register-new-items"></a>Uusien nimikkeiden rekisteröiminen
 
@@ -25,7 +25,7 @@ Nimikekortti sisältää tiedot, jotka tarvitaan nimikkeiden ostamista, tallenta
 
 Nimikkeen kortin tyyppi voi olla **Varasto**, **Huolto** tai **Muu kuin huolto**. Se määrittää, onko nimike fyysisen varasto yksikkö, työn aikayksikkö vai fyysinen yksikkö, jota ei seurata varastossa. Lisätietoja on kohdassa [Tietoja nimiketyypeistä](inventory-about-item-types.md).
 
-Nimike voi olla tuoterakenteessa päänimike, jonka alla on alinimikkeitä. [!INCLUDE[prod_short](includes/prod_short.md)]in tuoterakenne voi olla joko kokoonpanon tuoterakenne tai tuotannon tuoterakenne sen mukaan, miten sitä käytetään. Lisätietoja on kohdassa [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md).
+Nimike voi olla tuoterakenteessa päänimike, jonka alla on alinimikkeitä. [!INCLUDE[d365fin](includes/d365fin_md.md)]in tuoterakenne voi olla joko kokoonpanon tuoterakenne tai tuotannon tuoterakenne sen mukaan, miten sitä käytetään. Lisätietoja on kohdassa [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md).
 
 Jos ostat saman nimikkeen useammalta kuin yhdeltä toimittajalta, voit yhdistää kyseiset toimittajat nimikkeen korttiin. Toimittajat näkyvät sitten **Nimikkeen toimittajaluettelo** -sivulla, jossa voit valita kätevästi vaihtoehtoisen toimittajan.
 
@@ -40,7 +40,13 @@ Seuraavaksi selitetään, miten nimikekortti luodaan alusta lähtien. Voit luoda
 
 ## <a name="to-create-a-new-item-card"></a>Uuden nimikekortin luominen
 
-[!INCLUDE[create_new_item](includes/create_new_item.md)]
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
+2. Valitse **Nimikkeet** -sivulla **Uusi**-toiminto.
+
+    Jos vain yksi nimikemalli on olemassa, uusi nimikekortti avautuu. Kortissa on kenttiä, jotka on täytetty mallin tiedoilla.
+3. Valitse **Valitse malli uudelle nimikkeelle** -sivulla malli, jota haluat käyttää uudessa nimikekortissa.
+4. Valitse **OK**-painike. Uuden nimikekortti avautuu. Osa kortin kentistä on täytetty mallin tiedoilla.
+5. Voit täyttää nimikekortin kenttiä tai muuttaa niitä tarvittaessa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > Määritä **Arvostusmenetelmä** -kentässä tapa, jolla nimikkeen yksikkökustannukset lasketaan tekemällä oletuksia fyysisestä tavaravirrasta yrityksen läpi. Käytössä on viisi arvostusmenetelmää nimikkeen tyypin mukaan. Katso lisätietoja kohdasta [Rakennetiedot: arvostusmenetelmät](design-details-costing-methods.md).
@@ -65,13 +71,13 @@ Nimikemalli lisätään nimikemallien luetteloon niin, että sen avulla voit luo
 
 ### <a name="items-used-in-production-orders"></a>Tuotantotilauksissa käytetyt nimikkeet
 
-Jos halutaan rekisteröidä myöhemmin tuotantotilauksessa käytettäviä nimikkeitä, täydennysjärjestelmä määritetään *tuotantotilauksena* **Täydennys**-pikavälilehdessä. Lisätietoja on kohdassa [Tietoja tuotantotilauksista](production-about-production-orders.md).  
+Jos halutaan rekisteröidä myöhemmin tuotantotilauksessa käytettäviä nimikkeitä, täydennysjärjestelmä määritetään *tuotantotilauksena***Täydennys**-pikavälilehdessä. Lisätietoja on kohdassa [Tietoja tuotantotilauksista](production-about-production-orders.md).  
 
 ## <a name="to-set-up-multiple-vendors-for-an-item"></a>Useiden toimittajien määrittäminen nimikkeille
 
 Jos ostat saman nimikkeen useammalta kuin yhdeltä toimittajalta, sinun tulee syöttää tietoja kustakin nimikkeen toimittajasta, esimerkiksi hinnat, toimitusaika ja alennukset.  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.  
 2. Valitse ensin käsiteltävä nimike ja sitten **Muokkaa**-toiminto.  
 3. Valitse **Toimittajat**-toiminto.  
 4. Valitse **Toimittajan nro** -kenttä, ja valitse toimittaja, jonka haluat määrittää nimikkeelle.  
@@ -80,60 +86,21 @@ Jos ostat saman nimikkeen useammalta kuin yhdeltä toimittajalta, sinun tulee sy
 
 Toimittajat näkyvät nyt nimikkeen kortissa avattavassa **Nimikkeen toimittajaluettelo** -sivulla, jossa voit valita kätevästi vaihtoehtoisen toimittajan.
 
-## <a name="set-up-item-substitutions"></a>Määritä nimikekorvaukset
-
-Voit määrittää nimikkeille korvaavia tuotteita, kuten muita nimikkeitä, joita voidaan käyttää alkuperäisen nimikkeen tilalla.
-
-### <a name="to-make-an-item-substitution"></a>Nimikkeen korvaamisen toteuttaminen
-
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
-2. Etsi asianmukainen nimike ja avaa nimikekortti napsauttamalla **Nimikenro**-painiketta.  
-3. Valitse **Liittyvä**-toiminto, valitse **Nimike** ja sitten **Korvaamiset** avataksesi Nimikkeen korvaustapahtuma -sivun.  
-4. Valitse **Korvaava nro** -kenttä ja valitse korvaava nimike luettelosta.
-5. Voit täyttää tai muuttaa muita kenttiä sivulla tarvittaessa.
-
-Kun esimerkiksi myyntirivin pyydetty nimikkeiden määrä on suurempi kuin määrä, joka on saatavilla varastossa, näyttöön tulee viesti, joka ilmoittaa, että korvaavia nimikkeitä on olemassa.
-
-> [!NOTE]  
-> Huomaa, että nimikkeen korvaaminen ei automaattisesti aiheuta nimikkeen korvaamista toisella nimikkeellä esimerkiksi myyntitilausta luotaessa tai tuoterakenteessa. Sen sijaan sinua varoitetaan siitä, että käytettävissäsi on korvaaminen.
-
 ## <a name="categories-attributes-and-variants"></a>Luokat, määritteet ja variantit
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
 ## <a name="deleting-item-cards"></a>Nimikekorttien poistaminen
 
-Jos olet kirjannut nimikkeelle tapahtuman, et voi poistaa korttia, koska nimiketapahtumia voi tarvita varaston arvostamiseen tai valvontaan. Voit poistaa nimiketapahtumia tapahtumakirjauksilta ottamalla yhteyttä Microsoft-kumppaniin koodin avulla.  
-
-## <a name="manage-inventory-in-warehouses"></a>Hallitse varastoa fyysisessä varastossa
-
-Kun rekisteröit uuden nimikkeen, näyttöön tulee varastoinnin hallintaan liittyviä kenttiä, erityisesti **Fyysinen varasto** -pikavälilehdessä. Jos organisaatiossasi ei käytetä [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman varastonhallinnan ominaisuuksia, voit ohittaa kyseiset kentät.  
-
-Jos organisaatiosi myöhemmin määrittää varastonhallinnan, sinun täytyy useimmiten palata takaisin kuhunkin aiemmin luotuun nimikkeeseen ja varmistaa, että tiedot ovat oikein eri kentissä, jotta fyysisen varastoinnin prosessit voidaan suorittaa odotetulla tavalla. Nämä tiedot voivat sisältää esimerkiksi **Fyysisen varaston luokkakoodi**- tai **Hyllytysmallin koodi** -kenttiä. Katso lisätietoja kohdasta [Rakennetiedot: Fyysisen varastoinnin asetukset](design-details-warehouse-setup.md).  
-
-## <a name="planning"></a>Suunnittelu
-
-Kun yrityksesi käyttää toimitussuunnitteluprosesseja [!INCLUDE [prod_short](includes/prod_short.md)]issa, tarvittavat kentät **Suunnittelu**-pikavälilehdessä on täytettävä. Tutustu suunnittelualueeseen kohdassa [Suunnittelutiedot: Suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md).  
-
-Esimerkkejä **Suunnittelu**-pikavälilehden kenttien käytöstä on kohdassa [Asetuksien parhaat käytännöt: Suunnitteluparametrit](setup-best-practices-planning-parameters.md).  
+Jos olet kirjannut nimikkeelle tapahtuman, et voi poistaa korttia, koska nimiketapahtumia voi tarvita varaston arvostamiseen tai valvontaan. Voit poistaa nimiketapahtumia tapahtumakirjauksilta ottamalla yhteyttä Microsoft-kumppaniin koodin avulla.
 
 ## <a name="see-also"></a>Katso myös
 
 [Varasto](inventory-manage-inventory.md)  
 [Mittayksikön määrittäminen](inventory-how-setup-units-of-measure.md)  
-[Tavaranimikkeet](finance-how-setup-report-intrastat.md#tariff-numbers)  
 [Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Numerosarjojen luominen](ui-create-number-series.md)  
 [Kirjausryhmien määrittäminen](finance-posting-groups.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Myynti](sales-manage-sales.md)  
-[Tietoja toimintojen suunnittelusta](production-about-planning-functionality.md)  
-[Asetukset - parhaat käytännöt: suunnitteluparametrit](setup-best-practices-planning-parameters.md)  
-[Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
-[Rakennetiedot: Suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md)  
-[Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)  
-[Rakennetiedot: suunnittelun parametrit](design-details-planning-parameters.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  

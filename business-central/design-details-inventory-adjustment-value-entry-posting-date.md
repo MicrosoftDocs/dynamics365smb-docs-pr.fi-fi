@@ -2,118 +2,355 @@
 title: Arvotapahtumien kirjauspäivämäärä
 description: Lisätietoja siitä, miten Muuta kustannuksia - Nimiketapahtumat -eräajo tunnistaa ja määrittää niiden arvotapahtumien kirjauspäivämäärän, joita eräajo on luomassa.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/17/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: d48c27f06463f37ad5ca657bada33a4d165799ea
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 918a450ea40676447f872ba95eb489c7cc210211
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133912"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215101"
 ---
 # <a name="design-details-posting-date-on-adjustment-value-entry"></a>Rakennetiedot: Muutoksen arvotapahtuman kirjauspäivämäärä
+Tässä artikkelissa on ohjeita [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen varaston arvostustoimintojen käyttäjille. Tässä artikkelissa on ohjeita siitä, miten **Muuta kustannuksia - Nimiketapahtumat** -eräajo tunnistaa ja määrittää niiden arvotapahtumien kirjauspäivämäärän, joita eräajo on luomassa.  
 
-Tässä artikkelissa on ohjeita varaston arvostustoimintojen käyttäjille [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa ja erityisesti siitä, miten **Muuta kust. - nimiketapahtumat** -eräajo tunnistaa ja liittää kirjauspäivämäärän arvotapahtumiin, jotka eräajo on aikeissa luoda.
+Ensin tarkistetaan prosessin käsite eli miten eräajo tunnistaa ja määrittää luotavan arvotapahtuman kirjauspäivämäärän. Tämän jälkeen jaetaan muutamia skenaarioita, joihin tukitiimit tärmäävät silloin tällöin. Lopuksi tutustutaan käsitteiden yhteenvetoon.  
 
-## <a name="how-posting-dates-are-assigned"></a>Miten kirjauspäivämäärät määritellään
-
+## <a name="the-concept"></a>Käsite  
 **Muuta kustannuksia - Nimiketapahtumat** -eräajo määrittää kirjauspäivämäärän arvotapahtumalle, jonka se luo seuraavien vaiheiden avulla:  
 
-1. Alussa luotavan tapahtuman kirjauspäivämäärä on sama kuin päivämäärän, jota se muuttaa.  
+1.  Alussa luotavan tapahtuman kirjauspäivämäärä on sama kuin päivämäärän, jota se muuttaa.  
 
-2. Kirjauspäivämäärä vahvistetaan varastokausien ja/tai pääkirjanpidon asetusten avulla.  
+2.  Kirjauspäivämäärä vahvistetaan varastokausien ja/tai pääkirjanpidon asetusten avulla.  
 
-3. Kirjauspäivämäärän määritys: jos alkuperäinen kirjauspäivämäärä ei kuulu sallittuun kirjauspäivämääräalueeseen, eräajo määrittää sallitu kirjauspäivämäärän pääkirjanpidon asetuksista tai varastokausista. Jos pääkirjanpidon asetuksissa on määritetty sekä varastokaudet että sallitut kirjauspäivämäärät, muutoksen arvotapahtumalle määritetään myöhempi näistä kahdesta päivämäärästä.  
+3.  Kirjauspäivämäärän määritys: jos alkuperäinen kirjauspäivämäärä ei kuulu sallittuun kirjauspäivämääräalueeseen, eräajo määrittää sallitu kirjauspäivämäärän pääkirjanpidon asetuksista tai varastokausista. Jos pääkirjanpidon asetuksissa on määritetty sekä varastokaudet että sallitut kirjauspäivämäärät, muutoksen arvotapahtumalle määritetään myöhempi näistä kahdesta päivämäärästä.  
 
-Tarkastellaan tätä prosessia lähemmin. Oletetaan, että käsittelyssä on myynnin nimiketapahtuma. Nimike on toimitettu 5.9.2020 ja laskutettu päivää myöhemmin.  
+ Tarkastellaan tätä prosessia lähemmin. Oletetaan, että käsittelyssä on myynnin nimiketapahtuma. Nimike on toimitettu 5.9.2013 ja laskutettu päivää myöhemmin.  
 
-#### <a name="item-ledger-entry"></a>Nimiketapahtuma
+![Nimiketapahtumien tila skenaariossa](media/helene/TechArticleAdjustcost1.png "Nimiketapahtumien tila skenaariossa")  
 
-|Tapahtumanro  |Nimikkeen nro  |Kirjauspäivämäärä  |Tapahtuman tyyppi  | Asiakirjanumero |Sijaintikoodi   |määrä  |Kustannussumma (Tod.)  |Laskutettu määrä  |Jäljellä oleva määrä  |
-|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|319     |A         |2020-09-05     |  Myynti       |102033     |  Sininen       | -1    |    -11     |-1     |    0     |
+Alla oleva ensimmäinen arvotapahtuma (379) edustaa toimitusta. Sen kirjauspäivämäärä on sama kuin päänimiketapahtuman päivämäärä.  
 
-Alla ovat liittyvät arvotapahtumat:
+Toinen arvotapahtuma (381) edustaa laskua.  
 
-- **Tapahtuma 379** edustaa toimitusta. Sen kirjauspäivämäärä on sama kuin päänimiketapahtuman päivämäärä.  
-- **Tapahtuma 381** vastaa laskua.  
-- **Tapahtuma 391** on laskutuksen arvotapahtuman (tapahtuma 381 edellä) muutos.  
+ Kolmas arvotapahtuma (391) on laskutuksen arvotapahtuman (381) muutos  
 
-|Tapahtumanro  |Nimikkeen nro  |Kirjauspäivämäärä  |Nimiketapahtuman tyyppi  |Tapahtuman tyyppi  |Asiakirjanumero  |Nimiketapahtuman nro  |Sijaintikoodi   |Nimiketapahtumien määrä  |Laskutettu määrä  |Kustannussumma (Tod.)  |Kustannussumma (oletettu)  |Muutos  |Kohdistetaan tapahtumaan  |Lähdekoodi  |
-|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|--------|---------|---------|---------|---------|
-|379     |  A       |    2020-09-05     |    Myynti     | Välitön kustannus   | 102033        |319     | Sininen        | -1       |0         |  0       |     -10   |Ei   |0    |Myynti          |
-|381     |  A       |    2020-09-06     |    Myynti     | Välitön kustannus   | 103022        |319     | Sininen        |  0       |-1        |-10       |    10     | Ei  |0      |       Myynti   |
-|391     |  A       |    2020-09-10     |    Myynti     | Välitön kustannus   | 103022        |319     | Sininen        |  0       |0         |-1        |    0     |Kyllä   |    181   | VARMUUTOS   |
+ ![Arvotapahtumien tila skenaariossa](media/helene/TechArticleAdjustcost2.png "Arvotapahtumien tila skenaariossa")  
 
-Määrittääksesi **Tapahtuman 391** kirjauspäivämäärän seuraavat vaiheet otettiin käyttöön:
+ Vaihe 1: Luotava muutoksen arvotapahtuma on määritetty samaan kirjauspäivämäärään kuin tapahtuma, jota se muuttaa, kuten yläpuolella oleva arvotapahtuma 391 osoittaa.  
 
-1. Luotava **muutoksen arvotapahtuma** (**Tapahtuma 391**) on määritetty samaan **kirjauspäivämäärään** kuin tapahtuma, jota se muuttaa.
+ Vaihe 2: Alussa määritetyn kirjauspäivämäärän tarkistus.  
 
-2. **Muuta kustannuksia - Nimiketapahtumat** -eräajo määrittää, kuuluuko muutoksen arvotapahtuman alkuperäinen kirjauspäivämäärä sallittuun kirjauspäivämääräalueeseen varastokausien ja/tai pääkirjanpidon asetusten perusteella.  
+**Muuta kustannuksia - Nimiketapahtumat** -eräajo määrittää, kuuluuko muutoksen arvotapahtuman alkuperäinen kirjauspäivämäärä sallittuun kirjauspäivämääräalueeseen varastokausien ja/tai pääkirjanpidon asetusten perusteella.  
 
-Tarkistetaan yllämainittu myynti lisäämällä sallittujen kirjauspäivämääräalueiden asetukset.  
-  
-#### <a name="inventory-periods"></a>Varastokaudet
+ Tarkistetaan yllämainittu myynti lisäämällä sallittujen kirjauspäivämääräalueiden asetukset.  
 
-|Lopetuspvm  |Name  |Suljettu  |
-|---------|---------|---------|
-|2020-01-31     |Tammikuu 2020      |  Kyllä    |
-|2020-02-28     |Helmikuu 2020     |  Kyllä    |
-|2020-03-31     |Maaliskuu 2020        |  Kyllä    |
-|2020-04-30     |Huhtikuu 2020        |  Kyllä    |
-|2020-05-31     |Toukokuu 2020        |  Kyllä    |
-|2020-06-30     |Heinäkuu 2020       |  Kyllä    |
-|2020-07-31     |Heinäkuu 2020        |  Kyllä    |
-|2020-08-31     |Elokuu 2020     |  Kyllä    |
-|2020-09-30     |Syyskuu 2020  |         |
-|2020-10-31     |Lokakuu 2020    |         |
-|2020-11-30     |Marraskuu 2020   |         |
-|2020-12-31     |Joulukuu 2020   |         |
+ Varastokaudet:  
 
-Ensimmäinen sallittu kirjauspäivämäärä on ensimmäisen avoimen kauden ensimmäinen päivä eli 1.9.2020.  
+![Varastokaudet skenaariossa](media/helene/TechArticleAdjustcost3.png "Varastokaudet skenaariossa")
 
-#### <a name="general-ledger-setup"></a>Pääkirjanpidon asetukset
+ Ensimmäinen sallittu kirjauspäivämäärä on ensimmäisen avoimen kauden ensimmäinen päivä. 1. syyskuuta 2013.  
 
-|Kenttä|Arvo  |
-|---------|---------|
-|Ensimm. sallittu kirjauspvm:  |  2020-09-10      |
-|Viimeinen sallittu kirjauspvm:    |  2020-09-30      |
-|Rekisteröi aika:       |         |
-|Paikallinen osoitemuoto:|   Postinro      |  
+ Pääkirjanpidon asetukset:  
 
-Ensimmäinen sallittu kirjauspäivämäärä on **Ensimm. sallittu kirjauspvm** -kentässä mainittu päivämäärä: 10.9.2020. Jos **pääkirjanpidon asetuksissa** on määritetty sekä varastokaudet että sallitut kirjauspäivämäärät, jälkimmäinen päivämäärä määrittää sallitun kirjauspäivämäärän.  
+![Pääkirjanpidon asetukset skenaariossa](media/helene/TechArticleAdjustcost4.png "Pääkirjanpidon asetukset skenaariossa")
 
-**Sallitun kirjauspäivämäärän määrittäminen**  
+ Ensimmäinen sallittu kirjauspäivämäärä on Ensimm. sallittu kirjauspvm -kentässä mainittu päivämäärä: 10.9.2013.  
 
-Alkuperäinen määritetty kirjauspäivämäärä oli 6.9., kuten vaiheessa 1 kerrottiin. Toisessa vaiheessa kuitenkin Muuta kustannuksia - Nimiketapahtumat -eräajo määrittää, että aikaisin sallittu kirjauspäivämäärä on 10.9. ja tämän vuoksi määrittää alla muutoksen arvotapahtumalle (**Tapahtuma 391**) päivämäärän 10.9.  
+ Jos pääkirjanpidon asetuksissa on määritetty sekä varastokaudet että sallitut kirjauspäivämäärät, jälkimmäinen päivämäärä määrittää sallitun kirjauspäivämäärän.  
 
+ Vaihe 3: Sallitun kirjauspäivämäärän määrittäminen  
 
-|Tapahtumanro  |Nimikkeen nro  |Kirjauspäivämäärä  |Nimiketapahtuman tyyppi  |Tapahtuman tyyppi  |Asiakirjanumero  |Nimiketapahtuman nro  |Sijaintikoodi   |Nimiketapahtumien määrä  |Laskutettu määrä  |Kustannussumma (Tod.)  |Kustannussumma (oletettu)  |Muutos  |Kohdistetaan tapahtumaan  |Lähdekoodi  |
-|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
-|379     |  A       |    2020-09-05     |    Myynti     | Välitön kustannus   | 102033        |319     | Sininen        | -1       |0         |  0       |     -10   |Ei   |0    |Myynti          |
-|381     |  A       |    2020-09-06     |    Myynti     | Välitön kustannus   | 103022        |319     | Sininen        |  0       |-1        |-10       |    10     | Ei  |0      |       Myynti   |
-|391     |  A       |    **2020-09-10**     |    Myynti     | Välitön kustannus   | 103022        |319     | Sininen        |  0       |0         |-1        |    0     |Kyllä   |    181   | VARMUUTOS   |
+ Alkuperäinen määritetty kirjauspäivämäärä oli 6.9., kuten vaiheessa 1 kerrottiin. Toisessa vaiheessa kuitenkin Muuta kustannuksia - Nimiketapahtumat -eräajo määrittää, että aikaisin sallittu kirjauspäivämäärä on 10.9. ja tämän vuoksi määrittää alla muutoksen arvotapahtumalle päivämäärän 10.9.  
 
-## <a name="common-problems-with-the-adjust-cost---item-entries-batch-job"></a>Yleisiä ongelmia Muuta kustannuksia - Nimiketapahtumat -eräajossa
+ ![Arvotapahtumien tila skenaariossa 2](media/helene/TechArticleAdjustcost5.png "Arvotapahtumien tila skenaariossa 2")
 
-On olemassa kaksi skenaariota, joita tuki tiimi kohtaa niin usein, että niillä on omat ongelmanratkaisuartikkelinsa.
+ Olemme nyt käyneet läpi kirjauspäivämäärien määrittämisen arvotapahtumille, jotka Muuta kustannuksia - Nimiketapahtumat -eräajo on luonut.  
 
-### <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Virhesanoma: "Kirjauspäivämäärä ei kuulu sallittujen kirjauspäivämäärien alueeseen..."
+ Jatketaan tutkimalla skenaarioita, joita tukitiimi tapaa ajoittain, kun Muuta kustannuksia - Nimiketapahtumat -eräajon ja liittyvien asetusten määritettyjen kirjauspäivämäärien kohdalla.  
 
-Jos kohtaat tämän virheen, sinun täytyy muuttaa päivämääriä, jolloin käyttäjällä on oikeus kirjata tapahtumia. Lisätietoja: [Virhesanoma: "Kirjauspäivämäärä ei kuulu sallittujen kirjauspäivämäärien alueeseen"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)
+## <a name="scenarios"></a>Esimerkkitilanteet  
 
-### <a name="posting-date-on-adjustment-value-entry-versus-posting-date-on-entry-causing-the-adjustment-such-as-revaluation-or-item-charge"></a>Kirjauspäivämäärään verratun muutoksen arvotapahtuman kirjauspäivämäärän vuoksi muutos voi olla uudelleenarvostus tai nimikekulu.
+### <a name="scenario-i-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Skenaario I: Kirjauspäivämäärä ei kuulu sallittujen kirjauspäivämäärien alueeseen...  
+ Tässä skenaariossa käyttäjä näkee mainitun virhesanoman, kun Muuta kustannuksia - Nimiketapahtumat -eräajo suoritetaan.  
 
-Lisätietoja: [Oikaisun arvon tapahtuman kirjauspäivämäärä verrattuna lähdetapahtumaan](design-details-inventory-adjustment-value-entry-source-entry.md)
+ Edellisessä kirjauspäivämäärien määrittämistä koskevassa osassa Muuta kustannuksia - Nimiketapahtumat -eräajon tarkoitus on luoda arvotapahtuma, jonka kirjauspäivämäärä on 10.9.  
+
+![Kirjauspäivämäärää koskeva virhesanoma](media/helene/TechArticleAdjustcost6.png "Kirjauspäivämäärää koskeva virhesanoma")
+
+ Seurataan käyttäjäasetuksia;  
+
+![Käyttäjän sallittujen kirjauspäivämäärien asetus](media/helene/TechArticleAdjustcost7.png "Käyttäjän sallittujen kirjauspäivämäärien asetus")
+
+ Tässä tapauksessa käyttäjälle määritetty sallittu kirjauspäivämääräalue on 11.9.–30.9. Muutoksen arvotapahtuman kirjauspäivämäärä ei siis voi olla 10.9.  
+
+![Asiaankuuluvan kirjauspäivämäärän asetuksen yleiskuvaus](media/helene/TechArticleAdjustcost8.png "Asiaankuuluvan kirjauspäivämäärän asetuksen yleiskuvaus")
+
+ Knowledge Base -artikkeli [952996](https://mbs2.microsoft.com/Knowledgebase/kbdisplay.aspx?WTNTZSMNWUKNTMMYXUPYZQPOUXNXSPSYOQQYYMLUQLOYYMWP) sisältää lisää mainittuun virhesanomaan liittyviä skenaarioita.  
+
+### <a name="scenario-ii-posting-date-on-adjustment-value-entry-versus-posting-date-on-entry-causing-the-adjustment-such-as-revaluation-or-item-charge"></a>Skenaario II: Kirjauspäivämäärään verratun muutoksen arvotapahtuman kirjauspäivämäärän vuoksi muutos voi olla uudelleenarvostus tai nimikekulu.  
+
+### <a name="revaluation-scenario"></a>Uudelleenarvostusskenaario:  
+ Vaatimukset:  
+
+ Varastonhallinnan asetukset:  
+
+-   Automaattinen kustannusten kirjaus = Kyllä  
+
+-   Automaattinen kustannusten muuttaminen = Aina  
+
+-   Keskim. kust. laskentatyyppi = Nimike  
+
+-   Keskimääräisen kustannuksen jakso = Päivä  
+
+ Pääkirjanpidon asetukset:  
+
+-   Ensimm. sallittu kirjauspvm = 1.1.2014  
+
+-   Viimeinen sallittu kirjauspvm = tyhjä  
+
+ Käyttäjäasetukset:  
+
+-   Ensimm. sallittu kirjauspvm = 1.12.2013  
+
+-   Viimeinen sallittu kirjauspvm = tyhjä  
+
+##### <a name="to-test-the-scenario"></a>Skenaarion testaaminen  
+
+1.  Luo TESTI-nimike:  
+
+     Perusmittayksikkö = Kpl  
+
+     Arvostusmenetelmä = Keskiarvo  
+
+     Valitse vaihtoehtoiset kirjausryhmät.  
+
+2.  Avaa nimikepäiväkirja ja luo ja kirjaa rivit seuraavasti:  
+
+     Kirjauspäivämäärä = 15.12.2013  
+
+     Nimike = TESTI  
+
+     Tapahtuman tyyppi = Osto  
+
+     Määrä = 100  
+
+     Yksikkösumma = 10  
+
+3.  Avaa nimikepäiväkirja ja luo ja kirjaa rivit seuraavasti:  
+
+     Päivämäärä = 20.12.2013  
+
+     Nimike = TESTI  
+
+     Tapahtuman tyyppi = Negatiivinen muutos  
+
+     Määrä = 2  
+
+4.  Avaa nimikepäiväkirja ja luo ja kirjaa rivit seuraavasti:  
+
+     Päivämäärä = 15.1.2014  
+
+     Nimike = TESTI  
+
+     Tapahtuman tyyppi = Negatiivinen muutos  
+
+     Määrä = 3  
+
+5.  Avaa uudelleenarvostuspäiväkirja ja luo ja kirjaa rivit seuraavasti:  
+
+     Nimike = TESTI  
+
+     Kohdistetaan tapahtumaan = valitse vaiheessa 2 kirjattu ostotapahtuma. Uudelleenarvostuksen kirjauspäivämäärä on sama kuin tapahtuman, jota se muuttaa.  
+
+     Uudelleenarvostettu yksikkökustannus = 40  
+
+ Seuraavat nimikekirjaukset ja arvotapahtumat on kirjattu:  
+
+![Tuloksena saatavien nimike- ja arvotapahtumien yleiskuvaus 1](media/helene/TechArticleAdjustcost9.png "Tuloksena saatavien nimike- ja arvotapahtumien yleiskuvaus 1")
+
+ ![Tuloksena saatavien nimike- ja arvotapahtumien yleiskuvaus 2](media/helene/TechArticleAdjustcost10.png "Tuloksena saatavien nimike- ja arvotapahtumien yleiskuvaus 2")
+
+ Muuta kustannuksia - Nimiketapahtumat -eräajo on tunnistavut muutokset kustannuksissa ja muuttanut negatiivisia muutoksia.  
+
+ **Luotujen muutoksen arvotapahtumien kirjauspäivämäärien tarkistaminen:** Muuta kustannuksia - Nimiketapahtumat -eräajon aikaisin sallittu kirjauspäivämäärä on 1.1.2014 pääkirjanpidon asetusten mukaan.  
+
+ **Negatiivinen muutos vaiheessa 3:** määritetty kirjauspäivämäärä on 1.1. pääkirjanpidon asetusten mukaan. Muutoksen arvotapahtuman kirjauspäivämäärä on 20.12.2013. Pääkirjanpidon asetusten mukaan päivämäärä ei kuulu sallittuun kirjauspäivämääräalueeseen. Tämän vuoksi muutoksen arvotapahtumalle on määritetty pääkirjanpidon asetusten Ensimm. sallittu kirjauspvm -kentän kirjauspäivämäärä.  
+
+ **Negatiivinen muutos vaiheessa 4:** määritetty kirjauspäivämäärä on 15.1. Muutoksen arvotapahtuman kirjauspäivämäärä on 15.1., joka kuuluu sallittuun kirjauspäivämääräalueeseen pääkirjanpidon asetusten mukaan.  
+
+ Negatiiviseen muutokseen vaiheessa 3 tehty muutos aiheuttaa keskustelua. Muutoksen arvotapahtuman suositeltu kirjauspäivämäärä olisi ollut 20.12. tai jokin muu joulukuun päivämäärä, koska myytyjen tuotteiden kustannusten muutoksen aiheuttanut uudelleenarvostus kirjattiin joulukuussa.  
+
+ Jotta negatiiviseen muutokseen voidaan tehdä muutos joulukuussa vaiheessa 3, pääkirjanpidon asetusten Ensimm. sallittu kirjauspvm -kentän päivämäärän on oltava joulukuussa.  
+
+ **Yhteenveto.**  
+
+ Tämän skenaarion kokemusten perusteella yritykselle parhaiten sopivin sallitun kirjauspäivämääräalueen asetus voisi olla noudattaa seuraavia periaatteita: niin kauan kuin varastoarvon muutokset voidaan kirjata kauden aikana, tässä tapauksessa joulukuussa, yrityksen sallitun kirjauspäivämääräalueen asetus tulee määrittää tämän mukaan. Pääkirjanpidon asetusten Ensimm. sallittu kirjauspvm -kenttä, johon on määritetty 1.12., sallii joulukuussa tehdyn uudelleenarvostuksen ohjauksen edelleen saman kauden muuttuneisiin lähteviin tapahtumiin.  
+
+ Tässä skenaariossa ollut asetus, jonka mukaan käyttäjäryhmät, jotka eivät voi tehdä kirjauksia joulukuussa, voivat tehdä niitä tammikuussa, kannattaa määrittää käyttäjäasetuksissa pääkirjanpidon asetusten sijaan.  
+
+### <a name="item-charge-scenario"></a>Nimikekulujen skenaario:  
+ Vaatimukset:  
+
+ Varastonhallinnan asetukset:  
+
+-   Automaattinen kustannusten kirjaus = Kyllä  
+
+-   Automaattinen kustannusten muuttaminen = Aina  
+
+-   Keskim. kust. laskentatyyppi = Nimike  
+
+-   Keskimääräisen kustannuksen jakso = Päivä  
+
+ Pääkirjanpidon asetukset:  
+
+-   Ensimm. sallittu kirjauspvm = 1.12.2013  
+
+-   Viimeinen sallittu kirjauspvm = tyhjä  
+
+ Käyttäjäasetukset:  
+
+-   Ensimm. sallittu kirjauspvm = 1.12.2013  
+
+-   Viimeinen sallittu kirjauspvm = tyhjä  
+
+##### <a name="to-test-the-scenario"></a>Skenaarion testaaminen  
+
+1.  Luo nimikekulu:  
+
+     Perusmittayksikkö = Kpl  
+
+     Arvostusmenetelmä = Keskiarvo  
+
+     Valitse vaihtoehtoiset kirjausryhmät.  
+
+2.  Luo uusi ostotilaus  
+
+     Tavarantoimittajan nro: 10 000  
+
+     Kirjauspäivämäärä = 15.12.2013  
+
+     Toimittajan laskunro: 1 234  
+
+     Ostotilausrivillä:  
+
+     Nimike = KULU  
+
+     Määrä = 1  
+
+     Välitön yksikkökustannus = 100  
+
+     Kirjaa vastaanottaminen ja lasku.  
+
+3.  Luo uusi myyntitilaus:  
+
+     Tilausasiakkaan nro: 10000  
+
+     Kirjauspäivämäärä = 16.12.2013  
+
+     Myytitilausrivillä:  
+
+     Nimike = KULU  
+
+     Määrä = 1  
+
+     Yksikköhinta = 135  
+
+     Kirjaa toimitus ja lasku.  
+
+4.  Pääkirjanpidon asetukset:  
+
+     Ensimm. sallittu kirjauspvm = 1.1.2014  
+
+     Viimeinen sallittu kirjauspvm = tyhjä  
+
+5.  Luo uusi ostotilaus:  
+
+     Tavarantoimittajan nro: 10 000  
+
+     Kirjauspäivämäärä = 2.1.2014  
+
+     Toimittajan laskunro: 2 345  
+
+     Ostotilausrivillä:  
+
+     Nimikekulu = JB-RAHTI  
+
+     Määrä = 1  
+
+     Välitön yksikkökustannus = 3  
+
+     Määritä nimikekuluksi ostovastaanotto vaiheesta 2.  
+
+     Kirjaa vastaanotto ja lasku.  
+
+     ![Tuloksena saatavien nimike- ja arvotapahtumien yleiskuvaus 3](media/helene/TechArticleAdjustcost11.png "Tuloksena saatavien nimike- ja arvotapahtumien yleiskuvaus 3")
+
+6.  Ostolasku saapuu käsittelypäivänä 3.1. Ostolasku sisältää vaiheessa 2 ostoon tehdyn lisäkulun. Tämän laskun asiakirjan päivämäärä on 30.12. Tämän vuoksi sen kirjauspäivämääräksi tulee 30.12.2013.  
+
+     Luo uusi ostotilaus:  
+
+     Tavarantoimittajan nro: 10 000  
+
+     Kirjauspäivämäärä = 30.12.2013  
+
+     Toimittajan laskunro: 3 456  
+
+     Ostotilausrivillä:  
+
+     Nimikekulu = JB-RAHTI  
+
+     Määrä = 1  
+
+     Välitön yksikkökustannus = 2  
+
+     Määritä nimikekuluksi ostovastaanotto vaiheesta 2  
+
+     Kirjaa vastaanotto ja lasku.  
+
+   ![Tuloksena saatavien nimike- ja arvotapahtumien yleiskuvaus 4](media/helene/TechArticleAdjustcost12.png "Tuloksena saatavien nimike- ja arvotapahtumien yleiskuvaus 4")
+
+ Varaston arvostus -raportti tulostetaan 31.12.2013.  
+
+![Varaston arvostusraportin sisältö](media/helene/TechArticleAdjustcost13.png "Varaston arvostusraportin sisältö")
+
+ **Skenaarion yhteenveto:**  
+
+ Kuvattu skenaario loppuu Varaston arvostus -raporttiin, jossa määrä = 0 ja arvo = 2. Vaiheessa 11 kirjattu nimikekulu on osa varaston arvon nousua joulukuussa. Saman kauden varaston arvon lasku ei ole muuttunut.  
+
+ Pääkirjanpidon asetusten Ensimm. sallittu kirjauspvm -kentän arvo 1.1. on sopiva ensimmäiselle nimikekululle. Varaston arvon nousun ja laskun kustannukset tallennettiin samaan kauteen. Pääkirjanpidon asetusten vuoksi toinen nimikekulu aiheuttaa kuitenkin muutoksen myytyjen tuotteiden kustannuksessa. Muutos otetaan huomioon seuraavan kauden aikana.  
+
+ **Yhteenveto.**  
+
+ On haastavaa, kun Varaston arvostus -raportissa määritetään, että määrä = 0 samalla, kun arvo <> 0. Tässä tapauksessa on vaikeaa kertoa optimaaliset asetukset, koska ostolaskut saapuvat samana päivänä mutta ne koskevat eri kausia tai jopa eri tilivuosia. Uuteen tilivuoteen siirtäminen vaatii yleensä suunnittelua. Muuta kustannuksia - Nimiketapahtumat -prosessin on myös otettava huomioon myytyjen tuotteiden kustannukset.  
+
+ Tässä skenaariossa eräs vaihtoehto olisi ollut määrittää pääkirjanpidon asetusten Ensimm. sallittu kirjauspvm -kentän arvoksi muutamaa päivää aikaisempi joulukuun päivämäärä ja kirjata ensimmäinen nimikekulu viiveellä, jolloin edellisen kauden/tilivuoden kaikki kustannukset tuloutettaisiin kaudelle, jolle ne alussa kuuluivat. Tämän jälkeen suoritettaisiin Muuta kustannuksia - Nimiketapahtumat -eräajo ja siirrettäisiin sallittu kirjauspäivämäärä seuraavaan kauteen\/tilivuoteen. Kirjatuksi olisi tullut ensimmäinen nimikekulu, jonka kirjauspäivämäärä on 2.1.  
+
+## <a name="history-of-adjust-cost--item-entries-batch-job"></a>Muuta kustannuksia - Nimiketapahtumat -eräajon historia  
+ Alla on Muuta kustannuksia - Nimiketapahtumat -eräajon muutoksen arvotapahtumien kirjauspäivämäärien määrittämisen yhteenveto.  
+
+### <a name="about-the-request-form-posting-date"></a>Tietoja pyyntölomakkeen kirjauspäivämäärästä:  
+ Muuta kustannuksia - Nimiketapahtumat -eräajon pyyntölomakkeessa ei ole enää ilmoitettavaa kirjauspäivämäärää. Eräajo käy läpi kaikki pakolliset muutokset ja luo arvotapahtumat, joilla on sen arvotapahtuman kirjauspäivämäärä, jonka eräajo muuttaa. Jos kirjauspäivämäärä ei kuulu sallittuun kirjauspäivämääräalueeseen, käytetään pääkirjanpidon asetusten Ensimm. sallittu kirjauspvm -kentän kirjauspäivämäärä tai mahdollisesti käytössä olevien varastokausien kirjauspäivämäärää sen mukaan, kumpi on myöhempi. Katso edellä kuvattua käsitettä.  
+
+## <a name="history-of-post-inventory-cost-to-gl-batch-job"></a>Kirjaa varaston kustannukset kirjanpitoon -eräajon historia  
+ Kirjaa varaston kustannukset kirjanpitoon -eräajo liittyy läheisesti Muuta kustannuksia - Nimiketapahtumat -eräajoon. Tämän vuoksi kyseisen eräajon historiasta tehdään yhteenveto, joka jaetaan myös täällä.  
+ 
+![Todelliset kustannukset vs. oletetut kustannukset](media/helene/TechArticleAdjustcost14.png "Todelliset kustannukset vs. oletetut kustannukset")
+
+### <a name="about-the-posting-date"></a>Tietoja kirjauspäivämäärästä
+ Kirjaa varaston kustannukset kirjanpitoon -eräajon pyyntölomakkeessa ei ole enää ilmoitettavaa kirjauspäivämäärää. Luodaan KP-tapahtuma, jolla on sama kirjauspäivämäärä kuin liittyvällä arvotapahtumalla. Jotta eräajo voidaan suorittaa, sallitun kirjauspäivämääräalueen on sallittava luodun KP-tapahtuman kirjauspäivämäärä. Muussa tapauksessa sallittu kirjauspäivämääräalue on avattava uudelleen tilapäisesti joko muuttamalla päivämääriä tai poistamalla niitä pääkirjanpidon asetusten Ensimm. sallittu kirjauspvm- ja Viimeinen sallittu kirjauspvm -kentissä. Vältät täsmäytysongelmat, kun KP-tapahtuman kirjauspäivämäärä vastaa arvotapahtuman kirjauspäivämäärää.  
+
+ Kirjaa arvotapahtuma kirjanpitoon -eräajo skannaa taulukon 5811 ja tunnistaa alueeseen kuuluvat arvotapahtumat pääkirjanpitoon kirjaamista varten. Kun eräajo on suoritettu, taulukko tyhjennetään.
 
 ## <a name="see-also"></a>Katso myös  
-
 [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)  
 [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

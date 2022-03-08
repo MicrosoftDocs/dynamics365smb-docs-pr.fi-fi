@@ -1,20 +1,21 @@
 ---
-title: Rakennetiedot – fyysisen varastoinnin yleiskuvaus
-description: Fyysisen varaston jokaisen tapahtuman ja siirron tiedot on voitava jäljittää, jotta nimikkeiden fyysistä käsittelyä voidaan tukea alue- ja varastopaikkatasolla.
+title: Rakennetiedot – Fyysisen varastoinnin yleiskatsaus | Microsoft Docs
+description: Fyysisen varaston jokaisen tapahtuman ja siirron tiedot on voitava jäljittää, jotta nimikkeiden fyysistä käsittelyä voidaan tukea alue- ja varastopaikkatasolla. Tätä hallitaan **F. var. tapahtuma** -taulukossa. Jokainen tapahtuma tallennetaan varastorekisteriin.
 author: SorenGP
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 95e6e88f1f448546a7c1b0e4e49d33e54c642932
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cfbc130f1e67bb1c6ac8886590cf14e5d5077731
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141253"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5377796"
 ---
 # <a name="design-details-warehouse-overview"></a>Rakennetiedot: f. varaston yleiskuvaus
 Fyysisen varaston jokaisen tapahtuman ja siirron tiedot on voitava jäljittää, jotta nimikkeiden fyysistä käsittelyä voidaan tukea alue- ja varastopaikkatasolla. Tätä hallitaan **F. var. tapahtuma** -taulukossa. Jokainen tapahtuma tallennetaan varastorekisteriin.  
@@ -27,7 +28,7 @@ Kun nimikkeiden kirjaukset tapahtuvat fyysisen varastoinnin moduulin ulkopuolell
 
 Seuraavassa kuvassa on luonnosteltu tyypillinen varaston kulku.  
 
-![Fyysisen varaston prosessien yleiskatsaus.](media/design_details_warehouse_management_overview.png "Varastoprosessien yleiskatsaus")  
+![Varastoprosessien yleiskatsaus](media/design_details_warehouse_management_overview.png "Varastoprosessien yleiskatsaus")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Perus tai lisävarastointi  
 [!INCLUDE[prod_short](includes/prod_short.md)]in varastotoiminto voidaan toteuttaa yrityksen prosessien ja tilausmäärän mukaan valittavalla monimutkaisuustasolla. Pääero on, että toiminnot suoritetaan tilaus tilaukselta perusvarastoinnissa, kun ne yhdistetään useisiin tilauksiin kehittyneessä varastoinnissa.  

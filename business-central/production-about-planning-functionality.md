@@ -1,20 +1,21 @@
 ---
-title: Tietoja toimintojen suunnittelusta
-description: Dynamics 365 Business Centralin suunnittelujärjestelmä ottaa kaikki kysyntä- ja tarjontatiedot huomioon, nettouttaa tulokset ja luo ehdotuksia, joita noudattamalla tarjonta ja kysyntä voidaan saattaa tasapainoon.
+title: Tietoja suunnittelutoiminnoista | Microsoft Docs
+description: Suunnittelujärjestelmä ottaa kaikki kysyntä- ja tarjontatiedot huomioon, nettouttaa tulokset ja luo ehdotuksia, joita noudattamalla tarjonta ja kysyntä voidaan saattaa tasapainoon.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5430
-ms.date: 07/16/2021
+ms.search.keywords: ''
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 14048cfe4d18df0002f51dacac658a6c07bc0155
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b6999be84e2fdaca2eefef41c339c366c330a3dc
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135105"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925028"
 ---
 # <a name="about-planning-functionality"></a>Tietoja toimintojen suunnittelusta
 
@@ -36,12 +37,9 @@ Suunnittelujärjestelmän toinen tavoite on varmistaa, että varasto ei kasva ta
 
 ## <a name="planning-calculation"></a>Suunnittelulaskenta
 
-Suunnittelujärjestelmän perustana ovat arvioitu ja todellinen asiakaskysyntä sekä varaston uusintatilausten parametrit. Kun suunnitelma lasketaan, sovellus ehdottaa tiettyjä toimenpiteitä ([toimenpideviestit](production-how-to-run-mps-and-mrp.md#action-messages)), jotka liittyvät alihankkijatäydennyksiin, varastojen välisiin siirtoihin tai tuotantoon. Jos täydennystilauksia on jo tehty, ehdotettuja toimenpiteitä voivat olla tilausten lisääminen tai vauhdittaminen muuttuneen kysynnän mukaisiksi.  
+Suunnittelujärjestelmän perustana ovat arvioitu ja todellinen asiakaskysyntä sekä varaston uusintatilausten parametrit. Kun suunnitelma lasketaan, sovellus ehdottaa tiettyjä toimenpiteitä (toimenpideviestit), jotka liittyvät alihankkijatäydennyksiin, varastojen välisiin siirtoihin tai tuotantoon. Jos täydennystilauksia on jo tehty, ehdotettuja toimenpiteitä voivat olla tilausten lisääminen tai vauhdittaminen muuttuneen kysynnän mukaisiksi.  
 
 Suunnitteluohjelma perustuu brutto-netto-laskutoimituksiin. Suunnitellut tilausvapautukset perustuvat nettovaatimuksiin, ja ne ajoitetaan reititystietojen (valmistettujen nimikkeiden) perusteella tai nimikkeen kortin toimitusajan (ostonimikkeiden) perusteella. Suunniteltujen tilausvapautusten määrät perustuvat suunnittelulaskentaan, ja tilanvapautuksiin vaikuttavat yksittäisissä nimikkeiden korteissa määritettävät parametrit.  
-
-> [!TIP]
-> Suunnittelujärjestelmä perustuu siihen, miten organisaatiosi käyttää sijainteja. Lisätietoja on kohdassa [Suunnittelu sijainneilla tai ilman sijainteja](production-planning-with-without-locations.md).
 
 ## <a name="planning-with-manual-transfer-orders"></a>Suunnittelu manuaalisia siirtotilauksia käyttäen.
 
@@ -171,7 +169,4 @@ Tietoja suunnittelusta sijaintien ja siirtojen avulla on kohdassa [Suunnitelman 
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

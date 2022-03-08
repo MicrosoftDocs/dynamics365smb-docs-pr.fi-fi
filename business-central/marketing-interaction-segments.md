@@ -3,6 +3,7 @@ title: Segmenttien ja liittyvien vuorovaikutusten seuranta
 description: Saat lisätietoja kontaktiryhmien määrittämisestä segmenttejä luomalla ja segmenttien vuorovaikutusten määrittämisestä.
 documentationcenter: ''
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +12,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5139,
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 792b2172a96287732e9ae81c8af5fd6ba5aeccf7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0da5f065b1a455ae9829c4ac6d10b90c3f326c04
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131403"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059646"
 ---
 # <a name="manage-interactions-for-segments"></a>Segmenttien vuorovaikutusten hallinta
 **Segmentti**-sivu on tietynlainen työkirja, jossa voit

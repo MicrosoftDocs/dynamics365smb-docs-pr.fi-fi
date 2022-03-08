@@ -1,21 +1,21 @@
 ---
-title: Tietojen syöttäminen Business Centralissa
-description: Käytettävissä on monia yleisiä ominaisuuksia, jotka helpottavat, nopeuttavat ja täsmentävät tietojen antamista. Perusperiaatteet ja kehittyneet ominaisuudet on kuvattu tässä.
-author: jswymer
-ms.topic: conceptual
+title: Tietojen antaminen Business Centralissa | Microsoft Docs
+description: Tietoja yleisistä ominaisuuksista, jotka auttavat antamaan tietoja kenttiin.
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: decimal separator, data entry, focus
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2021
-ms.author: jswymer
-ms.openlocfilehash: 9fb5df3e4b73b23b469185c46235170d6cebdde2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.search.keywords: ''
+ms.date: 04/03/2020
+ms.author: sgroespe
+ms.openlocfilehash: f3af601f0de00445a42c88bb47053084b05fc14b
+ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323030"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262140"
 ---
 # <a name="entering-data"></a>Tietojen antaminen
 
@@ -24,7 +24,7 @@ Käytettävissä on monia yleisiä ominaisuuksia, jotka helpottavat, nopeuttavat
 Tämän artikkelin esimerkeissä käytetään esimerkkitietoja.
 
 ## <a name="working-with-editable-fields"></a>Muokattavien kenttien käsitteleminen
-[!INCLUDE[prod_short](includes/prod_short.md)] -kohteen kentissä voi olla erilaisia muokattavia tietoja, kuten tekstiä tai valuuttasummia. Muokattavat kentät näyttävät tavallisesti syöttöruudun, johon voit kirjoittaa tai valita arvon. Ei-muokattavat kentät näkyvät tavallisesti harmaana taustana.   
+[!INCLUDE[d365fin](includes/d365fin_md.md)] -kohteen kentissä voi olla erilaisia muokattavia tietoja, kuten tekstiä tai valuuttasummia. Muokattavat kentät näyttävät tavallisesti syöttöruudun, johon voit kirjoittaa tai valita arvon. Ei-muokattavat kentät näkyvät tavallisesti harmaana taustana.   
 
 Joidenkin muokattavien kenttien avulla voit määrittää arvon.  
 
@@ -36,6 +36,7 @@ Joidenkin muokattavien kenttien avulla voit määrittää arvon.
 |Kytkin tai valintaruutu|Joissakin kentissä on helppo valita *Kyllä*- tai *Ei*-arvoja. Valitsinta käytetään määrittämään tämä arvo, ja se näkyy aina valintaruutuna luetteloissa|
 |Muokkausapu       |Joissakin kentissä on mukautettuja valitsimia, jotka soveltuvat kyseisen kentän parhaan arvon etsimiseen ja valitsemiseen, esimerkiksi ponnahdusikkunaan|
 
+
 ### <a name="modifying-a-field-value"></a>Kentän arvon muokkaaminen
 
 Jos haluat muuttaa kentän arvoa, sinun on ensin määritettävä kentän kohdistus. Voit määrittää kohdistuksen tekemällä seuraavat toimet:
@@ -43,7 +44,7 @@ Jos haluat muuttaa kentän arvoa, sinun on ensin määritettävä kentän kohdis
 - Käytä **Sarkain**-näppäintä. Toiminto valitsee koko arvon.
 - Napsauta hiiren vasenta näppäintä tai vastaavaa syöttölaitetta. Tämä toimenpide valitsee koko kentän arvon vain, jos kenttä on luettelossa.  
 
-Kun käytät kenttiä käyttöliittymässä, [!INCLUDE[prod_short](includes/prod_short.md)] yleensä suosii koko kentän arvon valitsemista, jotta kyseinen arvo olisi helpompi korvata.
+Kun käytät kenttiä käyttöliittymässä, [!INCLUDE[d365fin](includes/d365fin_md.md)] yleensä suosii koko kentän arvon valitsemista, jotta kyseinen arvo olisi helpompi korvata.
 
 Kun koko kentän arvo on valittuna:
 - Voit määrittää uuden arvon korvaamalla arvon kirjoittamalla. Jos kentässä on valitsin, voit aktivoida sen käyttämällä **Alt+alanuoli**-pikanäppäintä.
@@ -57,6 +58,7 @@ Kun kohdistin näkyy kentän arvon lopussa:
 
 > [!NOTE]
 > Kun olet määrittänyt arvon, Business Central tarkistaa vain, että se on kelvollinen sen jälkeen, kun olet napsauttanut kentän ulkopuolella tai asettanut kohdistuksen toiseen elementtiin, kuten seuraavaan kenttään.  
+
 
 ## <a name="keyboard-shortcuts"></a>Pikanäppäimet
 
@@ -83,7 +85,7 @@ Seuraavassa luettelossa on joitakin hyödyllisiä tietoja pikatapahtumien käytt
 - Se on käytössä muokattavissa kentissä.
 - Sitä voi käyttää myös sarakkeissa ja riveillä.
 - Se ei estä sivun muiden osien, kuten toimintojen, käyttämistä, Näitä elementtejä voi edelleen käyttää sarkaimella ja Vaihto+Sarkain-näppäinyhdistelmällä.  
-- Pikavälilehtien laajentamista ei edellytetä, jotta pikasyöttö voi toimia. Jos seuraava pikatapahtumakenttä sijaitsee tiivistetyssä pikavälilehdessä, pikavälilehti laajentuu automaattisesti ja kohdistus on valitussa kentässä. [!INCLUDE[prod_short](includes/prod_short.md)] muistaa, että pikavälilehti on laajennettava, kun seuraavan kerran käyt sivulla.  
+- Pikavälilehtien laajentamista ei edellytetä, jotta pikasyöttö voi toimia. Jos seuraava pikatapahtumakenttä sijaitsee tiivistetyssä pikavälilehdessä, pikavälilehti laajentuu automaattisesti ja kohdistus on valitussa kentässä. [!INCLUDE[d365fin](includes/d365fin_md.md)] muistaa, että pikavälilehti on laajennettava, kun seuraavan kerran käyt sivulla.  
 - Pikasyöttö on käytettävissä riippumatta siitä, ovatko kentät pakollisia vai eivät. Tämän vuoksi kannattaa varmistaa, että pakolliset kentät sisällytetään pikasyöttöön.
 - Oletusarvoisesti useimmat kentät sisällytetään automaattisesti pikatapahtumaan. Tämän vuoksi joudutkin luultavasti aluksi sulkemaan kenttiä pois pikatapahtumasta.
 
@@ -91,7 +93,7 @@ Seuraavassa luettelossa on joitakin hyödyllisiä tietoja pikatapahtumien käytt
 
 Voit määrittää kenttiin pikasyötön käyttämällä mukauttamista.
 
-1. Aloita mukauttaminen valitsemalla ![Asetukset.](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") -kuvake ja sitten **Mukauta**-toiminto.
+1. Aloita mukauttaminen valitsemalla ensin ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake")-kuvake ja sitten **Mukauta**-toiminto.
 2. Valitse muutettava kenttä. Valitse luettelosta vastaava sarakeotsikko. Valitse sitten **Sisällytä pikasyöttöön** tai **Jätä pois pikasyötöstä** -valinta.
 
 Lisätietoja mukauttamisesta on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
@@ -118,7 +120,7 @@ Voit kopioida yhden tai useamman rivin luettelosta tai yhden kentän sivulla. Li
 
 Kopioi luettelossa kenttä yläpuolella olevan rivin samasta sarakkeesta ja liitä se nykyiselle riville painamalla F8-näppäintä.
 
-Lisätietoja on kohdassa [Kopioinnin ja liittämisen usein kysytyt kysymykset](faq-copy-paste.yml).
+Lisätietoja on kohdassa [Kopioinnin ja liittämisen usein kysytyt kysymykset](ui-copy-paste.md).
 
 ## <a name="filtering-line-items"></a>Rivinimikkeiden suodattaminen
 
@@ -134,9 +136,9 @@ Hyödyt erityisesti, kun työskentelet suurten rivinimikeluetteloiden parissa, j
 
 ### <a name="switching-the-focus-on-and-off"></a>Kohdituksen Kytkeminen Päälle ja Pois
 
-Jos haluat keskittyä rivikohteisiin, valitse missä tahansa rivikohteen osassa ja valitse sitten ![Kohdistustila-kuvake.](media/focus-mode.png "Tarkennustilan kuvake") oikeassa yläkulmassa tai paina näppäinyhdistelmää Ctrl+Vaihto+F12.
+Kohdista rivinimikkeisiin tekemällä valinta missä tahansa rivinimikkeen osassa ja valitse sitten ![Kohdistustilan kuvake](media/focus-mode.png "Tarkennustilan kuvake") oikeassa yläkulmassa tai paina Ctrl+Vaihto+F12.
 
-Jos haluat palata normaalinäkymään, valitse ![Tarkennustila-kuvake.](media/focus-mode.png "Tarkennustilan kuvake") tai paina Ctrl+Vaihto+F12 uudelleen.
+Voit palata takaisin normaalinäkymään valitsemalla ![Kohdistustilan kuvakkeen](media/focus-mode.png "Tarkennustilan kuvake") tai painamalla jälleen Ctrl+Vaihto+F12.
 
 ## <a name="multitasking-across-multiple-pages"></a>Monen tehtävän suorittaminen yhtä aikaa useilla sivuilla
 
@@ -146,21 +148,21 @@ Voit avata kortin tai asiakirjan sivun uudessa ikkunassa. Avaamalla uuden ikkuna
 - Hallita käynnissä olevan tehtävän keskeytyksiä, kuten saapuvan puhelun ottamista.
 - Pitää keskeneräisen tehtävän ikkunan avoinna samalla, kun aloitat tai suoritat toisen tehtävän toisessa ikkunassa.
 
-Jos haluat avata nykyisen kortin tai asiakirjan uudessa ikkunassa, valitse ![Avaa uusi ikkuna.](media/open-new-window-icon.png "Avaa uudessa ikkunassa -kuvake") oikeassa yläkulmassa tai paina näppäinyhdistelmää Alt+Vaihto+W.
+Avaa nykyinen kortti tai asiakirja uudessa ikkunassa valitsemalla ![Avaa uusi ikkuna](media/open-new-window-icon.png "Avaa uudessa ikkunassa -kuvake") oikeassa yläkulmassa, tai painamalla Alt+Vaihto+W.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-Jos haluat avata nykyisen kortin tai asiakirjan uudessa ikkunassa, valitse ![Avaa uusi ikkuna.](media/open-new-window-icon.png "Avaa uudessa ikkunassa -kuvake") oikeassa yläkulmassa tai paina näppäinyhdistelmää Alt+Vaihto+W.
+Avaa nykyinen kortti tai asiakirja uudessa ikkunassa valitsemalla ![Avaa uusi ikkuna](media/open-new-window-icon.png "Avaa uudessa ikkunassa -kuvake") oikeassa yläkulmassa, tai painamalla Alt+Vaihto+W.
 
 > [!NOTE]
-> Kun avaat uudessa ikkunassa avatusta kortista tai asiakirjasta muita sivuja, kyseiset sivut avautuvat uudessa ikkunassa, vaikka et valitsisi toimintoa ![Avaa uusi ikkuna.](media/open-new-window-icon.png "Avaa uudessa ikkunassa -kuvake").
+> Kun avaat uudessa ikkunassa avatusta kortista tai asiakirjasta muita sivuja, kyseiset sivut avautuvat uudessa ikkunassa, vaikka et valitsisi toimintoa ![Avaa uusi ikkuna](media/open-new-window-icon.png "Avaa uudessa ikkunassa -kuvake").
 
 > [!NOTE]
 > Jos käytössä on Safari-selain, ponnahdusikkunoiden esto voi estää uuden ikkunan avautumisen. Määritä siinä tapauksessa tuotteen URL-osoite sallituksi sivustoksi. Lisätietoja on kohdassa [Safarin asetusten muuttaminen](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Sama voi tapahtua muissakin selaimissa, kuten Firefoxissa. Lisätietoja on kohdassa [Firefoxin ponnahdusikkunoiden eston asetukset](https://go.microsoft.com/fwlink/?LinkId=2116400).  
 
-Toinen tapa tehdä useita toimintoja samanaikaisesti on avata [!INCLUDE[prod_short](includes/prod_short.md)] kahdessa tai useammassa välilehdessä. Kun noudatat tätä tapaa, luo uusi välilehti ja kopioi/liitä alkuperäisen välilehden URL-osoite uuteen välilehteen. Tämä tapa luo uuden istunnon.   
+Toinen tapa tehdä useita toimintoja samanaikaisesti on avata [!INCLUDE[d365fin](includes/d365fin_md.md)] kahdessa tai useammassa välilehdessä. Kun noudatat tätä tapaa, luo uusi välilehti ja kopioi/liitä alkuperäisen välilehden URL-osoite uuteen välilehteen. Tämä tapa luo uuden istunnon.   
 
 > [!NOTE]
 > Älä käytä selaimen **Monista**-toimintoa uuden välilehden luomiseen, koska se voi aiheuttaa toimintoja yhdelle välilehdelle estämään muiden välilehtien toiminnot, koska ne ovat osa samaa istuntoa.
@@ -240,9 +242,34 @@ Seuraavassa taulukossa on luettelo eri tavoista, joilla aikoja voi syöttää ja
 
  Jos et käytä erotinmerkkiä, jokaiselle aikayksikölle tulee syöttää kaksi numeroa.  
 
-## <a name="entering-combined-datetimes"></a>Yhdistettyjen päivämäärien ja aikojen syöttäminen
+## <a name="entering-datetimes"></a>Päivämäärien ja aikojen syöttäminen
 
-[!INCLUDE [datetimes](includes/datetimes.md)]
+Kun syötät päivämääriä ja aikoja, päivämäärän ja ajan väliin on lisättävä tyhjätilamerkki.  
+
+Seuraavassa taulukossa on luettelo eri tavoista, joilla päivämääriä ja aikoja voi syöttää ja miten niitä tulkitaan:  
+
+|Tapahtuma|Tulkinta|  
+|---------------|------------------------|  
+|`131202` 132455|13.12.02 13:24:55|  
+|1-12-02 10|01.12.02 10:00:00|  
+|1.12.02 5|01.12.02 05:00:00|  
+|1.12.02|01.12.02 00:00:00|  
+|11 12|11.nykyinen kuukausi.nykyinen vuosi 12:00:00|  
+|1112 12|11.12.nykyinen vuosi 12:00:00|  
+|t tai tänään|tämän päivän päivämäärä 00:00:00|  
+|a aika|tämän päivän pvm tämänhetkinen aika|  
+|t 10:30:00|tämän päivän päivämäärä 10:30:00|  
+|t 3:3:3|tämän päivän päivämäärä 03:03:03|  
+|k tai käsittelypvm|käsittelypvm 00:00:00|  
+|ma tai maanantai|nykyisen viikon maanantai 00:00:00|  
+|ti tai tiistai|nykyisen viikon tiistai 00:00:00|  
+|ke tai keskiviikko|nykyisen viikon keskiviikko 00:00:00|  
+|to tai torstai|nykyisen viikon torstai 00:00:00|  
+|pe tai perjantai|nykyisen viikon perjantai 00:00:00|  
+|la tai lauantai|nykyisen viikon lauantai 00:00:00|  
+|su tai sunnuntai|nykyisen viikon sunnuntai 00:00:00|  
+|ti 10:30:00|nykyisen viikon tiistai 10:30:00|  
+|ti 3:3:3|nykyisen viikon tiistai 03:03:03|  
 
 ## <a name="entering-duration"></a>Keston syöttäminen
 
@@ -265,16 +292,6 @@ Seuraavassa on muutamia esimerkkejä:
 
  Numero 5 muunnetaan 5 tunniksi, jos mittayksikkö on tunti.  
 
-## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Numeeristen näppäimistöjen käyttämän desimaalierottimen asettaminen
-
-Kun syötät tietoja numeronäppäimistön desimaalierottimen avulla, kenttään syötetty todellinen desimaali erotin määräytyy Business Centralin alueasetuksen mukaan. Määritä alue Business Centralin **Omat asetukset** -sivulla.
-
-Oletetaan esimerkiksi, että käytät numeronäppäimistöä, joka käyttää pistettä (.) desimaalierottimen näppäimenä. Mutta olet syöttämässä tietoja alueelliselle kielelle, joka käyttää pilkkua (**,**) desimaalierottimena, kuten tanskan (Tanska) tai ranskan (Ranska) kielessä. Haluat siis desimaalit kuten "1.23" syötettävän muodossa "1,23". Tässä tapauksessa voit siirtyä **Omat asetukset** -sivulle ja määrittää **alueen** kohdealuekieleksi, kuten **tanska (Tanska)** tai **ranska (Ranska)**. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md#region).
-
-## <a name="see-also"></a>Katso myös
-
-[Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+## <a name="see-also"></a>Katso myös  
+ [Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md)  
+ [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

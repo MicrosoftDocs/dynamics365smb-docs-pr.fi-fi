@@ -1,45 +1,44 @@
 ---
-title: Rakennetiedot – Fyysisen varaston asetukset
-description: Fyysisen varaston toiminnot sisältävät eri monimutkaisuustasoja, jotka määräytyvät suurelta osin sijaintikorttien varastopaikka-asetusten mukaan.
+title: Rakennetiedot – Fyysisen varastoinnin asetukset | Microsoft Docs
+description: Business Central-sovelluksen fyysisen varastoinnin toiminnolla on erilaisia monimutkaisuustasoja, jotka perustuvat valittavissa olevien yksiköiden käyttöoikeuksiin. Varastoratkaisun monimutkaisuuden taso määritellään laajasti binin asetusten mukaisesti sijaintikorteissa, joka vuorostaan on lisenssikontrolloitu niin, että binin määrityskenttien käyttö määritellään lisenssissä.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 9014836d228ee5bd01a74129fa0ba2aa0dd8dcea
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 44cbc7d42827b92f8983aa47b94d76760ddda8d2
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142339"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3924253"
 ---
 # <a name="design-details-warehouse-setup"></a>Rakennetiedot: f. varaston asetus
 
-[!INCLUDE[prod_short](includes/prod_short.md)]in fyysisen varastoinnin toiminnolla on erilaisia monimutkaisuustasoja, jotka perustuvat valittavissa olevien yksiköiden käyttöoikeuksiin. Varastoratkaisun monimutkaisuuden taso määritellään laajasti binin asetusten mukaisesti sijaintikorteissa, joka vuorostaan on lisenssikontrolloitu niin, että binin määrityskenttien käyttö määritellään lisenssissä. Lisäksi lisenssin sovellusobjektit hallitsevat mitä käyttöliittymäasiakirjaa käytetään tuetuille varastotoiminnoille.  
-<!--
-The following warehouse-related granules exist:  
+[!INCLUDE[d365fin](includes/d365fin_md.md)]in fyysisen varastoinnin toiminnolla on erilaisia monimutkaisuustasoja, jotka perustuvat valittavissa olevien yksiköiden käyttöoikeuksiin. Varastoratkaisun monimutkaisuuden taso määritellään laajasti binin asetusten mukaisesti sijaintikorteissa, joka vuorostaan on lisenssikontrolloitu niin, että binin määrityskenttien käyttö määritellään lisenssissä. Lisäksi lisenssin sovellusobjektit hallitsevat mitä käyttöliittymäasiakirjaa käytetään tuetuille varastotoiminnoille.  
 
-- Basic Inventory (4010)  
-- Bin (4170)  
-- Put Away (4180)  
-- Warehouse Receipt (4190)  
-- Pick (4200)  
-- Warehouse Shipment (4210)  
-- Warehouse Management Systems (4620)  
-- Internal Picks and Put-aways (4630)  
-- Automated Data Capture System (4640)
-- Bin Setup (4660)  
+Seuraavat varastoon liittyvät yksiköt ovat olemassa:  
 
-For more information about each granule, see [[!INCLUDE[prod_short](includes/prod_short.md)] Price Sheets](https://go.microsoft.com/fwlink/?LinkId=238341) (requires PartnerSource account). -->
+- Perusvarasto (4010)  
+- Varastopaikka (4170)  
+- Hyllytys (4180)  
+- F. varastoinnin vastaanotto (4190)  
+- Poiminta (4200)  
+- Fyysisen varaston toimitus (4210)  
+- Varastoinninhallintajärjestelmät (4620)  
+- Sisäiset poiminnat ja hyllytykset (4630)  
+- Automaattinen tiedonkeruujärjestelmä (4640)
+- Varastopaikan asetus (4660)  
 
-Seuraavassa taulukossa käsitellään mitä yksiköitä vaaditaan määrittämään eri fyysisen varastoinnin monimutkaisuustasot, mitkä käyttöliittymäasiakirjat tukevat kutakin tasoa ja mitkä sijaintikoodit heijastavat näitä tasoja [!INCLUDE[prod_short](includes/prod_short.md)]in esittelytietokannassa.  
+Lisätietoja kustakin yksiköstä on kohdassa [[!INCLUDE[d365fin](includes/d365fin_md.md)]in hinnastot](https://go.microsoft.com/fwlink/?LinkId=238341) (edellyttää PartnerSource-tiliä).  
 
-[!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+Seuraavassa taulukossa käsitellään mitä yksiköitä vaaditaan määrittämään eri fyysisen varastoinnin monimutkaisuustasot, mitkä käyttöliittymäasiakirjat tukevat kutakin tasoa ja mitkä sijaintikoodit heijastavat näitä tasoja [!INCLUDE[d365fin](includes/d365fin_md.md)]in esittelytietokannassa.  
 
-|Monimutkaisuustaso|Kuvaus|Käyttöliittymäasiakirja|Esimerkkisijainti|Yksikön vähimmäisvaatimus|  
+|Monimutkaisuustaso|Description|Käyttöliittymäasiakirja|CRONUS-sijainti|Yksikön vähimmäisvaatimus|  
 |----------------|-----------|-----------|---------------|---------------------------|  
 |1|Ei määritettyä fyysisen varaston toimintaa.<br /><br /> Vastaanotto-/toimituskirjaus tilauksista.|Tilaus|SININEN|Perusvarasto|  
 |2|Ei määritettyä fyysisen varaston toimintaa.<br /><br /> Vastaanotto-/toimituskirjaus tilauksista.<br /><br /> Lokerokoodi vaaditaan.|Tilaus varastopaikkakoodilla|HOPEINEN|Perusvarasto/lokero|  
@@ -52,7 +51,7 @@ Esimerkkejä käyttöliittymäasiakirjojen käytöstä kullakin fyysisen varasto
 
 ## <a name="bin-and-bin-content"></a>Varastopaikka ja varastopaikan sisältö
 
-Lokero on tallennuslaite, jonka tarkoituksena on tallentaa erilliset osat. Pienin [!INCLUDE[prod_short](includes/prod_short.md)]in varastoyksikkö. Varastopaikkojen nimikemääriä kutsutaan varastopaikan sisällöksi. **Nimike**- tai **Lokerokoodi**-kentästä suoritettu haku missä tahansa fyysiseen varastoon liittyvässä asiakirjassa näyttää lokerossa olevan nimikkeen lasketun saatavuuden.  
+Lokero on tallennuslaite, jonka tarkoituksena on tallentaa erilliset osat. Pienin [!INCLUDE[d365fin](includes/d365fin_md.md)]in varastoyksikkö. Varastopaikkojen nimikemääriä kutsutaan varastopaikan sisällöksi. **Nimike**- tai **Lokerokoodi**-kentästä suoritettu haku missä tahansa fyysiseen varastoon liittyvässä asiakirjassa näyttää lokerossa olevan nimikkeen lasketun saatavuuden.  
 
 Lokero sisällölle voidaan antaa ominaisuudeksi kiinteä, erityisvarastopaikka tai oletus, joka määrittää kuinka lokeron sisältöä voidaan käyttää. Varastopaikkoja, joilla ei ole näitä ominaisuuksia kutsutaan määrittelemättömiksi varastopaikoiksi.  
 
@@ -140,6 +139,3 @@ Poistettu malli voidaan kirjata nimikkeelle ja sijainnille. Poistettu malli mä�
 
 [Rakennetiedot: f. varaston hallinta](design-details-warehouse-management.md)   
 [Rakennetiedot: saatavuus varastossa](design-details-availability-in-the-warehouse.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,26 +1,27 @@
 ---
-title: Fyysisen varaston varausten etsiminen
-description: Tässä aiheessa kerrotaan, miten löydät sinulle nimikekorttisivulla määritetyt fyysisen varastoinnin varaukset, kun sinulle on luotu ohjeet.
+title: Fyysisen varaston määritysten etsiminen | Microsoft Docs
+description: Etsi fyysisen varaston varaukset avaamalla valitun nimikkeen korttisivu. Jos fyysisen varastoinnin ohjeita on luotu, Ota- ja Aseta-rivit ovat näkyvillä ja voit alkaa käsitellä tehtävää. Joissakin varastoissa esimies on voinut määrittää erityisiä ohjeita kullekin työntekijälle.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 5fe603b5cb2499c4b74e29725ee1747219d37e27
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: eadfc0d2e2dc89f1445a4def8f1ceb33cf7fae55
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141975"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5391597"
 ---
 # <a name="find-your-warehouse-assignments"></a>Fyysisen varaston varausten etsiminen
 Etsi fyysisen varaston varaukset avaamalla valitun nimikkeen korttisivu. Jos fyysisen varastoinnin ohjeita on luotu, Ota- ja Aseta-rivit ovat näkyvillä ja voit alkaa käsitellä tehtävää. Joissakin varastoissa esimies on voinut määrittää erityisiä ohjeita kullekin työntekijälle. Lisätietoja on kohdassa [Varastotyöntekijöiden määrittäminen](warehouse-how-to-set-up-warehouse-employees.md).
 
 ## <a name="to-find-an-instruction-assigned-to-you"></a>Sinulle määritellyn ohjeen etsiminen  
-1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston hyllytykset**, **Fyysisen varaston poiminnat** tai **Fyysisen varaston siirto** ja valitse sitten vastaava linkki.
+1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Fyysisen varaston hyllytykset**, **Fyysisen varaston keräilyt** tai **Fyysisen varaston siirto** ja valitse liittyvä linkki.
 
     Kaikkien fyysisten varastosijaintien määritykset näkyvät näillä kolmella sivulla.  
 

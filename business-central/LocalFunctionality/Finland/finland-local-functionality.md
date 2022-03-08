@@ -1,25 +1,26 @@
 ---
 title: Suomen paikalliset toiminnot
-description: Seuraavissa ohjeaiheissa kerrotaan Business Central -sovelluksen suomalaisen version erilaisista paikallisista toiminnoista.
+description: Seuraavissa ohjeaiheissa kerrotaan Business Central -sovelluksen suomalaisen version paikallisista toiminnoista.
+services: project-madeira
+documentationcenter: ''
 author: sorenfriisalexandersen
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 32000006
-ms.date: 06/18/2021
+ms.date: 04/01/2019
 ms.author: soalex
-ms.openlocfilehash: e76351be3b75fa9479981b9780764968ae0ad2ea
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1926dec2df0806aa40c2f15a97aff8b841c98243
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144195"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594198"
 ---
 # <a name="finland-local-functionality"></a>Suomen paikalliset toiminnot
-
-Seuraavissa ohjeaiheissa kerrotaan [!INCLUDE[prod_short](../../includes/prod_short.md)] -ohjelman suomalaisen version erityisistä paikallisista toiminnoista.  
+Seuraavissa ohjeaiheissa kerrotaan [!INCLUDE[d365fin](../../includes/d365fin_md.md)] -ohjelman suomalaisen version erityisistä paikallisista toiminnoista.  
 
 ## <a name="feature-availability"></a>Ominaisuuden käytettävyys
 
@@ -41,11 +42,6 @@ Seuraavissa ohjeaiheissa kerrotaan [!INCLUDE[prod_short](../../includes/prod_sho
     * [Poistoerojen kirjaaminen](posting-depreciation-differences.md) **Käytettävissä nyt**
 
 ## <a name="see-also"></a>Katso myös
+[[!INCLUDE[d365fin](../../includes/d365fin_md.md)] -ohjelman käyttäminen](../../ui-work-product.md)     
 
-[[!INCLUDE[prod_short](../../includes/prod_short.md)] -ohjelman käyttäminen](../../ui-work-product.md)  
-[Maa- ja aluekohtainen saatavuus ja tuetut kielet](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
-
-## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+## [!INCLUDE[d365fin](../../includes/free_trial_md.md)]  

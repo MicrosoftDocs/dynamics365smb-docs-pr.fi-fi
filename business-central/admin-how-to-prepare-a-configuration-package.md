@@ -1,20 +1,21 @@
 ---
-title: Määrityspaketin valmisteleminen
-description: Opi valmistelemaan RapidStart-määrityspaketti joka helpottaa uusien yritysten määrittämistä aiemmin luotujen tietojen perusteella.
+title: Määrityspaketin valmisteleminen | Microsoft Docs
+description: Tietoja RapidStart-määrityspaketista, joka helpottaa uusien yritysten määrittämistä aiemmin luotujen tietojen perusteella.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/23/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6bb0c48f1b6be3857ada32e4847d28be19c61580
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 659478fb593f16c4c0a8dd746ccdd61211bc7ecb
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147084"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752723"
 ---
 # <a name="prepare-a-configuration-package"></a>Määrityspaketin valmisteleminen
 
@@ -55,7 +56,7 @@ Tietokannasta, jolla on eri rakenne kuin kohdetietokanta, voi tuoda määrityspa
 
 ## <a name="to-create-a-configuration-package"></a>Luo määrityspaketti
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  
 2. Valitse **Uusi**-toiminto.  
 3. Täytä loput **Yleinen**-pikavälilehden kentät asianmukaisella tavalla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Sulje määrityskyselyt, kokoonpanomallit ja määritystyökirjojen taulukot valitsemalla **Jätä määritystaulukot pois** -valintaruutu. Muutoin nämä taulukot lisätään pakettitaulukoiden luetteloon automaattisesti, kun viet paketin.  
@@ -73,20 +74,8 @@ Määritä kentät, jotka sisältyvät pakkaukseen. Kaikki kentät ovat oletusar
     - Jos haluat valita vain sisällytettävät kentät, valitse **Tyhjennä sisällytetty** -toiminto. Jos haluat lisätä kaikki kentät, valitse **Aseta sisällytetty** -toiminto.  
     - Määrittääksesi, että kentän tietoja ei tule vahvistaa, poista **Tarkista kenttä** -valintaruutu.  
 
-10. Voit halutessasi käyttää käsittelysuodattimia taulukon tiedoille tai lisätä koodiyksikön, jossa on mitä tahansa pakettiin sisällytettävää koodia, valitsemalla asianomaisen taulukon rivin ja valitsemalla sitten **Käsittelysäännöt**-toiminnon.
-
-    1. Täytä kentät **Määritystaulukon käsittelysäännöt** -sivulla. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-
-        - Jos haluat käyttää suodattimia tietoihin, määritä asianmukainen toiminto **Toiminto**-kenttään, valitse **Käsittelysuodattimet**-toiminto ja täytä sitten kentät.  
-
-            Esimerkiksi arviointiyritysten Microsoftin konfigurointipaketit määrittävät käsittelysuodattimet **Myynnin tunnistetiedot**- ja **Oston tunnistetiedot** -taulukoihin.
-        - Jos haluat lisätä käsittelevän koodiyksikön, määritä se **Mukautetun käsittelyn koodiyksikön tunnus** -kentässä.
-
-          > [!NOTE]
-          > Tämän koodinyksikön on otettava taulukko 8614 *Määrityspaketin tietue* parametrina `OnRun`-metodissa.
-    2. Sulje sivu.
-11. Määritä, oletko toteuttanut mahdollisia virheitä, valitsemalla **Hyväksy paketti** -toiminto. Näin voi tapahtua, kun ei ole otettu mukaan taulukkoja, joihin määritykset perustuvat.  
-12. Valitse **OK**-painike.  
+10. Määritä, oletko toteuttanut mahdollisia virheitä, valitsemalla **Hyväksy paketti** -toiminto. Näin voi tapahtua, kun ei ole otettu mukaan taulukkoja, joihin määritykset perustuvat.  
+11. Valitse **OK**-painike.  
 
 Kun olet hienosäätänyt sisällytettävät kentät taulukosta, voit tarkistaa tulokset Excelissä.  
 
@@ -118,7 +107,7 @@ Voit tallentaa tiedoston nimellä, joka on sinulle merkityksellinen, mutta et vo
 
 Kun olet luonut paketin, joka täyttää suurimman osan tarpeistasi, voit käyttää sitä perustana luodaksesi vastaavia paketteja. Tämä voi nopeuttaa täytäntöönpanoaikaa ja parantaa RapidStart Servicesin toistettavuutta.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määrityspaketit** ja valitse sitten liittyvä linkki.  
 2. Valitse paketti luettelosta ja valitse sitten **Kopioi paketti** -toiminto.  
 3. Anna **Uusi pakettikoodi** -kentässän uuden paketin koodi.  
 4. Valitse **Kopioi tiedot** -valintaruutu, jos haluat myös kopioida tietokannan tiedot olemassa olevasta paketista.  
@@ -128,7 +117,7 @@ Kun olet luonut paketin, joka täyttää suurimman osan tarpeistasi, voit käytt
 
 Käytä määritystyökirjaa kerätäksesi ja luokitellaksesi tietoja, joita haluat käyttää, jotta voit määrittää uuden yrityksen ja järjestää taulukot loogisesti. Työkirjan muotoilu perustuu yksinkertaiseen hierarkiaan: alueet sisältävät ryhmiä, jotka sisältävät taulukoita. Alueet ja ryhmät ovat valinnaisia, mutta ne ovat tarpeen, jos haluat ottaa käyttöön yleiskuvan määritysprosessista RapidStart Servicesin roolikeskuksessa.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.  
 2. Valitse **Rivityyppi**-kentässä **Alue**. Anna **Nimi**-kentässä kuvaava nimi.  
 3. Valitse **Rivityyppi**-kentässä **Ryhmä**. Anna **Nimi**-kentässä kuvaava nimi.  
 4. Valitse **Rivityyppi**-kentässä **Taulukko**. Valitse **Taulukon tunnus** -kentässä taulukko, jonka haluat sisällyttää työkirjaan.  
@@ -147,7 +136,7 @@ Kun olet määrittänyt taulukot, jotka haluat käsitellä osana kokoonpanoa, vo
 > [!NOTE]  
 > Voit myös luoda paketin suoraan ja lisätä taulukot siihen. Lisätietoja on kohdassa [Määrityspaketin luominen](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.
 2. Valitse määritystyökirjassa rivi tai rivit määrityspakettiin määrittämistä varten. Vailtse sitten **Määritä paketti** -toiminto.  
 3. Valitse paketti luettelosta tai valitse **Uusi**-toiminto, jos haluat luoda uuden paketin. Valitse sitten **OK**-painike.  
 
@@ -158,7 +147,7 @@ Kun olet määrittänyt taulukot, jotka haluat käsitellä osana kokoonpanoa, vo
 
 Kun luot kokoonpanonpaketin ratkaisua varten, voit tarkastella ja mukauttaa käytettävissä olevia tietokannan tietoja vastaamaan asiakkaan tarpeita. Tietokannan taulukolla on oltava siihen liittyvä sivu.  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.
 2. Etsi määritystyökirjasta taulukot, joiden tietoja haluat tarkastella tai muokata.  
 
     > [!NOTE]  
@@ -172,7 +161,7 @@ Kun luot kokoonpanonpaketin ratkaisua varten, voit tarkastella ja mukauttaa käy
 Kun olet tarkistanut ja testannut kaikki asetustiedot, voit jatkaa tietojen kopioimiseen tuotantoympäristöön. Luo uusi yritys samaan tietokantaan.
 
 1. Avaa ja alusta uusi yritys.  
-2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.  
+2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.  
 3. Valitse **Kopioi tiedot yrityksestä** -toiminto.  
 4. Valitse **Kopioi yrityksen tiedot** -sivulla **Kopiointilähde**-kenttä. **Yritykset**-sivu avautuu.  
 5. Valitse yritys, josta tiedot kopioidaan, ja valitse sitten **OK**-painike. Määritystyökirjassa valittujen taulukoiden luettelo tulee esiin. Tähän luetteloon sisältyvät vain ne taulukot, jotka sisältävät tietueita.
@@ -185,7 +174,4 @@ Kun olet tarkistanut ja testannut kaikki asetustiedot, voit jatkaa tietojen kopi
 [Yrityksen konfiguroinnin määrittäminen](admin-set-up-company-configuration.md)  
 [Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)  
-[Konfigurointipaketin jäljityksen telemetrian analysointi](/dynamics365/business-central/dev-itpro/administration/telemetry-configuration-package-trace)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Konfigurointipaketin jäljityksen telemetrian analysointi](/dynamics365smb-devitpro/dev-itpro/administration/telemetry-configuration-package-trace)  

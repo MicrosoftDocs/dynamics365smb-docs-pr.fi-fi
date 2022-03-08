@@ -1,41 +1,41 @@
 ---
-title: Tietoja tuotantotilauksista
-description: Tietoja tuotantotilauksista ja siitä, miten niillä hallitaan ostettujen materiaalien muuntamista valmistetuiksi tuotteiksi.
+title: Tietoja tuotantotilauksista | Microsoft Docs
+description: Tuotantotilauksilla hallitaan ostettujen materiaalien muuntamista valmistetuiksi tuotteiksi. Tuotantotilaukset (työtilaukset) reitittävät työn tuotannon eri tuotantovälineisiin (tuotantosoluihin tai kuormitusryhmiin).
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000813, 99000814, 99000815, 99000816, 99000829, 99000830, 99000831, 99000832, 99000833, 99000838, 99000839, 99000867, 99000868, 99000882, 99000897, 99000898, 99000900, 99000912, 99000913, 99000914, 99000917
-ms.date: 06/22/2021
+ms.search.keywords: ''
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 568b8f119cf741a16b7d20560e541d7995b7834f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cc62673e83fa0a748164af57bf0a075ca325dde4
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135053"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3925003"
 ---
 # <a name="about-production-orders"></a>Tietoja tuotantotilauksista
-
 Tuotantotilauksilla hallitaan ostettujen materiaalien muuntamista valmistetuiksi tuotteiksi. Tuotantotilaukset reitittävät työn tuotannon eri tuotantosoluihin tai kuormitusryhmiin.  
 
 Ennen tuotannon aloittamista, useimmat yritykset suorittavat tuotantosuunnittelun (yleensä kerran viikossa). Tuotantosuunnittelussa lasketaan, kuinka monta tuotantotilausta ja ostotilausta on suoritettava, jotta viikon myyntikysyntä täytetään. Ostotilaukset määrittävät osat, joita tarvitaan tuotannon tuotantorakenteen mukaan lopputuotteiden valmistamiseen.
 
 Tuotantotilaukset kuuluvat keskeisesti sovelluksen tuotantotoimintoihin, ja niissä on mukana seuraavat tiedot:  
 
-- tuotteet, joiden valmistamista suunnitellaan  
-- suunnitelluissa tuotantotilauksissa tarvittavat materiaalit  
-- hiljattain valmistetut tuotteet  
-- valmiiksi valitut materiaalit  
-- aiemmin valmistetut tuotteet  
-- edeltävissä tuotanto-operaatioissa käytetyt materiaalit.  
+-   tuotteet, joiden valmistamista suunnitellaan  
+-   suunnitelluissa tuotantotilauksissa tarvittavat materiaalit  
+-   hiljattain valmistetut tuotteet  
+-   valmiiksi valitut materiaalit  
+-   aiemmin valmistetut tuotteet  
+-   edeltävissä tuotanto-operaatioissa käytetyt materiaalit.  
 
 Tuotantotilaukset toimivat lähtökohtana  
 
-- tulevan tuotannon suunnittelussa  
-- meneillään olevan tuotannon hallinnassa  
-- valmistuneen tuotannon seurannassa.  
+-   tulevan tuotannon suunnittelussa  
+-   meneillään olevan tuotannon hallinnassa  
+-   valmistuneen tuotannon seurannassa.  
 
 ## <a name="production-order-creation"></a>Tuotantotilausten luominen  
 Tuotantotilauksia voi luoda manuaalisesti tilaus kerrallaan **Tuotantotilaus**-sivulla, mutta niitä voi luoda myös **Myyntitilauksen suunnittelu**- tai **Tilauksen suunnittelu** -sivuilla. **Suunnittelutyökirja**-sivulla luodaan useita tilauksia.  
@@ -51,17 +51,17 @@ Seuraavien kohteiden tietoja käytetään tuotantotilausten luonnissa:
 ## <a name="limitations-on-production-order-creation"></a>Tuotantotilauksen luomiseen liittyviä rajoituksia  
 Tuotantotilaukset varataan ja niitä seurataan automaattisesti lähteeseen, kun  
 
-- Luotu **[suunnittelutyökirjasta](production-how-to-run-mps-and-mrp.md)**  
-- Luotu **[Tilauksen suunnittelu](production-how-to-create-production-orders-from-sales-orders.md)** -sivulta  
-- Luotu **[Tilauksen suunnittelu](production-how-to-plan-for-new-demand.md)** -sivulta  
-- **[Uudelleensuunnittele](production-how-to-replan-refresh-production-orders.md)**-toiminnon käyttäminen tuotantotilauksissa  
+-   ne luodaan **suunnittelutyökirjasta**  
+-   ne luodaan **Myyntitilauksen suunnittelu** -sivun tilaustoiminnolla  
+-   ne luodaan **Tilauksen suunnittelu** -sivulla  
+-   niissä käytetään tuotantotilausten **Uudelleensuunnittele**-toimintoa.  
 
 Lisätietoja on kohdassa [Kysynnän ja tarjonnan välisten suhteiden seuranta](production-how-track-demand-supply.md).
 
 Muilla keinoilla luotuja tuotantotilauksia ei varata eikä seurata automaattisesti.   
 
 ## <a name="production-order-status"></a>Tuotantotilauksen tila  
-Tuotantotilauksen tilan avulla hallitaan tuotantotilauksen toimintaa sovelluksessa. Tilauksen tila määrittää tuotannon muodon ja sisällön. Tuotantotilaukset näkyvät tilansa mukaisesti eri sivuilla. Tuotantotilauksen tilaa ei voi muuttaa manuaalisesti. Sinun täytyy käyttää **Muuta tilaa** -toimintoa yksittäisessä tuotantotilauksessa tai **Muuta tuotantotilauksen tila** -ikkunassa.  
+Tuotantotilauksen tilan avulla hallitaan tuotantotilauksen toimintaa sovelluksessa. Tilauksen tila määrittää tuotannon muodon ja sisällön. Tuotantotilaukset näkyvät tilansa mukaisesti eri sivuilla. Tuotantotilauksen tilaa ei voi muuttaa manuaalisesti; sen sijaan täytyy käyttää **Muuta tilaa** -toimintoa.  
 
 ### <a name="simulated-production-order"></a>Simuloitu tuotantotilaus  
 Seuraavat ominaisuudet tekevät simuloidusta tuotantotilauksesta yksilöllisen:  
@@ -110,16 +110,16 @@ Kun tuotantotilaus on luotu ja ajoitettu, se täytyy vapauttaa tuotantoon toteut
 - tilauksen käsittelyyn kuluva aika  
 - tuotetun päänimikkeen määrä.  
 
-Nämä tiedot voidaan kirjata manuaalisesti tai automaattisen raportoinnin välityksellä sen mukaan, miten tuotantosolussa oleva nimike on määritetty Materiaalinottotapa-kentässä.  
+Nämä tiedot voidaan kirjata manuaalisesti tai automaattisen raportoinnin välityksellä sen mukaan, miten nimikkeet on määritetty Materiaalinottotapa-kentässä.  
 
 ### <a name="material-consumption"></a>Materiaalin kulutus  
 Sovelluksessa on useita vaihtoehtoja sille, miten tuotantoyrityksen kannattaa kirjata materiaalikulutus. Esimerkiksi materiaalin kulutus voidaan tallentaa manuaalisesti. Tämä voi olla hyvä vaihtoehto, jos komponentteja korvataan usein toisilla tai hukkatavaran määrä on odotettua suurempi.  
 
-Materiaalin kulutusta voi käsitellä [kulutuspäiväkirjan](production-how-to-post-consumption.md) avulla, mutta sovellus voi kirjata kulutuksen myös automaattisesti. Tätä kutsutaan automaattiseksi raportoinniksi (materiaaliotto). Raportointimenetelmiä ovat  
+Materiaalin kulutusta voi käsitellä kulutuspäiväkirjan avulla, mutta sovellus voi kirjata kulutuksen myös automaattisesti. Tätä kutsutaan automaattisesti raportoinniksi. Raportointimenetelmiä ovat  
 
-- Manuaalinen  
-- Eteenpäin  
-- Taaksepäin  
+-   Manuaalinen  
+-   Eteenpäin  
+-   Taaksepäin  
 
 Manuaaliset kulutusraportit käyttävät kulutuspäiväkirjaa määrittämään materiaalin poiminta.  
 
@@ -130,14 +130,62 @@ Eteenpäin kulutusraportti - Tässä menetelmässä lähdetään siitä, että k
 
 Takautuva kulutusraportti – Tämä menetelmä on kaikkien automaattisesti valittujen tai kulutettujen materiaalien todellinen määrä, kun tuotantotilauksen tilaksi vaihdetaan *Valmis* – paitsi reitityslinkin koodeja käytettäessä. Reitityslinkin koodeja käytettäessä materiaali kulutetaan, kun toimintavaiheelle kirjataan tietty päänimikkeen määrä tuotospäiväkirjaan.  
 
-Kun tuotantotilaus päivitetään, materiaalinottotapa kopioidaan nimikkeen kortista. Koska tuotantotilauksen kunkin komponentin materiaalinottotapa ohjaa kulutuksen kirjaamisen tapaa ja ajankohtaa, on tärkeää muistaa, että yksittäisten nimikkeiden materiaalinottotapaa voi muuttaa suoraan tuotantotilauksesta. 
+Kun tuotantotilaus päivitetään, materiaalinottotapa kopioidaan nimikkeen kortista. Koska tuotantotilauksen kunkin komponentin materiaalinottotapa ohjaa kulutuksen kirjaamisen tapaa ja ajankohtaa, on tärkeää muistaa, että yksittäisten nimikkeiden materiaalinottotapaa voi muuttaa suoraan tuotantotilauksesta.  
 
-Lisätietoja on kohdassa [Komponenttien materiaalinotto toiminnan tuotoksen mukaan](production-how-to-flush-components-according-to-operation-output.md).
+#### <a name="automatic-consumption-posting-flushing"></a>Kulutuksen automaattinen kirjaaminen (materiaalinotto)  
+Automaattisesta materiaalinotosta on se hyöty, että syötettävien tietojen määrä vähenee huomattavasti. Kun operaation materiaalinotto voidaan toteuttaa automaattisesti, kulutuksen ja tuotosten koko kirjausprosessi voidaan automatisoida. Se haitta automaattisessa materiaalinotossa kuitenkin on, että hukkatavaran kirjauksessa voi olla virheitä tai hukkatavara voi jäädä kokonaan huomaamatta. Automaattisia raportointimenetelmiä ovat  
+
+- koko tilauksen Eteenpäin-materiaalinotto  
+- operaatiokohtainen Eteenpäin-materiaalinotto  
+- operaatiokohtainen Taaksepäin-materiaalinotto  
+- koko tilauksen Taaksepäin-materiaalinotto.  
+
+#### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Automaattinen raportointi - koko tilauksen Eteenpäin-materiaalinotto  
+Jos tuotantotilaukselle tehdään työn alussa Eteenpäin-materiaalinotto, sovellus toimii lähes samoin kuin manuaalista kulutusta käytettäessä. Suurin ero on siinä, että kulutus tapahtuu automaattisesti.  
+
+- Tuotannon tuoterakenteen koko sisältö kulutetaan ja vähennetään varastosta, kun vapautettu tuotantotilaus päivitetään.  
+- Kulutusmäärä on tuotannon tuoterakenteessa määritetyn kokoonpanokohtaisen määrän ja rakennettavien päänimikkeiden määrän tulo.  
+- Kulutuspäiväkirjaan ei tarvitse kirjata tietoja, jos kaikille nimikkeille on tarkoitus tehdä materiaalinotto.  
+- Kun varaston nimikkeitä kulutetaan, tuotospäiväkirjan tapahtumien kirjausajankohdalla ei ole merkitystä. Tuotospäiväkirjalla ei ole vaikutusta, kun kulutusta kirjataan tällä tavalla.  
+- Reitityslinkin koodeja ei voi määrittää.  
+
+Koko tilauksen Eteenpäin-materiaalinotto sopii tuotantoympäristöihin, joissa  
+
+-   valmistusvirheitä on vähän  
+-   toimenpiteitä on vähän  
+-   alkupään toimenpiteissä kulutetaan paljon komponentteja.  
+
+#### <a name="automatic-reporting---forward-flushing-by-operation"></a>Automaattinen raportointi - operaatiokohtainen Eteenpäin-materiaalinotto  
+Operaatiokohtaisen materiaalinoton avulla voit vähentää varastoa tietyn päänimikkeen reitityksen operaation aikana. Materiaali on sidottu reititykseen reitityslinkin koodeilla, jotka vastaavat komponenteille tuotannon tuoterakenteessa määritettyjä reitityslinkin koodeja.  
+
+Materiaalinotto tapahtuu, kun saman reitityslinkin koodin mukainen operaatio alkaa. Operaatio katsotaan alkaneeksi, kun sen tietoja kirjataan operaation tuotospäiväkirjaan. Kirjattavat tiedot voivat olla esimerkiksi asetusajan syöttäminen.  
+
+Materiaalinoton määrä on tuotannon tuoterakenteessa määritetyn kokoonpanokohtaisen määrän ja rakennettavien päänimikkeiden määrän tulo (oletettu määrä).  
+
+Tämä tekniikka sopii parhaiten tilanteisiin, joissa operaatioita on useita ja osaa komponenteista käytetään vasta loppupään kokoonpanovaiheessa. Just-in-Time (JIT) -mallissa nimikkeet eivät välttämättä edes ole käsillä, kun RPO aloitetaan.  
+
+Materiaalia voi kuluttaa operaatioiden aikana reitityslinkin koodien avulla. Kaikkia komponentteja ei välttämättä käytetä ennen viimeisiä kokoonpano-operaatioita, eikä niitä tule ottaa varastosta ennen sitä.  
+
+#### <a name="automatic-reporting---back-flushing-by-operation"></a>Automaattinen raportointi - operaatiokohtainen Taaksepäin-materiaalinotto  
+Operaatiokohtaisessa Taaksepäin-materiaalinotossa kulutus kirjataan sen jälkeen, kun operaatio on kirjattu tuotospäiväkirjaan.  
+
+Tästä menetelmästä on se hyöty, että operaation valmiiden osien määrä tunnetaan.  
+
+Tuotannon tuoterakenteen materiaali on linkitetty reititystietueisiin reitityslinkin koodeilla. Taaksepäin-materiaalinotto tapahtuu, kun sellainen tietyn reitityslinkin koodin mukainen operaatio kirjataan, jonka määrä on valmis.  
+
+Materiaalinoton määrä on tuotannon tuoterakenteessa määritetyn kokoonpanokohtaisen määrän ja kyseiseen operaatioon tuotoksen määränä kirjattujen päänimikkeiden määrän tulo. Se ei välttämättä ole sama kuin oletettu määrä.  
+
+#### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Automaattinen raportointi - koko tilauksen Taaksepäin-materiaalinotto  
+Reitityslinkin koodeja ei oteta huomioon tässä raportointimenetelmässä.  
+
+Komponentit valitaan vasta, kun vapautetun tuotantotilauksen tilaksi vaihtuu *Valmis*. Materiaalinoton määrä on tuotannon tuoterakenteessa määritetyn kokoonpanokohtaisen määrän ja valmistuneiden ja varastoon lisättyjen päänimikkeiden määrän tulo.  
+
+Taaksepäin-materiaalinoton käyttäminen koko tuotantotilauksessa edellyttää, että määritykset ovat samat kuin eteenpäin-materiaalinotossa: raportointitavaksi täytyy määrittää taaksepäin jokaisen nimikkeen kortissa ja se täytyy tehdä päätuoterakenteen kaikille raportoitaville nimikkeille. Myös kaikki reitityslinkin koodit täytyy poistaa tuotannon tuoterakenteesta.  
 
 ### <a name="production-output"></a>Tuotannon tuotos  
 Sovelluksen avulla voi seurata tuotantotilauksen käsittelyyn kuluvaa aikaa sekä kirjata tuotetun määrän. Näiden tietojen avulla tuotannon kustannusten määrittäminen sujuu aiempaa tarkemmin. Standardipohjaisia kustannuslaskentajärjestelmiä käyttävät valmistajat voivat myös halutessaan kirjata todellisia tietoja, joista on hyöytä entistä parempien standardien kehittämisessä.  
 
-Tuotos voidaan käsitellä [tuotospäiväkirjan](production-how-to-post-output-quantity.md) avulla, mutta sovellus voi myös kirjata sen automaattisesti. Sovellus kopioi materiaalinottotavan kuormitusryhmä- tai tuotantosolukortista tuotantotilauksen reititykseen päivityksen yhteydessä. Tuotoksesta voidaan materiaalin kulutuksen tavoin raportoida kolmella tavalla:  
+Tuotos voidaan käsitellä tuotospäiväkirjan avulla, mutta sovellus voi myös kirjata sen automaattisesti. Sovellus kopioi materiaalinottotavan kuormitusryhmä- tai tuotantosolukortista tuotantotilauksen reititykseen päivityksen yhteydessä. Tuotoksesta voidaan materiaalin kulutuksen tavoin raportoida kolmella tavalla:  
 
 - Manuaalinen  
 - Eteenpäin  
@@ -155,7 +203,7 @@ Sekä kulutuksessa että tuotoksessa voi käyttää mitä tahansa automaattisen 
 Jos kulutus ja tuotos lisätään manuaalisesi, näiden tietojen kirjausjärjestys täytyy määrittää. Voit kirjata kulutuksen ensin ja lisätä tuotoksen oletettuun määrään perustuvat tiedot pikamenetelmällä. Voit myös lisätä tuotoksen ensin **Pura reititys** -toiminnolla. Tämän jälkeen voit kirjata kulutuksen tuotoksen todellisen määrän perusteella.  
 
 ### <a name="production-journal"></a>Tuotantopäiväkirja  
-[Tuotantopäiväkirjassa](production-how-to-register-consumption-and-output.md) kulutus- ja tuotospäiväkirjojen toiminnot yhdistyvät yhdeksi päiväkirjaksi, joka voidaan avata suoraan vapautetusta tuotantotilauksesta.  
+Tuotantopäiväkirjassa kulutus- ja tuotospäiväkirjojen toiminnot yhdistyvät yhdeksi päiväkirjaksi, joka voidaan avata suoraan vapautetusta tuotantotilauksesta.  
 
 Tuotantopäiväkirjan tarkoitus on toimia yksittäisenä liittymänä, jonka avulla voit kirjata kulutuksen ja tuotoksen tuotantotilauksesta.  
 
@@ -181,12 +229,9 @@ Tuotantopäiväkirja eroaa kuitenkin seuraavilla tavoilla kulutus- ja tuotospäi
 Tuotantopäiväkirjassa kulutusmäärät kirjataan negatiivisina nimiketapahtumina, tuotoksen määrät kirjataan positiivisina tapahtumina ja käytetyn ajan tiedot kirjataan kapasiteettitapahtumina.  
 
 ## <a name="see-also"></a>Katso myös
-[Tuotanto](production-manage-manufacturing.md)
+[Tuotanto](production-manage-manufacturing.md)    
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
-[Suunnittelu](production-planning.md)  
+[Suunnittelu](production-planning.md)      
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)

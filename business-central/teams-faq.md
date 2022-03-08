@@ -2,19 +2,20 @@
 title: Teams – usein kysytyt kysymykset
 description: Hanki vastauksia joihinkin tyypillisiin kysymyksiin, jotka liittyvät Teamsin ja Business Centralin käyttöön.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 10/01/2021
+ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 34c669f955bebf84149959182bb1ce8bdeb139a0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6980e56f8bda750f9afae9bed6577bb1ab1fec49
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147490"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935209"
 ---
 # <a name="teams-faq"></a>Teams – usein kysytyt kysymykset
 
@@ -145,11 +146,7 @@ Microsoft saa jatkuvasti palautetta monipuoliselta käyttäjäyhteisöltä ja ot
 
 Jos haluat osallistua Teamsin sovelluksen parantamiseen tai sinulla on idea, joka auttaisi yksinkertaistamaan työtä tai yhteistyökokemuksia Teamsissa, lisää idea tai äänestä olemassa olevia ideoita osoitteessa [https://aka.ms/BusinessCentralIdeas](https://aka.ms/BusinessCentralIdeas).
 
-### <a name="where-can-i-find-teams-integration-inside-the-business-central-web-client"></a>Mistä löydän Teams-integroinnin Business Central -verkkoasiakkaan sisällä? 
-
-Teamsiin linkitetyn verkkoasiakkaan toimintojen osalta tietoja on kohdassa [Tietueiden ja sivulinkkien jakaminen Microsoft Teamsissa](across-working-with-teams.md#share-link).
-
-## <a name="search-for-contacts"></a>[Hae yhteyshenkilöitä](#tab/contacts)
+## <a name="searching-for-contacts"></a>[Yhteyshenkilöiden hakeminen](#tab/contacts)
 
 ### <a name="which-tables-does-the-app-search-in"></a>Missä taulukoissa sovellus tekee hakuja?
 
@@ -157,9 +154,7 @@ Kun yhteyshenkilöitä haetaan Teamsin [!INCLUDE [prod_short.md](includes/prod_s
 
 ### <a name="which-fields-in-the-contacts-table-can-i-search"></a>Missä yhteyshenkilötaulukon kentissä voi tehdä hakuja?
 
-Kun hakusanoja kirjoitetaan hakuruutuun, niitä verrataan useimpiin **Yhteyshenkilöt**-taulukon kenttiin. Näitä kenttiä ovat esimerkiksi **Nro**-, **Nimi**-ja **Osoite**-kentät, **Puhelinnro** tai **Matkapuhelinnro** ja **Sähköposti**. 
-
-Hakutermejä ei yhdistetä mukautettuihin kenttiin, joita sovellukset ja laajennukset ovat lisänneet **Yhteystiedot**-taulukkoon.
+Kun hakusanoja kirjoitetaan hakuruutuun, niitä verrataan useimpiin **Yhteyshenkilöt**-taulukon kenttiin. Näitä kenttiä ovat esimerkiksi **Nro**-, **Nimi**-ja **Osoite**-kentät, **Puhelinnro** tai **Matkapuhelinnro** ja **Sähköposti**.  
 
 ### <a name="do-search-results-include-companies-and-persons"></a>Sisältävätkö hakutulokset yritykset ja henkilöt?
 
@@ -243,7 +238,7 @@ Haku muista taulukoista ei ole mahdollista tällä hetkellä. Teamsin [!INCLUDE 
 
 Jos haluat, että hakuominaisuudet kehittyvät sisältämään muita taulukoita, yhteisöä kannustetaan lisäämään idea tai äänestämään aiemmin luotuja ideoita osoitteessa https://aka.ms/BusinessCentralIdeas.
 
-## <a name="work-with-cards"></a>[Korttien käsitteleminen](#tab/cards)
+## <a name="working-with-cards"></a>[Korttien käsitteleminen](#tab/cards)
 
 ### <a name="which-types-of-links-does-the-app-support"></a>Minkä tyyppisiä linkkejä sovellus tukee?
 
@@ -276,7 +271,7 @@ Kun kirjoitat ja lähetät viestin keskusteluun, jossa on kortti, kaikki käytt�
 
 Jos työskentelet eri [!INCLUDE [prod_short.md](includes/prod_short.md)] -yrityksissä, kysy järjestelmänvalvojalta yritystunnuksen käyttöönottoa jokaiselle yritykselle. Kun toiminto on käytössä, tämä selkeä vihje näkyy Teamsissa kaikissa tietoikkunoissa ja siinä näkyy yritys ja ympäristö, johon tietue kuuluu. Lisätietoja yritysmerkin määrittämisestä on ohjeaiheessa [Yrityksen tietojen nopea käyttäminen näyttämällä yrityksen tunnus](ui-change-basic-settings.md#badge).
 
-## <a name="work-with-card-details"></a>[Korttitietojen käsitteleminen](#tab/carddetails)
+## <a name="working-with-card-details"></a>[Korttitietojen käsitteleminen](#tab/carddetails)
 
 ### <a name="where-is-the-save-button-in-the-details-window-in-teams"></a>Missä on tietoikkunan Tallenna-painike Teamsissa?
 
@@ -306,7 +301,7 @@ Kyllä. Kaikki tietoikkunan [!INCLUDE [prod_short.md](includes/prod_short.md)] -
 
 Jos käytät [!INCLUDE [prod_short.md](includes/prod_short.md)] -ohjelman nykyisiä sijaintisi koordinaatteja käyttäviä toimintoja, kuten karttoja, sinun on käytettävä Teamsia selaimessa tai Teams-mobiilisovelluksessa. Sijainti ei ole käytettävissä, kun käytetään Teams-työpöytäsovellusta. 
 
-## <a name="collaborate-with-guests"></a>[Yhteistyö vieraiden kanssa](#tab/collaborating)
+## <a name="collaborating-with-guests"></a>[Yhteistyö vieraiden kanssa](#tab/collaborating)
 
 ### <a name="can-i-share-cards-with-users-outside-my-organization"></a>Voinko jakaa kortteja organisaation ulkopuolisten käyttäjien kanssa?
 
@@ -322,45 +317,13 @@ Jos haluat tietää vieraiden ja tiimin jäsenten kokemusten samankaltaisuuksist
 
 Vierailla ei ole pääsyä sovelluskauppaan, jotta he voisivat asentaa itse sovelluksia. Sovellus voidaan kuitenkin asentaa heille automaattisesti organisaatiosi käytäntöjen mukaan. Toinen tapa, jolla vieraskäyttäjä voi asentaa [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksen, on vastaanottaa chat-viesti, joka sisältää [!INCLUDE [prod_short.md](includes/prod_short.md)] -kortin. Tässä tapauksessa käyttäjä valitsee kortin **Tiedot**-painikkeen tai -valikon ja asentaa sitten [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksen käytettäväksi organisaatiosi kanssa. Sovelluksen asentamisen jälkeen käyttäjä ei automaattisesti saa mitään oikeuksia käyttää [!INCLUDE [prod_short.md](includes/prod_short.md)] -tietojasi.
 
-## <a name="share-to-teams"></a>[Jaa Teamsiin](#tab/share)
-
-### <a name="does-share-to-teams-send-a-compact-card"></a>Lähettääkö Jaa Teamsiin -toiminto kompaktin kortin? 
-
-Tällä hetkellä vain syvä linkki sivulle jaetaan. Vastaanottajat näkevät hyperlinkin viestissäsi, jonka kautta he voivat siirtyä [!INCLUDE [prod_short.md](includes/prod_short.md)]iin erilliseen selainikkunaan. 
-
-### <a name="will-recipients-receive-the-message-from-me-or-from-a-business-central-service-account"></a>Saavatko vastaanottajat viestin minulta vai Business Central -palvelutililtä? 
-
-Kun käytät Jaa Teamsiin -toimintoa, viesti lähetetään henkilölle, ryhmälle tai kanavalle, samalla lailla kuin jos olisit lähettänyt viestin itse Microsoft Teamsissa. Vastaanottajat näkevät viestisi käyttämässään Teams-asiakasohjelmassa ja voivat reagoida ja vastata tavalliseen tapaan. 
-
-### <a name="is-share-to-teams-available-in-business-central-on-premises"></a>Onko Jaa Teamsiin -toiminto saatavilla Business Central on-premises -versiolle? 
-
-Ei. Tämä toiminto on saatavilla vain verkkoasiakasohjelmalle [!INCLUDE [prod_short.md](includes/prod_short.md)] onlinessa samoin kuin Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus. [!INCLUDE [prod_short.md](includes/prod_short.md)] -käyttöönottotyyppejä, joita Microsoft ei isännöi tai hallitse – kuten paikallista, hybridipilveä tai yksityistä pilveä – ei tueta.
-
-### <a name="does-share-to-teams-grant-permissions-to-recipients"></a>Myöntääkö Jaa Teamsiin -toiminto käyttöoikeuksia vastaanottajille? 
-
-Ei. Kun jaat henkilön, ryhmän tai kanavan kanssa, käyttöoikeudet säilyvät ennallaan. Käyttäjät, joilla on jo oikeus tarkastella linkin osoittamia sivuja ja tietoja, voivat tehdä niin. Jos käyttäjällä ei ole oikeutta tarkastella kyseistä sivua tai tietoja tai hänellä ei ole [!INCLUDE [prod_short.md](includes/prod_short.md)] -käyttöoikeutta, näyttöön tulee virhe sanoma. 
- 
-### <a name="must-i-have-the-teams-desktop-app-installed-to-use-share-to-teams"></a>Pitääkö Teams-työpöytäsovellus olla asennettuna, jotta voin käyttää Jaa Teamsiin -toimintoa? 
-
-Ei. Kaikki tarvitsemasi on kelvollinen tili, jolla on Microsoft Teams -käyttöoikeus. 
-
-### <a name="is-share-to-teams-available-in-all-business-central-clients"></a>Onko Jaa Teamsiin -toiminto saatavilla kaikille Business Central -asiakasohjelmille? 
-
-Tällä hetkellä Jaa Teamsiin -toiminto on saatavilla ainoastaan työpöydän verkkoasiakkaalle ja tietoikkunassa Teamsissa.  
-
-### <a name="where-do-i-find-share-to-teams-in-business-central"></a>Mistä löydän Jaa Teamsiin -toiminnon Business Centralissa? 
-
-**Jaa Teamsiin -toiminto** löytyy kaikkien sivujen **Jaa**-valikosta, kuten kortti- ja asiakirjasivuista, luettelo- tai laskentataulukko-sivuista, mukaan lukien mukautetut sivut. Toiminto ei ole käytettävissä valintaikkunoissa tai sivuissa, jotka näkyvät valintaikkunoina, kuten hakusivuissa tai ohjatuissa toiminnoissa.
-
 ---
+
 ## <a name="see-also"></a>Katso myös
 
 [[!INCLUDE [prod_short](includes/prod_short.md)]in ja Microsoft Teamsin integroinnin yleiskatsaus](across-teams-overview.md)  
-[Microsoft Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen](across-install-app-for-teams.md)  
-[Asiakkaiden, toimittajien ja muiden yhteyshenkilöiden hakeminen Microsoft Teamsista](across-search-contacts-teams.md)  
-[Tietueiden jakaminen Microsoft Teams -keskusteluissa](across-working-with-teams.md)  
+[Asenna [!INCLUDE [prod_short](includes/prod_short.md)] -sovellus Microsoft Teamsiin](across-install-app-for-teams.md)  
 [Vianetsintä – Teams](admin-teams-troubleshooting.md)  
-[Yrityksen ja muiden asetusten muuttaminen Teamsissa](across-teams-settings.md)  
 [Teamsin integroinnin kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  

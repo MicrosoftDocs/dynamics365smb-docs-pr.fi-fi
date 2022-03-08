@@ -1,26 +1,26 @@
 ---
-title: Yleisen päiväkirjan kirjausrivin yleiskuva
-description: Tässä aiheessa on tietoja muutoksista Codeunit 12, Gen. Jnl.-Post -riviin, ja se on ainoa paikka, jossa voidaan lisätä kirjanpito-, ALV- sekä asiakas- ja toimittajatapahtumia.
+title: Yleisen päiväkirjarivin yleiskuvaus | Microsoft Docs
+description: Tässä ohjeaiheessa esitellään codeunitön 12, **Yleinen päiväkirja - rivin kirjaus**, tehdyt muutokset. Se on pääkirjanpidon kirjauksen tärkeä sovellusobjekti ja ainoa paikka, jossa lisätään pääkirja-, ALV-, asiakas- ja toimittajatapahtumia.
 author: SorenGP
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, general ledger, post
-ms.date: 06/15/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 2a4d9715f6fdfaef63bf6ac4090bb71d86346e51
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7ed6c60ddf1be51bbbc14eb8384cdc4ac05337ac
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146694"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5390222"
 ---
 # <a name="general-journal-post-line-overview"></a>Yleisen päiväkirjan kirjausrivin yleiskuva
-
 Codeunit 12, **Yleinen päiväkirja - rivin kirjaus**, on pääkirjanpidon kirjauksen tärkeä sovellusobjekti ja ainoa paikka, jossa lisätään pääkirja-, ALV- sekä asiakkaan ja toimittajan reskontratapahtumia. Tätä codeunitia käytetään myös Käytä-, Peruuta kohdistus- ja Peruuta-toiminnoissa.  
   
-Microsoft Dynamics NAV 2013 R2:n codeunit uusittiin, koska siitä oli tullut hyvin suuri, noin 7 600 koodiriviä. Arkkitehtuuri muutettiin ja codeunitista tehtiin yksinkertaisempi ja ylläpidettävämpi. Tässä ohjeessa kuvaillaan muutokset ja tiedot, joita tarvitset päivitystä varten.  
+Vaikka codeunitia on parannettu jokaisessa versiossa yli kymmenen vuoden ajan, sen arkkitehtuuri on pysynyt olennaisilta osiltaan samana. Codeunitista tuli suuri noin 7 600 rivien kanssa. Tässä [!INCLUDE[prod_short](includes/prod_short.md)] -versiossa arkkitehtuuria on muutettu ja codeunitista on tehty yksinkertaisempi ja ylläpidettävämpi. Tässä ohjeessa esitellään muutokset ja tiedot, joita tarvitset päivitystä varten.  
   
 ## <a name="old-architecture"></a>Vanha arkkitehtuuri  
 Vanhassa arkkitehtuurissa oli seuraavat ominaisuudet:  
@@ -43,11 +43,9 @@ Vanhassa arkkitehtuurissa oli seuraavat ominaisuudet:
 * Monet aputoiminnot on siirretty vastaaviin asiakkaan ja toimittajan tapahtumataulukoihin.  
 * Yleisten muuttujien käyttö on minimoitu, jotta jokainen toimintosarja käyttää parametreja ja kapseloi oman sovelluslogiikkansa.  
   
-## <a name="see-also"></a>Katso myös
-
-[Rakenteen tiedot: Kirjausliittymän rakenne](design-details-posting-interface-structure.md)  
-[Rakenteen tiedot: Kirjausohjelman rakenne](design-details-posting-engine-structure.md)  
-[Rakenteen tiedot: Yleisen päiväkirjan kirjausrivi (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  
+## <a name="see-also"></a>Katso myös  
+[Rakenteen tiedot: Kirjausliittymän rakenne](design-details-posting-interface-structure.md)   
+[Rakenteen tiedot: Kirjausohjelman rakenne](design-details-posting-engine-structure.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,22 @@
 ---
-title: Toiminnallisten näkemysten näyttäminen roolikeskuksissa
-description: Tietoa siitä, miten olennaisten liiketoimintanäkemysten laajennus kierrättää liiketoiminnan näkemyksiä roolikeskuksissa.
+title: Toiminnallisten näkemysten näyttäminen roolikeskuksissa | Microsoft Docs
+description: Olennaisten liiketoimintanäkemysten laajennus kierrättää liiketoiminnan näkemyksiä roolikeskuksissa.
 documentationcenter: ''
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: BI, add-in, insight, headline, data
-ms.date: 06/23/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: 75081547af3c98233870d0cbe68860ab52d8c38d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 08a955f9fb2698b95e8cc92648be0e7c0bfe6e6c
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134767"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311258"
 ---
 # <a name="the-essential-business-insights-extension"></a>Essential-liiketoimintatietojen laajennus
 Olennaisten liiketoimintanäkemysten laajennus etsii kiinnostavia liiketoimintatietoja yrityksen tiedoista ja näyttää ne sanomalehdistä tutuksi tulleiden otsikoiden tyyliin roolikeskuksissa. Näkemykset ovat edellisen viikon, edellisen kuukauden tai kolmen edellisen kuukauden ajalta riippuen siitä, millaisia tietoja laajennus löytää. Näkemykset päivitetään 10 minuutin välein.  
@@ -36,7 +37,4 @@ Seuraavassa taulukossa esitellään näkemykset, jotka tämä laajennus tarjoaa 
 |Järjestelmänvalvoja| Näyttää tervehdyksen ja linkin tuotetietoihin.|
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[prod_short](includes/prod_short.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[[!INCLUDE[d365fin](includes/d365fin_md.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)

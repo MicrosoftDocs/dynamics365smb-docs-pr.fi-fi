@@ -1,20 +1,21 @@
 ---
-title: Eräkokojen käsitteleminen
+title: Eräkokojen käsitteleminen | Microsoft Docs
 description: Tässä ohje aiheessa kuvataan eri tapoja käsitellä eräkokoja.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: ''
-ms.date: 04/01/2021
+ms.search.keywords: ''
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 6d6316fbe214512f5d42622c47502a4361ce604e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6f07828e969d5a8394657bc1e05d44156ada5411
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135748"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4749016"
 ---
 # <a name="handling-lot-sizes-in-production"></a>Eräkokojen käsitteleminen tuotannossa
 Määrän osalta tuotantotoiminnossa tuotettujen nimikkeiden määrä ei välttämättä korreloi niiden myynnin kanssa. Voit esimerkiksi tuottaa satoja nimikkeitä yksittäisessä erässä, mutta myydä jokaisen nimikkeen yksittäin. Kun tuotantoreitit ja tuoterakenteet määritetään, on olemassa muutamia asioita, joita kannattaa miettiä eräkokojen osalta. Tässä ohjeaiheessa kuvataan, miten eräkoot vaikuttavat kustannusten laskentaan ja resurssien suunnitteluun.
@@ -51,6 +52,3 @@ Toimitusten suunnittelulle nimikkeiden eräkoon asetus toimii **Tuotannon asetuk
 [Tuotantoerän mittayksiköiden käyttäminen](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)
 [Reititysten luonti](production-how-to-create-routings.md)  
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

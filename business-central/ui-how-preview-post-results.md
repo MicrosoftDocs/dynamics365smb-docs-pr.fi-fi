@@ -1,25 +1,28 @@
 ---
-title: Tapahtumien esikatselu ennen asiakirjan tai päiväkirjan kirjaamista
+title: Tapahtumien esikatselu ennen asiakirjan tai päiväkirjan kirjaamista | Microsoft Docs
 description: Voit varmistaa, että asiakirjojen ja päiväkirjojen tapahtumat ovat oikein, ennen kuin kirjaat ne pääkirjanpitoon.
+services: project-madeira
+documentationcenter: ''
 author: SusanneWindfeldPedersen
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: solsen
-ms.openlocfilehash: 0b367c59b3d9be298fa7f42fe0b94018d99c94a5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fa57a5ecce6553ce9315e4cd205f3367d9664bda
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148224"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3910178"
 ---
 # <a name="preview-posting-results"></a>Kirjaustulosten esikatselu
 Voit valita jokaiselle asiakirjalle ja päiväkirjalle **Esikatsele kirjausta** -painikkeen. Sen avulla voit tarkastella eri tapahtumatyyppejä, joita luodaan asiakirjan tai päiväkirjan kirjaamisen yhteydessä.
 
 ## <a name="to-preview-gl-entries-that-will-result-from-posting-a-purchase-invoice"></a>Ostolaskun kirjaamisen tuloksena saatavien KP-tapahtumien esikatselu
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Ostolaskut** ja valitse sitten liittyvä linkki.
 2. Luo uusi ostolasku. Lisätietoja on kohdassa [Ostojen kirjaaminen](purchasing-how-record-purchases.md).
 3. Valitse **Esikatsele kirjausta**.
 4. Valitse **Kirjauksen esikatselu** -sivulla **KP-tapahtuma** ja valitse sitten **Näytä aiheeseen liittyvät tapahtumat**.  
@@ -27,8 +30,5 @@ Voit valita jokaiselle asiakirjalle ja päiväkirjalle **Esikatsele kirjausta** 
 
 ## <a name="see-also"></a>Katso myös
 [Asiakirjojen ja päiväkirjojen kirjaaminen](ui-post-documents-journals.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

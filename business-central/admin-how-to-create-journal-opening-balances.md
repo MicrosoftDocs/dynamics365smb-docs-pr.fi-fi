@@ -1,24 +1,25 @@
 ---
-title: Kirjauskansion alkusaldojen luominen
-description: Eräajot helpottavat uuden määritetyn yrityksen vanhojen tilien saldojen siirtämistä. Voit helposti siirtää nämä tiedot ja kirjauskansion kirjaukset.
+title: Kirjauskansion alkusaldojen luominen | Microsoft Docs
+description: Business Central sisältää useita eräajoja, jotka helpottavat uuden määritetyn yrityksen vanhojen tilien saldojen siirtämistä. Voit helposti siirtää nämä tiedot ja kirjauskansion kirjaukset.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 01/24/2022
+ms.date: 07/14/2020
 ms.author: edupont
-ms.openlocfilehash: de528dd08911b49f7bf09dc541615da93fd190cc
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9984d61e97ff6c04733bd10818deb1d6cf57a66c
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145033"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783624"
 ---
 # <a name="create-journal-opening-balances"></a>Kirjauskansion alkusaldojen luominen
 
-[!INCLUDE[prod_short](includes/prod_short.md)] sisältää useita eräajoja, jotka helpottavat uuden määritetyn yrityksen vanhojen tilien saldojen siirtämistä. Voit helposti siirtää nämä tiedot asiakkaan kirjauskansioon, toimittajan kirjauskansioon, nimikepäiväkirjaan tai KP-päiväkirjaan.
+[!INCLUDE[d365fin](includes/d365fin_md.md)] sisältää useita eräajoja, jotka helpottavat uuden määritetyn yrityksen vanhojen tilien saldojen siirtämistä. Voit helposti siirtää nämä tiedot asiakkaan kirjauskansioon, toimittajan kirjauskansioon, nimikepäiväkirjaan tai KP-päiväkirjaan.
 
 Ensimmäiseksi luodaan kokoonpanopaketti, johon sisältyvät kyseisten päiväkirjojen asetustaulukot. Seuraavassa toimenpiteessä oletetaan, että tämä vaihe on suoritettu. Lisätietoja on kohdassa [Yrityksen konfiguraation määrittäminen](admin-set-up-company-configuration.md). Näissä ohjeissa kuvataan seuraavat vaiheet, joihin kuuluu yhteistyökumppanin toimittaman paketin käyttöönotto.  
 
@@ -43,16 +44,10 @@ Varmista ennen aloittamista, että käytät järjestelmänvalvojan roolikeskukse
 10. Toista vaiheet tuodaksesi ja kirjataksesi muut mahdolliset avaussaldot.  
 
 > [!TIP]
-> Voit käyttää samoja eräajoja avaussaldojen lisäämiseen aina kun rekisteröit uuden asiakkaan tai toimittajan, jonka kanssa sinulla on ollut liiketoimintaa aiemmin, mutta et ole rekisteröitynyt kohteeseen [!INCLUDE [prod_short](includes/prod_short.md)]. Etsi vain haluamasi tehtävä ja valitse sitten asianmukainen linkki.
-
-> [!IMPORTANT]
-> Erityisesti pankkitilien alkusaldoja avattaessa tämän artikkelin ohjeita, joiden mukaan kirjaus tulisi lähettää suoraan asianomaisiin pankkitileihin liittyviin KP-tileihin, ei tulisi noudattaa. Lisätietoja on kohdassa [Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md).  
+> Voit käyttää samoja eräajoja avaussaldojen lisäämiseen aina kun rekisteröit uuden asiakkaan tai toimittajan, jonka kanssa sinulla on ollut liiketoimintaa aiemmin, mutta et ole rekisteröitynyt kohteeseen [!INCLUDE [prodshort](includes/prodshort.md)]. Etsi vain haluamasi tehtävä ja valitse sitten asianmukainen linkki.
 
 ## <a name="see-also"></a>Katso myös
 
 [Kokoonpanojen käyttäminen uusissa yrityksissä](admin-apply-configuration-to-new-companies.md)  
 [Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)  
 [Hallinta](admin-setup-and-administration.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

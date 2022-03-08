@@ -2,19 +2,20 @@
 title: Sähköisen tiedonvaihdon määrittäminen | Microsoft Docs
 description: Voit käyttää ulkoista OCR-palvelua PDF- tai kuvatiedostojen muuntamiseen sähköisiksi asiakirjoiksi.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: ba59e1164dbbe4cdd95cca31687b63db2af8018c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c89f605849d60f25a1ee46f9382d4275ff9ab088
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129231"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5384322"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Tietojenvaihtomääritysten määrittäminen
 Voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in vaihtamaan tiettyjen taulukoiden tietoja ulkoisten tiedostojen kanssa. Tällöin voit esimerkiksi lähettää ja vastaanottaa sähköisiä asiakirjoja sekä tuoda ja viedä pankkitietoja tai muita tietoja, kuten palkanlaskennan tietoja, vaihtokursseja ja tuoteluetteloita. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).  
@@ -94,8 +95,8 @@ Tämä kuvataan seuraavissa menettelytavoissa.
     |**Sarakkeen nro**|Määritä määrä, joka kuvaa sarakkeen sijaintia tiedostorivillä.<br /><br /> Määritä XML-tiedostojen osalta luku, joka ilmaisee tiedostossa olevien tietojen elementin tyyppiä.|  
     |**Nimi**|Määritä sarakkeen nimi.<br /><br /> Määritä XML-tiedostojen osalta merkintä, joka merkitsee siirrettävät tiedot.|  
     |**Tietotyyppi**|Määritä, onko vaihdettavat tiedot tyyppiä **Teksti**, **Päivämäärä** vai **Desimaali**.|  
-    |**Tietojen muoto**|Määritä tietomuoto, jos sellainen on. Esimerkiksi **-kk-pp-vvvv**, jos tietotyyppi on **Päivämäärä**. **Huomautus:** Määritä tietojen muoto vientiä varten [!INCLUDE[prod_short](includes/prod_short.md)]in mukaan. Määritä tietojen muoto vientiä varten .NET Frameworkin mukaan. Lisätietoja on kohdassa [Vakiomuotoiset päivämäärä- ja aikamerkkijonot](/dotnet/standard/base-types/standard-date-and-time-format-strings).|  
-    |**Tietojen muotoilun maa-asetus**|Määritä tiedontallennusmuototapa, jos sellainen on. Esimerkiksi **fi-fi**, jos tietotyyppi on **Desimaali**, jotta varmistetaan, että pilkkua käytetään erottimena suomalaisen muodon mukaisesti. Lisätietoja on kohdassa [Vakiomuotoiset päivämäärä- ja aikamerkkijonot](/dotnet/standard/base-types/standard-date-and-time-format-strings). **Huomautus:** Tätä kenttää käytetään vain tuonnissa.|  
+    |**Tietojen muoto**|Määritä tietomuoto, jos sellainen on. Esimerkiksi **-kk-pp-vvvv**, jos tietotyyppi on **Päivämäärä**. **Huomautus:** Määritä tietojen muoto vientiä varten [!INCLUDE[prod_short](includes/prod_short.md)]in mukaan. Määritä tietojen muoto vientiä varten .NET Frameworkin mukaan. Lisätietoja on kohdassa [Vakiomuotoiset päivämäärä- ja aikamerkkijonot](https://go.microsoft.com/fwlink/?LinkID=323466)|  
+    |**Tietojen muotoilun maa-asetus**|Määritä tiedontallennusmuototapa, jos sellainen on. Esimerkiksi **fi-fi**, jos tietotyyppi on **Desimaali**, jotta varmistetaan, että pilkkua käytetään erottimena suomalaisen muodon mukaisesti. Lisätietoja on kohdassa [Vakiomuotoiset päivämäärä- ja aikamerkkijonot](https://go.microsoft.com/fwlink/?LinkID=323466) **Huomautus:** Tätä kenttää käytetään vain tuonnissa.|  
     |**Pituus**|Määritä kiinteäleveyksisten rivien pituudet, jotka käsittävät sarakkeen, jos tiedosto on tyyppiä **Kiinteä teksti**.|  
     |**Kuvaus**|Kirjoita sarakkeen kuvaus tiedoksi.|  
     |**Polku**|Määritä elementin sijainti liittyvässä XML-kaavassa.|  

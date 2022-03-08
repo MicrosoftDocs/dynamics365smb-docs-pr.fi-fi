@@ -1,20 +1,21 @@
 ---
-title: Rakennetiedot – nimikeseurannan kirjauksen rakenne
-description: Lisätietoja nimiketapahtumien käyttämisestä nimikkeen seurantanumeroiden ensisijaisina lähteinä nimikeseurannan kirjauksen rakenteessa.
+title: Rakennetiedot – nimikkeen seurannan kirjauksen rakenne | Microsoft Docs
+description: Lisätietoja nimiketapahtumien käyttämisestä nimikkeen seurantanumeroiden ensisijaisina lähteinä.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, item tracking, posting, inventory
-ms.date: 06/15/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: b568e62a71b907e8d2f9cbc8eba43773be655b44
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d7b5041ecca410616035fcd98df121ad924d405e
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136320"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787494"
 ---
 # <a name="design-details-item-tracking-posting-structure"></a>Rakennetiedot: nimikkeen seurannan kirjauksen rakenne
 Varaston arvostustoiminnon hyödyntämiseksi ja yksinkertaisen ja vakaan ratkaisun saavuttamiseksi nimikkeen seurantanumeroiden ensisijaisena lähteenä käytetään nimiketapahtumia.  
@@ -47,5 +48,3 @@ Koodiyksikkö 22 käy läpi silmukassa nimikkeen seurantanumerot ja jakaa kirjau
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: nimikkeen seuranta](design-details-item-tracking.md)   
 [Rakennetiedot: nimikkeen seurannan rakenne](design-details-item-tracking-design.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

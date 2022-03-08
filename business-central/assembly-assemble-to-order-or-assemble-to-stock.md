@@ -1,20 +1,21 @@
 ---
-title: Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista
-description: Kokoonpanonimikkeet voidaan toimittaa kokoamalla ne tilauksen yhteydessä tai kokoamalla ne varastoon odottamaan myyntitilausta.
+title: Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista | Microsoft Docs
+description: Kokoonpanonimikkeet voidaan toimittaa joko kokoamalla ne tilauksen yhteydessä tai kokoamalla ne varastoon odottamaan myyntitilausta.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 06/15/2021
+ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: 1f90e732f71e59f37aa4e81bd87101979ef8aa0b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 89a2e2390950bbba0f5d0e93db5ed72359fd637f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128946"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4747414"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista
 Kokoonpanon osat voidaan toimittaa seuraavaan kahteen prosessiin:  
@@ -69,34 +70,22 @@ Kun syötät myyntiriville kokoonpano tilausta varten nimikkeen, kokoonpanotilau
 
  Voit esimerkiksi muokata kokoonpanomäärää, jos haluat kirjata varastomäärän toimituksen osittain, ennen kuin koko kokoonpanomäärä voidaan toimittaa.  
 
- Seuraavissa taulukoissa käsitellään sääntöjä, joilla määritetään pienin ja suurin **Kokoonpantava määrä** -kenttään annettava arvo, kun halutaan poiketa yhdistelmätilanteen oletusarvosta. Taulukossa näkyy yhdistelmätilanne, jossa linkitetyn myyntitilausrivin arvo **Toimitettava määrä** -kentässä muutetaan 7:stä 4:ksi, ja **Kokoonpantava määrä** -oletusarvoksi tulee sen vuoksi 4.  
+ Seuraavassa taulukossa käsitellään sääntöjä, joilla määritetään pienin ja suurin **Kokoonpantava määrä** -kenttään annettava arvo, kun halutaan poiketa yhdistelmätilanteen oletusarvosta. Taulukossa näkyy yhdistelmätilanne, jossa linkitetyn myyntitilausrivin arvo **Toimitettava määrä** -kentässä muutetaan 7:stä 4:ksi, ja **Kokoonpantava määrä** -oletusarvoksi tulee sen vuoksi 4.  
 
-- Myyntitilausrivi
+|-|Myyntitilausrivi|Kokoonpanotilauksen otsikko|  
+|-|----------------------|---------------------------|  
+||**määrä**|**Toimitettava määrä**|**Kokoonpantava määrä tilausta varten**|**Toimitettu määrä**|**Määrä**|**Kokoonpantava määrä**|**Kokoonpantu määrä**|**Jäljellä oleva määrä**|  
+|Alku|10|7|7|0|7|7|0|7|  
+|Vaihtoraha||4||||4 (lisätään oletusarvon mukaan)|||  
 
-    |                | **määrä** | **Toimitettava määrä** | **Kokoonpantava määrä tilausta varten** | **Toimitettu määrä** |
-    |----------------|--------------|------------------|-------------------------------|----------------------|
-    |**Alkuarvo**| 10          | 7                | 7                             | 0                    |
-    |**Muutos**      |              | 4                |                               |                      |
+ Edellä mainitun tilanteen perusteella voit muuttaa vain **Kokoonpantava määrä** -kentän seuraavasti:  
 
-- Kokoonpanotilauksen otsikko
+-   Pienin määrä, joka voidaan syöttää on 1. Tämä johtuu siitä, että ainakin yksi yksikkö on koottava, jotta voit myydä neljä yksikköä, olettaen, että loput kolme ovat saatavilla varastossa.  
+-   Suurin määrä, joka voidaan syöttää on 4. Näin varmistetaan, että tilaukselle ei koota enempää nimikkeitä kuin mitä myyntiin tarvitaan.  
 
-    |                | **määrä** | **Toimitettava määrä** | **Kokoonpantava määrä tilausta varten** | **Toimitettu määrä** |
-    |----------------|--------------|------------------|-------------------------------|----------------------|
-    |**Alkuarvo**| 7           | 7                | 0                             | 7                    |
-    |**Muutos**      |              | 4 (lisätään oletusarvon mukaan)|                         |                      |
-
-Tämän esimerkin perusteella voit muuttaa vain **Kokoonpantava määrä** -kentän seuraavasti:  
-
-- Pienin määrä, joka voidaan syöttää on 1. Tämä johtuu siitä, että ainakin yksi yksikkö on koottava, jotta voit myydä neljä yksikköä, olettaen, että loput kolme ovat saatavilla varastossa.  
-- Suurin määrä, joka voidaan syöttää on 4. Näin varmistetaan, että tilaukselle ei koota enempää nimikkeitä kuin mitä myyntiin tarvitaan.  
-
-## <a name="see-also"></a>Katso myös
-
+## <a name="see-also"></a>Katso myös  
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
