@@ -1,30 +1,29 @@
 ---
-title: Markkinoinnin ja kontaktien hallinnan määrittäminen| Microsoft Docs
+title: Markkinoinnin ja kontaktien hallinnan tietojen määrittäminen
 description: Voit määrittää markkinoinnin ja kontaktien hallinnan Business Centralissa optimoimaan prospektien tai asiakkaiden suhteita sekä parantamaan kampanjoita ja tarjouksia.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect, client, customer, campaign, promo
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 31d0b10e3876b82d07c90daad381f2cf73e45ee4
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.forms: 5172, 5173, 5170, 5094, 429
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 8f43e37b540c9e3b3a89299f8609af7aea8398e9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181218"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130326"
 ---
 # <a name="setting-up-relationship-management"></a>Kontaktienhallinnan määrittäminen
+
 Ennen kuin aloitat kontaktien ja markkinoinnin käsittelemisen, määritä, miten markkinoinnissa hallitaan tiettyjä kontakteihin liittyviä asioita. Voit määrittää esimerkiksi sen, synkronoidaanko kontaktin kortti asiakkaan, toimittajan vai pankkitilin kortin kanssa, miten numerosarjat määritetään tai millainen vakiotervehdys kontakteille lähetetään.
 
 Kontaktien hallinta ja strategian luominen asiakkaiden tunnistamiseksi, houkuttelemiseksi ja säilyttämiseksi auttaa liiketoiminnan optimoinnissa ja asiakastyytyväisyyden parantamisessa. Hyvän kontaktienhallintajärjestelmän käyttäminen auttaa myös asiakassuhteiden luomisessa ja ylläpitämisessä. Tärkein tekijä asiakassuhteissa on yhteydenpito. Yrityksen menestyksen kannalta on keskeistä, että yhteydenpito mahdollisiin ja olemassa oleviin asiakkaisiin, toimittajiin ja liikekumppaneihin pystytään mukauttamaan kulloisinkiin tarpeisiin. Strategian muodostaminen ja yhteystietojen käytön määrittäminen on ensimmäinen vaihe. Näitä tietoja tarkastelevat useat yrityksen ryhmät, joten hyvän järjestelmän avulla jokainen käyttäjä voi lisätä tuottavuuttaan.
 
-Voit määrittää markkinoinnin ja kontaktien hallinnan **Kontaktienhallinnan asetukset** -sivulla. Jos haluat avata **Markkinoinnin asetukset** -sivun, valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeen, anna **Markkinoinnin asetukset** ja valitse liittyvä linkki.
+Voit määrittää markkinoinnin ja kontaktien hallinnan **Kontaktienhallinnan asetukset** -sivulla. Avataksesi **Kontaktienhallinnan asetukset** -sivun valitse ![Kerro-ominaisuuden avaava hehkulamppu.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktienhallinnan asetukset** ja valitse sitten vastaava linkki.
 
 ## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Tiettyjen tietojen kopioiminen automaattisesti kontaktiyrityksistä kontaktihenkilöille
 Jotkin kontaktiyritysten tiedoista ovat samat kuin tämän yrityksen kontaktihenkilön tiedot, esimerkiksi osoitetiedot. Voit määrittää **Kontaktienhallinnan asetukset** -sivun **Periytyminen**-osassa sovelluksen, joka kopioi automaattisesti tietyt kentät kontaktiyrityksen kortista kontaktihenkilön korttiin aina, kun luot kontaktiyritykseen kontaktihenkilön. Voit esimerkiksi kopioida myyjän koodin, osoitetiedot (osoite, osoite 2, postinumero ja maa), yhteystiedot (faksinumero, teleksivastaus ja puhelinnumero) ja muita tietoja.
@@ -41,14 +40,14 @@ Kenttien periytyminen syrjäyttää määrittämäsi oletusarvot. Jos olet esime
 <!--You can also setup a default salutation that application automatically assigns to your contacts. You can use these salutations in your interaction template attachments (for example, Microsoft Word documents). When setting up a default salutation, you can enter a salutation text and a salutation format. For example, if the salutation text is Dear, and the salutation format is Salutation Text + Title + Name, application will automatically enter Dear Mr. John Smith as a salutation for a contact called John Smith.-->
 
 ## <a name="automatically-recording-interactions"></a>Vuorovaikutusten automaattinen tallennus
-[!INCLUDE[d365fin](includes/d365fin_md.md)] voi tallentaa myynti- ja ostoasiakirjoja (esimerkiksi tilauksia, laskuja ja vastaanottoja) automaattisesti vuorovaikutukseksi, samoin sähköpostiviestejä, puhelinkeskusteluja ja kansilehtiä.
+[!INCLUDE[prod_short](includes/prod_short.md)] voi tallentaa myynti- ja ostoasiakirjoja (esimerkiksi tilauksia, laskuja ja vastaanottoja) automaattisesti vuorovaikutukseksi, samoin sähköpostiviestejä, puhelinkeskusteluja ja kansilehtiä.
 
 Lisätietoja on ohjeaiheessa [Kontaktien kanssa tapahtuvien vuorovaikutusten tallennus automaattisesti](marketing-auto-record-interactions.md).
 
 ## <a name="synchronizing-contacts-with-customers-and-more"></a>Kontaktien synkronoiminen esimerkiksi asiakkaiden kanssa
 Kun haluat synkronisoida kontaktikortin asiakas-, toimittaja- ja pankkitilikortin kanssa, sinun täytyy valita liikesuhdekoodi asiakkaille, toimittajille ja pankkitileille. Voit esimerkiksi linkittää kontaktin olemassa olevaan asiakkaaseen vain, jos olet valinnut asiakkaille liikesuhdekoodin **Kontaktienhallinnan asetukset** -sivulla.
 
-Lisätietoja on kohdassa [Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa](marketing-synchronize-contacts-customers-vendors-bank-accounts/Synchronizing Contacts With Customers, Vendors, and Bank Accounts).
+Lisätietoja on kohdassa [Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).  
 
 ## <a name="assigning-a-number-series-to-contacts-and-opportunities"></a>Numerosarjojen määrittäminen kontakteihin ja mahdollisuuksiin
 Voit määrittää numerosarjan kontakteille ja mahdollisuuksille. Jos olet määrittänyt numerosarjat kontakteille kontaktin luomisen yhteydessä, ja painat Enter-näppäintä kontaktin kortin Nro-kentässä, sovellus antaa automaattisesti seuraavan käytettävissä olevan kontaktinumeron.
@@ -60,4 +59,7 @@ Voit valita, että sovellus hakee kaksoiskappaleita automaattisesti aina, kun lu
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktien hallinta](marketing-contacts.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

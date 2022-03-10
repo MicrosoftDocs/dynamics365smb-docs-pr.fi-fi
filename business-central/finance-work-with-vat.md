@@ -1,21 +1,21 @@
 ---
-title: Myynnin ja ostojen ALV:n käsittely | Microsoft Docs
-description: Tässä ohjeaiheessa käsitellään, miten ALV-laskelmat koskevat kaikkia myynti- ja ostotapahtumia, kuten EU-maissa ja EU:n alueella kirjatun ALV:n oikaisua. Tässä ohjeaiheessa kerrotaan, miten se tehdään.
+title: 'Toimintaohje: Myynnin ja ostojen ALV:n käsittely'
+description: Tässä ohjeaiheessa kuvataan erilaisia tapoja käsitellä ALV:tä sekä manuaalisesti että automaattisten asetusten avulla, jotta voit noudattaa maakohtaisia säädöksiä.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: VAT, sales, purchases,
-ms.date: 10/01/2020
+ms.search.keywords: VAT, sales, purchases
+ms.search.form: 118, 130, 142, 459, 460, 525
+ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: f66d061f383236cd7fbe96ebebaf1a790202b758
-ms.sourcegitcommit: a9d48272ce61e5d512a30417412b5363e56abf30
+ms.openlocfilehash: ed3cbe00aac1faf920df6954ee1694bdabce9835
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5493090"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133782"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Myynnin ja ostojen ALV:n käsitteleminen
 Jos maasi tai alueesi edellyttää arvonlisäveron (ALV:n) laskemista myynti- ja ostotapahtumille siten, että voit ilmoittaa summat veroviranomaiselle, voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in laskemaan ALV:n automaattisesti myynti- ja ostoasiakirjoissa. Lisätietoja on kohdassa [Arvolisäveron laskelmien ja kirjausmenetelmien määrittäminen](finance-setup-vat.md).
@@ -87,8 +87,8 @@ Seuraavat vaiheet on tehtävä, ennen kuin ALV kirjataan manuaalisesti myynti- t
 2. Toista vaihe 1 **Myyntien ja myyntisaamisten asetukset** -sivulla.
 3. Kun olet tehnyt edellä kuvatut asetukset, voit oikaista yleisen päiväkirjan rivin **ALV-summa**-kentän tai myynti- tai ostopäiväkirjan rivin **Vastatilin ALV-summa** -kentän. [!INCLUDE[prod_short](includes/prod_short.md)] tarkistaa, että ero ei ole suurempi kuin määritetty enimmäisarvo.  
 
-    > [!NOTE]  
-    > Jos ero on suurempi, avautuva varoitus ilmoittaa suurimman sallitun eron. Jatkaminen edellyttää summan oikaisua. Valitse ensin **OK** ja annan sitten summa, joka on sallitun vaihteluvälin sisällä. Jos ALV-ero on sama tai pienempi kuin suurin sallittu ero, [!INCLUDE[prod_short](includes/prod_short.md)] näyttää eron **ALV-ero**-kentässä.  
+> [!NOTE]  
+> Jos ero on suurempi, avautuva varoitus ilmoittaa suurimman sallitun eron. Jatkaminen edellyttää summan oikaisua. Valitse ensin **OK** ja annan sitten summa, joka on sallitun vaihteluvälin sisällä. Jos ALV-ero on sama tai pienempi kuin suurin sallittu ero, [!INCLUDE[prod_short](includes/prod_short.md)] näyttää eron **ALV-ero**-kentässä.  
 
 ## <a name="posting-import-vat-with-purchase-invoices"></a>Tuonnin ALV:n kirjaaminen ostolaskuissa
 Tuontia koskevan ALV-laskun voi kirjata ostolaskulla päiväkirjojen asemesta.  
@@ -96,14 +96,14 @@ Tuontia koskevan ALV-laskun voi kirjata ostolaskulla päiväkirjojen asemesta.
 ### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Määritä ostaminen tuonnin ALV-laskujen kirjaukseen  
 1. Määritä toimittajan kortti tuontiviranomaiselle, joka lähettää sinulle tuontia koskevan ALV-laskun. **Ylein. liiketoim. kirjausryhmä**- ja **Liiketoiminnan ALV-kirjausryhmä** -tiedot täytyy määrittää samalla tavalla kuin tuontia koskevan ALV:n KP-tili.  
 2. Luo tuontia koskevalle ALV:lle **yleinen tuotteen kirjausryhmä** ja määritä asiaankuuluvalle **yleiselle tuotteen kirjausryhmälle** tuontia koskevan ALV:n **tuotteen ALV-oletuskirjausryhmä**.  
-3. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten liittyvä linkki.  
+3. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten vastaava linkki.  
 4. Valitse tuonnin ALV-pääkirjanpitotili ja valitse sitten **Muokkaa**-toiminto.  
 5. Valitse tuontia koskevalle ALV:lle **Kirjaus**-pikavälilehdessä ALV:n **Yleinen tuotteen kirjausryhmä** -asetukset. [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman täyttää **Tuotteen ALV-kirjausryhmä** -kentän automaattisesti.  
-6. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Yleiset kirjausasetukset** ja valitse sitten liittyvä linkki.  
+6. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleiset kirjausasetukset** ja valitse sitten vastaava linkki.  
 7. Luo ALV-viranomaisen **Ylein. liiketoim. kirjausryhmän** ja tuontia koskevan ALV:n **Yleinen tuotteen kirjausryhmän** yhdistelmä. Valitse **Ostotili**-kentässä tuontia koskevan ALV:n KP-tili tätä uutta yhdistelmää varten.  
 
 ### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Kun olet tehnyt määritykset valmiiksi, luo uusi lasku tuontiviranomaiseksi määritetylle toimittajalle  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten vastaava linkki.  
 2. Luo uusi ostolasku.  
 3. Valitse **Tavarantoimittajan nro** -kentässä tuontiviranomaiseksi määritetty toimittaja ja valitse **OK**.  
 4. Valitse ostorivin **Tyyppi**-kentässä **KP-tili** ja **Nro**-kentässä tuonnin ALV:n KP-tili.  
@@ -115,44 +115,44 @@ Tuontia koskevan ALV-laskun voi kirjata ostolaskulla päiväkirjojen asemesta.
 Kun myyt tavaroita toisen EU-maan/alueen asiakkaalle, sinun on lähetettävä asiakkaalle tarjontasertifikaatti, joka asiakkaan täytyy allekirjoittaa ja palauttaa sinulle. Seuraavia toimenpiteitä käytetään myyntitoimitusten tarjontasertifikaattien käsittelyyn, mutta samat vaiheet koskevat nimikkeiden palvelutoimituksia ja palautustoimituksia toimittajille.  
 
 ### <a name="to-view-certificate-of-supply-details"></a>Tarjontasertifikaatin tietojen katseleminen.  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kirjatut myyntitoimitukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut myyntitoimitukset** ja valitse sitten vastaava linkki.  
 2. Valitse haluamasi myyntitoimitus asiakkaalle toiseen EU-maahan/alueelle.  
 3. Valitse **Tarjontasertifikaatin tiedot**.  
 4. Jos **Tarjontasertifikaatti**-valintaruutu on valittu asiakkaan ALV-kirjausryhmän asetuksissa, **Tila**-kentän arvoksi määritetään oletusarvoisesti **Tarvitaan**. Voit päivittää kentän osoittamaan, onko asiakas palauttanut sertifikaatin.  
 
-    > [!Note]  
-    >  Jos **Tarjontasertifikaatti vaaditaan**-valintaruutu ei ole valittuna ALV-kirjausryhmän asetuksissa, järjestelmä luo uuden tietueen ja **Tila**-kentälle asetetaan arvoksi **Ei sovellu**. Voit päivittää kentän vastaamaan oikeita tilatietoja. Tila voidaan muuttaa tarpeen mukaan manuaalisesti arvosta **Ei sovellu** arvoon **Pakollinen** ja arvosta **Pakollinen** arvoon **Ei sovellu**.  
+> [!Note]  
+>  Jos **Tarjontasertifikaatti vaaditaan**-valintaruutu ei ole valittuna ALV-kirjausryhmän asetuksissa, järjestelmä luo uuden tietueen ja **Tila**-kentälle asetetaan arvoksi **Ei sovellu**. Voit päivittää kentän vastaamaan oikeita tilatietoja. Tila voidaan muuttaa tarpeen mukaan manuaalisesti arvosta **Ei sovellu** arvoon **Pakollinen** ja arvosta **Pakollinen** arvoon **Ei sovellu**.  
 
    Sertifikaatti luodaan, kun päivität **Tila**-kentän arvoksi **Pakollinen**, **Vastaanotettu** tai **Ei vastaanotettu**.  
 
-    > [!TIP]  
-    >  Voit käyttää **Tarjontasertifikaatti**-sivua nähdäksesi kaikkien niiden kirjattujen toimitusten tilan, joille on luotu tarjontasertifikaatti.  
+> [!TIP]  
+>  Voit käyttää **Tarjontasertifikaatti**-sivua nähdäksesi kaikkien niiden kirjattujen toimitusten tilan, joille on luotu tarjontasertifikaatti.  
 
 5. Valitse **Tulosta tarjontasertifikaatti**.  
 
-    > [!Note]  
-    >  Voit esikatsella tai tulostaa asiakirjan. Kun valitset **Tulostaa tarjontasertifikaatti** ja tulostat asiakirjan, järjestelmä valitsee **Tulostettu**-valintaruudun automaattisesti. Jos todistuksen tilaa ei ole jo määritetty, se päivitetään arvoon **Pakollinen**. Sisällytä tulostettu sertifikaatti tarvittaessa toimitukseen.  
+> [!Note]  
+>  Voit esikatsella tai tulostaa asiakirjan. Kun valitset **Tulostaa tarjontasertifikaatti** ja tulostat asiakirjan, järjestelmä valitsee **Tulostettu**-valintaruudun automaattisesti. Jos todistuksen tilaa ei ole jo määritetty, se päivitetään arvoon **Pakollinen**. Sisällytä tulostettu sertifikaatti tarvittaessa toimitukseen.  
 
 ### <a name="to-print-a-certificate-of-supply"></a>Tarjontasertifikaatin tulostaminen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kirjatut myyntitoimitukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut myyntitoimitukset** ja valitse sitten vastaava linkki.  
 2. Valitse haluamasi myyntitoimitus asiakkaalle toiseen EU-maahan tai toiselle EU-alueelle.  
 3. Valitse **Tulosta tarjontasertifikaatti** -toiminto.  
 
-    > [!NOTE]  
-    >  Vaihtoehtoisesti voit tulostaa todistuksen **Tarjontasertifikaatti**-sivulla.  
+> [!NOTE]  
+>  Vaihtoehtoisesti voit tulostaa todistuksen **Tarjontasertifikaatti**-sivulla.  
 
 4. Jotta voit sisällyttää tiedot sertifikaatin toimitusasiakirjan riveiltä, valitse **Tulosta rivitiedot** -valintaruutu.  
 5. Valitse **Luo tarjontasertifikaatit, jos niitä ei ole luotu** -valintaruutu, jos haluat, että [!INCLUDE[prod_short](includes/prod_short.md)] luo sertifikaatit kirjatuille toimituksille, joilla ei niitä ole suorittamishetkellä. Kun valitset valintaruudun, kaikille niille kirjatuille toimituksille luodaan uudet sertifikaatit, joilla ei ole sertifikaatteja valitulla alueella.  
 6. Suodatusasetukset ovat oletusarvon mukaan toimitusasiakirjalle, jonka olet valinnut. Täytä suodatintiedot valitaksesi tietty tarjontatodistus, jonka haluat tulostaa.  
 7. Valitse **Tarjontasertifikaatti**-sivulla **Tulosta**-toiminto, jos haluat tulostaa raportin, tai **Esikatselu**-toiminto, jos haluat katsoa sitä näytössä.  
 
-    > [!Note]  
-    > Toimituksen **Tarjontasertifikaatin tila** -kenttä ja **Tulostettu**-kenttä päivitetään **Tarjontasertifikaatit**-sivulla.  
+> [!Note]  
+> Toimituksen **Tarjontasertifikaatin tila** -kenttä ja **Tulostettu**-kenttä päivitetään **Tarjontasertifikaatit**-sivulla.  
 
 8. Lähetä tulostettu tarjontasertifikaatti asiakkaalle allekirjoitettavaksi.  
 
 ### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>Tilauksen tarjontasertifikaatin tilan päivittäminen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kirjatut myyntitoimitukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut myyntitoimitukset** ja valitse sitten vastaava linkki.  
 2. Valitse haluamasi myyntitoimitus asiakkaalle toiseen EU-maahan tai toiselle EU-alueelle.  
 3. Valitse **Tila**-kentässä asianmukainen vaihtoehto.  
 
@@ -165,7 +165,7 @@ Kun myyt tavaroita toisen EU-maan/alueen asiakkaalle, sinun on lähetettävä as
 Voit tarkastella sertifikaattiryhmiä aloittamalla **Tarjontasertifikaatit**-sivulta ja päivitä sitten avointen sertifikaattien tila, kun vastaanotat ne asiakkaalta. Tästä voi olla hyötyä, jos haluat etsiä kaikki tietyn tilan omaavat sertifikaatit, esimerkiksi **Pakollinen**, ja joille haluat päivittää tilaksi **Ei vastaanotettu**.  
 
 ### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Tilauksen tarjontasertifikaattien ryhmän tilan päivittäminen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Tarjontasertifikaatit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tarjontasertifikaatit** ja valitse sitten vastaava linkki.  
 2. Suodata **Tila**-kenttä arvoon, jonka haluat luodaksesi luettelon sertifikaateista, joita haluat hallita.  
 3. Päivitä tilan tiedot valitsemalla **Muokkaa luetteloa**.  
 4. Valitse **Tila**-kentässä sopiva vaihtoehto.  
@@ -174,11 +174,11 @@ Voit tarkastella sertifikaattiryhmiä aloittamalla **Tarjontasertifikaatit**-siv
 
    Voit muokata päivämäärän vastaamaan päivämäärää, jolloin vastaanotit allekirjoitetun tarjontasertifikaatin. Voit myös lisätä linkin allekirjoitettuun sertifikaattiin käyttämällä [!INCLUDE[prod_short](includes/prod_short.md)]in asiakirjojen vakiolinkitystä.  
 
-    > [!NOTE]  
-    >  Et voi luoda uutta tarjontasertifikaattia **Tarjontasertifikaatit**-sivulla, kun siirryt siihen tällä menetelmällä. Voit luoda sertifikaatin toimitukselle, jota ei asetettu vaatimaan sitä avaamalla kirjatun myyntitoimituksen, ja käyttämällä yhtä kahdesta yllä kuvatusta toimenpiteestä:  
-    >
-    > * Tarjontasertifikaatin luominen manuaalisesti  
-    > * Tarjontasertifikaatin tulostaminen.
+> [!NOTE]
+> Et voi luoda uutta tarjontasertifikaattia **Tarjontasertifikaatit**-sivulla, kun siirryt siihen tällä menetelmällä. Voit luoda sertifikaatin toimitukselle, jota ei asetettu vaatimaan sitä avaamalla kirjatun myyntitoimituksen, ja käyttämällä yhtä kahdesta yllä kuvatusta toimenpiteestä:  
+>
+> * Tarjontasertifikaatin luominen manuaalisesti  
+> * Tarjontasertifikaatin tulostaminen.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 

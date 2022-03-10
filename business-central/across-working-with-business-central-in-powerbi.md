@@ -2,7 +2,6 @@
 title: Business Central -tietojen käyttäminen Power BI:ssa | Microsoft Docs
 description: Merkityksellisten tietojen, liiketoimintatietoja ja tunnuslukujen saaminen Business Central -tiedoista Power BI:n avulla.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: ed744d6aba6394f567c9b297943c0061cb0c0751
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: d8cd59f77230fe7d7593510f0abfc24bf9c29a2a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786905"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142573"
 ---
 # <a name="working-with-prod_short-data-in-power-bi"></a>[!INCLUDE [prod_short](includes/prod_short.md)] -tietojen käyttäminen Power BI:ssa
 
@@ -96,7 +95,7 @@ Voit jakaa raportin valitsemalla raporttiluettelossa tai avoimessa raportissa **
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Apps:n tietolähteenä](across-how-use-financials-data-source-powerapps.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Automate'ssa](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

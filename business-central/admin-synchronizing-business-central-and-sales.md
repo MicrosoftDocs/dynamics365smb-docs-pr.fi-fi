@@ -2,23 +2,22 @@
 title: Synkronointi ja tietojen integrointi | Microsoft Docs
 description: Synkronointi kopioi tiedot Microsoft Dataverse -taulukoiden ja Business Centralin tietueiden välillä ja pitää kummankin järjestelmän tiedot ajan tasalla.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Dataverse, integration, sync, synchronize, mapping
-ms.date: 04/01/2021
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9a912596a71e77a09a7491fe20032056d1a9b808
-ms.sourcegitcommit: 8b44a7bcba45ae852cc6dd07b90b9a383c1be488
+ms.openlocfilehash: ceef56f1b951b5c9f1621d463276ec1d22c44da4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "5870021"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148822"
 ---
 # <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Tietojen synkronointi Business Centralissa Microsoft Dataversen avulla
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Kun [!INCLUDE[prod_short](includes/cds_long_md.md)] ja [!INCLUDE[prod_short](includes/prod_short.md)] integroidaan, voit päättää, synkronoidaanko [!INCLUDE[prod_short](includes/prod_short.md)] -rivien (kuten asiakkaiden, kontaktien ja myyjien) valittujen kenttien tiedot vastaavien [!INCLUDE[prod_short](includes/cds_long_md.md)] -rivien (kuten tilien, yhteyshenkilöiden ja käyttäjien) kanssa. Rivin tyypin mukaan voit synkronoida tietoja [!INCLUDE[prod_short](includes/cds_long_md.md)]ista [!INCLUDE[prod_short](includes/prod_short.md)]iin ja päinvastoin. Lisätietoja on kohdassa [Dynamics 365 Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
@@ -39,6 +38,10 @@ Synkronointia määritettäessä voit yhdistää [!INCLUDE[prod_short](includes/
 ||Kaikkien taulukon yhdistämismääritysten kaikkien tietojen synkronointi.<br /><br /> Voit synkronoida yhdistettyjen [!INCLUDE[prod_short](includes/prod_short.md)]in taulukoiden ja [!INCLUDE[prod_short](includes/cds_long_md.md)]in taulukoiden kaikki tiedot ja luoda uusia tietueita tai rivejä kohderatkaisussa lähderatkaisun yhdistämättömille tietueille.<br /><br /> Täysi synkronointi synkronoi kaikki tiedot ja ohittaa yhdistämisen. Täysi synkronointi tehdään yleensä integrointia määritettäessä, kun vain yksi ratkaisu sisältää tietoja. Täysi synkronointi voi olla kätevä myös esittely-ympäristössä.|[Täyden synkronoinnin suorittaminen](admin-manual-synchronization-of-table-mappings.md#run-a-full-synchronization)|  
 |Ajoitettu synkronointi|Kaikkien taulukon yhdistämismääritysten kaikkien tietojen muutosten synkronointi.<br /><br /> Voit synkronoida [!INCLUDE[prod_short](includes/prod_short.md)]in ja [!INCLUDE[prod_short](includes/cds_long_md.md)]in tietyin väliajoin määrittämällä työt työjonoon.|[Ajoitettu synkronointi](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)|  
 
+> [!NOTE]
+> [!INCLUDE[prod_short](includes/cds_long_md.md)] -ohjelman ja [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman välinen synkronointi työjono tapahtumien aikataulutetun suorituksen perusteella ei takaa kahden palvelun reaaliaikaisen tietojen yhdenmukaisuutta. Reaaliaikaisten tietojen johdonmukaisuuden varmistamiseksi voit tutkia [Business Centralin virtuaalitauluja](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) tai Business Centralin ohjelmointirajapintaa.   
+
+
 ## <a name="standard-table-mapping-for-synchronization"></a>Synkronoinnin vakiotaulukon yhdistämismääritys
 Taulukot, kuten tilit [!INCLUDE[prod_short](includes/cds_long_md.md)]ssä yhdistetään samantyyppisiin tietoihin [!INCLUDE[prod_short](includes/prod_short.md)]ssa, kuten asiakkaisiin. [!INCLUDE[prod_short](includes/cds_long_md.md)]in tietoja käytetään määrittämällä linkkejä [!INCLUDE[prod_short](includes/prod_short.md)]in ja [!INCLUDE[prod_short](includes/cds_long_md.md)]in taulukoiden välille. Tätä sanotaan yhdistämiseksi.
 
@@ -52,9 +55,11 @@ Seuraavassa taulukossa on luettelo tavallisista yhdistämismäärityksistä [!IN
 | Myyjä/Ostaja | Käyttäjä | [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)] -kontaktisuodatin: **Tila** on **Ei**, **Käyttäjällä käyttöoikeus** on **Kyllä**, Integrointikäyttäjän tila on **Ei** |
 | Asiakas | Tili | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] ja [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)] -tilisuodatin: **Suhdetyyppi** on **Asiakas** ja **Tila** on **Aktiivinen**. [!INCLUDE[prod_short](includes/prod_short.md)] -suodatin: **Estetty** on tyhjä (asiakasta ei ole estetty). |
 | Toimittaja | Tili | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] ja [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/cds_long_md.md)] -tilisuodatin: **Suhdetyyppi** on **Toimittaja** ja **Tila** on **Aktiivinen**. [!INCLUDE[prod_short](includes/prod_short.md)] -suodatin: **Estetty** on tyhjä (toimittaja ei ole estetty). |
-| Kontakti | Kontakti | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] ja [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] kontaktisuodatus: **Tyyppi** on **Henkilö** ja kontakti on määritetty yritykselle. [!INCLUDE[prod_short](includes/cds_long_md.md)] -kontaktisuodatin: kontakti on liitetty yritykseen ja pääasiakkaan tyyppi on **Tili** |
+| Kontakti | Kontakti | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] ja [!INCLUDE[prod_short](includes/cds_long_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] kontaktisuodatus: **Tyyppi** on **Henkilö** ja kontakti on määritetty yritykselle. [!INCLUDE[prod_short](includes/cds_long_md.md)] -kontaktisuodatin: kontakti on liitetty yritykseen ja pääasiakkaan tyyppi on **Asiakas**. |
 | Valuutta | Tapahtumavaluutta | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] |  |
 
+> [!NOTE]
+> **Dataverse**-toiminnot eivät ole käytettävissä sivuilla, esimerkiksi Asiakaskortti-sivulla, jos tietueessa ei ole käytössä integroinnin taulukon yhdistämismäärityksen taulukkosuodatusta.
 
 ### <a name="tip-for-admins-viewing-table-mappings"></a>Järjestelmänvalvojan vihje: taulukon yhdistämismääritysten näyttäminen
 Voit tarkastella [!INCLUDE[prod_short](includes/cds_long_md.md)]in taulukoiden ja [!INCLUDE[prod_short](includes/prod_short.md)]in taulukoiden välistä yhdistämismääritystä **Integrointitaulukon yhdistämismääritykset** -sivulla, jossa voit käyttää myös suodattimia. [!INCLUDE[prod_short](includes/prod_short.md)]in taulukoiden kenttien ja [!INCLUDE[prod_short](includes/cds_long_md.md)]in taulukoiden sarakkeiden välinen yhdistämismääritys määritetään **Integrointitaulukon yhdistämismääritykset** -sivulla, jossa voit lisätä myös lisämäärityksen logiikan. Tässä voi hyötyä esimerkiksi synkronoinnin vianmäärityksessä.

@@ -2,7 +2,6 @@
 title: Rakennetiedot – nimikeseuranta fyysisessä varastossa
 description: Saapuvissa ja lähtevissä fyysisen varaston asiakirjoissa on vakiotoiminnot nimikeseurantanumeroiden määrittämistä ja valitsemista varten.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 3bf30b7739e488eeb3610d191cfb4f3b20e0e79e
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 0b101215e06e33bbbafdf0c38e18ac3ddaa6774a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320362"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141305"
 ---
 # <a name="design-details-item-tracking-in-the-warehouse"></a>Rakennetiedot: nimikkeen seuranta f. varastossa
 Sarjanumeron ja eränumeron käsittely on ensisijaisesti varaston tehtävä ja siksi kaikilla saapuvilla ja lähtevillä varastodokumenteilla on perustoimintatarkoitus nimikkeiden seurantanumeroiden määrittämiselle ja valinnalle.  

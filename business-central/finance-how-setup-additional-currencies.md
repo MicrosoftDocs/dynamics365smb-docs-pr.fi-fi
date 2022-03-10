@@ -1,31 +1,36 @@
 ---
-title: Lisävaluuttojen määrittäminen| Microsoft Docs
+title: Lisävaluuttojen määrittäminen
 description: Pääkirjanpito määritetään käyttämään paikallista valuuttaa (PVA) ja toinen valuutta määritetään lisävaluutaksi, jolle määritetään ajantasainen vaihtokurssi.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
-ms.service: dynamics365-business-central
+author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: multiple currencies
-ms.date: 04/01/2021
+ms.search.keywords: multiple currencies, foreign exchange rates
+ms.search.form: 5, 16,118, 483, 495
+ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 96ca4139f7a19ea9a5bb3361099cde9910491488
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 3df39a6054a73fb44c18c4893a253bfcd358f318
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775523"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132912"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Lisäraportointivaluutan määrittäminen
+
 Yritysten toimiessa yhä useammassa maassa tai alueella niiden on entistä tärkeämpää pystyä tarkistamaan ja raportoimaan taloustiedot useana valuuttana.
+
+> [!NOTE]  
+> Jos etsit [!INCLUDE[prod_short](includes/prod_short.md)]issa reaaliajassa tietoa valuuttakurssien (FX) hinnoista tai historiallisista hinnoista, löydät sen nimityksellä valuutta. Tämän artikkelin lisäksi on myös artikkeli [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md).
+
 
 Pääkirjanpito määritetään käyttämään paikallista valuuttaa (PVA), mutta voit määrittää sen käyttämään myös toista valuuttaa, jolle määritetään ajantasainen vaihtokurssi. Kun toinen valuutta määritetään niin sanotuksi lisäraportointivaluutaksi, [!INCLUDE[prod_short](includes/prod_short.md)] tallentaa summat automaattisesti sekä PVA:na että lisäraportointivaluuttana kuhunkin KP-tapahtumaan sekä muihin tapahtumiin, kuten ALV-tapahtumiin.
 
 > [!Warning]
-> Lisäraportointivaluutta-toimintoa ei saa käyttää rahoituslaskelmien käännösten perustana. Tällä työkalulla ei pysty kääntämään ulkomaisten tytäryritysten tilinpäätöksiä osana yrityksen konsolidointia. Lisäraportointivaluuttaa voidaan käyttää vain toista valuttaa käyttävien raporttien valmisteluun siten, että kyseinen valuutta on kuin yrityksen paikallinen valuutta.
+> Lisäraportointivaluutta-toimintoa saa käyttää rahoituslaskelmien käännösten perustana vain, jos ymmärtää siihen liittyvät rajoitukset. Tällä työkalulla ei pysty kääntämään ulkomaisten tytäryritysten tilinpäätöksiä osana yrityksen konsolidointia. Lisäraportointivaluuttaa voidaan käyttää vain toista valuttaa käyttävien raporttien valmisteluun siten, että kyseinen valuutta on kuin yrityksen paikallinen valuutta.
+>
+> Sinulla voi olla esimerkiksi suuri määrä myyntisaamisia Ison-Britannian puntina (GBP), ja olet määrittänyt lisäraportointivaluutan (LVA) GBP:ksi. Tässä skenaariossa myyntisaamisten summia, jotka käyttävät GBP:tä, ei oikaista valuuttakurssivoitoiksi/tappioiksi LVA:ssa, vaan ainoastaan myyntisaamisten summat, jotka ovat eri valuutoissa. Tämä tarkoittaa sitä, että jos ilmoitat tilinpäätöksen LVA:n avulla, se voi johtaa liian pieniin tai liian suuriin avoimiin saldoihin myyntisaamisissa.
 
 ## <a name="displaying-reports-and-amounts-in-the-additional-reporting-currency"></a>Raporttien ja summien näyttäminen lisäraportointivaluuttana
 Lisäraportointivaluutan käyttäminen voi helpottaa yrityksen raportointiprosessia seuraavissa tapauksissa:
@@ -36,19 +41,21 @@ Lisäraportointivaluutan käyttäminen voi helpottaa yrityksen raportointiproses
 Useat talousraportit perustuvat kirjanpitotapahtumiin. Voit näyttää raportin tiedot lisäraportointivaluuttana yksinkertaisesti lisäämällä valintamerkin kyseisen KP-raportin **Vaihtoehdot**-pikavälilehden **Näytä summat lisäraportointivaluuttana** -kenttään.
 
 ## <a name="adjusting-exchange-rates"></a>Vaihtokurssien muuttaminen
+
 Koska vaihtokurssit vaihtelevat jatkuvasti, järjestelmän lisävaluutta-arvot on tarkistettava jaksoittain. Jos tarkistuksia ei tehdä, ulkomaisista valuutoista (tai lisävaluutoista) muunnetut summat voivat olla harhaanjohtavia, kun ne kirjataan pääkirjanpitoon PVA:na. Lisäksi päivittäiset tapahtumat, jotka on kirjattu ennen päivittäisen vaihtokurssin lisäämistä sovellukseen, on päivitettävä, kun päivittäinen vaihtokurssi on lisätty. **Muuta vaihtokursseja** -eräajon avulla voi muuttaa kirjattujen asiakas-, toimittaja- ja pankkitilitapahtumien vaihtokursseja. Sen avulla voi myös päivittää KP-tapahtumien lisäraportointivaluutan summia. Lisätietoja on kohdassa [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md).
 
 ## <a name="setting-up-an-additional-reporting-currency"></a>Lisäraportointivaluutan määrittäminen
+
 Määritä lisäraportointivaluutta seuraavien ohjeiden mukaisesti:
 
--   Määritä vaihtokurssien muutosmenetelmä kaikille pääkirjanpidon tileille  
--   Määritä vaihtokurssien muutosmenetelmä kaikille pääkirjanpidon tileille  
--   Määritä vaihtokurssien muutosmenetelmän ALV-tapahtumille  
--   Lisäraportointivaluutan aktivoiminen  
+- Määritä vaihtokurssien muutosmenetelmä kaikille pääkirjanpidon tileille  
+- Määritä vaihtokurssien muutosmenetelmä kaikille pääkirjanpidon tileille  
+- Määritä vaihtokurssien muutosmenetelmän ALV-tapahtumille  
+- Lisäraportointivaluutan aktivoiminen  
 
 ### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Määritä vaihtokurssien muutosmenetelmä kaikille pääkirjanpidon tileille  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Valuutat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Valuutat** ja valitse sitten vastaava linkki.  
 2. Täytä **Valuutat**-sivulla seuraavat kentät lisäraportointivaluuttaa varten.  
 
 |Kenttä|Description|  
@@ -63,8 +70,9 @@ Määritä lisäraportointivaluutta seuraavien ohjeiden mukaisesti:
 
 Kutakin KP-tiliä varten on määritettävä, kuinka tilin KP-summat muutetaan PVA:n ja lisäraportointivaluutan välisen vaihtokurssin muuttuessa.  
 
-### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Määritä vaihtokurssien muutosmenetelmä kaikille pääkirjanpidon tileille  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten liittyvä linkki.  
+### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Määritä vaihtokurssien muutosmenetelmä kaikille pääkirjanpidon tileille
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten vastaava linkki.  
 2. Valitse ensin **Tilikartta**-sivulla sopiva tili ja sitten **Muokkaa**-toiminto.  
 3. Valitse **KP-tilin kortti** -sivun **Vaihtokurssin muutos** -kentässä sopiva menetelmä.  
 
@@ -80,8 +88,9 @@ Kutakin KP-tiliä varten on määritettävä, kuinka tilin KP-summat muutetaan P
 
 4.  Sulje **KP-tilin kortti** -sivu.  
 
-### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Vaihtokurssien muutosmenetelmän määrittäminen ALV-tapahtumille  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon määritykset** ja valitse sitten liittyvä linkki.  
+### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Vaihtokurssien muutosmenetelmän määrittäminen ALV-tapahtumille
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Pääkirjanpidon asetukset** -sivun **ALV:n vaihtokurssin muutos** -kentässä sopiva menetelmä.  
 3. Jos tapahtumat kirjataan lisäraportointivaluuttana, **ALV:n vaihtokurssin muutos** -kentässä voi määrittää, kuinka **ALV-kirjausten asetukset** -sivulla ALV-kirjauksille määritettyjä tilejä muutetaan PVA:n ja lisäraportointivaluutan välisen vaihtokurssin muuttuessa.  
 
@@ -96,7 +105,7 @@ Kutakin KP-tiliä varten on määritettävä, kuinka tilin KP-summat muutetaan P
     |**Muuta lisävaluuttasummaa**|Lisäraportointivaluutta muutetaan aina valuuttakurssitappion ja –voiton yhteydessä. Ohjelma kirjaa kaikki vaihtokurssivoitot ja -tappiot KP-tilille ( **Lisävaluutan summa** -kenttä) sekä **Valuutat**-sivun **Realisoitun. KP-voittojen tili**- tai **Realisoitun. KP-tapp. tili** -kentässä voitoille tai tappioille määritetyille tileille.|  
 
 ### <a name="to-activate-the-additional-reporting-currency"></a>Lisäraportointivaluutan aktivoiminen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon määritykset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Pääkirjanpidon asetukset** -sivulla **Lisäraportointivaluutta**-kenttä ja valitse haluamasi raportoinnin lisävaluutta.  
 3. Kun poistut kentästä, [!INCLUDE[prod_short](includes/prod_short.md)] näyttää vahvistussanoman, jossa kuvataan lisäraportointivaluutan valitsemisen (ja aktivoinnin) vaikutus.  
 4. Vahvista valuutan aktivointi valitsemalla **Kyllä**.  
@@ -119,11 +128,12 @@ Tämän eräajon suorittamisen jälkeen seuraavien aiemmin luotujen tapahtumien 
 Lisäksi kaikissa samantyyppisissä tulevissa tapahtumissa summat kirjataan sekä PVA:na että lisäraportointivaluuttana.  
 
 > [!NOTE]  
->  **Lisäraportointivaluutta**-kenttä aktivoituu vasta, kun olet napsauttanut **Muuta lisäraportointivaluuttaa**-eräajon **OK**-painiketta.  
+> **Lisäraportointivaluutta**-kenttä aktivoituu vasta, kun olet napsauttanut **Muuta lisäraportointivaluuttaa**-eräajon **OK**-painiketta.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
+
 [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)  
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

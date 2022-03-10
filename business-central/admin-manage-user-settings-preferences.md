@@ -2,21 +2,21 @@
 title: Käyttäjäasetusten ja asetusten hallinta järjestelmänvalvojana
 description: Käyttäjäasetusten ja asetusten hallinta Dynamics 365 Business Centralissa.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
 ms.search.keywords: user settings, preferences, language, region, time zone, regional settings
+ms.search.form: 9204
 ms.date: 04/01/2021
 ms.author: soalex
-ms.openlocfilehash: fff79b56d6846547230788b6caa831e7bf3a11d7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 779dcea91d2e856bfae847f98695ceed0c0d600e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438950"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145938"
 ---
 # <a name="manage-user-settings-and-preferences"></a>Käyttäjäasetusten ja asetusten hallinta
 

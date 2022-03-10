@@ -2,21 +2,20 @@
 title: Uuden toimittajan rekisteröinti toimittajan kortin luonnin avulla (sisältää videon)
 description: Tässä aiheessa opit luomaan toimittajakortin, jotta voit rekisteröidä uuden toimittajan tai alihankkijan ja tallentaa toimittajakortteja malliksi.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
-ms.search.form: 26, 27, 34, 786, 1379, 1385, 1386, 1628
+ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: cad131feb9232bbf476b7444ebeb2dd1b9170647
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.openlocfilehash: 4bfb66f86c0cc06abed559af9c32942a5a27b40a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953357"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137313"
 ---
 # <a name="register-new-vendors"></a>Uusien toimittajien rekisteröiminen
 

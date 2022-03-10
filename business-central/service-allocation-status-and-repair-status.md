@@ -1,23 +1,20 @@
 ---
 title: Kohdistuksen tila ja korjauksen tila | Microsoft Docs
 description: Lisätietoja huoltonimikkeiden korjauksen tilan ja niiden kohdistustapahtumien kohdistuksen tilan välisestä suhteesta.
-services: project-madeira
-documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
-ms.date: 04/01/2019
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ca6edfb33aebedeb70deb17b78abbdb0024f7b2d
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: b8cc2b6dafb5217d652f398b1fc03db6870a7e8f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1250294"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148276"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Huoltonimikkeen kohdistuksen tila ja korjauksen tila
 Huoltonimikkeiden korjauksen tilalla ja huoltonimikkeiden kohdistustapahtumien kohdistuksen tilalla on tietty yhteys Huoltohallinnossa. Kohdistuksen tila muuttuu silloin kun huoltonimikkeen korjauksen tila muutetaan **Valmiiksi** tai **Osittain huolletuksi** ja kun huoltotarjous muunnetaan huoltotilaukseksi. Huoltonimikkeen korjauksen tila muuttuu, kun peruutat huoltonimikkeen kohdistuksen tai kohdistat sen toiseen resurssiin. Voit tarkastella huoltonimikkeiden korjauksen tilaa **Huoltotehtävät** -sivulla ja voit päivittää korjauksen tilan **Korjauksen tilakoodi** -kentässä **Huoltonimikkeen työkirja** -sivulla. Voit tarkastella kohdistuksen tilaa **Tila**-kentässä **Resurssin kohdistukset** -sivulla.  
@@ -40,7 +37,7 @@ Kun huoltotarjous muunnetaan huoltotilaukseksi, ohjelma päivittää huoltotilau
 * Ohjelma etsii kaikkien huoltotilauksessa olevien huoltonimikkeiden osalta kohdistustapahtumia, joiden tila on **Aktiivinen**. Jos tällaisia kohdistustapahtumia löytyy, ohjelma muuttaa niiden kohdistuksen tilaksi **Uudelleenkohdistamista tarvitaan** **Aktiivisen** sijaan.  
   
 ## <a name="canceling-allocations"></a>Kohdistusten peruuttaminen  
-Kun huoltonimikkeen kohdistus peruutetaan, [!INCLUDE[d365fin](includes/d365fin_md.md)] päivittää vastaavan kohdistustapahtuman kohdistuksen tilan tilasta **Aktiivinen** tilaan **Uudelleenkohdistus tarvitaan**.
+Kun huoltonimikkeen kohdistus peruutetaan, [!INCLUDE[prod_short](includes/prod_short.md)] päivittää vastaavan kohdistustapahtuman kohdistuksen tilan tilasta **Aktiivinen** tilaan **Uudelleenkohdistus tarvitaan**.
 
 Ohjelma päivittää kohdistustapahtumassa olevan huoltonimikkeen korjauksen tilan seuraavilla tavoilla:  
   
@@ -72,3 +69,6 @@ Uusi kohdistustapahtuma sisältää uuden resurssin ja sen tila on **Aktiivinen*
 [Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md)  
 [Resurssien kohdistaminen](service-how-to-allocate-resources.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

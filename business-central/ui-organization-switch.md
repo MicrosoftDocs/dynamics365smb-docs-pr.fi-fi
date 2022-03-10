@@ -1,18 +1,18 @@
 ---
-title: Siirtyminen toiseen yritykseen tai ympäristöön | Microsoft Docs
+title: Siirtyminen toiseen yritykseen tai ympäristöön
 description: Jos käytät useita organisaatioita, voivat ympäristöjä yrityksiä nopeasti.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.date: 04/01/2021
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: f6a5d435243b6912ddac449fd55aa4c2bce3f291
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 265974a70dc54bae24ea26aa1385fbf2c2ef9cb5
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783386"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335264"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Siirtyminen toiseen yritykseen tai ympäristöön
 
@@ -23,17 +23,22 @@ ms.locfileid: "5783386"
 
 ## <a name="switch-to-another-environment"></a>Toiseen ympäristöön vaihtaminen
 
-Kun olet kirjautunut [!INCLUDE[prod_short](includes/prod_short.md)]iin, käytettävissä olevat ympäristöt ovat Dynamics 365:n aloitussivulla. Voit avata sivun valitsemalla ensin **Sovellusten käynnistin** -kuvakkeen ![Sovellusten käynnistin](media/app-launcher-icon.png "Sovelluksen käynnistimen avulla voi käyttää myös muita ominaisuuksia") ja sitten **Dynamics 365**. Voit siirtyä ympäristön oletusyritykseen valitsemalla ruudun. Kullakin ympäristötyypillä on yksi ruutu. Jos tietyn tyyppisiä ympäristöjä on enemmän kuin yksi, valitsemalla ruudun voi valita käytettävän ympäristön.
+Kun olet kirjautunut [!INCLUDE[prod_short](includes/prod_short.md)]iin, käytettävissä olevat ympäristöt ovat käytettävissä osoitteessa Office.com. 
 
-Seuraavassa kuvan on tuotanto- ja eristysympäristön ruudut Dynamics 365:n aloitussivulla.
+1. Valitse **Sovelluksen käynnistys** -kuvake ![Sovelluksen käynnistys.](media/app-launcher-icon.png "Sovelluksen käynnistimen avulla voi käyttää myös muita ominaisuuksia").
+2. Jos et näe sovellusta [!INCLUDE[prod_short](includes/prod_short.md)]ille avautuvassa ruudussa, valitse **Office 365**. Syötä sitten **Business Central** **Haku**-kenttään tai valitse **Kaikki sovellukset** > **Yrityssovellukset**.   
+3. Kullekin ympäristölle, kuten tuotannolle ja sandboxille, on luetteloitu yksi [!INCLUDE[prod_short](includes/prod_short.md)] -sovellus. Voit siirtyä toiseen ympäristöön valitsemalla [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen sen tyyppisestä ympäristöstä. Jos tietyn tyyppisiä ympäristöjä on enemmän kuin yksi, sinua pyydetään valitsemaan käytettävä ympäristö.
 
-:::image type="content" source="media/app-picker-environments.png" alt-text="Dynamics 365:n aloitussivu, jossa näkyy tuotanto- ja eristysympäristöt.":::
+<!--
+The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.
 
+:::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
+-->
 ## <a name="switch-to-another-company"></a>Toiseen yritykseen vaihtaminen
 
 Jos olet kirjautunut [!INCLUDE[prod_short](includes/prod_short.md)]iin, voit vaihtaa nopeasti toiseen yritykseen. Valitsemastasi yrityksestä tulee vaihdon jälkeen oletusyritys, ja se näkyy, kun kirjaudut sisään seuraavan kerran.
 
-1. Valitse oikeassa yläkulmassa **Asetukset**-kuvake ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") ja valitse sitten **Omat asetukset** -toiminto.
+1. Valitse oikeassa yläkulmassa **Asetukset**-kuvake ![Asetukset.](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") ja valitse sitten **Omat asetukset** -toiminto.
 
     > [!TIP]
     > Voit myös avata nopeasti Omat asetukset -sivun Alt+T-näppäinyhdistelmällä.

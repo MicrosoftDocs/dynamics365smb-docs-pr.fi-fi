@@ -1,20 +1,20 @@
 ---
-title: Älykkäiden ilmoitusten käyttäminen ja niiden esiintymisen määrittäminen | Microsoft Docs
+title: Älykkäiden ilmoitusten käyttäminen ja niiden esiintymisen määrittäminen
 description: Voit saada ilmoituksia, joilla ilmoitetaan tilan muutoksista tai tapahtumista, kuten erääntyneestä saldosta tai pienestä varastosta.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.author: bholtorf
-ms.openlocfilehash: e6f519df1cdc04aab1b6b1fa75154aa5b3667d7a
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 53a1852ca3c957b4b2cf0a2c23652b616bd383cb
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783157"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334615"
 ---
 # <a name="manage-notifications"></a>Ilmoitusten hallinta
 
@@ -32,7 +32,7 @@ Voit lisäksi määrittää joissakin ilmoituksissa ehdot, joiden mukaan ilmoitu
 
 Ilmoitusten ottaminen käyttöön tai niiden poistaminen käytöstä sekä ehtojen määrittäminen on käyttäjäkohtaista.  
 
-1. Valitse oikeassa yläkulmassa **Asetukset**-kuvake ![Asetukset](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") ja valitse sitten **Omat asetukset** -toiminto.  
+1. Valitse oikeassa yläkulmassa **Asetukset**-kuvake ![Asetukset.](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") ja valitse sitten **Omat asetukset** -toiminto.  
 2. Valitse **Omat asetukset** -sivun **Ilmoitukset**-kentässä *Ilmoitusten vastaanottoajankohdan muuttaminen*. linkki.  
 3. Ota ilmoitus käyttöön tai poista ilmoitus käytöstä näyttöön tulevassa sivussa valitsemalla tai poistamalla **Käytössä**-valintaruudun valinta.  
 4. Voit määrittää ilmoituksen käynnistinehdot valitsemalla **Näkymän suodattimen tiedot** -linkin ja täyttämällä kentät.  

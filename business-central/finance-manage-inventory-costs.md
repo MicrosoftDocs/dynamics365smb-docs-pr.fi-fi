@@ -2,7 +2,6 @@
 title: Varaston kustannusten hallinta
 description: Kustannusten hallinta käsittelee liiketoiminnan toimintokustannusten tallennusta ja raportointia. Se sisältää tuotanto- ja varastointikustannusten eli nimikkeiden arvon raportoinnin.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 561401c985fc0e2f25c4f6e719252d19e76e7fe8
-ms.sourcegitcommit: 769d20d299155cba30c35636d02b2ef021e4ecc1
+ms.openlocfilehash: 79498fe0e29a633f7d17a7940148728f544cb2d0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "6688329"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138516"
 ---
 # <a name="managing-inventory-costs"></a>Varaston kustannusten hallinta
 Kustannushallinta, jota kutsutaan myös "arvostukseksi", käsittelee liiketoiminnan toimintokustannusten tallennusta ja raportointia. Se sisältää tuotanto- ja varastointikustannusten eli nimikkeiden arvon raportoinnin..   

@@ -1,21 +1,20 @@
 ---
-title: Dimensioyhdistelmän tapahtumien yleiskatsaus | Microsoft Docs
-description: Tässä aiheessa kuvataan, kuinka dimensioyhdistelmän tapahtumat tallennetaan ja kirjataan Dynamics 365:ssä.
+title: Dimensioyhdistelmätapahtumien yleiskuva
+description: Tässä artikkelissa on yleiskuvaus siitä, miten dimensioyhdistelmätapahtumat tallennetaan dimensioyhdistelmätapahtumina ja miten ne kirjataan.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 10/01/2020
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 40f6a55adc0c2ade279638b43136475d81cb2c58
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 0585c4d266bed92ffb113701650bef5069109fc8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4751678"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132027"
 ---
 # <a name="dimension-set-entries-overview"></a>Dimensioyhdistelmätapahtumien yleiskuva
 Tässä aiheessa kuvataan, kuinka dimensioyhdistelmän tapahtumat tallennetaan ja kirjataan kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -34,7 +33,7 @@ Seuraavassa esimerkissä näytetään dimensioyhdistelmä, jolla on kolme dimens
 ## <a name="dimension-set-entries"></a>Dimensioyhdistelmän tapahtumat  
 Dimensioyhdistelmät tallennetaan **Dimensioyhdistelmän tapahtuma** -taulukkoon dimensioyhdistelmätapahtumina, joilla on sama dimensioyhdistelmän tunnus.  
 
-![Dimensiojoukon tapahtumien prosessi](media/dimensionentrynav7.png "Dimensiojoukon tapahtumien prosessi")  
+![Dimensiojoukon tapahtumien prosessi.](media/dimensionentrynav7.png "Dimensiojoukon tapahtumien prosessi")  
 
 Kun luot uuden päiväkirjarivin, asiakirjaotsikon tai asiakirjarivin, voit määrittää dimensioarvojen yhdistelmän. Sen sijaan, että tallentaisit jokaisen dimensioarvon erikseen tietokantaan, dimensioyhdistelmä määritetään päiväkirjan rivillä, asiakirjaotsikossa tai asiakirjan rivillä dimensioyhdistelmän tunnuksen avulla.  
 
@@ -46,7 +45,10 @@ Codeunit 408, dimension hallinta, on toimintokirjasto, joka käsittelee yleiset 
 ## <a name="performance-improvement"></a>Suorituskyvyn parantaminen  
 Määrittämällä dimensioyhdistelmän kerran tietokannassa tietokannan tilaa säästyy ja yleinen suorituskyky on entistä parempi.  
 
-## <a name="see-also"></a>Katso myös  
+## <a name="see-also"></a>Katso myös
 [Rakennetiedot: dimensioyhdistelmien etsiminen](design-details-searching-for-dimension-combinations.md)   
 [Rakennetiedot: taulukkorakenne](design-details-table-structure.md)   
 [Rakennetiedot: Dimensioyhdistelmä-tapahtumat](design-details-dimension-set-entries.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

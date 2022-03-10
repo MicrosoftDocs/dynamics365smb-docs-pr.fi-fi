@@ -1,20 +1,20 @@
 ---
-title: Kirjanpidon käyttöomaisuuden määrittäminen| Microsoft Docs
+title: Yleisten KO-tietojen määrittäminen
 description: Ennen kuin voit käyttää käyttöomaisuutta, sinun tulee määrittää oletusarvoiset KP-tilit, kirjausryhmät, kohdistusavaimet, päiväkirjamallit ja -erät, sekä luokkakoodit.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.search.form: 5623, 5615, 5661, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608, 5609, 5635, 9277, 5662, 5627, 5616, 5620
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4c75ec6637999e11d9741974ed844222401e4298
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: bf837a298d5b9602e1d520dda85c0fb5ab78b8eb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3920645"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133834"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Käyttöomaisuuden yleisten tietojen määrittäminen
 Ennen kuin voit hallita käyttöomaisuuseriä, sinun on määritettävä oletusarvoiset KP-tilit, kohdistustunnukset, päiväkirjamallit ja -erät käyttöomaisuuden kirjaamista ja uudelleenluokittelua varten. Voit luokitella käyttöomaisuuserät luokkiin, kuten aineellisiin ja aineettomiin.
@@ -22,13 +22,13 @@ Ennen kuin voit hallita käyttöomaisuuseriä, sinun on määritettävä oletusa
 ## <a name="to-set-up-general-default-values-for-fixed-assets"></a>Yleisten oletusarvojen määrittäminen käyttöomaisuudelle
 Voit määrittää yleisen toiminnan tai käyttöomaisuuserien toiminnallisuuden ja määrittää asiakirjanumerosarjat **Käyttöomaisuuden asetukset** -sivulla.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuuden asetukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuuden asetukset** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-fixed-asset-posting-groups"></a>Käyttöomaisuuden kirjausryhmien määrittäminen
 Kirjausryhmiä käytetään määrittelemään käyttöomaisuusryhmiä. Näiden kirjausryhmien tapahtumat kirjataan samoille KP-tileille.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n kirjausryhmät** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n kirjausryhmät** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.
 3. Täytä **KO:n kirjausryhmän kortti** -sivulla tarvittavat kentät.
 
@@ -43,7 +43,7 @@ Transaktioita voidaan kohdistaa useille osastoille tai projekteille käyttäjäk
 
 Kohdistusavaimet koskevat käyttöomaisuusluokkia yksittäisten omaisuuserien sijaan.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n kirjausryhmät** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n kirjausryhmät** ja valitse sitten vastaava linkki.  
 2. Valitse **KO:n kirjausryhmät** -sivulla **Kohdistukset**-toiminto ja valitse sitten kirjaustyyppi.
 3. Täytä **KO:n kohdistukset** -sivulla tarvittavat kentät.
 4. Toista vaihe 2 ja 3 kunkin kirjaustyypin osalta, jolle haluat määritellä kohdistusavaimia.
@@ -51,51 +51,51 @@ Kohdistusavaimet koskevat käyttöomaisuusluokkia yksittäisten omaisuuserien si
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Käyttöomaisuuden päiväkirjamallien määrittäminen
 Malli on päiväkirjan ennalta määritelty asettelu. Mallissa on tietoja jäljityskoodeista, raporteista ja numerosarjoista. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] luo automaattisesti käyttöomaisuuden päiväkirjamallin, kun avaat **Käyttöomaisuuspäiväkirja**-sivun ensimmäisen kerran. Voit kuitenkin määrittää lisää päiväkirjamalleja.  
+[!INCLUDE[prod_short](includes/prod_short.md)] luo automaattisesti käyttöomaisuuden päiväkirjamallin, kun avaat **Käyttöomaisuuspäiväkirja**-sivun ensimmäisen kerran. Voit kuitenkin määrittää lisää päiväkirjamalleja.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n päiväkirjan mallit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n päiväkirjan mallit** ja valitse sitten liittyvä linkki.  
 2. Täytä tarvittavat kentät.
 
 ## <a name="to-set-up-fixed-asset-journal-batches"></a>Käyttöomaisuuden päiväkirjaerien määrittäminen
 Voit määrittää useita päiväkirjan eriä eli yksittäisiä päiväkirjoja kullekin päiväkirjan mallille. Käyttäjällä voi esimerkiksi olla oma päiväkirjan erä, jossa käytetään työntekijän nimikirjaimia päiväkirjan erän nimenä. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n päiväkirjan mallit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n päiväkirjan mallit** ja valitse sitten liittyvä linkki.  
 2. Valitse asiaankuuluva päiväkirjamalli ja valitse sitten **Erät**-toiminto.
 3. Täytä **KO-päiväkirjan erät** -sivulla tarvittavat kentät.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Käyttöomaisuuden uudelleenluokituspäiväkirjamallien määrittäminen
-Kyseisiä uudelleenluokituspäiväkirjoja voidaan käyttää käyttöomaisuuserien siirtämisessä, jakamisessa ja yhdistämisessä. [!INCLUDE[d365fin](includes/d365fin_md.md)] luo automaattisesti käyttöomaisuuden uudelleenluokituspäiväkirjan mallin, kun avaat **KO:n uudelleenluokituspvk** -sivun ensimmäisen kerran. Voit kuitenkin määrittää lisää uudelleenluokituspäiväkirjan malleja. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).  
+Kyseisiä uudelleenluokituspäiväkirjoja voidaan käyttää käyttöomaisuuserien siirtämisessä, jakamisessa ja yhdistämisessä. [!INCLUDE[prod_short](includes/prod_short.md)] luo automaattisesti käyttöomaisuuden uudelleenluokituspäiväkirjan mallin, kun avaat **KO:n uudelleenluokituspvk** -sivun ensimmäisen kerran. Voit kuitenkin määrittää lisää uudelleenluokituspäiväkirjan malleja. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n uud.luok.pvk:n mallit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n uud.luok.pvk:n mallit** ja valitse sitten liittyvä linkki.  
 2. Täytä tarvittavat kentät.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-batches"></a>Käyttöomaisuuden uudelleenluokituspäiväkirjaerien määrittäminen
 Voit määrittää useita päiväkirjan eriä eli yksittäisiä päiväkirjoja kullekin uudelleenluokituspäiväkirjan mallille. Käyttäjällä voi esimerkiksi olla oma uudelleenluokituspäiväkirjan erä, jossa käytetään työntekijän nimikirjaimia uudelleenluokituspäiväkirjan erän nimenä. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n uud.luok.pvk:n mallit** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n uud.luok.pvk:n mallit** ja valitse sitten liittyvä linkki.  
 2. Valitse asiaankuuluva päiväkirjamalli ja valitse sitten **Erät**-toiminto.
 3. Täytä **KO:n uud.luok.pvk:n erät** -sivulla tarvittavat kentät.
 
 ## <a name="to-set-up-fixed-asset-class-codes"></a>Käyttöomaisuuden luokkakoodien määrittäminen
 Käyttöomaisuuden luokkakoodeja voidaan käyttää käyttöomaisuuserien, esimerkiksi aineellisten ja aineettomien hyödykkeiden, ryhmittelyyn.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n luokat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n luokat** ja valitse sitten vastaava linkki.
 2. Syötä koodit ja nimet niiden luokkien osalta, jotka haluat luoda.
 
 ## <a name="to-set-up-fixed-asset-subclass-codes"></a>Käyttöomaisuuden alaluokkakoodien määrittäminen
 Käyttöomaisuuden alaluokkakoodia voi käyttää ryhmittelemään käyttöomaisuus luokkiin, esimerkiksi rakennuksiin, ajoneuvoihin, huonekaluihin ja koneisiin.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n alaluokat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n alaluokat** ja valitse sitten vastaava linkki.
 2. Syötä koodit ja nimet niiden luokkien osalta, jotka haluat luoda.
 
 ## <a name="to-set-up-fixed-asset-location-codes"></a>Käyttöomaisuuden sijaintikoodien määrittäminen
 KO-sijaintikoodia voidaan käyttää rekisteröimään käyttöomaisuuden sijainti, esimerkiksi myyntiosasto, vastaanotto, hallinto, tuotanto tai fyysinen varasto. Nämä tiedot ovat tarpeen vakuutusta ja inventointia varten.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n sijainnit** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n sijainnit** ja valitse sitten vastaava linkki.
 2. Syötä koodit ja nimet niiden käyttöomaisuuden sijaintien osalta, jotka haluat luoda.
 
 ## <a name="to-register-opening-entries"></a>Avaustapahtumien rekisteröiminen
-Jos käytät käyttöomaisuutta ensimmäistä kertaa [!INCLUDE[d365fin](includes/d365fin_md.md)]issa, pääkirjanpidon kohdistusalue on määritettävä ennen käyttöomaisuuden määrittämistä. Se, miten tämä tehdään, riippuu siitä, onko käyttöomaisuus on integroitu pääkirjanpidon kanssa.  
+Jos käytät käyttöomaisuutta ensimmäistä kertaa [!INCLUDE[prod_short](includes/prod_short.md)]issa, pääkirjanpidon kohdistusalue on määritettävä ennen käyttöomaisuuden määrittämistä. Se, miten tämä tehdään, riippuu siitä, onko käyttöomaisuus on integroitu pääkirjanpidon kanssa.  
 
  Seuraavaa menetelmää käytetään, jos käyttöomaisuustransaktioita tulee kirjata pääkirjanpitoon.  
 
@@ -104,13 +104,13 @@ Jos käytät käyttöomaisuutta ensimmäistä kertaa [!INCLUDE[d365fin](includes
 3. Luo kullekin poistotarkoitukselle (kuten veroilmoituksille ja taloudellisille raporteille) käyttöominaisuuden poistokirja. Kunkin poistokirjan osalta tulee määritellä ehdot, kuten integrointi pääkirjanpitoon.  
 
     Ota käyttöön pääkirjanpidon integrointi seuraavien vaiheiden avulla. Varmista ensimmäiseksi, että pääkirjanpidon integrointi on poistettu käytöstä kaikissa poistokirjoissa, kirjaa sitten avaustapahtumat ja ota sitten pääkirjanpidon integrointi käyttöön.  
-4. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Poistokirjat** ja valitse sitten liittyvä linkki.  
+4. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poistokirjat** ja valitse sitten vastaava linkki.  
 5. Valitse poistokirja ja valitse **Muokkaa**-toiminto avataksesi **Poistokirjakortti**-sivun.
 6. Varmista, että **Integrointi**-pikavälilehden kaikki kentät ovat tyhjiä (poista kaikki valintamerkit). Jos poistokirjoja on monta, poista kunkin poistokirjan pääkirjanpidon integrointi käytöstä.  
 7. Anna käyttöomaisuuden päiväkirjassa seuraavat rivit kullekin käyttöomaisuudelle:
    * Syötä rivi ja hankintameno.
    * Rivi, jolla on kumulatiivinen poisto edellisen tilikauden loppuun.
-   * Rivi, jolla on kumulatiivinen poisto nykyisen tilivuoden alusta päivään, jonka [!INCLUDE[d365fin](includes/d365fin_md.md)] määrittää poiston laskennan aloituskohdaksi.
+   * Rivi, jolla on kumulatiivinen poisto nykyisen tilivuoden alusta päivään, jonka [!INCLUDE[prod_short](includes/prod_short.md)] määrittää poiston laskennan aloituskohdaksi.
 
     Jos avaussaldoja on muita, myös ne voidaan syöttää (esimerkiksi arvonalennukset ja arvonkorotukset).  
 8. Kun olet syöttänyt ja kirjannut kunkin omaisuuserän päiväkirjarivit, ota pääkirjanpidon integrointi käyttöön poistokirjoissa.
@@ -121,5 +121,8 @@ Jos käyttöomaisuutta ei ole integroitu käyttöomaisuuden kanssa, ohita työva
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Käyttöomaisuus](fa-manage.md)  
 [Rahoitus](finance.md)  
-[Käytön aloittaminen](product-get-started.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

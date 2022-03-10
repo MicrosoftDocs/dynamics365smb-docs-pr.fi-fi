@@ -1,28 +1,26 @@
 ---
-title: Varastointiprosessien määrittäminen | Microsoft Docs
-description: Yrityksen jakelustrategia vaikuttaa varastointiprosessien määrittämiseen. Siihen sisältyy esimerkiksi erilaisten nimikkeiden käsittelyn määrittäminen fyysisen varaston eri sijainneissa, kuten varastopaikkojen valvonta-aste sekä varastotoimintojen välisen työnkulun laajuus.
-services: project-madeira
-documentationcenter: ''
+title: Fyysisen varaston prosessien määrittäminen
+description: Yrityksen jakelustrategia vaikuttaa varastointiprosessien määrittämiseen, esimerkiksi fyysisen varaston sijainteihin.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: a5987b6933ee7e9e57424b3cae02ab3466f863ea
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: c2645f028dcf32e90d8e3f1260e4110401c4fe6f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314434"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145158"
 ---
 # <a name="setting-up-warehouse-management"></a>Varastoinninhallinnan määrittäminen
+
 Yrityksen jakelustrategia vaikuttaa varastointiprosessien määrittämiseen. Siihen sisältyy esimerkiksi erilaisten nimikkeiden käsittelyn määrittäminen fyysisen varaston eri sijainneissa, kuten varastopaikkojen valvonta-aste sekä varastotoimintojen välisen työnkulun laajuus.  
 
- Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.   
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.  
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
@@ -42,10 +40,15 @@ Yrityksen jakelustrategia vaikuttaa varastointiprosessien määrittämiseen. Sii
 |Määritä, että fyysinen varastointi ehdottaa automaattisesti sellaisten nimikkeiden poimintaa, jotka vanhentuvat ensimmäisinä.|[FEFO-poiminnan ottaminen käyttöön](warehouse-picking-by-fefo.md)|
 |Tutustu vihjeisiin, joiden avulla voi järjestellä uudelleen sijainteja, varastopaikkoja tai alueita ja tehostaa näin varastotoimintoja.|[Fyysisten varastojen uudelleenjärjestely](warehouse-how-to-restructure-warehouses.md)|
 |Integroi viivakoodinlukijat varastoinninhallinnan ratkaisuihin. Vain paikallinen käyttöönotto.|[ADCS (Automated Data Capture System) -järjestelmä](warehouse-use-automated-data-capture-systems-adcs.md)|
+|Määritä oletusraportteja, joita käytetään eri asiakirjatyypeille.|[Raporttien valinta Business Centralissa](across-report-selections.md)|
 
-## <a name="see-also"></a>Katso myös  
+## <a name="see-also"></a>Katso myös
+
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
-[Vaihto-omaisuus](inventory-manage-inventory.md)  
-[Kokoonpanon hallinta](assembly-assemble-items.md)    
-[Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Varasto](inventory-manage-inventory.md)  
+[Kokoonpanon hallinta](assembly-assemble-items.md)
+[Rakennetiedot: Warehouse Management](design-details-warehouse-management.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

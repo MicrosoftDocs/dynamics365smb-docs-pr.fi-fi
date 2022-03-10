@@ -2,15 +2,15 @@
 title: Business Central -opintoluettelo
 description: Business Central -opintoluettelo
 author: loreleishannonmsft
-ms.date: 10/01/2020
-ms.topic: article
+ms.date: 04/01/2021
+ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 174ec9f3c51332bec35f1fc7cf49501e8f4b5fc1
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: f7b0434be1ec49259b400403c0f8dcd7fddfcc47
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3926745"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5772452"
 ---
 # <a name="business-central-learning-catalog"></a>Business Central -opintoluettelo
 
@@ -77,3 +77,6 @@ Etsi oikea online-koulutus, henkilökohtaisia työpajoja ja tapahtumia oman rool
     :::column-end:::
 
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

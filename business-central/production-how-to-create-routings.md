@@ -1,21 +1,20 @@
 ---
-title: Reititysten luominen | Microsoft Docs
-description: Reititys sisältää perustiedot tuotettavan nimikkeen prosessivaatimuksista. Kun nimikkeelle luodaan tuotantotilaus, reititys ohjaa toimintojen aikatauluja tuotantotilauksen Tuotantotilaus reititys -sivulla näkyvällä tavalla.
+title: Uusien reititysten luominen
+description: Tässä aiheessa on yleiskuvaus eri tavoista luoda reitityksiä, mukaan lukien vaaditut edellytykset ja reitityslinkkien luominen.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 99000798, 99000806, 99000808, 99000810, 99000817, 99000834, 99000835, 99000836, 99000837, 99000840, 99000841, 99000844, 99000845
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 6cdd00ab5f7372e79d2ab1ced6b77e9ed8343b95
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 29d879552f4879c856f3481fde7cfabbffabec95
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4759340"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135722"
 ---
 # <a name="create-routings"></a>Uusien reititysten luominen
 
@@ -32,7 +31,7 @@ Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:
 
 ## <a name="to-create-a-routing"></a>Reitityksen luominen
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Reititykset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Reititykset** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Valitse **Tyyppi**-kentässä **Sarja**, jos haluat laskea tuotantoreitityksen kentän **Operaation nro** arvon mukaan. -kentässä.  
@@ -64,7 +63,7 @@ Reitityslinkkejä luomalla komponentteja voidaan liittää tiettyihin toimintoih
 
 Toinen tästä seuraava tärkeä etu on se, että linkitetyt komponentit ja toiminnot voidaan näyttää loogisena prosessirakenteena kirjattaessa tuotosta ja kulutusta **Tuotantopäiväkirja**-sivulla.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Reititykset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Reititykset** ja valitse sitten vastaava linkki.  
 2. Avaa reititys, joka sisältää linkitettävät operaatiot.  
 
     Varmista, että reitityksen tila on **Kehityksen alla**.  
@@ -96,7 +95,7 @@ Kun nyt luodaan ja/tai päivitetään tuotantotilaus, joka käyttää yllä käs
 
 Jos operaatiolle vaaditaan henkilöstöä, jolla on pätevyyttä, erikoistietämystä tai erityisvaltuutus, kyseisen henkilöstön voi määritellä operaatiolle. Voit määrittää toimintoon myös työkaluja ja laatuvaatimuksia. Tässä toimintaohjeessa käsitellään henkilöstön määrittämistä. Muiden toimintotyyppien tietoja koskevat vastaavanlaiset ohjeet.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Reititykset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Reititykset** ja valitse sitten vastaava linkki.  
 2. Avaa käsiteltävä reititys.  
 3. Valitse **Rivit**-pikavälilehdessä ensin käsiteltävä rivi, sitten **Toiminnot**-toiminto ja lopuksi **Henkilöstö**-toiminto.  
 4. Täytä **Reititys henkilöstö** -sivun kentät.  
@@ -106,7 +105,7 @@ Jos operaatiolle vaaditaan henkilöstöä, jolla on pätevyyttä, erikoistietäm
 
 Versioperiaate mahdollistaa useiden reititysversioiden hallitsemisen. Reititysversion rakenne vastaa reititysversion otsikosta ja reititysversion riveistä koostuvan reitityksen rakennetta. Peruseron määrittää aloituspäivämäärä.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Reititykset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Reititykset** ja valitse sitten vastaava linkki.  
 2. Valitse ensin kopioitava reititys ja sitten **Versiot**-toiminto.  
 3. Valitse **Reititysversiot**-sivulla **Uusi**-toiminto.
 4. Täytä tarvittavat kentät.
@@ -130,3 +129,6 @@ Version voimassaoloajan määrittää **Aloituspvm**-kenttä.
 [Varasto](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

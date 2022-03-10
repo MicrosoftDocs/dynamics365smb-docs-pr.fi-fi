@@ -2,17 +2,16 @@
 title: Varasto, varastoraportit ja analytiikka
 description: Katso, mitkä varastoraportit ja mikä analytiikka on saatavilla Business Centralin vakioversiossa, jotta voit seurata liiketoimintaasi.
 author: AndreiPanko
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 06/01/2021
 ms.author: andreipa
-ms.openlocfilehash: aaad1aad5557e6e138d2101acdf01a11b02fa0ab
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: 4c2329313d8678ed33527dd7b4917e839dd87dac
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102368"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131715"
 ---
 # <a name="inventory-and-warehouse-reports-and-analytics-in-business-central"></a>Varasto, varastoraportit ja analytiikka Business Centralissa
 

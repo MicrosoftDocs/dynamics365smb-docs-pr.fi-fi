@@ -1,41 +1,26 @@
 ---
-title: Business Centralin talousraportit
-description: Katso, mitkä talousraportit ovat saatavilla Business Centralin vakioversiossa, jotta voit seurata liiketoimintaasi.
+title: Talousraportit ja analytiikka
+description: Katso, mitkä talousraportit ja mikä analytiikka on saatavilla Business Centralin vakioversiossa, jotta voit seurata liiketoimintaasi. Käytä raporttia 38 voitto/tappio (V & T) -raportointia varten.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.date: 04/01/2021
+ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: a36e40796978ddd20df818c3bccb1e148d50a4e1
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: c31914e1c251f4cf04cd3b990c2570b51e1717f5
+ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783770"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "8311204"
 ---
-# <a name="financial-reports-in-business-central"></a>Business Centralin talousraportit
+# <a name="financial-reports-and-analytics-in-business-central"></a>Talousraportit ja analytiikka Business Centralissa
 
 [!INCLUDE [prod_short](includes/prod_short.md)]in talousraportoinnin avulla talouden ja liiketoiminnan ammattilaiset voivat luoda, ylläpitää, ottaa käyttöön ja tarkastella taloudellisia raportteja. Se ylittää perinteisen raportoinnin rajoitukset, jotta voit suunnitella tehokkaasti erityyppisiä raportteja. [!INCLUDE [prod_short](includes/prod_short.md)] sisältää useita raportteja, jäljitystoimintoja ja työkaluja, joiden avulla tilintarkastajat tai valvojat ovat vastuussa talousosaston raportoinnista. Taloudelliseen raportointiin sisältyy dimensioiden tuki, joten tilisegmentit tai -dimensiot ovat heti saatavilla. Muita työkaluja tai määritysvaiheita ei edellytetä.  
 
+[!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
+
 ## <a name="reports"></a>Raportit
-
-Seuraavassa taulukossa kuvataan joitakin talousraportoinnin keskeisiä raportteja.
-
-|Raportti |Kuvaus  |
-|---------|---------|
-|**Muuta kustannuksia – Nimiketapahtumat** | Muuttaa arvotapahtumien varastoarvoja niin, että pääkirjanpitoa päivitettäessä käytetään oikeaa muutettua kustannusta ja tuottotilastot ovat ajan tasalla. Kustannusten muuttaminen siirtää kustannusmuutokset saapuvista tapahtumista, esimerkiksi osto- tai tuotantotapahtumista, niihin liittyviin lähteviin tapahtumiin, esimerkiksi myynteihin tai siirtoihin.  |
-|**Alustava tulos/tase**| Raportissa näkyy tilikartta saldoineen ja nettomuutoksineen. Voit haluta esimerkiksi tarkastella tiettyjen dimensioiden alustavia saldoja. Raporttia voi käyttää kirjanpitojakson tai tilikauden päättyessä. |
-|**Alustava tulos jakson mukaan**  | Tässä raportissa on KP-tilikohtainen alkusaldo, valitun jakson (kuukauden, vuosineljänneksen tai vuoden) tapahtumat ja tuloksena oleva loppusaldo.         |
-|**Alustava tulos/tase / Budjetti** | Raportissa näkyy alustava saldo verrattuna budjettiin. Voit haluta esimerkiksi tarkastella tiettyjen dimensioiden alustavia saldoja. Raporttia voi käyttää kirjanpitojakson tai tilikauden päättyessä.        |
-|**Eritelty alustava saldo** |Raportissa näkyy eritelty alustava saldo valituilta KP-tileiltä. Raporttia voi käyttää kirjanpitojakson tai tilikauden päättyessä. Asettamalla suodattimia voit määrittää, mitkä tilit sisällytetään eräajoon.         |
-|**Alust. saldo / Ed. vuosi**|Tässä raportissa näkyy alustava saldo verrattuna edellisen vuoden lukuihin. Voit haluta esimerkiksi tarkastella tiettyjen dimensioiden alustavia saldoja. Raporttia voi käyttää kirjanpitojakson tai tilikauden päättyessä. Huomaa, että *edellinen vuosi* tarkoittaa samaa jaksoa yhtä kalenterivuotta aikaisemmin.|
-|**KP-raporttimalli**|KP-raporttimalleilla voidaan näyttää pääkirjanpidon tilit eri tavalla kuin tilikartassa. KP-raporttimalleja voidaan käyttää esimerkiksi tunnuslukuraportteja varten.|
-<!--|**Tase** (KP-raporttimalli tai Excel) tai **Alustava saldo** |         |
-|**Kassavirtalaskelma** (KP-raporttimalli) |         |
-|**Alustavan taseen yhteenveto/erittely** |         |
-|**Tuloslaskelma** (KP-raporttimalli tai Excel)||
-|**Budjetti** ||-->
+[!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 ## <a name="tasks"></a>Tehtävät
 
@@ -56,8 +41,11 @@ Seuraavissa artikkeleissa kuvataan joitakin yrityksen tilan analysointiin liitty
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
 [Sulkemista edeltävien raporttien käyttäminen](year-prepare-preclose-reports.md)  
 [Tilinpäätöslaskelmien valmisteleminen](year-prepare-close-statement.md)  
-[Rahoituslaskelmien analysointi Microsoft Excel:issä](finance-analyze-excel.md)  
+[Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md)  
 [Dimensioiden käyttäminen](finance-dimensions.md)  
+[Myyntisaatavien raportit ja analytiikka](receivables-reports.md)  
+[Ostovelkojen raportit ja analytiikka](payables-reports.md)  
+[Käyttöomaisuuden raportit ja analytiikka](fa-reports.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Rahoitus](finance.md)  
 [Paikallisten toiminnallisuuksien yleiskatsaus](about-localization.md)  

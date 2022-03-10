@@ -2,17 +2,17 @@
 title: Työnhallinta useiden yritysten välillä yritystoiminnossa
 description: Tutustu yritystoimintoon Dynamics 365 Business Centralissa, jossa työskentelet useiden yritysten kesken.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 10/29/2020
+ms.search.form: 1151, 1154, 1165, 1166
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d85358c9fa1e4f6fb6d581daed45c4333511b990
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 410e3166674354499e76b9bc5483d66c037c4969
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5387472"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132053"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Työnhallinta useiden yritysten välillä yritystoiminnossa
 
@@ -30,7 +30,7 @@ Jos käytät **Yritystoiminto**-roolia, kotisivusi näyttää luettelon yrityksi
 > [!TIP]
 > Jos haluat käyttää tiettyä yritystä [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman yrityksessä, valitse yrityksen nimi tai valitse **Siirry yritykseen** -valikkovaihtoehto. Olet kirjautunut sisään automaattisesti uudessa selainvälilehdessä.
 
-:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Yritystoiminnon luettelossa olevan yrityksen toiminnot":::
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Yritystoiminnon luettelossa olevan yrityksen toiminnot.":::
 
 Voit lisätä uusia yrityksiä, esimerkiksi silloin, kun saat uuden asiakkaan, tai kun yritys lisää uuden tytäryrityksen. Lisätietoja on kohdassa [Yritysten lisääminen yritystoimintoon](company-hub-add-company.md).  
 
@@ -86,7 +86,7 @@ Yrityksen lisääminen edellyttää kuitenkin, että sinulla on käyttöoikeus y
 
 Esimerkiksi, jos olet kirjanpitäjä, asiakkaasi voivat kutsua sinut heidän [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaansa. Lisätietoja on kohdassa [Ulkoisen kirjanpitäjän kutsuminen Business Centraliin](finance-accounting.md#inviteaccountant).  
 
-Järjestelmänvalvojat voivat käyttää samaa avustettua Ohjatun määrityksen opasta käyttäjien lisäämiseen [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa, tai he voivat lisätä sinut asianmukaiseen Azure AD -tiliin Microsoft 365 -hallintakeskuksessa. Lisätietoja on kohdassa [Käyttäjien ja ryhmien hallinta](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
+Järjestelmänvalvojat voivat käyttää samaa avustettua Ohjatun määrityksen opasta käyttäjien lisäämiseen [!INCLUDE [prod_short](includes/prod_short.md)]-ohjelmassa, tai he voivat lisätä sinut asianmukaiseen Azure AD -tiliin Microsoft 365 -hallintakeskuksessa. Lisätietoja on kohdassa [Käyttäjien ja ryhmien hallinta](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
 ## <a name="see-also"></a>Katso myös
 

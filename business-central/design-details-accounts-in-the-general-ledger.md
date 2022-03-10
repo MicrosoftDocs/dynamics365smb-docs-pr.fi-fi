@@ -2,20 +2,19 @@
 title: Rakennetiedot – Pääkirjanpidon tilit | Microsoft Docs
 description: Kun varasto ja kapasiteettitapahtumat täsmäytetään pääkirjanpidon kanssa, liittyvät arvotapahtumat kirjataan pääkirjanpidon eri tileille.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 408a510e311573f6573eee286508b9f05f0088dc
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b1b3620234901c3b2a1eba5f5af7eb0e79449dc4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788319"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146798"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Rakennetiedot: pääkirjanpidon tilit
 Kun varasto ja kapasiteettitapahtumat täsmäytetään pääkirjanpidon kanssa, liittyvät arvotapahtumat kirjataan pääkirjanpidon eri tileille. Lisätietoja on kohdassa [Rakennetiedot: täsmäytys pääkirjanpidon kanssa](design-details-reconciliation-with-the-general-ledger.md).  
@@ -99,4 +98,7 @@ Seuraavassa taulukossa esitetään, kuinka pääkirjaan tiliöitävät summat la
  [Rakennetiedot: oletetun kustannuksen kirjaus](design-details-expected-cost-posting.md)  
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
  [Rahoitus](finance.md)  
- [[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+ [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

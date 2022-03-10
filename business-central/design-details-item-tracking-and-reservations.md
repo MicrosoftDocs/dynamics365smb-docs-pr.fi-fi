@@ -1,23 +1,23 @@
 ---
-title: Rakennetiedot – Nimikkeen seuranta ja varaukset | Microsoft Docs
-description: Tässä ohjeaiheessa käsitellään nimikkeen seurannasta ja varauksista sekä niihin liittyviä käsitteitä.
+title: Rakennetiedot – nimikeseuranta ja varaukset
+description: Tässä ohjeaiheessa käsitellään nimikeseurantaa ja varauksia sekä niihin liittyviä käsitteitä.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: bfa2706b4d6d44a6f565685a66668c336b7a20e3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 25d911fd663e35f218f78e68f76c5f3043ba6764
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185106"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139727"
 ---
 # <a name="design-details-item-tracking-and-reservations"></a>Rakennetiedot: nimikkeen seuranta ja varaukset
+
 Varauksen ja tietyn nimikeseurannan samanaikainen käyttö on epänormaalia, koska ne molemmat luovat kytkennän tarjonnan ja kysynnän välille. Lukuun ottamatta tilanteita, joissa asiakas tai tuotannon suunnittelija pyytää tiettyä erää, jolloin on harvoin järkevää varata varastonimikkeitä, joilla on jo tietyn sovelluksen nimikeseurantanumerot. Vaikka tietyn nimikkeen seurannan vaativia nimikkeitä on mahdollista varata, saatavuuden ristiriitojen välttämiseksi vaaditaan erityistä toiminnallisuutta niiden tilausten käsittelijöiden välillä, jotka pyytävät samoja nimikeseurattuja nimikkeitä.  
   
 Late Binding -ohjelmoinnin konsepti varmistaa, että sarja- tai eränumeron epäspesifinen varaus säilyy löyhästi kytkettynä tiliöintiin saakka. Varausjärjestelmä saattaa järjestää epätarkat varaukset kirjaamishetkellä uudelleen varmistaakseen, että kiinteä kohdistus on mahdollista todellisuudessa poimitun sarja- tai eränumeron perusteella. Tänä aikana sarja- tai eränumero asetetaan käyttöön tietylle varaukselle muissa asiakirjoissa, jotka pyytävät tätä tiettyä sarja- tai eränumeroa.  
@@ -25,7 +25,7 @@ Late Binding -ohjelmoinnin konsepti varmistaa, että sarja- tai eränumeron epä
 Epäspesifisessä varauksessa käyttäjä ei välitä mikä tietty nimike poimitaan ja erityisessä varauksessa käyttäjä välittää.  
   
 > [!NOTE]  
->  Late Binding -toiminto liittyy vain nimikkeisiin, jotka on määritetty tiettyyn nimikkeenseurantaan, ja sitä voidaan käyttää vain varastoon kohdistuviin varauksiin, ei tuleviin toimitustilauksiin.  
+> Late Binding -toiminto liittyy vain nimikkeisiin, jotka on määritetty tiettyyn nimikkeenseurantaan, ja sitä voidaan käyttää vain varastoon kohdistuviin varauksiin, ei tuleviin toimitustilauksiin.  
   
 Nimikeseurantanumeroiden varaus jakaantuu kahteen luokaan, kuten seuraavassa taulukossa on esitetty.  
   
@@ -35,12 +35,11 @@ Nimikeseurantanumeroiden varaus jakaantuu kahteen luokaan, kuten seuraavassa tau
 |Epäspesifinen|Et voi valita tiettyä sarja- tai eränumeroa, kun varaat varastonimikkeen kysynnästä, kuten myyntitilauksesta.<br /><br /> Tämä on tila, joka saadaan varattaessa sarja- tai eränumeroita, joita ei ole erityisesti valittu. **Huomautus:** Kysyntään ei kohdistu sarjaa eränumeroita. <br /><br /> Haluat esimerkiksi varata purkin sinistä maalia mistä tahansa erästä myyntitilauksellesi. Asiakkaalle toimitetaan purkki sinistä maalia satunnaisesta sarja- tai eränumerosta.|  
   
 Pääero erityisen ja yleisen varauksen välillä on määritetty sarja- ja eränumeroiden olemassaololla kysyntäpuolella, kuten seuraavasta taulukosta ilmenee.  
-  
-||||  
-|-|-|-|  
-||**Tarjonta**|**Kysyntä**|  
-|**Määrätty**|Sarja- tai eränumero.|Sarja- tai eränumero.|  
-|**Epäspesifinen**|Sarja- tai eränumero.|Ei sarja- tai eränumeroa.|  
+
+| Tyyppi            | Tarjonta                | Kysyntä                   |
+|-----------------|-----------------------|--------------------------|
+| **Määrätty**    | Sarja- tai eränumero. | Sarja- tai eränumero.    |
+| **Epäspesifinen** | Sarja- tai eränumero. | Ei sarja- tai eränumeroa. |
   
 Kun varastomääriä varataan lähtevästä asiakirjarivistä nimikkeelle, jolle on määritetty nimikkeen seurantanumerot ja tietyn nimikkeen seuranta, **Varaus**-sivu johtaa sinut eri työnkulkujen läpi sarja- tai eränumeroiden tarpeesta riippuen.s  
   
@@ -92,3 +91,5 @@ Myöhäisen sitomisen toiminnallisuus tukee tätä liiketoimintaskenaariota. Sen
   
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: nimikkeen seuranta](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

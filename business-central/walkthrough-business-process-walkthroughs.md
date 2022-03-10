@@ -1,46 +1,52 @@
 ---
-title: Liiketoimintaprosessien vaihekuvaukset | Microsoft Docs
-description: Näissä vaihekuvauksissa käsitellään yksityiskohtaisesti ja kattavasti liiketoimintaprosesseja, joita voi käyttää CRONUS Finland Oy -esittely-yrityksen avulla. Vaihekuvaukset koostuvat useista toimenpiteistä, joista osan voi normaalisti suorittaa yksi käyttäjä, kun taas muihin liittyy useita erilaisia käyttäjärooleja. Jotta työympäristöstä saadaan asianmukainen, vaihekuvaukset voivat sisältää erityisiä määritysvaiheita. Ne täytyy suorittaa ohjeiden mukaisesti ennen harjoitusten tekemistä. Nämä vaiheet voivat antaa käsityksen siitä, millaisia tietoja käyttäjien on kerrottava yrityksensä tietotekniikan ammattilaisille.
+title: Liiketoimintaprosessien vaihekuvaukset
+description: Näissä vaihekuvauksissa käsitellään yksityiskohtaisesti ja kattavasti liiketoimintaprosesseja, joita voi käyttää CRONUS-esittely-yrityksen avulla.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 6b0d14b8c46d5d41266de950e60daa56d88cbd5e
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: 3d3c7aad6205ad92515dd81542eae209d0f45540
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2881916"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129525"
 ---
 # <a name="business-process-walkthroughs"></a>Liiketoimintaprosessien vaihekuvaukset
-Näissä vaihekuvauksissa käsitellään yksityiskohtaisesti ja kattavasti liiketoimintaprosesseja, joita voi käyttää CRONUS Finland Oy -esittely-yrityksen avulla. Vaihekuvaukset koostuvat useista toimenpiteistä, joista osan voi normaalisti suorittaa yksi käyttäjä, kun taas muihin liittyy useita erilaisia käyttäjärooleja. Jotta työympäristöstä saadaan asianmukainen, vaihekuvaukset voivat sisältää erityisiä määritysvaiheita. Ne täytyy suorittaa ohjeiden mukaisesti ennen harjoitusten tekemistä. Nämä vaiheet voivat antaa käsityksen siitä, millaisia tietoja käyttäjien on kerrottava yrityksensä tietotekniikan ammattilaisille.  
 
- Näiden vaihekuvausten tilanteet ovat luonteeltaan kattavia, ja vaihekuvauksista onkin eniten hyötyä, kun niissä esitetyt toimet suoritetaan alusta loppuun. Monet kuvaukset perustuvat [!INCLUDE[d365fin](includes/d365fin_md.md)] -esittelyihin, ja voit kokeilla toimintaohjeita sinulle sopivaan tahtiin.  
+Näissä vaihekuvauksissa käsitellään yksityiskohtaisesti ja kattavasti liiketoimintaprosesseja, joita voi käyttää CRONUS-esittely-yrityksen avulla. Vaihekuvaukset koostuvat useista toimenpiteistä, joista osan voi normaalisti suorittaa yksi käyttäjä, kun taas muihin liittyy useita erilaisia käyttäjärooleja. Jotta työympäristöstä saadaan asianmukainen, vaihekuvaukset voivat sisältää erityisiä määritysvaiheita. Ne täytyy suorittaa ohjeiden mukaisesti ennen harjoitusten tekemistä. Nämä vaiheet voivat antaa käsityksen siitä, millaisia tietoja käyttäjien on kerrottava yrityksensä tietotekniikan ammattilaisille.  
+
+ Näiden vaihekuvausten tilanteet ovat luonteeltaan kattavia, ja vaihekuvauksista onkin eniten hyötyä, kun niissä esitetyt toimet suoritetaan alusta loppuun. Monet kuvaukset perustuvat [!INCLUDE[prod_short](includes/prod_short.md)] -esittelyihin, ja voit kokeilla toimintaohjeita sinulle sopivaan tahtiin.  
 
 > [!NOTE]
-> Joissakin vaihekuvauksissa käytetään esittelytietoja, jotka eivät ole käytettävissä tavallisessa CRONUS-yrityksessä. Kyseissä vaihekuvauksissa vaiheet on suoritettava siinä yrityksessä, joka luotiin asetuksessa **Täydellinen arviointi - Kaikki mallitiedot**, joka on käytettävissä Sandbox-ympäristössä. Lisätietoja on kohdassa [Sandbox-ympäristön luominen](across-how-create-sandbox-environment.md).
+> Joissakin vaihekuvauksissa tarvitaan näytetietoja, joita ei ole saatavana [!INCLUDE[prod_short](includes/prod_short.md)]in oletusesittely-yrityksessä. <!--For more information, see [Sandbox Environments](admin-sandbox-environments.md). -->
 
-|Vastaanottaja|Katso|  
+|Tehtävä|Katso|  
 |--------|---------|  
 |Markkinointikampanjan määrittäminen.|[Vaihekuvaus: Myyntikampanjan suorittaminen](walkthrough-conducting-a-sales-campaign.md)|  
-|Hallitse myynnin ja ostojen osamaksuja ennakkomaksujen avulla. **Tarvitaan täydelliset esimerkkitiedot** |[Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
-|Määritä hyväksyntäkäyttäjät sekä, hyväksyntätyönkulujen käyttäjille tarkoitettujen ilmoitusten vastaanottoaika ja -tapa. Muokkaa sitten käsiteltäviä hyväksyntätyönkulkuja ja ota ne käyttöön.|[Vaihekuvaus: Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
-|Hyllytä vastaanotettuja nimikkeitä perusvarastointimäärityksessä. **Tarvitaan täydelliset esimerkkitiedot**|[Vaihekuvaus: Vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)|  
-|Hyllytä vastaanotetut nimikkeet laajennetuissa varastointimäärityksissä. **Tarvitaan täydelliset esimerkkitiedot**|[Vaihekuvaus: Vastaanotto ja hyllytys laajennetuissa varastomäärityksissä](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|  
-|Suunnittele toimitustilaukset täyttämään kysyntä manuaalisesti. **Tarvitaan täydelliset esimerkkitiedot**|[Vaihekuvaus: Toimitusten manuaalinen suunnittelu](walkthrough-planning-supplies-manually.md)|  
-|Suunnittele toimitustilaukset täyttämään kysyntä automaattisesti. **Tarvitaan täydelliset esimerkkitiedot**|[Vaihekuvaus: Toimitusten automaattinen suunnittelu](walkthrough-planning-supplies-automatically.md)|  
-|Kokoa ja toimita nimikkeitä, jotka on mukautettu myyntitilauksessa. **Tarvitaan täydelliset esimerkkitiedot**|[Vaihekuvaus: Tuotepakettien myynti, kokoaminen ja toimitus](walkthrough-selling-assembling-and-shipping-kits.md)|  
-|Suunnittele projekti alusta loppuun. **Tarvitaan täydelliset esimerkkitiedot**|[Vaihekuvaus: Projektinhallinta Projektit-sovellusalueen avulla](walkthrough-managing-projects-with-jobs.md)|  
-|Raportoi projektin kustannukset. **Tarvitaan täydelliset esimerkkitiedot**|[Vaihekuvaus: Projektin keskeneräisen työn laskeminen](walkthrough-calculating-work-in-process-for-a-job.md)|  
-|Valitse nimikkeet toimitusta varten perusvarastointimäärityksessä. **Tarvitaan täydelliset esimerkkitiedot**|[Vaihekuvaus: Poiminta ja toimitus fyysisen varastoinnin perusmäärityksissä](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
-|Suorita vikojen hallinta. **Tarvitaan täydelliset esimerkkitiedot**|[Vaihekuvaus: Sarja-/eränumeroiden jäljitys](walkthrough-tracing-serial-lot-numbers.md)|  
+|Hallitse myynnin ja ostojen osamaksuja ennakkomaksujen avulla. <!-- **Requires complete sample data** --> |[Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)|  
+|Määritä hyväksyntäkäyttäjät sekä, hyväksyntätyönkulujen käyttäjille tarkoitettujen ilmoitusten vastaanottoaika ja -tapa. Muokkaa sitten käsiteltäviä hyväksyntätyönkulkuja ja ota ne käyttöön.|[Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
+|Suunnittele projekti alusta loppuun. <!-- **Requires complete sample data** --> |[Vaihekuvaus: Projektinhallinta Projektit-sovellusalueen avulla](walkthrough-managing-projects-with-jobs.md)|  
+|Raportoi projektin kustannukset. <!-- **Requires complete sample data** --> |[Vaihekuvaus: Projektin keskeneräisen työn laskeminen](walkthrough-calculating-work-in-process-for-a-job.md)|  
+|Valitse nimikkeet toimitusta varten perusvarastointimäärityksessä. <!-- **Requires complete sample data** --> |[Vaihekuvaus: Poiminta ja toimitus fyysisen varastoinnin perusmäärityksissä](walkthrough-picking-and-shipping-in-basic-warehousing.md)|  
+|Yritystietojen vieminen valvontaa varten Saksassa.|[Vaihekuvaus: Tietojen vienti digitaalista tilintarkastusta varten](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)|
+
+<!-- |Assemble and ship items that are customized on the sales order. **Requires complete sample data** |[Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)|   -->
+<!-- |Plan supply orders to fulfill demand automatically. **Requires complete sample data** |[Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md)|   -->
+<!-- |Plan supply orders to fulfill demand manually. **Requires complete sample data** |[Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)|   -->
+<!-- |Put received items away in basic warehouse configurations. **Requires complete sample data** |[Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)|   -->
+<!-- |Put received items away in advanced warehouse configurations. **Requires complete sample data**|[Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|   -->
+<!-- |Perform defects management. **Requires complete sample data** |[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)| -->
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

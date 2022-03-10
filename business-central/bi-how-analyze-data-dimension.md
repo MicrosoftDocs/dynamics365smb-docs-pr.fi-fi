@@ -1,25 +1,23 @@
 ---
-title: Analysoi tietoja dimensioiden mukaan | Microsoft Docs
-description: Tässä osassa kuvataan eri liiketoiminnan tietojen analysointi dimensioiden mukaan.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+title: Analysoi tiedot mittojen mukaan
+description: Tässä aiheessa kuvataan eri liiketoiminnan tietojen analysointi dimensioiden mukaan. Dimensiot antavat sinulle paremman käsityksen liiketoiminnastasi, jotta voit arvioida tietoja.
+author: edupont
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.date: 04/01/2020
+ms.search.form: 555, 556, 557, 558, 9372, 9370, 9371
+ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: bed657fd2694dc3c1adc44a7dddfd857ab60f3bf
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: ca377898f9dd49a55ec9113fc020054288c33910
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3783484"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335056"
 ---
-#  <a name="analyze-data-by-dimensions"></a>Analysoi tiedot mittojen mukaan
+#  <a name="analyze-data-by-dimensions"></a>Analysoi tiedot dimensioiden mukaan
 Talousanalyysissä dimensio on tieto, jonka voi lisätä tapahtumaan eräänlaiseksi merkiksi. Tämän tiedon avulla voi yhdistää ryhmiksi tapahtumia, joilla on samoja ominaisuuksia, kuten asiakkaita, alueita, tuotteita tai myyjiä, sekä noutaa nämä ryhmät helposti analysoitavaksi. Dimensioita voi käyttää päiväkirjojen tapahtumissa, asiakirjoissa ja budjeteissa. Dimensiotermi kuvaa, miten analysointi tapahtuu. Esimerkiksi kaksidimensioinen analyysi voisi olla myynti per alue. Käyttämällä tapahtumaa luodessasi useita dimensiota voit luoda monimutkaisia analyysejä, kuten myynti per myyntikampanja per asiakasryhmä per alue. Lisätietoja on kohdassa [Dimensioiden käyttäminen](finance-dimensions.md).
 
 Analysoimalla tietoja dimensioittain saat liiketoiminnasta selkeän kuvan ja voit arvioida esimerkiksi, miten hyvin yritys toimii, missä se menestyy ja missä ei, sekä minne pitäisi kohdentaa enemmän resursseja.
@@ -27,10 +25,13 @@ Analysoimalla tietoja dimensioittain saat liiketoiminnasta selkeän kuvan ja voi
 > [!TIP]
 > Tapahtumatietoja voi analysoida nopeasti dimensioiden mukaan suodattamalla tilikarttojen loppusummat ja kaikkien **Tapahtumat**-sivujen tapahtumat dimensioittain. Hae **Määritä dimension suodatus** -toiminto.
 
+> [!NOTE]
+> Jos havaitset, että kirjatuissa pääkirjanpidon tapahtumissa on käytetty virheellistä dimensiota, voit korjata dimension arvot ja päivittää analyysinäkymät. Lisätietoja on kohdassa [Vianmääritys ja dimensioiden korjaaminen](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting)
+
 ## <a name="to-set-up-an-analysis-view"></a>Analyysinäkymän luominen  
 Analyysissa dimensioittain näkyy valittu dimensioyhdistelmä. Voit tallentaa ja hakea jokaisen määrittelemäsi analyysin. Analyysin määrityksen tiedot tallentuvat **analyysinäkymän** korttiin, jotta tulevien analyysien laatiminen olisi yksinkertaisempaa.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Analyysinäkymät** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Analyysinäkymät** ja valitse sitten vastaava linkki.  
 2. Valitse **Analyysinäkymän luettelo** -sivulla **Uusi**-toiminto.
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Jos haluat lisätä muita dimensiokoodeja neljän **Dimensiot**-pikavälilehden koodin lisäksi, valitse **Suodatin**-toiminto, täytä kentät ja valitse **OK**.  
@@ -39,7 +40,7 @@ Analyysissa dimensioittain näkyy valittu dimensioyhdistelmä. Voit tallentaa ja
 ## <a name="to-analyze-by-dimensions"></a>Analyysi dimensioiden mukaan
 Voit tarkastella pääkirjanpidon summia **Varastoanalyysi dimensioittain** -matriisissa aiemmin määrittämiesi analyysinäkymien avulla. Täytä **Analyysi dimensioittain** -sivu, kun haluat määrittää matriisissa näkyvät tiedot. Voit katsella matriisia valitsemalla **Näytä matriisi** -toiminnon.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Analyysinäkymät** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Analyysinäkymät** ja valitse sitten vastaava linkki.  
 2. Valitse haluamasi analyysinäkymä ja valitse sitten **Analyysi dimensioittain** -toiminto.
 3. Täyttämällä **Analyysi dimensioittain** -sivun yläosan kentät määrität, mitkä tiedot näytetään ja miten ne näytetään.
 4. Avaa määritettyyn analyysinäkymään liittyvä matriisisivu valitsemalla **Näytä matriisi** -toiminto.
@@ -62,7 +63,7 @@ Summat, jotka näkyvät **Analyysi dimensioittain** -sivulla, kuvaavat yrityksen
 
 Seuraavan menettelyn avulla voit päivittää analyysinäkymän **Analyysi dimensioittain** -sivulla. Vaiheet ovat samanlaiset **Analyysinäkymän kortti** ja **Analyysinäkymän luettelo** -sivuilla.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Analyysinäkymät** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Analyysinäkymät** ja valitse sitten vastaava linkki.
 2. Valitse haluamasi analyysinäkymä ja valitse sitten **Analyysi dimensioittain** -toiminto.
 2. Valitse **Analyysi dimensioittain** -sivulla **Analyysinäkymän koodi** -kenttä.  
 3. Valitse asianomaisen analyysinäkymän rivi.  
@@ -82,4 +83,7 @@ Seuraavan menettelyn avulla voit päivittää analyysinäkymän **Analyysi dimen
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
 [Dimensioiden käyttäminen](finance-dimensions.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

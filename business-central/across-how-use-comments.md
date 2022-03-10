@@ -1,23 +1,24 @@
 ---
-title: Kommenttien lisääminen kortteihin ja asiakirjoihin | Microsoft Docs
+title: Kommenttien lisääminen kortteihin ja asiakirjoihin
 description: Lisää tietoja tileihin, asiakkaiden kortteihin tai myyntitilauksiin ja jaa muille käyttäjille tietoja sopimuksista, kuten erikoishinnoista tai toimitustavasta.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: tasks, work
-ms.date: 04/01/2020
+ms.search.form: 124, 30
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f1127bd8e99f8ef6342ec240b4f42b52b11b36bb
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 63b65f697e12090f5e4bfbc2ca11e30a6e167bab
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3781883"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129125"
 ---
 # <a name="add-comments-to-cards-and-documents"></a>Kommenttien lisääminen kortteihin ja asiakirjoihin
+
 Voit lisätä tietoja KP-tileihin, asiakkaiden kortteihin tai myyntitilauksiin ja jakaa muille käyttäjille tietoja poikkeuksista tai erikoissopimuksista.
 Käytännössä kaikissa korteissa ja asiakirjoissa on **Kommentit**-toiminto. Se avaa **Kommenttilomake**-sivun, jossa voi kirjoittaa ja lukea kommentteja. Asiakirjoissa voi lisätä kommentteja myös yksittäisille riveille.
 
@@ -31,11 +32,16 @@ Voit määrittää myös, haluatko, että kommentit siirretään yhdestä asiaki
 Seuraavassa kerrotaan, miten kommentti lisätään nimikkeen korttiin. Vaiheet ovat samanlaiset kaikissa korteissa ja asiakirjoissa asiakirjan rivejä lukuun ottamatta. Niillä **Kommentit**-toiminto on rivien toimintovalikossa.
 
 ## <a name="to-add-a-comments-to-an-item-card"></a>Kommenttien lisääminen nimikkeen korttiin
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Nimikkeet** ja valitse sitten liittyvä linkki.
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
 2. Avaa oikea nimikkeen kortti.
 3. Valitse **Kommentit**-toiminto.
 4. Kirjoita **Kommenttilomake**-sivulla tekstiä ja valitse sitten **OK**-painike.
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

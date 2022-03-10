@@ -2,23 +2,22 @@
 title: Taulukon yhdistämismääritysten manuaalinen synkronointi | Microsoft Docs
 description: Synkronointi kopioi tiedot Microsoft Dataversein taulukoiden ja Business Centralin välillä, jotta kumpikin järjestelmä pysyy ajan tasalla.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: cac0b3f254f2282b4cd1db386db16de2e6324fdd
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d36032b28790052ad568a91c40d0b6eec7e2bc31
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378021"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149210"
 ---
 # <a name="manually-synchronize-table-mappings"></a>Taulukon yhdistämismääritysten manuaalinen synkronointi
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Integrointitaulukon yhdistämismääritys liittää [!INCLUDE[prod_short](includes/prod_short.md)] -taulukon (tietuetyypin), kuten asiakkaan, [!INCLUDE[prod_short](includes/cds_long_md.md)] -taulukkoon, kuten tiliin. Integrointitaulukon yhdistämismäärityksen synkronoinnin ansiosta voit synkronoida yhdistetyn [!INCLUDE[prod_short](includes/prod_short.md)] -taulukon ja [!INCLUDE[prod_short](includes/cds_long_md.md)] -taulukon kaikkien tietueiden tiedot. Lisäksi taulukon yhdistämismäärityksen mukaan synkronointi voi luoda ja yhdistää uusia tietueita lähteen yhdistämättömien tietueiden kohderatkaisussa.  
 
@@ -43,7 +42,7 @@ Rivin luonti ja luontiajankohta määräytyy synkronointisuunnan mukaan. Esimerk
 >  Yleensä täyttä synkronointia käytetään, kun [!INCLUDE[prod_short](includes/prod_short.md)]- ja [!INCLUDE[prod_short](includes/cds_long_md.md)] -integrointi määritetään ja vain toisessa ratkaisussa on tietoja, jotka halutaan kopioida toiseen ratkaisuun. Täysi synkronointi voi olla kätevä esittely-ympäristössä. Koska täysi synkronointi luo ja yhdistää tietueita ratkaisujen välillä, se nopeuttaa tietueiden välillä synkronoitavien tietojen käytön aloittamista. Täysi synkronointi pitäisi toisaalta suorittaa vain, jos haluat lisätä tietyn taulukon yhdistämismääritysten [!INCLUDE[prod_short](includes/prod_short.md)] -rivin jokaiseen [!INCLUDE[prod_short](includes/cds_long_md.md)] -riviin. Muussa tapauksessa syntyy ei-toivottuja tietueita tai tietueiden kaksoiskappaleita joko [!INCLUDE[prod_short](includes/prod_short.md)]- tai [!INCLUDE[prod_short](includes/cds_long_md.md)] -ratkaisuun.  
 
 ### <a name="to-run-a-full-synchronization"></a>Täyden synkronoinnin suorittaminen  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Dataverse -yhteyden määritys** ja valitse sitten liittyvä linkki.
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Dataverse-yhteyden määritys** ja valitse sitten vastaava linkki.
 
     > [!NOTE]
     > Jos haluat suorittaa täydellisen synkronoinnin taulukoille Dynamics 365 Salesin avulla, käytä sen sijaan **Microsoft Dynamics 365 Sales -yhteyden määritys** -sivua.
@@ -72,14 +71,14 @@ Voit tarkastella synkronoinnin tuloksia **Integroinnin synkronointityöt** -sivu
 >  Jos muokkaat integrointitaulukon yhdistämismääritystä etukäteen, voit luoda suodattimet valitsemaan synkronoitavat tiedot. Vaihtoehtoisesti voit määrittää yhdistämismääritykset luomaan uudet tiedot kohderatkaisussa lähteen yhdistämättömille tietueille tai riveille. Lisätietoja on kohdassa [Taulukon yhdistämismääritysten muokkaaminen synkronointia varten](admin-how-to-modify-table-mappings-for-synchronization.md).
 
 ### <a name="to-synchronize-data-for-all-tables"></a>Kaikki taulukoiden tietojen synkronointi  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Microsoft Dynamics 365 Sales -yhteyden määritys** ja valitse sitten liittyvä linkki.
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Microsoft Dynamics 365 Sales -yhteyden määritys** ja valitse sitten vastaava linkki.
 2.  Valitse ensin **Synkronoi muokatut tietueet** -toiminto ja sitten **Kyllä**.  
 
 ## <a name="synchronize-individual-table-mappings"></a>Yksittäisen taulukon yhdistämismääritysten synkronointi
 Voit suorittaa taulukon yhdistämismääritysten synkronointityön **Integrointitaulukon yhdistämismääritykset** -sivulla. Kaikki taulukon yhdistämismäärityksessä määritetyt [!INCLUDE[prod_short](includes/prod_short.md)] -taulukon ja [!INCLUDE[prod_short](includes/cds_long_md.md)] -taulukon yhdistettyjen tietueiden ja rivien tiedot synkronoidaan. Oletusarvoisesti vain tiedot, joita on muokattu edellisen synkronointikerran jälkeen, synkronoidaan.  
 
 ### <a name="to-synchronize-records-of-an-integration-table-mapping"></a>Integrointitaulukon yhdistämismäärityksen tietueiden synkronointi  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Integrointitaulukon yhdistämismääritykset** ja valitse sitten liittyvä linkki.
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Integroinnin yhdistämistaulukot** ja valitse sitten liittyvä linkki.
 2.  Valitse ensin **Synkronoi muokatut tietueet** -toiminto ja sitten **Kyllä**.  
 
 ## <a name="see-also"></a>Katso myös  

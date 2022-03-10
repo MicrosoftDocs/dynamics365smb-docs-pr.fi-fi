@@ -2,20 +2,19 @@
 title: Rakennetiedot – kysyntä ja tarjonta | Microsoft Docs
 description: Tässä ohjeaiheessa esitellään kysyntä-termi, jota käytetään kaikenlaiseen bruttokysyntään, kuten myyntitilaukseen ja komponenttitarpeeseen tuotantotilauksesta.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, demand, supply, inventory, planning
-ms.date: 04/01/2020
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: a14f3da6a919f4e5a8066a4205ceb71f2dcee505
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3b5f390343f74bc559cce48b2037edd125f829ca
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3788019"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143632"
 ---
 # <a name="design-details-demand-at-blank-location"></a>Rakennetiedot: kysyntä tyhjä-sijainnissa
 Kun käyttäjä luo kysyntätapahtuman, kuten myyntitilausrivin, ohjelma sallii käyttäjän joskus määrittää sijaintikoodin, mutta ei aina. Tällöin käytetään tyhjää sijaintia.
@@ -132,3 +131,6 @@ Kuten edellisessä esimerkkitilanteessa kuvataan, kaikkien sijainteihin liittyvi
 [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)   
 [Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md)   
 [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

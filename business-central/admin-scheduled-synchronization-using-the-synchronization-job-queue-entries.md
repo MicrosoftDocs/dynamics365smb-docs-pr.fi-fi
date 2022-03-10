@@ -2,7 +2,6 @@
 title: Business Centralin ja Dataversen synkronointi
 description: Lisätietoja tietojen synkronoinnissa Business Centralin ja Dataversein välillä.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,15 +9,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 07eaab3182d51bd7b76d1ffbbfb7ad18338faeb7
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 937601cffe10fe7862aad48ec7f7bded37ad8e61
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325427"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130616"
 ---
 # <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Business Centralin ja Dataversein synkronoinnin ajoittaminen
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Voit synkronoida [!INCLUDE[prod_short](includes/prod_short.md)]in ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tietyin väliajoin määrittämällä työt työjonoon. Synkronointityöt synkronoivat [!INCLUDE[prod_short](includes/prod_short.md)]in tietueiden tiedot ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tietueet, jotka on aiemmin yhdistetty. Jos kyse on vielä yhdistämättömistä tietueista synkronointityöt voivat luoda ja yhdistää uusia tietueita kohdejärjestelmässä synkronointisuunnan ja -sääntöjen mukaisesti. 
 

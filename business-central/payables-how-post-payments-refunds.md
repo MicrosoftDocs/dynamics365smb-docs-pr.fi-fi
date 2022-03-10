@@ -1,27 +1,27 @@
 ---
-title: Maksujen kohdistaminen liittyviin asiakirjoihin ja sekä maksujen kirjaaminen | Microsoft Docs
-description: Kuvaa, miten kirjataan maksut toimittajille tai hyvitykset asiakkaille.
+title: Maksujen ja hyvitysten tallentaminen maksupäiväkirjaan
+description: Tietoja siitä, miten kirjaat maksut toimittajille tai hyvitykset asiakkaille Maksupäiväkirja-sivulla.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment journal, print check, vendor payment, customer refund, creditor, debt, balance due, AP
-ms.date: 10/01/2019
+ms.search.keywords: payment journal, print check, vendor payment, customer refund, refund check, creditor, debt, balance due, AP
+ms.search.form: 256, 251, 233, 624, 1228
+ms.date: 07/09/2021
 ms.author: edupont
-ms.openlocfilehash: 5f9301541e73b4137f6c241a18e2f25c4009fc76
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: b45d9b58276c52204b6ae83b3a0d78af7e48fc30
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314290"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135131"
 ---
 # <a name="record-payments-and-refunds-in-the-payment-journal"></a>Maksujen ja hyvitysten tallentaminen maksupäiväkirjaan
 
 Kirjaat maksut toimittajille tai hyvitykset asiakkaille **Maksupäiväkirja**-sivulla. Kun kirjaat maksupäiväkirjan rivin, maksettu summa kirjataan määritetyn järjestelmän pankkitilille. Sinun on tehtävä sitten todellinen rahan siirto liittyvältä pankkitililtä muutaman vaiheen kautta.  
 
-Maksupäiväkirja on yleinen päiväkirja, joka on tarkoitettu erityisesti maksujen tekemiseen. Voit nopeasti lisätä rivejä manuaalisesti, antaa [!INCLUDE[d365fin](includes/d365fin_md.md)] -sovelluksen ehdottaa toimittajamaksuja ja kohdistaa maksun kirjattuihin asiakirjoihin. Vaikka olet tekemässä maksuja, voit syöttää **Asiakirjan summa** -kenttään positiivisen summan. Päiväkirjan rivin asiakirjan tyypistä riippuen summa voidaan muuttaa negatiiviseksi summaksi taustalla olevissa tapahtumissa. Näin päiväkirjan rivien lisääminen manuaalisesti on helpompaa. Jos haluat syöttää negatiivisia summia, voit mukauttaa maksupäiväkirjan niin, että näkyvissä on **Summa**-kenttä.  
+Maksupäiväkirja on yleinen päiväkirja, joka on tarkoitettu erityisesti maksujen tekemiseen. Voit nopeasti lisätä rivejä manuaalisesti, antaa [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen ehdottaa toimittajamaksuja ja kohdistaa maksun kirjattuihin asiakirjoihin. Vaikka olet tekemässä maksuja, voit syöttää **Asiakirjan summa** -kenttään positiivisen summan. Päiväkirjan rivin asiakirjan tyypistä riippuen summa voidaan muuttaa negatiiviseksi summaksi taustalla olevissa tapahtumissa. Näin päiväkirjan rivien lisääminen manuaalisesti on helpompaa. Jos haluat syöttää negatiivisia summia, voit mukauttaa maksupäiväkirjan niin, että näkyvissä on **Summa**-kenttä.  
 
 - Maksujen kohdistaminen laskuihin tai hyvityslaskuihin
 
@@ -33,27 +33,45 @@ Maksupäiväkirja on yleinen päiväkirja, joka on tarkoitettu erityisesti maksu
 
 - Sekkien tulostaminen ja maksujen lähettäminen sähköisesti pankkiin
 
-    Maksun suorituksen kirjaamisen lisäksi voit käyttää myös **Maksupäiväkirja**-sivua siirtämään maksun pankin lisäkäsittelyä varten. Lisätietoja on kohdissa [Sekkimaksujen suorittaminen](payables-how-work-checks.md) ja [Sähköisten maksujen suorittaminen](payables-how-export-payments-bank-file.md).  
+    Maksun suorituksen kirjaamisen lisäksi voit käyttää myös **Maksupäiväkirja**-sivua siirtämään maksun pankin lisäkäsittelyä varten. Lisätietoja on kohdissa [Sekkimaksujen suorittaminen](payables-how-work-checks.md) ja [Sähköisten maksujen suorittaminen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
 ## <a name="to-make-payments-in-the-payment-journal"></a>Maksujen tekeminen maksupäiväkirjaan
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten vastaava linkki.
 2. Avaa päiväkirjaerä, joka on varattu maksuja varten.
-3. Jos tiedät, kenelle olet maksamassa maksun tai hyvityksen, täytä kentät manuaalisesti. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Jos tiedät, kenelle olet maksamassa, täytä kentät manuaalisesti. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Voit myös kohdistaa maksun liittyvään laskuun tai hyvityslaskuun valitsemalla **Kohdistetaan asiakirjaan nro** -kentän **Kohdista toimittajatapahtumat** -sivulla, valitsemalla asianmukaisen laskun tai hyvityslaskun ja valitsemalla sitten **OK**-painikkeen.
 
     Monet kentät, kuten **Asiakirjan summa** ja **Eräpäivä**, täytetään nyt valitun asiakirjan tiedoilla.
 5. Vaihtoehtoisesti voit käyttää **Ehdota toimittajamaksuja** -toimintoa. Myös kaikki kohdistustiedot ja summat syötetään päiväkirjariveille. Lisätietoja on kohdassa [Toimittajamaksujen ehdottaminen](payables-how-suggest-vendor-payments.md).
 
     Sanomat opastavat sinua täyttämään pakolliset kentät oikein.
-6.  Kun kaikki maksupäiväkirjan rivit ovat valmiit, valitse **Kirjaa**-toiminto.
+6. Kun kaikki maksupäiväkirjan rivit ovat valmiit, valitse **Kirjaa**-toiminto.
+
+
+## <a name="to-issue-a-refund-check"></a>Palautussekin julkaiseminen
+
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten liittyvä linkki.
+2. Valitse **Asiakirjatyyppi**-kentässä **Hyvitys**.  
+3. Käytä **Ulkoisen asiakirjan nro** -kentässä tätä viitteenä palautussekille (esimerkiksi palautustilauksen numero).  
+4. Valitse **Tilityyppi**-kentässä **Asiakas**.  
+5. Valitse **Tilinumero** -kentässä asiakkaan tilinumero, jolle palautussekki julkaistaan.  
+6. Syötä hyvitettävä summa **Summa**-kenttään.  
+7. Valitse **Vastatilin tyyppi** -kentässä **Pankkitili**.  
+8. Valitse **Vastatilin nro** -kentässä pankkitili, jolta sekki tulee.  
+9. Valitse **Kohdistetaan asiakirjaan nro** -kentässä hyvitystä vaativat asiakirjat.  
+10. Kun kaikki maksupäiväkirjan rivit on täytetty, valitse **Kirjaa/tulosta**-toiminto, valitse **Kirjaa ja tulosta** -toiminto ja valitse sitten **Kyllä**.  
+  
 
 ## <a name="see-also"></a>Katso myös
 [Sekkimaksujen suorittaminen](payables-how-work-checks.md)  
-[Sähköisten maksujen suorittaminen](payables-how-export-payments-bank-file.md)  
+[Sähköisten maksujen suorittaminen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  
 [Positive Pay -tiedoston vienti](finance-how-positive-pay.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
 [Työtilan mukauttaminen](ui-personalization-user.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

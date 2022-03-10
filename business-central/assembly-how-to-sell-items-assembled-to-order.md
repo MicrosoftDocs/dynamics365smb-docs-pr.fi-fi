@@ -1,21 +1,20 @@
 ---
-title: Kokoonpano tilausta varten -nimikkeiden myyminen | Microsoft Docs
-description: Jos kyse on kokoonpano tilausta varten -määritetystä nimikkeestä, nimikkeen ei odoteta olevan varastossa ja se on koottava myyntitilauksen mukaisesti. Kun syötät nimikkeen myyntitilausriville, kokoonpanotilaus luodaan automaattisesti ja linkitetään myyntitilaukseen.
+title: Kokoonpano tilausta varten -nimikkeiden myyminen
+description: Jos kyse on kokoonpano tilausta varten -määritetystä nimikkeestä, nimikkeen ei odoteta olevan varastossa ja se on koottava myyntitilauksen mukaisesti.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: da4a854aa573599db2d2493219d4393366a995f9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.keywords: kit, kitting, substitute items
+ms.date: 07/29/2021
+ms.author: edupont
+ms.openlocfilehash: e32af0659ec78ae178dd0b49b18582beb66ba100
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186330"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146902"
 ---
 # <a name="sell-items-assembled-to-order"></a>Kokoonpano tilausta varten -nimikkeiden myyminen
 Jos kokoonpanon nimikkeen kortin **Kokoonpanokäytäntö**-kenttä sisältää **Kokoonpano tilausta varten** -kohdan, nimikettä ei oleteta olevan varastossa, vaan se on koottava myyntitilausta varten. Kun syötät nimikkeen myyntitilausriville, kokoonpanotilaus luodaan automaattisesti ja linkitetään myyntitilaukseen.  
@@ -29,7 +28,7 @@ Tässä toimenpiteessä käsittelet asiakkaan pyytämien määrittelyjen mukaan 
 >  Seuraavassa toimenpiteessä ei tehdä myyntitilauksen vakiovaiheita ennen, kuin koontitilausnimike syötetään myyntitilauksen riville.  
 
 ## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Myy nimike, jok aon kokoonpano tilausta varten  
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 2.  Luo myyntitilaus. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).  
 3.  Valitse **Nro**-kenttään nimike, jolle on määritetty kokoonpano tilausta varten.  
 4.  Määritä **Sijaintikoodi**-kentässä sijainti, josta nimike myydään. Kokoonpanoprosessi tapahtuu kyseisessä sijainnissa.  
@@ -57,9 +56,15 @@ Tässä toimenpiteessä käsittelet asiakkaan pyytämien määrittelyjen mukaan 
 10. Valitse myyntitilauksessa **Vapauta**-toiminto, jos haluat ilmoittaa kokoonpano-osastolle, että kokoonpanoprosessi voidaan aloittaa.  
 11. Suorita kokoonpanoosastossa niiden nimikkeiden kokoamisvaiheet, jotka myydään tässä käsittelyssä. Lisätietoja on kohdassa [Nimikkeiden kokoaminen](assembly-how-to-assemble-items.md).  
 
+> [!NOTE]  
+> Huomaa, että nimikkeen korvaaminen ei automaattisesti aiheuta nimikkeen korvaamista toisella nimikkeellä esimerkiksi myyntitilausta luotaessa tai tuoterakenteessa. Sen sijaan sinua varoitetaan siitä, että käytettävissäsi on korvaaminen.
+
 ## <a name="see-also"></a>Katso myös  
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

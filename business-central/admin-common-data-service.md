@@ -1,24 +1,23 @@
 ---
 title: Microsoft Dataverse -sovelluksen käyttäminen
-description: Johdanto Microsoft Dataverse -sovellukseen ja sen osiin.
+description: Johdatus siihen, miten Microsoft Dataversen ja sen komponentit voi integroida ja miten niitä voi käyttää yhteyden muodostamiseksi muihin Dynamics 365 -sovelluksiin.
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
-ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/01/2020
-ms.openlocfilehash: 1cc9f712994c1b612b7e390a0281b823889a8bf9
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.date: 06/14/2021
+ms.openlocfilehash: 95b1146f2f664ad73966162e24c3e0ad0c34e310
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378646"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141435"
 ---
 # <a name="integrating-with-microsoft-dataverse"></a>Integrointi Microsoft Dataversein kanssa
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
 
-Yrityssovelluksissa käytetään usein tietoja useista lähteistä. [!INCLUDE[prod_short](includes/cds_long_md.md)] yhdistää tiedot yhdeksi loogiseksi joukoksi, jonka avulla on helppo muodostaa yhteys Dynamics 365 -sovelluksiin, kuten [!INCLUDE[crm_md](includes/crm_md.md)] -sovellukseen, tai omaan [!INCLUDE[prod_short](includes/cds_long_md.md)] -ratkaisun avulla luotuun sovellukseen [!INCLUDE[prod_short_md](includes/prod_short.md)]:ssä. Lisätietoja [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksesta on kohdassa [Mikä on Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+Yrityssovelluksissa käytetään usein tietoja useista lähteistä. [!INCLUDE[prod_short](includes/cds_long_md.md)] yhdistää tiedot yhdeksi loogiseksi joukoksi, jonka avulla on helppo muodostaa yhteys Dynamics 365 -sovelluksiin, kuten [!INCLUDE[crm_md](includes/crm_md.md)] -sovellukseen, tai omaan [!INCLUDE[prod_short](includes/cds_long_md.md)] -ratkaisun avulla luotuun sovellukseen [!INCLUDE[prod_short_md](includes/prod_short.md)]:ssä. Lisätietoja [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksesta on kohdassa [Mikä on Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)
 
 Seuraavat ohjeet käsittelevät [!INCLUDE[prod_short](includes/cds_long_md.md)]in ja [!INCLUDE[prod_short](includes/prod_short.md)]in integrointia.
 
@@ -32,7 +31,7 @@ Seuraavat ohjeet käsittelevät [!INCLUDE[prod_short](includes/cds_long_md.md)]i
 3. Synkronoi tiedot sovellusten välillä. Lisätietoja on kohdassa [Business Centralin ja Dataversein synkronointi](admin-synchronizing-business-central-and-sales.md). 
 
 ## <a name="getting-started-with-prod_short"></a>[!INCLUDE[prod_short](includes/cds_long_md.md)]in käytön aloittaminen
-Jos haluat aloittaa [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen käyttämisen, tarvitset Microsoft Power Apps -tilin. Jos sinulla ei vielä ole Power Apps -tiliä, saat ilmaisen tilin käymällä osoitteessa [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) ja valitsemalla **Aloita ilmaiseksi** -linkin. Lisätietoja [!INCLUDE[prod_short](includes/cds_long_md.md)]n käytön aloittamisesta on [Dataversen käytön aloittaminen](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/) -moduulissa Microsoft Learnissa.
+Jos haluat aloittaa [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen käyttämisen, tarvitset Microsoft Power Apps -tilin. Jos sinulla ei vielä ole Power Apps -tiliä, saat ilmaisen tilin käymällä osoitteessa [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) ja valitsemalla **Aloita ilmaiseksi** -linkin. Lisätietoja [!INCLUDE[prod_short](includes/cds_long_md.md)]n käytön aloittamisesta on [Dataversen käytön aloittaminen](/learn/modules/get-started-with-powerapps-common-data-service/) -moduulissa Microsoft Learnissa.
 
 ## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Kaksisuuntainen tai yksisuuntainen tietojen synkronointi
 Liiketoiminnan tarpeista riippuen voit määrittää integroinnin synkronoimaan tiedot joko Dynamics 365 -liiketoimintasovelluksesta toiseen tai molempiin suuntiin reaaliaikaisesti [!INCLUDE[prod_short](includes/cds_long_md.md)]:n avulla. Jos integroit esimerkiksi [!INCLUDE[prod_short](includes/prod_short.md)]:n [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen avulla [!INCLUDE[prod_short](includes/cds_long_md.md)]:n kautta, myyjä voi luoda myyntitilauksen [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksessa. Tilaus synkronoidaan [!INCLUDE[prod_short](includes/prod_short.md)]:een. Vastaavasti [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksessa myyjä voi tarkastella [!INCLUDE[prod_short](includes/prod_short.md)]:n tietoja tilauksen nimikkeen saatavuudesta. 

@@ -1,21 +1,21 @@
 ---
-title: Pankkitilien täsmäyttäminen| Microsoft Docs
-description: Tässä artikkelissa kerrotaan, miten varastoarvo täsmäytetään pääkirjanpidon kanssa.
-author: SorenGP
-ms.service: dynamics365-business-central
+title: Pankkitilien täsmäytys
+description: Tässä ohjeaiheessa kuvataan, miten voit täsmäyttää sisäisten pankkitiliesi kauppatapahtumat pankin tiliotteiden kanssa.
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 1049043da0fd4cd5db2dc76f41a3c3df0402bbfc
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.search.form: 379, 388, 1290, 10124
+ms.date: 06/14/2021
+ms.author: bholtorf
+ms.openlocfilehash: 89fc1b881ce738d50ae40088be265d3944491f21
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786805"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128997"
 ---
 # <a name="reconcile-bank-accounts"></a>Pankkitilien täsmäytys
 
@@ -36,7 +36,7 @@ Pankkitapahtumien täsmäytystä sisäisten pankkitapahtumien kanssa kutsutaan *
 > [!NOTE]  
 > Jos pankin tiliotteen rivit liittyvät sekkitapahtumiin, et voi käyttää kohdistustoimintoja. Sen sijaan sinun on valittava **Kohdista tapahtumat** -toiminto ja valittava sitten asianmukainen sekkitapahtuma, jota kohdistetaan pankin tiliotteen riviin.
 
-Kun **Kokonaissaldo**-kentän arvo **Pankin tiliotteen rivit** -ruudussa on sama kuin **Täsmäytettävä saldo** -kentän arvo **Pankkitilitapahtumat**-ruudussa, voit valita **Kirjaa**-toiminnon. Täsmäyttämättömät pankkitilitapahtumat säilyvät sivulla, ja osoittavat eroa, joka tulee ratkaista pankkitilin täsmäyttämiseksi.
+Kun **Tiliotteen rivit** -ruudun **Kokonaissaldo**-kentän arvo on yhtä suuri kuin **Täsmäytettävä saldo** -kentän ja **Tilin reskontrakirjaukset** -ruudun **Viimeinen saldo** -kentän kokonaisarvo, voit valita **Kirjaa**-toiminnon. Täsmäyttämättömät pankkitilitapahtumat säilyvät sivulla, ja osoittavat eroa, joka tulee ratkaista pankkitilin täsmäyttämiseksi.
 
 Kaikki rivit, joita ei voi kohdentaa, ilmaistuina arvoina **Erotus**-kentässä, pysyvät **Pankkitilin täsmäytys** -sivulla kirjauksen jälkeen. Ne edustavat eroa, joka sinun on ratkaistava, ennen kuin voit suorittaa pankkitilin täsmäytyksen. Tyypilliset liiketoimintatilanteet, jotka voivat aiheuttaa eroja:
 
@@ -62,7 +62,7 @@ Jos haluat ottaa pankin tiliotteet käyttöön pankkisyötteinä, määritä ens
 > [!TIP]
 > Tiliotetiedostoja voi tuoda myös pilkuin tai puolipistein erotellussa muodossa (.CSV). Tiliotteen tuontimuodot voidaan määrittää ja muoto liittää pankkitiliin käyttämällä asetusten ohjattua määritystä **Määritä tiliotetiedoston tuontimuoto**. Näitä muotoja voi sitten käyttää, kun tiliotteita tuodaan **Pankkitilin täsmäytys** -sivulla.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Pankkitilin täsmäytys** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilin täsmäytys** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi**-toiminto.
 3. Valitse **Pankkitilin nro** -kentässä asianmukainen pankkitilin koodi. Pankkitilillä olevat tapahtumat näkyvät **Pankkitilitapahtumat**-ruudussa.
 4. Syötä **Tiliotteen pvm** -kenttään pankin tiliotteen päivämäärä.
@@ -77,12 +77,18 @@ Jos haluat ottaa pankin tiliotteet käyttöön pankkisyötteinä, määritä ens
 1. Valitse **Pankkitilin täsmäytys** -sivulla **Ehdota rivejä** -toiminto.
 2. Syötä **Aloituspvm**-kenttään ensimmäinen mahdollinen kirjauspäivämäärä täsmäytettäviä tapahtumia varten.
 3. Syötä **Lopetuspvm**-kenttään viimeinen mahdollinen kirjauspäivämäärä täsmäytettäviä tapahtumia varten.
-4. Valitse **Sisällytä sekit** -valintaruutu, kun haluat ehdottaa sekkitapahtumia vastaavien pankkitilitapahtumien sijaan.
-5. Valitse **OK**-painike.
+
+> [!NOTE]
+> Yleensä lopetuspvm on sama kuin **Tiliotteen pvm** -kentässä määritetty päivämäärä. Jos kuitenkin haluat täsmäyttää transaktiot vain jakson osaa varten, voit syöttää eri lopetuspäivämäärän. 
+
+1. Valitse **Sisällytä sekit** -valintaruutu, kun haluat ehdottaa sekkitapahtumia vastaavien pankkitilitapahtumien sijaan.
+1. Valitse **OK**-painike.
 
 ## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>Pankin tiliotteen rivien ja pankkitilitapahtumien kohdistaminen automaattisesti
 
 Sivu **Pankkitilin täsmäytys** tarjoaa automaattisen vastaavuustoiminnon, joka kohdistaa maksut niihin liittyviin avoimiin tapahtumiin pankin tiliotteen rivillä (vasemmassa ruudussa) olevan tekstin vastaavuuden perusteella verrattuna yhden tai useamman pankkitilitapahtuman (oikealla puolella) tekstiin. Huomaa, että ehdotetut automaattiset kohdistukset voidaan korvata toisilla. Voit myös olla käyttämättä automaattista kohdistusta. Lisäohjeita on kohdassa [Pankin tiliotteen rivien ja pankkitilin tapahtumien kohdistaminen manuaalisesti](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
+
+Automaattinen vastaavuus vastaa tapahtumia, jotka perustuvat maksusovelluksen sääntöjen joukkoon. Lisätietoja on kohdassa [Määritä sääntöjä maksujen automaattiselle soveltamiselle](receivables-how-set-up-payment-application-rules.md). Voit tutkia vastaavuuksien perusteita käyttämällä **Vastaavuuden tiedot** -toimintoa. Tiedot sisältävät esimerkiksi niiden kenttien nimet, jotka sisälsivät vastaavat arvot.  
 
 1. Valitse **Pankkitilin täsmäytys** -sivulla **Kohdista automaattisesti**. **Kohdista pankkitapahtumat** -sivu avautuu.
 2. Määritä **Tapahtuman päivämäärätoleranssi (päivinä)** -kenttään ajanjakso ennen ja jälkeen pankkitilitapahtuman kirjauspäivämäärän, jonka aikana toiminto hakee vastaavia tapahtumapäivämääriä tiliotteesta.
@@ -93,15 +99,22 @@ Sivu **Pankkitilin täsmäytys** tarjoaa automaattisen vastaavuustoiminnon, joka
     Kaikkien pankin tiliotteen rivien ja täsmäytettävissä olevien pankkitilitapahtumien kirjasin muuttuu vihreäksi, ja **Kohdistettu**-valintaruutu on valittuna.
 4. Voit poistaa kohdistuksen valitsemalla pankin tiliotteen rivin ja valitsemalla sitten **Poista kohdistus** -toiminto.
 
-## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Pankin tiliotteen rivien ja pankkitilitapahtumien kohdistaminen manuaalisesti
+> [!TIP]
+> Voit yhdistellä manuaalista ja automaattista vastaavuutta. Jos olet täsmäyttänyt manuaalisesti, automaattinen täsmäytyksen toiminto ei korvaa valittuja kohteita. 
 
+## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Pankin tiliotteen rivien ja pankkitilitapahtumien kohdistaminen manuaalisesti
 1. Valitse **Pankkitilin täsmäytys** -sivun **Pankin tiliotteen rivit** -ruudussa kohdistamaton rivi.
-2. Valitse **Pankkitilitapahtumat** -ruudussa yksi tai useampia pankkitilitapahtumia, joihin voidaan kohdistaa valitun pankin tiliotteen rivi. Voit valita useita rivejä pitämällä Ctrl-näppäimen painettuna.
+2. Valitse **Pankkitilitapahtumat** -ruudussa yksi tai useampia pankkitilitapahtumia, joihin voidaan kohdistaa valitun pankin tiliotteen rivi. Voit valita useita rivejä pitämällä CTRL-näppäimen painettuna.
+
+   > [!TIP]
+   > Voit myös manuaalisesti täsmäyttää useita pankin tiliotteen rivejä yhteen pankkitilitapahtumaan. Tämä voi olla hyödyllistä esimerkiksi silloin, jos pankkitalletuksessa on useita maksutapoja, kuten eri liikkeellelaskijoiden luottokortit, ja pankkisi luettelee ne erillisinä riveinä. 
 3. Valitse **Kohdista manuaalisesti** -toiminto.
 
     Valitun pankin tiliotteen rivin ja valittujen pankkitilitapahtumien fontti muuttuu vihreäksi, ja oikeanpuoleisen ruudun **Kohdistettu**-valintaruutu on valittuna.
 4. Toista vaiheet 1–3 kaikille pankin tiliotteen riveille, joita ei ole kohdistettu.
-5. Voit poistaa kohdistuksen valitsemalla pankin tiliotteen rivin ja valitsemalla sitten **Poista kohdistus** -toiminto.
+
+> [!TIP]
+> Voit poistaa kohdistuksen valitsemalla pankin tiliotteen rivin ja valitsemalla sitten **Poista kohdistus** -toiminto. Jos olet täsmäyttänyt useita pankin tiliotteen rivejä yhteen tapahtumaan ja haluat poistaa yhden tai useamman täsmäytetyn rivin, kaikki manuaaliset vastaavuudet poistetaan tapahtumakirjauksesta, kun valitset **Poista vastaavuus**. 
 
 ## <a name="to-create-missing-ledger-entries-to-match-bank-statement-lines-with"></a>Puuttuvien tapahtumien luominen ja kohdistaminen pankin tiliotteen riveihin
 

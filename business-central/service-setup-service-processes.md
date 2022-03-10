@@ -2,7 +2,6 @@
 title: Huoltohallintoprosessien määrittäminen | Microsoft Docs
 description: Lisätietoja sellaisten prosessien määrittämisestä, joilla voidaan varmistaa asiakkaiden tyytyväisyys asiakaspalveluun.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: service, number sequences, setup, warnings, fee, contracts, warranties
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 73d50160e95717df3056200bda01874ef2f82fd5
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 20afe251a1853ee31cd5de34c14ddb025a23c32e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778145"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140577"
 ---
 # <a name="configure-service-processes"></a>Huoltoprosessien määrittäminen
 Seuraavaksi käsitellään esimerkkejä asetuksista, joita voidaan käyttää huoltohallintoprosesseissa:  
@@ -27,7 +26,7 @@ Seuraavaksi käsitellään esimerkkejä asetuksista, joita voidaan käyttää hu
 * Huoltoon liittyvissä asiakirjoissa ja nimikkeissä käytettävät numerosarjat.  
 
 ## <a name="to-enter-general-and-mandatory-settings"></a>Yleisten ja pakollisten asetusten antaminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huollon hallinnan asetukset** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltohallinnon asetukset** ja valitse sitten vastaava linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="see-also"></a>Katso myös  

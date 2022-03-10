@@ -1,29 +1,31 @@
 ---
 title: Business Centralin määritystehtävien yleiskatsaus
-description: Tässä ohjeaiheessa kerrotaan tehtävistä, jolla Business Central asennetaan, alustetaan ja määritetään omia tarpeita vastaavaksi.
+description: Lue yleiskatsaus tehtävistä, joilla Business Central asennetaan, alustetaan ja määritetään omia tarpeita vastaavaksi.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 01/18/2021
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 32003217f6ffdeb5c5aad0fdc0fd3648a3ef5863
-ms.sourcegitcommit: 32bfc2acaaf3693afc9aeb86feea505fd328caa1
+ms.openlocfilehash: 38aaf6b77defd6afcc9cbe2bda7b56d71c139699
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024417"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128634"
 ---
-# <a name="setting-up-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen määrittäminen
+# <a name="overview-of-tasks-to-set-up-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in määritystehtävien yleiskatsaus
 
-[!INCLUDE[prod_short](includes/prod_short.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset organisaatiosi tarpeita vastaaviksi.
+[!INCLUDE[prod_short](includes/prod_short.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset organisaatiosi tarpeita vastaaviksi. [Business Centralin pika-aloituksen](quick-start-business-central.md) artikkelien avulla voit ottaa ensimmäiset askelet [!INCLUDE [prod_short](includes/prod_short.md)]in käyttöönotossa. Tässä artikkelissa on yleiskuvaus siitä, miten voit määrittää [!INCLUDE [prod_short](includes/prod_short.md)]in organisaatiollesi.  
 
 Esimerkiksi tilikarttaan on kerätty käyttövalmiita kirjaustilejä. Voit tietysti muuttaa tilikarttaa liiketoimintasi vaatimalla tavalla. Lisätietoja on kohdassa [Rahoitus](finance.md).
 
-Voit avata ![Asetukset-valikko](media/ui-experience/settings_icon_small.png) -valikon ketju pyörä kuvakkeesta ja käyttää asetusten ohjattuja määritysoppaita, jotka auttavat tiettyjen skenaarioiden määrittämisessä ja ominaisuuksien lisäämiseen [!INCLUDE[prod_short](includes/prod_short.md)]. Lisätietoja siitä, miten käytät kaikkia avustettuja sekä manuaalisia määrityssivuja, on ohjeessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).
+Valikosta ![Hammaspyörä-kuvake, joka avaa Asetukset-valikon.](media/ui-experience/settings_icon_small.png) saat käyttöösi asetusten ohjatun määrityksen oppaita, jotka auttavat tiettyjen skenaarioiden määrityksessä ja ominaisuuksien lisäämisessä [!INCLUDE[prod_short](includes/prod_short.md)]iin. Lisätietoja siitä, miten käytät kaikkia avustettuja sekä manuaalisia määrityssivuja, on ohjeessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
+
+> [!NOTE]
+> [!INCLUDE [ua-checklist](includes/ua-checklist.md)]
 
 Tietyt joko yleiset tai erityiset liiketoimintaprosessien toiminnot voidaan määrittää manuaalisesti tai asetusten ohjattuna määrityksenä. Seuraavassa luettelossa on joitakin manuaalisesti määritettäviä toimintoja.
 
@@ -73,6 +75,10 @@ Joidenkin alueiden edellytyksenä on, että käyttäjä on [!INCLUDE[prod_short]
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 [Uusien yritysten luominen [!INCLUDE[prod_short](includes/prod_short.md)]issa](about-new-company.md)  
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
+[Business Centralin pika-aloitus](quick-start-business-central.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

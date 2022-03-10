@@ -1,21 +1,20 @@
 ---
-title: Huoltonimikkeiden luominen | Microsoft Docs
-description: Kun vastaanotat rekisteröimättömän nimikkeen huollettavaksi, sen voi rekisteröidä huoltonimikkeeksi.
+title: Huoltonimikkeiden luominen
+description: Lue, miten voit luoda huoltonimikkeitä Business Centralissa esimerkiksi huoltotilauksen sisäisesti tai toimitessasi nimikkeitä.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: e45c23c8ed3b6f96c24e78666822c6fb9ef9859f
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 74af60caaf286b9993402228b050e3717fb847a6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4757890"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136897"
 ---
 # <a name="create-service-items"></a>Huoltonimikkeiden luominen
 [!INCLUDE[prod_short](includes/prod_short.md)]issä huoltonimikkeellä tarkoitetaan huoltoa edellyttävää laitetta tai nimikettä. Kun luot huoltotilauksen, määrität huoltoa tarvitsevat nimikkeet. Voit linkittää huoltonimikkeen tilauksessa varaston tai huoltonimikeryhmän nimikkeeseen.    
@@ -23,13 +22,13 @@ ms.locfileid: "4757890"
 Kun vastaanotat huoltoa tarvitsevan nimikkeen, voit rekisteröidä sen huoltonimikkeeksi. Sen voi tehdä usealla tavalla. Voit esimerkiksi luoda huoltonimikkeen **Huoltonimikkeet**-sivulla tai toisen prosessin osana esimerkiksi huoltotilausta käsiteltäessä.   
 
 ## <a name="to-create-a-service-item"></a>Huoltonimikkeiden luominen  
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huoltonimikkeet** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltonimikkeet** ja valitse sitten vastaava linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-create-service-items-within-a-service-order"></a>Huoltonimikkeiden luominen huoltotilauksissa  
 Kun vastaanotat huollettavaksi nimikkeitä, jotka haluat rekisteröidä huoltonimikkeiksi, ne voi luoda huoltonimikkeiksi **Huoltotilaus**- tai **Huoltotarjous**-sivulla.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huoltotilaukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Valitse **Luo huoltonimike** -toiminto.  
 
@@ -40,7 +39,7 @@ Kun nimikkeitä toimitetaan kirjaamalla joko myyntitilauksia tai myyntilaskuja, 
 
 Seuraavassa kuvataan, miten huoltonimikkeitä luodaan myyntitilauksissa olevia nimikkeitä toimitettaessa.  
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 2. Avaa käsiteltävä myyntitilaus.  
 3. Valitse **Kirjaa**- tai **Kirjaa ja tulosta** -toiminto.  
 4. Valitse **Toimitus**- tai **Toimitus ja lasku** -toiminto.  
@@ -52,7 +51,7 @@ Seuraavassa kuvataan, miten huoltonimikkeitä luodaan myyntitilauksissa olevia n
 >  Jos nimike on tuoterakenne etkä ole purkanut tuoterakennetta, ohjelma luo nimikkeelle huoltonimikkeen huoltonimikeryhmää koskevan ehdon ja mahdollisen sarjanumeroehdon mukaan.  
 
 ## <a name="to-insert-a-starting-fee-for-a-service-item"></a>Aloitusmaksujen syöttäminen huoltonimikkeille
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Huoltotehtävät** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotehtävät** ja valitse sitten vastaava linkki.
 2. Valitse **Nimikkeen työkirja** -toiminto.
 3. Valitse ensin huoltorivi ja sitten **Toiminnot**. Valitse sitten **Toiminnot** ja lopuksi **Syötä aloitusmaksu** -toiminto.  
 
@@ -62,3 +61,6 @@ Seuraavassa kuvataan, miten huoltonimikkeitä luodaan myyntitilauksissa olevia n
 [Huoltonimikkeiden ja huoltonimikkeen komponenttien määrittäminen](service-how-setup-service-items.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
 [Huoltohallinto](service-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

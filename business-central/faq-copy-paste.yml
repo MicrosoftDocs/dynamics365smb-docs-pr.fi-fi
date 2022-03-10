@@ -2,12 +2,13 @@
 metadata:
   title: Tietojen kopioiminen ja liittäminen – usein kysytyt kysymykset
   description: Vastauksia usein kysyttyihin kysymyksiin kenttien ja rivien tietojen kopioimisesta ja liittämisestä Business Centralin sivuilta.
-  ms.openlocfilehash: e52c60da284ba8144975c88b138ca4e7218fa2ab
-  ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+  ms.topic: faq
+  ms.openlocfilehash: a8c70088338b022802cf72d9a77da1c4e8263af1
+  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
   ms.translationtype: HT
   ms.contentlocale: fi-FI
-  ms.lasthandoff: 05/28/2021
-  ms.locfileid: "6115739"
+  ms.lasthandoff: 02/15/2022
+  ms.locfileid: "8133808"
 title: Kopioimisen ja liittämisen usein kysytyt kysymykset
 summary: "Voit kopioida yhden rivin tai useita rivejä (tietueita) luettelosta tai yhden kentän sivulta ja liittää kopioidut kohteet samalle sivulle, toiselle sivulle tai ulkoiseen asiakirjaan (kuten Microsoft Exceliin tai Outlook-sähköpostiin).  \n\nJos haluat kopioida, paina näppäimiä CTRL+C (cmd+C macOS-käyttöjärjestelmässä). Jos haluat liittää, paina näppäimiä CTRL+V (cmd+V macOS-käyttöjärjestelmässä). Kopioimiseen ja liittämiseen on useita muita pikanäppäimiä nopeaa tietojen syöttämistä varten. Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#CopyRows). Tässä artikkelissa on vastauksia kopioimiseen ja liittämiseen liittyviin yleisiin kysymyksiin.  \n"
 sections:

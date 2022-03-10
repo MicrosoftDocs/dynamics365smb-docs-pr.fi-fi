@@ -2,7 +2,6 @@
 title: Vaihekuvaus – vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä
 description: Business Central -sovelluksessa vastaanoton ja hyllytyksen saapuvat prosessit voidaan suorittaa neljällä eri tavalla varastotason monimutkaisuuden mukaan.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a1adcfbd38d95c8a79bc247fea0f2c292e8d02d9
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: cca66a1e693e63b1d83b6d37d3f8c2957b3edf46
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6214576"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144513"
 ---
 # <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Vaihekuvaus: Vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä
 
@@ -68,7 +67,7 @@ Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:
 -   CRONUS Finland Oy on asennettu.  
 -   Tee itsestäsi fyysisen varaston työntekijä HOPEISESSA sijainnissa tekemällä seuraavat toimet:  
 
-    1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Varastotyöntekijät** ja valitse sitten liittyvä linkki.  
+    1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston työntekijät** ja valitse sitten vastaava linkki.  
     2.  Valitse ensin **Käyttäjätunnus**-kenttä ja valitse oma käyttäjätilisi **Käyttäjät**-sivulla.  
     3.  Kirjoita **Sijaintikoodi**-kenttään HOPEA.  
     4.  Valitse **Oletus**-kenttä.  
@@ -81,7 +80,7 @@ Ellen on CRONUS Finland Oy:n varastopäällikkö ja hän luo ostotilauksen, joss
 
 ### <a name="to-set-up-the-location"></a>Sijainnin määrittäminen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Sijainnit** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten vastaava linkki.  
 2.  Avaa asianmukaisen HOPEA sijainnin kortti.  
 3.  Valitse **Vaadi hyllytys** -valintaruutu.  
 
@@ -101,7 +100,7 @@ Ostotilaukset ovat yleisin saapuvien lähdeasiakirjojen tyyppi.
 
 ### <a name="to-create-the-purchase-order"></a>Ostotilausten luominen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten vastaava linkki.  
 2.  Valitse **Uusi**-toiminto.  
 3.  Luo ostotilaus toimittajalle 10000 (23.1.) käsittelypäivämääränä seuraavien ostontilausrivien kanssa.  
 
@@ -124,7 +123,7 @@ Voit hallita **Varastohyllytys**-sivulla kaikkia tietyn lähdeasiakirjan saapuvi
 
 ### <a name="to-receive-and-put-the-items-away"></a>Nimikkeiden vastaanottaminen ja hyllyttäminen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastohyllytykset** ja valitse sitten liittyvä linkki.  
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston hyllytykset** ja valitse sitten vastaava linkki.  
 2.  Valitse **Uusi**-toiminto.  
 3.  Valitse ensin **Lähdeasiakirja**-kenttä ja sitten **Ostotilaus**.  
 4.  Valitse **Lähteen nro** -kentässä toimittajalta 10000 tehdyn oston rivi ja valitse sitten **OK**.  

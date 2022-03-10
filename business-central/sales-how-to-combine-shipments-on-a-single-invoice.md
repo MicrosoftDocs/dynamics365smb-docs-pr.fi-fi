@@ -2,20 +2,19 @@
 title: Toimitusten yhdistäminen yhteen laskuun | Microsoft Docs
 description: Jos haluat laskuttaa useamman kuin yhden toimituksen kerralla, voit käyttää koontilasku-ominaisuutta.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1465ce4baadec43d28731dab50870af3c10bd77e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a55d0d32873783adf049b44d90cc12b6e66080a4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442723"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144773"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Toimitusten yhdistäminen yhteen laskuun
 Jos haluat laskuttaa useamman kuin yhden toimituksen kerralla, voit käyttää koontilasku-ominaisuutta.  
@@ -34,6 +33,9 @@ Ennen kuin koontilaskun voi luoda, samalle asiakkaalle täytyy kirjata useita my
 
     Jos valitsit virheellisen rivin tai haluat aloittaa alusta, voit yksinkertaisesti poistaa laskun rivit ja ajaa **Hae toimitusrivit** -toiminnon uudelleen.  
 7. Kirjaa lasku valitsemalla **Kirjaa**-toiminto.  
+
+> [!TIP]  
+> Jos olet toimittanut tilauksia, joissa **tilausasiakkaan nro** on eri kuin **Laskutus asiakkaan nro**, näitä rivejä ei näytetä **Hae toimitusrivit** -raportissa. Lisää **Tilausasiakas**-kenttä sivulle räätälöinnin avulla ja poista suodatin. Nyt voit lisätä toimitusrivejä laskuun riippumatta **tilausasiakkaan nro** -kentän arvosta niin kauan kuin **Laskutus asiakkaan nro** toimitusrivit vastaavat myyntilaskun arvoa.  
 
 ## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Yhdistä automaattisesti toimitukset yhteen laskuun  
 [!INCLUDE[prod_short](includes/prod_short.md)] valitsee vain ne myyntitilaukset, joissa on valittu **koontilasku**. 

@@ -1,24 +1,23 @@
 ---
-title: Rakennetiedot – Saapuva fyysisen varastoinnin virta | Microsoft Docs
-description: Varaston tuleva virta alkaa, kun nimikkeet saapuvat yrityksen sijainnin varastoon joko vastaanotettuina ulkoisista lähteistä tai toisesta yrityksen sijainnista. Työntekijä rekisteröi nimikkeet tavallisesti skannaamalla viivakoodin. Varastotoiminnot suoritetaan vastaanottavasta laiturista erilaisilla monimutkaisuustasoilla nimikkeiden siirtämiseksi varastointialueelle.
+title: Rakennetiedot – fyysisen varastoinnin saapuva virta
+description: Saapuva fyysisen varastoinnin virta alkaa, kun nimikkeet saapuvat yrityksen fyysisen varaston sijaintiin. Nimikkeet rekisteröidään ja lopulta täsmäytetään saapuviin lähdeasiakirjoihin.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 8c7dd9f8ed55465a45ef843ebf2a996b79b454f3
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: de7a468377f454c01d45742f4510cb9978340ae6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880429"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132001"
 ---
 # <a name="design-details-inbound-warehouse-flow"></a>Rakennetiedot: saapuvan fyysisen varastoinnin virta
-Fyysiseen varastoon saapuva virta alkaa, kun nimikkeet saapuvat yrityksen sijainnin fyysiseen varastoon joko vastaanotettuina ulkoisista lähteistä tai toisesta yrityksen sijainnista. Työntekijä rekisteröi nimikkeet tavallisesti skannaamalla viivakoodin. Varastotoiminnot suoritetaan vastaanottavasta laiturista erilaisilla monimutkaisuustasoilla nimikkeiden siirtämiseksi varastointialueelle.  
+Varaston tuleva virta alkaa, kun nimikkeet saapuvat yrityksen sijainnin varastoon joko vastaanotettuina ulkoisista lähteistä tai toisesta yrityksen sijainnista. Työntekijä rekisteröi nimikkeet tavallisesti skannaamalla viivakoodin. Varastotoiminnot suoritetaan vastaanottavasta laiturista erilaisilla monimutkaisuustasoilla nimikkeiden siirtämiseksi varastointialueelle.  
 
  Jokainen nimike tunnistetaan ja kohdistetaan vastaavaan saapuvaan lähdeasiakirjaan. Seuraavat saapuvat lähdeasiakirjat on olemassa:  
 
@@ -35,7 +34,7 @@ Viimeiset kaksi edustavat varastoon saapuvia virtoja sisäisiltä toiminta-aluei
 
 Saapuvan fyysisen varastoinnin virtojen prosessit ja käyttöliittymän asiakirjat ovat erilaisia fyysisen varastoinnin perusmäärityksissä ja laajennetuissa varastomäärityksissä. Pääero on, että toiminnot suoritetaan fyysisen varastoinnin perusmäärityksissä tilauskohtaisesti, kun taas laajennetuissa varastomäärityksissä tilaukset konsolidoidaan useiksi tilauksiksi. Lisätietoja varastojen monimutkaisuustasoista on kohdassa [Rakennetiedot: Fyysisen varaston yleiskuvaus](design-details-warehouse-setup.md).  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmassa vastaanoton ja hyllytyksen saapuvat prosessit voidaan suorittaa neljällä tavalla käyttämällä eri toimintoja varastotason monimutkaisuudesta riippuen.  
+[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa vastaanoton ja hyllytyksen saapuvat prosessit voidaan suorittaa neljällä tavalla käyttämällä eri toimintoja varastotason monimutkaisuudesta riippuen.  
 
 |Tapa|Saapuva prosessi|Varastopaikat|Vastaanotot|Hyllytykset|Monimutkaisuustaso (katso [Rakennetiedot: Fyysisen varaston asetukset](design-details-warehouse-setup.md))|  
 |------------|---------------------|----------|--------------|----------------|--------------------------------------------------------------------------------------------------------------------|  
@@ -51,7 +50,7 @@ Menetelmissä A, B ja C vastaanoton ja hyllytyksen toiminnot yhdistetään yhtee
 ## <a name="basic-warehouse-configurations"></a>Fyysisen varastoinnin perusmääritykset  
 Seuraavassa kaaviossa kuvataan saapuvat fyysisen varastoinnin virrat asiakirjatyypeittäin fyysisen varastoinnin perusmäärityksissä. Kaavion luvut vastaavat vaiheita kaavion osa-alueiden mukaan.  
 
-![Saapuva työnkulku fyysisen varastoinnin perusmäärityksissä](media/design_details_warehouse_management_inbound_basic_flow.png "Saapuva työnkulku fyysisen varastoinnin perusmäärityksissä")  
+![Saapuva virta fyysisen varastoinnin perusmäärityksissä.](media/design_details_warehouse_management_inbound_basic_flow.png "Saapuva työnkulku fyysisen varastoinnin perusmäärityksissä")  
 
 ### <a name="1-release-source-document--create-inventory-put-away"></a>1: Vapauta lähdeasiakirjasta / luo varaston hyllytys  
 Kun nimikkeet vastaanotetaan fyysiseen varastointiin, lähdeasiakirjan vapautukset, kuten ostotilauksen tai lähtevän siirtotilauksen, vastaanottava käyttäjä tiedottaa varastotyöntekijöille, että vastaanotetut nimikkeet voidaan hyllyttää. Vaihtoehtoisesti käyttäjä voi luoda varaston hyllytysasiakirjat yksittäisille tilausriveille push-muodossa ja tiettyihin lokeroihin ja käsittelymääriin perustuen.  
@@ -70,7 +69,7 @@ Positiiviset nimiketapahtumat luodaan, varastotapahtumat luodaan ja hyllytyspyyn
 ## <a name="advanced-warehouse-configurations"></a>Laajennetut varastomääritykset  
 Seuraavassa kaaviossa kuvataan saapuva fyysisen varastoinnin virta asiakirjatyypeittäin laajennetuissa varastomäärityksissä. Kaavion luvut vastaavat vaiheita kaavion osa-alueiden mukaan.  
 
-![Saapuva työnkulku fyysisen varastoinnin laajennetuissa määrityksissä](media/design_details_warehouse_management_inbound_advanced_flow.png "Saapuva työnkulku fyysisen varastoinnin laajennetuissa määrityksissä")  
+![Saapuva virta fyysisen varastoinnin laajennetuissa määrityksissä.](media/design_details_warehouse_management_inbound_advanced_flow.png "Saapuva työnkulku fyysisen varastoinnin laajennetuissa määrityksissä")  
 
 ### <a name="1-release-source-document"></a>1: Vapauta lähdeasiakirja  
 Kun nimikkeet vastaanotetaan fyysiseen varastointiin, lähdeasiakirjan vapautukset, kuten ostotilauksen tai lähtevän siirtotilauksen, vastaanottava käyttäjä tiedottaa varastotyöntekijöille, että vastaanotetut nimikkeet voidaan hyllyttää.  
@@ -110,3 +109,6 @@ Fyysisen varastoinnin tapahtumat luodaan ja fyysisen varastoinnin hyllytysrivit 
 
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

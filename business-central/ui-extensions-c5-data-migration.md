@@ -2,27 +2,26 @@
 title: C5-tietojen siirtolaajennuksen käyttäminen | Microsoft Docs
 description: Voit käyttää tätä laajennusta asiakkaiden, toimittajien, nimikkeiden ja pääkirjanpidon tilien siirtämiseen Microsoft Dynamics C5 2012:sta Business Centraliin.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, C5, import
-ms.date: 06/19/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d94fd19194eb47b421e99c81ac8bd588543510e5
-ms.sourcegitcommit: ec3034640ed10e0fd028568ec45f21c84498d3de
+ms.openlocfilehash: ccebff57d4189a3273c9930fc82ca665e7f807c5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "3486369"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133600"
 ---
 # <a name="the-c5-data-migration-extension"></a>Tietojen siirron C5-laajennus
 
-Tämän laajennuksen avulla on helppo siirtää asiakkaita, toimittajia, nimikkeitä ja pääkirjanpidon tilejä Microsoft Dynamics C5 2012 -versiosta [!INCLUDE[d365fin](includes/d365fin_md.md)]iin. Voit siirtää myös pääkirjanpidon tilien vanhat tapahtumat.
+Tämän laajennuksen avulla on helppo siirtää asiakkaita, toimittajia, nimikkeitä ja pääkirjanpidon tilejä Microsoft Dynamics C5 2012 -versiosta [!INCLUDE[prod_short](includes/prod_short.md)]iin. Voit siirtää myös pääkirjanpidon tilien vanhat tapahtumat.
 
 > [!Note]
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman yrityksessä ei saa olla tietoja. Kun siirto on käynnistetty, asiakkaiden, toimittajien, nimikkeiden tai tilien luominen ei ole sallittua. Voit luoda niitä siirron valmistuttua.
+> [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman yrityksessä ei saa olla tietoja. Kun siirto on käynnistetty, asiakkaiden, toimittajien, nimikkeiden tai tilien luominen ei ole sallittua. Voit luoda niitä siirron valmistuttua.
 
 ## <a name="what-data-is-migrated"></a>Mitkä tiedot siirretään?
 Seuraavat kunkin objektit tiedot siirretään:
@@ -100,14 +99,14 @@ Jos siirrät tilit, myös seuraavat tiedot siirretään:
 
 ## <a name="file-size-requirements"></a>Tiedoston kokovaatimukset
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)]iin ladattava tiedoston koko saa olla enintään 150 Mt. Jos C5:stä vietävä tiedosto on tätä suurempi, harkitse tietojen siirtämistä useina tiedostoina. Vie C5:stä yhden tai kahden tyyppiset objektit, kuten asiakkaat ja toimittajat, yhteen tiedostoon, nimikkeet toiseen tiedostoon ja niin edelleen. Voit tuoda tiedostot yksitellen [!INCLUDE[d365fin](includes/d365fin_md.md)]iin.
+[!INCLUDE[prod_short](includes/prod_short.md)]iin ladattava tiedoston koko saa olla enintään 150 Mt. Jos C5:stä vietävä tiedosto on tätä suurempi, harkitse tietojen siirtämistä useina tiedostoina. Vie C5:stä yhden tai kahden tyyppiset objektit, kuten asiakkaat ja toimittajat, yhteen tiedostoon, nimikkeet toiseen tiedostoon ja niin edelleen. Voit tuoda tiedostot yksitellen [!INCLUDE[prod_short](includes/prod_short.md)]iin.
 
 ## <a name="to-migrate-data"></a>Tietojen siirtäminen
 
-Tietojen siirtäminen C5:stä ja tuominen [!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelmasta edellyttää vain seuraavien vaiheiden suorittamista:  
+Tietojen siirtäminen C5:stä ja tuominen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmasta edellyttää vain seuraavien vaiheiden suorittamista:  
 
 1. Voit viedä tiedot C5:stä käyttämällä **Vie tietokanta** -toimintoa. Pakkaa sitten viennin kansio.  
-2. Valitse [!INCLUDE[d365fin](includes/d365fin_md.md)]:ssä ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tietojen siirto** ja valitse **Tietojen siirto**.  
+2. Valitse [!INCLUDE[prod_short](includes/prod_short.md)]issa ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tietojen siirto** ja valitse sitten **Tietojen siirto**.  
 3. Suorita asetusten ohjatun määrityksen oppaan vaiheet. Varmista, että valitset tietolähteeksi **Tuo Microsoft Dynamcis C5 2012 -versiosta** -kohdan.  
 
 ## <a name="viewing-the-status-of-the-migration"></a>Siirron tilan tarkasteleminen
@@ -144,10 +143,10 @@ Kun olet korjannut yhden tai useita virheitä, voit siirtää korjaamasi objekti
 
 ## <a name="verifying-data-after-migrating"></a>Tietojen tarkistaminen siirron jälkeen
 
-Yksi tapa tarkistaa, että tiedot on siirretty oikein, on katsoa seuraavia C5:n ja [!INCLUDE[d365fin](includes/d365fin_md.md)]in sivuja.
+Yksi tapa tarkistaa, että tiedot on siirretty oikein, on katsoa seuraavia C5:n ja [!INCLUDE[prod_short](includes/prod_short.md)]in sivuja.
 
-|Microsoft Dynamics C5 2012 | [!INCLUDE[d365fin](includes/d365fin_md.md)]| Käytettävä eräajo |
-|---------------------------|--------------------------------------------|------------------|
+|Microsoft Dynamics C5 2012 | Dynamics 365 Business Central| Käytettävä eräajo |
+|---------------------------|------------------------------|------------------|
 |Asiakastapahtumat| Yleiset päiväkirjat| CUSTMIGR |
 |Toimittajatapahtumat| Yleiset päiväkirjat| VENDMIGR|
 |Nimiketapahtumat| Nimikepäiväkirjat| ITEMMIGR |
@@ -159,5 +158,8 @@ Voit pysäyttää tietojen siirron valitsemalla **Pysäytä kaikki siirrot**. Jo
 
 ## <a name="see-also"></a>Katso myös
 
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
-[Käytön aloittaminen](product-get-started.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

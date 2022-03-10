@@ -1,25 +1,24 @@
 ---
-title: Ehdota toimittajamaksuja -eräajon käyttäminen| Microsoft Docs
+title: Ehdota toimittajamaksuja -eräajo
 description: Määrittämällä toimittajan maksuasetukset saat ehdotuksia maksuista, joiden eräpäivä on pian tai joissa on käytettävissä alennus.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 9936a77c7afdc89d6d8c8485d01b4970e85fcb19
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.search.form: 256
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 439db2ccacf165d27db44e4c786e71a4372171f3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1253997"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137781"
 ---
 # <a name="suggest-vendor-payments"></a>Ehdota toimittajamaksuja
+
 Voit ehdottaa maksurivejä käyttämällä **Maksupäiväkirja**-sivulla **Ehdota toimittajamaksuja** -eräajoa. Asetusten mukaan ehdotetaan rivejä, kuten pian erääntyviä maksuja tai maksuja, joissa on käytettävissä maksualennus.
 
 Maksuehdotuksia voi hyödyntää täysimääräisesti, kun toimittajat on ensin priorisoitu. Lisätietoja on kohdassa [Toimittajien priorisoiminen](purchasing-how-prioritize-vendors.md).  
@@ -34,7 +33,7 @@ Maksuehdotuksia voi hyödyntää täysimääräisesti, kun toimittajat on ensin 
     * avoimissa toimittajatapahtumissa, joissa voi käyttää maksualennuksia, toimittajanumeron mukaan järjestettynä.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>Ehdota toimittajamaksuja -toiminnon käyttäminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten liittyvä linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten vastaava linkki.  
 2. Avaa asianmukainen päiväkirja ja valitse **Ehdota toimittajamaksuja** -toiminto.  
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Valitse **OK**-painike.  
@@ -56,4 +55,7 @@ Vaihtoehtoisesti voit luoda maksurivejä manuaalisesti niin, että eräpäivää
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Maksujen suorittaminen](payables-make-payments.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

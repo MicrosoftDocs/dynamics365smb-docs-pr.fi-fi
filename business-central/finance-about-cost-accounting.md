@@ -1,24 +1,23 @@
 ---
-title: Tietoja kustannuslaskennasta | Microsoft Docs
-description: Kustannuslaskennan avulla voit ymmärtää käynnissä olevan liiketoiminnan kustannuksia.
+title: Tietoja kustannuslaskennasta
+description: Kustannuslaskennan avulla voit ymmärtää käynnissä olevan liiketoiminnan kustannuksia. Kustannuslaskennan tiedot on suunniteltu analysoimaan monia seikkoja.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: eb86ebbb8b60f2b9744f619b27bff86ab0b69c30
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 52138687b0959c80711495e4c1a8b608184ba211
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5379663"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145736"
 ---
 # <a name="about-cost-accounting"></a>Tietoja kustannuslaskennasta
-Kustannuslaskenta auttaa tiedostamaan liiketoimintaan sisältyviä kustannuksia. Kustannuslaskennan tiedot on suunniteltu analysoimaan:  
+Kustannuslaskennan avulla voit ymmärtää käynnissä olevan liiketoiminnan kustannuksia. Kustannuslaskennan tiedot on suunniteltu analysoimaan:  
 
 -   Millaisia kustannuksia voi syntyä yritysoiminnasta?  
 -   Mistä kustannukset johtuvat?  
@@ -37,7 +36,7 @@ Kustannuslaskennassa on seuraavat pääosat:
 
 Seuraava kaavio näyttää työnkulun kustannuslaskennassa.  
 
-![Kustannuslaskennan yleiskatsaus](media/costaccountingoverview.png "CostAccountingOverview")  
+![Kustannuslaskennan yleiskatsaus.](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Kustannustyypit, kustannuspaikat ja kustannuskohteet  
 Määritä kustannustyypit, kustannuspaikat ja kustannuskohteet analysoidaksesi mitä kustannukset ovat, mistä kustannukset ovat peräisin ja kuka vastaa kustannuksista.  

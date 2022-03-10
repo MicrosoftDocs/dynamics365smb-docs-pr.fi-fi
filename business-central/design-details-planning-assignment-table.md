@@ -1,21 +1,20 @@
 ---
-title: Rakennetiedot – suunnittelun kohdistustaulukko | Microsoft Docs
-description: Tässä ohjeaiheessa kerrotaan, mitä tapahtuu, kun muutat nimikkeen suunnittelua.
+title: Rakennetiedot – suunnittelun kohdistustaulukko
+description: Tässä aiheessa on tietoja siitä, mitä tapahtuu, kun kysyntä- tai tarjontamallien muutos edellyttää nimikkeen suunnittelutavan laskemista.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 1231a077d7159ba303fcd940e16ef56bb8440740
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 878f301db5b7b887201fd2e803fd299dc3894dbf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787444"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146590"
 ---
 # <a name="design-details-planning-assignment-table"></a>Rakennetiedot: suunnittelun kohdistustaulukko
 Kaikki nimikkeet tulee suunnitella, mutta nimikkeelle ei ole syytä laskea suunnitelmaa ellei kysyntä- tai tarjontakuvio ole muuttunut edellisen suunnitelman laskemisen jälkeen.  
@@ -67,3 +66,6 @@ Tuotanto-ohjelman ja tarvelaskennan laskentaa koskevat seuraavat rajoitukset:
 [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)   
 [Rakennetiedot: siirrot suunnittelussa](design-details-transfers-in-planning.md)   
 [Rakennetiedot: suunnittelun parametrit](design-details-planning-parameters.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

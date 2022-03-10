@@ -1,27 +1,25 @@
 ---
-title: Asiakirjojen ja päiväkirjojen kirjaamisen yleiskatsaus | Microsoft Docs
-description: Tässä ohjeaiheessa käsitellään kirjaustoimintoja ja tapoja, joilla voit kirjata asiakirjat ja päiväkirjat.
-services: project-madeira
-documentationcenter: ''
+title: Asiakirjojen ja päiväkirjojen kirjaaminen
+description: Tässä ohjeaiheessa hahmotellaan kirjaustoiminnot sekä tavat, joilla voit kirjata asiakirjoja ja päiväkirjoja yrityksen eri kirjanpitoihin.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.date: 06/24/2021
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.author: edupont
-ms.openlocfilehash: 2ffba43c94a02a8bf31a09f4705b0f24312e3c17
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 13c2639ab416fd472850fef5161f0f374024bb51
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3912044"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335576"
 ---
 # <a name="posting-documents-and-journals"></a>Asiakirjojen ja päiväkirjojen kirjaaminen
 Kirjaaminen on kirjanpitotoiminto, jolla tallennetaan liiketoimintatapahtumia erilaisiin yrityksen päiväkirjoihin.
 
-Lähes kaikissa [!INCLUDE[d365fin](includes/d365fin_md.md)]in asiakirjoissa ja päiväkirjoissa on **Kirjaus**-ryhmä, jossa voit valita kirjaustoiminnon, kuten **Kirjaa**, **Esikatsele kirjausta**, **Kirjaa ja lähetä** ja **Kirjaa ja lähetä sähköpostitse**.
+Lähes kaikissa [!INCLUDE[prod_short](includes/prod_short.md)]in asiakirjoissa ja päiväkirjoissa on **Kirjaus**-ryhmä, jossa voit valita kirjaustoiminnon, kuten **Kirjaa**, **Esikatsele kirjausta**, **Kirjaa ja lähetä** ja **Kirjaa ja lähetä sähköpostitse**.
 
 Seuraavassa taulukossa esitellään liittyvät tehtävät ja linkit tehtäviä kuvaaviin aiheisiin.
 
@@ -37,4 +35,7 @@ Seuraavassa taulukossa esitellään liittyvät tehtävät ja linkit tehtäviä k
 ## <a name="see-also"></a>Katso myös
 [Kirjattujen asiakirjojen muokkaaminen](across-edit-posted-document.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

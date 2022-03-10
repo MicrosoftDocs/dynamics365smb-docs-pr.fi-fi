@@ -1,24 +1,25 @@
 ---
-title: Sekkien myöntäminen, tulostaminen, peruuttaminen ja mitätöiminen| Microsoft Docs
+title: Sekkien myöntäminen, tulostaminen, peruuttaminen ja mitätöiminen
 description: Tässä ohjeaiheessa kerrotaan, miten sekit myönnetään maksupäiväkirjan avulla, tulostetaan ja mitätöidään tai miten sekkitapahtumia tarkastellaan Business Central -sovelluksessa.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment journal, print check, vendor payment, creditor, debt, balance due, AP
-ms.date: 09/06/2019
-ms.author: sgroespe
-ms.openlocfilehash: ab769498741a8da17b64eebb4bccf9e177d95e37
-ms.sourcegitcommit: d3035c32bb79b51179540787b98579ac0c528cc4
+ms.search.form: 256, 404,
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: b2c57c4a96021beb6e02564e7b24577f52b60922
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "1985761"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137807"
 ---
 # <a name="make-check-payments"></a>Sekkimaksujen suorittaminen
-Voit myöntää sähköisiä ja manuaalisia sekkejä [!INCLUDE[d365fin](includes/d365fin_md.md)]issa. Molemmissa menetelmissä sekit myönnetään toimittajille maksupäiväkirjaa käyttäen. Ohjelman avulla voit myös mitätöidä sekkejä ja tarkastella sekkitapahtumia.
+
+Voit myöntää sähköisiä ja manuaalisia sekkejä [!INCLUDE[prod_short](includes/prod_short.md)]issa. Molemmissa menetelmissä sekit myönnetään toimittajille maksupäiväkirjaa käyttäen. Ohjelman avulla voit myös mitätöidä sekkejä ja tarkastella sekkitapahtumia.
 
 Seuraavassa kuvataan, miten voit maksaa toimittajalle tietokonesekillä kohdistamalla maksun asianmukaiseen toimittajalaskuun, tulostamalla sekin ja kirjaamalla maksun maksetuksi. Näin saadaan positiivinen toimittajatapahtuma, joka kohdistetaan negatiiviseen pankkitilitapahtumaan sekä fyysinen sekki pankin käsittelyä varten.
 
@@ -30,22 +31,23 @@ Voit maksaa kahdella eri tyyppisellä sekillä. Molemmissa tyypeissä **Vastatil
 > [!NOTE]  
 > Voit varmistaa lähettämällä toimittaja-, sekki- ja maksutiedot sisältävän tiedoston, että pankki vahvistaa vain tarkistetut sekit ja summat. Lisätietoja on kohdassa [Positive Pay -tiedostojen vieminen](finance-how-positive-pay.md).
 
-Tulostin on määritettävä oikein sekkimuotoja varten. Myös käytettävä sekkien asettelu on määritettävä. Lisätietoja on kohdassa [Sekin asettelun valitseminen](finance-how-define-check-layouts.md)
+> [!IMPORTANT]
+> Tulostin on määritettävä oikein sekkimuotoja varten. Myös käytettävä sekkien asettelu on määritettävä. Lisätietoja on kohdassa [Sekin asettelun valitseminen](finance-how-define-check-layouts.md). Vaihtoehtoisesti sekki voidaan lähettää esimerkiksi PDF-tiedostona.  
 
 Voit tulostaa sivulle enintään 10 laskua sekin talonkia kohti. Jos sekki koskee yli 10 laskua, sekki mitätöidään talongin tulostuksen yhteydessä ensimmäisellä sivulla ja sekkiin tulostetaan sana MITÄTÖITY. Tämän jälkeen toiselle sivulle tulostetaan loput laskut ja sekin kokonaissumma.
 
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Maksaaksesi toimittajalaskun tietokonesekillä
 Seuraavassa kuvataan, miten toimittajalle maksetaan sekillä. Vaiheet ovat samankaltaiset kuin hyvitettäessä asiakkaalle sekkimaksuna.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten vastaava linkki.
 2. Täytä maksupäiväkirjan rivit. Lisätietoja on ohjeaiheessa [Maksujen ja hyvitysten kirjaaminen](payables-how-post-payments-refunds.md).
 3. Valitse **Maksutavan koodi** -kentässä **Sekki**.
 4. Valitse **Pankkimaksun tyyppi** -kentässä **Tietokonesekki**.
 5. Valitse **Tulosta sekki** -toiminto.
 6. Täytä **Sekki**-sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-7. Valitse **Lähetä kohteeseen** -painike, sitten **PDF-tiedosto**-asetus ja valitse sitten **OK**-painike.
+7. Jos tulostin on määritetty tulostamaan sekkejä, valitse **Tulosta**-painike. Valitse muussa tapauksessa ensin **Lähetä kohteeseen** -painike, sitten **PDF-tiedosto**-asetus, lopuksi **OK**-painike ja tulosta PDF-tiedosto sitten.
 
-    Fyysiset sekit voidaan nyt viedä pankkiin käsittelyä varten. Jatka maksun kirjaamiseen kohdistuksen mukaan toimittajalle ja maksun suorittamiseksi järjestelmässä.
+    Fyysiset sekit voidaan nyt lähettää toimittajille käsiteltäviksi. Jatka maksun kirjaamiseen kohdistuksen mukaan toimittajalle ja maksun suorittamiseksi järjestelmässä.
 8. Valitse **Kirjaa**-toiminto.
 
 Täysin kohdistetut toimittajatapahtumat ja pankkitilitapahtumat luodaan.
@@ -59,9 +61,13 @@ Voit peruuttaa kirjaamattomat sekit niiden tulostamisen jälkeen **Maksupäiväk
 1. Valitse **Maksupäiväkirja**-sivulla **Mitätöi sekki** ja valitse peruutettavat sekit.
 
 ## <a name="to-void-checks"></a>Sekkien mitätöiminen
+
 Kun sekkimaksu on kirjattu, voit peruuttaa (mitätöidä) sekit vain tuloksena syntyvistä pankkitapahtumista.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten liittyvä linkki.
+> [!IMPORTANT]
+> Jos sekkiä käytetään laskussa, poista sekin käyttö ensin, jotta lasku voidaan maksaa uudelleen ja mitätöi sekki sitten. Jos sekki tulostettiin eikä laskua maksettu sillä, valitse siinä tapauksessa **Mitätöi vain sekki** tässä osassa kuvatulla tavalla.
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten vastaava linkki.
 2. Valitse oikea pankkitili, valitse **Muokkaa**-toiminto ja valitse sitten **Sekkitapahtumat**-toiminto.
 3. Valitse **Sekkitapahtumat**-sivulla **Mitätöi sekki** -toiminto.
 4. Valitse **Mitätöi vain sekki** -valintaruutu.
@@ -69,7 +75,7 @@ Kun sekkimaksu on kirjattu, voit peruuttaa (mitätöidä) sekit vain tuloksena s
 
 ## <a name="to-view-a-summary-of-posted-checks"></a>Voit tarkastella kirjattujen sekkien yhteenvetoa
 Jos haluat tarkistaa kirjatuttuja sekkejä, esimerkiksi yhdelle toimittajalle maksetut useat sekit, voit käyttää **Pankkitili – sekin tiedot** -raporttia.
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitili - Sekin tiedot** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitili - sekin tiedot** ja valitse sitten vastaava linkki.
 2. Aseta haluamasi suodattimet ja valitse sitten **Esikatselu**-painike.
 
 ## <a name="see-also"></a>Katso myös
@@ -77,4 +83,7 @@ Jos haluat tarkistaa kirjatuttuja sekkejä, esimerkiksi yhdelle toimittajalle ma
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  
 [Positive Pay -tiedoston vienti](finance-how-positive-pay.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

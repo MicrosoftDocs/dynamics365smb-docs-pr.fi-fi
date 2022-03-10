@@ -2,21 +2,20 @@
 title: Muistutusehtojen ja -tasojen määrittäminen.
 description: Lue, miten voit määrittää Business Centralin lähettämään asiakkaalle muistutuksen erääntyvästä maksusta ja miten maksuun lisätään myöhästymismaksu.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.search.form: 431, 432, 478
-ms.date: 04/01/2021
+ms.search.form: 431, 432, 436, 478
+ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: d22b970f2bd400e8bd5886266cf21ee32a6c9dee
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 81c86841bd4000cab881e06783fd521ae18d1cbf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7970354"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132834"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Muistutusehtojen ja -tasojen määrittäminen.
 
@@ -102,6 +101,7 @@ Kun olet määrittänyt muistutusehdot sekä lisätasot ja tekstin, määritä j
 ## <a name="see-also"></a>Katso myös
 
 [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)  
+[Lähetä muistutuksia avoimista saldoista](receivables-send-reminders.md)  
 [Viivästyskuluehtojen määrittäminen](finance-setup-finance-charges.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 

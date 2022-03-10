@@ -1,21 +1,20 @@
 ---
-title: Business Central -sovelluksen hallintatehtävät | Microsoft Docs
+title: Business Centralin hallintatehtävät
 description: Joitakin Business Central -sovelluksen tehtäviä on hallittava ja määritettävä keskitetysti. Katso lisätietoja näistä tehtävistä ja niiden määrittämisestä.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 60c8af071a4249d55cc92e5c5663ae10e6053d18
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 26e675073dde5cae0b14f0f3ee3526ba44e4200f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5385647"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143866"
 ---
 # <a name="administration"></a>Hallinta
 
@@ -23,18 +22,18 @@ Yleensä yksi rooli hoitaa yrityksen keskitetyt hallintatehtävät. Tehtävien l
 
 Uuden liiketoimintaohjelmiston toimivuuden vuoksi on tärkeää, että annettavat asetusarvot ovat oikein heti alusta alkaen. [!INCLUDE[prod_short](includes/prod_short.md)]issa on useita asetusoppaita, jotka helpottavat perustietojen määrittämistä. Lisätietoja on kohdassa [Business Central -sovelluksen määrittäminen](setup.md).
 
+> [!NOTE]
+> Voit määrittää uuden yrityksen [!INCLUDE[prod_short](includes/prod_short.md)]issa RapidStart Servicesin avulla. RapidStart Services on työkalu, joka on suunniteltu lyhentämään käyttöönottoa, parantamaan toteutuksen laatua, esittelemään toistettavia lähestymistapoja toteutuksiin sekä lisäämään tuottavuutta automatisoimalla ja yksinkertaistamalla toistuvia tehtäviä. Lisätietoja on kohdassa [Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md).
+
 Riippumatta siitä, käytätkö RapidStart Servicesia ottamaan käyttöön arvoja vai annatko ne manuaalisesti uudelle yritykselle, voit tukea määrityspäätöksiäsi tietyissä sellaisissa määrityskentissä joillain yleisillä suosituksilla, joiden tiedetään aiheuttavan mahdollisesti heikentävän ratkaisun suorituskykyä, jos kenttä määritetään väärin.  
 
 Pääkäyttäjä tai järjestelmänvalvoja voi määrittää tietojen vaihtamiskehyksen, jonka avulla käyttäjät voivat viedä ja tuoda pankki- ja palkanlaskentatiedostojen tietoja esimerkiksi erilaisia kassanhallintaprosesseja varten. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).
 
-> [!NOTE]
-> Voit määrittää uuden yrityksen [!INCLUDE[prod_short](includes/prod_short.md)]issa RapidStart Servicesin avulla. RapidStart Services on työkalu, joka on suunniteltu lyhentämään käyttöönottoa, parantamaan toteutuksen laatua, esittelemään toistettavia lähestymistapoja toteutuksiin sekä lisäämään tuottavuutta automatisoimalla ja yksinkertaistamalla toistuvia tehtäviä. Lisätietoja on kohdassa [Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md).
-
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.  
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkeleihin.  
 
 |**Tehtävä**|**Katso**|  
-|------------|-------------|  
-|Määritä, ketkä voivat kirjautua sisään [!INCLUDE[prod_short](includes/prod_short.md)]een luomalla käyttäjiä Microsoft 365 -hallintakeskuksessa tuotteen käyttöoikeuksien mukaan.|[Luo käyttäjät käyttöoikeuksien mukaan](ui-how-users-permissions.md)|
+|------------|-------------|
+|Määritä, ketkä voivat kirjautua sisään [!INCLUDE[prod_short](includes/prod_short.md)]:een luomalla käyttäjiä Microsoft 365 -hallintakeskuksessa tuotteen käyttöoikeuksien mukaan.|[Luo käyttäjät käyttöoikeuksien mukaan](ui-how-users-permissions.md)|
 |Määritä käyttöoikeuksia käyttäjille, muokata käyttöoikeusjoukkoja ja ryhmitä käyttäjiä käyttöoikeuksien helppoa hallintaa varten.|[Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-how-users-permissions.md)|
 |Lisää käyttäjiä, hallitse tietojen käyttöoikeuksia ja määritä rooleja.|[Profiilien hallinta](admin-users-profiles-roles.md)|
 |Käyttäjäasetusten, kuten yrityksen, roolin, kielen, alueen tai aikavyöhykkeen, hallinta.|[Käyttäjän asetukset](admin-manage-user-settings-preferences.md)|
@@ -50,8 +49,17 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Salaa [!INCLUDE[prod_short](includes/prod_short.md)] Serverin tietoja luomalla uusia tai tuomalla olemassa olevia salausavaimia, jotka voi ottaa käyttöön palvelimessa.|[Tietojen salauksen hallinta](admin-manage-data-encryption.md)|
 |Dynamics 365 Salesin yhdistäminen [!INCLUDE[prod_short](includes/prod_short.md)]iin, mikä mahdollistaa asiakassuhteiden ja tilausten käsittelyn saumattoman integroinnin liidistä tuottoon -prosessissa.|[Dynamics 365 Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Vaihda käyttöliittymässä näytettävät kentät ja toiminnot vastaamaan yrityksen liiketoimintaprosesseja ja laajenna ratkaisua sovelluksilla.|[[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen mukauttaminen](ui-customizing-overview.md)|
-|Seuraa käyttöä ja tee istuntojen vianmäärityksiä.|[Ympäristön telemetria Business Centralin hallintakeskuksessa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)|
-|Käyttäjäistuntojen hallinta, mukaan lukien istunnon peruuttaminen, jos käyttäjä on estetty.|[Istuntojen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|  
+
+## <a name="administration-in-the-admin-center"></a>Hallinta hallintakeskuksessa
+
+Sisäiset ja delegoidut järjestelmänvalvojat voivat käyttää [!INCLUDE [prod_short](includes/prod_short.md)] -hallintakeskusta, jossa he voivat määrittää ja valvoa [!INCLUDE [prod_short](includes/prod_short.md)] -ympäristöjä ja tehdä vianmääritystä. Seuraavassa taulukossa on kuvataan tärkeimpiä tehtäviä ja siinä on linkit tehtäviä kuvaaviin artikkeleihin.  
+
+|**Tehtävä**|**Katso**|  
+|------------|-------------|
+|Lue lisää käytettävissä olevista työkaluista, jotka auttavat vianmäärityksessä.|[Tekninen tuki](/dynamics365/business-central/dev-itpro/technical-support)|
+|Seuraa käyttöä ja tee istuntojen vianmäärityksiä|[Ympäristön telemetria Business Centralin hallintakeskuksessa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)|
+|Käyttäjäistuntojen hallinta, mukaan lukien istunnon peruuttaminen, jos käyttäjä on estetty.|[Istuntojen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|
+|Määritä vuokraaja lähettämään telemetriatiedot Azureen Application Insightsin analyysin ja vianmäärityksen parantamiseksi.|[Ota käyttöön telemetrian lähettäminen Application Insightsiin](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
 
@@ -60,7 +68,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 [Liiketoiminnan toiminnallisuus](across-business-functionality.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
-[Käytön aloittaminen](product-get-started.md)  
+[Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

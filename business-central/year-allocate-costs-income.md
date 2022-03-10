@@ -1,24 +1,23 @@
 ---
-title: Kustannusten ja tulojen kohdistustehtävien yleiskatsaus | Microsoft Docs
+title: Kustannusten ja tulojen kohdistustehtävien yleiskatsaus
 description: Tässä ohjeaiheessa kerrotaan tehtävistä, joilla voi kohdistaa yleisen päiväkirjan tapahtuman useille eri tileille päiväkirjan kirjaamisen yhteydessä.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
+ms.search.form: 283
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 09d287c3ebf8ac05cb6236b35a3ec29669338bc2
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 3380c66c5204c85b9d26f4a9f8e8943f2f7b5275
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3778127"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129420"
 ---
 # <a name="allocate-costs-and-income"></a>Kohdista kustannukset ja tulot
+
 Voit kohdistaa yleisen päiväkirjan tapahtuman useille eri tileille päiväkirjan kirjaamisen yhteydessä. Kohdistamisen voi tehdä kolmella eri tavalla:
 
 * määrä
@@ -31,8 +30,10 @@ Kohdistustoimintoja voi käyttää toistuvien yleisten päiväkirjojen ja käytt
 Seuraavaksi kerrotaan, miten kustannusten kohdistus valmistellaan toistuvissa yleisessä päiväkirjassa määrittämällä kohdistusavaimet. Kun kohdistusavaimet on määritetty, voit suorittaa ja kirjata päiväkirjan muiden toistuvien yleisten päiväkirjojen tavoin. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).
 
 ## <a name="to-set-up-allocation-keys"></a>Kohdistusavaimien määrittäminen
-Voit kohdistaa toistuvan yleisen päiväkirjan tapahtuman useille eri tileille päiväkirjan kirjaamisen yhteydessä. Kohdistus voidaan tehdä määrän, prosentin tai summan mukaan.
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toistuva päiväkirja** ja valitse sitten liittyvä linkki.
+
+Voit kohdistaa toistuvan yleisen päiväkirjan tapahtuman useille eri tileille päiväkirjan kirjaamisen yhteydessä. Kohdistus voidaan tehdä määrän, prosentin tai summan mukaan.  
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pr.pvk:n toist. kirj.** ja valitse sitten liittyvä linkki.
 2. Valitse **Erän nimi** -kenttä, kun haluat avata **Yleisen päiväkirjan erät** -sivun.
 3. Voit muokata luettelon olemassa olevan erän kohdistuksia tai luoda uuden erän ja kohdistukset.
    * Luo uusi erä valitsemalla **Uusi**-toiminto ja siirtymällä seuraavaan vaiheeseen.
@@ -47,7 +48,7 @@ Voit kohdistaa toistuvan yleisen päiväkirjan tapahtuman useille eri tileille p
 11. Kirjaa päiväkirja.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Aiemmin määritetyn kohdistusavaimen muuttaminen
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toistuva päiväkirja** ja valitse sitten liittyvä linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pr.pvk:n toist. kirj.** ja valitse sitten liittyvä linkki.
 2. Valitse **Toistuva yleinen päiväkirja** -sivulla päiväkirja, jossa kohdistus on.
 3. Valitse ensin kohdistuksen rivi ja sitten **Kohdistukset**-toiminto.
 4. Vaihda soveltuvat kentät ja valitse sitten **OK**-painike.
@@ -56,4 +57,7 @@ Voit kohdistaa toistuvan yleisen päiväkirjan tapahtuman useille eri tileille p
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)    
 [Asiakirjojen ja päiväkirjojen kirjaaminen](ui-post-documents-journals.md)    
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

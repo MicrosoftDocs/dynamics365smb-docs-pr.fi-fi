@@ -2,7 +2,6 @@
 title: Rakennetiedot –Täsmäytys pääkirjanpidon kanssa | Microsoft Docs
 description: Tässä ohjeaiheessa käsitellään täsmäytys pääkirjanpidon kanssa varastotapahtumia kirjattaessa. Näitä tapahtumia ovat esimerkiksi tapahtumat, tuotannon tuotos ja negatiiviset muutokset.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: ad155e604780af087c93e4e245002f3511d3d5a9
-ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
+ms.openlocfilehash: f3781169dcf91eacaa8c0988a49d908f7f947f02
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6215800"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145834"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Rakennetiedot: täsmäytys pääkirjanpidon kanssa
 Kun kirjaat varastotapahtumia, kuten myyntitoimituksia, tuotannon tuloksia tai negatiivisia muutoksia, ohjelma kirjaa varaston määrien muutokset nimiketapahtumiin ja varaston arvojen muutokset arvotapahtumiin. Prosessin seuraava vaihe on kirjata varastoarvot pääkirjanpidon varastotileille.  
@@ -82,16 +81,16 @@ Seuraavassa taulukossa esitetään, kuinka työkeskus on määritetty työkeskus
     1. Tilapäistilit on selvitetty. (Myynti)  
     2. Myytyjen tuotteiden kustannus (MTK) kirjataan. (Myynti)  
 
-        ![Myynnin KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_sales.png "Myynnin KP-tilikirjausten tulokset")  
+        ![Myynnin KP-tilikirjausten tulokset.](media/design_details_inventory_costing_3_gl_posting_sales.png "Myynnin KP-tilikirjausten tulokset")  
 5. Käyttäjä kirjaa kulutukseksi 150 lenkkiä, joka on yhden ketjun tuottamisessa käytettyjen lenkkien määrä. (Materiaalin kulutus)  
 
-    ![Materiaalin KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_material.png "Materiaalin KP-tilikirjausten tulokset")  
+    ![Materiaalin KP-tilikirjausten tulokset.](media/design_details_inventory_costing_3_gl_posting_material.png "Materiaalin KP-tilikirjausten tulokset")  
 6. Tuotantosolulta meni 60 minuuttia ketjun tekemiseen. Käyttäjä kirjaa muunnoksen kustannukset. (Kulutus, kapasiteetti)  
 
     1. Välittömät kustannukset tiliöidään. (Kulutus, kapasiteetti)  
     2. Välilliset kustannukset lasketaan ja tiliöidään. (Kulutus, kapasiteetti)  
 
-        ![Kapasiteetin KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_capacity.png "Kapasiteetin KP-tilikirjausten tulokset")  
+        ![Kapasiteetin KP-tilikirjausten tulokset.](media/design_details_inventory_costing_3_gl_posting_capacity.png "Kapasiteetin KP-tilikirjausten tulokset")  
 7. Käyttäjä kirjaa yhden ketjun oletetut kustannukset. (Tuotto)  
 8. Käyttäjä tekee tuotantotilauksen valmiiksi ja suorittaa **Muuta kustannuksia - Nimiketapahtumat** -eräajon. (Tuotto)  
 
@@ -100,7 +99,7 @@ Seuraavassa taulukossa esitetään, kuinka työkeskus on määritetty työkeskus
     3. Välilliset kustannukset (yleiskustannukset) siirretään välillisten kustannusten tililtä varastotilille. (Tuotto)  
     4. Tuloksena on erosumma 157,00 (PVA). Varianssit lasketaan vain vakiokustannuksen omaaville nimikkeille. (Tuotto)  
 
-        ![Tuotosten KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_output.png "Tuotosten KP-tilikirjausten tulokset")  
+        ![Tuotosten KP-tilikirjausten tulokset.](media/design_details_inventory_costing_3_gl_posting_output.png "Tuotosten KP-tilikirjausten tulokset")  
 
         > [!NOTE]  
         >  Yksinkertaisuuden vuoksi näytetään vain yksi vaihtelutili. Todellisuudessa on olemassa viisi erilaista tiliä:  
@@ -113,7 +112,7 @@ Seuraavassa taulukossa esitetään, kuinka työkeskus on määritetty työkeskus
 
 9. Käyttäjä määrittää ketjun hinnaksi 140,00 (PVA) aiemman 150,00 (PVA):n sijaan. (Muutos/uudelleenarvostus/pyöristys/siirto)  
 
-    ![Muutosten KP-tilikirjausten tulokset](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Muutosten KP-tilikirjausten tulokset")  
+    ![Muutosten KP-tilikirjausten tulokset.](media/design_details_inventory_costing_3_gl_posting_adjustment.png "Muutosten KP-tilikirjausten tulokset")  
 
 Saat lisätietoja tilityyppien välisestä suhteesta ja erityyppisistä arvotapahtumista kohdasta [Rakennetiedot: pääkirjanpidon tilit](design-details-accounts-in-the-general-ledger.md).  
 

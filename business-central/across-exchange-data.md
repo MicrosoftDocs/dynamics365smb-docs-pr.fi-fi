@@ -1,21 +1,20 @@
 ---
-title: Tietojen vaihtaminen | Microsoft Docs
-description: Tietoja voidaan vaihtaa Business Central -sovelluksen ja ulkoisten tiedostojen tai sellaisten virtojen kanssa, jotka on liitetty yleisiin liiketoimintatehtäviin, kuten sähköisten asiakirjojen lähettämiseen ja vastaanottamiseen sekä pankkitiedostojen tuontiin ja vientiin.
+title: Tietojen vaihtaminen
+description: Siirrä sähköisiä yritysasiakirjoja, esimerkiksi pankkitiedostoja, Business Centralin ja ulkopuolisten osapuolten välillä.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.keywords: exchange data, external files, electronic documents, AMC Banking, OCT, SEPA
+ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 29f7cbd99c867d01e6697aa87e39509a0d5b105e
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 00bac7c92cf6b29cbd79f5b3f04eaa9dfab1ee2d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4753415"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133432"
 ---
 # <a name="exchanging-data"></a>Tietojen vaihtaminen
 [!INCLUDE[prod_short](includes/prod_short.md)] -järjestelmä on määritetty vaihtamaan tietoja ulkoisten tiedostojen tai virtojen kanssa, jotka on liitetty yleisiin liiketoimintatehtäviin, kuten sähköisten asiakirjojen lähettämiseen ja vastaanottamiseen sekä pankkitiedostojen tuontiin ja vientiin.  
@@ -44,3 +43,6 @@ Ennen kuin voit lähettää ja vastaanottaa sähköisiä asiakirjoja tai tuoda j
 [Ostojen kirjaus](purchasing-how-record-purchases.md)  
 [Saapuvat asiakirjat](across-income-documents.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
