@@ -1,5 +1,5 @@
 ---
-title: Ostotilauksen linkittäminen myyntitilaukseen suoratoimitusta varten (sisältää videon) | Microsoft Docs
+title: Suoratoimitusten tekeminen (sisältää videon)
 description: Tässä artikkelissa kerrotaan, miten ostotilaukseen linkitetty myyntitilaus luodaan. Näin toimitus voidaan tehdä suoraan toimittajalta asiakkaalle.
 author: SorenGP
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19bfb28494a6ee5a4650f32fd2794c0254eff561
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fe45eb6403798a7e64b9604321440a2fff38c3f
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144825"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372041"
 ---
 # <a name="make-drop-shipments"></a>Suoratoimitusten tekeminen
 
@@ -40,12 +40,12 @@ Voit valmistella suoran toimituksen määrittämällä ostotilaukseen, että se 
 2. Valitse **Toimitusasiakas**-kentässä **Asiakkaan osoite**.
 3. Valitse **Asiakas**-kenttään asiakas, jolle myydään.
 4. Valitse **Suoratoimitukset**-toiminto ja valitse sitten **Hae myyntitilaus** -toiminto.
-5. Valitse **Myyntiluettelo**-sivulla myyntitilaus, jota valmisteltiin kohdassa [Myyntitilauksen luominen suoratoimitusta varten](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
+5. Valitse **Myyntiluettelo**-sivulla myyntitilaus, jota valmisteltiin kohdassa [Myyntitilauksen luominen suoratoimitusta varten](#to-create-a-sales-order-for-drop-shipment).
 6. Valitse **OK**-painike.
 
 Myyntitilauksen rivin tiedot lisätään ostotilauksen riville/riveille.
 
-Voit ohjeistaa toimittajaa toimittamaan nimikkeet asiakkaalle esimerkiksi lähettämällä ostotilauksen PDF-tiedostona.     
+Voit ohjeistaa toimittajaa toimittamaan nimikkeet asiakkaalle esimerkiksi lähettämällä ostotilauksen PDF-tiedostona. Jos toimittaja antaa seurantanumeron tai vastaavan tiedon, voit tallentaa kyseisen tiedon ostotilausriville tyyppiä *Kommentti*.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Useiden ostotilausten luominen suoratoimituksille
 

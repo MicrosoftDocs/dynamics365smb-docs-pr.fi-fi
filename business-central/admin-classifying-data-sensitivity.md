@@ -1,19 +1,19 @@
 ---
 title: Tietojen luottamuksellisuuden luokitteleminen
 description: Tallennettavien henkilöitä koskevien tietojen tyyppi on määritettävä, jotta voit vastata tietojen kohteiden pyyntöihin.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: 1752
 ms.date: 06/14/2021
-ms.openlocfilehash: 4ec4e6cd24c620829b35b7e3e25a27d4f127e045
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ba629a40bee4f73c3d2a68395b138893265d7b0f
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136424"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382361"
 ---
 # <a name="classifying-data-sensitivity-fields"></a>Tietojen luottamuksellisuuskenttien luokitteleminen
 Microsoft-kumppani voi luokitella luottamuksellisia tai henkilökohtaisia tietoja sisältävät kentät määrittämällä kentille ominaisuuden ```DataClassification```. Tämä edellyttää tietokantataulujen käyttämistä joko kehitysympäristössä tai suorittamalla Windows PowerShell -komentosarja. Lisätietoja on kohdassa [Tietojen luokitteleminen](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  

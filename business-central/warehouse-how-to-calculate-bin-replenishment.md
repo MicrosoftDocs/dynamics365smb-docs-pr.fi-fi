@@ -1,5 +1,5 @@
 ---
-title: Varastopaikan täydennyksen laskeminen | Microsoft Docs
+title: Laske var.paikan täydennys
 description: Kun sijainti on määritetty käyttämään ohjattua hyllytystä ja poimintaa, hyllytysmallin sijainnin painopisteet otetaan huomioon kun vastaanottoja hyllytetään.
 author: SorenGP
 ms.topic: conceptual
@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 7315, 7351
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e76b8906eb0ad494794b2bf474e0c635e9d95c80
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8954eaacd2a78d8c1ef0c8a65f63c571e045d950
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134590"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381008"
 ---
 # <a name="calculate-bin-replenishment"></a>Laske var.paikan täydennys
 Kun sijainti on määritetty käyttämään ohjattua hyllytystä ja poimintaa, hyllytysmallin sijainnin painopisteet otetaan huomioon kun vastaanottoja hyllytetään. Prioriteetteja ovat varastopaikan sisällön pienin ja suurin määrä, joka on vahvistettu tietylle varastopaikalle, sekä varastopaikan luokittelut. Tästä seuraa, että jos nimikkeitä saapuu tasaiseen tahtiin, eniten käytetyt poimintavarastopaikat täyttyvät samalla, kun niitä tyhjennetään.  
@@ -48,9 +49,9 @@ Seuraavan kerran kun lasket varastopaikan täydennystä, ohjelma luo uudelleen p
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
 [FEFO-poiminta](warehouse-picking-by-fefo.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
-[Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)     
-[Kokoonpanon hallinta](assembly-assemble-items.md)    
-[Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
+[Warehouse Managementin määrittäminen](warehouse-setup-warehouse.md) 
+[Kokoonpanon hallinta](assembly-assemble-items.md)
+[Rakennetiedot: Warehouse Management](design-details-warehouse-management.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
 
 

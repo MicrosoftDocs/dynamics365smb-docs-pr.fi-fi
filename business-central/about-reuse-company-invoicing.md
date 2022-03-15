@@ -1,7 +1,7 @@
 ---
-title: Invoicing- ja Business Central -sovellusten käyttäminen | Microsoft Docs
+title: Laskutuksen Business Centralin käyttö
 description: Ratkaisu, jonka avulla voi käyttää Microsoft Invoicingia, kun olet rekisteröitynyt Dynamics 365 Business Centraliin.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8c492b42c1b9c864f44707bebc4b61538e93b7d0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3c570f15d13f7a1dbb2a040f09f34b619b01a5f3
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134406"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382713"
 ---
 # <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Saman Microsoft 365 -tilin käyttäminen [!INCLUDE[prod_short](includes/prod_long.md)]:ssä ja Microsoft Invoicingissa
 Kun rekisteröidyt [!INCLUDE[prod_short](includes/prod_short.md)]:n kokeiluversioon, voit siirtyä 30 päivän arviointivaiheeseen, aloittaa tilauksen tai lopettaa [!INCLUDE[prod_short](includes/prod_short.md)]:n käytön. Joka tapauksessa, olet ehkä jossain vaiheessa nähnyt jotain, jonka nimi on **Microsoft Invoicing**, ja napsauttanut sitä. Tämä oli sovellus, joka oli osa sitä, mikä nyt Microsoft 365 Business Standard ja tunnettiin aiemmin nimellä Microsoft 365 Business Premium Subscription, joten kaikki eivät ole nähneet sen ruutua Microsoft 365 -kokemuksessaan.  

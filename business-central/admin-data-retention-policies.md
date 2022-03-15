@@ -1,7 +1,7 @@
 ---
 title: Tietojen puhdistaminen säilytyskäytäntöjen avulla
 description: Voit määrittää, kuinka usein haluat poistaa tietyntyyppiset tiedot.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: delete, data, retention, policy, policies
 ms.search.form: 3903, 3901
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 955b85020d4cb13f108bc1923de66eb13ade0061
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1abd02f7c70e8fe624e7d8b18ec7b7cb8b7c2c9e
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132183"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383937"
 ---
 # <a name="define-retention-policies"></a>Määritä säilytyskäytännöt
 Järjestelmänvalvojat voivat määrittää säilytyskäytäntöjä ja määrittää, kuinka usein he haluavat [!INCLUDE[prod_short](includes/prod_short.md)]:n poistavan vanhentuneita tietoja lokimerkintöjä ja arkistoituja tietueita sisältävissä taulukoissa. Esimerkiksi lokitapahtumien puhdistaminen voi helpottaa todella merkityksellisten tietojen käyttöä. Käytännöt voivat sisältää kaikki niiden taulukoiden tiedot, joiden vanhentumispäivämäärä on kulunut, tai voit lisätä suodatusehtoja, jotka sisältävät vain tietyt käytännön vanhentuneet tiedot. 

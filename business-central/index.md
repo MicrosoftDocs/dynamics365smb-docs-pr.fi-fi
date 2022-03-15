@@ -8,16 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 95f54be520c439984343fbe9413570dc18097db9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 398f9a221dbdbdf2889d847b2d26db7faec23ff0
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138490"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367200"
 ---
 # <a name="welcome-to-prod_long"></a>Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on pienille ja keskisuurille organisaatioille tarkoitettu liiketoiminnan hallintaratkaisu, joka automatisoi ja selkeyttää liiketoiminnan prosesseja sekä auttaa liiketoiminnan hallinnassa. Yritykset voivat käyttää erittäin mukautettavaa ja monipuolista [!INCLUDE[prod_short](includes/prod_short.md)]ia liiketoiminnan osa-alueiden hallintaan, kuten rahoituksen, tuotannon, myynnin, toimituksen, projektinhallinnan ja huollon hallintaan. Yritykset voivat helposti lisätä omalla toiminta-alueella tarpeellisia toimintoja sekä toimintoja, jotka on mukautettu hyvinkin erikoistuneita toimialoja varten.  
+
+[Tutustu tästä siihen, miten saat ilmaisen kokeiluversion](trial-signup.md).  
 
 Jos sinulla on jo [!INCLUDE[prod_short](includes/prod_short.md)], kirjaudu sivustossa [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Muussa tapauksessa [Lue yleiskuvaus](https://dynamics.microsoft.com/business-central/overview/), [tee opastettu kierros](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) ja sitten [aloita maksuton kokeilu](https://go.microsoft.com/fwlink/?linkid=847861). Tutustu [pika-aloitusartikkeleihin](quick-start-business-central.md), joiden avulla saat tietää enemmän [!INCLUDE [prod_short](includes/prod_short.md)]ista. Lisätietoja [!INCLUDE[prod_short](includes/prod_short.md)] -käyttöönotosta on kohdassa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
 

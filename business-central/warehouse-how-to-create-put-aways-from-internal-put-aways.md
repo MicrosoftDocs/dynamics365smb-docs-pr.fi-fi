@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 7354, 7356, 7357, 7358, 7359, 7361
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 609564faa1e0d5b1e7c364360315ca71b9ba3d06
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9e0eae31f29e726c15add24ef9d4b48b81b3d299
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140083"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383641"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Poimiminen ja hyllyttäminen ilman lähdeasiakirjaa
 Kun nimikkeet on hyllytetty ja ennen kuin ne poimitaan täyttämään tuotantotilauksen tai toimituksen tarpeita, ne varastoidaan fyysiseen varastoon osaksi saatavilla olevaa varastoa.  
@@ -53,8 +54,8 @@ Samoin nimikkeitä voidaan palauttaa fyysiseen varastoon hyllytettäviksi. Nimik
 ## <a name="see-also"></a>Katso myös  
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
 [Varasto](inventory-manage-inventory.md)  
-[Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)     
-[Kokoonpanon hallinta](assembly-assemble-items.md)    
+[Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  
+[Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
 

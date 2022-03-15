@@ -1,7 +1,7 @@
 ---
 title: Peruskokemuksen laajennus | Microsoft Docs
 description: Tämä laajennus on uudistettu vaihtoehto Microsoft Dynamics C5:lle.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: C5, financials, extension
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b423ce61a5bc8a7f5c580d0b4f3348792c4b02ab
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1ddb4468bda648b0368551ecb8cdbc6167cf4778
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132470"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381670"
 ---
 # <a name="the-basic-experience-extension"></a>Peruskokemuksen laajennus
 Jos olet käyttänyt Microsoft Dynamics C5:tä, Microsoft-kumppanit voivat auttaa siirtymisessä moderniin ratkaisuun, joka perustuu [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan, joten voit edelleen nauttia samoista selkeistä ominaisuuksista kuin Dynamics C5:ssä.

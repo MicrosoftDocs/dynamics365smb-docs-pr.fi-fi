@@ -1,7 +1,7 @@
 ---
 title: OneDriven ja Business Centralin integroinnin hallinta
 description: Tutustu asioihin, joita voit tehdä Business Centralin ja OneDrive for Businessin välisen integroinnin hallintaan.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: OneDrive, share, browser
 ms.date: 05/12/2021
 ms.author: bholtorf
-ms.openlocfilehash: 20c6eb27aa3af2557ce77993b11f759f2c329100
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5debd01f9d26e5e1dc1abc1a0123073d0f7ee234
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144022"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382869"
 ---
 # <a name="managing-onedrive-integration-with-business-central"></a>OneDriven ja Business Centralin integroinnin hallinta 
 Tässä artikkelissa on yleiskuvaus siitä, mitä voit tehdä järjestelmänvalvojana, kun haluat hallita OneDrive for Businessin ja [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman integrointia. [!INCLUDE[prod_short](includes/prod_short.md)] online -asiakkaat hyötyvät automaattisesta integroinnista, eikä näiden toimintojen käyttöön tarvitse määrittää lisäasetuksia. 

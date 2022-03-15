@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
-ms.date: 12/13/2021
+ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: 6cb8789b75350b3879fb0179759498394b6e22d1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f19e37752385d276683d4ce924883629cb7d086c
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134975"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372130"
 ---
 # <a name="use-time-sheets"></a>Käytä tuntiraportteja
 
@@ -32,7 +32,7 @@ Ennen kuin käytät aikaraportteja, sinun on määritettävä aikaraporttien yle
 
 ## <a name="to-create-time-sheets"></a>Luo aikaraportit
 
-Käytä **Luo aikaraportit** -eräajoa, kun määrität aikaraportit tietylle määrälle ajanjaksoja tai viikkoja. Tämän jälkeen aikaraportin omistaja voi avata sen ja kirjata ajan, joka tehtävään on kulunut.  
+Käytä **Luo aikaraportit** -eräajoa, kun määrität aikaraportit tietylle määrälle ajanjaksoja tai viikkoja. Tämän jälkeen aikaraportin omistaja voi avata sen ja kirjata ajan, joka tehtävään on kulunut. Voit myös valita, että [eräajo suoritetaan automaattisesti aikataulun mukaan](ui-work-report.md#ScheduleReport).  
 
 > [!IMPORTANT]
 > Sinulla on oltava oikeudet luoda aikaraportteja. Lisätietoja on kohdassa [Aikaraporttien määrittäminen](projects-how-setup-time-sheets.md).
@@ -43,6 +43,8 @@ Käytä **Luo aikaraportit** -eräajoa, kun määrität aikaraportit tietylle m�
 
     > [!NOTE]  
     > Aikaraportin resurssikortin **Käytä aikaraporttia**- ja **Aikaraportin omistajan käyttäjätunnus** -kenttä on täytettävä.
+
+    Voit halutessasi valita **Aikataulu**-toiminnon ja määrittää, kuinka usein tehtävä suoritetaan automaattisesti. Jos haluat esimerkiksi, että tehtävä suoritetaan viikoittain neljän viikon ajan, määritä **Suoritettavan raportin aikatauluttaminen - Luo aikaraportit** -sivulla kenttä **Seuraavan suorituspäivän kaava** arvoon *4W*. Lisätietoja on kohdassa [Raportin ajoittaminen suoritettavaksi](ui-work-report.md#ScheduleReport).  
 4. Valitse **OK**-painike.  
 
 Voit tarkastella samoja tuntiraportteja, jotka olet luonut **Tuntiraportit**-sivulla. Jokainen tuntiraportti koostuu yhdestä tai useammasta rivistä, jotka määrittävät hyväksyntää varten lähetettävän ajan. Seuraavassa taulukossa kuvataan, millaisia rivejä voit lisätä tuntiraporttiin.

@@ -1,7 +1,7 @@
 ---
 title: AMC Banking 365 Fundamentals -laajennuksen käyttäminen
 description: Tietoa siitä, miten voit helposti vaihtaa tietoja pankkiesi kanssa muuttamalla tietoja niiden edellyttämään muotoon.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: bank, format, data
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 87a31fafadb63d8dad9f6432a6f64343e22d15b8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 277842528290f3d3974c7e4b22030fa33e237dbd
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140447"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381164"
 ---
 # <a name="using-the-amc-banking-365-fundamentals-extension"></a>AMC Banking 365 Fundamentals -laajennuksen käyttäminen
 AMC Banking 365 Fundamentals -laajennus helpottaa ja tarkentaa tietojen lähettämistä pankkeihin. Laajennus yhdistää [!INCLUDE[prod_short](includes/prod_short.md)]:n ja AMC Banking 365 Fundamentalsin Microsoft Dynamics 365 Business Central -palveluun, joka voi muuntaa pankkitietoja [!INCLUDE[prod_short](includes/prod_short.md)]:sta muodoiksi, joita tarvitaan yli 600 pankissa ympäri maailmaa. Tämä helpottaa esimerkiksi maksujen ja hyvitysten siirtämistä toimittajille syöttämällä maksut [!INCLUDE[prod_short](includes/prod_short.md)]-ohjelmaan ja lataamalla ne sitten pankkiin. Muodot voivat myös tasoittaa pankin täsmäytysprosesseja. Lisätietoja on kohdassa [AMC Banking Microsoft Dynamics 365 Business Centralille](https://www.amcbanking.com/bc-fundamentals/).

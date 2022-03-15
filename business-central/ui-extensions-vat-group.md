@@ -1,8 +1,7 @@
 ---
 title: ALV-ryhmän hallinnan laajennus
 description: Voit olla yhteydessä muihin yrityksiin, jos haluat muodostaa alv-ryhmän, ja toimia ryhmän jäsenenä tai edustajana ALV-raportoinnin yhteydessä.
-author: bholtorf
-manager: annbe
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 470b8af1322fa0f3b295f566244af44c3183c2fe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f385cd6dc2186a2e492eb7c045639ec34185237c
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132444"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382555"
 ---
 # <a name="the-vat-group-management-extension"></a>ALV-ryhmän hallinnan laajennus
 
@@ -84,9 +83,9 @@ Määritä alv-ryhmän jäsen suorittamalla **Määritä alv-ryhmän hallinnan**
 5. Valitse **todennustyyppi**, valitse **OAuth2** ja valitse sitten **Seuraava**.
 6. **Syötä asiakastunnus** -kenttään alv-ryhmän edustajan antama tunnus.
 7. Syötä **ALV-ryhmän edustajan toimittama asiakassalaisuus** -kentässä oleva salaisuus.
-8. **Syötä OAuth 2.0 Authority -päätepiste** -kenttään *https://login.microsoftonline.com/common/oauth2*.
-9. **Syötä OAuth 2.0 Resource -URL-osoite** -kenttään *https://api.businesscentral.dynamics.com/*.
-10. **Syötä OAuth 2.0 Redirect -URL-osoite** -kenttään *https://businesscentral.dynamics.com/OAuthLanding.htm*. 
+8. Syötä **OAuth 2.0 Authority -päätepiste** -kenttään `https://login.microsoftonline.com/common/oauth2`.
+9. Syötä **Syötä OAuth 2.0 Resource -URL-osoite** -kenttään `https://api.businesscentral.dynamics.com/`.
+10. Syötä **OAuth 2.0 Redirect -URL-osoite** -kenttään `https://businesscentral.dynamics.com/OAuthLanding.htm`. 
 11. Kun olet määrittänyt eri kentät, valitse **Seuraava** ja syötä sitten käyttäjätiedot, jotka alv-ryhmän edustaja on toimittanut.
 12. Valitse alv-raporttikonfiguraatio, jonka avulla ALV raportoidaan maasi viranomaisille.
 
@@ -94,7 +93,7 @@ Määritä alv-ryhmän jäsen suorittamalla **Määritä alv-ryhmän hallinnan**
 
 ## <a name="using-the-vat-group-management-features"></a>ALV-ryhmän hallintaominaisuuksien käyttäminen
 
-ALV-ryhmän jäsenet käyttävät vakioprosesseja alv-palautusten valmisteluun. Ainoa ero on, että valitaan **VATGROUP**-raporttiversio, joka lähettää ALV-palautuksen alv-ryhmän edustajalle eikä viranomaisille. Lisätietoja on kohdassa [Tietoja ALV-palautusraportista](finance-how-report-vat.md#about-the-vat-return-report).
+ALV-ryhmän jäsenet käyttävät vakioprosesseja alv-palautusten valmisteluun. Ainoa ero on, että valitaan **VATGROUP**-raporttiversio, joka lähettää ALV-palautuksen alv-ryhmän edustajalle eikä viranomaisille. Lisätietoja on kohdassa [Tietoja ALV-palautusraportista](finance-how-report-vat.md#vatreturn).
 
 Seuraavissa osissa kuvataan tehtävät, jotka alv-ryhmän edustajien täytyy suorittaa.
 

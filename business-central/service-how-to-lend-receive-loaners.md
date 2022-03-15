@@ -1,7 +1,7 @@
 ---
 title: Korvaavien huoltonimikkeiden lainaaminen | Microsoft Docs
 description: Voit lainata asiakkaille lainatavaroita väliaikaisesti niiden huoltonimikkeiden tilalle, jotka olet vastaanottanut huollettavaksi.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ddf4dd090246bd1b102a3f812db7955f48ad0afb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3d7e2c7be7d381a6fdf58a16b7fc154a6d674215
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132574"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382791"
 ---
 # <a name="lend-and-receive-loaners"></a>Lainatavaroiden lainaaminen ja vastaanottaminen
 Asiakkaille voi lainata lainatavaroita väliaikaisesti niiden huoltonimikkeiden tilalle, jotka olet vastaanottanut huollettavaksi.  

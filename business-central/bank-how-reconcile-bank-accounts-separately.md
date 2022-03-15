@@ -1,21 +1,21 @@
 ---
 title: Pankkitilien täsmäytys
 description: Tässä ohjeaiheessa kuvataan, miten voit täsmäyttää sisäisten pankkitiliesi kauppatapahtumat pankin tiliotteiden kanssa.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.search.form: 379, 388, 1290, 10124
+ms.search.form: 379, 388, 389, 1290, 10124
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 89fc1b881ce738d50ae40088be265d3944491f21
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1ebc2680aea583410a0f1bab8f4ff1d35989eb36
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128997"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381086"
 ---
 # <a name="reconcile-bank-accounts"></a>Pankkitilien täsmäytys
 
@@ -88,7 +88,7 @@ Jos haluat ottaa pankin tiliotteet käyttöön pankkisyötteinä, määritä ens
 
 Sivu **Pankkitilin täsmäytys** tarjoaa automaattisen vastaavuustoiminnon, joka kohdistaa maksut niihin liittyviin avoimiin tapahtumiin pankin tiliotteen rivillä (vasemmassa ruudussa) olevan tekstin vastaavuuden perusteella verrattuna yhden tai useamman pankkitilitapahtuman (oikealla puolella) tekstiin. Huomaa, että ehdotetut automaattiset kohdistukset voidaan korvata toisilla. Voit myös olla käyttämättä automaattista kohdistusta. Lisäohjeita on kohdassa [Pankin tiliotteen rivien ja pankkitilin tapahtumien kohdistaminen manuaalisesti](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
-Automaattinen vastaavuus vastaa tapahtumia, jotka perustuvat maksusovelluksen sääntöjen joukkoon. Lisätietoja on kohdassa [Määritä sääntöjä maksujen automaattiselle soveltamiselle](receivables-how-set-up-payment-application-rules.md). Voit tutkia vastaavuuksien perusteita käyttämällä **Vastaavuuden tiedot** -toimintoa. Tiedot sisältävät esimerkiksi niiden kenttien nimet, jotka sisälsivät vastaavat arvot.  
+Voit tutkia vastaavuuksien perusteita käyttämällä **Vastaavuuden tiedot** -toimintoa. Tiedot sisältävät esimerkiksi niiden kenttien nimet, jotka sisälsivät vastaavat arvot.  
 
 1. Valitse **Pankkitilin täsmäytys** -sivulla **Kohdista automaattisesti**. **Kohdista pankkitapahtumat** -sivu avautuu.
 2. Määritä **Tapahtuman päivämäärätoleranssi (päivinä)** -kenttään ajanjakso ennen ja jälkeen pankkitilitapahtuman kirjauspäivämäärän, jonka aikana toiminto hakee vastaavia tapahtumapäivämääriä tiliotteesta.

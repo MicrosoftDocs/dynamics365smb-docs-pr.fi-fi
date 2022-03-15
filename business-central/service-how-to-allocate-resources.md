@@ -1,7 +1,7 @@
 ---
 title: Resurssien kohdistaminen | Microsoft Docs
 description: Huoltosopimuksen tai sopimustarjouksen vuosittaista summaa voidaan muuttaa, jos vuosittain laskutettavaa summaa tarvitsee korjata.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ba3571eac4e26646507db2c67f0c2f77207a4566
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 71cbdf87ba74c0cff1839fb4a3d4e1620884f407
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143060"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382687"
 ---
 # <a name="allocate-resources"></a>Resurssien kohdistaminen
 Huollon toimittavat henkilöt ovat huoltohallinnon tärkein elementti. Voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in määrittämään henkilöt heille soveltuviin projekteihin. Toimeksiannot voivat perustua henkilön tai huollon sijainnin mukaisiin huoltoalueisiin. Lisäksi resurssit voi ryhmitellä yhteen huoltopyyntöihin vastattaessa. Lisätietoja on kohdassa [Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md).

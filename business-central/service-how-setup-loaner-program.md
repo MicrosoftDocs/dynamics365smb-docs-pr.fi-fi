@@ -1,7 +1,7 @@
 ---
 title: Lainatavaroiden määrittäminen | Microsoft Docs
 description: Voit määrittää lainatavaroita, joita voit lainata asiakkaille huollossa olevien huoltonimikkeiden tilalle.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 252696484a8c7d90bac90628cf74896240889ba9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c4fda37826295491db4445ec78103013149d2aa0
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132626"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383029"
 ---
 # <a name="set-up-a-loaner-program"></a>Lainatavaraohjelman määrittäminen
 Ajoittain on tarpeen toimittaa asiakkaan käyttöön lainatavara, kunnes huoltohenkilökunta korjaa asiakkaan tavaran. Voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]iin lainatavaraohjelman, lainata nimikkeitä asiakkaille ja seurata nimikkeiden vastaanottoa, kun asiakkaat palauttavat ne. Voit myös lisätä lainatavaroita koskevia kommentteja kahdella tavalla:  

@@ -1,14 +1,14 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: 0bfe45574f3f209ac5ee310546cd2ef0998ab417
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 5a3e15669bfc590d663b7774fba84017ae842521
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334537"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372019"
 ---
 Seuraavassa taulukossa kuvataan joitakin tuotantoraportoinnin keskeisiä raportteja.
 
@@ -22,6 +22,7 @@ Seuraavassa taulukossa kuvataan joitakin tuotantoraportoinnin keskeisiä raportt
 | [Nimikkeen tuoterakenteen vertailuluettelo](https://businesscentral.dynamics.com?report=99000758)|Tämä raportti antaa sinulle mahdollisuuden verrata samankaltaisten lopputuotteiden kustannuksia. Näyttöön tulee luettelo, jossa ovat kaikki komponentit ja niiden kustannukset sekä tarvittavat määrät. Laskentapäiväksi määritetään tavallisesti käsittelypäivämäärä. |99000758|
 | [Tuotantotilaustilastot](https://businesscentral.dynamics.com?report=99000791)|Määrittää erilaisia kustannuksia, joita on kertynyt valitulle tuotantotilaukselle.<br>Raportin sisältö on hyvin samankaltainen kuin **Tuotantotilaustilastot**-sivulla.<br>Jos tuotantotilauksessa käytetään *Tilausohjattu*-tuotantotapaa, ikkunassa näkyy vain korkeimman tuoterakennetason nimikkeiden materiaali- ja kapasiteettikustannukset.|99000791|
 | [Kapasiteetin tehtäväluettelo](https://businesscentral.dynamics.com?report=99000780)|Tässä raportissa näkyvät tuotantotilaukset, jotka odottavat käsittelyä tuotantosoluissa ja kuormitusryhmissä. Tulosteissa näkyy tuotantosolun tai kuormitusryhmän kapasiteetti). Raportti sisältää tietoja, kuten aloitus- ja lopetusaika sekä päivämäärä tuotantotilausta ja panosmäärää kohti.|99000780|
-| [Tuotantosolun kuormitus](https://businesscentral.dynamics.com?report=99000783)|Molemmissa raporteissa näkyy luettelo tuotantosolun tai kuormitusryhmän kuormituksesta. Tuotantosolun tai kuormitusryhmän kuormitus on summa tarvittavista kerroista, jolloin kaikki suunnitellut ja todelliset tilaukset on suoritettu tuotantosolussa tiettynä ajanjaksona.|99000783|
-| [Kuormitusryhmän kuormitus](https://businesscentral.dynamics.com?report=99000784)|Molemmissa raporteissa näkyy luettelo tuotantosolun tai kuormitusryhmän kuormituksesta. Tuotantosolun tai kuormitusryhmän kuormitus on summa tarvittavista kerroista, jolloin kaikki suunnitellut ja todelliset tilaukset on suoritettu tuotantosolussa tiettynä ajanjaksona.|99000784|
+| [Tuotantosolun kuormitus](https://businesscentral.dynamics.com?report=99000783)|Tässä raportissa näkyy luettelo tuotantosolun kuormituksesta. Tuotantosolun kuormitus on summa tarvittavista kerroista, jolloin kaikki suunnitellut ja todelliset tilaukset on suoritettu tuotantosolussa tiettynä ajanjaksona.|99000783|
+| [Kuormitusryhmän kuormitus](https://businesscentral.dynamics.com?report=99000784)|Tässä raportissa näkyy luettelo kuormitusryhmän kuormituksesta. Kuormitusryhmän kuormitus on summa tarvittavista kerroista, jolloin kaikki suunnitellut ja todelliset tilaukset on suoritettu tuotantosolussa tiettynä ajanjaksona.|99000784|
 | [Tuot.til. - Puuteluettelo](https://businesscentral.dynamics.com?report=99000788)|Tämän raportin avulla saa näkyviin kaikki komponentit, joita ei ole saatavilla puuttuvan varaston vuoksi. Tästä yleiskatsauksesta voidaan siis tarkastella ajoissa, voidaanko suunnitellun tai julkaistun tuotantotilauksen aikajana pitää suunnitellusti.|99000788|
+|[Tuot.til - Laskenta](https://businesscentral.dynamics.com?report=99000767)|Näyttää luettelon tuotantotilauksista ja niiden kustannuksista. Se sisältää oletetut operaatiokustannukset, oletetut komponenttikustannukset ja kokonaiskustannukset.|99000767|

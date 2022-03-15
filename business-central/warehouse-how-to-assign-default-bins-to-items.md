@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 7371, 7374, 7379
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e4f3d103c5bfdcedfef6fa3571f4ca56aa2ccb9a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6802009029d8eea434e7c5096f4efb591ee4993b
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134642"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382739"
 ---
 # <a name="assign-default-bins-to-items"></a>Oletusvarastopaikkojen määrittäminen nimikkeille
 Jos käytät sijainnissa varastopaikkoja, voit helpottaa nimikkeiden toimitusta, vastaanottoa ja siirtämistä määrittämällä nimikkeille oletusvarastopaikat. Kun nimikkeelle on määritetty oletusvarastopaikka, ohjelma ehdottaa tätä varastopaikkaa aina, kun aloitat tapahtuman tälle nimikkeelle. Voit määrittää oletusvarastopaikat **Varastopaikan sisältö** -sivulla.  
@@ -28,7 +29,7 @@ Jos käytät sijainnissa varastopaikkoja, voit helpottaa nimikkeiden toimitusta,
 >  Kun nimike hyllytetään eikä sille ole määritetty oletusvarastopaikkaa, järjestelmä määrittää oletusvarastopaikaksi varastopaikan, johon nimike hyllytetään.  
 
 ## <a name="to-change-the-default-bin-for-an-item"></a>Nimikkeen oletusvarastopaikan muuttaminen  
-Joskus voi olla tarpeen muuttaa tietyn nimikkeen oletusvarastopaikan määritystä tai määrittää uudelle nimikkeelle oletusvarastopaikka.    
+Joskus voi olla tarpeen muuttaa tietyn nimikkeen oletusvarastopaikan määritystä tai määrittää uudelle nimikkeelle oletusvarastopaikka.
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastopaikan sisältö** ja valitse sitten vastaava linkki.  
 2.  Valitse **Sijaintisuodatus**-kentässä haluttu sijaintikoodi.  
 3.  Etsi nimikkeen nykyinen oletusvarastopaikka ja poista **Oletusvarastopaikka**-valintaruudun valinta.  
@@ -40,9 +41,9 @@ Joskus voi olla tarpeen muuttaa tietyn nimikkeen oletusvarastopaikan määrityst
 ## <a name="see-also"></a>Katso myös  
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
-[Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)     
-[Kokoonpanon hallinta](assembly-assemble-items.md)    
-[Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
+[Warehouse Managementin määrittäminen](warehouse-setup-warehouse.md) 
+[Kokoonpanon hallinta](assembly-assemble-items.md)
+[Rakennetiedot: Warehouse Management](design-details-warehouse-management.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
 
 

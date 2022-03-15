@@ -1,7 +1,7 @@
 ---
 title: Tietoarkisto-laajennus
 description: Tietojen arkistointi luo tietueiden edullisen varmuuskopion.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 630
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: e2df40494f72260a1ce7e66f57ea1c96fb35b301
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9c547b9fe73a889145aeb228e987895aeae6aa12
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130824"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382527"
 ---
 # <a name="the-data-archive-extension"></a>Tietoarkisto-laajennus
 Ajan mittaan yrityksesi kerää huomattavan määrän tietoa, ja järjestelmänvalvojana on todennäköisesti hyvä luoda tietojen arkistointistrategia. Kun tietoja on paljon, esimerkiksi raporttien luominen tai tietueiden luominen voi kestää hieman kauemmin, tai tietueet voivat jopa lukittua. Lisäksi suuret tietomäärät voivat aiheuttaa lisääntyneitä tallennuskustannuksia.

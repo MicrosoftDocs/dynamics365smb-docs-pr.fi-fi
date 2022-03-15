@@ -7,19 +7,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 03/02/2022
 ms.author: edupont
-ms.openlocfilehash: b8ab5e642fc8e33f9d91b41aa11cb4b3d2412aec
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a8c3676204bb5a907f21e4e0f48efd3c5d92386e
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145112"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372015"
 ---
 # <a name="vat-vies-declaration-in-finland"></a>ALV-yhteenvetoilmoitus Suomessa
+
 [!INCLUDE[prod_short](../../includes/prod_short.md)] sisältää arvonlisäveron ja Euroopan unionin (EU) myyntiraportoinnin sääntöjen noudattamisessa tarvittavat Suomessa käytettävät lisätoiminnot. **ALV-yhteenvetoilmoitus**- ja **EU-myyntiluettelo**-raportit sisältävät **EU-palvelu**-kentän, jonka avulla voit tulostaa palveluun liittyviä myyntisummia erikseen nimikkeeseen liittyvistä myyntisummista eri kirjausryhmien perusteella. Nämä tiedot ovat pakollisia EU-kolmikantakaupan tapahtumien ALV-raporteissa vuonna 2010 ja sitä seuraavina vuosina.  
 
-## <a name="see-also"></a>Katso myös  
+[!INCLUDE [finance-ecsaleslist](../../includes/finance-ecsaleslist.md)]
+
+## <a name="see-also"></a>Katso myös
+
+[Tietoja EU-myyntiluettelo-raportista](../../finance-how-report-vat.md#ecsaleslist)  
 [Suomen paikalliset toiminnot](finland-local-functionality.md)  
 [ALV:n raportointi veroviranomaisille](../../finance-how-report-vat.md)
 

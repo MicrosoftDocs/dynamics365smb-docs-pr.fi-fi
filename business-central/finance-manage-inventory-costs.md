@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 79498fe0e29a633f7d17a7940148728f544cb2d0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1b3e724a3dd0f6f8dadd0e6c233fd41795bcbfd9
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138516"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366286"
 ---
 # <a name="managing-inventory-costs"></a>Varaston kustannusten hallinta
 Kustannushallinta, jota kutsutaan myös "arvostukseksi", käsittelee liiketoiminnan toimintokustannusten tallennusta ja raportointia. Se sisältää tuotanto- ja varastointikustannusten eli nimikkeiden arvon raportoinnin..   
@@ -36,7 +36,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Käytä erityisiä kustannuslaskentatoimintoja nimiketoimintojen päivittäisissä nimiketapahtumissa.|[Varaston ja tuotannon kustannusten käsitteleminen](finance-handle-inventory-and-manufacturing-costs.md)|  
 |Kokoonpanon ja tuotannon tuoterakenteiden komponenttien vakiokustannukset on päivitettävä säännöllisesti ja uudet kustannukset on vyörytettävä päänimikkeelle.|[Vakiokustannusten päivittäminen](finance-how-to-update-standard-costs.md)|
 |Voit tarkastella ja muuttaa manuaalisesti tietyn nimikkeen kohdistustapahtumia, jotka on luotu automaattisesti varastotapahtumien yhteydessä.|[Nimiketapahtumien poistaminen ja uudelleenkohdistaminen](finance-how-to-remove-and-reapply-item-entries.md)|
-|Kauden lopun hallinta- ja raportointitehtävien toteuttaminen. Näitä tehtäviä ovat esimerkiksi varaston arvon laskeminen ja kustannusten kirjaaminen pääkirjanpitoon.|[Kustannusten raportointi ja täsmäyttäminen pääkirjanpidon kanssa](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
+|Kauden lopun hallinta- ja raportointitehtävien toteuttaminen. Näitä tehtäviä ovat esimerkiksi varaston arvon laskeminen ja kustannusten kirjaaminen pääkirjanpitoon.|[Kustannusten raportointi ja täsmäyttäminen pääkirjanpidon kanssa](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
 |Lisätietoja siitä, miten voit siirtää työjonon avulla tehtäviä, jotka liittyvät varaston kustannusten säätämiseen tai sen täsmäyttämisessä taustalla KP:n kanssa.|[Varaston kustannusten muuttaminen ja täsmäyttäminen pääkirjanpidon kanssa työjonon avulla](finance-manage-inventory-costs.md)|
 
 ## <a name="see-also"></a>Katso myös  

@@ -1,21 +1,21 @@
 ---
 title: Kassavirta-analyysin määrittäminen (sisältää videon)
 description: Kaavioiden käyttäminen kirjanpitäjän roolikeskuksessa auttaa analysoimaan yrityksen rahavirtaa, kuten menoja ja tuloja, maksuvalmiutta ja kassaanmaksuista vähennettyjä kassamaksuja.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds
-ms.search.form: 846, 847, 849, 855, 862, 869, 1818
+ms.search.form: 846, 847, 849, 851, 855, 862, 869, 1818
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: ca4f088156313ec9cf3796abab642b7d319327bb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 21a9fb4f38b6960389ec216e638cf06694eca07a
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143502"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381404"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Kassavirta-analyysin määrittäminen
 Jos tarvitset apua käteisvarojen käytöstä päättämiseen, tutustu Kirjanpitäjä-roolikeskuksen kaavioihin:  

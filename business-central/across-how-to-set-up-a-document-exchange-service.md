@@ -1,7 +1,7 @@
 ---
 title: Document Exchange -palvelun määrittäminen | Microsoft Docs
 description: Ulkoista palveluntarjoajaa käytetään sähköisten asiakirjojen vaihtamiseen liikekumppaneiden kanssa.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 8804b9bb7f7b8112e54e8a9953198db8686f768d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cc0bda1808e33db7ea54aac2a1afdb932c01f629
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133380"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382975"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Document Exchange -palvelun määrittäminen
 Osana tiedonvaihtokehystä voit vaihtaa myynti- ja osto asiakirjoja kauppakumppaneiden kanssa ilman lisävaiheita, kuten dokumenttien liittämistä sähköpostiviesteihin PDF-tiedostoina. Kun esimerkiksi olet valmis laskuttamaan asiakasta, voit kirjata laskun ja lähettää sen maksettavaksi tiedostona, jonka asiakas voi vastaanottaa liiketoiminnan hallintasovelluksessaan. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).

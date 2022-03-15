@@ -1,7 +1,7 @@
 ---
 title: Huoltosopimusten ja huoltosopimustarjousten käsitteleminen | Microsoft Docs
 description: Huoltosopimus voidaan luoda joko manuaalisesti tai huoltosopimustarjouksesta. Voit luoda huoltosopimuksen huoltosopimustarjouksen perusteella.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0a9e90f19584e3586bac0cc80dac3b2cc0d9ce74
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: dcd6ec21880a2f4e8fa9cf3fdd04be1eb4dd191b
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134882"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383531"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Huoltosopimusten ja huoltosopimustarjousten käyttäminen
 Huoltosopimus voidaan luoda joko manuaalisesti tai huoltosopimustarjouksesta. Huoltosopimustarjousta voidaan käyttää huoltosopimuksen esiasteena, jossa yrityksesi tekee asiakkaalle tarjouksen ja joka tarvitsee asiakkaan hyväksynnän, ennen kuin se voidaan muuntaa huoltosopimukseksi. Tämän vuoksi huoltosopimus ja huoltotarjous luodaan pitkälti samalla tavoin.  

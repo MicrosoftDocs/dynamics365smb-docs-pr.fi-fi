@@ -1,18 +1,18 @@
 ---
 title: Business Central-tiedostojen avaaminen OneDrivessa
 description: Lue, miten voit jakaa Business Central -tietoja OneDrive for Businessin kautta.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: 449fac4cf8d8a19caed8093019e9a804a08d1aaf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 76d845b26bf9c68b3e60947fef4d2ac78304e5ee
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147188"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383963"
 ---
 # <a name="opening-business-central-files-in-onedrive"></a>Business Central-tiedostojen avaaminen OneDrivessa
 [!INCLUDE[prod_short](includes/prod_short.md)]in avulla on helppo tallentaa, hallita ja jakaa tiedostoja muiden ihmisten kanssa OneDrive for Businessin kautta. Useimmilla sivuilla, joilla on saatavilla tiedostoja, kuten raportin Saapuneet-kansio tai tiedostot, jotka on liitetty tietueisiin, löydät **Avaa OneDrivessa** -toiminnon.

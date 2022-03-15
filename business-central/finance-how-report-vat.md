@@ -1,7 +1,7 @@
 ---
 title: ALV-ilmoitusten lähettäminen veroviranomaisille
 description: Lisätietoja sellaisten ilmoitusten valmistelusta, joissa mainitaan myynnin tai myynnin ja ostojen arvonlisävero tiettynä kautena, ilmoituksen lähettämisestä veroviranomaisille.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,21 +10,25 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 11d9b165c598cbb17f870044763e8b0bdca1723b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b927faed205e64088ce399a9a973d7fcea0d1eda
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141175"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383803"
 ---
 # <a name="report-vat-to-tax-authorities"></a>ALV:n raportointi veroviranomaisille
 
-Tässä ohjeaiheessa käsitellään [!INCLUDE[prod_short](includes/prod_short.md)]in raportteja, joilla voit lähettää myynnin ja ostojen arvolisäverosummia koskevat tiedot alueesi veronviranomaisille. 
+Tässä ohjeaiheessa käsitellään [!INCLUDE[prod_short](includes/prod_short.md)]in raportteja, joilla voit lähettää myynnin ja ostojen arvolisäverosummia koskevat tiedot alueesi veronviranomaisille. Tiettyjen maiden mukaan raporteissa voi olla erityisiä tietoja tai on lähetettävä lisäraportteja. Tarkista oman maasi artikkelit [Paikalliset toiminnot](about-localization.md) -osasta.  
 
-Käytössä on seuraavat raportit:
+Käytössä ovat seuraavat sisäiset raportit:
 
-* **EU-myyntiluettelo** Euroopan unionin (EU:n) myyntiluettelo sisältää arvolisävero- eli ALV-summat, jotka olet kerännyt EU-maissa sijaitseville ALV-rekisteröidyille asiakkaille suuntautuneesta myynnistä.  
-* **ALV-palautus**-raportti sisältää kaikissa sellaisissa maissa toimiville asiakkaille suuntautuneen myynnin ja toimittajilta tehtyjen ostojen ALV:n, joissa käytetään arvonlisäveroa.  
+* **EU-myyntiluettelo**-raportti  
+
+    Euroopan unionin (EU:n) myyntiluettelo sisältää arvolisävero- eli ALV-summat, jotka olet kerännyt EU-maissa sijaitseville ALV-rekisteröidyille asiakkaille suuntautuneesta myynnistä.  
+* **VAT-palautus**-raportti  
+
+    ALV-palautusraportti sisältää kaikissa sellaisissa maissa toimiville asiakkaille suuntautuneen myynnin ja toimittajilta tehtyjen ostojen ALV:n, joissa käytetään arvonlisäveroa.  
 
 Molemmissa tapauksissa ALV lasketaan määritettyjen ALV-kirjausasetusten ja ALV-kirjausryhmien perusteella.
 
@@ -33,7 +37,7 @@ Jos haluat tarkastella täydellistä ALV-tapahtumahistoriaa, jokainen ALV:n sis�
 > [!NOTE]
 > Jokaisen [!INCLUDE[prod_short](includes/prod_short.md)] -ympäristön on tarkoitus käsitellä yhden maan lakisääteinen raportointi. Esimerkiksi [!INCLUDE[prod_short](includes/prod_short.md)]in hollantilainen versio käsittelee vain Alankomaiden ALV-raportointia. Vastaavasti Yhdysvaltain [!INCLUDE[prod_short](includes/prod_short.md)]in versio käsittelee 1099-raportointia Yhdysvalloissa, eikä se tue ALV-raportointia muissa maissa ellei sitä ole tuotu kumppaniekosysteemin laajennuksella tai asiakaskohtaisella koodimuokkauksella.
 
-## <a name="about-the-ec-sales-list-report"></a>Tietoja EU-myyntiluettelo-raportista
+## <a name="about-the-ec-sales-list-report"></a><a name="ecsaleslist"></a>Tietoja EU-myyntiluettelon raportista
 
 Euroopan unionissa (EU) ja Yhdistyneessä kuningaskunnassa kaikkien tavaroita ja palveluja ALV-rekisteröidyille asiakkaille, myös muiden EU-maiden asiakkaille, myyvien yritysten on lähetettävä EU-myyntiluettelo-raportin sähköinen versio tulli- ja veroviranomaisilleen. **EU-myyntiluettelo**-raportti toimii vain EU-maiden kohdalla.
 
@@ -47,7 +51,11 @@ Raportti sisältää yhden rivin kullekin asiakastapahtumalle ja näyttää koko
 
 Kun veroviranomainen on tarkistanut raporttisi, yrityksesi yhteyshenkilö saa viranomaiselta sähköpostiviestin. [!INCLUDE[prod_short](includes/prod_short.md)]issa yhteyshenkilö määritetään **Yritystiedot**-sivulla. Ennen kuin lähetät raportin, varmista, että olet valinnut yhteyshenkilön.  
 
-## <a name="about-the-vat-return-report"></a>Tietoja ALV-palautusraportista
+### <a name="submit-an-ec-sales-list-report"></a>Lähetä EU-myyntiluettelon raportti
+
+[!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
+
+## <a name="about-the-vat-return-report"></a><a name="vatreturn"></a>Tietoja ALV-palautusraportista
 
 Voit lähettää tällä raportilla osto- ja myyntiasiakirjoissa olevan ALV:n. Näitä asiakirjoja ovat esimerkiksi osto- ja myyntitilaukset, laskut ja hyvityslaskut. Tiedot ovat raportissa samassa muodossa kuin tulli- ja veroviranomaisille tehtävässä yhteenvetoilmoituksessa.  
 

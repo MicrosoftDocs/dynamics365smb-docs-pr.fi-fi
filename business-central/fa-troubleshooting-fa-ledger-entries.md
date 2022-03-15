@@ -2,7 +2,7 @@
 title: KO-kirjausten laajennuksen vianetsintä
 description: Kokonaisnumeroiden käsitteleminen on helpompaa. Käytä tätä laajennusta käyttöomaisuuden pyöristyksessä KO-kirjauksiin.
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: bad9c995f87a3a4dfc598989e68b8e2b047a7d5d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8ce484583ef5eddc8e6aee675715487c3bd4e974
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142313"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382469"
 ---
 # <a name="the-troubleshooting-fa-ledger-entries-extension"></a>KO-kirjausten laajennuksen vianetsintä
 Käytä vianetsinnän KO-kirjaustapahtumien laajennusta, kun haluat pyöristää käyttöomaisuustapahtumien poisto- ja hankintamäärät kokonaisluvuiksi. Voit esimerkiksi pyöristää arvon 30 000,44 30 000:ksi. Tyypillisiä pyöristysongelmien syitä ovat tietojen siirto, summien äkillinen kirjaaminen pääkirjanpitoon tai mukautukset, jotka olet tehnyt [!INCLUDE[prod_short](includes/prod_short.md)] -kohtaan.

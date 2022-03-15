@@ -3,7 +3,7 @@ title: Kustannusten kohdistaminen konsernikumppaneille | Microsoft Docs
 description: Tietoja siitä, miten asiakkaiden ja toimittajien ALV-asetukset ohjaavat ALV:n laskemista.
 services: project-madeira
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fc11979fb6e21feba85c883b83ca7a3dcc5d8772
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a4abd45046beb70376490dbd4209f33debf6b573
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137911"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382057"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Kustannusten kohdistaminen konsernikumppaneille
 Kun käytät konsernin kirjauksia asiakirjojen siirtoon konsernikumppanien välillä, ALV:hen liittyvät asetukset (pääasiassa liiketoiminnan ALV-kirjausryhmä), jotka on määritetty (konsernikumppaniin liittyville) asiakas- tai toimittajatileille, määrittävät, lasketaanko ALV ja miten se lasketaan ja rekisteröidään. Voit myös tehdä kustannusten jakoja suoraan ostotilauksesta kumppaniyrityksiin. Jos esimerkiksi rekisteröit ostolaskun ulkopuoliselle toimittajalle ja haluat jakaa osan kustannuksista tai kaikki kustannukset yhdelle tai useammalle konsernikumppanille.

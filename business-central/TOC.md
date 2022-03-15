@@ -88,13 +88,15 @@
 ##### [Rakenteen tiedot: Kirjausohjelman rakenne](design-details-posting-engine-structure.md)  
 
 ## Kokeile
+### [Rekisteröidy maksuttoman Dynamics 365 Business Central kokeiluversion käyttäjäksi](trial-signup.md)
+### [Dynamics 365 Business Central kokeiluversion usein kysytyt kysymykset](trial-faq.md)
 ### [Kokeilut ja tilaukset](across-preview.md)
 ### [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)
 ### [Itsepalvelun rekisteröitymisen vianmääritys](ui-troubleshoot-self-signup.md)
 ### [Kokeilujakson jatkaminen](admin-extend-trial.md)
 ### [Business Centralin poistaminen tai tilauksen peruuttaminen](admin-cancel.md)
 ## Osta
-### [Tilauksen käytön aloittaminen](across-preview.md#getting-started-with-a-subscription)
+### [Tilauksen käytön aloittaminen](across-preview.md#get-started-with-a-subscription)
 ### [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)
 
 ## Pikaoppaat
@@ -557,7 +559,7 @@
 #### [Nimiketapahtumien poistaminen ja uudelleenkohdistaminen](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Nimikepäiväkirjan kiinteästä kohdistuksesta aiheutuvien avointen nimiketapahtumien sulkeminen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### Kustannukset raportointi ja täsmäyttäminen pääkirjanpidon kanssa
-##### [Raporttikustannukset](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Raporttikustannukset](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)
 ##### [Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 ##### [Projektin edistymisen ja suorituskyvyn valvonta](projects-how-monitor-progress-performance.md)
 #### [Varaston kustannusten muuttaminen ja täsmäyttäminen pääkirjanpidon kanssa työjonon avulla](finance-adjust-reconcile-inventory-cost-job-queue.md)

@@ -1,7 +1,7 @@
 ---
 title: Kohdistuksen tila ja korjauksen tila | Microsoft Docs
 description: Lisätietoja huoltonimikkeiden korjauksen tilan ja niiden kohdistustapahtumien kohdistuksen tilan välisestä suhteesta.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b8cc2b6dafb5217d652f398b1fc03db6870a7e8f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad74f4cd5049943fc3006ea66ab377b519012892
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148276"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382581"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Huoltonimikkeen kohdistuksen tila ja korjauksen tila
 Huoltonimikkeiden korjauksen tilalla ja huoltonimikkeiden kohdistustapahtumien kohdistuksen tilalla on tietty yhteys Huoltohallinnossa. Kohdistuksen tila muuttuu silloin kun huoltonimikkeen korjauksen tila muutetaan **Valmiiksi** tai **Osittain huolletuksi** ja kun huoltotarjous muunnetaan huoltotilaukseksi. Huoltonimikkeen korjauksen tila muuttuu, kun peruutat huoltonimikkeen kohdistuksen tai kohdistat sen toiseen resurssiin. Voit tarkastella huoltonimikkeiden korjauksen tilaa **Huoltotehtävät** -sivulla ja voit päivittää korjauksen tilan **Korjauksen tilakoodi** -kentässä **Huoltonimikkeen työkirja** -sivulla. Voit tarkastella kohdistuksen tilaa **Tila**-kentässä **Resurssin kohdistukset** -sivulla.  
