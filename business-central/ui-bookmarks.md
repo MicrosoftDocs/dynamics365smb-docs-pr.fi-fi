@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 5cc5f6039a25161267127f40f4f3077725c5d0bc
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 5da6070b00d635cba1aa2cbd7bb282d226d96023
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334926"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521700"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Sivun tai raportin kirjanmerkin luominen roolikeskuksessa
 Voit lisätä kirjanmerkin kuvakkeella toimintolinkin, joka avaa sivun tai raportin roolikeskuksen siirtymisvalikosta. Kirjanmerkkien ansiosta voit nopeasti tavoittaa haluamasi sisällön tai liiketoimintatehtävän. Kirjanmerkki lisätään kohdesivulta tai raportista eli ruudusta, jonka haluat roolikeskuksen linkin avaavan.
@@ -83,7 +83,7 @@ Kun lisäät uuden toiminnon, kaikkia käännettyjä tekstejä, jotka olivat saa
 
 ## <a name="see-also"></a>Katso myös
 [Työtilan mukauttaminen](ui-personalization-user.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
 

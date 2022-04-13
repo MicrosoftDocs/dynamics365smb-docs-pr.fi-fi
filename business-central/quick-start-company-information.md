@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.date: 09/29/2021
+ms.search.form: 1,
+ms.date: 03/14/2022
 ms.author: edupont
-ms.openlocfilehash: beaca5bec31c0ba4877245cade5363dad21fe05a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bf7435f7d11e05cbe517208ffacd173a73ba1fd6
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133652"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417611"
 ---
 # <a name="company-information-quick-start"></a>Yritystietojen pika-aloitus
 
@@ -25,19 +26,14 @@ Voit syöttää kaikki tarvittavat tiedot **Yritystiedot**-sivulla, kun määrit
 ## <a name="to-set-up-company-information"></a>Yrityksen tietojen määrittäminen  
 
 1. Valitse ![Hammaspyörä-kuvake, joka avaa Asetukset-valikon.](media/ui-experience/settings_icon_small.png) -valikko ja valitse sitten **Yrityksen tiedot** -toiminto.
-2. Täytä tiedot pikavälilehtiin seuraavassa taulukossa kuvatulla tavalla.
+2. Täytä tiedot pikavälilehtiin seuraavassa taulukossa kuvatulla tavalla. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-    |Kenttä|Kuvaus|  
-    |-------------|---------------------------------------|  
-    |**Yleiset**|Syötä yrityksesi yleiset tiedot, mukaan lukien logo, koska kun asiakkaan saavat asiakirjat, esimerkiksi lähetät laskun, logo tulee näkyviin. |  
-    |**Tiedonvälitys**|Syötä yrityksen perusyhteystiedot, kuten puhelinnumero ja sähköpostiosoite.|  
-    |**Maksut**| Täytä tarvittavat pankkitiedot varmistaaksesi, että asiakkaasi voivat maksaa sinulle.|  
-    |**Toimitus**|Täytä tarvittavat toimitustiedot, jotta pystyt lähettämään ja vastaanottamaan tavaroita yritykselläsi.|  
-    |**Vero**|Sen mukaan, missä maassa/alueella asut, Vero-pikavälilehti voi olla käytettävissäsi. Jos se on saatavilla, täytä se.|  
+    [!INCLUDE [admin-company-info-fasttabs](includes/admin-company-info-fasttabs.md)]
 
 Kun olet täyttänyt tiedot, voit sulkea sivun.  
 
 ## <a name="see-also"></a>Katso myös  
 
+[Yrityksen tietojen yleiskatsaus](admin-company-information.md)  
+[Yrityksen tietojen määrittäminen Italiassa](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Business Centralin pika-aloitus](quick-start-business-central.md)  
-[Yrityksen tietojen määrittäminen](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

@@ -1,5 +1,5 @@
 ---
-title: Raporttien, eräajojen ja XMLportien käsitteleminen
+title: Suorita ja tulosta raportteja
 description: Tutustu, miten raportti lisätään työjonoon ja ajoitetaan käsiteltäväksi tiettynä päivänä ja tiettyyn kellonaikaan.
 author: jswymer
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 02/09/2022
+ms.date: 03/24/2022
 ms.author: jswymer
-ms.openlocfilehash: 9a5866db05b4ef78e751996f59ea56d9f4b75d27
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: fade19b2ecb4d2c17b5d5775074f2f715496a908
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322953"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512678"
 ---
-# <a name="working-with-reports-batch-jobs-and-xmlports"></a>Raporttien, eräajojen ja XMLportien käsitteleminen
+# <a name="run-and-print-reports"></a>Suorita ja tulosta raportteja
 
 Raportti kerää tietoja määritettyjen ehtosarjojen perusteella. Se järjestää ja esittää tiedot helposti luettavassa muodossa, jonka voit tulostaa tai tallentaa tiedostona. Sovelluksesta voi käyttää monenlaisia raportteja. Raporteissa on yleensä avattuna olevan sivun sisältöön liittyviä tietoja. Esimerkiksi **Asiakas**-sivun raportit koskevat 10 suurinta asiakasta, myyntitilastoja ja niin edelleen.
 
@@ -26,7 +26,7 @@ Eräajot ja XMLportit toimivat käytännössä samalla tavoin kuin raportit, mut
 > [!NOTE]
 > Tässä ohjeaiheessa viitataan pääsiassa raportteihin, mutta vastaavat tiedot koskevat myös erätöitä ja XMLporteja.
 
-## <a name="getting-started"></a>Aloitusopas
+## <a name="get-started"></a>Aloitus
 
 Löydät raportteja valittujen sivujen **Raportit**-välilehdessä tai käytä ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") , jos haluat etsiä raportteja nimen mukaan.
 
@@ -43,7 +43,7 @@ Useimmat pyyntösivut sisältävät **Käytä oletusarvoja** -kentän. Tämän k
 >[!NOTE]
 > Järjestelmänvalvoja määrittää ja hallinnoi tavallisesti esimääritettyjä asetuksia. Lisätietoja on kohdassa [Raporttien ja erätöiden tallennettujen asetusten hallinta](reports-saving-reusing-settings.md).
 
-## <a name="specifying-the-data-to-include-in-reports"></a>Raportteihin sisällytettävien tietojen määrittäminen
+## <a name="specifying-the-data-to-include-in-a-report"></a>Raportteihin sisällytettävien tietojen määrittäminen
 
 Käytä **vaihtoehtojen** ja **suodattimien** alla olevia kenttiä muuttaaksesi raporttiin haluamasi tietojen rajoja. Raportin suodattimet määritetään käytännössä samalla tavoin kuin luetteloiden suodattimet. Lisätietoja on kohdassa [Suodattaminen](ui-enter-criteria-filters.md#filtering).
 
@@ -63,7 +63,7 @@ Voit esikatsella raporttia valitsemalla raportin pyyntösivun **Esikatselu**- ta
 > [!NOTE]
 > Jos käytät Business Centralin vuoden 2020 1. julkaisuaaltoa tai sitä vanhempaa versiota, saatavilla on vain **Esikatselu**-painike, joka sulkee pyyntösivun esikatselussa, kuten **Esikatsele ja sulje** -toiminnossa on kuvattu.
 
-### <a name="working-with-the-preview"></a>Esiversion käyttäminen
+### <a name="work-with-the-preview"></a>Esiversion käyttäminen
 
 Raportin esiversion valikkorivin avulla voi:
 
@@ -82,11 +82,13 @@ Raportin esiversion valikkorivin avulla voi:
 
 ## <a name="saving-a-report-to-a-file"></a>Raportin tallentaminen tiedostoon
 
-Voit tallentaa raportin PDF-tiedostona, Microsoft Word -asiakirjana tai Microsoft Excel -työkirjana valitsemalla **Lähetä kohteeseen** -painikkeen ja tekemällä valinnan.
+Voit tallentaa raportin PDF-tiedostona, Microsoft Word -asiakirjana, Microsoft Excel -työkirjana tai XML-asiakirjana valitsemalla **Lähetä kohteeseen** -painikkeen ja tekemällä valinnan.
 
-### <a name="about-sending-to-excel"></a>Tietoja Exceliin lähettämisestä
-
-Voit käsitellä [!INCLUDE [prod_short](includes/prod_short.md)] -tietoja Excelissä tarkempia analyyseja varten. Lisätietoja [Raporttitietojen analysointi Excelissä](report-analyze-excel.md).  
+> [!TIP]
+> **Microsoft Excel -asiakirja (vain tiedot)**- ja **XML-asiakirja**-vaihtoehdot ovat enimmäkseen edistyneitä tarkoituksia varten. Näitä asetuksia käytetään tavallisesti yksityiskohtaisten tietojen analysoinnin tekemiseen. Lisätietoja on kohdassa [Raporttitietojen analysointi Excelillä ja XML:llä](report-analyze-excel.md).
+>
+> Voit myös käyttää **Microsoft Excel -asiakirja (vain tiedot)** -kohtaa, kun haluat luoda uusia Excelin asetteluita tietylle raportille. Lisätietoja on kohdassa [Excel-asettelujen käyttö](ui-excel-report-layouts.md).  
+  
 <!--
 ### About sending to Word
 
@@ -97,17 +99,19 @@ Use the **Microsoft Word Document** option to generate a report as a Word docume
 
 -->
 
-## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Suoritettavan raportin aikatauluttaminen
+## <a name="scheduling-a-report-to-run-later"></a><a name="ScheduleReport"></a> Suoritettavan raportin aikatauluttaminen
 
 Voit aikatauluttaa raportin tai erätyön ajon tietylle päivämäärälle ja kellonajalle. Aikataulutetut raportit ja erätyöt syötetään työjonoon ja käsitellään aikataulutettuna aikana vastaavasti kuin muut työt. **Aikataulu**-asetus valitaan sen jälkeen, kun **Lähetä kohteeseen** -painike on valittu, minkä jälkeen annetaan tiedot, kuten tulostin sekä päivämäärä ja kellonaika. Raportti lisätään tämän jälkeen työjonoon ja suoritetaan määritettynä ajankohtana. Kun raportti on käsitelty, kohde poistetaan työjonosta. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).  
 
-Kun raportti aikataulutetaan suoritettavaksi, se voidaan määrittää suoritettavaksi joka torstai määrittämällä esimerkiksi **Seuraavan suorituspäivän kaava** -kentän arvoksi *D4*. Lisätietoja on kohdassa [Päivämäärän kaavojen käyttäminen](ui-enter-date-ranges.md#using-date-formulas).  
+Kun raportti aikataulutetaan suoritettavaksi, se voidaan määrittää suoritettavaksi joka torstai määrittämällä esimerkiksi **Seuraavan suorituspäivän kaava** -kentän arvoksi *D4*. Lisätietoja on kohdassa [Päivämäärän kaavojen käyttäminen](ui-enter-date-ranges.md#use-date-formulas).  
 
 Voit tallentaa raportin tiedostoon (kuten Excel-, Word- tai PDF-tiedostoon), tulostaa sen tai vain luoda raportin. Jos haluat tallentaa raportin tiedostoon, käsitelty raportti lähetetään roolikeskuksen **Saapuneet raportit** -alueelle, jossa voit tarkastella sitä.  
 
 ## <a name="printing-a-report"></a><a name="PrintReport"></a>Raportin tulostaminen
 
 Tulosta raportti, valitse **Tulosta**-painike pyyntösivulla tai **Esikatselu**-sivun valikkorivillä.
+
+Kun raportti käyttää Excel-asettelua, et näe **Tulostin**-kenttää, **Tulosta**-painiketta tai **Esikatselu**-painiketta. Sen sijaan on olemassa **Lataus**-painike. Jos haluat tulostaa, valitse **Lataa** ja avaa sitten ladattu tiedosto Excelissä ja tulosta sieltä.
 
 ### <a name="printer"></a><a name="Printer"></a>Tulostin
 
@@ -119,15 +123,15 @@ Tulosta raportti, valitse **Tulosta**-painike pyyntösivulla tai **Esikatselu**-
 > [!TIP]
 > Oletustulostimeksi valittu tulostin määritetään **Tulostimen valinnat** -sivulla. Lisätietoja oletustulostimen vaihtamisesta on kohdassa [Tulostimien ja niiden tulostamien raporttien valitseminen](ui-specify-printer-selection-reports.md#default).
 
-### <a name="printing-reports-in-thai"></a>Thainkielisten raporttien tulostaminen
+### <a name="printing-reports-in-thai"></a>Raporttien tulostaminen Thain kielelle
 
 Koskien erityisesti [!INCLUDE[prod_short](includes/prod_short.md)]in Thaimaalaista versioita, **Tulosta** painike ei voi tulostaa raportteja oikein, johtuen tulostettavien PDF tiedostojen palvelun rajoituksista. Sen sijaan, raportin voi avata Wordilla, ja tallentaa sen tulostettavaan PDF muotoon.  
 
 Voit myös pyytää järjestelmänvalvojaa luomaan Wordin raporttiasettelun käytetyimmille raporteillesi. Lisätietoja on kohdassa [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md).  
 
-## <a name="changing-report-layouts"></a>Raporttiasetteluiden muuttaminen
+## <a name="switching-the-report-layout"></a>Raportin asettelun vaihtaminen
 
-Raportin asettelu määrittää, mitä raportissa näytetään, miten se on järjestetty ja mitä tyyliä siinä käytetään. Lisätietoja toiseen asetteluun vaihtamisesta on kohdassa [Nykyisen raporttiasettelun muuttaminen](ui-how-change-layout-currently-used-report.md). Jos puolestaan haluat mukauttaa omaa raporttiasettelua, lisätietoja on kohdassa [Mukautetun raporttiasettelun luominen ja muokkaaminen](ui-how-create-custom-report-layout.md).
+Raportin asettelu määrittää, mitä raportissa näytetään, miten se on järjestetty ja mitä tyyliä siinä käytetään. Lisätietoja toiseen asetteluun vaihtamisesta on kohdassa [Raportin käyttämän asettelun määrittäminen](ui-set-report-layout.md). Jos puolestaan haluat mukauttaa omaa raporttiasettelua, lisätietoja on kohdassa [Aloita asettelujen luominen](ui-get-started-layouts.md).
 
 ## <a name="advanced-options"></a>Lisäasetukset
 
@@ -147,7 +151,7 @@ Tulostimen resursseja hallitaan luodun raportin **lisäasetukset**-kohdan kentis
 [Tulostimien määrittäminen](ui-specify-printer-selection-reports.md)  
 [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md)  
 [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

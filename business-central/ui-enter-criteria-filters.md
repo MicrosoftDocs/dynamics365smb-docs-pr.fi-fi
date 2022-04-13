@@ -10,12 +10,12 @@ ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9f5eda0056c4c449a46f9f04064c3f2764087007
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: b59e6fc824f9c386c12030163f51ef09622f74a0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335005"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519594"
 ---
 # <a name="sorting-searching-and-filtering"></a>Lajitteleminen, hakeminen ja suodattaminen
 
@@ -171,7 +171,10 @@ Kun syötät kriteerejä, voit käyttää kaikkia numeroita ja kirjaimia, joita 
 |`P8..`|Tiedot kirjanpitojaksosta 8 ja siitä eteenpäin|  
 |`..23`|Alkupäivämäärästä lähtien päivään 23 nykyistä kuukautta nykyistä vuotta klo 23:59:59|  
 |`23..`|Päivästä 23 nykyistä kuukautta nykyistä vuotta klo 00:00:00 ajan loppuun asti|  
-|`22..23`|Päivästä 22 nykyistä kuukautta nykyistä vuotta klo 0:00:00 päivään 23 nykyistä kuukautta nykyistä vuotta klo 23:59:59|  
+|`22..23`|Päivästä 22 nykyistä kuukautta nykyistä vuotta klo 0:00:00 päivään 23 nykyistä kuukautta nykyistä vuotta klo 23:59:59| 
+
+> [!TIP]
+> Jos käytät numeronäppäimistöä, desimaalierotin voi tuottaa jonkin muun merkin kuin pisteen (.). Voit siirtyä pisteeseen painamalla numeronäppäimistön Alt- ja desimaalierotin-näppäimiä. Kun haluat vaihtaa takaisin, paina "Alt- + desimaalierotin-näppäimiä uudelleen. Lisätietoja on kohdassa [Numeeristen näppäimistöjen käyttämän desimaalierottimen asettaminen](ui-enter-data.md#decimal).
 
 #### <a name="124-eitheror"></a>(&#124;) Joko/tai
 
@@ -307,7 +310,7 @@ Käytä `%myvendors`-tunnusta toimittajan **Nro**-kentässä, kun haluat näytt�
 
 [Usein kysyttyjen kysymysten haku ja suodatus](ui-search-filter-faq.yml)  
 [Luettelonäkymien tallentaminen ja mukauttaminen](ui-views.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

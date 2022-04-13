@@ -7,18 +7,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases
-ms.search.form: 118, 130, 142, 459, 460, 525
+ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7543c60455794d9f004ea11b2baccf81264b9886
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ea32a78ec191d335fb772a7040ed81db6753b196
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382097"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417517"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Myynnin ja ostojen ALV:n käsitteleminen
-Jos maasi tai alueesi edellyttää arvonlisäveron (ALV:n) laskemista myynti- ja ostotapahtumille siten, että voit ilmoittaa summat veroviranomaiselle, voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in laskemaan ALV:n automaattisesti myynti- ja ostoasiakirjoissa. Lisätietoja on kohdassa [Arvolisäveron laskelmien ja kirjausmenetelmien määrittäminen](finance-setup-vat.md).
+Jos maasi tai alueesi edellyttää, että lasket ja raportoit arvonlisäveron (ALV) myynti- ja ostotransaktioista, voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in laskemaan ALV:n. Lisätietoja on kohdassa [Arvolisäveron laskelmien ja kirjausmenetelmien määrittäminen](finance-setup-vat.md).
 
 Jotkin arvolisäveroon liittyvät tehtävät voidaan tehdä manuaalisesti. Kirjattu summa on ehkä oikaistava, jos havaitset, että toimittaja käyttää toista pyöristysmenetelmää.  
 
@@ -26,31 +26,44 @@ Jotkin arvolisäveroon liittyvät tehtävät voidaan tehdä manuaalisesti. Kirja
 > Voit antaa [!INCLUDE[prod_short](includes/prod_short.md)]in tarkistaa ALV-rekisterinumerot ja muut yritystiedot, kun luot tai päivität asiakirjoja. Lisätietoja on ohje aiheessa [ALV-rekisterinumeroiden tarkistaminen](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>ALV-summien laskeminen ja näyttäminen myynti- ja ostoasiakirjoissa  
-Voit laskea ja näyttää myynti- ja ostoasiakirjojen ALV-summat eri tavoin kulloisenkin asiakas- tai toimittajatyypin mukaan. Voit myös korvata tietylle tapahtumalle lasketun ALV-summan toimittajan laskemalla ALV-summalla.  
+Kun valitset nimikenumeron **Nro**-kentässä kenttä myynti- tai ostoasiakirjassa, [!INCLUDE[prod_short](includes/prod_short.md)] täyttää **Yksikköhinta**- ja **Rivisumma**-kentät. Yksikköhinta saadaan joko **Nimike**-kortista tai nimikkeelle ja asiakkaalle sallituista nimikehinnoista. [!INCLUDE[prod_short](includes/prod_short.md)] laskee rivisumman, kun lisäät määrän riville.  
 
-### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Myyntiasiakirjojen yksikköhinta ja rivisumma, joka sisältää ALV:n tai ei sisällä sitä  
-Kun valitset nimikenumeron **Nro**-kentässä myyntiasiakirjassa, [!INCLUDE[prod_short](includes/prod_short.md)] täyttää **Yksikköhinta**-kentän. Yksikköhinta saadaan joko **Nimike**-kortista tai nimikkeelle ja asiakkaalle sallituista nimikehinnoista. [!INCLUDE[prod_short](includes/prod_short.md)] laskee **rivisumman**, kun lisäät määrän riville.  
+Jos haluat, että yksikköhinnat ja rivisummat sisältävät ALV:n (jos myyt esimerkiksi vähittäismyynnissä oleville kuluttajille), valitse asiakirjassa **Hinnat sisältävät ALV:n** -valintaruutu. Lisätietoja on kohdassa [ALV:n sisällyttäminen ja poissulkeminen hintoihin ja rivisummiin](#including-or-excluding-vat-in-prices-and-line-amounts). 
 
-Jos myyt kuluttajille, haluat ehkä sisällyttää ALV:n myyntiasiakirjoihin. Valitse sitä varten asiakirjassa **Hinnat sisältävät ALV:n** -valintaruudun.  
+Voit laskea ja näyttää myynti- ja ostoasiakirjojen ALV-summat eri tavoin kulloisenkin asiakas- tai toimittajatyypin mukaan. Voit myös muuttaa tietylle tapahtumalle lasketun ALV-summan manuaalisesti, esimerkiksi siten, että toimittajan laskemaa ALV-summaa käytetään.
 
-### <a name="including-or-excluding-vat-on-prices"></a>ALV:n sisällyttäminen hintoihin ja jättäminen pois
-Jos **Hinnat sisältävät ALV:n** -valintaruutu valintaan myyntiasiakirjassa, **Yksikköhinta**- ja **Rivisumma**-kentät päivitetään sisältämään ALV, mikä näkyy myös kenttien nimissä. ALV ei sisälly näihin kenttiin oletusarvoisesti.  
+### <a name="including-or-excluding-vat-in-prices-and-line-amounts"></a>ALV:n sisällyttäminen ja poissulkeminen hintoihin ja rivisummiin
+Jos **Hinnat sisältävät ALV:n** -valintaruutu valitaan myyntiasiakirjassa, **Yksikköhinta**- ja **Rivisumma**-kentät sisältävät ALV:n. ALV ei sisälly näiden kenttien arvoihin oletusarvoisesti. Kenttien nimet kuvaavat, sisältyykö hintoihin ALV.  
 
-Jos kenttää ei valita, sovellus täyttää **Yksikköhinta**- ja **Rivisummat**-kentät ilman ALV:tä, mikä näkyy kenttien nimissä.  
-
-Voit määrittää **Hinnat sisältävät ALV:n** -valinnan oletusarvoksi kaikille tietyn asiakkaan myyntiasiakirjoille **asiakkaan** kortin **Hinnat sisältävät ALV:n** -kentässä. Voit myös määrittää, sisältävätkö nimikehinnat ALV:n. Normaalisti nimikkeen kortin sisältämät nimikehinnat eivät sisällä ALV:tä. Sovellus määrittää **Nimike**-kortin **Hinnat sisältävät ALV:n** -kentän perusteella yksikköhinnan myyntiasiakirjoja varten.  
+Voit määrittää **Hinnat sisältävät ALV:n** -valinnan oletusarvoksi kaikille tietyn asiakkaan myyntiasiakirjoille **asiakkaan** kortin **Hinnat sisältävät ALV:n** -kentässä. Voit myös määrittää, sisältävätkö nimikehinnat ALV:n. Yleensä nimikekortin hinnat eivät sisällä ALV:tä. 
 
 Seuraavassa taulukossa on yleiskuvaus sovelluksen tavasta laskea yksikköhinnat myyntiasiakirjoja varten silloin, kun hintoja ei ole määritetty **Myyntihinnat**-sivulla:  
 
-|**Hinta sisältää ALV:n -kenttä nimikkeen kortissa**|**Hinnat sisältävät ALV:n -kenttä myyntiotsikossa**|**Suoritettava toiminto**|  
+|**Hinta sisältää ALV:n -kenttä nimikkeen kortissa**|**Hinnat sisältävät ALV:n -kenttä**|**Suoritettava toiminto**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
-|Ei valintamerkkiä|Ei valintamerkkiä|Nimikkeen kortin **Yksikköhinta** kopioidaan myyntirivien **Yksikköhinta Ilman ALV** -kenttään.|  
-|Ei valintamerkkiä|Valintamerkki|Sovellus laskee yksikkökohtaisen ALV-summan ja lisää sen nimikekortin **Yksikköhinta**-kenttään. Tämä yksikköhinnan kokonaissumma lisätään sitten myyntirivien **Yksikköhinta Sis. ALV** -kenttään.|  
-|Valintamerkki|Ei valintamerkkiä|Sovellus laskee nimikekortin **Yksikköhinnan** Liiketoim. ALV-kirjryh. (Hinta) ja Tuotteen ALV-kirjausryhmä -yhdistelmään liittyvän ALV-%:n avulla. Nimikkeen kortin **Yksikköhinta** lisätään sitten ALV-summalla vähennettynä myyntirivien **Yksikköhinta Ilman ALV** -kenttään.|  
-|Valintamerkki|Valintamerkki|Nimikkeen kortin **Yksikköhinta** kopioidaan myyntirivien **Yksikköhinta Sis. ALV** -kenttään.|
+|Ei käytössä|Ei käytössä|Nimikkeen kortin **Yksikköhinta** kopioidaan myyntirivien **Yksikköhinta Ilman ALV** -kenttään.|  
+|Ei käytössä|Käytössä|Sovellus laskee yksikkökohtaisen ALV-summan ja lisää sen nimikekortin **Yksikköhinta**-kenttään. Tämä yksikköhinnan kokonaissumma lisätään sitten myyntirivien **Yksikköhinta Sis. ALV** -kenttään.|  
+|Käytössä|Ei käytössä|Sovellus laskee **nimikekortin** **Yksikköhinnan** Liiketoim. ALV-kirjryh. (Hinta) ja Tuotteen ALV-kirjausryhmä -yhdistelmään liittyvän ALV-prosentin avulla. Nimikkeen kortin **Yksikköhinta** lisätään sitten ALV-summalla vähennettynä myyntirivien **Yksikköhinta Ilman ALV** -kenttään. Lisätietoja on kohdassa [Liiketoiminnan ALV-kirjausryhmien ja asiakashintaryhmien käyttäminen](finance-work-with-vat.md#using-vat-business-posting-groups-and-customer-price-groups).|  
+|Käytössä|Käytössä|Nimikkeen kortin **Yksikköhinta** kopioidaan myyntirivien **Yksikköhinta Sis. ALV** -kenttään.|
+
+#### <a name="using-vat-business-posting-groups-and-customer-price-groups"></a>Liiketoiminnan ALV-kirjausryhmien ja asiakashintaryhmien käyttäminen 
+Jos haluat hintojen sisältävän ALV:n, voit käyttää liiketoiminnan ALV-kirjausryhmiä, kun haluat laskea summan ryhmän ALV-kirjausasetusten perusteella. Lisätietoja on kohdassa [Liiketoiminnan ALV-kirjausryhmien määrittäminen](finance-setup-vat.md#set-up-vat-business-posting-groups).
+
+Sen mukaan, mitä haluat tehdä, voit liittää liiketoiminnan ALV-kirjausryhmän asiakkaille tai myyntiasiakirjoihin seuraavilla tavoilla:
+
+* Jos haluat käyttää samaa ALV-prosenttia kaikille asiakkaille, voit valita ryhmän **Myynnin ja saamisten asetukset** -sivun **Liiketoiminnan ALV-kirjaus ryhmä (hinta)** -kentässä.
+* Jos haluat käyttää jotain ALV-prosenttia tietylle asiakkaalle, voit valita ryhmän **Asiakaskortti** -sivun **Liiketoiminnan ALV-kirjaus ryhmä (hinta)** -kentässä. 
+* Jos haluat käyttää jotain ALV-prosenttia tietylle asiakasryhmälle, voit valita ryhmän **Asiakashintaryhmä**-sivun **Liiketoiminnan ALV-kirjaus ryhmä (hinta)** -kentässä. Tämä on hyödyllistä esimerkiksi silloin, kun haluat, että hinta koskee kaikkia asiakkaita tietyllä maantieteellisellä alueella tai tietyllä toimialalla.
+* Kaikissa myyntiasiakirjoissa **Liiketoiminnan ALV-kirjausryhmä** -kentässä. Ryhmälle määritettyä ALV-summaa käytetään vain asiakirjalle, jota parhaillaan käsittelet.
+
+> [!NOTE]
+> Jos et määrittele **Liiketoiminnan ALV-kirjaus ryhmä (hinta)** -kentässä ryhmää, ALV ei sisälly hintoihin.
+
+#### <a name="examples"></a>Esimerkkejä
+Sellaiset tekijät kuin maa tai alue, joissa myyt, tai toimialan tyyppi, voivat vaikuttaa ALV-summaan, joka sinun täytyy ottaa huomioon. Esimerkiksi ravintola voi veloittaa 6 %:n ALV:n aterioista, joita syödään omassa talossa, ja 17 %:n ALV:n noutoruuasta. Tämän saavuttamiseksi luodaan Liiketoiminnan ALV-kirjausryhmä (hinta) talossa ruokailua varten ja toinen noutoa varten.
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Myynti- ja ostoasiakirjojen ALV-summien oikaisu manuaalisesti  
-Voit oikaista kirjattuja ALV-tapahtumia. Näin voit muuttaa myynnin tai oston ALV-kokonaissummaa muuttamatta ALV-perustetta. Sinun ei ehkä tarvitse tehdä sitä, jos saat esimerkiksi toimittajalta laskun, jossa ALV on laskettu väärin.  
+Voit tehdä muutoksia kirjattuihin ALV-tapahtumiin, jotta voit muuttaa ostojen ja myyntien ALV-kokonaissummia muuttamatta ALV-perustetta. Jos vastaanotat esimerkiksi toimittajalta laskun, jonka alv-summa on virheellinen.  
 
 Vaikka olet ehkä määrittänyt vähintään yhden yhdistelmän tuonnin ALV:n käsittelyä varten, sinun on määritettävä vähintään yksi tuotteen ALV-kirjausryhmä. Voit antaa sille nimeksi esimerkiksi **KORJAUS**, kun sitä käytetään korjaamista varten, jos et voi käyttää samaa pääkirjanpidon tiliä **Ostojen ALV-tili** -kentässä ALV:in kirjausasetusten rivillä. Lisätietoja on kohdassa [Arvolisäveron laskelmien ja kirjausmenetelmien määrittäminen](finance-setup-vat.md).
 

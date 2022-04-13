@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 841d57ec0e5897ee0395e498ed24dc19b4fcbaea
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e142f8aef14ea82d67de0c51a996e4f6a6b43dbf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143919"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513172"
 ---
-# <a name="set-up-company-configuration"></a>Määritä yrityksen konfigurointi
+# <a name="set-up-company-configuration-with-rapidstart-services"></a>Määritä yrityksen konfigurointi RapidStart Servicesin avulla
+
 Toteutus alkaa Microsoft-kumppanin kanssa. Kumppanina olet vastuussa määritystietojen tarkistamisesta ja helposti asiakkaan käytettävissä olevan paketin luomisesta. Ennen kuin luot uuden yrityksen [!INCLUDE [prod_short](includes/prod_short.md)] online- tai on-premises-ympäristössä, suunnittele, miten se määritetään. Ota huomioon perusasennuksen tiedot ja tietotyypit, joita [!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisusi edellyttää. Yhdistä kaikki tämä tieto määrityspakettien tietoihin.
 
 RapidStart Services sisältää myös työkalut, joiden avulla voi siirtää vanhat tiedot, kuten asiakkaiden ja toimittajien tiedot.  

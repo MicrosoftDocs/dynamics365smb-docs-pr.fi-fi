@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 5704, 5700, 5702, 5701
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 92be2a9cf0a3ef176d4f3fe1c51ec5543c30bca5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 320a5315f569deeec8c86ce8246497f171fbb853
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131533"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517392"
 ---
 # <a name="set-up-stockkeeping-units"></a>Varastointiyksiköiden määrittäminen
 Voit tallentaa tiettyä sijaintia ja/tai varianttikoodia koskevat nimikkeen tiedot varastointiyksiköihin.  
@@ -46,7 +46,7 @@ Käytä **Luo varastointiyksikkö** -eräajoa, kun haluat luoda nimikkeelle usei
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

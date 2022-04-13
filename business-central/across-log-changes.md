@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: user log, user activity, tracking
 ms.search.form: 592, 593, 594, 595, 710, 1366, 1367, 1368, 1369
-ms.date: 04/01/2021
+ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: c04be33b2c84cd89872765a3781ad2c553ced442
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0fda7235af0868a87ac4d76afa3f1030cdf83600
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138776"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523239"
 ---
 # <a name="auditing-changes-in-business-central"></a>Business Centralin tilintarkastuksen muutokset
 
@@ -40,8 +40,7 @@ Muutosloki otetaan pois käytöstä, kun [!INCLUDE [prod_short](includes/prod_sh
 > * Käyttäjä valitsi toisen yrityksen tai roolikeskuksen.
 > * Käyttäjä kirjautui ensin ulos ja sitten takaisin sisään.
 
-### <a name="working-with-the-change-log"></a>Muutoslokin käyttäminen
-
+### <a name="work-with-the-change-log"></a>Muutoslokin käyttäminen
 Voit aktivoida muutoslokin ja poistaa sen aktivoinnin **Muutoslokin asetukset** -sivulla. Kun käyttäjä aktivoi muutoslokin tai poistaa sen aktivoinnin, tämä aktiviteetti kirjataan, joten näet aina, kuka käyttäjistä poisti muutoslokin aktivoinnin tai aktivoi sen uudelleen.
 
 Jos valitset **Muutoslokin asetukset** -sivulla **Taulukot**-toiminnon, voit määrittää sekä taulukot, joiden muutoksia seurataan, että seurattavat muutokset. [!INCLUDE[prod_short](includes/prod_short.md)] seuraa myös useita järjestelmätaulukoita.
@@ -55,8 +54,7 @@ Kun olet määrittänyt muutoslokin, aktivoinut sen ja muuttanut tietoja, voit t
 
 Joillakin [!INCLUDE [prod_short](includes/prod_short.md)]in sivuilla voi tarkastella toimintalokeja, joissa näkyy [!INCLUDE [prod_short](includes/prod_short.md)]ista vietävien ja sovellukseen tuotavien tiedostojen tila ja mahdolliset virheet.  
 
-### <a name="working-with-activity-logs"></a>Toimintalokien käyttäminen
-
+### <a name="work-with-activity-logs"></a>Toimintalokien käyttäminen
 Tiedot näytetään **Toimintaloki**-sivulla sen kontekstin mukaan, josta ne avataan. Voit esimerkiksi avata sivun **Document Exchange -palvelun asetukset**-, **Saapuva asiakirja**-, **Kirjattu myyntilasku**- ja **Kirjattu myyntihyvityslasku** -sivuilta. Voit tyhjentää lokitapahtumaluettelon tai poistaa vain yli seitsemän päivää vanhemmat tapahtumat.  
 
 ## <a name="monitoring-sensitive-fields"></a>Arkaluonteisten kenttien valvonta
@@ -82,7 +80,7 @@ Voit hallita kentän seurannan asetuksia, kuten sen, lähetetäänkö sähköpos
 > [!NOTE]
 > Kun olet lisännyt yhden tai useamman kentän ja käynnistät seurannan, sinun on kirjauduttava ulos [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmasta ja kirjautua uudelleen sisään, jotta voit ottaa asetukset käyttöön.
 
-### <a name="working-with-field-monitoring"></a>Kentän seurannan käsitteleminen
+### <a name="work-with-field-monitoring"></a>Kentän seurannan käsitteleminen
 
 Tarkkailtujen kenttien kaikkien muutettujen arvojen tapahtumat ovat käytettävissä **Tarkkailtavat kentät-lokin tapahtumat** -sivulla. Merkinnät sisältävät esimerkiksi seuraavat tiedot:
 
@@ -109,7 +107,7 @@ Voit luoda säilytyskäytäntöjä, jotka poistavat tarpeettomia tietoja lokeist
 [Lajitteleminen, hakeminen ja suodattaminen](ui-enter-criteria-filters.md)  
 [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)  
 [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md)    
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Määritä säilytyskäytännöt](admin-data-retention-policies.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

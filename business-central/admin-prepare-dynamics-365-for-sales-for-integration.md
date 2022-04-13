@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: addc48ca52ea27ee7c63b8f8c1b44af8a2f1eb63
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b4fb329c076cab03b6ea5ccc78813ad57ae29db3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383103"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517028"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Dynamics 365 Sales -integrointi
 
@@ -80,6 +80,7 @@ Syötä yllä olevien asetusten lisäksi seuraavat asetukset [!INCLUDE[crm_md](i
 | **Myyntitilauksen integrointi on käytössä** | Antaa käyttäjille mahdollisuuden lähettää myyntitilauksia ja aktivoituja tarjouksia [!INCLUDE[crm_md](includes/crm_md.md)]issa sekä tarkastella ja käsitellä niitä sitten [!INCLUDE[prod_short](includes/prod_short.md)]issa. Tämä integroi prosessin [!INCLUDE[crm_md](includes/crm_md.md)]:ssä. Lisätietoja on kohdassa [Myyntitilauksen käsittelyn integroinnin käyttöönotto](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
 | **Myyntitilausten automaattinen luominen** | Luo myyntitilaus [!INCLUDE[prod_short](includes/prod_short.md)]issa, kun käyttäjä luo ja lähettää sellaisen [!INCLUDE[crm_md](includes/crm_md.md)]issa. |
 | **Käsittele myyntitarjoukset automaattisesti** | Käsittele myyntitarjous [!INCLUDE[prod_short](includes/prod_short.md)]issa, kun käyttäjä luo ja aktivoi sellaisen [!INCLUDE[crm_md](includes/crm_md.md)]issa. Lisätietoja on kohdassa [Myyntitarjoustietojen käsittely](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
+|**Myyntitilausten kaksisuuntainen synkronointi**|Synkronoi myyntitilaukset molempiin suuntiin. Jos asiakas esimerkiksi muuttaa mieltään tuotteesta tai määrästä, jonka he ovat tilanneet [!INCLUDE[crm_md](includes/crm_md.md)]:ssä, voit käsitellä muutoksen [!INCLUDE[prod_short](includes/prod_short.md)]issa arkistoimalla myyntiasiakirjan ja luomalla uuden. Sama pätee muutoksiin [!INCLUDE[prod_short](includes/prod_short.md)]issa. Esimerkiksi silloin, kun hinnat, verosummat tai oletetut toimituspäivämäärät muuttuvat, muutokset synkronoidaan automaattisesti [!INCLUDE[crm_md](includes/crm_md.md)]:ään. Tämä auttaa pitämään myyjät ajan tasalla uusimmista muutoksista sekä tarjousten ja tilausten tilasta.|
 
 <!--
 ### User Account Settings
@@ -104,7 +105,7 @@ Seuraavassa taulukossa on luettelo [!INCLUDE[prod_short](includes/prod_short.md)
 | Mahdollisuus | Mahdollisuus | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[prod_short](includes/cds_long_md.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
 | Myyntilaskun otsikko | Lasku | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
 | Myyntilaskurivi | Laskutustuote | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] |  |
-| Myyntitilauksen otsikko | Myyntitilaus | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] | [!INCLUDE[prod_short](includes/prod_short.md)] Myynnin Ylätunnuksen suodatin: **Dokumenttityyppi** on Järjestys, **Tila** on Vapautettu. |
+| Myyntitilauksen otsikko | Myyntitilaus | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] <br><br> Voit synkronoida molempiin suuntiin määrittämällä **Myyntitilausten kaksisuuntaisen synkronoinnin** -asetukset **Dynamics 365 -yhteyden asetus** -sivulla.| [!INCLUDE[prod_short](includes/prod_short.md)] Myynnin Ylätunnuksen suodatin: **Dokumenttityyppi** on Järjestys, **Tila** on Vapautettu. |
 | Myyntitilauksen huomautukset | Myyntitilauksen huomautukset | [!INCLUDE[prod_short](includes/prod_short.md)] -> [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] -> [!INCLUDE[prod_short](includes/prod_short.md)] |  |
 
 > [!NOTE]

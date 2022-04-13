@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ec39dfd6a8b9c209060fbd5d17ba429c56a6f92f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6ff238b213de72210908c89eae1da180a1a10fb1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136476"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519301"
 ---
 # <a name="enable-workflows"></a>Työnkulkujen ottaminen käyttöön
 Kun olet luonut työnkulun ja olet varma, että se on valmis, työnkulku on otettava käyttöön.  
@@ -31,7 +31,7 @@ Kun olet luonut työnkulun ja olet varma, että se on valmis, työnkulku on otet
  [Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen](across-how-to-view-archived-workflow-step-instances.md)   
  [Työnkulkujen poistaminen](across-how-to-delete-workflows.md)   
  [Työnkulkujen määrittäminen](across-set-up-workflows.md)   
- [Työnkulkujen käyttäminen](across-use-workflows.md)   
+ [Käytä työnkulkuja](across-use-workflows.md)   
  [Vaihekuvaus: Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Työnkulku](across-workflow.md)   
 

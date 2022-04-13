@@ -10,12 +10,12 @@ ms.search.keywords: policy, coverage
 ms.search.form: 5607, 5648, 5644, 5651
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a97b9a8d0ba436ff43db764ad10b64a4ce151180
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1378a3090db4bfaa958a371c31416c98f887e73e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147880"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511025"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Käyttöomaisuuserän määrittäminen
 Voit hallita käyttöomaisuuden vakuutuksen kattavuutta, kun määrität ensin joitakin sopimusta koskevia yleisiä vakuutustietoja sekä vakuutuskortin.
@@ -60,7 +60,7 @@ Vakuutuspäiväkirjan mallin alla voidaan määrittää eriä. Päiväkirjaerän
 [Käyttöomaisuus](fa-manage.md)  
 [Rahoitus](finance.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

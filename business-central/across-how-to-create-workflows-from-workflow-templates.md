@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d429b5acce6520b86a1272620379265fb01b1462
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 038494ebd8442c20239bc2426754389117ed95c9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147266"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521330"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Työnkulkujen luominen työnkulkumalleista
 Voit säästää aikaa uusien työnkulkujen luomisessa luomalla työnkulut työnkulkumalleista.  
@@ -42,7 +42,7 @@ Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riv
  [Työnkulkujen poistaminen](across-how-to-delete-workflows.md)   
  [Vaihekuvaus: Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Työnkulkujen määrittäminen](across-set-up-workflows.md)   
- [Työnkulkujen käyttäminen](across-use-workflows.md)   
+ [Käytä työnkulkuja](across-use-workflows.md)   
  [Työnkulku](across-workflow.md)   
 
 

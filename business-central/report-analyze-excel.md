@@ -1,30 +1,32 @@
 ---
-title: Raporttitietojen analysointi Excelillä
-description: Tutustu Exceliin käyttöön raportin tietojoukon analysoimiseen.
+title: Raporttitietojen analysointi Excelillä ja XML:llä
+description: Tutustu Excelin ja XML:n käyttöön raportin tietojoukon analysoimisessa.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.date: 02/09/2022
+ms.date: 03/16/2022
 ms.author: jswymer
-ms.openlocfilehash: f3996c051eed69974de9511aa570f232e44764fa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 46831a7b5c4672dd3d65142803aa77bbf2fce807
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145470"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521804"
 ---
-# <a name="analyzing-report-data-with-excel"></a>Raporttitietojen analysointi Excelillä
+# <a name="analyzing-report-data-with-excel-and-xml"></a>Raporttitietojen analysointi Excelillä ja XML:llä
 
 [!INCLUDE[2021_releasewave2](includes/2021_releasewave2.md)]
 
-Kehittäjänä tai edistynein käyttäjänä kannattaa tarkastaa kulloistakin raportin tietojoukkoa varten luodut tiedot, kun luot uusia raportteja tai muokkaat olemassa olevia raportteja. Tämän ominaisuuden tukemiseksi voit viedä raportin tietojoukon raakatietoina Excel-työkirjaan&mdash;suoraan asiakasohjelman raporttipyyntösivulta. Tämän jälkeen voit suorittaa tiedoille Excelissä ad-hoc-analyysin ja diagnosoida ongelmat.
+Kehittäjänä tai edistynein käyttäjänä kannattaa tarkastaa kulloistakin raportin tietojoukkoa varten luodut tiedot, kun luot uusia raportteja tai muokkaat olemassa olevia raportteja. Tämän ominaisuuden tukemiseksi voit viedä raportin tietojoukon raakatietoina Excel-työkirjaan tai XML-tiedostoon&mdash;suoraan. Tämän jälkeen voit esimerkiksi suorittaa tiedoille Excelissä ad-hoc-analyysin ja diagnosoida ongelmat.
 
 ## <a name="get-started"></a>Aloitus
 
-Voit viedä tietojoukon Exceliin avaamalla raportin asiakasohjelmassa ja valitsemalla sitten pyyntösivulla **Lähetä kohteeseen** > **Microsoft Excel -asiakirja (vain tiedot)**. 
+Voit viedä tietojoukon Excel-työkirjaan tai XML-tiedostoon avaamalla raportin asiakasohjelmassa ja valitsemalla sitten pyyntösivulla **Lähetä kohteeseen** > **Microsoft Excel -asiakirja (vain tiedot)** tai **XML-asiakirja**. Tiedosto ladataan laitteellesi.
+
+## <a name="more-about-excel-data-only"></a>Lisätietoja Excelistä (vain tiedot)
 
 **Microsoft Excel -asiakirja (vain tiedot)** -vaihtoehto vie raportin tulokset ja ehdot, jonka perusteella ne luotiin&mdash;mutta ei sisällä raportin asettelua. Excel-tiedosto sisältää koko tietojoukon raakatietoina riveille ja sarakkeisiin järjestettyinä. Kaikki raportin tietojoukon tietosarakkeet sisällytetään riippumatta siitä, käytetäänkö niitä raportin asettelussa.
 

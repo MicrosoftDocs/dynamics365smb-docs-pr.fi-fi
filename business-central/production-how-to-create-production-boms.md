@@ -1,17 +1,17 @@
 ---
 title: Tuotannon tuoterakenteiden luominen
 description: Lue, miten voit luoda tuotannon tuoterakenteen, tuotannon tuoterakenteen uudet versiot ja käyttää määrälaskentakaavaa.
-author: SorenGP
+author: bholtorf
 ms.topic: conceptual
 ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ff4e2068d8ba588b6d92839538df6bfd2ecade24
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 07563e285e6806a1a2010446d4da65fd52c9ed16
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130252"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516898"
 ---
 # <a name="create-production-boms"></a>Tuotannon tuoterakenteiden luominen
 
@@ -85,6 +85,10 @@ Laskentakaava määrittää yksittäisten komponenttien suhteen. Laskentakaavaks
 - **Pituus x Leveys**- Määrä = Määrä per * Pituus x Leveys  
 - **Pituus x Leveys x Syvyys**- Määrä = Määrä per x Pituus x Leveys x Syvyys  
 - **Paino** – Määrä = Määrä per x Paino  
+- **Kiinteä määrä** - Määrä = Määrä per
+
+> [!NOTE]
+> **Kiinteä määrä** -laskentakaava varmistaa, että komponentin kulutus on sama riippumatta hukkatavaran tai tuotoksen määristä. Kun tuotantotilauksen komponenteille määritetään **Laskentakaava**-kentän arvoksi **Kiinteä määrä**, **Oletettu määrä** -kentän arvo on aina sama kuin **Määrä per** -kentässä. Samalla rivillä määritetty hukkatavaran prosentti ohitetaan. **Saatavuus tuoterakennetason mukaan** -raportti noudattaa kiinteää määrää. Raportissa näkyy nimike pullonkaulana, jos saatavilla oleva määrä on pienempi kuin **Määrä pääkohdetta kohti** -kentässä. **Kykenee valmistamaan päänimikettä**- ja **Kykenee valmistamaan tärkeintä nimikettä** -kentät ovat aina tyhjiä riippumatta käytettävissä olevasta määrästä. Vakiokustannusten laskentaan sisällytetään myös kiinteämääräinen määrä. Tuotetun nimikkeen eräkoko vaikuttaa yhdelle nimikkeelle kohdistettuun kustannukseen.
 
 ### <a name="example"></a>Esimerkki
 
@@ -98,7 +102,7 @@ Tuotannon tuoterakenteelle tarvitaan seitsemänkymmentä metalliosaa, joiden dim
 [Suunnittelu](production-planning.md)   
 [Varasto](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

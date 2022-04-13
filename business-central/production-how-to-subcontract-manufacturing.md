@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: 99000886
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 116c19964bde7cc58a2c90be1f6b9143ceca3af6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ec85406518757c9ba2b8560e88153dc5c6d899b6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132730"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515353"
 ---
 # <a name="subcontract-manufacturing"></a>Tuotanto alihankintana
 
@@ -95,7 +95,7 @@ Ostotilauksen välitön kustannus kirjataan tuotantotilaukseen, kun ostotilaus k
 [Suunnittelu](production-planning.md)      
 [Varasto](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: sales, crm, integration, sync, synchronize
 ms.search.form: 6250
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6112b025c08468a3e0f5bdfbb9147b2fbdaf6744
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: c98cadba0a9bdf21a89a6c50dd61d805f0547685
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383503"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521252"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Synkronointitöiden tilan näyttäminen
 
@@ -59,7 +59,7 @@ Jos entiteetti, jolla on yksisuuntainen yhdistämismääritys, on poistettu tuot
 
 ## <a name="see-also"></a>Katso myös  
 [Dynamics 365 Sales -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md)  
-[Dynamics 365 Salesin käyttäminen Business Centralissa](marketing-integrate-dynamicscrm.md)
+[Dynamics 365 Salesin käyttäminen Business Centralista](marketing-integrate-dynamicscrm.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,25 @@
 ---
 title: Raportin ulkoasun muuttaminen erilaisilla asetteluvalinnoilla
 description: Voit käyttää raportissa erilaisia asetteluja ja muuttaa raportin ulkoa asua asetteluja vaihtelemalla.
-author: SorenGP
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c02f1e2083ef47d5aeee5831b042128c065c411f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 03/07/2022
+ms.author: jswymer
+ms.openlocfilehash: af90fd2361a42c06f8af360119bb391efb184de5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144643"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515301"
 ---
-# <a name="change-the-current-report-layout"></a>Nykyisen raportin asettelun muuttaminen
+# <a name="legacy-set-the-layout-used-by-a-report"></a>(Vanha) Raportin käyttämän asettelun määrittäminen
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 Raportti voidaan määrittää useille raportin asetteluille, joita voidaan vaihtaa tarpeen mukaan.
 
@@ -30,9 +32,13 @@ Kun mukautettuja raportin asetteluita määritetään, voit valita ne asiakas- j
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Raporttia tai asiakirjaa varten käytettävän raporttiasettelun muuttaminen
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten vastaava linkki.  
-   **Raporttiasetteluvalinta**-sivulla on luettelo kaikista raporteista, joita voi käyttää sivun yläosan **Yritys**-kentässä määritetyssä yrityksessä. **Valittu asettelu** -kenttä määrittää tällä hetkellä raportissa käytetyn asettelun.
-2. Määritä **Yritys**-kenttä sivun yläosassa yritykseksi, joka sisältää raportin.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten vastaava linkki.
+  
+   **Raporttiasetteluvalinta**-sivulla on luettelo kaikista raporteista, joita voi käyttää sivun yläosan **Yritys**-kentässä määritetyssä yrityksessä. **Asettelun kuvaus** <!-- **Selected Layout** -->-kenttä määrittää tällä hetkellä raportissa käytetyn raporttiasettelun.
+2. Määritä **Yritys**-kenttä yläosassa yritykseksi, joka sisältää raportin.
+
+   Tämän kentän avulla voit määrittää samalle raportille eri asettelut eri yrityksissä.
+
 3. Voit muuttaa raportin käyttämää asettelua valitsemalla raportin rivin ja asettamalla **Valittu asettelu** -kentän arvoksi yhden seuraavista vaihtoehdoista:
    * **RDLC (valmis)**, käyttää raportissa valmista RDLC-raporttiasettelua.
    * **Word (valmis)**, käyttää raportissa valmista Word-raporttiasettelua.
@@ -44,6 +50,7 @@ Kun mukautettuja raportin asetteluita määritetään, voit valita ne asiakas- j
 Lisätoimia ei vaadita, jos valitsit valmiin RDLC- tai Word-raporttiasettelun ja asettelua käytetään, kun raportti suoritetaan seuraavan kerran.
 
 ## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Raporttiasettelussa käytettävän mukautetun asettelun muuttaminen
+
 Haluat ehkä myös muuttaa käytössä olevaa mukautettua asettelua. Lisätietoja on kohdassa [Raportin mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md).
 
 Kaikki yrityksen raportin asetteluissa olevat mukautetut raporttiasettelut näkyvät **Mukautetut raporttiasettelut** -sivulla. **Raporttiasettelun valinta** -sivulla voit nähdä, mitkä mukautetut asettelut ovat käytettävissä **Mukautetut asettelut** -tietoruudussa.
@@ -59,7 +66,7 @@ Voit nyt siirtyä asiakas- ja toimittajakortteihin ja määrittää, mitä asett
 
 ## <a name="see-also"></a>Katso myös
 [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

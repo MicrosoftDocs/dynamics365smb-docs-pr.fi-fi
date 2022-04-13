@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f385cd6dc2186a2e492eb7c045639ec34185237c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7d040289fbcf85b67c32147e56f13797e3bd5447
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382555"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519568"
 ---
 # <a name="the-vat-group-management-extension"></a>ALV-ryhmän hallinnan laajennus
 
@@ -91,7 +91,7 @@ Määritä alv-ryhmän jäsen suorittamalla **Määritä alv-ryhmän hallinnan**
 
   Esimerkiksi Yhdistyneessä kuningas kunnassa alv-raportin konfiguraatio määritetään ilmoittamaan ALV:stä HMRC:lle. ALV-ryhmän hallinnan laajennus kopioi tämän asetuksen, mutta korvaa lähetyscodeunitin sellaisella, joka tukee toimittamista alv-ryhmän edustajalle veroviranomaisten sijaan. Microsoft tarjoaa codeunitin. Valitse **Seuraava**, kun olet valmis.
 
-## <a name="using-the-vat-group-management-features"></a>ALV-ryhmän hallintaominaisuuksien käyttäminen
+## <a name="use-the-vat-group-management-features"></a>ALV-ryhmän hallintaominaisuuksien käyttäminen
 
 ALV-ryhmän jäsenet käyttävät vakioprosesseja alv-palautusten valmisteluun. Ainoa ero on, että valitaan **VATGROUP**-raporttiversio, joka lähettää ALV-palautuksen alv-ryhmän edustajalle eikä viranomaisille. Lisätietoja on kohdassa [Tietoja ALV-palautusraportista](finance-how-report-vat.md#vatreturn).
 

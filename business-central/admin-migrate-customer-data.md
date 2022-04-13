@@ -1,24 +1,26 @@
 ---
 title: Asiakastietojen siirtäminen
-description: Voit siirtää aiemmin luotuja asiakastietoja olemassa olevasta järjestelmästä Business Centraliin käyttämällä RapidStart Servicesia – tai vain syötä se suoraan yritykseen.
-author: SorenGP
+description: Voit siirtää aiemmin luodun asiakkaan tiedot aiemmin luodusta ERP-järjestelmästä Business Central -sovellukseen ohjatun asetusoppaan avulla. Vaihtoehtoisesti voit käyttää Exceliä ja RapidStart Servicesia.
+author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1799, 1807, 8632, 1800, 1340
+ms.search.form: 1799, 1807, 8632, 1800, 1340, 8614, 8615
 ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: f339e5c878d64cb243c34c97f6711629389bfa0e
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 492ec993dfbf33f90fc601b1d6f8f27319ee39c9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335368"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515717"
 ---
 # <a name="migrate-customer-data"></a>Asiakastietojen siirtäminen
 
-Voit siirtää aiemmin luodun asiakkaan tiedot aiemmin luodusta ERP-järjestelmästä [!INCLUDE[prod_short](includes/prod_short.md)]iin RapidStart Servicesin tietojen siirto-työkalujen avulla. Voit käyttää Excel-tiedostoja tiedonkuljettajana. Voit siirtää tiedot manuaalisesti kirjoittamalla ne suoraan yrityksen. Vaihtoehtoisesti voit käyttää **Siirtyminen pilvipalveluun** -opasta, jonka avulla voit siirtää tietoja. Lisätietoja on kohdassa [Tietojen siirtäminen](/dynamics365/business-central/dev-itpro/administration/migrate-data) järjestelmänvalvojasisällössä.
+Voit siirtää aiemmin luodun asiakkaan tiedot aiemmin luodusta ERP-järjestelmästä [!INCLUDE[prod_short](includes/prod_short.md)] Onlineen tuettujen versioiden pilvisiirtoprosessin avulla. Vaihtoehtoisesti voit siirtyä [!INCLUDE [prod_short](includes/prod_short.md)] on-premises -versioon käyttämällä RapidStart Servicesin tietosiirtotyökaluja ja sitten siirtyä pilveen. Lisätietoja hallintasisällössä: [Paikallisten tietojen siirtäminen Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) -ohjelmaan (vain englanniksi).  
+
+Tässä artikkelissa tarkastelemme asetustiedostoja, joita voit viedä [!INCLUDE [prod_short](includes/prod_short.md)]ista ja tuoda sinne. Sisältö on kirjoitettu paikallisten käyttöönottojen kannalta.  
 
 > [!NOTE]
 > BLOB-tyypin kenttiä ei voi viedä tai tuoda Excelin avulla.

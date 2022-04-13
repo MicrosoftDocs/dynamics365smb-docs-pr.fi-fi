@@ -1,13 +1,13 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 09/27/2021
+ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 59b9cd9f5db84d499f1bc1355d25634fec6ad712
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d3f8091f1c90ef1260ccfb8bb9851ad4a24d3345
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132283"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513547"
 ---
-[!INCLUDE[prod_short](prod_short.md)] sisältää kenttien ja toimintojen työkaluvihjeitä sekä joiden tärkeiden sivujen opastusvihjeitä, jotka opastavat erilaisissa liiketoimintaprosesseissa. Voit avata kyseisen sivun ohjeen valitsemalla kussakin työkalu- tai opastusvihjeessä **Lisätietoja**-linkin. Avaa kyseisen sivun ohje näppäimistön *Ctrl+F1*-näppäimillä. Käytä laitteesta riippumatta oikeassa yläkulmassa oleva kysymysmerkkiä avataksesi **Ohje ja tuki** -sivun, josta voi myös hakea tuoteapua.  
+[!INCLUDE[prod_short](prod_short.md)]issa on kenttien ja toimintojen työkaluvihjeitä, jotka auttavat eri liiketoimintaprosessien suorittamisessa. Joillakin tärkeimmillä sivuilla on myös opetusvinkkejä ja kierroksia avuksi. Voit avata kyseisen sivun ohjeruudun valitsemalla kussakin työkalu- tai opastusvihjeessä **Lisätietoja**-linkin. Avaa ohjeruutu näppäimistön *Ctrl+F1*-näppäimillä. Käytä laitteesta riippumatta oikeassa yläkulmassa oleva kysymysmerkkiä avataksesi ohjeen.  

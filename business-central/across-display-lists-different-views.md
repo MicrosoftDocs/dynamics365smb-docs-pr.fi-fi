@@ -10,12 +10,12 @@ ms.search.keywords: personalization
 ms.search.form: 31
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6d2fd979106f1ec9923eb3fed5717eb7e2c05b23
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: afa3806cd0597ffe04c516f586ea58fab83c0bc2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141695"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515847"
 ---
 # <a name="displaying-lists-in-different-ways"></a>Luetteloiden näyttäminen eri tavoilla
 Kaikkien [!INCLUDE[prod_short](includes/prod_short.md)]in luetteloiden oikeassa kulmassa on kuvakkeita, joiden avulla voi valita tietueiden näyttötavan. Luettelo voidaan näyttää eriteltyinä riveinä, joka sopii hyvin tilanteeseen, jossa käsiteltäviä kenttiä on paljon tai luettelon kenttiä on voitava muokata. Voit vaihtaa myös näkymään, jossa tietueet näkyvät ruutuina. Tämä vie vähemmän tilaa ja tietyn tietueen kenttiä näytetään vähemmän. Tämä on erittäin kätevää, kun tarkastellaan useiden tapahtumien yleiskuvausta. Näkymää kannattaa käyttää erityisesti pienissä laitteissa, sillä se on pienikokoinen ja sitä on helppo napauttaa.
@@ -26,7 +26,7 @@ Kaikkien [!INCLUDE[prod_short](includes/prod_short.md)]in luetteloiden oikeassa 
 Voit tuoda nimikekuvia joko yksitellen tai useita nimikkeitä samanaikaisesti. Lisätietoja on kohdassa [Useiden nimikekuvien tuominen](inventory-how-import-item-pictures.md).  
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 
 

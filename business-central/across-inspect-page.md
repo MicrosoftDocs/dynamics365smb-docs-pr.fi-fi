@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: jswymer
 ms.author: jswymer
 ms.date: 04/01/2021
-ms.openlocfilehash: d30b93942292e2f6a5a52831725ec06aed32820c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 28ac84b76f40771cf29c4d504035f01458cb1631
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136502"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517172"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Business Centralin tarkastussivut
 
@@ -22,7 +22,7 @@ Saat sivun tarkastustoiminnolla tietoja sivusta sekä merkityksellisiä tietoja 
 
 [!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
-## <a name="working-with-page-inspection"></a>Sivun tarkastuksen käyttäminen
+## <a name="work-with-page-inspection"></a>Sivun tarkastuksen käyttäminen
 
 Sivun tarkistus aloitetaan **Ohje ja tuki** -sivulla. Valitse ensin kysymysmerkki oikeassa yläkulmassa, sitten **Ohje ja tuki** ja lopuksi **Tarkasta sivut ja tiedot**. Vaihtoehtoisesti voit käyttää pikanäppäintä **Ctrl+Alt+F1**.
 
@@ -46,7 +46,7 @@ Käyttäjät, joilla ei ole myönnetty käyttöoikeuksia **järjestelmäkohteess
 
 ## <a name="see-also"></a>Katso myös
 
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

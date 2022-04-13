@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 461419801845f417b4ffaeb1453cd6340d1e61d5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4fa3b78aec171e4ffabede85245beb83b47f5f4a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134214"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523629"
 ---
 # <a name="incoming-documents"></a>Saapuvat asiakirjat
 
@@ -47,7 +47,7 @@ Saapuvien asiakirjojen käsittely voi muodostua seuraavista pääaktiviteeteista
 ## <a name="see-also"></a>Katso myös
 
 [Osto](purchasing-manage-purchasing.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

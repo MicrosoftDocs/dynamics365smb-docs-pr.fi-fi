@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d8ca98d4e13d50bcf58f4a66956c33b1d0996f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d663f3099f90f5eccff3ab5acefc97f8b27629b2
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147110"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528447"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Business Central -tietueiden ja sivulinkkien jakaminen Microsoft Teamsissa
 
@@ -45,7 +45,7 @@ Seuraavissa osissa käsitellään eri tapoja tarkemmin.
 
 Teamsin Business Central -sovelluksen avulla voit kopioida linkin mistä tahansa Business Central -tietueesta, kuten asiakkaasta tai myyntitilauksesta, ja liittää linkin Teams-keskusteluun. Sovellus muodostaa yhteyden Microsoft Teamsista yritystietoihin [!INCLUDE [prod_short](includes/prod_short.md)]issa\. Linkki laajentuu sen kompaktiksi ja vuorovaikutteiseksi kortiksi, joka näyttää tietoja tietueesta. Keskustelun aikana sinä ja työtoverisi voitte tarkastella lisätietoja tietueesta, muokata tietoja ja toimia – poistumatta Teamsista.
 
-[![Teamsin ja Business Centralin integrointi.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teamsin ja Business Centralin integrointi.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
 ### <a name="prerequisites"></a>Vaatimukset
 
@@ -60,38 +60,36 @@ Teamsin Business Central -sovelluksen avulla voit kopioida linkin mistä tahansa
 1. Kirjaudu [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaan käyttämällä selainta.
 2. Avaa tietue, jonka haluat jakaa.
 
-    Sovellus on suunniteltu näyttämään korttityyppisivut [!INCLUDE [prod_short](includes/prod_short.md)]ista\. Avaa siis sivu, jossa näkyy yksittäinen tietue, esimerkiksi nimike, asiakas tai myyntitilaus. Sitä ei voi käyttää roolikeskuksissa tai sivuissa, jotka näyttävät useita tietueita luettelossa.
+    Sovellus on suunniteltu näyttämään kortti lähes mitä tahansa [!INCLUDE [prod_short](includes/prod_short.md)] -sivun tyyppiä varten. Se tarjoaa kuitenkin parhaan käyttökokemuksen silloin, kun käytetään sivuja, joilla näkyy yksittäinen tietue, esimerkiksi nimike, asiakas tai myyntitilaus.
+3. Kopioi linkki sivulle.
 
-3. Kopioi koko URL-osoite selaimen osoiteriviltä.
+    Linkin voi kopioida kahdella tavalla. Helpoin ja suosituin tapa on valita **Jaa** ![Jaa-kuvake Business Centralissa](media/share-icon.png) > **Kopioi linkki**. Toinen tapa on kopioida koko URL-osoite suoraan selaimen osoiteriviltä.
 
-   ![Business Centralin URL-osoitteen kopioiminen selaimesta.](media/teams-url-v2.png)
+    [![Business Centralin URL-osoitteen kopioiminen selaimesta.](media/teams-copy-link.png)](media/teams-copy-link.png#lightbox)
 4. Siirry Teamsiin ja aloita keskustelu, joka voi olla keskustelu henkilön, henkilöryhmän tai tiimikanavan kanssa.
+5. Liitä linkki (URL-osoite) viestiruutuun, johon kirjoitat viestin.
 
-    <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
-5. Liitä URL-osoite viestiruutuun, johon kirjoitat viestin.
+    ![Liitä Business Centralin URL-osoite Teamsiin.](media/teams-paste-url-v2.png)
 
-   ![Liitä Business Centralin URL-osoite Teamsiin.](media/teams-paste-url-v2.png)
+    > [!TIP]
+    > Jos saat viestin, kuten: *Business Central haluaa näyttää esikatselun tästä linkistä.* se tarkoittaa, että et ole asentanut Teamsin Business Central -sovellusta. Voit asentaa sovelluksen valitsemalla **Näytä esikatselu** ja noudattamalla ohjeita.
 6. Kun liität linkin keskusteluun ensimmäistä kertaa, sinua pyydetään kirjautumaan sisään [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaan ja antamaan suostumus siihen, että sovellus hakee tiedot. Seuraa vain näytön ohjeita.
 
     > [!NOTE]
     > Tämä vaihe tarvitsee tehdä vain kerran.
-
 7. Odota hetki, kun kortti luodaan sanomaruutuun.
-
 8. Kun kortti tulee näkyviin, tarkista kortin sisältö huolellisesti, ennen kuin lähetät viestin. Tämä vaihe on tärkeä, koska kun lähetät viestin, kaikki keskusteluun osallistuvat voivat nähdä kortin.
-
 9. Jos kortti näyttää hyvältä, lähetä se keskusteluun valitsemalla **Lähetä**.
 
     > [!TIP]
     > Kun kortti tulee näyttöön ja ennen kuin valitset **Lähetä**, voit halutessasi poistaa liitetyn URL-osoitteen.
-
 10. Jos haluat tarkastella lisätietoja tai tehdä kortissa näytettyyn tietueeseen muutoksia, valitse **Tiedot**. Lisätietoja on seuraavassa osassa.
 
 ### <a name="view-card-details"></a>Näytä kortin tiedot
 
-Kun kortti on lähetetty keskusteluun, kaikki osallistujat, joilla on [asianmukaiset käyttöoikeudet](admin-teams-integration.md#permissions), voivat valita **Tiedot** ja avata ikkunan, jossa näkyy lisätietoja tietueesta – ja mahdollisesti tehdä muutoksia tietueeseen. Ei ole merkitystä, oletko kortin lähettäjä vai vastaanottaja. **Tiedot**-ominaisuudesta on hyötyä erityisesti vastaanottajille, koska se antaa heille nopeasti ytimekkäitä ja kohdennettuja tietoja tietueesta tarvitsematta tutkia koko tietuetta.
+Kun kortti on lähetetty keskusteluun, kaikki osallistujat, joilla on [asianmukaiset käyttöoikeudet](admin-teams-integration.md#permissions), voivat valita **Tiedot** ja avata ikkunan, jossa näkyy lisätietoja tietueesta – ja mahdollisesti tehdä muutoksia tietueeseen. Ei ole merkitystä, oletko kortin lähettäjä vai vastaanottaja. **Tiedot**-ominaisuudesta on hyötyä erityisesti vastaanottajille, koska se antaa heille nopeasti ytimekkäitä ja kohdennettuja tietoja.
 
-Tietoikkuna on samankaltainen kuin [!INCLUDE [prod_short](includes/prod_short.md)] -tietueen näkymä. Mutta sitä on hieman muokattu Teamsia varten. Kun olet lopettanut muutosten tarkastelemisen ja tekemisen, sulje ikkuna palataksesi Teams-keskusteluun.
+Tiedot-ikkuna muistuttaa siitä, mitä näet [!INCLUDE [prod_short](includes/prod_short.md)]issa, mutta se on keskittynyt sivuun tai tietueeseen, josta kortti sisältää tietoja. Kun olet lopettanut muutosten tarkastelemisen ja tekemisen, sulje ikkuna palataksesi Teams-keskusteluun.
 
 Seuraavassa on muutamia asioita, jotka pitää muistaa, kun käsittelet kortin tietoja:
 

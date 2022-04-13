@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d8cd59f77230fe7d7593510f0abfc24bf9c29a2a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 67e564271e54c7c6c7f1b141172a537cd2bd6286
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142573"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510940"
 ---
-# <a name="working-with-prod_short-data-in-power-bi"></a>[!INCLUDE [prod_short](includes/prod_short.md)] -tietojen käyttäminen Power BI:ssa
+# <a name="work-with-prod_short-data-in-power-bi"></a>[!INCLUDE [prod_short](includes/prod_short.md)] -tietojen käsitteleminen Power BI:ssä
 
 Tässä artikkelissa on perustietoja niistä Power BI:n raporteista ja koontinäytöistä, jotka käyttävät [!INCLUDE [prod_short](includes/prod_short.md)]ia tietolähteenä. Artikkelissa käsitellään seikkoja, jotka helpottavat [!INCLUDE[prod_short](includes/prod_short.md)] -käytön aloittamista käyttäjänä. Yleistä opastusta ja ohjeita Power BI:n käytöstä on kohdassa [Power BI:n kuluttajille suunnattu dokumentaatio](/power-bi/consumer).
 
@@ -82,7 +82,7 @@ Voit jakaa raportin valitsemalla raporttiluettelossa tai avoimessa raportissa **
 [Business Central ja Power BI](admin-powerbi.md)  
 [Power BI -raporttien luominen näyttämään [!INCLUDE [prod_long](includes/prod_long.md)] -tietoja](across-how-use-financials-data-source-powerbi.md)  
 [Power BI:n -integrointiosa ja [!INCLUDE[prod_short](includes/prod_short.md)] -arkkitehtuurin yleiskatsaus](admin-powerbi-overview.md)  
-[Power BI -raporttien käyttäminen [!INCLUDE [prod_short](includes/prod_short.md)]issa](across-working-with-powerbi.md)  
+[Power BI -raporttien käsittely [!INCLUDE [prod_short](includes/prod_short.md)]issa](across-working-with-powerbi.md)  
 [Power BI kuluttajille](/power-bi/consumer/end-user-consumer)  
 [Power BI -palvelun uusi ulkoasu](/power-bi/service-new-look)  
 [Pika-aloitus: Tietojen yhdistäminen Power BI Desktopiin](/power-bi/desktop-quickstart-connect-to-data)  
@@ -93,7 +93,7 @@ Voit jakaa raportin valitsemalla raporttiluettelossa tai avoimessa raportissa **
 [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power BI:n tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Apps:n tietolähteenä](across-how-use-financials-data-source-powerapps.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Automate'ssa](across-how-use-financials-data-source-flow.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Automatessa](across-how-use-financials-data-source-flow.md)  
 
 
 

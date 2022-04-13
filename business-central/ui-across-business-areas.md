@@ -10,12 +10,12 @@ ms.search.keywords: feature overview, functionality
 ms.search.form: 9020, 9022, 9027, 9018
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 36edd01c369e83e2020f43ff914b4cc693cba4e3
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 5f8cfbef682b2a039c5a52483a09380452fba4b9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322848"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513599"
 ---
 # <a name="general-business-functionality"></a>Yleiset liiketoimintatoiminnot
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää omat toiminnot tavallisille liiketoiminta-alueille, kuten rahoitus ja myynti. Lisätietoja on kohdassa [Liiketoiminnan toiminnallisuus](across-business-functionality.md).
@@ -48,7 +48,7 @@ Seuraava taulukko sisältää nämä yleiset liiketoiminta-alueet ja linkit niit
 | Määritä tiedonsiirtomääritykset sähköisten asiakirjojen lähettämistä ja vastaanottamista varten. |[Sähköinen tiedonsiirto](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Hallinta](admin-setup-and-administration.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

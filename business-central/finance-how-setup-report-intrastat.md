@@ -10,12 +10,12 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 01/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: bcf0e27710c66e71dd95710790af2c2ffd4ab5e0
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2530b6a5d562cfd22abd8ae097408388034a5711
+ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381457"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8485001"
 ---
 # <a name="set-up-and-report-intrastat"></a>Intrastat-ilmoituksen määrittäminen ja raportoiminen
 
@@ -27,7 +27,7 @@ Sinun on määritettävä useita asetuksia, ennen kuin voit raportoida Intrastat
 * **Valtiokohtaiset Asetukset**: Valtiokohtaiset Asetukset sivua käytetään intrastat-reportoinnin käyttöönottoon ja sen osetusaletusten määrittelyyn. Voit määrittää sen, tarvitkseeko sinun raportoida Intrastat lähetyksistä (toimitukset), kuiteista (saapuvat) vai molemmista, riippuen paikkalisten asetuksien rajoista. Voit myös määrittää oletusasetukset tapahtumatyypeille tavallisia ja palautusdokumentteja koskien, joita käytetään maksuliikenteen raportointiin.
 * **Intrastat-ilmoitusmallit**: Käytettävät Intrastat-ilmoitusmallit ja -erät on määritettävä. Koska Intrastat-tiedot raportoidaan kuukausittain, sinun on luotava 12 samaan malliin perustuvaa Intrastat-ilmoituserää.  
 * **Kauppatavarakoodit**: Tulli- ja veroviranomaiset ovat luoneet nimikkeiden ja palvelujen luokittelua varten numeeriset koodit. Nämä koodit määritetään nimikkeissä.
-* **Kauppatapahtuman luonteen koodit**: Mailla ja alueilla on eri koodit Intrastat-tapahtumatyypeille, kuten tavallisille ostoille ja myynneille, palautettujen tavaroiden vaihdolle ja palauttamattomien tavaroiden vaihdolle. Määritä omaa maata tai aluetta koskevat koodit. Voit käyttää niitä myynti- ja ostoasiakirjoissa ja palautusten käsittelyssä. 
+* **Kauppatapahtuman luonteen koodit**: Mailla ja alueilla on eri koodit Intrastat-tapahtumatyypeille, kuten tavallisille ostoille ja myynneille, palautettujen tavaroiden vaihdolle ja palauttamattomien tavaroiden vaihdolle. Määritä omaa maata tai aluetta koskevat koodit. Näitä koodeja käytetään myynti-ja ostoasiakirjojen **Ulkomaankauppa**-pikavälilehdessä sekä palautusten käsittelyssä. 
 
     > [!NOTE]
     > Tammikuusta 2022 alkaen Intrastat edellyttää eri tapahtuman luonteen koodia yksityishenkilöille tai ALV-rekisteröitymättömille yrityksille suunnatuille ja ALV-rekisteröityneille yrityksille osoitetuille toimituksille. Tämän vaatimuksen täyttämiseksi on suositeltavaa tarkistaa tapahtumien luonteiden koodit ja/tai lisätä uusia sellaisia **Tapahtumien tyypit** -sivulle kulloisenkin maan vaatimusten mukaisesti. Lisäksi kannattaa tarkistaa ja päivittää **Kumppanityyppi**-kenttä muotoon *Henkilö* asianomaisten asiakkaiden eli yksityishenkilöjen ja ALV-rekisteröimättömien yritysten **Asiakas**-sivulla. Jos et ole varma oikeasta kumppani- tai tapahtumatyypistä, suosittelemme, että pyydät samassa maassa tai samalla alueella asuvan asiantuntijan neuvoa. 

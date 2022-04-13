@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4e9bd9e44a92c952fe01636b1ef724491e479cf1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f7127569153ee98aaadcbb807432d852a4f22d0d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145236"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518703"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Vaihekuvaus: Toimitusten manuaalinen suunnittelu
 
@@ -55,7 +55,7 @@ Tässä vaihekuvauksessa kuvataan toimitustilausten suunnitteluprosessi uuden ky
 ## <a name="setting-up-the-sample-data"></a>Esimerkkitietojen määrittäminen  
  Tavallisessa CRONUS esimerkkiyrityksessä on tällä hetkellä paljon suunnittelematonta kysyntää. Tämän vaihekuvauksen suunnittelutehtävien aikana realistisesta liiketoimintojen työnkulusta täytyy poiketa. Siitä poiketaan jättämällä huomiotta kysyntä, jonka eräpäivät ovat lähellä, ja käyttämällä sen sijaan kysyntää, jonka eräpäivät ovat myöhäisempiä.  
 
-## <a name="using-the-order-planning-page"></a>Tilauksen suunnittelu -sivun käyttäminen  
+## <a name="use-the-order-planning-page"></a>Tilauksen suunnittelu -sivun käyttäminen  
 
 **Tilauksen valmistelu** -sivua voi käyttää useista eri sijainneista:  
 

@@ -5,12 +5,12 @@ author: edupont04
 ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9b881ee5a4a98e30af3da572600747702a3ebca5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 75ba3591c676089fd971886fa32284b5aec5715e
+ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137625"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8419310"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Varoitukset ja virhesanomat Dynamics 365 Business Centralissa
 
@@ -20,7 +20,7 @@ Työpäivän aikana voi näkyä ilmoituksia [!INCLUDE [prod_short](includes/prod
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman oletusversio sisältää useimpien kenttien, sarakkeiden ja toimintojen kuvaukset, joita voi käyttää, kun valitset nimen. Yhdessä tärkeiden sivujen, kuvailevien kuvatekstien ja ohjetekstien opastusvihjeiden kanssa nämä työkaluvihjeet tai kuvatekstit ovat nykyinen *upotetun käyttäjätuen* toteutus, mikä on tärkeä periaate nykyisessä ohjelmistosuunnittelussa.  
 
-Jos sinulla on kysyttävää jostakin kentästä tai käyttöliittymän jostakin muusta osasta, valitse nimi ja lyhyt kuvaus tulee näkyviin. Valitse *lisätietoja*-linkki, jos se ei riitä.  
+Jos sinulla on kysyttävää jostakin kentästä tai käyttöliittymän jostakin muusta osasta, valitse nimi ja lyhyt kuvaus tulee näkyviin. Valitse *lisätietoja*-linkki, jos se ei riitä. Voit myös etsiä vastauksia kysymyksiisi tuotteen sisäisestä ohjeruudusta.  
 
 Saadaksesi lisätietoja, katso [Dynamics 365 Business Central -käyttäjäapumalli](/dynamics365/business-central/dev-itpro/user-assistance)n hallinnon sisällössä [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmalle.  
 

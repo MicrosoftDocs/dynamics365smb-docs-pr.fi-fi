@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: e19db53137980b986dabc933ae56d33a5a768350
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cd127d1b313a0c060ef676c74f0df83e01896b53
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141513"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516445"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Asenna [!INCLUDE [prod_short](includes/prod_short.md)] -sovellus Microsoft Teamsiin
 
@@ -59,8 +59,8 @@ Tämä vaihtoehto on nopein tapa asentaa sovellus.
 4. Valitse sovellus, kun löydät sen.
 5. Valitse **Lisää**.
 
-> [!NOTE]
-> Kummassakin tapauksessa pyydetään kirjautumaan [!INCLUDE [prod_short](includes/prod_short.md)] -sovellukseen. Valitse **kirjautumisen** linkki ja anna [!INCLUDE [prod_short](includes/prod_short.md)] -kirjautumisnimi ja -salasana ohjeiden mukaan.
+> [!TIP]
+> Jos liität Business Central -linkin Teams-keskusteluun, eikä sovellusta ole asennettu, saat seuraavan kaltaisen viestin: **Business Central haluaa näyttää tämän linkin esikatselun.** Voit asentaa sovelluksen valitsemalla **Näytä esikatselu** ja noudattamalla ohjeita.
 
 **Vaihtoehto 3: Business Centralista**
 
@@ -68,6 +68,9 @@ Tämä vaihtoehto on nopein tapa asentaa sovellus.
 2. Valitse ![Suurennuslasi, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Hae Business Central -sovellus Teamsille** ja valitse sitten liittyvä linkki.  
 3. Valitse **Hae sovellus kaupasta**.
 4. Odota, että Teams avautuu ja Business Central -sovellus tulee näkyviin, ja valitse sitten **Lisää**.
+
+> [!NOTE]
+> Kummassakin tapauksessa pyydetään kirjautumaan [!INCLUDE [prod_short](includes/prod_short.md)] -sovellukseen. Valitse **kirjautumisen** linkki ja anna [!INCLUDE [prod_short](includes/prod_short.md)] -kirjautumisnimi ja -salasana ohjeiden mukaan.
 
 ## <a name="next-step"></a>Seuraava vaihe
 

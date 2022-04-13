@@ -1,22 +1,24 @@
 ---
 title: Yrityksen määrittämisen hallinta työkirjassa
-description: Määritykset-työkirja on keskitetty sijainti, jossa voit suunnitella, seurata ja tehdä yrityksen määrityksiä.
+description: Jos käytät RapidStart Servicesiä, määritystyökirja on keskitetty sijainti, jossa voit suunnitella, seurata ja tehdä yrityksen määrityksiä.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8632
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 23a999ab500512a4aaed2aaab7e205629b5954b7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c678d48b202043110627a2c8b29ae12be045d38d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141357"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514198"
 ---
-# <a name="manage-company-configuration-in-a-worksheet"></a>Yrityksen määrittämisen hallinta työkirjassa
+# <a name="manage-company-configuration-in-a-worksheet-with-rapidstart-services"></a>Yrityksen määrittämisen hallinta työkirjassa RapidStart Servicesin avulla
+
 Määritykset-työkirja on keskitetty sijainti, jossa voit suunnitella, seurata ja tehdä määrityksiä. Voit luoda taulukon kunkin yrityksen osalta, jonka kanssa toimit tai luoda perusmäärityskirjan, jonka avulla voidaan määrittää useita samankaltaisia yrityksiä.  
 
 Kokoonpanopaketin valmistelun ensimmäinen vaihe on sellaisen yrityksen valinta, jonka olet jo luonut ja muokannut omia tarpeitasi varten. Tämä yritys toimii määritysten pohjana, kun määrität kokoonpanoja uusille yrityksille. Työkirjassa määritetään taulukot, joita määritysten halutaan hallitsevan ja käsittelevän. Koska useimmilla taulukoilla [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa on suhteita tai riippuvuuksia muihin taulukoihin, tulisi liittyvät taulukot myös sisällyttää tarpeen mukaan. Nämä taulukot toimivat yhdessä rakenteena, jonka ympärille muodostetaan uusi yritys. Seuraavat vaiheet opastavat kokoonpanosi paketoinnissa ja asentamisessa.  
@@ -25,8 +27,9 @@ Voit helpottaa työsi seurantaa ja tarkastusta käyttämällä **Määrityspaket
 
 Seuraavissa ohjeissa näytetään, miten voit lisätä ja mukauttaa kokoonpanosi taulukoiden tietoja.  
 
-## <a name="to-open-the-configuration-worksheet"></a>Avaa määritystyökirja  
-1.  Avaa [!INCLUDE[prod_short](includes/prod_short.md)]issa yritys, joka on määrityksen pohjana, ja avaa sitten sen RapidStart Servicesin käyttöönottajien roolikeskus.  
+## <a name="to-open-the-configuration-worksheet"></a>Avaa määritystyökirja
+
+1.  Avaa [!INCLUDE[prod_short](includes/prod_short.md)]issa yritys, johon määritys perustuu.  
 2.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Määritystyökirja** ja valitse sitten liittyvä linkki.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Taulukon lisääminen työkirjaan  
@@ -40,9 +43,9 @@ Seuraavissa ohjeissa näytetään, miten voit lisätä ja mukauttaa kokoonpanosi
     > [!NOTE]  
     > Liittyviä taulukoita ei lisätä **Hae liittyvät taulukot** -toimintoon, jos jompikumpi seuraavista on tosi:
     > - Suhde on ehdollinen.  
-    > Esimerkki: Jos saat liittyvät taulukot **Asiakas**-taulukolle, tällöin **Sijainti**-taulukkoa ei lisätä, koska se liittyy **Asiakas**-taulukkoon vain ehdollisesti, jos **Asiakas**-taulukon **Sijaintikoodi**-kenttä täytetään.  
+    >     Esimerkki: Jos saat liittyvät taulukot **Asiakas**-taulukolle, tällöin **Sijainti**-taulukkoa ei lisätä, koska se liittyy **Asiakas**-taulukkoon vain ehdollisesti, jos **Asiakas**-taulukon **Sijaintikoodi**-kenttä täytetään.  
     > - Liittyvä taulukko on suodatettu.  
-    > Esimerkki: liittyvän taulukon kentässä on WHERE-lause. Syy tähän on se, että liittyvien suhteiden tiedot on tallennettu **Kenttä**-järjestelmän taulukkoon, joka ei ole täysin sovelluksen käytettävissä.  
+    >     Esimerkki: liittyvän taulukon kentässä on WHERE-lause. Syy tähän on se, että liittyvien suhteiden tiedot on tallennettu **Kenttä**-järjestelmän taulukkoon, joka ei ole täysin sovelluksen käytettävissä.  
     > Lisää tällaiset taulukot manuaalisesti tämän toimenpiteen vaiheen 4 ohjeiden mukaisesti.  
 
 8.  Muokkaa taulukkoluetteloita valitsemalla taulukko, jonka haluat poistaa ja valitsemalla sitten **Poista**-toiminto.  

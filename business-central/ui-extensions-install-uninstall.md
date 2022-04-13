@@ -1,23 +1,23 @@
 ---
-title: Laajennusten asentaminen ja asennusten poistaminen Business Centralissa | Microsoft Docs
+title: Laajennusten asentaminen ja poistaminen
 description: Tietoja laajennusten asentamisesta ja asennusten poistamisesta Business Centralissa.
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 06/03/2021
+ms.search.form: 2500
+ms.date: 03/25/2022
 ms.author: solsen
-ms.openlocfilehash: 7868e0dc10c3ec0f81f39b714b8d517fcf3c5f06
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fcdfe843071bc416973b7411e5702a690e7e377d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140395"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514749"
 ---
-# <a name="installing-and-uninstalling-extensions-in-business-central"></a>Laajennusten asentaminen ja asennusten poistaminen Business Centralissa
+# <a name="install-and-uninstall-extensions-in-business-central"></a>Laajennusten asentaminen ja asennusten poistaminen Business Centralissa
 
 Voit muuttaa [!INCLUDE[prod_short](includes/prod_short.md)]ia asentamalla laajennuksia, jotka esimerkiksi sisältävät lisätoimintoja, muuttavat toimintaa tai mahdollistavat uusien verkkopalveluiden käyttämisen. Lisätietoja on kohdassa [Business Centralin mukauttaminen laajennusten avulla](ui-extensions.md).
 
@@ -29,7 +29,7 @@ Voit muuttaa [!INCLUDE[prod_short](includes/prod_short.md)]ia asentamalla laajen
 > [!NOTE]  
 > **EXTEND. MGT. - ADMIN** -käyttöoikeudet otettiin käyttöön Business Central 2021:n julkaisuaallossa 1, ja ne korvasivat aiemmissa versioissa olleet **D365 EXTENSION MGT** -käyttöoikeudet.
 
-## <a name="installing-an-extension"></a>Laajennuksen asentaminen
+## <a name="install-an-extension"></a><a name="install"></a>Laajennuksen asentaminen
 
 Laajennuksia hallitaan **Laajennusten hallinta** -sivulla. Tämä sivu löytyy kotisivulta. Vaihtoehtoisesti valitse **Hae sivua tai raporttia** -kuvake ![Lamppu, joka avaa Kerro-toiminnon.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") oikeassa yläkulmassa, syötä **Laajennus** ja valitse sitten liittyvä linkki.  
 
@@ -75,14 +75,13 @@ Microsoft tarjoaa seuraavat laajennukset:
 * [Ison-Britannian postinumeroiden GetAddress.io-laajennus](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA - Maksusuositusehdotuksen lähettäminen](ui-extensions-send-remittance-advice.md)
 
-
-## <a name="uploading-a-per-tenant-extension-pte"></a>Vuokraajakotaisen laajennuksen (PTE) lataaminen palvelimeen
+## <a name="upload-a-per-tenant-extension-pte"></a>Vuokraajakotaisen laajennuksen (PTE) lataaminen palvelimeen
 
 Lataat PTE:n käyttämällä **Laajennuksen hallinta** -sivua. Valitse **Laajennuksen hallinta** -sivulla **Hallinta** ja valitse sitten **Lataa laajennus palvelimeen**. Valitse **Lataa ja ota käyttöön laajennus** -sivulla ladattava .app-tiedosto. Jatka valitsemalla **Hyväksy**-painike ja sitten **Ota käyttöön**-painike, jolloin PTE-käyttöönottoprosessi aloitetaan.
 
-Jos PTE sisältää rikkovia mallin muutoksia, on mahdollista *pakottaa* sen lataaminen. Voit tehdä sen valitsemalla **Mallin synkronointi tila** -kohdassa **Pakota**-asetuksen. Näyttöön tulee vahvistusikkuna, jonka voi hyväksyä ennen jatkamista. 
+Jos PTE sisältää rikkovia mallin muutoksia, on mahdollista *pakottaa* sen lataaminen. Voit tehdä sen valitsemalla **Mallin synkronointi tila** -kohdassa **Pakota**-asetuksen. Näyttöön tulee vahvistusikkuna, jonka voi hyväksyä ennen jatkamista.  
 
-## <a name="uninstalling-an-extension"></a>Laajennuksen asennuksen poistaminen
+## <a name="uninstall-an-extension"></a>Laajennuksen asennuksen poistaminen
 
 Laajennuksen asennus poistetaan **Laajennuksen hallinta** -sivulla. Jos poistat laajennuksen asennuksen ja haluat ottaa sen takaisin käyttöön, voit asentaa laajennuksen uudelleen. Kun poistat käytössäsi olleen laajennuksen asennuksen, tiedot säilytetään oletusarvoisesti mahdollista laajennuksen uudelleenasennusta varten. Voit myös valita tietojen poistamisen laajennuksen kanssa. Tämä valinta tehdään **Poista laajennuksen tiedot** -valintaruudun avulla. Oletusarvoisesti tätä valintaruutua *ei ole otettu käyttöön*.
 

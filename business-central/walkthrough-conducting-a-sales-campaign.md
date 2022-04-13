@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 00b2cd6f4e0b7a141bd6c31dc61ceac909407376
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4afda1c307f0f327196ad3dc0d53d74842bf3d9f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140291"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523067"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Vaihekuvaus: Myyntikampanjan suorittaminen
 
@@ -202,7 +202,7 @@ Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.pn
 ## <a name="see-also"></a>Katso myös  
 [Liikesuhteiden hallinta](marketing-relationship-management.md)  
  [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)  
- [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+ [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

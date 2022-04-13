@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.form: 1393, 1394
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2ce238ea11f7bbe04639de64e6529ebe8c6ff2e9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: af522d05f007959552f59922c52e2526a1a7e2b1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139025"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517711"
 ---
-# <a name="using-pre-closing-reports"></a>Sulkemista edeltävien raporttien käyttäminen
+# <a name="use-pre-closing-reports"></a>Sulkemista edeltävien raporttien käyttäminen
 
 Ennen kirjojen sulkemista vuoden tai kauden lopussa voit varmistaa tilien tietojen oikeellisuuden käyttämällä useita eri vakioraportteja. Voit esimerkiksi tarkistaa **Asiakas - Alust. saldo** -raportin avulla, että asiakkaan kirjausryhmän saldo vastaa vastaavan kirjanpitotilin saldoa tiettynä päivämääränä.
 
@@ -39,7 +39,7 @@ Raportin nähdäksesi valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-
 ## <a name="see-also"></a>Katso myös
 
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 

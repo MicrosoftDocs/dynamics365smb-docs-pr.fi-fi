@@ -10,12 +10,12 @@ ms.search.keywords: print check, customize
 ms.search.form: 374, 404
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7be12b5fe3c6bac93a6ea51454a193ba76320a8e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ed0cf9383ed635e3f7b940ef4f28943ffb6bc1a0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149047"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518101"
 ---
 # <a name="select-a-check-layout"></a>Sekin asettelun valitseminen
 
@@ -40,8 +40,7 @@ Kun olet määrittänyt sekkien asettelut, voit tulostaa sekit **Maksupäiväkir
 
 Voit muuttaa jotakin näistä sekkien oletusasetteluista käyttämällä joko Word- tai RDLC-integrointia. Lisätietoja on kohdassa [Raportin mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md).
 
-## <a name="using-micr-and-security-fonts"></a>MICR- ja suojausfonttien käyttäminen
-
+## <a name="use-micr-and-security-fonts"></a>MICR- ja suojausfonttien käyttäminen
 [!INCLUDE[prod_short](includes/prod_short.md)]:n online-versio sisältää valmiiksi asennetut fontit palvelimissa, joita voidaan käyttää sekin asettelujen määrittämisessä. Seuraavassa on esitetty, mitkä fontit ovat käytettävissä, ja siinä on linkit kolmansien osapuolten fonttien toimittajien yksityiskohtaisiin tietoihin.
 
 > [!Important]
@@ -100,7 +99,7 @@ Fontit muihin tarkoituksiin ovat myös saatavilla [!INCLUDE[prod_short](includes
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)   
 [Kauden lopun prosessien viimeisteleminen](year-how-complete-period-end-processes.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
 
 

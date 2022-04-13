@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8c4cca41beb49c05568d6e0c1c21946bb493e30b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6046562a16bd1f9736bd10bea5c4bda397d99df1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145392"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512177"
 ---
 # <a name="set-up-salespeople"></a>Myyjien määrittäminen
 Useat yritykset haluavat seurata yksittäisen työntekijän suoritusta perustana myyntiprovision tai bonuksen laskennalle. Tarkastele esimerkiksi **myyjien provisioiden** raporttia. Yritys voi myös haluta määrittää myyjän kullekin kontaktilleen.
@@ -32,7 +32,7 @@ Voit käyttää myyjiä erilaisissa asiakkuudenhallinta- ja markkinointitöissä
 ## <a name="see-also"></a>Katso myös
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Myynti](sales-manage-sales.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

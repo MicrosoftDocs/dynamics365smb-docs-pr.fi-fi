@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: acf67b3e75df35cf11f743c63fccd79310d9e0f0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6f2ac75c4a00804c0fef47dfb7885fa2d50fbf19
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141019"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515483"
 ---
 # <a name="work-with-bills-of-material"></a>Tuoterakenteen käyttäminen
 Tuoterakenteilla voi jäsentää päänimikkeet, jotka resurssien tai kuormituskeskusten on koottava tai tuotettava komponenteista. Kokoonpanon tuoterakennetta voidaan käyttää myös päänimikkeen myyntiin komponenteista koostuvana tuotepakettina.
@@ -117,7 +117,7 @@ Kokoonpanon tuoterakenteen muodostavien nimikkeiden kustannukset kopioidaan osan
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)     
 [Varasto](inventory-manage-inventory.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

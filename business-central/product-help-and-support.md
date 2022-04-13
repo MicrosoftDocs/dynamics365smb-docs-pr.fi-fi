@@ -4,29 +4,54 @@ description: Tuotteen ohjetta, opastusta, vianetsintää koskevia vihjeitä ja t
 author: edupont04
 ms.reviewer: na
 ms.topic: conceptual
+ms.search.form: HelpAndSupport
 ms.author: edupont
-ms.date: 10/26/2021
-ms.openlocfilehash: aa472df02891c6de1a786a9a4c3321c461a45395
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 03/21/2022
+ms.openlocfilehash: d97911cd7c3556e8ee447102e22b3764548b6f13
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145548"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516924"
 ---
 # <a name="resources-for-help-and-support"></a>Ohje- ja tukiresurssit
 
-[!INCLUDE[prod_long](includes/prod_long.md)]in Ohje-valikossa (kysymysmerkki oikeassa yläkulmassa) voi avata ohjeruudun, josta voi etsiä vastauksia kysymyksiin.  
+Vinkkejä ja ohjeita siitä, miten käyttää kohdetta [!INCLUDE[prod_long](includes/prod_long.md)], miten poistaa eston, mistä voi saada lisätietoja ja miten löytää teknisiä tietoja on saatavilla kohteessa [!INCLUDE [prod_short](includes/prod_short.md)]. Tässä artikkelissa kuvataan, miten etsitään tietoja.  
+
+## <a name="in-product-tips"></a>Tuotteen sisäiset vinkit
+
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)] Nämä linkit voivat myös käyttää sisältöä, joka on julkaistu muilla verkkosivustoilla, kuten [!INCLUDE [prod_short](includes/prod_short.md)]iin asennettujen sovellusten tarjoajien verkkosivustoilla.  
+
+## <a name="help-pane"></a>Ohjeruutu
+
+[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+
+[!INCLUDE [prod_short](includes/prod_short.md)]in Ohje-valikossa (kysymysmerkki oikeassa yläkulmassa) voi avata ohjeruudun, josta voi etsiä vastauksia kysymyksiin. Ohjeruudussa on eri sisältö sen mukaan, miten sitä käytetään. Seuraavassa luettelossa kuvataan kortit, jotka ovat aina tai lähes aina läsnä:  
+
+[!INCLUDE [ua-help-pane-links-default](includes/ua-help-pane-links-default.md)]
+
+Seuraavassa luettelossa kuvataan, miten voit käyttää ohjeruutua ja se, lisätäänkö siihen seuraavat kortit:
+
+- Valitse kentän työkaluvihjeen *Lisätietoja*-linkki
+
+  Seuraava kortti lisätään ohjeruutuun:
+
+  - Kentän työkaluvihje
+- Valitse toiminnon työkaluvihjeen *Lisätietoja*-linkki
+- Valitse Ohje-valikon kohta (oikeassa yläkulmassa oleva kysymysmerkki)
+- Käytä Ctrl+F1-pikanäppäintä mistä tahansa
+
+> [!TIP]
+> Kun valitset linkin, kohdeartikkeli avautuu uuteen selainvälilehteen. Voit päättää poistaa selaimen välilehden kiinnityksen ja siten voit tarkastella asiaankuuluvia tietoja rinnakkain [!INCLUDE [prod_short](includes/prod_short.md)]in kanssa. Ruutu pysyy avoimena, kun siirryt [!INCLUDE [prod_short](includes/prod_short.md)]issa, jotta etsimäsi sisältö pysyy näkyvissä.  
 
 ## <a name="search-in-the-help-pane"></a>Haku ohjeruudusta
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
-Vuoden 2021 2. julkaisuaalto sisältää uuden ohjeruudun, jossa on hakuvälilehti. Hakukentän avulla voit etsiä ohjeita tuotteen, sisäänrakennettujen ominaisuuksien ja käytettävissä olevien koulutusmoduulien käyttämisestä. Hakutermien mukaan ruudussa näkyy vähintään viisi linkkiä, joissa on lyhyt kuvaus. Valitse linkki tai tarkenna hakutermejä. Kun valitset linkin, kohdeartikkeli avautuu uuteen selainvälilehteen. Voit päättää poistaa selaimen välilehden kiinnityksen ja siten voit tarkastella asiaankuuluvia tietoja rinnakkain [!INCLUDE [prod_short](includes/prod_short.md)]in kanssa. Ruutu pysyy avoimena, kun siirryt [!INCLUDE [prod_short](includes/prod_short.md)]issa, jotta etsimäsi sisältö pysyy näkyvissä.  
+Hakukentän avulla ohjeruudun yläosassa voit etsiä ohjeita tuotteen, sisäänrakennettujen ominaisuuksien ja käytettävissä olevien koulutusmoduulien käyttämisestä. Hakutermien mukaan ruudussa näkyy vähintään viisi linkkiä, joissa on lyhyt kuvaus. Valitse linkki tai tarkenna hakutermejä. Kun valitset linkin, kohdeartikkeli avautuu uuteen selainvälilehteen. Voit päättää poistaa selaimen välilehden kiinnityksen ja siten voit tarkastella asiaankuuluvia tietoja rinnakkain [!INCLUDE [prod_short](includes/prod_short.md)]in kanssa. Ruutu pysyy avoimena, kun siirryt [!INCLUDE [prod_short](includes/prod_short.md)]issa, jotta etsimäsi sisältö pysyy näkyvissä.  
 
 > [!NOTE]
-> [!INCLUDE [prod_short](includes/prod_short.md)]in tämänhetkisessä versiossa Ohje-ruudun hakukenttä koskee vain sisältöä, joka on julkaistu docs.microsoft.com-sivustossa.
-
-[!INCLUDE [ua-get-help](includes/ua-get-help.md)] Nämä linkit voivat myös käyttää sisältöä, joka on julkaistu muilla verkkosivustoilla, kuten [!INCLUDE [prod_short](includes/prod_short.md)]iin asennettujen sovellusten tarjoajien verkkosivustoilla.  
+> [!INCLUDE [prod_short](includes/prod_short.md)]in tämänhetkisessä versiossa Ohje-ruudun hakukenttä koskee vain sisältöä, joka on julkaistu [Docs.microsoft.com](/dynamics365/business-central)-sivustossa.
 
 ## <a name="help--support-page"></a>Ohje- ja tukisivu
 
@@ -35,7 +60,7 @@ Ohje-ruudusta voit avata **Ohje ja tuki** -sivun, [!INCLUDE [prod_short](include
 Tässä osassa käsitellään resursseja, jotka ovat käytössäsi **Ohje ja tuki** -sivun eri osissa, kuten seuraavassa luettelossa on hahmoteltu:
 
 - [Vastauksien etsiminen](#find-answers)  
-- [Tuotteen ohje](#product-help)  
+- [Ohje](#product-help)  
 - [Yhteisö](#community)  
 - [Blogi](#blog)  
 - [Tulossa olevat ominaisuudet](#capabilities-coming-soon)  
@@ -59,6 +84,7 @@ Tässä osassa käsitellään resursseja, jotka ovat käytössäsi **Ohje ja tuk
 - Ohje, joka koskee juuri [!INCLUDE[prod_short](includes/prod_short.md)]issa katsottua sivua  
 
   Tämä linkki luodaan automaattisesti. Jos [!INCLUDE[prod_short](includes/prod_short.md)] ei löydä sopivaa linkkiä, näytetään [!INCLUDE[prod_short](includes/prod_short.md)]in oletusversion saapumissivu [Docs.microsoft.comissa](index.md). Jos sivu oli esimerkiksi sellaisen sovelluksen osa, joka ei lisännyt tilannekohtaista Ohje-määritystä [!INCLUDE[prod_short](includes/prod_short.md)]iin, *Lisätietoja-linkki* vie oletusarvoisesti saapumissivulle.  
+  
 - [!INCLUDE[prod_short](includes/prod_short.md)]in ohjeen saapumissivu  
 
   [!INCLUDE[prod_short](includes/prod_short.md)]in oletusversion toimintoja käsitellään [Docs.microsoft.com](/dynamics365/business-central)-sivustossa. Lisätietoja on kohdassa [Lisätietojen etsiminen docs.microsoft.com-sivustossa](#use-the-docsmicrosoftcom-site-to-learn-more). [!INCLUDE[prod_short](includes/prod_short.md)]ia voi myös laajentaa ja mukauttaa AppSourcen sovelluksilla. Kaikissa sovelluksissa on linkkejä liittyvän tuotteen ohjeeseen, joten löydät aina oman [!INCLUDE[prod_short](includes/prod_short.md)] -versiosi työnkulkuja koskevaa opastusta.  
@@ -105,7 +131,7 @@ Sisäinen järjestelmänvalvoja voi käyttää hallintakeskusta, jossa voit jatk
 - [Telemetrian seuranta ja analysointi](/dynamics365/business-central/dev-itpro/administration/telemetry-overview)  
 - [Ota käyttöön telemetrian lähettäminen Application Insights iin](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)  
 
-### <a name="report-a-problem"></a>Ongelman ilmoittaminen
+### <a name="report-a-problem"></a>Ilmoita ongelmasta
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -jälleenmyyntikumppani antaa teknistä tukea. Tämä osa helpottaa yhteyden ottamista jälleenmyyntikumppaniin, jos tämä on antanut tuen yhteystiedot. Jos [!INCLUDE[prod_short](includes/prod_short.md)] -kumppani ei pysty ratkaisemaan ongelmaaa, he voivat tehdä tukipyynnön Microsoftille.  
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: 27f9b5002d96d55121272f992f58c9cf9748111f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 97ba3a62954ae2d38106f0dc7aa4f1080e483ef5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137469"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517841"
 ---
 # <a name="planning-with-or-without-locations"></a>Suunnittelu sijainteja käyttämällä tai ilman niitä
 Käytetään sijaintikoodeja kysyntäriveillä suunnittelussa tai ei, suunnittelujärjestelmä toimii suoraviivaisesti seuraavien asioiden toteutuessa:  
@@ -156,8 +156,8 @@ Jos siis suunnittelet usein kysyntää sijainneissa, Varastointiyksiköt-ominais
 [Varastointiyksiköiden määrittäminen](inventory-how-to-set-up-stockkeeping-units.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)  
-[Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Parhaiden käytäntöjen määrittäminen: Toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

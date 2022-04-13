@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 32000006
 ms.date: 06/18/2021
 ms.author: soalex
-ms.openlocfilehash: e76351be3b75fa9479981b9780764968ae0ad2ea
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4d734fccad90d9c310b38063cedebe621c7a5a8f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144195"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515191"
 ---
 # <a name="finland-local-functionality"></a>Suomen paikalliset toiminnot
 
@@ -42,7 +42,7 @@ Seuraavissa ohjeaiheissa kerrotaan [!INCLUDE[prod_short](../../includes/prod_sho
 
 ## <a name="see-also"></a>Katso myös
 
-[[!INCLUDE[prod_short](../../includes/prod_short.md)] -ohjelman käyttäminen](../../ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Maa- ja aluekohtainen saatavuus ja tuetut kielet](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 ## [!INCLUDE[prod_short](../../includes/free_trial_md.md)]  

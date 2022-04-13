@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a4abd45046beb70376490dbd4209f33debf6b573
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a9118614872559a9b2c321e7869f1b013266d92b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382057"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522142"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Kustannusten kohdistaminen konsernikumppaneille
 Kun käytät konsernin kirjauksia asiakirjojen siirtoon konsernikumppanien välillä, ALV:hen liittyvät asetukset (pääasiassa liiketoiminnan ALV-kirjausryhmä), jotka on määritetty (konsernikumppaniin liittyville) asiakas- tai toimittajatileille, määrittävät, lasketaanko ALV ja miten se lasketaan ja rekisteröidään. Voit myös tehdä kustannusten jakoja suoraan ostotilauksesta kumppaniyrityksiin. Jos esimerkiksi rekisteröit ostolaskun ulkopuoliselle toimittajalle ja haluat jakaa osan kustannuksista tai kaikki kustannukset yhdelle tai useammalle konsernikumppanille.
@@ -91,6 +91,6 @@ Kun käytät asiakirjaa kustannusten jakamiseen konsernikumppaneille, huomaa kak
 [Rahoitus](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

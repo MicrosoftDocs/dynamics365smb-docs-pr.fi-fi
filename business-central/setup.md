@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 38aaf6b77defd6afcc9cbe2bda7b56d71c139699
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 10b9483d46caa9fff156a80f5301521ae9c36d63
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128634"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510763"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in määritystehtävien yleiskatsaus
 
@@ -46,8 +46,8 @@ Tietyt joko yleiset tai erityiset liiketoimintaprosessien toiminnot voidaan mä�
 |Paranna toteutuksen laatua ja lyhennä käyttöönottoa käyttämällä työkaluja, jolla uusi yritys määritetään ohjattujen toimintojen, mallien, työkirjojen ja asiakaskyselyjen avulla.|[Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md)|
 |Asiakas-, toimittaja-, varasto- ja pankkitilitietojen siirtäminen toisesta järjestelmästä [!INCLUDE[prod_short](includes/prod_short.md)]iin|[Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md).|
 |Voit tarkastella Business Centralin Outlook-apuohjelmien avulla asiakkaisiin ja toimittajiin liittyviä taloustietoja tai luoda ja lähettää talousasiakirjoja, kuten tarjouksia ja laskuja.|[Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md)|
-|Saat lisätietoja Business Central -tiedoista Power BI:n ja Business Centralin sisältöpakettien avulla.|[Yritystietojen ottaminen käyttöön Power BI:tä varten](admin-powerbi.md)|
-|Käytä Business Central -tietoja Power Automate -työnkulun osana.|[Business Central -sovelluksen käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md)|
+|Saat lisätietoja Business Central -tiedoista Power BI:n ja Business Centralin sisältöpakettien avulla.|[Yritystietojen ottaminen käyttöön Power BI:ta varten](admin-powerbi.md)|
+|Käytä Business Central -tietoja Power Automate -työnkulun osana.|[Business Centralin käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md)|
 |Ota Business Central -tiedot käyttöön Power Appsin tietolähteenä.|[Yhteyden muodostaminen Business Central -tietoihin yrityssovelluksen luomista varten Power Appsin avulla](across-how-use-financials-data-source-powerapps.md)|
 |Käytä erityisiä Quickbooksin siirto-oppaita.|[Vaihtaminen QuickBooks-sovelluksesta Business Centraliin](across-quickbooks-to-business-edition.md)|
 |Käytä Business Central -tietoja mobiililaitteella.|[Business Central -sovelluksen hakeminen mobiililaitteeseen](install-mobile-app.md)|
@@ -63,6 +63,7 @@ Joidenkin alueiden edellytyksenä on, että käyttäjä on [!INCLUDE[prod_short]
 
 ## <a name="see-also"></a>Katso myös
 
+[Yrityksen tietojen yleiskatsaus](admin-company-information.md)  
 [Hallinta](admin-setup-and-administration.md)  
 [Rahoitus](finance.md)  
 [Myynti](sales-manage-sales.md)  
@@ -73,7 +74,7 @@ Joidenkin alueiden edellytyksenä on, että käyttäjä on [!INCLUDE[prod_short]
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Tuotanto](production-manage-manufacturing.md)  
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Uusien yritysten luominen [!INCLUDE[prod_short](includes/prod_short.md)]issa](about-new-company.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Business Centralin pika-aloitus](quick-start-business-central.md)  

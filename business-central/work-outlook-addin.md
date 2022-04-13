@@ -1,5 +1,5 @@
 ---
-title: Business Central -sovelluksen käyttäminen Outlookin kanssa | Microsoft Docs
+title: Business Centralin käyttäminen Outlookin kanssa
 description: Tämä palvelu integroituu kattavasti Microsoft 365:n kanssa, joten voit hallita kaikkea yrityksen asiakkaiden ja toimittajien kanssa tapahtuvaa viestintää suoraan Outlookissa.
 author: jswymer
 ms.topic: conceptual
@@ -7,16 +7,16 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
-ms.date: 08/13/2021
+ms.date: 03/21/2022
 ms.author: jswymer
-ms.openlocfilehash: c281ce94e518f8ef099bb3e48177b90732a65c45
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 264dec3372ed33588d0f7f77a3e3b4d4d6795e42
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145130"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528528"
 ---
-# <a name="using-business-central-as-your-business-inbox-in-outlook"></a>Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa
+# <a name="use-business-central-as-your-business-inbox-in-outlook"></a>Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tarjoaa apuohjelman, jonka avulla voit hallita liiketoiminnallisia vuorovaikutuksia asiakkaiden ja toimittajien kanssa suoraan Microsoft Outlookista. [!INCLUDE[prod_short](includes/prod_short.md)]in Outlook-apuohjelman avulla voit tarkastella asiakkaisiin ja toimittajiin liittyviä taloustietoja sekä luoda ja lähettää talousasiakirjoja, kuten tarjouksia ja laskuja.
 
@@ -80,13 +80,13 @@ Joskus haluat nähdä enemmän kenttiä kuin lisäohjelmassa on. Näin voi tapah
 
 Voit esimerkiksi avata täydelliset kontaktitiedot niin kuin ne näkisit [!INCLUDE[prod_short](includes/prod_short.md)]issa. Jos työskentelet useamman kuin yhden [!INCLUDE[prod_short](includes/prod_short.md)] -yrityksen kanssa, voit helposti vaihtaa yritysten välillä.
 
-### <a name="track-incoming-documents"></a>Saapuvien asiakirjojen seuranta 
+### <a name="track-incoming-documents"></a>Saapuvien asiakirjojen seuranta
 
 Ehkä käytät **Saapuvat asiakirjat** -luetteloa [!INCLUDE[prod_short](includes/prod_short.md)]issa, kun haluat seurata asiakirjoja, joita toimittajat lähettävät, kuten ostolasku, joka täytyy maksaa. Jos teet näin, voit helposti luoda Saapuvat asiakirjat -tietueita Outlook-apuohjelmasta ja sisällyttää sähköpostin liitteet.
 
-1. Kun vastaanotat liitteen sisältävän toimittajan sähköpostin, valitse ![Outlookissa Business Central -apuohjelman kuvake.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Kontaktien tiedot**. 
+1. Kun vastaanotat liitteen sisältävän toimittajan sähköpostin, valitse ![Outlookissa Business Central -apuohjelman kuvake.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Kontaktien tiedot**.  
 
-2. Valitse apuohjelman toimintopalkissa **Näytä lisää toimintoja** ja valitse **Lähetä saapuviin asiakirjoihin...** .. 
+2. Valitse apuohjelman toimintopalkissa **Näytä lisää toimintoja** ja valitse **Lähetä saapuviin asiakirjoihin...** -toiminto.  
 
 ### <a name="create-and-send-new-document-to-a-contact"></a>Uuden asiakirjan luominen ja lähettäminen kontaktille
 
@@ -94,11 +94,39 @@ Ehkä käytät **Saapuvat asiakirjat** -luetteloa [!INCLUDE[prod_short](includes
 2. Tee muutokset asiakirjaan **[!INCLUDE[prod_short](includes/prod_short.md)]** -lisäosan ruudussa.
 3. Kun asiakirja on valmis lähetettäväksi kontaktille, valitse toimintopalkissa **Näytä lisää toimintoja** ja valitse **Lähetä sähköpostilla** -toiminto.
 
+### <a name="attach-files-to-records"></a>Liitä tiedostoja tietueisiin
+
+Sähköpostisi Saapuneet-kansio toimii usein saapuvien tiedostojen lähteenä, kun työnkulkuja käynnistetään tai niiden esto poistetaan. Tiedostot voivat sisältää esimerkiksi PDF-laskun maksuja, valokuvia tavaroista tai Word-asiakirjan vaatimuksia. Kun työskentelet Outlookissa Business Centralin tietueiden, kuten toimittajien, asiakkaiden, ostolaskujen tai myyntitilausten, parissa, voit liittää nämä tiedostot tietueisiin.
+
+Voit liittää tiedostoja muutamalla eri tavalla. Yksi tapa on ladata tiedostoja laitteesta. Toinen tapa on lähettää sähköpostiin liitettyjä tiedostoja. Oletetaan esimerkiksi, että saat sähköpostiviestin, jossa on yhteyshenkilön tiedostot. Lisäosa näyttää automaattisesti kontaktitietueen, joka vastaa sähköpostin lähettäjää. Sieltä voit navigoida kontaktin asiakirjaan, kuten uusimpaan myyntitilaukseen. Kun olet tunnistanut tilauksen, johon sähköposti liittyy, voit nopeasti ladata tiedostot sähköpostista kyseiseen tilaukseen.
+
+![Näyttää, miten sähköpostista lisätään liitteitä Business Centralin tietueisiin.](media/outlook-attach-files.png)
+
+Kun asiakirja on liitetty, työtoverit voivat ladata ja tarkastella tiedostoa minkä tahansa Business Central -asiakkaan **Liitteet**-tietoruudussa. He voivat myös avata tiedoston kohteessa OneDrive ja jakaa ja tehdä yhteistyötä osastonsa kanssa.
+
+#### <a name="how-to-attach-a-file"></a>Tiedoston liittäminen
+
+1. Avaa sähköpostiviesti, valitse ![Outlookin Business Central -apuohjelman kuvake.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Kontaktien tiedot**.
+2. Valitse apuohjelman toimintopalkissa **Näytä lisää toimintoja** > **Liitteet**.
+
+    **Liitetyt asiakirjat** -sivu avautuu, ja näyttöön tulee luettelo asiakirjoista, jotka on jo liitetty tietueeseen.
+3. Valitse **Liitetyt tiedostot...** ja valitse sitten jokin seuraavista vaihtoehdoista:
+
+   - Lataa sähköpostiin liitetyt tai valitut tiedostot valitsemalla **Liitä sähköpostista**.
+   - Valitse **Lataa tiedostosta**, jos haluat ladata yhden tai useita tiedostoja laitteesta.
+
+> [!NOTE]
+> Et voi liittää tiedostoja kaikkiin tietueisiin. Tämä ominaisuus on käytettävissä tietueissa, jotka käyttävät **Liitteet**-tietoruutua, kuten toimittajaa, asiakasta, ostolaskua tai myyntitilausta.
+
 ## <a name="view-a-document-from-an-email-using-the-document-view-add-in"></a>Asiakirjan tarkasteleminen sähköpostiviestistä Asiakirjanäkymä-apuohjelman avulla
 
 Olipa kyseessä sähköpostiviesti, jonka olet lähettänyt tai vastaanottanut, voit näyttää minkä tahansa [!INCLUDE[prod_short](includes/prod_short.md)] -asiakirjan, kuten myyntitarjouksen, suoraan Outlookissa. Sieltä voit tehdä muutoksia ja navigoida liittyviin tietoihin &mdash; aivan kuten [!INCLUDE[prod_short](includes/prod_short.md)]issa.
 
-Jos käytät Outlook-sovellusta, valitse vain sähköpostiviestin yläosassa **Asiakirjan linkki**. Jos kyseessä on Outlook verkossa, etsi asiakirjan viitelinkki sähköpostiviestistä. Viitelinkin teksti sisältää asiakirjanumeron, joka perustuu [!INCLUDE[prod_short](includes/prod_short.md)]-ohjelman käyttämiin numerosarjoihin. Esimerkiksi myyntitarjouksen linkki voisi olla esimerkiksi **Sales Quote S-QUO1000**.
+Jos käytät Outlook-sovellusta, valitse vain sähköpostiviestin yläosassa **Asiakirjan linkki**. Jos kyseessä on Outlook verkossa, etsi asiakirjan viitelinkki sähköpostiviestistä. Viitelinkin teksti sisältää asiakirjanumeron, joka perustuu [!INCLUDE[prod_short](includes/prod_short.md)]-ohjelman käyttämiin numerosarjoihin. Esimerkiksi myyntitarjouksen linkki voisi olla esimerkiksi **Sales Quote S-QUO1000**.  
+
+> [!TIP]
+> Alkaen vuoden 2022 julkaisuaallosta 1, asiakirjat avautuvat uuteen selainikkunaan kaikilla ominaisuuksilla, jotka ovat tuttuja kohteesta [!INCLUDE [prod_short](includes/prod_short.md)]. Voit siirtyä asiakirjasta luetteloon ja takaisin, avata luetteloita Excelissä, lähettää asiakirjat tulostettavaksi sekä suorittaa tai esikatsella liittyviä raportteja. Myös kaikki tutut pikanäppäimet ovat saatavilla, kun avaat asiakirjoja Outlookista.  
+
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on [Microsoft Learnissa](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b4ec7a008c58256a8b7a351d8ee6890ad43fb00a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 012fe136161d891cb4adde6ace120040f7da909a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136975"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513677"
 ---
 # <a name="set-up-shipping-agents"></a>Kuljetusliikkeiden määrittäminen
 Voit määrittää koodin jokaiselle kuljetusliikkeelle, ja syöttää tietoja niistä.  
@@ -43,7 +43,7 @@ Kun olet määrittänyt kuljetusliikkeen palvelun myyntitilausriville, palvelun 
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)     
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

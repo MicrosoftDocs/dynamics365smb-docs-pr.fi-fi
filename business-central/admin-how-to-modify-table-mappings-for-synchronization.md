@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: dfae531d49166d3a95c841cfc27e7f73e181072d
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b0d7382cbc831ff856dc8d75bb776fc9f9ee022a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383135"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515743"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Synkronoitavien taulujen ja kenttien yhdistäminen
 
@@ -85,7 +85,7 @@ Esimerkiksi MYYJÄT - Dynamics 365 Sales -synkronointityö käyttää taulukon y
 
 2.  Poista luettelossa taulukon yhdistämismäärityksessä **Synkronoi vain yhdistetyt tietueet** -kentän arvo.  
 
-## <a name="using-configuration-templates-on-table-mappings"></a>Määritysmallien käyttäminen taulukon yhdistämismäärityksissä
+## <a name="use-configuration-templates-on-table-mappings"></a>Määritysmallien käyttäminen taulukon yhdistämismäärityksissä
 Määritysmallit voidaan määrittää taulumäärityksiin käyttämään uusia tietueita tai rivejä, jotka on luotu [!INCLUDE[prod_short](includes/prod_short.md)]issa tai [!INCLUDE[prod_short](includes/cds_long_md.md)]issa. Voit määrittää kuhunkin taulukon yhdistämismääritykseen määritysmallin käytettäväksi uusissa [!INCLUDE[prod_short](includes/prod_short.md)]in tietueissa ja toisen mallin käytettäväksi uusissa [!INCLUDE[prod_short](includes/cds_long_md.md)]in riveissä.  
 
 Jos asennat oletussynkronointimäärityksen, kaksi määritysmallia luodaan useimmiten automaattisesti ja käytetään [!INCLUDE[prod_short](includes/prod_short.md)] -asiakkaiden ja [!INCLUDE[crm_md](includes/crm_md.md)] -tilien taulukon yhdistämismäärityksiin: **CDSCUST** ja **CDSACCOUNT**.  

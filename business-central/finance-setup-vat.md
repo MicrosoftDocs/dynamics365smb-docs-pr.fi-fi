@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.author: bholtorf
-ms.openlocfilehash: 80264ff085ab9d88a2d6a32d8f0f1189b3622832
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 285f0f224853837e2aac6553c34d366afb09f08a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383669"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519223"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen
 
@@ -31,7 +31,7 @@ Voit määrittää ALV-laskelmat manuaalisesti, mutta se voi olla hankalaa ja ai
 > [!NOTE]  
 > Voit käyttää opasta vain siinä tapauksessa, että olet luonut oman yrityksen etkä ole kirjannut ALV:n sisältäviä tapahtumia. Muussa tapauksessa on erittäin helppoa käyttää vahingossa eri ALV-prosentteja, mikä johtaisi virheellisiin ALV-raportteihin.  
 
-Jos haluat määrittää ALV-laskelmat itse tai jos haluat lisätietoja kustakin vaiheesta, kukin vaihe käsitellään tässä ohjeaiheessa.  
+Jos haluat määrittää ALV-laskelmat itse tai jos haluat lisätietoja kustakin vaiheesta, kukin vaihe käsitellään tässä artikkelissa.  
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
@@ -44,6 +44,14 @@ Avaa avustettu asennusopas seuraavasti:
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Asetusten ohjattu määritys**.  
 2. Valitse **Määritä ALV** ja suorita vaiheet.
 3. Kun olet suorittanut avustetut asetukset, käy **ALV-kirjausten asetukset** -sivulla ja tarkista, onko sinun täytettävä lisää kenttiä paikallisen vaatimusten mukaan [!INCLUDE [prod_short](includes/prod_short.md)] -versiossasi. Lisätietoja on kohdassa [Paikalliset toiminnot Business Centralissa](about-localization.md)  
+
+### <a name="check-the-vat-posting-setup"></a>Tarkista ALV-kirjausasetukset.
+
+Jos haluat tukea nopeaa käyttöönottoa, [!INCLUDE [prod_short](includes/prod_short.md)] näyttää ilmoitukset, jos kirjausryhmistä tai kirjausasetuksissa (esimerkiksi **ALV-kirjausten asetukset** -sivulla) puuttuvat KP-tilit. Voit ottaa tämäntyyppisen ilmoituksen käyttöön tai poistaa sen käytöstä käyttämällä *KP-tili puuttuu kirjausryhmästä tai määrityksestä* -ilmoitusta **Omat ilmoitukset** -sivulla. Siirry **Omat asetukset** -sivulle ja valitse *Ilmoitusten vastaanottoajankohdan muuttaminen*. linkki.  
+
+Jos valitset tällaisen ilmoituksen, [!INCLUDE [prod_short](includes/prod_short.md)] luo nämä kirjausasetukset automaattisesti sen asiakirjan tai päiväkirjan kirjausryhmien perusteella, jota parhaillaan käsittelet.  
+
+Tässä vaiheessa saatat vain täyttää puuttuvat KP-tilit. Myöhemmin, kun tarkennat asetuksia tarkemmin, saatat huomata, että asetus oli virheellinen. [!INCLUDE [prod_short](includes/prod_short.md)] ei salli ALV-kirjausasetusten ja yleisten kirjaus asetusten poistoa silloin, kun on luotuna tapahtumia, jotka perustuvat tällaisiin konfiguraatioihin. Vuoden 2022 1. julkaisuaallossa voit käyttää **ALV-kirjausasetukset** -sivun **Estetty**-kenttää, jos haluat estää käyttäjiä vahingossa käyttämästä asetuksia, jotka eivät enää ole merkityksellisiä uusissa kirjauksissa.
 
 ## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Määritä oman maan tai alueen ALV-rekisteröintinumerot
 
@@ -94,7 +102,7 @@ Voit määrittää niin monta yhdistelmää kuin haluat. Jos haluat ryhmitellä 
 ALV-kirjausasetukset yhdistetään seuraavasti:
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 5.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-kirjausten asetukset** ja valitse sitten vastaava linkki.
-2. Täytä tarvittavat kentät.
+2. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>ALV-kirjausryhmien määrittäminen oletusarvoisesti useille objekteille
 

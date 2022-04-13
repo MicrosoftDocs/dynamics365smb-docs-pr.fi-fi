@@ -10,12 +10,12 @@ ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.search.form: 1826, 1827
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c1873d8b5b4da7958fdab052bc587d004b06c7c6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5e6e633155131c7a397a4214d9d22d9464b0847d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136090"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518153"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Usean yrityksen kirjanpitotietojen konsolidoiminen
 
@@ -118,7 +118,7 @@ Viedyt tapahtumat sisältävät seuraavat kentät: **Tilinro**, **Kirjauspvm** j
 
 [Määritä yrityksen konsolidointi](finance-consolidated-company-reporting-setup.md)  
 [Konsernitapahtumien hallinta](intercompany-manage.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Liiketoimintatietojen vienti Exceliin](about-export-data.md)
 
 

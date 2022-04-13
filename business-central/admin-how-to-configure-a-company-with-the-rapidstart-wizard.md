@@ -1,22 +1,25 @@
 ---
-title: Yrityksen ja ohjatun RapidStart-toiminnon määrittäminen | Microsoft Docs
-description: Voit määrittää nopeasti uuden yrityksen, jonka olet luonut käyttämällä RapidStart Servicesin ohjattua määritystoimintoa.
+title: Yrityksen ja ohjatun RapidStart-toiminnon määrittäminen
+description: Business Central on-premises -versiossa voit määrittää uuden yrityksen, jonka olet luonut käyttämällä RapidStart Servicesin ohjattua määritystoimintoa.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 03/28/2022
 ms.author: edupont
-ms.openlocfilehash: 1b29412d166bd5b2225d780a0b0cee476874dcd0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 189701aef31c5bbdc3323b753667937775d59a9d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130850"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515795"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Yrityksen ja ohjatun RapidStart-toiminnon määrittäminen
+
+[!INCLUDE [onprem_only_md](includes/onprem_only_md.md)]
+
 Voit määrittää nopeasti uuden yrityksen, jonka olet luonut käyttämällä RapidStart Servicesin ohjattua määritystoimintoa.
 
 Seuraavassa toimenpiteessä olet antanut asiakkaalle määrityspaketin, joka sitten asennetaan tietokoneeseen. Asiakas avaa uuden yrityksen, jolla ei ole asiakastietoja. Sinä tai yritys seuraa sitten ohjatun RapidStart Services -toiminnon vaiheita, jotka on kuvattu tässä menettelyssä, ja antaa yrityksen perustiedot. Ohjattu toiminto tuo kokoonpanopaketin ja käyttää sitten pakettia yrityksessä.  

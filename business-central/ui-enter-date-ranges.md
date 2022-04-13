@@ -10,14 +10,14 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 934fcefa552f01a05f95221d57d9a708b9acc26f
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 010d130801dd68023eca4c3b65d716fa3ddcc8e8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323004"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518859"
 ---
-# <a name="working-with-calendar-dates-and-times"></a>Kalenterin päivämäärien ja aikojen käsitteleminen
+# <a name="work-with-calendar-dates-and-times"></a>Kalenterin päivämäärien ja aikojen käsitteleminen
 
 [!INCLUDE[prod_short](includes/prod_long.md)] sisältää useita tapoja päivämäärien ja aikojen syöttämiseen sekä tehokkaita toimintoja, jotka nopeuttavat tietojen syöttämistä ja helpottavat monimutkaisten kalenterilausekkeiden kirjoittamista. Sovelluksessa on useita kohtia, joissa voi syöttää päivämääriä ja aikoja kenttiin. Esimerkiksi myyntitilauksessa voi määrittää lähetyspäivämäärän. Voit syöttää päivämäärät ja ajat luetteloiden tai raportin tietojen suodattamisen yhteydessä ja etsiä vain tiedot, joista olet kiinnostunut.
 
@@ -63,12 +63,15 @@ Viikon numeromalli on aina ISO 8601, jossa viikko 1 on viikko, joka sisältää 
 
 Päivämäärä-kenttään voi syöttää kaksi, neljä, kuusi tai kahdeksan numeroa:
 
--   Jos syötät vain kaksi numeroa, ohjelma tulkitsee ne kuukaudeksi ja vuodeksi ja lisää käsittelypäivämäärän vuoden.
+- Jos syötät vain kaksi numeroa, ohjelma tulkitsee ne kuukaudeksi ja vuodeksi ja lisää käsittelypäivämäärän vuoden.
 
--   Jos syötät neljä numeroa, ohjelma tulkitsee ne päiväksi ja kuukaudeksi ja lisää käsittelypäivämäärän vuoden. Päivän ja kuukauden järjestys riippuu alueasetuksista. Vaikka alueasetuksissa olisi vuosi ennen päivää ja kuukautta, neljä lukua tulkitaan päiväksi ja kuukaudeksi.
+- Jos syötät neljä numeroa, ohjelma tulkitsee ne päiväksi ja kuukaudeksi ja lisää käsittelypäivämäärän vuoden. Päivän ja kuukauden järjestys riippuu alueasetuksista. Vaikka alueasetuksissa olisi vuosi ennen päivää ja kuukautta, neljä lukua tulkitaan päiväksi ja kuukaudeksi.
 
--   Jos päivämäärä, jonka haluat syöttää, on välillä 1.1.1930 ja 31.12.2029, voit syöttää vuoden kaksinumeroisena. Muutoin vuosi täytyy syöttää nelinumeroisena.
+- Jos päivämäärä, jonka haluat syöttää, on välillä 1.1.1950 ja 31.12.2049, voit syöttää vuoden kaksinumeroisena. Muutoin vuosi täytyy syöttää nelinumeroisena.
 
+  > [!NOTE]
+  > Jos käytössä on paikallinen [!INCLUDE[prod_short](includes/prod_short.md)], kaksinumeroinen vuosiväli voi olla eri. Järjestelmänvalvojat voivat muuttaa aluetta muuttamalla **CalendarTwoDigitYearMax**-asetusta [!INCLUDE[prod_short](includes/prod_short.md)]-palvelimessa. Lisätietoja on kohdassa [Business Central Serverin määrittäminen](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
+ 
 ### <a name="today"></a>Tänään
 
 Syötä sana _today_ **Omat asetukset** -sivulla määritetyllä kielellä määrittääksesi tietueen päivämäärän tälle päivämäärälle. Sen sijaan, että syötät koko sanan, voit syöttää sanan alkuosan. Esimerkiksi suomeksi voit syöttää _t_ tai _tän_, kunhan se ei ole myös jonkin toisen sanan alku.
@@ -130,7 +133,7 @@ Luetteloissa, kokonaissummissa ja raporteissa voi määrittää suodattimia päi
 
 Voit käyttää päivämääräalueiden suodattimissa mitä tahansa sallittua muotoa. Jos esimerkiksi päivämäärän ja ajan kentässä käytetään arvoa ma14 3..t 4j, tuloksena on suodatin, joka käsittää aikavälin kuluvan käsittelypäivämäärän vuoden viikon 14 maanantaista kello 3:00 kuluvaan päivään kello 16:00 kyseiset ajankohdat mukaan lukien.
 
-## <a name="using-date-formulas"></a>Päivämäärän kaavojen käyttäminen
+## <a name="use-date-formulas"></a>Päivämääräkaavojen käyttäminen
 Päivämäärän kaava on lyhyt kirjain- ja numeroyhdistelmä, joka kertoo ohjelmalle, miten päivämäärät lasketaan. Voit syöttää päivämääräkaavat erilaisiin päivämäärien laskentakenttiin ja suodattimiin.
 
 > [!NOTE]
@@ -216,7 +219,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## Using Date Formulas
+## Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -336,7 +339,7 @@ Voit tarkastaa, mitä mittayksikköä kestokentässä käytetään, syöttämäl
 Jos mittayksikkö on esimerkiksi Tunnit, numero 5 muunnetaan 5 tunniksi.
 
 ## <a name="see-also"></a>Katso myös
-[[!INCLUDE[prod_short](includes/prod_long.md)]in käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Ostojen päivämäärälaskenta](purchasing-date-calculation-for-purchases.md)  
 [Ehtojen antaminen suodattimiin](ui-enter-criteria-filters.md)  
 

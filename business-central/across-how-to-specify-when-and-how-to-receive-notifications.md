@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 3f663ca22cdcfde38b42ac0285eaf403a9e0982d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 261e2908f7f7ed3a47a337b2c3f49d7c633f1cce
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129165"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522350"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Työnkulkuilmoitusten vastaanoton ajankohdan ja tavan määrittäminen
 Kun määrität hyväksynnän käyttäjiä työnkuluissa, joissa jonkun on tarkoitus hyväksyä muutokset, kuten uusia tietueita luotaessa tai jonkun pyytäessä hyväksyntää, sinun on määritettävä miten hyväksynnän käyttäjälle ilmoitetaan ja miten. Voit esimerkiksi määrittää, että hyväksynnän käyttäjä saa välittömästi sähköpostiviestin, kun joku luo uuden asiakkaan. Vaihtoehtoisesti voit aikatauluttaa toimitettavat ilmoitukset esimerkiksi viikko- tai kuukausiperusteisesti.
@@ -73,7 +73,7 @@ Useat hyväksyntätyönkulun osavaiheet ilmoittavat käyttäjille toimia vaativi
  [Raporttien mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)   
  [Työnkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md)   
  [Työnkulkujen määrittäminen](across-set-up-workflows.md)   
- [Työnkulkujen käyttäminen](across-use-workflows.md)
+ [Käytä työnkulkuja](across-use-workflows.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

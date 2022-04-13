@@ -5,14 +5,14 @@ author: edupont04
 ms.topic: conceptual
 ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
-ms.date: 04/01/2021
+ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 16ad3480c10da544c7fdd3a6a299dc6d86cfce46
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35cd5f86eeee3eecd24f63d37f8d43191dbd9be8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134054"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512450"
 ---
 # <a name="report-selection-in-business-central"></a>Raporttien valinta Business Centralissa
 
@@ -43,6 +43,7 @@ Voit määrittää oletusraportit, joita käytetään, kun tulostat myynnin ja o
 * **Raporttivalinta - Fyysinen varasto**  
 * **Raporttivalinta - Pankkitili**  
 * **Raporttivalinta – Muistutus-/viivästyskulu**  
+* **Raporttivalinta – Projekti**  
 
 ## <a name="example-report-selection-for-sales-documents"></a>Esimerkki: Myyntiasiakirjojen raporttivalinta
 
@@ -68,6 +69,15 @@ Esimerkiksi **Raporttivalinta – Myynti** ja **Raporttivalinta – Osto** -sivu
 [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md)  
 [Asiakirja-asettelujen määrittäminen asiakkaille ja toimittajille](ui-define-customer-vendor-document-layouts.md)  
 [Tulostimien määrittäminen](ui-specify-printer-selection-reports.md)  
-
+[Talousraportit ja analytiikka Business Centralissa](finance-reports.md)  
+[Myyntireskontran raportit ja analyysit Business Centralissa](receivables-reports.md) 
+[Ostoreskontran raportit ja analyysit Business Centralissa](payables-reports.md)  
+[Käyttöomaisuuden raportit ja analytiikka Business Centralissa](fa-reports.md)  
+[Business Centralin projektiraportit ja analytiikka](project-reports.md)  
+[Business Centralin myyntiraportit ja analytiikka](sales-reports.md)  
+[Business Centralin ostoraportit ja analytiikka](purchase-reports.md)  
+[Varasto, varastoraportit ja analytiikka Business Centralissa](inventory-WMS-reports.md)  
+[Business Centralin kokoonpanoraportit ja analytiikka](assembly-reports.md)  
+[Business Centralin tuotantoraportit ja analytiikka](production-reports.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

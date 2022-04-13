@@ -10,12 +10,12 @@ ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchas
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3a6d6b680ebfb89c376872d2dcd5cb6fb535d4a3
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: c4ea2854ccc287b95c42bf942389d4dbfb2fd2e3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383293"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523603"
 ---
 # <a name="set-up-prices-and-discounts"></a>Hintojen ja alennusten määrittäminen
 > [!NOTE]
@@ -99,7 +99,7 @@ Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käytt
 
 ---
 
-## <a name="working-with-invoice-discounts-and-service-charges"></a>Laskualennusten ja palvelumaksujen käyttäminen
+## <a name="work-with-invoice-discounts-and-service-charges"></a>Laskualennusten ja palvelumaksujen käyttäminen
 Kun käytät laskualennuksia, laskusumman suuruus määrää annettavan alennuksen suuruuden. Voit lisätä **Laskualennukset** -sivulla tietyn summaisille laskuille myös palvelumaksuja.  <!--The Invoice Discounts page is hard to find.-->
 
 Ennen kuin myynneissä voi käyttää laskualennuksia, sovellukseen on annettava tiettyjä tietoja. Sinun täytyy päättää, mille asiakkaille myönnetään tämän tyyppinen alennus, ja mitä alennusprosentteja käytät.  
@@ -198,4 +198,4 @@ Kun olet kirjannut myynnin ja ostojen erikoishinnat ja rivialennukset, [!INCLUDE
 ## <a name="see-also"></a>Katso myös
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Myynti](sales-manage-sales.md)  
-[[!INCLUDE[d365fin](includes/d365fin_md.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Käsittele kohdetta [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

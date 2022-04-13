@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: d7dc36d95a458e6edfa303540c97c2f4fb57da78
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: eb733e1d157e509ce7bbe4ee2fa4db682dae3980
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131006"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521278"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Työnkulkujen luominen liiketoimintaprosessin tehtävien yhdistämista varten
 
@@ -104,7 +104,7 @@ Molempien tapahtumatyyppien tapahtumat ovat järjestelmän määrittämiä. Uusi
     >  Voit muuttaa ainoastaan sellaisen vaiheen sisennystä, jolla ei ole seuraavia vaiheita.  
 
 12. Toista vaiheet 7–11, lisätäksesi työnkulun vaiheita joko ennen tai jälkeen juuri luomaasi vaihetta.  
-13. Valitse **Käytössä**-valintaruutu määrittämään, että työnkulku alkaa heti ensimmäisen vaiheen **Aloituskohta**-tyyppisen tapahtuman toteuduttua. Lisätietoja on kohdassa [Työnkulkujen käyttäminen](across-use-workflows.md).  
+13. Valitse **Käytössä**-valintaruutu määrittämään, että työnkulku alkaa heti ensimmäisen vaiheen **Aloituskohta**-tyyppisen tapahtuman toteuduttua. Lisätietoja on kohdassa [Käytä työnkulkuja](across-use-workflows.md).  
 
 > [!NOTE]  
 > Älä ota työnkulkua käyttöön, ennen kuin olet varma, että työnkulku on valmis ja siihen liittyvät osavaiheet voi aloittaa.  
@@ -188,7 +188,7 @@ Seuraavaksi työnkulku on testattava avaamalla aiemmin luotu toimittaja ja vaiht
 [Työnkulkujen poistaminen](across-how-to-delete-workflows.md)  
 [Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Työnkulkujen määrittäminen](across-set-up-workflows.md)  
-[Työnkulkujen käyttäminen](across-use-workflows.md)  
+[Käytä työnkulkuja](across-use-workflows.md)  
 [Työnkulku](across-workflow.md)  
 
 

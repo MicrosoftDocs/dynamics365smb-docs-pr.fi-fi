@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 317e8af407722be22babde39e1ac24ce5f8a6867
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b0ab0afa97af7c0fda88c963a585a2e1ba481dd6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128615"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516003"
 ---
 # <a name="set-up-complex-application-areas-using-best-practices"></a>Määritä monimutkaiset sovellusalueet käyttäen parhaita käytäntöjä
 Uuden liiketoimintaohjelmiston toimivuuden vuoksi on tärkeää, että annettavat asetusarvot ovat oikein heti alusta alkaen.  
@@ -30,7 +30,7 @@ Uuden liiketoimintaohjelmiston toimivuuden vuoksi on tärkeää, että annettava
 ## <a name="see-also"></a>Katso myös  
 [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
 [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  

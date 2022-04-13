@@ -10,14 +10,14 @@ ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e697127998351040cb21c44c8383f1f64581bf4
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 365dae77b153794826681e500a1a753f6f749e55
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381324"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518755"
 ---
-# <a name="working-with-general-journals"></a>Yleisten päiväkirjojen käyttäminen
+# <a name="work-with-general-journals"></a>Yleisten päiväkirjojen käyttäminen
 
 Useimmat rahoitustapahtumat kirjataan pääkirjanpitoon erityisten yritysasiakirjojen, kuten ostolaskujen ja myyntitilausten välityksellä. Voit myös prosessoida liiketoiminta-aktiviteetteja, kuten ostoja, maksamista, toistuvien päiväkirjojen käyttämistä kertymien kirjaamiseen tai työntekijöiden kulujen hyvitystä kirjaamalla päiväkirjarivejä [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen eri päiväkirjoihin.  
 
@@ -34,7 +34,7 @@ Päiväkirjaan lisäämäsi tiedot ovat väliaikaisia, ja niitä voi muuttaa nii
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
-## <a name="using-journal-templates-and-batches"></a>Päiväkirjan mallit ja erien käyttäminen
+## <a name="use-journal-templates-and-batches"></a>Päiväkirjan mallien ja erien käyttäminen
 
 Yleisen päiväkirjan malleja on useita. Kullakin päiväkirjamallilla on määritetty sivu, jossa on erityistoimintoja sekä näitä toimintoja varten tarvittavat kentät. Näitä sivuja ovat esimerkiksi **Maksujen täsmäytyskirjauskansio**, jossa käsitellään pankkimaksuja, ja **Maksupäiväkirja**, jossa maksetaan toimittajille tai maksetaan hyvitykset työntekijöille. Lisätietoja on kohdissa [Maksujen suorittaminen](payables-make-payments.md) ja [Asiakkaan maksujen täsmäyttäminen kassapäiväkirjan avulla tai asiakastapahtumista](receivables-how-apply-sales-transactions-manually.md).
 
@@ -51,7 +51,9 @@ Voit estää kirjauksen viivästymistä ottamalla käyttöön taustatarkistuksen
 
 Kun oikeellisuustarkistus otetaan käyttöön, **päiväkirjan tarkistuksen** -tietoruutu näkyy päiväkirjarivien vieressä, ja siinä näkyvät tämän rivin ja koko erän seurantakohteet. Vahvistus tehdään silloin, kun lataat rahoituspäiväkirjan erän ja kun valitset toisen päiväkirjarivin. Tietoruudun **kokonaisongelmat**-ruudussa näkyy [!INCLUDE[prod_short](includes/prod_short.md)]:n löytämien ongelmien kokonaismäärän, ja voit valita sen, kun haluat avata yleiskuvauksen ongelmista. 
 
-Voit käyttää **Näytä rivit, joilla on seurantakohteita**- ja **Näytä kaikki rivit** -toimintoja, joilla voi siirtyä päiväkirjan riveillä, joilla on tai ei ole ongelmia. Uuden **päiväkirjan rivitiedot** -ruudun avulla saat nopeasti yleiskuvan ja voit käyttää päiväkirjarivien, kuten KP-tilin, asiakkaan tai toimittajan, tietoja sekä tiettyjen tilien kirjausasetuksia.     
+Voit käyttää **Näytä rivit, joilla on seurantakohteita**- ja **Näytä kaikki rivit** -toimintoja, joilla voi siirtyä päiväkirjan riveillä, joilla on tai ei ole ongelmia. Uuden **päiväkirjan rivitiedot** -ruudun avulla saat nopeasti yleiskuvan ja voit käyttää päiväkirjarivien, kuten KP-tilin, asiakkaan tai toimittajan, tietoja sekä tiettyjen tilien kirjausasetuksia.   
+
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]  
 
 ### <a name="reversing-journals-to-correct-mistakes"></a>Päiväkirjojen peruuttaminen virheiden korjaamiseksi
 Kun käsittelet päiväkirjoja, joissa on monta riviä ja jokin menee pieleen, on tärkeää, että virheet on helppo korjata. **Kirjattu yleisen päiväkirjan** sivu sisältää muutamia toimintoja, jotka voivat auttaa.
@@ -73,7 +75,7 @@ Jos olet määrittänyt päiväkirjan erille oletusvastatilit **Yleiset päiväk
 > [!NOTE]  
 > ALV lasketaan erikseen päätiliä varten ja vastatiliä varten, joten niillä voi olla eri ALV-prosentit.
 
-## <a name="working-with-recurring-journals"></a>Toistuvien tapahtumien päiväkirjojen käyttäminen
+## <a name="work-with-recurring-journals"></a>Toistuvien tapahtumien päiväkirjojen käyttäminen
 Toistuvien tapahtumien päiväkirja on yleinen päiväkirja, jossa on erityiskenttiä sellaisten tapahtumien hallintaa varten, jotka kirjataan usein vähäisin muutoksin tai ilman muutoksia. Näitä ovat esimerkiksi vuokra, lehtitilaukset, sähkö ja lämmitys. Käyttämällä näitä kenttiä toistuviin tapahtumiin, voit kirjata sekä vakiosummia että muuttuvia summia. Voit myös määrittää automaattiset peruutustapahtumat kirjauspäivämäärän jälkeisenä päivänä. Voit myös käyttää kohdistusavaimia ja jakaa toistuvat tapahtumat eri tileille. Lisätietoja on kohdassa [Toistuvien tapahtumien päiväkirjan summien kohdistaminen useisiin tileihin](#allocating-recurring-journal-amounts-to-several-accounts).
 
 Toistuvassa päiväkirjassa säännöllisesti kirjattavat tapahtumat tarvitsee syöttää vain kerran. Siten tilit, dimensiot , dimension arvot ym. tiedot jotka syötät, säilyvät päiväkirjassa kirjauksen jälkeen. Jos sinun tarvitsee tehdä muutoksia, voit tehdä niitä jokaisen kirjauksen yhteydessä.
@@ -97,7 +99,7 @@ Tämä kenttä määrittää, miten päiväkirjan rivin summaa käsitellään ki
 > ALV-kentät voidaan täyttää joko toistuvan päiväkirjan rivillä tai kohdistuspäiväkirjan rivillä, mutta ei molemmilla. Siten ne voidaan täyttää **Kohdistukset**-sivulla vain, jos vastaavia kenttiä ei ole täytetty toistuvassa päiväkirjassa.
 
 ### <a name="recurring-frequency-field"></a>Toistotiheys-kenttä
-Tämä kenttä määrittää, kuinka usein päiväkirjarivillä oleva tapahtuma kirjataan. Se on Päivämäärän kaava -kenttä, joka on täytettävä toistuvien tapahtumien päiväkirjan riveille. Lisätietoja on kohdassa [Päivämäärän kaavojen käyttäminen](ui-enter-date-ranges.md#using-date-formulas).
+Tämä kenttä määrittää, kuinka usein päiväkirjarivillä oleva tapahtuma kirjataan. Se on Päivämäärän kaava -kenttä, joka on täytettävä toistuvien tapahtumien päiväkirjan riveille. Lisätietoja on kohdassa [Päivämäärän kaavojen käyttäminen](ui-enter-date-ranges.md#use-date-formulas).
 
 #### <a name="examples"></a>Esimerkkejä
 Jos päiväkirjan rivi tulee kirjata joka kuukausi, syötä 1K. Jokaisen kirjauksen jälkeen **Kirjauspvm.**-kentässä oleva päivämäärä päivitetään seuraavan kuukauden samaan päivään.
@@ -145,7 +147,7 @@ Jaksotukset kirjataan yleensä päiväkirjan rivillä kiinteiden, muuttuvien tai
 > [!NOTE]
 > Oletusarvon mukaan **peruutuspäivämäärän laskenta** -kenttä ei ole käytettävissä **Toistuvien yleisten päiväkirjojen** sivulla. Jos haluat käyttää kenttää, sinun täytyy lisätä se mukauttamalla sivua. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
-## <a name="working-with-standard-journals"></a>Vakiopäiväkirjojen käyttäminen
+## <a name="work-with-standard-journals"></a>Vakiopäiväkirjojen käyttäminen
 Kun olet luonut päiväkirjan rivejä, joita todennäköisesti käytät myös vastaisuudessa, voit tallentaa rivit vakiopäiväkirjana, ennen kuin kirjaat rivit päiväkirjaan. Tämä toiminto koskee nimikepäiväkirjoja sekä yleisiä päiväkirjoja.
 
 > [!NOTE]  
@@ -218,7 +220,7 @@ Seuraavat toimenpiteet perustuvat **Yleinen päiväkirja** -sivuun, mutta niitä
 [Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md)  
 [Kustannusten ja tulojen kohdistaminen](year-allocate-costs-income.md)  
 [Rahoitus](finance.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Nimikepäiväkirjan kiinteästä kohdistuksesta aiheutuvien avointen nimiketapahtumien sulkeminen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
 [Varaston uudelleenarvostus uudelleenarvostuspäiväkirjassa](inventory-how-revalue-inventory.md)  
 [Varaston laskeminen, muuttaminen ja uudelleenluokitus käyttämällä päiväkirjoja](inventory-how-count-adjust-reclassify.md)  

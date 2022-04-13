@@ -10,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1a5647045e3b7aff1b709096b8b856485ce762e9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 497daecd0834b2651e52131df809d12d45b18d48
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381721"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519119"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Vianmääritys ja dimensioiden korjaaminen
 
@@ -103,7 +103,7 @@ Jos kumoamistoiminto ei ole käytettävissä, koska korjauksia on tehty useita, 
 
 Suuria tapahtumajoukkoja, joissa on esimerkiksi yli 10 000 tapahtumaa, korjattaessa on syytä olla varovainen. Mikäli se on mahdollista, korjaukset kannattaa suorittaa pienemmiksi suodatetuissa tietojoukoissa. Lisäksi korjaukset kannattaa suorittaa normaalin työajan ulkopuolella. 
 
-### <a name="using-analysis-views-with-dimension-corrections"></a>Analyysinäkymien käyttäminen dimension korjausten kanssa
+### <a name="use-analysis-views-with-dimension-corrections"></a>Analyysinäkymien käyttäminen dimension korjausten kanssa
 
 Jos **Päivitä kirjattaessa** on otettu käyttöön analyysinäkymässä, [!INCLUDE[prod_short](includes/prod_short.md)] näkee, mitkä asiakirjat ja päiväkirjat on kirjattu. Myös näkymät voidaan päivittää, kun tämä asetus on otettu käyttöön dimension korjaustuloksissa. Asetus otetaan käyttöön **Päivitä analyysinäkymät**-vaihtopainikkeella. Analyysinäkymien päivittäminen voi vaikuttaa suorituskykyyn, etenkin jos kyse on suurista tietojoukoista, joten vain pienien tietojoukkojen analyysinäkymien päivittämistä suositellaan.  
 
@@ -118,7 +118,7 @@ Jos korjaus on keskeneräinen, korjauskortissa näkyy varoitus. Korjauksen voi s
 > [!NOTE]
 > Keskeneräisen korjauksen nollaaminen ei vaikuta analyysinäkymien päivityksiin, koska ne tehdään korjausprosessin lopussa.
 
-### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Kustannuslaskennan käyttäminen korjatuissa KP-tapahtumissa
+### <a name="use-cost-accounting-with-corrected-gl-entries"></a>Kustannuslaskennan käyttäminen korjatuissa KP-tapahtumissa
 
 Dimensioiden korjauksen jälkeen kustannuslaskennan tiedot eivät ole synkronoituja. Kustannuslaskenta käyttää dimensioita koostamaan kustannuspaikkoja ja kustannuskohteita ja suorittamaan kustannusten kohdistamiset. KP-tapahtumien dimensioiden muuttaminen aiheuttaa todennäköisesti kustannuslaskentamallien uudelleensuorittamisen. Se, onko poistettava vain muutamia kustannusrekistereitä ja onko kohdistus suoritettava uudelleen vai onko kaikki poistettava ja kaikki mallit suoritettava uudelleen, perustuu tietoihin, jotka on päivitetty, ja siihen, miten kustannuslaskentaominaisuudet on määritetty. Sinun on manuaalisesti määritettävä, miten dimension korjaukset vaikuttavat kustannuslaskentaan ja missä päivityksiä tarvitaan. [!INCLUDE[prod_short](includes/prod_short.md)]issa ei ole tällä hetkellä tapaa tehdä tätä automaattisesti.
 

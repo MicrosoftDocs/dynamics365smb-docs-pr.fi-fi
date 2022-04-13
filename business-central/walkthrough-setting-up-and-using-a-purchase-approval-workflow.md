@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 1d3e30185d4e5486c6e56941d08cc1586b2c554f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f921a6da2bb963d7cb53f062f32db7af6169020c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138178"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520072"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen
 
@@ -23,7 +23,7 @@ Voit automatisoida uusien tai muuttuneiden tietueiden hyväksymisprosessin esime
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)]in työnkulkutoiminnon lisäksi voit käyttää Power Automatea määrittämään tapahtumien työnkulkua [!INCLUDE[prod_short](includes/prod_short.md)]issa. Huomaa, että vaikka kyse on erillisistä työnkulkujärjestelmistä, jokainen Power Automatessa luotu työnkulkumalli lisätään työnkulkumallien luetteloon [!INCLUDE[prod_short](includes/prod_short.md)]issa. Lisätietoja on kohdassa [Business Centralin käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md).  
 
- Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät eri käyttäjien suorittamia liiketoimintaprosessin tehtäviä. Järjestelmätehtäviä (kuten automaattinen kirjaus) voidaan sisällyttää työnkulkuihin, joita käyttäjän tehtävät edeltävät tai seuraavat. Uusien tietueiden luontiin liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita. Lisätietoja on kohdassa [Työnkulku](across-workflow.md).  
+ Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät eri käyttäjien suorittamista liiketoimintaprosessin tehtäviä. Järjestelmätehtäviä (kuten automaattinen kirjaus) voidaan sisällyttää työnkulkuihin, joita käyttäjän tehtävät edeltävät tai seuraavat. Uusien tietueiden luontiin liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita. Lisätietoja on kohdassa [Työnkulku](across-workflow.md).  
 
 ## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta
 
@@ -92,7 +92,7 @@ Luo ostotilauksen hyväksymisen työnkulku kopioimalla vaiheet **Ostotilauksen h
     Uuden työnkulun avautuvalla **Työnkulku**-sivulla on kaikki valitun mallin tiedot. **Koodi**-kentän arvoon liitetään *-01*, joka osoittaa, että kyseessä on ensimmäinen **Ostotilauksen hyväksymistyönkulku** -mallista luotu työnkulku.  
 4. Valitse **Työnkulku**-sivun otsikossa **Käytössä**-valintaruutu.  
 
-## <a name="using-the-approval-workflow"></a>Hyväksymisen työnkulun käyttäminen
+## <a name="use-the-approval-workflow"></a>Hyväksymisen työnkulun käyttäminen
 
 Käytä uutta ostotilauksen hyväksymistyönkulkua kirjautumalla ensin [!INCLUDE[prod_short](includes/prod_short.md)]iin Aliciana ja pyydä ostotilauksen hyväksyntää. Kirjaudu sitten sisään itsenäsi, katso muistio Roolikeskuksessa, seuraa linkkiä hyväksymispyyntöön ja Hyväksy pyyntö.  
 
@@ -128,7 +128,7 @@ Jos liiketoimintaskenaario edellyttää työnkulun tapahtumaa tai vastausta, jok
 [Työnkulkujen luominen](across-how-to-create-workflows.md)  
 [Hyväksymistyönkulkujen käyttäminen](across-how-use-approval-workflows.md)  
 [Työnkulku](across-workflow.md)  
-[Business Central -sovelluksen käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md)  
+[Business Centralin käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

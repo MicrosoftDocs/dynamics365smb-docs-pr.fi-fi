@@ -6,31 +6,31 @@ ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 09/29/2021
+ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 398f9a221dbdbdf2889d847b2d26db7faec23ff0
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 0a901fca9da818459e8c94735c041dfbafff9471
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367200"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518127"
 ---
 # <a name="welcome-to-prod_long"></a>Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin
 
-[!INCLUDE[prod_short](includes/prod_short.md)] on pienille ja keskisuurille organisaatioille tarkoitettu liiketoiminnan hallintaratkaisu, joka automatisoi ja selkeyttää liiketoiminnan prosesseja sekä auttaa liiketoiminnan hallinnassa. Yritykset voivat käyttää erittäin mukautettavaa ja monipuolista [!INCLUDE[prod_short](includes/prod_short.md)]ia liiketoiminnan osa-alueiden hallintaan, kuten rahoituksen, tuotannon, myynnin, toimituksen, projektinhallinnan ja huollon hallintaan. Yritykset voivat helposti lisätä omalla toiminta-alueella tarpeellisia toimintoja sekä toimintoja, jotka on mukautettu hyvinkin erikoistuneita toimialoja varten.  
+[!INCLUDE[prod_short](includes/prod_short.md)] on pienille ja keskisuurille organisaatioille tarkoitettu liiketoiminnan hallintaratkaisu, joka automatisoi ja selkeyttää liiketoiminnan prosesseja sekä auttaa liiketoiminnan hallinnassa. Yritykset voivat käyttää erittäin mukautettavaa ja monipuolista [!INCLUDE[prod_short](includes/prod_short.md)]ia liiketoiminnan osa-alueiden hallintaan, kuten rahoituksen, tuotannon, myynnin, toimituksen, projektinhallinnan ja huollon hallintaan. Yritykset voivat helposti lisätä omalla toiminta-alueella tarpeellisia toimintoja sekä toimintoja, jotka on mukautettu hyvinkin erikoistuneita toimialoja varten. [!INCLUDE[prod_short](includes/prod_short.md)]in voi ottaa nopeasti käyttöön ja sen määrittäminen on helppoa. Käytön yksinkertaisuus on ohjannut tuotesuunnittelun innovaatioita, kehitystä, toteutusta ja käytettävyyttä.  
 
-[Tutustu tästä siihen, miten saat ilmaisen kokeiluversion](trial-signup.md).  
-
-Jos sinulla on jo [!INCLUDE[prod_short](includes/prod_short.md)], kirjaudu sivustossa [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Muussa tapauksessa [Lue yleiskuvaus](https://dynamics.microsoft.com/business-central/overview/), [tee opastettu kierros](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) ja sitten [aloita maksuton kokeilu](https://go.microsoft.com/fwlink/?linkid=847861). Tutustu [pika-aloitusartikkeleihin](quick-start-business-central.md), joiden avulla saat tietää enemmän [!INCLUDE [prod_short](includes/prod_short.md)]ista. Lisätietoja [!INCLUDE[prod_short](includes/prod_short.md)] -käyttöönotosta on kohdassa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
+Jos sinulla on jo [!INCLUDE[prod_short](includes/prod_short.md)], kirjaudu sivustossa [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Muussa tapauksessa [Lue yleiskuvaus](https://dynamics.microsoft.com/business-central/overview/), [tee opastettu kierros](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) ja sitten [opettele aloittamaan maksuton kokeilu](trial-signup.md). Tutustu [pika-aloitusartikkeleihin](quick-start-business-central.md), joiden avulla saat tietää enemmän [!INCLUDE [prod_short](includes/prod_short.md)]ista. Lisätietoja [!INCLUDE[prod_short](includes/prod_short.md)] -käyttöönotosta on kohdassa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
 
 > [!TIP]
 > Siirryitkö tähän [!INCLUDE [prod_short](includes/prod_short.md)]ista? Jos tiedät varmasti, mistä löydät etsimäsi, voit käyttää **otsikoita suodatusperusteena** vasemmassa siirtymisruudussa tai **Haku**-kenttää selainikkunan yläosassa.  
 >
 > Voit liittyviä ohjeita myös [!INCLUDE [prod_short](includes/prod_short.md)]in hakuominaisuuksilla. Lisätietoja on kohdassa [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md).
 
-## <a name="overview"></a>Yleiskuvaus
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)]in voi ottaa nopeasti käyttöön ja sen määrittäminen on helppoa. Käytön yksinkertaisuus on ohjannut tuotesuunnittelun innovaatioita, kehitystä, toteutusta ja käytettävyyttä. Vasemmalla olevasta siirtymispaneelista löydät tietoa [!INCLUDE[prod_short](includes/prod_short.md)]:n käyttämisestä yrityksessäsi. Linkkien etsiminen paljon käytettyihin ominaisuuksiin [Liiketoimintaprosessit](#business-processes)-osassa.  
+## <a name="microsoft-docs"></a>Microsoft Docs
+
+Vasemmalla olevasta siirtymispaneelista löydät tietoa [!INCLUDE[prod_short](includes/prod_short.md)]:n käyttämisestä yrityksessäsi. Linkkien etsiminen paljon käytettyihin ominaisuuksiin [Liiketoimintaprosessit](#business-processes)-osassa. Lisätietoja on myös kohdassa [Lisätietojen etsiminen docs.microsoft.com-sivustossa](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more).  
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
@@ -45,7 +45,7 @@ Seuraavat osiot viittaavat tärkeimpiin artikkeleihin, joiden avulla voit tutust
 
 - [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)
 - [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)
-- [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+- [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 - [Hallinta](admin-setup-and-administration.md)
 - [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)
 - [Sovelluksen suunnittelutiedot](design-details-application-design.md)
@@ -106,6 +106,7 @@ Videokirjastossa voi katsoa myös uusia ja usein käytettyjä ominaisuuksia kosk
 [[!INCLUDE[prod_short](includes/prod_short.md)]in hakeminen mobiililaitteeseen](install-mobile-app.md)  
 [Dimensioiden käyttäminen](finance-dimensions.md)  
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
+[Lisätietojen etsiminen docs.microsoft.com-sivustossa](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in vaatimustenmukaisuus](compliance/compliance-overview.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -verkkopalvelun ehdot](compliance/compliance-service-compliance.md#service-terms)  
 [Business Central Onlinen suuret ja pienet päivitykset](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  

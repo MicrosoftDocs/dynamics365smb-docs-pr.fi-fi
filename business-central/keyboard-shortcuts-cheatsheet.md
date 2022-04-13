@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f6f4966a1132c4e389cb3b37f31d9dcc883d27b5
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7496c21745e2a27271db8ccb37c9607040e5259b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384200"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511595"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Näppäimistön Pikaohje - Vain PC
 
@@ -79,11 +79,18 @@ ms.locfileid: "8384200"
 |-|-|
 |Ctrl+Vaihto+Enter|Siirry seuraavaan pikatapahtumakenttään luettelon ulkopuolella|
 |Enter/vaihto+Enter|Siirry seuraavaan/edelliseen pikatapahtumakenttään|
+
 ##### <a name="report-preview"></a>Raportin esikatselu
 
 |Paina näitä näppäimiä|Tehtävä|
 |-|-|
 |Ctrl+Home/End|Siirry ensimmäiselle/viimeiselle sivulle|
+
+#### <a name="numeric-keypad"></a>Numeronäppäimistö
+
+|Paina näitä näppäimiä|Tehtävä|  
+|-|-|
+|Alt+Desimaalierotin|Vaihda desimaalierotinnäppäimen tuotosta numeronäppäimistöllä|
 
 > [!TIP]
 > Jos haluat graafisen, tulostusystävällisen version, valitse seuraava kuva ja Lataa PDF-tiedosto.

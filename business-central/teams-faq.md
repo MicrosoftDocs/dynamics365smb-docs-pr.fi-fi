@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 34c669f955bebf84149959182bb1ce8bdeb139a0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: addfaaf3e5991e5e0bce4d7e39c47f645cd6a2de
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147490"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528577"
 ---
 # <a name="teams-faq"></a>Teams – usein kysytyt kysymykset
 
@@ -70,10 +70,6 @@ Kyllä. Kuitenkin vain joitakin sovelluksen ominaisuuksia voi käyttää [upotet
 
 - Sovellus toimii linkeissä, jotka perustuvat upotettujen sovellusten kanssa tyypillisesti käytetyssä **\*.bc.dynamics.com**-mallissa.
 - Yhteyshenkilöhaku ei ole käytettävissä upotetuissa sovelluksissa, jotka korvaavat Microsoftin perussovelluksen.
-
-### <a name="where-can-i-find-teams-integration-inside-the-prod_shortmd-web-client"></a>Mistä löydän Teams-integroinnin [!INCLUDE [prod_short.md](includes/prod_short.md)] -verkkoasiakkaan sisällä? 
-
-Teams-komponentteja tai Teamsin ominaisuuksia ei tällä hetkellä upoteta [!INCLUDE [prod_short.md](includes/prod_short.md)] -verkkoasiakkaaseen tai muihin asiakkaisiin.
 
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>Toimiiko [!INCLUDE [prod_short.md](includes/prod_short.md)] Teamsin mobiilisovelluksen kanssa?
 
@@ -304,7 +300,11 @@ Kyllä. Kaikki tietoikkunan [!INCLUDE [prod_short.md](includes/prod_short.md)] -
 
 ### <a name="can-i-access-my-location-from-the-details-window-in-teams"></a><a name="location"></a>Voinko käyttää sijaintiani Teamsin tietoikkunasta?
 
-Jos käytät [!INCLUDE [prod_short.md](includes/prod_short.md)] -ohjelman nykyisiä sijaintisi koordinaatteja käyttäviä toimintoja, kuten karttoja, sinun on käytettävä Teamsia selaimessa tai Teams-mobiilisovelluksessa. Sijainti ei ole käytettävissä, kun käytetään Teams-työpöytäsovellusta. 
+Jos käytät [!INCLUDE [prod_short.md](includes/prod_short.md)] -ohjelman nykyisiä sijaintisi koordinaatteja käyttäviä toimintoja, kuten karttoja, sinun on käytettävä Teamsia selaimessa tai Teams-mobiilisovelluksessa. Sijainti ei ole käytettävissä, kun käytetään Teams-työpöytäsovellusta.
+
+### <a name="how-do-i-open-the-details-in-a-new-window"></a>Miten tiedot avataan uudessa ikkunassa?
+
+Tietoikkunan avaamisesta eri ikkunassa on hyötyä moniajoon tai liiketoimintatietojen työstämiseen, ja Teamsin keskustelu- ja muiden toimintojen käyttäminen on silti mahdollista. Jos haluat avata tiedot omassa ikkunassaan, valitse **Avaa selaimessa** ikkunan oikeassa yläkulmassa olevasta ellipsivalikosta (**...**).
 
 ## <a name="collaborate-with-guests"></a>[Yhteistyö vieraiden kanssa](#tab/collaborating)
 
@@ -346,7 +346,7 @@ Ei. Kaikki tarvitsemasi on kelvollinen tili, jolla on Microsoft Teams -käyttöo
 
 ### <a name="is-share-to-teams-available-in-all-business-central-clients"></a>Onko Jaa Teamsiin -toiminto saatavilla kaikille Business Central -asiakasohjelmille? 
 
-Tällä hetkellä Jaa Teamsiin -toiminto on saatavilla ainoastaan työpöydän verkkoasiakkaalle ja tietoikkunassa Teamsissa.  
+Tällä hetkellä Jaa Teamsiin -toiminto on saatavilla työpöydän verkkoasiakkaalle, tietoikkunassa Teamsissa ja avattaessa sivua uudessa ikkunassa Outlook-apuohjelmasta.
 
 ### <a name="where-do-i-find-share-to-teams-in-business-central"></a>Mistä löydän Jaa Teamsiin -toiminnon Business Centralissa? 
 

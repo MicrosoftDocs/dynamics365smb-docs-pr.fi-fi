@@ -1,113 +1,35 @@
 ---
 title: Päivitä valuutanvaihtokurssit (sisältää videon)
-description: Seuraa summia eri valuutoissa valuuttakoodeja käyttäen ja anna Business Centralin auttaa sinua säätämään FX-vaihtokursseja julkaistuille merkinnöille ulkoisen palvelun avulla.
-author: SorenGP
+description: Jos seuraat summia eri valuutoissa, voit antaa Business Centralin auttaa sinua säätämään FX-vaihtokursseja julkaistuille merkinnöille ulkoisen palvelun avulla.
+author: edupont04
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
-ms.date: 02/17/2022
+ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 04f96b269b842045c1a804f976ffddfd5348befc
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 45926cc094234a6b75f3e8a1ca997fc89506ef28
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323264"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523473"
 ---
 # <a name="update-currency-exchange-rates"></a>Valuutan vaihtokurssien päivittäminen
 
-Yritysten toimiessa yhä useammassa maassa tai alueella niiden on välttämätöntä pystyä tekemään kauppaa ja raportoimaan taloustiedot useissa valuutoissa. Paikallinen valuutta (PVA) määritetään **Pääkirjanpidon asetukset-** -sivulla kuten artikkelissa [Taloustietojen asetukset](finance-setup-finance.md) kuvataan. Kun paikallinen valuutta (PVA) on määritetty, se esitetään tyhjänä valuuttana, joten kun **Valuutta**-kenttä on tyhjä, se tarkoittaa, että valuutta on PVA.  
-
-Seuraavaksi sinun täytyy määrittää valuuttakoodit jokaiselle valuutalle, jota käytät, jos ostat tai myyt muussa valuutassa kuin paikallisessa valuutassa (PVA). Myös pankkitilit voidaan luoda käyttämällä valuuttoja. Pääkirjanpidon tapahtumia voi tallentaa eri valuutoissa, mutta pääkirjanpidon tapahtuma kirjataan aina paikallisessa valuutassa (PVA).
-
-> [!Important]
-> Älä luo paikallisen valuutan koodia sekä **Pääkirjanpidon asetukset**- että **Valuutat**-sivulle. Tämä aiheuttaa sekaannusta valuuttataulukon tyhjän valuutan ja PVA-koodin välillä. Pankkitilejä, asiakkaita tai toimittajia saatetaan vahingossa luoda, ja niille voi tulla tyhjiä valuuttoja tai PVA-koodeja.
-
-Pääkirjanpito määritetään käyttämään paikallista valuuttaa (PVA), mutta voit määrittää sen käyttämään myös toista valuuttaa, jolle määritetään ajantasainen vaihtokurssi. Kun toinen valuutta määritetään niin sanotuksi lisäraportointivaluutaksi, [!INCLUDE[prod_short](includes/prod_short.md)] tallentaa summat automaattisesti sekä PVA:na että lisäraportointivaluuttana kuhunkin KP-tapahtumaan sekä muihin tapahtumiin, kuten ALV-tapahtumiin. Lisätietoja on kohdassa [Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md). Lisäraportointivaluuttaa käytetään useimmiten taloudelliseen raportointiin omistajille, jotka asuvat muita kuin paikallista valuuttaa (PVA) käyttävissä maissa tai alueilla.  
-
-> [!IMPORTANT]
-> Jos haluat käyttää lisäraportointivaluuttaa taloudellisessa raportoinnissa, varmista, että ymmärrät rajoitukset. Lisätietoja on kohdassa [Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md).
-
-> [!NOTE]  
-> Kun kirjaat KP:oon käyttämällä valuutan koodia, esimerkiksi kirjataksesi kulun yleiseen päiväkirjaan käyttämällä valuuttakoodia, tapahtuma muunnetaan PVA:ksi käyttäen kirjauspäivämäärän valuutanvaihtokurssia. KP-tapahtuma ei sisällä tietoja siitä, mitä valuuttaa käytettiin, ja vain sen arvo PVA:ssa. Jos haluat seurata alkuperäistä valuuttaa, esimerkiksi laskua, sinun täytyy käyttää myynti- ja ostoasiakirjoja sekä pankkitilitietoja, jotka tallentavat tapahtumien valuuttakoodin.
+Voit määrittää eri valuuttoja [!INCLUDE [prod_short](includes/prod_short.md)]issa esimerkiksi silloin, kun et tee kauppaa muussa valuutassa kuin paikallisessa valuutassa. Tämän jälkeen voit auttaa itseäsi seuraamaan valuutan vaihtokurssien muutoksia, kun hallitset valuuttoja manuaalisesti tai voit määrittää valuutan vaihtokurssipalvelun.
 
 ## <a name="currencies"></a>Valuutat
 
-> [!NOTE]  
+> [!TIP]  
 > Jos etsit [!INCLUDE[prod_short](includes/prod_short.md)]issa reaaliajassa tietoa valuuttakurssien (FX) hinnoista tai historiallisista hinnoista, löydät sen nimityksellä valuutta. Tämän artikkelin lisäksi on artikkeli [Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md).
 
-Valuuttakoodit määritetään kohdassa **Valuutat**, mukaan lukien lisätiedot ja asetukset, jotka ovat välttämättömiä kunkin valuuttakoodin osalta.
+[!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
-> [!TIP]
-> Luo valuutat kansainvälisellä ISO-koodilla, jotta työskentely valuutan kanssa on yksinkertaista tulevaisuudessa.
-
-|Kenttä|Kuvaus|  
-|---------------------------------|---------------------------------------|  
-|**Koodi**|Valuutan tunnus.|
-|**Kuvaus**|Valuutan vapaa tekstikuvaus.|
-|**ISO-koodi**|Kansainvälinen kolmikirjaiminen ISO 4217:n mukainen valuuttakoodi.|
-|**ISO-numerokoodi**|Valuutan kansainvälinen ISO 4217:n mukainen numeroviite.|
-|**Vaihtokurssin pvm**|Vaihtokurssin viimeisin todellinen päivämäärä.|
-|**EMU-valuutta**|Määrittää, onko valuutta EMU-valuutta (Euroopan talous- ja rahaliitto), esimerkiksi EUR.|
-|**Realisoitun. voittojen tili**|Tili, johon todellinen voitto kirjataan, kun vastaanotat maksuja saamisista tai rekisteröit todellisen valuuttakurssin ostovelkojen maksuille. Esimerkki saamisen valuuttatransaktiosta on tämän taulukon alla olevassa esimerkissä. |
-|**Realisoitun. tapp. tili**|Tili, johon todellinen tappio kirjataan, kun vastaanotat maksuja saamisista tai rekisteröit todellisen valuuttakurssin ostovelkojen maksuille. Esimerkki saamisen valuuttatransaktiosta on tämän taulukon alla olevassa esimerkissä. |
-|**Toteutumattomien voittojen tili**|Tili, johon teoreettinen voitto kirjataan valuutan muutosta tehtäessä.|
-|**Toteutumattomien tappioiden tili**|Tili, johon teoreettinen tappio kirjataan valuutan muutosta tehtäessä.|
-|**Summan pyöristystarkkuus**|Joissakin valuutoissa laskusummilla on muita muotoja kuin **Pääkirjanpidon asetukset** -sivulla on määritetty. Jos muutat summan pyöristystarkkuutta valuutalle, kaikki kyseisen valuutan laskusummat pyöristetään päivitetyllä tarkkuudella.|
-|**Summan desimaalien määrä**|Joissakin valuutoissa laskusummilla on muita muotoja kuin **Pääkirjanpidon asetukset** -sivulla on määritetty. Jos muutat desimaalien määrää valuutalle, kaikki kyseisen valuutan laskusummat pyöristetään päivitetyllä desimaalimäärällä.|
-|**Laskun pyöristystyyppi**|Määrittää tavan, jota käytetään, jos summa on pyöristettävä. Vaihtoehdot ovat **Lähin**, **Ylös** ja **Alas**.|
-|**Yksikkösumman pyöristystarkkuus**|Joissakin valuutoissa yksikkösummilla on muita muotoja kuin **Pääkirjanpidon asetukset** -sivulla on määritetty. Jos muutat yksikkösumman pyöristystarkkuutta valuutalle, kaikki kyseisen valuutan yksikkösummat pyöristetään päivitetyllä tarkkuudella.|
-|**Desimaalien yksikkömäärä**|Joissakin valuutoissa yksikkösummilla on muita muotoja kuin **Pääkirjanpidon asetukset** -sivulla on määritetty. Jos muutat desimaalien yksikkömäärää valuutalle, kaikki kyseisen valuutan yksikkösummat pyöristetään päivitetyllä desimaalimäärällä.|
-|**Kohdistuksen pyöristystarkkuus**|Määrittää sen välin suuruuden, joka sallitaan pyöristyksen erona, kun kohdistat eri valuuttoina ilmoitettuja tapahtumia toisiinsa.|
-|**PVA:n muuntamispyöristys. Debet-tili**|Määrittää muunnostiedot. Tiedoissa täytyy olla myös debet-tili, jos haluat syöttää korjausrivejä erojen pyöristystä varten pääkirjanpidoissa Kirjoita muunnoksen **PVA-pyöristysrivit** -toiminnon avulla.|
-|**PVA:n muuntamispyöristys. Kredit-tili**|Määrittää muunnostiedot. Tiedoissa täytyy olla myös kredit-tili, jos haluat syöttää korjausrivejä erojen pyöristystä varten pääkirjanpidoissa Kirjoita muunnoksen **PVA-pyöristysrivit** -toiminnon avulla.|
-|**Viimeksi muutettu**|Viimeisin valuutan muutoksen päivämäärä.|
-|**Viimeksi muokattu**|Muutoksen päivämäärä valuutan asetuksiin.|
-|**Maksutoleranssiprosentti**|Tälle valuutalle määritetty maksutoleranssin enimmäisprosentti. Lisätietoja on kohdassa [Maksutoleranssi ja maksualennustoleranssi](finance-payment-tolerance-and-payment-discount-tolerance.md). |
-|**Maksimi maksutoleranssisumma**|Tälle valuutalle määritetty maksutoleranssin enimmäissumma. Lisätietoja on kohdassa [Maksutoleranssi ja maksualennustoleranssi](finance-payment-tolerance-and-payment-discount-tolerance.md). |
-|**Valuuttakerroin**|Ilmaisee valuutan ja paikallisvaluutan välisen suhteen käyttämällä todellista valuuttakurssia.|
-|**Realisoitun. KP-voittojen tili**|Määrittää pääkirjanpitotilin, jonne vaihtokurssivoitot lähetetään valuuttamuunnoksia varten paikallisvaluutan (PVA) ja lisäraportointivaluutan välillä. Valuuttakurssivoitot lasketaan, kun Muuta vaihtokursseja -eräajo suoritetaan pääkirjanpidon tilitietojen oikaisua varten. Tämä kenttä ei välttämättä ole näkyvissä oletusarvoisesti. Sen voi hakea mukauttamalla sivua.|
-|**Realisoitun. KP-tapp. tili**|Määrittää pääkirjanpitotilin, jonne vaihtokurssitappiot lähetetään valuuttamuunnoksia varten paikallisvaluutan (PVA) ja lisäraportointivaluutan välillä. Valuuttakurssivoitot lasketaan, kun Muuta vaihtokursseja -eräajo suoritetaan pääkirjanpidon tilitietojen oikaisua varten. Tämä kenttä ei välttämättä ole näkyvissä oletusarvoisesti. Sen voi hakea mukauttamalla sivua.|
-|**Jäännösvoittojen tili**|Määrittää KP-tilin, jota käytetään jäännösvoittosummien (pyöristyserot) kirjaamista varten silloin, kun pääkirjanpidon sovellusalueella käytetään lisäraportointivaluuttaa. Tämä kenttä ei välttämättä ole näkyvissä oletusarvoisesti. Sen voi hakea mukauttamalla sivua.|
-|**Jäännöstappioiden tili**|Määrittää KP-tilin, jota käytetään jäännöstappiosummien (pyöristyserot) kirjaamista varten silloin, kun pääkirjanpidon sovellusalueella käytetään lisäraportointivaluuttaa. Tämä kenttä ei välttämättä ole näkyvissä oletusarvoisesti. Sen voi hakea mukauttamalla sivua.|
-|**Maksimi sallittu ALV-ero**|Tämän valuutan ALV-erojen suurin sallittu summa. Lisätietoja on kohdassa [ALV-määrien korjaaminen manuaalisesti myynti- ja ostoasiakirjoissa](finance-work-with-vat.md#correcting-vat-amounts-manually-in-sales-and-purchase-documents). Tämä kenttä ei välttämättä ole näkyvissä oletusarvoisesti. Sen voi hakea mukauttamalla sivua.|
-|**ALV-pyöristystyyppi**|Määrittää pyöristystavan ALV-summien oikaisemiseksi manuaalisesti myynti- ja ostoasiakirjoissa. Tämä kenttä ei välttämättä ole näkyvissä oletusarvoisesti. Sen voi hakea mukauttamalla sivua.|
+Valuuttakoodit määritetään **Valuutat**-luettelossa, mukaan lukien lisätiedot ja asetukset, jotka ovat välttämättömiä kunkin valuuttakoodin osalta. Lisätietoja on ohjeaiheessa [Valuutat](finance-set-up-currencies.md#curr)
 
 ### <a name="example-of-a-receivable-currency-transaction"></a>Esimerkki saamisen valuuttatapahtumasta
 
-Kun saat laskun yritykseltä ulkomaan valuutassa, laskun paikallisen valuutan (PVA) arvo on melko helppo laskea tämän päivän valuuttakurssin perusteella. Laskussa on kuitenkin usein maksuehdot, joiden nojalla voit viivyttää maksua myöhemmälle päivämäärälle, mikä taas tarkoittaa mahdollisesti erilaista valuuttakurssia. Kun vielä pankkien valuuttakurssit eroavat aina virallisista valuuttakursseista, on mahdotonta ennakoida tarkkaa paikallisen valuutan (PVA) summaa, joka tarvitaan laskun kattamiseen. Jos laskun eräpäivä ulottuu seuraavaan kuukauteen, saatat joutua myös uudelleenarvostamaan paikallisen valuutan (PVA) summan kuun lopussa. Valuutan oikaisu on tarpeen, koska laskun summan kattamiseen tarvittava uusi PVA-arvo saattaa olla erilainen, ja yrityksen velka toimittajalle on mahdollisesti muuttunut. Uusi PVA-summa voi olla edellistä summaa suurempi tai pienempi, joten se edustaa voittoa tai tappiota. Koska laskua ei ole kuitenkaan vielä maksettu, voiton tai tappion katsotaan olevan *toteutumaton*. Myöhemmin lasku maksetaan, ja pankki palauttaa maksun todellisen valuuttakurssin mukaisesti. Vasta nyt lasketaan *toteutunut* voitto tai tappio. Tämä toteutumaton voitto tai tappio peruutetaan ja toteutunut voitto tai tappio kirjataan sen sijaan.
-
-Seuraavassa esimerkissä lasku vastaanotetaan 1.1., ja valuuttasumma on 1 000. Valuuttakurssi on 1,123.
-
-|Pvm|Toiminto|Valuuttasumma|Asiakirjan pvm|PVA-summa asiakirjassa|Oikaisukurssi|Toteutumattomien voittojen summa|Maksukurssi|Realisoituneiden tappioiden summa|  
-|-----|----------|------------|-----------|---------|-----------|-------------|---------|---------|
-|1/1|**Lasku**|1000|1,123|1 123|||||
-|1/31|**Muutos**|1000||1 125|1,125|2|||
-|2/15|**Maksun peruutuksen muutos**|1000||||-2|||
-|2/15|**Maksu**|1000||1 120|||1,120|-3|
-
-Kuukauden lopussa suoritetaan valuutan muuttaminen, jossa muutoksen valuuttakurssiksi on asetettu 1,125, mikä laukaisee toteutumattoman voiton 2.
-
-Maksuhetkellä pankkitapahtumaan rekisteröity todellinen valuuttakurssi näyttää valuuttakurssia 1,120.
-
-Tähän sisältyy toteutumaton tapahtuma, ja siksi se peruutetaan yhdessä maksun kanssa.
-
-Lopuksi maksu rekisteröidään ja todellinen tappio kirjataan realisoituneen tappion tilille.
-
-## <a name="available-currency-functions"></a>Käytettävissä olevat valuuttafunktiot
-
-Seuraavassa taulukossa esitellään päätoiminnot **Valuutat**-sivulla. Osa toiminnoista selitetään seuraavissa osissa.  
-
-|Valikko|Toiminto|Kuvaus|
-|-------------|--------------|------------------------------|
-|**Käsittely**|**Ehdota tilejä**|Käytä muiden valuuttojen tilejä. Useimmin käytetyt tilit lisätään.|
-||Muuta maksutoleranssia|Muuta suurinta maksutoleranssia, maksutoleranssiprosenttia tai molempia. Tiedot suodatetaan valuutan mukaan. Lisätietoja on kohdassa [Maksutoleranssi ja maksualennustoleranssi](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-||**Vaihtokurssit**|Näytä käyttämiesi valuuttojen päivitetyt vaihtokurssit.|
-||**Muuta vaihtokursseja**|Muuta pääkirjanpidon, asiakkaan, toimittajan ja pankkitilin tapahtumien kirjaukset ja saldot muuttuneen vaihtokurssin mukaisiksi, jos vaihtokurssi on muuttunut tapahtumien kirjauksen jälkeen.|
-||**Vaihtokurssin muutos, rekisteri**|Tarkastele **Muuta vaihtokursseja** -eräajon suorituksen tuloksia. Ohjelma luo rivin jokaiselle valuutalle tai valuuttayhdistelmälle sekä kirjausryhmälle, joka sisältyy muutokseen.|
-|**Vaihtokurssipalvelut**|**Vaihtokurssipalvelut**|Tarkastele tai muokkaa niiden asetuksia palveluille, jotka on määritetty noutamaan päivitetyt vaihtokurssit käytettäessä **Päivitä valuutan vaihtokurssit** -toimintoa.|
-||**Päivitä valuutan vaihtokurssit**|Nouda uusimmat valuuttojen vaihtokurssit palveluntarjoajalta.|
-|**Raportit**|**Valuuttasaldo**|Tämä raportti näyttää kaikkien asiakkaiden ja toimittajien saldot valuutoissa ja paikallisessa valuutassa (PVA). Raportti näyttää kaksi PVA-saldoa. Toinen on ulkomaan valuuttasaldo muunnettuna PVA:ksi tapahtumahetken vaihtokurssia käyttäen. Toinen on ulkomaan valuuttasaldo muunnettuna PVA:ksi työpäivän vaihtokurssia käyttäen.|
+[!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
 ## <a name="exchange-rates"></a>Vaihtokurssit
 
@@ -203,9 +125,12 @@ Voit pitää valuutan vaihtokurssit ajan tasalla ulkoisen palvelun, kuten FloatR
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
+
+[Valuutat Business Centralissa](finance-currencies.md)  
+[Valuuttojen määrittäminen](finance-set-up-currencies.md)  
 [Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md)  
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

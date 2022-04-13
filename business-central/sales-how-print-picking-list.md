@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e42008912079eafeaa037f7759a50a2c76393edb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c4b9dbda118c3de9e414e013f40b69b900480177
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130096"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510581"
 ---
 # <a name="print-the-picking-list"></a>Tulosta poimintaluettelo
 
@@ -40,6 +40,6 @@ Voit myös tallentaa poimintaluettelon asiakirjana, esimerkiksi lähettääksesi
 
 [Varasto](inventory-manage-inventory.md)  
 [Nimikkeiden poiminta](warehouse-pick-items.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

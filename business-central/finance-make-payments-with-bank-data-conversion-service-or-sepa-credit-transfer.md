@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 256, 1205, 1206, 1209, 10810, 10811
 ms.date: 07/06/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7ca67e062f2ea6720d0aa7cbf196fd2c6e612159
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: be2f6e3efdfd34d59c55a3addeefb5646454b3bb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382626"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516263"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Maksujen suorittaminen AMC Banking 365 Fundamentals -laajennuksen tai SEPA-tilisiirron avulla
 
@@ -156,10 +156,10 @@ Kirjaa maksut sen jälkeen, kun pankki on käsitellyt ne onnistuneesti. Lisätie
 
 ## <a name="see-also"></a>Katso myös
 
-[AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md)  
+[Käytä AMC Banking 365 Fundamentals -laajennusta](ui-extensions-amc-banking.md)  
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
-[Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)  
+[Maksujen kerääminen SEPA-suoraveloitusperintänä.](finance-collect-payments-with-sepa-direct-debit.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

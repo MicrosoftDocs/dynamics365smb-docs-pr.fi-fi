@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ec650016000d8f6007a3abfa839cea7f1422de7b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 88877f719ec969fbca6dfd5928faf185b447bb42
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382043"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520358"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central kansainvälisille organisaatioille ja organisaatioille, joilla on useita toimipaikkoja
 Organisaatiot, joilla on useita toimipaikkoja, käyttävät usein säteittäisen ryhmän mallia. Siinä pääyritys tai pääkonttori hallinnoi liiketoiminnan yleisiä toimintoja samalla, kun kukin toimipaikka toimii yksittäisenä, erillisenä yksikkönä. Alueet ovat usein maantieteellisesti jakautuneet ja niillä on erilaiset tiedon jakamisen tarpeet pääkonttorin yrityksen kanssa. Lisäksi toimipaikat eivät yleensä tarvitse kovin monimutkaisia toimintoja, eikä niillä ole resursseja ylläpitää suurta järjestelmää.
@@ -105,11 +105,11 @@ Pääkonttorin yrityksen on reagoitava nopeasti liiketoiminnan muutoksiin kussak
 | **Liiketoiminnan vaatimus** | **Miten Business Central tukee sitä** | **Lisätietoja** |
 |-------------------------|-------------------------|-------------------------|
 | Luo sähköposti-ilmoituksia automaattisesti. | Määritä hälytykset Power Automatessa niin, että saat sähköposti-ilmoitukset kriittisistä liiketoiminnan olosuhteista toimipaikoissa tai toimitusketjun kumppaneilla. | [Business Central ja Power BI](admin-powerbi.md) |
-| Käytä vakiohälytyksiä tai mukautettuja hälytyksiä. | Käytä Business Centralin 12 erilaista mallia tai määritä omat hälytykset liiketoiminnan vaatimusten mukaan. | [Business Central -sovelluksen käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md) |
+| Käytä vakiohälytyksiä tai mukautettuja hälytyksiä. | Käytä Business Centralin 12 erilaista mallia tai määritä omat hälytykset liiketoiminnan vaatimusten mukaan. | [Business Centralin käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md) |
 
 ## <a name="see-also"></a>Katso myös
 [Business Central Onlinen hallintatehtävät](/dynamics365/business-central/dev-itpro/administration/tenant-administration)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

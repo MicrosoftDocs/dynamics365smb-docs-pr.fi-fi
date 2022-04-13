@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 30, 31
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8eafa5661bd61bc72df55171a2a2a79da045f0e8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 95194e3afed89d8a5636e53e1da76c20d81296ef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140500"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522536"
 ---
 # <a name="setup-best-practices-costing-method"></a>Parhaiden käytäntöjen määrittäminen: Arvostusmenetelmä
 
@@ -37,7 +37,7 @@ Seuraavassa taulukossa on parhaita käytäntöjä siitä, miten voit määrittä
 [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)  
 [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)  
 [Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen avulla](set-up-complex-application-areas-using-best-practices.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

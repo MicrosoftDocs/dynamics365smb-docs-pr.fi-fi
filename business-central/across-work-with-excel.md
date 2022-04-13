@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d27ad94c21325808d92b8f71e97a5bb8a484ded5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f03e67b0205af92fcdbb731a74ffe7f4507c39d3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142599"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511257"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Näyttäminen ja muokkaaminen Excelissä Business Centralista
 
@@ -79,7 +79,7 @@ Jos apuohjelma ei jostain syystä asennu, ota yhteyttä ylläpitäjään tai yri
 
 ## <a name="see-also"></a>Katso myös
 
-[Rahoituslaskelmien analysointi Microsoft Excel:issä](finance-analyze-excel.md)  
+[Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md)  
 [Business Centralin käyttäminen](ui-work-product.md)  
 [Excel-integraation parannukset vuoden 2019 2. julkaisuaallossa](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
 

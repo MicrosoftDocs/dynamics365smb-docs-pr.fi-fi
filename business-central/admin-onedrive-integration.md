@@ -1,22 +1,23 @@
 ---
 title: OneDriven ja Business Centralin integroinnin hallinta
 description: Tutustu asioihin, joita voit tehdä Business Centralin ja OneDrive for Businessin välisen integroinnin hallintaan.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OneDrive, share, browser
-ms.date: 05/12/2021
-ms.author: bholtorf
-ms.openlocfilehash: 5debd01f9d26e5e1dc1abc1a0123073d0f7ee234
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.date: 02/28/2022
+ms.author: jswymer
+ms.openlocfilehash: 7f630f8c13f692889f1d8526698d42633c42a4ee
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382869"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514593"
 ---
-# <a name="managing-onedrive-integration-with-business-central"></a>OneDriven ja Business Centralin integroinnin hallinta 
+# <a name="managing-onedrive-integration-with-business-central"></a>OneDriven ja Business Centralin integroinnin hallinta
+
 Tässä artikkelissa on yleiskuvaus siitä, mitä voit tehdä järjestelmänvalvojana, kun haluat hallita OneDrive for Businessin ja [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman integrointia. [!INCLUDE[prod_short](includes/prod_short.md)] online -asiakkaat hyötyvät automaattisesta integroinnista, eikä näiden toimintojen käyttöön tarvitse määrittää lisäasetuksia. 
 
 ## <a name="minimum-requirements"></a>Vähimmäisvaatimukset
@@ -25,6 +26,7 @@ Tässä artikkelissa on yleiskuvaus siitä, mitä voit tehdä järjestelmänvalv
 * OneDrive on määritettävä kullekin käyttäjälle.
 
 ## <a name="governance"></a>Hallinto
+
 SharePoint-hallintakeskus tarjoaa laajat hallintamahdollisuudet käytännöille, jotka ohjaavat OneDriven käyttöä koko organisaatiossa. Yleiset järjestelmänvalvojat tai käyttäjät, joilla on SharePoint-järjestelmänvalvojan rooli, voivat määrittää käytäntöjä, jotka määrittävät, ketkä voivat käyttää OneDrivea, missä tiedot ovat, sisällön elinkaaren ja paljon muuta. Seuraavissa linkeissä on tietoja usein käytetyistä ominaisuuksista ja asetuksista, jotka voivat tehostaa integrointia [!INCLUDE[prod_short](includes/prod_short.md)]in kanssa. 
 
 * [Jakamisasetusten hallinta](/sharepoint/turn-external-sharing-on-or-off)
@@ -39,9 +41,11 @@ SharePoint-hallintakeskus tarjoaa laajat hallintamahdollisuudet käytännöille,
 > Jotkin ominaisuudet voivat olla käytettävissä vain tietyissä suunnitelmissa.
 
 ## <a name="managing-privacy"></a>Yksityisyyden hallinta
+
 Järjestelmänvalvojat ja käyttäjät voivat hallita OneDriveen tallennettuja sisältöjä, ja nämä tiedot omistaa vain oma organisaatiosi. Lisätietoja on ohjeaiheessa [Miten SharePoint ja OneDrive turvaavat tietosi pilvipalvelussa](/sharepoint/safeguarding-your-data). Voit myös käydä [Microsoftin tietosuojatiedoissa](https://privacy.microsoft.com/en-us/privacystatement), jossa selitetään Microsoftin käsittelemät tiedot, miten Microsoft käsittelee niitä ja mihin käyttötarkoituksiin.
 
 ## <a name="restoring-onedrive-and-prod_short"></a>OneDriven ja [!INCLUDE[prod_short](includes/prod_short.md)]in palauttaminen
+
 Osana katastrofitilanteen palauttamisen harjoitusta järjestelmänvalvojat voivat joutua palauttamaan [!INCLUDE[prod_short](includes/prod_short.md)] -ympäristö aiempaan varmuuskopioon ja synkronoimaan OneDrive-tallennustila samaan ajankohtaan. OneDrive-ohjelmassa on erilaisia työkaluja tähän, kuten käyttäjän OneDriven palauttaminen aiempaan hetkeen, yksittäisen tiedoston aiemman version palauttaminen tai poistettujen tiedostojen palauttaminen. Lisätietoja on seuraavissa artikkeleissa:
 
 * Lisätietoja [!INCLUDE[prod_short](includes/prod_short.md)]ille on kohdassa [Ympäristön palauttaminen hallintakeskuksessa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
@@ -70,6 +74,11 @@ Järjestelmänvalvojan täytyy määrittää yhteys [!INCLUDE[prod_short](includ
 Lisää rekisteröity sovellus Business Centralille Microsoft 365 -suunnitelman Azure AD -vuokraajassa. Muiden Business Centralissa käytettävien Azure-palvelujen tavoin OneDrive edellyttää, että sovellus rekisteröidään Azure Active Directoryssa (Azure AD). Sovelluksen rekisteröinti tuottaa Business Centralin ja SharePointin välisiä todennus- ja valtuutuspalveluita, jota OneDrive käyttää.
 
 Määritä rekisteröidylle sovellukselle seuraavat delegoidut käyttöoikeudet SharePoint API -liittymään:
+
+- AllSites.FullControl
+- User.ReadWrite.All 
+
+Määritä Business Centralin vuoden 2021 2. julkaisuaallossa (versio 19) sen sijaan nämä oikeudet:
 
 - AllSites.Write
 - MyFiles.Write

@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: decimal separator, data entry, focus
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2021
+ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 9fb5df3e4b73b23b469185c46235170d6cebdde2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 8212dd5d85ee826bb0147a0d09d623c3af14071b
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323030"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528546"
 ---
 # <a name="entering-data"></a>Tietojen antaminen
 
@@ -23,7 +23,8 @@ Käytettävissä on monia yleisiä ominaisuuksia, jotka helpottavat, nopeuttavat
 
 Tämän artikkelin esimerkeissä käytetään esimerkkitietoja.
 
-## <a name="working-with-editable-fields"></a>Muokattavien kenttien käsitteleminen
+## <a name="work-with-editable-fields"></a>Muokattavien kenttien käsitteleminen
+
 [!INCLUDE[prod_short](includes/prod_short.md)] -kohteen kentissä voi olla erilaisia muokattavia tietoja, kuten tekstiä tai valuuttasummia. Muokattavat kentät näyttävät tavallisesti syöttöruudun, johon voit kirjoittaa tai valita arvon. Ei-muokattavat kentät näkyvät tavallisesti harmaana taustana.   
 
 Joidenkin muokattavien kenttien avulla voit määrittää arvon.  
@@ -57,6 +58,8 @@ Kun kohdistin näkyy kentän arvon lopussa:
 
 > [!NOTE]
 > Kun olet määrittänyt arvon, Business Central tarkistaa vain, että se on kelvollinen sen jälkeen, kun olet napsauttanut kentän ulkopuolella tai asettanut kohdistuksen toiseen elementtiin, kuten seuraavaan kenttään.  
+
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]
 
 ## <a name="keyboard-shortcuts"></a>Pikanäppäimet
 
@@ -108,9 +111,9 @@ Vaikka kenttä on pakollinen, et joudu täyttämään kenttää ennen kuin jatka
 
  Monissa kentissä on alanuolipainike, jonka voi valita. Napsauttamalla tätä painiketta saat näyttöön luettelon arvoista, jotka ovat määritettävissä kyseiseen kenttään. Painikkeella on kaksi eri tehtävää kentän tyypin mukaan:  
 
--   Haku - Ohjelma näyttää toisen taulukon tietoja, joita voi syöttää kenttään. Voit valita yhden tiedon kerrallaan.  
+- Haku - Ohjelma näyttää toisen taulukon tietoja, joita voi syöttää kenttään. Voit valita yhden tiedon kerrallaan.  
 
--   Avattava luettelo - Ohjelma näyttää kentän eri vaihtoehdot. Voit valita vain yhden vaihtoehdoista.  
+- Avattava luettelo - Ohjelma näyttää kentän eri vaihtoehdot. Voit valita vain yhden vaihtoehdoista.  
 
 ## <a name="copying-and-pasting-faq-fields-and-lines"></a>Kenttien ja rivien kopioimisen ja liittämisen usein kysytyt kysymykset
 
@@ -171,26 +174,26 @@ Kun syötät lukuja määräkenttiin, kuten nimikepäiväkirjan rivin **Määrä
 
 ### <a name="examples"></a>Esimerkkejä  
 
--   Jos syötät 19+19, kentän arvoksi lasketaan 38.  
+- Jos syötät 19+19, kentän arvoksi lasketaan 38.  
 
--   Jos syötät 41-9, kentän arvoksi lasketaan 32.  
+- Jos syötät 41-9, kentän arvoksi lasketaan 32.  
 
--   Jos syötät 12*4, kentän arvoksi lasketaan 48.  
+- Jos syötät 12*4, kentän arvoksi lasketaan 48.  
 
--   Jos syötät 12/4, kentän arvoksi lasketaan 3.  
+- Jos syötät 12/4, kentän arvoksi lasketaan 3.  
 
 ## <a name="entering-negative-numbers"></a>Negatiivisten lukujen syöttäminen
 
 Voit antaa negatiivisia lukuja kahdella tavalla. Numero -20,5 voidaan syöttää seuraavasti:  
 
--   -20.5  
+- -20.5  
 
-    tai
--   20,5-  
+  tai
+- 20,5-  
 
- Kummassakin tapauksessa summa kirjataan arvona -20,5.  
+Kummassakin tapauksessa summa kirjataan arvona -20,5.  
 
- Jos lausekkeen viimeinen merkki on **+** tai **-**, koko lauseke kirjataan kyseisen merkin kanssa. Esimerkiksi **10-20+** johtaa tulokseen 10, ei tulokseen -10.  
+Jos lausekkeen viimeinen merkki on **+** tai **-**, koko lauseke kirjataan kyseisen merkin kanssa. Esimerkiksi **10-20+** johtaa tulokseen 10, ei tulokseen -10.  
 
 ## <a name="entering-dates-and-times"></a>Päivämäärien ja aikojen syöttäminen
 
@@ -205,11 +208,14 @@ Voit käyttää joko päivämäärän valitsinta valitaksesi päivämäärän ka
 
 Kun päivämäärä annetaan manuaalisesti, voit käyttää kahta, neljää, kuutta tai kahdeksaan numeroa:  
 
--   Kaksi numeroa tulkitaan päiväksi. Ohjelma lisää käsittelypäivämäärän kuukauden ja vuoden.  
+- Kaksi numeroa tulkitaan päiväksi. Ohjelma lisää käsittelypäivämäärän kuukauden ja vuoden.  
 
--   Neljä numeroa tulkitaan päiväksi ja kuukaudeksi. Ohjelma lisää käsittelypäivämäärän vuoden.  
+- Neljä numeroa tulkitaan päiväksi ja kuukaudeksi. Ohjelma lisää käsittelypäivämäärän vuoden.  
 
--   Jos haluamasi päivämäärä on alueella 01.01.1930 – 31.12.2029, kirjoita vuosi, jossa on kaksi numeroa. Muussa tapauksessa syötä vuosi, jossa on neljä numeroa.  
+- Jos haluamasi päivämäärä on alueella 01.01.1950 – 31.12.2049, kirjoita vuosi, jossa on kaksi numeroa. Muussa tapauksessa syötä vuosi, jossa on neljä numeroa.
+
+  > [!NOTE]
+  > Jos käytössä on paikallinen [!INCLUDE[prod_short](includes/prod_short.md)], kaksinumeroinen vuosiväli voi olla eri. Järjestelmänvalvojat voivat muuttaa aluetta muuttamalla **CalendarTwoDigitYearMax**-asetusta [!INCLUDE[prod_short](includes/prod_short.md)]-palvelimessa. Lisätietoja on kohdassa [Business Central Serverin määrittäminen](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
 
 Voit myös syöttää päivämäärän viikonpäivänä, jonka jälkeen tulee viikon numero. Tai voit syöttää vuoden. Esimerkiksi Ma25 tai ma25 tarkoittaa viikon 25 maanantaita.  
 
@@ -267,14 +273,17 @@ Seuraavassa on muutamia esimerkkejä:
 
 ## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Numeeristen näppäimistöjen käyttämän desimaalierottimen asettaminen
 
-Kun syötät tietoja numeronäppäimistön desimaalierottimen avulla, kenttään syötetty todellinen desimaali erotin määräytyy Business Centralin alueasetuksen mukaan. Määritä alue Business Centralin **Omat asetukset** -sivulla.
+Kun syötät tietoja numeronäppäimistön desimaalierottimen avulla, kenttään syötetty todellinen desimaali erotin määräytyy Business Centralin alueasetuksen mukaan. Useimmat alueet käyttävät piste (.)- tai pilkku (,) -symbolia desimaaliarvojen erottimena, kuten tavallisesti valuuttasummissa. Näppäimistön desimaalinäppäin mukautuu alueeseen. Se on usein eri kuin muun näppäimistön piste- tai pilkkunäppäimet. Määritä alue Business Centralin **Omat asetukset** -sivulla.
 
-Oletetaan esimerkiksi, että käytät numeronäppäimistöä, joka käyttää pistettä (.) desimaalierottimen näppäimenä. Mutta olet syöttämässä tietoja alueelliselle kielelle, joka käyttää pilkkua (**,**) desimaalierottimena, kuten tanskan (Tanska) tai ranskan (Ranska) kielessä. Haluat siis desimaalit kuten "1.23" syötettävän muodossa "1,23". Tässä tapauksessa voit siirtyä **Omat asetukset** -sivulle ja määrittää **alueen** kohdealuekieleksi, kuten **tanska (Tanska)** tai **ranska (Ranska)**. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md#region).
+Oletetaan esimerkiksi, että käytät numeronäppäimistöä, joka käyttää pistettä (.) desimaalierottimen näppäimenä. Mutta olet syöttämässä tietoja alueelliselle kielelle, joka käyttää pilkkua (**,**) desimaalierottimena, kuten ranskan (Ranska) kielessä. Haluat siis desimaalit kuten "1.23" syötettävän muodossa "1,23". Tässä tapauksessa voit siirtyä **Omat asetukset** -sivulle ja määrittää **alueen** kohdealuekieleksi **ranska (Ranska)**. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md#region).
+
+> [!TIP]
+> Joskus voi olla tarpeen käyttää desimaalierotinta pisteen (.) syöttämiseen. Oletetaan esimerkiksi, että syötät päivämäärävälin suodattimeen, esimerkiksi `01/01/2022..04/01/2022`tai mikä tahansa, joka edellyttää pistettä. Tämän mahdollistamiseksi paina numeronäppäimistön Alt- ja desimaalierotin-näppäimiä. Tämä näppäinyhdistelmä vaihtaa desimaalierottimen pisteen syöttämisen ja **Alue**-asetuksessa määritetyn desimaalierottimen välillä.
 
 ## <a name="see-also"></a>Katso myös
 
 [Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

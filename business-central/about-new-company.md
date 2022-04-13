@@ -10,46 +10,47 @@ ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f05fcf2fc3137fbdf97940e5b3d73922180253b4
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: bef90a9dab30391f310458cb0dde58cc4fac5268
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323163"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519353"
 ---
-# <a name="creating-new-companies-in-prod_short"></a>Uusien yritysten luominen [!INCLUDE[prod_short](includes/prod_short.md)]issa
+# <a name="create-new-companies-in-prod_short"></a>Uusien yritysten luominen [!INCLUDE[prod_short](includes/prod_short.md)]issa
 
-[!INCLUDE[prod_short](includes/prod_short.md)]in liiketoimintayksikölle tai yritykselle kuuluvaa liiketoimintatietojen säilöä kutsutaan *yritykseksi*. Kun rekisteröidyt [!INCLUDE[prod_short](includes/prod_short.md)]iin, saat käyttöösi esimerkkiyrityksen ja tyhjän yrityksen, jonka nimi on *Oma yritys*. Yritysten välillä siirtyminen on helppoa: valitse vain **Omat asetukset** ja siirry toiseen yritykseen. Voit myös luoda uusia yrityksiä [!INCLUDE[prod_short](includes/prod_short.md)]issa yrityksen tarpeiden mukaan. Kun luot uuden yrityksen, asetusten ohjattu määritysopas auttaa varmistamaan, että perustoiminnot ovat kohdallaan. Voit tuoda tämän jälkeen tarvittavat tiedot vanhasta järjestelmästä tai toisesta [!INCLUDE[prod_short](includes/prod_short.md)]in yrityksestä.  
+[!INCLUDE[prod_short](includes/prod_short.md)]in liiketoimintayksikölle tai yritykselle kuuluvaa liiketoimintatietojen säilöä kutsutaan *yritykseksi*. Kun rekisteröidyt [!INCLUDE[prod_short](includes/prod_short.md)]iin, saat käyttöösi esimerkkiyrityksen ja tyhjän yrityksen, jonka nimi on *Oma yritys*. Yritysten välillä siirtyminen on helppoa: valitse vain **Omat asetukset** ja siirry toiseen yritykseen. Voit myös luoda uusia yrityksiä [!INCLUDE[prod_short](includes/prod_short.md)]issa yrityksen tarpeiden mukaan.  
 
-## <a name="creating-a-new-company"></a>Luodaan uusi yritys
+Kun luot uuden yrityksen, asetusten ohjattu määritysopas auttaa varmistamaan, että perustoiminnot ovat kohdallaan. Voit tuoda tämän jälkeen tarvittavat tiedot vanhasta järjestelmästä tai toisesta [!INCLUDE[prod_short](includes/prod_short.md)]in yrityksestä.  
+
+## <a name="choose-the-right-template"></a>Valitse oikea malli
 
 Jos päätät lisätä yrityksen [!INCLUDE[prod_short](includes/prod_short.md)]iin, pääset alkuun käyttämällä ohjattua **Luo uusi yritys** -asetusten määritystä. Ohjatun asetustoiminnon voi valita **Yritykset**-sivulla ja **Omat asetukset** -kohdassa **Yritys**-kentän valintaruudussa.  
 
-Ohjatussa asennuksessa on kolme mallia ja tyhjä vaihtoehto:
+Ohjatussa asennuksessa on kaksi mallia ja tyhjä vaihtoehto:
 
 - **Arviointi - Mallitiedot**  
-    Näin luotu yritys muistuttaa esittely-yritystä, jossa on malli- ja asetustietoja.  
+    Näin luotu yritys muistuttaa esittely-yritystä, jossa on malli- ja asetustietoja. Tämän tyyppinen yritys on käytettävissäsi ilman, että siirrytään [30 päivän kokeilujaksoon](across-preview.md#add-your-own-data-to-an-empty-trial-company), jota muut tyypit edellyttävät.  
 - **Tuotanto - Vain määritystiedot**  
-    Näin luotu yritys muistuttaa **omaa yritystä**, jossa on asetustietoja mutta mallitiedot puuttuvat.
-- **Laajennettu arviointi - Kaikki mallitiedot** Tämä luo yrityksen ja asetustiedot sekä kaikkien toimintojen täydelliset mallitiedot myös valmistukselle ja huoltohallinnolle.
+    Näin luotu yritys muistuttaa **omaa yritystä**, jossa on asetustietoja mutta mallitiedot puuttuvat. Voit käyttää tätä yritystä [30 päivän kokeilujakson ajan](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
 - **Luo uusi - Ei tietoja**  
-    Näin luotu yritys on tyhjä eikä siinä ole asetustietoja.  
+    Näin luotu yritys on tyhjä eikä siinä ole asetustietoja. Voit käyttää tätä yritystä [30 päivän kokeilujakson ajan](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
 
 Jos haluat, että uuden yrityksen käytön aloittaminen on helppoa, valitse **Tuotanto - Vain määritystiedot** ja tuo omat liiketoimintatietosi, kuten asiakkaat, nimikkeet ja toimittajat. Valitse **Uusi**-malli, jos haluat määrittää kaiken itse alusta alkaen. Voit siinä tapauksessa aloittaa tärkeimpien asetustietojen käytön käyttämällä asetusten ohjatun **Yrityksen asennus** -määrityksen ohjeita.  
 
 > [!NOTE]  
 > Kun luot uuden yrityksen, kestää joitakin minuutteja, ennen kuin sitä voi käyttää [!INCLUDE[prod_short](includes/prod_short.md)]issa. **Yritykset**-sivulla oleva asennuksen tila ilmaisee, kun uusi yritys on valmis. Voit siirtyä sitten uuteen yritykseen **omissa asetuksissa**.  
 
-30 päivän kokeilujakson aikana luotavien yritysten määrää ei ole rajoitettu, mutta niitä voi käyttää vain kokeilujakson aikana. Pyydä lisätietoja [!INCLUDE[prod_short](includes/prod_short.md)]-kumppanilta.  
+30 päivän kokeilujakson aikana luotavien yritysten määrää ei ole rajoitettu, mutta niitä voi käyttää vain kokeilujakson aikana. Pyydä lisätietoja [!INCLUDE[prod_short](includes/prod_short.md)]-kumppanilta. Katso myös [Dynamics 365 Business Central -kokeiluversion UKK](trial-faq.md) -artikkeli.  
 
-## <a name="copying-a-company"></a>Yrityksen kopioiminen
+## <a name="copy-a-company"></a>Kopioi yritys
 
 **Yritykset** -sivulla voit käyttää **Kopiointi**-toimintoa toisen yrityksen luomiseen olemassa olevan yrityksen sisällön perusteella. Tästä on hyötyä esimerkiksi silloin, kun haluat testata yritystä häiritsemättä tuotantotietoja.
 
 > [!Important]
 > Tätä toimintoa ei voi käyttää yrityksen varmuuskopiointiin. Yrityksen varmuuskopion ottaminen alkaa viemällä tietokanta .bacpac-tiedostona. Lisätietoja on kehittäjien ja IT-ammattilaisten ohjeaiheessa [Tietokantojen vieminen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export).
 
-## <a name="company-setup"></a>Yrityksen asennus
+## <a name="set-up-the-company"></a>Määritä yritys
 
 Kun kirjaudut uuteen yritykseen, ohjattu **Yrityksen asennus** -toiminto suoritetaan automaattisesti, mikä helpottaa aloittamista. Sinulta kysytään yritystä koskevia tietoja, kuten osoite, pankkitiedot ja varaston arvostusmenetelmä. Nämä tiedot kysytään, koska ne ovat perustietoja monilla [!INCLUDE[prod_short](includes/prod_short.md)]in alueilla ja tällä tavoin niitä ei tarvitse määrittää myöhemmin manuaalisesti.  
 
@@ -61,7 +62,7 @@ Kun perustiedot on annettu, voi määrittää loput keskeiset alueet. Sen jälke
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
-Lisätietoja on kohdassa [Siirtyminen toiseen yritykseen tai ympäristöön](ui-organization-switch.md). 
+Lisätietoja on kohdassa [Siirtyminen toiseen yritykseen tai ympäristöön](ui-organization-switch.md). Lisätietoja ympäristöistä: [Business Central Onlinen infrastruktuurin ymmärtäminen](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology) (vain englanniksi).  
 
 ## <a name="changing-a-companys-name"></a>Yrityksen nimen muuttaminen
 
@@ -70,6 +71,10 @@ Kun yritys on luotu, sen nimeä ei voi muuttaa. Mutta voit muuttaa sen **näytt�
 > [!TIP]
 > Voit nimetä yrityksen uudelleen, jos käytät [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versiota.
 
+## <a name="add-contoso-coffee"></a>Lisää Contoso Coffee
+
+Contoso Coffee -sovellus sisältää esittelytietoja, joiden avulla voit tutkia [!INCLUDE [prod_short](includes/prod_short.md)]-ohjelman kehittyneitä ominaisuuksia. Etsi sovellus AppSourcessa ja asenna se tyhjään yritykseen, esimerkiksi yritykseen eristysympäristössä. Lisätietoja on kohdassa [Johdatus Contoso Coffee -demotietoihin](contoso-coffee/contoso-coffee-intro.md).  
+
 ## <a name="see-also"></a>Katso myös
 
 [Business Central -sovelluksen mukauttaminen](ui-customizing-overview.md)  
@@ -77,6 +82,7 @@ Kun yritys on luotu, sen nimeä ei voi muuttaa. Mutta voit muuttaa sen **näytt�
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
-
+[Kokeilut ja tilaukset](across-preview.md)  
+[Business Central Onlinen infrastruktuurin ymmärtäminen (vain englanniksi)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

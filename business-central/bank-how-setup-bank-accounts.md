@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: 4c305d4ba1f4208eb7a3c5845d4b32bb40f930e6
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: fc0c01281b4a4fb1bccee4196917b4357413e4cf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382309"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514119"
 ---
 # <a name="set-up-bank-accounts"></a>Pankkitilien määrittäminen
 
@@ -29,6 +29,8 @@ Pankkitilit toimivat eri tavalla sen mukaan, onko valuuttakoodi määritetty:
 - Valuuttakoodi on määritetty
 
   Kaikkien tälle tilille tehtyjen tapahtumien on oltava siinä valuutassa, joka tilillä on määritetty. Kaikilla tältä tililtä annetuilla sekeillä on myös oltava tämä valuutta.  
+
+Voit säästää tietojen syöttämiseen käytettävän ajan tekemällä pankkitilistä tilille määritetyn valuutan oletustilin. Jos teet näin, tili liitetään myynti- ja huoltoasiakirjoihin, jotka käyttävät valuuttaa. Kun haluat tehdä tilistä myynti- ja huoltoasiakirjojen oletustilin, Ota **Pankkitilin kortti** -sivulla käyttöön **Käytä oletusvaluuttana** -valitsin. Voit tarvittaessa valita eri tilin, kun käsittelet asiakirjaa.
 
 Pankkitili on integroitu [!INCLUDE[prod_short](includes/prod_short.md)] -osa ja sillä on rooli monissa muissa ominaisuuksissa. Seuraavassa kuvassa näkyvät tärkeimmät suhteet:
 
@@ -153,16 +155,16 @@ The following table explains key fields.
 |Bank Statement Import Format|Specifies the format of the bank statement file that can be imported into this bank account. The format is being used in both the payment reconciliation journals and the bank account reconciliations.|
 |Payment Export Format|Specifies the format of the bank file that will be exported when you choose the Export Payments to File button in the Payment Journal window.|
 -->
-> [!NOTE]
-> Voit täyttää **Saldo**-kenttään alkusaldo, kun pankkitilitapahtuma ja kyseinen summa on kirjattu. Voit tehdä tämän suorittamalla pankkitilin täsmäytyksen. Lisätietoja on kohdassa [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md).  
+
+## <a name="entering-an-opening-balance"></a>Alkusaldon syöttäminen
+Voit täyttää **Saldo**-kenttään alkusaldo, kun pankkitilitapahtuma ja kyseinen summa on kirjattu. Voit tehdä tämän suorittamalla pankkitilin täsmäytyksen. Lisätietoja on kohdassa [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md).  
 >
 > Vaihtoehtoisesti voit ottaa käyttöön alkusaldon osana yleistietojen luontia uusissa yrityksissä käyttämällä ohjattua **Siirrä yritystiedot** -asetusten määritystä. Lisätietoja on ohjeaiheessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
 
 > [!IMPORTANT]
-> On tärkeää, että et kirjaa alkusaldoa suoraan pääkirjanpitoon. Jos KP-tilin kirjauksia kirjataan suoraan KP-tiliin, tuloksena on yleensä se, että et voi täsmäyttää pankkitiliä tai, jos kyseessä on ulkomaan valuutan pankkitili, tuloksena on eroja, jotka kertyvät ylimääräisiä pankkitäsmäytyksiä kirjatessa. Usein pankin avaussaldo kirjataan suoraan pankkitilille, ja summa päätyy KP-tiliin. Voit vaihtoehtoisesti kumota sen myöhemmin sellaisen nimetyn KP-tilin osalta, jota olet käyttänyt pääkirjanpidon avaussaldon tasapainottamista varten. Molemmissa tapauksissa sinun on tasapainotettava mahdolliset suorat kirjaukset KP-tiliin ennen ensimmäisen pankkitäsmäytyksen aloittamista ja erityisesti silloin, kun pankkitili käyttää ulkomaan valuuttaa.  
+> On tärkeää, että et kirjaa alkusaldoa suoraan pääkirjanpitoon. Jos KP-tilin kirjauksia kirjataan suoraan KP-tiliin, tuloksena on yleensä se, että et voi täsmäyttää pankkitiliä tai, jos kyseessä on ulkomaan valuutan pankkitili, tuloksena on eroja, jotka kertyvät ylimääräisiä pankkitäsmäytyksiä kirjatessa. Usein pankin avaussaldo kirjataan suoraan pankkitilille, ja summa päätyy KP-tiliin. Voit vaihtoehtoisesti kumota sen myöhemmin sellaisen KP-tilin osalta, jota käytät pääkirjanpidon avaussaldon tasapainottamista varten. Molemmissa tapauksissa sinun on tasapainotettava mahdolliset suorat kirjaukset KP-tiliin ennen ensimmäisen pankkitäsmäytyksen aloittamista ja erityisesti silloin, kun pankkitili käyttää ulkomaan valuuttaa.
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Pankkitilin määrittäminen pankkitiedostojen tuontia tai vientiä varten
-
 **Pankkitilin kortti** -sivun **Siirto**-pikavälilehden kentät liittyvät pankkisyötteiden ja -tiedostojen tuontiin ja vientiin. Lisätietoja on kohdissa [AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md) ja [Envestnet Yodlee Bank Feeds -palvelun määrittäminen](bank-how-setup-bank-statement-service.md).
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten vastaava linkki.
@@ -250,7 +252,7 @@ Jos haluat tarkastella käteistilejäsi tarkemmin taloudellisessa raportoinnissa
 [Maksujen suorittaminen AMC Banking 365 Fundamentals -laajennuksen tai SEPA-tilisiirron avulla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)  
 [Maksun täsmäytys](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Pääkirjanpito ja aitoustodistus](finance-general-ledger.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

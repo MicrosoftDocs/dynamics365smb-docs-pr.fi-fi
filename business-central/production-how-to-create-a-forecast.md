@@ -7,22 +7,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 9245, 99000919, 99000921, 99000922
-ms.date: 06/22/2021
+ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 2992aaf0d28f6d46bdd942465659760f0622ac0b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5f734667385dcc1e26a4ace4903a88414ff12348
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140941"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512912"
 ---
 # <a name="create-a-demand-forecast"></a>Kysyntäennusteen luominen
 
-Voit luoda myynti- ja tuotantoennusteita **Kysyntäennuste**-sivulla.  
+Voit luoda myynti- ja tuotantoennusteita **Kysyntäennusteet**-luettelosivulla. Tämän jälkeen voit määrittää kullekin ennusteelle eri asetukset **Kysyntäennusteen yleiskuvaus** -sivulla.  
 
-Ennustetoimintojen avulla käyttäjä voi luoda ennakoitua kysyntää; toteutunut kysyntä on peräisin myynti- ja tuotantotilauksista. Tuotanto-ohjelmaa luotaessa ennuste nettoutetaan myynti- ja tuotantotilauksiin verraten. Ennusteen *Komponentti*-vaihtoehto määrittää, minkä tyyppiset vaatimukset nettouttamisessa otetaan huomioon. Jos ennuste koskee myyntinimikettä, ennuste nettoutetaan vain myyntitilauksiin verraten. Jos kyseessä ovat komponentit, ennuste nettoutetaan vain tuotantotilausten komponenttien ei-itsenäiseen kysyntään verraten.  
+Ennustetoimintojen avulla käyttäjä voi luoda ennakoitua kysyntää; toteutunut kysyntä on peräisin myynti- ja tuotantotilauksista. Tuotanto-ohjelmaa luotaessa ennuste nettoutetaan myynti- ja tuotantotilauksiin verraten. **Ennusteen tyyppi** -kenttä määrittää, minkä tyyppiset vaatimukset nettouttamisessa otetaan huomioon. Jos ennuste koskee *myyntinimikettä*, ennuste nettoutetaan vain myyntitilauksiin verraten. Jos kyseessä ovat *komponentit*, ennuste nettoutetaan vain tuotantotilausten komponenttien ei-itsenäiseen kysyntään verraten.  
 
 Ennustetoiminnon avulla yritys voi luoda "mitä jos" -tyyppisiä mallinnuksia ja tehdä kysyntään perustuvia suunnitelmia tehokkaasti sekä taloudellisesti. Tarkoilla ennusteilla voi olla ratkaiseva vaikutus asiakkaiden tyytyväisyyteen, koska toimitusajat voidaan määrittää tarkasti ja toimitukset tehdä ajallaan.  
+
+Vuoden 2022 julkaisuaallon 1 avulla voit myös määrittää sopivan yksityiskohtien määrän **Ennuste sijainnin mukaan**- ja **Ennuste variantin mukaan** -kentissä **Kysyntäennusteen yleiskuvaus** -sivulla. Suodattimet ja muut asetukset tallennetaan **Kysyntäennusteen nimi** -taulukkoon. Joten voit helposti keskeyttää ja jatkaa työtäsi myöhemmin. Jos organisaatiosi on päivitetty vuoden 2022 julkaisuaaltoon 1, sinun on siirryttävä uuteen kokemukseen [Ominaisuuksien hallinta](admin-feature-management.md) -sivulla.  
 
 ## <a name="sales-forecasts-and-production-forecasts"></a>Myyntiennusteet ja tuotantoennusteet
 
@@ -33,7 +35,10 @@ Sovelluksen ennustetoimintoja voidaan käyttää joko yhdistettyjen tai erillist
 
 Tuotannon suunnittelija muokkaakin myyntiennustetta useimmiten tuotannon edellytysten mukaisesti, mutta siten, että myyntiennuste kuitenkin täyttyy.  
 
-Voit luoda ennusteita manuaalisesti **Kysyntäennuste**-sivulla. Järjestelmässä voi olla useita erinimisiä ja erityyppisiä ennusteita. Ennusteita voi tarvittaessa kopioida ja muokata. Muistathan, että vain yksi ennuste kerrallaan kelpaa suunnittelun pohjaksi.  
+Voit luoda ennusteita manuaalisesti **Kysyntäennuste**-sivulla. Järjestelmässä voi olla useita erinimisiä ja erityyppisiä ennusteita. Ennusteita voi tarvittaessa kopioida ja muokata. 
+
+> [!NOTE]
+> Vain yksi ennuste kerrallaan kelpaa suunnittelun pohjaksi.
 
 Ennusteessa on joukko tietueita, joista jokaisessa on nimikkeen numero, ennustepäivämäärä ja ennustettava määrä. Nimikkeen ennuste kattaa tietyn jakson, jonka määrittävät ennustepäivämäärä sekä seuraavan (myöhäisemmän) ennustetietueen ennustepäivämäärä. Suunnittelun kannalta ennustettavan määrän pitäisi olla käytettävissä kysyntäjakson alussa.  
 
@@ -112,8 +117,8 @@ Luo sitten myyntitilaus, jonka määrä on 12 sijainnissa LÄNSI. Suunnittelujä
 [Varasto](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
-[Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Parhaiden käytäntöjen määrittäminen: Toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

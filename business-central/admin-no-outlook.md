@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 79a02ba516c1359863ac552e66fce03287519a65
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7ac4d66671d7eeb78c5fead20e7a43844c5d03c0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144074"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517055"
 ---
-# <a name="using-business-central-without-outlook"></a>Business Central -sovelluksen käyttäminen ilman Outlookia
+# <a name="use-business-central-without-outlook"></a>Business Central -sovelluksen käyttäminen ilman Outlookia
 [!INCLUDE[prod_short](includes/prod_short.md)] on integroitu tiiviisti Microsoft 365:n kanssa, ja voit käyttää [!INCLUDE[prod_short](includes/prod_short.md)]ia Outlookissa yrityssähköpostina. Jos Outlook ei ole käytössä, [!INCLUDE[prod_short](includes/prod_short.md)]ia voi käyttää selaimessa tai mobiililaitteessa.  
 
 ## <a name="sending-email"></a>Sähköpostin lähettäminen
@@ -26,7 +26,7 @@ Voit lähettää asiakirjoja, kuten laskuja, sähköpostina käyttämällä yrit
 ## <a name="see-also"></a>Katso myös
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md)  
-[Business Central -sovelluksen hakeminen omaan mobiililaitteeseen](install-mobile-app.md)  
+[Business Centralin hakeminen omaan mobiililaitteeseen](install-mobile-app.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)
 
 

@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2021
+ms.date: 01/27/2022
 ms.author: bholtorf
-ms.openlocfilehash: 39700bcb00aadf4a567da0487db58c17aefe58af
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 3d8b49c34bee069c10fdd2713de9ed0cd3c3fb72
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381747"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517971"
 ---
 # <a name="keyboard-shortcuts"></a>Pikanäppäimet
 
@@ -240,12 +240,20 @@ Roolien hallinta tarjoaa yleiskatsauksen ja nopean pääsyn kaikkiin roolisi kä
 |VAIHTO + F3 tai CTRL + YLÄNUOLI|Siirrä kohdistus roolien hallinnan edelliseen löytyneeseen toimintoon.|
 |Ctrl+Shift|Laajenna tai tiivistä kaikki alisolmut ylimmän tason solmujen lisäksi, kun valitset **Laajenna**- tai **Tiivistä**-toiminnon.|
 
+##  <a name="numeric-keypad-shortcuts"></a><a name="keypad"></a> Numeronäppäimistön pikanäppäimet
+
+Seuraavassa taulukossa kuvataan numeronäppäimistön pikanäppäimet.
+
+|Paina näitä näppäimiä<br />(macOS)|Tehtävä|
+|--------------------------------|----------|
+|Alt+Desimaalierotin|Vaihda desimaalierotinnäppäimen arvoksi joko piste (.) tai **Alue**-asetuksen määrittämä merkki **Omat asetukset** -sivulla. Lisätietoja on kohdassa [Numeeristen näppäimistöjen käyttämän desimaalierottimen asettaminen](ui-enter-data.md#decimal).|
+
 ## <a name="see-also"></a>Katso myös
 
-[Näppäimistön Pikaohje - Vain PC](keyboard-shortcuts-cheatsheet.md)  
+[Näppäimistön pikaohje - Vain PC](keyboard-shortcuts-cheatsheet.md)  
 [Aputoiminnot](ui-accessibility.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Usein kysytyt kysymykset](across-faq.yml)  
 [Etsi tapahtumat](ui-find-entries.md)  
 

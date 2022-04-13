@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1112, 1113, 1122
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 8192a884b697274484be2fba4b9f0cb75ebec5b0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9cfb46221098869f41b67c5365f14265b34017c0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142105"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520332"
 ---
 # <a name="setting-up-cost-accounting"></a>Kustannuslaskennan määrittäminen
 
@@ -194,7 +194,7 @@ Voit määrittää kunkin pääkirjanpidon tilin dimension oletusarvot **Oletusd
 [Kustannuslaskenta](finance-manage-cost-accounting.md)  
 [Kustannustapahtumien siirtäminen ja kirjaaminen](finance-transfer-and-post-cost-entries.md)   
 [Kustannusten määrittäminen ja kohdistaminen](finance-define-and-allocate-costs.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: find
 ms.search.form: 344, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b77a8508d921f885276d3e0b7956d7785b7f29cb
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 6e6e6f6f622d1938fb2195bc2dde2c2ba689a59f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322978"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517685"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Liittyvien tapahtumien etsiminen kirjatuista asiakirjoista 
 
@@ -29,7 +29,7 @@ Tämä ominaisuus on hyödyllinen etsittäessä tietyistä tapahtumista syntynei
 
 ## <a name="get-started"></a>Aloitus
 
-Etsi tapahtumat -toiminto on helposti saatavilla useimmilla sivuilla, joilla näkyvät kirjatut asiakirjat tai kirjattujen asiakirjojen tapahtumat – sekä luettelot että kortit. Joten ensimmäinen askel on avata yksi näistä sivuista. Valitse sitten **Etsi tapahtumat** -toiminto tai paina Alt+G-näppäimiä.
+Etsi tapahtumat -toiminto on helposti saatavilla useimmilla sivuilla, joilla näkyvät kirjatut asiakirjat tai kirjattujen asiakirjojen tapahtumat – sekä luettelot että kortit. Joten ensimmäinen askel on avata yksi näistä sivuista. Valitse sitten **Etsi tapahtumat** -toiminto tai paina Ctrl+Alt+G-näppäimiä.
 
 **Etsi tapahtumat** -sivu sisältää kaikki asiaan liittyvät asiakirjat ja tapahtumat asiakirjan nro-kentän ja kirjauspäivämäärän perusteella. Sivu jakautuu kolmeen osaan:
 

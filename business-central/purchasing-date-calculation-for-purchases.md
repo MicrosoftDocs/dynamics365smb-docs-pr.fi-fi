@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 5c9a0c61b2f02e3f3750c3d8c23153df2634299d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35151e830c44cb3edd28988887f86b8abf7a3b51
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132704"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514879"
 ---
 # <a name="date-calculation-for-purchases"></a>Ostojen päivämäärälaskenta
 
@@ -58,7 +58,7 @@ Toimittajan kortin toimitusajan arvoa käytetään kuitenkin vain, jos toimitusa
 
 [Myynnin päivämäärälaskenta](sales-date-calculation-for-sales.md)   
 [Toimituksen lupaamisen päivämäärien laskeminen](sales-how-to-calculate-order-promising-dates.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ed45facfc64dda670d0e1e4d7dd9b396b4c11fae
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5a9fd8a1d4ac379c2c20d832f8cace206e549375
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132783"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516029"
 ---
 # <a name="reverse-output-posting"></a>Tuotoksen kirjaamisen peruuttaminen
 
@@ -35,7 +35,7 @@ Tuotospäiväkirjan tapahtumat kirjataan nimiketapahtumiin positiivisena muutoks
  [Suunnittelu](production-planning.md)  
  [Varasto](inventory-manage-inventory.md)  
  [Osto](purchasing-manage-purchasing.md)  
- [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+ [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

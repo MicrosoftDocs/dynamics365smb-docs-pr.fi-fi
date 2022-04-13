@@ -10,12 +10,12 @@ ms.search.keywords: check, bank transfer, cash, PayPal
 ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: d3748e39dc75a8fb3fcda690d02f5bc1cb4484ce
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: abe1d874658c393b0d9795c1710e642b4e33add0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383187"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512956"
 ---
 # <a name="set-up-payment-methods"></a>Maksutapojen määrittäminen
 
@@ -48,7 +48,7 @@ Vaihtoehtoisesti voit lisätä maksuehdot maksutapaan. Lisätietoja on ohjeaihee
 [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md)  
 [Maksuehtojen määrittäminen](finance-payment-terms.md)  
 [Rahoitus](finance.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

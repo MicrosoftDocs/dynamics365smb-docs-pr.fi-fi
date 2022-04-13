@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: e61e4561c4227eba4c518e6e5ec0582c5ebe7d70
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cd29453c816eabd8e9475ac7e818c120bd589f3b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134146"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519183"
 ---
-# <a name="using-the-prod_short-apps-in-power-bi"></a>[!INCLUDE [prod_short](includes/prod_short.md)] -sovellusten käyttäminen Power BI:ssa
+# <a name="use-the-prod_short-apps-in-power-bi"></a>[!INCLUDE [prod_short](includes/prod_short.md)] -sovellusten käyttäminen Power BI:ssa
 
 > **KOHDE:** [!INCLUDE [prod_long](includes/prod_long.md)] online 
 
@@ -155,8 +155,8 @@ Power BI -sovellus näyttää vain sen [!INCLUDE[prod_short](includes/prod_short
 ## <a name="see-also"></a>Katso myös
 
 [Business Central ja Power BI](admin-powerbi.md)  
-[Power BI:n -integrointiosa ja [!INCLUDE[prod_short](includes/prod_short.md)] -arkkitehtuurin yleiskatsaus](admin-powerbi-overview.md)  
-[[!INCLUDE [prod_short](includes/prod_short.md)] -tietojen käyttäminen Power BI:ssa](across-working-with-business-central-in-powerbi.md)  
+[Power BI -integrointiosa ja [!INCLUDE[prod_short](includes/prod_short.md)] -arkkitehtuurin yleiskatsaus](admin-powerbi-overview.md)  
+[[!INCLUDE [prod_short](includes/prod_short.md)] -tietojen käsitteleminen Power BI:ssä](across-working-with-business-central-in-powerbi.md)  
 [Power BI -raporttien luominen näyttämään [!INCLUDE [prod_long](includes/prod_long.md)] -tietoja](across-how-use-financials-data-source-powerbi.md)  
 [Power BI kuluttajille](/power-bi/consumer/end-user-consumer)  
 [Power BI -palvelun uusi ulkoasu](/power-bi/service-new-look)  
@@ -168,7 +168,7 @@ Power BI -sovellus näyttää vain sen [!INCLUDE[prod_short](includes/prod_short
 [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power BI:n tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Apps:n tietolähteenä](across-how-use-financials-data-source-powerapps.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Automate'ssa](across-how-use-financials-data-source-flow.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Automatessa](across-how-use-financials-data-source-flow.md)  
 
 
 

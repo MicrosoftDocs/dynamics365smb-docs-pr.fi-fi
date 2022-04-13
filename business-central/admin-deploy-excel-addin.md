@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 29cfec8ea605209aed7e7005dfcfa1c10d54b7b6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: beb7a01986d12458e0615918608b44a6d90c269c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141409"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518413"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Business Central -apuohjelman hankkiminen Exceliin
 
@@ -79,13 +79,13 @@ Työskentelet sekä [!INCLUDE[prod_short](includes/prod_short.md)]issa että Mic
     4. Tarkista **Hyväksy käyttöoikeuspyynnöt** ja valitse sitten **Seuraava** > **Viimeistele käyttöönotto**.
     5. Odota, että apuohjelman **Käyttöönotettu**-kohdan vieressä oleva vihreä valintamerkki näkyy ja valitse sitten **Valmis**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
-       Apuohjelma näkyy **Apuohjelmat**-sivulla. Lisätietoja apuohjelmien käyttöönotosta Microsoft 365 -hallintakeskuksessa on kohdassa [Apuohjelmien käyttöönotto hallintakeskuksessa](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+       Apuohjelma näkyy **Apuohjelmat**-sivulla. Lisätietoja apuohjelmien käyttöönotosta Microsoft 365 -hallintakeskuksessa on kohdassa [Apuohjelmien käyttöönotto hallintakeskuksessa](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
 4. Siirry takaisin **Excel-apuohjelman keskitetyn käyttöönoton** avustettuun määritykseen kohteessa [!INCLUDE[prod_short](includes/prod_short.md)] ja valitse **Seuraava**.
 5. Ota käyttöön **Käytä keskitettyä käyttöönottoa** ja valitse **Valmis**.
 
     Jos et ota tätä valitsinta käyttöön, [!INCLUDE[prod_short](includes/prod_short.md)] hakee apuohjelman suoraan Office-kaupasta.
 
-Kun olet valmis, voit aina muuttaa käyttöönottoa Microsoft 365 -hallintakeskuksessa, kuten määrittää useampia käyttäjiä. Lisätietoja apuohjelmien käyttöönotosta hallintakeskuksessa on kohdassa [Apuohjelmien käyttöönotto hallintakeskuksessa](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Kun olet valmis, voit aina muuttaa käyttöönottoa Microsoft 365 -hallintakeskuksessa, kuten määrittää useampia käyttäjiä. Lisätietoja apuohjelmien käyttöönotosta hallintakeskuksessa on kohdassa [Apuohjelmien käyttöönotto hallintakeskuksessa](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
 
 > [!IMPORTANT]
 > Jos ympäristöjä on useampia kuin yksi, sinun on suoritettava **Excel-apuohjelman keskitetty käyttöönotto** -määritys kussakin ympäristössä, jossa haluat käyttää keskitettyä käyttöönottoa. Keskitettyä käyttöönottoa ei kuitenkaan tarvitse määrittää Microsoft 365:ssä uudelleen. Ainoa asia mitä sinun tarvitsee tehdä on ottaa käyttöön **Käytä keskitettyä käyttöönottoa** -kytkin avustetussa määrityksessä. 

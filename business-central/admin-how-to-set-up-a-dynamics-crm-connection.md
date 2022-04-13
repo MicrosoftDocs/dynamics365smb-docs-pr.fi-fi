@@ -8,12 +8,12 @@ ms.search.keywords: ''
 ms.search.forms: 7200, 7201
 ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: f83764061bb341b0b9d6619a0c5d14cac6b664a9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 57f8091d81870f9e58af80462259006d4cb822ae
+ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383829"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8485030"
 ---
 # <a name="connect-to-microsoft-dataverse"></a>Yhteyden muodostaminen Microsoft Dataverseen
 
@@ -25,10 +25,10 @@ Tässä ohjeaiheessa kuvataan, kuinka [!INCLUDE[prod_short](includes/prod_short.
 
 Ennen yhteyden luomista tarvitaan seuraavat tiedot:  
 
-* Sen [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -ympäristön URL-osoite, johon haluat muodostaa yhteyden. Jos käytät **Dataverse -yhteyden määrityksen** asetusten ohjattua määritysopasta yhteyden luomiseen, ympäristöt löydetään. Sinun on kuitenkin annettava myös vuokraajan toisen ympäristön URL-osoite.  
+* Sen [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -ympäristön URL-osoite, johon haluat muodostaa yhteyden. Jos luot yhteyden avusteisen **Dataverse -yhteyden määritys** -asennusoppaan avulla, löydät ympäristösi. Voit myös syöttää vuokralaisen toisen ympäristön URL-osoitteen.  
 * Sen tilin käyttäjätili ja salasana, jolla on järjestelmänvalvojan oikeudet [!INCLUDE[prod_short](includes/prod_short.md)]- ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -sovelluksessa.  
 * Jos käytössäsi on [!INCLUDE[prod_short](includes/prod_short.md)]vuoden 2020 1. julkaisuaallon on-premises-versio 16.5, lue [Joitakin tunnettuja ongelmia](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services) -artikkeli. Sinun on toteutettava kuvattu kiertotapa, ennen kuin voit luoda yhteyden [!INCLUDE[cds_long_md](includes/cds_long_md.md)]en.
-* Tuotteen [!INCLUDE[prod_short](includes/prod_short.md)] yrityksen paikallisvaluutan on oltava sama kuin tuotteen [!INCLUDE[cds_long_md](includes/cds_long_md.md)] perustapahtumavaluutta. Kun perustapahtuma on määritetty tuotteessa [!INCLUDE[cds_long_md](includes/cds_long_md.md)], sitä ei voi muuttaa. Lisätietoja on kohdassa [Tapahtuman valuutta (valuutta) -entiteetti](/powerapps/developer/data-platform/transaction-currency-currency-entity). Tämä tarkoittaa sitä, että kaikissa tuotteen [!INCLUDE[prod_short](includes/prod_short.md)] yrityksissä, joista muodostetaan yhteys organisaatioon [!INCLUDE[cds_long_md](includes/cds_long_md.md)] , on käytettävä samaa valuuttaa.
+* Tuotteen [!INCLUDE[prod_short](includes/prod_short.md)] yrityksen paikallisvaluutan on oltava sama kuin tuotteen [!INCLUDE[cds_long_md](includes/cds_long_md.md)] perustapahtumavaluutta. Kun olet tehnyt tapahtuman perusvaluuttana [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -ratkaisussa, et voi muuttaa sitä. Lisätietoja on kohdassa [Tapahtuman valuutta (valuutta) -entiteetti](/powerapps/developer/data-platform/transaction-currency-currency-entity). Kaikissa tuotteen [!INCLUDE[prod_short](includes/prod_short.md)] yrityksissä, joista muodostetaan yhteys organisaatioon [!INCLUDE[cds_long_md](includes/cds_long_md.md)] , on käytettävä samaa valuuttaa.
 
 > [!IMPORTANT]
 > [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -ympäristösi ei saa olla järjestelmänvalvojan tilassa. Järjestelmänvalvojan tila aiheuttaa yhteyden epäonnistumisen, koska yhteyden integrointikäyttäjätilillä ei ole järjestelmänvalvojan käyttöoikeuksia. Lisätietoja on kohdassa [Järjestelmänvalvojan tila](/power-platform/admin/admin-mode).
@@ -71,7 +71,7 @@ Dataverse -yhteyden asetusopas helpottaa sovellusten yhdistämistä, ja se voi a
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>Yhteyden luominen tai ylläpitäminen manuaalisesti
 
-Seuraavassa kerrotaan, miten yhteys määritetään manuaalisesti **Dataverse -yhteyden määritys** -sivulla. Tällä sivulla hallitaan myös integroinnin asetuksia.
+Seuraavassa kerrotaan, miten yhteys määritetään manuaalisesti **Dataverse -yhteyden määritys** -sivulla. **Dataverse-yhteyden määritys** -sivulla hallitaan integroinnin asetuksia.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Dataverse-yhteyden määritys** ja valitse sitten vastaava linkki.
 2. Anna seuraavat tiedot yhteyden muodostamiseen [!INCLUDE[prod_short](includes/prod_short.md)]ista [!INCLUDE[cds_long_md](includes/cds_long_md.md)]iin.
@@ -88,7 +88,7 @@ Seuraavassa kerrotaan, miten yhteys määritetään manuaalisesti **Dataverse -y
 
     <!-- |Field|Description|
     |-----|-----|
-    |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you are using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who do not have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account will not have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
+    |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you're using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who don't have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account won't have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
     |**Current Business Central Salesperson is Mapped to a User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)] double check the name of this field|-->
 4. Jos haluat testata yhteysasetukset, valitse **Yhteys** ja valitse sitten **Testaa yhteys**.  
 
@@ -107,35 +107,33 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 ## <a name="customize-the-match-based-coupling"></a>Osumapohjaisen yhdistämisen mukauttaminen
 
-Alkaen vuoden 2021 2. julkaisuaallosta voit yhdistää tietueita [!INCLUDE [prod_short](includes/prod_short.md)]issa ja [!INCLUDE [cds_long_md](includes/cds_long_md.md)]issa ylläpitäjän määrittelemien vastaavuuskriteerien perusteella.  
-
-Tietueiden vastaavuuden algoritmi voidaan aloittaa seuraavista paikoista [!INCLUDE [prod_short](includes/prod_short.md)]ista:
+Alkaen vuoden 2021 2. julkaisuaallosta voit yhdistää tietueita ylläpitäjän määrittelemien vastaavuuskriteerien perusteella. Tietueiden vastaavuuden algoritmi voidaan aloittaa seuraavista paikoista [!INCLUDE [prod_short](includes/prod_short.md)]ista:
 
 * Luettelosivut, jotka näyttävät [!INCLUDE [cds_long_md](includes/cds_long_md.md)]in kanssa synkronoitavia tietueita , kuten Asiakkaat- ja Nimikkeet-sivut.  
 
     Valitse monta tietuetta ja valitse sitten **Liittyvä**-toiminto, valitse **Dataverse**, valitse **Yhdistäminen** ja valitse sitten **Vastaavuuspohjainen yhdistäminen**.
 
-    Kun vastaavuuspohjainen yhdistämisprosessi aloitetaan päätietoluettelosta, yhdistämistyö ajoitetaan suoraan sen jälkeen, kun olet valinnut yhdistämiskriteerit.  
+    Kun vastaavuuspohjainen yhdistämisprosessi aloitetaan päätietoluettelosta, yhdistämistyö ajoitetaan sen jälkeen, kun olet määrittänyt yhdistämiskriteerit.  
 * **Täyden Dataverse-synkr. tarkistus** -sivu.  
 
-    Kun täyden synkronoinnin prosessi havaitsee, että ei-sidottuja tietueita on sekä [!INCLUDE [prod_short](includes/prod_short.md)]issa että [!INCLUDE [cds_long_md](includes/cds_long_md.md)]issa, **Valitse yhdistämisehdot** -linkki näkyy asianomaisen integrointitaulukon kohdalla.  
+    Kun täyden synkronoinnin prosessi havaitsee, että ei-sidottuja tietueita on sekä [!INCLUDE [prod_short](includes/prod_short.md)]issa että [!INCLUDE [cds_long_md](includes/cds_long_md.md)]issa, **Valitse yhdistämisehdot** -linkki näkyy integrointitaulukon kohdalla.  
 
-    Voit käynnistää **Suorita täysi synkronointi** -toiminnon **Dataverse-yhteyden määritys**- ja **Dynamics 365 -yhteyden määritys** -sivuilta, ja se voidaan aloittaa vaiheena kohdassa **Määritä yhteys Dataverseen** avustetussa asennusoppaassa, kun valitset suorittaa asennuksen loppuun ja suorittaa täydellisen synkronoinnin lopussa.  
+    Voit käynnistää **Suorita täysi synkronointi** -toiminnon **Dataverse-yhteyden määritys**- ja **Dynamics 365 -yhteyden määritys** -sivuilta. Voit käynnistää sen myös **Määritä yhteys Dataverseen** -avustetussa asennusoppaassa, kun suoritat asetukset.  
 
-    Kun vastaavuuspohjainen yhdistämisprosessi aloitetaan **Täyden Dataverse-synkr. tarkistus** -sivulta, yhdistämistyö ajoitetaan suoraan sen jälkeen, kun määritys on valmis.  
+    Kun vastaavuuspohjainen yhdistämisprosessi aloitetaan **Täyden Dataverse-synkr. tarkistus** -sivulta, yhdistämistyö ajoitetaan sen jälkeen, kun määritys on valmis.  
 * **Integrointitaulukon yhdistämismääritysluettelo**.  
 
     Valitse yhdistämismääritys, sitten **Yhdistäminen**-toiminto ja valitse sitten **Vastaavuuspohjainen yhdistäminen**.
 
-    Kun vastaavuuspohjainen yhdistämisprosessi aloitetaan integrointitaulukon yhdistämismäärityksestä, kaikki kyseisen yhdistämismäärityksen yhdistelemättömien tietueiden yhdistämistyöt suoritetaan. Jos se on suoritettu luettelon valituille tietueille, se suoritetaan vain valittujen kytkemättömien tietueiden osalta.
+    Kun vastaavuuspohjainen yhdistämisprosessi aloitetaan integrointitaulukon yhdistämismäärityksestä, kaikki kyseisen yhdistämismäärityksen yhdistelemättömien tietueiden yhdistämistyöt suoritetaan. Voit myös valita ei-sidotut tietueet luettelosta, jos haluat suorittaa työn vain kyseisille tietueille.
 
 Kaikissa kolmessa tapauksessa **Valitse yhdistämisehdot** -sivu avautuu, jotta voit määrittää asianmukaiset kytkentäkriteerit. Mukauta tällä sivulla kytkentä seuraavien tehtävien avulla:
 
-* Valitse kentät , joiden mukaan [!INCLUDE [prod_short](includes/prod_short.md)] -tietueet ja [!INCLUDE [cds_long_md](includes/cds_long_md.md)] -entiteetit vastaavat toisiaan, ja valitse, otetaanko kentässä huomioon kirjainkoko.  
+* Valitse kentät, joiden avulla [!INCLUDE [prod_short](includes/prod_short.md)]-tietueita etsitään [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-entiteettien avulla. Voit määrittää, onko vastaavuushaussa isot ja pienet kirjaimet merkityksellisiä.  
 
-* Määritä, suoritetaanko synkronointi tietueiden yhdistämisen jälkeen, ja jos tietue käyttää kaksisuuntaista yhdistämistä, valitse myös, mitä tapahtuu, jos ristiriidat on luetteloitu **Ratkaise päivitysristiriidat** -sivulla.  
+* Määrittää, synkronoidaanko sen jälkeen, kun tietueet on yhdistetty. Jos tietueet käyttävät kaksisuuntaista yhdistämistä, voit myös määrittää, mitä tapahtuu, jos ristiriidat on luetteloitu **Ratkaise päivitysristiriidat** -sivulla.  
 
-* Priorisoi tietueiden hakujärjestystä määrittämällä asianmukaisten yhdistettävien kenttien *vastaavuusprioriteetti*. Vastaavuusprioriteetti saa algoritmin hakemaan vastaavuutta useissa toistoissa, jotka on määritetty **Vastaavuusprioriteetti** -kentän arvoissa nousevassa järjestyksessä. **Vastaavuusprioriteetti**-kentässä oleva tyhjä arvo tulkitaan prioriteetiksi 0, joten tämän arvon kentät otetaan ensin huomioon.  
+* Priorisoi tietueiden hakujärjestystä määrittämällä asianmukaisten yhdistettävien kenttien *vastaavuusprioriteetti*. [!INCLUDE [prod_short](includes/prod_short.md)] etsii ottelua nousevassa järjestyksessä vastaavuutta **Vastaavuuden prioriteetti** -kentän arvon perusteella. **Vastaavuuden prioriteetti** -kentässä on tyhjä arvo on sama kuin prioriteetti 0, joka on korkein prioriteetti. Kentät, joiden prioriteetti on 0, otetaan ensin huomioon.  
 
 * Määrittää, luodaanko uusi entiteettiesiintymä [!INCLUDE [cds_long_md](includes/cds_long_md.md)]issa siinä tapauksessa, että hakuehdoilla ei löydy yksilöllistä yhdistämättä olevaa vastaavuutta. Voit aktivoida tämän ominaisuuden valitsemalla **Luo uusi, jos ei löydy vastaavuutta** -toiminto.  
 
@@ -143,48 +141,44 @@ Kaikissa kolmessa tapauksessa **Valitse yhdistämisehdot** -sivu avautuu, jotta 
 
 Jos haluat tarkastella yhdistämistyön tuloksia, avaa **Integrointitaulukon yhdistämismääritykset** -sivu, valitse haluamasi linkitys, valitse **Yhdistäminen**-toiminto ja valitse sitten **Integroinnin yhdistämistyön loki** -toiminto.  
 
-Jos tietueita ei ole kytketty, voit porautua alaspäin Epäonnistunut-sarakkeen arvoon, jolloin näyttöön tulee virheluettelo, joka määrittää, miksi tietueita ei voitu yhdistää.  
+Jos tietueiden yhdistäminen ei onnistunut, voit valita **Epäonnistunut**-sarakkeen arvon, jolloin näyttöön tulee virheluettelo, joka kuvaa tapahtunutta.  
 
-Epäonnistunut kytkentä tapahtuu usein seuraavissa tapauksissa:
+Yleensä yhdistäminen epäonnistuu seuraavista syistä:
 
 * Vastaavuuskriteerejä ei ole määritetty
 
-    Tässä tapauksessa suorita vastaavuuspohjainen yhdistäminen uudelleen, mutta muista määrittää yhdistämiskriteerit.
+    Suorita vastaavuuspohjainen yhdistäminen uudelleen, mutta muista määrittää yhdistämiskriteerit.
 
-* Useista tietueista ei löytynyt vastaavuutta valittujen vastaavien kenttien perusteella.
+* Vastaavuusehdoissa määritetyille kentille ei löytynyt vastaavuutta
 
-    Toista tässä tapauksessa yhdistäminen joillakin muilla vastaavilla kentillä.
+    Toista yhdistäminen käyttäen eri kenttiä.
 
-* Useista tietueista löytyi useita vastaavuuksia valittujen vastaavien kenttien perusteella  
+* Useista tietueista löytyi useita vastaavuuksia vastaavuusehdoissa määriteltyjen kenttien perusteella  
 
-    Toista tässä tapauksessa yhdistäminen joillakin muilla vastaavilla kentillä.
+    Toista yhdistäminen käyttäen eri kenttiä.
 
-* Löytyi yksi vastine, mutta vastaava tietue on jo liitetty toiseen tietueeseen [!INCLUDE [prod_short](includes/prod_short.md)]issa  
+* Löytyi vastine, mutta tietue on jo liitetty toiseen tietueeseen [!INCLUDE [prod_short](includes/prod_short.md)]issa  
 
-    Toista tässä tapauksessa kytkentä jollakin muulla vastaavalla kentällä tai tutki, miksi kyseinen [!INCLUDE [cds_long_md](includes/cds_long_md.md)] -objekti on liitetty kyseiseen toiseen tietueeseen [!INCLUDE [prod_short](includes/prod_short.md)]issa.
+    Toista kytkentä jollakin muulla kentällä tai tutki, miksi kyseinen [!INCLUDE [cds_long_md](includes/cds_long_md.md)] -objekti on liitetty kyseiseen toiseen tietueeseen [!INCLUDE [prod_short](includes/prod_short.md)]issa.
 
 > [!TIP]
-> Jotta saat yleiskuvan yhdistämisen edistymisestä, **Yhdistetty Dataverseen** -kentässä näkyy, onko tietty tietue liitetty [!INCLUDE [cds_long_md](includes/cds_long_md.md)] -kohteeseen vai ei. Voit suodattaa tämän kentän mukaan [!INCLUDE [cds_long_md](includes/cds_long_md.md)]in kanssa synkronoitavien tietueiden luettelon.
+> Jotta saat yleiskuvan yhdistämisen edistymisestä, **Yhdistetty Dataverseen** -kentässä näkyy, onko tietue liitetty [!INCLUDE [cds_long_md](includes/cds_long_md.md)] -kohteeseen. **Yhdistetty Dataverseen** -kentän avulla voit suodattaa synkronoitavien tietueiden luettelon.
 
 ## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Päivitä yhteydet Business Central Onlinesta käyttääksesi varmennepohjaista todennusta
 > [!NOTE]
 > Tämä osa on merkityksellinen vain Microsoftin isännöimille [!INCLUDE[prod_short](includes/prod_short.md)] online -vuokraajille. Tämä ei vaikuta ISV-isännöityihin online-vuokralaisiin tai paikan päällä tehtyihin asennuksiin.
 
-Huhtikuussa 2022 [!INCLUDE[cds_long_md](includes/cds_long_md.md)]issa vanhentuu Office365-todennustyyppi (käyttäjänimi/salasana). Lisätietoja on kohdassa [Office365-todennustyypin vanheneminen](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Lisäksi maaliskuussa 2022 [!INCLUDE[prod_short](includes/prod_short.md)]issa vanhenee online-vuokraajien asiakassalaisuuspohjaisen palvelujenvälisen todennuksen käyttö [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteyksissä. ISV-toimittajien isännöimät [!INCLUDE[prod_short](includes/prod_short.md)] online -vuokralaiset ja paikalliset asennukset voivat edelleen käyttää asiakkaan salaisuuden todennusta yhteyden muodostamiseen kohteeseen [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+Huhtikuussa 2022 [!INCLUDE[cds_long_md](includes/cds_long_md.md)]issa vanhentuu Office365-todennustyyppi (käyttäjänimi/salasana). Lisätietoja on kohdassa [Office365-todennustyypin vanheneminen](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). Lisäksi maaliskuussa 2022 [!INCLUDE[prod_short](includes/prod_short.md)]ssa vanhentuu asiakasohjelmien salaisuuteen perustuva palveluiden välinen todennus online-vuokralaisille. Sinun on käytettävä varmennepohjaista palveluiden väliselle todennukselle [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteyksille. ISV-toimittajien isännöimät [!INCLUDE[prod_short](includes/prod_short.md)] online -vuokralaiset ja paikalliset asennukset voivat edelleen käyttää asiakkaan salaisuuksia todennukseen.
 
 Jotta integraatiot eivät häiriinny, yhteys _on päivitettävä_ käyttämään varmennepohjaista todennusta. Vaikka muutos ajoittuu maaliskuulle 2022, suosittelemme, että päivität mahdollisimman pian. Seuraavissa vaiheissa kuvataan, miten varmennepohjaiseen todennukseen päivitetään. 
 
 ### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Business Central online -yhteyden päivittäminen käyttämään varmennepohjaista todennusta
 
-> [!NOTE]
-> Varmennepohjainen todennus on käytettävissä Business Central 2021:n julkaisuaallossa 1 ja sitä uudemmissa. Jos käytät aiempaa versiota, sinun on ajoitettava Business Central 2021:n julkaisuaallon 1 päivitys ennen maaliskuuta 2022. Lisätietoja on kohdassa [Päivitysten ajoitus](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). Jos sinulla on ongelmia, ota yhteyttä kumppaniisi tai tukeen.
-
-1. Varmista [Business Centralin hallintakeskuksessa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center), että käytät Business Central 2021:n julkaisuaaltoa 1 tai uudempaa versiota (versio 18 tai uudempi).
-2. Tee jokin seuraavista toimista sen mukaan, integroitko Dynamics 365 Salesiin:
+1. Tee jokin seuraavista toimista sen mukaan, integroitko Dynamics 365 Salesiin:
    * Jos kyllä, avaa **Microsoft Dynamics 365 -yhteysasetukset** -sivu.
    * Jos ei, avaa **Dataverse-yhteysasetukset**-sivu.
-3. Valitse **Yhteys** ja sitten **Käytä varmennetodennusta** päivittääksesi yhteyden käyttämään varmennepohjaista todennusta.
-4. Kirjaudu sisään Dataverse-järjestelmänvalvojan tunnistetiedoilla. Sisäänkirjautuminen kestää alle minuutin.
+2. Valitse **Yhteys** ja sitten **Käytä varmennetodennusta** päivittääksesi yhteyden käyttämään varmennepohjaista todennusta.
+3. Kirjaudu sisään Dataverse-järjestelmänvalvojan tunnistetiedoilla. Sisäänkirjautumisen pitäisi kestää alle minuutin.
 
 > [!NOTE]
 > Nämä vaiheet on toistettava jokaisessa [!INCLUDE[prod_short](includes/prod_short.md)] -ympäristössä, mukaan lukien tuotanto- ja eristysympäristöt ja jokaisessa yrityksessä, jolla on yhteys [!INCLUDE[cds_long_md](includes/cds_long_md.md)]iin.
@@ -193,7 +187,7 @@ Jotta integraatiot eivät häiriinny, yhteys _on päivitettävä_ käyttämään
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -version yhdistäminen [!INCLUDE[cds_long_md](includes/cds_long_md.md)]en edellyttää, että **Dataverse -yhteyden määritys** -sivulla määritetään joitakin tietoja.
 
-Jos haluat muodostaa yhteyden käyttämällä Azure Active Directory (Azure AD) -tiliä, sovellus on rekisteröitävä Azure AD:ssä, minkä lisäksi on asennettava sovelluksen tunnus, avainsäilön salaisuus ja käytettävä uudelleenohjauksen URL-osoite. Uudelleenohjauksen URL-osoite täytetään valmiiksi, ja sen pitäisi toimia useimmissa asennuksissa. Asennus on määritettävä käyttämään HTTPS-yhteyttä. Lisätietoja on kohdassa [SSL:n määrittäminen suojaamaan Business Centralin verkkoasiakasohjelman yhteyttä](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Jos palvelimelle määritetään jokin muu aloitussivu, URL-osoitteen voi vaihtaa. Asiakasohjelman salaisuus tallennetaan tietokantaan salattuna merkkijonona. 
+Jotta voisit muodostaa yhteyden Azure Active Directory (Azure AD) -tilin avulla, sinun täytyy rekisteröidä sovellus kohteessa Azure AD. Anna sovelluksen tunnus, avainsäilön salaisuus ja uudelleenohjauksen URL-osoite. Uudelleenohjauksen URL-osoite täytetään valmiiksi, ja sen pitäisi toimia useimmissa asennuksissa. Asennus on määritettävä käyttämään HTTPS-yhteyttä. Lisätietoja on kohdassa [SSL:n määrittäminen suojaamaan Business Centralin verkkoasiakasohjelman yhteyttä](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Jos palvelimelle määritetään jokin muu aloitussivu, URL-osoitteen voi vaihtaa. Asiakasohjelman salaisuus tallennetaan tietokantaan salattuna merkkijonona. 
 
 ### <a name="prerequisites"></a>Vaatimukset
 
@@ -221,7 +215,7 @@ Seuraavissa vaiheissa oletetaan, käyttäjätietojen ja käyttöoikeuksien halli
     > Dynamics CRM -API:n nimi voi muuttua.
 
 5. Valitse **Hallinta**-kohdassa **Varmenteet ja salaiset avaimet** ja lue sitten sovellukselle uusi salaisuus. Salaista avainta joko käytetään [!INCLUDE[prod_short](includes/prod_short.md)]in **Dataverse -yhteyden määritys** -sivun **Asiakasohjelman salainen avain** -kentässä tai se tallennetaan suojattuun tallennustilaan, josta se annetaan tapahtumaan tilaajassa aiemmin tässä aiheessa kuvatulla tavalla.
-6. Valitse **Yleiskuvaus** ja etsi sitten **Sovelluksen (asiakasohjelman) tunnus** -arvo. Tämä on sovelluksen asiakasohjelman tunnus. Se on joko annettava **Dataverse -yhteyden määritys** -sivun **Asiakasohjelman tunnus** -kentässä tai tallennettava suojattuun tallennustilaan tapahtuman tilaajassa annettavaksi.
+6. Valitse **Yleiskuvaus** ja etsi sitten **Sovelluksen (asiakasohjelman) tunnus** -arvo. Tämä tunnus on sovelluksen asiakasohjelman tunnus. Se on joko annettava **Dataverse -yhteyden määritys** -sivun **Asiakasohjelman tunnus** -kentässä tai tallennettava suojattuun tallennustilaan tapahtuman tilaajassa annettavaksi.
 7. Anna [!INCLUDE[prod_short](includes/prod_short.md)]in **Dataverse -yhteyden määritys** -sivun **Ympäristön URL-osoite** -kentässä [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -ympäristön URL-osoite.
 8. [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteys otetaan käyttöön **Käytössä**-valitsimella.
 9. Käytä kirjautumiseen Azure Active Directoryn järjestelmänvalvojan tiliä. (Tämä tili tarvitsee voimassaolevan [!INCLUDE[cds_long_md](includes/cds_long_md.md)]n käyttöoikeuden, ja sen on oltava [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -ympäristön järjestelmänvalvoja.) Kirjautumisen jälkeen sinua pyydetään antamaan rekisteröidylle sovellukselle lupa kirjautua [!INCLUDE[cds_long_md](includes/cds_long_md.md)]en organisaation puolesta. Määrityksen valmistumisen edellyttää tämän luvan antamista.

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 283, 5629
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9f378289f5e6351b431a871110a778b4df8793bb
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 91741eea4d2ba780e7493e6aff256238bd542769
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367096"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511362"
 ---
 # <a name="allocate-costs-and-income"></a>Kohdista kustannukset ja tulot
 
@@ -57,7 +57,7 @@ Voit kohdistaa toistuvan yleisen päiväkirjan tapahtuman useille eri tileille p
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)    
 [Asiakirjojen ja päiväkirjojen kirjaaminen](ui-post-documents-journals.md)    
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

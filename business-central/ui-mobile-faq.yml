@@ -10,12 +10,12 @@ metadata:
   ms.search.keywords: phone, tablet
   ms.date: 10/25/2021
   ms.author: edupont
-  ms.openlocfilehash: 2511135e9e0aebb3a813c5fede167d10b46f045a
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  ms.openlocfilehash: 70e9bf530b2b640c42ee346d39ce6d06d5a7cee8
+  ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
   ms.translationtype: HT
   ms.contentlocale: fi-FI
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8140317"
+  ms.lasthandoff: 03/31/2022
+  ms.locfileid: "8513469"
 title: Mobiilisovellukset – usein kysytyt kysymykset
 summary: "Tässä artikkelissa vastataan kokeneiden käyttäjien [!INCLUDE [prod_short](includes/prod_short.md)]in mobiilisovelluksia koskeviin usein kysyttyihin kysymyksiin.  \n"
 sections:
@@ -83,7 +83,7 @@ sections:
     answer: "Melkein, mutta ei aivan. Katso luettelo [Onko kokemus sama sovelluksissa kuin selaimessa?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-) -osassa.  \n"
   - question: >
       Voinko liittää sovelluksen paikalliseen ratkaisuun?
-    answer: "Kyllä saat. Se on hieman erilainen tapa kirjautua sisään, siinä kaikki. Lisätietoja on kohdassa [Business Central on-premises -version käyttäminen](install-mobile-app.md#using-business-central-on-premises).  \n"
+    answer: "Kyllä saat. Se on hieman erilainen tapa kirjautua sisään, siinä kaikki. Lisätietoja on kohdassa [Business Central on-premises -version käyttäminen](install-mobile-app.md#use-business-central-on-premises).  \n"
   - question: >
       Voiko vieraskäyttäjät käyttää Business Central -ratkaisua sovelluksen avulla?
     answer: "Ei. Vieraskäyttäjät ovat jostain muusta kuin omasta Azure Active Directory (AD) -vuokraajasta kutsuttuja käyttäjiä. Tässä tapauksessa sovellus todennetaan vieraskäyttäjän ensisijaiseen Azure AD -vuokraajaan. Kokeile Business Central -päätepisteen avaamista kyseisessä vuokraajassa oman vuokraajan sijaan.  \n"

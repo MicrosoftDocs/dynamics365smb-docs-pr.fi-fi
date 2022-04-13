@@ -7,12 +7,12 @@ ms.search.keywords: rfq
 ms.search.form: 142, 800, 806
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b5a819c1aeea44b39f7c8497420e08af3c0ae2ab
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 8124aa575b7cc1883ce4509834583651c6746b2b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334484"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518937"
 ---
 # <a name="track-packages"></a>Kollien seuraaminen
 Useimmilla kuljetusliikkeillä on verkkopalvelu, jolla voi seurata matkalla olevien pakettien tilaa. Tästä tiedosta voi olla hyötyä monissa liiketoimintaprosesseissa esimerkiksi asiakaspalvelua tarjottaessa. Jos käytössä on useita kuljetusliikkeitä, voit antaa niistä perustietoja ja käyttää sitten niiden paketin seurantapalvelua suoraan Kirjatut myyntitoimitukset-, Kirjatut myyntilaskut-, Kirjatut myyntihyvityslaskut- ja Kirjattu palautusvastaanotto -sivut. Lisätietoja on kohdassa [Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md). 
@@ -36,7 +36,7 @@ Seuraavassa kuvataan, miten pakettia seurataan kirjatusta myyntitoimituksesta, m
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

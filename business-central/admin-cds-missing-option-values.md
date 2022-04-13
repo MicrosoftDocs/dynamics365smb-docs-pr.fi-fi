@@ -1,21 +1,22 @@
 ---
 title: Puuttuvien asetusarvojen käsitteleminen
-description: Lisätietoja täyden synkronoinnin epäonnistumisen estämisestä yhdistettyjen kenttien erilaisten asetusten vuoksi. Prosessit edellyttävät kehittäjän apua.
+description: Lisätietoja täyden synkronoinnin epäonnistumisen estämisestä yhdistettyjen kenttien erilaisten asetusten vuoksi. Tämä prosessi edellyttää kehittäjän apua.
 author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
-ms.date: 06/14/2021
-ms.openlocfilehash: 1735b1e3d04b9b35653047b19587f84234389735
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.date: 03/23/2022
+ms.openlocfilehash: a726d182babca26525e2931ea2b487171b470bcc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383371"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512488"
 ---
 # <a name="handling-missing-option-values"></a>Puuttuvien asetusarvojen käsitteleminen
-
+> [!NOTE]
+> Vuoden 2022 1. julkaisuaallossa voit luoda omia asetusten yhdistämismäärityksiä. Lisätietoja on kohdassa [Asetusten yhdistämismääritysten mukauttaminen Microsoft Dataversen avulla](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). Uudet ominaisuudet edellyttävät, että järjestelmänvalvoja ottaa käyttöön asetuksen **Ominaisuuden päivitys: Liitä Dataversen asetusjoukkoihin ilman koodia** **Ominaisuuksien hallinta** - sivulla. Lisätietoja on kohdassa [Tulevien ominaisuuksien ottaminen käyttöön etuajassa](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Tämä aihe on tarkoitettu tekniselle yleisölle. Siinä kuvatut prosessit edellyttävät kehittäjän apua.
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9000
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5b27848474f26f92b54169e1d60e8e786a6ab95f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: fbf2f125f7be6e5baa215092d70f1e13ce9e6b7d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382151"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513287"
 ---
 # <a name="find-your-warehouse-assignments"></a>Fyysisen varaston varausten etsiminen
 
@@ -38,7 +38,7 @@ Otsikon **Määritetty käyttäjätunnus** -kenttää voi käyttää vaatimaan t
 [Warehouse Managementin määrittäminen](warehouse-setup-warehouse.md) 
 [Kokoonpanon hallinta](assembly-assemble-items.md)
 [Rakennetiedot: Warehouse Management](design-details-warehouse-management.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md) 
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md) 
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

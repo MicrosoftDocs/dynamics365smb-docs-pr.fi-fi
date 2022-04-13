@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 28351ac57c6c1941446d5383b384b78fbdf1f77a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6457750589393b2f8cc9d76e732ab0c3e6064a9d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131507"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518023"
 ---
 # <a name="set-up-units-of-measure"></a>Mittayksikön määrittäminen
 
@@ -87,7 +87,7 @@ Jos ostat tai myyt tavallisesti eri yksiköissä kuin perusmittayksiköissä, vo
 [Varaston hallinta](inventory-manage-inventory.md)  
 [Ostojen hallinta](purchasing-manage-purchasing.md)  
 [Myynnin hallinta](sales-manage-sales.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

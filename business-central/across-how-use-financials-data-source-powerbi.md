@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 51fb5e0f818974ed421b7f2bf282ad1c35c2eb0a
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 926c614dcb28c7bde4ee8c0a611ac45aa7145fb8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366341"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523213"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Power BI -raporttien luominen näyttämään [!INCLUDE [prod_long](includes/prod_long.md)] -tietoja
 
@@ -82,7 +82,7 @@ Raporttien luomisen ensimmäinen tehtävä on [!INCLUDE[prod_short](includes/pro
       - **Yrityksen nimi**
         - **Kehittyneet ohjelmointirajapinnat**
 
-          Tässä kansiossa on luettelo Microsoftin julkaisemista kehittyneistä API-sivuista, kuten [Business Centralin automaatio-API-sivut](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) ja [Business Centralin mukautetut API-sivut](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Mukautetut API-sivut ryhmitellään edelleen kansioihin API-sivun lähdekoodin [APIPublisher](/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/business-central/dev-itpro/developer/properties/devenv-apigroup-property)-ominaisuuksien mukaan.
+          Tässä kansiossa on luettelo Microsoftin julkaisemista kehittyneistä API-sivuista, kuten [Business Centralin automaatio-API-sivut](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) ja [Business Centralin mukautetut API-sivut](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Mukautetut API-sivut ryhmitellään edelleen kansioihin API-sivun lähdekoodin [APIPublisher](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apigroup-property)-ominaisuuksien mukaan.
 
         - **Vakio-API v2.0**
 

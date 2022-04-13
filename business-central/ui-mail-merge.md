@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fe9717f871fdc1db782ceeda4cbad267abddca90
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: afc3391712ca33ae01d916dc4f9ed2421a0451f0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383425"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519516"
 ---
-# <a name="using-word-templates-for-bulk-communication"></a>Word-mallien käyttö joukkoviestinnässä
+# <a name="use-word-templates-for-bulk-communication"></a>Word-mallien käyttö joukkoviestinnässä
 Microsoft Word -mallit helpottavat entiteettien, kuten kontaktien, asiakkaiden ja toimittajien, kanssa tapahtuvaa joukkoviestintää postitse tai sähköpostitse. Voit luoda esimerkiksi esitteitä, joissa kerrotaan asiakkaille myyntikampanjoista, kirjeitä, joissa toimittajille kerrotaan uudesta ostokäytännöstä, tai kutsuja, joilla houkutellaan yhteyshenkilöitä tulevaan tapahtumaan.
 
 > [!NOTE]
@@ -55,7 +55,7 @@ Kun Word-malli on valmis, asiakirjat voidaan luoda valitsemalla **Word-mallit**-
 
 Voit käyttää malleja yhteen tai useampaan samantyyppiseen entiteettiin, kuten kontaktiin, suoraan kyseisen sivun kontekstissa tai Word-mallit -sivulla, kun haluat käyttää mallia kaikissa kyseisen tyypin entiteeteissä.
 
-## <a name="using-word-templates-with-email"></a>Word-mallien käyttäminen sähköpostissa
+## <a name="use-word-templates-with-email"></a>Word-mallien käyttäminen sähköpostissa
 Voit lisätä sisältöä sähköpostiviesteihin Word-mallien avulla. Kun kirjoitat sähköpostiviestiä, voit ottaa mallin sisällön käyttöön viestissä käyttämällä **Käytä Word-mallia** -toimintoa. Tämä edellyttää, että olet luonut vähintään yhden mallin entiteetille. Voit käyttää yhtä mallia kerrallaan ja siirryttäessä mallien välillä viesti muuttuu valitun mallin sisällön mukaiseksi.
 
 Lisäksi voit liittää mallin sisällön sähköpostiin tiedostona käyttämällä **Lisää tiedosto Word-mallista** -toimintoa. Tiedosto käyttää mallin tulostuksessa määritettyä muotoa.

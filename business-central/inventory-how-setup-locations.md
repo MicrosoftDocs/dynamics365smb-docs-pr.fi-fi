@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0a2d5234a78daf6243591cc478ab7b19957a196a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9de6580971f25d092de474c0720b86fab420bbf8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130334"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515509"
 ---
 # <a name="set-up-locations"></a>Sijaintien määrittäminen
 
@@ -75,6 +75,9 @@ Jos haluat jäsentää varastopaikat alueiden alla, voit tehdä sen **Alueet**-s
 
 Voit kuitenkin määrittää vain yhden alueen ja järjestellä fyysisen varaston vain varastopaikkojen mukaisesti. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).  
 
+## <a name="default-dimensions-for-locations"></a>Sijaintien oletusdimensiot
+Määritä oletusdimensiot sijainnille **Sijaintikortti**-sivulle valitsemalla **Sijainti** ja sitten **Dimensiot**. Sijainnin oletusdimensiot kopioidaan päiväkirjoihin ja asiakirjoihin, kun riville määritetään sijainti, mutta rivin dimensiota voi tarvittaessa poistaa tai muuttaa. Voit vaatia, että ihmiset määrittävät dimensiot tietyille sijainneille, ennen kuin he voivat kirjata tapahtuman. Voit myös sisällyttää sijainnin dimensioarvoja kohdissa **Oletusdimensioprioriteetit** ja **Dimensioyhdistelmät** prioriteetti- ja dimensiosääntöjen yhdistelmille.
+
 ## <a name="see-also"></a>Katso myös
 
 [Varaston hallinta](inventory-manage-inventory.md)  
@@ -82,7 +85,7 @@ Voit kuitenkin määrittää vain yhden alueen ja järjestellä fyysisen varasto
 [Varastopaikkojen luominen](warehouse-how-to-create-individual-bins.md)  
 [Varastopaikkojen määrittäminen](warehouse-how-to-set-up-bin-types.md)  
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
 

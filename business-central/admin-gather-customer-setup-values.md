@@ -1,28 +1,29 @@
 ---
 title: Asiakkaan asetusarvojen kerääminen
-description: Määrityskysely helpottaa käyttöönottoa virtaviivaistamalla uusien yritysten perustamista ja tarjoamalla asiakkaille Excel- tai XML-tiedoston.
+description: Jos haluat käyttää RapidStart Servicesia, määrityskysely helpottaa käyttöönottoa virtaviivaistamalla uusien yritysten perustamista ja tarjoamalla asiakkaille Excel- tai XML-tiedoston.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8610, 8613
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d26fb334462ad52a14058e8d5f6b9f86088ad3d7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 91c13c5b0fb67befd0c03e2662c545ff8231e6da
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145968"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518387"
 ---
-# <a name="gather-customer-setup-values"></a>Asiakkaan asetusarvojen kerääminen
+# <a name="gather-customer-setup-values-with-rapidstart-services"></a>Asiakkaan asetusarvojen kerääminen RapidStart Servicesin avulla
 Määrityskyselylomakkeen avulla vähennät toteutuksen kuormitusta virtaviivaistamalla uuden yrityksen määritystehtävän. Voit luoda määrityskyselylomakkeen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa ja toimittaa sen asiakkaalle Excel-tai XML-tiedostona.  
 
 Voit muuttaa kyselyn kaikki oletusarvot vastaamaan paremmin asiakkaan tarpeita.  
 
 > [!TIP]  
->  Lisätietoja toimitusten suunnittelun kenttien asetusarvojen määrittämisestä on ohjeaiheessa [Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md).  
+> Lisätietoja toimitusten suunnittelun kenttien asetusarvojen määrittämisestä on ohjeaiheessa [Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md).  
 
 Kun asiakas täyttää kyselyn, voit tuoda tiedoston asiakkaan uuteen [!INCLUDE[prod_short](includes/prod_short.md)] -yritykseen. Voit tarkistaa kyselyn vastaukset asiakkaan kanssa, ennen kuin vastaukset otetaan käyttöön yrityksessä.
 

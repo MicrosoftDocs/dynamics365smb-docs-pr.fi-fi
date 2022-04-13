@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08d73d46283908a811fd9690b6e4ea43e35d5118
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 65f656dac8ec1588872b8a9458da7a8ffdcaf857
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137417"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520888"
 ---
 # <a name="set-up-resources-for-projects"></a>Projektien resurssien määrittäminen
 
@@ -27,7 +27,9 @@ Tuntikohtainen oletussumma määritetään resurssin luomisen yhteydessä. Jos k
 
 > [!NOTE]
 > Voit ostaa ulkoisia resursseja, kuten esimerkiksi laskuttaa toimittajaa tehdystä työstä. Lisätietoja on kohdassa [Ostojen kirjaaminen](purchasing-how-record-purchases.md).<br /><br />
-> Tällaisessa tapauksessa on suositeltavaa nimetä tai ryhmitellä ulkoiset resurssit niiden tarkoituksen mukaisesti, jotta niitä ei sekoiteta sisäisiin resursseihin.
+> Ulkoisten resurssien kohdalla on suositeltavaa nimetä tai ryhmitellä ne niiden tarkoituksen mukaisesti, jotta niitä ei sekoiteta sisäisiin resursseihin.
+>  
+> Jos olet kirjaamassa konsernin tapahtumia, vaikka voit luoda resurssin myyntitilauksen riville, jos muunnat myyntitilauksen vastaanottopuolen ostotilaukseksi, resurssia ei sisällytetä. Käyttääksesi konsernin tapahtumissa resursseja käytä **Kons. oston KP-tilinro** -kenttää resurssikortissa määrittääksesi tilin, jolle kulut kirjataan.
 
 ## <a name="to-set-up-a-resource"></a>Resurssin määrittäminen
 Luo jokaiselle projekteissa käytettävälle resurssille kortti.
@@ -79,7 +81,7 @@ Resurssikortissa määritetyn hinnan lisäksi voit määrittää kullekin resurs
 [Rahoitus](finance.md)  
 [Osto](purchasing-manage-purchasing.md)         
 [Myynti](sales-manage-sales.md)      
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 70a39d8d80ff5ca36953bea3923e4adbcbbca0d3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ece05f68c15384ab11ae492bd6f138da14bafc1c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136528"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513198"
 ---
 # <a name="export-and-import-workflows"></a>Työnkulkujen vienti ja tuonti
 Voit siirtää työnkulkuja muihin [!INCLUDE[prod_short](includes/prod_short.md)] tietokantoihin. esimerkiksi luotaessa uusia työnkuluja voidaan aikaa säästääksesi viedä ja tuoda työnkulkuja.  
@@ -44,7 +44,7 @@ Voit siirtää työnkulkuja muihin [!INCLUDE[prod_short](includes/prod_short.md)
  [Työnkulkujen poistaminen](across-how-to-delete-workflows.md)   
  [Vaihekuvaus: Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Työnkulkujen määrittäminen](across-set-up-workflows.md)   
- [Työnkulkujen käyttäminen](across-use-workflows.md)   
+ [Käytä työnkulkuja](across-use-workflows.md)   
  [Työnkulku](across-workflow.md)   
 
 

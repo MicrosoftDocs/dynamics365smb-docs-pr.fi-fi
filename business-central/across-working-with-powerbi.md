@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 54271ce12ed5b71266511a85ab7a10516092be36
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b51aa003aa37ed95545d4f9d94e3c34d25d02270
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147162"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510920"
 ---
-# <a name="working-with-power-bi-reports-in-prod_short"></a>Power BI -raporttien käyttäminen [!INCLUDE [prod_short](includes/prod_short.md)]issa
+# <a name="work-with-power-bi-reports-in-prod_short"></a>Power BI -raporttien käsittely [!INCLUDE [prod_short](includes/prod_short.md)]issa
 
 Tässä artikkelissa on perustietoja Power BI -raporttien näyttämisestä [!INCLUDE [prod_short](includes/prod_short.md)]issa.
 
@@ -65,7 +65,7 @@ Power BI -yhteyden muodostaminen [!INCLUDE [prod_short](includes/prod_short.md)]
 
 Kun yhteys on muodostettu, voit valita Power BI -osan sivuilla.
 
-## <a name="working-with-power-bi-reports"></a>Power BI -raporttien käsittely
+## <a name="work-with-power-bi-reports"></a>Power BI -raporttien käyttö
 
 ### <a name="show-reports-on-list-pages"></a>Raporttien näyttäminen luettelosivuilla
 
@@ -133,8 +133,8 @@ Syynä luultavasti se, että raportin nimi ei sisällä luettelosivun nimeä. Sa
 
 [Business Central ja Power BI](admin-powerbi.md)  
 [Power BI -raporttien luominen näyttämään [!INCLUDE [prod_long](includes/prod_long.md)] -tietoja](across-how-use-financials-data-source-powerbi.md)  
-[Power BI:n -integrointiosa ja [!INCLUDE[prod_short](includes/prod_short.md)] -arkkitehtuurin yleiskatsaus](admin-powerbi-overview.md)  
-[[!INCLUDE [prod_short](includes/prod_short.md)] -tietojen käyttäminen Power BI:ssa](across-working-with-business-central-in-powerbi.md)  
+[Power BI -integrointiosa ja [!INCLUDE[prod_short](includes/prod_short.md)] -arkkitehtuurin yleiskatsaus](admin-powerbi-overview.md)  
+[[!INCLUDE [prod_short](includes/prod_short.md)] -tietojen käsitteleminen Power BI:ssä](across-working-with-business-central-in-powerbi.md)  
 [Power BI kuluttajille](/power-bi/consumer/end-user-consumer)  
 [Power BI -palvelun uusi ulkoasu](/power-bi/service-new-look)  
 [Pika-aloitus: Tietojen yhdistäminen Power BI Desktopiin](/power-bi/desktop-quickstart-connect-to-data)  
@@ -145,7 +145,7 @@ Syynä luultavasti se, että raportin nimi ei sisällä luettelosivun nimeä. Sa
 [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power BI:n tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Apps:n tietolähteenä](across-how-use-financials-data-source-powerapps.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Automate'ssa](across-how-use-financials-data-source-flow.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Automatessa](across-how-use-financials-data-source-flow.md)  
 
 
 

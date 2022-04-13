@@ -8,21 +8,22 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
-ms.date: 04/01/2021
+ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: e95b60af569511a8a95154a53f80bcc235f883f5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad82c9aa86210c5f89e24fcced0af70751788ef8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140473"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510575"
 ---
 # <a name="create-number-series"></a>Numerosarjojen luominen
 
 Jokaiselle yritykselle on määritettävä yksilölliset tunnuskoodit esimerkiksi pääkirjanpidon tilejä, asiakas- ja toimittajatilejä, laskuja ja muita asiakirjoja varten. Numerointi ei ole tärkeää pelkästään tunnistamisen kannalta. Hyvin suunniteltu numerointijärjestelmä helpottaa myös yrityksen hallittavuutta ja analysointia ja voi vähentää tietojen syötössä tapahtuvien virheiden määrää.
 
 > [!Important]
-> Numerosarjoissa ei oletusarvoisesti sallita aukkoja, koska lainsäädäntö edellyttää, että rahoitustapahtumien täsmällinen historia on oltava käytettävissä tilintarkastuksessa, minkä vuoksi järjestyksen on oltava katkeamaton ilman poistettuja numeroita.<br /><br />
+> Numerosarjoissa ei oletusarvoisesti sallita aukkoja, koska lainsäädäntö edellyttää, että rahoitustapahtumien täsmällinen historia on oltava käytettävissä tilintarkastuksessa, minkä vuoksi järjestyksen on oltava katkeamaton ilman poistettuja numeroita.
+> 
 > Jos haluat sallia aukot tietyissä numerosarjoissa, varmista ensin tilintarkistajalta tai talouspäälliköltä, että noudatat maan tai alueen lakisääteisiä vaatimuksia. Lisätietoja on kohdassa [Numerosarjojen aukot](#gaps-in-number-series).
 
 > [!NOTE]  
@@ -41,11 +42,14 @@ Jos haluat käyttää useita numerosarjakoodeja yhdelle perustietotyypille (esim
 Kaikki [!INCLUDE[prod_short](includes/prod_short.md)]issa luotavat tietueet eivät ole rahoitustapahtumia, joissa on käytettävä peräkkäisiä numeroita. Esimerkiksi asiakaskortit, myyntitarjoukset ja varastotoiminnot ovat tietueita, joille määritetään numerosarjan mukainen numero mutta joita tilintarkastus ei koske ja/tai jotka voidaan poistaa. Tällaisissa numerosarjoissa **Salli välit numeroissa** -valintaruudun voi valita **Nrosarjojen rivit** -sivulla. Tämän asetuksen voi muuttaa myös numerosarjan luomisen jälkeen. Lisätietoja on kohdassa [Uuden numerosarjan luominen](ui-create-number-series.md#to-create-a-new-number-series).
 
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Nro-kentän toiminta asiakirjoissa ja korteissa
-Myynti-, osto- ja siirtoasiakirjojen ja korttien **Nro** voidaan täyttää automaattisesti numerosarjasta tai manuaalisesti. Lisäksi voidaan määrittää näkymättömäksi.
+
+Myynti-, osto- ja siirtoasiakirjojen ja korttien **Nro** -kenttä voidaan täyttää automaattisesti esimääritetystä numerosarjasta, tai voit lisätä sen manuaalisesti. Tietyissä olosuhteissa **Nro** -kenttä on näkymätön sen muokkaamisen estämiseksi.  
 
 **Nro**-kenttä voidaan täyttää kolmella tavalla:
 
-1. Jos asiakirjantyypillä tai kortilla on vain yksi numerosarja, jossa **Oletusnrot**-valintaruutu on valittu mutta **Manuaaliset nrot** -valintaruutua ei ole valittu, kenttä täytetään automaattisesti sarjan seuraavalla numerolla. **Nro**-kenttä ei silloin näy.
+1. Jos asiakirjantyypillä tai kortilla on vain yksi numerosarja, ja **Oletusnrot**-kenttä on valittu mutta **Manuaaliset nrot** -kenttää ei ole valittu kyseiselle numerosarjalle, kenttä täytetään automaattisesti sarjan seuraavalla numerolla. **Nro**-kenttä -kenttä ei näy kortissa tai asiakirjassa.  
+
+    Vaikka määriteltäisiin malleja, joissa on useita numerosarjoja asiakkaille, jos **Myyntien ja myyntisaamisten asetukset** -sivulla määritetty numerosarja määritetään tällä tavalla, **Nro** -kenttä on näkymätön asiakaskortissa riippumatta siitä, mitä mallia käytät. Sama pätee muun tyyppisiin kortteihin ja asiakirjoihin.  
 
     > [!NOTE]  
     > Jos numerosarja ei toimi esimerkiksi siksi, että sen numerot ovat loppuneet, tällöin **Nro**-kenttä on näkyvissä ja voit kirjoittaa numeron manuaalisesti tai ratkaista ongelmat **Nrosarja**-sivulla.
@@ -71,7 +75,7 @@ Kun uuden asiakirjan tai kortin, jolla on jo numerosarja, vastaava **Numerosarja
 > [!TIP]
 > Jos haluat, että käyttäjät voivat määrittää numeroita manuaalisesti, kun he rekisteröivät uuden asiakkaan tai toimittajan, valitse **Manuaaliset nrot** -kenttä itse numerosarjassa. Jos haluat estää manuaaliset numerot, tyhjennä kenttä.
 
-Voit määrittää numerosarjoja niille malleille, jotka määrität myynti- ja ostohenkilöstön useimmin tuotteeseen [!INCLUDE [prod_short](includes/prod_short.md)] lisäämille erilaisille asiakas- ja toimittajatyypeille. Määritä tällöin asianmukaiset numerosarjat, linkitä ne suhteiden avulla ja lisää sitten kulloisenkin suhteen ensimmäinen numerosarja kulloiseenkin määrityssivuun.  
+Voit määrittää numerosarjoja niille malleille, jotka määrität myynti- ja ostohenkilöstön useimmin tuotteeseen [!INCLUDE [prod_short](includes/prod_short.md)] lisäämille erilaisille asiakas- ja toimittajatyypeille. Määritä tällöin asianmukaiset numerosarjat, linkitä ne suhteiden avulla ja lisää sitten kulloisenkin suhteen ensimmäinen numerosarja kulloiseenkin määrityssivuun. Kun käyttäjä luo asiakkaan, hän valitsee asianmukaisen mallin, ja uusi asiakas saa numeron, joka on määritetty kyseiseen malliin määritetystä numerosarjasta.  
 
 ## <a name="to-create-relationships-between-number-series"></a>Numerosarjojen suhteiden luonti
 
@@ -100,7 +104,7 @@ Valitulla numerolla täytetään kyseisen kortin tai asiakirjan **Nro**-kenttä 
 
 ## <a name="see-also"></a>Katso myös
 [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

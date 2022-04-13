@@ -3,12 +3,12 @@ metadata:
   title: Tietojen kopioiminen ja liittäminen – usein kysytyt kysymykset
   description: Vastauksia usein kysyttyihin kysymyksiin kenttien ja rivien tietojen kopioimisesta ja liittämisestä Business Centralin sivuilta.
   ms.topic: faq
-  ms.openlocfilehash: a8c70088338b022802cf72d9a77da1c4e8263af1
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  ms.openlocfilehash: d2fa68425d164e47b0618a4c00e8e685afba6647
+  ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
   ms.translationtype: HT
   ms.contentlocale: fi-FI
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8133808"
+  ms.lasthandoff: 04/01/2022
+  ms.locfileid: "8528421"
 title: Kopioimisen ja liittämisen usein kysytyt kysymykset
 summary: "Voit kopioida yhden rivin tai useita rivejä (tietueita) luettelosta tai yhden kentän sivulta ja liittää kopioidut kohteet samalle sivulle, toiselle sivulle tai ulkoiseen asiakirjaan (kuten Microsoft Exceliin tai Outlook-sähköpostiin).  \n\nJos haluat kopioida, paina näppäimiä CTRL+C (cmd+C macOS-käyttöjärjestelmässä). Jos haluat liittää, paina näppäimiä CTRL+V (cmd+V macOS-käyttöjärjestelmässä). Kopioimiseen ja liittämiseen on useita muita pikanäppäimiä nopeaa tietojen syöttämistä varten. Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#CopyRows). Tässä artikkelissa on vastauksia kopioimiseen ja liittämiseen liittyviin yleisiin kysymyksiin.  \n"
 sections:
@@ -73,4 +73,7 @@ sections:
   - question: Milloin rivien liittämisen yhteydessä voi tulla virhesanomia?
     answer: >
       Jos liittäminen tehdään [!INCLUDE[prod_short](includes/prod_short.md)] -sovellukseen, jokainen rivi tarkistetaan. Näin varmistetaan, että kaikkien sarakkeiden arvot ovat sallittuja. Jos sarakkeessa on arvo, joka ei ole sallittu, liittäminen pysäytetään ja näyttöön tulee virhesanoma. Tämän voi välttää varmistamalla ennen liittämistä, että sarakkeissa on sallitut arvot.
-additionalContent: "## <a name=\"next-steps\"></a>Seuraavat vaiheet\nEtsi liittyvää tietoa täältä: \n  - [Aputoiminnot](ui-accessibility.md)  \n  - [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  \n  - [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  \n  - [Usein kysytyt kysymykset](across-faq.yml)"
+  - question: Voinko kopioida linkkejä myös sivuihin ja tietueisiin?
+    answer: >
+      Kyllä. Lisätietoja on kohdassa [Liiketoimintatietojen jakaminen Business Centralista](across-share-data-features.md).
+additionalContent: "## <a name=\"next-steps\"></a>Seuraavat vaiheet\nEtsi liittyvää tietoa täältä: \n  - [Aputoiminnot](ui-accessibility.md)  \n  - [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  \n  - [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  \n  - [Usein kysytyt kysymykset](across-faq.yml)"

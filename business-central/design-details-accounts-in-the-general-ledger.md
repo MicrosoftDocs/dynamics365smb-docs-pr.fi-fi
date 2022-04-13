@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: b1b3620234901c3b2a1eba5f5af7eb0e79449dc4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b67dd40723f28cb4d59818deb302a1d35c7420e4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146798"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521070"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Rakennetiedot: pääkirjanpidon tilit
 Kun varasto ja kapasiteettitapahtumat täsmäytetään pääkirjanpidon kanssa, liittyvät arvotapahtumat kirjataan pääkirjanpidon eri tileille. Lisätietoja on kohdassa [Rakennetiedot: täsmäytys pääkirjanpidon kanssa](design-details-reconciliation-with-the-general-ledger.md).  
@@ -95,10 +95,10 @@ Seuraavassa taulukossa esitetään, kuinka pääkirjaan tiliöitävät summat la
 ## <a name="see-also"></a>Katso myös  
  [Rakennetiedot: varaston arvostus](design-details-inventory-costing.md)   
  [Rakennetiedot: varaston kirjaus](design-details-inventory-posting.md)   
- [Rakennetiedot: oletetun kustannuksen kirjaus](design-details-expected-cost-posting.md)  
+ [Rakennetiedot: Oletetun kustannuksen kirjaus](design-details-expected-cost-posting.md)  
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
  [Rahoitus](finance.md)  
- [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+ [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5522, 5524, 5526
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 8d26c606782193ee9017b4f57577d3e6cdf79cab
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e95bc34c56364ebb12c63c250339f1de868b8a32
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148380"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516768"
 ---
 # <a name="plan-for-new-demand-order-by-order"></a>Uuden kysynnän tilauskohtainen suunnittelu
 
@@ -123,8 +123,8 @@ Kun **Tilauksen suunnittelu** -sivun suunnitelma on valmis (nimikkeelle on esime
 [Vaihto-omaisuus](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)  
-[Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
+[Parhaiden käytäntöjen määrittäminen: Toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

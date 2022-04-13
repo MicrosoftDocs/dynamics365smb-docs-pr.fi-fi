@@ -8,17 +8,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
 ms.search.form: 600, 605, 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611
-ms.date: 04/01/2021
+ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: d0f52d1debe40eb57ac0deb914d0e6bc32f0a5a1
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 868f07b2b56ccaefb4c56e26be72c27b941d950c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366373"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522116"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Konsernin Saapuneet- ja Lähtevät-kansion hallinta
 Kaikki konsernikumppaneilta sähköisesti vastaanotetut konsernitapahtumat näkyvät konsernin Saapuneet-kansiossa.  
+
+Kuitenkin sen mukaan, miten konsernitapahtumat on määritetty, jotkin tapahtumat replikoidaan automaattisesti asianomaisille konsernikumppaneille. Alkaen vuoden 2022 julkaisuaallosta 1 voit määrittää yrityksen konsernikumppaneilta saatujen konsernin sisäisten tapahtumien automaattista luontia varten, jotka on kirjattu konsernin yleiseen päiväkirjaan. Lisätietoja on kohdassa [Voit täyttää ja kirjata konsernin päiväkirjan seuraavasti](intercompany-how-work-documents-journals.md#to-fill-in-and-post-an-intercompany-journal).  
 
 ## <a name="organizing-the-inbox"></a>Saapuneet-kansion järjestäminen  
  Saapuneet-sivun yläosassa näkyvien suodatinkenttien avulla voit määrittää, mitkä tapahtumat näkyvät sivulla. Jos esimerkiksi haluat tarkastella vain tietyn kumppanin luomia tapahtumia, voit antaa suodattimia **Tapahtuman lähde**- ja **Konsernikumppanin koodi** -suodattimissa.  
@@ -51,14 +53,16 @@ Voit suodattaa **Näytä tapahtuman lähde** -kentän avulla **Konsernin Saapune
  > Jos konsernikumppanit ovat samassa tietokannassa, tapahtumien siirtämiseen ei tarvita tiedostoa eikä sähköpostia. Katso **Konsernikumppani**-sivun **Siirron tyyppi** -kenttä. <br /><br />
 Voit määrittää järjestelmän ohittamaan Saapuneet- ja Lähtevät-kansiot valitsemalla **Tapahtumien automaattinen hyväksyntä** -valintaruudun **Konsernikumppani**-sivulla ja **Tapahtumien automaattinen lähetys** -valintaruudun **Konsernin asetukset** -sivulla. Saapuvat konsernitapahtumat voidaan hyväksyä automaattisesti vain, jos tehtävien ajoitus on käytössä. Lisätietoja on kohdassa [Business Central Serverin määrittäminen – Tehtävien ajoituksen asetukset](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task).
 
-## <a name="to-import-intercompany-transactions-from-a-file"></a>Konsernitapahtumien tuominen tiedostosta  
+## <a name="to-import-intercompany-transactions-from-a-file"></a>Konsernitapahtumien tuominen tiedostosta
+
+[!INCLUDE [onprem_only_md](includes/onprem_only_md.md)]
+
 Jos konsernikumppani ja oma yritys ovat eri tietokannoissa, voit vastaanottaa konsernin tapahtumia kyseiseltä kumppanilta .xml-tiedostona. Tapahtumat täytyy tämän jälkeen tuoda Saapuneet-kansioon.  
 
-1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yrityksen tiedot** ja valitse sitten vastaava linkki.
-2. Tallenna tiedosto sijaintiin, jonka olet määrittänyt **Yrityksen tiedot** -sivun **Konsernin Saapuneet-kansion tiedot** -kentässä.  
-3. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Konsernin Saapuneet-kansion tapahtumat** ja valitse sitten vastaava linkki.
-4. Valitse **Konsernin Saapuneet-kansion tapahtumat** -sivulla **Tuo tapahtumatiedosto** -toiminto.  
-5. Valitse avautuvalla sivulla tapahtumat sisältävä .xml-tiedosto ja valitse **Avaa**.  
+1. Tallenna tiedosto sijaintiin, jonka olet määrittänyt **Konsernin Saapuneet-kansion tiedot** -kentässä konsernitapahtumien asettamisen aikana.  
+2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Konsernin Saapuneet-kansion tapahtumat** ja valitse sitten vastaava linkki.
+3. Valitse **Konsernin Saapuneet-kansion tapahtumat** -sivulla **Tuo tapahtumatiedosto** -toiminto.  
+4. Valitse avautuvalla sivulla tapahtumat sisältävä .xml-tiedosto ja valitse **Avaa**.  
 
 Tapahtumat tuodaan Saapuneet-kansioon. Niitä voi nyt käsitellä.
 
@@ -102,7 +106,7 @@ Seuraavissa ohjeissa neuvotaan, kuinka Saapuneet-kansion tapahtumia voi luoda uu
 [Rahoitus](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
