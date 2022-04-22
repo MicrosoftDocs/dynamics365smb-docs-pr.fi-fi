@@ -7,12 +7,12 @@ ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 45926cc094234a6b75f3e8a1ca997fc89506ef28
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 54aed7a30225d074ab6651df63771924c7c1cd97
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523473"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557351"
 ---
 # <a name="update-currency-exchange-rates"></a>Valuutan vaihtokurssien päivittäminen
 
@@ -68,6 +68,12 @@ Koska vaihtokurssit vaihtelevat jatkuvasti, järjestelmän lisävaluutta-arvot o
 
 > [!TIP]
 > Voit käyttää palvelua vaihtokurssien päivittämiseen automaattisesti järjestelmässä. Lisätietoja on kohdassa [Valuutanvaihdon kurssipalvelun määrittäminen](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). Jos kirjattujen tapahtumien vaihtokursseja ei kuitenkaan silloin muuteta. Voit päivittää kirjattujen tapahtumien vaihtokurssit käyttämällä **Muuta vaihtokursseja** -erätyötä.
+
+Voit esikatsella oikaisun vaikutusta kirjaukseen ennen kirjaamista valitsemalla **Esikatselu** **Muuta vaihtokursseja** -sivulla. Lisäksi voit määrittää, onko pääkirjanpidon kirjaus yksityiskohtainen (tapahtumakohtainen) vai yhteenveto (valuuttakohtainen) valitsemalla **Tee yhteenveto tapahtumista**. Voit myös määrittää, miten dimensioita käsitellään ei-realisoituneiden voittojen ja tappioiden kirjausten kohdalla valitsemalla jonkin **Siirrä dimensioarvot** -kentän seuraavista vaihtoehdoista:  
+
+- **Lähdetapahtuma**: Ei-realisoituneiden voittojen ja tappioiden K/P-tapahtumien dimensioiden arvot siirretään oikaistusta tapahtumasta.
+- **K/P-tilin mukaan**: Ei-realisoituneiden voittojen ja tappioiden K/P-tapahtumien dimensioiden arvot siirretään ei-realisoituneiden voittojen ja tappioiden K/P-tilien dimension asetusten lähdetapahtumasta.
+- **Ei siirtoa**: Ei-realisoituneiden voittojen ja tappioiden K/P-tapahtumilla ei ole dimensioiden arvoja.
 
 ### <a name="effect-on-customers-and-vendors"></a>Vaikutus asiakkaisiin ja toimittajiin
 

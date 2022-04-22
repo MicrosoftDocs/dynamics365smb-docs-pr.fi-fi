@@ -1,19 +1,19 @@
 ---
 title: Kokeilut ja tilaukset
-description: Tietoja Business Centralin kokeiluversion hankkimisesta, eristetyn ympäristön käyttämisestä ja tilauksen rekisteröimisestä.
+description: Lisätietoja aloittamisesta, työskentelystä eristetyissä ympäristöissä ja Business Central Online -tilauksen hankkimisesta.
 author: edupont04
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
-ms.date: 02/22/2022
+ms.date: 04/05/2022
 ms.author: edupont
-ms.openlocfilehash: ce516bc49fce32c969097fbf17bb2a927f3db491
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fc77c63351a97e130c00910a2e66c9497a24d104
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511283"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557325"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] – Kokeilut ja tilaukset
 
@@ -23,17 +23,11 @@ Jos sinulla ei vielä ole kumppania, katso [Miten löydän jälleenmyyjäkumppan
 
 ## <a name="get-started-with-a-trial"></a>Kokeiluversion käytön aloittaminen
 
-Voit rekisteröityä maksuttomaan kokeiluversioon [täällä](https://go.microsoft.com/fwlink/?linkid=847861). Suosittelemme, että työskentelet [jälleenmyyjäkumppanin](/dynamics365/business-central/across-faq#findpartner) kanssa, jotta organisaatiosi voi aloittaa sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] käyttämisen. Katso myös kohta [Rekisteröidy ilmaiseen Dynamics 365 Business Central -kokeiluversioon](trial-signup.md) aloittaaksesi käytön.  
+[!INCLUDE [trial-get](includes/trial-get.md)]
+
+Suosittelemme, että työskentelet [jälleenmyyjäkumppanin](/dynamics365/business-central/across-faq#findpartner) kanssa, jotta organisaatiosi voi aloittaa sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] käyttämisen. Katso myös kohta [Rekisteröidy ilmaiseen Dynamics 365 Business Central -kokeiluversioon](trial-signup.md) aloittaaksesi käytön.  
 
 Maasi tai alueesi mukaan kokeiluversio sisältää maan tai alueen edellyttämät kielet ja toiminnot. Lisätietoja on kohdassa [Kielen ja alueen muuttaminen](about-locale-language.md).  
-
-[!INCLUDE[prod_short](includes/prod_short.md)]issa on sekä tuttuja että uusia ominaisuuksia. Kun kirjaudut esittely-yritykseen sisään ensimmäisen kerran, pääset aloitussivulle, jossa on linkkejä asetusten ohjattuihin määritysoppaisiin. Niiden avulla pääset alkuun. Lisätietoja on kohdassa [Valmiina liiketoimintaan](ui-get-ready-business.md) ja [pika-aloitusoppaat](quick-start-business-central.md).  
-
-Jos kohtaat ongelmia, [Usein kysytyt kysymykset](across-faq.yml) -sivu voi auttaa sinua löytämään vastaukset joihinkin kysymyksiisi. Jos et voi rekisteröityä kokeiluversioon, katso apua sivulta [Itsepalvelun rekisteröitymisen vianmääritys](ui-troubleshoot-self-signup.md). Voit myös ottaa yhteyttä [kumppaniin](/dynamics365/business-central/across-faq#findpartner) ja pyytää tätä luomaan maksuttoman kokeiluversion tai erilaisen [!INCLUDE[prod_short](includes/prod_short.md)] -esiversion organisaatiollesi.  
-
-Jos päätät olla käyttämättä [!INCLUDE [prod_short](includes/prod_short.md)] -sovellusta, voit vain antaa kokeilujakson umpeutua.  
-
-[!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
 ### <a name="add-your-own-data-to-an-empty-trial-company"></a>Omien tietojen lisääminen tyhjään kokeiluyritykseen
 
@@ -65,7 +59,7 @@ Jos 30 päivää ei ole tarpeeksi päätöksen tekemiseksi, voit jatkaa kokeilua
 
 ### <a name="resetting-your-prod_short-trial-experience"></a>[!INCLUDE[prod_short](includes/prod_short.md)] -kokeiluversion palauttaminen
 
-Jos olet lisännyt tietoja maksuttomaan [!INCLUDE[prod_short](includes/prod_short.md)] -kokeiluun ja haluat aloittaa uudelleen, voit luoda uuden yrityksen ja poistaa ensimmäisen yrityksen. Avaa **Yritykset**-sivu ja valitse **Uusi**, jos haluat käynnistää **uuden yrityksen luonnin** asetusten ohjatun määrityksen oppaan. Oppaan avulla voit luoda uuden arviointiyrityksen, jossa on esimerkkitietoja. Voit myös luoda kopion tämänhetkisestä yrityksestä, kirjautua ulos ja sitten kirjautua uuteen yritykseen.  
+Vaikka olisit lisännyt tietoja maksuttomaan [!INCLUDE[prod_short](includes/prod_short.md)] -kokeiluversioon, voit halutessasi aloittaa uudelleen. Tällöin voit luoda uuden arviointiyrityksen ja poistaa ensimmäisen yrityksen. Avaa **Yritykset**-sivu ja valitse **Uusi**-toiminto, jos haluat käynnistää **uuden yrityksen luonnin** asetusten ohjatun määritysoppaan. Oppaan avulla voit luoda uuden arviointiyrityksen, jossa on esimerkkitietoja. Voit myös luoda kopion tämänhetkisestä yrityksestä, kirjautua ulos ja sitten kirjautua uuteen yritykseen.  
 
 > [!IMPORTANT]
 > Kun jaat [!INCLUDE[prod_short](includes/prod_short.md)]n muiden organisaation henkilöiden kanssa, varmista, että kukaan henkilöistä ei ole kirjautuneena yrityksen palautuksen yhteydessä.  
@@ -85,14 +79,14 @@ Lisätietoja siitä, mitä voit tehdä [!INCLUDE [prod_short](includes/prod_shor
 
 ## <a name="get-started-with-sandboxes"></a>Eristysympäristöjen käytön aloittaminen
 
-Eristysympäristöt voivat olla yksi tapa harjoitella [!INCLUDE[prod_short](includes/prod_short.md)]n käyttöä. Ajattele eristysympäristöä muuna kuin tuotantoympäristönä, jota voi käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -tuotantoesiintymän lisäksi. Jos esimerkiksi haluat ottaa ilmaisen online-harjoittelun [Microsoft Learnista](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), järjestelmänvalvoja voi luoda [eristysympäristön](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment). Siten sinä ja työtoverisi voitte harjoitella turvallisessa paikassa tuotantoympäristösi sijaan.  
+Eristysympäristöt ovat yksi tapa harjoitella sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] käyttöä. Ajattele eristysympäristöä muuna kuin tuotantoympäristönä, jota käytetään [!INCLUDE[prod_short](includes/prod_short.md)] -tuotantoesiintymän lisäksi. Jos esimerkiksi haluat ottaa ilmaisen online-harjoittelun [Microsoft Learnista](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), järjestelmänvalvoja voi luoda [eristysympäristön](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment). Siten sinä ja työtoverisi voitte harjoitella turvallisessa paikassa tuotantoympäristösi sijaan.  
 
 Sandbox-ympäristön avulla kehittäjät voivat turvallisesti luoda ja testata laajennuksia ja kehittää uusia toimintoja palvelun mukauttamista varten niin, että tuotantoympäristön tiedot tai asetukset eivät muutu.  
 
 Tällä hetkellä kaikki asiakkaat voivat käyttää Sandbox-ympäristöä, mukaan lukien organisaatiot, jotka ovat ottaneet käyttöön kokeiluversion. Lisätietoja sandbox-ympäristön käytön aloittamisesta on kohdassa [Sandbox-ympäristöt](admin-sandbox-environments.md).  
 
 > [!NOTE]
-> Näin luodut sandbox-ympäristöt sisältävät kuvitteellisen CRONUS-yrityksen esittelytiedot. Mitään tietoja ei kopioida tai muutoin siirretä tuotantoympäristöstä.   
+> Näin luodut sandbox-ympäristöt sisältävät kuvitteellisen CRONUS-yrityksen esittelytiedot. Mitään tietoja ei kopioida tai muutoin siirretä tuotantoympäristöstä.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -järjestelmänvalvojasi ja jälleenmyyjäkumppanisi voivat luoda lisää ympäristöjä hallintakeskuksessa. Lisätietoja on kohdassa [Business Centralin hallintakeskus](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center).  
 

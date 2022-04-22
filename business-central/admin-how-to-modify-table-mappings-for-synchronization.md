@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b0d7382cbc831ff856dc8d75bb776fc9f9ee022a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e6e7d42af64db3c1725e9f4b54ba7ca4e4b16320
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515743"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557403"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Synkronoitavien taulujen ja kenttien yhdistäminen
 
@@ -28,6 +28,9 @@ Kun luot yhteyden sovellusten välille, [!INCLUDE[prod_short](includes/prod_shor
 
 > [!Note]
 > Jos käytössä on [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versio, integrointitaulun yhdistämismääritykset tallennetaan taulun 5335 integrointitaulukon yhdistämismäärityksiin, jossa voit tarkastella ja muokata yhdistämismäärityksiä. Monimutkaiset yhdistämismääritykset ja synkronoinnin säännöt on määritetty codeunitissa 5341. 
+
+### <a name="additional-mappings"></a>Lisäyhdistämismääritykset 
+Maksuehdot, toimitusehdot ja kuljetusliikkeet voivat muuttua. Näiden tietojen muuttaminen voi olla tärkeää. Jos otat käyttöön **Ominaisuuden päivitys: Liitä Dataverseen asetusjoukkoihin ilman koodi** -ominaisuuden [Ominaisuuksien hallinta](https://businesscentral.dynamics.com/?page=2610) -sivulla, voit manuaalisesti lisätä integrointitaulukon yhdistämispäivitykset maksuehdoille (PAYMENT TERMS), toimitusehdoille (SHIPMENT METHOD) ja kuljetusliikkeille (SHIPPING AGENT). Tämän yhdistämismäärityksen avulla voit varmistaa, että [!INCLUDE[prod_short](includes/cds_long_md.md)] ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)] omaavat samat käytännöt asetuksissaan.
 
 ### <a name="synchronization-rules"></a>Synkronointisäännöt
 Integrointitaulun yhdistämismääritys sisältää myös sääntöjä, jotka ohjaavat sitä, miten integroinnin synkronointityöt synkronoivat [!INCLUDE[prod_short](includes/prod_short.md)] -taulun tietueet [!INCLUDE[prod_short](includes/cds_long_md.md)] -taulun kanssa. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->

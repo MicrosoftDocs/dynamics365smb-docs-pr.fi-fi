@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 99000762
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 52f84c4c4b30aa09094806e238fe4f72232f5e62
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 639a0a8cc8c7c3efa9e7331a1db45dc031f4515b
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517893"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557221"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Tuotantosolujen ja kuormituskeskusten määrittäminen
 
@@ -39,18 +39,19 @@ Seuraavaksi käsitellään ennen kaikkea tuotantosolun määrittämiseen. Kuormi
 2. Valitse **Uusi**-toiminto.  
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Valitse tarvittaessa **Tuotantosoluryhmä**-kentässä ylätason resurssiryhmä, johon tuotantosolu kuuluu. Valitse avattavassa luettelossa **Uusi**-toiminto.  
-5. Valitse **Estetty** -kenttä, jos haluat estää tuotantosolun käyttämisen käsittelyssä. Siinä tapauksessa tuotosta ei voi kirjata tuotantosolussa tuotetulle nimikkeelle. Lisätietoja on kohdassa [Tuotannon tuotoksen kirjaaminen](production-how-to-post-output-quantity.md).
-6. Anna **Välitön yksikkökustannus** -kenttään yhden yksikön tuottamiskustannus tässä tuotantosolussa muita kustannuselementtejä huomioon ottamatta. Tätä kustannusta kutsutaan usein myös *välittömäksi työkustannukseksi*.  
-7. Syötä **Välillinen kustannus-%** -kenttään yleiset tuotantosolun käytöstä syntyvät toimintakustannukset prosenttiosuutena välittömästä yksikkökustannuksesta. Tämä prosentti lisätään välittömiin kustannuksiin yksikkökustannusta laskettaessa.  
-8. Syötä **Yleiskustannus (arvo)** -kenttään tuotantosolun kaikki muut kuin toiminnasta syntyvät kustannukset, esimerkiksi kunnossapitokulut, absoluuttisena arvona.  
+5. Valitse **Vaihtoehtoinen tuotantosolu** -kentässä tuotantosolu, jota käytetään, jos tämä tuotantosolu ei ole käytettävissä tai jos kysyntä ylittää kapasiteetin. Vaihtoehtoinen tuotanto-solu on tarkoitettu vain tiedoksi, eikä se sisälly suunnitteluprosesseihin automaattisesti.
+6. Valitse **Estetty** -kenttä, jos haluat estää tuotantosolun käyttämisen käsittelyssä. Siinä tapauksessa tuotosta ei voi kirjata tuotantosolussa tuotetulle nimikkeelle. Lisätietoja on kohdassa [Tuotannon tuotoksen kirjaaminen](production-how-to-post-output-quantity.md).
+7. Anna **Välitön yksikkökustannus** -kenttään yhden yksikön tuottamiskustannus tässä tuotantosolussa muita kustannuselementtejä huomioon ottamatta. Tätä kustannusta kutsutaan usein myös *välittömäksi työkustannukseksi*.  
+8. Syötä **Välillinen kustannus-%** -kenttään yleiset tuotantosolun käytöstä syntyvät toimintakustannukset prosenttiosuutena välittömästä yksikkökustannuksesta. Tämä prosentti lisätään välittömiin kustannuksiin yksikkökustannusta laskettaessa.  
+9. Syötä **Yleiskustannus (arvo)** -kenttään tuotantosolun kaikki muut kuin toiminnasta syntyvät kustannukset, esimerkiksi kunnossapitokulut, absoluuttisena arvona.  
 
     **Yksikkökustannus**-kenttään lasketaan seuraavasti yhden mittayksikön tuottamisen yksikkökustannus tässä tuotantosolussa kaikki kustannuselementit huomioon ottaen:  
 
     Yksikkökustannus = välitön yksikkökustannus + (välitön yksikkökustannus x välillinen kustannus-%) + yleiskustannus (arvo).  
 
-9. Määritä **Yksikkökustannuslaskenta**-kentässä, käytetäänkö yllä olevan laskennan perustana käytettyä aikaa ( **Aika**) vai tuotettujen yksiköiden määrää ( **Yksiköt**).  
-10. Lisää **Spesifinen yksikkökustannus** -kenttään valintamerkki, jos haluat määrittää tuotantosolun yksikkökustannuksen sitä käyttävällä reititysrivillä. Tämä saattaa olla järkevää sellaisten operaatioiden kohdalla, joiden kapasiteettikustannukset eroavat huomattavasti tuotantosolun normaaleista kustannuksista.  
-11. Valitse **Materiaalinottotapa**-kentässä, lasketaanko ja kirjataanko tämän tuotantosolun tuotoksen kirjaus manuaalisesti vai automaattisesti jommallakummalla seuraavista menetelmistä:
+10. Määritä **Yksikkökustannuslaskenta**-kentässä, käytetäänkö yllä olevan laskennan perustana käytettyä aikaa ( **Aika**) vai tuotettujen yksiköiden määrää ( **Yksiköt**).  
+11. Lisää **Spesifinen yksikkökustannus** -kenttään valintamerkki, jos haluat määrittää tuotantosolun yksikkökustannuksen sitä käyttävällä reititysrivillä. Tämä saattaa olla järkevää sellaisten operaatioiden kohdalla, joiden kapasiteettikustannukset eroavat huomattavasti tuotantosolun normaaleista kustannuksista.  
+12. Valitse **Materiaalinottotapa**-kentässä, lasketaanko ja kirjataanko tämän tuotantosolun tuotoksen kirjaus manuaalisesti vai automaattisesti jommallakummalla seuraavista menetelmistä:
 
     |Asetus|Kuvaus|
     |------|-----------|
@@ -61,17 +62,17 @@ Seuraavaksi käsitellään ennen kaikkea tuotantosolun määrittämiseen. Kuormi
     > [!NOTE]
     > Tässä valittua materiaalinottotapaa voidaan muuttaa yksittäisten toimintojen kohdalla vaihtamalla asetus reititysriveillä.
 
-12. Anna **Mittayksikön koodi** -kenttään ajan yksikkö, jota käytetään tämän tuotantosolun kustannuslaskennassa ja kapasiteettisuunnittelussa.
+13. Anna **Mittayksikön koodi** -kenttään ajan yksikkö, jota käytetään tämän tuotantosolun kustannuslaskennassa ja kapasiteettisuunnittelussa.
     Jotta kulutusta voitaisiin jatkuvasti tarkkailla, ensin tulee määrittää mittaustapa. Syötettävät yksiköt ovat perusyksiköitä. Esimerkiksi käsittelyaikaa mitataan tunneissa ja minuuteissa.
 
     > [!NOTE]  
     > Jos valitset yksiköksi Päivää, muista, että yksi päivä tarkoittaa 24:ää tuntia, ei 8:aa tuntia (työpäivää).
 
-13. Määritä **Kapasiteetti**-kentässä, onko tuotantosolussa samanaikaisesti useita työntekijöitä tai koneita. Jos käyttämääsi [!INCLUDE[prod_short](includes/prod_short.md)] -järjestelmään ei ole asennettu Kuormitusryhmä-toimintoa, kentän arvon on oltava **1**.  
-14. Anna **Tehokkuus**-kenttään tuotantosolun todellinen tuotos prosenttiosuutena oletetusta vakiotuotoksesta. Jos annat arvoksi **100**, tämä tarkoittaa, että tuotantosolun todellinen tuotos on sama kuin vakiotuotos.  
-15. Valitse **Yhdistetty kalenteriin** -valintaruutu, jos käytät myös kuormitusryhmiä. Tämä varmistaa, että kalenteritapahtumat vyörytetään kuormitusryhmän kalentereista.  
-16. Valitse **Tuotantokalenterin koodi** -kentässä tuotantokalenteri. Lisätietoja on kohdassa [Tuotantokalenterien luominen](production-how-to-create-work-center-calendars.md).  
-17. Määritä **Jonotusaika**-kenttään aika, jonka täytyy kulua, ennen kuin tuotantosolulle määritetty työ voidaan aloittaa. 
+14. Määritä **Kapasiteetti**-kentässä, onko tuotantosolussa samanaikaisesti useita työntekijöitä tai koneita. Jos käyttämääsi [!INCLUDE[prod_short](includes/prod_short.md)] -järjestelmään ei ole asennettu Kuormitusryhmä-toimintoa, kentän arvon on oltava **1**.  
+15. Anna **Tehokkuus**-kenttään tuotantosolun todellinen tuotos prosenttiosuutena oletetusta vakiotuotoksesta. Jos annat arvoksi **100**, tämä tarkoittaa, että tuotantosolun todellinen tuotos on sama kuin vakiotuotos.  
+16. Valitse **Yhdistetty kalenteriin** -valintaruutu, jos käytät myös kuormitusryhmiä. Tämä varmistaa, että kalenteritapahtumat vyörytetään kuormitusryhmän kalentereista.  
+17. Valitse **Tuotantokalenterin koodi** -kentässä tuotantokalenteri. Lisätietoja on kohdassa [Tuotantokalenterien luominen](production-how-to-create-work-center-calendars.md).  
+18. Määritä **Jonotusaika**-kenttään aika, jonka täytyy kulua, ennen kuin tuotantosolulle määritetty työ voidaan aloittaa. 
 
 > [!NOTE]
 > Jonotusaikojen avulla voit määrittää puskurin sille, kuinka kauan komponentin saapumisesta kuormitusryhmälle tai tuotantosolulle kuluu toiminnon varsinaiseen aloittamiseen. Esimerkiksi osa toimitetaan kuormitusryhmälle klo 10:00, mutta se kestää tunnin, ennen kuin se asennetaan koneeseen, jolloin toiminto ei ala ennen klo 11:00. Jotta voisit ottaa huomioon kyseisen tunnin, jonotusaika on tunti. Kun lasketaan yhteen kuormitusryhmän tai tuotantosolun kortin **Jonotusaika**-kentän arvo sekä nimikkeen reititysrivin **Asetusaika**-, **Ajoaika**-, **Odotusaika**- ja **Siirtoaika**-kenttien arvot, saadaan nimikkeen tuotannon toimitusaika. Tämä auttaa tarjoamaan tarkkoja kokonaistuotantoaikoja.  

@@ -8,12 +8,12 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 70bfd81f6fd331018fe6cafd6793ae1f1501f159
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6996c82ee184db980879ea98a6f2cbdca1b10852
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519620"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557180"
 ---
 # <a name="create-jobs"></a>Projektien luominen
 Uuden projektin aloittamisen yhteydessä on luotava projektikortti sekä integroidut projektitehtävät ja projektin suunnittelurivit kahteen eri tasoon.  
@@ -27,7 +27,11 @@ Tason rakenteen avulla voit jakaa projektin pienemmiksi tehtäviksi ja käyttä�
 > [!TIP]
 > Käynnistä asetusten ohjattu määritys valitsemalla **Uusi projekti** -toiminto **Projektipäällikkö**-roolikeskuksessa. Ohjattu määritys ohjaa vaihe vaiheelta projektin ja integroitujen tehtävien ja suunnittelurivien luomisessa. Seuraavassa kerrotaan, miten vaiheet suoritetaan manuaalisesti. Esimerkki projektin manuaalisesta luomisesta on [videossa: Projektin luonti Dynamics 365 Business Centralissa](https://www.youtube.com/watch?v=VqaPWr7BWmw).
 
-Joskus palvelua vastaanottava osapuoli eroaa laskun maksavasta osapuolesta. **Projektit**-sivulla voit määrittää projektista hyötyvän asiakkaan **Tilausasiakas**-kentissä sekä laskutettavan osapuolen **Laskutusasiakas**-kentissä. Voit myös määrittää, missä työ tapahtuu, valitsemalla asiakkaan toimitusasiakkaan osoiteluettelosta, lisätä ulkoisten viittausten tietoja, jotka helpottavat projektiviestintää ja korvata projektin vakiotalousehdot.
+Joskus palvelua vastaanottava osapuoli eroaa laskun maksavasta osapuolesta. **Projektit**-sivulla voit määrittää projektista hyötyvän asiakkaan **Tilausasiakas**-kentissä sekä laskutettavan osapuolen **Laskutusasiakas**-kentissä. Voit antaa myös seuraavat tiedot: 
+
+* Valitse työn suorituspaikka asiakkaan toimitusasiakkaiden osoitteiden luettelosta.
+* Lisää ulkoisten viitteiden tietoja yksinkertaistaaksesi projektia koskevaa viestintää.
+* Korvaa projektin vakiotalousehdot.
 
 ## <a name="to-create-a-job-card"></a>Projektikortin luominen
 Luo projektikortti ja luo sitten projektikortille työtehtävä ja projektin suunnittelurivit.
@@ -40,7 +44,7 @@ Luo projektikortti ja luo sitten projektikortille työtehtävä ja projektin suu
 >   Jos projektissa käytetään aikaraportteja, myös vastuussa oleva henkilö on määritettävä. Tämä henkilö voi hyväksyä työhön liittyvien työntekijätehtävien tuntilomakkeet. Lisätietoja on kohdassa [Aikaraporttien määrittäminen](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>Luo projektille tehtäviä
-Projektin luomisen keskeinen osa on määrittää siihen liittyvät tehtävät. Se tehdään lisäämällä **Projektikortti**-sivun **Tehtävät**-pikavälilehteen yksi tehtävä riville. Jokaisella projektilla on oltava vähintään yksi tehtävä.
+Projektin luomisen keskeinen osa on määrittää siihen liittyvät tehtävät. Voit määrittää tehtäviä luomalla yhden rivin tehtävää kohti **Tehtävät**-pikavälilehdessä **Työkortti**-sivulla. Jokaisella projektilla on oltava vähintään yksi tehtävä.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten vastaava linkki.
 2. Avaa asianmukaisen projektin projektikortti.
@@ -50,23 +54,41 @@ Projektin luomisen keskeinen osa on määrittää siihen liittyvät tehtävät. 
 6. Voit määrittää projektitehtäville muiden projektitehtävien tiedot valitsemalla **Kopioi projektitehtävät kohteesta** -toiminnon, täyttämällä tarvittavat kentät ja valitsemalla sitten **OK**-painikkeen.
 
 ## <a name="to-create-planning-lines-for-a-job"></a>Projektin suunnittelurivien luominen
-Voit tarkentaa uusia projektitehtäviä projektin suunnitteluriveillä. Suunnittelurivin avulla voidaan taltioida kaikki tiedot, joita haluat seurata työssä. Voit käyttää suunnittelurivejä lisätäksesi tietoja, muun muassa tiedot siitä, mitä resursseja tarvitaan tai kerätään ja mitä nimikkeitä tarvitaan projektin suorittamisessa. Voit esimerkiksi liittää projektia koskevan asiakkaan hyväksynnän hankkimisessa käytettävän tehtävän nimikkeiden, kuten asiakkaan kanssa käydyn neuvottelun ja resurssin määrittämisen, suunnitteluriveihin.  
+Voit tarkentaa uusia projektitehtäviä projektin suunnitteluriveillä. Suunnitteluriville voi kerätä tiedot, joita haluat seurata projektissa. Voit esimerkiksi seurata projektin tarvitsemia resursseja tai nimikkeitä. Käytettävissä on esimerkiksi tehtävä, jossa asiakkaan toivotaan hyväksyvän projekti. Tehtävä liitetään nimikkeiden suunnitteluriveihin, esimerkiksi asiakastapaamiseen tai resurssin liittämiseen.  
 
 Projektin suunnittelurivin tyyppi voi olla jokin seuraavista tyypeistä.  
 
 | Tyyppi | Kuvaus |
 | --- | --- |
-| **Budjetti** |Projektin käytön ja kustannusten arviointi, yleensä Aika ja materiaali -tyyppisessä projektissa. Tämän tyyppisiä suunnittelurivejä ei voi laskuttaa. |
+| **Budjetti** |Projektin käytön ja kustannusten arviointi, yleensä Aika ja materiaali -tyyppisessä projektissa. Tällaisia suunnittelurivejä ei voi laskuttaa. |
 | **Laskutettava** |Asiakkaan arviolaskutus, yleensä kiinteähintainen projekti. |
 | **Sekä budjetti että laskutettava** |Budjetoitu käyttö on sama kuin laskutettava käyttö. |
 
-**Huomautus**. Kustannustiedot täytetään automaattisesti projektin suunnittelurivien tietojen lisäyksen aikana. Esimerkiksi resurssien ja nimikkeiden kustannus, hinta ja alennus perustuvat resurssin ja nimikkeen kortteihin määritettyihin tietoihin.
+> [!NOTE]
+> Kustannustiedot täytetään automaattisesti projektin suunnittelurivien tietojen lisäyksen aikana. Esimerkiksi resurssien ja nimikkeiden kustannus, hinta ja alennus perustuvat resurssin ja nimikkeen tietoihin. 
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten vastaava linkki.
 2. Avaa sopiva työkortti.
 3. Valitse projektitehtävä, jonka **Projektitehtävätyyppi**-kentän arvo on **Kirjaus**. Valitse sitten **Projektin suunnittelurivit** -toiminto.  
 4. Täytä **Projektin suunnittelurivit** -sivun uuden rivin tarvittavat kentät.
 5. Toista vaiheet 3 ja 4 kaikille projektitehtävässä tarvittaville suunnitteluriveille.
+
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Luo varaston ja fyysisen varaston poiminta-asiakirjat projektille
+Jos haluat luoda varaston ja fyysisen varaston poiminta-asiakirjat projekteille, järjestelmänvalvojan on määritettävä **Ominaisuuspäivitys: Ota käyttöön varaston ja fyysisen varaston poiminnat projekteista** -kohta käyttöön **Ominaisuuksien hallinta** -sivulla.
+
+Toiminto lisää **Luo varastopoiminta**- ja **Luo fyysisen varaston poiminta** -toiminnot **projektikorttiin**. Jos haluat luoda tai rekisteröidä poiminta-asiakirjan, käytä **Hyllytys-/poiminta-/siirtorivit**- tai **Rekisteröidyt poimintarivit** -toimintoa.
+
+Voit käyttää toimintoja seuraavien ehtojen perusteella:
+* Projektin **tila** on **Avoin**.
+* Projektin suunnittelurivin **rivityyppi** on **Budjetti** tai **Sekä budjetti että laskutettava**.
+* Projektin suunnittelurivin **tyyppi** on **Nimike**.
+* **Vaadi poiminta** -kohta on otettu käyttöön liittyvässä sijainnissa.
+* **Ohjattu hyllytys ja poiminta** on poistettu käytöstä.
+
+> [!NOTE] 
+> Vaikka asetuksen nimi on **Vaadi poiminta**, voit silti kirjata kulutuksen suoraan projektin päiväkirjariviltä sijainnissa. Jos sijainti on asetettu vaatimaan poimintaprosessia mutta ei toimitusprosessia, sinun tulee käyttää **Varastopoiminta**-sivua poiminnan tietojen järjestämisessä ja tulostamisessa. Voit käyttää sivua myös poiminnan tuloksen syöttämisessä ja kirjaamisessa. Tämä kirjaa nimikkeiden kulutuksen. 
+> 
+> Jos sijainti on määritetty edellyttämään sekä poiminta- että toimituskäsittelyä eli olet valinnut sekä **Vaadi poiminta**- ja **Vaadi toimitus** -kohdan **Sijaintikortti**-sivulla, voit käsitellä poiminnan **F. varaston poiminta** -sivulla. Fyysisen varaston poiminnat ovat samanlaisia kuin varaston poiminnat. Erona on, että poiminnan tietojen kirjaamisen sijaan poiminta rekisteröidään. Tämä rekisteröinti ei kirjaa kulutusta, vaan se vain määrittää nimikkeet saataville kirjaamista varten. Varastopäällikkönä voit järjestää poimintatiedot poimintatyökirjan avulla ennen yksittäisten fyysisen varastoinnin poimintaohjeiden luontia
 
 ## <a name="see-also"></a>Katso myös
 

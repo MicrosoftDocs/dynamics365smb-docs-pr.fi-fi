@@ -1,6 +1,6 @@
 ---
 title: Kokonaisvaltaisen suunnittelun, tuotanto-ohjelman tai tarvelaskennan suorittaminen
-description: Suunnittelujärjestelmä voi laskea tuotanto-ohjelman tai tarvelaskennan pyydettäessä, tai molemmat samanaikaisesti.
+description: Suunnittelujärjestelmä voi laskea tuotanto-ohjelman tai tarvelaskennan pyydettäessä, tai se voi laskea molemmat samanaikaisesti.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000852, 99000860
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: b8a9f648030e0a307ccd1a086c681ba8492cf357
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 35263f54400865c88694a483bda195957a8f8db4
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516664"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557247"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Kokonaisvaltaisen suunnittelun, tuotanto-ohjelman tai tarvelaskennan suorittaminen
 

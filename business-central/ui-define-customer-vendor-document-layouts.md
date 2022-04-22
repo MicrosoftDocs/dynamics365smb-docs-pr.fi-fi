@@ -1,6 +1,6 @@
 ---
-title: Asiakkaiden tai toimittajien asiakirja-asettelujen määrittäminen
-description: Kun mukautettuja raportin asetteluita määritetään, voit valita ne asiakas- ja toimittajakorteista ja määrittää, että valittuja asetteluita käytetään asiakirjoissa, jotka ovat kyseessä olevalle asiakkaalle tai toimittajalle.
+title: Asiakirja-asettelujen määrittäminen asiakkaille tai toimittajille
+description: Asiakirja-asetteluiden avulla voit valvoa asiakkaille ja toimittajille lähetettävien asiakirjojen, kuten laskujen ja tilausten, ulkoasua ja muotoa.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -9,49 +9,45 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
-ms.date: 06/24/2021
+ms.search.form: 21, 9650
+ms.date: 04/07/2022
 ms.author: edupont
-ms.openlocfilehash: cbd0fbea2e1567875dd7bda556271f693234a502
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f751b13485cf795acef829f40e2ff0c8f689fd0b
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510737"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557377"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Asiakirja-asettelujen määrittäminen asiakkaille ja toimittajille
-Kun mukautettuja raportin asetteluita määritetään, voit valita ne asiakas- ja toimittajakorteista ja määrittää, mitä asetteluita käytetään eri asiakirjoissa, jotka on luotu kyseessä olevalle asiakkaalle tai toimittajalle. **Käyttö**-kentän arvo määrittää, mihin prosessiin asiakirjan asettelua käytetään (esimerkiksi **Muistutus**, **Toimitus** tai **Vahvistus**).
+Asiakirja-asettelut määrittävät asiakkaille ja toimittajille lähetettävien asiakirjojen ulkoasun raporttiasetteluiden avulla. Business Central sisältää vakioasetteluita. Voit halutessasi myös räätälöidä mukautettuja asetteluita jokaiselle liiketoimintakumppanille. Lisätietoja on kohdassa [Raportin mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md). Voit valita vakiomuotoiset ja mukautetut asiakirja-asettelut asiakas- ja toimittajakorteista valitsemalla **Asiakirja-asettelut**-toiminnon. **Käyttö**-kentän arvo määrittää prosessin, jossa asiakirja-asettelua käytetään. Esimerkiksi asiakkaiden kohdalla voidaan käyttää asiakirja-asetteluiden **Muistutus**-, **Toimitus**- ja **Vahvistus**-tyyppejä.
 
-Sen lisäksi, että määrität, mitä asetteluita asiakirjalle käytetään, voit säästää aikaa, kun lähetät asiakirjoja eri asiakas- tai toimittajakontakteille määrittämällä tiettyjen kontaktien sähköpostiosoitteet tiettyjen asiakirjojen kanssa käytettäviksi. Asiakastiliotteet lähetetään esimerkiksi kirjanpitäjäkontakteille, myyntitilaukset asiakkaiden ostajille ja ostotilaukset toimittajien myyjille tai asiakkuuspäälliköille.
+Asiakirja-asettelut voivat myös säästää aikaa, kun asiakirjoja lähetetään asiakkaan tai toimittajan yhteyshenkilöille sähköpostitse. Voit määrittää jokaiselle asiakkaalle tai yhteyshenkilölle määritetylle asettelulle vähintään yhden yhteyshenkilön sähköpostiosoitteen. Voit esimerkiksi lähettää laskun asiakkaan osto- ja varastoyhteyshenkilöille. Yhteyshenkilön sähköpostiosoitteiden lisääminen on helppoa. Valitse **Asiakirja-asettelut**-sivulla **Valitse sähköpostiosoite yhteyshenkilöistä** -toiminto, jos haluat tehdä valinnan asiakkaalle tai toimittajalle rekisteröityjen yhteyshenkilöiden sähköpostiosoitteiden luettelosta. Voit myös lisätä sähköpostiosoitteita manuaalisesti. Jos syötät useita osoitteita, erottele ne puolipisteellä äläkä lisää välilyöntejä osoitteiden välille.
 
-Kun määrität asiakirjan asettelun asiakkaalle tai toimittajalle, voit myös määrittää sen kontaktihenkilön sähköpostiosoitteen, jolle asiakirja on osoitettu. Voit tehdä tämän nopeasti käyttämällä **Valitse sähköpostiosoite kontakteista** -toimintoa, joka suodattaa automaattisesti kontaktien sähköpostiosoitteet, jotka on rekisteröity kyseiselle asiakkaalle tai toimittajalle.
+Ennen kuin voit määrittää, mitä asiakirja-asettelua käytetään mihinkin prosessiin ja mille kontaktille asiakirjan voi lähettää, sinun täytyy ladata kaikki käytettävissä olevat raportit (asiakirjat) **Raporttivalinnat**-sivulta. Voit ladata asiakirjat nopeasti käyttämällä **Kopioi raporttivalinnasta** -toiminnon **Asiakirja-asettelut**-sivulla.
 
-Ennen kuin voit määrittää, mitä asiakirja-asettelua käytetään mihinkin prosessiin ja mille kontaktille asiakirjan voi lähettää, sinun täytyy ladata kaikki käytettävissä olevat raportit (asiakirjat) **Raporttivalinnat**-sivulta. Voit tehdä tämän nopeasti **Kopioi raporttivalinnasta** -toiminnolla.
+Seuraavien osien vaiheissa kerrotaan, miten myyntiasiakirja-asettelut määritetään **Asiakaskortti**-sivulla. Työvaiheet ovat samat toimittajille **Toimittajakortti**-sivulla.
 
-Seuraavassa kuvataan, miten myyntiasiakirja-asetteluita määritetään asiakaskortista. Työvaiheet ovat samat ostoasiakirjan asetteluille toimittajan kortista.
-
-## <a name="to-enable-all-available-sales-documents-for-a-customer"></a>Kaikkien saatavilla olevien myyntiasiakirjojen ottaminen käyttöön asiakkaalle
+## <a name="to-load-the-standard-document-layouts-for-sales-documents-for-a-customer"></a>Vakioasiakirja-asetteluiden lataaminen asiakkaan myyntiasiakirjoja varten
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten vastaava linkki.
-2. Avaa sen asiakkaan kortti, jonka asiakirja-asettelut haluat määrittää liiketoimintaprosessin mukaan.
-3. Valitse **Asiakkaan kortti** -sivulla **Asiakirjojen asettelut** -sivu.
-4. Valitse **Asiakirjojen asettelu** -sivulla **Kopioi raporttivalinnasta** -toiminto.
+2. Avaa asiakkaan **Asiakaskortti**-sivu ja valitse **Asiakirja-asettelut**-toiminto.
+3. Valitse **Asiakirjojen asettelu** -sivulla **Kopioi raporttivalinnasta** -toiminto.
 
-Kyseisen asiakkaan **Asiakirjojen asettelut** -sivu täytetään kaikilla järjestelmässä olevilla myynnin raporttiasetteluilla. Lisätietoja niiden luonnista on kohdassa [Raportin mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md).
-
-Nyt voit siirtyä muokkaamaan luetteloa mukautettujen raporttien asetteluilla tai niiden kontaktien sähköpostiosoitteilla, joille asiakirjat on lähetettävä.
+**Asiakirja-asettelut**-sivulla näytetään kaikki myyntiasiakirjan käytettävissä olevat asettelut. 
 
 ## <a name="to-select-a-custom-report-layout-to-use-for-the-sales-document-layout"></a>Valitse myyntiasiakirjan asettelussa käytettävä mukautettu raporttiasettelu
-Jos vähintään yhdelle **Asiakirjojen asettelut** -sivulla määritetyistä asiakkaan raportin asetteluista ei ole määritetty mukautettua raporttiasettelua, voit tehdä sen nopeasti.
+Jos et ole vielä luonut mukautettua raporttiasettelua asiakirjatyypille, luo se nyt. Lisätietoja on kohdassa [Raportin mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md).
 
-1. Valitse **Asiakirjojen asettelut** -sivulla **Mukautetun asettelun kuvaus** -kenttä siltä raporttiasettelun riviltä, jolle haluat käyttää mukautettua asettelua. Kenttä täytetään, jos asiakkaan asettelu on jo valittuna – muutoin se on tyhjä.
-2. Valitse **Mukautetut raporttiasettelut** -sivulta erityinen asiakirjan asettelu, jota haluat käyttää kyseessä olevassa myyntiasiakirjatyypissä. Lisätietoja on kohdassa [Raportin mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md).
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten vastaava linkki.
+2. Avaa asiakkaan **Asiakaskortti**-sivu ja valitse **Asiakirja-asettelut**-toiminto.
+3. Valitse **Asiakirjojen asettelut** -sivulla **Mukautetun asettelun kuvaus** -kenttä siltä raporttiasettelun riviltä, jolle haluat käyttää mukautettua asettelua.
+4. Valitse **Mukautetut raporttiasettelut** -sivulta asiakirja-asettelu, jota haluat käyttää kyseisessä myyntiasiakirjatyypissä. Lisätietoja on kohdassa [Raportin mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md).
 
-## <a name="to-set-up-which-contact-receives-which-document-layout-for-a-customer"></a>Sen määrittäminen, mikä kontakti saa asiakkaan asiakirja-asettelun
-Voit säästää aikaa lähetettäessä asiakirjoja eri asiakkaiden tai toimittajien kontakteille määrittämällä kontaktien sähköpostiosoitteet **Asiakirjojen asettelut** -sivun eri riveille. Asiakastiliotteet voidaan lähettää esimerkiksi kirjanpitäjäkontakteille, myyntitilaukset asiakkaiden ostajille ja ostotilaukset toimittajien myyjille tai asiakkuuspäälliköille.
+## <a name="to-specify-which-contact-will-receive-which-document-layout-for-a-customer"></a>Määritetään, kuka yhteyshenkilö vastaanottaa minkäkin asiakirja-asettelun asiakkaan kohdalla
+Voit säästää aikaa lähettäessäsi asiakirja asiakkaan ja toimittajan yhteyshenkilöille sähköpostitse, jos määrität sähköpostiosoitteet asiakirja-asetteluissa. Voit esimerkiksi aina lähettää asiakastiliotteet kirjanpitäjän yhteyshenkilöille ja myyntitilaukset ostajille tai ostotilaukset toimittajan myyjille.
 
 1. Valitse **Asiakirjan asettelut** -sivulla **Valitse sähköpostiosoite kontakteista** -toiminto siltä raporttiasettelun riviltä, jonka haluat lähettää asiakkaan tietylle kontaktille.
-2. Valitse **Yhteyshenkilöt**-sivulla asianmukaisen kontaktin rivi ja valitse sitten **OK**-painike.
-
-Kontaktin sähköpostiosoite lisätään nyt asiakirjan asettelun riville, joten kyseinen myyntiasiakirja, esimerkiksi muistutus, lähetetään aina kyseiselle kontaktille asiakkaan yrityksessä.
+2. Valitse **Yhteyshenkilöt**-sivulla vähintään yksi yhteyshenkilö ja valitse sitten **OK**.
 
 ## <a name="see-also"></a>Katso myös  
 [Päivitä mukautetut raporttiasettelut](ui-update-report-layouts.md)  
