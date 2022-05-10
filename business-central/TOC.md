@@ -1569,6 +1569,7 @@
 ##### [Synkronoiminen Outlookin kontaktien kanssa](admin-synchronize-outlook-contacts.md)
 ##### [Optimoi Outlook](admin-outlook-optimize.md)
 ##### [Business Central -sovelluksen käyttäminen ilman Outlookia](admin-no-outlook.md)
+##### [Usein kysytyt kysymykset](ui-outlook-addin-faq.yml)
 ### Määritä raportit
 #### [Raporttivalinta](across-report-selections.md)
 ### Määritä yhteydet
@@ -1611,6 +1612,7 @@
 #### [Vaihtaminen QuickBooks-sovelluksesta Business Centraliin](across-quickbooks-to-business-edition.md)
 #### [Microsoft Bookingsin massalaskutus](finance-bookings.md)
 #### [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)
+### [Yrityksen tiedot](admin-company-information.md)
 ### [Numerosarjojen luominen](ui-create-number-series.md)
 ### [Peruskalenterien määrittäminen](across-how-to-assign-base-calendars.md)
 ### [Tulostimien määrittäminen](ui-specify-printer-selection-reports.md)

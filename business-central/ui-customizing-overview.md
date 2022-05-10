@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
-ms.search.form: 2500, 2502, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 2500, 2502
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: fa658877b3ed1c04532083788320403edbebce69
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 01fd408e08dab78667eaa58bac55f39087b27f74
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512860"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655460"
 ---
 # <a name="customize-business-central"></a>Business Centralin mukauttaminen
 Sovelluksen voi mukauttaa useilla eri tavoilla, jotta sinä ja työtoverisi voitte käyttää eniten tarvitsemianne ominaisuuksia, toimintoja ja tietoja tavalla, joka sopii parhaiten päivittäiseen työhönne. Seuraavassa taulukossa kerrotaan ketkä näkevät muutokset sen mukaan, mitä teet.

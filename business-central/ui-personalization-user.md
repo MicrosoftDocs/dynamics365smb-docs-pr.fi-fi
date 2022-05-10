@@ -7,22 +7,25 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: a862cb514145d50d1a86816bbd3758055b41a872
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8ab57ff6e28abf3a40b9507375d33ffb4f1f33a3
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512730"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655486"
 ---
 # <a name="personalize-your-workspace"></a>Työtilan mukauttaminen
-Voit mukauttaa työtilan työskentelyysi ja valintoihisi sopivaksi muuttamalla sivujen ulkoasua siten, että vain tarvitsemasi tiedot näkyvät siellä, missä niitä tarvitset. Mukauttamalla tehdyt muutokset koskevat vain omaa näkymääsi; muut käyttäjät eivät siis näe mukautuksiasi.
 
-Voit mukauttaa kaikenlaisia sivuja, myös Roolikeskus-sivua. Lisätietoja roolikeskuksesta on kohdassa [Roolikeskus](ui-change-basic-settings.md#role-center).
+Voit voivat mukauttaa työtilasi työsi ja mieltymystesi mukaiseksi. Muuta sivuja siten, että niissä näkyy vain tarvitsemasi tiedot, missä niitä tarvitaan. Mukauttamalla tehdyt muutokset koskevat vain *omaa* näkymääsi; muut käyttäjät eivät siis näe mukautuksiasi.
 
-Sivun tyypin ja sen sisällön mukaan voit tehdä erilaisia muutoksia, kuten siirtää tai piilottaa kenttiä, sarakkeita, toimintoja ja kokonaisia osia sekä lisätä uusia kenttiä. Vaikka useimmat mukautukset on tehtävä aktivoimalla ensin **Mukauttaminen**-palkki, yksinkertaiset muutokset, kuten sarakkeen leveyden muuttaminen, voidaan tehdä suoraan luettelossa.
+Voit mukauttaa kaikenlaisia sivuja, myös Roolikeskus-sivua. Lisätietoja roolikeskuksesta on kohdassa [Roolikeskus](ui-change-basic-settings.md#role-center).  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
+
+Voit tehdä erilaisia muutoksia, kuten siirtää tai piilottaa kenttiä, sarakkeita, toimintoja ja kokonaisia osia sekä lisätä uusia kenttiä. Useimmat mukautukset on tehtävä aktivoimalla ensin **mukautus**-palkki. Voit tehdä yksinkertaisia muutoksia, kuten sarakkeen leveyden, heti missä tahansa luettelossa.
 
 > [!NOTE]
 > Järjestelmänvalvojat voivat tehdä samat asettelun muutokset kuin käyttäjät mukauttamalla sellaisen profiilin työtilaa, johon on määritetty useita käyttäjiä. Lisätietoja on kohdassa [Roolien sivujen mukauttaminen](ui-personalization-manage.md).<br /><br />
@@ -34,13 +37,16 @@ Seuraava video näyttää joitakin tapoja, joilla voit mukauttaa roolikeskuksesi
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
 ## <a name="to-change-the-width-of-a-column"></a>Sarakkeen leveyden muuttaminen
-Luettelon sarakkeiden kokoa on helppo muuttaa vetämällä kahden sarakkeen rajaa vasemmalle tai oikealle.
+
+Voit helposti muuttaa sarakkeiden kokoa missä tahansa luettelossa. Vedä vain kahden sarakkeen välistä rajaa vasemmalle tai oikealle.  
+
 1. Valitse ja vedä sarakkeiden välissä olevaa rajaa luettelon otsikossa.
-2. Voit vaihtoehtoisesti kaksoisnapsauttaa kahden sarakkeen rajaa, jolloin sarakkeen leveys sovitetaan automaattisesti. Leveys määritetään tällä tavoin luettavuuden kannalta optimaaliseksi.
+2. Voit vaihtoehtoisesti kaksoisnapsauttaa kahden sarakkeen rajaa, jolloin sarakkeen leveys sovitetaan automaattisesti. Leveys säätyy luettavuuden kannalta optimaaliseksi.
 
 Muiden mukautusten tavoin sarakkeen leveyteen tehdyt muutokset tallennetaan tiliin, ja ne ovat käytettävissä riippumatta siitä, millä laitetta käytetään kirjautumiseen.
 
 ## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Sivun mukauttamisen aloittaminen **Mukauttaminen**-palkin avulla
+
 1. Avaa mukautettava sivu.
 2. Valitse oikeasta yläkulmasta ![Asetukset.](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") -kuvake ja valitse sitten **Mukauta**-toiminto.
 
@@ -71,7 +77,7 @@ Muiden mukautusten tavoin sarakkeen leveyteen tehdyt muutokset tallennetaan tili
 |Kentän ohittaminen Enter-näppäintä painettaessa|Valitse ensin kentän vieressä oleva nuolenpää tai sarakkeen otsikko luettelossa ja valitse sitten **Sulje pois pikatapahtumasta**. <br /><br /> Jos tämä vaihtoehto ei ole näkyvissä, kenttä on jo määritetty ohitettavaksi. Voit siinä tapauksessa lopettaa kentän ohittamisen valitsemalla **Sisällytä pikatapahtumaan**. |Lisätietoja on kohdassa [Tietojen syöttämisen helpottaminen pikatapahtuman avulla](ui-enter-data.md#QuickEntry)|
 |Suodatettuja luetteloita vastaavien näkymien järjestäminen uudelleen ja poistaminen|Valitse ensin näkymän vieressä oleva nuolenpää ja sitten **Siirrä**, **Poista** tai **Piilota**.|Katso [Luettelonäkymien tallentaminen ja mukauttaminen](ui-views.md)|  
 |Lisää uusi toiminto roolikeskuksen sivuun tai raporttiin.|Valitse kohdesivu-, raportin pyyntösivu- tai Ilmoita-ikkunassa kirjanmerkkikuvake.|Katso [Sivun tai raportin kirjanmerkin luominen roolikeskuksessa](ui-bookmarks.md)|
-|Aloita luettelo aina laajennettuna tai tiivistettynä|Valitse luettelon vasemmassa yläkulmassa oleva Laajenna kaikki- tai Tiivistä kaikki -painike tai valitse Laajenna kaikki- tai Tiivistä kaikki -toiminto ensimmäisen sarakkeen valikosta. |Koskee tiivistettäviä hierarkialuetteloita|
+|Aloita luettelo aina laajennettuna tai tiivistettynä|Valitse **Laajenna kaikki**- tai **Tiivistä kaikki** -painike luettelon vasemmassa yläkulmassa. Voit myös valita **Laajenna kaikki**- tai **Tiivistä kaikki** -toiminnot ensimmäisen sarakkeen valikosta. |Koskee tiivistettäviä hierarkialuetteloita|
 
 ## <a name="personalizing-actions"></a><a name="Actions"></a>Toimintojen mukauttaminen
 
@@ -79,7 +85,7 @@ Mukauttamisen avulla voit päättää, mitkä toiminnot näkyvät siirtymispalki
 
 Toiminnon mukauttamista helpottaa, kun tiedät, mitä muutama termi tarkoittaa. Nämä termit ovat *toimintoryhmä* ja *ylätasolle siirretty luokka*.  
 
-*Toimintoryhmä* on elementti, joka voidaan laajentaa näyttämään muita toimintoja tai ryhmiä. Esimerkiksi **Myyntitilaukset**-sivulla **Toiminnot**-toiminto tulee näkyviin, kun valitset **Toiminnot**-toiminnon toimintoryhmissä.
+*Toimintoryhmä* on elementti, joka voidaan laajentaa näyttämään muita toimintoja tai ryhmiä. Esimerkiksi **Myyntitilaukset**-sivulla yksi toimintoryhmä on **Toiminnot**-toiminto, joka tulee näkyviin, kun valitset **Toiminnot**-toiminnon toimintoryhmissä.
 
 *Ylätasolle siirretty luokka* on toimintoryhmä, joka näkyy ennen pystyviivaa `|` toimintorivillä. Luokat sisältävät yleensä eniten käytetyt toiminnot, jotta ne löytyvät nopeasti. Esimerkiksi **Myyntitilaukset**-sivun **Tilaus**-, **Vapautus**- ja **Kirjaus**-toiminnot ovat ylätasolle siirrettyjä luokkia.
 
@@ -87,7 +93,9 @@ Toiminnon mukauttamista helpottaa, kun tiedät, mitä muutama termi tarkoittaa. 
 > Et voi mukauttaa toimintopalkkia, joka näkyy sivun osissa (esimerkiksi **Myyntitilaus**-sivun myyntirivit-osassa).
 
 ### <a name="to-remove-hide-and-show-actions-and-action-groups"></a>Toimintojen ja toimintoryhmien poistaminen, piilottaminen ja näyttäminen
-Jos haluat näyttää tai piilottaa toiminnot, nuolenpään vaihtoehdot määrittävät mahdolliset toimet toiminnon tilan mukaan.
+
+Jos haluat näyttää tai piilottaa toiminnot, nuolenpään vaihtoehdot määrittävät mahdolliset toimet toiminnon tilan mukaan. 
+
 1. Valitse toiminnon tai toimintoryhmän nuolenpää.
 2. Valitse jokin seuraavista vaihtoehdoista:
 
@@ -98,6 +106,7 @@ Jos haluat näyttää tai piilottaa toiminnot, nuolenpään vaihtoehdot määrit
 |**Näytä**|Tämä vaihtoehto näkyy, jos toiminto tai toimintoryhmä on piilotettu aiemmin (näkyy himmennettynä). Kun tämä vaihtoehto valitaan, toiminto tai toimintoryhmä tulee näkyviin siirtymispalkissa tai toimintorivillä.|
 
 ### <a name="to-move-actions-and-action-groups"></a>Toimintojen tai toimintoryhmien siirtäminen
+
 Kahden toiminnon välinen vaakaviiva tai toimintoryhmää ympäröivä reunus ilmaisee, mihin voit pudottaa toimintoja ja toimintoryhmiä. Voimassa ovat seuraavat rajoitukset:
 
 - Vaikka voit siirtää yksittäisiä toimintoja ylätasolle siirrettyihin luokkiin, et voi muuttaa toimintojen järjestystä luokan sisällä.
@@ -106,10 +115,9 @@ Kahden toiminnon välinen vaakaviiva tai toimintoryhmää ympäröivä reunus il
 1. Voit siirtää toiminnon tai toimintoryhmä vetämällä ja pudottamalla sen toivottuun paikkaan samalla tavoin kuin kentät ja sarakkeet.
 2. Voit siirtää toiminnon tai toimintoryhmän toiseen, tyhjään toimintoryhmään vetämällä toiminnon tai toimintoryhmän uuteen ryhmään ja pudottamalla sen **Pudota toiminto tähän** -ruutuun.
 
-
 ## <a name="personalizing-parts"></a><a name="Parts"></a>Osien mukauttaminen
 
-Osat ovat sivun alueita, jotka koostuvat yleensä useista kentistä, kaavioista tai muusta sisällöstä. Kun osat valitaan, ne tunnistetaan värillisestä reunasta. Esimerkiksi Roolikeskuksen aloitusnäytössä on useita osia. Voit mukauttaa koko osan sekä sen sisällön, koska raja on määritetty selvästi.
+Osat ovat sivun alueita, jotka koostuvat tavallisesti useista kentistä, kaavioista tai muusta sisällöstä. Osassa näkyy värillinen reunus, kun keskityt osaan. Esimerkiksi Roolikeskuksen aloitusnäytössä on useita osia. Voit mukauttaa koko osan ja sen sisällön, koska raja on määritetty selvästi.
 
 - Voit siirtää osaa vetämällä ja pudottamalla sen haluamaasi kohtaan. Värillinen rivi osoittaa sallitut sijainnit näytössä. Esimerkiksi tietoruutuja voi siirtää vain tietoruudun alueella muiden tietoruutujen viereen.
 - Voit piilottaa osan valitsemalla **Piilota**-vaihtoehdon nuolenpään kohdalla.
@@ -117,21 +125,24 @@ Osat ovat sivun alueita, jotka koostuvat yleensä useista kentistä, kaavioista 
 
 Voit poistaa kaikki yksittäisen osan sisällä tekemäsi mukautusmuutokset valitsemalla **Poista mukauttaminen** -asetuksen osan nuolenpään kohdalla. Osan mukauttamisen poistaminen vaikuttaa vain osan sisältöön, ei sivulla olevan osan sijoitteluun tai näkyvyyteen.  
 
-
 ## <a name="to-clear-personalization"></a>Mukautuksen tyhjentäminen
 Haluat ehkä joissain vaiheessa kumota osan sivulle aiemmin tehdyistä mukautusmuutoksista tai kaikki muutokset.
 
 1. Valitse **Mukauttaminen**-palkissa **Tyhjennä mukautus** -toiminto.
-2. Valitse yksi seuraavista vaihtoehdoista. Muista, että mukautuksen tyhjentämistä ei voi kumota.
+2. Valitse yksi seuraavista vaihtoehdoista.  
+
+> [!CAUTION]
+> Mukautuksen tyhjentämistä ei voi kumota.
 
 |Asetus|Kuvaus|
 |------|------------
-|**Vain siirtymisvalikko**|Poistaa kaikki mukautusmuutokset, jotka olet koskaan tehnyt siirtymisvalikkoon, joka on jaettu roolikeskuksen ja muiden sivujen kesken. Tämä sisältää kaikki uudet toiminnot, jotka lisättiin kirjanmerkeiksi, sekä kaikki muutokset linkkeihin ja ryhmiin valikossa.|  
+|**Vain siirtymisvalikko**|Poistaa kaikki mukautusmuutokset, jotka olet koskaan tehnyt siirtymisvalikkoon, joka on jaettu roolikeskuksen ja muiden sivujen kesken. Nämä muutokset sisältävät kaikki uudet toiminnot, jotka lisättiin kirjanmerkeiksi, sekä kaikki muutokset linkkeihin ja ryhmiin valikossa.|  
 |**Vain toiminnot**|Tyhjentää kaikki sivun siirtymispalkkien tai toimintorivien toimintoihin aiemmin tehdyt mukautusmuutokset.|
-|**Vain kentät, sarakkeet ja osat**|Tyhjentää kaikki muut sivun toimintoihin aiemmin tehdyt mukautusmuutokset paitsi siirtymispalkin tai toimintorivin muutokset. Tämä sisältää kaikki kenttiin, sarakkeisiin, osiin ja ruutuihin tehdyt muutokset. |
-|**Kaikki**|Tyhjentää kaikki sivulle tehdyt mukautusmuutokset, joten sivu palautetaan alkuperäiseen ulkoasuunsa. Tämä sisältää kaikki siirtymispalkkeihin, toimintoriveihin, kenttiin, sarakkeisiin, osiin ja ruutuihin tehdyt muutokset.|
+|**Vain kentät, sarakkeet ja osat**|Tyhjentää kaikki muut sivun toimintoihin aiemmin tehdyt mukautusmuutokset paitsi siirtymispalkin tai toimintorivin muutokset. Nämä muutokset sisältävät kaikki kenttiin, sarakkeisiin, osiin ja ruutuihin tehdyt muutokset. |
+|**Kaikki**|Tyhjentää kaikki sivulle tehdyt mukautusmuutokset, joten sivu palautetaan alkuperäiseen ulkoasuunsa. Nämä muutokset sisältävät kaikki siirtymispalkkeihin, toimintoriveihin, kenttiin, sarakkeisiin, osiin ja ruutuihin tehdyt muutokset.|
 
-## <a name="additional-points-of-interest"></a>Muita kiinnostavia seikkoja
+## <a name="other-points-of-interest"></a>Muita kiinnostavia seikkoja
+
 Seuraavat seikat auttavat ymmärtämään mukauttamista entistä paremmin.
 
 - Kun teet muutoksia luettelosta avautuvalle korttisivulle, muutokset koskevat kaikki kyseisestä luettelosta avattavia tietueita. Oletetaan esimerkiksi, että avaat tietyn asiakkaan Asiakasluettelo-sivulta ja mukautat sivua lisäämällä siihen kentän. Kun avaat luettelossa muita asiakkaita, myös lisäämäsi kenttä on näkyvissä.

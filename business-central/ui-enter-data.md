@@ -7,19 +7,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: decimal separator, data entry, focus
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 8212dd5d85ee826bb0147a0d09d623c3af14071b
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: fffc72eaa44207779a751c3d85381f830f651eb3
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528546"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655018"
 ---
 # <a name="entering-data"></a>Tietojen antaminen
 
 Käytettävissä on monia yleisiä ominaisuuksia, jotka helpottavat, nopeuttavat ja täsmentävät tietojen antamista. Tässä artikkelissa käsitellään tietojen antamisen perusperiaatteita ja edistyneitä ominaisuuksia.  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 Tämän artikkelin esimerkeissä käytetään esimerkkitietoja.
 

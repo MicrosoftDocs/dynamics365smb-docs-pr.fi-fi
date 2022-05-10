@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
-ms.search.form: 9020, 9022, 9027, 9018
+ms.search.form: 9020, 9022, 9027, 9024
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f8cfbef682b2a039c5a52483a09380452fba4b9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 47cd78dc6f706407a0be9814e170054b95e4403d
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513599"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655045"
 ---
 # <a name="general-business-functionality"></a>Yleiset liiketoimintatoiminnot
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää omat toiminnot tavallisille liiketoiminta-alueille, kuten rahoitus ja myynti. Lisätietoja on kohdassa [Liiketoiminnan toiminnallisuus](across-business-functionality.md).
@@ -24,6 +24,8 @@ Voit käyttää liiketoiminta-aluekohtaisten tehtävien tukena erilaisia yleisi�
 
 > [!NOTE]
 > Tässä osassa kuvattujen liiketoimintatoimintojen lisäksi voit käyttää järjestelmää muilla yleisillä käyttöliittymän toiminnoilla. Lisätietoja on kohdassa [Business Centralin käyttäminen](ui-work-product.md).
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 Seuraava taulukko sisältää nämä yleiset liiketoiminta-alueet ja linkit niitä kuvaaviin ohjeaiheisiin.
 

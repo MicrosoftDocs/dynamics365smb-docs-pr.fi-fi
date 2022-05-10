@@ -11,17 +11,17 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 78ecb3147ef31bb2ced29aa3c316f9bd5c05ee0b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8350b6e2ce73d1f210bcb62a393ac8a76f7d297e
+ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518833"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625515"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>PayPal Payments Standard -laajennus
 Asiakkaat vaativat jatkuvasti yhä korkeatasoisempaa asiakaspalvelua sekä tuotteen laadun että toimitus- ja maksuvaihtoehtojen osalta. Voit parantaa asiakaspalvelun tasoa PayPal Payments Standard -palvelun avulla.
 
-Pankkisiirron tai luottokorttien lisäksi asiakkaille voi tarjota mahdollisuuden maksaa PayPal-tilin avulla. Kun lähetät myyntilaskun tai -tilauksen sähköpostitse, sähköpostin perustekstissä ja liitetyssä PDF-tiedostossa on PayPal-linkki. Kun asiakas valitsee PayPal-linkin, näyttöön avautuu asiakkaan PayPal-tilin palvelusivu, joka sisältää myyntiä koskevat maksutiedot. Tämän jälkeen asiakas voi maksaa laskun kuten minkä tahansa PayPal-maksun.
+Pankkisiirron tai luottokorttien lisäksi asiakkaille voi tarjota mahdollisuuden maksaa PayPal-tilin avulla. Kun lähetät myyntilaskun sähköpostitse, sähköpostin perustekstissä ja liitetyssä PDF-tiedostossa on PayPal-linkki. Kun asiakas valitsee PayPal-linkin, näyttöön avautuu asiakkaan PayPal-tilin palvelusivu, joka sisältää myyntiä koskevat maksutiedot. Tämän jälkeen asiakas voi maksaa laskun kuten minkä tahansa PayPal-maksun.
 
 PayPal Payments Standard -palvelusta on apua seuraavissa asioissa:
 

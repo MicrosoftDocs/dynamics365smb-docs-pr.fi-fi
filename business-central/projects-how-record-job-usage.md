@@ -10,12 +10,12 @@ ms.search.keywords: project management, consumption
 ms.search.form: 89, 92, 201, 1007, 1014
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b5030646d04e31983025e054992fa0fb71cf5b4e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 04ef2fdd1020444711257230688fea927332ed83
+ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513859"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626263"
 ---
 # <a name="record-consumption-or-usage-for-jobs"></a>Projektien kulutuksen tai käytön kirjaaminen
 
@@ -69,6 +69,23 @@ Näin voit seurata ja vertailla alkuperäisiä arvioita todellisiin tuloksiin. V
 4. Päivitä tarvittavat muutokset päiväkirjaan.  
 5. Valitse **Kirjaa**.
 
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Luo varaston ja fyysisen varaston poiminta-asiakirjat projektille
+
+Jos haluat luoda varaston ja fyysisen varaston poiminta-asiakirjat projekteille, järjestelmänvalvojan on määritettävä **Ominaisuuspäivitys: Ota käyttöön varaston ja fyysisen varaston poiminnat projekteista** -kohta käyttöön **Ominaisuuksien hallinta** -sivulla.
+
+Toiminto lisää **Luo varastopoiminta**- ja **Luo fyysisen varaston poiminta** -toiminnot **projektikorttiin**. Jos haluat luoda tai rekisteröidä poiminta-asiakirjan, käytä **Hyllytys-/poiminta-/siirtorivit**- tai **Rekisteröidyt poimintarivit** -toimintoa. Lisätietoja poiminnoista on kohdassa [Nimikkeiden poimiminen](warehouse-pick-items.md)
+
+Voit käyttää toimintoja seuraavien ehtojen perusteella:
+* Projektin **tila** on **Avoin**.
+* Projektin suunnittelurivin **rivityyppi** on **Budjetti** tai **Sekä budjetti että laskutettava**.
+* Projektin suunnittelurivin **tyyppi** on **Nimike**.
+* **Vaadi poiminta** -kohta on otettu käyttöön liittyvässä sijainnissa.
+* **Ohjattu hyllytys ja poiminta** on poistettu käytöstä.
+
+> [!NOTE] 
+> Vaikka asetuksen nimi on **Vaadi poiminta**, voit silti kirjata kulutuksen suoraan projektin päiväkirjariviltä sijainnissa. Jos sijainti on asetettu vaatimaan poimintaprosessia mutta ei toimitusprosessia, sinun tulee käyttää **Varastopoiminta**-sivua poiminnan tietojen järjestämisessä ja tulostamisessa. Voit käyttää sivua myös poiminnan tuloksen syöttämisessä ja kirjaamisessa. Tämä kirjaa nimikkeiden kulutuksen. 
+> 
+> Jos sijainti on määritetty edellyttämään sekä poiminta- että toimituskäsittelyä eli olet valinnut sekä **Vaadi poiminta**- ja **Vaadi toimitus** -kohdan **Sijaintikortti**-sivulla, voit käsitellä poiminnan **F. varaston poiminta** -sivulla. Fyysisen varaston poiminnat ovat samanlaisia kuin varaston poiminnat. Erona on, että poiminnan tietojen kirjaamisen sijaan poiminta rekisteröidään. Tämä rekisteröinti ei kirjaa kulutusta, vaan se vain määrittää nimikkeet saataville kirjaamista varten. Varastopäällikkönä voit järjestää poimintatiedot poimintatyökirjan avulla ennen yksittäisten fyysisen varastoinnin poimintaohjeiden luontia
 
 
 ## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Projektitapahtuman suunnittelurivien tarkasteleminen

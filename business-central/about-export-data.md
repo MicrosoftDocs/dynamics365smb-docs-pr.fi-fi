@@ -7,34 +7,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.search.form: 9901, 9018, 9020, 9022, 9027
+ms.search.form: 9901
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 912309636020923e522ea3060abf814c179dcbb1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 02493bee3940bf1416c2485b0b45016edbca9baa
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521382"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655174"
 ---
-# <a name="exporting-your-business-data-to-excel"></a>Liiketoimintatietojen vienti Exceliin
-Jos haluat käsitellä [!INCLUDE[prod_short](includes/prod_short.md)]in tietoja Excelissä, voit avata kaikki luettelot Excelissä ja käsitellä niitä siellä. Jos haluat vastaavasti peruuttaa [!INCLUDE[prod_short](includes/prod_short.md)]in tilauksen, voit viedä tiedot Exceliin, jotta ne ovat edelleen käytettävissä.
+# <a name="export-your-business-data-to-excel"></a>Liiketoimintatietojen vieminen Exceliin
+
+Excel on tehokas työkalu tietojen käsittelyyn. [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman sisältä voit avata minkä tahansa luettelon Excelissä. Voit myös muokata tietoja Excelissä ja lähettää tiedot takaisin [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaan. Saman ominaisuuden ansiosta sinun on helppo ottaa tiedot mukaan, jos päätät peruuttaa tilauksesi.
 
 ## <a name="opening-lists-in-excel"></a>Luetteloiden avaaminen Excelissä
+
 Voit avata minkä tahansa päiväkirjan, luettelon tai työkirjan tiedot Excelissä. Avaa haluamasi sivu ja valitse sitten **Avaa Excelissä**. Voit esimerkiksi avata asiakasluettelon (hae **Asiakkaat**) ja valitse sitten **Avaa Excelissä**. Selain pyytää sinua avaamaan tai tallentamaan luodun Excel-työkirjan.  
 
 > [!NOTE]
 > Käytä tätä vaihtoehtoa, jos et halua tehdä muutoksia ja julkaista niitä takaisin [!INCLUDE[prod_short](includes/prod_short.md)]iin.  
 
-Jokaisessa luettelossa tietty määrä sarakkeita, ja Exceliin viedään kaikki nykyisessä näkymässä olevat sarakkeet. Jos haluat lisätä tai poistaa sarakkeita ennen luettelon avaamista Excelissä, sinun tarvitsee vain avata jonkin sarakkeen pikavalikko ja määrittää, mitkä sarakkeet haluat nähdä. Sarakeluettelo vaihtelee luettelon mukaan, ja se vastaa sen tietokannan rakennetta, johon tiedot on tallennettu. Jos et ole varma, minkä tyyppistä tietoa tietyssä sarakkeessa on, voit lisätä sen näkymään ja päättää sitten, haluatko poistaa sen uudelleen.  
+Jokaisessa luettelossa on joitakin sarakkeita. Exceliin vieminen sisältää kaikki avoinna olevan näkymän sarakkeet. Muuta sarakkeita avaamalla minkä tahansa sarakkeen pikavalikko ja määrittämällä näytettävät sarakkeet. Sarakeluettelo on erilainen useimmissa luetteloissa. Sarakkeet vastaavat tietokannan rakennetta, johon tiedot tallennetaan. Jos et ole varma, minkä tyyppistä tietoa tietty sarake sisältää, lisää se näkymään. Voit poistaa sen aina uudelleen.  
 
 ### <a name="edit-data-in-excel"></a>Muokkaa tietoja Excelissä
+
 Oma [!INCLUDE[prod_short](includes/prod_short.md)] sisältää laajennuksen Exceliin niin, että Excel-tietoja voidaan muokata. Lisätietoja on kohdassa [Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md).  
 
 ## <a name="exporting-data-to-other-finance-systems"></a>Tietojen vienti muihin rahoitusjärjestelmiin
+
 Jos päätät peruuttaa [!INCLUDE[prod_short](includes/prod_short.md)]in tilauksen, voit viedä tiedot Exceliin ja viedä ne sitten seuraavaa rahoitusjärjestelmään.  
 
-Voit tietenkin viedä kaikki sivut, mutta et kuitenkaan välttämättä tarvitse niitä kaikkia. Kannattaakin harkita vain seuraavien keskeisten sivujen vientiä. Muista myös lisätä kaikki sarakkeet edellä kuvatulla tavalla.  
+Voit viedä kaikki sivut, mutta et kuitenkaan välttämättä tarvitse niitä kaikkia. Kannattaakin harkita vain seuraavien keskeisten sivujen vientiä. Muista myös lisätä kaikki sarakkeet edellä kuvatulla tavalla.  
 
 * Tilikartta  
 * Asiakkaat  
@@ -68,8 +72,9 @@ Myös seuraavien sivujen tietojen vienti on suositeltavaa:
 
 > [!NOTE]
 > Tietojen avaaminen tai muokkaaminen Excelissä edellyttää vähintään yhtä seuraavista käyttöoikeuksista:
->    - käyttöoikeuksien joukko *D365 Excelin vientitoiminto*  
->    - Järjestelmän käyttöoikeus 6110 *Salli toiminnon vieminen Exceliin*.  
+>
+> * käyttöoikeuksien joukko *D365 Excelin vientitoiminto*  
+> * Järjestelmän käyttöoikeus 6110 *Salli toiminnon vieminen Exceliin*.  
 
 Lisätietoja on kohdassa [Käyttäjän käyttöoikeuksien yleiskatsauksen hankkiminen](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 

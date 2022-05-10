@@ -7,21 +7,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bef90a9dab30391f310458cb0dde58cc4fac5268
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 40acd79a66452b99d3b6990f05ccfa5e5d3d326e
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519353"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654966"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Uusien yritysten luominen [!INCLUDE[prod_short](includes/prod_short.md)]issa
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in liiketoimintayksikölle tai yritykselle kuuluvaa liiketoimintatietojen säilöä kutsutaan *yritykseksi*. Kun rekisteröidyt [!INCLUDE[prod_short](includes/prod_short.md)]iin, saat käyttöösi esimerkkiyrityksen ja tyhjän yrityksen, jonka nimi on *Oma yritys*. Yritysten välillä siirtyminen on helppoa: valitse vain **Omat asetukset** ja siirry toiseen yritykseen. Voit myös luoda uusia yrityksiä [!INCLUDE[prod_short](includes/prod_short.md)]issa yrityksen tarpeiden mukaan.  
 
 Kun luot uuden yrityksen, asetusten ohjattu määritysopas auttaa varmistamaan, että perustoiminnot ovat kohdallaan. Voit tuoda tämän jälkeen tarvittavat tiedot vanhasta järjestelmästä tai toisesta [!INCLUDE[prod_short](includes/prod_short.md)]in yrityksestä.  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="choose-the-right-template"></a>Valitse oikea malli
 
@@ -54,9 +56,9 @@ Jos haluat, että uuden yrityksen käytön aloittaminen on helppoa, valitse **Tu
 
 Kun kirjaudut uuteen yritykseen, ohjattu **Yrityksen asennus** -toiminto suoritetaan automaattisesti, mikä helpottaa aloittamista. Sinulta kysytään yritystä koskevia tietoja, kuten osoite, pankkitiedot ja varaston arvostusmenetelmä. Nämä tiedot kysytään, koska ne ovat perustietoja monilla [!INCLUDE[prod_short](includes/prod_short.md)]in alueilla ja tällä tavoin niitä ei tarvitse määrittää myöhemmin manuaalisesti.  
 
-Esimerkiksi yrityksen osoitetta käytetään laskuissa ja muissa asiakirjoissa, pankkitietoja käytetään maksuissa ja arvostusmenetelmän avulla lasketaan varaston arvostuksen lisäksi myös hintoja.  
+[!INCLUDE [prod_short](includes/prod_short.md)] sisältää esimerkiksi yrityksen osoitteen laskuissa ja muissa asiakirjoissa sekä pankkitiedot maksuissa. Arvostusmenetelmää käytetään hintojen ja varaston arvostuksen laskemiseen.  
 
-Kun perustiedot on annettu, voi määrittää loput keskeiset alueet. Sen jälkeen voi aloittaa liiketoimintatietojen, kuten asiakkaiden ja toimittajien, lisäämisen. Lisätietoja on ohjeaiheessa [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md).  
+Kun perustiedot on annettu, voi määrittää loput keskeiset alueet. Sen jälkeen voi aloittaa liiketoimintatietojen, kuten asiakkaiden ja toimittajien, lisäämisen. Lisätietoja on kohdassa [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman määrittäminen](setup.md).  
 
 ## <a name="companies-and-environments"></a>Yritykset ja ympäristöt
 

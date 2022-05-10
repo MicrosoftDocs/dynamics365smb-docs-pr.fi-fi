@@ -7,19 +7,21 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e494307c5301549f2adaa15737e1f944d284bbf6
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e413f75356af244dafe7e887207db370b942db7b
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514224"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654889"
 ---
 # <a name="business-functionality"></a>Liiketoiminnan toiminnallisuus
 
 [!INCLUDE[prod_short](includes/prod_short.md)]issa on lähinnä tukkukauppa- ja palvelualalla toimivien PK-yritysten tavallisissa liiketoimintaprosesseissa tarvitsemat toiminnot. Tämän lisäksi tuetaan myös monimutkaisia prosesseja, kuten kokoonpanoa, tuotantoa, huoltoa ja ohjattua varastoinninhallintaa. [Tutustu tästä siihen, miten saat ilmaisen kokeiluversion](trial-signup.md).  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset omaa liiketoimintaasi vastaavaksi. Roolisivulla on avustettuja asennusoppaita, joiden avulla voit määrittää tiettyjä skenaarioita sekä lisätä ominaisuuksia [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan. Useat liiketoiminnan toiminnallisuusalueet on määritettävä manuaalisesti. [Business Centralin pika-aloituksen](quick-start-business-central.md) artikkelien avulla voit ottaa ensimmäiset askelet [!INCLUDE [prod_short](includes/prod_short.md)]in käyttöönotossa. Lisätietoja on ohjeaiheessa [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md).
 

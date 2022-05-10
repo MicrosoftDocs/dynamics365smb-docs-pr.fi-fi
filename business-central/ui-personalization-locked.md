@@ -1,21 +1,21 @@
 ---
-title: Syitä, miksi sivun mukauttaminen ei onnistu
-description: Lisätietoja syistä, miksi sivua ei voi mukauttaa ja miten sivun lukituksen voi avata mukauttamista varten.
+title: Sivun mukauttamisen estäminen lukitsemalla
+description: Sivun mukauttaminen on ehkä estetty. Lue tästä, miten voit poistaa lukituksen niin, että voit muokata sitä.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dd94d467961cf4f01fdffa35241d84371be64527
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 503ff89fd1e1c5c40b55929f80ce390d1a5fc307
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335316"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655434"
 ---
 # <a name="why-a-page-is-locked-from-personalization"></a>Sivun mukauttamisen estäminen lukitsemalla
 
@@ -34,17 +34,14 @@ Syitä voi olla kaksi:
 
 1. Olet mukauttanut sivua aiemmin, mutta silloin käytössä oli tuotteen aikaisempi versio. Mukautuksen taustatoimintoja on muutettu sen jälkeen, kun sivua on edellisen kerran mukautettu. Valitettavasti vanhaa ja uutta toimintatapaa ei voi käyttää yhtä aikaa.
 
-2. Tähän saakka olet mukauttanut sivua vain [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)]illa.
+2. Tähän saakka olet mukauttanut sivua vain vanhentuneella [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] -ohjelmalla.
 
 ### <a name="unlocking-the-page"></a>Sivun lukituksen poistaminen
 
 Jos haluat poistaa sivun lukituksen ja jatkaa sen mukauttamista, valitse ensin ![Mukautuksen lukitus](media/personalization-lock-icon.png "Mukautuksen lukitus") -kuvake ja valitse sitten **Poista lukitus** -toiminto.  
 
-Ota kuitenkin seuraavat huomioon ennen sivun lukituksen poistamista:
-
-- Sivun nykyiset mukautukset poistetaan. Sivu voi palautua alkuperäiseen asetteluun ja sinun on aloitettava alusta.
-
-- Sivu säilyy [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)]issa nykyisellään eivätkä Business Central -asiakasohjelmassa tehdyt uudet mukautusmuutokset vaikuta siihen. Jatkossa [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)]in ja Business Central -asiakasohjelman mukauttaminen on erotettu täysin toisistaan.
+> [!CAUTION]
+> Sivun nykyiset mukautukset poistetaan. Sivu voi palautua alkuperäiseen asetteluun ja sinun on aloitettava alusta.  
 
 ## <a name="blocked-from-personalizing"></a>Mukauttaminen estetty
 
@@ -55,6 +52,7 @@ Jos ![Mukautuksen esto](media/personalization-blocked-icon.png "Mukauttaminen es
 Syynä on se, että käyttäjätiliin tällä hetkellä liitetty roolikeskus tai rooli muokkaa tätä sivua roolin mukaisesti. Pyydä apua järjestelmänvalvojalta. Vaihtoehtoisesti voit yrittää siirtyä roolikeskukseen, jossa on tämän sivun roolimukautus. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).
 
 ## <a name="see-also"></a>Katso myös
+
 [Työtilan mukauttaminen](ui-personalization-user.md)  
 [Profiilien sivujen mukauttaminen](ui-personalization-manage.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  

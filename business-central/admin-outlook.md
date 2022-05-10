@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
-ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
-ms.date: 08/13/2021
+ms.search.form: 1831, 1832
+ms.date: 04/27/2022
 ms.author: jswymer
-ms.openlocfilehash: 619d815fa9697671be9d1db9b7975c2ab7d93920
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a2c0754aed38d80fc4a088ab7dccec81cb0141e0
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518335"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654912"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Business Central -apuohjelman hankkiminen Outlookiin
 
@@ -42,6 +42,9 @@ Outlookin Business Central -apuohjelma koostuu kahdesta pienemmästä apuohjelmi
 Lisätietoja apuohjelmien käytöstä on kohdassa [Business Centralin käyttäminen yrityksen liiketoimintakansiona Outlookissa](work-outlook-addin.md).
 
 Jokainen apuohjelma toimitetaan XML-tiedostona eli *luettelotiedostona*, joka on asennettava kaikkien niiden henkilöiden Outlookiin, jotka haluavat tämän toiminnon. Näissä tiedostoissa kuvataan, miten apuohjelmat aktivoidaan ja yhdistetään Business Centraliin, kun niitä käytetään Outlookissa. Näiden tiedostojen käsitteleminen tapahtuu tavallisesti ylläpitäjän toimesta. Tavallisena käyttäjänä sinun ei useimmiten tarvitse käsitellä näitä tiedostoja suoraan. Joko järjestelmänvalvoja määrittää apuohjelman asennettavaksi automaattisesti puolestasi tai voit käyttää sisäänrakennettua avustettua määritystä asennuksen käsittelemiseen.
+
+> [!IMPORTANT]
+> Useiden ympäristöjen käsitteleminen Outlookin Business Central -apuohjelma on suunniteltu toimimaan yhdessä Business Central -ympäristössä. Kun apuohjelma on asennettu, ympäristön nimi sisällytetään apuohjelman kokoonpanotietoihin. Tämä määritys tarkoittaa, että apuohjelma muodostaa yhteyden vain ympäristöön, josta se asennettiin. Jos haluat käyttää apuohjelmaa eri ympäristössä, avaa ympäristö ja asenna apuohjelma uudelleen.
 
 ## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Apuohjelman käyttöönottaminen keskitetyn käyttöönoton avulla järjestelmänvalvojana
 

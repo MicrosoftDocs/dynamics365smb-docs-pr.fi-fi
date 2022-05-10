@@ -7,26 +7,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 010d130801dd68023eca4c3b65d716fa3ddcc8e8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b3e68fcd3eb33ee0885ae3ae5b0bee46017ed409
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518859"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655096"
 ---
 # <a name="work-with-calendar-dates-and-times"></a>Kalenterin päivämäärien ja aikojen käsitteleminen
 
-[!INCLUDE[prod_short](includes/prod_long.md)] sisältää useita tapoja päivämäärien ja aikojen syöttämiseen sekä tehokkaita toimintoja, jotka nopeuttavat tietojen syöttämistä ja helpottavat monimutkaisten kalenterilausekkeiden kirjoittamista. Sovelluksessa on useita kohtia, joissa voi syöttää päivämääriä ja aikoja kenttiin. Esimerkiksi myyntitilauksessa voi määrittää lähetyspäivämäärän. Voit syöttää päivämäärät ja ajat luetteloiden tai raportin tietojen suodattamisen yhteydessä ja etsiä vain tiedot, joista olet kiinnostunut.
+Päivämäärät ja -ajat voi syöttää usealla eri tavalla. [!INCLUDE[prod_short](includes/prod_long.md)] sisältää tehokkaita toimintoja, jotka nopeuttavat tietojen syöttämistä ja helpottavat monimutkaisten kalenterilausekkeiden kirjoittamista. Sovelluksessa on useita kohtia, joissa voi syöttää päivämääriä ja aikoja kenttiin. Esimerkiksi myyntitilauksessa voi määrittää lähetyspäivämäärän. Voit syöttää päivämäärät ja ajat luetteloiden tai raportin tietojen suodattamisen yhteydessä ja etsiä vain tiedot, joista olet kiinnostunut.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="check-your-region-and-language-settings"></a>Alueen ja kielen asetusten tarkistaminen
+
 **Omat asetukset** -sivulla määritetään sovelluksessa käytettävä **alue** ja **kieli**. Nämä asetukset vaikuttavat päivämäärien ja aikojen syöttötapaan.
 
--   **Alue**-asetus määrittää, miten päivämäärät, ajat, luvut ja valuutat näkyvät tai miten ne on muotoiltu.
+- **Alue**-asetus määrittää, miten päivämäärät, ajat, luvut ja valuutat näkyvät tai miten ne on muotoiltu.
 
--   Jos päivämäärämallit sisältävät sanoja, sanojen kielen on oltava **Kieli**-asetuksessa määritetty kieli.
+- Jos päivämäärämallit sisältävät sanoja, sanojen kielen on oltava **Kieli**-asetuksessa määritetty kieli.
 
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_long.md)] käyttää gregoriaanista kalenterijärjestelmää.
@@ -37,9 +40,13 @@ The following sections describe how you can enter dates, times, datetimes, durat
 
 ## <a name="entering-dates"></a>Päivämäärien syöttäminen
 
-Voit syöttää päivämääräkenttään päivämäärän alueasetuksen vakiomuodossa. Eri alueilla voidaan käyttää päivien, kuukausien ja vuosien välillä erilaisia erottimia. Esimerkiksi joillakin alueilla käytetään ajatusviivoja (kk-pp-vvvv) ja toisilla alueilla vinoviivoja (kk/pp/vvvv). Voit kuitenkin käyttää mitä tahansa erottimia, jopa välilyöntiä. Päivämäärää muutetaan automaattisesti niin, että se sisältää aluettasi vastaavat erottimet.
+Voit syöttää päivämääräkenttään päivämäärän alueasetuksen vakiomuodossa. Eri alueilla voidaan käyttää päivien, kuukausien ja vuosien välillä erilaisia erottimia. Esimerkiksi joillakin alueilla käytetään ajatusviivoja (kk-pp-vvvv) ja toisilla alueilla vinoviivoja (kk/pp/vvvv).  
 
-Huomaa, että oma alueasetuksesi ei vaikuta päivämäärän näyttömuotoon tulostetuissa raporteissa ja sähköpostitse lähetetyissä asiakirjoissa.
+> [!TIP]
+> Voit käyttää mitä tahansa erottimia, jopa välilyöntiä. Päivämäärää muutetaan automaattisesti niin, että se sisältää aluettasi vastaavat erottimet.
+
+> [!NOTE]
+> Oma alueasetuksesi ei vaikuta päivämäärän näyttömuotoon tulostetuissa raporteissa ja sähköpostitse lähetetyissä asiakirjoissa.
 
 Seuraavissa osissa esiteltyjen menetelmien ja muotojen avulla voit käyttää päivämääriä ja aikoja tuottavammin.
 
@@ -55,7 +62,7 @@ Katso myös [Kalenterin päivämäärän valitsimen pikanäppäimet](keyboard-sh
 
 Voit syöttää päivämäärän viikonpäivänä, jonka jälkeen tulee viikon numero ja halutessasi vuosi. Esimerkiksi Ma25 tai ma25 tarkoittaa viikon 25 maanantaita. Jos et syötä vuotta, käytetään käsittelypäivämäärän vuotta.
 
-Sen sijaan, että syötät koko sanan viikonpäivää varten, voit syöttää sanan alkuosan. Ristiriitatilanteissa, esimerkiksi kun s voi tarkoittaa sekä lauantaita (Saturday) tai sunnuntaita (Sunday), päivät arvioidaan alueasetuksen mukaan. Syöte arvioidaan ensin käsittelypäivämäärä- ja tänään-määritteiden avulla. Pidä tämä mielessä, kun lyhennät sanoja. Esimerkiksi t merkitsee jo tämän päivän päivämäärää, joten se ei voi tarkoittaa tiistaita tai torstaita.
+Sen sijaan, että syötät koko sanan viikonpäivää varten, voit syöttää sanan alkuosan. Ristiriitatilanteissa, esimerkiksi kun s voi tarkoittaa sekä lauantaita (Saturday) tai sunnuntaita (Sunday), päivät arvioidaan alueasetuksen mukaan. Syöte arvioidaan ensin käsittelypäivämäärä- ja tänään-määritteiden avulla. Pidä tämä mielessä, kun lyhennät sanoja. Esimerkiksi _t_ merkitsee jo tämän päivän päivämäärää, joten se ei voi tarkoittaa tiistaita tai torstaita.
 
 Viikon numeromalli on aina ISO 8601, jossa viikko 1 on viikko, joka sisältää tammikuun 4. päivän tai vuoden ensimmäisen torstain.
 
@@ -78,11 +85,11 @@ Syötä sana _today_ **Omat asetukset** -sivulla määritetyllä kielellä mää
 
 ### <a name="period"></a>Jakso
 
-Voit suodattaa tietyn kirjanpitojakson antamalla päivämääräkentässä kirjaimen j tai sanan jakso ja lisäämällä sen perään luvun, joka yksilöi kirjanpitojakson, kuten j2 tai jakso4. Kirjapitojakso liittyy roolikeskuksessa määritetyn kuluvan käsittelypäivän tilikauteen. Jos esimerkiksi käsittelypäivämäärä on **21.3.22**, j1 tai vain j suodattaa tilikauden 2022 ensimmäisen kirjanpitojakson (kuten 1.1.2022–31.1.2022). j15 suodattaa 15:nnen kirjanpitojakson tilikauden 2022 alusta (kuten 1.3.2023–31.3.2023).
+Voit suodattaa tietyn kirjanpitojakson antamalla päivämääräkentässä kirjaimen j tai sanan jakso ja lisäämällä sen perään luvun, joka yksilöi kirjanpitojakson, kuten j2 tai jakso4. Kirjapitojakso liittyy roolikeskuksessa määritetyn kuluvan käsittelypäivän tilikauteen. Jos esimerkiksi käsittelypäivämäärä on **21.3.22**, _j1_ tai vain _j_ suodattaa tilikauden 2022 ensimmäisen kirjanpitojakson (kuten 1.1.2022–31.1.2022). _j15_ suodattaa 15:nnen kirjanpitojakson tilikauden 2022 alusta (kuten 1.3.2023–31.3.2023).
 
 Kirjanpitojaksot määritetään **Kirjanpitojaksot**-sivulla. Voit tarkastella tai muuttaa kirjanpitojaksoja avaamalla sivun [täällä](https://businesscentral.dynamics.com/?page=100).
 
-### <a name="work-date"></a>Käsittelypäivämäärä
+### <a name="work-date"></a>Käsittelypvm
 
 Käytä käsittelypäivämäärää määrittääksesi päivämäärän, joka ei ole tietueissa tämä päivämäärä. Käsittelypäivämäärästä on hyötyä esimerkiksi tilanteessa, jossa useille tietueille on asetettava tietty päivämäärä. Käsittelypäivämäärä määritetään **Omat asetukset** -sivulla. 
 
@@ -94,7 +101,7 @@ Jos et ole määrittänyt käsittelypäivämäärää, käytetään tämän päi
 
 Kun suljet tilikauden, voit käyttää sulkemispäivämääriä osoittaaksesi, että tapahtuma on tilinpäätöstapahtuma. Sulkemispäivämäärä sijoittuu teknisesti kahden päivämäärän väliin, esimerkiksi joulukuun 31. päivän ja tammikuun 1. päivän väliin.
 
-Jos haluat määrittää, että päivämäärä on sulkemispäivämäärä, kirjoita N päivämäärän edelle , esimerkiksi N31.12.01. Tätä voidaan käyttää kaikkien päivämäärämallien kanssa.
+Jos haluat määrittää, että päivämäärä on sulkemispäivämäärä, kirjoita N päivämäärän edelle , esimerkiksi N31.12.01. Käytä tätä muotoa kaikkien päivämäärämallien kanssa.
 
 ### <a name="examples"></a>Esimerkkejä
 
@@ -134,18 +141,19 @@ Luetteloissa, kokonaissummissa ja raporteissa voi määrittää suodattimia päi
 Voit käyttää päivämääräalueiden suodattimissa mitä tahansa sallittua muotoa. Jos esimerkiksi päivämäärän ja ajan kentässä käytetään arvoa ma14 3..t 4j, tuloksena on suodatin, joka käsittää aikavälin kuluvan käsittelypäivämäärän vuoden viikon 14 maanantaista kello 3:00 kuluvaan päivään kello 16:00 kyseiset ajankohdat mukaan lukien.
 
 ## <a name="use-date-formulas"></a>Päivämääräkaavojen käyttäminen
+
 Päivämäärän kaava on lyhyt kirjain- ja numeroyhdistelmä, joka kertoo ohjelmalle, miten päivämäärät lasketaan. Voit syöttää päivämääräkaavat erilaisiin päivämäärien laskentakenttiin ja suodattimiin.
 
 > [!NOTE]
->  Kaikissa tietokaavakentissä yksi päivä sisällytetään automaattisesti edustamaan kuluvaa päivää kauden alkupäivänä. Jos siis syötät arvoksi esimerkiksi 1K, kausi on kahdeksan päivää, koska tämä päivä lasketaan mukaan. Määritä seitsemän päivän kausi \(yksi kokonainen viikko\) sisältäen alkamispäivämäärän ja syötä sitten 6P tai 1K-1P.
+> Kaikissa tietokaavakentissä yksi päivä sisällytetään automaattisesti edustamaan kuluvaa päivää kauden alkupäivänä. Jos siis syötät arvoksi esimerkiksi 1K, kausi on kahdeksan päivää, koska tämä päivä lasketaan mukaan. Määritä seitsemän päivän kausi \(yksi kokonainen viikko\) sisältäen alkamispäivämäärän ja syötä sitten 6P tai 1K-1P.
 
 Seuraavassa on joitakin esimerkkejä päivämäärän kaavojen käytöstä:
 
--   Toistuvien päiväkirjojen toistotiheys-kentän päivämäärän kaava määrittää, kuinka usein päiväkirjan rivin tapahtuma kirjataan.
+- Toistuvien päiväkirjojen toistotiheys-kentän päivämäärän kaava määrittää, kuinka usein päiväkirjan rivin tapahtuma kirjataan.
 
--   **Ylityskausi**-kentän tietyn tason muistutusta koskeva päivämäärän kaava määrittelee ajanjakson, joka täytyy kulua eräpäivästä \(tai edellisen muistutuksen päivämäärästä\), ennen kuin muistutus voidaan luoda.
+- **Ylityskausi**-kentän tietyn tason muistutusta koskeva päivämäärän kaava määrittelee ajanjakson, joka täytyy kulua eräpäivästä \(tai edellisen muistutuksen päivämäärästä\), ennen kuin muistutus voidaan luoda.
 
--   **Eräpäivän laskenta** -kentän kaava määrittää, miten ohjelma laskee muistutuksen eräpäivän.
+- **Eräpäivän laskenta** -kentän kaava määrittää, miten ohjelma laskee muistutuksen eräpäivän.
 
 Päivämäärän kaavassa voi olla enintään 20 merkkiä, sekä numeroita että kirjaimia. Voit käyttää seuraavia kirjaimia, jotka ovat kalenteriyksiköiden lyhenteitä:
 
@@ -223,15 +231,15 @@ Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
->  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, for example, if you enter **1W**, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter **6D** or **1W\-1D**.
+> In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, for example, if you enter **1W**, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter **6D** or **1W\-1D**.
 
 Here are some examples of how date formulas can be used:
 
--   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.
+- The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.
 
--   The date formula in the **Grace Period** field for a specified reminder level determines the period of time that must pass from the due date (or from the due date of the previous reminder) before a reminder will be created.
+- The date formula in the **Grace Period** field for a specified reminder level determines the period of time that must pass from the due date (or from the due date of the previous reminder) before a reminder will be created.
 
--   The date formula in the **Due Date Calculation** field determines how to calculate the due date on the reminder.
+- The date formula in the **Due Date Calculation** field determines how to calculate the due date on the reminder.
 
 The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.
 
@@ -280,12 +288,13 @@ The following example shows how you can use a minus sign to indicate a date in t
 |-1Y|1 year ago from today|
 
 > [!IMPORTANT]
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, **1W**  means seven working days.
+> If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, **1W**  means seven working days.
 
 -->
 
 ## <a name="entering-times"></a>Aikojen syöttäminen
-Kun syötät ajat, voit lisätä yksiköiden välille minkä tahansa erottimen, joka ei ole välilyönti. Jos kuitenkin käytät kahta lukua millisekunteihin asti, erotin ei ole pakollinen.
+
+Kun syötät aikoja, voit lisätä minkä tahansa erotinmerkin, paitsi välilyönnin yksiköiden väliin. Jos käytät kullekin yksikölle kaksinumeroisia merkkejä aina millisekunteihin saakka, sitä ei edellytetä.
 
 Sinun on vain kirjoitettava suurimmat vaaditut yksiköt. Muiden arvoksi määritetään nolla. Voit myös jättää mahdollisen AM/PM-osoittimen pois.
 
@@ -304,13 +313,15 @@ Seuraavassa taulukossa on luettelo eri tavoista, joilla aikoja voi syöttää ja
 |5:30|05:30:00|
 |0530|05:30:00|
 |5:30:5 |05:30:05|
-|053005|05:30:05|
+|053005 |05:30:05|
 |5:30:5,50|05:30:05.5|
-|053005050|05:30:05.05|
+|053005050 |05:30:05.05 |
 
-Ota huomioon, että millisekunnit tulkitaan desimaalimuodoksi. Esimerkiksi 3, 30 ja 300 merkitsevät 300 millisekuntia, kun taas 03 tarkoittaa 30 ja 003 tarkoittaa 3 millisekuntia.
+> [!NOTE]
+> Millisekunnit tulkitaan desimaalimuodoksi. Esimerkiksi 3, 30 ja 300 merkitsevät 300 millisekuntia, kun taas 03 tarkoittaa 30 ja 003 tarkoittaa 3 millisekuntia.
 
-Et voi käyttää arvoa 24:00, jos tarkoitat keskiyötä, etkä mitään arvoa, joka on suurempi kuin 24:00.
+> [!IMPORTANT]
+> Et voi käyttää arvoa 24:00, jos tarkoitat keskiyötä, etkä mitään arvoa, joka on suurempi kuin 24:00.
 
 Aika-sana [!INCLUDE[prod_short](includes/prod_long.md)] -sovelluksen käyttämällä kielellä arvioidaan tietokoneen tai mobiililaitteen nykyiseksi ajaksi. Voit syöttää sanan minkä tahansa alkuosan, kuten a tai AIK.
 
@@ -334,11 +345,12 @@ Seuraavassa on muutamia esimerkkejä:
 
 Voit syöttää myös numeron, jonka ohjelma muuntaa automaattisesti kestoksi. Syöttämäsi numero muunnetaan kestokenttään määritellyn oletusmittayksikön mukaisesti.
 
-Voit tarkastaa, mitä mittayksikköä kestokentässä käytetään, syöttämällä numeron ja katsomalla, mihin mittayksikköön ohjelma muuntaa sen.
+Jos haluat nähdä, mitä mittayksikköä kesto-kentässä käytetään, syötä numero. Sen jälkeen voit nähdä, mihin mittayksikköön se on muunnettu.
 
 Jos mittayksikkö on esimerkiksi Tunnit, numero 5 muunnetaan 5 tunniksi.
 
 ## <a name="see-also"></a>Katso myös
+
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Ostojen päivämäärälaskenta](purchasing-date-calculation-for-purchases.md)  
 [Ehtojen antaminen suodattimiin](ui-enter-criteria-filters.md)  

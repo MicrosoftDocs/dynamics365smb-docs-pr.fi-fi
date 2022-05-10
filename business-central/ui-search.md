@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
-ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c8f75b9f2d5be0a7916996362518bb5d49762484
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e1cbfea9a95d45fe78f0ef83ca2545b9a86a7645
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512047"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655746"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla  
 Tässä ohjeaiheessa käsitellään, miten Kerro, mitä haluat tehdä -toiminnolla voi siirtyä nopeasti esimerkiksi toimintoihin tai raportteihin, etsiä tietoja tietyn tehtävän suorittamisesta sekä löytää muita [!INCLUDE[prod_short](includes/prod_short.md)]in sovelluksia ja konsultointipalveluja.  
@@ -33,6 +33,8 @@ Oikealla oleva sarake osoittaa tuloksen yleisen luokan. Se voi ilmaista esimerki
 
 > [!NOTE]  
 >   Jos haluat käyttää näppäimistöä, voit valita kohteen tuloksista sarkain- ja nuolinäppäimillä. Jos painat Enter-näppäintä tulosta valitsematta, [!INCLUDE[prod_short](includes/prod_short.md)] avaa tuloksen, joka on luettelossa ensimmäisenä.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ### <a name="finding-an-action-on-the-current-page"></a>Toiminnon etsiminen nykyiseltä sivulta
 **Nykyisellä sivulla** -osassa voit etsiä avoinna olevasta sivusta ja suorittaa siinä toimintoja. Jos esimerkiksi **Myyntitarjous**-sivu on avoinna ja kirjoitat asiakas-sanan, osan sisältämä toiminto avaa myyntitarjouksessa valitun asiakkaan kortin.
