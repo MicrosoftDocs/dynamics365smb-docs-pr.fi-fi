@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ca22eaadb8ba4054ce22782881b487cab6bd5c4
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bc6530a17e98d36a3f26e68e6231306aebfdda1d
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521778"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729773"
 ---
 # <a name="make-drop-shipments"></a>Suoratoimitusten tekeminen
 
@@ -30,7 +30,10 @@ Kun myyntilaus on merkitty suoratoimitusta varten ja luot ostotilauksen, jossa a
 Voit valmistella suoratoimituksen luomalla nimikkeelle myyntitilauksen. Myyntirivillä tulee määrittää, että myynti vaatii suoratoimituksen.
 
 1. Luo nimikkeelle myyntitilaus. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).
-2. Valitse suoratoimituksen myyntitilauksen rivillä **Suoratoimitus**-valintaruutu. Käytä **Valitse sarakkeita** -toiminto, jos kenttä ei ole näkyvissä. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
+2. Valitse suoratoimituksen myyntitilauksen rivillä **Suoratoimitus**-valintaruutu. 
+
+> [!TIP]
+> Oletusarvon mukaan suoratoimitus-valintaruutu ei ole käytettävissä riveillä. Jos sitä ei ole, voit lisätä sen mukauttamalla rivit sisältävän sivun osan. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
 ## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Ostotilauksen luominen suoratoimitukselle
 
@@ -45,11 +48,15 @@ Voit valmistella suoran toimituksen määrittämällä ostotilaukseen, että se 
 
 Myyntitilauksen rivin tiedot lisätään ostotilauksen riville/riveille.
 
-Voit ohjeistaa toimittajaa toimittamaan nimikkeet asiakkaalle esimerkiksi lähettämällä ostotilauksen PDF-tiedostona. Jos toimittaja antaa seurantanumeron tai vastaavan tiedon, voit tallentaa kyseisen tiedon ostotilausriville tyyppiä *Kommentti*.  
+Voit nyt kehottaa myyjääsi lähettämään tuotteet suoraan asiakkaalle. Voit esimerkiksi lähettää tilauksen sähköpostitse. 
+
+Jos toimittajasi tarjoaa seurantanumeron tai vastaavia tietoja, voit lisätä nämä tiedot ostotilausriville, jonka tyyppi on *Kommentti*.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Useiden ostotilausten luominen suoratoimituksille
 
-Voit myös käyttää hankintatyökirjaa luodaksesi ostotilauksen toimittajalle. Hankintatyökirjan käyttämisen etuna on se, että se voi luoda ostotilauksia kaikille avoimille suoratoimituksille, joten sinun ei tarvitse luoda jokaista erikseen.
+Voit myös käyttää hankintatyökirjaa luodaksesi ostotilauksen toimittajalle. 
+
+Hankintatyökirjan käyttämisen etuna on se, että se voi luoda ostotilauksia kaikille avoimille suoratoimituksille. Tämä tarkoittaa sitä, sinun ei tarvitse luoda jokaista erikseen.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hankintalistat** ja valitse sitten liittyvä linkki.
 2. Valitse **Suoratoimitukset**-toiminto ja valitse sitten **Hae myyntitilaus** -toiminto.

@@ -1,34 +1,46 @@
 ---
 title: Työnkulut Dynamic 365 Business Centralissa
-description: Käytä työnkulkuja, jotta voit yhdistää eri käyttäjien suorittamia liiketoimintaprosessin tehtäviä. Järjestelmätehtäviä, kuten automaattinen kirjaus, voidaan sisällyttää työnkulun osavaiheiksi.
+description: Sisäisen työnkulun ominaisuuksien avulla voit määrittää hyväksyntätyönkulkuja, jotka täydentävät Power Automateen perustuvia automatisoituja työnkulkuja. Voit määrittää vaiheet, joiden avulla tehtäviä määritetään eri henkilöille osana liiketoimintaprosessien eri tehtäviä.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
+ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: 9cfdcc9bbf8e24675c6894b8ca2efbf10129d990
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 84d4a87a0edab18be342b9ed5732de0350a31645
+ms.sourcegitcommit: bc645e7ecb1940a85b2c433aa894d3494c9b10df
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511179"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "8743669"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Dynamics 365 Business Centralin työnkulut
 
 Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät eri käyttäjien suorittamista liiketoimintaprosessin tehtäviä. Järjestelmätehtäviä (kuten automaattinen kirjaus) voidaan sisällyttää työnkulkuihin, joita käyttäjän tehtävät edeltävät tai seuraavat. Uusien tietueiden luontiin liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.  
 
- Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan. Työnkulku määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita.  
+[!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman oletusversio tukee kolmentyyppisiä työnkulkuja:
 
- [!INCLUDE[prod_short](includes/prod_short.md)]in yleinen versio sisältää useita valmiiksi määritettyjä työnkulkuja ja työnkulkumalleja, joita kopioimalla voit luoda työnkulkuja. Työnkulkumallien koodit, jotka Microsoft on lisännyt, sisältävät etuliitteen "MS-". Lisätietoja on Työnkulkumallit-sivun työnkulkumallien luettelossa.  
+* Sisäisiin työnkulkumalleihin perustuvat automaattiset hyväksyntätyönkulut  
 
- Jos liiketoimintaskenaario edellyttää työnkulun tapahtumaa tai vastausta, joka ei ole tuettu, voit mukauttaa sovelluskoodia Power Automaten avulla tai tekemällä yhteistyöt Microsoft-kumppanin kanssa. Lisätietoja on kohdassa [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md).
+  **Työnkulkumallit**-sivulla näkyvät kaikki käytettävissä olevat työnkulut. [!INCLUDE[prod_short](includes/prod_short.md)]in kokeiluversio sisältää useita valmiiksi määritettyjä työnkulkuja ja työnkulkumalleja, joita kopioimalla voit luoda työnkulkuja. Kun avaat työnkulkumallin **Työnkulunmallit**-sivulta ja työnkulun nimi alkaa kirjaimilla *MS-*, Microsoft lisää työnkulkumallin.  
+* Itse määrittämäsi automaattiset työnkulut  
 
-Power Automatella luodut työnkulkumallit lisätään [!INCLUDE[prod_short](includes/prod_short.md)]in työkulkumalleihin. Lisätietoja on kohdassa [Business Centralin käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md).  
+  Power Automatella luodut työnkulkumallit lisätään [!INCLUDE[prod_short](includes/prod_short.md)]in työkulkumalleihin. Lisätietoja on kohdassa [Business Centralin käyttäminen Power Automate -työnkuluissa](across-how-use-financials-data-source-flow.md).  
+* Manuaalisesti käynnistetyt työnkulut **automaattisesta** toiminnosta (vain [!INCLUDE [prod_short](includes/prod_short.md)] onlinessa). Lisätietoja on kohdassa [Manuaaliset välittömät työnkulut](across-how-use-financials-data-source-flow.md#manual-instant-flows).  
 
- Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.  
+## <a name="power-automate-flows"></a>Power Automate -työnkulut
+
+[!INCLUDE [prod_short](includes/prod_short.md)] onlinessa voit rekisteröityä Power Automateen ja luoda sitten tehokkaita automatisoituja työnkulkuja, joita voit suorittaa [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman sisältä. Lisätietoja on kohdassa [Käytä [!INCLUDE[prod_short](includes/prod_short.md)] ohjelmaa Power Automate -työnkuluissa](across-how-use-financials-data-source-flow.md).  
+
+## <a name="automated-approval-workflows"></a>Automaattiset hyväksymistyönkulut
+
+Voit luoda hyväksymistyönkulun luettelemalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan. Työnkulku määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita.  
+
+Jos liiketoimintaskenaario edellyttää työnkulun tapahtumaa tai vastausta, jota oletus versio ei tue, rekisteröidy Power Automateen. Lisätietoja on kohdassa [Käytä [!INCLUDE[prod_short](includes/prod_short.md)] ohjelmaa Power Automate -työnkuluissa](across-how-use-financials-data-source-flow.md). Vaihtoehtoisesti voit hakea sovelluksen tai työskennellä Microsoft-kumppanien kanssa sovelluskoodin mukauttamiseksi.  
+
+Voit määrittää ja käyttää työnkulkuja, joita ei ole määritetty Power Automatessa tarkistamalla seuraavat artikkelit:  
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
@@ -41,6 +53,7 @@ Power Automatella luodut työnkulkumallit lisätään [!INCLUDE[prod_short](incl
 [Osto](purchasing-manage-purchasing.md)  
 [Projektien hallinta](projects-manage-projects.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
+[[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen käyttäminen Power Automate -työnkuluissa](across-how-use-financials-data-source-flow.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman automaattisten työnkulkujen vianmääritys](across-flow-troubleshoot.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

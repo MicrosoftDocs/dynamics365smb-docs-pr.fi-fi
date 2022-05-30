@@ -1,42 +1,46 @@
 ---
 title: Määritä hajautetut käyttöoikeudet
-description: Tässä ohjeaiheessa kuvataan, miten hajautetut käyttöoikeudet määritetään antamalla tietyille käyttäjille objektien käyttöoikeus ja määrittämällä niille käyttöoikeuksien joukkoja.
+description: Tässä artikkelissa kuvataan, kuinka määritellään yksityiskohtaiset käyttöoikeudet ja määritetään kullekin käyttäjälle käyttöoikeusjoukot, joita he tarvitsevat työnsä suorittamiseen.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.search.form: 1, 119, 8930, 9807, 9808, 9830, 9831
-ms.date: 03/24/2022
+ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831
+ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: ca0373fc55fb14d43dae9ce5bc51c0063c88a2af
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 26dbf7e47c0159429aebd34e9167d9c3e7490ec6
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522510"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729827"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Määritä käyttöoikeudet käyttäjille ja ryhmille
 
-Järjestelmänvalvojat käyttävät [!INCLUDE[prod_short](includes/prod_short.md)]-suojausjärjestelmää hallitsemaan sitä, mitä objekteja käyttäjä voi käyttää jokaisessa tietokannassa tai ympäristössä yhdessä määritettyjen käyttöoikeuksien kanssa. Voit määrittää jokaiselle käyttäjälle, voivatko he lukea, muokata tai syöttää tietoja valituissa tietokantaobjekteissa. Lisätietoja on [Tietosuoja](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level)-kohdassa [!INCLUDE[prod_short](includes/prod_short.md)]:n kehitys- ja hallintosisällössä.
+[!INCLUDE[prod_short](includes/prod_short.md)]-suojausjärjestelmä ohjaa, mitä objekteja käyttäjä voi käyttää kussakin tietokannassa tai ympäristössä yhdessä käyttäjän käyttöoikeuden kanssa. Voit määrittää jokaiselle käyttäjälle, voivatko he lukea, muokata tai syöttää tietoja valituissa tietokantaobjekteissa. Lisätietoja on [Tietosuoja](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level)-kohdassa [!INCLUDE[prod_short](includes/prod_short.md)]:n kehitys- ja hallintosisällössä.
 
-Ennen kuin määrität käyttöoikeuksia käyttäjille ja käyttäjäryhmille, sinun täytyy määrittää, ketkä voivat kirjautua sisään luomalla käyttäjiä Microsoft 365 -hallintakeskuksessa määritetyn käyttöoikeuden mukaisesti. Katso lisätietoja kohdasta [Luo käyttäjiä lisenssien mukaan](ui-how-users-permissions.md).
+Ennen kuin määrität käyttöoikeuksia käyttäjille ja käyttäjäryhmille, sinun täytyy määrittää, ketkä voivat kirjautua sisään luomalla käyttäjiä heidän käyttöoikeutensa mukaisesti. Katso lisätietoja kohdasta [Luo käyttäjiä lisenssien mukaan](ui-how-users-permissions.md).
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa tietokantaobjektien käyttöoikeustasoja on kaksi:
 
 - Käyttöoikeuden mukaiset yleiset käyttöoikeudet, joita kutsutaan myös oikeutuksisi.
 
   Käyttöoikeuksiin kuuluvat käyttöoikeuksien oletusjoukot. Vuoden 2022 julkaisuaallosta 1 alkaen järjestelmänvalvojat voivat mukauttaa näitä oletusoikeuksia asianmukaisille käyttöoikeustyypeille. Lisätietoja on kohdassa [Käyttöoikeuksien määrittäminen käyttöoikeuksien perusteella](ui-how-users-permissions.md#licensespermissions).  
+
 - Yksityiskohtaisemmat käyttöoikeudet, jotka on määritetty [!INCLUDE[prod_short](includes/prod_short.md)]:n sisältä.
 
   Tässä artikkelissa kuvataan, miten voit määrittää, käyttää ja hakea käyttöoikeuksia kohteessa [!INCLUDE [prod_short](includes/prod_short.md)] oletusmääritysten muuttamiseksi.  
+
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]  
+Lisätietoja hallintasisällössä: [Valtuutettu järjestelmänvalvojan käyttöoikeus Business Central Onlineen](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] online sisältää oletuskäyttäjäryhmät, jotka on määritetty käyttäjille automaattisesti käyttöoikeuden perusteella. Voit muuttaa oletusmäärityksiä muuttamalla tai lisäämällä käyttäjäryhmiä, käyttöoikeuksien joukkoja ja käyttöoikeuksia. Seuraavassa taulukossa on esitelty oletuskäyttöoikeuksien muokkaamiseen liittyvät keskeiset skenaariot.  
 
 |Tehtävä  |Katso  |
 |---------|---------|
-|Voit helpottaa useiden käyttäjien käyttöoikeuksien hallintaa järjestämällä ne käyttäjäryhmiin ja määrittämällä siten yhden toiminnon useille käyttäjille yhden käyttöoikeusjoukon tai muuttamaan sitä.| [Käyttöoikeuksien hallinta käyttäjäryhmien avulla](#to-manage-permissions-through-user-groups) |
+|Voit helpottaa useiden käyttäjien käyttöoikeuksien hallintaa järjestämällä ne käyttäjäryhmiin ja määrittämällä sitten yhden toiminnon useille käyttäjille yhden käyttöoikeusjoukon tai muuttamaan sitä.| [Käyttöoikeuksien hallinta käyttäjäryhmien avulla](#to-manage-permissions-through-user-groups) |
 |Käyttöoikeuksien joukkojen hallinta tiettyjen käyttäjien osalta | [Käyttöoikeusjoukkojen määrittäminen käyttäjälle](#to-assign-permission-sets-to-users) |
 |Lisätietoja käyttöoikeuksien joukon määrittämisestä|[Käyttöoikeusjoukon luominen tai muokkaaminen](#to-create-or-modify-a-permission-set)|
 |Tiettyjen käyttöoikeuksien hallinta|[Käyttöoikeuksien luominen tai muokkaaminen manuaalisesti](#to-create-or-modify-permissions-manually)|
@@ -54,7 +58,7 @@ Käyttäjäryhmät auttavat hallitsemaan koko yrityksen käyttöoikeuksien joukk
 
 Aloitat luomalla käyttäjäryhmän. Sen jälkeen voit määrittää ryhmälle käyttöoikeuksien ryhmiä, jotka määrittävät, mitä objektia ryhmän käyttäjät voivat käyttää. Kun lisäät käyttäjän ryhmään, ryhmälle määritetyt käyttöoikeusjoukot koskevat käyttäjää.
 
-Käyttäjäryhmän kautta käyttäjälle määritetyt käyttöoikeuksien joukot pysyvät synkronoituina, jotta käyttäjäryhmän käyttöoikeuksien muutokset välitetään käyttäjälle automaattisesti. Jos poistat käyttäjän käyttäjäryhmästä, asiaan liittyvät käyttöoikeudet peruutetaan automaattisesti.
+Käyttäjän käyttäjäryhmän kautta määritetyt käyttöoikeusjoukot pysyvät synkronoituina. Käyttäjäryhmän käyttöoikeuksiin lisätään muutos automaattisesti käyttäjille. Jos poistat käyttäjän käyttäjäryhmästä, asiaan liittyvät käyttöoikeudet peruutetaan automaattisesti.
 
 ### <a name="to-add-users-to-a-user-group"></a>Käyttäjien lisääminen käyttäjäryhmään
 
@@ -94,16 +98,16 @@ Seuraavassa kerrotaan, miten käyttöoikeuksien joukot määritetään käyttäj
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten vastaava linkki.
 2. Valitse **Käyttäjät**-sivulla sopiva käyttäjä ja valitse sitten **Käyttöoikeuksien joukko käyttäjäryhmän mukaan** -toiminto.
-3. Valitse **Käyttöoikeuksien joukko käyttäjäryhmän mukaan** -sivulla sen käyttöoikeuksien joukon rivin **[käyttäjäryhmän nimi]**-valintaruutu, joka määritetään käyttäjäryhmälle.
+3. Valitse **Käyttöoikeuksien joukko käyttäjäryhmän mukaan** -sivulla sen käyttöoikeuksien joukon rivin **[käyttäjäryhmän nimi]**-kenttä, joka määritetään käyttäjäryhmälle.
 4. Valitse **Kaikki käyttäjäryhmät** -valintaruutu, jos haluat määrittää käyttöoikeuksien joukon kaikille käyttäjäryhmille.
 
 Voit myös määrittää käyttöoikeusjoukkoja suoraan käyttäjälle.
 
 ## <a name="to-assign-permission-sets-to-users"></a>Käyttöoikeusjoukkojen määrittäminen käyttäjälle
 
-Käyttöoikeusjoukko on joukko tiettyjen tietokantaobjektien käyttöoikeuksia. Kaikille käyttäjille on määritettävä vähintään yksi käyttöoikeusjoukko, ennen kuin he voivat käyttää [!INCLUDE[prod_short](includes/prod_short.md)]ia. 
+Käyttöoikeusjoukko on joukko tiettyjen tietokantaobjektien käyttöoikeuksia. Kaikille käyttäjille on määritettävä vähintään yksi käyttöoikeusjoukko, ennen kuin he voivat käyttää [!INCLUDE[prod_short](includes/prod_short.md)]ia.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisu sisältää useita esimääritettyjä käyttöoikeuksien joukkoja, jotka Microsoft tai oma ratkaisutoimittajasi on lisännyt. Voit myös lisätä uusia käyttöoikeusjoukkoja, jotka on räätälöity organisaatiosi tarpeiden mukaan. Lisätietoja on [Käyttöoikeuksien joukon luominen tai muokkaaminen](#to-create-or-modify-a-permission-set) -osassa.
+[!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisu sisältää esimääritettyjä käyttöoikeuksien joukkoja, jotka Microsoft tai oma ratkaisutoimittajasi on lisännyt. Voit myös lisätä uusia käyttöoikeusjoukkoja, jotka on räätälöity organisaatiosi tarpeiden mukaan. Lisätietoja on [Käyttöoikeuksien joukon luominen tai muokkaaminen](#to-create-or-modify-a-permission-set) -osassa.
 
 > [!NOTE]
 > Jos et halua rajoittaa käyttäjän oikeuksia enempää kuin käyttöoikeussopimuksessa on jo määritetty, voit määrittää käyttäjälle erityisen käyttöoikeusjoukon nimeltä SUPER. Tämä käyttöoikeusjoukko varmistaa, että käyttäjä voi käyttää kaikkia lisenssissä määritettyjä objekteja.
@@ -159,7 +163,7 @@ Kaikki käyttäjälle jo määritetyt käyttöoikeusjoukot **Käyttöoikeuksien 
 
 ### <a name="security-filters-limit-a-users-access-to-specific-records-in-a-table"></a>Suojaussuodattimet rajoittavat käyttäjän käyttöoikeutta tiettyihin taulukon tietueisiin
 
-[!INCLUDE[prod_short](includes/prod_short.md)]in tietuetason suojauksessa käyttäjän käyttöoikeus rajoitetaan taulukon tietoihin suojaussuodattimien avulla. Suojaussuodattimet luodaan taulukon tietojen perusteella. Suojaussuodatin kuvaa sitä taulukon tietuejoukkoa, jonka käyttöoikeus käyttäjällä on. Voit määrittää esimerkiksi, että käyttäjä saa lukea vain tietueita, joissa on tietoja tietystä asiakkaasta. Tämä tarkoittaa, että käyttäjällä ei ole muiden asiakkaiden tietoja sisältävien tietueiden käyttöoikeutta. Lisätietoja on hallintasisällön kohdassa [Suojaussuodattimien käyttäminen](/dynamics365/business-central/dev-itpro/security/security-filters).
+[!INCLUDE[prod_short](includes/prod_short.md)]in tietuetason suojauksessa käyttäjän käyttöoikeus rajoitetaan taulukon tietoihin suojaussuodattimien avulla. Suojaussuodattimet luodaan taulukon tietojen perusteella. Suojaussuodatin kuvaa sitä taulukon tietuejoukkoa, jonka käyttöoikeus käyttäjällä on. Voit määrittää esimerkiksi, että käyttäjä saa lukea vain tietueita, joissa on tietoja tietystä asiakkaasta. Tällä tavoin käyttäjällä ei ole muiden asiakkaiden tietoja sisältävien tietueiden käyttöoikeutta. Lisätietoja on hallintasisällön kohdassa [Suojaussuodattimien käyttäminen](/dynamics365/business-central/dev-itpro/security/security-filters).
 
 
 ## <a name="to-create-or-modify-a-permission-set"></a>Käyttöoikeusjoukon luominen tai muokkaaminen
@@ -186,19 +190,22 @@ Voit myös siirtää kopiointitoiminnolla kaikki toisen käyttöoikeuksien jouko
 
 1. Valitse **Käyttöoikeuksien joukot** -sivulla kopioitavan käyttöoikeuksien joukon rivi. Valitse sitten **Kopioi käyttöoikeuksien joukko** -toiminto.
 2. Määritä **Kopioi käyttöoikeuksien joukko** -sivulla uuden käyttöoikeuksien joukon nimi ja valitse sitten **OK**-painike.
-3. Valitse **Ilmoita muutetusta käyttöoikeuksien joukosta** -valintaruutu, jos haluat ylläpitää alkuperäisen ja kopioidun käyttöoikeuksien joukon välistä linkkiä. Tämän linkin avulla sinulle ilmoitetaan, jos alkuperäisen käyttöoikeuksien joukon nimeä tai sisältöä muutetaan tulevissa versioissa, joissa ratkaisu päivitetään.
+3. Valitse **Ilmoita muutetusta käyttöoikeuksien joukosta** -valintaruutu, jos haluat ylläpitää alkuperäisen ja kopioidun käyttöoikeuksien joukon välistä linkkiä. Näin saat ilmoituksen, jos alkuperäisen käyttöoikeusjoukon nimi tai sisältö muuttuu tulevassa versiossa.
 
-Uusi käyttöoikeuksien joukko, joka sisältää kaikki kopioidun käyttöoikeuksien joukon käyttöoikeudet, lisätään uutena rivinä **Käyttöoikeuksien joukot** -sivulla. Nyt voit muokata uuden käyttöoikeuksien joukon käyttöoikeuksia. Huomaa, että kunkin tyypin rivit on lajiteltu aakkosjärjestykseen.
+Uusi käyttöoikeuksien joukko, joka sisältää kaikki kopioidun käyttöoikeuksien joukon käyttöoikeudet, lisätään uutena rivinä **Käyttöoikeuksien joukot** -sivulla. Nyt voit muokata uuden käyttöoikeuksien joukon käyttöoikeuksia. 
+
+> [!TIP]
+> Kunkin tyypin rivit on lajiteltu aakkosjärjestykseen.
 
 ### <a name="to-export-and-import-a-permission-set"></a>Käyttöoikeusjoukon vieminen ja tuominen
 
 Jos haluat määrittää käyttöoikeudet nopeasti, voit tuoda toisesta [!INCLUDE[prod_short](includes/prod_short.md)] -vuokraajasta viedyt käyttöoikeusjoukot.
 
-Multivuokraaja-ympäristöissä käyttöoikeusjoukko tuodaan tietylle vuokralaiselle eli tuonnin laajuus on "vuokraaja".
+Multivuokraaja-ympäristöissä käyttöoikeusjoukko tuodaan tietylle vuokralaiselle. Toisin sanoen tuonnin laajuus on *vuokralainen*.
 
 1. Valitse Vuokraaja 1:ssä **Käyttöoikeuksien joukot** -sivulla vietävien käyttöoikeuksien joukon rivi tai rivit. Valitse sitten **Vie käyttöoikeuksien joukot** -toiminto.
 
-    Tietokoneen latauskansioon luodaan XML-tiedosto. Oletusarvon mukaan sen nimi on "Export Permission Sets.xml"
+    Tietokoneen latauskansioon luodaan XML-tiedosto. Oletusarvon mukaan sen nimi on *Export Permission Sets.xml*.
 
 2. Valitse vuokralainen 2:n **Käyttöoikeuksien joukot** -sivulla **Tuo käyttöoikeuksien joukot** -toiminto.
 3. Harkitse **Tuo käyttöoikeuksien joukot** -valintaikkunassa, haluatko yhdistää aiemmin luodut käyttöoikeuksien joukot uusien käyttöoikeuksien joukkojen kanssa XML-tiedostoon.
@@ -227,7 +234,7 @@ Voit valita kaikissa viidessä käyttöoikeustyyppien kentässä (**luku-**, **l
 |------|-----------|-------|
 |**Kyllä**|Käyttäjä voi suorittaa kyseiselle objektille toiminnon.|Suurin|
 |**Epäsuora**|Käyttäjä voi suorittaa kyseiselle objektille toiminnon, mutta vain toisen sellaisen liittyvän objektin kautta, jonka täydet käyttöoikeudet käyttäjällä on. Lisätietoja epäsuorista käyttöoikeuksista on kehitys- ja IT-ammattilaisten ohjeessa [Käyttöoikeudet-ominaisuus](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property)|Toiseksi korkein|
-|**Tyhjä**|Käyttäjä ei voi suorittaa kyseiselle objektille toimintoa.|Pienin|
+|**Tyhjä**|Käyttäjä voi suorittaa kyseiselle objektille toiminnon.|Pienin|
 
 > [!IMPORTANT]
 > Käytä harkintaa, kun määrität **Lisäysoikeus**- tai **Muokkausoikeus**-oikeuksia **9001-käyttäjäryhmän jäsenelle** tai **9003-käyttäjäryhmän käyttöoikeusjoukolle**. Kaikki käyttöoikeus joukkoon liitetyt käyttäjät voivat mahdollisesti määrittää itsensä muihin käyttäjäryhmiin, mikä puolestaan voi antaa heille tahattomia käyttöoikeuksia.
@@ -249,7 +256,7 @@ Käyttäjällä ei kuitenkaan tarvitse olla Ostorivi-taulukon täysiä käyttöo
 4. Valitse **Käyttöoikeudet**-toiminto.
 5. Valitse **Käyttöoikeudet**-sivulla ensin **Kirjausoikeudet**-toiminto ja sitten **Aloita**-toiminto.
 
-    Käynnistyvä tallennusprosessi tallentaa kaikki käyttöliittymässä tekemäsi toimet.
+    Käynnistyvä tallennusprosessi aloittaa ja tallentaa kaikki käyttöliittymässä tekemäsi toimet.
 6. Siirry niille [!INCLUDE[prod_short](includes/prod_short.md)]in sivulle ja niihin toimintoihin, joita haluat tämän käyttöoikeusjoukon käyttäjien käyttävän. Sinun on tehtävä ne tehtävät, joille haluat tallentaa käyttöoikeudet.
 7. Kun tallennus on valmis, palaa **Käyttöoikeudet**-sivulle ja valitse sitten **Lopeta**-toiminto.
 8. Lisää tallennetut käyttöoikeudet uuteen käyttöoikeusjoukkoon valitsemalla **Kyllä**.
@@ -261,19 +268,23 @@ Käyttäjällä ei kuitenkaan tarvitse olla Ostorivi-taulukon täysiä käyttöo
 
 ## <a name="to-set-up-user-time-constraints"></a>Määritä käyttäjän aikarajoitukset
 
-Järjestelmänvalvojat voivat määrittää ajanjaksoja, joiden aikana määritetyt käyttäjät voivat tehdä kirjauksia. He voivat myös määrittää, kirjaako järjestelmä ajan, jonka käyttäjät olivat kirjautuneena. Järjestelmänvalvojat voivat myös määrittää käyttäjille vastuupaikkoja. Lisätietoja on kohdassa [Vastuupaikkojen käyttäminen](inventory-responsibility-centers.md).
+Järjestelmänvalvojat voivat määrittää ajanjaksot, joina määritetyt käyttäjät voivat kirjata. Järjestelmänvalvojat voivat myös määrittää, kirjataanko järjestelmä lokiin, kuinka kauan käyttäjät ovat kirjautuneena sisään. Vastaavasti järjestelmänvalvojat voivat määrittää käyttäjille vastuupaikkoja. Lisätietoja on kohdassa [Vastuupaikkojen käyttäminen](inventory-responsibility-centers.md).
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjän määritys** ja valitse sitten vastaava linkki.
 2. Valitse avautuvalla **Käyttäjäasetukset**-sivulla **Uusi**-toiminto.
 3. Anna **Käyttäjätunnus**-kentässä käyttäjän tunnus tai valitse kenttä, jos haluat nähdä kaikki järjestelmässä tällä hetkellä olevat Windows-käyttäjät.
 4. Täytä tarvittavat kentät.
 
-## <a name="viewing-permission-changes-telemetry"></a>Käyttöoikeuksien muutosten telemetrian tarkasteleminen 
+## <a name="viewing-permission-changes-telemetry"></a>Käyttöoikeuksien muutosten telemetrian tarkasteleminen
 
-Voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in lähettämään käyttöoikeuksiin tehdyt muutokset Application Insights -resurssiin Microsoft Azuressa. Sitteen Azure Monitorin avulla luot raportteja ja määrität hälytyksiä kerätyille tiedoille. Lisätietoja on [!INCLUDE[prod_short](includes/prod_short.md)]in kehittäjien ja IT-ammattilaisten ohjeen seuraavissa artikkeleissa:
+Voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in lähettämään käyttöoikeuksiin tehdyt muutokset Application Insights -resurssiin Microsoft Azuressa. Sitteen Azure Monitorin avulla luot raportteja ja määrität hälytyksiä kerätyille tiedoille. Lisätietoja on [!INCLUDE[prod_short](includes/prod_short.md)]in kehittäjien ja järjestelmänvalvojan ohjeen seuraavissa artikkeleissa:
 
 - [Telemetrian seuranta ja analysointi – Application Insightsin käyttöönotto](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
 - [Kentän seurannan telemetrian analysointi](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
+
+## <a name="delegated-admin-users"></a>Delegoidut järjestelmänvalvojakäyttäjät
+
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
 
 ## <a name="see-also"></a>Katso myös
 

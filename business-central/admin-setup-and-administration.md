@@ -9,23 +9,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: b7a20d6f116a383332b5daab6aa059839f608276
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4995a1776beacd444912124da5e9e6315f6a22f8
+ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521174"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740203"
 ---
-# <a name="administration"></a>Hallinta
+# <a name="administration-tasks"></a>Hallintatehtävät
 
 Yleensä yksi rooli hoitaa yrityksen keskitetyt hallintatehtävät. Tehtävien laajuus voi määräytyä yrityksen koon ja järjestelmänvalvojan vastuualueiden mukaan. Tehtäviin voi sisältyä esimerkiksi työ- ja sähköpostijonojen tietokantasynkronoinnin hallintaa, käyttäjien määritystä ja käyttöliittymän mukautusta.  
 
 Uuden liiketoimintaohjelmiston toimivuuden vuoksi on tärkeää, että annettavat asetusarvot ovat oikein heti alusta alkaen. [!INCLUDE[prod_short](includes/prod_short.md)]issa on useita asetusoppaita, jotka helpottavat perustietojen määrittämistä. Lisätietoja on kohdassa [Business Central -sovelluksen määrittäminen](setup.md).
 
 > [!NOTE]
-> Voit määrittää uuden yrityksen [!INCLUDE[prod_short](includes/prod_short.md)]issa RapidStart Servicesin avulla. RapidStart Services on työkalu, joka on suunniteltu lyhentämään käyttöönottoa, parantamaan toteutuksen laatua, esittelemään toistettavia lähestymistapoja toteutuksiin sekä lisäämään tuottavuutta automatisoimalla ja yksinkertaistamalla toistuvia tehtäviä. Lisätietoja on kohdassa [Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md).
+> Tiedonsiirtotyökalujen avulla voit siirtää aiemmin luodut tiedot [!INCLUDE [prod_short](includes/prod_short.md)] -online-käyttöön. Vaihtoehtoisesti voit määrittää uuden yrityksen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa määrityspakettien avulla lyhentääksesi käyttöönottoa, parantaaksesi toteutuksen laatua, esittelläksesi toistettavia lähestymistapoja toteutuksiin sekä lisätäksesi tuottavuutta automatisoimalla ja yksinkertaistamalla toistuvia tehtäviä. Lisätietoja hallintasisällössä: [Paikallisten tietojen siirtäminen Business Central Onlineen](/dynamics365/business-central/dev-itpro/administration/migrate-data).
 
-Riippumatta siitä, käytätkö RapidStart Servicesia ottamaan käyttöön arvoja vai annatko ne manuaalisesti uudelle yritykselle, voit tukea määrityspäätöksiäsi tietyissä sellaisissa määrityskentissä joillain yleisillä suosituksilla, joiden tiedetään aiheuttavan mahdollisesti heikentävän ratkaisun suorituskykyä, jos kenttä määritetään väärin.  
+Voit tukea määritysten suhteen tekemiäsi päätöksiä joillakin valittujen määrityskenttien suosituksilla, joiden tiedetään mahdollisesti aiheuttavan sen, että ratkaisu on tehoton, jos se määritetään virheellisesti.  
 
 Pääkäyttäjä tai järjestelmänvalvoja voi määrittää tietojen vaihtamiskehyksen, jonka avulla käyttäjät voivat viedä ja tuoda pankki- ja palkanlaskentatiedostojen tietoja esimerkiksi erilaisia kassanhallintaprosesseja varten. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).
 
@@ -40,7 +40,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 |Määritä tulostimet ja tulostettavat raportit.|[Tulostimien määrittäminen](ui-specify-printer-selection-reports.md)|
 |Luokittele kenttien luottamukselliset tiedot niin, että voit vastata tietojen kohteiden henkilökohtaisia tietoja koskeviin pyyntöihin.|[Tietojen luottamuksellisuuden luokitteleminen](admin-classifying-data-sensitivity.md)|
 |Vastaa tietojen kohteiden henkilökohtaisia tietoja koskeviin pyyntöihin.|[Henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen](admin-responding-to-requests-about-personal-data.md)|
-|Uuden liiketoimintayksikön määrittäminen mallien avulla|[Uusien yritysten luominen](about-new-company.md)|
+|Uuden liiketoimintayksikön määrittäminen mallien avulla|[Luo uusia yrityksiä](about-new-company.md)|
 |Seuraa kaikkia suoria muutoksia, joita käyttäjät tekevät tietokannan tietoihin. Muutoksia seuraamalla voidaan tunnistaa virheiden alkuperä ja tietojen muutokset.|[Muutosten kirjaaminen lokiin](across-log-changes.md)|  
 |Määritä yksittäisiä tai toistuvia pyyntöjä raporttien tai codeunitien suorittamista varten.|[Työjonojen käyttäminen ajoitustehtäviin](admin-job-queues-schedule-tasks.md)|  
 |Asiakirjojen hallinta, poistaminen ja pakkaaminen|[Asiakirjojen poistaminen](admin-manage-documents.md)|  
@@ -48,7 +48,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 |Kun luot Connect appsia [!INCLUDE[prod_short](includes/prod_short.md)]:n ja kolmannen osapuolen ratkaisun välille REST API:a käyttäen, määritä mallit, joita käytetään täyttämään entiteetin tyhjät ominaisuudet luodessasi POST-toiminnon API:n kautta.|[API-mallien määritys](admin-configuring-api-template.md)|
 |Salaa [!INCLUDE[prod_short](includes/prod_short.md)] Serverin tietoja luomalla uusia tai tuomalla olemassa olevia salausavaimia, jotka voi ottaa käyttöön palvelimessa.|[Tietojen salauksen hallinta](admin-manage-data-encryption.md)|
 |Dynamics 365 Salesin yhdistäminen [!INCLUDE[prod_short](includes/prod_short.md)]iin, mikä mahdollistaa asiakassuhteiden ja tilausten käsittelyn saumattoman integroinnin liidistä tuottoon -prosessissa.|[Dynamics 365 Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md)|
-|Vaihda käyttöliittymässä näytettävät kentät ja toiminnot vastaamaan yrityksen liiketoimintaprosesseja ja laajenna ratkaisua sovelluksilla.|[[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen mukauttaminen](ui-customizing-overview.md)|
+|Vaihda käyttöliittymässä näytettävät kentät ja toiminnot vastaamaan yrityksen liiketoimintaprosesseja ja laajenna ratkaisua sovelluksilla.|[Mukauta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
 
 ## <a name="administration-in-the-admin-center"></a>Hallinta hallintakeskuksessa
 

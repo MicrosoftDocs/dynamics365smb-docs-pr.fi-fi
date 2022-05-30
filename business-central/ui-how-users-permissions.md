@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
-ms.date: 03/23/2022
+ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: 52d8c0fb735bb0667f2219f5ed73e914e236014a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 77a58c9e4cfc5e9a744d66d0f6b62c06cb430d6b
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512150"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729799"
 ---
 # <a name="create-users-according-to-licenses"></a>Luo käyttäjät käyttöoikeuksien mukaan
 
@@ -28,9 +28,9 @@ Lisätietoja erilaisista käyttöoikeustyypeistä ja [!INCLUDE[prod_short](inclu
 
 ## <a name="manage-users-and-licenses-in-online-tenants"></a>Käyttäjien ja lisenssien hallinta online-vuokraajissa
 
-[!INCLUDE[prod_short](includes/prod_short.md)]-ohjelman online-versiossa tilauksesi määrittää sallittujen käyttäjien määrän. Käyttäjät lisätään vuokraajaan Microsoft Partner Centerissä, tavallisesti sen tekee Microsoft-kumppani. Lisätietoja on kohdassa [Uuden asiakkaan lisääminen](/partner-center/add-a-new-customer) sekä [Asiakastilausten luominen, keskeyttäminen ja peruuttaminen](/partner-center/create-a-new-subscription) Microsoft Partner Center -ohjeessa.
+Tilauksesi [!INCLUDE[prod_short](includes/prod_short.md)]-ohjelman online-versioon määrittää sallittujen käyttäjien määrän. Käyttäjät lisätään vuokraajaan Microsoft Partner Centerissä, tavallisesti sen tekee Microsoft-kumppani. Lisätietoja on kohdassa [Business Central Onlinen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
 
-Jotta voisit määrittää ketkä voivat kirjautua sisään [!INCLUDE[prod_short](includes/prod_short.md)] -sovellukseen, tuotteen käyttöoikeudet täytyy määrittää käyttäjille työn mukaan, jota he tekevät [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa. Käyttöoikeuksia voi määrittää monella tavalla:
+Tuotteen käyttöoikeudet määritetään käyttäjille sen mukaan, minkä työn kukin käyttäjä tekee [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan. Käyttöoikeuksia voi määrittää monella tavalla:
 
 - Yrityksen Microsoft 365 -järjestelmänvalvoja voi tehdä sen [Microsoft 365 -hallintakeskuksessa](https://admin.microsoft.com). Lisätietoja on kohdassa [Käyttäjien lisääminen yksittäin tai joukkona Microsoft 365:een](/microsoft-365/admin/add-users/add-users).  
 - Microsoft-kumppanit voivat määrittää lisenssejä Microsoft 365 Admin Centerissä tai Microsoft Partner Centerissä. Lisätietoja on Microsoft Partner Center -ohjeen kohdassa [Asiakastunnusten käyttäjien hallintatehtävät](/partner-center/assign-licenses-to-users).
@@ -39,10 +39,14 @@ Lisätietoja on Hallinnan ohjeen kohdassa [Business Central Onlinen hallinta](/d
 
 > [!NOTE]
 > Kun olet lisännyt käyttäjiä Microsoft 365 -hallintakeskukseen, suosittelemme, että päivität käyttäjätiedot [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa niin pian kuin mahdollista. Käyttäjätietojen pitäminen ajan tasalla on helppoa ja auttaa varmistamaan, että käyttäjät voivat aina kirjautua sisään. Lisätietoja on kohdassa [Käyttäjien lisääminen tai käyttäjätietojen ja käyttöoikeuksien delegoinnin päivittäminen Business Centralissa](#adduser).<br>
-> 
-> Käyttäjätietojen päivitys on erityisen tärkeää, jos olet mukauttanut käyttöoikeuksien joukkoja. Jos uusi käyttäjä yrittää kirjautua sisään [!INCLUDE[prod_short](includes/prod_short.md)] -sovellukseen ennen hänen lisäämistään, hän ei välttämättä voi tehdä niin. Lisätietoja on kohdassa [Käyttöoikeuksien määrittäminen käyttöoikeuksien perusteella](#licensespermissions). 
-> 
+>
+> Käyttäjätietojen päivitys on erityisen tärkeää, jos olet mukauttanut käyttöoikeuksien joukkoja. Jos uusi käyttäjä yrittää kirjautua sisään [!INCLUDE[prod_short](includes/prod_short.md)] -sovellukseen ennen hänen lisäämistään, hän ei välttämättä voi tehdä niin. Lisätietoja on kohdassa [Käyttöoikeuksien määrittäminen käyttöoikeuksien perusteella](#licensespermissions).
+>
 > Käyttäjät, jotka kohtaavat tämän ongelman, eivät kuitenkaan itse asiassa ole estettyjä. He voivat joko käyttää **Siirry takaisin kotisivulle** -toimintoa tai yksinkertaisesti kirjautua uudelleen ongelman ratkaisemiseksi.
+
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
+
+Lisätietoja hallintasisällössä: [Valtuutettu järjestelmänvalvojan käyttöoikeus Business Central Onlineen](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
 ### <a name="configure-permissions-based-on-licenses"></a><a name="licensespermissions"></a>Käyttöoikeuksien määrittäminen oikeuksien perusteella
 
@@ -58,7 +62,7 @@ Esimerkiksi yleisesti käytetty käyttöoikeus, *Dynamics 365 Business Central -
 - VIE RAPORTTI EXCEL
 - PAIKALLINEN
 
-Jos tämä ei ole oikea asetus tietylle vuokraajalle, ylläpitäjä voi muuttaa kyseistä kokoonpanoa. Mukautetut käyttöoikeudet vaikuttavat kuitenkin vain uusiin käyttäjiin, joille kyseinen käyttöoikeus on määritetty. Käyttöoikeus ei vaikuta olemassa olevien käyttäjien käyttöoikeuksiin, joille käyttöoikeus on määritetty.  
+Jos tämä oletusmääritys ei ole oikea asetus tietylle vuokraajalle, ylläpitäjä voi muuttaa kyseistä kokoonpanoa. Mukautetut käyttöoikeudet vaikuttavat kuitenkin vain uusiin käyttäjiin, joille kyseinen käyttöoikeus on määritetty. Käyttöoikeus ei vaikuta olemassa olevien käyttäjien käyttöoikeuksiin, joille käyttöoikeus on määritetty.  
 
 1. Kirjaudu sisään [!INCLUDE[prod_short](includes/prod_short.md)]iin järjestelmänvalvojatilillä.  
 2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöoikeuden määritys** ja valitse sitten vastaava linkki.  
@@ -67,19 +71,20 @@ Jos tämä ei ole oikea asetus tietylle vuokraajalle, ylläpitäjä voi muuttaa 
 3. Valitse mukautettava käyttöoikeus **Käyttöoikeuden määritys** -sivulta ja valitse sitten **Määritä**-toiminto.  
 4. Valitse **Mukauta oikeuksia** -kenttä, kun haluat ottaa mukauttamisen käyttöön, ja tee tarvittavat muutokset.  
 
-    Tässä esimerkissä järjestelmänvalvoja haluaa poistaa muokkaamisoikeuden Excelissä, joten hän poistaa *Excelin vientitoiminto* -käyttäjäryhmän tiimin jäsenen käyttöoikeudesta. Jatkossa uudet käyttäjät, joille on määritetty tiimin jäsenen käyttöoikeus, eivät voi viedä tietoja Exceliin. Jos organisaatio muuttaa mielensä tästä, he voivat vain palata **Käyttöoikeuden määritys** -sivulle ja poistaa kyseisen käyttöoikeustyypin räätälöinnin.  
+    Tässä esimerkissä järjestelmänvalvoja haluaa poistaa muokkaamisoikeuden Excelissä, joten hän poistaa *Excelin vientitoiminto* -käyttäjäryhmän tiimin jäsenen käyttöoikeudesta. Jatkossa uudet käyttäjät, joille on määritetty tiimin jäsenen käyttöoikeus, eivät voi viedä tietoja Exceliin. Jos organisaatio muuttaa mielensä tästä aiheesta, he voivat vain palata **Käyttöoikeuden määritys** -sivulle ja poistaa kyseisen käyttöoikeustyypin räätälöinnin.  
 
 > [!IMPORTANT]
 > Tämä käyttöoikeuksien mukauttaminen on voimassa vain uusille käyttäjille, jotka määrittävät asianmukaisen käyttöoikeuden. Nykyisiä käyttäjiä ei päivitetä. Suosittelemme käyttöoikeuksien mukauttamista, ennen kuin käyttäjien käyttöoikeuksien aletaan määrittää Microsoft 365 -hallintakeskuksessa.
 
 ### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>Käyttäjien lisääminen tai käyttäjätietojen ja käyttöoikeuksien delegoinnin päivittäminen Business Centralissa
-Kun olet lisännyt käyttäjiä tai muuttanut käyttäjätietoja Microsoft 365 -hallintakeskuksessa, voit tuoda käyttäjätiedot nopeasti [!INCLUDE[prod_short](includes/prod_short.md)]iin. Tuontiin kuuluvat käyttöoikeusmääritykset. 
+
+Kun olet lisännyt käyttäjiä tai muuttanut käyttäjätietoja Microsoft 365 -hallintakeskuksessa, voit tuoda käyttäjätiedot nopeasti [!INCLUDE[prod_short](includes/prod_short.md)]iin. Tuontiin kuuluvat käyttöoikeusmääritykset.  
 
 1. Kirjaudu sisään [!INCLUDE[prod_short](includes/prod_short.md)]iin järjestelmänvalvojatilillä.
 2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten vastaava linkki.  
 3. Valitse **Päivitä käyttäjät Microsoft 365:stä**.
 
-Kun lisäät uusia käyttäjiä, seuraava vaihe on käyttäjäryhmien ja käyttöoikeuksien määrittäminen. Lisätietoja on kohdassa [Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md). Jos päivität käyttäjätietoja ja päivitys sisältää käyttöoikeuden muutoksen, käyttäjät liitetään asianmukaiseen käyttäjäryhmään, ja niiden käyttöoikeusjoukot päivitetään. Lisätietoja on kohdassa [Käyttäjien käyttöoikeuksien hallinta käyttäjäryhmien kautta](ui-define-granular-permissions.md).  
+Uusille käyttäjille seuraava vaihe on käyttäjäryhmien ja käyttöoikeuksien määrittäminen. Lisätietoja on kohdassa [Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md). Jos päivität käyttäjätietoja ja päivitys sisältää käyttöoikeuden muutoksen, käyttäjät liitetään asianmukaiseen käyttäjäryhmään, ja niiden käyttöoikeusjoukot päivitetään. Lisätietoja on kohdassa [Käyttäjien käyttöoikeuksien hallinta käyttäjäryhmien kautta](ui-define-granular-permissions.md).  
 
 > [!NOTE]
 > Kaikille ympäristön käyttäjille on määritettävä sama käyttöoikeus. Se voi olla joko Essential tai Premium. Lisätietoja on Microsoft Dynamics 365 Business Centralin käyttöoikeusoppaassa. Opas on ladattavissa [Business Centralin](https://dynamics.microsoft.com/business-central/overview/) verkkosivulla.
@@ -91,7 +96,7 @@ Lisätietoja käyttäjätietojen synkronoimisesta Microsoft 365:n kanssa on kohd
 
 ### <a name="to-remove-a-users-access-to-the-system"></a>Järjestelmän käyttöoikeuden poistaminen käyttäjältä
 
-Online-käyttöönotoissa voit poistaa käyttäjän [!INCLUDE[prod_short](includes/prod_short.md)] -käyttöoikeuden. Kaikki viittaukset käyttäjään säilyvät. Käyttäjä ei kuitenkaan voi kirjautua sisään ja käyttäjän aktiiviset istunnot pysäytetään.
+Voit poistaa käyttäjän [!INCLUDE[prod_short](includes/prod_short.md)] online -käyttöoikeuden. Kaikki viittaukset käyttäjään säilyvät. Käyttäjä ei kuitenkaan voi kirjautua sisään ja käyttäjän aktiiviset istunnot pysäytetään.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten vastaava linkki.
 2. Avaa soveltuvan käyttäjän **Käyttäjäkortti**-sivu ja valitse sitten **Tila**-kentässä **Ei käytössä**.

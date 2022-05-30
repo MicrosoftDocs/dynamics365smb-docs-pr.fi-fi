@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5841
 ms.author: edupont
-ms.openlocfilehash: cdb1ff4581e8e2b79f9e2dd015426ee9719e38e6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c7be7f69c2b5d2c71b54ac3046900474e0c86f5f
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149151"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729909"
 ---
 # <a name="about-calculating-standard-cost"></a>Tietoja standardikustannuksen laskemisesta
 Useat tuotantoyritykset valitsevat vakiokustannusten perustaksi arvostuksen. Tämä pätee myös yrityksiin, jotka tekevät vain kevyitä tuotantotöitä, kuten kokoonpanoa ja varustelua. Vakiokustannusjärjestelmässä varastoyksikkö määritetään kohtuullisten aiempien tai odotettujen kustannusten perusteella. Tällöin aiempien ja arvioitujen kustannusten tarkastelut muodostavat vakiokustannusten perustan. Nämä kustannukset jäädytetään, kunnes niiden muutosta koskeva päätös on tehty. Tuotteen todelliset tuotantokustannukset eroavat väistämättä arvioiduista vakiokustannuksista. Todellisia kustannuksia vertaillaan tietyn nimikkeen vakiokustannuksiin johdon hallintotarkoituksia varten, ja *erot* tunnistetaan ja analysoidaan.  
@@ -78,7 +78,7 @@ Tuotantoyrityksen on muodostettava koneen ja tuotantosolujen suorituksessa tarvi
 Jokaiselle koneelle/tuotantosolulle määritetään kunkin aikatyypin kustannukset yksittäistä reititystä kohti.  
 
 > [!NOTE]  
->  On tärkeää huomata, että ajoajan kustannukset kohdistetaan jokaiseen tuotettavaan nimikeyksikköön ja asetuskustannukset kohdistetaan jokaiseen erään. Sen vuoksi kunkin toiminnon reitityksen asetusajan kustannukset on jaettava eräkoon mukaan. Eräkoko määritetään nimikekortin **Tilaaminen**-pikavälilehden kentässä.  
+>  On tärkeää huomata, että ajoajan kustannukset kohdistetaan jokaiseen tuotettavaan nimikeyksikköön ja asetuskustannukset kohdistetaan jokaiseen erään. Sen vuoksi kunkin toiminnon reitityksen asetusajan kustannukset on jaettava eräkoon mukaan. Eräkoko määritetään **nimikekortti**-sivulla **Täydennys**-pikavälilehtikentässä.  
 
 Jos haluat määrittää määritysajan reitityksen suunnittelulle mutta et sisällyttää tätä kulua vakiokustannusten laskentaan, tyhjennä **Tuotannon asetukset** -sivun **Kust. sisältävät asetuksen** -kentän valinta.  
 

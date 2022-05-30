@@ -1,0 +1,106 @@
+---
+title: Asiakkaiden synkronointi
+description: Asiakkaiden tuominen tai vieminen Shopifyista tai Shopifyihin
+ms.date: 05/11/2022
+ms.topic: article
+ms.service: dynamics365-business-central
+author: edupont04
+ms.author: andreipa
+ms.reviewer: solsen
+ms.openlocfilehash: 92ac46e9f7e69204b4c7edee4aa430a8786b6c0b
+ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.translationtype: HT
+ms.contentlocale: fi-FI
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8768131"
+---
+# <a name="synchronize-customers"></a>Asiakkaiden synkronointi
+
+Kun tilaus tuodaan Shopifysta, asiakkaan tiedot ovat olennaisia asiakirjan käsittelemisessä [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa. On olemassa kaksi päävaihtoehtoa ja niiden yhdistelmät:
+
+* Käytä erikoisasiakasta kaikissa tilauksissa.
+* Tuo todelliset asiakastiedot Shopify-tiedoista. Tämä valinta on käytettävissä myös silloin, kun viet asiakkaan Shopifyhin [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmasta.
+
+## <a name="how-connector-chooses-which-customer-to-use"></a>Miten yhdistin valitsee käytettävän asiakkaan
+
+*Tuo tilaus Shopifysta* -toiminto yrittää valita asiakkaan seuraavassa järjestyksessä:
+
+1. Jos **Oletusasiakasnro** määritetään vastaavan maan **Shopify-asiakasmallissa**, vastaavalle maalle, silloin **oletusasiakasnroa** käytetään, riippumatta **asiakkaan tuonti Shopifysta** ja **Asiakkaan yhdistämismäärityksen tyyppi** -asetuksista.
+2. Jos **Asiakkaan tuonti Shopifysta** ja **Oletusasiakasnro** on määritetty, **oletusasiakasnroa** käytetään.
+
+Seuraavat vaiheet määräytyvät **asiakkaan yhdistämismäärityksen tyypin** mukaan.
+
+* **Ota aina oletusasiakas** ja käytä asiakasta, joka on määritetty **oletusasiakasnro** -kentässä **Shopify-ostoskortti**-ikkunassa.
+* **Sähköpostilla/puhelimella**-yhdistin yrittää löytää nykyisen asiakkaan ensin tunnuksella, sitten sähköpostitse, ja sitten puhelimitse. Jos asiakasta ei löydy - yhdistin luo uuden asiakkaan.
+* **Laskutustiedoilla**, yhdistin yrittää löytää olemassa olevan asiakkaan ensin tunnuksella ja sitten laskutusosoitteen tiedoilla. Jos ei löydy - yhdistin luo uuden asiakkaan.
+
+> [!NOTE]  
+> Yhdistin käyttää laskutusosoitteen tietoja ja luo laskutusasiakkaan [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmaan. Tilausasiakas on sama kuin laskutusasiakas.
+
+## <a name="important-settings-when-importing-customers-from-shopify"></a>Tärkeät asetukset tuotaessa asiakkaita Shopifysta
+
+Joko tuot asiakkaita Shopifysta joukkona tai yhdessä tilausten tuonnin kanssa, seuraavat asetukset mahdollistavat prosessin hallinnan:
+
+|Kenttä|Kuvaus|
+|------|-----------|
+|**Asiakkaan tuonti Shopifysta**|Valitse **Kaikki asiakkaat**, jos aiot tuoda asiakkaita Shopifysta joukkona, joko manuaalisesti käyttämällä **Synkronoi asiakkaat** -toimintoa tai työjonon kautta toistuvia päivityksiä varten. Valinnasta huolimatta asiakastiedot tuodaan aina yhdessä tilauksen kanssa. Näiden tietojen käyttäminen riippuu kuitenkin **Shopifyn asiakasmalleista** ja asetuksista **asiakkaan yhdistämismäärityksen tyyppi** -kentässä.|
+|**Asiakkaan yhdistämismäärityksen tyyppi**|Määritä, kuinka haluat yhdistimen suorittavan yhdistämisen.<br>- **Sähkö postilla/puhelimitse** jos haluat, että yhdistin yhdistää tuodun Shopify-asiakkaan olemassa olevaan asiakkaaseen [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa sähköpostin ja puhelimen avulla.</br>- **Laskutustietojen mukaan** jos haluat, että yhdistin yhdistää tuodun Shopify-asiakkaan olemassa olevaan asiakkaaseen [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa käyttämällä laskun vastaanottavan osapuolen osoitetietoja.</br>Valitse **Ota aina oletusasiakas**, jos haluat, että järjestelmä käyttää asiakasta **oletusasiakasnro** -kentässä. |
+|**Shopify voi päivittää asiakkaat**| Valitse tämä vaihtoehto, jos haluat, että yhdistin päivittää löydetyt asiakkaat, kun **asiakkaan yhdistämismäärityksen tyyppi** -kentässä on valittuna **sähköpostilla/puhelimella** tai **Laskutusasiakkaan tiedoilla**.|
+|**Luo tuntemattomat asiakkaat automaattisesti**| Valitse tämä vaihtoehto, jos haluat, että yhdistin luo puutuvat asiakkaat, kun **asiakkaan yhdistämismäärityksen tyyppi** -kentässä on valittuna **sähköpostilla/puhelimella** tai **Laskutusasiakkaan tiedoilla**. Uusi asiakas luodaan käyttämällä tuotuja tietoja ja **asiakasmallin koodia**, joka on määritetty **Shopify-ostoskortilla** tai **Shopify-asiakasmalli**-sivuilla. Huomaa, että Shopify-asiakkaalla täytyy olla vähintään 1 osoite. Jos tämä asetus ei ole käytössä, sinun on luotava asiakas manuaalisesti ja linkitettävä se Shopify-asiakkaaseen. Voit aina aloittaa asiakkaan luomisen manuaalisesti **Shopify-tilaus**-sivulta.|
+|**Asiakasmallin koodi**|Käytetään yhdessä **Tuntemattomien asiakkaiden luominen automaattisesti** -toiminnon kanssa.<br> Valitse oletusmalli, jota käytetään automaattisesti luoduille asiakkaille. Voit määrittää malleja kullekin maalle/alueelle **Shopify-asiakasmallit**-ikkunassa, josta on hyötyä asianmukaisen veron laskentaan. Lisätietoja on kohdassa [Verotukselliset huomautukset](synchronize-orders.md#tax-remarks).|
+
+### <a name="customer-template-per-country"></a>Asiakasmalli maata kohti
+
+Jotkin asetukset voidaan määrittää maan tai alueen tasolla tai osavaltion/provinssin tasolla. Asetukset voidaan määrittää kohdassa [Toimitus-ja toimitus](https://www.shopify.com/admin/settings/shipping) Shopifyssa.
+
+**Shopify-asiakasmallin** avulla voit tehdä seuraavat toimet kunkin maan osalta:
+
+1. Määritä **oletusasiakasnro**, joka on etusijalla **asiakkaan tuonti Shopifysta** ja **Asiakkaan yhdistämismäärityksen tyyppi** -kentissä olevan valinnan. Sitä käytetään tuodussa myyntitilauksessa.
+2. **Määritä asiakasmallin koodi**, jota käytetään puuttuvien asiakkaiden luomisessa, jos **Luo automaattisesti tuntemattomat asiakkaat** on otettu käyttöön. Jos **asiakasmallin koodi** on tyhjä, funktio käyttää **Asiakasmallin koodia**, joka on määritetty **Shopify-ostoskortissa**.
+3. Joissakin tapauksissa **asiakasmallin koodi** maata kohti ei riitä varmistamaan verojen oikeaa laskentaa. Esimerkiksi maissa, joissa on käytössä arvonlisävero.
+
+> [!NOTE]  
+> Maakoodit ovat ISO 3166-1 alpha-2-maakoodeja. Lisätietoja on [Maakoodi](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode)-sivustossa.
+
+## <a name="export-customers-to-shopify"></a>Vie asiakastiedot Shopifyhin
+
+Olemassa olevat asiakkaat voidaan viedä Shopifyhin joukkona. Tämän seurauksena luodaan asiakas ja yksi oletusosoite. Voit hallita prosessia seuraavien asetusten avulla:
+
+|Kenttä|Kuvaus|
+|------|-----------|
+|**Vie asiakastiedot Shopifyhin**|Valitse, jos aiot viedä kaikki asiakkaat, joilla on voimassa oleva sähköpostiosoite [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmasta Shopifyhin kerralla. Joko manuaalisesti **Synkronoi asiakkaat** -toiminnolla tai työjonon kautta toistuvia päivityksiä varten.|
+|**Voi päivittää Shopify-asiakkaat**|Käytetään yhdessä **Vie asiakas Shopifyhin** -komennon kanssa. Ota se käyttöön, jos haluat luoda päivityksiä myöhemmin [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa Shopifyssa oleville asiakkaille.|
+
+> [!NOTE]  
+> Kun olet luonut asiakkaat Shopifyhin, haluat ehkä lähettää suoria kutsuja asiakkaille. Se kannustaa heitä aktivoimaan tilinsä.
+
+### <a name="populate-customer-information-in-shopify"></a>Asiakastietojen täyttäminen Shopifyssa
+
+Shopifyssa asiakkaalla on etunimi, sukunimi, sähköpostiosoite ja/tai puhelinnumero. Etunimen ja sukunimen voi täyttää [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelman asiakkaan kortin tietojen perusteella.
+
+|Prioriteetti|Asiakaskortin kenttä|Kuvaus|
+|------|------|-----------|
+|1|**Yhteyshenkilön nimi**|Korkein prioriteetti, jos **Yhteyshenkilön nimi** -kenttä on täytetty ja **Shopify-kauppakortin** **Yhteystiedot**-kenttä sisältää *Etunimi ja sukunimi*- tai *Sukunimi ja etunimi* -vaihtoehdot, jotka määrittävät kuinka arvot jaetaan.|
+|2|**Nimi 2**|Jos **Nimi 2** -kenttä on täytetty ja **Shopify-kauppakortin** **Nimi 2 -tiedot**-kenttä sisältää *Etunimi ja sukunimi*- tai *Sukunimi ja etunimi* -vaihtoehdot, jotka määrittävät kuinka arvot jaetaan.|
+|3|**Nimi**|Alin prioriteetti, jos **Yhteyshenkilön nimi** -kenttä on täytetty ja **Shopify-kauppakortin** **Nimitiedot**-kenttä sisältää *Etunimi ja sukunimi*- tai *Sukunimi ja etunimi* -vaihtoehdot, jotka määrittävät kuinka arvot jaetaan.|
+
+Shopifyssa asiakkaalla on myös oletusosoite, jonka lisäksi etunimi, sukunimi, sähköpostiosoite ja/tai puhelin voivat sisältää yrityksen ja osoitteen. Voit täyttää **Yritys**-kentän [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelman asiakaskortin tietojen perusteella.
+
+|Prioriteetti|Asiakaskortin kenttä|Kuvaus|
+|------|------|-----------|
+|1|**Nimi**|Korkein prioriteetti, jos **Nimilähde**-kentässä **Shopify-ostoskortissa** on *yrityksen nimi*.|
+|2|**Nimi 2**|Alin prioriteetti, jos **Nimi 2 lähde** -kentässä **Shopify-ostoskortissa** on *yrityksen nimi*.|
+
+Valitse osoitteissa, joissa käytetään maata tai provinssia, valitsemalla *Koodi* tai *Nimi* **Shopify-ostoskortin** **Maalähde**-kentässä määrittääksesi, minkä tyyppisiä tietoja tallennetaan [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa **Maa**-kentässä.
+
+## <a name="sync-customers"></a>Synkronoi asiakkaat
+
+1. Siirry hakuun ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeeseen, syötä **Shopify-myymälä** ja valitse sitten vastaava linkki.
+2. Valitse kauppa, jolle haluat synkronoida asiakkaat avataksesi **Shopify-ostoskortti**-sivun.
+3. Valitse **Synkronoi asiakkaat** -toiminto.
+
+Vaihtoehtoisesti voit käyttää **Käynnistä asiakkaan synkronointi** - toimintoa **Shopify-asiakkaat**-ikkunassa tai hae **Synkronoi asiakkaat** -eräajoa.
+
+## <a name="see-also"></a>Katso myös
+
+[Shopifyn yhdistimen käytön aloittaminen](get-started.md)  

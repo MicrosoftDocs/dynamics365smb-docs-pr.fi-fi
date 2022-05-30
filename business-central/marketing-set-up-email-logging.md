@@ -10,12 +10,12 @@ ms.search.keywords: relationship, prospect, opportunity, email
 ms.date: 03/22/2022
 ms.search.form: 1680, 1811, 5076
 ms.author: bholtorf
-ms.openlocfilehash: fc755362a5b29cca9eb8e8e403374e173cff3630
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e14e3b353cd06d348de36c23caa4bcfb1981a6e5
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516133"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729935"
 ---
 # <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Myyjien ja yhteyshenkilöiden välisten sähköpostiviestien seuraaminen
 Saat enemmän hyötyä myyjien ja asiakkaiden välisestä viestinnästä, jos muunnat sähköpostiviestit toiminnallisiksi mahdollisuuksiksi. [!INCLUDE[prod_short](includes/prod_short.md)] -sovellusta voi käyttää yhdessä Exchange Onlinen kanssa. Näin voit seurata saapuvia ja lähteviä viestejä. Voit tarkastella ja analysoida kunkin viestin sisältöä **Vuorovaikutuslokin tapahtumat** -sivulla.
@@ -67,7 +67,7 @@ Sähköpostin työnkulkusäännöt etsivät viesteistä tiettyjä ehtoja ja tote
 
 ---
 
-## <a name="setting-up-prod_short-to-log-email-messages"></a>Määritetään [!INCLUDE[prod_short](includes/prod_short.md)] -sovellus sähköpostiviestien kirjaamista varten
+## <a name="set-up-prod_short-to-log-email-messages"></a>Määritä [!INCLUDE[prod_short](includes/prod_short.md)] -sovellus sähköpostiviestien kirjaamista varten
 Nämä vaiheet ovat samat sekä nykyisille että uusille kokemuksille.
 
 Aloita sähköpostien kirjaaminen seuraavien kahden helpon vaiheen avulla:
@@ -89,14 +89,27 @@ Aloita sähköpostien kirjaaminen seuraavien kahden helpon vaiheen avulla:
 - Voit tarkastella sähköpostiviestin sisältöä valitsemalla **Prosessi** ja sitten **Näytä liitteet** -toiminnon.
 - Voit muuttaa sähköpostiviestinnän myyntimahdollisuudeksi. Jos tapahtuma näyttää lupaavalta, voit muuttaa sen mahdollisuudeksi, jonka jälkeen siitä voi kehittyä myyntiä. Jos haluat muuttaa sähköpostiviestinnän myyntimahdollisuudeksi, valitse tapahtuma, sitten **Käsittely** ja sitten **Luo mahdollisuus**. Lisätietoja on kohdassa [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md).
 
-## <a name="connecting-on-premises-versions-to-microsoft-exchange"></a>On-Premises-versioiden yhdistäminen Microsoft Exchangeen
+## <a name="mailbox-and-folder-limits-in-exchange-online"></a>Exchange Onlinen postilaatikon ja kansion rajat
+Exchange Onlinessa on postilaatikon ja kansion rajoituksia, kuten kansioiden kokojen rajoitukset ja viestien lukumäärä. Lisätietoja on kohdassa [Exchange Online -rajoitukset](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#storage-limits) ja [Yleisten kansioiden rajoitukset Exchange Serverissa](/Exchange/collaboration/public-folders/limits?view=exchserver-2019).
+
+[!INCLUDE[prod_short](includes/prod_short.md)] tallentaa lokiin kirjatut sähköpostiviestit kansioon Exchange Onlinessa. [!INCLUDE[prod_short](includes/prod_short.md)] tallentaa myös linkin jokaiseen lokiin kirjattuun viestiin. Linkit avaavat lokiin kirjatut viestit Exchange Onlinessa vuorovaikutuslokin tapahtumat-, kontaktikortti- ja myyjäkorttisivuista [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa. Jos kirjattu viesti siirretään toiseen kansioon, linkki katkeaa. Viesti saatetaan siirtää esimerkiksi manuaalisesti tai Exchange Online voi automaattisesti aloittaa automaattisen jakamisen, kun tallennusraja saavutetaan.
+
+Seuraavien vaiheiden avulla voit välttää Exchange Online -ohjelman viestien linkkien katkeamisen.
+
+1. Älä siirrä aiemmin luotuja viestejä toiseen kansioon sen jälkeen, kun olet muuttanut sähköpostin kirjaamisasetusten asetuksia. Säilytetään olemassa olevia viestejä, jos ne säilyttävät linkit. Linkit uuden kansion viesteihin ovat voimassa.
+2. Postilaatikon ja kansion rajoitusten välttäminen. Jos olet saavuttamassa rajoituksen, tee seuraavat toimet:
+    1. Määritä uusi jaettu postilaatikko (uusi käyttökokemus) tai uusi jaettu kansio (tämänhetkinen käyttökokemus) Exchange Online -ohjelmaan.
+    2. Päivitä sähköpostityökulun säännöt Exchange Onlineen.
+    3. Päivitä sähköpostin kirjaamisasetukset Business Centralissa sen mukaisesti
+
+## <a name="connect-on-premises-versions-to-microsoft-exchange"></a>Yhdistä on-premises-versiot Microsoft Exchangeen
 
 Voit muodostaa yhteyden [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -ratkaisusta paikalliseen Exchange on-premisesiin tai Exchange Onlineen sähköpostin lokiinkirjaamiseksi. Molemmissa Exchange-versioissa yhteyden asetukset ovat käytettävissä **Kontaktienhallinnan asetukset** -sivulla. Exchange Onlinessa voit käyttää myös avustettua asennusopasta.
 
 > [!IMPORTANT]
 > Uusi kokemus ei tue yhteyttä paikalliseen Exchangeen. Jos sinun täytyy käyttää paikallista Exchangea, älä ota ominaisuuden päivitystä käyttöön uutta kokemusta varten.
 
-## <a name="connecting-to-exchange-on-premises"></a>Yhdistäminen Exchange On-Premisesiin
+## <a name="connect-to-exchange-on-premises"></a>Yhdistä Exchange On-Premisesiin
 ## <a name="current-experience"></a>[Nykyinen kokemus](#tab/current-experience)
 Jos haluat yhdistää [!INCLUDE[prod_short](includes/prod_short.md)] on-premisesin Exchange on-premisesiin, voit käyttää **Kontaktienhallinnan asetukset** -sivulla **Perus**-vaihtoehtoa **todennustyyppinä** ja kirjoittaa sitten Exchange on-premisesin käyttäjätilin tunnistetiedot. Aloita sitten sähköpostin lokiinkirjaaminen valitsemalla **Käytössä**-valitsin.
 
@@ -105,7 +118,7 @@ Uusi kokemus ei tue yhteyksiä paikalliseen Exchangeen.
 
 ---
 
-## <a name="connecting-to-exchange-online"></a>Yhdistäminen Exchange Onlineen
+## <a name="connect-to-exchange-online"></a>Yhdistä tuotteeseen Exchange Online
 Jotta voisit muodostaa yhteyden kohteeseen Exchange Online, sinun täytyy rekisteröidä sovellus kohteessa Azure Active Directory. Anna sovelluksen tunnus, avainsäilön salaisuus ja uudelleenohjauksen URL-osoite rekisteröintiä varten. Uudelleenohjauksen URL-osoite määritetään valmiiksi, ja sen pitäisi toimia useimmissa asennuksissa. Lisätietoja on kohdassa [Sovelluksen rekisteröiminen Azure AD:ssä yhteyden muodostamiseksi Business Centralista Exchange Onlineen](marketing-set-up-email-logging.md#to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-exchange-online). 
 
 Sinun on myös käytettävä **OAuth2**-arvoa **todennustyyppinä**. Sinun täytyy myös rekisteröidä sovellus kohteessa Azure Active Directory. Anna sovelluksen tunnus, avainsäilön salaisuus ja uudelleenohjauksen URL-osoite rekisteröintiä varten. Uudelleenohjauksen URL-osoite täytetään valmiiksi, ja sen pitäisi toimia useimmissa asennuksissa. Lisätietoja on kohdassa Sovelluksen rekisteröiminen Azure AD:ssä yhteyden muodostamiseksi Business Centralista Exchange Onlineen.
@@ -214,6 +227,8 @@ Poista käytöstä nykyiset määritykset, vaihda käyttäjä **Sähköpostin lo
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sähköpostin lokiinkirjaus** ja valitse sitten vastaava linkki. 
 2. Valitse **Toiminnot** ja sitten **Uudista tunnus**.
 3. Kirjaudu sisään Exchange Online-tilillä, jonka avulla aikataulutettu projekti muodostaa yhteyden jaettuun postilaatikkoon ja käsittelee sähköpostiviestit tilin avulla.
+
+
 
 ## <a name="see-also"></a>Katso myös
 [Kontaktienhallinta](marketing-relationship-management.md)

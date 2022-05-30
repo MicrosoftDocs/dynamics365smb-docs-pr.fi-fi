@@ -10,12 +10,12 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 01/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2530b6a5d562cfd22abd8ae097408388034a5711
-ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
+ms.openlocfilehash: d5b1358166f8d26a62da79059a73948bcd7b9784
+ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "8485001"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740335"
 ---
 # <a name="set-up-and-report-intrastat"></a>Intrastat-ilmoituksen määrittäminen ja raportoiminen
 
@@ -125,7 +125,7 @@ Eräajo hakee kaikki tämän tilastokauden nimiketapahtumat ja lisää ne riveik
 6. Julkaise Excelissä tehdyt muutokset takaisin kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!Note]
-> [!INCLUDE[prod_short](includes/prod_short.md)] -versioissa, jotka eivät tue ilmoitusten osalta [**Muokkausta Excelissä**](across-work-with-excel.md#edit-in-excel), voit [luoda määrityspaketteja](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package) Intrastat-ilmoitusten Excellin viemistä ja sieltä tuomista varten. 
+> [!INCLUDE[prod_short](includes/prod_short.md)] -versioissa, jotka eivät tue ilmoitusten osalta [**Muokkausta Excelissä**](across-work-with-excel.md#edit-in-excel), voit luoda määrityspaketteja Intrastat-ilmoitusten Exceliin viemistä ja sieltä tuomista varten. Lisätietoja on kohdassa [Paikallisten tietojen siirtäminen Business Central Online -ohjelmaan](/dynamics365/business-central/dev-itpro/administration/migrate-data) -hallintasisällössä.
 
 ### <a name="report-intrastat-on-a-form-or-a-file"></a>Intrastat-raportointi lomakkeella tai tiedostona
 
@@ -167,6 +167,7 @@ Lisää **Tavaranimikkeet**-sivulle kaikki koodit, joita käytät. Koodit täyty
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
+
 [Taloushallinto](finance.md)
 
 

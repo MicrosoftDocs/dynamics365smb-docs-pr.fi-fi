@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 67536b129986343d67c2bc52cc3db8450e177d67
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5ff042e1dec609b568c36967f56a8cd3673b9558
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520151"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729839"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Erikoismyyntihintojen ja -alennusten kirjaaminen
 > [!NOTE]
@@ -95,7 +95,14 @@ Kun **Uusi myyntihinnoittelukokemus** -ominaisuuspäivitys otetaan käyttöön *
 > [!NOTE]
 > Jos hinnat määritetään vain nimike- tai resurssikorteissa, kyseisiä hintoja ei täytetä oletushinnastoihin ominaisuustietojen päivityksen aikana. Minkä tahansa oletushinnaston voi kuitenkin avata Hintatyökirja-sivulla ja nimike- tai resurssikorteissa määritetyt hinnat voidaan lisätä **Ehdota rivejä** -toiminnolla. 
 
-* Myyntihinnastoja voidaan käyttää, poistamalla hinnasto käytöstä. Aiemmin luodut hinnat muunnetaan kunkin asiakas-, asiakasryhmä- tai kampanjayhdistelmän uudeksi hinnastoksi, jotka sisältävät alkamis- ja päättymispäivämäärät sekä valuutat. Jos yhdistelmiä on useita, myös hinnastoja on useita.
+* Myyntihinnastoja voidaan käyttää, poistamalla hinnasto käytöstä. Nykyiset hinnat muunnetaan uudeksi hinnastoksi jokaiselle seuraavien asioiden yhdistelmälle: 
+
+* Asiakas
+* Asiakasryhmä tai kampanja
+* Aloitus- ja lopetuspäivämäärät
+* Valuutat 
+
+Jos yhdistelmiä on useita, myös hinnastoja on useita.
 
 Jos uusi hinnoittelukokemus on jo otettu käyttöön, oletushinnastot voidaan luoda manuaalisesti tai aiemmin luotu hinnasto voidaan määrittää oletukseksi. Aiemmin luotu hinnasto määritetään oletukseksi siirtämällä **Salli oletusten päivittäminen** -vaihtopainike hinnastossa käyttöönottoasentoon. Määritä hinnasto sitten oletukseksi **Myyntien ja myyntisaamisten asetukset**-, **Ostojen ja ostovelkojen asetukset**- tai **Projektienhallinnan asetukset** -sivuilla.
 
@@ -129,13 +136,14 @@ Jos haluat kopioida myyntihintoja, kuten jonkin yksittäisen asiakkaan hintoja k
    > Tämä eräajo luo ainoastaan ehdotuksia eikä se ota ehdotettuja muutoksia käyttöön. Jos olet tyytyväinen ehdotuksiin ja haluat ottaa ne käyttöön eli lisätä ne **Myyntihinnat**-sivulle, valitse **Ota käyttöön hinnan muutos** -toiminto **Myyntihinnan työkirja** -sivulla.
 
 #### <a name="new-experience"></a>[Uusi kokemus](#tab/new-experience/)  
+Voit määrittää, käyttävätkö uudet hinnastot kopioimasi luettelon otsikon asetuksia vai kopioitavan uuden luettelon asetuksia. Jos haluat käyttää sen hinnaston asetuksia, johon kopioit hinnat, ota käyttöön **Käytä oletusarvoja lähteestä** -vaihto.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntihinnastot** ja valitse sitten liittyvä linkki. 
 2. Valitse kopioitava hinnasto ja valitse sitten **Kopioi rivit**.
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
    > [!NOTE]
-   > Kahdella eri rivillä ei voi olla samoja asetuksia mutta eri hintoja. Jos näin tapahtuu, näyttöön tulee sanoma, kun aktivoit hinnaston. Voit valita käytettävän hinnan avaamalla hinnaston ja poistamalla virheellisen hinnan.  
+   > Kahdella eri nimikkeillä ei voi olla samoja asetuksia mutta eri hintoja. Jos näin tapahtuu, näyttöön tulee sanoma, kun aktivoit hinnaston. Voit valita käytettävän hinnan avaamalla hinnaston ja poistamalla virheellisen hinnan.  
   
 ---
 
@@ -146,8 +154,8 @@ Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käytt
 
 Jos nimikehinnoille halutaan tehdä joukkopäivitys, kuten nostaa kaikkien nimikkeiden hintoja tietyllä prosenttiosuudella, Myyntihinnan työkirja -sivu voidaan täyttää seuraavilla erätöillä:
 
-* **Ehdota myyntihintaa työkirj.** ehdottaa muutoksia käyttämällä muutoskerrointa aiemmin luoduissa myyntihinnoissa tai kopioimalla aiemmin luodut myyntihintasopimukset toisiin asiakkaisiin, asiakashintaryhmiin tai myyntikampanjoihin.
-* **Ehdota nimikehintaa työkirjaan** ehdottaa muutoksia käyttämällä muuntokerrointa nimikekorttien aiemmin luoduissa yksikköhinnoissa tai ehdottamalla hintoja esimerkiksi uusille valuutta- ja mittayksikköyhdistelmille. Erätyö ei muuta nimikkeiden yksikkökohtaisia hintoja.  
+* **Ehdota myyntihintaa työkirj.** Ehdottaa muutoksia kahdella tavalla. Joko käyttämällä muutoskerrointa aiemmin luoduissa myyntihinnoissa tai kopioimalla aiemmin luodut myyntihintasopimukset toisiin asiakkaisiin, asiakashintaryhmiin tai myyntikampanjoihin.
+* **Ehdota nimikehintaa työkirjaan** Ehdottaa muutoksia kahdella tavalla. Joko käyttämällä muuntokerrointa nimikekorttien aiemmin luoduissa yksikköhinnoissa tai ehdottamalla hintoja esimerkiksi uusille valuutta- ja mittayksikköyhdistelmille. Erätyö ei muuta nimikkeiden yksikkökohtaisia hintoja.  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntihintatyökirja** ja valitse sitten liittyvä linkki.  
 2. Valitse **Ehdota nimikehintaa työkirjaan** -toiminto.  
@@ -168,9 +176,9 @@ Jos haluat päivittää monien nimikkeiden hinnat, sinun täytyy luoda uusi hinn
 ---
 
 ## <a name="best-price-calculation"></a>Parhaan hinnan laskenta
-Kun olet kirjannut erikoishintoja ja rivialennuksia myyntien ja ostojen osalta, [!INCLUDE[d365fin](includes/d365fin_md.md)] varmistaa, että voitot ovat aina optimaalisia. Ohjelma laskee myynti- ja ostoasiakirjojen sekä projekti- ja nimikepäiväkirjarivien parhaan hinnan.
+Kun olet tallentanut erikoishinnat ja rivialennukset myynneille ja ostoille, [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee parhaan hinnan myynti- ja ostotositteisiin sekä työ- ja nimikepäiväkirjariveihin.
 
-Paras hinta on tietyn päivän alhaisin sallittu hinta, jolla on suurin sallittu rivialennus. [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee parhaat hinnat, kun se lisää nimikkeiden yksikköhinnan ja rivialennusprosentin uuteen asiakirjaan ja päiväkirjariville.
+Paras hinta on alin hinta, jolla on suurin sallittu rivialennus tiettynä päivänä. [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee parhaat hinnat, kun se lisää yksikköhinnat ja rivialennusprosentit asiakirjan ja päiväkirjan riveille.
 
 > [!NOTE]  
 > Seuraavaksi kerrotaan, miten myynnin paras hinta lasketaan. Samaa laskentaa käytetään ostoissa.
@@ -199,7 +207,7 @@ Ennen kuin myynneissä voi käyttää laskualennuksia, on määritettävä tiett
 
 Jos laskualennukset halutaan laskettavan automaattisesti, **Lask. laskun alennus** -vaihtopainike on siirrettävä käyttöönottoasentoon **Myyntien ja myyntisaamisten asetukset** -sivulla.  
 
-Kullekin asiakkaalle voidaan määrittää, tarjotaanko laskualennuksia, jos lasku täyttää tietyt kriteerit. Näin voidaan tehdä esimerkiksi silloin, kun laskun summa on riittävän suuri. Laskualennuksen voi määrittää paikallisena valuuttana kotimaisille asiakkaille tai ulkomaan valuuttana ulkomaisille asiakkaille.  
+Voit määrittää, myönnetäänkö laskuista alennuksia, kun lasku täyttää tietyt kriteerit kullekin asiakkaalle. Näin voidaan tehdä esimerkiksi silloin, kun laskun summa on riittävän suuri. Laskualennuksen voi määrittää paikallisena valuuttana kotimaisille asiakkaille tai ulkomaan valuuttana ulkomaisille asiakkaille.  
 
 Voit linkittää alennusprosentit tiettyihin laskusummiin kunkin asiakkaan **Asiakkaan laskualennukset** -sivulla. Voit syöttää mitä tahansa prosenttilukuja. Jokainen asiakas voi olla erillisellä sivulla, tai samalle sivulle voi linkittää useita asiakkaita.  
 

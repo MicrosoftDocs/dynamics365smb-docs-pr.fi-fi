@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 03/04/2022
+ms.date: 04/12/2022
 ms.author: bholtorf
-ms.openlocfilehash: 285f0f224853837e2aac6553c34d366afb09f08a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 98a190594dbd2b37f949bdc51e7f810dd739b769
+ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519223"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740309"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen
 
@@ -225,6 +225,15 @@ Sinun on määritettävä tiedot siitä, mitä vaatimuksia maasi veroviranomaise
 [ALV-kannan muutostyökalun käyttö](finance-how-use-vat-rate-change-tool.md)  
 [ALV-rekisterinumeroiden tarkistaminen](finance-how-validate-vat-registration-number.md)  
 [Business Centralin paikalliset toiminnot](about-localization.md)  
+[ALV-raportointi Saksan versiossa](LocalFunctionality/Germany/vat-reporting.md)  
+[Belgian ALV](LocalFunctionality/Belgium/belgian-vat.md)  
+[Italian ALV](LocalFunctionality/Italy/italian-vat.md)  
+[Sähköisten ALV-ja ICP-ilmoitusten määrittäminen Hollannin versiossa](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)  
+[ALV-raportit Espanjan versiossa](LocalFunctionality/Spain/vat-reports.md)  
+[Määritä tavaroiden ja palveluiden veron kirjaus Australian versiossa](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)  
+[ALV Tšekin versiossa](LocalFunctionality/Czech/finance-vat.md)  
+[ALV-raportointi Norjan versiossa](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
+[Tuote-/palveluveron ja harmonisoidun arvonlisäveron ilmoittaminen Kanadassa](LocalFunctionality/Canada/sales-tax-goods-services.md)  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 

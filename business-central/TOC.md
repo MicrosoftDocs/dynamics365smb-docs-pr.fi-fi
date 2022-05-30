@@ -237,21 +237,9 @@
 ##### [Sellaisten kirjattujen asiakirjojen etsiminen, joilla ei ole saapuvia asiakirjatietueita](across-how-find-posted-documents-without-income-document-records.md)
 ##### [Useiden saapuvien asiakirjatietueiden hallinta](across-how-manage-many-income-document-records.md)
 
-### Työnkulku
+### Työnkulut
 #### [Työnkulun yleiskatsaus](across-workflow.md)
-#### Työnkulkujen määrittäminen
-##### [Työnkulkujen määrittäminen](across-set-up-workflows.md)
-##### [Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md)
-##### [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)
-##### [Työnkulun ilmoitukset](across-setting-up-workflow-notifications.md)
-##### [Ilmoitusten vastaanoton ajankohdan ja tavan määrittäminen](across-how-to-specify-when-and-how-to-receive-notifications.md)
-##### [Asettelujen luominen ja muokkaaminen](ui-get-started-layouts.md)
-<!--##### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)-->
-##### [Sähköpostin määrittäminen](admin-how-setup-email.md)
-##### [Työnkulkujen luominen](across-how-to-create-workflows.md)
-##### [Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md)
-##### [Työnkulkujen vienti ja tuonti](across-how-to-export-and-import-workflows.md)
-##### [Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+#### [Business Centralin käyttö Power Automate -työnkuluissa](across-how-use-financials-data-source-flow.md)
 #### Käytä työnkulkuja
 ##### [Käytä työnkulkuja](across-use-workflows.md)
 ##### [Työnkulkujen ottaminen käyttöön](across-how-to-enable-workflows.md)
@@ -259,7 +247,7 @@
 ##### [Tietueen käytön rajoittaminen ja salliminen](across-how-to-restrict-and-allow-usage-of-a-record.md)
 ##### [Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen](across-how-to-view-archived-workflow-step-instances.md)
 ##### [Työnkulkujen poistaminen](across-how-to-delete-workflows.md)
-
+<!--data exchange-->
 ### Sähköinen tiedonsiirto
 #### [OData Exchangen yleiskatsaus](across-data-exchange.md)
 #### [Tietoja tiedonvaihto-kehyksestä](across-about-the-data-exchange-framework.md)
@@ -672,8 +660,18 @@
 #### [Huollon kirjaus](service-service-posting.md)
 #### [Huoltotilausten ja hyvityslaskujen kirjaaminen](service-how-to-post-service-orders.md)
 #### [Lainatavaroiden lainaaminen ja vastaanottaminen](service-how-to-lend-receive-loaners.md)
+<!--Shopify-->
+## Verkkokauppa Shopifylla
+### [Shopify-yhdistimen käytön aloittaminen](shopify/get-started.md)
+### [Synkronoi kaikki kohteet Shopifyn kanssa](shopify/synchronize-items.md)
+### [Asiakkaiden synkronointi Shopifyn kanssa](shopify/synchronize-customers.md)
+### [Myyntitilausten synkronoiminen ja täyttäminen Shopifyn kanssa](shopify/synchronize-orders.md)
+### [Tehtävien suorittaminen taustalla](shopify/background.md)
+### [Shopify-yhdistimen vianmääritys](shopify/troubleshoot.md)
+### [Shopify-yhdistimen UKK](shopify/shopify-faq.md)
+
 <!--Company Hub-->
-## Yritystoiminto
+## Yrityskeskus
 ### [Työnhallinta yritysten välillä yritystoiminnossa](company-hub.md)
 ### [Yritysten lisääminen yritystoimintoon](company-hub-add-company.md)
 ### [Yrityksen keskittimen vianmääritys](company-hub-troubleshooting.md)
@@ -770,6 +768,7 @@
 ##### [Yritysnumerot ja haarakonttorien numerot](LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers.md)
 ##### [Kirjausjakson rajoittaminen](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [Käsittelypäivämäärän määrittäminen kirjauspäivämääräksi](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
+##### [Päiväkirjamallien tekeminen pakollisiksi](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
 
 ### Kanada
 #### [Paikallinen toiminnallisuus Kanadan versiossa](LocalFunctionality/Canada/canada-local-functionality.md)
@@ -823,6 +822,7 @@
 #### ALV
 ##### [ALV:n täsmäytysraporttien tulostaminen](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [ALV-yhteenvedon raportointi](LocalFunctionality/Denmark/vat-vies-reporting.md)
+##### [Intrastatin ALV-rekisterinumeron asetukset](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
 #### Pankkitoiminta ja maksut
 ##### [Maksujen täsmäytyskirjauskansion FIK-tiedot](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [Maksujen ja täsmäytysten (DK) laajennus](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -1329,6 +1329,7 @@
 ##### [Myyntisaamisten Cartera-moduuli](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Maksujen Cartera-moduuli](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII – myynti- ja ostoasiakirjojen lasku- ja hyvityslaskutyypit](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
+##### [SII:n määrittäminen ALV-raportointia varten](LocalFunctionality/Spain/sii-setup.md)
 #### Perusrahoitus
 ##### [Tuloslaskelman saldojen määrittäminen ja sulkeminen](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Tilikartan sisentäminen ja tarkistaminen](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
@@ -1572,6 +1573,17 @@
 ##### [Usein kysytyt kysymykset](ui-outlook-addin-faq.yml)
 ### Määritä raportit
 #### [Raporttivalinta](across-report-selections.md)
+### Luo malleihin perustuvia hyväksynnän työnkulkuja
+#### [Määritä hyväksymistyönkulut](across-set-up-workflows.md)
+#### [Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md)
+#### [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)
+#### [Työnkulun ilmoitukset](across-setting-up-workflow-notifications.md)
+#### [Työnkulkuilmoitusten vastaanoton ajankohdan ja tavan määrittäminen](across-how-to-specify-when-and-how-to-receive-notifications.md)
+#### [Työnkulkujen luominen](across-how-to-create-workflows.md)
+#### [Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md)
+#### [Työnkulkujen vienti ja tuonti](across-how-to-export-and-import-workflows.md)
+#### [Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+<!--Connectors-->
 ### Määritä yhteydet
 #### [Business Central -apuohjelman hankkiminen Exceliin](admin-deploy-excel-addin.md)
 #### Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa 
@@ -1606,7 +1618,8 @@
 ###### [Business Central -sovellusten käyttäminen Power BI:ssa](across-powerbi-business-central-apps.md)
 ##### [Usein kysytyt kysymykset](power-bi-faq.md)
 #### Power Automate:n käyttäminen Business Centralin kanssa
-##### [Business Centralin käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md)
+##### [Business Centralin käyttö Power Automate -työnkuluissa](across-how-use-financials-data-source-flow.md)
+##### [Automaattisten työnkulkujen vianmääritys](across-flow-troubleshoot.md)  
 #### Power Apps:n käyttäminen Business Centralin kanssa
 ##### [Yhteyden muodostaminen Business Central -tietoihin yrityssovelluksen luomista varten Power Appsin avulla](across-how-use-financials-data-source-powerapps.md)
 #### [Vaihtaminen QuickBooks-sovelluksesta Business Centraliin](across-quickbooks-to-business-edition.md)
@@ -1760,23 +1773,6 @@
 ### [Tietojen luottamuksellisuuden luokitteleminen](admin-classifying-data-sensitivity.md)
 ### [Henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen](admin-responding-to-requests-about-personal-data.md)
 ### [Luo uusia yrityksiä](about-new-company.md)
-### Yrityksen määrittäminen RapidStart Servicesin avulla
-#### [RapidStart -yleiskuvaus](admin-set-up-a-company-with-rapidstart.md)
-#### Määritä yrityksen konfigurointi
-##### [Yrityksen konfiguroinnin yleiskuvaus](admin-set-up-company-configuration.md)
-##### [Yrityksen määrittämisen hallinta työkirjassa](admin-how-to-manage-company-configuration-in-a-worksheet.md)
-##### [Määrityspaketin valmisteleminen](admin-how-to-prepare-a-configuration-package.md)
-#### Kokoonpanojen käyttäminen uusissa yrityksissä
-##### [Kokoonpanojen käyttäminen uusissa yrityksissä](admin-apply-configuration-to-new-companies.md)
-##### [Uuden yrityksen luominen](admin-how-to-create-a-new-company.md)
-##### [Uusien yritysten määrittäminen](admin-how-to-configure-new-companies.md)
-##### [Yrityksen määrittäminen ohjatulla RapidStart-toiminnolla](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)
-##### [Tietojen kopioiminen uusiin yrityksiin](admin-how-to-copy-data-to-new-companies.md)
-##### [Kirjauskansion alkusaldojen luominen](admin-how-to-create-journal-opening-balances.md)
-#### [Asiakkaan asetustietojen kerääminen](admin-gather-customer-setup-values.md)
-#### [Asiakastietojen siirtämisen valmisteleminen mallien avulla](admin-use-templates-to-prepare-customer-data-for-migration.md)
-#### [Asiakastietojen siirtäminen](admin-migrate-customer-data.md)
-#### [Vihjeitä: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### [Lokimuutokset](across-log-changes.md)
 ### [Työjonojen käyttäminen ajoitustehtäviin](admin-job-queues-schedule-tasks.md)
 ### [Hallitse tallennustilaa pakkaamalla tietoja tai poistamalla asiakirjoja](admin-manage-documents.md)
