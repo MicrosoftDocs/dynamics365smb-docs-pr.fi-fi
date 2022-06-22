@@ -1,20 +1,20 @@
 ---
 title: PC Näppäimistön Oikoteiden Pikaohje
 description: Tulostusystävällinen pikaohje, joka sisältää PC-käyttäjien suosituimmat oikotiet.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 04/01/2021
-ms.author: bholtorf
-ms.openlocfilehash: 7496c21745e2a27271db8ccb37c9607040e5259b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 05/23/2022
+ms.author: jswymer
+ms.openlocfilehash: 399dd54ea89937dc29def09831688642a9889742
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511595"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799531"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Näppäimistön Pikaohje - Vain PC
 
@@ -27,6 +27,7 @@ ms.locfileid: "8511595"
 |Alt+Vaihto+N|Sulje juuri luotu tietue ja luo uusi tietue|
 |Alt+O|Lisää uusi huomautus valittuun tietueeseen|
 |Alt+Q|Avaa **Kerro**|
+|Ctrl+Alt+Q|Avaa **Etsi tapahtumat**|
 |Alt+Ylänuoli|Avaa työkaluvihje tai tarkistusvirhe|
 |Alt+alanuoli|Avaa avattava luettelo tai haku|
 |Alt+T|Avaa **Omat asetukset** -sivu|
@@ -34,9 +35,9 @@ ms.locfileid: "8511595"
 |Ctrl+Insert|Lisää uusi rivi asiakirjaan|
 |Ctrl-Delete|Poista asiakirjan, päiväkirjan tai työkirjan rivi|
 |Ctrl+Shift+F12|Suurenna asiakirjasivun rivinimikeosa|
-|Ctrl+F1|Avaa sivun ohje<br />Siirry mukautettaessa|
+|Ctrl+F1|Avaa ohjeruutu tai ohjeartikkeli|
 |Ctrl+napsautus|Siirry mukautettaessa|
-|Shift+F12|Avaa roolinhallinta, ominaisuuksien yleiskuvaus|
+|Vaihto+F12|Avaa roolinhallinta, ominaisuuksien yleiskuvaus|
 |F5/Ctrl+F5|Päivitä tai lataa sivu uudelleen|
 |Sarkain/vaihto+sarkain|Siirrä kohdistus seuraavaan/edelliseen elementtiin|
 |F6/Vaihto+F6|Siirry seuraavaan pikavälilehteen/osaan|

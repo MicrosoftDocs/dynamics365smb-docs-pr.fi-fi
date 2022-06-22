@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 2fcc04c05274922a13131178d16c3e27e0b18da1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: aa5e24755b44b2ce7b36a9a6062bf0168c5ddb89
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518729"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799557"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen
 
@@ -95,9 +95,9 @@ Paula edellyttää, että kaikilta asiakkailta laskutetaan 20 prosentin ennakkom
 
     |**Myynnin tyyppi**|**Myyntikoodi**|**Nimikkeen nro**|**Ennakkomaksuprosentti**|  
     |--------------------|--------------------|------------------|----------------------|  
-    |**Asiakas**|**20000**|**1896-S**|**40**|  
-    |**Kaikki asiakkaat**| |**1896-S**|**20**|  
-
+    |**Asiakas**|**20000**|**1896-S**|**40**|
+    |**Asiakas**|**20000**|**1900-S**|**30**|  
+    
     > [!TIP]
     > Maan tai alueen mukaan sinun täytyy myös määrittää veroryhmän koodi **Kustannukset ja kirjaus** -pikavälilehdellä nimikkeille 1896-S. Kun käytät esittely-yritystä, tämä kenttä on jo määritetty.
 

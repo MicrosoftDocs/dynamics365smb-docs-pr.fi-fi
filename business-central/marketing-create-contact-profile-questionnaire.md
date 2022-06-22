@@ -7,39 +7,71 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
+ms.search.form: 5109, 5110
 ms.author: edupont
-ms.date: 06/22/2021
-ms.openlocfilehash: 42ef7c92d138d717f10eb98a7fa9208eaf73ef54
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 05/20/2022
+ms.openlocfilehash: 135ca390dbf00e46deefbe6e195acfbcf11b959c
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140863"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799662"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Liiketoimintakontaktien luokittelu profiilikyselyiden avulla
-Voit määrittää kyselyprofiileja niille kyselyille, joita haluat käyttää, kun syötät tietoja kontaktiesi profiileista. Jokaisessa kyselyssä voit määrittää eri kysymykset, jotka aiot esittää kontakteillesi.  
+
+Voit arvioida prospektin ja tunnistaa parhaat mahdolliset prospektit, joille myyntikampanja kohdistetaan. Voit määrittää kyselyprofiileja niille kyselyille, joita haluat käyttää, kun syötät tietoja kontaktiesi profiileista. Jokaisessa kyselyssä voit määrittää eri kysymykset, jotka kontakteille esitetään. Tällä tavoin voit ryhmitellä kontakteja siten, että kampanjasi kohdistetaan todennäköisemmin oikeille henkilöille kyselyllä määrittämiesi perusteiden perusteella.  
+
+Oikeiden kyselyjen avulla voit arvioida prospekteja ja ryhmitellä ne luokkiin. Voit muodostaa luokittelun perustan käyttämällä olemassa olevia kysymyksiä ja vastauksia ja yhdistelemällä niitä uusien kysymysten ja vastausten kanssa. Arvioinnin jokaiselle vastaukselle määritetään pistearvo. Arvioinnin jokaiselle vastaukselle määritetään pistearvo. Luokille määritettyjen arvovälien (*Arvosta* ja *Arvoon*) mukaan arviointijärjestelmä ryhmittelee kontaktit määrittämiisi luokkiin. Luokkia voivat olla esimerkiksi *ABC-asiakkaat*, *vanhat ja uudet* toimittajat tai *platina-, kulta- tai hopeatason* prospektit.  
 
 Voit saada ohjelman vastaamaan automaattisesti joihinkin kysymyksiin kontakti-, asiakas- tai toimittajatietojen pohjalta.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>Profiilikyselyjen lisääminen
-1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kyselyn asetukset** ja valitse sitten vastaava linkki.  
-2.  Valitse **Uusi**-toiminto.  
-3.  Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kyselyn asetukset** ja valitse sitten vastaava linkki.  
+2. Valitse **Uusi**-toiminto.  
+3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-add-questions-to-a-profile-questionnaire"></a>Kysymyksien lisääminen profiilikyselyyn
-1.  Valitse haluttu profiilikysely. Valitse sitten **Muokkaa kyselyn asetuksia** -toiminto.  
-2.  Valitse ensimmäisellä tyhjällä rivillä **Tyyppi**-kenttä, valitse **Kysymys** ja kirjoita kysymys **Kuvaus**-kenttään. Täytä rivin muut kentät.  
-3.  Napsauta seuraavalla tyhjällä rivillä **Tyyppi**-kenttää, valitse **Vastaus** ja kirjoita vastaus **Kuvaus**-kenttään.  
-4.  Valitse **Priority**-kentässä prioriteetti. Määritä **Arvosta**- ja **Arvoon**-kenttiin pisteväli. Kontaktit, jotka saavat pisteitä määritetyltä väliltä, saavat vastauksen.  
+
+1. Valitse haluttu profiilikysely. Valitse sitten **Muokkaa kyselyn asetuksia** -toiminto.  
+2. Valitse ensimmäisellä tyhjällä rivillä **Tyyppi**-kenttä, valitse **Kysymys** ja kirjoita kysymys **Kuvaus**-kenttään. Täytä rivin muut kentät.  
+
+    Vaihtoehtoisesti voit lisätä kysymykseen tietoja.
+
+    1. Valitse kysymyksen rivi, sitten **Rivi**-valikko ja lopuksi **Kysymyksen tiedot**.  
+
+    2. Valitse **Profiilikysymyksen tiedot** -sivun **Luokittelu**-pikavälilehdessä **Autom. kontaktienluokittelu** -kenttä.  
+
+    3. Valitse **Kontaktin luokittelukenttä** -kentässä **Luokittelu**-vaihtoehto.  
+
+    4. Täytä **Vähimmäisvastaus-%-kenttä**. Oletusarvo on **0**.  
+
+        Tässä kentässä on kysymysten lukumäärä (prosenteissa), johon tulee vastata, jotta ohjelma laskisi tämän luokittelun.
+
+    5. Valitse **Toiminnot**-välilehden **Sivu**-ryhmässä **Vastauksen pisteet**. Valitse Toiminnot, Vastauksen pisteet ja syötä pisteet, jotka haluat antaa **Vastauksen pisteet**-sivulla luetelluille vastauksille.
+
+        Jos haluat saada yleiskuvan pisteistä, jotka olet antanut kullekin vastaukselle, valitse **Vastauspisteet**-toiminto.
+
+    6. Jos haluat suorittaa päivityksen, palaa **Profiilikyselyn määritys** -sivulle. Valitse **Toiminnot**-valikon **Funktiot**-ryhmässä **Päivitä luokittelu**.
+
+    **Profiilikyselyn määritys** -sivulla näkyy niiden yhteyshenkilöiden määrä, jotka täyttävät **Kontaktien lkm** -kentässä ja kunkin yhteyshenkilön **Kontaktin kortti** -kortissa näkyvät ehdot.
+
+3. Napsauta seuraavalla tyhjällä rivillä **Tyyppi**-kenttää, valitse **Vastaus** ja kirjoita vastaus **Kuvaus**-kenttään.  
+4. Valitse **Priority**-kentässä prioriteetti. Määritä **Arvosta**- ja **Arvoon**-kenttiin pisteväli. Kontaktit, jotka saavat pisteitä määritetyltä väliltä, saavat vastauksen.  
 
 Toista nämä vaiheet ja syötä kaikki profiilikyselyn kysymykset ja vastaukset.
 
-Kun olet luonut kyselyn, sinun on luotava kontaktin luokituksia luokitellaksesi kontaktisi. Voit myös määrittää automaattisesti kysymyksiä, jotka on luokiteltu kontaktikortin tietojen perusteella.  
+Kun olet luonut kyselyn, voit käyttää sitä kontaktiesi arviointiin ja luokitteluun. Voit myös määrittää automaattisesti kysymyksiä, jotka on luokiteltu kontaktikortin tietojen perusteella.  
 
 > [!NOTE]
-> Jos syötät kysymyksen, johon ohjelma vastaa automaattisesti, napsauta <STRONG>Rivi</STRONG>, <STRONG>Kysymyskortti</STRONG>, niin voit syöttää ne kriteerit, joita ohjelma käyttää vastatessaan kysymykseen automaattisesti.
+> Jos syötät kysymyksen, johon ohjelma vastaa automaattisesti, napsauta **Rivi**, **Kysymyskortti**, niin voit syöttää ne kriteerit, joita ohjelma käyttää vastatessaan kysymykseen automaattisesti.
+
+## <a name="apply-questionnaires-to-contacts"></a>Kyselyjen soveltaminen kontakteihin
+
+Voit soveltaa kyselyjä manuaalisesti kontakteihin. Avaa vain kulloinenkin kontaktikortti ja valitse **Profiili**-toiminto. Kun sitten olet soveltanut haluamasi kyselyt, voit aloittaa luokkien käytön kampanjoissasi.  
 
 ## <a name="the-automatic-classification-of-contacts"></a>Kontaktien automaattinen luokittelu
+
 Voit saada ohjelman luokittelemaan kontaktisi automaattisesti asiakkaan, toimittajan tai kontaktitietojen mukaan, kun määrittelet automaattisesti vastattuja profiilikysymyksiä **Profiilikyselyjen asetukset** -sivulla.  
 
 > [!NOTE]

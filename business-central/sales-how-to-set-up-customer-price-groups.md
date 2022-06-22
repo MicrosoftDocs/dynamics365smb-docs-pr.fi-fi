@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: customer price groups, discounts, sales prices
 ms.date: 09/30/2021
 ms.author: edupont
-ms.openlocfilehash: 9b2ff8cca6abf8c1f849039deff5a441427bf112
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9abd79500966a946228834166ef554e6a3e70911
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143138"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950063"
 ---
 # <a name="set-up-customer-price-groups"></a>Asiakashintaryhmien määrittäminen
   
@@ -63,6 +63,9 @@ Sen jälkeen, kun olet määrittänyt asiakashintaryhmät, voit syöttää asiak
 
 ## <a name="see-also"></a>Katso myös
 
+[Myynti](sales-manage-sales.md)  
+[Myynnin määrittäminen](sales-setup-sales.md)  
 [Erikoismyyntihintojen ja -alennusten kirjaaminen](sales-how-record-sales-price-discount-payment-agreements.md)  
+[Asiakasalennusryhmien määrittäminen](sales-how-to-set-up-customer-discount-groups.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

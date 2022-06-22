@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b3eb777c7a495c5b4b73ace26151e53403f81f00
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c893513098d5078995e6cab09abcf0d2e0bb2769
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521200"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950354"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Power BI:n ja [!INCLUDE[prod_short](includes/prod_short.md)]in integroinnin ottaminen käyttöön
 
@@ -84,7 +84,7 @@ Tässä osassa käsitellään paikallisen [!INCLUDE[prod_short](includes/prod_sh
 
 4. Luo sovelluksen rekisteröinti [!INCLUDE[prod_short](includes/prod_short.md)]ille Microsoft Azuressa.
 
-    Jos haluat tarkastella [!INCLUDE[prod_short](includes/prod_short.md)] -sivuihin upotettuja Power BI -raportteja, sovelluksen täytyy olla rekisteröity [!INCLUDE[prod_short](includes/prod_short.md)]ille Microsoft Azuressa. Rekisteröity sovellus tarvitsee oikeuden Power BI -palveluihin. Lisätietoja on kohdassa [Paikallisen [!INCLUDE[prod_short](includes/prod_short.md)] -version rekisteröinti Azure AD:ssä muiden palvelujen integrointia varten](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
+    [!INCLUDE[prod_short](includes/prod_short.md)] -sivuille upotettujen Power BI -raporttien näyttämistä varten sovellus on rekisteröitävä [!INCLUDE[prod_short](includes/prod_short.md)]ia varten Microsoft Azuressa. Rekisteröity sovellus tarvitsee Power BI -palvelujen käyttöoikeuden. Sovellus vaatii vähintään **User.ReadWrite.All**-käyttöoikeuden. Jotta käyttäjät voivat tarkastella raportteja jaetuissa Power BI -työtiloissa, sovellus tarvitsee **Workspace.Read.All**-käyttöoikeuden. Lisätietoja on kohdassa [Paikallisen [!INCLUDE[prod_short](includes/prod_short.md)] -version rekisteröinti Azure AD:ssä muiden palvelujen integrointia varten](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
     > [!NOTE]
     > Jos käyttöönotto käyttää NavUserPassword-todennusta, [!INCLUDE[prod_short](includes/prod_short.md)] muodostaa yhteyden samaan Power BI -palveluun kaikilla käyttäjillä. Tämä palvelu määritetään sovelluksen rekisteröinnin yhteydessä. Azure AD -todennuksessa [!INCLUDE[prod_short](includes/prod_short.md)] muodostaa yhteyden yksittäisiin käyttäjätileihin liitettyyn Power BI -palveluun.

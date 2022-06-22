@@ -7,48 +7,43 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 02/23/2022
+ms.date: 06/08/2022
 ms.author: edupont
-ms.openlocfilehash: f6586423ed8fa0254c84d2cd8737d1104f1ecea4
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 929993c80c52857dd01e978552654c7f5a42e496
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366960"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950117"
 ---
 # <a name="unsubscribe-or-remove-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in tilauksen peruuttaminen tai poistaminen
 
 Jos haluat lopettaa [!INCLUDE[prod_short](includes/prod_short.md)]:n käytön, voit sulkea tilisi tai pyytää poistamaan käyttöoikeuden tilistäsi. Suoritettavat vaiheet ovat erilaisia, jos käytössäsi maksuton kokeilu tai jos sinulla on tilaus.  
 
-## <a name="closing-your-free-trial-of-prod_short"></a>Maksuttoman [!INCLUDE[prod_short](includes/prod_short.md)] -kokeilun sulkeminen
+Jos haluat päättää kokeilun, järjestelmänvalvojasi voi tutustua tarkemmin eri kokeiluversioihin ja niiden lopettamiseen [täällä](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 
-Jos rekisteröit maksuttoman kokeilun mutta et halua jatkaa [!INCLUDE[prod_short](includes/prod_short.md)] -käyttöä, voit sulkea tilisi milloin tahansa. On suositeltavaa viedä kaikki omat tiedot, ennen kuin suljet tilin. Voit lukea tietojen viemisestä Exceliin kohdasta [Tietojen vienti muihin rahoitusjärjestelmiin](about-export-data.md#exporting-data-to-other-finance-systems). Jos haluat mieluummin viedä kaikki tiedot Azure Storage -konttiin, Microsoft 365 -järjestelmänvalvoja voi tehdä sen hallintakeskuksessa. Lisätietoja on kohdassa [Tietokantojen vieminen hallintakeskuksessa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export).  
+Jos haluat päättää tilauksen, järjestelmänvalvojan on poistettava tilaus Microsoft 365:n hallintakeskuksesta. Lisätietoja saat [täältä](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?#removing-a-subscription).  
 
-Sinun on pyydettävä Microsoft 365 -järjestelmänvalvojaa poistamaan kokeiluversion tilaus yrityksen tililtä [Microsoft 365 -hallintakeskuksessa](https://admin.microsoft.com/).  
+> [!TIP]
+> On suositeltavaa viedä kaikki omat tiedot, ennen kuin suljet tilin.
 
-Jos olet rekisteröitynyt [!INCLUDE[prod_short](includes/prod_short.md)]iin käyttämällä muuta kuin Microsoft 365 -yritystiliä, sinulla ei ole Microsoft 365 -järjestelmänvalvojaa. Sen sijaan sinun on peruutettava tilaus ottamalla yhteyttä [!INCLUDE[prod_short](includes/prod_short.md)]in peruutustiimiin. Lähetä sähköpostiviesti osoitteeseen [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). Lisää viestiin tunnistamista varten oman [!INCLUDE[prod_short](includes/prod_short.md)]-vuokraajan nimi. Nämä tiedot löytyvät **Ohje ja tuki** -sivulta. Lisätietoja on kohdassa [Resurssit ohjeelle ja tuelle](product-help-and-support.md).  
-
-## <a name="unsubscribing-by-removing-prod_short-from-your-microsoft-365-experience"></a>Tilauksen peruuttaminen poistamalla [!INCLUDE[prod_short](includes/prod_short.md)] Microsoft 365:stä
-
-Jos yritys tilaa [!INCLUDE[prod_short](includes/prod_short.md)]ia, mutta käyttäjänä et enää halua käyttää sitä, sinun on pyydettävä järjestelmänvalvojaa tai Dynamics 365 -jälleenmyyjäkumppaniasi poistamaan [!INCLUDE[prod_short](includes/prod_short.md)] -käyttöoikeus Microsoft 365 -käyttäjätililtäsi. Jos [!INCLUDE[prod_short](includes/prod_short.md)] on poistettu käyttäjätililtä ja muut yritys jatkaa tilausta, työtoverisi voivat jatkaa jakamiesi tietojen käyttöä [!INCLUDE[prod_short](includes/prod_short.md)] -yrityksessä.  
-
-Jos yrityksesi haluaa peruuttaa [!INCLUDE[prod_short](includes/prod_short.md)] -tilauksen, Dynamics 365 -jälleenmyyjäkumppani voi poistaa tilauksen yrityksen tilistä. Lisätietoja on ohjeaiheen [Business Central Onlinen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-administration) kehittäjien ja IT-ammattilaisten kohdassa.  
-
-Käyttäjätilejä ja käyttöoikeustiedostoja hallitaan kohdassa [Microsoft 365 -hallintakeskus](https://admin.microsoft.com/). Vain järjestelmänvalvojat voivat poistaa [!INCLUDE[prod_short](includes/prod_short.md)] -lisenssit käyttäjätileiltä tai tilauksen yrityksen tililtä.  
+Voit lukea tietojen viemisestä Exceliin kohdasta [Tietojen vienti muihin rahoitusjärjestelmiin](about-export-data.md#exporting-data-to-other-finance-systems). Jos haluat mieluummin viedä kaikki tiedot Azure Storage -konttiin, Microsoft 365 -järjestelmänvalvoja voi tehdä sen hallintakeskuksessa. Lisätietoja on kohdassa [Tietokantojen vieminen hallintakeskuksessa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export).  
 
 ## <a name="removing-prod_short-from-your-app-launcher"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in poistaminen sovellusten käynnistysohjelmasta
 
-Jos haluat piilottaa [!INCLUDE[prod_short](includes/prod_short.md)]in sovellusten käynnistysohjelmalta, sinun tarvitsee vain poistaa sen kiinnitys. Tällöin tietoja ei poisteta, eikä tilausta peruuteta.  
+Jos haluat piilottaa [!INCLUDE[prod_short](includes/prod_short.md)]in sovellusten käynnistysohjelmalta, voit poistaa sen kiinnityksen. Tietoja ei menetetä, eikä tämä vaihe peruuta tilaustasi.  
 
 ## <a name="see-also"></a>Katso myös
 
+[Business Central -kokeiluversion usein kysytyt kysymykset](trial-faq.md)  
+[Kokeilut ja tilaukset (järjestelmänvalvojille)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
-[Uusien yritysten luominen](about-new-company.md)  
-[Liiketoimintatietojen vienti Exceliin](about-export-data.md)  
+[Luo uusia yrityksiä](about-new-company.md)  
+[Liiketoimintatietojen vieminen Exceliin](about-export-data.md)  
 [Microsoft 365 -hallintakeskus](https://admin.microsoft.com/)  
 [Mikä on kokeilujakson pituus ja miten kokeilu peruutetaan?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
-[Liiketoimintatietojen vienti Exceliin](about-export-data.md)  
+[Liiketoimintatietojen vieminen Exceliin](about-export-data.md)  
 [Tietokantojen vienti hallintakeskuksessa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export)  
-
+[Microsoft 365 Businessin tilaus- ja laskutusdokumentaatio](/microsoft-365/commerce/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

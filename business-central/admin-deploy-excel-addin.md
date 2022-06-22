@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: beb7a01986d12458e0615918608b44a6d90c269c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e8229b1d911b51e065b3d5a94fff1a0253bd5e26
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518413"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950089"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Business Central -apuohjelman hankkiminen Exceliin
 
@@ -130,8 +130,7 @@ Toisinaan käyttäjät kohtaavat ongelmia Excel-apuohjelmassa. Tässä osassa on
 |Tietoja ei voi julkaista takaisin osoitteeseen [!INCLUDE [prod_short](includes/prod_short.md)].|Testaa yhteys avaamalla työkirja Excelissä selaimessa. |Joskus laajennus voi estää julkaisutyön. Jos sivua on laajennettu tai mukautettu, poista laajennukset ja yritä uudelleen.|
 |Päivämäärät ovat vääriä  |Excel saattaa näyttää ajat ja päivämäärät eri muodossa kuin kohdassa [!INCLUDE [prod_short](includes/prod_short.md)]. Tämä ei tee niistä virheellisiä, eivätkä tiedot kohdassa [!INCLUDE [prod_short](includes/prod_short.md)] mene sekaisin.|         |
 |Joillakin luettelosivuilla useiden rivien muokkaaminen Excelissä aiheuttaa toistuvasti virheitä. Tämä ehto voi ilmetä, jos OData-kutsut sisältävät FlowFields-kenttiä ja kenttiä toistinohjausobjektin ulkopuolella.|Valitse **Verkkopalvelut**-sivulla **Jätä pois ei-muokattavat FlowField-kentät**- ja **Jätä pois toistimen ulkopuoliset kentät** -valintaruudut julkaistulle sivulle. Jos valitset nämä valintaruudut, se jättää pois ei-muokattavat FlowField-kentät ja kentät eTag-laskennasta. |Nämä valintaruudut on oletusarvoisesti piilotettu. Voit näyttää ne **Verkkopalvelut**-sivulla käyttämällä [mukauttamista](/dynamics365/business-central/ui-personalization-user). |
-
-
+|Käyttäjät eivät voi enää kirjautua apuohjelmaan. Kun he yrittävät kirjautua, prosessi pysähtyy ilman loppuun suorittamista.| Tämä ongelma saattaa johtua apuohjelmaan jossakin vaiheessa heinäkuuta 2022 tekemästämme päivityksestä. Lisätietoja ja korjauskeino: [Muokkaa Excelin apuohjelmamääritys tukemaan heinäkuun 2022 päivitystä](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Koskee vain paikallista [!INCLUDE [prod_short](includes/prod_short.md)]ia|
 
 <!--
 ## Deploy the Excel add-in for Business Central online

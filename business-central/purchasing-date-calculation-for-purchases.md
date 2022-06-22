@@ -1,58 +1,68 @@
 ---
-title: Ostojen päivämäärälaskenta
-description: Sovellus laskee automaattisesti päivämäärän, jolloin nimike on tilattava sen saamiseksi tietyn päivän varastoon.
-author: SorenGP
+title: Ostojen päivämäärien laskeminen
+description: Tässä artikkelissa kuvataan, miten ostoille voi laskea päivämäärät.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: 35151e830c44cb3edd28988887f86b8abf7a3b51
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
+ms.search.forms: ''
+ms.date: 02/06/2022
+ms.author: bholtorf
+ms.openlocfilehash: 6a3d7244beef57a1b5a82b881ec193316fe968fe
+ms.sourcegitcommit: 7a6efcbae293c024ca4f6622c82886decf86c176
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514879"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "8841864"
 ---
-# <a name="date-calculation-for-purchases"></a>Ostojen päivämäärälaskenta
+# <a name="calculate-dates-for-purchases"></a>Ostojen päivämäärien laskeminen
 
-[!INCLUDE[prod_short](includes/prod_short.md)] laskee automaattisesti päivämäärän, jona nimike on tilattava sen saamiseksi tietyn päivän varastoon. Tämä on päivämäärä, jona voi odottaa tiettynä päivänä tilattujen nimikkeiden olevan valmiita poimittaviksi.  
+Jos haluat, että nimikkeitä on varastossa tiettynä päivänä, [!INCLUDE[prod_short](includes/prod_short.md)] voi automaattisesti laskea päivämäärän, jona sinun on tilattava ne. 
 
-Jos määrität ostotilauksen otsikolle pyydetyn vastaanottopäivämäärän, laskettu tilauspäivämäärä on päivämäärä, jona tilaus on asetettava vastaanottamaan nimikkeet pyytämänäsi päivämääränä. Sitten lasketaan päivämäärä, jolloin nimikkeet ovat poimittavissa, ja syötetään se **Oletettu vastaanottopvm** -kenttään.  
+Tuloksena on päivämäärä, jona voit poimia tilaamasi nimikkeet.  
 
-Jos et määritä pyydettyä vastaanottopäivämäärää, ohjelma käyttää rivillä olevaa tilauspäivämäärää lähtökohtana laskiessaan päivämäärän, jona voit olettaa vastaanottavasi nimikkeet, ja päivämäärän, jona nimikkeet ovat poimittavissa.  
+Jos määrität pyydetyn vastaanottopäivämäärän ostotilausrivillä, laskettu tilauspäivämäärä on päivämäärä, jona sinun on tehtävä tilaus. Päivämäärä, jona nimikkeet ovat poimittavissa, tulee näkyviin **Oletettu vastaanottopvm** -kentässä.  
+
+Jos et määritä pyydettyä vastaanottopäivämäärää, päivämäärä, jona oletat vastaanottavasi nimikkeet, perustuu rivin tilauspäivämäärään. 
+
+Vastaanottopäivä on myös se päivämäärä, jona nimikkeet ovat poimittavissa.  
+
+> [!TIP]
+> Monet tässä artikkelissa mainitut päivämääräkentät ovat oletusarvoisesti piilotettuna ostotilausriveillä. Jos kenttä ei ole käytettävissä, voit lisätä sen mukauttamalla sivua. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
 ## <a name="calculating-with-a-requested-receipt-date"></a>Laskeminen pyydetyn vastaanottopäivämäärän avulla
 
-Jos ostotilausrivillä on pyydetty vastaanottopäivämäärä, ohjelma käyttää tätä päivämäärää lähtökohtana seuraaville laskennoille:  
+Jos ostotilausrivillä on pyydetty vastaanottopäivämäärä, se on perustana seuraaville laskennoille:  
 
 - Pyydetty vast.ottopvm - Toimitusajan laskenta = Tilauspvm  
 - Pyydetty vast.otto pvm + Saapuva f.var. Käsittelyaika + Toimitusajan varmistus = Oletettu vast.otto pvm  
 
-Jos syötit ostotilauksen otsikkoon pyydetyn vastaanottopäivämäärän, ohjelma kopioi tämän päivämäärän kaikkien tilausrivien vastaavaan kenttään. Päivämäärää voi muuttaa tarpeen mukaan millä tahansa rivillä, tai rivillä olevan päivämäärän voi poistaa.  
+Jos määrität pyydetyn vastaanottopäivämäärän ostotilausrivillä, kyseinen päivämäärä osoitetaan uusille riveille, jotka luot. Voit muuttaa riveillä olevaa päivämäärää tai poistaa sen.  
 
 > [!NOTE]
 > Jos prosessi perustuu taaksepäin laskentaan ja esimerkiksi tilauspäivä saadaan käyttämällä pyydettyä vastaanottopäivää, on suositeltavaa käyttää päivämääräkaavoja, joiden kesto on kiinteä. Sellainen on esimerkiksi 5P viidelle päivälle tai 1V yhdelle viikolle. Päivämääräkaava, jonka kesto ei ole kiinteä, kuten KV kuluvalle viikolle tai KK kuluvalle kuukaudelle, voi aiheuttaa virheellisiä päivämäärälaskelmia. Lisätietoja päivämääräkaavoista on kohdassa [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md).
 
 ## <a name="calculating-without-a-requested-delivery-date"></a>Laskeminen ilman pyydettyä toimituspäivämäärää
 
-Jos lisäät ostotilausrivin ilman pyydettyä toimituspäivämäärää, ohjelma lisää rivin **Tilauspvm**-kenttään ostotilauksen tunnistetietojen **Tilauspvm**-kentän päivämäärän. Tällöin tilauspäivämäärä on joko lisäämäsi päivämäärä tai käsittelypäivämäärä. Ohjelma laskee sen jälkeen seuraavat päivämäärät ostotilausriville käyttäen tilauspäivämäärää lähtökohtana:  
+Jos lisäät ostotilausrivin ilman pyydettyä toimituspäivämäärää, ohjelma näyttää rivin **Tilauspvm**-kentässä ostotilauksen tunnistetietojen **Tilauspvm**-kentän päivämäärän. Tämä päivämäärä on joko lisäämäsi päivämäärä tai käsittelypäivämäärä. Ohjelma laskee sen jälkeen päivämäärät ostotilausriville käyttäen tilauspäivämäärää lähtökohtana seuraavasti:  
 
 - tilauspvm + toimitusajan laskenta = suunniteltu vast.ottopvm.  
 - Suunniteltu vast.otto pvm + Saapuva f.var. Käsittelyaika + Toimitusajan varmistus = Oletettu vast.otto pvm  
 
-Jos muutat rivillä olevaa tilauspäivämäärää (esimerkiksi siitä syystä, että nimikkeet eivät ole saatavilla toimittajallasi ennen kuin myöhempänä ajankohtana), ohjelma laskee automaattisesti uudelleen riville asianmukaiset päivämäärät.  
-
-Jos muutat tilauspäivämäärää tunnistetiedoissa, ohjelma kopioi tämän päivämäärän kaikkien rivien **Tilauspvm**-kenttiin, ja tämän jälkeen se laskee kaikki asiaan liittyvät päivämääräkentät uudelleen.  
+Jos muutat rivin tilauspäivämäärää, [!INCLUDE[prod_short](includes/prod_short.md)] laskee muut päivämäärät uudelleen.  
 
 ## <a name="default-values-for-lead-time-calculation"></a>Toimitusajan laskennan oletusarvot
 
-[!INCLUDE[prod_short](includes/prod_short.md)] laskee tilauksen ja oletetut vastaanottopäivämäärät käyttäen ostotilausrivin **Toimitusajan laskenta** -kentän arvoa.  
+[!INCLUDE[prod_short](includes/prod_short.md)] laskee tilauksen ja oletetut vastaanottopäivämäärät käyttäen ostotilausrivin **Toimitusajan laskenta** -kentän päivämääräkaavaa.  
 
-Voit määrittää manuaalisesti rivin arvon tai antaa ohjelman käyttää arvoja, jotka on määritetty toimittajan kortissa, nimikkeen kortissa, varastointiyksiköiden kortissa tai nimikkeen toimittajakatalogissa.
-Toimittajan kortin toimitusajan arvoa käytetään kuitenkin vain, jos toimitusajan nimikettä ei ole määritetty nimikkeen kortissa, varastointiyksiköiden kortissa tai nimikkeen toimittajakatalogissa. Tämä on myös näiden arvojen priorisointijärjestys. Jos ne ovat kaikki käytettävissä, toimittajan kortin toimitusajalla on alhaisin prioriteetti, ja nimikkeen toimittajakatalogin toimitusajalla on korkein prioriteetti.  
+Voit määrittää rivien päivämääräkaavan manuaalisesti. Muussa tapauksessa [!INCLUDE[prod_short](includes/prod_short.md)] käyttää seuraavilla sivulla määritettyjä kaavoja seuraavassa ensisijaisuusjärjestyksessä:
+
+1. Nimike-/toimittajaluettelo
+2. Nimikkeen kortti
+3. Varastointiyksikön kortti
+4. Toimittajan kortti
 
 ## <a name="see-also"></a>Katso myös
 

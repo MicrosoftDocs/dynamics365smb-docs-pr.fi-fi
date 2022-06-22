@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 03/31/2022
+ms.date: 06/08/2022
 ms.author: jswymer
-ms.openlocfilehash: 8a2c342f31dc4c17bb34af22ffc912dcc51c5cf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 05ff8b9acb0c69f42c8ad36ab8a588c9b597424a
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514411"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950434"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Business Central -sovelluksen käytön vähimmäisvaatimukset
 
@@ -22,17 +22,20 @@ Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen jär
 
 ## <a name="browsers"></a>Selaimet
 
-**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] on suunniteltu käytettäväksi uuden Microsoft Edgen nykyisen version kanssa.
+**Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] on suunniteltu käytettäväksi nykyisen Microsoft Edge -version kanssa.
   
-**Chrome Windowsille ja Firefox Windowsille**: [!INCLUDE[prod_short](includes/prod_short.md)] on suunniteltu käytettäväksi näiden työpöytäselaimien nykyisten versioiden kanssa. Business Central -työpöytäsovellus ei toimi kohteen Firefox kanssa.
+**Chrome Windowsille ja Firefox Windowsille**: [!INCLUDE[prod_short](includes/prod_short.md)] on suunniteltu käytettäväksi näiden työpöytäselaimien nykyisten versioiden kanssa.
  
 **Safari:** [!INCLUDE[prod_short](includes/prod_short.md)] on suunniteltu käytettäväksi macOS-käyttöjärjestelmän nykyisen Safari-version kanssa.  
 
+> [!TIP]
+> Asenna [!INCLUDE[prod_short](includes/prod_short.md)] [-sovellus Käynnistä-valikkoon](install-desktop-app.md#install-the-app-for-business-central-online) käyttäen Microsoft Edge- tai Chrome-selainta.
+
 ## <a name="mobile-devices"></a>Mobiililaitteet
 
-**Android (tabletti ja puhelin):** jokin kolmesta viimeisimmästä pääversiosta ja niiden päivityksistä.
+**Android (tabletti ja puhelin):** jokin kolmesta viimeisimmästä käyttöjärjestelmän pääversiosta ja niiden päivityksistä.
 
-**iOS (iPad ja puhelin):** jokin kolmesta viimeisimmästä pääversiosta ja niiden päivityksistä.
+**iOS (iPad ja puhelin):** jokin kolmesta viimeisimmästä käyttöjärjestelmän pääversiosta ja niiden päivityksistä.
 
 ## <a name="outlook"></a>Outlook 
 
@@ -53,6 +56,8 @@ Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen jär
 
 **Ympäristöt:** Kun Teamsin [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen iOS- tai Android-versio on käytössä, sovellus edellyttää, että mobiililaitteessa käytetään jotakin aiemmin tässä artikkelissa mainittua tuettua mobiiliympäristöä.
 
+**Tuettu tilaus:** [!INCLUDE[prod_short](includes/prod_short.md)] -sovellus Teamsia varten tukee Microsoft 365 Business- ja -Enterprise-tilauksia, mutta ei erillisiä Teams-tilauksia (kuten Microsoft Teams (maksuton) tai Microsoft Teams Essentials).
+
 ## <a name="excel"></a>Excel
 
 **Muokkaa Excelissä:** Jotta voit tehdä muutoksia Excelissä ja tuoda muutokset takaisin [!INCLUDE[prod_short](includes/prod_short.md)]:een Excel-lisäosan avulla, tarvitset Excel 2019 -version tai uudemman. Lisätietoja on kohdassa [Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md).  
@@ -64,18 +69,22 @@ Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen jär
 
 Administration Center toimii seuraavien selainten uusimman version kanssa:
 
-- Uusi Microsoft Edge
+- Microsoft Edge
 - Chrome Windowsille
 - Firefox Windowsille
 - Safari MacOSille
 
 ## <a name="use-business-central-on-premises"></a>Käytä Business Central on-premises -versiota
 
-Jos haluat ottaa käyttöön paikallisen Business Central -sovelluksen, tarkista järjestelmän vaatimukset. Lisätietoja on kohdassa [Dynamics 365 Business Centralin järjestelmävaatimukset](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18) ja [Käyttöönoton yleiskatsaus](/dynamics365/business-central/dev-itpro/deployment/deployment).  
+Jos haluat ottaa käyttöön paikallisen Business Central -sovelluksen, tarkista järjestelmän vaatimukset. Lisätietoja on kohdassa [Dynamics 365 Business Central -sovelluksen järjestelmävaatimukset](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20) ja [Käyttöönoton yleiskatsaus](/dynamics365/business-central/dev-itpro/deployment/deployment)  
 
 ## <a name="see-also"></a>Katso myös
 
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
-[Dynamics 365 Business Centralin järjestelmävaatimukset](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v18)  
+[Dynamics 365 Business Central -sovelluksen järjestelmävaatimukset](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20)  
+[Business Central -työpöytäsovelluksen hankkiminen](install-desktop-app.md)  
+[Business Centralin hakeminen mobiililaitteeseen](install-mobile-app.md)  
+[Liiketoiminnallisten vuorovaikutusten hallinta Microsoft Outlookissa](admin-outlook.md)  
+[Business Centralin ja Microsoft Teamsin integraatio](across-teams-overview.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

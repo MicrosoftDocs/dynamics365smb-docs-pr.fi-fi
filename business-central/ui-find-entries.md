@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.search.form: 344
-ms.date: 04/01/2021
+ms.date: 05/23/2022
 ms.author: jswymer
-ms.openlocfilehash: a577e4723f7880b9e94babd645b7f35324e7d1ea
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: c5c35c8bc6a3a7827ae2893c79ce883bff6b05ea
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654785"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799847"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Liittyvien tapahtumien etsiminen kirjatuista asiakirjoista 
 
@@ -27,9 +27,9 @@ Tässä artikkelissa opit etsimään toisiinsa liittyviä asiakirjoja ja tapahtu
 
 Tämä ominaisuus on hyödyllinen etsittäessä tietyistä tapahtumista syntyneitä tapahtumia. Kun etsit asiakirjan numeroiden perusteella, voit myös tulostaa yhteenvedon Asiakirjatapahtumat-raportista.
 
-## <a name="get-started"></a>Aloitus
+## <a name="get-started"></a>Aloittaminen
 
-Etsi tapahtumat -toiminto on helposti saatavilla useimmilla sivuilla, joilla näkyvät kirjatut asiakirjat tai kirjattujen asiakirjojen tapahtumat – sekä luettelot että kortit. Joten ensimmäinen askel on avata yksi näistä sivuista. Valitse sitten **Etsi tapahtumat** -toiminto tai paina Ctrl+Alt+G-näppäimiä.
+Tapahtumahakutoiminto on helposti käytettävissä melkein millä tahansa sivulla näppäinyhdistelmällä Ctrl + Alt + Q. Sivuilla, jotka näyttävät nimenomaisesti kirjattuja asiakirjoja tai kirjattuja asiakirjatapahtumia &mdash; sekä luettelojen että korttien osalta &mdash;, voit avata toiminnon myös valitsemalla **Hae tapahtumia** -toiminnon.
 
 **Etsi tapahtumat** -sivu sisältää kaikki asiaan liittyvät asiakirjat ja tapahtumat asiakirjan nro-kentän ja kirjauspäivämäärän perusteella. Sivu jakautuu kolmeen osaan:
 

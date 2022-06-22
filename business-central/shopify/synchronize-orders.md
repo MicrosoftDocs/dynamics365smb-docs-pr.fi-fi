@@ -1,18 +1,18 @@
 ---
 title: Myyntitilausten synkronoiminen ja täyttäminen
 description: Määritä ja suorita myyntitilauksen tuonti ja käsittely Shopifysta.
-ms.date: 05/16/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: e7c54cc620011d238942c093a05918e2f4e57c7d
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 4e8d640f6de61d642037a55fdfeb09e32f197a96
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768123"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809011"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Myyntitilausten synkronoiminen ja täyttäminen
 
@@ -27,7 +27,7 @@ Tavallisella Shopify-tilauksella voi olla ylimääräisiä summia, kuten kuljetu
 - **Tippitili**  
 
 Ota käyttöön **Automaattiset tilaukset**, joiden avulla voit luoda myyntiasiakirjoja automaattisesti [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa, kun Shopify-tilaus on tuotu.
-[!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelman myyntiasiakirjassa on linkki Shopify-tilaukseen. Jos otat käyttöön **Shopify-tilausnumeron asiakirjassa asiak. rivi**, tämä tieto toistetaan myyntirivillä, jonka tyyppi on *Kommentti*.
+[!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelman myyntiasiakirjassa on linkki Shopify-tilaukseen. Jos valitset **Shopify-tilausnumeron asiakirjassa asiak. rivi** -kentän, tämä tieto toistetaan myyntiriveillä, joiden tyyppi on *Kommentti*.
 
 **Veroaluelähde**-kentässä voit määrittää, miten veroaluekoodi- tai liiketoiminnan ALV-kirjausryhmä valitaan osoitteen perusteella. Tämä vaihe on merkityksellinen maissa, joissa on myyntivero, mutta sitä voi käyttää ALV-maissa. Lisätietoja on kohdassa [Verotukselliset huomautukset](synchronize-orders.md#tax-remarks).
 
@@ -71,16 +71,20 @@ Seuraavassa kuvataan, miten myyntitilaukset tuodaan ja päivitetään.
 
 Vaihtoehtoisesti voit etsiä **synkronoituja tilauksia Shopifysta** -erätyötä.
 
-Kun tuonti on valmis, voit tutkia Shopify-tilausta ja löytää kaikki asiaan liittyvät tiedot, kuten maksutapahtumat, toimituskulut, täytäntöönpanot, riskitason. Voit myös tarkastella asiakkaalle lähetettyä tilausvahvistusta valitsemalla **Shopify-tilasivu**-toiminnon.
+Voit ajoittaa tehtävän suoritettavaksi automaattisesti. Lisätietoja on kohdassa [Toistuvien tehtävien ajoitus](background.md#to-schedule-recurring-tasks).
+
+## <a name="review-imported-orders"></a>Tuotujen tilausten tarkistaminen
+
+Kun tuonti on valmis, voit tutkia Shopify-tilausta ja löytää kaikki siihen liittyvät tiedot. Voit esimerkiksi etsiä maksutapahtumat, toimituskulut, riskitason tai täyttämiset, jos tilaus on jo täytetty Shopifyssa. Voit myös tarkastella mitä tahansa asiakkaalle lähetettyä tilausvahvistusta valitsemalla **Shopify-tilasivu**-toiminnon.
 
 > [!NOTE]  
 > Voit siirtyä **Shopify-tilaukset**-ikkunaan suoraan, jolloin näet tilaukset, joissa on *avoin* tila kaikista kaupoista. Jos haluat tarkastella valmiita tilauksia, sinun täytyy avata **Shopify-tilaukset**-sivu tietystä **Shopify-ostoskortti**-ikkunasta.
 
-## <a name="create-sales-document-in-business-central"></a>Luo myyntiasiakirja Business Centralissa
+## <a name="create-sales-documents-in-business-central"></a>Luo myyntiasiakirjoja Business Centralissa
 
-Jos **Tilausten automaattinen luominen**-vaihto on otettu käyttöön **Shopify-ostoskortissa**, [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelma yrittää luoda myyntiasiakirjan, kun tilaus tuodaan. Siinä tapauksessa, että prosessi kohtaa ongelmia, esimerkiksi jos asiakas tai tuote puuttuu, sinun täytyy korjata ongelma ja yrittää luoda myyntitilaus uudelleen.
+Jos **Tilausten automaattinen luominen**-vaihto on otettu käyttöön **Shopify-ostoskortissa**, [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelma yrittää luoda myyntiasiakirjan, kun tilaus tuodaan. Jos prosessissa esiintyy ongelmia, kuten jos asiakas tai tuote puuttuu, sinun on korjattava ongelma. Tämän jälkeen voit yrittää luoda myyntitilauksen uudelleen.
 
-### <a name="to-create-sales-document"></a>Myyntiasiakirjan luominen
+### <a name="to-create-sales-documents"></a>Myyntiasiakirjojen luominen
 
 1. Siirry hakuun ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeeseen, syötä **Shopify-myymälä** ja valitse sitten vastaava linkki.
 2. Valitse kauppa, jolle haluat synkronoida tilaukset avataksesi **Shopify-ostoskortti**-sivun.
@@ -88,7 +92,7 @@ Jos **Tilausten automaattinen luominen**-vaihto on otettu käyttöön **Shopify-
 4. Valitse tilaus, jolle haluat luoda myyntiasiakirjan ja valitse **Luo myyntiasiakirjat** -toiminto.
 5. Valitse **Kyllä**.
 
-Jos Shopify-tilaus edellyttää täyttämistä, **myyntitilaus** luodaan täytetyille Shopify-tilauksille. Esimerkiksi ne, jotka sisältävät vain lahjakortin, **myyntilaskun** saa luoda.
+Jos Shopify-tilaus edellyttää täyttämistä, **Myyntitilaus** luodaan. Täysin täytettyjen Shopify-tilausten, kuten vain lahjakortin sisältävien tilausten tai jo Shopifyssa käsiteltyjen tilausten, osalta luodaan **Myyntilasku**.
 
 Myyntiasiakirja luodaan nyt, ja sitä voidaan hallita [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelman vakiotoimintojen avulla.
 
@@ -102,7 +106,7 @@ Jos asetukset estävät asiakkaan luomisen automaattisesti ja oikeaa olemassa ol
 
 ### <a name="tax-remarks"></a>Verohuomautukset
 
-Kun tuotu Shopify-tilaus sisältää tietoja veroista, verot lasketaan uudelleen, kun luot myyntiasiakirjaa. Siksi on tärkeää, että alv-/vero-asetukset ovat oikein [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa.
+Kun tuotu Shopify-tilaus sisältää tietoja veroista, verot lasketaan uudelleen, kun luot myyntiasiakirjan. Uudelleenlaskennan vuoksi on tärkeää, että ALV-/veroasetukset ovat [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa oikein.
 
 - Useat tuotevero-/ALV-prosentit. Esimerkiksi jotkin tuoteluokat ovat oikeutettuja alennettuihin veroprosentteihin. Nimikkeiden täytyy olla [!INCLUDE[prod_short](../includes/prod_short.md)] -järjestelmässä ja niitä on yhdistettävä Shopify-tuotteisiin. Muussa tapauksessa käytetään automaattista puuttuvien nimikkeiden luontia, tuotteen ALV-kirjausryhmä otetaan käyttöön.
 

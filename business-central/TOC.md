@@ -101,13 +101,13 @@
 ## Kokeile
 ### [Rekisteröidy maksuttoman Dynamics 365 Business Central kokeiluversion käyttäjäksi](trial-signup.md)
 ### [Dynamics 365 Business Central kokeiluversion usein kysytyt kysymykset](trial-faq.md)
-### [Kokeilut ja tilaukset](across-preview.md)
+### [Kokeilut ja tilaukset (vain englanniksi)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)
 ### [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)
 ### [Itsepalvelun rekisteröitymisen vianmääritys](ui-troubleshoot-self-signup.md)
 ### [Kokeilujakson jatkaminen](admin-extend-trial.md)
 ### [Business Centralin poistaminen tai tilauksen peruuttaminen](admin-cancel.md)
 ## Osta
-### [Tilauksen käytön aloittaminen](across-preview.md#get-started-with-a-subscription)
+### [Tilauksen käytön aloittaminen](trial-signup.md#get-started-with-a-subscription)
 ### [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)
 
 ## Pikaoppaat
@@ -358,6 +358,7 @@
 #### [Tietoja varaston arvostuksesta](finance-learn-about-costing.md)
 #### [Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md)
 #### [Tietoja standardikustannuksen laskemisesta](finance-about-calculating-standard-cost.md)
+#### [Tietoja yksikkökustannuslaskennasta](finance-about-calculating-unit-cost.md)
 #### [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)
 #### [Varastokausien käsitteleminen](finance-how-to-work-with-inventory-periods.md)
 #### [Varastonarvostuksen ja kustannuslaskennan määrittäminen](finance-set-up-inventory-valuation-and-costing.md)
@@ -1424,6 +1425,7 @@
 ##### [USA:n myyntivero](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Myyntiveron raportointi USA:ssa](LocalFunctionality/UnitedStates/us-sales-tax.md)  
 ##### [Tapahtumien ilmoittaminen 1099-lomakkeella USA:ssa](LocalFunctionality/UnitedStates/tax-1099.md)  
+##### [Määritä IRS 1099 -lomake ja käytä sitä](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Käyttöveron ja ostoveron määrittäminen](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Toteutumattoman myyntiveron ja myynnin maksualennusten määrittäminen](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Pankkitoiminta ja maksut
@@ -1474,6 +1476,7 @@
 #### [Asiakasmaksujen ottaminen käyttöön maksupalvelujen kautta](sales-how-enable-payment-service-extensions.md)
 #### [Erikoismyyntihintojen ja -alennusten kirjaaminen](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Asiakashintaryhmien määrittäminen](sales-how-to-set-up-customer-price-groups.md)
+#### [Asiakasalennusryhmien määrittäminen](sales-how-to-set-up-customer-discount-groups.md)
 #### [Myyjien määrittäminen](sales-how-setup-salespeople.md)
 #### [Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md)
 #### [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)
@@ -1811,12 +1814,12 @@
 #### [QuickBooks Online -tietojen siirto](ui-extensions-quickbooks-online-data-migration.md)
 #### [Quickbooks Payroll -tiedostojen tuonti](ui-extensions-quickbooks-payroll.md)
 #### [Myynti- ja varastoennuste](ui-extensions-sales-forecast.md)
-#### [ALV-ryhmän hallinta](ui-extensions-vat-group.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [DK – C5-tietojen siirto](ui-extensions-c5-data-migration.md)
 #### [DK - Maksut ja täsmäytykset](ui-extensions-payments-reconciliation-formats-dk.md)
 #### [DK – Verotiedostomuodot](ui-extensions-tax-file-formats-dk.md)
 #### [UK – Ison-Britannian postinumeroiden GetAddress.io](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
+#### [UK – ALV-ryhmän hallinta](ui-extensions-vat-group.md)
 #### [US/CA/UK/AU/NZ/ZA - Maksusuositusehdotuksen lähettäminen](ui-extensions-send-remittance-advice.md)
 #### [Muiden toimittajien Business Central -laajennukset](ui-extensions-other.md)
 ## Dynamics 365 Sales -integrointi

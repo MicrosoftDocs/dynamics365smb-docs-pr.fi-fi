@@ -7,12 +7,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: c2bfe2f10440921c95a7d20f3c601389030813e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a1b771425c2a70f62dcfebeb4619c0f2f5445de3
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516211"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799610"
 ---
 # <a name="set-up-prepayments"></a>Ennakkomaksujen määrittäminen
 
@@ -92,6 +92,19 @@ Tilauksella voi olla ennakkomaksuprosentti myynnin tunnistetiedoissa ja toinen p
 4. Myynnin tai ostojen tunnistetietojen ennakkomaksuprosentti.  
 
 Toisin sanoin asiakaskortin ennakkomaksuprosenttia käytetään vain, jos nimikkeelle ei ole määritetty ennakkomaksuprosenttia. Jos kuitenkin muutat **Ennakkomaksuprosentti**-kentän sisältöä myynnin tai oston tunnistetiedoissa rivien luomisen jälkeen, kaikkien rivien ennakkomaksuprosentti päivitetään. Tällöin tilauksen luonti kiinteällä ennakkomaksuprosentin kanssa on helppoa nimikkeille määritetystä prosentista huolimatta.
+
+## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>Myyntitilausten automaattinen vapauttaminen, kun käytetään ennakkomaksuja
+
+Voit säästää aikaa määrittämällä työjonotapahtuman, joka vapauttaa automaattisesti myyntitilaukset, jotka vaativat ennakkomaksun, kun maksuja on sovellettu. Prosessin automatisointi säästää myyntitilauksen vapauttamisen vaiheen.
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntien ja myyntisaamisten asetukset** ja valitse sitten vastaava linkki.
+2. Määritä **Ennakkomaksun automaattisen päivityksen toistotiheys** -kentässä, kuinka usein haluat tehtäväjonotapahtuman suoritettavan.
+
+> [!TIP]
+> Kun olet täällä, harkitse suojauksen lisäämistä sellaisia toimitus- tai laskumyyntejä vastaan, joihin liittyy maksamattomia ennakkomaksuja. Jos kytket **Tarkista ennakkomaksu kirjattaessa** -valitsimen päälle, [!INCLUDE[prod_short](includes/prod_short.md)] estää ihmisiä kirjaamasta tilauksia, joihin liittyy maksamattomia ennakkomaksuja.
+
+3. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työjonon tapahtumat** ja valitse sitten vastaava linkki.
+4. Määritä **Päivitä odottavat ennakkomaksumyynnit** -tehtäväjonotapahtuma esimerkiksi käyttämällä **Toistuminen**-pikavälilehden asetuksia sen määrittämiseen, kuinka usein se suoritetaan. Lisätietoja: [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
 
 ## <a name="see-also"></a>Katso myös  
 

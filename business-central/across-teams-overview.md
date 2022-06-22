@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 03/04/2022
 ms.author: jswymer
-ms.openlocfilehash: 4ee154f242eebb65f9ef61453c8ff51c770f2713
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5252d3e595b3ae0246646fe7eafe910cdf4da2f0
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511231"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805046"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Centralin ja Microsoft Teamsin integraatio
 
@@ -65,7 +65,7 @@ Lisätietoja on kohdassa [Jaa tietueiden ja sivujen linkkejä Microsoft Teamsiss
     Jos et ole varma, onko sinulla tiliä, tai jos et tiedä kirjautumistunnuksiasi, ota yhteyttä yrityksen järjestelmänvalvojaan.
 
     > [!TIP]
-    > Jos organisaatiossa ei ole [!INCLUDE [prod_short](includes/prod_short.md)] -tilausta, voit rekisteröityä maksuttomaan kokeiluversioon. Lisätietoja on kohdassa [Kokeiluversion käytön aloittaminen](across-preview.md#get-started-with-a-trial).
+    > Jos organisaatiossa ei ole [!INCLUDE [prod_short](includes/prod_short.md)] -tilausta, voit rekisteröityä maksuttomaan kokeiluversioon. Lisätietoja [Rekisteröidy maksutonta Dynamics 365 Business Central -kokeilua varten](trial-signup.md).
 
 2. Katso järjestelmänvalvojana [Microsoft Teamsin ja Business Centralin integroinnin hallinta](admin-teams-integration.md) saadaksesi tietoja käyttäjien asetusten käyttämisestä [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa ja Teamsissa.
 3. [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen Teamsiin. Katso [Asenna [!INCLUDE [prod_short](includes/prod_short.md)] -sovellus Microsoft Teamsiin](across-install-app-for-teams.md).

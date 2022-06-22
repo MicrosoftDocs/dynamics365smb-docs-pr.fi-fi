@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d6e329dbf6c8d5badfcb317261db18d8432d303
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 03e283bc2664b1f73a56c48fefdde9cba78918d2
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147032"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799769"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Microsoft Teamsin ja [!INCLUDE [prod_short](includes/prod_short.md)]in integroinnin hallinta
 
@@ -30,16 +30,18 @@ Tässä osassa kuvataan vähimmäisvaatimukset, jotka koskevat [!INCLUDE [prod_s
 
 - Pakolliset lisenssit
 
-    Tämä taulukko sisältää yleiskuvauksen käyttöoikeuksista, joita tarvitaan [!INCLUDE [prod_short](includes/prod_short.md)] -sovellusominaisuuksien Teams-työskentelyssä.
+    [!INCLUDE[prod_short](includes/prod_short.md)] -sovellus edellyttää Teams-käyttöoikeutta Microsoft 365 Business- tai -Enterprise-tilauksen kautta. Erillisiä Teams-tilauksia (kuten Microsoft Teams (maksuton) tai Microsoft Teams Essentials) ei tueta.
 
-    |Mikä|Teams-lisenssi|[!INCLUDE [prod_short](includes/prod_short.md)] -käyttöoikeus|
-    |----|---|---|
-    |Hae [!INCLUDE [prod_short](includes/prod_short.md)] yhteyshenkilöitä.|![valintamerkki.](media/check.png "tarkistus")|![valintamerkki](media/check.png "tarkistus")|
-    |Liitä linkki [!INCLUDE [prod_short](includes/prod_short.md)] -tietueeseen keskusteluun ja lähetä se korttina.|![valintamerkki](media/check.png "tarkistus")|![valintamerkki](media/check.png "tarkistus")|
-    |Jaa linkki [!INCLUDE [prod_short](includes/prod_short.md)] -sivulta Teams-keskusteluun.|![valintamerkki](media/check.png "tarkistus")|![valintamerkki](media/check.png "tarkistus")|
-    |Näytä [!INCLUDE [prod_short](includes/prod_short.md)] -tietueen kortti keskustelussa.|![valintamerkki](media/check.png "tarkistus")||
-    |Näytä lisätietoja [!INCLUDE [prod_short](includes/prod_short.md)] -tietueen kortista keskustelussa.|![valintamerkki](media/check.png "tarkistus")|![valintamerkki](media/check.png "tarkistus")|
-    |Avaa sivulinkki [!INCLUDE [prod_short](includes/prod_short.md)]iin keskustelusta.|![valintamerkki](media/check.png "tarkistus")|![valintamerkki](media/check.png "tarkistus")|
+    Useimmat Teamsin [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen ominaisuudet edellyttävät [!INCLUDE [prod_short](includes/prod_short.md)] -käyttöoikeuksia, kuten seuraavasta taulukosta näkyy.
+
+    |Mikä|[!INCLUDE [prod_short](includes/prod_short.md)] -käyttöoikeus|
+    |----|---|
+    |Hae [!INCLUDE [prod_short](includes/prod_short.md)] yhteyshenkilöitä.|![valintamerkki](media/check.png "tarkistus")|
+    |Liitä linkki [!INCLUDE [prod_short](includes/prod_short.md)] -tietueeseen keskusteluun ja lähetä se korttina.|![valintamerkki](media/check.png "tarkistus")|
+    |Jaa linkki [!INCLUDE [prod_short](includes/prod_short.md)] -sivulta Teams-keskusteluun.|![valintamerkki](media/check.png "tarkistus")|
+    |Näytä [!INCLUDE [prod_short](includes/prod_short.md)] -tietueen kortti keskustelussa.||
+    |Näytä lisätietoja [!INCLUDE [prod_short](includes/prod_short.md)] -tietueen kortista keskustelussa.|![valintamerkki](media/check.png "tarkistus")|
+    |Avaa sivulinkki [!INCLUDE [prod_short](includes/prod_short.md)]iin keskustelusta.|![valintamerkki](media/check.png "tarkistus")|
 
 - Salli URL-esikatselut
 

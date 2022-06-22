@@ -10,12 +10,12 @@ ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 40acd79a66452b99d3b6990f05ccfa5e5d3d326e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 843de26d836e8cf16f1f4f79d4ec697c481eebc0
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654966"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805226"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Uusien yritysten luominen [!INCLUDE[prod_short](includes/prod_short.md)]issa
 
@@ -32,11 +32,11 @@ Jos päätät lisätä yrityksen [!INCLUDE[prod_short](includes/prod_short.md)]i
 Ohjatussa asennuksessa on kaksi mallia ja tyhjä vaihtoehto:
 
 - **Arviointi - Mallitiedot**  
-    Näin luotu yritys muistuttaa esittely-yritystä, jossa on malli- ja asetustietoja. Tämän tyyppinen yritys on käytettävissäsi ilman, että siirrytään [30 päivän kokeilujaksoon](across-preview.md#add-your-own-data-to-an-empty-trial-company), jota muut tyypit edellyttävät.  
+    Näin luotu yritys muistuttaa esittely-yritystä, jossa on malli- ja asetustietoja. Tämän tyyppinen yritys on käytettävissäsi ilman, että siirrytään 30 päivän kokeilujaksoon, jota muut tyypit edellyttävät.  
 - **Tuotanto - Vain määritystiedot**  
-    Näin luotu yritys muistuttaa **omaa yritystä**, jossa on asetustietoja mutta mallitiedot puuttuvat. Voit käyttää tätä yritystä [30 päivän kokeilujakson ajan](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    Näin luotu yritys muistuttaa **omaa yritystä**, jossa on asetustietoja mutta mallitiedot puuttuvat. Voit käyttää tätä yritystä 30 päivän kokeilujakson ajan.  
 - **Luo uusi - Ei tietoja**  
-    Näin luotu yritys on tyhjä eikä siinä ole asetustietoja. Voit käyttää tätä yritystä [30 päivän kokeilujakson ajan](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    Näin luotu yritys on tyhjä eikä siinä ole asetustietoja. Voit käyttää tätä yritystä 30 päivän kokeilujakson ajan.  
 
 Jos haluat, että uuden yrityksen käytön aloittaminen on helppoa, valitse **Tuotanto - Vain määritystiedot** ja tuo omat liiketoimintatietosi, kuten asiakkaat, nimikkeet ja toimittajat. Valitse **Uusi**-malli, jos haluat määrittää kaiken itse alusta alkaen. Voit siinä tapauksessa aloittaa tärkeimpien asetustietojen käytön käyttämällä asetusten ohjatun **Yrityksen asennus** -määrityksen ohjeita.  
 
@@ -44,6 +44,8 @@ Jos haluat, että uuden yrityksen käytön aloittaminen on helppoa, valitse **Tu
 > Kun luot uuden yrityksen, kestää joitakin minuutteja, ennen kuin sitä voi käyttää [!INCLUDE[prod_short](includes/prod_short.md)]issa. **Yritykset**-sivulla oleva asennuksen tila ilmaisee, kun uusi yritys on valmis. Voit siirtyä sitten uuteen yritykseen **omissa asetuksissa**.  
 
 30 päivän kokeilujakson aikana luotavien yritysten määrää ei ole rajoitettu, mutta niitä voi käyttää vain kokeilujakson aikana. Pyydä lisätietoja [!INCLUDE[prod_short](includes/prod_short.md)]-kumppanilta. Katso myös [Dynamics 365 Business Central -kokeiluversion UKK](trial-faq.md) -artikkeli.  
+
+Järjestelmänvalvoja saa lisätietoja kokeiluversioista ja tilauksista [täältä](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
 ## <a name="copy-a-company"></a>Kopioi yritys
 
@@ -84,7 +86,6 @@ Contoso Coffee -sovellus sisältää esittelytietoja, joiden avulla voit tutkia 
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
-[Kokeilut ja tilaukset](across-preview.md)  
 [Business Central Onlinen infrastruktuurin ymmärtäminen (vain englanniksi)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

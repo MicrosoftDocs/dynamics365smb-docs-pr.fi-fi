@@ -1,20 +1,20 @@
 ---
 title: Pikanäppäimet
 description: Pikanäppäinyhdistelmien täydellinen luettelo tietojen tehokasta käyttämistä varten.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 01/27/2022
-ms.author: bholtorf
-ms.openlocfilehash: 3d8b49c34bee069c10fdd2713de9ed0cd3c3fb72
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 05/23/2022
+ms.author: jswymer
+ms.openlocfilehash: 0e5ad41e6109d53a998f1c3ad8280b92a602a50e
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517971"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799688"
 ---
 # <a name="keyboard-shortcuts"></a>Pikanäppäimet
 
@@ -51,14 +51,15 @@ Seuraavassa taulukossa on kuvattu sivun eri elementtien selaamiseen ja käyttäm
 |Alt+Vaihto+F2|Siirry tietoruudun **tietojen** ja **liitteiden** välillä.|
 |Alt+O|Lisää uusi muistio valittuun tietueeseen, vaikka tietoruutu ei olisi auki.|
 |Alt+Q<br />(Ctrl+Optio+Q)|Avaa **Kerro, mitä haluat tehdä** -ikkuna. Lisätietoja on kohdassa [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md).|
+|Ctrl+Alt+Q<br />(Ctrl+Optio+Cmd+Q)|Avaa **Etsi tapahtumia** -sivu löytääksesi toisiinsa liittyviä asiakirjoja ja tapahtumia yhteisten tietojen, kuten asiakirjanumeron tai kirjauspäivämäärän, mukaan. Lisätietoja: [Kirjattuihin asiakirjoihin liittyvien tapahtumien etsiminen](ui-find-entries.md)|
 |Alt+N |Luo uusi tietue avaamalla sivu. (Vastaa **Uusi**- ja **+**-toimintojen valitsemista.)|
 |Alt+Vaihto+N |Sulje juuri luotu sivu ja luo uusi tietue avaamalla uusi sivu. Vastaavasti ALT+F9 kirjaa asiakirjan ja luo uuden.|
 |Alt+T|Avaa **Omat asetukset** -sivu.|
-|Alt+Oikea nuoli|Etsi sen kentän lisätietoja tai taustalla olevia arvoja, joka sisältää ![MuokkausApu](media/assist-edit-icon.png "MuokkausApu-painike") -painikkeen. Tätä pikanäppäintä käytetään silloin, kun tavallista avattavan luettelon painiketta (Alt+alanuoli) käytetään samassa kentässä toiseen tarkoitukseen.|
+|Alt+Oikea nuoli|Etsi sen kentän lisätietoja tai taustalla olevia arvoja, joka sisältää ![MuokkausApu](media/assist-edit-icon.png "MuokkausApu-painike") -painikkeen. Käytetään silloin, kun tavallista avattavan luettelon painiketta (Alt+alanuoli) käytetään samassa kentässä toiseen tarkoitukseen.|
 |Ctrl+Alt+Vaihto+C|Näytä yrityksen tunnuksessa olevat tiedot.|
 |Ctrl+Alt+F1|Avaa ja sulje sivun tarkastusruutu Sivun tarkastusruudussa on tietoja sivusta, kuten sen lähdetaulukko, kentät, suodattimet ja laajennukset.<br /><br />Lisätietoja on kohdassa [Tarkastussivut](across-inspect-page.md).|
 |Ctrl+C |Kopioi kentän arvo. Jos kohdistus on kentässä etkä ole valinnut kentässä tekstiä, koko arvo kopioidaan. Jos olet valinnut kentässä tekstiä, vain valittu teksti valitaan.|
-|Ctrl+F1|Avaa sivun Business Central -ohje.|
+|Ctrl+F1|Avaa [ohjeruutu](product-help-and-support.md#help-pane) Business Central -ohjeartikkeli [Microsoft Docsissa](/dynamics365/business-central/) riippuen Business Centralin versiostasi.|
 |Ctrl+F12|Vaihtele leveää ja kapeaa asettelua.|
 |Ctrl+napsautus|Siirry mukautusten aikana, kun nuolenpää osoittaa toiminnon valinnan. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).|  
 |Ctrl+F5|[!INCLUDE[prod_short](includes/prod_short.md)] -sovellus ladataan uudelleen. (Vastaa selaimen päivittämistä tai sivun uudelleen avaamista selaimessa.)|

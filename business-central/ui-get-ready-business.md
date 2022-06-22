@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 09/29/2021
+ms.date: 05/25/2022
 ms.author: edupont
-ms.openlocfilehash: 7f9d04f5437ab37273fd02f8c40b3f44b3247b9c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 26c988bcfce774dfa05b77c52347cfcf83106309
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513573"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805124"
 ---
 # <a name="get-ready-for-doing-business"></a>Valmistautuminen liiketoimintaan
 
@@ -77,6 +77,28 @@ Kun käyttäjät on luotu Microsoft 365:ssä, heidät voidaan tuoda **Käyttäj�
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Lisätietoja on kohdassa [Ohje- ja tukiresurssit](product-help-and-support.md).  
 
+### <a name="set-up-your-company-in-prod_short"></a>Määritä oma yritys [!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisussa
+
+[Pika-aloituksen](quick-start-business-central.md) artikkelien avulla voit ottaa ensimmäiset askelet [!INCLUDE [prod_short](includes/prod_short.md)]in käyttöönotossa organisaatiollesi. [!INCLUDE [prod_short](includes/prod_short.md)]issa **Asetusten ohjattu määritys** -sivulla on luettelo oppaista, jotka voivat auttaa. Sivulla näkyvät roolin ja maan tai alueen mukaan erilaiset asetusten ohjatun määrityksen oppaat seuraavan taulukon mukaisesti:
+
+| Asetusten ohjattu määritys | Kuvaus |
+| -------------- | ----------- |
+| Määritä oma yritys |Luo uuden kokeiluyrityksen, johon voit syöttää tiedot ja jonka avulla voit kokeilla [!INCLUDE[prod_short](includes/prod_short.md)]ia. |
+| Määritä hyväksymistyönkulut |Määrittää mahdollisuuden ilmoittaa hyväksyjälle automaattisesti, kun käyttäjä yrittää luoda asiakirjoihin, päiväkirjariveille tai kortteihin tiettyjä arvoja tai muuttaa niitä. Voit esimerkiksi määrittää tietyn rajan ylittävien summien hyväksynnän. |
+| Määritä sähköposti |Tämän avulla voit lähettää sähköpostiviestejä suoraan esimerkiksi [!INCLUDE[prod_short](includes/prod_short.md)]in myyntitilauksista tai yhteyshenkilöistä. |
+| Määritä Outlookin yrityssähköposti |Esittelee mahdollisuuden hallita liiketoiminnallisia vuorovaikutuksia asiakkaiden ja toimittajien kanssa suoraan Microsoft Outlookista. |
+| Siirrä yritystiedot |Tämän avulla voit tuoda aiemmin luodut yritystiedot, kuten toimittajat, asiakkaat ja nimikkeet, Excel- tai Quickbooks-ohjelmasta. |
+| Määritä sähköpostin lokiinkirjaus |Määrittää sähköpostikirjeenvaihdon kirjaamisen [!INCLUDE[prod_short](includes/prod_short.md)]issa vuorovaikutusten seuraamista varten. |
+| Määritä nimikkeen hyväksymistyönkulku |Määrittää mahdollisuuden lähettää ilmoitus hyväksyjälle, kun käyttäjä muuttaa kohdetta tai luo kohteen. |
+| Määritä asiakkaan hyväksymistyönkulku |Määrittää mahdollisuuden ilmoittaa automaattisesti hyväksyjälle, milloin käyttäjä yrittää luoda asiakaskortin tai muuttaa sitä. |
+| Määritä maksun hyväksymistyönkulku |Määrittää mahdollisuuden lähettää ilmoituksen hyväksyjälle, kun käyttäjä lähettää maksupäiväkirjan rivit hyväksyttäviksi. |
+| Dynamics 365 Sales -yhteyden määrittäminen |Määrittää yhteyden Dynamics 365 Salesiin. Yhteyden avulla voit synkronoida tiedot, kuten yhteyshenkilöiden ja myyntitilausten tiedot. |
+| Määritä kassavirtaennuste |Määrittää Kassavirtaennuste-kaavio, jonka avulla voit tarkastella yrityksen ennakoitua kassavirtaliikennettä. Kaavio on käytössä **Kirjanpitäjä-roolikeskuksessa**. |
+| Määritä raportointitiedot|Määrittää tietojoukot, joilla voit muodostaa tehokkaita raportteja käyttämällä esimerkiksi Exceliä tai Power BI:tä. |
+| Kutsu ulkoinen kirjanpitäjä |Jos käytä ulkoista kirjanpitäjää kirjojen ja talousraportoinnin hallinnassa, voit kutsua kirjanpitäjän [!INCLUDE[prod_short](includes/prod_short.md)]iin, jolloin he saavat käyttöönsä kirjanpitotietosi. |
+
+**Asetusten ohjattu määritys** -sivu voi sisältää myös muita tapahtumia. Kun käyt läpi asetuksen, sen tilaksi merkitään **Valmis**. Voit määrittää muita yrityksen alueita manuaalisten asetusten avulla. Lisätietoja on ohjeaiheessa [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md).  
+
 ## <a name="next-steps"></a>Seuraavat vaiheet
 
 Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen perusteella. Voit luoda nopeasti myyntitarjouksen, myyntilaskun, myyntitilauksen, ostolaskun tai maksurekisteröinnin aloitussivun **Toiminnot**-osassa. Tutustu [pika-aloituksen](quick-start-business-central.md) artikkeleihin, joiden avulla voit suorittaa ensimmäiset vaiheet.  
@@ -88,13 +110,13 @@ Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen per
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Yrityksen tietojen yleiskatsaus](admin-company-information.md)  
 [Helppokäyttötoiminnot ja pikanäppäimet](ui-accessibility.md)  
-[Kokeilut ja tilaukset](across-preview.md)  
 [Liiketoiminnan toiminnallisuus](across-business-functionality.md)  
 [Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md)  
 [Haku ohjeruudusta](product-help-and-support.md#search-in-the-help-pane)  
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
 [Microsoft Learn -sivusto](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Siirrä tiedot](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+[Kokeilut ja tilaukset](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

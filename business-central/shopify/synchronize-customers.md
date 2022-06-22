@@ -1,18 +1,18 @@
 ---
 title: Asiakkaiden synkronointi
 description: Asiakkaiden tuominen tai vieminen Shopifyista tai Shopifyihin
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 92ac46e9f7e69204b4c7edee4aa430a8786b6c0b
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 75c4de7736572ff923c74464dc33b218d0665e3f
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768131"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808856"
 ---
 # <a name="synchronize-customers"></a>Asiakkaiden synkronointi
 
@@ -25,8 +25,8 @@ Kun tilaus tuodaan Shopifysta, asiakkaan tiedot ovat olennaisia asiakirjan käsi
 
 *Tuo tilaus Shopifysta* -toiminto yrittää valita asiakkaan seuraavassa järjestyksessä:
 
-1. Jos **Oletusasiakasnro** määritetään vastaavan maan **Shopify-asiakasmallissa**, vastaavalle maalle, silloin **oletusasiakasnroa** käytetään, riippumatta **asiakkaan tuonti Shopifysta** ja **Asiakkaan yhdistämismäärityksen tyyppi** -asetuksista.
-2. Jos **Asiakkaan tuonti Shopifysta** ja **Oletusasiakasnro** on määritetty, **oletusasiakasnroa** käytetään.
+1. Jos **Oletusasiakasnro** -kenttä määritetään vastaavan maan **Shopify-asiakasmallissa**, vastaavalle maalle, silloin **oletusasiakasnroa** käytetään, riippumatta **asiakkaan tuonti Shopifysta** ja **Asiakkaan yhdistämismäärityksen tyyppi** -asetuksista. Lisätietoja on osassa [Asiakasmalli maata kohti](synchronize-customers.md#customer-template-per-country).
+2. Jos **Asiakkaan tuonti Shopifysta** on määritetty arvoon *Ei mitään* ja **Oletusasiakasnro** on määritetty **Shopify-ostoskortissa**, arvoa **Oletusasiakasnro** käytetään.
 
 Seuraavat vaiheet määräytyvät **asiakkaan yhdistämismäärityksen tyypin** mukaan.
 
@@ -76,7 +76,7 @@ Olemassa olevat asiakkaat voidaan viedä Shopifyhin joukkona. Tämän seurauksen
 
 ### <a name="populate-customer-information-in-shopify"></a>Asiakastietojen täyttäminen Shopifyssa
 
-Shopifyssa asiakkaalla on etunimi, sukunimi, sähköpostiosoite ja/tai puhelinnumero. Etunimen ja sukunimen voi täyttää [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelman asiakkaan kortin tietojen perusteella.
+Shopifyssa asiakkaalla on etunimi, sukunimi, sähköpostiosoite ja/tai puhelinnumero. Etunimen ja sukunimen voi täyttää [!INCLUDE[prod_short](../includes/prod_short.md)]issa asiakaskortin perusteella.
 
 |Prioriteetti|Asiakaskortin kenttä|Kuvaus|
 |------|------|-----------|
@@ -100,6 +100,8 @@ Valitse osoitteissa, joissa käytetään maata tai provinssia, valitsemalla *Koo
 3. Valitse **Synkronoi asiakkaat** -toiminto.
 
 Vaihtoehtoisesti voit käyttää **Käynnistä asiakkaan synkronointi** - toimintoa **Shopify-asiakkaat**-ikkunassa tai hae **Synkronoi asiakkaat** -eräajoa.
+
+Voit ajoittaa tehtävän suoritettavaksi automaattisesti. Lisätietoja on kohdassa [Toistuvien tehtävien ajoitus](background.md#to-schedule-recurring-tasks).
 
 ## <a name="see-also"></a>Katso myös
 

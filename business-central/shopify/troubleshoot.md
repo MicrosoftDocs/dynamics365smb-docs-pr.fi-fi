@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 01ff5ab1c5e6f132098f914f6bfe97e097cc88b0
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: ff2e4aca52f479e461dab0d9d0f0ce4958d19353
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768132"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808859"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Shopify- ja Business Central-synkronoinnin vianetsintä
 
@@ -56,9 +56,8 @@ Jos [!INCLUDE[prod_short](../includes/prod_short.md)] ei pysty muodostamaan yhte
 
 1. Siirry hakuun ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeeseen, syötä **Shopify-myymälä** ja valitse sitten vastaava linkki.
 2. Valitse kauppa, jolle haluat saada käyttöoikeustunnuksen avataksesi **Shopify-ostoskortti**-sivun.
-3. Syötä koodi **Koodi**-kenttään.  
-4. Valitse **pyynnön käyttöoikeus** -toiminto.
-5. Jos ohjelma pyytää Kirjautumaan Shopify-tilillesi.
+3. Valitse **pyynnön käyttöoikeus** -toiminto.
+4. Jos ohjelma pyytää, kirjaudu Shopify-tilillesi.
 
 ## <a name="see-also"></a>Katso myös
 

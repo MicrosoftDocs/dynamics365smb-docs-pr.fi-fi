@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5fed722bb5929da100c1c92e63aebb1f10cf53d0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fa615d3e0753b7f1aa9cd602168a393849765079
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520680"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950223"
 ---
 # <a name="report-and-document-layouts-overview"></a>Raporttien ja asiakirjojen asettelujen yleiskatsaus
 
@@ -23,6 +23,8 @@ Raporttiasettelu ohjaa raportin sisältöä ja muotoa, mukaan lukien, mitkä tie
 
 > [!NOTE]  
 > Raportti tarkoittaa [!INCLUDE[prod_short](includes/prod_short.md)]issa myös ulkoisille käyttäjille tarkoitettuja asiakirjoja, kuten myyntilaskuja tai tilausvahvistuksia, jotka lähetetään asiakkaille PDF-tiedostoina.
+
+Voit myös käyttää raporttiasetteluja lisätäksesi sisältöä sähköpostiviesteihin. Raporttiasettelut voivat esimerkiksi säästää aikaa ja auttaa yhdenmukaisuuden varmistamisessa siten, että samaa sisältöä käytetään uudelleen, kun viestit asiakkaidesi kanssa. Jotta voit käyttää mukautettuja raporttiasetteluja sähköpostissa, niiden tiedostotyyppinä on oltava Word. Et voi käyttää RDLC-tiedostotyyppiä. Lisätietoja: [Uudelleenkäytettävien sähköpostitekstien ja -asettelujen määrittäminen](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
 ## <a name="introduction"></a>Esittely
 

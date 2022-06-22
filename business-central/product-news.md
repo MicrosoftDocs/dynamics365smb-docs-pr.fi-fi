@@ -6,12 +6,12 @@ ms.topic: get-started-article
 ms.search.keywords: news, release plan, roadmap, whats new
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ef648fcd29b15494e78c4b6482edf0996c22b670
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7077e434ba564b62cfb03155a60b16460cea9ee3
+ms.sourcegitcommit: 7a6efcbae293c024ca4f6622c82886decf86c176
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135826"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "8841947"
 ---
 # <a name="new-and-planned-for-dynamics-365-business-central"></a>Uusia ja suunniteltuja ominaisuuksia Dynamics 365 Business Centralille
 
@@ -21,9 +21,9 @@ Voit aina tarkistaa uudet ja tulevat toiminnot julkaisusuunnitelmasta. Voit sitt
 
 Seuraavassa luettelossa on tietoja uusimmista [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman versioista.  
 
+* [Vuoden 2022 julkaisuaalto 1](/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features)  
 * [Vuoden 2021 2. julkaisuaalto](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/planned-features)  
 * [Vuoden 2021 1. julkaisuaalto](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/planned-features)  
-* [2020 julkaisuaalto 2](/dynamics365-release-plan/2020wave2/smb/dynamics365-business-central/planned-features)  
 
 Voit myös tutustua [Dynamics 365 Business Central -ominaisuudet](https://dynamics.microsoft.com/business-central/capabilities/) -sivustoon ja [Dynamics 365 Business Central -etenemissuunnitelma](https://dynamics.microsoft.com/roadmap/business-central/) -sivustoon.  
 

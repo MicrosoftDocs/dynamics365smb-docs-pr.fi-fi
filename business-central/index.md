@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 0a901fca9da818459e8c94735c041dfbafff9471
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 07dfa98c8499a2a9c7de9d5005d941f8d65aa7fb
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518127"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805072"
 ---
 # <a name="welcome-to-prod_long"></a>Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin
 
@@ -71,6 +71,7 @@ Seuraavat osiot viittaavat tärkeimpiin artikkeleihin, joiden avulla voit tutust
 ## <a name="development-and-administration-content"></a>Kehitys- ja hallintosisältö
 
 - [Kehittäminen ja hallinto](/dynamics365/business-central/dev-itpro/index)
+- [Kokeilut ja tilaukset](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 - [AL-kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
 - [AL-kehitysympäristö](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [AL-koodin säännöt ja ohjeistus](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)

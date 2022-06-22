@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-faq
 ms.author: edupont
 ms.date: 02/23/2022
-ms.openlocfilehash: 6cb42322383506a7b6633952cb171cb7c6602339
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 368ed714fb7b8367ff1876cb5be83e422860b684
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367291"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805150"
 ---
 # <a name="dynamics-365-business-central-trial-faq"></a>Dynamics 365 Business Central -kokeiluversion usein kysytyt kysymykset
 
@@ -19,11 +19,11 @@ ms.locfileid: "8367291"
 
 ### <a name="can-i-convert-the-trial-to-a-paid-license"></a>Voiko kokeiluversion muuntaa maksulliseksi käyttöoikeudeksi?
 
-Kyllä saat. Lisätietoja on kohdassa [Tilauksen käytön aloittaminen](across-preview.md#get-started-with-a-subscription).  
+Kyllä saat. Lisätietoja on kohdassa [Tilauksen käytön aloittaminen](trial-signup.md#get-started-with-a-subscription).  
 
 ### <a name="what-are-the-trial-limits-and-quotas"></a>Mitkä rajoitukset ja kiintiöt koskevat kokeiluversiota?
 
-Maksuton kokeiluversio sisältää näytetietoja. Jos haluat kokeilla Business Centralia omilla tiedoillasi, voit vaihtaa maksuttomaan 30 päivän kokeiluversioon, jossa on tyhjä yritys. Lisätietoja on kohdassa [[!INCLUDE[prod_long](includes/prod_long.md)] Kokeiluversiot ja tilaukset](across-preview.md).  
+Maksuton kokeiluversio sisältää näytetietoja. Jos haluat kokeilla Business Centralia omilla tiedoillasi, voit vaihtaa maksuttomaan 30 päivän kokeiluversioon, jossa on tyhjä yritys. Järjestelmänvalvoja saa lisätietoja kokeiluversioista ja tilauksista [täältä](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
 ### <a name="how-do-i-start-using-the-trial"></a>Miten kokeiluversion käyttö aloitetaan?
 
@@ -54,4 +54,4 @@ Se ei ole mahdollista. Jos poistat näytetiedot vahingossa, pyydä järjestelmä
 [Rekisteröidy maksuttoman Dynamics 365 Business Central kokeiluversion käyttäjäksi](trial-signup.md)  
 [Usein kysyttyjä kysymyksiä Business Centralin käyttämisestä](across-faq.yml)  
 [Itsepalvelun rekisteröitymisen vianmääritys](ui-troubleshoot-self-signup.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)]Kokeilut ja tilaukset](across-preview.md)  
+[[!INCLUDE[prod_long](includes/prod_long.md)]in kokeiluversiot ja tilaukset](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

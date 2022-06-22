@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5e791eb8f066085b8230aeac4c85a82c67093f06
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 632591160ab5cfad7d33fc26bf3f9a9b4877176a
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655569"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950488"
 ---
 # <a name="send-documents-and-emails"></a>Asiakirjojen ja sähköpostien lähettäminen
 
@@ -44,7 +44,7 @@ Tässä kuvataan, miten kirjattu myyntilasku liitetään sähköpostiin PDF-tied
 7. Luotu lasku on liitetty **Liite**-kenttään oletusarvoisesti PDF-tiedostona.
 8. Kirjoita **Runkoteksti**-kenttään lyhyt viesti vastaanottajalle.
 
-    Jos asiakirjakohtainen sähköpostin teksti on määritetty **Raporttivalinta - Myynti** -sivulla, **Perusteksti**-kenttä täytetään automaattisesti. Lisätieoja: [Uudelleenkäytettävien sähköpostitekstien ja -asettelujen määrittäminen myynti- ja ostoasiakirjoille](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents).
+    Jos asiakirjakohtainen sähköpostin teksti on määritetty **Raporttivalinta - Myynti** -sivulla, **Perusteksti**-kenttä täytetään automaattisesti. Lisätietoja: [Uudelleenkäytettävien sähköpostitekstien ja -asettelujen määrittäminen](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 9. Valitse **OK**-painike, kun haluat lähettää sähköpostiviestin.
 
 > [!NOTE]  

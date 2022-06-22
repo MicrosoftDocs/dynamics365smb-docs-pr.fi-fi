@@ -1,5 +1,5 @@
 ---
-title: Asiakkaiden myyntihintojen ja -alennusten määrittäminen | Microsoft Docs
+title: Erikoismyyntihintojen ja -alennusten kirjaaminen
 description: Tietoja myyntiasiakirjojen hinnoittelu- ja alennussopimusten määrittämisestä.
 author: bholtorf
 ms.service: dynamics365-business-central
@@ -8,25 +8,27 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
-ms.date: 04/01/2021
+ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: 5ff042e1dec609b568c36967f56a8cd3673b9558
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 5f3d851356954ddf71411190f5f486633936c05a
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729839"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950145"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Erikoismyyntihintojen ja -alennusten kirjaaminen
+
 > [!NOTE]
-> Vuoden 2020 julkaisuaallossa 2 julkaisimme virtaviivaiset prosessit hintojen ja alennusten määritykseen ja hallintaan. Jos olet uusi asiakas, joka käyttää kyseistä versiota, käytät uutta käyttökokemusta. Jos olet jo asiakas, uuden käyttöokemuksen käyttö riippuu siitä, onko järjestelmänvalvoja ottanut käyttöön **Uusi myyntihinnoittelukokemus** -ominaisuuden päivityksen **ominaisuuksien hallinnassa**. Lisätietoja on kohdassa [Tulevien ominaisuuksien ottaminen käyttöön etuajassa](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> Vuoden 2020 julkaisuaallossa 2 otettuun käyttöön uudet, tehostetut prosessit hintojen ja alennusten määritykseen ja hallintaan. Jos olet uusi asiakas, joka käyttää viimeisintä versiota, käytät uutta käyttökokemusta. Jos olet jo asiakas, uuden käyttöokemuksen käyttö riippuu siitä, onko järjestelmänvalvoja ottanut käyttöön **Uusi myyntihinnoittelukokemus** -ominaisuuden päivityksen **ominaisuuksien hallinnassa**. Lisätietoja on kohdassa [Tulevien ominaisuuksien ottaminen käyttöön etuajassa](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tukee erilaisia hinnoittelustrategioita, kuten:
+
 * Yhtä hintaa käyttävät mallit, joissa nimikettä myydään aina samaan hintaan.
 * Erikoishintasopimukset tiettyjen asiakkaiden tai asiakasryhmien kanssa.
 * Kampanjat, kun myynti täyttää erikoistarjouksen kriteerit. Kriteerinä voi olla esimerkiksi se, että tilaus täyttää minimimäärän, on ennen tiettyä päivämäärää tai sisältää tietyntyyppisen nimikkeen.  
 
-Perushintamallin käyttöä varten on määritettävä vain nimikkeen tai resurssin yksikköhinta. Kyseistä hintaa käytetään aina myyntiasiakirjoissa. Edistyneissä malleissa, kuten myyntikampanjan erikoishinnoissa, erikoishintojen ehdot voidaan määrittää **Myyntihinnat**-sivulla. Erikoishintoja voidaan tarjota seuraavien tietojen yhdistelmien perusteella: 
+Perushintamallin käyttöä varten on määritettävä vain nimikkeen tai resurssin yksikköhinta. Kyseistä hintaa käytetään aina myyntiasiakirjoissa. Edistyneissä malleissa, kuten myyntikampanjan erikoishinnoissa, erikoishintojen ehdot voidaan määrittää **Myyntihinnat**-sivulla. Erikoishintoja voidaan tarjota seuraavien tietojen yhdistelmien perusteella:  
 
 * Asiakas
 * Nimike
@@ -176,34 +178,36 @@ Jos haluat päivittää monien nimikkeiden hinnat, sinun täytyy luoda uusi hinn
 ---
 
 ## <a name="best-price-calculation"></a>Parhaan hinnan laskenta
-Kun olet tallentanut erikoishinnat ja rivialennukset myynneille ja ostoille, [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee parhaan hinnan myynti- ja ostotositteisiin sekä työ- ja nimikepäiväkirjariveihin.
 
-Paras hinta on alin hinta, jolla on suurin sallittu rivialennus tiettynä päivänä. [!INCLUDE[d365fin](includes/d365fin_md.md)] laskee parhaat hinnat, kun se lisää yksikköhinnat ja rivialennusprosentit asiakirjan ja päiväkirjan riveille.
+Kun olet tallentanut erikoishinnat ja rivialennukset myynneille ja ostoille, [!INCLUDE[prod_short](includes/prod_short.md)] laskee parhaan hinnan myynti- ja ostotositteisiin sekä työ- ja nimikepäiväkirjariveihin.
+
+Paras hinta on alin hinta, jolla on suurin sallittu rivialennus tiettynä päivänä. [!INCLUDE[prod_short](includes/prod_short.md)] laskee parhaat hinnat, kun se lisää yksikköhinnat ja rivialennusprosentit asiakirjan ja päiväkirjan riveille.
 
 > [!NOTE]  
-> Seuraavaksi kerrotaan, miten myynnin paras hinta lasketaan. Samaa laskentaa käytetään ostoissa.
+> Seuraavaksi kerrotaan, miten myynnin paras hinta lasketaan. Ostojen osalta laskenta on samankaltainen, mutta se perustuu käytettävissä oleviin parametreihin. Esimerkiksi nimikealennusryhmiä ei tueta ostamisessa.
 
-1. [!INCLUDE[d365fin](includes/d365fin_md.md)] tarkistaa laskutusasiakas- ja nimikeyhdistelmän ja laskee sitten käytettävän yksikköhinnan ja rivialennusprosentin seuraavien ehtojen mukaisesti:
+1. [!INCLUDE[prod_short](includes/prod_short.md)] tarkistaa laskutusasiakas- ja nimikeyhdistelmän ja laskee sitten käytettävän yksikköhinnan ja rivialennusprosentin seuraavien ehtojen mukaisesti:
 
-    - Onko asiakkaalla hinta- tai alennussopimus tai kuuluuko asiakas ryhmään, jolla on tällainen sopimus on?
-    - Kuuluuko rivillä oleva nimike tai nimikealennusryhmä johonkin näistä hinta- tai alennussopimuksista?
-    - Onko tilauspäivämäärä (tai laskun ja hyvityslaskun osalta kirjauspäivämäärä) hinta- tai alennussopimuksen aloitus- ja lopetuspäivämäärän välissä?
-    - Onko mittayksikön koodia määritelty? Jos on, [!INCLUDE[d365fin](includes/d365fin_md.md)] tarkastaa hinnat tai alennukset, joilla on sama mittayksikön koodi, ja hinnat tai alennukset, joilla ei ole mittayksikön koodia.
+    * Onko asiakkaalla hinta- tai alennussopimus tai kuuluuko asiakas ryhmään, jolla on tällainen sopimus on?
+    * Kuuluuko rivillä oleva nimike tai nimikealennusryhmä johonkin näistä hinta- tai alennussopimuksista?
+    * Onko tilauspäivämäärä (tai laskun ja hyvityslaskun osalta kirjauspäivämäärä) hinta- tai alennussopimuksen aloitus- ja lopetuspäivämäärän välissä?
+    * Onko mittayksikön koodia määritelty? Jos on, [!INCLUDE[prod_short](includes/prod_short.md)] tarkastaa hinnat tai alennukset, joilla on sama mittayksikön koodi, ja hinnat tai alennukset, joilla ei ole mittayksikön koodia.
 
-2. [!INCLUDE[d365fin](includes/d365fin_md.md)] tarkistaa, sovelletaanko mitään hinta-/alennussopimuksia asiakirjan tai päiväkirjan rivin tietoihin. Sen jälkeen se lisää sovellettavan yksikköhinnan ja rivialennusprosentin käyttämällä seuraavia kriteereitä:
+2. [!INCLUDE[prod_short](includes/prod_short.md)] tarkistaa, sovelletaanko mitään hinta-/alennussopimuksia asiakirjan tai päiväkirjan rivin tietoihin. Sen jälkeen se lisää sovellettavan yksikköhinnan ja rivialennusprosentin käyttämällä seuraavia kriteereitä:
 
-    - Täytyykö hinta- tai alennussopimuksen vähimmäismäärävaatimus?
-    - Täytyykö hinta- tai alennussopimuksen valuuttavaatimus? Jos täyttyy, kyseisen valuutan alhaisin hinta ja suurin rivialennus lisätään, vaikka paikallinen valuutta antaisi paremman hinnan. Jos määritellyllä valuuttakoodilla ei ole hinta- tai alennusopimusta, [!INCLUDE[d365fin](includes/d365fin_md.md)] lisää alhaisimman hinnan ja suurimman rivialennuksen paikallisena valuuttana.
+    * Täytyykö hinta- tai alennussopimuksen vähimmäismäärävaatimus?
+    * Täytyykö hinta- tai alennussopimuksen valuuttavaatimus? Jos täyttyy, kyseisen valuutan alhaisin hinta ja suurin rivialennus lisätään, vaikka paikallinen valuutta antaisi paremman hinnan. Jos määritellyllä valuuttakoodilla ei ole hinta- tai alennusopimusta, [!INCLUDE[prod_short](includes/prod_short.md)] lisää alhaisimman hinnan ja suurimman rivialennuksen paikallisena valuuttana.
 
 Jos erikoishintaa ei voi laskea rivin nimikkeelle, joko viimeinen välitön kustannus tai nimikekortin yksikköhinta lisätään.
 
 ## <a name="sales-invoice-discounts-and-service-charges"></a>Myyntilaskualennukset ja palvelumaksut
+
 Laskualennuksia käytettäessä laskun loppusumma määrittää annettavan alennuksen suuruuden. Voit lisätä **Asiakkaan laskualennukset** -sivulla tietyn summaisille laskuille myös palvelumaksuja.  
 
 Ennen kuin myynneissä voi käyttää laskualennuksia, on määritettävä tiettyjä tietoja. Sinun täytyy päättää seuraavista asioista:  
 
-- Ketkä asiakkaat saavat tämän tyyppisen alennuksen?  
-- Mitä alennusprosentteja käytetään?  
+* Ketkä asiakkaat saavat tämän tyyppisen alennuksen?  
+* Mitä alennusprosentteja käytetään?  
 
 Jos laskualennukset halutaan laskettavan automaattisesti, **Lask. laskun alennus** -vaihtopainike on siirrettävä käyttöönottoasentoon **Myyntien ja myyntisaamisten asetukset** -sivulla.  
 
@@ -231,7 +235,7 @@ Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käytt
 2. Avaa kyseessä olevan asiakkaan kortti ja valitse **Rivialennukset**-toiminto.
 3. Täytä tarvittaessa rivin muut kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Täytä rivi jokaiselle yhdistelmälle, jossa asiakkaalle myönnetään myyntirivialennus.
 
-> [!Note]
+> [!NOTE]
 > Kun avaat tietyn asiakkaan **Myyntihinnat**- ja **Myyntirivialennukset**-sivut, **Myyntityypin suodatus**-ja **Myyntikoodin suodatus** -kentät on määritetty asiakkaalle, eikä niitä voi muuttaa tai poistaa.
 >
 > Kun haluat määrittää hinnat tai rivialennukset kaikille asiakkaille, asiakkaan hintaryhmälle tai kampanjalle, sinun täytyy avata sivut nimikekortista. Vaihtoehtoisesti voit käyttää myyntihinnoille **Myyntihinnan työkirja** -sivua. Lisätietoja on kohdassa [Nimikehintojen joukkopäivitys](sales-how-record-sales-price-discount-payment-agreements.md#to-bulk-update-item-prices).  
@@ -277,6 +281,8 @@ Jatka uuden myyntilaskun alennusehtojen määrittämiseen.
 
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Myynti](sales-manage-sales.md)  
+[Asiakashintaryhmien määrittäminen](sales-how-to-set-up-customer-price-groups.md)  
+[Asiakasalennusryhmien määrittäminen](sales-how-to-set-up-customer-discount-groups.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
 
 

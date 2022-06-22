@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 756d40cb590a4944d0abbbd3c02991b5135eabb9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2da669b7bc7675c1af7143e0a4702ab6655a7bca
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381218"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805098"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Tarvitsetko lisää aikaa, ennen kuin päätät tilauksen tekemisestä?
 
@@ -52,8 +52,8 @@ Kun jatkettu kokeilujakso on päättynyt, voit [tilata](https://go.microsoft.com
 
 ## <a name="see-also"></a>Katso myös
 
+[Kokeilut ja tilaukset (vain englanniksi)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Uusien yritysten luominen](about-new-company.md)  
-[Kokeilut ja tilaukset](across-preview.md)  
 [Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#findpartner)  
 [Kokeiluversioiden jatkaminen (järjestelmänvalvojana)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Aloittaminen Business Central Online -jälleenmyyjänä](/dynamics365/business-central/dev-itpro/administration/get-started-online)  

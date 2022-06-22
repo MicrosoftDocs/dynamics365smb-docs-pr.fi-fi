@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.search.form: 2500
-ms.date: 03/25/2022
+ms.date: 05/24/2022
 ms.author: solsen
-ms.openlocfilehash: fcdfe843071bc416973b7411e5702a690e7e377d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a70ea442ffb9d6e5f131e4d720da57f033474e16
+ms.sourcegitcommit: 6eeac924d8e211080316ce5068e3d4fb5a2d5ed9
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514749"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8804654"
 ---
 # <a name="install-and-uninstall-extensions-in-business-central"></a>Laajennusten asentaminen ja asennusten poistaminen Business Centralissa
 
@@ -38,14 +38,14 @@ Uusia laajennuksia on saatavana kaupasta osoitteessa [AppSource.microsoft.com](h
 > [!NOTE]  
 > Kirjaudu sivustoon [AppSource.microsoft.com](https://appsource.microsoft.com/) [!INCLUDE[prod_short](includes/prod_short.md)]issa käyttämäsi sähköpostitilin tiedoilla. Saman sähköpostitilin käyttäminen myös muissa palveluissa ja tuotteissa takaa sujuvan käyttökokemuksen.  
 
-Kauppaan pääsee myös suoraan [!INCLUDE[prod_short](includes/prod_short.md)]ista. Tällä hetkellä asennettuna olevat laajennukset näkyvät **Laajennusten hallinta** -sivulla. Voit avata **Laajennuskauppa**-sivun, jossa näkyvät AppSourcessa tällä hetkellä käytettävissä olevat [!INCLUDE[prod_short](includes/prod_short.md)]in laajennukset. Jos valitset *Lisää sovelluksia* -linkin, sinut siirretään sivustoon [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Kauppaan pääsee myös suoraan [!INCLUDE[prod_short](includes/prod_short.md)]ista. Tällä hetkellä asennettuna olevat laajennukset näkyvät **Laajennusten hallinta** -sivulla. Voit avata **Laajennuskauppa**-sivun, jossa näkyvät AppSourcessa tällä hetkellä käytettävissä olevat [!INCLUDE[prod_short](includes/prod_short.md)]in laajennukset. Jos valitset *Lisää sovelluksia* -linkin, sinut siirretään sivustolle [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 Kun valitset laajennuksen, voit lukea tietoja laajennuksesta ja hakea lisätietoja käyttämällä laajennuksen Ohje-toimintoa. Kun haluat noutaa laajennuksen, sinun on hyväksyttävä käyttöehdot. Jos noudat laajennuksen AppSource-sivustosta, sinut kirjataan sisään [!INCLUDE[prod_short](includes/prod_short.md)]iin asennuksen viimeistelemiseksi.  
 
 Laajennus on ehkä määritettävä asennuksen yhteydessä. Se tarkoittaa esimerkiksi **[!INCLUDE[prod_short](includes/prod_short.md)]in PayPal Payments Standard** -laajennuksen käyttämisessä tarvittavan tilin määrittämistä.
 Muissa laajennuksissa esimerkiksi yksinkertaisesti lisätään kenttiä olemassa olevalle sivulle tai lisätään uusi sivu.
 
-Jos poistat laajennuksen asennuksen ja haluat ottaa sen takaisin käyttöön, voit asentaa laajennuksen uudelleen. Kun poistat käytössäsi olleen laajennuksen asennuksen, tiedot säilytetään. Jos siis asennat laajennuksen uudelleen, tiedot ovat yhä käytettävissäsi. Jotkin laajennukset ovat pakollisia. Niiden asennuksen poistaminen **Laajennusten hallinta** -sivulla on estetty. Jos yrität tehdä niin, näyttöön avautuu virhesanoma.
+Jos poistat laajennuksen asennuksen ja haluat ottaa sen takaisin käyttöön, voit asentaa laajennuksen uudelleen. Kun poistat käytössäsi olleen laajennuksen asennuksen, tiedot säilytetään. Jos siis asennat laajennuksen uudelleen, tiedot ovat yhä käytettävissäsi. Jotkin laajennukset ovat pakollisia. Näiden laajennusten asennuksen poistaminen **Laajennusten hallinta** -sivulla on estetty. Jos yrität tehdä niin, näyttöön avautuu virhesanoma.
 
 Jotkin ovat Microsoftin laajennuksia, jotkin [muiden yritysten](ui-extensions-other.md). Kaikki laajennukset testataan, ennen kuin ne ovat käyttäjien käytettävissä. Suosittelemme kuitenkin lisätietoihin tutustumista laajennuksen mukana saatavien linkkien avulla ennen laajennuksen asentamista.
 
@@ -83,11 +83,15 @@ Jos PTE sisältää rikkovia mallin muutoksia, on mahdollista *pakottaa* sen lat
 
 ## <a name="uninstall-an-extension"></a>Laajennuksen asennuksen poistaminen
 
-Laajennuksen asennus poistetaan **Laajennuksen hallinta** -sivulla. Jos poistat laajennuksen asennuksen ja haluat ottaa sen takaisin käyttöön, voit asentaa laajennuksen uudelleen. Kun poistat käytössäsi olleen laajennuksen asennuksen, tiedot säilytetään oletusarvoisesti mahdollista laajennuksen uudelleenasennusta varten. Voit myös valita tietojen poistamisen laajennuksen kanssa. Tämä valinta tehdään **Poista laajennuksen tiedot** -valintaruudun avulla. Oletusarvoisesti tätä valintaruutua *ei ole otettu käyttöön*.
+Laajennuksen asennus poistetaan **Laajennuksen hallinta** -sivulla. Jos haluat poistaa laajennuksen, valitse se sivulla ja valitse sitten **Poista asennus** -toiminto. Jos poistat laajennuksen asennuksen ja haluat ottaa sen takaisin käyttöön, voit asentaa laajennuksen uudelleen.
+
+Kun poistat käytössäsi olleen laajennuksen asennuksen, tiedot säilytetään oletusarvoisesti mahdollista laajennuksen uudelleenasennusta varten. Voit myös valita tietojen poistamisen laajennuksen kanssa. Tätä toimintoa ohjataan **Poista laajennuksen tiedot** -kytkimellä. Tämä kytkin on oletusarvoisesti **pois päältä**. Kun yrität kytkeä laajennuksen **Poista laajennuksen tiedot** -kytkentä, avautuu vahvistusvalintaikkuna, jossa päälle kytkeminen edellyttää valintaa **Kyllä**. Kun **Poista laajennuksen tiedot** -kytkin on kytketty päälle, voit poistaa laajennuksen asennuksen, jonka yhteydessä sinua pyydetään vahvistamaan uudelleen, että haluat poistaa laajennuksen asennuksen ja poistaa tiedot.
 
 > [!IMPORTANT]  
-> Jos valitset **Poista laajennuksen tiedot** -valintaruudun, avautuvassa vahvistusikkunassa on valittava **OK**. Kun **Poista laajennuksen tiedot** -valintaruutu on valittu, voit nyt poistaa laajennuksen asennuksen, jonka yhteydessä sinua pyydetään vahvistamaan uudelleen, että haluat poistaa laajennuksen asennuksen ja poistaa tiedot. Toimintoa ei voi kumota.
-Osa laajennuksista on pakollisia. Niiden asennuksen poistaminen **Laajennusten hallinta** -sivulla on estetty. Jos yrität tehdä niin, näyttöön avautuu virhesanoma.  
+> - Saattaa olla muita laajennuksia, joiden toimiminen vaatii poistettavan laajennuksen tai on riippuvainen siitä. Näitä muita laajennuksia kutsutaan *riippuvaisiksi*. Et voi poistaa laajennuksen asennusta, ellei myös sen riippuvaisia poisteta.
+> - Kun päätät poistaa sellaisen laajennuksen, jolla on vähintään yksi riippuvainen, avautuu vahvistusvalintaruutu, jossa riippuvaiset näkyvät ja sinulta kysytään, haluatko poistaa laajennuksen ja kaikki sen riippuvaiset. Jatkaaksesi sinun on valittava **Kyllä**.
+> - Jos kytket **Poista laajennuksen tiedot** -kytkimen päälle, laajennuksen asennuksen poistaminen poistaa kaikki laajennuksen tiedot **sekä** kaikki riippuvaisten laajennusten tiedot. Toimintoa ei voi kumota.
+> - Osa laajennuksista on pakollisia. Niiden asennuksen poistaminen **Laajennusten hallinta** -sivulla on estetty. Jos yrität tehdä niin, näyttöön avautuu virhesanoma.  
 
 ## <a name="see-also"></a>Katso myös
 

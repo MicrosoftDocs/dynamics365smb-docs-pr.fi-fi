@@ -8,37 +8,39 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
-ms.date: 04/01/2021
+ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 74a59567c7eb24673df62fe76b974c9b7bb58bf0
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.openlocfilehash: 5e25685241e85a1a90ac23c7eb47f9808f3239b9
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557170"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950380"
 ---
 # <a name="legacy-create-and-modify-custom-report-layouts"></a>(Vanha) Raporttien mukautettujen asettelujen luominen ja muokkaaminen
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
-Oletusarvon mukaan raportilla on valmis raporttiasettelu, joka voi olla RDLC-raporttiasettelu, Word-raporttiasettelu tai molemmat. Et voi muokata sisäisiä asetteluita, mutta voit luoda mukautettuja asetteluita. Raportissa voi olla useita mukautettuja raporttiasetteluja, jonka ansiosta voit vaihtaa käytettävää asettelua tarvittaessa.
+Oletusarvoisesti raporteilla on valmis raporttiasettelu. Asettelu voi olla joko RDLC-raportin asettelu tai Wordin raporttiasettelu tai molempia. Et voi muokata sisäisiä asetteluita, mutta voit luoda mukautettuja asetteluita. Raportissa voi olla useita mukautettuja raporttiasetteluja.
 
 > [!NOTE]  
 > Raportti tarkoittaa [!INCLUDE[prod_short](includes/prod_short.md)]issa myös ulkoisille käyttäjille tarkoitettuja asiakirjoja, kuten myyntilaskuja tai tilausvahvistuksia, jotka lähetetään asiakkaille PDF-tiedostoina.
 
-Jos haluat luoda mukautetun asettelun, voit joko kopioida aiemmin mukautetun asettelun tai lisätä uuden mukautetun asettelun, joka perustuu usein valmiiseen asetteluun. Kun lisäät uuden mukautetun asettelun, voit lisätä RDLC- tai, Word-raporttiasettelutyypin tai molemmat. Uusi mukautettu asettelu perustuu raportin valmiiseen asetteluun, jos sellainen on käytettävissä. Jos tyypille ei ole valmista asettelua, luodaan uusi tyhjä asettelu. Sinun täytyy muokata ja suunnitella tämä tyhjä asettelu alusta alkaen. Lisätietoja RDLC- ja Word-raporttiasettelusta sekä valmiista ja mukautetuista asetteluista ja muista ominaisuuksista on ohjeaiheessa [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md).  
+Voit luoda mukautetun asettelun joko kopioimalla aiemmin luodun mukautetun asettelun tai lisäämällä uuden mukautetun asettelun. Mukautetut asettelut perustuvat usein valmiisiin asetteluihin. Kun lisäät uuden mukautetun asettelun, voit lisätä RDLC- tai, Word-raporttiasettelutyypin tai molemmat. Uusi mukautettu asettelu perustuu raportin valmiiseen asetteluun, jos sellainen on käytettävissä. Jos tyypille ei ole valmista asettelua, luodaan uusi tyhjä asettelu. Sinun täytyy muokata ja suunnitella tämä tyhjä asettelu alusta alkaen. Lisätietoja RDLC- ja Word-raporttiasettelusta sekä valmiista ja mukautetuista asetteluista ja muista ominaisuuksista on ohjeaiheessa [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md).  
 
 > [!TIP]
 > Saat KP-raporttimallien avulla tietoja tilikarttaan sisältyvistä kirjanpitotiedoista. Lue lisätietoja kohdasta [Talousraportoinnin valmisteleminen KP-raporttimallien ja tililuokkien avulla](bi-how-work-account-schedule.md).
 
-Kun mukautettuja raportin asetteluita määritetään, voit valita ne asiakas- ja toimittajakorteista ja määrittää, että valittuja asetteluita käytetään asiakirjoissa, jotka ovat kyseessä olevalle asiakkaalle tai toimittajalle. Lisätietoja on kohdassa [Asiakkaiden ja toimittajien asiakirja-asettelujen määrittäminen ](ui-define-customer-vendor-document-layouts.md).
+Kun olet määrittänyt mukautettuja raporttiasetteluja, voit valita ne asiakaskortti- ja toimittajakorttisivuilla. Asettelua käytetään luotaessa asiakirjoja asiakkaalle tai toimittajalle. Lisätietoja on kohdassa [Asiakkaiden ja toimittajien asiakirja-asettelujen määrittäminen ](ui-define-customer-vendor-document-layouts.md).
+
+Voit myös käyttää mukautettuja raporttiasetteluja lisätäksesi sisältöä sähköpostiviesteihin. Raporttiasettelut voivat säästää aikaa ja auttaa yhdenmukaisuuden varmistamisessa siten, että samaa sisältöä käytetään uudelleen, kun viestit asiakkaidesi kanssa. Jotta voit käyttää mukautettuja raporttiasetteluja sähköpostissa, niiden tiedostotyyppinä on oltava Word. Et voi käyttää RDLC-tiedostotyyppiä. Lisätietoja: [Uudelleenkäytettävien sähköpostitekstien ja -asettelujen määrittäminen](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
 ## <a name="to-create-a-custom-layout"></a>Mukautetun asettelun luonti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten vastaava linkki.
 
     **Raporttiasetteluvalinta**-sivulla on luettelo kaikista raporteista, joita voi käyttää sivun yläosan **Yrityksen nimi** -kentässä määritetyssä yrityksessä.
-2. Aseta **Yritys**-kenttä yritykselle jolle haluat luoda raporttiasettelun.
+2. Valitse **Yrityksen nimi**-kentässä yritys, jolle haluat luoda raporttiasettelun.
 3. Valitse sen raportin rivi, johon haluat luoda asettelun, ja valitse sitten **Mukautetut asettelut** -toiminto.  
 
    **Mukautetut raporttiasettelut** -sivulla näkyvät kaikki mukautetut asettelut, jotka ovat käytettävissä valitussa raportissa.
@@ -47,8 +49,8 @@ Kun mukautettuja raportin asetteluita määritetään, voit valita ne asiakas- j
    Mukautetun asettelun kopio näkyy **Mukautetut raporttiasettelut** -sivulla, jonka **Kuvaus**-kentässä on sana *Kopio*.
 5. Jos haluat lisätä uuden mukautetun asettelun, joka perustuu valmiiseen asetteluun, noudata seuraavia vaiheita:  
    1. Valitse **Uusi**-toiminto. **Lisää raportin valmis asettelu** -sivu avautuu. **Tunnus**- ja **Nimi**-kentät täytetään automaattisesti.
-   2. Voit lisätä mukautetun Word-raporttiasettelun tyypin valitsemalla **Lisää Word-asettelu** -valintaruutu.
-   3. Voit lisätä mukautetun RDLC-raporttiasettelun tyypin valitsemalla **Lisää RDLC-asettelu** -valintaruudun.
+   2. Voit lisätä mukautetun Word-raporttiasettelun tyypin kytkemällä **Lisää Word-asettelu** -valitsin päälle.
+   3. Voit lisätä mukautetun RDLC-raporttiasettelun tyypin kytemällä **Lisää RDLC-asettelu** -valitsin päälle.
    4. Valitse **OK**-painike.  
 
     Uusi mukautettu asettelu näkyy nyt **Mukautetut raporttiasettelut** -sivulla. Jos uusi asettelu perustuu valmiiseen asetteluun, sitten siinä on sanat **valmiin asettelun kopio** **Kuvaus**-kentässä. Jos valmista asettelua ei ole saatavilla, uudessa asettelussa on sanat **uusi asettelu** **Kuvaus**-kentässä. Tämä osoittaa, että mukautettu asettelu on tyhjä.

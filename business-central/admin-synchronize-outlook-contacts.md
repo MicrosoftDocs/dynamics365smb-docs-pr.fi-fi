@@ -1,7 +1,7 @@
 ---
 title: Jaa kontaktit Business Centralin ja Outlookin välillä
 description: Palvelulla on laaja integrointi Microsoft 365:n kanssa, jotta voit jakaa kontakteja Outlookin ja Business Centralin välillä.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,45 +9,54 @@ ms.workload: na
 ms.search.keywords: contacts, Microsoft 365
 ms.search.form: 6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 5308, 5309, 5310, 5311
 ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 6c4ed5dfa89fdafe6e685d6566a57cb604adacdb
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.author: bholtorf
+ms.openlocfilehash: 571dce9d79532cb3659ec952a585764af78c5161
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513120"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799876"
 ---
 # <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Business Centralin kontaktien synkronisointi Microsoft Outlookin yhteystietojen kanssa
 
-Näet samat kontaktit [!INCLUDE[prod_short](includes/prod_short.md)]:ssa kuin Outlookissa, jos synkronointi määritetään. Esimerkiksi jos olet myyjä, sinun kannattaa tehdä joitakin töitä Outlookissa ja joitakin töitä [!INCLUDE[prod_short](includes/prod_short.md)]:ssä. Jos kontaktit ovat samat molemmissa, työ on yksinkertaisempaa.  
+Voit määrittää kontaktien synkronoinnin siten, että kontakteillasi [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa on samat tiedot kuin kontakteillasi Microsoft Outlookissa. Myyjät esimerkiksi saattavat käyttää Outlookia ja [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaa samanaikaisesti. Jos kontaktit ovat samat molemmissa, työ on yksinkertaisempaa.  
 
-Kiinteä Outlook-kansio helpottaa yhteystietojen löytämistä ja voit asettaa suodattimen synkronoidaksesi vain ne kontaktit [!INCLUDE[prod_short](includes/prod_short.md)]:sta, jotka haluat nähdä Outlookissa. Kun yhteyshenkilön synkronointi on käytössä, voit aloittaa synkronoinnin manuaalisesti tai määrittää automaattisen synkronoinnin, joka säilyttää synkronoinnin aikataulun mukaisesti.  
+Synkronoimasi kontaktit säilytetään oletusarvoisesti Outlookin kansioruudun suosikkien **Business Central** -kansiossa. Business Central -kansion avulla on helpompi tunnistaa, mitkä kontaktit synkronoidaan. Voit määrittää suodattimia synkronoidaksesi vain tietyt kontaktit [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmasta Outlookiin. Synkronoinnin määrittämisen jälkeen voit synkronoida manuaalisesti tai automatisoida prosessin suorittamaan synkronoinnin säännöllisin väliajoin.  
 
 ## <a name="set-up-synchronization"></a>Synkronoinnin määritys
-Määrität, miten haluat synkronoida Outlookin yhteystiedot [!INCLUDE[prod_short](includes/prod_short.md)]:n **Exchangen synkronointiasetukset** -sivulla. Tämä edellyttää, että [!INCLUDE[prod_short](includes/prod_short.md)] -käyttäjäprofiilissasi määritetään oma Microsoft 365 -sähköpostitilisi. Voit tarkistaa tämän **Käyttäjät**-luettelossa oman käyttäjäprofiilisi **Microsoft 365 -todennus** -osassa.  
+Määrität, miten haluat synkronoida Outlookin yhteystiedot [!INCLUDE[prod_short](includes/prod_short.md)]:n **Exchangen synkronointiasetukset** -sivulla. Tämä edellyttää, että [!INCLUDE[prod_short](includes/prod_short.md)] -käyttäjäprofiilissasi määritetään oma Microsoft 365 -sähköpostitilisi. Voit tarkistaa tämän asetuksen **Käyttäjät**-luettelossa oman käyttäjäprofiilisi **Microsoft 365 -todennus** -osassa. 
 
-Tarkista sitten **Exchangen synkronointiasetukset** -sivulla, että yhteys Exchangeen toimii ja määritä synkronointi. Avaa **Kontaktin synkronointiasetukset** -sivu ja käynnistä synkronointi. Voit myös asettaa suodattimen sille, mitkä kontaktit synkronoidaan [!INCLUDE[prod_short](includes/prod_short.md)]:n ja Outlookin välillä. Voit esimerkiksi asettaa suodattimen nimen, tyypin, yrityksen tai vastaavan tiedon perusteella. Voi myös muuttaa sen kansion oletusnimeä, johon yhteystiedot synkronoidaan Outlookissa. Oletusnimi on *Business Central*.  
+**Exchangen synkronointiasetukset** -sivulla voit tarkistaa, että yhteys Exchangeen toimii ja määrittää sitten synkronoinnin. **Exchangen synkronointiasetukset** -sivulla voit avata **Kontaktien synkronointiasetukset** -sivun ja aloittaa synkronoinnin. Voit myös määrittää suodattimen määrittääksesi, mitkä kontaktit synkronoidaan. Voit esimerkiksi suodattaa nimen, tyypin, yrityksen jne. perusteella. Voi myös muuttaa sen kansion oletusnimeä, johon yhteystiedot synkronoidaan Outlookissa.  
 
-Kun tämä synkronointi on määritetty, tekemäsi muutokset kontaktiin joko Outlookissa tai [!INCLUDE[prod_short](includes/prod_short.md)]:ssa synkronoidaan aina molempiin sovelluksiin.  
+Kunkin työtovereistasi voi myös määrittää oman Exchange-synkronointinsa ja määrittää suodattimia sille, mitkä kontaktit halutaan synkronoida.  
 
-Kunkin työtovereistasi voi myös määrittää oman Exchange-synkronointinsa ja määrittää suodattimen sille, mitkä kontaktit halutaan synkronoida.  
+Synkronoinnin määrittämisen jälkeen voit synkronoida kontaktin muutokset manuaalisesti tai voit automatisoida prosessin määrittämällä työjonotapahtuman. Lisätietoja automaatiosta on tämän artikkelin seuraavassa osassa.
+
+### <a name="automate-synchronization"></a>Synkronoinnin automatisointi
+Voit luoda työjonotapahtuman, joka synkronoi kontaktit määrittämäsi aikataulun mukaan. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md). 
+
+Seuraava taulukko sisältää **Työjonotapahtumakortin** asetukset, jotka on tarkoitettu kontaktien synkronointia varten:
+
+|Kenttä|Kontaktin synkronoinnin asetus|
+|-----|-----|
+|Suoritettavan objektin tyyppi|Koodiyksikkö|
+|Suoritettavan objektin tunnus|6700|
 
 ## <a name="synchronize-contacts"></a>Kontaktien synkronointi
-Jos olet tottunut käyttämään yhteyshenkilöitä [!INCLUDE[prod_short](includes/prod_short.md)]:ssa, sinun on helppo aloittaa synkronointi manuaalisesti aina, kun se sinulle sopii,  **Kontaktit**-luettelosta. Valitse vain **Synkronoi Microsoft 365:n kanssa** -toiminto, ja päätä, haluatko muuttaa suodatinta, joka on määritetty. Kun valitset OK-painikkeen, synkronointi alkaa välittömästi ja uusimmat muutokset kohdistetaan Outlook-yhteystietoihisi.  
-
-Voit **Kontaktit**-luettelossa synkronoida kontaktejasi kahdella tavalla:
+Jos olet tottunut käyttämään kontakteja [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa, sinun on helppo suorittaa synkronointi manuaalisesti **Kontaktit**-luettelosta aina, kun se sinulle sopii. Voit synkronoida kontakteja kahdella tavalla:
 
 * **Synkronoi Microsoft 365:nn kanssa**
 
-  Tämä toiminto synkronoi kaikki edellisen synkronoinnin jälkeiset muutokset [!INCLUDE[prod_short](includes/prod_short.md)]:sta Microsoft 365:een viimeisimmän muokkauksen päivämäärän perusteella. Kaikki uudet yhteystiedot Microsoft 365:ssä synkronoidaan myös takaisin [!INCLUDE[prod_short](includes/prod_short.md)]:een. Tämä on yleensä nopeampaa kuin täydellisen synkronoinnin suorittaminen.  
+  Synkronoi kaikki edellisen synkronoinnin jälkeiset muutokset [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmasta Microsoft 365:een viimeisimmän muokkauksen päivämäärän perusteella. Kaikki uudet yhteystiedot Microsoft 365:ssä synkronoidaan [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan. Tyypillisesti tämä toiminto on täyttä synkronointia nopeampi. 
 
 * **Täysi synkronointi Microsoft 365:n kanssa**
 
-  Tämä toiminto synkronoi kaikki yhteyshenkilöt molempiin suuntiin riippumatta viimeisen synkronoinnin päivämäärästä tai viimeksi muokattu -päivämäärästä.  
+  Synkronoi kaikki yhteyshenkilöt molempiin suuntiin riippumatta viimeisen synkronoinnin päivämäärästä tai viimeksi muokattu -päivämäärästä.  
 
-Molemmissa tapauksissa kontaktit synkronoidaan Outlookista vain jos niiden pakolliset kentät on täytetty. Pakolliset kentät  Microsoft 365:een synkronointiin ovat **Nimi** ja **Sähköpostiosoite** ja kontaktien on oltava tyyppiä Henkilö. [!INCLUDE[prod_short](includes/prod_short.md)]:ssa on kontaktien päätiedot, joten [!INCLUDE[prod_short](includes/prod_short.md)] -yhteystiedot tallennetaan, jos kaksoiskappaleita esiintyy.  
+Molemmissa tapauksissa kontaktit synkronoidaan Outlookista vain jos niiden pakolliset kentät on täytetty. Pakolliset kentät Microsoft 365:een synkronointiin ovat **Nimi** ja **Sähköpostiosoite**, minkä lisäksi kontaktin on oltava tyyppiä **Henkilö**. [!INCLUDE[prod_short](includes/prod_short.md)] on kontaktitietojen lähde, joten [!INCLUDE[prod_short](includes/prod_short.md)] -kontaktitiedot tallennetaan, jos kaksoiskappaleita esiintyy.  
 
-Outlookissa kontaktit [!INCLUDE[prod_short](includes/prod_short.md)]:sta näytetään **Muut kontaktit** -kansiossa **Henkilöt**-näkymässä. Jos et tunne Outlookin Henkilöt-näkymää, pääset siihen siirtymisvaihtoehdoista Outlookin vasemmassa alakulmassa.  
+> [!NOTE]
+> Jos poistat kontaktin Outlookissa, mutta haluat säilyttää sen [!INCLUDE[prod_short](includes/prod_short.md)] ohjelmassa, kontakti luodaan Outlookissa uudelleen seuraavan synkronoinnin yhteydessä. 
 
 ## <a name="see-also"></a>Katso myös
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  

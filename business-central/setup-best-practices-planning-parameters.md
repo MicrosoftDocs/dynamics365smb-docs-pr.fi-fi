@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 6cb63f5fcc6f3fcf4262214c8fb162a6835b0c50
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d8be2d8c3b9602c1a3e78f6cc4ba495af93730d3
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513651"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950171"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Asetukset - parhaat käytännöt: suunnitteluparametrit
 **Suunnittelu**-pikavälilehti nimikkeen kortissa on yrityksen toimitusketjun keskus. Oikeiden suunnitteluparametrien määrittäminen on erittäin tärkeää kustannustehokkaan varastonhallinnan ja hyvän asiakaspalvelun vuoksi.  
@@ -24,7 +24,7 @@ ms.locfileid: "8513651"
 |Kentän asetukset|Parhaat käytännöt|Kommentti|  
 |-----------------|-------------------|-------------|  
 |Uusintatilaustapa||Lisätietoja on ohjeaiheessa [Asetukset - parhaat käytännöt: uusintatilaustavat](setup-best-practices-reordering-policies.md).|  
-|Varaa|Valitse **ei koskaan**, kun nimike suunnitellaan käyttämällä uusintatilauspistettä.<br /><br /> Valitse tuotannon **Ei koskaan** -kohta, kun haluat sallia suunnittelujärjestelmän kaikille kysynnöille.<br /><br /> Valitse **valinnainen** kohteille, jotka haluat ehkä varata ylimmän prioriteetin asiakkaille.<br /><br /> Valitse **Aina** muille kuin yksilöllisille nimikkeille, kuten sekalainen, jotka ovat tulevia, erityisvaatimuksia sisältäviä nimikkeitä.|Varaukset neutraloivat suunnittelun tarkoitusta, joka tasapainottaa kysyntää ja tarjontaa. Tämän vuoksi nimikkeitä, jotka on määritetty suunnittelussa, ei yleensä pidä varata.<br /><br /> Jos käyttäjä varaa varastomäärää tulevaa kysyntää varten, suunnittelun perusta häiriintyy ja uusintatilauspiste ei ehkä toimi oikein. Vaikka oletettu varastotaso on hyväksyttävä suhteessa uusintatilauspisteeseen, määrät eivät ehkä ole käytettävissä varauksen vuoksi.|  
+|Varaa|Valitse **ei koskaan**, kun nimike suunnitellaan käyttämällä uusintatilauspistettä.<br /><br /> Valitse tuotannon **Ei koskaan** -kohta, kun haluat sallia suunnittelujärjestelmän kaikille kysynnöille.<br /><br /> Valitse **valinnainen** kohteille, jotka haluat ehkä varata ylimmän prioriteetin asiakkaille.<br /><br /> Valitse **Aina** muille yksilöllisille nimikkeille (muille kuin vakiotyyppisille nimikkeille), kuten sekalainen, jotka ovat tulevia, erityisvaatimuksia sisältäviä nimikkeitä.|Varaukset neutraloivat suunnittelun tarkoitusta, joka tasapainottaa kysyntää ja tarjontaa. Tämän vuoksi nimikkeitä, jotka on määritetty suunnittelussa, ei yleensä pidä varata.<br /><br /> Jos käyttäjä varaa varastomäärää tulevaa kysyntää varten, suunnittelun perusta häiriintyy ja uusintatilauspiste ei ehkä toimi oikein. Vaikka oletettu varastotaso on hyväksyttävä suhteessa uusintatilauspisteeseen, määrät eivät ehkä ole käytettävissä varauksen vuoksi.|  
 |Puskuriaika|Määritä ottaen huomioon toimittajan joustavuuden.<br /><br /> Lyhyemmän ajanjakson avulla voit vähentää käyttöpääomaa välttämällä liiallista kalustoa, mutta se myös aiheuttaa enemmän toimenpiteitä aikataululle.|Jos toimittaja hyväksyy tilauksiin viime hetken muutoksia, käytä lyhyempää jaksoa, mutta valmistaudu suurempaan määrään uudelleenajoituksia. Jos toimittaja vaatii sitovan suunnittelun, pidennä jaksoa mahdollisimman paljon.<br /><br /> Lisätietoja **Puskutiaika**-kentästä on ohjeessa [Suunnittelun tiedot: suunnittelun parametrit](design-details-planning-parameters.md).|  
 |Sisällytä varasto|Valitse aina, kun käytät uusintatilaustapaa Erä-erästä.|Älä valitse vain erityistilanteissa, esimerkiksi, kun varastonimikkeet eivät ole myytäviä.|  
 |Toimitusajan varmistus|Valitse 1D tai 6D.<br /><br /> Määritä vähintään yhden päivän toimitusajan varmistus varmistaaksesi, että toimitukset ovat käytettävissä päivää ennen kuin niitä tarvitaan.<br /><br /> Jos kyseessä on uusi toimittaja, määritä aika normaalia pidemmäksi niin pitkäksi aikaa, kunnes toimittajan toimitussuorituskyky tunnetaan.<br /><br /> Määritä tuotannon kriittisille komponenteille pidemmät toimitusajan varmistukset.|Järjestelmän suunnittelema tarjonta, jolla vältetään varaston loppuminen, saapuu sinä päivänä, jona varasto loppuisi. Tämä voi olla useita tunteja myöhässä, jos esimerkiksi kysyntä tarvitaan aamulla ja tarjonta saapuu iltapäivällä. **Huomautus:**  **Toimitusajan varmistus** -kenttä käyttää peruskalenteria. 14 D ei välttämättä ole kahta viikkoa.|  

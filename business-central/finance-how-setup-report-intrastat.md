@@ -8,20 +8,26 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
-ms.date: 01/28/2022
+ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: d5b1358166f8d26a62da79059a73948bcd7b9784
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: 2ea3d93e1dac041848dc650fc8137e824e0fd4c2
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740335"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799743"
 ---
 # <a name="set-up-and-report-intrastat"></a>Intrastat-ilmoituksen määrittäminen ja raportoiminen
 
 Kaikkien Euroopan unionin alueen yritysten täytyy raportoida kaupastaan muiden EU-maiden/alueiden kanssa. Tavaran liikkuminen on raportoitava kotimaan/-alueen tilastoviranomaisille kuukausittain ja raportti on toimitettava veroviranomaisille. Ohjelmassa tätä kutsutaan Intrastat-raportoinniksi. **Intrastat-ilmoitus**-sivulla voi täyttää jaksottaiset Intrastat-ilmoitukset.  
 
 ## <a name="required-and-optional-setups"></a>Pakolliset ja valinnaiset määritykset
+
+> [!IMPORTANT]  
+> Asiakaskortit ja toimittajakortit sisältävät **Intrastat-kumppanin tyyppi**-kentän, jolla on samat arvovaihtoehdot kuin **Kumppanin tyyppi** -kentällä eli *"" (tyhjä)*, *Yritys* ja *Henkilö*. **Intrastat-kumppanin tyyppi** -kenttä on korvannut **Kumppanin tyyppi** -kentän Intrastat-raportoinnissa. **Kumppanin tyyppiä** käytetään SEPA:ssa SEPA-suoraveloitusmaksujärjestelmän määrittämiseen (Core tai B2B). **Intrastat-kumppanin tyyppiä** käytetään vain Intrastat-raportoinnissa. Tällä tavoin voit tarpeen mukaan määrittää eri arvot näille kahdelle kentälle.
+> 
+> Huomaa kuitenkin, että jos **Intrastat-kumppanin tyyppi** -kenttä jätetään tyhjäksi, Intrastat-raportoinnissa käytetään **Kumppanin tyyppi** -kentän arvoa.
+
 Sinun on määritettävä useita asetuksia, ennen kuin voit raportoida Intrastat-tiedot Intrastat-ilmoituksella.  
 
 * **Valtiokohtaiset Asetukset**: Valtiokohtaiset Asetukset sivua käytetään intrastat-reportoinnin käyttöönottoon ja sen osetusaletusten määrittelyyn. Voit määrittää sen, tarvitkseeko sinun raportoida Intrastat lähetyksistä (toimitukset), kuiteista (saapuvat) vai molemmista, riippuen paikkalisten asetuksien rajoista. Voit myös määrittää oletusasetukset tapahtumatyypeille tavallisia ja palautusdokumentteja koskien, joita käytetään maksuliikenteen raportointiin.
@@ -30,7 +36,7 @@ Sinun on määritettävä useita asetuksia, ennen kuin voit raportoida Intrastat
 * **Kauppatapahtuman luonteen koodit**: Mailla ja alueilla on eri koodit Intrastat-tapahtumatyypeille, kuten tavallisille ostoille ja myynneille, palautettujen tavaroiden vaihdolle ja palauttamattomien tavaroiden vaihdolle. Määritä omaa maata tai aluetta koskevat koodit. Näitä koodeja käytetään myynti-ja ostoasiakirjojen **Ulkomaankauppa**-pikavälilehdessä sekä palautusten käsittelyssä. 
 
     > [!NOTE]
-    > Tammikuusta 2022 alkaen Intrastat edellyttää eri tapahtuman luonteen koodia yksityishenkilöille tai ALV-rekisteröitymättömille yrityksille suunnatuille ja ALV-rekisteröityneille yrityksille osoitetuille toimituksille. Tämän vaatimuksen täyttämiseksi on suositeltavaa tarkistaa tapahtumien luonteiden koodit ja/tai lisätä uusia sellaisia **Tapahtumien tyypit** -sivulle kulloisenkin maan vaatimusten mukaisesti. Lisäksi kannattaa tarkistaa ja päivittää **Kumppanityyppi**-kenttä muotoon *Henkilö* asianomaisten asiakkaiden eli yksityishenkilöjen ja ALV-rekisteröimättömien yritysten **Asiakas**-sivulla. Jos et ole varma oikeasta kumppani- tai tapahtumatyypistä, suosittelemme, että pyydät samassa maassa tai samalla alueella asuvan asiantuntijan neuvoa. 
+    > Tammikuusta 2022 alkaen Intrastat edellyttää eri tapahtuman luonteen koodia yksityishenkilöille tai ALV-rekisteröitymättömille yrityksille suunnatuille ja ALV-rekisteröityneille yrityksille osoitetuille toimituksille. Tämän vaatimuksen täyttämiseksi on suositeltavaa tarkistaa tapahtumien luonteiden koodit ja/tai lisätä uusia sellaisia **Tapahtumien tyypit** -sivulle kulloisenkin maan vaatimusten mukaisesti. Lisäksi kannattaa tarkistaa ja päivittää **Intrastat-kumppanin tyyppi**-kenttä muotoon *Henkilö* asianomaisten asiakkaiden eli yksityishenkilöjen ja ALV-rekisteröimättömien yritysten **Asiakas**-sivulla. Jos et ole varma oikeasta Intrastat-kumppani- tai tapahtumatyypistä, suosittelemme, että pyydät samassa maassa tai samalla alueella asuvan asiantuntijan neuvoa. 
  
 * **Kuljetusmuodot**: Intrastat-kuljetusmuodoilla on seitsemän yksimerkkistä koodia. **1** tarkoittaa merikuljetusta, **2** rautatiekuljetusta, **3** tiekuljetusta, **4** ilmakuljetusta, **5** postitusta, **7** kiinteää asennusta ja **9** omaa käyttövoimaa (kuten auton kuljettaminen sitä ajamalla). [!INCLUDE[prod_short](includes/prod_short.md)] ei edellytä näitä koodeja, mutta suosituksena on käyttää merkitykseltään vastaavia kuvauksia.  
 * **Tapahtumamääritykset**: Voit täydentää näiden määritysten avulla tapahtumatyyppien kuvauksia.  
@@ -113,7 +119,7 @@ Kun olet täyttänyt Intrastat-ilmoituksen, voit suorittaa **Tarkistusluettelo-r
 Eräajo hakee kaikki tämän tilastokauden nimiketapahtumat ja lisää ne riveiksi Intrastat-ilmoitukseen. Voit muokata rivejä tarvittaessa.  
 
 > [!IMPORTANT]  
-> Eräajo hakee vain ne tapahtumat, joilla on sellainen maa- tai aluekoodi, joille Intrastat-koodi annettiin **Maat/alueet**-sivulla. Siksi on tärkeää, että syötät Intrastat-koodit sellaisille maa-/aluekoodeille, joilla tulet tekemään eräajoja. Eräajo määrittää **Kumppanin ALV-tunnus** -kentän arvoksi *QV999999999999* yksityishenkilöillä ja ALV-rekisteröimättömillä yrityksillä (asiakkailla, joiden **Kumppanityyppi**-kentän arvo on *Henkilö*) ja käyttää kirjatun nimiketapahtumamerkinnän tai työtapahtumamerkinnän **Tapahtuman tyyppi** -kentän arvoa. 
+> Eräajo hakee vain ne tapahtumat, joilla on sellainen maa- tai aluekoodi, joille Intrastat-koodi annettiin **Maat/alueet**-sivulla. Siksi on tärkeää, että syötät Intrastat-koodit sellaisille maa-/aluekoodeille, joilla tulet tekemään eräajoja. Eräajo määrittää **Kumppanin ALV-tunnus** -kentän arvoksi *QV999999999999* yksityishenkilöillä ja ALV-rekisteröimättömillä yrityksillä (asiakkailla, joiden **Intrastat-kumppanin tyyppi**-kentän arvo on *Henkilö*) ja käyttää kirjatun nimiketapahtumamerkinnän tai työtapahtumamerkinnän **Tapahtuman tyyppi** -kentän arvoa. 
 
 ### <a name="to-modify-intrastat-journals-lines"></a>Intrastat-ilmoitusten rivien muokkaaminen
 
@@ -149,6 +155,9 @@ Voit nyt lähettää Intrastat-raportin tiedostona. Ennen tiedoston luomista voi
 5. Valitse erätyösivulla **OK**-painike.  
 6. Valitse **Tallenna**.  
 7. Selaa sijaintiin, jonne haluat tallentaa tiedoston. Anna tiedoston nimi ja valitse sitten **Tallenna**.
+
+> [!NOTE]
+> Kun Intrastat-raportin rivillä on lisämittayksikkö, nimikkeen painoa ei näytetä, koska tätä arvoa ei edellytetä.
 
 ## <a name="reorganize-intrastat-journals"></a>Intrastat-ilmoitusten uudelleenjärjestely
 

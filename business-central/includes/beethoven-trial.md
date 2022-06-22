@@ -1,20 +1,20 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 02/23/2022
+ms.date: 06/08/2022
 ms.author: edupont
-ms.openlocfilehash: 8f46c780d88df95264137814f0f49d72dd17bc75
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: fd1448c9fd32b359bf40a02b90a3ee6a66a5d685
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367296"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950253"
 ---
 ## <a name="sign-up"></a>Rekisteröityminen
 
 ### <a name="which-email-address-i-should-use-to-sign-up"></a>Mitä sähköpostiosoitetta rekisteröitymisessä käytetään?
 
-Käytä työpaikan tai koulun sähköpostiosoitetta. Luomme kokeiluversion organisaatiosi tilille. Kuluttajasähköpostipalveluiden ja telekommunikaatiopalveluntarjoajien sähköpostiosoitteita ei voi käyttää (esimerkiksi outlook.com, hotmail.com ja gmail.com).  
+Käytä työpaikan tai koulun sähköpostiosoitetta. Luomme kokeiluversion organisaatiosi tilille. Kuluttajasähköpostipalveluiden ja telekommunikaatiopalveluntarjoajien sähköpostiosoitteita ei voi käyttää (esimerkiksi *outlook.com*, *hotmail.com* ja *gmail.com*).  
 
 ### <a name="what-are-the-system-requirements-for-the-trial"></a>Mitkä ovat kokeiluversion järjestelmävaatimukset?
 
@@ -39,7 +39,7 @@ Kokeiluversion käyttäjäksi rekisteröityvä saa sähköpostiviestin, jossa on
 
 ### <a name="how-do-i-add-more-users-to-a-trial"></a>Miten uusia käyttäjiä lisätään kokeiluversioon?
 
-Jotta käyttäjiä voi lisätä, pyydä järjestelmänvalvojaa siirtymään [Microsoft 365 -hallintakeskukseen](https://admin.microsoft.com), missä voi seurata [hallintakeskuksen ohjeita](/microsoft-365/admin/add-users/add-users) käyttäjien lisäämiseksi kokeiluversion lisenssirajan mukaisesti. Jos lisättävällä käyttäjällä on jo Microsoft 365 -tili, määritä hänelle asianmukainen käyttöoikeus. Lisätietoja: [Käyttöoikeuksien määrittäminen käyttäjille](/microsoft-365/admin/manage/assign-licenses-to-users) Microsoft 365 -sisällössä.
+Lisätäkseen käyttäjiä järjestelmänvalvojan on siirryttävä [Microsoft 365 -hallintakeskukseen](https://admin.microsoft.com) Siellä hän voi noudattaa [hallintakeskuksen ohjeistusta](/microsoft-365/admin/add-users/add-users) lisätäkseen käyttäjiä aina kokeiluversion ylärajaan asti. Jos lisättävällä käyttäjällä on jo Microsoft 365 -tili, määritä hänelle asianmukainen käyttöoikeus. Lisätietoja: [Käyttöoikeuksien määrittäminen käyttäjille](/microsoft-365/admin/manage/assign-licenses-to-users) Microsoft 365 -sisällössä.
 
 ### <a name="how-many-users-can-i-add-to-my-trial-environment"></a>Kuinka monta käyttäjää kokeiluympäristöön voi lisätä?
 
@@ -47,11 +47,9 @@ Kokeiluympäristöön lisättävien käyttäjien määrää ei ole rajoitettu.
 
 ### <a name="how-do-i-reset-the-trial-environment"></a>Miten kokeiluympäristö palautetaan oletusasetuksiin?
 
-Kokeiluympäristöä ei voi palauttaa oletusasetuksiin. Mutta järjestelmänvalvoja voi luoda uusia eristysympäristöjä, joissa voi kokeilla eri ominaisuuksia. Lisätietoja on hallintasisällön kohdassa [Tuotanto ja -eristysympäristöjen hallinta](/dynamics365/business-central/dev-itpro/administration/environment-types).  
+Kokeiluympäristöä ei voi palauttaa oletusasetuksiin. Pyydä järjestelmänvalvojaa kuitenkin luomaan tuore eristysympäristö, jotta voit kokeilla eri ominaisuuksia. Lisätietoja on hallintasisällön kohdassa [Tuotanto ja -eristysympäristöjen hallinta](/dynamics365/business-central/dev-itpro/administration/environment-types).  
 
 Jos haluat peruuttaa [!INCLUDE [prod_short](prod_short.md)] -kokeiluversion kokeilujakson aikana, pyydä Microsoft 365 -järjestelmänvalvojaa poistamaan kokeiluversion tilaus yrityksen tililtä [Microsoft 365 -hallintakeskuksessa](https://admin.microsoft.com/). Katso [Tilauksen peruuttaminen tai poistaminen [!INCLUDE[prod_short](prod_short.md)]](../admin-cancel.md).  
-
-Jos olet rekisteröitynyt Dynamics 365 Business Centraliin käyttämällä muuta kuin Microsoft 365 -yritystiliä, sinulla ei ole Microsoft 365 -järjestelmänvalvojaa. Jos haluat peruuttaa tilauksen, sinun on otettava yhteyttä [!INCLUDE[prod_short](prod_short.md)] -peruutusryhmään lähettämällä sähköpostiviesti osoitteeseen [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). Lisää viestiin tunnistamista varten oman [!INCLUDE[prod_short](prod_short.md)]-vuokraajan nimi. Löydät nämä tiedot **Ohje ja tuki** -sivulta, johon pääset **?**-merkistä. -valikosta. Lisätietoja on kohdassa [Resurssit ohjeelle ja tuelle](../product-help-and-support.md).  
 
 ## <a name="trial-expiration-and-extension"></a>Kokeiluversion käytön päättyminen ja pidentäminen
 
