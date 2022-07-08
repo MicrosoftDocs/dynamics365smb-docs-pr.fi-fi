@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: 84d4a87a0edab18be342b9ed5732de0350a31645
-ms.sourcegitcommit: bc645e7ecb1940a85b2c433aa894d3494c9b10df
+ms.openlocfilehash: 7ea61d359bbdaf0ac788a0fada151fe3e0ad5960
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743669"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075080"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Dynamics 365 Business Centralin työnkulut
 
@@ -47,6 +47,8 @@ Voit määrittää ja käyttää työnkulkuja, joita ei ole määritetty Power A
 |Luo työnkulun käyttäjiä, määriä, kuinka käyttäjät saavat ilmoituksia, ja luo uusia työnkulkuja. Jos haluat määrittää uusia työnkulkuja skenaarioille, joita ei tueta, työnkulun elementit on otettava käyttöön mukauttamalla sovelluskoodia.|[Työnkulkujen määrittäminen](across-set-up-workflows.md)|  
 |Ota käyttöön työnkulkuja ja käsittele työnkulun ilmoituksia, joihin kuuluvat myös hyväksyntöjen pyytäminen sekä työnkulun osavaiheen suorituspyyntöjen hyväksyminen. Arkistoi ja poista työnkulkuja.|[Käytä työnkulkuja](across-use-workflows.md)|  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/create-workflows/)
+
 ## <a name="see-also"></a>Katso myös
 
 [Myynti](sales-manage-sales.md)  
@@ -55,5 +57,6 @@ Voit määrittää ja käyttää työnkulkuja, joita ei ole määritetty Power A
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen käyttäminen Power Automate -työnkuluissa](across-how-use-financials-data-source-flow.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman automaattisten työnkulkujen vianmääritys](across-flow-troubleshoot.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

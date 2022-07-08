@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7cdd6e49f4d7cb4d63f70312a89266d020025b4f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 3e638e00fc648a720d09520fb62aa3ad25324673
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518519"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078270"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Nimikkeiden hyllyttäminen ja fyysisen varaston hyllytykset
+
 Kun sijainnissa on määritetty pakolliseksi fyysisen varastoinnin hyllytyksen ja vastaanoton käsittely, voit ohjata nimikkeiden hyllytystä fyysisen varastoinnin hyllytysasiakirjojen avulla.  
 
 Kun kirjaat fyysisen varastoinnin vastaanoton, ohjelma päivittää lähdeasiakirjat (ostotilauksen, saapuvan siirron tilauksen tai myyntipalautustilauksen), kirjaa vastaanotetun määrän nimikekirjauksiin ja lähettää vastaanotettuja nimikkeitä koskevat rivit fyysisen varastoinnin hyllytystoimintoon. Jos käytät sisäistä hyllytystä ja poimintaa, myös sisäinen hyllytys voi luoda rivejä hyllytystä varten.  
@@ -25,7 +26,8 @@ Fyysisen varastoinnin määritysten mukaan ohjelma ottaa rivit käyttöön hylly
 
 Tässä ohjeaiheessa kuvattujen fyysisen varaston hyllytysten luonnin vakiotapojen lisäksi voit luoda hyllytyksen liittyvästä kirjatusta fyysisen varaston vastaanotosta. Tämä on kätevää, jos olet poistanut hyllytysrivit tai jos käytät ohjattua hyllytystä ja poimintaa ja olet päättänyt olla käyttämättä hyllytystyökirjaa, koska voit luoda tai uudelleenluoda vastaanottorivien hyllytysohjeet.  
 
-## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Nimikkeiden hyllytys ilman ohjattua hyllytystä ja poimintaa  
+## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Nimikkeiden hyllytys ilman ohjattua hyllytystä ja poimintaa
+
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyllytykset** ja valitse sitten vastaava linkki.  
 2.  Avaa varastohyllytys, joka on valmis käsiteltäväksi.  
 
@@ -33,7 +35,8 @@ Tässä ohjeaiheessa kuvattujen fyysisen varaston hyllytysten luonnin vakiotapoj
 3.  Syötä kullakin rivillä **Käsiteltävä määrä** -kenttään määrä, jonka haluat hyllyttää.  
 4.  Kun olet saanut nimikkeiden hyllytyksen valmiiksi, tallenna toiminnon valmistuminen ja määritä nimikkeet poimittaviksi valitsemalla **Rekisteröi hyllytys** -toiminto.  
 
-## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Nimikkeiden hyllytys ohjatun hyllytyksen ja poiminnan avulla  
+## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Nimikkeiden hyllytys ohjatun hyllytyksen ja poiminnan avulla
+
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyllytykset** ja valitse sitten vastaava linkki.
     Jos hyllytysohjeet on luotu, ikkunassa näkyy fyysisen varastoinnin hyllytys.  
 2.  Avaa varastohyllytys, jota haluat käsitellä.  
@@ -59,7 +62,8 @@ Paikoissa, jotka on määritetty käyttämään ohjattua hyllytystä ja poiminta
 
 Kun hyllytysmallin ehtoja vastaavia varastopaikkoja on useita, ohjelma käyttää varastopaikan luokittelua. Jos sekä hyllytysmallin ehdot että varastopaikan luokittelu ovat samat useissa varastopaikoissa, ohjelma valitsee varastopaikan, jonka numero on suurin.
 
-## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Luo hyllytys kirjatusta vastaanotosta  
+## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Luo hyllytys kirjatusta vastaanotosta
+
  Jos sijainnissa käytetään sekä hyllytyskäsittelyä että vastaanoton käsittelyä ja olet poistanut hyllytysrivit tai jos käytät ohjattua hyllytystä ja poimintaa ja olet päättänyt olla käyttämättä hyllytystyökirjaa, voit luoda tai uudelleenluoda kirjattujen vastaanottorivien hyllytysohjeet.
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut f. var. vast.otot** ja valitse sitten vastaava linkki.  
@@ -69,13 +73,16 @@ Kun hyllytysmallin ehtoja vastaavia varastopaikkoja on useita, ohjelma käyttä�
     Jos **Asiakirjan tila** -kenttä on tyhjä, vastaanottoa ei ole hyllytetty ollenkaan. Muutoin kenttä ilmaisee, että vastaanotto hyllytetään osittain tai kokonaan.  
 
 4.  Jos vastaanotto on hyllytetty osittain tai sitä ei ole hyllytetty lainkaan, valitse **Luo hyllytys** -toiminto.  
-5.  Täytä eräajon pyyntösivu haluamasi kaltaisen hyllytyksen luomista varten ja valitse **OK**-painike.   
+5.  Täytä eräajon pyyntösivu haluamasi kaltaisen hyllytyksen luomista varten ja valitse **OK**-painike.  
 
-## <a name="see-also"></a>Katso myös  
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/receive-put-away-items/)
+
+## <a name="see-also"></a>Katso myös
+
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
-[Vaihto-omaisuus](inventory-manage-inventory.md)  
-[Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)     
-[Kokoonpanon hallinta](assembly-assemble-items.md)    
+[Varasto](inventory-manage-inventory.md)  
+[Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  
+[Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/14/2022
 ms.author: jswymer
-ms.openlocfilehash: 609678742ccf9593407e96ea412a377f37c8abf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c0800642804b8e8c9e1dc629224bfac77b174500
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525059"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075731"
 ---
 # <a name="working-with-excel-layouts"></a>Excel-asettelujen käyttö
 
@@ -144,9 +144,9 @@ Yhteenveto siitä, mitä voit ja mitä et voi tehdä **Tiedot**-laskentataulukos
 [Raporttien tai asiakirjojen mukautetun asettelun tuonti ja vienti](ui-how-import-and-export-report-layout.md)  
 [Raporttien, eräajojen ja XMLportien käsitteleminen](ui-work-report.md)  
 [Talousraportoinnin valmisteleminen KP-raporttimallien ja tililuokkien avulla](bi-how-work-account-schedule.md)  
-[Liiketoimintatiedot](bi.md)  
+[Business Intelligence](bi.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
-[Raporttitietojen analysointi Excelillä](report-analyze-excel.md).
+[Raporttitietojen analysointi Excelillä](report-analyze-excel.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

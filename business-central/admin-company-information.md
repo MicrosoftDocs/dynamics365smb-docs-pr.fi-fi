@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 1
 ms.date: 04/20/2022
 ms.author: edupont
-ms.openlocfilehash: 1adf94a191b2e0514f7a7435ac1807ca19498b14
-ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
+ms.openlocfilehash: 5de13d4f6e625db0d0871a3f7a94f62d726abc8f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626237"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077708"
 ---
 # <a name="company-information-overview"></a>Yrityksen tietojen yleiskatsaus
 
@@ -35,6 +35,8 @@ Jos [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa on mukana useamp
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -kokeiluversion oletuskäyttökokemus ei paljasta kaikkia ominaisuuksia. Voit vaihtaa koko käyttökokemusta **Yritystiedot**-sivulla. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/create-new-companies-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Katso myös
 
 [[!INCLUDE[prod_short](includes/prod_short.md)]in määritystehtävien yleiskatsaus](setup.md)  
@@ -42,3 +44,6 @@ Jos [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa on mukana useamp
 [Yrityksen tietojen määrittäminen Italiassa](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

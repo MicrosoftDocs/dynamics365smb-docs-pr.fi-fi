@@ -10,12 +10,12 @@ ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: eaa10e4ed7890dd1e6cc8fb2fe76be7770689b75
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2c6b1b37398d0121c5c79bb0c9d9786abe14120f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521856"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074612"
 ---
 # <a name="register-new-vendors"></a>Uusien toimittajien rekisteröiminen
 
@@ -32,6 +32,7 @@ Toimittajan kortti sisältää tiedot, joita tarvitaan tuotteiden ostamiseksi to
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Uusien toimittajien lisääminen
+
 Voit lisätä uusia toimittajia manuaalisesti täyttämällä **Toimittajankortti**-sivun kentät tai käyttämällä malleja, jotka sisältävät ennalta määritettyjä tietoja. Voit esimerkiksi luoda malleja erityyppisille toimittajaprofiileille. Mallien käyttäminen säästää aikaa uusien toimittajien lisäämisen aikana ja varmistaa, että tiedot ovat aina oikein. Jos luot malleja useammalle kuin yhdelle toimittajatyypille, voit valita mallin, jota käytetään, kun lisäät toimittajan. Jos luot vain yhden mallin, sitä käytetään kaikille uusille toimittajille. Kun olet luonut mallin, voit kohdistaa sen yhteen tai useampaan valittuun toimittajaan käyttämällä **Käytä mallia** -toimintoa. Kun haluat luoda mallin, täytä tiedot, joita haluat käyttää uudelleen Toimittajan kortti -sivulla, ja tallenna se mallina. Lisätietoja on osassa [Toimittajakortti-sivun tallentaminen mallina](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
 > [!TIP]
@@ -57,7 +58,6 @@ Voit muokata toimittajakorttien tietoja milloin tahansa. Jos olet kirjannut toim
 > [!TIP]
 > Voit muuttaa toimittajan pankkitilin IBAN-tunnusta ilman, että muutos vaikuttaa aikaisempiin tilisiirtorekisterin tapahtumiin. Kredit-siirron rekisteröintitapahtumat tallentavat vastaanottajan IBAN-tunnuksen ja vastaanottajan pankkitilinumeron, jotka määritettiin Toimittajan pankkitili- ja Vastaanottajan nimi -kentissä Toimittajakortti-sivulta, kun tapahtumat luotiin.
 
-
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Toimittajan kortin tallentaminen mallina
 
 1. Valitse **Toimittajakortti**-sivulla **Tallenna mallina** -toiminto. **Toimittajamalli**-sivu avautuu ja näyttää toimittajan kortin mallina.
@@ -67,6 +67,8 @@ Voit muokata toimittajakorttien tietoja milloin tahansa. Jos olet kirjannut toim
 5. Kun olet määrittänyt uuden toimittajamallin, valitse **OK**-painike.  
    Toimittajamalli lisätään toimittajamallien luetteloon niin, että sen avulla voit luoda uusia toimittajan kortteja.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Katso myös
 
 [Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)  
@@ -74,5 +76,6 @@ Voit muokata toimittajakorttien tietoja milloin tahansa. Jos olet kirjannut toim
 [Osto](purchasing-manage-purchasing.md)  
 [Ostojen kirjaus](purchasing-how-record-purchases.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

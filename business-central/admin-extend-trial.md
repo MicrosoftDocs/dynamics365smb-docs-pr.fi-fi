@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2da669b7bc7675c1af7143e0a4702ab6655a7bca
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: f1c1ba7640c03314c53bceee13711c66f03a3c09
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805098"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079296"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Tarvitsetko lisää aikaa, ennen kuin päätät tilauksen tekemisestä?
 
@@ -49,6 +49,8 @@ Kuitenkin, kun tämä toinen jatkoaika, joka on antanut organisaatiolle jopa 90 
 Kun jatkettu kokeilujakso on päättynyt, voit [tilata](https://go.microsoft.com/fwlink/?linkid=828659) [!INCLUDE[prod_short](includes/prod_short.md)]in 90 päivän kuluessa ja jatkaa luomasi yrityksen käyttöä. 90 päivää sen jälkeen, kun laajennettu koeaika päättyy, poistamme yrityksesi ja tiedot, ellet tilaa.  
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
+
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/trial-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 28c1ff79108f8192695a6faa524b06f409e9058e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: db5db1518e4064a158e83ccfef1409d919a4e35d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518491"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075627"
 ---
 # <a name="setting-up-warehouse-management"></a>Varastoinninhallinnan määrittäminen
 
@@ -42,12 +42,14 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Integroi viivakoodinlukijat varastoinninhallinnan ratkaisuihin. Vain paikallinen käyttöönotto.|[ADCS (Automated Data Capture System) -järjestelmä](warehouse-use-automated-data-capture-systems-adcs.md)|
 |Määritä oletusraportteja, joita käytetään eri asiakirjatyypeille.|[Raporttien valinta Business Centralissa](across-report-selections.md)|
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/set-up-warehouse-management/)
+
 ## <a name="see-also"></a>Katso myös
 
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
 [Varasto](inventory-manage-inventory.md)  
-[Kokoonpanon hallinta](assembly-assemble-items.md)
-[Rakennetiedot: Warehouse Management](design-details-warehouse-management.md)  
+[Kokoonpanon hallinta](assembly-assemble-items.md)  
+[Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

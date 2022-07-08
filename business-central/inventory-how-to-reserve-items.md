@@ -10,19 +10,21 @@ ms.search.keywords: ''
 ms.search.forms: 498, 497
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 385003db0d0fe8b121e6512257f0ed448596225e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 92ebe1881a143986ef4775e269211f0fb7279f3f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519698"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079582"
 ---
 # <a name="reserve-items"></a>Nimikkeiden varaaminen
+
 Voit varata nimikkeitä myyntitilauksiin, ostotilauksiin, huoltotilauksiin, kokoonpanotilauksiin ja tuotantotilauksiin. Voit varata nimikkeitä varastossa tai avoimien asiakirja- tai päiväkirjarivien saapuvissa kohteissa. Käsittely tapahtuu **Varaus**-sivulla.
 
 Jokaisella nimikkeiden varaamista varten avatulla **Varaus**-sivun rivillä on tietoja yhdestä rivin (myynti, osto, päiväkirja) tai varastotapahtuman tyypistä. Riveillä kuvataan, kuinka monta nimikettä on saatavilla varattavaksi kustakin rivin tai tapahtuman tyypistä.
 
 ## <a name="to-reserve-items-for-sales"></a>Nimikkeiden varaaminen myyntiä varten
+
 Seuraavaksi käsitellään, miten nimikkeitä varataan myyntitilauksesta. Samat ohjeet koskevat osto-, huolto- ja kokoonpanotilauksia.  
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 2.  Valitse myyntitilauksen **Rivit**-pikavälilehdessä **Varaa**-toiminto. **Varaus**-sivu avautuu.  
@@ -38,7 +40,8 @@ Seuraavaksi käsitellään, miten nimikkeitä varataan myyntitilauksesta. Samat 
 > [!NOTE]  
 >  Jos myyntitilauksella on olemassa nimikkeen seurantarivejä, varausjärjestelmä ohjaa erikoistyövaiheiden läpi. Lisätietoja on kohdassa [Tietyn erä- tai sarjanumeron varaaminen](inventory-how-to-reserve-items.md#to-reserve-a-specific-serial-or-lot-number).  
 
-## <a name="to-reserve-an-item-for-a-production-order-line"></a>Nimikkeiden varaaminen tuotantotilauksen rivejä varten  
+## <a name="to-reserve-an-item-for-a-production-order-line"></a>Nimikkeiden varaaminen tuotantotilauksen rivejä varten
+
 Tuotantotilauksille voi varata nimikkeitä. Tuotantotilauksen rivit eli päänimike ja tuotantotilauksen komponentit on erotettava toisistaan.
 
 Seuraavassa toimenpiteessä käytetään sitovasti suunniteltua tuotantotilausta.   
@@ -50,7 +53,8 @@ Seuraavassa toimenpiteessä käytetään sitovasti suunniteltua tuotantotilausta
 
 Ohjelma on nyt varannut määrän, joka oli syötetty sitovasti suunnitellun tuotantotilausriville.
 
-## <a name="to-reserve-items-for-production-order-components"></a>Nimikkeiden varaaminen tuotantotilauksen komponentteja varten  
+## <a name="to-reserve-items-for-production-order-components"></a>Nimikkeiden varaaminen tuotantotilauksen komponentteja varten
+
 Tuotantotilauksille voi varata nimikkeitä. Tuotantotilauksen rivit eli päänimike ja tuotantotilauksen komponentit on erotettava toisistaan.
 
 Seuraavassa toimenpiteessä käytetään sitovasti suunniteltua tuotantotilausta.    
@@ -64,21 +68,24 @@ Seuraavassa toimenpiteessä käytetään sitovasti suunniteltua tuotantotilausta
 
 Ohjelma on nyt varannut määrän, joka oli syötetty sitovasti suunnitellun tuotantokomponentin riville.
 
-## <a name="to-change-a-reservation"></a>Varausten muuttaminen  
+## <a name="to-change-a-reservation"></a>Varausten muuttaminen
+
 Joskus voit haluta muuttaa nimikevarausta.   
 1. Valitse sen asiakirjarivin, jossa olet tehnyt varauksen, **Rivit** -pikavälilehdessä **Varaa**-toiminto.  
 2. Valitse **Varaus**-sivulla **Varaustapahtumat**-toiminto.
 3. Päivitä **Varaustapahtumat**-sivulla muutettavan rivin **Määrä**-kenttä.
 4. Vahvista avautuva sanoma valitsemalla **OK**.
 
-## <a name="to-cancel-a-reservation"></a>Varausten peruuttaminen  
+## <a name="to-cancel-a-reservation"></a>Varausten peruuttaminen
+
 Joskus voit haluta peruuttaa nimikevarauksen.   
 1. Valitse sen asiakirjarivin, jossa tehdyn varauksen haluat peruuttaa, **Rivit** -pikavälilehdessä **Varaa**-toiminto.  
 2. Valitse **Varaus**-sivulla **Varaustapahtumat**-toiminto.  
 3.  Valitse **Varaustapahtumat**-sivulla **Peruuta varaus** -toiminto.  
 4.  Vahvista avautuva sanoma valitsemalla **OK**.  
 
-## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Varaa tietty sarja- tai eränumero  
+## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Varaa tietty sarja- tai eränumero
+
 Nimikeseurannassa olevien nimikkeiden lähtevien asiakirjojen, kuten myyntitilausten tai tuotannon komponenttiluetteloiden, tiettyjä sarja- tai eränumeroita voi varata. Tämä voi olla tarpeen, jos esimerkiksi tarvitaan tietyn erän tuotanto-osia, jotta varmistetaan yhdenmukaisuus aiempien tuotantoerien kanssa, tai koska asiakas on pyytänyt tiettyä sarjanumeroa. Lisätietoja on kohdassa [Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md).
 
 Tätä kutsutaan määritetyksi varaukseksi, koska varataan erään X kuuluvan nimikkeen X määrästä. Jos varataan vain nimikkeen X määristä, kyseessä on normaali, määrittämätön varaus. Lisätietoja on kohdassa [Rakennetiedot: Nimikkeen seuranta ja varaukset](design-details-item-tracking-and-reservations.md).
@@ -93,8 +100,11 @@ Seuraava toimenpide perustuu myyntitilaukseen.
 7. Valitse **OK**, jos haluat avata vain määritettyjen nimikkeen seurantanumeroiden tarjonnan näyttävän **Varaus**-sivun. Jos jollakin tälle riville määritetyllä nimikkeen seurantanumerolla on määrittämättömiä varauksia, saat ilmoituksen varatusta määrästä.  
 8. Luo tiettyjen nimikkeen seurantanumeroiden varaus valitsemalla joko **Automaattinen varaus**- tai **Varaa nykyiseltä riviltä** -toiminto.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/manage-outbound-serial-lot-numbers/)
+
 ## <a name="see-also"></a>Katso myös
-[Vaihto-omaisuus](inventory-manage-inventory.md)  
+
+[Varasto](inventory-manage-inventory.md)  
 [Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Rakennetiedot – nimikkeen seuranta ja varaukset](design-details-item-tracking-and-reservations.md)  
 [Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md)  

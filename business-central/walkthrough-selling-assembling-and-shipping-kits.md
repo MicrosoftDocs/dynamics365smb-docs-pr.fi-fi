@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 8fd48bd5134fcd42ccee67cbc54eb32b3d8c5a63
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3c0ce6cc58d5876f99d82a0c177cb760bfdd9468
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148042"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075263"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Vaihekuvaus: pakettien myynti, kokoaminen ja toimitus
 
@@ -26,16 +26,19 @@ Erityinen toiminto koskee tilausta varten kokoonpantujen määrien toimitusta se
 
 Kun fyysisen varaston perusmääritysten kokoonpano tilausta varten -määrä on toimitusvalmis, varastotyöntekijä kirjaa varastopoiminnan myyntitilausriveille. Tämä luo varastosiirron osille ja kirjaa kokoonpanon tuotoksen ja myyntitilauksen toimituksen. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
-## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta  
+## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta
+
 Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:  
 
-### <a name="setting-up-assembly-items"></a>Kokoonpanon nimikkeiden määrittäminen  
+### <a name="setting-up-assembly-items"></a>Kokoonpanon nimikkeiden määrittäminen
+
 Kokoonpanon osat määrittää niiden täydennysjärjestelmä ja kokoonpanon tuoterakenne. Nimikkeen kokoonpanokäytäntö voi olla joko koonti tilauksesta (ATO) tai koonti varastoon (ATS). Tässä osassa käsitellään seuraavia tehtäviä:  
 
 -   Sopivan täydennysjärjestelmän ja kokoonpanokäytännön määrittäminen uudelle nimikekortille.  
 -   Kokoonpanon tuoterakenteen luominen, joka listaa kokoonpanon osat ja resurssin, joka siirtyy kokoonpanon nimikkeeseen.  
 
-### <a name="selling-customized-assembly-items"></a>Mukautetun kokoonpanon nimikkeiden myynti  
+### <a name="selling-customized-assembly-items"></a>Mukautetun kokoonpanon nimikkeiden myynti
+
 [!INCLUDE[prod_short](includes/prod_short.md)]issa voi kirjata joustavasti sekä varastomäärän että Kokoonpano tilausta varten -määrän yhdelle myyntitilausriville. Tässä osassa käsitellään seuraavia tehtäviä:  
 
 -   Puhtaan ATO-myyntitilausrivin luominen, jossa koko määrä ei ole käytettävissä ja on koottava ennen lähetystä.  
@@ -44,20 +47,23 @@ Kokoonpanon osat määrittää niiden täydennysjärjestelmä ja kokoonpanon tuo
 -   Yhdistelmämyyntitilausrivin luominen, jossa osa myyntimäärtästä tulee varastosta ja muu osa on koottava ennen toimitusta.  
 -   Tietoja ATO:n saatavuusvaroituksista.  
 
-### <a name="planning-for-assembly-items"></a>Kokoonpanon nimikkeiden suunnittelu  
+### <a name="planning-for-assembly-items"></a>Kokoonpanon nimikkeiden suunnittelu
+
 Kokoonpanon kysynnän ja tarjonnan käsittelee suunnittelujärjestelmä, aivan kuten ostoa, siirtoa ja tuotantoa varten. Tässä osassa käsitellään seuraavia tehtäviä:  
 
 -   Sellaisten nimikkeiden uudelleensuunnittelun suorittaminen, joiden kokoonpanotarjonnalla on myyntikysyntä.  
 -   Kokoonpanotilauksen myyntirivin luominen tarpeen täyttämiseksi vaaditun toimituspäivämäärän mukaan.  
 
-### <a name="assembling-items"></a>Nimikkeiden kokoonpano  
+### <a name="assembling-items"></a>Nimikkeiden kokoonpano
+
 Kokoonpanotilaukset toimivat samalla tavoin kuin tuotantotilaukset, paitsi kulutus ja tuotos tallennetaan ja kirjataan suoraan tilauksesta. Kun kohteet on koottu varastoon, varastotyöntekijällä on täydet käyttöoikeudet kaikkiin otsikko- ja rivikenttiin. Kun nimikkeet on koottu tilaukseen, jossa määrä ja päivämäärä on luvattu asiakkaalle, tietyt kokoonpanotilauksen kentät eivät ole muokattavia. Tässä tapauksessa kokoonpanotoimitus suoritetaan linkitetyn myyntitilauksen fyysisen varastoinnin toimituksen mukaan. Tässä osassa käsitellään seuraavia tehtäviä.  
 
 -   Kokoonpanon kulutuksen ja varastoon tuotoksen tallennus ja kirjaaminen.  
 -   Varastoinnin toimitusrivin käyttäminen ATO-kokoonpanotilauksesta kokoonpanotyön kirjaamiseksi.  
 -   ATO-kokoonpanotilauksen käyttäminen varastotoimitusriviltä automaattisesti kirjoitettujen tietojen arvioimiseksi.  
 
-### <a name="shipping-assembly-items-from-stock-and-assembled-to-order"></a>Toimitetaan kokoonpanon nimikkeet varastosta ja kokoonpano tilausta varten  
+### <a name="shipping-assembly-items-from-stock-and-assembled-to-order"></a>Toimitetaan kokoonpanon nimikkeet varastosta ja kokoonpano tilausta varten
+
 Erityinen toiminto koskee tilausta varten kokoonpantujen määrien toimitusta. Tässä osassa käsitellään seuraavia tehtäviä:  
 
 -   Varastoinnin poiminnan luominen, varastonimikkeiden kokoonpanolle ja kokoonpanon osille, jotka kootaan ennen lähetystä.  
@@ -66,7 +72,8 @@ Erityinen toiminto koskee tilausta varten kokoonpantujen määrien toimitusta. T
 -   Toimitetaan kokoonpano tilausta varten -määrät.  
 -   Toimitetaan kokoonpanon varastonimikkeitä.  
 
-## <a name="roles"></a>Roolit  
+## <a name="roles"></a>Roolit
+
 Tässä vaihekuvauksessa havainnollistetaan seuraavien käyttäjäroolien tehtäviä:  
 
 -   myyntitilausten käsittelijä  
@@ -75,7 +82,8 @@ Tässä vaihekuvauksessa havainnollistetaan seuraavien käyttäjäroolien tehtä
 -   Valitsin  
 -   Toimitusvastaava  
 
-## <a name="prerequisites"></a>Vaatimukset  
+## <a name="prerequisites"></a>Vaatimukset
+
 Tee seuraavat toimet ennen tämän vaihekuvauksen tehtävien suorittamista:  
 
 -   Asenna [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -108,7 +116,8 @@ Poista sisäisten prosessien oletusläpimenoaika seuraavasti:
 
 <!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
-## <a name="story"></a>Taustatietoja  
+## <a name="story"></a>Taustatietoja
+
 23. tammikuuta myyntitilausten käsittelijä Sanna ottaa Laitekauppa-yritykseltä tilauksen kolmesta tuotepaketti B:stä, joka on ATO-nimike. Kaikki kolme yksikköä on mukautettu, ja niissä on oltava tehokas grafiikkakorttti ja ylimääräistä RAM-muistia. Levyasemat päivitetään DVD-asemiksi, koska CD-asemia ei ole saatavilla. Sanna tietää, että yksiköt voidaan koota heti, joten hän jättää ehdotetuksi toimituspäiväksi tammikuun 23. päivän.  
 
 Samaan aikaan asiakas tilaa 5 yksikköä sarjaa A erityispyynnöllä, jonka mukaan viisi yksikköä mukautetaan tehokkaammalla grafiikkakortilla. Vaikka sarja A Kit on yleensä kokoonpano varastoon -nimike, tilausten käsittelijä yhdistää myyntirivimäärät myydäkseen kymmenen yksikköä varastosta ja kootakseen viisi mukautettua yksikköä tilaukseen. Sarjan A kymmenen yksikköä eivät ole käytettävissä ja kokoonpanotilauksen pitää toimittaa ne ensin varastoon nimikkeen kokoonpanokäytännön mukaisesti. Sanna kuulee kokoonpano-osastolta, että A-sarjan yksiköitä ei voida saada kuluvan viikon aikana valmiiksi. Hän asettaa yhdistelmä-ATO:n ja varaston määrän kohdalle toisen myyntitilausrivin toimituspäivämääräksi 27. tammikuuta ja ilmoittaa asiakkaalle, että paketti A:n 15 yksikköä toimitetaan neljä päivää paketti B:n kolmen yksikön jälkeen. Sanna ilmoittaa lähetysosastolle, että tämä myyntitilaus edellyttää kokoonpanon käsittelyä. Hän luo fyysisen varastoinnin toimituksen asiakirjan myyntitilauksesta.  
@@ -135,7 +144,7 @@ Sammy pakkaa kymmenen ATS-yksikköä viidellä ATO-yksiköllä, jotka Linda koko
 
 Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja linkitetyt kokoonpanotilaukset poistetaan.  
 
-## <a name="prepare-sample-data"></a>Esimerkkitietojen valmisteleminen  
+## <a name="prepare-sample-data"></a>Esimerkkitietojen valmisteleminen
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **F. var. nimikepvk:t** ja valitse sitten vastaava linkki.  
 2.  Valitse **Erän nimi** -kenttä, ja valitse sitten oletuspäiväkirja.  
@@ -433,7 +442,10 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Kun Laitekauppa maksaa 18 tietokoneen vastaanotosta CRONUSista, myyntitilaus ja sen linkitetyt kokoonpanotilaukset poistetaan.  
 
-## <a name="see-also"></a>Katso myös  
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/assemble-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Katso myös
+
  [Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista](assembly-assemble-to-order-or-assemble-to-stock.md)   
  [Kokoa nimikkeet](assembly-how-to-assemble-items.md)   
  [Nimikkeiden poiminta fyysisen varastoinnin toimitusta varten](warehouse-how-to-pick-items-for-warehouse-shipment.md)   

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: f4fedcf64f560cef7e4b2f96d5baf884161fd75e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: be30d89ca6ad6c80b27b0cc8f5e619b6ad5c7782
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511556"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078020"
 ---
 # <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Sarja-, erä- ja pakettinumeroita sisältävien nimikkeiden seurannan määrittäminen
 
@@ -85,10 +85,12 @@ Jotta nimikkeen seuranta voidaan ottaa käyttöön, nimikkeelle on ensin määri
 3. Määritä **Nimikkeen seuranta** -pikavälilehdessä asianmukaiset nimikeseurantakoodit ja valitse **Nimikkeen seurantakoodi**, **Sarjanrot** ja **Eränrot**.
     1. Vaihtoehtoisesti voit myös luoda uuden nimikkeen seurantakoodin valitsemalla **Uusi**-toiminnon.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/prepare-item-tracking/)
+
 ## <a name="see-also"></a>Katso myös
 
-[Sarja- ja eränumeroiden työstäminen ](inventory-how-work-item-tracking.md)
-[Jäljitä nimikeseurattuja nimikkeitä](inventory-how-to-trace-item-tracked-items.md)  
+[Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md)  
+[Nimikeseurannan nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Rakennetiedot: Nimikkeen seuranta](design-details-item-tracking.md)  
 [Rakennetiedot – nimikkeen seuranta ja varaukset](design-details-item-tracking-and-reservations.md)  

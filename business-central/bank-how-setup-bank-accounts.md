@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: fc0c01281b4a4fb1bccee4196917b4357413e4cf
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: af48197d84407fc16e103991852f98fa0338bf9e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514119"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078776"
 ---
 # <a name="set-up-bank-accounts"></a>Pankkitilien määrittäminen
 
@@ -157,6 +157,7 @@ The following table explains key fields.
 -->
 
 ## <a name="entering-an-opening-balance"></a>Alkusaldon syöttäminen
+
 Voit täyttää **Saldo**-kenttään alkusaldo, kun pankkitilitapahtuma ja kyseinen summa on kirjattu. Voit tehdä tämän suorittamalla pankkitilin täsmäytyksen. Lisätietoja on kohdassa [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md).  
 >
 > Vaihtoehtoisesti voit ottaa käyttöön alkusaldon osana yleistietojen luontia uusissa yrityksissä käyttämällä ohjattua **Siirrä yritystiedot** -asetusten määritystä. Lisätietoja on ohjeaiheessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
@@ -165,6 +166,7 @@ Voit täyttää **Saldo**-kenttään alkusaldo, kun pankkitilitapahtuma ja kysei
 > On tärkeää, että et kirjaa alkusaldoa suoraan pääkirjanpitoon. Jos KP-tilin kirjauksia kirjataan suoraan KP-tiliin, tuloksena on yleensä se, että et voi täsmäyttää pankkitiliä tai, jos kyseessä on ulkomaan valuutan pankkitili, tuloksena on eroja, jotka kertyvät ylimääräisiä pankkitäsmäytyksiä kirjatessa. Usein pankin avaussaldo kirjataan suoraan pankkitilille, ja summa päätyy KP-tiliin. Voit vaihtoehtoisesti kumota sen myöhemmin sellaisen KP-tilin osalta, jota käytät pääkirjanpidon avaussaldon tasapainottamista varten. Molemmissa tapauksissa sinun on tasapainotettava mahdolliset suorat kirjaukset KP-tiliin ennen ensimmäisen pankkitäsmäytyksen aloittamista ja erityisesti silloin, kun pankkitili käyttää ulkomaan valuuttaa.
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Pankkitilin määrittäminen pankkitiedostojen tuontia tai vientiä varten
+
 **Pankkitilin kortti** -sivun **Siirto**-pikavälilehden kentät liittyvät pankkisyötteiden ja -tiedostojen tuontiin ja vientiin. Lisätietoja on kohdissa [AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md) ja [Envestnet Yodlee Bank Feeds -palvelun määrittäminen](bank-how-setup-bank-statement-service.md).
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten vastaava linkki.
@@ -239,6 +241,8 @@ Kun olet luonut uuden pankkitilin, luo myös uusi pankin kirjausryhmä ja määr
 > Muista, että avointen myyntilaskujen pankkitilitiedot näkyvät edelleen alkuperäisellä pankkitilillä. Näin ollen maksut todennäköisesti kirjataan edelleen kyseiselle tilille. Suosittelemme, että pidät molemmat tilit aktiivisina jonkin aikaa muutoksen jälkeen.
 
 Jos haluat tarkastella käteistilejäsi tarkemmin taloudellisessa raportoinnissa, käytä **Alkusumma**- ja **Loppusumma**-tilejä tilikartassasi, **Summausväli**-rivejä KP-raporttimalleissa tai KP-tililuokkia. Lisätietoja on osassa [Liiketoimintatiedot ja Financial Reporting](bi.md).
+
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

@@ -10,12 +10,12 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 317, 318, 320, 474
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 356eb4fd32eff269b166767ae3b6cb3df6b67f1b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: bda2bc95c78f5cc2119a6725b7dd57491938d67b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383695"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075523"
 ---
 # <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>ALV-ilmoitusmallien ja ALV-ilmoitusten nimien määrittäminen
 
@@ -45,10 +45,12 @@ Kun ALV-ilmoitus on määritetty, voit esikatsella sitä ja varmistaa, että se 
 4. Niillä riveillä, joiden **Tyyppi**-kentässä lukee **ALV-tapahtumien summat**, näkyy luettelo ALV-tapahtumista, kun valitset summan **Sarakkeen summa** -kentässä.
 5. Voit käyttää mukauttamista, kun haluat näyttää lisää kenttiä riveillä. Esimerkiksi ei-realisoituneen perussumman ja ei-realisoituneen ALV:in summan, jos käytät ei-realisoitunutta ALV:ia.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/process-vat-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Katso myös
 
 [Määritä arvolisävero](finance-setup-vat.md)  
-[Ei-realisoituneen arvonlisäveron määrittäminen](finance-setup-unrealized-vat.md)      
+[Ei-realisoituneen arvonlisäveron määrittäminen](finance-setup-unrealized-vat.md)  
 [ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)  
 [Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)  
 [Business Centralin paikalliset toiminnot](about-localization.md)

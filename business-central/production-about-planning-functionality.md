@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5430
 ms.date: 07/16/2021
 ms.author: edupont
-ms.openlocfilehash: 693e7a3a5970e681840332f7b6899f1867e36bd1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 51f1e2ff31e819c8aa571335b25dc51ec61d6d30
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512254"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077206"
 ---
 # <a name="about-planning-functionality"></a>Tietoja toimintojen suunnittelusta
 
@@ -161,6 +161,8 @@ Kuten [suunnitelmassa](production-planning.md) on kuvattu, voit valita kahdesta 
 Hankintatyökirjan rivit sisältävät tietoja nimikkeistä, joita tarvitsee uudelleentilata. Voit muokata ja poistaa rivejä jos haluat muuttaa täydennyssuunnitelmaasi, voit prosessoida rivejä käyttämällä **Toteuta toimenpideviesti** -eräajoa.
 
 Tietoja suunnittelusta sijaintien ja siirtojen avulla on kohdassa [Suunnitelman luominen sijaintien avulla tai ilman sijainteja](production-planning-with-without-locations.md).
+
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/plan-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

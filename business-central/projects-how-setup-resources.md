@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 65f656dac8ec1588872b8a9458da7a8ffdcaf857
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 1447627f14d08e1e432d613298f4b29592864d4d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520888"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078932"
 ---
 # <a name="set-up-resources-for-projects"></a>Projektien resurssien määrittäminen
 
@@ -32,6 +32,7 @@ Tuntikohtainen oletussumma määritetään resurssin luomisen yhteydessä. Jos k
 > Jos olet kirjaamassa konsernin tapahtumia, vaikka voit luoda resurssin myyntitilauksen riville, jos muunnat myyntitilauksen vastaanottopuolen ostotilaukseksi, resurssia ei sisällytetä. Käyttääksesi konsernin tapahtumissa resursseja käytä **Kons. oston KP-tilinro** -kenttää resurssikortissa määrittääksesi tilin, jolle kulut kirjataan.
 
 ## <a name="to-set-up-a-resource"></a>Resurssin määrittäminen
+
 Luo jokaiselle projekteissa käytettävälle resurssille kortti.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Resurssit** ja valitse sitten vastaava linkki.
@@ -39,6 +40,7 @@ Luo jokaiselle projekteissa käytettävälle resurssille kortti.
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-a-resource-group"></a>Resurssiryhmän määrittäminen
+
 Yhteen resurssiryhmään voi yhdistää useita resursseja. Kaikki resurssiryhmien kapasiteetit ja budjetit kertyvät yksittäisistä resursseista. Resurssiryhmille voi syöttää kapasiteetteja joko kertyneistä arvoista itsenäisesti tai niiden lisäksi.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Resurssiryhmät** ja valitse sitten vastaava linkki.
@@ -46,6 +48,7 @@ Yhteen resurssiryhmään voi yhdistää useita resursseja. Kaikki resurssiryhmie
 3. Täytä tarvittavat kentät.
 
 ## <a name="to-set-capacity-for-a-resource"></a>Resurssin kapasiteetin määrittäminen
+
 Resurssien kapasiteetti on määritettävä työkalenteriin jaksoittaisena saatavuusaikana, jotta voit laskea, kuinka kauan resurssia voi käyttää työssä. Tätä määritystä käytetään silloin, kun täytät työn suunnittelurivit, jotka sisältävät resurssin. Lisätietoja on kohdassa [Projektien luominen](projects-how-create-jobs.md).
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Resurssit** ja valitse sitten vastaava linkki.
@@ -58,6 +61,7 @@ Resurssien kapasiteetti on määritettävä työkalenteriin jaksoittaisena saata
 8. Sulje sivu.
 
 ## <a name="to-set-up-alternate-resource-costs"></a>Vaihtoehtoisten resurssikustannusten määrittäminen
+
 Resurssikortissa määritettyjen kustannusten lisäksi voit määrittää kullekin resurssille vaihtoehtoiset kustannukset. Jos esimerkiksi maksat työntekijälle suurempaa tuntipalkkaa ylityöstä, ylityöpalkalle voi määrittää resurssikustannuksen. Resurssille määritetty vaihtoehtoinen kustannus ohittaa resurssikortissa olevan kustannuksen silloin, kun resurssia käytetään resurssipäiväkirjassa.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Resurssit** ja valitse sitten vastaava linkki.  
@@ -68,6 +72,7 @@ Resurssikortissa määritettyjen kustannusten lisäksi voit määrittää kullek
 **Huomautus**. Voit määrittää kaikki resursseja ja resurssiryhmiä koskevia resurssikustannuksia avaamalla **Resurssikustannukset**-sivun ja täyttämällä sen kentät.
 
 ## <a name="to-set-up-alternate-resource-prices"></a>Vaihtoehtoisten resurssihintojen määrittäminen
+
 Resurssikortissa määritetyn hinnan lisäksi voit määrittää kullekin resurssille vaihtoehtoiset hinnat. Vaihtoehtoiset hinnat voivat olla ehdollisia. Ne voivat riippua siitä, minkä projekti- tai työtyypin yhteydessä resurssia käytetään.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Resurssit** ja valitse sitten vastaava linkki.
@@ -75,12 +80,15 @@ Resurssikortissa määritetyn hinnan lisäksi voit määrittää kullekin resurs
 3. Täytä **Resurssihinnat**-sivun rivillä tarvittavat kentät.
 4. Toista vaihe 3 kaikkien määritettävien vaihtoehtoisten resurssihintojen kohdalla.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/set-up-jobs-resources/)
+
 ## <a name="see-also"></a>Katso myös
+
 [Projektinhallinnan määrittäminen](projects-setup-projects.md)  
 [Projektinhallinta](projects-manage-projects.md)  
 [Rahoitus](finance.md)  
-[Osto](purchasing-manage-purchasing.md)         
-[Myynti](sales-manage-sales.md)      
+[Osto](purchasing-manage-purchasing.md)  
+[Myynti](sales-manage-sales.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

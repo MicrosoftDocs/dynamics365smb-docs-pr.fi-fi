@@ -10,12 +10,12 @@ ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
 ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: 4391b73a6e7f26262349abaeff751dd8f0f6c4e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a3ce9d938994f6300e0a1f2c26511b3c0702c124
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515665"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076563"
 ---
 # <a name="set-up-posting-groups"></a>Määritä kirjanpidon kirjausryhmät
 
@@ -58,6 +58,7 @@ Seuraavassa taulukossa kuvaillaan tietotyyppikohtaisia nimiketyyppejä.
 | Käyttöomaisuuden kirjausryhmät |Määritä erilaisten kulujen ja kustannusten tilit. Näitä kuluja ja kustannuksia ovat esimerkiksi hankintamenot, kokonaispoistosummat, hankintamenot luovutettaessa, kokonaispoistot luovutettaessa, voitot luovutettaessa, tappiot luovutettaessa, ylläpitokulut ja poistokustannukset. Määritä nämä kirjausryhmät **KO:n kirjausryhmät** -sivulla. |
 
 ### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Korvaavien asiakkaan tai toimittajan kirjausryhmien salliminen asiakirjoille
+
 Voit antaa käyttäjien valita eri asiakkaan ja toimittajan kirjausryhmät kuin oletusarvot, kun he työskentelevät myynti- tai ostoasiakirjojen ja päiväkirjojen parissa.
 
 Jos haluat sallia muutokset asiakkaan kirjausryhmiin, valitse **Salli kirjausryhmän muutos** **Myyntien ja myyntisaamisten asetukset**- ja **Huoltohallinnon asetukset** -sivuilla ja **Ostojen ja ostovelkojen asetukset** -sivulla toimittajan kirjausryhmien muutoksille.
@@ -129,10 +130,13 @@ Kun jotain on vialla, [!INCLUDE[prod_short](includes/prod_short.md)] -näyttöö
 > [!NOTE]
 > Yllä kuvattu virheen käsittely ei ole käytettävissä nimike-, resurssi-, työntekijä- ja käyttöomaisuuspäiväkirjoissa tai KP-tileissä, jotka on lisätty kirjausryhmien paikallisiin versioihin.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/posting-groups-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Katso myös
+
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
-[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

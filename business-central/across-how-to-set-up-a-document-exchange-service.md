@@ -9,25 +9,28 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: cc0bda1808e33db7ea54aac2a1afdb932c01f629
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 4a502dc56f45673c0a052b0081518ae0ec888a14
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382975"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076017"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Document Exchange -palvelun määrittäminen
+
 Osana tiedonvaihtokehystä voit vaihtaa myynti- ja osto asiakirjoja kauppakumppaneiden kanssa ilman lisävaiheita, kuten dokumenttien liittämistä sähköpostiviesteihin PDF-tiedostoina. Kun esimerkiksi olet valmis laskuttamaan asiakasta, voit kirjata laskun ja lähettää sen maksettavaksi tiedostona, jonka asiakas voi vastaanottaa liiketoiminnan hallintasovelluksessaan. Lisätietoja on kohdassa [Sähköinen tiedonsiirto](across-data-exchange.md).
 
 > [!NOTE]
 > Business Centralin on-premises -version asiakirjojen vaihtopalvelun määrittäminen edellyttää joitakin lisävaiheita valtuutusta varten. Lisätietoja on kohdassa [Business Central On-Premises -version asetukset](#settings-for-business-central-on-premises).
 
 ## <a name="connecting-with-trading-partners"></a>Yhdistäminen kauppakumppaneihin
+
 Sähköisten asiakirjojen vaihtaminen edellyttää yhteyttä kauppakumppaneihin. [!INCLUDE[prod_short](includes/prod_short.md)] online on määritetty käyttämään Business Central Integration-sovellusta, jotta suojatun yhteyden luominen on helppoa. Sovellus on saatavilla Tradeshift App Storessa, ja kaikki sinun ja liikekumppanisi tarvitsee vain luoda Tradeshift-tili ja ottaa sitten sovellus käyttöön. Business Central Integration -sovellus on saatavilla tuotanto- ja sandbox-versioina. Esimerkiksi sandbox-version käyttäminen on hyvä asiakirjojen vaihtamisen testaamista varten. Voit vaihtaa tuotanto- ja sandbox-versioiden välillä kääntämällä **Sandbox**-valitsimen päälle tai pois päältä **Document Exchange -palvelun asetukset** -sivulla. Kun teet näin, **Palvelu**-pikavälilehden tiedot päivitetään.
 
 Vaihtoehtoisesti jos haluat käyttää muuta palvelua, sinun on annettava tiedot yhteyden muodostamista varten. Lisätietoja on kohdassa [Document Exchange -palveluun yhdistäminen](across-how-to-set-up-a-document-exchange-service.md#to-connect-to-a-document-exchange-service).
 
 ## <a name="to-connect-to-the-business-central-integration-app-on-tradeshift"></a>Yhteyden muodostaminen Business Central Integration -sovellukseen Tradeshiftissa
+
 Voit luoda nopeasti Tradeshift-tilin ja aloittaa Business Central Integration -sovelluksen käytön **Document Exchange -palvelun asetukset** -sivulta. Valitse joko **Aktivoi sovellus** linkki ilmoituksessa tai **Sovelluksen URL** -kenttä ja siirry sovellukseen Tradeshift App Storessa. Kirjaudu sisään tai rekisteröidy Tradeshiftin kirjautumissivulla.
 
 > [!NOTE]
@@ -35,7 +38,8 @@ Voit luoda nopeasti Tradeshift-tilin ja aloittaa Business Central Integration -s
 
 Jos päätät lopettaa Business Central Integration -sovelluksen käyttämisen, poista se Tradeshift App Storessa. 
 
-## <a name="to-connect-to-a-document-exchange-service"></a>Document Exchange -palveluun yhdistäminen  
+## <a name="to-connect-to-a-document-exchange-service"></a>Document Exchange -palveluun yhdistäminen
+
 Jos haluat käyttää toista asiakirjan vaihtopalvelua, sinun täytyy antaa joitakin tietoja yhteyden muodostamiseksi palveluun.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Document Exchange -palvelun asetukset** ja valitse sitten liittyvä linkki.  
@@ -58,11 +62,15 @@ Jos haluat käyttää toista asiakirjan vaihtopalvelua, sinun täytyy antaa joit
     > Jos et pysty muodostamaan yhteyttä asiakirjan vaihtopalveluun valtuutusongelman vuoksi, syynä voi olla se, että [!INCLUDE[prod_short](includes/prod_short.md)] ei voi uudistaa automaattisesti käyttöoikeustunnusta. Tämä voi johtua tapahtua, jos palvelua ei ole käytetty pitkään aikaan. Voit uudistaa tunnuksen manuaalisesti **Uudista tunnus** -toiminnon avulla.
 
 ## <a name="settings-for-business-central-on-premises"></a>Business Central On-Premises -version asetukset
+
 Jotta voisit yhdistää Business Central on-premises -versioon, sinun on luotava sovellus Tradeshift App Storessa. Kun teet näin, käytä **Document Exchange Service Setup** -sivun **Uudelleenohjauksen URL** -kenttää. Kun olet rekisteröinyt sovelluksesi, Tradeshift antaa asiakastunnuksen ja asiakassalaisuuden. Anna [!INCLUDE[prod_short](includes/prod_short.md)]issa kyseiset arvot **Document Exchange -palvelun asetukset** -sivun **Valtuutus**-pikavälilehdessä.
 
 Jos haluat tallentaa sovelluksen tunnuksen ja salaisen avaimen eri sijaintiin, Asiakasohjelman tunnus- ja Asiakasohjelman salainen avain -kentät voidaan jättää tyhjäksi. Tunnuksen ja salaisen avaimen sijainnista noutoa varten on siinä tapauksessa kirjoitettava laajennus. Salainen avain voidaan antaa suorituspalvelussa tilaamalla OnGetClientId- ja OnGetClientSecret-tapahtumat codeunitissa 1410 Doc. Exch. Service Mgt.
 
-## <a name="see-also"></a>Katso myös  
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/electronic-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Katso myös
+
 [Tiedonsiirron määrittäminen](across-set-up-data-exchange.md)  
 [Sähköinen tiedonsiirto](across-data-exchange.md)
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 33d8c3a36340c997a12f879f8770e17045a88aa2
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 01c8b40b5217faccabc93e931472ad3aad64b7a1
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521044"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075601"
 ---
 # <a name="design-details-assembly-order-posting"></a>Rakennetiedot: kokoonpanotilauksen kirjaus
 Kokoonpanotilauksen kirjaus perustuu samoihin periaatteisiin kuin myyntitilausten ja tuotannon kulutuksen / tuotoksen kirjauksen vastaavat toiminnot. Periaatteet on kuitenkin yhdistetty niin, että kokoonpanotilauksilla on omat kirjauksen käyttöliittymänsä, kuten myyntitilauksille on omansa ja todellinen tapahtuman kirjaus tapahtuu taustalla suorana nimikkeen ja resurssipäiväkirjan kirjauksena, kuten tuotannon kulutukselle, tuotokselle ja kapasiteetille.  
@@ -108,8 +108,15 @@ Kokoonpano tilausta varten -määrien kirjauksesta syntyvät myyntityypin nimike
 
 Niiden myyntitilausrivien kirjaaminen, joilla osa on varastomäärä ja osa kokoonpano tilausta varten -määrä, aiheuttaa erilliset nimiketapahtumat: toisen varastomäärää ja toisen kokoonpano tilausta varten -määrää varten.  
 
+### <a name="posting-dates"></a>Kirjauspäivämäärät
+
+Yleensä kirjauspäivämäärät kopioidaan myyntitilauksesta linkitettyyn kokoonpanotilaukseen. Kokoonpanotilauksen kirjauspäivämäärä päivittyy automaattisesti silloin, kun muutat myyntitilauksen kirjauspäivämäärää suoraan tai epäsuorasti, esimerkiksi jos muutat kirjauspäivämäärää varastotoimituksessa, varaston poiminnassa tai joukkokirjausten osana.
+
+Voit muuttaa kokoonpanotilauksen kirjauspäivämäärää manuaalisesti. Se ei kuitenkaan voi olla myöhempi kuin kirjauspäivämäärä linkitetyssä myyntitilauksessa. Tämä päivämäärä säilyy järjestelmässä, ellet päivitä myyntitilauksen kirjauspäivämäärää.
+
+
 ## <a name="see-also"></a>Katso myös  
- [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)   
+ [Rakennetiedot: varaston arvostus](design-details-inventory-costing.md)   
  [Rakennetiedot: tuotantotilauksen kirjaus](design-details-production-order-posting.md)   
  [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)  
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  

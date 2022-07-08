@@ -9,12 +9,12 @@ ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
 ms.search.form: 550,
 ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: ce98367d08c399e8c1a93140bad6fbecd04dda95
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a71497451c56053b1f3c76a1bc58262ec2eb7ca7
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135391"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079114"
 ---
 # <a name="managing-vat-rate-changes"></a>ALV-prosenttimuutosten hallinta
 
@@ -105,9 +105,11 @@ ALV-prosentin muutostyökalun avulla voit hallita muutoksia ALV:n vakiokorvaukse
 > [!IMPORTANT]  
 > Muutoksen jälkeen **ALV-prosentin muutoslokin tapahtuma** -taulukon **Muunnettu**-kenttä on valittuna ja **ALV-prosentin muutoslokin tapahtuma** -taulukon **Muunnospvm** -kentässä näkyy muunnospäivämäärä.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/rate-change-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Katso myös
 
-[Määritä arvonlisävero](finance-setup-vat.md)  
+[Määritä arvolisävero](finance-setup-vat.md)  
 [Ei-realisoituneen arvonlisäveron määrittäminen](finance-setup-unrealized-vat.md)  
 [ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)  
 [Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)  

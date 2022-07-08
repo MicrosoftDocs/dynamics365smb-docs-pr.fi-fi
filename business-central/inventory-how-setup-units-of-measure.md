@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6457750589393b2f8cc9d76e732ab0c3e6064a9d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8b03ca934a87573feded023311f01349066f886c
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518023"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074846"
 ---
 # <a name="set-up-units-of-measure"></a>Mittayksikön määrittäminen
 
@@ -79,6 +79,8 @@ Jos ostat tai myyt tavallisesti eri yksiköissä kuin perusmittayksiköissä, vo
 3. Avaa myynnin osalta **Laskutus**-pikavälilehden **Myynnin mittayksikkö** -kentässä **Nimikkeen mittayksiköt** -sivu.
 4. Avaa oston osalta **Täydennys**-pikavälilehden **Oston mittayksikkö** -kentässä **Nimikkeen mittayksiköt** -sivu.
 5. Valitse myynnin tai oston oletusmittayksiköksi määritettävä koodi ja valitse sitten **OK**.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

@@ -10,12 +10,12 @@ ms.search.keywords: payment due, debt, overdue, fee, charge
 ms.search.form: 6, 494
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: de00eb7e96e2903872a3ef312d096bd91d97577d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 565654d8f7a4dd38aceccbcc39e722bad89bf67e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142053"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077604"
 ---
 # <a name="set-up-finance-charge-terms"></a>Viivästyskuluehtojen määrittäminen
 
@@ -67,6 +67,8 @@ Lisäksi jokainen Viivästyskuluehdot-taulukon ehto on linkitetty alitaulukkoon,
 |%7|Muistutuksen kokonaissumma|  
 |%8|Viivästyskululaskun otsikon **Valuutan koodi** -kentän sisältö|  
 |%9|Viivästyskululaskun otsikon **Kirjauspvm**-kentän sisältö|  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/send-memos-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 8900
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e9c7cc2166581c318ff8febcf112765b4f78923c
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 86f808aca7223115a3124d24dfc517ed6f96ae33
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655282"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075653"
 ---
 # <a name="set-up-printers"></a>Tulostimien määrittäminen
 
@@ -269,11 +269,14 @@ Sinä tai järjestelmänvalvoja voitte käyttää myös **Tulostinvalinnat**-siv
 > Yksityiskohtaiset tulostinvalinnat ohittavat yleisemmät tulostinvalinnat. Esimerkiksi tulostinvalinta, jossa on arvot **Käyttäjän tunnus**-, **Raportin tunnus**- ja **Tulostimen nimi** -kentissä, ohittaa tulostinvalinnan, jossa **Käyttäjän tunnus**- tai **Raportin tunnus** -kentät ovat tyhjät.
 
 ### <a name="choosing-the-printer-when-running-a-report"></a>Tulostimen valitseminen raporttia suoritettaessa
+
 Sen sijaan, että käytät oletustulostinta raporttia suoritettaessa, voit ohittaa tämän asetuksen pyyntösivulla. Valitse vain avattavasta **Tulostin**-valikosta, mitä tulostinta haluat käyttää tässä raportin ilmentymässä.
 
 ### <a name="sizing-print-jobs"></a>Tulostustöiden mitoitus
 
 Pilvitulostus on suunniteltu kohtuullisen kokoisia asiakirjoja varten. Useimmissa pilvipalveluissa, kuten PrintNode- ja HP ePrint -palveluissa, on enintään 10 megatavua työtä kohti. Jos haluat tulostaa suurempia raportteja, ne täytyy ehkä jakaa useisiin tulosteisiin.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

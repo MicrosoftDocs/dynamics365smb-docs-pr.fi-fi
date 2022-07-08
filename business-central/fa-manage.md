@@ -10,12 +10,12 @@ ms.search.keywords: machinery, buildings
 ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 71a05e36075dfcfd7384b0e4c055e955dbfda3c4
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0346150f53006cc5ae34bf9ad8fcb19c8bbcb271
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510972"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079166"
 ---
 # <a name="managing-fixed-assets"></a>Käyttöomaisuuden hallinta
 
@@ -48,11 +48,15 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Hallitse käyttöominaisuuserien budjetteja, budjetin hankintamenoja, käyttöomaisuuden luovutusten budjetointia ja poistojen budjetointia. |[Käyttöomaisuuden budjettien hallinta](fa-how-manage-budgets.md) |
 
 ## <a name="video-overview"></a>Videon yleiskuvaus
+
 Seuraava video kattaa käyttöomaisuuden perusteet.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/manage-fixed-assets-transactions/)
+
 ## <a name="see-also"></a>Katso myös
+
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
 [Rahoitus](finance.md)  

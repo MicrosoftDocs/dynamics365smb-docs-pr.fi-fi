@@ -10,12 +10,12 @@ ms.search.keywords: check, bank transfer, cash, PayPal
 ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: abe1d874658c393b0d9795c1710e642b4e33add0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5cf88736711667a18a43e75bc70533de5c924ad2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512956"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076589"
 ---
 # <a name="set-up-payment-methods"></a>Maksutapojen määrittäminen
 
@@ -42,6 +42,8 @@ Vaihtoehtoisesti voit lisätä maksuehdot maksutapaan. Lisätietoja on ohjeaihee
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakas** tai **Toimittaja** ja valitse sitten vastaava linkki.
 2. Valitse **Maksutavan koodi** -kentässä menetelmä, jota käytetään oletusarvoisesti asiakkaalle tai toimittajalle.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

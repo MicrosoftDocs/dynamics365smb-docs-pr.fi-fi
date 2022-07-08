@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6e5f1e99daea56fda5a1a36e0e2b1fb69c332dc5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 92f44504f97c4203585486fc937ed3bb560ad5d4
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519145"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076537"
 ---
 # <a name="terminology-in-cost-accounting"></a>Termit kustannuslaskennassa
 
@@ -49,8 +49,11 @@ Tässä aiheessa määritellään keskeiset ehdot, joita käytetään kustannusl
 |Muuttuva kustannus|Muuttuvat kustannukset ovat kuluja, jotka muuttuvat suhteessa yrityksen toimintaan. Muuttuvat kustannukset ovat kaikkien tuotettujen yksiköiden marginaalikustannusten summa. Kokonaiskustannusten kaksi osaa muodostuvat kiinteistä kustannuksista ja muuttuvista kustannuksista.|  
 |Variantti|Varianttia käytetään valinnaisena käyttäjän määrittämänä nimenä määrityksille. Etiketin tarkoitus on suodattaa jakoryhmiä.|  
 
-## <a name="see-also"></a>Katso myös  
- [Tietoja kustannuslaskennasta](finance-about-cost-accounting.md)   
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Katso myös
+
+ [Tietoja kustannuslaskennasta](finance-about-cost-accounting.md)  
  [Kustannuslaskenta](finance-manage-cost-accounting.md)  
  [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

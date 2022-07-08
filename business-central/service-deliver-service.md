@@ -1,8 +1,6 @@
 ---
 title: Huollon toimitustehtävien yleiskatsaus | Microsoft Docs
 description: Lisätietoja tehtävistä, joita määrittämällä voidaan varmistaa laadukkaan huollon toimitus ja asiakkaiden kanssa tehtyjen sopimusten noudattaminen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: service, service items, respond, response
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ae2dd8a55c030d06e839a97f482adf1c548d6dbd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e44033b067ab51e17925330618f954294252177b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128476"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077812"
 ---
 # <a name="delivering-service"></a>Huollon toimittaminen
 [!INCLUDE[prod_short](includes/prod_short.md)]:n toiminnot helpottavat huollon toimittamista luotujen sopimusten ja huoltotilausten mukaisesti. Huoltoteknikot ja huollon aikatauluttajat voivat tarkastaa odottavat huoltotilaukset helposti **lähetystaulukosta**. **Lähetystaulukosta** ilmenevät sekä käynnissä olevat että valmiit tilaukset.  

@@ -10,18 +10,20 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, import, implement
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8999ad14b3937ddcbc0f0935338173a35f698b30
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 0c6579f302bfcd5aa8b210eaa5f717c1712a4bd8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136793"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076277"
 ---
 # <a name="cloud-migration-base-extension"></a>Pilvipalveluihin siirtymisen peruslaajennus
 
 Laajennus avustaa paikallisen ratkaisun ja [!INCLUDE [prod_short](includes/prod_short.md)] Online -ympäristön määritysvaiheissa, kun siirtymisen pilvipalveluihin aloitetaan.  
 
 Kun yhteys on määritetty, tiedot voidaan siirtää paikallisesta ratkaisusta [!INCLUDE[prod_short](includes/prod_short.md)] Onlineen. Tämä laajennus toimii yhdessä tietyn paikallisen ratkaisun tietojen replikointilaajennuksen kanssa. Lisätietoja on kohdassa [Pilvisiirto-työkalun suorittaminen](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/connect-intelligent-cloud-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

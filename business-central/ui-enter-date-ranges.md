@@ -10,12 +10,12 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b3e68fcd3eb33ee0885ae3ae5b0bee46017ed409
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: ba8dc155f3f25aa69907a729b1e235606a5268f9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655096"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076797"
 ---
 # <a name="work-with-calendar-dates-and-times"></a>Kalenterin päivämäärien ja aikojen käsitteleminen
 
@@ -330,6 +330,7 @@ Aika-sana [!INCLUDE[prod_short](includes/prod_long.md)] -sovelluksen käyttämä
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Keston syöttäminen
+
 Sovelluksen jotkin kentät edustavat kestoa tai kuluneen ajan määrää tietyn päivämäärän tai ajan sijaan. Kesto syötetään numerona, jota seuraa sen mittayksikkö.
 
 Seuraavassa on muutamia esimerkkejä:
@@ -348,6 +349,8 @@ Voit syöttää myös numeron, jonka ohjelma muuntaa automaattisesti kestoksi. S
 Jos haluat nähdä, mitä mittayksikköä kesto-kentässä käytetään, syötä numero. Sen jälkeen voit nähdä, mihin mittayksikköön se on muunnettu.
 
 Jos mittayksikkö on esimerkiksi Tunnit, numero 5 muunnetaan 5 tunniksi.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

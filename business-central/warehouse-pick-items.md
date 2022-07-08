@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5779, 5798, 7343, 7345, 7357, 7359, 7377, 7392, 7395, 7397, 9313, 9316, 9344
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 028fb8d63045964fdb4e48cbbe3a6372677512d1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6f85c37a9a781493f1a67f00c9dcaade540697c7
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520549"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078854"
 ---
 # <a name="pick-items"></a>Nimikkeiden poiminta
 
@@ -44,12 +44,15 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Jaa poimintarivi useisiin riveihin esimerkiksi silloin, kun nimikkeitä ei ole tarpeeksi määritetyssä varastopaikassa.|[ Varastotoimintorivien jakaminen](warehouse-how-to-split-warehouse-activity-lines.md)|
 |Hae suoraan varastotyöntekijälle määritetyt poiminnat.|[Fyysisen varaston varausten etsiminen](warehouse-how-to-find-your-warehouse-assignments.md)|  
 
-## <a name="see-also"></a>Katso myös  
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/pick-ship-items-business-central/)
+
+## <a name="see-also"></a>Katso myös
+
 [Varastoinninhallinta](warehouse-manage-warehouse.md)  
-[Vaihto-omaisuus](inventory-manage-inventory.md)  
-[Warehouse Managementin määrittäminen](warehouse-setup-warehouse.md) 
-[Kokoonpanon hallinta](assembly-assemble-items.md)
-[Rakennetiedot: Warehouse Management](design-details-warehouse-management.md)  
+[Varasto](inventory-manage-inventory.md)  
+[Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  
+[Kokoonpanon hallinta](assembly-assemble-items.md)  
+[Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

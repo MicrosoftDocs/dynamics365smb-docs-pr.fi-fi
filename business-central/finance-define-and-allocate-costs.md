@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1102, 1105, 1106, 1107, 1109, 1114
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 11d979329860d72476a6c2ae2ad6fcf57bd2485e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 78dd79ab8a0f2b966b60dd9d75e95a521b83f4a2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149125"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075549"
 ---
 # <a name="defining-and-allocating-costs"></a>Kustannusten määrittäminen ja kohdistaminen
 
@@ -143,12 +143,14 @@ Tässä aiheessa kuvataan esimerkki siitä, kuinka kohdistuksia määritetään 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] käyttää edellisen vuoden myyntilukuja laskettaessa 1596.50 PVA:n 100 prosentin osuus IT-LAITTEISTO -paketteja varten. Tämä tarkoittaa sitä, että kaikki viime vuonna myydyt nimikkeet kohdennetaan kustannuskohteelle IT-LAITTEISTO.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/allocate-costs-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Katso myös
 
- [Kustannuslaskennan määrittäminen](finance-set-up-cost-accounting.md)   
- [Kustannustapahtumien siirtäminen ja kirjaaminen](finance-transfer-and-post-cost-entries.md)   
- [Kustannuslaskenta](finance-manage-cost-accounting.md)   
- [Termit kustannuslaskennassa](finance-terminology-in-cost-accounting.md)   
+ [Kustannuslaskennan määrittäminen](finance-set-up-cost-accounting.md)  
+ [Kustannustapahtumien siirtäminen ja kirjaaminen](finance-transfer-and-post-cost-entries.md)  
+ [Kustannuslaskenta](finance-manage-cost-accounting.md)  
+ [Termit kustannuslaskennassa](finance-terminology-in-cost-accounting.md)  
  [Tietoja kustannuslaskennasta](finance-about-cost-accounting.md)
 
 

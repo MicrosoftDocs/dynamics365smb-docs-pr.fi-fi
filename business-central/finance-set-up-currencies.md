@@ -7,12 +7,12 @@ ms.search.keywords: multiple currencies
 ms.search.form: 5, 118
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: f36d255c555c9ac83205a675bc7647cb02e0b3c2
-ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
+ms.openlocfilehash: e501f61f61aec9d9ffc4acd9607ee6b9cf22e74f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419601"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074898"
 ---
 # <a name="set-up-currencies"></a>Valuuttojen määrittäminen
 
@@ -117,7 +117,12 @@ Voit syöttää valuutan koodin yleisen päiväkirjan riville ja kirjata rivin k
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/currencies-exchange-rates-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Katso myös
 
 [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)  
 [Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

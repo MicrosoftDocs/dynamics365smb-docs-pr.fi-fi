@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 75c4de7736572ff923c74464dc33b218d0665e3f
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: c5a77e5258f4d70a35a1751ff01dc210210b3a6e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808856"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077786"
 ---
 # <a name="synchronize-customers"></a>Asiakkaiden synkronointi
 
@@ -21,16 +21,16 @@ Kun tilaus tuodaan Shopifysta, asiakkaan tiedot ovat olennaisia asiakirjan käsi
 * Käytä erikoisasiakasta kaikissa tilauksissa.
 * Tuo todelliset asiakastiedot Shopify-tiedoista. Tämä valinta on käytettävissä myös silloin, kun viet asiakkaan Shopifyhin [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmasta.
 
-## <a name="how-connector-chooses-which-customer-to-use"></a>Miten yhdistin valitsee käytettävän asiakkaan
+## <a name="how-the-connector-chooses-which-customer-to-use"></a>Miten yhdistin valitsee käytettävän asiakkaan
 
 *Tuo tilaus Shopifysta* -toiminto yrittää valita asiakkaan seuraavassa järjestyksessä:
 
-1. Jos **Oletusasiakasnro** -kenttä määritetään vastaavan maan **Shopify-asiakasmallissa**, vastaavalle maalle, silloin **oletusasiakasnroa** käytetään, riippumatta **asiakkaan tuonti Shopifysta** ja **Asiakkaan yhdistämismäärityksen tyyppi** -asetuksista. Lisätietoja on osassa [Asiakasmalli maata kohti](synchronize-customers.md#customer-template-per-country).
+1. Jos **Oletusasiakasnro** -kenttä määritetään vastaavan maan **Shopify-asiakasmallissa**, vastaavalle maalle, silloin **oletusasiakasnroa** käytetään, riippumatta **asiakkaan tuonti Shopifysta** ja **Asiakkaan yhdistämismäärityksen tyyppi** -kentistä. Lisätietoja on osassa [Asiakasmalli maata kohti](synchronize-customers.md#customer-template-per-country).
 2. Jos **Asiakkaan tuonti Shopifysta** on määritetty arvoon *Ei mitään* ja **Oletusasiakasnro** on määritetty **Shopify-ostoskortissa**, arvoa **Oletusasiakasnro** käytetään.
 
 Seuraavat vaiheet määräytyvät **asiakkaan yhdistämismäärityksen tyypin** mukaan.
 
-* **Ota aina oletusasiakas** ja käytä asiakasta, joka on määritetty **oletusasiakasnro** -kentässä **Shopify-ostoskortti**-ikkunassa.
+* **Ota aina oletusasiakas**, jolloin yhdistin käyttää asiakasta, joka on määritetty **oletusasiakasnro** -kentässä **Shopify-ostoskortti**-sivulla.
 * **Sähköpostilla/puhelimella**-yhdistin yrittää löytää nykyisen asiakkaan ensin tunnuksella, sitten sähköpostitse, ja sitten puhelimitse. Jos asiakasta ei löydy - yhdistin luo uuden asiakkaan.
 * **Laskutustiedoilla**, yhdistin yrittää löytää olemassa olevan asiakkaan ensin tunnuksella ja sitten laskutusosoitteen tiedoilla. Jos ei löydy - yhdistin luo uuden asiakkaan.
 
@@ -47,7 +47,7 @@ Joko tuot asiakkaita Shopifysta joukkona tai yhdessä tilausten tuonnin kanssa, 
 |**Asiakkaan yhdistämismäärityksen tyyppi**|Määritä, kuinka haluat yhdistimen suorittavan yhdistämisen.<br>- **Sähkö postilla/puhelimitse** jos haluat, että yhdistin yhdistää tuodun Shopify-asiakkaan olemassa olevaan asiakkaaseen [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa sähköpostin ja puhelimen avulla.</br>- **Laskutustietojen mukaan** jos haluat, että yhdistin yhdistää tuodun Shopify-asiakkaan olemassa olevaan asiakkaaseen [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa käyttämällä laskun vastaanottavan osapuolen osoitetietoja.</br>Valitse **Ota aina oletusasiakas**, jos haluat, että järjestelmä käyttää asiakasta **oletusasiakasnro** -kentässä. |
 |**Shopify voi päivittää asiakkaat**| Valitse tämä vaihtoehto, jos haluat, että yhdistin päivittää löydetyt asiakkaat, kun **asiakkaan yhdistämismäärityksen tyyppi** -kentässä on valittuna **sähköpostilla/puhelimella** tai **Laskutusasiakkaan tiedoilla**.|
 |**Luo tuntemattomat asiakkaat automaattisesti**| Valitse tämä vaihtoehto, jos haluat, että yhdistin luo puutuvat asiakkaat, kun **asiakkaan yhdistämismäärityksen tyyppi** -kentässä on valittuna **sähköpostilla/puhelimella** tai **Laskutusasiakkaan tiedoilla**. Uusi asiakas luodaan käyttämällä tuotuja tietoja ja **asiakasmallin koodia**, joka on määritetty **Shopify-ostoskortilla** tai **Shopify-asiakasmalli**-sivuilla. Huomaa, että Shopify-asiakkaalla täytyy olla vähintään 1 osoite. Jos tämä asetus ei ole käytössä, sinun on luotava asiakas manuaalisesti ja linkitettävä se Shopify-asiakkaaseen. Voit aina aloittaa asiakkaan luomisen manuaalisesti **Shopify-tilaus**-sivulta.|
-|**Asiakasmallin koodi**|Käytetään yhdessä **Tuntemattomien asiakkaiden luominen automaattisesti** -toiminnon kanssa.<br> Valitse oletusmalli, jota käytetään automaattisesti luoduille asiakkaille. Voit määrittää malleja kullekin maalle/alueelle **Shopify-asiakasmallit**-ikkunassa, josta on hyötyä asianmukaisen veron laskentaan. Lisätietoja on kohdassa [Verotukselliset huomautukset](synchronize-orders.md#tax-remarks).|
+|**Asiakasmallin koodi**|Käytetään yhdessä **Tuntemattomien asiakkaiden luominen automaattisesti** -toiminnon kanssa.<br> Valitse oletusmalli, jota käytetään automaattisesti luoduille asiakkaille. Varmista, että valitussa mallissa on pakolliset kentät, kuten **Yleinen liiketoiminnan kirjausryhmä**, **Asiakkaan kirjausryhmä**, ALV:hen tai veroihin liittyvät kentät.<br> Voit määrittää malleja kullekin maalle/alueelle **Shopify-asiakasmallit** -sivulla, josta on hyötyä asianmukaisen veron laskentaan. Lisätietoja on kohdassa [Verotukselliset huomautukset](synchronize-orders.md#tax-remarks).|
 
 ### <a name="customer-template-per-country"></a>Asiakasmalli maata kohti
 
@@ -57,7 +57,7 @@ Jotkin asetukset voidaan määrittää maan tai alueen tasolla tai osavaltion/pr
 
 1. Määritä **oletusasiakasnro**, joka on etusijalla **asiakkaan tuonti Shopifysta** ja **Asiakkaan yhdistämismäärityksen tyyppi** -kentissä olevan valinnan. Sitä käytetään tuodussa myyntitilauksessa.
 2. **Määritä asiakasmallin koodi**, jota käytetään puuttuvien asiakkaiden luomisessa, jos **Luo automaattisesti tuntemattomat asiakkaat** on otettu käyttöön. Jos **asiakasmallin koodi** on tyhjä, funktio käyttää **Asiakasmallin koodia**, joka on määritetty **Shopify-ostoskortissa**.
-3. Joissakin tapauksissa **asiakasmallin koodi** maata kohti ei riitä varmistamaan verojen oikeaa laskentaa. Esimerkiksi maissa, joissa on käytössä arvonlisävero.
+3. Joissakin tapauksissa **asiakasmallin koodi** maata kohti määritettynä ei riitä varmistamaan verojen oikeaa laskentaa. Esimerkiksi maissa, joissa on käytössä arvonlisävero. Tässä tapauksessa **Veroalueet** voi olla hyödyllinen lisäys.
 
 > [!NOTE]  
 > Maakoodit ovat ISO 3166-1 alpha-2-maakoodeja. Lisätietoja on [Maakoodi](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode)-sivustossa.
@@ -69,7 +69,7 @@ Olemassa olevat asiakkaat voidaan viedä Shopifyhin joukkona. Tämän seurauksen
 |Kenttä|Kuvaus|
 |------|-----------|
 |**Vie asiakastiedot Shopifyhin**|Valitse, jos aiot viedä kaikki asiakkaat, joilla on voimassa oleva sähköpostiosoite [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmasta Shopifyhin kerralla. Joko manuaalisesti **Synkronoi asiakkaat** -toiminnolla tai työjonon kautta toistuvia päivityksiä varten.|
-|**Voi päivittää Shopify-asiakkaat**|Käytetään yhdessä **Vie asiakas Shopifyhin** -komennon kanssa. Ota se käyttöön, jos haluat luoda päivityksiä myöhemmin [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa Shopifyssa oleville asiakkaille.|
+|**Voi päivittää Shopify-asiakkaat**|Käytetään yhdessä **Vie asiakas Shopifyhin** -asetuksen kanssa. Ota se käyttöön, jos haluat luoda päivityksiä myöhemmin [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa Shopifyssa oleville asiakkaille.|
 
 > [!NOTE]  
 > Kun olet luonut asiakkaat Shopifyhin, haluat ehkä lähettää suoria kutsuja asiakkaille. Se kannustaa heitä aktivoimaan tilinsä.
@@ -95,7 +95,7 @@ Valitse osoitteissa, joissa käytetään maata tai provinssia, valitsemalla *Koo
 
 ## <a name="sync-customers"></a>Synkronoi asiakkaat
 
-1. Siirry hakuun ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeeseen, syötä **Shopify-myymälä** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeeseen, syötä **Shopify-myymälä** ja valitse sitten vastaava linkki.
 2. Valitse kauppa, jolle haluat synkronoida asiakkaat avataksesi **Shopify-ostoskortti**-sivun.
 3. Valitse **Synkronoi asiakkaat** -toiminto.
 

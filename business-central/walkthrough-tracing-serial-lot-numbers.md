@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 611a182a7f2b2202dd03e709da22183f762fe351
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b7e2ae55e231cdadf02a0a8e91f6d3ad066a0cb5
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382817"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075222"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Vaihekuvaus: Sarja-/eränumeroiden jäljitys
 
@@ -189,7 +189,8 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
     Myy seuraavaksi kilpapolkupyöriä. Myy ensin kilpapyörä (Snro1) Tinayhtymä Oy:lle.  
 
-### <a name="to-sell-the-end-items"></a>Myy lopullisia nimikkeitä  
+### <a name="to-sell-the-end-items"></a>Myy lopullisia nimikkeitä
+
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 2.  Valitse **Uusi**-toiminto ja luo sitten myyntitilaus täyttämällä seuraavat kentät.  
 
@@ -228,10 +229,12 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
     Näin olet valmistellut tiedot Nimikkeen jäljitys- ja Etsi merkintöjä -toimintojen esittelyä varten.  
 
-## <a name="tracing-from-usage-to-origin"></a>Jäljittäminen käytöstä alkuperään  
+## <a name="tracing-from-usage-to-origin"></a>Jäljittäminen käytöstä alkuperään
+
  Myyntiosastolta kerrotaan laatupäällikölle, että palautetun kilpapyörän (nimike 1002) eränumero on Snro1. Käyttämällä näitä perustietoja hän voi määrittää, missä valmista kilpapyörää on viimeksi käytetty, tässä tapauksessa Selangorian Ltd.:hen lähtevässä toimituksessa. Sitten laatupäällikön täytyy jäljittää taaksepäin ensimmäiseen alkuperään saadakseen tietää, mistä eränumerosta viallinen kilpakehys on peräisin, ja kuka oli sen toimittaja.  
 
-### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Virheellisen rungon erän ja toimittajan määrittäminen  
+### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Virheellisen rungon erän ja toimittajan määrittäminen
+
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeen jäljitys** ja valitse sitten vastaava linkki.  
 2.  Kirjoita **Nimikkeen jäljitys** -sivulla **Sarjanron suodatus** -kenttään **Snro1** ja lisää **Nimikesuodatus**-kenttään **1002**.  
 3.  Säilytä **Näytä komponentit** -kentän oletusarvo **Vain nimikeseuranta**. Säilytä myös **Jäljitystapa**-kentän oletusjäljitystapa **Käytöstä alkuperään**.  
@@ -257,7 +260,8 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
      Nyt virheenhallinnan ensimmäinen **Nimikkeen jäljitys** -sivulla toteutettavista tehtävistä on valmis. Laatupäällikön on nyt määritettävä, onko ERÄ1:stä peräisin olevia kilpapyörän runkoja käytetty muissa kirjatuissa asiakirjoissa.  
 
-## <a name="tracing-from-origin-to-usage"></a>Jäljittäminen alkuperästä käyttöön  
+## <a name="tracing-from-origin-to-usage"></a>Jäljittäminen alkuperästä käyttöön
+
  Laatupäällikkö on selvittänyt, että virheellinen kilpapyörän runkoerä on peräisin ERÄ1:stä. Hänen on nyt määritettävä, onko virheellisiä runkoja käytetty muualla, jotta nämä kilpapyörät voidaan pysäyttää tai kutsua takaisin.  
 
  Yksi tapa valmistella tämä jäljitystehtävä **Nimikkeen jäljitys** sivulla on, että anna manuaalisesti arvon ERÄ1 **Eränro suodatus** -kenttään ja arvon 2000 **Nimikesuodatus**-kenttään. Tässä vaihekuvauksessa käytetään kuitenkin **Jäljitä vastapuoli - riviltä** -funktiota.  
@@ -280,7 +284,8 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
     Nyt toinen virheenhallinnan **Nimikkeen jäljitys** -sivulla toteutettavista tehtävistä on valmis. Koska **Nimikkeen jäljitys** -sivu perustuu vain kirjattuihin tapahtumiin, laatupäällikön on **Etsi tapahtumat** -sivun avulla varmistettava, ettei ERÄ1:tä ole käytetty kirjaamattomissa asiakirjoissa.  
 
-## <a name="finding-all-records-of-a-seriallot-number"></a>Sarja-/eränumeron kaikkien tietueiden etsiminen  
+## <a name="finding-all-records-of-a-seriallot-number"></a>Sarja-/eränumeron kaikkien tietueiden etsiminen
+
  **Nimikkeen jäljitys** -sivun avulla laatu-ohjain havaitsi, että LOT1 sisälsi viallisia kilpakehyksiä, jotka toimittaja on toimittanut, ja kirjatun tapahtuman, jossa niitä on käytetty. Hänen on nyt selvitettävä, sisältyykö ERÄ1 mihinkään avoimeen asiakirjaan integroimalla jäljitystulos **Etsi tapahtumat** -sivulle, jossa hän voi suorittaa haun kaikista tietokantatietueista.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>ERÄ1:n kaikkien esiintymien etsiminen avoimista tilauksista ja muista kirjaamattomista tietueista  
@@ -298,12 +303,14 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
  **Etsi tapahtumat**- ja **Nimikkeen jäljitys** -sivujen käytön integrointia vikojen hallinnassa käsittelevä vaihekuvaus on nyt käyty läpi.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/use-serial-lot-numbers/)
+
 ## <a name="see-also"></a>Katso myös
+
 [Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md)  
 [Nimikeseurannan nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)  
 [Etsi tapahtumat](ui-find-entries.md)  
 [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)  
-
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

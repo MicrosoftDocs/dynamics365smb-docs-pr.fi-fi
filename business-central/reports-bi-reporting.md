@@ -10,12 +10,12 @@ ms.search.keywords: feature overview
 ms.reviewer: edupont
 ms.date: 02/03/2022
 ms.author: kepontop
-ms.openlocfilehash: a51175dc5dd124b58ef92e87ab6874f04e4bea41
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4b7a806b3e12298fe493b943cf57446c824a5c34
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144877"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076953"
 ---
 # <a name="business-intelligence-and-reporting-overview"></a>Business Intelligencen ja raportoinnin yleiskuva
 
@@ -30,14 +30,16 @@ Pienet ja keskisuuret yritykset käyttävät valmista analytiikkaa ja raportoint
 | Tutustu ulkoisten liiketoimintatietotyökalujen integrointiin tuotteeseen [!INCLUDE[prod_short](includes/prod_short.md)].| [Ulkoiset liiketoimintatietotyökalut](reports-external-analysis.md) |
 |Tutustu raporttien asettelujen muokkaamiseen tai omien raporttien alusta lähtien kehittämiseen. |[Raporttien kehittäminen](reports-develop-reports.md)|
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/setup-reporting-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Katso myös
 
-[Raporttien käyttö päivittäisessä työssä](reports-use-reports.md)
-[Raportin yhteenveto](reports-available-reports.md)
-[Ad-hoc-tietoanalyysi](reports-adhoc-analysis.md)
-[Valmis analytiikka](reports-built-in-analytics.md)
-[Ulkoiset liiketoimintatietotyökalut](reports-external-analysis.md)
-[Raporttien kehittäminen](reports-develop-reports.md)
+[Raporttien käyttö päivittäisessä työssä](reports-use-reports.md)  
+[Raportin yleiskuvaus](reports-available-reports.md)  
+[Ad-hoc-tietoanalyysi](reports-adhoc-analysis.md)  
+[Valmis analytiikka](reports-built-in-analytics.md)  
+[Ulkoiset liiketoimintatietotyökalut](reports-external-analysis.md)  
+[Raporttien kehittäminen](reports-develop-reports.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

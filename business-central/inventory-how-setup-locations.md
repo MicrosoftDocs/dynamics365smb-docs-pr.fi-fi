@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9de6580971f25d092de474c0720b86fab420bbf8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 870effafbd38cdee0733097fa6fb0c0340fa77b8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515509"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077265"
 ---
 # <a name="set-up-locations"></a>Sijaintien määrittäminen
 
@@ -27,6 +27,7 @@ Voit sitten luoda asiakirjarivejä tietylle sijainnille, tarkastella saatavuutta
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
 ## <a name="location-cards"></a>Sijaintikortit
+
 Tietoja sijainnista, esimerkiksi fyysisestä varastosta tai jakelukeskuksesta määritetään **Sijaintikortti**-sivulla. Kullekin sijainnille annetaan sijaintia kuvaava nimi ja koodi. Tämän jälkeen sijaintikoodin voi syöttää muualle ohjelmaan silloin, kun haluat tallentaa transaktioita tietylle sijainnille.  
 
 Voit syöttää tietoja varastopaikasta ja fyysisen varaston periaatteista jokaiselle sijainnille. Valitsemiesi fyysisen varaston periaatteiden perusteella voit määrittää **Varastopaikat**-pikavälilehden vaihtoehtojen avulla varastopaikat, joita käytetään oletusvarastopaikkoina toteutettaessa tapahtumia. Jos käytät ohjattua hyllytystä ja poimintaa, voit määrittää **Var.paikkojen periaatteet** -pikavälilehden vaihtoehtojen avulla, miten haluat käyttää fyysisen varaston eri lisäominaisuuksia.  
@@ -76,7 +77,10 @@ Jos haluat jäsentää varastopaikat alueiden alla, voit tehdä sen **Alueet**-s
 Voit kuitenkin määrittää vain yhden alueen ja järjestellä fyysisen varaston vain varastopaikkojen mukaisesti. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).  
 
 ## <a name="default-dimensions-for-locations"></a>Sijaintien oletusdimensiot
+
 Määritä oletusdimensiot sijainnille **Sijaintikortti**-sivulle valitsemalla **Sijainti** ja sitten **Dimensiot**. Sijainnin oletusdimensiot kopioidaan päiväkirjoihin ja asiakirjoihin, kun riville määritetään sijainti, mutta rivin dimensiota voi tarvittaessa poistaa tai muuttaa. Voit vaatia, että ihmiset määrittävät dimensiot tietyille sijainneille, ennen kuin he voivat kirjata tapahtuman. Voit myös sisällyttää sijainnin dimensioarvoja kohdissa **Oletusdimensioprioriteetit** ja **Dimensioyhdistelmät** prioriteetti- ja dimensiosääntöjen yhdistelmille.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

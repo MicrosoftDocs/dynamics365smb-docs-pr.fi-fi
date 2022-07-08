@@ -9,23 +9,26 @@ ms.workload: na
 ms.search.form: 5623, 5615, 5661, 5662, 5627, 5616, 5620, 5629, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608, 5609, 5635, 9277
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9532dad89e3d88acf60e5c56af6c75ff9fc24fd1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8053112fb80c2d90725103bccc6cd335ad825dc0
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523499"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074950"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Käyttöomaisuuden yleisten tietojen määrittäminen
+
 Ennen kuin voit hallita käyttöomaisuuseriä, sinun on määritettävä oletusarvoiset KP-tilit, kohdistustunnukset, päiväkirjamallit ja -erät käyttöomaisuuden kirjaamista ja uudelleenluokittelua varten. Voit luokitella käyttöomaisuuserät luokkiin, kuten aineellisiin ja aineettomiin.
 
 ## <a name="to-set-up-general-default-values-for-fixed-assets"></a>Yleisten oletusarvojen määrittäminen käyttöomaisuudelle
+
 Voit määrittää yleisen toiminnan tai käyttöomaisuuserien toiminnallisuuden ja määrittää asiakirjanumerosarjat **Käyttöomaisuuden asetukset** -sivulla.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuuden asetukset** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-fixed-asset-posting-groups"></a>Käyttöomaisuuden kirjausryhmien määrittäminen
+
 Kirjausryhmiä käytetään määrittelemään käyttöomaisuusryhmiä. Näiden kirjausryhmien tapahtumat kirjataan samoille KP-tileille.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n kirjausryhmät** ja valitse sitten vastaava linkki.  
@@ -39,6 +42,7 @@ Kirjausryhmiä käytetään määrittelemään käyttöomaisuusryhmiä. Näiden 
 Lisätietoja **Syötä KO-vastatili** -toiminnon käyttämisestä käyttöomaisuuden KP-päiväkirjariveillä on esimerkiksi kohdassa [Käyttöomaisuuden uudelleenarvostus](fa-how-revalue.md).
 
 ## <a name="to-set-up-fixed-asset-allocation-keys"></a>Käyttöomaisuuden kohdistustunnusten määrittäminen
+
 Transaktioita voidaan kohdistaa useille osastoille tai projekteille käyttäjäkohtaisten kohdistusavainten mukaisesti. Voit määrittää esimerkiksi kohdistusavaimen kohdistamaan autojen poistokustannuksia 35 %:lla hallinto-osastolle ja 65 %:lla myyntiosastolle. Lisätietoja on kohdassa [Kustannusten ja tulojen kohdistaminen](year-allocate-costs-income.md).
 
 Kohdistusavaimet koskevat käyttöomaisuusluokkia yksittäisten omaisuuserien sijaan.
@@ -49,6 +53,7 @@ Kohdistusavaimet koskevat käyttöomaisuusluokkia yksittäisten omaisuuserien si
 4. Toista vaihe 2 ja 3 kunkin kirjaustyypin osalta, jolle haluat määritellä kohdistusavaimia.
 
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Käyttöomaisuuden päiväkirjamallien määrittäminen
+
 Malli on päiväkirjan ennalta määritelty asettelu. Mallissa on tietoja jäljityskoodeista, raporteista ja numerosarjoista. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).
 
 [!INCLUDE[prod_short](includes/prod_short.md)] luo automaattisesti käyttöomaisuuden päiväkirjamallin, kun avaat **Käyttöomaisuuspäiväkirja**-sivun ensimmäisen kerran. Voit kuitenkin määrittää lisää päiväkirjamalleja.  
@@ -57,6 +62,7 @@ Malli on päiväkirjan ennalta määritelty asettelu. Mallissa on tietoja jälji
 2. Täytä tarvittavat kentät.
 
 ## <a name="to-set-up-fixed-asset-journal-batches"></a>Käyttöomaisuuden päiväkirjaerien määrittäminen
+
 Voit määrittää useita päiväkirjan eriä eli yksittäisiä päiväkirjoja kullekin päiväkirjan mallille. Käyttäjällä voi esimerkiksi olla oma päiväkirjan erä, jossa käytetään työntekijän nimikirjaimia päiväkirjan erän nimenä. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n päiväkirjan mallit** ja valitse sitten liittyvä linkki.  
@@ -64,12 +70,14 @@ Voit määrittää useita päiväkirjan eriä eli yksittäisiä päiväkirjoja k
 3. Täytä **KO-päiväkirjan erät** -sivulla tarvittavat kentät.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Käyttöomaisuuden uudelleenluokituspäiväkirjamallien määrittäminen
+
 Kyseisiä uudelleenluokituspäiväkirjoja voidaan käyttää käyttöomaisuuserien siirtämisessä, jakamisessa ja yhdistämisessä. [!INCLUDE[prod_short](includes/prod_short.md)] luo automaattisesti käyttöomaisuuden uudelleenluokituspäiväkirjan mallin, kun avaat **KO:n uudelleenluokituspvk** -sivun ensimmäisen kerran. Voit kuitenkin määrittää lisää uudelleenluokituspäiväkirjan malleja. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n uud.luok.pvk:n mallit** ja valitse sitten liittyvä linkki.  
 2. Täytä tarvittavat kentät.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-batches"></a>Käyttöomaisuuden uudelleenluokituspäiväkirjaerien määrittäminen
+
 Voit määrittää useita päiväkirjan eriä eli yksittäisiä päiväkirjoja kullekin uudelleenluokituspäiväkirjan mallille. Käyttäjällä voi esimerkiksi olla oma uudelleenluokituspäiväkirjan erä, jossa käytetään työntekijän nimikirjaimia uudelleenluokituspäiväkirjan erän nimenä. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n uud.luok.pvk:n mallit** ja valitse sitten liittyvä linkki.  
@@ -77,24 +85,28 @@ Voit määrittää useita päiväkirjan eriä eli yksittäisiä päiväkirjoja k
 3. Täytä **KO:n uud.luok.pvk:n erät** -sivulla tarvittavat kentät.
 
 ## <a name="to-set-up-fixed-asset-class-codes"></a>Käyttöomaisuuden luokkakoodien määrittäminen
+
 Käyttöomaisuuden luokkakoodeja voidaan käyttää käyttöomaisuuserien, esimerkiksi aineellisten ja aineettomien hyödykkeiden, ryhmittelyyn.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n luokat** ja valitse sitten vastaava linkki.
 2. Syötä koodit ja nimet niiden luokkien osalta, jotka haluat luoda.
 
 ## <a name="to-set-up-fixed-asset-subclass-codes"></a>Käyttöomaisuuden alaluokkakoodien määrittäminen
+
 Käyttöomaisuuden alaluokkakoodia voi käyttää ryhmittelemään käyttöomaisuus luokkiin, esimerkiksi rakennuksiin, ajoneuvoihin, huonekaluihin ja koneisiin.  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n alaluokat** ja valitse sitten vastaava linkki.
 2. Syötä koodit ja nimet niiden luokkien osalta, jotka haluat luoda.
 
 ## <a name="to-set-up-fixed-asset-location-codes"></a>Käyttöomaisuuden sijaintikoodien määrittäminen
+
 KO-sijaintikoodia voidaan käyttää rekisteröimään käyttöomaisuuden sijainti, esimerkiksi myyntiosasto, vastaanotto, hallinto, tuotanto tai fyysinen varasto. Nämä tiedot ovat tarpeen vakuutusta ja inventointia varten.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO:n sijainnit** ja valitse sitten vastaava linkki.
 2. Syötä koodit ja nimet niiden käyttöomaisuuden sijaintien osalta, jotka haluat luoda.
 
 ## <a name="to-register-opening-entries"></a>Avaustapahtumien rekisteröiminen
+
 Jos käytät käyttöomaisuutta ensimmäistä kertaa [!INCLUDE[prod_short](includes/prod_short.md)]issa, pääkirjanpidon kohdistusalue on määritettävä ennen käyttöomaisuuden määrittämistä. Se, miten tämä tehdään, riippuu siitä, onko käyttöomaisuus on integroitu pääkirjanpidon kanssa.  
 
  Seuraavaa menetelmää käytetään, jos käyttöomaisuustransaktioita tulee kirjata pääkirjanpitoon.  
@@ -117,7 +129,10 @@ Jos käytät käyttöomaisuutta ensimmäistä kertaa [!INCLUDE[prod_short](inclu
 
 Jos käyttöomaisuutta ei ole integroitu käyttöomaisuuden kanssa, ohita työvaiheet 6 ja 8.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/set-up-fixed-assets-management/)
+
 ## <a name="see-also"></a>Katso myös
+
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Käyttöomaisuus](fa-manage.md)  
 [Rahoitus](finance.md)  

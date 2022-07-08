@@ -8,14 +8,15 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f75b1b7e4f08af7ff02c43ec30ec39c234f7704
-ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
+ms.openlocfilehash: 667cc445ed48bc7cf7d9af67567138a35a730934
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626393"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074690"
 ---
 # <a name="create-jobs"></a>Projektien luominen
+
 Uuden projektin aloittamisen yhteydessä on luotava projektikortti sekä integroidut projektitehtävät ja projektin suunnittelurivit kahteen eri tasoon.  
 
 Ensimmäinen taso koostuu projektitehtävistä. Projektille on luotava vähintään yksi projektitehtävä, koska kirjaukset viittaavat projektitehtävään. Kun projektissa on vähintään yksi projektitehtävä, voit määrittää projektin suunnittelurivejä ja kirjata projektin kulutuksen.
@@ -34,6 +35,7 @@ Joskus palvelua vastaanottava osapuoli eroaa laskun maksavasta osapuolesta. **Pr
 * Korvaa projektin vakiotalousehdot.
 
 ## <a name="to-create-a-job-card"></a>Projektikortin luominen
+
 Luo projektikortti ja luo sitten projektikortille työtehtävä ja projektin suunnittelurivit.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten vastaava linkki.  
@@ -44,6 +46,7 @@ Luo projektikortti ja luo sitten projektikortille työtehtävä ja projektin suu
 >   Jos projektissa käytetään aikaraportteja, myös vastuussa oleva henkilö on määritettävä. Tämä henkilö voi hyväksyä työhön liittyvien työntekijätehtävien tuntilomakkeet. Lisätietoja on kohdassa [Aikaraporttien määrittäminen](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>Luo projektille tehtäviä
+
 Projektin luomisen keskeinen osa on määrittää siihen liittyvät tehtävät. Voit määrittää tehtäviä luomalla yhden rivin tehtävää kohti **Tehtävät**-pikavälilehdessä **Työkortti**-sivulla. Jokaisella projektilla on oltava vähintään yksi tehtävä.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten vastaava linkki.
@@ -54,6 +57,7 @@ Projektin luomisen keskeinen osa on määrittää siihen liittyvät tehtävät. 
 6. Voit määrittää projektitehtäville muiden projektitehtävien tiedot valitsemalla **Kopioi projektitehtävät kohteesta** -toiminnon, täyttämällä tarvittavat kentät ja valitsemalla sitten **OK**-painikkeen.
 
 ## <a name="to-create-planning-lines-for-a-job"></a>Projektin suunnittelurivien luominen
+
 Voit tarkentaa uusia projektitehtäviä projektin suunnitteluriveillä. Suunnitteluriville voi kerätä tiedot, joita haluat seurata projektissa. Voit esimerkiksi seurata projektin tarvitsemia resursseja tai nimikkeitä. Käytettävissä on esimerkiksi tehtävä, jossa asiakkaan toivotaan hyväksyvän projekti. Tehtävä liitetään nimikkeiden suunnitteluriveihin, esimerkiksi asiakastapaamiseen tai resurssin liittämiseen.  
 
 Projektin suunnittelurivin tyyppi voi olla jokin seuraavista tyypeistä.  
@@ -72,6 +76,8 @@ Projektin suunnittelurivin tyyppi voi olla jokin seuraavista tyypeistä.
 3. Valitse projektitehtävä, jonka **Projektitehtävätyyppi**-kentän arvo on **Kirjaus**. Valitse sitten **Projektin suunnittelurivit** -toiminto.  
 4. Täytä **Projektin suunnittelurivit** -sivun uuden rivin tarvittavat kentät.
 5. Toista vaiheet 3 ja 4 kaikille projektitehtävässä tarvittaville suunnitteluriveille.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/create-new-job/)
 
 ## <a name="see-also"></a>Katso myös
 

@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3068a64df18b184df1cefe42b7a268f5f633a596
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 412dd6ae2842c408ac0a4be7be369c01019a814b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510659"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074482"
 ---
 # <a name="merge-duplicate-records"></a>Tietueiden kaksoiskappaleiden yhdistäminen
+
 Kun eri käyttäjät luovat uusia asiakkaan, toimittajan tai kontaktin kortteja ajan mittaan tai kun uusia tietueita luodaan automaattisesti siirron aikana, asiakkaalle, toimittajalle tai kontaktille voi tulla järjestelmään useita tietueita. Voit siinä tapauksessa käyttää säilytettävän tietueen kortin **Yhdistä kaksoiskappale** -sivua. Sivulla on yleiskatsaus kenttäarvoista, joilla on kaksoiskappaleita, ja toimintoja, joilla valitaan, mitkä arvot säilytetään tai hylätään, kun kaksi tietuetta yhdistetään.
 
 > [!NOTE]
@@ -61,7 +62,10 @@ Seuraava toimenpide perustuu asiakaskorttiin. Toimittajan ja kontaktin korttien 
 > [!NOTE]
 > Voit etsiä kontaktien kaksoiskappaleet toiminnolla ennen **Yhdistä kaksoiskappale** -sivun käyttämistä. Lisätietoja on kohdassa [Kontaktien kaksoiskappaleiden hakeminen](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Katso myös
+
 [Myynti](sales-manage-sales.md)  
 [Kontaktien määrittäminen](marketing-setup-contacts.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

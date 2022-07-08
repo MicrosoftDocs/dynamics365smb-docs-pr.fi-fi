@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: edupont
 ms.date: 05/25/2022
-ms.openlocfilehash: b832a72484c5186c2b619ada6278c2f396a6dbec
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 71f1e81982b649a12604f4d5fa77db3ddec5d9bf
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805176"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077500"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Rekisteröidy maksuttoman Dynamics 365 Business Central -kokeiluversion käyttäjäksi
 
@@ -43,9 +43,10 @@ Voit ottaa yhteyttä myös [[!INCLUDE[prod_short](includes/prod_short.md)] -myyn
 
 Lisätietoja siitä, mitä voit tehdä [!INCLUDE [prod_short](includes/prod_short.md)] -toiminnolla, on kohdassa [Yritystoimintaan valmistautuminen](ui-get-ready-business.md) ja [Yritystoiminnot](across-business-functionality.md).  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/trial-dynamics-365-business-central/)
+
 ## <a name="additional-resources"></a>Lisäresurssit
 
-- [Koulutukseen perehtyminen Microsoft Learnissa](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 - [Microsoftin videokirjastoon tutustuminen](across-videos.md)  
 - [Kokeiluversion usein kysytyt kysymykset](trial-faq.md)  
 - [Itsepalvelun rekisteröitymisen vianmääritys](ui-troubleshoot-self-signup.md)  

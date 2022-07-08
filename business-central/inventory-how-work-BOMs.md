@@ -9,17 +9,19 @@ ms.workload: na
 ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6f2ac75c4a00804c0fef47dfb7885fa2d50fbf19
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d538ea3e1bb00772a3a3183c09c2220893380058
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515483"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079556"
 ---
 # <a name="work-with-bills-of-material"></a>Tuoterakenteen käyttäminen
+
 Tuoterakenteilla voi jäsentää päänimikkeet, jotka resurssien tai kuormituskeskusten on koottava tai tuotettava komponenteista. Kokoonpanon tuoterakennetta voidaan käyttää myös päänimikkeen myyntiin komponenteista koostuvana tuotepakettina.
 
 ## <a name="assembly-boms-or-production-boms"></a>Kokoonpanon tuoterakenteet tai tuotannon tuoterakenteet
+
 Voit käyttää kokoonpanotilauksia tehdäksesi lopullisia nimikkeitä osista yksinkertaisesssa prosessissa, joka voidaan suorittaa yhden tai useamman perusresurssin voimin, jotka eivät ole tai kuormitusryhmiä tai tuotantosoluja, tai ilman resursseja. Kokoonpanoprosessi voi olla esimerkiksi kahden viinipullon ja yhden kahvipaketin valinta ja niiden pakkaaminen lahjaksi.  
 
 Kokoonpanon tuoterakenne muodostaa perustiedot, jotka määrittävät, mitkä osanimikkeet käytetään kokoonpanon lopputuotteeseen ja mitkä resurssit käytetään kokoonpanon nimikkeen kokoamiseen. Kun syötät kokoonpanon nimikkeen ja määrän uuden kokoonpanotilauksen otsikkoon, kokoonpanotilausrivit täytetään automaattisesti kokoonpanon tuoterakenteen mukaan yhdellä kokoonpanotilausrivillä osaa tai resurssia kohden. Lisätietoja on kohdassa [Kokoonpanon hallinta](assembly-assemble-items.md).
@@ -35,6 +37,7 @@ Tuotannossa olevien resurssien konsepti on paljon kehittyneempi kuin kokoonpanon
 Sekä kokoonpanotilaukset että tuotantotilaukset voidaan linkittää suoraan myyntitilauksiin. Voit käyttää kokoonpanotilauksia kuitenkin vain loppunimikkeen mukauttamiseen suoraan asiakkaan pyynnöstä myyntitilauksessa
 
 ## <a name="to-create-an-assembly-bom"></a>Luo kokoonpanon tuoterakenne
+
 Kokoonpanon tuoterakenne on luotava, jos haluat määrittää päänimikkeen, joka koostuu muista nimikkeistä ja mahdollisesti resursseista, joita tarvitaan päänimikkeen kokoamiseen.  
 
 Kokoonpanon tuoterakenteet sisältävät yleensä nimikkeitä, mutta ne voivat sisältää myös resursseja, joita tarvitaan niiden kokoamiseen.
@@ -54,6 +57,7 @@ Kokoonpanon tuoterakenteen luomisessa on kaksi osaa:
 3. Täytä **Kokoonpanon tuoterakenne** -sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-edit-assembly-boms"></a>Kokoonpanon tuoterakenteiden muokkaaminen
+
 Voit muokata kokoonpanon tuoterakenteen rivejä milloin tahansa. Huomaa kuitenkin, että tuoterakenne voi olla käytössä päätason myynnissä tai kokoonpanoissa, joihin muutos voi vaikuttaa. Valitse **Käyttökohde-**-toiminto, jossa näet, mitä nimikkeitä se käyttää ja voiko se vaikuttaa myynti- tai kokoonpanotilauksiin.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
@@ -61,6 +65,7 @@ Voit muokata kokoonpanon tuoterakenteen rivejä milloin tahansa. Huomaa kuitenki
 3. Valitse **Kokoonpanon tuoterakenne** -sivulla **Muokkaa luetteloa** -toiminto ja muuta sitten mitä tahansa kenttää tarpeen mukaan.
 
 ## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Kokoonpanonimikkeen osien ja resurssien näyttäminen tuoterakenteen perusteella sisennettyinä
+
 Voit avata **Kokoonpanon tuoterakenne** -sivulla erillisen sivun, joka näyttää osat ja resursseja sisennettynä kokoonpanonimikkeen alle niiden tuoterakenteen mukaisen sijainnin perusteella.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
@@ -69,6 +74,7 @@ Voit avata **Kokoonpanon tuoterakenne** -sivulla erillisen sivun, joka näyttä�
 4. Valitse **Kokoonpanon tuoterakenne** -sivulla **Näytä tuoterakenne** -toiminto.
 
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Kokoonpanon korvaaminen sen osilla asiakirjariveillä
+
 Voit käyttää missä tahansa kokoonpanonimikkeen sisältävässä myynti- ja ostoasiakirjassa erikoistoimintoa, jolla voit korvata kokoonpanonimikkeen rivin uusilla kokoonpanon komponenttien riveillä. Tämä toiminto on kätevä esimerkiksi silloin, kun haluat myydä komponentit kokoonpanonimikettä vastaavana tuotepakettina.
 
 **Pura tuoterakenne** -toiminto on käytettävissä myös **Kokoonpanon tuoterakenne** -sivulla keinona tarkastella kokoonpanon tuoterakenteen alikokoonpanojen alatason kohteita.
@@ -113,9 +119,12 @@ Kokoonpanon tuoterakenteen yksikkökustannus on aina yhtä suuri kuin sen kompon
 
 Kokoonpanon tuoterakenteen muodostavien nimikkeiden kustannukset kopioidaan osanimikekorteilta. Kunkin nimikkeen kustannus kerrotaan määrällä ja kokonaiskustannus lisätään kokoonpanon nimikekortin **Yksikkökustannus**-kenttään.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/set-up-assembly-items-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Katso myös
+
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
-[Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)     
+[Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

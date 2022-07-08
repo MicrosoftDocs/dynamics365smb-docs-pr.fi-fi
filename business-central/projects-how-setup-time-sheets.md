@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff, resource, time sheet
 ms.search.form: 977, 462, 76, 77
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: b9453285ce1bf18f3eeef3c3148f6dd00921c03f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a1c5314d8aba0b31d02491da1e588f7a23c83a38
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510815"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078958"
 ---
 # <a name="set-up-time-sheets"></a>Aikaraporttien määrittäminen
 
@@ -94,10 +94,12 @@ Seuraavissa osissa kuvataan, miten voit määrittää tuntiraportteja, jos et k�
 > [!NOTE]  
 > Aikaraportin hyväksyjän tunnusta ei voi muuttaa, jos on aikaraportteja, joita ei ole vielä käsitelty ja joiden tila on **Lähetetty** tai **Auki**.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/set-up-jobs-resources/)
+
 ## <a name="see-also"></a>Katso myös
 
 [Tuntiraporttien käyttäminen projekteissa](projects-how-use-time-sheets.md)  
-[Luo aikaraportit](projects-how-use-time-sheets.md#to-create-time-sheets)  
+[Aikaraporttien luonti](projects-how-use-time-sheets.md#to-create-time-sheets)  
 [Projektien kulutuksen tai käytön kirjaaminen](projects-how-record-job-usage.md)  
 [Projektinhallinnan määrittäminen](projects-setup-projects.md)  
 [Projektinhallinta](projects-manage-projects.md)  

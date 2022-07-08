@@ -7,12 +7,12 @@ ms.search.keywords: administration, admin, key, optional, feature management, ea
 ms.search.form: 2610
 ms.date: 06/14/2021
 ms.author: mikebc
-ms.openlocfilehash: a3cc650067c18da1594e2381413f8dd76966ab3a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ca23cb79f3ef95db1cb7c9528805d37a7560fc8a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141383"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077656"
 ---
 # <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Uusien ja tulevien ominaisuuksien käyttöönotto etuajassa
 
@@ -21,6 +21,8 @@ Joitakin uusia ominaisuuksia voidaan ottaa käyttöön etuajassa, joten voit hy�
 Kun Microsoft julkaisee ominaisuuksia tai ominaisuuksia koskevia parannuksia osana pieniä päivityksiä, jotkin ominaisuudet eivät ole heti käytössä. Järjestelmänvalvojat voivat ottaa kunkin ominaisuuden käyttöön **ominaisuuksienhallinta**-sivulla. Kun ominaisuus on otettu käyttöön, se tulee kaikkien käyttäjien saataville kyseisessä ympäristössä riippumatta siitä, miten ne pääsevät kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]. Ominaisuudet voidaan turvallisesti sammuttaa uudelleen. Nämä ominaisuudet ovat vain jonkin aikaa valinnaisia.
 
 Lue lisää kohdasta [Ominaisuuksien hallinta](/dynamics365/business-central/dev-itpro/administration/feature-management).  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

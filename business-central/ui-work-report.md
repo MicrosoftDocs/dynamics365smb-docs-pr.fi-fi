@@ -10,12 +10,12 @@ ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Wo
 ms.search.form: ''
 ms.date: 03/24/2022
 ms.author: jswymer
-ms.openlocfilehash: f2129ff54f49637fb8abbcae374a2e9f7e5d7c2e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 43e2c33af227ccd33ad5e5a616df78fd75298bcd
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655226"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076173"
 ---
 # <a name="run-and-print-reports"></a>Suorita ja tulosta raportteja
 
@@ -145,6 +145,8 @@ Tulostimen resursseja hallitaan luodun raportin **lisäasetukset**-kohdan kentis
 
 > [!NOTE]
 > Enimmäisarvot voivat olla erilaiset [!INCLUDE[prod_short](includes/prod_short.md)] paikallisesti, ja järjestelmänvalvoja voi muuttaa niitä. Lisätietoja on kohdassa [Business Central Serverin määrittäminen - raportit](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Yhteenveto raporttien rajoituksista [!INCLUDE[prod_short](includes/prod_short.md)] onlinessa, on kohdassa [Toimintarajat](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
+
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/setup-reporting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

@@ -7,12 +7,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: a1b771425c2a70f62dcfebeb4619c0f2f5445de3
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: cf7f84b8ba0c7622f08856b677e3559cc669e7ed
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799610"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078672"
 ---
 # <a name="set-up-prepayments"></a>Ennakkomaksujen määrittäminen
 
@@ -105,6 +105,8 @@ Voit säästää aikaa määrittämällä työjonotapahtuman, joka vapauttaa aut
 
 3. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työjonon tapahtumat** ja valitse sitten vastaava linkki.
 4. Määritä **Päivitä odottavat ennakkomaksumyynnit** -tehtäväjonotapahtuma esimerkiksi käyttämällä **Toistuminen**-pikavälilehden asetuksia sen määrittämiseen, kuinka usein se suoritetaan. Lisätietoja: [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
+
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös  
 

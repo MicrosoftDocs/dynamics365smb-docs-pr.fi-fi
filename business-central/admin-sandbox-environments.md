@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: 93855d8c5fe1dfd292791cfec0c57aae25a740c1
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 1171195822d45cd38393e30947ec50539f11aae4
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805020"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076667"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Eristysympäristöt [!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisussa
 
@@ -69,6 +69,8 @@ Sandbox-ympäristössä on **Rakennenäkymä** käytössä. Voit aktivoida Suunn
 Lisätietoja on kehittäjä- ja järjestelmänvalvojasisällön kohdassa [Suunnitteluohjelman käyttäminen ](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) (vain englanniksi).  
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
+
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

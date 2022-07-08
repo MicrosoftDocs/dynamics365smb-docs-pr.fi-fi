@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/13/2021
 ms.author: edupont
-ms.openlocfilehash: 09b9f0d4d707da3872ae4b085f1405a99f69a9bc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 24e19eb56bf28b7871ec18f254dc5dbbaa0b290a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515197"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078334"
 ---
 # <a name="plan-picks-in-worksheets"></a>Poimintojen suunnitteleminen työkirjoissa
 
@@ -33,6 +33,7 @@ Jos varasto on määritetty edellyttämään sekä poiminnan että toimituksen k
 > Lisätietoja kokoonpanotilausten komponenttien poiminnasta yleensä (mukaan lukien tilanteet, joissa kokoonpanon nimike ei eräänny myyntitoimituksen yhteydessä) on kohdassa [Kokoonpano- tai tuotantopoiminta laajennetuissa varastointimäärityksissä](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
 ## <a name="sorting-lines-on-a-pick-worksheet"></a>Lajittelurivit poiminnan työkirjassa
+
 Rivejä voidaan lajitella nimikkeen, hyllynumeron, lähdeasiakirjan, eräpäivän tai kohteen mukaan. Lajittelu voi olla kätevää esimerkiksi seuraavin tavoin.
 
 * Jos lajittelu tehdään eräpäivän mukaan, voit valita kaikkien muiden rivien poiston paitsi ne rivit, jotka vaativat välitöntä huomiota. Vähemmän kiireellisiä rivejä ei suoraan poisteta, vaan ne lähetetään takaisin **Poiminta valinta** -työkirjaan. Kun luot poiminnan, rivit on jo lajiteltu eräpäivän mukaan ja voit valita poiminnan määrittämisen työntekijälle.
@@ -51,6 +52,8 @@ Rivejä voidaan lajitella nimikkeen, hyllynumeron, lähdeasiakirjan, eräpäivä
 7. Tarvittaessa voidaan määrittää toinen käyttäjä tai rivit voidaan lajitella eri tavalla.  
 8. Tulosta poimintaohjeet valitsemalla **Tulosta**.  
 9. Valitse poiminnan valmistumisen jälkeen **Rekisteröi**-toiminto.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/pick-ship-items-warehouse/)
 
 ## <a name="see-also"></a>Katso myös
 

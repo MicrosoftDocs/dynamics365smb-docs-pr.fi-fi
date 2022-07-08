@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 507, 509, 6620, 6622, 6623, 9303, 9310
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d421392a4428bc227cdbf6c5532d87e7360fe189
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7bc0d1455960b1550c6a8d9fc54c20112b3e9f63
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518989"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074527"
 ---
 # <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Puiteostotilausten tai ostotilausten käsitteleminen
 
@@ -56,7 +56,8 @@ Seuraava koskee myyntitilauksia sen jälkeen, kun ne on luotu puitemyyntitilauks
 - Laskutettu puitemyyntitilaus säilytetään järjestelmässä, kunnes se poistetaan yksittäisiä puitemyyntitilauksia poistettaessa tai suoritettaessa **Poista virheelliset puitemyyntitilaukset** -eräajo.  
 - Jos asiakas on tallennettu myös kontaktina Markkinointi-kohdistusalueeseen ja jos olet määrittänyt puitemyyntitilauksille vuorovaikutusmallin koodin **Kontaktienhallinnan asetukset** -sivulla, ohjelma tallentaa vuorovaikutuksen automaattisesti, kun tulostat puitemyyntitilauksen valitsemalla Vuorovaikutuslokin tapahtuma -taulukossa **Tulosta**.
 
-## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Puitemyyntitilauksen tilan katsominen  
+## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Puitemyyntitilauksen tilan katsominen
+
 Voit nähdä puitemyyntitilauksen tilan **Puitemyyntitilauksen tilastot** -sivulla. Tällä voi olla merkitystä, kun aletaan laskuttaa tilausta, joka luotiin puitemyyntitilauksesta.  
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Puitemyyntitilaukset** ja valitse sitten vastaava linkki.  
@@ -68,7 +69,8 @@ Voit nähdä puitemyyntitilauksen tilan **Puitemyyntitilauksen tilastot** -sivul
 - **Ennakkomaksu**-pikavälilehdessä voit tarkastella yhteenvetotietoja mahdollisista ennakkoon maksetuista summista.  
 - **Toimittaja**-pikavälilehdessä voit tarkastella toimittajaa koskevia perustietoja.
 
-## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Kirjaamattomien ja kirjattujen puitemyyntitilausrivien näyttäminen   
+## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Kirjaamattomien ja kirjattujen puitemyyntitilausrivien näyttäminen
+
 Linkki puitemyyntitilauksen ja alkuperäisen myyntiasiakirjan, sekä kaikkien muiden myyntiasiakirjojen välillä säilytetään kirjaamisen jälkeen luettelona kirjatuista ja kirjaamattomista myyntitilauksen laskuriveistä.  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Puitemyyntitilaukset** ja valitse sitten vastaava linkki.
@@ -92,6 +94,8 @@ Linkki puitemyyntitilauksen ja alkuperäisen myyntiasiakirjan, sekä kaikkien mu
 |**Hyvityslaskut**|Valittuun riviin liitetyt kirjatut hyvityslaskut.|
 
 5. Näytä tapahtuma valitsemalla **Näytä asiakirja** -toiminto **Myyntirivit**-sivulla.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

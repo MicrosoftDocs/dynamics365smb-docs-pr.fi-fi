@@ -9,18 +9,20 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 9cfdcf37464a032b6d999d525e67eecadb961ca4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ba87c96e23a3905e555a3c5fbf361758f2f76664
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129940"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075705"
 ---
 # <a name="business-central-extensions-by-other-providers"></a>Muiden toimittajien Business Central -laajennukset
 
 Osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/) on [!INCLUDE[prod_short](includes/prod_short.md)]in laajennuksia. Jotkin ovat Microsoftin laajennuksia, jotkin muiden yritysten. Muiden kuin Microsoftin julkaisemien laajennusten lisätietoja löytyy kyseisten yritysten verkkosivustoista. Nämä tiedot ovat sivustossa [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 Luettelo muiden yritysten laajennuksista kasvaa joka kuukausi. Sivustoa [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) kannattaakin tarkkailla ja sieltä voi ladata [!INCLUDE[prod_short](includes/prod_short.md)]in käyttöä helpottavia sovelluksia.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/customize-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

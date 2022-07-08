@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 02/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: 8357659f42976c7e3bc9b64a3c0aa10fe5b32364
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: df98aeba310bdc1e111834277b28c4c8edc9085b
+ms.sourcegitcommit: 0513051fd4a3b804188e7404569e802ec327cf84
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950460"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9041424"
 ---
 # <a name="set-up-email"></a>Määritä sähköposti
 Ihmiset yrityksissä lähettävät päivittäin sähköpostitse tietoja ja asiakirjoja, kuten myynti- ja ostotilauksia ja laskuja. Järjestelmänvalvojat yhdistää yhden tai useamman sähköpostitilin [!INCLUDE[prod_short](includes/prod_short.md)] -sovellukseen, joten voit lähettää asiakirjoja avaamatta sähköpostisovellusta. Voit kirjoittaa jokaisen viestin yksitellen perusmuotoilutyökaluilla, kuten fontilla, tyyleillä, väreillä ja niin edelleen, ja lisätä liitteitä, joiden koko on enintään 100 Mt. Raporttiasettelujen avulla järjestelmänvalvojat voivat sisällyttää asiakirjoista vain tärkeimmät tiedot. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md).
@@ -44,7 +44,7 @@ Seuraavassa taulukossa kuvataan oletusarvoisesti käytettävissä olevat sähkö
 |**SMTP-yhdistin**|Lähetä sähköpostit SMTP-protokollan avulla.|Salli tietoliikenne SMTP-sähköpostipalvelimen kautta. |
 
 > [!NOTE]
-> **Microsoft 365 -yhdistin** ja **Nykyisen käyttäjän yhdistin** -laajennukset käyttävät tilejä, jotka määrität käyttäjille Microsoft 365 -hallintakeskuksessa Microsoft 365 -tilaukselle. Jotta voisit lähettää sähköpostia laajennusten avulla, käyttäjillä on oltava voimassa oleva Exchange Online -käyttöoikeus. Lisäksi nämä laajennukset edellyttävät, että **Salli HttpClient-pyynnöt** -asetus on käytössä. Jos haluat tarkistaa, onko se otettu käyttöön näille laajennuksille, siirry **Laajennuksen hallinta** -sivulle, valitse laajennus ja valitse sitten **Määritä**-asetus.
+> **Microsoft 365 -yhdistin** ja **Nykyisen käyttäjän yhdistin** -laajennukset käyttävät tilejä, jotka määrität käyttäjille Microsoft 365 -hallintakeskuksessa Microsoft 365 -tilaukselle. Jotta voisit lähettää sähköpostia laajennusten avulla, käyttäjillä on oltava voimassa oleva Exchange Online -käyttöoikeus. Lisäksi eristysympäristöissä nämä laajennukset edellyttävät, että **Salli HttpClient-pyynnöt** -asetus on käytössä. Jos haluat tarkistaa, onko se otettu käyttöön näille laajennuksille, siirry **Laajennuksen hallinta** -sivulle, valitse laajennus ja valitse sitten **Määritä**-asetus.
 
 > Ulkoiset käyttäjät, kuten valtuutetut järjestelmänvalvojat ja ulkoiset kirjanpitäjät, eivät voi käyttää näitä laajennuksia sähköpostiviestien lähettämiseen [!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisusta.
 

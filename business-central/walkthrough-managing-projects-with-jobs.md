@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: a4be92935903c1572e43af0f035e101fe0567772
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6f46b07a33e49830944b1bdea9b13f241a7b2332
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513417"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076745"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Vaihekuvaus: Projektinhallinta Projektit-sovellusalueen avulla
 
@@ -24,54 +24,63 @@ Tässä vaihekuvauksessa esitellään töiden projektinhallintatoiminnot. Projek
 
  Tässä vaihekuvauksessa käsitellään uusien projektien määrittämistä moduulissa sekä joitakin tavanomaisia tehtäviä, joita ovat esimerkiksi kiinteän hinnoittelun käsittely, maksujen suorittaminen osamaksuina, projektien laskujen kirjaaminen sekä projektien kopioiminen.  
 
-## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta  
+## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta
+
  Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:  
 
-### <a name="setting-up-a-job"></a>Projektin määrittäminen  
+### <a name="setting-up-a-job"></a>Projektin määrittäminen
+
  Budjettirakenne määritettynä projekteille, prjektin luominen on yksinkertaista. Tässä vaihekuvauksessa käsitellään seuraavia vaiheita:  
 
 - tehtävärivien ja suunnittelurivien määrittäminen  
 - projektikohtaisten hintojen luominen nimikkeille, resursseille ja KP-tileille  
 - laskuttaminen projektista.  
 
-### <a name="handling-fixed-prices"></a>Kiinteiden hintojen käsitteleminen  
+### <a name="handling-fixed-prices"></a>Kiinteiden hintojen käsitteleminen
+
  Projektit-sovellusalueessa voit käsitellä paitsi kiinteitä hintoja myös sellaisia palveluiden tai tavaroiden hintoja, joista on sovittu ennalta asiakkaiden kanssa. Tässä vaihekuvauksessa voit tehdä seuraavat toimet:  
 
 - Katso, kuinka sopimuksen ja laskun arvot määritetään  
 - Salli ylimääräisen (laskuttamattoman) työn lisääminen aikatauluun.  
 
-### <a name="copying-a-job"></a>Projektin kopioiminen  
+### <a name="copying-a-job"></a>Projektin kopioiminen
+
  Tässä esimerkkitilanteessa keskitytään siihen, kuinka koko projekti tai osa siitä kopioidaan tietojen manuaalisen lisäämistarpeen vähentämiseksi ja tarkkuuden parantamiseksi. Mukana olevia aiheita ovat Se sisältää seuraavat:  
 
 - projektin osan kopioiminen uuteen projektiin  
 - projektikohtaisten hintojen kopioiminen  
 - suunnittelurivien kopioiminen.  
 
-### <a name="making-payment-by-installment"></a>Maksujen suorittaminen osamaksuina  
+### <a name="making-payment-by-installment"></a>Maksujen suorittaminen osamaksuina
+
  Kun suuri, kallis projekti kestää pitkään, asiakas tekee usein yrityksen kanssa sopimuksen maksuerien maksamiseksi. Tämä esimerkki näyttää, miten maksutapa määritellään osamaksuina, ja se kattaa seuraavat asiat:  
 
 - osamaksun luominen projektille  
 - maksujen laskuttaminen asiakkailta  
 - käytön ottaminen huomioon projektissa, jossa käytetään osamaksua.  
 
-## <a name="roles"></a>Roolit  
+## <a name="roles"></a>Roolit
+
  Tässä vaihekuvauksessa on seuraaviin rooleihin liittyviä tehtäviä:  
 
 - Projektipäällikkö  
 - Projektitiimin jäsen  
 
-## <a name="prerequisites"></a>Vaatimukset  
+## <a name="prerequisites"></a>Vaatimukset
+
  Tee seuraavat toimet ennen tämän vaihekuvauksen tehtävien suorittamista:  
 
 - Asenna CRONUS-esittelytietokanta.
 - Luo esimerkkitietoja noudattamalla seuraavan osan toimintaohjeita.  
 
-## <a name="story"></a>Taustatietoja  
+## <a name="story"></a>Taustatietoja
+
 Tämä vaihekuvaus keskittyy CRONUS-nimiseen suunnittelu- ja konsulttifirmaan, joka suunnittelee ja sovittaa uusia infrastruktuureja, kuten konferenssihalleja ja toimistoja huonekaluineen, tarvikkeineen ja varastointiyksikköineen. Sen useimmat työt projektisuuntautuneita. Thomas on projektipäällikkö yrityksessä CRONUS. Käynnissä olevien kohteen CRONUS käynnistämien projektien ansiosta hän saa yleiskäsityksen jokaisesta meneillään olevasta ja valmiista projektista. Hän järjestää tavallisesti kaupat asiakkaiden kanssa ja lisää projektin ydintiedot, joita olivat tehtävä- ja suunnittelurivit sekä hinnat, [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan. Hän toteaa, että tietojen luominen, ylläpitäminen ja tarkistaminen on suoraviivaista. Thomas pitää myös tavasta, jolla [!INCLUDE[prod_short](includes/prod_short.md)] mahdollistaa töiden kopioinnin ja maksamisen osamaksuina.
 
  Projektitiimin jäsen Marianne, joka työskentelee Thomasin alaisena, on projektin päivittäinen vastuuhenkilö. Hän kirjoittaa oman työn lisäksi teknikoiden suorittaman työn jokaisen tehtävän kohdalle. Hän kirjaa nimikkeet, jotka he ovat käyttäneet ja kustannukset, jotka he ovat aiheuttaneet.  
 
-## <a name="preparing-sample-data"></a>Esimerkkitietojen valmisteleminen  
+## <a name="preparing-sample-data"></a>Esimerkkitietojen valmisteleminen
+
  Valmistaudu tähän vaihekuvaukseen lisäämällä Tricia uutena resurssina.  
 
 ### <a name="to-prepare-the-sample-data"></a>Esimerkkitietojen valmisteleminen  
@@ -109,7 +118,8 @@ Seuraavassa toimenpiteessä luot projektipäiväkirjan erän Mariannea varten, j
 
 4.  Tallenna muutokset valitsemalla **OK**-painike.
 
-## <a name="setting-up-a-job"></a>Projektin määrittäminen  
+## <a name="setting-up-a-job"></a>Projektin määrittäminen
+
  Tässä skenaariossa CRONUS on voittanut sopimuksen Progressive Home Furnishings -yrityksen kanssa, jonka kanssa on päästy sopimukseen neuvottelusalin ja ruokasalin suunnittelemisesta. Asiakkaan tilat ovat Yhdysvalloissa, ja projektissa tarvitaan erityistä ohjelmistoa. Projektipäällikkö pääsee asiakkaan sopimukseen ja sopimuksen keston kattava projekti luodaan.  
 
 ### <a name="to-set-up-a-job"></a>Projektin määrittäminen  
@@ -202,7 +212,8 @@ Seuraavassa toimenpiteessä luot projektipäiväkirjan erän Mariannea varten, j
 
 4. Sulje sivu. Summat on päivitetty **Projektitehtävärivit**-sivulla.  
 
-## <a name="calculating-remaining-usage"></a>Jäljellä olevan käytön laskeminen  
+## <a name="calculating-remaining-usage"></a>Jäljellä olevan käytön laskeminen
+
  Marianne, projektiryhmän jäsen, on tehnyt työtä projektissa jonkin aikaa ja haluaa rekisteröidä omat tuntinsa ja käytön projektissa. Työmäärä ja käyttö eivät ole ylittäneet asiakkaan kanssa sovittua määrää. Hän laskee **Laske jäljellä oleva käyttö** -eräajon avulla projektin jäljellä olevan käytön projektipäiväkirjaan. Erätyö laskee kullekin tehtävälle nimikkeiden, resurssien ja kirjanpitokustannusten suunnitellun käytön ja projektitapahtumiin kirjatun todellisen käytön välisen eron. Jäljellä oleva käyttö tulee näkyviin projektipäiväkirjaan, josta sen voi kirjata.  
 
 ### <a name="to-calculate-remaining-usage"></a>Jäljellä olevan käytön laskeminen  
@@ -219,7 +230,8 @@ Seuraavassa toimenpiteessä luot projektipäiväkirjan erän Mariannea varten, j
 
 Rivit kirjataan.  
 
-## <a name="creating-and-posting-a-job-sales-invoice"></a>Projektin myyntilaskun luominen ja kirjaaminen  
+## <a name="creating-and-posting-a-job-sales-invoice"></a>Projektin myyntilaskun luominen ja kirjaaminen
+
  Seuraavaksi Marianne voi luoda uuden laskun koko projektia tai projektin osaa varten. Voit myös liittää laskun saman asiakkaan toiseen, samaa projektia koskevaan laskuun. Tällöin hän laskuttaa koko projektista, koska projekti on nyt valmis.  
 
 ### <a name="to-create-a-job-sales-invoice"></a>Projektin myyntilaskun luominen  
@@ -252,7 +264,8 @@ Rivit kirjataan.
 2.  Valitse **Tilastot**-toiminto. Voit tarkastella yksityiskohtaisia tietoja projektihinnoista, kustannuksista ja paikallisista ja ulkomaisista valuuttojen voitoista.  
 3.  Valitse **Sulje**-painike **Projektin tilastot** -sivun sulkemiseksi.  
 
-## <a name="handling-fixed-prices"></a>Kiinteiden hintojen käsitteleminen  
+## <a name="handling-fixed-prices"></a>Kiinteiden hintojen käsitteleminen
+
  CRONUS kanssa on tehty sopimus kokoushuoneiden määrittämiseksi. Projektipäällikkö Thomas tarvitsee hyvän yleiskäsityksen projektin edellyttämistä tehtävistä sekä kuhunkin tehtävään liittyvistä budjetoiduista ja kertyneistä kustannuksista. Tarkoitus on myös selvittää projektin sopimuksenmukainen kokonaishinta sekä tähän mennessä laskutettu summa. Asiakkaan kanssa on päästy sopimukseen projektin kiinteästä hinnoittelusta.  
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Kiinteän hinnoittelun hallinta projekteissa  
@@ -443,15 +456,18 @@ Seuraavissa ohjeissa neuvotaan, miten luot uuden projektin, asetat hinnoittelun 
 2.  Määritä **Luo myyntilasku** -sivulla kuluva päivämäärä kirjauspäivämääräksi, määritä **Tehtäväkohtainen** ja valitse **OK**, jos haluat luoda oletustiedot sisältävän laskun. Sulje vahvistussivu valitsemalla **OK**.  
 3.  Valitse **Myyntilasku/hyvityslasku**-toiminto. Myyntilaskussa näkyy, että vain ennakkomaksu on mukana laskussa. Voit nyt lähettää tämän asiakkaalle sopimuksen mukaisesti.  
 
-## <a name="next-steps"></a>Seuraavat vaiheet  
+## <a name="next-steps"></a>Seuraavat vaiheet
+
  Tämä vaihekuvaus on ohjannut sinut läpi tiettyjen perusvaiheiden töiden [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman parissa. Olet oppinut kuinka luodaan uusi työ, kuinka työ kopioidaan ja kuinka maksuja käsitellään. Olet myös nähnyt esityksen siitä, miten voit luoda laskuja ja seurata tunteja.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/create-jobs/)
 
 ## <a name="see-also"></a>Katso myös
 
- [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)   
- [Projektinhallinnan määrittäminen](projects-setup-projects.md)   
- [Resurssien käyttäminen](projects-how-use-resources.md)   
- [Edistymisen ja suorituskyvyn valvonta](projects-how-monitor-progress-performance.md)   
+ [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)  
+ [Projektinhallinnan määrittäminen](projects-setup-projects.md)  
+ [Resurssien käyttäminen](projects-how-use-resources.md)  
+ [Etenemisen ja tehokkuuden valvonta](projects-how-monitor-progress-performance.md)  
  [Projektien laskuttaminen](projects-how-invoice-jobs.md)  
  [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

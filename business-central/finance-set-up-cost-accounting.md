@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1112, 1113, 1122
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9cfb46221098869f41b67c5365f14265b34017c0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ceba015b16e990bc71e0217ed2f8ee85ca6ae1ec
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520332"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074872"
 ---
 # <a name="setting-up-cost-accounting"></a>Kustannuslaskennan määrittäminen
 
@@ -141,7 +141,8 @@ Kustannuskohteet ovat yrityksen projekteja, tuotteita tai palveluja. Kustannusko
 * Siirrä dimensioarvot pääkirjanpidosta kustannuskohdekaavioon. Siirron jälkeen voit tehdä tarvittavat muutokset.  
 * Luo uusi kustannuskohteen kaavio, joka on riippumaton pääkirjanpidosta, tai lisää uusi kustannuskohde nykyiseen kustannuskohteiden kaavioon. Sinun on luotava kukin kustannuskohde erikseen.  
 
-### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Dimensioarvojen siirtäminen pääkirjanpidosta kustannuskohdekaavioon  
+### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Dimensioarvojen siirtäminen pääkirjanpidosta kustannuskohdekaavioon
+
 1.  Määritä dimensio kustannuskohteen dimensioksi **Päivitä KL-dimensiot** -sivulla. Vain tämän dimension arvot siirretään.  
 2.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 3.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannuskohdekartta** ja valitse sitten vastaava linkki.  
 3.  Valitse **Nouda kustannuskohteet dimensiosta** -toiminto, jolla dimensioarvot siirretään kustannuskohdekaavioon. Toiminto siirtää kohdassa 1 määritetyt dimensioarvot.  
@@ -151,7 +152,8 @@ Kustannuskohteet ovat yrityksen projekteja, tuotteita tai palveluja. Kustannusko
 
 Kustannuskohdekaavio sisältää nyt kaikki pääkirjanpidossa määritetyt dimensioarvot, mukaan lukien otsikot ja välisummat.  
 
-### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Uuden kustannuskohteen luominen Kustannuskohdekartta-sivulla  
+### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Uuden kustannuskohteen luominen Kustannuskohdekartta-sivulla
+
 Voit määrittää ja ylläpitää kustannuskohteita joko **Kustannuskohteen kortti** -kortissa tai **Kustannuskohdekartta**-sivulla. Tässä toimenpiteessä määrität kustannuskohteet **Kustannuskohdekartta**-sivulla.  
 
 1.  Avaa **Kustannuskohdekartta**-sivu muokkaustilassa.  
@@ -169,9 +171,11 @@ Voit määrittää ja ylläpitää kustannuskohteita joko **Kustannuskohteen kor
 >  Jos olet antanut määritelmiä **Loppusumma**-kustannuskohteiden **Summan lähde/kohde** -kenttiin ennen sisennyksen suorittamista, määritelmät on annettava uudelleen. Toiminto korvaa kaikki **Loppusumma**-kentän arvot.
 
 ## <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Kustannuspaikkojen ja kustannuskohteiden määrittäminen tilikarttaan
+
 Voit siirtää kulu- ja tuottotapahtumat automaattisesti pääkirjanpidosta kustannuslaskentaan joko jokaisen pääkirjanpidon kirjauksen tai eräajon yhteydessä. Kun teet siirron, [!INCLUDE[prod_short](includes/prod_short.md)] vain siirtää tapahtumat, jotka on jo linkitetty kustannuspaikkaan tai kustannuskohteeseen. Muodosta mielekäs siirto varmistamalla, että kustannuspaikat ja kustannuskohdeet on asianmukaisesti määritetty.  
 
-### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Dimension oletusarvojen määrittäminen pääkirjanpitotilejä varten  
+### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Dimension oletusarvojen määrittäminen pääkirjanpitotilejä varten
+
 Voit määrittää kunkin pääkirjanpidon tilin dimension oletusarvot **Oletusdimensio**-taulukossa. Seuraavassa esimerkissä näytetään, miten määritetään, että KP-tilin kirjauksia tehdessä tulee aina olla OSASTO-kustannuspaikka eikä koskaan PROJEKTI-kustannuskohde.  
 
 |**Dimensiokoodi**|**Arvon kirjaaminen**|  
@@ -179,7 +183,8 @@ Voit määrittää kunkin pääkirjanpidon tilin dimension oletusarvot **Oletusd
 |Osaston|Koodi pakollinen|  
 |Projektin|Ei koodia|  
 
-### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Dimensioarvojen määrittäminen yleiskustannuksille ja suorille kustannuksille  
+### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Dimensioarvojen määrittäminen yleiskustannuksille ja suorille kustannuksille
+
  Voit siirtää yleiskustannukset kustannuspaikkaan ja suorat kustannukset kustannuskohteeseen. Seuraavassa taulukossa näytetään dimension asetusarvojen optimaalinen yhdistelmä.  
 
 |Siirrä kohteeseen|Kustannuspaikan kirjaus|Kustannuskohteen kirjaus|  
@@ -190,9 +195,12 @@ Voit määrittää kunkin pääkirjanpidon tilin dimension oletusarvot **Oletusd
 > [!NOTE]  
 >  Varmista, että kirjanpitoon ennalta määritetty kustannuspaikka ja kustannusobjekti siirretään automaattisesti kustannuslaskentaan, valitsemalla **Tarkista KP-kirjaukset** -valintaruutu Kustannuslaskennan asetukset -sivulla.
 
-## <a name="see-also"></a>Katso myös  
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/cost-accounting-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Katso myös
+
 [Kustannuslaskenta](finance-manage-cost-accounting.md)  
-[Kustannustapahtumien siirtäminen ja kirjaaminen](finance-transfer-and-post-cost-entries.md)   
+[Kustannustapahtumien siirtäminen ja kirjaaminen](finance-transfer-and-post-cost-entries.md)  
 [Kustannusten määrittäminen ja kohdistaminen](finance-define-and-allocate-costs.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

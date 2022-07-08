@@ -10,14 +10,15 @@ ms.search.keywords: kit, kitting, substitute items
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 9860ebc2ce7260f450dbda928ee6339c0560e0a7
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b66efde55918886132def51ad898fa9e89054c02
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521122"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077343"
 ---
 # <a name="sell-items-assembled-to-order"></a>Kokoonpano tilausta varten -nimikkeiden myyminen
+
 Jos kokoonpanon nimikkeen kortin **Kokoonpanokäytäntö**-kenttä sisältää **Kokoonpano tilausta varten** -kohdan, nimikettä ei oleteta olevan varastossa, vaan se on koottava myyntitilausta varten. Kun syötät nimikkeen myyntitilausriville, kokoonpanotilaus luodaan automaattisesti ja linkitetään myyntitilaukseen.  
 
 > [!NOTE]  
@@ -28,7 +29,8 @@ Tässä toimenpiteessä käsittelet asiakkaan pyytämien määrittelyjen mukaan 
 > [!NOTE]  
 >  Seuraavassa toimenpiteessä ei tehdä myyntitilauksen vakiovaiheita ennen, kuin koontitilausnimike syötetään myyntitilauksen riville.  
 
-## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Myy nimike, jok aon kokoonpano tilausta varten  
+## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Myy nimike, jok aon kokoonpano tilausta varten
+
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 2.  Luo myyntitilaus. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).  
 3.  Valitse **Nro**-kenttään nimike, jolle on määritetty kokoonpano tilausta varten.  
@@ -52,7 +54,7 @@ Tässä toimenpiteessä käsittelet asiakkaan pyytämien määrittelyjen mukaan 
     >   
     >  Linkitettyjen kokoonpanotilausten otsikossa vain **Aloituspvm**-kenttää voidaan muuttaa niin, että kokoonpanotyöntekijät voivat määrittää päivämäärän, joka on ennen eräpäivää, kun he aloittavat prosessin. Linkitetyn kokoonpanotilauksen rivien kaikki kentät voidaan muuttaa siten, että varaston työntekijät voivat syöttää kulutuksen lukuja prosessin aikana.  
 
-8.  Tarkista tai reagoi komponenttien saatavuusongelmiin. Valitse esimerkiksi saatavilla oleva korvaava nimike tai määritä myöhempi eräpäivä.  
+8.  Tarkista tai reagoi komponenttien saatavuusongelmiin. Valitse esimerkiksi saatavilla oleva korvaava nimike.  
 9. Sulje **Kokoonpano tilausta varten -rivit** -sivu. Linkitetty kokoonpanotilaus on nyt valmiina mukautettujen nimikkeiden kokoonpanon aloittamiseen eräpäivään mennessä.  
 10. Valitse myyntitilauksessa **Vapauta**-toiminto, jos haluat ilmoittaa kokoonpano-osastolle, että kokoonpanoprosessi voidaan aloittaa.  
 11. Suorita kokoonpanoosastossa niiden nimikkeiden kokoamisvaiheet, jotka myydään tässä käsittelyssä. Lisätietoja on kohdassa [Nimikkeiden kokoaminen](assembly-how-to-assemble-items.md).  
@@ -60,7 +62,10 @@ Tässä toimenpiteessä käsittelet asiakkaan pyytämien määrittelyjen mukaan 
 > [!NOTE]  
 > Huomaa, että nimikkeen korvaaminen ei automaattisesti aiheuta nimikkeen korvaamista toisella nimikkeellä esimerkiksi myyntitilausta luotaessa tai tuoterakenteessa. Sen sijaan sinua varoitetaan siitä, että käytettävissäsi on korvaaminen.
 
-## <a name="see-also"></a>Katso myös  
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Katso myös
+
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)  
 [Varasto](inventory-manage-inventory.md)  

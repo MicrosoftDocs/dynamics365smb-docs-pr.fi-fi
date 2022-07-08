@@ -10,14 +10,15 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.search.forms: 1327, 393, 392, 390, 7381, 7380, 7319, 7324, 7326, 7365
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c683e2ff5960ce03f9c2083954c8250e2e6b39e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4267e7de6f34c3aa419d3d3fc78739c372b48a64
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518049"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078046"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Varaston laskeminen, muuttaminen ja uudelleenluokitus käyttämällä päiväkirjoja
+
 Vähintään kerran tilikauden aikana tulee suorittaa inventointi (eli laskea kaikki varastossa olevat nimikkeet), jotta nähtäisiin, onko tietokantaan rekisteröity määrä sama kuin varaston fyysinen määrä. Kun varaston fyysinen määrä on tiedossa, se on kirjattava pääkirjanpitoon osana kauden lopun varaston arvostusta.
 
 Vaikka lasket kaikki varaston nimikkeet vähintään kerran vuodessa, voit päättää laskevasi joitain nimikkeitä useammin, koska ne ovat ehkä arvokkaampia tai ne liikkuvat nopeasti varastosta ja ovat suuri osa liiketoimintaa. Voit määrittää tätä varten erityisiä laskentajaksoja. Lisätietoja on kohdassa [Inventoinnin suorittaminen](inventory-how-count-adjust-reclassify.md#to-perform-cycle-counting).
@@ -30,6 +31,7 @@ Jos nimiketapahtumien määritteitä on muutettava, voit käyttää nimikkeen uu
 > Laajennetussa varastointimäärityksessä nimikkeet rekisteröidään varastopaikoissa nimiketapahtumien sijaan fyysisen varastoinnin tapahtumina. Niinpä laskenta, muutokset ja uudelleenluokittelu tehdään tavarapaikkoja tukevissa erityisissä fyysisen varastoinnin päiväkirjoissa. Voit sitten synkronoida uudet tai muuttuneet fyysisen varastoinnin tapahtumat erityistoiminnoilla tapahtumiin liittyviin nimeketapahtumiin siten, että vastaavat varaston määrissä ja arvoissa tapahtuneita muutoksia. Tätä käsitellään tarvittaessa jäljempänä olevissa toimenpidekuvauksissa.
 
 ## <a name="to-perform-a-physical-inventory"></a>Inventoinnin suorittaminen
+
 Sinun tulee tehdä inventointi (eli laskea saatavilla olevat nimikkeet) nähdäksesi, onko ohjelmaan rekisteröity määrä sama kuin varaston fyysinen määrä, tilikauden lopussa ellei useamminkin. Jos löytyy eroja, ne tulee kirjata nimiketileille ennen varaston arvostusta.
 
 > [!NOTE]
@@ -48,6 +50,7 @@ Voit tehdä inventoinnin jommallakummalla tavalla fyysisen varastoinnin asetuste
 -   Jos sijainnissa käytetään ohjattua hyllytystä ja poimintaa (laajennettu varastointimääritys), suorita **Laske f.var. muutos** -toiminto käyttämällä ensin **F.var. inventointipvk** -sivua ja sitten **Nimikepäiväkirja**-sivua.
 
 ### <a name="to-calculate-the-expected-inventory-in-basic-warehouse-configurations"></a>Oletetun varaston laskeminen varastoinnin perusmäärityksissä
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastopäiväkirjat** ja valitse sitten vastaava linkki.
 2. Valitse **Laske varasto** -toiminto.
 3. Määritä **Laske varasto** -sivulla ehdot, joita käytetään luotaessa päiväkirjarivejä, kuten sisällytetäänkö nimikkeet, joiden kirjattu varastomäärä on nolla.
@@ -58,6 +61,7 @@ Voit tehdä inventoinnin jommallakummalla tavalla fyysisen varastoinnin asetuste
 >   Ohjelma käsittelee nimiketapahtumat määrittämiesi tietojen mukaan ja luo rivejä inventointipäiväkirjaan. Huomaa, että **Määrä (inventointi)** -kenttään täytetään automaattisesti sama määrä kuin **Määrä (laskettu)** -kenttään. Tämän ominaisuuden ansiosta sinun ei tarvitse syöttää laskettua varastosaldoa niiden nimikkeiden osalta, joiden määrä on sama kuin laskettu määrä. Jos laskettu määrä kuitenkin eroaa **Määrä (laskettu)** -kenttään syötetystä määrästä, korvaa se todellisella lasketulla määrällä.
 
 ### <a name="to-print-the-report-to-be-used-when-counting"></a>Laskennassa käytettävän raportin tulostaminen
+
 1. Valitse lasketun oletetun varaston sisältävän **Varastopäiväkirja**-sivulla **Tulosta**-toiminto.
 2. Määritä **Inventointiluettelo**-sivulla, näytetäänkö raportissa laskettu määrä ja näkyykö raportissa varastonimikkeiden luettelo sarja ja eränumeroiden mukaan.
 3. Määritä suodattimia, jos haluat tulostaa vain tiettyjä varastojen nimikkeiden, varastopaikkojen, sijaintien tai dimensioiden raportteja.
@@ -69,6 +73,7 @@ Työntekijät voivat nyt laskea varaston ja merkitä mahdolliset poikkeamat tulo
 > Voi kestää useita päiviä, ennen kuin painetut raportit tulevat takaisin lopullista käsittelyä ja kirjaamista varten. Kun määrität ja kirjaat todellisen lasketun varaston, järjestelmä muuttaa varaston vastaamaan oletetun ja todellisen varaston eroa. Sinun täytyy säilyttää alkuperäiset lasketut päiväkirjan rivit eikä laskea oletettua varastoa uudelleen, koska oletettu varasto voi muuttua ja johtaa vääriin varastomääriin. Jos sinun täytyy lähettää useita raportteja, kuten eri sijainteja tai nimikeryhmiä, sinun täytyy luoda ja pitää erilliset päiväkirjan erät.
 
 ### <a name="to-enter-and-post-the-actual-counted-inventory-in-basic-warehouse-configurations"></a>Todellisen lasketun varaston antaminen ja kirjaaminen fyysisen varastoinnin perusmäärityksissä
+
 1. Jos jollakin **Varastopäiväkirja**-sivun rivillä inventoinnissa määritetty todellinen saatavissa oleva varastomäärä poikkeaa lasketusta määrästä, anna **Määrä (varastotilanne)** -kentässä todellinen saatavissa oleva varastomäärä.
 
     Liittyvät kentät päivitetään tämän mukaisesti.
@@ -84,6 +89,7 @@ Työntekijät voivat nyt laskea varaston ja merkitä mahdolliset poikkeamat tulo
 4. Voit tarkistaa inventoinnin avaamalla kyseisen nimikekortin ja valitsemalla sitten **Inventointitapahtumat** -toiminnon.
 
 ### <a name="to-calculate-the-expected-inventory-in-advanced-warehouse-configurations"></a>Oletetun varaston laskeminen laajennetuissa varastomäärityksissä
+
 Synkronoi nimikekirjanpito ja fyysinen varasto ennen kuin suoritat fyysisen varastoinnin inventoinnin, muutoin inventointipäiväkirjaan ja prosessin viimeisessä vaiheessa nimiketapahtumiin kirjaamasi tulokset ovat inventoinnin tulosten ja muiden fyysisen varastoinnin muutosten yhdistelmä laskettujen nimikkeiden osalta. Lisätietoja on kohdassa [Määrien synkronoiminen nimikekirjauksessa ja varastossa](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries)
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Invent. varastopäiväk.** ja valitse sitten vastaava linkki.  
@@ -94,14 +100,15 @@ Synkronoi nimikekirjanpito ja fyysinen varasto ennen kuin suoritat fyysisen vara
 
      Jos on aikaa laskea nimikkeet vain joistain varastopaikoista, voit löytää eroavaisuuksia, rekisteröidä ne ja myöhemmin kirjata ne nimikepäiväkirjaan käyttämällä **Laske f.var. muutos** -toimintoa.  
 
-
 ### <a name="to-print-the-report-to-be-used-when-counting"></a>Laskennassa käytettävän raportin tulostaminen
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston fyysisen varaston luettelo** ja valitse sitten vastaava linkki.  
 2. Avaa raportin pyyntösivu ja tulosta luettelot, joihin haluat työntekijöiden kirjaavan kussakin varastopaikassa laskettujen nimikkeiden määrät.  
 
 Työntekijät voivat nyt laskea varaston ja merkitä mahdolliset poikkeamat tulostettuun raporttiin.
 
 ### <a name="to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations"></a>Todellisen lasketun varaston antaminen ja kirjaaminen laajennetuissa varastomäärityksissä
+
 1. Kun laskenta on tehty, syötä lasketut määrät fyysisen varastoinnin inventointipäiväkirjan **Määrä (inventointi)** -kenttään.  
 
     > [!NOTE]  
@@ -116,8 +123,8 @@ Työntekijät voivat nyt laskea varaston ja merkitä mahdolliset poikkeamat tulo
 
 Kun fyysisen varastoinnin inventointia rekisteröidään, kirjausta nimiketapahtumiin, inventointitapahtumiin tai arvotapahtumiin ei tapahdu, vaan tietueet ovat valmiina välitöntä täsmäytystä varten heti, kun sitä tarvitaan. Jos haluat kuitenkin ylläpitää tarkkoja tietueita siitä, mitä fyysisessä varastoinnissa tapahtuu, ja jos olet laskenut kaikki varastopaikat, joihin nimikkeet on rekisteröity, fyysisen varastoinnin tulokset tulisi heti kirjata inventoinniksi varastonhallinnassa. Lisätietoja on kohdassa [Määrien synkronoiminen nimikekirjauksessa ja varastossa](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
 
-
 ## <a name="to-perform-cycle-counting"></a>Inventoinnin suorittaminen
+
 Vaikka lasket kaikki varaston nimikkeet vähintään kerran vuodessa, voit päättää laskevasi joitain nimikkeitä useammin, koska ne ovat ehkä arvokkaampia tai ne liikkuvat nopeasti varastosta ja ovat suuri osa liiketoimintaa. Voit määrittää tätä varten erityisiä laskentajaksoja.
 
 Sykli voidaan laskea jommallakummalla tavalla määritettyjen varastoasetusten mukaan. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).  
@@ -126,6 +133,7 @@ Sykli voidaan laskea jommallakummalla tavalla määritettyjen varastoasetusten m
 -   Jos sijainnissa käytetään ohjattua hyllytystä ja poimintaa (laajennettu varastointimääritys), suorita **Laske f.var. muutos** -toiminto käyttämällä ensin **F.var. inventointipvk** -sivua ja sitten **Nimikepäiväkirja**-sivua.  
 
 ### <a name="to-set-up-counting-periods"></a>Laskentajaksojen määrittäminen
+
 Inventointi suoritetaan tavallisesti toistuvin aikavälein, esimerkiksi kuukausittain, neljännesvuosittain tai vuosittain. Voit määrittää mitä tahansa inventoinnin laskentajaksoja.
 
 Määritä käytettävät inventointijaksot ja määritä yksi niistä kullekin nimikkeelle. Kun suoritat inventoinnin ja käytät inventointipäiväkirjassa **Laske laskentajakso** -vaihtoehtoa, nimikkeiden rivit luodaan automaattisesti.
@@ -133,13 +141,15 @@ Määritä käytettävät inventointijaksot ja määritä yksi niistä kullekin 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastotilanteen laskentajaksot** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="to-assign-a-counting-period-to-an-item"></a>Laskentajakson määritteleminen nimikkeelle  
+### <a name="to-assign-a-counting-period-to-an-item"></a>Laskentajakson määritteleminen nimikkeelle
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
 2. Valitse nimike, jolle haluat määrittää laskentajakson.  
 3. Valitse **Inventointijakson koodi** -kentässä sopiva laskentajakso.  
 4. Valitse **Kyllä**-painike vaihtaaksesi koodin ja laskeaksesi nimikkeelle ensimmäisen laskentajakson. Kun lasket seuraavan kerran inventointipäiväkirjassa laskentajakson, nimike näkyy rivinä **Inventoinnin nimikevalinta** -sivulla. Voit sitten aloittaa nimikkeen laskennan säännöllisin väliajoin.
 
 ### <a name="to-initiate-a-count-based-on-counting-periods-in-basic-warehouse-configurations"></a>Laskennan käynnistäminen laskentakauden perusteella fyysisen varastoinnin perusmäärityksissä
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastopäiväkirjat** ja valitse sitten vastaava linkki.
 2. Valitse **Laske laskentajakso** -toiminto.
 
@@ -147,6 +157,7 @@ Määritä käytettävät inventointijaksot ja määritä yksi niistä kullekin 
 3. Suorita inventointi. Lisätietoja on kohdassa [Fyysisen varaston inventointi](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).
 
 ### <a name="to-initiate-a-count-based-on-counting-periods-in-advanced-warehouse-configurations"></a>Laskennan käynnistäminen laskentakauden perusteella laajennetuissa varastomäärityksissä
+
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Invent. varastopäiväk.** ja valitse sitten vastaava linkki.  
 2. Valitse **Laske laskentajakso** -toiminto.
 
@@ -157,6 +168,7 @@ Määritä käytettävät inventointijaksot ja määritä yksi niistä kullekin 
     >  Nimike tulee laskea kaikista varastopaikoista, jotka sisältävät kyseistä nimikettä. Jos poistat joitakin varastopaikan rivejä, jotka sovellus on hakenut laskentaa varten **F. var. inventointi** -sivulle, kaikkia fyysisen varaston nimikkeitä ei silloin lasketa. Jos kirjaat tällaisia epätäydellisiä tuloksia inventointipäiväkirjaan myöhemmin, kirjatut summat ovat virheellisiä.  
 
 ## <a name="to-adjust-the-inventory-of-one-item"></a>Yhden nimikkeen varastonimikkeen muuttaminen
+
 Kun nimikkeen fyysinen laskenta on suoritettu varastoalueellasi, voit käyttää **Muuta varasto**-toimintoa todellisen varastomäärän kirjaamiseen.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
@@ -172,6 +184,7 @@ Voit käyttää **Muuta varastoa** -toimintoa myös yksinkertaisena tapana asett
 >   Kun olet muuttanut varastoa, se on päivitettävä nykyisellä lasketulla arvolla. Lisätietoja on kohdassa [Varaston uudelleenarvostus](inventory-how-revalue-inventory.md).
 
 ### <a name="to-adjust-the-inventory-quantity-of-multiple-items-in-basic-warehouse-configurations"></a>Useiden nimikkeiden varastosaldon muuttaminen fyysisen varastoinnin perusmäärityksissä
+
 Voit kirjata **Nimikepäiväkirja**-sivulla nimiketapahtuman suoraan ja muuttaa varastoa ostojen, myyntien ja positiivisten tai negatiivisten muutosten yhteydessä asiakirjoja käyttämättä.
 
 Jos nimikepäiväkirjaan kirjataan usein samoja tai saman tyyppisiä päiväkirjan rivejä (esimerkiksi materiaalien kulutukseen liittyen), voit helpottaa toistuvien toimien suorittamista **Vakionimikepäiväkirja**-sivun avulla. Lisätietoja on kohdassa [Vakiopäiväkirjojen käyttäminen](ui-work-general-journals.md#work-with-standard-journals).
@@ -180,7 +193,8 @@ Jos nimikepäiväkirjaan kirjataan usein samoja tai saman tyyppisiä päiväkirj
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Tee muutokset varastoon valitsemalla **Kirjaa**-toiminto.
 
-### <a name="to-adjust-bin-quantities-in-advanced-warehouse-configurations"></a>Varastopaikkamäärien muuttaminen laajennetuissa varastomäärityksissä  
+### <a name="to-adjust-bin-quantities-in-advanced-warehouse-configurations"></a>Varastopaikkamäärien muuttaminen laajennetuissa varastomäärityksissä
+
 Kun käytät ohjattua hyllytystä ja poimintaa, käytä muissa kuin inventointiyhteyksissä **fyysisen varastoinnin nimikepäiväkirjaa** kaikkien todellisten positiivisten muutosten (esimerkiksi puuttuneiden nimikkeiden löytymisen) ja negatiivisten muutosten (esimerkiksi nimikkeiden särkymisen) kirjaamiseen.  
 
 Toisin kuin kirjattaessa muutoksia varaston nimikepäiväkirjaan, fyysisen varastoinnin nimikepäiväkirjaa käytettäessä käytössä on tarkempi muutostaso, jonka avulla määrätietueet pysyvät entistä paremmin ajan tasalla. Fyysisessä varastoinnissa on siis aina tarkat tiedot siitä, kuinka paljon nimikkeitä on saatavilla ja missä ne ovat varastoituina, mutta kutakin muutosrekisteröintiä ei kirjata heti nimiketapahtumiin. Rekisteröintiprosessissa ohjelma hyvittää tai veloittaa oikeaa varastopaikkaa määrän muutoksella ja tekee vastatapahtuman muutosvarastopaikkaan - virtuaalivarastopaikkaan, jossa ei ole oikeita nimikkeitä. Tämä varastopaikka on määritetty sijaintikortin **Var. muutosvarastopaikan koodi** -kentässä.
@@ -193,6 +207,7 @@ Toisin kuin kirjattaessa muutoksia varaston nimikepäiväkirjaan, fyysisen varas
 6.  Valitse **Rekisteröi**-toiminto.
 
 ## <a name="to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries"></a>Muutettujen fyysisen varastoinnin tapahtumien ja liittyvien nimiketapahtumien synkronointi
+
 Fyysisen varastoinnin muutosvarastopaikan tietueet tulee kirjata yrityksen menettelytapojen mukaisin aikavälein nimiketapahtumiin. Joissakin yrityksissä muutokset on hyvä kirjata nimiketapahtumiin joka päivä, kun taas toisissa yrityksissä voi olla järkevämpää täsmäyttää muutokset harvemmin.
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikepäiväkirja** ja valitse sitten vastaava linkki.  
@@ -203,6 +218,7 @@ Fyysisen varastoinnin muutosvarastopaikan tietueet tulee kirjata yrityksen menet
 6.  Lisää määräerot nimiketapahtumiin kirjaamalla päiväkirjarivit. Fyysisen varastoinnin varastopaikkojen varasto vastaa nyt tarkasti nimiketapahtumien varastoa.  
 
 ## <a name="to-reclassify-an-items-lot-number"></a>Nimikkeen eränumeron uudelleenluokittelu
+
 Jos nimiketapahtumien määritteitä on muutettava, voit käyttää nimikkeen uudelleenluokituspäiväkirjaa. Tyypillisiä uudelleenluokiteltavia määritteitä ovat dimensiot ja myyntikampanjan koodit, mutta myös tehdä järjestelmäsiirtoja luokittelemalla varastopaikka- ja sijaintikoodit uudelleen.
 
 Sarja- tai eränumeroiden sekä niiden vanhentumispäivämäärien uudelleenluokittelussa on erityisvaiheita. Lisätietoja on kohdassa [Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md).
@@ -217,10 +233,13 @@ Seuraava esimerkki perustuu sijaintikoodiin. Ohjeet ovat vastaavanlaiset myös m
 
 Lisätietoja nimikkeiden siirtämisestä siten, että toimitus- ja vastaanottomäärien hallinta säilyy, on kohdassa [Varastonimikkeiden siirtäminen sijaintien välillä](inventory-how-transfer-between-locations.md).
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/adjust-inventory/)
+
 ## <a name="see-also"></a>Katso myös
+
 [Varastojen laskenta asiakirjoja käyttämällä](inventory-how-count-inventory-with-documents.md)  
-[Varasto](inventory-manage-inventory.md)
-[Varastoinninhallinta](warehouse-manage-warehouse.md)    
+[Varasto](inventory-manage-inventory.md)  
+[Varastoinninhallinta](warehouse-manage-warehouse.md)  
 [Myynti](sales-manage-sales.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

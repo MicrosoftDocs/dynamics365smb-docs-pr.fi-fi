@@ -229,13 +229,11 @@
 ### Saapuvat asiakirjat
 #### [Saapuvien asiakirjojen yleiskatsaus](across-income-documents.md)
 #### [Saapuvien asiakirjojen määrittäminen](across-how-setup-income-documents.md)
-#### Saapuvien asiakirjojen käsitteleminen
-##### [Saapuvien asiakirjojen käsitteleminen](across-process-income-documents.md)
-##### [Saapuvien asiakirjatietueiden luominen](across-how-create-income-document-records.md)
-##### [PDF- ja kuvatiedostojen muuntaminen sähköisiksi asiakirjoiksi OCR-palvelun avulla](across-how-use-ocr-pdf-images-files.md)
-##### [Saapuvien asiakirjatietueiden luominen suoraan asiakirjoista ja tapahtumista](across-how-connect-disconnect-income-document-records.md)
-##### [Sellaisten kirjattujen asiakirjojen etsiminen, joilla ei ole saapuvia asiakirjatietueita](across-how-find-posted-documents-without-income-document-records.md)
-##### [Useiden saapuvien asiakirjatietueiden hallinta](across-how-manage-many-income-document-records.md)
+#### [Saapuvien asiakirjatietueiden luominen](across-how-create-income-document-records.md)
+#### [PDF- ja kuvatiedostojen muuntaminen sähköisiksi asiakirjoiksi OCR-palvelun avulla](across-how-use-ocr-pdf-images-files.md)
+#### [Saapuvien asiakirjatietueiden luominen suoraan asiakirjoista ja tapahtumista](across-how-connect-disconnect-income-document-records.md)
+#### [Sellaisten kirjattujen asiakirjojen etsiminen, joilla ei ole saapuvia asiakirjatietueita](across-how-find-posted-documents-without-income-document-records.md)
+#### [Useiden saapuvien asiakirjatietueiden hallinta](across-how-manage-many-income-document-records.md)
 
 ### Työnkulut
 #### [Työnkulun yleiskatsaus](across-workflow.md)
@@ -1424,8 +1422,8 @@
 #### Vero
 ##### [USA:n myyntivero](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Myyntiveron raportointi USA:ssa](LocalFunctionality/UnitedStates/us-sales-tax.md)  
-##### [Tapahtumien ilmoittaminen 1099-lomakkeella USA:ssa](LocalFunctionality/UnitedStates/tax-1099.md)  
 ##### [Määritä IRS 1099 -lomake ja käytä sitä](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
+##### [Regulatory 1099 -muodon muutokset ja tiedot](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Käyttöveron ja ostoveron määrittäminen](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Toteutumattoman myyntiveron ja myynnin maksualennusten määrittäminen](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Pankkitoiminta ja maksut

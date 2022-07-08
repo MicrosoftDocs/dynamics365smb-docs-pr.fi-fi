@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c3e8fea25e921288db80b993ff2911dc7b473fb1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 16adda82dbc45bcff61934d57de7a4e46f8477cf
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523291"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075289"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Vaihekuvaus: Projektin keskeneräisen työn laskeminen
 
@@ -22,7 +22,8 @@ ms.locfileid: "8523291"
 
 Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikatauluja ja seurata tietyn projektin resurssien käyttöön liittyviä kustannuksia. Projekteissa kuluu esimerkiksi työntekijöiden työtunteja, koneiden käyttötunteja ja varastonimikkeitä, joita täytyy seurata projektin edetessä. Jos projekti on pitkäkestoinen, kustannukset täytyy ehkä siirtää taseeseen KET (Keskeneräinen työ) -tilille, kun projekti on vielä kesken. Kustannukset ja myynnit voi myöhemmin tulouttaa tuloslaskelmatilille, kun tämä on ajankohtaista.  
 
-## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta  
+## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta
+
  Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:  
 
 -   keskeneräisen työn (KET) laskeminen  
@@ -33,16 +34,20 @@ Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikata
 
  Prosessin jokainen vaihe laskee arvon ja siirtää projektitapahtumia pääkirjanpitoon. Laskeminen ja kirjaus ovat erillisiä vaiheita, jotta käyttäjälle jää mahdollisuus käydä tiedot läpi ja tehdä muutoksia ennen kirjaamista pääkirjanpitoon. Laskennan eräajojen jälkeen ja ennen kirjauksen eräajojen suorittamista kannattaakin varmistaa, että kaikki tiedot ovat oikein.  
 
-## <a name="roles"></a>Roolit  
+## <a name="roles"></a>Roolit
+
  Tämän vaihekuvauksen esimerkkejä havainnollistetaan erään projektitiimin jäsenen kautta. Hänen nimensä on Marianne.  
 
-## <a name="prerequisites"></a>Vaatimukset  
+## <a name="prerequisites"></a>Vaatimukset
+
  Asenna [!INCLUDE[prod_short](includes/prod_short.md)] tietokoneeseen ennen tämän vaihekuvauksen tehtävien suorittamista.  
 
-## <a name="story"></a>Taustatietoja  
+## <a name="story"></a>Taustatietoja
+
  Tämä vaihekuvaus keskittyy suunnittelu- ja konsulttiyritykseen CRONUS Finland Oy, joka suunnittelee ja varustaa uusia infrastruktuureja, kuten konferenssisaleja ja toimistoja huonekaluineen, tarvikkeineen ja varastoineen. Suurin osa CRONUS -töistä on projektisuuntautuneita, ja projektitiimin jäsen Marianne käyttää töitä yleiskatsauksen luomiseen jokaisesta meneillään olevasta työstä, jonka CRONUS on aloittanut, ja myös valmistuneista töitä. Jotkut työt voivat olla hyvin pitkiä ja kestää kuukausia. Marianne voi käyttää KET-tiliä tallentaakseen keskeneräisen työn ja seuratakseen kustannuksia projektin aikana.  
 
-## <a name="calculating-wip"></a>Keskeneräisen työn laskeminen  
+## <a name="calculating-wip"></a>Keskeneräisen työn laskeminen
+
  CRONUS on aloittanut pitkän projektin, joka on nyt laajennettu raportointikausien yli. Marianne, projektiryhmän jäsen, laskee keskeneräiset työt (KET) varmistaakseen, että yhtiön tilinpäätös on tarkka.  
 
  Näiden toimien aikana Marianne valitsee tietyn joukon tehtäviä, jotka sisällytetään KET-laskentaan. **Projektitehtävärivit**-sivulla hän voi määrittää nämä rivit **KET - Yhteensä** -sarakkeeseen.  
@@ -109,7 +114,8 @@ Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikata
 > [!NOTE]  
 >  Vain keskeneräinen työ ja tuloutus lasketaan. Sitä ei kirjata pääkirjanpitoon. Nämä toimet edellyttävät, että suoritat **Kirjaa KET kirjanpitoon** -eräajon, kun olet laskenut keskeneräisen työn ja tuloutuksen.
 
-## <a name="posting-wip-to-general-ledger"></a>Keskeneräisen työn kirjaaminen pääkirjanpitoon  
+## <a name="posting-wip-to-general-ledger"></a>Keskeneräisen työn kirjaaminen pääkirjanpitoon
+
  Kun Marianne on laskenut tämän projektin keskeneräisen työn, hän voi kirjata sen pääkirjanpitoon.  
 
 ### <a name="to-post-wip-to-general-ledger"></a>KET-arvon kirjaaminen pääkirjanpitoon  
@@ -132,7 +138,8 @@ Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikata
 10. Huomaa, että **Keskeneräiset työt ja tuloutus** -pikavalintalehden **Kirjattu**-sarakkeen **Tuloutettu kustannusten kirjanpitosumma** -kenttä on nyt täytetty, mikä ilmaisee, että kyseinen KET on kirjattu pääkirjanpitoon onnistuneesti.  
 11. Sulje kortti valitsemalla **OK**-painike.  
 
-## <a name="reversing-a-wip-posting"></a>KET-kirjauksen peruuttaminen  
+## <a name="reversing-a-wip-posting"></a>KET-kirjauksen peruuttaminen
+
  Marianne määrittää, että projektitehtävät, jotka jätettiin ulkopuolelle laskettaessa KET, olisi pitänyt laskea mukaan KET:iin. Kaikeksi onneksi hän kuitenkin voi peruuttaa väärät kirjaukset tekemättä uusia KET-kirjauksia.  
 
 ### <a name="to-reverse-a-wip-posting"></a>KET-kirjauksen peruuttaminen  
@@ -154,13 +161,17 @@ Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikata
     > [!NOTE]  
     >  Oletetaan, että Tricia on laskenut ja kirjannut keskeneräisen työn, jossa on virheellisiä päivämääriä. Käyttäjä voi peruuttaa virheellisen kirjauksen, korjata päivämääriä ja tehdä uuden kirjauksen pääkirjanpitoon käyttämällä aiemmin kerrottua menetelmää.  
 
-## <a name="next-steps"></a>Seuraavat vaiheet  
+## <a name="next-steps"></a>Seuraavat vaiheet
+
  Tämä vaihekuvaus on ohjannut sinut keskeneräisen työn laskemisen vaiheiden läpi kohteessa [!INCLUDE[prod_short](includes/prod_short.md)]. Jos projektit ovat suuria, kustannukset kannattaa ehkä siirtää KET-tilille ajoittain siksi aikaa, että projekti valmistuu. Tässä vaihekuvauksessa osoitettiin, milloin ja miksi tehtävärivejä täytyy jättää pois laskennasta sekä milloin uudelleenlaskeminen on tarpeen. Se myös näyttää, milloiin uudellenlaskenta on suoritettava. Ja lopuksi, näissä vaiheittaisissa ohjeissa kerrotaan, miten kirjaat KET:n pääkirjanpitoon. Mukana on myös esimerkki siitä, miten voit kääntää KET-kirjauksen pääkirjanpitoon.  
 
-## <a name="see-also"></a>Katso myös  
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/calculate-post-job-wip/)
+
+## <a name="see-also"></a>Katso myös
+
  [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)  
- [Vaihekuvaus: Projektinhallinta Projektit-sovellusalueen avulla](walkthrough-managing-projects-with-jobs.md)   
- [Tietoja KET-menetelmistä](projects-understanding-wip.md)   
+ [Vaihekuvaus: Projektinhallinta Projektit-sovellusalueen avulla](walkthrough-managing-projects-with-jobs.md)  
+ [Tietoja KET-menetelmistä](projects-understanding-wip.md)  
  [Etenemisen ja tehokkuuden valvonta](projects-how-monitor-progress-performance.md)  
  [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
