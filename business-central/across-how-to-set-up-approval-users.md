@@ -1,6 +1,6 @@
 ---
 title: Hyväksynnän käyttäjien määrittäminen
-description: Ennen kuin voit luoda työnkulkuja, joihin liittyy hyväksyntävaiheita, sinun on määritettävä hyväksymisprosesseihin osallistuvat työnkulun käyttäjät hyväksynnän käyttäjäasetusten avulla.
+description: Ennen kuin voit luoda työnkulkuja, joihin liittyy hyväksyntävaiheita, sinun on määritettävä hyväksymisprosesseihin osallistuvat työnkulun käyttäjät Hyväksyjäkäyttäjän määritys -sivulla.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 663
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 7602481a357a9b9e362a7b6fc0d605de04f44537
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e4bb6345a55eedabdf433dbb84a7bf0c7f64d215
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129205"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129792"
 ---
 # <a name="set-up-approval-users"></a>Hyväksynnän käyttäjien määrittäminen
 
@@ -46,7 +46,7 @@ Ennen kuin voit luoda työnkulkuja, joihin liittyy hyväksyntävaiheita, sinun o
     |**Rajaton pyyntöjen hyväksyntä**|Määritä, että **Käyttäjätunnus**-kenttään määritetty käyttäjä saa hyväksyä kaikki ostotarjoukset summasta riippumatta.<br /><br /> Jos valitset tämän valintaruudun, et voi täyttää **Pyyntösumman hyväksymisraja** -kenttää.|  
     |**Varahyväksyjä**|Valitse hyväksyntäprosessiin liittyvän käyttäjän tunnus, jonka on hyväksyttävä **Käyttäjätunnus** -kentässä olevan käyttäjän pyynnöt jos **Hyväksyjän tunnus** -kentässä oleva käyttäjä ei ole saatavilla. <br /><br />**Huomautus:** korvaava voi olla joko käyttäjä **Korvaava**-kentässä, suora hyväksyjä tai hyväksynnän järjestelmänvalvoja, tässä järjestyksessä. Lisätietoja on kohdassa [Hyväksymistyönkulkujen käyttäminen](across-how-use-approval-workflows.md).|  
     |**Sähköpostiosoite**|Määritä **Käyttäjätunnus**-kenttään syötetyn käyttäjän sähköpostiosoite.|  
-    |**Hyväksynnän järjestelmänvalvoja**|Määritä käyttäjä, jolla on oikeus avata hyväksynnän työnkulkuja, esimerkiksi delegoimalla hyväksyntäpyyntöjä uusille korvaaville hyväksyjille tai poistamalla hyväksyntäpyyntöjä, joiden määräaika on ohi.|
+    |**Hyväksynnän järjestelmänvalvoja**|Määritä käyttäjä, jolla on oikeudet hyväksymistyönkulun eston poistamiseen. Tämän voi tehdä esimerkiksi delegoimalla hyväksyntäpyyntöjä uusille korvaaville hyväksyjille tai poistamalla hyväksyntäpyyntöjä, joiden määräaika on ohi.|
 
     > [!Note]
     > Vain yksi henkilö voi olla hyväksynnän järjestelmänvalvoja.
@@ -54,14 +54,16 @@ Ennen kuin voit luoda työnkulkuja, joihin liittyy hyväksyntävaiheita, sinun o
 3. Voit testata hyväksyjäkäyttäjän asetukset valitsemalla **Hyväksynnän käyttäjien määrityksen testi** -toiminto.  
 4. Toista vaiheet 2 ja 3 jokaiselle käyttäjälle, jonka haluat määrittää hyväksynnän käyttäjäksi.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/create-workflows/)
+
 ## <a name="see-also"></a>Katso myös
 
-[Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md)   
-[Työnkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md)   
-[Työnkulkujen luominen](across-how-to-create-workflows.md)   
-[Työnkulkujen määrittäminen](across-set-up-workflows.md)   
-[Vaihekuvaus: Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
-[Työnkulku](across-workflow.md)   
+[Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md)  
+[Työnkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md)  
+[Työnkulkujen luominen](across-how-to-create-workflows.md)  
+[Työnkulkujen määrittäminen](across-set-up-workflows.md)  
+[Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Työnkulku](across-workflow.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

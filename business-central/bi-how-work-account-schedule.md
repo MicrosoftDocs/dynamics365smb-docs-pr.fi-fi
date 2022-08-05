@@ -10,28 +10,28 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 32ca89daf15485057cf9ef8b86ff9090bb12d037
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8984d007f2082c6a21a3d2226a20f2ad585b131a
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512358"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129730"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Talousraportoinnin valmisteleminen KP-raporttimallien ja tililuokkien avulla
 
-Saat KP-raporttimallien avulla tietoja tilikarttaan sisältyvistä kirjanpitotiedoista. KP-raporttimallit analysoivat kirjanpitotilien lukuja ja vertaavat pääkirjanpidon tapahtumia pääkirjanpidon budjettitapahtumiin. Tulokset näkyvät roolikeskuksen kaavioissa, kuten kassavirtakaaviossa, ja raporteissa, kuten Tuloslaskelma- ja Tase-raporteissa.
+Saat KP-raporttimallien avulla tietoja tilikarttaan sisältyvistä kirjanpitotiedoista. KP-raporttimallit analysoivat kirjanpitotilien lukuja ja vertaavat pääkirjanpidon tapahtumia pääkirjanpidon budjettitapahtumiin. Tulokset näkyvät roolikeskuksen kaavioissa ja raporteissa, kuten kassavirtakaaviossa ja Tuloslaskelma- ja Tase-raporteissa.
 
 Voit käyttää näitä kahta raporttia esimerkiksi liiketoimintajohtajan ja kirjanpitäjän roolikeskusten **Tilinpäätökset** -toiminnon avulla.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] sisältää käyttövalmiita KP-raporttimalleja. Voit myös määrittää itse verrattavat luvut määrittämällä omat rivit ja sarakkeet. Voit esimerkiksi luoda KP-raporttimalleja katteen laskemista varten erilaisille dimensioille, kuten osastoille tai asiakasryhmille. Voit luoda niin monta mukautettua rahoituslaskelmaa kuin haluat.  
+[!INCLUDE[prod_short](includes/prod_short.md)] sisältää KP-raporttimalleja, joita voi käyttää heti. Voit myös määrittää omia rivejä ja sarakkeita määrittääksesi vertailtavat luvut. Voit esimerkiksi luoda KP-raporttimalleja katteen laskemista varten osastojen tai asiakasryhmien kaltaisille dimensioille. Voit luoda niin monta mukautettua rahoituslaskelmaa kuin haluat.  
 
-KP-raporttimallien määrittäminen vaatii tilikartan taloustietojen ymmärtämistä. Voit esimerkiksi tarkastella pääkirjanpidon tapahtumia budjettitapahtumien prosenttiosuuksina. Tämä edellyttää, että budjetit on luotu. Lisätietoja on kohdassa [KP-budjettien luominen](finance-how-create-budgets.md).
+KP-raporttimallien määrittäminen vaatii tilikartan taloustietojen ymmärtämistä. Voit esimerkiksi tarkastella KP-tapahtumien prosenttiosuuksia budjettitapahtumista, mutta se edellyttää, että olet luonut budjetteja. Lisätietoja on kohdassa [KP-budjettien luominen](finance-how-create-budgets.md).
 
 ## <a name="account-schedules"></a>KP-raporttimallit
 
-KP-raporttimalleja käytetään tilikartan tilien järjestämiseksi tavalla, joka sopii kyseisten tilien tietojen esittämiseen. Voit määrittää eri asetteluja määrittääksesi tiedot, jotka haluat suodattaa tilikartasta. Yksi KP-raporttimallien päätehtävistä on toimia paikkana laskelmille, joita ei voi tehdä suoraan tilikartassa. Tällainen laskelma voi olla esimerkiksi tiliryhmien välisummien luominen. Välisummat voi sisällyttää uusiin summiin ja niitä voi käyttää sitten muissa summissa. Käyttäjät voivat esimerkiksi luoda KP-raporttimalleja katteen laskemista varten sellaisille dimensioille kuin osastoille tai asiakasryhmille. Lisäksi pääkirjanpidon tapahtumia ja pääkirjanpidon budjettitapahtumia voi suodattaa esimerkiksi nettomuutoksen tai veloitussumman perusteella.
+KP-raporttimallit järjestävät tilikarttasi tilejä tavoilla, jotka tekevät tiedoista helposti esitettäviä. Voit määrittää eri asetteluja määrittääksesi tiedot, jotka haluat suodattaa tilikartasta. KP-raporttimallit tarjoavat paikan laskelmille, joita ei voi tehdä suoraan tilikartassa. Voit esimerkiksi luoda tiliryhmien välisummia ja sisällyttää ne muihin summiin. Toinen esimerkki on laskea katteita osastojen tai asiakasryhmien kaltaisille dimensioille. Lisäksi pääkirjanpidon tapahtumia ja pääkirjanpidon budjettitapahtumia voi suodattaa esimerkiksi nettomuutoksen tai veloitussumman perusteella.
 
-Voit myös vertailla KP-raporttimalleja ja sarakeasetteluja kaavojen avulla. Tällaisen vertailun avulla voit
+Voit myös vertailla KP-raporttimalleja ja sarakeasetteluja kaavojen avulla, minkä ansiosta voit tehdä seuraavaa:
 
 * luoda mukautettuja raportteja
 * luoda tarvittavan määrän KP-raporttimalleja, joista kullakin on yksilöllinen nimi
@@ -50,19 +50,24 @@ KP-tililuokkien avulla voit muuttaa rahoituslaskelmien asettelua. Kun olet mää
 
 KP-raporttimallien käyttäminen kirjanpitotilien lukujen analysoimista varten tai pääkirjanpidon tapahtumien vertaamiseksi pääkirjanpidon budjettitapahtumiin. Voit esimerkiksi tarkastella KP-tapahtumien prosenttiosuuksia budjettitapahtumista.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen vakioversion KP-raporttimallit perustuvat vakiotalousraportteihin, jotka eivät ehkä vastaa liiketoimintasi tarpeita. Voit nopeasti luoda omia talousraportteja kopioimalla olemassa olevan KP-raporttimallin. Lisätietoja on alla vaiheessa 3.
+[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen vakioversion KP-raporttimallit perustuvat vakiotalousraportteihin, jotka eivät ehkä vastaa liiketoimintasi tarpeita. Voit nopeasti luoda omia talousraportteja kopioimalla olemassa olevan KP-raporttimallin, kuten vaiheessa 3 kuvataan.
 
-**KP-raporttimallin yleiskuvaus** -sivulla voi esikatsella KP-raporttimallin määrittämän talousraportin. Seuraavassa kohdassa on olennaista tiedostaa, että KP-raporttimalleiksi määritetyt rivit ja sarakkeet ovat näkyvissä vain **KP-raporttimallin yleiskuvaus** -sivulla, jossa ne voidaan myös tarkistaa. Tämä sivu avataan KP-raporttimallista valitsemalla **Yleiskuvaus**-toiminto. **KP-raporttimalli**-sivu puolestaan on pelkkä määritysalue.  
+> [!TIP]
+> Kun olet luonut KP-raporttimallin, voit käyttää **KP-raporttimallin yleiskuvaus** -sivua, kun haluat esikatsella ja vahvistaa KP-raporttimallin määrittämän talousraportin. Avaa sivu valitsemalla **Yleiskatsaus**-toiminto.  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KP-raporttimallit** ja valitse sitten vastaava linkki.  
 2. Valitse **KP-raporttimallit**-sivulla **Uusi**-toiminto ja luo uusi KP-raporttimallin nimi.
-3. Voit vaihtoehtoisesti valita **Kopioi KP-raporttimalli**-toiminnon, täyttää kaksi kenttä ja valitse lopuksi **OK**.
+3. Vaihtoehtoisesti voit valita **Kopioi KP-raporttimalli** -toiminnon, jos haluat käyttää uudelleen olemassa olevan KP-raporttimallin asetuksia.
 4. Täytä tarvittavat kentät. Valitse **Sarakeasettelun oletusarvo** -kentässä aiemmin luotu asettelu. Voit muokata sitä tarvittaessa myöhemmin.
 
-    Sarakeasettelujen avulla voi määrittää sarakkeet eri parametrien avulla, taloustiedot näytetään riveillä näiden parametrien perusteella. Voit esimerkiksi suunnitella sarakeasettelun, jossa on neljä saraketta ja jonka avulla voit verrata nettomuutosta ja saldoa samalta kaudelta tältä ja edelliseltä vuodelta. Lisätietoja on kohdassa [Sarakeasettelun muokkaaminen](bi-how-work-account-schedule.md#to-edit-a-column-layout).
+    Sarakeasettelut määrittävät niiden parametrien sarakkeet, joiden mukaan taloustiedot näytetään riveillä. Sarakeasettelu voi sisältää esimerkiksi neljä saraketta, joiden avulla voit verrata nettomuutosta ja saldoa samalta kaudelta tältä ja edelliseltä vuodelta. Lisätietoja on kohdassa [Sarakeasettelun muokkaaminen](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
 5. Valitse **Muokkaa KP-raporttimallia** -toiminto.
-6. Luo kullekin sellaiselle taloushallinnon elementille rivi, jonka haluat nähdä raportissa. Voit esimerkiksi luoda yhden rivin nykyisille vastaaville ja toisen rivin käyttöomaisuudelle. Esimerkkejä on CRONUS-esittely-yrityksen KP-raporttimalleissa.
+6. Sen mukaan, mitä haluat analysoida, valitse toiminto **Syötä KP-tilit**, **Lisää kassavirtatilit** tai **Lisää kustannustyypit** luodaksesi rivin kullekin taloushallinnon elementille. Sinulla voi esimerkiksi olla yksi rivi nykyisille vastaaville ja toinen rivi käyttöomaisuudelle. Esimerkkejä on CRONUS-esittely-yrityksen KP-raporttimalleissa.
+
+    > [!NOTE]
+    > **Rivinumero**-kenttä sisältää tunnuksen, kuten tilinumeron, 10 ensimmäistä merkkiä. Jos lisäät elementtejä, joiden tunnukset alkavat samoilla 10 merkillä, kaksoiskappaleita esiintyy **Rivinumero** -kentässä. Tarvittaessa voit muokata tunnuksia manuaalisesti, kun olet lisännyt elementit. Täydelliset tunnukset näkyvät **Summausväli**-kentässä.
+
 7. Valitsemalla **Yleiskuvaus**-toiminnon saat näkyviin tuloksena olevan raportin.
 8. Valitse **KP-raporttimallin yleiskuvaus** -sivun **Sarakeasettelun nimi** -kentässä toinen sarakeasettelu. Näet nyt toisten parametrien mukaisia taloudellisia tietoja.
 9. Valitse **OK**-painike.
@@ -71,7 +76,7 @@ Olet määrittänyt KP-raporttimallin perusteen, näytettävät taloudelliset ti
 
 ### <a name="to-edit-a-column-layout"></a>Sarakeasettelun muokkaaminen
 
-Määritä sarakeasettelun avulla, mitkä sarakkeet sisältyvät tuloksena olevaan raporttiin. Voit esimerkiksi suunnitella asettelun, jonka avulla voit verrata nettomuutosta ja saldoa samalta kaudelta tältä ja edelliseltä vuodelta. Sarakkeita voi olla korkeintaan 15. Tästä on hyötyä esimerkiksi silloin, kun haluat tarkastella 12 kuukauden budjetteja ja sisällyttää sarakkeen, joka näyttää kokonaissumman.
+Määritä sarakeasettelun avulla, mitkä sarakkeet sisältyvät tuloksena olevaan raporttiin. Voit esimerkiksi suunnitella asettelun, jonka avulla voit verrata nettomuutosta ja saldoa samalta kaudelta tältä ja edelliseltä vuodelta. Sarakkeita voi olla enintään 15, mikä on hyödyllistä esimerkiksi silloin, kun tarkastellaan 12 kuukauden budjetteja, joissa on summan näyttävä sarake.
 
 > [!NOTE]
 > KP-raporttimallin tulostetussa, esikatsellussa tai tallennetussa voi olla esillä enintään viisi saraketta. Jos KP-raporttimalli on tarkoitettu vain **KP-raporttimallin yleiskatsaus** -sivulla analysoitavaksi, voit luoda haluamasi määrän sarakkeita.
@@ -86,7 +91,7 @@ Määritä sarakeasettelun avulla, mitkä sarakkeet sisältyvät tuloksena oleva
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Prosenttilukuja laskevan sarakkeen luominen
 
-Joskus haluat ehkä sisällyttää KP-raporttimalliin sarakkeen, joka laskee prosenttiluvut kokonaissummasta. Jos esimerkiksi eri rivit jakavat myynnin dimensioittain, voit lisätä sarakkeen, joka ilmoittaa kunkin rivin prosenttiosuuden kokonaissummasta.
+Joskus haluat ehkä sisällyttää KP-raporttimalliin sarakkeen, joka laskee prosenttiluvut kokonaissummasta. Jos sinulla esimerkiksi on myynnin dimensioittain eritteleviä rivejä, voit lisätä sarakkeen, joka ilmoittaa kunkin rivin prosenttiosuuden kokonaissummasta.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 2.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KP-raporttimallit** ja valitse sitten vastaava linkki.
 2. Valitse **KP-raporttimallien nimet** -sivulla KP-raporttimalli.  
@@ -119,9 +124,9 @@ Nyt voit kopioida ja liittää budjettierittelyn laskentataulukkoon.
 
 KP-raporttimalli voi verrata eri kirjanpitojaksojen tuloksia, kuten tämän kuun tuloksia edellisen vuoden saman kuukauden tuloksiin. Voit tehdä sen avaamalla **sarakeasettelu**-sivun ja mukauttamalla sen lisäämällä **Vertailujakson kaava** -kentän sarakkeeksi. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md). Tämän jälkeen kenttä voidaan määrittää jakson kaavaksi.  
 
-Kirjanpitojakson ei tarvitse vastata kalenteria, mutta jokaisessa tilikaudessa on oltava sama määrä kirjanpitojaksoja, vaikka jaksot voivatkin olla eripituisia.  
+Kirjanpitojakson ei tarvitse vastata kalenteria. Jokaisessa tilikaudessa on kuitenkin oltava sama määrä kirjanpitojaksoja, vaikka jaksot voivatkin olla eripituisia.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] laskee jakson kaavan avulla vertailujakson summan suhteessa raporttipyynnön päivämääräsuodattimen jaksoon. Vertailujakso perustuu päivämääräsuodatuksen aloituspäivämäärän jaksoon. Jaksomääritysten lyhenteet ovat seuraavat:
+[!INCLUDE[prod_short](includes/prod_short.md)] laskee jakson kaavan avulla vertailujakson summan suhteessa raportin päivämääräsuodattimen jaksoon. Vertailujakso perustuu päivämääräsuodatuksen aloituspäivämäärän jaksoon. Jaksomääritysten lyhenteet ovat seuraavat:
 
 | Lyhenne | Kuvaus                                                                           |
 | ------------ | ------------------------------------------------------------------------------------- |
@@ -150,7 +155,7 @@ Jos haluat laskea tavallisten jaksojen mukaan, syötä kaava sen sijaan **Vertai
 Lisätietoja päivämääräkaavoista on kohdassa [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md).  
 
 ## <a name="import-or-export-account-schedules"></a>KP-raporttimallien tuominen tai vieminen
-Voit tuoda ja viedä KP -raporttimalleja RapidStart-konfigurointipaketteina. Tämä on hyödyllistä esimerkiksi silloin, kun jaat niitä muiden yritysten kanssa. Paketti luodaan .rapidstart-tiedostosssa, joka toimittaa paketin sisällön pakatussa muodossa.
+Voit tuoda ja viedä KP -raporttimalleja RapidStart-konfigurointipaketteina. Esimerkiksi määrityspaketit ovat hyödyllisiä silloin, kun jaat niitä muiden yritysten kanssa. Paketti luodaan .rapidstart-tiedostosssa, joka toimittaa paketin sisällön pakatussa muodossa.
 
 ### <a name="to-import-and-export-account-schedules"></a>KP-raporttimallien tuominen ja vieminen
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 4.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KP-raporttimallit** ja valitse sitten vastaava linkki.

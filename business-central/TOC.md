@@ -440,7 +440,7 @@
 ### [Tuotteiden myyminen](sales-how-sell-products.md)
 ### [Tulosta poimintaluettelo](sales-how-print-picking-list.md)
 ### [Kirjaa myynti](ui-post-sales.md)
-### [Toistuvien myynti- ja ostorivien luominen](sales-how-work-standard-lines.md)
+### [Luo toistuvia myyntirivejä](sales-how-work-standard-lines.md)
 ### [Suoratoimitusten tekeminen](sales-how-drop-shipment.md)
 ### [Erikoistilausten luominen](sales-how-to-create-special-orders.md)
 ### [Myynnin palautusten tai peruutusten käsittely](sales-how-process-sales-returns-cancellations.md)
@@ -472,9 +472,9 @@
 ### [Puiteostotilausten käyttäminen](sales-how-to-create-blanket-sales-orders.md)
 ### [Ulkoisen tiedoston numerot ostoasiakirjoissa](purchasing-ext-doc-no.md)
 ### [Ulkoisen tiedoston numeron antaminen](across-enter-external-document-numbers.md)
+### [Toistuvien ostorivien luonti](purchasing-how-work-recurring-purchase-lines.md)
 
-
-## Varasto
+## Vaihto-omaisuus
 ### [Varaston yleiskuvaus](inventory-manage-inventory.md)
 ### [Varaston ja fyysisen varastoinnin raportit](inventory-WMS-reports.md)
 ### [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)
@@ -1472,6 +1472,7 @@
 #### [Myynnin määrittäminen](sales-setup-sales.md)
 #### [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md)
 #### [Asiakasmaksujen ottaminen käyttöön maksupalvelujen kautta](sales-how-enable-payment-service-extensions.md)
+#### [Hintojen ja alennusten määrittäminen](across-prices-and-discounts.md)
 #### [Erikoismyyntihintojen ja -alennusten kirjaaminen](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Asiakashintaryhmien määrittäminen](sales-how-to-set-up-customer-price-groups.md)
 #### [Asiakasalennusryhmien määrittäminen](sales-how-to-set-up-customer-discount-groups.md)
@@ -1483,9 +1484,11 @@
 ### Oston määrittäminen
 #### [Oston määrittäminen](purchasing-setup-purchasing.md)
 #### [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md)
-#### [Erikoisostohintojen ja -alennusten kirjaaminen](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Toimittajien pankkitilien määrittäminen](purchasing-how-set-up-vendors-bank-accounts.md)
 #### [Toimittajien priorisointi](purchasing-how-prioritize-vendors.md)
 #### [Ostajien määrittäminen](purchasing-how-setup-purchasers.md)
+#### [Hintojen ja alennusten määrittäminen](across-prices-and-discounts.md)
+#### [Erikoisostohintojen ja -alennusten kirjaaminen](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 ### Varastonhallinnan määrittäminen
 #### [Varastonhallinnan määrittäminen](inventory-setup-inventory.md)
 #### [Yleisten varastotietojen määrittäminen](inventory-how-setup-general.md)
@@ -1772,6 +1775,7 @@
 ### [Käyttäjäasetusten ja asetusten hallinta](admin-manage-user-settings-preferences.md)
 ### [Tulostimien määrittäminen](ui-specify-printer-selection-reports.md)
 ### [Tietojen luottamuksellisuuden luokitteleminen](admin-classifying-data-sensitivity.md)
+### [Tietosuojatietojen tila](privacy-notices-status.md)
 ### [Henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen](admin-responding-to-requests-about-personal-data.md)
 ### [Luo uusia yrityksiä](about-new-company.md)
 ### [Lokimuutokset](across-log-changes.md)

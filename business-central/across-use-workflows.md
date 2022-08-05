@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: b7e6574567e07b42187d3e33cfbf7f99e13096f8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 4f66b334df678ff27e094858dd0cec44c1bb8e75
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077369"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130224"
 ---
 # <a name="use-workflows"></a>Käytä työnkulkuja
 
@@ -52,21 +52,21 @@ Työnkulkua ei kuitenkaan hyväksytä, ennen kuin hyväksyjät ovat hyväksyneet
 > [!NOTE]  
 > Ei ole mahdollista luoda useita hyväksyjiä sisältävää työnkulkua ja odottaa, että koko työnkulku hyväksytään, kun ensimmäinen pyyntö on hyväksytty. Kaikki pyynnöt on hyväksyttävä, jotta työnkulku voidaan hyväksyä.
 
-Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät eri käyttäjien suorittamista liiketoimintaprosessin tehtäviä. On myös mahdollista luoda sama työnkulku useammin kuin kerran. Jokainen tapahtuman käynnistämä työnkulku, jossa käytetään eri suodattimia. Tästä on hyötyä, jos yhden osaston hyväksymispyynnön on oltava yhden hyväksyjän hyväksymä, kun taas toisen hyväksyjän on hyväksyttävä muiden osastojen hyväksymispyynnöt. Järjestelmätehtäviä (kuten automaattinen kirjaus) voidaan sisällyttää työnkulkuihin, joita käyttäjän tehtävät edeltävät tai seuraavat. Uusien tietueiden luontiin liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.  
+Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät eri käyttäjien suorittamista liiketoimintaprosessin tehtäviä. On myös mahdollista luoda sama työnkulku useammin kuin kerran. Jokaisen työnkulun voi käynnistää käyttämällä erilaisia käynnistimiä. Tästä on hyötyä, jos yhden osaston hyväksymispyynnön on oltava yhden hyväksyjän hyväksymä, kun taas toisen hyväksyjän on hyväksyttävä muiden osastojen hyväksymispyynnöt. Järjestelmätehtäviä (kuten automaattinen kirjaus) voidaan sisällyttää työnkulkuihin, joita käyttäjän tehtävät edeltävät tai seuraavat. Uusien tietueiden luontiin liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.  
 
- Ennen kuin voit aloittaa työnkulkujen käyttämisen, sinun on määritettävä työnkulun käyttäjät, luotava työnkulut ja tehtävä mahdolliset koodin mukautukset, ja määritettävä miten käyttäjät saavat ilmoituksia. Lisätietoja on kohdassa [Työnkulkujen määrittäminen](across-set-up-workflows.md).  
+Ennen kuin voit aloittaa työnkulkujen käyttämisen, sinun on määritettävä työnkulun käyttäjät, luotava työnkulut ja tehtävä mahdolliset koodin mukautukset, ja määritettävä miten käyttäjät saavat ilmoituksia. Lisätietoja on kohdassa [Työnkulkujen määrittäminen](across-set-up-workflows.md).  
 
 > [!NOTE]  
 > Tavalliset työnkulun osavaiheet liittyvät käyttäjiin, jotka pyytävät hyväksyntää tehtäville, ja hyväksyjiin, jotka hyväksyvät tai hylkäävät pyynnöt. Tämän vuoksi monet työnkulkuihin liittyvät ohjeaiheet liittyvät hyväksyntään.  
 
- Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.  
+ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkeleihin.  
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
 |Määritä työnkulku alkamaan, kun ensimmäinen merkitsevä tapahtuma toteutuu.|[Työnkulkujen ottaminen käyttöön](across-how-to-enable-workflows.md)|  
 |Pyydä tehtävän hyväksyntää, ja hyväksyjänä voit hyväksyä, hylätä tai delegoida hyväksyntöjä sekä lähettää tai tarkastella hyväksyntäilmoituksia.|[Hyväksymistyönkulkujen käyttäminen](across-how-use-approval-workflows.md)|  
 |Luo työnkulun vaiheet, jotka rajoittavat tiettyjen tietuetyyppien käyttöä ennen kuin tietty tapahtuma tapahtuu, esimerkiksi, että tietue on hyväksytty.|[Tietueen käytön rajoittaminen ja salliminen](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
-|Tarkastele Valmis-tilassa olevia työnkulun osavaiheita.|[Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen](across-how-to-view-archived-workflow-step-instances.md)|  
+|Tarkastele **Valmis**-tilassa olevia työnkulun osavaiheita.|[Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen](across-how-to-view-archived-workflow-step-instances.md)|  
 |Poista työnkulku, joka ei ole enää käytössä.|[Työnkulkujen poistaminen](across-how-to-delete-workflows.md)|  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/create-workflows/)

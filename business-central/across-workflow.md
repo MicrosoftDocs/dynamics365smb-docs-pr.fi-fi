@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: 7ea61d359bbdaf0ac788a0fada151fe3e0ad5960
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ab7d131e965b0698c6e33a0b1a43c8f408a7b1b2
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075080"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129900"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Dynamics 365 Business Centralin työnkulut
 
@@ -32,13 +32,13 @@ Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät eri käyttäji
 
 ## <a name="power-automate-flows"></a>Power Automate -työnkulut
 
-[!INCLUDE [prod_short](includes/prod_short.md)] onlinessa voit rekisteröityä Power Automateen ja luoda sitten tehokkaita automatisoituja työnkulkuja, joita voit suorittaa [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman sisältä. Lisätietoja on kohdassa [Käytä [!INCLUDE[prod_short](includes/prod_short.md)] ohjelmaa Power Automate -työnkuluissa](across-how-use-financials-data-source-flow.md).  
+[!INCLUDE [prod_short](includes/prod_short.md)] onlinen avulla voit rekisteröityä Power Automateen ja luoda sitten tehokkaita automatisoituja työnkulkuja, joita voit suorittaa [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman sisältä. Lisätietoja on kohdassa [Käytä [!INCLUDE[prod_short](includes/prod_short.md)] ohjelmaa Power Automate -työnkuluissa](across-how-use-financials-data-source-flow.md).  
 
 ## <a name="automated-approval-workflows"></a>Automaattiset hyväksymistyönkulut
 
 Voit luoda hyväksymistyönkulun luettelemalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan. Työnkulku määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita.  
 
-Jos liiketoimintaskenaario edellyttää työnkulun tapahtumaa tai vastausta, jota oletus versio ei tue, rekisteröidy Power Automateen. Lisätietoja on kohdassa [Käytä [!INCLUDE[prod_short](includes/prod_short.md)] ohjelmaa Power Automate -työnkuluissa](across-how-use-financials-data-source-flow.md). Vaihtoehtoisesti voit hakea sovelluksen tai työskennellä Microsoft-kumppanien kanssa sovelluskoodin mukauttamiseksi.  
+[!INCLUDE[workflow](includes/workflow.md)]
 
 Voit määrittää ja käyttää työnkulkuja, joita ei ole määritetty Power Automatessa tarkistamalla seuraavat artikkelit:  
 

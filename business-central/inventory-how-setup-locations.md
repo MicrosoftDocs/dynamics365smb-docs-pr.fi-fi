@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 870effafbd38cdee0733097fa6fb0c0340fa77b8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 9ed3bc15f8f8b94e842d8c01415b04018e4fc6ec
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077265"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129674"
 ---
 # <a name="set-up-locations"></a>Sijaintien määrittäminen
 
@@ -77,8 +77,7 @@ Jos haluat jäsentää varastopaikat alueiden alla, voit tehdä sen **Alueet**-s
 Voit kuitenkin määrittää vain yhden alueen ja järjestellä fyysisen varaston vain varastopaikkojen mukaisesti. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).  
 
 ## <a name="default-dimensions-for-locations"></a>Sijaintien oletusdimensiot
-
-Määritä oletusdimensiot sijainnille **Sijaintikortti**-sivulle valitsemalla **Sijainti** ja sitten **Dimensiot**. Sijainnin oletusdimensiot kopioidaan päiväkirjoihin ja asiakirjoihin, kun riville määritetään sijainti, mutta rivin dimensiota voi tarvittaessa poistaa tai muuttaa. Voit vaatia, että ihmiset määrittävät dimensiot tietyille sijainneille, ennen kuin he voivat kirjata tapahtuman. Voit myös sisällyttää sijainnin dimensioarvoja kohdissa **Oletusdimensioprioriteetit** ja **Dimensioyhdistelmät** prioriteetti- ja dimensiosääntöjen yhdistelmille.
+Määritä oletusdimensiot sijainnille **Sijaintikortti**-sivulle valitsemalla **Dimensiot**. Tämän jälkeen sijainnin oletusdimensiot määritetään asiakirjoille, kun valitset sijainnin rivillä. Tarvittaessa voit poistaa rivin dimension tai muuttaa sitä. **Arvon kirjaaminen** -kentässä voit vaatia, että ihmiset määrittävät dimensiot sijainneille, ennen kuin he voivat kirjata tapahtuman. Jos haluat, että ihmiset voivat valita vain tietyn dimension valuess, voit määrittää ne **Sallittujen arvojen suodatin** -kentässä. Voit myös sisällyttää sijainnin dimensioarvoja **Oletusdimensioprioriteetit**-sivulle ja prioriteetti- ja dimensiosääntöjen yhdistelmien osalta **Dimensioyhdistelmät**-sivulle.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/trade-set-up-dynamics-365-business-central/)
 

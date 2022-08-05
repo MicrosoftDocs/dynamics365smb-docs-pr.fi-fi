@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 04/12/2022
+ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 98a190594dbd2b37f949bdc51e7f810dd739b769
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: 60943e508e382bbbaa46d92a102a96ad70fed432
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740309"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130116"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen
 
@@ -171,6 +171,21 @@ Voit muokata tai poistaa ALV-lauseen, ja muutokset näkyvät luodussa raportissa
 2. Valitse **Käännökset**-toiminto.  
 3. Valitse **Kielikoodi**-kentässä kieli, jolle käännetään.  
 4. Kirjoita kuvausten käännökset **Kuvaus**- ja **Kuvaus 2** -kenttiin. Tämä teksti näkyy käännetyissä ALV-raporttiasiakirjoissa.  
+
+### <a name="to-specify-extended-text-for-vat-clauses"></a>ALV-lauseiden lisätekstin määrittäminen
+
+> [!NOTE]  
+> Jos maasi tai alueesi vaatii ALV-lausekkeille oletusversion tukemaa pidemmän tekstin, voit määrittää pidemmän tekstin ALV-lausekkeille *lisätekstinä*, jotta se tulostetaan myynti-ja ostoraportteihin.  
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 11.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-lauseet** ja valitse sitten vastaava linkki.  
+2. Valitse **Lisätekstit**-toiminto.  
+3. Täytä **Koodi**- ja **Kuvaus**-kentät.  
+3. Valitse **Uusi**-toiminto.  
+4. Vaihtoehtoisesti voit valita **Kaikki kielikoodit**-kentän tai määrittää haluamasi kielen **Kielikoodi**-kentässä, jos käytät kielikoodeja.  
+5. Anna arvot **Aloituspvm**- ja/tai **Lopetuspvm**-kenttään, jos haluat rajoittaa lisätekstin käyttöpäiviä.  
+6. Kirjoita **Teksti**-riveille ALV-lausekkeidesi lisäteksti.  
+7. Valitse asianmukaiset kentät niitä asiakirjatyyppejä varten, joihin haluat lisätekstin tulostuvan.  
+8. Sulje sivu.  
 
 ## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a>ALV-kirjausten asetukset luominen käsittelemään tuonnin ALV:tä
 
