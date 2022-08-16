@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831
-ms.date: 05/09/2022
+ms.date: 07/27/2022
 ms.author: edupont
-ms.openlocfilehash: 26dbf7e47c0159429aebd34e9167d9c3e7490ec6
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.openlocfilehash: 2b5bba12afb2fbb05dbfd3240088c2726f5d8337
+ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729827"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227497"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Määritä käyttöoikeudet käyttäjille ja ryhmille
 
@@ -82,6 +82,10 @@ Voit määrittää uuden käyttäjäryhmän nopeasti kopioimalla kaikki käyttö
 3. Anna **Uuden käyttäjäryhmän koodi** -kentässä ryhmälle nimi ja valitse sitten **OK**-painike.
 
 Uusi käyttäjäryhmä lisätään **Käyttäjäryhmät**-sivulle. Aloita käyttäjien lisääminen. Lisätietoja on osassa [Käyttäjien lisääminen käyttäjäryhmään](#to-add-users-to-a-user-group).  
+
+> [!IMPORTANT]
+> Saat vahvistusvirheen, jos yrität kohdistaa käyttäjälle käyttäjäryhmää, joka viittaa poistetussa laajennuksessa määritettyyn käyttöoikeuksien joukkoon. Tämä johtuu siitä, että laajennuksen sovellustunnus vahvistetaan joka kerta, kun siihen viitataan. Jos haluat kohdistaa tämän käyttäjäryhmän käyttäjälle, voit joko asentaa laajennuksen uudelleen, poistaa poistetun laajennutuksen viittaukset käyttöoikeuksien joukosta tai poistaa käyttöoikeuksien joukon käyttäjäryhmästä.
+
 
 ### <a name="to-assign-permission-sets-to-user-groups"></a>Käyttöoikeuksien joukkojen määrittäminen käyttäjäryhmille
 
@@ -179,7 +183,7 @@ Käyttöoikeuksien joukot toimivat käyttöoikeuksien säilöinä. Niiden avulla
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöoikeuksien joukot** ja valitse sitten vastaava linkki.
 2. Voit luoda uuden käyttöoikeuksien joukon valitsemalla **Uusi**-toiminnon.
-3. Täytä tarvittavat uuden rivin kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Kun käyttöoikeuksien joukko on luotu, sille on lisättävä todelliset käyttöoikeudet. Lisätietoja on kohdassa [Käyttöoikeuksien luominen tai muuttaminen manuaalisesti](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
+3. Täytä tarvittavat uuden rivin kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Kun olet luonut käyttöoikeuksien joukon, sinun täytyy lisätä todelliset käyttöoikeudet. Lisätietoja on kohdassa [Käyttöoikeuksien luominen tai muuttaminen manuaalisesti](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
 
 ### <a name="to-copy-a-permission-set"></a>Käyttöoikeuksien joukon kopioiminen
 

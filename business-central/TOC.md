@@ -1308,6 +1308,7 @@
 ##### [Raportti 349](LocalFunctionality/Spain/report-349.md)  
 ##### [Raportin 349 luominen](LocalFunctionality/Spain/how-to-create-report-349.md)  
 ##### [Pienyritysten 340-raporttien määrittäminen](LocalFunctionality/Spain/how-to-set-up-340-reports-for-small-businesses.md)
+##### [SII:n määrittäminen ALV-raportointia varten](LocalFunctionality/Spain/sii-setup.md)
 ##### [Telemaattisten ALV-ilmoitusten mallien luominen tekstitiedostona](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)
 ##### [Telemaattisten ALV-ilmoitusten mallien luominen XML-tiedostona](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)
 ##### [ALV-ilmoitusten vienti XML-muodossa](LocalFunctionality/Spain/how-to-export-vat-statements-in-xml-format.md)  
@@ -1328,7 +1329,6 @@
 ##### [Myyntisaamisten Cartera-moduuli](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Maksujen Cartera-moduuli](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII – myynti- ja ostoasiakirjojen lasku- ja hyvityslaskutyypit](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
-##### [SII:n määrittäminen ALV-raportointia varten](LocalFunctionality/Spain/sii-setup.md)
 #### Perusrahoitus
 ##### [Tuloslaskelman saldojen määrittäminen ja sulkeminen](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Tilikartan sisentäminen ja tarkistaminen](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)

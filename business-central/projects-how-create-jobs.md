@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
-ms.date: 04/01/2021
+ms.date: 08/03/2022
 ms.author: edupont
-ms.openlocfilehash: 667cc445ed48bc7cf7d9af67567138a35a730934
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 8d70c11aa3d467ada4f7aae3a1cf3efa1603bbe4
+ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074690"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227470"
 ---
 # <a name="create-jobs"></a>Projektien luominen
 
@@ -43,7 +43,15 @@ Luo projektikortti ja luo sitten projektikortille työtehtävä ja projektin suu
 3. Voit määrittää projektille muiden projektien tiedot valitsemalla **Kopioi projekti** -toiminnon, täyttämällä tarvittavat kentät ja valitsemalla sitten **OK**-painikkeen.
 
 > [!NOTE]  
->   Jos projektissa käytetään aikaraportteja, myös vastuussa oleva henkilö on määritettävä. Tämä henkilö voi hyväksyä työhön liittyvien työntekijätehtävien tuntilomakkeet. Lisätietoja on kohdassa [Aikaraporttien määrittäminen](projects-how-setup-time-sheets.md).
+> Jos projektissa käytetään aikaraportteja, myös vastuussa oleva henkilö on määritettävä. Tämä henkilö voi hyväksyä työhön liittyvien työntekijätehtävien tuntilomakkeet. Lisätietoja on kohdassa [Aikaraporttien määrittäminen](projects-how-setup-time-sheets.md).
+
+Voit halutessasi merkitä projektin toimintoja estetyiksi **Estetty**-kentän avulla Seuraavassa taulukossa kuvataan tämän kentän vaihtoehtojen vaikutukset.
+
+|Asetus  |Kuvaus  |
+|---------|---------|
+|Tyhjä |Kaikki toimenpiteet ovat sallittuja.|
+|Kirjaus    |Voit käsitellä suunnittelurivejä, mutta projekti on suljettu kirjauksilta. Jos valitset tämän vaihtoehdon, projektin käyttöä tai myyntiä ei voi kirjata.|
+|Kaikki  |Kaikki toimenpiteet ovat suljettuja.|
 
 ## <a name="to-create-tasks-for-a-job"></a>Luo projektille tehtäviä
 
