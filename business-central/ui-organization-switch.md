@@ -7,18 +7,20 @@ ms.search.keywords: environments, companies, tenants, organization
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7a874890fe88b32668b309edb43563f8d11e7555
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 0f8c8bf1f9f9c56f1790bf8fd6727eab6977ad3c
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655382"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317352"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Siirtyminen toiseen yritykseen tai ympäristöön
 
 [!INCLUDE [prod_short](includes/prod_short.md)] on saatavilla useissa eri maissa ja tukee monia erityyppisiä organisaatioita. Organisaatiosi voi määrittää kohteen [!INCLUDE [prod_short](includes/prod_short.md)] niin, että sinun täytyy ymmärtää termit *yritys* ja *ympäristö*.  
 
-[!INCLUDE [company_environment](includes/company_environment.md)] Lisätietoja on kohdassa [Uusien yritysten luominen [!INCLUDE[prod_short](includes/prod_short.md)]issa](about-new-company.md).  
+[!INCLUDE [company_environment](includes/company_environment.md)]
+
+Lisätietoa on kohdassa [Uusien yritysten luominen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa](about-new-company.md).  
 
 > [!TIP]
 > Jos siirryt usein yritysten välillä tai työskentelet [!INCLUDE[prod_short](includes/prod_short.md)]issa toisen sovelluksen, kuten Microsoft Teamsin, sisällä, voit helposti unohtaa missä kohdassa olet. Lisäämällä yrityksen nimen sisältävän tunnuksen lisääminen on helppo tarkistaa nopeasti, että olet oikeassa paikassa. Lisätietoja kohdassa [Yrityksen tietojen nopea käyttäminen näyttämällä yrityksen tunnus](ui-change-basic-settings.md#badge).
@@ -32,8 +34,11 @@ Selaimesta riippuen voit myös kiinnittää eri yritykset Suosikit-palkkiin.
 Kun olet kirjautunut [!INCLUDE[prod_short](includes/prod_short.md)]iin, käytettävissä olevat ympäristöt ovat käytettävissä osoitteessa Office.com.  
 
 1. Valitse **Sovelluksen käynnistys** -kuvake ![Sovelluksen käynnistys.](media/app-launcher-icon.png "Sovelluksen käynnistimen avulla voi käyttää myös muita ominaisuuksia").
-2. Jos et näe sovellusta [!INCLUDE[prod_short](includes/prod_short.md)]ille avautuvassa ruudussa, valitse **Office 365**. Syötä sitten **Business Central** **Haku**-kenttään tai valitse **Kaikki sovellukset** > **Yrityssovellukset**.  
-3. Kullekin ympäristölle, kuten tuotannolle ja sandboxille, on luetteloitu yksi [!INCLUDE[prod_short](includes/prod_short.md)] -sovellus. Voit siirtyä toiseen ympäristöön valitsemalla [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen sen tyyppisestä ympäristöstä. Jos tietyn tyyppisiä ympäristöjä on enemmän kuin yksi, sinua pyydetään valitsemaan käytettävä ympäristö.
+2. Etsi ja valitse [!INCLUDE[prod_short](includes/prod_short.md)] avautuvassa ruudussa. Jos et näe kohtaa [!INCLUDE[prod_short](includes/prod_short.md)], valitse **Kaikki sovellukset**, syötä sitten **Business Central** **Haku**-kenttään.
+
+   :::image type="content" source="media/app-launcher-bc-tile.png" alt-text=" Microsoft 365 -sovelluksen käynnistimessä näkyy Business Central -ruutu.":::  
+
+3. Jos ympäristöjä on enemmän kuin yksi, sinua pyydetään valitsemaan käytettävä ympäristö.
 
 <!--
 The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.

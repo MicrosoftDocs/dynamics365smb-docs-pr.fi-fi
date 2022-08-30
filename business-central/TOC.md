@@ -665,6 +665,7 @@
 ### [Synkronoi kaikki kohteet Shopifyn kanssa](shopify/synchronize-items.md)
 ### [Asiakkaiden synkronointi Shopifyn kanssa](shopify/synchronize-customers.md)
 ### [Myyntitilausten synkronoiminen ja täyttäminen Shopifyn kanssa](shopify/synchronize-orders.md)
+### [Määritä Shopify-yhteyden verot](shopify/setup-taxes.md)
 ### [Tehtävien suorittaminen taustalla](shopify/background.md)
 ### [Shopify-yhdistimen vianmääritys](shopify/troubleshoot.md)
 ### [Shopify-yhdistimen UKK](shopify/shopify-faq.md)

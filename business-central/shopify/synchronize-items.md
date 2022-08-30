@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: ad69d58a84926041df1125809f748b9129cc64e2
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: c7aea0d0b3d9a8902e704a2d390d6a244e8cbbef
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808957"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317297"
 ---
 # <a name="synchronize-items-and-inventory"></a>Synkronoi nimikkeet ja varasto
 
@@ -89,6 +89,8 @@ Seuraavien asetusten avulla voit hallita nimikkeiden vientiprosessia:
 |**Varastoa seurataan**|Valitse, miten järjestelmä täyttää Shopifyn vietävien tuotteiden **seuraa varastoa** -kentän. Voit päivittää niiden tuotteiden saatavuustiedot [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmasta Shopifyssa oleville tuotteille, joiden seuranta on otettu käyttöön. Lisätietoja on myös kohdassa [Varasto](synchronize-items.md#sync-inventory-to-shopify).|
 |**Oletusvarastokäytäntö**|Valitse *kiellä*, jos haluat estää Shopify-puolen negatiivisen varaston. |
 |**Voi päivittää Shopify-tuotteita**|Määritä, voiko [!INCLUDE[prod_short](../includes/prod_short.md)] myös luoda nimikkeitä tai päivittää nimikkeitä. Valitse tämä vaihtoehto, jos aiot päivittää nimikkeet manuaalisesti **Lisää nimike** -toiminnon käynnistämän synkronoinnin jälkeen **Synkronoi tuote** -toiminnolla tai toistuvien päivitysten työjonon kautta. Muista valita **Shopifyhin** **Nimikkeen synkronointi** -kentässä.|
+|**Asiakasmallin koodi**|Valitse oletusmalli, jota käytetään hinnan laskennassa. Lisätietoja on ohjeaiheessa [Määritä verot](setup-taxes.md).|
+
 
 ### <a name="fields-mapping-overview"></a>Kenttien yhdistämisen yleiskatsaus
 
@@ -100,7 +102,7 @@ Seuraavien asetusten avulla voit hallita nimikkeiden vientiprosessia:
 |Hakukoneoptimointisivun otsikko|Korjaa arvo: tyhjä, katso [Shopify-tuotteiden Ad-hoc-päivitykset](synchronize-items.md#ad-hock-updates-of-shopify-products). |Ei käytetty.|
 |Hakukoneoptimoinnin metakuvaus|Korjaa arvo: tyhjä, katso [Shopify-tuotteiden Ad-hoc-päivitykset](synchronize-items.md#ad-hock-updates-of-shopify-products). |Ei käytetty.|
 |Media|**Kuva**, lisätietoja on kohdassa [Synkronoi nimikekuvat](synchronize-items.md#sync-item-images)|**Kuva**|
-|Hinta|Loppuasiakkaan hinnan laskenta sisältää nimikkeen hintaryhmän, nimikkeen alennusryhmän, valuuttakoodin ja asiakasmallinkoodin. |Ei käytetty.|
+|Hinta|Loppuasiakkaan hinnan laskenta sisältää nimikkeen hintaryhmän, nimikkeen alennusryhmän, valuuttakoodin ja asiakasmallinkoodin. |**Yksikköhinta**|
 |Vertailuhinta|Hinnan laskenta ilman alennusta sisältää nimikkeen hintaryhmän, nimikkeen alennusryhmän, valuuttakoodin ja asiakasmallinkoodin. |Ei käytetty.|
 |Kustannus per nimike|**Yksikkökustannus**|**Yksikkökustannus**|
 |Varastointiyksikkö|Katso **Varastointiyksikön yhdistämismääritykset** kohdassa [vie nimikkeitä Shopifyhin](synchronize-items.md#export-items-to-shopify)| Katso [Miten Shopify-tuotteessa määritellyt varastointiyksikkö ja viivakoodi vaikuttavat kartoitukseen ja tuotteiden ja muunnelmien luomiseen](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
@@ -111,7 +113,7 @@ Seuraavien asetusten avulla voit hallita nimikkeiden vientiprosessia:
 |Toimittaja|Toimittajan **nimi** **Toimittajan nro**-kohteesta |**Toimittajan nro** Linkitys nimen mukaan.|
 |Paino|**Bruttopaino**.|Ei käytetty.|
 |Verotettava|Vakioarvo: käytössä.|Ei käytetty.|
-|Verokoodit|**Veroryhmän koodi**. Koskee vain myyntiveroja. Lisätietoja on ohjeaiheessa [Verot](synchronize-orders.md#tax-remarks). |Ei käytetty.|
+|Verokoodit|**Veroryhmän koodi**. Koskee vain myyntiveroja. Lisätietoja on ohjeaiheessa [Määritä verot](setup-taxes.md). |Ei käytetty.|
 
 ### <a name="tags"></a>Tunnisteet
 
@@ -197,7 +199,7 @@ Synkronoitujen nimikkeiden hinnat voidaan viedä alla kuvatulla tavalla.
 
 ### <a name="price-calculation-remarks"></a>Hintalaskennan huomautukset
 
-* Hinnan laskennassa on tärkeää, että **oletusasiakasmalli** -kentässä on arvo. [!INCLUDE[prod_short](../includes/prod_short.md)] käyttää **VAT-yritysryhmä**-kenttää laskiessaan ALV:n sisältävän hinnan. Haluat ehkä luoda asiakashintaryhmän, jossa valitset **ALV:n sisältävä hinta** -kentän ja määrität asianmukaisen arvon **Liiketoim. ALV-kirjryh. (Hinta)** -kentässä.
+* Hinnan laskennassa on tärkeää, että **oletusasiakasmalli** -kentässä on arvo. Lisätietoja on ohjeaiheessa [Määritä verot](setup-taxes.md).
 * Syötä **Valuuttakoodi**, jos verkkokauppa käyttää eri valuuttaa kuin paikallinen valuutta. Määritetyllä valuutalla on oltava määritettynä vaihtokurssit. Jos verkkokauppa käyttää samaa valuuttaa kuin [!INCLUDE[prod_short](../includes/prod_short.md)], jätä kenttä tyhjäksi.
 * Hinnan määrittämisessä [!INCLUDE[prod_short](../includes/prod_short.md)] käyttää "alin hinta" -logiikkaa. Se tarkoittaa sitä, että jos nimikekortissa määritetty yksikköhinta on pienempi kuin hintaryhmässä määritetty, ohjelma käyttää nimikekortin yksikköä.
 

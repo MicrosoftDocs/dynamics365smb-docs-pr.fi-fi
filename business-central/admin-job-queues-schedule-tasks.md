@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9ed56b0724b19d971b8dc98ea79807423403fd83
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 081f900836f97d6630608aade4251272ee1a1ff1
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129763"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317432"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Käytä työjonoja ajoitustehtäviin
 
-Työjonojen avulla käyttäjät voivat ajoittaa ja suorittaa tiettyjä raportteja ja codeuniteja. Voit määrittää töitä suoritettavaksi yhtä aikaa tai toistuvasti. Voit esimerkiksi haluta suorittaa **Myyjän * myyntitilasto** -raportin viikoittain ja seurata näin myyjäkohtaista viikkomyyntiä. Vaihtoehtoisesti voit suorittaa **Delegoi hyväksymispyynnöt** -codeunitin päivittäin, jolloin asiakirjoja ei kasaudu odottamaan käsittelyä.
+Työjonojen avulla käyttäjät voivat ajoittaa ja suorittaa tiettyjä raportteja ja codeuniteja. Voit määrittää töitä suoritettavaksi yhtä aikaa tai toistuvasti. Voit esimerkiksi haluta suorittaa **Myyjä - myyntitilasto** -raportin viikoittain ja seurata näin myyjäkohtaista viikkomyyntiä. Vaihtoehtoisesti voit suorittaa **Delegoi hyväksymispyynnöt** -codeunitin päivittäin, jolloin asiakirjoja ei kasaudu odottamaan käsittelyä.
 
 **Työjonon tapahtumat** -sivulla on luettelo kaikista aiemmin luoduista töistä. Jos lisäät uuden työjonotapahtuman, jonka haluat ajoittaa, sinun on annettava joitakin tietoja. Esimerkki:
 * Suoritettavan objektin tyyppi, kuten raportti tai codeunit. Sinulla on oltava oikeus suorittaa kulloinenkin raportti tai codeunit.
