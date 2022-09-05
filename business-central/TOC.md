@@ -296,6 +296,7 @@
 #### [Asiakkaiden estäminen](receivables-how-block-customers.md)
 #### [Maksutoleranssien ja maksualennustoleranssien käsitteleminen](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Myöhästyneen maksun ennusteen laajennus](ui-extensions-late-payment-prediction.md)
+#### [Myyntivero Business Centralin oletusversiossa](sales-tax-concept.md)
 
 ### Ostovelkojen hallinta
 #### [Ostovelkojen yleiskatsaus](payables-manage-payables.md)

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: 6619789b38cc8dc33e7985f35d77075df4914ad2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 3d7162b3035188539fba92a677659dd7803c340f
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074924"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362019"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Maksutoleranssien ja maksualennustoleranssien käsitteleminen
 
@@ -44,7 +44,7 @@ Lisätietoja on kohdassa [Maksutoleranssin varoitusten käyttöönotto tai käyt
 
 ## <a name="to-set-up-tolerances"></a>Toleranssien määrittäminen
 
-Toleranssi päivillä ja summilla sallii laskun sulkemisen vaikka maksu ei täysin kata laskun summaa, johtuu tämä sitten maksualennuspäivän ylittämisestä, virheellisten tavaroiden aiheuttamasta vähennyksestä tai pienestä virheestä. Tämä pätee myös hyvityksiin ja hyvityslaskuihin.  
+Päivä- ja määrätoleranssi sallii sinun sulkea laskun, vaikka maksu ei täysin kata laskun summaa. Esimerkiksi koska maksualennuksen eräpäivä on ylitetty, tavarat on vähennetty tai pienen virheen vuoksi. Tämä pätee myös hyvityksiin ja hyvityslaskuihin.  
 
 Määrittääksesi toleranssin sinun tulee määrittää useita toleranssitilejä, sekä maksualennustoleranssin että maksutoleranssin kirjaustavat ja sitten ajaa **Muuta maksutoleranssia** -eräajo  
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleiset kirjausasetukset** ja valitse sitten vastaava linkki.  
@@ -57,17 +57,21 @@ Määrittääksesi toleranssin sinun tulee määrittää useita toleranssitilej�
 8. Avaa **Pääkirjanpidon asetukset** -sivu.  
 9. Täytä **Kohdistus** -pikavälilehdessä **Maksualennustoleranssin kirjaaminen**-, **Maksualennuksen ylityskausi**- ja **Maksutoleranssin kirjaus** -kentät.   
 10. Valitse **Muuta maksutoleranssia** -toiminto.
+
+    > [!NOTE]
+    > Kun valitset **asiakaskortti**-sivun **sovellustapa**-kentässä **Kohdista vanhimpaan**, [!INCLUDE[prod_short](includes/prod_short.md)] ei kirjaa maksun toleransseja automaattisesti, vaikka ne olisivat **Pääkirjanpidon asetukset** -sivulla määritettyjen kynnysarvojen sisäpuolella. [!INCLUDE[prod_short](includes/prod_short.md)] olettaa, että Kohdista vanhimpaan -asetus ilmaisee, että asiakkaalla (tai asiakkaan toimittajalla) on tili, jossa hän maksaa saldon säännöllisesti. Tämän vuoksi jäljellä olevia maksuja ei tulisi poistaa kirjaamalla maksutoleranssitapahtuma.
+
 11. Täytä **Muuta maksutoleranssia** -sivulla **Maksutoleranssi %**- ja **Maksimi maksutoleranssisumma** -kentät ja valitse **OK**.
 
 > [!IMPORTANT]  
->  Nyt olet määrittänyt maksutoleranssin vain paikalliselle valuutalle. Jos haluat, että [!INCLUDE[prod_short](includes/prod_short.md)] käsittelevän maksujen, hyvityslaskujen ja hyvitysten toleransseja ulkomaan valuuttana, sinun on tehtävä **Muuta maksutoleranssia** -eräajo **Valuuttakoodi**-kentän arvolla.  
+> Nyt olet määrittänyt maksutoleranssin vain paikalliselle valuutalle. Jos haluat, että [!INCLUDE[prod_short](includes/prod_short.md)] käsittelevän maksujen, hyvityslaskujen ja hyvitysten toleransseja ulkomaan valuuttana, sinun on tehtävä **Muuta maksutoleranssia** -eräajo **Valuuttakoodi**-kentän arvolla.  
 
 > [!NOTE]  
->  Mikäli haluat saada maksutoleranssivaroituksen joka kerran kun kirjaat kohdistuksen, joka osuu toleranssialueelle, sinun tulee aktivoida maksualennusvaroitus. Lisätietoja on kohdassa [Maksutoleranssin varoituksen ottaminen käyttöön tai poistaminen käytöstä](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
+> Saadaksesi maksutoleranssivaroituksen joka kerran kun kirjaat kohdistuksen, joka osuu toleranssialueelle, sinun tulee aktivoida maksualennusvaroitus. Lisätietoja on kohdassa [Maksutoleranssin varoituksen ottaminen käyttöön tai poistaminen käytöstä](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
->  Jos haluat poistaa toleranssin käytöstä asiakkaalta tai toimittajalta, toleranssit on estettävä kyseisen asiakkaan tai toimittajan kortissa. Lisätietoja on kohdassa [Asiakkaiden maksutoleranssin estäminen](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
+> Jos haluat poistaa toleranssin käytöstä asiakkaalta tai toimittajalta, estä toleranssit kyseisen asiakkaan tai toimittajan kortissa. Lisätietoja on kohdassa [Asiakkaiden maksutoleranssin estäminen](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
->  Kun määrität toleranssin, [!INCLUDE[prod_short](includes/prod_short.md)] tarkastaa onko avoimia tapahtumia ja laskee toleranssin myös näille tapahtumille.
+> Kun määrität toleranssin, [!INCLUDE[prod_short](includes/prod_short.md)] tarkastaa onko avoimia tapahtumia ja laskee toleranssin myös näille tapahtumille.
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Maksutoleranssivaroitusten ottaminen käyttöön tai poistaminen käytöstä
 
@@ -76,7 +80,7 @@ Maksutoleranssivaroitus ilmestyy, kun kirjaat kohdistuksen, jonka saldo mahtuu s
 2. Voit ottaa varoituksen käyttöön laittamalla **Pääkirjanpidon asetukset** -sivun **Kohdistus**-pikavälilehden **Maksutoleranssin varoitus** -kytkimen päälle. Voit poistaa varoituksen käytöstä laittamalla kytkimen pois päältä.  
 
 > [!NOTE]  
->  Oletusarvon mukainen vaihtoehto **Maksutoleranssin varoitus** -sivulla on **Jätä saldo jäljelläolevaksi summaksi**. Oletusarvon mukainen vaihtoehto **Maksualennustoleranssin varoitus** -sivulle on **Älä hyväksy myöhästynyttä maksualennusta**.
+> Oletusarvon mukainen vaihtoehto **Maksutoleranssin varoitus** -sivulla on **Jätä saldo jäljelläolevaksi summaksi**. Oletusarvon mukainen vaihtoehto **Maksualennustoleranssin varoitus** -sivulle on **Älä hyväksy myöhästynyttä maksualennusta**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Maksutoleranssin estäminen asiakkailta
 
@@ -86,7 +90,7 @@ Oletusarvo maksutoleranssiasetukselle on sallittu. Estääksesi tietyn asiakkaan
 2. Valitse **Maksut**-pikavalintalehdessä **Estä maksutoleranssi** -valintaruutu.  
 
 > [!NOTE]  
->  Jos asiakkaalla tai toimittajalla on avoimia tapahtumia, sinun on ensin poistettava maksutoleranssi avoimista tapahtumista.
+> Jos asiakkaalla tai toimittajalla on avoimia tapahtumia, sinun on ensin poistettava maksutoleranssi avoimista tapahtumista.
 
 ## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Esimerkki 1 – Yksittäisen asiakirjan toleranssilaskennat
 
@@ -164,7 +168,7 @@ Normaalit kohdistussäännöt
 
 ## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Esimerkki 2 – Useiden asiakirjojen toleranssilaskelmat
 
-Seuraavassa on muutamia esimerkkejä oletetuista toleranssilaskelmista ja kirjauksista, erilaisissa tilanteissa. Nämä esimerkit rajoittuvat vain tilanteisiin, joissa kaikki kohdistettavat tapahtumat suljetaan.  
+Seuraavassa muutamia esimerkkejä oletetuista toleranssilaskelmista ja kirjauksista, erilaisissa tilanteissa. Nämä esimerkit rajoittuvat vain tilanteisiin, joissa kaikki kohdistettavat tapahtumat suljetaan.  
 
 **Pääkirjanpidon asetukset** -sivulla on seuraavat asetukset:
 - Maksutoleranssin ylityskausi 5P  

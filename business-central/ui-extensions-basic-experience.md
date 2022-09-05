@@ -7,16 +7,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: C5, financials, extension
+ms.search.form: 20600,
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1ddb4468bda648b0368551ecb8cdbc6167cf4778
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 4304a42f865086de3337deb3a49b1f1512e0e201
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381670"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362219"
 ---
 # <a name="the-basic-experience-extension"></a>Peruskokemuksen laajennus
+
 Jos olet käyttänyt Microsoft Dynamics C5:tä, Microsoft-kumppanit voivat auttaa siirtymisessä moderniin ratkaisuun, joka perustuu [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan, joten voit edelleen nauttia samoista selkeistä ominaisuuksista kuin Dynamics C5:ssä.
 
 Laajennus on tarkoitettu pienille yrityksille, ja se voi tukea enintään kolmea käyttäjää. Jos tarvitset lisää käyttäjiä, sinun on päivitettävä [!INCLUDE[prod_short](includes/prod_short.md)]:n käyttöoikeus ja poistettava tämän laajennuksen asennus.
@@ -25,6 +27,7 @@ Laajennus on tarkoitettu pienille yrityksille, ja se voi tukea enintään kolmea
 > Tällä hetkellä tämä laajennus on saatavilla vain asiakkaille Tanskassa ja Islannissa. 
 
 ## <a name="whats-available"></a>Mitä on saatavilla
+
 Seuraavassa taulukossa on kuvattu ominaisuudet, jotka ovat käytettävissä, jos asennat peruskokemukseen laajennuksen.
 
 |Alue  |Toiminnallisuus  |
@@ -36,6 +39,7 @@ Seuraavassa taulukossa on kuvattu ominaisuudet, jotka ovat käytettävissä, jos
 |**Varasto** |Perusvarasto, nimikkeen korvaukset, nimikkeen viittaus |
 
 ## <a name="getting-started"></a>Aloitusopas
+
 Tämä laajennus on hieman erilainen kuin useimmat, ja tarvitset apua Microsoft-kumppanilta laajennuksen asennukseen ja määrittämiseen. Jotta tiedät mitä odottaa, tässä on korkean tason näkymä siitä, mitä Microsoft-kumppani tekee.
 
 1. Uuden [!INCLUDE[prod_short](includes/prod_short.md)] vuokraajan luominen. Tämä voi olla joko kokeiluversio tai CSP-versio.
@@ -46,9 +50,11 @@ Tämä laajennus on hieman erilainen kuin useimmat, ja tarvitset apua Microsoft-
 6. Lataa ja asenna peruskokemuksen laajennus AppSourcesta.
 
 ## <a name="migrating-data"></a>Tietojen siirto
+
 Tuo Dynamics C5 -tiedot mukana. Kun Microsoft-kumppani on asentanut peruskokemuslaajennuksen, sinulla on tyhjä yritys. Helppo tapa siirtää tietoja Dynamics C5:stä peruskokemukseen on käyttää C5 Data Migration -laajennusta, joka sisältyy [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan. Laajennus siirtää asiakkaat, toimittajat, nimikkeet ja pääkirjanpidon tilit sekä niiden tapahtumat.
 
 ## <a name="see-also"></a>Katso myös
-[Tietojen siirron C5-laajennus](ui-extensions-c5-data-migration.md)
+
+[Tietojen siirron C5-laajennus](ui-extensions-c5-data-migration.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

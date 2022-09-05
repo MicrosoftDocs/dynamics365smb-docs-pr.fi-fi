@@ -6,22 +6,23 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms. search.keywords: app, add-in, manifest, customize, import, implement
+ms.search.keywords: app, add-in, manifest, customize, import, implement
+ms.search.form: 1911, 1912, 1913, 1914, 1915, 1916, 1918, 1919
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 0b608fb83b643e548b5400c6339ce35e09e5617f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 99a7e12543751fef0297051a64f19c2fb5700022
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078516"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361634"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>QuickBooks-tietojen siirtolaajennus
 
 Tämän laajennuksen avulla asiakkaat, toimittajat, nimikkeet ja tilit on helppo siirtää QuickBooksista [!INCLUDE[prod_short](includes/prod_short.md)]iin. Jos yrityksessä on käytössä QuickBooks, voit viedä tarpeelliset tiedot ja ladata ne sitten [!INCLUDE[prod_short](includes/prod_short.md)]iin avaamalla avustetun asennusoppaan.  
 Lisätietoja on kohdassa [Tietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md).
 
-## <a name="data-from-quickbooks-desktop"></a>Tietoja QuickBooks Desktopista
+## <a name="data-from-quickbooks-desktop"></a>QuickBooks Desktopin tiedot
 
 Voit tuoda seuraavat tiedot QuickBooks Onlinesta Business Centraliin:
 
@@ -38,7 +39,7 @@ Myynti- ja ostoasiakirjoissa vain täydet summat siirretään. Osittain maksettu
 > [!NOTE]
 > Osto- tai myyntitilauksia ei siirretä.
 
-## <a name="before-you-start"></a>Ennen aloittamista
+## <a name="before-you-start"></a>Ennen kuin aloitat
 
 Siirtoprosessiin olennaisesti kuuluva osa on määrittää tilit, joihin tapahtumat siirretään. Nämä yhdistämismääritykset on hyvä suunnitella ennen tietojen siirtoa. Kyse on esimerkiksi tileistä, joille seuraavat tapahtumat kirjataan:
 
@@ -71,6 +72,5 @@ Tarkista pääkirjanpidon tilien alkusaldot. QuickBooks ei tallenna kaikkien til
 
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

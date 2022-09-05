@@ -4,15 +4,16 @@ description: Määritä ja suorita myyntitilauksen tuonti ja käsittely Shopifys
 ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
+ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30124, 30125, 30128, 30129, 30130, 30131, 30132, 30133, 30134,
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: bef02c5fcbc2b6174e8a3f746a97f0e11564dcf6
-ms.sourcegitcommit: 902da19b0ab7a3fbc051cd69ab2802f30d0f378f
+ms.openlocfilehash: 3a8f6b2188c2a315bbed1ef99e23b6bbfafae40f
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/01/2022
-ms.locfileid: "9213687"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361390"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Myyntitilausten synkronoiminen ja täyttäminen
 
@@ -35,7 +36,7 @@ Ota käyttöön **Automaattiset tilaukset**, joiden avulla voit luoda myyntiasia
 
 **Toimitustavan koodi** Shopifysta tuoduille myyntiasiakirjoille, voidaan täyttää automaattisesti. **Toimitusehdon yhdistämismääritys** täytyy määrittää.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeeseen, syötä **Shopify-myymälät** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Shopify-kaupat** ja valitse sitten vastaava linkki.
 2. Valitse kauppa, jolle haluat määrittää kartoituksen avataksesi **Shopify-kauppa-kortti**-sivun.
 3. Valitse **Lähetystavan kartoitus** -toiminto. Tämä luo automaattisesti tietueet toimitustavoille, jotka on määritetty **Shopify-hallintaportaalisi** [**Toimitus**](https://www.shopify.com/admin/settings/payments)-asetuksissa.
 4. **Nimi**-kentässä voit nähdä toimitus tavan nimen Shopifysta.

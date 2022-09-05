@@ -5,14 +5,15 @@ ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
+ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135,
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: 64fae9efdda832f14593564b9a19101d120c9712
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: e59dd0dcf757fbcf76d4068756adfe7bc9475f54
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808931"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361553"
 ---
 # <a name="get-started-with-the-shopify-connector"></a>Shopifyn yhdistimen käytön aloittaminen
 
@@ -26,26 +27,26 @@ Shopify-yhdistin sisältää seuraavat ominaisuudet:
 - Nimikkeiden tai tuotteiden kaksisuuntainen synkronointi  
 
   - Yhdistin synkronoi kuvia, nimikemuunnoksia, viivakoodeja, toimittajan nimikenumeroita, laajennettuja tekstejä ja tunnisteita.  
-  - Nimikemääritteiden vienti Shopifyhin.  
-  - Käytä valittuja asiakashintaryhmiä ja alennuksia määrittääksesi Shopifyhin vietyjä hintoja.  
-  - Päätä, voidaanko nimikkeitä luoda automaattisesti vai sallitaanko vain päivitykset aiemmin luotuihin tuotteisiin.  
+  -    Nimikemääritteiden vienti Shopifyhin.  
+  -    Käytä valittuja asiakashintaryhmiä ja alennuksia määrittääksesi Shopifyhin vietyjä hintoja.  
+  -    Päätä, voidaanko nimikkeitä luoda automaattisesti vai sallitaanko vain päivitykset aiemmin luotuihin tuotteisiin.  
 - Varastotasojen synkronointi  
 
-  - Valitse joitakin [!INCLUDE [prod_short](../includes/prod_short.md)] -ohjelmassa käytettävissä olevista sijainneista tai ne kaikki.  
-  - Päivitä usean sijainnin varastotasot Shopifyssa.  
+  -    Valitse joitakin [!INCLUDE [prod_short](../includes/prod_short.md)] -ohjelmassa käytettävissä olevista sijainneista tai ne kaikki.  
+  -    Päivitä usean sijainnin varastotasot Shopifyssa.  
 - Asiakkaiden kaksisuuntainen synkronointi  
 
-  - Kohdista asiakkaat älykkäästi puhelinnumeron ja sähköpostiosoitteen perusteella.  
-  - Käytä maakohtaisia malleja asiakkaiden luomisessa, mikä auttaa varmistamaan, että veroasetukset ovat oikein.  
+  -    Kohdista asiakkaat älykkäästi puhelinnumeron ja sähköpostiosoitteen perusteella.  
+  -    Käytä maakohtaisia malleja asiakkaiden luomisessa, mikä auttaa varmistamaan, että veroasetukset ovat oikein.  
 - Tilausten tuonti Shopifysta  
 
-  - Tuonnin aikana voit luoda automaattisesti asiakkaita [!INCLUDE [prod_short](../includes/prod_short.md)] -ohjelmassa tai päättää hallita asiakkaita Shopifyssa.  
-  - Sisällytä muissa kanavissa, kuten Shopifyssa tai Amazonissa, luotuja tilauksia.  
-  - Toimituskulut, lahjakortit, vinkit, toimitus- ja maksutavat, tapahtumat ja petosriski.  
+  -    Tuonnin aikana voit luoda automaattisesti asiakkaita [!INCLUDE [prod_short](../includes/prod_short.md)] -ohjelmassa tai päättää hallita asiakkaita Shopifyssa.  
+  -    Sisällytä muissa kanavissa, kuten Shopifyssa tai Amazonissa, luotuja tilauksia.  
+  -    Toimituskulut, lahjakortit, vinkit, toimitus- ja maksutavat, tapahtumat ja petosriski.  
   - Vastaanota maksusuoritustietoja Shopify Paymentsista.  
 - Täyttämistietojen helppo seuranta  
 
-  - Voit halutessa valita nimikeseurantatietojen kirjoittamisen [!INCLUDE [prod_short](../includes/prod_short.md)] -ohjelmasta Shopifyhin.  
+  -    Voit halutessa valita nimikeseurantatietojen kirjoittamisen [!INCLUDE [prod_short](../includes/prod_short.md)] -ohjelmasta Shopifyhin.  
 
 Jos haluat käyttää Shopifyta yhdessä [!INCLUDE [prod_short](../includes/prod_short.md)] -ohjelman kanssa, sinun on ensin tehtävä joitakin asioita. Tämä artikkeli toimii oppaana, jonka avulla voit viimeistellä Shopify-kaupan integroinnin [!INCLUDE [prod_short](../includes/prod_short.md)] -ohjelman kanssa.
 
