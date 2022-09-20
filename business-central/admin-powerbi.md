@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.search.form: 6316, 6317
 ms.reviewer: edupont
-ms.date: 04/01/2021
+ms.date: 08/30/2022
 ms.author: jswymer
-ms.openlocfilehash: c1935c51fbcabfc0371530532f18b2aaf6005dbb
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0742320b4cb334b3c01c86ec0e10ec82114bd215
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511803"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460697"
 ---
-# <a name="prod_short-and-power-bi"></a>[!INCLUDE[prod_short](includes/prod_short.md)] ja Power BI
+# <a name="introduction-to-prod_short-and-power-bi"></a>[!INCLUDE[prod_short](includes/prod_short.md)]-sovelluksen ja Power BI:n esittely
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -tiedoista saa kätevästi merkityksellisiä tietoja Microsoftin tietojen visualisointiin käytetyn [Power BI:n](https://powerbi.microsoft.com). Power BI noutamista [!INCLUDE[prod_short](includes/prod_short.md)] -tiedoista voidaan muodostaa tietoihin perustuvia koontinäyttöjä ja raportteja. Power BI on joustava vaihtoehto [!INCLUDE[prod_short](includes/prod_short.md)]in raporteille, sillä sen avulla voi porautua tietoja ja mukauttaa visualisointia sekä jopa yhdistää tietoja [!INCLUDE[prod_short](includes/prod_short.md)]in eri yrityksistä. Jotkin Power BI -raportit voidaan myös upottaa Business Centraliin, jossa niitä voidaan tarkastella järjestelmästä poistumatta. Monimutkaisia koontinäyttöjä kannattaa kuitenkin tarkastella Power BI -sivustossa.
 
@@ -30,14 +30,15 @@ ms.locfileid: "8511803"
 
 |Ominaisuus|Kuvaus|Online|Paikallinen|Lisätietoja|
 |-------|-----------|--------------|-----------|----------------|
-|[!INCLUDE[prod_short](includes/prod_short.md)] -tietojen näyttäminen Power BI:ssa|Voit tarkastella [!INCLUDE[prod_short](includes/prod_short.md)]in tietoja Power BI -raporteissa. [!INCLUDE[prod_short](includes/prod_short.md)] online sisältää muutamia esimääritettyjä Power BI -raportteja. Organisaatiolla voi lisäksi olla joitakin valmiita mukautettuja raportteja.|![Toimii verkossa.](media/check.png)|![Toimii paikallisesti](media/check.png)|[Katso...](across-working-with-business-central-in-powerbi.md)|
-|Power BI -raporttien näyttäminen [!INCLUDE[prod_short](includes/prod_short.md)] -asiakasohjelmassa.| [!INCLUDE[prod_short](includes/prod_short.md)] -tietoja näyttävät Power BI -raportit voidaan upottaa suoraan osien [!INCLUDE[prod_short](includes/prod_short.md)] -sivuille. Osan voi vaihtaa näyttämään minkä tahansa käytettävissä olevan raportin. |![toimii verkossa.](media/check.png)|![Toimii paikallisesti](media/check.png)<sup>[*](#onprem)</sup>|[Katso...](across-working-with-powerbi.md).|
-|Voit luoda Power BI:ssa raportteja ja koontinäyttöjä, joissa näytetään [!INCLUDE[prod_short](includes/prod_short.md)] -tietoja.|Voit luoda omia raportteja ja koontinäyttöjä Power BI Desktopissa. Voit julkaista raportit omaan Power BI -palveluun tai jakaa ne muiden kanssa organisaatiossa.|![Toimii verkossa.](media/check.png)|![toimii paikallisesti](media/check.png)|[Katso...](across-how-use-financials-data-source-powerbi.md)
-|[!INCLUDE[prod_short](includes/prod_short.md)] -sovellukset Power BI:ssa| [!INCLUDE[prod_short](includes/prod_short.md)] julkaisee Microsoft AppSource kolme Power BI -sovellusta. Nämä sovellukset luovat yksityiskohtaisia raportteja ja koontinäyttöjä Power BI -palvelussa [!INCLUDE[prod_short](includes/prod_short.md)] -tietojen tarkastelua varten. Käytettävissä olevat sovellukset: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] – CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] – Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] – Sales </li></ul>  |![Toimii verkossa.](media/check.png)||[Katso...](across-powerbi-business-central-apps.md)
+|[!INCLUDE[prod_short](includes/prod_short.md)] -tietojen näyttäminen Power BI:ssa|Voit tarkastella [!INCLUDE[prod_short](includes/prod_short.md)]in tietoja Power BI -raporteissa. [!INCLUDE[prod_short](includes/prod_short.md)] online sisältää muutamia esimääritettyjä Power BI -raportteja. Organisaatiolla voi lisäksi olla joitakin valmiita mukautettuja raportteja.|![Toimii verkossa.](media/check.png)|![Toimii paikallisesti](media/check.png)|[Täällä...](across-working-with-business-central-in-powerbi.md)|
+|Power BI -raporttien näyttäminen [!INCLUDE[prod_short](includes/prod_short.md)] -asiakasohjelmassa.| [!INCLUDE[prod_short](includes/prod_short.md)] -tietoja näyttävät Power BI -raportit voidaan upottaa suoraan osien [!INCLUDE[prod_short](includes/prod_short.md)] -sivuille. Osan voi vaihtaa näyttämään minkä tahansa käytettävissä olevan raportin. |![toimii verkossa.](media/check.png)|![Toimii paikallisesti](media/check.png)<sup>[*](#onprem)</sup>|[Täällä...](across-working-with-powerbi.md).|
+|Voit luoda Power BI:ssa raportteja ja koontinäyttöjä, joissa näytetään [!INCLUDE[prod_short](includes/prod_short.md)] -tietoja.|Voit luoda omia raportteja ja koontinäyttöjä Power BI Desktopissa. Voit julkaista raportit omaan Power BI -palveluun tai jakaa ne muiden kanssa organisaatiossa.|![Toimii verkossa.](media/check.png)|![toimii paikallisesti](media/check.png)|[Täällä...](across-how-use-financials-data-source-powerbi.md)|
+|[!INCLUDE[prod_short](includes/prod_short.md)] -sovellukset Power BI:ssa| [!INCLUDE[prod_short](includes/prod_short.md)] julkaisee Microsoft AppSource kolme Power BI -sovellusta. Nämä sovellukset luovat yksityiskohtaisia raportteja ja koontinäyttöjä Power BI -palvelussa [!INCLUDE[prod_short](includes/prod_short.md)] -tietojen tarkastelua varten. Käytettävissä olevat sovellukset: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] – CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] – Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] – Sales </li></ul>  |![Toimii verkossa.](media/check.png)||[Täällä...](across-powerbi-business-central-apps.md)|
+|[!INCLUDE [prod_short](includes/prod_short.md)]-tietojen käsitteleminen tietovarastoissa ja tietovoissa|Heinäkuusta 2022 lähtien voit käyttää [!INCLUDE [prod_short](includes/prod_short.md)]-yhdistintä Power Query Onlinessä tietovoiden jakamiseen eri raporttien ja koontinäyttöjen välillä.|[Täällä...](across-powerbi-business-central-apps.md)|
 
 <a name="onprem"><sup>*</sup></a> Tätä ominaisuutta varten tarvitaan Microsoft Azuressa rekisteröity Business Centralin sovellus. Lisätietoja on kohdassa [Paikallisen Business Centralin rekisteröinti Azure AD:ssä muiden palvelujen integrointia varten](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## <a name="getting-ready-to-use-power-bi"></a>Power BI:n valmistelu käyttöä varten
+## <a name="get-ready-to-use-power-bi"></a>Power BI:n valmistelu käyttöä varten
 
 Muutama tehtävä on suoritettava, ennen kuin Power BI:ta voi käyttää [!INCLUDE[prod_short](includes/prod_short.md)]in kanssa. <!-- Some of the tasks are typically only done by administrators or super users.--> Tehtävät määräytyvät sen mukaan, mikä roolisi organisaatiossa on ja mitä haluat tehdä Power BI:ssä.
 
@@ -79,18 +80,18 @@ Muutama tehtävä on suoritettava, ennen kuin Power BI:ta voi käyttää [!INCLU
 
 ## <a name="see-also"></a>Katso myös
 
-[Power BI kuluttajille](/power-bi/consumer/end-user-consumer)  
-[Power BI -palvelun uusi ulkoasu](/power-bi/service-new-look)  
-[Pika-aloitus: Tietojen yhdistäminen Power BI Desktopiin](/power-bi/desktop-quickstart-connect-to-data)  
-[Power BI -dokumentaatio](/power-bi/)  
 [Business Intelligence](bi.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  
+[Määritä [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power BI:n tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Apps:n tietolähteenä](across-how-use-financials-data-source-powerapps.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Automatessa](across-how-use-financials-data-source-flow.md)  
-
+[Power BI -dokumentaatio](/power-bi/)  
+[Power BIn kuvaus](/power-bi/fundamentals/power-bi-overview)  
+[Pika-aloitus: Tietojen yhdistäminen Power BI Desktopiin](/power-bi/desktop-quickstart-connect-to-data)  
+[Johdatus tietovarastoihin](/power-bi/transform-model/datamarts/datamarts-overview)  
+[Tietovoiden ja itsepalvelutietojen valmistelun esittely](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)  
 
 
 

@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
-ms.date: 03/24/2022
+ms.date: 08/26/2022
 ms.author: bholtorf
-ms.openlocfilehash: a3ce9d938994f6300e0a1f2c26511b3c0702c124
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: e3cb6fd841dc4d6e0f9b00d2966ca00bab577b15
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076563"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460776"
 ---
 # <a name="set-up-posting-groups"></a>Määritä kirjanpidon kirjausryhmät
 
@@ -59,9 +59,11 @@ Seuraavassa taulukossa kuvaillaan tietotyyppikohtaisia nimiketyyppejä.
 
 ### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Korvaavien asiakkaan tai toimittajan kirjausryhmien salliminen asiakirjoille
 
+[!INCLUDE [preview](includes/preview.md)]
+
 Voit antaa käyttäjien valita eri asiakkaan ja toimittajan kirjausryhmät kuin oletusarvot, kun he työskentelevät myynti- tai ostoasiakirjojen ja päiväkirjojen parissa.
 
-Jos haluat sallia muutokset asiakkaan kirjausryhmiin, valitse **Salli kirjausryhmän muutos** **Myyntien ja myyntisaamisten asetukset**- ja **Huoltohallinnon asetukset** -sivuilla ja **Ostojen ja ostovelkojen asetukset** -sivulla toimittajan kirjausryhmien muutoksille.
+Jos haluat sallia muutokset asiakkaan kirjausryhmiin, valitse **Salli useita kirjausryhmiä** **Myyntien ja myyntisaamisten asetukset**- ja **Huoltohallinnon asetukset** -sivuilla ja **Ostojen ja ostovelkojen asetukset** -sivulla toimittajan kirjausryhmien muutoksille.
 
 **Asiakkaan kirjausryhmät**- tai **Toimittajan kirjausryhmät** -sivuilla voit määrittää kirjausryhmät, jotka sallitaan korvaaviksi valitsemalla **Korvaukset**. Korvaavat kirjausryhmät voivat korvata asiakkaalle tai toimittajalle määritetyt oletusasiakas- tai -toimittajakirjausryhmät.
 

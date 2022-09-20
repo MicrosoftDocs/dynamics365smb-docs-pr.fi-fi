@@ -3,12 +3,12 @@ author: edupont04
 ms.topic: include
 ms.date: 04/05/2022
 ms.author: edupont
-ms.openlocfilehash: 0f6ce66b4bb534d1cc2c66414fe08254f68253b2
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.openlocfilehash: 8dcebacabc62e9744fb0c70e535f9fdd498047e6
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557482"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461046"
 ---
 1. Siirry [kokeiluversion sivustolle](https://go.microsoft.com/fwlink/?linkid=847861), valitse *talous- ja toimintosovellukset* ja valitse sitten **Dynamics 365 Business Central** -kortissa **Kokeile ilmaiseksi** -painike.  
 2. Syötä työpaikan tai koulun sähköpostiosoite ja muut tiedot. Sinut uudelleenohjataan kokeiluversioon osoitteessa [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  
@@ -24,4 +24,4 @@ Jos päätät olla käyttämättä [!INCLUDE [prod_short](prod_short.md)] -sovel
 
 [!INCLUDE [admin-viral-trial-expiry](admin-viral-trial-expiry.md)]
 
-Ongelmatilanteissa kannattaa tarkistaa, löytyykö [Kokeiluversion usein kysytyt kysymykset](../trial-faq.md)- tai [Usein kysytyt kysymykset](../across-faq.yml) -artikkeleista vastauksia kysymyksiin. Jos et voi rekisteröityä kokeiluversioon, etsi apua [Itsepalvelun rekisteröitymisen vianmääritys](../ui-troubleshoot-self-signup.md) -artikkelista. Voit myös ottaa yhteyttä [kumppaniin](/dynamics365/business-central/across-faq#findpartner) ja pyytää tätä luomaan maksuttoman kokeiluversion tai [!INCLUDE[prod_short](prod_short.md)] -sovelluksen erilaisen esiversion organisaatiollesi.  
+Ongelmatilanteissa kannattaa tarkistaa, löytyykö [Kokeiluversion usein kysytyt kysymykset](../trial-faq.md)- tai [Usein kysytyt kysymykset](../across-faq.yml) -artikkeleista vastauksia kysymyksiin. Jos et voi rekisteröityä kokeiluversioon, etsi apua [Itsepalvelun rekisteröitymisen vianmääritys](../ui-troubleshoot-self-signup.md) -artikkelista. Voit myös ottaa yhteyttä [kumppaniin](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner) ja pyytää tätä luomaan maksuttoman kokeiluversion tai [!INCLUDE[prod_short](prod_short.md)] -sovelluksen erilaisen esiversion organisaatiollesi.  

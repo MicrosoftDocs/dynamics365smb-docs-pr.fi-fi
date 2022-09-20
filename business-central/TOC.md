@@ -1,4 +1,4 @@
-# [Tervetuloa Business Centraliin](index.md)
+# [Tervetuloa Business Centraliin](index.md)  
 # [Uusia ja suunniteltuja ominaisuuksia](product-news.md)
 # Aloita
 ## [Liiketoimintatoimintojen yleiskatsaus](across-business-functionality.md)
@@ -225,6 +225,7 @@
 ### [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)
 ### [Työjonojen käyttäminen ajoitustehtäviin](admin-job-queues-schedule-tasks.md)
 ### [Anna Business Centralin ehdottaa arvoja](ui-let-system-suggest-values.md)
+### [Sijaintien ja reittiohjeiden etsiminen online-karttojen avulla](across-online-maps.md)
 
 ### Saapuvat asiakirjat
 #### [Saapuvien asiakirjojen yleiskatsaus](across-income-documents.md)
@@ -442,6 +443,7 @@
 ### [Tulosta poimintaluettelo](sales-how-print-picking-list.md)
 ### [Kirjaa myynti](ui-post-sales.md)
 ### [Luo toistuvia myyntirivejä](sales-how-work-standard-lines.md)
+### [Käsittele osittaisia toimituksia toimitusneuvoilla](sales-how-send-partial-shipments.md)
 ### [Suoratoimitusten tekeminen](sales-how-drop-shipment.md)
 ### [Erikoistilausten luominen](sales-how-to-create-special-orders.md)
 ### [Myynnin palautusten tai peruutusten käsittely](sales-how-process-sales-returns-cancellations.md)
@@ -1635,6 +1637,7 @@
 ### [Numerosarjojen luominen](ui-create-number-series.md)
 ### [Peruskalenterien määrittäminen](across-how-to-assign-base-calendars.md)
 ### [Tulostimien määrittäminen](ui-specify-printer-selection-reports.md)
+### [Määritä online-kartan asetukset](across-online-maps-setup.md)
 ### [Business Central -sovelluksen hakeminen mobiililaitteeseen](install-mobile-app.md)
 ### [Business Centralin asentaminen työpöydälle](install-desktop-app.md)
 <!--Reporting landing page-->
@@ -1838,6 +1841,7 @@
 ### [Taulukon yhdistämismääritysten manuaalinen synkronointi](admin-manual-synchronization-of-table-mappings.md)
 ### [Ajoitettu synkronointi](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Synkronointivirheiden vianmääritys](admin-troubleshoot-sales-synchronization.md)
+### [Käytä Power Automate -työnkulun hälytyksiä Dataverse-entiteetin muutoksille](admin-power-automate-flow-dataverse.md)
 ## Rakennetiedot
 ### [Sovellussuunnittelun tietojen yleiskuvaus](design-details-application-design.md)
 ### Rakennetiedot: tarjonnan suunnittelu

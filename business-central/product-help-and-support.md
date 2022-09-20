@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: d97911cd7c3556e8ee447102e22b3764548b6f13
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 33cd44d4aab7f22dd8ea2cbad7fd21a4955142a0
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516924"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460616"
 ---
 # <a name="resources-for-help-and-support"></a>Ohje- ja tukiresurssit
 
@@ -138,7 +138,7 @@ Sisäinen järjestelmänvalvoja voi käyttää hallintakeskusta, jossa voit jatk
 Lisätietoja on ohjeaiheessa [Tukiongelmien eskalointi Microsoftille](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#escalating-support-issues-to-microsoft) hallintasisällössä.  
 
 > [!NOTE]
-> Kun [!INCLUDE[prod_short](includes/prod_short.md)] on muodostanut yhteyden verkkoon, **Ongelman ilmoittaminen** -osio on käytettävissä vain, jos sinulla on maksullinen [!INCLUDE[prod_short](includes/prod_short.md)]-tilaus. Jos olet rekisteröitynyt kokeiluversioon etkä ole vielä ostanut [!INCLUDE[prod_short](includes/prod_short.md)]ia, sinulla ei ole jälleenmyyntikumppania etkä voi ottaa yhteyttä Microsoftin tukeen. Voit etsiä [!INCLUDE[prod_short](includes/prod_short.md)] -kumppanin [Ratkaisutoimittajan haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#findpartner).  
+> Kun [!INCLUDE[prod_short](includes/prod_short.md)] on muodostanut yhteyden verkkoon, **Ongelman ilmoittaminen** -osio on käytettävissä vain, jos sinulla on maksullinen [!INCLUDE[prod_short](includes/prod_short.md)]-tilaus. Jos olet rekisteröitynyt kokeiluversioon etkä ole vielä ostanut [!INCLUDE[prod_short](includes/prod_short.md)]ia, sinulla ei ole jälleenmyyntikumppania etkä voi ottaa yhteyttä Microsoftin tukeen. Voit etsiä [!INCLUDE[prod_short](includes/prod_short.md)] -kumppanin [Ratkaisutoimittajan haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäpartnerin?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner).  
 >
 > Kun [!INCLUDE[prod_short](includes/prod_short.md)] on paikallisessa ympäristössä, tämä osio on saatavilla vain 2020 julkaisuaallossa 2 (versio 18) ja uudemmissa versioissa.
 
@@ -232,7 +232,7 @@ Tämä koskee myös [!INCLUDE [prod_short](includes/prod_short.md)]in paikallist
 
 [Business Central -opintoluettelo](readiness/readiness-learning-catalog.md)  
 [Business Centralin pika-aloitus](quick-start-business-central.md)  
-[Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#findpartner)  
+[Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
 [Ohjejärjestelmä (vain englanninkielinen)](/dynamics365/business-central/dev-itpro/user-assistance?toc=/dynamics365/business-central/toc.json)  
 [Blogikirjoitus: Oikeiden resurssien etsiminen ja palautteen antaminen](https://community.dynamics.com/business/b/financials/posts/find-the-right-resources-and-provide-feedback)  
 [Business Centralin kehittäjän ja järjestelmänvalvojien dokumentaatio](/dynamics365/business-central/dev-itpro/)  

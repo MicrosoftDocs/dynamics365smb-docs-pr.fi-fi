@@ -10,37 +10,37 @@ ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
 ms.date: 07/04/2022
 ms.author: edupont
-ms.openlocfilehash: 00ce5d3014d0154f877b9d58fc4e0fd0585f13ac
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
+ms.openlocfilehash: 88b6c57fb93b5ef3e2a4cf02ce7a802e4d8aef22
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144326"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460729"
 ---
 # <a name="register-new-vendors"></a>Uusien toimittajien rekisteröiminen
 
-Toimittajat tarjoavat tuotteita, jotka myydään. Jokainen toimittaja, jolta ostat, täytyy rekisteröidä toimittajakorttina.
+Toimittajat tarjoavat tuotteita, jotka myydään. Jokainen toimittaja, jolta ostat, täytyy rekisteröidä toimittajakortin kanssa.
 
-Ennen kuin voit rekisteröidä uusia toimittajia, sinun on määritettävä ostokoodeja, joita valitaan toimittajien korttien täyttämisen yhteydessä. Kun kaikki tarvittavat päätiedot on luotu, voit tehdä muita toimittajaa koskevia määrityksiä, kuten priorisoida toimittajan maksutilanteita varten sekä eritellä nimikkeitä, joita toimittaja ja muut toimittajat toimittavat. Kokonaan erillinen toimittajia koskevien määritystehtävien joukko on alennuksia, hintoja ja maksutapoja koskevien sopimusten tallentaminen. Lisätietoja on kohdassa [Ostojen määrittäminen](purchasing-setup-purchasing.md).
+Ennen kuin voit rekisteröidä uusia toimittajia, sinun on määritettävä ostokoodeja, joita valitaan toimittajien korttien täyttämisen yhteydessä. Kun kaikki tarvittavat päätiedot on luotu, voit lisätä toimittajalle ainutlaatuisia ominaisuuksia, kuten priorisoida toimittajan maksutarkoituksiin tai luetteloida toimittajan ja muiden toimittajien toimittamat tuotteet. Kokonaan erillinen toimittajia koskevien määritystehtävien joukko on alennuksia, hintoja ja maksutapoja koskevien sopimusten tallentaminen. Lisätietoja kohdassa [Oston määrittäminen](purchasing-setup-purchasing.md).
 
-Toimittajan kortti sisältää tiedot, joita tarvitaan tuotteiden ostamiseksi toimittajalta. Lisätietoja on kohdissa [Ostojen kirjaaminen](purchasing-how-record-purchases.md) ja [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
+Toimittajan kortti sisältää tiedot, joita tarvitaan tuotteiden ostamiseksi kultakin toimittajalta. Lisätietoja on kohdissa [Ostojen kirjaaminen](purchasing-how-record-purchases.md) ja [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
 <br /><br />  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Uusien toimittajien lisääminen
 
-Voit lisätä uusia toimittajia manuaalisesti täyttämällä **Toimittajankortti**-sivun kentät tai käyttämällä malleja, jotka sisältävät ennalta määritettyjä tietoja. Voit esimerkiksi luoda mallin erityyppisille toimittajaprofiileille. Mallien käyttäminen säästää aikaa uusien toimittajien lisäämisen aikana ja varmistaa, että tiedot ovat aina oikein.
+Voit lisätä uusia toimittajia manuaalisesti täyttämällä **Toimittajankortti**-sivun tai käyttämällä malleja, jotka sisältävät ennalta määritettyjä tietoja. Voit esimerkiksi luoda malleja erityyppisille toimittajaprofiileille. Mallien käyttäminen säästää aikaa uusien toimittajien lisäämisen aikana ja varmistaa, että tiedot ovat aina oikein.
 
 > [!NOTE]  
-> Jos eri toimittajan tyypeille on olemassa toimittajamalleja, sivu avautuu, kun luot uuden toimittajan kortin, jossa voit valita haluamasi mallin. Jos vain yksi toimittajamalli on olemassa, uudet toimittajan kortit käyttävät aina kyseistä mallia.
+> Jos eri toimittajatyypeille on olemassa toimittajamalleja, kun alat luoda uutta toimittajakorttia, näet sivun, josta voit valita sopivan mallin. Jos vain yksi toimittajamalli on olemassa, uudet toimittajan kortit käyttävät aina kyseistä mallia.
 
-Kun olet luonut mallin, voit kohdistaa sen yhteen tai useampaan valittuun toimittajaan käyttämällä **Käytä mallia** -toimintoa. Kun haluat luoda mallin, täytä tiedot, joita haluat käyttää uudelleen Toimittajan kortti -sivulla, ja tallenna se mallina. Lisätietoja on osassa [Toimittajakortti-sivun tallentaminen mallina](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
+Kun olet luonut mallin, voit kohdistaa sen yhteen tai useampaan valittuun toimittajaan käyttämällä **Käytä mallia** -toimintoa. Kun haluat luoda mallin, täytä tiedot, joita haluat käyttää uudelleen **Toimittajan kortti** -sivulla, ja tallenna se mallina. Lisätietoja on [Toimittajakortti-sivun tallentaminen mallina](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template) -osassa.
 
 > [!TIP]
-> Voi olla hyödyllistä mukauttaa **Toimittajamalli**-sivua, kun luot mallin. Voit esimerkiksi haluta lisätä kentän, joka ei vielä näy sivulla. Lisätietoja on kohdassa [Työtilan mukauttaminen](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
+> Voi olla hyödyllistä mukauttaa **Toimittajamalli**-sivua, kun luot mallin. Jos esimerkiksi haluat lisätä kentän, joka ei vielä näy sivulla. Lue lisätietoja [Työtilan mukauttaminen](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner) -osassa.
 
-Toimittajan voi luoda myös yhteyshenkilöstä. Lisätietoja on kohdassa [Asiakkaan, toimittajan, työntekijän tai pankkitilin luominen yhteyshenkilöstä](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
+Toimittajan voi luoda myös yhteyshenkilöstä. Lisätietoja on [Asiakkaan, toimittajan, työntekijän tai pankkitilin luominen yhteyshenkilöstä](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact) -osassa.
 
 ### <a name="to-create-a-new-vendor"></a>Uuden toimittajan luominen
 
@@ -51,14 +51,14 @@ Toimittajan voi luoda myös yhteyshenkilöstä. Lisätietoja on kohdassa [Asiakk
 
 Toimittaja on nyt rekisteröity, ja toimittajan kortti on valmis käytettäväksi ostoasiakirjoissa.
 
-Jos haluat käyttää tätä toimittajan korttia mallina, kun luot uusia toimittajan kortteja, tallenna se toimittajamallina. Lisätietoja on osassa [Toimittajakortin tallentaminen mallina](#to-save-the-vendor-card-as-a-template).
+Jos haluat käyttää tätä toimittajan korttia mallina, kun luot uusia toimittajan kortteja, tallenna se toimittajamallina. Lisätietoja on [Toimittajakortin tallentaminen mallina](#to-save-the-vendor-card-as-a-template) -osassa.
 
 ### <a name="deleting-and-editing-vendor-information"></a>Toimittajan tietojen poistaminen ja muokkaaminen
 
 Voit muokata toimittajakorttien tietoja milloin tahansa. Jos olet kirjannut toimittajalle tapahtuman, et voi kuitenkaan poistaa korttia, koska nimiketapahtumia voi tarvita valvontaan. Voit poistaa tapahtumia sisältäviä toimittajakortteja koodin avulla ottamalla yhteyttä Microsoft-kumppaniin.
 
 > [!TIP]
-> Voit muuttaa toimittajan pankkitilin IBAN-tunnusta ilman, että muutos vaikuttaa aikaisempiin tilisiirtorekisterin tapahtumiin. Kredit-siirron rekisteröintitapahtumat tallentavat vastaanottajan IBAN-tunnuksen ja vastaanottajan pankkitilinumeron, jotka määritettiin Toimittajan pankkitili- ja Vastaanottajan nimi -kentissä Toimittajakortti-sivulta, kun tapahtumat luotiin.
+> Voit muuttaa toimittajan kansainvälisen tilinumeron (IBAN) ilman, että muutos vaikuttaa aikaisempiin tilisiirtorekisterin tapahtumiin. Kredit-siirron rekisteröintitapahtumat tallentavat *vastaanottajan IBAN*-tunnuksen ja *vastaanottajan pankkitilinumeron*, jotka määritettiin **Toimittajan pankkitili**- ja **Vastaanottajan nimi** -kentissä **Toimittajakortti**-sivulta, kun tapahtumat luotiin.
 
 > [!TIP]
 > Voit lisätä vaihtoehtoisia osoitteita toimittajakortteihin valitsemalla **Tilausosoitteet**-toiminnon.
@@ -69,10 +69,10 @@ Voit muokata toimittajakorttien tietoja milloin tahansa. Jos olet kirjannut toim
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Voit käyttää dimensioita malleina valitsemalla **Dimensiot**-toiminnon. **Dimensiomallit**-sivu avautuu. Se sisältää kaikki toimittajalle määritetyt dimensiokoodit.
 4. Muokkaa tai syötä dimensiokoodeja, joita käytetään mallin avulla luotuihin uusiin toimittajan kortteihin.
-5. Kun olet määrittänyt uuden toimittajamallin, valitse **OK**-painike.  
+5. Kun olet määrittänyt uuden toimittajamallin, valitse **OK**.  
    Toimittajamalli lisätään toimittajamallien luetteloon niin, että sen avulla voit luoda uusia toimittajan kortteja.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/trade-master-data-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Katso myös
 
@@ -82,6 +82,7 @@ Voit muokata toimittajakorttien tietoja milloin tahansa. Jos olet kirjannut toim
 [Ostajien määrittäminen](purchasing-how-setup-purchasers.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Ostojen kirjaus](purchasing-how-record-purchases.md)  
+[Sijaintien ja reittiohjeiden etsiminen online-karttojen avulla](across-online-maps.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

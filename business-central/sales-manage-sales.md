@@ -1,6 +1,6 @@
 ---
 title: Myynnin hallintatehtävien yleiskatsaus
-description: 'Lue lisää Business Centralin palveluiden käytöstä myynnin aktiviteettien hallintaan asiakkaiden kanssa: esimerkkeinä myyntilaskut, tilaukset ja tarjoukset.'
+description: 'Lue lisää Business Centralin palveluiden käytöstä asiakkaiden myynnin aktiviteettien hallintaan: esimerkkeinä myyntilaskut, tilaukset ja tarjoukset.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
@@ -8,16 +8,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
 ms.search.form: 253
-ms.date: 06/25/2021
+ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: 8601153fc7bd813b3baa1c0ff7ebe0768d467dc0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 501f719c185177f8c9554d8f10c3f026df36169a
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518885"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460911"
 ---
 # <a name="sales"></a>Myynti
+
 Luo myyntilasku tai -tilaus tallentaaksesi sopimuksesi asiakkaan kanssa ja myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla.
 
 Myyntitilauksia on käytettävä, jos myyntiprosessi vaatii tilausmäärän osittaisen toimittamisen esimerkiksi silloin, kun koko määrä ei ole kerralla käytettävissä. Jos myyt nimikkeitä toimittamalla ne suoraan toimittajalta asiakkaalle (suoratoimituksena), myyntitilauksia on käytettävä. Kaikilta muilta osin myyntitilaukset toimivat samalla tavalla kuin myyntilaskut. Voit ilmoittaa tietyt toimituspäivät asiakkaille myyntitilauksissa Toimituksen lupaaminen -toiminnon avulla.  
@@ -26,17 +27,17 @@ Voit neuvotella asiakkaan kanssa luomalla ensin myyntitarjoukseen, jonka voit mu
 
 Voit helposti korjata tai peruuttaa kirjatun myyntilaskun ennen kuin se on maksettu. Tästä on hyötyä, jos haluat korjata kirjoitusvirheen tai jos asiakas pyytää muutosta prosessin alkuvaiheessa. Jos kirjattu myyntilasku maksetaan, sinun on peruutettava myynti luomalla myyntihyvityslasku tai myyntipalautustilaus.
 
-Tärkeintä hyvissä myynti- ja markkinointikäytännöissä on tehdä oikeita päätöksiä oikeaan aikaan. [!INCLUDE[prod_short](includes/prod_short.md)]in markkinointitoiminnot tarjoavat yhteystietojen yleiskuvauksen tarkasti ja oikea-aikaisesti, mikä tehostaa mahdollisten asiakkaiden palvelemista ja parantaa asiakastyytyväisyyttä. Lisätietoja on kohdassa [Kontaktienhallinta](marketing-relationship-management.md).
+Tärkeintä hyvissä myynti- ja markkinointikäytännöissä on tehdä oikeita päätöksiä oikeaan aikaan. [!INCLUDE[prod_short](includes/prod_short.md)]in markkinointitoiminnot tarjoavat yhteystietojen yleiskuvauksen tarkasti ja oikea-aikaisesti, mikä tehostaa mahdollisten asiakkaiden palvelemista ja parantaa asiakastyytyväisyyttä. Lisätietoja on kohdassa [Suhteiden hallinta](marketing-relationship-management.md).
 
-Jos käytät Dynamics 365 Salesia asiakassuhteissa, saat käyttöösi saumattoman integroinnin liidistä tuottoon käyttämällä Business Centralia taustatehtäviin, kuten tilausten käsittelyyn, varastonhallintaan ja talousasioihin. Lisätietoja on kohdassa [Dynamics 365 Salesin käyttäminen Business Centralissa](marketing-integrate-dynamicscrm.md).
+Jos käytät Microsoft Dynamics 365 Salesia asiakassuhteissa, saat käyttöösi saumattoman integroinnin liidistä tuottoon käyttämällä Business Centralia taustatehtäviin, kuten tilausten käsittelyyn, varastonhallintaan ja talousasioihin. Lue lisätietoja kohdasta [Dynamics 365 Salesin käyttäminen Business Centralista](marketing-integrate-dynamicscrm.md).
 
-Liiketoimintaympäristöissä, joissa asiakkaan on maksettava ennen kuin tuotteet toimitetaan, kuten vähittäismyynti, sinun on odotettava maksukuittia ennen kuin toimitat tuotteet. Useimmissa tapauksissa saapuvia maksuja käsitellään joitakin viikkoja toimituksen jälkeen kohdistamalla maksut niihin liittyviin kirjattuihin ja maksamattomiin myyntilaskuihin. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
+Liiketoimintaympäristöissä, joissa asiakkaan on maksettava ennen kuin tuotteet toimitetaan, kuten vähittäismyynti, sinun on odotettava maksukuittia ennen kuin toimitat tuotteet. Useimmissa tapauksissa saapuvia maksuja käsitellään joitakin viikkoja toimituksen jälkeen kohdistamalla maksut niihin liittyviin kirjattuihin ja maksamattomiin myyntilaskuihin. Lue lisätietoja kohdasta [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
 
-Myyntiasiakirjat voidaan lähettää sähköpostin liitteenä PDF-tiedostoina. Sähköpostin perusteksti sisältää otteen myyntiasiakirjasta. Ote voi sisältää esimerkiksi tuotteet, kokonaissumman ja PayPal-sivuston linkin. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md).
+Myyntiasiakirjat voidaan lähettää sähköpostin liitteenä PDF-tiedostoina. Sähköpostin perusteksti sisältää otteen myyntiasiakirjasta. Ote voi sisältää esimerkiksi tuotteet, kokonaissumman ja PayPal-sivuston linkin. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostilla](ui-how-send-documents-email.md).
 
-Voit ottaa hyväksymistyönkulun käyttöön kaikissa myyntiprosesseissa esimerkiksi silloin, kun pyydät talouspäälliköltä hyväksyntää isolle myynnille tiettyä asiakasta varten. Lisätietoja on kohdassa [Käytä työnkulkuja](across-use-workflows.md).
+Voit ottaa hyväksymistyönkulun käyttöön kaikissa myyntiprosesseissa esimerkiksi silloin, kun pyydät talouspäälliköltä hyväksyntää isolle myynnille tiettyä asiakasta varten. Lisätietoja on kohdassa [Työnkulkujen käyttäminen](across-use-workflows.md).
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkeleihin.
 
 | Vastaanottaja | Katso |
 | --- | --- |
@@ -46,6 +47,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 | Käsittele osittaista toimitusta tai suoratoimitusta käsittelevä myyntitilaus. |[Tuotteiden myyminen](sales-how-sell-products.md) |
 |Tietoja siitä, mitä tapahtuu myyntiasiakirjoja kirjattaessa.|[Myynnin kirjaaminen](ui-post-sales.md)|
 |Valmistaudu poimimaan lähetettäviä nimikkeitä.|[Tulosta poimintaluettelo](sales-how-print-picking-list.md)|
+| Toteuta myyntitilaus, jossa on useita osittaisia toimituksia. | [Osittaisten toimitusten prosessointi](sales-how-send-partial-shipments.md) |
 |Määritä vakiomyynti- tai -ostorivit, jotka voit lisätä nopeasti asiakirjoihin, kuten toistuviin täydennystilauksiin.|[Toistuvien myynti- ja ostorivien luominen](sales-how-work-standard-lines.md)|  
 | Linkitä myyntitilaus ostotilaukseen, jotta voit myydä suoratoimituksen nimikkeen, joka toimitetaan suoraan toimittajaltasi asiakkaallesi. |[Suoratoimitusten tekeminen](sales-how-drop-shipment.md) |
 |Luettelonimike on toimitettava toimittajalta fyysiseen varastoon, jotta voit toimittaa nimikkeen asiakkaallesi.|[Erikoistilausten luominen](sales-how-to-create-special-orders.md)|
@@ -57,18 +59,18 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Ilmoitta tilauksen toimiaika asiakkaille laskemalla joko mahdollinen luvattavaksi- tai luvattavissa -päivämäärä.|[Toimituksen lupaamisen päivämäärien laskeminen](sales-how-to-calculate-order-promising-dates.md)|
 |Ratkaise ristiriita, kun samalla asiakkaalla on ainakin kaksi tietuetta.|[Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/sell-items-services-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Katso myös
+
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Ostovelkojen hallinta](payables-manage-payables.md)  
-[Projektinhallinta](projects-manage-projects.md)    
+[Projektinhallinta](projects-manage-projects.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,18 +9,18 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f1c1ba7640c03314c53bceee13711c66f03a3c09
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 17491ce9bdc611bbdc7d06755edebe12a5f5df31
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079296"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460656"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Tarvitsetko lisää aikaa, ennen kuin päätät tilauksen tekemisestä?
 
 Liiketoimintasovellusta valittaessa on oltava tarkkana, ja tiedämme, että [!INCLUDE[prod_short](includes/prod_short.md)]in kaikkiin ominaisuuksiin tutustuminen vie aikaa. Jos tarvitset arviontiin lisäaikaa, voit jatkaa itse kokeilujaksoa 30 päivällä. Kun kokeilujakson päättyminen on lähellä, kirjautumisen yhteydessä näkyy ilmoitus asiasta. Ilmoituksessa on linkki **kokeilujakson jatkamisen** oppaaseen, jonka avulla voit jatkaa kokeilujaksoa. 30 päivän lisäjakso alkaa heti, kun valitset oppaassa **Jatka kokeilujaksoa**.
 
-Kokeilujaksoa voi kuitenkin jatkaa itse vain kerran. Et siis voi jatkaa sitä itse kahdesti. Jos olet jo jatkanut kokeilujaksoa itse, Microsoft-kumppani voi jatkaa sitä uudelleen puolestasi. Sekin on kuitenkin mahdollista vain kerran. Jos sinulla ei vielä ole kumppania, katso [Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#findpartner).  
+Kokeilujaksoa voi kuitenkin jatkaa itse vain kerran. Et siis voi jatkaa sitä itse kahdesti. Jos olet jo jatkanut kokeilujaksoa itse, Microsoft-kumppani voi jatkaa sitä uudelleen puolestasi. Sekin on kuitenkin mahdollista vain kerran. Jos sinulla ei vielä ole kumppania, katso [Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner).  
 
 ## <a name="to-extend-your-trial-period"></a>Kokeilujakson laajentaminen
 
@@ -56,7 +56,7 @@ Kun jatkettu kokeilujakso on päättynyt, voit [tilata](https://go.microsoft.com
 
 [Kokeilut ja tilaukset (vain englanniksi)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Uusien yritysten luominen](about-new-company.md)  
-[Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#findpartner)  
+[Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
 [Kokeiluversioiden jatkaminen (järjestelmänvalvojana)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
 [Aloittaminen Business Central Online -jälleenmyyjänä](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
 

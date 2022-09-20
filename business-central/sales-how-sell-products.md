@@ -6,35 +6,35 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, partial deliveries, customer sales order
+ms.search.keywords: trade, partial deliveries, customer sales order, shipping advice, partial shipments,
 ms.search.form: 42, 48, 9305
-ms.date: 01/19/2022
+ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: 102fa04db203d8b1fe05d63629fbe24f49193112
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: d40adc9e0d21b89f7b648862b08be8456287bd50
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077838"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460965"
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Tuotteiden myyminen asiakkaan myyntitilauksen avulla  
+# <a name="sell-products-with-a-customer-sales-order"></a>Tuotteiden myyminen asiakkaan myyntitilauksen avulla
 
-Tässä artikkelissa annetaan käyttäjille ohjeita siitä, milloin asiakkaan myyntitilausta käytetään laskun sijaan. Jos myyntiprosessi vaatii tilausmäärän osittaisen toimittamisen esimerkiksi silloin, kun koko määrä ei ole kerralla käytettävissä, myy silloin tuotteet tekemällä asiakkaan myyntitilauksen.  
+Tämä artikkeli antaa ohjeita siitä, milloin sinun tulee käyttää asiakkaan myyntitilausta laskun lisäksi. Jos myyntiprosessi edellyttää, että lähetät vain osan tilauksesta, ehkä siksi, että koko määrä ei ole heti saatavilla, sinun on käsiteltävä kyseinen myynti tekemällä myyntitilaus.
 
-Jos myyt nimikkeitä toimittamalla ne suoraan toimittajalta asiakkaalle (suoratoimituksena), myyntitilauksia on käytettävä. Lisätietoja on kohdassa [Suoratoimitusten tekeminen](sales-how-drop-shipment.md). Kaikilta muilta osin myyntitilaukset toimivat samalla tavalla kuin myyntilaskut. Lisätietoja on kohdassa [Myynnin laskutus](sales-how-invoice-sales.md).
+Sinun on käytettävä myyntitilauksia myös, jos myyt tuotteita, jotka toimitetaan suoraan toimittajaltasi asiakkaallesi, niin sanotussa suoratoimituksessa. Lisätietoja on kohdassa [Tee suoratoimituksia](sales-how-drop-shipment.md). Kaikilta muilta osin myyntitilaukset toimivat samalla tavalla kuin myyntilaskut. Lisätietoja on kohdassa [Laskutus myynnissä](sales-how-invoice-sales.md).
 
-Kun toimitat tuotteita kokonaan tai osittain, kirjaa myyntitilaus toimitetuksi tai toimitetuksi ja laskutetuksi. Näin järjestelmään luodaan liittyvä nimike ja asiakastapahtumat. Kun kirjaat myyntitilauksen, voit myös lähettää asiakirjan PDF-liitteenä sähköpostitse. Sähköpostin perusteksti voidaan esitäyttää tilauksen ja maksun tietojen yhteenvedolla. Tietoihin voi kuulua esimerkiksi PayPal-linkki. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md).
+Kun toimitat tuotteita kokonaan tai osittain, kirjaa myyntitilaus toimitetuksi tai toimitetuksi ja laskutetuksi. Näin järjestelmään luodaan liittyvä nimike ja asiakastapahtumat. Kun kirjaat myyntitilauksen, voit myös lähettää sen PDF-liitteenä sähköpostitse. Sähköpostin perusteksti voidaan esitäyttää tilauksen ja maksun tietojen yhteenvedolla. Tietoihin voi kuulua esimerkiksi PayPal-linkki. Lisätietoja on kohdassa [Nimikkeiden lähettäminen](warehouse-how-ship-items.md) ja [Asiakirjojen lähettäminen sähköpostilla](ui-how-send-documents-email.md).
 
-Yritysympäristöissä, joissa asiakas maksaa heti (esimerkiksi PayPal-maksuna tai käteisenä) maksu kirjataan heti, kun kirjaat myyntitilauksen laskutettuna. Toisin sanoen kirjattu myyntilasku suljetaan kokonaan kohdistettuna. Valitset myyntitilauksen **Maksutavan koodi** -kentässä asianmukaisen koodin. Katso vaihe 8. Elektronisissa maksuissa, kuten PayPal-maksuissa, sinun täytyy myös täyttää **Maksupalvelu**-kenttä. Lisätietoja on kohdassa [Asiakasmaksujen ottaminen käyttöön maksupalvelujen kautta](sales-how-enable-payment-service-extensions.md).
+Yritysympäristöissä, joissa asiakas maksaa heti (esimerkiksi PayPal-maksuna tai käteisenä) maksu kirjataan heti, kun kirjaat myyntitilauksen laskutettuna. Toisin sanoen kirjattu myyntilasku suljetaan kokonaan kohdistettuna. Valitset myyntitilauksen **Maksutavan koodi** -kentässä asianmukaisen koodin. Lisätietoja on alla vaiheessa 5. Elektronisissa maksuissa, kuten PayPal-maksuissa, sinun täytyy myös täyttää **Maksupalvelu**-kenttä. Lue lisätietoa kohdasta [Asiakasmaksujen ottaminen käyttöön maksupalvelujen kautta](sales-how-enable-payment-service-extensions.md).
 
-Voit luoda jopa suoraan maksettavia tilauksia rekisteröimättömille asiakkaille, kun määrität ensin käteisasiakaskortin, jossa viitataan myyntitilaukseen. Lisätietoja on ohjeaiheessa [Käteisasiakkaiden määrittäminen](finance-how-to-set-up-cash-customers.md).
+Voit luoda jopa suoraan maksettavia tilauksia rekisteröimättömille asiakkaille, kun määrität ensin käteisasiakaskortin, jossa viitataan myyntitilaukseen. Lisätietoja kohdassa [Käteisasiakkaiden määrittäminen](finance-how-to-set-up-cash-customers.md).
 
-## <a name="to-create-a-sales-order"></a>Myyntitilauksen luominen
+## <a name="create-a-sales-order"></a>Luo myyntitilaus
 
 > [!NOTE]  
 > Seuraavassa oletetaan, että asiakas on jo määritetty. Lisätietoja tämän tekemisestä on kohdassa [Uusien asiakkaiden rekisteröiminen](sales-how-register-new-customers.md).
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset**, valitse sitten vastaava linkki.
 2. Luo uusi merkintä valitsemalla **Uusi**.
 3. Syötä **Asiakas**-kenttään nykyisen asiakkaan nimi.
 
@@ -43,50 +43,53 @@ Voit luoda jopa suoraan maksettavia tilauksia rekisteröimättömille asiakkaill
 4. Täytä tarvittaessa jäljellä olevat kentät **Myyntitilaus**-sivulla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    > Jos asiakas maksaa heti, esimerkiksi luottokortilla tai PayPal-maksuna, täytä **Maksutavan koodi** -kenttä. Maksu kirjataan sitten heti, kun kirjaat myyntitilauksen laskutettuna. Jos valitset käteismaksun, maksu kirjataan määritetylle vastatilille.
+    > Jos asiakas maksaa heti, esimerkiksi luottokortilla tai PayPal-maksuna, täytä **Maksutavan koodi** -kenttä. Maksu kirjataan sitten heti, kun kirjaat myyntitilauksen laskutettuna. Jos valitset *käteismaksun*, maksu kirjataan määritetylle vastatilille.
 
-    Voit nyt täyttää myyntitilausrivit varastonimikkeillä tai palveluilla, joita haluat myydä asiakkaalle.
+    Voit nyt täyttää myyntitilausrivit varastonimikkeillä tai palveluilla, joita haluat asiakkaan ostavan.
 
     Jos olet määrittänyt toistuvien myyntien rivin asiakkaalle, kuten kuukausittainen täydennystilaus, voit lisätä nämä rivit tilaukseen valitsemalla **Nouda toistuvat myyntirivit** -toiminto.
-5. Valitse **Rivit**-pikavälilehden **Tyyppi**-kentässä sen tuotteen, kulun tai tapahtuman tyyppi, jonka kirjaat myyntirivin asiakkaalle.
+5. Valitse **Rivit**-pikavälilehden **Tyyppi**-kentässä sen tuotteen, kulun tai tapahtuman tyyppi, jonka kirjaat asiakkaalle myyntirivillä.
 
 6. Valitse **Nro**-kenttään varastonimikkeen tai palvelun numero.
 
-    Jätä **Nro**-kenttä tyhjäksi seuraavissa tapauksissa:
+    Jätä **Nro** -kenttä tyhjäksi, jos rivi on tarkoitettu:
 
-    * Jos rivi on tarkoitettu kommentille. Kirjoita kommentti **Kuvaus**-kenttään.
-    * Jos rivi on tarkoitettu luettelonimikkeelle. Valitse **Valitse luettelonimikkeet** -toiminto. Lisätietoja on kohdassa [Luettelonimikkeiden käsitteleminen](inventory-how-work-nonstock-items.md).
+    * Kommentti. Kirjoita kommentti **Kuvaus**-kenttään.
+    * Luettelonimike. Valitse **Valitse luettelonimikkeet** -toiminto. Lisätietoja on kohdassa [Luettelonimikkeiden muokkaaminen](inventory-how-work-nonstock-items.md).
 7. Syötä myytävien nimikkeiden lukumäärä **Määrä**-kenttään.
 
     > [!NOTE]  
-    > Kun nimikkeen tyyppi on *Resurssi* tai *Huolto*, sen määrä on aikayksikkö, kuten tunnit, rivin **Mittayksikkökoodi**-kentän mukaan. Lisätietoja on kohdassa [Nimikkeen mittayksiköiden määrittäminen](inventory-how-setup-units-of-measure.md).
+    > Kun nimikkeen tyyppi on *Resurssi* tai *Huolto*, sen määrä on aikayksikkö, kuten tunnit, rivin **Mittayksikkökoodi**-kentän mukaan. Lue lisätietoja on kohdassa [Nimikkeen mittayksiköiden määrittäminen](inventory-how-setup-units-of-measure.md).
 
-    **Rivisumma**-kenttä päivitetään näyttämään arvoa, joka saadaan kertomalla **Yksikköhinta**-kentän arvo **Määrä**-kentän arvolla.
+    **Rivisumma**-kenttä päivitetään näyttämään arvoa, joka saadaan kertomalla **Yksikköhinta**-kentän numerolla **Määrä**-kentän arvolla.
 
     Hinta ja rivin summat näytetään ALV:n kanssa tai ilman riippuen siitä, mitä valitsit **Hinnat verojen kanssa** -kenttään asiakkaan kortissa.
 8. Syötä **Rivialennus-%**-kenttään prosentti, jos haluat myöntää asiakkaalle alennuksen tuotteesta. Sama arvo päivitetään **Rivisumma**-kenttään.
 
-    Jos olet määrittänyt asiakkaan tai nimikkeen kortin **Myyntihinnat ja myyntirivien alennukset**-pikavälilehdellä erityisiä nimikehintoja, rivialennusprosentti, hinta ja summa päivitetään automaattisesti tarjousrivillä, jos sovitut hinnan ehdot täyttyvät. Lisätietoja on kohdassa [Myyntihinnan, alennuksen ja maksusopimusten tallentaminen](sales-how-record-sales-price-discount-payment-agreements.md).
-9. Voit lisätä tilausriviä koskevan huomautuksen, jonka asiakas näkee tulostetussa myyntitilauksessa, kirjoittamalla kommentin **Kuvaus**-kentän tyhjälle riville.  
-10. Toista vaiheet 5–9 jokaiselle nimikkeelle, jonka haluat myydä asiakkaalle.
+    Jos olet määrittänyt asiakkaan tai nimikkeen kortin **Myyntihinnat ja myyntirivien alennukset**-pikavälilehdellä erityisiä nimikehintoja, rivialennusprosentti, hinta ja summa päivitetään automaattisesti tarjousrivillä, jos sovitut hinnan ehdot täyttyvät. Lue lisätietoja kohdasta [Myyntihinnan, alennuksen ja maksusopimusten tallentaminen](sales-how-record-sales-price-discount-payment-agreements.md).
+9. Voit lisätä tilausriviä koskevan huomautuksen, jonka asiakas näkee tulostetussa myyntitilauksessa, kirjoittamalla kommentin tyhjälle riville **Kuvaus**-kentässä.  
+10. Toista vaiheet 5–9 jokaiselle nimikkeelle, jonka haluat asiakkaan osatavan.
 
     Rivien alla olevat summakentät päivitetään automaattisesti aina, kun luot tai muokkaat rivejä ja näytät summat, jotka kirjataan päiväkirjoihin.
 
     > [!NOTE]
-    > Hyvin harvoin kirjatut summat ovat erilaisia kuin summakenttien summat. Tämä johtuu yleensä arvonlisäveroon liittyvistä pyöristyslaskelmista.
+    > Hyvin harvoin kirjatut summat ovat erilaisia kuin summakenttien summat. Tämä johtuu yleensä arvonlisäveroon (ALV) liittyvistä pyöristyslaskelmista.
     >
     > Voit tarkistaa kirjattavat summat käyttämällä **Tilastotiedot**-sivua. Sivulla otetaan huomioon pyöristyslaskelmat. Jos valitset **Vapauta**-toiminnon, summakentät päivitetään niin, että ne sisältävät pyöristyslaskelmat.  
 
 11. Valinnaisesti voit syöttää **Laskun alennussumma** -kenttään summan, joka vähennetään **Yhteensä sis. ALV:n** -kentässä olevasta arvosta.
 
-    Jos asiakkaalle on määritetty laskualennukset, määritetty prosenttiluvun arvo lisätään automaattisesti **Asiakkaan laskun alennus-%** -kenttään, jos ehdot täyttyvät. Liittyvä summa lisätään **Laskun alennussumma ilman ALV:a** -kenttään. Lisätietoja on kohdassa [Myyntihinnan, alennuksen ja maksusopimusten tallentaminen](sales-how-record-sales-price-discount-payment-agreements.md).
-12. Jos haluat toimittaa osan tilausmäärästä, syötä määrä **Toimitettava määrä** -kenttään. Arvo kopioidaan **Laskutettava määrä** -kenttään.
+    Jos asiakkaalle on määritetty laskualennukset, määritetty prosenttiluvun arvo lisätään automaattisesti **Asiakkaan laskun alennus-%** -kenttään, jos ehdot täyttyvät. Liittyvä summa lisätään **Laskun alennussumma ilman ALV:a** -kenttään. Lue lisätietoja kohdasta [Myyntihinnan, alennuksen ja maksusopimusten tallentaminen](sales-how-record-sales-price-discount-payment-agreements.md).
+12. Jos haluat toimittaa osan tilausmäärästä, syötä määrä **Toimitettava määrä** -kenttään. Arvo kopioidaan automaattisesti **Laskutettava määrä** -kenttään.
+
+    > [!NOTE]
+    > Jos **toimitusohje**-kentän arvo on **valmis** **Toimitus ja laskutus** -pikavälilehdessä, osittaisia toimituksia ei voi kirjata. Lisätietoja on kohdassa [Osittaisten toimitusten käsitteleminen](sales-how-send-partial-shipments.md).
 13. Jos haluat laskuttaa osan toimitettavasta määrästä, syötä kyseinen määrä **Laskutettava määrä** -kenttään. Määrän on oltava pienempi kuin **Toimitettava määrä** -kentän arvo.  
 14. Kun myyntitilausrivit ovat valmiit, valitse **Kirjaa ja lähetä** -toiminto.
 
 [!INCLUDE [order-ship-invoice](includes/order-ship-invoice.md)]
 
-Asiakkaan ensisijainen asiakirjojen vastaanottomenetelmä näkyy **Kirjaa ja lähetä vahvistus** -valintaikkunassa. Voit muuttaa lähetysmenetelmän valitsemalla **Lähetä asiakirja kohteeseen** -kentän valintapainikkeen. Lisätietoja on kohdassa [Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md).
+Asiakkaan ensisijainen asiakirjojen vastaanottomenetelmä näkyy **Kirjaa ja lähetä vahvistus** -valintaikkunassa. Voit muuttaa lähetysmenetelmän valitsemalla **Lähetä asiakirja kohteeseen** -kentän valintapainikkeen. Lue lisätietoja kohdasta [Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md).
 
 Nyt järjestelmässä luodaan liittyvä nimike ja asiakastapahtumat. Myyntitilaus tulostetaan PDF-asiakirjana. Kun myyntitilaus on kirjattu kokonaan, se poistetaan myyntitilausluettelosta ja korvataan uusilla kirjattujen myyntilaskujen luettelon ja kirjattujen myyntitoimitusten luettelon asiakirjoilla.  
 
@@ -94,16 +97,20 @@ Nyt järjestelmässä luodaan liittyvä nimike ja asiakastapahtumat. Myyntitilau
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/create-sales-documents-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Katso myös
 
+[Myynnin laskutus](sales-how-invoice-sales.md)  
+[Myynnin kirjaaminen](ui-post-sales.md)  
+[Nimikkeiden lähettäminen](warehouse-how-ship-items.md)  
+[Suoratoimitusten tekeminen](sales-how-drop-shipment.md)  
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Tulosta poimintaluettelo](sales-how-print-picking-list.md)  
+[Osittaisten toimitusten prosessointi](sales-how-send-partial-shipments.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
-[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

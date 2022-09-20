@@ -1,5 +1,5 @@
 ---
-title: Business Central -sovellusten käyttäminen Power BI:ssa | Microsoft Docs
+title: Business Central -sovellusten käyttäminen Power BI:ssa
 description: Analyysitietojen, liiketoimintatietojen ja tunnuslukujen hakeminen Business Centralin tiedoista on helppoa Power BI:n Business Central -sovelluksia.
 author: jswymer
 ms.topic: get-started-article
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: cd29453c816eabd8e9475ac7e818c120bd589f3b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7a6b6de60f6262906429127b0588ca62c9dcca1b
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519183"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461073"
 ---
 # <a name="use-the-prod_short-apps-in-power-bi"></a>[!INCLUDE [prod_short](includes/prod_short.md)] -sovellusten käyttäminen Power BI:ssa
 
@@ -158,19 +158,18 @@ Power BI -sovellus näyttää vain sen [!INCLUDE[prod_short](includes/prod_short
 [Power BI -integrointiosa ja [!INCLUDE[prod_short](includes/prod_short.md)] -arkkitehtuurin yleiskatsaus](admin-powerbi-overview.md)  
 [[!INCLUDE [prod_short](includes/prod_short.md)] -tietojen käsitteleminen Power BI:ssä](across-working-with-business-central-in-powerbi.md)  
 [Power BI -raporttien luominen näyttämään [!INCLUDE [prod_long](includes/prod_long.md)] -tietoja](across-how-use-financials-data-source-powerbi.md)  
-[Power BI kuluttajille](/power-bi/consumer/end-user-consumer)  
-[Power BI -palvelun uusi ulkoasu](/power-bi/service-new-look)  
-[Pika-aloitus: Tietojen yhdistäminen Power BI Desktopiin](/power-bi/desktop-quickstart-connect-to-data)  
-[Power BI -dokumentaatio](/power-bi/)  
 [Business Intelligence](bi.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  
+[Määritä [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power BI:n tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Apps:n tietolähteenä](across-how-use-financials-data-source-powerapps.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Automatessa](across-how-use-financials-data-source-flow.md)  
-
-
+[Power BI -dokumentaatio](/power-bi/)  
+[Power BIn kuvaus](/power-bi/fundamentals/power-bi-overview)  
+[Pika-aloitus: Tietojen yhdistäminen Power BI Desktopiin](/power-bi/desktop-quickstart-connect-to-data)  
+[Johdatus tietovarastoihin](/power-bi/transform-model/datamarts/datamarts-overview)  
+[Tietovoiden ja itsepalvelutietojen valmistelun esittely](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

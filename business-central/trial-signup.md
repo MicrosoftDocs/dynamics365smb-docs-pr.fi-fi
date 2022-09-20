@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-setup
 ms.author: edupont
 ms.date: 05/25/2022
-ms.openlocfilehash: 71f1e81982b649a12604f4d5fa77db3ddec5d9bf
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7c57b608800bdd67d633698d984b34c3143418b3
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077500"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461019"
 ---
 # <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Rekisteröidy maksuttoman Dynamics 365 Business Central -kokeiluversion käyttäjäksi
 
@@ -32,7 +32,7 @@ Kokeiluympäristössä on samat toiminnot kuin maksullisessa versiossa. Alla ole
 
 ## <a name="get-started-with-a-subscription"></a>Tilauksen käytön aloittaminen
 
-Aina kun kirjaudut sovellukseen kokeilujakson aikana, jäljellä oleva aika näkyy yläreunassa olevassa sinisessä palkissa. Jos päätät tehdä tilauksen, voit etsiä [!INCLUDE[prod_short](includes/prod_short.md)] -kumppanin. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#findpartner). Jälleenmyyjäkumppanin avulla voit määrittää sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] yrityksesi tarpeiden mukaan, kuten tietojen tuomisen aiemmasta järjestelmästä. Voit myös mukauttaa [!INCLUDE[prod_short](includes/prod_short.md)]ia lisäämällä sovelluksia [Microsoftin kaupallisesta sovelluskaupasta](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Aina kun kirjaudut sovellukseen kokeilujakson aikana, jäljellä oleva aika näkyy yläreunassa olevassa sinisessä palkissa. Jos päätät tehdä tilauksen, voit etsiä [!INCLUDE[prod_short](includes/prod_short.md)] -kumppanin. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäpartnerin?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner). Jälleenmyyjäkumppanin avulla voit määrittää sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] yrityksesi tarpeiden mukaan, kuten tietojen tuomisen aiemmasta järjestelmästä. Voit myös mukauttaa [!INCLUDE[prod_short](includes/prod_short.md)]ia lisäämällä sovelluksia [Microsoftin kaupallisesta sovelluskaupasta](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] online käyttää Microsoft 365:tä. Jos yrityksesi käyttää eri tyyppisiä sähköpostiasetuksia, jälleenmyynnin kumppani voi auttaa sinua päättämään, miten tiedot siirretään tai pitäisikö käyttää [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versiota.  
 
