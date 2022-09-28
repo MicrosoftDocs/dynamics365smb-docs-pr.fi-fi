@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 498, 497
 ms.date: 08/11/2022
 ms.author: edupont
-ms.openlocfilehash: d727242c772d1eba2959747c2fcd151a7a330009
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: e68a85cfb15841f45b048cabaad2e279de19b73b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361661"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534883"
 ---
 # <a name="reserve-items"></a>Nimikkeiden varaaminen
 
@@ -107,7 +107,7 @@ Seuraava toimenpide perustuu myyntitilaukseen.
 7. Valitse **OK**, jos haluat avata vain määritettyjen nimikkeen seurantanumeroiden tarjonnan näyttävän **Varaus**-sivun. Jos jollakin tälle riville määritetyllä nimikkeen seurantanumerolla on määrittämättömiä varauksia, saat ilmoituksen varatusta määrästä.  
 8. Luo tiettyjen nimikkeen seurantanumeroiden varaus valitsemalla joko **Automaattinen varaus**- tai **Varaa nykyiseltä riviltä** -toiminto.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/manage-outbound-serial-lot-numbers/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-outbound-serial-lot-numbers/)
 
 ## <a name="see-also"></a>Katso myös
 

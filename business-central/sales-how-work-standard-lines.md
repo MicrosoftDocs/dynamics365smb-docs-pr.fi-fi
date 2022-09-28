@@ -10,12 +10,12 @@ ms.search.keywords: trade, sell, replenishment
 ms.search.form: 172
 ms.date: 07/06/2022
 ms.author: edupont
-ms.openlocfilehash: 7b5e0b32306fad7a4379aca6e3dbc23eb609c99e
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
+ms.openlocfilehash: 1d4223bb324a10644e0974f8b92564f5bf85dce2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144110"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535611"
 ---
 # <a name="create-recurring-sales"></a>Luo toistuvia myyntejä
 
@@ -76,7 +76,7 @@ Voit luoda **Luo toistuvia myyntilaskuja** -eräajolla myyntilaskuja asiakkaille
 
 Myyntilaskut luodaan asiakkaille, joilla on määrätty asiakkaan vakiomyyntikoodi ja jotkut määritetyt suoraveloitustiedot kirjaamista varten määrättynä päivämääränä.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

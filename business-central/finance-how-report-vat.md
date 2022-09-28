@@ -10,12 +10,12 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: b927faed205e64088ce399a9a973d7fcea0d1eda
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2d09a05f29f4eaa5f977580509f425073d189262
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383803"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532725"
 ---
 # <a name="report-vat-to-tax-authorities"></a>ALV:n raportointi veroviranomaisille
 
@@ -137,7 +137,7 @@ Seuraavassa taulukossa kuvataan codeunitit, jotka sinun on luotava raporttiasi v
 > [!Note]
 > Kiinnitä huomiota raportin koodiyksiköitä luodessasi **ALV-raportin versio** -kentän arvoon. Tässä kentässä on oltava sama versio, joka on tai oli veroviranomaisen vaatimuksena. Voit esimerkiksi kirjoittaa kentän arvoksi **2021** osoittamaan, että raportti noudattaa kyseisenä vuonna voimassa olleita vaatimuksia. Voimassa olevan version saat selville veroviranomaiseltasi.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

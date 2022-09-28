@@ -10,12 +10,12 @@ ms.search.keywords: API, extension, Cognitive Services, image, computer vision, 
 ms.search.form: 2026, 2027, 2029,
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8852056c5981c8db65f9048af850abbfe086c658
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 814224ed0ba9453c0e787a673dd03e2817ed666f
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361879"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524625"
 ---
 # <a name="the-image-analyzer-extension"></a>Kuvan analysointilaajennus
 
@@ -29,7 +29,7 @@ Kun laajennus on otettu käyttöön, kuvan analysointitoiminto suoritetaan aina,
 
 ## <a name="privacy-notice"></a>Tietosuojatiedot
 
-Tämä laajennus käyttää Azure Cognitive Servicesin konenäön ohjelmointirajapintaa. Sen yhdenmukaisuussitoumusten tasot voivat olla erilaiset kuin [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa. Jos otat käyttöön kuvan analysointilaajennuksen, asiakastiedot, kuten kontaktin kuva ja nimikkeen kuva, lähetetään konenäön ohjelmointirajapinnalle. Kun asennat tämän laajennuksen, suostut siihen, että tämä rajoitettu määrä tietoja lähetetään konenäön ohjelmointirajapinnalle. Ota huomioon, että voit poistaa kuvan analysointilaajennuksen käytöstä tai poistaa sen asennuksen milloin tahansa, kun haluat keskeyttää tämän toiminnon käytön. Lisätietoja on [Microsoftin luottamuskeskuksessa](https://go.microsoft.com/fwlink/?linkid=851463).
+Tämä laajennus käyttää Azure Cognitive Servicesin konenäön ohjelmointirajapintaa. Sen yhdenmukaisuussitoumusten tasot voivat olla erilaiset kuin [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa. Jos otat käyttöön kuvan analysointilaajennuksen, asiakastiedot, kuten kontaktin kuva ja nimikkeen kuva, lähetetään konenäön ohjelmointirajapinnalle. Kun asennat tämän laajennuksen, suostut siihen, että tämä rajoitettu määrä tietoja lähetetään konenäön ohjelmointirajapinnalle. Ota huomioon, että voit poistaa kuvan analysointilaajennuksen käytöstä ja poistaa sen asennuksen milloin tahansa, kun haluat keskeyttää tämän toiminnon käytön. Lisätietoja on [Microsoftin luottamuskeskuksessa](https://go.microsoft.com/fwlink/?linkid=851463).
 
 ## <a name="requirements"></a>Tarpeet
 
@@ -39,7 +39,7 @@ Kuvavaatimukset:
 * Tiedoston suurin koko: alle 4 Mt  
 * Kuvan koko: yli 50 x 50 kuvapistettä  
 
-## <a name="to-enable-image-analyzer"></a>Kuvan analysointitoiminnon ottaminen käyttöön
+## <a name="switch-on-the-image-analyzer-extension"></a>Ota käyttöön Kuvan analysointilaajennus
 
 Kuvan analysointilaajennus sisältyy [!INCLUDE[prod_short](includes/prod_short.md)]iin. Sinun tarvitsee vain ottaa se käyttöön.
 
@@ -48,79 +48,74 @@ Kuvan analysointilaajennus sisältyy [!INCLUDE[prod_short](includes/prod_short.m
 
 Ota kuvan analysointilaajennus käyttöön jollakin seuraavista toiminnoista:
 
-* Avaa nimikkeen tai kontaktin kortti. Valitse ilmoituspalkissa **Analysoi kuvia** ja noudata sitten asetusten ohjattua määritystä.  
+* Avaa nimikkeen tai kontaktin kortti. Valitse ilmoituspalkissa **Analysoi kuvaa** ja noudata sitten asetusten ohjattua määritystä.  
 * Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Palvelun yhteydet** ja valitse sitten **Kuva-analyysin asetukset**. Valitse **Ota kuvan analysointitoiminto käytötön** -valintaruutu ja noudata sitten asetusten ohjattua määritystä.  
 
     > [!TIP]  
     > **Kuva-analyysin asetukset** -sivulla voi muuttaa myös määrite-ehdotusten luotettavuustasoa. Jos esimerkiksi haluat käyttää suurempaa luotettavuustasoa, voit antaa korkeamman prosenttiluvun.
 
-## <a name="to-analyze-an-image-of-an-item"></a>Nimikkeen kuvan analysointi
+## <a name="analyze-an-item-image"></a>Analysoi nimikkeen kuvaa
 
 Seuraavaksi kerrotaan, miten analysoidaan kuva, joka oli tuotu ennen kuvan analysointilaajennuksen käyttöönottoa.  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
 2. Valitse ensin nimike ja sitten **Analysoi kuva**-toiminto.  
-3. **Kuvan analysoinnin määritteet** -sivulla on esillä havaitut määritteet, luotettavuustaso ja muita tietoja määritteestä. Käytä **Suoritettava toiminto** -asetuksia määrittääksesi, mitä määritteellä tehdään tai valitse **Lisää nimikkeen kuvaukseen** lisätäksesi määritteen nimen nimikkeen kuvaukseen. Tämä on kätevä esimerkiksi lisättäessä tietoja nopeasti. 
+3. **Kuvan analysoinnin määritteet** -sivulla on esillä havaitut määritteet, luotettavuustaso ja muita tietoja määritteestä. Käytä **Suoritettava toiminto** -asetuksia määrittääksesi, mitä määritteellä tehdään tai valitse **Lisää nimikkeen kuvaukseen** lisätäksesi määritteen nimen nimikkeen kuvaukseen. Tämä toiminto on kätevä esimerkiksi lisättäessä tietoja nopeasti.
 
-**Suoritettava toiminto** -toiminnolla on seuraavat asetukset:
+**Suoritettava toiminto** -kentässä on seuraavat asetukset:
 
-  * *Ohita*
+| Toiminto | Kuvaus |
+| ------ | ----------- |
+| *Ohita* | Toimintoja ei suoriteta. |
+| *Käytä määritteenä* | Arvo lisätään nimikkeen määritteisiin. Lisätietoja on kohdassa [Nimikemääritteiden muokkaaminen](inventory-how-work-item-attributes.md). |
+| *Käytä luokkana* | Valitsemasi arvo lisätään luokaksi. Lisätietoja on kohdassa [Nimikkeiden kategoriointi](inventory-how-categorize-items.md). |
+| *Lisää estettyjen kohteiden luetteloon* | Jos analyysi ehdottaa määritettä, jota et halua nähdä, voit estää määritteen. Mieti kuitenkin tarkasti, kun teet sen. Estettyjä määritteitä ei ehdoteta myöskään muille nimikkeille. Jos et haluakaan estää määritettä, voit valita **Katso estettyjä määritteitä** ja poistaa määritteen sitten luettelosta. |
 
-    Toimintoja ei suoriteta
-  * *Käytä määritteenä*
+> [!NOTE]  
+> Oletusarvoisesti **Nimikkeen määritteet** näyttää määritteet, joiden **Luotettavuuspistemäärä** on korkeampi kuin **Luotettavuuspistemäärän kynnysprosentti**, joka määritellään kohdassa **Kuva-analyysin asetukset**. Jos haluat nähdä kaikki havaitut määritteet, valitse **Näytä kaikki määritteet** -toiminto.
 
-    Arvo lisätään nimikkeen määritteisiin. Lisätietoja on kohdassa [Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md).
-  * *Käytä luokkana*
-
-    Valitsemasi arvo lisätään luokaksi. Lisätietoja on kohdassa [Nimikkeiden luokitteleminen](inventory-how-categorize-items.md).
-  * *Lisää estettyjen kohteiden luetteloon*
-
-    Jos analyysi ehdottaa määritettä, jota et halua nähdä, voit estää määritteen. Mieti kuitenkin tarkasti, kun teet sen. Estettyjä määritteitä ei ehdoteta myöskään muille nimikkeille. Jos et haluakaan estää määritettä, voit valita **Katso estettyjä määritteitä** ja poistaa määritteen sitten luettelosta.
-  
-    > [!NOTE]  
-    > Oletusarvoisesti **Nimikkeen määritteet** näyttää määritteet, joiden **Luotettavuuspistemäärä** on korkeampi kuin **Luotettavuuspistemäärän kynnysprosentti**, joka määritellään kohdassa **Kuva-analysaattorin asetukset**. Jos haluat nähdä kaikki havaitut määritteet, valitse **Näytä kaikki määritteet** -toiminto.
-
-## <a name="to-analyze-a-picture-of-a-contact-person"></a>Kontaktihenkilön kuvan analysointi
+## <a name="analyze-a-contact-person-picture"></a>Analysoi kontaktihenkilön kuva
 
 Seuraavaksi kerrotaan, miten analysoidaan kuva, joka oli tuotu ennen kuvan analysointilaajennuksen käyttöönottoa.  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktit** ja valitse sitten vastaava linkki.  
 2. Valitse ensin kontaktihenkilö ja sitten **Analysoi kuva**-toiminto.  
-3. Arvioi **Profiilikysely**-pikavälilehdessä ehdotukset ja tee tarvittavat korjaukset. Lisätietoja on kohdassa [Profiilikyselyjen käyttäminen yrityksen yhteyshenkilöiden luokittelemiseksi](marketing-create-contact-profile-questionnaire.md).  
+3. Arvioi **Profiilikysely**-pikavälilehdessä ehdotukset ja tee tarvittavat korjaukset. Lue lisätietoja kohdasta [Liiketoimintakontaktien luokittelu profiilikyselyiden avulla](marketing-create-contact-profile-questionnaire.md).  
 
     > [!NOTE]  
-    > 
+    >
     > Konenäön ohjelmointirajapinta palauttaa seuraavat määritteet:
+    >
     > * *ikä*
     >
     >     Arvioitu "visuaalinen ikä" vuosissa. Biologisen iän sijaan kuvaa sitä, kuinka vanhalta henkilö näyttää.
     > * *sukupuoli*
     >
     >    Mies tai nainen.
-    > 
+    >
     > Konenäön ohjelmointirajapinta ei palauta ikä- ja sukupuolimääritteiden luottamustasoa.
   
-## <a name="to-use-your-own-account-for-the-computer-vision-api"></a>Oman tilin käyttäminen konenäön ohjelmointirajapintana
+## <a name="use-your-own-computer-vision-api-account"></a>Käytä omaa konenäön ohjelmointirajapintatiliäsi
 
-Voit käyttää konenäön ohjelmointirajapintana myös omaa tiliäsi, jos haluat esimerkiksi analysoida rajoituksen ylittävän määrän kuvia.  
+Voit käyttää konenäön ohjelmointirajapintana myös omaa tiliäsi, jos haluat esimerkiksi analysoida isomman määrän kuvia kuin mitä oletusintegraatio tarjoaa.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kuva-analysaattorin asetukset** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kuva-analyysin asetukset** ja valitse sitten vastaava linkki.
 2. Anna konenäön ohjelmointirajapinnan mukana toimitettu **API:n URI** ja **API-avain**.  
 
     > [!NOTE]  
-    > API:n URI-osoitteen loppuun on lisättävä **/analyze**, jos se puuttuu. Esimerkki: ```https://cronus.api.cognitive.microsoft.com/vision/v1.0/analyze```.
+    > API:n URI-osoitteen loppuun on lisättävä **/analyze**, jos se puuttuu. Esimerkiksi: ```https://cronus.api.cognitive.microsoft.com/vision/v2.0/analyze```.
 
-## <a name="to-see-how-many-analyses-you-have-left-in-the-current-period"></a>Kuluvan jakson jäljellä olevien analyysien näyttäminen
+## <a name="see-how-many-analyses-you-have-left-in-the-current-period"></a>Kuluvan jakson jäljellä olevien analyysien näyttäminen
 
 Voit tarkistaa, kuinka monta analyysia olet kuluvalla jaksolla tehnyt ja kuinka monta voit vielä tehdä.  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kuva-analysaattorin asetukset** ja valitse sitten vastaava linkki.  
-2. **Rajatyyppi**, **Raja-arvo** ja **Suoritetut analyysit** sisältävät hyödyllisiä käyttötietoja.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kuva-analyysin asetukset** ja valitse sitten vastaava linkki.
+2. **Rajatyyppi**-, **Raja-arvo**- ja **Suoritetut analyysit** -kentät sisältävät hyödyllisiä käyttötietoja.  
 
-## <a name="to-stop-using-the-image-analyzer-extension"></a>Kuvan analysointilaajennuksen käytön lopettaminen
+## <a name="stop-using-the-image-analyzer-extension"></a>Kuvan analysointilaajennuksen käytön lopettaminen
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Palvelun yhteydet** ja valitse sitten **Kuva-analysaattorin asetukset**.  
-2. Poista **Ota kuvan analysointitoiminto käyttöön** valintaruudun valinta.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Palvelun yhteydet** ja valitse sitten **Kuva-analyysin asetukset**.  
+2. Poista **Ota kuvan analysointitoiminto käyttöön** -kentän valinta.  
 
 Vaihtoehtoisesti voit poistaa laajennuksen kokonaan. Voit hakea sen aina uudelleen AppSourcesta. Lisätietoja on kohdassa [Laajennusten asentaminen Business Centraliin ja asennusten poistaminen](ui-extensions-install-uninstall.md#uninstall-an-extension).  
 

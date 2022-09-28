@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 21, 9650
 ms.date: 04/07/2022
 ms.author: edupont
-ms.openlocfilehash: 722d457705b80787aa60c49ff02e4ba36ff6f250
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 809e29160e45bed28a5d79a7af32c3e98b19a490
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076849"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531591"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Asiakirja-asettelujen määrittäminen asiakkaille ja toimittajille
 
@@ -51,7 +51,7 @@ Voit säästää aikaa lähettäessäsi asiakirja asiakkaan ja toimittajan yhtey
 1. Valitse **Asiakirjan asettelut** -sivulla **Valitse sähköpostiosoite kontakteista** -toiminto siltä raporttiasettelun riviltä, jonka haluat lähettää asiakkaan tietylle kontaktille.
 2. Valitse **Yhteyshenkilöt**-sivulla vähintään yksi yhteyshenkilö ja valitse sitten **OK**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

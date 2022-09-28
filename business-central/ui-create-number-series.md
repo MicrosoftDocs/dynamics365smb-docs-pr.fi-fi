@@ -10,12 +10,12 @@ ms.search.keywords: numbers, numbering
 ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
 ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: cef011656fcd705a598d54719d4f7328debb8cea
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 980159c84e139b5adde024d7c6b1ff832eb79923
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077474"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528596"
 ---
 # <a name="create-number-series"></a>Numerosarjojen luominen
 
@@ -98,7 +98,7 @@ Seuraavaksi selitetään, miten myyntialueen numerosarja määritetään. Myös 
 
 Valitulla numerolla täytetään kyseisen kortin tai asiakirjan **Nro**-kenttä numerosarjarivillä tehtyjen asetusten mukaisesti.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/number-series-trail-codes-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 

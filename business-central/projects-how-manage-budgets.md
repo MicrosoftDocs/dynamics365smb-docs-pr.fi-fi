@@ -10,12 +10,12 @@ ms.search.keywords: project budget, forecast
 ms.search.form: 1002, 1007
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bc3d630e232e560987daefaabbe7ea8b5ddc681c
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 47a3e85a806db2f7c4b0c0656016594d5f7818dc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075367"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529971"
 ---
 # <a name="manage-job-budgets"></a>Projektibudjettien hallinta
 
@@ -49,7 +49,7 @@ Viittaa **Rivityyppi**-kentässä seuraaviin tietoihin.
 
 Lisätietoja budjetoitujen ja todellisten projektihintojen ja -kustannusten kirjaamisesta on kohdassa [Projektien käytön kirjaaminen](projects-how-record-job-usage.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/set-up-job-planning-lines/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-job-planning-lines/)
 
 ## <a name="see-also"></a>Katso myös
 

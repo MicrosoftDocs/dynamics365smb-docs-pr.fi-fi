@@ -10,12 +10,12 @@ ms.search.keywords: transportation, added cost, landed cost
 ms.search.form: 5709, 5800, 5805, 5814
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 8de7d110e54660d4d1c79cd6b65a69b8476d9e9a
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 626af5eb217548b3813a137c16b7a84c1e860da2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075861"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528731"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Kaupan lisäkustannusten huomiointi nimikekulujen avulla
 Voit varmistaa oikean arvostuksen liittämällä varastonimikkeisiin lisäkustannukset, kuten nimikkeiden ostamisessa ja myynnissä syntyvät rahti-, käsittely-, vakuutus- ja kuljetuskulut. Ostoissa ostetun nimikkeen kokonaiskustannukset koostuvat toimittajan ostohinnasta ja kaikista suorista lisänimikekuluista, jotka voidaan määritellä yksittäisiin vastaanottoihin tai palautustoimituksiin. Myynnissä Myytyjen nimikkeiden lähetyskulujen tietäminen voi olla yritykselle yhtä tärkeää kuin ostettujen nimikkeiden kokonaiskustannusten tietäminen.
@@ -79,7 +79,7 @@ Jos vastaanotit nimikekulun laskun alkuperäisen laskun vastaanoton kirjaamisen 
 
 Erillisen ostolaskun nimikekulu on nyt määritetty kirjatun oston vastaanoton nimikkeelle, joten nimikkeen varastoarvo päivitetään nimikekulun kustannuksella.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/post-purchase-item-charges-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

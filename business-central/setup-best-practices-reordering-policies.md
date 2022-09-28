@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b71ea56c67df7689a268e633880d16fac616027b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: f12a5156cbad785ccede27bbe176b7e3ccd74d9c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077526"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531051"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Asetukset - parhaat käytännöt: uusintatilaustavat
 
@@ -41,7 +41,7 @@ Seuraava taulukko sisältää parhaat käytännöt neljästä tavasta valitsemis
 |**Kiinteä uusintatil. määrä**|Käytä C-nimikkeisiin.<br /><br /> Yhdistä uusintatilauspisteparametrien kanssa.<br /><br /> Käytä tuotannon alimman tason komponenteissa.<br /><br /> Älä käytä, jos nimike on usein varattu.|C-nimikkeet, kuten teekupit, ovat vähäsen arvon nimikkeitä, jolla on suuri ja säännöllinen tilausnopeus. Paras uusintatilaustapa C-nimikkeille on siis sellainen, joka varmistaa jatkuvan saatavuuden pysymällä aina uusintatilauspisteen yläpuolella.<br /><br /> Jos käyttäjä varaa määrää kaukaista kysyntää varten, suunnittelun perusta häiriintyy. Vaikka oletettu varastotaso on hyväksyttävä suhteessa uusintatilauspisteeseen, määrät eivät ehkä ole käytettävissä varauksen vuoksi.|  
 |**Enimmäismäärä**|Käytä C-nimikkeisiin, joissa on korkeat ylläpitokustannukset tai tallennusrajoitukset.<br /><br /> Yhdistä yksi tai useampi tilauksen valitsin (minimi/maksimi tilausmäärä tai monitilaus).|C-nimikkeet, kuten teekupit, ovat vähäsen arvon nimikkeitä, jolla on suuri ja säännöllinen tilausnopeus. Paras uusintatilaustapa C-nimikkeille on siis sellainen, joka varmistaa jatkuvan saatavuuden pysymällä aina uusintatilauspisteen yläpuolella, mutta varaston enimmäiskapasiteetin alapuolella.<br /><br /> Kun muutat ehdotettua järjestyä, haluat ehkä laskea tilausmäärää määritettyyn enimmäistilausmäärään tai nostaa määritettyyn minimitilausmäärään tai pyöristää vastaamaan määritettyä tilauskerrannaista. **Huomautus:**  Jos tätä käytetään uusintatilauspisteen kanssa, varaston määrä pysyy uusintatilauspisteen määrän ja enimmäismäärän välillä.|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/replenish-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/replenish-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

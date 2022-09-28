@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff, resource, time sheet
 ms.search.form: 977, 462, 76, 77
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: a1c5314d8aba0b31d02491da1e588f7a23c83a38
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7d019f9003ccd3ca0b2da7157d2d30f98d118e63
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078958"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532023"
 ---
 # <a name="set-up-time-sheets"></a>Aikaraporttien määrittäminen
 
@@ -94,7 +94,7 @@ Seuraavissa osissa kuvataan, miten voit määrittää tuntiraportteja, jos et k�
 > [!NOTE]  
 > Aikaraportin hyväksyjän tunnusta ei voi muuttaa, jos on aikaraportteja, joita ei ole vielä käsitelty ja joiden tila on **Lähetetty** tai **Auki**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also"></a>Katso myös
 

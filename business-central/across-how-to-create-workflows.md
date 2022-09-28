@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: 301856bcf246f7546992de588472459e1bbec378
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 7f3db5df7c4ea03969eff2efe1a8d019f006ad40
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130089"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531807"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Työnkulkujen luominen liiketoimintaprosessin tehtävien yhdistämista varten
 
@@ -182,12 +182,12 @@ Seuraavassa kuvassa on yleiskuvaus tämän menettelyn tuloksesta.
 
 Testaa seuraavaksi työnkulku avaamalla aiemmin luotu toimittajakortti ja muuttamalla toimittajan nimeä. Varmista, että hyväksymispyyntö lähetetään toimittajan nimen muuttamisen jälkeen.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
 ## <a name="see-also"></a>Katso myös
 
 [Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md)  
-[Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)  
+[Hyväksyjäkäyttäjien määrittäminen](across-how-to-set-up-approval-users.md)  
 [Työnkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md)  
 [Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen](across-how-to-view-archived-workflow-step-instances.md)  
 [Työnkulkujen poistaminen](across-how-to-delete-workflows.md)  

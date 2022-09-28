@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 03/07/2022
 ms.author: jswymer
-ms.openlocfilehash: af90fd2361a42c06f8af360119bb391efb184de5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 612dc8ada170ae6925bd3121db324cec1624ce68
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515301"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530133"
 ---
 # <a name="legacy-set-the-layout-used-by-a-report"></a>(Vanha) Raportin käyttämän asettelun määrittäminen
 
@@ -62,7 +62,7 @@ Valitsemasi mukautetun asettelun nimi näkyy nyt **Mukautetun asettelun kuvaus**
 
 Voit nyt siirtyä asiakas- ja toimittajakortteihin ja määrittää, mitä asetteluita käytetään eri asiakirjoissa, joita lähetät kyseessä olevalle asiakkaalle tai toimittajalle – esimerkiksi tilausvahvistuksissa tai maksumuistutuksissa. Lisätietoja on kohdassa [Asiakkaiden ja toimittajien asiakirja-asettelujen määrittäminen ](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  

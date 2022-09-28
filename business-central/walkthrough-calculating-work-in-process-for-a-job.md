@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 16adda82dbc45bcff61934d57de7a4e46f8477cf
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 14c5f0db9750c4c87a7606044204864d115acdd2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075289"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529918"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Vaihekuvaus: Projektin keskeneräisen työn laskeminen
 
@@ -165,7 +165,7 @@ Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikata
 
  Tämä vaihekuvaus on ohjannut sinut keskeneräisen työn laskemisen vaiheiden läpi kohteessa [!INCLUDE[prod_short](includes/prod_short.md)]. Jos projektit ovat suuria, kustannukset kannattaa ehkä siirtää KET-tilille ajoittain siksi aikaa, että projekti valmistuu. Tässä vaihekuvauksessa osoitettiin, milloin ja miksi tehtävärivejä täytyy jättää pois laskennasta sekä milloin uudelleenlaskeminen on tarpeen. Se myös näyttää, milloiin uudellenlaskenta on suoritettava. Ja lopuksi, näissä vaiheittaisissa ohjeissa kerrotaan, miten kirjaat KET:n pääkirjanpitoon. Mukana on myös esimerkki siitä, miten voit kääntää KET-kirjauksen pääkirjanpitoon.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/calculate-post-job-wip/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/calculate-post-job-wip/)
 
 ## <a name="see-also"></a>Katso myös
 

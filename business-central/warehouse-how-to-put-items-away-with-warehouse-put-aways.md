@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3e638e00fc648a720d09520fb62aa3ad25324673
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: af211e70e43a70999822a513fc79907dbcd74429
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078270"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529836"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Nimikkeiden hyllyttäminen ja fyysisen varaston hyllytykset
 
@@ -75,7 +75,7 @@ Kun hyllytysmallin ehtoja vastaavia varastopaikkoja on useita, ohjelma käyttä�
 4.  Jos vastaanotto on hyllytetty osittain tai sitä ei ole hyllytetty lainkaan, valitse **Luo hyllytys** -toiminto.  
 5.  Täytä eräajon pyyntösivu haluamasi kaltaisen hyllytyksen luomista varten ja valitse **OK**-painike.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/receive-put-away-items/)
 
 ## <a name="see-also"></a>Katso myös
 

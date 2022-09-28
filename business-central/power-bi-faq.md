@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Power BI, reports, faq, errors
 ms.date: 04/22/2021
 ms.author: jswymer
-ms.openlocfilehash: e5f98a7851702f95b627e69544eb181d3d0d5206
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 487e93faa458f34c10b6928b862a3abecacc2759
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077916"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531402"
 ---
 # <a name="power-bi--faq"></a>Power BI – usein kysytyt kysymykset
 
@@ -250,7 +250,7 @@ Jotkut ohjelmointirajapintasivut, kuten useimmat API v2.0 -sivut, sisältävät 
 
 ---
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

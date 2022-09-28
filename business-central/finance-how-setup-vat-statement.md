@@ -10,12 +10,12 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 317, 318, 320, 474
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: bda2bc95c78f5cc2119a6725b7dd57491938d67b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 12b51af89894c428120ddd6c4639a397bd8a4d97
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075523"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529242"
 ---
 # <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>ALV-ilmoitusmallien ja ALV-ilmoitusten nimien määrittäminen
 
@@ -45,7 +45,7 @@ Kun ALV-ilmoitus on määritetty, voit esikatsella sitä ja varmistaa, että se 
 4. Niillä riveillä, joiden **Tyyppi**-kentässä lukee **ALV-tapahtumien summat**, näkyy luettelo ALV-tapahtumista, kun valitset summan **Sarakkeen summa** -kentässä.
 5. Voit käyttää mukauttamista, kun haluat näyttää lisää kenttiä riveillä. Esimerkiksi ei-realisoituneen perussumman ja ei-realisoituneen ALV:in summan, jos käytät ei-realisoitunutta ALV:ia.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

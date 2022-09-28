@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 189, 190, 191
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: bf1cb735e823ee22a9bd65a9b69955b841adc442
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ff1b79447091df53f45eff49779e1c73b2fe0fd5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131143"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534181"
 ---
 # <a name="receive-and-convert-electronic-documents"></a>Sähköisten asiakirjojen vastaanottaminen ja muuntaminen
 
@@ -58,7 +58,7 @@ Seuraavassa kuvataan, miten toimittajan lasku vastaanotetaan ja muunnetaan ostol
 
     Yleensä vääriin tai puuttuviin perustietoihin liittyvät virheet näkyvät [!INCLUDE[prod_short](includes/prod_short.md)]in **Virhesanomat**-pikalomakkeessa.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 

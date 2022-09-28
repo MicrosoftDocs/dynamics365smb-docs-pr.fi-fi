@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: ce0b3e4208cddba15c7358659e404ba2c868f11c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: dfe8f1aa36f19372363c5e23994328d15f8a5b77
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514541"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534262"
 ---
 # <a name="assembly-management"></a>Kokoonpanon hallinta
 Tukeakseen yrityksiä, jotka toimittavat asiakkailleen tuotteita yhdistämällä osia yksinkertaisissa prosesseissa ilman tuotantotoimintojen tarvetta, [!INCLUDE[prod_short](includes/prod_short.md)] sisältää ominaisuuksia, jotka kokoavat nimikkeitä, joissa on olemassa olevia ominaisuuksia, kuten myynti, suunnittelu, varaukset, ja varastointi.  
@@ -46,7 +46,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Tutustu siihen, mikä ero on kokoonpanon tuoterakenteella ja tuotannon tuoterakenteella, sekä niihin liittyviin käsittelyeroihin.|[Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)|
 |Tutustu siihen, miten kokoonpanon kulutusta ja tuotosta käsitellään, kun kokoonpanotilauksia kirjataan, ja miten tästä koituvat nimike- ja resurssikustannukset käsitellään ja jaetaan pääkirjanpitoon.|[Rakennetiedot: Kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

@@ -7,12 +7,12 @@ ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
 ms.date: 06/14/2021
-ms.openlocfilehash: 251376700e140043705ce05fcf47f7ebbb0dcd4b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 422466c83d3f86f9afa611f5ef578482eadaf275
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079608"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531753"
 ---
 # <a name="integrating-with-microsoft-dataverse"></a>Integrointi Microsoft Dataversein kanssa
 
@@ -31,7 +31,7 @@ Seuraavat ohjeet käsittelevät [!INCLUDE[prod_short](includes/cds_long_md.md)]i
 
 ## <a name="getting-started-with-prod_short"></a>[!INCLUDE[prod_short](includes/cds_long_md.md)]in käytön aloittaminen
 
-Jos haluat aloittaa [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen käyttämisen, tarvitset Microsoft Power Apps -tilin. Jos sinulla ei vielä ole Power Apps -tiliä, saat ilmaisen tilin käymällä osoitteessa [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) ja valitsemalla **Aloita ilmaiseksi** -linkin. Lisätietoja [!INCLUDE[prod_short](includes/cds_long_md.md)]n käytön aloittamisesta on [Dataversen käytön aloittaminen](/learn/modules/get-started-with-powerapps-common-data-service/) -moduulissa Microsoft Learnissa.
+Jos haluat aloittaa [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen käyttämisen, tarvitset Microsoft Power Apps -tilin. Jos sinulla ei vielä ole Power Apps -tiliä, saat ilmaisen tilin käymällä osoitteessa [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) ja valitsemalla **Aloita ilmaiseksi** -linkin. Lisätietoja [!INCLUDE[prod_short](includes/cds_long_md.md)]n aloittamisesta on [Dataversen käytön aloittaminen](/training/modules/get-started-with-powerapps-common-data-service/) -moduulissa Microsoftin koulutuksissa.
 
 ## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Kaksisuuntainen tai yksisuuntainen tietojen synkronointi
 
@@ -62,7 +62,7 @@ Lisätietoja kustakin roolista, kuten käyttöoikeuksista ja käyttöoikeustasoi
 
 Yhteyden muodostamisen aikana luodaan integrointitaulukon yhdistämismääritykset, joita tarvitaan tietojen synkronoimiseen. [!INCLUDE[prod_short](includes/cds_long_md.md)]n entiteetit yhdistetään taulukoihin ja taulukkokenttiin Business Centralissa integrointitaulukoiden kautta. Lisätietoja on kohdassa [Synkronoinnin vakioentiteettien yhdistämismääritys](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/use-model-driven-apps-common-data-service/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-model-driven-apps-common-data-service/)
 
 ## <a name="see-also"></a>Katso myös
 

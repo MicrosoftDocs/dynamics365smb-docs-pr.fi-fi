@@ -9,12 +9,12 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, work
 ms.date: 05/12/2022
 ms.author: edupont
 author: jswymer
-ms.openlocfilehash: f1128a9fb4e9643286e4305695e1d40719d86301
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 056fe537df2fba23e02cb4e70675937cde724fbf
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079322"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533022"
 ---
 # <a name="use-prod_short-in-power-automate-flows"></a>[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen käyttäminen Power Automate -työnkuluissa
 
@@ -51,7 +51,7 @@ Voit luoda työnkulkuja [powerautomate.microsoft.com ](https://powerautomate.mic
 
 Voit saada yleiskuvan kaikista työnkuluista, joihin sinulla on käyttöoikeus, valitsemalla valikosta **Hallitse työnkulkuja** -toiminnon **Power Automate** -valikosta. Luettelo avautuu uuteen selainvälilehteen, ja kirjaudut sisään Power Automateen automaattisesti. Siellä voit nähdä, milloin jokainen työnkulku viimeksi suoritettiin.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/use-power-automate/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-power-automate/)
 
 ## <a name="see-also"></a>Katso myös
 

@@ -10,12 +10,12 @@ ms.search.keywords: COA, cha of acc
 ms.search.form: 16, 17, 18, 118, 386, 391
 ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: f2ef4432d91d9f647a4bea58febbdfd5513a4350
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 57dadabe2e96654a919127f17fcc6391786eb90f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520280"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533614"
 ---
 # <a name="set-up-or-change-the-chart-of-accounts"></a>Tilikartan määrittäminen tai muuttaminen
 
@@ -58,7 +58,7 @@ Kun **Estä KP-tilien poisto** -kentän arvo on *Kyllä*, et voi poistaa KP-tile
 
 Suosittelemme, että määrität **Estä KP-tilien poisto** -kentän arvoksi *Kyllä*. Suosittelemme myös, että olet aina määrittänyt päivämäärän **Tarkista, voidaanko KP-tili poistaa tämän jälkeen** -kenttään, kuten silloin, kun Finance-tiedot on tallennettava.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 

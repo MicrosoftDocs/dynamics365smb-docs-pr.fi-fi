@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 07dfa98c8499a2a9c7de9d5005d941f8d65aa7fb
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 0f1e728b67555fcbde041f556265824b1a64a169
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805072"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529026"
 ---
 # <a name="welcome-to-prod_long"></a>Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin
 
@@ -30,11 +30,11 @@ Jos sinulla on jo [!INCLUDE[prod_short](includes/prod_short.md)], kirjaudu sivus
 
 ## <a name="microsoft-docs"></a>Microsoft Docs
 
-Vasemmalla olevasta siirtymispaneelista löydät tietoa [!INCLUDE[prod_short](includes/prod_short.md)]:n käyttämisestä yrityksessäsi. Linkkien etsiminen paljon käytettyihin ominaisuuksiin [Liiketoimintaprosessit](#business-processes)-osassa. Lisätietoja on myös kohdassa [Lisätietojen etsiminen docs.microsoft.com-sivustossa](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more).  
+Vasemmalla olevasta siirtymispaneelista löydät tietoa [!INCLUDE[prod_short](includes/prod_short.md)]:n käyttämisestä yrityksessäsi. Linkkien etsiminen paljon käytettyihin ominaisuuksiin [Liiketoimintaprosessit](#business-processes)-osassa. Lisätietoja on [Lue lisää tuotteen dokumentaation käyttämisestä](product-help-and-support.md#learn-more-using-the-product-documentation) -osiossa.
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-Voit myös [vierailla videokirjastossamme](across-videos.md) tai aloittaa [Microsoft Dynamics 365 Business Centralin käytön aloittaminen](/learn/paths/get-started-dynamics-365-business-central/) -oppimispolun [Microsoft Learnissa](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
+Voit myös vierailla [videokirjastossamme](across-videos.md) tai aloittaa [Microsoft Dynamics 365 Business Centralin käytön aloittaminen](/training/paths/get-started-dynamics-365-business-central/) -oppimispolun [Microsoftin koulutuksissa](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 > [!NOTE]
 > Ellei muuta todeta, Docs.microsoft.com-sivusto sisältö vastaa uusinta [!INCLUDE[prod_short](includes/prod_short.md)] online -versiota. Jos organisaatiossa on käytössä jokin muu [!INCLUDE[prod_short](includes/prod_short.md)] online -versio, osa ominaisuuksista ei ehkä ole vielä saatavana. Jos organisaatiossa on käytössä [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, se voi olla aikaisempi versio. Lisätietoja on kohdassa [Usein kysytyt kysymykset](across-faq.yml).
@@ -78,7 +78,7 @@ Seuraavat osiot viittaavat tärkeimpiin artikkeleihin, joiden avulla voit tutust
 
 ## <a name="learn"></a>Lisätietoja
 
-[!INCLUDE[prod_short](includes/prod_short.md)]in maksuttoman verkko-oppimissisällön etsiminen [Microsoft Learnissa](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
+[!INCLUDE[prod_short](includes/prod_short.md)]in maksuttoman verkko-oppimissisällön etsiminen [Microsoftin koulutuksissa](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).  
 
 Videokirjastossa voi katsoa myös uusia ja usein käytettyjä ominaisuuksia koskevia videoita. Lisätietoja on [videokirjastossamme](across-videos.md).  
 
@@ -94,11 +94,11 @@ Videokirjastossa voi katsoa myös uusia ja usein käytettyjä ominaisuuksia kosk
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 
 ## <a name="see-also"></a>Katso myös
 
-[Dynamics 365 Business Central Microsoft Learnissa](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Dynamics 365 Business Central -opetustoiminta](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Business Centralin pika-aloitus](quick-start-business-central.md)  
 [Business Centralin käytön aloittaminen](ui-get-ready-business.md)  
 [Microsoftin videokirjastoon tutustuminen](across-videos.md)  
@@ -107,7 +107,7 @@ Videokirjastossa voi katsoa myös uusia ja usein käytettyjä ominaisuuksia kosk
 [[!INCLUDE[prod_short](includes/prod_short.md)]in hakeminen mobiililaitteeseen](install-mobile-app.md)  
 [Dimensioiden käyttäminen](finance-dimensions.md)  
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
-[Lisätietojen etsiminen docs.microsoft.com-sivustossa](product-help-and-support.md#use-the-docsmicrosoftcom-site-to-learn-more)  
+[Lue lisää tuotteen dokumentaation käyttämisestä](product-help-and-support.md#learn-more-using-the-product-documentation)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in vaatimustenmukaisuus](compliance/compliance-overview.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -verkkopalvelun ehdot](compliance/compliance-service-compliance.md#service-terms)  
 [Business Central Onlinen suuret ja pienet päivitykset](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  

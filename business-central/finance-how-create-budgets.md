@@ -10,12 +10,12 @@ ms.search.keywords: postpone
 ms.search.form: 113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 9219, 9239, 9373, 9374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 87fb665d57aaa6c66b4b3c2659d9e93a6e51239d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 22f0ecdf185d3b2e31d23dd2492223179328d103
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514041"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533130"
 ---
 # <a name="create-gl-budgets"></a>KP-budjettien luominen
 
@@ -49,7 +49,7 @@ Niin kuin käytännössä kaikkia muitakin sivuja voit viedä budjettisivujen ti
 > [!NOTE]
 > Tilikartassa, johon KP-budjetit perustuvat, on Otsikko-tilityypin rivejä, joissa ilmoitetaan otsikon alla olevien rivien määrä. Kun viet KP-budjetin, kaikkien rivien tiedot viedään tilityypistä riippumatta. Kuitenkin vain Kirjaus-tilityypin rivien tiedot voida tuoda takaisin. Näin ollen: <br /><br /> **Kun tuot KP-budjetin, kaikki Otsikko-riveillä olevat arvot poistetaan.** <br /><br /> Tällä tavoin estetään virheelliset yhteissummat sen jälkeen, kun Excelissä luotuja tai muokattuja tietoja on tuotu.<br /><br /> **Esimerkkitilanne**: Tiedät, että uudet budjetoidut palkkakustannukset tulevat olemaan PVA:na 1 200 000. Haluat, että palkkaosaston budjetissa on tietyt kolme (Kirjaus-tilityypin) riviä: kokoaikaiset työntekijät, osa-aikaiset työntekijät ja satunnaiset työntekijät. Nämä kolme riviä ryhmitellään Palkat-otsikkorivin kohdalle.<br /><br />Lisää 1 200 000 Otsikko-riville, vie budjetti Exceliin ja lähetä se sitten palkkaosastolle ja pyydä heitä jakamaan PVA 1 200 000.<br /><br /> Palkkaosasto jakaa summan kolmelle kirjaustilille. Kun tuot KP-budjetin takaisin, uudet Excel-tiedot on täytetty kolmelle tilille. Niiden summa on PVA 1 200 000 ja otsikkorivi on tyhjä.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 

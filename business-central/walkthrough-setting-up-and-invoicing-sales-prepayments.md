@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 1c26882670321a3a2957302413f6f7ebd11a1f6d
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: aaa277f97d1abe36fdffbb97212f1498723e116c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362304"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535529"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen
 
@@ -241,7 +241,7 @@ Vaihekuvauksessa käsiteltiin myös ennakkomaksulaskun kirjaamista, toisen ennak
 
 Ennakkomaksuominaisuuksien avulla on helppo määrittää ja pakottaa asiakkaiden ja nimikkeiden ennakkomaksusääntöjä. Niiden avulla voit myös kirjata jokaisen maksun laskua vastaan.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

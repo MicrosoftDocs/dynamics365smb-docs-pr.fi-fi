@@ -10,12 +10,12 @@ ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchas
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5f0a26e9a6784f1d0ae2b7c8881667a51560cbf6
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 5afe559e9f3e741db5c75b5cf3026caf50a1ce97
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077682"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530700"
 ---
 # <a name="set-up-prices-and-discounts"></a>Hintojen ja alennusten määrittäminen
 
@@ -119,7 +119,7 @@ Voit linkittää alennusprosentit tiettyihin laskusummiin **Laskualennukset**-si
 Spesifiseen laskusummaan voi linkittää alennusprosentin lisäksi (tai sen sijaan) palvelumaksusumman.  
 
 > [!TIP]  
-> Ennen tietojen kirjoittamista on suositeltavaa valmistella alennusrakenne etukäteen, jolloin on helpompi nähdä, mitkä asiakkaat linkitetään samaan laskualennussivuun. Lisätietoja myynnin alennuksista on kohdassa [Alennusten määrittäminen asiakkaillesi](/learn/modules/customer-discounts-dynamics-365-business-central/index)Microsoft Learnissa.  
+> Ennen tietojen kirjoittamista on suositeltavaa valmistella alennusrakenne etukäteen, jolloin on helpompi nähdä, mitkä asiakkaat linkitetään samaan laskualennussivuun. Lisätietoja myynnin alennuksista on kohdassa [Alennusten määrittäminen asiakkaille](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
 ### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Laskualennuksen määrittäminen asiakkaalle
 
@@ -205,7 +205,7 @@ Jos haluat päivittää monien nimikkeiden hinnat, sinun täytyy luoda uusi hinn
 
 Kun olet kirjannut myynnin ja ostojen erikoishinnat ja rivialennukset, [!INCLUDE[d365fin](includes/d365fin_md.md)] varmistaa, että nimikekaupan tuotto on aina optimaalinen laskemalla automaattisesti parhaan hinnan myynti- ja ostoasiakirjoille sekä projekti- ja nimikepäiväkirjan riville. Lisätietoja on kohdassa [Parhaan hinnan laskenta](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/customer-discounts-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/customer-discounts-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

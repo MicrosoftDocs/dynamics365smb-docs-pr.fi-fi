@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 02/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: df98aeba310bdc1e111834277b28c4c8edc9085b
-ms.sourcegitcommit: 0513051fd4a3b804188e7404569e802ec327cf84
+ms.openlocfilehash: 22bd7fcf0eff9b3f7c41975a32127d9d482c42cc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "9041424"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534289"
 ---
 # <a name="set-up-email"></a>Määritä sähköposti
 Ihmiset yrityksissä lähettävät päivittäin sähköpostitse tietoja ja asiakirjoja, kuten myynti- ja ostotilauksia ja laskuja. Järjestelmänvalvojat yhdistää yhden tai useamman sähköpostitilin [!INCLUDE[prod_short](includes/prod_short.md)] -sovellukseen, joten voit lähettää asiakirjoja avaamatta sähköpostisovellusta. Voit kirjoittaa jokaisen viestin yksitellen perusmuotoilutyökaluilla, kuten fontilla, tyyleillä, väreillä ja niin edelleen, ja lisätä liitteitä, joiden koko on enintään 100 Mt. Raporttiasettelujen avulla järjestelmänvalvojat voivat sisällyttää asiakirjoista vain tärkeimmät tiedot. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md).
@@ -229,7 +229,7 @@ Kun olet rekisteröinyt sovelluksen Azure-portaalissa, voit [!INCLUDE[prod_short
 
 -->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/set-up-email/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-email/)
 
 ## <a name="see-also"></a>Katso myös
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 242c3e65401f188068c6e1fbea20212d4a3a7653
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 7238b4de3b4a48c61560bc9a96a6923afe82eb93
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076147"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533479"
 ---
 # <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Vaihekuvaus: tehdään kassavirtaennusteita käyttäen KP-raporttimalleja
 
@@ -142,7 +142,7 @@ Ken on nyt valmis määrittämään sarakeasettelun KP-raporttimallin nimeen.
 2. **KP-raporttimallin yleiskuvaus** -sivulla voit valita summan ja näyttää sitten kassavirran tuotantoennustetapahtumat, joista summa muodostuu. Lisäksi voit tarkastella laskentakaavaa, jota käytetään summan laskemisessa. Voit myös suodattaa määrät dimension ja päivämäärän mukaan.  
 3. Tulosta kassavirtaennuste valitsemalla **Tulosta**-toiminto.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/forecast-cash-flow-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

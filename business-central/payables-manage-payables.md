@@ -10,12 +10,12 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 161, 254, 256, 347, 574, 599, 9002
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7365ca162baf7aacb0cac16d5eee3fdec0e7c098
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c3049cc4dd488a7ff7648d2a11d0371ac463daa6
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523343"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531439"
 ---
 # <a name="managing-payables"></a>Ostovelkojen hallinta
 
@@ -35,7 +35,7 @@ Seuraavassa taulukossa on ostoreskontran tehtäväsarja ja linkit tehtäviä kuv
 |Varmista varaston oikea arvostus määrittämällä lisätyt nimikekulut, kuten nimikkeiden ostamisessa syntyvät rahti-, käsittely-, vakuutus- ja kuljetuskulut.|[Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md)|
 |Hyvitä työntekijöiden liiketoimintaan liittyvät henkilökohtaiset kulut suorittamalla maksu työntekijän pankkitilille.|[Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 [Osto](purchasing-manage-purchasing.md)  

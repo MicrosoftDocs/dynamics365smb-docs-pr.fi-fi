@@ -5,7 +5,7 @@
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)-->
 ## Lisätietoja
 ### [Business Central -opintoluettelo](readiness/readiness-learning-catalog.md)
-### [Business Central Microsoft Learnissä](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+### [Business Centralin koulutus](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Liiketoimintaprosessien vaihekuvaukset
 #### [Käytettävissä olevat vaihekuvaukset](walkthrough-business-process-walkthroughs.md)
 #### [Vaihekuvaus: Myyntikampanjan suorittaminen](walkthrough-conducting-a-sales-campaign.md)

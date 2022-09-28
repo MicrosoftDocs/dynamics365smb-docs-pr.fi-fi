@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: desktop, Windows, app
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 35d2c97f888905584010c75c7529b4b66fec51c0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 075af1a6b1d02a68a84d504b7ffa8602b50b17f8
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515587"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534083"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Business Central -sovelluksen hakeminen mobiililaitteeseen
 
@@ -58,7 +58,7 @@ Jos käytät [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versiot
 > [!NOTE]
 > Jos sovelluksen asentamisessa on ongelmia, ota yhteys järjestelmänvalvojaan. Se voi olla puuttuva edellytys tai epätäydellinen konfiguraatio. Lisätietoja on kohdassa [Ympäristön valmisteleminen mobiilisovellusta varten](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) tai [Business Central mobiilisovelluksen vianetsintä on-premises-versiossa](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 

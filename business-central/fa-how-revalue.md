@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5628, 5629, 5633
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0b9598c8249e209583ffff73868013ad7e26f1b3
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ba537dd27fedfb204483d81815380d0910676c20
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078154"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532212"
 ---
 # <a name="revalue-fixed-assets"></a>Käyttöomaisuuden uudelleenarvostus
 
@@ -120,7 +120,7 @@ Jos et valinnut **Poisto KO-kirjauspvm:ään asti** -kenttää, omaisuuserä men
 
 *Kokonaispoisto = 100 + 15 + 55,54 = 170,54*
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/manage-advanced-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/manage-advanced-fixed-assets-transactions/)
 
 ## <a name="see-also"></a>Katso myös
 

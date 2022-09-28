@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 632591160ab5cfad7d33fc26bf3f9a9b4877176a
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: adfb0f44e35f0efea1f4081be3277f83e10dfd00
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950488"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532347"
 ---
 # <a name="send-documents-and-emails"></a>Asiakirjojen ja sähköpostien lähettäminen
 
@@ -69,7 +69,7 @@ Joissakin [!INCLUDE[prod_short](includes/prod_short.md)] -sivuston asia kirjoiss
 
 **Sähköpostin Lähtevät-kansioon** on tallennettu luonnoksina tallentamasi sähköpostit ja sähköpostit, joita ei voitu lähettää, esimerkiksi jos sähköpostiosoite oli virheellinen. Viesteille, joita ei voitu lähettää, voit valita **Näytä virhe** tai **tutki virhe** ja tehdä ongelman vianmäärityksen.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/set-up-email/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-email/)
 
 ## <a name="see-also"></a>Katso myös
 

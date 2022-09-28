@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 187ff9bad2fb8bf320872759115e98b326b689c8
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 95730ff31c963695c94a64d36a8f980bddfbb72b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130197"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530943"
 ---
 # <a name="set-up-workflow-users"></a>Työnkulun käyttäjien määrittäminen
 
@@ -44,11 +44,11 @@ Työnkulun käyttäjät, jotka toimivat hyväksynnän pyytäjinä ja hyväksyjin
 6. Toista vaihe 5, jos haluat lisätä useampia työnkulun käyttäjiä ryhmään.  
 7. Toista vaiheet 2-6, jos haluat luoda uusia työnkulun käyttäjäryhmiä.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
 ## <a name="see-also"></a>Katso myös
 
-[Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)  
+[Hyväksyjäkäyttäjien määrittäminen](across-how-to-set-up-approval-users.md)  
 [Työnkulkujen määrittäminen](across-set-up-workflows.md)  
 [Käytä työnkulkuja](across-use-workflows.md)  
 [Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  

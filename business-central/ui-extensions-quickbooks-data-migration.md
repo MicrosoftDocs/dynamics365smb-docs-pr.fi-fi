@@ -10,12 +10,12 @@ ms.search.keywords: app, add-in, manifest, customize, import, implement
 ms.search.form: 1911, 1912, 1913, 1914, 1915, 1916, 1918, 1919
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 99a7e12543751fef0297051a64f19c2fb5700022
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 620218c86be81578b7f40ab74434d4004d5f2db2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361634"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530862"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>QuickBooks-tietojen siirtolaajennus
 
@@ -66,11 +66,11 @@ Tietyt toimenpiteet kannattaa tehdä: Jos QuickBooks Onlinen tapahtumissa oli ko
 Jos käytät arvolisäveroa (ALV:tä), liiketoiminnan kirjausryhmä ja tuotteen kirjausryhmä on ehkä lisättävä kirjausasetuksiin ALV-summien kirjaamista varten.
 Tarkista pääkirjanpidon tilien alkusaldot. QuickBooks ei tallenna kaikkien tilien ajankohtaisia saldoja, joten alkusaldoja on ehkä korjattava.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/migrate-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

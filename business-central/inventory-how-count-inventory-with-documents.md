@@ -10,12 +10,12 @@ ms.search.keywords: adjustment, status, negative, positive, increase, decrease, 
 ms.search.forms: 5895, 6561, 6562, 6563, 6564, 6565, 6566, 5892, 5891, 5879, 5880, 5893, 5897, 5882, 5881, 5899, 5875, 5878, 5877, 5876, 5896, 6567, 6568, 6569, 6570, 6571, 6572, 5883, 5886, 884, 5898, 5885, 5890, 5888, 5889, 5887, 5894, 6774, 6775, 6776, 6780, 6781, 6782, 6783
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0b785bfe685dff2ec0868c465cf1d5a1f1c2b8ed
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 5b2e1e7a9ea7c6f2ed49c146e7e52ffdfa28c28c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076511"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532671"
 ---
 # <a name="count-and-adjust-inventory-using-documents"></a>Varastojen laskenta ja muutos asiakirjoja käyttämällä
 
@@ -243,7 +243,7 @@ Eri vaiheissa tulostettavat raportit voidaan määrittää valitsemalla jokin se
 > [!NOTE]
 > Käytettävissä olevat raportit voivat vaihdella maan lokalisoinnin mukaan. Perussovellus ei sisällä asetteluja.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/adjust-inventory/)
 
 ## <a name="see-also"></a>Katso myös
 

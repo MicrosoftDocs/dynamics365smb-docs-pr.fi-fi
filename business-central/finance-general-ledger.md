@@ -10,12 +10,12 @@ ms.search.keywords: analysis, history, track
 ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
 ms.date: 08/23/2022
 ms.author: edupont
-ms.openlocfilehash: 29f66fae0413bb0f8a757cfceedce8e0504e8686
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 1d246e342d286e75da5aacaf1e6a305c5d0559e4
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362273"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534640"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Tietoja pääkirjanpidosta ja tilikartasta
 
@@ -95,7 +95,7 @@ Kun seuraavan kerran luot KP-raporttimalleja, saldolaskelmassa näkyvät seuraav
 
 Pienessä organisaatiossa, kuten CRONUS-esittely-yrityksessä, useimmat käyttäjät voivat muokata tilikarttaa. Paitsi käyttäjät, joilla on TIIMIN JÄSEN -lisenssi. Suuremmissa organisaatioissa käytetään tyypillisesti rooleja ja käyttöoikeuksia rajoittamaan tilikartan muokkausoikeutta. Jos olet järjestelmänvalvoja tai sinulla on **Liiketoimintajohtaja**- tai **Kirjanpitäjä**-rooli, voit hallita käyttöoikeuksia antaaksesi oikeille käyttäjille oikeuden käyttää asianomaisia taulukoita. Lisätietoja on kohdassa [Käyttäjän käyttöoikeuksien yleiskatsauksen hankkiminen](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/business-central-configure-general-ledger-setup/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/business-central-configure-general-ledger-setup/)
 
 ## <a name="see-also"></a>Katso myös
 

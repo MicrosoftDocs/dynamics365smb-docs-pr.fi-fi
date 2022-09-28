@@ -10,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 1290, 1291, 1293, 1294
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f19f2a449e90476ed77d144c1faf715f21777f5e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 56084421c63b2a01151dca764f1234b007ff397d
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522692"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534505"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen
 Pankin, myyntisaamisten ja ostovelkojen tilit on täsmäytettävä säännöllisesti kohdistamalla pankkiin tallennetut maksut niiden vastaaviin avoimiin (maksamattomiin) laskuihin ja hyvityslaskuihin tai muihin avoimiin tapahtumiin [!INCLUDE[prod_short](includes/prod_short.md)]issa.  
@@ -43,7 +43,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 | Linkitä maksujen teksti tiettyyn asiakkaaseen, toimittajaan tai kirjanpitotileihin, jotta toistuvat käteiskuitit tai kulut kirjataan aina näille tileille, kun kohdistettavia asiakirjoja ei ole. |[Toistuvien maksujen tekstin yhdistäminen tileihin automaattisen täsmäytyksen suorittamiseksi](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Määritä säännöt, jotka hallinnoivat sitä, kuinka maksuja/pankkitapahtumia sovelletaan automaattisesti niihin liittyviin avoimiin kirjanpitotapahtumiin, kun käytät **Sovella automaattisesti** -toimintoa **Maksujen täsmäytyskirjauskansio** -sivulla.|[Automaattinen maksujen soveltamisen sääntöjen määrittäminen](receivables-how-set-up-payment-application-rules.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/use-journals-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-journals-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 [Pankkitilien täsmäytys](bank-how-reconcile-bank-accounts-separately.md)  

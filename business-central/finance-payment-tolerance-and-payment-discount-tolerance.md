@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: 3d7162b3035188539fba92a677659dd7803c340f
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 3933aa279b31b40fa2c222a9516c654cb6cfce7f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362019"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533857"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Maksutoleranssien ja maksualennustoleranssien käsitteleminen
 
@@ -278,7 +278,7 @@ Normaalit kohdistussäännöt
 
 (2) Mikäli maksu osuu tälle välille kaikkia kohdistettavia tapahtumia ei voida sulkea edes toleranssilla.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/enter-payments-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/21/2022
 ms.author: jswymer
-ms.openlocfilehash: ac75505d2f9987037cf04bbe96a0a1eb398c737c
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 94ff94bab70582f4f9b4dcd73a5923931317d6f1
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655843"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530322"
 ---
 # <a name="use-business-central-as-your-business-inbox-in-outlook"></a>Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa
 
@@ -128,7 +128,7 @@ Jos käytät Outlook-sovellusta, valitse vain sähköpostiviestin yläosassa **A
 > Alkaen vuoden 2022 julkaisuaallosta 1, asiakirjat avautuvat uuteen selainikkunaan kaikilla ominaisuuksilla, jotka ovat tuttuja kohteesta [!INCLUDE [prod_short](includes/prod_short.md)]. Voit siirtyä asiakirjasta luetteloon ja takaisin, avata luetteloita Excelissä, lähettää asiakirjat tulostettavaksi sekä suorittaa tai esikatsella liittyviä raportteja. Myös kaikki tutut pikanäppäimet ovat saatavilla, kun avaat asiakirjoja Outlookista.  
 
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on [Microsoft Learnissa](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 

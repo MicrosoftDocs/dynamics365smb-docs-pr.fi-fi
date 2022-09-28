@@ -10,12 +10,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 3469abf51165af7dcbdeb9c97e867829fe97ff22
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 63aa8e6b23c2977e8e44c6f346f33c1c33fe3c2a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513146"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533211"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in Power BI -integrointiosa ja arkkitehtuurin yleiskatsaus
 
@@ -65,7 +65,7 @@ Seuraava kaavio näyttää käyttäjien perustyönkulun yhdistettäessä [!INCLU
 6. Käyttäjä luo raportin Power BI Desktopissa.
 7. Käyttäjä julkaisee raportin Power BI -palveluun. Raportit ovat sitten valittavissa [!INCLUDE[prod_short](includes/prod_short.md)]issa.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 

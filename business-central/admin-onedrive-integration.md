@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: OneDrive, share, browser
 ms.date: 02/28/2022
 ms.author: jswymer
-ms.openlocfilehash: 7f630f8c13f692889f1d8526698d42633c42a4ee
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c55abae59196d896b48a7b656e7fb7c4c7734fa8
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514593"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524491"
 ---
 # <a name="managing-onedrive-integration-with-business-central"></a>OneDriven ja Business Centralin integroinnin hallinta
 
@@ -53,7 +53,7 @@ Osana katastrofitilanteen palauttamisen harjoitusta järjestelmänvalvojat voiva
 
 ## <a name="configuring-business-central-on-premises"></a>Business Central on-premises -version määrittäminen
 
-Järjestelmänvalvojan täytyy määrittää yhteys [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -asennuksen ja OneDriven välillä. Toisin kuin [!INCLUDE[prod_short](includes/prod_short.md)] onlinessa, yhteys ei ole automaattinen. Jos yhteyttä ei ole määritetty, käyttäjät eivät voi käyttää OneDriven ominaisuuksia. 
+Järjestelmänvalvojan täytyy määrittää yhteys [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -asennuksen ja OneDriven välillä. Toisin kuin [!INCLUDE[prod_short](includes/prod_short.md)] onlinessa, yhteys ei ole automaattinen. Jos yhteyttä ei ole määritetty, käyttäjät eivät voi käyttää OneDriven ominaisuuksia.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises voidaan yhdistää vain OneDriveen, jota isännöi Microsoft pilvipalvelussa. Yhteyden muodostamista [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -asennuksesta SharePoint-palvelimen Omat sivustot -säilöön ei tueta.
 
@@ -64,7 +64,7 @@ Järjestelmänvalvojan täytyy määrittää yhteys [!INCLUDE[prod_short](includ
 >* Jos viet raportin tiedostoon, ohjelma kopioi tiedoston automaattisesti OneDriveen ja avaa sen sitten Excel Onlinessa, Word Onlinessa tai OneDrivessa. 
 >* Myös muut toiminnot voivat avautua automaattisesti OneDrivessa.
 
-### <a name="to-prepare-prod_short-on-premises-for-connecting-to-onedrive"></a>[!INCLUDE[prod_short](includes/prod_short.md)] on-premises -version OneDrive-yhteyden valmistelu
+### <a name="prepare-prod_short-on-premises-for-connecting-to-onedrive"></a>[!INCLUDE[prod_short](includes/prod_short.md)] on-premises -version OneDrive-yhteyden valmistelu
 
 <!-- 
 1. For the best experience Configure Azure Active Directory (AD) authentication.
@@ -86,12 +86,12 @@ Määritä Business Centralin vuoden 2021 2. julkaisuaallossa (versio 19) sen si
 
 Tämä tehdään Azure-portaalissa. Kopioi rekisteröidyn sovelluksen käyttämä sovelluksen (asiakkaan) tunnus ja asiakkaan salaisuus. Tarvitset näitä tietoja seuraavassa tehtävässä.
 
-Lisätietoja sovelluksen rekisteröimisestä ja käyttöoikeuksien määrittämisestä on kehittäjän ja IT-ammattilaisen ohjeen kohdassa [Sovelluksen rekisteröiminen Azure Active Directoryssa](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
+Lisätietoja tilin edellytyksistä, sovelluksen rekisteröimisestä ja käyttöoikeuksien määrittämisestä on kehittäjän ja IT-ammattilaisen ohjeen kohdassa [Sovelluksen rekisteröiminen Azure Active Directoryssa](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
 
 > [!TIP]
 > Jos olet jo rekisteröinyt sovelluksen osana jonkin muun Microsoft-tuotteen (kuten Power BI) integrointia, voit käyttää kyseistä sovelluksen rekisteröintiä uudelleen. Tässä tapauksessa sinun täytyy vain määrittää SharePoint-käyttöoikeudet.
 
-### <a name="to-set-up-the-connection-in-prod_short-on-premises"></a>Yhteyden määrittäminen [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -asennuksessa
+### <a name="set-up-the-connection-in-prod_short-on-premises"></a>Yhteyden määrittäminen [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -asennuksessa
 
 <!--
 > [!NOTE]
@@ -118,7 +118,9 @@ Lisätietoja sovelluksen rekisteröimisestä ja käyttöoikeuksien määrittämi
 > SharePoint-yhteyden määritys -sivulla määritetään monia vanhoja ominaisuuksia. **Yleiset**-osa määrittää yhteyden OneDriveen, ja **Jaetut asiakirjat** -osa ohjaa tiedostot sen sijaan uudelleen SharePointiin. Tämä vanha SharePoint-ominaisuus vanhenee lähitulevaisuudessa. Microsoft suosittelee, että et määritä **Jaetut asiakirjat** -osiota.
 
 ## <a name="see-also"></a>Katso myös
+
 [Business Centralin ja OneDrive for Businessin integrointi](across-onedrive-overview.md)  
 [Business Central-tiedostojen avaaminen OneDrivessa](across-share-onedrive.md)  
-[OneDrive – usein kysytyt kysymykset](admin-onedrive-faq.md)
+[OneDrive – usein kysytyt kysymykset](admin-onedrive-faq.md)  
 
+[!INCLUDE[footer-include](includes/footer-banner.md)]

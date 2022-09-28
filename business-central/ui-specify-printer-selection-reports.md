@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 2650, 2750, 2752, 2753, 2754, 8900,
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: 43489631d1e59c26838287f77ba2ec5136da194e
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 8915015f015642a85439fbdd5511271b06a8358f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362331"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531294"
 ---
 # <a name="set-up-printers"></a>Tulostimien määrittäminen
 
@@ -276,7 +276,7 @@ Sen sijaan, että käytät oletustulostinta raporttia suoritettaessa, voit ohitt
 
 Pilvitulostus on suunniteltu kohtuullisen kokoisia asiakirjoja varten. Useimmissa pilvipalveluissa, kuten PrintNode- ja HP ePrint -palveluissa, on enintään 10 megatavua työtä kohti. Jos haluat tulostaa suurempia raportteja, ne täytyy ehkä jakaa useisiin tulosteisiin.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

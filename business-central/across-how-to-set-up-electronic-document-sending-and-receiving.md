@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bcc706a221c40019792167b4b75cb8826216457d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 49280683e865e1c86f50532999dfa182e15015a2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147214"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530295"
 ---
 # <a name="set-up-electronic-document-sending-and-receiving"></a>Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen
 
@@ -142,7 +142,7 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
     |---------------------------------|---------------------------------------|  
     |**Muiden kuin nimikerivien KP-tili**|Määrittää kirjanpitotilin, joka lisätään automaattisesti sähköisistä asiakirjoista ostoriveille silloin, kun saapuva asiakirjarivi ei sisällä tunnistettavaa kohdetta. Kaikki saapuvan asiakirjan rivit, joilla ei ole GTIN-arvoa tai toimittajan nimikenumeroa, muunnetaan tyypin **KP-tili**-tyyppiseksi ostoriviksi. Ostorivin **Nro**-kenttä sisältää tilin, jonka valitset **Muiden kuin nimikerivien KP-tili** -kentässä.<br /><br /> Ostoasiakirjaa ei luoda, jos **Muiden kuin nimikerivien KP-tili** -kenttä jätetään tyhjäksi ja saapuva asiakirja sisältää rivejä, joilla ei ole tunnistettavia nimikkeitä. Virhesanoma pyytää täyttämään **Muiden kuin nimikerivien KP-tili** -kentän, ennen kuin voit päättää tehtävän.|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös  
 [Sähköinen tiedonsiirto](across-data-exchange.md)   

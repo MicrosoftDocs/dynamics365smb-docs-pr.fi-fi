@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
-ms.date: 04/01/2021
+ms.date: 09/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 926c614dcb28c7bde4ee8c0a611ac45aa7145fb8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 72df794aa170736507c959ea0e75e4bb52b234d7
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523213"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534370"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Power BI -raporttien luominen näyttämään [!INCLUDE [prod_long](includes/prod_long.md)] -tietoja
 
@@ -48,6 +48,8 @@ Tässä artikkelissa käsitellään Power BI Desktopin käytön aloittamista luo
 - Lataa [!INCLUDE [prod_short](includes/prod_short.md)] -raportin teema (valinnainen).
 
   Lisätietoja on tämän artikkelin kohdassa [[!INCLUDE [prod_short](includes/prod_short.md)] -raportin teeman käyttäminen](#theme).
+
+[!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
 ## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in lisääminen Power BI Desktopin tietolähteeksi
 
@@ -183,7 +185,7 @@ Helmikuusta 2022 alkaen uudet Business Central -tietoja käyttävät raportit mu
 9. Valitse **Valmis**.
 10. Tallenna muutokset ja sulje Power Query Editor valitsemalla valintanauhasta **Sulje ja käytä**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 

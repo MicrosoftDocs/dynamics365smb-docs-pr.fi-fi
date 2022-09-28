@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 99f23e497c969e9a9461928d1e550605f6db1eae
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 6a1254cb18546556b977eb009a819806e62ee2ca
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076355"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531645"
 ---
 # <a name="set-up-salespeople"></a>Myyjien määrittäminen
 
@@ -31,7 +31,7 @@ Kun olet määrittänyt myyjän **Myyjät**-sivulla, voit valita luomasi myyjän
 
 Voit käyttää myyjiä erilaisissa asiakkuudenhallinta- ja markkinointitöissä. Voit esimerkiksi määrittää tehtäviä myyjille siten, että tehtävät sisältyvät niihin myyntimahdollisuuksiin, jotka on määritetty myyjälle. Lisätietoja on ohjeaiheessa [Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

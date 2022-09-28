@@ -11,12 +11,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
 ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2bf0a8881ea896c1728f02f07e5991b284a3ccae
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 7705acac2b2c53bea96fee0431cb83702e46b0c6
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129846"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529593"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Erikoismyyntihintojen ja -alennusten kirjaaminen
 
@@ -221,7 +221,7 @@ Alennusprosentin lisäksi tai sen sijaan tiettyyn laskusummaan voidaan linkittä
 > [!TIP]  
 > Ennen kuin näitä tietoja aletaan syöttää ohjelmaan, olisi hyvä tehdä luonnos alennusrakenteesta, jota haluat käyttää. Tällä tavalla on helpompi nähdä, ketkä asiakkaat voi linkittää samaan laskualennussivulle. Mitä vähemmän sivuja on määritettävä, sitä nopeampaa perustietojen antaminen on.
 
-Koulutusta myynnin alennuksista on Microsoft Learnin kohteessa [Alennusten määrittäminen asiakkaillesi](/learn/modules/customer-discounts-dynamics-365-business-central/index).  
+Koulutusta myynnin alennuksista on kohteessa [Alennusten määrittäminen asiakkaillesi](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
 ### <a name="calculating-invoice-discounts-on-sales"></a>Myynnin laskualennusten laskenta
 
@@ -276,7 +276,7 @@ Jatka uuden myyntilaskun alennusehtojen määrittämiseen.
 4. Syötä **Alennus-%**-kohtaan laskun alennus prosentteina laskun summasta.
 5. Toista vaiheet 5–7 jokaiselle valuutalle, jossa asiakas saa eri laskualennuksen.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/manage-sales-prices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-sales-prices-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 

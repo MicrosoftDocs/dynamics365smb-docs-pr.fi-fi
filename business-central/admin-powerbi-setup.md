@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 07/13/2022
 ms.author: jswymer
-ms.openlocfilehash: 5be0366c2d26e809e966844fc6851cfc5d9e29b7
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
+ms.openlocfilehash: 6f2aea0734a25a49d21bd45628ddf0068f5cb7a6
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144299"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530970"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Power BI:n ja [!INCLUDE[prod_short](includes/prod_short.md)]in integroinnin ottaminen käyttöön
 
@@ -97,12 +97,12 @@ Tässä osassa käsitellään paikallisen [!INCLUDE[prod_short](includes/prod_sh
     Voit muodostaa ensimmäisen yhteyden avaamalla [!INCLUDE[prod_short](includes/prod_short.md)]in ja suorittamalla aloitussivulla **Aloita Power BI:n käyttö** -toiminnon. Tämä toiminto opastaa hyväksyntäprosessin läpi ja tarkistaa Power BI -käyttöoikeutesi. Ohjelma pyytää kirjautumaan sisään käyttämällä Azuren järjestelmänvalvojatiliä. Lisätietoja on kohdassa [Power BI -yhteyden muodostaminen – kerran](across-working-with-powerbi.md#connect).
 
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 
 [Business Central ja Power BI](admin-powerbi.md)  
-[Power BI:n -integrointiosa ja [!INCLUDE[prod_short](includes/prod_short.md)] -arkkitehtuurin yleiskatsaus](admin-powerbi-overview.md)  
+[Power BI -integrointiosa ja [!INCLUDE[prod_short](includes/prod_short.md)] -arkkitehtuurin yleiskatsaus](admin-powerbi-overview.md)  
 [Power BI kuluttajille](/power-bi/consumer/end-user-consumer)  
 [Power BI -palvelun uusi ulkoasu](/power-bi/service-new-look)  
 [Pika-aloitus: Tietojen yhdistäminen Power BI Desktopiin](/power-bi/desktop-quickstart-connect-to-data)  

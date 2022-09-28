@@ -7,37 +7,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/16/2021
+ms.date: 09/15/2022
 ms.author: edupont
-ms.openlocfilehash: 97ba3a62954ae2d38106f0dc7aa4f1080e483ef5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4bb3f626e02259171a9a1bf41c580f34aaa19758
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517841"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524535"
 ---
 # <a name="planning-with-or-without-locations"></a>Suunnittelu sijainteja käyttämällä tai ilman niitä
-Käytetään sijaintikoodeja kysyntäriveillä suunnittelussa tai ei, suunnittelujärjestelmä toimii suoraviivaisesti seuraavien asioiden toteutuessa:  
 
--   Kysyntäriveillä on aina sijaintikoodi, ja järjestelmä käyttää varastointiyksiköiden kaikkia ominaisuuksia, myös asiaankuuluvia sijaintiasetuksia.  
--   Kysyntäriveillä ei missään tilanteessa käytetä sijaintikoodeja, eikä järjestelmä käytä varastointiyksiköitä eikä sijaintiasetuksia (ks. viimein esimerkkitilanne jäljempänä).  
+Ennen kuin alat käyttämään suunnittelumoduulia, kannattaa päättää, haluatko käyttää sijainteja. On olemassa kaksi pääasiallista yksinkertaista tapaa:
 
-Jos kysyntäriveillä toisinaan on sijaintikoodeja ja toisinaan taas ei, suunnittelujärjestelmä noudattaa asetuksien mukaan tiettyjä sääntöjä.  
-
-> [!TIP]
-> Jos suunnittelet usein kysyntää eri sijainneissa, Varastointiyksiköt-ominaisuutta kannattaa käyttää.
+* Kysyntäriveillä on aina sijaintikoodi, ja järjestelmä käyttää varastointiyksiköiden kaikkia ominaisuuksia, myös asiaankuuluvia sijaintiasetuksia. Lisätietoja on kohdassa [kysyntä sijainnissa](#demand-at-location).  
+* kysyntäriveillä ei ole koskaan sijaintikoodeja, ja järjestelmä käyttää nimikkeen korttia. Katso alla olevaa [Kysyntä "tyhjässä sijainnissa"](#demand-at-blank-location) -skenaariota.
 
 ## <a name="demand-at-location"></a>Kysyntä sijainnissa  
 
-Kun suunnittelujärjestelmä havaitsee kysyntää tietyssä sijainnissa (rivi, jossa on sijaintikoodi), järjestelmä ryhtyy toimimaan. Toimintamalli määräytyy kolmen keskeisen asetusarvon mukaan.  
+Kun suunnittelujärjestelmä havaitsee kysyntää tietyssä sijainnissa (rivi, jossa on sijaintikoodi), järjestelmä ryhtyy toimimaan. Toimintamalli määräytyy kahden keskeisen asetusarvon mukaan.  
 
-Järjestelmä tarkistaa kyseiset kolme arvoa järjestyksessä suunnitteluajon aikana ja toteuttaa suunnitelmat niiden mukaan:  
+Järjestelmä tarkistaa kyseiset kaksi arvoa järjestyksessä suunnitteluajon aikana ja toteuttaa suunnitelmat niiden mukaan:  
 
-1. Onko **Varastoasetukset**-sivun **Sijainti pakollinen** -kentässä rasti?  
-
-    Toimet, kun vastaus on Kyllä:  
-
-2. Onko nimikkeellä varastointiyksikkö?  
+1. Onko pyydetyn sijainnin nimikkeelle olemassa SKU?  
 
     Toimet, kun vastaus on Kyllä:  
 
@@ -45,7 +37,7 @@ Järjestelmä tarkistaa kyseiset kolme arvoa järjestyksessä suunnitteluajon ai
 
     Toimet, kun vastaus on Ei:  
 
-3. Sisältääkö **Tuotannon asetukset** -sivun **Komponentit sijainnissa** -kenttä vaadittavan sijaintikoodin?  
+2. Sisältääkö **Tuotannon asetukset** -sivun **Komponentit sijainnissa** -kenttä vaadittavan sijaintikoodin?  
 
     Toimet, kun vastaus on Kyllä:  
 
@@ -53,104 +45,112 @@ Järjestelmä tarkistaa kyseiset kolme arvoa järjestyksessä suunnitteluajon ai
 
     Toimet, kun vastaus on Ei:  
 
-    Nimikkeen suunnittelu toteutetaan seuraavasti: Uusintatilaustapa =  *Erä-erästä*, Sisällytä varasto =  *Kyllä*, kaikki muut suunnitteluparametrit ovat tyhjiä. ( *Tilaus*-uusintatilaustapaa käyttävät nimikkeet käyttävät yhä  *Tilaus*-uusintatilaustapaa sekä muita asetuksia.)  
-
-> [!NOTE]  
-> Tämä "minimaalinen vaihtoehto" kattaa vain tarkan kysynnän. Kaikki määritetyt suunnitteluparametrit ohitetaan.  
-
-Tutustu jäljempänä oleviin esimerkkitilanteisiin.  
+    Nimike suunnitellaan "vähimmäisvaihtoehdon" mukaan, joka kattaa tarkan kysynnän. Suunnitteluparametrit toteutetaan seuraavasti: Uusintatilaustapa = *Erä-erästä*, Sisällytä varasto = *Kyllä*, kaikki muut suunnitteluparametrit ovat tyhjiä. (*Tilaus*-uusintatilaustapaa käyttävät nimikkeet käyttävät yhä *Tilaus*-uusintatilaustapaa sekä muita asetuksia.)
 
 > [!TIP]
-> **Varastoasetukset**-sivun **Sijainnit pakolliset** -kenttä ja Tuotannon asetukset -sivun **Komponentit sijainnissa** -kenttä ovat erittäin tärkeitä, kun hallitaan sitä, miten suunnittelujärjestelmä käsittelee kysyntärivejä sijaintikoodeilla tai ilman sijaintikoodeja.
+> Jos suunnittelet usein kysyntää eri sijainneissa, Varastointiyksiköt-ominaisuutta kannattaa käyttää ja vältät kysyntää tyhjässä sijainnissa. Lisätietoja kohdassa [Varastointiyksiköiden määrittäminen](inventory-how-to-set-up-stockkeeping-units.md)
+
+Tutustu jäljempänä oleviin [esimerkkitilanteisiin](#scenarios).
+
+> [!NOTE]
+> **Valmistuksen asetukset** -sivun **Komponentit sijainnissa** -kenttä on erittäin tärkeä sen hallinnassa, miten suunnittelujärjestelmä käsittelee tuotannon kysyntälinjoja.
 >
-> Tuotantokysynnän ja ostonimikkeiden yhteydessä (kun suunnittelujärjestelmää käytetään ainoastaan ostosuunnitteluun, ei tuotannon suunnitteluun) [!INCLUDE [prod_short](includes/prod_short.md)] käyttää tuotantotilauksessa ilmaistua sijaintia myös komponenteille. Täyttämällä tämän kentän voit kuitenkin ohjata komponentit uuteen sijaintiin.
+> Mitä tulee tuotantokysyntään, [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelma sijoittaa osajoukot ja komponentit sijaintiin, joka on ilmaistu tuotantotilauksessa. Täyttämällä tämän kentän voit kuitenkin ohjata osajoukot ja komponentit uuteen sijaintiin.
 >
 > Voit määrittää myös tämän tietylle varastointiyksikölle valitsemalla varastointiyksikön kortin **Komponentit sijainnissa** -kentässä eri koodin. Huomaa kuitenkin, että tämä on harvoin järkevää, koska suunnittelun logiikka saattaa vääristyä varastointiyksikköä suunniteltaessa.
 
-Toinen tärkeä kenttä on **Nimike**-kortin **Tilauksen enimmäismäärä** -kenttä. Se määrittää nimiketilausehdotuksen sallitun enimmäismäärän, ja sitä käytetään, jos nimike toimitetaan kiinteässä kuljetusyksikössä, kuten kontissa, jota haluat käyttää täysimääräisesti. Siinä vaiheessa kun ohjelma on huomannut täydennystarpeen ja muuttanut eräkokoa vastaamaan määritettyä uusintatilaustapaa, jos tarpeen se vähentää määrää kattamaan enimmäistilausmäärän jonka olet määrittänyt nimikkeelle. Jos on olemassa lisätarpeita niin ohjelma laskee uusia tilauksia niiden kattamiseksi. Tätä kenttää on tarkoitus käyttää varasto-ohjatun tuotantotavan kanssa.  
+## <a name="demand-at-blank-location"></a>Kysyntä "tyhjässä sijainnissa"
 
-## <a name="demand-at-blank-location"></a>Kysyntä "tyhjässä sijainnissa"  
-Vaikka **Sijainti pakollinen** -valintaruutu olisi valittu, järjestelmä sallii kysyntärivien luonnin ilman sijaintikoodia. Tätä kutsutaan myös *TYHJÄKSI* sijainniksi. Tämä on järjestelmälle poikkeustilanne, koska sijaintien käsittelyä varten on määritetty useita määritysarvoja (esimerkki yllä). Suunnitteluohjelma ei tämän vuoksi luo tällaiselle kysyntäriville suunnitteluriviä. Jos **Sijainti pakollinen** -kenttää ei ole valittu mutta käytössä on sijainnin asetusarvoja, kyseessä on poikkeustilanne. Suunnittelujärjestelmä reagoi siihen tuottamalla minimaalisen vaihtoehdon:   
-Nimikkeen suunnittelu toteutetaan seuraavasti: Uusintatilaustapa =  *Erä-erästä* ( *Tilaus* on yhä *Tilaus)*, Sisällytä varasto =  *Kyllä*, kaikki muut suunnitteluparametrit ovat tyhjiä.  
+Yleensä, kun suunnittelujärjestelmä havaitsee kysynnän tyhjässä sijainnissa (rivillä, jolla ei ole sijaintikoodia), nimike suunnitellaan nimikkeen kortin suunnitteluparametrien mukaisesti.
 
-Tutustu jäljempänä oleviin määritystilanteisiin.  
+**Varastoasetukset**-sivun **Sijainnit pakolliset** -kenttä ja **Tuotannon asetukset** -sivun **Komponentit sijainnissa** -kenttä tai varastointiyksiköt vaikuttavat siihen, miten suunnittelujärjestelmä käsittelee kysyntälinjoja sijaintikoodeilla tai ilman. Jos jokin seuraavista väitteistä on totta, myös tyhjän sijainnin kysyntää pidetään poikkeamana ja suunnittelujärjestelmä reagoi antamalla "minimaalinen vaihtoehto" -vaihtoehdon: Nimike suunnitellaan seuraavien parametrien mukaan: uusintatilaustapa = *erä-erästä* (*tilaus* on edelleen *tilaus*), sisällytä varasto = *Kyllä*, kaikki muut suunnitteluparametrit = tyhjä.
 
-### <a name="setup-1"></a>Asetukset (1):  
+* **Tuotannon asetukset** -sivun **Komponentit sijainnissa** -kentällä on arvo.
+* Suunnitellulle nimikkeelle on olemassa varastointiyksikkö.
+* **Sijainti pakollinen** -kenttä on valittuna.
 
--   Sijainti pakollinen = *Kyllä*  
--   Varastointiyksikkö on määritetty kohteeseen  *PUNAINEN*  
--   Komponentit sijainnissa =  *SININEN*  
+## <a name="scenarios"></a>Esimerkkitilanteet
 
-#### <a name="case-11-demand-is-at--red-location"></a>Tapaus 1.1: Kysyntää *SININEN*-sijainnissa  
+Tutustu jäljempänä oleviin määritystilanteisiin.
 
-Nimike suunnitellaan Var. yks. -kortin suunnitteluparametrien mukaisesti (mahdolliset siirrot mukaan lukien).  
+### <a name="setup-1"></a>Asetus 1
 
-#### <a name="case-12-demand-is-at--blue-location"></a>Tapaus 1.2: Kysyntää *SININEN*-sijainnissa  
+* Sijainti pakollinen = *Kyllä*  
+* Varastointiyksikkö on määritetty kohteeseen *LÄNSI*  
+* Komponentit sijainnissa = *ITÄ*  
 
-Nimike suunnitellaan nimikkeen kortin suunnitteluparametrien mukaisesti.  
+#### <a name="case-11-demand-is-at-west-location"></a>Tapaus 1.1: Kysyntää *LÄNSI*-sijainnissa
 
-#### <a name="case-13-demand-is-at--green-location"></a>Tapaus 1.3: Kysyntää  *VIHREÄ*-sijainnissa  
+Nimike suunnitellaan Var. yks. -kortin suunnitteluparametrien mukaisesti (mahdolliset siirrot mukaan lukien).
 
-Nimikkeen suunnittelu toteutetaan seuraavasti: Uusintatilaustapa =  *Erä-erästä* ( *Tilaus* on yhä  *Tilaus*), Sisällytä varasto =  *Kyllä*, kaikki muut suunnitteluparametrit ovat tyhjiä.  
+#### <a name="case-12-demand-is-at-east-location"></a>Tapaus 1.2: Kysyntää *ITÄ*-sijainnissa
 
-#### <a name="case-14-demand-is-at--blank-location"></a>Tapaus 1.4: Kysyntää  *TYHJÄ* -sijainnissa  
+Nimike suunnitellaan nimikkeen kortin suunnitteluparametrien mukaisesti.
 
-Nimikettä ei suunnitella, koska kysyntäriville ei ole määritetty sijaintia.  
+#### <a name="case-13-demand-is-at-north-location"></a>Tapaus 1.3: Kysyntää *POHJOINEN*-sijainnissa
 
-### <a name="setup-2"></a>Asetukset (2):  
+Nimikkeen suunnittelu toteutetaan seuraavasti: Uusintatilaustapa = *Erä-erästä* (*Tilaus* on yhä *Tilaus*), Sisällytä varasto = *Kyllä*, kaikki muut suunnitteluparametrit ovat tyhjiä.
 
--   Sijainti pakollinen = *Kyllä*  
--   Ei varastointiyksikköä  
--   Komponentit sijainnissa =  *SININEN*  
+#### <a name="case-14-demand-is-at-blank-location"></a>Tapaus 1.4: Kysyntää *TYHJÄ*-sijainnissa
 
-#### <a name="case-21-demand-is-at--red-location"></a>Tapaus 2.1: Kysyntää  *PUNAINEN*-sijainnissa  
+Nimikkeen suunnittelu toteutetaan seuraavasti: Uusintatilaustapa = *Erä-erästä* (*Tilaus* on yhä *Tilaus*), Sisällytä varasto = *Kyllä*, kaikki muut suunnitteluparametrit ovat tyhjiä.
 
-Nimikkeen suunnittelu toteutetaan seuraavasti: Uusintatilaustapa =  *Erä-erästä* ( *Tilaus* on yhä  *Tilaus*), Sisällytä varasto =  *Kyllä*, kaikki muut suunnitteluparametrit ovat tyhjiä.  
+### <a name="setup-2"></a>Asetus 2
 
-#### <a name="case-22-demand-is-at--blue-location"></a>Tapaus 2.2: Kysyntää *SININEN*-sijainnissa  
+* Sijainti pakollinen = *Kyllä*  
+* Ei varastointiyksikköä  
+* Komponentit sijainnissa = *ITÄ*  
 
-Nimike suunnitellaan nimikkeen kortin suunnitteluparametrien mukaisesti.  
+#### <a name="case-21-demand-is-at-west-location"></a>Tapaus 2.1: Kysyntää *LÄNSI*-sijainnissa
 
-### <a name="setup-3"></a>Asetukset (3):  
+Nimikkeen suunnittelu toteutetaan seuraavasti: Uusintatilaustapa = *Erä-erästä* (*Tilaus* on yhä *Tilaus*), Sisällytä varasto = *Kyllä*, kaikki muut suunnitteluparametrit ovat tyhjiä.
 
--   Sijainti pakollinen = *Ei*  
--   Ei varastointiyksikköä  
--   Komponentit sijainnissa =  *SININEN*  
-
-#### <a name="case-31-demand-is-at--red-location"></a>Tapaus 3.1: Kysyntää  *PUNAINEN*-sijainnissa  
-
-Nimikkeen suunnittelu toteutetaan seuraavasti: Uusintatilaustapa =  *Erä-erästä* ( *Tilaus* on yhä  *Tilaus*), Sisällytä varasto =  *Kyllä*, kaikki muut suunnitteluparametrit ovat tyhjiä.  
-
-#### <a name="case-32-demand-is-at--blue-location"></a>Tapaus 3.2: Kysyntää *SININEN*-sijainnissa  
+#### <a name="case-22-demand-is-at-east-location"></a>Tapaus 2.2: Kysyntää *ITÄ*-sijainnissa
 
 Nimike suunnitellaan nimikkeen kortin suunnitteluparametrien mukaisesti.  
 
-#### <a name="case-33-demand-is-at--blank-location"></a>Tapaus 3.3: Kysyntää  *TYHJÄ* -sijainnissa  
+### <a name="setup-3"></a>Asetus 3
 
-Nimikkeen suunnittelu toteutetaan seuraavasti: Uusintatilaustapa =  *Erä-erästä* ( *Tilaus* on yhä  *Tilaus*), Sisällytä varasto =  *Kyllä*, kaikki muut suunnitteluparametrit ovat tyhjiä.  
+* Sijainti pakollinen = *Ei*  
+* Ei varastointiyksikköä  
+* Komponentit sijainnissa = *ITÄ*  
 
-### <a name="setup-4"></a>Asetukset (4):  
+#### <a name="case-31-demand-is-at-west-location"></a>Tapaus 3.1: Kysyntää *LÄNSI*-sijainnissa
 
--   Sijainti pakollinen = *Ei*  
--   Ei varastointiyksikköä  
--   Komponentit sijainnissa =  *TYHJÄ*  
+Nimikkeen suunnittelu toteutetaan seuraavasti: Uusintatilaustapa = *Erä-erästä* (*Tilaus* on yhä *Tilaus*), Sisällytä varasto = *Kyllä*, kaikki muut suunnitteluparametrit ovat tyhjiä.
 
-#### <a name="case-41-demand-is-at--blue-location"></a>Tapaus 4.1: Kysyntää  *SININEN*-sijainnissa  
-
-Nimikkeen suunnittelu toteutetaan seuraavasti: Uusintatilaustapa =  *Erä-erästä* ( *Tilaus* on yhä  *Tilaus*), Sisällytä varasto =  *Kyllä*, kaikki muut suunnitteluparametrit ovat tyhjiä.  
-
-#### <a name="case-42-demand-is-at--blank-location"></a>Tapaus 4.2: Kysyntää  *TYHJÄ* -sijainnissa  
+#### <a name="case-32-demand-is-at-east-location"></a>Tapaus 3.2: Kysyntää *ITÄ*-sijainnissa
 
 Nimike suunnitellaan nimikkeen kortin suunnitteluparametrien mukaisesti.  
+
+#### <a name="case-33-demand-is-at-blank-location"></a>Tapaus 3.3: Kysyntää *TYHJÄ*-sijainnissa
+
+Nimikkeen suunnittelu toteutetaan seuraavasti: Uusintatilaustapa = *Erä-erästä* (*Tilaus* on yhä *Tilaus*), Sisällytä varasto = *Kyllä*, kaikki muut suunnitteluparametrit ovat tyhjiä.
+
+### <a name="setup-4"></a>Asetus 4
+
+* Sijainti pakollinen = *Ei*  
+* Ei varastointiyksikköä  
+* Komponentit sijainnissa = *TYHJÄ*  
+
+#### <a name="case-41-demand-is-at-east-location"></a>Tapaus 4.1: Kysyntää *ITÄ*-sijainnissa
+
+Nimikkeen suunnittelu toteutetaan seuraavasti: Uusintatilaustapa = *Erä-erästä* (*Tilaus* on yhä *Tilaus*), Sisällytä varasto = *Kyllä*, kaikki muut suunnitteluparametrit ovat tyhjiä.
+
+#### <a name="case-42-demand-is-at-blank-location"></a>Tapaus 4.2: Kysyntää *TYHJÄ*-sijainnissa
+
+Nimike suunnitellaan nimikkeen kortin suunnitteluparametrien mukaisesti.
 
 Kuten viimeinen esimerkkitilanne osoittaa, kaikkien sijainteihin liittyvien asetusarvojen poistaminen käytöstä on ainoa tapa saada oikeita tuloksia, kun kysyntärivillä ei ole sijaintikoodia. Vastaavasti varastointiyksiköiden käyttäminen on ainoa tapa saada vakaita suunnittelutuloksia sijaintien kysyntään liittyen.  
 
-Jos siis suunnittelet usein kysyntää sijainneissa, Varastointiyksiköt-ominaisuutta kannattaa käyttää.  
+Jos siis suunnittelet usein kysyntää sijainneissa, Varastointiyksiköt-ominaisuutta kannattaa käyttää.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/training/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Katso myös
 
 [Suunnittelu](production-planning.md)  
-[Tuotannon määrittäminen](production-configure-production-processes.md)  
+[Tuotannon asetukset](production-configure-production-processes.md)  
 [Tuotanto](production-manage-manufacturing.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Varastointiyksiköiden määrittäminen](inventory-how-to-set-up-stockkeeping-units.md)  
@@ -158,6 +158,5 @@ Jos siis suunnittelet usein kysyntää sijainneissa, Varastointiyksiköt-ominais
 [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)  
 [Parhaiden käytäntöjen määrittäminen: Toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

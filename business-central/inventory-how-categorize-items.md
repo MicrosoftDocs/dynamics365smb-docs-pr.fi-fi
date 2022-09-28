@@ -10,12 +10,12 @@ ms.search.keywords: category, search, attribute, facet
 ms.search.form: 5730, 5733, 5401
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 849d7ff23b1e437639ee7b624b2d8d35b735d76e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 72a88c90de9407bfe71486022085623b8e426087
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075913"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530214"
 ---
 # <a name="categorize-items"></a>Nimikkeiden luokitteleminen
 
@@ -50,7 +50,7 @@ Jos muutat mieltäsi nimikeluokasta, voit poistaa sen. Jos se kuitenkin on jo m�
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6f46b07a33e49830944b1bdea9b13f241a7b2332
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ead206330c3acb11322396cd6bec5e00af646da4
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076745"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530349"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Vaihekuvaus: Projektinhallinta Projektit-sovellusalueen avulla
 
@@ -460,7 +460,7 @@ Seuraavissa ohjeissa neuvotaan, miten luot uuden projektin, asetat hinnoittelun 
 
  Tämä vaihekuvaus on ohjannut sinut läpi tiettyjen perusvaiheiden töiden [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman parissa. Olet oppinut kuinka luodaan uusi työ, kuinka työ kopioidaan ja kuinka maksuja käsitellään. Olet myös nähnyt esityksen siitä, miten voit luoda laskuja ja seurata tunteja.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/create-jobs/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/create-jobs/)
 
 ## <a name="see-also"></a>Katso myös
 

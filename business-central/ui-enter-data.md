@@ -10,12 +10,12 @@ ms.search.keywords: decimal separator, data entry, focus
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 398c32043297e6900754da535f01a3fb5059c204
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ecf23184faea42895973d11115904606d715d31a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076823"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528617"
 ---
 # <a name="entering-data"></a>Tietojen antaminen
 
@@ -282,7 +282,7 @@ Oletetaan esimerkiksi, että käytät numeronäppäimistöä, joka käyttää pi
 > [!TIP]
 > Joskus voi olla tarpeen käyttää desimaalierotinta pisteen (.) syöttämiseen. Oletetaan esimerkiksi, että syötät päivämäärävälin suodattimeen, esimerkiksi `01/01/2022..04/01/2022`tai mikä tahansa, joka edellyttää pistettä. Tämän mahdollistamiseksi paina numeronäppäimistön Alt- ja desimaalierotin-näppäimiä. Tämä näppäinyhdistelmä vaihtaa desimaalierottimen pisteen syöttämisen ja **Alue**-asetuksessa määritetyn desimaalierottimen välillä.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

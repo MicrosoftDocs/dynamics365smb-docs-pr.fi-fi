@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4454fd40daffbaa5d551635c406f10c70009d3bf
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 1ec80435211b139868bf62ddf0ce269a802d2abc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076069"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534046"
 ---
 # <a name="plan-warehouse-movements-in-worksheets"></a>Fyysisen varaston siirtojen suunnitteleminen työkirjoissa
 
@@ -67,7 +67,7 @@ Voit myös käyttää muiden siirtojen suunnitteluun fyysisessä varastossa vara
 6.  Poista epätäydelliset rivit, joita olet käyttänyt viitetietoina.  
 7.  Kun varastosiirtotyökirjan rivit vastaavat tapaa, jolla haluat varastotyöntekijän tekevän siirron, luo ohjeet työntekijälle valitsemalla **Luo siirto** -toiminto.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/move-items/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/move-items/)
 
 ## <a name="see-also"></a>Katso myös
 

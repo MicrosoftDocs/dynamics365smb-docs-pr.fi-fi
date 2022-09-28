@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124, 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b2e1b0971d6fe8c9c48ba2e0ca03271429c9841d
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 213e7abb6dbfeacb5d095399932be5b6849b3c6b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076615"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528382"
 ---
 # <a name="about-cost-accounting"></a>Tietoja kustannuslaskennasta
 
@@ -74,7 +74,7 @@ Kustannusbudjetteja voi määrittää kuinka monta tahansa. Voit kopioida kustan
 
 Useimmat raportit ja tilastot perustuvat kirjattuihin kustannustapahtumiin. Voit asettaa tulosten lajittelun ja suodattimien avulla määrittää, mitkä tiedot täytyy näyttää. Voit luoda raportteja kustannusanalyysin jakelua varten. Voit lisäksi käyttää vakio KP-raporttimallia määrittääksesi miten raportit kustannustyyppikaaviossa näkyvät.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

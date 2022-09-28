@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 994dd652c5339dbdf1dead483e10192a12084fc7
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: f9efb91e608bffc0d5da789191b5732ae90e8305
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130062"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531780"
 ---
 # <a name="enable-workflows"></a>Työnkulkujen ottaminen käyttöön
 
@@ -28,7 +28,7 @@ Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riv
 2. Avaa työnkulku, jonka haluat ottaa käyttöön.  
 3. Kytke **Työnkulku**-sivun **Käytössä**-valitsin päälle.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
 ## <a name="see-also"></a>Katso myös
 

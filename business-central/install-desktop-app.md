@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 01/11/2022
 ms.author: jswymer
-ms.openlocfilehash: 3e04e348c55fa487f8a7776c0f197210c3cacb49
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b188268feeb483a62ee82990ba3cf92b5afa1606
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519750"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528972"
 ---
 # <a name="get-business-central-desktop-app"></a>Business Central -työpöytäsovelluksen hankkiminen
 
@@ -72,7 +72,7 @@ Eroa on silloin, kun sinulla on useampia vuokraajia. Toisin kuin [!INCLUDE[prod_
 > [!IMPORTANT]
 > Jos käytät Business Centralin vuoden 2021 julkaisuaaltoa 1 (versio 18) tai sitä vanhempaa versiota, et voi asentaa sovellusta tässä artikkelissa kuvatulla tavalla. Asenna sen sijaan sovellus [Microsoft Storesta ](https://go.microsoft.com/fwlink/?LinkId=734848). Lisätietoja ja ohjeita tämän vanhan sovelluksen asentamisesta: [Business Central -sovelluksen valmistelu ja asennus](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on [Microsoft Learnissa](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 171e046e68cd3eaabbb10b0e1aeacb508cbc76b4
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 71ed144297e1f7b98b5fcb7252a216258719f68a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078124"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533641"
 ---
 # <a name="creating-cost-budgets"></a>Kustannusbudjettien luominen
 
@@ -32,7 +32,7 @@ Voit luoda ja analysoida kustannusbudjetteja seuraavilla sivuilla. Valitse ![Lam
 |Katso kustannusbudjetin rekisterit ja kustannusbudjettitapahtumat.|**Kustannusbudjettirekisterit** -sivu|  
 |Tulosta kustannusbudjettivertailut eri raporttien avulla.|**Kustannuslaskennan saldo/budjetti** -raportti<br /><br /> **Kustannuslaskelma/budjetti** -raportti<br /><br /> **Kustannusbudjetti kustannuspaikoittain** -raportti<br /><br /> **Kustannusbudjetti kustannuskohteittain** -raportti|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/cost-accounting-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

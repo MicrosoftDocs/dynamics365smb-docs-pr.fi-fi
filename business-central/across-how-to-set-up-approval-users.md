@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 663
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: e4bb6345a55eedabdf433dbb84a7bf0c7f64d215
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 464212d90ba43648bcb5d2852f5d3fec0c23ca41
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129792"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530781"
 ---
 # <a name="set-up-approval-users"></a>Hyväksynnän käyttäjien määrittäminen
 
@@ -54,7 +54,7 @@ Ennen kuin voit luoda työnkulkuja, joihin liittyy hyväksyntävaiheita, sinun o
 3. Voit testata hyväksyjäkäyttäjän asetukset valitsemalla **Hyväksynnän käyttäjien määrityksen testi** -toiminto.  
 4. Toista vaiheet 2 ja 3 jokaiselle käyttäjälle, jonka haluat määrittää hyväksynnän käyttäjäksi.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
 ## <a name="see-also"></a>Katso myös
 

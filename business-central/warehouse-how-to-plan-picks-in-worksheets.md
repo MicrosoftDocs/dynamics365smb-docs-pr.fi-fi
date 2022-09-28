@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/13/2021
 ms.author: edupont
-ms.openlocfilehash: 24e19eb56bf28b7871ec18f254dc5dbbaa0b290a
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 667aa2702d064e44b9b52dc167e2372f98d7944f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078334"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530403"
 ---
 # <a name="plan-picks-in-worksheets"></a>Poimintojen suunnitteleminen työkirjoissa
 
@@ -53,7 +53,7 @@ Rivejä voidaan lajitella nimikkeen, hyllynumeron, lähdeasiakirjan, eräpäivä
 8. Tulosta poimintaohjeet valitsemalla **Tulosta**.  
 9. Valitse poiminnan valmistumisen jälkeen **Rekisteröi**-toiminto.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/pick-ship-items-warehouse/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/pick-ship-items-warehouse/)
 
 ## <a name="see-also"></a>Katso myös
 

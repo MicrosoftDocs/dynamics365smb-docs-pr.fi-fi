@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/14/2022
 ms.author: jswymer
-ms.openlocfilehash: c0800642804b8e8c9e1dc629224bfac77b174500
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 45f321afeb411eee4cb9f9dd215cefc393f58458
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075731"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529566"
 ---
 # <a name="working-with-excel-layouts"></a>Excel-asettelujen käyttö
 
@@ -135,7 +135,7 @@ Yhteenveto siitä, mitä voit ja mitä et voi tehdä **Tiedot**-laskentataulukos
 - Älä lisää sarakkeita, elleivät ne sisälly raportin tietojoukkoon.
 - Voit sijoittaa laskentataulukot mihin tahansa järjestykseen. Esimerkiksi **Tiedot**-laskentataulukko voi olla ensimmäinen tai viimeinen.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 

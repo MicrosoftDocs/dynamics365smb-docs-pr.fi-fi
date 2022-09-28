@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9ed3bc15f8f8b94e842d8c01415b04018e4fc6ec
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 0888a0a47f3a5ae58dcf7712218f801cde1711c5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129674"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528301"
 ---
 # <a name="set-up-locations"></a>Sijaintien määrittäminen
 
@@ -48,7 +48,7 @@ Valitse toiminnot **Alueet** tai **Varastopaikat** nähdäksesi tiedot alueista 
 
 Voit muuttaa sijainnin määritystä myöhemmin, mutta et voi muokata asetuksia niille sijainneille, joilla on kirjanpitotapahtumia.  
 
-Jos sinulla on useampia sijainteja, voit määrittää sijaintien välisiä siirtoreittejä. Lisätietoja on ohjeaiheessa [Siirtoreittien luonti](inventory-how-setup-locations.md#to-create-a-transfer-route). 
+Jos sinulla on useampia sijainteja, voit määrittää sijaintien välisiä siirtoreittejä. Lisätietoja on ohjeaiheessa [Siirtoreittien luonti](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
 ### <a name="to-create-a-transfer-route"></a>Siirtoreittien luominen
 
@@ -79,7 +79,7 @@ Voit kuitenkin määrittää vain yhden alueen ja järjestellä fyysisen varasto
 ## <a name="default-dimensions-for-locations"></a>Sijaintien oletusdimensiot
 Määritä oletusdimensiot sijainnille **Sijaintikortti**-sivulle valitsemalla **Dimensiot**. Tämän jälkeen sijainnin oletusdimensiot määritetään asiakirjoille, kun valitset sijainnin rivillä. Tarvittaessa voit poistaa rivin dimension tai muuttaa sitä. **Arvon kirjaaminen** -kentässä voit vaatia, että ihmiset määrittävät dimensiot sijainneille, ennen kuin he voivat kirjata tapahtuman. Jos haluat, että ihmiset voivat valita vain tietyn dimension valuess, voit määrittää ne **Sallittujen arvojen suodatin** -kentässä. Voit myös sisällyttää sijainnin dimensioarvoja **Oletusdimensioprioriteetit**-sivulle ja prioriteetti- ja dimensiosääntöjen yhdistelmien osalta **Dimensioyhdistelmät**-sivulle.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trade-set-up-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 
@@ -91,6 +91,5 @@ Määritä oletusdimensiot sijainnille **Sijaintikortti**-sivulle valitsemalla *
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

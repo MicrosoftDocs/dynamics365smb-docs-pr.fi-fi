@@ -10,12 +10,12 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.search.form: 846, 847, 849, 851, 855, 862, 869, 1818
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: a79299d835b7a5af06edf16119f037cdaf610311
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c20a7e2a53974d17b8571f0a4d69d6298804b064
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515613"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534154"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Kassavirta-analyysin määrittäminen
 Jos tarvitset apua käteisvarojen käytöstä päättämiseen, tutustu Kirjanpitäjä-roolikeskuksen kaavioihin:  
@@ -124,7 +124,7 @@ Voit myös luoda oman ennakoivan verkkopalvelun **Microsoft Business Central -so
 6. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kassavirran asetukset** ja valitse sitten vastaava linkki.  
 7. Laajenna **Azure AI** -pikavälilehti ja täytä sitten kentät.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 

@@ -10,12 +10,12 @@ ms.search.keywords: purchase fixed asset
 ms.search.form: 5605, 5551, 5600, 5628, 5629, 5633
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: 79705da9117c8b201b4f652351771210f97f3cb7
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 92ef679d915954425eddbe5caf6674e0b42a396a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075002"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529890"
 ---
 # <a name="acquire-fixed-assets"></a>Hankittu käyttöomaisuus
 
@@ -105,7 +105,7 @@ Jäännösarvon voi kirjata käyttöomaisuuden KP-päiväkirjasta yhdessä hanki
 > [!NOTE]
 > Jos käyttöomaisuudelle on olemassa jäännösarvo, kyseistä arvoa käytetään poistokirjauksessa **KO-poistokirjat** -sivun **Loppukirjanpitoarvo**-kentän arvon sijaan. Lisätietoja on kohdassa [Loppukirjanpitoarvon hallinta](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/purchase-fixed-assets/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/purchase-fixed-assets/)
 
 ## <a name="see-also"></a>Katso myös
 

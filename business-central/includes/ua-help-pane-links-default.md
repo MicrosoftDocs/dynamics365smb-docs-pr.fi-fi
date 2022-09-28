@@ -4,22 +4,22 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 03/22/2022
 ms.author: edupont
-ms.openlocfilehash: 7d5c66cd9213953558b4066a83818bbcd0debabc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f574fbb444752b1c8b0761df80dbfdc98e8123e6
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525055"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531672"
 ---
 - Linkki nykyistä sivua varten
 
   Ruudun yläosassa kortti näyttää lyhyen kuvauksen nykyisestä sivusta, jos sellainen on olemassa. Jos sivukuvausta ei ole, kortti tarjoaa yhden linkin sivua koskevaan artikkeliin.  
 
-  Jos [!INCLUDE[prod_short](prod_short.md)] ei löydä sopivaa linkkiä, näytetään saapumissivu [Docs.microsoft.com](/dynamics365/business-central)issa. Jos sivu oli esimerkiksi sellaisen sovelluksen osa, joka ei lisännyt tilannekohtaista Ohje-määritystä [!INCLUDE[prod_short](prod_short.md)]iin, *Lisätietoja-linkki* vie oletusarvoisesti saapumissivulle.  
+  Jos [!INCLUDE[prod_short](prod_short.md)] ei löydä kyseistä linkkiä, näytämme aloitussivun [Microsoft Docsissa](/dynamics365/business-central). Jos sivu on esimerkiksi osa sovellusta, joka ei lisännyt tilannekohtaisia ohjeen yhdistämismääritystä kohteeseen [!INCLUDE[prod_short](prod_short.md)], *Learn-linkin* oletusarvona on aloitussivu.  
 
-- Linkkejä Microsoft Docsin aiheeseen liittyviin artikkeleihin  
+- Linkkejä aiheeseen liittyviin artikkeleihin
 
-  Nämä linkit liittyvät nykyiselle sivulle, ja ne muuttuvat, jos siirrät toiselle sivulle. Linkit rajoittuvat docs.microsoft.com-sivustoon. Jos linkkejä on enemmän kuin kolme, voit laajentaa kortin valitsemalla *Näytä lisää* -linkin. Valitse mikä tahansa linkki, ja siihen liittyvä artikkeli avautuu uuteen selainvälilehteen.  
+  Nämä linkit liittyvät nykyiselle sivulle, ja ne muuttuvat, jos siirrät toiselle sivulle. Linkit rajoittuvat learn.microsoft.com-sivustoon. Jos linkkejä on enemmän kuin kolme, voit laajentaa kortin valitsemalla *Näytä lisää* -linkin. Valitse mikä tahansa linkki, ja siihen liittyvä artikkeli avautuu uuteen selainvälilehteen.  
 - Linkkejä tällä sivulla olevien sovellusten sisältöön  
 
   Nämä linkit perustuvat mihin tahansa sovellukseen, joka laajentaa sivua tai määrittää sivun.  

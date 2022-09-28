@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 18a9d4ba7e2865e41d660261a598b1b755c68023
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 988e3ad6185e06bbe82f21005e64ad9bada051a5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129701"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534991"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Työnkulkujen luominen työnkulkumalleista
 
@@ -35,7 +35,7 @@ Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riv
    Uuden työnkulun avautuvalla **Työnkulku**-sivulla on kaikki valitun mallin tiedot. **Koodi**-kentän arvoon liitetään esimerkiksi ”-01”, joka osoittaa, että kyseessä on ensimmäinen työnkulkumallista luotu työnkulku.  
 4. Jatka työnkulun luontia muokkaamalla työnkulun vaiheita tai lisäämällä uusia vaiheita. Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
 ## <a name="see-also"></a>Katso myös
 

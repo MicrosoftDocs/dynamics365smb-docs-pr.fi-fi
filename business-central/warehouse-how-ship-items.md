@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008
 ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: e31dc7a25ea4bb81019163b057b2f1e4e4a1c1d9
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: b66a0a0a4cad12c4f41c53569b0007c51e846de7
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461154"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531213"
 ---
 # <a name="ship-items"></a>Nimikkeiden toimittamimen
 
@@ -106,7 +106,7 @@ Voit tehdä useista poimintaohjeista yhden ohjeen (useille toimituksille) myös 
 > [!NOTE]
 > Jos odotat tiettyjen nimikkeiden saapumista fyysiseen varastoon ja käytät laiturointitoimintoa, [!INCLUDE[prod_short](includes/prod_short.md)] laskee kunkin lähetys- tai poimintatyökirjan rivin laiturointilokerossa olevan tuotteen määrän. Ohjelma päivittää kentän aina, kun lähdet toimituksesta tai työkirjasta ja kun avaat toimitusasiakirjan tai työkirjan. Lisätietoja on kohdassa [Nimikkeiden laiturointi](warehouse-how-to-cross-dock-items.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/ship-invoice-items-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/ship-invoice-items-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Katso myös
 

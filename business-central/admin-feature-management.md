@@ -7,12 +7,12 @@ ms.search.keywords: administration, admin, key, optional, feature management, ea
 ms.search.form: 2610
 ms.date: 06/14/2021
 ms.author: mikebc
-ms.openlocfilehash: ca23cb79f3ef95db1cb7c9528805d37a7560fc8a
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0ff7ee2a56b762609e2b15f101c1e4abc9bd46cd
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077656"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533346"
 ---
 # <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Uusien ja tulevien ominaisuuksien käyttöönotto etuajassa
 
@@ -22,7 +22,7 @@ Kun Microsoft julkaisee ominaisuuksia tai ominaisuuksia koskevia parannuksia osa
 
 Lue lisää kohdasta [Ominaisuuksien hallinta](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

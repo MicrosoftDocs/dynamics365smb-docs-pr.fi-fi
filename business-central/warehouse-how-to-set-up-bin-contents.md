@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9135514b6f788aab99b3433a04ad28ec36064e30
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 86d5d8410a884fa2a8357490c92658582fc9b9f5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074352"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530430"
 ---
 # <a name="create-bin-contents"></a>Varastopaikan sisältöjen luominen
 
@@ -55,7 +55,7 @@ Kun olet luonut varastopaikat, voit luoda varastopaikan sisällön, jonka haluat
 
 Tässä työkirjassa voi työskennellä useiden varastopaikan sisältörivien parissa useiden varastopaikkojen osalta ja sen ansiosta voi saada hyvän yleiskuvan siitä, mitä olet panemassa eri varastopaikkoihin tietyllä alueella, käytävällä tai hyllyllä.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/set-up-zones-bins/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-zones-bins/)
 
 ## <a name="see-also"></a>Katso myös
 

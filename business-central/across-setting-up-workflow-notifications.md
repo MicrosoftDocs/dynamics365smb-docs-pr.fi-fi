@@ -7,12 +7,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 99c08769429eef51a1d52e142d455ccd227781c7
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 9405af9c52b17ab34fded263692e3294ed8aaf11
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9130008"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533965"
 ---
 # <a name="workflow-notifications"></a>Työnkulun ilmoitukset
 
@@ -53,11 +53,11 @@ Työnkulun ilmoitusten osatekijöitä voi määrittää seuraavissa paikoissa:
 
     Hyväksymistyönkuluille voit lisätä työnkulun vastausvaiheen, joka ilmoittaa lähettäjälle, kun heidän pyyntönsä on hyväksytty tai hylätty. Lisätietoja on kohdan [Työnkulkujen luominen](across-how-to-create-workflows.md#to-create-a-workflow) vaiheessa 9.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
 ## <a name="see-also"></a>Katso myös
 
-[Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)  
+[Hyväksyjäkäyttäjien määrittäminen](across-how-to-set-up-approval-users.md)  
 [Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md)  
 [Ilmoitusten vastaanoton ajankohdan ja tavan määrittäminen](across-how-to-specify-when-and-how-to-receive-notifications.md)  
 [Työnkulkujen luominen](across-how-to-create-workflows.md)  

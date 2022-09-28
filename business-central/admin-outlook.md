@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
 ms.search.form: 1831, 1832
 ms.date: 04/27/2022
 ms.author: jswymer
-ms.openlocfilehash: a2c0754aed38d80fc4a088ab7dccec81cb0141e0
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 302de4dbae96280f7127091a367184af25c8c29a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654912"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532806"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Business Central -apuohjelman hankkiminen Outlookiin
 
@@ -122,7 +122,7 @@ Jos käytät Business Centralin on-premises -asennusta, apuohjelman asentaminen 
 
 Olet nyt valmis aloittamaan apuohjelman käyttämisen Outlookissa.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on [Microsoft Learnissa](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 

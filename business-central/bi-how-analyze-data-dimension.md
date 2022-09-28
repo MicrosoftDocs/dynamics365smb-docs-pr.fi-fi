@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 545, 555, 556, 557, 558, 9372, 9370, 9371
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 5578a67baf1f6036c1a9f8804a9618f446e34006
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b18bd7f224988f0e5357aa68088ea311ea0cd965
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512437"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530673"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analysoi tiedot dimensioiden mukaan
 Talousanalyysissä dimensio on tieto, jonka voi lisätä tapahtumaan eräänlaiseksi merkiksi. Tämän tiedon avulla voi yhdistää ryhmiksi tapahtumia, joilla on samoja ominaisuuksia, kuten asiakkaita, alueita, tuotteita tai myyjiä, sekä noutaa nämä ryhmät helposti analysoitavaksi. Dimensioita voi käyttää päiväkirjojen tapahtumissa, asiakirjoissa ja budjeteissa. Dimensiotermi kuvaa, miten analysointi tapahtuu. Esimerkiksi kaksidimensioinen analyysi voisi olla myynti per alue. Käyttämällä tapahtumaa luodessasi useita dimensiota voit luoda monimutkaisia analyysejä, kuten myynti per myyntikampanja per asiakasryhmä per alue. Lisätietoja on kohdassa [Dimensioiden käyttäminen](finance-dimensions.md).
@@ -75,7 +75,7 @@ Seuraavan menettelyn avulla voit päivittää analyysinäkymän **Analyysi dimen
 > [!NOTE]  
 >   Kun haluat päivittää joitakin tai kaikkia analyysinäkymiä samanaikaisesti, sinun täytyy käyttää **Päivitä analyysinäkymät** -eräajoa.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/dimensions-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 [Business Intelligence](bi.md)  

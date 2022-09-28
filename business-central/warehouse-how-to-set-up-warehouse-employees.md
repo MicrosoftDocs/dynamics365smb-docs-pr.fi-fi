@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7328, 7348
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f0018b5ad58644783b24d2c3b3fd82ae83d132fb
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: a3d851ff0f44fdae3880aea841d1145fc83e7e13
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075159"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530094"
 ---
 # <a name="set-up-warehouse-employees"></a>Varastotyöntekijöiden määrittäminen
 
@@ -29,7 +29,7 @@ Jokainen varastotoimintoja tekevä käyttäjä on määritettävä varastotyönt
 5. Valitse **Oletusarvo**-valintaruutu, kun haluat määrittää tämän sijainnin ainoaksi sijainniksi, jossa käyttäjä voi tehdä varastotoimintoja.  
 6. Liitä sijainteihin muita työntekijöitä tai liitä aiemmin luoduille varastotyöntekijöille muita kuin oletussijainteja toistamalla nämä vaiheet.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also"></a>Katso myös
 

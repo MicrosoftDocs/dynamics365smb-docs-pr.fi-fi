@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9a5ec7fb14adc453eb29c49474109b17d35d177b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: f04f49c301b38236be1dda3334e8560584a4e6b4
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076901"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528891"
 ---
 # <a name="make-drop-shipments"></a>Suoratoimitusten tekeminen
 
@@ -78,7 +78,7 @@ Kun toimittaja toimittaa nimikkeet, voit kirjata myyntitilauksen toimitetuksi. V
 4. Valitse **Kirjaa**- tai **Kirjaa ja lähetä** -toiminto.
 5. Valitse **Toimitus**-vaihtoehto, kun haluat laskuttaa myöhemmin, tai **Toimitus ja lasku** -vaihtoehto, kun haluat laskuttaa heti.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

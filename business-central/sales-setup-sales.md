@@ -10,12 +10,12 @@ ms.search.keywords: trade, sell, configure
 ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 4e34a21fc06c8c880e124db4040c088e4d235ffb
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 2346c246fdf0d9973f40e7d0073dee9004c68669
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460803"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531348"
 ---
 # <a name="setting-up-sales"></a>Myynnin määrittäminen
 Ennen myyntiprosessien hallinnan aloittamista on määritettävä yrityksen myyntikäytäntöjen säännöt ja arvot.
@@ -39,7 +39,7 @@ Maksumenetelmiä ja valuuttoja sekä muita rahoitukseen liittyviä myyntiasetuks
 |Syötä käytettävien kuljetusliikkeiden tietoja, mukaan lukien linkki kuljetusliikkeiden kollinseurantapalveluun.|[Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md)|
 |Määritä oletusraportteja, joita käytetään eri asiakirjatyypeille.|[Raporttien valinta Business Centralissa](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  

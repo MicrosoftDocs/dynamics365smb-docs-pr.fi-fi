@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, stock
 ms.search.forms: 5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f14c7d9f4fc99c0b6d44ff1cd971f05f979b7fdd
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 568ccee7e01aacb429e6ed2e2b69daf91f67b488
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361716"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530025"
 ---
 # <a name="manage-inventory"></a>Varaston hallinta
 
@@ -60,7 +60,7 @@ Seuraavassa taulukossa on esitetty liittyviä tehtäviä.
 |Hallitse myyntitoimistojen, osto-osastojen tai tehtaan suunnittelutoimistojen liiketoimintatoiminnoissa eri sijainneissa.|[Vastuupaikkojen käyttäminen](inventory-responsibility-centers.md)|
 |Käytä resursseja, joilla on erityistoimintoja, eri palveluille ja huoltonimikkeille.|[Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/get-started-inventory-management/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/get-started-inventory-management/)
 
 ## <a name="see-also"></a>Katso myös
 

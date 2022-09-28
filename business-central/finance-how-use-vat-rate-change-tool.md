@@ -9,12 +9,12 @@ ms.search.keywords: VAT, VAT rate, posting, tax, value-added tax
 ms.search.form: 550,
 ms.date: 06/16/2021
 ms.author: andregu
-ms.openlocfilehash: a71497451c56053b1f3c76a1bc58262ec2eb7ca7
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 92a0b0aa49a0cdcd2eb2c619c690e85a7b3620f7
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079114"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528436"
 ---
 # <a name="managing-vat-rate-changes"></a>ALV-prosenttimuutosten hallinta
 
@@ -105,7 +105,7 @@ ALV-prosentin muutostyökalun avulla voit hallita muutoksia ALV:n vakiokorvaukse
 > [!IMPORTANT]  
 > Muutoksen jälkeen **ALV-prosentin muutoslokin tapahtuma** -taulukon **Muunnettu**-kenttä on valittuna ja **ALV-prosentin muutoslokin tapahtuma** -taulukon **Muunnospvm** -kentässä näkyy muunnospäivämäärä.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/rate-change-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/rate-change-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

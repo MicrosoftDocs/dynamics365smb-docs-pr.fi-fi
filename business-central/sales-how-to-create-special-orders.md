@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 3f9cb0690bf21c3b4571ff65486038499af010e9
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ba0a00ecb2a0a4ed5f11cf9b898b0ae9aee6edf9
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078542"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528837"
 ---
 # <a name="create-special-orders"></a>Erikoistilausten luominen
 
@@ -44,7 +44,7 @@ Suunnittelujärjestelmä säilyttää myyntitilaukselle erikoistilauksena luodun
 > [!NOTE]  
 >  Et voi käyttää erikoistilauksen toimintoja, jos nimike on jo varattu. Tämän varmista erikoistilauksina myydyille nimikkeille, että **Varaa**-kenttää nimikkeen kortissa ei ole määritetty arvoon **Aina**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

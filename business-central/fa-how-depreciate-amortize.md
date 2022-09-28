@@ -10,12 +10,12 @@ ms.search.keywords: write down
 ms.search.form: 5610, 5611, 5629, 5633, 5659, 5660, 5663, 5619, 5666
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 8defe24ef55db891a630d1bce647382286901eaa
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ccd446b8e5c814127a1b7192e1ec2bfe77b80750
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074976"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530646"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Käyttöomaisuuden poisto tai kuolettaminen
 
@@ -121,7 +121,7 @@ Tapahtumia voidaan kopioida poistokirjasta toiseen käyttämällä **Kopioi pois
 
 Kopioidut rivit luodaan joko käyttöomaisuuden KP-päiväkirjassa tai käyttöomaisuuspäiväkirjassa sen mukaisesti, onko kopioitava poistokirja integroitu pääkirjanpitoon.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/calculate-post-depreciations/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/calculate-post-depreciations/)
 
 ## <a name="see-also"></a>Katso myös
 

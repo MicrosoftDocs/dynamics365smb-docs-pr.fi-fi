@@ -6,18 +6,18 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/05/2021
 ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
-ms.openlocfilehash: 5ff9d51f0f1b05436aff60b870915a5410baaef3
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: ccb4d451841c6f9dc41e7837ea768f0d77f7895f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311285"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533453"
 ---
 # <a name="achieve-some-task-or-get-the-overview-in-max-100-characters"></a>Suorita jokin tehtävä tai hanki yleiskuvaus enint. 100 merkkiä
 
 Useiden avainsanojen käytön lyhyt esittely. Käytä [!INCLUDE [prod_short](includes/prod_short.md)] tuotteen nimenä, ja kirjoita aktiivisia lauseita, kuten "Tee työt nopeammin" ja "Tämän ominaisuuden avulla voit jne.".  
 
-Vihjeitä MarkDown-tunnisteista ja tyylistä on kohdassa [Dynamics 365 Business Centralin laatimisopas](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/help/writing-guide).  
+Vihjeitä MarkDown-tunnisteista ja tyylistä on kohdassa [Dynamics 365 Business Centralin laatimisopas](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/writing-guide).  
 
 Muista lisätä Katso myös -linkit ja lisätä uusi artikkeli TOC.md-tiedostoon.  
 

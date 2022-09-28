@@ -10,12 +10,12 @@ ms.search.keywords: find
 ms.search.form: 344
 ms.date: 05/23/2022
 ms.author: jswymer
-ms.openlocfilehash: c5c35c8bc6a3a7827ae2893c79ce883bff6b05ea
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: 3c89d9f3044a8fd0d0fa7f811f1b2f01978e4302
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799847"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532374"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Liittyvien tapahtumien etsiminen kirjatuista asiakirjoista 
 
@@ -69,7 +69,7 @@ Kun olet tehnyt valinnan, syötä asianmukaiset hakutiedot yläreunan kenttiin. 
 > [!TIP]
 > Esimerkkejä **Etsi merkintöjä** -käytöstä löytyy kohdasta [Nimikeseurattujen nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 

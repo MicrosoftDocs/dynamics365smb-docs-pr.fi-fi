@@ -10,12 +10,12 @@ ms.search.keywords: project management, consumption
 ms.search.form: 89, 92, 201, 1007, 1014
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1cfb8fcb086b258ece6de68850b627c19f3bfbcd
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c948845c535474ccd5fb8c3d6e031e5467c9de2f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075835"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532077"
 ---
 # <a name="record-consumption-or-usage-for-jobs"></a>Projektien kulutuksen tai käytön kirjaaminen
 
@@ -99,7 +99,7 @@ Kun olet kirjannut projektipäiväkirjan rivit, näkyvissä ovat suunnittelurivi
 2. Valitse asianmukaisen projektin päiväkirja ja valitse sitten **Tapahtumakirjaukset**-toiminto.  
 3. Valitse **Projektitapahtumat**-sivulla **Näytä linkitetyt projektin suunnittelurivit** -toiminto.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/post-job-usage-sales/)
 
 ## <a name="see-also"></a>Katso myös
 

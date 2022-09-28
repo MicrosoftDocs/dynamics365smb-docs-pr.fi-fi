@@ -10,12 +10,12 @@ ms.search.keywords: customer, payment, invoice, sales, invoice, quote
 ms.search.form: 1950, 1951,
 ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5c62b50867383ffb4aa9b3bff375d9c36a1e194c
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: a2b6cc372846ec525c9f035aa98c5daafbf31913
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361499"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533762"
 ---
 # <a name="the-late-payment-prediction-extension"></a>Myöhästyneen maksun ennusteen laajennus
 
@@ -118,13 +118,13 @@ Voit myös luoda oman ennakoivan verkkopalvelun **Dynamics 365 Business Centrali
 7. Valitse **Käytä omaa Azure-tilausta** -valintaruutu.
 8. Syötä **Oman mallin tunnistetiedot** -pikavälilehteen mallin ohjelmointirajapinnan URL-osoite ja avain.  .  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/predict-late-payments-sales-documents/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/predict-late-payments-sales-documents/)
 
 ## <a name="see-also"></a>Katso myös
 
 [Azure Machine Learning Studio -dokumentaatio](/azure/machine-learning/classic/)  
 [Business Central -sovelluksen mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin!](index.md)  
-[Tekoälyn käyttäminen Microsoft Dynamics 365 Business Centralissa (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
+[Tekoälyn käyttäminen Microsoft Dynamics 365 Business Centralissa](/training/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

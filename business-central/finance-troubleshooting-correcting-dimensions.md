@@ -10,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 82f71f3fafb0b977dde28033443f4585aeaced52
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 2f9662df035851c1700a3b5ca01b71a418832dbf
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075419"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532833"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Vianmääritys ja dimensioiden korjaaminen
 
@@ -122,7 +122,7 @@ Jos korjaus on keskeneräinen, korjauskortissa näkyy varoitus. Korjauksen voi s
 
 Dimensioiden korjauksen jälkeen kustannuslaskennan tiedot eivät ole synkronoituja. Kustannuslaskenta käyttää dimensioita koostamaan kustannuspaikkoja ja kustannuskohteita ja suorittamaan kustannusten kohdistamiset. KP-tapahtumien dimensioiden muuttaminen aiheuttaa todennäköisesti kustannuslaskentamallien uudelleensuorittamisen. Se, onko poistettava vain muutamia kustannusrekistereitä ja onko kohdistus suoritettava uudelleen vai onko kaikki poistettava ja kaikki mallit suoritettava uudelleen, perustuu tietoihin, jotka on päivitetty, ja siihen, miten kustannuslaskentaominaisuudet on määritetty. Sinun on manuaalisesti määritettävä, miten dimension korjaukset vaikuttavat kustannuslaskentaan ja missä päivityksiä tarvitaan. [!INCLUDE[prod_short](includes/prod_short.md)]issa ei ole tällä hetkellä tapaa tehdä tätä automaattisesti.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/dimensions-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/dimensions-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

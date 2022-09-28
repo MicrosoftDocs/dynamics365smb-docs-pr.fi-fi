@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9308412e7b1bfc19cb11187e22ae1b2d2f6c339b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 074cedb3620b751d4ddb366153bbbb494ae030da
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077578"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534120"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Toimitusten yhdistäminen yhteen laskuun
 
@@ -65,7 +65,7 @@ Voit myös poistaa manuaalisesti yksittäiset myyntitilaukset.
 
 Toista vaiheet 1–3 muissa käsiteltävissä asiakirjoissa, kuten puitemyyntitilauksissa.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/invoicing-customers-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/invoicing-customers-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

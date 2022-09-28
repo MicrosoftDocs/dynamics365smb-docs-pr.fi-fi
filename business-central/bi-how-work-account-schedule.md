@@ -10,12 +10,12 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8984d007f2082c6a21a3d2226a20f2ad585b131a
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 780034b8c53e7bb1704e13d0b1a00158583c11db
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129730"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531726"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Talousraportoinnin valmisteleminen KP-raporttimallien ja tililuokkien avulla
 
@@ -164,7 +164,7 @@ Voit tuoda ja viedä KP -raporttimalleja RapidStart-konfigurointipaketteina. Esi
 > [!NOTE]
 > Kun tuot KP-raporttimalleja, ohjelma poistaa aiemmin luodut tietueet, joiden nimet ovat samat kuin tuomasi.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/configure-financial-reports-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-financial-reports-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 

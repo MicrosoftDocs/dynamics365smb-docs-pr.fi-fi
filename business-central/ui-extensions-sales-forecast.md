@@ -10,12 +10,12 @@ ms.search.keywords: app, add-in, manifest, customize, budget
 ms.search.form: 1850, 1851, 1853,
 ms.date: 12/20/2021
 ms.author: edupont
-ms.openlocfilehash: fd48dacda54a5a81a7bb3a734201da31e8eb5453
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: ad8a1b1945331c9db4ef326bdf2bb36e68b35aaa
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362246"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533506"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Myynti- ja varastoennustelaajennus
 
@@ -64,13 +64,13 @@ Voit myös luoda oman ennakoivan verkkopalvelun **Microsoft Business Central -so
 6. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myynti- ja varastoennusteiden määritys** ja valitse sitten vastaava linkki.  
 7. Laajenna **Yleistä**-pikavälilehti ja täytä sitten API-URL- ja API-avain-kentät.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on [Microsoft Learnissa](/learn/modules/use-sales-inventory-forecast-extension/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-sales-inventory-forecast-extension/)
 
 ## <a name="see-also"></a>Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Varasto](inventory-manage-inventory.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
-[Tekoälyn käyttäminen Microsoft Dynamics 365 Business Centralissa (Microsoft Learn)](/learn/paths/use-artificial-intelligence/)  
+[Tekoälyn käyttäminen Microsoft Dynamics 365 Business Centralissa](/training/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

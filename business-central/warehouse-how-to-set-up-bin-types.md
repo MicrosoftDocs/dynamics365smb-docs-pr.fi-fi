@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 0ec68eac92b29ac0f2877bdbdb957da33311e2e2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 2bec10341df30f451e05289573c48132cf20b00a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077396"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533992"
 ---
 # <a name="set-up-bin-types"></a>Varastopaikkatyyppien määrittäminen
 
@@ -44,7 +44,7 @@ Varastopaikat, joita voi luoda, on luetteloitu seuraavassa.
 |HYLLPOIM|Nimikkeet varastopaikoissa, joille on ehdotettu sekä hyllytys- että poimintatoimintoa. Tämän tyyppisillä varastopaikoilla on todennäköisesti eri varastopaikan luokitteluja. Voit määrittää irtotavaran varastopaikat tämän tyyppiseksi varastopaikaksi, jolla on matalia varastopaikan luokitteluja verrattuna tavallisiin poimintavarastopaikkoihin tai edelleen poimimisen alueiden varastopaikkoihin.|  
 |QC|Tätä varastopaikkaa käytetään varastomuutoksille, jos varastopaikka määritetään sijaintikortissa **Muutosvarastopaikan koodi** -kentässä. Tämän tyyppisiä varastopaikkoja voi määrittää myös viallisille nimikkeille ja tarkastettaville nimikkeille. Nimikkeitä voi siirtää tämän tyyppiseen varastopaikkaan, jos haluat, että ne eivät ole saatavilla tavallisessa nimikevirrassa.<br /><br /> **HUOMAUTUS:** Toisin kuin kaikki muut varastopaikkatyypit, **QC** -varastopaikkatyypillä ei ole valittuna nimikkeen käsittelyn valintaruutuja oletusarvoisesti. Tämä osoittaa, että QC-varastopaikkaan asetettu sisältö jää pois nimikevirroista.|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/set-up-zones-bins/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-zones-bins/)
 
 ## <a name="see-also"></a>Katso myös
 

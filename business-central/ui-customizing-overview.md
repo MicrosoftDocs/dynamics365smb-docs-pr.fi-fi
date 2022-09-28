@@ -10,12 +10,12 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.search.form: 2500, 2502
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 7a08a9f53329693a44a7da1e293561d27fff4b78
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 877e4bf26b0af7675fe71f791e0bfe53159b9d70
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075783"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533076"
 ---
 # <a name="customize-business-central"></a>Business Centralin mukauttaminen
 
@@ -33,7 +33,7 @@ Sovelluksen voi mukauttaa useilla eri tavoilla, jotta sinä ja työtoverisi voit
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen käyttäjän dokumentaation kaikkien toimintojen kuvauksissa käsitellään **Premium**-käyttökokemusta. Tämä tarkoittaa sitä, että kuvaukset sisältävät käyttöliittymän kaikki elementit. Tämän vuoksi **Essential**-käyttökokemuksen käyttäjien ohjeaiheissa saatetaan käsitellä toimintoja ja käyttöliittymän elementtejä, jotka eivät ole käytettävissä käyttöliittymässä. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/tailor-roles-design-ui/)
 
 ## <a name="see-also"></a>Katso myös
 

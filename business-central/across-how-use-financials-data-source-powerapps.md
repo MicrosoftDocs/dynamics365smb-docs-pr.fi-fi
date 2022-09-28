@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: OData, Power App, SOAP
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a9c4f0decab63b3e0484ceff3f0bd7c31c638258
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: d7dbc334edcd22bb41ea5ad3a37ff53a52bfe970
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075106"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531888"
 ---
 # <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Yhteyden muodostaminen Business Central -tietoihin yrityssovelluksen luomista varten Power Appsin avulla
 
@@ -49,7 +49,7 @@ Kun olet suunnitellut ja rakentanut sovelluseksi, voit jakaa sen kollegoidesi ka
 > [!NOTE]
 > Jos haluat yhdistää [!INCLUDE[prod_short](includes/prod_short.md)]iin paikallisesti, sinun täytyy valita  **Business Central (paikallinen)** yhdistin vaiheessa 3.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/power-apps-power-automate-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/power-apps-power-automate-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

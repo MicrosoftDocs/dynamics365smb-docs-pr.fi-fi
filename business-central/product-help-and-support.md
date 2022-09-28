@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: 33cd44d4aab7f22dd8ea2cbad7fd21a4955142a0
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: d006df90aa6eba3b1970db971cdb14700a3bbd6b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460616"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531699"
 ---
 # <a name="resources-for-help-and-support"></a>Ohje- ja tukiresurssit
 
@@ -87,7 +87,7 @@ Tässä osassa käsitellään resursseja, jotka ovat käytössäsi **Ohje ja tuk
   
 - [!INCLUDE[prod_short](includes/prod_short.md)]in ohjeen saapumissivu  
 
-  [!INCLUDE[prod_short](includes/prod_short.md)]in oletusversion toimintoja käsitellään [Docs.microsoft.com](/dynamics365/business-central)-sivustossa. Lisätietoja on kohdassa [Lisätietojen etsiminen docs.microsoft.com-sivustossa](#use-the-docsmicrosoftcom-site-to-learn-more). [!INCLUDE[prod_short](includes/prod_short.md)]ia voi myös laajentaa ja mukauttaa AppSourcen sovelluksilla. Kaikissa sovelluksissa on linkkejä liittyvän tuotteen ohjeeseen, joten löydät aina oman [!INCLUDE[prod_short](includes/prod_short.md)] -versiosi työnkulkuja koskevaa opastusta.  
+  [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman oletusversion toiminnot on kuvattu [Dynamics 365 Business Central -dokumentaatiossa](/dynamics365/business-central) Lisätietoja on [Lue lisää tuotteen dokumentaatiosta](#learn-more-using-the-product-documentation) -osiossa. [!INCLUDE[prod_short](includes/prod_short.md)]ia voi myös laajentaa ja mukauttaa AppSourcen sovelluksilla. Kaikissa sovelluksissa on linkkejä liittyvän tuotteen ohjeeseen, joten löydät aina oman [!INCLUDE[prod_short](includes/prod_short.md)] -versiosi työnkulkuja koskevaa opastusta.  
 
 #### <a name="community"></a>Yhteisö
 
@@ -151,13 +151,13 @@ Jos haluat ilmoittaa kumppanille ongelmasta, lähetä joko sähköpostiviesti va
 > [!NOTE]
 > Tukihenkilöiden tietoja ei ole saatavilla paikallisessa [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="use-the-docsmicrosoftcom-site-to-learn-more"></a>Lisätietojen etsiminen docs.microsoft.com-sivustossa
+## <a name="learn-more-using-the-product-documentation"></a>Lue lisää tuotteen dokumentaation käyttämisestä
 
-Suuri kumppaniyhteisö on laajentanut ja mukauttanut [!INCLUDE [prod_short](includes/prod_short.md)]in perusversiota. Kukin kumppani ja monet asiakkaat ottavat oman ohjeen käyttöön sivustossaan. Saat tarvittaessa lisätietoja siirtymällä [docs.microsoft.com](index.md)-sivustoon. Sivusto käytetään erilaisia sisältöjä, kuten seuraavia:
+Suuri kumppaniyhteisö on laajentanut ja mukauttanut [!INCLUDE [prod_short](includes/prod_short.md)]in perusversiota. Kukin kumppani ja monet asiakkaat ottavat oman ohjeen käyttöön sivustossaan. Saat tarvittaessa lisätietoja siirtymällä [Dynamics 365 Business Central -dokumentaatio](index.md)-sivustoon. Sivusto käytetään erilaisia sisältöjä, kuten seuraavia:
 
 - [Liiketoimintatoimintoja koskeva käsitteellinen sisältö](index.md)  
 - [Kehittäjille tarkoitettu dokumentaatio](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)  
-- [Maksuttomat oppimispolut ja verkko-oppimismoduulit eri käyttäjäprofiileissa](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+- [Maksuttomat oppimispolut ja verkko-oppimismoduulit eri käyttäjäprofiileissa](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
 Tässä osassa käsitellään liiketoimintatoimintojen sisällössä siirtymistä.  
 
@@ -165,7 +165,7 @@ Tässä osassa käsitellään liiketoimintatoimintojen sisällössä siirtymist�
 
 ### <a name="content-on-the-site"></a>Sivuston sisältö
 
-Docs.microsoft.com-sivuston [tässä osassa](index.md) on Microsoft-sisältöä, joka ilmaisee käyttäjätukimallin *Lisätietoja*-osan. *Lisätietoja*-sisällön yhtenä tarkoituksena on vastata kysymyksiin, joihin käyttöliittymä ei voi vastata. Tällaisia kysymyksiä ovat esimerkiksi seuraavat:
+Microsoft Learn-sivuston [tässä osassa](index.md) on Microsoft-sisältöä, joka ilmaisee käyttäjätukimallin *Lisätietoja*-osan. *Lisätietoja*-sisällön yhtenä tarkoituksena on vastata kysymyksiin, joihin käyttöliittymä ei voi vastata. Tällaisia kysymyksiä ovat esimerkiksi seuraavat:
 
 - Miten sivu sijoittuu työnkulkukokonaisuuteen?  
 - Mitä tapahtuu seuraavaksi?  
@@ -180,11 +180,11 @@ Sisällysluettelo sisältää sisältöryhmiä, jossa kuvataan niiden maiden [pa
 Paikallinen toimintosisältö käsittelee [!INCLUDE [prod_short](includes/prod_short.md)]in toimintoja, joiden avulla voidaan noudattaa tuettujen markkinoiden vaatimuksia esimerkiksi veroilmoitusten ja muiden raporttien osalta. Joissakin tapauksissa käyttäjät eivät havaitse oletusversion ja maakohtaisen version eroa. Muissa tapauksissa käyttäjien on määritettävä raportointi tai sähköinen laskutus tietyllä tavalla. Jos tietyn painikkeen tai toiminnon kuvausta ei löydy yleisestä osasta, se toivottavasti löytyy *Paikalliset toiminnot* -osasta.  
 
 > [!TIP]
-> Hakutulokset näyttävät kohdeartikkelin kontekstia docs.microsoft.com-sivustossa sekä tuotteen sisäisessä hakukentässä ja ohjeruudussa. Konteksti sisältää linkin, joka voi näyttää maan/alueen nimen, tai lyhyen kuvauksen, joka kuvaa tiettyä ominaisuutta tai esimerkiksi maata/aluetta.
+> Hakutulokset näyttävät kohdeartikkelin kontekstia learn.microsoft.com-sivustossa sekä tuotteen sisäisessä hakukentässä ja ohjeruudussa. Konteksti sisältää linkin, joka voi näyttää maan/alueen nimen, tai lyhyen kuvauksen, joka kuvaa tiettyä ominaisuutta tai esimerkiksi maata/aluetta.
 
 ### <a name="finding-other-content"></a>Muun sisällön etsiminen
 
-Jos artikkeli ei vastaa kysymyksiin, muuta sisältöä voi etsiä kahdella tavalla docs.microsoft.com-sivustolla:
+Jos artikkeli ei vastaa kysymyksiin, muuta sisältöä voi etsiä kahdella tavalla Microsoft Learnissa:
 
 - Käyttämällä sisällysluettelon **Suodata otsikon mukaan** -kenttää sivuston vasemmassa reunassa.
 
@@ -197,21 +197,21 @@ Jos artikkeli ei vastaa kysymyksiin, muuta sisältöä voi etsiä kahdella taval
 
 ### <a name="languages"></a>Kielet
 
-Liiketoimintatoimintojen sisältöä julkaistaan useilla kielillä. Kun sivustoon docs.microsoft.com siirrytään tuotteesta, sisältö näytetään sillä kielellä, joka on määritetty [!INCLUDE [prod_short](includes/prod_short.md)]issa, paitsi siinä tapauksessa, että kieltä ei käytetä sivustossa docs.microsoft.co.  
+Liiketoimintatoimintojen sisältöä julkaistaan useilla kielillä. Kun Microsoft Learn -sivustoon siirrytään tuotteesta, sisältö näytetään sillä kielellä, joka on määritetty [!INCLUDE [prod_short](includes/prod_short.md)]issa, paitsi siinä tapauksessa, että kieltä ei käytetä Microsoft Learn -sivustossa.  
 
 Voit vaihtaa kielen muuttamalla URL-osoitteen tai käyttämällä kielivalitsinta sivuston vasemmassa alakulmassa.  
 
 Sisältö on kirjoitetaan englanniksi ja julkaistaan URL-osoitteissa, joiden kielikoodi on *en-us*. Englanniksi kirjoitetut uudet tiedot lähetetään sitten käännettäviksi tuetuille kielille. Joissakin tapauksissa voi kestää jopa neljä viikkoa, ennen kuin uusi sisältöä on luettavissa omalla kielellä, mutta useimmissa tapauksissa sisältö on saatavana parissa viikossa. Uusimmat tiedot ovat aina luettavissa vaihtamalla kieleen *en-us*.  
 
-Kunkin kielen sisällysluettelo on käännetty, mutta *Paikalliset toiminnot* -osan sisältö on englanninkielistä lukuun ottamatta sitä maata, joka vastaa valittua kieltä. Esimerkiksi sivuston docs.microsoft.com tanskankielisessä sivustossa (`https://docs.microsoft.com/da-dk/dynamics365/business-central/`) Australian paikallisten toimintojen artikkelit näkyvät tanskaksi sisällysluettelossa, mutta artikkelit ovat englanninkielisiä. Vain tanskalaisia paikallisia toimintoja koskevat artikkelit käännetään tanskaksi.  
+Kunkin kielen sisällysluettelo on käännetty, mutta *Paikalliset toiminnot* -osan sisältö on englanninkielistä lukuun ottamatta sitä maata, joka vastaa valittua kieltä. Esimerkiksi sivuston Microsoft Learnin tanskankielisessä sivustossa (`https://learn.microsoft.com/da-dk/dynamics365/business-central/`) Australian paikallisten toimintojen artikkelit näkyvät tanskaksi sisällysluettelossa, mutta artikkelit ovat englanninkielisiä. Vain tanskalaisia paikallisia toimintoja koskevat artikkelit käännetään tanskaksi.  
 
 ### <a name="recommended-content"></a>Suositeltu sisältö
 
-Maaliskuussa 2021 docs.microsoft.com-sivuston useimpiin artikkeleihin tuli näkyviin uusi osa. **Suositeltu sisältö** -osa luodaan automaattisesti sen perusteella, miten kutakin artikkelia käytetään docs.microsoft.com-sivuston muun sisällön yhteydessä. Linkit eivät ole staattisia ja muuttuvat ajan mittaan.
+Maaliskuussa 2021 Microsoft Learn -sivuston useimpiin artikkeleihin tuli näkyviin uusi osa. **Suositeltu sisältö** -osa luodaan automaattisesti sen perusteella, miten kutakin artikkelia käytetään muun sivuston yhteydessä. Linkit eivät ole staattisia ja muuttuvat ajan mittaan.
 
 ### <a name="tell-us-what-you-think"></a>Kerro mielipiteesi
 
-Kunkin docs.microsoft.com-artikkelin lopussa on kaksi painiketta. *Tämä tuote* -painike vie ideasivustoon ja **Tämä sivu** -painikkeella voi lähettää sisältöä koskevaa palautetta GitHubin kautta. Kummassakin tapauksessa on luotava tili, jos sitä ei vielä ole. *Tuotteen palautetta* varten kirjauttamiseen on käytettävä työpaikan tai organisaation sähköpostitiliä. *GitHubissa* tilin voi luoda millä tahansa sähköpostiosoitteella.  
+Kunkin Microsoft Learn -artikkelin lopussa on kaksi painiketta. *Tämä tuote* -painike vie ideasivustoon ja **Tämä sivu** -painikkeella voi lähettää sisältöä koskevaa palautetta GitHubin kautta. Kummassakin tapauksessa on luotava tili, jos sitä ei vielä ole. *Tuotteen palautetta* varten kirjauttamiseen on käytettävä työpaikan tai organisaation sähköpostitiliä. *GitHubissa* tilin voi luoda millä tahansa sähköpostiosoitteella.  
 
 Ehdotukset ovat tervetulleita sekä pull-pyyntöinä, joissa on sisältöä koskevia ehdotuksia tai korjauksia, että GitHub-ongelmina, jotka koskevat ohjelmistovirheitä tai kysymyksiä. On kuitenkin muistettava, että *dynamics365smb-docs*-säilöä koskeva palaute ja ehdotukset koskevat sisältöä eivätkä tuotetta.  
 
@@ -220,7 +220,7 @@ Ehdotukset ovat tervetulleita sekä pull-pyyntöinä, joissa on sisältöä kosk
 
 ### <a name="navigating-to-other-parts-of-the-site"></a>Siirtyminen sivuston muihin osiin
 
-Docs.microsoft.com-sivustossa on muiden tuotteiden sisältöä ja muun tyyppistä sisältöä. Sivuston yläosassa on linkkejä, joilla voi siirtyä esimerkiksi [Microsoft Learn -sivustoon](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) tai [Dynamics 365:n julkaisusuunnitelmiin](/dynamics365/release-plans/). Käytettävissä on myös linkki esimerkiksi [Dynamics 365 -yhteisöön](https://community.dynamics.com/).  
+Microsoft Learn -sivustossa on muiden tuotteiden sisältöä ja muun tyyppistä sisältöä. Sivuston yläosassa olevilla linkeillä voi siirtyä esimerkiksi [Microsoftin koulutus](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) -sivustoon tai [Dynamics 365:n julkaisusuunnitelmiin](/dynamics365/release-plans/). Käytettävissä on myös linkki esimerkiksi [Dynamics 365 -yhteisöön](https://community.dynamics.com/).  
 
 ## <a name="apps-and-other-solutions"></a>Sovellukset ja muut ratkaisut
 
@@ -238,6 +238,6 @@ Tämä koskee myös [!INCLUDE [prod_short](includes/prod_short.md)]in paikallist
 [Business Centralin kehittäjän ja järjestelmänvalvojien dokumentaatio](/dynamics365/business-central/dev-itpro/)  
 [Kumppanien ohje- ja tukiresurssit](/dynamics365/business-central/dev-itpro/help-and-support)  
 [Tekninen tuki](/dynamics365/business-central/dev-itpro/technical-support)  
-[Microsoft Learn -sivusto](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Microsoft Learn -sivusto](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

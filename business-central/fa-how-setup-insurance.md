@@ -10,12 +10,12 @@ ms.search.keywords: policy, coverage
 ms.search.form: 5607, 5648, 5644, 5651
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e5d22e409ec2b9dcd24b210d92a7c87df8df5380
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 61cc87155b3defaf43555940ce74ff58a0e2be6e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075575"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535261"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Käyttöomaisuuserän määrittäminen
 
@@ -61,7 +61,7 @@ Vakuutuspäiväkirjan mallin alla voidaan määrittää eriä. Päiväkirjaerän
 > [!NOTE]  
 >   Numeroilla on päiväkirjan nimissä erityistehtävä. Jos päiväkirjamallin nimessä tai päiväkirjaerän nimessä on numero, numero suurenee automaattisesti yhdellä joka kerta, kun päiväkirja kirjataan. Esimerkiksi jos **Nimi**-kenttään syötetään HH1, päiväkirjan nimi muuttuu HH2:ksi sen jälkeen, kun päiväkirja, jonka nimi on HH1, on kirjattu.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also"></a>Katso myös
 

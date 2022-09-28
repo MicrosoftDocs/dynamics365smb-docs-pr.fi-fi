@@ -10,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: ea32a78ec191d335fb772a7040ed81db6753b196
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
+ms.openlocfilehash: b8c09f49b741f7979f79f5e3305ef11258ffaaea
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417517"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530916"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Myynnin ja ostojen ALV:n käsitteleminen
 Jos maasi tai alueesi edellyttää, että lasket ja raportoit arvonlisäveron (ALV) myynti- ja ostotransaktioista, voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in laskemaan ALV:n. Lisätietoja on kohdassa [Arvolisäveron laskelmien ja kirjausmenetelmien määrittäminen](finance-setup-vat.md).
@@ -193,7 +193,7 @@ Voit tarkastella sertifikaattiryhmiä aloittamalla **Tarjontasertifikaatit**-siv
 > * Tarjontasertifikaatin luominen manuaalisesti  
 > * Tarjontasertifikaatin tulostaminen.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 

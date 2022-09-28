@@ -10,12 +10,12 @@ ms.search.keywords: bank account balance, bank statement
 ms.search.form: 379, 388, 389, 1290, 1692, 10124
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: e74df84ac5119e87aecd6a15e270dfd50fb1b117
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d12ac9b5aa8718c2445cd7a4054ff0549e5d8ada
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514489"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534937"
 ---
 # <a name="reconcile-bank-accounts"></a>Pankkitilien täsmäytys
 
@@ -166,7 +166,7 @@ Jos teet seuraavan pankkitäsmäytyksen elokuun osalta, harkitse arvojen muuttam
 >
 >Viimeisen tiliotteen saldo -arvoa pidetään pankkitilillä virheiden minimoimiseksi pankkitäsmäytyksiä tehtäessä. Sitä voi myös muokata, joten pankkitilin täsmäytykset voidaan tehdä missä tahansa järjestyksessä. Tämä tarkoittaa myös sitä, että jos peruutat pankin tiliotteen, uusi loppusaldo ei ehkä ole seuraavassa tiliotteessa Viimeisen tiliotteen saldo. Ei ole mitään toimintoa, jolla voi siirtää saldon eteenpäin kaikille myöhemmille tiliotteille. Tämä on hyvä ottaa huomioon Kumoa-toimintoa käytettäessä. 
 
-## <a name="see-related-training-at-microsoft-learn"></a>Aiheeseen liittyviä kursseja on saatavilla kohteessa [Microsoft Learn](/learn/modules/bank-reconciliation-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 

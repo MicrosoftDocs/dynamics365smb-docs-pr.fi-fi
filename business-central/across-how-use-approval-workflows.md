@@ -7,12 +7,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: a4dcb5c9f12190a662c4f45bbadcfdddee70fa7f
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 55e7861d479ee5d4415ca776f969b722464ddcc3
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129819"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531915"
 ---
 # <a name="use-approval-workflows"></a>Hyväksymistyönkulkujen käyttäminen
 
@@ -83,11 +83,11 @@ Hyväksynnän työnkulun käyttäjiä on muistutettava säännöllisin väliajoi
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Erääntyneet hyväksymispyynnöt** ja valitse sitten vastaava linkki.
 2. Valitse **Myöhässä olevat hyväksyntäpyynnöt** -sivulla **Lähetä erääntyneiden hyväksyntöjen ilmoitukset** -toiminto.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also"></a>Katso myös
 
-[Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)  
+[Hyväksyjäkäyttäjien määrittäminen](across-how-to-set-up-approval-users.md)  
 [Myynti](sales-manage-sales.md)  
 [Saapuvat asiakirjat](across-income-documents.md)  
 [Osto](purchasing-manage-purchasing.md)  
