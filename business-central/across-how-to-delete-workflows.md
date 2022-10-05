@@ -1,5 +1,5 @@
 ---
-title: Työnkulkujen poistaminen
+title: Hyväksyntätyönkulkujen poistaminen
 description: Voit poistaa työnkulun, jos olet varma, ettei sitä enää käytetä. Kaikkien työnkulun osavaiheiden instanssien tilan pitää olla **Valmis**.
 author: SorenGP
 ms.topic: conceptual
@@ -7,41 +7,44 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
+ms.search.form: 1500,
+ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: 2243b6e79f087d505c179bb3b1932aa8d2491339
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: e93adde3ffdc520433df26f5735d021d5b64bf19
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129954"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585592"
 ---
-# <a name="delete-workflows"></a>Työnkulkujen poistaminen
+# <a name="delete-approval-workflows"></a>Hyväksymistyönkulkujen poistaminen
 
-Voit poistaa työnkulun, jos olet varma, ettei sitä enää käytetä. Kaikkien työnkulun osavaiheiden instanssien tilan pitää olla **Valmis**.  
+Voit poistaa työnkulun, jos olet varma, ettei sitä enää käytetä. Kaikkien työnkulun osavaiheiden instanssilla pitää olla **Valmis**-tila.
 
-> [!CAUTION]  
-> Kun poistat työnkulun, kaikki työnkulun tiedot menetetään.  
+> [!CAUTION]
+> Kun poistat työnkulun, kaikki työnkulun tiedot menetetään.
 
-Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan. Työnkulku määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita. Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).  
+Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan. Työnkulku määritetään täyttämällä työnkulkurivien kentät käyttämällä tapahtumien kiinteitä luetteloita ja vastausarvoja, jotka edustavat sovelluskoodin tukemia skenaarioita. Lisätietoja on kohdassa [Hyväksyntätyönkulkujen luominen](across-how-to-create-workflows.md).
 
-## <a name="to-delete-a-workflow"></a>Työnkulun poistaminen
+## <a name="delete-a-workflow"></a>Työnkulun poistaminen
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut** ja valitse sitten vastaava linkki.  
-2. Valitse työnkulku, jonka haluat poistaa.  
-3. Valitse **Poista**-toiminto.  
-4. Voit myös avata työnkulun, jonka haluat poistaa.  
-5. Valitse **Työnkulku**-sivulla **Poista**-toiminto.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut**, valitse sitten vastaava linkki.
+2. Valitse työnkulku, jonka haluat poistaa.
+3. Valitse **Poista**-toiminto.
+4. Voit myös avata työnkulun, jonka haluat poistaa.
+5. Valitse **Työnkulku**-sivulla **Poista**-toiminto.
+
+> [!NOTE]
+> Työnkulun poistaminen edellyttää sen poistamista käytöstä. Voit poistaa työnkulun käytöstä avaamalla sen **Työnkulut**-sivulla ja poistamalla **käytössä**-vaihtoehdon käytöstä.
 
 ## <a name="see-also"></a>Katso myös
 
-[Työnkulkujen luominen](across-how-to-create-workflows.md)  
-[Työnkulkujen ottaminen käyttöön](across-how-to-enable-workflows.md)  
+[Luo hyväksymistyönkulut](across-how-to-create-workflows.md)  
+[Hyväksymistyönkulkujen ottaminen käyttöön](across-how-to-enable-workflows.md)  
+[Hyväksymistyönkulkujen käyttäminen](across-use-workflows.md)  
 [Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen](across-how-to-view-archived-workflow-step-instances.md)  
 [Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
-[Työnkulkujen määrittäminen](across-set-up-workflows.md)  
-[Käytä työnkulkuja](across-use-workflows.md)  
+[Hyväksymistyönkulkujen määrittäminen](across-set-up-workflows.md)  
 [Työnkulku](across-workflow.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

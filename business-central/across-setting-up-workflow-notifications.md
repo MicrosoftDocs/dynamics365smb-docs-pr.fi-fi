@@ -1,30 +1,30 @@
 ---
-title: Työnkulkuilmoitusten määrittäminen
+title: Hyväksyntätyönkulkuilmoitusten määrittäminen
 description: Tässä artikkelissa kerrotaan, miten voit määrittää työnkulun ilmoitukset, jotka ilmoittavat käyttäjälle, että tapahtumaan on reagoitava ja työnkulun vastaus tarvitaan.
 author: SorenGP
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
+ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 9405af9c52b17ab34fded263692e3294ed8aaf11
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 65dad3ffcb91415b13683f20a5e91274c3841c87
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533965"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585445"
 ---
-# <a name="workflow-notifications"></a>Työnkulun ilmoitukset
+# <a name="approval-workflow-notifications"></a>Hyväksyntätyönkulkuilmoitukset
 
 Määritä työnkulut ilmoittamaan käyttäjille automaattisesti, kun työnkulun vaihe vaatii heidän huomionsa. Useat työnkulun vastaukset ilmoittavat käyttäjälle toimia vaativista tapahtumista.
 
-Voit esimerkiksi määrittää, että hyväksyjäkäyttäjä Käyttäjä 2 saa ilmoituksen aina, kun Käyttäjä1 pyytää hyväksyntää uudelle tietueelle. Seuraavassa työnkulun osavaiheessa Käyttäjä 3:lle ilmoitetaan, kun Käyttäjä 2 on hyväksynyt tietueen tietueen asianmukaisen käsittelyn aloittamista varten. Työnkulun hyväksyntäosavaiheiden ilmoitukset ovat sidoksissa hyväksyntämerkintään. Lisätietoja on kohdassa [Työnkulku](across-workflow.md).  
+Voit esimerkiksi määrittää, että hyväksyjäkäyttäjä Käyttäjä 2 saa ilmoituksen aina, kun Käyttäjä 1 pyytää hyväksyntää uudelle tietueelle. Seuraavassa työnkulun vaiheessa, kun käyttäjä 2 on hyväksynyt tietueen, käyttäjälle 3 ilmoitetaan ja hän voi aloittaa tietueen käsittelyn. Työnkulun hyväksyntäosavaiheiden ilmoitukset ovat sidoksissa hyväksyntämerkintään. Lisätietoja kohdassa [Työnkulku](across-workflow.md).  
 
 > [!NOTE]  
-> [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman oletusarvoinen versio tukee ilmoituksia sähköpostina ja sisäisinä muistiinpanoina.  
+> [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman oletusarvoinen versio tukee ilmoituksia sähköpostina tai sisäisinä muistiinpanoina.  
 
 > [!IMPORTANT]  
-> Kaikki työnkulun ilmoitukset lähetetään työjonon kautta. Varmista, että asennuksen työjono on määritetty käsittelemään työnkulun ilmoituksia ja että **Käynnistä automaattisesti palvelimelta** -valintaruutu on valittu. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
+> Kaikki työnkulun ilmoitukset lähetetään työjonon kautta. Varmista, että asennuksen työjono on määritetty käsittelemään työnkulun ilmoituksia ja että olet valinnut **Käynnistä automaattisesti palvelimelta** -valintaruudun. Lue lisätietoja kohdasta [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
 
 ## <a name="set-up-notifications"></a>Ilmoitusten määrittäminen
 
@@ -32,26 +32,28 @@ Työnkulun ilmoitusten osatekijöitä voi määrittää seuraavissa paikoissa:
 
 * Hyväksyjän ilmoitus
 
-    Hyväksynnän työnkulkujen ilmoitusten vastaanottajat määritetään täyttämällä rivi **Hyväksynnän käyttäjäasetukset** -sivulla kullekin työnkulkuun osallistuvalle käyttäjälle.  
+  Hyväksynnän työnkulkujen ilmoitusten vastaanottajat määritetään täyttämällä rivi **Hyväksynnän käyttäjäasetukset** -sivulla kullekin työnkulkuun osallistuvalle käyttäjälle.  
 
-    Jos esimerkiksi käyttäjä 2 on määritetty **Hyväksyjän tunnus** -kentän Käyttäjä 1 -rivillä, hyväksyntäpyyntöilmoitus lähetetään käyttäjälle 2. Lisätietoja on kohdassa [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md).  
+  Jos esimerkiksi käyttäjä 2 on määritetty **Hyväksyjän tunnus** -kentän Käyttäjä 1 -rivillä, hyväksyntäpyyntöilmoitus lähetetään käyttäjälle 2. Lisätietoja kohdassa [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md). 
+  
 * Ilmoitusaikataulut
 
-    Täyttämällä **Ilmoitusaikataulu**-sivu kullekin työnkulun käyttäjälle määritetään se, milloin ja miten käyttäjät saavat työnkulun ilmoituksia. Lisätietoja on kohdassa [Ilmoitusten vastaanoton ajankohdan ja tavan määrittäminen](across-how-to-specify-when-and-how-to-receive-notifications.md).  
+  Täyttämällä **Ilmoitusaikataulu**-sivu kullekin työnkulun käyttäjälle määritetään se, milloin ja miten käyttäjät saavat työnkulun ilmoituksia. Lue lisätietoja kohdasta [Työnkulkuilmoitusten vastaanoton ajankohdan ja tavan määrittäminen](across-how-to-specify-when-and-how-to-receive-notifications.md). 
+  
 * Sähköposti-ilmoitusten mukauttaminen
 
-    Voit halutessasi mukauttaa sähköposti-ilmoituksen sisältöä muokkaamalla Raportti 1320:n sähköposti-ilmoitusta. Lisätietoja on kohdassa [Raportin mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md).  
+  Voit halutessasi mukauttaa sähköposti-ilmoituksen sisältöä muokkaamalla Raportti 1320:n sähköposti-ilmoitusta. Lue lisätietoja kohdasta [Raporttien mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md).  
 
-    > [!NOTE]
-    > Jos haluat käyttää sähköpostia ilmoitusmenetelmänä, sinun on määritettävä sähköposti sekä lähettäjälle että vastaanottajalle [!INCLUDE [prod_short](includes/prod_short.md)] -ratkaisussa. Lisätietoja on kohdassa [Sähköpostin määrittäminen](admin-how-setup-email.md).
-
+  > [!NOTE]
+  > Jos haluat käyttää sähköpostia ilmoitusmenetelmänä, sinun on määritettävä sähköposti sekä lähettäjälle että vastaanottajalle [!INCLUDE [prod_short](includes/prod_short.md)] -ratkaisussa. Lisätietoja kohdassa [Sähköpostin määrittäminen](admin-how-setup-email.md).
+  
 * Vastausvaihtoehdot
 
-    Työnkulun ilmoituksen erityinen sisältö ja säännöt määritetään silloin, kun luot kyseistä työnkulkua. Valitse muokkausasetukset **Työnkulun vastaukset** -sivulla sille työnkulun vastaukselle, joka edustaa ilmoitusta. Lisätietoja on kohdan [Työnkulkujen luominen](across-how-to-create-workflows.md#to-create-a-workflow) vaiheessa 9.  
-
+  Työnkulun ilmoituksen erityinen sisältö ja säännöt määritetään silloin, kun luot kyseistä työnkulkua. Valitse muokkausasetukset **Työnkulun vastaukset** -sivulla sille työnkulun vastaukselle, joka edustaa ilmoitusta. Lue lisätietoja vaiheesta 9 [Työnkulkujen luominen](across-how-to-create-workflows.md#to-create-a-workflow) -osassa. 
+  
 * Ilmoita lähettäjälle
 
-    Hyväksymistyönkuluille voit lisätä työnkulun vastausvaiheen, joka ilmoittaa lähettäjälle, kun heidän pyyntönsä on hyväksytty tai hylätty. Lisätietoja on kohdan [Työnkulkujen luominen](across-how-to-create-workflows.md#to-create-a-workflow) vaiheessa 9.  
+  Hyväksymistyönkuluille voit lisätä työnkulun vastausvaiheen, joka ilmoittaa lähettäjälle, kun heidän pyyntönsä on hyväksytty tai hylätty. Lue lisätietoja vaiheesta 9 [Työnkulkujen luominen](across-how-to-create-workflows.md#to-create-a-workflow) -osassa.   
 
 ## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
@@ -60,12 +62,11 @@ Työnkulun ilmoitusten osatekijöitä voi määrittää seuraavissa paikoissa:
 [Hyväksyjäkäyttäjien määrittäminen](across-how-to-set-up-approval-users.md)  
 [Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md)  
 [Ilmoitusten vastaanoton ajankohdan ja tavan määrittäminen](across-how-to-specify-when-and-how-to-receive-notifications.md)  
-[Työnkulkujen luominen](across-how-to-create-workflows.md)  
+[Luo hyväksymistyönkulut](across-how-to-create-workflows.md)  
 [Raporttien mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)  
 [Työjonojen käyttäminen ajoitustehtäviin](admin-job-queues-schedule-tasks.md)  
 [Sähköpostin määrittäminen](admin-how-setup-email.md)  
 [Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Työnkulku](across-workflow.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

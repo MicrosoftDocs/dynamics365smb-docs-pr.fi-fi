@@ -113,8 +113,11 @@
 ## Pikaoppaat
 ### [Business Centralin pika-aloitus](quick-start-business-central.md)
 ### [Yrityksen tietojen määrittäminen](quick-start-company-information.md)
+### [Syötä rahoitustietoja](quick-start-financial-information.md)
 ### [Tuotteiden ja palveluiden myynti](quick-start-sell-products-and-services.md)
 ### [Tuotteiden ja palveluiden ostaminen](quick-start-procurement.md)
+### [Raporttien ja asiakirjojen mukauttaminen ja tulostaminen](quick-start-reports-and-documents.md)
+### [Kävijätietojen hankkiminen Business Intelligence -palvelun avulla](quick-start-business-intelligence.md)
 
 <!--use-->
 ## Tuottavuus Business Centralissa
@@ -239,13 +242,13 @@
 ### Työnkulut
 #### [Työnkulun yleiskatsaus](across-workflow.md)
 #### [Business Centralin käyttö Power Automate -työnkuluissa](across-how-use-financials-data-source-flow.md)
-#### Käytä työnkulkuja
-##### [Käytä työnkulkuja](across-use-workflows.md)
-##### [Työnkulkujen ottaminen käyttöön](across-how-to-enable-workflows.md)
-##### [Hyväksymistyönkulkujen käyttäminen](across-how-use-approval-workflows.md)
+#### Hyväksymistyönkulkujen käyttäminen
+##### [Hyväksymistyönkulkujen käyttäminen](across-use-workflows.md)
+##### [Hyväksymistyönkulkujen ottaminen käyttöön](across-how-to-enable-workflows.md)
+##### [Toimintaohje: Hyväksyntätyönkulkujen käyttäminen](across-how-use-approval-workflows.md)
 ##### [Tietueen käytön rajoittaminen ja salliminen](across-how-to-restrict-and-allow-usage-of-a-record.md)
 ##### [Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen](across-how-to-view-archived-workflow-step-instances.md)
-##### [Työnkulkujen poistaminen](across-how-to-delete-workflows.md)
+##### [Hyväksymistyönkulkujen poistaminen](across-how-to-delete-workflows.md)
 <!--data exchange-->
 ### Sähköinen tiedonsiirto
 #### [OData Exchangen yleiskatsaus](across-data-exchange.md)
@@ -1584,12 +1587,12 @@
 ### Luo malleihin perustuvia hyväksynnän työnkulkuja
 #### [Määritä hyväksymistyönkulut](across-set-up-workflows.md)
 #### [Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md)
-#### [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)
-#### [Työnkulun ilmoitukset](across-setting-up-workflow-notifications.md)
+#### [Hyväksyjäkäyttäjien määrittäminen](across-how-to-set-up-approval-users.md)
+#### [Hyväksyntätyönkulkuilmoitukset](across-setting-up-workflow-notifications.md)
 #### [Työnkulkuilmoitusten vastaanoton ajankohdan ja tavan määrittäminen](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Työnkulkujen luominen](across-how-to-create-workflows.md)
+#### [Luo hyväksymistyönkulut](across-how-to-create-workflows.md)
 #### [Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md)
-#### [Työnkulkujen vienti ja tuonti](across-how-to-export-and-import-workflows.md)
+#### [Hyväksyntätyönkulkujen vienti ja tuonti](across-how-to-export-and-import-workflows.md)
 #### [Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!--Connectors-->
 ### Määritä yhteydet
@@ -1626,7 +1629,7 @@
 ###### [Business Central -sovellusten käyttäminen Power BI:ssa](across-powerbi-business-central-apps.md)
 ##### [Usein kysytyt kysymykset](power-bi-faq.md)
 #### Power Automate:n käyttäminen Business Centralin kanssa
-##### [Business Centralin käyttö Power Automate -työnkuluissa](across-how-use-financials-data-source-flow.md)
+##### [Power Automate -työnkulkujen käyttö Business Centralissa](across-how-use-financials-data-source-flow.md)
 ##### [Automaattisten työnkulkujen vianmääritys](across-flow-troubleshoot.md)  
 #### Power Apps:n käyttäminen Business Centralin kanssa
 ##### [Yhteyden muodostaminen Business Central -tietoihin yrityssovelluksen luomista varten Power Appsin avulla](across-how-use-financials-data-source-powerapps.md)

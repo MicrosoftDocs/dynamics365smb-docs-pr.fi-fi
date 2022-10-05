@@ -1,30 +1,34 @@
 ---
 title: Business Centralin pika-aloitus
-description: Aloita Business Centralin käyttö pika-aloitusartikkelien vihjeiden avulla, joiden avulla voit täyttää ensimmäiset kriittiset kentät.
+description: Aloita Business Centralin käyttö pika-aloitusartikkelien ja vihjeiden avulla, joiden avulla voit täyttää ensimmäiset kriittiset kentät.
 author: jill-kotel-andersson
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.date: 09/29/2021
+ms.date: 08/25/2022
 ms.author: edupont
-ms.openlocfilehash: ee2f9f6989e2f2c5142397a171b0709fb2e9b087
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 244062b9e8c9768da040f6635f61092a7e1e9770
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147516"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585727"
 ---
 # <a name="business-central-quick-starts"></a>Business Centralin pika-aloitus
 
-Nämä pika-aloitusartikkelit auttavat sinua pääsemään alkuun mahdollisimman pian, jotta pystyt suorittamaan tarvitsemasi perustoiminnot [!INCLUDE[prod_short](includes/prod_short.md)]issa.
+Pika-aloitusartikkelit auttavat sinua pääsemään alkuun mahdollisimman pian, jotta pystyt suorittamaan tarvitsemasi [!INCLUDE[prod_short](includes/prod_short.md)] -perustoiminnot.
 
-Seuraavissa osissa on oppaita aloittelijoille, jotka auttavat sinua tutustumaan tarvitsemiisi ominaisuuksiin [!INCLUDE[prod_short](includes/prod_short.md)]issa. Jokaisessa pika-aloitusoppaassa on linkkejä kehittyneempää sisältöä koskeviin toimintoihin.
+Seuraavissa osissa on aloittelijaoppaita, jotka auttavat sinua tutustumaan tarvitsemiisi ominaisuuksiin [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa. Jokaisessa pika-aloitusoppaassa on linkkejä kehittyneempää sisältöä koskeviin toimintoihin.
 
 ## <a name="provide-basic-information-about-your-company"></a>Perustietojen antaminen yrityksestä
 
-Ensimmäinen vaihe on yrityksen perustietojen antaminen. Näitä tietoja ovat esimerkiksi osoite, pankkitilit ja ALV-numero jne. Tämä on selitetty [Yritystietojen pika-aloitus](quick-start-company-information.md) -artikkelissa.
+Ensimmäinen vaihe on yrityksen perustietojen antaminen. Näitä tietoja ovat esimerkiksi osoite, pankkitilit ja arvonlisävero (ALV) -numero jne. Tämä on selitetty kohdassa [Yritystietojen pika-aloitus](quick-start-company-information.md).
+
+## <a name="prepare-basic-financial-information"></a>Valmistele perustiedot taloustiedoista
+
+Seuraavaksi on tarpeen syöttää yrityksesi taloudelliset tiedot, jotta olet valmis tekemään liiketoimintaa. Käytä [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen mukana olevaa tilikarttaa, kun haluat säästää. Ja jos tarvitset, voit muokata sitä [Taloudellisten tietojen pika-aloitus](quick-start-financial-information.md) -ohjeiden mukaan.
 
 <!--
 ## Financial Basics
@@ -33,16 +37,17 @@ Financial Information
 (chart of accounts, but explained for non-accountants)
 -->
 
-<!--
-## Basic Reports and Output Documents
+## <a name="print-reports-and-customize-documents"></a>Raporttien tulostaminen ja asiakirjojen mukauttaminen
 
-Reports and Documents  
+Tutustu, miten voit mukauttaa ja tulostaa raportteja ja asiakirjoja, kuten myyntilaskuja, jotka soveltuvat paremmin yrityksen tarpeisiin kohdassa [Perusraporttien ja -asiakirjojen tulostamisen pika-aloitus](quick-start-reports-and-documents.md).
+
+<!-- Reports and Documents  
 (final reports, but also documents - how do I style invoices to work better for me?)
 -->
 
 ## <a name="sell-products-and-services"></a>Tuotteiden ja palveluiden myynti
 
-Lisätietoja tuotteiden ja palveluiden myymisestä on [Myynnin pika-aloitus](quick-start-sell-products-and-services.md) -artikkelissa.
+Pääset nopeasti alkuun tuotteiden ja palveluiden myymisessä seuraamalla [Myynnin pika-aloitus](quick-start-sell-products-and-services.md) -artikkelin ohjeita.
 
 <!--
 (customer, items, things on stock or not, orders versus invoices, get paid on time, etc.)
@@ -56,15 +61,17 @@ Lisätietoja tuotteiden ja palveluiden hankkimisesta on [Hankinnan pika-aloitus]
 (buy stuff, register in inventory, pay vendor)
 -->
 
-<!--
-## Understand Your Business with Business Intelligence
+## <a name="understand-your-company-with-business-intelligence"></a>Yrityksen liiketoimintatietojen ymmärtäminen
 
+Liiketoimintatietojen muuntaminen arvokkaiksi oivalluksiksi käyttämällä [Business Intelligence -pika-aloituksen](quick-start-business-intelligence.md) työkaluja.
+
+<!--
 Business Intelligence  
 (reports)
 -->
 
 ## <a name="see-also"></a>Katso myös
 
-[Liiketoimintatoimintojen yleiskatsaus](across-business-functionality.md)  
 [Business Central -opintoluettelo](readiness/readiness-learning-catalog.md)  
+[Liiketoimintatoimintojen yleiskatsaus](across-business-functionality.md)  
 [Business Centralin määritystehtävien yleiskatsaus](setup.md)  

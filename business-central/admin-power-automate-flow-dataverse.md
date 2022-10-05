@@ -11,12 +11,12 @@ ms.search.form: ''
 ms.date: 09/05/2022
 ms.author: bholtorf
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: dc1601caac73dc7c58862938ddc612a9536e84e9
-ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
+ms.openlocfilehash: 542514d1f8fc8f0bfa6a0bd3c8cacbaf25cab651
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9524503"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585889"
 ---
 # <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Käytä Power Automate -työnkulun hälytyksiä Dataverse-entiteetin muutoksille
 
@@ -54,11 +54,14 @@ Järjestelmänvalvojat voivat luoda Power Automatessa automatisoidun työnkulun,
 Tiedot synkronoidaan integrointikäyttäjätilin avulla [!INCLUDE[prod_short](includes/prod_short.md)]-sovelluksen ja [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-sovelluksen välillä. Voit ohittaa synkronoinnin tekemät muutokset luomalla työnkulkuun ehtovaiheen, joka ei sisällä integrointikäyttäjätilin tekemiä muutoksia.  
 
 1. Lisää **Hae rivi tunnuksen mukaan Dataversestä**-vaihe työnkulun käynnistimen jälkeen seuraavilla asetuksilla. Lisätietoja on kohdassa [Hae rivi tunnuksen mukaan Dataversesta](/power-automate/dataverse/get-row-id).
+
     1. Valitse **Taulukon nimi** -kentässä **Käyttäjät**
     2. Valitse **rivin tunnus** -kentässä työnkulun käynnistimen **muokkaaja (arvo)**.  
+
 2. Voit määrittää integrointikäyttäjätilin lisäämällä ehtovaiheen, jossa on seuraavat **tai**-asetukset.
     1. Käyttäjän **ensisijainen sähköpostiosoite** sisältää **contoso.com**
     2. Käyttäjän **koko nimi** sisältää **[!INCLUDE[prod_short](includes/prod_short.md)]**.
+
 3. Lisää Lopeta ohjausobjekti, jos haluat pysäyttää työnkulun, jos integrointikäyttäjätili on muuttanut entiteetin.
 
 Seuraavassa kuvassa nähdään miten työnkulun käynnistin ja työnkulun kunto määritetään.
@@ -73,6 +76,7 @@ Jos työnkulkua ei ole pysäytetty ehdon mukaan, sinun täytyy ilmoittaa kohtees
 2. Valitse **Luo tietue (V3)** -toiminto.
 
 :::image type="content" source="media/power-automate-flow-dataverse-connector.png" alt-text="[!INCLUDE[prod_short](includes/prod_short.md)]-yhdistimen asetukset":::
+
 3. Lisää yhteys [!INCLUDE[prod_short](includes/prod_short.md)]-ympäristöön käyttämällä **Muokkausapu (...)** -painiketta oikeassa yläkulmassa.
 4. Kun yhteys on muodostettu, täytä **ympäristön nimi**- ja **yrityksen nimi** -kentät.
 5. Kirjoita **API-luokka**-kenttään **microsoft/dataverse/v 1.0**.
@@ -87,7 +91,8 @@ Seuraavasta kuvasta näet miltä työnkulun pitäisi näyttää.
 Kun lisäät, poistat tai muokkaat tiliä omassa [!INCLUDE [cds_long_md](includes/cds_long_md.md)] -ympäristössäsi, tämä työnkulku tekee seuraavat toimet:
 
 1. Soita [!INCLUDE[prod_short](includes/prod_short.md)]-ympäristöön, jonka olet määrittänyt [!INCLUDE[prod_short](includes/prod_short.md)]-yhdistimessä.
-2. Lisää [!INCLUDE[prod_short](includes/prod_short.md)]-API-liittymän avulla tietue, jonka **entiteetin nimi** on asetettu **tilille** **Dataverse-tapahtuman muutos** -taulukossa. 3. [!INCLUDE[prod_short](includes/prod_short.md)] aloittaa työjonotapahtuman, joka synkronoi asiakkaiden tilit.
+2. Lisää [!INCLUDE[prod_short](includes/prod_short.md)]-API-liittymän avulla tietue, jonka **entityName** on asetettu **tilille** **Dataverse-tapahtuman muutos** -taulukossa. Tämä parametri on sen Dataverse-entiteetin tarkka nimi, jolle olet luomassa työnkulun.
+3. [!INCLUDE[prod_short](includes/prod_short.md)] aloittaa työjonotapahtuman, joka synkronoi asiakkaiden tilit.
 
 ## <a name="see-also"></a>Katso myös
 
