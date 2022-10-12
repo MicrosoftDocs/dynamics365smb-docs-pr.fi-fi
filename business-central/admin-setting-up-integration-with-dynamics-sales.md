@@ -9,23 +9,38 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5e485827ed5fb5fcef9a807650993734099377de
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7683c301131fa5729d74e1c6ef70880db7f3327d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382283"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607335"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Microsoft Dataverse -integroinnissa käytettävien käyttäjätilien määrittäminen
 
+Tässä artikkelissa on yleiskatsaus [!INCLUDE[prod_short](includes/cds_long_md.md)]in ja [!INCLUDE[prod_short](includes/prod_short.md)]in integroinnissa tarvittavien käyttäjätilien määrittämisestä.
 
-Tässä artikkelissa on yleiskatsaus [!INCLUDE[prod_short](includes/cds_long_md.md)]in ja [!INCLUDE[prod_short](includes/prod_short.md)]in integroinnissa tarvittavien käyttäjätilien määrittämisestä.  
+## <a name="set-up-the-administrator-user-account"></a>Järjestelmänvalvojan käyttäjätilin määrittäminen
 
-## <a name="setting-up-the-administrator-user-account"></a>Järjestelmänvalvojan käyttäjätilin määrittäminen
-Järjestelmänvalvojan käyttäjätili [!INCLUDE[prod_short](includes/prod_short.md)]:ssä on lisättävä käyttäjänä [!INCLUDE[prod_short](includes/cds_long_md.md)]:een. Kun määrität yhteyden [!INCLUDE[prod_short](includes/prod_short.md)]- ja [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen välille, tätä tiliä käytetään kerran asennuksen ja joidenkin pakollisten osien määrityksen aikana. 
+Järjestelmänvalvojan käyttäjätili [!INCLUDE[prod_short](includes/prod_short.md)]:ssä on lisättävä käyttäjänä [!INCLUDE[cds_long](includes/cds_long_md.md)]:een. Kun määrität yhteyden [!INCLUDE[prod_short](includes/prod_short.md)]- ja [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen välille, tätä tiliä käytetään kerran asennuksen ja joidenkin pakollisten osien määrityksen aikana.
+
+> [!IMPORTANT]
+> Järjestelmänvalvojan käyttäjätilin on oltava käyttöoikeuden alainen käyttäjä, jolla on **järjestelmänvalvojan** käyttöoikeus [!INCLUDE[prod_short](includes/cds_long_md.md)]-ympäristössä ja yleisen järjestelmänvalvojan suojausrooli ympäristössä, johon se kuuluu. Tämä tili ei tarvitse lisenssiä [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan, koska sitä käytetään vain palvelun tarjoamiseen [!INCLUDE[prod_short](includes/cds_long_md.md)] -vuokralaiselle ja tekemään määritystehtäviä.
+>
+> Kun yhteyden määritys on tehty, tämä [!INCLUDE[prod_short](includes/cds_long_md.md)] -käyttäjä voidaan poistaa. Integrointi jatkaa integrointia varten automaattisesti luodun käyttäjätilin käyttämistä.
 
 ## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>[!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen käyttäjätilien käyttöoikeudet ja ja käyttöoikeusroolit
-Kun CDS-perusintegrointiratkaisua asennetaan, integroinnin käyttäjätilin käyttöoikeudet määritetään. Jos näitä käyttöoikeuksia on muutettu manuaalisesti, ne voidaan palauttaa alkuperäisiksi. Voit tehdä tämän asentamalla CDS-perusintegrointiratkaisun uudelleen valitsemalla **Ota integraatioratkaisu uudelleen käyttöön** **Common Data Service -yhteyden määritys** -sivulla. Business Centralin CDS-integroinnin käyttöoikeusrooli otetaan käyttöön.
+
+Perusintegraatioratkaisu luo seuraavat roolit [!INCLUDE[cds_long](includes/cds_long_md.md)] -ohjelmassa integrointia varten:
+
+* **Integroinnin järjestelmänvalvoja**: Antaa käyttäjille mahdollisuuden [!INCLUDE[prod_short](includes/prod_short.md)]in ja [!INCLUDE[cds_long](includes/cds_long_md.md)]in välisen yhteyden hallintaan. Yleensä se määritetään vain automaattisesti luodulle synkronoinnin käyttäjätilille.
+* **Integroinnin käyttäjä**: Antaa käyttäjille mahdollisuuden käyttää synkronoituja tietoja. Yleensä se määritään automaattisesti luodulle synkronoinnin käyttäjätilille ja sellaisille muille käyttäjille, joiden on tarkasteltava tai käytettävä synkronoituja tietoja.
+
+> [!NOTE]
+>
+> **Integroinnin hallinta**- ja **Integrointikäyttäjä**-rooleja saa käyttää vain sovelluksen käyttäjä, joka suorittaa integroinnin. Sovelluksen käyttäjä ei tarvitse määritettyä [!INCLUDE[prod_short](includes/prod_short.md)]- tai [!INCLUDE[cds_long](includes/cds_long_md.md)]-lisenssiä.
+
+Kun perusintegrointiratkaisua asennetaan, se määrittää integroinnin käyttäjätilin käyttöoikeudet. Jos näitä käyttöoikeuksia on muutettu manuaalisesti, ne voidaan palauttaa alkuperäisiksi. Valitse **Ota integraatioratkaisu uudelleen käyttöön** **Dataverse-yhteysmääritys**-sivulla asentaaksesi perusintegraatioratkaisun uudelleen. Tämä vaihe ottaa Business Centralin integroinnin käyttöoikeusroolin käyttöön.
 
 <!--
 The following tables list the minimum permissions for the user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)].
@@ -120,9 +135,9 @@ You can allow sales people to view inventory levels for the items they sell by g
 
 -->
 
-## <a name="see-also"></a>Katso myös  
+## <a name="see-also"></a>Katso myös
+
 [Integrointi Microsoft Dataversein kanssa](admin-common-data-service.md)  
 [Dynamics 365 Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

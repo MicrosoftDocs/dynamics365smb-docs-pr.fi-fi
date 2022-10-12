@@ -10,12 +10,12 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.search.form: 2500, 2502
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 877e4bf26b0af7675fe71f791e0bfe53159b9d70
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 1feffa480e3bdf6236801e666646ea5aaddd8876
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533076"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606087"
 ---
 # <a name="customize-business-central"></a>Business Centralin mukauttaminen
 
@@ -29,7 +29,8 @@ Sovelluksen voi mukauttaa useilla eri tavoilla, jotta sinä ja työtoverisi voit
 |Muuta käyttäjien työtilaa mukauttamalla heille määritettyä roolia.|Muuta profiilin (roolin) käyttöliittymää siten, että kaikki roolin käyttäjät näkevät mukautetun työtilan. Ohjaa ja hallitse käyttäjien mukautuksia poistamalla sivujen mukautusmahdollisuus ja poistamalla sivun mahdolliset mukautukset.|Kaikki tietyn yrityksen käyttäjät.|[Profiilien sivujen mukauttaminen](ui-personalization-manage.md)|
 |Vaihda käyttöliittymäelementit, jotka ovat näkyvissä.|**Käyttökokemus**-asetus määrittää, miten suuri osa toimintoja näytetään käyttöliittymässä. Valitse Essential tai Premium.|Kaikki tietyn yrityksen käyttäjät.|[Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)|
 |Ota värit käyttöön roolikeskuksissa ilmaisemaan tärkeys.|Määritä pinot, jotka näkyvät käyttäjien roolikeskuksissa, ja sisällytä ilmaisin, joka vaihtaa väriä pinojen arvojen mukaan.|Kaikki tietyn yrityksen käyttäjät.|[Pinojen värillisen ilmaisimen määrittäminen](admin-how-set-up-colored-indicator-on-cues.md)|
-|Laajennuksen asentaminen|Laajennukset ovat kuin pieniä sovelluksia, jotka esimerkiksi sisältävät lisätoimintoja, muuttavat toimintaa tai mahdollistavat uuden online-palvelun käyttöoikeuden. Microsoft tarjoaa esimerkiksi laajennuksen, joka mahdollistaa integroinnin PayPal Payments Standard -ohjelman kanssa.|Kaikki yrityksen käyttäjät.|[Laajennusten käyttämisen mukauttaminen](ui-extensions.md)|
+|Sovelluksen asentaminen|Asenna sovellukset, jotka esimerkiksi sisältävät lisätoimintoja, muuttavat toimintaa tai mahdollistavat uuden online-palvelun käyttöoikeuden. Microsoft tarjoaa esimerkiksi sovelluksen, joka mahdollistaa integroinnin PayPal Payments Standard -ohjelman kanssa.|Kaikki yrityksen käyttäjät.|[Mukauttaminen sovellusten avulla](ui-extensions.md)|
+
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen käyttäjän dokumentaation kaikkien toimintojen kuvauksissa käsitellään **Premium**-käyttökokemusta. Tämä tarkoittaa sitä, että kuvaukset sisältävät käyttöliittymän kaikki elementit. Tämän vuoksi **Essential**-käyttökokemuksen käyttäjien ohjeaiheissa saatetaan käsitellä toimintoja ja käyttöliittymän elementtejä, jotka eivät ole käytettävissä käyttöliittymässä. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
 

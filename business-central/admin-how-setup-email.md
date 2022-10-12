@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
-ms.date: 02/06/2022
+ms.date: 08/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: 22bd7fcf0eff9b3f7c41975a32127d9d482c42cc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 44a590997d7c0ddaa342861068b818bf905f9c5b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534289"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606384"
 ---
 # <a name="set-up-email"></a>Määritä sähköposti
 Ihmiset yrityksissä lähettävät päivittäin sähköpostitse tietoja ja asiakirjoja, kuten myynti- ja ostotilauksia ja laskuja. Järjestelmänvalvojat yhdistää yhden tai useamman sähköpostitilin [!INCLUDE[prod_short](includes/prod_short.md)] -sovellukseen, joten voit lähettää asiakirjoja avaamatta sähköpostisovellusta. Voit kirjoittaa jokaisen viestin yksitellen perusmuotoilutyökaluilla, kuten fontilla, tyyleillä, väreillä ja niin edelleen, ja lisätä liitteitä, joiden koko on enintään 100 Mt. Raporttiasettelujen avulla järjestelmänvalvojat voivat sisällyttää asiakirjoista vain tärkeimmät tiedot. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md).
@@ -73,7 +73,9 @@ Asetusten ohjattu **Määritä sähköposti** -määritys auttaa sinua pääsem�
 is this still true?-->
 ## <a name="assign-email-scenarios-to-email-accounts"></a>Määritä skenaariot sähköpostitileille
 Sähköpostiskenaariot ovat prosesseja, joihin liittyy asiakirjan lähettäminen. Esimerkiksi myynti- tai ostotilaus tai ilmoitus, esimerkiksi ulkoisen kirjanpitäjän kutsu. Tietyissä skenaarioissa voi käyttää tiettyjä sähköpostitilejä. Voit esimerkiksi määrittää, että kaikki käyttäjät lähettävät aina myyntiasiakirjat yhdeltä tililtä, ostoasiakirjat toiselta ja varasto- tai tuotantoasiakirjat kolmannelta tililtä. Voit määrittää, määrittää uudelleen ja poistaa skenaarioita milloin tahansa. Skenaarion voi määrittää vain yhdelle sähköpostitilille kerrallaan. Oletusarvoista sähköpostitiliä käytetään kaikissa skenaarioissa, joita ei ole määritetty muulle tilille.
- 
+
+**Sähköpostiskenaarion määritys** -sivulla voit valita **Aseta oletusliitteet** -toiminnon, joka lisää sähköpostiskenaarioiden liitteet. Liitteet ovat aina käytettävissä, kun luot sähköpostiviestin skenaarioon liittyvästä asiakirjasta. Jokaisessa sähköpostitilanteessa voi olla vähintään yksi oletusliite. Oletusliitteet lisätään automaattisesti sähköpostiin sähköpostiskenaarion yhteydessä. Kun esimerkiksi lähetät myyntitilauksen sähköpostilla, ohjelma lisää myyntitilausskenaariolle määritetyn oletusliitteen. Oletusliitteet näkyvät **Liitteet**-osassa **Luo sähköposti** -sivun alaosassa. Voit lisätä sähköpostiin manuaalisesti muita kuin oletusliitteitä.
+
 <!--
 ## To set up email
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
@@ -101,7 +103,7 @@ Valitse **Käyttäjän sähköpostinäkymän käytännöt** -kohdassa käyttäj�
 >  Jos jätät **Käyttäjätunnus**-kentän tyhjäksi ja valitset Sähköpostinäkymän käytäntö -toiminnon, määrittämäsi käytäntö koskee kaikkia käyttäjiä.
 
 ## <a name="set-up-reusable-email-texts-and-layouts"></a>Uudelleenkäytettävien sähköpostitekstien ja -asettelujen määrittäminen
-Raporttien avulla voit sisällyttää myynti- ja ostoasiakirjojen avaintietoja sähköpostien teksteihin. Tässä kuvataan , miten **Myynti–lasku**-raportti määritetään kirjatuille myyntilaskuille, mutta prosessi on samankaltainen muille raporteille.
+Raporttien avulla voit sisällyttää myynti-, osto ja huoltoasiakirjojen avaintietoja sähköpostien teksteihin. Tässä kuvataan , miten **Myynti–lasku**-raportti määritetään kirjatuille myyntilaskuille, mutta prosessi on samankaltainen muille raporteille.
 
 > [!NOTE]
 > Jos haluat käyttää asettelua sähköpostiviestien sisällön luomiseen, sinun on käytettävä siihen Word-tiedostotyyppiä.

@@ -8,38 +8,35 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
 ms.reviewer: edupont
-ms.date: 02/03/2022
+ms.date: 09/22/2022
 ms.author: kepontop
-ms.openlocfilehash: 7da9d24f805c273c67cf856e6a1a835e18686b83
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 4ae58b37d42d501142ebfa617da79266d5d8a9b1
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528677"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607858"
 ---
 # <a name="business-intelligence-and-reporting-overview"></a>Business Intelligencen ja raportoinnin yleiskuva
 
-Pienet ja keskisuuret yritykset käyttävät valmista analytiikkaa ja raportointia, joita ne voivat käyttää suoraan liiketoimintansa seuraamiseen. [!INCLUDE[prod_short](includes/prod_short.md)] tukee tällaisten organisaatioiden yleisiä liiketoimintaprosesseja sekä monimutkaisempia prosesseja. Kuhunkin näistä prosesseista kuuluu raportteja ja analytiikkatyökaluja, minkä lisäksi ad-hoc-analyysit omilta aloitussivuilta ovat mahdollisia.  
+Pienet ja keskisuuret yritykset käyttävät valmista analytiikkaa ja raportointiominaisuuksia, joita ne voivat käyttää suoraan liiketoimintansa seuraamiseen. [!INCLUDE[prod_short](includes/prod_short.md)] tukee tällaisten organisaatioiden yleisiä liiketoimintaprosesseja sekä monimutkaisempia prosesseja. Jokainen näistä prosesseista sisältää raportteja ja analytiikkatyökaluja. Voit myös tehdä ad-hoc-analyysin suoraan aloitussivulla.  
 
-| Tehtävä | Katso |
+Seuraava taulukko sisältää keskeiset liiketoimintatiedot ja raportointitoiminnot sovelluksessa [!INCLUDE[prod_short](includes/prod_short.md)] tutustumista varten.
+
+| Vastaanottaja | Katso |
 | --- | --- |
-| tutustuminen vakioraporttien käyttöön (kirjamerkit, suoritus, tulostus, aikataulutus ja asettelun muuttaminen). | [Raporttien käyttö päivittäisessä työssä](reports-use-reports.md) |
+| Vakioraporttien käsitteleminen (kirjamerkit, suoritus, tulostus, aikataulutus ja asettelun muuttaminen). | [Raporttien käyttö päivittäisessä työssä](reports-use-reports.md) |
 | Lisätietoja tuotteen [!INCLUDE[prod_short](includes/prod_short.md)] valmiista raporteista. |[Raportin yleiskuvaus](reports-available-reports.md)|
-| Tutustu ad-hoc-tietoanalyysien tekemiseen asiakasohjelman ominaisuuksilla tai Excelillä. | [Ad-hoc-tietoanalyysi](reports-adhoc-analysis.md) |
-| Tutustu tuotteen [!INCLUDE[prod_short](includes/prod_short.md)] valmiiden analytiikkatyökalujen käyttöön.| [Valmis analytiikka](reports-built-in-analytics.md) |
-| Tutustu ulkoisten liiketoimintatietotyökalujen integrointiin tuotteeseen [!INCLUDE[prod_short](includes/prod_short.md)].| [Ulkoiset liiketoimintatietotyökalut](reports-external-analysis.md) |
-|Tutustu raporttien asettelujen muokkaamiseen tai omien raporttien alusta lähtien kehittämiseen. |[Raporttien kehittäminen](reports-develop-reports.md)|
+| Ad-hoc-tietoanalyysien tekeminen asiakasohjelman ominaisuuksilla tai Microsoft Excelillä. | [Ad-hoc-tietoanalyysi](reports-adhoc-analysis.md) |
+| Käytä sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] valmiita analytiikkatyökaluja.| [Valmis analytiikka](reports-built-in-analytics.md) |
+| Integroi ulkoiset liiketoimintatietotyökalut sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] kanssa.| [Ulkoiset liiketoimintatietotyökalut](reports-external-analysis.md) |
+|Muokkaa raporttiasetteluita tai kehitä omia raportteja alusta lähtien. |[Raporttien kehittäminen](reports-develop-reports.md)|
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/setup-reporting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Katso [Microsoftin koulutukset](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Katso myös
 
-[Raporttien käyttö päivittäisessä työssä](reports-use-reports.md)  
-[Raportin yleiskuvaus](reports-available-reports.md)  
-[Ad-hoc-tietoanalyysi](reports-adhoc-analysis.md)  
-[Valmis analytiikka](reports-built-in-analytics.md)  
-[Ulkoiset liiketoimintatietotyökalut](reports-external-analysis.md)  
-[Raporttien kehittäminen](reports-develop-reports.md)  
-
+[Taloudelliset liiketoimintatiedot](bi.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -7,22 +7,22 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124, 1123
-ms.date: 06/16/2021
+ms.date: 08/23/2022
 ms.author: edupont
-ms.openlocfilehash: 213e7abb6dbfeacb5d095399932be5b6849b3c6b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: d820ebaa77f05c3c98dd625426fe2e4a07ce18cd
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528382"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606746"
 ---
 # <a name="about-cost-accounting"></a>Tietoja kustannuslaskennasta
 
 Kustannuslaskennan avulla voit ymmärtää käynnissä olevan liiketoiminnan kustannuksia. Kustannuslaskennan tiedot on suunniteltu analysoimaan:  
 
--   Millaisia kustannuksia voi syntyä yritysoiminnasta?  
--   Mistä kustannukset johtuvat?  
--   Kuka kestää kustannukset?  
+- Liiketoimintakustannusten tyypit, joita aiheutuu yrityksen toiminnasta  
+- Mistä kustannukset johtuvat
+- Kuka vastaa kustannuksista  
 
 Kustannuslaskennassa kohdistetaan toimintojen, osastojen, tuotteiden ja projektien toteutuneet ja budjetoidut kustannukset yrityksen tuottavuuden analysointia varten.  
 
@@ -30,11 +30,11 @@ Kustannuslaskennassa kohdistetaan toimintojen, osastojen, tuotteiden ja projekti
 
 Kustannuslaskennassa on seuraavat pääosat:  
 
--   Kustannustyypit, kustannuspaikat ja kustannuskohteet  
--   Kustannustapahtumat ja kustannuspäiväkirjat  
--   Kustannusten kohdistukset  
--   Kustannusbudjetit
--   Kustannusraportti  
+- Kustannustyypit, kustannuspaikat ja kustannuskohteet  
+- Kustannustapahtumat ja kustannuspäiväkirjat  
+- Kustannusten kohdistukset  
+- Kustannusbudjetit
+- Kustannusraportti  
 
 Seuraava kaavio näyttää työnkulun kustannuslaskennassa.  
 
@@ -44,13 +44,13 @@ Seuraava kaavio näyttää työnkulun kustannuslaskennassa.
 
 Määritä kustannustyypit, kustannuspaikat ja kustannuskohteet analysoidaksesi mitä kustannukset ovat, mistä kustannukset ovat peräisin ja kuka vastaa kustannuksista.  
 
-Voit määrittää kustannustyyppikaavion, jonka rakenne ja toiminnallisuus muistuttavat pääkirjanpidon tilikarttaa. Voit siirtää kirjanpidon tuloslaskelmatilit tai luoda oman kustannustyyppikaavion.  
+Ensiksi, voit määrittää kustannustyyppikaavion, jonka rakenne ja toiminnallisuus muistuttavat pääkirjanpidon tilikarttaa. Voit luoda oman kustannuslajikaavion tai tehdä sen siirtämällä pääkirjanpidon tuloslaskelmatilejä.  
 
 Kustannuspaikat ovat osastoja ja tulosyksiköitä, jotka ovat vastuussa kustannuksista ja tuloista. Usein kustannuslaskennassa on enemmän kustannuspaikkoja kuin missään pääkirjanpitoon määritetyssä dimensiossa. Pääkirjanpidossa käytetään yleensä vain ensimmäisen tason kustannuspaikkoja ja alkuperäisiä kustannuksia. Kustannuslaskennassa luodaan lisäkohdistustasojen lisäkustannuspaikat.  
 
-Kustannuskohteet ovat yrityksen tuotteita, tuoteryhmiä tai palveluja. Nämä ovat kustannuksista vastaavan yrityksen valmiita tuotteita.  
+Kustannuskohteet ovat yrityksen tarjoamia tuotteita, tuoteryhmiä tai palveluja. Nämä ovat kustannuksista vastaavan yrityksen valmiita tuotteita.  
 
-Voit linkittää osastojen kustannuspaikat ja projektien kustannuskohteet yritykseen. Voit kuitenkin linkittää kustannuspaikat ja kustannuskohteet pääkirjanpidon mihin tahansa dimensioon ja lisätä niille välisummat ja otsikot.  
+Voit linkittää osastojen kustannuspaikat ja projektien kustannuskohteet yritykseen. Pääkirjanpidon avulla voit linkittää kustannuspaikkoja ja kustannusobjekteja mihin tahansa dimensioihin ja täydentää näitä tietoja välisummilla ja otsikoilla.  
 
 ## <a name="cost-entries-and-cost-journals"></a>Kustannustapahtumat ja kustannuspäiväkirjat
 
@@ -60,28 +60,27 @@ Kustannuspäiväkirjoissa voi kirjata kustannukset ja toiminnot, joita ei saada 
 
 ## <a name="cost-allocations"></a>Kustannusten kohdistukset
 
-Kohdistukset siirtävät kustannukset ja tuotot eri kustannustyyppien, kustannuspaikkojen ja kustannuskohteiden välillä. Yleiskustannukset kirjataan ensin kustannuspaikkoihin ja myöhemmin kustannuskohteisiin. Tämä voidaan tehdä esimerkiksi myyntiosastossa, joka myy useita tuotteita samanaikaisesti. Välittömät kustannukset ovat kustannuksia, jotka voidaan suoraan kohdistaa kustannuskohteeseen, esimerkiksi tietyn tuotteen materiaaliostoksiin.  
+Kohdistukset siirtävät kustannukset ja tuotot eri kustannustyyppien, kustannuspaikkojen ja kustannuskohteiden välillä. Yleiskustannukset kirjataan ensin kustannuspaikkoihin ja myöhemmin kustannuskohteisiin. Tämä voidaan tehdä esimerkiksi myyntiosastossa, joka myy useita tuotteita samanaikaisesti. Osaston yleiskustannukset, kuten palkat, tarvikkeet ja matkakulut, määritetään aluksi myyntikustannuskeskukselle, joka sitten kohdistetaan myytyjen tuotteiden (kustannusobjektien) ja ostettujen materiaalien (välittömien kustannusten) kesken.
 
 Kohdistusperuste, jota käytetään, ja kohdistusmääritelmän paikkansapitävyyden kustannukset vaikuttavat kustannusten kohdistamisen tuloksiin. Kohdistusmääritelmällä voidaan kohdistaa kustannukset ensin pääkustannuspaikoille ja niin kutsutuille esikustannuskeskuksille, ja sitten kustannuspaikoilta kustannuskohteille.  
 
-Jokainen kohdistus koostuu kohdistuslähteestä ja yhdestä tai useammasta kohdistustavoitteesta. Voit kohdistaa todelliset arvot tai budjetoidut arvot staattisen kohdistamismenetelmän avulla, joka perustuu määriteltyihin arvoihin, kuten pinta-alaan tai vahvistettuun varaussuhteeseen 5: 2: 4. Voit myös kohdentaa todelliset arvot tai budjetoidut arvot käyttämällä dynaamista kohdistamismenetelmää yhdeksän ennalta määritetyn kohdistuksen perusteen ja 12 dynaamisen päivämääräalueen kanssa.  
+Jokainen kohdistus koostuu kohdistuslähteestä ja sekä vähintään yhdestä kohdistuskohteesta. Voit kohdistaa todelliset arvot tai budjetoidut arvot staattisen kohdistamismenetelmän avulla, joka perustuu määriteltyihin arvoihin, kuten pinta-alaan tai vahvistettuun varaussuhteeseen 5:2:4. Voit myös kohdentaa todelliset arvot tai budjetoidut arvot käyttämällä dynaamista kohdistamismenetelmää yhdeksän ennalta määritetyn kohdistuksen perusteen ja 12 dynaamisen päivämääräalueen kanssa.  
 
 ## <a name="cost-budgets"></a>Kustannusbudjetit
 
-Kustannusbudjetteja voi määrittää kuinka monta tahansa. Voit kopioida kustannusbudjetin pääkirjanpitoon ja päinvastoin. Voit siirtää budjetoidut kustannukset todellisina kustannuksina.  
+Kirjanpidon budjetoinnin tavoin voit luoda budjetteja kustannusten suunnittelua varten tiettynä ajanjaksona (esimerkiksi tilikautena), joka voidaan kohdistaa kustannuskeskukseen (yrityksen osastoon) tai kustannusobjektiin (tuote tai palvelu). Kustannusbudjetteja voi määrittää niin monta kuin tarvitset. Voit sitten kopioida kustannusbudjetin pääkirjanpitoon ja päinvastoin. Ja voit siirtää budjetoidut kustannukset todellisina kustannuksina.
 
-## <a name="cost-reporting"></a>Kustannusraportointi
+## <a name="cost-reporting"></a>Kustannusraportti
 
-Useimmat raportit ja tilastot perustuvat kirjattuihin kustannustapahtumiin. Voit asettaa tulosten lajittelun ja suodattimien avulla määrittää, mitkä tiedot täytyy näyttää. Voit luoda raportteja kustannusanalyysin jakelua varten. Voit lisäksi käyttää vakio KP-raporttimallia määrittääksesi miten raportit kustannustyyppikaaviossa näkyvät.  
+Useimmat raportit ja tilastot perustuvat kirjattuihin kustannustapahtumiin. Voit asettaa tulosten lajittelun ja suodattimien avulla määrittää, mitkä tiedot täytyy näyttää. Voit luoda raportteja kustannusanalyysin jakelua varten. Voit lisäksi käyttää vakiomuotoisia taloudellisia raportteja määrittääksesi miten raportit kustannustyyppikaaviossa näkyvät.  
 
 ## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 
- [Kustannuslaskenta](finance-manage-cost-accounting.md)  
- [Rahoitus](finance.md)  
- [Termit kustannuslaskennassa](finance-terminology-in-cost-accounting.md)  
- [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Kustannuslaskenta](finance-manage-cost-accounting.md)  
+[Rahoitus](finance.md)  
+[Termit kustannuslaskennassa](finance-terminology-in-cost-accounting.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

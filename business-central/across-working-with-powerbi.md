@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b594ebf1cebd1fbec7302777b5233ffd3eec198b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 70bcc50bd419a73e242390d5a21e41360ae8d8cf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535315"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606438"
 ---
 # <a name="work-with-power-bi-reports-in-prod_short"></a>Power BI -raporttien käsittely [!INCLUDE [prod_short](includes/prod_short.md)]issa
 
@@ -52,7 +52,7 @@ Kun [!INCLUDE [prod_short](includes/prod_short.md)]iin kirjaudutaan ensimmäisen
     - Jos et ole vielä rekisteröitynyt Power BI:hin, valitse [Siirry Power BI -aloitussivulle](https://powerbi.microsoft.com). Rekisteröidy tilille, palaa sitten [!INCLUDE[prod_short](includes/prod_short.md)]iin ja viimeistele määritykset.
 
     - Jos sinulla on jo käyttöoikeus, valitse **Seuraava**.
-4. [!INCLUDE[prod_short](includes/prod_short.md)] lataa nyt seuraavalla sivulla esittelyraportin Power BI:hin. Tämä kestää muutamia minuutteja, joten se tapahtuu taustalla. Viimeistele määritykset valitsemalla ensin **Seuraava** ja sitten **Valmis**.
+4. [!INCLUDE[prod_short](includes/prod_short.md)] lataa nyt seuraavalla sivulla esittelyraportin Power BI:hin. Tämä vaihe kestää muutamia minuutteja, joten se tapahtuu taustalla. Viimeistele määritykset valitsemalla ensin **Seuraava** ja sitten **Valmis**.
 
 Yhteysprosessi käynnistyy. [!INCLUDE [prod_short](includes/prod_short.md)] on yhteydessä Power BI -palveluun prosessin aikana ja selvittää, onko sinulla kelvollinen Power BI -tili ja -käyttöoikeus. Kun käyttöoikeus on tarkistettu, Power BI -raportti näkyy sivulla. Jos raportti ei tule näkyviin, voit valita raportin osassa.
 
@@ -69,9 +69,14 @@ Kun yhteys on muodostettu, voit valita Power BI -osan sivuilla.
 
 ### <a name="show-reports-on-list-pages"></a>Raporttien näyttäminen luettelosivuilla
 
-[!INCLUDE[prod_long](includes/prod_long.md)] sisältää Power BI -tietoruudun useilla tärkeillä luettelosivuilla. Tässä luetteloruudussa on lisätietoja luettelon tiedoista. Raportti päivitetään ja suodatetaan valitun tapahtuman mukaan, kun siirryt luettelon riveillä. Jos tämä osa ei ole näkyvissä, valitse siinä tapauksessa toimintorivillä **Toiminnot** > **Näytä** > **Näytä tai piilota Power BI -raportit**.
+[!INCLUDE[prod_long](includes/prod_long.md)] sisältää Power BI -tietoruudun useilla tärkeillä luettelosivuilla. Tässä luetteloruudussa on lisätietoja luettelon tiedoista. Raportti päivitetään ja suodatetaan valitun tapahtuman mukaan, kun siirryt luettelon riveillä.
 
 Lisätietoja luettelosivujen raporttien luomisesta on kohdassa [Power BI -raporttien luominen näyttämään luettelotiedot [!INCLUDE[prod_short](includes/prod_short.md)]issa](across-how-use-powerbi-reports-factbox.md).
+
+> [!TIP]
+> Jos Power BI -tietoruutu ei ole näkyvissä, se voi olla piilossa työtilassa mukautuksen avulla. Valitse ![Asetukset.](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") -kuvake ja valitse sitten **Mukauta**-toiminto. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
+>
+> Tai jos käytössäsi on Business Centralin vanhempi versio, siirry toimintopalkkiin ja valitse **Toiminnot** > **Näytä** > **Näytä/Piilota Power BI -raportit**.
 
 ### <a name="switch-reports"></a>Raporttien vaihtaminen
 
@@ -143,7 +148,6 @@ Syynä luultavasti se, että raportin nimi ei sisällä luettelosivun nimeä. Sa
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power BI:n tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Apps:n tietolähteenä](across-how-use-financials-data-source-powerapps.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Automatessa](across-how-use-financials-data-source-flow.md)  
 

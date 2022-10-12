@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: adfb0f44e35f0efea1f4081be3277f83e10dfd00
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 5757cbd314d6e8af5a049b8d0dbe626b3eb83057
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532347"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607200"
 ---
 # <a name="send-documents-and-emails"></a>Asiakirjojen ja sähköpostien lähettäminen
 
@@ -51,10 +51,13 @@ Tässä kuvataan, miten kirjattu myyntilasku liitetään sähköpostiin PDF-tied
 > Jos et halua määrittää sähköpostiviestin asetuksia aina, kun lähetät asiakirjan sähköpostitse, valitse **Kyllä (Käytä oletusasetuksia)** -vaihtoehto **Lähetä asiakirja kohteeseen** -sivun **Sähköposti**-kentässä. Tällöin **Lähetä sähköposti** -sivu ei avaudu. Lisätietoja on vaiheessa 4. Lisätietoja on kohdassa [Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="to-compose-and-send-an-email"></a>Sähköpostin kirjoittaminen ja lähettäminen
+
 Voit luoda nopeasti sähköpostit kontakteille, asiakkaille, toimittajille, myyjille/ostajille ja pankkitileille suoraan kyseisten entiteettien sivuilta. Valitse vain **Käsittele** ja **Lähetä sähköpostiviesti** sähköpostieditorin avaamista varten. Pankkitileille **Lähetä sähköpostiviesti** -toiminto on kohdassa **Toiminnot**.
 
 > [!TIP]
 > Jos lähetät usein samankaltaisia sähköpostiviestejä tai haluat lähettää joukkoviestintää esimerkiksi myyntikampanjan mainostamista varten, voit nopeuttaa prosessia käyttämällä Word-malleja sähköpostiviesteissä. Voit luoda mallin sellaisille entiteeteille kuten asiakkaat, toimittajat ja kontaktit, jotka luovat sähköpostiviestin sisällön ja jopa räätälöivät sen vastaanottajan mukaan [!INCLUDE[prod_short](includes/prod_short.md)]in tietojen perusteella. Lisätietoja on kohdassa [Word-mallien käyttäminen joukkoviestinnässä](ui-mail-merge.md).  
+
+Jos sinulle on delegoitu sähköpostiskenaario, joka liittyy entiteettiin, jolle lähetät sähköpostiviestin, tai asiakirjaan, jonka lähetät, liite saatetaan liittää viestiin automaattisesti. Tämä johtuu siitä, että sähköpostiskenaariolle on määritetty oletusliite. Voit poistaa liitteen, jos et halua lähettää liitettä viestissä. Lisätietoja on kohdassa [Sähköpostiskenaarioiden määrittäminen sähköpostitileille](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Asiakirjat, jotka on merkitty tulostetuiksi, kun ne lähetetään
 

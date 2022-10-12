@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OneDrive, integration, share, browser
-ms.date: 05/19/2021
+ms.date: 09/09/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2ab3005c7958e6ce7cd112c495ba6bb1d0ae2366
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 0d7f1dac73181845fe0329fc2c45bb0e8e53ccfb
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381965"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606357"
 ---
 # <a name="onedrive-for-business-faq"></a>OneDrive for Business - usein kysytyt kysymykset
 
@@ -40,19 +40,19 @@ Ei. Tämä integrointi on tarkoitettu ainoastaan OneDrive for Businessille, ja s
 
 ## <a name="where-can-i-see-onedrive-service-health"></a>Missä voin nähdä OneDrive-palvelun kunnon?
 
-Järjestelmänvalvojat voivat käyttää palvelun kunnon koontinäyttöä osana Microsoft 365 -hallintakeskusta. Koontinäyttö sisältää OneDrive-palvelun käytettävyyden. 
+Järjestelmänvalvojat voivat käyttää palvelun kunnon koontinäyttöä osana Microsoft 365 -hallintakeskusta. Koontinäyttö sisältää OneDrive-palvelun käytettävyyden. Siirry kohteeseen [https://admin.microsoft.com/Adminportal/Home?#/servicehealth](https://admin.microsoft.com/Adminportal/Home?#/servicehealth).
  
 ## <a name="is-onedrive-integration-available-to-prod_short-on-premises"></a>Onko OneDrive-integrointi saatavilla [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versioon?
 
-Kyllä, mutta toisin kuin [!INCLUDE[prod_short](includes/prod_short.md)] online, se vaatii lisäasetuksia. Lisätietoja on kohdassa [Business Central on-premises -version määritys](admin-onedrive-integration.md#configuring-business-central-on-premises).  
+Kyllä, mutta toisin kuin [!INCLUDE[prod_short](includes/prod_short.md)] online, se vaatii lisäasetuksia. Lisätietoja on kohdassa [Business Central on-premises -version määritys](admin-onedrive-integration-onpremises.md).  
 
 ## <a name="does-prod_short-on-premises-connect-with-sharepoint-server"></a>Onko [!INCLUDE[prod_short](includes/prod_short.md)] on-premises yhteydessä SharePoint Serveriin?
 
-Ei. Tätä käyttöönottoyhdistelmää ei tueta, vaikka SharePoint Server olisi sallinut Omat sivustot.  
+Nro Tätä käyttöönottoyhdistelmää ei tueta, vaikka SharePoint Server olisi sallinut Omat sivustot.  
 
 ## <a name="does-prod_short-online-connect-with-sharepoint-server"></a>Onko [!INCLUDE[prod_short](includes/prod_short.md)] online yhteydessä SharePoint Serveriin?
 
-Ei. Tätä käyttöönottoyhdistelmää ei tueta, vaikka SharePoint Server olisi sallinut Omat sivustot.  
+Nro Tätä käyttöönottoyhdistelmää ei tueta, vaikka SharePoint Server olisi sallinut Omat sivustot.  
 
 ## <a name="how-does-this-work-in-an-organization-with-multiple-environments"></a>Miten tämä toimii organisaatiossa, jossa on useampia ympäristöjä?
 
@@ -62,7 +62,8 @@ Integrointi olettaa, että yritysten nimet ovat yksilöllisiä eri [!INCLUDE[pro
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ei siirrä aiemmin OneDrivessa avattuja tiedostoja uuteen kansioon automaattisesti. Kun olet nimennyt yrityksen uudelleen, Avaa OneDrivessa -toiminto kopioi tiedostot kansioon, jossa on yrityksen uusi nimi.   
 
-## <a name="when-attaching-files-to-prod_short-how-do-i-pick-a-file-from-onedrive"></a>Kun liität tiedostoja [!INCLUDE[prod_short](includes/prod_short.md)]iin, miten valitsen tiedoston OneDrivesta? 
+## <a name="when-attaching-files-to-prod_short-how-do-i-pick-a-file-from-onedrive"></a>Kun liität tiedostoja [!INCLUDE[prod_short](includes/prod_short.md)]iin, miten valitsen tiedoston OneDrivesta?
+
 [!INCLUDE[prod_short](includes/prod_short.md)] ei tarjoa pilvitiedostojen valitsinta. Tiedosto on ladattava OneDrivesta laitteeseen ja sitten ladattava [!INCLUDE[prod_short](includes/prod_short.md)]iin. 
 
 ## <a name="i-want-to-open-files-in-sharepoint-instead-how-do-i-do-this"></a>Haluan avata tiedostoja SharePointissa sen sijaan. Miten tämä tehdään?
@@ -71,15 +72,24 @@ Integrointi olettaa, että yritysten nimet ovat yksilöllisiä eri [!INCLUDE[pro
 
 ## <a name="how-do-i-turn-off-integration-to-onedrive"></a>Miten OneDrive-integrointi kytketään pois päältä?
 
-[!INCLUDE[prod_short](includes/prod_short.md)] online ei tarjoa tapaa ottaa OneDrive-integrointi käyttöön tai poistaa sitä käytöstä.  
+Suorita **OneDrive-määrityksen** asetusten ohjattu määritysopas ja poista **OneDrive-sovelluksen ominaisuuksien käyttö** käytöstä ja **Käytä OneDrivea järjestelmätoimintoihin** -valitsimia. 
 
 ## <a name="should-i-use-the-sharepoint-connection-setup-page-to-connect-to-sharepoint"></a>Pitäisikö minun käyttää SharePoint-yhteyden määritys -sivua yhteyden muodostamiseen SharePointiin?
 
-Tämä on vanha ominaisuus, jossa kaikkien käyttäjien kaikki [!INCLUDE[prod_short](includes/prod_short.md)]-tiedostot lähetetään yhteen SharePoint-kansioon. Microsoft suosittelee, että et määritä SharePoint-yhteyden määritys -sivulla Jaetut asiakirjat -pikavälilehteä, koska pyrimme poistamaan tämän ominaisuuden käytöstä.  
+Tämä on vanha ominaisuus, jossa kaikkien käyttäjien kaikki [!INCLUDE[prod_short](includes/prod_short.md)]-tiedostot lähetetään yhteen SharePoint-kansioon. Suosittelemme, että et määritä jaetut asiakirjat -pikavälilehteä **SharePoint-yhteyden asetus** -sivulla, koska tämä sivu on [vanhentunut](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup) ja poistetaan vuoden 2023 julkaisuaalto 2:ssa, versiossa 23.0.  Sen sijaan kannattaa käyttää **OneDrive-määritystä**.  
 
 ## <a name="which-version-of-prod_short-supports-onedrive"></a>Mikä [!INCLUDE[prod_short](includes/prod_short.md)]-versio tukee OneDrivea?
 
 Integrointi OneDriven kanssa tuli saataville vuoden 2021 2. julkaisuaallossa.  
+
+## <a name="which-features-are-affected-by-onedrive-integration"></a><a name="features"></a>Mihin ominaisuuksiin OneDrive-integrointi vaikuttaa?
+
+OneDrive-integraation määrittämisen **OneDrive-määrityksen**-asetusten ohjatussa määrityksessä voit ottaa käyttöön tai poistaa käytöstä ominaisuuksia Business Central -tiedostojen käsittelyä varten OneDrivessa. Ominaisuudet on jaettu kahden vaihtoehdon välillä:
+
+|Asetus|Kuvaus|
+|------|----------|
+|**Käytä sovellusominaisuuksia OneDriven avulla**|Jos otat tämän asetuksen käyttöön, **Avaa OneDrivessä**- ja **Jaa**-toiminnot ovat käytettävissä Business Centralin tiedostoissa, kuten asiakirjoihin liitetyissä tiedostoissa tai Saapuneet raportit -kansiossa. Näiden toimintojen avulla käyttäjät voivat kopioida, avata ja jakaa tiedostoja OneDrivessa. Lisätietoja on kohdassa [Business Centralin tiedostojen avaaminen ja jakaminen OneDrivessa](across-share-onedrive.md).
+|**Käytä järjestelmäominaisuuksia OneDriven avulla**|Tämän vaihtoehdon ottaminen käyttöön aktivoi seuraavat ominaisuudet:<ul><li> **Avaa Excelissä** ja **Muokkaa Excelissä** -toiminnot luettelosivuilla kopioivat Excel-tiedoston automaattisesti OneDriveen ja avaavat sen sitten Excel Onlinessa. Lisätietoja on kohdassa [Katsele ja muokkaa Excelissä](across-work-with-excel.md).</li><li> Raportin lähettäminen Exceliin tai Wordiin kopioi tiedoston automaattisesti OneDriveen ja avaa sen sitten Excel- tai Word Onlinessa. Lisätietoja on kohdassa [Raportin tallentaminen tiedostoon](ui-work-report.md#saving-a-report-to-a-file).|
 
 ## <a name="will-microsoft-continue-to-improve-the-integration-to-onedrive"></a>Jatkaako Microsoft OneDrive-integraation parantamista?
 
@@ -91,16 +101,23 @@ Jos haluat osallistua OneDrive-integraation parantamiseen, tai sinulla on idea, 
 
 Tässä osassa on tietoja OneDriven [!INCLUDE[prod_short](includes/prod_short.md)]in kanssa käytössä mahdollisesti olevien ongelmien tunnistamisesta ja korjaamisesta.  
 
-### <a name="i-have-to-sign-in-each-time-i-open-a-file"></a>Minun täytyy kirjautua sisään joka kerta kun avaan tiedoston
-
-Pahoittelut. Tämä on tunnettu ongelma, ja työskentelemme sen ratkaisemiseksi. Odotamme tarjoavamme sujuvamman kokemuksen tulevassa päivityksessä.  
-
 ### <a name="business-central-cant-find-my-onedrive"></a>Business Central ei löydä OneDrivea
 
 Kun tämä näyttöön tulee sanoma "Ei voitu määrittää OneDrive for Businessin sijaintia, ota yhteyttä kumppaniisi", tarkista, onko käyttäjä käyttänyt  OneDrivea vähintään kerran. Jos näin ei ole, pyydä henkilöä menemään osoitteeseen portal.office.com/onedrive. Tämä voi kestää jonkin aikaa. Jos viesti näkyy yhä 24 tunnin kuluttua, ota yhteyttä tukeen.  
  
+### <a name="im-having-problems-sharing-from-outlook"></a>Outlookin jakamisessa on ongelmia
+
+Lue lisätietoja kohdasta [Tiedostojen jakaminen OneDriveen Outlook.comista ei onnistu](https://support.microsoft.com/en-us/office/can-t-share-onedrive-files-from-outlook-com-05d4cb21-40a2-40e3-b111-82cddb82d22f) Microsoftin tuesta.
+
+### <a name="actions-open-in-onedrive-and-share-are-missing"></a>Avaa OneDrivessa- ja Jaa-toiminnot puuttuvat
+
+On pari asiaa, jotka voit tarkistaa:
+
+- Tarkista, että sovelluksen ominaisuudet OneDrivessa ovat käytössä **OneDrive-määrityksen** asetusten ohjattu määritys -oppaassa. Lisätietoja on kohdassa [OneDriven määritys käyttämällä OneDrive-asetuksia](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup).
+- Tarkista, että Microsoft OneDriven tilaksi on määritetty **Hyväksyn** **tietosuojailmoitusten tila** -sivulla. Katso [Tietosuojatietojen tila](privacy-notices-status.md).
 
 ## <a name="see-also"></a>Katso myös
+
 [Business Centralin ja OneDriven integraatio](across-onedrive-overview.md)  
 [OneDriven ja Business Centralin integroinnin hallinta](admin-onedrive-integration.md)  
 [Business Central-tiedostojen avaaminen OneDrivessa](across-share-onedrive.md)  

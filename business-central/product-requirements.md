@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 06/08/2022
+ms.date: 08/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 05ff8b9acb0c69f42c8ad36ab8a588c9b597424a
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: 34fc581e0140826e957b50b649d3b72573403552
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950434"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607686"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Business Central -sovelluksen käytön vähimmäisvaatimukset
 
@@ -41,9 +41,6 @@ Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen jär
 
 **Outlook-sovellukset:** jos haluat käyttää [!INCLUDE[prod_short](includes/prod_short.md)] online -versiota Outlookin yrityssähköpostina, tarvitset Outlook 2019:n tai uudemman, Outlookin verkkoversion, Outlook for iOS:n tai Outlook for Androidin. Organisaatiossa on oltava käytössä myös Microsoft 365. Et voi käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen online-versiota Outlookin yrityssähköpostina, jos organisaatiossa on käytössä paikallinen Exchange Server. 
 
-> [!IMPORTANT]
-> Business Central 2021:n julkaisuaalto 2:sta lähtien et pysty enää kirjautumaan Business Central -apuohjelmaan Outlook-versioista, jotka ovat vanhempia kuin 2012.
-  
 **Selaimet:** Kun [!INCLUDE[prod_short](includes/prod_short.md)] on käytössä Outlookin yrityssähköpostina Outlookin selaimessa, apuohjelma edellyttää, että yritys käyttää jotakin aiemmin tässä artikkelissa mainittua tuettua selainta.
 
 **Ympäristöt:** jos käytössä on [!INCLUDE[prod_short](includes/prod_short.md)] Outlookin apuohjelma Outlook for iOS- tai Outlook for Android, apuohjelma edellyttää, että mobiililaitteessa käytetään [!INCLUDE[prod_short](includes/prod_short.md)]in tuettujen mobiililaitteiden luettelossa mainittua mobiililaitetta.  
@@ -61,9 +58,6 @@ Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen jär
 ## <a name="excel"></a>Excel
 
 **Muokkaa Excelissä:** Jotta voit tehdä muutoksia Excelissä ja tuoda muutokset takaisin [!INCLUDE[prod_short](includes/prod_short.md)]:een Excel-lisäosan avulla, tarvitset Excel 2019 -version tai uudemman. Lisätietoja on kohdassa [Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md).  
-
-> [!IMPORTANT]
-> Business Central 2021:n julkaisuaalto 2:sta lähtien Excel-apuohjelma tukee vain Excel-versiota 2012 tai uudempaa.
 
 ## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a> Business Centralin hallintakeskuksen käyttäminen
 

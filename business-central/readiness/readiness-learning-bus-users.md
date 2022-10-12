@@ -2,15 +2,15 @@
 title: Yrityskäyttäjien opintoluettelo
 description: Etsi kaikki käytettävissä olevat opinnot Business Centralille.
 author: loreleishannonmsft
-ms.date: 04/01/2021
+ms.date: 08/29/2022
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 21c87640e09966a705b59905da9d126b5c8b604e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 5b977ba37c4bd827fd44e6cd897010eaadd64ec1
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528758"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607794"
 ---
 # <a name="business-users-learning-catalog"></a>Yrityskäyttäjien opintoluettelo
 
@@ -18,7 +18,7 @@ Saitko juuri uuden sovelluksen käyttöön?
 
 Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja perustiedoista kaikkein kehittyneimpiin. Jos sisältöä on useissa muodoissa, ilmoitamme siitä sinulle, jotta voit valita tarpeitasi parhaiten vastaavan koulutusmuodon.  
 
-## <a name="getting-started"></a>Käytön aloittaminen<a name="get-started"></a>
+## <a name="getting-started"></a>Aloitusopas
 
 | Sisältö                                                                                                                               | Kuvaus                                                                                                                                                                                                                                                                                      | Muoto                                | Pituus             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -26,7 +26,7 @@ Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja pe
 | [Microsoft Dynamics 365 Business Central -käyttöliittymän käsitteleminen](/training/paths/work-with-user-interface-dynamics-365-business-central/) | Haluatko lisätietoja Business Central -käyttöliittymästä? Tämä oppimispolku näyttää käyttöliittymän ja myös sen, miten sitä voi mukauttaa. Siinä käsitellään myös vaihtoehtoisia käyttöliittymiä, kuten älypuhelinta.                                                                               | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 2 tuntia 27 minuuttia |
 | [Käsittele Business Central -tietoja kuin ammattilainen](/training/paths/work-pro-data-dynamics-365-business-central)                                    | Oletko juuri aloittanut Business Centralin käytön? Tämä oppimispolku auttaa sinua valmistautumaan Business Centralin tietotyyppeihin ja siihen, miten löydät tarvitsemasi tiedot sovelluksesta.                                                                                                  | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 2 tuntia 27 minuuttia |
 
-## <a name="financials"></a>Rahoitus<a name="financials"></a>
+## <a name="financials"></a>Rahoitus
 | Sisältö                                                                                                                                                         | Kuvaus                                                                                                                                                                                                                                                                                            | Muoto                                | Pituus             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
 | [Määritä taloushallinto Microsoft Dynamics 365 Business Centralissa](/training/paths/set-up-financial-management-dynamics-365-business-central/)                     | Haluatko käyttää Business Centralin taloushallintoa? Sitten tämä oppimispolku on sinua varten. Siinä käsitellään numerosarjojen, kirjausketjun koodien, kirjausryhmien, dimensioiden ja tilikartan asetuksia.                                                                                   | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 3 tuntia 13 minuuttia |

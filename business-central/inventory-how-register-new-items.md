@@ -1,6 +1,6 @@
 ---
 title: Tavaroiden tai palvelujen nimikekorttien luominen (sisältää videon)
-description: Nimikekortit luodaan tunteina myytäville palveluille ja fyysisille tuotteille, kuten kokoonpanon nimikkeille ja valmiille tavaroille, joita myyt varastosta.
+description: Voit luoda nimikekortteja palveluille, joita myydään tunteina, ja fyysisille tuotteille. Esimerkkejä ovat kokoonpanon nimikkeet ja valmiit tavarat, joita myydään varastosta.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
-ms.date: 09/24/2021
+ms.date: 09/26/2022
 ms.author: edupont
-ms.openlocfilehash: 7af83072b6b20ba9b56c06c0fb7321707a425776
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 945197681e32f6d77ede2f1b0e727892a64d8277
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532914"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9604946"
 ---
 # <a name="register-new-items"></a>Uusien nimikkeiden rekisteröiminen
 
@@ -25,17 +25,18 @@ Nimikekortti sisältää tiedot, jotka tarvitaan nimikkeiden ostamista, tallenta
 
 Nimikkeen kortin tyyppi voi olla **Varasto**, **Huolto** tai **Muu kuin varasto**. Se määrittää, onko nimike fyysisen varasto yksikkö, työn aikayksikkö vai fyysinen yksikkö, jota ei seurata varastossa. Lisätietoja on kohdassa [Tietoja nimiketyypeistä](inventory-about-item-types.md).
 
-Nimike voi olla tuoterakenteessa päänimike, jonka alla on alinimikkeitä. [!INCLUDE[prod_short](includes/prod_short.md)]in tuoterakenne voi olla joko kokoonpanon tuoterakenne tai tuotannon tuoterakenne sen mukaan, miten sitä käytetään. Lisätietoja on kohdassa [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md).
+Nimike voi olla tuoterakenteessa päänimike, jonka alla on alinimikkeitä. Lisätietoja kokoonpanon tuoterakenteista ja tuotannon tuoterakenteista on kohdassa [Tuoterakenteiden käyttäminen](inventory-how-work-BOMs.md).
 
 Jos ostat saman nimikkeen useammalta kuin yhdeltä toimittajalta, voit yhdistää kyseiset toimittajat nimikkeen korttiin. Toimittajat näkyvät sitten **Nimikkeen toimittajaluettelo** -sivulla, jossa voit valita kätevästi vaihtoehtoisen toimittajan.
 
-Nimikkeet, joita tarjoat asiakkaille, mutta joita et halua ylläpitää järjestelmässäsi ennen kuin niitä myydään, voidaan määrittää luettelonimikkeiksi. Luettelonimikkeitä ei tule sekoittaa tavallisiin nimikkeisiin, joiden tyyppi on **Muu kuin varasto** Lisätietoja on kohdassa [Luettelonimikkeiden käsitteleminen](inventory-how-work-nonstock-items.md).  
+*Luettelonimikkeet* ovat nimikkeitä, joita tarjoat asiakkaille, mutta joita et halua ylläpitää järjestelmässäsi ennen kuin niitä myydään. Luettelonimikkeet eivät ole tavallisia nimikkeitä, joiden tyyppi on **Muu kuin varasto**. Lisätietoja on kohdassa [Luettelonimikkeiden muokkaaminen](inventory-how-work-nonstock-items.md).  
 
 > [!NOTE]  
 > Jos eri nimiketyypeillä on nimikemalleja, sivu avautuu, kun luot uuden nimikekortin, jossa voit valita sopivan mallin. Jos vain yksi nimikemalli on olemassa, uudet nimikekortit käyttävät aina kyseistä mallia.
 
 Seuraavaksi selitetään, miten nimikekortti luodaan alusta lähtien. Voit luoda uusia nimikekortteja myös kopioimalla aiemmin luotuja kortteja. Lisätietoja on kohdassa [Uusien nimikkeiden luominen kopioimalla aiemmin luotuja nimikkeitä](inventory-how-copy-items.md).  
 
+<br />
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 ## <a name="to-create-a-new-item-card"></a>Uuden nimikekortin luominen
@@ -87,12 +88,12 @@ Voit määrittää nimikkeille korvaavia tuotteita, kuten muita nimikkeitä, joi
 ### <a name="to-make-an-item-substitution"></a>Nimikkeen korvaamisen toteuttaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
-2. Etsi asianmukainen nimike ja avaa nimikekortti napsauttamalla **Nimikenro**-painiketta.  
-3. Valitse **Liittyvä**-toiminto, valitse **Nimike** ja sitten **Korvaamiset** avataksesi Nimikkeen korvaustapahtuma -sivun.  
+2. Etsi asianmukainen nimike ja avaa nimikekortti valitsemalla **Nimikenro**-painike.  
+3. Valitse **Liittyvä**-toiminto, valitse **Nimike** ja sitten **Korvaamiset** avataksesi **Nimikkeen korvaustapahtuma** -sivun.  
 4. Valitse **Korvaava nro** -kenttä ja valitse korvaava nimike luettelosta.
-5. Voit täyttää tai muuttaa muita kenttiä sivulla tarvittaessa.
+5. Täytä tai muuta muita kenttiä sivulla tarvittaessa.
 
-Kun esimerkiksi myyntirivin pyydetty nimikkeiden määrä on suurempi kuin määrä, joka on saatavilla varastossa, näyttöön tulee viesti, joka ilmoittaa, että korvaavia nimikkeitä on olemassa.
+Kun pyydetty määrä on suurempi kuin määrä, joka on saatavilla varastossa, näyttöön tulee viesti, joka ilmoittaa, että korvaavia nimikkeitä on olemassa.
 
 > [!NOTE]  
 > Huomaa, että nimikkeen korvaaminen ei automaattisesti aiheuta nimikkeen korvaamista toisella nimikkeellä esimerkiksi myyntitilausta luotaessa tai tuoterakenteessa. Sen sijaan sinua varoitetaan siitä, että käytettävissäsi on korvaaminen.
@@ -101,15 +102,17 @@ Kun esimerkiksi myyntirivin pyydetty nimikkeiden määrä on suurempi kuin mää
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
+Lisätietoja varianteista on kohdassa [Tuotevarianttien hallinta](inventory-item-variants.md).  
+
 ## <a name="deleting-item-cards"></a>Nimikekorttien poistaminen
 
 Jos olet kirjannut nimikkeelle tapahtuman, et voi poistaa korttia, koska nimiketapahtumia voi tarvita varaston arvostamiseen tai valvontaan. Voit poistaa nimiketapahtumia tapahtumakirjauksilta ottamalla yhteyttä Microsoft-kumppaniin koodin avulla.  
 
 ## <a name="manage-inventory-in-warehouses"></a>Hallitse varastoa fyysisessä varastossa
 
-Kun rekisteröit uuden nimikkeen, näyttöön tulee varastoinnin hallintaan liittyviä kenttiä, erityisesti **Fyysinen varasto** -pikavälilehdessä. Jos organisaatiossasi ei käytetä [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman varastonhallinnan ominaisuuksia, voit ohittaa kyseiset kentät.  
+Kun rekisteröit uuden nimikkeen, näyttöön tulee varastoinnin hallintaan liittyviä kenttiä, erityisesti **Fyysinen varasto** -pikavälilehdessä. Jos organisaatiossasi ei käytetä sovelluksen [!INCLUDE [prod_short](includes/prod_short.md)] varastonhallinnan ominaisuuksia, voit ohittaa kyseiset kentät.  
 
-Jos organisaatiosi myöhemmin määrittää varastonhallinnan, sinun täytyy useimmiten palata takaisin kuhunkin aiemmin luotuun nimikkeeseen ja varmistaa, että tiedot ovat oikein eri kentissä, jotta fyysisen varastoinnin prosessit voidaan suorittaa odotetulla tavalla. Nämä tiedot voivat sisältää esimerkiksi **Fyysisen varaston luokkakoodi**- tai **Hyllytysmallin koodi** -kenttiä. Katso lisätietoja kohdasta [Rakennetiedot: Fyysisen varastoinnin asetukset](design-details-warehouse-setup.md).  
+Jos organisaatio myöhemmin määrittää fyysisen varaston hallinnan, kannattaa varmistaa, että jokaisella olemassa olevalla nimikkeellä on oikeat tiedot eri kentissä. Näin fyysisen varaston prosessit voidaan suorittaa odotetulla tavalla. Tietoja voivat olla esimerkiksi **fyysisen varaston luokkakoodi** tai **hyllytysmallin koodi**. Katso lisätietoja kohdasta [Rakennetiedot: Fyysisen varastoinnin asetukset](design-details-warehouse-setup.md).  
 
 ## <a name="planning"></a>Suunnittelu
 
@@ -123,7 +126,8 @@ Esimerkkejä **Suunnittelu**-pikavälilehden kenttien käytöstä on kohdassa [A
 
 [Varasto](inventory-manage-inventory.md)  
 [Mittayksikön määrittäminen](inventory-how-setup-units-of-measure.md)  
-[Tavaranimikkeet](finance-how-setup-report-intrastat.md#tariff-numbers)  
+[Tuotevarianttien hallinta](inventory-item-variants.md)  
+[Intrastat-raportoinnin määrittäminen](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  
 [Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Numerosarjojen luominen](ui-create-number-series.md)  
 [Kirjausryhmien määrittäminen](finance-posting-groups.md)  

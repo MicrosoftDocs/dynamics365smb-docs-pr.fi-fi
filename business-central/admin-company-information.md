@@ -4,32 +4,56 @@ description: Yritystiedot-sivu määrittää liiketoimintayksikön perustiedot, 
 author: edupont04
 ms.topic: conceptual
 ms.search.form: 1
-ms.date: 04/20/2022
+ms.date: 08/31/2022
 ms.author: edupont
-ms.openlocfilehash: 791d2b5c91014b2b9ce836854285ea8f0f32df37
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 158a3717de6c3f205a66258fed47d68318592b67
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533938"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607389"
 ---
 # <a name="company-information-overview"></a>Yrityksen tietojen yleiskatsaus
 
 [!INCLUDE[prod_short](includes/prod_short.md)] organisoi liiketoimintayksiköt *yrityksiksi*. **Yrityksen tiedot** -sivulla on täytettävä tietyt yrityksen perustiedot ja muut tarvittavat tiedot kullekin yritykselle. Ohjelma käyttää [**Yritystiedot**](https://businesscentral.dynamics.com/?page=1)-sivun tietoja asiakirjoissa, muun muassa laskujen otsikoissa. Voit perustaa useampia yrityksiä, kuten emo- ja tytäryrityksen.  
 
-Jos yrityksen varasto sijaitsee eri osoitteessa kuin yrityksen pääkonttori, voit täyttää eri toimituskentät ja **Sijaintikoodi**-kentän **Toimitus**-pikavälilehdessä. Sitten näiden kenttien tiedot tulostetaan esimerkiksi ostotilauksiin, jotta toimittajat osaavat toimittaa nimikkeet oikeaan osoitteeseen.  
+Jos yrityksen varasto sijaitsee eri osoitteessa kuin yrityksen pääkonttori, voit täyttää eri toimituskentät ja **Sijaintikoodi**-kentän **Toimitus**-pikavälilehdessä. Näiden kenttien tiedot tulostetaan sitten esimerkiksi ostotilauksiin, jotta toimittajat osaavat toimittaa nimikkeet oikeaan osoitteeseen.  
 
-Jokaiselle määritetylle yritykselle on täytettävä **Yritystiedot**-sivu sekä **Pääkirjanpidon asetukset** -sivu. Kullekin yritykselle täytyy myös määrittää jokainen alue [!INCLUDE [prod_short](includes/prod_short.md)]issa, esimerkiksi **Myyntien ja myyntisaamisten asetukset** -sivu. Lisätietoja on kohdassa [[!INCLUDE[prod_short](includes/prod_short.md)]in määritystehtävien yleiskatsaus](setup.md).  
+Jokaiselle määritetylle yritykselle on täytettävä **Yritystiedot**-sivu sekä **Pääkirjanpidon asetukset** -sivu. Kullekin yritykselle täytyy myös määrittää jokainen alue [!INCLUDE [prod_short](includes/prod_short.md)]issa, esimerkiksi **Myyntien ja myyntisaamisten asetukset** -sivu. Lue lisätietoja kohdasta [[!INCLUDE[prod_short](includes/prod_short.md)]in määritystehtävien yleiskatsaus](setup.md).  
 
-**Yritystiedot**-sivulla on eri kenttiä ja pikavälilehtiä oman maasi/alueesi mukaan. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Seuraavassa taulukossa kuvataan useimmin käytetyt pikavälilehdet.
+**Yritystiedot**-sivulla on eri kenttiä ja pikavälilehtiä oman maasi/alueesi mukaan. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Seuraavassa taulukossa kuvataan yleisimmät pikavälilehdet.
 
 [!INCLUDE [admin-company-info-fasttabs](includes/admin-company-info-fasttabs.md)]
 
 Kun olet täyttänyt tiedot, voit sulkea sivun.  
 
-## <a name="work-with-multiple-companies"></a>Useamman yrityksen käsitteleminen
+## <a name="working-with-multiple-companies"></a>Useamman yrityksen käsitteleminen
 
-Jos [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa on mukana useampia yrityksiä, käyttäjät voivat haluta seurata *yrityksen merkkejä*. Lisätietoja kohdassa [Yrityksen tietojen nopea käyttäminen näyttämällä yrityksen tunnus](ui-change-basic-settings.md#badge).  
+Jos [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa on mukana useampia yrityksiä, käyttäjät voivat haluta tunnistaa nopeasti ja seurata *yrityksen merkkejä*. Lisätietoja on ohjeaiheessa [Yrityksen merkkien näyttäminen](#badge).
+
+On olemassa muutamia ominaisuuksia, joiden avulla voit siirtyä yritysten välillä työskentelyn aikana, kuten yrityksen vaihtaja (Ctrl + O). Lue lisää kohdasta [Siirtyminen toiseen yritykseen tai ympäristöön](ui-organization-switch.md).
+
+## <a name="display-a-company-badge"></a><a name="badge"></a>Näytä yrityksen merkki
+
+Kun yrityksiä tai ympäristöjä on enemmän kuin kaksi, yrityksen vaihtaja näkyy sovelluspalkin oikeassa yläkulmassa, sovelluspalkin hakukuvakkeen lähellä. Oletusarvon mukaan yrityksen vaihtaja käyttää ![yrityksen kuvakkeen aloituksen](media/ui-experience/company-icon.png "Näyttää yrityksen vaihtajan kuvakkeen, kun käytössä on yksittäinen ympäristö") tapaan yrityksen vakiokuvaketta ja ![company-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Näyttää yrityksen vaihtajan kuvakkeen, kun käytössä on useita ympäristöjä").
+
+:::image type="content" source="media/ui-experience/company-switch-2.png" alt-text="Näyttää yrityksen vaihtaja -kuvakkeen Business Central -asiakkaan otsikossa.":::  
+
+**Yritystiedot**-sivulla voit korvata yrityksen vakiokuvakkeen käyttämällä mukautettua merkkiä yrityskohtaisesti, jos yrityksen merkki helpottaa käyttäjien tunnistamista yrityksen tunnistetiedoilla.
+
+1. Täytä **Yrityksen tunnus**-pikavälilehden kentät tarvittaessa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+2. Kun olet valmis, päivitä sen selain (paina Ctrl + F5) päivittääksesi tunnuksen asiakkaassa.  
+
+> [!NOTE]
+> Yrityksen vaihtaja otettiin käyttöön vuonna 2022 julkaisuaalto 2:ssa, versiossa 21. Aiemmissa versioissa yrityksen merkkiä ei käytetä yritysten vaihtamiseen. Se näkyy useimpien sivujen oikeassa yläkulmassa, vaikka yrityksiä on vain yksi. Sen valitseminen näyttää yrityksen koko nimen ja ympäristön nimen.
+
+## <a name="change-company-display-name"></a>Yrityksen näyttönimen muuttaminen
+
+Yrityksen nimi näkyy aina vasemmassa yläkulmassa. Se on myös toiminto, jonka valitsemalla voit palata roolikeskukseen. Tämän nimen voi muuttaa **Yrityksen tiedot** -sivulla.
+
+1. Valitse ![Hammaspyörä-kuvake, joka avaa Asetukset-valikon.](media/ui-experience/settings_icon_small.png) -kuvake ja valitse sitten **Yrityksen tiedot** -toiminto.
+2. Anna uuden yrityksen nimi **Nimi**-kentässä.
+3. Poistu sivulta. Järjestelmä käynnistyy uudelleen ja uusi yritys näkyy vasemmassa yläkulmassa.
 
 ## <a name="experience"></a>Kokemus
 
@@ -44,6 +68,6 @@ Jos [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa on mukana useamp
 [Yrityksen tietojen määrittäminen Italiassa](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
-
+[Uusien yritysten luominen](about-new-company.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

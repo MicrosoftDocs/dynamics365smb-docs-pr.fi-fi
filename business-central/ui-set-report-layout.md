@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 03/07/2022
+ms.date: 08/12/2022
 ms.author: jswymer
-ms.openlocfilehash: e59a57e6cac21f4909088defc42da795e5550562
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: d63bfb699932261e0e9b74ef3aebcbd52bc53604
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535851"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606881"
 ---
 # <a name="setting-the-layout-used-by-a-report"></a>Raportin käyttämän asettelun määrittäminen
 
@@ -25,17 +25,19 @@ Raportin asettelu määrittää raportin ulkoasun. Se määrittää, mitkä rapo
 
 Kun sovelluksessa on useita yrityksiä, asettelujen asetukset määritetään yrityskohtaisesti. Saman yrityksen raportissa voi siis olla eri asettelu kuin toisessa yrityksessä.
 
-## <a name="get-started"></a>Aloitus
+## <a name="get-started"></a>Aloittaminen
 
-Voit määrittää raportin käyttämän asettelun kahdella tavalla. Yksi tapa on **Raporttiasetteluvalinta**-sivulta. Toinen tapa on **Raporttiasettelut**-sivulta. Jokaisella sivulla on etunsa, esimerkiksi: 
+Voit määrittää raportin käyttämän asettelun muutamalla eri tavalla. Jokaisella tavalla on hyötynsä riippuen siitä, mitä aiotaan tehdä: 
 
-- **Raporttiasetteluvalinta**-sivulla näkyy luettelo kaikista raporteista.
+- Raportin pyyntösivulta
 
-  Tämä sivu ilmaisee raportin tämänhetkisen asettelun. Lisäksi voit määrittää asettelut eri yrityksissä ilman, että sinun tarvitsee vaihtaa yritystä, jota käsittelet.
+  Kun raporttia määritetään suoritusta varten, raportin pyyntösivulla näkyy **Raporttien asettelu** -kenttä, jossa on raportin käyttämä nykyinen oletusasettelu. Voit käyttää tätä kenttää väliaikaisesti vaihtaaksesi suoritettavassa raportissa toiseen käytettävissä olevaan asetteluun. Kun raportti on suoritettu, asettelu palautuu uudelleen oletusasetteluun. Lisätietoja on kohdassa [Raporttien suorittaminen ja tulostaminen](ui-work-report.md#switching-the-report-layout).
 
-- **Raporttiasettelut**-sivulla näkyvät kaikki valitun yrityksen kunkin raportin käytettävissä olevat asettelut.
+- **Raporttiasetteluvalinta**-sivulta
 
-  Tietyn asettelun etsiminen on helppoa lajittelemalla tai suodattamalla luettelo. Kun löydät asettelun, voit määrittää sen raportille yksittäisellä valinnalla.
+  **Raporttiasetteluvalinta**-sivulla näkyy luettelo kaikista raporteista. Tämä sivu ilmaisee raportin tämänhetkisen oletusasettelun. Tämän lisäksi voit määrittää asettelut eri yrityksissä ilman, että sinun tarvitsee vaihtaa yritystä, jota käsittelet.
+
+- **Raporttiasettelut**-sivu – **Raporttiasettelut**-sivulla näkyvät kaikki valitun yrityksen kunkin raportin käytettävissä olevat asettelut. Sen avulla määritetään myös raporttien oletusasettelu. Tietyn asettelun etsiminen on helppoa lajittelemalla tai suodattamalla luettelo. Kun löydät asettelun, voit määrittää sen raportille yksittäisellä valinnalla.
 
   > [!NOTE]
   > Et voi käyttää **Raporttiasettelut**-sivua Wordin ja RDLC:n asetteluille, jotka luotiin käyttämällä vanhaa **Mukautetut asettelut** -ominaisuutta. Itse asiassa et edes näe näitä mukautettuja asetteluita luettelossa **Raporttiasettelut**-sivulla. Voit määrittää nämä asettelut vain käyttämällä **Raporttiasetteluvalinta**-sivua.

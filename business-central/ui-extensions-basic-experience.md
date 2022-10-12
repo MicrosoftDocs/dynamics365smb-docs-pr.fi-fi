@@ -10,12 +10,12 @@ ms.search.keywords: C5, financials, extension
 ms.search.form: 20600,
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4304a42f865086de3337deb3a49b1f1512e0e201
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: b0443ef53a564e103810543225cc0c4a0c6bced7
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362219"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606033"
 ---
 # <a name="the-basic-experience-extension"></a>Peruskokemuksen laajennus
 
@@ -24,7 +24,7 @@ Jos olet käyttänyt Microsoft Dynamics C5:tä, Microsoft-kumppanit voivat autta
 Laajennus on tarkoitettu pienille yrityksille, ja se voi tukea enintään kolmea käyttäjää. Jos tarvitset lisää käyttäjiä, sinun on päivitettävä [!INCLUDE[prod_short](includes/prod_short.md)]:n käyttöoikeus ja poistettava tämän laajennuksen asennus.
 
 > [!NOTE]
-> Tällä hetkellä tämä laajennus on saatavilla vain asiakkaille Tanskassa ja Islannissa. 
+> Tällä hetkellä tämä laajennus on saatavilla vain asiakkaille Tanskassa ja Islannissa.
 
 ## <a name="whats-available"></a>Mitä on saatavilla
 
@@ -32,9 +32,9 @@ Seuraavassa taulukossa on kuvattu ominaisuudet, jotka ovat käytettävissä, jos
 
 |Alue  |Toiminnallisuus  |
 |---------|---------|
-|**Pääkirjanpito** |Perusrahoitus, KP-raporttimallit, käyttöomaisuus, pankin hallinta, pankin täsmäytys, maksut, suoraveloitus, dimensiot, useat valuutat, budjetit, työnkulku, asiakirjanhallinta/OCR, konsolidointi, rajoittamattomat yritykset|
-|**Myyntisaamiset/myynti** |Perussaamiset, myyntilaskutus, myyntialennukset, hinnoittelu, arvonlisävero, yhteystietojen hallinta |
-|**Ostovelat/osto** |Perusvelat, ostolaskutus |
+|**Pääkirjanpito** |Perusrahoitus, talousraportit, käyttöomaisuus, pankin hallinta, pankin täsmäytys, maksut, suoraveloitus, dimensiot, useat valuutat, budjetit, työnkulku, asiakirjanhallinta/OCR, konsolidointi, rajoittamattomat yritykset|
+|**Myyntireskontra/myynti** |Perussaamiset, myyntilaskutus, myyntialennukset, hinnoittelu, arvonlisävero, yhteystietojen hallinta |
+|**Ostoreskontra/osto** |Perusvelat, ostolaskutus |
 |**Projektinhallinta** |Projektit, projektin hinnoittelu, työaikataulukot, toimeksiannot tehtävät, resurssit |
 |**Varasto** |Perusvarasto, nimikkeen korvaukset, nimikkeen viittaus |
 
@@ -42,11 +42,11 @@ Seuraavassa taulukossa on kuvattu ominaisuudet, jotka ovat käytettävissä, jos
 
 Tämä laajennus on hieman erilainen kuin useimmat, ja tarvitset apua Microsoft-kumppanilta laajennuksen asennukseen ja määrittämiseen. Jotta tiedät mitä odottaa, tässä on korkean tason näkymä siitä, mitä Microsoft-kumppani tekee.
 
-1. Uuden [!INCLUDE[prod_short](includes/prod_short.md)] vuokraajan luominen. Tämä voi olla joko kokeiluversio tai CSP-versio.
+1. Uuden [!INCLUDE[prod_short](includes/prod_short.md)] vuokraajan luominen. Tämä voi olla joko kokeiluversio tai pilviratkaisujen toimittajan (CSP) versio.
 2. Lisää vähintään yksi käyttäjä, joka on määritetty Azure Active Directory -tiliisi peruskäyttökokemusta varten.
 3. Poista kaikki yritykset, myös Cronus-näyteyritys.
 4. Luo uusi yritys, joka ei sisällä esimerkkitietoja tai -asetuksia.
-5. Lisää **Demo RapidStart** -paketti. <!--what does the pockage contain?-->
+5. Lisää **Demo RapidStart** -paketti. <!--what does the package contain?-->
 6. Lataa ja asenna peruskokemuksen laajennus AppSourcesta.
 
 ## <a name="migrating-data"></a>Tietojen siirto

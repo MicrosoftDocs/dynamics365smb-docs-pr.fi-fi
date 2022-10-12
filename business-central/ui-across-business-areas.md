@@ -8,16 +8,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
 ms.search.form: 9020, 9022, 9027, 9024
-ms.date: 04/01/2021
+ms.date: 09/19/2022
 ms.author: edupont
-ms.openlocfilehash: 47cd78dc6f706407a0be9814e170054b95e4403d
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: ce1550e658b881aa81a98c6c7e19c0d5b7011d19
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655045"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605898"
 ---
 # <a name="general-business-functionality"></a>Yleiset liiketoimintatoiminnot
+
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää omat toiminnot tavallisille liiketoiminta-alueille, kuten rahoitus ja myynti. Lisätietoja on kohdassa [Liiketoiminnan toiminnallisuus](across-business-functionality.md).
 
 Voit käyttää liiketoiminta-aluekohtaisten tehtävien tukena erilaisia yleisiä liiketoimintatoimintoja, kuten lisätekstin määrittämistä asiakirjariveille ja liittyvien liiketoimintatehtävien järjestämistä työnkuluiksi.
@@ -27,7 +28,7 @@ Voit käyttää liiketoiminta-aluekohtaisten tehtävien tukena erilaisia yleisi�
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-Seuraava taulukko sisältää nämä yleiset liiketoiminta-alueet ja linkit niitä kuvaaviin ohjeaiheisiin.
+Seuraava taulukko sisältää nämä yleiset liiketoiminta-alueet ja linkit niitä kuvaaviin artikkeleihin.
 
 | Vastaanottaja | Katso |
 | --- | --- |
@@ -42,18 +43,20 @@ Seuraava taulukko sisältää nämä yleiset liiketoiminta-alueet ja linkit niit
 |Kirjaa useita myynti- tai ostoasiakirjoja yhdessä, heti tai aikataulutettuna.|[Useiden asiakirjojen kirjaaminen samanaikaisesti](ui-batch-posting.md)|  
 |Tarkastele kirjaamisen tulosta ennen kirjaamista.|[Kirjaustulosten esikatselu](ui-how-preview-post-results.md)|
 |Muokkaa kirjattujen myynti- tai ostoasiakirjojen valittuja kenttiä.|[Kirjattujen asiakirjojen muokkaaminen](across-edit-posted-document.md)|
+| Tietoja tarjous-, tilaus- ja hyvityslaskuasiakirjojen käytettävissä olevasta tilasta, joka voi olla esimerkiksi **Avoin** tai **Vapautettu** | [Asiakirjojen tilarivi](ui-document-status.md) |
 |Saat lisätietoja yleisten päiväkirjojen käyttämisestä. Niitä käytetään tehtäessä kirjauksia kirjanpitotileille sekä muille tileille, kuten pankki-, asiakas-, toimittaja- ja käyttöomaisuustileille. |[Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md) |
 | Voit aikatauluttaa raportin suorituksen tietylle päivämäärälle ja kellonajalle. |[Suoritettavan raportin aikatauluttaminen](ui-work-report.md#ScheduleReport) |
 |Järjestelmän avulla tehtävät voi suorittaa nopeammin ja tarkemmin niin, että kentät tai rivit täytetään tiedoilla, jotka muussa tapauksessa olisi laskettava ja syötettävä manuaalisesti.|[Business Central -sovelluksen arvoehdotusten salliminen](ui-let-system-suggest-values.md)|
 |Kirjaa ulkoiset asiakirjat liitteineen ja luo sitten manuaalisesti liittyvät asiakirjat tai muunna tiedostot automaattisesti sähköisiksi asiakirjoiksi.|[Saapuvat asiakirjat](across-income-documents.md)|
 |Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät eri käyttäjien tai järjestelmän suorittamia tehtäviä, kuten automaattisia kirjauksia. Uusien asiakirjojen luontiin ja kirjaukseen liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.|[Työnkulku](across-workflow.md)|
 | Määritä tiedonsiirtomääritykset sähköisten asiakirjojen lähettämistä ja vastaanottamista varten. |[Sähköinen tiedonsiirto](across-data-exchange.md) |
+| Käytä verkkokarttoja, jos haluat etsiä asiakkaiden ja toimittajien sijainteja ja osoitteita yleisesti. | [Sijaintien ja reittiohjeiden etsiminen online-karttojen avulla](across-online-maps.md) |
 
 ## <a name="see-also"></a>Katso myös
+
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Hallinta](admin-setup-and-administration.md)
+[Hallinta](admin-setup-and-administration.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

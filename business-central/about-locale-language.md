@@ -10,12 +10,12 @@ ms.search.keywords: language, locale, localization, culture, region, regional se
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: cdac371269e523f30712d4cb0be1087e07e70d5e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 23cb50952e1fda9a8dc46398aaf5054e7e03e3ed
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655512"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606827"
 ---
 # <a name="changing-language-and-region"></a>Kielen ja alueen muuttaminen
 
@@ -58,14 +58,14 @@ Voit tarkistaa **Ohje ja tuki** -sivulla mihin [!INCLUDE[prod_short](includes/pr
 
 ## <a name="languages-of-the-prod_short-help"></a>[!INCLUDE[prod_short](includes/prod_short.md)]-ohjeen kielet
 
-Julkaistaan [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman oletusversion ohjesisältö Microsoft Docs -sivustoon. Sisältö on saatavilla eri kielillä. Jos siirryt asiakirjoihin [!INCLUDE[prod_short](includes/prod_short.md)]ista, sisältö näkyy omalla kielelläsi. Oletusarvoisesti, jos tiettyä sivua ei ole vielä käännetty omalle kielellesi, se näkyy englanninkielisenä.
+[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman oletusversion ohjesisältö julkaistaan Microsoft Learniin. Sisältö on saatavilla eri kielillä. Jos siirryt asiakirjoihin [!INCLUDE[prod_short](includes/prod_short.md)]ista, sisältö näkyy omalla kielelläsi. Oletusarvoisesti, jos tiettyä sivua ei ole vielä käännetty omalle kielellesi, se näkyy englanninkielisenä.
 
-### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>Miten Microsoft Docs -sivuston kieli muutetaan?
+### <a name="how-do-i-change-the-language-of-the-microsoft-learn-site"></a>Miten Microsoft Learn -sivuston kieli muutetaan?
 
 Kielen vaihtaminen on helppoa: siirry selainsivun alareunaan ja valitse vasemmassa kulmassa maapallokuvake.
 
 > [!NOTE]  
-> Avautuvassa luettelossa on kaikki Microsoft Docs-sivuston tukemat kielet. [!INCLUDE[prod_short](includes/prod_short.md)] on saatavana vain tietyissä maissa ja tietyillä alueilla eikä [!INCLUDE [prod_short](includes/prod_short.md)] -ohjesisältö ole saatavana kaikilla kielillä, joita Microsoft Docs -sivusto tukee.
+> Avautuvassa luettelossa on kaikki Microsoft Learn -sivuston tukemat kielet. [!INCLUDE[prod_short](includes/prod_short.md)] on saatavana vain tietyissä maissa ja tietyillä alueilla eikä [!INCLUDE [prod_short](includes/prod_short.md)] -ohjesisältö ole saatavana kaikilla kielillä, joita Microsoft Learn -sivusto tukee.
 
 ## <a name="see-also"></a>Katso myös
 

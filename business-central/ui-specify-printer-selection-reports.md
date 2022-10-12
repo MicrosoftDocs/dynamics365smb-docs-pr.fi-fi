@@ -1,6 +1,6 @@
 ---
 title: Tulostimien määrittäminen
-description: Tietoja raporttien ja asiakirjojen käytettävissä olevien tulostimien määrittämisestä sekä Business Centralin erilaisista tulostusominaisuuksista.
+description: Lisätietoja raporttien ja asiakirjojen käytettävissä olevien tulostimien määrittämisestä sekä Business Centralin erilaisista tulostusominaisuuksista.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -8,29 +8,29 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.search.form: 2650, 2750, 2752, 2753, 2754, 8900,
-ms.date: 06/24/2021
+ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: c1b55f213ad738deb03a5f13afccbc8f4bac10b2
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.openlocfilehash: 07cda9c796a08436dc48d623f64fcc1252305a14
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585700"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607740"
 ---
 # <a name="set-up-printers"></a>Tulostimien määrittäminen
 
-Asiakirjojen ja raporttien tulostaminen [!INCLUDE[prod_short](includes/prod_short.md)]ista on tärkeä tehtävä yrityskäyttäjille. Käyttäjät haluavat yleensä lähettää tulostustyöt suoraan yhteen organisaation tulostimista riippumatta siitä, mitä [!INCLUDE[prod_short](includes/prod_short.md)] -asiakasohjelmaa tai -sovellusta he käyttävät. Koska [!INCLUDE[prod_short](includes/prod_short.md)] online on pilvipalvelu, se ei voi olla suoraan yhteydessä käyttäjien laitteisiin yhdistettyihin tulostimiin. Se voidaan kuitenkin yhdistää pilvipohjaisiin tulostimiin.
+Asiakirjojen ja raporttien tulostaminen [!INCLUDE[prod_short](includes/prod_short.md)]ista on tärkeä tehtävä yrityskäyttäjille. Käyttäjä haluaa yleensä lähettää tulostustyöt suoraan yhteen organisaation tulostimista riippumatta siitä, mitä [!INCLUDE[prod_short](includes/prod_short.md)] -asiakasohjelmaa tai -sovellusta tämä käyttää. Koska [!INCLUDE[prod_short](includes/prod_short.md)] online on pilvipalvelu, se ei voi olla suoraan yhteydessä käyttäjien laitteisiin yhdistettyihin tulostimiin. Se voidaan kuitenkin yhdistää pilvipohjaisiin tulostimiin.
 
 [!INCLUDE[prod_short](includes/prod_short.md)]issa on seuraavat tulostamista tukevat ominaisuudet:
 
 |Ominaisuus|Kuvaus|Verkkoasiakasohjelma| Mobiilisovellus|Teamsin käyttöön sopiva sovellus|
 |-------|-----------|----------|-----------|--------------|
-|Yleistulostus|Yleistulostus on Microsoftin pilvipalveluna saatava tulostimen hallintaratkaisu. Tällä ominaisuudessa tulostimet voidaan määrittää yleistulostuksessa, jonka jälkeen rekisteröidään käyttöä varten [!INCLUDE[prod_short](includes/prod_short.md)]issa. Ominaisuuden käyttöä varten tarvitaan yleistulostustilaus ja **Yleistulostuksen integrointi** -laajennus.|![toimii verkossa.](media/check.png)|![toimii verkossa.](media/check.png)|![toimii verkossa](media/check.png)|
+|Yleistulostus|Yleistulostus on Microsoftin pilvipalveluna saatava tulostimen hallintaratkaisu. Tällä ominaisuudessa tulostimet voidaan määrittää yleistulostuksessa, jonka jälkeen rekisteröidään käyttöä varten [!INCLUDE[prod_short](includes/prod_short.md)]issa. Ominaisuuden käyttöä varten tarvitaan yleistulostustilaus ja **Yleistulostuksen integrointi** -laajennus|![toimii verkossa.](media/check.png)|![toimii verkossa.](media/check.png)|![toimii verkossa](media/check.png)|
 |Sähköpostitulostus|Tällä ominaisuudella voidaan määrittää sähköpostitulostukseen sopivia tulostimia. [!INCLUDE[prod_short](includes/prod_short.md)] lähettää sitten tulostustyöt tulostimeen käyttämällä tulostimen sähköpostiosoitetta. Ominaisuuden käyttöä varten tarvitaan tulostin, jossa sähköpostitulostus on otettu käyttöön, ja **Lähetä sähköpostitulostimeen** -laajennus.|![toimii verkossa.](media/check.png)|![toimii verkossa](media/check.png)|![toimii verkossa](media/check.png)|
 |Selaimesta tulostaminen|Käyttäjän selaimen tulostustoiminto käsittelee tulostustyöt. Jos pilvitulostinta ei ole asennettu ja määritetty tai jos asennettu tulostin ei toimi kunnolla, tulostuksessa käytetään selaimen tulostusasetusten oletustulostinta. Raportin pyyntösivun **Tulostin**-kentässä on teksti *(Käsitellään selaimessa)*.|![toimii verkossa](media/check.png)|||
 
 > [!NOTE]
-> [!INCLUDE[prod_short](includes/prod_short.md)] tukee myös mukautettuja tulostinlaajennuksia, joilla saadaan käyttöön vielä lisää tulostusominaisuuksia. Niinpä jos asennettuna on mukautettuja tulostinlaajennuksia, sovelluksessa voi olla sellaisia tulostusominaisuuksia, joita ei käsitellä tässä artikkelissa. 
+> [!INCLUDE[prod_short](includes/prod_short.md)] tukee muita mukautettuja tulostinlaajennuksia, joilla saadaan käyttöön vielä lisää tulostusominaisuuksia. Jos asennettuna on mukautettuja tulostinlaajennuksia, sovelluksessa voi olla sellaisia tulostusominaisuuksia, joita ei käsitellä tässä artikkelissa. 
 
 ## <a name="set-up-universal-print"></a>Yleistulostuksen määrittäminen
 
@@ -50,19 +50,20 @@ Täydellinen määritys edellyttää, että työskentelet sekä Microsoft Azures
 
 **[!INCLUDE[prod_short](includes/prod_short.md)]**
 
-- [!INCLUDE[prod_short](includes/prod_short.md)]in vuoden 2021 1. julkaisuaalto tai uudempi
-- Asennettu **Yleistulostuksen integrointi** -laajennus
+- [!INCLUDE[prod_short](includes/prod_short.md)]in vuoden 2021 1. julkaisuaalto tai uudempi.
+- Asennettu **Yleistulostuksen integrointi** -laajennus.
 
-    Tämä laajennus julkaistaan ja asennetaan oletusarvoisesti [!INCLUDE[prod_short](includes/prod_short.md)]in verkkoversion ja paikallisen ympäristön osana.  Sen asennuksen voi tarkistaa **Laajennuksen hallinta** -sivulla. Lisätietoja on kohdassa [Laajennusten asentaminen Business Centraliin ja asennusten poistaminen](ui-extensions-install-uninstall.md).
+    Tämä laajennus julkaistaan ja asennetaan oletusarvoisesti [!INCLUDE[prod_short](includes/prod_short.md)]in verkkoversion ja paikallisen ympäristön osana. Sen asennuksen voi tarkistaa **Laajennuksen hallinta** -sivulla. Lisätietoja on kohdassa [Laajennusten asentaminen ja asennusten poistaminen Business Centralissa](ui-extensions-install-uninstall.md).
+
 - [!INCLUDE[prod_short](includes/prod_short.md)] paikallisessa ympäristössä:
-  - Azure Active Directory (AD)- tai NavUserPassword-todennus on määritetty
-  - Business Central -sovellus on rekisteröity Azure AD -vuokraajaan ja [!INCLUDE[prod_short](includes/prod_short.md)]iin
+  - Azure Active Directory (AD)- tai NavUserPassword-todennus on määritetty.
+  - Business Central -sovellus on rekisteröity Azure AD -vuokraajaan ja [!INCLUDE[prod_short](includes/prod_short.md)]iin.
 
-      Muiden [!INCLUDE[prod_short](includes/prod_short.md)]issa käytettävien Azure-palvelujen tavoin yleistulostus edellyttää, että sovellus rekisteröidään [!INCLUDE[prod_short](includes/prod_short.md)]iin Azure Active Directoryssa (Azure AD). Sovelluksen rekisteröinti tuottaa [!INCLUDE[prod_short](includes/prod_short.md)]in ja yleistulostuksen välisiä todennus- ja valtuutuspalveluita.
+      Muiden [!INCLUDE[prod_short](includes/prod_short.md)]issa käytettävien Azure-palvelujen tavoin yleistulostus edellyttää, että sovellus rekisteröidään [!INCLUDE[prod_short](includes/prod_short.md)]iin Azure AD:ssa. Sovelluksen rekisteröinti tuottaa [!INCLUDE[prod_short](includes/prod_short.md)]in ja yleistulostuksen välisiä todennus- ja valtuutuspalveluita.
 
       Käyttöönotossa voi olla jo käytössä muiden Azure-palvelujen, kuten Power BI:n, sovelluksen rekisteröinti. Siinä tapauksessa aiemmin luotua sovelluksen rekisteröintiä käytetään myös yleistulostuksessa sen sijaan, että lisättäisiin uusi rekisteröinti. Tässä tapauksessa sovelluksen rekisteröinti on vain muokattava sisältämään Microsoft Graph -ohjelmointirajapinnan soveltuvat tulostusoikeudet.
 
-      Lisätietoja soveltuvien oikeuksien määrittämisestä rekisteröidyssä sovelluksessa on kohdassa [Sovelluksen rekisteröinti Azure Active Directoryssa](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
+      Lisätietoja sovelluksen rekisteröimisestä ja soveltuvien oikeuksien määrittämisestä on kohdassa [Sovelluksen rekisteröinti Azure Active Directoryssa](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
 
 **Yleistulostus**
 
@@ -72,7 +73,7 @@ Täydellinen määritys edellyttää, että työskentelet sekä Microsoft Azures
 
 - Azuressa oltava **Tulostimen hallinta**- ja **Yleinen järjestelmänvalvoja** -roolit.
 
-    Yleistulostuksen hallintaa varten tilillä on oltava **Tulostuksen hallinta**- ja **Yleinen järjestelmänvalvoja** -roolit Azure AD:ssa. Näitä rooleja tarvitaan vain yleistulostuksen hallintaan. Käyttäjät eivät tarvitse näitä rooleja tulostimien käyttämiseen [!INCLUDE[prod_short](includes/prod_short.md)]issa.
+    Yleistulostuksen hallintaa varten tilillä on oltava **Tulostuksen hallinta**- ja **Yleinen järjestelmänvalvoja** -roolit Azure AD:ssa. Näitä rooleja tarvitaan vain yleistulostuksen hallintaan. Jos tulostimia käytetään [!INCLUDE[prod_short](includes/prod_short.md)]issa, rooleja ei tarvita.
 
 ### <a name="set-up-universal-print-and-add-printers-in-microsoft-azure"></a>Yleistulostuksen määrittäminen ja tulostimien lisääminen Microsoft Azuressa
 
@@ -94,7 +95,7 @@ Lisätietoja määrittämisestä on yleistulostuksen ohjeiden kohdassa [Aloitus:
 
 2. Asenna yleistulostuksen yhdistin niiden tulostimien rekisteröintiä varten, jotka eivät voi olla suoraan yhteydessä yleistulostukseen.
 
-    Useimmat markkinoilla olevat tulostimet eivät voi olla suoraan yhteydessä yleistulostukseen. Kyseisiä tulostimia varten on asennettava yleistulostuksen yhdistin. Lisätietoja on kohdassa [Yleistulostuksen yhdistimen asentaminen](/universal-print/fundamentals/universal-print-connector-installation).
+    Useimmat markkinoilla olevat tulostimet eivät voi olla suoraan yhteydessä yleistulostukseen, joten yleistulostuksen yhdistin on asennettava. Lisätietoja on kohdassa [Yleistulostuksen yhdistimen asentaminen](/universal-print/fundamentals/universal-print-connector-installation).
 
 3. Rekisteröi tulostimet yleistulostukseen.
 
@@ -104,25 +105,25 @@ Lisätietoja määrittämisestä on yleistulostuksen ohjeiden kohdassa [Aloitus:
 
     - Rekisteröi muut tulostimet käyttämällä yleistulostuksen yhdistintä. 
 
-      Lisätietoja on kohdassa [Tulostimen rekisteröinti](/universal-print/fundamentals/universal-print-connector-printer-registration).
+      Lisätietoja on kohdassa [Tulostimen rekisteröiminen](/universal-print/fundamentals/universal-print-connector-printer-registration).
 
 4. Tulostimen ominaisuuksien muuttaminen (valinnainen)
 
-    Kun tulostin on rekisteröity, tulostimen ominaisuuksia, kuten oletusasetuksia, voi tarkastella ja muuttaa.
+    Kun tulostin on rekisteröity, voit tarkastella ja muuttaa tulostimen ominaisuuksia, kuten oletusasetuksia.
 
     Lisätietoja on kohdassa [Tulostimen asetusten hallinta yleistulostusportaalin avulla](/universal-print/portal/configure-printer-settings).
 
 5. Jaa tulostimet.
 
-    Jokainen tulostin, jota halutaan käyttää [!INCLUDE[prod_short](includes/prod_short.md)]issa, on jaettava yleistulostuksessa. avulla.
+    Jokainen tulostin, jota halutaan käyttää [!INCLUDE[prod_short](includes/prod_short.md)]issa, on jaettava yleistulostuksessa.
 
-    <!--For more information, see [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer). -->
+    <!--Learn more at [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer). -->
 
     Lisätietoja on kohdassa [Tulostimen jakaminen](/universal-print/portal/share-printers).
 
 6. Anna jaettujen tulostimien käyttöoikeudet käyttäjille.
 
-    <!--For more information, see [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
+    <!--Learn more at [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
 
     Lisätietoja on kohdassa [Tulostimen käyttöoikeudet](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
 
@@ -137,30 +138,30 @@ Olet nyt valmis lisäämään tulostimia [!INCLUDE[prod_short](includes/prod_sho
 
 ### <a name="add-universal-print-printers-to-business-central"></a>Yleistulostuksen tulostimien lisääminen Business Centraliin
 
-Kun tulostimet on määritetty ja jaettu yleistulostuksessa, niitä voi käyttää Business Centralissa. Yleistulostuksen tulostimia voi lisätä kahdella tavalla. Tulostimet voidaan lisätä kaikki kerralla tai yksi kerrallaan.
+Kun tulostimet on määritetty ja jaettu yleistulostuksessa, niitä voi lisätä Business Centralissa käytettäväksi. Yleistulostuksen tulostimia voi lisätä kahdella tavalla. Tulostimet voidaan lisätä kaikki kerralla tai yksi kerrallaan.
 
-Jos tulostimet lisätään yksitellen, sama yleistulostuksen tulostin voidaan määrittää Business Centralissa useita kertoja. Sen jälkeen kussakin lisätyssä tulostimessa voidaan muuttaa tulostusasetuksia, kuten paperilokeroa, kokoa ja suuntaa. Tällä tavoin tulostimet voidaan määrittää erilaisille raporteille ja asiakirjoille, joilla on erityiset tulostusvaatimukset.
+Kun tulostimet lisätään yksitellen, sama yleistulostuksen tulostin voidaan määrittää Business Centralissa useita kertoja. Sen jälkeen kussakin lisätyssä tulostimessa voidaan muuttaa tulostusasetuksia, kuten paperilokeroa, kokoa ja suuntaa. Tällä tavoin tulostimet voidaan määrittää erilaisille raporteille ja asiakirjoille, joilla on erityisiä tulostusvaatimuksia.
   
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tulostimien hallinta** ja valitse sitten vastaava linkki.
-2. Valitse ensin **Yleistulostus** ja sitten jokin seuraavista vaihtoehdoista:
+2. Valitse ensin **Yleistulostus** ja valitse sitten jokin seuraavista vaihtoehdoista:
 
-    - **Lisää kaikki yleistulostuksen tulostimet** -vaihtoehdolla voi lisätä kaikki tulostimet, joita ei ole vielä lisätty. Tätä vaihtoehtoa voi käyttää, vaikka tulostimia olisi jo lisätty. 
+    - **Lisää kaikki yleistulostuksen tulostimet** -vaihtoehdon avulla voi lisätä kaikki tulostimet, joita ei ole vielä lisätty. Tätä vaihtoehtoa voi käyttää, vaikka tulostimia olisi jo lisätty. 
 
     - **Lisää yleistulostuksen tulostin** -vaihtoehdolla voi lisätä tietyn tulostimen.  
 3. Noudata näytön ohjeita.
 
     - Jos valitsit **Lisää kaikki yleistulostuksen tulostimet**, **Lisää yleistulostuksen tulostimet** -määritys käynnistyy. <!--This setup leads you through the process of verifying your Azure AD setup (for on-premises), checking your Universal Print license, and then finally adding the printers.-->
 
-    - Jos valitsit **Lisää yleistulostuksen tulostin**, **Yleistulostuksen asetukset** -sivu avautuu. Täytä **Nimi**-kenttä ja valitse yleistulostuksen tulostin valitsemalla **...** **Yleistulostuksen tulostusresurssi** -kentän vieressä. Täytä jäljellä olevat kentät tarvittaessa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+    - Jos valitsit **Lisää yleistulostuksen tulostin**, **Yleistulostuksen asetukset** -sivu avautuu. Täytä **Nimi**-kenttä ja valitse sen jälkeen yleistulostuksen tulostin valitsemalla **...** **Yleistulostuksen tulostusresurssi** -kentän vieressä. Täytä jäljellä olevat kentät tarvittaessa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
   
     Nämä toiminnot vahvistavat Azure AD -asetukset (paikallisessa versiossa), tarkistavat, että käytössä on yleistuloksen käyttöoikeus, ja lopulta lisäävät tulostimet.
 
     > [!NOTE]
     > Jos yhteys muodostetaan ensimmäisen kerran paikallisessa versiossa yleistulostukseen, AZURE ACTIVE DIRECTORY -PALVELUN KÄYTTÖOIKEUDET -sivu avautuu, sinua pyydetään antamaan suostumus Azure-palveluihin. Suostumus tarvitsee antaa vain kerran.
 
-Kun tulostin on lisätty, sen asetuksia voi tarkastella ja muuttaa **Tulostimen hallinta** -kohdassa. Valitse ensin tulostin ja sitten **Muokkaa tulostimen asetuksia**. 
+Kun tulostin on lisätty, sen asetuksia voi tarkastella ja muuttaa **Tulostimen hallinta** -sivulla. Valitse ensin tulostin ja sitten **Muokkaa tulostimen asetuksia**. 
 
 <!--
 ### Troubleshooting
@@ -183,9 +184,9 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 ## You don't have access to the printer
 
-- You have not been assigned a Up license
+- You have not been assigned an UP license
 - You have not been given access to the printer in UP.
-- (On-prem) The app registration has been broken
+- (On-premises) The app registration has been broken.
 -->
 ## <a name="set-up-email-print"></a>Sähköpostitulostuksen määrittäminen
 
@@ -194,17 +195,17 @@ There is a technical problem withe the printer. Unsupported document-format: app
 - [!INCLUDE[prod_short](includes/prod_short.md)]in vuoden 2020 1. julkaisuaalto tai uudempi
 - **Lähetä sähköpostitulostimeen** -laajennus on asennettu
 
-    Tämä laajennus asennetaan oletusarvoisesti. Lisätietoja laajennuksien asentamisesta on kohdassa 
+    Tämä laajennus asennetaan oletusarvoisesti. Lisätietoja laajennuksien asentamisesta on kohdassa<!--see what?--> 
 - Sähköpostitoiminnot on määritetty.
 
-   Lisätietoja on kohdassa [Sähköpostin määrittäminen](admin-how-setup-email.md).
+   Lisätietoja kohdassa [Sähköpostin määrittäminen](admin-how-setup-email.md).
 
-### <a name="add-an-email-printer"></a>Sähköpostitulostimen lisääminen
+### <a name="add-an-email-printer"></a>Lisää sähköpostitulostin
 
-**Tulostimen hallinta** -sivulla on näkyvissä tällä hetkellä määritetyt tulostimet. Sivulta pääsee myös kunkin tulostimen **Asetukset**-sivulle, jossa voi muokata nykyisiä määrityksiä ja määrittää uuden tulostimen.
+**Tulostimen hallinta** -sivulla on näkyvissä tällä hetkellä määritetyt tulostimet. Sivu antaa myös kunkin tulostimen **Asetukset**-sivun käyttöoikeuden. Sivulla voi muokata nykyisiä määrityksiä ja määrittää uuden tulostimen.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tulostimien hallinta** ja valitse sitten vastaava linkki.
-2. Valitse ensin **Sähköpostitulostus** ja sitten **Lisää sähköpostitulostin**.
+2. Valitse **Sähköpostitulostus** ja valitse sitten **Lisää sähköpostitulostin**.
 3. Täytä tarvittavat kentät **Sähköpostitulostimen asetukset** -sivulla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]
@@ -218,14 +219,13 @@ Jos käytät sähköpostitulostinlaajennusta, kaikki tai jotkin tulostustyöt l�
 
 Noudata varovaisuutta tietoturva-asioissa. Varmista esimerkiksi, että sähköpostitulostusratkaisun käyttöoikeudet, tietosuoja-asetukset ja tietojen säilyttämistä koskevat käytännöt on määritetty oikein. Vastuullasi on antaa oikea, varmistettu ja toimiva sähköpostiosoite. Lisätietoja on kohdassa [Microsoftin tietosuojatiedot](https://privacy.microsoft.com/privacystatement).
 
-
 ## <a name="set-up-default-printers"></a><a name="default"></a>Oletustulostimien määrittäminen
 
 Tulostustöissä oletusarvoisesti käytettävät tulostimet voidaan määrittää muutamalla eri tavalla. Oletustulostin on kätevä, jos käytössä on raportteja, joissa on käytettävä eri tulostinta sen vuoksi, miten ne on sijoitettu yrityksessä tai mitä tulostusominaisuuksia niissä on.
 
 ### <a name="set-a-printer-as-a-default-printer-for-all-print-jobs"></a>Tulostimen määrittäminen kaikkien tulostustöiden oletustulostimeksi
 
-Tulostimen voi määrittää kaikkien tulostustöiden oletustulostimeksi **Tulostimen hallinta** -sivulla. Tulostimen voi määrittää oletustulostimeksi joko itselle tai kaikille käyttäjille.
+**Tulostimen hallinta** -sivulla tulostimen voi määrittää kaikkien tulostustöiden oletustulostimeksi. Tulostimen voi määrittää oletustulostimeksi joko itselle tai kaikille käyttäjille.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tulostimien hallinta** ja valitse sitten vastaava linkki.
 
@@ -243,21 +243,21 @@ Tulostimen voi määrittää kaikkien tulostustöiden oletustulostimeksi **Tulos
 > [!IMPORTANT]
 > [!INCLUDE[prod_short](includes/prod_short.md)]in paikallisessa versiossa **Tulostimen valinnat** -sivua voidaan käyttää vain tulostinlaajennusten, kuten sähköpostitulostuksen tai yleistulostuksen tulostimien, määrittämissä pilvitulostimissa. Sitä ei voi käyttää paikallisissa tulostimissa.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tulostimien valinta** ja valitse sitten vastaava linkki. Sen sijaan voit valita **Tulostimen hallinta** -sivulla tulostimen ja valita sitten **Tulostimen valinnat**-toiminnon.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tulostimien valinta** ja valitse sitten liittyvä linkki. Vaihtoehtoisesti voit valita **Tulostimen hallinta** -sivulla tulostimen ja valita sitten **Tulostinvalinnat**-toiminnon.
 2. Valitse **Uusi**-toiminto, jos haluat lisätä tulostinvalinnan tiettyä raporttia varten.
 3. Täytä tarvittavat kentät.
 
 Määritetty raportti on nyt määritetty tulostamaan halutulle tulostimelle oletusarvoisesti.
 
 > [!NOTE]
-> Kun kyseinen raportti tulostetaan, voit valita toisen tulostimen käyttämällä pyyntösivun **Tulosta**-kenttää.
+> Kun kyseinen raportti tulostetaan, voit valita toisen tulostimen käyttämällä raportin pyyntösivun **Tulosta**-kenttää.
 
 > [!NOTE]
 > Jos et määritä raporttia tietylle tulostimelle **Tulostinvalinnat**-sivulla, se tulostetaan yrityksen oletustulostimeen **Tulostimen hallinta** -sivun määritysten mukaisesti.
 
 Sinä tai järjestelmänvalvoja voitte käyttää myös **Tulostinvalinnat**-sivua käyttäjien ja raporttien muiden tulostusvaihtoehtojen määrittämisessä. Seuraava taulukko sisältää niiden arvojen yhdistelmät, joiden avulla määritetään raportin eri tulostusasetukset.
 
-|Tehtävä                                                 |Määritä seuraavat arvot                                             |
+|Vastaanottaja                                                 |Määritä seuraavat arvot                                             |
 |---------------------------------------------------|---------------------------------------------------------------------|
 |Tulosta raportti tiettyyn tulostimeen kaikille käyttäjille |Määritä arvot **Raportin tunnus**- ja **Tulostimen nimi** -kenttiin ja jätä **Käyttäjän tunnus** -kenttä tyhjäksi.|
 |Tulosta kaikki raportit tiettyyn tulostimeen tietylle käyttäjälle|Määritä arvot **Käyttäjän tunnus**- ja **Tulostimen nimi** -kenttiin ja jätä **Raportin tunnus** -kenttä tyhjäksi. Tämä merkintä toimii samoin kuin **Määritä oletustulostimeksi** -toiminto **Tulostuksen hallinta** -sivulla.|
@@ -270,13 +270,13 @@ Sinä tai järjestelmänvalvoja voitte käyttää myös **Tulostinvalinnat**-siv
 
 ### <a name="choosing-the-printer-when-running-a-report"></a>Tulostimen valitseminen raporttia suoritettaessa
 
-Sen sijaan, että käytät oletustulostinta raporttia suoritettaessa, voit ohittaa tämän asetuksen pyyntösivulla. Valitse vain avattavasta **Tulostin**-valikosta, mitä tulostinta haluat käyttää tässä raportin ilmentymässä.
+Sen sijaan, että käytät oletustulostinta raporttia suoritettaessa, voit ohittaa tämän asetuksen pyyntösivulla. Valitse vain avattavasta **Tulostin**-valikosta, mitä tulostinta haluat käyttää tässä raportin luonnissa.
 
 ### <a name="sizing-print-jobs"></a>Tulostustöiden mitoitus
 
 Pilvitulostus on suunniteltu kohtuullisen kokoisia asiakirjoja varten. Useimmissa pilvipalveluissa, kuten PrintNode- ja HP ePrint -palveluissa, on enintään 10 megatavua työtä kohti. Jos haluat tulostaa suurempia raportteja, ne täytyy ehkä jakaa useisiin tulosteisiin.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Katso liittyvä [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/) -kohta.
 
 ## <a name="see-also"></a>Katso myös
 
@@ -284,6 +284,5 @@ Pilvitulostus on suunniteltu kohtuullisen kokoisia asiakirjoja varten. Useimmiss
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Eräajojen ajaminen](ui-how-run-batch-jobs.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

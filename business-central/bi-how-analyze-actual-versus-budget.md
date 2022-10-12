@@ -1,6 +1,6 @@
 ---
 title: Todellisten summien analysointi budjetoituihin summiin nähden
-description: Tässä aiheessa kuvataan, miten voit analysoida todellisia summia budjetoituihin summiin verrattuna, jotta voit kerätä, analysoida ja jakaa yrityksesi tietoja.
+description: Tässä artikkelissa kuvataan, miten voit analysoida todellisia summia budjetoituihin summiin verrattuna, jotta voit kerätä, analysoida ja jakaa yrityksesi tietoja.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -8,69 +8,73 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 120, 121, 422
-ms.date: 06/15/2021
+ms.date: 09/14/2022
 ms.author: edupont
-ms.openlocfilehash: 8be263821e288d314f0c5b91415ca204e767a98e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 927622bf51f4474d995cd2e35f72ec3111844886
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535099"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605270"
 ---
 # <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Todellisten summien analysointi budjetoituihin summiin nähden
+
 Yrityksesi tietojen keräämisen, analysoinnin ja jakamisen osana tarkastelet todellisia summia ja vertaat niitä kaikkien tilien sekä useiden ajanjaksojen budjetoituihin summiin.
 
-Budjetoitujen summia analysointia varten on ensin luotava KP-budjetteja. Lisätietoja on kohdassa [KP-budjettien luominen](finance-how-create-budgets.md).
+Budjetoitujen summia analysointia varten on ensin luotava pääkirjanpito (KP) -budjetteja. Lisätietoja on kohdassa [KP-budjettien luominen](finance-how-create-budgets.md).
 
-## <a name="to-view-a-gl-budget"></a>KP-budjetin tarkastelu
+## <a name="view-a-gl-budget"></a>KP-budjetin tarkastelu
+
 Budjetissa, jossa on dimensioita, voi suodattaa tapahtumia ja siten tarkastella tiettyjä budjetteja.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KP-budjetit** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KP-budjetit**, valitse sitten vastaava linkki.
 2. Avaa **KP-budjetit** -sivulla talousarvio, jota haluat tarkastella.  
 3. Täyttämällä sivun yläosan kentät määrität, mitä näytetään. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Jos olet valinnut **Jakso**-vaihtoehdon joko **Näytä riveinä**- tai **Näytä sarakkeina** -kentässä, täytä **Näyttöperuste**-kenttä. Jos et ole valinnut **Jakso**-vaihtoehtoa **Näytä riveinä**- tai **Näytä sarakkeina** -kentässä, määritä asianmukainen jakso **Pvm-suodatus**-kentässä.  
+> Jos olet valinnut **Jakso**-vaihtoehdon joko **Näytä riveinä**- tai **Näytä sarakkeina** -kentässä, täytä **Näyttöperuste**-kenttä. Jos et ole valinnut **Jakso**-vaihtoehtoa kummassakaan kentässä, määritä asianmukainen jakso **Pvm-suodatus**-kentässä.  
 
 > [!NOTE]  
->   Vain ne KP-budjetin tapahtumat, joissa on **Suodattimet**-pikavälilehdessä määrittämäsi suodatinkoodit, sisällytetään laskentaan. Budjettitapahtumia, joissa on eri suodatinkoodit tai joissa ei ole suodatinkoodeja ollenkaan, ei sisällytetä. Niin kauan kuin suodatin on näkyvissä sivulla, budjetissa näkyvät vain ne budjettitapahtumat, joissa on nämä suodattimen koodit.  
+> Vain ne KP-budjetin tapahtumat, joissa on **Suodattimet**-pikavälilehdessä määrittämäsi suodatinkoodit, sisällytetään laskentaan. Budjettitapahtumia, joissa ei ole suodatinkoodeja tai on eri suodatinkoodit, ei sisällytetä. Niin kauan kuin suodatin on näkyvissä sivulla, budjetissa näkyvät vain tapahtumat, joissa on nämä suodattimen koodit.  
 
 > [!TIP]  
->   Jos budjettia on tarpeen muokata, voit muokata budjetin tapahtumia. Valitse summa, niin saat näkyviin sen perusteena olevat KP-budjetin tapahtumat.
+> Muokkaa budjettia **Muokkaa budjettia** -toiminnon avulla. Valitse budjettisivulla summa, niin saat näkyviin sen perusteena olevat KP-budjetin tapahtumat.
 
-## <a name="to-view-actual-and-budgeted-amounts-for-all-accounts"></a>Todellisten ja budjetoitujen summien tarkastelu kaikkien tilien osalta  
+## <a name="view-actual-and-budgeted-amounts-for-all-accounts"></a>Todellisten ja budjetoitujen summien tarkastelu kaikkien tilien osalta
+
 Pääkirjanpidon budjettien tarkastelu ja niiden vertaaminen todellisiin lukuihin useilla [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman osa-alueilla.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta**, valitse sitten vastaava linkki.  
 2. Valitse **Tilikartta**-sivulla **KP-saldo/-budjetti**-toiminto.
-3. Täyttämällä sivun yläosan kentät määrität, mitä näytetään.  
-4. Valitse kenttä nähdäksesi määrityksen, josta näkyvä summa muodostuu.  
+3. Täyttämällä **Valinnat**-pikavälilehden kentät määrität, mitä näytetään taulukossa.  
+4. Viemällä osoittimen taulukon kentän päälle voit lukea lyhyen kuvauksen näytettävästä summasta.
 
 > [!NOTE]  
->   Suodattimia, jotka määritit sivun otsikossa, käytetään sekä KP-tapahtumissa että budjettitapahtumissa.
+> Suodattimia, jotka määritit sivun otsikossa, käytetään sekä KP- että budjettitapahtumissa.
 
 Vasemmanpuoleisimmisssa sarakkeissa on tilikartta. Oikealla olevista viidestä sarakkeesta neljässä ensimmäisessä on kunkin tilin todelliset ja budjetoidut debet- ja kreditsummat. Viidennessä sarakkeessa on todellisen ja budjetoidun summan välinen suhde KP-tilillä.  
 
 > [!TIP]  
->   Käyttämällä **Näyttöperuste**-kenttää **KP-saldo/budjetti**-sivulla voit valita jakson pituuden. **Näyttömuoto**-kentän avulla voit valita tavan, jolla summat lasketaan (**Nettomuutos** tai **Saldo pvm:ttäin**). Valitse **Edellinen jakso** tai **Seuraava jakso** -toiminto ja muuta jaksoa.  
+> Käyttämällä **Näyttöperuste**-kenttää **KP-saldo/budjetti**-sivulla voit valita jakson pituuden. **Näyttömuoto**-kentän avulla voit valita tavan, jolla summat lasketaan, joko **Nettomuutos** tai **Saldo pvm:ttäin**. Valitse **Edellinen jakso** tai **Seuraava jakso** -toiminto ja muuta jaksoa.  
 
 ## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Useiden jaksojen todellisten ja budjetoitujen summien tarkastelu  
+
 Sen sijaan että tarkastelisit todellisia ja budjetoituja summia kaikkien tilien osalta yhdeltä kaudelta, voit tarkastella useita yhden tilin kausia.  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten vastaava linkki.  
-2. Valitse **Tilikartta**-sivulla haluamasi KP-tili ja valitse sitten **KP-tilin saldo/budjetti** -toiminto.  
-3. Täyttämällä sivun yläosan kentät määrität, mitä näytetään.   
-4. Valitse kenttä nähdäksesi näkyvän summan määrityksen.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta**, valitse sitten vastaava linkki.  
+2. Valitse **Tilikartta**-sivulla haluamasi KP-tili, valitse sitten **KP-tilin saldo/budjetti** -toiminto.  
+3. Täyttämällä **Valinnat**-pikavälilehden kentät määrität, mitä näytetään taulukossa.  
+4. Vie osoitin taulukon kentän päälle **Rivit**-pikavälilehdellä voit lukea lyhyen kuvauksen näytettävästä summasta.  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
 
 ## <a name="see-also"></a>Katso myös
-[Business Intelligence](bi.md)  
-[KP-raporttimallien käyttäminen](bi-how-work-account-schedule.md)  
+
+[Taloudelliset liiketoimintatiedot](bi.md)  
+[Talousraporttien käsitteleminen](bi-how-work-account-schedule.md)  
 [Rahoitus](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

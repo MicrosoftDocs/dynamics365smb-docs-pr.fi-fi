@@ -8,18 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 1151, 1166, 9027, 9004
-ms.date: 06/15/2021
+ms.date: 08/19/2022
 ms.author: edupont
-ms.openlocfilehash: 3ef243581ddd0df9b546e3f2a40b2f1d666f73dc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bd8bd7089be89c9d5a2f57b53b104a2b5ac2a565
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515639"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605000"
 ---
 # <a name="financial-management"></a>Taloushallinto
 
-[!INCLUDE[prod_short](includes/prod_short.md)] sisältää useimpien taloushallinnon prosessien vakiomäärityksen. Voit muuttaa määritystä omaa liiketoimintaasi vastaavaksi. Lisätietoja on kohdassa [Rahoituksen määrittäminen](finance-setup-finance.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] sisältää useimpien taloushallinnon prosessien vakiomäärityksen. Voit muuttaa sitä liiketoiminnan tarpeiden mukaan. Lisätietoja kohdassa [Taloushallinnon määrittäminen](finance-setup-finance.md).
 
 Oletusmääritys sisältää tilikartan ja vakiokirjausryhmät, joiden avulla oletuskirjanpitotilit voidaan liittää asiakkaille, toimittajille ja nimikkeille tehokkaammin.  
 
@@ -29,35 +29,35 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | --- | --- |
 | Kohdista saapuvia maksuja, täsmäytä pankkitilejä maksujen kohdistamisen aikana ja peri avoimia saldoja. |[Myyntisaamisten hallinta](receivables-manage-receivables.md) |
 | Suorita maksuja, kohdista lähteviä maksuja ja käsittele sekkejä. |[Ostovelkojen hallinta](payables-manage-payables.md) |
-|Saat asiakkaat lähettämään maksun ennen toimitusta tai lähetät itse maksun toimittajille, ennen kuin he toimittavat sinulle.|[Ennakkomaksujen laskuttaminen](finance-invoice-prepayments.md)|
-| Täsmäytä pankkitilejä ja siirrä varoja pankkitilien välillä. |[Pankkitilien täsmäytys](bank-manage-bank-accounts.md) |
+|Pyydä asiakkaita lähettämään maksu ennen toimitusta tai lähetä maksu toimittajille, ennen kuin he toimittavat sinulle.|[Ennakkomaksujen laskuttaminen](finance-invoice-prepayments.md)|
+| Täsmäytä ja siirrä varoja pankkitilien välillä. |[Pankkitilien täsmäytys](bank-manage-bank-accounts.md) |
 |Määritä konsernikumppanit ja käsittele tapahtumat manuaalisesti tai automaattisesti samaan yhtiöön kuuluvien yritysten välillä.|[Konsernitapahtumien hallinta](intercompany-manage.md)|
 |Analysoi liiketoiminnan kustannuksia kohdistamalla toimintojen, osastojen, toimintojen ja projektien toteutuneet ja budjetoidut kustannukset kustannuspaikkoihin.|[Kustannuslaskenta](finance-manage-cost-accounting.md)|
-|Varaston ja tuotannon kustannusten hallinta, kustannusten raportointi ja kustannusten täsmäyttäminen pääkirjanpitoon.|[Varaston kustannusten hallinta](finance-manage-inventory-costs.md)|
-| Tietoja pääkirjanpidosta ja tilikartasta. |[Pääkirjanpito ja aitoustodistus](finance-general-ledger.md) |
+|Varaston ja tuotannon kustannusten hallinta sekä kustannusten raportointi ja täsmäyttäminen pääkirjanpitoon.|[Varaston kustannusten hallinta](finance-manage-inventory-costs.md)|
+| Lisätietoja pääkirjanpidosta ja tilikartasta. |[Pääkirjanpito ja aitoustodistus](finance-general-ledger.md) |
 |Yhdistä useiden yritysten pääkirjanpidon tapahtumat yhteen virtuaaliseen konsolidoituun yritykseen talousanalyysia varten.|[Usean yrityksen kirjanpitotietojen konsolidoiminen](finance-consolidated-company-reporting.md)|
 | Lisää dimensioita, kun haluat saada käyttöön monipuolisempia liiketoimintatietoja. |[Dimensioiden käyttäminen](finance-dimensions.md) |
-| Luo KP-budjetteja ennustamaan erilaisia taloudellisia toimintoja ja määritä dimensioita liiketoimintatietoja varten. |[KP-budjettien luominen](finance-how-create-budgets.md) |
-|Kirjaa tuotot tai kulut suoraan pääkirjanpitoon kirjaamatta erityisiä liiketoiminnan asiakirjoja.|[Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)|
-|Kirjaa käänteiskirjaukset ja kumoa niillä kirjanpidon arvokirjaukset tai osto- ja myyntiasiakirjojen määräkirjaukset. |[Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md)|
+| Luo pääkirjanpidon (KP) budjetteja ennustamaan erilaisia taloudellisia toimintoja ja määritä dimensioita liiketoimintatietoja varten. |[KP-budjettien luominen](finance-how-create-budgets.md) |
+|Kirjaa tuotot ja kulut suoraan pääkirjanpitoon kirjaamatta erityisiä liiketoiminnan asiakirjoja.|[Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)|
+|Peruuta tapahtumia kumotaksesi kirjanpidon arvokirjaukset tai osto- ja myyntiasiakirjojen määräkirjaukset. |[Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md)|
 |Voit kohdistaa tapahtuman useisiin yleisen päiväkirjan tileihin päiväkirjan kirjaamisen yhteydessä. |[Kustannusten ja tulojen kohdistaminen](year-allocate-costs-income.md) |
-| Liitä lisäkustannukset, kuten rahti- ja fyysisen käsittelyn kustannukset, joita joudut maksamaan kaupan yhteydessä nimikkeisiin, jotta kustannukset vaikuttavat varastonarvostukseen. |[Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md) |
-|Kirjaa työntekijöiden liiketoimintaan liittyvät henkilökohtaiset kulut ja tee hyvitykset suorittamalla maksu työntekijän pankkitilille.|[Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md)|
-| Tulouta tuotot ja kulut muissa kuin niissä jaksoissa, joiden tapahtumat on kirjattu. |[Tuottojen ja kulujen siirtäminen](finance-how-defer-revenue-expenses.md)|
+| Liitä liittyvien nimikkeiden lisäkustannukset, kuten rahti- ja fyysisen käsittelyn kulut, joita joudut maksamaan kaupan yhteydessä. Näin kustannus vaikuttaa varaston arvostukseen. |[Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md) |
+|Kirjaa työntekijöiden kulut työhön liittyvistä aktiviteeteista ja tee hyvitykset suoraan työntekijöiden pankkitileille.|[Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md)|
+| Kohdista tuotot ja kulut muihin kuin niihin jaksoihin, joissa tapahtumat todellisuudessa kirjattiin. |[Tuottojen ja kulujen siirtäminen](finance-how-defer-revenue-expenses.md)|
 | Tietoja käytettävissä olevista vaihtoehdoista, jotka automatisoivat tilauslaskujen lähettämisen asiakkaille ja rekisteröivät toistuvan tuoton. |[Toistuvan tuoton käsitteleminen](finance-recurring-invoicing.md)|
 |Lisätietoja lisävaluuttojen käytöstä ja vaihtokurssien päivittämisestä automaattisesti. |[Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)|
 | Tuo palkkatapahtumat palkanlaskennan tarjoajalta pääkirjanpitoon. |[Tuo palkkatapahtumat](finance-how-import-payroll-transactions.md)|
-|Laske myynti- ja ostotapahtumien arvonlisävero (ALV) funktioiden avulla, jotta voit raportoida summat veroviranomaisille.|[Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)|
-|valmistele raportti, jossa luetellaan myynneistä saatu arvonlisävero ja lähetä raportti EU:n veroviranomaiselle. | [ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)|
+|Laske myynti- ja ostotapahtumien arvonlisävero (ALV), jotta voit raportoida summat veroviranomaisille.|[Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)|
+|Valmistele raportti, jossa luetellaan myynneistä saatu arvonlisävero ja lähetä raportti Euroopan Unionin (EU:n) veroviranomaiselle. | [ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)|
 |Muunna palvelusopimusten ALV-prosentti muuntamalla palvelusopimuksia manuaalisesti.|[ALV-summia sisältävien huoltosopimusten muuntaminen](service-how-to-convert-service-contracts.md)|
 | Seuraa yrityksen kassavirtaliikennettä. |[Yrityksen kassavirtojen analysoiminen](finance-analyze-cash-flow.md) |
-|Noudata ja päästä päähän -menettelyä kassavirtaennusteiden tekemisessä KP-raporttimallien avulla.|[Vaihekuvaus: Kassavirtaennusteiden tekeminen käyttäen KP-raporttimalleja](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
-| Käsittele tilinpäätöksiä ja yhteenvetoja Excelissä. |[Rahoituslaskelmien analysointi Excelissä](finance-analyze-excel.md) |
-|Lisätietoja kirjanpitäjän roolikeskuksesta, ulkoisen kirjanpitäjän kutsumisesta ja useiden asiakkaiden tilien hallinnasta yritystoiminnon avulla.|[Kirjanpitäjän käyttökokemukset Business Centralissa](finance-accounting.md)|  
+|Noudata kokonaisvaltaista prosessia, jossa kerrotaan, miten talousraportteja käytetään kassavirtaennusteiden tekemiseen.|[Vaihekuvaus: Kassavirtaennusteiden tekeminen talousraporttien avulla](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
+| Käsittele tilinpäätöksiä ja yhteenvetoja Microsoft Excelissä. |[Rahoituslaskelmien analysointi Excelissä](finance-analyze-excel.md) |
+|Lisätietoja kirjanpitäjän roolikeskuksesta, vuorovaikutuksesta ulkoisen kirjanpitäjän kanssa ja useiden asiakkaiden tilien hallinnasta yritystoiminnon avulla.|[Kirjanpitäjän käyttökokemukset Business Centralissa](finance-accounting.md)|  
 
 ## <a name="take-a-video-tour"></a>Katso videoesittely
 
-Seuraava video esittelee joitakin keskeisiä taloudenhallinnan valmiuksia. <br><br>  
+Tässä videossa kerrotaan joistakin keskeisistä taloudenhallinnan valmiuksista. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
@@ -73,6 +73,5 @@ Seuraava video esittelee joitakin keskeisiä taloudenhallinnan valmiuksia. <br><
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

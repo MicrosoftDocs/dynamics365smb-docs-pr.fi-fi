@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: jswymer
 ms.author: jswymer
 ms.date: 04/01/2021
-ms.openlocfilehash: 28ac84b76f40771cf29c4d504035f01458cb1631
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 85c83a08907f9f5b441b3f09c1a09131684707a8
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517172"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606492"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Business Centralin tarkastussivut
 
@@ -26,11 +26,7 @@ Saat sivun tarkastustoiminnolla tietoja sivusta sekä merkityksellisiä tietoja 
 
 Sivun tarkistus aloitetaan **Ohje ja tuki** -sivulla. Valitse ensin kysymysmerkki oikeassa yläkulmassa, sitten **Ohje ja tuki** ja lopuksi **Tarkasta sivut ja tiedot**. Vaihtoehtoisesti voit käyttää pikanäppäintä **Ctrl+Alt+F1**.
 
-**Sivun tarkastus** -ruutu avautuu sivulle. Seuraavassa kuvassa on **Myyntitilaus**-sivun **Sivun tarkastus** -ruutu.
-
-![Sivun tarkastus.](media/page-inspection-example.png)
-
-Kun **Sivun tarkastus** -ruutu avautuu ensimmäisen kerran, siinä pääsivukohteeseen liittyviä tietoja.
+**Sivun tarkastus** -ruutu avautuu sivulle. Kun ruutu avautuu ensimmäisen kerran, siinä pääsivukohteeseen liittyviä tietoja.
 
 Siirrä kohdistus näppäimillä tai osoitinlaitteella sivun eri elementteihin. Kun valitset pääsivulla tietoruudun tai osan, raja korostaa täsmällisen alueen ja **Sivun tarkastus** -ruudussa on tietoja valitusta elementistä. Esimerkiksi edellisessä kuvassa on tietoja **Myyntitilaus**-sivun luettelo-osasta. Kun siirryt sovelluksessa muille sivulle, **Sivun tarkastus** -ruutu päivittyy automaattisesti sen sivun tiedoilla, johon olet siirtynyt.
 
@@ -47,6 +43,5 @@ Käyttäjät, joilla ei ole myönnetty käyttöoikeuksia **järjestelmäkohteess
 ## <a name="see-also"></a>Katso myös
 
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

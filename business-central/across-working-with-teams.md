@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
-ms.date: 05/19/2021
+ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: d663f3099f90f5eccff3ab5acefc97f8b27629b2
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: 17be576dad0eaf31918951e4e11a73acdd0ae70e
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528447"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617791"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Business Central -tietueiden ja sivulinkkien jakaminen Microsoft Teamsissa
 
@@ -43,7 +43,7 @@ Seuraavissa osissa käsitellään eri tapoja tarkemmin.
 
 ## <a name="include-and-view-a-business-central-card-in-a-teams-conversation"></a>Sisällytä ja näytä Business Central -kortti Teams-keskustelussa
 
-Teamsin Business Central -sovelluksen avulla voit kopioida linkin mistä tahansa Business Central -tietueesta, kuten asiakkaasta tai myyntitilauksesta, ja liittää linkin Teams-keskusteluun. Sovellus muodostaa yhteyden Microsoft Teamsista yritystietoihin [!INCLUDE [prod_short](includes/prod_short.md)]issa\. Linkki laajentuu sen kompaktiksi ja vuorovaikutteiseksi kortiksi, joka näyttää tietoja tietueesta. Keskustelun aikana sinä ja työtoverisi voitte tarkastella lisätietoja tietueesta, muokata tietoja ja toimia – poistumatta Teamsista.
+Teamsin Business Central -sovelluksen avulla voit kopioida linkin mistä tahansa Business Central -tietueesta, kuten asiakkaasta tai myyntitilauksesta, ja liittää linkin Teams-keskusteluun. Sovellus muodostaa yhteyden Microsoft Teamsista yritystietoihin [!INCLUDE [prod_short](includes/prod_short.md)]issa\. Linkki laajentuu sen kompaktiksi ja vuorovaikutteiseksi kortiksi, joka näyttää tietoja tietueesta. Keskustelun aikana sinä ja työtoverisi voitte tarkastella lisätietoja tietueesta, muokata tietoja ja toimia&mdash;poistumatta Teamsista.
 
 [![Teamsin ja Business Centralin integrointi.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
@@ -87,7 +87,7 @@ Teamsin Business Central -sovelluksen avulla voit kopioida linkin mistä tahansa
 
 ### <a name="view-card-details"></a>Näytä kortin tiedot
 
-Kun kortti on lähetetty keskusteluun, kaikki osallistujat, joilla on [asianmukaiset käyttöoikeudet](admin-teams-integration.md#permissions), voivat valita **Tiedot** ja avata ikkunan, jossa näkyy lisätietoja tietueesta – ja mahdollisesti tehdä muutoksia tietueeseen. Ei ole merkitystä, oletko kortin lähettäjä vai vastaanottaja. **Tiedot**-ominaisuudesta on hyötyä erityisesti vastaanottajille, koska se antaa heille nopeasti ytimekkäitä ja kohdennettuja tietoja.
+Kun kortti on lähetetty keskusteluun, kaikki osallistujat, joilla on [asianmukaiset käyttöoikeudet](admin-teams-integration.md#permissions), voivat valita **Tiedot** ja avata ikkunan, jossa näkyy lisätietoja tietueesta&mdash;ja mahdollisesti tehdä muutoksia tietueeseen. Ei ole merkitystä, oletko kortin lähettäjä vai vastaanottaja. **Tiedot**-ominaisuudesta on hyötyä erityisesti vastaanottajille, koska se antaa heille nopeasti ytimekkäitä ja kohdennettuja tietoja.
 
 Tiedot-ikkuna muistuttaa siitä, mitä näet [!INCLUDE [prod_short](includes/prod_short.md)]issa, mutta se on keskittynyt sivuun tai tietueeseen, josta kortti sisältää tietoja. Kun olet lopettanut muutosten tarkastelemisen ja tekemisen, sulje ikkuna palataksesi Teams-keskusteluun.
 
@@ -102,18 +102,24 @@ Lisätietoja korttien ja korttiietojen käyttämisestä on kohdassa [Teams – u
 
 Suoraan useimmista kokoelmasivuista, kuten **Kohteet**-sivusta, ja Tiedot-sivuista, kuten **Kohteet**-kortista, voit lähettää linkin sivulle Teams-keskusteluiden tietyille vastaanottajille. Voit esimerkiksi jakaa linkin tietueiden suodatettuun näkymään. Vastaanottajat voivat sitten napsauttamalla linkkiä avata sivun [!INCLUDE [prod_short](includes/prod_short.md)]issa\.
 
- ![! Kortilla näkyvä Jaa-valikko.](media/teams-share-link.png "Kortilla näkyvä Jaa-valikko.")
+[![Kortilla näkyvä Jaa-valikko.](media/teams-share-link-v2.png "Kortilla näkyvä Jaa-valikko.")](media/teams-share-link-v2.png#lightbox)
 
 ### <a name="prerequisites"></a>Vaatimukset
-Sinulla on Microsoft Teamsin käyttöoikeus.
+
+- Sinulla on Microsoft Teamsin käyttöoikeus.
+- (Valinnainen) Olet asentanut [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen Teamsiin. 
+
+  Kun sovellus on asennettu, linkin mukana lähettämäsi viestit sisältävät myös pienikokoisen kortin sivua varten. Lisätietoja sovelluksen asentamisesta on kohdassa [[!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen Microsoft Teamsille](across-install-app-for-teams.md).
 
 ### <a name="share-a-link"></a>Linkin jakaminen
 
 1. Avaa [!INCLUDE [prod_short](includes/prod_short.md)]issa\, jaettava sivu.
 2. Valitse sivun yläosasta ![!Jaa muihin sovelluksiin -toiminto sivuilla.](media/share-icon.png) -kuvake ja **Jaa Teamsiin**.
 3. Jos sinulta kysytään, kirjaudu Teamsiin käyttäen käyttäjänimeäsi ja salasanaasi.
-4. Kirjoita **Jaa Teamsiin** -sivulla henkilön, ryhmän tai kanavan nimi, jolle haluat lähettää viestin. 
-5. Sanomaruutu sisältää linkin sivulle. Lisää halutessasi lisätietoja ja valitse sitten **Jaa**.
+4. Kirjoita **Jaa Teamsiin** -sivulla henkilön, ryhmän tai kanavan nimi, jolle haluat lähettää viestin.
+5. Sanomaruutu sisältää linkin sivulle. Jos Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovellus on asennettu, linkitetylle tietueelle tai sivulle tuleva kortti tulee näkyviin myös sanomaruutuun.
+
+   Lisää halutessasi lisätietoja ja valitse sitten **Jaa**.
 6. Linkki on nyt jaettu. Jos haluat siirtyä keskusteluun, valitse **Siirry Teamsiin**.
 
 ## <a name="see-also"></a>Katso myös
@@ -127,6 +133,5 @@ Sinulla on Microsoft Teamsin käyttöoikeus.
 [Teamsin integroinnin kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

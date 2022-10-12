@@ -9,16 +9,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
 ms.search.form: 908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390
-ms.date: 06/16/2021
+ms.date: 09/21/2022
 ms.author: edupont
-ms.openlocfilehash: d87f18b6af045e371cefe88ed35f62bc028fab2f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b30c38789dcfe3c6fd639fedc1f8f2a7b0d0d47a
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514983"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605844"
 ---
 # <a name="view-the-availability-of-items"></a>Nimikkeiden saatavuuden tarkasteleminen
+
 Voit saada, liiketoimintaan liittyvän tehtävän kontekstissa, lisätietoja milloin ja mistä nimike on saatavissa, esimerkiksi kun kerrot asiakkaalle toimitusaikataulua.
 
 Voit tarkastella kaikkien nimikkeiden saatavuutta sijainneittain sekä kunkin nimikkeen saatavuutta tapahtuman tai jakson perusteella. Tapahtuma on mikä tahansa suunniteltu nimiketapahtuma, kuten myyntitoimitus tai saapuvan siirron vastaanotto.
@@ -40,6 +41,7 @@ Jos käytät varastointitoimintoa, saatavuus vaihtelee varastohuoneen kiintöide
 >   Seuraavissa ohjeissa kerrotaan, miten saatavuuden lisätietoja tarkastellaan nimikeluettelosta ja -kortilta. Tietoja voi käyttää myös myyntiasiakirjan riveiltä, jotka koskevat ko. nimikettä. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).
 
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Voit tarkastella nimikkeen saatavuutta sen vastaanotto- tai toimituspäivän mukaan.
+
 Voit tarkastella nimikkeen saatavuutta **Saatavuus tapahtumittain** -sivulla näytettävien suunniteltujen nimiketapahtumien perusteella.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
@@ -50,6 +52,7 @@ Voit tarkastella nimikkeen saatavuutta **Saatavuus tapahtumittain** -sivulla nä
 4. Valitse arvo **Oletettu saatavilla oleva saldo** -kentässä tarkastellaksesi nimiketapahtumia tai avataksesi asiakirjoja, jotka muodostavat arvon.
 
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Nimikkeen saatavuuden tarkastelu eri jaksoissa
+
 Nimikkeen saatavuutta määritettynä aikajaksolla voit tarkastella **Nimikk. saatavuus jaksoittain** -sivulla.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
@@ -60,6 +63,7 @@ Nimikkeen saatavuutta määritettynä aikajaksolla voit tarkastella **Nimikk. sa
 4. Valitse arvo **Oletettu saatavilla oleva saldo** -kentässä tarkastellaksesi nimiketapahtumia tai avataksesi asiakirjoja, jotka muodostavat arvon.
 
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Nimikkeen saatavuuden tarkastelu kaikissa sen varastointipaikoissa
+
 Voit tarkastella nimikkeen saatavuutta kaikissa paikoissa, jossa sitä varastoidaan **Nimikkeen saatavuus sijainnin mukaan** -sivulla.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
@@ -71,6 +75,7 @@ Voit tarkastella nimikkeen saatavuutta kaikissa paikoissa, jossa sitä varastoid
 5. Valitse arvo **Oletettu saatavilla oleva saldo** -kentässä tarkastellaksesi nimiketapahtumia tai avataksesi asiakirjoja, jotka muodostavat arvon.
 
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Kaikkien nimikkeiden saatavuuden tarkastelu kaikissa niiden varastointipaikoissa
+
 Voit tarkastella kaikkien nimikkeidesi saatavuutta kaikissa sijainneissa **Nimikkeet sijainneittain** -sivulla.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
@@ -80,6 +85,7 @@ Voit tarkastella kaikkien nimikkeidesi saatavuutta kaikissa sijainneissa **Nimik
 3. Valitse arvo **Varastosaldo** -kentässä tarkastellaksesi nimiketapahtumia tai avataksesi asiakirjoja, jotka muodostavat arvon.
 
 ## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>Nimikkeen saatavuuden tarkastelu sen mukaan, miten sitä käytetään kokoonpanon tai tuotannon tuoterakenteessa
+
 Jos nimike on kokoonpanon tai tuotannon tuoterakenteessa joko päänimikkeenä tai osana, voit tarkastella **Nimikkeen saatavuus tuoterakennetason mukaan** -sivulla, kuinka monta sen yksikköä tarvitaan. Sivulla näkee, kuinka monta päänimikettä voit tehdä alla olevien rivien alinimikkeiden saatavuuteen perustuen. Kaikki nimikkeet, joilla on kokoonpanon tai tuotannon tuoterakenne, näkyvät sivulla tiivistettävänä rivinä. Voit laajentaa tämän rivin pohjana sen alla oleville osille ja alemman tason osakokoonpanoille niiden omien tuoterakenteiden kanssa.
 
 Sivun avulla voit esimerkiksi nähdä, voitko määrittää nimikkeen myyntitilauksen tiettynä päivämääränä tutkimalla sen nykyisen saatavuuden ja määrien kanssa, jotka sen osat voi toimittaa. Sivun avulla voit myös tunnistaa pullonkaulat liittyvissä tuoterakenteissa.
@@ -92,6 +98,7 @@ Seuraavat kentät määrittävät saatavuusluvut sekä päänimikkeiden että al
 |**Kykenee valmistamaan tärkeintä nimikettä**|Näyttää, kuinka monta yksikköä päänimikettä voi tehdä. Kenttä määrittää, kuinka monta yksikköä tuoterakenteen ylärivin nimikettä voidaan koota. Arvo perustuu rivillä olevan nimikkeen saatavuuteen.|
 
 ### <a name="to-view-the-availability-of-an-item-according-to-demand-for-its-parent"></a>Nimikkeen saatavuuden tarkasteleminen pääkohteen kysynnän mukaan
+
 **Nimikkeen saatavuus tuoterakennetason mukaan** -sivulla on sen kortin tai asiakirjarivin nimikkeen tietoja, jonka sivu avattiin. Kohde näkyy aina ylimmällä rivillä. Voit tarkastella muiden nimikkeiden tai kaikkien nimikkeiden tietoja vaihtamalla arvoa **Nimikesuodatus**-kentässä.
 
 > [!NOTE]  
@@ -100,12 +107,29 @@ Seuraavat kentät määrittävät saatavuusluvut sekä päänimikkeiden että al
 **Pullonkaula**-kenttä määrittää, mikä tuoterakenteen nimike estää suuremman valmistusmäärän kuin **Kykenee valmistamaan tärkeintä nimikettä** -kentässä näkyvä määrä. Pullonkaulanimike voi olla esimerkiksi ostettu osa, jonka oletettu vastaanottopäivämäärä on liian myöhään, jotta päänimekettä voitaisiin valmistaa lisää **Tarvitaan päivämäärän mennessä** -kentässä olevaan päivämäärään mennessä.
 
 ## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Nimikkeen saatavuuden näyttäminen mittayksiköinä
+
 **Nimikkeen saatavuusmittayksikkö** -sivu näyttää nimikkeen saatavuuden mittayksiköinä, joina se on varastoitu.
 
 > [!NOTE]  
 > Jotta tiedot pysyisi virheettöminä, sinun täytyy muuntaa nimikkeen mittayksiköt. Jos esimerkiksi ostat nimikkeen yhtenä mittayksikkönä, esimerkiksi laatikoina, ja myyt nimikkeitä muussa mitta yksikössä, esimerkiksi kappaleina, sinun täytyy muuntaa mittayksiköt nimikepäiväkirjan avulla tai purkaa nimikkeet eri yksiköiksi. Negatiivisen muutoksen nimikepäiväkirjan rivin avulla voit vähentää varastoa ostomittayksikössä, esimerkiksi laatikoina, ja positiivisen muutoksen avulla, joka lisää varaston määrää myynnin mittayksikössä, esimerkiksi kappaleina. 
 
+## <a name="to-view-the-availability-of-an-item-by-its-variants"></a>Nimikkeen saatavuuden näyttäminen sen varianttien mukaan
+
+**Nimikkeen saatavuus variantin mukaan** -sivu näyttää todellisen ja ennustetun saatavuuden nimikkeelle, joka on ryhmitelty varianttikoodin mukaan.
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
+2. Avaa sen nimikkeen kortti, jonka saatavuuden haluat näyttää.
+3. Valitse **Nimikkeen saatavuus** -toiminto ja sitten **Variantti**-toiminto.
+
+    **Nimikkeen saatavuus variantin mukaan** -sivu näyttää nimikkeen jokaisen olemassa olevan variantin saatavuuden. Sivu on tyhjä, jos nimikkeellä ei ole variantteja.
+
+4. Valitse **Näyttömuoto**-kentässä sen ajanjakson pituus, jota haluat tarkastella.
+5. Näytä saatavuusluvut kunkin rivin eri määräkentistä.
+
+[!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
+
 ## <a name="assembly-availability-page"></a>Kokoonpanon saatavuus -sivu
+
 **Kokoonpanon saatavuus** -sivulla on kokoonpanonimikkeen tarkat saatavuustiedot. Avautuminen:
 
 - Automaattisesti myyntitilausrivistä kokoonpano tilausta varten - tilanteissa, kun syötät määrän, joka saa aikaan osan saatavuusongelman.
@@ -121,14 +145,16 @@ Seuraavat kentät määrittävät saatavuusluvut sekä päänimikkeiden että al
 Jos vähintään yksi kokoonpanon komponentti ei ole saatavana, vaikutus näkyy kyseisen rivin **Mahdollista koota** -kentässä niin, että sen määrä on pienempi kuin **Tiedot**-pikavälilehden **Jäljellä oleva määrä** -kentän arvo.
 
 ## <a name="see-also"></a>Katso myös
+
 [Varaston hallinta](inventory-manage-inventory.md)  
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
-[Tuoterakenteiden käyttäminen](inventory-how-work-BOMs.md)    
+[Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)  
+[Kokoonpanon tuoterakenteiden käyttäminen](assembly-how-work-assembly-boms.md)  
+[Tuotannon tuoterakenteiden luominen](production-how-to-create-production-boms.md)  
 [Sijaintien määrittäminen](inventory-how-setup-locations.md)  
 [Varastonimikkeiden siirtäminen sijaintien välillä](inventory-how-transfer-between-locations.md)  
-[Tuotteiden myyminen](sales-how-sell-products.md)      
+[Tuotteiden myyminen](sales-how-sell-products.md)  
+[Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
 [Business Centralin käyttäminen](ui-work-product.md)  
-[Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

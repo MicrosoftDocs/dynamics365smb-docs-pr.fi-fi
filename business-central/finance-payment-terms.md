@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2ad055bef260d732c9f7732c094f660704f6acdf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e6b242bc3da6a2845c457cfbfcfaf80e6c71d31d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135982"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605108"
 ---
 # <a name="set-up-payment-terms"></a>Maksuehtojen määrittäminen
 
@@ -35,7 +35,7 @@ Kun olet määrittänyt maksuehdot, voit määrittää ne asiakkaille ja toimitt
 > [!TIP]
 > [!INCLUDE [prod_short](includes/prod_short.md)]in perusversiossa ei tueta maksuehtoja, joissa on osittaisia maksuja. Sen sijaan sinun täytyy käyttää ennakkomaksutoimintoa. Lisätietoja on ohjeaiheessa [Ennakkomaksujen määrittäminen](finance-set-up-prepayments.md).
 >
-> Tietyissä maissa/alueilla *voit* määrittää maksuehdot osittaisilla maksuilla. Jos haluat tietää, tuetaanko kyseistä toimintoa maassasi/alueellasi, tutustu [Docs.microsoft.com](about-localization.md)-sivuston vasemman reunan siirtymisruudun **Paikalliset toiminnot** -osaan.
+> Tietyissä maissa/alueilla *voit* määrittää maksuehdot osittaisilla maksuilla. Jos haluat tietää, tuetaanko kyseistä toimintoa maassasi/alueellasi, tutustu [Microsoft Learn](about-localization.md) -artikkelin **Paikalliset toiminnot** -osaan.
 
 ## <a name="see-also"></a>Katso myös
 

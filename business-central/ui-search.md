@@ -1,6 +1,6 @@
 ---
-title: Toimintojen ja tietojen etsiminen (sisältää videon)
-description: Tässä ohjeaiheessa käsitellään, miten haun avulla voi etsiä toimintoja, sivuja, raportteja, ohjeistusta ja tietoja sekä muita sovelluksia ja konsultointipalveluja.
+title: Sivujen ja tietojen etsiminen (sisältää videon)
+description: Tässä artikkelissa käsitellään, miten haun avulla voi etsiä toimintoja, sivuja, raportteja, ohjeistusta ja tietoja sekä muita sovelluksia ja konsultointipalveluja.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -8,17 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: find
 ms.search.form: TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 05/23/2022
+ms.date: 09/13/2022
 ms.author: bholtorf
-ms.openlocfilehash: 0e1f394be1503c76bbf071ca188612b06231e107
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 5d97a8aa48fe67b3569500582eb00b599a08c620
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532293"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9604802"
 ---
-# <a name="finding-pages-and-information-with-tell-me"></a>Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla  
-Tässä ohjeaiheessa käsitellään, miten Kerro, mitä haluat tehdä -toiminnolla voi siirtyä nopeasti esimerkiksi toimintoihin tai raportteihin, etsiä tietoja tietyn tehtävän suorittamisesta sekä löytää muita [!INCLUDE[prod_short](includes/prod_short.md)]in sovelluksia ja konsultointipalveluja.  
+# <a name="finding-pages-and-information-with-tell-me"></a>Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla
+
+Tässä artikkelissa käsitellään, miten tuotteen sisällä oleva hakukenttä *Kerro, mitä haluat tehdä* voi siirtyä nopeasti esimerkiksi toimintoihin tai raportteihin, etsiä tietoja tietyn tehtävän suorittamisesta sekä löytää muita sovelluksia ja konsultointipalveluja sovelluksessa [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2086048]
@@ -29,49 +30,59 @@ Kun aloitat merkkien kirjoittamisen, [!INCLUDE[prod_short](includes/prod_short.m
 
 Oikealla oleva sarake osoittaa tuloksen yleisen luokan. Se voi ilmaista esimerkiksi avautuuko luettelosivu vai onko kyse hallintatehtävästä.  
 
-**Kerro, mitä haluat tehdä** -ikkunan alareunassa on **tutustumistoiminto**. Se avaa ominaisuuden yleiskuvauksen, jossa näkee kaikki omassa roolissa tai kaikissa rooleissa käytettävissä olevat ominaisuudet. Lisätietoja on kohdassa [Sivujen etsiminen roolinhallinnalla](ui-role-explorer.md).
+**Kerro, mitä haluat tehdä** -sivun alareunassa on **sivujen ja raporttien tutustumistoiminto**. Se avaa ominaisuuden yleiskuvauksen, jossa näkee kaikki omassa roolissa tai kaikissa rooleissa käytettävissä olevat ominaisuudet. Lisätietoja on kohdassa [Sivujen etsiminen roolienhallinnan avulla](ui-role-explorer.md).
 
 > [!NOTE]  
->   Jos haluat käyttää näppäimistöä, voit valita kohteen tuloksista sarkain- ja nuolinäppäimillä. Jos painat Enter-näppäintä tulosta valitsematta, [!INCLUDE[prod_short](includes/prod_short.md)] avaa tuloksen, joka on luettelossa ensimmäisenä.
+> Jos haluat käyttää näppäimistöä, voit valita kohteen tuloksista sarkain- ja nuolinäppäimillä. Jos painat Enter-näppäintä tulosta valitsematta, [!INCLUDE[prod_short](includes/prod_short.md)] avaa tuloksen, joka on luettelossa ensimmäisenä.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-### <a name="finding-an-action-on-the-current-page"></a>Toiminnon etsiminen nykyiseltä sivulta
+## <a name="find-an-action-on-the-current-page"></a>Toiminnon etsiminen nykyiseltä sivulta
+
 **Nykyisellä sivulla** -osassa voit etsiä avoinna olevasta sivusta ja suorittaa siinä toimintoja. Jos esimerkiksi **Myyntitarjous**-sivu on avoinna ja kirjoitat asiakas-sanan, osan sisältämä toiminto avaa myyntitarjouksessa valitun asiakkaan kortin.
 
 > [!NOTE]  
->   Luettelo sisältää vain sivun yläosan siirtymispalkissa käytettävissä olevat toiminnot. Pikavälilehtien toiminnot eivät ole luettelossa.  
+> Luettelo sisältää vain sivun yläosan siirtymispalkissa käytettävissä olevat toiminnot. Pikavälilehtien toiminnot eivät ole luettelossa.  
 
-### <a name="finding-a-page-or-a-task"></a>Sivun tai tehtävän etsiminen
+## <a name="find-a-page-or-a-task"></a>Sivun tai tehtävän etsiminen
+
 **Siirry Sivut ja tehtävät -näkymään** -osan tulosten avulla voi käyttää muita sivuja ja suorittaa tehtäviä tai hakea tietoja. Jos käytät näitä sivuja usein, voit lisätä roolikeskukseen minkä tahansa sivun linkin valitsemalla kirjanmerkkikuvakkeen. Lisätietoja on kohdassa [Sivutoiminnon lisääminen roolikeskukseen](ui-bookmarks.md).
 
 Luettelossa olevat sivut ja tehtävät määräytyvät yritykselle valitun käyttäjäkokemuksen mukaan. **Essential**-kokemuksen valikoima on suppeampi kuin **Premium**-kokemuksen valikoima. Ensimmäisellä kirjautumiskerralla käytössä on **Essential**-kokemus. Lisätietoja on kohdassa [[!INCLUDE[prod_short](includes/prod_short.md)] -kokemuksen mukauttaminen](ui-experiences.md).
 
-### <a name="finding-a-report-or-archived-information"></a>Raportin tai arkistoitujen tietojen etsiminen
+## <a name="find-a-report-or-archived-information"></a>Raportin tai arkistoitujen tietojen etsiminen
+
 **Siirry Raportit ja analyysi -näkymään** -osan avulla voi käyttää raportointityökaluja. Voit esimerkiksi avata **Tase**-raportin luettelosta tai käyttää arkistoituja asiakirjoja ja muita tietoja.  
 
-<!-- removed in v20 because of Help pane
-### Finding Information in the Help
-Under **Documentation** you will see articles from the [!INCLUDE[prod_short](includes/prod_short.md)] documentation that describe concepts and provide step-by-step guidance for completing tasks in the application.    
+## <a name="find-information-in-the-help"></a>Tietojen etsiminen ohjeesta
+
+**Ohjeet**-kohdassa on linkki haun toistamiseksi Microsoftin ohjeissa. Jos valitset linkin, näyttöön avautuu Ohje-ruutu, jossa näkyvät hakutulokset.  
 
 > [!NOTE]  
-> Documentation for third-party extensions is not included in the results.
--->
+> Kolmannen osapuolen laajennusten dokumentaatio ei ole mukana tuloksissa.
 
-### <a name="getting-more-functionality-by-finding-an-app-on-microsoft-appsource"></a>Lisätoimintojen hakeminen etsimällä sovellus Microsoft AppSourcessa
+## <a name="get-more-functionality-from-apps"></a>Sovellusten toimintojen tehostaminen
+
 Kumppaniyhteisö kehittää jatkuvasti sovelluksia, jotka lisäävät ominaisuuksia [!INCLUDE[prod_short](includes/prod_short.md)]iin. **Hanki Microsoft AppSourcesta** -osassa on luettelo [!INCLUDE[prod_short](includes/prod_short.md)]in sovelluksista, jotka ovat saatavana Microsoft AppSourcessa ja jotka liittyvät hakemaasi avainsanaan.
 
-## <a name="searching-for-data"></a>Etsitään tietoja
-**Kerro, mitä haluat tehdä** -toiminto ei etsi tietoja, kuten asiakkaiden nimiä, osoitteita tai tapahtumia. Voit sen sijaan hakea tietoja luettelosivuilta valitsemalla luettelon otsikon vasemmassa kulmassa olevan ![Hakuluettelo](media/ui-search/search-list.png "Hakuluettelon kuvake") **Haku**-kuvakkeen. Haku tehdään vain avatussa luettelossa. Lisätietoja on kohdassa [Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md).
+## <a name="search-for-data"></a>Tietojen haku
+
+**Kerro, mitä haluat tehdä** -toiminto ei etsi tietoja, kuten asiakkaiden nimiä, osoitteita tai tapahtumia. Voit sen sijaan hakea tietoja luettelosivuilta valitsemalla luettelon otsikon vasemmassa kulmassa olevan ![Hakuluettelo](media/ui-search/search-list.png "Hakuluettelon kuvake") **Haku**-kuvakkeen. Haku tehdään vain avatussa luettelossa. Lisätietoja on kohdassa [Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md).  
+
+> [!TIP]
+> Vuoden 2022 2. julkaisuaallosta lähtien on ollut mahdollista hakea kirjattuja asiakirjarivejä, kuten lasku-, hyvityslasku-, lähetys- ja kuittirivejä. Hae asiakirjarivien tyyppiä, jonka haluat etsiä, ja merkitse asiakirjojen linkit aloitussivulle kirjanmerkeiksi. Näin alkuperäisen ja suodatetun näkymän käyttäminen myöhemmin on helppoa. Lisätietoja on kohdassa [Sivutoiminnon lisääminen roolikeskukseen](ui-bookmarks.md).
 
 ## <a name="questions"></a>Kysyttävää?
+
 Eri sidosryhmät ovat tutustuneet Kerro, mitä haluat tehdä -toimintoon ja esittäneet toimintoa koskevia kysymyksiä. Nämä kysymykset löytyvät usein kysyttyjen kysymysten luettelosta. Lisätietoja on kohdassa [Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset](ui-search-faq.md).
 
 ## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
+
 [Business Centralin käyttäminen](ui-work-product.md)  
-[Sivutoiminnon lisääminen roolikeskukseen](ui-bookmarks.md)
+[Sivutoiminnon lisääminen roolikeskukseen](ui-bookmarks.md)  
+[Luettelonäkymien tallentaminen ja mukauttaminen](ui-views.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

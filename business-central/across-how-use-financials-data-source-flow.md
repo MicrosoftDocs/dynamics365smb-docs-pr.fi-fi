@@ -10,12 +10,12 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Power Automate,
 ms.search.form: 1500,
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 369ee2b4aded272a8a3a21fe810b4b6c62dd1de0
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.openlocfilehash: 5fe089c0330a8d2b7a71f4907212665722d27d38
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585427"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606519"
 ---
 # <a name="use-power-automate-flows-in-prod_short"></a>Power Automate -työnkulkujen käyttäminen [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksissa
 
@@ -43,9 +43,7 @@ Power Automaten kanssa, voit luoda liiketoimintatyönkulkuja suoraan talon sisä
 
 ## <a name="instant-flows"></a>Pikatyönkulut
 
-Vuoden 2022 1. julkaisuaallosta (toukokuu 2022) alkaen [!INCLUDE [prod_short](includes/prod_short.md)] online-järjestelmänvalvojat voivat [ottaa käyttöön ominaisuuden](admin-feature-management.md), jotta voidaan suorittaa Power Automate -työnkulkuja useimmista luetteloista, korteista ja asiakirjojen sivuilta. Lisätietoja on hallintasisällön [Automaattisten työnkulkujen määrittäminen](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) -artikkelissa.
-
-Kun järjestelmänvalvoja on muodostanut yhteyden [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman ja Power Automaten välille, näet kaikki työnkulut, jotka organisaatiosi on lisännyt, kun valitset **automatisoi**-toiminnon asiaankuuluvilla sivuilla. Pikatyönkulut suoritetaan poistumatta [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmasta.
+[!INCLUDE [prod_short](includes/prod_short.md)] voi suorittaa Power Automate -työnkulun useimmilta luettelo-, kortti- ja asiakirjasivuilta. Kun järjestelmänvalvoja on muodostanut yhteyden [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman ja Power Automaten välille, näet kaikki työnkulut, jotka organisaatiosi on lisännyt, kun valitset **automatisoi**-toiminnon asiaankuuluvilla sivuilla. Pikatyönkulut suoritetaan poistumatta [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmasta. Lisätietoja on hallintasisällön [Automaattisten työnkulkujen määrittäminen](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) -artikkelissa.
 
 Nämä pikatyönkulut avautuvat [!INCLUDE [prod_short](includes/prod_short.md)] online-sivilla niin, että ne säilyvät sen liiketoimintaprosessin kontekstissa, jonka keskellä olet. Valitse **automaattinen**-toiminto –joillakin sivuilla piilotettuna **Lisää asetuksia** -valikossa – valitse **Power Automate** -valikkovaihtoehto ja valitse sitten asianmukainen linkki, joka käynnistää työnkulun. Power Automate -yhteys on muodostettu valmiiksi.
 
@@ -62,7 +60,7 @@ Voit etsiä malleja, jotka mukautuvat yritykseesi ja kaikkiin käytettävissä o
 
 ## <a name="manage-automated-workflows"></a>Automaattisten työnkulkujen hallinta
 
-Voit luoda uusia työnkulkuja tai hallita aiemmin luotuja Power Automate -työnkulkuja [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksessa **Hallitse Power Automate -työnkulkuja** -sivulla. Lisätietoja on hallintasisällön [Power Automate -työnkulkujen hallinta](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows.md) -artikkelissa.
+Voit luoda uusia työnkulkuja tai hallita aiemmin luotuja Power Automate -työnkulkuja [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksessa **Hallitse Power Automate -työnkulkuja** -sivulla. Lisätietoja on hallintasisällön [Power Automate -työnkulkujen hallinta](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows) -artikkelissa.
 
 Voit myös hallita saatavilla olevia Power Automate -työnkulkuja **Työnkulut**-sivulla [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa. Sivulla on sekä sisäänrakennettu hyväksyntä että Power Automate -työnkulkuja, joiden vaihtoehdot mahdollistavat sen, että voit ottaa käyttöön/poistaa käytöstä, poistaa ja tarkastella työnkulkua Power Automate -sivustossa.
 

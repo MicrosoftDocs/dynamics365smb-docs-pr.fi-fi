@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 05/23/2022
+ms.date: 08/16/2022
 ms.author: jswymer
-ms.openlocfilehash: 3fe47ef19e9a8dbc66c13461aa1255bc21490421
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 38dec472417e49fe974ed72f6eac2fdf4dffde3c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531132"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606665"
 ---
 # <a name="keyboard-shortcuts"></a>Pikanäppäimet
 
@@ -56,15 +56,16 @@ Seuraavassa taulukossa on kuvattu sivun eri elementtien selaamiseen ja käyttäm
 |Alt+Vaihto+N |Sulje juuri luotu sivu ja luo uusi tietue avaamalla uusi sivu. Vastaavasti ALT+F9 kirjaa asiakirjan ja luo uuden.|
 |Alt+T|Avaa **Omat asetukset** -sivu.|
 |Alt+Oikea nuoli|Etsi sen kentän lisätietoja tai taustalla olevia arvoja, joka sisältää ![MuokkausApu](media/assist-edit-icon.png "MuokkausApu-painike") -painikkeen. Käytetään silloin, kun tavallista avattavan luettelon painiketta (Alt+alanuoli) käytetään samassa kentässä toiseen tarkoitukseen.|
-|Ctrl+Alt+Vaihto+C|Näytä yrityksen tunnuksessa olevat tiedot.|
+|Ctrl+Alt+Vaihto+C|Näytä yrityksen tunnuksessa olevat tiedot. Tämä pikanäppäimen käyttö lopetettiin Business Centralin vuoden 2022 2. julkaisuaallossa (versio 21) ja korvattiin näppäinyhdistelmällä Ctrl+O. |
 |Ctrl+Alt+F1|Avaa ja sulje sivun tarkastusruutu Sivun tarkastusruudussa on tietoja sivusta, kuten sen lähdetaulukko, kentät, suodattimet ja laajennukset.<br /><br />Lisätietoja on kohdassa [Tarkastussivut](across-inspect-page.md).|
 |Ctrl+C |Kopioi kentän arvo. Jos kohdistus on kentässä etkä ole valinnut kentässä tekstiä, koko arvo kopioidaan. Jos olet valinnut kentässä tekstiä, vain valittu teksti valitaan.|
-|Ctrl+F1|Avaa [ohjeruutu](product-help-and-support.md#help-pane) Business Central -ohjeartikkeli [Microsoft Docsissa](/dynamics365/business-central/) riippuen Business Centralin versiostasi.|
+|Ctrl+F1|Avaa [ohjeruutu](product-help-and-support.md#help-pane) tai Business Central -ohjeartikkeli [Microsoft Learnissa](/dynamics365/business-central/) Business Centralin versiosta riippuen.|
 |Ctrl+F12|Vaihtele leveää ja kapeaa asettelua.|
 |Ctrl+napsautus|Siirry mukautusten aikana, kun nuolenpää osoittaa toiminnon valinnan. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).|  
 |Ctrl+F5|[!INCLUDE[prod_short](includes/prod_short.md)] -sovellus ladataan uudelleen. (Vastaa selaimen päivittämistä tai sivun uudelleen avaamista selaimessa.)|
 |F5|Tietojen päivitys nykyisellä sivulla.<br /><br />Voit varmistaa tällä näppäimellä, että sivulla näkyvät tiedot sisältävät kaikki muiden oman työskentelysi aikana tekemät muutokset.|
-|Syötä|Ota kohdistettu elementti tai ohjausobjekti käyttöön tai käytä sitä.|
+|Ctrl+O|Avaa **Käytettävissä olevat yritykset** -ruutu vaihtamalla toiseen yritykseen tai ympäristöön. Lisätietoja on kohdassa [Siirtyminen toiseen yritykseen tai ympäristöön](ui-organization-switch.md).|
+|Enter|Ota kohdistettu elementti tai ohjausobjekti käyttöön tai käytä sitä.|
 |Esc|Sulje nykyinen sivu tai avattava luettelo.|
 |Sarkain|Siirrä kohdistus sivun seuraavaan ohjausobjektiin tai elementtiin, kuten toimintoon, painikkeeseen, kenttään tai luettelon otsikkoon.|
 |Vaihto+Sarkain|Siirrä kohdistus sivun edelliseen ohjausobjektiin tai elementtiin, kuten toimintoon, painikkeeseen, kenttään tai luettelon otsikkoon.|

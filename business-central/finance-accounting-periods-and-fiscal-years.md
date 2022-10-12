@@ -7,24 +7,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 100
-ms.date: 04/01/2021
+ms.date: 08/25/2022
 ms.author: bholtorf
-ms.openlocfilehash: 44c9cdadc47a40f8915f3134018c062d90fe06c5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 93dcf334d65bda2859f8fcd91c976c3d85e6b18f
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511673"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605648"
 ---
 # <a name="work-with-accounting-periods-and-fiscal-years"></a>Kirjanpitojaksojen ja tilikausien käyttäminen
 
 Tilijaksot, joita kutsutaan myös raportointikausiksi, ovat ajanjaksoja, jolloin yritys tai organisaatio raportoi taloudellisen tuloksen luomalla esimerkiksi tuloslaskeman tai taseen. Yleensä kirjanpitojaksoilla viitataan yrityksen tilikauteen, joka voi koostua useista tilijaksoista, kuten kuukausista tai neljännesvuosista.
 
-Tilikausi ja kalenterivuosi eivät ole samat monissa yrityksissä. Tilikausi voi esimerkiksi päättyä 30.6. eikä 31.12. Uusilla yrityksillä tilikausi voi myös olla pidempi kuin 12 kuukautta.  
+Monille yrityksille tilikausi ei ole sama kuin kalenterivuosi, esimerkiksi kun tilikausi päättyy 30. kesäkuuta eikä 31.12. Uusilla yrityksillä tilikausi voi myös olla jopa pidempi kuin 12 kuukautta.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] edellyttää kirjanpitojaksoja vain siinä tapauksessa, että haluat sulkea tuloslaskelman tai suorittaa tietojen tiivistystehtäviä. 
+[!INCLUDE[prod_short](includes/prod_short.md)] edellyttää kirjanpitojaksoja siinä tapauksessa, että haluat sulkea tuloslaskelman tai suorittaa tietojen tiivistystehtäviä.
 
-Voit käyttää kirjanpitojaksoja raportoinnissa. Näin tehdään esimerkiksi silloin, kun kirjattuja tapahtumia tarkastellaan **Saldo/budjetti**-sivulla, jossa raportointiväli voidaan määrittää. Yksi vaihtoehdoista on raportoinnin määrittäminen kirjanpitojakson mukaan. Voit myös muodostaa KP-raporttimallin, joka vertaa eri kirjanpitojaksojen tuloksia.
+Voit käyttää tilikausia raportoinnissa, esimerkiksi tarkastellessasi merkintöjä **Saldo/budjetti**-sivulla, jossa raportointiväli määritetään. Yksi vaihtoehdoista on raportoinnin määrittäminen kirjanpitojakson mukaan. Voit myös muodostaa taloudellisen raportin, joka vertaa eri kirjanpitojaksojen tuloksia.
 
 ## <a name="creating-a-new-fiscal-year"></a>Uuden tilikauden luominen
 
@@ -34,18 +34,18 @@ Voit luoda kirjanpitojaksoja joukkotoiminnolla käyttämällä **Luo tilikausi**
 
 Jaa tilikausi saman mittaisiksi jaksoiksi **Luo tilikausi** -eräajon avulla.  
 
-1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Kirjanpitojaksot** ja valitse sitten vastaava linkki.  
-2. Valitse **Luo vuosi** -toiminto.  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
+1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Kirjanpitojaksot**, valitse sitten vastaava linkki.  
+2. Valitse **Luo vuosi** -toiminto.
 3. Anna **Aloituspvm**-kenttään päivämäärä, jolloin tilikausi alkaa.  
 4. Määrittele **Jaksojen lukumäärä** -kentässä, kuinka moneen kirjanpitojaksoon tilikausi jaetaan. Vuodessa voi olla enintään 365 jaksoa.  
-5. Määritä **Jakson pituus** -kentässä kunkin jakson kesto. Esimerkiksi yksi kuukausi on 1K, yksi neljännesvuosi on 1Q ja yksi vuosi 1V.  
+5. Määritä **Jakson pituus** -kentässä kunkin jakson kesto. Keston tunnuksiin kuuluvat: yksi kuukausi on 1K, yksi neljännesvuosi on 1Q ja yksi vuosi 1V.  
 6. Valitse **OK**.  
 
 ### <a name="how-to-create-accounting-periods-manually"></a>Kirjanpitojaksojen luominen manuaalisesti
 
 Jos tilikauden kirjanpitojaksojen pituudet vaihtelevat, kuten vähittäismyynnissä käytetty 4-4-5-kalenteri, määritys voidaan tehdä manuaalisesti.  
   
-1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Kirjanpitojaksot** ja valitse sitten vastaava linkki.  
+1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Kirjanpitojaksot**, valitse sitten vastaava linkki.  
 2. Anna **Aloituspvm**-kenttään päivämäärä, jolloin tilikausi alkaa. **Nimi**-kentässä on kuukauden nimi.  
 3. Ilmaise **Uusi tilikausi** -valintaruudun valinnalla, että kyse on vuoden ensimmäisestä jaksosta. [!INCLUDE[prod_short](includes/prod_short.md)] määrittää tämän jakson perusteella, mitkä jaksot sulkevat tilikauden.
 4. Toista vaiheet 2 ja 3 kunkin jäljellä olevan jakson kohdalla.  
@@ -68,7 +68,6 @@ Vaikka tilikausi on suljettu, voit silti kirjata tilikaudelle KP-tapahtumia. Kun
 
 [Kirjojen sulkeminen](year-close-books.md)  
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
-[KP-raporttimallien käyttäminen](bi-how-work-account-schedule.md)  
-
+[Ohjeita talousraporttien käsittelemiseen](bi-how-work-account-schedule.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

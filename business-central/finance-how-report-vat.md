@@ -10,12 +10,12 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2d09a05f29f4eaa5f977580509f425073d189262
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: bf0ea7f023eed4dced53477d72ff844d4da04e37
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532725"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617846"
 ---
 # <a name="report-vat-to-tax-authorities"></a>ALV:n raportointi veroviranomaisille
 
@@ -30,7 +30,7 @@ Käytössä ovat seuraavat sisäiset raportit:
 
     ALV-palautusraportti sisältää kaikissa sellaisissa maissa toimiville asiakkaille suuntautuneen myynnin ja toimittajilta tehtyjen ostojen ALV:n, joissa käytetään arvonlisäveroa.  
 
-Molemmissa tapauksissa ALV lasketaan määritettyjen ALV-kirjausasetusten ja ALV-kirjausryhmien perusteella.
+Molemmissa tapauksissa ALV lasketaan määritettyjen ALV-kirjausasetusten ja ALV-kirjausryhmien perusteella. [!INCLUDE[prod_short](includes/prod_short.md)] näyttää ALV-tapahtumat niiden **ALV-päivämäärän** perusteella.
 
 Jos haluat tarkastella täydellistä ALV-tapahtumahistoriaa, jokainen ALV:n sisältävä kirjaus luo tapahtuman **ALV-tapahtumat**-sivulla. Näitä tapahtumia käytetään laskettaessa ALV-laskelmasi summaa (maksu tai palautus) tietyltä kaudelta. ALV-tapahtumat nähdäksesi valitse ![Lamppu, joka avaa toisena Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-tapahtumat** ja valitse sitten vastaava linkki.
 

@@ -10,12 +10,12 @@ ms.search.keywords: category, search, attribute, facet
 ms.search.form: 5730, 5733, 5401
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 72a88c90de9407bfe71486022085623b8e426087
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 93c504b139003c4d2385e4c906390302784ed1c5
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530214"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607227"
 ---
 # <a name="categorize-items"></a>Nimikkeiden luokitteleminen
 
@@ -55,6 +55,7 @@ Jos muutat mieltäsi nimikeluokasta, voit poistaa sen. Jos se kuitenkin on jo m�
 ## <a name="see-also"></a>Katso myös
 
 [Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md)  
+[Tuotevarianttien hallinta](inventory-item-variants.md)  
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

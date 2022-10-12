@@ -8,35 +8,35 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/14/2021
+ms.date: 08/25/2022
 ms.author: soalex
-ms.openlocfilehash: 7d264ae88d1f9743d7e30994ee0e39f19a5febbd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2903012022be0b43597da7c32e9a3cad5644c6ff
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139857"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605189"
 ---
 # <a name="application-compliance"></a>Sovelluksen yhteensopivuus
 
-Tässä sisällössä on tietoja sovelluksen [!INCLUDE[prod_short](../includes/prod_short.md)]ia koskevasta yhteensopivuudesta, kuten kansainvälisistä tilinpäätösstandardeista, paikallisista toiminnoista ja GDPR-asetuksesta. Luotettava liiketoiminnan hallintaratkaisu on tärkeää liiketoiminnan tehokkuuden kannalta. Business Centralin avulla yritykset pystyvät yksinkertaistamaan liiketoimintaprosessejaan samalla, kun ne pystyvät yhdenmukaisesti ja kustannustehokkaasti toimimaan koko ajan lisääntyvän säätelyn ja raportointivaatimusten mukaisesti.
+Tässä sisällössä on tietoja sovelluksen [!INCLUDE[prod_short](../includes/prod_short.md)]ia koskevasta yhteensopivuudesta, kuten kansainvälisistä tilinpäätösstandardeista, paikallisista toiminnoista ja yleinen tietosuoja (GDPR) -asetuksesta. Luotettava liiketoiminnan hallintaratkaisu on tärkeää liiketoiminnan tehokkuuden kannalta. Business Centralin avulla yritykset pystyvät yksinkertaistamaan liiketoimintaprosessejaan samalla, kun ne pystyvät yhdenmukaisesti ja kustannustehokkaasti toimimaan koko ajan lisääntyvän säätelyn ja raportointivaatimusten mukaisesti.
 
 ## <a name="data-privacy"></a>Tietosuoja
 
-Business Central tukee tietosuojahankkeita, kuten yleistä tietosuoja-asetusta (GDPR-asetusta), joka astui voimaan 25.5.2018. Lisätietoja tavasta, jolla [Business Central tukee GDPR-asetusta](../admin-responding-to-requests-about-personal-data.md).  
+Business Central tukee tietosuojahankkeita, kuten yleistä tietosuoja-asetusta, joka astui voimaan 25.5.2018. Lue lisää tavasta, jolla [Business Central tukee GDPR-asetusta](../admin-responding-to-requests-about-personal-data.md).  
 
-Jos kehität Business Central -laajennuksia, sinun on oltava tietoinen tietojen luokittelusta. Lisätietoja on [tällä sivulla](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
+Jos kehität Business Central -laajennuksia, sinun on oltava tietoinen tietojen luokittelusta. Lue lisätietoja [tältä sivulta](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
 Jos haluat lisätietoja GDPR-asetuksen ottamisesta huomioon laajemmin Dynamics 365:ssä, tutustu [tässä luettelossa oleviin raportteihin](/dynamics365/get-started/gdpr/).
 
 ## <a name="accounting-processes-and-controls-to-aid-compliance"></a>Vaatimustenmukaisuutta edistävät kirjanpidon prosessit ja ohjaukset
 
 Yritysten kohtaamat kirjapidon haasteet lisääntyvät vuosittain. Toimialan, markkinoiden, maantieteellisen sijainnin ja taloudellisten vaatimusten mukaan yritysten on ehkä noudatettava paikallisia GAAP (yleisesti hyväksytyt kirjanpitoperiaatteet) -vaatimuksia ja vähintään yhtä seuraavista:
 
-- Yhdysvaltalainen vuonna 2002 säädetty SOX (Sarbanes-Oxley) -laki suojelee sijoittajia parantamalla yritysten antamien tietojen tarkkuutta ja luotettavuutta.
+- Yhdysvaltalainen vuonna 2002 säädetty SOX (Sarbanes-Oxley) -laki auttaa suojelemaan sijoittajia parantamalla yritysten antamien tietojen tarkkuutta ja luotettavuutta.
 - Euroopan unionin IAS/IFRS (International Accounting Standard) -standardien kansainvälisten tilinpäätösstandardien osa astui voimaan 2005. Se määrittää kansainväliset tunnistus-, mittaus-, konsolidointi- ja raportointistandardit.
-- Uusi Baselin sopimus (Basel II) vuodelta 2006, joka käsittelee rahoituslaitoksen riskiä ja edistää koko rahoitusjärjestelmän vakautta.
+- Basel II: Uusi Baselin vakavaraisuussopimus (Basel II) vuodelta 2004, joka käsittelee rahoituslaitoksen riskiä ja edistää koko rahoitusjärjestelmän vakautta.
 
-## <a name="good-practices-with-technology"></a>Tekniikkaan liittyvät hyvät toimintatavat
+## <a name="enhance-people-practices-with-technology"></a>Paranna ihmisten käytäntöjä teknologian avulla
 
 Yhdenmukaisuus ei perustu ainoastaan tarkkoihin tietoihin ja soveltuviin kirjanpitoprosesseihin vaan myös kyseisiä prosesseja määrittäviin ja hallitseviin henkilöihin. Tehokas liiketoiminnan hallintaratkaisu voi auttaa hallitsemaan ajantasaista ja helposti käytettävissä olevia tietoja, sillä käytössä on läpinäkyvät prosessit, jotka on määritetty toimialan ja lainsäädännön säädösten mukaisesti.
 
@@ -44,20 +44,22 @@ Yhdenmukaisuus ei perustu ainoastaan tarkkoihin tietoihin ja soveltuviin kirjanp
 
 Business Centralin avulla saat käyttöösi reaaliaikaisia integroituja operatiivisia ja taloushallinnon tietoja koko organisaatiosta. Niiden avulla voit
 
-- Seurata taloushallinnon tietoja esimerkiksi kassavirran, tulojen, taseiden, pääomarakenteen ja tunnuslukujen mukautettujen KP-raporttimallien avulla.
+- Seuraa taloushallinnon tietoja käyttämällä mukautettuja talousraportteja kassavirrasta, tuotoista, taseista, käyttöomaisuudesta, pääomarakenteesta, keskeisistä suoritusindikaattoreista ja muista.
 - varmistaa tarkkuus roolipohjaisella suojauksella ja määritettävillä sovelluksen ohjausobjekteilla, jotka estävät virheellisen tietojen syötön tai kaksoiskappaleiden syöttämisen
-- Muodostaa taloushallinnon raportteja nopeasti ja kätevästi sovellettavien säätelystandardien mukaisesti.
+- muodostaa taloushallinnon raportteja nopeasti ja kätevästi sovellettavien säätelystandardien mukaisesti
 - kattavien kirjausketjujen ylläpitäminen erilaisten porautumistoimintojen ja muutoslokien avulla.
 
 ## <a name="gain-control-of-critical-information-processes-and-reports"></a>Tärkeiden tietojen, prosessien ja raporttien hallinta
 
+Business Central tehostaa liiketoiminnan onnistuneen toiminnan kannalta tärkeiden toimintojen ja tietojen hallintaa.
+
 ### <a name="manage-compliance-to-the-standards-that-matter"></a>Tärkeiden standardien noudattamisen hallinta
 
-Voit antaa työntekijöillesi integroidut tiedot, kohdistetut prosessit ja helppokäyttöiset työkalut, joiden ansiosta he voivat noudattaa liiketoiminnan kannalta oleellisten taloushallintostandardien vaatimuksia.
+Integroidut tiedot, yhdenmukaiset prosessit ja helppokäyttöiset työkalut auttavat ihmisiä täyttämään taloushallinnon odotukset ja standardit, jotka ovat tärkeitä yrityksellesi.
 
-### <a name="tailor-account-schedules-to-your-needs"></a>KP-raporttimallien mukauttaminen tarpeita vastaaviksi
+### <a name="tailor-financial-reports-to-your-needs"></a>Taloushallinnon raporttien mukauttaminen tarpeita vastaaviksi
 
-- Määritä yrityksen tilikarttarakenne liiketoiminnan vaatimusten ja sovellettavien säätelystandardien perusteella
+- Määritä yrityksen tilikarttarakenne liiketoiminnan vaatimusten ja sovellettavien säätelystandardien perusteella.
 - Luo tilejä ja käsittele monimutkaisia prosesseja, jotka liittyvät monenlaisiin liiketoiminnan tapahtumiin, kuten varastonarvostuksen, ulkomaanvaluuttoihin, segmenttiraportointiin ja poikkeuksiin paikallisista GAAP-periaatteista.
 - Hallitse kunkin kirjatun tapahtuman tietojen yksityiskohtaisuutta ja valitse tiettyjen tapahtumatyyppien yksityiskohtainen rekisteröinti. Tällaisia tapahtumia ovat esimerkiksi käyttöomaisuus ja ostoreskontra.
 - Mukauta taloushallinnon raportoinnin aikataululaskelmia ja näyttämistä tai vie tiedot Microsoft Exceliin analysointia varten.
@@ -75,18 +77,18 @@ Voit antaa työntekijöillesi integroidut tiedot, kohdistetut prosessit ja helpp
 
 - Säästä aikaa yleisiä liiketoimintaparametreja ja -ehtoja käyttävien standardiraporttien luonnissa. Tällaiset raportit koskevat tyypillisesti monenlaisia tarpeita tilausten yhteenvedoista erääntyvään myyntireskontraan.
 - Suorita monimutkaisia arviointeja perustason ja edistyneillä liiketoiminta-analyysitoiminnoilla.
-- Luo mukautettuja raportteja ja näytä ne tuotteessa käyttämällä Microsoft PowerBI -integrointia.
+- Luo mukautettuja raportteja sekä sisäänrakennettuja työkaluja että integrointi Microsoft Power BI -ohjelman kanssa.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Selkeiden kirjausketjujen varmistaminen
 
 - Voit seurata asiakirjoja ja tietoja järjestelmässä eteen- ja taaksepäin alkuperäisestä lähteestä tilinpäätökseen ja takaisin.
 - Määritä, miten tiedot syötettiin ja miten niitä muokattiin, kuka käsitteli tietoja sekä mitä kirjanpitotietoja on kirjattu.
 - Etsi tietokannan muutoksia, kuten edellisiä tai tarkistettuja tietoja, ratkaisun [muutoslokissa](../across-log-changes.md).
-- Paranna kirjausketjun läpinäkyvyyttä ja käytettävyyttä sekä nopeutta, jolla ulkopuoliset tilitarkastajat voivat käyttää tietoja porautumalla, valinnoilla, suodattamalla, rekisteröimällä ja siirtymällä.
+- Paranna kirjausketjun läpinäkyvyyttä ja käytettävyyttä sekä nopeutta, jolla ulkopuoliset tilitarkastajat voivat käyttää tietoja porautumalla, valinnoilla, suodattamalla, rekisteröimällä ja siirtymisominaisuuksilla.
 
 ## <a name="compliance-and-local-functionality"></a>Vaatimustenmukaisuus ja paikalliset toiminnot
 
-Microsoft muodostaa Business Centralin lokalisoituja versioita rajoitetulle määrälle markkinoita. Nämä lokalisoinnit keskittyvät pääasiassa vero- ja taloushallintoalueen säädöstoimintoja, mutta joskus ne voivat koskea sovelluksen muita osia. Jos haluat nähdä, mitä lokalisoidut Business Centralin Microsoftin lokalisoimat versiot sisältävät, valitse tämän verkkosivun valikosta ensin **Paikalliset toiminnot** ja sitten maa, niin saat tietää paikallisista toiminnoista. Lisätietoja on kohdassa [Paikalliset toiminnot](../about-localization.md).  
+Microsoft muodostaa Business Centralin lokalisoituja versioita rajoitetulle määrälle markkinoita. Nämä lokalisoinnit keskittyvät pääasiassa vero- ja taloushallintoalueiden säädöstoimintoja, mutta joskus ne voivat koskea ratkaisun muita osia. Jos haluat nähdä, mitä lokalisoidut Business Centralin Microsoftin lokalisoimat versiot sisältävät, valitse tämän verkkosivun valikosta ensin **Paikalliset toiminnot** ja sitten maa. Lisätietoja on kohdassa [paikalliset toiminnot](../about-localization.md).  
 
 > [!NOTE]  
 > **Sarbanes-Oxley: tietojen ja prosessien tarkistaminen**  
@@ -106,8 +108,6 @@ Microsoft muodostaa Business Centralin lokalisoituja versioita rajoitetulle mä�
 [Palvelun yhteensopivuus](compliance-service-compliance.md)  
 [Sertifikaatit](compliance-certifications.md)  
 
- ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
- 
-
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

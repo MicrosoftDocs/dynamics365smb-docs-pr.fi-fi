@@ -1,42 +1,42 @@
 ---
 title: Business Centralin määritystehtävien yleiskatsaus
-description: Lue yleiskatsaus tehtävistä, joilla Business Central asennetaan, alustetaan ja määritetään omia tarpeita vastaavaksi.
+description: Lue yleiskatsaus tehtävistä, jotka vaaditaan, kun Business Central asennetaan, alustetaan ja määritetään omia tarpeita vastaavaksi.
 author: edupont04
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 06/23/2021
+ms.date: 09/27/2022
 ms.author: edupont
-ms.openlocfilehash: 10b9483d46caa9fff156a80f5301521ae9c36d63
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 65fd173213af21631b27019a79fc8030d6839daf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510763"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9604831"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in määritystehtävien yleiskatsaus
 
-[!INCLUDE[prod_short](includes/prod_short.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset organisaatiosi tarpeita vastaaviksi. [Business Centralin pika-aloituksen](quick-start-business-central.md) artikkelien avulla voit ottaa ensimmäiset askelet [!INCLUDE [prod_short](includes/prod_short.md)]in käyttöönotossa. Tässä artikkelissa on yleiskuvaus siitä, miten voit määrittää [!INCLUDE [prod_short](includes/prod_short.md)]in organisaatiollesi.  
+[!INCLUDE[prod_short](includes/prod_short.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset organisaatiosi tarpeita vastaaviksi. [Business Centralin pika-aloituksen](quick-start-business-central.md) artikkelien avulla voit ottaa ensimmäiset askelet [!INCLUDE [prod_short](includes/prod_short.md)]in käyttöönotossa. Tässä artikkelissa on yleiskuvaus siitä, miten voit määrittää [!INCLUDE [prod_short](includes/prod_short.md)]in organisaatiollesi.
 
-Esimerkiksi tilikarttaan on kerätty käyttövalmiita kirjaustilejä. Voit tietysti muuttaa tilikarttaa liiketoimintasi vaatimalla tavalla. Lisätietoja on kohdassa [Rahoitus](finance.md).
+Esimerkiksi tilikarttaan on kerätty käyttövalmiita kirjaustilejä. Voit tietysti muuttaa tilikarttaa liiketoimintasi vaatimalla tavalla. Lisätietoja kohdassa [Taloushallinto](finance.md).
 
-Valikosta ![Hammaspyörä-kuvake, joka avaa Asetukset-valikon.](media/ui-experience/settings_icon_small.png) saat käyttöösi asetusten ohjatun määrityksen oppaita, jotka auttavat tiettyjen skenaarioiden määrityksessä ja ominaisuuksien lisäämisessä [!INCLUDE[prod_short](includes/prod_short.md)]iin. Lisätietoja siitä, miten käytät kaikkia avustettuja sekä manuaalisia määrityssivuja, on ohjeessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
+Valikosta ![Hammaspyörä-kuvake, joka avaa Asetukset-valikon.](media/ui-experience/settings_icon_small.png) saat käyttöösi asetusten ohjatun määrityksen oppaita, jotka auttavat tiettyjen skenaarioiden määrityksessä ja ominaisuuksien lisäämisessä [!INCLUDE[prod_short](includes/prod_short.md)]iin. Lisätietoja siitä, miten käytät kaikkia avustettuja sekä manuaalisia määrityssivuja, on ohjeessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).
 
 > [!NOTE]
 > [!INCLUDE [ua-checklist](includes/ua-checklist.md)]
 
-Tietyt joko yleiset tai erityiset liiketoimintaprosessien toiminnot voidaan määrittää manuaalisesti tai asetusten ohjattuna määrityksenä. Seuraavassa luettelossa on joitakin manuaalisesti määritettäviä toimintoja.
+Tietyt joko yleiset tai erityiset liiketoimintaprosessien toiminnot voidaan määrittää manuaalisesti tai avustetusti. Seuraavassa taulukossa on joitakin manuaalisesti määritettäviä toimintoja.
 
-| Toiminta | Katso |
+| Vastaanottaja | Katso |
 | --- | --- |
 | Määritä maksutavat, valuutat ja tilikartta. Määritä myös rahoitustapahtumien hallinnan säännöt ja oletusarvot. |[Rahoituksen määrittäminen](finance-setup-finance.md) |
 | Määritä oman pankkitilisi ja toimittajien pankkitilit sekä ota käyttöön pankkitiedostojen tuonti- ja vientipalvelut. |[Pankkitoiminnan määrittäminen](bank-setup-banking.md) |
 | Määritä yrityksen myyntikäytäntöjä koskevat säännöt ja arvot, rekisteröi uudet asiakkaat ja määritä asiakkaiden kanssa käytettävät viestintätavat. |[Myynnin määrittäminen](sales-setup-sales.md) |
 | Määritä yrityksen ostokäytäntöjä koskevat säännöt, rekisteröi uudet toimittajat ja priorisoi toimittajat maksujen käsittelyä varten. |[Ostojen määrittäminen](purchasing-setup-purchasing.md) |
 | Määritä yrityksen varastokäytäntöjä koskevat säännöt, määritä sijainnit, josta varasto jakautuu useisiin fyysisiin varastoihin, sekä paranna hakua ja lajittelua luokittelemalla nimikkeet. |[Varaston määrittäminen](inventory-setup-inventory.md) |
-|Määritä oletusraportteja, joita käytetään eri asiakirjatyypeille.|[Raporttien valinta Business Centralissa](across-report-selections.md)|
+|Määritä oletusraportteja, joita käytetään eri asiakirjatyypeille.|[Asiakirjojen raporttivalinta](across-report-selections.md)|
 | Hallitse projekteja määrittämällä resurssit, aikaraportit ja projektityöt. |[Projektinhallinnan määrittäminen](projects-setup-projects.md) |
 | Määritä käyttöomaisuuden vakuuttaminen, kunnossapito ja poistot sekä tapa, jolla käyttöomaisuuden kustannukset kirjataan yrityskirjoihin. |[Käyttöomaisuuden määrittäminen](fa-setup.md) |
 |Määritä varastointiprosessien yleiset säännöt ja arvot sekä sijaintikohtainen käsittely.|[Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)|
@@ -50,9 +50,9 @@ Tietyt joko yleiset tai erityiset liiketoimintaprosessien toiminnot voidaan mä�
 |Käytä Business Central -tietoja Power Automate -työnkulun osana.|[Business Centralin käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md)|
 |Ota Business Central -tiedot käyttöön Power Appsin tietolähteenä.|[Yhteyden muodostaminen Business Central -tietoihin yrityssovelluksen luomista varten Power Appsin avulla](across-how-use-financials-data-source-powerapps.md)|
 |Käytä erityisiä Quickbooksin siirto-oppaita.|[Vaihtaminen QuickBooks-sovelluksesta Business Centraliin](across-quickbooks-to-business-edition.md)|
-|Käytä Business Central -tietoja mobiililaitteella.|[Business Central -sovelluksen hakeminen mobiililaitteeseen](install-mobile-app.md)|
-|Massalaskuta Bookingsissa luodut tapaamiset.|[Microsoft Bookingsin massalaskutus](finance-bookings.md)|
-|[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman sisäisen ja ulkoisen sähköpostiviestinnän mahdollistavan SMTP-palvelimen määrittäminen| [Sähköpostin määrittäminen manuaalisesti tai asetusten ohjatun määrityksen käyttäminen](admin-how-setup-email.md)|
+|Käytä Business Central -tietoja mobiililaitteella.|[Business Centralin hakeminen mobiililaitteeseen](install-mobile-app.md)|
+|Joukkolaskuta Microsoft Bookings luodut tapaamiset.|[Microsoft Bookingsin massalaskutus](finance-bookings.md)|
+|[!INCLUDE[prod_short](includes/prod_short.md)]in sähköpostiviestinnän mahdollistavan SMTP-palvelimen määrittäminen| [Sähköpostin määrittäminen manuaalisesti tai asetusten ohjatun määrityksen käyttäminen](admin-how-setup-email.md)|
 | Määritä tietueille, kuten korteille, asiakirjoille ja päiväkirjan riville, yksilölliset tunnuskoodit, joilla tietueita voi seurata järjestelmässä. |[Numerosarjojen luominen](ui-create-number-series.md) |
 |Määritä ja liitä peruskalenteri yrityksellesi ja sen liiketoimintakumppaneille, esimerkiksi asiakkaille, toimittajille tai sijainneille. Toimituksen ja vastaanoton päivämäärät lasketaan tuleville myyntitilaus-, ostotilaus-, siirtotilaus- ja tuotantotilausriveille kalenteriin määritettyjen työpäivien mukaisesti.|[Peruskalenterien määrittäminen](across-how-to-assign-base-calendars.md)|
 
@@ -60,6 +60,12 @@ Joidenkin alueiden edellytyksenä on, että käyttäjä on [!INCLUDE[prod_short]
 
 > [!NOTE]
 > Järjestelmänvalvojana voit määrittää uuden yrityksen [!INCLUDE[prod_short](includes/prod_short.md)]issa RapidStart Servicesin avulla. RapidStart Services on työkalu, joka on suunniteltu lyhentämään käyttöönottoa, parantamaan toteutuksen laatua, esittelemään toistettavia lähestymistapoja toteutuksiin sekä lisäämään tuottavuutta automatisoimalla ja yksinkertaistamalla toistuvia tehtäviä. Lisätietoja on kohdassa [Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md).
+
+## <a name="set-up-apps"></a>Sovellusten määrittäminen
+
+[!INCLUDE [prod_short](includes/prod_short.md)] sisältää ydinominaisuuksia, joiden päälle Microsoft lisää joitakin [**Laajennusten hallinta** -sivulla](https://businesscentral.dynamics.com/?page=2500) olevia sovelluksia. Vuoden 2022 lokakuusta lähtien jokainen sovellus sisältää linkin sovelluksen asetussivun käynnistämiseksi. Se tapahtuu valitsemalla **Määritä**-toiminto.  
+
+Voit lisätä ominaisuuksia sovellukseen [!INCLUDE [prod_short](includes/prod_short.md)] lisäämällä AppSource-sovelluksia. Lisätietoja on kohteessa [Business Central Onlinen mukauttaminen laajennusten avulla](ui-extensions.md).  
 
 ## <a name="see-also"></a>Katso myös
 
@@ -80,6 +86,5 @@ Joidenkin alueiden edellytyksenä on, että käyttäjä on [!INCLUDE[prod_short]
 [Business Centralin pika-aloitus](quick-start-business-central.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: bce2c42900b67c24801098d2bacae3a0f0aee14a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a9218bf8d8fa2c7f84b08380742df17bd7be7afe
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148666"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605162"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet
 
@@ -40,7 +40,7 @@ Suunnitteluparametreja voidaan myös määrittää mille tahansa nimikkeen, vari
 
 Lisätietoja on kohdissa [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md) ja [Rakennetiedot: suunnittelun parametrit](design-details-planning-parameters.md).  
 
-## <a name="planning-starting-date"></a>Suunnittelun aloituspäivämäärää
+## <a name="planning-starting-date"></a>Suunnittelun aloituspäivämäärä
 
 Voit välttää toimitussuunnitelmaa, joka käyttää aiempia avoimia tilauksia ja ehdottaa potentiaalisesti mahdottomia toimenpiteitä, suunnittelujärjestelmä kohtelee kaikkia suunnittelun alkupäivämäärää aiempia päivämääriä jäädytettynä alueena, jolla käytetään seuraavaa erityissääntöä:  
 
@@ -299,7 +299,7 @@ Lisätietoja tämän kentän käytöstä on kohdassa [Rakennetiedot: siirrot suu
 > [!NOTE]  
 >  Ei ole suositeltavaa käyttää Tilauksen suunnittelu -toimintoa, jos yrityksessä jo käytetään suunnitelussa suunnittelutyökirjaa tai hankintalistaa. **Tilauksen suunnittelu** -sivun kautta luotuja toimitustilauksia voidaan muuttaa tai poistaa automaattisten suunnitteluajojen aikana. Tämä johtuu siitä, että automaattisissa suunnitteluajoissa käytetään suunnitteluparametreja, joita Tilauksen suunnittelu -sivulla manuaalisen suunnitelman laatinut käyttäjä ei välttämättä ole ottanut huomioon.  
 
-##  <a name="finite-loading"></a>Rajallinen kuormittaminen
+## <a name="finite-loading"></a>Äärellinen kuormitus
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on tavallinen ERP-järjestelmä, ei lähetyksen tai työnohjauksen ohjausjärjestelmä. Se suunnittelee resurssien käytön tarjoamalla karkean aikataulun, mutta se ei luo ja ylläpidä automaattisesti tarkkoja aikatauluja prioriteetteihin tai optimointisääntöihin perustuen.  
 
@@ -308,7 +308,7 @@ Kapasiteettirajoitteisten resurssien suunniteltu käyttötoiminto käsittää: 1
 Kun suunnitellaan kapasiteettirajoitettuja resursseja, järjestelmä varmistaa, että resurssia ei ole kuormitettu enempää kuin sille määritetty kapasiteetti osoittaa (kriittinen kuormitus). Tämä tehdään määrittämällä jokaiselle toiminnolle lähin mahdollinen aika. Jos ajankohta ei ole tarpeeksi suuri koko toiminnon suorittamiseksi, toiminto jaetaan kahdeksi tai useammaksi osaksi, jotka sijoitetaan lähimpiin käytettävissä oleviin ajankohtiin.  
 
 > [!NOTE]  
->  Jos toiminto jaetaan, asetusaika kohdistetaan vain kerran, koska oletetaan, että jotkin manuaaliset muutokset suoritetaan aikataulun optimoimiseksi.  
+> Jos toiminto jaetaan, asetusaika kohdistetaan vain kerran, koska oletetaan, että jotkin manuaaliset muutokset suoritetaan aikataulun optimoimiseksi.  
 
 Resursseihin voidaan lisätä puskuriaika toiminnon jaon minimoimiseksi. Tämän avulla järjestelmä ajoittaa kuormituksen viimeiseen mahdolliseen päivään niin, että kriittinen kuormitusprosentti ylittyy hieman. Tämä voi vähentää jaettavien toimintojen määrää.  
 
@@ -316,11 +316,10 @@ Tämä täydentää keskeisten konseptien luonnoksen, joka liittyy [!INCLUDE[pro
 
 ## <a name="see-also"></a>Katso myös
 
-[Rakennetiedot: siirrot suunnittelussa](design-details-transfers-in-planning.md)   
-[Rakennetiedot: suunnittelun parametrit](design-details-planning-parameters.md)   
-[Rakennetiedot: suunnittelun kohdistustaulukko](design-details-planning-assignment-table.md)   
-[Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)   
-[Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)
-
+[Rakennetiedot: siirrot suunnittelussa](design-details-transfers-in-planning.md)  
+[Rakennetiedot: suunnittelun parametrit](design-details-planning-parameters.md)  
+[Rakennetiedot: suunnittelun kohdistustaulukko](design-details-planning-assignment-table.md)  
+[Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)  
+[Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

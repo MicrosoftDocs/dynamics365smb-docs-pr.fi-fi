@@ -1,33 +1,33 @@
 ---
-title: Kassavirtaennusteiden tekeminen käyttäen KP-raporttimalleja
-description: Tässä vaihekuvauksessa kuvataan, kuinka KP-raporttimallin avulla voit tehdä kassavirtaennusteita Business Centralissa.
+title: Kassavirtaennusteiden tekeminen talousraporttien avulla
+description: Tässä vaihekuvauksessa kuvataan, kuinka talousraporttien avulla voit tehdä kassavirtaennusteita Business Centralissa.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 08/18/2022
 ms.author: edupont
-ms.openlocfilehash: 7238b4de3b4a48c61560bc9a96a6923afe82eb93
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 4f3b406435b52d632d20553181aa5f106dc6a387
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533479"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606854"
 ---
-# <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Vaihekuvaus: tehdään kassavirtaennusteita käyttäen KP-raporttimalleja
+# <a name="walkthrough-making-cash-flow-forecasts-using-financial-reports"></a>Vaihekuvaus: Kassavirtaennusteiden tekeminen talousraporttien avulla
 
-Tässä vaihekuvauksessa kuvataan, kuinka KP-raporttimallin avulla voit tehdä kassavirtaennusteita. KP-raporttimallit suorittavat laskutoimituksia, joita ei voi tehdä suoraan kassavirtakaavioihin. KP-raporttimalleissa voidaan määrittää välisummat kassavirtavastaanottoja ja suorituksia varten. Nämä välisummat voidaan sisällyttää uusiin kokonaissummiin, joita voidaan sitten käyttää kassavirtaennusteita tehtäessä.  
+Tässä vaihekuvauksessa kuvataan, kuinka talousraporttien ominaisuuden avulla voit tehdä kassavirtaennusteita. Talousraportit suorittavat laskutoimituksia, joita ei voi tehdä suoraan kassavirtakaavioihin. Talousraporttien avulla voidaan määrittää välisummat kassavirtavastaanottoja ja suorituksia varten. Nämä välisummat voidaan sisällyttää uusiin kokonaissummiin, joita voidaan sitten käyttää kassavirtaennusteita tehtäessä.  
 
 ## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta
 
 Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:  
 
-- Uuden kassavirran KP-raporttimallin nimen määrittäminen.  
-- Uuden KP-raporttimallin rivien määrittäminen.  
-- Uuden sarakkeen asettelun määrittäminen.  
-- Sarakeasettelun määritys KP-raporttimalliin.  
+- Uuden kassavirran talousraportin nimen määrittäminen.  
+- Talousraportin rivien määrittäminen.  
+- Uuden sarakemäärityksen määrittäminen.  
+- Sarakemäärityksen liittäminen talousraporttiin.  
 - Tarkastellaan ja tulostetaan kassavirtaennustetta.  
 
 ### <a name="prerequisites"></a>Vaatimukset
@@ -35,7 +35,7 @@ Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:
 Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:  
 
 - [!INCLUDE[prod_short](includes/prod_short.md)]  
-- Kassavirran rivit on rekisteröity  
+- Kassavirtatyökirja ja rekisteröidyt rivit  
 
 ## <a name="roles"></a>Roolit
 
@@ -45,34 +45,35 @@ Tässä vaihekuvauksessa havainnollistetaan seuraavien käyttäjäroolien tehtä
 
 ## <a name="story"></a>Taustatietoja
 
-Ken on CRONUS -päällikkö, joka tekee kuukausittaisia kassavirtaennusteita. Hän sisällyttää ennusteeseen rahoituksen, myynnin, oston ja käyttöomaisuuden ja esittelee ennusteen talousjohtaja Saaralle liiketoiminnan kuva selkeyttämiseksi.  
+Ken on CRONUS -päällikkö, joka tekee kuukausittaisia kassavirtaennusteita. Hän sisällyttää ennusteisiin rahoituksen, myynnin, oston ja käyttöomaisuuden ja esittelee ne talousjohtaja Saralle liiketoimintanäkemysten tarjoamiseksi.  
 
-## <a name="setting-up-a-new-account-schedule-name"></a>Uuden KP-raporttimallin nimen määrittäminen
+## <a name="setting-up-a-new-financial-report-name"></a>Uuden talousraportin nimen määrittäminen
 
-KP-raporttimalli koostuu kassavirran KP-raporttimallin nimestä, jossa on sarja rivejä ja sarakeasettelu.  
+Talousraportin nimi on nimi, joka annetaan määritettyjen rivien joukon ja sarakemäärityksen sisältävälle kassavirtaennusteelle.  
 
-### <a name="to-set-up-a-new-account-schedule-name"></a>Uuden KP-raporttimallin nimen määrittäminen  
+### <a name="set-up-a-new-financial-report-name"></a>Uuden talousraportin nimen määrittäminen  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KP-raporttimallit** ja valitse sitten vastaava linkki.  
-2. Valitse **KP-raporttimallien nimet** -sivulla **Uusi**-toiminto ja luo uuden kassavirran KP-raporttimallin nimi.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Talousraportit** ja valitse sitten vastaava linkki.  
+2. Valitse **Talousraportit**-sivulla **Uusi** uuden kassavirran talousraportin nimen luomiseksi.  
 3. Syötä **Nimi**-kenttään **Ennuste**.  
 4. Kirjoita **Kuvaus**-kenttään **Kassavirtaennuste**.  
-5. Älä täytä **Sarakeasettelun oletusarvo**- ja **Analyysinäkymän nimi** -kenttiä.  
+5. Jätä **Rivimääritys**- ja **Sarakemääritys**-kentät tyhjiksi.
 
-## <a name="setting-up-account-schedule-lines"></a>Uuden KP-raporttimallin rivien määrittäminen
+## <a name="setting-up-row-definition-lines"></a>Rivimäärityksen rivien määrittäminen
 
-Kun KP-raporttimallin nimi on määritetty, Ken määrittää jokaisen rivin, joka näkyy kassavirran KP-raporttimallissa. Ken määrittää rivit, jotka voidaan näyttää raporteissa niiden rivien lisäksi, jotka on tarkoitettu vain laskentaan.  
+Kun talousraportin nimi on määritetty, Ken määrittää kassavirran talousraportin kunkin rivin. Ken määrittää rivit, jotka näytetään raporteissa niiden rivien lisäksi, jotka on tarkoitettu vain laskentaan.  
 
-### <a name="to-set-up-account-schedule-lines"></a>Määritä KP-raporttimallin rivit  
+### <a name="set-up-row-definition-lines"></a>Rivimäärityksen rivien määrittäminen  
 
-1. Valitse **KP-raporttimallien nimet** -sivulla luomasi uuden **Ennusteen** KP-raporttimallin nimi ja valitse sitten **Muokkaa KP-raporttimallia** -toiminto.  
-2. Anna **KP-raporttimallien nimet** -sivulla kukin rivi seuraavassa taulukossa esitetyllä tavalla.  
+1. Valitse **Talousraportit**-sivulla uusi luotu **Ennuste**-talousraportti ja valitse sitten **Muokkaa rivimääritystä'** -toiminto.  
+2. Anna **Rivimääritys**-sivulla kukin rivi seuraavassa taulukossa esitetyllä tavalla.  
 
     > [!TIP]  
-    >  Käyttämällä **Lisää kassavirtatilit** -toimintoa, voit nopeasti merkitä kassavirtatilit kassavairtatilikartallta ja kopioida ne KP-raporttimallin riveille.  
+    > **Lisää kassavirtatilit** -toiminnon avulla voit nopeasti merkitä haluamasi kassavirtatilit kassavirtatilikartalla ja kopioida ne rivimäärityksen riveille.  
 
-    | Rivinro | Kuvaus              | Summaustyyppi            | Summausväli | Rivityyppi   | Summatyyppi | Näytä |
+    | Rivinro | Kuvaus              | Summaustyyppi            | Yhteensä | Rivityyppi   | Summatyyppi | Näyttäminen |
     |---------|--------------------------|--------------------------|----------|------------|-------------|------|
+    | R10     | Myyntisaamiset              | Kassavirran tapahtumatilit | 10       |Nettomuutos | Nettosumma  | Kyllä  |
     | R10     | Avoimet myyntitilaukset        | Kassavirran tapahtumatilit | 20       |Nettomuutos | Nettosumma  | Kyllä  |
     | R10     | Vuokraus                  | Kassavirran tapahtumatilit | 30       |Nettomuutos | Nettosumma  | Kyllä  |
     | R10     | Rahoitussaatavat         | Kassavirran tapahtumatilit | 40       |Nettomuutos | Nettosumma  | Kyllä  |
@@ -80,8 +81,7 @@ Kun KP-raporttimallin nimi on määritetty, Ken määrittää jokaisen rivin, jo
     | R10     | Yksityissijoitukset      | Kassavirran tapahtumatilit | 60       |Nettomuutos | Nettosumma  | Kyllä  |
     | R10     | Sekalaiset vastaanotot   | Kassavirran tapahtumatilit | 70       |Nettomuutos | Nettosumma  | Kyllä  |
     | R10     | Avoimet huoltotilaukset      | Kassavirran tapahtumatilit | 80       |Nettomuutos | Nettosumma  | Kyllä  |
-    | R20     | Kassaanmaksu yhteensä      | Kaava                  | R10      |Nettomuutos | Nettosumma  | Kyllä  |
-    | R20     | Kassaanmaksu yhteensä      | Kaava                  | R10      |Nettomuutos | Nettosumma  | Kyllä  |
+    | R20     | Kassakuitit yhteensä      | Kaava                  | R10      |Nettomuutos | Nettosumma  | Kyllä  |
     | R30     | Ostovelat                 | Kassavirran tapahtumatilit | 1010     |Nettomuutos | Nettosumma  | Kyllä  |
     | R30     | Avoimet ostotilaukset     | Kassavirran tapahtumatilit | 1020     |Nettomuutos | Nettosumma  | Kyllä  |
     | R30     | Henkilöstökulut          | Kassavirran tapahtumatilit | 1030     |Nettomuutos | Nettosumma  | Kyllä  |
@@ -99,54 +99,51 @@ Kun KP-raporttimallin nimi on määritetty, Ken määrittää jokaisen rivin, jo
     > [!NOTE]
     > Rivinumeroa R10 käytetään saamistilien summien sitouttamiseen. Rivinumeroa R20 käytetään laskemaan kaikkien käteiskuittien summa. Rivinumeroa R30 käytetään ostovelkatilien summien sitouttamiseen. Rivinumeroa R40 käytetään laskemaan kaikkien käteiskassasuoritusten summa. Rivinumeroa R50 käytetään laskemaan käteisylijäämän summa. Rivinumeroa R60 käytetään sitouttamaan käyttövaroja. Rivinumeroa R70 käytetään laskemaan ennustettu kassavirta.
 
-## <a name="setting-up-a-new-column-layout"></a>Uuden sarakkeen asettelun määrittäminen.
+## <a name="setting-up-a-new-column-definition"></a>Uuden sarakemäärityksen määrittäminen
 
-Ennen kuin Ken voi tulostaa kassavirtaennusteen, hänen on luotava sarakeasettelu numeerisille tiedoille. Sarakkeisiin hän määrittää tiedot, jotka hän haluaa käyttää riveiltä.
+Ennen kuin Ken voi tulostaa kassavirtaennusteen, hänen on luotava sarakemääritys numeerisille tiedoille. Sarakkeisiin hän määrittää tiedot, jotka hän haluaa käyttää riveiltä.
 
 - Ensimmäisen sarakkeen numero on *C10*, sen otsikko on **Summa**, ja sisältönä on nettomuutos.  
 - Toisella sarakkeella on numero *C20* otsikolla **Saldo päivämääränä**, ja se sisältää aikajakson tapahtumat.  
 - Kolmannessa sarakkeessa on numero *C30* ja otsikko **Koko vuosi**, ja se sisältää koko tilikauden saldojen nettomuutoksen.  
-- Lopuksi hän määrittää sarakeasettelun KP-raporttimallin **ennusteen** oletussarakeasetteluksi.  
+- Lopuksi hän määrittää sarakemäärityksen talousraportin **ennusteen** oletusasetukseksi.  
 
-## <a name="to-set-up-a-new-column-layout"></a>Määritä uusi sarakkeen asettelu
+### <a name="set-up-a-new-column-definition"></a>Uuden sarakemäärityksen määrittäminen
 
-1. Valitse **KP-raporttimallien nimet** -ikkunassa uusi **Ennuste**-KP-raporttimallin nimi, jonka loit. Valitse **Kotisivu**-välilehden **Käsittely**-ryhmässä **Muokkaa sarakeasetuksia**.
+1. Valitse **Talousraportit**-sivulla luomasi uuden **Ennuste**-talousraportin nimi. Valitse **Kotisivu**-välilehden **Käsittely**-ryhmässä **Muokkaa sarakemääritystä**.
 
-    > [!TIP]
-    > Voit etsiä saman toiminnon **KP-raportti malli** -sivulta, jos olet vielä muokkaamassa **ennusteen** KP-raporttimallia siellä.
+2. Luo uusi sarakemääritys nimellä **Kassavirta**.
 
-2. Luo uusi sarakeasettelu nimellä **Kassavirta**.
-
-3. Valitse OK-painike.
+3. Valitse **OK**-painike.
 
 4. Syötä kukin rivi täsmälleen seuraavassa taulukossa esitetyllä tavalla.
 
-    |Sarakkeen nro|Sarakkeen otsikko|Saraketyyppi|Tapahtumakirjauksen tyyppi|Summatyyppi|Näytä|  
+    |Sarakkeen nro|Sarakkeen otsikko|Saraketyyppi|Tapahtumakirjauksen tyyppi|Summatyyppi|Näyttäminen|  
     |----------|-------------|-----------|-----------------|-----------|----|
     |C10|Summa|Nettomuutos|Tapahtumat|Nettosumma|Aina|  
     |C20|Summa päivämäärään|Saldo pvm:ttäin|Tapahtumat|Nettosumma|Aina|  
     |C30|Koko tilikausi|Koko tilikausi|Tapahtumat|Nettosumma|Aina|
 
-## <a name="assigning-the-column-layout-to-the-account-schedule-name"></a>Sarakeasettelun määritys KP-raporttimallin nimeen
+## <a name="assigning-the-column-definition-to-the-financial-report-name"></a>Sarakemäärityksen liittäminen talousraportin nimeen
 
-Ken on nyt valmis määrittämään sarakeasettelun KP-raporttimallin nimeen.  
+Ken on nyt valmis määrittämään sarakemäärityksen talousraportin nimeen.  
 
-### <a name="to-assign-the-column-layout-to-the-account-schedule-name"></a>Määritä sarakeasettelu KP-raporttimallin nimeen.  
+### <a name="assign-the-column-definition-to-the-financial-report-name"></a>Sarakemäärityksen liittäminen talousraportin nimeen
 
-1. Valitse **Muokkaa sarakeasettelun asetuksia** -toiminto sillä **KP-raporttimalli**-sivulla, jossa käsittelet **ennusteen** KP-raporttimallia.  
-2. Valitse **Sarakeasettelun nimi** -kentässä **Kassavirta**-sarakeasettelu oletussarakeasetteluksi.  
+1. Valitse **Talousraportit**-sivulla **Ennuste**-talousraportti ja valitse sitten **Muokkaa sarakemääritystä'** -toiminto.  
+2. Valitse **Nimi**-kentässä **Kassavirta**-sarakemääritys oletussarakemääritykseksi.  
 
-### <a name="to-view-and-print-the-cash-flow-forecast"></a>Tarkastele ja tulosta kassavirtaennuste
+## <a name="view-and-print-the-cash-flow-forecast"></a>Kassavirtaennusteen tarkasteleminen ja tulostaminen
 
-1. Valitse **KP-raporttimallien nimet** -sivulla **Yleiskuvaus** ja tarkastele kassavirtaennustetta.  
-2. **KP-raporttimallin yleiskuvaus** -sivulla voit valita summan ja näyttää sitten kassavirran tuotantoennustetapahtumat, joista summa muodostuu. Lisäksi voit tarkastella laskentakaavaa, jota käytetään summan laskemisessa. Voit myös suodattaa määrät dimension ja päivämäärän mukaan.  
+1. Valitse **Talousraportit**-sivulla **Ennuste**-talousraportti uuden kassavirtaennusteen tarkastelemista varten.  
+2. **Talousraportti**-sivulla voit valita summan ja näyttää sitten kassavirran tuotantoennustetapahtumat, joista summa muodostuu. Lisäksi voit tarkastella kaavaa, jota käytetään summan laskemisessa. Voit myös suodattaa määrät dimension ja päivämäärän mukaan.  
 3. Tulosta kassavirtaennuste valitsemalla **Tulosta**-toiminto.  
 
 ## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 
-[KP-raporttimallien käyttäminen](bi-how-work-account-schedule.md)  
+[Talousraporttien käsitteleminen](bi-how-work-account-schedule.md)  
 [Yrityksen kassavirran analysoiminen](finance-analyze-cash-flow.md)  
 [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

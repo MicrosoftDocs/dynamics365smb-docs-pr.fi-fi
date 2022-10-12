@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 04/01/2021
+ms.date: 08/29/2022
 ms.author: jswymer
-ms.openlocfilehash: bb39763e80acc25604f3a1528f5c6db286a5c1dc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: ace24899aa3c872cd5ac0609dfc3ecbf63608330
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535487"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607659"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Kirjanpitojaksojen sulkemistehtävien yleiskatsaus
 
@@ -25,17 +25,17 @@ ms.locfileid: "9535487"
 * Määritä järjestelmänlaajuiset ja käyttäjäkohtaiset kirjausjaksot.  
 
     Tässä määritetään kirjausten sallittu päivämääräväli. Liiketoiminnan tarpeiden mukaan voit sallia kirjauksen jakson alussa tai jakson loppupuolella. Lisätietoja on kohdassa [Kirjausjaksojen määrittäminen](finance-how-specify-posting-periods.md).  
-* Tee kaikki tarpeelliset KP-muutokset.  
+* Tee kaikki tarpeelliset pääkirjanpidon (KP) muutokset.  
 * Päivitä ja kirjaa toistuvat päiväkirjat.  
   <!--* Process Consolidations-->
-* Suorita KP-raporttimallit seuraavasti:  
-  * Avaa **KP-raporttimalli**-sivu ja valitse sitten **Tulosta**-toiminto.  
+* Suorita talousraportit seuraavasti:  
+  * Avaa **Talousraportit**-sivu ja valitse **Tulosta**-toiminto.  
 
 ## <a name="sales-and-receivables"></a>Myynnit ja myyntisaamiset
 
 * Kirjaa kaikki myyntitilaukset, laskut, hyvityslaskut ja palautustilaukset.  
 * Kirjaa kaikki kassapäiväkirjat.  
-* Päivitä ja kirjaa myyntiin ja myyntisaamisiin liittyvät toistuvat päiväkirjat.  
+* Päivitä ja kirjaa myynteihin ja myyntisaamisiin liittyvät toistuvat kirjaukset.  
 * Täsmäytä myyntisaatavat pääkirjanpitoon.  
 * Suorita **Poista laskutetut myyntitilaukset** -eräajo.  
 
@@ -43,7 +43,7 @@ ms.locfileid: "9535487"
 
 * Kirjaa kaikki ostotilaukset, laskut, hyvityslaskut ja palautustilaukset.  
 * Kirjaa kaikki maksupäiväkirjat.  
-* Päivitä ja kirjaa ostoihin ja ostovelkoihin liittyvät toistuvat päiväkirjat.  
+* Päivitä ja kirjaa ostoihin ja ostovelkoihin liittyvät toistuvat kirjaukset.  
 * Suorita **Ostovelkojen tilanne** -raportti ja täsmäytä ostovelat pääkirjanpitoon.  
 * Suorita **Poista laskutetut ostotilaukset** -eräajo.  
 
@@ -57,7 +57,7 @@ ms.locfileid: "9535487"
 
 ## <a name="intercompany"></a>Konserni
 
-* Konsernin tapahtumien käsitteleminen
+* Käsittele konsernin tapahtumat.
 
 ## <a name="calculate-and-process-sales-tax"></a>Arvonlisäveron laskeminen ja käsitteleminen
 
@@ -70,6 +70,5 @@ ms.locfileid: "9535487"
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
 [Kirjojen sulkeminen](year-close-books.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

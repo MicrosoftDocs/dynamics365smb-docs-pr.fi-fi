@@ -7,18 +7,20 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 1151, 1154, 1165, 1166
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 410e3166674354499e76b9bc5483d66c037c4969
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fdc84068220e16ac82d97ec005d69ec3496d902
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132053"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606168"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Työnhallinta useiden yritysten välillä yritystoiminnossa
 
-Osa ihmisistä työskentelee useissa yrityksissä [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa, ja osa toimii myös useammassa kuin yhdessä organisaatiossa, kuten ulkoiset kirjanpitäjät tai sellaisten yritysten työntekijät ja johtajat, joilla on useita tytäryhtiöitä. Näille käyttäjille ja monille muille yrityksen toiminto toimii aloitussivuna, jossa työnhallinta toimii eri ympäristöissä, joissa työskentelet, yrityksissä, ympäristöissä ja alueilla.  
+Osa ihmisistä työskentelee useissa yrityksissä [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa, ja osa toimii myös useammassa kuin yhdessä organisaatiossa, kuten ulkoiset kirjanpitäjät tai sellaisten yritysten työntekijät ja johtajat, joilla on useita tytäryhtiöitä. Näille käyttäjille ja monille muille yrityskeskus toimii aloitussivuna, joka antaa yleiskuvan eri yritysten ja ympäristöjen taloudellisesta tilanteesta. Se tarjoaa käyttäjille työkalun, jossa voi hallita työtä eri ympäristöissä, joissa he työskentelevät, yrityksissä, ympäristöissä ja alueilla.  
 
 Voit käyttää yrityskeskitintä siirtymällä **Yritystoiminto**-rooliin Omat asetukset -kohdassa tai avaamalla **Yritystoiminto**-sivun suoraan. Voit tehdä saman työn kummassakin paikassa, mutta valikoissa on hieman erilaisia toimintoja.  
+
+[![Näyttää yritystoiminnon sivun, jolla on luettelo kaikista yrityksistä.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
 > [!NOTE]
 > Voit yhdistää yrityskeskuksen niin moneen yritykseen kuin tarvitset. Yrityskeskuksen voi kuitenkin liittää vain yrityksiin, joita isännöidään [!INCLUDE [prod_short](includes/prod_short.md)] onlinessa.
@@ -63,9 +65,9 @@ Voit määrittää tehtäviä [!INCLUDE [prod_short](includes/prod_short.md)]:ss
 
 Voit tehdä lajittelun esimerkiksi määräpäivän mukaan tai minkä tahansa sellaisen tietotyypin mukaan, joka auttaa päivän priorisoinnissa. Luettelossa näkyy oletusarvoisesti kaikki sinulle määritetyt tehtävät, mutta määrittää suodattimet näyttämään esimerkiksi vain korkean prioriteetin tehtävät.  
 
-Voit poimia tehtävän yksinkertaisesti valitsemalla sen odottavien käyttäjätehtävien luettelosta. Valintanauhan **Siirry tehtäväkohteeseen** -linkki avaa sivun, jossa voit suorittaa työn.  
+Voit poimia tehtävän valitsemalla sen odottavien käyttäjätehtävien luettelosta. Valintanauhan **Siirry tehtäväkohteeseen** -linkki avaa sivun, jossa voit suorittaa työn.  
 
-Kun tehtävä on suoritetty, voit merkitä sen valmiiksi.  
+Kun tehtävä on suoritettu, voit merkitä sen valmiiksi.  
 
 Lisätietoja yrityksistä ja ympäristöistä on kohdassa [Ympäristölinkit](company-hub-add-company.md#environment-links).  
 

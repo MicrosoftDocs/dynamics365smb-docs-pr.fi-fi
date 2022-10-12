@@ -3,21 +3,25 @@ title: Tuotannon tuoterakenteiden luominen
 description: Lue, miten voit luoda tuotannon tuoterakenteen, tuotannon tuoterakenteen uudet versiot ja käyttää määrälaskentakaavaa.
 author: bholtorf
 ms.topic: conceptual
-ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
+ms.search.keywords: production bom, bills of material,
+ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 07563e285e6806a1a2010446d4da65fd52c9ed16
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ec8d20ac3f6e6e02471a9f86f35aee8c551df801
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516898"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607821"
 ---
 # <a name="create-production-boms"></a>Tuotannon tuoterakenteiden luominen
 
 Tuotannon tuoterakenne sisältää perustiedot päänimikkeen tuotannossa käytettävistä komponenteista ja osakokoonpanoista. Kun päänimikkeelle luodaan tuotantotilaus, tuotannon tuoterakenne ohjaa materiaalitarpeiden laskentaa **Tuot.til. komponentit** -sivulla näkyvällä tavalla.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tukee myös kokoonpanon tuoterakenteita. Voit käyttää kokoonpanotilauksia, kun teet komponenteista loppunimikkeitä yksinkertaisella prosessilla. Tämä prosessi voidaan toteutetaan vähintään yhdellä perusresurssilla, joka ei ole kuormituskeskus eikä tuotantosolu, tai ilman resursseja. Kokoonpanoprosessi voi olla esimerkiksi kahden viinipullon ja yhden kahvipaketin valinta ja niiden pakkaaminen lahjaksi. Lisätietoja on kohdassa [Kokoonpanon tuoterakenteet tai tuotannon tuoterakenteet](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
+
+> [!TIP]
+> **Contoso Coffee -esittelytiedot** -sovellus sisältää esittelytuotteita useille tuotannon tuoterakenteen skenaarioille, joita voidaan käyttää testiympäristössä myös kokeilujakson aikana. Lisätietoja Contoso Coffee -tiedoista ja vaihekuvauksien etsimisestä eri skenaarioissa on kohdassa [Contoso Coffee -esittelytietojen esittely](/contoso-coffee/contoso-coffee-intro.md).
 
 Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:  
 
@@ -26,7 +30,7 @@ Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:
 
 ## <a name="to-create-a-production-bom"></a>Tuotannon tuoterakenteen luominen
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotannon tuoterakenne** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotannon tuoterakenteet** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Jos haluat muokata tuoterakennetta, aseta **Tila**-kentän arvoksi **Uusi** tai **Kehityksen alla**. Jos haluat aktivoida tuoterakenteen, aseta **Tila**-kentän arvoksi **Hyväksytty**.  
@@ -46,15 +50,15 @@ Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:
 12. Voit nyt liittää uuden tuotannon tuoterakenteen kyseisen päänimikkeen korttiin. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  
 
 > [!NOTE]  
-> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] – Voit laskea nimikkeen vakiokustannukset nimikkeen kortista valitsemalla ensin **Tuotanto**-toiminnon ja sitten **Laske vakiokustannus** -toiminnon.  
+> [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Voit laskea nimikkeen vakiokustannukset nimikkeen kortista valitsemalla ensin **Tuotanto**-toiminnon ja sitten **Laske vakiokustannus** -toiminnon.  
 
-## <a name="to-create-a-new-versions-of-a-production-bom"></a>Tuotannon tuoterakenteiden uusien versioiden luominen
+## <a name="to-create-a-new-version-of-a-production-bom"></a>Tuotannon tuoterakenteiden uusien versioiden luominen
 
 Tuotannon tuoterakenteen uusia versioita käytetään esimerkiksi silloin, kun nimike vaihdetaan toiseen nimikkeeseen tai silloin, kun asiakas pyytää tuotteesta erikoisversiota. Versioperiaate mahdollistaa tuotannon tuoterakenteen useiden versioiden hallinnan. Tuotannon tuoterakenteen version rakenne vastaa tuotannon tuoterakenteen rakennetta. Perusero on versioiden ajallinen voimassaolo. Voimassaolon määrittää aloituspäivämäärä.  
 
 Aloituspäivämäärä osoittaa alun jaksolle, jolloin kyseinen versio on voimassa. Aloituspäivämäärä on myös suodatuskriteeri laskennoille ja arvioinneille. Tuoterakenteen versio on voimassa niin kauan kuin seuraava versio tulee voimaan sen aloituspäivämäärän perusteella.  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotannon tuoterakenne** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotannon tuoterakenteet** ja valitse sitten vastaava linkki.  
 2. Valitse ensin kopioitava tuotannon tuoterakenne ja sitten **Versiot**-toiminto.  
 3. Valitse **Uusi**-toiminto.  
 4. Täytä tarvittavat kentät.
@@ -92,17 +96,20 @@ Laskentakaava määrittää yksittäisten komponenttien suhteen. Laskentakaavaks
 
 ### <a name="example"></a>Esimerkki
 
-Tuotannon tuoterakenteelle tarvitaan seitsemänkymmentä metalliosaa, joiden dimensioiden pituus = 0,20 m ja leveys = 0,15 m. Arvot annetaan seuraavalla tavalla: Laskentakaava = Pituus x Leveys, Pituus = 20, Leveys = 15, Määrä per = 70. Määräksi annetaan Määrä per x Pituus * Leveys eli Määrä = 70 x 0,20 m x 0,15 m = 2,1 m2.  
+Tuotannon tuoterakenteelle tarvitaan 70 metalliosaa, joiden dimensioiden pituus = 0,20 m ja leveys = 0,15 m. Arvot annetaan seuraavalla tavalla: Laskentakaava = Pituus x Leveys, Pituus = 20, Leveys = 15, Määrä per = 70. Määräksi annetaan Määrä per x Pituus * Leveys eli Määrä = 70 x 0,20 m x 0,15 m = 2,1 m2.  
 
 ## <a name="see-also"></a>Katso myös
 
-[Uusien reititysten luominen](production-how-to-create-routings.md)   
+[Uusien reititysten luominen](production-how-to-create-routings.md)  
+[Tuotevarianttien hallinta](inventory-item-variants.md)  
+[Vaihekuvaus: Variantit](/contoso-coffee/variants.md)  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
-[Tuotanto](production-manage-manufacturing.md)    
-[Suunnittelu](production-planning.md)   
+[Tuotanto](production-manage-manufacturing.md)  
+[Suunnittelu](production-planning.md)  
+[Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)  
+[Kokoonpanon tuoterakenteiden käyttäminen](assembly-how-work-assembly-boms.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
-[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

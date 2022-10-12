@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.search.form: 10, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
+ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
 ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 148d6657d3fffeaa7b5415338517f1688264ae98
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: cfb7cf9448db3b88bc6f8c75f495ddb12cb23740
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532941"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617909"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen
 
@@ -32,7 +32,7 @@ Jos haluat kuitenkin määrittää ALV-laskelmat itse tai jos haluat lisätietoj
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
-## <a name="set-up-vat-using-the-assisted-vat-setup-guide-recommended"></a>Käytä ALV:n määrityksessä ALV-asetusten ohjattua määritysopasta (suositus> 
+## <a name="set-up-vat-using-the-assisted-setup-guide-recommended"></a>Käytä ALV:n määrityksessä asetusten ohjattua määritysopasta (suositus)
 
 > [!NOTE]
 > Voit käyttää **ALV:n määritys** -opasta vain siinä tapauksessa, että olet luonut *Oman yrityksen* etkä ole vielä kirjannut ALV:n sisältäviä tapahtumia.
@@ -50,6 +50,21 @@ Jos haluat tukea nopeaa aloitusta, [!INCLUDE [prod_short](includes/prod_short.md
 Jos valitset tällaisen ilmoituksen, [!INCLUDE [prod_short](includes/prod_short.md)] luo nämä kirjausasetukset automaattisesti sen asiakirjan tai päiväkirjan kirjausryhmien perusteella, jota parhaillaan käsittelet.  
 
 Tässä vaiheessa saatat vain täyttää puuttuvat KP-tilit. Mutta myöhemmin, kun tarkennat asetuksia tarkemmin, saatat huomata, että alkuperäinen asetus on virheellinen. Eikä [!INCLUDE [prod_short](includes/prod_short.md)] salli ALV-kirjausasetusten ja yleisten kirjausasetusten poistoa silloin, kun on luotuna tapahtumia, jotka perustuvat tällaisiin konfiguraatioihin. Joten vuoden 2022 1. julkaisuaallossa voit käyttää **ALV-kirjausasetukset** -sivun **Estetty**-kenttää, jos haluat estää käyttäjiä vahingossa käyttämästä asetuksia, jotka eivät enää ole merkityksellisiä uusissa kirjauksissa.
+
+## <a name="set-up-a-default-vat-date-for-documents-and-journals"></a>ALV:n oletuspäivämäärän määrittäminen asiakirjoille ja päiväkirjoille
+ALV-raportointi, jota [!INCLUDE [prod_short](includes/prod_short.md)] käyttää, perustuu **ALV-päivämäärään**, joka sisällytetään ALV-tapahtumiin ALV-kauden ALV-raporteissa. ALV-päivämäärää voi muuttaa kaikissa asiakirjoissa ja päiväkirjoissa, mutta sille on määritettävä oletusarvo.
+
+> [!NOTE]
+> Kun asiakirja tai päiväkirja on kirjattu, **ALV-päivämäärä** tulee näkyviin **ALV-tapahtumat**- ja **KP-tapahtumat**-kohdissa sekä mahdollisessa kirjatussa asiakirjassa.
+
+Voit määrittää ALV-päivämääräksi oletusarvon seuraavasti:
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** ja valitse sitten vastaava linkki.  
+2. Valitse **Yleiset**-pikavälilehden **ALV-oletuspäivämäärä**-kentässä **kirjauspäivämäärä** tai **asiakirjan päivämäärä**.
+3. Sulje sivu.  
+
+> [!NOTE]
+> Oletusarvoisesti **ALV-oletuspäivämäärä** on **kirjauspäivämäärä**.
 
 ## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Määritä oman maan tai alueen ALV-rekisteröintinumerot
 

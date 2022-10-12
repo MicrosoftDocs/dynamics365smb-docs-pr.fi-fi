@@ -1,65 +1,61 @@
 ---
-title: Business Central Onlinen mukauttaminen laajennusten avulla
-description: Lisätietoja toimintojen lisäämisestä ja Business Central -sovelluksen mukauttamisesta laajennusten asentamisen avulla.
+title: Business Central Onlinen mukauttaminen sovellusten avulla
+description: Lisätietoja toimintojen lisäämisestä ja Business Central -sovelluksen mukauttamisesta sovellusten asentamisen avulla on tässä artikkelissa.
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.search.form: 2500, 2502
-ms.date: 03/22/2022
+ms.search.form: 2500, 2502, 20350, 20353
+ms.date: 09/27/2022
 ms.author: edupont
-ms.openlocfilehash: 8ff68bbeb2d7603b1c4d1b612413279cca5eec86
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 5b0744394201e11534f19c25999af0da0944ec9b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530456"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605682"
 ---
-# <a name="customizing-business-central-online-using-extensions"></a>Business Central Onlinen mukauttaminen laajennusten avulla
+# <a name="customizing-business-central-online-with-apps"></a>Business Central Onlinen mukauttaminen sovellusten avulla
 
-Voit muuttaa [!INCLUDE[prod_short](includes/prod_short.md)] onlinea asentamalla laajennuksia, jotka sisältävät lisätoimintoja, muuttavat toimintaa tai mahdollistavat esimerkiksi uusien verkkopalveluiden käyttämisen.
+Voit muuttaa [!INCLUDE[prod_short](includes/prod_short.md)] onlinea asentamalla sovelluksia, jotka sisältävät lisätoimintoja, muuttavat toimintaa tai mahdollistavat esimerkiksi uusien verkkopalveluiden käyttämisen. Nämä sovellukset ovat niin sanottuja *laajennuksia*, koska ne *laajentavat* [!INCLUDE [prod_short](includes/prod_short.md)]ia.
 
-> [!NOTE]
-> Jos haluat asentaa AppSourcen laajennuksia tai poistaa niitä tai lisätä vuokraajakohtaisia laajennuksia, sinulla on oltava vaaditut käyttöoikeudet. Sinun on oltava **D365 Extension Mgt.** -käyttäjäryhmän jäsen tai sinulla on oltava **EXTEN. MGT. - ADMIN** -käyttöoikeuksien joukko. Jos olet järjestelmänvalvoja, voit määrittää käyttäjäryhmiä ja käyttöoikeuksia yrityksesi muille käyttäjille. Katso lisätietoja kohdasta [Luo käyttäjiä lisenssien mukaan](ui-how-users-permissions.md).  
->
-> Jos haluat käyttää laajennuksen mahdollistamaa toimintoa, kuten avata sivuja, suorittaa raportteja tai valita toimintoja, sinulla on oltava käyttöoikeuksien joukko, joka on asennettu laajennuksen osana.
+## <a name="manage-apps"></a>Sovellusten hallinta
 
-<!-- [!NOTE]  
-> The **EXTEN. MGT. - ADMIN** permission set was introduced in 2021 release wave 1 as a replacement for the **D365 EXTENSION MGT** permission set in earlier versions.-->
+Kun käynnistät [!INCLUDE[prod_short](includes/prod_short.md)]in ensimmäisen kerran, se sisältää joitakin valmiiksi asennettuja sovelluksia. Ajan kuluessa käytettävissä on yhä enemmän sovelluksia. Voit ottaa niitä käyttöön tarpeen mukaan.
+
+Microsoft tarjoaa esimerkiksi sovelluksen, joka mahdollistaa integroinnin PayPal Payments Standard -ohjelman kanssa. Tämä laajennus asennetaan oletusarvoisesti. Mutta jos käytettävissä on toinen laajennus, joka avulla voi suorittaa integroinnin toiseen maksujärjestelmään, voit asentaa uuden laajennuksen ja valita sen jälkeen käytettävän palvelun näistä kahdesta.  
+
+Jos haluat käyttää sovelluksen mahdollistamaa toimintoa, kuten avata sivuja, suorittaa raportteja tai valita toimintoja, sinulla on oltava käyttöoikeuksien joukko, joka on asennettu sovelluksen osana.
+
+Jos haluat asentaa AppSourcen sovelluksia tai poistaa niitä tai lisätä vuokraajakohtaisia laajennuksia, sinulla on oltava vaaditut käyttöoikeudet. Sinun on oltava **D365 Extension Mgt.** -käyttäjäryhmän jäsen tai sinulla on oltava **EXTEN. MGT. - ADMIN** -käyttöoikeuksien joukko. Jos olet järjestelmänvalvoja, voit määrittää käyttäjäryhmiä ja käyttöoikeuksia yrityksesi muille käyttäjille. Katso lisätietoja kohdasta [Luo käyttäjiä lisenssien mukaan](ui-how-users-permissions.md).  
 
 > [!IMPORTANT]  
-> Palveltavien laajennusten lataamista ja AppSource -laajennusten asentamista ei tueta yrityksen omissa tiloissa olevien asennusten **laajennuksen hallinta** -sivulla. AppSource-laajennuksia ei voi asentaa paikallisesti, esimerkiksi Docker-pohjaisissa käyttöönotoissa.
+> [!INCLUDE [prod_short](includes/prod_short.md)] on-premises -sovelluksessa ei voi ladata vuokraajakohtaisia laajennuksia tai asentaa AppSource-sovelluksia **Laajennusten hallinta** -sivulla. AppSource-sovelluksia ei voi asentaa paikallisesti esimerkiksi Docker-pohjaisissa käyttöönotoissa.
 
-Kun käynnistät [!INCLUDE[prod_short](includes/prod_short.md)]in ensimmäisen kerran, joitakin laajennuksia on asennettu valmiiksi. Ajan kuluessa käytettävissä on yhä enemmän laajennuksia. Voit ottaa niitä käyttöön tarpeen mukaan.
-
-Microsoft tarjoaa esimerkiksi laajennuksen, joka mahdollistaa integroinnin PayPal Payments Standard -ohjelman kanssa. Tämä laajennus asennetaan oletusarvoisesti.
-Mutta jos käytettävissä on toinen laajennus, joka avulla voi suorittaa integroinnin toiseen maksujärjestelmään, voit asentaa uuden laajennuksen ja valita sen jälkeen käytettävän palvelun näistä kahdesta.  
-
-Laajennuksia hallitaan **Laajennusten hallinta** -sivulla. Tämä sivu löytyy kotisivulta. Vaihtoehtoisesti voit valita **Etsi sivua tai raporttia** -kuvakkeen ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") oikeassa yläkulmassa. Syötä **Laajennus** ja valitse sitten liittyvä linkki. Lisätietoja on kohdassa [Laajennusten asentaminen ja asennusten poistaminen](ui-extensions-install-uninstall.md).
+Sovelluksia hallitaan **Laajennusten hallinta** -sivulla. Tämä sivu löytyy kotisivulta. Vaihtoehtoisesti voit valita **Etsi sivua tai raporttia** -kuvakkeen ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") oikeassa yläkulmassa. Syötä **Laajennus** ja valitse sitten liittyvä linkki. Lisätietoja on kohdassa [Sovellusten asentaminen ja asennusten poistaminen](ui-extensions-install-uninstall.md).
 
 > [!NOTE]  
-> Jos sinulla on mielestäsi laajennuksen käyttöoikeus muttet löydä sen toimintoja, tarkista **Laajennusten hallinta** -sivu. Jos laajennusta ei mainita sivulla, voit asentaa sen seuraavassa osassa kerrotulla tavalla.  
+> Jos sinulla on mielestäsi sovelluksen käyttöoikeus muttet löydä sen toimintoja, tarkista **Laajennusten hallinta** -sivu. Jos sovellusta ei mainita sivulla, voit asentaa sen seuraavassa osassa kerrotulla tavalla.  
 
 > [!NOTE]  
 > Kirjaudu sivustoon [AppSource.microsoft.com](https://appsource.microsoft.com/) [!INCLUDE[prod_short](includes/prod_short.md)] onlinessa käyttämäsi sähköpostitilin tiedoilla. Saman sähköpostitilin käyttäminen myös muissa palveluissa ja tuotteissa takaa sujuvan käyttökokemuksen.  
 
-Kauppaan pääsee myös suoraan [!INCLUDE[prod_short](includes/prod_short.md)]ista. Tällä hetkellä asennettuna olevat laajennukset näkyvät **Laajennusten hallinta** -sivulla. Voit avata **Laajennuskauppa**-sivun, jossa näkyvät AppSourcessa tällä hetkellä käytettävissä olevat [!INCLUDE[prod_short](includes/prod_short.md)]in laajennukset. Jos valitset *Lisää sovelluksia* -linkin, sinut siirretään sivustoon [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).  
+Kauppaan pääsee myös suoraan [!INCLUDE[prod_short](includes/prod_short.md)]ista. Tällä hetkellä asennettuna olevat sovellukset näkyvät **Laajennusten hallinta** -sivulla. Voit avata **Laajennuskauppa**-sivun, jossa näkyvät AppSourcessa tällä hetkellä käytettävissä olevat [!INCLUDE[prod_short](includes/prod_short.md)]in sovellukset. Jos valitset *Lisää sovelluksia* -linkin, sinut siirretään sivustoon [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).  
 
-Kun valitset laajennuksen, voit lukea tietoja laajennuksesta ja hakea lisätietoja käyttämällä laajennuksen Ohje-toimintoa. Kun haluat noutaa laajennuksen, sinun on hyväksyttävä käyttöehdot. Jos noudat laajennuksen AppSource-sivustosta, sinut kirjataan sisään [!INCLUDE[prod_short](includes/prod_short.md)]iin asennuksen viimeistelemiseksi.  
+Kun valitset sovelluksen, voit lukea tietoja sovelluksesta ja hakea lisätietoja käyttämällä sovelluksen Ohje-toimintoa. Kun haluat noutaa sovelluksen, sinun on hyväksyttävä käyttöehdot. Jos noudat sovelluksen AppSource-sivustosta, sinut kirjataan sisään [!INCLUDE[prod_short](includes/prod_short.md)]iin asennuksen viimeistelemiseksi.  
 
-Laajennus on ehkä määritettävä asennuksen yhteydessä. Se tarkoittaa esimerkiksi **[!INCLUDE[prod_short](includes/prod_short.md)]in PayPal Payments Standard** -laajennuksen käyttämisessä tarvittavan tilin määrittämistä.
-Muissa laajennuksissa esimerkiksi yksinkertaisesti lisätään kenttiä olemassa olevalle sivulle tai lisätään uusi sivu.   
+Sovellus on ehkä määritettävä asennuksen yhteydessä. Se tarkoittaa esimerkiksi **[!INCLUDE[prod_short](includes/prod_short.md)]in PayPal Payments Standard** -laajennuksen käyttämisessä tarvittavan tilin määrittämistä.
+Muissa sovelluksissa esimerkiksi yksinkertaisesti lisätään kenttiä olemassa olevalle sivulle tai lisätään uusi sivu.   
 
-Jos poistat laajennuksen asennuksen ja haluat ottaa sen takaisin käyttöön, voit asentaa laajennuksen uudelleen. Kun poistat käytössäsi olleen laajennuksen asennuksen, tiedot säilytetään. Jos siis asennat laajennuksen uudelleen, tiedot ovat yhä käytettävissäsi. Jotkin laajennukset ovat pakollisia. Niiden asennuksen poistaminen **Laajennusten hallinta** -sivulla on estetty. Jos yrität tehdä niin, näyttöön avautuu virhesanoma.  
+Jos poistat sovelluksen asennuksen ja haluat ottaa sen takaisin käyttöön, voit asentaa sovelluksen uudelleen. Kun poistat käytössäsi olleen sovelluksen asennuksen, tiedot säilytetään. Jos siis asennat sovelluksen uudelleen, tiedot ovat yhä käytettävissäsi. Jotkin sovellukset ovat pakollisia. Niiden asennuksen poistaminen **Laajennusten hallinta** -sivulla on estetty. Jos yrität tehdä niin, näyttöön avautuu virhesanoma.  
 
-Jotkin ovat Microsoftin laajennuksia, jotkin [muiden yritysten](ui-extensions-other.md). Kaikki laajennukset testataan, ennen kuin ne ovat käyttäjien käytettävissä. Suosittelemme kuitenkin lisätietoihin tutustumista laajennuksen mukana saatavien linkkien avulla ennen laajennuksen asentamista.  
+Osa on Microsoftin sovelluksia, osa [muiden yritysten](ui-extensions-other.md) sovelluksia. Kaikki sovellukset testataan, ennen kuin ne ovat käyttäjien käytettävissä. Suosittelemme kuitenkin lisätietoihin tutustumista laajennuksen mukana saatavien linkkien avulla ennen sovelluksen asentamista.  
 
 > [!NOTE]  
-> Voit pitää silmällä Microsoftin ja muiden toimittajien uusia laajennuksia osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
+> Voit pitää silmällä Microsoftin ja muiden toimittajien uusia sovelluksia osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
+## <a name="apps-and-data-transfer"></a>Sovellukset ja tietojen siirto
 
-## <a name="extensions-and-data-transfer"></a>Laajennukset ja tietojen siirto
-
-Koska seuraavia laajennuksia käytetään viestintään muiden palvelujen kanssa, ne saattavat siirtää tietoja [!INCLUDE[prod_short](includes/prod_short.md)] -ympäristön maantieteellisen alueen ulkopuolelle:
+Koska seuraavia sovelluksia käytetään viestintään muiden palvelujen kanssa, ne saattavat siirtää tietoja [!INCLUDE[prod_short](includes/prod_short.md)] -ympäristön maantieteellisen alueen ulkopuolelle:
 
 * AMC Banking 365 Fundamentals -laajennus
 * Image Analyzer
@@ -74,27 +70,39 @@ Tämä koskee myös joitakin perussovelluksen toimintoja, kuten seuraavia ominai
 * Document Exchange -palvelu
 * Dataverse-yhteys
 * OCR-palvelu
-* Online Map
+* Online-kartta
 * EU:n ALV-nron tarkistuksen Palvelu
 
-## <a name="recommended-apps"></a>Suositellut sovellukset
-Microsoft-kumppanit ja -jälleenmyyjät voivat luoda laajennuksia, joita he voivat käyttää sovellusluetteloiden laatimiseen, joita he usein suosittelevat asiakkailleen. Jos he tekevät näin ja ovat ottaneet laajennuksen käyttöön vuokraajassasi, sovellukset ovat käytettävissä **Suositellut sovellukset** -sivulla. Siellä voit lukea kustakin sovelluksesta ja päättää, asennetaanko se.
+## <a name="connect-your-business"></a>Yhdistä yrityksesi
+
+Vuoden 2022 2. julkaisuaallossa [!INCLUDE [prod_short](includes/prod_short.md)] online -ympäristöt voivat sisältää vähintään yhden sovelluksen **Yhteyssovellukset**- ja **Pankkisovellukset**-sivuilla. Nämä sovellukset voivat muodostaa yhteyden yrityksesi ulkoisiin palveluihin tuottavuuden lisäämiseksi automatisoimalla prosesseja. Voit esimerkiksi muodostaa yhteyden pankkeihin ja tuoda automaattisesti pankkitapahtumia. Sovellukset on helppo asentaa ja määrittää suoraan tällä sivulla. Valitse sovellus, jonka ominaisuuksista ja hinnoittelusta haluat lisätietoja.  
+
+Tarkastele ehdotettujen sovellusten luetteloa valitsemalla **Yhteyssovellukset**-toiminto **Laajennusten hallinta** -sivulla.  
 
 > [!NOTE]
-> Jos olet Microsoft-kumppani tai -jälleenmyyjä ja olet kiinnostunut tarjoamaan luettelon suositelluista sovelluksista, katso [Suositellut sovellukset AppSourcesta](/dynamics365/business-central/dev-itpro/administration/recommend-apps).
+> **Yhteyssovellukset**-sivun ensimmäisenä avaavan henkilön on sallittava laajennukset, jotta ulkoiseen palveluun voidaan muodostaa yhteys. Salli yhteyden muodostaminen kerran tai aina. Jos valitset yhteyden estämisen, etsi vastaavat sovellukset AppSourcesta.
+
+Tämä ulkoinen palvelu luo luettelon liittyvistä sovelluksista maasi tai alueesi perusteella
+
+## <a name="recommended-apps"></a>Suositellut sovellukset
+
+Microsoft-kumppanit ja -jälleenmyyjät voivat luoda sovelluksia, joita he voivat käyttää sellaisten sovellusten luetteloiden laatimiseen, joita he usein suosittelevat asiakkailleen. Jos näin tehdään, ja sovellus on otettu käyttöön vuokraajassasi, sovellukset ovat käytettävissä **Suositellut sovellukset** -sivulla. Siellä voit lukea kustakin sovelluksesta ja päättää, asennetaanko se.
+
+> [!NOTE]
+> Jos olet Microsoft-kumppani tai -jälleenmyyjä ja olet kiinnostunut tarjoamaan luettelon suositelluista sovelluksista, katso [Suositellut sovellukset AppSourcesta](/dynamics365/business-central/dev-itpro/administration/recommend-apps) -kohta hallintosisällössä.
 
 ## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/customize-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Katso myös
 
-[Laajennusten asentaminen ja poistaminen](ui-extensions-install-uninstall.md)  
+[Sovellusten asentaminen ja asennusten poistaminen](ui-extensions-install-uninstall.md)  
 [Business Centralin mukauttaminen](ui-customizing-overview.md)  
-[Muiden toimittajien Business Central -laajennukset](ui-extensions-other.md)  
+[Muiden toimittajien Business Central -sovellukset](ui-extensions-other.md)  
 [Envestnet Yodlee Bank Feeds -palvelun määrittäminen](bank-how-setup-bank-statement-service.md)  
-[Asiakkaan maksujen ottaminen käyttöön PayPalin kautta](sales-how-enable-payment-service-extensions.md)  
+[Asiakasmaksujen ottaminen käyttöön maksupalvelujen kautta](sales-how-enable-payment-service-extensions.md)  
 [Liiketoiminnan tietojen siirtäminen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [Ison-Britannian postinumeroiden GetAddress.io-laajennuksen määrittäminen](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)  
-[Muiden palveluntarjoajien [!INCLUDE[prod_short](includes/prod_short.md)]in laajennukset](ui-extensions-other.md)  
+[Muiden palveluntarjoajien [!INCLUDE[prod_short](includes/prod_short.md)]in sovellukset](ui-extensions-other.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

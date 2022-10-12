@@ -7,38 +7,38 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 10/01/2021
+ms.date: 09/28/2022
 ms.author: jswymer
-ms.openlocfilehash: addfaaf3e5991e5e0bce4d7e39c47f645cd6a2de
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: d9dfc380b1b8a76fc06363740b256f28b162a85a
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528577"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606114"
 ---
 # <a name="teams-faq"></a>Teams – usein kysytyt kysymykset
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-Tässä artikkelissa vastataan joihinkin kysymyksiin, joita sinulla voi olla Teamsin ja [!INCLUDE [prod_short](includes/prod_short.md)] käytöstä.
+Tässä artikkelissa vastataan joihinkin kysymyksiin, joita sinulla voi olla Microsoft Teamsin ja sovelluksen [!INCLUDE [prod_short](includes/prod_short.md)] käyttämiseen liittyen.
 
 ## <a name="general"></a>[Yleiset](#tab/general)
 
 ### <a name="how-do-i-sign-in-to-the-prod_shortmd-app-in-teams"></a>Miten kirjaudun [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellukseen Teamsissa?
 
-Sovelluksen asennuksen jälkeen sinua pyydetään kirjautumaan sisään, kun käytät sovellusten ensimmäisen kerran, kun liität [!INCLUDE [prod_short.md](includes/prod_short.md)] -linkin Teams-keskusteluun tai kun valitset Teamsin kortissa **Tiedot**-toiminnon. Teams-asiakkaan mukaan sinun on ehkä annettava tunnistetiedot, joita käytät [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellukseen kirjautumiseen.
+Sovelluksen asennuksen jälkeen sinua pyydetään kirjautumaan sisään, kun käytät sovellusta ensimmäisen kerran, kun liität [!INCLUDE [prod_short.md](includes/prod_short.md)] -linkin Teams-keskusteluun tai kun valitset Teamsin kortissa **Tiedot**-toiminnon. Teams-asiakkaan mukaan sinun on ehkä annettava tunnistetiedot, joita käytät kirjautuessasi sovellukseen [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
 ### <a name="how-do-i-sign-out-of-the-prod_shortmd-app-in-teams"></a>Miten kirjaudun ulos [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksesta Teamsissa?
 
-Voit kirjautua ulos Teamsin käyttäjätiedoista, jota käytettiin yhteyden muodostamiseen [!INCLUDE [prod_short.md](includes/prod_short.md)]iin, siirtymällä johonkin keskusteluruutuun, napsauttamalla hiiren kakkospainikkeella alla olevaa [!INCLUDE [prod_short.md](includes/prod_short.md)] -kuvaketta ja valitsemalla sitten **Asetukset**. Kun ikkuna avautuu, valitse käyttäjätiedot, joilla olet kirjautuneena, ja valitse lopuksi **Kirjaudu ulos**.
+Voit kirjautua ulos Teamsista, jota käytettiin muodostettaessa yhteys sovellukseen [!INCLUDE [prod_short.md](includes/prod_short.md)], siirtymällä johonkin keskusteluruutuun, napsauttamalla hiiren kakkospainikkeella alla olevaa [!INCLUDE [prod_short.md](includes/prod_short.md)] -kuvaketta ja valitsemalla sitten **Asetukset**. Kun ikkuna avautuu, valitse käyttäjätiedot, joilla olet kirjautuneena, ja valitse lopuksi **Kirjaudu ulos**.
 
-### <a name="does-the-app-for-teams-connect-to-prod_shortmd-on-premises"></a>Yhdistyykö Teams-sovellus [!INCLUDE [prod_short.md](includes/prod_short.md)]in paikalliseen versioon? 
+### <a name="does-the-app-for-teams-connect-to-prod_shortmd-on-premises"></a>Muodostetaanko Teamsin sovelluksesta yhteys [!INCLUDE [prod_short.md](includes/prod_short.md)] on-premises -sovellukseen? 
 
-Ei. [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus Teamsille toimii vain [!INCLUDE [prod_short.md](includes/prod_short.md)] online -version kanssa. [!INCLUDE [prod_short.md](includes/prod_short.md)]&mdash; -käyttöönottotyyppejä, joita Microsoft ei isännöi tai hallitse – kuten paikallista, hybridipilveä tai yksityistä pilveä – ei tueta.
+Nro [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus Teamsille toimii vain [!INCLUDE [prod_short.md](includes/prod_short.md)] online -version kanssa. [!INCLUDE [prod_short.md](includes/prod_short.md)] -käyttöönottotyyppejä, joita Microsoft ei isännöi tai hallitse – kuten paikallista, hybridipilveä tai yksityistä pilveä – ei tueta.
 
 ### <a name="does-the-app-work-with-multiple-companies-and-environments"></a>Toimiiko sovellus useissa yrityksissä ja ympäristöissä? 
 
-Kyllä. Toisessa yrityksessä olevia yhteyshenkilöitä voi hakea valitsemalla [Asetukset](across-teams-settings.md). Kun [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus laajentaa linkin korttiin, linkin tulee sisältää sovelluksen ympäristön ja yrityksen nimet, jotka vastaavat oikean yrityksen tietueita. Voit liittää linkkejä kaikkiin yrityksiin ja ympäristöihin, joihin sinulla on käyttöoikeus organisaatiossasi, ja [!INCLUDE [prod_short.md](includes/prod_short.md)] -tililtä, jota käytit sisäänkirjautuessa. Chatin osanottajat näkevät kortin. He eivät kuitenkaan voi tarkastella kortin tietoja, ellei heillä ole oikeuksia yritykseen tai ympäristöön, jossa kyseinen tietue on tallennettuna.
+Kyllä. Toisessa yrityksessä olevia yhteyshenkilöitä voi hakea valitsemalla [Asetukset](across-teams-settings.md). Kun sovellus [!INCLUDE [prod_short.md](includes/prod_short.md)] laajentaa linkin korttiin, linkin tulee sisältää sovelluksen ympäristön ja yrityksen nimet, jotka vastaavat oikean yrityksen tietueita. Voit liittää linkkejä kaikkiin yrityksiin ja ympäristöihin, joihin sinulla on käyttöoikeus organisaatiossasi, ja [!INCLUDE [prod_short.md](includes/prod_short.md)] -tililtä, jota käytit sisäänkirjautuessa. Chatin osanottajat näkevät kortin. He eivät kuitenkaan voi tarkastella kortin tietoja, ellei heillä ole oikeuksia yritykseen tai ympäristöön, jossa kyseinen tietue on tallennettuna.
 
 ### <a name="in-which-countries-or-regions-is-the-prod_shortmd-app-available"></a>Missä maissa tai millä alueilla [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus on saatavilla? 
 
@@ -59,7 +59,7 @@ Seuraavassa taulukossa kuvataan, miten viestin tekijöiden ja vastaanottajien ko
 
 |Kuka|Kortti|Kortin tiedot |
 |-|----|--------------| 
-|Viestin tekijä |Näkyy Teamsissa määritetyllä kielellä. Jos [!INCLUDE [prod_short.md](includes/prod_short.md)] ei tarjoa samaa kieltä, kortti näkyy englanniksi. |Näkyy [!INCLUDE [prod_short.md](includes/prod_short.md)]issa määritetyllä kielellä.  jotka voivat sisältää kumppaneiden tarjoamien kielisovellusten kieliä. |
+|Viestin tekijä |Näkyy Teamsissa määritetyllä kielellä. Jos [!INCLUDE [prod_short.md](includes/prod_short.md)] ei tarjoa samaa kieltä, kortti näkyy englanniksi. |Näytetään kielellä, joka sovelluksessa [!INCLUDE [prod_short.md](includes/prod_short.md)] on määritetty. Kielet voivat olla kumppaneiden tarjoamien kielisovellusten kieliä. |
 |Viesti vastaanottaja |Näkyy viestin tekijän kielellä. |Näkyy [!INCLUDE [prod_short.md](includes/prod_short.md)]issa määritetyllä kielellä. |
 
 Luettelo [!INCLUDE [prod_short.md](includes/prod_short.md)]in tuetuista kielistä on kohdassa [Tuetut kielet](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json#supported-languages).
@@ -73,11 +73,11 @@ Kyllä. Kuitenkin vain joitakin sovelluksen ominaisuuksia voi käyttää [upotet
 
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>Toimiiko [!INCLUDE [prod_short.md](includes/prod_short.md)] Teamsin mobiilisovelluksen kanssa?
 
-Kyllä. [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus voidaan asentaa tiimien Teams-työpöytäsovelluksesta tai selaimesta tai järjestelmänvalvoja kaikille käyttäjille. Kun [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus on asennettu, se on automaattisesti saatavilla Teamsin iOS- ja Android-sovelluksissa. Mobiililaitteissa voi vain katsella muiden lähettämiä kortteja, käyttää tietoja tai avata kortti koko käyttökokemuksessa [!INCLUDE [prod_short.md](includes/prod_short.md)] -mobiilisovelluksessa. Et voi kuitenkaan liittää linkkejä, jotka laajentuvat korteiksi viestejä kirjoittaessa, etkä hakea yhteyshenkilöitä. Mobiilisovelluksen vähimmäisvaatimukset ovat kohdassa [Business Centralin käyttämisen vähimmäisvaatimukset](product-requirements.md).
+Kyllä. [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus voidaan asentaa tiimien Teams-työpöytäsovelluksesta tai selaimesta tai järjestelmänvalvoja kaikille käyttäjille. Kun [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus on asennettu, se on automaattisesti saatavilla Teamsin iOS- ja Android-sovelluksissa. Mobiililaitteissa voi vain katsella muiden lähettämiä kortteja, käyttää tietoja tai avata kortti koko käyttökokemuksessa [!INCLUDE [prod_short.md](includes/prod_short.md)] -mobiilisovelluksessa. Et voi kuitenkaan liittää linkkejä, jotka laajentuvat korteiksi viestejä kirjoittaessa, etkä hakea yhteyshenkilöitä. Lisätietoja mobiilisovelluksen vähimmäisvaatimuksista ovat kohdassa [Business Centralin käyttämisen vähimmäisvaatimukset](product-requirements.md).
 
 ### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>Onko [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus Teamsille sama kuin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksen iOS- ja Android-versiot?
 
-Ei. Sovellus Teamsille on Microsoft Teamsin apuohjelma, joka on suunniteltu erityisesti yhteistyökokemuksiin Teamsissa. Toisaalta [!INCLUDE [prod_short.md](includes/prod_short.md)] -mobiilisovelluksessa on monipuoliset käyttökokemukset [!INCLUDE [prod_short.md](includes/prod_short.md)] -tietojen työstöön mobiililaitteissa.
+Ei. Sovellus Teamsille on Microsoft Teamsin apuohjelma, joka on suunniteltu erityisesti yhteistyöhön Teamsin kanssa. Vaihtoehtoisesti [!INCLUDE [prod_short.md](includes/prod_short.md)] -mobiilisovelluksessa on monipuoliset käyttökokemukset [!INCLUDE [prod_short.md](includes/prod_short.md)] -tietojen työstöön mobiililaitteissa.
 
 Mobiilikäyttäjiä kehotetaan asentamaan sekä mobiilisovellus että Teams-sovellus, jottaa [!INCLUDE [prod_short.md](includes/prod_short.md)]ista saadaan irti mahdollisimman paljon. Kun molemmat on asennettu, voit valita **Ponnahdusruutu**-toiminnon Teamsin kortissa avataksesi kortin tiedot [!INCLUDE [prod_short.md](includes/prod_short.md)] -mobiilisovelluksessa. Lisätietoja [!INCLUDE [prod_short.md](includes/prod_short.md)]- ja Teams-mobiilisovellusten asentamisesta on kohdassa:
 
@@ -86,7 +86,7 @@ Mobiilikäyttäjiä kehotetaan asentamaan sekä mobiilisovellus että Teams-sove
 
 ### <a name="does-the-prod_shortmd-app-work-in-all-teams-clients"></a>Toimiiko [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus kaikkien Teams-asiakkaiden kanssa?
 
-Ei. Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellusta ei tueta asennettaessa macOS-tai Linux-pakettina. Näillä alustoilla voit käyttää Teamsia sen sijaan tuetulla selaimella.
+Nro Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellusta ei tueta asennettaessa macOS-tai Linux-pakettina. Näissä ympäristöissä voit käyttää Teamsia sen sijaan tuetulla selaimella.
 
 [!INCLUDE [prod_short.md](includes/prod_short.md)]in vähimmäisvaatimukset ovat kohdassa [Business Centralin käyttämisen vähimmäisvaatimukset](product-requirements.md#teams).
 
@@ -97,14 +97,14 @@ Lisätietoja Teams-asiakkaiden valinnasta ja niiden asentamisesta on Teamsin dok
 Teams-asiakkaiden välillä on vain vähäisiä eroja ja rajoituksia, jotka voivat vaikuttaa Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksen käyttökokemukseen. Kun valitset Teams-asiakasta, harkitse seuraavia asioita:
 
 - Kameraa ja sijaintia ei voi käyttää Teams-työpöytäsovelluksen Tiedot-ikkunasta.
-- Puhelinnumeroita ei voi aktivoida iOS:n ja Androidin Teamsin tai selaimen Teamsin tietoikkunassa.
+- Puhelinnumeroita ei voi aktivoida iOS:n tai AndroidinTeamsin tai selaimen Teamsin tietoikkunassa.
 - Käyttämällä Microsoft Edgeä Teamsin kanssa selaimessa voit helposti työskennellä eri tunnistetiedoilla ja tileillä kirjautumalla Teamsiin eri profiileista. Jos haluat lisätietoja profiilien käyttämisestä Microsoft Edge -ohjelmassa, katso ohjeaihe [Kirjautuminen ja usean profiilin luominen Microsoft Edgessä](https://support.microsoft.com/office/sign-in-and-create-multiple-profiles-in-microsoft-edge-df94e622-2061-49ae-ad1d-6f0e43ce6435).
 
 ### <a name="what-is-the-best-way-for-me-to-demonstrate-prod_shortmd-and-microsoft-teams-to-prospective-customers"></a>Mikä on paras tapa esitellä [!INCLUDE [prod_short.md](includes/prod_short.md)]ia ja Microsoft Teamsia mahdollisille asiakkaille?
 
 Jos olet jälleenmyyjäkumppani, haluat ehkä saada ympäristön, jonka voit näyttää prospekteille osana myyntiä edeltäviä esittelyjä. Jotta et vaikuttaisi organisaatiosi Microsoft Teamsiin, voit hankkia Microsoft 365 -esittelytilin osoitteesta [https://aka.ms/CDX](https://aka.ms/CDX). Tämän tilin avulla voit hallita täysin itsenäistä Azure-organisaatiota, joka sisältää Microsoft Teamsin ja [!INCLUDE [prod_short.md](includes/prod_short.md)]in. Lisätietoja on kohdassa [Dynamics 365 Business Central -esittely-ympäristöjen valmistelu](/dynamics365/business-central/dev-itpro/administration/demo-environment).
 
-### <a name="does-the-prod_shortmd-app-for-teams-cater-for-my-customization-and-personalization"></a>Ottaako Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus huomioon mukautukseni ja personointini?
+### <a name="does-the-prod_shortmd-app-for-teams-cater-to-my-customization-and-personalization"></a>Ottaako Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus huomioon mukautukseni ja personointini?
 
 Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus voi näyttää kortteja, joissa on linkkejä asiakkaan sivuihin ja taulukoihin [!INCLUDE [prod_short.md](includes/prod_short.md)]issa, kuten sivuihin ja taulukoihin, jotka ovat peräisin omista mukautetuista laajennuksistasi tai AppSourcesta.
 
@@ -114,9 +114,9 @@ Yhteyshenkilöitä haettaessa mukautuksella tai mukauttamisella ei ole vaikutust
 
 ### <a name="how-do-the-permissions-required-by-the-app-affect-my-privacy"></a>Miten sovelluksen vaatimat käyttöoikeudet vaikuttavat tietosuojaan?
 
-Ennen kuin asennat Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksen, voit tarkastella sovelluksen toiminnan edellyttämiä vähimmäisoikeuksia. Asentamalla sovelluksen hyväksyt sen, että sovelluksella on oikeus vastaanottaa sille tarjoatut viestit ja tiedot, ja Teamsilla on oikeus säilyttää ja käsitellä näitä viestejä.
+Ennen kuin asennat Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovelluksen, voit tarkastella sovelluksen toiminnan edellyttämiä vähimmäisoikeuksia. Asentamalla sovelluksen hyväksyt sen, että sovelluksella on oikeus vastaanottaa sille tarjotut viestit ja tiedot, ja Teamsilla on oikeus säilyttää ja käsitellä näitä viestejä.
 
-Myös jotkin [!INCLUDE [prod_short.md](includes/prod_short.md)] -ominaisuudet edellyttävät ulkoisten linkkien avaamista tai kameran tai maantieteellisen sijainnin käyttöä. Oletetaan esimerkiksi, että haluat siepata kuvan ostolaskusta käsittelyä varten. [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus ei käytä näitä ominaisuuksia ilman suostumustasi, ja ne ovat vain tiettyjen ominaisuuksien käytössä **Tiedot**-ikkunassa. Kun käytät jotakin näistä ominaisuuksista ensimmäistä kertaa, Teams näyttää valintaikkunan, jossa sinua pyydetään myöntämään käyttöoikeus tarvittaviin laiteominaisuuksiin.
+Myös jotkin [!INCLUDE [prod_short.md](includes/prod_short.md)] -ominaisuudet edellyttävät ulkoisten linkkien avaamista tai kameran tai maantieteellisen sijainnin käyttöä. Oletetaan, että haluat siepata kuvan ostolaskusta käsittelyä varten. [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus ei käytä näitä ominaisuuksia ilman suostumustasi, ja ne ovat vain tiettyjen ominaisuuksien käytössä **Tiedot**-ikkunassa. Kun käytät jotakin näistä ominaisuuksista ensimmäistä kertaa, Teams näyttää valintaikkunan, jossa sinua pyydetään myöntämään käyttöoikeus tarvittaviin laiteominaisuuksiin.
 
 - Teams-työpöydällä voit tarkastella ja muuttaa sovelluksen käyttö oikeuksia **Asetukset**-ikkunassa. Valitse profiilikuvasi sovelluksen yläosasta, valitse **Asetukset** > **Käyttöoikeudet** ja valitse sitten [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus.
 
@@ -143,7 +143,7 @@ Jos haluat osallistua Teamsin sovelluksen parantamiseen tai sinulla on idea, jok
 
 ### <a name="where-can-i-find-teams-integration-inside-the-business-central-web-client"></a>Mistä löydän Teams-integroinnin Business Central -verkkoasiakkaan sisällä? 
 
-Teamsiin linkitetyn verkkoasiakkaan toimintojen osalta tietoja on kohdassa [Tietueiden ja sivulinkkien jakaminen Microsoft Teamsissa](across-working-with-teams.md#share-link).
+Lisätietoja Teamsiin linkitetyn verkkoasiakkaan toiminnoista on kohdassa [Tietueiden ja sivulinkkien jakaminen Microsoft Teamsissa](across-working-with-teams.md#share-link).
 
 ## <a name="search-for-contacts"></a>[Hae yhteyshenkilöitä](#tab/contacts)
 
@@ -153,10 +153,9 @@ Kun yhteyshenkilöitä haetaan Teamsin [!INCLUDE [prod_short.md](includes/prod_s
 
 ### <a name="which-fields-in-the-contacts-table-can-i-search"></a>Missä yhteyshenkilötaulukon kentissä voi tehdä hakuja?
 
-Kun hakusanoja kirjoitetaan hakuruutuun, niitä verrataan useimpiin **Yhteyshenkilöt**-taulukon kenttiin. Näitä kenttiä ovat esimerkiksi **Nro**-, **Nimi**-ja **Osoite**-kentät, **Puhelinnro** tai **Matkapuhelinnro** ja **Sähköposti**. 
+Kun hakusanoja kirjoitetaan hakuruutuun, niitä verrataan useimpiin **Yhteyshenkilöt**-taulukon kenttiin. Näitä kenttiä ovat esimerkiksi **Nro**, **Nimi**, **Osoite**, **Puhelinnro** tai **Matkapuhelinnro** ja **Sähköposti**. 
 
 Hakutermejä ei yhdistetä mukautettuihin kenttiin, joita sovellukset ja laajennukset ovat lisänneet **Yhteystiedot**-taulukkoon.
-
 ### <a name="do-search-results-include-companies-and-persons"></a>Sisältävätkö hakutulokset yritykset ja henkilöt?
 
 Kyllä. Yhteyshenkilöiden tyyppi [!INCLUDE [prod_short.md](includes/prod_short.md)]issa voi olla **Yritys** tai **Henkilö**, kun vähintään yksi henkilö voi olla liitetty yritykseen. Yrityksillä ja henkilöillä on hakutuloksissa erilainen kuvake.
@@ -270,7 +269,7 @@ Kun kirjoitat ja lähetät viestin keskusteluun, jossa on kortti, kaikki käytt�
 
 ### <a name="how-do-i-find-out-which-company-a-card-in-teams-belongs-to"></a>Miten saan selville, mihin yritykseen Teams-kortti kuuluu?
 
-Jos työskentelet eri [!INCLUDE [prod_short.md](includes/prod_short.md)] -yrityksissä, kysy järjestelmänvalvojalta yritystunnuksen käyttöönottoa jokaiselle yritykselle. Kun toiminto on käytössä, tämä selkeä vihje näkyy Teamsissa kaikissa tietoikkunoissa ja siinä näkyy yritys ja ympäristö, johon tietue kuuluu. Lisätietoja yritysmerkin määrittämisestä on ohjeaiheessa [Yrityksen tietojen nopea käyttäminen näyttämällä yrityksen tunnus](ui-change-basic-settings.md#badge).
+Jos työskentelet eri [!INCLUDE [prod_short.md](includes/prod_short.md)] -yrityksissä, kysy järjestelmänvalvojalta yritystunnuksen käyttöönottoa jokaiselle yritykselle. Kun toiminto on käytössä, tämä selkeä vihje näkyy Teamsissa kaikissa tietoikkunoissa ja siinä näkyy yritys ja ympäristö, johon tietue kuuluu. Lisätietoja yrityksen merkin määrittämisestä on kohdassa [Yrityksen merkkien näyttäminen](admin-company-information.md#badge).
 
 ## <a name="work-with-card-details"></a>[Korttitietojen käsitteleminen](#tab/carddetails)
 
@@ -326,7 +325,7 @@ Vierailla ei ole pääsyä sovelluskauppaan, jotta he voisivat asentaa itse sove
 
 ### <a name="does-share-to-teams-send-a-compact-card"></a>Lähettääkö Jaa Teamsiin -toiminto kompaktin kortin? 
 
-Tällä hetkellä vain syvä linkki sivulle jaetaan. Vastaanottajat näkevät hyperlinkin viestissäsi, jonka kautta he voivat siirtyä [!INCLUDE [prod_short.md](includes/prod_short.md)]iin erilliseen selainikkunaan. 
+Kyllä. Linkki laajenee automaattisesti korttiin, jos Teamsille on asennettu Business Central-sovellus. 
 
 ### <a name="will-recipients-receive-the-message-from-me-or-from-a-business-central-service-account"></a>Saavatko vastaanottajat viestin minulta vai Business Central -palvelutililtä? 
 
@@ -334,7 +333,7 @@ Kun käytät Jaa Teamsiin -toimintoa, viesti lähetetään henkilölle, ryhmäll
 
 ### <a name="is-share-to-teams-available-in-business-central-on-premises"></a>Onko Jaa Teamsiin -toiminto saatavilla Business Central on-premises -versiolle? 
 
-Ei. Tämä toiminto on saatavilla vain verkkoasiakasohjelmalle [!INCLUDE [prod_short.md](includes/prod_short.md)] onlinessa samoin kuin Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus. [!INCLUDE [prod_short.md](includes/prod_short.md)] -käyttöönottotyyppejä, joita Microsoft ei isännöi tai hallitse – kuten paikallista, hybridipilveä tai yksityistä pilveä – ei tueta.
+Ei. Tämä toiminto on saatavilla vain verkkoasiakasohjelmalle [!INCLUDE [prod_short.md](includes/prod_short.md)] onlinessa samoin kuin Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellus. [!INCLUDE [prod_short.md](includes/prod_short.md)]&mdash; -käyttöönottotyyppejä, joita Microsoft ei isännöi tai hallitse – kuten paikallista, hybridipilveä tai yksityistä pilveä – ei tueta.
 
 ### <a name="does-share-to-teams-grant-permissions-to-recipients"></a>Myöntääkö Jaa Teamsiin -toiminto käyttöoikeuksia vastaanottajille? 
 

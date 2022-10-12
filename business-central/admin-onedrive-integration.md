@@ -9,21 +9,72 @@ ms.workload: na
 ms.search.keywords: OneDrive, share, browser
 ms.date: 02/28/2022
 ms.author: jswymer
-ms.openlocfilehash: c55abae59196d896b48a7b656e7fb7c4c7734fa8
-ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
+ms.openlocfilehash: cb9f91caa06ed1b5bf579bf4be477c906a588faf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9524491"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606303"
 ---
 # <a name="managing-onedrive-integration-with-business-central"></a>OneDriven ja Business Centralin integroinnin hallinta
 
-Tässä artikkelissa on yleiskuvaus siitä, mitä voit tehdä järjestelmänvalvojana, kun haluat hallita OneDrive for Businessin ja [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman integrointia. [!INCLUDE[prod_short](includes/prod_short.md)] online -asiakkaat hyötyvät automaattisesta integroinnista, eikä näiden toimintojen käyttöön tarvitse määrittää lisäasetuksia. 
+Tässä artikkelissa on yleiskuvaus siitä, mitä voit tehdä järjestelmänvalvojana, kun haluat hallita OneDrive for Businessin ja [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman integrointia. [!INCLUDE[prod_short](includes/prod_short.md)] online -asiakkaat hyötyvät automaattisesta integroinnista, eikä OneDriven avaamisen ja jakamisen käyttäminen ei vaadi ylimääräisiä asetuksia. **OneDrive määritys** avustetun määritysoppaan avulla käyttäjät voivat käyttää entistä useampia OneDrive-toimintoja, kuten avata Excel-tiedoston OneDrivessä&mdash;tai jopa poistaa kaikki ominaisuudet käytöstä.  
 
-## <a name="minimum-requirements"></a>Vähimmäisvaatimukset
+## <a name="configure-onedrive-for-integration-with-business-central"></a>Määritä OneDrive:n ja Business Centralin integrointi
+
+Tässä osassa käsitellään tarpeita, joiden on täytyttävä OneDrivessa, jotta yritys voi määrittää integroinnin Business Centralin ja haluamasi tehtävän kanssa.
+
+### <a name="minimum-requirements"></a>Vähimmäisvaatimukset
 
 * Jokaisella käyttäjällä on oltava [!INCLUDE[prod_short](includes/prod_short.md)]in ja OneDriven käyttöoikeus osana Microsoft 365 -palvelupakettia.
 * OneDrive on määritettävä kullekin käyttäjälle.
+
+### <a name="managing-privacy"></a>Yksityisyyden hallinta
+
+> [!IMPORTANT]
+> Jos olet valinnut Business Centralin ja OneDriven eri maiden tai alueiden käyttöönoton, Business Centralin luomat ja OneDriveen asetetut tiedostot saattavat olla asuinpaikkarajojen ulkopuolella. Varmista, että vahvistat organisaation käytännöt ja tietojen noudattamista koskevat viranomaisvaatimukset ennen yhteyden muodostamista OneDriveen.
+
+Järjestelmänvalvojat ja käyttäjät voivat hallita OneDriveen tallennettuja sisältöjä, ja nämä tiedot omistaa vain oma organisaatiosi. Lisätietoja on ohjeaiheessa [Miten SharePoint ja OneDrive turvaavat tietosi pilvipalvelussa](/sharepoint/safeguarding-your-data). Voit myös käydä [Microsoftin tietosuojatiedoissa](https://privacy.microsoft.com/en-us/privacystatement), jossa selitetään Microsoftin käsittelemät tiedot, miten Microsoft käsittelee niitä ja mihin käyttötarkoituksiin.
+
+Ottamalla tämän palveluyhteyden käyttöön hyväksyt, että
+
+(a) tietoja voidaan jakaa tästä Dynamics 365 Business Central -tuotteesta palveluntarjoajalle, joka käyttää tietoja tuotteen käyttöehtojen ja tietosuojakäytännön mukaisesti, (b) palveluntarjoajan yhteensopivuustasot voivat olla eri kuin Dynamics 365 Business Central -tuotteessa ja että (c) Microsoft voi jakaa yhteystietosi tälle palveluntarjoajalle tarvittaessa, jotta se voi käyttää palvelua ja ratkaista palveluun liittyviä ongelmia.
+
+## <a name="configure-business-central"></a>Määritä Business Central
+
+Business Central online -yhteydessä Business Centralin ja OneDriven välinen yhteys on määritetty automaattisesti, ja OneDrive-ominaisuudet ovat helposti käyttäjien saatavilla oletusarvoisesti. Jos haluat poistaa käytöstä jotkin tai kaikki ominaisuudet, voit käyttää Business Central -asiakassovelluksen **OneDrive-määrityksen** asetusten ohjattua määritysopasta.
+
+Paikallisen Business Centralin määrittäminen on erilainen, sillä Business Centralin ja OneDriven välistä yhteyttä ei ole määritetty sinulle. Sinun tulee tehdä se manuaalisesti. Lisätietoja on kohdassa [OneDrive-integraation ja paikallisen Business Central -version välinen määritys](admin-onedrive-integration-onpremises.md).
+
+### <a name="about-multiple-environments"></a>Tietoja useista ympäristöistä
+
+OneDrive-integrointi on määritetty ympäristöä kohden eli asetuksia käytetään kaikissa kyseisen ympäristön yrityksissä. Jos organisaatiossasi on enemmän kuin yksi ympäristö, sinun on määritettävä kunkin OneDrive-integrointi.
+
+### <a name="prerequisites"></a>Vaatimukset
+
+- Vähintään epäsuora-, Muokkaa- ja Poista (IMD)-käyttöoikeus taulukossa **Asiakirja huoltoskenaariolle**
+
+### <a name="configure-onedrive-using-onedrive-setup"></a>OneDriven määritys käyttämällä OneDrive-asetuksia
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **OneDrive -määritys** ja valitse sitten vastaava linkki. 
+2. Kun suoritat asetusten ohjatun määrityksen ensimmäisen kerran, näet **Oma tietosuoja**. Lue sivun tiedot, ja jos hyväksyt käyttöehdot, jatka valitsemalla **Hyväksy**.
+3. **Määritä tiedoston käsittely** -sivulla voit valita seuraavista vaihtoehdoista:
+
+   [!INCLUDE[onedrive-feature-options](includes/onedrive-feature-options.md)]
+4. Valitse **Seuraava**>**Valmis**.
+
+### <a name="switching-to-new-onedrive-integration-after-upgrade"></a>Siirtyminen uuteen OneDrive-integrointiin päivityksen jälkeen
+
+**OneDrive-määrityksen** asetusten ohjattu määritys otettiin käyttöön vuoden 2022 julkaisuaallossa 2, versiossa 21.0. Aiemmin OneDrive-integrointi käytti **SharePoint-yhteyden asetuksia**, jotka on vanhentunut ja poistetaan vuoden 2023 julkaisuaalto 2:ssa, versiossa 23.0. Kun olet päivittänyt versioon 21, OneDrive toimii edelleen kuten ennenkin. Suosittelemme kuitenkin, että siirryt uuteen OneDrive-integrointiin. Tämän vaihdon tekeminen nyt helpottaa sitä, kun **SharePoint-yhteyden asetukset** poistetaan lopullisesti. Lisäksi sen avulla voit käyttää **OneDrive-määrityksen** asetusten ohjattu määritysopasta käyttäjien käytettävissä olevien OneDrive-ominaisuuksien hallintaan. **OneDrive-määrityksen** asetusten ohjattu määritys tekee siirtymisen vanhasta SharePoint-määrityksestä helpoksi ja saumattomaksi.
+
+Voit vaihtaa yksinkertaisesti avaamalla ja suorittamalla **OneDrive-määrityksen** asetusten ohjatun määrityksen suoraan tai avaamalla **SharePoint-yhteysmääritys**-sivun ja valitsemalla sivun yläreunassa olevasta ilmoituksesta **Siirry uusiin OneDrive-asetuksiin**. Noudata edellisessä osassa kuvattuja asennusohjeita.
+
+## <a name="restoring-onedrive-and-prod_short"></a>OneDriven ja [!INCLUDE[prod_short](includes/prod_short.md)]in palauttaminen
+
+Osana katastrofitilanteen palauttamisen harjoitusta järjestelmänvalvojat voivat joutua palauttamaan [!INCLUDE[prod_short](includes/prod_short.md)] online -ympäristö aiempaan varmuuskopioon ja synkronoimaan OneDrive-tallennustila samaan ajankohtaan. OneDrive-ohjelmassa on erilaisia palautustyökaluja tähän, kuten käyttäjän OneDriven palauttaminen aiempaan hetkeen, yksittäisen tiedoston aiemman version palauttaminen tai poistettujen tiedostojen palauttaminen. Lisätietoja on seuraavissa artikkeleissa:
+
+* Lisätietoja [!INCLUDE[prod_short](includes/prod_short.md)]ille on kohdassa [Ympäristön palauttaminen hallintakeskuksessa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
+* Lisätietoja OneDrivelle on kohdassa [OneDriven palauttaminen](https://support.microsoft.com/en-us/office/restore-your-onedrive-fa231298-759d-41cf-bcd0-25ac53eb8a15?ui=en-us&rs=en-us&ad=us)
 
 ## <a name="governance"></a>Hallinto
 
@@ -39,83 +90,6 @@ SharePoint-hallintakeskus tarjoaa laajat hallintamahdollisuudet käytännöille,
 
 > [!NOTE]
 > Jotkin ominaisuudet voivat olla käytettävissä vain tietyissä suunnitelmissa.
-
-## <a name="managing-privacy"></a>Yksityisyyden hallinta
-
-Järjestelmänvalvojat ja käyttäjät voivat hallita OneDriveen tallennettuja sisältöjä, ja nämä tiedot omistaa vain oma organisaatiosi. Lisätietoja on ohjeaiheessa [Miten SharePoint ja OneDrive turvaavat tietosi pilvipalvelussa](/sharepoint/safeguarding-your-data). Voit myös käydä [Microsoftin tietosuojatiedoissa](https://privacy.microsoft.com/en-us/privacystatement), jossa selitetään Microsoftin käsittelemät tiedot, miten Microsoft käsittelee niitä ja mihin käyttötarkoituksiin.
-
-## <a name="restoring-onedrive-and-prod_short"></a>OneDriven ja [!INCLUDE[prod_short](includes/prod_short.md)]in palauttaminen
-
-Osana katastrofitilanteen palauttamisen harjoitusta järjestelmänvalvojat voivat joutua palauttamaan [!INCLUDE[prod_short](includes/prod_short.md)] -ympäristö aiempaan varmuuskopioon ja synkronoimaan OneDrive-tallennustila samaan ajankohtaan. OneDrive-ohjelmassa on erilaisia työkaluja tähän, kuten käyttäjän OneDriven palauttaminen aiempaan hetkeen, yksittäisen tiedoston aiemman version palauttaminen tai poistettujen tiedostojen palauttaminen. Lisätietoja on seuraavissa artikkeleissa:
-
-* Lisätietoja [!INCLUDE[prod_short](includes/prod_short.md)]ille on kohdassa [Ympäristön palauttaminen hallintakeskuksessa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
-* Lisätietoja OneDrivelle on kohdassa [OneDriven palauttaminen](https://support.microsoft.com/en-us/office/restore-your-onedrive-fa231298-759d-41cf-bcd0-25ac53eb8a15?ui=en-us&rs=en-us&ad=us)
-
-## <a name="configuring-business-central-on-premises"></a>Business Central on-premises -version määrittäminen
-
-Järjestelmänvalvojan täytyy määrittää yhteys [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -asennuksen ja OneDriven välillä. Toisin kuin [!INCLUDE[prod_short](includes/prod_short.md)] onlinessa, yhteys ei ole automaattinen. Jos yhteyttä ei ole määritetty, käyttäjät eivät voi käyttää OneDriven ominaisuuksia.
-
-[!INCLUDE[prod_short](includes/prod_short.md)] on-premises voidaan yhdistää vain OneDriveen, jota isännöi Microsoft pilvipalvelussa. Yhteyden muodostamista [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -asennuksesta SharePoint-palvelimen Omat sivustot -säilöön ei tueta.
-
-> [!IMPORTANT]
-> Määrittämällä tämän ominaisuuden voit ottaa käyttöön myös vanhat ominaisuudet, jotka lähettävät tiedostoja OneDriveen.  
->
->* Avaa Excelissä -toiminto kopioi Excel-tiedoston automaattisesti OneDriveen ja avaa sen sitten Excel Onlinessa. 
->* Jos viet raportin tiedostoon, ohjelma kopioi tiedoston automaattisesti OneDriveen ja avaa sen sitten Excel Onlinessa, Word Onlinessa tai OneDrivessa. 
->* Myös muut toiminnot voivat avautua automaattisesti OneDrivessa.
-
-### <a name="prepare-prod_short-on-premises-for-connecting-to-onedrive"></a>[!INCLUDE[prod_short](includes/prod_short.md)] on-premises -version OneDrive-yhteyden valmistelu
-
-<!-- 
-1. For the best experience Configure Azure Active Directory (AD) authentication.
-
-   For more information, see [Authenticating Business Central Users with Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory)-->
-
-Lisää rekisteröity sovellus Business Centralille Microsoft 365 -suunnitelman Azure AD -vuokraajassa. Muiden Business Centralissa käytettävien Azure-palvelujen tavoin OneDrive edellyttää, että sovellus rekisteröidään Azure Active Directoryssa (Azure AD). Sovelluksen rekisteröinti tuottaa Business Centralin ja SharePointin välisiä todennus- ja valtuutuspalveluita, jota OneDrive käyttää.
-
-Määritä rekisteröidylle sovellukselle seuraavat delegoidut käyttöoikeudet SharePoint API -liittymään:
-
-- AllSites.FullControl
-- User.ReadWrite.All 
-
-Määritä Business Centralin vuoden 2021 2. julkaisuaallossa (versio 19) sen sijaan nämä oikeudet:
-
-- AllSites.Write
-- MyFiles.Write
-- User.Read.All 
-
-Tämä tehdään Azure-portaalissa. Kopioi rekisteröidyn sovelluksen käyttämä sovelluksen (asiakkaan) tunnus ja asiakkaan salaisuus. Tarvitset näitä tietoja seuraavassa tehtävässä.
-
-Lisätietoja tilin edellytyksistä, sovelluksen rekisteröimisestä ja käyttöoikeuksien määrittämisestä on kehittäjän ja IT-ammattilaisen ohjeen kohdassa [Sovelluksen rekisteröiminen Azure Active Directoryssa](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
-
-> [!TIP]
-> Jos olet jo rekisteröinyt sovelluksen osana jonkin muun Microsoft-tuotteen (kuten Power BI) integrointia, voit käyttää kyseistä sovelluksen rekisteröintiä uudelleen. Tässä tapauksessa sinun täytyy vain määrittää SharePoint-käyttöoikeudet.
-
-### <a name="set-up-the-connection-in-prod_short-on-premises"></a>Yhteyden määrittäminen [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -asennuksessa
-
-<!--
-> [!NOTE]
-> This requires the following types of authentication credentials:
->
-> * Windows
-> * NavUserPassword
-> * Azure Active Directory
--->
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Microsoft SharePoint -yhteyden määritys** ja valitse sitten vastaava linkki.
-2. Syötä **Kuvaus**-kenttään yhteyden kuvaus, kuten **OneDrive**.
-3. Syötä **Kansio**-kenttään **Business Central**.
-4. Kirjoita **Sijainti**-kenttään oman OneDriven URL-osoite.
-
-    OneDriven URL-osoite on yleensä seuraavassa muodossa:`https://<tenant name>-my.sharepoint.com`. Lisätietoja on OneDrive-dokumentaation ohjeaiheessa [Oman organisaation käyttäjien OneDriven URL-osoitteet](/onedrive/list-onedrive-urls).
-5. Syötä **asiakastunnus**-kenttään sovelluksen rekisteröinnin asiakastunnus.
-6. Syötä **Asiakkaan salaisuus** -kenttään sovelluksen rekisteröinnin salaisuus. 
-   <!-- 
-   For information about how to find the URLs, see the following:
-   * [How to find your SharePoint server URL]
-   * [How to find your OneDrive URL]-->
-
-> [!IMPORTANT]
-> SharePoint-yhteyden määritys -sivulla määritetään monia vanhoja ominaisuuksia. **Yleiset**-osa määrittää yhteyden OneDriveen, ja **Jaetut asiakirjat** -osa ohjaa tiedostot sen sijaan uudelleen SharePointiin. Tämä vanha SharePoint-ominaisuus vanhenee lähitulevaisuudessa. Microsoft suosittelee, että et määritä **Jaetut asiakirjat** -osiota.
 
 ## <a name="see-also"></a>Katso myös
 

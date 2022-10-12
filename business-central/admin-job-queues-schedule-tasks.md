@@ -9,25 +9,26 @@ ms.workload: na
 ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: 081f900836f97d6630608aade4251272ee1a1ff1
-ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
+ms.openlocfilehash: cfbfffdf52e072133451e968e872c7f66a733069
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/19/2022
-ms.locfileid: "9317432"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607097"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Käytä työjonoja ajoitustehtäviin
 
-Työjonojen avulla käyttäjät voivat ajoittaa ja suorittaa tiettyjä raportteja ja codeuniteja. Voit määrittää töitä suoritettavaksi yhtä aikaa tai toistuvasti. Voit esimerkiksi haluta suorittaa **Myyjä - myyntitilasto** -raportin viikoittain ja seurata näin myyjäkohtaista viikkomyyntiä. Vaihtoehtoisesti voit suorittaa **Delegoi hyväksymispyynnöt** -codeunitin päivittäin, jolloin asiakirjoja ei kasaudu odottamaan käsittelyä.
+Työjonon tapahtumat -sivun avulla käyttäjät voivat ajoittaa ja suorittaa tiettyjä raportteja ja codeuniteja. Voit määrittää töitä suoritettavaksi yhtä aikaa tai toistuvasti. Voit esimerkiksi haluta suorittaa **Myyjän * myyntitilasto** -raportin viikoittain ja seurata näin myyjäkohtaista viikkomyyntiä. Vaihtoehtoisesti voit suorittaa **Delegoi hyväksymispyynnöt** -codeunitin päivittäin, jolloin asiakirjoja ei kasaudu odottamaan käsittelyä.
 
 **Työjonon tapahtumat** -sivulla on luettelo kaikista aiemmin luoduista töistä. Jos lisäät uuden työjonotapahtuman, jonka haluat ajoittaa, sinun on annettava joitakin tietoja. Esimerkki:
+
 * Suoritettavan objektin tyyppi, kuten raportti tai codeunit. Sinulla on oltava oikeus suorittaa kulloinenkin raportti tai codeunit.
 * Objektin nimi ja objektitunnus. 
 * Parametrit, joilla määritetään työjonotapahtuman käytös. Voit esimerkiksi lisätä parametrin vain kirjattujen myyntitilausten lähettämistä varten. 
 * Milloin ja kuinka usein työjonotapahtuma suoritetaan.
 
 > [!IMPORTANT]  
-> Jos käytät [!INCLUDE[prod_short](includes/prod_short.md)]in mukana toimitettuja pääkäyttöoikeusjoukkoa, sinulla ja käyttäjillä oikeudet suorittaa kaikki lisenssiin kuuluvat objektit. Tämä ei edelleenkään riitä delegoidulle järjestelmänvalvolle tai käyttäjille, joilla on laitekäyttöoikeus ja jotka eivät voi luoda työjonotapahtumia.
+> Jos sinulle on määritetty [!INCLUDE[prod_short](includes/prod_short.md)]n mukana tuleva SUPER-käyttöoikeusjoukko, sinulla on oikeus suorittaa kaikkia käyttöoikeuteesi sisältyviä objekteja. Jos sinulla on delegoitu järjestelmänvalvojarooli, voit luoda ja ajoittaa työjonotapahtumia, mutta vain järjestelmänvalvojat ja lisensoidut käyttäjät voivat käyttää niitä. Käyttäjät, joilla on laitteen käyttöoikeus, eivät pysty luomaan tai suorittamaan työjonon merkintöjä.
 
 Kun työjonot on määritetty ja käytössä, tila voi muuttua seuraavasti kunkin toistuvan jakson aikana:
 
@@ -73,7 +74,7 @@ Seuraavassa taulukossa kuvataan **Tila**-kentän arvot.
 Esimerkiksi kaikki suunnitellut tehtävät pysäytetään, jos yritys on ympäristössä, joka on toisen ympäristön kopio. **Ajoitetut tehtävät** -sivulla voit määrittää tehtävät valmiiksi suoritettaviksi työjonossa.  
 
 > [!NOTE]
-> Sisäiset järjestelmänvalvojat ja käyttäjät voivat ajoittaa tehtäviä suoritettavaksi. Delegoidut järjestelmänvalvojat eivät voi.
+> Sisäiset järjestelmänvalvojat ja lisensoidut käyttäjät voivat ajoittaa tehtäviä suoritettavaksi. Valtuutetut järjestelmänvalvojat voivat määrittää ja ajoittaa tehtäviä suoritettavaksi, mutta vain lisensoidut käyttäjät voivat käyttää niitä.
 
 ## <a name="the-my-job-queue-part"></a>Oma työjono -osa
 

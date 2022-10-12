@@ -1,20 +1,20 @@
 ---
 title: Tietoja toimintojen suunnittelusta
-description: Dynamics 365 Business Centralin suunnittelujärjestelmä ottaa kaikki kysyntä- ja tarjontatiedot huomioon, nettouttaa tulokset ja luo ehdotuksia, joita noudattamalla tarjonta ja kysyntä voidaan saattaa tasapainoon.
-author: SorenGP
+description: Suunnittelu ottaa kaikki kysyntä- ja tarjontatiedot huomioon, laskee tulosten nettoarvon ja luo ehdotuksia, joita noudattamalla tarjonta ja kysyntä voidaan saattaa tasapainoon.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5430
-ms.date: 07/16/2021
-ms.author: edupont
-ms.openlocfilehash: 029666cdfd0ad75d62eb21f6e719295c67d88ed1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 08/30/2022
+ms.author: bholtorf
+ms.openlocfilehash: df67568094e76dccbc62b9dbf6d78dc9c0e58caf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535421"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606962"
 ---
 # <a name="about-planning-functionality"></a>Tietoja toimintojen suunnittelusta
 
@@ -30,7 +30,7 @@ Lisätietoja on ohjeaiheessa [Rakenteen tiedot: Toimitusten suunnittelu](design-
 Suunnittelu koostuu kahdesta osasta, jotka ovat kysyntä ja tarjonta. Ne täytyy pitää tasapainossa, jotta kysyntään voidaan varmasti vastata taloudellisesti ja ajallaan.  
 
 - Kysyntä on yleinen termi, jota käytetään kaikenlaista bruttotarpeesta, esimerkiksi myyntitilauksesta, huoltotilauksesta, kokoonpano- tai tuotantotilausten osatarpeesta, lähtevästä siirrosta, puitetilauksesta tai ennusteesta. Näiden lisäksi sovellus sallii myös tiettyjen muiden teknisten kysyntätyyppien käyttämisen. Tällaisia tarpeita ovat esimerkiksi negatiivinen tuotanto- tai ostotilaus, negatiivinen varasto ja ostopalautustilaus.  
-- Tarjonta on yleiskäsite mille tahansa täydennykselle, esimerkiksi varastosaldolle, ostotilauksille, kokoonpanotilauksille, tuotantotilauksille tai saapuvalle siirrolle. Vastaavalla tavalla voi olla negatiivinen myynti tai huoltotilaus, negatiivinen osatarve tai myyntipalautus – jotka jollakin tavoin edustavat myös tarjontaa.  
+- Tarjonta viittaa mihin tahansa täydennykseen, joka voi olla täydennys esimerkiksi varastosaldolle, ostotilauksille, kokoonpanotilauksille, tuotantotilauksille tai saapuvalle siirrolle. Vastaavalla tavalla voi olla negatiivinen myynti tai huoltotilaus, negatiivinen osatarve tai myyntipalautus, joka jollakin tavoin edustaa myös tarjontaa.  
 
 Suunnittelujärjestelmän toinen tavoite on varmistaa, että varasto ei kasva tarpeettoman suureksi. Jos kysyntä vähenee, suunnittelujärjestelmä ehdottaa tehtyjen täydennystilausten lykkäämistä, pienentämistä tai peruuttamista.  
 
@@ -158,9 +158,12 @@ Kuten [suunnitelmassa](production-planning.md) on kuvattu, voit valita kahdesta 
 
 - Voit käyttää **Erikoistilaus** -toimintoa syöttääksesi hankintatyökirjan rivejä. Tämä toiminto käyttää **Hae myyntitilaukset** -eräajoa määrittääkseen myyntitilausrivin jonka haluat määrittää erikoistilaukselle.
 
-Hankintatyökirjan rivit sisältävät tietoja nimikkeistä, joita tarvitsee uudelleentilata. Voit muokata ja poistaa rivejä jos haluat muuttaa täydennyssuunnitelmaasi, voit prosessoida rivejä käyttämällä **Toteuta toimenpideviesti** -eräajoa.
+Hankintatyökirjan rivit sisältävät tietoja nimikkeistä, joita tarvitsee uudelleentilata. Voit muokata ja poistaa rivejä jos haluat muuttaa täydennyssuunnitelmaasi, voit prosessoida rivejä käyttämällä **Toteuta toimenpideviesti** -eräajoa. 
 
 Tietoja suunnittelusta sijaintien ja siirtojen avulla on kohdassa [Suunnitelman luominen sijaintien avulla tai ilman sijainteja](production-planning-with-without-locations.md).
+
+> [!TIP]
+> Kun käsittelet **Hankintalista**- tai **Suunnittelutyökirja**-sivuja, voit järjestää rivit lajittelemalla ne sarakkeen nimen mukaan. Tämä on erityisen hyödyllistä Suunnittelutyökirja-sivulla, koska sitä voidaan käyttää usean tason tuotantotilauksissa. Oletusarvoisesti rivit lajitellaan **Nimikenro**-kentän mukaan. Voit ryhmitellä rivit usean tason järjestykseen lajittelemalla **Viitatun tilauksen nro** -kohdan mukaan -kentässä. Myös **Tuotanto-ohjelma tilaus**- ja **Suunnittelun taso** -kenttiä voi käyttää rivien hierarkian näyttämisessä.
 
 ## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/plan-items-dynamics-365-business-central/)
 

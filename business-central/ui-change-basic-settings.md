@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
 ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2021
+ms.date: 08/31/2022
 ms.author: jswymer
-ms.openlocfilehash: 36bf0ca4de4fb7caef9c26ae60ed6013387adca4
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: de393807ae00efb5bc01a5f6c1fb0be8e98fdf36
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528650"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606060"
 ---
 # <a name="change-basic-settings"></a>Perusasetusten muuttaminen
 
@@ -29,41 +29,48 @@ Rooli määrittää aloitussivun, joka on suunniteltu organisaation tiettyä roo
 
 * Yläreunan siirtymisvalikon avulla voit siirtyä asiakkaiden, toimittajien, nimikkeiden ja muiden tärkeiden tietoluetteloiden välillä. Vastaavasti toimintojen avulla voi aloittaa tehtävät, kuten luoda uuden myyntilaskun suoraan aloitussivulla.
 
-* Keskellä on nykyiset tiedot näyttävä **Toiminnot**-alue, jota napsauttamalla tai napauttamalla voi tarkastella tietoja lähemmin. Suorituskykyilmaisimet (tunnusluvut) voidaan määrittää niin, että ne näyttävät visuaalisesti esimerkiksi kassavirran tai tuottojen ja kulujen valitun kaavion. Voit luoda aloitussivulla myös suosikkiasiakkaiden luettelon niitä yritysasiakkaita varten, joiden kanssa käyt kauppaa usein tai jotka vaativat erityishuomiota.
+* Keskellä on nykyiset tiedot näyttävä **Toiminnot**-alue, jossa näkyvät nykyiset tiedot. Ne voidaan valita tarkempaa tarkastelua varten. Suorituskykyilmaisimet (tunnusluvut) voidaan määrittää niin, että ne näyttävät visuaalisesti esimerkiksi kassavirran tai tuottojen ja kulujen valitun kaavion. Voit luoda aloitussivulla myös suosikkiasiakkaiden luettelon niitä yritysasiakkaita varten, joiden kanssa käyt kauppaa usein tai jotka vaativat erityishuomiota.
 
-### <a name="to-change-the-role"></a>Roolin vaihtaminen
+### <a name="change-the-role"></a>Roolin vaihtaminen
 
 Oletusrooli on **Liiketoimintajohtaja**, mutta voit valita toisen roolin, jotta saat käyttöösi tarpeitasi paremmin vastaavan roolikeskuksen.  
 
 1. Valitse oikeassa yläkulmassa **Asetukset**-kuvake ![Asetukset.](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") ja valitse sitten **Omat asetukset** -toiminto.
 2. Valitse **Omat asetukset** -sivun **Roolikeskus**-kentässä oletusarvoisesti käytettävä rooli. Valitse esimerkiksi **Kirjanpitäjä**.
-3. Valitse **OK**-painike.
+3. Valitse **OK**.
 
 ## <a name="company"></a><a name="company"></a>Oma yritys
 
-Yritystoiminnot [!INCLUDE[prod_short](includes/prod_short.md)]in tietojen säilönä. Tietokannassa voi olla useita yrityksiä. Kerralla on kuitenkin mahdollista valita vain yksi yritys.
+Yritystoiminnot [!INCLUDE[prod_short](includes/prod_short.md)]in tietojen säilönä. Tietokannassa voi olla useita yrityksiä. Kerralla on kuitenkin mahdollista valita vain yksi yritys. Oletusyrityksen nimi on CRONUS, ja se sisältää vain esittelytietoja.
+
+**Yritys**-kentässä on yritys, jonka tietoja käsittelet parhaillaan. Voit käyttää sitä vaihtaessasi toiseen yritykseen. Yrityksen nimi näkyy aina vasemmassa yläkulmassa. Se on myös toiminto, jonka valitsemalla voit palata roolikeskukseen.
+
+> [!TIP]
+> Voit myös vaihtaa yrityksen käyttämällä yrityksen vaihtajaa (Crtl+O). Lisätietoja tästä ominaisuudesta ja muista tavoista vaihtaa yritystä tai ympäristöä on kohdassa [Siirtyminen toiseen yritykseen tai ympäristöön](ui-organization-switch.md).
 
 Oletusyrityksen nimi on CRONUS, ja se sisältää vain esittelytietoja. Voit luoda mukautetuilla tiedoilla uuden yrityksen. Lisätietoa on kohdassa [Uusien yritysten luominen](about-new-company.md).
 
-### <a name="to-change-the-company-name"></a>Yrityksen nimen muuttaminen
+<!--
+### To change the company name
 
-Yrityksen nimi näkyy aina vasemmassa yläkulmassa. Se on myös toiminto, jonka valitsemalla voit palata roolikeskukseen. Tämän nimen voi muuttaa **Yrityksen tiedot** -sivulla.
+The company name is always displayed at the top left corner and works as an action that you can choose to go back to the Role Center. You can change this name on the **Company Information** page.
 
-1. Valitse ![Hammaspyörä-kuvake, joka avaa Asetukset-valikon.](media/ui-experience/settings_icon_small.png) -kuvake ja valitse sitten **Yrityksen tiedot** -toiminto.
-2. Anna uuden yrityksen nimi **Nimi**-kentässä.
-3. Poistu sivulta. Järjestelmä käynnistyy uudelleen ja uusi yritys näkyy vasemmassa yläkulmassa.
+1. Choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then choose the **Company Information** action.
+2. In the **Name** field, enter the new company name.
+3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-### <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a><a name="badge"></a>Yrityksen tietojen nopea käyttäminen näyttämällä yrityksen tunnus
+### <a name="badge"></a>To display a company badge for quick access to company information
 
-Voit lisätä oikeaan yläkulmaan mukautetun tunnuksen, jonka valitsemalla voit katsoa nopeasti yrityksen nimen ja vuokraajan tiedot ponnahdusruudussa. Yrityksen merkki on hyödyllinen myös silloin , kun [!INCLUDE[prod_short](includes/prod_short.md)] on upotettu toiseen sovellukseen, kuten Microsoft Teamsiin tai johonkin muuhun verkkosovellukseen. Näissä tapauksissa, koska [!INCLUDE[web_client](includes/web_client.md)] näyttää vähemmän ympäröiviä kontekstuaalisia tietoja, yrityksen merkki toimii ainoana tapana määrittää, mihin yritykseen tai ympäristöön tietue kuuluu.
+You can add a customized badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yrityksen tiedot** ja valitse sitten vastaava linkki.
-2. Täytä **Yrityksen tunnus**-pikavälilehden kentät tarvittaessa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
+2. On the **Company Badge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]
-> Jos yrityksen tunnus on määritetty, et voi muuttaa yrityksen nimeä kohdassa [Yrityksen nimen muuttaminen](ui-change-basic-settings.md#to-change-the-company-name) kuvatulla tavalla.
+> If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
 ## <a name="work-date"></a><a name="work-date"></a>Käsittelypäivämäärä
+
 Eniten käytetty käsittelypäivämäärä on kuluvan päivän päivämäärä. Saatat joutua muuttamaan käsittelypäivämäärän väliaikaisesti, jotta voit suorittaa tehtäviä, kuten sellaisten tapahtumien täydentäminen, joiden päivämäärä ei ole kuluvan päivän päivämäärä.
 
 > [!TIP]  
@@ -110,8 +117,8 @@ Valitsemalla *Muuta asetusta, milloin saan ilmoituksia* -linkin voit tarkastella
 
 ## <a name="see-also"></a>Katso myös
 
-[Uusien yritysten luominen](about-new-company.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
+[Uusien yritysten luominen](about-new-company.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

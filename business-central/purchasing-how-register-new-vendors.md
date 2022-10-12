@@ -1,21 +1,21 @@
 ---
 title: Uuden toimittajan rekisteröinti toimittajan kortin luonnin avulla (sisältää videon)
 description: Opi luomaan toimittajakortti jotta voit rekisteröidä uuden toimittajan tai alihankkijan ja tallentaa toimittajakortteja malliksi.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
-ms.date: 07/04/2022
-ms.author: edupont
-ms.openlocfilehash: e5fac9d278d289f6526d544324adcc8f5ce3185a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 09/05/2022
+ms.author: bholtorf
+ms.openlocfilehash: ca4cca577b8105ddbf2625715a1585df2bb7b20d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532037"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606638"
 ---
 # <a name="register-new-vendors"></a>Uusien toimittajien rekisteröiminen
 
@@ -41,6 +41,10 @@ Kun olet luonut mallin, voit kohdistaa sen yhteen tai useampaan valittuun toimit
 > Voi olla hyödyllistä mukauttaa **Toimittajamalli**-sivua, kun luot mallin. Jos esimerkiksi haluat lisätä kentän, joka ei vielä näy sivulla. Lue lisätietoja [Työtilan mukauttaminen](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner) -osassa.
 
 Toimittajan voi luoda myös yhteyshenkilöstä. Lisätietoja on [Asiakkaan, toimittajan, työntekijän tai pankkitilin luominen yhteyshenkilöstä](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact) -osassa.
+
+Maksusuorituksen saajien osoitteita käytetään, kun tulostetaan sekkejä toimittajille maksamista varten. Toimittajilla voi olla useita maksusuorituksen saajien osoitteita maksuja varten. Esimerkiksi toimittaja voi toimittaa nimikkeen tytäryhtiöstä, mutta haluaa saada maksun pääkonttorille. Sovelluksen [!INCLUDE [prod_short](includes/prod_short.md)] avulla voit määrittää useita postitusosoitteita jokaiselle toimittajalle. Voit myös valita oikean sijainnin maksujen lähettämistä varten laskuittain.
+
+Voit määrittää maksusuorituksen saajien osoitteita Toimittajakortti-sivuilla ja ostotilausten ja laskujen Toimitus ja maksut -pikavälilehdessä. Kun luot maksupäiväkirjarivejä käyttämällä Maksa toimittajalle- tai Luo maksu -toimintoa Toimittajaluettelo- tai Toimittajakortti-sivulla tai maksupäiväkirjan Kohdista tapahtumat -toimintoa, toimittajatapahtuman maksusuorituksen saajan koodi määritetään. Voit korvata tämän arvon.
 
 ### <a name="to-create-a-new-vendor"></a>Uuden toimittajan luominen
 

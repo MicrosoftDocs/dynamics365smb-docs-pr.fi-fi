@@ -10,12 +10,12 @@ ms.search.keywords: postpone
 ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: d7eac169dc75f81f1d696a4a1e7344b5235a83a3
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 9d6acc41574870d691a14913ed0222df36dbeb74
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529091"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605513"
 ---
 # <a name="defer-revenues-and-expenses"></a>Tuottojen ja kulujen siirtäminen
 
@@ -95,6 +95,18 @@ Tietylle siirtotilille, kuten Ansaitsematon tulo -tilille, kirjattavat KP-tapaht
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myynnin siirron yhteenveto** ja valitse sitten vastaava linkki.
 2. Syötä **Myynnin siirron yhteenveto** -sivun **Saldon tilanne** -kenttään päivämäärä, johon asti siirretyt tuotot näytetään.
 3. Valitse **Esikatsele**-painike.
+
+## <a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a>Kauden määrittäminen lykkäyksen kirjauksen sallimiseksi
+
+Voit määrittää ajanjakson, jolloin ihmiset voivat kirjata transaktioita syöttämällä päivämäärät **Salli kirjaus kohteesta**- ja **Salli kirjaaminen kohteeseen** -kenttiin seuraavasti:
+
+* Kaikille käyttäjille **Pääkirjanpidon asetukset** -sivulla
+* Tietyille käyttäjille **Käyttäjäasetukset** -sivulla
+
+Jos olet tehnyt sen, sinun täytyy tehdä poikkeuslykkäyksiä, jotta ne voitaisiin kirjata jakson ulkopuolelle. Voit määrittää kauden seuraavien vaiheiden avulla.
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** tai **Käyttäjän määritys** ja valitse sitten vastaava linkki.
+2. Syötä **Salli lykkäyskirjaus kohteesta**- ja **Salli lykkäyskirjaus kohteeseen** -kenttiin jakson alkamis- ja päättymispäivämäärä.
 
 ## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/processing-invoices-dynamics-365-business-central/)
 

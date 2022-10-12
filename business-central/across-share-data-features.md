@@ -5,14 +5,14 @@ author: jswymer
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2022
+ms.date: 09/21/2022
 ms.author: jswymer
-ms.openlocfilehash: 8fd3d76ed8affd506ad4cd1838a182e595ecb0bf
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: e54cabd331253a40b160a6cc89b4ab170bd1db89
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528503"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607470"
 ---
 # <a name="sharing-business-data-from-business-central"></a>Yritystietojen jakaminen Business Centralista
 
@@ -42,7 +42,7 @@ Lisätietoja on kohdassa [Lajitteleminen, hakeminen ja suodattaminen](ui-enter-c
 
 ![Tuettu](media/check.png) Business Central Online ![Ei tueta](media/x-icon.png) Business Central On-premises
 
-Suoraan useimmista kokoelmasivuista ja tietosivuista voit lähettää linkin sivulle henkilöille, ryhmäkeskusteluille tai kanaville. Voit esimerkiksi jakaa linkin tietueiden suodatettuun näkymään. Vastaanottajat voivat sitten napsauttamalla linkkiä avata sivun Business Centralissa.
+Suoraan useimmista kokoelmasivuista ja tietosivuista voit lähettää linkin sivulle henkilöille, ryhmäkeskusteluille tai kanaville. Voit esimerkiksi jakaa linkin tietueiden suodatettuun näkymään. Jos olet asentanut [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen Teamsiin, linkki laajenee automaattisesti pieneen korttiin, jonka voit sisällyttää viestiin. Vastaanottajat voivat sitten linkkiä tai korttia napsauttamalla avata sivun Business Centralissa.
 
 Lisätietoja on kohdassa [Jaa tietueiden ja sivujen linkkejä Teamsissa](across-working-with-teams.md).
 

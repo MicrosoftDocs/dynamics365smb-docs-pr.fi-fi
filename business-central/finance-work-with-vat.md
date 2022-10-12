@@ -10,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: b8c09f49b741f7979f79f5e3305ef11258ffaaea
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 0a8d8f32613af2c0aab6905f62682e3c93307993
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530916"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617818"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Myynnin ja ostojen ALV:n käsitteleminen
 Jos maasi tai alueesi edellyttää, että lasket ja raportoit arvonlisäveron (ALV) myynti- ja ostotransaktioista, voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in laskemaan ALV:n. Lisätietoja on kohdassa [Arvolisäveron laskelmien ja kirjausmenetelmien määrittäminen](finance-setup-vat.md).
@@ -61,6 +61,18 @@ Sen mukaan, mitä haluat tehdä, voit liittää liiketoiminnan ALV-kirjausryhmä
 
 #### <a name="examples"></a>Esimerkkejä
 Sellaiset tekijät kuin maa tai alue, joissa myyt, tai toimialan tyyppi, voivat vaikuttaa ALV-summaan, joka sinun täytyy ottaa huomioon. Esimerkiksi ravintola voi veloittaa 6 %:n ALV:n aterioista, joita syödään omassa talossa, ja 17 %:n ALV:n noutoruuasta. Tämän saavuttamiseksi luodaan Liiketoiminnan ALV-kirjausryhmä (hinta) talossa ruokailua varten ja toinen noutoa varten.
+
+## <a name="working-with-vat-date"></a>ALV-päivämäärän käyttäminen
+### <a name="vat-date-in-documents"></a>ALV-päivämäärä asiakirjoissa
+Kun luot uusia myynti- tai ostoasiakirjoja, **ALV-päivämäärä** perustuu **ALV-oletuspäivämäärä**-kenttään **Pääkirjanpidon asetukset** -sivulla. Tämä oletusarvo voi olla sama kuin **kirjauspäivämäärä** tai **asiakirjan päivämäärä**. Jos tarvitset eri ALV-päivämäärän, voit muuttaa arvon manuaalisesti **ALV-päivämäärä**-kentässä. Kun kirjaat asiakirjan, **ALV-päivämäärä** näkyy kirjattavassa asiakirjassa sekä ALV- ja KP-tapahtumissa.
+
+### <a name="correcting-vat-date-in-posted-entries"></a>ALV-päivämäärän korjaaminen kirjatuissa tapahtumissa
+Joissakin tilanteissa on ALV-päivämäärää on muutettava, vaikka asiakirja olisi kirjattu. Tämä on mahdollista, kun käytössä on [!INCLUDE[prod_short](includes/prod_short.md)]. Kirjattujen asiakirjojen **ALV-päivämäärän** voi muuttaa seuraavasti:
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-tapahtumat** ja valitse sitten vastaava linkki.
+2. Etsi tapahtuma, jonka ALV-päivämäärä on virheellinen.
+3. Valitse **Muokkaa luetteloa** -toiminto ja syötä oikea päivämäärä **ALV-päivämäärä**-kenttään.
+4. Sulje sivu.
+5. Uusi ALV-päivämäärä muutetaan liittyvässä **KP-tapahtumat**-kohdassa ja mahdollisessa kirjatussa asiakirjassa.
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Myynti- ja ostoasiakirjojen ALV-summien oikaisu manuaalisesti  
 Voit tehdä muutoksia kirjattuihin ALV-tapahtumiin, jotta voit muuttaa ostojen ja myyntien ALV-kokonaissummia muuttamatta ALV-perustetta. Jos vastaanotat esimerkiksi toimittajalta laskun, jonka alv-summa on virheellinen.  

@@ -11,23 +11,23 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
 ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: 7705acac2b2c53bea96fee0431cb83702e46b0c6
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: ed59e73dce1847e2edb02def981abdf869a275d9
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529593"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606141"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Erikoismyyntihintojen ja -alennusten kirjaaminen
 
 > [!NOTE]
-> Vuoden 2020 julkaisuaallossa 2 otettuun käyttöön uudet, tehostetut prosessit hintojen ja alennusten määritykseen ja hallintaan. Jos olet uusi asiakas, joka käyttää viimeisintä versiota, käytät uutta käyttökokemusta. Jos olet jo asiakas, uuden käyttöokemuksen käyttö riippuu siitä, onko järjestelmänvalvoja ottanut käyttöön **Uusi myyntihinnoittelukokemus** -ominaisuuden päivityksen **ominaisuuksien hallinnassa**. Lisätietoja on kohdassa [Tulevien ominaisuuksien ottaminen käyttöön etuajassa](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> Vuoden 2020 julkaisuaallossa 2 otettuun käyttöön uudet, tehostetut prosessit hintojen ja alennusten määritykseen ja hallintaan. Jos olet uusi asiakas, joka käyttää viimeisintä versiota, käytät uutta käyttökokemusta. Jos olet jo asiakas, uuden käyttöokemuksen käyttö riippuu siitä, onko järjestelmänvalvoja ottanut käyttöön **Uusi myyntihinnoittelukokemus** -ominaisuuden päivityksen **ominaisuuksien hallinnassa**. Lisätietoja on hallintasisällön kohdassa [Tulevien ominaisuuksien käyttöönotto etuajassa](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tukee erilaisia hinnoittelustrategioita, kuten:
 
 * Yhtä hintaa käyttävät mallit, joissa nimikettä myydään aina samaan hintaan.
 * Erikoishintasopimukset tiettyjen asiakkaiden tai asiakasryhmien kanssa.
-* Kampanjat, kun myynti täyttää erikoistarjouksen kriteerit. Kriteerinä voi olla esimerkiksi se, että tilaus täyttää minimimäärän, on ennen tiettyä päivämäärää tai sisältää tietyntyyppisen nimikkeen.  
+* Kampanjat, kun myynti täyttää erikoistarjouksen ehdot. Kriteerinä voi olla esimerkiksi se, että tilaus täyttää minimimäärän, on ennen tiettyä päivämäärää tai sisältää tietyntyyppisen nimikkeen.  
 
 Perushintamallin käyttöä varten on määritettävä vain nimikkeen tai resurssin yksikköhinta. Kyseistä hintaa käytetään aina myyntiasiakirjoissa. Edistyneissä malleissa, kuten myyntikampanjan erikoishinnoissa, erikoishintojen ehdot voidaan määrittää **Myyntihinnat**-sivulla. Erikoishintoja voidaan tarjota seuraavien tietojen yhdistelmien perusteella:  
 
@@ -61,7 +61,7 @@ Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käytt
 
 #### <a name="new-experience"></a>[Uusi kokemus](#tab/new-experience/)  
 
-Uusien hinnastojen tila on oletusarvoisesti Luonnos. Luonnoshinnastoja ei sisällytetä hintalaskelmiin. Kun rivejä ei enää lisätä ja haluat aloittaa hintojen käyttämisen, muuta tilaksi Aktiivinen.
+Uusien hinnastojen tila on oletusarvoisesti **Luonnos**. Luonnoshinnastoja ei sisällytetä hintalaskelmiin. Kun rivejä ei enää lisätä ja haluat aloittaa hintojen käyttämisen, muuta tilaksi **Aktiivinen**.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.
 2. Valitse asiakas ja valitse sitten **Myyntihinnastot**-toiminto. 
@@ -76,14 +76,16 @@ Uusien hinnastojen tila on oletusarvoisesti Luonnos. Luonnoshinnastoja ei sisäl
 ---
 
 ## <a name="using-sales-and-purchase-price-lists"></a>Myynti- ja ostohinnastojen käyttäminen
+
 > [!NOTE]
-> Hinnastojen käyttäminen edellyttää, että järjestelmänvalvoja on ottanut **Uusi myyntihinnoittelukokemus** -ominaisuuspäivityksen käyttöön **ominaisuuksien hallinnassa**. Lisätietoja on kohdassa [Tulevien ominaisuuksien ottaminen käyttöön etuajassa](/dynamics365/business-central/dev-itpro/administration/feature-management).
+> Hinnastojen käyttäminen edellyttää, että järjestelmänvalvoja on ottanut **Uusi myyntihinnoittelukokemus** -ominaisuuspäivityksen käyttöön **ominaisuuksien hallinnassa**. Lisätietoja on hallintasisällön kohdassa [Tulevien ominaisuuksien käyttöönotto etuajassa](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Suurin osa uudesta myyntihinnoittelukokemuksesta muistuttaa nykyistä kokemusta, mutta joitain eroja on. Nämä erot kuvataan seuraavissa osissa.
 
 **Koskee tyyppiä**- ja **Koskee nroa** -kenttien avulla voidaan valita, missä hinnastoa käytetään, oli onko kysymys esimerkiksi asiakkaasta tai asiakashintaryhmästä. **Näytä sarakkeet kohteelle** -asetuksen avulla voit näyttää tai piilottaa hintojen ja alennusten määrittämisessä tarvittavat kentät.
 
 ### <a name="converting-existing-prices-when-you-turn-on-the-pricing-feature-update"></a>Aiemmin luotujen hintojen muuntaminen, kun hinnoittelun ominaisuuspäivitys otetaan käyttöön
+
 Kun **Uusi myyntihinnoittelukokemus** -ominaisuuspäivitys otetaan käyttöön **Ominaisuuksien hallinta** -sivulla, **Ominaisuustietojen päivitys** -opas avautuu. Käytä **Käytä oletushintoja** -vaihtopainiketta seuraavasti:
 
 * Jos haluat käyttää kaikkia hintoja yhdellä sivulla, ota se käyttöön. Aiemmin luodut hinnat muunnetaan yhdeksi oletushinnastoksi kullekin seuraavista asiakirjoista:
@@ -96,7 +98,7 @@ Kun **Uusi myyntihinnoittelukokemus** -ominaisuuspäivitys otetaan käyttöön *
     Kaikkien näiden alueiden hintoja voidaan muokata **Hintojen työkirja** -sivulla. Oletushinnastot määritetään **Myyntien ja myyntisaamisten asetukset**-, **Ostojen ja ostovelkojen asetukset**- ja **Projektienhallinnan asetukset** -sivuilla. 
 
 > [!NOTE]
-> Jos hinnat määritetään vain nimike- tai resurssikorteissa, kyseisiä hintoja ei täytetä oletushinnastoihin ominaisuustietojen päivityksen aikana. Minkä tahansa oletushinnaston voi kuitenkin avata Hintatyökirja-sivulla ja nimike- tai resurssikorteissa määritetyt hinnat voidaan lisätä **Ehdota rivejä** -toiminnolla. 
+> Jos hinnat määritetään vain nimike- tai resurssikorteissa, kyseisiä hintoja ei täytetä oletushinnastoihin tietojen päivityksen aikana. Minkä tahansa oletushinnaston voi kuitenkin avata **Hintatyökirja**-sivulla ja nimike- tai resurssikorteissa määritetyt hinnat voidaan lisätä **Ehdota rivejä** -toiminnolla.
 
 * Myyntihinnastoja voidaan käyttää, poistamalla hinnasto käytöstä. Nykyiset hinnat muunnetaan uudeksi hinnastoksi jokaiselle seuraavien asioiden yhdistelmälle: 
 
@@ -110,18 +112,47 @@ Jos yhdistelmiä on useita, myös hinnastoja on useita.
 Jos uusi hinnoittelukokemus on jo otettu käyttöön, oletushinnastot voidaan luoda manuaalisesti tai aiemmin luotu hinnasto voidaan määrittää oletukseksi. Aiemmin luotu hinnasto määritetään oletukseksi siirtämällä **Salli oletusten päivittäminen** -vaihtopainike hinnastossa käyttöönottoasentoon. Määritä hinnasto sitten oletukseksi **Myyntien ja myyntisaamisten asetukset**-, **Ostojen ja ostovelkojen asetukset**- tai **Projektienhallinnan asetukset** -sivuilla.
 
 ### <a name="editing-active-price-lists"></a>Aktiivisen hinnastojen muokkaaminen
-Jos hintojen muokkaaminen halutaan sallia nimikkeiden, resurssien, asiakkaiden, toimittajien tai muiden hinnoittelua käyttävien entiteettien aktiivisissa hinnastoissa, **Sallii aktiivisen hinnan muokkaaminen** -vaihtopainike siirretään käyttöönottoasentoon **Myyntien ja myyntisaamisten asetukset**- ja **Ostojen ja ostovelkojen asetukset** -sivuilla.   
+
+Jos hintojen muokkaaminen halutaan sallia nimikkeiden, resurssien, asiakkaiden, toimittajien tai muiden hinnoittelua käyttävien entiteettien aktiivisissa hinnastoissa, **Sallii aktiivisen hinnan muokkaaminen** -vaihtopainike siirretään käyttöönottoasentoon **Myyntien ja myyntisaamisten asetukset**- ja **Ostojen ja ostovelkojen asetukset** -sivuilla.
 
 Kun **Salli aktiivisen hinnan muokkaus** -vaihtopainike on siirretty käytöstäpoistoasentoon, hinnaston päivittäminen edellyttää, että hinnaston tilaksi muutetaan **Luonnos**. Muutos tehdään tämän jälkeen ja hinnasto aktivoidaan uudelleen.
 
-**Hintojen yleiskuvaus** -sivulla on hinnastojen kaikkien hintojen yleiskuvaus. Voit asettaa suodattimia, kun haluat rajata niiden hintojen luetteloa, joita haluat muokata tai lisätä. Hintojen muuttamisen jälkeen hinnat on tarkistettava muiden hinnastojen rivien perusteella käyttämällä **Tarkista rivit**. Hintojen vahvistaminen auttaa välttämään kopioita ja epäselvyyksiä hinnan laskennassa. 
+**Hintojen yleiskuvaus** -sivulla on hinnastojen kaikkien hintojen yleiskuvaus. Voit asettaa suodattimia, kun haluat rajata niiden hintojen luetteloa, joita haluat muokata tai lisätä. Hintojen muuttamisen jälkeen hinnat on tarkistettava muiden hinnastojen rivien perusteella käyttämällä **Tarkista rivit**. Hintojen vahvistaminen auttaa välttämään kopioita ja epäselvyyksiä hinnan laskennassa.
 
 > [!NOTE]
-> Kun aktiivisen hinnaston riviä muokataan, rivin tilaksi tulee Luonnos eikä riviä sisällytetä hintalaskelmiin ennen **Tarkista rivit** -toiminnon käyttämistä. Kun hinta on tarkistettu, rivin tilaksi tulee Aktiivinen, ja sitä käytetään hintalaskelmissa.
+> Kun aktiivisen hinnaston riviä muokataan, rivin tilaksi tulee **Luonnos**, eikä riviä sisällytetä hintalaskelmiin ennen **Tarkista rivit** -toiminnon käyttämistä. Kun hinta on tarkistettu, rivin tilaksi tulee **Aktiivinen**, ja sitä käytetään hintalaskelmissa.
 
 Uusia hintoja lisätään **Hintojen yleiskuvaus** -sivun **Lisää uusia rivejä** -toiminnolla. **Hintojen työkirja** -sivu avautuu, ja voit lisätä hintarivejä joko ehdottamalla niitä ehtojen perusteella, kopioimalla ne muista hinnastoista tai syöttämällä ne manuaalisesti. Uusia hintoja voi sitten verrata muihin hinnastoihin **Ota käyttöön hinnan muutos** -toiminnolla. Tällä tavoin voidaan välttää kaksoiskappaleet ja epäselvyydet hinnan laskennassa.
 
+#### <a name="create-sales-price-lines-based-on-the-unit-price"></a>Myyntihintarivien luominen yksikköhinnan perusteella
+
+1. Valitse **Hintojen työkirja** -sivulla **Ehdota rivejä** -toiminto.
+2. Täytä **Hintarivit – Luo uusi** -sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Määritä **Tuotesuodatin**-kentässä valitun **tuotetyypin** suodattimet.
+4. Valitse **Oletusarvot**-kenttä, jos haluat määrittää esimerkiksi seuraavat asetukset:
+   * Mihin entiteetteihin hinnasto liitetään.
+   * Päivämäärät, jolloin hinta on voimassa.
+   * Valuuttakoodi.
+   * Summatyypin suodatin, joka määrittää hinnaston riveillä näkyvät sarakkeet.
+5. Valitse **OK**. Uudet rivit lisätään **Hintatyökirja**-sivulle nimikekorttien valittujen asetusten ja yksikköhintojen kanssa.
+6. Muokkaa luotuja rivejä uusilla yksikköhinnoilla tai -alennuksilla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
+#### <a name="create-sales-price-lines-based-on-existing-price-lists"></a>Myyntihintarivien luominen olemassa olevien hinnastojen perusteella
+
+1. Valitse **Hintojen työkirja** -sivulla **Kopioi rivejä** -toiminto.
+2. Valitse **Hintarivit - Kopioi olemassa oleva** -sivulla olemassa oleva hinnasto **Hinnastosta**-kentässä.
+3. Määritä **Hintarivin suodatin** -kentässä valitun hinnaston tuotteiden suodattimet.
+4. Valitse **Oletusarvot**-kenttä, jos haluat määrittää esimerkiksi seuraavat asetukset:
+   * Mihin entiteetteihin hinnasto liitetään.
+   * Päivämäärät, jolloin hinta on voimassa.
+   * Valuuttakoodi.
+   * Summatyypin suodatin, joka määrittää hinnaston riveillä näkyvät sarakkeet.
+5. Täytä tarvittavat muut kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+6. Valitse **OK**. Uudet rivit lisätään **Hintatyökirja**-sivulle valituilla asetuksilla.
+7. Muokkaa luotuja rivejä uusilla yksikköhinnoilla tai -alennuksilla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+
 ## <a name="to-copy-sales-prices"></a>Myyntihintojen kopioiminen
+
 Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käyttöön **Uusi myyntihinnoittelukokemus** -ominaisuuspäivityksen. Jos ominaisuuspäivitystä ei ole otettu käyttöön, noudata Nykyinen kokemus -välilehdessä olevia ohjeita.
 
 #### <a name="current-experience"></a>[Nykyinen kokemus](#tab/current-experience/)  
@@ -139,6 +170,7 @@ Jos haluat kopioida myyntihintoja, kuten jonkin yksittäisen asiakkaan hintoja k
    > Tämä eräajo luo ainoastaan ehdotuksia eikä se ota ehdotettuja muutoksia käyttöön. Jos olet tyytyväinen ehdotuksiin ja haluat ottaa ne käyttöön eli lisätä ne **Myyntihinnat**-sivulle, valitse **Ota käyttöön hinnan muutos** -toiminto **Myyntihinnan työkirja** -sivulla.
 
 #### <a name="new-experience"></a>[Uusi kokemus](#tab/new-experience/)  
+
 Voit määrittää, käyttävätkö uudet hinnastot kopioimasi luettelon otsikon asetuksia vai kopioitavan uuden luettelon asetuksia. Jos haluat käyttää sen hinnaston asetuksia, johon kopioit hinnat, ota käyttöön **Käytä oletusarvoja lähteestä** -vaihto.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntihinnastot** ja valitse sitten liittyvä linkki. 
@@ -151,6 +183,7 @@ Voit määrittää, käyttävätkö uudet hinnastot kopioimasi luettelon otsikon
 ---
 
 ## <a name="to-bulk-update-item-prices"></a>Nimikehintojen joukkopäivitys
+
 Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käyttöön **Uusi myyntihinnoittelukokemus** -ominaisuuspäivityksen. Jos ominaisuuspäivitystä ei ole otettu käyttöön, noudata Nykyinen kokemus -välilehdessä olevia ohjeita.
 
 #### <a name="current-experience"></a>[Nykyinen kokemus](#tab/current-experience/)
@@ -228,6 +261,7 @@ Koulutusta myynnin alennuksista on kohteessa [Alennusten määrittäminen asiakk
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
 ## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Myyntirivialennuksien määrittäminen asiakkaalle
+
 Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käyttöön **Uusi myyntihinnoittelukokemus** -ominaisuuspäivityksen. Jos ominaisuuspäivitystä ei ole otettu käyttöön, noudata Nykyinen kokemus -välilehdessä olevia ohjeita.
 
 #### <a name="current-experience"></a>[Nykyinen kokemus](#tab/current-experience/)  
@@ -259,11 +293,12 @@ Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käytt
 ---
 
 ## <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Laskualennuksen määrittäminen asiakkaalle
+
 Kun olet määrittänyt asiakkaat, joille myönnetään laskun alennuksia, määritä laskun alennuskoodi asiakaskorttisivuille. Määritä sitten ehdot kullekin koodille.
 
 1. Valitse ![Lamppu, joka avaa Kerro -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä")-kuvake, syötä **Asiakkaat** ja valitse sitten liittyvä linkki.
 2. Avaa sen asiakkaan sivu, jolle myönnetään laskun alennuksia.
-3. Valitse **Laskualennuksen koodi** -kentässä asianmukaisille laskualennuksen ehdoille koodi, jonka avulla asiakkaan laskualennukset lasketaan. <!--Looks like I can only choose customers in this list-->
+3. Valitse **Laskualennuksen koodi** -kentässä asianmukaisille laskualennuksen ehdoille koodi, jonka avulla asiakkaan laskualennukset lasketaan.
 
 > [!NOTE]  
 > Laskualennuksen koodit löytyvät olemassa olevien asiakkaiden korteista. Näin voit nopeasti liittää laskualennusten ehtoja asiakkaisiin poimimalla sellaisen asiakkaan nimen, jolla on samat ehdot.
@@ -284,7 +319,6 @@ Jatka uuden myyntilaskun alennusehtojen määrittämiseen.
 [Myynti](sales-manage-sales.md)  
 [Asiakashintaryhmien määrittäminen](sales-how-to-set-up-customer-price-groups.md)  
 [Asiakasalennusryhmien määrittäminen](sales-how-to-set-up-customer-discount-groups.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)
-
+[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
