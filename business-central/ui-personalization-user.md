@@ -1,21 +1,21 @@
 ---
 title: Sivujen mukauttaminen (sisältää videon)
 description: Lisätietoja käyttöliittymän ja työtilan mukauttamisesta omaan Business Centralin käyttötapaan ja omiin preferensseihin sopivaksi.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 7739ead50f07adc5a7a14c6c9e57cc623da275c9
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 10/11/2022
+ms.author: bholtorf
+ms.openlocfilehash: ccc0d6612b3d2416263ed26089fc176f4fcbb2d2
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528810"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652162"
 ---
 # <a name="personalize-your-workspace"></a>Työtilan mukauttaminen
 
@@ -79,9 +79,15 @@ Muiden mukautusten tavoin sarakkeen leveyteen tehdyt muutokset tallennetaan tili
 |Lisää uusi toiminto roolikeskuksen sivuun tai raporttiin.|Valitse kohdesivu-, raportin pyyntösivu- tai Ilmoita-ikkunassa kirjanmerkkikuvake.|Katso [Sivun tai raportin kirjanmerkin luominen roolikeskuksessa](ui-bookmarks.md)|
 |Aloita luettelo aina laajennettuna tai tiivistettynä|Valitse **Laajenna kaikki**- tai **Tiivistä kaikki** -painike luettelon vasemmassa yläkulmassa. Voit myös valita **Laajenna kaikki**- tai **Tiivistä kaikki** -toiminnot ensimmäisen sarakkeen valikosta. |Koskee tiivistettäviä hierarkialuetteloita|
 
-## <a name="personalizing-actions"></a><a name="Actions"></a>Toimintojen mukauttaminen
+## <a name="personalizing-the-action-bar-and-menus"></a><a name="Actions"></a>Toimintopalkin ja valikoiden mukauttaminen
 
-Mukauttamisen avulla voit päättää, mitkä toiminnot näkyvät siirtymispalkissa, toimintoriveillä ja roolikeskuksissa sekä muissa kohdissa, joissa niiden halutaan näkyvän. Voit näyttää, piilottaa tai siirtää yksittäisiä toimintoja tai toimintoryhmiä. Siirtymispalkkia ja toimintorivejä mukautetaan käytännössä samalla tavoin kuin muita käyttöliittymän elementtejä. Se, mitä kullekin toiminnolle tai ryhmälle voi tehdä, määräytyy sen mukaan, missä toiminto tai ryhmä on. Kätevimmin asian voi selvittää siirtymällä mukautustilaan ja toimimalla sitten ohjenuolien mukaan.
+Mukauttamisen avulla voit päättää, mitkä toiminnot näkyvät siirtymispalkissa, toimintoriveillä ja roolikeskuksissa sekä muissa kohdissa, joissa niiden halutaan näkyvän. Voit näyttää, piilottaa tai siirtää yksittäisiä toimintoja tai toimintoryhmiä.
+
+Vuoden 2022 2. julkaisuaallossa tarjosimme enemmän tapoja, joilla voit tehdä Business Centralista omasi. Seuraavassa videossa näkyy, miten voit mukauttaa sivujen ja roolikeskusten toimintoja.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
+
+Siirtymispalkkia ja toimintorivejä mukautetaan käytännössä samalla tavoin kuin muita käyttöliittymän elementtejä. Se, mitä kullekin toiminnolle tai ryhmälle voi tehdä, määräytyy sen mukaan, missä toiminto tai ryhmä on. Kätevimmin asian voi selvittää siirtymällä mukautustilaan ja toimimalla sitten ohjenuolien mukaan.
 
 Toiminnon mukauttamista helpottaa, kun tiedät, mitä muutama termi tarkoittaa. Nämä termit ovat *toimintoryhmä* ja *ylätasolle siirretty luokka*.  
 

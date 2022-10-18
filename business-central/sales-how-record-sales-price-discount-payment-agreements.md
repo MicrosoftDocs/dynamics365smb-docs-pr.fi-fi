@@ -11,12 +11,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
 ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: ed59e73dce1847e2edb02def981abdf869a275d9
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 5560a9a1b5c5eb031136a7c1320019eac75239e0
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606141"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652189"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Erikoismyyntihintojen ja -alennusten kirjaaminen
 
@@ -93,7 +93,7 @@ Kun **Uusi myyntihinnoittelukokemus** -ominaisuuspäivitys otetaan käyttöön *
     * Myynti
     * Ostot
     * Projektimyynti
-    * Projektiostot 
+    * Projektiostot
 
     Kaikkien näiden alueiden hintoja voidaan muokata **Hintojen työkirja** -sivulla. Oletushinnastot määritetään **Myyntien ja myyntisaamisten asetukset**-, **Ostojen ja ostovelkojen asetukset**- ja **Projektienhallinnan asetukset** -sivuilla. 
 
@@ -252,7 +252,7 @@ Voit linkittää alennusprosentit tiettyihin laskusummiin kunkin asiakkaan **Asi
 Alennusprosentin lisäksi tai sen sijaan tiettyyn laskusummaan voidaan linkittää palvelumaksusumma.  
 
 > [!TIP]  
-> Ennen kuin näitä tietoja aletaan syöttää ohjelmaan, olisi hyvä tehdä luonnos alennusrakenteesta, jota haluat käyttää. Tällä tavalla on helpompi nähdä, ketkä asiakkaat voi linkittää samaan laskualennussivulle. Mitä vähemmän sivuja on määritettävä, sitä nopeampaa perustietojen antaminen on.
+> Ennen kuin näitä tietoja aletaan syöttää ohjelmaan, olisi hyvä tehdä luonnos alennusrakenteesta, jota haluat käyttää. Rakenteen avulla on helpompi määrittää, ketkä asiakkaat voi linkittää samaan laskualennussivulle. Mitä vähemmän sivuja on määritettävä, sitä nopeampaa perustietojen antaminen on.
 
 Koulutusta myynnin alennuksista on kohteessa [Alennusten määrittäminen asiakkaillesi](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
