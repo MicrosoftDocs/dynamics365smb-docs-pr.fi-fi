@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: fbedf23a65940b73e521d06d17abbbaef77fd512
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: f826ceaca3ae6f5a68a60a43f4824fcbe60c0753
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607422"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716550"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Centralin ja Microsoft Teamsin integraatio
 
@@ -54,7 +54,9 @@ Lisätietoja on kohdassa [Jaa tietueita Microsoft Teams](across-working-with-tea
 
 Suoraan useimmista Business Centralin kokoelma- ja tietosivuilta voit käyttää **Jaa Teamsiin** -toimintoa ![!Sivujen Jaa-valikkokuvake.](media/share-icon.png "Kortilla näkyvä Jaa-valikko.") -kuvakkeesta, jolloin voit kirjoittaa viestin, valita vastaanottajat, kuten ryhmän jäsenet, ryhmät tai kanavat, ja lähettää viestin ja linkin Business Central -sivulle.
 
-![! Kortilla näkyvä Jaa-valikko.](media/teams-share-link.png "Kortilla näkyvä Jaa-valikko.")
+[![!Kortilla näkyvä Jaa-valikko.](media/teams-share-link-v2.png "Kortilla näkyvä Jaa-valikko.")](media/teams-share-link-v2.png#lightbox)
+
+<!--![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")-->
 
 Lisätietoja on kohdassa [Jaa tietueiden ja sivujen linkkejä Microsoft Teamsissa](across-working-with-teams.md#share-link).
 

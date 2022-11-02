@@ -10,18 +10,14 @@ ms.search.keywords: Power Automate, Flow, Dataverse
 ms.search.form: ''
 ms.date: 09/05/2022
 ms.author: bholtorf
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 542514d1f8fc8f0bfa6a0bd3c8cacbaf25cab651
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.openlocfilehash: d58a8ba6b1b2c451caa391ef5dd89e0d73d38b5a
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585889"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716500"
 ---
 # <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Käytä Power Automate -työnkulun hälytyksiä Dataverse-entiteetin muutoksille
-
-> [!IMPORTANT]
-> Tässä artikkelissa kuvataan toiminnallisuus, joka tulee saataville vuoden 2022 julkaisuaalto 2:ssa. Ennen kuin kyseinen julkaisu on saatavilla, et voi käyttää Power Automate -työnkulkua varoittamiseen, kun entiteettiä muutetaan Dataversessä.
 
 Järjestelmänvalvojat voivat luoda Power Automatessa automatisoidun työnkulun, joka ilmoittaa [!INCLUDE[prod_short](includes/prod_short.md)] -sovellukselle muutoksista [!INCLUDE [cds_long_md](includes/cds_long_md.md)] -organisaation tietueisiin.
 

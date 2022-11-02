@@ -10,12 +10,12 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/11/2022
 ms.author: bholtorf
-ms.openlocfilehash: ccc0d6612b3d2416263ed26089fc176f4fcbb2d2
-ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
+ms.openlocfilehash: 436adf8dcfd9d5825530a1a51f5ed0efad7d9b7c
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9652162"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716543"
 ---
 # <a name="personalize-your-workspace"></a>Työtilan mukauttaminen
 
@@ -155,6 +155,12 @@ Seuraavat seikat auttavat ymmärtämään mukauttamista entistä paremmin.
 - Tekemäsi muutokset koskevat kaikkia roolikeskuksia. Jos esimerkiksi teet muutoksen asiakasluetteloon, kun roolikeskuksen asetuksena on Liiketoimintajohtaja, asiakasluettelon muutos näkyy myös **Asiakkaat**-sivulla, kun roolikeskuksen asetuksena on Myyntitilausten käsittelijä.
 - Ruudun sivulla tehdyt muutokset koskevat sivua kaikissa tilanteissa, joissa se näytetään.  
 - Voit lisätä kenttiä ja sarakkeita vain kyseiseen sivuun perustuvasta ennaltamääritetystä luettelosta. Uusia kenttiä tai sarakkeita ei voi luoda.
+- **Power Automate** -nimike toimintopalkissa
+  - Et voi piilottaa tai siirtää **automaattisia** nimikkeitä tai **Power Automate** -alinimikettä, ja sen toimintoja **Luo työnkulku** ja **Hallitse työnkulkuja**.
+  - Voit siirtää **automaattinen**-nimikkeeseen kuuluvia työnkulkuja, mutta et voi piilottaa niitä personoinnin avulla. Työnkulun siirtäminen kopioi työnkulun määräpäähän, se ei poista sitä **automaattisesta** nimikkeestä.
+
+   > [!TIP]
+   > Järjestelmänvalvojana voit piilottaa **Automaattisen** nimikkeen käyttäjiltä. Lisätietoja kohdassa [Power Automate -integraation määrittäminen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
 ## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/personalize-ui-dynamics-365-business-central/index)
 

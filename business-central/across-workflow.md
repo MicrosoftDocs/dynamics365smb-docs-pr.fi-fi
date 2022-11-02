@@ -1,50 +1,56 @@
 ---
 title: Dynamics 365 Business Centralin työnkulut
 description: Sisäisen työnkulun ominaisuuksien avulla voit määrittää hyväksyntätyönkulkuja, jotka täydentävät Power Automateen perustuvia automatisoituja työnkulkuja. Voit määrittää vaiheet, joiden avulla tehtäviä määritetään eri henkilöille osana liiketoimintaprosessien eri tehtäviä.
-author: SorenGP
+author: jswymer
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 09/13/2022
-ms.author: edupont
-ms.openlocfilehash: ecaaf9bbb56e1c1b47f9f617319b32f32a2920fd
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.date: 10/10/2022
+ms.custom: bap-template
+ms.openlocfilehash: c8cd251a2e82cd1a721f070f14986dd78c6f1730
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585619"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716527"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Dynamics 365 Business Centralin työnkulut
 
-Voit määrittää ja käyttää työnkulkuja yhdistääksesi eri käyttäjien suorittamia liiketoimintaprosessin tehtäviä. Järjestelmätehtäviä (kuten automaattinen kirjaus) voidaan sisällyttää työnkulkuihin, joita käyttäjän tehtävät edeltävät tai seuraavat. Uusien tietueiden luontiin liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.
+Voit määrittää ja käyttää työnkulkuja yhdistääksesi eri käyttäjien suorittamia liiketoimintaprosessin tehtäviä. Järjestelmätehtäviä, kuten automaattinen kirjaus, voidaan sisällyttää työnkulkuihin. Käyttäjätehtävät voivat edeltää tai seurata järjestelmätehtäviä. Uusien tietueiden luontiin liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman oletusversio tukee kolmentyyppisiä työnkulkuja:
+  
+* Power Automate -työnkulut
+
+  * Automaattiset työnkulut käynnistyvät tapahtumien, (kuten tietueiden tai asiakirjojen luonnin, muuttamisen tai poistamisen avulla) [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa. Mukana ovat myös Power Automatessa luodut hyväksymistyönkulut, jotka käynnistyvät kun hyväksyntää pyydetään [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa.
+  * Pikatyönkulut, jotka käynnistetään manuaalisesti **Automaattinen**-toiminnolla luetteloista, korteista ja asiakirjasivuilta. 
+
+    Luo ja manuaalisesti käynnistää Power Automate -työnkulun [!INCLUDE[prod_short](includes/prod_short.md)] -tietueesta, kuten asiakkaasta, nimikkeestä tai myyntitilauksesta, jolla voi käsitellä tietoja sekä sisäisesti että ulkoisesti (käyttämällä integroituja työkaluja).
 
 * Sisäisiin työnkulkumalleihin perustuvat hyväksyntätyönkulut
 
   **Työnkulkumallit**-sivulla näkyvät kaikki käytettävissä olevat työnkulut. [!INCLUDE[prod_short](includes/prod_short.md)]in kokeiluversio sisältää useita valmiiksi määritettyjä työnkulkuja ja työnkulkumalleja, joita kopioimalla voit luoda uusia. Kun avaat mallin **Työnkulunmallit**-sivulta ja työnkulun nimi alkaa kirjaimilla *MS-*, Microsoft lisää mallin.
-  
-* Itse määrittämäsi Power Automate -työnkulut
-
-  Microsoft Power Automatella luodut työnkulkumallit lisätään [!INCLUDE[prod_short](includes/prod_short.md)]in työkulkumalleihin. Lisätietoja on kohdassa [[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen käyttäminen Power Automate -työnkuluissa](across-how-use-financials-data-source-flow.md). 
-  
-* **Automaattisen** toiminnon (vain [!INCLUDE [prod_short](includes/prod_short.md)] onlinessa) manuaalisesti käynnistämät pikatyönkulut.
-
-  Luo ja manuaalisesti käynnistää Power Automate -työnkulun [!INCLUDE[prod_short](includes/prod_short.md)] -tietueesta, kuten asiakkaasta, nimikkeestä tai myyntitilauksesta, jolla voi käsitellä tietoja sekä sisäisesti että ulkoisesti (käyttämällä integroituja työkaluja). Katso lisätietoja [Pikatyönkulut](across-how-use-financials-data-source-flow.md#instant-flows)-osasta.
 
 ## <a name="power-automate-flows"></a>Power Automate -työnkulut
 
-Käyttämällä [!INCLUDE [prod_short](includes/prod_short.md)] online-tilaa voit kirjautua Power Automateen luodaksesi tehokkaita automaattisia työnkulkuja. Voit käyttää työnkulkuja [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen sisältä yhdistämällä sisäisiä ja ulkoisia tietolähteitä ja työkaluja ilman koodaustaitoa.
+[!INCLUDE [prod_short](includes/prod_short.md)] online-tilan avulla voit kirjautua Power Automateen luodaksesi tehokkaita automaattisia työnkulkuja. Nämä työnkulut suoritetaan [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmasta. Työnkulut voivat yhdistämää sisäisiä ja ulkoisia tietolähteitä ja työkaluja ilman koodaustaitoa.
 
-Power Automate -työnkulkuja voidaan käynnistää tapahtumilla (kuten tietueen tai asiakirjan luominen, muokkaaminen tai poistaminen) ja suorittaa käyttäjän määrittämän aikataulun mukaan tai pyynnöstä (tunnetaan nimellä **pikatyönkulku**).
+|**Tehtävä** |**Katso**|
+|-------|-------|
+|Aloita Power Automaten käyttäminen ja työnkulkujen luominen, pikatyönkulkujen suorittaminen|[[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen käyttäminen Power Automate -työnkuluissa](across-how-use-financials-data-source-flow.md)|
+|Lisätietoja työnkulkujen luomisesta, muokkaamisesta ja hallinnasta|[Automaattisten työnkulkujen määrittäminen](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) ja [Pikatyönkulkujen määrittäminen](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)|
+|Määritä Power Automate -integrointi [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmalla käyttäjille ylläpitäjänä|[Power Automate -integraation määrittäminen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
 
 ## <a name="approval-workflows"></a>Hyväksyntätyönkulut
 
-Voit luoda hyväksymistyönkulun luettelemalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan. Työnkulku määritetään täyttämällä työnkulkurivien kentät käyttämällä tapahtumien kiinteitä luetteloita ja vastausarvoja, jotka edustavat sovelluskoodin tukemia skenaarioita.<!--What are the "values"? Can we give an example?-->
+Voit luoda hyväksymistyönkulun luettelemalla liittyvät toimet riveillä. Jokainen vaihe koostuu:
+- Tapahtumaehtojen avulla muokattu työnkulkutapahtuma
+- Työnkulun vastaus, jota valvotaan vastausasetuksilla.
 
-Esimerkkejä hyväksyntätyönkulkutapahtumista ovat muun muassa myynti- tai ostotilausten/tarjousten/laskujen luominen, hintojen muutokset sekä myyjän tai asiakkaan muokkaukset.
+Määrittääksesi työnkulun, täytät työnkulkurivien kentät käyttämällä tapahtumien kiinteitä luetteloita ja vastausarvoja, jotka edustavat sovelluskoodin tukemia skenaarioita.<!--What are the "values"? Can we give an example?-->
+
+Esimerkkejä hyväksyntätyönkulkutapahtumista ovat myynti- tai ostotilausten/tarjousten/laskujen luominen, hintojen muutokset sekä myyjän tai asiakkaan muokkaukset, jne.
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
@@ -52,7 +58,9 @@ Esimerkkejä hyväksyntätyönkulkutapahtumista ovat muun muassa myynti- tai ost
 |--|--|
 | Luo hyväksyntätyönkulun käyttäjiä, määritä, kuinka käyttäjät saavat ilmoituksia, ja luo uusia työnkulkuja. (Halutessasi määrittää uusia työnkulkuja skenaarioille, joita ei tueta, työnkulun elementit on otettava käyttöön mukauttamalla sovelluskoodia.) | [Määritä hyväksymistyönkulut](across-set-up-workflows.md) |
 | Ota käyttöön hyväksyntätyönkulkuja ja käsittele työnkulun ilmoituksia, mukaan lukien työnkulun vaiheen pyytäminen ja hyväksyminen. Arkistoi ja poista työnkulkuja. | [Hyväksymistyönkulkujen käyttäminen](across-use-workflows.md) |
-| Integroi yrityksen tiedot Power Automate -työnkulkujen avulla sekä sisäisten että ulkoisten lähteiden ja tapahtumien avulla, kun luot ja automatisoit tehtäviä tai työnkulkuja. | [[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen käyttäminen Power Automate -työnkuluissa](across-how-use-financials-data-source-flow.md) |
+
+<!--
+| Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |-->
 
 ## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
