@@ -8,12 +8,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
-ms.openlocfilehash: c8cd251a2e82cd1a721f070f14986dd78c6f1730
-ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
+ms.openlocfilehash: fd43becad8bd2272c4d1babf2ed2cfce40edfd2d
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9716527"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728465"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Dynamics 365 Business Centralin työnkulut
 
@@ -24,7 +24,7 @@ Voit määrittää ja käyttää työnkulkuja yhdistääksesi eri käyttäjien s
 * Power Automate -työnkulut
 
   * Automaattiset työnkulut käynnistyvät tapahtumien, (kuten tietueiden tai asiakirjojen luonnin, muuttamisen tai poistamisen avulla) [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa. Mukana ovat myös Power Automatessa luodut hyväksymistyönkulut, jotka käynnistyvät kun hyväksyntää pyydetään [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa.
-  * Pikatyönkulut, jotka käynnistetään manuaalisesti **Automaattinen**-toiminnolla luetteloista, korteista ja asiakirjasivuilta. 
+  * Pikatyönkulut, jotka käynnistetään manuaalisesti **Automaattinen**-toiminnolla luetteloista, korteista ja asiakirjasivuilta.
 
     Luo ja manuaalisesti käynnistää Power Automate -työnkulun [!INCLUDE[prod_short](includes/prod_short.md)] -tietueesta, kuten asiakkaasta, nimikkeestä tai myyntitilauksesta, jolla voi käsitellä tietoja sekä sisäisesti että ulkoisesti (käyttämällä integroituja työkaluja).
 
@@ -44,11 +44,12 @@ Voit määrittää ja käyttää työnkulkuja yhdistääksesi eri käyttäjien s
 
 ## <a name="approval-workflows"></a>Hyväksyntätyönkulut
 
-Voit luoda hyväksymistyönkulun luettelemalla liittyvät toimet riveillä. Jokainen vaihe koostuu:
-- Tapahtumaehtojen avulla muokattu työnkulkutapahtuma
-- Työnkulun vastaus, jota valvotaan vastausasetuksilla.
+Luo hyväksymistyönkulku määrittämällä, mikä työnkulun aloittaa ja mitä tapahtuu seuraavaksi:
 
-Määrittääksesi työnkulun, täytät työnkulkurivien kentät käyttämällä tapahtumien kiinteitä luetteloita ja vastausarvoja, jotka edustavat sovelluskoodin tukemia skenaarioita.<!--What are the "values"? Can we give an example?-->
+* Tapahtumaehtojen avulla muokattu työnkulkutapahtuma.
+* Työnkulun vastaus, jota valvotaan vastausasetuksilla.
+
+Määrittääksesi työnkulun, täytä työnkulkurivien kentät käyttämällä tapahtumien ja vastausten arvoja, jotka edustavat tuettuja skenaarioita.
 
 Esimerkkejä hyväksyntätyönkulkutapahtumista ovat myynti- tai ostotilausten/tarjousten/laskujen luominen, hintojen muutokset sekä myyjän tai asiakkaan muokkaukset, jne.
 

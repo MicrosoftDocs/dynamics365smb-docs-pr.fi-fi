@@ -1,19 +1,19 @@
 ---
 title: Asiakirjojen tilarivi
 description: Lisätietoja Avoin- ja Vapautettu-tilasta tarjous-, tilaus- ja hyvityslaskuasiakirjoissa.
-author: rubenseishima
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: document, status, quote, order, credit memo, released, open, pending approval, pending prepayment,
 ms.search.form: ''
 ms.date: 09/19/2022
-ms.author: a-reishima
-ms.openlocfilehash: c96909b4ee37673ee7b0c752224478a144ad853e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.author: bholtorf
+ms.openlocfilehash: f48f499277155aaf60ae0992199d7895225f1ef5
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9608147"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728624"
 ---
 # <a name="status-field-on-documents"></a>Asiakirjojen tilarivi
 
@@ -28,7 +28,7 @@ Kun olet täyttänyt asiakirjan, voit vapauttaa sen, niin [!INCLUDE[prod_short](
 | Odottaa hyväksyntää   | Asiakirja odottaa hyväksyntää. |
 | Odottaa ennakkomaksua | Asiakirjan ennakkomaksulasku on kirjattu. |
 
-## <a name="releasing"></a>Vapauttaminen
+## <a name="release-process"></a>Julkaisukäsittely
 
 Vapautusprosessia voidaan käyttää monella tapaa helpottamaan tavallista asiankäsittelyä ja seuraamaan yrityksen hyväksymismenettelyjä tai fyysisen varastoinnin aktiviteettien aloittamista.
 
@@ -46,16 +46,16 @@ Lisätietoja hyväksynnän työnkuluista on kohdassa [Työnkulkujen käyttämine
 
 Jos tilauksen tila on **Avoin**, fyysinen varastointi ei aloita toimituksen valmistelua, eikä se odota vastaanottavansa ostotilauksen nimikkeitä. Kun vapautat tilauksen, ilmaiset, että tilaus on valmis ja että fyysinen varastointi voi sisällyttää sen aktiviteetteihinsa.
 
-## <a name="reopening-a-released-order"></a>Vapautetun tilauksen avaaminen uudelleen
+## <a name="reopen-a-released-order"></a>Vapautetun tilauksen avaaminen uudelleen
 
 Vapautettuun tilaukseen voi tehdä muutoksia avaamalla sen uudelleen. Riveillä olevia, fyysisen varastoinnin jo käsittelemiä määriä voi kuitenkin vain kasvattaa.
 
-Kun olet tehnyt muutokset ja vapautat tilauksen uudelleen, ohjelma laskee ALV:n ja laskualennuksen uudelleen.
+Kun olet tehnyt muutokset ja vapautat tilauksen uudelleen, [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelma laskee ALV:n ja laskualennuksen uudelleen.
 
 Jos vapautettuun tilaukseen tehdään muutoksia, fyysiselle varastoinnille tulee ilmoittaa muutoksista.
 
 > [!NOTE]
-> Jos haluat kirjata yksittäisen avoimen tilauksen tai hyvityslaskun ilman, että ensin vapautat sen, ohjelma vapauttaa asiakirjan automaattisesti silloin, kun kirjaat sen. Jos kirjaat tilauksia tai hyvityslaskuja käyttämällä **Kirjaa erä** -toimintoa, voit valita kirjaavasi vain vapautetut tilaukset tai hyvityslaskut.
+> Jos haluat kirjata yksittäisen avoimen tilauksen tai hyvityslaskun ilman, että ensin vapautat sen, [!INCLUDE [prod_short](includes/prod_short.md)] vapauttaa asiakirjan automaattisesti silloin, kun kirjaat sen. Jos kirjaat tilauksia tai hyvityslaskuja käyttämällä **Kirjaa erä** -toimintoa, voit valita kirjaavasi vain vapautetut tilaukset tai hyvityslaskut.
 
 ## <a name="see-also"></a>Katso myös
 

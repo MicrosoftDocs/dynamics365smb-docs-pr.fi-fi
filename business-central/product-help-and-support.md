@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: 9e20cf4862f841e96a83b129a27b7db34494f57c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 0df97fbafd160e932700b5f66de455d50ff8f645
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607707"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728570"
 ---
 # <a name="resources-for-help-and-support"></a>Ohje- ja tukiresurssit
 
@@ -114,9 +114,13 @@ Tässä osassa on Microsoft AppSourcen pikakuvakkeet, ja voit etsiä sieltä [!I
 
 ### <a name="give-feedback"></a>Anna palautetta
 
-Voit tehdä ehdotuksia uusista ominaisuuksista ja toiminnoista [Dynamics 365:n ideasivustossa](https://aka.ms/bcideas). Ehdotuksesi siirtyy suodaan Business Centralin insinöörien käsittelemättömiin töihin tutustumista ja priorisointia varten.  
+Noin kerran vuodessa [!INCLUDE [prod_short](includes/prod_short.md)] -tiimi kerää käyttäjiltä palautetta siitä, miten tyytyväisiä he ovat tuotteeseen. Luokitusten lisäksi voit myös kirjoittaa kommentin. Antamalla meille tarkkoja ja käytännöllisiä kommentteja autat suunnittelutiimejämme priorisoimaan investointiemme tuoteparannuksia. Voit myös antaa suostumuksesi siihen, että sinuun otetaan yhteyttä kommenttiisi liittyen. Jos teet näin, sinut kutsutaan Teams-tapaamiseen sinulle sopivana ajankohtana. Voit tarjota tuote-ehdotuksia milloin tahansa [Dynamics 365:n ideat](https://aka.ms/bcideas) -verkkosivustollamme.  
 
-Varmista, että käyt läpi lähetettyjen ehdotusten luettelon. On todennäköistä, että joku on jo lähettänyt jotakin samankaltaista ja siitä on voitu jo äänestää. Äänestä jo lähetettyä ideaa, jos haluat, että se priorisoidaan insinöörien käsittelemättömissä töissä.  
+### <a name="product-suggestions"></a>Tuote-ehdotukset
+
+Voit tehdä ehdotuksia uusista ominaisuuksista ja toiminnoista [Dynamics 365:n ideasivusto](https://aka.ms/bcideas) -verkkosivuilla. Ehdotuksesi siirtyy suodaan Business Centralin insinöörien käsittelemättömiin töihin tutustumista ja priorisointia varten.  
+
+Varmista, että käyt läpi lähetettyjen ehdotusten luettelon. On mahdollista, että joku on jo lähettänyt jotakin samankaltaista ja siitä on voitu jo äänestää. Äänestä jo lähetettyä ideaa, jos haluat, että se priorisoidaan insinöörien käsittelemättömissä töissä.  
 
 ### <a name="troubleshooting"></a>Vianetsintä
 

@@ -674,6 +674,8 @@
 ### [Synkronoi kaikki kohteet Shopifyn kanssa](shopify/synchronize-items.md)
 ### [Asiakkaiden synkronointi Shopifyn kanssa](shopify/synchronize-customers.md)
 ### [Myyntitilausten synkronoiminen ja täyttäminen Shopifyn kanssa](shopify/synchronize-orders.md)
+### [Synkronoi tapahtumat ja maksut](shopify/transactions-and-payouts.md)
+### [Määritä Shopify-yhteyden verot](shopify/setup-taxes.md)
 ### [Tehtävien suorittaminen taustalla](shopify/background.md)
 ### [Shopify-yhdistimen vianmääritys](shopify/troubleshoot.md)
 ### [Shopify-yhdistimen UKK](shopify/shopify-faq.md)
@@ -1775,7 +1777,7 @@
 ### [Palvelun yhteensopivuus](compliance/compliance-service-compliance.md)
 ### [Sertifikaatit](compliance/compliance-certifications.md)
 ## [Palvelun yleiskuvaus (vain englanniksi)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
-
+## [Muihin Microsoft-palveluihin yhteydessä olevat kokeiluominaisuudet](privacy-connected-services.md)
 # Kehittäminen ja hallinto
 ## [Aloita kehitys- ja hallintodokumentaation käyttö](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
 ## Business Central -sovelluksen hallintatehtävät

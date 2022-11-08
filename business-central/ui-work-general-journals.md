@@ -10,24 +10,29 @@ ms.search.keywords: journals, recurring, accrual, renumber, bulk-post
 ms.search.form: 39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 223930af41410c649d18a567bc5f2a736e0403fa
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 9fa231ea56c15836d2a3139fc6a35148292a449c
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535878"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728476"
 ---
 # <a name="work-with-general-journals"></a>Yleisten päiväkirjojen käyttäminen
 
-Useimmat rahoitustapahtumat kirjataan pääkirjanpitoon erityisten yritysasiakirjojen, kuten ostolaskujen ja myyntitilausten välityksellä. Voit myös prosessoida liiketoiminta-aktiviteetteja, kuten ostoja, maksamista, toistuvien päiväkirjojen käyttämistä kertymien kirjaamiseen tai työntekijöiden kulujen hyvitystä kirjaamalla päiväkirjarivejä [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen eri päiväkirjoihin.  
+Useimmat rahoitustapahtumat kirjataan pääkirjanpitoon asiakirjojen, kuten ostolaskujen ja myyntitilausten välityksellä. Voit kuitenkin käsitellä myös liiketoimintaa, kuten:
 
-Useimmat päiväkirjat perustuvat *yleiseen päiväkirjaan* ja voit käsitellä kaikki tapahtumat **Yleinen päiväkirja** -sivulla. Lisätietoja on kohdassa [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md).  
+* Osto
+* Maksut
+* Jaksotusten kirjaaminen toistuvien päiväkirjojen avulla
+* Työntekijän kulujen palautus kirjaamalla päiväkirjarivit päiväkirjoissa  
 
-Voit esimerkiksi kirjata työntekijöiden itse maksamat liiketoimintaan liittyvät kulut myöhemmin hyvitettäväksi. Lisätietoja on kohdassa [Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md).
+Useimmat päiväkirjat perustuvat yleiseen päiväkirjaan ja voit käsitellä kaikki tapahtumat **Yleinen päiväkirja** -sivulla. Lue lisätietoja kohdasta [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md).  
 
-Useimmissa tapauksissa kuitenkin käyttää tietyille tapahtumille tarkoitettuja päiväkirjoja, kuten **maksupäiväkirjaa** maksujen rekisteröinnissä. Lisätietoja on kohdassa [Maksujen ja hyvitysten tallentaminen maksupäiväkirjaan](payables-how-post-payments-refunds.md).  
+Voit kirjata esimerkiksi työntekijöiden kuluja hyvityksiin. Lue lisätietoja kohdasta [Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md).
 
-Yleisiä päiväkirjoja käytetään rahoitustapahtumien kirjaamisessa suoraan pääkirjanpitotileille sekä muille tileille, kuten pankki-, asiakas-, toimittaja- ja työntekijätileille. Yleisen päiväkirjan avulla kirjaaminen luo aina tapahtumia kirjanpitotileille. Näin tapahtuu silloinkin, kun kirjataan esimerkiksi päiväkirjan rivi asiakkaan tilille, koska tapahtuma kirjataan pääkirjanpidon myyntisaamisten tilille kirjausryhmän kautta.
+[!INCLUDE [prod_short](includes/prod_short.md)] kuitenkin tarjoaa tietyille tapahtumille tarkoitettuja päiväkirjoja, kuten **maksupäiväkirjaa** maksujen rekisteröinnissä. Lisätietoja on kohdassa [Maksujen ja hyvitysten tallentaminen maksupäiväkirjaan](payables-how-post-payments-refunds.md).  
+
+Käytät yleisiä päiväkirjoja taloustapahtumien kirjaamiseen pääkirjatileille ja useille muille tileille. Muut tilit sisältävät pankki-, asiakas-, toimittaja- ja työntekijätilit. Yleisen päiväkirjan avulla kirjaaminen luo tapahtumia kirjanpitotileille, vaikka esimerkiksi kirjaat päiväkirjan rivin asiakastilille. Tapahtuma kirjataan pääkirjanpidon myyntisaamiset-tilille kirjausryhmän kautta.
 
 Päiväkirjaan lisäämäsi tiedot ovat väliaikaisia, ja niitä voi muuttaa niiden ollessa päiväkirjassa. Kun kirjaat päiväkirjan, tiedot siirretään yksittäisten tilien tapahtumiin, missä niitä ei voi muuttaa. Voit kuitenkin peruuttaa kirjattujen tapahtumien kohdistuksen tai kirjata peruuttavia tai korjaavia tapahtumia. Lisätietoja on kohdassa [Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md).
 
@@ -47,38 +52,27 @@ Voit määrittää kullekin päiväkirjan mallille oman henkilökohtaisen päiv�
 > Kenttiä voi lisätä päiväkirjoihin tai poistaa niitä **Mukauttaminen**-palkin avulla. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
 ### <a name="validating-general-journal-batches"></a>Yleisen päiväkirjan erien arvioiminen
-Voit estää kirjauksen viivästymistä ottamalla käyttöön taustatarkistuksen, joka ilmoittaa, kun työstettävässä päiväkirjassa on virhe, joka estää päiväkirjan kirjaamisen. **Yleisen päiväkirjan erä** -sivulla voit valita **taustan virheen tarkistuksen**, jos haluat, että [!INCLUDE[prod_short](includes/prod_short.md)] vahvistaa rahoituspäiväkirjat, kuten yleiset tai maksupäiväkirjat, kun käsittelet niitä. 
 
-Kun oikeellisuustarkistus otetaan käyttöön, **päiväkirjan tarkistuksen** -tietoruutu näkyy päiväkirjarivien vieressä, ja siinä näkyvät tämän rivin ja koko erän seurantakohteet. Vahvistus tehdään silloin, kun lataat rahoituspäiväkirjan erän ja kun valitset toisen päiväkirjarivin. Tietoruudun **kokonaisongelmat**-ruudussa näkyy [!INCLUDE[prod_short](includes/prod_short.md)]:n löytämien ongelmien kokonaismäärän, ja voit valita sen, kun haluat avata yleiskuvauksen ongelmista. 
+Voit ottaa taustatarkistuksen käyttöön, mikä auttaa estämään viiveet kirjauksessa. Merkki ilmoittaa sinulle, kun käsittelemäsi talouspäiväkirjassa oleva virhe estää sinua kirjaamasta päiväkirjaa. **Yleisen päiväkirjan erä** -sivulla voit valita **taustan virheen tarkistuksen**, jos haluat, että [!INCLUDE[prod_short](includes/prod_short.md)] vahvistaa rahoituspäiväkirjat, kuten yleiset tai maksupäiväkirjat, kun käsittelet niitä. 
 
-Voit käyttää **Näytä rivit, joilla on seurantakohteita**- ja **Näytä kaikki rivit** -toimintoja, joilla voi siirtyä päiväkirjan riveillä, joilla on tai ei ole ongelmia. Uuden **päiväkirjan rivitiedot** -ruudun avulla saat nopeasti yleiskuvan ja voit käyttää päiväkirjarivien, kuten KP-tilin, asiakkaan tai toimittajan, tietoja sekä tiettyjen tilien kirjausasetuksia.   
+Kun oikeellisuustarkistus otetaan käyttöön, **päiväkirjan tarkistuksen** -tietoruudussa näkyvät tämän rivin ja koko erän seurantakohteet. Vahvistus tehdään silloin, kun lataat rahoituspäiväkirjan erän ja kun valitset toisen päiväkirjarivin. Tietoruudun **kokonaisongelmat**-ruudussa näkyy [!INCLUDE[prod_short](includes/prod_short.md)]:n löytämien ongelmien kokonaismäärän, ja voit valita sen, kun haluat avata yleiskuvauksen ongelmista. 
+
+Voit käyttää **Näytä rivit, joilla on seurantakohteita**- ja **Näytä kaikki rivit** -toimintoja, joilla voi siirtyä päiväkirjan riveillä, joilla on tai ei ole ongelmia. **Päiväkirjan rivitiedot** -ruudun avulla saat nopeasti yleiskuvan ja voit käyttää päiväkirjarivien, kuten KP-tilin, asiakkaan tai toimittajan, tietoja sekä tiettyjen tilien kirjausasetuksia.
 
 [!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]  
 
-### <a name="reversing-journals-to-correct-mistakes"></a>Päiväkirjojen peruuttaminen virheiden korjaamiseksi
-Kun käsittelet päiväkirjoja, joissa on monta riviä ja jokin menee pieleen, on tärkeää, että virheet on helppo korjata. **Kirjattu yleisen päiväkirjan** sivu sisältää muutamia toimintoja, jotka voivat auttaa.
-
-* **Kopioi valitut rivit päiväkirjaan** - Kopioi vain valitsemasi rivit.
-* **Kopioi KP-rekisteri päiväkirjaan** - Kopioi kaikki rivit, jotka kuuluvat samaan KP-rekisteriin.
-
-Näiden toimintojen avulla voit luoda kopion yleisen päiväkirjan rivistä tai erästä ja määrittää seuraavat tiedot:
-
-* Päiväkirja, johon rivit kopioidaan
-* Onko vastakkaisilla merkeillä (peruutuspvk)
-* Eri kirjauspäivämäärä tai asiakirjan numero
-
-Jos haluat sallia päiväkirjojen kirjausten kopioimisen yleisiin päiväkirjoihin **Yleiset päiväkirjamallit** -sivulle, valitse **Kopioi kirjatuille pvk-riveille** -valintaruutu. Sen jälkeen kun olet sallinut ihmisten kopioida kirjatut yleiset päiväkirjat, voit halutessasi poistaa kopioinnin käytöstä tiettyjen erien osalta.
-
 ## <a name="understanding-main-accounts-and-balancing-accounts"></a>Päätilit ja vastatilit
+
 Jos olet määrittänyt päiväkirjan erille oletusvastatilit **Yleiset päiväkirjat** -sivulla, vastatili täytetään automaattisesti, kun täytät **Tilinro**-kentän. Muussa tapauksessa täytä sekä **Tilinro**-kenttä että **Vastatilin nro** -kenttä manuaalisesti. Positiivinen summa **Summa**-kentässä veloitetaan päätililtä ja hyvitetään vastatilille. Negatiivinen summa hyvitetään päätilille ja veloitetaan vastatililtä.
 
 > [!NOTE]  
 > ALV lasketaan erikseen päätiliä varten ja vastatiliä varten, joten niillä voi olla eri ALV-prosentit.
 
 ## <a name="work-with-recurring-journals"></a>Toistuvien tapahtumien päiväkirjojen käyttäminen
-Toistuvien tapahtumien päiväkirja on yleinen päiväkirja, jossa on erityiskenttiä sellaisten tapahtumien hallintaa varten, jotka kirjataan usein vähäisin muutoksin tai ilman muutoksia. Näitä ovat esimerkiksi vuokra, lehtitilaukset, sähkö ja lämmitys. Käyttämällä näitä kenttiä toistuviin tapahtumiin, voit kirjata sekä vakiosummia että muuttuvia summia. Voit myös määrittää automaattiset peruutustapahtumat kirjauspäivämäärän jälkeisenä päivänä. Voit myös käyttää kohdistusavaimia ja jakaa toistuvat tapahtumat eri tileille. Lisätietoja on kohdassa [Toistuvien tapahtumien päiväkirjan summien kohdistaminen useisiin tileihin](#allocating-recurring-journal-amounts-to-several-accounts).
 
-Toistuvassa päiväkirjassa säännöllisesti kirjattavat tapahtumat tarvitsee syöttää vain kerran. Siten tilit, dimensiot , dimension arvot ym. tiedot jotka syötät, säilyvät päiväkirjassa kirjauksen jälkeen. Jos sinun tarvitsee tehdä muutoksia, voit tehdä niitä jokaisen kirjauksen yhteydessä.
+Toistuva päiväkirja on yleinen päiväkirja, jossa on tiettyjä kenttiä sellaisten tapahtumien hallintaa varten, jotka kirjataan usein vähäisin muutoksin tai ilman muutoksia. Tällaisia tapahtumia ovat esimerkiksi vuokrat, tilaukset, sähkö ja lämpö. Toistuvien päiväkirjojen avulla voit kirjata kiinteitä ja muuttuvia summia ja määrittää automaattiset peruutustapahtumat kirjauspäivämäärän jälkeisenä päivänä. Kohdistusavaimet sallivat sinun jakaa toistuvat tapahtumat eri tileille. Lisätietoja on kohdassa [Toistuvien tapahtumien päiväkirjan summien kohdistaminen useisiin tileihin](#allocating-recurring-journal-amounts-to-several-accounts).
+
+Toistuvan päiväkirjan avulla luot merkinnät, jotka kirjataan säännöllisesti vain kerran. Esimerkiksi tilit, dimensiot ja dimensioarvot säilyvät päiväkirjassa kirjaamisen jälkeen. Jos muutoksia tarvitaan, ne voidaan tehdä aina kirjauksen yhteydessä.
 
 ### <a name="recurring-method-field"></a>Toistotapa-kenttä
 
@@ -88,44 +82,50 @@ Tämä kenttä määrittää, miten päiväkirjan rivin summaa käsitellään ki
 | --- | --- |
 |K Kiinteä|Summa säilyy päiväkirjan rivillä kirjauksen jälkeen.|
 |M Muuttuva|Ohjelma poistaa summan päiväkirjan riviltä kirjauksen jälkeen.|
-|S Saldo|Rivin tilille kirjattu summa jaetaan niiden tilien kesken, jotka on määritelty riville Yleisen päiväkirjan kohdistus -taulukossa. Tilin saldoksi tulee siten nolla. Muista täyttää **Kohdistus-%**-kenttä **Kohdistukset**-sivulla. Lisätietoja on kohdassa [Toistuvien tapahtumien päiväkirjan summien kohdistaminen useisiin tileihin](#allocating-recurring-journal-amounts-to-several-accounts).|
+|S Saldo|Rivin tilille kirjattu summa jaetaan niiden tilien kesken, jotka on määritelty riville Yleisen päiväkirjan kohdistus -taulukossa. Tilin saldoksi tulee nolla. Muista täyttää **Kohdistus-%**-kenttä **Kohdistukset**-sivulla. Lisätietoja on kohdassa [Toistuvien tapahtumien päiväkirjan summien kohdistaminen useisiin tileihin](#allocating-recurring-journal-amounts-to-several-accounts).|
 |KV Kiinteä vastakirjaus|Päiväkirjan rivillä oleva summa säilyy kirjauksen jälkeen, ja vastakirjaus kirjataan seuraavana päivänä.|
 |MV Muuttuva vastakirjaus|Päiväkirjan rivillä oleva summa poistuu kirjauksen jälkeen, ja vastakirjaus kirjataan seuraavana päivänä.|
 |VS Vastasaldo|Rivin tilille kirjattu summa jaetaan niiden tilien kesken, jotka on määritelty riville **Kohdistukset**-sivulla. Tilin saldoksi määritetään nolla ja vastatapahtuma kirjataan seuraavana päivänä.|
 |SD Saldo dimensioittain|Päiväkirjan rivi kohdistaa kustannukset, jotka perustuvat KP-tilin saldoon dimensioittain. Sinua pyydetään asettamaan dimensiosuodattimia, joiden avulla lasketaan lähteen KP-tilin saldo dimensioittain, josta haluat kohdistaa kustannukset. Vaihtoehtoisesti voit valita **Aseta dimensiosuodattimet** -toiminnon myöhemmin.|
-|VSD Vastasaldo dimensioittain|Päiväkirjan rivi kohdistaa kustannukset, jotka perustuvat KP-tilin vastasaldoon dimensioittain. Sinua pyydetään asettamaan dimensiosuodattimia, joiden avulla lasketaan lähteen KP-tilin saldo dimensioittain, josta haluat kohdistaa kustannukset. Vaihtoehtoisesti voit valita **Aseta dimensiosuodattimet** -toiminnon myöhemmin.|
+|VSD Vastasaldo dimensioittain|Päiväkirjan rivi kohdistaa kustannukset, jotka perustuvat KP-tilin vastasaldoon dimensioittain. Sinua pyydetään asettamaan dimensiosuodattimia, joiden avulla lasketaan lähteen KP-tilin saldo dimensioittain, josta haluat kohdistaa kustannukset. Voit myös valita **Aseta dimensiosuodattimet** -toiminnon myöhemmin.|
 
 > [!NOTE]  
 > ALV-kentät voidaan täyttää joko toistuvan päiväkirjan rivillä tai kohdistuspäiväkirjan rivillä, mutta ei molemmilla. Siten ne voidaan täyttää **Kohdistukset**-sivulla vain, jos vastaavia kenttiä ei ole täytetty toistuvassa päiväkirjassa.
 
 ### <a name="recurring-frequency-field"></a>Toistotiheys-kenttä
-Tämä kenttä määrittää, kuinka usein päiväkirjarivillä oleva tapahtuma kirjataan. Se on Päivämäärän kaava -kenttä, joka on täytettävä toistuvien tapahtumien päiväkirjan riveille. Lisätietoja on kohdassa [Päivämäärän kaavojen käyttäminen](ui-enter-date-ranges.md#use-date-formulas).
+
+Tämä pvm-kaava-kenttä määrittää, kuinka usein tapahtuma kirjataan päiväkirjan riville, ja se tulee täyttää. Lisätietoja on kohdassa [Päivämäärän kaavojen käyttäminen](ui-enter-date-ranges.md#use-date-formulas).
 
 #### <a name="examples"></a>Esimerkkejä
+
 Jos päiväkirjan rivi tulee kirjata joka kuukausi, syötä 1K. Jokaisen kirjauksen jälkeen **Kirjauspvm.**-kentässä oleva päivämäärä päivitetään seuraavan kuukauden samaan päivään.
 
 Jos haluat kirjata tapahtuman jokaisen kuukauden viimeisenä päivänä, voit toimia yhdellä seuraavista tavoista:
 
-- Kirjaa ensimmäinen tapahtuma kuukauden viimeisenä päivänä syöttämällä 1P+1K-1P (1 päivä + 1 kuukausi - 1 päivä). Tämän laskukaavan avulla ohjelma laskee kirjauspäivämäärän oikein riippumatta siitä, kuinka monta päivää kussakin kuukaudessa on.
+* Kirjaa ensimmäinen tapahtuma kuukauden viimeisenä päivänä syöttämällä 1P+1K-1P (1 päivä + 1 kuukausi - 1 päivä). Tämän laskukaavan avulla ohjelma laskee kirjauspäivämäärän oikein riippumatta siitä, kuinka monta päivää kussakin kuukaudessa on.
 
-- Kirjaa ensimmäinen tapahtuma minä tahansa kuukauden päivänä syöttämällä 1K+NK. Tämän kaavan avulla kirjauspäivämäärä on yhden kokonaisen kuukauden + nykyisen kuukauden jäljellä olevien päivien verran myöhemmin.
+* Kirjaa ensimmäinen tapahtuma minä tahansa kuukauden päivänä syöttämällä 1K+NK. Tämän kaavan avulla kirjauspäivämäärä on yhden kokonaisen kuukauden + nykyisen kuukauden jäljellä olevien päivien verran myöhemmin.
 
 ### <a name="expiration-date-field"></a>Vanhentumispäivämäärä -kenttä
+
 Tämä kenttä määrittää päivämäärän, jolloin rivi kirjataan viimeisen kerran. Riviä ei kirjata tämän päivämäärän jälkeen.
 
-Kentän käyttämisessä on se etu, että rivi ei poistu päiväkirjasta heti, ja voit aina korvata nykyisen vanhentumispäivämäärän myöhäisemmällä, niin että riviä voi käyttää jatkossakin.
+Päättymispäivämäärä-kentän käyttämisessä on se etu, että rivi ei poistu päiväkirjasta heti. Voit syöttää myöhemmän päivämäärän, jotta voit käyttää riviä tulevaisuudessa.
 
-Jos kenttä on tyhjä, rivi kirjataan joka kerta, kun kirjaat siihen asti, kun se poistetaan päiväkirjasta.
+Jos kenttä on tyhjä, rivi kirjataan joka kerta, kunnes se poistetaan päiväkirjasta.
 
 ### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Toistuvien tapahtumien päiväkirjan summien kohdistaminen useisiin tileihin
 
 Valitse **Toistuva yleinen päiväkirja** -sivulla **Kohdistukset**-toiminto, kun haluat nähdä, miten toistuvien tapahtumien päiväkirjan rivin summat on kohdistettu useille tileille ja useisiin dimensioihin. Toiminnon avulla voit myös hallita näitä summia. Huomaa, että kohdistus toimii toistuvien tapahtumien päiväkirjan rivin vastatilin rivinä.
 
-Kuten toistuvien tapahtumien päiväkirjassa, sinun tarvitsee syöttää kohdistus vain kerran. Kohdistus säilyy kohdistuspäiväkirjassa kirjauksen jälkeen, joten sinun ei tarvitse syöttää summia ja kohdistuksia aina kun kirjaat toistuvan päiväkirjan rivin.
+Kuten toistuvassa päiväkirjassa, voit syöttää kohdistuksen kerran ja se pysyy kohdistuspäiväkirjassa lähettämisen jälkeen. Sinun ei tarvitse syöttää summaa ja kohdistuksia aina, kun kirjaat toistuvan päiväkirjan rivin.
 
-Jos *Toistotapa*-kenttään toistuvien tapahtumien päiväkirjassa on asetettu **Saldo** tai **Vastasaldo**, ohjelma ei huomioi mitään dimension arvokoodeja toistuvassa päiväkirjassa, kun tili on nollattu. Jos siis kohdistat toistuvan rivin useampaan dimension arvoon **Kohdistukset**-sivulla, syntyy vain yksi vastakirjaus. Jos kohdistat toistuvan rivin, jolla on dimension arvon koodi, et voi syöttää samaa koodia **Kohdistukset**-sivulle. Jos teet niin, dimension arvot ovat virheellisiä.  
+Jos Toistotapa-kenttään toistuvien tapahtumien päiväkirjassa on asetettu **Saldo** tai **Vasta-saldo**, ohjelma ei huomioi dimension arvokoodeja toistuvassa päiväkirjassa, kun tili on nollattu. Jos kohdistat toistuvan rivin dimension arvoon **Kohdistukset**-sivulla, syntyy vain yksi vastakirjaus. 
 
-Jos haluat kohdistaa toistuvan päiväkirjan arvot dimensioiden perusteella, määritä **Toistotapa**-kenttään sen sijaan **Saldo dimensioittain** tai **Vastasaldo dimensioittain**. Jos Toistotapa-kenttään toistuvien tapahtumien päiväkirjassa on asetettu **Saldo dimensioittain** tai **Vastasaldo dimensioittain**, ohjelma huomioi dimension arvokoodit toistuvassa päiväkirjassa, kun tili on nollattu. Jos kohdistat toistuvan rivin useisiin dimension arvoihin **Kohdistukset**-sivulla, ohjelma luo useita peruuttavia tapahtumia, jotka vastaavat niiden dimensioarvoyhdistelmien määrää, joista saldo koostuu. Jos kohdistat tilin saldon toistuvan päiväkirjan kautta, joka sisältää dimensioarvokoodin, käytä **Saldo dimensioittain**- tai **Vastasaldo dimensioittain** -kohteita, jotta voit varmistaa, että dimensioarvot tasapainotetaan tai palautetaan oikein lähdetililtä.  
+> [!NOTE]
+> Jos kohdistat toistuvan rivin, jolla on dimension arvon koodi, älä syötä samaa koodia **Kohdistukset**-sivulle. Jos teet niin, dimension arvot ovat virheellisiä.  
+
+Jos haluat kohdistaa toistuvan päiväkirjan arvot dimensioiden perusteella, määritä **Toistotapa**-kenttään sen sijaan **Saldo dimensioittain** tai **Vastasaldo dimensioittain**. Jos Toistotapa-kenttään toistuvien tapahtumien päiväkirjassa on asetettu **Saldo dimensioittain** tai **Vastasaldo dimensioittain**, ohjelma huomioi dimension arvokoodit toistuvassa päiväkirjassa, kun tili on nollattu. Jos kohdistat toistuvan rivin dimension arvoihin **Kohdistukset**-sivulla, ohjelma luo useita peruuttavia tapahtumia, jotka vastaavat niiden dimensioarvoyhdistelmien määrää, joista saldo koostuu. Jos kohdistat tilin saldon toistuvan päiväkirjan kautta, joka sisältää dimensioarvokoodin, käytä **Saldo dimensioittain**- tai **Vastasaldo dimensioittain** -kohteita, jotta voit varmistaa, että dimensioarvot tasapainotetaan tai palautetaan oikein lähdetililtä.  
 
 Yritykselläsi on esimerkiksi pari liiketoiminta yksikköä ja kourallinen osastoja, jotka valvojat ovat asettaneet dimensioiksi. Ostolaskutapahtumaprosessin nopeuttamiseksi päätät vaatia, että ostoreskontran kirjaajat voivat syöttää vain liiketoimintayksikön dimensiot. Koska jokaisella liiketoimintayksiköllä on erityiset kohdistusavaimet Osasto-dimensiolle, esimerkiksi työntekijöiden lukumäärän perusteella, voit käyttää **SD Saldo dimensioittain** tai **VSD Vastasaldo dimensioittain** -toistumismenetelmiä ja kohdistaa kustannukset uudelleen kunkin liiketoimintayksikön osalta oikeisiin osastoihin kohdistusavainten perusteella.  
 
@@ -133,13 +133,21 @@ Yritykselläsi on esimerkiksi pari liiketoiminta yksikköä ja kourallinen osast
 > Kohdistusriveillä määritettyjä dimensioita ei lasketa automaattisesti, ja sinun täytyy määrittää, mitkä dimension arvot on määritettävä kohdistustileille. Jos haluat säilyttää linkin lähdetili- ja kohdistustilidimension välillä, on suositeltavaa käyttää sen sijaan [kustannuslaskennan](finance-about-cost-accounting.md) ominaisuuksia.
 
 #### <a name="example-allocating-rent-payments-to-different-departments"></a>Esimerkki: Vuokramaksujen kohdistaminen eri osastoihin
-Jos maksat vuokraa joka kuukausi, olet syöttänyt vuokrasumman kassatilille toistuvien tapahtumien päiväkirjan rivillä. **Kohdistukset**-sivulla voit jakaa kulun useamman osaston (Osasto-dimension) kesken osastojen pinta-alaneliöiden mukaan. Laskenta perustuu kunkin rivin kohdistusprosenttiin. Voit syöttää erilaisia tilejä jokaiselle eri kohdistusriville (jos myös vuokra jaetaan useammalle tilille) tai voit syöttää saman tilin erilaisilla dimension arvokoodeilla Osasto-dimension jokaisella rivillä.
+
+Jos maksat vuokraa kuukausittain, olet syöttänyt summan kassatilille toistuvien tapahtumien päiväkirjan rivillä. **Kohdistukset**-sivulla voit jakaa Osasto-dimension avulla kulun useamman osaston kesken. Esimerkiksi kunkin osaston kattamien neliömetrien määrän mukaan. Laskenta perustuu kunkin rivin kohdistusprosenttiin. Voit jakaa eri tavoilla:
+
+* Syötä eri tilit eri kohdistusriveille, jotta voit jakaa vuokrakulun useiden tiliesi kesken.
+* Syötä sama tili, mutta käytä eri dimension arvokoodeja kunkin rivin osaston dimensiolle.
+
+[!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
 ### <a name="reversal-date-calculation"></a>Päinvastainen päivämäärän laskenta
+
 Kun jaksotusten kirjaamisessa käytetään toistuvia yleisiä päiväkirjoja jakson lopussa, on tärkeää, että peruutusten tapahtumat ovat täysin hallinnassa. **Toistuvat yleiset päiväkirjat** -sivulla **Peruutuspäivämäärän laskenta** -kentässä voit määrittää päivämäärän, jolloin peruutustapahtumat kirjataan peruutusten toistuvia menetelmiä käytettäessä.
 
 #### <a name="example"></a>Esimerkki
-Jaksotukset kirjataan yleensä päiväkirjan rivillä kiinteiden, muuttuvien tai tasapainoisten toistuvien menetelmien avulla. Päiväkirjarivin tilin kirjatun summan kirjauspäivämäärä lasketaan toistotiheyden mukaan. Vastatapahtuman kirjauspäivämäärä lasketaan **Peruutusten päivämäärän laskenta** -kentän avulla seuraavasti:
+
+Jaksotukset kirjataan tyypillisesti päiväkirjan rivillä **kiinteiden**, **muuttuvien** tai **tasapainoisten** toistuvien menetelmien avulla. Päiväkirjarivin tilin kirjatun summan kirjauspäivämäärä lasketaan toistotiheyden mukaan. Vastatapahtuman kirjauspäivämäärä lasketaan **Peruutusten päivämäärän laskenta** -kentän avulla seuraavasti:
 
 * Jos kenttä on tyhjä, vastatapahtuma kirjataan seuraavana päivänä.
 * Jos kentässä on päivämääräkaava (esimerkiksi **5D** viideksi päiväksi), vastatapahtuma kirjataan siten, että kirjauspäivämäärä lasketaan peruutuspäivämäärän laskennan avulla.
@@ -148,25 +156,27 @@ Jaksotukset kirjataan yleensä päiväkirjan rivillä kiinteiden, muuttuvien tai
 > Oletusarvon mukaan **peruutuspäivämäärän laskenta** -kenttä ei ole käytettävissä **Toistuvien yleisten päiväkirjojen** sivulla. Jos haluat käyttää kenttää, sinun täytyy lisätä se mukauttamalla sivua. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
 ## <a name="work-with-standard-journals"></a>Vakiopäiväkirjojen käyttäminen
-Kun olet luonut päiväkirjan rivejä, joita todennäköisesti käytät myös vastaisuudessa, voit tallentaa rivit vakiopäiväkirjana, ennen kuin kirjaat rivit päiväkirjaan. Tämä toiminto koskee nimikepäiväkirjoja sekä yleisiä päiväkirjoja.
+
+Kun olet luonut päiväkirjan rivejä, joita todennäköisesti käytät myös vastaisuudessa, voit tallentaa rivit vakiopäiväkirjana, ennen kuin kirjaat rivit päiväkirjaan. Sama koskee nimikepäiväkirjoja sekä yleisiä päiväkirjoja.
 
 > [!NOTE]  
->   Vaikka seuraavassa puhutaan nimikepäiväkirjasta, samat tiedot koskevat myös yleistä päiväkirjaa.
+> Vaikka seuraavassa puhutaan nimikepäiväkirjasta, samat tiedot koskevat myös yleistä päiväkirjaa.
 
 ### <a name="to-save-a-standard-journal"></a>Tallentaminen vakiopäiväkirjana
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikepäiväkirjat** ja valitse sitten vastaava linkki.
 2. Lisää koodi yhdelle tai usealle päiväkirjariville.
 3. Valitse ne päiväkirjan rivit, joita haluat käyttää uudelleen.
 4. Valitse **Tallenna vakiopäiväkirjana** -toiminto.
 5. Määritä **Tallenna vakionimikepäiväkirjana** -pyyntösivulla uusi tai aiemmin luotu vakionimikepäiväkirja, johon rivit on tarkoitus tallentaa.
 
-    Jos olet aiemmin luonut vähintään yhden vakionimikepäiväkirjan ja haluat korvata jonkin niistä uusilla päiväkirjan riveillä, valitse haluamasi vakionimikepäiväkirjan koodi napsauttamalla Koodi-kenttää.
-6. Kun valitset **OK**, ohjelma pyytää varmistamaan aiemmin luodun vakionimikepäiväkirjan ja kaiken sen sisällön korvaamisen.
-7. Valitse **Tallenna yksikkösumma** -kenttä, jos haluat tallentaa arvot vakionimikepäiväkirjan **Yksikkösumma** -kenttään.
-8. Valitse **Tallenna määrä** -kenttä, jos sovelluksen on tarkoitus tallentaa arvot **Määrä**-kenttään.
-9. Valitse **OK**-painike tallentaaksesi vakionimikepäiväkirjan.
+    Jos olet aiemmin luonut vähintään yhden vakionimikepäiväkirjan ja haluat korvata jonkin niistä uusilla päiväkirjan riveillä, valitse haluamasi nimikepäiväkirjan koodi napsauttamalla **Koodi**-kenttää.
+6. Valitset **OK** vahvistaaksesi, että haluat korvata olemassa olevan vakionimikepäiväkirjan sisällön.
+7. Jos haluat tallentaa arvot vakiotuotepäiväkirjan **Yksikkömäärä** -kenttään, valitse **Tallenna yksikkömäärä** -kenttä.
+8. Jos haluat tallentaa arvot **määrä**-kenttään, valitse **Tallenna määrä** -kenttä.
+9. Valitse **OK** tallentaaksesi vakionimikepäiväkirjan.
 
-Kun olet tallentanut vakionimikepäiväkirjan, ohjelma siirtyy takaisin Nimikepäiväkirja-sivulle, jossa voit kirjata rivit. Tämän jälkeen voit kirjata samat tai vastaavat rivit vaivattomasti aina, kun tilanne sitä edellyttää.
+Kun tallennat vakionimikepäiväkirjan, nimikepäiväkirjan sivu näkyy niin, että voit kirjata sen.
 
 ### <a name="to-reuse-a-standard-journal"></a>Vakiopäiväkirjan käyttäminen uudelleen
 
@@ -176,19 +186,19 @@ Kun olet tallentanut vakionimikepäiväkirjan, ohjelma siirtyy takaisin Nimikep�
     Näkyviin tulee Vakionimikepäiväkirjat-sivu, jossa on kaikkien luotujen vakionimikepäiväkirjojen koodit ja kuvaukset.
 3. Voit tarkastella vakionimikepäiväkirjaa, ennen kuin valitset sen uudelleenkäytettäväksi, valitsemalla **Näytä päiväkirja** -toiminto.
 
-    Vakionimikepäiväkirjaan tekemäsi muutokset toteutetaan heti. Ne ovat siellä, kun kyseinen vakionimikepäiväkirja seuraavan kerran avataan tai sitä käytetään uudelleen. Tämän vuoksi sinun täytyy olla varma, että muutos on tarpeeksi tärkeä sovellettavaksi yleisesti. Muutoin tee tarvittava muutos nimikepäiväkirja, kun nimikepäiväkirjan vakiorivit on lisätty. Lisätietoja on alla vaiheessa 4.
-4. Valitse ensin **Vakionimikepäiväkirjat**-sivulla uudelleenkäytettävä vakiopäiväkirja ja sitten **OK**-painike.
+    Vakionimikepäiväkirjaan tehdyt muutokset otetaan käyttöön heti, ja ne tulevat näkyviin, kun vakionimikepäiväkirja avataan tai käytetään uudelleen. Varmista, että muutos on tarpeeksi tärkeä sovellettavaksi yleisesti. Muutoin tee tarvittava muutos nimikepäiväkirja, kun nimikepäiväkirjan vakiorivit on lisätty. Katso vaihe 4.
+4. Valitse ensin **Vakionimikepäiväkirjat**-sivulla uudelleenkäytettävä vakiopäiväkirja ja sitten **OK**.
 
-    Vakiopäiväkirja täytetään riveillä, jotka olet tallentanut vakionimikepäiväkirjana. Jos nimikepäiväkirjassa on entuudestaan päiväkirjarivejä, lisättävät rivit sijoitetaan aiemmin luotujen päiväkirjarivien alle.
+    Nimikepäiväkirja sisältää tallentamasi rivit. Jos nimikepäiväkirjassa on jo rivejä, uudet rivit tulevat näkyviin niiden jälkeen.
 
-    Jos **Tallenna yksikkösumma** -kenttään ei lisätä valintamerkkiä **Tallenna vakionimikepäiväkirjana** -toiminnon suorittamisen yhteydessä, päiväkirjasta lisättyjen rivien **Yksikkösumma**-kenttä täytetään automaattisesti nimikkeen nykyisellä arvolla (joka kopioidaan nimikkeen kortin **Yksikkökustannus**-kentästä).
+    Jos et ota käyttöön **Tallenna mittayksiköiden summa** -vaihtoehtoa, vakiopäiväkirjasta lisättyjen rivien **Yksikkösumma**- kenttä sisältää nimikkeen kortin **Yksikkökustannus**-kentän arvon.
 
     > [!NOTE]  
-    > Jos lisäät **Tallenna yksikkösumma**- ja/tai **Tallenna määrä** -kenttään valintamerkin, varmista, että lisätyt arvot ovat oikein tämän varastonmuutoksen osalta ennen niiden kirjaamista nimikepäiväkirjaan.
+    > Jos käytät **Tallenna yksikkösumma**- tai **Tallenna määrä** -valintoja, varmista, että uudet arvot ovat oikein ennen niiden kirjaamista nimikepäiväkirjaan. <!--need to say where and when these were turned on-->
 
-    Jos lisätyillä nimikepäiväkirjan riveillä on tallennettuja yksikkösummia, joita ei ole tarkoitus kirjata, voit muuttaa summan nopeasti nimikkeen nykyisen arvon mukaiseksi seuraavasti:
+    Jos lisätyillä nimikepäiväkirjan riveillä on tallennettuja yksikkösummia, joita ei ole tarkoitus kirjata, voit muuttaa summan nopeasti nimikkeen nykyisen arvon mukaiseksi seuraavasti: <!--as follows where?-->
 
-5. Valitse ensin muutettavat päiväkirjanrivit ja sitten **Laske yksikkösummat uudelleen** -toimintoa. Tällöin nimikkeen nykyinen yksikkökustannus tallennetaan Yksikkösumma-kenttään.
+5. Valitse ensin muutettavat päiväkirjanrivit ja sitten **Laske yksikkösummat uudelleen** -toimintoa. Tämän toiminnon nimikkeen nykyinen yksikkökustannus tallennetaan Yksikkösumma-kenttään.
 6. Valitse **Kirjaa**-toiminto.
 
 ## <a name="to-renumber-document-numbers-in-journals"></a>Asiakirjanumeroiden uudelleennumerointi päiväkirjoissa
