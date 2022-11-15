@@ -1610,6 +1610,7 @@
 ##### [Teamsin integroinnin hallinta](admin-teams-integration.md)
 ##### [Business Central -sovelluksen asentaminen Teamsiin](across-install-app-for-teams.md)
 ##### [Asiakkaiden, toimittajien ja yhteyshenkilöiden hakeminen](across-search-contacts-teams.md)
+##### [Business Central -välilehden lisääminen kanavalle tai keskusteluun](across-teams-tab.md)
 ##### [Tietueiden ja sivulinkkien jakaminen Teamsissa](across-working-with-teams.md)
 ##### [Yrityksen ja muiden asetusten muuttaminen](across-teams-settings.md)
 ##### [Teams – usein kysytyt kysymykset](teams-faq.md)
@@ -1784,6 +1785,12 @@
 ### [Hallintatehtävät](admin-setup-and-administration.md)
 ### [Luo käyttäjät käyttöoikeuksien mukaan](ui-how-users-permissions.md)
 ### [Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md)
+### Käyttö Microsoft 365 -käyttöoikeuksien avulla
+#### [Yleiskuvaus](admin-access-with-m365-license.md)
+#### [Käytön määrittäminen Microsoft 365 -käyttöoikeuksien avulla](admin-access-with-m365-license-setup.md)
+#### [Käyttöoikeustyönkulku](admin-access-with-m365-license-flow.md)
+<!--#### [FAQ](admin-access-with-m365-license-faq.md) file temporarily moved to archive folder-->
+#### [Vianmääritys](admin-access-with-m365-license-troubleshooting.md) 
 ### [Profiilien hallinta](admin-users-profiles-roles.md)
 ### [Käyttäjäasetusten ja asetusten hallinta](admin-manage-user-settings-preferences.md)
 ### [Tulostimien määrittäminen](ui-specify-printer-selection-reports.md)
