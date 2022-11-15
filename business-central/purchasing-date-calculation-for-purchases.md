@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
 ms.search.forms: ''
-ms.date: 02/06/2022
+ms.date: 10/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: 515f95506bfae97ba0c66389d219751ea5b6896e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 54d3ce9c571973482fe1ba0fdb8cad76a87752c2
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530538"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744948"
 ---
 # <a name="calculate-dates-for-purchases"></a>Ostojen päivämäärien laskeminen
 
@@ -44,9 +44,9 @@ Jos määrität pyydetyn vastaanottopäivämäärän ostotilausrivillä, kyseine
 > [!NOTE]
 > Jos prosessi perustuu taaksepäin laskentaan ja esimerkiksi tilauspäivä saadaan käyttämällä pyydettyä vastaanottopäivää, on suositeltavaa käyttää päivämääräkaavoja, joiden kesto on kiinteä. Sellainen on esimerkiksi 5P viidelle päivälle tai 1V yhdelle viikolle. Päivämääräkaava, jonka kesto ei ole kiinteä, kuten KV kuluvalle viikolle tai KK kuluvalle kuukaudelle, voi aiheuttaa virheellisiä päivämäärälaskelmia. Lisätietoja päivämääräkaavoista on kohdassa [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md).
 
-## <a name="calculating-without-a-requested-delivery-date"></a>Laskeminen ilman pyydettyä toimituspäivämäärää
+## <a name="calculating-without-a-requested-receipt-date"></a>Laskeminen ilman pyydettyä vastaanottopäivämäärää
 
-Jos lisäät ostotilausrivin ilman pyydettyä toimituspäivämäärää, ohjelma näyttää rivin **Tilauspvm**-kentässä ostotilauksen tunnistetietojen **Tilauspvm**-kentän päivämäärän. Tämä päivämäärä on joko lisäämäsi päivämäärä tai käsittelypäivämäärä. Ohjelma laskee sen jälkeen päivämäärät ostotilausriville käyttäen tilauspäivämäärää lähtökohtana seuraavasti:  
+Jos lisäät ostotilausrivin ilman pyydettyä vastaanottopäivämäärää, ohjelma näyttää rivin **Tilauspvm**-kentässä ostotilauksen tunnistetietojen **Tilauspvm**-kentän päivämäärän. Tämä päivämäärä on joko lisäämäsi päivämäärä tai käsittelypäivämäärä. Ohjelma laskee sen jälkeen päivämäärät ostotilausriville käyttäen tilauspäivämäärää lähtökohtana seuraavasti:  
 
 - tilauspvm + toimitusajan laskenta = suunniteltu vast.ottopvm.  
 - Suunniteltu vast.otto pvm + Saapuva f.var. Käsittelyaika + Toimitusajan varmistus = Oletettu vast.otto pvm  

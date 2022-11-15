@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 09/28/2022
 ms.author: jswymer
-ms.openlocfilehash: d9dfc380b1b8a76fc06363740b256f28b162a85a
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: aac91da92b51831951bd890248d7f80f8bc5104d
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606114"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744702"
 ---
 # <a name="teams-faq"></a>Teams – usein kysytyt kysymykset
 
@@ -145,6 +145,92 @@ Jos haluat osallistua Teamsin sovelluksen parantamiseen tai sinulla on idea, jok
 
 Lisätietoja Teamsiin linkitetyn verkkoasiakkaan toiminnoista on kohdassa [Tietueiden ja sivulinkkien jakaminen Microsoft Teamsissa](across-working-with-teams.md#share-link).
 
+## <a name="business-central-tabs"></a>[Business Central -välilehdet](#tab/tabs)
+
+### <a name="who-can-see-the-content-of-a-tab"></a><a name="who-can-view"></a>Kuka näkee välilehden sisällön?
+
+Kaikki keskusteluun tai kanavaan liittyvät henkilöt, joilla on:
+
+1. Business Central-sovellus Teamsille asennettuna.
+2. Joko Business Central -käyttöoikeus tai sille on myönnetty käyttöoikeus Business Centraliin Microsoft 365 -käyttöoikeuden avulla.
+3. Käyttöoikeudet sivun tietojen tarkasteluun.
+
+### <a name="where-does-the-recommended-content-come-from"></a><a name=#recommended-content></a>Mistä suositeltu sisältö on peräisin?
+
+**Välilehden sisältö** -asetuksen avulla voit valita suositellun sisällön roolikeskuksesi perusteella. Suositeltu sisältö sisältää vain luettelosivut, kuten asiakkaat, myyntitilaukset ja toimittajat - ei yksittäisiä korttisivuja, kuten tietty asiakas tai toimittaja.
+
+Erityisesti suositeltu sisältö sisältää:
+
+- Roolikeskuksen yläreunan siirtymisvalikon toiminnot
+- Kaikki merkitsemäsi luettelosivut.
+- Jos luettelosivulla on erilaisia näkymiä, kuten luomasi näkymät, saat myös valita näistä näkymistä
+
+Voit lisätä suositellun sisällön luettelosivuja lisäämällä kirjanmerkkejä. Voit myös poistaa suositellun sisällön poistamalla kirjanmerkkejä. Lisätietoja kirjanmerkkien lisäämisestä ja poistamisesta on ohjeaiheessa [Sivun tai raportin kirjanmerkin luominen roolikeskuksessa](ui-bookmarks.md).
+
+Jos vaihdat ympäristön tai yrityksen asetukset-välilehdessä, suositeltu sisältö muuttuu sen ympäristön ja yrityksen roolikeskuksen ja kirjanmerkkien perusteella, johon siirryt.
+
+
+
+### <a name="when-i-create-a-tab-does-it-grant-permissions-to-the-people-in-the-channel-or-chat"></a>Kun luon välilehden, myöntääkö se oikeudet kanavan tai keskustelun käyttäjille?
+
+Nro Välilehtien luominen ei vaikuta käyttöoikeuksiin, ja käyttäjillä on jo oltava näiden tietojen käyttöoikeus, kun he käyttävät välilehteä.
+
+### <a name="can-i-chat-alongside-a-tab"></a>Voinko keskustella välilehden rinnalla?
+
+Kyllä. Aloita keskustelu keskustelu-kuvakkeen avulla. Tämä keskusteluketju liitetään sitten välilehteen. 
+
+### <a name="if-i-remove-a-tab-from-a-chat-or-channel-is-any-business-central-data-deleted"></a>Jos poistan välilehden keskustelusta tai kanavasta, onko mitään Business Central -tietoa poistettu?
+
+Nro
+
+### <a name="can-i-safely-rename-a-tab"></a>Voinko nimetä välilehden turvallisesti uudelleen?
+
+Kyllä. Välilehden sisältö ei liity välilehden todelliseen nimeen. Nimeä uudelleen kuinka haluat! 
+
+### <a name="i-need-to-work-across-tasks-in-different-windows-can-i-do-this"></a>Minun täytyy työskennellä eri tehtävien parissa eri ikkunoissa. Voinko tehdä näin?
+
+Kyllä. Voit avata välilehden omalle selainikkunalle ja näyttää Business Central -verkkoasiakkaan. 
+
+### <a name="can-i-add-or-pin-tab-in-team-meetings"></a>Voinko lisätä tai kiinnittää välilehden Teams-kokouksiin?
+
+Nro Teamsin Business Central -sovellus ei tue välilehtiä kokouksissa.
+
+### <a name="cant-add-a-tab-if-using-isv-urls-like-bcdynamicscom-but-can-pin"></a>Välilehteä ei voi lisätä, jos käytetään ISV-URL-osoitteita, kuten *. bc.dynamics.com (mutta ne voi kiinnittää)
+
+Ei tueta.
+
+### <a name="when-i-do-things-in-the-tab-like-navigate-resort-apply-a-filter-or-search-do-others-see-my-changes"></a>Kun teen asioita välilehdellä, kuten navigoin, järjestelen uudelleen tai haen, näkevätkö muut muutokseni?
+
+Nro Vain kenttien muutokset tai käynnissä olevat toiminnot vaikuttavat siihen, miten muut näkevät välilehden sisällön.
+
+### <a name="does-the-tab-content-refresh-automatically-if-not-how-do-i-refresh-it"></a>Päivitetäänkö välilehden sisältö automaattisesti? Jos ei, miten voin päivittää sen?
+
+Sisältö ei päivity automaattisesti, ja tällä hetkellä päivitä-painiketta ei ole. Paras tapa päivittää sisältöä ja varmistaa, että tiedot ovat ajan tasalla, on poistua välilehdeltä ja palata takaisin. 
+
+### <a name="does-this-show-lists-and-records-from-my-customizations-and-add-ons"></a>Näytetäänkö luettelot ja tietueet omista mukautuksista ja lisäosista?
+
+Kyllä. 
+
+### <a name="when-i-add-a-tab-will-people-see-it-in-my-language"></a>Kun lisään välilehden, näkevätkö ihmiset sen omalla kielelläni?
+
+Nro Kukin käyttäjä tarkastelee välilehden sisältöä Business Centralin kieli-, alue- ja aikavyöhyke-asetuksissa. 
+
+### <a name="can-i-have-multiple-tabs-pointing-to-different-content"></a>Voiko eri sisältöön osoittaa useita välilehtiä?
+
+Kyllä.
+
+### <a name="can-i-also-add-tabs-to-chat-with-a-single-person"></a>Voinko lisätä välilehtiä myös keskusteluun yksittäisen henkilön kanssa?
+
+Kyllä, niin kauan kuin keskustelu ei ole luonnos (eli viestiä ei ole lähetetty käynnistämään kyseistä keskustelua) ja toisen henkilön on asennettava Business Central -sovellus.
+
+### <a name="can-i-switch-companies-within-a-tab"></a>Voinko vaihtaa yrityksiä välilehdessä?
+
+Nro 
+
+### <a name="is-this-different-than-using-teams-generic-ability-to-create-a-tab-that-hosts-a-website"></a>Onko tämä eri asia kuin käyttää Teamsin yleistä kykyä luoda välilehti, joka isännöi verkkosivustoa?
+
+Kyllä. Emme suosittele, että käytät tätä lähestymistapaa. Monissa tapauksissa se ei toimi Business Centralin yhteydessä.
+
 ## <a name="search-for-contacts"></a>[Hae yhteyshenkilöitä](#tab/contacts)
 
 ### <a name="which-tables-does-the-app-search-in"></a>Missä taulukoissa sovellus tekee hakuja?
@@ -156,6 +242,7 @@ Kun yhteyshenkilöitä haetaan Teamsin [!INCLUDE [prod_short.md](includes/prod_s
 Kun hakusanoja kirjoitetaan hakuruutuun, niitä verrataan useimpiin **Yhteyshenkilöt**-taulukon kenttiin. Näitä kenttiä ovat esimerkiksi **Nro**, **Nimi**, **Osoite**, **Puhelinnro** tai **Matkapuhelinnro** ja **Sähköposti**. 
 
 Hakutermejä ei yhdistetä mukautettuihin kenttiin, joita sovellukset ja laajennukset ovat lisänneet **Yhteystiedot**-taulukkoon.
+
 ### <a name="do-search-results-include-companies-and-persons"></a>Sisältävätkö hakutulokset yritykset ja henkilöt?
 
 Kyllä. Yhteyshenkilöiden tyyppi [!INCLUDE [prod_short.md](includes/prod_short.md)]issa voi olla **Yritys** tai **Henkilö**, kun vähintään yksi henkilö voi olla liitetty yritykseen. Yrityksillä ja henkilöillä on hakutuloksissa erilainen kuvake.

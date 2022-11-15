@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d2b4ac035f3c6336a5bc5646cbc0145bb671788a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 2cabd68e2ec22aaef4ad1f0b34305a95a2e93a5e
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529431"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744921"
 ---
 # <a name="setting-up-data-exchange"></a>Tiedonsiirron määrittäminen
 
@@ -35,6 +35,7 @@ Ennen kuin voit lähettää ja vastaanottaa sähköisiä asiakirjoja tai tuoda j
 |Määritä käyttäjätunnistus ja AMC Banking 365 Fundamentals -laajennuspalvelun URL-osoite, joka vaaditaan, jotta pankkitiedostot voidaan muuttaa pankkisi vaatimaan muotoon.|[Käytä AMC Banking 365 Fundamentals -laajennusta](ui-extensions-amc-banking.md)|  
 |Määritä ja ota käyttöön ulkoinen palvelu, jonka avulla voit tuoda pankin tiliotteet suoraan pankkisyötteinä.|[Pankin tiliotepalvelun määrittäminen](bank-how-setup-bank-statement-service.md)|  
 |Kun tiliotepalvelu on otettu käyttöön, linkitä pankkitilit [!INCLUDE[prod_short](includes/prod_short.md)]issa.|[Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md)|  
+|Määritä tietojen vienti [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa Intrastat-raportointia varten.|[Intrastat-raportoinnin määrittäminen](finance-how-setup-report-intrastat.md)|
 |Valmistele datatiedoston tai tietovirran uuden tietojenvaihtomäärityksen luonti käyttämällä tiedoston XML-rakennetta. Se esitäyttää **Sarakkeen määritykset** -pikalomakkeen **Kirjauksen tiedonsiirtomääritykset** -sivulla.|[XML-mallien käyttäminen tietojenvaihtomääritysten valmisteluun](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Määritä tietojen vaihtokehys, jotta käyttäjät voivat vastaanottaa ja lähettää tietoja uudessa ostoasiakirjamuodossa, tuoda uuden pankkitiedoston tai vaihtaa muita tietoja.|[Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md)|  
 

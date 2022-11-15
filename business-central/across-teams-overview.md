@@ -2,19 +2,19 @@
 title: Business Centralin ja Microsoft Teamsin integroinnin yleiskatsaus | Microsoft Docs
 description: Jaa Business Central -tietueita suoraan Teams-keskusteluissa.
 author: jswymer
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 09/22/2022
-ms.author: jswymer
-ms.openlocfilehash: f826ceaca3ae6f5a68a60a43f4824fcbe60c0753
-ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
+ms.custom: bap-template
+ms.openlocfilehash: 13c5e71ff35bf0bb45cabebe2124864c7875f526
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9716550"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744894"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Centralin ja Microsoft Teamsin integraatio
 
@@ -60,7 +60,15 @@ Suoraan useimmista Business Centralin kokoelma- ja tietosivuilta voit käyttää
 
 Lisätietoja on kohdassa [Jaa tietueiden ja sivujen linkkejä Microsoft Teamsissa](across-working-with-teams.md#share-link).
 
-## <a name="get-started"></a>Aloita
+### <a name="add-a-business-central-tab-to-teams-channel-or-chat"></a>Business Central -välilehden lisääminen Teams-kanavalle tai -keskusteluun
+
+Kun olet asentanut Business Central -sovelluksen Teamsiin, voit lisätä kanava- tai keskusteluikkunan, jossa näkyy Business Central -tiedot luetteloista ja korttisivuista.
+
+![Välilehdet Teamsissa](media/teams-tabs-border.png)
+
+Lisätietoja on kohdassa [Business Central -välilehden lisääminen Teamsiin](across-teams-tab.md).
+
+## <a name="get-started"></a>Aloitus
 
 1. [!INCLUDE [prod_short](includes/prod_short.md)] online -käyttäjätili tarvitaan Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovellukseen.
 

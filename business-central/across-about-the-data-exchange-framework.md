@@ -10,16 +10,16 @@ ms.search.keywords: Data exchange framework, data files, data exchange, electron
 ms.search.form: 189,
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: c48d6a304e0938bbae70e61545b4a4e8d72fbdde
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d5c8a96066311eb7e2050507b6c4f27066a70f62
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134380"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744648"
 ---
 # <a name="about-the-data-exchange-framework"></a>Tietoja tiedonvaihto-kehyksestä
 
-Voit hallita liiketoiminta-asiakirjojen, pankkitiedostojen, vaihtokurssien ja muiden datatiedostojen siirtoa liikekumppaneille tiedonsiirtokehyksen avulla.
+Voit hallita liiketoiminta-asiakirjojen, pankkitiedostojen, vaihtokurssien ja muiden datatiedostojen siirtoa liikekumppaneille tai viranomaisille tiedonsiirtokehyksen avulla.
 
 Järjestelmänvalvojana tai Microsoft-kumppanina voit käyttää kehystä uusissa integrointiominaisuuksissa määrittämällä, mitä tietoja vaihdetaan ja miten. Esimerkiksi pankkitiedostojen, sähköisten asiakirjojen, valuutanvaihtokurssien ja muiden ERP-järjestelmien tiedostonvaihtomuoto vaihtelee datatiedoston, virran ja maan tai alueen mukaan. [!INCLUDE[prod_short](includes/prod_short.md)] tukee erilaisia pankkitiedostomuotoja ja tietopalvelustandardeja. Käyttämällä tiedonsiirtokehystä voidaan tukea myös muita sähköisiä asiakirjamuotoja.
 
@@ -58,6 +58,10 @@ Jos haluat viedä SEPA-tilisiirtoja, valitse **Maksupäiväkirja**-sivulla **Vie
 Voit määrittää ulkoisen palvelun pitämään valuutan vaihtokurssit ajan tasalla. Päivitetyt valuuttakurssit määrittävä palvelu otetaan käyttöön tietojenvaihtomäärityksen avulla. Näin ollen **Valuutanvaihtokurssin päivitysasetusten kortti** -sivu on tiivistetty näkymä kyseessä olevan tiedonsiirtomäärityksen **Tiedonsiirtomääritys**-sivulta.  
 
 Voit valmistella kaikille XML-tiedostojen tiedonsiirroille tiedonsiirtoasetukset lataamalla liittyvän XML-rakennetiedoston **XML-mallin tarkastelutoiminto** -sivulla. Voit valita ikkunassa tietoelementit, joita haluat vaihtaa [!INCLUDE[prod_short](includes/prod_short.md)]in kanssa. Tämän jälkeen voit joko käynnistää tiedonsiirtomäärityksen tai luoda XMLportin.
+
+## <a name="intrastat"></a>Intrastat
+
+[!INCLUDE[prod_short](includes/prod_short.md)] käyttää Intrastat-raportoinnin tiedonsiirtokehystä, jossa voit helposti luoda aikaleimattuja tiedostoja eri muodoissa vientiä varten. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää valmiita muotoja lokalisoituja maita ja oletusversioita varten. Voit kuitenkin muuttaa valmista raporttia tai tehdä oman.
 
 ## <a name="see-also"></a>Katso myös
 
