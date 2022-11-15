@@ -1,19 +1,19 @@
 ---
 title: Sähköisen tiedonvaihdon määrittäminen
 description: Määritä, miten Business Central vaihtaa tietoja ulkoisten tiedostojen, kuten sähköisten asiakirjojen, pankkitietojen, nimikeluetteloiden ja muiden tietojen kanssa.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.search.form: 1210, 1211, 1213, 1214, 1215, 1216, 1217
-ms.date: 09/15/2022
-ms.author: edupont
-ms.openlocfilehash: 53cb2bc92b4d56f767944593a5f5300510c2a944
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.date: 11/03/2022
+ms.author: bholtorf
+ms.openlocfilehash: 324fa2e1576deb3f9cb4b082f065218d1576fd78
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607524"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744867"
 ---
 # <a name="set-up-data-exchange-definitions"></a>Tietojenvaihtomääritysten määrittäminen
 
@@ -129,6 +129,7 @@ Vuoden 2022 julkaisuaalto 2:sta alkaen voit ryhmitellä minkä tahansa kentän m
     |**Taulukon tunnus**|Määritä taulukko, joka käsittää kentät, joista tai joihin tiedot vaihdetaan kartoituksen mukaan.|  
     |**Käytä väliaikaisena taulukkona**|Määritä, onko **Taulukon tunnus** -kentässä valittu taulukko väliaikainen taulukko, johon tuodut tiedot tallennetaan ennen niiden siirtämistä kohdetaulukkoon.<br /><br /> Väliaikaista taulukkoa käytetään yleensä silloin, kun tiedonsiirtomääritystä käytetään sähköisten asiakirjojen tuomiseen ja muuntamiseen, kuten toimittajalaskujen tuomiseen ja muuntamiseen ostolaskuiksi [!INCLUDE[prod_short](includes/prod_short.md)]issa. Lue lisää kohdasta [Sähköinen tiedonsiirto](across-data-exchange.md).|  
     |**Nimi**|Kirjoita kohdistusasetuksen nimi.|  
+    |**Avainindeksi**|Määrittää avainindeksin, jota käytetään lähdetietueiden lajittelussa ennen vientiä.|
     |**Yhdistämistä edeltävä Codeunit**|Määritä codeunit, joka valmistelee [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman kenttien ja ulkoisten tietojen yhdistämisen.|  
     |**Vastaava Codeunit**|Määritä codeunit, jota käytetään yhdistämään määritetyt sarakkeet tai XML-elementit [!INCLUDE[prod_short](includes/prod_short.md)]in kenttiin.|  
     |**Yhdistämisen jälkeinen Codeunit**|Määritä codeunit, joka täydentää [!INCLUDE[prod_short](includes/prod_short.md)]in kenttien ja ulkoisten tietojen väliset yhdistämismääritykset. **Huomautus:** Kun AMC Banking 365 Fundamentals 365 -laajennustoiminto on käytössä, codeunit muuntaa [!INCLUDE[prod_short](includes/prod_short.md)]ista viedyt tiedot yleiseen vientiin soveltuvaksi muodoksi. Codeunit muuntaa ulkoiset tiedot vientiä varten sellaiseen muotoon, jonka voi tuoda [!INCLUDE[prod_short](includes/prod_short.md)]iin.|
@@ -161,6 +162,13 @@ Vuoden 2022 julkaisuaalto 2:sta alkaen voit ryhmitellä minkä tahansa kentän m
      |**Muunnossääntö**|Määritä säännön, joka muuntaa tuodun tekstin tuetuksi arvoksi ennen kuin se voidaan yhdistää määritettyyn kenttään. Kun valitset arvon tässä kentässä, sama arvo syötetään **Muunnossääntö**-kenttään **tiedonvaihto-kentän kartoituspuskuri** -taulukkoon ja päinvastoin. Seuraavassa osassa on lisätietoja käytettävissä olevista muunnossäännöistä.|
      |**Prioriteetti**|Määritä tilaus, johon kenttien yhdistämismääritykset on käsiteltävä. Kenttäkartoitus, jonka prioriteettinumero on korkein, käsitellään ensin.|
 
+4. Valitse **kenttien ryhmittely** -pikavälilehdessä säännöt, joita haluat käyttää kenttien ryhmittelemiseen, kun luot tiedoston täyttämällä seuraavassa taulukossa esitetyt kentät.  
+
+     |Kenttä|Kuvaus|  
+     |--------------------------------- |---------------------------------------|  
+     |**Kentän tunnus**|Määritä ulkoisen tiedoston kentän numero, jota käytetään ryhmittelyyn, ja käyttäjän on määritettävä tämä kenttä.|
+     |**Kentän seloste**|Määritä ryhmittelyssä käytetyn ulkoisen tiedoston kentän seloste.|
+
 ## <a name="transformation-rules"></a>Muunnossäännöt
 
 Jos kenttien arvot ovat erilaisia, sinun on käytettävä muunnossääntöjä tietojen vaihdon määrityksissä, jotta ne olisivat samat. Voit määrittää muunnossäännöt tiedonvaihtomäärittelyjä varten avaamalla aiemmin luodun määrityksen tai luomalla uuden määrityksen ja valitsemalla sitten **Rivimääritykset** -pikavälilehdessä **Hallitse** ja sitten **Kenttien yhdistämismääritykset**. Ennalta määritetyt säännöt ovat käytettävissä, mutta voit myös luoda omia sääntöjä. Seuraavassa taulukossa kuvataan, millaisia muunnoksia voit suorittaa.
@@ -180,6 +188,8 @@ Jos kenttien arvot ovat erilaisia, sinun on käytettävä muunnossääntöjä ti
 |**Säännöllinen lauseke -vastaavuus**|Etsi yksi tai useampi arvo säännöllisen lausekkeen avulla. Tämä sääntö on samanlainen kuin **Alimerkkijono** ja **Säännöllinen lauseke -korvaa** -vaihtoehdot.|
 |**Mukautettu**|Tämä muunnossääntö on kehittynyt vaihtoehto, joka edellyttää apua kehittäjältä. Se mahdollistaa integrointitapahtuman, jonka voit tilata, jos haluat käyttää omaa muunnoskoodia. Jos olet kehittäjä ja haluat käyttää tätä vaihtoehtoa, katso alla olevaa osaa.|
 |**Päivämäärän ja ajan muotoilu**|Määritä, miten nykyinen päivämäärä ja kellonaika näytetään.|
+|**Kenttähaku**|Käytä kenttiä eri taulukoista. Käyttääksesi sitä sinun on seurattava joitakin sääntöjä. Käytä ensin **taulukon tunnusta**, kun haluat määrittää kenttähaun sisältävän taulukon tunnuksen. Määritä sitten **lähdekentän tunnus** -kentässä sen kentän tunnus, joka sisältää kenttähaun tietueet. Määritä lopuksi **Kohdekentän tunnus** -kentässä sen kentän tunnus, jolla voi löytää kenttähaun tietueet. Voit vaihtoehtoisesti määrittää kenttähaun tyypin **kenttähaun sääntö** -kentän avulla. **Kohde**-kentässä käytetään **kohdekentän tunnus** -arvoa, vaikka se olisikin tyhjä. **Alkuperäinen, jos kohde on tyhjä** -kenttä, alkuperäistä arvoa käytetään, jos kohde on tyhjä.|
+|**Pyöristä**|Pyöristä tämän kentän arvo käyttämällä tiettyjä lisäsääntöjä. Valitse ensin **Tarkkuus**-kentässä pyöristystarkkuus. Määritä sitten pyöristyssuunta **suunta**-kenttään.|
 
 > [!NOTE]  
 > Lisätietoja päivämäärä- ja aikamuotoiluista kohdassa [Vakiopäivämäärä- ja aika muotomerkkijonona](/dotnet/standard/base-types/standard-date-and-time-format-strings).
