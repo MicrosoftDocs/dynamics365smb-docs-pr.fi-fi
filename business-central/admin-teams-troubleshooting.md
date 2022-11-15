@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9d6d5ca853d11a08c2933dd6abcbc82d0ff4dbc4
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: 064780473eb98f4fde4d170f0aa5c16a998799af
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528473"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744759"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>[!INCLUDE [prod_short](includes/prod_short.md)] ja Microsoft Teamsin integroinnin vianmääritys
 
@@ -159,6 +159,23 @@ Tämä ongelma voi johtua useista eri syistä. Esimerkiksi käyttäjätunnuksell
 ## <a name="my-cards-no-longer-have-a-popout-button"></a>Kortteissani ei ole enää ponnahduspainiketta
 
 Huhtikuusta 2022 alkaen linkit, jotka näkyvät kompaktina korttina Teamsissa, eivät enää sisällä **Ponnahdusikkuna**-painiketta. Jos haluat avata kortin omassa ikkunassaan, valitse **Tiedot**-painike ja sitten **Avaa selaimessa** ikkunan oikeassa yläkulmassa olevasta ellipsivalikosta (**...**).
+
+## <a name="cant-pin-a-card-to-tab"></a>Kortin kiinnittäminen välilehteen ei onnistu
+
+Tälle ongelmalle on pari syytä.
+
+- Jos kortti oli jaettu Search ME:stä, sitä ei voi kiinnittää välilehteen. 
+
+- Kiinnittäminen ei onnistu, ennen kuin lisäät ensimmäisen Business Central -välilehden. Tämä ongelma on tiedossa Teamsissa. 
+
+## <a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a>Joku lisäsi välilehden, mutta välilehti ei näy minulle
+
+Tämä ongelma johtuu siitä, että sinulla ei ole asennettuna BC-sovellusta Teamsille. Vain he, joilla on sovellus asennettuna, näkevät Business Central -välilehdet.
+
+## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Toiset näkevät eri lajittelu- tai sarakeasettelun kuin välilehden tekijä näkee
+
+Tämä ongelma johtuu todennäköisesti siitä, että olet jakanut oman näkymän luettelonäkymänä. Tässä tapauksessa voit työskennellä yhdessä järjestelmänvalvojan kanssa ja luoda joko roolikohtaisia luettelonäkymiä, jotka peittävät kanavan/keskustelun eri roolit, tai luoda tämän näkymän koko organisaatiolle, jotta kaikki voivat saada yhdenmukaisen näkymän.
+
 
 ## <a name="see-also"></a>Katso myös
 
