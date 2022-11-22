@@ -1,24 +1,25 @@
 ---
 title: Työnkulkuilmoitusten vastaanoton ajankohdan ja tavan määrittäminen
 description: Kun määrität käyttäjiä hyväksymistyönkuluissa, voit määrittää, miten ja milloin kukin hyväksynnän käyttäjä saa ilmoituksia.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 663, 1500, 1512, 1513,
 ms.date: 09/09/2022
-ms.author: edupont
-ms.openlocfilehash: 7b70da08a4fb8ffdb7ff16544b511576f9af0f86
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.author: bholtorf
+ms.openlocfilehash: 74387ee5cb8581d8b8e1cce5c1d1c8850cd6c842
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585507"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9763260"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Työnkulkuilmoitusten vastaanoton ajankohdan ja tavan määrittäminen
 
-Kun määrität hyväksynnän käyttäjiä työnkuluissa, joissa jonkun on tarkoitus hyväksyä muutokset, kuten uusia tietueita luotaessa tai jonkun pyytäessä hyväksyntää, sinun on määritettävä miten hyväksynnän käyttäjälle ilmoitetaan ja miten. Voit esimerkiksi määrittää, että hyväksynnän käyttäjä saa välittömästi sähköpostiviestin, milloin tahansa joku luo uuden asiakkaan. Vaihtoehtoisesti voit ajoittaa ilmoitukset säilytettäväksi ja toimittaa ne sitten yhdessä esimerkiksi viikoittain tai kuukausittain.
+Kun määrität hyväksynnän käyttäjiä työnkuluissa, joissa jonkun on tarkoitus hyväksyä muutokset, kuten uusia tietueita luotaessa tai jonkun pyytäessä hyväksyntää, sinun on määritettävä miten ja milloin hyväksynnän käyttäjälle ilmoitetaan. Voit esimerkiksi määrittää, että hyväksynnän käyttäjä saa välittömästi sähköpostiviestin, kun joku luo uuden asiakkaan. Vaihtoehtoisesti voit ajoittaa ilmoitukset säilytettäväksi ja toimittaa ne sitten yhdessä esimerkiksi viikoittain tai kuukausittain.
 
 Ihmiset voivat muuttaa ilmoitusasetuksiaan valitsemalla **Muuta ilmoitusasetuksia**, joka näytetään kaikissa ilmoituksissa.  
 
@@ -38,10 +39,10 @@ Useat hyväksyntätyönkulun osavaiheet ilmoittavat käyttäjille toimia vaativi
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyväksynnän käyttäjäasetukset**, valitse sitten vastaava linkki.  
 2. Valitse sen käyttäjän rivi, jonka ilmoitusasetukset haluat määrittää, valitse sitten **Ilmoitusasetukset**-toiminto.  
-3. Täytä **Ilmoituksen asetukset** -sivun kentät seuraavassa taulukossa kuvatulla tavalla.  
+3. Täytä **Työnkulun ilmoitusasetukset** -sivun kentät seuraavassa taulukossa kuvatulla tavalla.  
 
    > [!NOTE]
-   > Jos avaat **Hyväksynnän käyttäjäasetukset** -sivun **Ilmoitusasetukset**-sivun, ilmoituksen asetukset yhdistetään hyväksynnän käyttäjälle. Hyväksynnän käyttäjä saa työnkulkuilmoituksia aina kyseisten ilmoitusasetusten mukaisesti. Jos avaat **Ilmoitusasetukset**-sivun *Kerro, mitä haluat tehdä* -toiminnolla, ilmoitusasetukset otetaan käyttöön kaikilla käyttäjillä.
+   > Jos avaat **Työnkulun hyväksynnän käyttäjäasetukset** -sivun **Ilmoitusasetukset**-sivun, ilmoituksen asetukset yhdistetään hyväksynnän käyttäjälle. Hyväksynnän käyttäjä saa työnkulkuilmoituksia aina kyseisten ilmoitusasetusten mukaisesti. Jos avaat **Työnkulun ilmoitusasetukset** -sivun *Kerro, mitä haluat tehdä* -toiminnolla, ilmoitusasetukset otetaan käyttöön kaikilla käyttäjillä.
 
    |Kenttä|Kuvaus|
    |-----|-----------|
@@ -66,7 +67,7 @@ Useat hyväksyntätyönkulun osavaiheet ilmoittavat käyttäjille toimia vaativi
 ## <a name="change-when-and-how-you-receive-notifications"></a>Muuta, milloin ja miten saat ilmoituksia
 
 1. Valitse jossain saamassasi sähköposti- tai viesti-ilmoituksessa oleva **Muuta ilmoitusasetuksia**.  
-2. Muuta ilmoitusasetuksiasi **Ilmoituksen asetukset** -sivulla edellä kuvattujen vaiheiden 3-5 mukaisesti.
+2. Muuta ilmoitusasetuksiasi **Työnkulun ilmoitusasetukset** -sivulla edellä kuvattujen vaiheiden 3-5 mukaisesti.
    1. Vahvista, että **Ilmoitustyyppi**-kentässä on valittu oikea ilmoitus.
    2. Valitse, haluatko vastaanottaa **Ilmoitusmenetelmä**-kenttään sähköposti- vai huomautusilmoituksen.
    3. Valitse **Ilmoitusaikataulu**, jos haluat muuttaa ilmoitusten lähettämisen tiheyttä ja toistumista.

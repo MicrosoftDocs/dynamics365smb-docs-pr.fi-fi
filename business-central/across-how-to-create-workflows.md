@@ -1,24 +1,24 @@
 ---
 title: Hyväksyntätyönkulkujen luominen tehtävien yhdistämistä varten
-description: Voit luoda työnkulkuja, jotka yhdistävät eri käyttäjien suorittamia liiketoimintaprosessin tehtäviä, ja sisällyttää järjestelmätehtäviä, esimerkiksi automaattisen kirjauksen, työnkulun osavaiheiksi.
-author: SorenGP
+description: Lue lisää siitä, miten voit luoda työnkulkuja, jotka yhdistävät eri ihmisten suorittamia tehtäviä liiketoimintaprosesseissa.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/08/2022
-ms.author: edupont
-ms.openlocfilehash: d2d9f3f91210b2a4d8d67890d01018565d8ef087
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.date: 11/11/2022
+ms.author: bholtorf
+ms.openlocfilehash: 0d84da534c754ba7b0f6d1de97b61634ff743ddc
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585997"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9763254"
 ---
-# <a name="create-workflows-to-connect-business-process-tasks"></a>Työnkulkujen luominen liiketoimintaprosessin tehtävien yhdistämista varten
+# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Työnkulkujen luominen liiketoimintaprosessin yhdistämistehtäviä varten
 
-Voit luoda työnkulkuja, jotka yhdistävät eri käyttäjien suorittamia liiketoimintaprosessin tehtäviä. Järjestelmätehtäviä (kuten automaattinen kirjaus) voidaan sisällyttää työnkulkuihin, joita käyttäjän tehtävät edeltävät tai seuraavat. Uusien tietueiden luontiin liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.  
+Voit luoda työnkulkuja, jotka yhdistävät eri käyttäjien suorittamia tehtäviä liiketoimintaprosesseissa. Järjestelmätehtäviä (kuten automaattinen kirjaus) voidaan sisällyttää työnkulkuihin, joita käyttäjän tehtävät edeltävät tai seuraavat. Uusien tietueiden luontiin liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.  
 
 Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta ja vastausvaihtoehdoista. Työnkulku määritetään täyttämällä työnkulkurivien kentät käyttämällä tapahtumien kiinteitä luetteloita ja vastausarvoja, jotka edustavat sovelluskoodin tukemia skenaarioita.  
 
@@ -73,6 +73,9 @@ Sekä tapahtumien että vastausten vaihtoehdot ovat järjestelmän määrittämi
 
     1. Määritä työnkulun vastauksen asetukset, johon sisältyy ilmoitusten lähettäminen, täyttämällä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
+    > [!NOTE]
+    > Kentät vaihtelevat valitun vastauksen mukaan.
+
        |Kenttä|Kuvaus|
        |-----|-----------|
        |**Ilmoita lähettäjälle**|Määrittää, ilmoitetaanko hyväksymispyynnön vastaanottajan asemesta hyväksynnän pyytäjälle. Jos valitset valintaruudun, **Vastaanottajan käyttäjätunnus** -kenttä on poissa käytöstä, koska hyväksynnän pyytäjälle eli lähettäjälle ilmoitetaan sen sijaan. Työnkulun vastauksen nimi muuttuu vastaavasti nimeksi **Luo ilmoitus &lt;lähettäjälle&gt;**. Jos valintaruutua ei ole valittu, työnkulun vastauksen nimi on **Luo ilmoitus &lt;käyttäjälle&gt;**.|
@@ -83,19 +86,19 @@ Sekä tapahtumien että vastausten vaihtoehdot ovat järjestelmän määrittämi
 
     2. Määritä työnkulun vastauksen asetukset, johon sisältyy hyväksymispyynnön luominen, täyttämällä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
-        |Kenttä|Description|  
-        |-----|-----------|  
-        |**Eräpäivän kaava**|Määritä, kuinka monen päivän kuluessa lähettämisestä hyväksyntäpyyntö on ratkaistava.|
-        |**Delegoi seuraavan jälkeen:**|Määritä, milloin, jos ollenkaan, hyväksyntäpyyntö delegoidaan automaattisesti korvaajalle. Voit valita automaattisen delegoinnin yhden, kahden tai viiden päivän päähän hyväksynnän pyynnöstä.|
-        |**Hyväksyjän tyyppi**|Määritä, kuka on hyväksyjä, käyttäen hyväksyntäkäyttäjien ja työnkulun käyttäjien määritystä. Kun kentän määritys on **Myyjä/ostaja**, **Myyjän/ostajan koodi** -kenttään **Hyväksynnän käyttäjäasetukset** -sivulla määritetty käyttäjä määrittää hyväksyjän. Hyväksymispyyntötapahtumat luodaan sitten **Hyväksyjän rajatyyppi** -kentän arvon mukaan. Lisätietoja kohdassa [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md).|
-        |**Näytä vahvistussanoma**|Määritä, näytetäänkö vahvistussanoma käyttäjille, kun he pyytävät hyväksyntää.|
-        |**Hyväksyjän rajatyyppi**|Määritä, kuinka hyväksyjän hyväksyntärajat vaikuttavat silloin, kun hyväksyjille luodaan hyväksyntäpyyntöjä. Hyväksytyllä hyväksyjällä tarkoitetaan hyväksyjää, jonka hyväksyntäraja on suurempi kuin pyynnön arvo. Käytettävissä ovat seuraavat vaihtoehdot: <ol><li>**Hyväksyjäketju** määrittää, että hyväksyntäpyynnöt luodaan kaikille pyytäjän hyväksyjille ensimmäiseen hyväksyttyyn hyväksyjään saakka.</li><li>**Suora hyväksyjä** määrittää, että hyväksyntäpyyntö luodaan vain pyytäjän lähimmälle hyväksyjälle hänen hyväksyntärajastaan riippumatta.</li><li>**Ensimmäinen hyväksytty hyväksyjä** määrittää, että hyväksyntäpyyntö luodaan vain pyytäjän ensimmäiselle hyväksytylle hyväksyjälle.</li></ol>|
+       |Kenttä|Description|  
+       |-----|-----------|  
+       |**Eräpäivän kaava**|Määritä, kuinka monen päivän kuluessa lähettämisestä hyväksyntäpyyntö on ratkaistava.|
+       |**Delegoi seuraavan jälkeen:**|Määritä, milloin, jos ollenkaan, hyväksyntäpyyntö delegoidaan automaattisesti korvaajalle. Voit valita automaattisen delegoinnin yhden, kahden tai viiden päivän päähän hyväksynnän pyynnöstä.|
+       |**Hyväksyjän tyyppi**|Määritä, kuka on hyväksyjä, käyttäen hyväksyntäkäyttäjien ja työnkulun käyttäjien määritystä. Kun kentän määritys on **Myyjä/ostaja**, **Myyjän/ostajan koodi** -kenttään **Hyväksynnän käyttäjäasetukset** -sivulla määritetty käyttäjä määrittää hyväksyjän. Hyväksymispyyntötapahtumat luodaan sitten **Hyväksyjän rajatyyppi** -kentän arvon mukaan. Lisätietoja kohdassa [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md).|
+       |**Näytä vahvistussanoma**|Määritä, näytetäänkö vahvistussanoma käyttäjille, kun he pyytävät hyväksyntää.|
+       |**Hyväksyjän rajatyyppi**|Määritä, kuinka hyväksyjän hyväksyntärajat vaikuttavat silloin, kun hyväksyjille luodaan hyväksyntäpyyntöjä. Hyväksytyllä hyväksyjällä tarkoitetaan hyväksyjää, jonka hyväksyntäraja on suurempi kuin pyynnön arvo. Käytettävissä ovat seuraavat vaihtoehdot: <ol><li>**Hyväksyjäketju** määrittää, että hyväksyntäpyynnöt luodaan kaikille pyytäjän hyväksyjille ensimmäiseen hyväksyttyyn hyväksyjään saakka.</li><li>**Suora hyväksyjä** määrittää, että hyväksyntäpyyntö luodaan vain pyytäjän lähimmälle hyväksyjälle hänen hyväksyntärajastaan riippumatta.</li><li>**Ensimmäinen hyväksytty hyväksyjä** määrittää, että hyväksyntäpyyntö luodaan vain pyytäjän ensimmäiselle hyväksytylle hyväksyjälle.</li><li>**Tietty hyväksyjä** määrittää, että ilmoitat **hyväksyjän tunnus** -kentässä valitulle käyttäjälle.</li></ol>|
     3. Määritä työnkulun vastauksen asetukset, johon sisältyy päiväkirjarivien luominen, täyttämällä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
-        |Kenttä|Description|  
-        |-----|-----------|  
-        |**Yleisen päiväkirjan mallin nimi**|Määritä päiväkirjan malliin nimi, josta määritetyt päiväkirjarivit luodaan.|  
-        |**Yleisen päiväkirjan erän nimi**|Määritä päiväkirjan erän nimi, josta määritetyt päiväkirjarivit luodaan.|  
+       |Kenttä|Description|  
+       |-----|-----------|  
+       |**Yleisen päiväkirjan mallin nimi**|Määritä päiväkirjan malliin nimi, josta määritetyt päiväkirjarivit luodaan.|  
+       |**Yleisen päiväkirjan erän nimi**|Määritä päiväkirjan erän nimi, josta määritetyt päiväkirjarivit luodaan.|  
 
 11. Määritä osavaiheen sijainti työnkulussa sisentämällä **Kun**-kentässä olevan tapahtuman nimi **Suurenna sisennystä**- ja **Pienennä sisennystä** -painikkeilla.  
 
