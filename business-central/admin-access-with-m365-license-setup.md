@@ -9,18 +9,19 @@ ms.topic: how-to
 ms.date: 11/03/2022
 ms.custom: bap-template
 ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.openlocfilehash: f509c0a8bf5e9320eb0f2712863984221b7138b9
-ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
+ms.search.forms: 9061
+ms.openlocfilehash: 3b3e7d42e077749bd4443506f7423dce03e9e82f
+ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "9744982"
+ms.lasthandoff: 11/24/2022
+ms.locfileid: "9804416"
 ---
-# <a name="set-up-access-with-microsoft-365-licenses"></a>Käytön määrittäminen Microsoft 365 -käyttöoikeuksien avulla 
+# <a name="set-up-business-central-access-in-teams-with-microsoft-365-licenses"></a>Business Centralin käytön määrittäminen Teamsissa Microsoft 365 -käyttöoikeuksilla
 
-Järjestelmänvalvojien täytyy suorittaa monia aktiviteetteja, ennen kuin käyttäjät voivat käyttää Business Centralia Microsoft 365 -käyttöoikeuksilla. Alla olevat vaiheet ovat vähimmäisasetukset, joilla on tarkoitus aloittaa.  
+Järjestelmänvalvojien täytyy suorittaa monia aktiviteetteja, ennen kuin käyttäjät voivat käyttää Business Centralia Microsoft 365 -käyttöoikeuksilla. Alla olevat vaiheet ovat vähimmäisasetukset, joilla on tarkoitus aloittaa. Lisätietoja käytöstä Microsoft 365 -käyttöoikeuksilla on kohdassa [Business Centralin käyttäminen Microsoft 365 -käyttöoikeuksilla](admin-access-with-m365-license.md).
 
-## <a name="deploy-the-business-central-app-for-teams"></a>Ota käyttöön Business Central-sovellus Teamsille 
+## <a name="deploy-the-business-central-app-for-teams"></a>Ota käyttöön Business Central-sovellus Teamsille
 
 Jotta Business Central -lisenssin haltijat voivat jakaa tietoja Teamsissa ja Microsoft 365 -käyttöoikeuden haltijat voivat käyttää näitä tietoja, kummallakin on oltava asennettuna Business Central -sovellus Teamsille. Vaikka käyttäjät voivat asentaa sovelluksen itse, järjestelmänvalvojat suosittelevat, että järjestelmänvalvojat käyttävät keskitettyä käyttöönottoa. Keskitetyn käyttöönoton avulla voit vierittää sovelluksen laajemmalle yleisölle koko organisaatiossa ja minimoida yksittäisen käyttäjän toimet. 
 
@@ -43,8 +44,10 @@ Aloitusoikeuksien määrittäminen:
 3. Valitse **Microsoft 365** -käyttöoikeussivun yläosassa muokkaa-kuvake ![Muokkaakuvake](media/edit-pencil.png) ja ota sitten käyttöön **Mukauta käyttöoikeuksia**. 
 4. Lisää **mukautetut käyttöoikeusjoukot** -osaan tarvittavat käyttöoikeusjoukot ja valitse, koskevatko ne yhtä yritystä vai kaikkia ympäristössä olevia yrityksiä.
 
+Tällä kokoonpanolla käyttäjät, joilla on vain Microsoft 365 -käyttöoikeus, lisätään **Käyttäjät**-luetteloon, kun he käyttävät Business Centralia ensimmäistä kertaa. Lisätietoja käyttäjistä on kohdassa [Käyttäjien luominen käyttöoikeuksien mukaan](ui-how-users-permissions.md).
+
 > [!NOTE]
-> Kun Business Centralin käyttäjät-luettelo synkronoidaan Microsoft 365 -ohjelman käyttäjien kanssa, vain Business Central -käyttöoikeuden käyttäjät lisätään Business Centralin käyttäjät -luetteloon. Käyttäjät, joilla on vain Microsoft 365 -käyttöoikeus, lisätään käyttäjät-luetteloon, kun he käyttävät Business Centralia ensimmäistä kertaa. Lue lisätietoja kohdasta [Käyttäjien luominen käyttöoikeuksien mukaan](ui-how-users-permissions.md).
+> Kun Business Centralin käyttäjät-luettelo synkronoidaan Microsoft 365 -ohjelman käyttäjien kanssa, vain Business Central -käyttöoikeuden käyttäjät lisätään Business Centralin käyttäjät -luetteloon. Voit lisätä ympäristölle suojausryhmän hallitaksesi käyttöoikeuksia, käyttäjäryhmiä ja profiileja tarkemmin. Kun ympäristöt on suojattu suojausryhmällä ja niiden käyttö on sallittu Microsoft 365 -käyttöoikeuksilla, **Käyttäjät**-sivulla oleva **Päivitä käyttäjät Microsoft 365:stä** -toiminto sisältää myös käyttäjät, joilla Microsoft 365 -käyttöoikeus. Lisätietoja ympäristöjen suojaamisesta on kehittäjien ja IT-ammattilaisten ohjeen kohdassa [Käyttöoikeuksien hallinta Azure Active Directory -ryhmien avulla](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups).
 
 > [!TIP]
 > Etsitkö nopeampaa tapaa päästä alkuun tätä ominaisuutta kokeiltaessa eritysympäristössä tai arviointiyrityksessä? Määritä **D365-luku**-oikeusjoukko, joka sallii useimpien objektien käyttöoikeuden.  
@@ -89,6 +92,6 @@ Seuraavien vaiheiden avulla voit varmistaa, että asetukset ovat valmiit tuotant
 
 ## <a name="see-also"></a>Katso myös
 
-[Business Centralin käyttäminen Microsoft 365 -käyttöoikeuksilla](admin-access-with-m365-license.md#minimum-requirements)  
+[Yleiskatsaus Business Centralin käyttämisestä Microsoft 365 -käyttöoikeuksilla](admin-access-with-m365-license.md#minimum-requirements)  
 [Microsoft 365 -käyttöoikeuksien käytön vianmääritys](admin-access-with-m365-license-troubleshooting.md)  
 [Business Centralin ja Microsoft Teamsin integraatio](across-teams-overview.md)  

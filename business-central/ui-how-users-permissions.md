@@ -1,25 +1,25 @@
 ---
 title: Luo käyttäjät käyttöoikeuksien mukaan
 description: Kuvaa, miten käyttäjät lisätään käyttöoikeuksiin perustuviin Business Central online- tai paikallisiin toimipaikkoihin.
-author: edupont04
+author: jswymer
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
 ms.date: 05/09/2022
-ms.author: edupont
-ms.openlocfilehash: 77a58c9e4cfc5e9a744d66d0f6b62c06cb430d6b
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.openlocfilehash: f0a9231b68df913c122c4118a5585f8464fdbd00
+ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729799"
+ms.lasthandoff: 11/24/2022
+ms.locfileid: "9804524"
 ---
 # <a name="create-users-according-to-licenses"></a>Luo käyttäjät käyttöoikeuksien mukaan
 
-Tässä artikkelissa kuvataan, miten järjestelmänvalvojat luovat käyttäjiä ja määrittävät, ketkä voivat kirjautua sisään kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]. Tämä artikkeli kattaa myös sen, miten määritetään käyttöoikeuksia eri tyyppisille käyttäjille tuotteen käyttöoikeuksien mukaan.
+Tässä artikkelissa kuvataan, miten järjestelmänvalvojat luovat käyttäjiä ja määrittävät, ketkä voivat kirjautua sisään kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]. Opit myös kohdistamaan käyttöoikeuksia eri käyttäjille tuotteesi käyttöoikeuksien mukaan.
 
-Kun luot käyttäjiä [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa, voit määrittää käyttäjille käyttöoikeuksia käyttöoikeusjoukkojen avulla ja järjestää käyttäjät käyttäjäryhmiin. Käyttäjäryhmien avulla on helppo hallita usean käyttäjän käyttöoikeuksia samanaikaisesti. Lisätietoja on kohdassa [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md).  
+Kun luot käyttäjiä [!INCLUDE[prod_short](includes/prod_short.md)] -järjestelmässä, myönnät heille käyttöoikeuksia käyttöoikeuksien joukkojen avulla. Voit myös järjestää käyttäjiä käyttäjäryhmiin. Käyttäjäryhmien avulla on helppo hallita useiden käyttäjien käyttöoikeuksia ja muita asetuksia samanaikaisesti. Lisätietoja on kohdassa [Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md).  
 
 Lisätietoja erilaisista käyttöoikeustyypeistä ja [!INCLUDE[prod_short](includes/prod_short.md)]in käyttöoikeuksista on [ladattavassa Dynamics 365:n käyttöoikeusoppaassa](https://go.microsoft.com/fwlink/?LinkId=866544).
 
@@ -28,14 +28,24 @@ Lisätietoja erilaisista käyttöoikeustyypeistä ja [!INCLUDE[prod_short](inclu
 
 ## <a name="manage-users-and-licenses-in-online-tenants"></a>Käyttäjien ja lisenssien hallinta online-vuokraajissa
 
-Tilauksesi [!INCLUDE[prod_short](includes/prod_short.md)]-ohjelman online-versioon määrittää sallittujen käyttäjien määrän. Käyttäjät lisätään vuokraajaan Microsoft Partner Centerissä, tavallisesti sen tekee Microsoft-kumppani. Lisätietoja on kohdassa [Business Central Onlinen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
+[!INCLUDE[prod_short](includes/prod_short.md)] -järjestelmän käyttäjätilit täytyy luoda ensin Microsoft 365 -hallintakeskuksessa. Nämä käyttäjätilit eivät koske pelkästään Business Centralia. Jos tilaat muita suunnitelmia, niillä voidaan kirjautua muihin sovelluksiin, kuten Power BI. Lisätietoja käyttäjien luomisesta Microsoft 365 -hallintakeskuksessa on kohdassa [Käyttäjien lisääminen Microsoft-hallintakeskuksessa](/microsoft-365/admin/add-users/add-users).
 
-Tuotteen käyttöoikeudet määritetään käyttäjille sen mukaan, minkä työn kukin käyttäjä tekee [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan. Käyttöoikeuksia voi määrittää monella tavalla:
+[!INCLUDE[prod_short](includes/prod_short.md)] online -tilauksesi määrittää sallittujen [!INCLUDE[prod_short](includes/prod_short.md)] -käyttöoikeuksien määrän. Käyttäjät lisätään vuokraajaan Microsoft Partner Centerissä, tavallisesti sen tekee Microsoft-kumppani. Lisätietoja on kohdassa [Business Central Onlinen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
+
+Kohdistat käyttöoikeudet käyttäjille sen mukaan, mitä töitä kukin käyttäjä tekee [!INCLUDE[prod_short](includes/prod_short.md)] -järjestelmässä. Käyttöoikeuksia voi määrittää monella tavalla:
 
 - Yrityksen Microsoft 365 -järjestelmänvalvoja voi tehdä sen [Microsoft 365 -hallintakeskuksessa](https://admin.microsoft.com). Lisätietoja on kohdassa [Käyttäjien lisääminen yksittäin tai joukkona Microsoft 365:een](/microsoft-365/admin/add-users/add-users).  
 - Microsoft-kumppanit voivat määrittää lisenssejä Microsoft 365 Admin Centerissä tai Microsoft Partner Centerissä. Lisätietoja on Microsoft Partner Center -ohjeen kohdassa [Asiakastunnusten käyttäjien hallintatehtävät](/partner-center/assign-licenses-to-users).
 
 Lisätietoja on Hallinnan ohjeen kohdassa [Business Central Onlinen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
+
+Kun käyttäjätilit on luotu Microsoft 365 -hallintakeskuksessa, ne voidaan tuoda Business Centraliin kahdella eri tavalla:
+
+- Käyttäjätili tuodaan automaattisesti, kun käyttäjä kirjautuu Business Centraliin ensimmäisen kerran.
+
+- Järjestelmänvalvoja voi tuoda käyttäjiä valitsemalla  **Päivitä käyttäjät Microsoft 365:stä** -toiminnon **Käyttäjät* -sivulta.
+
+Molemmilla lähestymistavoilla on omat etunsa, ja niitä voi käyttää samanaikaisesti. Molemmat lähestymistavat sallivat järjestelmänvalvojien määrittää Business Centralin ennakoivasti kohdistaakseen alustavat käyttöoikeudet, käyttäjäryhmät ja käyttäjäprofiilit. Järjestelmänvalvojat voivat hallita käyttöoikeuksia, käyttäjäryhmiä ja profiileja tarkemmin **Päivitä käyttäjät Microsoft 365:stä** -toiminnon avulla. Se on ihanteellinen lähestymistapa, kun olet määrittämässä Business Centralia ensimmäistä kertaa, ennen kuin käyttäjät kirjautuvat sisään tai lisättäessä uutta käyttäjäryhmää.
 
 > [!NOTE]
 > Kun olet lisännyt käyttäjiä Microsoft 365 -hallintakeskukseen, suosittelemme, että päivität käyttäjätiedot [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa niin pian kuin mahdollista. Käyttäjätietojen pitäminen ajan tasalla on helppoa ja auttaa varmistamaan, että käyttäjät voivat aina kirjautua sisään. Lisätietoja on kohdassa [Käyttäjien lisääminen tai käyttäjätietojen ja käyttöoikeuksien delegoinnin päivittäminen Business Centralissa](#adduser).<br>
@@ -52,9 +62,9 @@ Lisätietoja hallintasisällössä: [Valtuutettu järjestelmänvalvojan käyttö
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
-Järjestelmänvalvojat voivat määrittää käyttöoikeusjoukkoja ja käyttäjäryhmiä eri käyttöoikeustyyppien perusteella.<!--Note to translators: The names in *italics* or capitalized in this section must not be translated.-->  
+Järjestelmänvalvojat voivat määrittää käyttöoikeuksien joukkoja ja käyttäjäryhmiä kullekin käyttöoikeudelle.<!--Note to translators: The names in *italics* or capitalized in this section must not be translated.-->  
 
-Esimerkiksi yleisesti käytetty käyttöoikeus, *Dynamics 365 Business Central -ryhmän jäsen*, on määritetty oletusarvon mukaan niin, että se sisältää käyttäjäryhmät *D365-ryhmän jäsenen* ja *Excel-vientitoiminto* sekä seuraavat käyttöoikeusjoukot:
+Esimerkiksi yleisesti käytetty *Dynamics 365 Business Central Team Member* -käyttöoikeus sisältää oletusarvoisesti seuraavat käyttöoikeuksien joukot:
 
 - D365-LUKU
 - D365-RYHMÄN JÄSEN
@@ -62,19 +72,21 @@ Esimerkiksi yleisesti käytetty käyttöoikeus, *Dynamics 365 Business Central -
 - VIE RAPORTTI EXCEL
 - PAIKALLINEN
 
-Jos tämä oletusmääritys ei ole oikea asetus tietylle vuokraajalle, ylläpitäjä voi muuttaa kyseistä kokoonpanoa. Mukautetut käyttöoikeudet vaikuttavat kuitenkin vain uusiin käyttäjiin, joille kyseinen käyttöoikeus on määritetty. Käyttöoikeus ei vaikuta olemassa olevien käyttäjien käyttöoikeuksiin, joille käyttöoikeus on määritetty.  
+Muut käyttöoikeuksien joukot lisätään automaattisesti käyttöoikeuteen kohdistettujen käyttäjäryhmien perusteella. Kun luot uutta käyttäjää tämän käyttöoikeuden perusteella, [!INCLUDE[prod_short](includes/prod_short.md)] kohdistaa käyttäjäryhmistä ja käyttöoikeudesta saadut käyttöoikeuksien joukot. Käyttäjälle kohdistetaan samat alustavat käyttöoikeudet, jos käyttäjätili luotiin automaattisesti [!INCLUDE[prod_short](includes/prod_short.md)] -järjestelmässä tai jos järjestelmänvalvoja käytti **Päivitä käyttäjät Microsoft 365:stä** -toimintoa **Käyttäjät**-sivulla.
+
+Jos tämä oletusarvoinen kokoonpano ei sovi tietylle ympäristölle, järjestelmänvalvoja voi muuttaa sitä. Mukautetut käyttöoikeudet vaikuttavat kuitenkin vain uusiin käyttäjiin, joille kyseinen käyttöoikeus on määritetty. Käyttöoikeus ei vaikuta olemassa olevien käyttäjien käyttöoikeuksiin, joille käyttöoikeus on määritetty.  
 
 1. Kirjaudu sisään [!INCLUDE[prod_short](includes/prod_short.md)]iin järjestelmänvalvojatilillä.  
 2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöoikeuden määritys** ja valitse sitten vastaava linkki.  
 
-    Jos olet jo **Käyttäjät**-sivulla, voit myös käyttää **Päivitä käyttäjät Microsoft 365:stä** -opasta ja valita sitten oppaan ensimmäisellä sivulla **Määritä käyttöoikeuteen sisältyvät oikeudet** -linkki.  
+    <!--Alternatively, if you're already in the **Users** page, you can run the **Update Users from Microsoft 365** guide, and then, on the first page of the guide, choose the **Configure permissions per license** link.-->  
 3. Valitse mukautettava käyttöoikeus **Käyttöoikeuden määritys** -sivulta ja valitse sitten **Määritä**-toiminto.  
 4. Valitse **Mukauta oikeuksia** -kenttä, kun haluat ottaa mukauttamisen käyttöön, ja tee tarvittavat muutokset.  
 
     Tässä esimerkissä järjestelmänvalvoja haluaa poistaa muokkaamisoikeuden Excelissä, joten hän poistaa *Excelin vientitoiminto* -käyttäjäryhmän tiimin jäsenen käyttöoikeudesta. Jatkossa uudet käyttäjät, joille on määritetty tiimin jäsenen käyttöoikeus, eivät voi viedä tietoja Exceliin. Jos organisaatio muuttaa mielensä tästä aiheesta, he voivat vain palata **Käyttöoikeuden määritys** -sivulle ja poistaa kyseisen käyttöoikeustyypin räätälöinnin.  
 
 > [!IMPORTANT]
-> Tämä käyttöoikeuksien mukauttaminen on voimassa vain uusille käyttäjille, jotka määrittävät asianmukaisen käyttöoikeuden. Nykyisiä käyttäjiä ei päivitetä. Suosittelemme käyttöoikeuksien mukauttamista, ennen kuin käyttäjien käyttöoikeuksien aletaan määrittää Microsoft 365 -hallintakeskuksessa.
+> Tämä käyttöoikeuksien mukauttaminen koskee vain uusia käyttäjiä, joille kohdistat asiaankuuluvan käyttöoikeuden. Nykyisiä käyttäjiä ei päivitetä. Suosittelemme käyttöoikeuksien mukauttamista, ennen kuin käyttäjien käyttöoikeuksien aletaan määrittää Microsoft 365 -hallintakeskuksessa.
 
 ### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>Käyttäjien lisääminen tai käyttäjätietojen ja käyttöoikeuksien delegoinnin päivittäminen Business Centralissa
 
@@ -84,12 +96,12 @@ Kun olet lisännyt käyttäjiä tai muuttanut käyttäjätietoja Microsoft 365 -
 2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten vastaava linkki.  
 3. Valitse **Päivitä käyttäjät Microsoft 365:stä**.
 
-Uusille käyttäjille seuraava vaihe on käyttäjäryhmien ja käyttöoikeuksien määrittäminen. Lisätietoja on kohdassa [Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md). Jos päivität käyttäjätietoja ja päivitys sisältää käyttöoikeuden muutoksen, käyttäjät liitetään asianmukaiseen käyttäjäryhmään, ja niiden käyttöoikeusjoukot päivitetään. Lisätietoja on kohdassa [Käyttäjien käyttöoikeuksien hallinta käyttäjäryhmien kautta](ui-define-granular-permissions.md).  
+Seuraava vaihe uusille käyttäjille on käyttäjäryhmien ja käyttöoikeuksien kohdistaminen. Lisätietoja on kohdassa [Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md). Jos päivität käyttäjää ja päivitys sisältää käyttöoikeuden muutoksen, käyttäjät liitetään asianmukaiseen käyttäjäryhmään ja niiden käyttöoikeuksien joukot päivitetään. Lisätietoja on kohdassa [Käyttäjien käyttöoikeuksien hallinta käyttäjäryhmien kautta](ui-define-granular-permissions.md).  
 
 > [!NOTE]
-> Kaikille ympäristön käyttäjille on määritettävä sama käyttöoikeus. Se voi olla joko Essential tai Premium. Lisätietoja on Microsoft Dynamics 365 Business Centralin käyttöoikeusoppaassa. Opas on ladattavissa [Business Centralin](https://dynamics.microsoft.com/business-central/overview/) verkkosivulla.
+> Kaikille ympäristön käyttäjille on määritettävä sama käyttöoikeus, joko Essentials tai Premium. Lisätietoja käyttöoikeuksista on [Business Centralin](https://dynamics.microsoft.com/business-central/overview/) sivustolla.
 
-Lisätietoja käyttäjätietojen synkronoimisesta Microsoft 365:n kanssa on kohdassa [Synkronoiminen Microsoft 365:n kanssa](#m365) -osiossa.
+Lisätietoja käyttäjätietojen synkronoimisesta Microsoft 365:n kanssa on [Synkronoiminen Microsoft 365:n kanssa](#m365) -osiossa.
 
 > [!NOTE]
 > Jos käytä ulkoista kirjanpitäjää kirjojen ja talousraportoinnin hallinnassa, voit kutsua kirjanpitäjän Business Centraliin, jolloin he saavat käyttöönsä kirjanpitotietosi. Lisätietoja on kohdassa [Ulkoisen kirjanpitäjän kutsuminen Business Centraliin](finance-accounting.md#inviteaccountant).
@@ -111,29 +123,27 @@ Kun määrität käyttöoikeuden [!INCLUDE[prod_short](includes/prod_short.md)] 
 - Järjestelmänvalvoja voi lisätä käyttäjän valitsemalla **Päivitä käyttäjät Microsoft 365:stä** -toiminnon **Käyttäjät**-sivulta [Käyttäjän lisääminen tai käyttäjätietojen päivittäminen Business Centralissa](#adduser) -osiossa kuvatulla tavalla.
 - Käyttöoikeustiedot päivitetään automaattisesti, kun käyttäjä kirjautuu sisään ensimmäisen kerran.
 
-Molemmissa tapauksissa tehdään automaattisesti useita asetuksia. Ne asetukset on luetteloitu taulukon toisessa ja kolmannessa sarakkeessa.
+Molemmissa tapauksissa useita asetuksia otetaan käyttöön automaattisesti. Ne asetukset on luetteloitu taulukon toisessa ja kolmannessa sarakkeessa.
 
-Jos muutat käyttäjätietoja Microsoft 365:ssä, voit päivittää [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen vastaamaan muutosta. Käytä jotain **Käyttäjät**-sivun toimintoa päivitettävästä kohdasta riippuen. Toiminnot kuvataan alla olevan taulukon kolmessa viimeisessä sarakkeessa.
+Jos muutat käyttäjätietoja Microsoft 365:ssä, voit päivittää [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen vastaamaan muutosta. Käytä jotain **Käyttäjät**-sivun toimintoa päivitettävästä kohdasta riippuen. Toiminnot kuvataan alla olevan taulukon kahdessa viimeisessä sarakkeessa.
 
-> [!NOTE]
-> Seuraavassa taulukossa esitetyt toimet ovat tarkkoja, mutta ainoa tarvitsemasi on **Päivitä käyttäjät Microsoft 365:stä**, joka on lisätty prosessin yksinkertaistamiseksi. Muut toiminnot poistetaan [!INCLUDE[prod_short](includes/prod_short.md)]in tulevassa versiossa.
+|Mitä tapahtuu, kun:|Ensimmäinen käyttäjä, ensimmäinen sisäänkirjautuminen|Päivitä käyttäjät Microsoft 365:stä|Palauttaa käyttäjän oletuskäyttäjäryhmät|
+|-|-|-|-|
+|Laajuus:|Nykyinen käyttäjä|Useita valittuja käyttäjiä|Yksittäinen valittu käyttäjä (paitsi nykyinen)|
+|Luo uusi käyttäjä ja määritä SUPER-käyttöoikeusjoukko.<br /><br /><!--Platform-->|**X**|**X** | | 
+|Päivitä käyttäjä Microsoft 365 -tietojen perusteella: tila, koko nimi, yhteyshenkilön sähköpostiosoite, todennuksen sähköpostiosoite.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph-->|**X**|**X**|**X**|
+|Synkronoi käyttäjän palvelupaketit (lisenssit) ja käyttöoikeudet sekä määritetyt roolit Microsoft 365:ssä.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**|**X**|
+|Lisää käyttäjä käyttäjäryhmiin nykyisen käyttäjän palvelupakettien mukaan. Poista SUPER-käyttöoikeusjoukko kaikilta muilta käyttäjiltä paitsi ensimmäiseltä sisäänkirjautuvalta käyttäjältä ja [järjestelmänvalvojilta](/dynamics365/business-central/dev-itpro/administration/tenant-administration). Vähintään yksi SUPER-käyttäjä on määritettävä.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**X**|**X**|**X**<br /><br />Poistaa määritetyt käyttäjäryhmät ja käyttöoikeudet manuaalisesti.|
 
-|Mitä tapahtuu, kun:|Ensimmäinen käyttäjä, ensimmäinen sisäänkirjautuminen|Hae käyttäjät Microsoft 365:stä|Päivitä käyttäjät Microsoft 365:stä|Palauttaa käyttäjän oletuskäyttäjäryhmät|Päivitä käyttäjäryhmät|Päivitä käyttäjätiedot Microsoft 365:stä|
-|-|-|-|-|-|-|-|
-|Laajuus:|Nykyinen käyttäjä|Uusia käyttäjiä Microsoft 365:ssä|Useita valittuja käyttäjiä|Yksittäinen valittu käyttäjä (paitsi nykyinen)|Useita valittuja käyttäjiä|Useita valittuja käyttäjiä|
-|Luo uusi käyttäjä ja määritä SUPER-käyttöoikeusjoukko.<br /><br /><!--Platform-->|**X**||**X** | | | |
-|Päivitä käyttäjä Microsoft 365 -tietojen perusteella: tila, koko nimi, yhteyshenkilön sähköpostiosoite, todennuksen sähköpostiosoite.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph-->|**X**|**X**|**X**|**X**||**X**|
-|Synkronoi käyttäjän palvelupaketit (lisenssit) ja käyttöoikeudet sekä määritetyt roolit Microsoft 365:ssä.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**|**X**|**X**|**X**| |
-|Lisää käyttäjä käyttäjäryhmiin nykyisen käyttäjän palvelupakettien mukaan. Poista SUPER-käyttöoikeusjoukko kaikilta muilta käyttäjiltä paitsi ensimmäiseltä sisäänkirjautuvalta käyttäjältä ja [järjestelmänvalvojilta](/dynamics365/business-central/dev-itpro/administration/tenant-administration). Vähintään yksi SUPER-käyttäjä on määritettävä.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**X**|**X**|**X**|**X**<br /><br />Poistaa määritetyt käyttäjäryhmät ja käyttöoikeudet manuaalisesti.|**X**<br /><br />Päivitä käyttäjäryhmän määritykset.| |
+Käyttäjät voivat käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -tietoja Teamsissa käyttämällä vain Microsoft 365 -käyttöoikeuttaan. Kun käyttöoikeus on otettu käyttöön ympäristössä, **Päivitä käyttäjät Microsoft 365:stä** -toiminnolla suoritettu synkronointi ei sisällä käyttäjiä, joilla on vain Microsoft 365 -käyttöoikeus. Jos haluat sisällyttää nämä käyttäjät synkronointiin, sinun täyty ensin päivittää ympäristön asetukset ja kohdistaa suojausryhmä, joka sisältää [!INCLUDE[prod_short](includes/prod_short.md)] -käyttöoikeuden omistavat käyttäjät sekä käyttäjät, joilla on vain Microsoft 365 -käyttöoikeus.
 
-<!--
-## The Device License
-This section has been moved to [Licensing in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing).
--->
+Lisätietoja ympäristöjen käytön suojaamisesta suojausryhmillä on kohdassa [Käyttöoikeuksien hallinta Azure Active Directory -ryhmien avulla](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups). 
+
+Katso yleiskatsaus Business Centralin käyttämisestä Teamsissa Microsoft 365 -käyttöoikeudella kohdasta [admin-access-with-m365-license](admin-access-with-m365-license.md).
 
 ## <a name="manage-users-and-licenses-in-on-premises-deployments"></a>Käyttäjien ja lisenssien hallinta on-premises-käyttöönotoissa
 
-Paikallisissa käyttöönotoissa käyttöoikeustiedostossa (.flf) on määritetty useita käyttöoikeuden omaavia käyttäjiä. Kun järjestelmänvalvoja tai Microsoft-kumppani lataa käyttöoikeustiedoston, järjestelmänvalvoja voi määrittää, mitkä käyttäjät voivat kirjautua [!INCLUDE[prod_short](includes/prod_short.md)]:een.
+Paikallisten käyttöönottojen käyttöoikeuksien määrä on määritetty käyttöoikeustiedostossa (.bclicense tai .flf). Kun järjestelmänvalvoja tai Microsoft-kumppani lataa käyttöoikeustiedoston, järjestelmänvalvoja voi määrittää, mitkä käyttäjät voivat kirjautua [!INCLUDE[prod_short](includes/prod_short.md)]:een.
 
 Järjestelmänvalvoja luo, muokkaa ja poistaa käyttäjiä paikallisesti käyttöönotoissa suoraan **Käyttäjät**-sivulta.
 

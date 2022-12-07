@@ -21,6 +21,7 @@
 #### [Vaihekuvaus: Poiminta ja toimitus fyysisen varastoinnin perusmäärityksissä](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Vaihekuvaus: Kassavirtaennusteiden tekeminen talousraporttien avulla](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Vaihekuvaus: Shopify-yhdistimen määrittäminen ja käyttäminen](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
 ### Contoson kahvidemotiedot tuotantoa varten
 #### [Johdatus Contoson kahvidemotietoihin](contoso-coffee/contoso-coffee-intro.md)
@@ -671,6 +672,7 @@
 <!--Shopify-->
 ## Verkkokauppa Shopifylla
 ### [Shopify-yhdistimen käytön aloittaminen](shopify/get-started.md)
+#### [Shopify-tilin luominen ja määrittäminen](shopify/shopify-account.md)
 ### [Synkronoi kaikki kohteet Shopifyn kanssa](shopify/synchronize-items.md)
 ### [Asiakkaiden synkronointi Shopifyn kanssa](shopify/synchronize-customers.md)
 ### [Myyntitilausten synkronoiminen ja täyttäminen Shopifyn kanssa](shopify/synchronize-orders.md)
@@ -679,6 +681,7 @@
 ### [Tehtävien suorittaminen taustalla](shopify/background.md)
 ### [Shopify-yhdistimen vianmääritys](shopify/troubleshoot.md)
 ### [Shopify-yhdistimen UKK](shopify/shopify-faq.md)
+### [Vaihekuvaus: Shopify-yhdistimen määrittäminen ja käyttäminen](shopify/walkthrough-setting-up-and-using-shopify.md)
 
 <!--Company Hub-->
 ## Yrityskeskus
@@ -1789,7 +1792,7 @@
 #### [Yleiskuvaus](admin-access-with-m365-license.md)
 #### [Käytön määrittäminen Microsoft 365 -käyttöoikeuksien avulla](admin-access-with-m365-license-setup.md)
 #### [Käyttöoikeustyönkulku](admin-access-with-m365-license-flow.md)
-<!--#### [FAQ](admin-access-with-m365-license-faq.md) file temporarily moved to archive folder-->
+#### [Usein kysytyt kysymykset](admin-access-with-m365-license-faq.md)
 #### [Vianmääritys](admin-access-with-m365-license-troubleshooting.md) 
 ### [Profiilien hallinta](admin-users-profiles-roles.md)
 ### [Käyttäjäasetusten ja asetusten hallinta](admin-manage-user-settings-preferences.md)

@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 ms.search.form: 4760
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 23ae8513cf14aa99f8ae1a437b0544c66bf5360e
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 41dac60578399e09b9a67ac5747d48648a872f9c
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362091"
+ms.lasthandoff: 11/18/2022
+ms.locfileid: "9788226"
 ---
 # <a name="introduction-to-contoso-coffee-demo-data"></a>Johdatus Contoso Coffee -demotietoihin
 
@@ -26,13 +26,13 @@ Sovellus sisältää neljä tuotetta, jotka on optimoitu eri skenaarioita varten
 
 - **SP-SCM1011 Airpot Duo**  
 
-  Tämä tuote edellyttää nimikeseurantaa, ja siinä on komponentti, joka edellyttää myös nimikeseurantaa. Arvostusmenetelmä on *Erityinen*.  
+  Tämä tuote edellyttää nimikeseurantaa, ja siinä on komponentti, joka edellyttää myös nimikeseurantaa. Arvostusmenetelmä on *Määrätty*.  
 
 - **SP-SCM1004 Autodrip**  
 
   Tämä tuote on tuoterakenne, jossa on alikokoonpano **Reititys**. On suositeltavaa osoittaa sen avulla eri materiaalin ottotavat sekä komponenteille että operaatioille. Arvostusmenetelmä on *Vakio*.
 
-- **SP-SCM1008 AutoDripLite**
+- **SP-SCM1006 AutoDripLite**
 
   Tällä tuotteella on kolme eri varianttia ja kolme tuoterakennetta, jotka voidaan liittää varastointiyksiköihin. Tuote käyttää haamutuoterakenteen käsitettä. Arvostusmenetelmä on *Vakio*.
 

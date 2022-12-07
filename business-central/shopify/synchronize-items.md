@@ -8,12 +8,12 @@ ms.search.form: 30116, 30117, 30126, 30127,
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 90144dfb2f84853f43ae85bf5a162f46cdb65286
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
+ms.openlocfilehash: a14e81932ab2cc02c691d6dfe8a9a1c4fe326410
+ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728381"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802954"
 ---
 # <a name="synchronize-items-and-inventory"></a>Synkronoi nimikkeet ja varasto
 
@@ -64,8 +64,8 @@ Seuraavassa taulukossa kuvaillaan eri vaihtoehtojen väliset erot **Varastointiy
 |**Nimikkeen nro**|Valitse, jos varastointiyksikkö-kentässä on nimikkeen numero|Ei vaikutusta nimikkeen luomiseen ilman variantteja. Jos nimikkeellä on variantteja, jokainen variantti luodaan erillisenä nimikkeenä.<br>Jos siis Shopifylla on tuote, jossa on kaksi versiota ja niiden varastointiyksiköt ovat '1000' ja '2000', [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa järjestelmä luo kaksi nimikettä numeroilla ' 1000' ja '2000'.|
 |**Varianttikoodi**|Varastointiyksikkö-kenttää ei käytetä nimikkeen yhdistämisrutiinissa.|Ei vaikutusta nimikkeen luomiseen. Kun nimikevariantti luodaan, koodina käytetään varastointiyksikkökentän arvoa. Jos varastointiyksikkö on tyhjä, luodaan **varianttietuliite**-kentän avulla koodi.|
 |**Nimikenro + versiokoodi**|Valitse tämä, jos varastointiyksikkö-kentässä on nimikkeen numero ja nimikkeen varianttikoodi, joka on erotettu **varastointiyksikkö-kenttäerotin** -kentässä määritetyllä arvolla.|Kun nimike luodaan, määritetään varastointiyksikkö-kentän arvon ensimmäiseksi osaksi **nro**-arvo. Jos varastointiyksikkökenttä on tyhjä, nimikkeen numero luodaan käyttämällä numerosarjoja, jotka on määritetty **Nimikemallikoodi**- tai **Nimikenumero**-kentässä **Varaston määritys** -sivulla.<br>Kun nimike luodaan, varianttifunktio käyttää varastointiyksikkö-kentän arvon toista osaa muodossa **Koodi**. Jos varastointiyksikkökenttä on tyhjä, luodaan **varianttietuliite**-kentän avulla koodi.|
-|**Toimittajan nimikenro**|Valitse, jos varastointiyksikkö-kentässä on toimittajanimikkeen numero. Tässä tapauksessa nimikkeen **Toimittajanro**-kenttää ei käytetä **nimikkeen kortti** -sivulla. **Toimittajan nimikenro** -vaihtoehtoa käytetään **nimikkeen toimittajakatalogista**. Jos löydetyssä *nimiketoimittajaluettelo*-tietueessa on varianttikoodi, tätä koodia käytetään Shopify-variantin yhdistämiseen.|Jos vastaava toimittaja on [!INCLUDE[prod_short](../includes/prod_short.md)] -järjestelmässä, varastointiyksikköarvoa käytetään **Toimittajan nimikenro** -tyyppinä **nimikekortti**-sivulla ja **Nimike viitteenä** -toimittajatyyppinä. <br>Estää varianttien luonnin. Se on hyödyllinen silloin, kun haluat käyttää päänimikettä vain myyntitilauksessa. Voit silti yhdistää variantin manuaalisesti **Shopify-tuote**-sivulla.|
-|**Viivakoodi**|Valitse, jos varastointiyksikkö-kentässä on viivakoodi. Haku suoritetaan **Nimikeviittausten** osalta, jotka ovat toimittajatyyppiä. Jos löydetyssä nimikeviitetietueessa on varianttikoodi, tätä varianttikoodia käytetään Shopify-variantin yhdistämiseen.|Ei vaikutusta nimikkeen luomiseen. <br>Estää varianttien luonnin. Se on hyödyllinen silloin, kun haluat käyttää päänimikettä vain myyntitilauksessa. Voit silti yhdistää variantin manuaalisesti **Shopify-tuote**-sivulla.|
+|**Toimittajan nimikenro**|Valitse, jos varastointiyksikkö-kentässä on toimittajanimikkeen numero. Tässä tapauksessa nimikkeen **Toimittajanro**-kenttää ei käytetä **nimikkeen kortti** -sivulla. **Toimittajan nimikenro** -vaihtoehtoa käytetään **nimikkeen toimittajakatalogista**. Jos löydetyssä *nimiketoimittajaluettelo*-tietueessa on varianttikoodi, tätä koodia käytetään Shopify-variantin yhdistämiseen.|Jos vastaava toimittaja on olemassa [!INCLUDE[prod_short](../includes/prod_short.md)] -järjestelmässä, varastointiyksikköarvoa käytetään **Toimittajan nimikenro** -arvona **Nimikkeen kortti** -sivulla sekä *toimittajan* tyypin **Nimikeviittaus**-arvona. <br>Estää varianttien luonnin. Se on hyödyllinen silloin, kun haluat käyttää päänimikettä vain myyntitilauksessa. Voit silti yhdistää variantin manuaalisesti **Shopify-tuote**-sivulla.|
+|**Viivakoodi**|Valitse, jos varastointiyksikkö-kentässä on viivakoodi. Haku suoritetaan niiden **nimikeviittausten** osalta, joiden tyyppi on *viivakoodi*. Jos löydetyssä nimikeviitetietueessa on varianttikoodi, tätä varianttikoodia käytetään Shopify-variantin yhdistämiseen.|Ei vaikutusta nimikkeen luomiseen. <br>Estää varianttien luonnin. Se on hyödyllinen silloin, kun haluat käyttää päänimikettä vain myyntitilauksessa. Voit silti yhdistää variantin manuaalisesti **Shopify-tuote**-sivulla.|
 
 Seuraava taulukko luonnostelee **Viivakoodi**-kentän vaikutuksen.
 
@@ -238,9 +238,18 @@ Voit alustaa varaston synkronoinnin kahdella alla kuvatulla tavalla.
 
 ### <a name="inventory-remarks"></a>Varaston huomautukset
 
-* Yhdistin laskee **Arvioidun käytettävissä olevan saldon** ja vie sen Shopifyhin.
+* Yhdistin laskee **Oletettu saatavilla oleva saldo** -arvon tämänhetkiseltä päivältä ja vie sen Shopifyhin.
 * Voit tarkistaa Shopifysta saadut varastotiedot **Shopify-varaston tietoruutu** -sivulta. Tässä tietoruudussa on yleiskuvaus Shopify-varastosta ja viimeisestä lasketusta varastosta [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa. Sijaintia kohti on yksi tietue.
 * Jos Shopifyn varastotiedot poikkeavat [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelman **Arvioidusta käytettävissä olevasta saldosta**, varastotiedot päivitetään Shopifyssa.
+
+#### <a name="example-of-calculation-of-projected-available-balance"></a>Esimerkki oletetun saatavilla olevan saldon laskemisesta
+
+Nimikettä A saatavilla on 10 kappaletta ja niille on kaksi avointa myyntitilausta. Toinen on maanantaille, jossa määrä on *Yksi*, ja toinen torstaille, jossa määrä on *Kaksi*. Riippuen siitä, milloin synkronoit varaston, järjestelmä päivittää varastotason Shopifyssa käyttämällä eri määriä:
+
+|Milloin varaston synkronointi suoritetaan|Varastotason päivittämiseen käytetty arvo|Kommentti|
+|------|-----------------|-----------------|
+|Tiistai|9|Varasto 10 miinus myyntitilaus asetettu lähetettäväksi maanantaina|
+|Perjantai|7|Varasto 10 miinus molemmat myyntitilaukset|
 
 ## <a name="see-also"></a>Katso myös
 

@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862
-ms.date: 09/19/2022
+ms.date: 11/29/2022
 ms.author: bholtorf
-ms.openlocfilehash: d265566e21388978f9ee7cba9372d3d337cbf97e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 058019ec9ce336b701c66c0de277ad57e73344da
+ms.sourcegitcommit: bcd3e5dcbb3d839f38f2321b7ef35d4a2ce492c1
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9604885"
+ms.lasthandoff: 11/29/2022
+ms.locfileid: "9805997"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Määritä käyttöoikeudet käyttäjille ja ryhmille
 
@@ -140,9 +140,9 @@ Luo uusi käyttöoikeuksien joukko kopioimalla toinen joukko. Uusi joukko sisäl
 2. Valitse **Käyttöoikeuksien joukko** -sivulla **Uusi**-toiminto.
 3. Täytä tarvittaessa uuden rivin kentät.
 4. Valitse **Käyttöoikeudet**-toiminto.
-5. Valitse **Käyttöoikeudet**-sivulla ensin **Kirjausoikeudet**-toiminto ja sitten **Aloita**-toiminto.
-
-    Tallennusprosessi käynnistyy ja sieppaa kaikki käyttäjän käyttöliittymässä tekemät toiminnot.
+1. Valitse **Käyttöoikeudet**-sivulla ensin **Kirjausoikeudet**-toiminto ja sitten **Aloita**-toiminto.  
+    Tallennus täytyy tehdä joko käyttämällä **Avaa tämä sivu uudessa ikkunassa** (ponnahdusikkuna) -ominaisuutta, jotta **Käyttöoikeudet**-tallennusikkuna on vierekkäin, tai samassa välilehdessä.  
+    Tallennusprosessi käynnistyy nyt ja sieppaa kaikki käyttäjän käyttöliittymässä tekemät toiminnot.
 6. Siirry niille [!INCLUDE[prod_short](includes/prod_short.md)]in sivulle ja niihin toimintoihin, joita haluat tämän käyttöoikeusjoukon käyttäjien käyttävän. Sinun on tehtävä ne tehtävät, joille haluat tallentaa käyttöoikeudet.
 7. Kun tallennus on valmis, palaa **Käyttöoikeudet**-sivulle ja valitse sitten **Lopeta**-toiminto.
 8. Lisää tallennetut käyttöoikeudet uuteen käyttöoikeusjoukkoon valitsemalla **Kyllä**.
