@@ -1,21 +1,19 @@
 ---
 title: Liiketoiminta-alueiden välillä käytettävät yleiset toiminnot
 description: Tutustu Business Central -sovelluksen liiketoiminta-alueiden välillä käytettäviin toimintoihin ja ominaisuuksiin.
-author: SorenGP
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: feature overview, functionality
-ms.search.form: 9020, 9022, 9027, 9024
-ms.date: 09/19/2022
-ms.author: edupont
-ms.openlocfilehash: ce1550e658b881aa81a98c6c7e19c0d5b7011d19
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.date: 12/01/2022
+ms.custom: bap-template
+ms.openlocfilehash: c9f17c81e3cb2fcd57fef536e9c910416bdb1643
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605898"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822476"
 ---
 # <a name="general-business-functionality"></a>Yleiset liiketoimintatoiminnot
 
@@ -43,7 +41,8 @@ Seuraava taulukko sisältää nämä yleiset liiketoiminta-alueet ja linkit niit
 |Kirjaa useita myynti- tai ostoasiakirjoja yhdessä, heti tai aikataulutettuna.|[Useiden asiakirjojen kirjaaminen samanaikaisesti](ui-batch-posting.md)|  
 |Tarkastele kirjaamisen tulosta ennen kirjaamista.|[Kirjaustulosten esikatselu](ui-how-preview-post-results.md)|
 |Muokkaa kirjattujen myynti- tai ostoasiakirjojen valittuja kenttiä.|[Kirjattujen asiakirjojen muokkaaminen](across-edit-posted-document.md)|
-| Tietoja tarjous-, tilaus- ja hyvityslaskuasiakirjojen käytettävissä olevasta tilasta, joka voi olla esimerkiksi **Avoin** tai **Vapautettu** | [Asiakirjojen tilarivi](ui-document-status.md) |
+|Opi etsimään toisiinsa liittyviä asiakirjoja ja tapahtumia asiakirjan osan, yhteyshenkilön tai nimiketietojen perusteella. | [Etsi liittyviä tapahtumia asiakirjoille](ui-find-entries.md) |
+|Tietoja tarjous-, tilaus- ja hyvityslaskuasiakirjojen käytettävissä olevasta tilasta, joka voi olla esimerkiksi **Avoin** tai **Vapautettu** | [Asiakirjojen tilarivi](ui-document-status.md) |
 |Saat lisätietoja yleisten päiväkirjojen käyttämisestä. Niitä käytetään tehtäessä kirjauksia kirjanpitotileille sekä muille tileille, kuten pankki-, asiakas-, toimittaja- ja käyttöomaisuustileille. |[Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md) |
 | Voit aikatauluttaa raportin suorituksen tietylle päivämäärälle ja kellonajalle. |[Suoritettavan raportin aikatauluttaminen](ui-work-report.md#ScheduleReport) |
 |Järjestelmän avulla tehtävät voi suorittaa nopeammin ja tarkemmin niin, että kentät tai rivit täytetään tiedoilla, jotka muussa tapauksessa olisi laskettava ja syötettävä manuaalisesti.|[Business Central -sovelluksen arvoehdotusten salliminen](ui-let-system-suggest-values.md)|

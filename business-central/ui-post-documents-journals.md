@@ -9,14 +9,15 @@ ms.workload: na
 ms.date: 06/24/2021
 ms.search.form: ''
 ms.author: edupont
-ms.openlocfilehash: 2f423724af5a65e6f82e93dffdd746496545ce28
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: e306cc27753e86e8e1a0a315406643bcf6f44d8a
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655338"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822516"
 ---
 # <a name="posting-documents-and-journals"></a>Asiakirjojen ja päiväkirjojen kirjaaminen
+
 Kirjaaminen on kirjanpitotoiminto, jolla tallennetaan liiketoimintatapahtumia erilaisiin yrityksen päiväkirjoihin.
 
 Lähes kaikissa [!INCLUDE[prod_short](includes/prod_short.md)]in asiakirjoissa ja päiväkirjoissa on **Kirjaus**-ryhmä, jossa voit valita kirjaustoiminnon, kuten **Kirjaa**, **Esikatsele kirjausta**, **Kirjaa ja lähetä** ja **Kirjaa ja lähetä sähköpostitse**.
@@ -33,9 +34,10 @@ Seuraavassa taulukossa esitellään liittyvät tehtävät ja linkit tehtäviä k
 | Esikatsele raportissa syöttöjä, jotka luodaan kirjaamisen yhteydessä. |[Testiraporttien tarkastelu ennen kirjausta](ui-how-view-test-reports-posting.md) |
 
 ## <a name="see-also"></a>Katso myös
-[Kirjattujen asiakirjojen muokkaaminen](across-edit-posted-document.md)  
-[Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
-[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
+[Kirjattujen asiakirjojen muokkaaminen](across-edit-posted-document.md)  
+[Etsi liittyviä tapahtumia asiakirjoille](ui-find-entries.md)  
+[Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

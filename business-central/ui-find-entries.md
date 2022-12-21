@@ -1,6 +1,6 @@
 ---
-title: Kirjausten etsiminen
-description: Tässä artikkelissa kuvataan, miten asiakirjoihin ja tapahtumiin liittyvät
+title: Liittyvien tapahtumien etsiminen asiakirjoista
+description: Tutustu asiakirjojen, työyhteyshenkilöiden ja toisiinsa liittyvien nimiketapahtumien etsimiseen.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -10,22 +10,22 @@ ms.search.keywords: find
 ms.search.form: 344
 ms.date: 05/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 3c89d9f3044a8fd0d0fa7f811f1b2f01978e4302
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: ae1ae9293530a36a635af48e1711f502b64add4d
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532374"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822451"
 ---
-# <a name="finding-related-entries-for-posted-documents"></a>Liittyvien tapahtumien etsiminen kirjatuista asiakirjoista 
+# <a name="finding-related-entries-for-documents"></a>Liittyvien tapahtumien etsiminen asiakirjoista
 
-Tässä artikkelissa opit etsimään toisiinsa liittyviä asiakirjoja ja tapahtumia yhteisten tietojen perusteella.
+Opi etsimään toisiinsa liittyviä asiakirjoja ja tapahtumia yhteisten tietojen osan perusteella, esimerkiksi:
 
-- Asiakirjan numero tai kirjauspäivämäärä
-- Työyhteyshenkilön tyyppi, numero tai ulkoisen asiakirjan numero
-- Nimikkeen sarjanumero tai eränumero
+- Asiakirjan numero tai kirjauspäivämäärä.
+- Työyhteyshenkilön tyyppi, numero tai ulkoisen asiakirjan numero.
+- Nimikkeen sarjanumero tai eränumero.
 
-Tämä ominaisuus on hyödyllinen etsittäessä tietyistä tapahtumista syntyneitä tapahtumia. Kun etsit asiakirjan numeroiden perusteella, voit myös tulostaa yhteenvedon Asiakirjatapahtumat-raportista.
+Tämä ominaisuus on hyödyllinen etsittäessä tietyistä tapahtumista syntyneitä tapahtumia. Kun etsit asiakirjan numeroiden perusteella, voit myös tulostaa yhteenvedon **Asiakirjatapahtumat**-raportista.
 
 ## <a name="get-started"></a>Aloittaminen
 
@@ -37,45 +37,31 @@ Tapahtumahakutoiminto on helposti käytettävissä melkein millä tahansa sivull
 - Keskimmäisessä osassa näkyvät hakuun perustuvat asiakirjat.
 - Alemmassa osassa on tietoja hakuohjelman löytämästä lähdeasiakirjasta.
 
-
-<!--
- There are two ways to open this page:
-
-- Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Find Entries**, and then choose the related link.
-
-    With this way, the **Find Entries** page might be empty, and you'll have to start searching for entries from scratch.
-    
-- Open a page that displays posted documents or posted documents entries, either a list or a card. Then, locate and select the **Find Entries** action.
-
-    With this way, the **Find Entries**, page will include all related documents and entries based on the document no. and posting date.
-
-
-    > [!TIP]
-    > If you are on a page that has the **Find Entries** action, press crtl+G to open the **Find Entries** page directly. 
--->
-
 ## <a name="search-for-entries"></a>Hae tapahtumia
 
-Voit hakea tapahtumia joko asiakirjan, työyhteyshenkilön tai nimikeviittauksen tietojen perusteella. Voit muuttaa hakua valitsemalla **Toiminnot**, **Etsi** ja jonkin seuraavista toiminnoista:
+Voit hakea tapahtumia joko asiakirjan, työyhteyshenkilön tai nimikeviittauksen tietojen perusteella. Valitse yläosassa jokin seuraavista vaihtoehdoista sen mukaan, minkä tyyppistä tieto on:
 
 |Toiminto|Kuvaus|
 |------|-----------|
-|Hae asiakirjan mukaan|Tarkastele tapahtumia tietyn asiakirjanumeron tai kirjauspäivämäärän perusteella.|
-|Liiketoiminnan kontakti |Tarkastele tapahtumia tietyn kontaktityypin, kontaktinumeron, tai ulkoisen asiakirjanumeron perusteella. Voit syöttää asiakirjaan liittyviä, toimittajalta tai asiakkaalta tulleita tietoja. Käytä saatavilla olevia kenttiä, kun haluat hakea toimittajan asiakirjoja - käyttäen niitä numeroita, jotka toimittaja on asiakirjoille antanut.|
-|Nimikeviittaus|Näytä tapahtumia sarjanumeron tai eränumeron perusteella. Voit syöttää sarja- tai eränumeron tai suodattaa sarja- tai eränumeroilla, joita haluat hakea. Tämä toiminto on hyödyllinen, kun haluat nähdä, missä jonkin tietyn nimikkeen seurantanumeroa käytettiin, miltä toimittajalta se saapui tai mille asiakkaalle se myytiin.|
+| **Hae asiakirjoja** | Tarkastele tapahtumia tietyn asiakirjanumeron tai kirjauspäivämäärän perusteella. |
+| **Hae työyhteyshenkilöitä** | Tarkastele tapahtumia tietyn kontaktityypin, kontaktinumeron, ja/tai ulkoisen asiakirjanumeron perusteella. Tämän viimeisen asetuksen avulla voit hakea toimittajan tai asiakkaan asiakirjoja käyttämällä kontaktin määrittelemiä numeroita. |
+| **Hae nimikeviittauksia** | Näytä tapahtumia sarjanumeron tai eränumeron perusteella. Voit syöttää sarja- tai eränumeron tai suodattaa sarja- tai eränumeroilla, joita haluat hakea. Tämä toiminto on hyödyllinen, kun haluat nähdä, missä jonkin tietyn nimikkeen seurantanumeroa käytettiin, miltä toimittajalta se saapui tai mille asiakkaalle se myytiin. |
 
-Kun olet tehnyt valinnan, syötä asianmukaiset hakutiedot yläreunan kenttiin. Käytä ohjeen työkaluvihjeitä. Kun olet valmis, aloita haku valitsemalla **Etsi**. Jos muutat suodattimia, sinun täytyy valita **Etsi** uudelleen.
+Kun olet tehnyt valinnan, syötä asianmukaiset hakutiedot sivun yläreunan kenttiin. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Kun olet valmis, aloita haku valitsemalla **Etsi**. Jos muutat suodattimia, sinun täytyy valita **Etsi** uudelleen.
 
 > [!TIP]
-> Esimerkkejä **Etsi merkintöjä** -käytöstä löytyy kohdasta [Nimikeseurattujen nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
+> Pari esimerkkiä **Hae tapahtumia** -toiminnon käyttämisestä on kohdassa [Jäljitä nimike-seuratut nimikkeet](inventory-how-to-trace-item-tracked-items.md) ja [vaihekuvaus: sarja-eränumeroiden jäljittäminen](walkthrough-tracing-serial-lot-numbers.md).
 
 ## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Katso myös
 
+[Nimikeseurannan nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)  
+[Sellaisten kirjattujen asiakirjojen etsiminen, joilla ei ole saapuvia asiakirjatietueita](across-how-find-posted-documents-without-income-document-records.md)  
+[Helppokäyttötoiminnot ja pikanäppäimet](ui-accessibility.md)  
 [Business Centralin käyttäminen](ui-work-product.md)  
 [Sivutoiminnon lisääminen roolikeskukseen](ui-bookmarks.md)  
-[Nimikeseurannan nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)  
-
+[Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)  
+[Sivujen etsiminen roolienhallinnan avulla](ui-role-explorer.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
