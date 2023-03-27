@@ -1,22 +1,16 @@
 ---
 title: Älykkäiden ilmoitusten käyttäminen ja niiden esiintymisen määrittäminen
-description: Voit saada ilmoituksia, joilla ilmoitetaan tilan muutoksista tai tapahtumista, kuten erääntyneestä saldosta tai pienestä varastosta.
+description: 'Voit saada ilmoituksia, joilla ilmoitetaan tilan muutoksista tai tapahtumista, kuten erääntyneestä saldosta tai pienestä varastosta.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
-ms.search.form: ''
+ms.search.form: null
 ms.author: bholtorf
-ms.openlocfilehash: ee3f03eb59df2c991cd0a87dd6e10c07000311cc
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654836"
 ---
-# <a name="manage-notifications"></a>Ilmoitusten hallinta
+# Ilmoitusten hallinta
 
 [!INCLUDE[prod_short](includes/prod_short.md)] voi auttaa työskentelemään älykkäämmin ilmoittamalla tietyistä tapahtumista tai tilamuutoksesta esimerkiksi silloin, kun olet laskuttamassa asiakasta, jolla on erääntynyttä saldoa, tai kun käytettävissä oleva varasto on pienempi kuin myytävä määrä. Nämä ilmoitukset näytetään hienovaraisina vihjeinä käsiteltävän tehtävän kontekstissa. Voit ohittaa ilmoituksen tai tarkastella sitä lähemmin.  
 
@@ -24,7 +18,7 @@ Jos tarkastelet ilmoituksen tietoja, voit ratkaista asian tekemällä toimenpite
 
 Ilmoitukset auttavat kokemattomia käyttäjiä tekemään uusia tehtäviä. Ilmoitukset eivät myöskään heikennä tottuneiden käyttäjien tuottavuutta.  
 
-## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>Ilmoitusten ottaminen käyttöön ja käytöstä poistaminen sekä lähetystilanteiden hallinta
+## Ilmoitusten ottaminen käyttöön ja käytöstä poistaminen sekä lähetystilanteiden hallinta
 
 Kun käytät [!INCLUDE[prod_short](includes/prod_short.md)]ia ensimmäisen kerran, kaikki ilmoitukset on otettu käyttöön, mutta voit valita, ovatko ne käytössä myös silloin, jos et ole kiinnostunut tietyistä tapahtumista tai tiloista.  
 
@@ -37,7 +31,7 @@ Ilmoitusten ottaminen käyttöön tai niiden poistaminen käytöstä sekä ehtoj
 3. Ota ilmoitus käyttöön tai poista ilmoitus käytöstä näyttöön tulevassa sivussa valitsemalla tai poistamalla **Käytössä**-valintaruudun valinta.  
 4. Voit määrittää ilmoituksen käynnistinehdot valitsemalla **Näkymän suodattimen tiedot** -linkin ja täyttämällä kentät.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

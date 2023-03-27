@@ -1,22 +1,16 @@
 ---
 title: Rakennetiedot – suunnittelun kohdistustaulukko
-description: Tässä aiheessa on tietoja siitä, mitä tapahtuu, kun kysyntä- tai tarjontamallien muutos edellyttää nimikkeen suunnittelutavan laskemista.
+description: 'Tässä aiheessa on tietoja siitä, mitä tapahtuu, kun kysyntä- tai tarjontamallien muutos edellyttää nimikkeen suunnittelutavan laskemista.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 878f301db5b7b887201fd2e803fd299dc3894dbf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146590"
 ---
-# <a name="design-details-planning-assignment-table"></a>Rakennetiedot: suunnittelun kohdistustaulukko
+# Rakennetiedot: suunnittelun kohdistustaulukko
 Kaikki nimikkeet tulee suunnitella, mutta nimikkeelle ei ole syytä laskea suunnitelmaa ellei kysyntä- tai tarjontakuvio ole muuttunut edellisen suunnitelman laskemisen jälkeen.  
 
 Jos käyttäjä on kirjoittanut uuden myyntitilauksen tai muuttanut olemassa olevaa, suunnitelman uudelleen laskeminen on tarpeellista. Muita syitä ovat muutos ennusteeseen tai haluttu varmuusvaraston määrä. Tuoterakenteen muuttaminen komponentin lisäyksellä tai poistolla ilmaisisi todennäköisesti muutosta, mutta vain komponenttinimikkeelle.  
@@ -61,7 +55,7 @@ Tuotanto-ohjelman ja tarvelaskennan laskentaa koskevat seuraavat rajoitukset:
 * Tuotanto-ohjelma: suunnittelujärjestelmä tarkistaa, että nimikkeellä on kysyntäennuste tai myyntitilaus. Jos ei ole, nimike ei kuulu suunnitelmaan.  
 * Tarvelaskenta: jos suunnittelujärjestelmä havaitsee, että tuotanto-ohjelman suunnittelurivi tai tuotanto-ohjelman toimitustilaus täydentää nimikettä, nimike jätetään pois suunnittelusta. Kaikki kysyntä asiaankuuluvista osista on kuitenkin mukana.  
 
-## <a name="see-also"></a>Katso myös  
+## Katso myös  
 [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)   
 [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)   
 [Rakennetiedot: siirrot suunnittelussa](design-details-transfers-in-planning.md)   

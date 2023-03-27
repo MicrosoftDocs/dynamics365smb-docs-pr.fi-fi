@@ -6,41 +6,35 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000790, 99000791, 99000792, 99000793
+ms.search.form: '99000790, 99000791, 99000792, 99000793'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9732817de350d4fe709802b9726a3ad8d364ec5e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521908"
 ---
-# <a name="work-with-production-families"></a>Tuotantoperheiden käsitteleminen
+# Tuotantoperheiden käsitteleminen
 
 Tuoteperhe on ryhmä yksittäisiä nimikkeitä, joiden suhde perustuu niiden tuotantoprosessien samankaltaisuuteen. Tuoteperheitä muodostamalla joitain nimikkeitä voidaan tuottaa kaksi kertaa tai useammin yhdessä tuotannossa, joka optimoi materiaalinkulutusta.
 
 Anna **Tuoteperhe**-sivun **Määrä**-kentässä määrä, joka tuotetaan, kun koko tuoteperhe on tuotettu kerran.
 
-## <a name="example"></a>Esimerkki
+## Esimerkki
 
 Lävistysprosessissa saman nimikkeen neljä kappaletta voidaan tuottaa yhdestä lomakkeesta ja toisen, eri nimikkeen, 10 kappaletta yhtä aikaa. Lävistyskone lävistää kaikki 14 kappaletta saman työvaiheen aikana.
 
 Tuoteperheiden muodostamisella vähennetään hukkatavaran määrää, koska se, mikä olisi tavallisesti hylättyä tavaraa isojen kappaleiden tuotannossa, käytetäänkin pienempien nimikkeiden tuottamisessa.
 
-## <a name="to-set-up-a-production-family"></a>Tuotantoperheen määrittäminen
+## Tuotantoperheen määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Perheet** ja valitse sitten vastaava linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-produce-based-on-a-production-family"></a>Tuotanto tuoteperheen perusteella
+## Tuotanto tuoteperheen perusteella
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sitovasti suunn. tuotantotil.** ja valitse sitten vastaava linkki.
 2. Luo uusi tuotantotilaus. Lisätietoja on kohdassa [Tuotantotilausten luominen](production-how-to-create-production-orders.md).
 3. Valitse **Lähdetyyppi**-kentässä **Tuoteperhe**.  
 4. Valitse **Lähdenro** -kentässä käsiteltävä tuotantoperhe.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Tuotannon tuoterakenteiden luominen](production-how-to-create-production-boms.md)  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  

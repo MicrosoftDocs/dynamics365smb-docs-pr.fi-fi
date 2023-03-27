@@ -1,21 +1,15 @@
 ---
 title: Muihin Microsoft-palveluihin yhteydessä olevat kokeiluominaisuudet
-description: Yleiskuvaus Microsoft-palveluista, joihin Business Central muodostaa yhteyden kokeiluversiolla.
+description: 'Yleiskuvaus Microsoft-palveluista, joihin Business Central muodostaa yhteyden kokeiluversiolla.'
 author: jswymer
 ms.topic: overview
 ms.service: dynamics365-business-central
-ms.search.keywords: privacy, trial, Microsoft services
+ms.search.keywords: 'privacy, trial, Microsoft services'
 ms.date: 10/28/2022
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.openlocfilehash: baad6c682a744d87cd6e2d2c0536a06a7b349384
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728722"
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Muihin Microsoft-palveluihin yhteydessä olevat kokeiluominaisuudet 
+# Muihin Microsoft-palveluihin yhteydessä olevat kokeiluominaisuudet 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] on kokonaisvaltainen liiketoiminnan hallintaratkaisu, joka on vahvasti integroitu Microsoft 365:n tuottavuussovelluksiin ja Power Platformiin. Maksuton Business Centralin kokeiluversio voi muodostaa yhteyden useisiin Microsoft-palveluihin, jotka on ensin määritettävä ja otettava käyttöön. Saadaksesi parhaan hyödyn ilmaisesta kokeilustasi, jotkin näistä ominaisuuksista on otettu käyttöön automaattisesti. Vaikka yhteys [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan on otettu käyttöön, nämä palvelut eivät sisälly kokeiluversioon, ja ne on hankittava erikseen, ellei niitä ole jo olemassa.
 

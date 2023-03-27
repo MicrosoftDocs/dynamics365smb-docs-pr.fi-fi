@@ -1,30 +1,24 @@
 ---
 title: Konsernin asiakirjojen ja päiväkirjojen kirjaaminen
-description: Tämä aihe selitää, miten voit kirjata tapahtumat konsernikumppanien kanssa konsernin asiakirjojen tai päiväkirjojen avulla.
+description: 'Tämä aihe selitää, miten voit kirjata tapahtumat konsernikumppanien kanssa konsernin asiakirjojen tai päiväkirjojen avulla.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.search.form: 600, 610
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
+ms.search.form: '600, 610'
 ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: 0d0b4404df9f322c9d642fb06c08e912c24f9fd3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519724"
 ---
-# <a name="work-with-intercompany-documents-and-journals"></a>Konserniasiakirjojen ja -päiväkirjojen käyttäminen
+# Konserniasiakirjojen ja -päiväkirjojen käyttäminen
 Voit kirjata tapahtumat konsernikumppanien kanssa konsernin asiakirjojen tai päiväkirjojen avulla. Kun kirjaat konsernin asiakirja- tai päiväkirjarivin omassa yrityksessä, vastaava asiakirja- ja päiväkirjarivi luodaan konsernin Lähtevät-kansioon kumppanille lähettämistä varten. Kumppaniyritys voi sitten kirjata vastaavan tapahtuman omassa yrityksessään ilman, että tiedot on annettava uudelleen.
 
 Myynti- ja ostoasiakirjoissa oleva kyseisen asiakkaan tai toimittajan konsernikumppanikoodi varmistaa, että kaikki näihin yrityksiin liittyville tapahtumille muodostetut tilaukset ja laskut luovat vastaavat asiakirjat kumppaniyrityksessä. Tällä tavoin varmistetaan, että tilit täsmäytyvät oikein.
 
 Konsernin yleisen päiväkirjan riville ei tarvitse määrittää yksittäisten tilijoukkojen tilejä ei tarvitse määrittää vaan kumppaniyrityksen tunnus riittää. Vastaavat konsernin yleisen päiväkirjan rivit luodaan sitten kumppaniyrityksessä siten, että kummankin tapahtuneen osallistuneen yrityksen tilit täsmäytetään.
 
-## <a name="to-fill-in-and-send-an-intercompany-sales-order"></a>Voit täyttää ja lähettää konsernin myyntitilauksen seuraavasti
+## Voit täyttää ja lähettää konsernin myyntitilauksen seuraavasti
 Voit lähettää myynti- ja ostotilauksia sekä palauttaa tilauksia ennen kirjaamista. Laskut ja hyvityslaskut voi lähettää vasta, kun ne on kirjattu.
 
 Seuraavissa ohjeissa neuvotaan, kuinka voit täyttää ja lähettää konsernin myyntitilauksen. Samat ohjeet koskevat myös konsernin osto- ja palautustilauksia sekä kirjattuja konsernin laskuja ja hyvityslaskuja.  
@@ -38,7 +32,7 @@ Seuraavissa ohjeissa neuvotaan, kuinka voit täyttää ja lähettää konsernin 
 > [!NOTE]
 > Jos et tee vaihetta 4, myyntitilaus siirretään konsernin Lähtevät-kansioon, josta voit lähettää sen myöhemmin. Lisätietoja on kohdassa [Konsernin Saapuneet- ja Lähtevät-kansion hallinta](intercompany-how-manage-intercompany-inbox.md).
 
-## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Voit täyttää ja kirjata konsernin päiväkirjan seuraavasti
+## Voit täyttää ja kirjata konsernin päiväkirjan seuraavasti
 
 Kun kirjaat konsernin yleisen päiväkirjan rivin omassa yrityksessä, vastaava päiväkirjarivi luodaan konsernin Lähtevät-kansioon kumppanille lähettämistä varten. Alkaen vuoden 2022 julkaisuaallosta 1 voit myös määrittää yrityksen konsernikumppaneilta saatujen konsernin sisäisten tapahtumien automaattista luontia varten, jotka on kirjattu konsernin yleiseen päiväkirjaan. Kumppaniyritys voi sitten kirjata vastaavan tapahtuman omassa yrityksessään ilman, että tiedot on annettava uudelleen.
 
@@ -53,7 +47,7 @@ Kun kirjaat konsernin yleisen päiväkirjan rivin omassa yrityksessä, vastaava 
 
 Kyseiset tapahtumat kirjataan omaan yritykseen ja päiväkirjaan. Lisäksi vastaavat tapahtumat luodaan konsernin Lähtevät-kansioon, josta voit lähettää ne kumppaniyritykselle. Lisätietoja on kohdassa [Konsernin Saapuneet- ja Lähtevät-kansion hallinta](intercompany-how-manage-intercompany-inbox.md).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Konsernitapahtumien hallinta](intercompany-manage.md)  
 [Rahoitus](finance.md)  

@@ -1,29 +1,24 @@
 ---
 title: Uuden tuotannon tuoterakenteen ja tuoterakenneversion luominen
-description: Vaihekuvaus, jossa kerrotaan, miten toinen kahvinkeitin lisätään Contoso Coffee -tuotelinjaan Business Centralissa.
+description: 'Vaihekuvaus, jossa kerrotaan, miten toinen kahvinkeitin lisätään Contoso Coffee -tuotelinjaan Business Centralissa.'
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 3c631e0285e0fdc6db5bf70cd0f5167741f602f9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525043"
 ---
-# <a name="walkthrough-create-a-new-production-bom-and-bom-version"></a>Vaihekuvaus: Uuden tuotannon tuoterakenteen ja tuoterakenneversion luominen
+
+# Vaihekuvaus: Uuden tuotannon tuoterakenteen ja tuoterakenneversion luominen
 
 Tässä artikkelissa on tietoja Contoso Coffee -esittelytietojen käytöstä tuoterakenteen käytössä tuotantoprosesseissa.  
 
-## <a name="scenario"></a>Esimerkkitilanne
+## Esimerkkitilanne
 
 Contoso Coffee on päättänyt lisätä toisen kahvinkeittimien tuotelinjaan: **SP-SCM1008 Airpot Lite**. Tämä kahvinkeitin on identtinen nykyisen nimikkeen **SP-SCM1009 Airpot** kanssa, paitsi että se ei sisällä lämmityslevyä **SP-BOM1104**. Erillisessä vaiheessa on/off-merkki valo, **SP-BOM1106** poistetaan Airpot Liten tuoterakenteen versiosta.
 
 Contoso Coffeen prosessi-insinööri Oscarin on määritettävä uusi tuotannon tuoterakenne, joka määrittää Airpot Liten alkuperäiset komponenttivaatimukset. Tämän jälkeen hänen täytyy määrittää uusi tuoterakenneversio, jonka alkamis päivämäärä on 1. heinäkuuta, ja se on yhdenmukaistettava lisäsuunnitelmien kanssa toisen painoksen julkaisemiseksi.
 
-## <a name="steps"></a>Vaiheet
+## Vaiheet
 
 1. Luo uusi tuotannon tuoterakenne Airpot Litelle.
 
@@ -78,6 +73,6 @@ Contoso Coffeen prosessi-insinööri Oscarin on määritettävä uusi tuotannon 
 
 Uusi kahvinkeitin on nyt määritetty tuotannon tuoterakenteena, jolla on yksi versio.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Johdatus Contoson kahvidemotietoihin](contoso-coffee-intro.md)  

@@ -1,27 +1,21 @@
 ---
 title: Termit kustannuslaskennassa
-description: Tässä aiheessa määritetään kustannuslaskennassa käytettävät keskeiset termit, kuten kohdistustunnus ja kohdistuslähde.
+description: 'Tässä aiheessa määritetään kustannuslaskennassa käytettävät keskeiset termit, kuten kohdistustunnus ja kohdistuslähde.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: cee2ced8b51de66de847c0132e8ce35a08b7b229
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532158"
 ---
-# <a name="terminology-in-cost-accounting"></a>Termit kustannuslaskennassa
+# Termit kustannuslaskennassa
 
 Tässä aiheessa määritellään keskeiset ehdot, joita käytetään kustannuslaskennassa.  
 
-## <a name="key-terms"></a>Keskeiset termit
+## Keskeiset termit
 
  Seuraavassa taulukossa on esitetty keskeiset määritelmät kustannuslaskennassa.  
 
@@ -49,9 +43,9 @@ Tässä aiheessa määritellään keskeiset ehdot, joita käytetään kustannusl
 |Muuttuva kustannus|Muuttuvat kustannukset ovat kuluja, jotka muuttuvat suhteessa yrityksen toimintaan. Muuttuvat kustannukset ovat kaikkien tuotettujen yksiköiden marginaalikustannusten summa. Kokonaiskustannusten kaksi osaa muodostuvat kiinteistä kustannuksista ja muuttuvista kustannuksista.|  
 |Variantti|Varianttia käytetään valinnaisena käyttäjän määrittämänä nimenä määrityksille. Etiketin tarkoitus on suodattaa jakoryhmiä.|  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
  [Tietoja kustannuslaskennasta](finance-about-cost-accounting.md)  
  [Kustannuslaskenta](finance-manage-cost-accounting.md)  

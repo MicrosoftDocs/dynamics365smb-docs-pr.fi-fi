@@ -1,35 +1,34 @@
 ---
-title: Rakennetiedot – Toimitusten suunnittelu | Microsoft Docs
-description: Tässä ohjeaiheessa on yleiskatsaus Business Central -sovelluksen toimitusten suunnitteluominaisuuksissa käytettävistä käsitteistä ja periaatteista.
-author: SorenGP
+title: Rakennetiedot – tarjonnan suunnittelu
+description: Tässä artikkelissa käsitellään Business Centralin tarjonnan suunnitteluominaisuuksien käsitteitä ja periaatteita.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: design, supply, planning, reordering, replenishment
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 7f1ba46b98d041639b2089a661b5e7b137edc6b1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131832"
+ms.date: 02/23/2023
+ms.custom: bap-template
+ms.search.keywords: 'design, supply, planning, reordering, replenishment'
 ---
-# <a name="design-details-supply-planning"></a>Rakennetiedot: tarjonnan suunnittelu
-Tässä dokumentaatiossa on yksityiskohtaisia teknisiä tietoja [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman tarjonnan suunnittelun toimintojen kanssa käytettävistä konsepteista ja periaatteista.  
+# Rakennetiedot: tarjonnan suunnittelu
 
-Se kuvaa, miten suunnittelujärjestelmä toimii, ja kuinka algoritmeja voidaan muuttaa eri ympäristöjen suunnitteluvaatimuksia vastaaviksi. Se esittelee ensin keskitetyn ratkaisun käsitteet ja kuvaa sitten keskeisen mekanismin eli tarjonnan täsmäytyksen logiikan ennen sitä, kuinka varaston suunnittelu suoritetaan uusintatilaustapojen avulla.  
+Tässä osassa tarkkoja teknisiä tietoja [!INCLUDE[prod_short](includes/prod_short.md)]in tarjonnan suunnitteluominaisuuksien käsitteistä ja periaatteista.  
 
-## <a name="in-this-section"></a>Tämän osan sisältö  
+Tässä artikkelissa käsitellään suunnittelujärjestelmän toimintaa:
+
+* Algoritmien muuttaminen eri ympäristöjen suunnitteluvaatimusten mukaisesti
+* Keskeisten ratkaisukäsitteiden ottaminen käyttöön
+* Kuvailee keskeisen mekanismin logiikkaa eli tarjonnan tasapainottamista
+* Selitetään uudelleentilauskäytäntöjen käyttö varastosuunnittelussa  
+
+## Tämän osan sisältö  
+
 [Rakennetiedot: Suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md)  
 [Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)  
 [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)  
 [Rakennetiedot: suunnittelun parametrit](design-details-planning-parameters.md)  
 [Rakennetiedot: suunnittelun kohdistustaulukko](design-details-planning-assignment-table.md)  
-[Rakennetiedot: kysyntä tyhjä-sijainnissa](design-details-demand-at-blank-location.md)  
+[Rakennetiedot: suunnitelman luominen sijaintien avulla tai ilman sijainteja](production-planning-with-without-locations.md)  
 [Rakennetiedot: siirrot suunnittelussa](design-details-transfers-in-planning.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

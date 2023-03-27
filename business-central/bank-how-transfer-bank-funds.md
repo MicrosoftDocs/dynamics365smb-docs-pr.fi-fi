@@ -6,22 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bank account transfer, multiple currencies
+ms.search.keywords: 'bank account transfer, multiple currencies'
 ms.search.form: 39
 ms.date: 04/29/2021
 ms.author: edupont
-ms.openlocfilehash: 632f802678de33e7c00fa95dab38530a1364ff3b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511725"
 ---
-# <a name="transfer-bank-funds"></a>Siirrä pankkivarat
+# Siirrä pankkivarat
 
 Joskus on siirrettävä varoja yhdeltä pankkitililtä kohteessa [!INCLUDE[prod_short](includes/prod_short.md)] toiselle. Se tehdään kirjaamalla tapahtuma **Yleinen päiväkirja** -sivulle. Tehtävä vaihtelee sen mukaan, käytetäänkö pankkitileillä samaa vai eri valuuttaa.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Siirtojen kirjaaminen pankkitileillä, jotka käyttävät samaa valuuttakoodia
+## Siirtojen kirjaaminen pankkitileillä, jotka käyttävät samaa valuuttakoodia
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleinen päiväkirja** ja valitse sitten vastaava linkki.
 2. Täytä päiväkirjan rivillä **Kirjauspvm**- ja **Asiakirjan nro** -kentät.
@@ -34,7 +28,7 @@ Joskus on siirrettävä varoja yhdeltä pankkitililtä kohteessa [!INCLUDE[prod_
 7. Valitse **Vastatilin nro**-kentässä pankkitili, johon haluat siirtää varat.
 8. Kirjaa päiväkirja.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Siirtojen kirjaaminen pankkitileillä, joilla on eri valuuttakoodit
+## Siirtojen kirjaaminen pankkitileillä, joilla on eri valuuttakoodit
 
 Voit siirtää varoja eri valuuttoja käyttävien pankkitilien välillä kirjaamalla kaksi yleisen päiväkirjan riviä.
 
@@ -61,7 +55,7 @@ Voit siirtää varoja eri valuuttoja käyttävien pankkitilien välillä kirjaam
     > Jos summan edessä ei ole merkkiä, se on debet-summa. Muussa tapauksessa kyseessä on kredit-summa.
 9. Jos päiväkirjassa käytetyt vaihtokurssit eroavat **Valuutan vaihtokurssit** -sivun kursseista, syötä uusi päiväkirjarivi vaihtokurssivoittoa tai -tappiota varten.  
 
-    1. Valitse **KP-tili**-kentässä **Pankkitili**.  
+    1. Valitse **KP-tili**-kentässä**Pankkitili**.  
 
     2. Syötä **Tilinro**-kenttään valuuttakurssivoittojen ja -tappioiden KP-tilin numero.  
 
@@ -71,7 +65,7 @@ Voit siirtää varoja eri valuuttoja käyttävien pankkitilien välillä kirjaam
     > Jos summan edessä ei ole merkkiä, se on debet-summa. Muussa tapauksessa kyseessä on kredit-summa.
 10. Kirjaa päiväkirja.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  

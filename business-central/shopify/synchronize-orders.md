@@ -4,22 +4,17 @@ description: Määritä ja suorita myyntitilauksen tuonti ja käsittely Shopifys
 ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: 30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,
+ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,'
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 70c401e072e742e508b8f623ae3242d8e647ccb6
-ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 11/23/2022
-ms.locfileid: "9802928"
 ---
-# <a name="synchronize-and-fulfill-sales-orders"></a>Myyntitilausten synkronoiminen ja täyttäminen
+
+# Myyntitilausten synkronoiminen ja täyttäminen
 
 Tässä artikkelissa kuvataan tarvittavat asetukset ja vaiheet, jotka täytyy suorittaa myyntitilausten synkronoimiseksi ja täyttämiseksi Shopifylla [!INCLUDE[prod_short](../includes/prod_short.md)]issa.
 
-## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>Tilausten tuonnin määrittäminen Shopify-ostoskortissa
+## Tilausten tuonnin määrittäminen Shopify-ostoskortissa
 
 Syötä **Valuuttakoodi**, jos verkkokauppa käyttää eri valuuttaa kuin paikallinen valuutta (PVA). Määritetyllä valuutalla on oltava määritettynä vaihtokurssit. Jos verkkokauppa käyttää samaa valuuttaa kuin [!INCLUDE[prod_short](../includes/prod_short.md)], jätä kenttä tyhjäksi. 
 
@@ -27,7 +22,7 @@ Voit nähdä kaupan valuutan [Kaupan tiedot](https://www.shopify.com/admin/setti
 
 Tavallinen Shopify-tilaus voi sisältää välisumman lisäksi muita kustannuksia, kuten kuljetusmaksuja tai tippejä, jos ne ovat käytössä. Nämä summat kirjataan suoraan KP-tilille, jota haluat käyttää tietyille tapahtumatyypeille:
 
-* **Toimituskulutili**
+* **Toimitusmaksujen tili**
 * **Myytyjen lahjakorttien tili**: lisätietoja on kohdassa [Lahjakortti](synchronize-orders.md#gift-cards)
 * **Tippitili**  
 
@@ -37,7 +32,7 @@ Ota käyttöön **Automaattiset tilaukset**, joiden avulla voit luoda myyntiasia
 
 **Veroalueen lähde** -kentässä voit määrittää prioriteetin, jonka mukaan veroaluekoodi tai liiketoiminnan ALV-kirjausryhmä valitaan osoitteen perusteella. Tuotu Shopify-tilaus sisältää verotiedot, mutta verot lasketaan uudelleen, kun luot myyntiasiakirjan, joten on tärkeää, että ALV-/veroasetukset on määritetty oikein [!INCLUDE[prod_short](../includes/prod_short.md)]issa. Lisätietoja veroista on ohjeaiheessa [Shopify-yhteyden verojen määrittäminen](setup-taxes.md).
 
-### <a name="shipment-method-mapping"></a>Toimitustavan yhdistäminen
+### Toimitustavan yhdistäminen
 
 **Toimitustavan koodi** Shopifysta tuoduille myyntiasiakirjoille, voidaan täyttää automaattisesti. **Toimitusehdon yhdistämismääritys** täytyy määrittää.
 
@@ -50,7 +45,7 @@ Ota käyttöön **Automaattiset tilaukset**, joiden avulla voit luoda myyntiasia
 > [!NOTE]  
 > Jos myyntitilaukseen liittyy useita toimituskuluja, vain yksi valitaan toimitustavaksi ja liitetään myyntiasiakirjaan.
 
-### <a name="location-mapping"></a>Sijainnin kartta
+### Sijainnin kartta
 
 Sijaintikartoitus tarvitaan kolmea tarkoitusta varten:
 
@@ -64,7 +59,7 @@ Sijaintikartoitus tarvitaan kolmea tarkoitusta varten:
 4. Valitse **Hae Shopify-sijainnit** -toiminto, jos haluat tuoda kaikki Shopifyssa määritetyt sijainnit. Voit etsiä niitä [**Sijainnit**](https://www.shopify.com/admin/settings/locations)-asetuksista **Shopify-hallinta** -paneelista. Huomaa, että *Oletus*-arvona olevaa sijaintia käytetään tuotaessa täyttymättömiä Shopify-tilauksia.
 5. Syötä **oletussijaintikoodi** ja vastaava sijainti [!INCLUDE[prod_short](../includes/prod_short.md)]issa.
 
-## <a name="run-the-order-synchronization"></a>Suorita tilausten synkronointi
+## Suorita tilausten synkronointi
 
 Seuraavassa kuvataan, miten myyntitilaukset tuodaan ja päivitetään.
 
@@ -76,24 +71,28 @@ Seuraavassa kuvataan, miten myyntitilaukset tuodaan ja päivitetään.
 3. Valitse **Tilaukset**-toiminto.
 4. Valitse **Synkronoi tilaukset Shopifysta** -toiminto.
 5. Määritä tilausten suodattimet tarpeen mukaan. Voit esimerkiksi tuoda kokonaan maksetut tilaukset tai ne, joiden riskitaso on alhainen.
-6. Valitse **OK**-painike.
+
+> [!NOTE]  
+> Kun suodatat tunnisteen mukaan, käytä suodatintunnuksia `@` ja `*`. Jos esimerkiksi haluat tuoda tilauksia, joissa on *tag1*, käytä `@*tag1*`. `@` varmistaa, että tulos ei riipu kirjainkoosta, kun taas `*` etsii tilauksia, joissa on useita tunnisteita.
+
+7. Valitse **OK**-painike.
 
 Vaihtoehtoisesti voit etsiä **synkronoituja tilauksia Shopifysta** -erätyötä.
 
 Voit ajoittaa tehtävän suoritettavaksi automaattisesti. Lisätietoja on kohdassa [Toistuvien tehtävien ajoittaminen](background.md#to-schedule-recurring-tasks).
 
-## <a name="review-imported-orders"></a>Tuotujen tilausten tarkistaminen
+## Tuotujen tilausten tarkistaminen
 
 Kun tuonti on valmis, voit tutkia Shopify-tilausta ja löytää kaikkia siihen liittyvät tiedot, kuten maksutapahtumat, toimituskulut, riskitason, muut määritteet ja tunnisteet tai täydennykset, jos tilaus oli jo täytetty Shopifyssa. Voit myös tarkastella mitä tahansa asiakkaalle lähetettyä tilausvahvistusta valitsemalla **Shopify-tilasivu**-toiminnon.
 
 > [!NOTE]  
 > Voit siirtyä **Shopify-tilaukset**-ikkunaan suoraan, jolloin näet tilaukset, joissa on *avoin* tila kaikista kaupoista. Jos haluat tarkastella valmiita tilauksia, sinun täytyy avata **Shopify-tilaukset**-sivu tietystä **Shopify-ostoskortti**-ikkunasta.
 
-## <a name="create-sales-documents-in-business-central"></a>Luo myyntiasiakirjoja Business Centralissa
+## Luo myyntiasiakirjoja Business Centralissa
 
 Jos **Tilausten automaattinen luominen**-vaihto on otettu käyttöön **Shopify-ostoskortissa**, [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelma yrittää luoda myyntiasiakirjan, kun tilaus tuodaan. Jos sinulla esiintyy ongelmia, kuten jos asiakas tai tuote puuttuu, sinun täytyy korjata ongelmat ja luoda myyntitilaus uudelleen.
 
-### <a name="to-create-sales-documents"></a>Myyntiasiakirjojen luominen
+### Myyntiasiakirjojen luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Shopify-kaupat**, valitse sitten vastaava linkki.
 2. Valitse kauppa, jolle haluat synkronoida tilaukset avataksesi **Shopify-kauppa-kortti**-sivun.
@@ -105,15 +104,15 @@ Jos Shopify-tilaus edellyttää täyttämistä, **myyntitilaus** luodaan. Täyte
 
 Myyntiasiakirja luodaan nyt, ja sitä voidaan hallita [!INCLUDE[prod_short](../includes/prod_short.md)]in vakiotoimintojen avulla.
 
-### <a name="manage-missing-customers"></a>Puuttuvien asiakkaiden hallinta
+### Puuttuvien asiakkaiden hallinta
 
 Jos asetuksesi estävät asiakkaan luomisen automaattisesti ja sopivaa asiakasta ei löydy, sinun täytyy kohdistaa asiakas Shopify-tilaukseen manuaalisesti. Voit tehdä tämän muutamalla eri tavalla:
 
 * Voit määrittää **Myyntiasiakasnron** ja **Laskutusasiakkaan nron** suoraan **Shopify-tilaukset**-sivulta valitsemalla asiakkaan olemassa olevien asiakkaiden luettelosta.
-* Voit valita asiakasmallin koodin ja luoda ja kohdistaa asiakkaan sitten **Shopify-tilaukset**-sivun **Luo uusi asiakas** -toiminnolla.
-* Voit yhdistää aiemmin luodun **Shopify-asiakkaan** asiakkaaseen **Shopify-asiakas**-ikkunassa ja valita sitten **Shopify-tilaukset** -sivulla **Etsi yhdistämismääritys** -toiminto.
+* Voit valita asiakasmallin koodin ja luoda ja kohdistaa asiakkaan sitten **Shopify-tilaukset**-sivun **Luo uusi asiakas** -toiminnolla. Huomaa, että Shopify-asiakkaalla täytyy olla vähintään 1 osoite. Shopify-myyntipisteen kautta luoduista tilauksista puuttuvat usein osoitetiedot.
+* Voit yhdistää aiemmin luodun asiakkaan **Shopify-asiakkaaseen** **Shopify-asiakas**-ikkunassa ja valita sitten **Shopify-tilaukset** -sivulla **Etsi yhdistämismääritys** -toiminto.
 
-### <a name="how-the-connector-chooses-which-customer-to-use"></a>Miten yhdistin valitsee käytettävän asiakkaan
+### Miten yhdistin valitsee käytettävän asiakkaan
 
 *Tuo tilaus Shopifysta* -toiminto yrittää valita asiakkaat seuraavassa järjestyksessä:
 
@@ -129,7 +128,7 @@ Seuraavat vaiheet määräytyvät **asiakkaan yhdistämismäärityksen tyypin** 
 > [!NOTE]  
 > Yhdistin käyttää laskutusosoitteen tietoja ja luo laskutusasiakkaan [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmaan. Tilausasiakas on sama kuin laskutusasiakas.
 
-### <a name="impact-of-order-editing"></a>Tilausten muokkaamisen vaikutus
+### Tilausten muokkaamisen vaikutus
 
 Shopifyssa:
 
@@ -149,7 +148,7 @@ Shopifyssa:
 |Vähennä määrää. Kirjaa toimitus. | Shopify-tilaus merkitään osittain täytetyksi. |
 |Lisää uusi nimike. Kirjaa toimitus. | Shopify-tilaus merkitään täytetyksi. Rivejä ei päivitetä. |
 
-## <a name="synchronize-shipments-to-shopify"></a>Synkronoi toimitukset Shopifyhin
+## Synkronoi toimitukset Shopifyhin
 
 Kun Shopify-tilauksesta luotu myyntitilaus toimitetaan, voit synkronoida toimitukset Shopifyn kanssa.
 
@@ -167,7 +166,7 @@ Voit ajoittaa tehtävän suoritettavaksi automaattisesti. Lisätietoja on kohdas
 
 Muista suorittaa **Synkronoi tilaukset Shopifysta** -toiminto päivittääksesi tilauksen jakelun tilan [!INCLUDE[prod_short](../includes/prod_short.md)]issa. Yhdistintoiminto arkistoi myös täysin maksetut ja täytetyt tilaukset sekä Shopifyssa että [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa edellyttäen, että ehdot täyttyvät.
 
-### <a name="shipping-agents-and-tracking-url"></a>Kuljetusliikkeet ja seuranta-URL-osoite
+### Kuljetusliikkeet ja seuranta-URL-osoite
 
 Jos **Kirjattu myyntitoimitus** -asiakirja sisältää **Kuljetusliikkeen koodi**- ja/tai **Kollin seurantanro** -kentän, nämä tiedot lähetetään Shopify'hin ja asiakkaalle toimituksen vahvistussähköpostissa.
 
@@ -179,7 +178,7 @@ Seurantayritys-kenttä täytetään seuraavassa järjestyksessä (suurimmasta pi
 
 Jos kuljetusliikkeen tietueen **Paketin seurannan URL-osoite** -kenttä on täytetty, toimitusvahvistus sisältää myös seuranta-URL-osoitteen.
 
-## <a name="gift-cards"></a>Lahjakortit
+## Lahjakortit
 
 Voit myydä Shopify-kaupassa lahjakortteja, joita voidaan käyttää oikeiden tuotteiden maksamiseen.
 
@@ -187,6 +186,6 @@ Kun on kyse lahjakorteista, on tärkeää syöttää **myydyn lahjakortin tili**
 
 Jos haluat tarkastella myönnettyjä ja käytettyjä lahjakortteja, valitse ![Kerro-ominaisuuden avaava Hehkulamppu.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lahjakortit**, valitse sitten vastaava linkki.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Shopifyn yhdistimen käytön aloittaminen](get-started.md)  

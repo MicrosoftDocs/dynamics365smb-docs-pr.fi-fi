@@ -1,23 +1,17 @@
 ---
 title: Raporttien ja asiakirjojen mukautettujen asettelujen luominen ja muokkaaminen
-description: Voit tutustua mukautettujen asettelujen luomiseen ja raportin ulkoasun muokkaamiseen, kun sitä tarkastellaan, tulostetaan tai tallennetaan.
+description: 'Voit tutustua mukautettujen asettelujen luomiseen ja raportin ulkoasun muokkaamiseen, kun sitä tarkastellaan, tulostetaan tai tallennetaan.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9650, 9652
+ms.search.keywords: 'customized report, document layout, logo, personalize'
+ms.search.form: '9650, 9652'
 ms.date: 03/06/2022
 ms.author: edupont
-ms.openlocfilehash: 465954e6549ee7ffd0822438a0ad004686d5b424
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9604775"
 ---
-# <a name="legacy-create-and-modify-custom-report-layouts"></a>(Vanha) Raporttien mukautettujen asettelujen luominen ja muokkaaminen
+# (Vanha) Raporttien mukautettujen asettelujen luominen ja muokkaaminen
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -35,7 +29,7 @@ Kun olet määrittänyt mukautettuja raporttiasetteluja, voit valita ne asiakask
 
 Voit myös käyttää mukautettuja raporttiasetteluja lisätäksesi sisältöä sähköpostiviesteihin. Raporttiasettelut voivat säästää aikaa ja auttaa yhdenmukaisuuden varmistamisessa siten, että samaa sisältöä käytetään uudelleen, kun viestit asiakkaidesi kanssa. Jotta voit käyttää mukautettuja raporttiasetteluja sähköpostissa, niiden tiedostotyyppinä on oltava Word. RDLC-tiedostotyyppiä ei voi käyttää. Lisätietoja on kohdassa [Uudelleenkäytettävien sähköpostitekstien ja -asettelujen määrittäminen](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 
-## <a name="create-a-custom-layout"></a>Mukautetun asettelun luominen
+## Mukautetun asettelun luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten vastaava linkki.
 
@@ -60,11 +54,11 @@ Mukautettu asettelu on luotu, ja voit muokata sitä haluamallasi tavalla.
 > [!TIP]
 > Voit viedä raportin tulokset Microsoft Excel -tiedostoon koko tietojoukon tarkastelemista varten, kaikki sarakkeet mukaan lukien, mutta ilman asettelua. Excel-tiedoston avulla voit diagnosoida ongelmia tai tarkistaa, että raportti palauttaa odotetut tiedot. Lisätietoja on kohdassa [Raporttitietojen analysointi Excelillä](report-analyze-excel.md).
 
-## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Mukautetun asettelun muokkaaminen
+## <a name="ModifyCustomLayout"></a>Mukautetun asettelun muokkaaminen
 
 Jos haluat muokata mukautetun raportin asettelua, sinun täytyy ensin viedä raportin asettelu tiedostona sijaintiin tietokoneessasi tai verkossa. Avaa sitten viety asia kirja ja tee muutokset. Kun olet tehnyt haluamasi muutokset, voit tuoda raporttiasettelun.
 
-### <a name="modify-a-custom-layout"></a>Mukautetun asettelun muokkaaminen
+### Mukautetun asettelun muokkaaminen
 
 1. Vie mukautettu asettelu **Mukautetut raporttiasettelut** -sivulla. Jos sivu ei ole vielä avoinna, etsi ja avaa **Raporttiasetteluvalinta**-sivu, valitse raportti, jossa muokattava asettelu on, ja valitse sitten **Mukautetut asettelut** -toiminto.  
 2. Valitse **Mukautetut raporttiasettelut** -sivulla ensin muokattava raportti ja sitten **Vie asettelu** -toiminto. Tallenna raporttiasetteluasiakirja sitten tietokone- tai verkkosijaintiin valitsemalla **Tallenna** tai **Tallenna nimellä**.  
@@ -117,9 +111,9 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 Adding data fields from a report dataset is more advanced and requires some knowledge of the report dataset. Learn more about adding fields for data, labels, and images at [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  
 [Nykyisen raportin asettelun muuttaminen](ui-how-change-layout-currently-used-report.md)  

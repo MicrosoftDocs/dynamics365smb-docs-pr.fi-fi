@@ -1,23 +1,18 @@
 ---
 title: Henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen
-description: Tässä aiheessa kerrotaan, miten henkilötietopyyntöihin vastataan. Tätä kutsutaan tietojen kohteen pyynnöksi.
+description: 'Tässä aiheessa kerrotaan, miten henkilötietopyyntöihin vastataan. Tätä kutsutaan tietojen kohteen pyynnöksi.'
 author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.date: 06/14/2021
 ms.reviewer: na
 ms.topic: conceptual
-ms.openlocfilehash: 8c37617355582748658d20dfac9578bbf4b33d1d
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382123"
 ---
-# <a name="responding-to-requests-about-users-personal-data"></a>Käyttäjien henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen  
+
+# Käyttäjien henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen  
 Tietojen kohteet voivat pyytää erilaisia henkilökohtaisia tietoja koskevia toimintoja. Esimerkiksi yleisen tietosuoja-asetuksen (GDPR) ansiosta, EU-alueella asuvilla on oikeus pyytää henkilökohtaisten tietojensa vientiä, poistamista ja muokkaamista. Tätä kutsutaan *tietojen kohteen pyynnöksi*. Jos olet luokitellut tietojen luottamuksellisuuden ja olet varma, että ne ovat oikein, järjestelmänvalvoja voi vastata pyyntöihin **IT-päällikkö**-roolikeskuksen **Tietosuoja**-välilehden vaihtoehtojen avulla. Lisätietoja tietojen luokittelusta ja tietojen luottamuksellisuuden luokittelusta [!INCLUDE[prod_long](includes/prod_long.md)]ssa on kohdissa [Tietojen luokitteleminen](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) ja [Tietojen luottamuksellisuuden luokitteleminen](admin-classifying-data-sensitivity.md).  
 
-## <a name="types-of-requests"></a>Pyyntöjen tyypit
+## Pyyntöjen tyypit
 
 Seuraavassa taulukossa on esimerkkejä pyyntötyypeistä, joihin voit vastata.
 
@@ -30,10 +25,10 @@ Seuraavassa taulukossa on esimerkkejä pyyntötyypeistä, joihin voit vastata.
 |Poistopyynnöt|Tietojen kohde voi pyytää henkilökohtaisten tietojensa poistamista. Henkilökohtaiset tiedot voi poistaa useilla eri tavoilla mukautusominaisuuksien avulla. Käyttäjän on kuitenkin tehtävä päätös ja toteutus. Joissakin tapauksissa tietoja halutaan muokata suoraan. Esimerkiksi yhteyshenkilö voidaan poistaa ja tämän jälkeen suorittaa Poista peruutettu vuorovaikutus -eräajo yhteyshenkilön vuorovaikutusten poistamiseksi. <br><br> **Huomautus:** Jos **Myyntien ja myyntisaamisten asetukset**- tai **Ostojen ja ostovelkojen asetukset** -sivujen **Salli asiakirjan poisto ennen** -kenttään on määritetty päivämäärä, sitä on ehkä muutettava, jotta tulostetut kirjatut myynti- ja ostoasiakirjat voidaan poistaa, koska niiden kirjauspäivämäärä saattaa olla kyseinen päivämäärä tai sitä aiempi päivämäärä.|
 |Korjauspyynnöt|Tietojen kohde voi pyytää virheellisten henkilökohtaisten tietojen korjaamista. Sen voi tehdä usealla tavalla. Joissakin tapauksissa voit viedä luettelot Exceliin, joukkomuokata useita tietueita nopeasti ja tuoda sitten päivitetyt tiedot. Lisätietoja on kohdassa [Liiketoimintatietojen vieminen Exceliin](about-export-data.md). Voit muokata henkilökohtaisia tietoja sisältäviä kenttiä myös manuaalisesti. Tiedot voivat olla esimerkiksi asiakaskortin asiakasta koskevia tietoja. Tapahtumatietueet, kuten yleiset tapahtumat, asiakastapahtumat ja verotapahtumat, ovat tärkeitä toiminnanohjausjärjestelmän eheyden kannalta. Jos liiketoimintatapahtumatietueisiin tallennetaan henkilökohtaisia tietoja, tietojen muokkaamisessa kannattaa käyttää mukautusominaisuuksia.|
 
-## <a name="restrict-data-processing-for-a-data-subject"></a>Tietojen kohteen tietojen käsittelyn rajoittaminen
+## Tietojen kohteen tietojen käsittelyn rajoittaminen
 Tietojen kohde voi pyytää henkilökohtaisten tietojensa käsittelyn tilapäistä lopettamista. Voit noudattaa pyyntöjä ja merkitä kyseiset tietueet estetyiksi tietosuojan vuoksi. Tällöin tietojen käsittely lopetetaan. Kun tietue on merkitty estetyksi, et voi luoda uusia tapahtumia, joissa kyseinen tietue on käytössä. Et voi esimerkiksi luoda asiakkaalle uutta laskua, jos asiakas tai myyjä on estetty. Voit merkitä tietojen kohteen estetyksi avaamalla tietojen kohteen kortin, esimerkiksi asiakkaan, toimittajan tai yhteyshenkilön kortin, ja valitsemalla **Estetty tietosuojan vuoksi** -valintaruudun. Sinun on ehkä valittava **Näytä lisää**, jotta kenttä näkyy.  
 
-## <a name="handling-data-subject-requests-while-in-trial"></a>Tietojen kohteen pyyntöjen käsittely kokeiluversiossa
+## Tietojen kohteen pyyntöjen käsittely kokeiluversiossa
 Tietyn tyyppiset henkilötiedot ovat osa omaa Microsoft 365 -tiliäsi. Näiden tietojen vieminen vaatii järjestelmänvalvojan oikeudet, jos saat tietojen kohteen pyynnön, joka koskee tämän tyyppisiä henkilökohtaisia tietoja, joihin sovelletaan yleistä tietosuoja-asetusta (GDPR). Tietojen kohteen pyyntöjen käsittelyprosessi on erilainen [!INCLUDE[prod_short](includes/prod_short.md)] -vuokraajan tyypin mukaan.  
 
 Jos sinulla on maksettu [!INCLUDE[prod_short](includes/prod_short.md)] -tilaus, kohdista tietojen kohteen pyyntö organisaatiosi vuokraajien hallinnoijalle. Järjestelmänvalvojalla on järjestelmänvalvojan oikeudet ja työkalut pyynnön täyttämiseksi.  
@@ -44,18 +39,18 @@ Työpaikkojen ja oppilaitosten tietosuoja -sivulla voit myös sulkea tilisi. Kan
 
 Voit edelleen merkitä henkilöitä estetyiksi tietosuojan vuoksi ja viedä, muokata tai poistaa tapahtumia tässä artikkelissa esitetyllä tavalla.  
 
-## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Tietojen vieminen taulukoista, joita ei ole luokiteltu tietojen aiheen mukaan
+## Tietojen vieminen taulukoista, joita ei ole luokiteltu tietojen aiheen mukaan
 Jos vietävänä on tietoja (kuten Profiilin vastaukset -taulukon tiedot), joiden luokittelu ei mahdollista automaattista vientiä, toimi seuraavasti:
 -   Varmista, haluatko viedä nämä lisätiedot tai onko ne pakko viedä, jos tiedot eivä tliity kontaktiin eli tiedoilla ja kontaktilla ei ole suoraa suhdetta
 -   Lisää tämä taulukko ja suhde manuaalisesti RapidStart-pakettiin ja vie ne suoraan RapidStart-paketista. RapidStart-paketti on luotu juuri sitä varten, että voit käyttää sitä tämänkaltaisissa tilanteissa.
 
-## <a name="handling-data-about-minors"></a>Alaikäisiä koskevien tietojen käsitteleminen
+## Alaikäisiä koskevien tietojen käsitteleminen
 Jos yhteyshenkilö on niin nuori, ettei hän voi antaa laillista suostumusta alueen lakien mukaan, voit osoitaa tämän valitsemalla **Yhteyshenkilö**-kortin **Alaikäinen**-valintaruudun. Tällöin **Estetty tietosuojan vuoksi** -valintaruutu valitaan automaattisesti. Kun saat alaikäisen vanhemman tai laillisen huoltajan suostumuksen, voit valita **Vanhemman suostumus vastaanotettu** -valintaruudun, jolloin sisällön esto poistetaan. Voit käsitellä alaikäisten henkilökohtaisia tietoja, mutta et voi käyttää Dynamics 365 Salesin profilointitoimintoja.
 
 > [!Note]
 > Muutoslokiin voidaan tallentaa erilaisia tietoja, kuten esimerkiksi milloin **Vanhemman suostumus vastaanotettu** -valintaruutu valittiin ja kuka sen valitsi. Järjestelmänvalvoja voi määrittää tämän **Muutoslokin asetukset** -ohjeiden avulla ja myös valitsemalla **Yhteyshenkilö**-kortin **Vanhemman suostumus vastaanotettu -kohdan lokimuutos** -valintaruudun. Lisätietoja on kohdassa [Muutosten kirjaaminen lokiin](across-log-changes.md)  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Tietojen luokitteleminen](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json)  
 [Tietojen luottamuksellisuuden luokitteleminen](admin-classifying-data-sensitivity.md)  
 [Liiketoimintatietojen vieminen Exceliin](about-export-data.md)  

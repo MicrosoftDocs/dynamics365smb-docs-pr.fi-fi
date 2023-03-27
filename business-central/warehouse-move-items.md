@@ -1,53 +1,48 @@
 ---
 title: Nimikkeiden siirtäminen
-description: Varaston nimikkeitä pitää joskus siirtää varastopaikasta toiseen päivittäisten varastotapahtumien ja varaston nimikevirran tukemiseksi.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: c74a14711fc6bd682a4a1675925690b7aabdf8d3
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530835"
+description: Tietoja nimikkeiden siirtämisestä varastopaikkojen välillä varastossa.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
+ms.topic: Conceptual
+ms.date: 01/25/2023
+ms.custom: bap-template
+ms.search.form: '7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345'
 ---
-# <a name="moving-items"></a>Nimikkeiden siirtäminen
+# Nimikkeiden siirtäminen
 
-Nimikkeiden siirtäminen fyysisessä varastossa on varastotoiminto, joka suoritetaan eri tavoilla sen mukaan, miten varastoinninhallintajärjestelmän ominaisuudet on määritetty. Määritysten monimutkaisuus voi vaihdella: ominaisuusluettelossa ei ole varastotoimintoja lainkaan, tilauskohtaisessa fyysisen varastoinnin perusmäärityksissä käsittelytoimintoja on vain muutama toiminto, kun laajennetuissa varastomäärityksissä kaikki varastotoiminnot tehdään ohjatun työnkulun mukaisesti. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).
+Nimikeitä voi siirtää varastossa eri tavoin sen mukaan, miten varasto on määritetty. Monimutkaisuudessa on eroja:
 
-Nimikkeitä on ehkä siirrettävä samassa fyysisessä varastosijainnissa varastopaikasta toiseen päivittäisten varastotapahtumien ja varaston nimikevirran tukemiseksi. Jotkut liikkeet tapahtuvat suorassa suhteessa sisäisiin toimintoihin, kuten tuotantotilaus, jonka komponentit täytyy toimittaa tai lopulliset nimikkeet hyllyttää. Muut siirrot tapahtuvat vain fyysisen varastoinnin tilan optimointina tai ad-hoc-siirtoina toimintoihin ja toiminnoista.
+* Pienissä varastoissa voidaan käyttää perusvarastoinnin määrityksiä tilausten käsittelemiseen yksitellen joko yhdessä tai useassa vaiheessa.
+* Suurissa varastoissa voidaan käyttää laajennettuja määrityksiä, joissa ohjattu työnkulku koordinoi kaikkia varastointiaktiviteetteja. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).
 
-Muita siirtotehtäviä ovat poiminnan tai tuotannon varastopaikkojen kausittainen täydennys sekä varastopaikan sisällön muuttaminen.
+Nimikkeitä on ehkä siirrettävä varastopaikkojen välillä esimerkiksi sisäisten toimintojen vuoksi:
 
-Nimikkeiden siirtäminen toiseen sijaintiin vaikuttaa nimiketapahtumiin, joten ne on tehtävä siirtotilauksen avulla. Lisätietoja on kohdassa [Varastonimikkeiden siirtäminen sijantien välillä](inventory-how-transfer-between-locations.md).  
+* Tuotantotilauksessa on toimitettava osia tai sen valmiit nimikkeet on hyllytettävä.
+* Varastopäällikkö haluaa optimoida tilan.
+* Ennakoimattomat siirrot toimintoihin ja toiminnosta
+* Poiminnan varastopaikkojen tai tuotannon varastopaikkojen täydentäminen.
+* Varastopaikan sisällön päivittäminen.
 
-Varastoon liittyvät tehtävät (nimikkeiden inventointi, muuttaminen ja uudelleenluokittelu) voivat koskea varastointitehtäviä, jotka on suoritettava varastotapahtumissa, ennen kuin ne voidaan synkronoida liittyviin nimiketapahtumiin. Lisätietoja on kohdassa [Varaston laskeminen, muuttaminen ja uudelleenluokitus](inventory-how-count-adjust-reclassify.md)  
+Nimikkeiden inventointi, muuttaminen ja uudelleenluokittelu voivat sisältää varastointitehtäviä, jotka on suoritettava varastotapahtumissa, ennen kuin ne voidaan synkronoida nimiketapahtumiin. Lisätietoja on kohdassa [Varaston inventointi, oikaisu ja uudelleenluokittelu](inventory-how-count-adjust-reclassify.md).  
 
- Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.   
+ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkeleihin.
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
+|Nimikkeiden siirtäminen sijaintien välillä|[Varastonimikkeiden siirtäminen sijaintien välillä](inventory-how-transfer-between-locations.md)|
 |Siirrä nimikkeitä perusvaraston määrityksten mukaisten varastopaikkojen välillä milloin tahansa ja ilman lähdeasiakirjoja.|[Nimikkeiden siirtäminen fyysisen varastoinnin perusmäärityksissä](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)|
-|Fyysisen varastoinnin siirtotyökirjan avulla voit siirtää kohteita laajennetuissa varastointimäärityksissä, sekä lähdeasiakiroihin että ad-hoc -raportteihin.|[Nimikkeiden siirtäminen laajennetuissa varastomäärityksissä](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
-|Tuo komponenttinimikkeet sisäisiin toimintoihin varastoinnin määritysten mukaisesti kyseisten toimintojen lähdeasiakirjojen pyytämänä.|[Komponenttien siirtäminen toiminta-alueelle fyysisen varastoinnin perusmäärityksissä](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)|
-|Suunnittele, mitä varastopaikkoja täytetään tai tyhjennetään tehokkaan nimikevirran ylläpitämiseksi (esimerkiksi irtotavaravaraston tyhjentäminen ennen suurta vastaanottoa).|[Fyysisen varaston siirtojen suunnitteleminen työkirjoissa](warehouse-how-to-plan-warehouse-movements-in-worksheets.md)|
-|Päivitä taajuus, jolla varastopaikat (kuten poiminnan varastopaikat) täydennetään kysynnän vaihtelun seurauksena.|[Laske var.paikan täydennys](warehouse-how-to-calculate-bin-replenishment.md)|
+|Fyysisen varastoinnin siirtotyökirjan sekä sisäisen poiminnan ja hyllytyksen avulla voidaan siirtää nimikkeitä laajennetuissa varastointimäärityksissä ohjatun poiminnan ja hyllytyksen avulla.|[Nimikkeiden siirtäminen laajennetuissa varastomäärityksissä](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Järjestä fyysinen varasto uudelleen uusilla varastopaikan koodeilla ja uusilla varastopaikan ominaispiirteillä sekä mahdollisesti vaihtamalla niiden paikkaa.|[Fyysisten varastojen uudelleenjärjestely](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-internal-warehouse-processes/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-internal-warehouse-processes/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
-[Varastoinninhallinta](warehouse-manage-warehouse.md)  
+[Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  
-[Kokoonpanon hallinta](assembly-assemble-items.md)  
-[Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

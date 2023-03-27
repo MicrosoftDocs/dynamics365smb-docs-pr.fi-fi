@@ -5,26 +5,21 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 1378449eccd83d89ff3df1889df469e4a27a6745
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534451"
 ---
-# <a name="business-decision-makers-learning-catalog"></a>Liiketoiminnan päätöksentekijöiden opintoluettelo
+
+# Liiketoiminnan päätöksentekijöiden opintoluettelo
 
 Päätätkö sinä investoidaanko uusiin teknologioihin?
 
 Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja perustiedoista kaikkein kehittyneimpiin. Jos sisältöä on useissa muodoissa, ilmoitamme siitä sinulle, jotta voit valita tarpeitasi parhaiten vastaavan koulutusmuodon.  
 
-## <a name="business-value"></a>Liiketoiminta-arvo<a name="busvalue"></a>
+## Liiketoiminta-arvo<a name="busvalue"></a>
 
 | Sisältö                                                                 | Kuvaus                                                                                                | Muoto                                | Pituus     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | Tämä moduuli näyttää sovelluksen ominaisuudet, hyödyt ja esimerkit Dynamics 365 Business Centralista käytännössä. | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 24 minuuttia |
 
-## <a name="getting-started"></a>Käytön aloittaminen<a name="get-started"></a>
+## Käytön aloittaminen<a name="get-started"></a>
 
 | Sisältö                                                                                                                             | Kuvaus                                                                                                                                                                                                                                                                                      | Muoto                                | Pituus             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|

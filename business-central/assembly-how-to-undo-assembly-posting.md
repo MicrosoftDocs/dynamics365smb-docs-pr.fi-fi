@@ -1,69 +1,64 @@
 ---
 title: Kokoonpanon kirjauksen kumoaminen
-description: Joskus täytyy kumota kirjattu kokoonpanotilaus esimerkiksi siksi, että kirjatussa tilauksessa on virheitä, jotka on korjattava.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: kit, kitting
-ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: 8a3588e83ad0a75c4ac9167329659b25ed52320e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606330"
+description: Tietoja kirjatussa kokoonpanotilauksissa olevien virheiden korjaamisesta.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 02/21/2023
+ms.custom: bap-template
+ms.search.keywords: 'kit, kitting'
+ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="undo-assembly-posting"></a>Kokoonpanon kirjauksen kumoaminen
+# Kokoonpanon kirjauksen kumoaminen
 
-Voit joutua joskus kumoamaan kirjatun kokoonpanotilauksen, jos esimerkiksi tilaukseen kirjattiin virheitä, jotka on korjattava, tai jos kyseistä kirjausta ei olisi pitänyt tehdä lainkaan ja se on palautettava.
+Korjaa virhe kumoamalla kokoonpanotilauksen kirjaus tai poista ei-toivottu kirjaus.
 
-Kun kumoat kirjatun kokoonpanotilauksen, joukko korjaavia nimiketapahtumia luodaan alkuperäisten tapahtumien palauttamiseksi. Kokoonpanonimikkeen kukin positiivinen kulutustapahtuma kumotaan negatiivisella kulutustapahtumalla. Kokoonpano-osan kukin negatiivinen kulutustapahtuma kumotaan positiivisella kulutustapahtumalla. Kiinteiden kustannusten kohdistaminen luodaan korjaavien ja alkuperäisten tapahtumien välille automaattisesti. Näin varmistetaan todellisten kustannusten peruuttaminen.  
+Kirjattua kokoonpanotilausta kumotessa alkuperäisille nimiketapahtumille luodaan korjaavat vastakirjaukset. Kokoonpanonimikkeen kukin positiivinen kulutustapahtuma kumotaan negatiivisella kulutustapahtumalla. Kokoonpano-osan kukin negatiivinen kulutustapahtuma kumotaan positiivisella kulutustapahtumalla. Kiinteiden kustannusten kohdistaminen luodaan korjaavien ja alkuperäisten tapahtumien välille automaattisesti. Näin varmistetaan todellisten kustannusten peruuttaminen.  
 
-Kun kumoat täysin kirjatun kokoonpanotilauksen, voit valita kokoonpanotilauksen uudelleen luomisen sen alkuperäisessä tilassa, esimerkiksi korjausten tekemiseksi ennen uudelleenkirjausta. Vaihtoehtoisesti voit olla luomatta uudelleen kokoonpanotilausta.  
+Täysin kirjattua kokoonpanotilausta kumottaessa alkuperäinen tilaus voidaan luoda uudelleen. Tällä tavoin korjaukset voidaan sitten tehdä, ennen kuin se kirjataan uudelleen.  
 
-Kun kumoat osittain kirjatun kokoonpanojärjestyksen, kaikki vaikutetut määrä-kentät, kuten **Kokoonpantu määrä**, **Kulutettu määrä** ja **Jäljellä oleva määrä** -kentät palautetaan arvoihin, jotka niissä oli ennen kyseistä kirjausta.  
+Osittain kirjattua kokoonpanotilausta kumottaessa kaikki määräkentät, kuten **Kokoonpantu määrä**, **Kulutettu määrä** ja **Jäljellä oleva määrä**, palautetaan arvoihin, jotka niissä oli ennen kirjausta.  
 
-Kokoonpanotilausten uudelleen luomiseksi tai palauttamiseksi seuraavia edellytyksiä tulee soveltaa kokoonpanon nimikkeeseen, joka oli alkuperäisen kirjauksen tuloste:  
+Kokoonpanotilausten luominen uudelleen tai niiden palauttaminen edellyttää, että alkuperäisen kirjauksen nimike täyttää seuraavat ehdot:  
 
--   Sen on oltava vielä varastossa, eli se ei saa olla myyty eikä muuten kulutettu lähtevissä tapahtumissa.  
--   Se ei saa olla varattu.  
--   Se on oltava varastopaikassa, johon se on alun perin sijoitettu.  
+* Nimike on edelleen varastossa. Sitä ei siis saa olla myyty eikä muuten kulutettu lähtevissä tapahtumissa.  
+* Nimikettä ei ole varattu.  
+* Se on varastopaikassa, johon se on alun perin asetettiin.  
 
-Lisäksi olemassa olevia kokoonpanotilauksista voi palauttaa vain, jos alkuperäisen kokoonpanotilauksen rivien määrää ja järjestystä ei ole muutettu.  
+Kokoonpanotilaukset voidaan palauttaa vain, jos alkuperäisen kokoonpanotilauksen rivien määrää ja järjestystä ei ole muutettu.  
 
 > [!TIP]  
->  Ratkaistaksesi ristiriitoja rivimuutosten vuoksi, voit palauttaa manuaalisesti kyseiset rivimuutokset kumoamalla liittyvät kirjatut kokoonpanotilaukset. Voit myös kirjata kokoonpanotilauksen täysin ja valita sen sitten luodaksesi sen uudelleen, kun  kumoat kirjauksen.  
+> Riveillä tapahtuneiden muutosten aiheuttamat ristiriidat ratkaistaan palauttamalla kyseiset rivimuutokset manuaalisesti ennen kirjatun kokoonpanotilauksen kumoamista. Kokoonpanotilaus voidaan kirjata ja luoda se sitten uudelleen, kun kirjaus kumotaan.  
 
-Seuraavassa ohjeessa neuvotaan, miten perutaan jo kirjattuja kokoonpanotilauksia, joiden nimikkeet on koottu varastoon. Jos haluat peruuttaa kirjatut kokoonpanotilaukset, joissa nimikkeet on koottu myyntitilausta varten, käytä kirjatun toimituksen **Peruuta toimitus** -funktiota kirjatun kokoonpanotilauksen vapauttamiseksi. Lisätietoja on kohdassa [Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md). Kirjatun kokoonpanotilauksen peruuttaminen tapahtuu sitten automaattisesti samalla tavalla, kuin tässä ohjeaiheessa on kuvattu.  
+Seuraavassa ohjeessa neuvotaan, miten kumotaan varastoon kokoonpantuja nimikkeitä sisältävät kirjatut kokoonpanotilaukset. Jos kumottavissa kirjatuissa kokoonpanotilauksissa on tilausta varten kokoonpantuja nimikkeitä, liittyvissä kirjatussa toimituksessa käytetään **Peruuta toimitus** -toimintoa. Lisätietoja toimitusten peruuttamisesta on kohdassa [Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md). Kirjattu kokoonpanotilaus kumotaan siten tässä artikkelissa kuvatulla tavalla.  
 
-## <a name="to-undo-posting-of-an-assembly-order"></a>Kumoa kokoonpanotilauksen kirjaus
+## Kumoa kokoonpanotilauksen kirjaus
 
-1.  Jos haluat kumota kokonaan tai osittain kirjatun kokoonpanotilauksen, valitse ![Kerro-ominaisuuden avaava hehkulamppu.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut kokoonpanotilaukset** ja valitse sitten vastaava linkki.  
+Kokonaan tai osittain kirjatut kokoonpanotilaukset voidaan kumota.
 
-    Avautuvassa **Kirjatut kokoonpanotilaukset** -sivulla esitetään yksi tai useampi kirjattu kokoonpanotilaus, joka on kirjattu kyseisestä kokoonpanotilauksesta. Jokainen osittainen kirjaus luo erillisen kirjatun kokoonpanotilauksen.  
-2.  Avaa kumottava kirjattu kokoonpanotilaus ja valitse sitten **Kumoa kokoonpano** -toiminto.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut kokoonpanotilaukset** ja valitse sitten vastaava linkki.  
 
-    Jos kirjattu kokoonpanotilaus, jonka haluat kumota, liittyy kokonaan kirjattuun poistettuun kokoonpanotilaukseen, voit luoda sen uudelleen uudelleenkäsittelyä varten.  
-3.  Jos haluat luoda kokoonpanotilauksen uudelleen, valitse **Kyllä**-painike. Kumoa kirjaus luomatta uudestaan liittyvää kokoonpanotilausta valitsemalla **ei** -painike.  
+   Jokainen osittainen kirjaus luo erillisen kirjatun kokoonpanotilauksen.  
+2. Avaa kumottava kirjattu kokoonpanotilaus ja valitse sitten **Kumoa kokoonpano** -toiminto.  
 
-Kokoonpanotilauksen **Peruutettu**-otsikkokentän arvoksi tulee **Kyllä**. Kokoonpanotilauksen kirjaus on nyt palautettu, voit jatkaa koko tilauksen käsittelyä jos loit sen uudelleen, tai avata alkuperäiseen tilaan palautetun tilauksen.  
+    Jos kirjattu kokoonpanotilaus liittyy poistettuun, täysin kirjattuun kokoonpanotilaukseen, tilaus voidaan ensin luoda uudelleen ja sitten poistaa. Tilaus saatetaan luoda uudelleen esimerkiksi siksi, että se halutaan käsitellä uudelleen.  
+3. Kokoonpanotilaus luodaan uudelleen valitsemalla **Kyllä**. Kirjaus kumotaan luomatta kokoonpanotilausta uudelleen valitsemalla **Ei**.  
+
+Kokoonpanotilauksen **Peruutettu**-otsikkokentän arvoksi muuttuu **Kyllä**. Kokoonpanotilauksen kirjaus on nyt peruutettu. Jos kokoonpanotilaus päätetään luoda uudelleen, koko tilaus voidaan käsitellä. Vaihtoehtoisesti alkuperäiseen tilaan palautettu kokoonpanotilaus voidaan avata.  
 
 > [!NOTE]  
->  Palauttaaksesi määrät kokoonpanotilauksen useista osittaisista kirjauksista sinun täytyy kumota kaikki kyseessä olevat kirjatut kokoonpanotilaukset seuraamalla vaiheita 1-3 kunkin kirjatun kokoonpanotilauksen yläpuolella.  
+> Jos määrät halutaan palauttaa kokoonpanotilauksessa, jossa on tehty useita osittaisia kirjauksia, kaikki kirjatut kokoonpanotilaukset on kumottava vaiheiden 1–3 mukaisesti.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md)  
 [Myynnin palautusten tai peruutusten käsittely](sales-how-process-sales-returns-cancellations.md)  
 [Kokoonpanon tuoterakenteiden käyttäminen](assembly-how-work-assembly-boms.md)  
 [Varasto](inventory-manage-inventory.md)  
-[Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
-[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Varastonhallinnan yleiskatsaus](design-details-warehouse-management.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

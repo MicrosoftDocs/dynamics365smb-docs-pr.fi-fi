@@ -1,23 +1,17 @@
 ---
 title: Asiakasmaksujen ottaminen käyttöön maksupalvelujen kautta
-description: Kun otat asiakkaiden maksuille maksupalvelut käyttöön, asiakkaiden on helpompi maksaa laskunsa.
+description: 'Kun otat asiakkaiden maksuille maksupalvelut käyttöön, asiakkaiden on helpompi maksaa laskunsa.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online payment
-ms.search.forms: 1060, 1061, 1062
+ms.search.forms: '1060, 1061, 1062'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 5b2ae63fea8f6ad477478eff6d876a0779d165ee
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530511"
 ---
-# <a name="enable-customer-payments-through-payment-services"></a>Asiakasmaksujen ottaminen käyttöön maksupalvelujen kautta
+# Asiakasmaksujen ottaminen käyttöön maksupalvelujen kautta
 
 Pankkisiirron tai luottokorttien lisäksi asiakkaat voivat maksaa sinulle maksupalvelutilin, kuten PayPalin tai WorldPayn, avulla.  
 
@@ -25,7 +19,7 @@ Kun olet ottanut maksupalvelun käyttöön [!INCLUDE[prod_short](includes/prod_s
 
 PayPal Payments Standard- ja WorldPay Payments Standard -laajennukset ovat asennettuina [!INCLUDE[prod_short](includes/prod_short.md)]iin, ja ne ovat valiina otettaviksi käyttöön.  
 
-## <a name="to-enable-a-payment-service-in-prod_short"></a>Maksupalvelun ottaminen käyttöön [!INCLUDE[prod_short](includes/prod_short.md)]issa
+## Maksupalvelun ottaminen käyttöön [!INCLUDE[prod_short](includes/prod_short.md)]issa
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupalvelut** ja valitse sitten vastaava linkki.  
 2. Valitse **Maksupalvelut**-sivulla **Uusi**-toiminto.  
@@ -34,7 +28,7 @@ PayPal Payments Standard- ja WorldPay Payments Standard -laajennukset ovat asenn
 5. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 6. Sulje sivu.  
 
-## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Maksupalvelun valitseminen myyntilaskussa
+## Maksupalvelun valitseminen myyntilaskussa
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntilaskut** ja valitse sitten vastaava linkki.  
 2. Avaa myyntilasku, jonka haluat maksaa maksupalvelun avulla.  
@@ -43,9 +37,9 @@ PayPal Payments Standard- ja WorldPay Payments Standard -laajennukset ovat asenn
     > [!NOTE]  
     > **Maksupalvelu**-kenttä on käytettävissä vain, jos olet ottanut maksupalvelun käyttöön.  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/cash-management-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/cash-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Myynti](sales-manage-sales.md)  

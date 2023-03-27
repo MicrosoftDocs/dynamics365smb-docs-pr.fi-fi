@@ -1,22 +1,16 @@
 ---
 title: Rakennetiedot – Arvostusmenetelmät
-description: Tässä aiheessa käsitellään arvostusmenetelmän vaikutusta siihen, miten todelliset ja budjetoidut arvot siirretään pääomaan ja käytetään kustannuslaskennassa.
+description: 'Tässä aiheessa käsitellään arvostusmenetelmän vaikutusta siihen, miten todelliset ja budjetoidut arvot siirretään pääomaan ja käytetään kustannuslaskennassa.'
 author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2bf45ab89aaeb9aa9560fd1e1d9ff94bf47cc453
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519802"
 ---
-# <a name="design-details-costing-methods"></a>Rakennetiedot: arvostusmenetelmät
+# Rakennetiedot: arvostusmenetelmät
 
 Arvostusmenetelmä määrittää, siirretäänkö todellinen tai budjetoitu arvo pääomaan ja käytetäänkö sitä kustannuslaskennassa. Kirjauspäivämäärän ja järjestyksen kanssa arvostusmenetelmä vaikuttaa myös siihen, miten kustannusvirta tallennetaan.
 
@@ -46,7 +40,7 @@ Arvostusmenetelmät eroavat siinä, miten ne arvostavat varaston vähennyksiä, 
 |Uudelleenarvostus|Uudelleen arvostaa vain laskutetut määrät.<br /><br /> Voidaan suorittaa nimikekohtaisesti tai tapahtumakohtaisesti.<br /><br /> Voidaan suorittaa ajassa taaksepäin.|Uudelleen arvostaa vain laskutetut määrät.<br /><br /> Voidaan suorittaa vain nimikettä kohden.<br /><br /> Voidaan suorittaa ajassa taaksepäin.|Uudelleen arvostaa laskutetut ja laskuttamattomat määrät.<br /><br /> Voidaan suorittaa nimikekohtaisesti tai tapahtumakohtaisesti.<br /><br /> Voidaan suorittaa ajassa taaksepäin.|Uudelleen arvostaa vain laskutetut määrät.<br /><br /> Voidaan suorittaa nimikekohtaisesti tai tapahtumakohtaisesti.<br /><br /> Voidaan suorittaa ajassa taaksepäin.|  
 |Sekalaista|Jos asetat varaston arvon vähennyksen takautuvasti, olemassa olevia tapahtumia EI kohdisteta uudelleen oikean FIFO-kustannusvirran luomiseksi.|Jos asetat varaston arvon nousun tai vähennyksen takautuvasti, keskimääräinen kustannus lasketaan uudelleen ja kaikki liittyvät tapahtumat oikaistaan.<br /><br /> Jos vaihdat jaksoa tai laskentatyyppiä, kaikkia liittyviä tapahtumia on muutettava.|Voit päivittää ja vyöryttää vakiokustannukset säännöllisesti **Vakiotyökirja**-sivun avulla.<br /><br /> EI tueta varastoyksikkökohtaisesti.<br /><br /> Historiallisia tietueita ei ole olemassa standardikustannuksille.|Voit käyttää tietyn nimikkeen seurantaa ilman Spesifinen-arvostusmenetelmän käyttöä. Kustannukset eivät seuraa eränumeroa, vaan valitun arvostusmenetelmän kustannusten oletusta.|  
 
-## <a name="example"></a>Esimerkki
+## Esimerkki
 
 Tässä osassa on esimerkkejä siitä, miten erilaiset arvostusmenetelmät vaikuttavat varaston arvoon.  
 
@@ -64,19 +58,19 @@ Seuraavassa taulukossa esitetään varaston kasvut ja vähennykset, joihin esime
 > [!NOTE]  
 > Tästä seuraava määrä varastossa on nolla. Näin ollen myös varastoarvon on oltava nolla arvostusmenetelmästä riippumatta.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Arvostusmenetelmien vaikutus arvostetussa varastossa kasvaa  
+### Arvostusmenetelmien vaikutus arvostetussa varastossa kasvaa  
 
 Niiden nimikkeiden kohdalla, jotka käyttävät todelliseen kustannukseen pohjautuvaa arvostusmenetelmää (**FIFO**, **LIFO**, **Keskimääräinen** tai **Spesifinen**), varaston arvon nousut arvostetaan nimikkeen hankintamenon mukaan.  
 
 - **Vakio**  
 
-    **Vakio** arvostusmenetelmää käyttävien nimikkeiden kohdalla varastoarvon nousut arvostetaan nimikkeen nykyisellä vakiokustannuksella.  
+    **Vakio**arvostusmenetelmää käyttävien nimikkeiden kohdalla varastoarvon nousut arvostetaan nimikkeen nykyisellä vakiokustannuksella.  
 
-#### <a name="standard"></a>Vakio  
+#### Vakio  
 
 **Vakio**-arvostusmenetelmää käyttävien nimikkeiden kohdalla varastoarvon nousut arvostetaan nimikkeen nykyisellä vakiokustannuksella.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Arvostusmenetelmien vaikutus arvostetussa varastossa laskee
+### Arvostusmenetelmien vaikutus arvostetussa varastossa laskee
 
 - **FIFO**  
 
@@ -144,7 +138,7 @@ Niiden nimikkeiden kohdalla, jotka käyttävät todelliseen kustannukseen pohjau
     |03-01-20|-1|-10.00|**1**|5|  
     |04-01-20|-1|-30.00|**3**|6|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
  [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)   
  [Rakennetiedot: varianssi](design-details-variance.md)   

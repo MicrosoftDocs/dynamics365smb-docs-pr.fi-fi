@@ -1,22 +1,16 @@
 ---
 title: 'Parhaiden käytäntöjen määrittäminen: Uusintatilaustavat | Microsoft Docs'
-description: Uusintatilaustapa-kenttä nimikekorteissa antaa neljä eri suunnittelumetodia, jotka määrittävät, kuinka yksittäiset suunnitteluparametrit käyttäytyvät.
+description: 'Uusintatilaustapa-kenttä nimikekorteissa antaa neljä eri suunnittelumetodia, jotka määrittävät, kuinka yksittäiset suunnitteluparametrit käyttäytyvät.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f12a5156cbad785ccede27bbe176b7e3ccd74d9c
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531051"
 ---
-# <a name="setup-best-practices-reordering-policies"></a>Asetukset - parhaat käytännöt: uusintatilaustavat
+# Asetukset - parhaat käytännöt: uusintatilaustavat
 
 **Uusintatilaustapa**-kenttä nimikekorteissa antaa neljä eri suunnittelumetodia, jotka määrittävät, kuinka yksittäiset suunnitteluparametrit käyttäytyvät.  
 
@@ -41,9 +35,9 @@ Seuraava taulukko sisältää parhaat käytännöt neljästä tavasta valitsemis
 |**Kiinteä uusintatil. määrä**|Käytä C-nimikkeisiin.<br /><br /> Yhdistä uusintatilauspisteparametrien kanssa.<br /><br /> Käytä tuotannon alimman tason komponenteissa.<br /><br /> Älä käytä, jos nimike on usein varattu.|C-nimikkeet, kuten teekupit, ovat vähäsen arvon nimikkeitä, jolla on suuri ja säännöllinen tilausnopeus. Paras uusintatilaustapa C-nimikkeille on siis sellainen, joka varmistaa jatkuvan saatavuuden pysymällä aina uusintatilauspisteen yläpuolella.<br /><br /> Jos käyttäjä varaa määrää kaukaista kysyntää varten, suunnittelun perusta häiriintyy. Vaikka oletettu varastotaso on hyväksyttävä suhteessa uusintatilauspisteeseen, määrät eivät ehkä ole käytettävissä varauksen vuoksi.|  
 |**Enimmäismäärä**|Käytä C-nimikkeisiin, joissa on korkeat ylläpitokustannukset tai tallennusrajoitukset.<br /><br /> Yhdistä yksi tai useampi tilauksen valitsin (minimi/maksimi tilausmäärä tai monitilaus).|C-nimikkeet, kuten teekupit, ovat vähäsen arvon nimikkeitä, jolla on suuri ja säännöllinen tilausnopeus. Paras uusintatilaustapa C-nimikkeille on siis sellainen, joka varmistaa jatkuvan saatavuuden pysymällä aina uusintatilauspisteen yläpuolella, mutta varaston enimmäiskapasiteetin alapuolella.<br /><br /> Kun muutat ehdotettua järjestyä, haluat ehkä laskea tilausmäärää määritettyyn enimmäistilausmäärään tai nostaa määritettyyn minimitilausmäärään tai pyöristää vastaamaan määritettyä tilauskerrannaista. **Huomautus:**  Jos tätä käytetään uusintatilauspisteen kanssa, varaston määrä pysyy uusintatilauspisteen määrän ja enimmäismäärän välillä.|  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/replenish-items-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/replenish-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
  [Parhaiden käytäntöjen määrittäminen: Toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
  [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)  

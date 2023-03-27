@@ -1,26 +1,20 @@
 ---
 title: Palvelun sertifioinnit
-description: Tämä sisältö sisältää tietoja Business Centraliin liittyvistä sertifikaateista, kuten aluekohtaisista sertifikaateista ja akkreditoinneista.
+description: 'Tämä sisältö sisältää tietoja Business Centraliin liittyvistä sertifikaateista, kuten aluekohtaisista sertifikaateista ja akkreditoinneista.'
 author: sorenfriisalexandersen
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 643d8cbfcc4a17db468263aee72a12cb1237201c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146850"
 ---
-# <a name="certifications"></a>Sertifikaatit
+# Sertifikaatit
 
 Tässä sisällössä on tietoja [!INCLUDE[prod_short](../includes/prod_short.md)]iin liittyvistä varmenteista.  
 
-## <a name="countryregion-specific-certifications-and-accreditations"></a>Maa tai aluekohtaiset sertifioinnit ja akkreditoinnit
+## Maa tai aluekohtaiset sertifioinnit ja akkreditoinnit
 
 Joissakin maissa tai alueilla kirjanpito-ohjelmiston on sertifioitava paikallisia verosäädöksiä ja taloushallintovaatimuksia noudattavaksi. Joissakin maissa se on tehtävä vuosittain, kun taas toisissa riittää, että se tehdään kerran. Seuraavassa luettelossa on mainittu maat ja alueet, joissa Business Centralilla on kyseiset sertifioinnit.
 
@@ -33,11 +27,11 @@ Joissakin maissa tai alueilla kirjanpito-ohjelmiston on sertifioitava paikallisi
 > [!NOTE]  
 > Maissa tai alueilla, joissa Microsoft ei julkaise paikallista versiota, yleensä kumppanit hankkivat Business Centralin perustuotteen sertifioinnin sekä sen lisäksi kumppanin lokalisoinnin ja säädösten mukaiset ominaisuudet.
 
-## <a name="other-certifications"></a>Muut sertifioinnit
+## Muut sertifioinnit
 
 Business Central on lisäksi saanut pilvipalveluna esimerkiksi ISO 27001 -standardin kaltaisia sertifiointeja. Täydellinen sertifiointiluettelo on [tällä sivulla (PDF)](https://aka.ms/d365-compliance-list).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Yhteensopivuus](compliance-overview.md)  
 [Sovelluksen yhteensopivuus](compliance-application-compliance.md)  

@@ -1,22 +1,16 @@
 ---
 title: Ennakkomaksujen laskutus
-description: Tietoja siitä, miten ennakkomaksutoimintojen avulla voit laskuttaa ja kerätä asiakkailta talletuksia tai suorittaa talletuksia toimittajille Business Centralissa.
+description: 'Tietoja siitä, miten ennakkomaksutoimintojen avulla voit laskuttaa ja kerätä asiakkailta talletuksia tai suorittaa talletuksia toimittajille Business Centralissa.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 42, 42, 48, 50, 52, 9305, 9307
+ms.search.form: '42, 42, 48, 50, 52, 9305, 9307'
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: c39d5e0462c9fb4563e9f481256c916f0b9c397e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535207"
 ---
-# <a name="invoicing-prepayments"></a>Ennakkomaksujen laskuttaminen
+# Ennakkomaksujen laskuttaminen
 
 [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -35,9 +29,9 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Tilauksen luominen, ennakkomaksusummien muuttaminen ja ennakkomaksusummien mukaisen laskun lähettäminen.|[Ennakkomaksulaskujen luominen](finance-how-to-create-prepayment-invoices.md)|  
 |Lisäennakkomaksulaskun lähettäminen joko lisänimikkeiden tai alkuperäiseen tilaukseen kuulumattoman lisätalletuksen vuoksi tai ennakkomaksun hyvityslaskun lähettäminen.|[Ennakkomaksujen korjaaminen](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Rahoitus](finance.md)  

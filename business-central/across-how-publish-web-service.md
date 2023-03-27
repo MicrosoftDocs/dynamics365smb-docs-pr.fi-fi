@@ -1,29 +1,23 @@
 ---
 title: Objektien näyttäminen verkkopalveluina
-description: Julkaise objektit verkkopalveluina, jolloin niitä voi käyttää heti Business Central -ratkaisussa.
+description: 'Julkaise objektit verkkopalveluina, jolloin niitä voi käyttää heti Business Central -ratkaisussa.'
 author: edupont04
 ms.topic: conceptual
 ms.search.form: 810
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: efa143d439a2f172ca3705d2c14d0fdc968b6a40
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129257"
 ---
-# <a name="publish-a-web-service"></a>Verkkopalvelun julkaiseminen
+# Verkkopalvelun julkaiseminen
 
 Verkkopalvelut ovat kevyt tapa tuoda sovelluksen toiminnallisuus erilaisten ulkoisten järjestelmien ja käyttäjien saataville. Oletusarvoisesti [!INCLUDE[prod_short](includes/prod_short.md)] näyttää useita objekteja verkkopalveluina, että ne voidaan paremmin integroida muihin Microsoft-palveluihin. Voit lisätä muita verkkopalveluita yrityksesi tarpeiden mukaan.  
 
 Määritä verkkopalvelu [!INCLUDE[prod_short](includes/prod_short.md)] -sivustossa ja julkaise verkkopalvelu siten, että se on todennettujen käyttäjien käytettävissä. Kaikki valtuutetut käyttäjät voivat käyttää verkkopalveluiden metatietoja, mutta vain käyttäjät, joilla on riittävät oikeudet, voivat käyttää varsinaisia tietoja.  
 
-## <a name="creating-and-publishing-a-web-service"></a>Verkkopalvelun luominen ja julkaiseminen
+## Verkkopalvelun luominen ja julkaiseminen
 
 Seuraavassa kerrotaan, kuinka voit luoda ja julkaista verkkopalvelun.  
 
-### <a name="to-create-and-publish-a-web-service"></a>Verkkopalvelun luominen ja julkaiseminen  
+### Verkkopalvelun luominen ja julkaiseminen  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Verkkopalvelut** ja valitse sitten vastaava linkki.  
 2. Valitse **Verkkopalvelut**-sivulla **Uusi**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -43,7 +37,7 @@ Voit testata verkkopalvelua heti valitsemalla linkit **ODatan URL-osoite** - ja 
 
 Verkkopalveluna julkaistu palvelu on ulkoisten osapuolien käytettävissä. Voit tarkistaa kyseisen verkkopalvelun saatavuuden selaimen avulla tai valitsemalla linkin **ODatan URL-osoite** - ja **SOAP:n URL-osoite** -kentissä **Verkkopalvelut**-sivulla. Seuraavassa on kuvattu, miten voit tarkistaa verkkopalvelun käytettävyyden myöhempää käyttöä varten.  
 
-### <a name="to-verify-the-availability-of-a-web-service"></a>Verkkopalvelun saatavuuden tarkistaminen  
+### Verkkopalvelun saatavuuden tarkistaminen  
 
 1. Kirjoita selaimeen asianmukainen URL-osoite. Seuraavassa taulukossa on kuvattu URL-osoitteiden tyypit, jotka voi antaa erilaisille verkkopalvelutyypeille.  
 
@@ -65,7 +59,7 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Company('CRONUS Internationa
 https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS International Ltd.'  
 ```
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Hallinta](admin-setup-and-administration.md)  
 [Kehittäjien Business Central -verkkopalvelut](/dynamics365/business-central/dev-itpro/webservices/web-services)  

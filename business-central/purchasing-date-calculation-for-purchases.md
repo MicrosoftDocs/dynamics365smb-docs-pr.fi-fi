@@ -1,23 +1,17 @@
 ---
 title: Ostojen päivämäärien laskeminen
-description: Tässä artikkelissa kuvataan, miten ostoille voi laskea päivämäärät.
+description: 'Tässä artikkelissa kuvataan, miten ostoille voi laskea päivämäärät.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
-ms.search.forms: ''
+ms.search.keywords: 'purchase order, purchase, date, receipt, delivery, lead time'
+ms.search.forms: null
 ms.date: 10/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: 54d3ce9c571973482fe1ba0fdb8cad76a87752c2
-ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "9744948"
 ---
-# <a name="calculate-dates-for-purchases"></a>Ostojen päivämäärien laskeminen
+# Ostojen päivämäärien laskeminen
 
 Jos haluat, että nimikkeitä on varastossa tiettynä päivänä, [!INCLUDE[prod_short](includes/prod_short.md)] voi automaattisesti laskea päivämäärän, jona sinun on tilattava ne. 
 
@@ -32,7 +26,7 @@ Vastaanottopäivä on myös se päivämäärä, jona nimikkeet ovat poimittaviss
 > [!TIP]
 > Monet tässä artikkelissa mainitut päivämääräkentät ovat oletusarvoisesti piilotettuna ostotilausriveillä. Jos kenttä ei ole käytettävissä, voit lisätä sen mukauttamalla sivua. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
-## <a name="calculating-with-a-requested-receipt-date"></a>Laskeminen pyydetyn vastaanottopäivämäärän avulla
+## Laskeminen pyydetyn vastaanottopäivämäärän avulla
 
 Jos ostotilausrivillä on pyydetty vastaanottopäivämäärä, se on perustana seuraaville laskennoille:  
 
@@ -44,7 +38,7 @@ Jos määrität pyydetyn vastaanottopäivämäärän ostotilausrivillä, kyseine
 > [!NOTE]
 > Jos prosessi perustuu taaksepäin laskentaan ja esimerkiksi tilauspäivä saadaan käyttämällä pyydettyä vastaanottopäivää, on suositeltavaa käyttää päivämääräkaavoja, joiden kesto on kiinteä. Sellainen on esimerkiksi 5P viidelle päivälle tai 1V yhdelle viikolle. Päivämääräkaava, jonka kesto ei ole kiinteä, kuten KV kuluvalle viikolle tai KK kuluvalle kuukaudelle, voi aiheuttaa virheellisiä päivämäärälaskelmia. Lisätietoja päivämääräkaavoista on kohdassa [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md).
 
-## <a name="calculating-without-a-requested-receipt-date"></a>Laskeminen ilman pyydettyä vastaanottopäivämäärää
+## Laskeminen ilman pyydettyä vastaanottopäivämäärää
 
 Jos lisäät ostotilausrivin ilman pyydettyä vastaanottopäivämäärää, ohjelma näyttää rivin **Tilauspvm**-kentässä ostotilauksen tunnistetietojen **Tilauspvm**-kentän päivämäärän. Tämä päivämäärä on joko lisäämäsi päivämäärä tai käsittelypäivämäärä. Ohjelma laskee sen jälkeen päivämäärät ostotilausriville käyttäen tilauspäivämäärää lähtökohtana seuraavasti:  
 
@@ -53,7 +47,7 @@ Jos lisäät ostotilausrivin ilman pyydettyä vastaanottopäivämäärää, ohje
 
 Jos muutat rivin tilauspäivämäärää, [!INCLUDE[prod_short](includes/prod_short.md)] laskee muut päivämäärät uudelleen.  
 
-## <a name="default-values-for-lead-time-calculation"></a>Toimitusajan laskennan oletusarvot
+## Toimitusajan laskennan oletusarvot
 
 [!INCLUDE[prod_short](includes/prod_short.md)] laskee tilauksen ja oletetut vastaanottopäivämäärät käyttäen ostotilausrivin **Toimitusajan laskenta** -kentän päivämääräkaavaa.  
 
@@ -64,9 +58,9 @@ Voit määrittää rivien päivämääräkaavan manuaalisesti. Muussa tapauksess
 3. Varastointiyksikön kortti
 4. Toimittajan kortti
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Myynnin päivämäärälaskenta](sales-date-calculation-for-sales.md)  
 [Toimituksen lupaamisen päivämäärien laskeminen](sales-how-to-calculate-order-promising-dates.md)  

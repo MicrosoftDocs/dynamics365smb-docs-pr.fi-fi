@@ -1,6 +1,6 @@
 ---
 title: Asiakas- tai toimittajatietueiden kaksoiskappaleiden yhdistäminen
-description: Kuvaa, miten asiakkaiden tai toimittajien tietoja kootaan yhteen, kun joistakin niistä on kaksoiskappaleita.
+description: 'Kuvaa, miten asiakkaiden tai toimittajien tietoja kootaan yhteen, kun joistakin niistä on kaksoiskappaleita.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a50d15ad62459b78b2d18d8167df319669a56ec7
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529161"
 ---
-# <a name="merge-duplicate-records"></a>Tietueiden kaksoiskappaleiden yhdistäminen
+# Tietueiden kaksoiskappaleiden yhdistäminen
 
 Kun eri käyttäjät luovat uusia asiakkaan, toimittajan tai kontaktin kortteja ajan mittaan tai kun uusia tietueita luodaan automaattisesti siirron aikana, asiakkaalle, toimittajalle tai kontaktille voi tulla järjestelmään useita tietueita. Voit siinä tapauksessa käyttää säilytettävän tietueen kortin **Yhdistä kaksoiskappale** -sivua. Sivulla on yleiskatsaus kenttäarvoista, joilla on kaksoiskappaleita, ja toimintoja, joilla valitaan, mitkä arvot säilytetään tai hylätään, kun kaksi tietuetta yhdistetään.
 
@@ -62,9 +56,9 @@ Seuraava toimenpide perustuu asiakaskorttiin. Toimittajan ja kontaktin korttien 
 > [!NOTE]
 > Voit etsiä kontaktien kaksoiskappaleet toiminnolla ennen **Yhdistä kaksoiskappale** -sivun käyttämistä. Lisätietoja on kohdassa [Kontaktien kaksoiskappaleiden hakeminen](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trade-master-data-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trade-master-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Kontaktien määrittäminen](marketing-setup-contacts.md)  

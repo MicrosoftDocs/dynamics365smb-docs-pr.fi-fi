@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: sales, crm, integration, sync, synchronize
+ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: ac6bae8d001728da43fc7357cf156d6ac6fc6633
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383911"
 ---
-# <a name="scheduling-a-synchronization-between-business-central-and-dataverse"></a>Business Centralin ja Dataversein synkronoinnin ajoittaminen
+
+# Business Centralin ja Dataversein synkronoinnin ajoittaminen
 
 
 Voit synkronoida [!INCLUDE[prod_short](includes/prod_short.md)]in ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tietyin väliajoin määrittämällä työt työjonoon. Synkronointityöt synkronoivat [!INCLUDE[prod_short](includes/prod_short.md)]in tietueiden tiedot ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tietueet, jotka on aiemmin yhdistetty. Jos kyse on vielä yhdistämättömistä tietueista synkronointityöt voivat luoda ja yhdistää uusia tietueita kohdejärjestelmässä synkronointisuunnan ja -sääntöjen mukaisesti. 
@@ -31,7 +26,7 @@ Käytettävissä on heti useita synkronointitöitä. Työt suoritetaan seuraavas
 
 Voit tarkastella töitä **Työjonon tapahtumat** -sivulla. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
 
-## <a name="default-synchronization-job-queue-entries"></a>Oletusarvoiset synkronoinnin työjonotapahtumat
+## Oletusarvoiset synkronoinnin työjonotapahtumat
 
 Seuraavassa taulukossa kuvaillaan [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:n synkronoinnin oletustyöt.  
 
@@ -43,7 +38,7 @@ Seuraavassa taulukossa kuvaillaan [!INCLUDE[cds_long_md](includes/cds_long_md.md
 | TOIMITTAJA - Common Data Service -synkronointityö | Synkronoi [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tilit ja [!INCLUDE[prod_short](includes/prod_short.md)]in asiakkaat. | Kaksisuuntainen | TOIMITTAJA | 30 | 720<br> (12 tuntia) |
 | MYYJÄT - Common Data Service -synkronointityö | Synkronoi [!INCLUDE[prod_short](includes/prod_short.md)]in myyjät ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in käyttäjät. | [!INCLUDE[cds_long_md](includes/cds_long_md.md)]ista [!INCLUDE[prod_short](includes/prod_short.md)]iin | MYYJÄT | 30 | 1440<br> (24 tuntia) |
 
-## <a name="synchronization-process"></a>Synkronointiprosessi
+## Synkronointiprosessi
 
 Kunkin synkronoinnin työjonotapahtuma käyttää tiettyä integrointitaulukon yhdistämismääritystä, joka määrittää, mikä [!INCLUDE[prod_short](includes/prod_short.md)]in taulukko ja mikä [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in taulukko synkronoidaan. Taulukon yhdistämismääritykset sisältävät myös joitakin asetuksia, jotka määrittävät, mitkä [!INCLUDE[prod_short](includes/prod_short.md)]in taulukon ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in taulukon tietueet synkronoidaan.  
 
@@ -64,7 +59,7 @@ Tietojen synkronointi edellyttää, että [!INCLUDE[cds_long_md](includes/cds_lo
 
 - Kaksisuuntaisessa synkronoinnissa työ synkronoituu [!INCLUDE[prod_short](includes/prod_short.md)]ista [!INCLUDE[cds_long_md](includes/cds_long_md.md)]iin ja sitten [!INCLUDE[cds_long_md](includes/cds_long_md.md)]sta [!INCLUDE[prod_short](includes/prod_short.md)]iin.
 
-## <a name="about-inactivity-timeouts"></a>Tietoja käyttämättömyyden aikakatkaisusta
+## Tietoja käyttämättömyyden aikakatkaisusta
 Jotkin työjonotapahtumat, esimerkiksi ne, jotka ajoittavat [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:n välisen synkronoinnin, käyttävät Työjonotapahtuma-sivulla **Käyttämättömyyden aikakatkaisu** -kenttää estämään työjonotapahtuman tarpeettoman suorittamisen.  
 
 :::image type="content" source="media/on-hold-with-inactivity-timeout.png" alt-text="Vuokaavio siitä, kun työjonon tapahtumat ovat pidossa käyttämättömyyden vuoksi.":::
@@ -76,7 +71,7 @@ Oletusarvon mukaan esimerkiksi CURRENCY-työjonotapahtuma, joka synkronoi valuut
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] aktivoi pidossa olevat työjonotapahtumat automaattisesti vain, kun [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa tehdään muutoksia. Muutokset [!INCLUDE[cds_long_md](includes/cds_long_md.md)]ssa eivät aktivoi työjonotapahtumia.
 
-## <a name="to-view-the-synchronization-job-log"></a>Synkronointityön lokin tarkasteleminen
+## Synkronointityön lokin tarkasteleminen
 
 1. Valitse :::image type="icon" source="media/ui-search/search_small.png" border="false"::: -kuvake, kirjoita **Integroinnin synkronointiloki** ja valitse sitten aiheeseen liittyvä linkki.
 2. Jos synkronointityössä tapahtui ainakin yksi virhe, virheiden määrä näkyy **Epäonnistui**-sarakkeessa. Näytä työn virheet valitsemalla numero.  
@@ -84,16 +79,16 @@ Oletusarvon mukaan esimerkiksi CURRENCY-työjonotapahtuma, joka synkronoi valuut
     > [!TIP]  
     > Voit tarkastella kaikkia synkronointitöiden virheitä avaamalla synkronointityölokin suoraan.
 
-## <a name="to-view-the-synchronization-job-log-from-the-table-mappings"></a>Synkronointityölokin tarkasteleminen taulukon yhdistämismäärityksistä
+## Synkronointityölokin tarkasteleminen taulukon yhdistämismäärityksistä
 
 1. Valitse :::image type="icon" source="media/ui-search/search_small.png" border="false"::: -kuvake, kirjoita **Integroinnin yhdistämistaulukot** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Integrointitaulukon yhdistämismääritykset** -sivulla tapahtuma ja valitse sitten **Integroinnin synkronointityöloki**.  
 
-## <a name="to-view-the-synchronization-error-log"></a>Synkronoinnin virhelokin tarkasteleminen
+## Synkronoinnin virhelokin tarkasteleminen
 
 - Valitse :::image type="icon" source="media/ui-search/search_small.png" border="false"::: -kuvake, kirjoita **Integroinnin synkronointivirheet** ja valitse sitten aiheeseen liittyvä linkki.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Tietojen synkronointi Business Centralissa ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]issa](admin-synchronizing-business-central-and-sales.md)  
 [Taulukon yhdistämismääritysten manuaalinen synkronointi](admin-manual-synchronization-of-table-mappings.md)  

@@ -6,20 +6,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 58cb2222f2533e2ba952727243a5fdb830b34e75
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145886"
 ---
-# <a name="design-details-integration-with-inventory"></a>Rakennetiedot: integrointi varaston kanssa
+# Rakennetiedot: integrointi varaston kanssa
 Varastoinninhallinta- ja Varasto-sovellusalue ovat yhteydessä toistensa kanssa inventoinnissa ja inventoinnin tai fyysisen varaston muutoksessa.  
   
-## <a name="physical-inventory"></a>Fyysinen varasto  
+## Fyysinen varasto  
  **F. var. inventointipvk** -sivu käytetään **Inventointipäiväkirja**-sivulla kaikkien fyysisen varaston lisäsijaintien osalta. Varaston tai bin-tiedoston taso lasketaan ja tulostettu luettelo annetaan varastotyöntekijälle. Luettelossa näytetään, mitkä nimikkeet missä bineissä täytyy laskea.  
   
  Varastotyöntekijä antaa inventoidun määrän **F. var. inventointipvk** -sivulla ja kirjaa päiväkirjan.  
@@ -32,7 +26,7 @@ Varastoinninhallinta- ja Varasto-sovellusalue ovat yhteydessä toistensa kanssa 
   
  Kun kirjaat inventointipäiväkirjan, varaston ja oletusmuutoksen varastopaikka päivitetään.  
   
-### <a name="warehouse-adjustments-to-the-item-ledger"></a>Nimikekirjausten fyysisen varastoinnin muutokset  
+## Nimikekirjausten fyysisen varastoinnin muutokset  
  **Nimikepäiväkirja**-sivun ja **Laske f.var. muutos** -toiminnon avulla voit muuttaa nimiketapahtuman varaston sen mukaan, miten fyysisen varastoinnin varastopaikan nimikemäärää on muutettu. Kun haluat luoda linkin varaston ja fyysisen varaston välille, määritä oletusmuutosvarastopaikka sijaintia kohti.  
   
  Oletusarvoinen mukautettava bin rekisteröi varastonimikkeet, kun tiliöit varaston kasvun. Jos kuitenkin kirjaat vähennystä, myös oletusvarastopaikan määrä vähenee. Molemmissa tapauksissa luodaan nimiketapahtumat ja fyysisen varastoinnin tapahtumat.  
@@ -44,8 +38,8 @@ Varastoinninhallinta- ja Varasto-sovellusalue ovat yhteydessä toistensa kanssa 
   
  Jos kirjoitat positiivisen määrän ja kirjaat rivin, varastopaikkaan tallennettu varaston määrä lisääntyy ja oletusarvoisen muutosvarastopaikan määrä pienenee vastaavasti.  
   
-## <a name="see-also"></a>Katso myös  
- [Rakennetiedot: f. varaston hallinta](design-details-warehouse-management.md)   
- [Rakennetiedot: saatavuus varastossa](design-details-availability-in-the-warehouse.md)
+## Katso myös  
+[Varastonhallinnan yleiskuvaus](design-details-warehouse-management.md)
+[Rakennetiedot: saatavuus varastossa](design-details-availability-in-the-warehouse.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

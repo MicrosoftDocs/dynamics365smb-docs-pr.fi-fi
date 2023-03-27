@@ -1,27 +1,22 @@
 ---
 title: Käytä tilauksen suunnittelua tarjonnan luomiseksi ja varaamiseksi
-description: Vaihekuvauksessa on tietoja siitä, miten tilauksen suunnittelua käytetään tarvittavan tuotantotilauksen luomiseen Business Centralin tarjonnassa.
+description: 'Vaihekuvauksessa on tietoja siitä, miten tilauksen suunnittelua käytetään tarvittavan tuotantotilauksen luomiseen Business Centralin tarjonnassa.'
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 496eaa1fd1aa8828125018a554c701743bccd5db
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525051"
 ---
-# <a name="walkthrough-use-order-planning-to-create-and-reserve-supply"></a>Vaihekuvaus: Käytä tilauksen suunnittelua tarjonnan luomiseksi ja varaamiseksi
+
+# Vaihekuvaus: Käytä tilauksen suunnittelua tarjonnan luomiseksi ja varaamiseksi
 
 Tässä artikkelissa on tietoja Contoso Coffee -esittelyn tietojen käytöstä tilauksen suunnittelussa.
 
-## <a name="scenario"></a>Esimerkkitilanne
+## Esimerkkitilanne
 
 Olet Contoso Coffeen tuotantosuunnittelija. Tuotantotilaus luotiin 100 yksikölle nimikkeelle **SP-SCM1009, Airpot**, ja haluat suunnitella osakokoonpanoja tälle tilaukselle. Tilauksen suunnittelua käytetään tarjonnan edellyttämän tuotantotilauksen luomiseen. Koska olet luomassa tuotantotilausta tietyn tilauksen tarpeiden täyttämiseksi, päätät varata tuotantotilauksen tuotoksen.  
 
-## <a name="steps"></a>Vaiheet
+## Vaiheet
 
 1. Luo uusi vapautettu tuotantotilaus **SP-SCM1009, Airpot** -nimikkeen 100 yksikölle.
 
@@ -64,7 +59,7 @@ Olet Contoso Coffeen tuotantosuunnittelija. Tuotantotilaus luotiin 100 yksiköll
 
 Siinä kaikki tilauksen suunnittelusta kohteessa [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Johdatus Contoson kahvidemotietoihin](contoso-coffee-intro.md)  
 [Tietoja tuotantotilauksista](../production-about-production-orders.md)  

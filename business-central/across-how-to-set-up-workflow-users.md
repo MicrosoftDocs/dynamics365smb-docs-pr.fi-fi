@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: reject, delegate, request
+ms.search.keywords: 'reject, delegate, request'
 ms.search.form: 1533
 ms.date: 09/09/2022
 ms.author: edupont
-ms.openlocfilehash: 4dbe4217720ddd0bfe976560331329537577cfeb
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585943"
 ---
-# <a name="set-up-workflow-users"></a>Työnkulun käyttäjien määrittäminen
+# Työnkulun käyttäjien määrittäminen
 
 Työnkuluissa jäseninä olevat käyttäjät on määritettävä ennen kuin voit luoda hyväksyntätyönkulun. On esimerkiksi pakollista määritellä ne henkilöt, jotka saavat ilmoituksen toimia työnkulun osavaiheilla.  
 
@@ -28,7 +22,7 @@ Työnkulun käyttäjät, jotka toimivat hyväksynnän pyytäjinä ja hyväksyjin
 > [!NOTE]  
 > Jos haluat määrittää, että hyväksymispyyntöä ei ole hyväksytty, ennen kuin käyttäjät ovat hyväksyneet sen, määritä hyväksyjien hierarkia. Käyttäjätunnukselle **Hyväksyjä** on määritettävä hyväksyjä **Hyväksynnän käyttäjäasetukset** -sivulla. Määritä hyväksyjät **Työnkulun käyttäjäryhmä** -hyväksyjätyypille **Työnkulun käyttäjäryhmät** -sivulla ja määritä hierarkia määrittämällä kullekin hyväksyjälle **Järjestysnro** -kentässä. Lisätietoja alla ja kohdassa [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md). 
 
-## <a name="to-set-up-a-workflow-user"></a>Työnkulun käyttäjän määrittäminen
+## Työnkulun käyttäjän määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulun käyttäjäryhmät**, valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto. **Työnkulun käyttäjäryhmä** -sivu avautuu.  
@@ -47,9 +41,9 @@ Työnkulun käyttäjät, jotka toimivat hyväksynnän pyytäjinä ja hyväksyjin
 6. Toista vaihe 5, jos haluat lisätä useampia työnkulun käyttäjiä työnkulun käyttäjäryhmään.  
 7. Toista vaiheet 2-6, jos haluat luoda uusia työnkulun käyttäjäryhmiä.  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Hyväksyjäkäyttäjien määrittäminen](across-how-to-set-up-approval-users.md)  
 [Hyväksymistyönkulkujen määrittäminen](across-set-up-workflows.md)  

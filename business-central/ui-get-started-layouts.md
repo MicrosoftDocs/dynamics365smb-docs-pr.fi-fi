@@ -1,30 +1,24 @@
 ---
 title: Aloita asettelujen luominen
-description: Voit tutustua asettelujen luomiseen ja raportin ulkoasun muokkaamiseen, kun sitä tarkastellaan, tulostetaan tai tallennetaan.
+description: 'Voit tutustua asettelujen luomiseen ja raportin ulkoasun muokkaamiseen, kun sitä tarkastellaan, tulostetaan tai tallennetaan.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9650, 9652
+ms.search.keywords: 'customized report, document layout, logo, personalize'
+ms.search.form: '9650, 9652'
 ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 0b9c74b7bdd81151b2b290db6cae6bed791d5a23
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534397"
 ---
-# <a name="get-started-creating-report-layouts"></a>Aloita raporttiasettelujen luominen
+# Aloita raporttiasettelujen luominen
 
 Business Centralin mukana tulee monia valmiita asetteluita, joita voit käyttää raporteissa. Muita asetteluita on saatettu lisätä osana muita laajennuksia. On myös mahdollista luoda omia raportteja joko tyhjästä tai olemassa olevan asettelun perusteella.
 
 > [!IMPORTANT]
 > Voit myös käyttää raporttiasetteluja lisätäksesi sisältöä sähköpostiviesteihin. Raporttiasettelut voivat esimerkiksi säästää aikaa ja auttaa yhdenmukaisuuden varmistamisessa siten, että samaa sisältöä käytetään uudelleen, kun viestit asiakkaidesi kanssa. Jotta voit käyttää mukautettuja raporttiasetteluja sähköpostissa, niiden tiedostotyyppinä on oltava Word. Et voi käyttää RDLC-tiedostotyyppiä. Lisätietoja: [Uudelleenkäytettävien sähköpostitekstien ja -asettelujen määrittäminen](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
-## <a name="overview"></a>Yleiskuvaus
+## Yleiskuvaus
 
 Kun käsittelet raportin asetteluja, voit ajatella asettelua tiedostona, joka on tuotu ja liitetty raporttiin. Asettelun tyypistä riippumatta asettelujen hallinta on periaatteessa samanlaista kuin Business Centralin asettelut. Tavallisesti käsittely tehdään **Raporttiasettelut**-sivulla. Pääasiallinen ero on asettelun suunnittelussa, joka tehdään käyttämällä asettelusovellusta, jolle asettelu on luotu, kuten Wordia, Exceliä tai SQL Server Report Builderia.
 
@@ -40,7 +34,7 @@ Tätä käsitettä silmällä pitäen. Raportin asettelun määrittämiseen liit
 >
 > Lisätietoja laajennusasettelujen ja käyttäjän määrittämien asettelujen välisistä eroista on kohdassa [Asettelun lähde](ui-manage-report-layouts.md#layout-sources).
 
-## <a name="get-started"></a>Aloitus
+## Aloitus
 
 Riippuen siitä, mikä tilanne on, todelliset tehtävät vaihtelevat. Seuraavan taulukon avulla pääset alkuun.
 
@@ -53,7 +47,7 @@ Riippuen siitä, mikä tilanne on, todelliset tehtävät vaihtelevat. Seuraavan 
 |Raportin käytössä olevan asettelun vaihtaminen toiseen asetteluun|[Raportin käyttämän asettelun määrittäminen](ui-set-report-layout.md)|
 |Asettelun nimen ja kuvauksen muuttaminen|[Asettelun nimeäminen uudelleen](#rename)|
 
-## <a name="decide-what-type-of-layout-you-want"></a><a name="decide"></a>Haluamasi asettelun tyypin valitseminen
+## <a name="decide"></a>Haluamasi asettelun tyypin valitseminen
 
 Ensimmäinen asia, kun luodaan asettelua, on päättää, minkä [asettelun tyypin](ui-manage-report-layouts.md#layout-types) haluat. Voit valita joko Word, Excel tai RDLC. Asettelun tyyppi määräytyy sen mukaan, miltä haluat luodun raportin näyttävän. Lisäksi se riippuu siitä, miten hyvin tunnet sovellusohjelmiston asettelujen luomiseen, kuten Wordin, Excelin ja SQL Server Report Builderin.
 
@@ -72,11 +66,11 @@ Ensimmäinen asia, kun luodaan asettelua, on päättää, minkä [asettelun tyyp
 
 * Word- ja RDLC-asetteluiden yleiset rakenteet ovat samanlaisia. Silti, jokaisella tyypillä on tiettyjä suunnittelu ominaisuuksia, jotka vaikuttavat siihen miltä luodut raportit näyttävät [!INCLUDE[prod_short](includes/prod_short.md)]ssa. Sama raportti saattaa näyttää erilaiselta RDLC-asetteluun verrattuna Word-asettelua käytettäessä.
 
-## <a name="create-a-new-layout"></a><a name="create"></a>Uuden asettelun luominen
+## <a name="create"></a>Uuden asettelun luominen
 
 Uuden asettelun voi luoda olemassa olevasta asettelusta kahdella tavalla. Yksi tapa on tallentaa olemassa oleva asettelu kopioon. Toinen tapa on viedä olemassa oleva asettelu.
 
-## <a name="copying"></a>[Kopiointi](#tab/copy)
+## [Kopiointi](#tab/copy)
 
 Kopioiminen on nopea tapa luoda uusi asettelu, joka on sama kuin aiemmin luotu asettelu. Kun olet tehnyt kopion, voit tehdä muutokset viemällä asettelun. 
 
@@ -93,7 +87,7 @@ Kopioiminen on nopea tapa luoda uusi asettelu, joka on sama kuin aiemmin luotu a
    Uusi asettelu näkyy **Raporttiasettelut**-sivulla.
 5. Jos haluat tehdä muutoksia uuteen asetteluun, lisätietoja on kohdassa [Olemassa olevan asettelun muokkaaminen](#modify).
 
-### <a name="exportingimporting"></a>[Vieminen/tuominen](#tab/export)
+### [Vieminen/tuominen](#tab/export)
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Valitse asettelu, josta haluat kopion, uutta asettelua varten, ja valitse sitten **Vie asettelu** -toiminto.
@@ -132,7 +126,7 @@ Jos haluat nähdä, miltä raportti näyttää uudessa asettelussa, valitse aset
 
 ---
 
-## <a name="modify-a-layout"></a><a name="modify"></a>Asettelun muokkaaminen
+## <a name="modify"></a>Asettelun muokkaaminen
 
 Muokkaa aiemmin luotua käyttäjän määrittämää asettelua noudattamalla seuraavia ohjeita.
 
@@ -161,7 +155,7 @@ Muokkaa aiemmin luotua käyttäjän määrittämää asettelua noudattamalla seu
    Valitsemasi tiedosto ladataan asetteluun, ja palaat **Raporttiasettelut**-sivulle.
 7. Jos haluat nähdä, miltä raportti näyttää uudessa asettelussa, valitse asettelu luettelosta ja valitse sitten **Suorita raportti**.
 
-## <a name="replace-a-layout"></a><a name="replace"></a>Korvaa asettelu
+## <a name="replace"></a>Korvaa asettelu
 
 Voit korvata aiemmin luodun käyttäjän määrittämän asettelutiedoston uudella tiedostolla noudattamalla seuraavia ohjeita.
 
@@ -173,7 +167,7 @@ Voit korvata aiemmin luodun käyttäjän määrittämän asettelutiedoston uudel
    Valitsemasi tiedosto ladataan asetteluun, ja palaat **Raporttiasettelut**-sivulle.
 5. Jos haluat nähdä, miltä raportti näyttää uudessa asettelussa, valitse asettelu luettelosta ja valitse sitten **Suorita raportti**.
 
-## <a name="rename-a-layout"></a><a name="rename"></a>Asettelun nimeäminen uudelleen
+## <a name="rename"></a>Asettelun nimeäminen uudelleen
 
 Noudata seuraavia ohjeita, jos haluat muuttaa käyttäjän määrittämän asettelun nimeä ja kuvausta.
 
@@ -184,9 +178,9 @@ Noudata seuraavia ohjeita, jos haluat muuttaa käyttäjän määrittämän asett
     > Voit etsiä asettelua käyttämällä **Haku**-ruutua, **Suodatin**-ruutua ja sarakkeiden lajittelua.
 3. Muuta **asettelun nimi** ja valitse sitten **OK**.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  
 [Wordin asettelujen käyttö](ui-how-add-fields-word-report-layout.md)  

@@ -1,22 +1,16 @@
 ---
 title: Useiden korkoprosenttien määrittäminen viivästynyttä maksua varten
-description: Tässä aiheessa kerrotaan, miten voit laskea viivästyskulut useilla korkoprosenteilla tietylle jaksolle.
+description: 'Tässä aiheessa kerrotaan, miten voit laskea viivästyskulut useilla korkoprosenteilla tietylle jaksolle.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 6, 431, 432, 572
+ms.search.form: '6, 431, 432, 572'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 997a6e587a94d4d4a20db5f01a79ad0fd295df61
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135439"
 ---
-# <a name="set-up-multiple-interest-rates-for-delayed-payment"></a>Useiden korkoprosenttien määrittäminen viivästynyttä maksua varten
+# Useiden korkoprosenttien määrittäminen viivästynyttä maksua varten
 
 Useita korkoprosentteja voidaan käyttää kauppatapahtumien viivästyneissä maksuissa eri jaksoilla. [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)]
 
@@ -24,7 +18,7 @@ Esimerkiksi valtio määrittää asiakkaalta perittävän enimmäiskoron. Tätä
 
 Kun luot viivästyskuluehdot ja muistutusehdot viivästysmaksulle, voit määrittää useita korkoprosentteja. Viivästysmaksu siis lasketaan eri kausille eri korkoprosentin mukaan.  
 
-## <a name="to-set-up-multiple-interest-rates"></a>Useiden korkoprosenttien määrittäminen
+## Useiden korkoprosenttien määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Viivästyskuluehdot** ja valitse sitten vastaava linkki.  
 2. Valitse **Viivästyskuluehdot**-sivulla pakollinen rahoitusehto ja valitse sitten **Korkoprosentit**-toiminto.  
@@ -36,7 +30,7 @@ Kun luot viivästyskuluehdot ja muistutusehdot viivästysmaksulle, voit määrit
 
 Kun viivästyskululasku lähetetään, laskussa näkyvät viivästyskulut ja eri korkoprosentit tietyille ajanjaksoille. Lasku sisältää myös asiakkaan ja laskun lähettäneen yrityksen yhteystiedot, lisäsumman ja kokonaissumman. Laskun alkutapahtuma näkyy lihavoituna. Viivästyskulut lasketaan useilla korkoprosenteilla tietylle ajanjaksolle. Ne tulostetaan laskuun alkutapahtuman jälkeen.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)

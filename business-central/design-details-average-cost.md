@@ -1,28 +1,22 @@
 ---
 title: Rakennetiedot - keskimääräinen kustannus
-description: Nimikkeen keskimääräiskustannukset on laskettu kausittain painotetulla keskiarvolla perustuen keskimääräiskustannusten kauteen, joka on määritetty Business Central -sovelluksessa.
+description: 'Nimikkeen keskimääräiskustannukset on laskettu kausittain painotetulla keskiarvolla perustuen keskimääräiskustannusten kauteen, joka on määritetty Business Central -sovelluksessa.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: cdba126a3cdd6116f0067cac08bccadbdfc5a982
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519838"
 ---
-# <a name="design-details-average-cost"></a>Rakennetiedot: keskimääräinen kustannus
+# Rakennetiedot: keskimääräinen kustannus
 Nimikkeen keskimääräiskustannukset on laskettu kausittain painotetulla keskiarvolla perustuen keskimääräiskustannusten kauteen, joka on määritetty [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa.  
 
  Arvostuspäivämäärä määritetään automaattisesti.  
 
-## <a name="setting-up-average-cost-calculation"></a>Määritetään keskimääräiskustannuslaskelma  
+## Määritetään keskimääräiskustannuslaskelma  
  Seuraavassa taulukossa kuvataan kaksi kenttää **Varastonhallinnan asetukset** -sivulla, jotka täytyy täyttää, jotta keskimääräiskustannuslaskelma on mahdollinen.  
 
 |Kenttä|Kuvaus|  
@@ -35,7 +29,7 @@ Nimikkeen keskimääräiskustannukset on laskettu kausittain painotetulla keskia
 >   
 >  **Kirjanpitojaksot**-sivulla näkyy mikä keskimääräiskustannuskausi ja mikä keskimääräiskustannuslaskutyyppi on voimassa kullakin kaudella, liittyen kuhunkin kirjanpitokauteen.  
 
-## <a name="calculating-average-cost"></a>Keskimääräisen kustannuksen laskeminen  
+## Keskimääräisen kustannuksen laskeminen  
  Kun kirjaat tapahtuman nimikkeelle, joka käyttää keskimääräistä kustannusmenetelmää, ohjelma luo merkinnän **Keskim. kust. muutoksen tulopaikka** -taulukossa. Tämä sisältää tapahtuman nimikenumeron, varianttikoodin ja sijaintikoodin. Tapahtuma sisältää myös **Arvostuspvm** -kentän, joka määrittää keskimääräisen kustannuksen jakson viimeisen päivämäärän, jona tapahtuma kirjattiin.  
 
 > [!NOTE]  
@@ -50,7 +44,7 @@ Nimikkeen keskimääräiskustannukset on laskettu kausittain painotetulla keskia
 
  Laskettu keskimääräinen kustannus kohdistetaan tämän jälkeen varaston vähennyksiin nimikkeelle (tai nimikkeelle, sijainnille ja variantille) joiden kirjauspäivämäärät ovat keskimääräisellä kustannusjaksolla. Jos on olemassa varaston arvon nousuja, jotka kohdistettiin kiinteästi varaston arvon laskuihin keskimääräisellä kustannusjaksolla, tällöin laskettu keskimääräinen kustannus siirretään kasvusta vähennykseen.  
 
-### <a name="example-average-cost-period--day"></a>Esimerkki: keskimääräisen kustannusjakso = päivä  
+### Esimerkki: keskimääräisen kustannusjakso = päivä  
  Seuraavassa esimerkissä kuvataan yhden päivän keskimääräiskustannusjaksoon perustuvan keskimääräiskustannusten laskennan vaikutus. **Varastonhallinnan asetukset** -sivun **Keskim. kust. laskentatyyppi** -kentän arvoksi on asetettu **Nimike**.  
 
  Seuraavassa taulukossa esitetään nimikkeen pääkirjan kirjaukset esimerkkinä olevalle keskimääräiskustannusnimikkeelle, NIMIKE1, ennen kuin **Muuta kustannuksia - Nimiketapahtumat** -eräajo on ajettu.  
@@ -87,7 +81,7 @@ Nimikkeen keskimääräiskustannukset on laskettu kausittain painotetulla keskia
 | 02-02-20 | Osto | 1 | 100,00 | 5 |
 | 02-03-20 | Myynti | -1 | -100.00 | 6 |
 
-### <a name="example-average-cost-period--month"></a>Esimerkki: keskimääräinen kustannusjakso = kuukausi  
+### Esimerkki: keskimääräinen kustannusjakso = kuukausi  
  Seuraavassa esimerkissä kuvataan kuukauden keskimääräiskustannusjaksoon perustuvan keskimääräiskustannusten laskennan vaikutus. **Varastonhallinnan asetukset** -sivun **Keskim. kust. laskentatyyppi** -kentän arvoksi on asetettu **Nimike**.  
 
  Jos keskimääräinen kustannusjakso on yksi kuukausi, tällöin jokaiselle nimikenumeron, varianttikoodin, sijaintikoodin ja arvostuspäivämäärän yhdistelmälle luodaan vain yksi tapahtuma.  
@@ -131,7 +125,7 @@ Nimikkeen keskimääräiskustannukset on laskettu kausittain painotetulla keskia
 
  Saat helmikuun keskimääräisen kustannuksen, kun kappaleen keskimääräinen kustannus varastossa (100,00) lisätään jakson alun keskimääräiseen kustannukseen (30,00). Näiden kahden summa (130,00) jaetaan varaston kokonaismäärällä (2). Tuloksena saadaan nimikkeen keskimääräinen kustannus helmikuussa (65,00). Keskimääräinen kustannus määritetään varaston vähennyksille tilikaudella (tapahtumat 4 ja 6).  
 
-## <a name="setting-the-valuation-date"></a>Arvostuspäivämäärän asetus  
+## Arvostuspäivämäärän asetus  
  **Arvostuspvm**-kenttää **Arvotapahtuma**-taulukossa käytetään määrittelemään mihin keskimääräiskustannuskauteen varastonvähennyskirjaus kuuluu. Tämä koskee myös KET-varastoa.  
 
  Seuraavassa taulukossa esitetään kriteeri, jota käytetään arviointipäivämäärän määritykseen.  
@@ -143,7 +137,7 @@ Nimikkeen keskimääräiskustannukset on laskettu kausittain painotetulla keskia
 |3|Aiempi kuin viimeisin käytettyjen arvotapahtumien arvostuspäivämäärä|Positiivinen|Ei|Viimeisin käytettyjen arvotapahtumien arvostuspäivämäärä|  
 |4||Negatiivinen|Kyllä|Uudelleenarvostuksen arvotapahtuman päivämäärän kirjaaminen|  
 
-### <a name="example"></a>Esimerkki  
+### Esimerkki  
  Seuraavassa arvokirjaustaulukossa kuvataan eri skenaariot.  
 
 |Esimerkkitilanne|Kirjauspäivämäärä|Nimiketapahtuman tyyppi|Arvostuspvm|Arvostettu määrä|Kustannussumma (todellinen)|Nimiketapahtuman nro|Tapahtumanro|  
@@ -164,7 +158,7 @@ Nimikkeen keskimääräiskustannukset on laskettu kausittain painotetulla keskia
 
  Jos varastomäärä on pienempi kuin nolla varaston arvon vähennyksen kirjauksen jälkeen, arvostuspäivämäärä asetetaan ensin varaston arvon vähennyksen kirjauspäivämääräksi. Tämä päivämäärä saattaa muuttua myöhemmin aiemmin tässä luvussa kuvatun säännön mukaan, kun varastoarvon nousu kohdistetaan.  
 
-## <a name="recalculating-average-cost"></a>Keskimääräisen kustannuksen uudelleenlaskeminen  
+## Keskimääräisen kustannuksen uudelleenlaskeminen  
  Varaston arvon vähenemisen arvostaminen painotettuna keskiarvona olisi yksinkertaista, jos ostot laskutettaisiin aina ennen myyntien laskutusta, kirjaukset eivät olisi koskaan myöhässä etkä milloinkaan tekisi virheitä. Todellisuus on kuitenkin hieman erilainen kuin tämä ihanteellinen tilanne.  
 
  Kuten tämän ohjeaiheen esimerkeissä on kuvattu, arvostuspäivämäärä märitetään päivämääränä, josta arvotapahtuma sisällytetään keskimääräisen kustannuksen laskentaan. Voit tehdä nimikkeille joustavammin seuraavat toimet keskimääräisen arvostusmenetelmän avulla:  
@@ -180,7 +174,7 @@ Nimikkeen keskimääräiskustannukset on laskettu kausittain painotetulla keskia
 
  On mahdollista muuttaa varaston arvostuspohja tilikaudella vaihtamalla **Keskimääräisen kustannuksen jakso**- ja **Keskim. kust. laskentatyyppi**-kenttää. Tämä tulisi kuitenkin tehdä huolellisesti ja sopimalla tilintarkastajan kanssa.  
 
-### <a name="example"></a>Esimerkki  
+### Esimerkki  
  Seuraava esimerkki kuvaa sitä, kuinka keskimääräiskustannus lasketaan uudelleen, kun myöhäinen tiliöinti esitellään päivämääränä, joka tulee ennen yhtä tai useampaa varaston vähennystä. Esimerkki perustuu keskimääräiskustannuskauteen **Päivää**.  
 
  Seuraavassa taulukossa esitetään arvokirjaukset, jotka ovat olemassa nimikkeellä, ennen kuin tiliöinti on esitetty.  
@@ -204,7 +198,7 @@ Nimikkeen keskimääräiskustannukset on laskettu kausittain painotetulla keskia
 |02-15-20|-1|-17.00|3|  
 |02-16-20|-1|-17.00|4|  
 
-## <a name="see-also"></a>Katso myös  
+## Katso myös  
  [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)   
  [Rakennetiedot: arvostusmenetelmät](design-details-costing-methods.md)   
  [Rakennetiedot: kustannuksen muutos](design-details-cost-adjustment.md)   

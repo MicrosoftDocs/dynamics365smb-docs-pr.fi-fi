@@ -1,21 +1,15 @@
 ---
 title: Projektin projektikortin luominen ja tehtävien määrittäminen
-description: Uudelle projektille luodaan projektin tehtävät ja suunnittelurivit sisältävä projektikortti, mikä auttaa edistymisen ja budjettien hallinnassa.
+description: 'Uudelle projektille luodaan projektin tehtävät ja suunnittelurivit sisältävä projektikortti, mikä auttaa edistymisen ja budjettien hallinnassa.'
 author: SorenGP
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: project management, task
-ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
+ms.search.keywords: 'project management, task'
+ms.search.form: '88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020'
 ms.date: 08/03/2022
 ms.author: edupont
-ms.openlocfilehash: 180a6cfc4ce6efb11df8faccd5909f527f6393e3
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528939"
 ---
-# <a name="create-jobs"></a>Projektien luominen
+# Projektien luominen
 
 Uuden projektin aloittamisen yhteydessä on luotava projektikortti sekä integroidut projektitehtävät ja projektin suunnittelurivit kahteen eri tasoon.  
 
@@ -34,7 +28,7 @@ Joskus palvelua vastaanottava osapuoli eroaa laskun maksavasta osapuolesta. **Pr
 * Lisää ulkoisten viitteiden tietoja yksinkertaistaaksesi projektia koskevaa viestintää.
 * Korvaa projektin vakiotalousehdot.
 
-## <a name="to-create-a-job-card"></a>Projektikortin luominen
+## Projektikortin luominen
 
 Luo projektikortti ja luo sitten projektikortille työtehtävä ja projektin suunnittelurivit.
 
@@ -53,7 +47,7 @@ Voit halutessasi merkitä projektin toimintoja estetyiksi **Estetty**-kentän av
 |Kirjaus    |Voit käsitellä suunnittelurivejä, mutta projekti on suljettu kirjauksilta. Jos valitset tämän vaihtoehdon, projektin käyttöä tai myyntiä ei voi kirjata.|
 |Kaikki  |Kaikki toimenpiteet ovat suljettuja.|
 
-## <a name="to-create-tasks-for-a-job"></a>Luo projektille tehtäviä
+## Luo projektille tehtäviä
 
 Projektin luomisen keskeinen osa on määrittää siihen liittyvät tehtävät. Voit määrittää tehtäviä luomalla yhden rivin tehtävää kohti **Tehtävät**-pikavälilehdessä **Työkortti**-sivulla. Jokaisella projektilla on oltava vähintään yksi tehtävä.
 
@@ -64,7 +58,7 @@ Projektin luomisen keskeinen osa on määrittää siihen liittyvät tehtävät. 
 5. Toista vaiheet 3 ja 4 kaikille projektissa tarvittaville tehtäville.
 6. Voit määrittää projektitehtäville muiden projektitehtävien tiedot valitsemalla **Kopioi projektitehtävät kohteesta** -toiminnon, täyttämällä tarvittavat kentät ja valitsemalla sitten **OK**-painikkeen.
 
-## <a name="to-create-planning-lines-for-a-job"></a>Projektin suunnittelurivien luominen
+## Projektin suunnittelurivien luominen
 
 Voit tarkentaa uusia projektitehtäviä projektin suunnitteluriveillä. Suunnitteluriville voi kerätä tiedot, joita haluat seurata projektissa. Voit esimerkiksi seurata projektin tarvitsemia resursseja tai nimikkeitä. Käytettävissä on esimerkiksi tehtävä, jossa asiakkaan toivotaan hyväksyvän projekti. Tehtävä liitetään nimikkeiden suunnitteluriveihin, esimerkiksi asiakastapaamiseen tai resurssin liittämiseen.  
 
@@ -85,9 +79,9 @@ Projektin suunnittelurivin tyyppi voi olla jokin seuraavista tyypeistä.
 4. Täytä **Projektin suunnittelurivit** -sivun uuden rivin tarvittavat kentät.
 5. Toista vaiheet 3 ja 4 kaikille projektitehtävässä tarvittaville suunnitteluriveille.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-new-job/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-new-job/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Projektinhallinta](projects-manage-projects.md)  
 [Video: Projektin luonti Dynamics 365 Business Centralissa](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

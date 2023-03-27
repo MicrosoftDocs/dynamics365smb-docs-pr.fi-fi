@@ -5,14 +5,9 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 511c7c616e94458cc2eb8489831d528968400903
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530187"
 ---
-# <a name="business-central-learning-catalog"></a>Business Central -opintoluettelo
+
+# Business Central -opintoluettelo
 
 Etsi oikea online-koulutus, henkilökohtaisia työpajoja ja tapahtumia oman roolin Business Central -käyttäjänä tai kumppanina.
 
@@ -20,7 +15,7 @@ Etsi oikea online-koulutus, henkilökohtaisia työpajoja ja tapahtumia oman rool
 
     :::column:::
 
-    ### <a name="business-decision-maker"></a>Yrityksen päätöksentekijä
+    ### Yrityksen päätöksentekijä
 
     Päätätkö sinä investoidaanko uusiin teknologioihin? 
 
@@ -36,7 +31,7 @@ Etsi oikea online-koulutus, henkilökohtaisia työpajoja ja tapahtumia oman rool
 
     :::column:::
 
-    ### <a name="business-user"></a>Yrityskäyttäjä
+    ### Yrityskäyttäjä
 
     Saitko juuri uuden sovelluksen käyttöön? 
 
@@ -54,7 +49,7 @@ Etsi oikea online-koulutus, henkilökohtaisia työpajoja ja tapahtumia oman rool
 
     :::column:::
 
-    ### <a name="developer"></a>Kehittäjä
+    ### Kehittäjä
 
     Onko sinun kirjoitettava koodi, jotta voit integroida muita tietolähteitä, laajentaa järjestelmän ytimen toimintoja tai luoda monimutkaisen sovelluksen?
 
@@ -66,7 +61,7 @@ Etsi oikea online-koulutus, henkilökohtaisia työpajoja ja tapahtumia oman rool
 
     :::column:::
 
-    ### <a name="functional-consultant"></a>Toimintokonsultti
+    ### Toimintokonsultti
     
     Oletko yrityksen toimialueen toteutusasiantuntija? 
 

@@ -1,23 +1,17 @@
 ---
 title: Fyysisten varastojen uudelleenjärjestely
-description: Opi uudistamaan fyysisen varastoinnin rakennetta uusilla varastopaikkakoodeilla ja uusilla varastopaikan ominaisuuksilla, jotta voit saavuttaa tai ylläpitää tehokkaampaa toimintaa.
+description: 'Opi uudistamaan fyysisen varastoinnin rakennetta uusilla varastopaikkakoodeilla ja uusilla varastopaikan ominaisuuksilla, jotta voit saavuttaa tai ylläpitää tehokkaampaa toimintaa.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 9813, 9814
+ms.search.keywords: null
+ms.search.form: '9813, 9814'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ccac5101c5b28d81021a7229fe576f4eb7129746
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513235"
 ---
-# <a name="restructure-warehouses"></a>Fyysisten varastojen uudelleenjärjestely
+# Fyysisten varastojen uudelleenjärjestely
 Haluat ehkä järjestellä fyysisen varaston uudelleen käyttämällä uusia varastopaikan koodeja ja uusia varastopaikan ominaispiirteitä. Tällaista toimintoa ei suoriteta kovin usein, mutta eteen voi tulla tilanteita, jolloin uudelleenluokittelu on tarpeen, jotta saavutettaisiin tai ylläpidettäisiin tehokkaampaa toimintaa. Esimerkiksi:  
 
 - Haluat alkaa käyttää varastopaikkakoodeja, jotka tukevat automaattisen tiedonkeruun käyttöä esimerkiksi kannettavien laitteiden kanssa.  
@@ -26,7 +20,7 @@ Haluat ehkä järjestellä fyysisen varaston uudelleen käyttämällä uusia var
 
 Jos fyysinen varasto käyttää varastopaikkoja, mutta ei ohjattua hyllytystä ja poimintaa, määritä fyysisen varaston rakenne uudelleen luomalla uudet varastopaikat, joita haluat käyttää tulevaisuudessa.  
 
-## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Järjestele uudelleen perusvarastointi, joka käyttää vain varastopaikkoja  
+## Järjestele uudelleen perusvarastointi, joka käyttää vain varastopaikkoja  
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten vastaava linkki.  
 2.  Määritä sijaintikortissa **Varastointi**-pikavälilehden **Oletus var.paikan valinta** -kentän arvoksi **Viim. käyt. var.paikka**.  
 3.  Siirrä nykyisten varastopaikkojen koko sisältö juuri luomiisi uusiin varastopaikkoihin:  
@@ -41,7 +35,7 @@ Jos fyysinen varasto käyttää varastopaikkoja, mutta ei ohjattua hyllytystä j
 
 Olet nyt tyhjentänyt varastopaikat, joissa nimikkeet olivat. Nimikkeiden oletusvarastopaikoiksi on nyt muutettu päiväkirjan riveillä määritetyt uudet varastopaikat.  
 
-## <a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a>Järjestele uudelleen laajennettu varastointi, jossa on käytössä ohjattu hyllytys ja poiminta  
+## Järjestele uudelleen laajennettu varastointi, jossa on käytössä ohjattu hyllytys ja poiminta  
 
 1.  Luo uudet varastopaikat, joita haluat käyttää jatkossa. Lisätietoja on kohdassa [Varastopaikkojen luominen](warehouse-how-to-create-individual-bins.md).  
 2.  Siirrä nykyisten varastopaikkojen koko sisältö juuri luomiisi uusiin varastopaikkoihin:  
@@ -58,7 +52,7 @@ Olet nyt tyhjentänyt varastopaikat, joissa nimikkeet olivat. Nimikkeiden oletus
 
 Olet nyt poistanut fyysisen varastoinnin virrasta varastopaikat ja luokitellut ne uudestaan QC-varastopaikoiksi. QC-varastopaikoissa ei ole aktiviteetti-kenttiä **Varastopaikkatyypit**-sivulla valittuna ja näin ollen niitä ei huomioida nimikevirrassa. Lisätietoja on kohdassa [Varastopaikkojen määrittäminen](warehouse-how-to-set-up-bin-types.md).  
 
-## <a name="to-delete-a-bin"></a>Varastopaikan poistaminen  
+## Varastopaikan poistaminen  
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten vastaava linkki.  
 2.  Valitse sijainti, jossa haluat poistaa varastopaikkoja. Valitse **Varastopaikat**-toiminto.  
@@ -69,7 +63,7 @@ Jos napsautat **Kyllä**-painiketta, varastopaikka poistetaan käytöstä tuleva
 
 Jos haluat nimetä varastopaikan uudelleen, niin että myös kaikki varastopaikkaan tietueet nimetään uudelleen (tietueisiin kuuluvat varastopaikan sisältö, fyysisen varastoinnin toimintorivit, rekisteröidyt fyysisen varastoinnin toimintorivit, fyysisen varastoinnin työkirjarivit, fyysisen varastoinnin vastaanottorivit, kirjatut fyysisen varastoinnin vastaanottorivit, fyysisen varastoinnin toimitusrivit, kirjatut fyysisen varastoinnin toimitusrivit ja fyysisen varastoinnin tapahtumat), voit tehdä sen **Varastopaikat**-sivulla.  
 
-## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Varastopaikan nimeäminen uudelleen ja varastopaikkakoodin muuttaminen kaikkiin tietueisiin  
+## Varastopaikan nimeäminen uudelleen ja varastopaikkakoodin muuttaminen kaikkiin tietueisiin  
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten vastaava linkki.  
 2.  Valitse sijainti, jonka varastopaikan haluat nimetä uudelleen tai jossa haluat muuttaa varastopaikkakoodia, ja valitse sitten **Varastopaikat**-toiminto.  
@@ -81,12 +75,11 @@ Jos haluat nimetä varastopaikan uudelleen, niin että myös kaikki varastopaikk
 >   
 >  Jos olet nimeämässä uudelleen vastaanottavaa varastopaikkaa tai toimituksen varastopaikkaa, ohjelman täytyy nimetä uudelleen kaikki kirjatut vastaanotot tai toimitukset, jotka viittaavat kyseessä olevaan varastopaikkaan.  
 
-## <a name="see-also"></a>Katso myös  
-[Varastoinninhallinta](warehouse-manage-warehouse.md)  
-[Vaihto-omaisuus](inventory-manage-inventory.md)  
+## Katso myös  
+[Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
+[Varasto](inventory-manage-inventory.md)  
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)     
 [Kokoonpanon hallinta](assembly-assemble-items.md)    
-[Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

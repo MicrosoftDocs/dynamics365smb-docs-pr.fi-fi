@@ -1,22 +1,16 @@
 ---
 title: Hyväksyntätyönkulkujen määrittäminen (sisältää videon)
-description: Määritä työnkulut, työnkulun käyttäjät ja hyväksynnän käyttäjät yhdistääksesi näiden eri käyttäjien suorittamat liiketoimintaprosessin järjestelmätehtävät.
+description: 'Määritä työnkulut, työnkulun käyttäjät ja hyväksynnän käyttäjät yhdistääksesi näiden eri käyttäjien suorittamat liiketoimintaprosessin järjestelmätehtävät.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 04067d8cb0ee786b3738fb0cc7055d0b84c001d0
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585754"
 ---
-# <a name="set-up-approval-workflows"></a>Määritä hyväksymistyönkulut
+# Määritä hyväksymistyönkulut
 
 Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät eri käyttäjien suorittamista liiketoimintaprosessin tehtäviä. Järjestelmätehtäviä (kuten automaattinen kirjaus) voidaan sisällyttää työnkulkuihin, joita käyttäjän tehtävät edeltävät tai seuraavat. Uusien tietueiden luontiin liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita. Lisätietoja on kohdassa [Hyväksyntätyönkulkujen käyttäminen](across-use-workflows.md).
 
@@ -41,16 +35,16 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 |Jaa työnkulkuja muiden [!INCLUDE[prod_short](includes/prod_short.md)]in tietokantojen kanssa.|[Hyväksyntätyönkulkujen vienti ja tuonti](across-how-to-export-and-import-workflows.md)|  
 |Opi määrittämään myyntiasiakirjojen työnkulkujen hyväksyntäpyyntöjä päästä päähän -menetelmällä.|[Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
-## <a name="example-of-an-approval-workflow"></a>Esimerkki hyväksymistyönkulusta
+## Esimerkki hyväksymistyönkulusta
 
 Tässä videossa kerrotaan, miten määritetään työnkulku, joka edellyttää käyttäjältä jonkun toisen hyväksynnän pyytämistä, ennen kuin on mahdollista muuttaa olemassa olevan asiakkaan tietoja tai luoda uutta asiakasta.  
 <br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Hyväksymistyönkulkujen käyttäminen](across-use-workflows.md)  
 [Työnkulku](across-workflow.md)  

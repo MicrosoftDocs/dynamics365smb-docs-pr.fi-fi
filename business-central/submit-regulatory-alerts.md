@@ -1,24 +1,18 @@
 ---
 title: Lakisääteisten ilmoitusten lähettäminen
-description: Jos olet tietoinen uudesta lainsäädännöstä, jota on tuettava Business Centralissa, voit lähettää lakisääteisen ilmoituksen tuotetiimille tämän oppaan ohjeiden avulla.
+description: 'Jos olet tietoinen uudesta lainsäädännöstä, jota on tuettava Business Centralissa, voit lähettää lakisääteisen ilmoituksen tuotetiimille tämän oppaan ohjeiden avulla.'
 author: sorenfriisalexandersen
 ms.topic: conceptual
 ms.reviewer: edupont
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: soalex
-ms.openlocfilehash: 7601f1bef58ed914385957ef70ad8b924c4499a0
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335108"
 ---
-# <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Maa- tai aluekohtaisten lakisääteisiä ominaisuuksia koskevien ilmoitusten lähettäminen
+# Maa- tai aluekohtaisten lakisääteisiä ominaisuuksia koskevien ilmoitusten lähettäminen
 
 Voit lähettää lakisääteisiä ilmoituksia Microsoft Dynamics Lifecycle Servicesin (LCS) kautta Dynamicsin lakisääteisten ilmoitusten lähetyspalveluun.  
 
-## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Lakisääteisen ilmoituksen lähettäminen LCS:ssä
+## Lakisääteisen ilmoituksen lähettäminen LCS:ssä
 
 1. Siirry osoitteeseen [https://lcs.dynamics.com](https://lcs.dynamics.com) ja kirjaudu sisään  
 
@@ -71,7 +65,7 @@ Voit lähettää lakisääteisiä ilmoituksia Microsoft Dynamics Lifecycle Servi
 
       Kun olet lähettänyt ilmoituksen, saat vahvistuksen, että ilmoituksen lähetys Microsoftille onnistui.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [[!INCLUDE[prod_long](includes/prod_long.md)]in paikalliset toiminnot](about-localization.md)  
 [Kielen ja kielialueen muuttaminen](about-locale-language.md)  

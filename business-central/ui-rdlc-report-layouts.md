@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9650, 9652
+ms.search.keywords: 'customized report, document layout, logo, personalize'
+ms.search.form: '9650, 9652'
 ms.date: 03/14/2022
 ms.author: jswymer
-ms.openlocfilehash: 0d3a1ce19b094fa77ae332a8dc90f1e8b3712cbf
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532482"
 ---
-# <a name="working-with-rdlc-layouts"></a>RDLC-asettelujen käyttö
+# RDLC-asettelujen käyttö
 
 RDLC-asettelut perustuvat asiakkaan määrittelemiin raportinasettelutiedostoihin (.rdl- tai .rdlc-tiedostotyypit). RDLC-asettelujen suunnittelukäsitteet muistuttavat muita asettelutyyppejä. Asettelu määrittää, mitkä kentät näytetään ja miten ne järjestetään. RDLC-asetteluiden suunnitteleminen on kuitenkin monimutkaisempaa kuin Word- ja Excel-asetteluiden.
 
 [![Näyttää RDLC-asettelun erilaiset elementit.](media/rdlc-layout.png)](media/rdlc-layout.png#lightbox)
 
-## <a name="required-tools"></a>Tarvittavat työkalut
+## Tarvittavat työkalut
 
 Voit muokata RDL-asetteluja käyttämällä joko Microsoft SQL Server Report Builderia tai Microsoft RDLC Report Designeria.
 
@@ -31,7 +25,7 @@ Voit muokata RDL-asetteluja käyttämällä joko Microsoft SQL Server Report Bui
 
 - RDLC Report Designer on Visual Studio 2017:n ja uudempien versioiden laajennus. Voit ladata ja asentaa RDLC Report Designer -ohjelman [Visual Studio Marketplacesta](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftRdlcReportDesignerforVisualStudio-18001).
 
-## <a name="create-and-modify-rdlc-layouts"></a>RDLC-asettelujen luominen ja muokkaaminen
+## RDLC-asettelujen luominen ja muokkaaminen
 
 RDLC-asettelujen luominen ja muokkaaminen on edistyksellinen tehtävä, jonka tekevät tyypillisesti tehokäyttäjät tai kehittäjät. Peruskäsitteet eivät liity Business Central -raportin asetteluihin. Tästä syystä pyydämme sinua tutustumaan seuraaviin asiakirjoihin:
 
@@ -47,9 +41,9 @@ RDL/RDLC:n liittyen sekä miten Report Builderia käytetään.
 > [!NOTE]
 > Report Builder tunnistaa vain .rdl-tiedostotyypin, ei .rdlc-tyyppiä. Business Centralista viedyt asettelutiedostot ovat .rdlc-tiedostotyyppiä. Jotta voit muokata näitä asetteluja Report Builderissa, nimeä tiedosto uudelleen muotoon .rdl.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  
 [Raportin käyttämän asettelun määrittäminen](ui-set-report-layout.md)  

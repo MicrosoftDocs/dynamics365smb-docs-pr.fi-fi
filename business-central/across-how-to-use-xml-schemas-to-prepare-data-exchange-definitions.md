@@ -1,22 +1,16 @@
 ---
 title: XML-mallit tiedonsiirtomääritysten valmistelua varten
-description: Käytä XML-malleja tiedonsiirtokehyksen määrittämiseen, jotta voit määrittää, minkä tietoelementtien kanssa haluat tehdä siirtoja.
+description: 'Käytä XML-malleja tiedonsiirtokehyksen määrittämiseen, jotta voit määrittää, minkä tietoelementtien kanssa haluat tehdä siirtoja.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: cbaa75f196f75b79e83becb80006f6b4dc2aa291
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130946"
 ---
-# <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>XML-mallien käyttäminen tiedonsiirtomääritysten valmisteluun
+# XML-mallien käyttäminen tiedonsiirtomääritysten valmisteluun
 
 Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[prod_short](includes/prod_short.md)]in tiedonsiirtokehyksessä määrittämällä [!INCLUDE[prod_short](includes/prod_short.md)]in kanssa vaihdettavat tietoelementit XML-mallien avulla. Se tehdään **XML-mallin tarkastelutoiminto** -sivulla lataamalla XML-rakennetiedosto, valitsemalla sopivat tietoelementit ja käynnistämällä siiten tiedonsiirtomääritys.  
 
@@ -30,7 +24,7 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[pro
 
 - XML-rakenteeseen perustuvan tietojen vaihtamismäärityksen luominen  
 
-## <a name="to-load-an-xml-schema-file"></a>XML-rakennetiedoston lataaminen
+## XML-rakennetiedoston lataaminen
 
 1. Varmista, että sopiva XML-rakennetiedosto on saatavilla. Tiedostotunniste on .xsd.  
 
@@ -54,7 +48,7 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[pro
     > [!NOTE]  
     >  Ladatun XML-rakenteen puu on oletusarvoisesti tiivistettynä. Solmun voi laajentaa **+**-painikkeella. Kaikki solmut voi laajentaa käyttämällä **Laajenna kaikki** -painiketta valintanauhasta.  
 
-### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Solmujen valitseminen ja tyhjentäminen XML-rakenteessa  
+### Solmujen valitseminen ja tyhjentäminen XML-rakenteessa  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XML-mallin tarkastelutoiminto** ja valitse sitten vastaava linkki.  
 
@@ -92,7 +86,7 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[pro
 
      **Valinta**-kenttä määrittää, että solmulla on vähintään kaksi sisarussolmua, jotka toimivat vaihtoehtoina.  
 
-### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>XML-rakenteeseen perustuvan tietojen vaihtamismäärityksen luominen  
+### XML-rakenteeseen perustuvan tietojen vaihtamismäärityksen luominen  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XML-mallit** ja valitse sitten vastaava linkki.  
 
@@ -110,7 +104,7 @@ Voit ottaa XML-tiedostojen tietojen tuonnin ja viennin käyttöön [!INCLUDE[pro
 > [!NOTE]
 > Vuoden 2019 1. julkaisuaallossa ja sitä edeltävissä versioissa voitiin luoda rakenteeseen perustuva XMLport, joka sitten tuotiin ratkaisuun. Tämä ei ole enää mahdollista.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md)  
 [Maksujen vienti pankkitiedostoon](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

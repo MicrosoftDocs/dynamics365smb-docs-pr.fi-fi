@@ -1,6 +1,6 @@
 ---
 title: 'Vian etsintä: kameran ja sijainnin käyttäminen'
-description: Tässä artikkelissa kuvataan, miten voidaan tehdä vianmääritys kameran ja sijaintitietojen käyttämiseen Business Centralin avulla.
+description: 'Tässä artikkelissa kuvataan, miten voidaan tehdä vianmääritys kameran ja sijaintitietojen käyttämiseen Business Centralin avulla.'
 author: bholtorf
 ms.author: bholtorf
 ms.date: 04/01/2021
@@ -9,24 +9,19 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: conceptual
-ms.openlocfilehash: d2b967e3541eee99f7e96978e866f79faabaecdd
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605871"
 ---
-# <a name="troubleshooting-accessing-camera-and-location"></a>Vian etsintä: kameran ja sijainnin käyttäminen
+
+# Vian etsintä: kameran ja sijainnin käyttäminen
 
 Saatat törmätä joihinkin ongelmiin, kun yrität käyttää laitteen kameraa ja sijaintitietoja kohteesta [!INCLUDE[prod_short](includes/prod_short.md)]. Löydät mahdolliset syyt näiden ongelmien takana ja voit kiertää ne alla olevien ohjeiden avulla.
 
-## <a name="device-must-have-camera-and-location-capabilities"></a>Laitteessa on oltava kamera- ja sijaintiominaisuudet
+## Laitteessa on oltava kamera- ja sijaintiominaisuudet
 
 Jotta voisit käyttää kameraa tai käyttäjän sijaintia laitteesta, laitteessa on oltava fyysinen kamera tai mahdollisuus hakea sijaintitietoja.
 
 Jos laitteessa on kamera ja sijaintiominaisuudet, mutta ongelmia ilmenee edelleen, jotkin ohjaimet on ehkä päivitettävä tai asennettava uudelleen. Vaikka et olisikaan varma, suosittelemme aina, että päivität laitteesi käyttöjärjestelmän, ohjaimet ja selaimen uusimpaan versioon saadaksesi parhaan käyttökokemuksen.
 
-## <a name="access-permissions-not-enabled"></a>Käyttöoikeuksia ei ole otettu käyttöön
+## Käyttöoikeuksia ei ole otettu käyttöön
 
 Sinun on otettava käyttöön kameran ja sijainnin yleinen käyttöoikeus laitteesi tietosuoja-asetuksista ja annettava niille eksplisiittisesti käyttöoikeus kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]. Jos haluat esimerkiksi tarkastella tai muuttaa Windowsissa suoritettavan laitteen käyttöoikeuksia, valitse **Asetukset**, valitse **Yksityisyys** ja valitse sitten **Sovelluksen käyttöoikeudet**. 
 
@@ -39,21 +34,21 @@ Oletusarvon mukaan laite tai selain näyttää pyynnön käyttää näitä omina
 > [!NOTE]  
 > Jotkin vanhat selaimet eivät salli kameran ja sijainnin käyttöä. Kamera ei ole käytettävissä esimerkiksi Internet Explorerissa tai vanhassa Edge-selaimessa.
 
-## <a name="web-client-connection-not-secure"></a>WWW-asiakasohjelman yhteys ei ole suojattu
+## WWW-asiakasohjelman yhteys ei ole suojattu
 
 Kamera- ja sijaintiominaisuudet ovat käytettävissä vain, kun WWW-asiakasohjelmaa käytetään SSL-suojattujen HTTP-yhteyksien avulla `https://`-URI-mallin avulla. 
 
 Ainoa poikkeus on yhteyden muodostus kohteeseen `http://localhost`, jota käytetään kehitys- ja testitarkoituksiin.
 
 
-## <a name="work-with-virtualization-technologies"></a>Virtualisointitekniikoiden käyttäminen
+## Virtualisointitekniikoiden käyttäminen
 
 Kun muodostat yhteyden kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)] etätyöpöydän tai muun virtualisoinnin kautta, kameran tai sijainnin käyttö ei välttämättä ole käytettävissä. Käytä tässä tapauksessa fyysistä järjestelmää sen sijaan.
 
-## <a name="antivirus-software"></a>Virustentorjuntaohjelmisto
+## Virustentorjuntaohjelmisto
 Jotkin virustentorjuntaohjelmat estävät oletusarvoisesti kameran ja sijainnin käytön. Muista tarkistaa virustentorjuntaohjelman asetukset.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Kameran käyttöönotto AL:ssä](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [Sijainnin käyttöönotto AL:ssä](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
 

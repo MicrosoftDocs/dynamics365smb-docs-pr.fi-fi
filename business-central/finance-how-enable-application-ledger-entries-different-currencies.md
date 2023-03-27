@@ -1,23 +1,17 @@
 ---
 title: Eri valuutoissa olevien tapahtumien kohdistaminen
-description: Jos asiakkaan maksu vastaanotetaan eri valuuttana kuin myytäessä käytetty valuutta, voidaan kirjanpitotapahtumat kohdistaa useana valuuttana.
+description: 'Jos asiakkaan maksu vastaanotetaan eri valuuttana kuin myytäessä käytetty valuutta, voidaan kirjanpitotapahtumat kohdistaa useana valuuttana.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: multiple currencies, payment, reconcile
-ms.search.form: 148, 460, 25
+ms.search.keywords: 'multiple currencies, payment, reconcile'
+ms.search.form: '148, 460, 25'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e8a09e2a832e5461b0a597a9caf4af8e9d7af7e9
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529053"
 ---
-# <a name="enable-application-of-ledger-entries-in-different-currencies"></a>Tapahtumakirjausten kohdistamisen ottaminen käyttöön eri valuutoissa
+# Tapahtumakirjausten kohdistamisen ottaminen käyttöön eri valuutoissa
 
 Jos ostat toimittajalta yhdessä valuutassa ja maksat maksun toisessa valuutassa, maksu voidaan kohdistaa ostoon.
 
@@ -25,7 +19,7 @@ Ja jos asiakkaalle myydään yhdessä valuutassa ja maksu vastaanotetaan toisess
 
 Seuraavassa kuvataan, miten tämä määritetään toimittajatapahtumille **Ostojen ja ostovelkojen asetukset** -sivulla. Asetukset tehdään samoin kuin asiakastapahtumille **Myyntien ja myyntisaamisten asetukset** -sivulla.
 
-## <a name="to-enable-application-of-vendor-ledger-entries-in-different-currencies"></a>Toimittajatapahtumien kohdistamisen ottaminen käyttöön eri valuutoissa
+## Toimittajatapahtumien kohdistamisen ottaminen käyttöön eri valuutoissa
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostojen ja maksettavien määritys** ja valitse sitten vastaava linkki.
 2. Valitse **Valuuttojen välinen kohdistus** -kentässä jokin seuraavista vaihtoehdoista.
@@ -36,7 +30,7 @@ Seuraavassa kuvataan, miten tämä määritetään toimittajatapahtumille **Osto
 | EMU |EMU-valuuttojen välinen kohdistus sallitaan. |
 | Kaikki |Kaikkien valuuttojen välinen kohdistus sallitaan. |
 
-## <a name="to-set-up-gl-accounts-for-currency-application-rounding-differences"></a>KP-tilien määrittäminen valuutan kohdistuksen pyöristyseroille
+## KP-tilien määrittäminen valuutan kohdistuksen pyöristyseroille
 
 Jos eri valuutoissa olevia tapahtumia kohdistetaan, täytyy määrittää KP-tilit, jolle haluat kirjata pyöristyserot.  
 
@@ -48,9 +42,9 @@ Jos eri valuutoissa olevia tapahtumia kohdistetaan, täytyy määrittää KP-til
 3. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajan kirjausryhmät** ja valitse sitten vastaava linkki.  
 4. Anna **Debet val. kohd. pyör. tili**- ja **Kredit val. kohd. pyör. tili** -kenttiin asianmukaiset pääkirjanpitotilit, joihin pyöristyserot kirjataan.  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  

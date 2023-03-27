@@ -1,23 +1,17 @@
 ---
 title: KET-menetelmien laskeminen ja projektin edistymisen kirjaaminen
-description: Tässä artikkelissa kerrotaan KET-menetelmistä, joilla kirjataan, seurataan ja lasketaan keskeneräisen projektien rahoitustietoja.
+description: 'Tässä artikkelissa kerrotaan KET-menetelmistä, joilla kirjataan, seurataan ja lasketaan keskeneräisen projektien rahoitustietoja.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: work in process, work in progress, calculate project WIP
+ms.search.keywords: 'work in process, work in progress, calculate project WIP'
 ms.search.form: 1010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f04d66359274aece8780173cd2806382e3bb3892
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529863"
 ---
-# <a name="understanding-wip-methods-in-project-management"></a>Tietoja projektinhallinnan KET-menetelmistä
+# Tietoja projektinhallinnan KET-menetelmistä
 
 Projektin edetessä kulutetaan materiaaleja, resursseja ja muita kuluja, ja nämä on kirjattava projektiin. Keskeneräinen työ (KET) on ominaisuus, jonka avulla voit arvioida kirjanpidossa olevien projektien taloudellisen arvon projektin ollessa meneillään. Monissa tapauksissa saatat kirjata projektille kuluja ennen projektin laskuttamista. Kun projektista on kirjattu vain kuluja, rahoituslaskelma on epätarkka.
 
@@ -33,9 +27,9 @@ Voit seurata arvoa kirjanpidossa laskemalla KET:n ja kirjaamalla arvon kirjanpit
 | Valmistumisen prosenttiosuus |Tuloutetut kustannukset = käytön kokonaiskustannukset<br /><br /> Tuloutettu tuotto = laskutettava kokonaishinta x valmistumisen %-osuus<br /><br /> Valmistumisen %-osuus = käytön kokonaiskustannukset / budjetoidut kokonaiskustannukset<br /> (Tallennetaan projektitehtäväriveillä **Kustannuksen valmistumisprosentti** -kenttään)<br /><br /> KET-myynti = tuloutettu myynti - laskutettava laskutettu hinta |Valmistumisen %-osuuden laskennat tulouttavat tuoton suhteessa valmistumisen prosenttiosuuteen (eli käytön kokonaiskustannuksiin ja budjetin kustannuksiin).<br /><br /> Tämä laskenta vaatii, että koko projektin laskutettava kokonaishinta ja budjetin kokonaiskustannukset on syötettävä oikein. |
 | Valmis sopimus |KET-summa = KET-kustannusten summa = käyttö (kokonaiskustannukset)<br /><br /> KET-myynnin summa = laskutettava (laskutettu hinta) |Valmis sopimus ei tulouta tuottoa ja kustannuksia ennen projektin valmistumista. Tästä voi olla hyötyä, kun projektin kustannusten ja tuoton arviointi on hyvin epävarmaa.<br /><br /> Kaikki käyttö kirjataan KET-kustannusten tilille (saatavat) ja kaikki laskutettu myynti kirjataan laskutetun KET-myynnin tilille (velat), kunnes projekti on valmis. |
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/calculate-post-job-wip/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/calculate-post-job-wip/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Projektinhallinta](projects-manage-projects.md)  
 [Rahoitus](finance.md)  

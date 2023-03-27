@@ -1,22 +1,16 @@
 ---
 title: Business Centralin poistaminen tai tilauksen peruuttaminen
-description: Opi poistamaan tai poistamaan käytöstä Business Central -asennus, jos sinulla on kokeiluversion tilaus tai maksullinen tilaus.
+description: 'Opi poistamaan tai poistamaan käytöstä Business Central -asennus, jos sinulla on kokeiluversion tilaus tai maksullinen tilaus.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: remove, delete
+ms.search.keywords: 'remove, delete'
 ms.date: 06/08/2022
 ms.author: edupont
-ms.openlocfilehash: 929993c80c52857dd01e978552654c7f5a42e496
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950117"
 ---
-# <a name="unsubscribe-or-remove-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in tilauksen peruuttaminen tai poistaminen
+# [!INCLUDE[prod_short](includes/prod_short.md)]in tilauksen peruuttaminen tai poistaminen
 
 Jos haluat lopettaa [!INCLUDE[prod_short](includes/prod_short.md)]:n käytön, voit sulkea tilisi tai pyytää poistamaan käyttöoikeuden tilistäsi. Suoritettavat vaiheet ovat erilaisia, jos käytössäsi maksuton kokeilu tai jos sinulla on tilaus.  
 
@@ -29,11 +23,11 @@ Jos haluat päättää tilauksen, järjestelmänvalvojan on poistettava tilaus M
 
 Voit lukea tietojen viemisestä Exceliin kohdasta [Tietojen vienti muihin rahoitusjärjestelmiin](about-export-data.md#exporting-data-to-other-finance-systems). Jos haluat mieluummin viedä kaikki tiedot Azure Storage -konttiin, Microsoft 365 -järjestelmänvalvoja voi tehdä sen hallintakeskuksessa. Lisätietoja on kohdassa [Tietokantojen vieminen hallintakeskuksessa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export).  
 
-## <a name="removing-prod_short-from-your-app-launcher"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in poistaminen sovellusten käynnistysohjelmasta
+## [!INCLUDE[prod_short](includes/prod_short.md)]in poistaminen sovellusten käynnistysohjelmasta
 
 Jos haluat piilottaa [!INCLUDE[prod_short](includes/prod_short.md)]in sovellusten käynnistysohjelmalta, voit poistaa sen kiinnityksen. Tietoja ei menetetä, eikä tämä vaihe peruuta tilaustasi.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Business Central -kokeiluversion usein kysytyt kysymykset](trial-faq.md)  
 [Kokeilut ja tilaukset (järjestelmänvalvojille)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

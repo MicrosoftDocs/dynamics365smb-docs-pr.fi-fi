@@ -1,27 +1,22 @@
 ---
 title: QuickBooks Onlinen tietojen siirtolaajennus
-description: Tässä ohjeaiheessa käsitellään, miten laajennuksella siirretään asiakkaita, toimittajia, nimikkeitä ja tilejä QuickBooks Onlinesta Business Centraliin.
+description: 'Tässä ohjeaiheessa käsitellään, miten laajennuksella siirretään asiakkaita, toimittajia, nimikkeitä ja tilejä QuickBooks Onlinesta Business Centraliin.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: extension, migrate, data, QuickBooks, import
-ms.search.form: 1830,
+ms.search.keywords: 'extension, migrate, data, QuickBooks, import'
+ms.search.form: '1830,'
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4c0e9a89b81e9d967482d79e91b4aa05619fc658
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528569"
 ---
-# <a name="the-quickbooks-online-data-migration-extension"></a>QuickBooks Onlinen tietojen siirtolaajennus
+
+# QuickBooks Onlinen tietojen siirtolaajennus
 
 Tämä laajennus sisältyy **tietojen siirron** asetusten ohjattuun määritykseen, joka auttaa siirtämään tärkeitä liiketoimintatietoja QuickBooks Onlinesta [!INCLUDE[prod_short](includes/prod_short.md)]iin. Tämä on kätevää esimerkiksi tilanteessa, jossa liiketoiminta kasvaa ja olet päättänyt päivittää liiketoiminnan hallintasovelluksen aloittamalla [!INCLUDE[prod_short](includes/prod_short.md)]in käytön.
 
-## <a name="what-data-can-i-import-from-quickbooks-online"></a>QuickBooks Onlinesta siirrettävät tiedot
+## QuickBooks Onlinesta siirrettävät tiedot
 
 Voit tuoda seuraavat tiedot QuickBooks Onlinesta [!INCLUDE[prod_short](includes/prod_short.md)]iin:  
 
@@ -38,7 +33,7 @@ Myynti- ja ostoasiakirjoissa vain täydet summat siirretään. Osittain maksettu
 > [!NOTE]  
 > Osto- tai myyntitilauksia ei siirretä.
 
-## <a name="before-you-start"></a>Ennen kuin aloitat
+## Ennen kuin aloitat
 
 Siirtoprosessiin olennaisesti kuuluva osa on määrittää tilit, joihin tapahtumat siirretään. Nämä yhdistämismääritykset on hyvä suunnitella ennen tietojen siirtoa. Kyse on esimerkiksi tileistä, joille seuraavat tapahtumat kirjataan:  
 
@@ -50,14 +45,14 @@ Siirtoprosessiin olennaisesti kuuluva osa on määrittää tilit, joihin tapahtu
 
 Jos QuickBooks Onlinen tapahtumissa on verosummia, [!INCLUDE[prod_short](includes/prod_short.md)]issa on määritettävä veroalueen verotili ennen tapahtumien kirjaamista.
 
-## <a name="how-do-i-start-using-the-extension"></a>Laajennuksen käytön aloittaminen
+## Laajennuksen käytön aloittaminen
 
 Aloittaminen on helppoa. Sinun tarvitsee vain suorittaa **tietojen siirron** asetusten ohjattu määritys. Ohjeet:
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asetusten ohjattu määritys** ja valitse sitten **Siirrä liiketoimintatiedot**.
 2. Noudata asetusten ohjatun määrityksen ohjeita.
 
-## <a name="what-do-i-do-after-i-migrate-data"></a>Toimenpiteet tietojen siirtämisen jälkeen
+## Toimenpiteet tietojen siirtämisen jälkeen
 
 Tietojen siirron jälkeen tapahtumien tila on **Kirjaamaton**, joten voit tarkastella niitä ja tehdä muutoksia. Voit tarkastella tapahtumia siirtymällä sivulle, jossa ne yleensä ovat. Voit tarkastella kirjaamattomia myyntilaskuja esimerkiksi siirtymällä **Myyntilaskut**-sivulle. Voit tarkastella maksupäiväkirjoja siirtymällä **Maksupäiväkirjat**-sivulle.  
 
@@ -67,9 +62,9 @@ Tietyt toimenpiteet kannattaa tehdä:
 * Jos käytät arvolisäveroa (ALV:tä), liiketoiminnan kirjausryhmä ja tuotteen kirjausryhmä on ehkä lisättävä kirjausasetuksiin ALV-summien kirjaamista varten.
 * Tarkista pääkirjanpidon tilien alkusaldot. QuickBooks Online ei tallenna kaikkien tilien ajankohtaisia saldoja, joten alkusaldoja on ehkä korjattava.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/migrate-data-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/migrate-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  

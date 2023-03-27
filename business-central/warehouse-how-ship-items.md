@@ -1,120 +1,126 @@
 ---
 title: Nimikkeiden toimittamimen
-description: Tässä artikkelissa kuvataan, miten nimikkeet toimitetaan varastosta sen mukaan, millainen fyysisen varastoinnin konfiguraatio toimituksen käsittelyä varten on.
-author: SorenGP
+description: Tässä artikkelissa käsitellään nimikkeiden toimittamista fyysisestä varastosta.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008
-ms.date: 09/02/2022
-ms.author: edupont
-ms.openlocfilehash: b66a0a0a4cad12c4f41c53569b0007c51e846de7
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531213"
+ms.date: 02/22/2023
+ms.custom: bap-template
+ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ---
-# <a name="ship-items"></a>Nimikkeiden toimittamimen
 
-Kun toimitat nimikkeitä fyysisestä varastosta, johon ei ole määritetty fyysisen varaston toimituskäsittelyä, toimitus vain kirjataan liittyvään asiakirjaan, kuten myyntitilaukseen, huoltotilaukseen, ostopalautustilaukseen tai lähtevään siirtotilaukseen.
+# Nimikkeiden toimittaminen fyysisen varaston toimituksena
 
-Kun toimitat nimikkeitä fyysisestä varastosta, johon määritetty toimituksen käsittely, nimikkeitä voi toimittaa vain sellaisten lähdeasiakirjojen perusteella, jotka muut yrityksen yksiköt ovat antaneet fyysiseen varastointiin toimintoa varten.
+[!INCLUDE[prod_short](includes/prod_short.md)]issa nimikkeet poimintaan ja toimitukseen on käytettävissä neljä tapaa, jotka käsitellään seuraavassa taulukossa.
 
-> [!NOTE]
-> Jos fyysisessä varastoinnissa käytetään laiturointia ja varastopaikkoja, voit katsoa jokaisen rivin osalta niiden nimikkeiden määrän, jotka on sijoitettu laiturointivarastopaikkoihin. Sovellus laskee nämä määrät automaattisesti aina, kun toimituksen kenttiä päivitetään. Jos kyseessä ovat nimikkeet, jotka sopivat valmisteltavaan toimitukseen, voit luoda poiminnan kaikille riveille ja sitten tehdä toimituksen loppuun. Lisätietoja on kohdassa [Nimikkeiden laiturointi](warehouse-how-to-cross-dock-items.md).
+|Tapa|Lähtevien käsittely|Vaadi poiminta|Vaadi toimitus|Monimutkaisuustaso (lisätietoja on kohdassa [Varastoinninhallinnan yleiskatsaus](design-details-warehouse-management.md))|  
+|------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
+|A|Poiminnan ja toimituksen kirjaaminen tilausriviltä|||Ei määritettyä fyysisen varaston toimintaa.|  
+|B|Poiminnan ja toimituksen kirjaaminen varaston poiminta-asiakirjasta|Otettu käyttöön||Perus: tilauksittain.|  
+|S|Poiminnan ja toimituksen kirjaaminen fyysisen varastoinnin toimitusasiakirjasta||Otettu käyttöön|Perus: useiden tilausten konsolidoitu vastaanoton ja toimituksen kirjaus.|  
+|P|Poiminnan kirjaaminen fyysisen varastoinnin poiminta-asiakirjasta ja toimituksen kirjaaminen fyysisen varastoinnin toimitusasiakirjasta|Otettu käyttöön|Otettu käyttöön|Lisäasetukset|  
 
-## <a name="ship-items-with-a-sales-order"></a>Nimikkeiden toimittaminen myyntitilauksella
+Lisätietoja nimikkeiden toimittamisesta on kohdassa [Lähtevä fyysisen varastoinnin virta](design-details-outbound-warehouse-flow.md).
 
-Seuraavissa ohjeissa käsitellään, miten nimikkeitä lähetetään myyntitilauksesta. Vaiheet ovat samankaltaiset ostopalautustilaukset, huoltotilauksille ja lähtevät siirtotilauksille.  
+Tässä artikkelissa viitataan taulukon menetelmiin C ja D. Kummassakin menetelmässä aloitetaan luomatta toimitusasiakirja lähdeasiakirjasta. Poimi sitten toimitukseen määritetyt nimikkeet.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset**, valitse sitten vastaava linkki.
-2. Avaa aiemmin luotu myyntitilaus tai luo uusi myyntitilaus. Lue lisää kohdasta [Tuotteiden myyminen](sales-how-sell-products.md).
-3. Anna **Toimitettava määrä** -kenttään lähetetty määrä.
+Jos sijainti edellyttää fyysisen varaston toimituksia, nimikkeitä voidaan toimittaa fyysiseen varastoon vapautettujen lähdeasiakirjojen perusteella. Lähdeasiakirjojen vapauttaminen mahdollistaa niissä olevien nimikkeiden käsittelyn fyysisessä varastossa. Esimerkkejä lähdeasiakirjoista:
 
-    **Toimitettava määrä** -kentän arvo päivitetään. Jos kyse on osatoimituksesta, arvo on pienempi kuin **Määrä**-kentän arvo. Lisätietoja on kohdassa [Osittaisten toimitusten käsitteleminen](sales-how-send-partial-shipments.md).
-4. Valitse **Kirjaa**-toiminto.
+* Myyntitilaukset
+* Ostopalautustilaukset
+* Siirtotilaukset
+* Huoltotilaukset
 
-> [!NOTE]
-> Jos organisaatio ei käytä myyntitilauksia, [!INCLUDE [prod_short](includes/prod_short.md)] olettaa, että koko määrä on lähetetty, kun kirjaat myyntilaskun. Jos tämä on ristiriidassa organisaation toimintatavan kanssa, kannattaa käyttää myyntitilauksia ja rekisteröidä toimitukset tässä artikkelissa kuvatulla tavalla.
+Fyysisen varaston toimitus voidaan luoda jommallakummalla tavalla:
 
-## <a name="ship-items-with-a-warehouse-shipment"></a>Nimikkeiden toimittaminen fyysisen varasto toimituksena
+* Push-menetelmässä työ tehdään tilauskohtaisesti. Luo asiakirjan fyysisen varaston toimitus valitsemalla lähdeasiakirjassa **Luo fyysisen varaston toimitus** -toiminto.
+* Pull-menetelmässä lähdeasiakirjan **Vapauta**-toiminto vapauttaa asiakirjan fyysiseen varastoon. Varastotyöntekijä luo ainakin yhdelle vapautetulle lähdeasiakirjalle **fyysisen varaston toimituksen**. Fyysisen varaston toimitus luodaan pull-menetelmässä seuraavasti.
 
-Luo ensin toimitusasiakirjan lähdeasiakirjasta. Poimi sitten toimitukseen määritetyt nimikkeet.
-
-### <a name="create-a-warehouse-shipment"></a>Fyysisen varaston toimituksen luominen
-
-Yleensä toimituksesta vastaava työntekijä luo fyysisen varastoinnin toimituksen. Seuraavissa ohjeissa kuvataan, miten toimitus luodaan manuaalisesti [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman oletusversiossa. Organisaatiollasi voi kuitenkin olla automatisoitu osa prosessia, kuten ulkoisten palveluntarjoajien tukemien kädessä pidettävien tai asennettujen skannereiden käyttö.  
+## Nimikkeiden toimittaminen käyttämällä fyysisen varaston asiakirjaa
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston toimitukset**, valitse sitten vastaava linkki.  
 2. Valitse **Uusi**.  
+3. Valitse **Nro**-kenttään numerosarja, jolla toimituksen tunnus luodaan.  
+4. Valitse **Sijaintikoodi**-kentässä toimituksen lähdesijainti. 
 
-    Täytä **Yleinen**-pikavälilehden kentät. Kun haet lähdeasiakirjan rivit, ohjelma kopioi otsikon tiedot kullekin riville.  
+    Lähdeasiakirjan rivejä noudettaessa joitakin sijainnin tietoja kopioidaan kullekin riville.  
+5. Jos sijainti edellyttää varastopaikkojen käyttöä, täytä **Varastopaikan koodi** -kenttä. Määritysten mukaan [!INCLUDE[prod_short](includes/prod_short.md)] voi lisätä varastopaikan koodin valmiiksi. Lisätietoja on kohdassa [Alueen ja varastopaikan koodit](warehouse-how-ship-items.md#zone-and-bin-codes).  
+6. Lähdeasiakirja voidaan hakea kahdella tavalla:
 
-    Jos fyysisen varaston määrityksissä on käytössä ohjattu hyllytys ja poiminta ja jos sijainnilla on oletusalue ja oletusvarastopaikka toimituksille, **Alueen koodi**- ja **Varastopaikkakoodi**-kentät täytetään automaattisesti, mutta voit muuttaa niiden arvoja tarpeen mukaan.  
+    * Valitse **Hae lähdeasiakirjat** -toiminto. **Lähdeasiakirjat - lähtevä** -sivu avautuu. Tällä sivulla voidaan valita toimitusta edellyttävät fyysiseen varastoon vapautetut lähdeasiakirjat.
+    * Valitse **Käytä suodat. kun haet lähd.d** -toiminto. **Suod. lähdeasiakirj. saamisek.** -sivu avautuu. Lähdeasiakirjan suodatin voidaan valita ja sitä voidaan käyttää. Kaikki vapautetut lähdeasiakirjan rivit, jotka täyttävät suodatusehdot, lisätään **F.var. toimitus** -sivulle. Lisätietoja on kohdassa [Lähdeasiakirjojen hakeminen suodattimia käyttämällä](warehouse-how-ship-items.md#how-to-use-filters-to-get-source-documents).
 
-    > [!NOTE]  
-    > Jos haluat toimittaa nimikkeitä, joiden fyysisen varastoinnin luokkakoodi ei ole sama kuin asiakirjan otsikon **Varastopaikkakoodi**-kentässä olevan varastopaikan luokkakoodi, poista otsikon **Varastopaikkakoodi**-kentän sisältö ennen lähdeasiakirjan rivien hakemista nimikkeitä varten.  
-3. Valitse **Hae lähdeasiakirjat** -toiminto. Näyttöön tulee **Lähdeasiakirjat**-sivu.
+    > [!NOTE]
+    > Jos sijainnissa käytetään kullakin rivillä laiturointia ja varastopaikkoja, laiturointivarastopaikkoihin asetettujen nimikkeiden määrää voidaan tarkastella. [!INCLUDE [prod_short](includes/prod_short.md)] laskee määrät aina, kun toimituksen kenttiä päivitetään. Jos nimikkeet ovat valmisteltavassa toimituksessa, kaikille nimikkeillä voidaan luoda poiminta ja viimeistellä sitten toimituksen. Lisätietoja on kohdassa [Nimikkeiden laiturointi](warehouse-how-to-cross-dock-items.md).
 
-    Voit käyttää uuden tai avoimen fyysisen varastoinnin toimituksen **Suod. lähdeasiakirj. saamisek.** -sivua hakiessasi toimitettavat nimikkeet määrittävän vapautetun lähdeasiakirjan rivit.
+7. Luo fyysisen varaston poiminta. Jos sijainti edellyttää poimintaa, fyysisen varaston toimitusten poimintatoiminnot voidaan luoda jommallakummalla tavalla:
 
-    1. Valitse **Käytä suodat. kun haet lähd.d** -toiminto.  
-    2. Määritä uusi suodatin antamalla kuvaileva koodi **Koodi**-kenttään, valitse **Muokkaa**-toiminto.  
-    3. Määritä ne lähdeasiakirjan rivien tyypit, jotka haluat hakea, täyttämällä soveltuvat suodatinkentät.  
-    4. Valitse **Aja**-toiminto.  
+    * Push-menetelmässä käytetään **Luo poiminta** -toimintoa. Valitse poimittavat rivit ja määritä poimintoja koskevat tiedot. Kyse voi olla esimerkiksi siitä, mistä varastopaikoista poimitaan ja mihin asetetaan sekä kuinka monta yksikköä käsitellään. Varastopaikat voidaan määrittää ennalta fyysisen varaston sijainnissa tai resurssissa.
+    * Pull-menetelmässä käytetään **Vapauta**-toimintoa. Hae määritetyt poiminnat käyttämällä **Poimintatyökirja**-sivun **Hae f. varastoinnin asiakirjat** -toimintoa. Kun fyysisen varastoinnin poiminnat on rekisteröity kokonaan, **Poimintatyökirja**-kohteen rivit poistetaan. Lisätietoja on kohdassa [Nimikkeiden poiminta fyysisen varastoinnin toimitusta varten](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-    Kaikki julkaistut lähdeasiakirjan rivit, jotka täyttävät suodatusehdot, on nyt lisätty **F.var. toimitus** -sivulla, josta aktivoit suodatustoiminnon.  
+> [!TIP]
+> Jos sijainnissa ei edellytetä poimintaa, fyysisen varaston toimitus voidaan tulostaa poimintaluetteloksi.
 
-    Määrittämäsi suodatinyhdistelmät tallennetaan **Suod. lähdeasiakirj. saamisek.** -sivulle tulevaa käyttöä varten. Voit tehdä niin monta suodatinyhdistelmää kuin haluat. Voit muuttaa ehtoja milloin tahansa valitsemalla **Muokkaa**-toiminnon.
+8. Määritä toimitettava määrä.  
 
-4. Valitse lähdeasiakirjat, joille haluat lähettää nimikkeitä, ja valitse sitten **OK**.  
+    Jos sijainti edellyttää poimintaa, **Toimitettava määrä** -kenttä päivitetään automaattisesti, kun poiminta rekisteröidään. Muussa tapauksessa **Toimitettava määrä** -kenttään täytetään kunkin rivin avoin määrä, kun fyysisen varaston toimitusrivi on luotu.
 
-Lähdeasiakirjojen rivit näkyvät **Fyysisen varaston toimitus** -sivulla. **Toimitettava määrä** -kenttään on jo täytetty jokaisen rivin avoimen määrä, mutta määrää voi muuttaa tarpeen mukaan. Jos olet poistanut **Yleinen**-pikavälilehden **Varastopaikkakoodi**-kentän sisällön ennen rivien hakemista, kirjoita kullekin toimitusriville soveltuva varastopaikkakoodi.  
+    Vaikka määrää voidaan muuttaa, toimitettavien nimikkeiden määrä ei voi ylittää arvoa, joka on lähdeasiakirjan rivin **Avoin määrä** -kentässä tai **Poimittu määrä** -kentässä, jos poiminta on pakollinen.
 
-> [!NOTE]  
-> Et voi toimittaa enempää nimikkeitä kuin lähdeasiakirjan rivin **Avoin määrä** -kentässä oleva määrä ilmaisee. Lähetä enemmän nimikkeitä hakemalla suodatintoiminnon avulla toinen lähdeasiakirja, jossa on rivi samalle nimikkeelle.  
+    Kaikkien rivien **Toimitettava määrä** -kentän arvoksi voidaan määrittää nolla valitsemalla **Poista toimitettava määrä** -toiminto. Määrän määrittäminen nollaksi on kätevää esimerkiksi silloin, jossa toimitusmäärä päivitetään viivakoodin lukijalla. Toimitettavissa oleva määrä lisätään valitsemalla **Täytä autom. toimitet. määrä** -toiminto.
 
-Kun olet hakenut rivit, jotka haluat toimittaa, aloita seuraavassa kuvatulla tavalla prosessi, joka lähettää rivit fyysisen varastoinnin työntekijöille poimintaa varten.
+9. Kirjaa toimitus.
 
-### <a name="pick-and-ship"></a>Poiminta ja lähettäminen
+## Lähdeasiakirjojen hakeminen suodattimien avulla
 
-Yleensä poiminnasta vastuussa oleva varastotyöntekijä luo poiminta-asiakirjan tai avaa jo luodun poiminta-asiakirjan.  
+Fyysisen varastoinnin toimituksen **Suod. lähdeasiakirj. saamisek.** -sivun avulla voidaan noutaa toimitettavat nimikkeet määrittävän vapautetun lähdeasiakirjan rivit.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston toimitukset**, valitse sitten vastaava linkki.
-2. Valitse ensin poimittava fyysisen varastoinnin toimitus ja sitten **Luo poiminta** -toiminto.
-3. Täytä pyyntösivun kentät ja valitse sitten **OK**. Määritetty fyysisen varastoinnin poiminta-asiakirja luodaan.
+1. Valitse fyysisen varaston toimituksessa **Käytä suodat. kun haet lähd.d** -toiminto. 
+2. Määritä uusi suodatin antamalla kuvaileva koodi **Koodi**-kenttään, valitse **Muokkaa**-toiminto.
 
-    Vaihtoehtoisesti voit avata aiemmin luodun fyysisen varaston poiminnan asiakirjan.
-4. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poiminnat** ja valitse sitten vastaava linkki. Valitse varastoinnin poiminta, jota haluat työstää.
+    **Lähdeasiakirjan suodatinkortti – lähtevä** -sivu avautuu.
 
-    Jos fyysisessä varastoinnissa käytetään varastopaikkoja, poimintarivit on muunnettu "ota ja aseta" -toimintoriveiksi.
+3. Määritä suodattimien avulla noudettavien lähdeasiakirjarivien tyyppi. Valittavissa on esimerkiksi lähdeasiakirjatyyppejä, kuten myynti- tai siirtotilauksia.
+4. Valitse **Suorita**.  
 
-    Jos käytät ohjattua hyllytystä ja poimintaa, voit järjestellä rivit, määrittää poiminnalle työntekijän, asettaa erottelusuodatuksen ja tulostaa poimintaohjeet.
+Kaikki suodatusehdot täyttävät vapautetut lähdeasiakirjan rivit lisätään sillä **F. varastoinnin toimitus** -sivulla, jossa suodattimet määritettiin.
 
-5. Tee varsinainen nimikkeiden poiminta ja siirrä nimikkeet määritettyyn toimituksen varastopaikkaan (tai toimitusalueelle, jos et käytä varastopaikkoja).
-6. Valitse **Rekisteröi poiminta** -toiminto.
+Voit tehdä niin monta suodatinyhdistelmää kuin haluat. Suodattimet tallennetaan **Suod. lähdeasiakirj. saamisek.** -sivulle, jossa ne ovat käytettävissä tulevaa käyttöä varten. Voit muuttaa ehtoja milloin tahansa valitsemalla **Muokkaa**-toiminnon.
 
-    Ohjelma päivittää **Toimitettava määrä** -kentän ja **Asiakirjan tila** -kentän toimitusasiakirjan otsikossa. Poimimasi nimikkeet eivät ole enää saatavilla muihin poimittaviin toimituksiin tai sisäisiin toimintoihin.
-7. Tulosta toimitusasiakirjat, valmistele toimituskollit ja kirjaa sitten toimitus.
+## Alueen ja varastopaikan koodit
 
-Lue lisätietoja poiminnasta fyysisen varaston toimituksia varten on kohdassa [Nimikkeiden poiminta fyysisen varastoinnin toimitusta varten](warehouse-how-to-pick-items-for-warehouse-shipment.md).
+Jos varastopaikat ovat pakollisia sijainnissa, [!INCLUDE [prod_short](includes/prod_short.md)] ehdottaa alueen ja varastopaikan koodia fyysisen varaston toimitusasiakirjassa.
 
-Voit tehdä useista poimintaohjeista yhden ohjeen (useille toimituksille) myös poimintatyökirjan avulla. Näin poiminta tehostuu fyysisessä varastossa. Lisätietoja on kohdassa [Suunnittele poiminta työkirjoissa](warehouse-how-to-plan-picks-in-worksheets.md).
+* Jos kyse on laajennetuista määrityksistä, joissa sijainti käyttää ohjattua hyllytystä ja poimintaa, [!INCLUDE [prod_short](includes/prod_short.md)] käyttää **sijaintikortin** **Toimituksen var.paikkakoodi** -kentässä määritettyä varastopaikkaa. Jos **toimituksen varastopaikan koodia** ei ole määritetty, kenttä on tyhjä. Jos nimikkeen ja toimituksen varastopaikka eivät ole samat, [!INCLUDE [prod_short](includes/prod_short.md)] jättää toimituksen varastopaikan tyhjäksi.
+* Muissa tapauksissa [!INCLUDE [prod_short](includes/prod_short.md)] käyttää aina ensin **sijaintikortin** **Toimituksen var.paikkakoodi** -kentässä määritettyä varastopaikkaa. Jos toimituksen varastopaikan koodia ei ole määritetty, [!INCLUDE [prod_short](includes/prod_short.md)] käyttää lähdeasiakirjan varastopaikan koodia.
+
+## Kokoonpano tilausta varten -nimikkeiden käsitteleminen fyysisen varastoinnin toimituksissa
+
+Jos kyseessä on kokoonpano tilausta varten, fyysisen varaston toimitusrivin **Toimitettava määrä** -kentän avulla voidaan kirjat koottujen yksiköiden lukumäärä. Määrä kirjataan kokoonpanon tuotoksena, kun fyysisen varastoinnin toimitus kirjataan. Muiden fyysisen varastoinnin toimitusrivien **Toimitettava määrä** -kentän arvo nolla.
+
+Kun työntekijät saavat koko Kokoonpano tilausta varten -määrän tai sen osan, määrä kirjataan fyysisen varaston toimitusrivin **Toimitettava määrä** -kenttään. Sen jälkeen valitaan **Kirjaa toimitus** -toiminto. Kirjattavan kokoonpanon tuotos sisältää myös komponentin kulutuksen. Määrän myyntitoimitus on kirjattu myyntitilaukseen.
+
+Valitse kokoonpanotilauksen **Kokoonpano tilausta varten: f. var. toimitusrivi**, kun haluat käyttää fyysisen varastoinnin toimitusriviä.
+
+Kun fyysisen varaston toimitus on kirjattu, myyntitilauksen rivin kentät päivitetään näyttämään eteneminen fyysisessä varastossa. Seuraavat kentät päivitetään lisäksi näyttämään kuinka monta kokoonpanoa tilausta varten on vielä koottava ja toimitettava:
+
+* **ATO-varaston avoin määrä**
+* **ATO-varaston avoin määrä (perus)**
 
 > [!NOTE]
-> Jos odotat tiettyjen nimikkeiden saapumista fyysiseen varastoon ja käytät laiturointitoimintoa, [!INCLUDE[prod_short](includes/prod_short.md)] laskee kunkin lähetys- tai poimintatyökirjan rivin laiturointilokerossa olevan tuotteen määrän. Ohjelma päivittää kentän aina, kun lähdet toimituksesta tai työkirjasta ja kun avaat toimitusasiakirjan tai työkirjan. Lisätietoja on kohdassa [Nimikkeiden laiturointi](warehouse-how-to-cross-dock-items.md).
+> Yhdistelmätilanteissa, joissa osa määrästä on koottava ja toinen osa on toimitettava varastosta, luodaan kaksi fyysisen varaston toimitusriviä. Toinen on kokoonpano tilausta varten -määrälle ja toinen varastomäärälle.
+>
+> Kokoonpano tilausta varten -määrä käsitellään tässä artikkelissa kuvatulla tavalla. Varastomäärä käsitellään tavallisena fyysisen varaston toimitusrivinä. Lisätietoja yhdistelmäskenaarioista on kohdassa [Tietoja Kokoonpano tilausta varten- tai Kokoonpano varastoon -toiminnoista](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/ship-invoice-items-dynamics-365-business-central/).
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/ship-invoice-items-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
-[Varastoinninhallinta](warehouse-manage-warehouse.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
-[Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
-[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Varastonhallinnan yleiskatsaus](design-details-warehouse-management.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

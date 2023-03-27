@@ -1,6 +1,6 @@
 ---
 title: Varastopaikkatyyppien määrittäminen
-description: Määritä varastopaikkojen tyypit ja työnkulkujen perusaktiviteetit ja määritä samalla tapa, jolla varastopaikkoja käytetään tietyissä fyysisen varaston toiminnoissa.
+description: 'Määritä varastopaikkojen tyypit ja työnkulkujen perusaktiviteetit ja määritä samalla tapa, jolla varastopaikkoja käytetään tietyissä fyysisen varaston toiminnoissa.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,20 +9,14 @@ ms.workload: na
 ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 2bec10341df30f451e05289573c48132cf20b00a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533992"
 ---
-# <a name="set-up-bin-types"></a>Varastopaikkatyyppien määrittäminen
+# Varastopaikkatyyppien määrittäminen
 
 Ohjelma on rakennettu ohjaamaan nimikevirta varastopaikkojen läpi, jotka olet määritellyt tietyille fyysisen varastoinnin aktiviteeteille. Kullekin varastopaikalle annetaan nimikevirran perusaktiviteetit – ja samalla määritellään tapa, jolla ohjelma käyttää varastopaikkaa – määrittelemälle sille varastopaikan tyyppi.  
 
 Tyyppejä on kuusi. Voit käyttää fyysistä varastointia kaikilla kuudella mahdollisella varastopaikan tyypillä tai voit valita käyttäväsi vain VASTOTTO-, HYLLPOIM-, LÄHETYS- JA QC-varastopaikan tyyppejä. Nämä neljä varastopaikan tyyppiä mahdollistavat sen, että ohjelma voi tehdä ehdotuksia nimikevirran tukemiseksi, ja ne mahdollistavat varaston eroavaisuuksien tallentamisen.  
 
-## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Haluamiesi varastopaikan tyyppien määrittäminen
+## Haluamiesi varastopaikan tyyppien määrittäminen
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastopaikkatyypit** ja valitse sitten vastaava linkki.  
 2.  Luo **Varastopaikkatyypit**-sivulla 10-merkkinen koodi varastopaikan tyypille.  
@@ -44,15 +38,14 @@ Varastopaikat, joita voi luoda, on luetteloitu seuraavassa.
 |HYLLPOIM|Nimikkeet varastopaikoissa, joille on ehdotettu sekä hyllytys- että poimintatoimintoa. Tämän tyyppisillä varastopaikoilla on todennäköisesti eri varastopaikan luokitteluja. Voit määrittää irtotavaran varastopaikat tämän tyyppiseksi varastopaikaksi, jolla on matalia varastopaikan luokitteluja verrattuna tavallisiin poimintavarastopaikkoihin tai edelleen poimimisen alueiden varastopaikkoihin.|  
 |QC|Tätä varastopaikkaa käytetään varastomuutoksille, jos varastopaikka määritetään sijaintikortissa **Muutosvarastopaikan koodi** -kentässä. Tämän tyyppisiä varastopaikkoja voi määrittää myös viallisille nimikkeille ja tarkastettaville nimikkeille. Nimikkeitä voi siirtää tämän tyyppiseen varastopaikkaan, jos haluat, että ne eivät ole saatavilla tavallisessa nimikevirrassa.<br /><br /> **HUOMAUTUS:** Toisin kuin kaikki muut varastopaikkatyypit, **QC** -varastopaikkatyypillä ei ole valittuna nimikkeen käsittelyn valintaruutuja oletusarvoisesti. Tämä osoittaa, että QC-varastopaikkaan asetettu sisältö jää pois nimikevirroista.|  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-zones-bins/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-zones-bins/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
-[Varastoinninhallinta](warehouse-manage-warehouse.md)  
+[Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
 [Varasto](inventory-manage-inventory.md)  
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
-[Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

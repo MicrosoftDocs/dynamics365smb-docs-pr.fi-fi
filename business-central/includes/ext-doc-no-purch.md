@@ -3,13 +3,8 @@ author: edupont04
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: edupont
-ms.openlocfilehash: f1c6ead7a776d11ccc8917944c3752ec6ac43c66
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132652"
 ---
+
 Ostoasiakirjoissa ja päiväkirjoissa voit määrittää asiakirjanumeron, joka viittaa toimittajan numerointijärjestelmään. Tämän kentän avulla voit tallentaa numeron, jonka toimittaja on määrittänyt tilaukselle, laskulle tai hyvityslaskulle. Tätä numeroa voi käyttää myöhemmin, jos sinun tarvitsee etsiä kirjattua merkintää tätä numeroa käyttämällä.
 
 **Ulkois. asiakirjan nro pakoll.** -kenttä **Ostojen ja ostovelkojen asetukset** -sivulla määrittää, onko ulkoisen asiakirjan numeron syöttäminen seuraavissa tilanteissa pakollista:

@@ -1,29 +1,23 @@
 ---
 title: Todellisten summien analysointi budjetoituihin summiin nähden
-description: Tässä artikkelissa kuvataan, miten voit analysoida todellisia summia budjetoituihin summiin verrattuna, jotta voit kerätä, analysoida ja jakaa yrityksesi tietoja.
+description: 'Tässä artikkelissa kuvataan, miten voit analysoida todellisia summia budjetoituihin summiin verrattuna, jotta voit kerätä, analysoida ja jakaa yrityksesi tietoja.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 120, 121, 422
+ms.search.keywords: 'bi, power BI, analysis, KPI'
+ms.search.form: '120, 121, 422'
 ms.date: 09/14/2022
 ms.author: edupont
-ms.openlocfilehash: 927622bf51f4474d995cd2e35f72ec3111844886
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605270"
 ---
-# <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Todellisten summien analysointi budjetoituihin summiin nähden
+# Todellisten summien analysointi budjetoituihin summiin nähden
 
 Yrityksesi tietojen keräämisen, analysoinnin ja jakamisen osana tarkastelet todellisia summia ja vertaat niitä kaikkien tilien sekä useiden ajanjaksojen budjetoituihin summiin.
 
 Budjetoitujen summia analysointia varten on ensin luotava pääkirjanpito (KP) -budjetteja. Lisätietoja on kohdassa [KP-budjettien luominen](finance-how-create-budgets.md).
 
-## <a name="view-a-gl-budget"></a>KP-budjetin tarkastelu
+## KP-budjetin tarkastelu
 
 Budjetissa, jossa on dimensioita, voi suodattaa tapahtumia ja siten tarkastella tiettyjä budjetteja.
 
@@ -40,7 +34,7 @@ Budjetissa, jossa on dimensioita, voi suodattaa tapahtumia ja siten tarkastella 
 > [!TIP]  
 > Muokkaa budjettia **Muokkaa budjettia** -toiminnon avulla. Valitse budjettisivulla summa, niin saat näkyviin sen perusteena olevat KP-budjetin tapahtumat.
 
-## <a name="view-actual-and-budgeted-amounts-for-all-accounts"></a>Todellisten ja budjetoitujen summien tarkastelu kaikkien tilien osalta
+## Todellisten ja budjetoitujen summien tarkastelu kaikkien tilien osalta
 
 Pääkirjanpidon budjettien tarkastelu ja niiden vertaaminen todellisiin lukuihin useilla [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman osa-alueilla.
 
@@ -57,7 +51,7 @@ Vasemmanpuoleisimmisssa sarakkeissa on tilikartta. Oikealla olevista viidestä s
 > [!TIP]  
 > Käyttämällä **Näyttöperuste**-kenttää **KP-saldo/budjetti**-sivulla voit valita jakson pituuden. **Näyttömuoto**-kentän avulla voit valita tavan, jolla summat lasketaan, joko **Nettomuutos** tai **Saldo pvm:ttäin**. Valitse **Edellinen jakso** tai **Seuraava jakso** -toiminto ja muuta jaksoa.  
 
-## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Useiden jaksojen todellisten ja budjetoitujen summien tarkastelu  
+## Useiden jaksojen todellisten ja budjetoitujen summien tarkastelu  
 
 Sen sijaan että tarkastelisit todellisia ja budjetoituja summia kaikkien tilien osalta yhdeltä kaudelta, voit tarkastella useita yhden tilin kausia.  
 
@@ -66,9 +60,9 @@ Sen sijaan että tarkastelisit todellisia ja budjetoituja summia kaikkien tilien
 3. Täyttämällä **Valinnat**-pikavälilehden kentät määrität, mitä näytetään taulukossa.  
 4. Vie osoitin taulukon kentän päälle **Rivit**-pikavälilehdellä voit lukea lyhyen kuvauksen näytettävästä summasta.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
+## Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Taloudelliset liiketoimintatiedot](bi.md)  
 [Talousraporttien käsitteleminen](bi-how-work-account-schedule.md)  

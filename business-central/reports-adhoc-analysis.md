@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 08/19/2022
 ms.author: edupont
-ms.openlocfilehash: 690aa39a73705b25a804111fbe939298a528c96a
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607902"
 ---
-# <a name="ad-hoc-data-analysis"></a>Ad-hoc-tietoanalyysi
+# Ad-hoc-tietoanalyysi
 
 Joskus [!INCLUDE[prod_short](includes/prod_short.md)]issa on analysoitava tietoja tavalla, joka ei ole mahdollinen vakiomuotoisessa raportissa. Tätä kutsutaan usein ad-hoc-analyysiksi. Alla on linkkejä, joiden avulla opit käyttämään ominaisuutta.
 
@@ -27,7 +21,7 @@ Joskus [!INCLUDE[prod_short](includes/prod_short.md)]issa on analysoitava tietoj
 | Raportin tietojoukon tietojen tarkastelu ja analysointi Excelissä. | [Raportin tietojoukon tallennus Exceliin pyyntösivulta](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 | Taloustietojen tarkastelu ja analysointi talousraporttien avulla. | [Talousanalytiikka](bi.md) |
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Business Intelligencen ja raportoinnin yleiskuva](ui-work-report.md)
 

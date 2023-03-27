@@ -1,22 +1,16 @@
 ---
 title: Hyväksyntätyönkulkujen luominen tehtävien yhdistämistä varten
-description: Lue lisää siitä, miten voit luoda työnkulkuja, jotka yhdistävät eri ihmisten suorittamia tehtäviä liiketoimintaprosesseissa.
+description: 'Lue lisää siitä, miten voit luoda työnkulkuja, jotka yhdistävät eri ihmisten suorittamia tehtäviä liiketoimintaprosesseissa.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 11/11/2022
 ms.author: bholtorf
-ms.openlocfilehash: 0d84da534c754ba7b0f6d1de97b61634ff743ddc
-ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9763254"
 ---
-# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Työnkulkujen luominen liiketoimintaprosessin yhdistämistehtäviä varten
+# Työnkulkujen luominen liiketoimintaprosessin yhdistämistehtäviä varten
 
 Voit luoda työnkulkuja, jotka yhdistävät eri käyttäjien suorittamia tehtäviä liiketoimintaprosesseissa. Järjestelmätehtäviä (kuten automaattinen kirjaus) voidaan sisällyttää työnkulkuihin, joita käyttäjän tehtävät edeltävät tai seuraavat. Uusien tietueiden luontiin liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.  
 
@@ -47,7 +41,7 @@ Työnkulku jakautuu kolmeen osaan:
 
 Sekä tapahtumien että vastausten vaihtoehdot ovat järjestelmän määrittämiä. Uusien lisäämistä varten on kehitettävä laajennus.
 
-## <a name="to-create-a-workflow"></a>Työnkulun luominen
+## Työnkulun luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut**, valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto. **Työnkulku**-sivu avautuu.  
@@ -117,7 +111,7 @@ Sekä tapahtumien että vastausten vaihtoehdot ovat järjestelmän määrittämi
 > [!TIP]  
 > Jos haluat nähdä työnkuluissa käytettävien taulukoiden väliset suhteet, valitse ![Kerro-ominaisuuden avaava hehkulamppu.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä sitten **Työnkulku – Taulukon suhteet**.  
 
-## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Esimerkki uuden työnkulun luomisesta aiemmin luotujen tapahtumien avulla
+## Esimerkki uuden työnkulun luomisesta aiemmin luotujen tapahtumien avulla
 
 Seuraavassa esimerkissä tehdään uusi työnkulku, joka hyväksyy muutokset aiemmin luodun toimittajan nimeen:
 
@@ -176,9 +170,9 @@ Seuraavassa kuvassa on yleiskuvaus tämän menettelyn tuloksesta.
 
 Testaa seuraavaksi työnkulku avaamalla aiemmin luotu toimittajakortti ja muuttamalla toimittajan nimeä. Varmista, että hyväksymispyyntö lähetetään toimittajan nimen muuttamisen jälkeen.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md)  
 [Hyväksyjäkäyttäjien määrittäminen](across-how-to-set-up-approval-users.md)  

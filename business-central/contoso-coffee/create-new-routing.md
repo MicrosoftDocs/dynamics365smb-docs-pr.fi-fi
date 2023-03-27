@@ -1,27 +1,22 @@
 ---
 title: Uuden reitityksen luominen
-description: Vaihekuvauksessa on tietoja siitä, miten uuden reitityksen tiedot syötetään manuaalisesti Business Centralissa.
+description: 'Vaihekuvauksessa on tietoja siitä, miten uuden reitityksen tiedot syötetään manuaalisesti Business Centralissa.'
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: deb1ef6ab18cbd6562ae18cc17495fe3e5021db1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525067"
 ---
-# <a name="walkthrough-create-a-new-routing"></a>Vaihekuvaus: Luo uusi reititys
+
+# Vaihekuvaus: Luo uusi reititys
 
 Tässä artikkelissa on tietoja Contoso Coffee -esittelytietojen käytöstä uuden tuotantoreitityksen manuaaliseen määrittämiseen [!INCLUDE [prod_short](../includes/prod_short.md)]issa.  
 
-## <a name="scenario"></a>Esimerkkitilanne
+## Esimerkkitilanne
 
 Contoso Coffeen prosessisuunnittelija Oscar päättää luoda uuden reitityksen nimellä *Uusi polku*. Koska reititys on erilainen kuin mikä tahansa muu reititys Contoso Coffeessa, hänen täytyy syöttää kaikki reitityksen tiedot manuaalisesti.  
 
-## <a name="steps"></a>Vaiheet
+## Vaiheet
 
 1. Luo reitityksen otsikko.  
 
@@ -60,6 +55,6 @@ Contoso Coffeen prosessisuunnittelija Oscar päättää luoda uuden reitityksen 
 
 Uusi reititys on nyt määritetty.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Johdatus Contoson kahvidemotietoihin](contoso-coffee-intro.md)  

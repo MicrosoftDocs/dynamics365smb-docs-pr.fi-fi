@@ -1,320 +1,300 @@
 ---
-title: 'Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet'
-description: Suunnittelutoiminnot ehdottavat käyttäjälle mahdollisia toimia perustuen kysyntä/tarjontatilanteeseen ja nimikkeiden suunnitteluparametreihin.
-author: SorenGP
+title: Rakennetiedot – suunnittelujärjestelmän keskeiset käsitteet
+description: Suunnittelu ehdottaa käyttäjälle mahdollisia toimia kysyntä- ja tarjontatilanteen sekä nimikkeiden suunnitteluparametrien perusteella.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: a9218bf8d8fa2c7f84b08380742df17bd7be7afe
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605162"
+ms.date: 01/25/2023
+ms.custom: bap-template
 ---
-# <a name="design-details-central-concepts-of-the-planning-system"></a>Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet
+# Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet
 
-Suunnittelutoiminnot on sisällytetty eräajoon, joka ensin valitsee asiaankuuluvat nimikkeet ja ajanjaksot, jotka suunnitellaan. Eräajo kutsuu codeunitia kunkin nimikkeen alatason koodin (tuotantorakenteen positio) mukaisesti ja laskee suunnitelman täsmäyttämällä tarjonta- ja kysyntäjoukot ja ehdottaa käyttäjälle mahdollisia toimintatapoja. Ehdotetut toimenpiteet ilmestyvät riveinä suunnittelutaulukkoon tai tilaustaulukkoon.  
+Suunnittelutoiminnot on sisällytetty eräajoon, joka ensin valitsee asiaankuuluvat nimikkeet ja ajanjaksot, jotka suunnitellaan. Erätyö kutsuu sitten kunkin nimikkeen alatason koodin mukaisen (sijainti tuoterakenteessa) codeunitin, joka laskee tarjontasuunnitelman. Codeunit täsmäyttää kysyntä- ja tarjontajoukot sekä ehdottaa käyttäjälle toimintoja. Ehdotetut toimenpiteet ilmestyvät riveinä suunnittelutaulukkoon tai tilaustaulukkoon.  
 
 ![Suunnittelutyökirjasivun sisältö.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Suunnittelutyökirja-sivun sisältö")  
 
-Yrityksen suunnittelijan, kuten ostaja tai tuotantosuunnittelija, oletetaan olevan suunnittelujärjestelmän käyttäjä. Suunnittelujärjestelmä auttaa käyttäjää suorittamaan laajat, mutta melko suoraviivaiset suunnitelman laskelmat. Tämän jälkeen käyttäjä voi keskittyä ratkaisemaan vaikeampia ongelmia, kuten esimerkiksi poikkeustilanteiden hallintaa.  
+Yrityksen suunnittelijan, kuten ostajan tai tuotantosuunnittelijan, oletetaan olevan suunnittelujärjestelmän käyttäjä. Suunnittelujärjestelmä auttaa käyttäjää suorittamaan laajat, mutta melko suoraviivaiset suunnitelman laskelmat. Tämän jälkeen käyttäjä voi keskittyä ratkaisemaan vaikeampia ongelmia, kuten esimerkiksi poikkeustilanteiden hallintaa.  
 
-Suunnittelujärjestelmää ohjaa ennakoitu ja nykyinen asiakaskysyntä, kuten ennuste ja myyntitilaukset. Kun suunnitelma lasketaan, sovellus ehdottaa käyttäjälle tiettyjä toimenpiteitä, jotka liittyvät mahdollisiin toimittajien toimituksiin, kokoonpanoon tai tuotanto-osastoihin tai siirtoihin muista varastoista. Näiden ehdotettujen toimintojen avulla voi luoda uusia toimitustilauksia, kuten osto- tai tuotantotilauksia. Jos toimitustilauksia on jo tehty, ehdotettuja toimenpiteitä voivat olla tilausten lisääminen tai vauhdittaminen muuttuneen kysynnän mukaisiksi.  
+Suunnittelujärjestelmää ohjaa ennakoitu ja nykyinen asiakaskysyntä, kuten ennuste ja myyntitilaukset. Suunnittelun laskelmat ehdottavat toimintoja, joita voidaan tehdään toimittajilta saatavan tarjonnan, kokoonpanon tai tuotannon taikka muista varastoista tehtävien siirtojen osalta. Ehdotettu toiminto voi olla esimerkiksi uusien toimitustilausten, kuten osto- tai tuotantotilausten, luominen. Jos toimitustilauksia on jo tehty, ehdotettuja toimenpiteitä voivat olla tilausten lisääminen tai nopeuttaminen muuttuneen kysynnän mukaisiksi.  
 
-Suunnittelujärjestelmän toinen tavoite on varmistaa, että varasto ei kasva tarpeettoman suureksi. Jos kysyntä vähenee, suunnittelujärjestelmä ehdottaa käyttäjälle olemassa olevien toimitustilausten lykkäämistä, pienentämistä tai peruuttamista.  
+Suunnittelujärjestelmän toinen tavoite on varmistaa, että varasto ei kasva tarpeettoman suureksi. Jos kysyntä vähenee, suunnittelujärjestelmä ehdottaa käyttäjälle aiemmin luotujen toimitustilausten lykkäämistä, pienentämistä tai peruuttamista.  
 
-Tarvelaskenta ja tuotanto-ohjelma, Laske nettomuutossuunnitelma ja Laske uudelleensuunnittelu ovat kaikki toimintoja yhdessä codeunitissa, joka sisältää suunnittelulogiikan. Tarjontasuunnitelman laskentaan liittyy kuitenkin eri alajärjestelmiä.  
+Codeunit sisältää suunnittelulogiikan ja seuraavat toiminnot:
 
-Huomaa, että suunnittelujärjestelmä ei sisällä erityistä logiikkaa kapasiteetin tasaamisen tai aikataulun tarkentamiseen. Tämän vuoksi ajoitustyö suoritetaan erillisenä toimintona. Kahden alueen välisen yhteyden puuttuminen tarkoittaa myös sitä, että olennainen kapasiteetti tai aikataulumuutokset vaativat suunnitelmaan uudelleenajoa.  
+* Tarvelaskenta ja tuotanto-ohjelma
+* Laske nettomuutossuunnitelma
+* Laske uudelleensuunnittelu
 
-## <a name="planning-parameters"></a>Suunnittelun parametrit
+Tarjontasuunnitelman laskentaan liittyy kuitenkin eri alajärjestelmiä.  
 
-Käyttäjän nimikkeelle tai nimikkeiden ryhmälle asettamat suunnitteluparametrit ohjaavat mitä toimintoja suunnittelujärjestelmä ehdottaa eri tilanteissa. Suunnitteluparametri on määritetty jokaisessa nimikekortissa. Niillä hallinnoidaan milloin, kuinka paljon ja kuinka varastoa täydennetään.  
+Suunnittelujärjestelmä ei sisällä erityistä logiikkaa kapasiteetin tasaamiseen tai aikataulun tarkentamiseen. Tällainen ajoitustyö tehdään erikseen. Kahden alueen välisen suoran integroinnin puuttuminen tarkoittaa myös sitä, että merkittävät kapasiteetti- tai aikataulumuutokset edellyttävät suunnittelun suorittamista uudelleen.  
 
-Suunnitteluparametreja voidaan myös määrittää mille tahansa nimikkeen, variantin ja sijainnin yhdistelmälle asettamalla varastointiyksikkö (SKU) jokaiselle tarvittavalle yhdistelmälle ja määrittämällä sitten yksittäiset parametrit.  
+## Suunnittelun parametrit
 
-Lisätietoja on kohdissa [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md) ja [Rakennetiedot: suunnittelun parametrit](design-details-planning-parameters.md).  
+Nimikkeelle tai nimikeryhmälle määritetyt suunnitteluparametrit hallitsevat sitä, mitä toimintoja suunnittelujärjestelmä ehdottaa eri tilanteissa. Kullekin nimikkeelle määritetään suunnitteluparametrit määrittämään täydennyksen ajankohtaa ja määrää sekä täydennystapaa.  
 
-## <a name="planning-starting-date"></a>Suunnittelun aloituspäivämäärä
+Suunnitteluparametreja voidaan myös määrittää mille tahansa nimikkeen, variantin ja sijainnin yhdistelmälle määrittämällä varastointiyksikkö (SKU) kullekin yhdistelmälle ja määrittämällä sitten yksittäiset parametrit. Lisätietoja on kohdissa [Rakennetiedot: uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md) ja [Rakennetiedot: suunnittelun parametrit](design-details-planning-parameters.md).  
 
-Voit välttää toimitussuunnitelmaa, joka käyttää aiempia avoimia tilauksia ja ehdottaa potentiaalisesti mahdottomia toimenpiteitä, suunnittelujärjestelmä kohtelee kaikkia suunnittelun alkupäivämäärää aiempia päivämääriä jäädytettynä alueena, jolla käytetään seuraavaa erityissääntöä:  
+## Suunnittelun aloituspäivämäärä
 
-Kaikki kysyntä ja tarjonta ennen suunnittelujakson aloituspäivämäärää katsotaan osaksi varastoa tai toimitetuksi.  
+Suunnittelujärjestelmä auttaa välttämään tilausten avaaminen menneisyydessä ja ehdottamaan toimintoja, jotka eivät ole mahdollisia. Suunnittelu käsittelee kaikkia aloituspäivämäärää edeltäviä päivämääriä jäädytettynä alueena. Seuraava sääntö pätee jäädytettyyn alueeseen:  
 
-Toisin sanoen se olettaa aiemman suunnitelman suorittamista määritetyn suunnitelman mukaan.  
+* Kaikkea suunnittelujakson aloituspäivämäärää edeltävää kysyntää ja tarjotaan pidetään varaston osana tai toimitettuna. Se siis olettaa aiempi suunnitelma suoritetaan määritetyn suunnitelman mukaan. Lisätietoja on kohdassa [Suunnittelun aloituspäivämäärää edeltävien tilausten käsitteleminen](design-details-balancing-demand-and-supply.md#process-orders-before-the-planning-start-date).  
 
-Lisätietoja on kohdassa [Tilausten käsittely ennen suunnittelun aloituspäivää](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
+## Dynaaminen tilausseuranta (tarvekohdistus)
 
-## <a name="dynamic-order-tracking-pegging"></a>Dynaaminen tilausseuranta (tarvekohdistus)
+Dynaaminen tilausseuranta ja sen samanaikaisesti suunnittelutyökirjassa luomat toimenpideviestit eivät ole tarjonnan suunnittelujärjestelmän osa. Kun kysyntä ja tarjonta luodaan tai niitä muutetaan, dynaaminen tilauksen seuranta linkittää kysynnän ja sen kattavat määrät reaaliaikaisesti.  
 
-Dynaaminen tilausseuranta, joka luo samanaikaisesti toimenpideviestit suunnittelutyökirjassa, ei ole osa tarjonnan suunnittelujärjestelmää [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa Tämä toiminto linkittää reaaliaikaisesti kysynnän ja määrät, jotka voisivat kattaa sen, jos uusi kysyntä tai tarjonta luodaan tai sitä muutetaan.  
+Jos myyntitilaus esimerkiksi syötetään tai sitä muutetaan, dynaaminen tilauksen seuranta hakee heti kysynnän kattavan tarjonnan. Tarjonta voidaan saada varastosta tai odotetusta toimitustilauksesta (kuten osto- tai tuotantotilauksesta). Kun [!INCLUDE [prod_short](includes/prod_short.md)] löytää tarjontalähteen, kysyntä ja tarjonta linkitetään. Linkki on käytettävissä asiakirjarivien vain luku -sivuilla. Jos tarjontaa ei löydy, dynaaminen tilausten seurantajärjestelmä luo suunnittelutyökirjaan toimenpideviestejä, jotka sisältävät tarjontasuunnitelman ehdotuksia.  
 
-Esimerkiksi, jos käyttäjä syöttää tai muuttaa myyntitilausta, dynaaminen tilausten seurantajärjestelmä etsii sopivan tarjonnan kysynnän kattamiseksi. Tämä voi olla lähtöisin varastosta tai odotetusta toimitustilauksesta (kuten osto- tai tuotantotilauksesta). Kun tarjonnan lähde löytyy, järjestelmä luo linkin kysynnän ja tarjonnan välille ja näyttää sen vain luku -tilassa olevilla sivuilla, joita voi käyttää asiaan kuuluvilta asiakirjariveiltä. Jos asianmukaista tarjontaa ei löydy, dynaaminen tilausten seurantajärjestelmä luo suunnittelutyökirjaan toimenpideviestejä, joiden tarjontasuunnitelman ehdotukset kuvaavat dynaamista täsmäytystä. Näin ollen dynaaminen tilausten seurantajärjestelmä tarjoaa hyvin yksinkertaisen suunnittelujärjestelmän, joka voi auttaa sekä suunnittelijaa että muita rooleja sisäisessä toimitusketjussa.  
+Dynaaminen tilauksen seuranta auttaa arvioimaan toimitustilausehdotusten hyväksymistä. Tarjonnan puolella näkyvissä on tarjonnan luonut kysyntä. Kysynnän puolella määritetään kysynnän kattava tarjonta.  
 
-Näin ollen dynaamista tilausten seurantaa voidaan pitää työkaluna, joka auttaa käyttäjää arvioimaan tilausehdotusten hyväksymistä. Tarjontapuolelta käyttäjä voi nähdä, että mikä kysyntä on luonut tarjonnan ja kysyntäpuolelta, minkä tarjonnan tulisi kattaa kysyntä.  
+:::image type="content" source="media/nav_app_supply_planning_1_dynamic_order_tracking.png" alt-text="Esimerkki dynaamisesta tilausten seurannasta.":::
 
-![Esimerkki dynaamisesta tilausten seurannasta.](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Esimerkki dynaamisesta tilausten seurannasta")  
+Lisätietoja on kohdassa [Rakennetiedot: varaus, tilauksen seuranta ja toimenpideviestit](design-details-reservation-order-tracking-and-action-messaging.md).  
 
-Lisätietoja on kohdassa [Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys](design-details-reservation-order-tracking-and-action-messaging.md).  
+Jos yritysten nimikevirta on vähäinen ja tuoterakenteet yksinkertaisia, dynaaminen tilauksen seuranta saattaa olla riittävä ratkaisun tarjonnan suunnitteluun. Kiireisissä ympäristöissä on kuitenkin käytettävä suunnittelujärjestelmää varmistamaan, että toimitussuunnitelma on tasapainoinen.  
 
-Dynaamisen tilausten hallinnan käyttäminen tarjonnan suunnitteluun saattaa riittää niissä yrityksissä, joissa on alhainen nimikevirta ja vähemmän laajennetut tuoterakenteet. Vilkkaammissa ympäristöissä suunnittelujärjestelmää tulisi kuitenkin käyttää täsmäytetyn toimitussuunnitelman varmistamiseksi.  
+### Dynaaminen tilausseuranta verrattuna suunnittelujärjestelmään
 
-### <a name="dynamic-order-tracking-versus-the-planning-system"></a>Dynaaminen tilausseuranta verrattuna suunnittelujärjestelmään
+Suunnittelujärjestelmän ja dynaamisen tilauksen seurannan erottaminen toisistaan voi olla hankalaa. Molemmat ominaisuudet näyttävät tulosteen suunnittelutyökirjalla ehdottamalla toimia, jotka suunnittelijan tulisi suorittaa. Tämän tuotoksen tuotantotapa kuitenkin poikkeaa.  
 
-Yhdellä silmäyksellä saattaa olla vaikea erottaa suunnittelujärjestelmää ja dynaamista tilauksen seurantaa. Molemmat ominaisuudet näyttävät tulosteen suunnittelutyökirjalla ehdottamalla toimia, jotka suunnittelijan tulisi suorittaa. Tämän tuotoksen tuotantotapa kuitenkin poikkeaa.  
+Suunnittelujärjestelmä käsittelee nimikkeen koko kysyntä- ja tarjontamallia. Se ottaa huomioon kaikki aikajanalle sijoitetut tuoterakennehierarkian tasot. Dynaaminen tilauksen seuranta käsittelee vain sen tilauksen tilanteen, joka aiheutti aktivoinnin. Suunnittelujärjestelmän tasapainottaa kysynnän ja tarjonnan luomalla linkkejä käyttäjän aktivoimassa erätilassa. Dynaaminen tilauksen seuranta luo linkit automaattisesti, kun kysyntä tai tarjonta syötetään. Näin tapahtuu esimerkiksi myynti- tai ostotilausta luotaessa.  
 
-Suunnittelujärjestelmä käsittelee nimikkeen koko kysyntä- ja tarjontamallin kaikilla BOM-hierarkian tasoilla aikajanalla, kun taas dynaaminen tilauksenseuranta tarttuu vain siihen tilauksen tilanteeseen, joka on aktivoinut sen. Suunnittelujärjestelmä luo kysynnän ja tarjonnan täsmäytyksen yhteydessä linkin käyttäjän aktivoimaan erätilaan, kun taas dynaaminen tilausseuranta luo linkit automaattisesti lennossa aina, kun käyttäjä syöttää sovellukseen kysynnän tai tarjonnan, kuten myynti- tai ostotilauksen.  
+Dynaaminen tilauksen seuranta linkittää kysynnän ja tarjonnan saapumisjärjestyksen perusteella, kun tietoja syötetään. Tämä periaate voi muuttaa prioriteettien järjestystä. Esimerkiksi ensin syötetty myyntitilaus, jonka eräpäivä on seuraavassa kuussa, saatetaan linkittää varaston tarjontaan Seuraava huomenna erääntyvä myyntitilaus voi puolestaan aiheuttaa uuden ostotilauksen luovan toimenpideviestin. Seuraavassa kuvassa näkyy tämä skenaario.  
 
-Dynaaminen tilausseuranta luo kysynnän ja tarjonnan väliset linkit tietojen kirjoituksen aikana saapumisjärjestyksen perusteella. Tämän vuoksi prioriteetit saattavat muuttua. Esimerkiksi ensin kirjoitettu myyntitilaus, jonka eräpäivä on seuraavassa kuussa, saatetaan linkittää varaston tarjontaan, kun taas seuraava huomenna erääntyvä myyntitilaus voi aiheuttaa toimenpideviestin uuden ostotilauksen luomiseksi, kuten alla on esitetty.  
+:::image type="content" source="media/nav_app_supply_planning_1_dynamic_order_tracking_graph.png" alt-text="Esimerkki tilausten seurannasta toimitusten suunnittelussa 1.":::
 
-![Esimerkki tilausten seurannasta toimitusten suunnittelussa 1.](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Esimerkki tilausten seurannasta toimitusten suunnittelussa 1")  
+Suunnittelujärjestelmä käsittelee nimikkeiden kysyntää ja tarjontaa prioriteettijärjestyksessä. Järjestys priorisoidaan eräpäivien ja tilaustyyppien perusteella. Kyse on siis siitä, että ensimmäiseksi tarvittava käsitellään ensimmäiseksi. Se poistaa kaikki dynaamisesti luodut tilauksen seurantalinkit ja muodostaa ne uudelleen eräpäivän prioriteetin mukaisesti. Kun suunnittelujärjestelmän käyttö lopetetaan, se on ratkaissut kysynnän ja tarjonnan välisen epätasapainon. Tämä osoitetaan myös alla olevassa kuvassa.
 
-Sen sijaan suunnittelujärjestelmä käsittelee tietyn nimikkeen kaiken kysynnän ja tarjonnan priorisoidussa järjestyksessä eräpäivien ja tilaustyyppien mukaan eli tarpeen/saapumisjärjestyksen perusteella. Se poistaa kaikki dynaamisesti luodut tilauksen seurantalinkit ja luo ne uudelleen eräpäivän prioriteetin mukaisesti. Kun suunnittelujärjestelmän käyttö lopetetaan, se on ratkaissut kysynnän ja tarjonnan välisen epätasapainon. Tämä osoitetaan myös alla olevassa kuvassa.  
+:::image type="content" source="media/nav_app_supply_planning_1_planning_graph.png" alt-text="Esimerkki tilausten seurannasta toimitusten suunnittelussa 2.":::  
 
-![Esimerkki tilausten seurannasta toimitusten suunnittelussa 2.](media/NAV_APP_supply_planning_1_planning_graph.png "Esimerkki tilausten seurannasta toimitusten suunnittelussa 2")  
+Suunnittelun suorittamisen jälkeen Toimenpideviestitapahtuma-taulukossa ei ole toimenpideviestejä. Näiden viestin tilalla on suunnittelutyökirjassa ehdotettuja toimenpiteitä. Lisätietoja on kohdassa [Tilauksen seurantalinkit suunnittelun aikana](design-details-balancing-demand-and-supply.md#serial-and-lot-numbers-are-loaded-by-specification-level).  
 
-Suunnitteluajon jälkeen Toimenpideviestitapahtuma-taulukossa ei ole toimenpideviestejä, koska ne on korvattu suunnittelutyökirjassa ehdotetuilla toimenpiteillä  
+## Suunnittelun järjestys ja ensisijaisuus
 
-Katso lisätietoja kohdasta [Tilauksen seurantalinkit suunnittelun aikana](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).  
+Suunnitelman laskentajärjestys on tärkeä, sillä sen avulla työ voidaan tehdä kohtuullisessa ajassa. Myös tarpeiden ja resurssien priorisoinnilla on tärkeä merkitys parhaiden tulosten saamisessa.  
 
-## <a name="sequence-and-priority-in-planning"></a>Suunnittelun järjestys ja ensisijaisuus
+Suunnittelujärjestelmä on tarveperustainen. Korkean tason nimikkeet on suunniteltava ennen alatason nimikkeitä, koska korkean tason nimikkeet voivat luoda alatason nimekkeiden kysyntää. Esimerkiksi vähittäismyyntisijainnit kannatta suunnitella ennen jakelukeskusten sijaintia, koska vähittäismyyntisijainti saattaa kysyntää jakelukeskuksesta. Yksityiskohtaisella täsmäytystasolla puolestaan järjestelmän ei pitäisi luoda uutta toimitustilausta, jos vapautettu toimitustilaus kattaa myyntitilauksen. Tarjontaa, jolla on tietty eränumero, ei pitäisi kohdistaa kattamaan yleistä kysyntää, jos toinen kysyntä edellyttää kyseistä erää.  
 
-Laskentajärjestys on tärkeä suunnitelman muodostuksessa, koska sen avulla työ voidaan tehdä kohtuullisessa ajassa. Lisäksi vaatimusten ja resurssien priorisoinnilla on tärkeä merkitys parhaiden tulosten saamiseksi.  
+### Nimikkeen prioriteetti/alatason koodi
 
-[!INCLUDE[prod_short](includes/prod_short.md)]:in suunnittelujärjestelmä on kysyntä-ohjasteinen. Korkean tason nimikkeet tulisi suunnitella ennen alemman tason nimikkeitä, koska korkean tason nimikkeiden suunnitelma saattaa luoda lisäkysynnän alemman tason nimikkeille. Tämä tarkoittaa esimerkiksi sitä, että vähittäismyyntipaikat on suunniteltava ennen jakelukeskusten suunnittelua, koska vähittäismyyntipaikan suunnitelma saattaa sisältää lisäkysyntää jakelukeskuksesta. Yksityiskohtaisella täsmäytystasolla tämä tarkoittaa myös, että myyntitilauksen ei tulisi laukaista uutta toimitustilausta, jos jo vapautettu toimitustilaus voi kattaa myyntitilauksen. Vastaavasti tietyllä eränumerolla varustettua tarjontaa ei tulisi kohdistaa kattamaan yleistä kysyntää, jos toinen kysyntä vaatii tätä tiettyä erää.  
+Valmistusympäristössä valmiiden, myytävien nimikkeiden kysyntä aiheuttaa valmiin nimikkeen koostavien komponenttien johdettua kysyntää. Materiaalilasku-rakenne kontrolloi osan rakennetta ja voi kattaa useita puolivalmiiden nimikkeiden tasoja. Yhden nimikkeen suunnittelu yhdellä tasolla aiheuttaa epäsuoraa kysyntää seuraavan tason komponenteille. Tämä hierarkia johtaa lopulta ostettujen nimikkeiden epäsuoraan kysyntään. Suunnittelujärjestelmä tekee nimikkeille suunnitelmia siinä järjestyksessä, mikä on niiden sijoitus tuoterakenteen kokonaishierarkiassa. Ensimmäisenä järjestelmä käsittelee ylätasolla olevat valmiit myytävät tuotteet ja jatkaa sitten tuoterakenteessa alaspäin alempien tasojen nimikkeisiin (alatason koodin mukaisesti).  
 
-### <a name="item-priority--low-level-code"></a>Nimikkeen prioriteetti/alatason koodi
+Seuraavassa kuvassa on järjestys, jossa [!INCLUDE [prod_short](includes/prod_short.md)] ehdottaa toimitustilauksia ylätasolla. Siinä oletetaan, että ehdotukset hyväksyttiin. Myös alatason nimikkeet ovat näkyvissä.
 
-Valmistusympäristössä valmiiden, myytävien nimikkeiden kysyntä aiheuttaa valmiin nimikkeen koostavien komponenttien johdettua kysyntää. Materiaalilasku-rakenne kontrolloi osan rakennetta ja voi kattaa useita puolivalmiiden nimikkeiden tasoja. Yhden nimikkeen suunnittelu yhdellä tasolla aiheuttaa epäsuoran kysynnän seuraavan tason komponenteille ja niin edelleen. Lopulta tämä johtaa ostettujen nimikkeiden epäsuoraan kysyntään. Näin ollen suunnittelujärjestelmä suunnittelee nimikkeille niiden tuoterakenteen hierarkian luokituksen määräämässä järjestyksessä alkaen loppuneista myytävissä olevista nimikkeistä ylätasolla ja jatkuen alas tuoterakenteen läpi alemman tason nimikkeisiin (alatason koodin mukaisesti).  
+:::image type="content" source="media/nav_app_supply_planning_1_bom_planning.png" alt-text="Tuoterakenteiden suunnitelma.":::
 
-![Tuoterakenteiden suunnitelma.](media/NAV_APP_supply_planning_1_BOM_planning.png "Tuoterakenteiden suunnitelma")  
+Lisätietoja tuotantonäkökohdista on kohdassa [Varastoprofiilien lataaminen](design-details-balancing-demand-and-supply.md#load-inventory-profiles).  
 
-Luvut osoittavat missä järjestyksessä järjestelmä tekee ehdotuksia toimitustilauksiin huipputasolla ja olettaen, että käyttäjä hyväksyy nämä ehdotukset, missä tahansa alemman tason nimikkeissä myös.  
+#### Suorituskyvyn optimoiminen matalan tason laskelmissa
 
-Lisätietoja tuotantonäkökohdista on kohdassa [Varastoprofiilien lataaminen](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+Alatason koodilaskelmat voivat vaikuttaa järjestelmän suorituskykyyn. Vaikutusta voi vähentää poistamalla **Dynaamisen matalan tason koodilaskennan** -ominaisuuden käytöstä vaihtopainikkeella **Tuotannon asetukset** -sivulla. Siinä tapauksessa [!INCLUDE[prod_short](includes/prod_short.md)] ehdottaa toistuva työjonotapahtuman luomista päivittämään alatason koodit päivittäin. Voit varmistaa, että työ suoritetaan työajan ulkopuolella, määrittämällä aloitusajan **Aikaisin alkamispäivä ja -aika** -kentässä.
 
-#### <a name="optimizing-performance-for-low-level-calculations"></a>Suorituskyvyn optimoiminen matalan tason laskelmissa
-
-Matalan tason koodilaskelmat voivat vaikuttaa järjestelmän suorituskykyyn. Vaikutusten lieventämiseksi voit poistaa **Dynaamisen matalan tason koodilaskennan** käytöstä **Tuotannon asetukset** -sivulla. Kun teet näin, [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelma ehdottaa, että luodaan toistuva työjonotapahtuma, joka päivittää matalan tason koodit päivittäin. Voit varmistaa, että työ suoritetaan työajan ulkopuolella, määrittämällä aloitusajan **Aikaisin alkamispäivä ja -aika** -kentässä.
-
-Voit myös ottaa käyttöön logiikan, joka nopeuttaa alatason koodilaskentaa valitsemalla **Tuotannon asetukset**-sivulla **Optimoi matalan tason koodilaskenta**. 
+Alatason koodilaskelmia voidaan toisaalta nopeuttaa ottamalla **Tuotannon asetukset** -sivulla **Optimoi alatason koodin laskenta** -vaihtoehdon käyttöön vaihtopainikkeella.
 
 > [!IMPORTANT]
-> Jos optimoit suorituskyvyn, [!INCLUDE[prod_short](includes/prod_short.md)] käyttää uusia laskentamenetelmiä alatason koodien määrittämiseen. Jos sinulla on laajennus, joka perustuu vanhojen laskelmien käyttämiin tapahtumiin, laajennus voi lakata toimimasta.   
+> Jos optimoit suorituskyvyn, [!INCLUDE[prod_short](includes/prod_short.md)] käyttää uusia laskentamenetelmiä alatason koodien määrittämiseen. Jos käytössä on laajennus, joka perustuu vanhojen laskelmien käyttämiin tapahtumiin, laajennus saattaa lakata toimimasta.
 
-### <a name="locations--transfer-level-priority"></a>Sijainnit/siirtotason prioriteetti
+### Sijainnit/siirtotason prioriteetti
 
-Yritysten, jotka toimivat useammassa kuin yhdessä paikassa, on ehkä suunniteltava jokaiselle paikalle erikseen. Esimerkiksi nimikkeen varmuusvaraston taso ja sen uusintatilaustapa saattaa vaihdella sijainnista toiseen. Tässä tapauksessa suunnitteluparametrit on määritettävä nimike- ja sijaintikohtaisesti.  
+Yritysten, jotka toimivat useissa sijainnissa, on ehkä tehtävä suunnittelu kullekin sijainnille erikseen. Esimerkiksi nimikkeen varmuusvaraston taso ja sen uusintatilaustapa saattavat vaihdella sijainnista toiseen. Suunnitteluparametrit on määritettävä nimike- ja sijaintikohtaisesti.  
 
-Tätä tuetaan varastointiyksiköiden käytön kanssa silloin, kun yksittäisen suunnitteluparametrit voidaan määrittää varastointiyksikön tasolla. Varastointiyksikkö voidaan tulkita nimikkeeksi tietyssä paikassa. Jos käyttäjä ei ole määritetty varastointiyksikköä tälle sijainnille, sovellus käyttää nimikkeen kortissa määritettyjä oletusparametreja. Sovellus laskee suunnitelman vain aktiivisille sijainneille, joissa on olemassa oleva kysyntä tai tarjonta annetulle nimikkeelle.  
+Yksittäisiä suunnitteluparametreja voi määrittää varastointiyksiköiden avulla. Varastointiyksikkö voidaan tulkita nimikkeeksi tietyssä paikassa. Jos sijainnille ei ole määritetty varastointiyksikköä, [!INCLUDE [prod_short](includes/prod_short.md)] käyttää nimikekortissa määritettyjä parametreja. [!INCLUDE [prod_short](includes/prod_short.md)] laskee suunnitelman vain aktiivisille sijainneille, joissa annetulle nimikkeelle on kysyntää tai tarjontaa.  
 
-Periaatteessa mikä tahansa nimike voidaan käsitellä missä tahansa sijainnissa, mutta sovelluksen suhtautuminen sijaintikäsitteeseen on tiukka. Esimerkiksi myyntitilausta yhdessä sijainnissa ei voida täyttää jollakin toisessa sijainnissa olevalla varastomäärällä. Varaston määrä tulee ensin siirtää myyntitilauksessa määritettyyn sijaintiin.  
+Vaikka mitä tahansa nimike voidaan käsitellä missä tahansa sijainnissa, [!INCLUDE [prod_short](includes/prod_short.md)] käyttää sijaintikäsitettä tarkkarajaisesti. Esimerkiksi yhdessä sijainnissa olevaa myyntitilausta ei voida täyttää toisessa sijainnissa olevasta varastosta. Varaston määrä tulee ensin siirtää myyntitilauksessa määritettyyn sijaintiin.
 
-![Varastointiyksiköiden suunnittelu.](media/NAV_APP_supply_planning_1_SKU_planning.png "Varastointiyksiköiden suunnittelu")  
+:::image type="content" source="media/nav_app_supply_planning_1_sku_planning.png" alt-text="Varastointiyksiköiden suunnittelu":::
 
 Lisätietoja on kohdassa [Rakennetiedot: siirrot suunnittelussa](design-details-transfers-in-planning.md).  
 
-### <a name="order-priority"></a>Tilauksen prioriteetti
+### Tilauksen prioriteetti
 
-Pyydetty tai käytettävissä oleva päivämäärä edustaa annetun varastointiyksikön korkeinta prioriteettia. Tämän päivän kysyntä tulee käsitellä ennen tulevien päivien kysyntää. Mutta lukuun ottamatta tämän kaltaista prioriteettia, eri kysynnän ja tarjonnan tyypit järjestetään liiketoiminnan tärkeyden perusteella jotta voidaan päättää mikä kysyntä on täytettävä ennen kuin täytetään toinen kysyntä. Tarjonnan puolella tilauksen prioriteetti kertoo mitä tarjontalähdettä tulisi soveltaa ennen muiden tarjontalähteiden käyttöä.  
+Pyydetty tai käytettävissä oleva päivämäärä edustaa annetun varastointiyksikön korkeinta prioriteettia. Tämän päivän kysyntä tulee käsitellä ennen tulevien päivien kysyntää. Tällaista prioriteettia lukuun ottamatta kysynnän ja tarjonnan eri tyypit järjestetään liiketoiminnan tärkeyden perusteella, sillä näin voidaan päätellä, mihin kysyntään vastataan ensin. Tarjontapuolella tilauksen prioriteetti määrittää ensimmäisenä käytettävän tarjontalähteen. Lisätietoja on kohdassa [Tilausten priorisointi](design-details-balancing-demand-and-supply.md#prioritize-orders).  
 
-Lisätietoja on kohdassa [Projektitilausten priorisointi](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
+## Kysyntäennusteet ja puitetilaukset
 
-## <a name="demand-forecasts-and-blanket-orders"></a>Kysyntäennusteet ja puitetilaukset
+Sekä ennustukset ja puitetilaukset esittävät odotettavissa olevaa kysyntää. Kestotilaus, joka kattaa asiakkaan suunnitellut ostot tietyltä aikajaksolta, vähentää yleisennusteen epävarmuutta. Seuraavassa kuvassa on puitetilaus, joka on asiakkaan määrittämä ennuste määrittämättömien ennusteiden lisäksi.  
 
-Sekä ennustukset ja puitetilaukset esittävät odotettavissa olevaa kysyntää. Kestotilaus, joka kattaa asiakkaan suunnitellut ostot tietyltä aikajaksolta, vähentää yleisennusteen epävarmuutta. Kestotilaus on asiakkaan määrittämä ennuste määrittämättömien ennusteiden lisäksi, kuten kuvattu alla.  
+:::image type="content" source="media/nav_app_supply_planning_1_forecast_and_blanket.png" alt-text="Ennusteiden käyttäminen suunnitelussa.":::
 
-![Ennusteiden käyttäminen suunnitelussa.](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Ennusteiden käyttäminen suunnitelussa")  
+Lisätietoja on kohdassa [Myyntitilaukset vähentävät ennustettua kysyntää](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
-Katso lisätietoja: [Myyntitilaukset vähentävät ennustettua kysyntää](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
+## Suunnittelun tehtävä
 
-## <a name="planning-assignment"></a>Suunnittelun tehtävä
-
-Kaikki nimikkeet tulee suunnitella, mutta nimikkeelle ei ole syytä laskea suunnitelmaa ellei kysyntä- tai tarjontakuvio ole muuttunut edellisen suunnitelman laskemisen jälkeen.  
-
-Jos käyttäjä on kirjoittanut uuden myyntitilauksen tai muuttanut olemassa olevaa, suunnitelman uudelleen laskeminen on tarpeellista. Muita syitä ovat muutos ennusteeseen tai haluttu varmuusvaraston määrä. Tuoterakenteen muuttaminen komponentin lisäyksellä tai poistolla ilmaisisi todennäköisesti muutosta, mutta vain komponenttinimikkeelle.  
+Jos kysyntä- tai tarjontamalli on muuttunet suunnitelman edellisen laskentakerran jälkeen, kaikki nimikkeet on suunniteltava uudelleen. Suunnitelma on laskettava uudelleen, jos esimerkiksi uusi myyntitilaus syötetään tai aiemmin luotua tilausta muutetaan. Muita uudelleensuunnittelun syitä ovat ennusteeseen tai varmuusvaraston määrään tehty muutos. Tuoterakenteen muuttaminen lisäämällä tai poistamalla komponentti ilmaisisi todennäköisesti myös muutosta mutta vain komponenttinimikkeen osalta.  
 
 Suunnittelujärjestelmä tarkkailee tällaisia tapahtumia ja määrittää nimikkeet suunnitelmalle.  
 
-Useiden sijaintien kohdalla, määritys tapahtuu nimikkeen tasolla sijaintiyhdistelmää kohti. Jos esimerkiksi myyntitilaus on luotu vain yhdessä sijainnissa, sovellus määrittää suunnittelulle tässä tietyssä sijainnissa olevan nimikkeen.  
+Jos kyse on useista sijainnista, määritys tapahtuu nimiketasolla sijaintiyhdistelmäkohtaisesti. Jos myyntitilaus on luotu vain yhdessä sijainnissa, [!INCLUDE [prod_short](includes/prod_short.md)] määrittää nimikkeen kyseisessä sijainnissa tapahtuvaan suunnitteluun.  
 
-Syy valita nimikkeitä suunnittelua varten on järjestelmän toimintaseikka. Jos nimikkeen kysyntä–tarjonta-mallissa ei ole tapahtunut muutosta, suunnittelujärjestelmä ei ehdota toimenpiteitä. Ilman suunnittelun tehtävää järjestelmän on suoritettava laskennat kaikille nimikkeille suunnitelmaa ja järjestelmän resurssit kuluttavaa tilannetta määritettäessä.  
+Syy valita nimikkeitä suunnittelua varten on järjestelmän toimintaseikka. Jos nimikkeen kysyntä- ja tarjontamalli ei ole muuttunut, suunnittelujärjestelmä ei ehdota toimenpiteitä. Ilman suunnittelun määritystä järjestelmän on suoritettava kaikkien nimikkeiden laskelmat suunnitelmaa määritettäessä. Lisätietoja syistä, joiden vuoksi nimikkeitä määritetään suunnitteluun, on kohdassa [Rakennetiedot: suunnittelun määritystaulukko](design-details-planning-assignment-table.md).  
 
-Täydellinen luettelo perusteista nimikkeen kohdistamisesta suunnittelussa on kohdassa [Rakennetiedot: suunnittelun kohdistustaulukko](design-details-planning-assignment-table.md).  
+Seuraavassa suunnitteluvaihtoehdot ovat käytettävissä:  
 
-Suunnittelun asetukset [!INCLUDE[prod_short](includes/prod_short.md)]:ssa ovat:  
+* **Laske uudelleensuunnittelu** laskee kaikki valitut nimikkeet riippumatta siitä, onko se tarpeen vai ei.  
+* **Laske nettomuutossuunnitelma** laskee vain ne nimikkeet, joiden kysyntä- ja tarjontamalli on muuttunut jollain tavalla ja jotka on tämän vuoksi määritetty suunnitteluun.  
 
--   Laske uudelleensuunnittelu – laskee kaikki valitut nimikkeet riippumatta siitä, onko se tarpeen vai ei.  
--   Laske nettomuutossuunnitelma – laskee vain ne valitut kohteet, joiden kysyntä-tarjonta-malli on muuttunut jollain tavalla ja jotka on tämän vuoksi määritetty suunnitteluun.  
+Jotkut ovat sitä mieltä, että nettomuutossuunnittelu on suoritettava lennossa esimerkiksi silloin, kun myyntitilaukset on syötetty. Lennossa suunnittelu voi kuitenkin olla sekavaa, koska myös dynaaminen tilauksen seuranta ja toimenpideviestit lasketaan lennossa. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää reaaliaikaisen luvattavissa olevan määrän ohjausobjektin. Se mahdollistaa ponnahdusikkunassa näkyvät varoitukset, kun myyntitilauksia syötettäessä nykyinen tarjontasuunnitelma ei voi täyttää kysyntää.  
 
-Jotkut käyttäjät uskovat, että nettomuutossuunnittelu tulee suorittaa kiireesti, esimerkiksi, kun myyntitilaukset on syötetty. Tämä voisi kuitenkin olla sekavaa, koska dynaaminen tilauksen seuranta ja toimenpideviestitys lasketaan myös lennossa. Sen lisäksi [!INCLUDE[prod_short](includes/prod_short.md)] tarjoaa reaaliaikaisen luvattavissa-ohjausobjektin, joka tarjoaa myyntitilauksia kirjoitettaessa varoitukset ponnahdusikkunassa, jos kysyntää ei voida täyttää nykyisen toimitussuunnitelman mukaisesti.  
+Suunnittelujärjestelmä ottaa suunnittelussa huomioon vain nimikkeet, joiden valmistelussa on käytetty soveltuvia suunnitteluparametreja. Muutoin oletetaan, että nimikkeet suunnitellaan manuaalisesti tai puoliautomaattisesti käyttämällä Tilauksen suunnittelu -ominaisuutta. Lisätietoja automaattisista suunnittelumenetelmistä on kohdassa [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md).  
 
-Näiden lisäksi suunnittelujärjestelmä suunnittelee vain niille nimikkeille, jotka käyttäjä on valmistellut asianmukaisilla suunnitteluparametreilla. Muutoin oletetaan, että käyttäjä suunnittelee nimikkeet manuaalisesti tai puoliautomaattisesti käyttämällä Tilauksen suunnittelu -ominaisuutta.  
-
-Lisätietoja automaattisista suunnittelumenetelmistä on kohdassa [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md).  
-
-## <a name="item-dimensions"></a>Nimikedimensiot
+## Nimikedimensiot
 
 Kysynnällä ja tarjonnalla saattaa olla varianttikoodeja, jotka on otettava huomioon, kun suunnittelujärjestelmä täsmäyttää kysyntää ja tarjontaa.  
 
-Järjestelmä käsittelee variantti- ja sijaintikoodeja nimikedimensioina esimerkiksi myyntitilausrivillä ja inventointitapahtumassa. Näin ollen se laskee suunnitelman jokaisen variantin ja sijainnin yhdistelmän osalta kuin yhdistelmä olisi erillinen nimikenumero.  
+[!INCLUDE [prod_short](includes/prod_short.md)] käsittelee variantti- ja sijaintikoodeja nimikedimensioina esimerkiksi myyntitilausrivillä ja inventointitapahtumassa. Näin ollen se laskee suunnitelman jokaisen variantin ja sijainnin yhdistelmän osalta kuin yhdistelmä olisi erillinen nimikenumero.  
 
-Sen sijaan että laskettaisi teoreettinen varianttien ja sijaintien yhdistelmä, sovellus laskee vain ne yhdistelmät, jotka ovat todellisuudessa tietokannassa.  
+Sen sijaan että [!INCLUDE [prod_short](includes/prod_short.md)] laskisi teoreettiset varianttien ja sijaintien yhdistelmät, se laskee vain ne yhdistelmät, jotka ovat jo tietokannassa. Lisätietoja suunnittelujärjestelmän tavasta käsitellä kysynnän sijaintikoodeja on kohdassa [Rakennetiedot: kysyntä tyhjä-sijainnissa](design-details-balancing-demand-and-supply.md).  
 
-Lisätietoja suunnittelujärjestelmän tavasta käsitellä kysynnän sijaintikoodeja on kohdassa [Rakennetiedot: kysyntä tyhjä-sijainnissa](design-details-balancing-demand-and-supply.md).  
+## Nimikkeen määritteet
 
-## <a name="item-attributes"></a>Nimikkeen määritteet
+Nimikkeillä on usein yleisiä määritteitä, kuten nimikenumero, varianttikoodi, sijaintikoodi ja tilaustyyppi. Kussakin kysyntä- ja tarjontatapahtumassa voi olla kuitenkin muita määrityksiä, kuten sarja- tai eränumeroita. Suunnittelujärjestelmä suunnittelee nämä ominaisuudet tietyillä tavoilla riippuen niiden yksityiskohtaisuuden tasosta.  
 
-Yleisistä nimikedimensioista riippumatta, kuten nimikenumero, varianttikoodi, sijaintikoodi ja tilaustyyppi, jokainen kysyntä- ja tarjontatapahtuma voi sisältää lisämäärityksiä sarja- eränumeroiden muodossa. Suunnittelujärjestelmä suunnittelee nämä ominaisuudet tietyillä tavoilla riippuen niiden yksityiskohtaisuuden tasosta.  
+Tilauskohtainen linkki kysynnän ja tarjonnan välillä on toinen määritetyyppi, joka vaikuttaa suunnittelujärjestelmään. Lisätietoja on kohdassa [Tilausten väliset linkit](#order-to-order-links).
 
-Tilauskohtainen linkki kysynnän ja tarjonnan välillä on toinen määritetyyppi, joka vaikuttaa suunnittelujärjestelmään.  
+### Tietyt attribuutit
 
-### <a name="specific-attributes"></a>Tietyt attribuutit
+Jotkin kysyntämääritteet määritettyjä ja tarjonnan on vastattava niitä tarkasti.
 
-Eräät kysynnän määritteet ovat erityisiä ja ne on kohdistettava tarkalleen vastaavan tarjonnan mukaan. Seuraavat kaksi erityisominaisuutta on olemassa:  
+* Sarja- tai eränumerot, jotka edellyttävät tiettyä sovellusta. (Nämä määritteet ovat pakollisia, jos **SN-kohtainen seuranta** tai **Eräkohtainen seuranta** otetaan käyttöön vaihtopainikkeella nimikkeen käyttämän nimikkeen seurantakoodin **Nimikk. seurantakoodin kortti** -sivulla.)  
+* Manuaalisesti tai automaattisesti tietylle kysynnälle toimitustilauksiin luodut linkit (tilausten väliset linkit).  
 
--   Pyydetyt sarja- tai eränumerot, jotka edellyttävät tiettyä sovellusta. ( Nimikkeen käyttämälle nimikkeen seurantakoodille on valittu **SN-kohtainen seuranta** tai **Eräkohtainen seuranta** -valintaruutu on valittu **Nimikk. seurantakoodin kortti** -sivulla.)  
--   Manuaalisesti tai automaattisesti tietylle kysynnälle toimitustilauksiin luodut linkit (tilausten väliset linkit).  
+Suunnittelujärjestelmä käyttää näissä määritteissä seuraavia sääntöjä:  
 
-Näiden määritteiden osalta suunnittelujärjestelmä soveltaa seuraavia sääntöjä:  
+* Tietyillä määritteillä varustettu kysyntä voidaan täyttää vain tarjonnalla, jolla on vastaavat määritteet.  
+* Määritettyjä määritteitä sisältävä tarjonta voi täyttää myös kysyntää, jossa kyseisiä määritteitä ei nimenomaisesti edellytetä.  
 
--   Tietyillä määritteillä varustettu kysyntä voidaan täyttää vain tarjonnalla, jolla on vastaavat määritteet.  
--   Tarjonta, jossa on erityiset tunnusmerkit, voi myös tyydyttää kysynnän, jossa ei erityisesti vaadita kyseisiä tunnusmerkkejä.  
+Jos varasto tai ennustetut toimitukset eivät täytä määritettyjen määritteiden kysyntää, suunnittelujärjestelmä ehdottaa uutta toimitustilausta ottamatta huomioon suunnitteluparametreja.  
 
-Näin ollen, jos varasto tai oletetut tarvikkeet eivät täytä tiettyjen määritteiden kysyntää, suunnittelujärjestelmä ehdottaa uutta toimitustilausta tietyn kysynnän kattamiseksi suunnitteluparametreja huomioimatta.  
+### Epäspesifiset määritteet
 
-### <a name="non-specific-attributes"></a>Epäspesifiset määritteet
+Sarja- tai eränumeroiduissa nimikkeissä, joilla ei ole tiettyjä nimikeseurantamäärityksiä, voi olla määrittämättömiä sarja- tai eränumeroita. Näitä numerotyyppejä voidaan käyttää missä tahansa sarja- tai eränumerossa. Suunnittelujärjestelmä voikin kohdistaa vapaammin esimerkiksi sarjoitetun kysynnän sarjoitettuun tarjontaan, mikä tapahtuu yleensä varastossa.  
 
-Sarja-/eränumeroidut nimikkeet ilman erityistä nimikeseuranta-asetusta voi välittää sarja-/eränumeroita, joita ei tarvitse soveltaa täysin samaan sarja-/eränumeroon, mutta niitä voidaan soveltaa mihin tahansa sarja-/eränumeroon. Tämän avulla suunnittelujärjestelmä voi vapaammin kohdistaa esimerkiksi sarjanumeron omaavan kysynnän sarjanumeron omaavaan tarjontaan, joka on yleensä varasto.  
+Sarja- ja eränumeroita sisältävän kysynnän ja tarjonnan prioriteetti on korkea riippumatta siitä, onko kyse määritetystä tai määrittämättömästä sarja- tai eränumerosta, minkä lisäksi jäädytetty alue ei koske niitä. Ne ovat mukana suunnittelussa, vaikka niiden eräpäivä olisi ennen suunnittelun aloituspäivämäärää. Lisätietoja on kohdassa [Sarja- ja eränumero ladataan määritystason mukaan](design-details-balancing-demand-and-supply.md#serial-and-lot-numbers-are-loaded-by-specification-level).
 
-Kysyntä-tarjonta sarja- tai eränumeroiden kanssa, erityinen tai ei erityinen, määritetään korkean prioriteetin tilanteeksi ja tämän vuoksi vapautettu jäädytetystä vyöhykkeestä, joka tarkoittaa, että ne ovat osa suunnittelua, vaikka ne erääntyvät ennen suunnittelun aloituspäivää.  
+Lisätietoja suunnittelujärjestelmän määritteiden täsmäyttämisestä on kohdassa [Sarja- ja eränumeroita sekä tilausten välisiä linkkejä ei koske poisjättäminen edeltävältä jaksolta](design-details-balancing-demand-and-supply.md#serial-and-lot-numbers-and-order-to-order-links-are-exempt-from-the-previous-period).  
 
-Katso lisätietoja [Sarja-/ eränumerot ladataan määritystason mukaan](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level) -osiosta.
+## Tilausten väliset linkit
 
-Saat lisätietoja siitä, kuinka suunnittelujärjestelmä täsmäyttää määritteet kohdasta [Sarja- /eränumeroita ja tilausten välisiä linkkejä ei huomioida kiinnitetyillä alueilla](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
+Tilausten välisyys tarkoittaa sitä, että nimike ostetaan, kootaan tai tuotetaan tietyn kysynnän perusteella. Tämän käytännön valitsemiseen on useita syitä:
 
-## <a name="order-to-order-links"></a>Tilausten väliset linkit
+* Kysyntä on epäsäännöllistä.
+* Toimitusajalla ei ole merkitystä.
+* Pakolliset määritteet vaihtelevat.  
 
-Tilausten välinen hankintaluokka tarkoittaa, että nimike ostetaan, kootaan tai tuotetaan erityisesti kattamaan tietty kysyntä. Yleensä tämä liittyy A-nimikkeisiin. Tämä tapa valitaan esimerkiksi silloin, kun kysyntä ei ole säännöllistä, toimitusajalla ei ole merkitystä tai pakolliset määritteet vaihtelevat.  
-
-Toinen erityistapaus, joka käyttää tilaustenvälisiä linkkejä on kokoonpanotilauksen linkitys myyntitilaukseen kokoonpano tilausta varten -skenaariossa.  
+Tilaustenvälisiä linkkejä käytetään myös tilanteessa, jossa kokoonpanotilaus linkitetään myyntitilaukseen kokoonpano tilausta varten -skenaariossa.  
 
 Tilausten välisiä linkkejä käytetään kysynnän ja tarjonnan välillä neljällä tavalla:  
 
--   Kun suunniteltu nimike käyttää Tilaus-uusintatilaustapaa.  
--   Kun usean tason tai projektityyppisiä tuotantotilauksia luodaan tilausohjatun tuotantotavan avulla (tarvittavat komponentit sisältyvät samaan tuotantotilaukseen).  
--   Kun tuotantotilauksia luodaan myyntitilauksille, joilla on myyntitilauksen suunnittelutoiminto.  
--   Kun nimikettä määritetään myyntitilauksen kokoonpanoon. (Kokoonpanokäytännön asetus on kokoonpano tilausta varten.  
+* Kun suunniteltu nimike käyttää **Tilaus**-uudelleentilauskäytäntöä.  
+* Kun usean tason tai projektityyppisiä tuotantotilauksia luodaan tilausohjatun tuotantokäytännön avulla (komponentit sisältyvät samaan tuotantotilaukseen).  
+* Kun tuotantotilauksia luodaan myyntitilauksille myyntitilauksen suunnittelutoiminnolla.  
+* Kun nimike kootaan myyntitilaukseen (**Kokoonpanokäytäntö**-määrityksenä on **Kokoonpano tilausta varten**).  
 
-Näissä tapauksissa suunnittelujärjestelmä ehdottaa vain tarvittavan määrän tilaamista. Luonnin jälkeen osto-, tuotanto- tai kokoonpanotilaus kohdistuu edelleen vastaavaan kysyntään. Esimerkiksi jos myyntitilaus on vaihdettu ajan tai määrän osalta, suunnittelujärjestelmä ehdottaa, että vastaava toimitustilaus muutetaan vastaavasti.  
+Suunnittelujärjestelmä ehdottaa vain tarvittavan määrän tilaamista. Osto-, tuotanto- tai kokoonpanotilaus vastaa edelleen kysyntää. Jos esimerkiksi myyntitilauksen aikaa tai määrää on muutettu, suunnittelujärjestelmä ehdottaa, että toimitustilausta muutetaan vastaavasti.  
 
-Kun tilausten välisiä linkkejä on määritetty, suunnittelujärjestelmä ei käytä linkitettyä tarjontaa tai varastoa täsmäytyksessä. Käyttäjän vastuulla on arvioida, tulisiko linkitettyä tarjontaa käyttää kattamaan toinen vai uusi kysyntä ja tässä tapauksessa poistaa toimitustilaus vai varata linkitetty tarjonta manuaalisesti.  
+Kun tilausten välisiä linkkejä on määritetty, suunnittelujärjestelmä ei käytä linkitettyä tarjontaa tai varastoa täsmäytyksessä. Suunnittelijat voivat päättää, käytetäänkö linkitettyä tarjontaa vai uutta kysyntää. Jälkimmäisessä tapauksessa he voivat poistaa toimitustilauksen tai varata linkitetyn tarjonnan manuaalisesti.  
 
-Varaukset ja tilausseurantalinkit katkeavat, jos tilanne menee mahdottomaksi, kuten jos vaatimusta siirretään aiemmalle päivälle kuin toimitus. Tilausten välinen linkki mukautuu kuitenkin kaikkiin muutoksiin vastaavassa kysynnässä tai tarjonnassa ja tämän vuoksi linkki ei katkea koskaan.  
+Varaukset ja tilauksen seurantalinkit katkeavat, jos tilanne muuttuu mahdottomaksi. Kyse voi olla esimerkiksi kysynnän siirtäminen tarjontaa aikaisempaan päivämäärään. Tilausten väliset linkit mukautuvat kysynnän ja tarjonnan muutoksiin eivätkä katkea koskaan.  
 
-## <a name="reservations"></a>Varaukset
+## Varaukset
 
-Suunnittelujärjestelmä ei sisällytä mitään varattuja määriä laskelmaan. Esimerkiksi, jos myyntitilaus on kokonaan tai osittain varattu määrä varastossa olevaa määrää vastaan, varaston varattua määrää ei voida käyttää muun kysynnän kattamiseksi. Suunnittelujärjestelmä ei sisällytä tätä kysyntä-tarjonta-sarjaa laskelmaansa.  
+Suunnittelujärjestelmä ei sisällytä varattuja määriä laskelmiin. Jos esimerkiksi myyntitilauksen määrä on kokonaan tai osittain varattu, määrää ei voi käyttää muun kysynnän kattamiseen.
 
-Suunnittelujärjestelmä sisällyttää kuitenkin edelleen varatut määrät suunnitellussa varastoprofiilissa, koska kaikki määrät on otettava huomioon määritettäessä sitä hetkeä, jolloin uusintatilauspiste on ohitettu ja kuinka monta tilataan uudelleen enimmäisvarastotason saavuttamiseksi sitä ylittämättä. Näin ollen tarpeettomat varaukset johtavat kasvavaan riskiin, että varastomäärät vähenevät alhaisiksi, koska suunnittelulogiikka ei tunnistanut varattuja määriä.  
+Suunnittelujärjestelmä ei sisällytä mitään varattuja määriä suunniteltuun varastoprofiiliin. Sen on otettava huomioon kaikki määrät, kun määritetään, milloin uudelleentilauspiste ohitettiin ja kuinka suuri uudelleentilauksen on oltava enimmäisvarastomäärän saavuttamiseksi. Tarpeettomat varaukset lisätä sen riskiä, että varastomäärät ovat liian pieniä, koska suunnittelulogiikka ei havainnut varattuja määriä.  
 
-Seuraavassa kuvassa esitetään, kuinka varaukset voivat estää kaikista todennäköisimmän suunnitelman.  
+Seuraava kuva osoittaa, miten varaukset voivat haitata suunnittelua.  
 
-![Varausten suunnittelu.](media/NAV_APP_supply_planning_1_reservations.png "Varausten suunnittelu")  
+:::image type="content" source="media/nav_app_supply_planning_1_reservations.png" alt-text="Varausten suunnittelu.":::
 
-Lisätietoja on kohdassa [Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys](design-details-reservation-order-tracking-and-action-messaging.md).  
+Lisätietoja on kohdassa [Rakennetiedot: varaus, tilauksen seuranta ja toimenpideviestit](design-details-reservation-order-tracking-and-action-messaging.md).  
 
-## <a name="warnings"></a>Varoitukset
+## Varoitukset
 
-Ensimmäinen suunnittelutaulukon sarake on varoituskenttiä varten. Kaikki epätavallisessa tilanteessa luodut suunnittelurivit tuottavat tähän kenttään varoituskuvakkeen, jota napsauttamalla käyttäjä saa lisätietoja.  
+Ensimmäinen suunnittelutaulukon sarake on varoituskenttiä varten. Varoituskuvake näkyy, kun epätavalliselle tilanteelle on luotu suunnittelurivi.  
 
-Tarjontaa suunnitteluriveillä, joilla on varoituksia, ei tavallisesti muokata suunnitteluparametrien mukaan. Suunnittelujärjestelmä ehdottaa sen sijaan vain toimitusmäärää, joka kattaa kysyntämäärän täsmällisesti. Järjestelmä voidaan kuitenkin määrittää noudattamaan tiettyjä suunnittelurivien suunnitteluparametreja, joihin liittyy tiettyjä varoituksia. Lisätietoja on seuraavien erätöiden vaihtoehtojen kuvauksissa: **Laske suunn. - Suunn.työk.** ja **Laske suun. - hankintatyök.** .  
+Varoituksia sisältävien suunnittelurivien tarjontaa ei yleensä muokata suunnitteluparametrien mukaan. Suunnittelujärjestelmä ehdottaa sen sijaan toimitusta, joka kattaa täsmälleen kysynnän määrän. Järjestelmä voidaan kuitenkin määrittää noudattamaan sellaisten suunnittelurivien suunnitteluparametreja, joihin liittyy tiettyjä varoituksia. Varoituksen tiedot näkyvät **Ei-seuratut suunnitteluelementit** -sivulla, jossa näkyvät myös niiden tilausverkon ulkopuolisten yksiköiden tilauksen seurantalinkit. Varoitustyyppejä on kolme:  
 
-Varoituksen tiedot näytetään **Ei-seuratut suunnitteluelementit** -sivulla, jossa näkyvät myös niiden yksiköiden tilauksen seurantalinkit, jotka eivät ole tilauksia. Varoitustyyppejä on kolme:  
+* Hätä  
+* Poikkeus  
+* Huomautus  
 
--   Hätä  
--   Poikkeus  
--   Huomautus  
+:::image type="content" source="media/nav_app_supply_planning_1_warnings.png" alt-text="Suunnittelutyökirjan varoitukset.":::
 
-![Suunnittelutyökirjan varoitukset.](media/NAV_APP_supply_planning_1_warnings.png "Suunnittelutyökirjan varoitukset")  
+### Hätä
 
-### <a name="emergency"></a>Hätä
+Hätävaroitus näytetään kahdessa tilanteessa:  
 
-Hätä-varoitus tulee näkyviin kahdessa tilanteessa:  
+* Varasto on negatiivinen suunnittelun aloituspäivämääränä.  
+* Nykyhetkeä aikaisempia tarjonta- tai kysyntätapahtumia on olemassa.  
 
--   Kun varasto on negatiivinen suunnittelun aloituspäivämääränä.  
--   Kun nykyhetkeä aikaisempia tarjonta- tai kysyntätapahtumia on olemassa.  
+Jos nimikkeen varasto on negatiivinen suunnittelun aloituspäivämääränä, suunnittelujärjestelmä ehdottaa negatiiviselle määrälle hätätilausta, joka saapuu suunnittelun aloituspäivämääränä. Varoitustekstissä kerrotaan aloituspäivämäärä ja hätätilauksen määrä. Lisätietoja on kohdassa [Rakennetiedot: suunnitellun negatiivisen varaston käsittely](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
 
-Jos nimikkeen varasto on negatiivinen suunnittelun aloituspäivämääränä, suunnittelujärjestelmä ehdottaa negatiiviselle määrälle hätätilausta, joka saapuu suunnittelun aloituspäivämääränä. Varoitustekstissä kerrotaan aloituspäivämäärä ja hätätilauksen määrä. Lisätietoja on kohdassa [Suunnitellun negatiivisen varaston käsittely](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
+Asiakirjan rivit, joiden eräpäivä on ennen suunnittelun aloituspäivämäärää, yhdistetään yhdeksi hätätoimitustilaukseksi. Tilaus suunnitellaan saapuvaksi suunnittelun aloituspäivämääränä.  
 
-Jos asiakirjassa on rivejä, joiden eräpäivä on ennen suunnittelun aloituspäivämäärää, rivit yhdistetään yhdeksi hätätoimitustilaukseksi, jotta nimike saapuisi suunnittelun aloituspäivämääränä.  
-
-### <a name="exception"></a>Poikkeus
+### Poikkeus
 
 Poikkeus-varoitus näytetään, jos oletettu saatavilla oleva varasto pienenee varmuusvaraston määrää pienemmäksi. Suunnittelujärjestelmä ehdottaa toimitustilausta, joka täyttää kysynnän eräpäivänä. Varoitustekstissä kerrotaan nimikkeen varmuusvaraston määrä ja päivämäärä, jolloin se vähenee liian pieneksi.  
 
-Varmuusvaraston tason alittaminen aiheuttaa poikkeuksen, koska näin ei pitäisi käydä, jos uusintatilauspiste on määritetty oikein. Lisätietoja on kohdassa [Uusintatilauspisteen rooli](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
+Varmuusvaraston tasorikkomus on poikkeus. Sen ei pitäisi olla mahdollista, jos uudelleentilauspiste on määritetty oikein. Lisätietoja on kohdassa [Uusintatilauspisteen rooli](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
 
-Yleisesti ottaen poikkeukselliset tilausehdotukset varmistavat, että arvioitu käytettävissä oleva varasto ei ole koskaan varmuusvaraston tasoa alhaisempi. Tämä tarkoittaa sitä, että ehdotettu määrä riittää kattamaan vain varmuusvaraston ottamatta suunnitteluparametreja huomioon. Kuitenkin joissakin tilanteissa tilausmääritteet otetaan huomioon.  
+Poikkeustilausehdotukset auttavat varmistamaan, että arvioitu käytettävissä oleva varasto ei ole koskaan varmuusvaraston tasoa alhaisempi. Ehdotettu määrä kattaa varmuusvaraston ottamatta suunnitteluparametreja huomioon. Kuitenkin joissakin tilanteissa tilausmääritteet otetaan huomioon.  
 
 > [!NOTE]  
->  Suunnittelujärjestelmä on saattanut käyttää varmuusvaraston tarkoituksellisesti ja täydentää sen välittömästi. Lisätietoja on ohjeaiheessa [Varmuusvarastoa voidaan käyttää](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).
+> Suunnittelujärjestelmä on saattanut käyttää varmuusvaraston tarkoituksellisesti ja täydentää sen välittömästi. Lisätietoja on kohdassa [Varmuusvaraston käyttäminen](design-details-balancing-demand-and-supply.md#consume-safety-stock).
 
-### <a name="attention"></a>Huomautus
+### Huomautus
 
 Huomautus-varoitus tulee näkyviin kolmessa tilanteessa:  
 
--   Suunnittelun aloituspäivämäärä on varhaisempi kuin käsittelypäivämäärä.  
--   Suunnittelurivi ehdottaa vapautetun osto- tai tuotantotilauksen vaihtamista.  
--   Käsitelty varasto ylittää ylitystason eräpäivänä. Lisätietoja on kohdassa [Sallitun ylityksen alapuolella pysytteleminen](design-details-handling-reordering-policies.md#staying-under-the-overflow-level).  
+* Suunnittelun aloituspäivämäärä on varhaisempi kuin käsittelypäivämäärä.  
+* Suunnittelurivi ehdottaa vapautetun osto- tai tuotantotilauksen vaihtamista.  
+* Käsitelty varasto ylittää ylitystason eräpäivänä. Lisätietoja on kohdassa [Sallitun ylityksen alapuolella pysytteleminen](design-details-handling-reordering-policies.md#stay-below-the-overflow-level).  
 
 > [!NOTE]  
->  Suunnitteluriveillä, joilla on varoituksia, ei valita **Hyväksy toimenpideviesti** -kenttää, koska suunnitteluohjelman oletetaan tutkivan tarkemmin näitä rivejä ennen suunnitelman toteutusta.  
+> Varoituksia sisältävillä suunnitteluriveillä ei valita **Hyväksy toimenpideviesti** -kenttää, koska suunnitteluohjelman oletetaan tarkistavan rivit ennen suunnitelman toteutusta.  
 
-## <a name="error-logs"></a>Virhelokit
+## Virhelokit
 
-Laske suunnitelma -pyyntösivulla käyttäjä voi valita **Pysäytä ja Näytä ensimmäinen virhe**-kentän, jotta suunnitelman ajo pysähtyy, kun se kohtaa ensimmäisen virheen. Samalla näyttöön tulee sanoma, jossa on tietoja virheestä. Virhetilanteessa vain ennen virheen ilmenemistä tehdyt onnistuneet suunnittelurivit esitetään suunnittelutyökirjassa.  
+**Laske suunnitelma** -pyyntösivulla voidaan valita **Pysäytä ja näytä ensimmäinen virhe** -kenttä, jolloin suunnitteluajo pysähtyy, kun ensimmäinen virhe havaitaan. Avautuvassa sanomassa on tietoja virheestä. Virhetilanteessa vain ennen virheen ilmenemistä onnistuneesti suoritetut suunnittelurivit näytetään suunnittelutyökirjassa.  
 
-Jos kenttää ei ole valittu, Laske suunnitelma -eräajo jatkaa suoritusta loppuun asti. Virheet eivät keskeytä eräajoa. Jos virheitä ilmenee, sovellus tuo eräajon jälkeen näkyviin sanoman, jossa ilmoitetaan kuinka moneen nimikkeeseen virheet vaikuttavat. Tämän jälkeen avautuu **Suunnittelun virheloki** -sivu, jossa on lisätietoja virheestä ja linkit vaikutusalueeseen kuuluviin asiakirjoihin tai asetuskortteihin.  
+Jos kenttää ei ole valittu, **Laske suunnitelma** -eräajo jatkuu valmistumiseen saakka. Virheet eivät keskeytä eräajoa. Sanoma ilmoittaa, kuinka montaa kohdetta mahdolliset virheet koskevat. **Suunnittelun virheloki** -sivulla on lisätietoja virheestä ja linkit asiakirjoihin tai määrityksiin, joita virhe koskee.  
 
-![Virhesanomat suunnittelutyökirjassa.](media/NAV_APP_supply_planning_1_error_log.png "Virhesanomat suunnittelutyökirjassa")  
+:::image type="content" source="media/nav_app_supply_planning_1_error_log.png" alt-text="Virhesanomat suunnittelutyökirjassa.":::
 
-## <a name="planning-flexibility"></a>Suunnittelun joustavuus
+## Suunnittelun joustavuus
 
-Ei ole aina käytännöllistä suunnitella olemassa olevaa toimitustilausta, kuten silloin, kun tuotanto on käynnistynyt tai henkilöstöä on palkattu lisää tiettynä päivänä työn suorittamiseksi. Kaikilla toimitustilauksen riveillä on Suunnittelun joustavuus -kenttä, jolla on kaksi valintaa: Rajaton tai Ei mitään. Tämän kentän avulla osoitetaan, voiko suunnittelujärjestelmä muuttaa olemassa olevan tilauksen. Jos kentän arvoksi on asetettu Ei mitään, suunnittelujärjestelmä ei yritä muuttaa toimitustilauksen riviä.  
+Aiemmin luodun toimitustilauksen suunnittelu ei ole aina järkevää. Kyse voi olla esimerkiksi siitä, että tuotanto on käynnistynyt tai työtä varten on palkattu tiettynä päivänä lisähenkilöstöä. Kaikilla toimitustilauksen riveillä on **Suunnittelun joustavuus** -kenttä, jossa on kaksi vaihtoehtoa: **Rajaton** tai **Ei mitään**. Tämän kentän avulla osoitetaan, voiko suunnittelujärjestelmä muuttaa aiemmin luotua tilausta. Jos kentän määrityksenä on **Ei mitään**, suunnittelujärjestelmä ei yritä muuttaa toimitustilauksen riviä.  
 
-Käyttäjä voi manuaalisesti määrittää kentän, kuitenkin joissa tapauksissa järjestelmä määrittää sen automaattisesti. Se fakta, että käyttäjä voi määrittää manuaalisesti suunnittelun joustavuuden on tärkeä, koska sen ansiosta on helppoa mukauttaa ominaisuuden käyttö erilaisiin työnkulkuihin ja liiketoimintatapauksiin.  
+Vaihtoehto voidaan valita kentässä manuaalisesti, joskin joissakin tapauksissa [!INCLUDE [prod_short](includes/prod_short.md)] määrittää sen automaattisesti. Mahdollisuus määrittää suunnittelun joustavuus manuaalisesti on tärkeää, koska sen ansiosta on helppo mukauttaa ominaisuuden käyttöä erilaisten työnkulkujen ja liiketoimintatapausten perusteella. Lisätietoja tämän kentän käytöstä on kohdassa [Rakennetiedot: siirrot suunnittelussa](design-details-transfers-in-planning.md).  
 
-Lisätietoja tämän kentän käytöstä on kohdassa [Rakennetiedot: siirrot suunnittelussa](design-details-transfers-in-planning.md).  
+## Tilauksen suunnittelu
 
-## <a name="order-planning"></a>Tilauksen suunnittelu
-
-**Tilausten suunnittelu** -sivulla esitelty perustyökalu tarjonnan suunnitteluun on suunniteltu manuaaliseen päätöstentekoon. Se ei ota huomioon mitään suunnitteluparametreja ja sitä ei näin ollen käsitellä tarkemmin tässä asiakirjassa. Lisätietoja on kohdassa [Uuden kysyntätilauksen suunnitteleminen tilauksen mukaan](production-how-to-plan-for-new-demand.md).  
+**Tilausten suunnittelu** -sivulla esitelty perustyökalu tarjonnan suunnitteluun on suunniteltu manuaaliseen päätöstentekoon. Se ei ota huomioon mitään suunnitteluparametreja, minkä vuoksi sitä ei käsitellä tarkemmin tässä artikkelissa. Lisätietoja on kohdassa [Uuden kysynnän tilauskohtainen suunnittelu](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
->  Ei ole suositeltavaa käyttää Tilauksen suunnittelu -toimintoa, jos yrityksessä jo käytetään suunnitelussa suunnittelutyökirjaa tai hankintalistaa. **Tilauksen suunnittelu** -sivun kautta luotuja toimitustilauksia voidaan muuttaa tai poistaa automaattisten suunnitteluajojen aikana. Tämä johtuu siitä, että automaattisissa suunnitteluajoissa käytetään suunnitteluparametreja, joita Tilauksen suunnittelu -sivulla manuaalisen suunnitelman laatinut käyttäjä ei välttämättä ole ottanut huomioon.  
+> Tilauksen suunnittelua ei kannata käyttää, jos yrityksessä jo käytetään suunnitellussa suunnittelutyökirjaa tai hankintalistaa. **Tilauksen suunnittelu** -sivun kautta luotuja toimitustilauksia voidaan muuttaa tai poistaa automaattisten suunnitteluajojen aikana. Nämä muutokset tapahtuvat sen vuoksi, että automaattisissa suunnitteluajoissa käytetään suunnitteluparametreja, joita ei välttämättä oteta huomioon, kun suunnitelma tehdään manuaalisesti Tilauksen suunnittelu -sivulla.  
 
-## <a name="finite-loading"></a>Äärellinen kuormitus
+## Äärellinen kuormitus
 
-[!INCLUDE[prod_short](includes/prod_short.md)] on tavallinen ERP-järjestelmä, ei lähetyksen tai työnohjauksen ohjausjärjestelmä. Se suunnittelee resurssien käytön tarjoamalla karkean aikataulun, mutta se ei luo ja ylläpidä automaattisesti tarkkoja aikatauluja prioriteetteihin tai optimointisääntöihin perustuen.  
+[!INCLUDE[prod_short](includes/prod_short.md)] tuottaa karkean aikataulun resurssien järkevän käytön suunnittelua varten. Se ei automaattisesti luo ja ylläpidä tarkkoja prioriteetteihin tai optimointisääntöihin perustuvia aikatauluja.  
 
-Kapasiteettirajoitteisten resurssien suunniteltu käyttötoiminto käsittää: 1) välttää eritysresurssien ylikuormitusta ja 2) varmistaa, että kapasiteettia ei ole kohdentamatta, jos se voisi kasvattaa tuotantotilauksen paluuaikaa. Ominaisuus ei sisällä välineitä tai vaihtoehtoja priorisoida tai optimoida toimintoja, kuten voisi olettaa löytyvän lähetysjärjestelmästä. Se voi kuitenkin tarjota hyödyllisen karkean kapasiteettitiedon pullonkaulojen tunnistamiseksi ja resurssien ylikuormituksen estämiseksi.  
+Kapasiteettirajoitetut resurssit -omaisuuden käyttötarkoitukset:
 
-Kun suunnitellaan kapasiteettirajoitettuja resursseja, järjestelmä varmistaa, että resurssia ei ole kuormitettu enempää kuin sille määritetty kapasiteetti osoittaa (kriittinen kuormitus). Tämä tehdään määrittämällä jokaiselle toiminnolle lähin mahdollinen aika. Jos ajankohta ei ole tarpeeksi suuri koko toiminnon suorittamiseksi, toiminto jaetaan kahdeksi tai useammaksi osaksi, jotka sijoitetaan lähimpiin käytettävissä oleviin ajankohtiin.  
+* Resurssien ylikuorittamisen välttäminen
+* Tuotantotilauksen valmistumisajan mahdollinen lyhentäminen varmistamalla, ettei kapasiteettia jää kohdistamatta.
+
+Kun kapasiteettirajoitettuja resursseja käytetään suunnittelussa, [!INCLUDE [prod_short](includes/prod_short.md)] varmistaa, ettei kuormitus ylitä resurssien kapasiteettia (kriittinen kuormitus). Se määrittää kullekin toiminnolle lähimmän mahdollisen ajankohdan. Jos ajankohta ei riitä toiminnon suorittamiseen, toiminto jaetaan vähintään kahdeksi osaksi lähimpiin käytettävissä oleviin ajankohtiin.  
 
 > [!NOTE]  
-> Jos toiminto jaetaan, asetusaika kohdistetaan vain kerran, koska oletetaan, että jotkin manuaaliset muutokset suoritetaan aikataulun optimoimiseksi.  
+> Jos toiminto jaetaan, määritysaika kohdistetaan vain kerran, koska oletetaan, että aikataulun optimointiin käytetään joitakin manuaalisia muutoksia.  
 
-Resursseihin voidaan lisätä puskuriaika toiminnon jaon minimoimiseksi. Tämän avulla järjestelmä ajoittaa kuormituksen viimeiseen mahdolliseen päivään niin, että kriittinen kuormitusprosentti ylittyy hieman. Tämä voi vähentää jaettavien toimintojen määrää.  
+Resursseihin voidaan lisätä puskuriaika minimoimaan toiminnon jakamista. Tämä ajan ansiosta [!INCLUDE [prod_short](includes/prod_short.md)] voi aikatauluttaa kuormituksen viimeiselle mahdolliselle päivälle siten, että kriittinen kuormitusprosentti ylittyy hieman.  
 
-Tämä täydentää keskeisten konseptien luonnoksen, joka liittyy [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman tarjonnan suunnitteluun. Seuraavat osat tutkivat näitä konsepteja tarkemmin ja asettavat ne ydinsuunnitteluprosessien kontekstiin, tasapainottaen kysynnän ja tarjonnan sekä jälkitilausohjeiden käytön.  
-
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rakennetiedot: siirrot suunnittelussa](design-details-transfers-in-planning.md)  
 [Rakennetiedot: suunnittelun parametrit](design-details-planning-parameters.md)  

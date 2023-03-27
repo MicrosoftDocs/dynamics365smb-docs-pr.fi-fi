@@ -6,21 +6,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 7600, 7601, 7602, 5703
+ms.search.form: '7600, 7601, 7602, 5703'
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 0c6be4bc0c602363e4ae54cc27663d1eaa4091e9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511834"
 ---
-# <a name="set-up-base-calendars"></a>Peruskalenterien määrittäminen
+# Peruskalenterien määrittäminen
 
 Peruskalenterin voi määritellä yrityksellesi ja sen liiketoimintakumppaneille, esimerkiksi asiakkaille, toimittajille tai sijainneille. Toimituksen ja vastaanoton päivämäärät lasketaan tuleville myyntitilaus-, ostotilaus-, siirtotilaus- ja tuotantotilausriveille kalenteriin määritettyjen työpäivien mukaisesti. Päätehtävä uuden peruskalenterin määrittämisessä on käytettävien, muiden kuin työpäivien eritteleminen ja määritteleminen.  
 
-## <a name="to-set-up-a-base-calendar"></a>Peruskalenterin määrittäminen
+## Peruskalenterin määrittäminen
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Peruskalenteri** ja valitse sitten vastaava linkki.  
 2.  Valitse **Uusi**-toiminto.  
@@ -42,7 +36,7 @@ Kun teet tapahtuman, **Ei työskentely** -kenttä on valittuna. Voit valita vali
 >  Toimittajalle tai sijainnille määritetyt peruskalenterit vaikuttavat siihen, kuinka päivämäärät lasketaan ja pyöristetään työpäiviin.
 Määrittää päivämääräkaavan ajalle, joka kuluu nimikkeen täydentämiseen. Sen avulla lasketaan **Suun. vast.otto pvm** -kentän arvo eteenpäin laskettaessa ja **Tilauspvm**-kentän arvo taaksepäin laskettaessa. Katso [Toimitusajan laskenta](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
-## <a name="lead-time-calculation"></a>Toimitusajan laskenta
+## Toimitusajan laskenta
 
 Toimittajalle tai sijainnille määritetyt peruskalenterit vaikuttavat siihen, kuinka päivämäärät lasketaan ja pyöristetään työpäiviin. Näin ollen ostotilauksen rivien kaksi päivämääräkenttää lasketaan seuraavasti eri olosuhteissa.
 
@@ -59,7 +53,7 @@ Toimittajalle tai sijainnille määritetyt peruskalenterit vaikuttavat siihen, k
 
 **Toimitusajan laskenta** -kentän sisältö kopioidaan nimikkeen kortista tai varastointiyksikön kortista, jos nimikkeelle on määritelty toimitusaika, tai **Nimikkeen toimittajaluettelo** -sivulla, jos toimitusaika on määritetty toimittajalle.
 
-## <a name="to-customize-a-calendar"></a>Kalenterin räätälöiminen
+## Kalenterin räätälöiminen
 Päätehtävä peruskalenterin räätälöimisessä yrityksellesi tai yhdelle sen liiketoimintakumppaneista on syöttää kaikki työskentely- ja ei-työskentelypäivätilan muutokset.
 
 Kun esimerkiksi peruskalenterissa on tavallisesti luetteloitu kaikki lauantait ei-työskentelypäiviksi, tietyn sijainnin räätälöidyssä kalenterissa kaikki marras- ja joulukuun lauantait voidaan luetteloida työskentelypäiviksi.
@@ -92,7 +86,7 @@ Jos tilausrivin **Kuljetusliikkeen koodi** -kenttää ei täytetä, ohjelma käy
 > [!NOTE]  
 > Jos teet muutoksia peruskalenteriin, jossa on räätälöityjä kalenteritapahtumia, ohjelma päivittää automaattisesti kaikki olemassa olevat räätälöidyt kalenterit.
 
-## <a name="to-assign-a-base-calendar"></a>Peruskalenterin määritteleminen:  
+## Peruskalenterin määritteleminen:  
 Seuraavassa menettelyssä käytetään esimerkkinä asiakkaan tapausta (ja toimituspäivämäärien aikatauluttamista myyntitilausriveille).
 
 Peruskalenterit määritetään omalle yritykselle, asiakkaille, toimittajille, sijainneille ja kuljetusliikkeille seuraavasti:  
@@ -114,7 +108,7 @@ Peruskalenterit määritetään omalle yritykselle, asiakkaille, toimittajille, 
 > [!NOTE]  
 >  Ennen kuin räätälöityjä kalenteritapahtumia voidaan tehdä, yritykselle tulee ensin määritellä peruskalenteri.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Osto](purchasing-manage-purchasing.md)  
 [Tuotanto](production-manage-manufacturing.md)    
 [Varasto](inventory-manage-inventory.md)  

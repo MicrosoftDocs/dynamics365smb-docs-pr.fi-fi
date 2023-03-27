@@ -1,32 +1,25 @@
 ---
 title: Ennakkomaksulaskujen luominen
-description: Toiminta tilanteissa, joissa edellytät itse ennakkomaksua tai toimittajasi edellyttää sitä. Käytä kullekin myynti- tai ostoriville oletusprosenttiosuuksia tai muuta laskun summia tarpeen mukaan.
-author: edupont04
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 42, 50, 9305, 9307
-ms.date: 12/02/2021
-ms.author: edupont
-ms.openlocfilehash: ffb2adb5a0ec43da14ee7fd9126c3293ea73ab22
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534910"
+description: 'Toiminta tilanteissa, joissa edellytät itse ennakkomaksua tai toimittajasi edellyttää sitä. Käytä kullekin myynti- tai ostoriville oletusprosenttiosuuksia tai muuta laskun summia tarpeen mukaan.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bhielse
+ms.topic: how-to
+ms.date: 02/02/2023
+ms.custom: bap-template
+ms.search.form: '42, 50, 9305, 9307'
 ---
-# <a name="create-prepayment-invoices"></a>Ennakkomaksulaskujen luominen
+# Ennakkomaksulaskujen luominen
 
 Jos asiakkaiden on lähetettävä maksu, ennen kuin lähetät tilauksen heille, voit käyttää ennakkomaksuominaisuuksia. Näin voi toimia myös silloin, jos toimittaja edellyttää, että maksat ennen tilauksen toimittamista.  
 
-Voit aloittaa ennakkomaksuprosessin, kun olet luonut ostotilauksen. Jos sinulla on oletusarvoinen ennakkomaksuprosentti tilauksen kohteelle tai asiakkaalle tai myyjälle, prosenttiosuus sisällytetään ennakkomaksun laskuun. Voit määrittää ennakkomaksuprosentin myös koko asiakirjalle.
+Voit aloittaa ennakkomaksuprosessin, kun olet luonut ostotilauksen. Oletusarvoinen ennakkomaksuprosentti tilauksen nimikkeelle taikka asiakkaalle tai myyjälle sisällytetään ennakkomaksun laskuun. Voit määrittää ennakkomaksuprosentin myös koko asiakirjalle.
 
 Kun olet luonut myynti- tai ostotilauksen, voit luoda sille ennakkomaksun laskun. Käytä joko kullekin myynti- tai ostoriville oletusprosenttiosuuksia tai muuta laskun summia. Voit määrittää esimerkiksi koko tilauksen yhteissumman.  
 
 Seuraavaksi käsitellään myyntitilauksen ennakkomaksun laskuttamista. Ostotilausten vaiheet ovat vastaavanlaiset.  
 
-## <a name="to-create-a-prepayment-invoice"></a>Ennakkomaksulaskun luominen
+## Ennakkomaksulaskun luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 2. Luo uusi myyntitilaus asianomaiselle asiakkaalle. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).  
@@ -41,6 +34,14 @@ Seuraavaksi käsitellään myyntitilauksen ennakkomaksun laskuttamista. Ostotila
     Jos haluat määrittää ennakkomaksulaskun, jossa on yksi rivi kutakin ennakkomaksuprosentin sisältävää myyntitilausriviä varten. älä valitse **Tiivistä ennakkomaksu** -kenttää.  
 
     Ennakkomaksun eräpäivä lasketaan automaattisesti **Ennakkomaksun maksuehtojen koodi** -arvon perusteella.
+
+    > [!NOTE]
+    > Jos jotkin laskun rivit edellyttävät 100 %:n ennakkomaksun ja toiset eivät, minkä lisäksi ennakkomaksutilillä on ALV, pyöristetty summa voi aiheuttaa virheen, kun ennakkomaksulasku luodaan. Virheen syynä on se, että ennakkomaksun summa on suurempi kuin asiakirjarivien summat. Ongelma korjataan muuttamalla summat niillä riveillä, jotka edellyttävät 100 %:n ennakkomaksua. Muutos laskee ALV-summan pyöristyksen uudelleen ja käyttää kumulatiivista pyöristyseroa viimeksi muokatulla rivillä.
+    >
+    > Ongelman voi lisäksi korjata kahdella seuraavalla tavalla:
+    >
+    > * Luomalla erillinen tuotteen ALV-kirjausryhmä ja ALV-kirjausryhmä, jossa on erillinen ALV-tunnus sekä käyttämällä sitä nimikkeissä tai riveillä, joilla on käytettävä 100 %:n ennakkomaksua. Kukin ALV-tunnus pyöristetään, jos erillinen pyöristys tehdään nimikkeille, jotka on määritetty tuotteen ALV-kirjausryhmään.
+    > * Käyttämällä erillistä laskua nimikkeille tai riveille, jotka edellyttävät 100 %:n ennakkomaksua tai eivät edellytä sitä.
 
 3. Täytä myyntirivit.  
 
@@ -69,13 +70,13 @@ Voit antaa muita tilauksen ennakkomaksulaskuja. Luo uusi lasku nostamalla yhden 
 
  Kun olet valmis kirjaamaan loput laskusta, kirjaa se kuten mikä tahansa lasku. Ennakkomaksusumma vähennetään automaattisesti erääntyvästä summasta.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Ennakkoon maksettujen tilausten ja laskujen tilan päivittäminen automaattisesti
+## Ennakkoon maksettujen tilausten ja laskujen tilan päivittäminen automaattisesti
 
 Voit nopeuttaa tilausten ja laskujen käsittelemistä määrittämällä työjonotapahtumat, jotka päivittävät kyseisten asiakirjojen tilan automaattisesti. Kun ennakkomaksulasku on maksettu, työjonotapahtumat voivat automaattisesti muuttaa asiakirjan tilan **odottavasta ennakkomaksusta** **lähetetyksi**. Kun määrität työjonon tapahtumia, koodiyksiköt, joita tarvitset, ovat **383 Upd. Pending Prepmt. Sales** ja **383 Upd. Pending Prepmt. Purchase**. On suositeltavaa ajoittaa tapahtumat suoritettavaksi usein, esimerkiksi joka minuutti. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Ennakkomaksujen laskuttaminen](finance-invoice-prepayments.md)  
 [Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

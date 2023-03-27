@@ -1,22 +1,16 @@
 ---
 title: Business Centralin määritystehtävien yleiskatsaus
-description: Lue yleiskatsaus tehtävistä, jotka vaaditaan, kun Business Central asennetaan, alustetaan ja määritetään omia tarpeita vastaavaksi.
+description: 'Lue yleiskatsaus tehtävistä, jotka vaaditaan, kun Business Central asennetaan, alustetaan ja määritetään omia tarpeita vastaavaksi.'
 author: edupont04
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: configure, initialize
+ms.search.keywords: 'configure, initialize'
 ms.date: 09/27/2022
 ms.author: edupont
-ms.openlocfilehash: 65fd173213af21631b27019a79fc8030d6839daf
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9604831"
 ---
-# <a name="overview-of-tasks-to-set-up-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in määritystehtävien yleiskatsaus
+# [!INCLUDE[prod_short](includes/prod_short.md)]in määritystehtävien yleiskatsaus
 
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset organisaatiosi tarpeita vastaaviksi. [Business Centralin pika-aloituksen](quick-start-business-central.md) artikkelien avulla voit ottaa ensimmäiset askelet [!INCLUDE [prod_short](includes/prod_short.md)]in käyttöönotossa. Tässä artikkelissa on yleiskuvaus siitä, miten voit määrittää [!INCLUDE [prod_short](includes/prod_short.md)]in organisaatiollesi.
 
@@ -61,13 +55,13 @@ Joidenkin alueiden edellytyksenä on, että käyttäjä on [!INCLUDE[prod_short]
 > [!NOTE]
 > Järjestelmänvalvojana voit määrittää uuden yrityksen [!INCLUDE[prod_short](includes/prod_short.md)]issa RapidStart Servicesin avulla. RapidStart Services on työkalu, joka on suunniteltu lyhentämään käyttöönottoa, parantamaan toteutuksen laatua, esittelemään toistettavia lähestymistapoja toteutuksiin sekä lisäämään tuottavuutta automatisoimalla ja yksinkertaistamalla toistuvia tehtäviä. Lisätietoja on kohdassa [Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md).
 
-## <a name="set-up-apps"></a>Sovellusten määrittäminen
+## Sovellusten määrittäminen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] sisältää ydinominaisuuksia, joiden päälle Microsoft lisää joitakin [**Laajennusten hallinta** -sivulla](https://businesscentral.dynamics.com/?page=2500) olevia sovelluksia. Vuoden 2022 lokakuusta lähtien jokainen sovellus sisältää linkin sovelluksen asetussivun käynnistämiseksi. Se tapahtuu valitsemalla **Määritä**-toiminto.  
 
 Voit lisätä ominaisuuksia sovellukseen [!INCLUDE [prod_short](includes/prod_short.md)] lisäämällä AppSource-sovelluksia. Lisätietoja on kohteessa [Business Central Onlinen mukauttaminen laajennusten avulla](ui-extensions.md).  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Yrityksen tietojen yleiskatsaus](admin-company-information.md)  
 [Hallinta](admin-setup-and-administration.md)  
@@ -79,8 +73,8 @@ Voit lisätä ominaisuuksia sovellukseen [!INCLUDE [prod_short](includes/prod_sh
 [Käyttöomaisuus](fa-manage.md)  
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Tuotanto](production-manage-manufacturing.md)  
-[Varastoinninhallinta](warehouse-manage-warehouse.md)  
-[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Varastonhallinnan yleiskatsaus](design-details-warehouse-management.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen](ui-work-product.md)  
 [Uusien yritysten luominen [!INCLUDE[prod_short](includes/prod_short.md)]issa](about-new-company.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Business Centralin pika-aloitus](quick-start-business-central.md)  

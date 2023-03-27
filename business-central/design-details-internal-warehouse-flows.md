@@ -1,122 +1,130 @@
 ---
-title: Rakennetiedot – fyysisen varaston sisäiset virrat
-description: Työnkulku varastopaikkojen välillä komponenttien poiminnassa ja kokoonpano- tai tuotantotilausten loppunimikkeiden ja suunnittelemattomien siirtojen hyllyttämisessä ilman lähdeasiakirjoja.
-author: SorenGP
+title: 'Rakennetiedot – tuotanto-, kokoonpano- ja projektityönkulut'
+description: 'Tietoja komponenttien poiminnan ja kokoonpano-, tuotanto- tai projektitilausten loppunimikkeiden hyllytyksen varastopaikkojen välisestä työnkulusta.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: b8e38dcf94c4303cdd69f5417a152484f5100e09
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136372"
+ms.date: 12/16/2022
+ms.custom: bap-template
 ---
-# <a name="design-details-internal-warehouse-flows"></a>Rakennetiedot: sisäisen fyysisen varastoinnin virta
-Nimikkeiden kulku varastopaikkojen välillä yrityksen sijaintikeskuksissa kokoonpano- tai tuotantotilauksien komponentteja poimittaessa ja loppunimikkeitä hyllytettäessä sekä suunnittelemattomissa siirroissa, kuten varastopaikkojen täydennyksissä, ilman suhdetta lähdeasiakirjoihin. Liittyvien toimenpiteiden laajuus ja luonne vaihtelee perus- ja kehittyneen varastoinnin välillä.  
+# Tuotanto-, kokoonpano- ja projektityönkulut
 
- Jotkut sisäiset virtaukset peittävät saapuvat tai lähtevät virtaukset. Osa tästä päällekkäisyydestä on esitetty vaiheissa 4 ja 5 graafisissa kaavioissa saapuvissa ja lähtevissä virtauksissa tässä järjestyksessä. Lisätietoja on kohdassa [Rakennetiedot: Saapuva fyysisen varastoinnin virta](design-details-outbound-warehouse-flow.md).  
+Sisäiset työnkulut, kuten komponenttien poimiminen ja kokoonpano-, projekti- ja tuotantotilausten loppunimikkeiden hyllyttäminen, muistuttavat saapuvia tai lähteviä virtoja. Monet prosessit voivatkin vaikuttaa tutuilta. Tässä artikkelissa on tietoja fyysisen varaston sisäisten, monimutkaisuudeltaan eritasoisten työnkulkujen käsittelemisestä.
 
-## <a name="internal-flows-in-basic-warehousing"></a>Sisäiset virtaukset perusvarastoinnissa  
- Varaston perusmäärityksessä nimikkeiden virtaus yrityksen sisällä varastopaikkojen välillä keskittyy komponentin poimintaan ja loppunimikkeiden hyllytykseen tuotanto- tai kokoonpanotilaus- ja ad-hoc-siirroille, kuten varastopaikan täydennykset lähdeasiakirjoihin liittymättä.  
+## Erilaisten määritysvaihtoehtojen yleiskatsaus
 
-### <a name="flows-to-and-from-production"></a>Virtaa tuotantoon ja tuotannosta  
- Pääintegraatio tuotantotilausten ja perusvarastoinnin toimenpiteiden välillä tulee esille kykynä poimia tuotanto-osia **Varastopoiminta**- tai **Varaston siirtymä** -sivuilla.  
+Fyysisen varaston ominaisuuksia voidaan määrittää eri tavoin. On tärkeää, että valittavat vaihtoehdot parantavat prosesseja yleiskustannuksia lisäämättä. Seuraavissa taulukoissa käsitellään tavanomaisia määrityksiä, joilla käsitellään fyysisten tavaroiden tuotanto-, projekti- ja kokoonpanotilauksia.
 
-> [!NOTE]  
->  Komponentin kulutus kirjataan yhdessä poiminnan kirjauksen kanssa **Varaston poiminta** -sivulla. Vain varastopaikan muutokset rekisteröidään ja nimiketapahtumia ei tapahdu, kun käytetään **Varaston siirtotapahtuma** -sivua.  
+### Saapuva virta (hyllytys)
 
- Komponenttien käsittelyn lisäksi integrointia tukee mahdollisuus hyllyttää tuotetut nimikkeet **Varastohyllytys** -sivun avulla.  
+|Monimutkaisuustaso|Kuvaus|Asetukset|Varastopaikan koodi|Tuotantotilauksen saapuva virta|Kokoonpanotilauksen saapuva virta|Projektien saapuva virta|  
+|---|----------------|----------|---------|------------------|------------------|------------------|
+|Ei määritettyä fyysisen varaston toimintaa.|Kirjaaminen tilauksista ja päiväkirjoista.||Valinnainen. Hallitaan **Varastopaikka on pakollinen** -vaihtopainikkeella.|Tuotantopäiväkirja -> tuotospäiväkirja</br><br/> **HUOMAUTUS**: tuotos voidaan kirjata käyttämällä **tuotantopäiväkirjaa**.|Kokoonpanotilaus|Hyllytys ei ole saatavana projekteissa|  
+|Perus|Tilauksittain.|Vaadi hyllytys. </br><br/> **HUOMAUTUS**: vaikka asetuksen nimi on **Vaadi hyllytys**, tuotos voidaan silti kirjata lähdeasiakirjoista sijainneissa, joissa tämä valintaruutu valitaan. |Valinnainen. Hallitaan **Varastopaikka on pakollinen** -vaihtopainikkeella.|Tuotantotilaus -> varaston hyllytys|Kokoonpanotilaus|Hyllytys ei ole saatavana projekteissa|
+|Lisäasetukset|Useiden lähdeasiakirjojen konsolidoidut hyllytystoiminnot.|Vaadi vastaanotto + vaadi hyllytys|Valinnainen. Hallitaan **Varastopaikka on pakollinen** -vaihtopainikkeella.|Tuotantotilaukset -> Kulutuspäiväkirja|Kokoonpanotilaukset -> sisäiset siirrot | Hyllytys ei ole saatavana projekteissa|
+|Lisäasetukset|Sama kuin edellä + ohjatut poiminta- ja hyllytystoiminnot|Ohjattu poiminta ja hyllytys (kyseiset vaihtopainikkeet otetaan käyttöön automaattisesti)|Pakollinen|Sama kuin edellä.|Sama kuin edellä.| Hyllytys ei ole saatavana projekteissa|
 
- Sijaintikortin **Tuotannon valm.var.paik.koodi**-, **Valm. tuot.nim. var.paik.koodi**- ja **Avoin tuotannon var.paik.koodi** -kenttä tai koneen/tuotantosolun kortit määrittävät tuotantoalueen tulevat ja lähtevät oletustyönkulut.  
+Jotkin määritykset eivät salli hyllytysten rekisteröintiä käyttämällä erillisiä fyysisen varastoinnin asiakirjoja. Jos sijainnissa kuitenkin käytetään varastopaikkoja, tuotettuja tai koottuja nimikkeitä voidaan siirtää fyysiseen varastoon yleisillä varaston siirtoasiakirjoilla. Lisätietoja on kohdassa [Nimikkeiden sisäinen siirtäminen fyysisen varastoinnin perusmäärityksissä](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
- Katso lisätietoja siitä, kuinka komponentin kulutus tyhjennetään tuotannon valmistelu- tai avoin tuotanto -varastopaikoista tämän aiheen kohdasta Materiaalioton tuotantokomponentit f. varastossa.  
+### Lähtevä virta (poiminta)
 
-### <a name="flows-to-and-from-assembly"></a>Virtaa kokoonpanoon ja kokoonpanosta  
- Pääintegraatio kokoonpanotilausten ja perusvarastoinnin toimenpiteiden välillä tulee esille kykynä siirtää kokoonpano-osia kokoonpanoalueelle.  
+|Monimutkaisuustaso|Kuvaus|Asetukset|Varastopaikan koodi|Tuotantotilauksen lähtevä virta|Kokoonpanotilauksen lähtevä virta|Projektien lähtevä virta|  
+|---|----------------|----------|---------|------------------|------------------|------------------|
+|Ei määritettyä fyysisen varaston toimintaa.|Kirjaaminen tilauksista ja päiväkirjoista.||Valinnainen. Hallitaan **Varastopaikka on pakollinen** -vaihtopainikkeella.|Tuotantopäiväkirja -> Kulutuspäiväkirja </br><br/> **HUOMAUTUS**: kulutus voidaan kirjata käyttämällä **tuotantopäiväkirjaa**.|Kokoonpanotilaus|Projekti -> Projektipäiväkirja|  
+|Perus|Tilauksittain.|Vaadi poiminta. </br><br/> **HUOMAUTUS**: vaikka asetuksen nimi on **Vaadi poiminta**, tuotos voidaan silti kirjata lähdeasiakirjoista sijainneissa, joissa tämä valintaruutu valitaan. <!-- ToDo Test prod output-->|Valinnainen. Hallitaan **Varastopaikka on pakollinen** -vaihtopainikkeella.|Tuotantotilaus -> Varaston poiminta|Kokoonpanotilaus -> Varastosiirto</br><br/>**Varastosiirtoa** voidaan käyttää vain varastopaikkoja käytettäessä.|Projekti -> Varaston poiminta|
+|Lisäasetukset|Useiden lähdeasiakirjojen konsolidoidut poimintatoiminnot.|Vaadi toimitus + vaadi poiminta|Valinnainen. Hallitaan Varastopaikka on pakollinen -vaihtopainikkeella|Tuotantotilaukset -> Fyysisen varastoinnin poiminta -> kulutuspäiväkirja |Kokoonpanotilaukset -> Fyysisen varastoinnin poiminta| Projektit -> Fyysisen varastoinnin poiminta -> Projektityökirja |
+|Lisäasetukset|Sama kuin edellä + ohjatut poiminta- ja hyllytystoiminnot|Ohjattu poiminta ja hyllytys (kyseiset vaihtopainikkeet otetaan käyttöön automaattisesti)|Pakollinen|Sama kuin edellä.|Sama kuin edellä.| Projektit eivät tue ohjattua poimintaa ja hyllytystä.|
 
- Vaikka kokoonpanonimikkeiden hyllytykselle ei ole tiettyä fyysistä varastointitoimintoa, kokoonpanotilauksen otsikon varastopaikkakoodi voidaan määrittää hyllytyksen oletusvarastopaikaksi. Kokoonpanotilauksen kirjaaminen toimii tämän jälkeen kuin hyllytyksen kirjaaminen. Kokoonpanonimikkeitä fyysiseen varastoon siirtävää varastotoimintaa voi hallita **Sisäinen siirto** -sivulla ilman, että se liittyy kokoonpanotilaukseen.  
+Samoin kuin saapuvassa virrassa jotkin määritykset eivät salli hyllytysten rekisteröintiä käyttämällä erillisiä fyysisen varastoinnin asiakirjoja. Jos sijainnissa käytetään varastopaikkoja, tuotettuja tai koottuja nimikkeitä voidaan siirtää yleisillä varaston siirtoasiakirjoilla. Lisätietoja on kohdassa [Nimikkeiden siirtäminen varastossa](warehouse-move-items.md).
 
- Seuraavat sopeuttamiset ovat olemassa.  
+## Fyysiset varastot, joissa ei ole erillistä varastotoimintoa
 
-|Työnkulku|Kuvaus|  
-|----------|---------------------------------------|  
-|Kokoa-varastoon|Osia tarvitaan kokoonpanotilauksessa, jossa tuotos on tallennettu varastoon.<br /><br /> Tätä fyysisen varaston työnkulkua hallitaan **Varaston siirto** -sivulla. Yksi ota-rivi määrittää, minne osat viedään. Yksi asetusrivi määrittää, mihin osat sijoitetaan.|  
-|Kokoonpano tilausta varten|Osia tarvitaan kokoonpanotilauksessa, joka on linkitetty myyntitilaukseen, joka lähetetään, kun myyty nimike on koottu yhteen.|  
+Esimerkiksi kulutusta ja tuotannon tuotosta halutaan todennäköisesti seurata, vaikka käytössä ei olisikaan erillisiä varastotoimintoja. Seuraavissa artikkeleissa on tietoja lähdeasiakirjojen vastaanottojen käsittelemisestä.
 
-> [!NOTE]  
->  Jos nimikkeet on koottu tilaukseen, linkitettyjen myyntitilausten varastopoiminta käynnistää varastosiirron kaikille mukana oleville kokoonpanokomponenteille, eikä pelkästään myydylle nimikkeelle, kuten varastonimikkeitä toimitettaessa.  
+* [Yhden vapautetun tuotantotilausrivin kulutuksen ja tuotoksen rekisteröiminen](production-how-to-register-consumption-and-output.md)
+* [Kokoa nimikkeet](assembly-how-to-assemble-items.md)
+* [Projektien kulutuksen tai käytön kirjaaminen](projects-how-record-job-usage.md)
 
- Sijaintikortin **Kokoonpanoon-varastop.koodi**, **Kokoonpanosta-varastop.koodi**- ja **Kok. til.ltoimit. -var.p.koodi** -kentät määrittävät kokoonpanoalueiden saapuvat ja lähtevät oletustyönkulut.  
+## Fyysisen varastoinnin perusmääritykset
 
-> [!NOTE]  
->  **Kok. til.ltoimit. -var.p.koodi** -kentän toiminnot, kuten kokoonpanosta varastopaikkaan, Kokoonpano tilausta varten -malleissa.  
+Fyysisen varastoinnin perusmääritysten saapuviin ja lähteviin virtoihin liittyvät seuraavat sijainnin **Sijaintikortit**-sivulla olevat asetukset:
 
-### <a name="ad-hoc-movements"></a>Ad-Hoc-liikkeet  
- Fyysisen varastoinnin perusmäärityksissä nimikkeiden siirrot varastopaikasta toiseen ilman, että ne on liitetty lähdeasiakirjoihin, suoritetaan **Sisäinen siirto** -sivulla, joka toimii yhdessä **Varaston siirto** -sivun kanssa.  
+* Saapuvien virrassa (hyllytyksessä) **Vaadi hyllytys** otetaan käyttöön vaihtopainikkeella mutta **Vaadi vastaanotto** poistetaan käytöstä vaihtopainikkeella.
+* Lähtevien virrassa (poiminnassa) **Vaadi poiminta** otetaan käyttöön vaihtopainikkeella mutta **Vaadi toimitus** poistetaan käytöstä vaihtopainikkeella.
 
- Nimikkeitä voi siirtää suunnittelematta varastopaikkojen välillä myös kirjaamalla positiivisia tapahtumia **Nimikkeen uudel.luokit. pvk** -sivun **Uusi varastopaikkakoodi** -kentässä.  
+### Fyysisen varastoinnin perusmääritysten tuotannon tulevat ja lähtevät työnkulut  
 
-## <a name="internal-flows-in-advanced-warehousing"></a>Sisäiset virtaukset laajennetussa varastoinnissa  
- Laajennetuissa varaston määrityksissä nimikkeiden virtaus yrityksen sisällä varastopaikkojen välillä keskittyy komponentin poimintaan ja loppunimikkeiden hyllyttämiseen tuotantotilauksille ja komponenttien poimintaan kokoonpanontilauksille. Lisäksi sisäiset virrat tapahtuvat ad-hoc-siirtoina, kuten varastopaikan täydennyksinä ilman suhdetta lähdeasiakirjoihin.  
+Tuotannon komponentteja voi poimia työkulussa tuotantoon **Varaston poiminta** -asiakirjojen avulla. Tuotettavat tuotteet hyllytetään **Varaston hyllytys** -asiakirjojen avulla.
 
-### <a name="flows-to-and-from-production"></a>Virtaa tuotantoon ja tuotannosta  
- Pääintegraatio tuotantotilausten ja kehittyneen varastoinnin toimenpiteiden välillä tulee esille kykynä poimia tuotanto-osia **Varastopoiminta**-sivulla ja **Poimi taulukko** -sivulla ja kyky poistaa tuotetut nimikkeet **F.var. sisäinen hyllytys** -sivulla.  
+Varastopaikkoja käyttävissä sijainneissa komponentin materiaaliottojen tekemiseen kannattaa käyttää varastosiirtoasiakirjoja. Lisätietoja komponentin kulutuksen materiaaliotoista tuotannon valmistelun tai avoimista tuotannon varastopaikoista on kohdassa [Tuotannon komponenttien materiaaliotot fyysisessä varastossa](warehouse-how-to-pick-for-production.md#flushing-production-components-in-a-basic-warehouse-configuration).
 
- Toinen tuotannon integrointikohta on **F. var. siirto** -sivulla, jossa voi yhdessä Siirtotyökirja-sivun kanssa sijoittaa komponentteja ja ottaa vapautettujen tuotantotilausten tuotettuja nimikkeitä.  
+   > [!NOTE]
+   > Varastosiirrot ovat tärkeitä asiakirjoja, jos materiaaliottomenetelmänä on käytössä **Poiminta + eteenpäin** tai **Poiminta + taaksepäin**. Lisätietoja on kohdassa [Materiaaliottomenetelmät](production-how-to-flush-components-according-to-operation-output.md#flushing-methods).
 
- Sijaintikortin **Tuotannon valm.var.paik.koodi**-, **Valm. tuot.nim. var.paik.koodi**- ja **Avoin tuotannon var.paik.koodi** -kenttä tai koneen/tuotantosolun kortit määrittävät tuotantoalueen tulevat ja lähtevät oletustyönkulut.  
+* Sijaintikortin taikka kuormitusryhmän tai tuotantosolun **Tuotannon valm.var.paik.koodi**-, **Valm. tuot.nim. var.paik.koodi**- ja **Avoin tuotannon var.paik.koodi** -kentät määrittävät tuotantoalueen tulevat ja lähtevät oletustyönkulut.
+* Tuotettujen nimikkeiden varaston siirtoa voidaan hallita **Varastosiirto**-sivulla ilman suhdetta tuotantotilaukseen.
 
- Katso lisätietoja siitä, kuinka komponentin kulutus tyhjennetään tuotannon valmistelu- tai avoin tuotanto -varastopaikoista tämän aiheen kohdasta Materiaalioton tuotantokomponentit f. varastossa.  
+### Fyysisen varastoinnin perusmääritysten kokoonpanoon tulevat lähtevät työnkulut  
 
-### <a name="flows-to-and-from-assembly"></a>Virtaa kokoonpanoon ja kokoonpanosta  
- Pääintegraatio kokoonpanotilausten ja kehittyneen varastoinnin toimenpiteiden välillä tulee esille kykynä poimia kokoonpano-osia, sekä **Varastopoiminta**- että **Poimi taulukko** -sivulla. Tämä toiminto on samanlainen kuin komponenttien poiminta tuotantotilaukseen.  
+Kokoonpanon tuotos ja kulutus kirjataan suoraan kokoonpanotilauksesta.
 
- Vaikka kokoonpanonimikkeiden hyllytykselle ei ole tiettyä fyysistä varastointitoimintoa, kokoonpanotilauksen otsikon varastopaikkakoodi voidaan määrittää hyllytyksen oletusvarastopaikaksi. Kokoonpanotilauksen kirjaaminen toimii tämän jälkeen kuin hyllytyksen kirjaaminen. Fyysisessä varastossa nimikkeiden siirtämiseen käytettyä varastotoimintoa voi hallita **Siirtotyökirja**- tai **F.var. sis. hyllytys** -sivulla ilman, että se liittyy kokoonpanotilaukseen.  
+> [!NOTE]
+> Kokoonpanotilaukset eivät tue **Varaston poiminta**-ja **Varaston hyllytys** -asiakirjoja.
 
-> [!NOTE]  
->  Jos nimikkeet on koottu tilaukseen, linkitettyjen myyntitilausten fyysisen varaston toimitus käynnistää fyysisen varastoinnin poiminnan kaikille mukana oleville kokoonpanokomponenteille, eikä pelkästään myydylle nimikkeelle, kuten varastonimikkeitä toimitettaessa.  
+Varastopaikkoja käyttävät sijainnit:
 
- Sijaintikortin **Kokoonpanoon-varastop.koodi**- ja **Kokoonpanosta-varastop.koodi** -kenttä määrittävät kokoonpanoalueiden saapuvat ja lähtevät oletustyönkulut.  
+* Kokoonpanon komponentit siirretään kokoonpanoalueelle **Varastosiirto**-asiakirjojen avulla.
+* Sijaintikortin **Kokoonpanoon-varastop.koodi**- ja **Kokoonpanosta-varastop.koodi** -kentät määrittävät kokoonpanoalueiden saapuvat ja lähtevät oletustyönkulut.
+* Koottujen nimikkeiden varaston siirtoa voidaan hallita **Sisäinen siirto** -sivulla ilman suhdetta kokoonpanotilaukseen.
 
-### <a name="ad-hoc-movements"></a>Ad-Hoc-liikkeet  
- Laajennetussa varastoinnissa nimikkeiden siirtoja varastopaikasta toiseen ilman, että ne liittyvät lähdeasiakirjoihin, hallitaan **Siirtotyökirja**-sivulla ja rekisteröidään F. var. siirto -sivulla.  
+[!INCLUDE [prod_short](includes/prod_short.md)] tukee kokoonpanotyönkulkuja, joissa on kyse kokoonpanosta varastoon ja kokoonpanosta tilausta varten. Lisätietoja on kohdassa [Tietoja kokoonpanosta tilausta varten ja kokoonpanosta varastoon](assembly-assemble-to-order-or-assemble-to-stock.md#understanding-assemble-to-order-and-assemble-to-stock) Suhteessa fyysiseen varaston hallintaan kokoonpano varastoon on osa sisäistä fyysisen varastoinnin työnkulkuja, kun taas kokoonpano tilausta varten tapahtuu fyysisen varaston lähtevässä virrassa. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-## <a name="flushing-production-components-in-the-warehouse"></a>Materiaalioton tuotantokomponentit f. varastossa  
- Jos nimikkeen kortilla on näin asetettu, varastoinnin poiminnalla poimitut komponentit kirjataan tuotantotilauksen kuluttamiksi, kun varastoinnin poiminta rekisteröidään. Käyttämällä **Poiminta + eteenpäin** -menetelmää ja **Poiminta + taaksepäin**-materiaalinottotapaa, poiminnan rekisteröinti laukaisee liittyvän kulutuksen kirjaamisen ensimmäisen toimenpiteen alettua tai viimeisen toimenpiteen päätyttyä.  
+### Fyysisen varaston perusmääritysten projektinhallinnan työnkulut
 
- Mietitään seuraavaa tilannetta, joka perustuu [!INCLUDE[prod_short](includes/prod_short.md)]in esittelytietokannan skenaarioon.  
+Projektin komponentteja voi poimia työnkulussa projektinhallintaan **Varaston poiminta** -asiakirjojen avulla.
 
- Nimikkeen LS-100 15 kappaleen tuotantotilaus on olemassa. Jotkut osaluettelon nimikkeistä täytyy pakottaa manuaalisesti kulutuserään ja toiset luettelon nimikkeet voidaan poimia ja pakottaa automaattisesti käyttämällä **Poimi + takaisin** -virtausmenetelmää.  
+Varastopaikkoja käyttävässä sijainnissa sijainnin **Projektiin-lokeron koodi** -kenttää määrittää oletustyönkulut projektinhallintaan.
 
-> [!NOTE]  
->  **Poiminta + eteenpäin** toimii vain jos toinen tuotannon reitityslinjan toiminto käyttää reitityslinkin koodia. Suunnitellun tuotantotilauksen julkaiseminen aloittaa niiden osien eteenpäin virtauksen, joille on määritetty **Poimi + eteenpäin**. Materiaalinotto ei voi kuitenkaan tapahtua ennen komponenttien poiminnan rekisteröintiä joka taas voi tapahtua, kun tilaus vapautetaan.  
+## Laajennetut varastomääritykset  
 
- Seuraavissa vaiheissa kuvataan eri käyttäjien ja liittyvän vastauksen mukana olevia toimintoja:  
+Fyysisen varastoinnin laajennettujen määritysten saapuviin ja lähteviin virtoihin liittyvät seuraavat sijainnin **Sijaintikortit**-sivulla olevat asetukset:
 
-1.  Kaupan työnjohtaja vapauttaa tuotantotilauksen. Ne nimikkeet, jotka käyttävät **Eteenpäin**-materiaalinottotapaa ja joilla ei ole reitityslinkki-koodia, vähennetään avoimen tuotannon varastopaikasta.  
-2.  Työnjohtaja kaupassa valitsee **Luo varastopoiminta** -painikkeen tuotantotilauksesta. Fyysisen varaston poiminta-asiakirja luodaan poimimaan nimikkeitä **Manuaalinen**-, **Poiminta + taaksepäin**- ja **Poiminta + eteenpäin**-materiaalinottotavoilla. Nämä nimikkeet on asetettu tuotannon valmisteluvarastopaikkaan.  
-3.  Varastopäällikkö määrittää poiminnat varastotyöntekijöille.  
-4.  Varastotyöntekijä poimii nimikkeet soveltuvista varastopaikoista ja asettaa ne tuotannon valmisteluvarastopaikkaan tai fyysisen varastoinnin poiminnan määritettyyn varastopaikkaan. Se voi olla tuotantosolun tai kuormitusryhmän varastopaikka.  
-5.  Varastotyöntekijä rekisteröi poiminnan. Määrää vähennetään poimintabineistä ja lisätään kulutusbiniin. kaikkien poimittujen nimikkeiden **Poimittu määrä** -kenttä osaluettelossa on päivitetty.  
+* Saapuvien virrassa (hyllytyksessä) **Vaadi vastaanotto** ja **Vaadi hyllytys** otetaan vaihtopainikkeilla käyttöön.
+* Lähtevien virrassa (poiminnassa) **Vaadi toimitus** ja **Vaadi vastaanotto** otetaan vaihtopainikkeilla käyttöön.
 
-    > [!NOTE]  
-    >  Vain poimittu määrä voidaan kuluttaa.  
+### Fyysisen varastoinnin laajennettujen määritysten tuotannon tulevat ja lähtevät työnkulut
 
-6.  Koneenkäyttäjä tiedottaa tuotantojohtajaa, että loppukohdat ovat lopussa.  
-7.  Kaupan työnjohtaja käyttää kulutuslokia tai tuotantolokia ja tiliöi osan nimikkeiden kulutuksen, joka käyttää joko **Manuaalinen** -virtausmenetelmää tai **Vie eteenpäin** tai **Poimi + vie eteenpäin** -virtausmenetelmää yhdessä reitityslinkkikoodien kanssa.  
-8.  Tuotantopäällikkö tiliöi tuotantotilauksen tuotannon ja vaihtaa tilaksi **Valmis**. Osan nimikkeiden määrää, joka käyttää **Takaisin** -virtausmenetelmää, vähennetään avoimesta kaupan myyntikärrystä, ja osan nimikkeiden määrää, jota käytetään **Poimi + takaisin** -virtausmenetelmässä, vähennetään Tuotantoon-binistä.  
+Komponentteja poimitaan tuotantoon käyttämällä **F.varastoinnin poiminta** -asiakirjoja ja **Poimintatyökirja**-sivua.
 
- Seuraavassa kuvassa esitetään, milloin **Bin-koodi** -kenttä osaluettelossa täytetään sijainnin tai koneen/työkeskuksen asetusten mukaisesti.  
+Varastopaikkoja käyttävät sijainnit:
 
- ![Yleiskuvaus siitä, milloin/miten Varastopaikkakoodi-kenttä täytetään.](media/binflow.png "Yleiskuvaus siitä, milloin/miten Varastopaikkakoodi-kenttä täytetään")  
+* Etenkin **Fyysisen varaston siirto** -asiakirjat ja **Siirtotyökirja**-sivu ovat käteviä komponentin materiaaliotoissa. Lisätietoja on kohdassa [Tuotannon komponenttien materiaaliotot fyysisessä varastossa](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md#flushing-production-components-in-a-advanced-warehouse-configuration).
+* Sijaintikortin taikka kuormitusryhmän tai tuotantosolun **Tuotannon valm.var.paik.koodi**-, **Valm. tuot.nim. var.paik.koodi**- ja **Avoin tuotannon var.paik.koodi** -kentät määrittävät tuotantoalueen tulevat ja lähtevät oletustyönkulut. 
+* Tuotettujen nimikkeiden varaston siirtoa voidaan hallita **Siirtotyökirja**- tai **F.var. sis. hyllytys**-sivuilla ilman suhdetta tuotantotilaukseen.
 
-## <a name="see-also"></a>Katso myös  
- [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)
+### Fyysisen varastoinnin laajennettujen määritysten kokoonpanon tulevat ja lähtevät työnkulut
 
+Komponentteja poimitaan kokoonpanoon käyttämällä **F.varastoinnin poiminta** -asiakirjoja ja **Poimintatyökirja**-sivua.
+
+Varastopaikkoja käyttävät sijainnit:
+
+* Sijainnin **Kokoonpanoon-varastop.koodi**- ja **Kokoonpanosta-varastop.koodi**-kentät määrittävät kokoonpanoalueiden saapuvat ja lähtevät oletustyönkulut.
+* Kokoonpanon nimikkeiden varaston siirtoa voidaan hallita **Siirtotyökirja**- tai **F.var. sis. hyllytys**-sivuilla ilman suhdetta kokoonpanotilaukseen.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] tukee kokoonpanotyönkulkuja, joissa on kyse kokoonpanosta varastoon ja kokoonpanosta tilausta varten. Lisätietoja on kohdassa [Tietoja kokoonpanosta tilausta varten ja kokoonpanosta varastoon](assembly-assemble-to-order-or-assemble-to-stock.md#understanding-assemble-to-order-and-assemble-to-stock) 
+
+Kokoonpano varastoon on osa sisäistä fyysisen varastoinnin työnkulkuja, kun taas kokoonpano tilausta varten tapahtuu fyysisen varaston lähtevässä virrassa. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden käsitteleminen fyysisen varastoinnin toimituksissa](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
+
+### Fyysisen varaston laajennettujen määritysten projektinhallinnan työnkulut
+
+Komponentteja poimitaan projektinhallinnan työnkulussa käyttämällä **F.varastoinnin poiminta** -asiakirjoja ja **Poimintatyökirja**-sivua.
+
+Varastopaikkoja käyttävissä sijainneissa sijainnin **Projektiin-lokeron koodi** -kenttää määrittää oletustyönkulut projektialueelle.
+
+## Katso myös  
+
+[Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

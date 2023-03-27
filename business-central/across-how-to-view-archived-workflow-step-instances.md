@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 1530,
+ms.search.keywords: null
+ms.search.form: '1530,'
 ms.date: 09/09/2022
 ms.author: edupont
-ms.openlocfilehash: 60a25f6b07c4e483d06891367a679bada00d4f75
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585808"
 ---
-# <a name="view-archived-workflow-step-instances"></a>Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen
+# Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen
 
 Kaikki valmiit työnkulun osavaiheen ilmentymät tallennetaan **Arkistoidut työnkulun osavaiheen ilmentymät** -sivulle.  
 
@@ -26,7 +20,7 @@ Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riv
 > [!NOTE]
 > Jos haluat tarkastella Power Automate -integrointia käyttävien työnkulkujen historiaa ja tilaa, valitse **Power Automate** -sivulla **Omat työnkulut** -toiminto ja valitse sitten työnkulku, jonka suorituksen historiaa ja tilaa haluat tarkastella.
 
-## <a name="to-view-archived-workflow-step-instances"></a>Arkistoitujen työnkulun osavaiheen instanssien tarkasteleminen
+## Arkistoitujen työnkulun osavaiheen instanssien tarkasteleminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut**, valitse sitten vastaava linkki.  
 2. Avaa työnkulku, jonka arkistoituja työnkulun osavaiheen instansseja haluat tarkastella.  
@@ -37,7 +31,7 @@ Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riv
 
    **Arkistoidut työnkulun osavaiheen ilmentymät** -sivu avautuu, ja siinä näkyvät kaikki arkistoidut työnkulun osavaiheen ilmentymät. **Työnkulun koodi** -kentässä näet, mihin työnkulkuun arkistoitu työnkulun osavaiheen instanssi kuului.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Hyväksymistyönkulkujen poistaminen](across-how-to-delete-workflows.md)  
 [Luo hyväksymistyönkulut](across-how-to-create-workflows.md)  

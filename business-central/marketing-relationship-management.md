@@ -1,24 +1,18 @@
 ---
 title: Kontaktienhallinta
-description: Kontaktienhallinnan ominaisuudet tukevat myyntitoimintoja. Voit myös käyttää kontakteja ja prospekteja koskevia tietoja, mikä parantaa asiakaspalvelua.
+description: 'Kontaktienhallinnan ominaisuudet tukevat myyntitoimintoja. Voit myös käyttää kontakteja ja prospekteja koskevia tietoja, mikä parantaa asiakaspalvelua.'
 documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: contact, prospect, client
-ms.search.forms: 9076, 9026
+ms.search.keywords: 'contact, prospect, client'
+ms.search.forms: '9076, 9026'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 3dec95b484bce34c2eff2cbc49510e54f871f4ef
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137859"
 ---
-# <a name="managing-relationships"></a>Kontaktienhallinta
+# Kontaktienhallinta
 [!INCLUDE[prod_short](includes/prod_short.md)]in kontaktienhallinnan toiminnot auttavat myyntitoimintojen hallinnassa ja tukemisessa. Ominaisuuksien avulla saat kaikki tiedot käyttöösi tarkkoina ja ajantasaisina ja voit keskittyä ensisijaisten asiakas-/kontaktisegmenttien hoitamiseen.
 
 Tärkeintä hyvissä myynti- ja markkinointikäytännöissä on tehdä oikeita päätöksiä oikeaan aikaan. [!INCLUDE[prod_short](includes/prod_short.md)]in avulla kontaktien tietojen yleiskuvaus on saatavana täsmällisenä ja oikea-aikaisesti. Ohjelman avulla voit palvella mahdollisia asiakkaita tehokkaammin ja parantaa asiakastyytyväisyyttä.

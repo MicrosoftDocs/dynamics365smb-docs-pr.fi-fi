@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 3833dd04063b815f56b3715a9fa547557a97f802
-ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419581"
 ---
 Kun saat laskun yritykseltä ulkomaan valuutassa, laskun paikallisen valuutan (PVA) arvo on melko helppo laskea tämän päivän valuuttakurssin perusteella. Laskussa on kuitenkin usein maksuehdot, joiden nojalla voit viivyttää maksua myöhemmälle päivämäärälle, mikä taas tarkoittaa mahdollisesti erilaista valuuttakurssia. Kun vielä pankkien valuuttakurssit eroavat aina virallisista valuuttakursseista, on mahdotonta ennakoida tarkkaa paikallisen valuutan (PVA) summaa, joka tarvitaan laskun kattamiseen. Jos laskun eräpäivä ulottuu seuraavaan kuukauteen, saatat joutua myös uudelleenarvostamaan paikallisen valuutan (PVA) summan kuun lopussa. Valuutan oikaisu on tarpeen, koska laskun summan kattamiseen tarvittava uusi PVA-arvo saattaa olla erilainen, ja yrityksen velka toimittajalle on mahdollisesti muuttunut. Uusi PVA-summa voi olla edellistä summaa suurempi tai pienempi, joten se edustaa voittoa tai tappiota. Koska laskua ei ole kuitenkaan vielä maksettu, voiton tai tappion katsotaan olevan *toteutumaton*. Myöhemmin lasku maksetaan, ja pankki palauttaa maksun todellisen valuuttakurssin mukaisesti. Vasta nyt lasketaan *toteutunut* voitto tai tappio. Tämä toteutumaton voitto tai tappio peruutetaan ja toteutunut voitto tai tappio kirjataan sen sijaan.
 

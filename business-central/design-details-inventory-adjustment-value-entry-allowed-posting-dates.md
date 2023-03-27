@@ -1,22 +1,17 @@
 ---
 title: 'Virhesanoma: "Kirjauspäivämäärä ei kuulu sallittujen kirjauspäivämäärien alueeseen"'
-description: Korjaa sanoman "Kirjauspäivämäärä ei ole sallittujen kirjaus päivämäärien rajoissa" virheen, kun suoritat Muuta kust. - nimike tapahtumat -eräajoa.
+description: 'Korjaa sanoman "Kirjauspäivämäärä ei ole sallittujen kirjaus päivämäärien rajoissa" virheen, kun suoritat Muuta kust. - nimike tapahtumat -eräajoa.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 09/17/2021
 ms.author: edupont
-ms.openlocfilehash: 1694bc0267e32d2af4af1202b2dfd1ad4b46ba55
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139753"
 ---
-# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Virhesanoma: "Kirjauspäivämäärä ei kuulu sallittujen kirjauspäivämäärien alueeseen..."
+
+# Virhesanoma: "Kirjauspäivämäärä ei kuulu sallittujen kirjauspäivämäärien alueeseen..."
 
 Kun käytät **Muuta kust.- nimiketapahtumat** -eräajoa, saatat törmätä seuraavaan virhesanomaan:
 
@@ -24,7 +19,7 @@ Kun käytät **Muuta kust.- nimiketapahtumat** -eräajoa, saatat törmätä seur
 
 Tämä virhesanoma ilmaisee, että käyttäjällä ei ole oikeutta kirjata kyseistä päivämäärää koskevia tapahtumia, ja tämä voidaan korjata muuttamalla käyttäjäasetuksia.
 
-## <a name="change-the-user-setup"></a>Käyttäjäasetusten muuttaminen  
+## Käyttäjäasetusten muuttaminen  
 
 |Käyttäjätunnus  |Ensimm. sallittu kirjauspvm  | Viimeinen sallittu kirjauspvm  |
 |---------|---------|--------|
@@ -32,9 +27,9 @@ Tämä virhesanoma ilmaisee, että käyttäjällä ei ole oikeutta kirjata kysei
 
 Tässä tapauksessa käyttäjälle määritetty sallittu kirjauspäivämääräalue on 11.9. - 30.9. Muutoksen arvotapahtuman kirjauspäivämäärä ei siis voi olla 10.9.  
 
-### <a name="overview-of-involved-posting-date-setup"></a>Asiaankuuluvan kirjauspäivämäärän asetuksen yleiskuvaus
+### Asiaankuuluvan kirjauspäivämäärän asetuksen yleiskuvaus
 
-#### <a name="inventory-periods"></a>Varastokaudet
+#### Varastokaudet
 
 |Lopetuspvm  |Name  |Suljettu  |
 |---------|---------|---------|
@@ -51,7 +46,7 @@ Tässä tapauksessa käyttäjälle määritetty sallittu kirjauspäivämääräa
 |2020-11-30     |Marraskuu 2020   |         |
 |2020-12-31     |Joulukuu 2020   |         |  
 
-#### <a name="general-ledger-setup"></a>Pääkirjanpidon asetukset
+#### Pääkirjanpidon asetukset
 
 |Kenttä|Arvo|
 |---------|---------|
@@ -60,7 +55,7 @@ Tässä tapauksessa käyttäjälle määritetty sallittu kirjauspäivämääräa
 |Rekisteröi aika:       |         |
 |Paikallinen osoitemuoto:|   Postinro      |  
 
-#### <a name="user-setup"></a>Käyttäjäasetukset
+#### Käyttäjäasetukset
 
 |Käyttäjätunnus  |Ensimm. sallittu kirjauspvm  | Viimeinen sallittu kirjauspvm  |
 |---------|---------|--------|
@@ -68,7 +63,7 @@ Tässä tapauksessa käyttäjälle määritetty sallittu kirjauspäivämääräa
 
 Jos määritetään laajempi sallittu kirjauspäivämääräalue kuin varastokaudella tai kirjanpidon asetuksissa, virhesanomassa mainittu ristiriita vältetään. Oikaisun arvotapahtuma, jonka kirjauspvm on 10. syyskuuta, kirjataan onnistuneesti näillä asetuksilla.
   
-## <a name="see-also"></a>Katso myös  
+## Katso myös  
 
 [Rakennetiedot: Muutoksen arvotapahtuman kirjauspäivämäärä](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)  

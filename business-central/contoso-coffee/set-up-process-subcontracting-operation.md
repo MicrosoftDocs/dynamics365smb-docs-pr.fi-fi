@@ -1,29 +1,24 @@
 ---
 title: Alihankintatoiminnon määrittäminen ja käsitteleminen
-description: Opastus, jossa kerrotaan, miten alihankintaoperaatio määritetään ja käsitellään Business Centralissa.
+description: 'Opastus, jossa kerrotaan, miten alihankintaoperaatio määritetään ja käsitellään Business Centralissa.'
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 9227abbfe25ca5a1b3c6775865712f22b31f721b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525056"
 ---
-# <a name="set-up-and-process-a-subcontracting-operation"></a>Alihankintatoiminnon määrittäminen ja käsitteleminen
+
+# Alihankintatoiminnon määrittäminen ja käsitteleminen
 
 Tässä artikkelissa on tietoja Contoso Coffee -esittelyn tietojen käytöstä alihankinnassa.
 
-## <a name="scenario"></a>Esimerkkitilanne
+## Esimerkkitilanne
 
 Olet Contoso Coffeen tuotantosuunnittelija. Kapasiteettirajoitusten vuoksi aiot käyttää alihankkijaa tuottaaksesi nimikkeen **SP-SCM1009, Airpot**.
 
 Tässä voit luoda uuden vapautetun tuotantotilauksen nimikkeen SP-SCM1009, Airpot 12 yksikölle käyttämällä reititystä - SP-SCM1009-SUB-2. Käytä alihankintatyökirjaa tuotannon ostotilauksen luomiseen ja viimeistele operaatio sitten vastaanottamalla ja laskuttamalla ostotilaus.
 
-## <a name="steps"></a>Vaiheet
+## Vaiheet
 
 1. Luo uusi vapautettu tuotantotilaus SP-SCM1009, Airpot -nimikkeen 12 yksikölle.
 
@@ -78,6 +73,6 @@ Tässä voit luoda uuden vapautetun tuotantotilauksen nimikkeen SP-SCM1009, Airp
 
 Nimikkeen SP-SCM1009 Airpot tuotos on nyt rekisteröity.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Johdatus Contoson kahvidemotietoihin](contoso-coffee-intro.md)  

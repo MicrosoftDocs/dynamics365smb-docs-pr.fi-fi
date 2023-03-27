@@ -1,23 +1,17 @@
 ---
 title: Käyttöomaisuuden poistaminen tai kuolettaminen
-description: Määritä, miten kukin käyttöomaisuuserä, kuten koneet ja laitteet, arvostetaan, poistetaan tai kuoletetaan niiden elinkaaren aikana.
+description: 'Määritä, miten kukin käyttöomaisuuserä, kuten koneet ja laitteet, arvostetaan, poistetaan tai kuoletetaan niiden elinkaaren aikana.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: write down
-ms.search.form: 5610, 5611, 5629, 5633, 5659, 5660, 5663, 5619, 5666
+ms.search.form: '5610, 5611, 5629, 5633, 5659, 5660, 5663, 5619, 5666'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: ccd446b8e5c814127a1b7192e1ec2bfe77b80750
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530646"
 ---
-# <a name="depreciate-or-amortize-fixed-assets"></a>Käyttöomaisuuden poisto tai kuolettaminen
+# Käyttöomaisuuden poisto tai kuolettaminen
 
 Poistoja käytetään jakamaan käyttöomaisuuden, esimerkiksi koneiden ja laitteiden, kustannuksia niiden poistoajalle. Jokaisen käyttöomaisuuserän osalta tulee määrittää, miten sille tehdään poistoja.  
 
@@ -34,7 +28,7 @@ Virheellisiä poistotapahtumia voi peruuttaa **Peruuta KO-tapahtumat** -eräajol
 
 Indeksointia käytetään muuttamaan arvoja yleisten hintatason muutosten mukaan. **Tee indeksimuutos KO:teen** -eräajoa voidaan käyttää poistosummien uudelleenlaskemiseen.  
 
-## <a name="to-calculate-depreciation-automatically"></a>Poistojen laskeminen automaattisesti
+## Poistojen laskeminen automaattisesti
 
 **Laske poisto** -eräajon voi suorittaa kerran kuukaudessa tai valitsemanasi ajankohtana. Eräajo ei huomioi myytyjä tai suljettuja käyttöomaisuuseriä eikä käyttöomaisuuseriä, jotka eivät ole aktiivisia ja jotka käyttävät manuaalista poistomenetelmää.  
 
@@ -55,7 +49,7 @@ Indeksointia käytetään muuttamaan arvoja yleisten hintatason muutosten mukaan
 > Suosittelemme ensimmäistä vaihtoehtoa, koska et ehkä halua muuttaa 30 päivää/kuukausi -mallin käyttöä poistoissa. Lisätietoja on kohdassa [Tilikausi 365 päivää -kentän poisto](fa-how-setup-depreciation.md#fiscal-year-365-days-field-depreciation).
 
 
-## <a name="to-post-depreciation-manually-from-the-fixed-asset-gl-journal"></a>Poistojen kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjasta
+## Poistojen kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjasta
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöom. KP-päiväkirja** ja valitse sitten liittyvä linkki.  
 2. Luo alkuperäisen päiväkirjan rivi ja täytä kentät tarpeen mukaan.  
@@ -67,15 +61,15 @@ Indeksointia käytetään muuttamaan arvoja yleisten hintatason muutosten mukaan
 
 Jos summien kohdistamiseksi eri osastoille tai projekteille on määritetty käyttöomaisuuden kohdistusavaimia, summat kohdistetaan kirjaamisen aikana. Lisätietoja on kohdassa [Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md).  
 
-## <a name="to-manage-the-ending-book-value"></a>Loppukirjanpitoarvon hallinta
+## Loppukirjanpitoarvon hallinta
 
-**KO-poistokirjat**-sivun **Loppukirjanpitoarvo**-kentässä voit määrittää kirjanpitoarvon, jonka haluat käyttöomaisuuserälle olevan tämänhetkisessä poistokirjassa sen jälkeen, kun se on kokonaan poistettu. Voit tehdä sen manuaalisesti tai voit täyttää **Poistokirja**-sivun **Loppukirjanpitoarvo, oletus** -kentän, jota käytetään tämän jälkeen kentän automaattiseen täyttämiseen.
+**KO-poistokirjat**-sivun **Loppukirjanpitoarvo**-kentässä voit määrittää kirjanpitoarvon, jonka haluat käyttöomaisuuserälle olevan tämänhetkisessä poistokirjassa sen jälkeen, kun se on kokonaan poistettu. Voit tehdä sen manuaalisesti tai voit täyttää**Poistokirja**-sivun **Loppukirjanpitoarvo, oletus** -kentän, jota käytetään tämän jälkeen kentän automaattiseen täyttämiseen.
 
 > [!NOTE]
 > Jos viimeinen poisto aiheuttaa sen, että **Käyttöomaisuuden kortti** -sivun **Kirjanpitoarvo**-kentän arvoksi tulee nolla, ohjelma vähentää automaattisesti viimeisestä poistosta kyseisen summan.<br /><br />
 > Jos **Kirjanpitoarvo** on suurempi kuin nolla viimeisen poiston jälkeen, esimerkiksi pyöristysongelman tai jäännösarvon takia, **Loppukirjanpitoarvo**-kenttää **KO-poistokirjat**-sivulla ei huomioida. Lisätietoja on kohdassa [Jäännösarvon kirjaaminen yhdessä hankintamenon kanssa](fa-how-acquire.md#to-post-the-salvage-value-together-with-the-acquisition-cost).
 
-## <a name="to-calculate-allocations-in-the-fixed-asset-gl-journal"></a>Käyttöomaisuuden KO-päiväkirjan kohdistusten laskeminen
+## Käyttöomaisuuden KO-päiväkirjan kohdistusten laskeminen
 
 Jos useat osastot käyttävät käyttöomaisuuserää, jaksottaiset poistot voidaan kohdistaa automaattisesti näille osastoille käyttäjäkohtaisen kohdistustaulukon mukaisesti.  
 
@@ -85,7 +79,7 @@ Jos useat osastot käyttävät käyttöomaisuuserää, jaksottaiset poistot void
 4. Valitse **Syötä KO-vastatili** -toiminto. Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty kohdistuksen kirjaamista varten.  
 5. Valitse **Kirjaa**-toiminto kirjataksesi päiväkirjan.  
 
-## <a name="use-duplication-lists-to-prepare-to-post-to-multiple-depreciation-books"></a>Valmistele useiden poistokirjojen kirjaaminen monistusluetteloiden avulla
+## Valmistele useiden poistokirjojen kirjaaminen monistusluetteloiden avulla
 
 Kun täytät poistokirjaan kirjattavat päiväkirjarivit, voit monistaa rivit erilliseen päiväkirjaan, josta ne voidaan kirjata eri poistokirjaan. Lisätietoja on kohdassa [Tapahtumien kirjaaminen eri poistokirjoihin](fa-how-depreciate-amortize.md#to-post-entries-to-different-depreciation-books).
 
@@ -95,7 +89,7 @@ Kun täytät poistokirjaan kirjattavat päiväkirjarivit, voit monistaa rivit er
 > [!IMPORTANT]  
 >   Jos olet lisännyt valintamerkin **Käytä monistusluetteloa** -kenttään, älä käytä päiväkirjassa numerosarjaa. Tämä sen vuoksi, että käyttöomaisuuden KP-päiväkirjan numerosarjat ja käyttöomaisuuspäiväkirjan numerosarjat eivät ole samoja.  
 
-## <a name="to-post-entries-to-different-depreciation-books"></a>Tapahtumien kirjaaminen eri poistokirjoihin
+## Tapahtumien kirjaaminen eri poistokirjoihin
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöom. KP-päiväkirja** ja valitse sitten liittyvä linkki.  
 2. Valitse **Käytä monistusluetteloa** -valintaruutu siinä päiväkirjassa, johon poisto kirjataan.  
@@ -112,7 +106,7 @@ Kun täytät poistokirjaan kirjattavat päiväkirjarivit, voit monistaa rivit er
 
 Tapahtumia voidaan kopioida poistokirjasta toiseen käyttämällä **Kopioi poistokirja** -eräajoa. Eräajo luo päiväkirjarivejä päiväkirjan erään, jonka olet määrittänyt **KO-päiväkirjan asetukset** -sivulla poistokirjalle, johon haluat kopioida. Katso lisätietoja seuraavasta menettelystä.  
 
-## <a name="to-copy-fixed-asset-ledger-entries-between-depreciation-books"></a>Käyttöomaisuustapahtumien kopioiminen poistokirjojen välillä
+## Käyttöomaisuustapahtumien kopioiminen poistokirjojen välillä
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poistokirjat** ja valitse sitten vastaava linkki.  
 2. Avaa poistokirjan kortti ja valitse **Kopioi poistokirja** -toiminto.  
@@ -121,9 +115,9 @@ Tapahtumia voidaan kopioida poistokirjasta toiseen käyttämällä **Kopioi pois
 
 Kopioidut rivit luodaan joko käyttöomaisuuden KP-päiväkirjassa tai käyttöomaisuuspäiväkirjassa sen mukaisesti, onko kopioitava poistokirja integroitu pääkirjanpitoon.  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/calculate-post-depreciations/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/calculate-post-depreciations/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Käyttöomaisuus](fa-manage.md)  
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  

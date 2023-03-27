@@ -6,28 +6,22 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000799, 99000803, 99000804, 99000805, 99000807
+ms.search.form: '99000799, 99000803, 99000804, 99000805, 99000807'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: c58d361a9b3d9732d4e29b4fea70e9f101c5e71f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520202"
 ---
-# <a name="set-up-standard-routing-lines"></a>Vakioreititysrivien määrittäminen
+# Vakioreititysrivien määrittäminen
 
 Vakiotehtävien käyttäminen yksinkertaistaa reititysten luomista ja ylläpitoa. Niiden avulla voit liittää nopeasti lisätietoja toistuviin toimintoihin.
 
-## <a name="to-set-up-a-standard-task"></a>Vakiotehtävän määrittäminen
+## Vakiotehtävän määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vakiotehtävät** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi**-toiminto.
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Valitse **Työkalut**-, **Henkilöstö**-, **Kuvaus**- tai **Työkalut**-toiminto ja lisää merkintä avautuvalla sivulla.
 
-## <a name="to-add-a-standard-task-to-an-operation"></a>Vakiotehtävän lisääminen toimintoon
+## Vakiotehtävän lisääminen toimintoon
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Reititykset** ja valitse sitten vastaava linkki.
 2. Avaa käsiteltävä reititys.
@@ -35,7 +29,7 @@ Vakiotehtävien käyttäminen yksinkertaistaa reititysten luomista ja ylläpitoa
 
 Kun reititystaulukot tulostetaan, on mahdollista valita, sisällytetäänkö reititysriveille lisätyn vakiotehtävän elementit.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Uusien reititysten luominen](production-how-to-create-routings.md)  
 [Tuotannon tuoterakenteiden luominen](production-how-to-create-production-boms.md)  

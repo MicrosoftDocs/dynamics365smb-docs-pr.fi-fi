@@ -1,26 +1,20 @@
 ---
 title: Microsoft Dataverse -integroinnissa käytettävien käyttäjätilien määrittäminen | Microsoft Docs
-description: Tietoja niiden käyttäjätilien määrittämisestä, joilla sovellukset vaihtavat tietoja ja joiden avulla käytetään ja synkronoidaan sovellusten tietoja.
+description: 'Tietoja niiden käyttäjätilien määrittämisestä, joilla sovellukset vaihtavat tietoja ja joiden avulla käytetään ja synkronoidaan sovellusten tietoja.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7683c301131fa5729d74e1c6ef70880db7f3327d
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607335"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Microsoft Dataverse -integroinnissa käytettävien käyttäjätilien määrittäminen
+# Microsoft Dataverse -integroinnissa käytettävien käyttäjätilien määrittäminen
 
 Tässä artikkelissa on yleiskatsaus [!INCLUDE[prod_short](includes/cds_long_md.md)]in ja [!INCLUDE[prod_short](includes/prod_short.md)]in integroinnissa tarvittavien käyttäjätilien määrittämisestä.
 
-## <a name="set-up-the-administrator-user-account"></a>Järjestelmänvalvojan käyttäjätilin määrittäminen
+## Järjestelmänvalvojan käyttäjätilin määrittäminen
 
 Järjestelmänvalvojan käyttäjätili [!INCLUDE[prod_short](includes/prod_short.md)]:ssä on lisättävä käyttäjänä [!INCLUDE[cds_long](includes/cds_long_md.md)]:een. Kun määrität yhteyden [!INCLUDE[prod_short](includes/prod_short.md)]- ja [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen välille, tätä tiliä käytetään kerran asennuksen ja joidenkin pakollisten osien määrityksen aikana.
 
@@ -29,7 +23,7 @@ Järjestelmänvalvojan käyttäjätili [!INCLUDE[prod_short](includes/prod_short
 >
 > Kun yhteyden määritys on tehty, tämä [!INCLUDE[prod_short](includes/cds_long_md.md)] -käyttäjä voidaan poistaa. Integrointi jatkaa integrointia varten automaattisesti luodun käyttäjätilin käyttämistä.
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>[!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen käyttäjätilien käyttöoikeudet ja ja käyttöoikeusroolit
+## [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen käyttäjätilien käyttöoikeudet ja ja käyttöoikeusroolit
 
 Perusintegraatioratkaisu luo seuraavat roolit [!INCLUDE[cds_long](includes/cds_long_md.md)] -ohjelmassa integrointia varten:
 
@@ -135,7 +129,7 @@ You can allow sales people to view inventory levels for the items they sell by g
 
 -->
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Integrointi Microsoft Dataversein kanssa](admin-common-data-service.md)  
 [Dynamics 365 Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md)  

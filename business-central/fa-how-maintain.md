@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: repair, service
-ms.search.form: 5642, 5625
+ms.search.keywords: 'repair, service'
+ms.search.form: '5642, 5625'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: db722d702dbfa6499c5ae259313af8915b95d51c
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534235"
 ---
-# <a name="maintain-fixed-assets"></a>Käyttöomaisuuden ylläpito
+# Käyttöomaisuuden ylläpito
 
 Kunnossapitokulut ovat ajoittaisia rutiinikustannuksia, jotka aiheutuvat käyttöomaisuuden arvon säilyttämisestä. Toisin kuin pääoman kohentaminen, kunnossapito ei lisää arvoa.
 
@@ -25,7 +19,7 @@ Voit tallentaa ajantasaisen tiedoston käyttöomaisuuden kunnossapidosta ja huol
 
 Indeksointia käytetään muuttamaan arvoja yleisten hintatason muutosten mukaan. **Tee indeksimuutos KO:teen** -eräajoa voidaan käyttää kunnossapitokulujen uudelleenlaskemiseen.
 
-## <a name="to-record-maintenance-work-on-a-fixed-asset"></a>Käyttöomaisuuden kunnossapitotyön tallentaminen
+## Käyttöomaisuuden kunnossapitotyön tallentaminen
 
 Kunnossapito, kuten huoltokäynti, voidaan tallentaa sen suorittamisen yhteydessä kyseiselle käyttöomaisuudelle **Kunnossapidon rekisteröinti** -sivulla.  
 
@@ -33,7 +27,7 @@ Kunnossapito, kuten huoltokäynti, voidaan tallentaa sen suorittamisen yhteydess
 2. Valitse käyttöomaisuus, jolle haluat tallentaa kunnossapitotyön. Valitse sitten **Kunnossapidon rekisteröinti** -toiminto.
 3. Täytä **Kunnossapidon rekisteröinti** -sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-post-maintenance-costs-from-a-fixed-asset-gl-journal"></a>Kunnossapitokustannusten kirjaaminen käyttöomaisuuden KP-päiväkirjasta
+## Kunnossapitokustannusten kirjaaminen käyttöomaisuuden KP-päiväkirjasta
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poistokirjaluettelo** ja valitse sitten vastaava linkki.  
 2. Valitse poistokirja, joka on liitetty käyttöomaisuuteen, ja valitse sitten **Muokkaa**-toiminto.
@@ -47,7 +41,7 @@ Kunnossapito, kuten huoltokäynti, voidaan tallentaa sen suorittamisen yhteydess
     >   Vaihe 7 toimii vain, jos seuraavat arvot on määritetty: Käyttöomaisuuden kirjausryhmän **KO:n kirjausryhmän kortti** -sivun **Kunnossapitotili**-kenttä sisältää pääkirjanpidon debet-tilin ja **Kunnossapidon vastatili** -kenttä sisältää sen pääkirjanpitotilin, jolle arvonkorotuksen vastatilitapahtumat kirjataan. Lisätietoja on kohdassa [Käyttöomaisuuden kirjausryhmien määrittäminen](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 8. Valitse **Kirjaa**-toiminto.
 
-## <a name="to-follow-up-on-fixed-assets-service-visits"></a>Käyttöomaisuuden huoltokäyntien seuraaminen
+## Käyttöomaisuuden huoltokäyntien seuraaminen
 
 Tulosta **Kunnossapito – Seuraava huolto** -raportti, kun haluat tarkastella käyttöomaisuuseriä, joille on aikataulutettu huoltokäynti. Tätä raporttia voidaan käyttää myös silloin, kun päivitetään käyttöomaisuuskorttien **Seuraava huoltopvm** -kenttää.  
 
@@ -55,7 +49,7 @@ Tulosta **Kunnossapito – Seuraava huolto** -raportti, kun haluat tarkastella k
 2. Täytä **Aloituspvm**- ja **Lopetuspvm**-kenttä.  
 3. Valitse **Tulosta**- tai **Esikatsele**-painike.
 
-## <a name="to-monitor-maintenance-costs"></a>Kunnossapitokustannusten valvonta
+## Kunnossapitokustannusten valvonta
 
 Kunnossapitokustannuksia voi tarkastella käyttöomaisuuden tilastossa.  
 
@@ -66,7 +60,7 @@ Kunnossapitokustannuksia voi tarkastella käyttöomaisuuden tilastossa.
 
 Avautuvalla **Kunnossapitotapahtumat**-sivulla näkyvät ne tapahtumat, joista summa muodostuu **Kunnossapito**-kentässä.
 
-## <a name="to-view-or-print-maintenance-costs-for-multiple-fixed-assets"></a>Useiden käyttöomaisuuserien kunnossapitokustannusten tarkasteleminen tai tulostaminen
+## Useiden käyttöomaisuuserien kunnossapitokustannusten tarkasteleminen tai tulostaminen
 
 **Kunnossapito – Analyysi** -raportissa voidaan valita, halutaanko kunnossapitokustannukset nähdä yhdeltä, kahdelta vai kolmelta kunnossapitokoodilta tietyn päivämäärän tai jakson osalta. Voit myös tarkastella kaikkien valittujen käyttöomaisuuserien kokonaissummaa vai tietyn omaisuuserän kokonaissummaa.
 
@@ -74,7 +68,7 @@ Avautuvalla **Kunnossapitotapahtumat**-sivulla näkyvät ne tapahtumat, joista s
 2. Täytä tarvittavat kentät.
 3. Valitse **Tulosta**- tai **Esikatsele**-painike.
 
-## <a name="to-view-maintenance-ledger-entries"></a>Kunnossapitotapahtumien katsominen
+## Kunnossapitotapahtumien katsominen
 
 Voit tutkia kunnossapitokustannuksia myös tarkastelemalla kunnossapitotapahtumia.  
 
@@ -82,7 +76,7 @@ Voit tutkia kunnossapitokustannuksia myös tarkastelemalla kunnossapitotapahtumi
 2. Valitse käyttöomaisuus, jonka tapahtumia haluat tarkastella. Valitse sitten **Poistokirjat**-toiminto.
 3. Valitse **KO:n poistokirjat** -sivulla kyseinen käyttöomaisuuden poistokirja ja valitse sitten **Kunnossapitotapahtumat**-toiminto.
 
-## <a name="to-view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a>Useiden käyttöomaisuuserien kunnossapitotapahtumien tarkasteleminen tai tulostaminen
+## Useiden käyttöomaisuuserien kunnossapitotapahtumien tarkasteleminen tai tulostaminen
 
 **Kunnossapito - Erittely** -raportin avulla voit tarkastella ja tulostaa yhden tai usean käyttöomaisuuserän kunnossapitotapahtumia.  
 
@@ -90,9 +84,9 @@ Voit tutkia kunnossapitokustannuksia myös tarkastelemalla kunnossapitotapahtumi
 2. Täytä tarvittavat kentät.
 3. Valitse **Tulosta**- tai **Esikatsele**-painike.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/manage-fixed-assets-maintenance-insurances/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/manage-fixed-assets-maintenance-insurances/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Käyttöomaisuus](fa-manage.md)  
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  

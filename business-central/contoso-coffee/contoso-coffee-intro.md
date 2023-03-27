@@ -1,20 +1,15 @@
 ---
 title: Johdatus Contoso Coffee -demotietoihin
-description: Yleiskuvaus tilanteista, joissa Contoso Coffee -demotietojen avulla opit käyttämään Business Centralin tuotanto-ominaisuuksia.
+description: 'Yleiskuvaus tilanteista, joissa Contoso Coffee -demotietojen avulla opit käyttämään Business Centralin tuotanto-ominaisuuksia.'
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: 4760
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 41dac60578399e09b9a67ac5747d48648a872f9c
-ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 11/18/2022
-ms.locfileid: "9788226"
 ---
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Johdatus Contoso Coffee -demotietoihin
+
+# Johdatus Contoso Coffee -demotietoihin
 
 Contoso Coffee on kuvitteellinen yritys, joka tuottaa kuluttajille ja yrityksille kahvinkeittimiä. **Contoso Coffee** -sovellukset Business Centralille lisäävät demotietoja, joiden avulla voit opetella käyttämään tuotanto-ominaisuuksia Business Centralissa.  
 
@@ -41,7 +36,7 @@ Kaikkien skenaarioiden tuotanto toiminnot käyttävät sijaintia *NORTH*.
 > [!IMPORTANT]
 > Ennen kuin suoritat mitään Contoso Coffeen skenaarioista, kirjaa kaikki nimikepäiväkirja rivit, joilla on alkusaldot. Lisätietoja vaatimuksista on [Contoso Coffee -tietojen määrittäminen](#set-up-contoso-coffee-data) -osiossa.
 
-## <a name="set-up-contoso-coffee-data"></a>Contoso Coffee -tietojen määrittäminen
+## Contoso Coffee -tietojen määrittäminen
 
 Contoson Coffee -esittelytietojen käyttäminen edellyttää, että asennat asianomaiseen yritykseen [!INCLUDE [prod_short](../includes/prod_short.md)] -ratkaisussa kaksi sovellusta:  
 
@@ -72,7 +67,7 @@ Kun asianmukaiset sovellukset on asennettu, siirry [Contoso Coffee -esittelytied
 
 Kun olet valmis, valitse **Luo demotiedot** -toiminto. Tietojen lisääminen pohjana olevaan tietokantaan kestää muutaman minuutin, mutta sitten olet valmis suorittamaan erilaisia skenaarioita.  
 
-## <a name="scenarios"></a>Esimerkkitilanteet
+## Esimerkkitilanteet
 
 Contoso Coffee -esittelytiedot tukevat tällä hetkellä seuraavia testi- ja harjoitteluskenaarioita:
 
@@ -90,7 +85,7 @@ Lue kunkin skenaarion vaiheet asianomaisessa artikkelissa.
 > [!IMPORTANT]
 > Nämä vaihekuvaukset edellyttävät, että käyttäjäkokemukseksi on asetettu *Premium* **Yritystiedot**-sivulla.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Tuotanto](../production-manage-manufacturing.md)  
 [Business Centralin tuotantoraportit ja analytiikka](../production-reports.md)  

@@ -1,24 +1,18 @@
 ---
 title: Valuutat Business Centralissa
-description: Saat yleiskuvan siitä, miten Business Central määrittää paikallisen valuutan verrattuna ulkomaan valuuttoihin, joilla käyt kauppaa.
+description: 'Saat yleiskuvan siitä, miten Business Central määrittää paikallisen valuutan verrattuna ulkomaan valuuttoihin, joilla käyt kauppaa.'
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: multiple currencies
-ms.search.form: 5, 118
+ms.search.form: '5, 118'
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 7eabe6a9c17431b3e2965edcbf832d37133f4f9f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532752"
 ---
-# <a name="currencies-in-business-central"></a>Valuutat Business Centralissa
+# Valuutat Business Centralissa
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
-## <a name="currencies"></a>Valuutat
+## Valuutat
 
 > [!TIP]  
 > Jos etsit [!INCLUDE[prod_short](includes/prod_short.md)]issa reaaliajassa tietoa valuuttakurssien (FX) hinnoista tai historiallisista hinnoista, löydät sen nimityksellä valuutta. Tämän artikkelin lisäksi on artikkeli [Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md).
@@ -27,17 +21,17 @@ ms.locfileid: "9532752"
 
 Valuuttakoodit määritetään **Valuutat**-luettelossa, mukaan lukien lisätiedot ja asetukset, jotka ovat välttämättömiä kunkin valuuttakoodin osalta. Lisätietoja on ohjeaiheessa [Valuutat](finance-set-up-currencies.md#curr)
 
-### <a name="example-of-a-receivable-currency-transaction"></a>Esimerkki saamisen valuuttatapahtumasta
+### Esimerkki saamisen valuuttatapahtumasta
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="exchange-rates"></a>Vaihtokurssit
+## Vaihtokurssit
 
 Vaihtokurssit ovat työkalu, jonka avulla lasketaan kunkin valuuttatapahtuman arvo paikallisessa valuutassa (PVA). Lisätietoja on kohdassa [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md).  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Valuuttojen määrittäminen](finance-set-up-currencies.md)  
 [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)  

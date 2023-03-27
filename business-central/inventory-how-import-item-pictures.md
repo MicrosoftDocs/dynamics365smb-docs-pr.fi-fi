@@ -1,28 +1,22 @@
 ---
 title: Useiden nimikekuvien tuominen ZIP-tiedostosta
-description: Jos haluat tuoda useita nimikekuvia, anna kuvatiedostoille nimikenumeroita vastaavat nimet, pakkaa ne ZIP-tiedostoon ja hallinnoi sitten nimikekuvien tuontia Tuo nimikekuvat -sivulla.
+description: 'Jos haluat tuoda useita nimikekuvia, anna kuvatiedostoille nimikenumeroita vastaavat nimet, pakkaa ne ZIP-tiedostoon ja hallinnoi sitten nimikekuvien tuontia Tuo nimikekuvat -sivulla.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: product, image
-ms.search.form: 30, 461
+ms.search.keywords: 'product, image'
+ms.search.form: '30, 461'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 44a3689c59a25b6c0aca25f69896e86beb71ea6c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522064"
 ---
-# <a name="import-multiple-item-pictures"></a>Useiden nimikekuvien tuominen
+# Useiden nimikekuvien tuominen
 Voit tuoda kerralla useita nimikekuvia. Sinun tarvitsee vain antaa kuvatiedostoille nimikenumeroita vastaavat nimet, pakata ne zip-tiedostoon ja hallita sitten nimikekuivien tuontia Tuo nimikekuvat -sivulla.
 
 Kaikkia yleisiä tiedostomuotoja tuetaan.
 
-## <a name="to-name-picture-files-by-the-item-names-and-prepare-the-zip-file"></a>Kuvatiedostojen nimeäminen nimikenimillä ja ZIP-tiedoston valmisteleminen
+## Kuvatiedostojen nimeäminen nimikenimillä ja ZIP-tiedoston valmisteleminen
 1. Anna kullekin tiedostolle nimikekuvien tallennussijainnissa nimi, joka vastaa liittyvän nimikkeen numeroa. Esimerkiksi:
 
     |Nimikkeen nro|Tiedostonimi|
@@ -33,7 +27,7 @@ Kaikkia yleisiä tiedostomuotoja tuetaan.
 
 2. Kerää kaikki tiedostot ZIP-tiedostoon. Valitse esimerkiksi Resurssienhallinnassa ensin tiedostot ja sitten **Lähetä kohteeseen** ja **Pakattu kansio (zip-tiedosto)**.     
 
-## <a name="to-import-item-pictures"></a>Nimikekuvien tuominen
+## Nimikekuvien tuominen
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastonhallinnan asetukset** ja valitse sitten vastaava linkki.
 2. Valitse **Tuo nimikekuva** -toiminto.
 3. Valitse **Valitse ZIP-tiedosto** -kentässä oikea ZIP-kansio ja valitse sitten **Avaa**-painike.
@@ -47,7 +41,7 @@ Kaikkia yleisiä tiedostomuotoja tuetaan.
 
 **Tuonnin tila** -kenttä päivitetään näyttämään, onko kuvan tuonti ohitettu tai onko se valmis.       
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Numerosarjojen luominen](ui-create-number-series.md)  
 [Varasto](inventory-manage-inventory.md)  

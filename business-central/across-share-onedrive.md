@@ -1,20 +1,14 @@
 ---
 title: Business Central-tiedostojen avaaminen OneDrivessa
-description: Lue, miten voit jakaa Business Central -tietoja OneDrive for Businessin kautta.
+description: 'Lue, miten voit jakaa Business Central -tietoja OneDrive for Businessin kautta.'
 author: jswymer
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 08/03/2022
 ms.author: jswymer
-ms.openlocfilehash: 99077273617613a2bd5fd949ead836605432b9aa
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607417"
 ---
-# <a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a>Business Central-tiedostojen avaaminen ja jakaminen Microsoft OneDrivessa
+# Business Central-tiedostojen avaaminen ja jakaminen Microsoft OneDrivessa
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in avulla on helppo tallentaa, hallita ja jakaa tiedostoja muiden ihmisten kanssa Microsoft OneDrive for Businessin kautta. Useimmilla sivuilla, joilla on saatavilla tiedostoja, kuten raportin Saapuneet-kansio tai kun tiedostot on liitetty tietueisiin, löydät **Avaa OneDrivessa**- ja **Jaa**-toiminnot.
 
@@ -25,7 +19,7 @@ ms.locfileid: "9607417"
 :::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="Liitteiden Avaa OneDrivessa- ja Jaa-toiminnot":::
 
 
-## <a name="open-in-onedrive"></a>Avaa OneDrivessa
+## Avaa OneDrivessa
 
 **Avaa OneDrivessa** -toiminto kopioi tiedoston OneDriveen ja avaa tiedoston sovelluksessa, kuten Microsoft Excel Online, Microsoft Word Online tai Microsoft PowerPoint Online. 
 
@@ -37,7 +31,7 @@ Näiden sovellusten Online-versioiden avulla voit lisätä huomautuksia, muokata
 
 Muita suosittuja tiedostotyyppejä, kuten PDF-tiedostoja, tekstitiedostoja ja kuvia, varten OneDrive tarjoaa tiedostojen katselijat, jotka tarjoavat ominaisuuksia esimerkiksi tulostamiseen ja jakamiseen. Jos tiedostoa ei voi tarkastella OneDrivessa , sinua saatetaan pyytää lataamaan se.
 
-## <a name="share"></a>Jaa
+## Jaa
 
 **Jaa**-toiminto kopioi tiedoston OneDriveen, jolloin voit nähdä kenen kanssa olet jo jakanut tiedoston, ja voit myös jakaa tiedoston muiden käyttäjien kanssa. Kun valitset **Jaa**-toiminnon, seuraava sivu avautuu.
 
@@ -59,19 +53,18 @@ Business Centralin jakamistoiminto perustuu OneDriveen. Lisätietoja OneDriven j
 > [!NOTE]
 > **Jaa**-toiminto ei ole käytettävissä mobiililaitteiden Business Central -sovelluksessa.
 
-## <a name="first-time-sign-in-from-business-central"></a>Ensimmäisen kerran kirjautuminen Business Centralista
+## Ensimmäisen kerran kirjautuminen Business Centralista
 
 Kun käytät **Avaa OneDrivessa**- tai **Jaa**-toimintoa ensimmäistä kertaa, [!INCLUDE[prod_short](includes/prod_short.md)] tekee seuraavat toimet:
 
 1. Avaa **Tarkista ehdot** -sivun. Lue sivu, ja jos hyväksyt käyttöehdot, jatka valitsemalla **Hyväksy**.
-2. Avaa **Valitse tili** -sivun. Valitse tili tai **käytä toista tiliä**, jos et näe omaa, ja syötä sitten pyydettäessä soveltuva käyttäjänimi ja salasana.
-3. Luo OneDriveen kansion nimeltä [!INCLUDE[prod_short](includes/prod_short.md)]. 
-4. [!INCLUDE[prod_short](includes/prod_short.md)] -kansiossa se luo kansion, jolla on sama nimi kuin käsiteltävällä yrityksellä. Jos työskentelet useammassa kuin yhdessä yrityksessä, [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelma luo kansion kullekin yritykselle, jota käsittelet, kun käytät **Avaa OneDrivessa**- tai **Jaa**-toimintoa. 
-5. Tuo yrityksen nimi -kansioon kopion valitusta tiedostosta ja avaa tiedoston. 
+2. Luo OneDriveen kansion nimeltä [!INCLUDE[prod_short](includes/prod_short.md)]. 
+3. [!INCLUDE[prod_short](includes/prod_short.md)] -kansiossa se luo kansion, jolla on sama nimi kuin käsiteltävällä yrityksellä. Jos työskentelet useammassa kuin yhdessä yrityksessä, [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelma luo kansion kullekin yritykselle, jota käsittelet, kun käytät **Avaa OneDrivessa**- tai **Jaa**-toimintoa. 
+4. Tuo yrityksen nimi -kansioon kopion valitusta tiedostosta ja avaa tiedoston. 
 
 Sitten, kun seuraavan kerran käytät **Avaa OneDrivessa** tai **Jaa**-toimintoa, [!INCLUDE[prod_short](includes/prod_short.md)] vain kopioi ja avaa tiedoston. 
 
-## <a name="managing-multiple-copies-of-a-file"></a>Tiedoston useiden kopioiden hallinta
+## Tiedoston useiden kopioiden hallinta
 
 Kun valitset **Avaa OneDrivessa** tai **Jaa**, tiedosto kopioidaan [!INCLUDE[prod_short](includes/prod_short.md)]ista OneDrive-kansioon. Jos muokkaat tiedostoa OneDrivessa, tiedoston kopiot ovat erilaiset kuin [!INCLUDE[prod_short](includes/prod_short.md)] -tiedostossa. Voit päivittää [!INCLUDE[prod_short](includes/prod_short.md)]iin uusimman tiedostoversion poistamalla aiemmin luodun tiedoston [!INCLUDE[prod_short](includes/prod_short.md)]ista ja lataamalla uusimman kopion.
 
@@ -89,7 +82,7 @@ Jos samanniminen tiedosto on jo olemassa OneDrivessa, sinulle annetaan seuraavat
  
   Tämä valinta säilyttää nykyisen tiedoston sellaisenaan ja tallentaa Business Centralista valitsemasi tiedoston eri nimellä. Uusi nimi on samankaltainen kuin olemassa oleva nimi, paitsi että liitteen numero on esimerkiksi "Nimikkeet (2).xlsx".
 
-## <a name="about-your-business-central-folder-on-onedrive"></a>Tietoja Business Central-kansiosta OneDrivessa
+## Tietoja Business Central-kansiosta OneDrivessa
 
 Kansio ja sen sisältö ovat yksityisiä, kunnes päätät jakaa ne muiden kanssa. Joten voit päättää jakaa sisältöä yhden tai useamman työtoverisi tai jopa organisaatiosi ulkopuolisen henkilön kanssa. 
 
@@ -100,7 +93,7 @@ Voit käyttää OneDrivea **Omat asetukset** -sivulta valitsemalla linkin **Pilv
 <!--## Extending the Connection to OneDrive
 You can create an extension and connect it to... For more information, see...-->
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Business Centralin ja OneDriven integraatio](across-onedrive-overview.md)  
 [OneDriven ja Business Centralin integroinnin hallinta](admin-onedrive-integration.md)  

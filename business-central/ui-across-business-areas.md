@@ -8,14 +8,8 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 12/01/2022
 ms.custom: bap-template
-ms.openlocfilehash: c9f17c81e3cb2fcd57fef536e9c910416bdb1643
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822476"
 ---
-# <a name="general-business-functionality"></a>Yleiset liiketoimintatoiminnot
+# Yleiset liiketoimintatoiminnot
 
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää omat toiminnot tavallisille liiketoiminta-alueille, kuten rahoitus ja myynti. Lisätietoja on kohdassa [Liiketoiminnan toiminnallisuus](across-business-functionality.md).
 
@@ -51,7 +45,7 @@ Seuraava taulukko sisältää nämä yleiset liiketoiminta-alueet ja linkit niit
 | Määritä tiedonsiirtomääritykset sähköisten asiakirjojen lähettämistä ja vastaanottamista varten. |[Sähköinen tiedonsiirto](across-data-exchange.md) |
 | Käytä verkkokarttoja, jos haluat etsiä asiakkaiden ja toimittajien sijainteja ja osoitteita yleisesti. | [Sijaintien ja reittiohjeiden etsiminen online-karttojen avulla](across-online-maps.md) |
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Hallinta](admin-setup-and-administration.md)  

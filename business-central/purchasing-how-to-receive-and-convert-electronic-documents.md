@@ -1,23 +1,17 @@
 ---
 title: Sähköisten asiakirjojen vastaanottaminen ja muuntaminen
-description: Tämä aihe kuvailee, miten voit vastaanottaa sähköisiä asiakirjoja suoraan kauppakumppaneilta tai OCR-palvelusta.
+description: 'Tämä aihe kuvailee, miten voit vastaanottaa sähköisiä asiakirjoja suoraan kauppakumppaneilta tai OCR-palvelusta.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 189, 190, 191
+ms.search.keywords: null
+ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: ff1b79447091df53f45eff49779e1c73b2fe0fd5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534181"
 ---
-# <a name="receive-and-convert-electronic-documents"></a>Sähköisten asiakirjojen vastaanottaminen ja muuntaminen
+# Sähköisten asiakirjojen vastaanottaminen ja muuntaminen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman yleinen versio tukee sähköisten laskujen ja hyvityslaskujen vastaanottamista PEPPOL-muodossa. Suurimmat document exchange -palveluiden tarjoajat tukevat tätä muotoa. Jotta voisit saada laskun toimittajalta sähköisenä PEPPOL-asiakirjana, asiakirja on muunnettava Saapuvat asiakirjat -sivulla [!INCLUDE[prod_short](includes/prod_short.md)]in ostolaskuksi tai päiväkirjan riviksi.
 
@@ -40,7 +34,7 @@ Sähköisten asiakirjojen muuntaminen voit käynnistää joko manuaalisesti täs
 
 Seuraavassa kuvataan, miten toimittajan lasku vastaanotetaan ja muunnetaan ostolaskuksi [!INCLUDE[prod_short](includes/prod_short.md)]:ssa. Menettely on sama, kun muunnat toimittajalaskun päiväkirjan riville.  
 
-### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Sähköisen laskun vastaanottaminen ja muuntaminen ostolaskuksi
+### Sähköisen laskun vastaanottaminen ja muuntaminen ostolaskuksi
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Saapuvat asiakirjat** ja valitse sitten vastaava linkki.  
 
@@ -58,9 +52,9 @@ Seuraavassa kuvataan, miten toimittajan lasku vastaanotetaan ja muunnetaan ostol
 
     Yleensä vääriin tai puuttuviin perustietoihin liittyvät virheet näkyvät [!INCLUDE[prod_short](includes/prod_short.md)]in **Virhesanomat**-pikalomakkeessa.  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Saapuvat asiakirjat](across-income-documents.md)  

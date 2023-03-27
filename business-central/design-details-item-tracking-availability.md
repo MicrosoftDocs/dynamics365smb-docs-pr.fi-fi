@@ -1,22 +1,16 @@
 ---
 title: Rakennetiedot – Nimikeseurannan saatavuus
-description: Nimikkeen seurantarivit- ja Nimikeseurannan yhteenveto -sivuilla on sarja- tai eränumeroista dynaamista saatavuustietoa, joka lisää läpinäkyvyyttä käyttäjille.
+description: 'Nimikkeen seurantarivit- ja Nimikeseurannan yhteenveto -sivuilla on sarja- tai eränumeroista dynaamista saatavuustietoa, joka lisää läpinäkyvyyttä käyttäjille.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 4fd66e1b6e5aff71ee10b0e24d9f25b81eb85887
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138620"
 ---
-# <a name="design-details-item-tracking-availability"></a>Rakennetiedot: Nimikkeen seurannan saatavuus
+# Rakennetiedot: Nimikkeen seurannan saatavuus
 **Nimikkeen seurantarivit**- ja **Nimikeseurannan yhteenveto** -sivuilla on dynaamista saatavuustietoa sarja- tai eränumeroista. Tämän tarkoituksena on kasvattaa käyttäjien läpinäkyvyyttä lähtevissä asiakirjoissa, kuten myyntitilaukset, näyttämälle heille, mitkä sarjanumerot tai kuinka monta yksikköä eränumeroita tällä hetkellä on kirjattuna toisiin avoimiin asiakirjoihin. Tämä poistaa kaksoiskohdistuksen aiheuttamaa epävarmuutta ja vahvistaa tilausten käsittelijöiden luottamusta siihen, että nimikkeen seurantanumerot ja kirjaamattomien myyntitilausten luvatut päivämäärät voidaan toteuttaa. Katso lisätiedot kohdasta [Rakennetiedot: Nimikkeen seurantarivit -sivu](design-details-item-tracking-lines-window.md).  
 
  Kun **Nimikkeen seurantarivit** -sivu avataan, saatavuustiedot haetaan **Nimiketapahtuma**- ja **Varaustapahtuma**-taulukosta ilman päivämääräsuodatinta. Kun valitset **Sarjanro**- tai **Eränro**-kentän, **Nimikeseurannan yhteenveto** -sivu avautuu. Sivulla näkyvät nimikkeen seurantatiedot **Varaustapahtuma**-taulukossa. Tämä yhteenveto sisältää nimikkeen seurantarivin jokaisen sarja- tai eränumeron seurantatiedot.  
@@ -33,7 +27,7 @@ ms.locfileid: "8138620"
 
  Saatavuustiedot haetaan tietokannasta vain kerran **Nimikkeen seurantarivit** -sivun avaamisen ja **Päivitä saatavuus** -toiminnon käyttämisen yhteydessä. Näin säilytetään tietokannan suorituskyky.  
 
-## <a name="calculation-formula"></a>Laskentakaava  
+## Laskentakaava  
  Kuten edellisessä taulukossa on kuvattu, määritetyn sarja- tai eränumeron saatavuus lasketaan seuraavasti.  
 
  saatavilla oleva kokonaismäärä = varastossa oleva määrä – (koko kysyntä + määrä, jota ei ole vielä siirretty tietokantaan)  
@@ -41,7 +35,7 @@ ms.locfileid: "8138620"
 > [!IMPORTANT]  
 >  Tämä kaava osoittaa, että sarja- tai eränumeron saatavuuden laskenta ottaa huomioon vain varaston, ei suunniteltuja vastaanottoja. Näin ollen tarjonta, jota ei ole vielä kirjattu varastoon, ei vaikuta nimikkeen seurannan saatavuuteen, toisin kuin tavallinen nimikkeen saatavuudessa, johon sisällytetään suunnitellut vastaanotot.  
 
-## <a name="see-also"></a>Katso myös  
+## Katso myös  
  [Rakennetiedot: nimikkeen seuranta](design-details-item-tracking.md)
 
 

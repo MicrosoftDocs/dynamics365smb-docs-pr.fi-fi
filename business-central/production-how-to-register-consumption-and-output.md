@@ -1,6 +1,6 @@
 ---
 title: Kulutustuotoksen rekisteröiminen tuotantotilaukselle
-description: Tässä aiheessa kerrotaan, miten rekisteröidään kulutus ja tuotos vapautetun tuotantotilauksen riville, jota tarkastellaan Tuotantopäiväkirja-sivulla.
+description: 'Tässä aiheessa kerrotaan, miten rekisteröidään kulutus ja tuotos vapautetun tuotantotilauksen riville, jota tarkastellaan Tuotantopäiväkirja-sivulla.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 01e62e4a767ac26967e228ef27a2dadcc0e3ff03
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516081"
 ---
-# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Yhden vapautetun tuotantotilausrivin kulutuksen ja tuotoksen rekisteröiminen
+# Yhden vapautetun tuotantotilausrivin kulutuksen ja tuotoksen rekisteröiminen
 
 Tämä suoritustehtävä suoritetaan **Tuotantopäiväkirja**-sivulla. Päiväkirjassa yhdistetään erillisten kulutuspäiväkirjan ja tuotospäiväkirjan toiminnot yhteen. Tuotantopäiväkirjassa yhdistyvät erillisten kulutus- ja tuotospäiväkirjojen toiminnot yhdeksi päiväkirjaksi, joka voidaan avata suoraan vapautetusta tuotantotilauksesta. Sitä käytetään pääasiassa komponenttien kulutuksen, lopullisten tuotettujen nimikkeiden määrän sekä operaatioihin käytetyn ajan manuaaliseen kirjaukseen. Arvot kirjataan vapautetun tuotantotilauksen tapahtumiksi: Kulutusmäärät kirjataan negatiivisiksi nimiketapahtumiksi, tuotosmäärät positiivisiksi tapahtumiksi ja käytetyt ajat kapasiteettitapahtumiksi. Kirjattuja arvoja voidaan tarkastella päiväkirjan alaosassa myös todellisina määrinä.  
 
@@ -26,7 +20,7 @@ Tämä suoritustehtävä suoritetaan **Tuotantopäiväkirja**-sivulla. Päiväki
 > [!NOTE]  
 >  Komponentit, joilla ei ole reitityslinkkien koodeja, näkyvät päiväkirjassa ensimmäisinä.  
 
-## <a name="to-register-consumption-and-output"></a>Kulutuksen ja tuotoksen rekisteröiminen  
+## Kulutuksen ja tuotoksen rekisteröiminen  
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vapautetut tuotantotilaukset** ja valitse sitten vastaava linkki.  
 2.  Avaa rekisteröimistä odottava vapautettu tuotantotilausrivi ja valitse sitten **Rivit**-pikavälilehdessä ensin **Rivi**-toiminto ja lopuksi **Tuotantopäiväkirja**-toiminto.  
 
@@ -64,7 +58,7 @@ Jos arvot pysyvät kirjattuina, päiväkirja sisältää nämä jäljellä oleva
 > [!WARNING]  
 >  **Tuotantopäiväkirja**-sivua ei voi käyttää useampi käyttäjä samanaikaisesti. Tämä tarkoittaa, että jos käyttäjä 2 avaa sivun ja kirjoittaa tietoja, kun käyttäjä 1 toimii jo sivulla, 2 käyttäjä menettää tietoja, kun käyttäjä 1 sulkee sivun.  
 
-## <a name="see-also"></a>Katso myös  
+## Katso myös  
 [Tuotanto](production-manage-manufacturing.md)    
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
 [Suunnittelu](production-planning.md)      

@@ -1,22 +1,16 @@
 ---
 title: Synkronointivirheiden vianmääritys
-description: Tämä aihe sisältää ohjeita synkronointivirheiden tunnistamista, määrittämistä ja ratkaisemista varten.
+description: 'Tämä aihe sisältää ohjeita synkronointivirheiden tunnistamista, määrittämistä ja ratkaisemista varten.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: a7490c896daabd05ef0b0bb7d125e15963d83320
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381484"
 ---
-# <a name="troubleshooting-synchronization-errors"></a>Synkronointivirheiden vianmääritys
+# Synkronointivirheiden vianmääritys
 
 
 Sovellusten [!INCLUDE[prod_short](includes/prod_short.md)] ja [!INCLUDE[prod_short](includes/cds_long_md.md)] integrointi sisältää useita vaiheita, ja joskus tapahtuu virheitä. Tässä ohjeaiheessa kerrotaan yleisimpiä virheitä ja annetaan vinkkejä niiden korjaamiseen.
@@ -38,7 +32,7 @@ Seuraavat Integroinnin synkronointivirheet -sivun työkalut auttavat ratkaisemaa
 * **Poista yli 7 päivää vanhat tapahtumat**- ja **Poista kaikki tapahtumat** -toiminnot tyhjentävät luettelon. Näitä toimintoja käytetään yleensä sen jälkeen, kun useisiin tietueisiin vaikuttavan virheen syy on selvitetty. Mieti kuitenkin tarkasti, kun teet sen. Nämä toiminnot saattavat poistaa virheitä, jotka vielä vaikuttavat toimintaan.
 * **Näytä virheen kutsupino** -toiminto näyttää tiedot, jotka voivat auttaa tunnistamaan virheen syyn. Jos virhettä ei voi ratkaista itse ja päätät lähettää tukipyynnön, sisällytä tiedot tukipyyntöön.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Integrointi Microsoft Dataversein kanssa](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Microsoft Dataverse -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md)  
 [Yhteyden määrittäminen Microsoft Dataverse -sovellukseen](admin-how-to-set-up-a-dynamics-crm-connection.md)  

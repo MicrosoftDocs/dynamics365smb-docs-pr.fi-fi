@@ -1,98 +1,93 @@
 ---
 title: PC Näppäimistön Oikoteiden Pikaohje
-description: Tulostusystävällinen pikaohje, joka sisältää PC-käyttäjien suosituimmat oikotiet.
+description: 'Tulostusystävällinen pikaohje, joka sisältää PC-käyttäjien suosituimmat oikotiet.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accessibility, shortcuts, keyboarding
+ms.search.keywords: 'accessibility, shortcuts, keyboarding'
 ms.date: 08/19/2022
 ms.author: jswymer
-ms.openlocfilehash: ddcee165f275b3e7ad757b5a8a448c9a65a7d33c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605794"
 ---
-# <a name="keyboard-quick-reference---pc-only"></a>Näppäimistön Pikaohje - Vain PC
 
-#### <a name="general"></a>Yleiset
+# Näppäimistön Pikaohje - Vain PC
 
-|Paina näitä näppäimiä|Tehtävä|  
+#### Yleiset
+
+|Käytettävät näppäimet|Tehtävä|  
 |-|-|
-|Alt+F2|Näytä ja piilota tietoruutu|
-|Alt+N|Luo uusi tietue|
-|Alt+Vaihto+N|Sulje juuri luotu tietue ja luo uusi tietue|
-|Alt+O|Lisää uusi huomautus valittuun tietueeseen|
-|Alt+Q|Avaa **Kerro**|
-|Ctrl+Alt+Q|Avaa **Etsi tapahtumat**|
-|Alt+Ylänuoli|Avaa työkaluvihje tai tarkistusvirhe|
-|Alt+alanuoli|Avaa avattava luettelo tai haku|
-|Alt+T|Avaa **Omat asetukset** -sivu|
-|Alt+Vaihto+W|Avaa nykyinen kortti tai asiakirja uudessa ikkunassa|
-|Ctrl+Insert|Lisää uusi rivi asiakirjaan|
-|Ctrl-Delete|Poista asiakirjan, päiväkirjan tai työkirjan rivi|
-|Ctrl+Shift+F12|Suurenna asiakirjasivun rivinimikeosa|
-|Ctrl+F1|Avaa ohjeruutu tai ohjeartikkeli|
-|Ctrl+napsautus|Siirry mukautettaessa|
-|Ctrl+O|Vaihda yritystä tai ympäristöä|
-|Vaihto+F12|Avaa roolinhallinta, ominaisuuksien yleiskuvaus|
-|F5/Ctrl+F5|Päivitä tai lataa sivu uudelleen|
-|Sarkain/vaihto+sarkain|Siirrä kohdistus seuraavaan/edelliseen elementtiin|
-|F6/Vaihto+F6|Siirry seuraavaan pikavälilehteen/osaan|
+|<kbd>Alt</kbd>+<kbd>F2</kbd>|Näytä ja piilota tietoruutu|
+|<kbd>Alt</kbd>+<kbd>N</kbd>|Luo uusi tietue|
+|<kbd>Alt</kbd>+<kbd>Vaihto</kbd>+<kbd>N</kbd>|Sulje juuri luotu tietue ja luo uusi tietue|
+|<kbd>Alt</kbd>+<kbd>O</kbd>|Lisää uusi huomautus valittuun tietueeseen|
+|<kbd>Alt</kbd>+<kbd>Q</kbd>|Avaa **Kerro**|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>|Avaa **Etsi tapahtumat**|
+|<kbd>Alt</kbd>+<kbd>Ylös</kbd>|Avaa työkaluvihje tai tarkistusvirhe|
+|<kbd>Alt</kbd>+<kbd>alanuoli</kbd>|Avaa avattava luettelo tai haku|
+|<kbd>Alt</kbd>+<kbd>T</kbd>|Avaa **Omat asetukset** -sivu|
+|<kbd>Alt</kbd>+<kbd>Vaihto</kbd>+<kbd>W</kbd>|Avaa nykyinen kortti tai asiakirja uudessa ikkunassa|
+|<kbd>Ctrl</kbd>+<kbd>Insert</kbd>|Lisää uusi rivi asiakirjaan|
+|<kbd>Ctrl</kbd>-<kbd>Delete</kbd>|Poista asiakirjan, päiväkirjan tai työkirjan rivi|
+|<kbd>Ctrl</kbd>+<kbd>Vaihto</kbd>+<kbd>F12</kbd>|Suurenna asiakirjasivun rivinimikeosa|
+|<kbd>Ctrl</kbd>+<kbd>F1</kbd>|Avaa ohjeruutu tai ohjeartikkeli|
+|<kbd>Ctrl</kbd>+napsautus|Siirry mukautettaessa|
+|<kbd>Ctrl</kbd>+<kbd>O</kbd>|Vaihda yritystä tai ympäristöä|
+|<kbd>Vaihto</kbd>+<kbd>F12</kbd>|Avaa roolinhallinta, ominaisuuksien yleiskuvaus|
+|<kbd>F5</kbd>/<kbd>Ctrl</kbd>+<kbd>F5</kbd>|Päivitä tai lataa sivu uudelleen|
+|<kbd>Sarkain</kbd>/<kbd>Vaihto</kbd>+<kbd>Sarkain</kbd>|Siirrä kohdistus seuraavaan/edelliseen elementtiin|
+|<kbd>F6</kbd>/<kbd>Vaihto</kbd>+<kbd>F6</kbd>|Siirry seuraavaan pikavälilehteen/osaan|
 
-#### <a name="navigate--select-rows"></a>Siirtyminen ja rivien valitseminen
+#### Siirtyminen ja rivien valitseminen
 
-|Paina näitä näppäimiä|Tehtävä|
+|Käytettävät näppäimet|Tehtävä|
 |-|-|
-|Home/End|Siirry ensimmäiseen/viimeiseen kenttään|
-|Ctrl+Home/End |Siirry ensimmäiselle/viimeiselle riville|
-|Ctrl+ylä-/alanuoli|Siirry menettämättä valintaa|
-|Ctrl+A |Valitse kaikki|
-|Ctrl+välilyönti|Vaihda rivin valintaa|
-|Ctrl/Vaihto+napsautus|Lisää rivit valintaan|
-|Vaihto+ylä-/alanuoli|Lisää rivi valinnan ylä-/alapuolelle|
-|Vaihto+sivu ylös/alas|Valitse näkyvät rivit ylä-/alapuolella|
-|Ctrl+Enter|Kohdistus luettelon ulkopuolella|
+|<kbd>Home/End|Siirry ensimmäiseen/viimeiseen kenttään|
+|<kbd>Ctrl</kbd>+<kbd>Home</kbd>/<kbd>End</kbd>|Siirry ensimmäiselle/viimeiselle riville|
+|<kbd>Ctrl</kbd>+<kbd>Ylös</kbd>/<kbd>Alas</kbd>|Siirry menettämättä valintaa|
+|<kbd>Ctrl</kbd>+<kbd>A</kbd>|Valitse kaikki|
+|<kbd>Ctrl</kbd>+<kbd>välilyönti</kbd>|Vaihda rivin valintaa|
+|<kbd>Ctrl</kbd>/<kbd>Vaihto</kbd>+napsautus|Lisää rivit valintaan|
+|<kbd>Vaihto</kbd>+<kbd>Ylös</kbd>/<kbd>Alas</kbd>|Lisää rivi valinnan ylä-/alapuolelle|
+|<kbd>Vaihto</kbd>+<kbd>Page Up</kbd>/<kbd>Down</kbd>|Valitse näkyvät rivit ylä-/alapuolella|
+|<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Kohdistus luettelon ulkopuolella|
 
-#### <a name="copy--paste"></a>Kopioi ja liitä
+#### Kopioi ja liitä
 
-|Paina näitä näppäimiä|Tehtävä|
+|Käytettävät näppäimet|Tehtävä|
 |-|-|
-|Ctrl+C/V|Kopioi/liitä rivit|
-|F8|Kopioi yläpuolella oleva kenttä nykyiselle riville|
+|<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Kopioi/liitä rivit|
+|<kbd>F8</kbd>|Kopioi yläpuolella oleva kenttä nykyiselle riville|
 
-#### <a name="search-filter--sort"></a>Haku, suodatus ja lajittelu
+#### Haku, suodatus ja lajittelu
 
-|Paina näitä näppäimiä|Tehtävä|
+|Käytettävät näppäimet|Tehtävä|
 |-|-|
-|Alt+F7|Lajittele sarake nousevaan/laskevaan järjestykseen|
-|F3|Vaihda hakuun|
-|Shift+F3|Vaihda suodatinruutuun: kohdistus kenttäsuodattimissa|
-|Alt+F3|Suodata valitun solun arvon mukaan|
-|Vaihto+Alt+F3|Lisää valittuun kenttään suodatin|
-|Ctrl+Alt+Vaihto+F3|Nollaa suodattimet|
+|<kbd>Alt</kbd>+<kbd>F7</kbd>|Lajittele sarake nousevaan/laskevaan järjestykseen|
+|<kbd>F3</kbd>|Vaihda hakuun|
+|<kbd>Vaihto</kbd>+<kbd>F3</kbd>|Vaihda suodatinruutuun: kohdistus kenttäsuodattimissa|
+|<kbd>Alt</kbd>+<kbd>F3</kbd>|Suodata valitun solun arvon mukaan|
+|<kbd>Vaihto</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Lisää valittuun kenttään suodatin|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Vaihto</kbd>+<kbd>F3</kbd>|Nollaa suodattimet|
 
-#### <a name="quick-entry"></a>Pikatapahtuma
+#### Pikatapahtuma
 
-|Paina näitä näppäimiä|Tehtävä|
+|Käytettävät näppäimet|Tehtävä|
 |-|-|
-|Ctrl+Vaihto+Enter|Siirry seuraavaan pikatapahtumakenttään luettelon ulkopuolella|
-|Enter/vaihto+Enter|Siirry seuraavaan/edelliseen pikatapahtumakenttään|
+|<kbd>Ctrl</kbd>+<kbd>Vaihto</kbd>+<kbd>Enter</kbd>|Siirry seuraavaan pikatapahtumakenttään luettelon ulkopuolella|
+|<kbd>Enter</kbd>/<kbd>vaihto</kbd>+<kbd>Enter</kbd>|Siirry seuraavaan/edelliseen pikatapahtumakenttään|
 
-##### <a name="report-preview"></a>Raportin esikatselu
+##### Raportin esikatselu
 
-|Paina näitä näppäimiä|Tehtävä|
+|Käytettävät näppäimet|Tehtävä|
 |-|-|
-|Ctrl+Home/End|Siirry ensimmäiselle/viimeiselle sivulle|
+|<kbd>Ctrl</kbd>+<kbd>Home</kbd>/<kbd>End</kbd>|Siirry ensimmäiselle/viimeiselle sivulle|
 
-#### <a name="numeric-keypad"></a>Numeronäppäimistö
+#### Numeronäppäimistö
 
-|Paina näitä näppäimiä|Tehtävä|  
+|Käytettävät näppäimet|Tehtävä|  
 |-|-|
-|Alt+Desimaalierotin|Vaihda desimaalierotinnäppäimen tuotosta numeronäppäimistöllä|
+|<kbd>Alt</kbd>+<kbd>desimaalierotin</kbd>|Vaihda desimaalierotinnäppäimen tuotosta numeronäppäimistöllä|
 
 > [!TIP]
 > Jos haluat graafisen, tulostusystävällisen version, valitse seuraava kuva ja Lataa PDF-tiedosto.

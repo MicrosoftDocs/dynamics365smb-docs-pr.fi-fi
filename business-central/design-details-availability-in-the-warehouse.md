@@ -1,81 +1,92 @@
 ---
-title: Rakennetiedot – Saatavuus varastossa | Microsoft Docs
-description: Järjestelmän on valvottava varaston nimikkeiden saatavuutta jatkuvasti, jotta lähtevät tilaukset toimitetaan tehokkaasti ja toimitukset saadaan halutussa ajassa.
-author: SorenGP
+title: Rakennetiedot – saatavuus fyysisessä varastossa
+description: 'Tietoja eri tekijöistä, jotka vaikuttavat nimikkeen saatavuuteen fyysisessä varastossa.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/08/2021
-ms.author: edupont
-ms.openlocfilehash: 670fbfc0f7e576f92ef26e31418d0d44f6262eec
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132079"
+ms.date: 02/22/2023
+ms.custom: bap-template
 ---
-# <a name="design-details-availability-in-the-warehouse"></a>Rakennetiedot: saatavuus varastossa
-Järjestelmän on valvottava varaston nimikkeiden saatavuutta jatkuvasti, jotta lähtevät tilaukset toimitetaan tehokkaasti ja toimitukset saadaan halutussa ajassa.  
+# Rakennetiedot: saatavuus varastossa
 
-Saatavuus vaihtelee riippuen varauksista lokerotasolla, kun varastotoiminnot, kuten poiminnat ja liikkeet ilmenevät ja kun varaston varausjärjestelmä asettaa noudatettavat rajoitukset. Varsin monimutkainen algoritmi tarkistaa, että kaikki edellytykset täyttyvät ennen kuin poimintojen määrät määritetään lähteville virroille.
+Kun nimikkeen saatavuus on jatkuvasti tiedossa, voidaan varmistaa, että lähtevä tilausvirta on tehokas ja että toimitusajat ovat optimaaliset.  
 
-Jos yksi tai useampi ehdoista ei täyty, erilaisia virheilmoituksia saattaa ilmestyä, mukaanlukien geneerinen "Ei mitään käsiteltävää." viesti. "Ei mitään käsiteltävää." viesti voi esiintyä monissa tapauksissa, niin lähtevän tai saapuvan virran kanssa, kun suorasti tai epäsuorasti asiaan liittyvä dokumentti sisältää kentän **Käsiteltävä Määrä**
+Saatavuus voi vaihdella useiden tekijöiden vuoksi. Esimerkki:
 
-> [!NOTE]
-> Lisätietoja "Ei mitään käsiteltävää" viestin syistä ja sen ratkaisuista julkaistaan pian täällä. viesti.
+* Kohdistukset varastopaikkatasolla fyysisen varaston toimintojen, kuten poimintojen ja varastosiirtojen, yhteydessä.
+* Varaston varausjärjestelmä edellyttää rajoitusten noudattamista.
 
-## <a name="bin-content-and-reservations"></a>Lokeron sisältö ja varaukset  
- Kaikissa varastoinninhallinnan asennuksissa nimikkeen määrät ovat olemassa sekä fyysisen varastoinnin tapahtumina fyysisen varaston sovellusalueella että nimiketapahtumina varaston sovellusalueella. Nämä kaksi tapahtumatyyppiä sisältävät eri tiedot nimikkeiden sijainnista ja niiden saatavuudesta. Fyysisen varastoinnin tapahtumat määrittävät nimikkeen saatavuuden varastopaikan ja varastopaikan tyypin mukaan. Jälkimmäistä kutsutaan myös varastopaikan sisällöksi. Nimiketapahtumat määrittävät nimikkeen saatavuuden lähtevien asiakirjojen varauksen perusteella.  
+[!INCLUDE [prod_short](includes/prod_short.md)] tarkistaa ennen määrien kohdistamista lähtevien virtojen poimintoihin, että kaikki ehdot täyttyvät.
 
- Erikoistoiminta on olemassa poiminta-algoritmissa ja sen avulla voidaan laskea määrä, joka on käytettävissä poimimiseen, kun säiliön sisältö on yhdistetty varauksiin.  
+Jos ehdot eivät täyty, näkyviin tulee virhesanomia. Yksin tavallinen sanoma on yleinen Ei mitään käsiteltävää. viesti. Sanoma voidaan näyttää erilaisissa lähtevien ja saapuvien virtojen yhteyksissä, joissa asiakirjarivillä on **Käsiteltävä määrä** -kenttä.
 
-## <a name="quantity-available-to-pick"></a>Saatavilla oleva poimintamäärä  
- Jos poiminta-algoritmi ei esimerkiksi ota huomioon nimikkeiden määriä, jotka on varattu odottavalle myyntitilauksen toimitukselle, nämä nimikkeet saatetaan poimia toiselle myyntitilaukselle, joka toimitetaan aiemmin ja tämä estää ensimmäisen myynnin täyttämisen. Tämä tilanne vältetään, kun poiminta-algoritmi vähentää muille lähteville asiakirjoille varatut määrät, olemassa olevien poiminta-asiakirjojen määrät ja määrät, jotka on jo poimittu, mutta joita ei ole vielä toimitettu tai kulutettu.  
+## Varastopaikan sisältö ja varaukset  
 
- Tulos näytetään **Saatav. ol. määrä poimittav.** -kentässä **Poimintatyökirja**-sivulla, jossa kenttä lasketaan dynaamisesti. Arvo lasketaan myös silloin, kun käyttäjä luo fyysisen varastoinnin poiminnat suoraan lähteville asiakirjoille. Tällaiset lähtevät asiakirjat voisivat olla myyntitilauksia, tuotantomenekkiä tai saapuvia siirtoja, joiden tulos näkyy liittyvissä määräkentissä, kuten **Käsiteltävä määrä**.  
+Nimikemäärät ilmaistaan sekä fyysisen varaston tapahtumina että varaston nimiketapahtumina. Nämä kaksi tapahtumatyyppiä sisältävät erilaisia tietoja nimikkeiden sijainnista ja niiden saatavuudesta. Fyysisen varastoinnin tapahtumat määrittävät nimikkeen saatavuuden varastopaikan ja varastopaikan tyypin mukaan. Jälkimmäistä kutsutaan myös varastopaikan sisällöksi. Nimiketapahtumat määrittävät nimikkeen saatavuuden lähtevien asiakirjojen varauksen perusteella.  
+
+[!INCLUDE [prod_short](includes/prod_short.md)] laskee poimintaan saatavissa olevan määrän, kun varastopaikan sisältö ja varaukset on yhdistetty.  
+
+## Saatavilla oleva poimintamäärä  
+
+[!INCLUDE [prod_short](includes/prod_short.md)] varaa nimikkeitä odottaviin myyntitilaustoimitukseen, jolloin niitä ei poimita muihin aiemmin toimitettaviin myyntitilauksiin. [!INCLUDE [prod_short](includes/prod_short.md)] vähentää jo käsiteltävien nimikkeiden määrän seuraavasti:
+
+* Muihin lähtevien asiakirjoihin varatut määrät.
+* Aiemmin luotujen poiminta-asiakirjojen määrät.
+* Poimitut määrät, joita ei ole vielä toimitettu tai kulutettu.  
+
+Tulos lasketaan dynaamisesti ja näytetään **Poimintatyökirja**-sivun **Saatav. ol. määrä poimittav.** -kentässä. Arvo lasketaan myös silloin, kun käyttäjä luo fyysisen varastoinnin poiminnat suoraan lähteville asiakirjoille. Esimerkkejä lähtevien asiakirjoista:
+
+* Myyntitilaukset
+* Tuotannon kulutus
+* Lähtevät siirrot
+
+Tulos on käytettävissä näiden asiakirjojen määräkentissä, kuten **Käsiteltävä määrä** -kentässä.  
 
 > [!NOTE]  
->  Varausten prioriteettiin liittyen varattava määrä vähennetään poimittavissa olevasta määrästä. Esimerkiksi, jos poimintalokeroissa käytettävissä oleva määrä on 5 yksikköä, mutta 100 yksikköä on hyllytyslokeroissa, ja kun yrität varata enemmän kuin 5 yksikköä toiselle tilaukselle, järjestelmä näyttää virheilmoituksen, koska poimintalokeroissa on oltava tämä lisämäärä.  
+> Varausten prioriteettiin liittyen varattava määrä vähennetään poimittavissa olevasta määrästä. Jos esimerkiksi poiminnan varastopaikassa saatavana oleva määrä on 5 yksikköä, mutta hyllytyksen varastopaikassa on 100 yksikköä ja toiseen tilaukseen yritetään varata enemmän kuin 5 yksikköä, näkyviin tulee virhesanoma, koska lisämäärä on oltava saatavana poiminnan varastopaikoissa.  
 
-### <a name="calculating-the-quantity-available-to-pick"></a>Lasketaan poimittavissa olevaa määrää  
- Poimintaan käytettävissä oleva määrä lasketaan seuraavasti:  
+### Poimittavissa olevan määrän laskeminen  
 
- poimittavissa olevaa määrää = määrä poimintavarastopaikoissa - määrä poiminnoissa ja siirroissa- – (varattu määrä poimintavarastopaikoissa + varattu määrä poiminnoissa ja siirroissa-)  
+[!INCLUDE [prod_short](includes/prod_short.md)] laskee poimittavissa olevan määrän seuraavasti:  
 
- Seuraava kaavio sisältää laskelman eri elementit.  
+poimittavissa olevaa määrää = määrä poimintavarastopaikoissa - määrä poiminnoissa ja siirroissa- – (varattu määrä poimintavarastopaikoissa + varattu määrä poiminnoissa ja siirroissa-)  
 
- ![Käytettävissä poimintaan, kun varaus on päällekkäinen.](media/design_details_warehouse_management_availability_2.png "Käytettävissä poimintaan, kun varaus on päällekkäinen")  
+Seuraava kaavio sisältää laskelman eri elementit.  
 
-## <a name="quantity-available-to-reserve"></a>Varattavissa oleva määrä  
- Koska lokeron sisältö ja varaus ovat olemassa, varattavien nimikkeiden määrä tulee kohdistaa varauksilla lähtevän fyysisen varastoinnin asiakirjoihin.  
+![Käytettävissä poimintaan, kun varaus on päällekkäinen.](media/design_details_warehouse_management_availability_2.png "Käytettävissä poimintaan, kun varaus on päällekkäinen")  
 
- Kaikkien varastossa olevien nimikkeiden varaamisen tulisi olla mahdollista, lähtevien käsittelyssä olevia nimikkeitä lukuun ottamatta. Näin ollen varattavissa oleva määrä määritetään kaikissa asiakirjoissa ja kaikissa lokerotyypeissä olevana määränä, lukuun ottamatta seuraavia lähteviä määriä:  
+## Varattavissa oleva määrä
 
--   Määrä rekisteröimättömissä poiminta-asiakirjoissa  
--   Varastopaikoissa oleva määrä  
--   Määrä tuotannon valmisteluvarastopaikoissa  
--   Määrä avoimissa tuotannon varastopaikoissa  
--   Määrä kokoonpanon valmisteluvarastopaikoissa  
--   Muutosvarastopaikoissa oleva määrä  
+Koska sekä varastopaikan sisältö että varaus on luotu jo aiemmin, varattavissa olevien nimikkeiden määrä on kohdistettava fyysisen varastoinnin lähtevien asiakirjoihin.  
 
- Tulos näkyy **Saatavilla oleva kokonaismäärä** -kenttään **Varaus**-sivulla.  
+Kaikki muut varastonimikkeet voidaan varata paitsi nimikkeet, joiden lähtevä käsittely on alkanut. Varattavissa oleva määrä määritetään kaikissa asiakirjoissa ja varastopaikkatyypeissä olevana määränä. Seuraavat lähtevien määrät ovat poikkeuksia:  
 
- Varausrivillä oleva määrä, jota ei ole mahdollista varata, koska se on varattu varastossa, näytetään **F.var. kohdistettu määrä** -kentässä **Varaus**-sivulla.  
+* Määrä rekisteröimättömissä poiminta-asiakirjoissa  
+* Varastopaikoissa oleva määrä  
+* Määrä tuotannon valmisteluvarastopaikoissa  
+* Määrä avoimissa tuotannon varastopaikoissa  
+* Määrä kokoonpanon valmisteluvarastopaikoissa  
+* Muutosvarastopaikoissa oleva määrä  
 
-### <a name="calculating-the-quantity-available-to-reserve"></a>Lasketaan varattavissa olevaa määrää  
- Varattava määrä lasketaan seuraavasti:  
+Tulos näkyy **Saatavilla oleva kokonaismäärä** -kenttään **Varaus**-sivulla.  
 
- varattavissa oleva määrää = kokonaismäärä varastossa - määrä poiminnoissa ja siirroissa lähdeasiakirjoille - varattu määrä - määrä lähtevien varastopaikoissa  
+Varausrivillä oleva määrä, jota ei voi varata, koska se on kohdistettu fyysisessä varastossa, näytetään **Varaus**-sivun **F.var. kohdistettu määrä** -kentässä.  
 
- Seuraava kaavio sisältää laskelman eri elementit.  
+### Varattavissa olevaan määrän laskeminen
 
- ![Varattavissa varaston kohdistusta kohden.](media/design_details_warehouse_management_availability_3.png "Varattavissa varaston kohdistusta kohden")  
+[!INCLUDE [prod_short](includes/prod_short.md)] laskee varattavissa olevan määrän seuraavasti:  
 
-## <a name="see-also"></a>Katso myös  
- [Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
- [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)
+varattavissa oleva määrää = kokonaismäärä varastossa - määrä poiminnoissa ja siirroissa lähdeasiakirjoille - varattu määrä - määrä lähtevien varastopaikoissa  
+
+Seuraava kaavio sisältää laskelman eri elementit.  
+
+![Varattavissa varaston kohdistusta kohden.](media/design_details_warehouse_management_availability_3.png "Varattavissa varaston kohdistusta kohden")  
+
+## Katso myös  
+
+[Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
+[Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

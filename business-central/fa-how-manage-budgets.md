@@ -1,29 +1,23 @@
 ---
 title: KO-budjettien hallinta
-description: Voit määrittää tietoja tulevista käyttöomaisuuden sijoituksista, luovutuksista ja poistoista budjettien ja ennusteiden valmistelussa auttamiseksi.
+description: 'Voit määrittää tietoja tulevista käyttöomaisuuden sijoituksista, luovutuksista ja poistoista budjettien ja ennusteiden valmistelussa auttamiseksi.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: forecast
-ms.search.form: 5610, 5611
+ms.search.form: '5610, 5611'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a39ff86ea1bc8b3a2e772b8b3b557cdf863f8d7f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528356"
 ---
-# <a name="manage-budgets-for-fixed-assets"></a>Käyttöomaisuuden budjettien hallinta
+# Käyttöomaisuuden budjettien hallinta
 
 Voit määrittää budjetoidun käyttöomaisuuden. Tässä esimerkissä raportteihin voidaan sisällyttää tämän vuoksi mitä tahansa ennakoituja hankintoja ja myyntejä.  
 
 Budjetoidun tuloslaskelman, budjetoidun taseen ja rahoitusbudjetin valmistelua varten tarvitaan tietoja käyttöomaisuuden tulevista investoinneista, luovutuksista ja poistoista. Nämä tiedot saa **Käyttöomaisuus – Suunnit. arvo** -raportista. Ennen kyseisen raportin tulostamista budjetti tulee valmistella.  
 
-## <a name="to-budget-the-acquisition-cost-of-a-fixed-asset"></a>Käyttöomaisuuden hankintamenon budjetointi
+## Käyttöomaisuuden hankintamenon budjetointi
 
 Budjetin valmistelemista varten tulee määrittää käyttöomaisuuden kortteja käyttöomaisuuserille, joita aiot ostaa tulevaisuudessa. Budjettikäyttöomaisuuserät määritetään tavallisina käyttöomaisuuserinä, mutta ne on määritettävä niin, että pääkirjanpitoon ei tehdä kirjauksia.
 
@@ -34,7 +28,7 @@ Kun kirjaat hankintamenon, annan budjetoidun käyttöomaisuuserän numero **Budj
 3. Valitse **Budjetoitu käyttöomaisuus** -valintaruutu, kun haluat estää kirjauksen pääkirjanpitoon.
 4. Täytä jäljellä olevat kentät, liitä poistokirja ja kirjaa ensimmäinen hankintameno ja budjetoitu käyttöomaisuus, joka on annettu päiväkirjarivin **Budjetoidun KO:n nro** -kentässä. Lisätietoja on kohdassa [Käyttöomaisuuden hankinta](fa-how-acquire.md).
 
-## <a name="to-budget-the-disposal-of-a-fixed-asset"></a>Käyttöomaisuuden luovutuksen budjetointi
+## Käyttöomaisuuden luovutuksen budjetointi
 
 Jos suunnittelet myyväsi omaisuutta budjettijaksolla, voit syöttää tietoja myyntihinnasta ja myyntipäivämäärästä.
 
@@ -42,7 +36,7 @@ Jos suunnittelet myyväsi omaisuutta budjettijaksolla, voit syöttää tietoja m
 2. Valitse luovutettava käyttöomaisuus ja valitse sitten **Poistokirjat**-toiminto.
 3. Lisää sisältö **KO:n poistokirja**-sivulla **Suunnit. luovut. saadut tulot**-kenttään ja **Suunniteltu luovutuspvm** -kentän sisältö. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-view-projected-disposal-values"></a>Suunniteltujen luovutusarvojen katsominen
+## Suunniteltujen luovutusarvojen katsominen
 
 **KO:n suunniteltu arvo** -raportissa voi tarkastella suunniteltuja luovutusarvoja ja laskea voittoja ja tappioita.
 
@@ -50,7 +44,7 @@ Jos suunnittelet myyväsi omaisuutta budjettijaksolla, voit syöttää tietoja m
 2. Täytä tarvittavat kentät.
 3. Valitse **Tulosta**- tai **Esikatsele**-painike.
 
-## <a name="to-budget-depreciation"></a>Poistojen budjetointi
+## Poistojen budjetointi
 
 Laske tuleva poisto **Käyttöomaisuus - Suunnit. arvo** -raportin avulla. Raportissa näkyvät kirjanpitoarvo ja kumulatiiviset poistot valitun ajanjakson alusta, jakson aikaiset muutokset sekä kirjanpitoarvo ja kumulatiiviset poistot valitun ajanjakson lopusta.
 
@@ -60,9 +54,9 @@ Laske tuleva poisto **Käyttöomaisuus - Suunnit. arvo** -raportin avulla. Rapor
 4. Jätä **Käyttöomaisuus**-pikavälilehti tyhjäksi sisällyttääksesi kaikki omaisuuserät. **Budjetoitu käyttöomaisuus** -kenttään syötetään **Ei**, kun budjetoidut käyttöomaisuuserät jätetään huomioimatta, ja **Kyllä**, kun tarkastellaan vain budjetoituja käyttöomaisuuseriä.
 5. Valitse **Tulosta**- tai **Esikatsele**-painike.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/budget-fixed-assets/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/budget-fixed-assets/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Käyttöomaisuus](fa-manage.md)  
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  

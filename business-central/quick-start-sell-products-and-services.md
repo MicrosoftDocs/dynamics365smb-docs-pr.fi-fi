@@ -1,6 +1,6 @@
 ---
 title: Myynnin pika-aloitus (sisältää videon)
-description: Opettele täyttämään ensimmäiset kriittiset kentät, jotka koskevat tuotteita ja asiakkaita Business Centralissa, jotta voit aloittaa myyntiprosessisi.
+description: 'Opettele täyttämään ensimmäiset kriittiset kentät, jotka koskevat tuotteita ja asiakkaita Business Centralissa, jotta voit aloittaa myyntiprosessisi.'
 author: jill-kotel-andersson
 ms.topic: conceptual
 ms.devlang: na
@@ -9,18 +9,13 @@ ms.workload: na
 ms.search.keywords: quickstart
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: b607da4fbf5ab99eb8a3af1e939fe915151e00b0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135604"
 ---
-# <a name="sales-quick-start"></a>Myynnin pika-aloitus
+
+# Myynnin pika-aloitus
 
 Jotta voisit myydä tuotteita ja palveluita, sinun täytyy ensin määrittää nimikkeet ja asiakkaat. Kun tämä on tehty, voit aloittaa myyntitilausten rekisteröimisen ja laskujen lähettämisen.
 
-## <a name="set-up-items-to-sell"></a>Myytävien nimikkeiden määrittäminen
+## Myytävien nimikkeiden määrittäminen
 
 Tämä video näyttää, miten nimikkeen voi määrittää myytäväksi [!INCLUDE[prod_short](includes/prod_short.md)]issa.
 
@@ -28,13 +23,13 @@ Tämä video näyttää, miten nimikkeen voi määrittää myytäväksi [!INCLUD
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE47eLx?rel=0]
 
-### <a name="set-up-a-new-item"></a>Määritä uusi nimike
+### Määritä uusi nimike
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 Lisätietoja ja muita asioita, joita voit tehdä nimikkeitä määritettäessä, on ohjeaiheessa [Uusien nimikkeiden rekisteröinti](inventory-how-register-new-items.md).  
 
-## <a name="set-up-customers"></a>Asiakkaiden määrittäminen
+## Asiakkaiden määrittäminen
 
 Tässä videossa näkyy, miten uusi asiakas määritetään [!INCLUDE[prod_short](includes/prod_short.md)]issa.  
 
@@ -42,17 +37,17 @@ Tässä videossa näkyy, miten uusi asiakas määritetään [!INCLUDE[prod_short
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-### <a name="set-up-a-new-customer"></a>Uuden asiakkaan määrittäminen
+### Uuden asiakkaan määrittäminen
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
 Lisätietoja ja muita asioita, joita voit tehdä asiakkaita määritettäessä, on ohjeaiheessa [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md).
 
-## <a name="create-a-sales-order"></a>Luo myyntitilaus  
+## Luo myyntitilaus  
 
 Kun myyt jotain asiakkaalle, sinulla on kaksi vaihtoehtoa. Ensimmäinen ja yksinkertaisin on vain myyntilaskun luominen. Jos myyntiprosessi on kuitenkin monimutkaisempi, esimerkiksi jos sinulla on tilanteita, joissa toimitat vain tilausmäärän osia, käytä myyntitilausta.
 
-### <a name="to-create-a-sales-order"></a>Myyntitilauksen luominen  
+### Myyntitilauksen luominen  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 10.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.
 2. Luo uusi merkintä valitsemalla **Uusi**.
@@ -82,11 +77,11 @@ Kun myyt jotain asiakkaalle, sinulla on kaksi vaihtoehtoa. Ensimmäinen ja yksin
 
 Lisätietoja ja muita asioita, joita voit tehdä asiakkaan myyntitilausten luonnin yhteydessä, on kohdassa [Tuotteiden myyminen asiakkaan myyntitilauksen avulla](sales-how-sell-products.md).  
 
-## <a name="create-a-sales-invoice"></a>Luo myyntilasku
+## Luo myyntilasku
 
 Kun luot ja kirjaat myyntilaskun, et luo vain asiakkaalle lähetettävää laskuasiakirjaa vaan luot myös liittyvät määrä- ja arvotapahtumat [!INCLUDE[prod_short](includes/prod_short.md)]issa.
 
-### <a name="to-create-and-post-a-sales-invoice"></a>Luo ja kirjaa myyntilasku seuraavasti  
+### Luo ja kirjaa myyntilasku seuraavasti  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 20.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntilaskut** ja valitse sitten vastaava linkki.  
 
@@ -112,7 +107,7 @@ Kun luot ja kirjaat myyntilaskun, et luo vain asiakkaalle lähetettävää lasku
 
 Lisätietoja ja muita asioita, joita voit tehdä asiakkaan myyntilaskun luonnin yhteydessä, on kohdassa [Myynnin laskutus](sales-how-invoice-sales.md)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Business Centralin pika-aloitus](quick-start-business-central.md)  
 [Myynnin yleiskatsaus](sales-manage-sales.md)  

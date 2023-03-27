@@ -1,23 +1,17 @@
 ---
 title: Projektin edistymisen ja suorituskyvyn valvonta
-description: Tässä artikkelissa kerrotaan, miten keskeneräisen työn (KET) menetelmä luodaan ja miten KET lasketaan, kun projektien taloudellinen arvo arvioidaan projektin ollessa kesken.
+description: 'Tässä artikkelissa kerrotaan, miten keskeneräisen työn (KET) menetelmä luodaan ja miten KET lasketaan, kun projektien taloudellinen arvo arvioidaan projektin ollessa kesken.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project management, KPI, work in process, work in progress
-ms.search.form: 89, 92, 1010
+ms.search.keywords: 'project management, KPI, work in process, work in progress'
+ms.search.form: '89, 92, 1010'
 ms.date: 08/04/2022
 ms.author: edupont
-ms.openlocfilehash: 9b4c511c0cdaa6be6147ab1df3672f07b58c2b81
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528919"
 ---
-# <a name="monitor-job-progress-and-performance"></a>Projektin edistymisen ja suorituskyvyn valvonta
+# Projektin edistymisen ja suorituskyvyn valvonta
 
 Keskeneräinen työ (KET) on ominaisuus, jonka avulla voit arvioida keskeneräisten projektien taloudellisen arvon kirjanpidossa.
 
@@ -34,7 +28,7 @@ Voit laskea KET:n seuraavien arvojen perusteella:
 <!--If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you calculate WIP; it doesn't get automatically posted to the general ledger. After you've calculated WIP using the method you prefer, you can post to the general ledger.-->
 <!--Unhide the above paragraph?-->
 
-## <a name="create-a-job-wip-method"></a>Projektin KET-menetelmän luominen
+## Projektin KET-menetelmän luominen
 
 Luo projektin KET-menetelmä organisaatiosi tarpeiden mukaan ja valitse se oletukseksi.  
 
@@ -47,7 +41,7 @@ Luo projektin KET-menetelmä organisaatiosi tarpeiden mukaan ja valitse se oletu
 4. Jos haluat tehdä tästä uudesta menetelmästä oletusmenetelmän, valitse ![Kerro-ominaisuuden avaava hehkulamppu.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Projektienhallinnan asetukset** ja valitse sitten vastaava linkki.  
 5. Valitse **Oletus KET-menetelmä** -kentässä menetelmä luettelosta.
 
-## <a name="define-a-wip-method-for-a-job"></a>KET-menetelmän määrittäminen projektille
+## KET-menetelmän määrittäminen projektille
 
 Kun luot uuden projektin, sinun täytyy määrittää sille KET-menetelmä. Joissakin tapauksissa käyttämäsi projektin KET-menetelmä on jo määritetty oletukseksi.
 
@@ -55,7 +49,7 @@ Kun luot uuden projektin, sinun täytyy määrittää sille KET-menetelmä. Jois
 2. Valitse **Uusi**-toiminto. Lisätietoja on kohdassa [Projektien luominen](projects-how-create-jobs.md).  
 3. Valitse **Projektikortti**-sivun **KET-menetelmä**-kentässä KET-menetelmä luettelosta. Vaikka oletusmenetelmä olisi määritetty, voit valita tarvittaessa toisen vaihtoehdon.  
 
-### <a name="define-a-wip-method-for-a-job-task"></a>KET-menetelmän määrittäminen projektitehtävälle
+### KET-menetelmän määrittäminen projektitehtävälle
 
 Voit määrittää projektitehtävälle KET-menetelmän, jättää tietyt projektitehtävät pois KET-laskutoimista tai ryhmittää tehtävät, jotka haluat laskea yhdessä. 
 
@@ -100,7 +94,7 @@ Huomaat:
 
 * *1300*–*1399*: Tämän projektitehtäväryhmän KET lasketaan erikseen.
 
-## <a name="calculate-wip"></a>Laske KET
+## Laske KET
 
 Voit määrittää tasetileille kirjattavan KET-summan kauden lopussa suoritettavaa raportointia varten. Käytä tähän tarkoitukseen **Laske projektin KET** -erätyötä.  
 
@@ -112,7 +106,7 @@ Voit määrittää tasetileille kirjattavan KET-summan kauden lopussa suoritetta
 > [!NOTE]  
 >   Erätyö laskee KET:n, mutta ei kirjaa sitä pääkirjanpitoon. Jos haluat kirjata sen, suorita **Kirjaa KET kirjanpitoon** -eräajo, kun olet laskenut KET:n. Katso lisätietoja seuraavasta toimenpiteestä.
 
-## <a name="post-wip"></a>Kirjaa KET
+## Kirjaa KET
 
 Kun olet laskenut KET:n, voit kirjata sen tasetileille kauden lopussa suoritettavaa raportointia varten. Tähän käytetään **Kirjaa projektin KET kirjanpitoon** -erätyötä.
 
@@ -120,7 +114,7 @@ Kun olet laskenut KET:n, voit kirjata sen tasetileille kauden lopussa suoritetta
 2. Täytä **Kirjaa projektin KET kirjanpitoon** -sivulla tarvittavat kentät.  
 3. Valitse **OK**-painike.
 
-## <a name="calculate-and-post-job-completion-entries"></a>Projektin valmistumistapahtumien laskeminen ja kirjaaminen
+## Projektin valmistumistapahtumien laskeminen ja kirjaaminen
 
 Kun olet suorittanut kaikki projektin toimenpiteet, kuten käytön kirjauksen ja laskutuksen, projektin **Tila**-arvoksi täytyy päivittää **Valmis**. Tämän jälkeen mahdollinen kirjanpitoon kirjattu KET peruuntuu.
 
@@ -137,7 +131,7 @@ Kun olet suorittanut kaikki projektin toimenpiteet, kuten käytön kirjauksen ja
 
      Erätyön luomien projektin pääkirjanpidon KET-tapahtumien vieressä on nyt valintamerkki **Projekti valmis** -kentässä. Valintamerkki osoittaa, että kyseessä ovat valmistumistapahtumat.
 
-## <a name="view-job-ledger-entries"></a>Projektin kirjanpitotapahtumien tarkasteleminen
+## Projektin kirjanpitotapahtumien tarkasteleminen
 
 Kaikki projektiin liittyvät tapahtumat on tallennettu projektirekistereihin ja numeroitu järjestyksessä numerosta 1 alkaen. Projektirekisterissä voi saada yleiskuvan kaikista projektitapahtumista.    
 
@@ -146,9 +140,9 @@ Kaikki projektiin liittyvät tapahtumat on tallennettu projektirekistereihin ja 
 
 **Projektitapahtumat**-sivulla voi tarkastella mihin tahansa projektiin liittyviä tapahtumia.  
 
-## <a name="find-related-microsoft-training"></a>Etsi aiheeseen liittyvät [Microsoftin koulutukset](/training/paths/calculate-post-job-wip/)
+## Etsi aiheeseen liittyvät [Microsoftin koulutukset](/training/paths/calculate-post-job-wip/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Vaihekuvaus – Projektin keskeneräisen työn laskeminen](walkthrough-calculating-work-in-process-for-a-job.md)
 [Projektien hallinta](projects-manage-projects.md)  

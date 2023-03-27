@@ -6,20 +6,14 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 06/08/2022
 ms.author: a-reishima
-ms.openlocfilehash: fc2e5af5792a4c212c56b2e8a8a28b3b48ecff33
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950516"
 ---
-# <a name="set-up-customer-discount-groups"></a>Asiakasalennusryhmien määrittäminen
+# Asiakasalennusryhmien määrittäminen
 
 Voit määrittää myyntirivialennuksia asiakasryhmälle sen sijaan, että soveltaisit niitä yksitellen.
 
 **Asiakasalennusryhmät** toimivat samalla tavalla kuin [asiakashintaryhmät](sales-how-to-set-up-customer-price-groups.md), mutta ne voidaan yhdistää nimikealennusryhmiin useiden nimikkeiden rivialennusten nopeaksi määrittämiseksi valituille asiakkaille.
 
-## <a name="create-sales-line-discounts-for-a-customer-group"></a>Myyntirivialennusten luonti asiakasryhmälle
+## Myyntirivialennusten luonti asiakasryhmälle
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakasalennusryhmät** ja valitse sitten vastaava linkki.
 2. Valitse **Asiakasalennusryhmät**-sivulla **Uusi** luodaksesi uuden alennusryhmän, anna sille nimi **Koodi**-sarakkeessa ja lisää kuvaus.
@@ -32,7 +26,7 @@ Voit määrittää myyntirivialennuksia asiakasryhmälle sen sijaan, että sovel
 
 Toista vaiheet 4–8 kunkin sellaisen nimikkeen tai nimikealennusryhmän osalta, jolle haluat luoda myyntirivialennuksen.
 
-## <a name="assign-a-customer-to-a-discount-group"></a>Lisää asiakas alennusryhmään
+## Lisää asiakas alennusryhmään
 
 Sen jälkeen, kun olet määrittänyt asiakasalennusryhmät, voit syöttää asiakkaan alennusryhmäkoodit asiakaskortteihin.
 
@@ -40,7 +34,7 @@ Sen jälkeen, kun olet määrittänyt asiakasalennusryhmät, voit syöttää asi
 2. Avaa sen asiakkaan **asiakaskortti**, jonka haluat liittää asiakasalennusryhmään.
 3. Valitse **Laskutus**-pikavälilehden **Asiakkaan alennusryhmä** -kentässä ryhmäkoodi.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  

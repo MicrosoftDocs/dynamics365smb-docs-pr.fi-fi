@@ -1,29 +1,23 @@
 ---
 title: Nimikkeiden varaaminen
-description: Voit varata nimikkeitä myyntitilauksiin, ostotilauksiin ja tuotantotilauksiin. Voit myös varata nimikkeitä varastossa tai avoimien asiakirjarivien saapuvissa kohteissa.
+description: 'Voit varata nimikkeitä myyntitilauksiin, ostotilauksiin ja tuotantotilauksiin. Voit myös varata nimikkeitä varastossa tai avoimien asiakirjarivien saapuvissa kohteissa.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.forms: 498, 497
+ms.search.keywords: null
+ms.search.forms: '498, 497'
 ms.date: 08/11/2022
 ms.author: edupont
-ms.openlocfilehash: e68a85cfb15841f45b048cabaad2e279de19b73b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534883"
 ---
-# <a name="reserve-items"></a>Nimikkeiden varaaminen
+# Nimikkeiden varaaminen
 
 Voit varata nimikkeitä myyntitilauksiin, ostotilauksiin, huoltotilauksiin, kokoonpanotilauksiin, siirtotilauksiin ja tuotantotilauksiin. Voit myös varata nimikkeitä varastossa tai avoimien asiakirja- tai päiväkirjarivien saapuvissa kohteissa. Tämä tehdään **Varaus**-sivulla.
 
 Jokaisella nimikkeiden varaamista varten avatulla **Varaus**-sivun rivillä on tietoja yhdestä rivin (myynti, osto, päiväkirja) tai varastotapahtuman tyypistä. Riveillä kuvataan, kuinka monta nimikettä on saatavilla varattavaksi kustakin rivin tai tapahtuman tyypistä.
 
-## <a name="reserve-items-for-sales"></a>Varaa nimikkeitä myyntiä varten
+## Varaa nimikkeitä myyntiä varten
 
 Seuraava toiminto käsittelee, miten nimikkeitä varataan myyntitilauksesta. Samat ohjeet koskevat osto-, huolto-, siirto- ja kokoonpanotilauksia.
   
@@ -42,7 +36,7 @@ Seuraava toiminto käsittelee, miten nimikkeitä varataan myyntitilauksesta. Sam
 > [!NOTE]  
 > Jos myyntitilauksella on olemassa nimikkeen seurantarivejä, varausjärjestelmä ohjaa erikoistyövaiheiden läpi. Lue lisää [Tietyn erä- tai sarjanumeron varaaminen](inventory-how-to-reserve-items.md#reserve-a-specific-serial-or-lot-number) -osasta.  
 
-## <a name="reserve-an-item-for-a-production-order-line"></a>Varaa nimikkeitä tuotantotilauksen rivejä varten
+## Varaa nimikkeitä tuotantotilauksen rivejä varten
 
 Tuotantotilauksille voi varata nimikkeitä. Tuotantotilauksen rivit eli päänimike ja tuotantotilauksen komponentit on erotettava toisistaan.
 
@@ -56,7 +50,7 @@ Seuraavassa toimenpiteessä käytetään sitovasti suunniteltua tuotantotilausta
 
 Ohjelma on nyt varannut määrän, joka oli syötetty sitovasti suunnitellun tuotantotilausriville.
 
-## <a name="reserve-items-for-production-order-components"></a>Varaa nimikkeitä tuotantotilauksen komponentteja varten
+## Varaa nimikkeitä tuotantotilauksen komponentteja varten
 
 Tuotantotilauksille voi varata nimikkeitä. Tuotantotilauksen rivit eli päänimike ja tuotantotilauksen komponentit on erotettava toisistaan.
 
@@ -72,7 +66,7 @@ Seuraavassa toimenpiteessä käytetään sitovasti suunniteltua tuotantotilausta
 
 Ohjelma on nyt varannut määrän, joka oli syötetty sitovasti suunnitellun tuotantokomponentin riville.
 
-## <a name="change-a-reservation"></a>Muuta varausta
+## Muuta varausta
 
 Joskus voit haluta muuttaa nimikevarausta.
 
@@ -81,7 +75,7 @@ Joskus voit haluta muuttaa nimikevarausta.
 3. Päivitä **Varaustapahtumat**-sivulla muutettavan rivin **Määrä**-kenttä.
 4. Vahvista avautuva sanoma valitsemalla **OK**.
 
-## <a name="cancel-a-reservation"></a>Peruuta varaus
+## Peruuta varaus
 
 Joskus voit haluta peruuttaa nimikevarauksen.
 
@@ -90,7 +84,7 @@ Joskus voit haluta peruuttaa nimikevarauksen.
 3. Valitse **Varaustapahtumat**-sivulla **Peruuta varaus** -toiminto.  
 4. Vahvista avautuva sanoma valitsemalla **Kyllä**.  
 
-## <a name="reserve-a-specific-serial-or-lot-number"></a>Varaa tietty sarja- tai eränumero
+## Varaa tietty sarja- tai eränumero
 
 Nimikeseurannassa olevien nimikkeiden lähtevien asiakirjojen, kuten myyntitilausten tai tuotannon komponenttiluetteloiden, tiettyjä sarja- tai eränumeroita voi varata. Tämä voi olla tarpeen, jos esimerkiksi tarvitaan tietyn erän tuotanto-osia, jotta varmistetaan yhdenmukaisuus aiempien tuotantoerien kanssa, tai koska asiakas on pyytänyt tiettyä sarjanumeroa. Lue lisää kohdassa [Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md).
 
@@ -107,9 +101,9 @@ Seuraava toimenpide perustuu myyntitilaukseen.
 7. Valitse **OK**, jos haluat avata vain määritettyjen nimikkeen seurantanumeroiden tarjonnan näyttävän **Varaus**-sivun. Jos jollakin tälle riville määritetyllä nimikkeen seurantanumerolla on määrittämättömiä varauksia, saat ilmoituksen varatusta määrästä.  
 8. Luo tiettyjen nimikkeen seurantanumeroiden varaus valitsemalla joko **Automaattinen varaus**- tai **Varaa nykyiseltä riviltä** -toiminto.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-outbound-serial-lot-numbers/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-outbound-serial-lot-numbers/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Varasto](inventory-manage-inventory.md)  
 [Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys](design-details-reservation-order-tracking-and-action-messaging.md)  

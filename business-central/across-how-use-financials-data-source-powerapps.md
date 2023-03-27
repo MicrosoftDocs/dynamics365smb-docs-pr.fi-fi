@@ -1,29 +1,23 @@
 ---
 title: Sovelluksen luominen omista tiedoista| Microsoft Docs
-description: Voit tehdä Business Central -tiedoistasi tietolähteen ja määrittää verkkopalveluidesi OData-osoitteen, jolla luot Power Appsin avulla yrityssovelluksen.
+description: 'Voit tehdä Business Central -tiedoistasi tietolähteen ja määrittää verkkopalveluidesi OData-osoitteen, jolla luot Power Appsin avulla yrityssovelluksen.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: OData, Power App, SOAP
+ms.search.keywords: 'OData, Power App, SOAP'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d7dbc334edcd22bb41ea5ad3a37ff53a52bfe970
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531888"
 ---
-# <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Yhteyden muodostaminen Business Central -tietoihin yrityssovelluksen luomista varten Power Appsin avulla
+# Yhteyden muodostaminen Business Central -tietoihin yrityssovelluksen luomista varten Power Appsin avulla
 
 Voit käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -tietoja Power Appsin tietolähteenä.  
 
 > [!NOTE]  
 > Sinulla on oltava kelvollinen [!INCLUDE[prod_short](includes/prod_short.md)]- ja Power Apps -tili.  
 
-## <a name="to-add-prod_short-as-a-data-source-in-power-apps"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in lisääminen Power Appsin tietolähteeksi
+## [!INCLUDE[prod_short](includes/prod_short.md)]in lisääminen Power Appsin tietolähteeksi
 
 1. Siirry selaimessa osoitteeseen [powerapps.microsoft.com](https://powerapps.microsoft.com/) ja kirjaudu sisään.
 2. Valitse aloitussivun **Aloita tiedoista** -osassa **Muut tietolähteet** -ruutu.  
@@ -49,9 +43,9 @@ Kun olet suunnitellut ja rakentanut sovelluseksi, voit jakaa sen kollegoidesi ka
 > [!NOTE]
 > Jos haluat yhdistää [!INCLUDE[prod_short](includes/prod_short.md)]iin paikallisesti, sinun täytyy valita  **Business Central (paikallinen)** yhdistin vaiheessa 3.  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/power-apps-power-automate-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/power-apps-power-automate-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Kaaviosovelluksen luominen Power Appsin mallista](/powerapps/maker/canvas-apps/get-started-test-drive)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  

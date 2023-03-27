@@ -1,23 +1,17 @@
 ---
 title: Nimikeseurannan nimikkeiden jäljittäminen
-description: Näet, missä nimikeseurannassa olevaa nimikettä on käytetty, mukaan lukien kuinka ja missä se oli vastaanotettu, tuotettu, tai palautettu, käyttäen nimikkeen jäljitys- ja etsi merkintöjä -ominaisuuksia.
+description: 'Näet, missä nimikeseurannassa olevaa nimikettä on käytetty, mukaan lukien kuinka ja missä se oli vastaanotettu, tuotettu, tai palautettu, käyttäen nimikkeen jäljitys- ja etsi merkintöjä -ominaisuuksia.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.forms: 6520,
+ms.search.keywords: null
+ms.search.forms: '6520,'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 584205dba5f8f7d566475ef9d13a97c25949545b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531834"
 ---
-# <a name="trace-item-tracked-items"></a>Nimikeseurannan nimikkeiden jäljittäminen
+# Nimikeseurannan nimikkeiden jäljittäminen
 
 Näet, missä nimikeseurannassa olevaa nimikettä on käytetty, mukaan lukien kuinka ja missä se oli vastaanotettu tai tuotettu, siirretty, myyty, kulutettu tai palautettu. Voit myös etsiä kaikki nykyiset esiintymät tietystä sarja- tai eränumerosta tietokannassa. Voit tehdä tämän käyttämällä nimikkeen jäljitystä ja [Etsi tapahtumat](ui-find-entries.md) -toimintoja.  
 
@@ -29,7 +23,7 @@ Nämä toiminnot ovat erityisen hyödyllisiä laaduntarkkailussa, kun haluat tie
 
  Kahta ominaisuutta voi käyttää yhdessä siirtämällä jäljitetty sarja- tai eränumero **Etsi tapahtumat** -sivulle viimeistelemään jäljitystilanne. <!-- For more information, see [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).   -->
 
-## <a name="to-trace-item-tracked-items"></a>Nimikeseurannan nimikkeiden jäljittäminen  
+## Nimikeseurannan nimikkeiden jäljittäminen  
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeen jäljitys** ja valitse sitten vastaava linkki.  
 2.  Anna sivun yläosan suodatinkenttiin tietyt nimikenumerot tai niiden nimikenumeroiden suodatin, joita haluat jäljittää.  
@@ -58,16 +52,16 @@ Nämä toiminnot ovat erityisen hyödyllisiä laaduntarkkailussa, kun haluat tie
 >   
 >  Etsi kohteen jäljitysrivejä, joissa tapahtumahistoria on jo jäljitetty, ja valitse **Siirry jo jäljitetty** -painike. Nimikkeen jäljitysrivi on valittu, ja kaikki pohjana olevat rivit on laajennettu.  
 
-## <a name="to-find-item-tracked-items-with-find-entries"></a>Voit etsiä nimikeseurannassa olevia nimikkeitä Etsi tapahtumat -toiminnolla  
+## Voit etsiä nimikeseurannassa olevia nimikkeitä Etsi tapahtumat -toiminnolla  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Etsi merkintöjä** ja valitse sitten vastaava linkki.  
 2. Valitse **Toiminnot** > **Etsi perusteella** > **Nimike viittauksen mukaan**.
 3. Anna **Sarjanumero**- ja **Eränro**-kenttiin nimikeseurantanumerot, joita haluat seurata.  
 4. Etsi kaikki sarja- tai eränumeron ilmentymät tietokannasta valitsemalla **Etsi**-toiminto.  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepare-item-tracking/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepare-item-tracking/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Varasto](inventory-manage-inventory.md)  
 [Sarja-, erä- ja pakettinumeroiden käsitteleminen](inventory-how-work-item-tracking.md)  

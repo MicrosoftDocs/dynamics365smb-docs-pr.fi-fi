@@ -3,22 +3,16 @@ title: Business Central Onlinen mukauttaminen sovellusten avulla
 description: Lisätietoja toimintojen lisäämisestä ja Business Central -sovelluksen mukauttamisesta sovellusten asentamisen avulla on tässä artikkelissa.
 author: edupont04
 ms.topic: conceptual
-ms.search.keywords: app, add-in, manifest, customize
-ms.search.form: 2500, 2502, 20350, 20353
+ms.search.keywords: 'app, add-in, manifest, customize'
+ms.search.form: '2500, 2502, 20350, 20353'
 ms.date: 09/27/2022
 ms.author: edupont
-ms.openlocfilehash: 5b0744394201e11534f19c25999af0da0944ec9b
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605682"
 ---
-# <a name="customizing-business-central-online-with-apps"></a>Business Central Onlinen mukauttaminen sovellusten avulla
+# Business Central Onlinen mukauttaminen sovellusten avulla
 
 Voit muuttaa [!INCLUDE[prod_short](includes/prod_short.md)] onlinea asentamalla sovelluksia, jotka sisältävät lisätoimintoja, muuttavat toimintaa tai mahdollistavat esimerkiksi uusien verkkopalveluiden käyttämisen. Nämä sovellukset ovat niin sanottuja *laajennuksia*, koska ne *laajentavat* [!INCLUDE [prod_short](includes/prod_short.md)]ia.
 
-## <a name="manage-apps"></a>Sovellusten hallinta
+## Sovellusten hallinta
 
 Kun käynnistät [!INCLUDE[prod_short](includes/prod_short.md)]in ensimmäisen kerran, se sisältää joitakin valmiiksi asennettuja sovelluksia. Ajan kuluessa käytettävissä on yhä enemmän sovelluksia. Voit ottaa niitä käyttöön tarpeen mukaan.
 
@@ -53,7 +47,7 @@ Osa on Microsoftin sovelluksia, osa [muiden yritysten](ui-extensions-other.md) s
 > [!NOTE]  
 > Voit pitää silmällä Microsoftin ja muiden toimittajien uusia sovelluksia osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
-## <a name="apps-and-data-transfer"></a>Sovellukset ja tietojen siirto
+## Sovellukset ja tietojen siirto
 
 Koska seuraavia sovelluksia käytetään viestintään muiden palvelujen kanssa, ne saattavat siirtää tietoja [!INCLUDE[prod_short](includes/prod_short.md)] -ympäristön maantieteellisen alueen ulkopuolelle:
 
@@ -73,7 +67,7 @@ Tämä koskee myös joitakin perussovelluksen toimintoja, kuten seuraavia ominai
 * Online-kartta
 * EU:n ALV-nron tarkistuksen Palvelu
 
-## <a name="connect-your-business"></a>Yhdistä yrityksesi
+## Yhdistä yrityksesi
 
 Vuoden 2022 2. julkaisuaallossa [!INCLUDE [prod_short](includes/prod_short.md)] online -ympäristöt voivat sisältää vähintään yhden sovelluksen **Yhteyssovellukset**- ja **Pankkisovellukset**-sivuilla. Nämä sovellukset voivat muodostaa yhteyden yrityksesi ulkoisiin palveluihin tuottavuuden lisäämiseksi automatisoimalla prosesseja. Voit esimerkiksi muodostaa yhteyden pankkeihin ja tuoda automaattisesti pankkitapahtumia. Sovellukset on helppo asentaa ja määrittää suoraan tällä sivulla. Valitse sovellus, jonka ominaisuuksista ja hinnoittelusta haluat lisätietoja.  
 
@@ -84,16 +78,16 @@ Tarkastele ehdotettujen sovellusten luetteloa valitsemalla **Yhteyssovellukset**
 
 Tämä ulkoinen palvelu luo luettelon liittyvistä sovelluksista maasi tai alueesi perusteella
 
-## <a name="recommended-apps"></a>Suositellut sovellukset
+## Suositellut sovellukset
 
 Microsoft-kumppanit ja -jälleenmyyjät voivat luoda sovelluksia, joita he voivat käyttää sellaisten sovellusten luetteloiden laatimiseen, joita he usein suosittelevat asiakkailleen. Jos näin tehdään, ja sovellus on otettu käyttöön vuokraajassasi, sovellukset ovat käytettävissä **Suositellut sovellukset** -sivulla. Siellä voit lukea kustakin sovelluksesta ja päättää, asennetaanko se.
 
 > [!NOTE]
 > Jos olet Microsoft-kumppani tai -jälleenmyyjä ja olet kiinnostunut tarjoamaan luettelon suositelluista sovelluksista, katso [Suositellut sovellukset AppSourcesta](/dynamics365/business-central/dev-itpro/administration/recommend-apps) -kohta hallintosisällössä.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/customize-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/customize-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Sovellusten asentaminen ja asennusten poistaminen](ui-extensions-install-uninstall.md)  
 [Business Centralin mukauttaminen](ui-customizing-overview.md)  

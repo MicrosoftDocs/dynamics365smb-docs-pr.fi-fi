@@ -1,109 +1,109 @@
 ---
 title: Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista
-description: Kokoonpanonimikkeet voidaan toimittaa kokoamalla ne tilauksen yhteydessä tai kokoamalla ne varastoon odottamaan myyntitilausta.
+description: Tietoja nimikkeiden kokoamisesta myyntitilauksiin tai varastoitavaksi tulevaa myyntiä varten.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: kit, kitting
-ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
-ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3d99c3ae307d8f0e4324fd14d86bddc85a916fcd
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605405"
+ms.reviewer: andreipa
+ms.topic: conceptual
+ms.date: 02/21/2023
+ms.custom: bap-template
+ms.search.keywords: 'kit, kitting'
+ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista
+# Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista
 
-Kokoonpanon osat voidaan toimittaa seuraavaan kahteen prosessiin:  
+[!INCLUDE [prod_short](includes/prod_short.md)] sallii kokoonpanon nimikkeiden toimittamisen seuraavilla tavoilla:
 
--   Kokoonpano tilausta varten.  
--   Kokoonpano varastoon.  
+* Kokoonpano tilausta varten  
+* Kokoonpano varastoon  
 
-## <a name="assemble-to-order"></a>Kokoonpano tilausta varten
+## Kokoonpano tilausta varten
 
-Käytät yleensä *Kokoonpano tilausta varten* nimikkeille, joita et halua varastoida, koska oletat mukauttavasti ne asiakkaan pyyntöjä astaaviksi tai koska haluat pienentää varastokustannuksia toimittamalla juuri ajoissa. Tukitoimintoja ovat seuraavat:  
+Tilausta kokoonpanoa varten käytetään nimikkeissä, joita ei haluta varastoida. Syy tähän voi olla esimerkiksi jokin seuraavista:
 
--   Kyky mukauttaa kokoonpanon nimikkeet myyntitilauksen ottamisen yhteydessä.  
--   Yleiskuvaus kokoonpanonimikkeen ja sen komponenttien saatavuudesta.  
--   Kyky varata kokoonpanon osat heti, jotta tilauksen toteutuminen voidaan taata.  
--   Funktio, jota käytetään mukautetun tilauksen kannattavuuden määrityksessä hinnan ja kustannuksen vyörytyksen avulla.  
--   Integrointi fyysiseen varastoon kokoonpanon ja toimituksen helpottamiseksi.  
--   Kyky koota tilaus myyntitarjouksen tai puitetilauksen yhteydessä.  
--   Kyky yhdistää varastomäärät kokoonpano tilausta varten -määrien kanssa.  
+* Nimikkeet mukautetaan asiakkaiden vaatimusten mukaisesti.
+* Varastointikulut halutaan pitää mahdollisimman pieninä.
 
-Kokoonpano tilausta varten -käsittelyssä nimike kootaan vastauksena myyntitilaukseen ja kahdenvälisenä kokoonpanotilauksen ja myyntitilauksen välisenä linkkinä.  
+Seuraavassa luettelossa on joitakin tilausten varten kokoamisprosessin etuja:  
 
-Kun syötät myyntiriville kokoonpano tilausta varten nimikkeen, kokoonpanotilaus luodaan automaattisesti otsikolla, joka perustuu myyntiriviin ja riveillä, jotka perustuvat nimikkeen kokoonpanon tuoterakenteeseen kerrottuna tilausmäärällä. Voit käyttää **Kokoonpano tilausta varten -rivit** -sivua nähdäksesi linkitetyt kokoonpanotilausrivit tukeaksesi muokkaamaan kokoonpanon nimikettä ja toimituspäivää, joka perustuu osan saatavuustietoihin. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md).  
+* Kokoonpanon nimikkeet mukautetaan myyntitilauksen yhteydessä.  
+* Kokoonpanon nimikkeen ja sen komponenttien yleinen saatavuus.  
+* Kokoonpanon komponenttien varaaminen heti varmistaa tilauksen täyttämisen.  
+* Mukautetun tilauksen kannattavuus määritetään koostamalla hinta ja kustannukset.  
+* Integrointi fyysiseen varastoon helpottaa kokoonpanoa ja toimitusta.  
+* Kokoonpano tilausta varten myyntitarjousta tai puitemyyntitilausta luotaessa.  
+* Varastomäärien ja tilausta varten koottavien määrien yhdistäminen.  
 
-> [!NOTE]  
->  Vaikka se ei ole osa oletusprosessia, voit myydä varastomääriä kokoonpano tilausta varten -määrillä. Lisätietoja on kohdassa [Varastonimikkeiden myyminen Kokoonpano tilausta varten -työnkuluissa](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
+Kun prosessina on kokoonpano tilausta varten, myyntitilauksen nimikkeet kootaan. Kokoonpanotilauksen ja myyntitilauksen välillä on yksi yhteen -linkki.  
 
- Ottaaksesi tämän prosessin käyttöön **Kokoonpanokäytäntö** -kentän nimikekortissa on oltava **Kokoonpano tilausta varten**.  
-
-## <a name="assemble-to-stock"></a>Kokoonpano varastoon
-
- Käytät yleensä *kokoonpano varastoon* nimikkeille, jotka haluat koota ennen myyntiä, kuten valmistauta kampanjapakettiin ja pitää varastossa, kunnes ne on tilattu. Nämä kohteet ovat yleensä vakiokohteita, kuten pakattuja sarjoja, joita ei tarjota asiakkaalle heidän pyyntöjensä mukauttamiseksi.  
-
- Kokoonpano varastoon -käsittelyssä nimike kootaan ilman välitöntä myyntikysyntää ja varastoidaan fyysiseen varastoon varastonimikkeenä myöhempää myyntiä varten tai osakokoonpanona kulutettavaksi. Lisätietoja on kohdassa [Nimikkeiden kokoaminen](assembly-how-to-assemble-items.md). Tästä eteenpäin nimike poimitaan ja sitä käsitellään yksittäisenä nimikkeenä. Sitä kohdellaan valmiina tuotantonimikkeenä.  
-
- Kun syötät myyntiriville kokooknpano varastoon nimikkeen, kuten minkä tahansa muun nimikkeen, joka on myyty varastosta. Esimerkiksi saatavuus tarkistetaan vain kokoonpanon nimikkeen osalta.  
+Kun tilausta varten koottava nimike syötetään myyntitilausriville, kokoonpanotilaus luodaan automaattisesti. Kokoonpanotilaus perustuu myyntiriviin, ja sen rivit perustuvat nimikkeen kokoonpanon tuoterakenteeseen. Kokoonpanon tuoterakenteen komponenttien määrä kerrotaan tilauksen määrällä. **Kokoonpano tilausta varten -rivit** -sivulla on tietoja linkitetyissä kokoonpanotilauksen riveistä. Tiedot voivat auttaa mukauttamaan kokoonpanon nimikettä. Toimituspäivä perustuu komponenttien saatavuuteen. Lisätietoja nimikkeiden kokoamisesta myyntitilaukseen on kohdassa [Tilauksen mukaan koottujen nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md).  
 
 > [!NOTE]  
->  Vaikka se ei ole osa oletusprosessia, voit koota nimikkeen tilattavaksi, vaikka se on määritetty kokoonpantavaksi varastoon. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden ja -varastonimikkeiden myyminen yhdessä](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
+> Vaikka kyse ei ole oletusprosessin osasta, varastomääriä ja tilausta varten koottuja määriä voidaan myydä samassa myyntitilauksessa. Lisätietoja varastoitujen ja tilausta varten koottujen nimikkeiden yhdistämisestä on kohdassa [Varastonimikkeiden myyminen kokoonpano tilausta varten -työnkuluissa](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
- Ottaaksesi tämän prosessin käyttöön **Kokoonpanokäytäntö** -kentän nimikekortissa on oltava **Kokoonpano varastoon**.  
+Nimike määritetään tilausta varten koottavaksi valitsemalla nimikkeen **Nimikekortti**-sivun **Kokoonpanokäytäntö**-kentässä **Kokoonpano tilausta varten**.  
 
-## <a name="combination-scenarios"></a>Skenaarioiden yhdistelmä
+## Kokoonpano varastoon
 
- Kokoonpanon hallinnan yleinen periaate on se, että yhdistettäessä myyntitilauksen riville, kokoonpano tilausta varten on lähetettävä ennen varaston määriä.  
+Kokoonpano varastoon -prosessia käytetään nimikkeissä, jotka kokoonpannaan ja varastoidaan tulevaa myyntiä varten. Varastoon kokoonpantavat nimikkeet ovat vakionimikkeitä, kuten tuotepaketteja, joita ei mukauteta. Näitä nimikkeitä voidaan kuluttaa myös alikokoonpanon komponentteina. Nämä nimikkeet poimitaan ja niitä käsitellään yksittäisenä nimikkeinä, jotka katsotaan valmistuneiksi tuotantonimikkeiksi. Lisätietoja kokoonpanon nimikkeistä on kohdassa [Nimikkeiden kokoaminen](assembly-how-to-assemble-items.md).  
 
- Jos kokoonpanotilaus on linkitetty myyntitilauksen riville, tilausrivin **Kokoonpantava määrä tilausta varten** -kentän arvo kopioidaan **Kokoonpantava määrä** -kenttään kokoonpanotilauksen otsikon **Määrä** -kentän välityksellä. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md).  
+Kun myyntiriville määritetään varastoon koottava nimike, nimikettä käsitellään samoin kuin muitakin varastosta myytäviä nimikkeitä. [!INCLUDE [prod_short](includes/prod_short.md)] esimerkiksi tarkistaa vain kootun nimikkeen, ei sen komponenttien saatavuuden.  
 
- Lisäksi **Kokoonpantava määrä** -kentän arvo liittyy myyntitilausrivin **Toimitettava määrä** -kenttään. Tämä suhde hallitsee Kokoonpano tilausta varten -määrien toimitusta sekä osittaisen että koko määrän toimituksessa. Tämä pätee sekä silloin, kun koko myyntirivin määrä kootaan tilauksesta, että yhdistelmätilanteissa, jossa osa myyntirivin määrää kootaan tilauksesta ja toinen osa toimitetaan varastosta. Yhdistelmätilanne on kuitenkin joustava, kun toimitus tehdään osissa. Voit muokata **Kokoonpantava määrä** -kenttää ennalta määritettyjen sääntöjen mukaisesti ja määrittää, miten monta yksikköä toimitetaan osittain varastosta ja miten monta yksikköä kokoonpano tilausta varten -menetelmällä.  
+> [!NOTE]  
+> Vaikka kyse ei ole oletusprosessin osasta, nimike voidaan koota tilaukseen, vaikka se olisi määritetty varastoon koottavaksi. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden ja varastonimikkeiden myyminen yhdessä](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md)  
 
- Jos myyntirivin koko määrä on koottava tilausta varten ja toimitettava, **Toimitettava määrä** -kentän arvo kopioidaan linkitetyn kokoonpanotilauksen **Kokoonpantava määrä** -kenttään toimitettavan määrän muuttuessa. Tämä varmistaa, että toimitettu määrä on täysin kokoonpano tilausta varten -määrän mukainen.   
+Nimike määritetään varastoon koottavaksi valitsemalla nimikkeen **Nimikekortti**-sivun **Kokoonpanokäytäntö**-kentässä **Kokoonpano varastoon**.  
 
- Yhdistelmätilanteissa **Toimitettava määrä** -kentän koko arvoa ei kuitenkaan kopioida kokoonpanotilauksen otsikon **Kokoonpantava määrä** -kenttään. Sen sijaan oletusarvo lisätään **Kokoonpantava määrä** -kenttään, joka lasketaan **Toimitettava määrä** -kentästä ennalta määritetyn säännön mukaan. Se varmistaa Kokoonpano tilausta varten -määrien toimittamisen ensin.  
+## Yhdistelmäskenaariot
 
- Jos haluat muuttaa oletusarvoa, koska haluat esimerkiksi suurentaa tai pienentää kokoonpanon määrää **Toimitettava määrä** -kentässä, voit muokata **Kokoonpantava määrä** -kenttää alla olevien ennalta määritettyjen sääntöjen mukaisesti.  
+Kun tilausta varten kootut määrät ja varastomäärät yhdistetään myyntirivillä, tilausta varten kootut on toimitettava ensimmäisenä.  
 
- Voit esimerkiksi muokata kokoonpanomäärää, jos haluat kirjata varastomäärän toimituksen osittain, ennen kuin koko kokoonpanomäärä voidaan toimittaa.  
+Jos kokoonpanotilaus on linkitetty myyntitilauksen riville, myyntitilausrivin **Kokoonpantava määrä tilausta varten** -kentän arvo kopioidaan **Kokoonpantava määrä** -kenttään kokoonpanotilauksen **Määrä**-kentän välityksellä. Lisätietoja on kohdassa [Tilausta varten kokoonpantavien nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md).  
 
- Seuraavissa taulukoissa käsitellään sääntöjä, joilla määritetään pienin ja suurin **Kokoonpantava määrä** -kenttään annettava arvo, kun halutaan poiketa yhdistelmätilanteen oletusarvosta. Taulukossa näkyy yhdistelmätilanne, jossa linkitetyn myyntitilausrivin arvo **Toimitettava määrä** -kentässä muutetaan 7:stä 4:ksi, ja **Kokoonpantava määrä** -oletusarvoksi tulee sen vuoksi 4.  
+**Kokoonpantava määrä** -kentän arvo liittyy myyntitilausrivin **Toimitettava määrä** -kentän arvoon. Tämä suhde määrittää, miten tilausta varten kokoonpantava määrät toimitetaan osittain tai kokonaan:
 
-- Myyntitilausrivi
+* Myyntitilausrivin koko määrä kootaan tilausta varten
+* Yhdistelmäskenaarioissa osa määrästä kokoonpannaan tilausta varten ja osa toimitetaan varastosta.
 
-    |                | **määrä** | **Toimitettava määrä** | **Kokoonpantava määrä tilausta varten** | **Toimitettu määrä** |
-    |----------------|--------------|------------------|-------------------------------|----------------------|
-    |**Alkuarvo**| 10          | 7                | 7                             | 0                    |
-    |**Muutos**      |              | 4                |                               |                      |
+Yhdistelmäskenaario mahdollistaa joustavat osittaiset toimitukset. **Kokoonpantava määrä** -kentän avulla voidaan määrittää määrä, joka toimitetaan osittain varastosta ja osittain tilausta varten kokoonpantuna.  
 
-- Kokoonpanotilauksen otsikko
+Jos myyntirivin koko määrä on kokoonpantava tilausta varten ja toimitettava, **Toimitettava määrä** -kentän arvo kopioidaan linkitetyn kokoonpanotilauksen **Kokoonpantava määrä** -kenttään toimitettavan määrän muuttuessa. Tämä päivitys varmistaa, että toimitettu määrä on täysin tilausta varten kokoonpannun määrän mukainen.   
 
-    |                | **määrä** | **Toimitettava määrä** | **Kokoonpantava määrä tilausta varten** | **Toimitettu määrä** |
-    |----------------|--------------|------------------|-------------------------------|----------------------|
-    |**Alkuarvo**| 7           | 7                | 0                             | 7                    |
-    |**Muutos**      |              | 4 (lisätään oletusarvon mukaan)|                         |                      |
+Yhdistelmäskenaarioissa **Toimitettava määrä** -kentän koko arvoa ei kuitenkaan kopioida kokoonpanotilauksen **Kokoonpantava määrä** -kenttään. Oletusarvo lisätään sen sijaan **Kokoonpantava määrä** -kenttään. Arvo lasketaan **Toimitettava määrä** -kentästä, mikä varmistaa, että tilausta varten kokoonpantavat määrät toimitetaan ensin.
 
-Tämän esimerkin perusteella voit muuttaa vain **Kokoonpantava määrä** -kentän seuraavasti:  
+Oletusarvosta poikkeaminen esimerkiksi siksi, että kokoonpantavan määrän halutaan olevan suurempi tai pienempi kuin **Toimitettava määrä** -kentässä oleva määrä, **Kokoonpantava määrä** -kenttää voi muokata ennalta määritettyjen sääntöjen mukaisesti seuraavan kuvan tavoin.  
 
-- Pienin määrä, joka voidaan syöttää on 1. Tämä johtuu siitä, että ainakin yksi yksikkö on koottava, jotta voit myydä neljä yksikköä, olettaen, että loput kolme ovat saatavilla varastossa.  
-- Suurin määrä, joka voidaan syöttää on 4. Näin varmistetaan, että tilaukselle ei koota enempää nimikkeitä kuin mitä myyntiin tarvitaan.  
+Kokoonpantavaa määrää voitaisiin muokata esimerkiksi siksi, että varastomäärien toimituksen osakirjaus halutaan tehdä on kokoonpanon tuotoksen toimittamista.  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/assemble-items-dynamics-365-business-central/)
+Seuraavissa taulukoissa käsitellään sääntöjä, joilla määritetään pienin ja suurin **Kokoonpantava määrä** -kenttään annettava arvo, kun halutaan poiketa yhdistelmätilanteen oletusarvosta. Taulukossa näkyy yhdistelmätilanne, jossa linkitetyn myyntitilausrivin arvo **Toimitettava määrä** -kentässä muutetaan 7:stä 4:ksi, ja **Kokoonpantava määrä** -oletusarvoksi tulee sen vuoksi 4.  
 
-## <a name="see-also"></a>Katso myös
+**Myyntitilausrivi**
+
+|                | **määrä** | **Toimitettava määrä** | **Kokoonpantava määrä tilausta varten** | **Toimitettu määrä** |
+|----------------|--------------|------------------|-------------------------------|----------------------|
+|**Alkuarvo**| 10          | 7                | 7                             | 0                    |
+|**Muutos**      |              | 4                |                               |                      |
+
+**Kokoonpanotilauksen otsikko**
+
+|                | **määrä** | **Toimitettava määrä** | **Kokoonpantava määrä tilausta varten** | **Toimitettu määrä** |
+|----------------|--------------|------------------|-------------------------------|----------------------|
+|**Alkuarvo**| 7           | 7                | 0                             | 7                    |
+|**Muutos**      |              | 4 (lisätään oletusarvon mukaan)|                         |                      |
+
+Tämän esimerkin perusteella **Kokoonpantava määrä** -kenttää voidaan muuttaa seuraavasti:  
+
+* Pienin syötettävä määrä on 1. Vähintään yksi yksikkö on koottava, jotta neljän yksikön myynti on mahdollista, olettaen, että loput kolme ovat saatavana varastossa.  
+* Suurin määrä, joka voidaan syöttää on 4. Tämä raja varmistaa, että kokoonpantavien nimikkeiden määrä ei ylitä myyntiin tarvittavaa määrää.  
+
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/assemble-items-dynamics-365-business-central/)
+
+## Katso myös
 
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Kokoonpanon tuoterakenteiden käyttäminen](assembly-how-work-assembly-boms.md)  
 [Varasto](inventory-manage-inventory.md)  
-[Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
-[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Varastonhallinnan yleiskatsaus](design-details-warehouse-management.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

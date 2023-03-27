@@ -1,6 +1,6 @@
 ---
 title: Liittyvien tapahtumien etsiminen asiakirjoista
-description: Tutustu asiakirjojen, työyhteyshenkilöiden ja toisiinsa liittyvien nimiketapahtumien etsimiseen.
+description: 'Tutustu asiakirjojen, työyhteyshenkilöiden ja toisiinsa liittyvien nimiketapahtumien etsimiseen.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -10,14 +10,8 @@ ms.search.keywords: find
 ms.search.form: 344
 ms.date: 05/23/2022
 ms.author: jswymer
-ms.openlocfilehash: ae1ae9293530a36a635af48e1711f502b64add4d
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822451"
 ---
-# <a name="finding-related-entries-for-documents"></a>Liittyvien tapahtumien etsiminen asiakirjoista
+# Liittyvien tapahtumien etsiminen asiakirjoista
 
 Opi etsimään toisiinsa liittyviä asiakirjoja ja tapahtumia yhteisten tietojen osan perusteella, esimerkiksi:
 
@@ -27,9 +21,9 @@ Opi etsimään toisiinsa liittyviä asiakirjoja ja tapahtumia yhteisten tietojen
 
 Tämä ominaisuus on hyödyllinen etsittäessä tietyistä tapahtumista syntyneitä tapahtumia. Kun etsit asiakirjan numeroiden perusteella, voit myös tulostaa yhteenvedon **Asiakirjatapahtumat**-raportista.
 
-## <a name="get-started"></a>Aloittaminen
+## Aloittaminen
 
-Tapahtumahakutoiminto on helposti käytettävissä melkein millä tahansa sivulla näppäinyhdistelmällä Ctrl + Alt + Q. Sivuilla, jotka näyttävät nimenomaisesti kirjattuja asiakirjoja tai kirjattuja asiakirjatapahtumia &mdash; sekä luettelojen että korttien osalta &mdash;, voit avata toiminnon myös valitsemalla **Hae tapahtumia** -toiminnon.
+Tapahtumahakutoimintoa on helppo käyttää käytännössä sivulla kuin sivulla näppäinyhdistelmällä <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>. Sivuilla, jotka näyttävät nimenomaisesti kirjattuja asiakirjoja tai kirjattuja asiakirjatapahtumia &mdash; sekä luettelojen että korttien osalta &mdash;, voit avata toiminnon myös valitsemalla **Hae tapahtumia** -toiminnon.
 
 **Etsi tapahtumat** -sivu sisältää kaikki asiaan liittyvät asiakirjat ja tapahtumat asiakirjan nro-kentän ja kirjauspäivämäärän perusteella. Sivu jakautuu kolmeen osaan:
 
@@ -37,7 +31,7 @@ Tapahtumahakutoiminto on helposti käytettävissä melkein millä tahansa sivull
 - Keskimmäisessä osassa näkyvät hakuun perustuvat asiakirjat.
 - Alemmassa osassa on tietoja hakuohjelman löytämästä lähdeasiakirjasta.
 
-## <a name="search-for-entries"></a>Hae tapahtumia
+## Hae tapahtumia
 
 Voit hakea tapahtumia joko asiakirjan, työyhteyshenkilön tai nimikeviittauksen tietojen perusteella. Valitse yläosassa jokin seuraavista vaihtoehdoista sen mukaan, minkä tyyppistä tieto on:
 
@@ -52,9 +46,9 @@ Kun olet tehnyt valinnan, syötä asianmukaiset hakutiedot sivun yläreunan kent
 > [!TIP]
 > Pari esimerkkiä **Hae tapahtumia** -toiminnon käyttämisestä on kohdassa [Jäljitä nimike-seuratut nimikkeet](inventory-how-to-trace-item-tracked-items.md) ja [vaihekuvaus: sarja-eränumeroiden jäljittäminen](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/user-interface-dynamics-365-business-central/index)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/user-interface-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Nimikeseurannan nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)  
 [Sellaisten kirjattujen asiakirjojen etsiminen, joilla ei ole saapuvia asiakirjatietueita](across-how-find-posted-documents-without-income-document-records.md)  

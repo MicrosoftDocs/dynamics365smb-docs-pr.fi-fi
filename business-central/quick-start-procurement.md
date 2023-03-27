@@ -1,27 +1,22 @@
 ---
 title: Hankinnan pika-aloitus (sisältää videon)
-description: Opettele täyttämään ensimmäiset kriittiset kentät, jotka koskevat toimittajia Business Centralissa, jotta voit aloittaa tuotteiden ja palveluiden ostamisen.
+description: 'Opettele täyttämään ensimmäiset kriittiset kentät, jotka koskevat toimittajia Business Centralissa, jotta voit aloittaa tuotteiden ja palveluiden ostamisen.'
 author: jill-kotel-andersson
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.search.form: 26, 27, 50, 56
+ms.search.form: '26, 27, 50, 56'
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: d5ec92099a7439bfb9a059105b0f1ce377534117
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128737"
 ---
-# <a name="procurement-quick-start"></a>Hankinnan pika-aloitus
+
+# Hankinnan pika-aloitus
 
 Jotta voisit ostaa tuotteita ja palveluita, sinun täytyy ensin määrittää toimittajat. Kun tämä on tehty, voit aloittaa ostotilausten rekisteröimisen ja laskujen vastaanottamisen.  
 
-## <a name="set-up-vendors"></a>Toimittajien määrittäminen
+## Toimittajien määrittäminen
 
 Seuraavassa videossa kerrotaan, miten voit määrittää toimittajan [!INCLUDE[prod_short](includes/prod_short.md)]issa.
 
@@ -29,13 +24,13 @@ Seuraavassa videossa kerrotaan, miten voit määrittää toimittajan [!INCLUDE[p
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-### <a name="set-up-a-new-vendor"></a>Uuden toimittajan määrittäminen
+### Uuden toimittajan määrittäminen
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
 Lisätietoja ja muita asioita, joita voit tehdä toimittajien rekisteröimiseksi, on ohjeaiheessa [Uusien toimittajien rekisteröinti](purchasing-how-register-new-vendors.md).  
 
-## <a name="create-new-purchase-orders"></a>Luo uusia ostotilauksia
+## Luo uusia ostotilauksia
 
 Kun ostat jotain toimittajalta sinulla on kaksi vaihtoehtoa. Ensimmäinen ja yksinkertaisin on vain ostolaskun luominen. Ostotilauksia on kuitenkin käytettävä, jos ostoprosessi vaatii tilausmäärän osittaisten vastaanottojen tallentamisen esimerkiksi silloin, kun koko määrä ei ole kerralla toimittajan käytettävissä.
 
@@ -45,7 +40,7 @@ Seuraavassa videossa kerrotaan, miten voit luoda ostotilauksen [!INCLUDE[prod_sh
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
-### <a name="to-create-a-purchase-order"></a>Ostotilauksen luominen  
+### Ostotilauksen luominen  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten vastaava linkki.  
 
@@ -71,11 +66,11 @@ Seuraavassa videossa kerrotaan, miten voit luoda ostotilauksen [!INCLUDE[prod_sh
 
 Lisätietoja ja muita asioita, joita voit tehdä ostotilauksen luonnin yhteydessä, on kohdassa [Osto](purchasing-manage-purchasing.md).  
 
-## <a name="create-a-purchase-invoice"></a>Luo ostolasku  
+## Luo ostolasku  
 
 Voit luoda ostolaskun ostojen kustannusten tallentamiseksi ja ostoreskontran seuraamiseksi. Ostolaskun luominen on samanlaista kuin ostotilauksen luominen.
 
-### <a name="how-to-create-and-post-a-purchase-invoice"></a>Ostolaskun luominen ja kirjaaminen  
+### Ostolaskun luominen ja kirjaaminen  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 3.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten vastaava linkki.  
 2. Luo uusi ostolasku valitsemalla **Ostolasku**-sivulla **Uusi**-toiminto.
@@ -100,7 +95,7 @@ Osto vaikuttaa nyt varastoon, resurssitapahtumiin ja taloustietueisiin, ja myyj�
 
 Lisätietoja ja muita asioita, joita voit tehdä ostolaskun luonnin yhteydessä, on kohdassa [Ostojen rekisteröiminen ostolaskuilla](purchasing-how-record-purchases.md).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Business Centralin pika-aloitus](quick-start-business-central.md)  
 [Oston yleiskuvaus](Purchasing-manage-purchasing.md)  

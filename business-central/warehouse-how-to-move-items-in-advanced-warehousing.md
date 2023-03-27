@@ -1,64 +1,151 @@
 ---
-title: Nimikkeiden siirtäminen laajennetussa varastomäärityksessä
-description: Tässä aiheessa selitetään, miten vanhempi työntekijä voi järjestää nimikkeiden siirtämisen laajennetuissa fyysisen varaston määrityksissä – koskee sijainteja, joissa on suunnattu hyllytys ja poiminta.
-author: SorenGP
+title: Nimikkeiden siirtäminen ohjattua hyllytystä ja poimintaa käyttävissä fyysisissä varastoissa
+description: Tässä artikkelissa käsitellään nimikkeiden siirtämistä ohjattua hyllytystä ja poimintaa käyttävissä sijainneissa.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 7351
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 1c1f86cae4ad411efe21453d58761b436bb7470d
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532509"
+ms.date: 02/22/2023
+ms.custom: bap-template
+ms.search.form: '7351,'
 ---
-# <a name="move-items-in-advanced-warehouse-configurations"></a>Nimikkeiden siirtäminen laajennetuissa varastomäärityksissä
 
-Fyysisen varaston laajennetuissa määrityksissä eli sijainneissa, joissa on käytössä ohjattu hyllytys ja poiminta, fyysisen varaston siirrot varastopaikkojen välillä suorittaa johtava työntekijä. Hän valmistelee fyysisen varaston siirrot fyysisen varaston työkirjaan ja luo varastotyöntekijöille suoritettavat fyysisen varaston siirrot.  
+# Nimikkeiden siirtäminen ohjattua hyllytystä ja poimintaa käyttävissä fyysisen varastoinnin laajennetuissa määrityksissä
 
-## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Siirrä nimikkeitä fyysisen varastoinnin siirtotyökirjan kanssa
+Nimikkeitä voidaan varastopaikkojen välillä ilman lähdeasiakirjasta peräisin olevaa kysyntää. Näin voidaan toimia esimerkiksi seuraavien toimintojen osana:
 
-**Siirtotyökirja**-sivulla on kaksi toimintoa, jotka auttavat rivien automaattisessa täyttämisessä. Ensimmäinen näistä on **Laske varastopaikan täydennys** -toiminto. Tämä toiminto ehdottaa täydennystä korkean luokittelun varastopaikoista matalamman luokittelun varastopaikkoihin. Toinen toiminto on **Hae var.paikan sisältö**-toiminto, joka täyttää työkirjan riveille määrittämiesi varastopaikkojen koko sisällön.
+* Fyysisen varaston järjestäminen uudelleen.
+* Nimikkeiden tuominen tarkastusalueelle.
+* Nimikkeiden poistaminen väliaikaisesti fyysisen varastoinnin poimintavarastopaikoista esimerkiksi myyntiesittelyyn esittelykappaleiksi.
+* Ylimääräisten nimikkeiden siirtäminen tuotantoalueelle, jos kyse on jollakin materiaaliottomenetelmällä määritetyistä komponenteista.
+* Tuotettujen tai koottujen nimikkeiden siirtäminen tuotanto- tai kokoonpanoalueelta fyysiseen varastoon.
+* Nimikkeiden siirtäminen irtotavaran varastointialueelta poimintaa käytettyihin varastopaikkoihin.
 
-1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston siirron työkirja** ja valitse sitten liittyvä linkki.  
-2.  Kirjoita työkirjan riveille asianmukaiset f. varaston siirtotiedot.  
-3. Luo fyysisen varaston siirtoasiakirja **Luo siirto** -toiminto. Voit sitten rekisteröidä asiakirjan, kun fyysisen varaston siirto on valmis.  
+Nimikkeiden siirtäminen määräytyy sen mukaan, miten fyysinen varasto on määritetty sijaintina. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).
 
-### <a name="to-register-the-warehouse-movement"></a>F. varasoinnin siirron rekisteröinti
+Niissä fyysisen varaston määrityksissä, joissa **Ohjattu poiminta ja hyllytys** on otettu sijainneissa käyttöön vaihtopainikkeilla, suunnittelemattomat varastosiirrot voidaan rekisteröidä seuraavilla sivuilla:  
 
-1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Var.siirrot** ja valitse sitten vastaava linkki.  
-2.  Avaa fyysisen varastoinnin siirto, jota haluat käsitellä.  
-3.  Määritä **Aseta**-toimintotyypin riveillä missä, mitä ja minne kyseessä oleva nimike siirretään, muokkaamalla kenttiä **Alueen koodi**, **Varastopaikan koodi**, **Käsiteltävä määrä** tai **Eräpäivä**.  
+* Siirtotyökirja
+* Fyysisen varaston sisäinen poiminta
+* Fyysisen varaston sisäinen hyllytys
+* F.var. uudelleenluokit. pvk:t
 
-    Jos fyysinen varastointi on määritetty siten, että varastopaikkakoodit noudattavat varaston fyysistä järjestystä, voit ottaa useiden nimikkeiden määriä peräkkäisistä irtotavaran varastopaikoista ja asettaa ne sitten edelleen poiminnan varastopaikkoihin, jotka myös voivat olla lähekkäin.  
-4.  Määritä **Ota**-toimintotyypin rivien **Käsiteltävä määrä** -kentässä varastopaikan sisällön osittainen määrä, jonka haluat siirtää. Kaikki muut kentät, joilla on toiminnon tyyppi **Ota**, ovat vain luku -tilassa.  
-5.  Siirrä kaikki ehdotetut määrät määritysten mukaisesti valitsemalla **Määrä**-kentässä **Täytä autom. käsiteltävä määrä** -toiminto.  
+**Siirtotyökirja**-, **Fyysisen varaston sisäinen poiminta**- ja **Fyysisen varaston sisäinen hyllytys** -sivut toimivat samalla tavoin. Varastotoimintoja voi valmistella näillä sivuilla varastotyöntekijöille. Erot muodostuvat kuhunkin sivuun liitettyjen lisätoimintojen sekä eri työntekijöiden todennäköisesti suorittamien erilaisten varastotoimintojen vuoksi:
+
+* Siirtotyökirjan avulla voidaan täyttää korkealle luokiteltuja poiminnan varastopaikkoja muiden varastopaikkojen nimikkeillä
+* Hyllytykset käyttävät hyllytysmalleja
+* Poiminta käyttää varastopaikkojen luokittelua ja saatavuutta
+
+## Fyysisen varaston siirtotyökirja
+
+### Siirrä nimikkeitä fyysisen varastoinnin siirtotyökirjan kanssa
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston siirron työkirja** ja valitse sitten liittyvä linkki.  
+2. Työkirjan rivien kentät täytetään manuaalisesti. Rivit voidaan vaihtoehtoisesti täyttää automaattisesti jollakin seuraavista toiminnoista:
+
+    * **Hae var.paikan sisältö** täyttää työkirjan riveille määritettyjen varastopaikkojen sisällön.
+    * **Laske var.paikan täydennys** ehdottaa täydennystä korkean luokittelun varastopaikoista matalamman luokittelun varastopaikkoihin.
+
+    > [!NOTE]  
+    > Jos nimike täyttää seuraavan luettelon ehdot, **Lähtöalue**- ja **Var.paikasta**-kentät ovat tyhjät. [!INCLUDE [prod_short](includes/prod_short.md)] laskee, mistä nimikkeet siirretään vain **Luo varaston siirto** -toimintoa käytettäessä.  
+    >  
+    > * Nimikkeellä on vanhenemispäivämäärä.  
+    > * **FEFO-poiminta** on otettu valintapainikkeella käyttöön sijainnissa.  
+    > * Käytössä on **Laske var.paikan täydennys**-toiminto.  
+
+3. Varaston siirto luodaan valitsemalla **Luo varaston siirto** -toiminto. Kun siirto on valmis, se voidaan rekisteröidä.  
+
+### F. varasoinnin siirron rekisteröinti
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Var.siirrot** ja valitse sitten vastaava linkki.  
+2. Avaa rekisteröitävä varaston siirtoasiakirja.  
+3. Määritä **Aseta**-riveillä missä, mikä ja mihin mennessä nimike siirretään, valitsemalla **Alueen koodi**-, **Varastopaikan koodi**-, **Käsiteltävä määrä**- tai **Eräpäivä**-kenttien arvot.  
+4. Määritä **Ota**-rivien **Käsiteltävä määrä** -kentässä varastopaikan sisällön siirrettävä määrä. Tätä kenttää voi muokata vain **Ota**-riveillä. 
+
+    > [!NOTE]
+    > Jos yhden rivin nimikkeet on poimittava useasta varastopaikasta tai asetettava useaan varastopaikkaan esimerkiksi siksi, että määritetty varastopaikka on täynnä, käytä **Rivit**-pikavälilehden **Jaa rivi** -toimintoa. Toiminto luo rivin jäljellä olevalle käsiteltävälle määrälle.
+ 
+5. Kaikki **Määrä**-kentässä määritetyt ehdotetut määrät rekisteröidään valitsemalla **Täytä autom. käsiteltävä määrä** -toiminto.  
 6. Valitse **Rekisteröi**-toiminto.  
 
 > [!NOTE]  
->  Kun sijainnissa on käytössä ohjattu hyllytys ja poiminta sekä varastopaikan tyypit, nimikkeitä ei voi siirtää varastopaikkaan, jonka tyyppi on Vastaanotto, eikä myöskään pois tällaisesta varastopaikasta. Tämä johtuu siitä, että Vastaanotto-tyyppisen varastopaikan nimikkeet on rekisteröitävä hyllytettäviksi, ennen kuin ne voivat olla osa saatavilla olevaa varastoa.
+> Ohjattua hyllytystä ja poimintaa käyttävissä sijainneissa ei voi siirtää manuaalisesti **VASTAANOTTO**-tyyppisten varastopaikkojen nimikkeitä, sillä niitä ei vielä pidetä saatavana olevana varastona. Näiden varastopaikkojen nimikkeet on hyllytettävä, jonka jälkeen niitä voi käyttää varaston siirroissa.
 
-## <a name="to-register-the-movement-of-an-item-that-has-already-occurred"></a>Jo tapahtuneen nimikkeiden siirron rekisteröiminen
+## Sisäinen poiminta  
 
-Jos sijainnissa on käytössä ohjattu hyllytys ja poiminta ja nimikkeitä täytyy siirtää muihin varastopaikkoihin ilman olemassa olevaa fyysisen varastoinnin hyllytystä, poimintaa tai siirtoa, voit rekisteröidä nimikkeiden oikean sijoituksen fyysisessä varastossa **F. var. uudelleenluokituspvk** -päiväkirjan avulla.
+### Sisäisen poiminnan luominen  
 
-1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **F.var. uud.luokpäiväkirja** ja valitse sitten vastaava linkki.  
-2.  Täytä **Nimikkeen nro**-, **Aluekoodista**-, **Var.paikasta**-, **Aluekoodiin**- ja **Varastopaikkakoodiin**-kentät.  
-3.  Valitse **Rekisteröi**-toiminto.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **F.var. sis. poim.** ja valitse sitten vastaava linkki.  
+2. Valitse **Uusi**-toiminto.
+3. Anna **Nro** Kirjoita **Yleiset**-pikavälilehden **Sijaintikoodi**- ja **Varastopaikkakoodiin**-kentän arvot. **Varastopaikkakoodiin**-kentässä määritetään varastopaikka, johon haluat sijoittaa keräillyt nimikkeet. Tuotannon yhteydessä tämä varastopaikka olisi saapuvan tuotannon varastopaikka tai avoin tuotannon varastopaikka. Muita tarkoituksia varten tulee valita sellainen varastopaikkakoodi, jonka varastopaikan tyyppiä ei käytetä ohjelmassa poimimiseen – todennäköisesti se on välivarastoinnin, toimituksen tai erityistarkoituksen varastopaikka.  
+4. Valitse nimike **Nimikkeen nro** -kentästä ja täytä määrät, jotka haluat poimia.  
+5. Valitse **Luo poiminta** -toiminto. Fyysisen varastoinnin poimintaohje on nyt valmis varaston työntekijälle suoritettavaksi. Vaihtoehtoisesti voidaan valita **Vapautus**-toiminto ja luoda fyysisen varastoinnin poiminnat käyttämällä **Poimintatyökirja**-sivua. Lisätietoja poimintatyökirjoista on kohdassa [Poiminta-asiakirjojen joukkoluonti poimintatyökirjan avulla](warehouse-how-to-pick-items-for-warehouse-shipment.md#to-create-pick-documents-in-bulk-with-the-pick-worksheet).
+6. Kun poiminta on valmis, se voidaan rekisteröidä.  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-internal-warehouse-processes/)
+### Fyysisen varasoinnin poiminnan rekisteröinti
 
-## <a name="see-also"></a>Katso myös
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poiminnat** ja valitse sitten vastaava linkki.  
 
-[Varastoinninhallinta](warehouse-manage-warehouse.md)  
+    Jos tiettyä poimintaa on käsiteltävä, se valitaan luettelosta. Vaihtoehtoisesti luetteloa suodattamalla voidaan etsiä itselle määritetyt poiminnat.  
+2. Jos **Määritetty käyttäjätunnus** -kenttä on tyhjä, syötä tunnus tarvittaessa itse.  
+3. Poimi nimikkeet.  
+
+    Koska fyysinen varasto on määritetty käyttämään ohjattua hyllytystä ja poimintaa, varastopaikan luokittelu määrittää varastopaikan, josta poiminta suoritetaan. Varastopaikkoja ehdotetaan poimintarivillä. Ohjeissa on ainakin kaksi erillistä otto- ja asetustoimintojen riviä.  
+
+4. Kun nimikkeet on poimittu ja asetettu toimitusalueelle tai toimituksen varastopaikkaan, valitse **Rekisteröi poiminta** -toiminto.  
+
+## Sisäinen hyllytys  
+
+### Sisäisen hyllytyksen luominen  
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **F.var. sis. hyllytys** ja valitse sitten vastaava linkki.  
+2. Valitse **Uusi**-toiminto.
+3. Anna **Nro** ja **Sijaintikoodi**.
+4. Täytä kunkin fyysiseen varastoon siirrettävän nimikkeen rivi. **Nimikenro**- ja **Määrä**-kentät ovat pakollisia.
+
+    > [!NOTE]  
+    > Jos nimike valitaan **Nimikenro**-kentässä, **Varastopaikan sisältö**- eikä **Nimikkeet**-sivu avautuu. Tämä sivu avautuu sen vuoksi, että hyllytettävä nimike on määritetty tiettyyn varastopaikkaan (*varastopaikan sisältö*), joten kyse ei ole mistä tahansa nimikkeestä. Lisäksi varastopaikka, josta nimike on otettava, on jo tiedossa. Jos **Var.paikasta**-kenttä on täytetty, kyseinen arvo suodattaa varastopaikan sisällön.
+
+5. Rivit voidaan täyttää koko varastopaikan sisällöllä tai sijainnin varastopaikkojen suodatetulla sisällöllä valitsemalla **Hae var.paikan sisältö** -toiminto.  
+6. Valitse **Luo hyllytys** -toiminto. Varastotyöntekijän fyysisen varastoinnin hyllytysohje on nyt valmis. Vaihtoehtoisesti **Vapautus**-toiminnon valinta luo fyysisen varastoinnin hyllytykset käyttämällä **Hyllytystyökirja**-sivulla. Lisätietoja hyllytystyökirjoista on kohdassa [Hyllytysasiakirjojen joukkoluonti hyllytystyökirjan avulla](warehouse-how-to-put-items-away-with-warehouse-put-aways.md#to-create-put-away-documents-in-bulk-with-the-put-away-worksheet).
+6. Kun hyllytys on valmis, se voidaan rekisteröidä.  
+
+### Fyysisen varastoinnin hyllytyksen rekisteröinti
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyllytykset** ja valitse sitten vastaava linkki.
+2. Avaa fyysisen varaston hyllytys, joka on valmis käsiteltäväksi.  
+3. Lisää käyttäjätunnus tarvittaessa hyllytyksen käsittelyn alussa.  
+
+    Hyllytysprosessi voidaan optimoida lajittelemalla hyllytysrivit erilaisten ehtojen perusteella. Lajitteluperusteena voi käyttää esimerkiksi nimikettä, hyllynumeroa tai eräpäivää.
+
+    * Jos kunkin vastaanottorivin Ota- ja Aseta-rivit eivät ole peräkkäiset ja niiden halutaan olevan peräkkäisiä, järjestä rivit valitsemalla **Nimike** **Järjestämistapa**-kentässä.  
+    * Jos varastopaikan luokittelut vastaa fyysisen varaston fyysistä asettelua, järjestä työt varastopaikkojen sijainnin perusteella käyttämällä **Varastopaikan luokittelu** -järjestämistapaa.  
+
+4. Tee hyllytys.
+
+    Kustakin sisäisestä hyllytysrivistä on tullut vähintään kaksi riviä fyysisen varastoinnin hyllytyksessä.  
+
+    * Ensimmäisellä rivillä, jolla **Toiminnon tyyppi** -kentässä on **Ota**, ilmaistaan, missä vastaanottoalueella nimikkeet sijaitsevat. Tällä rivillä olevaa aluetta ja varastopaikkaa ei voi muuttaa.  
+    * Seuraava rivi, jonka **Toiminnon tyyppi** -kentässä on **Aseta**, osoittaa, mihin nimikkeet asetetaan fyysisessä varastossa. Jos yhdellä vastaanottorivillä vastaanotetaan suuri määrä nimikkeitä, nimikkeet on ehkä hyllytettävä useisiin varastopaikkoihin, jolloin kullakin varastopaikalla on Aseta-rivi.  
+
+5. Kun olet asettanut kaikki nimikkeet varastopaikkoihin ohjeiden mukaisesti, valitse **Rekisteröi hyllytys** -toiminto.  
+
+## Aiemmin tehdyn varaston siirron rekisteröinti
+
+Jos toisiin varastopaikkoihin ilman hyllytystä, poimintaa tai varaston siirtoa jo siirretyt nimikkeet on rekisteröitävä, varaston siirto voidaan rekisteröidä **F.var. uud.luokpäiväkirja** -sivulla.
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **F.var. uud.luokpäiväkirja** ja valitse sitten vastaava linkki.  
+2. Täytä **Nimikkeen nro**-, **Aluekoodista**-, **Var.paikasta**-, **Aluekoodiin**- ja **Varastopaikkakoodiin**-kentät.  
+3. Valitse **Rekisteröi**-toiminto.  
+
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-internal-warehouse-processes/)
+
+## Katso myös
+
+[Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
 [Varasto](inventory-manage-inventory.md)  
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
-[Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

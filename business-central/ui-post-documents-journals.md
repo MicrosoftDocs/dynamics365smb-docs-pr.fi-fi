@@ -1,22 +1,16 @@
 ---
 title: Asiakirjojen ja päiväkirjojen kirjaaminen
-description: Tässä ohjeaiheessa hahmotellaan kirjaustoiminnot sekä tavat, joilla voit kirjata asiakirjoja ja päiväkirjoja yrityksen eri kirjanpitoihin.
+description: 'Tässä ohjeaiheessa hahmotellaan kirjaustoiminnot sekä tavat, joilla voit kirjata asiakirjoja ja päiväkirjoja yrityksen eri kirjanpitoihin.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/24/2021
-ms.search.form: ''
+ms.search.form: null
 ms.author: edupont
-ms.openlocfilehash: e306cc27753e86e8e1a0a315406643bcf6f44d8a
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822516"
 ---
-# <a name="posting-documents-and-journals"></a>Asiakirjojen ja päiväkirjojen kirjaaminen
+# Asiakirjojen ja päiväkirjojen kirjaaminen
 
 Kirjaaminen on kirjanpitotoiminto, jolla tallennetaan liiketoimintatapahtumia erilaisiin yrityksen päiväkirjoihin.
 
@@ -33,7 +27,7 @@ Seuraavassa taulukossa esitellään liittyvät tehtävät ja linkit tehtäviä k
 | Esikatsele sivulla tapahtumia, jotka luodaan kirjaamisen yhteydessä. |[Kirjaustulosten esikatselu](ui-how-preview-post-results.md) |
 | Esikatsele raportissa syöttöjä, jotka luodaan kirjaamisen yhteydessä. |[Testiraporttien tarkastelu ennen kirjausta](ui-how-view-test-reports-posting.md) |
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Kirjattujen asiakirjojen muokkaaminen](across-edit-posted-document.md)  
 [Etsi liittyviä tapahtumia asiakirjoille](ui-find-entries.md)  

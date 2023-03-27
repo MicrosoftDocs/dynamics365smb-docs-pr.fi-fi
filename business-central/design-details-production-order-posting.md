@@ -1,22 +1,16 @@
 ---
 title: Rakennetiedot – Tuotantotilauksen kirjaus | Microsoft Docs
-description: Samoin kuin kokoonpanotilauksen tiliöinti, käytetyt osat ja käytetty koneaika muunnetaan ja tuotetaan tuotettuna nimikkeenä, kun tuotantotilaus on valmis.
+description: 'Samoin kuin kokoonpanotilauksen tiliöinti, käytetyt osat ja käytetty koneaika muunnetaan ja tuotetaan tuotettuna nimikkeenä, kun tuotantotilaus on valmis.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 51d04edb267ba2d75b4ed57d1587b40994f009cc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511699"
 ---
-# <a name="design-details-production-order-posting"></a>Rakennetiedot: tuotantotilauksen kirjaus
+# Rakennetiedot: tuotantotilauksen kirjaus
 Kokoonpanotilauksen kirjauksen tavoin kulutetut komponentit ja käytetty koneaika muunnetaan ja tuotetaan tuotettuna nimikkeenä, kun tuotantotilaus on valmis. Lisätietoja on kohdassa [Rakennetiedot: Kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md). Kokoonpanotilausten kustannusvirta on kuitenkin yksinkertaisempi erityisesti sen vuoksi, että kokoonpanokustannuksen kirjaus tapahtuu vain kerran, joten se ei luo keskeneräisten töiden varastoa.
 
 
@@ -52,7 +46,7 @@ Erityyppisten valmistettujen varastojen arvonnousujen ja -laskujen arvot tallenn
 
 Vaikka niiden tapahtumien arvot, jotka liittyvät arvot ostettuihin tavaroihin kirjataan vain nimiketapahtumiksi vastaavilla arvotapahtumilla, tuotettuihin nimikkeisiin liittyvät tapahtumat kirjataan kapasiteettitapahtumiksi vastaavilla arvotapahtumilla nimiketapahtumien lisäksi.  
 
-## <a name="posting-structure"></a>Kirjausrakenne  
+## Kirjausrakenne  
 tuotantotilausten kirjaaminen KET-varastoon sisältää tuotoksen, kulutuksen ja kapasiteetin.  
 
 Seuraavassa kaaviossa esitetään asiaankuuluvat tiliöintirutiinit koodiyksikössä 22.  
@@ -75,12 +69,12 @@ KET-varastoarvoa kuvaava arvotapahtuma voidaan liittää yhteen seuraavista kust
 
 Lisätietoja tuotannon ja kokoonpanon kustannusten kirjaamisesta pääkirjanpitoon on kohdassa [Rakennetiedot: Varastokirjaus](design-details-inventory-posting.md).  
 
-## <a name="capacity-posting"></a>Kapasiteetin kirjaus  
+## Kapasiteetin kirjaus  
 Viimeisen tuotantotilauksen reititysrivin tuotoksen kirjaaminen aiheuttaa kapasiteettitapahtuman loppunimikkeelle, sen varastoarvon kasvun lisäksi.  
 
  Kapasiteettilokin kirjaus on sen ajan tallenne, joka on kulutettu nimikkeen tuottamiseen. Liittyvä arvokirjaus kuvaa WIP-varastoarvon kasvun, joka on siirtymiskustannusten arvo. Lisätietoja on ohjeaiheen [Rakennetiedot: Pääkirjanpidon tilit](design-details-accounts-in-the-general-ledger.md) kohdassa Kapasiteettitapahtumista.  
 
-## <a name="production-order-costing"></a>Tuotantotilauksen arvostus  
+## Tuotantotilauksen arvostus  
  Tuotantoyrityksen on mitattava tuotantotilausten kustannukset varasto- ja tuotantokustannusten valvontaa varten, koska jokaisen tuotetun nimikkeen ennalta määritetyt vakiokustannukset aktivoidaan taseessa. Lisätietoja syistä, joiden vuoksi tuotetut nimikkeet käyttävät vakioarvostusmenetelmää on kohdassa [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md).  
 
 > [!NOTE]  
@@ -104,7 +98,7 @@ Vakiokustannusympäristöissä tuotantotilauksen arvostus perustuu seuraavaan me
     >  Tämä on erilainen kuin kokoonpanotilauksen kirjaus, jossa kirjataan aina toteutuneet kustannukset. Lisätietoja on kohdassa [Rakennetiedot: Kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md).  
 2.  Kun tuotantotilauksen tilaksi on määritetty **Valmis**, tilaus laskutetaan suorittamalla **Muuta kustannuksia - Nimiketapahtumat** -eräajo. Tämän seurauksena tilauksen kokonaiskustannus lasketaan kulutettujen materiaalien ja kapasiteetin vakiokustannusten perusteella. Laskettujen vakiokustannusten ja toteutuneiden tuotantokustannusten väliset erot lasketaan ja kirjataan.  
 
-## <a name="see-also"></a>Katso myös  
+## Katso myös  
  [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)   
  [Rakennetiedot: Kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md)  
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md) [Rahoitus](finance.md)  

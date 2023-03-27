@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 04/11/2022
 ms.author: edupont
-ms.openlocfilehash: ff4f8469a24ac92b8b817528306d808cf2994686
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740281"
 ---
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 0.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-raportin asetukset** ja valitse sitten vastaava linkki.  
 2. Jos haluat, että käyttäjät voivat muuttaa ja uudelleenlähettää näitä raportteja, valitse **Salli muokkaus** -kenttä.  

@@ -1,22 +1,16 @@
 ---
 title: Kustannusten ja tulojen kohdistustehtävien yleiskatsaus
-description: Tässä ohjeaiheessa kerrotaan tehtävistä, joilla voi kohdistaa yleisen päiväkirjan tapahtuman useille eri tileille päiväkirjan kirjaamisen yhteydessä.
+description: 'Tässä ohjeaiheessa kerrotaan tehtävistä, joilla voi kohdistaa yleisen päiväkirjan tapahtuman useille eri tileille päiväkirjan kirjaamisen yhteydessä.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 283, 5629
+ms.search.form: '283, 5629'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 91741eea4d2ba780e7493e6aff256238bd542769
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511362"
 ---
-# <a name="allocate-costs-and-income"></a>Kohdista kustannukset ja tulot
+# Kohdista kustannukset ja tulot
 
 Voit kohdistaa yleisen päiväkirjan tapahtuman useille eri tileille päiväkirjan kirjaamisen yhteydessä. Kohdistamisen voi tehdä kolmella eri tavalla:
 
@@ -29,7 +23,7 @@ Kohdistustoimintoja voi käyttää toistuvien yleisten päiväkirjojen ja käytt
 
 Seuraavaksi kerrotaan, miten kustannusten kohdistus valmistellaan toistuvissa yleisessä päiväkirjassa määrittämällä kohdistusavaimet. Kun kohdistusavaimet on määritetty, voit suorittaa ja kirjata päiväkirjan muiden toistuvien yleisten päiväkirjojen tavoin. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).
 
-## <a name="to-set-up-allocation-keys"></a>Kohdistusavaimien määrittäminen
+## Kohdistusavaimien määrittäminen
 
 Voit kohdistaa toistuvan yleisen päiväkirjan tapahtuman useille eri tileille päiväkirjan kirjaamisen yhteydessä. Kohdistus voidaan tehdä määrän, prosentin tai summan mukaan.  
 
@@ -47,13 +41,13 @@ Voit kohdistaa toistuvan yleisen päiväkirjan tapahtuman useille eri tileille p
 10. Kun olet syöttänyt kohdistusrivit, valitse **OK** palataksesi takaisin **Toistuva yleinen päiväkirja** -sivulle. **Kohdistettu summa (USD)** -kenttä on täytetty ja vastaa **Summa** -kenttää.
 11. Kirjaa päiväkirja.
 
-## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Aiemmin määritetyn kohdistusavaimen muuttaminen
+## Aiemmin määritetyn kohdistusavaimen muuttaminen
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pr.pvk:n toist. kirj.** ja valitse sitten liittyvä linkki.
 2. Valitse **Toistuva yleinen päiväkirja** -sivulla päiväkirja, jossa kohdistus on.
 3. Valitse ensin kohdistuksen rivi ja sitten **Kohdistukset**-toiminto.
 4. Vaihda soveltuvat kentät ja valitse sitten **OK**-painike.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)    
 [Asiakirjojen ja päiväkirjojen kirjaaminen](ui-post-documents-journals.md)    

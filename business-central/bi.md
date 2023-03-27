@@ -1,23 +1,17 @@
 ---
 title: Taloudelliset liiketoimintatiedot
-description: Business Central sisältää useita ominaisuuksia, joiden avulla voit kerätä, analysoida ja jakaa arvokkaita yritystietoja liiketoimintatietoa ja päätöksentekoa varten.
+description: 'Business Central sisältää useita ominaisuuksia, joiden avulla voit kerätä, analysoida ja jakaa arvokkaita yritystietoja liiketoimintatietoa ja päätöksentekoa varten.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 103, 108, 198, 490
+ms.search.keywords: 'bi, power BI, analysis, KPI'
+ms.search.form: '103, 108, 198, 490'
 ms.date: 09/22/2022
 ms.author: edupont
-ms.openlocfilehash: 5f706773b90d799ad4643b05d04085f0dfa4db7b
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605216"
 ---
-# <a name="financial-business-intelligence"></a>Taloudelliset liiketoimintatiedot
+# Taloudelliset liiketoimintatiedot
 
 Yritykset hankkivat päivittäisen toiminnan aikana valtavia määriä tietoja. Nämä tiedot voivat kuvata esimerkiksi organisaation myyntilukuja, ostoja, toimintakuluja, työntekijöiden palkkoja ja budjetteja, ja ne voivat antaa päätöksentekijöille arvokasta liiketoimintatietoa (BI). [!INCLUDE[prod_short](includes/prod_short.md)] sisältää erinäisiä toimintoja, joiden avulla voit kerätä, analysoida ja jakaa yrityksen tietoja.
 
@@ -38,7 +32,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 |Ota käyttöön kansainvälisten kirjanpitojärjestöjen maailmanlaajuinen taloushallinnon raportointi eXtensible Business Reporting Language (XBRL) -kielen avulla.|[Luo raportteja XBRL-linkityksellä.](bi-create-reports-with-xbrl.md)|
 |Tietokannan käyttötarkoituksen muuttaminen raporteissa, API-tyyppisillä sivuilla ja kyselyissä, jotta latauskuorma vähenee ja suorituskyky paranee.|[Tietokannan käyttötarkoituksen hallinta](admin-data-access-intent.md)|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rahoitus](finance.md)  
 [Business Centralin käyttäminen Power BI -tietolähteenä](across-how-use-financials-data-source-powerbi.md)  

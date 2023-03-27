@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d8be2d8c3b9602c1a3e78f6cc4ba495af93730d3
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950171"
 ---
-# <a name="setup-best-practices-planning-parameters"></a>Asetukset - parhaat käytännöt: suunnitteluparametrit
+# Asetukset - parhaat käytännöt: suunnitteluparametrit
+
 **Suunnittelu**-pikavälilehti nimikkeen kortissa on yrityksen toimitusketjun keskus. Oikeiden suunnitteluparametrien määrittäminen on erittäin tärkeää kustannustehokkaan varastonhallinnan ja hyvän asiakaspalvelun vuoksi.  
 
  Seuraavassa taulukossa on parhaita käytäntöjä siitä, miten voit määrittää valitun suunnitteluparametrin kentät. Saat lisätietoja kentästä valitsemalla **Asetuskenttä**-sarakkeessa olevan linkin.  
@@ -35,16 +30,16 @@ ms.locfileid: "8950171"
 |Pyöristystarkkuus|Jos kyseessä on kallis tuotanto, määritä arvoksi 0,00001.|Jätteen tai materiaalikulutuksen suuret pyöristysmäärät voivat aiheuttaa erittäin suuria varastokustannuksia. Siksi saattaa olla tarpeen määrittää pienin pyöristystarkkuus tämän mahdollisen kustannuksen minimoimiseksi.|  
 
 > [!NOTE]  
->  Nimikekorttien suunnitteluparametrien parhaita käytäntöjä sovelletaan myös SKU-korttien samoihin kenttiin.  
->   
->  Jos yritykset suunnittelevat kysyntää eri sijainneissa, on suositeltavaa määrittää jokaiselle sijainnille varastointiyksiköt ja luoda kaikki kysyntä **Sijainnin koodi** -kentän arvon avulla. Katso lisätiedot kohdasta [Rakennetiedot: kysyntä tyhjä-sijainnissa](design-details-demand-at-blank-location.md).  
+> Nimikekorttien suunnitteluparametrien parhaita käytäntöjä sovelletaan myös SKU-korttien samoihin kenttiin.  
+>
+> Jos yritykset suunnittelevat kysyntää eri sijainneissa, on suositeltavaa määrittää jokaiselle sijainnille varastointiyksiköt ja luoda kaikki kysyntä **Sijainnin koodi** -kentän arvon avulla. Lisätietoja on kohdassa [Rakennetiedot: suunnitelman luominen sijaintien avulla tai ilman sijainteja](production-planning-with-without-locations.md).  
 
-## <a name="see-also"></a>Katso myös  
- [Asetusten parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)   
- [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
- [Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen avulla](set-up-complex-application-areas-using-best-practices.md)  
- [Rakennetiedot: kysyntä tyhjä-sijainnissa](design-details-demand-at-blank-location.md)  
- [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Katso myös  
+[Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
+[Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)  
+[Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen avulla](set-up-complex-application-areas-using-best-practices.md)  
+[Rakennetiedot: suunnitelman luominen sijaintien avulla tai ilman sijainteja](production-planning-with-without-locations.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

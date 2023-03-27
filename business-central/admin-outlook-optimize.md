@@ -1,49 +1,43 @@
 ---
 title: Outlookin optimointi yrityssähköpostia varten
-description: Tutustu siihen, miten voit parantaa yrityssähköpostin käyttökokemusta Microsoft Outlookissa.
+description: 'Tutustu siihen, miten voit parantaa yrityssähköpostin käyttökokemusta Microsoft Outlookissa.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in
+ms.search.keywords: 'Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in'
 ms.date: 05/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 053b834e122d5d5331642dcb9232a76a8bc1dbeb
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514568"
 ---
-# <a name="optimizing-outlook-for-your-business-inbox"></a>Outlookin optimointi yrityssähköpostia varten 
+# Outlookin optimointi yrityssähköpostia varten 
 
 Tässä artikkelissa käsitellään sitä, miten voit saada yrityssähköpostin parhaan mahdollisen käyttökokemuksen Microsoft Outlookissa. 
 
-## <a name="update-outlook"></a>Päivitä Outlook
+## Päivitä Outlook
 
 Päivitä Outlook-versioon 2012 tai uudempaan.
 
 > [!NOTE]
 > Jos et pysty päivittämään Outlookia versioon 2012 tai uudempaan, varmista, että päivität ainakin versioon 1905. Se estää Outlook-apuohjelmaa käyttämästä vanhoja Internet Explorer -komponentteja
 
-### <a name="how-to-check-your-version-of-outlook"></a>Outlook-versiosi tarkistaminen
+### Outlook-versiosi tarkistaminen
 
 Käytät sitten Office 2019:ää tai Microsoft 365:tä, seuraa tätä Microsoft tukiopasta ja tarkista, mikä Outlook-versio sinulla on:  
 
 [Tietoja Officesta: mikä Officen versio minulla on käytössä?](https://support.microsoft.com/office/about-office-what-version-of-office-am-i-using-932788b8-a3ce-44bf-bb09-e334518b8b19)
 
-### <a name="how-to-update-outlook"></a>Outlookin päivittäminen
+### Outlookin päivittäminen
 
 Jos haluat päivittää Outlookin uusimpaan versioon, noudata tätä Microsoft-tukiopasta tai ota yhteyttä järjestelmänvalvojaan:
 
 [Office-päivitysten asentaminen](https://support.microsoft.com/office/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5)
 
-## <a name="install-microsoft-edge-webview2"></a>Microsoft Edge WebView2:n asentaminen
+## Microsoft Edge WebView2:n asentaminen
 
 Varmista, että Microsoft Edge WebView2 on asennettu laitteeseesi.
 
-### <a name="how-to-check-if-microsoft-edge-webview2-is-installed"></a>Microsoft Edge WebView2 -asennuksen tarkistaminen 
+### Microsoft Edge WebView2 -asennuksen tarkistaminen 
 
 Voit tarkistaa Microsoft Edge WebView2 -asennuksen tietokoneeltasi seuraavasti:
 
@@ -58,7 +52,7 @@ Ohjauspaneelista:
 2. Valitse **Ohjelmat** > **Ohjelmat ja ominaisuudet**.
 3. Kirjoita hakukenttään **WebView2**. Jos Microsoft Edge WebView2 on asennettuna, näet merkinnän nimeltä **Microsoft Edge WebView2 Runtime**.
 
-### <a name="how-to-install-microsoft-edge-webview2"></a>Microsoft Edge WebView2:n asentaminen 
+### Microsoft Edge WebView2:n asentaminen 
 
 1. Siirry selaimen avulla kohteeseen [https://developer.microsoft.com/microsoft-edge/webview2/](https://developer.microsoft.com/microsoft-edge/webview2/).
 2. Valitse **Lataa**.
@@ -68,11 +62,11 @@ Ohjauspaneelista:
 > [!NOTE]
 > Organisaatiosi saattaa rajoittaa sitä, mitä komponentteja laitteeseesi voi asentaa. Pyydä apua järjestelmänvalvojalta.
 
-## <a name="use-a-supported-browser"></a>Käytä tuettua selainta
+## Käytä tuettua selainta
 
 Harkitse Outlookin verkkoversion käyttämistä jossakin Business Centralin tukemassa selaimessa. Luettelo tuetuista selaimista on kohdassa [Business Centralin käyttämisen vähimmäisvaatimukset](product-requirements.md#browsers).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Business Centralin hakeminen omaan mobiililaitteeseen](install-mobile-app.md)  

@@ -1,24 +1,19 @@
 ---
 title: Toiminnallisten näkemysten näyttäminen roolikeskuksissa
-description: Tietoa siitä, miten olennaisten liiketoimintanäkemysten laajennus kierrättää liiketoiminnan näkemyksiä roolikeskuksissa.
+description: 'Tietoa siitä, miten olennaisten liiketoimintanäkemysten laajennus kierrättää liiketoiminnan näkemyksiä roolikeskuksissa.'
 documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: BI, add-in, insight, headline, data
-ms.search.form: 1439,
+ms.search.keywords: 'BI, add-in, insight, headline, data'
+ms.search.form: '1439,'
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: f703448f15c7284f51a2876ccd2b83b9a2351b9d
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361742"
 ---
-# <a name="the-essential-business-insights-extension"></a>Essential-liiketoimintatietojen laajennus
+
+# Essential-liiketoimintatietojen laajennus
 
 Olennaisten liiketoimintanäkemysten laajennus etsii kiinnostavia liiketoimintatietoja yrityksen tiedoista ja näyttää ne sanomalehdistä tutuksi tulleiden otsikoiden tyyliin roolikeskuksissa. Näkemykset ovat edellisen viikon, edellisen kuukauden tai kolmen edellisen kuukauden ajalta riippuen siitä, millaisia tietoja laajennus löytää. Näkemykset päivitetään 10 minuutin välein.  
 
@@ -37,7 +32,7 @@ Seuraavassa taulukossa esitellään näkemykset, jotka tämä laajennus tarjoaa 
 |Projektipäällikkö| Näyttää tervehdyksen ja linkin tuotetietoihin.|
 |Järjestelmänvalvoja| Näyttää tervehdyksen ja linkin tuotetietoihin.|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [[!INCLUDE[prod_short](includes/prod_short.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)
 

@@ -4,41 +4,35 @@ description: Tutustu eri tapoihin jakaa yritystietoja Business Centralista.
 author: jswymer
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 09/21/2022
 ms.author: jswymer
-ms.openlocfilehash: e54cabd331253a40b160a6cc89b4ab170bd1db89
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607470"
 ---
-# <a name="sharing-business-data-from-business-central"></a>Yritystietojen jakaminen Business Centralista
+# Yritystietojen jakaminen Business Centralista
 
 Organisaation sisä- ja ulkopuolisten henkilöiden välinen yhteistyö on osa useimpia yrityksiä. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää useita toimintoja, joiden avulla voit jakaa yritystietoja, kuten tietueluettelon, tietyt tietueet tai asiakirjat. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.-->
 
 Kaikkien näiden ominaisuuksien avulla tietojen käyttö on suojattu Business Centralin lisenssillä ja käyttöoikeuksilla.
 
-## <a name="copying-a-link"></a>Linkin kopioiminen
+## Linkin kopioiminen
 
 ![Tuettu](media/check.png) Business Central Online ![Tuettu](media/check.png) Business Central On-premises
 
 Millä tahansa sivulla voit kopioida sivun URL-osoitteen, liittää sen ja jakaa sen muihin mediamuotoihin, kuten sähköposteihin, Teams-keskusteluihin tai tekstiviesteihin. Helpoin tapa kopioida linkki on valita **Jaa** > **Kopioi linkki** sivun yläreunasta. Toinen tapa on kopioida URL-osoite suoraan selaimen osoiteruudusta.
 
-### <a name="modify-the-page-link"></a>Muokkaa sivun linkkiä
+### Muokkaa sivun linkkiä
 
 Kun olet kopioinut linkin, ennen sen lähettämistä voit muokata URL-osoitetta niin, että se vaikuttaa siihen, mitä näytetään, kun sivu avataan. Voit esimerkiksi lisätä suodattimia tai määrittää eri yrityksen.
 
 Lisätietoja on kohdassa [Verkkoasiakkaan URL-osoite](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls).
 
-### <a name="about-filtered-lists"></a>Tietoja suodatetuista luetteloista
+### Tietoja suodatetuista luetteloista
 
 Luettelosivujen suodatinruudun avulla voit tarkentaa luettelossa olevia tietueita käyttämällä suodattimia. Jos käytät **Kopioi linkki** -toimintoa tai kopioit URL-osoitteen selaimesta, sivun linkki ei sisällä suodattimen muutoksia. Linkin avaavat käyttäjät näkevät koko kokoelman. Tapa säilyttää suodatus kokoelmasivulla on tallentaa suodatettu sivu **näkymäksi** ensin. Avaa sitten näkymä ja kopioi linkki sieltä.
 
 Lisätietoja on kohdassa [Lajitteleminen, hakeminen ja suodattaminen](ui-enter-criteria-filters.md).
 
-## <a name="sharing-to-teams"></a>Jakaminen Teamsiin
+## Jakaminen Teamsiin
 
 ![Tuettu](media/check.png) Business Central Online ![Ei tueta](media/x-icon.png) Business Central On-premises
 
@@ -46,7 +40,7 @@ Suoraan useimmista kokoelmasivuista ja tietosivuista voit lähettää linkin siv
 
 Lisätietoja on kohdassa [Jaa tietueiden ja sivujen linkkejä Teamsissa](across-working-with-teams.md).
 
-## <a name="sharing-through-onedrive"></a>Jakaminen OneDriven kautta
+## Jakaminen OneDriven kautta
 
 ![Tuettu](media/check.png) Business Central Online ![Tuettu](media/check.png) Business Central On-premises
 
@@ -54,7 +48,7 @@ Business Centralin avulla on helppo tallentaa, hallita ja jakaa tiedostoja muide
 
 Lisätietoja on kohdassa [Jaa tietueita OneDrivessa](across-share-onedrive.md).
 
-## <a name="opening-in-excel"></a>Avaaminen Excelissä
+## Avaaminen Excelissä
 
 ![Tuettu](media/check.png) Business Central Online ![Tuettu](media/check.png) Business Central On-premises
 
@@ -62,15 +56,15 @@ Voit käyttää **Avaa Excelissä** -toimintoa luettelosivuissa ja luetteloissa,
 
 Lisätietoja on kohdassa [Katsele ja muokkaa Excelissä](across-work-with-excel.md).
 
-## <a name="sharing-rows-or-tables"></a>Rivien tai taulukoiden jakaminen
+## Rivien tai taulukoiden jakaminen
 
 ![Tuettu](media/check.png) Business Central Online ![Tuettu](media/check.png) Business Central On-premises
 
-Voit jakaa yhden tai useamman tietueen luettelossa. Paina vain CTRL + C-pikanäppäintä kopioidaksesi leikepöydälle. Liitä sitten kopioitu kohde toiseen sovellukseen painamalla CTRL + V. Jos esimerkiksi kopioit kolme myyntitilausta ja liität ne sähköpostiin, tilaukset näytetään kauniisti muotoiltuna taulukkona.
+Voit jakaa yhden tai useamman tietueen luettelossa. Kopioi leikepöydälle näppäinyhdistelmällä <kbd>Ctrl</kbd>+<kbd>C</kbd>. Liitä sitten kopioitu kohde toiseen sovellukseen näppäinyhdistelmällä <kbd>Ctrl</kbd>+<kbd>V</kbd>. Jos esimerkiksi kopioit kolme myyntitilausta ja liität ne sähköpostiin, tilaukset näytetään kauniisti muotoiltuna taulukkona.
 
 Lisätietoja on kohdassa [Kopioinnin ja liittämisen usein kysytyt kysymykset](faq-copy-paste.yml).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Business Centralin ja OneDriven integraatio](across-onedrive-overview.md)  
 [OneDriven ja Business Centralin integroinnin hallinta](admin-onedrive-integration.md)  

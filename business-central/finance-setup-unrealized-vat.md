@@ -1,27 +1,22 @@
 ---
 title: Ei-realisoituneen arvonlisäveron määrittäminen
-description: Jos käytät kassaperusteista kirjanpitoa, voit määrittää, miten myynnin ja ostojen ei-realisoitunut ALV käsitellään.
+description: 'Jos käytät kassaperusteista kirjanpitoa, voit määrittää, miten myynnin ja ostojen ei-realisoitunut ALV käsitellään.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: cash, VAT, unrealized, cash-based
-ms.search.form: 118, 472, 473
+ms.search.keywords: 'cash, VAT, unrealized, cash-based'
+ms.search.form: '118, 472, 473'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1ae48b042cf3df00a1d62a6871136e2526b3db0c
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417693"
 ---
-# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Ei-realisoituneen arvonlisäveron määrittäminen kassaperusteista kirjanpitoa varten
+
+# Ei-realisoituneen arvonlisäveron määrittäminen kassaperusteista kirjanpitoa varten
 
 Jos käytät kassaperusteista kirjanpitoa, voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in käsittelemään ei-realisoidun arvonlisäveron.
 
-## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Pääkirjanpidon tilien käyttäminen ei-realisoitunutta arvonlisäveroa varten
+## Pääkirjanpidon tilien käyttäminen ei-realisoitunutta arvonlisäveroa varten
 
 ALV-summat voidaan laskea ja kirjata väliaikaiselle kirjanpitotilille laskun kirjaamisen yhteydessä. Sen jälkeen ne voidaan kirjata oikealle kirjanpitotilille ja sisällyttää ALV-ilmoituksiin laskun maksun kirjaamisen yhteydessä. Ennen sitä sinun täytyy [määrittää ALV-kirjausasetukset](finance-setup-vat.md).
 
@@ -51,7 +46,7 @@ Käytä ei-realisoituneen arvonlisäveron tilejä seuraavasti:
 > [!NOTE]  
 > ALV-summa kirjataan tälle tilille, jossa se on asiakkaan maksun kirjaamisen saakka. Summa siirretään sitten oston ALV-tilille.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen](finance-setup-vat.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

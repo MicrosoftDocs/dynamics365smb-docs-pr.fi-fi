@@ -1,20 +1,14 @@
 ---
 title: Taloudellisten yleiskatsausten käsittely Excelissä
-description: Lisätietoja raporttien avaamisesta Microsoft Excelissä, jotta analysointi toimii Business Central -sovelluksessa paremmin.
+description: 'Lisätietoja raporttien avaamisesta Microsoft Excelissä, jotta analysointi toimii Business Central -sovelluksessa paremmin.'
 author: edupont04
 ms.topic: overview
-ms.search.keywords: accountant, accounting, financial report
+ms.search.keywords: 'accountant, accounting, financial report'
 ms.search.form: 9027
 ms.date: 08/23/2022
 ms.author: edupont
-ms.openlocfilehash: 874234154c7a2ae2e8cf0444794a2b4fbdcbcf5e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534208"
 ---
-# <a name="analyzing-financial-statements-in-microsoft-excel"></a>Rahoituslaskelmien analysointi Microsoft Excelissä
+# Rahoituslaskelmien analysointi Microsoft Excelissä
 
 [!INCLUDE [prod_short](includes/prod_short.md)] tarjoaa suorituskykyilmaisimia ja antaa yleiskatsauksia yrityksesi taloudesta. Seuraavassa on esimerkkejä tavoista analysoida KPI:tä ja yleiskatsauksia Excelissä:
 
@@ -24,7 +18,7 @@ ms.locfileid: "9534208"
 > [!TIP]
 > Excelissä näkyvät raportit on suunniteltu siten, että niiden avulla voidaan analysoida kuluvaa vuotta. Tuloslaskelmaraportti on kuitenkin poikkeus. Raportin avulla voit suodattaa tiedot niin, että ne sisältävät aikaisempien vuosien analyysit.
 
-## <a name="getting-the-overview-and-the-details-in-excel"></a>Yleiskuvan ja yksityiskohtien tarkastelu Excelissä
+## Yleiskuvan ja yksityiskohtien tarkastelu Excelissä
 
 Liiketoimintajohtajan ja kirjanpitäjän roolikeskusten **Raportit**-toiminnon avulla voit valita Excelissä tarkasteltavat tilinpäätökset. Kun valitse raportin, se avautuu Excelissä tai Excel Onlinessa. Apuohjelma yhdistää tiedot [!INCLUDE [prod_short](includes/prod_short.md)]iin. Kirjautumiseen on kuitenkin käytettävä sitä tiliä, jolla [!INCLUDE [prod_short](includes/prod_short.md)]ia käytetään. Seuraavassa taulukossa on luettelo raporteista ja siitä, missä ne ovat saatavilla.  
 
@@ -44,21 +38,21 @@ Oletetaan, että haluat porautua kassavirtaan. Voit avata liiketoimintajohtajan 
 
 Excelissä on välilehti, jossa tiedot on sijoitettu ensimmäiseen työkirjaan. Kaikki viedyt tiedot ovat esillä muissa työkirjoissa, jos satut tarvitsemaan niitä. Voit tulostaa raportin heti tai voit muokata sitä, kunnes käytössä on haluamasi yleiskatsaus ja yksityiskohdat. Voit suodattaa ja analysoida tietoja entistä paremmin [!INCLUDE [prod_short](includes/prod_short.md)]in Excel-apuohjelmalla.  
 
-### <a name="understanding-the-excel-templates"></a>Excel-mallien ymmärtäminen
+### Excel-mallien ymmärtäminen
 
 Esimääritetyt Excel-raportit perustuvat valitun yrityksen tietoihin. Esimerkkiyritys on esimerkiksi määrittänyt tilikarttaan kolme käteistiliä, jotka on lueteltu *Nykyisissä käyttöomaisuuserissä*: 10100 **Sekkitili**, 10200 **Säästötili** ja 10300 **Käteiskassa**. **Tilien alaluokka** -kentän arvoksi on määritetty *Käteinen*, ja niiden yhteenlaskettu summa näkyy *Käteisenä* **Taseen** Excel-raportissa.  
 
 Excel-työkirjan muut taulukot näyttävät raportin taustalla olevat tiedot. Jos haluat tietää, mikä Excel-raporttien ryhmittelyiden perustana on, sinun täytyy ehkä suodattaa [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman luettelot.  
 
-## <a name="the-prod_short-excel-add-in"></a>[!INCLUDE [prod_short](includes/prod_short.md)]in Excel-apuohjelma
+## [!INCLUDE [prod_short](includes/prod_short.md)]in Excel-apuohjelma
 
 [!INCLUDE [prod_short](includes/prod_short.md)]-kokemus sisältää Excelin apuohjelman. Tilauksen mukaan kirjaudut joko automaattisesti tai sinun on annettava kirjautumistiedot [!INCLUDE [prod_short](includes/prod_short.md)]iin. Lisätietoja on kohdassa [Tarkasteleminen ja muokkaaminen Excelissä Business Centralista](across-work-with-excel.md).  
 
 Apuohjelman ansiosta saat uusimmat tiedot [!INCLUDE [prod_short](includes/prod_short.md)]ista ja voit siirtää muutokset takaisin [!INCLUDE [prod_short](includes/prod_short.md)]iin. Mahdollisuus siirtää tiedostot takaisin tietokantaan ei ole käytöstä tarkasteltavissa Excel-raporteissa.  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Näyttäminen ja muokkaaminen Excelissä Business Centralista](across-work-with-excel.md)  
 [Rahoitus](finance.md)  

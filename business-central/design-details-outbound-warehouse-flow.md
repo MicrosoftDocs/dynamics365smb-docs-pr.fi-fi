@@ -1,138 +1,115 @@
 ---
-title: Rakennetiedot – lähtevän fyysisen varastoinnin virta
-description: Tässä aiheessa on tietoja fyysisen varaston lähtevän virran järjestyksestä, vapautetuista lähdeasiakirjoista toimitusvalmiisiin nimikkeisiin.
-author: SorenGP
+title: Fyysisen varaston lähtevän prosessin yleiskatsaus
+description: Tässä artikkelissa käsitellään fyysisen varaston lähtevää työnkulkua.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: 282c6533d7ac8b769c1ec74c42d4808ebc5da380
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139701"
+ms.date: 11/25/2022
+ms.custom: bap-template
 ---
-# <a name="design-details-outbound-warehouse-flow"></a>Rakennetiedot: lähtevän fyysisen varastoinnin virta
+# Fyysisen varaston lähtevät prosessit
 
-Varaston lähtevä virta alkaa kysynnällä liittyvistä lähdeasiakirjoista tuoda nimikkeet varastosijainnista, joko lähetettäviksi ulkoiselle osapuolelle tai yrityksen toiseen sijaintiin. Varastotoiminnot suoritetaan varastoalueelta erilaisilla monimutkaisuustasoilla nimikkeiden siirtämiseksi ulos toimituslaitureille.  
+Lähtevät varastot käynnistyvät fyysisissä varastoissa, kun lähdeasiakirja vapautetaan ottamaan nimikkeitä ulos fyysisestä varastosijainnista. Nimikkeet voidaan esimerkiksi toimittaa jonnekin tai siirtää yrityksen toiseen sijaintiin. Lähtevien tilausten toimitusprosessissa on periaatteessa kaksi toimintaa:
 
- Jokainen nimike tunnistetaan ja kohdistetaan vastaavaan saapuvaan lähdeasiakirjaan. Seuraavat lähtevät lähdeasiakirjat on olemassa:  
+* Nimikkeiden poiminta hyllyiltä.
+* Nimikkeiden toimitus fyysisen varaston ulkopuolelle.
 
-- Myyntitilaus  
-- Lähtevä siirtotilaus  
-- Ostopalautustilaus  
-- Huoltotilaus  
+Fyysisen varastoinnin lähtevien lähdeasiakirjat:  
 
-Lisäksi olemassa on seuraavat sisäiset lähdeasiakirjat, jotka toimivat kuten lähtevät lähteet:  
+* Myyntitilaus  
+* Lähtevä siirtotilaus  
+* Ostopalautustilaus  
+* Huoltotilaus  
 
-- Tuotantotilaus komponenttitarpeella  
-- Kokoonpanotilaus komponenttitarpeella  
+> [!NOTE]
+> Myös komponenttitarpeita sisältävät tuotanto- ja kokoonpanotilaukset ilmaisevat lähtevien lähdeasiakirjoja. Tuotanto- ja kokoonpanotilaukset ovat hieman erilaisia, sillä ne ovat yleensä sisäisiä prosesseja, joihin ei liity toimitusta. Niitä käytetään sen sijaan hyllyttämään tuotettuja nimikkeitä tai siirtämään nimikkeen kokoonpanoon tarvittavia komponentteja kokoonpanoalueelle. Lisätietoja näistä prosesseista on kohdassa [Rakennetiedot: fyysisen varaston sisäiset työnkulut](design-details-internal-warehouse-flows.md).  
 
- Viimeiset kaksi asiakirjaa edustavat varastosta lähteviä virtoja sisäisille toiminta-alueille. Katso lisätietoja sisäisten saapuvien ja lähtevien prosessien fyysisen varaston käsittelystä kohdasta [Rakennetiedot: sisäisen fyysisen varastoinnin virta](design-details-internal-warehouse-flows.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)]issa nimikkeet poimintaan ja toimitukseen on käytettävissä neljä tapaa, jotka käsitellään seuraavassa taulukossa.
 
- Lähtevien fyysisen varastoinnin virtojen prosessit ja käyttöliittymän asiakirjat ovat erilaisia fyysisen varastoinnin perusmäärityksissä ja laajennetuissa varastomäärityksissä. Pääero on, että toiminnot suoritetaan fyysisen varastoinnin perusmäärityksissä tilauskohtaisesti, kun taas laajennetuissa varastomäärityksissä tilaukset konsolidoidaan useiksi tilauksiksi. Lisätietoja varastojen monimutkaisuustasoista on kohdassa [Rakennetiedot: Fyysisen varaston yleiskuvaus](design-details-warehouse-setup.md).  
+|Tapa|Lähtevien käsittely|Vaadi poiminta|Vaadi toimitus|Monimutkaisuustaso (lisätietoja on kohdassa [Varastoinninhallinnan yleiskatsaus](design-details-warehouse-management.md))|  
+|------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
+|A|Poiminnan ja toimituksen kirjaaminen tilausriviltä|||Ei määritettyä fyysisen varaston toimintaa.|  
+|B|Poiminnan ja toimituksen kirjaaminen varaston poiminta-asiakirjasta|Otettu käyttöön||Perus: tilauksittain.|  
+|S|Poiminnan ja toimituksen kirjaaminen fyysisen varastoinnin toimitusasiakirjasta||Otettu käyttöön|Perus: useiden tilausten konsolidoitu vastaanoton ja toimituksen kirjaus.|  
+|P|Poiminnan kirjaaminen fyysisen varastoinnin poiminta-asiakirjasta ja toimituksen kirjaaminen fyysisen varastoinnin toimitusasiakirjasta|Otettu käyttöön|Otettu käyttöön|Lisäasetukset|  
 
- [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa noudon ja toimituksen lähtevät prosessit voidaan suorittaa neljällä tavalla käyttämällä eri toimintoja varastotason monimutkaisuudesta riippuen.  
+Lähestymistavan valinta määräytyy fyysisen varaston käytäntöjen ja organisaation monimutkaisuustason mukaan. Seuraavat esimerkiksi voivat auttaa päätöksenteossa.
 
-|Tapa|Lähtevien käsittely|Varastopaikat|Poiminnat|Toimitukset|Monimutkaisuustaso (katso [Rakennetiedot: Fyysisen varaston asetukset](design-details-warehouse-setup.md))|  
-|------|----------------|----|-----|---------|-------------------------------------------------------------------------------------|  
-|L|Kirjaa poiminta ja lähetys tilausrivistä|X|||2|  
-|B|Poiminnan ja toimituksen kirjaaminen varaston poiminta-asiakirjasta||X||3|  
-|N|Kirjaa poiminta ja lähetyksen fyysisen varastoinnin toimituksen asiakirjasta|||X|4/5/6|  
-|P|Poiminnan kirjaaminen fyysisen varastoinnin poiminta-asiakirjasta ja toimituksen kirjaaminen fyysisen varastoinnin toimituksen asiakirjasta||X|X|4/5/6|  
+* Menetelmän A käyttäminen eli poiminta ja toimitus tilausriviltä on soveltuu yksinkertaisia prosesseja käyttävään tilauskohtaiseen ympäristöön, jossa käytetään yksinkertaista varastopaikkarakennetta.
+* Jos tilausrivin nimikkeet otetaan useasta varastopaikasta tai jos varastotyöntekijät eivät voi käsitellä tilausasiakirjoja, kannattaa käyttää erillisiä poiminta-asiakirjoja eli menetelmää B.
+* Jos poiminta- ja toimitusprosessit sisältävät useita tilauksia ja edellyttävät tarkempaa hallintaa, poiminta- ja toimitustehtävät kannattaa ehkä erottaa valitsemalla fyysisen varastoinnin toimitusasiakirjan ja fyysisen varastoinnin poiminta-asiakirjan käyttäminen eli menetelmät C ja D.  
 
- Lähestymistavan valinta riippuu yrityksen hyväksytyistä käytänteistä ja niiden organisatorisen monimutkaisuuden tasosta. Menetelmän A käyttäminen, eli poiminta ja toimitus tilausriviltä on sopivaa yksinkertaisilla prosesseilla toimivassa tilauskohtaisessa ympäristössä, jossa käytetään yksinkertaista varastopaikkarakennetta. Muissa tilauskohtaisissa yrityksissä, joissa yhden tilausrivin nimikkeet saattavat saapua useammasta kuin yhdestä varastopaikasta tai jos varastotyöntekijät eivät voi työskennellä tilausasiakirjojen kanssa, erillisten poiminta-asiakirjojen käyttö on tarkoituksenmukaista, menetelmä B. Kun yrityksen poiminta- ja toimitusprosessit sisältävät useita tilauksen käsittelyjä ja vaativat täten suurempaa hallintaa ja yleiskuvaa, yritys saattaa valita varaston toimitusasiakirjan ja varaston poiminta-asiakirjan käytön poiminta ja toimitustöiden erottamiseksi, menetelmät C ja D.  
+Menetelmissä A, B ja C poiminta- ja toimitustoiminnot yhdistetään yhteen vaiheeseen, kun asiakirja kirjataan toimitetuksi. Menetelmässä D rekisteröidään ensin poiminta ja sitten toimitus kirjataan sitten myöhemmin eri asiakirjasta.
 
- Menetelmissä A, B ja C poiminnan ja toimituksen toiminnot yhdistetään yhteen vaiheeseen, kun vastaava asiakirja kirjataan toimitetuksi. Menetelmässä D poiminta rekisteröidään ensin ja sitten toimitus kirjataan myöhemmin eri asiakirjasta.  
+> [!NOTE]
+> Vaikka fyysisen varaston hyllytykset ja varaston poiminnat vaikuttavat samanlaisilta, ne ovat eri asiakirjoja ja niitä käytetään eri prosesseissa.
+> * Menetelmässä B käytetty varaston poiminta yhdessä poimintatietojen rekisteröinnin kanssa kirjaa myös lähdeasiakirjan toimituksen.
+> * Menetelmässä D käytettyä fyysisen varaston poimintaa ei voi kirjata, ja se vain rekisteröi poiminnan. Rekisteröintiprosessi tuo nimikkeet saataville fyysisen varastoinnin toimitusta varten mutta ei kirjaa toimitusta. Lähtevässä työnkulussa fyysisen varaston poiminta edellyttää fyysisen varaston toimitusta.
 
-## <a name="basic-warehouse-configurations"></a>Fyysisen varastoinnin perusmääritykset
+## Ei määritettyä varastotoimintoa
 
- Seuraavassa kaaviossa kuvataan lähtevät fyysisen varaston virrat asiakirjatyypeittäin fyysisen varastoinnin perusmäärityksissä. Kaavion luvut vastaavat vaiheita kaavion osa-alueiden mukaan.  
+Seuraavissa artikkeleissa on tietoja lähdeasiakirjojen vastaanottojen käsittelystä, jos varastotoimintoja ei ole määritetty.
 
- ![Lähtevä työnkulku fyysisen varastoinnin perusmäärityksissä.](media/design_details_warehouse_management_outbound_basic_flow.png "Lähtevä työnkulku fyysisen varastoinnin perusmäärityksissä")  
+* [Tuotteen myyminen](sales-how-sell-products.md)
+* [Siirtotilaukset](inventory-how-transfer-between-locations.md)
+* [Ostopalautusten tai peruutusten käsittely](purchasing-how-process-purchase-returns-cancellations.md)
+* [Huoltotilausten luominen](service-how-to-create-service-orders.md)
 
-### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Vapauta lähdeasiakirja / Luo varastopoiminta tai siirto
+## Fyysisen varastoinnin perusmääritykset
 
- Kun lähdeasiakirjoista vastaava käyttäjä, kuten myyntitilausten käsittelijä tai tuotannon suunnittelija, on valmis lähtevää fyysisen varastoinnin toimintoa varten, hän vapauttaa lähdeasiakirjan osoittaakseen varastotyöntekijöille, että myydyt nimikkeet tai osat voidaan poimia ja sijoittaa määritettyihin varastopaikkoihin. Vaihtoehtoisesti käyttäjä voi luoda varaston poiminta- tai siirtoasiakirjat yksittäisille tilausriveille push-muodossa ja tiettyihin lokeroihin ja käsittelymääriin perustuen.  
+Seuraavassa kaaviossa havainnollistetaan fyysisen varaston lähteviä prosesseja eri asiakirjatyyppien osalta fyysisen varastoinnin perusmäärityksissä. Kaavion luvut vastaavat vaiheita kaavion osa-alueiden mukaan.  
 
-> [!NOTE]  
-> Varastosiirtoja käytetään fyysisen varastoinnin perusmäärityksissä nimikkeiden siirtämiseen sisäisille toiminta-alueille lähdeasiakirjojen perusteella tai suunnittelematta.  
+:::image type="content" source="media/design-details-warehouse-management-outbound-basic-flow.png" alt-text="Näkyvissä lähtevien perustyökulun vaiheet fyysisessä varastoinnissa":::
 
-### <a name="2-create-outbound-request"></a>2: Luo lähtevä pyyntö
+### 1: Lähdeasiakirjan vapauttaminen
 
- Kun lähtevä lähdeasiakirja vapautetaan, fyysisen varastoinnin lähtevä pyyntö luodaan automaattisesti. Se sisältää viittauksia lähdeasiakirjan tyyppiin ja numeroon, eikä se ei näy käyttäjälle.  
+Kun **Vapauta**-toimintoa käytetään lähdeasiakirjassa, kuten myynti- tai siirtotilauksessa, asiakirjan nimikkeet ovat valmiita käsiteltäväksi fyysisessä varastoinnissa. Kyse on esimerkiksi poimimisesta ja asiakirjassa määritettyyn varastopaikkaan asettamisesta. Vaihtoehtoisesti tilausten yksittäisille riveille voidaan luoda varaston poiminta-asiakirjoja push-menetelmällä määritettyjen varastopaikkojen ja käsiteltävien määrien perusteella.  
 
-### <a name="3-create-inventory-pick-or-movement"></a>3: Luo varastopoiminta tai siirto
+### 2: Varaston poiminnan luominen
 
- Varastotyöntekijä noutaa pull-muodossa **Varaston poiminta**- tai **Varaston siirto** -sivuilla odottavat lähdeasiakirjarivit, jotka perustuvat lähteviin fyysisen varastoinnin pyyntöihin. Vaihtoehtoisesti, varaston poiminnan rivit on jo luotu push-muodossa sen käyttäjän toimesta, joka on vastuussa lähdeasiakirjasta.  
+Varastotyöntekijä noutaa pull-menetelmällä lähdeasiakirjan rivit **Varaston poiminta**-sivulla. Vaihtoehtoisesti, varaston poiminnan rivit on jo luotu push-muodossa sen käyttäjän toimesta, joka on vastuussa lähdeasiakirjasta.  
 
-### <a name="4-post-inventory-pick-or-register-inventory-movement"></a>4: Kirjaa varaston poiminta tai rekisteröi varastosiirto
+### 3: Varaston poiminnan kirjaaminen
 
- Kaikkien osittain tai kokonaan poimittujen tai siirrettyjen nimikkeiden rivin osalta varastotyöntekijä täyttää **Määrä**-kentän ja kirjaa sitten varaston poiminnan tai rekisteröi varastosiirron. Lähdeasiakirjat, jotka liittyvät varaston poimintaan, on tiliöity lähetettyinä tai käytettyinä. Lähdeasiakirjoja, jotka liittyvät varaston kehitykseen, ei ole lähetetty.  
+Kaikkien osittain tai kokonaan poimittujen tai siirrettyjen nimikkeiden rivin osalta täytetään **Määrä**-kenttä ja kirjataan sitten varaston poiminta.. Lähdeasiakirjat, jotka liittyvät varaston poimintaan, on tiliöity lähetettyinä tai käytettyinä.  
 
- Varastopoiminnoille luodaan negatiiviset nimiketapahtumat, varastomerkinnät luodaan ja poimintapyyntö poistetaan, jos käsittely on suorittu loppuun. Esimerkiksi **Toimitettu määrä** -kenttä lähtevän lähdeasiakirjan rivillä päivitetään. Luodaan kirjatun toimituksen asiakirja, joka vastaa esimerkiksi myyntitilausta ja toimitettuja nimikkeitä.  
+Varastopoiminnoille luodaan negatiiviset nimiketapahtumat, varastomerkinnät luodaan ja poimintapyyntö poistetaan, jos käsittely on suorittu loppuun. Esimerkiksi **Toimitettu määrä** -kenttä lähtevän lähdeasiakirjan rivillä päivitetään. Luodaan kirjatun toimituksen asiakirja, joka vastaa esimerkiksi myyntitilausta ja toimitettuja nimikkeitä.  
 
-## <a name="advanced-warehouse-configurations"></a>Laajennetut varastomääritykset
+## Laajennetut varastomääritykset
 
- Seuraavassa kaaviossa kuvataan lähtevät fyysisen varaston virrat asiakirjatyypeittäin laajennetuissa varastomäärityksissä. Kaavion luvut vastaavat vaiheita kaavion osa-alueiden mukaan.  
+Seuraavassa kaaviossa havainnollistetaan fyysisen varaston lähteviä prosesseja eri asiakirjatyyppien osalta fyysisen varastoinnin laajennetuissa määrityksissä. Kaavion luvut vastaavat vaiheita kaavion osa-alueiden mukaan.  
 
- ![Lähtevä työnkulku fyysisen varastoinnin laajennetuissa määrityksissä.](media/design_details_warehouse_management_outbound_advanced_flow.png "Lähtevä työnkulku fyysisen varastoinnin laajennetuissa määrityksissä")  
+:::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Näkyvissä lähtevien laajennetun työkulun vaiheet fyysisessä varastoinnissa":::
 
-### <a name="1-release-source-document"></a>1: Vapauta lähdeasiakirja
+### 1: Lähdeasiakirjan vapauttaminen
 
- Kun lähdeasiakirjoista vastaava käyttäjä, kuten myyntitilausten käsittelijä tai tuotannon suunnittelija, on valmis lähtevää fyysisen varastoinnin toimintoa varten, hän vapauttaa lähdeasiakirjan osoittaakseen varastotyöntekijöille, että myydyt nimikkeet tai osat voidaan poimia ja sijoittaa määritettyihin varastopaikkoihin.  
+Lähdeasiakirjan vapauttamisen vaikutus on laajennetuissa määrityksissä sama kuin perusmäärityksissä. Nimikkeet tulevat käsiteltäviksi fyysisessä varastoinnissa. Niinpä ne voidaan sisällyttää esimerkiksi toimitukseen.  
 
-### <a name="2-create-outbound-request-2"></a>2: Luo lähtevä pyyntö (2)
+### 2: Fyysisen varaston toimituksen luominen
 
- Kun lähtevä lähdeasiakirja vapautetaan, fyysisen varastoinnin lähtevä pyyntö luodaan automaattisesti. Se sisältää viittauksia lähdeasiakirjan tyyppiin ja numeroon, eikä se ei näy käyttäjälle.  
+**Fyysisen varaston toimitus** -sivulla voidaan hakea vapautetut lähdeasiakirjan rivejä. Useiden lähdeasiakirjojen rivejä voidaan yhdistää yhdessä fyysisen varastoinnin toimituksessa.  
 
-### <a name="3-create-warehouse-shipment"></a>3: Luo fyysisen varaston toimitus
+### 3: Fyysisen varaston poiminnan luominen
 
- Vastuussa oleva toimitustyöntekijä noutaa **F.var. toimitus** -sivulla odottavat lähdeasiakirjarivit, jotka perustuvat lähtevän fyysisen varastoinnin pyyntöön. Useita lähdeasiakirjan rivejä voidaan yhdistää yhdessä varaston lähetysasiakirjassa.  
+Fyysisen varastoinnin toimitusten fyysisen varastoinnin poimintatoiminnot luodaan **Fyysisen varaston toimitus** -sivulla jommallakummalla tavalla:
 
-### <a name="4-release-shipment--create-warehouse-pick"></a>4: Vapauta toimitus / luo varaston poiminta
+- Push-menetelmässä käytetään **Luo poiminta** -toimintoa. Poimittavat rivit valitaan ja poiminnat valmistellaan määrittämällä esimerkiksi, mistä varastopaikoista otetaan ja mihin asetetaan sekä kuinka monta yksikköä käsitellään. Varastopaikat voidaan määrittää ennalta fyysisen varaston sijainnissa tai resurssissa.
+- Pull-menetelmässä käytetään **Vapauta**-toimintoa. Varastontyöntekijät voivat sitten käyttää **Poimintatyökirja**-sivulla **Hae f. varastoinnin asiakirjat** -toimintoa määritettyjen poimintojen hakemiseen. Kun fyysisen varastoinnin poiminnat on rekisteröity kokonaan, **Poimintatyökirja**-kohteen rivit poistetaan.
 
- Toimituksesta vastaava työntekijä, vapauttaa varastotoimitukset niin, että varastotyöntekijät voivat luoda tai koordinoida varastopoiminnat kyseiseen toimitukseen.  
+### 4: Fyysisen varastoinnin poiminnan rekisteröiminen
 
- Vaihtoehtoisesti käyttäjä voi luoda varaston poiminta-asiakirjan yksittäisille toimitusriveille push-muodossa ja tiettyihin lokeroihin ja käsittelymääriin perustuen.  
+Varastotyöntekijä täyttää **F.varastoinnin poiminta** -sivulla **Määrä**-kentän kunkin osittain tai kokonaan poimittujen rivien osalta ja rekisteröi sitten poiminnan.
 
-### <a name="5-release-internal-operation--create-warehouse-pick"></a>5: Vapauta sisäinen toiminto / luo varaston poiminta
+Fyysisen varastoinnin tapahtumat luodaan ja fyysisen varastoinnin poimintarivit poistetaan, jos ne on poimittu kokonaan. Fyysisen varastoinnin poiminta-asiakirja pysyy avoimena siihen saakka, että fyysisen varastoinnin toimituksen koko määrä on rekisteröity. **Määrä poimittu**-kenttä varaston lähetysriveillä on päivitetty sen mukaisesti.  
 
- Sisäisistä toiminnoista vastaava käyttäjä vapauttaa sisäisen lähdeasiakirjan, kuten tuotanto- tai kokoonpanotilauksen. Tällöin varastotyöntekijät voivat luoda kyseiselle sisäiselle toiminnolle fyysisen varastoinnin poimintoja tai koordinoida niitä.  
+### 5: Fyysisen varastoinnin toimituksen kirjaaminen
 
- Vaihtoehtoisesti käyttäjä voi luoda varaston poiminta-asiakirjat yksittäiselle tuotannolle tai kokoonpanotilaukselle push-muodossa ja tiettyihin lokeroihin ja käsittelymääriin perustuen.  
+Kun fyysisen varastoinnin toimitusasiakirjan kaikki nimikkeet on rekisteröity poimituiksi, varastotyöntekijä kirjaa toimituksen. Kirjaaminen päivittää nimiketapahtumat vastaamaan varaston pienentymistä. Esimerkiksi **Toimitettu määrä** -kenttä lähtevän lähdeasiakirjan rivillä päivitetään.  
 
-### <a name="6-create-pick-request"></a>6: Luo poimintapyyntö
+## Katso myös
 
- Kun lähtevä lähdeasiakirja vapautetaan, fyysisen varastoinnin poimintapyyntö luodaan automaattisesti. Se sisältää viittauksia lähdeasiakirjan tyyppiin ja numeroon, eikä se ei näy käyttäjälle. Asetuksesta riippuen tuotanto- ja kokoonpanotilauksen kulutus luo myös poimintapyynnön tarvittavien komponenttien poimimiseksi varastosta.  
-
-### <a name="7-generate-pick-worksheet-lines"></a>7: Luo poimintatyökirjan rivit
-
- Poimintojen koordinoinnista vastaava käyttäjä vastaanottaa fyysisen varastoinnin poimintarivit **Poimintatyökirja**-työkirjan avulla. Tämä perustuu poimintapyyntöihin, jotka saadaan fyysisen varastoinnin toimituksista tai sisäisten toimintojen poimintapyynnöistä, joilla on komponentin kulutusta. Käyttäjä valitsee poimittavat rivit ja valmistelee poiminnat määrittämällä varastopaikat, joista rivit otetaan ja jonne ne laitetaan, sekä käsiteltävien yksiköiden määrän. Binit voidaan määrittää etukäteen varaston sijainnin tai toiminnan resurssien määritysten avulla.  
-
- Käyttäjä määrittää keräysmenetelmät fyysisen varaston käsittelyä varten ja luo vastaavan fyysisen varastoinnin poiminta-asiakirjat. Ne liitetään fyysisen varastoinnin poiminnat suorittaville varastotyöntekijöille. Kun fyysisen varastoinnin poiminnat on kokonaan määritetty, **Poimintatyökirja**-kohteen rivit poistetaan.  
-
-### <a name="8-create-warehouse-pick-documents"></a>8: Luo fyysisen varastoinnin poiminta-asiakirjat
-
- Poiminnan suorittava varastotyöntekijä luo fyysisen varastoinnin poiminta-asiakirjan vapautetun lähdeasiakirjan perusteella. Vaihtoehtoisesti fyysisen varastoinnin poiminta-asiakirja luodaan ja kohdistetaan varastotyöntekijään push-menetelmällä.  
-
-### <a name="9-register-warehouse-pick"></a>9: Rekisteröi f. varastoinnin poiminta
-
- Kaikkien osittain tai kokonaan poimittujen nimikkeiden rivin osalta varastotyöntekijä täyttää **Määrä**-kentän **F.varastoinnin poiminta** -sivulla ja rekisteröi sitten fyysisen varaston poiminnan.  
-
- Fyysisen varastoinnin tapahtumat luodaan ja fyysisen varastoinnin poimintarivit poistetaan, jos ne käsitellään kokonaan. Fyysisen varastoinnin poiminta-asiakirja pysyy avoimena niin kauan, kunnes liittyvän fyysisen varastoinnin toimituksen koko määrä on rekisteröity. **Määrä poimittu**-kenttä varaston lähetysriveillä on päivitetty sen mukaisesti.  
-
-### <a name="10-post-warehouse-shipment"></a>10: Kirjaa F.var. toimitusrivit
-
- Kun fyysisen varastoinnin toimitusasiakirjan kaikki nimikkeet on rekisteröity poimituiksi määritettyihin toimituksen varastopaikkoihin, vastuussa oleva toimitustyöntekijä kirjaa fyysisen varastoinnin toimituksen. Negatiiviset nimiketapahtumat luodaan. Esimerkiksi **Toimitettu määrä** -kenttä lähtevän lähdeasiakirjan rivillä päivitetään.  
-
-## <a name="see-also"></a>Katso myös
-
-[Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
-
+[Varastoinninhallinta](design-details-warehouse-management.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Käytön määrittäminen Microsoft 365 -käyttöoikeuksien avulla
-description: Opas siitä, miten järjestelmänvalvojat voivat määrittää käyttöoikeudet Business Centralin Microsoft 365 -käyttöoikeuksilla.
+description: 'Opas siitä, miten järjestelmänvalvojat voivat määrittää käyttöoikeudet Business Centralin Microsoft 365 -käyttöoikeuksilla.'
 author: mikebc
 ms.author: mikebc
 ms.reviewer: jswymer
@@ -8,20 +8,14 @@ ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/03/2022
 ms.custom: bap-template
-ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.search.forms: 9061
-ms.openlocfilehash: 3b3e7d42e077749bd4443506f7423dce03e9e82f
-ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "9804416"
+ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
+ms.search.form: 9061
 ---
-# <a name="set-up-business-central-access-in-teams-with-microsoft-365-licenses"></a>Business Centralin käytön määrittäminen Teamsissa Microsoft 365 -käyttöoikeuksilla
+# Business Centralin käytön määrittäminen Teamsissa Microsoft 365 -käyttöoikeuksilla
 
 Järjestelmänvalvojien täytyy suorittaa monia aktiviteetteja, ennen kuin käyttäjät voivat käyttää Business Centralia Microsoft 365 -käyttöoikeuksilla. Alla olevat vaiheet ovat vähimmäisasetukset, joilla on tarkoitus aloittaa. Lisätietoja käytöstä Microsoft 365 -käyttöoikeuksilla on kohdassa [Business Centralin käyttäminen Microsoft 365 -käyttöoikeuksilla](admin-access-with-m365-license.md).
 
-## <a name="deploy-the-business-central-app-for-teams"></a>Ota käyttöön Business Central-sovellus Teamsille
+## Ota käyttöön Business Central-sovellus Teamsille
 
 Jotta Business Central -lisenssin haltijat voivat jakaa tietoja Teamsissa ja Microsoft 365 -käyttöoikeuden haltijat voivat käyttää näitä tietoja, kummallakin on oltava asennettuna Business Central -sovellus Teamsille. Vaikka käyttäjät voivat asentaa sovelluksen itse, järjestelmänvalvojat suosittelevat, että järjestelmänvalvojat käyttävät keskitettyä käyttöönottoa. Keskitetyn käyttöönoton avulla voit vierittää sovelluksen laajemmalle yleisölle koko organisaatiossa ja minimoida yksittäisen käyttäjän toimet. 
 
@@ -33,7 +27,7 @@ Jos haluat tietää, miten Business Central -sovellus Teamsille otetaan keskitet
 > [!TIP]
 > Etsitkö nopeampaa tapaa päästä alkuun tätä ominaisuutta kokeiltaessa? Testikäyttäjät voivat asentaa sovelluksen osoitteesta [aka.ms/BCgetTeamsApp](https://aka.ms/BCgetTeamsApp).
 
-## <a name="configure-permissions"></a>Oikeuksien määritys
+## Oikeuksien määritys
 
 Business Central on suunniteltu suojatuksi ja minimoi riskit olemalla myöntämättä valmiita oikeuksia Microsoft 365 -käyttäjille. Järjestelmänvalvojien täytyy määrittää objektien käyttöoikeudet, jotka määrittävät, mitä taulukoita, sivuja ja raportteja voi käyttää Teamsissa vain Microsoft 365 -käyttöoikeuden avulla. Nämä käyttöoikeudet ovat aloitusoikeuksia, jotka määritetään, kun käyttäjä kirjautuu ensimmäisen kerran Microsoft 365 -käyttöoikeudellaan. 
 
@@ -56,7 +50,7 @@ Kun työskentelet useissa ympäristöissä, käyttöoikeusmääritykset täytyy 
 
 Lue lisätietoja kohdassa [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md) ja [Oikeusjoukkojen luominen](/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-composing).
 
-## <a name="turn-on-access-with-microsoft-365-licenses"></a>Microsoft 365 -käyttöoikeuksien käytön käyttöönotto
+## Microsoft 365 -käyttöoikeuksien käytön käyttöönotto
 
 Microsoft 365 -käyttöoikeudet ovat oletusarvoisesti poissa käytöstä. Käyttöoikeus on otettava käyttöön jokaisessa ympäristössä itsenäisesti, jolloin järjestelmänvalvojat voivat hallita ja mahdollistaa vaiheittaisen käyttöönoton koko organisaatiossa. Käyttöoikeus kytketään päälle Business Central -hallintakeskuksen avulla: 
 
@@ -66,7 +60,7 @@ Microsoft 365 -käyttöoikeudet ovat oletusarvoisesti poissa käytöstä. Käytt
 4. Ota valinta käyttöön **Microsoft 365 -käyttöoikeudet** -ruudussa. 
 5. Valitse **Tallenna**, kun olet valmis, ja hyväksy vahvistus. Muutos astuu voimaan välittömästi.
 
-## <a name="test-your-setup"></a>Testaa asennustasi
+## Testaa asennustasi
 
 Seuraavien vaiheiden avulla voit varmistaa, että asetukset ovat valmiit tuotantoa varten, ja varmistaa, että kaikki toimii niin kuin pitääkin. 
 
@@ -90,7 +84,7 @@ Seuraavien vaiheiden avulla voit varmistaa, että asetukset ovat valmiit tuotant
 > [!TIP]
 > Tapahtuiko virhe? Katso [Microsoft 365 -käyttöoikeuksien käytön vianmääritys](admin-access-with-m365-license-troubleshooting.md).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Yleiskatsaus Business Centralin käyttämisestä Microsoft 365 -käyttöoikeuksilla](admin-access-with-m365-license.md#minimum-requirements)  
 [Microsoft 365 -käyttöoikeuksien käytön vianmääritys](admin-access-with-m365-license-troubleshooting.md)  

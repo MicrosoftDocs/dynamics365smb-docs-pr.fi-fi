@@ -1,23 +1,17 @@
 ---
 title: Business Central -sovelluksen mukauttaminen
-description: Lue lisää Business Centralin mukauttamisen eri tavoista parantaaksesi toimintoja ja ominaisuuksia, joita tarvitset eniten päivittäisessä työssäsi.
+description: 'Lue lisää Business Centralin mukauttamisen eri tavoista parantaaksesi toimintoja ja ominaisuuksia, joita tarvitset eniten päivittäisessä työssäsi.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: personalize, add-in, extend, customize
-ms.search.form: 2500, 2502
+ms.search.keywords: 'personalize, add-in, extend, customize'
+ms.search.form: '2500, 2502'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 1feffa480e3bdf6236801e666646ea5aaddd8876
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606087"
 ---
-# <a name="customize-business-central"></a>Business Centralin mukauttaminen
+# Business Centralin mukauttaminen
 
 Sovelluksen voi mukauttaa useilla eri tavoilla, jotta sinä ja työtoverisi voitte käyttää eniten tarvitsemianne ominaisuuksia, toimintoja ja tietoja tavalla, joka sopii parhaiten päivittäiseen työhönne. Seuraavassa taulukossa kerrotaan ketkä näkevät muutokset sen mukaan, mitä teet.
 
@@ -34,9 +28,9 @@ Sovelluksen voi mukauttaa useilla eri tavoilla, jotta sinä ja työtoverisi voit
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen käyttäjän dokumentaation kaikkien toimintojen kuvauksissa käsitellään **Premium**-käyttökokemusta. Tämä tarkoittaa sitä, että kuvaukset sisältävät käyttöliittymän kaikki elementit. Tämän vuoksi **Essential**-käyttökokemuksen käyttäjien ohjeaiheissa saatetaan käsitellä toimintoja ja käyttöliittymän elementtejä, jotka eivät ole käytettävissä käyttöliittymässä. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/tailor-roles-design-ui/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/tailor-roles-design-ui/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

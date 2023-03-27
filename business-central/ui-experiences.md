@@ -1,23 +1,17 @@
 ---
 title: Näytettävien ominaisuuksien muuttaminen
-description: Tietoja siitä, miten Essential- ja Basic-käyttäjäkokemus tarkoittaa käyttöliittymässä, sovellusalueilla ja yrityksessä.
+description: 'Tietoja siitä, miten Essential- ja Basic-käyttäjäkokemus tarkoittaa käyttöliittymässä, sovellusalueilla ja yrityksessä.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: essential, basic, user interface, application area, experience
+ms.search.keywords: 'essential, basic, user interface, application area, experience'
 ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b3e053bf59a9019b9f736e24936f0e9a68a5daab
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521674"
 ---
-# <a name="change-which-features-are-displayed"></a>Näytettävien ominaisuuksien muuttaminen
+# Näytettävien ominaisuuksien muuttaminen
 [!INCLUDE[prod_short](includes/prod_short.md)] on suunniteltu auttamaan sinua pyörittämään yritystäsi sen koosta ja monimutkaisuudesta riippumatta. Tuotteen ytimessä on olennaisia ominaisuuksia, kuten talousraportointi, myynti, osto ja varastonhallinta. Kun liiketoiminnan monimutkaisuus kasvaa, voit ottaa käyttöön esimerkiksi tuotannon ja huollon hallinnan toiminnot.
 
 Voit määrittää tuotteen monimutkaisuustason ja siten sen, mihin ominaisuuksiin yrityksen käyttäjät pääsevät muuttamalla **Kokemus**-asetuksia **Yrityksen tiedot** -sivulla. Huomaa, että kokemusasetusta voidaan muuttaa myös lisäämällä tiettyjä laajennuksia AppSourcesta. Lisätietoja on kohdassa [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md).
@@ -38,10 +32,10 @@ Ennen kuin määrität yrityksen kokemusasetukset, voit määrittää käyttäji
 
 **Kokemus**-asetus koskee yrityksen kaikkia käyttäjiä, mutta jokainen käyttäjä voi mukauttaa omia kokemuksiaan muuttamalla sivun asettelua ja sisältöä. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
-## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Premium-ominaisuuksien käyttöönotto suunnitelman päivittämisen jälkeen
+## Premium-ominaisuuksien käyttöönotto suunnitelman päivittämisen jälkeen
 Käyttäjille määritetään suunnitelmat Microsoft 365 -hallintakeskuksessa samassa yhteydessä kuin Business Central -käyttäjiä määritetään. Lisätietoja on kohdassa [Käyttäjien lisääminen ja käyttöoikeuksien määrittäminen samaan aikaan](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
-### <a name="to-update-plan-changes-in-users-groups"></a>Suunnitelman muutoksien päivittäminen käyttäjäryhmissä
+### Suunnitelman muutoksien päivittäminen käyttäjäryhmissä
 Kun olet tehnyt muutoksia käyttäjien suunnitelmiin Microsoft 365 -hallintakeskuksessa (kuten määrittänyt enemmän käyttäjiä Premium-suunnitelmaan), sinun tulee tehdä muutoksia myös [!INCLUDE[prod_short](includes/prod_short.md)]:ssa.
 
 1. Kirjaudu sisään järjestelmänvalvojana.
@@ -50,15 +44,15 @@ Kun olet tehnyt muutoksia käyttäjien suunnitelmiin Microsoft 365 -hallintakesk
 
 Käyttäjien suunnitelmien ja heidän määriteltyjen käyttäjäryhmiensä uudet tiedot päivitetään nyt suunnitelman muutoksien mukaisesti.
 
-### <a name="to-select-the-premium-experience"></a>Premium-käyttäjäkokemuksen valinta
+### Premium-käyttäjäkokemuksen valinta
 Voit nyt siirtyä valitsemaan uuden käyttökokemuksen.
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yrityksen tiedot** ja valitse sitten vastaava linkki.
 2. Valitse **Yrityksen tiedot** -sivun **Käyttäjäkokemus**-pikavälilehden **Kokemus**-kentässä Premium.
 
-## <a name="help-assumes-premium-experience"></a>Ohje käsittelee Premium-käyttäjäkokemusta
+## Ohje käsittelee Premium-käyttäjäkokemusta
 [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen käyttäjän dokumentaation kaikkien toimintojen kuvauksissa käsitellään **Premium**-käyttökokemusta. Tämä tarkoittaa sitä, että kuvaukset sisältävät käyttöliittymän kaikki elementit.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Työtilan mukauttaminen](ui-personalization-user.md)  
 [Business Central -sovelluksen mukauttaminen](ui-customizing-overview.md)  
 [Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md)  

@@ -6,14 +6,8 @@ ms.topic: conceptual
 ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e6b242bc3da6a2845c457cfbfcfaf80e6c71d31d
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605108"
 ---
-# <a name="set-up-payment-terms"></a>Maksuehtojen määrittäminen
+# Maksuehtojen määrittäminen
 
 Maksuehdot määrittävät, miten eräpäiviä ja maksualennuksia hallitaan. Maksuehtoja voi määrittää kuinka monta tahansa, ja niiden määrittämiseen voi käyttää päivämääräkaavoja. Kun ensin rekisteröit [!INCLUDE [prod_short](includes/prod_short.md)]in, esittely-yritys tarjoaa muutamia maksutapoja, joita yritykset usein käyttävät. Voit kuitenkin lisätä niitä tarvittavan määrän.  
 
@@ -25,7 +19,7 @@ Vastaavasti kun kirjaat hyvityslaskun, [!INCLUDE [prod_short](includes/prod_shor
 
 Jos haluat lähettää asiakkaille muistutuksia erääntyneistä maksuista, sinun täytyy määrittää muistutustasot ja -ehdot. Lisätietoja on ohjeaiheessa [Muistutusehtojen ja -tasojen määrittäminen](finance-setup-reminders.md).  
 
-## <a name="to-set-up-payment-terms"></a>Maksuehtojen määrittäminen
+## Maksuehtojen määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksuehdot** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -37,7 +31,7 @@ Kun olet määrittänyt maksuehdot, voit määrittää ne asiakkaille ja toimitt
 >
 > Tietyissä maissa/alueilla *voit* määrittää maksuehdot osittaisilla maksuilla. Jos haluat tietää, tuetaanko kyseistä toimintoa maassasi/alueellasi, tutustu [Microsoft Learn](about-localization.md) -artikkelin **Paikalliset toiminnot** -osaan.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Maksutapojen määrittäminen](finance-payment-methods.md)  
 [Ennakkomaksujen määrittäminen](finance-set-up-prepayments.md)  

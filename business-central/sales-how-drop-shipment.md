@@ -1,6 +1,6 @@
 ---
 title: Suoratoimitusten tekeminen (sisältää videon)
-description: Tässä artikkelissa kerrotaan, miten ostotilaukseen linkitetty myyntitilaus luodaan. Näin toimitus voidaan tehdä suoraan toimittajalta asiakkaalle.
+description: 'Tässä artikkelissa kerrotaan, miten ostotilaukseen linkitetty myyntitilaus luodaan. Näin toimitus voidaan tehdä suoraan toimittajalta asiakkaalle.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f04f49c301b38236be1dda3334e8560584a4e6b4
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528891"
 ---
-# <a name="make-drop-shipments"></a>Suoratoimitusten tekeminen
+# Suoratoimitusten tekeminen
 
 Suoratoimitus on nimikkeen toimitus yhdeltä toimittajistasi suoraan yhdelle asiakkaistasi.
 
@@ -25,7 +19,7 @@ Kun myyntilaus on merkitty suoratoimitusta varten ja luot ostotilauksen, jossa a
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM?rel=0]
 
-## <a name="to-create-a-sales-order-for-drop-shipment"></a>Myyntitilauksen luominen suoratoimitusta varten
+## Myyntitilauksen luominen suoratoimitusta varten
 
 Voit valmistella suoratoimituksen luomalla nimikkeelle myyntitilauksen. Myyntirivillä tulee määrittää, että myynti vaatii suoratoimituksen.
 
@@ -35,7 +29,7 @@ Voit valmistella suoratoimituksen luomalla nimikkeelle myyntitilauksen. Myyntiri
 > [!TIP]
 > Oletusarvon mukaan suoratoimitus-valintaruutu ei ole käytettävissä riveillä. Jos sitä ei ole, voit lisätä sen mukauttamalla rivit sisältävän sivun osan. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
-## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Ostotilauksen luominen suoratoimitukselle
+## Ostotilauksen luominen suoratoimitukselle
 
 Voit valmistella suoran toimituksen määrittämällä ostotilaukseen, että se täytyy toimittaa asiakkaalle, ei itsellesi.
 
@@ -52,7 +46,7 @@ Voit nyt kehottaa myyjääsi lähettämään tuotteet suoraan asiakkaalle. Voit 
 
 Jos toimittajasi tarjoaa seurantanumeron tai vastaavia tietoja, voit lisätä nämä tiedot ostotilausriville, jonka tyyppi on *Kommentti*.  
 
-## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Useiden ostotilausten luominen suoratoimituksille
+## Useiden ostotilausten luominen suoratoimituksille
 
 Voit myös käyttää hankintatyökirjaa luodaksesi ostotilauksen toimittajalle. 
 
@@ -64,11 +58,11 @@ Hankintatyökirjan käyttämisen etuna on se, että se voi luoda ostotilauksia k
 4. Tarkista ostotilausrivit ja valitse **Toimittajan nro** -kentässä toimittaja, joka toimittaa vaadittuja tavaroita. 
 5. Valitse **Toteuta toimenpideviesti** -toiminto, jos haluat muuntaa tarkistetut rivit ostotilaukseksi.
 
-## <a name="to-view-the-linked-purchase-order-from-the-sales-order"></a>Myyntitilauksesta linkitetyn ostotilauksen tarkasteleminen
+## Myyntitilauksesta linkitetyn ostotilauksen tarkasteleminen
 
 * Valitse suoratoimituksen myyntitilauksen rivi ja valitse sitten **Tilaa**-toiminto. Valitse **Suoratoimitus**-toiminto ja valitse sitten **Ostotilaus**-toiminto.
 
-## <a name="to-post-a-drop-shipment"></a>Kirjaa suoratoimitus
+## Kirjaa suoratoimitus
 
 Kun toimittaja toimittaa nimikkeet, voit kirjata myyntitilauksen toimitetuksi. Voit kirjata myös ostotilauksen, mutta vain **Vastaanotto**-vaihtoehdon kanssa niin kauan, kunnes myyntitilaus on laskutettu.
 
@@ -78,9 +72,9 @@ Kun toimittaja toimittaa nimikkeet, voit kirjata myyntitilauksen toimitetuksi. V
 4. Valitse **Kirjaa**- tai **Kirjaa ja lähetä** -toiminto.
 5. Valitse **Toimitus**-vaihtoehto, kun haluat laskuttaa myöhemmin, tai **Toimitus ja lasku** -vaihtoehto, kun haluat laskuttaa heti.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Erikoistilausten luominen](sales-how-to-create-special-orders.md)  
 [Nimikkeiden ostaminen myyntiin](purchasing-how-purchase-products-sale.md)  

@@ -1,29 +1,23 @@
 ---
 title: Paikalliset toiminnot ja lokalisointistrategia
-description: Tutustu Business Centralin paikalliseen saatavuuteen ja sääntelynmukaisuuteen niissä maissa ja niillä alueilla, joissa Microsoft tarjoaa paikallisia toimintoja.
+description: 'Tutustu Business Centralin paikalliseen saatavuuteen ja sääntelynmukaisuuteen niissä maissa ja niillä alueilla, joissa Microsoft tarjoaa paikallisia toimintoja.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: availability, localization
-ms.search.form: ''
+ms.search.keywords: 'availability, localization'
+ms.search.form: null
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a0468ce2d5c58fae7fc8298b4f4bf320ba3540ce
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655720"
 ---
-# <a name="local-functionality-in-prod_long"></a>[!INCLUDE[prod_long](includes/prod_long.md)]in paikalliset toiminnot
+# [!INCLUDE[prod_long](includes/prod_long.md)]in paikalliset toiminnot
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in yhdistetty lokalisaatiostrategia sisältää sekä Microsoftin että kumppanin vetämät mallit. Tässä osassa on kuvaukset niissä maissa käytettävistä toiminnoista, joissa säädösten noudattaminen ja muut paikalliset toiminnot saadaan Microsoftin avulla.  
 
 Luettelo tällä hetkellä tuetuista markkinoista on kohdassa [Saatavuus maassa/alueella ja tuetut käännökset.](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 
-## <a name="local-functionality"></a>Paikalliset toiminnot
+## Paikalliset toiminnot
 
 Saat lisätietoja kunkin maan/alueen paikallisista toiminnoista valitsemalla sopivan linkin:
 
@@ -54,11 +48,11 @@ Saat lisätietoja kunkin maan/alueen paikallisista toiminnoista valitsemalla sop
 |        | Intia | [Intian paikalliset toiminnot](LocalFunctionality/India/india-local-functionality.md) |
 |        | Uusi-Seelanti | [Uusi-Seelannin paikalliset toiminnot](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### <a name="other-countries"></a>Muut maat
+### Muut maat
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on saatavana myös muilla markkina-alueilla lokalisointisovellusten kautta. Jos Microsoftin kumppani on kehittänyt maassasi/alueellasi käytettävän lokalisointisovelluksen, löydät sen [AppSourcesta](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Yhteensopivuus](compliance/compliance-overview.md)  

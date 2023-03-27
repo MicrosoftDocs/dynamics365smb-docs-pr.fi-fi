@@ -3,18 +3,13 @@ title: Tulevien ominaisuuksien käyttöönotto etuajassa
 description: Lisätietoja valinta- ja valinnaisten ominaisuuksien ottamisesta käyttöön ennen kuin ne tulevat pakollisiksi.
 author: mikebcMSFT
 ms.topic: conceptual
-ms.search.keywords: administration, admin, key, optional, feature management, early access, preview
+ms.search.keywords: 'administration, admin, key, optional, feature management, early access, preview'
 ms.search.form: 2610
 ms.date: 06/14/2021
 ms.author: mikebc
-ms.openlocfilehash: 0ff7ee2a56b762609e2b15f101c1e4abc9bd46cd
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533346"
 ---
-# <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Uusien ja tulevien ominaisuuksien käyttöönotto etuajassa
+
+# Uusien ja tulevien ominaisuuksien käyttöönotto etuajassa
 
 Joitakin uusia ominaisuuksia voidaan ottaa käyttöön etuajassa, joten voit hyödyntää niitä mahdollisimman aikaisin. Ominaisuuksien ottaminen käyttöön varhaisessa vaiheessa antaa sinulle aika testata ja valmistella organisaatiota muutokselle.
 
@@ -22,9 +17,9 @@ Kun Microsoft julkaisee ominaisuuksia tai ominaisuuksia koskevia parannuksia osa
 
 Lue lisää kohdasta [Ominaisuuksien hallinta](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/admin-online-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/admin-online-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Uusia ja suunniteltuja ominaisuuksia](/dynamics365-release-plan/2021wave1/)  
 

@@ -1,23 +1,17 @@
 ---
 title: Kirjauksen kumoaminen kirjaamalla palautustapahtuma
-description: Jos olet tehnyt virheellisen kirjauksen yleiseen päiväkirjaan, Peruuta tapahtuma -toiminnolla kumottu kirjaus luo oikean kirjausketjun.
+description: 'Jos olet tehnyt virheellisen kirjauksen yleiseen päiväkirjaan, Peruuta tapahtuma -toiminnolla kumottu kirjaus luo oikean kirjausketjun.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reimbursement
-ms.search.form: 20, 25, 29, 38, 202, 5912,
+ms.search.form: '20, 25, 29, 38, 202, 5912,'
 ms.date: 07/22/2021
 ms.author: bholtorf
-ms.openlocfilehash: d00f8b355e25e15a6aa610dd3392bfc63b7bfad3
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728678"
 ---
-# <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen
+# Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen
 
 Käänteiset päiväkirjan kirjaukset ovat hyödyllisiä esimerkiksi virheiden korjaamiseen ja vanhan jaksotustapahtuman tyhjentämiseen ennen uuden syöttämistä. Käänteinen kirjaus on sama kuin alkuperäinen kirjaus, mutta sillä on vastakkainen merkki **Summa**-kentässä. Käänteisellä kirjauksella tulee olla sama asiakirjanumero ja kirjauspäivämäärä kuin alkuperäisessä kirjauksessa. Kun peruutat tapahtuman, lisää tapahtuma korjattuna.
 
@@ -29,7 +23,7 @@ Jos olet tehnyt virheellisen negatiivisen määräkirjauksen, kuten kirjannut os
 
 Jos olet tehnyt virheellisen positiivisen määräkirjauksen, kuten kirjannut myyntitoimitukselle tai ostopalautustoimitukselle väärän määrän toimitetuksi mutta ei laskutetuksi, voit kumota kirjauksen.
 
-## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Pääkirjanpidon tapahtuman päiväkirjakirjauksen peruuttaminen
+## Pääkirjanpidon tapahtuman päiväkirjakirjauksen peruuttaminen
 
 Tapahtumia voi peruuttaa kaikista **Tapahtumakirjaukset**-sivuilta. Seuraava menettely perustuu **Pääkirjanpidon tapahtumat** -sivuun.
 
@@ -43,7 +37,7 @@ Tapahtumia voi peruuttaa kaikista **Tapahtumakirjaukset**-sivuilta. Seuraava men
 3. Valitse **Peruuta tapahtumakirjaukset**-sivulla **Peruuta**-toiminto.
 4. Vahvista peruutus valitsemalla **Kyllä**.
 
-## <a name="to-post-a-negative-entry"></a>Negatiivisen tapahtuman kirjaaminen  
+## Negatiivisen tapahtuman kirjaaminen  
 
 Kirjaa **Korjaus**-kentän avulla tilille negatiivinen debet kreditin sijaan tai negatiivinen kredit debetin sijaan. Oletusarvon mukaan kenttä on käytettävissä kaikissa päiväkirjoissa. **Debet-summa**- ja **Kredit-summa**-kentät sisältävät sekä alkuperäisen että korjatun tapahtuman. Kentät eivät vaikuta tilin saldoon.  
 
@@ -53,7 +47,7 @@ Kirjaa **Korjaus**-kentän avulla tilille negatiivinen debet kreditin sijaan tai
 4. Valitse **Korjaus**-valintaruutu sen kirjauskansion rivillä, jonka haluat ottaa käyttöön negatiivisia tapahtumia varten.  
 5. Kirjaa kirjauskansio valitsemalla **Kirjaa**-toiminto ja valitsemalla sitten **Kyllä**-painike.
 
-## <a name="to-undo-a-quantity-on-a-posted-purchase-receipt"></a>Kirjatun ostovastaanoton määrän kumoaminen  
+## Kirjatun ostovastaanoton määrän kumoaminen  
 
 Seuraavissa vaiheissa kerrotaan, miten kirjattu nimikkeiden tai resurssien vastaanotto kumotaan. Vaiheet ovat samankaltaisia kirjatuissa toimituksissa.
 
@@ -66,7 +60,7 @@ Korjaava rivi lisätään valitun kuittirivin alle. Jos määrä vastaanotettiin
 
 **Vastaanotettu määrä** ja **Vast.otettu laskuttamaton määrä** -kenttien arvoiksi liittyvällä ostotilauksella asetetaan nolla.
 
-## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Kirjatun palautustoimituksen määrän kirjauksen kumoaminen ja tekeminen uudelleen
+## Kirjatun palautustoimituksen määrän kirjauksen kumoaminen ja tekeminen uudelleen
 
 Seuraavissa vaiheissa kerrotaan, miten
 
@@ -92,7 +86,7 @@ Vaiheet ovat samankaltaisia kirjatuissa palautuskuiteissa.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Kokoonpanon kirjauksen kumoaminen](assembly-how-to-undo-assembly-posting.md)  
 [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)  

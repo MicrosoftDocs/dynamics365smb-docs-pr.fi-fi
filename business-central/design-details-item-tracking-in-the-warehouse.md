@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: design, item, tracking, serial number, lot number, outbound documents
+ms.search.keywords: 'design, item, tracking, serial number, lot number, outbound documents'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 0b101215e06e33bbbafdf0c38e18ac3ddaa6774a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141305"
 ---
-# <a name="design-details-item-tracking-in-the-warehouse"></a>Rakennetiedot: nimikkeen seuranta f. varastossa
+# Rakennetiedot: nimikkeen seuranta f. varastossa
 Sarjanumeron ja eränumeron käsittely on ensisijaisesti varaston tehtävä ja siksi kaikilla saapuvilla ja lähtevillä varastodokumenteilla on perustoimintatarkoitus nimikkeiden seurantanumeroiden määrittämiselle ja valinnalle.  
 
 Koska varausjärjestelmä perustuu nimiketapahtumiin, sellaisia varastoinnin toimenpideasiakirjoja ei tueta täysin, jotka rekisteröivät vain fyysisen varastoinnin tapahtumia. Koska varaukset ja nimikkeen seurantanumerot voidaan käsitellä vain sijaintitasolla, ei lokero- ja vyöhyketasolla, **Nimikkeen seurantarivi**-sivua ei voida avata varastotoiminnon asiakirjoista. Sama koskee **Varaus**-sivua.  
@@ -25,7 +19,7 @@ Kun sarja- tai eränumero on lisätty nimikkeeseen varastosijainnissa, se voidaa
 
 Varausjärjestelmä ottaa saatavuuden laskennassa kuitenkin huomioon fyysisen varastoinnin toimenpiteet. Esimerkiksi poimintoihin varattuja tai poimituiksi rekisteröityjä nimikkeitä ei voi varata. Lisätietoja on kohdassa [Rakennetiedot: varastosaatavuus](design-details-availability-in-the-warehouse.md).
 
-## <a name="see-also"></a>Katso myös  
+## Katso myös  
 [Rakennetiedot: nimikkeen seuranta](design-details-item-tracking.md)  
 [Rakennetiedot: integrointi varaston kanssa](design-details-integration-with-inventory.md)  
 [Rakennetiedot: varastosaatavuus](design-details-availability-in-the-warehouse.md)  

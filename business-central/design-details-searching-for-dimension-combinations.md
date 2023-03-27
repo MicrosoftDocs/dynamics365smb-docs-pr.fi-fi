@@ -1,28 +1,22 @@
 ---
 title: Rakennetiedot – Dimensioyhdistelmien etsiminen | Microsoft Docs
-description: Kun suljet sivun dimensioyhdistelmän muokkaamisen jälkeen, Business Central arvioi, onko muokattu dimensiojoukko olemassa. Jos yhdistelmää ei ole olemassa, järjestelmän luo uuden ja palauttaa dimensioyhdistelmän tunnuksen.
+description: 'Kun suljet sivun dimensioyhdistelmän muokkaamisen jälkeen, Business Central arvioi, onko muokattu dimensiojoukko olemassa. Jos yhdistelmää ei ole olemassa, järjestelmän luo uuden ja palauttaa dimensioyhdistelmän tunnuksen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 7ad41e67eb84149f2c17ea5d00fce0b6cd306f74
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366146"
 ---
-# <a name="design-details-searching-for-dimension-combinations"></a>Rakennetiedot: dimensioyhdistelmien etsiminen
+# Rakennetiedot: dimensioyhdistelmien etsiminen
 Kun suljet sivun dimensioyhdistelmän muokkaamisen jälkeen, [!INCLUDE[prod_short](includes/prod_short.md)] arvioi, onko muokattu dimensiojoukko olemassa. Jos yhdistelmää ei ole olemassa, järjestelmän luo uuden ja palauttaa dimensioyhdistelmän tunnuksen.  
 
-## <a name="building-search-tree"></a>Rakennetaan hakupuuta  
+## Rakennetaan hakupuuta  
  Taulukkoa 481 **Dimensionasetuksen puusolmu** käytetään, kun [!INCLUDE[prod_short](includes/prod_short.md)] arvioi onko dimensiosarja jo olemassa taulukossa 480 **Dimensionasetuskirjaus**. Arviointi suoritetaan kulkemalla hakupuu läpi rekursiivisesti aloittaen ylätason numerosta 0. Ylätason 0 edustaa dimensiosarjaa, jossa ei ole dimensiosarjan kirjauksia. Tämän dimensiosarjan jälkeläiset edustavat dimensiosarjoja, joilla on vain yksi dimensiosarjan kirjaus. Näiden dimensiosarjojen jälkeläiset edustavat dimensiosarjoja, joilla on kaksi jälkeläistä jne.  
 
-### <a name="example-1"></a>Esimerkki 1  
+### Esimerkki 1  
  Seuraava kaavio esittelee hakupuun ja kuusi dimensiosarjaa. Kaaviossa näkyy vain erottava dimensioyhdistelmä.  
 
  ![Esimerkki dimension puurakenteesta.](media/nav2013_dimension_tree.png "Esimerkki dimension puurakenteesta")  
@@ -39,14 +33,14 @@ Kun suljet sivun dimensioyhdistelmän muokkaamisen jälkeen, [!INCLUDE[prod_shor
 |Aseta 5|AREA 40|  
 |Aseta 6|AREA 40, PROJ VW|  
 
-### <a name="example-2"></a>Esimerkki 2  
+### Esimerkki 2  
  Tämä esimerkki osoittaa, miten [!INCLUDE[prod_short](includes/prod_short.md)] arvioi, onko dimensioyhdistelmän tapahtumat AREA 40 ja DEPT PROD sisältävä dimensioyhdistelmä olemassa.  
 
  [!INCLUDE[prod_short](includes/prod_short.md)] varmistaa ensin päivittämällä **Dimensioyhdistelmän puusolmu** -taulukon, että hakupuu näyttää samalta kuin seuraavassa kaaviossa. Dimensioyhdistelmästä 7 tulee dimensioyhdistelmän 5 alitaso.  
 
  ![Esimerkki dimension puurakenteesta NAV 2013 -sovelluksessa.](media/nav2013_dimension_tree_example2.png "Esimerkki dimension puurakenteesta NAV 2013 -sovelluksessa")  
 
-### <a name="finding-dimension-set-id"></a>Dimensioyhdistelmän tunnuksen etsiminen  
+### Dimensioyhdistelmän tunnuksen etsiminen  
  Käsitteellisellä tasolla hakupuun **Päätunnus**, **Dimensio** ja **Dimensioarvo** yhdistetään ja niitä käytetään perusavaimena, koska [!INCLUDE[prod_short](includes/prod_short.md)] kulkee puussa samassa järjestyksessä kuin dimensiotapahtumat. GET-toimintoa (tietue) käytetään etsimään dimensiosarjan tunnusta. Seuraava koodiesimerkki osoittaa, kuinka löydetään dimensiosarjan tunnus, kun dimensioarvoja on kolme.  
 
 ```  
@@ -71,7 +65,7 @@ EXIT(DimSet.ID);
 
 ```  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
     
  [Rakennetiedot: dimensioyhdistelmän tapahtumat](/dynamics365/business-central/design-details-dimension-set-entries-overview)   
  [Dimensioyhdistelmätapahtumien yleiskuva](design-details-dimension-set-entries-overview.md)   

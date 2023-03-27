@@ -1,23 +1,17 @@
 ---
 title: Analysoi tiedot dimensioiden mukaan
-description: Tässä artikkelissa kuvataan, miten liiketoimintatietoja voidaan analysoida dimensioiden avulla saadaksesi paremman käsityksen yrityksestäsi.
+description: 'Tässä artikkelissa kuvataan, miten liiketoimintatietoja voidaan analysoida dimensioiden avulla saadaksesi paremman käsityksen yrityksestäsi.'
 author: edupont
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 545, 555, 556, 557, 558, 9372, 9370, 9371
+ms.search.keywords: 'bi, power BI, analysis, KPI'
+ms.search.form: '545, 555, 556, 557, 558, 9372, 9370, 9371'
 ms.date: 09/22/2022
 ms.author: edupont
-ms.openlocfilehash: 62c0cdbb3641ab55c58d5ce944591b2aeef7f059
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606249"
 ---
-# <a name="analyze-data-by-dimensions"></a>Analysoi tiedot dimensioiden mukaan
+# Analysoi tiedot dimensioiden mukaan
 
 Talousanalyysissä dimensio on tieto, jonka lisäät tapahtumaan eräänlaiseksi merkiksi. Tämän tiedon avulla voi yhdistää ryhmiksi tapahtumia, joilla on samoja ominaisuuksia, kuten asiakkaita, alueita, tuotteita tai myyjiä, sekä noutaa nämä ryhmät helposti analysoitavaksi. Dimensioita voi käyttää päiväkirjojen tapahtumissa, asiakirjoissa ja budjeteissa. 
 
@@ -29,7 +23,7 @@ Kukin dimensio kuvaa analysoinnin fokusta. Joten esimerkiksi kaksidimensioinen a
 > [!NOTE]
 > Jos havaitset, että kirjatuissa pääkirjanpidon tapahtumissa on käytetty virheellistä dimensioarvoa, voit korjata sen ja päivittää analyysinäkymät. Lisätietoja on [Vianmääritys ja dimensioiden korjaaminen](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting) -osassa.
 
-## <a name="set-up-an-analysis-view"></a>Analyysinäkymän luominen
+## Analyysinäkymän luominen
 
 Dimensioittainen analyysi käyttää valittua dimensioyhdistelmää. Kyseinen dimensiojoukko tallennetaan, noudetaan ja päivitetään luomalla **analyysinäkymä**-kortti. 
 
@@ -39,7 +33,7 @@ Dimensioittainen analyysi käyttää valittua dimensioyhdistelmää. Kyseinen di
 4. Jos haluat lisätä muita dimensiokoodeja neljän **Dimensiot**-pikavälilehden koodin lisäksi, valitse **Suodatin**-toiminto, täytä kentät ja valitse **OK**.  
 5. Voit päivittää näkymän valitsemalla **Päivitä**-toiminnon.
 
-## <a name="analyze-by-dimensions"></a>Analyysi dimensioiden mukaan
+## Analyysi dimensioiden mukaan
 
 Käytä analyysinäkymiä, jotka olet jo määrittänyt **analyysi dimension mukaan** -matriisilla, nähdäksesi pääkirjapidon summia.   
 
@@ -61,7 +55,7 @@ Käytä analyysinäkymiä, jotka olet jo määrittänyt **analyysi dimension muk
 > [!TIP]  
 > Voit muuttaa näkymää myös muuttamalla **Näytä riveinä**- ja **Näytä sarakkeina** -kenttien sisältöä. Voit peruuttaa näkymäasetukset **Muuta rivit ja sar. käänt.** -toiminnolla.
 
-## <a name="update-an-analysis-view"></a>Analyysinäkymän päivittämien
+## Analyysinäkymän päivittämien
 
 Summat, jotka näkyvät **Analyysi dimensioittain** -sivulla, kuvaavat yrityksen tilaa viimeisimmän päivityksen aikaan. Jos haluat nähdä nykyisen tilanteen, sinun on päivitettävä analyysinäkymä suorittamalla päivitystoiminto.
 
@@ -79,9 +73,9 @@ Seuraavan menettelyn avulla voit päivittää analyysinäkymän **Analyysi dimen
 > [!NOTE]  
 > Kun haluat päivittää joitakin tai kaikkia analyysinäkymiä samanaikaisesti, sinun täytyy käyttää **Päivitä analyysinäkymät** -eräajoa.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
+## Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Taloudelliset liiketoimintatiedot](bi.md)  
 [Rahoitus](finance.md)  

@@ -7,21 +7,16 @@ ms.service: dynamics365-business-central
 ms.reviewer: solsen
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 4a67f6fc58fb8b158563ce58baab55e7fda2ccb1
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728597"
 ---
-# <a name="run-tasks-in-the-background"></a>Tehtävien suorittaminen taustalla
+
+# Tehtävien suorittaminen taustalla
 
 On tehokasta suorittaa joitakin tehtäviä samanaikaisesti ja automatisoidusti. Voit suorittaa tällaisia tehtäviä taustalla ja määrittää aikataulun myös silloin, kun haluat, että kyseiset tehtävät suoritetaan automaattisesti. Voit suorittaa tehtäviä taustalla kahdessa tilassa:
 
 - Manuaalisesti käynnistyvät tehtävät ajoitetaan heti **Työjonon tapahtumien** avulla.
 - Toistuvat tehtävät ajoitetaan **Työjonotapahtumiin**.
 
-## <a name="run-tasks-in-the-background-for-a-specific-shop"></a>Tehtävien suorittaminen taustalla tietyn myymälän osalta
+## Tehtävien suorittaminen taustalla tietyn myymälän osalta
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeeseen, kirjoita **Shopify-myymälän** nimi ja valitse myymälän nimi luettelosta.
 2. Valitse kauppa, jolle haluat synkronoida nimikkeet avataksesi **Shopify-ostoskortti**-sivun.
@@ -29,7 +24,7 @@ On tehokasta suorittaa joitakin tehtäviä samanaikaisesti ja automatisoidusti. 
 
 Nyt kun synkronointitoiminto käynnistetään, se pyytää sinua odottamaan edustalla suoritettavan tehtävän sijaan. Kun se on valmis, voit siirtyä seuraavaan toimintoon. Tehtävä luodaan **Työjonotapahtumana**, ja se alkaa heti estämättömällä tavalla.
 
-## <a name="to-schedule-recurring-tasks"></a>Toistuvien tehtävien ajoittaminen
+## Toistuvien tehtävien ajoittaminen
 
 Voit ajoittaa seuraavat toistuvat aktiviteetit suoritettavaksi automaattisesti. Lue lisätietoja tehtävien ajoittamisesta kohdasta [Työjonot](../admin-job-queues-schedule-tasks.md).
 
@@ -47,6 +42,6 @@ Voit ajoittaa seuraavat toistuvat aktiviteetit suoritettavaksi automaattisesti. 
 > [!NOTE]
 > Useat tehtävät voivat päivittää joitakin elementtejä, esimerkiksi silloin, kun tuot tilauksia **Shopify-ostoskortin** asetuksen mukaan, järjestelmä voi myös tuoda ja päivittää asiakkaan ja/tai tuotteen tietoja. Muista käyttää samaa työjonon luokkaa ristiriitojen välttämiseksi.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Shopifyn yhdistimen käytön aloittaminen](get-started.md)  

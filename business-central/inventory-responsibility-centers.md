@@ -1,23 +1,17 @@
 ---
 title: 'Toimintaohje: Vastuupaikkojen käyttäminen'
-description: Vastuupaikat hallintokeskuksina auttavat yrityksiä määrittämällä käyttäjäkohtaiset näkymät myynti- ja ostoasiakirjoista, jotka liittyvät yksinomaan tiettyyn vastuukeskukseen.
+description: 'Vastuupaikat hallintokeskuksina auttavat yrityksiä määrittämällä käyttäjäkohtaiset näkymät myynti- ja ostoasiakirjoista, jotka liittyvät yksinomaan tiettyyn vastuukeskukseen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.forms: 5714, 5715
+ms.search.keywords: null
+ms.search.forms: '5714, 5715'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 3aabc4f60d30d6a5eaef838fa1b8b03e58c2341d
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529998"
 ---
-# <a name="work-with-responsibility-centers"></a>Vastuupaikkojen käyttäminen
+# Vastuupaikkojen käyttäminen
 
 Vastuupaikat mahdollistavat hallintakeskusten käsittelemisen. Vastuupaikka voi olla kustannuspaikka, kannattavuuspaikka, sijoituspaikka tai muu yrityksen määrittämä hallintapaikka. Vastuupaikkoja ovat esimerkiksi myyntitoimistot, usean sijainnin osto-osastot sekä tehtaan suunnittelutoimistot. Tällä toiminolla yritykset voivat esimerkiksi määrittää käyttäjäkohtaiset näkymät ainoastaan tiettyyn vastuupaikkaan liittyville osto- ja myyntiasiakirjoille.  
 
@@ -25,7 +19,7 @@ Useiden sijaintien käyttäminen yhdessä vastuupaikan kanssa mahdollistaa yrity
 
 Kun käytössä on useita sijainteja, yritykset voivat hallita varastoa useista sijanneista yhtä tietokantaa käyttäen. Tämän rakeen kaksi tärkeintä konseptia ovat sijainnit ja varastointiyksiköt. Sijainti on paikka, joka käsittelee nimikkeiden fyysistä sijoittelua ja määriä. Tähän konseptiin sisältyvät niin tehtaat ja tuotantolaitokset kuin jakelukeskukset, fyysiset varastoinnit, näyttelytilat ja huoltoajoneuvot. Varastointiyksikkö on tietyssä sijainnissa oleva nimike ja/tai variantti. Varastointiyksiköiden avulla useissa paikoissa toimivat yritykset voivat lisätä täydennystietoja, osoitteita ja taloudellisia kirjaustietoja sijaintitasolla. Näin ollen yritykset voivat täydentää saman nimikkeen variantteja kussakin sijainnissa sekä tilata nimikkeitä kuhunkin sijaintiin sijaintikohtaisten täydennystietojen perusteella.  
 
-## <a name="to-set-up-a-responsibility-center"></a>Vastuupaikkojen luominen
+## Vastuupaikkojen luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vastuupaikat** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
@@ -40,7 +34,7 @@ Tätä koodia käytetään kaikissa osto-, myynti- ja huoltoasiakirjoissa, jos k
 > [!NOTE]  
 > Kun syötät asiakirjaan vastuupaikan koodin, se vaikuttaa asiakirjan osoitteeseen, dimensioihin ja hintoihin.  
 
-## <a name="to-assign-responsibility-centers-to-users"></a>Vastuupaikkojen liittäminen käyttäjiin
+## Vastuupaikkojen liittäminen käyttäjiin
 
 Voit määrittää käyttäjät siten, että käyttäjien päivittäisissä työtehtävissä sovellus hakee vain kyseiseen aihealueeseen liittyvät asiakirjat. Käyttäjät on yleensä liitetty yhteen vastuupaikkaan, ja he työskentelevät vain sen vastuupaikan tiettyihin sovellusalueisiin liittyvien asiakirjojen parissa.  
 
@@ -55,16 +49,15 @@ Määritä tämä määrittämällä vastuupaikat käyttäjille kolmella toimint
 > [!NOTE]  
 > Käyttäjät voivat tarkastella vain omaan vastuukeskukseensa liittyviä kirjattuja asiakirjoja. He voivat kuitenkin tarkastella kaikkia kirjapintotapahtuma ja siirtyä muihin kirjattuihin asiakirjoihin kirjanpitotapahtumista.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-responsibility-centers/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-responsibility-centers/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Varaston määrittäminen](inventory-setup-inventory.md)  
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  
 [Varasto](inventory-manage-inventory.md)  
-[Varastoinninhallinta](warehouse-manage-warehouse.md)  
-[Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
-[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Varastonhallinnan yleiskatsaus](design-details-warehouse-management.md)
+[[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: c391e7d6492a722de10801212ccd04a532f8a971
-ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "8419592"
 ---
 Yritysten toimiessa yhä useammassa maassa tai alueella niiden on välttämätöntä pystyä tekemään kauppaa ja raportoimaan taloustiedot useissa valuutoissa. Paikallinen valuutta (PVA) määritetään **Pääkirjanpidon asetukset** -sivulla kuten artikkelissa [Pääkirjanpidon ja tilikartan ymmärtäminen](../finance-general-ledger.md) kuvataan. Kun paikallinen valuutta (PVA) on määritetty, se esitetään tyhjänä valuuttana, joten kun **Valuutta**-kenttä on tyhjä, se tarkoittaa, että valuutta on PVA.  
 

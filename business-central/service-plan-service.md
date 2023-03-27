@@ -1,22 +1,16 @@
 ---
 title: Huoltoprosessien suunnitteleminen
-description: Tässä aiheessa käsitellään tehtäviä, joilla määritetään huoltokäytäntöjen ja -prosessien määrityksessä käytettävät säännöt ja arvot.
+description: 'Tässä aiheessa käsitellään tehtäviä, joilla määritetään huoltokäytäntöjen ja -prosessien määrityksessä käytettävät säännöt ja arvot.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, work hours, configure, price, pricing
+ms.search.keywords: 'service, work hours, configure, price, pricing'
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 157ac179e51330cc5d9606872a8a121a4bbb67f2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077552"
 ---
-# <a name="planning-services"></a>Huollon suunnittelu
+# Huollon suunnittelu
 [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman työkaluilla voit määrittää asiakaspalvelun vaatimusten edellyttämät vakiotehtävät. Ensin on kuitenkin määritettävä, mitä huoltonimikkeitä ja -tarjouksia huolto-organisaatio tukee ja mikä on niiden hinta.   
 
 [!INCLUDE[prod_short](includes/prod_short.md)]issa on myös tilastotyökaluja, joiden avulla voit päätellä, miten nyt asiat sujuvat ja mitä parannettavaa on.
@@ -31,7 +25,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Tiedät, mikä korjauksen tilan ja kohdistettujen resurssien suhde ja miten ne vaikuttavat toisiinsa.|[Tietoja kohdistuksen tilasta ja korjauksen tilasta](service-allocation-status-and-repair-status.md)|  
 |Analysoi huoltoprosesseja tilastojen avulla. | [Huoltotilastojen katsominen](service-service-statistics.md) |
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Huoltosopimusten toteuttaminen](service-fulfill-service-contracts.md)  
 [Huollon toimittaminen](service-deliver-service.md)  
 [Huollon hintojen ja lisäkustannusten määrittäminen](service-how-setup-service-costs-pricing.md)  

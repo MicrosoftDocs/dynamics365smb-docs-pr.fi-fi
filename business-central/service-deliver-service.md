@@ -1,22 +1,16 @@
 ---
 title: Huollon toimitustehtävien yleiskatsaus | Microsoft Docs
-description: Lisätietoja tehtävistä, joita määrittämällä voidaan varmistaa laadukkaan huollon toimitus ja asiakkaiden kanssa tehtyjen sopimusten noudattaminen.
+description: 'Lisätietoja tehtävistä, joita määrittämällä voidaan varmistaa laadukkaan huollon toimitus ja asiakkaiden kanssa tehtyjen sopimusten noudattaminen.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, service items, respond, response
+ms.search.keywords: 'service, service items, respond, response'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e44033b067ab51e17925330618f954294252177b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077812"
 ---
-# <a name="delivering-service"></a>Huollon toimittaminen
+# Huollon toimittaminen
 [!INCLUDE[prod_short](includes/prod_short.md)]:n toiminnot helpottavat huollon toimittamista luotujen sopimusten ja huoltotilausten mukaisesti. Huoltoteknikot ja huollon aikatauluttajat voivat tarkastaa odottavat huoltotilaukset helposti **lähetystaulukosta**. **Lähetystaulukosta** ilmenevät sekä käynnissä olevat että valmiit tilaukset.  
   
 Voit tarkastella jonossa olevia huoltotilauksia myös **Huoltotehtävät**-sivulla. Tästä huoltovelvoitteiden näkymästä voi tarkistaa, missä kohtaa huoltotyönkulkua tilaus on. Samassa näkymässä voi myös muuttaa tilauksen tilan ajan tasalle.  
@@ -39,7 +33,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Luo ja kirjaa toimitetun huollon laskut.|[Huoltolaskujen ja hyvityslaskujen luominen](service-how-create-invoices.md)|  
 |Asiakkaat pysyvät tyytyväisinä, kun lainaat heille huollettavaa nimikettä vastaavan nimikkeen huollon ajaksi.| [Lainatavaroiden lainaaminen ja vastaanottaminen](service-how-to-lend-receive-loaners.md)|
   
-## <a name="see-also"></a>Katso myös  
+## Katso myös  
 [Huollon suunnittelu](service-plan-service.md)  
 [Huoltosopimusten toteuttaminen](service-fulfill-service-contracts.md)  
 [Projektien hallinta](projects-manage-projects.md)  

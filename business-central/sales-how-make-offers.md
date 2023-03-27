@@ -1,23 +1,17 @@
 ---
 title: Myyntitarjousten tekeminen
-description: Ohjeaiheessa käsitellään, miten luodaan myyntitarjous- tai tarjouspyyntöasiakirja kirjaamaan asiakkaalle tai mahdolliselle asiakkaalle tehty tarjous tuotteiden myynnistä tietyin ehdoin.
+description: 'Ohjeaiheessa käsitellään, miten luodaan myyntitarjous- tai tarjouspyyntöasiakirja kirjaamaan asiakkaalle tai mahdolliselle asiakkaalle tehty tarjous tuotteiden myynnistä tietyin ehdoin.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
-ms.search.form: 41, 9300
+ms.search.form: '41, 9300'
 ms.date: 07/12/2021
 ms.author: edupont
-ms.openlocfilehash: a0bf6bb146893f4ba16e2565134f15389380eab0
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528193"
 ---
-# <a name="make-sales-quotes"></a>Myyntitarjousten tekeminen
+# Myyntitarjousten tekeminen
 
 Luot myyntitarjouksen tallentaaksesi tarjouksen asiakkaalle tai mahdolliselle asiakkaalle myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla. Voit lähettää myyntitarjouksen asiakkaalle kommunikoidaksenne tarjouksesta. Voit lähettää asiakirjan sähköpostitse PDF-liitteenä. Sähköpostin perusteksti voidaan esitäyttää tarjouksen yhteenvedolla. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md).
 
@@ -25,7 +19,7 @@ Kun neuvottelet asiakkaan tai mahdollisen asiakkaan kanssa, voit muuttaa ja läh
 
 Useimmissa tapauksissa myyntitarjouksia lähetetään mahdollisille asiakkaille. Sinulla on usein yhteyshenkilö, jonka kanssa neuvottelet. Jos he hyväksyvät tarjouksesi, muutat myyntitarjouksen tilaukseksi ja rekisteröit mahdollisen asiakkaan asiakkaaksi [!INCLUDE [prod_short](includes/prod_short.md)]issa. Seuraavassa vaiheessa keskitymme kontakteihin, mutta voit myös lähettää tarjouksia nykyisille asiakkaille.  
 
-## <a name="to-create-a-sales-quote"></a>Myyntitarjousten luominen
+## Myyntitarjousten luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvake, syötä **Myyntitarjoukset** ja valitse sitten vastaava linkki.
 2. Määritä kontakti tai asiakas, jolle haluat lähettää myyntitarjouksen.
@@ -94,13 +88,13 @@ Useimmissa tapauksissa myyntitarjouksia lähetetään mahdollisille asiakkaille.
 
 Muunnos poistaa myyntitarjouksen tietokannasta. Myyntilasku tai -tilaus luodaan myyntitarjouksen tietojen perusteella, jotta voit käsitellä myynnin. Myyntilaskun tai myyntitilauksen **Tarjouksen nro** -kenttä määrittää sen myyntitarjouksen numeron, josta tilaus on muunnettu. Lisätietoja on kohdassa [Myynnin laskuttaminen](sales-how-invoice-sales.md) tai [Tuotteiden myyminen](sales-how-sell-products.md).  
 
-## <a name="external-document-number"></a>Ulkoisen tiedoston numero
+## Ulkoisen tiedoston numero
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  

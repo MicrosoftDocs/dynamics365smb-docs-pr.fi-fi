@@ -1,20 +1,15 @@
 ---
 title: Työnhallinta useiden yritysten välillä yritystoiminnossa
-description: Tutustu yritystoimintoon Dynamics 365 Business Centralissa, jossa työskentelet useiden yritysten kesken.
+description: 'Tutustu yritystoimintoon Dynamics 365 Business Centralissa, jossa työskentelet useiden yritysten kesken.'
 author: edupont04
 ms.topic: conceptual
-ms.search.keywords: accountant, accounting, financial report
-ms.search.form: 1151, 1154, 1165, 1166
+ms.search.keywords: 'accountant, accounting, financial report'
+ms.search.form: '1151, 1154, 1165, 1166'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3fdc84068220e16ac82d97ec005d69ec3496d902
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606168"
 ---
-# <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Työnhallinta useiden yritysten välillä yritystoiminnossa
+
+# Työnhallinta useiden yritysten välillä yritystoiminnossa
 
 Osa ihmisistä työskentelee useissa yrityksissä [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa, ja osa toimii myös useammassa kuin yhdessä organisaatiossa, kuten ulkoiset kirjanpitäjät tai sellaisten yritysten työntekijät ja johtajat, joilla on useita tytäryhtiöitä. Näille käyttäjille ja monille muille yrityskeskus toimii aloitussivuna, joka antaa yleiskuvan eri yritysten ja ympäristöjen taloudellisesta tilanteesta. Se tarjoaa käyttäjille työkalun, jossa voi hallita työtä eri ympäristöissä, joissa he työskentelevät, yrityksissä, ympäristöissä ja alueilla.  
 
@@ -25,7 +20,7 @@ Voit käyttää yrityskeskitintä siirtymällä **Yritystoiminto**-rooliin Omat 
 > [!NOTE]
 > Voit yhdistää yrityskeskuksen niin moneen yritykseen kuin tarvitset. Yrityskeskuksen voi kuitenkin liittää vain yrityksiin, joita isännöidään [!INCLUDE [prod_short](includes/prod_short.md)] onlinessa.
 
-## <a name="company-hub-home-page"></a>Yritystoiminnon kotisivu
+## Yritystoiminnon kotisivu
 
 Jos käytät **Yritystoiminto**-roolia, kotisivusi näyttää luettelon yrityksistä, joihin sinulla on käyttöoikeus, sekä tietoja keskeisten kiinnostavuuspisteiden (KPI) tiedoista sekä linkkejä kunkin yrityksen avaamiseen. <!--You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each company has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have added many companies, you can use filters to sort your view.--> Valitse **Yritystoiminto**-toiminto, kun haluat avata yritystoiminnon, jossa voit työskennellä tiiviimmin kunkin yrityksen kanssa.  
 
@@ -53,13 +48,13 @@ In the **Company Hub** page, you can see more information about each company by 
 
 Otherwise, close the details pane and continue to the next company.  -->
 
-## <a name="assigned-tasks"></a>Määritetyt tehtävät
+## Määritetyt tehtävät
 
 Voit määrittää tehtäviä [!INCLUDE [prod_short](includes/prod_short.md)]:ssä itselle ja muille; lisäksi muut voivat määrittää tehtäviä sinulle. Yritystoiminto antaa yleiskuvan kullekin yritykselle määritetyistä tehtävistä. Saat käyttöösi myös luettelon kaikista määritetyistä tehtävistä valitsemalla **Aloitus**-sivulla **Omat käyttäjätehtävät**.  
 
 <!--In the client company, you also have cues that call out tasks assigned to you in this particular client.  -->
 
-### <a name="my-user-tasks"></a>Omat käyttäjätehtävät
+### Omat käyttäjätehtävät
 
 **Omat käyttäjätehtävät** -luettelo auttaa päivän tehtävien priorisoinnissa, sillä siinä on lisätietoja kaikista yritysten sinulle määrittämistä tehtävistä.  
 
@@ -71,7 +66,7 @@ Kun tehtävä on suoritettu, voit merkitä sen valmiiksi.
 
 Lisätietoja yrityksistä ja ympäristöistä on kohdassa [Ympäristölinkit](company-hub-add-company.md#environment-links).  
 
-## <a name="access-the-company-hub"></a>Yritystoiminnon käyttö
+## Yritystoiminnon käyttö
 
 Jotta voisit käyttää yritystoimintoa, sinulla on oltava käyttöoikeus joko *D365 Yritystoiminto*-käyttäjäryhmään tai *D365 Yritystoiminto*-käyttöoikeus joukkoon. Sinun täytyy myös pystyä käyttämään yrityksiä, jotka on luetteloitu yritystoiminnossasi, mikä tarkoittaa sitä, että sinun täytyy olla käyttäjä näissä yrityksissä. Katso lisätietoja kohdasta [Luo käyttäjiä lisenssien mukaan](ui-how-users-permissions.md).  
 
@@ -80,7 +75,7 @@ Jotta voisit käyttää yritystoimintoa, sinulla on oltava käyttöoikeus joko *
 
 Jos et löydä yritystoimintoa ja tiedät, että sinulla on siihen käyttöoikeus, tarkista asia järjestelmänvalvojalta, jos yritystoiminto on luetteloitu **Laajennusten hallinta** -sivulla. Lisätietoja on kohdassa [Business Centralin mukauttaminen laajennusten avulla](ui-extensions.md).  
 
-## <a name="set-up-the-company-hub"></a>Määritä yritystoiminto
+## Määritä yritystoiminto
 
 Jotta voisit aloittaa yritystoiminnon käyttämisen, sinun on lisättävä vähintään yksi yritys koontinäyttöön. Lisätietoja on kohdassa [Yritysten lisääminen yritystoimintoon](company-hub-add-company.md).  
 
@@ -90,7 +85,7 @@ Esimerkiksi, jos olet kirjanpitäjä, asiakkaasi voivat kutsua sinut heidän [!I
 
 Järjestelmänvalvojat voivat käyttää samaa avustettua Ohjatun määrityksen opasta käyttäjien lisäämiseen [!INCLUDE [prod_short](includes/prod_short.md)]-ohjelmassa, tai he voivat lisätä sinut asianmukaiseen Azure AD -tiliin Microsoft 365 -hallintakeskuksessa. Lisätietoja on kohdassa [Käyttäjien ja ryhmien hallinta](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Yritysten lisääminen yrityksen keskittimeen](company-hub-add-company.md)  
 [Kirjanpitäjän käyttökokemukset Business Centralissa](finance-accounting.md)  

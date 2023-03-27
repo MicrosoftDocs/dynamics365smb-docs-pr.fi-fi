@@ -1,28 +1,22 @@
 ---
 title: Yleisen päiväkirjan kirjausrivin yleiskuva
-description: Tässä aiheessa on tietoja muutoksista Codeunit 12, Gen. Jnl.-Post -riviin, ja se on ainoa paikka, jossa voidaan lisätä kirjanpito-, ALV- sekä asiakas- ja toimittajatapahtumia.
+description: 'Tässä aiheessa on tietoja muutoksista Codeunit 12, Gen. Jnl.-Post -riviin, ja se on ainoa paikka, jossa voidaan lisätä kirjanpito-, ALV- sekä asiakas- ja toimittajatapahtumia.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: design, general ledger, post
+ms.search.keywords: 'design, general ledger, post'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 2a4d9715f6fdfaef63bf6ac4090bb71d86346e51
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146694"
 ---
-# <a name="general-journal-post-line-overview"></a>Yleisen päiväkirjan kirjausrivin yleiskuva
+# Yleisen päiväkirjan kirjausrivin yleiskuva
 
 Codeunit 12, **Yleinen päiväkirja - rivin kirjaus**, on pääkirjanpidon kirjauksen tärkeä sovellusobjekti ja ainoa paikka, jossa lisätään pääkirja-, ALV- sekä asiakkaan ja toimittajan reskontratapahtumia. Tätä codeunitia käytetään myös Käytä-, Peruuta kohdistus- ja Peruuta-toiminnoissa.  
   
 Microsoft Dynamics NAV 2013 R2:n codeunit uusittiin, koska siitä oli tullut hyvin suuri, noin 7 600 koodiriviä. Arkkitehtuuri muutettiin ja codeunitista tehtiin yksinkertaisempi ja ylläpidettävämpi. Tässä ohjeessa kuvaillaan muutokset ja tiedot, joita tarvitset päivitystä varten.  
   
-## <a name="old-architecture"></a>Vanha arkkitehtuuri  
+## Vanha arkkitehtuuri  
 Vanhassa arkkitehtuurissa oli seuraavat ominaisuudet:  
   
 * Yleisten muuttujien käyttö oli laajaa, mikä lisäsi piilotettujen virheiden mahdollisuutta, jos muuttujia käytettiin väärässä laajuudessa.  
@@ -33,7 +27,7 @@ Vanhassa arkkitehtuurissa oli seuraavat ominaisuudet:
 * Suuri osa codeunitin 12 koodista, noin 30 prosenttia, liittyy maksualennus- ja toleranssilaskelmiin, vaikka useissa maissa tai alueilla näitä ominaisuuksia ei tarvita.  
 * Kirjaus, kohdista, peruuta kohdistus, peruuta, maksualennus ja toleranssi sekä vaihtokurssin muutos on liitetty yhteen codeunitissa 12 yleisten muuttujien pitkää listaa käyttäen.  
   
-### <a name="new-architecture"></a>Uusi arkkitehtuuri  
+### Uusi arkkitehtuuri  
 [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa codeunit 12 on saanut seuraavia parannuksia:  
   
 * Codeunit 12 on jaettu pienempiin osiin (kaikissa alle 100 koodiriviä).  
@@ -43,7 +37,7 @@ Vanhassa arkkitehtuurissa oli seuraavat ominaisuudet:
 * Monet aputoiminnot on siirretty vastaaviin asiakkaan ja toimittajan tapahtumataulukoihin.  
 * Yleisten muuttujien käyttö on minimoitu, jotta jokainen toimintosarja käyttää parametreja ja kapseloi oman sovelluslogiikkansa.  
   
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rakenteen tiedot: Kirjausliittymän rakenne](design-details-posting-interface-structure.md)  
 [Rakenteen tiedot: Kirjausohjelman rakenne](design-details-posting-engine-structure.md)  

@@ -1,22 +1,16 @@
 ---
-title: Sarja-, erä- ja pakettinumeroita sisältävien nimikkeiden seurannan määrittäminen
-description: Sarja-, erä- ja pakettinumeroita sisältävien nimikkeiden seurannan määrittäminen
+title: 'Sarja-, erä- ja pakettinumeroita sisältävien nimikkeiden seurannan määrittäminen'
+description: 'Sarja-, erä- ja pakettinumeroita sisältävien nimikkeiden seurannan määrittäminen'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: c298903d62da4cfd346a46ff1978ab91644fb13f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533265"
 ---
-# <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Sarja-, erä- ja pakettinumeroita sisältävien nimikkeiden seurannan määrittäminen
+# Sarja-, erä- ja pakettinumeroita sisältävien nimikkeiden seurannan määrittäminen
 
 Varastonimikkeitä voi seurata myös monimutkaisissa fyysisen varastonnin määrityksillä käyttämällä nimikekohtaisia numeroita, jotka koskevat yksittäistä kohdetta, erää tai pakettia. Nimikeseurannan avulla voidaan jäljittää nimikkeiden siirtoja fyysisen varastoinnin sisällä sekä lähtevissä ja saapuvissa asiakirjoissa.
 
@@ -25,13 +19,13 @@ Nimikkeet, joiden sarja- ja eränumeroita voidaan jäljittää toimitusketjussa 
 > [!TIP]
 > Vuoden 2021 1. julkaisuaallossa ja myöhemmissä versioissa *Käytä seurantaa varaus- ja seurantajärjestelmän pakettinumeron perusteella* -ominaisuuspäivitys on otettava käyttöön, jos sarja- ja eränumeroiden ohella halutaan käyttöön myös pakettinumeroita. Lisätietoja on kohdassa [Tulevien ominaisuuksien ottaminen käyttöön etuajassa](admin-feature-management.md). Kun ominaisuus on otettu käyttöön, pakettinumeroita voidaan määrittää lähtevillä ja saapuville asiakirjoilla samalla tavoin kuin eränumeroita käytettäessä.  
 
-## <a name="numbers-and-item-tracking"></a>Numerot ja nimikeseuranta
+## Numerot ja nimikeseuranta
 
 Fyysisen varastointiprosessien osana varastoa voidaan niputtaa esimerkiksi paketeiksi, laatikoiksi ja konteiksi. Nimikkeiden seuranta kuitenkin edellyttää yksilöivien numeroiden määrittämistä tunnisteiksi. Kyse voi olla esimerkiksi valmistettavasta ja myytävästä tuolista, jonka nimikenumero on *1900-S*. Jokaisella yksittäisellä tuolilla on sarjanumero *1001*, minkä lisäksi neljä tuolia niputetaan eräksi *LOT0001*. Tuolit toimitetaan sitten kontissa käyttämällä pakettinumeroa *CONTAINER010*, joka sisältää myös muita nimikkeitä, kuten sivupöydistä koostuvan erän *LOT0100* ja lampuista koostuvan erän *LOT200*.  
 
 Määritysten mukaan näiden erilaisten numeroiden avulla varastoa seurataan [!INCLUDE [prod_short](includes/prod_short.md)]issa esimerkiksi osto-, myynti- ja varastointitoimintojen aikana.
 
-## <a name="to-set-up-item-tracking-codes"></a>Nimikkeen seurantakoodien määrittäminen
+## Nimikkeen seurantakoodien määrittäminen
 
 Nimikkeen seurantakoodi kuvastaa niitä asioita, jotka yritys on ottanut huomioon koskien sarja-/eränumeroiden käyttöä nimikkeiden kohdalla, jotka kulkevat varaston läpi.  
 
@@ -48,7 +42,7 @@ Koska kyseinen asetuskenttä kattaa kaikki mahdolliset nimikkeen transaktiot, my
 > [!NOTE]  
 >  Kun määrität nimikeseurantanumeroita fyysisen varaston toiminnoille, **SN F.varastoinnin seuranta**- ja **Erän fyysisen varaston seuranta** -kenttien on oltava valittuna nimikkeen nimikeseurantakoodin kortissa.  
 
-## <a name="to-set-up-expiration-rules-for-serial-or-lot-numbers"></a>Vanhentumissääntöjen määrittäminen sarja-/eränumeroille
+## Vanhentumissääntöjen määrittäminen sarja-/eränumeroille
 
 Voit haluta määrittää tiettyjen nimikkeiden osalta erityisiä vanhenemispäivämääriä ja sääntöjä nimikkeen seurantakoodille. Tämän ominaisuuden ansiosta voit seurata sitä, milloin tietyt sarja-/eränumerot vanhenevat.
 
@@ -62,7 +56,7 @@ Voit haluta määrittää tiettyjen nimikkeiden osalta erityisiä vanhenemispäi
     |**Vaadi vanhentumisen päivämäärämerkintä**|Määrittää, että nimikkeen seurantariville pitää syöttää vanhentumispäivämäärä.|  
     |**Käytä vanhentumispäivämääriä**|Määrittää, että haluat laskea vanhentumispäivämääriä. |  
 
-## <a name="to-set-up-warranties-for-serial-or-lot-numbers"></a>Takuiden määrittäminen sarja-/eränumeroille
+## Takuiden määrittäminen sarja-/eränumeroille
 
 Voit haluta määrittää tiettyjen nimikkeiden osalta erityisiä takuita nimikkeen seurantakoodille. Tämän ominaisuuden avulla voit seurata sitä, milloin varastossa olevien tiettyjen sarja-/eränumeroiden takuut menevät umpeen.  
 
@@ -76,7 +70,7 @@ Voit haluta määrittää tiettyjen nimikkeiden osalta erityisiä takuita nimikk
     |**Vaadi takuun päivämäärämerkintä**|Määrittää, että sinun täytyy syöttää nimikeseurantariville takuupäivämäärä manuaalisesti.|  
 
 
-## <a name="to-set-up-items-for-tracking-with-the-correct-item-tracking-codes"></a>Nimikkeiden määrittäminen seurantaa varten, joilla on oikeat nimikkeen seurantakoodit
+## Nimikkeiden määrittäminen seurantaa varten, joilla on oikeat nimikkeen seurantakoodit
 
 Jotta nimikkeen seuranta voidaan ottaa käyttöön, nimikkeelle on ensin määritettävä nimikkeen seurantakoodit. Nimikkeen seurantakoodeja voi lisätä kahdella tavalla: valitsemalla koodi ennalta määritetystä luettelosta tai määrittämällä uuden yksilöllisen koodin. Lue lyhyt kuvaus siirtämällä kohdistin kenttien päälle.
 
@@ -85,9 +79,9 @@ Jotta nimikkeen seuranta voidaan ottaa käyttöön, nimikkeelle on ensin määri
 3. Määritä **Nimikkeen seuranta** -pikavälilehdessä asianmukaiset nimikeseurantakoodit ja valitse **Nimikkeen seurantakoodi**, **Sarjanrot** ja **Eränrot**.
     1. Vaihtoehtoisesti voit myös luoda uuden nimikkeen seurantakoodin valitsemalla **Uusi**-toiminnon.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepare-item-tracking/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepare-item-tracking/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md)  
 [Nimikeseurannan nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)  

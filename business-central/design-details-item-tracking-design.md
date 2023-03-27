@@ -1,22 +1,16 @@
 ---
 title: Rakennetiedot – nimikkeen seurannan rakenne
-description: Tässä aiheessa käsitellään Business Centralin nimikkeen seurannan taustalla olevaa rakennetta, kun se kehittyy tuoteversioiden kautta.
+description: 'Tässä aiheessa käsitellään Business Centralin nimikkeen seurannan taustalla olevaa rakennetta, kun se kehittyy tuoteversioiden kautta.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: design, item, tracking, tracing
+ms.search.keywords: 'design, item, tracking, tracing'
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 626d22b4a45035698862c727547b332c898508af
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141331"
 ---
-# <a name="design-details-item-tracking-design"></a>Rakennetiedot: nimikkeen seurannan rakenne
+# Rakennetiedot: nimikkeen seurannan rakenne
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in nimikeseuranta alkoi versiossa [!INCLUDE [navnow_md](includes/navnow_md.md)]. Nimikeseurantatoiminto on erillinen objektirakenne, jossa on tarkkoja linkkejä kirjattuihin asiakirjoihin ja nimiketapahtumiin. Se on myös integroitu varausjärjestelmään, joka käsittelee varaukset, tilausten seurannan ja toiminnon viestinnän. Lisätietoja on tarjonnan suunnittelun rakennetietojen kohdassa [Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys](design-details-reservation-order-tracking-and-action-messaging.md).  
 
@@ -39,7 +33,7 @@ Codeunit 22 **Nimikepäiväkirja – kirjausrivi** jakaa kirjauksen asiakirjariv
 
 Lisätietoja on kohdassa [Rakennetiedot: Nimikeseurannan kirjausrakenne](design-details-item-tracking-posting-structure.md).  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rakennetiedot: Nimikkeen seuranta](design-details-item-tracking.md)
 

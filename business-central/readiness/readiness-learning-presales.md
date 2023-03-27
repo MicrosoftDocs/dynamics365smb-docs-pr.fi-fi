@@ -5,20 +5,15 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 7bede8c805e960848f349a3492784e7d0f568bd7
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534478"
 ---
-# <a name="partner-pre-sales-learning-catalog"></a>Kumppanin ennakkomyynnin opintoluettelo
 
-Oletko vastuussa avaintoimintojen esittelystä asiakkaille? 
+# Kumppanin ennakkomyynnin opintoluettelo
+
+Oletko vastuussa avaintoimintojen esittelystä asiakkaille? 
 
 Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja perustiedoista kaikkein kehittyneimpiin. Jos sisältöä on useissa muodoissa, ilmoitamme siitä sinulle, jotta voit valita tarpeitasi parhaiten vastaavan koulutusmuodon. 
 
-## <a name="get-started"></a>Aloita<a name="get-started"></a>
+## Aloita<a name="get-started"></a>
 
 | Sisältö                                                                                                                              | Kuvaus                                                                                                                                                                                                                                                                                      | Muoto                                | Pituus             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -28,21 +23,21 @@ Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja pe
 | [Business Central YouTube -soittolista](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | YouTuben saapumissivu Dynamics 365 Business Central -videoille | YouTube-videot |                    |
 | [Tutki Dynamics 365 Business Central -ominaisuuksia](https://dynamics.microsoft.com/business-central/capabilities/)                                                    | Tutki Dynamics 365 Business Central -ominaisuuksia                                                                                                                                                                                                                                               | Sivusto                               |                    |
 
-## <a name="grow-your-business"></a>Kasvata yritystäsi<a name="grow"></a>
+## Kasvata yritystäsi<a name="grow"></a>
 
 | Sisältö                                                                                                                                | Kuvaus                                                                                                                                                                                                                                                                                      | Muoto                                | Pituus                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365 Business Central - Mielenkiintoiset prospektikeskustelut (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761) | Liity Errol Schosfishin, tuotemarkkinointijohtajan seuraan, kun hän puhuu siitä, miten saada aikaan mielenkiintoisia keskusteluja prospektien kanssa Microsoft Dynamics 365 Business Centralista. | Video | 11 minuuttia 16 sekuntia |
 | [Dynamics 365 Business Central - Miten tehdä siitä todellista](https://mbspartner.microsoft.com/D365/Videos/101787) | Liity Errol Schonfishin, tuotemarkkinointijohtajan seuraan, kun hän puhuu siitä, kuinka aloittaa demojen ottaminen käyttöön Microsoft Dynamics 365 Business Centralille. | Video | 12 minuuttia 29 sekuntia |
 
-## <a name="business-value"></a>Liiketoiminta-arvo<a name="busvalue"></a>
+## Liiketoiminta-arvo<a name="busvalue"></a>
 
 | Sisältö                                                                                                                                | Kuvaus                                                                                                                                                                                                                                                                                      | Muoto                                | Pituus                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Tutki Dynamics 365 Business Central -ominaisuuksia](https://dynamics.microsoft.com/business-central/capabilities/) | Tutki Dynamics 365 Business Central -ominaisuuksia | Sivusto |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | Tämä moduuli näyttää sovelluksen ominaisuudet, hyödyt ja esimerkit Dynamics 365 Business Centralista käytännössä. | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 24 minuuttia          |
 
-## <a name="whats-new"></a>Uutta<a name="whatsnew"></a>
+## Uutta<a name="whatsnew"></a>
 
 | Sisältö                                                                                                                                | Kuvaus                                 | Muoto                                | Pituus                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|

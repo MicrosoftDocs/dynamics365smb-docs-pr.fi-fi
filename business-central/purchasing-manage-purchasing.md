@@ -6,18 +6,12 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: procurement, supply, vendor order
-ms.search.form: 460, 9307
+ms.search.keywords: 'procurement, supply, vendor order'
+ms.search.form: '460, 9307'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c24e8c4550c03965524626daf291f6496e92bde0
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528220"
 ---
-# <a name="purchasing"></a>Ostaminen
+# Ostaminen
 
 Voit luoda ostolaskun tai -tilauksen ostojen kustannusten tallentamiseksi ja ostoreskontran seuraamiseksi. Jos haluat hallita varastoa, myös ostolaskuja käytetään varastotasojen dynaamiseen päivittämiseen, jotta voit minimoida varaston kustannukset ja tarjota parempaa asiakaspalvelua. Ostokustannukset, sisältäen palvelukulut ja varastoarvot, jotka aiheutuvat tiliöinnin ostolaskuista, vaikuttavat voittolukuihin ja muihin talouden KPI:hin roolikeskuksessasi.
 
@@ -45,13 +39,13 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Ratkaise ristiriita, kun samalla toimittajalla on ainakin tietuetta.|[Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)|
 |Voit hallita toimittajan suurta määrää koskevaa ostositoumustasi, joka toimitetaan useassa erässä tietyn ajan kuluessa.|[Puiteostotilausten käyttäminen](sales-how-to-create-blanket-sales-orders.md)|
 
-## <a name="external-document-numbers"></a>Ulkoisen tiedoston numerot
+## Ulkoisen tiedoston numerot
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/purchase-items-services-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/purchase-items-services-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Ostojen määrittäminen](purchasing-setup-purchasing.md)  
 [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md)  

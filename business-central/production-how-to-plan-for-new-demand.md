@@ -1,29 +1,23 @@
 ---
 title: Uuden kysynnän tilauskohtainen suunnittelu
-description: Tämä suunnittelutehtävä voidaan suorittaa Tilauksen suunnittelu -sivulla, jossa näkyvät kaikki uusi kysyntä, saatavuustiedot sekä tarjontaa koskevat ehdotukset, sisältäen nimikkeen korvaamiseen.
+description: 'Tämä suunnittelutehtävä voidaan suorittaa Tilauksen suunnittelu -sivulla, jossa näkyvät kaikki uusi kysyntä, saatavuustiedot sekä tarjontaa koskevat ehdotukset, sisältäen nimikkeen korvaamiseen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5522, 5524, 5526
+ms.search.form: '5522, 5524, 5526'
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: e95bc34c56364ebb12c63c250339f1de868b8a32
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516768"
 ---
-# <a name="plan-for-new-demand-order-by-order"></a>Uuden kysynnän tilauskohtainen suunnittelu
+# Uuden kysynnän tilauskohtainen suunnittelu
 
 Tämä suunnittelutehtävä voidaan suorittaa **Tilauksen suunnittelu** -sivulla, jossa näkyvät kaikki uusi kysyntä, saatavuustiedot sekä tarjontaa koskevat ehdotukset. Ikkunan tietojen ja työkalujen avulla voidaan suunnitella tehokkaasti myynti- ja komponenttirivien synnyttämä kysyntä sekä luoda erityyppisiä toimitustilauksia suoraan.  
 
 Voit siirtyä **Tilauksen suunnittelu** -sivulle kahdella tavalla kohdistuksen mukaan: tilauksesta, jonka nimenomaisesti haluat suunnitella, tai erätilasta, koska haluat suunnitella kaikkea uutta kysyntää varten.  
 
 
-## <a name="to-plan-for-new-production-order-demand"></a>Suunnittele uuden tuotantotilauksen kysyntä
+## Suunnittele uuden tuotantotilauksen kysyntä
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnitellut tuotantotilaukset** ja valitse sitten vastaava linkki. (Voit suorittaa nämä suunnitellun, sitovan suunnittelun tai vapautetun tuotantotilauksen vaiheet.)
 2. Avaa suunniteltava tuotantotilaus ja valitse **Suunnittelu**-toiminto.  
@@ -31,7 +25,7 @@ Voit siirtyä **Tilauksen suunnittelu** -sivulle kahdella tavalla kohdistuksen m
 
 Sivulla näkyvät suunnittelurivit on suodatettu **Tuotantokysyntä**-suodatuksella – toisin sanoen sivulla näkyvät kaikkien tuotantotilausten täyttämätöntä kysyntää sisältävät komponenttirivit. Järjestelmä ei näytä ainoastaan käsiteltävän tuotantotilauksen kysyntää, sillä on riskialtista suunnitella tuotantotilaus ilman käsitystä mahdollisten aikaisempien komponenttirivien kysynnästä. Käsiteltävän tuotantotilauksen suunnittelurivit on laajennettu.  
 
-## <a name="to-plan-for-any-new-demand"></a>Kaiken uuden kysynnän suunnitteleminen
+## Kaiken uuden kysynnän suunnitteleminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilauksen suunnittelu** ja valitse sitten vastaava linkki.  
 2. Valitse **Tilauksen suunnittelu** -sivulla **Laske suunnitelma** -toiminto.
@@ -87,7 +81,7 @@ Sivulla näkyvät suunnittelurivit on suodatettu **Tuotantokysyntä**-suodatukse
 > [!NOTE]  
 >  Jos kirjoitat päivämäärän, joka on myöhäisempi kuin kysyntäpäivämäärä, näyttöön tulee varoitussanoma.  
 
-## <a name="to-make-supply-orders"></a>Toimitustilausten tekeminen
+## Toimitustilausten tekeminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnitellut tuotantotilaukset** ja valitse sitten vastaava linkki. Voit suorittaa nämä suunnitellun, sitovasti suunnitellun tai vapautetustn tuotantotilauksen vaiheet.  
 2. Avaa suunniteltava tuotantotilaus ja valitse **Suunnittelu**-toiminto.  
@@ -114,7 +108,7 @@ Kun **Tilauksen suunnittelu** -sivun suunnitelma on valmis (nimikkeelle on esime
 > [!NOTE]  
 > Luodut toimitustilaukset saattavat synnyttää uuden, ei-itsenäisen kysynnän, esimerkiksi osakomponentin tuotantotilaustarpeen. Etsi ja käsittele tällainen kysyntä valitsemalla **Laske suunnitelma** -toiminto uudelleen, ennen kuin siirryt luettelossa eteenpäin.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 <!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 [Suunnittelu](production-planning.md)  

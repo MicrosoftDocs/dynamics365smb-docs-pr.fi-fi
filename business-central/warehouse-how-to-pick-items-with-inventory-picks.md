@@ -1,128 +1,132 @@
 ---
 title: Nimikkeiden poiminta varaston poiminnalla
-description: Kun sijainti vaatii poiminnan prosessointia, mutta ei toimituksen prosessointia, sinun on käytettävä varaston poiminnan asiakirjoja lähdeasiakirjan poiminnan ja toimituksen tietojen tallennuksessa ja kirjaamisessa.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 79b373ec522d2cd8f99c6b0a98db0df7f9d1793f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533695"
+description: Tietoja varaston poimintojen käyttämisestä lähdeasiakirjojen poiminta- ja toimitustietojen tallentamiseen ja kirjaamiseen.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 01/25/2023
+ms.custom: bap-template
+ms.search.forms: '931, 7377'
 ---
-# <a name="pick-items-with-inventory-picks"></a>Nimikkeiden poiminta varastopoiminnalla
+# Nimikkeiden poiminta varastopoiminnalla
 
-Kun sijainti on määritetty vaatimaan poiminnan prosessointia, mutta ei toimituksen prosessointia, käytä **Varaston poiminta** -sivua lähdeasiakirjan poiminnan ja toimituksen tietojen tallennuksessa ja kirjaamisessa. Lähtevä lähdeasiakirja voi olla myyntitilaus, ostopalautustilaus, lähtevä siirtotilaus tai tuotantotilaus, jonka osat ovat valmiina poimittaviksi.
+[!INCLUDE[prod_short](includes/prod_short.md)]issa nimikkeet poimintaan ja toimitukseen on käytettävissä neljä tapaa, jotka käsitellään seuraavassa taulukossa.
 
-> [!NOTE]  
-> Kokoonpanotilausten osia ei voi poimia tai kirjata varastopoiminnan kanssa. Käytä sen sijaan **Varaston siirto** -sivua. Lisätietoja on kohdassa [Komponenttien siirtäminen fyysisen perusvarastoinnin toiminta-alueelle](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+|Tapa|Lähtevien käsittely|Vaadi poiminta|Vaadi toimitus|Monimutkaisuustaso (lisätietoja on kohdassa [Varastoinninhallinnan yleiskatsaus](design-details-warehouse-management.md))|  
+|------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
+|A|Poiminnan ja toimituksen kirjaaminen tilausriviltä|||Ei määritettyä fyysisen varaston toimintaa.|  
+|B|Poiminnan ja toimituksen kirjaaminen varaston poiminta-asiakirjasta|Otettu käyttöön||Perus: tilauksittain.|  
+|S|Poiminnan ja toimituksen kirjaaminen fyysisen varastoinnin toimitusasiakirjasta||Otettu käyttöön|Perus: useiden tilausten konsolidoitu vastaanoton ja toimituksen kirjaus.|  
+|P|Poiminnan kirjaaminen fyysisen varastoinnin poiminta-asiakirjasta ja toimituksen kirjaaminen fyysisen varastoinnin toimitusasiakirjasta|Otettu käyttöön|Otettu käyttöön|Lisäasetukset|  
+
+Lisätietoja on kohdassa [Fyysisen varaston lähtevä työnkulku](design-details-outbound-warehouse-flow.md).
+
+Tässä artikkelissa viitataan taulukon menetelmään B.
+
+Jos sijainti on määritetty edellyttämään poiminnan mutta ei toimituksen käsittelyä, lähdeasiakirjojen poiminta- ja toimitustietojen tallentamiseen ja kirjaamiseen käytetään **Varaston poiminta** -sivua. Lähtevien lähdeasiakirjat voivat olla myyntitilauksia, ostopalautustilauksia ja lähteviä siirtotilauksia.
+
+> [!NOTE]
+> Myös komponenttitarpeita sisältävät tuotanto- ja kokoonpanotilaukset ilmaisevat lähtevien lähdeasiakirjoja. Lisätietoja sisäisten prosessien tuotanto- ja kokoonpanotilausten käsittelemisestä on kohdassa [Rakennetiedot: fyysisen varaston sisäiset virrat](design-details-internal-warehouse-flows.md).
 >
-> Kun poiminnan ja toimituksen myyntirivin määriä kootaan tilaukseen, varaston poimintarivejä luotaessa on noudatettava tiettyjä sääntöjä. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa](#handling-assemble-to-order-items-with-inventory-picks) -osassa.  
+> Vaikka myös huoltotilaukset ovat lähteviä lähdeasiakirjoja, ne eivät tue tilauskohtaista perustason monimutkaisuutta.
+>
+> Kun poiminnan ja toimituksen myyntirivin määriä kokoonpannaan tilausta varten, varaston poimintarivejä luotaessa on noudatettava tiettyjä sääntöjä. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa](#handling-assemble-to-order-items-with-inventory-picks).  
 
-Varaston poiminnan voi luoda kolmella tavalla:  
+Varaston poiminnan voi luoda kolmella tavalla:
 
-- Luo poiminta kahdessa vaiheessa pyytämällä ensin varastopoiminta vapauttamalla lähdeasiakirja. Tämä ilmoittaa fyysiseen varastoon, että lähdeasiakirja on valmiina poimintaa varten. Varaston poiminta voidaan sitten luoda **Varaston poiminta** -sivulla lähdeasiakirjan perusteella.  
-- Luomalla varastopoiminta suoraan lähdeasiakirjasta.  
-- Voit luoda varastopoiminnat useammalle asiakirjalle yhdellä kertaa käyttämällä eräajoa.  
+* Varastopoiminta luodaan suoraan lähdeasiakirjasta.  
+* Useiden lähdeasiakirjojen varaston poiminnat luodaan samanaikaisesti käyttämällä eräajoa.
+* Poimintaa pyydetään kahdessa vaiheessa vapauttamalla ensin lähdeasiakirjan, mikä ilmaisee fyysiseen varastointiin, että lähdeasiakirja on valmis poimittavaksi.
 
-## <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>Pyydä varastopoiminta vapauttamalla lähdeasiakirja
+Varaston poiminta voidaan sitten luoda **Varaston poiminta** -sivulta lähdeasiakirjan perusteella.  
 
-Jos kyseessä on myyntitilaus, ostopalautustilaus tai lähtevä siirto, voit luoda fyysisen varastoinnin pyynnön vapauttamalla tilauksen. Seuraavaksi käsitellään, miten se tehdään myyntitilauksesta.
+## Varastopoiminnan lähdeasiakirjasta luominen
+
+1. Valitse **Luo varaston hyllytys tai poiminta** -toiminto lähdeasiakirjassa, joka voi olla myyntitilaus, ostopalautustilaus tai lähtevä siirtotilaus.
+2. Valitse **Luo varaston poiminta** -valintaruutu.  
+3. Valitse **OK**-painike. Uusi varaston poiminta luodaan.
+
+## Useiden varaston poimintojen luominen eräajon avulla
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Luo varaston hyllytys/poiminta/siirto** ja valitse sitten vastaava linkki.  
+2. Suodata **F.varastoinnin pyyntö** -pikavälilehden **Lähdeasiakirja**- ja **Lähteen nro** -kenttien avulla tietyntyyppiset asiakirjat tai asiakirjanumerovälit. Voit esimerkiksi luoda poimintoja vain myyntitilauksille.  
+3. Valitse **Asetukset**-pikavälilehdessä **Luo varaston poiminta** -valintaruutu.
+4. Valitse **OK**-painike.
+
+## Poiminnan luominen kahdessa vaiheessa
+
+### Pyydä varastopoiminta vapauttamalla lähdeasiakirja
+
+Jos kyseessä on myyntitilaus, ostopalautustilaus tai lähtevä siirto, voit luoda fyysisen varastoinnin pyynnön vapauttamalla tilauksen. Tilauksen vapauttamien mahdollistaa nimikkeiden poiminnan.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.
 2. Valitse ensin vapautettava myyntitilaus ja sitten **Vapauta**-toiminto.
 
-Tuotantotilauksissa osien poiminnan fyysisen varastoinnin pyyntö eli *materiaaliotto* luodaan automaattisesti, kun tuotantotilauksen tilaksi tulee **Vapautettu** tai kun vapautettu tuotantotilaus luodaan. Lisätietoja on kohdassa [Tuotannon tai kokoonpanon poiminta](warehouse-how-to-pick-for-production.md).
+### Lähdeasiakirjaan perustuvan varaston poiminnan luominen
 
-Kun fyysisen varaston pyyntö on luotu, varastotyöntekijä, jolle nimikkeiden poiminta on määritetty, näkee, että lähdeasiakirja odottaa poimintaa ja voi luoda uuden poiminta-asiakirjan fyysisen varaston pyynnöstä.  
-
-## <a name="to-create-an-inventory-pick-based-on-the-source-document"></a>Lähdeasiakirjaan perustuvan varaston poiminnan luominen
-
-Nyt kun pyyntö on luotu, varastotyöntekijä voi luoda uuden varaston poiminnan vapautetun lähdeasiakirjan perusteella.
+Kun tilaus on vapautettu, varastotyöntekijä voi luoda varaston poiminnan.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston poiminnat** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
-    Varmista, että **Nro**-kenttä täytetään **Yleinen**-pikavälilehdessä.
-3. Valitse **Lähdeasiakirja**-kentässä sen lähdeasiakirjan tyyppi, jolle teet poiminnan.  
+3. Valitse **Lähdeasiakirja**-kentässä poimittavan lähdeasiakirjan tyyppi.  
 4. Valitse **Lähteen nro** -kentässä lähdeasiakirja.  
-5. Vaihtoehtoisesti voit valita **Hae lähdeasiakirja** -toiminnolla asiakirjan niiden lähtevien lähdeasiakirjojen luettelosta, jotka ovat valmiita poimintaan sijainnissa.  
-6. Täytä poimintarivit valitun lähdeasiakirjan mukaan valitsemalla **OK**.  
+5. Vaihtoehtoisesti valitsemalla **Hae lähdeasiakirja** -toiminto voidaan luoda niiden lähtevien lähdeasiakirjojen luettelo, jotka ovat sijainnissa valmiita poimintaan.  
+6. Täytä poimintarivit valittujen lähdeasiakirjojen mukaan valitsemalla **OK**.  
 
-## <a name="to-create-an-inventory-pick-from-the-source-document"></a>Varastopoiminnan lähdeasiakirjasta luominen
-
-1. Valitse **Luo varaston hyllytys tai poiminta** -toiminto lähdeasiakirjassa, joka voi olla myyntitilaus, ostopalautustilaus, lähtevä siirtotilaus tai tuotantotilaus.
-2. Valitse **Luo varaston poiminta** -valintaruutu.  
-3. Valitse **OK**-painike. Uusi varaston poiminta luodaan.
-
-## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Useiden varaston poimintojen luominen eräajon avulla
-
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Luo var. hyllytys / poiminta** ja valitse sitten vastaava linkki.  
-2. Suodata **F.varastoinnin pyyntö** -pikavälilehden **Lähdeasiakirja**- ja **Lähteen nro** -kenttien avulla tietyntyyppiset asiakirjat tai asiakirjanumerovälit. Voit esimerkiksi luoda poimintoja vain myyntitilauksille.  
-3. Valitse **Asetukset**-pikavälilehdessä **Luo varaston poiminta** -valintaruutu.
-4. Valitse **OK**-painike. Määritetyt varaston poiminnat luodaan.
-
-> [!NOTE]  
-> Jos kyseessä ovat poiminnan ja toimituksen myyntirivin määrät, jotka on koottu tilausta varten, luo varaston poimintarivit tiettyjen sääntöjen mukaan. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa](#handling-assemble-to-order-items-with-inventory-picks) -osassa.  
->
-> Fyysisen varastoinnin perusmäärityksissä myyntitilauksiin kootut nimikkeet poimitaan liittyvästä myyntitilauksesta tässä ohjeaiheessa kuvatulla tavalla. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa](#handling-assemble-to-order-items-with-inventory-picks) -osassa.  
-
-## <a name="to-record-the-inventory-picks"></a>Varaston poimintojen kirjaaminen
+## Varaston poimintojen kirjaaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston poiminta** ja valitse sitten vastaava linkki.  
 2. Poimintarivien **Varastopaikkakoodi**-kentässä varastopaikka, josta nimikkeet on poimittava, ehdotetaan nimikkeen oletusvarastopaikan mukaan. Voi muuttaa tarvittaessa varastopaikkaa tällä sivulla.  
-3. Suorita poiminta ja annan todellisia hyllytysmääriä koskevat tiedot **Käsiteltävä määrä** -kentässä.
+3. Suorita poiminta ja syötä poimittu määrä **Käsiteltävä määrä** -kenttään.
 
-    Jos yhden rivin nimikkeet on poimittava useasta varastopaikasta esimerkiksi siksi, että niitä ei ole saatavilla määritetyssä varastopaikassa, käytä **Rivit**-pikavälilehden **Jaa rivi** -toimintoa. Lisätietoja rivien jakamisesta on kohdassa [Varastotoimintorivien jakaminen](warehouse-how-to-split-warehouse-activity-lines.md).  
-4. Kun olet suorittanut poiminnan, valitse **Kirjaa**-toiminto.  
+    Jos rivin nimikkeitä on poimittava useammasta kuin yhdestä varastopaikasta esimerkiksi siksi, että varastopaikassa ei ole koko määrää, käytä **Rivit**-pikavälilehden **Jaa rivi** -toimintoa. Toiminto luo rivin jäljellä olevalle käsiteltävälle määrälle.
 
-Kirjausprosessi kirjaa toimituksen poimituille lähdeasiakirjariveille tai tuotantilauksen olessa kyseessä se kirjaa kulutusta. Jos sijainti käyttää var.paikkoja, kirjaus luo myös f.var.tapahtumia kirjatakseen var.paikan määrä muutoksia.  
+4. Valitse **Kirjaa**-toiminto.  
 
-## <a name="to-delete-inventory-pick-lines"></a>Poista varaston poimintarivit
+    * Lähdeasiakirjan poimittujen rivien toimituksen kirjaaminen.
+    * Jos sijainnissa käytetään varastopaikkoja, kirjaus luo myös fyysisen varastotapahtumat varastopaikan määrässä tapahtuneiden muutosten kirjaamiseen.  
 
-Jos varaston poiminnan nimikkeet eivät ole saatavissa, voit poistaa nämä varaston poimintarivit kirjaamisen jälkeen ja poistaa sitten varaston poiminta-asiakirjan. Lähdeasiakirjassa, esimerkiksi myyntitilauksessa tai tuotantotilauksessa, on jäljellä vain poimittavat nimikkeet, jotka voidaan ottaa mukaan myöhemmin uuden varaston poiminnan aikana, kun nimikkeet ovat taas saatavissa.  
+## Tilausta varten kokoonpantavien nimikkeiden käsitteleminen varaston poimintojen avulla
 
-> [!WARNING]  
-> Tämä toimenpide ei ole mahdollinen, jos sarja- tai eränumerot on määritetty lähdeasiakirjassa. Jos esimerkiksi myyntitilausrivi sisältää sarja-/eränumeron, tämän nimikeseurannan määritys poistetaan, jos sarja-/eränumeron varaston poimintarivi poistetaan.  
->
-> Jos varaston poimintariveillä on sarja-/eränumeroita, jotka eivät ole saatavissa, näitä rivejä ei saa poistaa. Sinun on sen sijaan muutettava **Käsiteltävä määrä** -kentän arvoksi nolla, kirjattava toteutuneet poiminnat ja poistettava sitten varaston poiminta-asiakirja. Tämä varmistaa, että näiden sarja-/eränumeroiden varaston poimintarivit voidaan myöhemmin luoda uudelleen myyntitilauksesta.  
+**Varaston poiminta** -sivua voi käyttää myös sellisten nimikkeiden myyntiin poimimiseen ja toimittamiseen, jotka on kokoonpantava ennen toimitusta. Lisätietoja on kohdassa [Tilausta varten kokoonpantavien nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md).
 
-## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa
+Tilausta varten kokoonpantavat nimikkeet eivät ole fyysisesti varastopaikassa, ennen kuin ne koottu ja kirjattu tuotoksena varastopaikkaan. Tilausta varten kokoonpantavien nimikkeiden poimintaan varastopaikasta toimituksiin käytetään erityistyönkulkua.
 
-**Varaston poiminta** -sivulla voi myös poimia ja toimittaa myyntiin nimikkeitä, jotka on koottava ennen toimitusta. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md).
+1. Varastopaikasta varastotyöntekijät vievät kokoonpanon nimikkeet toimituslaituriin ja kirjaavat sitten varastopoiminnan.
+2. Kirjattu varaston poiminta kirjaa kokoonpanon tuotoksen, komponentin kulutuksen ja myyntitoimituksen.
 
-Toimitettavat nimikkeet eivät ole paikalla, kunnes ne kootaan ja kirjataan kokoonpanoalueen varastopaikan tuotokseksi. Tämä tarkoittaa, että kokoonpano tilausta varten -nimikkeiden poiminta toimitusta varten noudattaa eritystä virtaa. Varastopaikasta varastotyöntekijät vievät kokoonpanon nimikkeet toimituslaituriin ja kirjaavat sitten varastopoiminnan. Kirjattu varaston poiminta kirjaa sitten kokoonpanon tuotoksen, komponentin kulutuksen ja myyntitoimituksen.
+Voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in luomaan varaston siirron automaattisesti, kun varastopoiminta luodaan kokoonpanon nimikkeelle. **Luo siirrot automaattisesti** -kenttä valitaan **Kokoonpanon asetukset** -sivulla. Lisätietoja on kohdassa [Fyysisten perusvarastojen ja toimintoalueiden määrittäminen](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md).
 
-Voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in luomaan varaston siirron automaattisesti, kun varastopoiminta luodaan kokoonpanon nimikkeelle. Tämä toiminta otetaan käyttöön valitsemalla **Luo siirrot automaattisesti** -kenttä **Kokoonpanon asetukset** -sivulla. Lisätietoja on kohdassa [Komponenttien siirtäminen fyysisen perusvarastoinnin toiminta-alueelle](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Myyntinimikkeiden varaston poimintarivit luodaan eri tavalla sen mukaan, onko tilaukseen kokoonpantu mitään, joitakin vai kaikki myyntirivin määrille määritetyt määrät. Skenaarioissa, joissa osa määrästä kokoonpannaan ja osa poimitaan varastosta, luodaan vähintään kaksi varaston poimintariviä.
 
-Myyntinimikkeiden varaston poimintarivit luodaan eri tavalla sen mukaan, onko tilaukseen koottu mitään, joitakin vai kaikki myyntirivin määrille määritetyt määrät.
+Myynnissä, jossa myyntitilauksen koko määrä kokoonpannaan tilausta varten, kyseiselle määrälle luodaan yksi varaston poimintarivi. **Kokoonpantava määrä** -kentän arvo on sama kuin **Toimitettava määrä** -kentän arvo. **Kokoonpantava määrä** -kenttä on valittu rivillä.
 
-Normaalissa myynnissä, jossa varaston määrien toimitus kirjataan varaston poimintoina, kullekin myyntitilausriville luodaan yksi varaston poimintarivi tai useita varaston poimintarivejä, jos nimike sijoitetaan eri varastopaikkoihin. Tämä poimintarivi perustuu **Toimitettava määrä** -kentän määrään.
+Jos sijaintiin ei ole määritetty kokoonpanon tuotoksen työnkulkua, varaston poimintarivin **Varastopaikan koodi** -kentässä on seuraavien kenttien arvo seuraavassa järjestyksessä.
 
-Kokoonpano tilausta varten -myynnissä, jossa myyntitilauksen koko määrä kootaan tilaukseen, kyseiselle määrälle luodaan yksi varaston poimintarivi. Näin ollen Kokoonpantava määrä -kentän arvo on sama kuin **Toimitettava määrä** -kentän arvo. **Kokoonpantava määrä** -kenttä on valittu rivillä.
+* ***Kok. til.ltoimit. -var.p.koodi** <!-- not applicable for inv pick-->
+* **Kokoonpanosta-varastop.koodi**
 
-Jos sijainnin kokoonpanon tuotoksen virta on määritetty, **Kok. til.ltoimit. -var.p.koodi** -kentän arvo tai **Kokoonpanosta-varastop.koodi** -kentän arvo lisätään tässä järjestyksessä varaston poimintarivin **Varastopaikan koodi** -kenttään.
+Jos myyntitilausriville ei ole määritetty varastopaikkakoodia eikä sijainnille kokoonpanon tuotoksen työnkulkua, varaston poimintarivin **Varastopaikan koodi** -kenttä on silloin tyhjä. Varastotyöntekijän on avattava **Varastopaikan sisältö** -sivu ja valittava varastopaikka, johon kokoonpanon nimikkeet kootaan.
 
-Jos myyntitilausriville ei ole määritetty varastopaikkakoodia eikä sijainnille kokoonpanon tuotoksen virtaa, varaston poimintarivin **Varastopaikan koodi** -kenttä on tyhjä. Varastotyöntekijän on avattava **Varastopaikan sisältö** -sivu ja valittava varastopaikka, johon kokoonpanon nimikkeet kootaan.
+Skenaarioissa, joissa osa määrästä on kokoonpantava ja osa poimittava, luodaan vähintään kaksi poimintariviä.
 
-Yhdistelmätilanteissa, joissa osa määrästä on koottava ensin ja toinen poimittava varastosta, luodaan vähintään kaksi varaston toimitusriviä. Yksi poimintarivi on kokoonpano tilausta varten -määrälle. Toinen poimintarivi riippuu siitä, mistä varastopaikoista voidaan saada jäljellä oleva määrä. Kahden rivin varastopaikkakoodit on täytetty eri tavoin kahden vastaavan myyntityypin mukaan. Lisätietoja on ohjeaiheen [Tietoja Kokoonpano tilausta varten- tai Kokoonpano varastoon -toiminnoista](assembly-assemble-to-order-or-assemble-to-stock.md) kohdassa Skenaarioiden yhdistelmä.
+* Yksi poimintarivi on tilausta varten kokoonpantavalle määrälle. [!INCLUDE [prod_short](includes/prod_short.md)] käyttää seuraavia kenttiä annetussa järjestyksessä varastopaikan koodin määrittämiseen: **Varastopaikan koodi**, **Kok. til.ltoimit. -var.p.koodi** ja sitten **Kokoonpanosta-varastop.koodi**. Jos nämä kentät ovat tyhjiä, varastotyöntekijän on avattava **Varastopaikan sisältö** -sivu ja valittava varastopaikka, johon nimikkeet kootaan.  
+* Toinen poimintarivi määräytyy sen mukaan, mistä varastopaikoista voidaan täyttää jäljellä oleva määrä. Jos nimikettä säilytetään useissa varastopaikoissa, useita rivejä luodaan. Ottorivi perustuu **Toimitettava määrä** -kentän määrään.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/pick-ship-items-business-central/)
+> [!NOTE]  
+> Jos nimikkeet ovat tilausta varten kokoonpantavia, varaston poiminta koskee linkitettyä myyntitilausta, kunnes varastosiirto luodaan kaikille kokoonpanon komponenteille.  
 
-## <a name="see-also"></a>Katso myös
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/pick-ship-items-business-central/)
 
-[Varastoinninhallinta](warehouse-manage-warehouse.md)  
+## Katso myös
+
+[Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
 [Varasto](inventory-manage-inventory.md)  
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Vaihekuvaus: Poiminta ja toimitus fyysisen varastoinnin perusmäärityksissä](walkthrough-picking-and-shipping-in-basic-warehousing.md)  
-[Rakennetiedot: Fyysisen varaston hallinta](design-details-warehouse-management.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

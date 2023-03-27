@@ -1,23 +1,17 @@
 ---
 title: Maksutapojen määrittäminen (sisältää videon)
-description: Voit määrittää myynti- ja ostolaskuille maksutavan, kuten sekin, pankkisiirron, käteisen tai PayPal-maksun.
+description: 'Voit määrittää myynti- ja ostolaskuille maksutavan, kuten sekin, pankkisiirron, käteisen tai PayPal-maksun.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: check, bank transfer, cash, PayPal
+ms.search.keywords: 'check, bank transfer, cash, PayPal'
 ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ef92b2ade7c18a57438a6a87a939070cb42a9fb1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530619"
 ---
-# <a name="set-up-payment-methods"></a>Maksutapojen määrittäminen
+# Maksutapojen määrittäminen
 
 Maksutavat määrittävät, miten asiakkaiden halutaan ensisijaisesti maksavan ja miten haluat maksaa toimittajille. Maksutapa voi olla asiakas- tai toimittajakohtainen, Tyypillisiä maksutapoja ovat esimerkiksi **pankki**, **käteinen**, **sekki** tai **tili**.
 
@@ -29,7 +23,7 @@ Palautusten hyvityslaskut ovat kuitenkin poikkeuksia, sillä rahavirrat kulkevat
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE476Ys?rel=0]
 
-## <a name="to-set-up-a-payment-method"></a>Maksutapojen määrittäminen
+## Maksutapojen määrittäminen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää muutamia yritysten usein käyttämiä maksutapoja. Voit kuitenkin lisätä niitä tarvittavan määrän.
 
@@ -38,14 +32,14 @@ Palautusten hyvityslaskut ovat kuitenkin poikkeuksia, sillä rahavirrat kulkevat
 
 Vaihtoehtoisesti voit lisätä maksuehdot maksutapaan. Lisätietoja on ohjeaiheessa [Maksuehtojen määrittäminen](finance-payment-terms.md).  
 
-## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Maksutavan määrittely asiakkaalle tai toimittajalle
+## Maksutavan määrittely asiakkaalle tai toimittajalle
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakas** tai **Toimittaja** ja valitse sitten vastaava linkki.
 2. Valitse **Maksutavan koodi** -kentässä menetelmä, jota käytetään oletusarvoisesti asiakkaalle tai toimittajalle.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/cash-management-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/cash-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md)  
 [Maksuehtojen määrittäminen](finance-payment-terms.md)  

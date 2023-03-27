@@ -1,6 +1,6 @@
 ---
 title: Hyväksynnän käyttäjien määrittäminen
-description: Ennen kuin voit luoda työnkulkuja, joihin liittyy hyväksyntävaiheita, sinun on määritettävä hyväksymisprosesseihin osallistuvat työnkulun käyttäjät Hyväksyjäkäyttäjän määritys -sivulla.
+description: 'Ennen kuin voit luoda työnkulkuja, joihin liittyy hyväksyntävaiheita, sinun on määritettävä hyväksymisprosesseihin osallistuvat työnkulun käyttäjät Hyväksyjäkäyttäjän määritys -sivulla.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.form: 663
 ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: 2654dcb68b579d90fe3218bcd0bba3bde4cb5036
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585835"
 ---
-# <a name="set-up-approval-users"></a>Hyväksynnän käyttäjien määrittäminen
+# Hyväksynnän käyttäjien määrittäminen
 
 Ennen kuin voit luoda työnkulkuja, joihin liittyy hyväksyntävaiheita, sinun on määritettävä hyväksymisprosesseihin osallistuvat työnkulun käyttäjät. Voit myös määrittää **Hyväksynnän käyttäjäasetukset** -sivulla rajoituksia tietynlaisille pyynnöille sekä korvaavia hyväksyjiä, jotka voivat hyväksyä pyyntöjä alkuperäisen hyväksyjän ollessa poissa.  
 
@@ -28,7 +22,7 @@ Kun olet määrittänyt hyväksynnän käyttäjät, voit määrittää työnkulu
 > [!NOTE]  
 > Jos haluat määrittää, että hyväksymispyyntöä ei ole hyväksytty, ennen kuin käyttäjät ovat hyväksyneet sen, määritä hyväksyjien hierarkia. Käyttäjätunnukselle **Hyväksyjä** on määritettävä hyväksyjä **Hyväksynnän käyttäjäasetukset** -sivulla. Määritä hyväksyjät **Työnkulun käyttäjäryhmä** -hyväksyjätyypille **Työnkulun käyttäjäryhmät** -sivulla ja määritä hierarkia määrittämällä kullekin hyväksyjälle **Järjestysnro** -kentässä. Lisätietoja alla ja kohdassa [Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md).  
 
-## <a name="to-set-up-an-approval-user"></a>Hyväksynnän käyttäjän määrittäminen
+## Hyväksynnän käyttäjän määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyväksynnän käyttäjäasetukset**, valitse sitten vastaava linkki.  
 2. Luo uusi rivi **Hyväksynnän käyttäjäasetukset** -sivulla, täytä sitten kentät seuraavassa taulukossa kuvatulla tavalla.  
@@ -54,9 +48,9 @@ Kun olet määrittänyt hyväksynnän käyttäjät, voit määrittää työnkulu
 3. Voit testata hyväksyjäkäyttäjän asetukset valitsemalla **Hyväksynnän käyttäjien määrityksen testi** -toiminto.  
 4. Toista vaiheet 2 ja 3 jokaiselle henkilölle, jonka haluat määrittää hyväksynnän käyttäjäksi.  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md)  
 [Työnkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md)  

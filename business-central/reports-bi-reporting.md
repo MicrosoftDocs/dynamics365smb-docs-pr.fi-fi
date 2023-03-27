@@ -10,14 +10,8 @@ ms.search.keywords: feature overview
 ms.reviewer: edupont
 ms.date: 09/22/2022
 ms.author: kepontop
-ms.openlocfilehash: 4ae58b37d42d501142ebfa617da79266d5d8a9b1
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607858"
 ---
-# <a name="business-intelligence-and-reporting-overview"></a>Business Intelligencen ja raportoinnin yleiskuva
+# Business Intelligencen ja raportoinnin yleiskuva
 
 Pienet ja keskisuuret yritykset käyttävät valmista analytiikkaa ja raportointiominaisuuksia, joita ne voivat käyttää suoraan liiketoimintansa seuraamiseen. [!INCLUDE[prod_short](includes/prod_short.md)] tukee tällaisten organisaatioiden yleisiä liiketoimintaprosesseja sekä monimutkaisempia prosesseja. Jokainen näistä prosesseista sisältää raportteja ja analytiikkatyökaluja. Voit myös tehdä ad-hoc-analyysin suoraan aloitussivulla.  
 
@@ -32,9 +26,9 @@ Seuraava taulukko sisältää keskeiset liiketoimintatiedot ja raportointitoimin
 | Integroi ulkoiset liiketoimintatietotyökalut sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] kanssa.| [Ulkoiset liiketoimintatietotyökalut](reports-external-analysis.md) |
 |Muokkaa raporttiasetteluita tai kehitä omia raportteja alusta lähtien. |[Raporttien kehittäminen](reports-develop-reports.md)|
 
-## <a name="see-related-microsoft-training"></a>Katso [Microsoftin koulutukset](/training/paths/setup-reporting-dynamics-365-business-central/).
+## Katso [Microsoftin koulutukset](/training/paths/setup-reporting-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Taloudelliset liiketoimintatiedot](bi.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

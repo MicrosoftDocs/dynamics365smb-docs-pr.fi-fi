@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2022
 ms.author: edupont
-ms.openlocfilehash: 74cf1897792ab15c9c74ff76e3674ca31fe599f1
-ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 08/19/2022
-ms.locfileid: "9317372"
 ---
 [!INCLUDE[prod_short](prod_short.md)] -käyttäjät voivat joskus tukea useampaa kuin yhtä osastoa tai aliorganisaatiota liiketoimintayksikön sisällä. Yrityksellä voi esimerkiksi olla myyntitoimistoja eri kaupungeissa ja useissa maissa, joten se on luonut erillisen liiketoimintayksikön kullekin toimistolle. Samassa maassa olevat toimistot määritetään erillisinä *yrityksinä* jaetussa *ympäristössä*. Muut toimistot luodaan yrityksinä erillisissä ympäristöissä, koska ne sijaitsevat maantieteellisesti muissa maissa.
 
