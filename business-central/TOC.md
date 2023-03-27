@@ -106,6 +106,13 @@
 ### [Itsepalvelun rekisteröitymisen vianmääritys](ui-troubleshoot-self-signup.md)
 ### [Kokeilujakson jatkaminen](admin-extend-trial.md)
 ### [Business Centralin poistaminen tai tilauksen peruuttaminen](admin-cancel.md)
+### Nimikkeen tekoälypohjainen markkinointiteksti ja Copilot
+#### [Yleiskatsaus](ai-overview.md)
+#### [Esiversion hankkiminen – Copilot-versio](ai-preview-getstarted.md)
+#### [Nimikkeen tekoälypohjaisen markkinointitekstin määrittäminen](enable-ai.md)
+#### [Nimikkeen tekoälypohjaisen markkinointitekstin luominen](item-marketing-text.md)
+#### [Usein kysytyt kysymykset](ai-faq.md)
+
 ## Ostaminen
 ### [Tilauksen käytön aloittaminen](trial-signup.md#get-started-with-a-subscription)
 ### [Liiketoimintaan valmistautuminen](ui-get-ready-business.md)
@@ -492,6 +499,7 @@
 ### [Tuotevarianttien hallinta](inventory-item-variants.md)  
 ### [Nimikemääritteiden käsitteleminen](inventory-how-work-item-attributes.md)
 ### [Luettelonimikkeiden käsitteleminen](inventory-how-work-nonstock-items.md)
+### [Markkinointitekstin lisääminen nimikkeille](item-marketing-text.md)
 ### [Varastojen laskeminen ja muuttaminen asiakirjojen avulla](inventory-how-count-inventory-with-documents.md)
 ### [Varaston laskeminen, muuttaminen ja uudelleenluokitus päiväkirjojen avulla](inventory-how-count-adjust-reclassify.md)
 ### [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)
@@ -826,7 +834,7 @@
 ##### [Kassan lokalisointi – Tšekki (laajennus)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Myynnin rekisteröinti (EET)](LocalFunctionality/Czech/eet.md)
 ##### [Ennakkomaksut](LocalFunctionality/Czech/advances.md)
-##### [Ennakkomaksujen lokalisointi – Tšekki (laajennus](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
+##### [Ennakkomaksujen lokalisointi – Tšekki (laajennus)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
 #### Ostovelat ja myyntisaatavat
 ##### [Ostovelat ja myyntisaatavat](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
@@ -1523,10 +1531,11 @@
 #### [Varastointiyksiköiden määrittäminen](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Nimikkeiden luokitteleminen](inventory-how-categorize-items.md)
 #### [Useiden nimikekuvien tuominen](inventory-how-import-item-pictures.md)
+#### [Nimikkeen tekoälypohjaisen markkinointitekstin määrittäminen Copilotin avulla](enable-ai.md)
 ### Projektienhallinnan määrittäminen
 #### [Projektien määrittäminen](projects-setup-projects.md)
 #### [Resurssien määrittäminen](projects-how-setup-resources.md)
-#### [Määritä tuntiraportit](projects-how-setup-time-sheets.md)
+#### [Tuntiraporttien määrittäminen](projects-how-setup-time-sheets.md)
 #### [Projektien määrittäminen](projects-how-setup-jobs.md)
 ### Käyttöomaisuuden määrittäminen
 #### [Käyttöomaisuuden määrittäminen](fa-setup.md)
@@ -1594,6 +1603,7 @@
 ##### [Business Central -apuohjelman hankkiminen Outlookiin](admin-outlook.md)
 ##### [Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa](work-outlook-addin.md)
 ##### [Synkronoiminen Outlookin yhteystietojen kanssa](admin-synchronize-outlook-contacts.md)
+###### [Yhteyshenkilön synkronoinnin määrittäminen paikallisesti](admin-contact-sync-setup-onprem.md)
 ##### [Outlookin optimoiminen](admin-outlook-optimize.md)
 ##### [Business Centralin käyttäminen ilman Outlookia](admin-no-outlook.md)
 ##### [Usein kysytyt kysymykset](ui-outlook-addin-faq.yml)
@@ -1615,6 +1625,7 @@
 #### Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa 
 ##### [Yleiskatsaus](admin-outlook.md)
 ##### [Synkronoiminen Microsoft Outlookin yhteystietojen kanssa](admin-synchronize-outlook-contacts.md)
+###### [Yhteyshenkilön synkronoinnin määrittäminen paikallisesti](admin-contact-sync-setup-onprem.md)
 ##### [Business Centralin käyttäminen ilman Outlookia](admin-no-outlook.md)
 #### Microsoft Teamsin käyttäminen Business Centralin kanssa
 ##### [Yleiskatsaus](across-teams-overview.md)
