@@ -28,6 +28,7 @@ Seuraavassa taulukossa kerrotaan, millaisia tietojen luottamuksellisuustasoja vo
 |Normaali | Yleistiedot, jotka eivät kuulu muihin luokkiin.|
 
 ## Miten tiedot luokitellaan?
+
 Jos kenttiä on paljon, niiden tietojen luottamuksellisuuden luokitteleminen yksitellen kestäisi kauan. Voit nopeuttaa prosessia käyttämällä työkaluja, jotka mahdollistavat kenttien luottamuksellisuuden joukkoluokittelun sekä tiettyjen kenttien luokitteluiden hienosäädön. Työkalut löytyvät tietojen luokittelun työkirjasta. Se sijaitsee käyttäjien, käyttäjäryhmien ja käyttöoikeuksien hallinnan roolikeskuksessa. Tätä työkirjaa voi käyttää vain järjestelmänvalvoja.
 
 > [!Important]

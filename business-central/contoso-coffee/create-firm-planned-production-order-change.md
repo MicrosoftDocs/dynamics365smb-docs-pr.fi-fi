@@ -1,29 +1,24 @@
 ---
 title: Luo sitovasti suunniteltu tuotantotilaus muuta sitä
-description: Vaihekuvaus Contoso Coffeen tuotantosuunnittelijalle, joka haluaa luoda sitovasti suunnitellun tuotantotilauksen ja muokata sitä.
+description: 'Vaihekuvaus Contoso Coffeen tuotantosuunnittelijalle, joka haluaa luoda sitovasti suunnitellun tuotantotilauksen ja muokata sitä.'
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 7a057e144ed6825435c62f565eeaaa73974fedf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525068"
 ---
-# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a>Vaihekuvaus: Luo sitovasti suunniteltu tuotantotilaus muuta sitä
+
+# Vaihekuvaus: Luo sitovasti suunniteltu tuotantotilaus muuta sitä
 
 Tässä artikkelissa on tietoja Contoso Coffee -esittelyn tietojen käytöstä tuotantotilausten suhteen.  
 
-## <a name="scenario"></a>Esimerkkitilanne
+## Esimerkkitilanne
 
 Contoso Coffeen tuotantosuunnittelijan Eduardon on luotava uusi tuotantotilaus 10 yksikölle nimikkeelle **SP-SCM1009, Airpot**, jonka täytyy olla valmis 28. huhtikuuta. Hän taaksepäin aikatauluttaa tämän ja vahvistaa, että hän voi aloittaa tilauksen 27. huhtikuuta.  
 
 Pian tämän tehtävän päätyttyä häntä pyydetään kasvattamaan tilausta 50 yksikköön. Kun tämä suoritetaan, taaksepäin aikataulutustoiminto siirtää tilauksen aloituspäivämäärän liian aikaiseen. Joten hän eteenpäin aikatauluttaa tilauksen 23. huhtikuuta eteenpäin määrittääkseen realistisemman päättymispäivämäärän.  
 
-## <a name="steps"></a>Vaiheet
+## Vaiheet
 
 1. Luo alkuperäinen tuotantotilaus **SP-SCM1009, Airpot** -nimikkeen 10 yksikölle.
 
@@ -63,6 +58,6 @@ Pian tämän tehtävän päätyttyä häntä pyydetään kasvattamaan tilausta 5
 
 Uusi tuotantotilaus on nyt määritetty, ja Eduardon vaatimukset täyttyvät.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Johdatus Contoson kahvidemotietoihin](contoso-coffee-intro.md)  

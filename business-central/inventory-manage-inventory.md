@@ -1,23 +1,18 @@
 ---
 title: Varaston hallinta
-description: Tässä artikkelissa kuvataan, miten luomalla varastonimikekortti hallitaan fyysisiä tuotteita, joilla käydään kauppaa.
+description: 'Tässä artikkelissa kuvataan, miten luomalla varastonimikekortti hallitaan fyysisiä tuotteita, joilla käydään kauppaa.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, stock
-ms.search.forms: 5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782
+ms.search.keywords: 'warehouse, stock'
+ms.search.forms: '5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 568ccee7e01aacb429e6ed2e2b69daf91f67b488
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530025"
 ---
-# <a name="manage-inventory"></a>Varaston hallinta
+
+# Varaston hallinta
 
 Jokaiselle fyysiselle tuotteelle, jolla käydään kauppaa, on luotava **Varasto**-tyyppinen nimikekortti. Asiakkaille tarjottavat nimikkeet, joita ei säilytetä varastossa, voidaan rekisteröidä luettelonimikkeiksi. Ne voidaan muuntaa varastonimikkeiksi tarvittaessa. Voit suurentaa tai pienentää varastossa olevien nimikkeiden määrää kirjaamalla arvon suoraan nimiketapahtumiin esimerkiksi fyysisen määrän jälkeen tai jättämällä ostoja kirjaamatta.
 
@@ -26,17 +21,17 @@ Varaston arvon nousut ja laskut kirjataan luonnollisesti myös silloin, kun osto
 Voit parantaa nimikkeiden yhteenvetoa ja auttaa niiden etsimisessä luokittelemalla nimikkeet ja antamalla niille määritteitä, joiden perusteella voidaan tehdä hakuja ja lajitteluja.
 
 > [!NOTE]
-> Nimikkeiden fyysistä käsittelyä kutsutaan varastotoiminnoiksi. Lisätietoja kohdassa [Varastonhallinta](warehouse-manage-warehouse.md).
+> Nimikkeiden fyysistä käsittelyä kutsutaan varastotoiminnoiksi. Lisätietoja on kohdassa [Varastoinninhallinnan yleiskuvaus](design-details-warehouse-management.md).
 
 Nimikkeiden suunnittelu kysynnän täyttämiseksi katetaan osana tarjonnan suunnittelutoimintoa. Lisätietoja kohdassa [Suunnittelu](production-planning.md).  
 
-## <a name="inventory-reconciliation"></a>Varaston täsmäytys
+## Varaston täsmäytys
 
 Kun kirjaat varastotapahtumia, kuten myyntitoimituksia, ostolaskuja tai varaston muutoksia, muuttuneet nimikekustannukset kirjataan niiden arvotapahtumiin. Jotta varastoarvon muutos päivittyisi talouskirjoihin, varastokustannukset kirjataan automaattisesti pääkirjanpidon liittyviin varastotileihin. Jokaista itse kirjattua varastotapahtumaa kohti kirjataan sopiva arvo varastotilille, muutostilille ja myytyjen tuotteiden kustannusten tilille pääkirjanpidossa. Lisätietoja kohdassa [Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Vaikka kustannukset kirjattaisiin automaattisesti pääkirjanpitoon, on tarpeen varmistaa, että tavaroiden kustannukset välitetään liitetään lähtevälle tapahtumalle. Tämä on erityisen tärkeää, kun myyt tavaroita ennen näiden tavaroiden oston laskutusta. Tätä kutsutaan kustannusmuutokseksi. Nimikekustannukset muutetaan automaattisesti nimiketapahtumia kirjattaessa, mutta voit muuttaa niitä myös manuaalisesti. Lisätietoja kohdassa [Nimikekustannusten muuttaminen](inventory-how-adjust-item-costs.md).  
 
-## <a name="related-tasks"></a>Liittyvät tehtävät
+## Liittyvät tehtävät
 
 Seuraavassa taulukossa on esitetty liittyviä tehtäviä.
 
@@ -60,12 +55,12 @@ Seuraavassa taulukossa on esitetty liittyviä tehtäviä.
 |Hallitse myyntitoimistojen, osto-osastojen tai tehtaan suunnittelutoimistojen liiketoimintatoiminnoissa eri sijainneissa.|[Vastuupaikkojen käyttäminen](inventory-responsibility-centers.md)|
 |Käytä resursseja, joilla on erityistoimintoja, eri palveluille ja huoltonimikkeille.|[Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md)|
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/get-started-inventory-management/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/get-started-inventory-management/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
-[Varastoinninhallinta](warehouse-manage-warehouse.md)  
-[Osto](purchasing-manage-purchasing.md)  
+[Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
+[Hankinta](purchasing-manage-purchasing.md)  
 [Myynti](sales-manage-sales.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  

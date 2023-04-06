@@ -6,17 +6,12 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: cd127d1b313a0c060ef676c74f0df83e01896b53
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516445"
 ---
-# <a name="install-the-prod_short-app-for-microsoft-teams"></a>Asenna [!INCLUDE [prod_short](includes/prod_short.md)] -sovellus Microsoft Teamsiin
+
+# Asenna [!INCLUDE [prod_short](includes/prod_short.md)] -sovellus Microsoft Teamsiin
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -25,7 +20,7 @@ Tässä artikkelissa opit asentamaan [!INCLUDE [prod_short](includes/prod_short.
 > [!NOTE]
 > Järjestelmänvalvoja on saattanut määrittää asiat niin, että sovellus asennetaan automaattisesti puolestasi. Jos haluat tarkistaa, onko sovellus asennettu, avaa Teams ja valitse **Sovellukset**. Etsi **Business Central** ja valitse se, kun löydät sen. Jos näet **Avaa**-painikkeen **Business Central** -sivulla, sovellus on jo asennettu.  
 
-## <a name="prerequisites"></a>Vaatimukset
+## Vaatimukset
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] online -käyttäjätili tarvitaan Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovellukseen.
 
@@ -35,7 +30,7 @@ Tässä artikkelissa opit asentamaan [!INCLUDE [prod_short](includes/prod_short.
 
 - Organisaatiosi käytännöt sallivat sovellusten asentamisen Microsoft Teamsiin.
 
-## <a name="add-the-business-central-app-to-teams"></a>Lisää Business Central -sovellus Teamsiin
+## Lisää Business Central -sovellus Teamsiin
 
 Business Central -sovelluksen voi asentaa kolmella tavalla:
 
@@ -72,11 +67,11 @@ Tämä vaihtoehto on nopein tapa asentaa sovellus.
 > [!NOTE]
 > Kummassakin tapauksessa pyydetään kirjautumaan [!INCLUDE [prod_short](includes/prod_short.md)] -sovellukseen. Valitse **kirjautumisen** linkki ja anna [!INCLUDE [prod_short](includes/prod_short.md)] -kirjautumisnimi ja -salasana ohjeiden mukaan.
 
-## <a name="next-step"></a>Seuraava vaihe
+## Seuraava vaihe
 
 Olet nyt valmis käyttämään sovellusta Teamsissa yhteystietojen etsimistä tai Business Central -tietueiden jakamista varten. Lisätietoja on kohdassa [Asiakkaiden, toimittajien ja muiden yhteystietojen etsiminen Microsoft Teams](across-search-contacts-teams.md)issa tai [Jaa tietueita Microsoft Teams](across-working-with-teams.md)issa.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Business Centralin ja Microsoft Teamsin integraation yleiskatsaus](across-teams-overview.md)  
 [Teams – usein kysytyt kysymykset](teams-faq.md)  

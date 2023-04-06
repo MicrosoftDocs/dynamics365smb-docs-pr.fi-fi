@@ -59,8 +59,8 @@ Fyysisen varaston toimitus voidaan luoda jommallakummalla tavalla:
     * Push-menetelmässä käytetään **Luo poiminta** -toimintoa. Valitse poimittavat rivit ja määritä poimintoja koskevat tiedot. Kyse voi olla esimerkiksi siitä, mistä varastopaikoista poimitaan ja mihin asetetaan sekä kuinka monta yksikköä käsitellään. Varastopaikat voidaan määrittää ennalta fyysisen varaston sijainnissa tai resurssissa.
     * Pull-menetelmässä käytetään **Vapauta**-toimintoa. Hae määritetyt poiminnat käyttämällä **Poimintatyökirja**-sivun **Hae f. varastoinnin asiakirjat** -toimintoa. Kun fyysisen varastoinnin poiminnat on rekisteröity kokonaan, **Poimintatyökirja**-kohteen rivit poistetaan. Lisätietoja on kohdassa [Nimikkeiden poiminta fyysisen varastoinnin toimitusta varten](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-> [!TIP]
-> Jos sijainnissa ei edellytetä poimintaa, fyysisen varaston toimitus voidaan tulostaa poimintaluetteloksi.
+    > [!TIP]
+    > Jos sijainnissa ei edellytetä poimintaa, fyysisen varaston toimitus voidaan tulostaa poimintaluetteloksi.
 
 8. Määritä toimitettava määrä.  
 
@@ -71,6 +71,8 @@ Fyysisen varaston toimitus voidaan luoda jommallakummalla tavalla:
     Kaikkien rivien **Toimitettava määrä** -kentän arvoksi voidaan määrittää nolla valitsemalla **Poista toimitettava määrä** -toiminto. Määrän määrittäminen nollaksi on kätevää esimerkiksi silloin, jossa toimitusmäärä päivitetään viivakoodin lukijalla. Toimitettavissa oleva määrä lisätään valitsemalla **Täytä autom. toimitet. määrä** -toiminto.
 
 9. Kirjaa toimitus.
+
+    [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
 ## Lähdeasiakirjojen hakeminen suodattimien avulla
 

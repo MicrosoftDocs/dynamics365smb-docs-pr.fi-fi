@@ -19,14 +19,16 @@ Alla oleva taulukko ilmaisee Microsoft-palveluihin liittyvät yhteydet, jotka ot
 |------------|-------------|--------|------------|-------------|
 |Microsoft Teams|Kyllä|Ei|**Jaa Teamsiin** -toiminto **Nimike**-kortissa |[Teamsin ja Business Centralin integroinnin hallinta](admin-teams-integration.md)|  
 |Microsoft OneDrive for Business|Kyllä|Ei|**Avaa OneDrivessa** -toiminto **Nimike**-liitteissä |[OneDriven ja Business Centralin integroinnin hallinta](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
-| Microsoft Power Automate |Kyllä|Ei|**Automaattiset** toiminnot **Nimike**-kortissa |[Power Automate -integraation määrittäminen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|  
+| Microsoft Power Automate |Kyllä|Ei|**Automaattiset** toiminnot **Nimike**-kortissa |[Power Automate -integraation määrittäminen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
+| Microsoft Azure OpenAI Automate |Kyllä |Ei|**Copilot (esiversio)** |[Nimikkeen tekoälypohjaisen markkinointitekstin määrittäminen Copilotin avulla](enable-ai.md)|
 
 > [!NOTE]
 > Käyttämällä toimintoja, jotka muodostavat yhteyden näihin palveluihin: 
 >
 > - Suostut siihen, että tietojasi jaetaan kyseisen Microsoft-palvelun kanssa. Jos organisaatiosi on ottanut nämä palvelut käyttöön eri maassa tai alueella, palveluun yhdistäminen voi johtaa siihen, että tietosi ylittää tietojen sijaintirajat. Varmista, että vahvistat organisaation käytännöt ja tietojen noudattamista koskevat viranomaisvaatimukset ennen kuin alat käyttää näitä ominaisuuksia. 
 > - Saatat vaikuttaa palveluihin, jotka eivät ole kokeiluversioita. Jos näitä palveluita käytetään organisaation tuotannossa eikä niitä ole arvioitu yhdessä Business Centralin kanssa, muut näiden palveluiden käyttäjät, jotka eivät osallistu tähän [!INCLUDE[prod_short](includes/prod_short.md)] - kokeiluversioon, voivat vaikuttaa niihin.
-> - [!INCLUDE[prod_short](includes/prod_short.md)] voi myös muodostaa yhteyden Microsoftin palveluihin tai kolmannen osapuolen palveluihin sen mukaan, mitä mukautuksia ja laajennuksia järjestelmänvalvoja on asentanut [!INCLUDE[prod_short](includes/prod_short.md)] -kokeiluversioosi. Saat lisätietoja siitä, miten laajennukset käsittelevät tietojasi, ottamalla yhteyttä laajennuksen kehittäjään tai seuraamalla laajennuksen tietosuojalinkkiä AppSourcessa. 
+> - [!INCLUDE[prod_short](includes/prod_short.md)] voi myös muodostaa yhteyden Microsoftin palveluihin tai kolmannen osapuolen palveluihin sen mukaan, mitä mukautuksia ja laajennuksia järjestelmänvalvoja on asentanut [!INCLUDE[prod_short](includes/prod_short.md)] -kokeiluversioosi. Saat lisätietoja siitä, miten laajennukset käsittelevät tietojasi, ottamalla yhteyttä laajennuksen kehittäjään tai seuraamalla laajennuksen tietosuojalinkkiä AppSourcessa.
+> - Esiversioon sisältyvien toimintojen osalta hyväksyt [esiversion ehdot](https://powerplatform.microsoft.com/en-us/legaldocs/supp-powerplatform-preview/?wt.mc_id=power-virtual-agents_inproduct).
 
 Tietosuoja on meille tärkeää. [Microsoftin tietosuojatiedoissa](https://go.microsoft.com/fwlink/?linkid=521839) on tietoja siitä, miten Microsoft käsittelee tietojasi.
 

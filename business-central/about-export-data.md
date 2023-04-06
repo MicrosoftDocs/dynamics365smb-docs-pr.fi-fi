@@ -6,22 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
+ms.search.keywords: 'analysis, reporting, financial report, business intelligence, BI, Excel'
 ms.search.form: 9901
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: adfb0a98f79f3e32656e6e9f6b95172e6a83dd39
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529944"
 ---
-# <a name="export-your-business-data-to-excel"></a>Liiketoimintatietojen vieminen Exceliin
+# Liiketoimintatietojen vieminen Exceliin
 
 Excel on tehokas työkalu tietojen käsittelyyn. [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman sisältä voit avata minkä tahansa luettelon Excelissä. Voit myös muokata tietoja Excelissä ja lähettää tiedot takaisin [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaan. Saman ominaisuuden ansiosta sinun on helppo ottaa tiedot mukaan, jos päätät peruuttaa tilauksesi.
 
-## <a name="opening-lists-in-excel"></a>Luetteloiden avaaminen Excelissä
+## Luetteloiden avaaminen Excelissä
 
 Voit avata minkä tahansa päiväkirjan, luettelon tai työkirjan tiedot Excelissä. Avaa haluamasi sivu ja valitse sitten **Avaa Excelissä**. Voit esimerkiksi avata asiakasluettelon (hae **Asiakkaat**) ja valitse sitten **Avaa Excelissä**. Selain pyytää sinua avaamaan tai tallentamaan luodun Excel-työkirjan.  
 
@@ -30,11 +24,11 @@ Voit avata minkä tahansa päiväkirjan, luettelon tai työkirjan tiedot Excelis
 
 Jokaisessa luettelossa on joitakin sarakkeita. Exceliin vieminen sisältää kaikki avoinna olevan näkymän sarakkeet. Muuta sarakkeita avaamalla minkä tahansa sarakkeen pikavalikko ja määrittämällä näytettävät sarakkeet. Sarakeluettelo on erilainen useimmissa luetteloissa. Sarakkeet vastaavat tietokannan rakennetta, johon tiedot tallennetaan. Jos et ole varma, minkä tyyppistä tietoa tietty sarake sisältää, lisää se näkymään. Voit poistaa sen aina uudelleen.  
 
-### <a name="edit-data-in-excel"></a>Muokkaa tietoja Excelissä
+### Muokkaa tietoja Excelissä
 
 Oma [!INCLUDE[prod_short](includes/prod_short.md)] sisältää laajennuksen Exceliin niin, että Excel-tietoja voidaan muokata. Lisätietoja on kohdassa [Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md).  
 
-## <a name="exporting-data-to-other-finance-systems"></a>Tietojen vienti muihin rahoitusjärjestelmiin
+## Tietojen vienti muihin rahoitusjärjestelmiin
 
 Jos päätät peruuttaa [!INCLUDE[prod_short](includes/prod_short.md)]in tilauksen, voit viedä tiedot Exceliin ja viedä ne sitten seuraavaa rahoitusjärjestelmään.  
 
@@ -78,9 +72,9 @@ Myös seuraavien sivujen tietojen vienti on suositeltavaa:
 
 Lisätietoja on kohdassa [Käyttäjän käyttöoikeuksien yleiskatsauksen hankkiminen](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [[!INCLUDE[prod_short](includes/prod_short.md)]-tilauksen peruuttaminen](admin-cancel.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md)  

@@ -87,6 +87,8 @@ Varaston siirtoasiakirjojen käytön sijaan varaston siirrot voidaan kirjata uud
 3. Täytä kunkin päiväkirjan rivin muut kentät.
 4. Kirjaa uudelleenluokituspäiväkirja.  
 
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
 ## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-internal-warehouse-processes/)
 
 ## Katso myös

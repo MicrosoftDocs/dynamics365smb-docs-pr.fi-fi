@@ -1,30 +1,24 @@
 ---
 title: Raporttien jakaminen ja vieminen Saapuneet raportit -toiminnon avulla
-description: Saapuneet raportit -sivun avulla voit ladata, jakaa ja viedä raportteja Business Centralissa.
+description: 'Saapuneet raportit -sivun avulla voit ladata, jakaa ja viedä raportteja Business Centralissa.'
 author: rubenseishima
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, dataset, export, report inbox, onedrive,
+ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, dataset, export, report inbox, onedrive,'
 ms.search.form: 680
 ms.date: 08/08/2022
 ms.author: a-reishima
-ms.openlocfilehash: 055e592047b6dafdc7aad89cca321d2438ddb990
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9608148"
 ---
-# <a name="share-and-export-reports-with-the-report-inbox"></a>Raporttien jakaminen ja vieminen Saapuneet raportit -toiminnon avulla
+# Raporttien jakaminen ja vieminen Saapuneet raportit -toiminnon avulla
 
 **Saapuneet raportit** -sivulla on käyttäjän sovelluksessa [!INCLUDE[prod_short](includes/prod_short.md)] luomat ajoitetut raportit. Sitä voidaan käyttää luotujen raporttien käyttämisen lisäksi myös tiedostojen jakamisessa ja avaamisessa OneDrive for Business -ratkaisussa.
 
 > [!TIP]
 > Seuraavat toiminnot ovat myös käytettävissä **Saapuneet raportit** -osassa roolikeskuksessa. Jos osaa ei näytetä liittymässäsi, löydät ohjeita roolikeskuksen mukauttamiseen täältä: [Työtilan mukauttaminen](ui-personalization-user.md).
 
-## <a name="download-generated-reports"></a>Luotujen raporttien lataaminen
+## Luotujen raporttien lataaminen
 
 Voit tallentaa aiemmat raportit avaamalla **Saapuneet raportit** -sivun seuraavasti:
 
@@ -36,7 +30,7 @@ Voit tallentaa aiemmat raportit avaamalla **Saapuneet raportit** -sivun seuraava
 >
 > Luodut tiedostot tallennetaan muodossa, joka on määritetty raportin ajoituksen yhteydessä. Sen voi muuttaa **Työjonotapahtumat**-sivulla yhdessä toisto- ja muiden asetusten kanssa. Lisätietoja raportin tiedostomuodon muuttamisesta ja lisäasetusten määrittämisestä on kohdassa [Aikataulutettujen toistuvien raporttien hallinta](ui-work-report.md#manage-scheduled-recurring-reports).
 
-## <a name="open-generated-reports-in-onedrive"></a>Luotujen raporttien avaaminen OneDrivessa
+## Luotujen raporttien avaaminen OneDrivessa
 
 Voit viedä raporttitiedoston Microsoft OneDrive for Businessiin valitsemalla raportin **Saapuneet raportit** -sivulla ja valitsemalla **Avaa OneDrivessa** -toiminnon. Raportti kopioidaan tämän jälkeen sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] kansioon OneDrivessa ja avataan uudessa selainikkunassa, jossa voit tulostaa asiakirjatiedoston ja hallita sitä.
 
@@ -44,7 +38,7 @@ Voit viedä raporttitiedoston Microsoft OneDrive for Businessiin valitsemalla ra
 >
 > Raportteja, jotka on määritetty vanheneviksi **Raportin aikataulutus** -sivulla ja kopioitu OneDriveen, ei automaattisesti poisteta jaetusta kansiosta.
 
-## <a name="share-scheduled-reports"></a>Aikataulutettujen raporttien jakaminen
+## Aikataulutettujen raporttien jakaminen
 
 Raporttien jakaminen yhteistyökumppaneiden kanssa on mahdollista myös **Saapuneet raportit** -sivulla. Valitse raportti ja valitse sitten **Jaa**-toiminto. Valitse **Lähetä linkki** -sivu, valitse käyttäjä, joka voi avata tiedoston, määritä muokkausoikeudet ja lähetä linkki tallennetun raportin käyttämistä varten valitsemalla **Lähetä**.
 
@@ -53,9 +47,9 @@ Raporttien jakaminen yhteistyökumppaneiden kanssa on mahdollista myös **Saapun
 >
 > **Jaa**-toiminnon käyttäminen määrittää luodun raporttitiedoston muiden käyttäjien saataville vain OneDrive for Businessissa. Se ei määritä ajoitettua raporttia heidän **Saapuneet raportit** -kohdan luetteloon.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/build-reports/).
+## Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/build-reports/).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Suorita ja tulosta raportteja](ui-work-report.md)  
 [Käytettävissä olevat raportit kohteessa [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  

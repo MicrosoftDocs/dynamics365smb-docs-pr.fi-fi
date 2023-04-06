@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9652, 9650
+ms.search.keywords: 'customized report, document layout, logo, personalize'
+ms.search.form: '9652, 9650'
 ms.date: 03/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 612dc8ada170ae6925bd3121db324cec1624ce68
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530133"
 ---
-# <a name="legacy-set-the-layout-used-by-a-report"></a>(Vanha) Raportin käyttämän asettelun määrittäminen
+# (Vanha) Raportin käyttämän asettelun määrittäminen
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -30,7 +24,7 @@ Kun mukautettuja raportin asetteluita määritetään, voit valita ne asiakas- j
 > [!TIP]  
 > Word-raportin asettelua käyttävät asiakirjaraportit (eivät luettelot) ovat yleensä nopeampia kuin RDLC-raporttiasettelua käyttävät raportit. Jos sinulla on mahdollisuus valita asiakirjaraportin asetteluksi joko Word- tai RDLC-raportin asettelua, Word-raporttiasettelu on paras vaihtoehto.
 
-## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Raporttia tai asiakirjaa varten käytettävän raporttiasettelun muuttaminen
+## Raporttia tai asiakirjaa varten käytettävän raporttiasettelun muuttaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten vastaava linkki.
   
@@ -49,7 +43,7 @@ Kun mukautettuja raportin asetteluita määritetään, voit valita ne asiakas- j
 
 Lisätoimia ei vaadita, jos valitsit valmiin RDLC- tai Word-raporttiasettelun ja asettelua käytetään, kun raportti suoritetaan seuraavan kerran.
 
-## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Raporttiasettelussa käytettävän mukautetun asettelun muuttaminen
+## Raporttiasettelussa käytettävän mukautetun asettelun muuttaminen
 
 Haluat ehkä myös muuttaa käytössä olevaa mukautettua asettelua. Lisätietoja on kohdassa [Raportin mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md).
 
@@ -62,9 +56,9 @@ Valitsemasi mukautetun asettelun nimi näkyy nyt **Mukautetun asettelun kuvaus**
 
 Voit nyt siirtyä asiakas- ja toimittajakortteihin ja määrittää, mitä asetteluita käytetään eri asiakirjoissa, joita lähetät kyseessä olevalle asiakkaalle tai toimittajalle – esimerkiksi tilausvahvistuksissa tai maksumuistutuksissa. Lisätietoja on kohdassa [Asiakkaiden ja toimittajien asiakirja-asettelujen määrittäminen ](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

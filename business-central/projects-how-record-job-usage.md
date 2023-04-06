@@ -6,16 +6,12 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 12/20/2022
+ms.date: 03/08/2023
 ms.custom: bap-template
 ---
 # Projektien kulutuksen tai käytön kirjaaminen
 
 **Työkortti**-sivulla voidaan avata **Projektin suunnittelurivit** -sivu, jossa voidaan tarkastella projektin eri osia ja kirjata niiden käyttö. Nämä tiedot päivitetään automaattisesti, kun tietoja muokataan ja siirretään projektien ja projektipäiväkirjojen tai projektilaskujen välillä. Tämä edellyttää, että **Käytä käyttölinkkiä oletusarvoisesti** on otettu käyttöön vaihtopainikkeella **Projektiasetukset**-sivulla. Lisätietoja kohdassa [Projektien määrittäminen](projects-how-setup-jobs.md).  
-
-<!-- Not really sure what this paragraph is saying, or why we start with it. Why do you transfer information between jobs and job journals or job invoices? I get the use of resources and items, but what about G/L account and Text?
-
-On the Jobs Setup page there's an Apply Usage Link by Default toggle. Guessing that's what we're referring to -->
 
 Esimerkiksi **Budjetti**-tyyppisille suunnitteluriveille voidaan syöttää resurssin määrä ja määrittää sitten projektipäiväkirjaan siirrettävä määrä. Jos suunnittelurivin tyyppi on **Laskutettava**, resurssin määrä voidaan syöttää ja sen jälkeen määrittää laskuun siirrettävä määrä. Lisätietoja asiakkaan laskuttamisesta on kohdassa [Projektien laskuttaminen](projects-how-invoice-jobs.md). Vertaamalla alkuperäistä, jäljellä olevaa tai kirjattua määrää voidaan tarkastella nopeasti käyttötietoja. Lisätietoja budjetoitujen arvojen arvioinnista suunnittelun aikana on kohdassa [Projektibudjettien hallinta](projects-how-manage-budgets.md).  
 
@@ -28,11 +24,11 @@ Seuraavaksi käsitellään projektipäiväkirjan todellisten (budjetoitujen) mä
 3. Valitse projektin suunnittelurivin tyyppi, joka on **Budjetti** tai **Sekä budjetti että laskutettava** ja jolle haluat kirjata käytön.   
 
     > [!NOTE]
-    > Voit myös tallentaa käytön **Laskutettava**-tyypin projektin suunnitteluriville. Yleensä näitä rivejä käytetään laskujen luomiseen, mutta tiedot voidaan siirtää myös päiväkirjaan. Lisätietoja on kohdassa [Projektin laskuttaminen](projects-how-invoice-jobs.md) <!--However, when you do that, a job planning line of type **Budget** is created to match the billable line. For more information, see [Manage Job Budgets](projects-how-manage-budgets.md).-->
+    > Voit myös tallentaa käytön **Laskutettava**-tyypin projektin suunnitteluriville. Yleensä näitä rivejä käytetään laskujen luomiseen, mutta tiedot voidaan siirtää myös päiväkirjaan. Lisätietoja on kohdassa [Projektin laskuttaminen](projects-how-invoice-jobs.md) 
 
 4. Syötä **Päiväkirjaan siirrettävä määrä** -kenttään siirrettävä määrä. Oletusmäärä on **Määrä**-kenttään syöttämäsi arvo.
 
-    **Jäljellä oleva määrä** -kentässä näyttää määrän, jota on vielä suorittamatta projektissa ja siirrettävä päiväkirjaan. <!--Should we mention that this field is not shown by default, and that if they want to use it they must add it?--> 
+    **Jäljellä oleva määrä** -kentässä näyttää määrän, jota on vielä suorittamatta projektissa ja siirrettävä päiväkirjaan.
 5. Valitse **Luo projektipäiväkirjan rivit** -toiminto.
 
     > [!TIP]
@@ -40,6 +36,9 @@ Seuraavaksi käsitellään projektipäiväkirjan todellisten (budjetoitujen) mä
 6. Täytä **Projektin siirron projektisuunnittelurivi** -sivulla kenttiä tarpeen mukaan ja valitse sitten **OK**-painike. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 7. Valitse **Avaa projektipäiväkirja** -toiminto.  
 8. Valitse **Projektipäiväkirja**-sivulla asianmukainen rivi ja valitse sitten **Kirjaa**-toiminto.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
 9. Tarkista **Projektin suunnittelurivit** -sivulla kirjattu käyttö **Määrä**-, **Jäljellä oleva määrä**- ja **Päiväkirjaan siirrettävä määrä** -kentän avulla.  
 10. Kirjaa lisäkäyttö toistamalla vaiheet 3–8.  
 
@@ -49,6 +48,8 @@ Seuraavaksi käsitellään projektipäiväkirjan todellisten (budjetoitujen) mä
 2. Valitse **Erän nimi** -kentässä asianmukaisen projektipäiväkirjan erä.  
 3. Kirjoita uudelle riville asiakirjan numero, projektinumero, projektin tehtävän numero, tyyppi ja kulutettavan tyypin määrä.  
 4. Kun projektipäiväkirjan rivit ovat valmiit, valitse **Kirjaa**-toiminto.  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Projektin käytön arvioiden tarkasteleminen ja päivitysten kirjaaminen
 

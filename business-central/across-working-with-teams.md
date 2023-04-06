@@ -6,17 +6,12 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records'
 ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: 17be576dad0eaf31918951e4e11a73acdd0ae70e
-ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 10/03/2022
-ms.locfileid: "9617791"
 ---
-# <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Business Central -tietueiden ja sivulinkkien jakaminen Microsoft Teamsissa
+
+# Business Central -tietueiden ja sivulinkkien jakaminen Microsoft Teamsissa
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -41,13 +36,13 @@ The [!INCLUDE [prod_short](includes/prod_short.md)] app lets you:
 
 Seuraavissa osissa käsitellään eri tapoja tarkemmin.
 
-## <a name="include-and-view-a-business-central-card-in-a-teams-conversation"></a>Sisällytä ja näytä Business Central -kortti Teams-keskustelussa
+## Sisällytä ja näytä Business Central -kortti Teams-keskustelussa
 
-Teamsin Business Central -sovelluksen avulla voit kopioida linkin mistä tahansa Business Central -tietueesta, kuten asiakkaasta tai myyntitilauksesta, ja liittää linkin Teams-keskusteluun. Sovellus muodostaa yhteyden Microsoft Teamsista yritystietoihin [!INCLUDE [prod_short](includes/prod_short.md)]issa\. Linkki laajentuu sen kompaktiksi ja vuorovaikutteiseksi kortiksi, joka näyttää tietoja tietueesta. Keskustelun aikana sinä ja työtoverisi voitte tarkastella lisätietoja tietueesta, muokata tietoja ja toimia&mdash;poistumatta Teamsista.
+Teamsin Business Central -sovelluksen avulla voit kopioida linkin mistä tahansa Business Central -tietueesta, kuten asiakkaasta tai myyntitilauksesta, ja liittää linkin Teams-keskusteluun. Sovellus muodostaa yhteyden Microsoft Teamsista yritystietoihin [!INCLUDE [prod_short](includes/prod_short.md)]\.issa Linkki laajentuu sen kompaktiksi ja vuorovaikutteiseksi kortiksi, joka näyttää tietoja tietueesta. Keskustelun aikana sinä ja työtoverisi voitte tarkastella lisätietoja tietueesta, muokata tietoja ja toimia&mdash;poistumatta Teamsista.
 
 [![Teamsin ja Business Centralin integrointi.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
-### <a name="prerequisites"></a>Vaatimukset
+### Vaatimukset
 
 - Sinulla on Microsoft Teamsin käyttöoikeus.
 - Olet asentanut [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen Teamsiin. Lisätietoja, katso [[!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen Microsoft Teamsiin](across-install-app-for-teams.md)
@@ -55,7 +50,7 @@ Teamsin Business Central -sovelluksen avulla voit kopioida linkin mistä tahansa
 > [!NOTE]
 > Kaikki Teams-keskustelun osallistujat voivat tarkastella keskusteluun lähetettäviä Business Central -tietueiden kortteja. Mutta halutessaan tarkastella lisätietoja tietueista käyttämällä **Tiedot**- tai **Ponnahdusikkuna**-painikkeita, he tarvitsevat käyttöoikeuden [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaan. Lisätietoja on kohdassa [Microsoft Teams -integraation hallinta](admin-teams-integration.md#minimum-requirements-1).
 
-### <a name="include-a-business-central-card-in-a-teams-conversation"></a>Sisällytä Business Central -kortti Teams-keskusteluun
+### Sisällytä Business Central -kortti Teams-keskusteluun
 
 1. Kirjaudu [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaan käyttämällä selainta.
 2. Avaa tietue, jonka haluat jakaa.
@@ -85,7 +80,7 @@ Teamsin Business Central -sovelluksen avulla voit kopioida linkin mistä tahansa
     > Kun kortti tulee näyttöön ja ennen kuin valitset **Lähetä**, voit halutessasi poistaa liitetyn URL-osoitteen.
 10. Jos haluat tarkastella lisätietoja tai tehdä kortissa näytettyyn tietueeseen muutoksia, valitse **Tiedot**. Lisätietoja on seuraavassa osassa.
 
-### <a name="view-card-details"></a>Näytä kortin tiedot
+### Näytä kortin tiedot
 
 Kun kortti on lähetetty keskusteluun, kaikki osallistujat, joilla on [asianmukaiset käyttöoikeudet](admin-teams-integration.md#permissions), voivat valita **Tiedot** ja avata ikkunan, jossa näkyy lisätietoja tietueesta&mdash;ja mahdollisesti tehdä muutoksia tietueeseen. Ei ole merkitystä, oletko kortin lähettäjä vai vastaanottaja. **Tiedot**-ominaisuudesta on hyötyä erityisesti vastaanottajille, koska se antaa heille nopeasti ytimekkäitä ja kohdennettuja tietoja.
 
@@ -93,27 +88,27 @@ Tiedot-ikkuna muistuttaa siitä, mitä näet [!INCLUDE [prod_short](includes/pro
 
 Seuraavassa on muutamia asioita, jotka pitää muistaa, kun käsittelet kortin tietoja:
 
-- Avatakseen kortin tiedot käyttäjillä on oltava sivun ja sen tietojen lukuoikeus [!INCLUDE [prod_short](includes/prod_short.md)]issa\.
-- Teams-keskustelujen kortteja ei päivitetä automaattisesti muutoksien mukaan. Tiedot-ikkunan tietueeseen tallentamasi muutokset tallennetaan [!INCLUDE [prod_short](includes/prod_short.md)]iin\. Mutta Teamsissa kortti ei näytä muutoksia keskustelussa, ennen kuin liität linkin uudelleen.
+- Avatakseen kortin tiedot käyttäjillä on oltava sivun ja sen tietojen lukuoikeus [!INCLUDE [prod_short](includes/prod_short.md)]\.issa
+- Teams-keskustelujen kortteja ei päivitetä automaattisesti muutoksien mukaan. Tiedot-ikkunan tietueeseen tallentamasi muutokset tallennetaan [!INCLUDE [prod_short](includes/prod_short.md)]\.iin Mutta Teamsissa kortti ei näytä muutoksia keskustelussa, ennen kuin liität linkin uudelleen.
 
 Lisätietoja korttien ja korttiietojen käyttämisestä on kohdassa [Teams – usein kysytyt kysymykset](teams-faq.md).
 
-## <a name="share-a-link-to-page-from-business-central-to-teams"></a><a name="share-link"></a>Jaa sivun linkki Business Centralista Teamsiin
+## <a name="share-link"></a>Jaa sivun linkki Business Centralista Teamsiin
 
-Suoraan useimmista kokoelmasivuista, kuten **Kohteet**-sivusta, ja Tiedot-sivuista, kuten **Kohteet**-kortista, voit lähettää linkin sivulle Teams-keskusteluiden tietyille vastaanottajille. Voit esimerkiksi jakaa linkin tietueiden suodatettuun näkymään. Vastaanottajat voivat sitten napsauttamalla linkkiä avata sivun [!INCLUDE [prod_short](includes/prod_short.md)]issa\.
+Suoraan useimmista kokoelmasivuista, kuten **Kohteet**-sivusta, ja Tiedot-sivuista, kuten **Kohteet**-kortista, voit lähettää linkin sivulle Teams-keskusteluiden tietyille vastaanottajille. Voit esimerkiksi jakaa linkin tietueiden suodatettuun näkymään. Vastaanottajat voivat sitten napsauttamalla linkkiä avata sivun [!INCLUDE [prod_short](includes/prod_short.md)]\.issa
 
 [![Kortilla näkyvä Jaa-valikko.](media/teams-share-link-v2.png "Kortilla näkyvä Jaa-valikko.")](media/teams-share-link-v2.png#lightbox)
 
-### <a name="prerequisites"></a>Vaatimukset
+### Vaatimukset
 
 - Sinulla on Microsoft Teamsin käyttöoikeus.
 - (Valinnainen) Olet asentanut [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen Teamsiin. 
 
   Kun sovellus on asennettu, linkin mukana lähettämäsi viestit sisältävät myös pienikokoisen kortin sivua varten. Lisätietoja sovelluksen asentamisesta on kohdassa [[!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen Microsoft Teamsille](across-install-app-for-teams.md).
 
-### <a name="share-a-link"></a>Linkin jakaminen
+### Linkin jakaminen
 
-1. Avaa [!INCLUDE [prod_short](includes/prod_short.md)]issa\, jaettava sivu.
+1. Avaa [!INCLUDE [prod_short](includes/prod_short.md)]\,issa jaettava sivu.
 2. Valitse sivun yläosasta ![!Jaa muihin sovelluksiin -toiminto sivuilla.](media/share-icon.png) -kuvake ja **Jaa Teamsiin**.
 3. Jos sinulta kysytään, kirjaudu Teamsiin käyttäen käyttäjänimeäsi ja salasanaasi.
 4. Kirjoita **Jaa Teamsiin** -sivulla henkilön, ryhmän tai kanavan nimi, jolle haluat lähettää viestin.
@@ -122,7 +117,7 @@ Suoraan useimmista kokoelmasivuista, kuten **Kohteet**-sivusta, ja Tiedot-sivuis
    Lisää halutessasi lisätietoja ja valitse sitten **Jaa**.
 6. Linkki on nyt jaettu. Jos haluat siirtyä keskusteluun, valitse **Siirry Teamsiin**.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Business Centralin ja Microsoft Teamsin integraation yleiskatsaus](across-teams-overview.md)  
 [Microsoft Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen](across-install-app-for-teams.md)  

@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: special price, alternate price, pricing
-ms.search.form: 26, 1346, 7012, 7014, 7017, 7018, 7189, 7190, 9307
+ms.search.keywords: 'special price, alternate price, pricing'
+ms.search.form: '26, 1346, 7012, 7014, 7017, 7018, 7189, 7190, 9307'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2b3914f292ca94770694960d4f202f18408b1191
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534559"
 ---
-# <a name="record-special-purchase-prices-and-discounts"></a>Erikoisostohintojen ja -alennusten kirjaaminen
+# Erikoisostohintojen ja -alennusten kirjaaminen
 
 > [!NOTE]
 > Vuoden 2020 julkaisuaallossa 2 julkaisimme virtaviivaiset prosessit hintojen ja alennusten määritykseen ja hallintaan. Jos olet uusi asiakas, joka käyttää kyseistä versiota, käytät uutta käyttökokemusta. Jos olet jo asiakas, uuden käyttöokemuksen käyttö riippuu siitä, onko järjestelmänvalvoja ottanut käyttöön **Uusi myyntihinnoittelukokemus** -ominaisuuden päivityksen **ominaisuuksien hallinnassa**. Lisätietoja on kohdassa [Tulevien ominaisuuksien ottaminen käyttöön etuajassa](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -37,16 +31,16 @@ Voit määrittää seuraavat kaksi ostoalennustyyppiä:
 
 Koska ostorivin alennukset ja ostohinnat perustuvat nimikkeen ja toimittajan yhdistelmään, voit lisätä tämän määrityksen myös nimikkeen kortista, jossa säännöt ja arvot on määritetty. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
 
-## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Tietyn ostohinnan määrittäminen toimittajalle
+## Tietyn ostohinnan määrittäminen toimittajalle
 
-#### <a name="current-experience"></a>[Nykyinen kokemus](#tab/current-experience)
+#### [Nykyinen kokemus](#tab/current-experience)
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten vastaava linkki.
 2. Avaa asianmukainen toimittajan kortti ja valitse **Hinnat**-toiminto.
 3. Täytä tarvittaessa rivin muut kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Täytä jokaisen sellaisen yhdistelmän rivi, jonka toimittaja myöntää sinulle ostorivialennuksen.
 
-#### <a name="new-experience"></a>[Uusi kokemus](#tab/new-experience)
+#### [Uusi kokemus](#tab/new-experience)
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten vastaava linkki.
 2. Valitse toimittaja ja valitse sitten **Myyntihinnastot**-toiminto.
@@ -60,7 +54,7 @@ Koska ostorivin alennukset ja ostohinnat perustuvat nimikkeen ja toimittajan yhd
 
 ---
 
-## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Rivialennuksen määrittäminen toimittajalle
+## Rivialennuksen määrittäminen toimittajalle
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten vastaava linkki.
 2. Avaa asianmukainen toimittajan kortti ja valitse **Rivialennukset**-toiminto.
@@ -69,7 +63,7 @@ Koska ostorivin alennukset ja ostohinnat perustuvat nimikkeen ja toimittajan yhd
 3. Täytä tarvittaessa rivin muut kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Täytä jokaisen sellaisen yhdistelmän rivi, jonka toimittaja myöntää sinulle ostorivialennuksen.
 
-## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Laskualennuksen määrittäminen toimittajalle
+## Laskualennuksen määrittäminen toimittajalle
 
 Kun toimittajat ovat kertoneet sinulle myöntämänsä laskualennukset, syötä laskun alennuskoodi toimittajien kortteihin ja määritä kunkin koodin ehdot.
 
@@ -89,7 +83,7 @@ Kun toimittajat ovat kertoneet sinulle myöntämänsä laskualennukset, syötä 
 
 Laskualennus on nyt määritetty ja liitetty kyseiselle toimittajalle. Kun valitset toimittajakoodin muiden toimittajien korttien **Laskun alennuskoodi** -kentässä, sama laskualennus liitetään myös näille toimittajille.
 
-## <a name="to-choose-a-principle-for-posting-purchase-discounts"></a>Periaatteen valitseminen ostoalennusten kirjaukselle
+## Periaatteen valitseminen ostoalennusten kirjaukselle
 
 Kun kirjaat ostolaskun, joka sisältää yhden tai useamman alennuksen, voit valita kahdesta periaatteesta, miten alennussummat kirjataan. Voit kirjata alennukset erikseen tai voit vähentää alennukset laskualennuksista.  
 
@@ -105,7 +99,7 @@ Ennen kuin voit tehdä tämän, sinun on täytynyt määrittää tarpeelliset ti
 |**Rivialennukset**|Vähennetty|Kirjattu erikseen|  
 |**Ei alennuksia**|Vähennetty|Vähennetty|  
 
-## <a name="purchase-invoice-discounts-and-service-charges"></a>Ostolaskualennukset ja palvelumaksut
+## Ostolaskualennukset ja palvelumaksut
 
 Jos olet sopinut laskualennusehdoista joidenkin toimittajien kanssa, voit syöttää ehdot näiden toimittajien kohdalle. Tämän jälkeen ohjelma voi laskea alennuksen silloin, kun täytät ostolaskun.  
 
@@ -122,7 +116,7 @@ Laskualennuksen ehdot voi määrittää PVA:ssa kotimaan toimittajille ja ulkoma
 > [!TIP]  
 > Ennen kuin näitä tietoja aletaan syöttää ohjelmaan, olisi hyvä tehdä luonnos alennusrakenteesta, jota haluat käyttää. Tällä tavalla on helpompi nähdä, mitkä toimittajat voidaan linkittää samalle laskualennussivulle. Mitä vähemmän sivuja täytyy määrittää, sitä nopeampaa perustietojen syöttäminen on.
 
-## <a name="best-price-calculation"></a>Parhaan hinnan laskenta
+## Parhaan hinnan laskenta
 
 Kun olet kirjannut myynnin ja ostojen erikoishinnat ja rivialennukset, [!INCLUDE[prod_short](includes/prod_short.md)] varmistaa, että nimikekaupan tuotto on aina optimaalinen laskemalla automaattisesti parhaan hinnan myynti- ja ostoasiakirjoille sekä projekti- ja nimikepäiväkirjan riville.
 
@@ -145,9 +139,9 @@ Paras hinta on tietyn päivän alhaisin sallittu hinta, jolla on suurin sallittu
 
 Jos erikoishintaa ei voi laskea rivin nimikkeelle, joko viimeinen välitön kustannus tai nimikekortin yksikköhinta lisätään.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Ostojen määrittäminen](purchasing-setup-purchasing.md)  
 [Osto](purchasing-manage-purchasing.md)  

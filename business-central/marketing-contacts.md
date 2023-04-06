@@ -1,23 +1,17 @@
 ---
 title: Yrityksen kontaktien luominen ja hallinta
-description: Voit määrittää kaikki ulkoiset yksiköt, joiden kanssa sinulla on liikesuhde, kontakteiksi. Kyse voi olla esimerkiksi prospekteista, asiakkaista, toimittajista ja konsulteista.
+description: 'Voit määrittää kaikki ulkoiset yksiköt, joiden kanssa sinulla on liikesuhde, kontakteiksi. Kyse voi olla esimerkiksi prospekteista, asiakkaista, toimittajista ja konsulteista.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: relationship, prospect
-ms.search.forms: 5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604
+ms.search.keywords: 'relationship, prospect'
+ms.search.forms: '5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 02c5ff657faba046ae7bd83a27e5694c8fb3ef8f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519672"
 ---
-# <a name="managing-contacts"></a>Kontaktien hallinta
+# Kontaktien hallinta
 
 Yrityksen työntekijät kohtaavat säännöllisesti mahdollisia liikesuhteita, joista voi kehittyä virallisia liikesuhteita. Kaikki tällaiset ulkoiset yhteyshenkilöt ja heidän eritellyt tietonsa tulee tallentaa järjestelmään, jotta viestintä onnistuu. Tämän jälkeen yhteyshenkilöt voidaan helposti muuntaa virallisesti asiakkaiksi, toimittajiksi tai pankkisuhteiksi.
 
@@ -32,7 +26,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Määritä kyselyprofiileja niille kyselyille, joita haluat käyttää, kun annat tietoja kontaktien profiileista.|[Liiketoimintakontaktien luokittelu profiilikyselyiden avulla](marketing-create-contact-profile-questionnaire.md)|
 |Ratkaise ristiriita, kun samalla kontaktilla on ainakin kaksi tietuetta.|[Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [Lajitteleminen, hakeminen ja suodattaminen](ui-enter-criteria-filters.md)  

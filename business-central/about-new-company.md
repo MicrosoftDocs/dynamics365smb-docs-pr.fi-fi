@@ -1,23 +1,17 @@
 ---
 title: Uusien yritysten luominen asetusten ohjatun määritysoppaan avulla
-description: Business Central -sovellukseen on helppo luoda uusi, tyhjä yritys. Asetusten ohjattu määritysopas antaa tarkkoja ohjeita, ja voit tuoda aiemmin luomasi liiketoimintatiedot.
+description: 'Business Central -sovellukseen on helppo luoda uusi, tyhjä yritys. Asetusten ohjattu määritysopas antaa tarkkoja ohjeita, ja voit tuoda aiemmin luomasi liiketoimintatiedot.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: company, setup wizard
-ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.keywords: 'company, setup wizard'
+ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19340305e2d39ce0626b3d6cb10974556c24b70f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531537"
 ---
-# <a name="create-new-companies-in-prod_short"></a>Uusien yritysten luominen [!INCLUDE[prod_short](includes/prod_short.md)]issa
+# Uusien yritysten luominen [!INCLUDE[prod_short](includes/prod_short.md)]issa
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in liiketoimintayksikölle tai yritykselle kuuluvaa liiketoimintatietojen säilöä kutsutaan *yritykseksi*. Kun rekisteröidyt [!INCLUDE[prod_short](includes/prod_short.md)]iin, saat käyttöösi esimerkkiyrityksen ja tyhjän yrityksen, jonka nimi on *Oma yritys*. Yritysten välillä siirtyminen on helppoa: valitse vain **Omat asetukset** ja siirry toiseen yritykseen. Voit myös luoda uusia yrityksiä [!INCLUDE[prod_short](includes/prod_short.md)]issa yrityksen tarpeiden mukaan.  
 
@@ -25,7 +19,7 @@ Kun luot uuden yrityksen, asetusten ohjattu määritysopas auttaa varmistamaan, 
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="choose-the-right-template"></a>Valitse oikea malli
+## Valitse oikea malli
 
 Jos päätät lisätä yrityksen [!INCLUDE[prod_short](includes/prod_short.md)]iin, pääset alkuun käyttämällä ohjattua **Luo uusi yritys** -asetusten määritystä. Ohjatun asetustoiminnon voi valita **Yritykset**-sivulla ja **Omat asetukset** -kohdassa **Yritys**-kentän valintaruudussa.  
 
@@ -47,14 +41,14 @@ Jos haluat, että uuden yrityksen käytön aloittaminen on helppoa, valitse **Tu
 
 Järjestelmänvalvoja saa lisätietoja kokeiluversioista ja tilauksista [täältä](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
-## <a name="copy-a-company"></a>Kopioi yritys
+## Kopioi yritys
 
 **Yritykset** -sivulla voit käyttää **Kopiointi**-toimintoa toisen yrityksen luomiseen olemassa olevan yrityksen sisällön perusteella. Tästä on hyötyä esimerkiksi silloin, kun haluat testata yritystä häiritsemättä tuotantotietoja.
 
 > [!Important]
 > Tätä toimintoa ei voi käyttää yrityksen varmuuskopiointiin. Yrityksen varmuuskopion ottaminen alkaa viemällä tietokanta .bacpac-tiedostona. Lisätietoja on kehittäjien ja IT-ammattilaisten ohjeaiheessa [Tietokantojen vieminen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export).
 
-## <a name="set-up-the-company"></a>Määritä yritys
+## Määritä yritys
 
 Kun kirjaudut uuteen yritykseen, ohjattu **Yrityksen asennus** -toiminto suoritetaan automaattisesti, mikä helpottaa aloittamista. Sinulta kysytään yritystä koskevia tietoja, kuten osoite, pankkitiedot ja varaston arvostusmenetelmä. Nämä tiedot kysytään, koska ne ovat perustietoja monilla [!INCLUDE[prod_short](includes/prod_short.md)]in alueilla ja tällä tavoin niitä ei tarvitse määrittää myöhemmin manuaalisesti.  
 
@@ -62,26 +56,26 @@ Kun kirjaudut uuteen yritykseen, ohjattu **Yrityksen asennus** -toiminto suorite
 
 Kun perustiedot on annettu, voi määrittää loput keskeiset alueet. Sen jälkeen voi aloittaa liiketoimintatietojen, kuten asiakkaiden ja toimittajien, lisäämisen. Lisätietoja on kohdassa [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman määrittäminen](setup.md).  
 
-## <a name="companies-and-environments"></a>Yritykset ja ympäristöt
+## Yritykset ja ympäristöt
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
 Lisätietoja on kohdassa [Siirtyminen toiseen yritykseen tai ympäristöön](ui-organization-switch.md). Lisätietoja ympäristöistä: [Business Central Onlinen infrastruktuurin ymmärtäminen](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology) (vain englanniksi).  
 
-## <a name="changing-a-companys-name"></a>Yrityksen nimen muuttaminen
+## Yrityksen nimen muuttaminen
 
 Kun yritys on luotu, sen nimeä ei voi muuttaa. Mutta voit muuttaa sen **näyttönimeä** eli tekstiä, joka näkyy kaikkialla sovelluksessa yrityksen nimenä.  
 
 > [!TIP]
 > Voit nimetä yrityksen uudelleen, jos käytät [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versiota.
 
-## <a name="add-contoso-coffee"></a>Lisää Contoso Coffee
+## Lisää Contoso Coffee
 
 Contoso Coffee -sovellus sisältää esittelytietoja, joiden avulla voit tutkia [!INCLUDE [prod_short](includes/prod_short.md)]-ohjelman kehittyneitä ominaisuuksia. Etsi sovellus AppSourcessa ja asenna se tyhjään yritykseen, esimerkiksi yritykseen eristysympäristössä. Lisätietoja on kohdassa [Johdatus Contoso Coffee -demotietoihin](contoso-coffee/contoso-coffee-intro.md).  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-new-companies-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-new-companies-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Business Central -sovelluksen mukauttaminen](ui-customizing-overview.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  

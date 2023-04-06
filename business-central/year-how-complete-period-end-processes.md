@@ -6,21 +6,15 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments'
 ms.date: 08/29/2022
 ms.author: jswymer
-ms.openlocfilehash: ace24899aa3c872cd5ac0609dfc3ecbf63608330
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607659"
 ---
-# <a name="overview-of-tasks-to-close-accounting-periods"></a>Kirjanpitojaksojen sulkemistehtävien yleiskatsaus
+# Kirjanpitojaksojen sulkemistehtävien yleiskatsaus
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ei pakota päättämään kausia, joskin on monia kauden lopussa (kuukauden lopussa) aktiviteetteja, jotka voit tehdä. Tässä ohjeaiheessa on yleiskatsaus kausien päättämiseen liittyvistä valinnaisista prosesseista ja aktiviteeteista.  
 
-## <a name="general-ledger"></a>Pääkirjanpito
+## Pääkirjanpito
 
 * Määritä järjestelmänlaajuiset ja käyttäjäkohtaiset kirjausjaksot.  
 
@@ -31,7 +25,7 @@ ms.locfileid: "9607659"
 * Suorita talousraportit seuraavasti:  
   * Avaa **Talousraportit**-sivu ja valitse **Tulosta**-toiminto.  
 
-## <a name="sales-and-receivables"></a>Myynnit ja myyntisaamiset
+## Myynnit ja myyntisaamiset
 
 * Kirjaa kaikki myyntitilaukset, laskut, hyvityslaskut ja palautustilaukset.  
 * Kirjaa kaikki kassapäiväkirjat.  
@@ -39,7 +33,7 @@ ms.locfileid: "9607659"
 * Täsmäytä myyntisaatavat pääkirjanpitoon.  
 * Suorita **Poista laskutetut myyntitilaukset** -eräajo.  
 
-## <a name="purchases-and-payables"></a>Ostot ja ostovelat
+## Ostot ja ostovelat
 
 * Kirjaa kaikki ostotilaukset, laskut, hyvityslaskut ja palautustilaukset.  
 * Kirjaa kaikki maksupäiväkirjat.  
@@ -47,7 +41,7 @@ ms.locfileid: "9607659"
 * Suorita **Ostovelkojen tilanne** -raportti ja täsmäytä ostovelat pääkirjanpitoon.  
 * Suorita **Poista laskutetut ostotilaukset** -eräajo.  
 
-## <a name="fixed-assets"></a>Käyttöomaisuus
+## Käyttöomaisuus
 
 * Kirjaa kaikki kunnossapitokustannukset, jotka on kirjattu käyttöomaisuuspäiväkirjojen tai laskujen kautta.
 * Kirjaa muutokset.
@@ -55,17 +49,17 @@ ms.locfileid: "9607659"
 * Kirjaa arvonalennus.
 * Päivitä ja kirjaa toistuva käyttöomaisuuspäiväkirja.
 
-## <a name="intercompany"></a>Konserni
+## Konserni
 
 * Käsittele konsernin tapahtumat.
 
-## <a name="calculate-and-process-sales-tax"></a>Arvonlisäveron laskeminen ja käsitteleminen
+## Arvonlisäveron laskeminen ja käsitteleminen
 
 * Täytä ALV-ilmoitukset.  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/close-fiscal-year-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
 [Kirjojen sulkeminen](year-close-books.md)  

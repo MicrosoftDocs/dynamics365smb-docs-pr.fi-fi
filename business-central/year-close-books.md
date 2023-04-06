@@ -1,28 +1,22 @@
 ---
 title: Kirjojen sulkemistehtävien yleiskatsaus
-description: Tutustu prosesseihin, jolla tilikauden tai -jakson kirjat suljetaan, ja mitä tapahtuu, kun kirjat suljetaan vuoden lopussa.
+description: 'Tutustu prosesseihin, jolla tilikauden tai -jakson kirjat suljetaan, ja mitä tapahtuu, kun kirjat suljetaan vuoden lopussa.'
 author: jswymer
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 m.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2c959f3c3c0aad3a44ea2ebfa60aed395720f562
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511890"
 ---
-# <a name="closing-the-books"></a>Kirjojen sulkeminen
+# Kirjojen sulkeminen
 Kun olet varmistanut, että kaikki tilit ovat ajan tasalla, ja kohdistanut kustannukset ja tulot, voit sulkea tilikauden tai kirjanpitojakson kirjat.
 
 Tilikautta ei ole pakko sulkea, mutta se helpottaa järjestelmän käyttöä, sillä silloin voit hyödyntää käteviä suodatusvaihtoehtoja. Tapahtumatietojen menettämisestä ei myöskään tarvitse huolehtia, sillä suljetun tilikauden kaikki tiedot säilyvät myös sulkemisen jälkeen.
 
-## <a name="closing-book-process"></a>Kirjan sulkemisprosessi
+## Kirjan sulkemisprosessi
 Kirjan sulkemisprosessi sisältää seuraavat päätehtävät:
 
 1. Kirjanpitojakson sulkeminen.
@@ -44,14 +38,14 @@ Kirjan sulkemisprosessi sisältää seuraavat päätehtävät:
 
     Lisätietoja on kohdassa [Vuoden lopun tilinpäätöstapahtuman kirjaaminen](year-how-post-year-end-close-entry.md).
 
-## <a name="what-happens-when-you-close"></a>Sulkemisen yhteydessä tapahtuvat asiat
+## Sulkemisen yhteydessä tapahtuvat asiat
 Kun suljet tilikauden vuoden lopussa, järjestelmä siirtää voiton laskennallisesta voitosta jakamattoman voiton tilille. Järjestelmä myös merkitsee tilikauden suljetuksi ja kaikki myöhemmät suljetun vuoden tapahtumat edellisen vuoden tapahtumiksi.
 
 Järjestelmä luo sitten tilinpäätöstapahtuman, mutta tapahtumaa ei merkitä automaattisesti. Saat mahdollisuuden tehdä kompensoivia pääomatilin tapahtumia, minkä ansiosta voit päättää, kuinka tilinpäätöstapahtuma kohdistetaan. Esimerkiksi jos yrityksessä on useita osastoja, voit antaa järjestelmän luoda yksittäisen tilinpäätöstapahtuman kaikille osastoille ja tehdä sitten kompensoivan tapahtuman kunkin osaston pääomatilille.
 
 Voit tehdä kirjauksia edelliselle tilikaudelle myös tuloslaskelmatilien sulkemisen jälkeen suorittamalla Sulje tuloslaskelma -eräajon myöhemmin uudelleen.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Kirjanpitojaksojen ja tilikausien käyttäminen](finance-accounting-periods-and-fiscal-years.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

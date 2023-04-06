@@ -7,14 +7,9 @@ ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
 ms.date: 03/23/2022
-ms.openlocfilehash: a726d182babca26525e2931ea2b487171b470bcc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512488"
 ---
-# <a name="handling-missing-option-values"></a>Puuttuvien asetusarvojen käsitteleminen
+
+# Puuttuvien asetusarvojen käsitteleminen
 > [!NOTE]
 > Vuoden 2022 1. julkaisuaallossa voit luoda omia asetusten yhdistämismäärityksiä. Lisätietoja on kohdassa [Asetusten yhdistämismääritysten mukauttaminen Microsoft Dataversen avulla](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). Uudet ominaisuudet edellyttävät, että järjestelmänvalvoja ottaa käyttöön asetuksen **Ominaisuuden päivitys: Liitä Dataversen asetusjoukkoihin ilman koodia** **Ominaisuuksien hallinta** - sivulla. Lisätietoja on kohdassa [Tulevien ominaisuuksien ottaminen käyttöön etuajassa](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -87,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Kaikki [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen yllä mainitut enum-arvot yhdistetään [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen asetusjoukkoihin.
 
-### <a name="extending-option-sets-in-prod_short"></a>[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen asetusjoukkojen laajentaminen
+### [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen asetusjoukkojen laajentaminen
 1. Luo uusi AL-laajennus.
 
 2. Lisää Enum-laajennus laajennettaville asetuksille. Varmista, että käytät samaa arvoa. 
@@ -109,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > Uusien asetusarvojen nimien ja otsikoiden kymmenen ensimmäisen merkin on oltava samoja. Esimerkiksi kaksi asetusta, joiden nimet ovat Siirretään 20 työpäivää ja Siirretään 20 kalenteripäivää, aiheuttavat virheen, koska molemmissa on samat 10 ensimmäistä merkkiä (Siirretään). Anna nimiksi esimerkiksi SIIR20 TP ja SIIR20 KP.
 
-### <a name="update-prod_short-option-mapping"></a>[!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen asetusten yhdistämisen päivittäminen
+### [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen asetusten yhdistämisen päivittäminen
 Nyt voit luoda uudelleen [!INCLUDE[prod_short](includes/cds_long_md.md)] -asetusten ja [!INCLUDE[prod_short](includes/prod_short.md)] -tietueiden välisen yhdistämismäärityksen.
 
 Valitse **Integrointitaulukon yhdistämismääritys** -sivulla rivi **Maksuehdot**-yhdistämistä varten. Valitse sitten **Synkronoi muokatut tietueet** -toiminto. **Dataverse-asetuksen yhdistäminen** -sivulle päivitetään alla olevat lisätietueet.
@@ -145,7 +140,7 @@ Valitse **Integrointitaulukon yhdistämismääritys** -sivulla rivi **Maksuehdot
 | *NET60*      |                      |                           | 0.         | EPÄTOSI                         |                   |
 | ***TRANSFER*** |                      |                           | 0.         | EPÄTOSI                         |                   |
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Synkronoitavien taulujen ja kenttien yhdistäminen](admin-how-to-modify-table-mappings-for-synchronization.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

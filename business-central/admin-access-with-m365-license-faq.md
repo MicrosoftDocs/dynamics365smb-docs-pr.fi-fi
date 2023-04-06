@@ -11,6 +11,8 @@ ms.custom: bap-template
 ---
 # Usein kysyttyjä kysymyksiä käytöstä Microsoft 365 -käyttöoikeuksien avulla
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Käyttäjät voivat käyttää Business Central -tietoja Microsoft Teamsissa käyttämällä Microsoft 365 -käyttöoikeuksiaan . Tämä artikkeli vastaa usein kysyttyihin kysymyksiin, joita järjestelmänvalvojat, konsultit ja muut ovat esittäneet. Kehittäjien tulisi katsoa kehittäjien usein kysytyt kysymykset. Jos sinulla on kysyttävää Business Centralin integroinnista Microsoft Teamsiin, katso [Teams – usein kysytyt kysymykset](teams-faq.md).
 
 ## [Käyttöoikeudet](#tab/permissions) 

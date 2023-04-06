@@ -1,30 +1,24 @@
 ---
 title: Tuloslaskelmatilien sulkeminen
-description: Vuositilinpäätöksessä on suoritettava Sulje tuloslaskelma -etätyö, jolla suljetaan tilikauden muodostavat kirjanpitojaksot.
+description: 'Vuositilinpäätöksessä on suoritettava Sulje tuloslaskelma -etätyö, jolla suljetaan tilikauden muodostavat kirjanpitojaksot.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: fe66a7341045058f2d5d5b5313d122cf442d3117
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514671"
 ---
-# <a name="closing-income-statement-accounts"></a>Tuloslaskelmatilien sulkeminen
+# Tuloslaskelmatilien sulkeminen
 Kun tilikausi on ohi, sinun täytyy päättää tilikauteen sisältyvät kirjanpitojaksot. Voit tehdä sen ajamalla **Sulje tuloslaskelma** -eräajon. Tämä ajo siirtää vuoden tuloksen tilille taseeseen ja sulkee tuloslaskelmatilit. Voit tehdä tämän luomalla rivejä päiväkirjaan, jonka sitten voit kirjata.
 
-## <a name="to-run-the-close-income-statement-batch-job"></a>Sulje tuloslaskelma -eräajon ajaminen
+## Sulje tuloslaskelma -eräajon ajaminen
 1. Sulje tilikausi. Tilikausi täytyy sulkea ennen eräajon suorittamista. Lisätietoja on kohdassa [Kirjanpitojakson päättäminen](year-close-account-periods.md).
 2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sulje tuloslaskelma** ja valitse sitten vastaava linkki.
 3. Suorita eräajo valitsemalla **OK**.
 
-## <a name="about-the-close-income-statement-batch-job"></a>Tietoja Sulje tuloslaskelma -eräajosta
+## Tietoja Sulje tuloslaskelma -eräajosta
 Eräajo käsittelee kaikki Tuloslaskelma-tyyppiset kirjanpitotilit ja luo niiden saldojen vastatapahtumat. Jokainen tapahtuma on tilikauden kaikkien pääkirjanpidon tilin tapahtumien summa. Nämä uudet tapahtumat sijoitetaan päiväkirjaan, missä sinun täytyy määrittää vastatili ja jakamattoman voiton tili taseeseen ennen kirjausta. Kun päiväkirja on kirjattu, jokaiselle tuloslaskelmatilille kirjataan tapahtuma, jotta tilin saldoksi tulee nolla, ja samalla vuoden tulos siirretään taseeseen.
 
 Sinun täytyy itse kirjata päiväkirja. Eräajo ei kirjaa niitä automaattisesti, ellei käytetä lisäraportointivaluuttaa. Lisäraportointivaluuttaa käytettäessä eräajo kirjaa tapahtumat suoraan pääkirjanpitoon.
@@ -33,7 +27,7 @@ Niillä riveillä, jotka eräajo syöttää päiväkirjan riveille, on aina tili
 
 **Sulje tuloslaskelma** -eräajoa voi käyttää monta kertaa. Jos suoritat eräajon uudelleen, voit kirjata edelliselle tilikaudelle vielä tuloslaskelmatilien päättämisen jälkeenkin.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Kirjojen sulkeminen](year-close-books.md)  
 [Vuositilinpäätöstapahtuman kirjaaminen](year-how-post-year-end-close-entry.md)  

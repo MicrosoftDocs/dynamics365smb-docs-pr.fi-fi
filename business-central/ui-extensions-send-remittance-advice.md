@@ -1,22 +1,16 @@
 ---
 title: Lähetä Maksusuoritustietojen Ohjeet Laajennus | Microsoft Docs
-description: Kuvailee Lähetä Maksusuoritustietojen Ohjeet laajennusta, joka sallii maksusuoritetietojen ohjeiden uudelleenlähettämisen maksukirjauskansiosta tai toimittajatapahtumista.
+description: 'Kuvailee Lähetä Maksusuoritustietojen Ohjeet laajennusta, joka sallii maksusuoritetietojen ohjeiden uudelleenlähettämisen maksukirjauskansiosta tai toimittajatapahtumista.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: app, add-in, manifest, customize, stream, remittance, advice
+ms.search.keywords: 'app, add-in, manifest, customize, stream, remittance, advice'
 ms.date: 07/06/2021
 ms.author: edupont
-ms.openlocfilehash: c0204c74ce2adb463c6a8fe0036e59b6fdd06727
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521596"
 ---
-# <a name="send-remittance-advice"></a>Lähetä Maksusuoritustietojen Ohjeet
+# Lähetä Maksusuoritustietojen Ohjeet
 
 Kun maksusuoritetietojen ohjetta käytetään tiedottamaan toimittajia maksuista, voit nyt lähettää maksusuoritustietojen ohjeet kootusti maksukirjauskansiosta ja uudelleenlähettää ne, kun maksut on suoritettu toimittajatapahtumista käyttäen dokumenttienlähetysprofiileita.
 
@@ -28,7 +22,7 @@ Voit lähettää maksusuoritetietojen ohjeita kahdella eri tapaa:
 * **Maksukirjauskansio** -sivulla, valitse **Liittyvät**, **Maksut**, **Lähetä Maksusuoritetietojen Ohjeet** lähettääksesi sähköpostilla maksusuoritetietojen ohjeet yhdeltä tai useammalta maksukirjauskansion riviltä
 * Valitse **Toimittajatapahtumat**-sivulla **Toiminnot**, **Funktiot**, **Lähetä Maksutietojen Ohjeet** lähettääksesi sähköpostilla maksutietojen ohjeet, kun toimittajamaksut on julkaistu yhdestä tai useammasta toimittajatapahtumasta
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Ehdota toimittajamaksuja](payables-how-suggest-vendor-payments.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  

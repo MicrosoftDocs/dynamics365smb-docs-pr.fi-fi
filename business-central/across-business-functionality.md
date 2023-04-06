@@ -1,23 +1,17 @@
 ---
 title: Business Central -sovelluksen tukemat liiketoiminnan toiminnot
-description: Tässä ohjeaiheessa on yleiskuvaus kaikista liiketoiminnan toimintojen ominaisuuksista ja osastoista, joita sovellusalueet tukevat. Tällaisia sovellusalueita ovat esimerkiksi taloushallinto, varastonhallinta ja projektinhallinta.
+description: 'Tässä ohjeaiheessa on yleiskuvaus kaikista liiketoiminnan toimintojen ominaisuuksista ja osastoista, joita sovellusalueet tukevat. Tällaisia sovellusalueita ovat esimerkiksi taloushallinto, varastonhallinta ja projektinhallinta.'
 author: SorenGP
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 3e174ae2218dfe4b5b83a8a567deaba91987d2ea
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606800"
 ---
-# <a name="business-functionality"></a>Liiketoiminnan toiminnallisuus
+# Liiketoiminnan toiminnallisuus
 
 [!INCLUDE[prod_short](includes/prod_short.md)]issa on lähinnä tukkukauppa- ja palvelualalla toimivien PK-yritysten tavallisissa liiketoimintaprosesseissa tarvitsemat toiminnot. Tämän lisäksi tuetaan myös monimutkaisia prosesseja, kuten kokoonpanoa, tuotantoa, huoltoa ja ohjattua varastoinninhallintaa. [Tutustu tästä siihen, miten saat ilmaisen kokeiluversion](trial-signup.md).  
 
@@ -39,13 +33,13 @@ ms.locfileid: "9606800"
 |Suunnittele tuotannon toiminnot, jotka tarvitaan, kun raaka-aineita muutetaan valmiiksi tavaroiksi.|[Suunnittelu](production-planning.md)|
 |Yhdistä myytävät nimikkeet yksinkertaisesti uudeksi nimikkeeksi, kuten tuotepaketiksi.|[Kokoonpanon hallinta](assembly-assemble-items.md)|
 |Määritä tuotannon resurssit ja kapasiteetti, muuta työvaiheiden aikatauluja, siirrä komponentteja tuotantoon ja käynnistä tuotannon työvaiheita.|[Tuotanto](production-manage-manufacturing.md)|
-|Varmista tuotteiden vastaanoton ja toimituksen tehokkuus.|[Varastoinninhallinta](warehouse-manage-warehouse.md)|
+|Varmista tuotteiden vastaanoton ja toimituksen tehokkuus.|[Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)|
 |Ajoita huoltokäyntejä ja määritä huoltotilauksia ja jäljitä varaosia ja tarvikkeita.|[Huoltohallinto](service-service.md)|
 |Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät eri käyttäjien tai järjestelmän suorittamia tehtäviä, kuten automaattisia kirjauksia. Uusien asiakirjojen luontiin ja kirjaukseen liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.|[Työnkulku](across-workflow.md)|
 |Mahdollista käyttäjille tietojen vaihtaminen ulkoisten lähteiden kanssa, kuten sähköisten asiakirjojen lähettämisessä ja vastaanottamisessa sekä pankkitiedostojen tuonnissa ja viennissä, että valuutan vaihtokurssien päivittämisessä.|[Sähköinen tiedonsiirto](across-data-exchange.md)|
 |Kirjaa ulkoiset asiakirjat [!INCLUDE[prod_short](includes/prod_short.md)]issa liitteineen, luo sitten manuaalisesti liittyvät asiakirjat tai muunna tiedostot automaattisesti sähköisiksi asiakirjoiksi.|[Saapuvat asiakirjat](across-income-documents.md)|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Hallinta](admin-setup-and-administration.md)    
 [Tutki Dynamics 365 Business Central -ominaisuuksia](https://dynamics.microsoft.com/business-central/capabilities/)  

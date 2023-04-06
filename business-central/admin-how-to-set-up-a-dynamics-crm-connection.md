@@ -6,16 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: null
 ms.search.forms: '7200, 7201'
-ms.date: 09/30/2021
+ms.date: 03/22/2023
 ms.author: bholtorf
 ---
 # Yhteyden muodostaminen Microsoft Dataverseen
 
+Tässä artikkelissa kuvataan, kuinka [!INCLUDE[prod_short](includes/prod_short.md)] ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)] välille määritetään yhteys. Yleensä yritykset luovat yhteyden integroidakseen ja synkronoidakseen tietoja toisen Dynamics 365 -liiketoimintasovelluksen kanssa. Sovellus voi olla esimerkiksi [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-
-Tässä ohjeaiheessa kuvataan, kuinka [!INCLUDE[prod_short](includes/prod_short.md)] ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)] välille määritetään yhteys. Yleensä yritykset luovat yhteyden integroidakseen ja synkronoidakseen tietoja toisen Dynamics 365 -liiketoimintasovelluksen kanssa. Sovellus voi olla esimerkiksi [!INCLUDE[crm_md](includes/crm_md.md)].  
-
-## Ennen aloittamista
+## Ennen kuin aloitat
 
 Ennen yhteyden luomista tarvitaan seuraavat tiedot:  
 
@@ -31,7 +29,7 @@ Ennen yhteyden luomista tarvitaan seuraavat tiedot:
 > Seuraavat vaiheet koskevat [!INCLUDE[prod_short](includes/prod_short.md)] online -versiota.
 > Jos käytössä [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versiota eikä Azure Active Directory -tiliä käytetä muodostamaan yhteyttä [!INCLUDE [cds_long_md](includes/cds_long_md.md)]en, integrointia varten on määritettävä käyttäjätilin käyttäjänimi ja salasana. Tätä tiliä kutsutaan integroinnin käyttäjän tiliksi. Azure Active Directory -tiliä käytettäessä integroinnin käyttäjän tiliä ei tarvita eikä sitä näytetä. Integroinnin käyttäjä määritetään automaattisesti, eikä sitä varten tarvita käyttöoikeutta.
 
-## Yhteyden määrittäminen [!INCLUDE[cds_long_md](includes/cds_long_md.md)]iin
+## Määritä yhteys tuotteeseen [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 Microsoft 365 -todennustyyppiä lukuun ottamatta [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteys määritetään kaikissa todennustyypeissä **Dataverse -yhteyden määritys** -sivulla. Microsoft 365 -todennuksessa on suositeltavaa käyttää **Dataverse-yhteyden määrityksen asetusten** ohjattua määritysopasta. Opas auttaa määrittämään nopeasti yhteyden ja lisäominaisuudet, kuten omistajamallin ja ensimmäisen synkronoinnin.  
 
@@ -45,6 +43,7 @@ Microsoft 365 -todennustyyppiä lukuun ottamatta [!INCLUDE[cds_long_md](includes
 > Antamalla suostumuksen organisaation puolesta järjestelmänvalvoja antaa [!INCLUDE[prod_short](includes/prod_short.md)] Integration to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -nimiselle Azure-sovelluksen oikeuden synkronoida tietoja käyttämällä automaattisesti luodun [!INCLUDE[prod_short](includes/prod_short.md)] Integration -sovelluksen käyttäjän tunnistetietoja.
 
 ### Dataverse -yhteyden määrityksen asetusten ohjatun määritysoppaan käyttäminen
+
 Dataverse -yhteyden asetusopas helpottaa sovellusten yhdistämistä, ja se voi auttaa sinua myös suorittamaan ensimmäisen synkronoinnin. Jos päätät käynnistää ensimmäisen synkronoinnin, [!INCLUDE[prod_short](includes/prod_short.md)] tarkistaa molempien sovellusten tiedot ja antaa suosituksia ensimmäisen synkronoinnin toteutusta varten. Seuraavassa taulukossa kuvaillaan näitä suosituksia.
 
 |Suositus  |Kuvaus  |
@@ -99,7 +98,7 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
-## Osumapohjaisen yhdistämisen mukauttaminen
+## Vastaavuuteen perustuvan yhdistämisen mukauttaminen
 
 Alkaen vuoden 2021 2. julkaisuaallosta voit yhdistää tietueita ylläpitäjän määrittelemien vastaavuuskriteerien perusteella. Tietueiden vastaavuuden algoritmi voidaan aloittaa seuraavista paikoista [!INCLUDE [prod_short](includes/prod_short.md)]ista:
 
@@ -159,6 +158,7 @@ Yleensä yhdistäminen epäonnistuu seuraavista syistä:
 > Jotta saat yleiskuvan yhdistämisen edistymisestä, **Yhdistetty Dataverseen** -kentässä näkyy, onko tietue liitetty [!INCLUDE [cds_long_md](includes/cds_long_md.md)] -kohteeseen. **Yhdistetty Dataverseen** -kentän avulla voit suodattaa synkronoitavien tietueiden luettelon.
 
 ## Päivitä yhteydet Business Central Onlinesta käyttääksesi varmennepohjaista todennusta
+
 > [!NOTE]
 > Tämä osa on merkityksellinen vain Microsoftin isännöimille [!INCLUDE[prod_short](includes/prod_short.md)] online -vuokraajille. Tämä ei vaikuta ISV-isännöityihin online-vuokralaisiin tai paikan päällä tehtyihin asennuksiin.
 
@@ -182,17 +182,6 @@ Jotta integraatiot eivät häiriinny, yhteys _on päivitettävä_ käyttämään
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -version yhdistäminen [!INCLUDE[cds_long_md](includes/cds_long_md.md)]en edellyttää, että **Dataverse -yhteyden määritys** -sivulla määritetään joitakin tietoja.
 
 Jotta voisit muodostaa yhteyden Azure Active Directory (Azure AD) -tilin avulla, sinun täytyy rekisteröidä sovellus kohteessa Azure AD. Anna sovelluksen tunnus, avainsäilön salaisuus ja uudelleenohjauksen URL-osoite. Uudelleenohjauksen URL-osoite täytetään valmiiksi, ja sen pitäisi toimia useimmissa asennuksissa. Asennus on määritettävä käyttämään HTTPS-yhteyttä. Lisätietoja on kohdassa [SSL:n määrittäminen suojaamaan Business Centralin verkkoasiakasohjelman yhteyttä](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Jos palvelimelle määritetään jokin muu aloitussivu, URL-osoitteen voi vaihtaa. Asiakasohjelman salaisuus tallennetaan tietokantaan salattuna merkkijonona. 
-
-### Vaatimukset
-
-Dataversen on käytettävä jotakin seuraavista todennustyypeistä:
-
-* Office365 (vanha)
-
-  > [!IMPORTANT]
-  > Huhtikuusta 2022 alkaen Office365 (vanha) -versiota ei enää tueta. Lisätietoja on kohdassa [Power Appsiin, Power Automateen ja asiakasvuorovaikutussovelluksiin tulevia tärkeitä muutoksia (vanhentumisia)](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
-* Office365 (moderni, OAuth2-asiakasohjelman salaiseen koodiin perustuva)
-* OAuth
 
 ### Sovelluksen rekisteröiminen Azure AD:ssä muodostamaan yhteys Business Centralista Dataverseen
 

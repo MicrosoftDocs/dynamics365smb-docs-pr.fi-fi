@@ -1,23 +1,17 @@
 ---
 title: Automaattisen maksujen soveltamisen säännöt
-description: Tietoja siitä, miten automaattisen maksujen soveltamisen säännöt määritetään Maksukohdistussäännöt-sivulla.
+description: 'Tietoja siitä, miten automaattisen maksujen soveltamisen säännöt määritetään Maksukohdistussäännöt-sivulla.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.search.form: 1290, 1294, 1287
+ms.search.keywords: 'payment process, direct payment posting, reconcile payment, expenses, cash receipts'
+ms.search.form: '1290, 1294, 1287'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e942adc661b31dbb181624ff66ebd33a2d50b255
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531078"
 ---
-# <a name="set-up-rules-for-automatic-application-of-payments"></a>Automaattinen maksujen soveltamisen sääntöjen määrittäminen
+# Automaattinen maksujen soveltamisen sääntöjen määrittäminen
 
 Määritä **Maksusovelluksen säännöt** -sivulla säännöt, jotka hallinnoivat sitä, kuinka (pankkitapahtuman) maksutekstit kohdistetaan automaattisesti niihin liittyviin avoimiin (maksamattomiin) laskuihin, hyvityslaskuihin tai muihin kirjauksiin, kun käytät **Sovella automaattisesti** -toimintoa **Maksujen täsmäytyskirjauskansio** -sivulla. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
 
@@ -35,7 +29,7 @@ Kohdistustietojen lisäksi seuraavaa sovelletaan maksumäärän etumerkkiin:
 - Negatiivisille määrille täsmäytys tehdään ensin asiakkaan laskuja edustavia avoimia tapahtumia vastaan ja sitten toimittajan hyvityslaskuja vastaan.
 - Positiivisille määrille täsmäytys tehdään ensin toimittajan laskuja edustavia avoimia tapahtumia vastaan ja sitten asiakkaan hyvityslaskuja vastaan.
 
-## <a name="to-set-up-a-payment-application-rule"></a>Maksun sovellussäännön asettaminen
+## Maksun sovellussäännön asettaminen
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksukohdistussäännöt** ja valitse sitten liittyvä linkki.
 2. Määritä uusi tai muokattu maksun sovellussääntö täyttämällä rivin kentät seuraavassa taulukossa kuvatulla tavalla.
 
@@ -80,9 +74,9 @@ Seuraavassa taulukossa kuvataan [!INCLUDE[prod_short](includes/prod_short.md)]in
 | Heikko              | 4        | Ei                    | Ei                             | Yksi vastaavuus                      |
 | Heikko              | 5        | Ei                    | Ei                             | Useita vastaavuuksia               |
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Myynti](sales-manage-sales.md)  

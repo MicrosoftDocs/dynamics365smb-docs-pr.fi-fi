@@ -6,18 +6,13 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: role explorer, find features, navigate
-ms.search.form: RoleExplorer, 9020, 9022, 9027, 9024
+ms.search.keywords: 'role explorer, find features, navigate'
+ms.search.form: 'RoleExplorer, 9020, 9022, 9027, 9024'
 ms.date: 08/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7181579da0f84d0ebdea8c546c7815004a18a40d
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655803"
 ---
-# <a name="finding-pages-with-the-role-explorer"></a>Sivujen etsiminen roolienhallinnan avulla
+
+# Sivujen etsiminen roolienhallinnan avulla
 
 Saat yleiskuvan kaikista roolin käytössä olevista liiketoimintaominaisuuksista ja muiden roolien toiminnoista, jos siirryt yhden vaiheen eteenpäin. Seuraavassa dokumentaatiossa tätä ominaisuutta kutsutaan *Roolienhallinnaksi*.
 
@@ -25,16 +20,16 @@ Jokainen roolienhallinnan elementti on sivun avaava toiminto. Niinpä voitkin si
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="open-the-role-explorer"></a>Avaa roolien hallinta
+## Avaa roolien hallinta
 
 Voit avata roolienhallinnan roolikeskuksesta ja kaikilta luettelosivuilta sekä **Kerro, mitä haluat tehdä** -ikkunasta.
 
-- Valitse Roolikeskuksessa tai millä tahansa luettelosivulla ![Valikko-painike.](media/ui_menu_button.png "Valikko-painike") -painike siirtymispalkin oikealla puolella tai paina näppäinyhdistelmä Vaihto+F12.
+- Valitse Roolikeskuksessa tai millä tahansa luettelosivulla ![Valikko-painike.](media/ui_menu_button.png "Valikko-painike") -painike siirtymispalkin oikealla puolella tai paina näppäinyhdistelmä <kbd>Vaihto</kbd>+<kbd>F12</kbd>.
 - Valitse **Kerro, mitä haluat tehdä** -ikkunassa alareunassa oleva **tutustumistoiminto**.
 
 Kun avaat roolikeskuksen ensimmäisen kerran, siinä näkyvät useimpien roolisi käytettävissä olevien toimintojen linkit.
 
-## <a name="navigate-features"></a>Navigoi ominaisuuksia
+## Navigoi ominaisuuksia
 
 Sivujen avoimet toiminnot on järjestetty ominaisuuksien tai sovellusalueiden mukaan nimetyille solmuille. Jokainen solmu voidaan tiivistää tai laajentaa yksittäin, ja voit tiivistää/laajentaa kaikki solmut yhteen.
 
@@ -42,11 +37,11 @@ Sivujen avoimet toiminnot on järjestetty ominaisuuksien tai sovellusalueiden mu
 - Jos haluat laajentaa tai kutistaa kaikki sivun ylätason solmut, mutta jättää alisolmut sellaisiksi kuin ne ovat, valitse ylhäällä **...** ja valitse sitten **Laajenna** tai **Tiivistä**.
 - Jos haluat laajentaa tai kutistaa kaikki sivun ylätason solmut ja alisolmut, valitse ylhäällä **...** ja valitse sitten **Laajenna kaikki** tai **Tiivistä kaikki**.
 
-## <a name="search-for-features"></a>Etsi ominaisuuksia
+## Etsi ominaisuuksia
 
 Voit etsiä ominaisuuksia nopeasti valitsemalla **Etsi** ja kirjoittamalla sanan tai lauseen etsimääsi ominaisuutta varten. Roolikeskus tuo esiin mahdollisen vastaavan tekstin. Jos ominaisuus on piilossa tiivistetyn solmun näkymästä, tiivistetty solmu merkitään pisteellä. 
 
-## <a name="explore-other-roles"></a>Tutki muita rooleja
+## Tutki muita rooleja
 
 Jos haluat tutkia muita rooleja kuin omia rooleja, valitse **Tutki lisää rooleja**. Roolikeskus näyttää jokaisen roolin oman otsikon alla, ja siinä on linkit sen ominaisuuksiin. Voit sitten navigoida ja etsiä ominaisuuksia aivan kuten omassa roolissasi.
 
@@ -85,17 +80,17 @@ Choose the **Explore more roles** action at the top of the role explorer to get 
 > Only Role Center actions for profiles where the **Show in Role Explorer** check box is selected will appear on the extended version of the role explorer (shown with the **Explore more roles** action). For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 -->
 
-## <a name="expand-and-collapse-nodes-on-the-role-explorer"></a>Solmujen laajentaminen ja tiivistäminen roolienhallinnassa
+## Solmujen laajentaminen ja tiivistäminen roolienhallinnassa
 
 Sivujen avoimet toiminnot on järjestetty ominaisuuksien tai sovellusalueiden mukaan nimetyille solmuille. Jokainen solmu voidaan tiivistää tai laajentaa yksittäin, ja voit tiivistää/laajentaa kaikki solmut yhteen.
 
 - Jos haluat laajentaa tai supistaa solmun, valitse solmu. Tämä koskee ylimmän tason solmuja ja alisolmuja.
 - Voit laajentaa tai kutistaa kaikki sivun ylätason solmut valitsemalla **Laajenna**- tai **Tiivistä** -toiminnon oikeasta yläkulmasta.
 - Voit laajentaa/tiivistää kaikki ylimmän tason solmut ja niiden alla olevat alisolmut tekemällä jommankumman seuraavista toimista:
-  - Paina Ctrl+Vaihto-näppäimiä samalla kun valitset **Laajenna** tai **Tiivistä**-toiminnon oikeassa yläkulmassa.
+  - Paina <kbd>Ctrl</kbd>+<kbd>Vaihto</kbd>-näppäimiä samalla kun valitset **Laajenna** tai **Tiivistä**-toiminnon oikeassa yläkulmassa.
   - Valitse oikeassa yläkulmassa **...** ja valitse sitten **Laajenna kaikki**- tai **Tiivistä kaikki** -toiminto.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)  
 [Profiilien hallinta](admin-users-profiles-roles.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

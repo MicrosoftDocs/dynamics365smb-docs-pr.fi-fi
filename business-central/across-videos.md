@@ -1,23 +1,17 @@
 ---
 title: Vieraile videokirjastossamme
-description: Käy videokirjastossamme, jotta saat apua aloitusopasvideoista, jotka havainnollistavat kaikkea tavallisista tehtävistä aina tuotevideoihin.
+description: 'Käy videokirjastossamme, jotta saat apua aloitusopasvideoista, jotka havainnollistavat kaikkea tavallisista tehtävistä aina tuotevideoihin.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: video, library, how to
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.keywords: 'video, library, how to'
+ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: df32f9823a84165e27c592a7a02caede6a2e0480
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655122"
 ---
-# <a name="visit-our-video-library"></a>Vieraile Microsoftin videokirjastossa
+# Vieraile Microsoftin videokirjastossa
 
 Olet löytänyt asiakirjat. Mutta jotkut ihmiset mieluummin katselevat sisältöä kuin lukevat sitä. Tätä varten olemme tuottaneet lyhyitä, helposti katsottavia videoita. Useimmat videot täydentävät käyttäjäapua, ja joitakin niistä voi katsella itsenäisesti.  
 
@@ -30,7 +24,7 @@ Voit tarkastella myös opastusvideoita sekä runsaasti muuta sisältöä [!INCLU
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Dynamics 365 -kanava YouTubessa](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  

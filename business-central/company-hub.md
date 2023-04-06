@@ -68,6 +68,8 @@ Lisätietoja yrityksistä ja ympäristöistä on kohdassa [Ympäristölinkit](co
 
 ## Yritystoiminnon käyttö
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Jotta voisit käyttää yritystoimintoa, sinulla on oltava käyttöoikeus joko *D365 Yritystoiminto*-käyttäjäryhmään tai *D365 Yritystoiminto*-käyttöoikeus joukkoon. Sinun täytyy myös pystyä käyttämään yrityksiä, jotka on luetteloitu yritystoiminnossasi, mikä tarkoittaa sitä, että sinun täytyy olla käyttäjä näissä yrityksissä. Katso lisätietoja kohdasta [Luo käyttäjiä lisenssien mukaan](ui-how-users-permissions.md).  
 
 > [!IMPORTANT]

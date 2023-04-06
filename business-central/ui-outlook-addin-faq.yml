@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
-  title: Business Central Add-in for Outlook FAQ
-  description: See answers to frequently asked questions about using Business Central add-in for Outlook.
+  title: Outlookin Business Central -apuohjelman usein kysytyt kysymykset
+  description: Katso vastauksia usein kysyttyihin kysymyksiin Outlookin Business Central -apuohjelman käyttämisestä.
   author: jswymer
   ms.topic: faq
   ms.devlang: na
@@ -10,30 +10,30 @@ metadata:
   ms.search.keywords: 'phone, tablet'
   ms.date: 04/27/2022
   ms.author: jswymer
-title: Business Central Add-in for Outlook FAQ
+title: Outlookin Business Central -apuohjelman usein kysytyt kysymykset
 summary: |
-  This article answers questions that users often ask about the Business Central add-in for Outlook.   
+  Tässä artikkelissa vastataan käyttäjien Outlookin Business Central -apuohjelmaa koskeviin usein kysyttyihin kysymyksiin.   
 sections:
-  - name: Ignored
+  - name: Ohitettu
     questions:
       - question: |
-          How do I change the environment my add-in is pointing to?  
+          Miten voin vaihtaa ympäristön, johon apuohjelma viittaa?  
         answer: |
-          The environment URL is configured in the add-in when the add-in is installed (specifically, in the add-in's manifest file). If you want the add-in to point to a different environment, open the desired Business Central environment and deploy the add-in again, for example, by running the <bpt id="p1">**</bpt>Get the Outlook Add-in<ept id="p1">**</ept> assisted setup. This action  will redeploy the add-in with updated environment URLs. 
+          Kun apuohjelma on asennettu, ympäristön URL-osoite määritetään apuohjelmassa (erityisesti apuohjelman luettelotiedostossa). Jos haluat, että apuohjelma osoittaa toiseen ympäristöön, avaa haluamasi Business Central -ympäristö ja ota apuohjelma uudelleen käyttöön esimerkiksi suorittamalla **Hae Outlook-apuohjelma** avusteinen asennus. Tämä toiminto ottaa apuohjelman uudelleen käyttöön päivitettyjen ympäristön URL-osoitteiden avulla. 
 
           > [!NOTE]
-          > It might take some time before the change takes effect.
+          > Voi kestää jonkin aikaa, ennen kuin muutos tulee voimaan.
       - question: |
-          Can I customize the add-in to connect to multiple environments?
+          Voinko mukauttaa apuohjelmaa niin, että se muodostaa yhteyden useaan ympäristöön?
         answer: |
-          Yes. As an administrator, developer, or partner, you can modify and build your own add-in manifests. One way is to download the Contact Insights manifest from each environment that the users want to connect to. Then, modify the <ph id="ph1">`&lt;Id&gt;`</ph> and <ph id="ph2">`&lt;DisplayName&gt;`</ph> tags to allow multiple versions of the add-in to be installed. These modifications will let the user have multiple Business Central add-ins installed, each pointing to their own environment.
+          Kyllä. Järjestelmänvalvoja, kehittäjä tai kumppani voi muokata ja luoda omia apuohjelman kokoonpanotietoja. Yksi tapa on ladata Kontaktin tiedot -luettelo jokaisesta ympäristöstä, johon käyttäjät haluavat muodostaa yhteyden. Muokkaa `<Id>`- ja `<DisplayName>`-tunnisteita niin, että apuohjelman useat versiot sallitaan asennettaviksi. Nämä muutokset mahdollistavat sen, että käyttäjälle on asennettu useita Business Central -apuohjelmia, joista jokainen viittaa omaan ympäristöönsä.
 
-          ![Multiple Business Central add-ins for Outlook.](media/outlook-multiple-addins.png) 
+          ![Useita Outlookin Business Central -apuohjelmia.](media/outlook-multiple-addins.png) 
 additionalContent: |
 
-  ## See also
+  ## Katso myös
 
-  <bpt id="p1">[</bpt>Get the Business Central Add-in for Outlook<ept id="p1">](admin-outlook.md)</ept>  
-  <bpt id="p1">[</bpt>Use Business Central as your Business Inbox in Outlook<ept id="p1">](work-outlook-addin.md)</ept>  
+  [Business Central -apuohjelman hankkiminen Outlookiin](admin-outlook.md)  
+  [Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa](work-outlook-addin.md)  
 
   [!INCLUDE[footer-include](includes/footer-banner.md)]

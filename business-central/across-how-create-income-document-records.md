@@ -1,22 +1,16 @@
 ---
 title: Saapuvien asiakirjatietueiden luominen
-description: Saapuvat asiakirjat -sivun eri toimintojen avulla voit tarkastella kulukuitteja, hallita OCR-tehtäviä, muuntaa saapuvia asiakirjatiedostoja ja liittää ulkoisia tiedostoja.
+description: 'Saapuvat asiakirjat -sivun eri toimintojen avulla voit tarkastella kulukuitteja, hallita OCR-tehtäviä, muuntaa saapuvia asiakirjatiedostoja ja liittää ulkoisia tiedostoja.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
+ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
 ms.date: 06/14/2022
 ms.author: edupont
-ms.openlocfilehash: 3f49980df13e62d948e7b2c17be54779bc8f901a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532455"
 ---
-# <a name="create-incoming-document-records"></a>Saapuvien asiakirjatietueiden luominen
+# Saapuvien asiakirjatietueiden luominen
 
 **Saapuvat asiakirjat** -sivulla voit käyttää erilaisia toimintoja, joilla voit tarkistaa kulutositteita, hallita OCR-tehtäviä ja muuntaa saapuvia asiakirjatiedostoja manuaalisesti tai automaattisesti sekä siirtää niistä tietoja asiakirjoihin tai kirjanpitoriveille. Ulkoisia tiedostoja voi liittää missä tahansa prosessin vaiheessa myös kirjattuihin asiakirjoihin ja muodostuviin toimittaja-, asiakas- ja pääkirjamerkintöihin.
 
@@ -24,7 +18,7 @@ Voit tallentaa ulkoisen asiakirjan [!INCLUDE[prod_short](includes/prod_short.md)
 
 Ennen kuin voit käyttää **Saapuvat asiakirjat** -ominaisuutta, sinun on tehtävä tarvittavat asetukset. Lisätietoja on kohdassa [Saapuvien asiakirjojen määrittäminen](across-how-setup-income-documents.md).
 
-## <a name="to-approve-or-reject-an-incoming-document"></a>Saapuvan asiakirjan hyväksyminen tai hylkääminen
+## Saapuvan asiakirjan hyväksyminen tai hylkääminen
 
 Jos olet määrittänyt **Saapuvat asiakirjat** -ominaisuuden edellyttämään asiakirjojen luomisen hyväksynnän, käyttäjien, joilla on tarvittavat oikeudet, on hyväksyttävä tietueet ennen niiden käsittelemistä. Lisätietoja on ohjeaiheessa [Saapuvien asiakirjatietueiden hyväksyjien määrittäminen](across-how-setup-income-documents.md#to-set-up-approvers-of-incoming-document-records).
 
@@ -33,7 +27,7 @@ Jos olet määrittänyt **Saapuvat asiakirjat** -ominaisuuden edellyttämään a
 
 Jos hyväksyt saapuvan asiakirjatietueen, saapuvan asiakirjan rivin **Vapautettu**-valintaruutu on valittuna. Esimerkiksi ostolaskujen luonnista vastaava henkilö voi nyt aloittaa tietueen käsittelemisen.
 
-## <a name="to-create-an-incoming-document-record-by-taking-a-photo"></a>Saapuvien asiakirjatietueiden luominen valokuva ottamalla
+## Saapuvien asiakirjatietueiden luominen valokuva ottamalla
 
 > [!NOTE]  
 > Seuraavat toimet koskevat vain [!INCLUDE[prod_short](includes/prod_short.md)]in tabletti- ja puhelinasiakasohjelmia.
@@ -45,7 +39,7 @@ Jos hyväksyt saapuvan asiakirjatietueen, saapuvan asiakirjan rivin **Vapautettu
 
     Luo uuden saapuvan asiakirjan tietueen ja liittää kuvan.
 
-## <a name="to-attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Kuvan liittäminen saapuvien asiakirjatietueiden tietueeseen valokuva ottamalla
+## Kuvan liittäminen saapuvien asiakirjatietueiden tietueeseen valokuva ottamalla
 
 > [!NOTE]  
 > Seuraavat toimet koskevat vain [!INCLUDE[prod_short](includes/prod_short.md)]in tabletti- ja puhelinasiakasohjelmia.
@@ -57,7 +51,7 @@ Jos hyväksyt saapuvan asiakirjatietueen, saapuvan asiakirjan rivin **Vapautettu
 
     Kuva liitetään saapuvan asiakirjan tietueeseen.
 
-## <a name="to-create-an-incoming-document-record-manually"></a>Saapuvan asiakirjatietueen luominen manuaalisesti
+## Saapuvan asiakirjatietueen luominen manuaalisesti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Saapuvat asiakirjat** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi** ja sitten **Luo tiedostosta** -toiminto.  
@@ -67,9 +61,9 @@ Jos hyväksyt saapuvan asiakirjatietueen, saapuvan asiakirjan rivin **Vapautettu
 6. Valitse **Lisää tiedosto** -sivulla tiedosto, joka vastaa kyseistä saapuvaa asiakirjaa, ja valitse sitten **Avaa**.
 7. Täytä **Saapuva asiakirja** -sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/incoming-documents-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/incoming-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Käytä OCR:ää PDF-ja kuvatiedostojen muuntamiseksi sähköisiksi asiakirjoiksi](across-how-use-ocr-pdf-images-files.md)
 [Saapuvien asiakirjatietueiden luominen suoraan asiakirjoista ja tapahtumista](across-how-connect-disconnect-income-document-records.md)

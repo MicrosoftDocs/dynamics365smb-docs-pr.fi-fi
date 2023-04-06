@@ -1,23 +1,17 @@
 ---
 title: Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta
-description: Tietoja siitä, miten maksut voidaan täsmäyttää automaattisella kohdistustoiminnolla maksujen tai kassaanmaksujen kohdistamiseksi liittyviin avoimiin tapahtumiin.
+description: 'Tietoja siitä, miten maksut voidaan täsmäyttää automaattisella kohdistustoiminnolla maksujen tai kassaanmaksujen kohdistamiseksi liittyviin avoimiin tapahtumiin.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.search.form: 389, 1290, 1294, 1287
+ms.search.keywords: 'payment process, direct payment posting, reconcile payment, expenses, cash receipts'
+ms.search.form: '389, 1290, 1294, 1287'
 ms.date: 06/22/2022
 ms.author: bholtorf
-ms.openlocfilehash: 9ea8db70d5d9392977db2a3b418cccb7d8fa3f77
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605736"
 ---
-# <a name="reconcile-payments-using-automatic-application"></a>Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta
+# Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta
 
 **Maksujen täsmäytyskirjauskansio** -sivulla määritetään saapuvat ja lähtevät maksut, jotka on tallennettu tapahtumina verkkopankkitilille tai maksupalveluun. Voit kohdistaa maksut liittyviin avoimiin asiakas-, toimittaja-ja pankkitilitapahtumiin. Päiväkirjan voi täyttää tuomalla pankin tiliotteen pankkisyötteenä tai -tiedostona tai syöttämällä manuaalisesti transaktioita, joita teet maksupalvelussa.
 
@@ -49,7 +43,7 @@ Voit avata kullekin maksua esittävälle **Maksujen täsmäytyskirjauskansio** -
 > [!NOTE]  
 > Voit aloittaa pankkitapahtumien tuonnin samaan aikaan kuin avaat **Maksujen täsmäytyskirjauskansio** -sivun aiemmin luodulle kirjauskansiolle. Seuraava toimenpide kuvaa kuinka pankkitapahtumat tuodaan **Maksujen täsmäytyskirjauskansio** -sivulle, kun olet luonut uuden päiväkirjan.
 
-## <a name="to-reconcile-payments-using-automatic-application"></a>Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta
+## Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksujen täsmäytyskirjauskansiot** ja valitse sitten liittyvä linkki.
 2. Voit käsitellä uuden maksun täsmäytyksen päiväkirjaa valitsemalla **Uusi päiväkirja** -toiminnon.
 3. Valitse **Maksun pankkitililuettelo** -sivulla pankkitili, johon maksut täsmäytetään, ja valitse sitten **OK**-painike.
@@ -94,9 +88,9 @@ Voit verrata **Pankkitilin saldo kirjauksen jälkeen** -kentän ja **Tiliotteen 
 > [!NOTE]  
 >   Jos et halua täsmäyttää pankkitiliä **Maksujen täsmäytyskirjauskansio** -sivulla, sinun on käytettävä **Pankkitilin täsmäytys** -sivua. Lisätietoja on kohdassa [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md).
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-journals-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-journals-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Myynti](sales-manage-sales.md)  

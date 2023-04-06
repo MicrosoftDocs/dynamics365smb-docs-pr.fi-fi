@@ -41,6 +41,8 @@ Tuotoksen hyllytyksen luonnin ensimmäinen vaihe on luoda saapuvan varastoinnin 
 4. Täytä hyllytysrivit tarpeen mukaan.
 5. Kun rivit ovat valmiit kirjaamista varten, valitse **Kirjaa**-toiminto. Kirjaus luo fyysisen varaston tapahtumat ja kirjaa nimikkeiden tuotoksen.  
 
+    [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
 Voit myös luoda **Varaston hyllytyksen** suoraan vapautetusta tuotantotilauksesta. Lisätietoja on kohdassa [Nimikkeiden hyllyttäminen varaston hyllytyksen avulla](warehouse-how-to-put-items-away-with-inventory-put-aways.md)  
 
 Kun kirjaat varastohyllytyksen, oletuksena on, että kaikki toiminnot kirjataan vakioreitityksen mukaan. Toisien sanoen viimeisimmän toiminnon tuotoksen määrä kirjataan. Voit käyttää tuotospäiväkirjaa kirjaamaan varianssit tuotoksen määrässä sekä asennuksen ja ajoajat. Jos osittainen kirjaus on tehtävä varaston hyllytyksen luonnin jälkeen, se voidaan tehdä kaikkien muiden paitsi viimeisimmän toiminnon määritettyjen aikojen ja määrien osalta. Varaston hyllytys ohjaa viimeistä työvaihetta.  

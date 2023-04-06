@@ -12,6 +12,8 @@ ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration,
 ---
 # Käyttäjän käyttöoikeustyönkulku Microsoft 365 -käyttöoikeuksille
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Tämä artikkeli kuvaa sitä, mitä tapahtuu, kun käyttäjä käyttää Business Central -tietoja Microsoft 365 -käyttöoikeuksien avulla ensimmäisen käyttökerran yhteydessä. Tämän työn ymmärtäminen mahdollistaa sen, että järjestelmänvalvojat voivat suunnitella toimintatapansa ja määrittää Business Centralin vastaamaan yrityksen tarpeita.
 
 1. Ensin käyttäjän henkilöllisyys todennetaan 

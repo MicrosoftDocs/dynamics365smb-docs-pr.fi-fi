@@ -1,29 +1,23 @@
 ---
 title: Nykyisen käyttäjän perusasetusten muuttaminen
-description: Opi muuttamaan joitakin Business Centralin perusasetuksia, kuten rooliasi ja roolikeskusta, yritystä, työpäivämäärää sekä aikavyöhykkeitä.
+description: 'Opi muuttamaan joitakin Business Centralin perusasetuksia, kuten rooliasi ja roolikeskusta, yritystä, työpäivämäärää sekä aikavyöhykkeitä.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
-ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.keywords: 'change Role Center, notification, change company, change work date, decimal separator'
+ms.search.form: '9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 08/31/2022
 ms.author: jswymer
-ms.openlocfilehash: de393807ae00efb5bc01a5f6c1fb0be8e98fdf36
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606060"
 ---
-# <a name="change-basic-settings"></a>Perusasetusten muuttaminen
+# Perusasetusten muuttaminen
 
 Voit tarkastella **Omat asetukset** -sivulla [!INCLUDE[prod_short](includes/prod_short.md)]in perusasetuksia ja muuttaa niitä. Tekemäsi muutokset vaikuttavat vain omaan työtilaasi; ei muiden käyttäjien työtiloihin.  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="role"></a><a name="role-center"></a>Rooli
+## <a name="role-center"></a>Rooli
 
 Rooli määrittää aloitussivun, joka on suunniteltu organisaation tiettyä roolia varten. Roolin mukaan aloitussivu tai roolikeskus antaa yleiskuvan yrityksestä, osastosta tai henkilökohtaisista tehtävistä. Se auttaa myös siirtymään päivittäisten tehtävien välillä ja löytämään työt, jotka on määritetty sinulle.
 
@@ -31,7 +25,7 @@ Rooli määrittää aloitussivun, joka on suunniteltu organisaation tiettyä roo
 
 * Keskellä on nykyiset tiedot näyttävä **Toiminnot**-alue, jossa näkyvät nykyiset tiedot. Ne voidaan valita tarkempaa tarkastelua varten. Suorituskykyilmaisimet (tunnusluvut) voidaan määrittää niin, että ne näyttävät visuaalisesti esimerkiksi kassavirran tai tuottojen ja kulujen valitun kaavion. Voit luoda aloitussivulla myös suosikkiasiakkaiden luettelon niitä yritysasiakkaita varten, joiden kanssa käyt kauppaa usein tai jotka vaativat erityishuomiota.
 
-### <a name="change-the-role"></a>Roolin vaihtaminen
+### Roolin vaihtaminen
 
 Oletusrooli on **Liiketoimintajohtaja**, mutta voit valita toisen roolin, jotta saat käyttöösi tarpeitasi paremmin vastaavan roolikeskuksen.  
 
@@ -39,7 +33,7 @@ Oletusrooli on **Liiketoimintajohtaja**, mutta voit valita toisen roolin, jotta 
 2. Valitse **Omat asetukset** -sivun **Roolikeskus**-kentässä oletusarvoisesti käytettävä rooli. Valitse esimerkiksi **Kirjanpitäjä**.
 3. Valitse **OK**.
 
-## <a name="company"></a><a name="company"></a>Oma yritys
+## <a name="company"></a>Oma yritys
 
 Yritystoiminnot [!INCLUDE[prod_short](includes/prod_short.md)]in tietojen säilönä. Tietokannassa voi olla useita yrityksiä. Kerralla on kuitenkin mahdollista valita vain yksi yritys. Oletusyrityksen nimi on CRONUS, ja se sisältää vain esittelytietoja.
 
@@ -69,7 +63,7 @@ You can add a customized badge in the top-right corner, which you can choose to 
 > [!NOTE]
 > If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
-## <a name="work-date"></a><a name="work-date"></a>Käsittelypäivämäärä
+## <a name="work-date"></a>Käsittelypäivämäärä
 
 Eniten käytetty käsittelypäivämäärä on kuluvan päivän päivämäärä. Saatat joutua muuttamaan käsittelypäivämäärän väliaikaisesti, jotta voit suorittaa tehtäviä, kuten sellaisten tapahtumien täydentäminen, joiden päivämäärä ei ole kuluvan päivän päivämäärä.
 
@@ -79,7 +73,7 @@ Eniten käytetty käsittelypäivämäärä on kuluvan päivän päivämäärä. 
 > [!IMPORTANT]  
 > Jos olet muuttanut käsittelypäivämäärän ja kirjaudut ulos tai vaihdat toiseen yritykseen, käsittelypäivämäärä palautuu oletuskäsittelypäivämääräksi. Kun sitten kirjaudut seuraavan kerran sisään ja vaihdat takaisin alkuperäiseen yritykseen, käsittelypäivämäärä on ehkä määritettävä uudelleen.
 
-### <a name="work-date-indication"></a>Käsittelypäivämäärän ilmaiseminen
+### Käsittelypäivämäärän ilmaiseminen
 
 Käsittelypäivämäärä on tärkeä sivuilla, joita voi muokata. Aina kun käsittelypäivämäärää ei ole määritetty muokattavalla sivulla kuluvan päivän päivämäärään, sivulla näkyy kahdenlaisia ilmaisimia:
 
@@ -89,11 +83,11 @@ Käsittelypäivämäärä on tärkeä sivuilla, joita voi muokata. Aina kun käs
 
 Jos nykyistä päivää (kuluva päivää) ei ole määritetty käsittelypäivämääräksi, nykyinen käsittelypäivämäärä näkyy niiden kaikkien sivujen vasemmassa yläkulmassa, joissa tietoja voidaan muokata.
 
-## <a name="region"></a><a name="region"></a> Alue
+## <a name="region"></a> Alue
 
 **Alue**-asetus määrittää, miten päivämäärät, ajat, luvut ja valuutat näkyvät tai miten ne on muotoiltu. Se määrittää myös, mitä merkkiä käytetään desimaalierottimena, kun käytetään numeronäppäimistöä tietojen syöttämiseen. Lisätietoja on kohdassa [Tietojen syöttäminen](ui-enter-data.md#decimal).
 
-## <a name="language"></a><a name="language"></a> Kieli
+## <a name="language"></a> Kieli
 
 Muuttaa näyttökielen. Tämä kenttä näkyy vain, kun useita kieliä voi valita.
 
@@ -101,21 +95,21 @@ Alkuperäinen kieli määräytyy joko järjestelmänvalvojan asettamien tai sela
 
 Sovellukseen [!INCLUDE[prod_short](includes/prod_short.md)] voi asentaa lisäkieliä AppSourcesta. Kaikki tuetut näyttökielet näkyvät luettelossa. Järjestelmänvalvojan on asennettava sopiva kielisovellus vuokraajaan, ennen kuin käyttäjät voivat vaihtaa uuteen kieleen [!INCLUDE[prod_short](includes/prod_short.md)]issa.  
 
-## <a name="time-zone"></a>Aikavyöhyke
+## Aikavyöhyke
 
 Määrittää aikavyöhykkeen, jossa olet. Kun kirjaudut ensimmäisen kerran [!INCLUDE [prod_short](includes/prod_short.md)]iin, aikavyöhyke määritetään yrityksen osoitteen perusteella. Vaihda se, jos se ei vastaa sijaintiasi.  
 
-## <a name="notifications"></a>Ilmoitukset
+## Ilmoitukset
 
 Valitsemalla *Muuta asetusta, milloin saan ilmoituksia* -linkin voit tarkastella tai muuttaa ilmoituksia, joita saat tietyistä tapahtumista tai tilamuutoksista esimerkiksi silloin, kun olet laskuttamassa asiakasta, jolla on erääntynyttä saldoa, tai kun käytettävissä oleva varasto on pienempi kuin myytävä määrä. Lisätietoja on kohdassa [Ilmoitusten hallinta](ui-smart-notifications.md).
 
-## <a name="teaching-tips"></a>Opetusvinkkejä
+## Opetusvinkkejä
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  

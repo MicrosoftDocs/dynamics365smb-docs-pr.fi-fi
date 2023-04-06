@@ -1,23 +1,18 @@
 ---
 title: ALV-ilmoitusten lähettäminen veroviranomaisille
-description: Lisätietoja sellaisten ilmoitusten valmistelusta, joissa mainitaan myynnin tai myynnin ja ostojen arvonlisävero tiettynä kautena, ilmoituksen lähettämisestä veroviranomaisille.
+description: 'Lisätietoja sellaisten ilmoitusten valmistelusta, joissa mainitaan myynnin tai myynnin ja ostojen arvonlisävero tiettynä kautena, ilmoituksen lähettämisestä veroviranomaisille.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: VAT, tax, report, EC sales list, statement
-ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
+ms.search.keywords: 'VAT, tax, report, EC sales list, statement'
+ms.search.form: '321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401'
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: bf0ea7f023eed4dced53477d72ff844d4da04e37
-ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 10/03/2022
-ms.locfileid: "9617846"
 ---
-# <a name="report-vat-to-tax-authorities"></a>ALV:n raportointi veroviranomaisille
+
+# ALV:n raportointi veroviranomaisille
 
 Tässä ohjeaiheessa käsitellään [!INCLUDE[prod_short](includes/prod_short.md)]in raportteja, joilla voit lähettää myynnin ja ostojen arvolisäverosummia koskevat tiedot alueesi veronviranomaisille. Tiettyjen maiden mukaan raporteissa voi olla erityisiä tietoja tai on lähetettävä lisäraportteja. Tarkista oman maasi artikkelit [Paikalliset toiminnot](about-localization.md) -osasta.  
 
@@ -30,14 +25,17 @@ Käytössä ovat seuraavat sisäiset raportit:
 
     ALV-palautusraportti sisältää kaikissa sellaisissa maissa toimiville asiakkaille suuntautuneen myynnin ja toimittajilta tehtyjen ostojen ALV:n, joissa käytetään arvonlisäveroa.  
 
-Molemmissa tapauksissa ALV lasketaan määritettyjen ALV-kirjausasetusten ja ALV-kirjausryhmien perusteella. [!INCLUDE[prod_short](includes/prod_short.md)] näyttää ALV-tapahtumat niiden **ALV-päivämäärän** perusteella.
+Molemmissa tapauksissa (kuten muissakin ALV:hen liittyvissä raporteissa) ALV lasketaan määritettyjen ALV-kirjausasetusten ja ALV-kirjausryhmien perusteella. [!INCLUDE[prod_short](includes/prod_short.md)] näyttää ALV-tapahtumat aina niiden **ALV-päivämäärän** perusteella ensisijaisena raportointipäivänä.  
+
+> [!NOTE]
+> Kaikki ALV-liittyvät raportit suoritetaan nyt käyttämällä **ALV-päivämäärää** asianmukaisten tietueiden suodattamiseen. Vaikka määrität **ALV-päivämäärän käytön** arvoksi **älä käytä ALV-päivämäärätoimintoa**, [!INCLUDE[prod_short](includes/prod_short.md)]-ohjelma piilottaa kaikki **ALV-päivämäärän** esiintymät sovelluksessa. **ALV-päivämäärää** käytetään kuitenkin edelleen kaikissa raportointikohteissa, ja se täytetään automaattisesti **kirjauspäivämäärällä**.
 
 Jos haluat tarkastella täydellistä ALV-tapahtumahistoriaa, jokainen ALV:n sisältävä kirjaus luo tapahtuman **ALV-tapahtumat**-sivulla. Näitä tapahtumia käytetään laskettaessa ALV-laskelmasi summaa (maksu tai palautus) tietyltä kaudelta. ALV-tapahtumat nähdäksesi valitse ![Lamppu, joka avaa toisena Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-tapahtumat** ja valitse sitten vastaava linkki.
 
 > [!NOTE]
 > Jokaisen [!INCLUDE[prod_short](includes/prod_short.md)] -ympäristön on tarkoitus käsitellä yhden maan lakisääteinen raportointi. Esimerkiksi [!INCLUDE[prod_short](includes/prod_short.md)]in hollantilainen versio käsittelee vain Alankomaiden ALV-raportointia. Vastaavasti Yhdysvaltain [!INCLUDE[prod_short](includes/prod_short.md)]in versio käsittelee 1099-raportointia Yhdysvalloissa, eikä se tue ALV-raportointia muissa maissa ellei sitä ole tuotu kumppaniekosysteemin laajennuksella tai asiakaskohtaisella koodimuokkauksella.
 
-## <a name="about-the-ec-sales-list-report"></a><a name="ecsaleslist"></a>Tietoja EU-myyntiluettelon raportista
+## <a name="ecsaleslist"></a>Tietoja EU-myyntiluettelon raportista
 
 Euroopan unionissa (EU) ja Yhdistyneessä kuningaskunnassa kaikkien tavaroita ja palveluja ALV-rekisteröidyille asiakkaille, myös muiden EU-maiden asiakkaille, myyvien yritysten on lähetettävä EU-myyntiluettelo-raportin sähköinen versio tulli- ja veroviranomaisilleen. **EU-myyntiluettelo**-raportti toimii vain EU-maiden kohdalla.
 
@@ -51,11 +49,11 @@ Raportti sisältää yhden rivin kullekin asiakastapahtumalle ja näyttää koko
 
 Kun veroviranomainen on tarkistanut raporttisi, yrityksesi yhteyshenkilö saa viranomaiselta sähköpostiviestin. [!INCLUDE[prod_short](includes/prod_short.md)]issa yhteyshenkilö määritetään **Yritystiedot**-sivulla. Ennen kuin lähetät raportin, varmista, että olet valinnut yhteyshenkilön.  
 
-### <a name="submit-an-ec-sales-list-report"></a>Lähetä EU-myyntiluettelon raportti
+### Lähetä EU-myyntiluettelon raportti
 
 [!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
 
-## <a name="about-the-vat-return-report"></a><a name="vatreturn"></a>Tietoja ALV-palautusraportista
+## <a name="vatreturn"></a>Tietoja ALV-palautusraportista
 
 Voit lähettää tällä raportilla osto- ja myyntiasiakirjoissa olevan ALV:n. Näitä asiakirjoja ovat esimerkiksi osto- ja myyntitilaukset, laskut ja hyvityslaskut. Tiedot ovat raportissa samassa muodossa kuin tulli- ja veroviranomaisille tehtävässä yhteenvetoilmoituksessa.  
 
@@ -64,7 +62,7 @@ Tapahtumat voidaan määrittää sisältämään ALV-palautuksia varten seuraava
 * Lähetä vain avoimet tapahtumat tai avoimet ja suljetut tapahtumat. Tämä on kätevää esimerkiksi silloin, kun valmistelet lopullista vuositason ALV-palautusta.
 * Lähetä vain määritettyjen kausien tapahtumat tai sisällytä myös edellisten kausien tapahtumat. Tämä on kätevää päivitettäessä jo lähetettyä ALV-palautusta, jos esimerkiksi toimittaa lähettää laskun myöhässä.    
 
-## <a name="to-connect-to-your-tax-authoritys-web-service"></a>Veroviranomaisen verkkopalveluun yhdistäminen
+## Veroviranomaisen verkkopalveluun yhdistäminen
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää palveluyhteyden veroviranomaisten sivustoihin. Jos toimit esimerkiksi Isossa-Britanniassa, voit ottaa käyttöön **GovTalk**-palveluyhteyden, jonka kautta voit lähettää EU-myyntiluettelo- ja ALV-palautus-raportit sähköisessä muodossa. Jos haluat lähettää raportin manuaalisesti antamalla tiedot esimerkiksi veronviranomaisten sivustossa, yhteyttä ei ole pakko ottaa käyttöön.   
 
 Jotta voisit ilmoittaa arvonlisäveron viranomaiselle sähköisesti, [!INCLUDE[prod_short](includes/prod_short.md)] on yhdistettävä veroviranomaisen verkkopalveluun. Tämä edellyttää, että luot tilin ALV-viranomaisen kanssa. Kun sinulla on tili, voit ottaa käyttöön [!INCLUDE[prod_short](includes/prod_short.md)]issa tarjotun palveluyhteyden.
@@ -75,11 +73,11 @@ Jotta voisit ilmoittaa arvonlisäveron viranomaiselle sähköisesti, [!INCLUDE[p
     > [!NOTE]  
     > Yhteyden toimivuus kannattaa testata. Sen voi tehdä valitsemalla **Testitila**-valintaruudun sekä valmistelemalla ja lähettämällä ALV-raportin kohdassa [ALV-raportin valmisteleminen ja lähettäminen](#to-prepare-and-submit-a-vat-report) kuvatulla tavalla. Palvelu testaa testitilassa, voiko veroviranomainen vastaanottaa raportin. Raportin tila ilmaisee, onnistuiko testilähetys vai ei. Muista kuitenkin, että tietoja ei ole vielä oikeasti lähetetty. Kun haluat lähettää raportin oikeasti, poista **Testitila**-valintaruudun valinta ja toista sitten lähetysprosessi.
 
-## <a name="to-set-up-vat-reports-in-prod_short"></a>ALV-raporttien määrittäminen [!INCLUDE[prod_short](includes/prod_short.md)]issa
+## ALV-raporttien määrittäminen [!INCLUDE[prod_short](includes/prod_short.md)]issa
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-### <a name="to-set-up-vat-return-periods"></a>ALV-palautusjaksojen määrittäminen
+### ALV-palautusjaksojen määrittäminen
 
 Jos yrityksesi ei sijaitse Yhdistyneessä kuningaskunnassa, määritä aikataulutettuja ALV-palautuksia **ALV-palautusjaksot** -sivulla. jos yrityksesi sijaitsee Yhdistyneessä kuningaskunnassa, katso [Verotuksen digitalisointi Yhdistyneessä kuningaskunnassa](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md).  
 
@@ -89,7 +87,7 @@ Jos yrityksesi ei sijaitse Yhdistyneessä kuningaskunnassa, määritä aikataulu
 
 Kun sitten on aika lähettää ALV-palautusjakson ALV-raportti, valitse jakso **ALV-palautusjaksot**-sivulla ja valitse sitten toiminto **Luo ALV-palautus**. Valitse sitten **ALV-palautus**-kortissa toiminto **Ehdota rivejä** seuraavan menettelyn kolmannessa vaiheessa kuvatulla tavalla.  
 
-## <a name="to-prepare-and-submit-a-vat-report"></a>ALV-raportin valmisteleminen ja lähettäminen
+## ALV-raportin valmisteleminen ja lähettäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 3.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **EU-myyntiluettelo** tai **ALV-palautus** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi** ja täytä sitten tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -106,13 +104,26 @@ Kun sitten on aika lähettää ALV-palautusjakson ALV-raportti, valitse jakso **
 
 Kun lähetät raportin, [!INCLUDE[prod_short](includes/prod_short.md)] valvoo palvelua ja pitää kirjaa yhteydenpidosta. **Tila**-kenttä ilmaisee raportin kulun prosessissa. Kun viranomainen on esimerkiksi käsitellyt raporttisi, sen tilaksi tulee **Onnistui**. Jos veroviranomaiselle lähetetyssä raportissa on virheitä, sen tilaksi muutetaan **Epäonnistui**. Voit tarkastella virheitä **Virheet ja varoitukset** -kohdassa, korjata virheet ja lähettää raportin uudelleen. Voit tarkastella luetteloa kaikista EY-myyntiluetteloraporteistasi **EU-myyntiluetteloraportit**-sivulla.  
 
-## <a name="viewing-communications-with-your-tax-authority"></a>Veroviranomaisen ja yrityksen välisen viestintähistorian tarkastelu
+### ALV-palautusten tilat
+
+ALV-palautuksilla voi olla eri tiloja seuraavassa taulukossa kuvatulla tavalla.
+
+| Tila | Kuvaus |
+|------------|-------------------------|
+| Avoin | Kun luot uuden ALV-palautuksen. Voit suorittaa **Ehdota rivejä** -toiminnon. Jos sinun täytyy korjata arvoja, voit suorittaa **Ehdota rivejä** -toiminnon uudelleen. Et voi lähettää ALV-palautusta, jolla on tämä tila. |
+| Vapautettu | Tila muuttuu, kun käytät **vapautus**-toimintoa. [!INCLUDE[prod_short](includes/prod_short.md)] näyttää **Virheet ja varoitukset** -pikavälilehden. Et voi tehdä muutoksia tai käyttää **Ehdota rivejä** -toimintoa. Jos haluat tehdä muutoksia, sinun on avattava ALV-palautus uudelleen. |
+| Hylätty | Jos lähetys ei onnistunut (esimerkiksi todennus epäonnistui), tilaksi muuttuu **Hylätty**. Et voi avata uudelleen ALV-palautusta, jolla on tämä tila. |
+| Lähetetty | ALV-palautus lähetetään **Lähetä**-toiminnon avulla, tai se merkitään lähetetyksi käyttämällä **merkitse vastaanotetuksi** -toimintoa. |
+| Hyväksytty | ALV-ilmoituksessa on tämä tila, jos raportti on merkitty hyväksytyksi käyttämällä **Merkitse hyväksytyksi** -toimintoa. Jos **ALV-palautus**-raportti on merkitty **hyväksytyksi**, voit suorittaa **Laske ja kirjaa ALV-laskelma** -toiminnon. |
+
+## Veroviranomaisen ja yrityksen välisen viestintähistorian tarkastelu
+
 Joissakin maissa tapahtuu viestinvaihtoa veroviranomaiselle raporttien lähettämisen yhteydessä. Näet ensimmäisen ja viimeisen lähettämäsi tai vastaanottamasi sanoman valitsemalla **Lataa lähetysviesti** ja **Lataa vastausviesti** -toiminnon.  
 
-## <a name="submitting-vat-reports-manually"></a>ALV-raporttien lähettäminen manuaalisesti
+## ALV-raporttien lähettäminen manuaalisesti
 Jos raportti lähetetään jollakin muulla tavalla, esimerkiksi viemällä se XML-tiedostoksi ja lataamalla sen veroviranomaisen verkkosivulle, raportointikauden voi sulkea sen jälkeen valitsemalla **Merkitse lähetetyksi**. Kun olet merkinnyt ALV-raportin vapautetuksi, siitä tulee ei muokattava. Jos raporttia on muutettava sen jälkeen, kun se on merkitty vapautetuksi, raportti on ensin avattava uudelleen.
 
-## <a name="vat-settlement"></a>ALV-laskelma
+## ALV-laskelma
 Netto-ALV on jaksoittain maksettava veroviranomaisille. Jos ALV on laskettava usein, voit suorittaa **Laske ja kirjaa ALV-laskelma** -eräajon, joka sulkee avoimet ALV-tapahtumat ja siirtää ostojen ja myynnin ALV-summat ALV-maksutilille.
 
 Kun siirrät ALV-summat maksutilille, ostojen ALV-tilille hyvitetään ja myyntien ALV-tililtä veloitetaan ne summat, jotka on laskettu määritetylle ajalle. Nettosumma hyvitetään (tai veloitetaan, jos ostojen ALV-summa on suurempi) ALV-maksutilille. Voit kirjata maksun välittömästi tai tulostaa ensin testiraportin.  
@@ -120,7 +131,7 @@ Kun siirrät ALV-summat maksutilille, ostojen ALV-tilille hyvitetään ja myynti
 > [!Note]
 > Kun suoritat **Laske ja kirjaa ALV-laskelma** -eräajon mutta et määritä **Liiketoiminnan ALV-kirjausryhmä**- ja **Tuotteen ALV-kirjausryhmä** -asetuksia, kaikkien liiketoiminnan kirjausryhmien ja tuotteen kirjausryhmien koodien tapahtumat sisällytetään.
 
-## <a name="configuring-your-own-vat-reports"></a>Omien ALV-raporttien määrittäminen
+## Omien ALV-raporttien määrittäminen
 
 Voit käyttää valmista **EU-myyntiluetteloa**. Voit kuitenkin myös luoda omia raportteja, jos sinulla on kehityslisenssi, jonka avulla voit luoda codeuniteja. Ohjeita saat tarvittaessa Microsoft-kumppanilta.  
 
@@ -137,9 +148,9 @@ Seuraavassa taulukossa kuvataan codeunitit, jotka sinun on luotava raporttiasi v
 > [!Note]
 > Kiinnitä huomiota raportin koodiyksiköitä luodessasi **ALV-raportin versio** -kentän arvoon. Tässä kentässä on oltava sama versio, joka on tai oli veroviranomaisen vaatimuksena. Voit esimerkiksi kirjoittaa kentän arvoksi **2021** osoittamaan, että raportti noudattaa kyseisenä vuonna voimassa olleita vaatimuksia. Voimassa olevan version saat selville veroviranomaiseltasi.  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/process-vat-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/process-vat-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen](finance-setup-vat.md)  
 [Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)  

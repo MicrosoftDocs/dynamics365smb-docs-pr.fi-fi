@@ -1,23 +1,17 @@
 ---
 title: Aikaraporttien ja niiden hyväksymisen määrittäminen
-description: Tuntiraportit määritetään seuraamaan tehtäviin ja projekteihin käytettyä aikaa ja resurssien käyttöä, mikä auttaa projektinhallinnan, henkilöstön ja kapasiteetin suhteen
+description: 'Tuntiraportit määritetään seuraamaan tehtäviin ja projekteihin käytettyä aikaa ja resurssien käyttöä, mikä auttaa projektinhallinnan, henkilöstön ja kapasiteetin suhteen'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: project management, capacity, staff, resource, time sheet
-ms.search.form: 977, 462, 76, 77
+ms.search.keywords: 'project management, capacity, staff, resource, time sheet'
+ms.search.form: '977, 462, 76, 77'
 ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 7d019f9003ccd3ca0b2da7157d2d30f98d118e63
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532023"
 ---
-# <a name="set-up-time-sheets"></a>Aikaraporttien määrittäminen
+# Aikaraporttien määrittäminen
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in aikaraportit käsittelevät aikarekisteröintiä viikoittain seitsemän päivän välein. Voit käyttää niitä projekteissa käytettävän ajan seuraamiseen ja yksinkertaisen resurssin aikarekisteröinnin kirjaamiseen. Ennen kuin voit käyttää tuntiraportteja, sinun täytyy määrittää tuntiraportteja lähettävät käyttäjät ja tavan, jolla määrität tuntiraportteja.  
 
@@ -31,7 +25,7 @@ Voit myös määrittää, milloin ja miten tuntiraportit hyväksytään. Organis
 
 Kun olet määrittänyt tuntiraportit, voit luoda resursseille tuntiraportit ja resurssit voivat kirjata tuntiraporttirivit. Voit myös määrittää tuntiraportit projektin suunnitteluriveille. Lisätietoja on kohdassa [Aikaraporttien käyttäminen](projects-how-use-time-sheets.md).  
 
-## <a name="set-up-time-sheets-with-the-assisted-setup-guide"></a>Määritä aikaraportit tuetun asetusoppaan avulla
+## Määritä aikaraportit tuetun asetusoppaan avulla
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
@@ -59,11 +53,11 @@ Avustava asetusopas johdattaa sinut alusta loppuun seuraavat vaiheet:
 
 Asennusoppaan lopussa voit määrittää, että [!INCLUDE [prod_short](includes/prod_short.md)] luo tuntiraportteja kokoonpanon perusteella. Voit tarkastella uusia tuntiraportteja **Tuntiraportit**-sivulla, jonka voit avata [tästä](https://businesscentral.dynamics.com/?page=951). Vaihtoehtoisesti voit suorittaa avustetun asennusoppaan uudelleen tai viimeistellä asetukset manuaalisesti.  
 
-## <a name="set-up-time-sheets-manually"></a>Aikaraporttien määrittäminen manuaalisesti
+## Aikaraporttien määrittäminen manuaalisesti
 
 Seuraavissa osissa kuvataan, miten voit määrittää tuntiraportteja, jos et käytä avusteista **Määritä tuntiraportteja** -asetusopasta.  
 
-### <a name="to-set-up-general-information-for-time-sheets-manually"></a>Aikaraporttien yleistietojen määrittäminen manuaalisesti
+### Aikaraporttien yleistietojen määrittäminen manuaalisesti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Resurssienhallinnan asetukset** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -75,7 +69,7 @@ Seuraavissa osissa kuvataan, miten voit määrittää tuntiraportteja, jos et k�
 | **Aina** |Projektikortin **Vastuuhenkilö**-kenttä hyväksyy aikaraportin. |
 | **Vain kone** |Jos koneen aikaraportti on linkitetty projektiin, projektikortin **Vastuuhenkilö**-kentässä mainittu käyttäjä hyväksyy aikaraportin. Jos koneen aikaraportti on linkitetty resurssiin, resurssikortin **Aikaraportin hyväksyjän käyttäjätunnus** -kentässä mainittu käyttäjä hyväksyy aikaraportin. |
 
-### <a name="to-assign-a-time-sheet-administrator-manually"></a>Aikaraportin järjestelmänvalvojan määrittäminen manuaalisesti
+### Aikaraportin järjestelmänvalvojan määrittäminen manuaalisesti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjän määritys** ja valitse sitten vastaava linkki.  
 2. Lisää uusi käyttäjä, jos käyttäjäluettelo ei sisällä henkilöä, jonka haluat olevan aikaraportin järjestelmänvalvoja. Lisätietoja on kohdassa [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md).
@@ -84,7 +78,7 @@ Seuraavissa osissa kuvataan, miten voit määrittää tuntiraportteja, jos et k�
 > [!TIP]  
 > Yrityksen aikaraportin järjestelmänvalvojaksi kannattaa nimetä vain yksi käyttäjä. Seuraavassa toimenpiteessä määritetään aikaraportin omistaja ja hyväksyjä. Aikaraportin hyväksyjä määritetään jokaiselle resurssille.  
 
-### <a name="to-assign-a-time-sheets-owner-and-approver-manually"></a>Aikaraportin omistajan ja hyväksyjän määrittäminen manuaalisesti
+### Aikaraportin omistajan ja hyväksyjän määrittäminen manuaalisesti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Resurssit** ja valitse sitten vastaava linkki.
 2. Valitse resurssi, jolle haluat määrittää aikaraporttien käyttömahdollisuuden. Valitse sitten **Käytä aikaraporttia** -valintaruutu.  
@@ -94,9 +88,9 @@ Seuraavissa osissa kuvataan, miten voit määrittää tuntiraportteja, jos et k�
 > [!NOTE]  
 > Aikaraportin hyväksyjän tunnusta ei voi muuttaa, jos on aikaraportteja, joita ei ole vielä käsitelty ja joiden tila on **Lähetetty** tai **Auki**.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-jobs-resources/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-jobs-resources/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Tuntiraporttien käyttäminen projekteissa](projects-how-use-time-sheets.md)  
 [Aikaraporttien luonti](projects-how-use-time-sheets.md#to-create-time-sheets)  

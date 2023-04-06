@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000773, 99000778, 99000823, 99000827
+ms.search.form: '99000773, 99000778, 99000823, 99000827'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7a1c30340efabed66e4ce359fc7680945e0db1de
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522744"
 ---
-# <a name="batch-post-output-and-run-times"></a>Tuotos- ja suoritusaikojen eräkirjaus
+# Tuotos- ja suoritusaikojen eräkirjaus
 Tuotosmäärä ilmaisee työn edistymisen valmiina määränä ja tuotantosolun tai kuormitusryhmän käytettynä kapasiteettina.
 
 Tuotospäiväkirjaa voi käyttää seuraaviin:
@@ -30,7 +24,7 @@ Tuotospäiväkirjaa voi käyttää seuraaviin:
 
 **Tuotantopäiväkirja**-ikkunassa voi suorittaa samat tehtävät kuin **Tuotospäivä**-ikkunassa ja samaan aikaan voi suorittaa kulutuskirjauksiin liittyviä tehtäviä. Lisätietoja on kohdassa [Yhden vapautetun tuotantotilausrivin kulutuksen ja tuotoksen rekisteröiminen](production-how-to-register-consumption-and-output.md).
 
-## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Vähintään yhden tuotantotilausrivin tuotosmäärän ja/tai suoritusaikojen kirjaaminen
+## Vähintään yhden tuotantotilausrivin tuotosmäärän ja/tai suoritusaikojen kirjaaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotospäiväkirja** ja valitse sitten vastaava linkki.  
 2. Täytä kentät tuotantotilauksen tiedoilla, tuotostiedoilla ja/tai suoritusajalla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -44,7 +38,7 @@ Kapasiteettitapahtumat kirjataan käytetyille tuotantosoluille ja kuormitusryhmi
 
 Jos viimeinen toiminto on kirjattu, nimike lisätään varastoon.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Hävikin kirjaaminen manuaalisti](production-how-to-post-scrap.md)
 [Tuotoksen kirjaamisen peruuttaminen](production-how-to-reverse-output-posting.md)

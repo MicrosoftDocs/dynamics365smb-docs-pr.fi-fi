@@ -7,7 +7,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 99000823
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Hukkatavaran kirjaaminen manuaalisesti
@@ -24,6 +24,8 @@ Jos käsittelyn aikana on tuotettu hukkatavaraa, se voidaan kirjata myös tuotos
 3. Syötä **Hylätyn tavaran määrä** -kenttään hukkatavaran määrä.  
 4. Syötä **Hukkatavarakoodi**-kenttään hukkatavaran koodi.  
 5. Kirjaa määritetty toimintakohtainen hukkatavara valitsemalla **Kirjaa**.  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
 ## Katso myös
 

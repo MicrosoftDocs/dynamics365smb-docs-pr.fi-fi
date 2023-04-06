@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 09/21/2022
 ms.author: edupont
-ms.openlocfilehash: 1ed4346dbdcbd6fc4eb5b3cde677498c9f3b5ea6
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9608175"
 ---
 Kun avaat **Nimikkeen saat. varianteittain** -sivun asiakirjan riviltä, voit lisätä variantin asiakirjan riville valitsemalla rivin ja variantin, jonka haluat lisätä ja valitsemalla sitten OK-painikkeen. Jos olet käyttänyt sivua vain saatavuuden tarkasteluun, etkä halua lisätä varianttia, sivu on suljettava ilman, että valitset OK-painikkeen.
 

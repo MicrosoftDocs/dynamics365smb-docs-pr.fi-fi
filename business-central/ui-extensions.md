@@ -14,6 +14,8 @@ Voit muuttaa [!INCLUDE[prod_short](includes/prod_short.md)] onlinea asentamalla 
 
 ## Sovellusten hallinta
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Kun käynnistät [!INCLUDE[prod_short](includes/prod_short.md)]in ensimmäisen kerran, se sisältää joitakin valmiiksi asennettuja sovelluksia. Ajan kuluessa käytettävissä on yhä enemmän sovelluksia. Voit ottaa niitä käyttöön tarpeen mukaan.
 
 Microsoft tarjoaa esimerkiksi sovelluksen, joka mahdollistaa integroinnin PayPal Payments Standard -ohjelman kanssa. Tämä laajennus asennetaan oletusarvoisesti. Mutta jos käytettävissä on toinen laajennus, joka avulla voi suorittaa integroinnin toiseen maksujärjestelmään, voit asentaa uuden laajennuksen ja valita sen jälkeen käytettävän palvelun näistä kahdesta.  
