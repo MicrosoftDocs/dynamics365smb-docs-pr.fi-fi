@@ -44,7 +44,7 @@ Lähetä edelleen sähköpostiohjelmasta OCR-palveluntarjoajalle sähköpostivie
 Koska tiedostolla ei ole tulevaa asiakirjatietuetta, uusi tietue luodaan automaattisesti **Saapuvat asiakirjat** -sivulla, kun OCR-palvelu lähettää tuloksena saadun sähköisen asiakirjan. Lisätietoja on kohdassa [Saapuvien asiakirjatietueiden luominen](across-how-create-income-document-records.md).
 
 > [!NOTE]  
-> Jos käytät Tablet PC:tä tai puhelinta, voit lähettää tiedoston OCR-palvelun heti kun olet ottanut valokuvan asiakirjasta tai voit luoda saapuvan asiakirjan suoraan. Lisätietoja on kohdassa [Saapuvien asiakirjatietueiden luominen valokuva ottamalla](across-how-create-income-document-records.md#to-create-an-incoming-document-record-by-taking-a-photo).
+> Jos käytät Tablet PC:tä tai puhelinta, voit lähettää tiedoston OCR-palvelun heti kun olet ottanut valokuvan asiakirjasta tai voit luoda saapuvan asiakirjan suoraan. Lisätietoja on kohdassa [Saapuvien asiakirjatietueiden luominen valokuva ottamalla](across-how-create-income-document-records.md#create-an-incoming-document-record-by-taking-a-photo).
 
 ## Tuloksena olevan vastaanotettavan sähköisen asiakirjan vastaanottaminen OCR-palvelusta
 

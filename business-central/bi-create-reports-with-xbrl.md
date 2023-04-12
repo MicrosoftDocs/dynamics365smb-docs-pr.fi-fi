@@ -90,8 +90,12 @@ Ensimmäinen vaihe XBRL-toiminnon käytössä on se, että tuot taksonomian yrit
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **XBRL-taksonomiat**, valitse sitten vastaava linkki.  
 2. Luo **XBRL-taksonomiat**-sivulla uusi rivi ja kirjoita taksonomian nimi ja kuvaus.  
 3. Valitse ensin **Mallit**, lisää sitten mallin kuvaus.  
-4. Tuo malli valitsemalla **XBRL-mallit**-sivulla ensin **Tuo**-toiminto, sitten kansio ja XSD-tiedosto. Valitse **Avaa**.  
-5. Tuo linkkikanta valitsemalla **XBRL-mallit**-sivulla ensin **Linkkikannat**-toiminto, sitten kansio ja XML-tiedosto. Valitse **Avaa**.  
+4. Voit tuoda mallin valitsemalla **XBRL-mallit**-sivulla **Tuo**-toiminnon ja lataamalla tiedoston tekemällä jonkin seuraavista toimista:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
+5. Voit tuoda linkkikannan valitsemalla **XBRL-mallit**-sivulla **Linkkikannat**-toiminnon ja lataamalla tiedoston tekemällä jonkin seuraavista toimista:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)] 
 6. Nyt voit kohdistaa linkkikannan malliin tai odottaa. Toista kunnen olet tuonut kaikki linkkikannat.  
 7. Kohdista linkkikanta malliin valitsemalla **Kohdista taksonomiaan** -toiminto.  
 

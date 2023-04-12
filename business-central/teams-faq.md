@@ -340,6 +340,10 @@ Kortin sisältävän viestin poistaminen ei poista tai vaikuta [!INCLUDE [prod_s
 
 Ei. Teamsissa korttien kenttien arvot, myös kuvat, perustuvat tietoihin, jotka olivat käytettävissä, kun kyseinen kortti lähetettiin chattiin. [!INCLUDE [prod_short.md](includes/prod_short.md)] -kortit eivät päivity automaattisesti Teamsissa. 
 
+### Miksei korteissa ole lisätietoja vain sivun nimi- ja tiedot -painikkeiden sijaan?
+
+Järjestelmänvalvoja on saattanut määrittää Teams-integroinnin niin, että kortit eivät näytä tietueita koskevia tietoja. Lisätietoja on ohjeaiheessa [Korttien tietuetietojen näyttäminen tai piilottaminen](admin-teams-integration.md#show-or-hide-record-data-on-cards).
+
 ### Näkevätkö muut korttini, jos heillä ei ole Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellusta? 
 
 Kun kirjoitat ja lähetät viestin keskusteluun, jossa on kortti, kaikki käyttäjät näkevät kortin, vaikka he eivät olisikaan asentaneet Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellusta.

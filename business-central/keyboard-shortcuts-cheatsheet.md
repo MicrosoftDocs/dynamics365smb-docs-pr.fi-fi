@@ -1,14 +1,14 @@
 ---
-title: PC Näppäimistön Oikoteiden Pikaohje
+title: Näppäimistön Pikaohje - Vain PC
 description: 'Tulostusystävällinen pikaohje, joka sisältää PC-käyttäjien suosituimmat oikotiet.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'accessibility, shortcuts, keyboarding'
-ms.date: 08/19/2022
+ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
+ms.date: 02/09/2023
 ms.author: jswymer
+ms.review: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
 # Näppäimistön Pikaohje - Vain PC
@@ -17,6 +17,7 @@ ms.author: jswymer
 
 |Käytettävät näppäimet|Tehtävä|  
 |-|-|
+|<kbd>Alt</kbd>|Näytä käyttöoikeusavaimet toimintopalkissa tai siirtymisvalikossa liikkumiseen|
 |<kbd>Alt</kbd>+<kbd>F2</kbd>|Näytä ja piilota tietoruutu|
 |<kbd>Alt</kbd>+<kbd>N</kbd>|Luo uusi tietue|
 |<kbd>Alt</kbd>+<kbd>Vaihto</kbd>+<kbd>N</kbd>|Sulje juuri luotu tietue ja luo uusi tietue|

@@ -33,7 +33,7 @@ Tässä vaihekuvauksessa kuvataan seuraavat tehtävät:
 
 ## Taustatietoja
 
-Sean on superkäyttäjänä CRONUSissa. Hän luo kaksi hyväksyjää. Yksi on Alicia, joka edustaa ostajaa. Toinen on hän itse edustaen Alician hyväksyjää. Sean antaa itselleen rajaton ostojen hyväksyntä oikeudet ja määrittää, että hän saa ilmoituksia sisäisenä muistiona mahdollisimman pian asian tapahtumasta. Lopuksi Sean luo pyydetyn hyväksynnän työnkulun kopioksi olemassa olevasta *Ostotilauksen hyväksymisen työnkulku* -mallista jättäen kaikki olemassa olevan tapahtuman ehdot ja vastausvaihtoehdot ennalleen ja sitten ottaa työnkulun käyttöön.  
+Sean on CRONUSin pääkäyttäjä ja luo kaksi hyväksyjäkäyttäjää. Yksi on Alicia, joka edustaa ostajaa. Toinen on hän itse edustaen Alician hyväksyjää. Sean antaa itselleen rajaton ostojen hyväksyntä oikeudet ja määrittää, että hän saa ilmoituksia sisäisenä muistiona mahdollisimman pian asian tapahtumasta. Lopuksi Sean luo pyydetyn hyväksynnän työnkulun kopioksi olemassa olevasta *Ostotilauksen hyväksymisen työnkulku* -mallista jättäen kaikki olemassa olevan tapahtuman ehdot ja vastausvaihtoehdot ennalleen ja sitten ottaa työnkulun käyttöön.  
 
 Sean testaa hyväksyntätyönkulkua kirjautumalla [!INCLUDE[prod_short](includes/prod_short.md)]iin Aliciana ja pyytää ostotilauksen hyväksymistä. Sean sitten kirjautuu omalla tunnuksellaan, näkee huomautuksen hänen Roolikeskuksessa, seuraa linkkiä ostotilauksen hyväksymispyyntöön ja hyväksyy pyynnön.  
 

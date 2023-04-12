@@ -80,7 +80,7 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
  Esimerkkitiedot on nyt valmisteltu tätä vaihekuvausta varten.  
 
 ## Toimituksen uudelleensuunnittelun luominen  
- Kun Riku saa uuden myyntitilauksen viidestä retkipyörästä, hän aloittaa suunnitteluprosessin määrittämällä asetukset, suodattimet ja suunnittelun aikavälin jättääksen pois kaiken muun paitsi helmikuun viikon kysynnän ITÄ-sijainnissa. Karl aloittaa laskemalla päätuotantoaikataulun (MPS) suodattimien sisällä, minkä jälkeen hän laskee täydellisen toimitussuunnitelman alatason kysynnälle (MRP) suodattimien sisällä.  
+ Kun Riku saa uuden myyntitilauksen viidestä retkipyörästä, hän aloittaa suunnitteluprosessin määrittämällä asetukset, suodattimet ja suunnittelun aikavälin jättääksen pois kaiken muun paitsi helmikuun viikon kysynnän ITÄ-sijainnissa. Riku aloittaa laskemalla päätuotantoaikataulun (MPS) suodattimien sisällä, minkä jälkeen hän laskee täydellisen toimitussuunnitelman alatason kysynnälle (MRP) suodattimien sisällä.  
 
 ### Myyntitilauksen luominen  
 

@@ -14,7 +14,7 @@ ms.author: edupont
 Nimikevariantit ovat hyvä tapa hallita tuoteluetteloa. Tämä on hyödyllistä esimerkiksi silloin, jos on olemassa suuri määrä lähes samanlaisia nimikkeitä, joissa vain värit poikkeavat toisistaan. Jokainen variantti voidaan määrittää erilliseksi nimikkeeksi. Voit päättää määrittää yhden nimikkeen ja määrittää useita värejä nimikkeen varianteiksi.  
 
 > [!TIP]
-> Käytännöllinen esittely varianttien käyttämisestä tuotannossa on Contoso Coffeen esittelytietojen kohdassa [Vaihekuvaus: Variantit](contoso-coffee/variants.md).  
+> Käytännöllinen esittely varianttien käyttämisestä tuotannossa on Contoso Coffeen esittelytietojen kohdassa [Vaihekuvaus: Variantit](contoso-coffee/manufacturing/variants.md).  
 
 ## Varianttien lisääminen nimikkeeseen
 
@@ -57,4 +57,4 @@ Jos ominaisuus on otettu käyttöön, käyttäjät eivät voi kirjata tapahtumaa
 
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Yleisten varastotietojen määrittäminen](inventory-how-setup-general.md)  
-[Vaihekuvaus: Variantit](contoso-coffee/variants.md)  
+[Vaihekuvaus: Variantit](contoso-coffee/manufacturing/variants.md)  

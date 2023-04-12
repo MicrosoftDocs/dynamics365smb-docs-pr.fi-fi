@@ -1,58 +1,61 @@
 ---
 title: Konsernitapahtumien hallinta
 description: Voit yksinkertaistaa konsernitoiminnoilla samaan organisaatioon kuuluvien yritysten välisiä liiketoimintaprosesseja ja tapahtumia.
-author: SorenGP
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bhielse
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.date: 02/06/2023
+ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
-ms.search.form: 605
-ms.date: 08/11/2021
-ms.author: edupont
+ms.search.form: '605,'
 ---
 # Konsernitapahtumien hallinta
 
-Konsernin tapahtumien ominaisuudet on suunniteltu käyttäjille, jotka hallitsevat useaa liiketoimintayksikköä ja ovat perustaneet useita yrityksiä pitääkseen eri yksiköiden kirjanpidot erillään. Tämä väljä kuvaus sopii moniin käyttäjiin, varsinkin sellaisiin, jotka toimivat kansainvälisillä markkinoilla tai alueilla, joilla on hyvin erilaiset liikekulttuurit ja valvontaympäristöt.
+Yritykset, joissa on useampi kuin yksi oikeushenkilöä erillisillä kirjanpitofunktioilla voivat hyötyä konsernin tapahtumista. Se on hyödyllistä esimerkiksi yrityksille, joilla on tytäryhtiöitä useilla kansainvälisillä markkinoilla tai alueilla. Organisaatio saattaa koostua useasta yrityksestä, mutta siinä ei välttämättä ole samaa määrää laskenta- ja hallintotyöryhmiä. Konsernin tapahtumat yksinkertaistavat ja virtaviivaistavat yritysten välisiä liiketoimintaprosesseja ja -tapahtumia konserniyritysten välisessä kumppanuudessa.
 
-Organisaatio saattaa koostua useasta yrityksestä, mutta siinä ei välttämättä ole samaa määrää laskenta- ja hallintotyöryhmiä. Konsernin tapahtumat antavat mahdollisuuden yksinkertaistaa ja virtaviivaistaa kaikkien näiden yksiköiden välisiä liiketoimintaprosesseja ja -tapahtumia.
-
-Kun aloitat konsernin tapahtumien käytön, liiketoiminta tytäryhtiöiden ja sisäisten kumppaniorganisaatioiden kanssa on yhtä helppoa kuin ulkoisten toimittajien ja asiakkaiden kanssa toimiminen. Konsernin tapahtumien tiedot lisätään asianmukaisiin asiakirjoihin vain kerran. Voit käyttää itsellesi tuttua toimintoa, esimerkiksi myyntisaamisten ja ostovelkojen hallintaa. Tilikartan ja dimensioiden linkitystoiminto auttaa varmistamaan, että tiedot näkyvät oikeissa paikoissa.  
+Kun olet määrittänyt konsernin tapahtumien asiakas- ja toimittajasuhteet, kumppanit syöttävät tietoja kerran myynti- ja ostoasiakirjoihin. Vastaava asiakirja luodaan tapahtumaan osallistuvalta kumppanilta. Tilikartan ja dimensioiden yhdistämismääritys auttaa varmistamaan, että tiedot näkyvät oikeissa paikoissa.  
 
 Konsernitoimintoihin liittyy neljä merkittävää etua:  
 
-- Ajansäästö ja yksinkertaistetut tapahtumat lisäävät tuottavuutta.  
-- Tietojen kertakirjaus ja järjestelmänlaajuiset automaattiset päivitykset pienentävät virhepotentiaalia.  
-- Kirjausketju on täydellinen, ja liiketoiminnoilla sekä tapahtumahistorioilla on täysi näkyvyys.  
-- Tapahtumat sisar- ja tytäryhtiöiden kanssa ovat tehokkaita ja kannattavia.  
+* Ajansäästö ja yksinkertaistetut tapahtumat lisäävät tuottavuutta.  
+* Tietojen kertakirjaus ja järjestelmänlaajuiset automaattiset päivitykset vähentävät virheitä  
+* Kirjausketju on täydellinen, ja liiketoiminnoilla sekä tapahtumahistorioilla on täysi näkyvyys.  
+* Tapahtumat sisar- ja tytäryhtiöiden kanssa ovat tehokkaita ja kannattavia.  
 
 ## Liiketoimintojen sujuvuuden parantaminen  
 
-Konsernin tapahtumat -toiminto mahdollistaa myynti- ja ostoasiakirjojen sekä yleisen päiväkirjan merkintöjen jakamisen ohjelman sisältä kaikkiin sivutoimistoihin, myyntitoimistoihin tai tytäryrityksiin. Koko organisaation toiminta tehostuu ja aikaa säästyy, kun tarpeettomalta tietojen syöttämiseltä sekä myynti- ja ostoasiakirjojen paperiversioiden lähettämiseltä, vastaanottamiselta, tulostamiselta ja arkistoinnilta vältytään.  
+Konsernin tapahtumat -toiminto mahdollistaa myynti- ja ostoasiakirjojen sekä yleisen päiväkirjan merkintöjen jakamisen kaikkiin sivutoimistoihin, myyntitoimistoihin tai tytäryrityksiin. Tapahtumien jakelu säästää aikaa ja lisää tehokkuutta koko organisaatiossa vähentämällä tietojen syöttöä. Se vähentää tarvetta lähettää, vastaanottaa, tulostaa ja arkistoida myynti- ja ostoasiakirjoja.  
 
-Kaikki tapahtuma-asiakirjat ovat täysin hallinnassasi. Voit esimerkiksi hylätä sinulle lähetetyn asiakirjan ja tällä tavalla peruuttaa virheelliset päiväkirjakirjaukset sekä kumota virheelliset vastaanotot tai toimitukset. Tehdessäsi ostoja kumppani- tai tytäryritykseltä voit päivittää ostotilausta niin kauan kuin myyjäyritys ei ole lähettänyt tavaroita.  
+Kaikki tapahtuma-asiakirjat ovat täysin hallinnassasi. Voit esimerkiksi hylätä sinulle lähetetyn asiakirjan ja käyttää **Päiväkirjakirjauksen peruuttaminen**- ja **Vastaanottojen tai toimitusten kumoaminen** -toimintoja korjausten tekemiseen. Tehdessäsi ostoja kumppani- tai tytäryritykseltä voit päivittää ostotilausta niin kauan kuin myyjäyritys ei ole lähettänyt tavaroita.  
 
-Kun lisäät tapahtuman, yksittäisten tilijoukkojen tilejä ei tarvitse määrittää, vaan kumppaniyrityksen tunnus riittää. Konsernitoiminto luo yleisen päiväkirjan rivejä, jotka täsmäävät molempien tapahtumaan osallistuneiden yritysten tilit. Myyntisaamisissa ja ostoveloissa asiakkaille ja toimittajille voi määrittää konsernikumppanin koodin. Sen jälkeen aina, kun luodaan näiden yritysten kanssa suoritettuihin tapahtumiin liittyviä tilauksia tai laskuja, vastaavat asiakirjat luodaan myös kumppaniyritykseen, jolloin tilit täsmäytyvät oikein.  
+Kun syötät tapahtuman, sinun ei tarvitse määrittää käytössä olevia tilejä. Valitse vain konsernikumppani. Konsernitoiminto luo yleisen päiväkirjan rivejä, jotka täsmäävät molempien tapahtumaan osallistuneiden yritysten tilit. Myyntisaamisissa ja ostoveloissa asiakkaille ja toimittajille voi määrittää konsernikumppanin koodin. Tästä hetkestä lähtien kaikki näiden yritysten välisten tapahtumien tilaukset ja laskut tuottavat vastaavia asiakirjoja yhteistyöyrityksessä. Tuloksena on oikein täsmätyt tilit.  
 
-Konsernin tapahtumat -toiminto tukee lähinnä konsernin tapahtumia, joihin liittyy myynti- ja ostoasiakirjoja sekä yleisen päiväkirjan rivejä. Tällä alueella Konsernin tapahtumat -toiminto sallii konsernin tapahtumat eri [!INCLUDE [prod_short](includes/prod_short.md)] -tietokantojen välillä, esimerkiksi eri maissa/alueilla, sekä eri valuutat, erilaiset tilikartat, eri dimensiot ja erilaiset nimikenumeroinnit.  
+Konserni keskittyy myynti- ja ostoasiakirjoihin sekä yleisen päiväkirjan riveihin ja mahdollistaa liiketoimet eri [!INCLUDE [prod_short](includes/prod_short.md)]-tietokantojen välillä. Esimerkiksi:
 
-Konsernin tapahtumat -toiminto käyttää konsernin tapahtumissa useita merkintöjä ja asiakirjoja:  
+* Eri maissa/alueilla
+* Useat valuutat
+* Eri tilikartat
+* Eri dimensiot
+* Eri nimikenumerot  
 
-- yleisen päiväkirjan merkinnät
-- osto- ja myyntitilaukset
-- osto- ja myyntilaskut
-- hyvityslaskut
-- palautustilaukset.
+Konsernin tapahtumissa käytetään erityyppisiä tapahtumia ja asiakirjoja:  
 
-Kun Konsernin tapahtumat valmistellaan, luodaan luettelo konsernikumppaneista sekä konsernin tilikartta. Näitä ohjeita seuraamalla voit suorittaa konsernin yleisen päiväkirjan tapahtumia. Dimensiot luodaan tarvittaessa erikseen.  
+* Yleisen päiväkirjan merkinnät
+* osto- ja myyntitilaukset
+* osto- ja myyntilaskut
+* hyvityslaskut
+* palautustilaukset.
+
+Kun konsernin tapahtumat valmistellaan, luodaan luettelo konsernikumppaneista, konsernin tilikartta ja konsernin dimensiot. Tämän jälkeen voit luoda tapahtumia konsernin yleisissä päiväkirjoissa.
 
 > [!NOTE]
-> Yleinen päiväkirja ei itsessään sisällä valuuttatoimintoa, vaan muuntaa kaikki summat paikalliseksi valuutaksi käytettävissä olevan kurssin mukaan.
+> Yleinen päiväkirja ei sinänsä sisällä valuuttoja. Se muuntaa kaikki määrät paikalliseksi valuutaksi nykyisellä vaihtokurssilla.
 
-Kun olet määrittänyt liiketoimintakumppanit asiakkaiksi ja toimittajiksi järjestelmässä sekä luonut heille konsernikumppanin koodit, on mahdollista vaihtaa konsernin osto- ja myyntiasiakirjoja, kuten nimikkeitä ja nimikekuluja. [!INCLUDE [prod_short](includes/prod_short.md)] tukee konsernin tapahtumia eri tietokantojen välillä, esimerkiksi eri maissa ja eri alueilla, sekä eri valuuttoja, erilaisia tilikarttoja, eri dimensioita ja erilaisia nimikenumerointeja.  
+Kun olet määrittänyt liiketoimintakumppanit asiakkaiksi ja toimittajiksi sekä luonut heille konsernikumppanin koodit, on mahdollista vaihtaa konsernin osto- ja myyntiasiakirjoja, kuten nimikkeitä ja nimikekuluja. 
 
 > [!NOTE]
-> Kaikkia tietotyyppejä ei voi vaihtaa yritysten välillä tällä tavalla. Ostolaskuja ei lähetetä liiketoimintakumppaneille konsernitapahtumaprosessien avulla. Konsernitapahtumaprosessien avulla lähetetyt myyntilaskut luodaan kuitenkin ostolaskuina vastaanottavassa yrityksessä.
+> Yritykset eivät voi käyttää konsernin sisäisiä tietoja kaikkien tietotyyppien vaihtamiseen. Ostolaskuja ei lähetetä liiketoimintakumppaneille konsernitapahtumaprosessien avulla. Konsernitapahtumaprosessien avulla lähetetyt myyntilaskut luodaan kuitenkin ostolaskuina vastaanottavassa yrityksessä.
 
 Kirjanpitotietojen konsolidoiminen voi olla erityisen tärkeää konsernin sisäisissä prosesseissa. Lisätietoja on kohdassa [Usean yrityksen kirjanpitotietojen konsolidoiminen](finance-consolidated-company-reporting.md).
 

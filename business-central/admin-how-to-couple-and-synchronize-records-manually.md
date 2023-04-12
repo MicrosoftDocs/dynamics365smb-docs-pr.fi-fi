@@ -2,21 +2,20 @@
 title: Yhdistäminen ja synkronointi (sisältää videon)
 description: 'Kun integrointitaulukon yhdistämismääritys synkronoidaan, yhdistettyjen Business Central- ja Dynamics 365 Sales -taulukoiden kaikkien tietueiden tiedot voidaan synkronoida.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'crm, sales, couple, decouple, synchronize'
-ms.search.form: 6250
-ms.date: 10/01/2021
 ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: conceptual
+ms.date: 03/31/2023
+ms.custom: bap-template
+ms.search.keywords: 'crm, sales, couple, decouple, synchronize'
+ms.search.form: '6250,'
 ---
 
 # Tietueiden yhdistäminen ja synkronoiminen Dataversen ja Business Centralin välillä
 
 Tässä ohjeaiheessa kerrotaan, miten yksi tietue tai useita tietueita yhdistetään [!INCLUDE[prod_short](includes/prod_short.md)]:ssä Dataverse- tai [!INCLUDE[crm_md](includes/crm_md.md)]-tietueisiin. Tietueiden yhdistämisen ansiosta voit tarkastella Dataversein tietoja [!INCLUDE[prod_short](includes/prod_short.md)]ista ja päin vastoin. Yhdistäminen mahdollistaa myös tietojen synkronoinnin tietueiden välillä. Voit yhdistää aiemmin luotuja tietueita tai luoda ja yhdistää uusia tietueita.
 
-> [!Note]
+> [!NOTE]
 > Tietojen yhdistäminen ja synkronointi on käytettävissä vain, jos järjestelmänvalvoja on muodostanut yhteyden [!INCLUDE[prod_short](includes/prod_short.md)]:n ja Dataversen tai [!INCLUDE[crm_md](includes/crm_md.md)]:n välille. Asian voi tarkistaa nopeasti avaamalla **Asiakas**-kortin ja etsimällä **Määritä yhdistäminen** -toiminnon. Jos toiminto on käytettävissä, sovellukset on yhdistetty.
 
 ## Esimerkkivideo
@@ -46,11 +45,11 @@ Tässä videossa näytetään tietojen kytkentä ja synkronointi osana [!INCLUDE
 2. Valitse **[!INCLUDE[prod_short](includes/prod_short.md)]** -toiminto valintanauhasta. Tietue avataan ja yhdistetään automaattisesti.
 
     > [!Note]
-    > Voit synkronoida yhden tietueen [!INCLUDE[crm_md](includes/crm_md.md)]-sovelluksesta automaattisesti vain, kun **Synkronoi vain yhdistetyt tietueet** on poistettu käytöstä ja synkronoinnin suunnaksi on määritetty Kaksisuuntainen tai Integrointitaulukosta tietueen **Integrointitaulukon yhdistämismääritys** -sivulla. Lisätietoja on kohdassa [Taulukoiden ja kenttien yhdistäminen synkronointia varten](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).     
+    > Voit synkronoida yhden tietueen [!INCLUDE[crm_md](includes/crm_md.md)]-sovelluksesta automaattisesti vain, kun **Synkronoi vain yhdistetyt tietueet** on poistettu käytöstä ja synkronoinnin suunnaksi on määritetty Kaksisuuntainen tai Integrointitaulukosta tietueen **Integrointitaulukon yhdistämismääritys** -sivulla. Lisätietoja on kohdassa [Taulukoiden ja kenttien yhdistäminen synkronointia varten](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).     
 
 ## Voit yhdistää monta tietuetta vastaavuuspohjaisen yhdistämisen avulla.
 
-Voit määrittää entiteetin (esimerkiksi asiakkaan tai kontaktin) synkronoitavat tiedot yhdistämällä tietueet vastaavuuksien perusteella. Voit tarkentaa vastaavuuksia määrittämällä haun kirjainkoon merkitseväksi ja määrittämällä kullekin vastaavuudelle prioriteetin. Jos vastaavuutta ei löydy, voit myös määrittää, että haluat luoda entiteetin Dataversessa. Lisätietoja on kohdassa [Vastaavuuspohjaisen yhdistämisen mukauttaminen](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
+Määritä entiteetin (esimerkiksi asiakkaan tai kontaktin) synkronoitavat tiedot yhdistämällä tietueet vastaavuuksien perusteella. Tarkenna vastaavuuksia määrittämällä haun kirjainkoon merkitseväksi ja määrittämällä kullekin vastaavuudelle prioriteetin. Jos vastaavuutta ei löydy, voit myös määrittää, että haluat luoda entiteetin Dataversessa. Lisätietoja on kohdassa [Vastaavuuspohjaisen yhdistämisen mukauttaminen](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling).  
 
 > [!NOTE]
 > Vastaavuuteen perustuva yhdistämisprosessi ohittaa tietueet, jotka on jo täsmäytetty. Jos haluat sisällyttää tietueet, kun suoritat vastaavuuteen perustuvan yhdistämisen, poista tietueiden yhdistäminen ja yritä sitten uudelleen. Lisätietoja tietueiden irrottamisesta on kohdassa [Tietueiden irrottaminen](#uncoupling-records).

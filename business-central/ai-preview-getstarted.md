@@ -1,5 +1,5 @@
 ---
-title: Hanki käyttöoikeus Business Central -esiversioon -Copilot Editioniin
+title: Business Centralin Copilot-esiversion käytön aloittaminen
 description: 'Tässä artikkelissa kerrotaan, miten hankkia Business Central -ympäristö, jonka uudella tekoälyominaisuudella voi luoda tekstiehdotuksia nimike- ja tuotekuvauksille.'
 author: jswymer
 ms.author: jswymer
@@ -9,38 +9,35 @@ ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
-# Business Centralin esiversion - Copilot Editionin käytön aloittaminen
+# Business Centralin Copilot-esiversion käytön aloittaminen
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
-Voit kokeilla tekoälypohjaista tuotemarkkinointitekstin luontia Copilotin avulla, olitpa Business Centralin nykyinen tai potentiaalinen asiakas, eli joku, joka on vain kiinnostunut tutustumaan Business Centraliin ja kokeilemaan uutta ominaisuutta. Päästäksesi alkuun sinun on saatava käyttöoikeus Business Centralin esiversioon, joka tukee uutta ominaisuutta. Täytä alla oleva sinua koskeva osio.
+Voit kokeilla tekoälypohjaista tuotemarkkinointitekstin luontia Copilotin avulla, olitpa Business Centralin nykyinen tai potentiaalinen asiakas, eli joku, joka on vain kiinnostunut tutustumaan Business Centraliin ja kokeilemaan uutta ominaisuutta. Päästäksesi alkuun tarvitset käyttöoikeuden Business Central Online -versioon, joka tukee uutta ominaisuutta. Täytä alla oleva sinua koskeva osio.
 
 ## Organisaatiossa on jo käytössä Business Central
 
-Koska olet aiemmin rekisteröitynyt asiakas tai kumppanimme, tarvitset Business Central -hallintakeskuksen käyttöoikeuden, ja voit määrittää *eristysympäristön*, joka suorittaa esikatseluversion, johon kuuluu Copilot. Kun eristysympäristö on käynnissä, käyttäjät voivat kokeilla uutta ominaisuutta.
+Koska olet aiemmin rekisteröitynyt asiakas tai kumppanimme, tarvitset Business Central -hallintakeskuksen käyttöoikeuden, ja voit määrittää ympäristön, joka suorittaa esikatseluversion, johon kuuluu Copilot. Kun ympäristö on käynnissä, käyttäjät voivat kokeilla uutta ominaisuutta.
 
 Jos olet ympäristön järjestelmänvalvoja, tee seuraavat toimet:
 
 1. Kirjaudu Business Centralin hallintakeskukseen.
 2. Valitse **ympäristö** > **Uusi**.
 3. Kirjoita **Luo ympäristö** -ruudussa uuden ympäristön nimi **Ympäristön nimi** -kenttään.
-4. Määritä **Ympäristön tyypiksi** **Eristysympäristö**.
-5. Määritä **Maaksi** **US**.
+4. Määritä **Ympäristön tyypiksi** **Eristysympäristö** tai **Tuotanto**.
+5. Määritä **Maa** kaikkien luettelossa olevien maiden/alueiden mukaan, mutta huomaa, että esiversiossa Copilot-ohjelman tekoälypohjainen markkinointiteksti on vain englanniksi.
+6. Valitse **Versio**-ruudun luettelosta versio 22 tai uudempi.
 
+   <!--
    > [!IMPORTANT]
-   > Esiversio on saatavilla vain Yhdysvalloissa. Jonkin muun maan tai alueen organisaatiot voivat silti luoda Yhdysvaltain eristysympäristön esiversion kokeillakseen Copilotia.
-
-6. Valitse **Versio**-ruudusta versio **22.0.54157.54311 (esiversio - Copilot Edition)**.
-
-   > [!IMPORTANT]
-   > Sinun täytyy käyttää versiota **22.0.54157.54311 (esiversio - Copilot Edition)** kokeillaksesi Copilotia.
-
+   > You must use **22.0.54157.54311 (Preview - Copilot edition)** to experience Copilot.
+   -->
 7. Valitse **Luo**.  
 
-Lisätietoja eristysympäristöjen luomisesta on kohdassa [Ympäristön luominen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
+Lisätietoja ympäristöjen luomisesta on kohdassa [Ympäristön luominen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
 
 > [!IMPORTANT]
-> Esiversion eristysympäristöt ovat saatavilla vain 1. toukokuuta 2023 saakka. Tämän päivämäärän jälkeen sinun täytyy valmistella uusi ympäristö tai päivittää mitä tahansa muuta ympäristöäsi versioon 22.0 tai uudempaan, jotta voit jatkaa tekoälypohjaisen nimikkeen markkinointitekstin esiversion kokeilua.
+> Jos sinulla on esiversiona eristysympäristöjä, jotka käyttävät **22.0.54157.54311 (Esiversio - Copilot edition)** -ympäristöä, huomaa, että nämä ympäristöt ovat saatavilla vain 1. toukokuuta 2023 saakka. Tämän päivämäärän jälkeen sinun täytyy valmistella uusi ympäristö tai päivittää mitä tahansa muuta ympäristöäsi versioon 22.0 tai uudempaan, jotta voit jatkaa tekoälypohjaisen nimikkeen markkinointitekstin esiversion kokeilua.
 
 ## Organisaatiossa ei ole käytössä Business Centralia
 
@@ -49,13 +46,12 @@ Jos et ole Business Central -asiakas, voit rekisteröityä maksuttoman kokeiluve
 1. Siirry [tämän kokeiluversion sivustoon](https://go.microsoft.com/fwlink/?linkid=2227167) ja aloita kirjautumisprosessilla.
 2. Noudata näytön ohjeita.
 
-   Sinua pyydetään antamaan tietoja, kuten sähköpostiosoitteesi, nimesi ja puhelinnumerosi. Tarkka kokemus voi vaihdella antamiesi tietojen mukaan. Mutta tässä on pari tärkeää seikkaa, joista on hyvä olla tietoinen, kun suorittaa kirjautumisprosessin:
-
-   - Käytä sähköpostiosoitteena työpaikan tai oppilaitoksen sähköpostiosoitetta. Luomme kokeiluversion organisaatiosi tilille. Kuluttajasähköpostipalveluiden ja telekommunikaatiopalveluntarjoajien sähköpostiosoitteita ei voi käyttää (esimerkiksi outlook.com, hotmail.com ja gmail.com).
-   - Kun tulet **maan tai alueen** valintaan, muista asettaa tämä arvoksi **Yhdysvallat**.
+   Sinua pyydetään antamaan tietoja, kuten sähköpostiosoitteesi, nimesi ja puhelinnumerosi. Tarkka kokemus voi vaihdella antamiesi tietojen mukaan. <!--But here are a couple important points to be aware of as you run through the sign-up process:--> Käytä sähköpostiosoitteena työpaikan tai oppilaitoksen sähköpostiosoitetta. Luomme kokeiluversion organisaatiosi tilille. Kuluttajasähköpostipalveluiden ja telekommunikaatiopalveluntarjoajien sähköpostiosoitteita ei voi käyttää (esimerkiksi outlook.com, hotmail.com ja gmail.com).
+   
+   <!-- When you get to the option for **Country or region** be sure to set this **United States**.
 
       > [!IMPORTANT]
-      > **Maa tai alue** täytyy määrittää **Yhdysvaltoihin**; muuten tekoälypohjaisten nimikkeen markkinointitekstien luominen Copilotin avulla ei ole saatavilla Business Centralissa.  
+      > You must set **Country or region** to **United States**; otherwise the AI-powered item marketing text with Copilot won't be available in Business Central.  -->
 3. Kun tulet **vahvistustiedot**-vaiheeseen, olet valmis aloittamaan kokeiluversion käytön.
 
    - Voit siirtyä suoraan Business Centraliin valitsemalla **Ohita ja siirry Dynamics 365 Business Centraliin** > **Aloitus**.

@@ -39,6 +39,7 @@ Voit tehdä seuraavan toimen kullekin asiakkaalle **Shopify-asiakasmallin** avul
 2. **Määritä asiakasmallin koodi**, jota käytetään puuttuvien asiakkaiden luomisessa, jos **Luo automaattisesti tuntemattomat asiakkaat** on otettu käyttöön. Jos **asiakasmallin koodi** on tyhjä, funktio käyttää **Asiakasmallin koodia**, joka on määritetty **Shopify-ostoskortissa**.
 3. Määritä, sisällytetäänkö tuotujen tilausten hintoihin ALV/verot.
 4. Joissakin tapauksissa maalle määritetty **asiakasmallin koodi** ei riitä varmistamaan verojen oikeaa laskentaa (esimerkiksi maissa, joissa on myyntivero). Tässä tapauksessa **Veroalueiden** sisällyttäminen voi olla hyödyllinen lisäys.
+5. **Veroalue**-kenttä sisältää myös **Maakoodi**- ja **Läänin nimi** -parin. Tämä pari on hyödyllinen, kun yhdistimen tarvitsee muuntaa koodi nimeksi tai päinvastoin.
 
 > [!NOTE]  
 > Maakoodit ovat ISO 3166-1 alpha-2-maakoodeja. Lisätietoja kohdassa [maakoodi](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -58,6 +59,7 @@ Seuraavat vaatimukset koskevat asiakkaan viemistä:
 * Maa tai alue valitaan asiakaskortista, paikallisille asiakkaille, tyhjällä maalla tai alueella **Yrityksen tiedot** -sivulla määritellyllä maalla tai alueella on oltava ISO-koodi määritelty.
 * Jos asiakkaalla on puhelinnumero, numeron täytyy olla yksilöivä, koska Shopify ei hyväksy toista asiakasta, jolla on sama puhelinnumero.
 * Jos asiakkaalla on puhelinnumero, sen täytyy olla E.164-muodossa. Eri muotoja tuetaan, jos ne edustavat numeroa, joka voidaan soittaa kaikkialta maailmasta. Seuraavat muodot ovat kelvollisia:
+
   * xxxxxxxxxx
   * +xxxxxxxxxxx
   * (xxx)xxx-xxxx
@@ -82,7 +84,8 @@ Asiakkaalla on Shopifyssa myös oletusosoite. Osoite voi myös sisältää yrity
 |1|**Nimi**|Korkein prioriteetti, jos **Nimilähde**-kentässä **Shopify-ostoskortissa** on *yrityksen nimi*.|
 |2|**Nimi 2**|Alin prioriteetti, jos **Nimi 2 lähde** -kentässä **Shopify-ostoskortissa** on *yrityksen nimi*.|
 
-Valitse osoitteissa, joissa käytetään maata tai provinssia, valitsemalla *Koodi* tai *Nimi* -ostoskortin **Maalähde**-kentässä **Shopify-ostoskortissa**. Tämä koodi määrittää **Maa**-kentän [!INCLUDE[prod_short](../includes/prod_short.md)]iin tallennettavien tietojen tyypin.
+Valitse osoitteissa, joissa käytetään lääniä tai provinssia, valitsemalla **Koodi** tai **Nimi** -ostoskortin **Läänin lähde**-kentässä **Shopify-ostoskortissa**. Tämä koodi määrittää **Lääni**-kentän [!INCLUDE[prod_short](../includes/prod_short.md)]iin tallennettavien tietojen tyypin. Muista alustaa asiakasmalleja maittain niin, että läänin koodi/nimi-kartoitus on valmis. 
+
 
 ## Synkronoi asiakkaat
 

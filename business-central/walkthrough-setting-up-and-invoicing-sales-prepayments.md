@@ -39,7 +39,7 @@ Tässä vaihekuvauksessa on seuraaviin rooleihin liittyviä tehtäviä:
 
 ## Taustatietoja
 
- Paula on talouspäällikkö. Hän tekee päätökset asiakkaista, joiden tarvitsee maksaa vakuus, ennen kuin osat valmistetaan tai toimitetaan. Paula määrittää [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman laskemaan ennakkomaksut automaattisesti.  
+ Paula on talouspäällikkö ja tekee päätökset asiakkaista, joiden tarvitsee maksaa vakuus, ennen kuin osat valmistetaan tai toimitetaan. Paula määrittää [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman laskemaan ennakkomaksut automaattisesti.  
 
  Susanna on myyntitilausten käsittelijä. Kun asiakas soittaa tilauksen, hän syöttää tilauksen järjestelmään sillä aikaa kun asiakas on puhelimessa. Tällä tavoin hän voi tarkistaa hinnat ja maksuehdot asiakkaan kanssa välittömästi, ja hän voi tehdä muutoksia järjestykseen, kun hän neuvottelee asiakkaan kanssa.  
 
@@ -47,7 +47,7 @@ Tässä vaihekuvauksessa on seuraaviin rooleihin liittyviä tehtäviä:
 
  Tässä skenaariossa Paula määrittää ennakkomaksuvaatimukset Tinayhtymä Oy:lle kyseisen asiakkaan luottotietojen perusteella. Paula antaa Susanille ohjeita tilausten käsittelyyn.  
 
- Kun asiakas soittaa, Sanna neuvottelee asiakkaan kanssa, kunnes he pääsevät sopimukseen. Hän voi sitten halutessaan laskea ennakkomaksun monin eri tavoin.  
+ Kun asiakas soittaa, Susanna neuvottelee asiakkaan kanssa, kunnes he pääsevät sopimukseen. Susanna voi laskea ennakkomaksun usealla eri tavalla.  
 
  Kun Sanna on lähettänyt ennakkomaksulaskun, asiakas tilaa ylimääräisen nimikkeen. Sanna päivittää tilauksen ja luo toisen ennakkomaksulaskun.  
 
@@ -165,7 +165,7 @@ Kun Susanna on lisännyt oikean ennakkomaksuarvon tilaukseen, hän luo ennakkoma
 
 ## Ylimääräisen ennakkolaskumaksun luominen
 
-Seuraavana päivänä asiakas soittaa Susannalle ja tekee muutoksia tilaukseen. Asiakas haluaisi kaksi kappaletta nimikettä 1896-S. Susan avaa tilauksen uudelleen ja päivittää sen. Hän luo tilauksesta toisen ennakkomaksulaskun ja lähettää sen asiakkaalle.  
+Seuraavana päivänä asiakas soittaa Susannalle ja tekee muutoksia tilaukseen. Asiakas haluaisi kaksi kappaletta nimikettä 1896-S. Susanna avaa tilauksen uudelleen, päivittää tilauksen, luo tilaukselle toisen ennakkomaksulaskun ja lähettää sen asiakkaalle.  
 
 ### Ylimääräisen ennakkolaskumaksun luominen
 

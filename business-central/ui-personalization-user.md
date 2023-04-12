@@ -13,19 +13,20 @@ ms.author: bholtorf
 ---
 # Työtilan mukauttaminen
 
-Voit voivat mukauttaa työtilasi työsi ja mieltymystesi mukaiseksi. Muuta sivuja siten, että niissä näkyy vain tarvitsemasi tiedot, missä niitä tarvitaan. Mukauttamalla tehdyt muutokset koskevat vain *omaa* näkymääsi; muut käyttäjät eivät siis näe mukautuksiasi.
+Voit voivat mukauttaa työtilasi työsi ja mieltymystesi mukaiseksi. Muuta sivuja siten, että niissä näkyy vain tarvitsemasi tiedot, missä niitä tarvitaan. Mukauttaminen vaikuttaa vain työtilaan. Se ei muuta toisten työskentelyä.
 
-Voit mukauttaa kaikenlaisia sivuja, myös Roolikeskus-sivua. Lisätietoja roolikeskuksesta on kohdassa [Roolikeskus](ui-change-basic-settings.md#role-center).  
+Voit mukauttaa kaikenlaisia sivuja, myös Roolikeskus-sivua. Saat lisätietoja roolikeskuksista siirtymällä [roolikeskukseen](ui-change-basic-settings.md#role-center).  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 Voit tehdä erilaisia muutoksia, kuten siirtää tai piilottaa kenttiä, sarakkeita, toimintoja ja kokonaisia osia sekä lisätä uusia kenttiä. Useimmat mukautukset on tehtävä aktivoimalla ensin **mukautus**-palkki. Voit tehdä yksinkertaisia muutoksia, kuten sarakkeen leveyden, heti missä tahansa luettelossa.
 
 > [!NOTE]
-> Järjestelmänvalvojat voivat tehdä samat asettelun muutokset kuin käyttäjät mukauttamalla sellaisen profiilin työtilaa, johon on määritetty useita käyttäjiä. Lisätietoja on kohdassa [Roolien sivujen mukauttaminen](ui-personalization-manage.md).<br /><br />
+> Järjestelmänvalvojat voivat tehdä samat asettelun muutokset kuin käyttäjät mukauttamalla sellaisen profiilin työtilaa, johon on määritetty useita käyttäjiä. Saat lisätietoja roolien sivuista valitsemalla [Roolien sivujen mukauttaminen](ui-personalization-manage.md)<br /><br />
 Järjestelmänvalvojat voivat myös ohittaa käyttäjien mukauttamiset tai poistaa ne käytöstä sekä määrittää, mitkä ominaisuudet käyttäjät näkevät kaikissa tai tietyissä yrityksissä. Lisätietoja on kohdassa [Business Centralin mukauttaminen](ui-customizing-overview.md).
 
-## Videon yleiskuvaus
+## Video
+
 Seuraava video näyttää joitakin tapoja, joilla voit mukauttaa roolikeskuksesi.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
@@ -77,7 +78,7 @@ Muiden mukautusten tavoin sarakkeen leveyteen tehdyt muutokset tallennetaan tili
 
 Mukauttamisen avulla voit päättää, mitkä toiminnot näkyvät siirtymispalkissa, toimintoriveillä ja roolikeskuksissa sekä muissa kohdissa, joissa niiden halutaan näkyvän. Voit näyttää, piilottaa tai siirtää yksittäisiä toimintoja tai toimintoryhmiä.
 
-Vuoden 2022 2. julkaisuaallossa tarjosimme enemmän tapoja, joilla voit tehdä Business Centralista omasi. Seuraavassa videossa näkyy, miten voit mukauttaa sivujen ja roolikeskusten toimintoja.
+Seuraavassa videossa näkyy, miten voit mukauttaa sivujen ja roolikeskusten toimintoja.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
 
@@ -126,6 +127,7 @@ Osat ovat sivun alueita, jotka koostuvat tavallisesti useista kentistä, kaavioi
 Voit poistaa kaikki yksittäisen osan sisällä tekemäsi mukautusmuutokset valitsemalla **Poista mukauttaminen** -asetuksen osan nuolenpään kohdalla. Osan mukauttamisen poistaminen vaikuttaa vain osan sisältöön, ei sivulla olevan osan sijoitteluun tai näkyvyyteen.  
 
 ## Mukautuksen tyhjentäminen
+
 Haluat ehkä joissain vaiheessa kumota osan sivulle aiemmin tehdyistä mukautusmuutoksista tai kaikki muutokset.
 
 1. Valitse **Mukauttaminen**-palkissa **Tyhjennä mukautus** -toiminto.
@@ -138,7 +140,7 @@ Haluat ehkä joissain vaiheessa kumota osan sivulle aiemmin tehdyistä mukautusm
 |------|------------
 |**Vain siirtymisvalikko**|Poistaa kaikki mukautusmuutokset, jotka olet koskaan tehnyt siirtymisvalikkoon, joka on jaettu roolikeskuksen ja muiden sivujen kesken. Nämä muutokset sisältävät kaikki uudet toiminnot, jotka lisättiin kirjanmerkeiksi, sekä kaikki muutokset linkkeihin ja ryhmiin valikossa.|  
 |**Vain toiminnot**|Tyhjentää kaikki sivun siirtymispalkkien tai toimintorivien toimintoihin aiemmin tehdyt mukautusmuutokset.|
-|**Vain kentät, sarakkeet ja osat**|Tyhjentää kaikki muut sivun toimintoihin aiemmin tehdyt mukautusmuutokset paitsi siirtymispalkin tai toimintorivin muutokset. Nämä muutokset sisältävät kaikki kenttiin, sarakkeisiin, osiin ja ruutuihin tehdyt muutokset. |
+|**Vain kenttä ja sarakkeet**|Tyhjentää kaikki muut sivun toimintoihin aiemmin tehdyt mukautusmuutokset paitsi siirtymispalkin tai toimintorivin muutokset. Nämä muutokset sisältävät kaikki kenttiin, sarakkeisiin, osiin ja ruutuihin tehdyt muutokset. |
 |**Kaikki**|Tyhjentää kaikki sivulle tehdyt mukautusmuutokset, joten sivu palautetaan alkuperäiseen ulkoasuunsa. Nämä muutokset sisältävät kaikki siirtymispalkkeihin, toimintoriveihin, kenttiin, sarakkeisiin, osiin ja ruutuihin tehdyt muutokset.|
 
 ## Muita kiinnostavia seikkoja

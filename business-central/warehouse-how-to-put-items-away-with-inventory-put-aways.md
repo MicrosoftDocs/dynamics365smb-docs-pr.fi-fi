@@ -32,9 +32,9 @@ Kun sijainti on määritetty edellyttämään hyllytyskäsittelyä mutta ei vast
 
 Varastohyllytyksen voi luoda kolmella tavalla:  
 
-- Luomalla varastohyllytys suoraan lähdeasiakirjasta.  
-- Varaston hyllytykset voidaan luoda useille lähdeasiakirjoille samalla kertaa eräajon avulla.  
-- Hyllytys luodaan kahdessa vaiheessa vapauttamalla ensin lähdeasiakirja, jolla nimikkeistä tehdään hyllytettäviä. Varaston hyllytys voidaan sitten luoda lähdeasiakirjan perusteella **Varaston hyllytys** -sivulla.  
+* Luomalla varastohyllytys suoraan lähdeasiakirjasta.  
+* Varaston hyllytykset voidaan luoda useille lähdeasiakirjoille samalla kertaa eräajon avulla.  
+* Hyllytys luodaan kahdessa vaiheessa vapauttamalla ensin lähdeasiakirja, jolla nimikkeistä tehdään hyllytettäviä. Varaston hyllytys voidaan sitten luoda lähdeasiakirjan perusteella **Varaston hyllytys** -sivulla.  
 
 ## Varastohyllytyksen lähdeasiakirjasta luominen
 
@@ -80,6 +80,8 @@ Varastotyöntekijä voi luoda uuden varaston hyllytyksen vapautetun lähdeasiaki
 
     * Hyllytettyjen lähdeasiakirjan rivien vastaanoton kirjaaminen
     * Jos sijainti käyttää varastopaikkoja, kirjaus luo myös fyysisiä varastotapahtumia varastopaikan määrän muutosten kirjaamista varten.
+
+    [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
 ## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/receive-put-away-items/)
 

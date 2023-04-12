@@ -1,20 +1,20 @@
 ---
 title: Maksutoleranssi ja maksualennustoleranssi
-description: 'Voit määrittää maksutoleranssin sulkeaksesi laskun, kun maksu ei täysin kata laskun summaa.'
+description: 'Tässä artikkelissa kerrotaan, kuinka voit määrittää maksutoleranssin laskun sulkemiseksi, kun maksu ei kata kokonaan laskun summaa.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '118, 314, 395'
-ms.date: 10/29/2021
+ms.date: 04/03/2023
 ms.author: edupont
 ---
 # Maksutoleranssien ja maksualennustoleranssien käsitteleminen
 
 Voit määrittää maksutoleranssin ja sulkea sen avulla laskun, kun maksu ei täysin kata laskun summaa. Esimerkiksi maksutoleranssit ovat tyypillisesti pieniä maksuja, joiden korjaaminen maksaa enemmän kuin niiden hyväksyntä. Voit määrittää maksualennustoleranssin, jolla voi myöntää maksualennuksen sen jälkeen kun maksualennuspäivämäärä on ohitettu.  
 
-Voit käyttää maksutoleransseja siten, että jokaiselle avoimelle summalle on määritetty suurin sallittu maksutoleranssi. Jos maksutoleranssi täyttyy, maksusumma analysoidaan. Jos maksettu summa on alisuoritus, koko avoin summa kuitataan alisuoritusta vastaan. Ohjelma kirjaa yksityiskohtaisen maksutapahtuman niin, että kohdistetusta laskusta ei jää avointa saldoa. Mikäli maksutoleranssin kriteerit täyttyvät ja maksu on ylisuoritus, uusi yksityiskohtainen reskontratapahtuma kirjataan niin, että maksutapahtumasta ei jää avointa saldoa.
+Käytä maksutoleransseja siten, että jokaiselle avoimelle summalle on määritetty suurin sallittu maksutoleranssi. Jos maksutoleranssi täyttyy, maksusumma analysoidaan. Jos maksettu summa on alisuoritus, koko avoin summa kuitataan alisuoritusta vastaan. Ohjelma kirjaa yksityiskohtaisen maksutapahtuman niin, että kohdistetusta laskusta ei jää avointa saldoa. Mikäli maksutoleranssin kriteerit täyttyvät ja maksu on ylisuoritus, uusi yksityiskohtainen reskontratapahtuma kirjataan niin, että maksutapahtumasta ei jää avointa saldoa.
 
 Voit käyttää maksualennustoleransseja siten, että jos hyväksyt maksualennuksen maksualennuspäivämäärän jälkeen, se kirjataan aina joko maksualennustilille tai maksutoleranssin tilille.
 
@@ -66,6 +66,9 @@ Määrittääksesi toleranssin sinun tulee määrittää useita toleranssitilej�
 > Jos haluat poistaa toleranssin käytöstä asiakkaalta tai toimittajalta, estä toleranssit kyseisen asiakkaan tai toimittajan kortissa. Lisätietoja on kohdassa [Asiakkaiden maksutoleranssin estäminen](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
 > Kun määrität toleranssin, [!INCLUDE[prod_short](includes/prod_short.md)] tarkastaa onko avoimia tapahtumia ja laskee toleranssin myös näille tapahtumille.
+
+> [!IMPORTANT]  
+> Kun otat käyttöön **Muuta maksualennusta** -kentän **ALV-kirjausten asetukset** -sivussa, ALV-summan katsotaan liittyvän **maksutoleranssien** ja **maksualennusten** summiin, ja molempia transaktiosummia koskevaa ALV:tä vähennetään, jos niitä on olemassa. Järjestelmää ei voi määrittää käyttämään ALV-vähennystä vain yhden tapahtumatyypin yhteydessä.  
 
 ## Maksutoleranssivaroitusten ottaminen käyttöön tai poistaminen käytöstä
 

@@ -1,14 +1,12 @@
 ---
 title: Sovelluksen luominen omista tiedoista| Microsoft Docs
 description: 'Voit tehdä Business Central -tiedoistasi tietolähteen ja määrittää verkkopalveluidesi OData-osoitteen, jolla luot Power Appsin avulla yrityssovelluksen.'
-author: edupont04
+author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.service: dynamics365-business-central
 ms.search.keywords: 'OData, Power App, SOAP'
-ms.date: 04/01/2021
-ms.author: edupont
+ms.date: 04/01/2023
+ms.author: jswymer
 ---
 # Yhteyden muodostaminen Business Central -tietoihin yrityssovelluksen luomista varten Power Appsin avulla
 
@@ -34,7 +32,7 @@ Voit käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -tietoja Power Ap
 Power Appsin [!INCLUDE[prod_short](includes/prod_short.md)] -yhdistin näyttää nämä niin kutsutut taulukot päätepisteinä.  
 
 > [!NOTE]
-> Jos haluat sisällyttää muiden taulukoiden dataa sovelluksessa [!INCLUDE[prod_short](includes/prod_short.md)], sinun tulee työskennellä kehittäjän kanssa, jotta voitte määrittää mukautetun API:n sovelluksessa [!INCLUDE[prod_short](includes/prod_short.md)] ja käyttää tätä mukautettua API:a mukautetun yhdistimen kautta Power Appsissa. Lisätietoja, katso [Mukautetun yhdistimen luominen tyhjästä](/connectors/custom-connectors/define-blank).  
+> Jos haluat sisällyttää muiden taulukoiden dataa [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmasta sovelluksessasi, sinun tulee työskennellä kehittäjän kanssa, jotta voitte määrittää mukautetun API:n [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa.  
 
 Tässä kohtaa olet yhdistänyt [!INCLUDE[prod_short](includes/prod_short.md)] dataasi ja olet valmis aloittamaan PowerAppisi rakentamisen. Voit luoda lisää ruutuja ja yhdistää lisädataan [!INCLUDE[prod_short](includes/prod_short.md)]. Lisätietoja on kohdassa [Kaaviosovelluksen luominen Power Appsin mallista](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
 

@@ -32,12 +32,12 @@ Kun nimikkeet saapuvat fyysiseen varasto, joka on määritetty käsittelemään 
 Fyysisen varaston vastaanotto voidaan luoda jommallakummalla tavalla:
 
 * Push-menetelmässä työ tehdään tilauskohtaisesti. Lähdeasiakirjassa, kuten ostotilauksessa, myyntipalautustilauksessa tai siirtotilauksessa, valitaan **Luo f. varastoinnin vastaanotto** -toiminto, joka luo fyysisen varastoinnin vastaanoton yhdelle lähdeasiakirjalle.
-*-* Pull-menetelmässä lähdeasiakirjassa, kuten ostotilauksessa, myyntipalautustilauksessa tai siirtotilauksessa, **Vapauta**-toimintoa käytetään vapauttamaan asiakirja fyysiseen varastoon. Varastotyöntekijä luo ainakin yhdelle vapautetulle lähdeasiakirjalle **fyysisen varastoinnin vastaanoton**. Fyysisen varaston vastaanotto luodaan pull-menetelmässä seuraavaksi kuvattavalla tavalla. Fyysisen varaston vastaanotto luodaan pull-menetelmässä seuraavaksi kuvattavalla tavalla. 
+* Pull-menetelmässä lähdeasiakirjassa, kuten ostotilauksessa, myyntipalautustilauksessa tai siirtotilauksessa, **Vapauta**-toimintoa käytetään vapauttamaan asiakirja fyysiseen varastoon. Varastotyöntekijä luo ainakin yhdelle vapautetulle lähdeasiakirjalle **fyysisen varastoinnin vastaanoton**. Fyysisen varaston vastaanotto luodaan pull-menetelmässä seuraavaksi kuvattavalla tavalla. Fyysisen varaston vastaanotto luodaan pull-menetelmässä seuraavaksi kuvattavalla tavalla.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston vastaanotot**, valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
 
-    Täytä **Sijaintikoodi**-kenttä **Yleinen**-pikavälilehdessä. Kun haet lähdeasiakirjan rivit, ohjelma kopioi otsikon tiedot kullekin riville. 
+    Täytä **Sijaintikoodi**-kenttä **Yleinen**-pikavälilehdessä. Kun haet lähdeasiakirjan rivit, ohjelma kopioi otsikon tiedot kullekin riville.
 
     Jos sijainti edellyttää varastopaikkojen käyttöä, täytä **Varastopaikan koodi** -kenttä. Määritysten mukaan [!INCLUDE[prod_short](includes/prod_short.md)] voi lisätä varastopaikan koodin valmiiksi. Lisätietoja on kohdassa [Alueen ja varastopaikan koodit](warehouse-how-receive-items.md#zone-and-bin-codes).  
 
@@ -56,13 +56,15 @@ Fyysisen varaston vastaanotto voidaan luoda jommallakummalla tavalla:
 
 5. Kirjaa fyysisen varastoinnin vastaanotto. Lähdeasiakirjojen määräkentät päivitetään ja nimikkeet lisätään varastoon.  
 
+    [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
+
     > [!TIP]
-    > Jos käytössä on fyysisen varastoinnin hyllytys, jolla viitataan menetelmään D artikkelin alussa olevassa taulukossa, nimikkeet on vastaanotettu, mutta niitä ei voi poimia, ennen kuin ne on hyllytetty. Lisätietoja nimikkeiden hyllyttämisestä on kohdassa [Nimikkeiden hyllyttäminen fyysisen varastoinnin hyllytyksenä](warehouse-how-to-put-items-away-with-warehouse-put-aways.md). 
-    > 
+    > Jos käytössä on fyysisen varastoinnin hyllytys, jolla viitataan menetelmään D artikkelin alussa olevassa taulukossa, nimikkeet on vastaanotettu, mutta niitä ei voi poimia, ennen kuin ne on hyllytetty. Lisätietoja nimikkeiden hyllyttämisestä on kohdassa [Nimikkeiden hyllyttäminen fyysisen varastoinnin hyllytyksenä](warehouse-how-to-put-items-away-with-warehouse-put-aways.md).
+    >
     > Muussa tapauksessa kannattaa harkita **Kirjaa ja tulosta** -toiminnon käyttämistä. Tämä toiminto kirjaa vastaanoton ja tulostaa sen hyllytysohjeeksi, jossa näyttää, mihin nimike hyllytetään.
 
-> [!NOTE]  
-> Jos fyysisessä varastoinnissa käytetään laiturointia, voit tarkastaa, voidaanko nimikkeet laituroida ilman hyllytystä. Lisätietoja laituroinnista on kohdassa [Nimikkeiden laiturointi](warehouse-how-to-cross-dock-items.md).
+    > [!NOTE]  
+    > Jos fyysisessä varastoinnissa käytetään laiturointia, voit tarkastaa, voidaanko nimikkeet laituroida ilman hyllytystä. Lisätietoja laituroinnista on kohdassa [Nimikkeiden laiturointi](warehouse-how-to-cross-dock-items.md).
 
 ## Lähdeasiakirjojen hakeminen suodattimien avulla
 

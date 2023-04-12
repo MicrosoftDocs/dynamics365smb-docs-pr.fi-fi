@@ -1,15 +1,12 @@
 ---
 title: Kirjauksen kumoaminen kirjaamalla palautustapahtuma
-description: 'Jos olet tehnyt virheellisen kirjauksen yleiseen päiväkirjaan, Peruuta tapahtuma -toiminnolla kumottu kirjaus luo oikean kirjausketjun.'
+description: 'Jos huomaat virheen yleisen päiväkirjan kirjauksessa, voit käyttää Peruuta tapahtuma -toimintoa kumotaksesi kirjauksen ja luodaksesi oikean kirjausketjun.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: reimbursement
-ms.search.form: '20, 25, 29, 38, 202, 5912,'
-ms.date: 07/22/2021
 ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
+ms.date: 03/28/2023
+ms.custom: bap-template
 ---
 # Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen
 
@@ -93,6 +90,5 @@ Vaiheet ovat samankaltaisia kirjatuissa palautuskuiteissa.
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
 [Rahoitus](finance.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

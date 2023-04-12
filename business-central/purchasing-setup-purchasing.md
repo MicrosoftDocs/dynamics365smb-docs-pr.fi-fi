@@ -68,6 +68,7 @@ Kun toiminto on käytössä, palautustapahtuma voidaan kirjata vain määrittäm
 | Hallitse liiketoimia toimittajiesi kanssa, tuo vastaanotettuja laskuasiakirjoja ja rekisteröi uusia toimittajia Outlook-sähköpostiohjelman avulla. | [Business Central -apuohjelman määrittäminen Outlookia varten](admin-outlook.md) |
 | Tarkastele kulutositteita, muuta paperi- ja sähköisiä asiakirjoja kirjauskansioriveiksi ja digitalisoin toimittajien paperisia laskuja. | [Saapuvien asiakirjojen määrittäminen](across-how-setup-income-documents.md) |
 | Määritä oletusraportteja, joita käytetään eri asiakirjatyypeille. |[Raporttien valinta Business Centralissa](across-report-selections.md)|
+|Määritä, voivatko käyttäjät kirjata ostolaskuja ja pitäisikö heidän kirjata ne yhdessä toimituksen kanssa. |[Laskun kirjauskäytännön määrittäminen käyttäjille](admin-setup-invoice-posting-policy.md)|
 
 ## Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/trade-get-started-dynamics-365-business-central/).
 

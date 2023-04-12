@@ -86,8 +86,9 @@ Kun sinulla on Excelin asettelutiedosto, seuraava tehtävä on lisätä se rapor
 3. Määritä **raportin tunnukseksi** *Raportti*.
 4. Syötä nimi kohtaan **Asettelun nimi**.
 5. Määritä **Muotoasetukset**-kohdan arvoksi **Excel**.
-6. Valitse **OK** > **Valitse**, jos haluat avata Resurssienhallinnan laitteessasi.
-7. Etsi ja valitse Excel-tiedosto ja valitse sitten **Avaa**.
+6. Valitse **OK** ja lataa sitten raportin asettelutiedosto tekemällä jokin seuraavista toimista:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    Valitsemasi tiedosto ladataan asetteluun, ja **Raporttiasettelut**-sivu avautuu.
 8. Näet, miltä raportti näyttää uudessa asettelussa, valitsemalla asettelu luettelosta ja valitsemalla sitten **Suorita raportti**.

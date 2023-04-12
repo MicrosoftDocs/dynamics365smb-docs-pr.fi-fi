@@ -1,14 +1,14 @@
 ---
-title: Pikanäppäimet
+title: Näppäimistön pikanäppäimet
 description: Pikanäppäinyhdistelmien täydellinen luettelo tietojen tehokasta käyttämistä varten.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
-ms.date: 08/16/2022
+ms.date: 02/09/2023
 ms.author: jswymer
+ms.review: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
 # Pikanäppäimet
@@ -39,6 +39,7 @@ Seuraavassa taulukossa on kuvattu sivun eri elementtien selaamiseen ja käyttäm
 
 |Käytettävät näppäimet<br />(macOS)|Tehtävä|
 |--------------------------------|----------|
+|<kbd>Alt</kbd>|Näytä käyttöoikeusavaimet, joiden avulla voit valita toiminnot toimintopalkissa ja sivun siirtymisvalikossa. Lisätietoja on kohdassa [Käyttöoikeusavaimet](#access-keys-for-action-bar-and-navigation-menu).|
 |<kbd>Alt</kbd>+<kbd>ylänuoli</kbd>|Avaa avattava luettelo tai hae kentän arvo.|
 |<kbd>Alt</kbd>+<kbd>ylänuoli</kbd>|Näyttää taulukokon kentän tai sarakeotsikon työkaluvihjeen. Jos kentässä on tarkistusvirheitä, tarkistusvirhe tulee näkyviin näppäinyhdistelmällä <kbd>Alt</kbd>+<kbd>ylänuoli</kbd>. Sulje työkaluvihje <kbd>Esc</kbd>-näppäimellä tai näppäinyhdistelmällä <kbd>Alt</kbd>+<kbd>ylänuoli</kbd>.|
 |<kbd>F2</kbd>|Vaihda koko kentän arvon valitsemisen tai kohdistimen asettamisen välillä kentän arvon loppuun.|
@@ -51,7 +52,7 @@ Seuraavassa taulukossa on kuvattu sivun eri elementtien selaamiseen ja käyttäm
 |<kbd>Alt</kbd>+<kbd>Vaihto</kbd>+<kbd>N</kbd> |Sulje juuri luotu sivu ja luo uusi tietue avaamalla uusi sivu. Vastaavasti <kbd>Alt</kbd>+<kbd>F9</kbd> kirjaa asiakirjan ja luo uuden.|
 |<kbd>Alt</kbd>+<kbd>T</kbd>|Avaa **Omat asetukset** -sivu.|
 |<kbd>Alt</kbd>+<kbd>oikea nuoli</kbd>|Etsi sen kentän lisätietoja tai taustalla olevia arvoja, joka sisältää ![MuokkausApu](media/assist-edit-icon.png "MuokkausApu-painike") -painikkeen. Käytetään silloin, kun tavallista avattavan luettelon painiketta (<kbd>Alt</kbd>+<kbd>ylänuoli</kbd>) käytetään samassa kentässä toiseen tarkoitukseen.|
-|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Vaihto</kbd>+<kbd>C</kbd>|Näytä yrityksen tunnuksessa olevat tiedot. Tämä pikanäppäimen käyttö lopetettiin Business Centralin vuoden 2022 2. julkaisuaallossa (versio 21) ja korvattiin näppäinyhdistelmällä <kbd>Ctrl</kbd>+<kbd>O</kbd>. |
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Vaihto</kbd>+<kbd>C</kbd>|Näytä yrityksen tunnuksessa olevat tiedot. Alkaen Business Central 2022:n julkaisuaallosta 2 (versio 21, tätä pikakuvaketta ei enää tueta, korvataan <kbd>Ctrl</kbd>+<kbd>O</kbd>. |
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F1</kbd>|Avaa ja sulje sivun tarkastusruutu Sivun tarkastusruudussa on tietoja sivusta, kuten sen lähdetaulukko, kentät, suodattimet ja laajennukset.<br /><br />Lisätietoja on kohdassa [Tarkastussivut](across-inspect-page.md).|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd> |Kopioi kentän arvo. Jos kohdistus on kentässä etkä ole valinnut kentässä tekstiä, koko arvo kopioidaan. Jos olet valinnut kentässä tekstiä, vain valittu teksti valitaan.|
 |<kbd>Ctrl</kbd>+<kbd>F1</kbd>|Avaa [ohjeruutu](product-help-and-support.md#help-pane) tai Business Central -ohjeartikkeli [Microsoft Learnissa](/dynamics365/business-central/) Business Centralin versiosta riippuen.|
@@ -147,7 +148,7 @@ Seuraavilla pikanäppäimillä voi näyttää ja muokata tietueita korttisivuill
 |Käytettävät näppäimet<br />(macOS)|Tehtävä|
 |--------------------------------|----------|
 |<kbd>Alt</kbd>+<kbd>D</kbd>|Avaa dimensioyhdistelmän tapahtumat.|
-|<kbd>Alt</kbd>+<kbd>F6</kbd>|Vaihtele nykyisen pikavälilehden tai osan (alasivun) tiivistystä ja laajennusta.|
+|<kbd>Alt</kbd>+<kbd>F6</kbd>|Vaihtele nykyisen pika<kbd>välilehden</kbd> tai osan (alasivun) tiivistystä ja laajennusta.|
 |<kbd>Alt</kbd>+<kbd>F9</kbd>|Luo uusi asiakirja ja kirjaa se.|
 |<kbd>Alt</kbd>+<kbd>G</kbd>|Avaa kirjattuun asiakirjaan liittyvien tapahtumien haku **Etsi tapahtumat** -sivulta. Toimii myös luetteloissa.|
 |<kbd>Alt</kbd>+<kbd>N</kbd> |Lue uusi tietue avaamalla sivu; vastaa **Uusi**-toiminnon valitsemista. |
@@ -161,11 +162,11 @@ Seuraavilla pikanäppäimillä voi näyttää ja muokata tietueita korttisivuill
 |<kbd>Ctrl</kbd>+<kbd>F7</kbd>|Avoimet tapahtumat, lokitapahtumat, kustannustapahtumat ja niin edelleen.|
 |<kbd>Ctrl</kbd>+<kbd>F9</kbd>|Vapauta asiakirja.|
 |<kbd>Ctrl</kbd>+<kbd>Vaihto</kbd>+<kbd>F12</kbd> |Suurenna asiakirjasivun rivinimikeosa. Palaa normaalinäyttöön painamalla näppäimiä uudelleen. Lisätietoja on kohdassa [Kohdistaminen rivinimikkeisiin](ui-enter-data.md#Focus).|
-|<kbd>F6</kbd>|Siirry seuraavaan pikavälilehteen tai osaan (alisivulle).|
+|<kbd>F6</kbd>|Siirry seuraavaan pika<kbd>välilehteen</kbd> tai osaan (alisivulle).|
 |*<kbd>F7</kbd>*|Avaa tilastot.|
 |*<kbd>F9</kbd>*|Kirjaa, myönnä, rekisteröi tai peruuta asiakirja.|
 |*<kbd>Vaihto</kbd>+<kbd>Ctrl</kbd>+<kbd>F9</kbd>*|Kirjaa, tulosta ja hyllytä fyysisen varastoinnin vastaanotto.|
-|<kbd>Vaihto</kbd>+<kbd>F6</kbd>|Siirry edelliseen pikavälilehteen tai osaan (alisivulle).|
+|<kbd>Vaihto</kbd>+<kbd>F6</kbd>|Siirry edelliseen pika<kbd>välilehteen</kbd> tai osaan (alisivulle).|
 |*<kbd>Vaihto</kbd>+<kbd>F9</kbd>*|Kirjaa ja tulosta asiakirja.|
 
 ## <a name="QuickEntry"></a>Kenttien pikatapahtuman pikanäppäimet
@@ -245,6 +246,19 @@ Seuraavassa taulukossa kuvataan numeronäppäimistön pikanäppäimet.
 |--------------------------------|----------|
 |<kbd>Alt</kbd>+<kbd>desimaalierotin</kbd>|Vaihda desimaalierotinnäppäimen arvoksi joko piste (.) tai **Alue**-asetuksen määrittämä merkki **Omat asetukset** -sivulla. Lisätietoja on kohdassa [Numeeristen näppäimistöjen käyttämän desimaalierottimen asettaminen](ui-enter-data.md#decimal).|
 
+
+## Toimintopalkin ja siirtymisvalikon käyttöoikeusavaimet
+
+Käyttöoikeusavaimet ovat pikanäppäimiä, jotka valitsevat tiettyjä toimintoja toimintopalkissa ja siirtymisvalikossa, joten voit siirtyä haluamaasi sivuun toimintojen avulla. Käyttöoikeusavaimet ovat käytettävissä Business Centralin verkkokäyttöliittymässä, ja ne muistuttavat Excelin ja Word Onlinen käyttöoikeusavaimia.  
+
+Jos haluat käyttää sivulla käyttöoikeusavaimia, valitse ensin <kbd>Alt</kbd>-näppäin näyttääksesi *näppäinvihjeet*, jotka ovat kirjaimia pienissä ruuduissa toimintopalkissa ja siirtymisvalikossa olevien toimintojen vieressä. 
+
+![Kuva, jossa käyttöoikeusavaimet näkyvät asiakasluettelosivulla.](media/access-keys.png) 
+
+Valitse toiminto valitsemalla näppäinyhdistelmä, joka näkyy näppäinvihjeessä, esimerkiksi <kbd>H</kbd> tai <kbd>J</kbd>+<kbd>F</kbd>.
+- Jos toiminto avautuu muiden toimintojen alavalikkoon, näyttöön tulee alivalikon näppäinten vihjeet, joiden avulla voit halutessasi jatkaa käyttöoikeusavainten käyttöä.
+- Jos toiminto avaa eri sivun, näppäinvihjeet ovat poissa käytöstä. Jos haluat näyttää ne uudelleen, valitse <kbd>Alt</kbd>-näppäin. 
+ 
 ## Katso myös
 
 [Näppäimistön pikaohje - Vain PC](keyboard-shortcuts-cheatsheet.md)  

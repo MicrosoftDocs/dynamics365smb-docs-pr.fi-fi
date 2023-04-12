@@ -83,10 +83,10 @@ Kun työntekijät ovat laskeneet varastomäärät, niiden kirjaaminen järjestel
 4. Valitse **Tallennettu**-valintaruutu kullakin rivillä.
 5. Kun olet antanut kaikki inventointitallenteen tiedot, valitse **Valmis**-toiminto. Huomaa, että **Tallennettu**-valintaruudun on oltava valittuna kaikilla riveillä.
 
-> [!NOTE]
-> Kun inventointitallenne on valmis, kukin rivi siirretään sitä täsmälleen vastaavalle liittyvän inventointitilauksen riville. Vastaavuus edellyttää, että **Nimikenro**-, **Varianttikoodi**-, **Sijaintikoodi**- ja **Varastopaikan koodi** -kenttien arvot ovat samat tallenteessa ja tilausriveillä.<br /><br />
-> Jos vastaavaa inventointitilausriviä ei ole ja jos **Salli tallennus ilman tilausta** -valintaruutu on valittu, uusi rivi lisätään automaattisesti ja **Tallennettu ilman tilausta** -valintaruutu valitaan liittyvän inventointitilauksen rivillä. Muussa tapauksessa avautuu virhesanoma ja prosessi peruutetaan.<br /><br />
-> Jos useat inventointitallennuksen rivit vastaavat inventointitilauksen riviä, avautuu sanoma ja prosessi peruutetaan. Jos kaksi täysin samanlaista inventointiriviä päätyy jostain syystä inventointitilaukseen, voit ratkaista asian toiminnolla. Lisätietoja on kohdassa [Inventointitallennuksen rivien kaksoiskappaleiden löytäminen](#to-find-duplicate-physical-inventory-order-lines).
+    > [!NOTE]
+    > Kun inventointitallenne on valmis, kukin rivi siirretään sitä täsmälleen vastaavalle liittyvän inventointitilauksen riville. Vastaavuus edellyttää, että **Nimikenro**-, **Varianttikoodi**-, **Sijaintikoodi**- ja **Varastopaikan koodi** -kenttien arvot ovat samat tallenteessa ja tilausriveillä.<br /><br />
+    > Jos vastaavaa inventointitilausriviä ei ole ja jos **Salli tallennus ilman tilausta** -valintaruutu on valittu, uusi rivi lisätään automaattisesti ja **Tallennettu ilman tilausta** -valintaruutu valitaan liittyvän inventointitilauksen rivillä. Muussa tapauksessa avautuu virhesanoma ja prosessi peruutetaan.<br /><br />
+    > Jos useat inventointitallennuksen rivit vastaavat inventointitilauksen riviä, avautuu sanoma ja prosessi peruutetaan. Jos kaksi täysin samanlaista inventointiriviä päätyy jostain syystä inventointitilaukseen, voit ratkaista asian toiminnolla. Lisätietoja on kohdassa [Inventointitallennuksen rivien kaksoiskappaleiden löytäminen](#to-find-duplicate-physical-inventory-order-lines).
 
 ## Inventointitilauksen viimeisteleminen
 
@@ -121,7 +121,9 @@ Kun inventointitilaus on valmistunut ja sen tilaksi on muuttunut **Valmis**, voi
     **Tila**-kentän arvoksi tulee **Valmis**, ja tilausta voi muuttaa nyt vain valitsemalla ensimmäiseksi **Avaa uudelleen** -toiminto.
 4. Kirjaa tilaus valitsemalla **Kirjaa**-toiminto ja valitsemalla sitten **OK**-painike.
 
-Liittyvät nimiketapahtumat päivitetään nyt mahdollisten liittyvien nimikeseurantatapahtumien ohella.
+    Nimiketapahtumat päivitetään nyt mahdollisten liittyvien nimikeseurantatapahtumien ohella.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ### Kirjattujen inventointitilausten tarkasteleminen
 
@@ -141,7 +143,7 @@ Nimikeseuranta koskee nimikkeille määritettyjä sarja- tai eränumeroita. Jos 
 
 Oletetaan, että nimikkeen A fyysinen varasto on tallennettu varastoon 10 eri sarjanumerolla.
 1. Valitse nimikkeen tallennusrivillä **Käytä nimiseurantaa** -valintaruutu.
-2.  Valitse **Sarjanumero**-kentässä ensimmäinen sarjanumero, joka nimikkeellä on varastossa, ja valitse sitten **OK**-painike.
+2. Valitse **Sarjanumero**-kentässä ensimmäinen sarjanumero, joka nimikkeellä on varastossa, ja valitse sitten **OK**-painike.
 
     Kopioi seuraavaksi ensimmäisen nimikeseuratun nimikkeen rivi. Voit lisätä tällä tavoin varastoon tallennettujen sarjanumeroiden numeroa vastaavia lisärivejä.
 
@@ -192,8 +194,8 @@ Eräseurattu nimike tallennetaan varastoon LOT-numerosarjaan.
 
 Seuraavat asiakirjatyypit ovat käteviä fyysisen varaston hallinnassa:
 
-- **Varaston vastaanotoilla** voi rekisteröidä nimikkeiden positiiviset muutokset määrän, laadun ja kustannuksen perusteella.
-- **Varaston lähetysten** avulla voi kirjata pois puuttuvia tai vaurioituneita tuotteita.
+* **Varaston vastaanotoilla** voi rekisteröidä nimikkeiden positiiviset muutokset määrän, laadun ja kustannuksen perusteella.
+* **Varaston lähetysten** avulla voi kirjata pois puuttuvia tai vaurioituneita tuotteita.
 
 Nämä asiakirjat voidaan tulostaa koska tahansa. Ne voidaan vapauttaa ja avata uudelleen, minkä lisäksi niiden otsikkoon voidaan määrittää yleisiä arvoja, mukaan lukien dimensioita. Jos haluat tulostaa asiakirjat uudelleen sen jälkeen, kun ne on kirjattu, se voidaan tehdä **Kirjatut varastovastaanotot**- ja **Kirjatut varastolähetykset** -sivuilla.
 
@@ -206,10 +208,11 @@ Seuraavaksi käsitellään varastoasiakirjojen numeroinnin määrittämistä.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastonhallinnan asetukset** ja valitse sitten vastaava linkki.
 2. Määritä seuraavissa **Numerointi**-pikavälilehden kentissä asiakirjojen numerosarjat:
-   - **Varaston vastaanoton nrot**  
-   - **Kirjattujen varastovastaanottojen nrot**  
-   - **Varastotoimitusten nrot**  
-   - **Kirjattujen varastotoimitusten nrot**  
+
+   * **Varaston vastaanoton nrot**  
+   * **Kirjattujen varastovastaanottojen nrot**  
+   * **Varastotoimitusten nrot**  
+   * **Kirjattujen varastotoimitusten nrot**  
 
 ### Varastoasiakirjan luominen ja kirjaaminen
 
@@ -222,17 +225,19 @@ Seuraavaksi käsitellään varastovastaanoton luomista, tulostamista ja kirjaami
 
 **Varaston vastaanotto** -sivulla on käytössä seuraavat toiminnot:
 
-- Seuraavan käsittelyvaiheen tila määritetään **Vapauta**- tai **Avaa uudelleen** -toiminnolla  
-- Kirjaa varaston vastaanotto valitsemalla **Kirjaa**-toiminto tai kirjaa vastaanotto ja tulosta testiraportti valitsemalla **Kirjaa ja tulosta**  
+* Seuraavan käsittelyvaiheen tila määritetään **Vapauta**- tai **Avaa uudelleen** -toiminnolla  
+* Kirjaa varaston vastaanotto valitsemalla **Kirjaa**-toiminto tai kirjaa vastaanotto ja tulosta testiraportti valitsemalla **Kirjaa ja tulosta**  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Varastoasiakirjojen tulostaminen
 
 Eri vaiheissa tulostettavat raportit voidaan määrittää valitsemalla jokin seuraavista vaihtoehdoista **Raportin valinta – varasto** -sivun **Käyttö**-kentässä:
 
-- Varaston vastaanotto
-- Varastotoimitus
-- Kirjattu varaston vastaanotto
-- Kirjattu varastotoimitus
+* Varaston vastaanotto
+* Varastotoimitus
+* Kirjattu varaston vastaanotto
+* Kirjattu varastotoimitus
 
 > [!NOTE]
 > Käytettävissä olevat raportit voivat vaihdella maan lokalisoinnin mukaan. Perussovellus ei sisällä asetteluja.

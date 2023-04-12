@@ -5,11 +5,13 @@ author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security'
 ms.search.form: '119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173'
-ms.date: 05/09/2022
+ms.date: 03/24/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
 # Luo käyttäjät käyttöoikeuksien mukaan
+
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
 Tässä artikkelissa kuvataan, miten järjestelmänvalvojat luovat käyttäjiä ja määrittävät, ketkä voivat kirjautua sisään kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]. Opit myös kohdistamaan käyttöoikeuksia eri käyttäjille tuotteesi käyttöoikeuksien mukaan.
 
@@ -90,8 +92,11 @@ Kun olet lisännyt käyttäjiä tai muuttanut käyttäjätietoja Microsoft 365 -
 2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten vastaava linkki.  
 3. Valitse **Päivitä käyttäjät Microsoft 365:stä**.
 
+> [!IMPORTANT]  
+> Käyttäjien synkronoinnin suorittaminen Microsoft 365:stä **Päivitä käyttäjät Microsoft 365:stä** -opasta käyttämällä edellyttää SUPER- käyttöoikeuksien joukkoa.
+
 > [!NOTE]
-> **Päivitä käyttäjät Microsoft 365:sta** -toiminto ei päivitä käyttäjiä, joille ei ole määritetty lisenssiä, kuten henkilöä, joka on Yleinen järjestelmänvalvoja ja Dynamics 365 -järjestelmänvalvoja. Nämä käyttäjät päivittävät seuraavan kerran, kun he kirjautuvat ympäristöön.
+> **Päivitä käyttäjät Microsoft 365:stä** -opas ei päivitä käyttäjiä, joille ei ole määritetty lisenssiä, kuten henkilöä, joka on Yleinen järjestelmänvalvoja ja Dynamics 365 -järjestelmänvalvoja. Nämä käyttäjät päivittävät seuraavan kerran, kun he kirjautuvat ympäristöön.
 
 Seuraava vaihe uusille käyttäjille on käyttäjäryhmien ja käyttöoikeuksien kohdistaminen. Lisätietoja on kohdassa [Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md). Jos päivität käyttäjää ja päivitys sisältää käyttöoikeuden muutoksen, käyttäjät liitetään asianmukaiseen käyttäjäryhmään ja niiden käyttöoikeuksien joukot päivitetään. Lisätietoja on kohdassa [Käyttäjien käyttöoikeuksien hallinta käyttäjäryhmien kautta](ui-define-granular-permissions.md).  
 
@@ -101,7 +106,7 @@ Seuraava vaihe uusille käyttäjille on käyttäjäryhmien ja käyttöoikeuksien
 Lisätietoja käyttäjätietojen synkronoimisesta Microsoft 365:n kanssa on [Synkronoiminen Microsoft 365:n kanssa](#m365) -osiossa.
 
 > [!NOTE]
-> Jos käytä ulkoista kirjanpitäjää kirjojen ja talousraportoinnin hallinnassa, voit kutsua kirjanpitäjän Business Centraliin, jolloin he saavat käyttöönsä kirjanpitotietosi. Lisätietoja on kohdassa [Ulkoisen kirjanpitäjän kutsuminen Business Centraliin](finance-accounting.md#inviteaccountant).
+> Jos käytä ulkoista kirjanpitäjää kirjojen ja talousraportoinnin hallinnassa, voit kutsua kirjanpitäjän [!INCLUDE[prod_short](includes/prod_short.md)]iin, jolloin he saavat käyttöönsä kirjanpitotietosi. Lisätietoja on kohdassa [Ulkoisen kirjanpitäjän kutsuminen Business Centraliin](finance-accounting.md#inviteaccountant).
 
 ### Järjestelmän käyttöoikeuden poistaminen käyttäjältä
 
@@ -134,9 +139,9 @@ Jos muutat käyttäjätietoja Microsoft 365:ssä, voit päivittää [!INCLUDE[pr
 
 Käyttäjät voivat käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -tietoja Teamsissa käyttämällä vain Microsoft 365 -käyttöoikeuttaan. Kun käyttöoikeus on otettu käyttöön ympäristössä, **Päivitä käyttäjät Microsoft 365:stä** -toiminnolla suoritettu synkronointi ei sisällä käyttäjiä, joilla on vain Microsoft 365 -käyttöoikeus. Jos haluat sisällyttää nämä käyttäjät synkronointiin, sinun täyty ensin päivittää ympäristön asetukset ja kohdistaa suojausryhmä, joka sisältää [!INCLUDE[prod_short](includes/prod_short.md)] -käyttöoikeuden omistavat käyttäjät sekä käyttäjät, joilla on vain Microsoft 365 -käyttöoikeus.
 
-Lisätietoja ympäristöjen käytön suojaamisesta suojausryhmillä on kohdassa [Käyttöoikeuksien hallinta Azure Active Directory -ryhmien avulla](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups). 
+Lisätietoja ympäristöjen käytön suojaamisesta suojausryhmillä on kohdassa [Käyttöoikeuksien hallinta Azure Active Directory -ryhmien avulla](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups).
 
-Katso yleiskatsaus Business Centralin käyttämisestä Teamsissa Microsoft 365 -käyttöoikeudella kohdasta [admin-access-with-m365-license](admin-access-with-m365-license.md).
+Katso yleiskatsaus [!INCLUDE[prod_short](includes/prod_short.md)]in käyttämisestä Teamsissa Microsoft 365 -käyttöoikeudella kohdasta [admin-access-with-m365-license](admin-access-with-m365-license.md).
 
 ## Käyttäjien ja lisenssien hallinta on-premises-käyttöönotoissa
 

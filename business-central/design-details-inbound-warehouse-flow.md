@@ -48,11 +48,6 @@ Menetelmissä A, B ja C vastaanotto ja hyllytys yhdistetään yhteen vaiheeseen,
 > * Menetelmässä B käytetty varaston hyllytys yhdessä hyllytystietojen rekisteröinnin kanssa kirjaa myös lähdeasiakirjan vastaanoton.
 > * Menetelmässä D käytettyä fyysisen varaston hyllytystä ei vo kirjata, ja se vain rekisteröi hyllytyksen. Rekisteröinti tuo nimikkeet saataville lisäkäsittelyä varten, muttei kirjaa vastaanottoa. Saapuvassa virrassa fyysisen varaston edellyttää fyysisen varaston vastaanottoa.
 
-> [!NOTE]
-> Vaikka fyysisen varaston hyllytykset ja varaston hyllytykset vaikuttavat samanlaisilta, ne ovat eri asiakirjoja ja niitä käytetään eri prosesseissa.
-> * Menetelmässä B käytetty varaston hyllytys yhdessä hyllytystietojen rekisteröinnin kanssa kirjaa myös lähdeasiakirjan vastaanoton.
-> * Menetelmässä D käytettyä fyysisen varaston hyllytystä ei vo kirjata, ja se vain rekisteröi hyllytyksen. Rekisteröinti tuo nimikkeet saataville lisäkäsittelyä varten, muttei kirjaa vastaanottoa. Saapuvassa virrassa fyysisen varaston edellyttää fyysisen varaston vastaanottoa.
-
 ## Ei määritettyä varastotoimintoa
 
 Seuraavissa artikkeleissa on tietoja lähdeasiakirjojen vastaanottojen käsittelystä, jos varastotoimintoja ei ole määritetty.

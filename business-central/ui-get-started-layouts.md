@@ -117,8 +117,9 @@ Kopioiminen on nopea tapa luoda uusi asettelu, joka on sama kuin aiemmin luotu a
    |Kuvaus| Kirjoita tarkempia tietoja asettelusta. |ei|
    |Muotoiluasetukset|Määritä tämä kenttä vastaamaan asettelun tyyppiä, kuten Word, Excel tai RDLC.|kyllä|
 
-6. Valitse **OK** > **Valitse**, jos haluat avata Resurssienhallinnan laitteessasi.
-7. Etsi ja valitse Excel-tiedosto ja valitse sitten **Avaa**.
+6. Valitse **OK** ja lataa sitten raportin asettelutiedosto tekemällä jokin seuraavista toimista:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    Valitsemasi tiedosto ladataan asetteluun, ja palaat **Raporttiasettelut**-sivulle.
 

@@ -44,7 +44,7 @@ Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikata
 
  CRONUS on aloittanut pitkän projektin, joka on nyt laajennettu raportointikausien yli. Marianne, projektiryhmän jäsen, laskee keskeneräiset työt (KET) varmistaakseen, että yhtiön tilinpäätös on tarkka.  
 
- Näiden toimien aikana Marianne valitsee tietyn joukon tehtäviä, jotka sisällytetään KET-laskentaan. **Projektitehtävärivit**-sivulla hän voi määrittää nämä rivit **KET - Yhteensä** -sarakkeeseen.  
+ Näiden toimien aikana Marianne valitsee tietyn joukon tehtäviä, jotka sisällytetään KET-laskentaan. **Projektitehtävärivit**-sivulla Marianne voi määrittää nämä rivit **KET - Yhteensä** -sarakkeeseen.  
 
  Seuraavassa taulukossa kuvaillaan nämä kolme asetusta.  
 
@@ -54,7 +54,7 @@ Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikata
 |**Yhteensä**|Määrittää alueen tai tehtäväryhmän, jotka kuuluvat KET:n ja tunnistuksen laskentaan. Ryhmässä mikä tahansa projektitehtävä, jonka **Projektitehtävätyyppi** on **Kirjaus**, sisällytetään KET yhteensä -summaan, ellei sen **KET yhteensä** -kentäksi ole määritetty **Pois suljettu**.|  
 |**Pois suljettu**|Koskee vain tehtävää, jonka **Projektitehtävätyyppi** on **Kirjaus**. Tehtävää ei oteta lukuun, kun KET ja tuloutus lasketaan.|  
 
- Seuraavassa vaihekuvauksessa Marianne käyttää KET: n laskennassa yrityksensä vakiomenetelmää, eli kustannusarvomenetelmää. Hän määrittää, mikä projektin osa sisältyy KET-laskentaan määrittämällä KET:in yhteensä-arvoja eri projektitehtäväriveille.  
+ Seuraavassa vaihekuvauksessa Marianne käyttää KET: n laskennassa yrityksensä vakiomenetelmää, eli kustannusarvomenetelmää. Marianne määrittää, mikä projektin osa sisältyy KET-laskentaan määrittämällä KET:in yhteensä-arvoja eri projektitehtäväriveille.  
 
 ### Keskeneräisen työn laskeminen  
 
@@ -134,7 +134,7 @@ Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikata
 
 ## KET-kirjauksen peruuttaminen
 
- Marianne määrittää, että projektitehtävät, jotka jätettiin ulkopuolelle laskettaessa KET, olisi pitänyt laskea mukaan KET:iin. Kaikeksi onneksi hän kuitenkin voi peruuttaa väärät kirjaukset tekemättä uusia KET-kirjauksia.  
+ Marianne määrittää, että projektitehtävät, jotka jätettiin ulkopuolelle laskettaessa KET, olisi pitänyt laskea mukaan KET:iin. Kaikeksi onneksi Marianne kuitenkin voi peruuttaa väärät kirjaukset tekemättä uusia KET-kirjauksia.  
 
 ### KET-kirjauksen peruuttaminen  
 
@@ -153,7 +153,7 @@ Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikata
 13. Voit siirtyä takaisin projektin **Projektitehtävärivit**-kohtaan, liittää mukaan projektin osat, jotka olisivat kuuluneet keskeneräiseen työhön, tehdä laskutoimitukset uudelleen ja kirjata uuden arvon pääkirjanpitoon.  
 
     > [!NOTE]  
-    >  Oletetaan, että Tricia on laskenut ja kirjannut keskeneräisen työn, jossa on virheellisiä päivämääriä. Käyttäjä voi peruuttaa virheellisen kirjauksen, korjata päivämääriä ja tehdä uuden kirjauksen pääkirjanpitoon käyttämällä aiemmin kerrottua menetelmää.  
+    >  Oletetaan, että Tricia on laskenut ja kirjannut keskeneräisen työn, jossa on virheellisiä päivämääriä. Marianne voi peruuttaa virheellisen kirjauksen, korjata päivämääriä ja tehdä uuden kirjauksen pääkirjanpitoon käyttämällä aiemmin kerrottua menetelmää.  
 
 ## Seuraavat vaiheet
 

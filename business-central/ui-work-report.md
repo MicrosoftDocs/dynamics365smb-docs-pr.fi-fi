@@ -3,9 +3,6 @@ title: Suorita ja tulosta raportteja
 description: 'Tutustu, miten raportti lisätään työjonoon ja ajoitetaan käsiteltäväksi tiettynä päivänä ja tiettyyn kellonaikaan.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, Word, dataset'
 ms.search.form: null
 ms.date: 09/09/2022
@@ -136,6 +133,12 @@ Raportin asettelu määrittää, mitä raportissa näytetään, miten se on jär
 - Jos haluat muuttaa raportin käyttämää oletusasettelua, siirry **Raportin asettelut**- tai **Raportin asettelun valinta** -sivulle.
 
 Lisätietoja on kohdassa [Raportin käyttämän asettelun määrittäminen](ui-set-report-layout.md). Jos puolestaan haluat mukauttaa omaa raporttiasettelua, siirry kohtaan [Aloita asettelujen luominen](ui-get-started-layouts.md).
+
+## Numeroiden, päivämäärien ja kellonaikojen kielen ja muodon muuttaminen
+
+Oletusarvon mukaan raportin numeroiden, päivämäärien ja kellonaikojen kieli ja muoto määräytyvät **Omat asetukset** -sivulla määritettyjen työkieli- ja alueasetusten mukaan. Voit kuitenkin muuttaa kieltä ja alueasetusta tapauskohtaisesti, kun esikatselet, tulostat tai lähetät raportin. Valitse pyyntösivulla **Lisäasetukset** ja määritä sitten haluamasi **Kieli** ja **Alueasetus**.
+
+Lisätietoja **Omat asetukset** -sivusta on kohdassa [Muuta perusasetuksia](ui-change-basic-settings.md#region).
 
 ## Lisäasetukset
 

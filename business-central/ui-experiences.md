@@ -36,13 +36,14 @@ Ennen kuin määrität yrityksen kokemusasetukset, voit määrittää käyttäji
 Käyttäjille määritetään suunnitelmat Microsoft 365 -hallintakeskuksessa samassa yhteydessä kuin Business Central -käyttäjiä määritetään. Lisätietoja on kohdassa [Käyttäjien lisääminen ja käyttöoikeuksien määrittäminen samaan aikaan](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
 ### Suunnitelman muutoksien päivittäminen käyttäjäryhmissä
+
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Kun olet tehnyt muutoksia käyttäjien suunnitelmiin Microsoft 365 -hallintakeskuksessa (kuten määrittänyt enemmän käyttäjiä Premium-suunnitelmaan), sinun tulee tehdä muutoksia myös [!INCLUDE[prod_short](includes/prod_short.md)]:ssa.
 
 1. Kirjaudu sisään järjestelmänvalvojana.
 2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten vastaava linkki.
-3. Vaihtoehtoisesti voit valita **Käyttäjät**-sivulla **Päivitä kaikki käyttäjäryhmät** -toiminnon.
-
-Käyttäjien suunnitelmien ja heidän määriteltyjen käyttäjäryhmiensä uudet tiedot päivitetään nyt suunnitelman muutoksien mukaisesti.
+3. Valitse **Käyttäjät**-sivulla **Päivitä käyttäjät Microsoft 365:stä** -toiminto.
 
 ### Premium-käyttäjäkokemuksen valinta
 Voit nyt siirtyä valitsemaan uuden käyttökokemuksen.

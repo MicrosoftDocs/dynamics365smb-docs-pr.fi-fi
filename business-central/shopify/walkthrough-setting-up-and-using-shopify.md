@@ -29,7 +29,7 @@ Lisätietoja Shopify-kokeiluversioiden luomisesta ja suositelluista asetuksista 
 
 Sinulla täytyy olla [!INCLUDE[prod_short](../includes/prod_short.md)] -tili. 
 
-Voit esimerkiksi luoda esittelytilin tai aloittaa kokeiluversion. Lisätietoja on kohdissa [[!INCLUDE[prod_short](../includes/prod_short.md)] -esittely-ympäristöjen valmistelu](/dynamics365/business-central/dev-itpro/administration/demo-environment.md) ja [Rekisteröityminen kokeiluversion käyttäjäksi](../trial-signup.md). 
+Voit esimerkiksi luoda esittelytilin tai aloittaa kokeiluversion. Lisätietoja on kohdissa [Dynamics 365 Business Central -esittely-ympäristöjen valmistelu](/dynamics365/business-central/dev-itpro/administration/demo-environment) ja [Rekisteröityminen kokeiluversion käyttäjäksi](../trial-signup.md). 
 
 ## Business Centralin yhdistäminen Shopify-kauppaan
 
@@ -100,7 +100,7 @@ Valitse **Osta nyt** -painike ja siirry kassalle.
 5. Valitse **Jatka toimitukseen** -painike.
 6. Pidä `Standard` toimitustapana ja valitse **Jatka maksu** -painike.
 7. Valitse tipiksi `10%`.
-8. Syötä **Luottokortti**-kenttään `1`, jos käytät *(for testing) Bogus Gateway* -vaihtoehtoa. Jos käytät *Shopify Paymentsia* testitilassa, syötä **Luottokortti**-kenttään `5555 5555 5555 4444`.
+8. Syötä **Luottokortti**-kenttään `1`, jos käytät *(for testing) Bogus Gateway* -vaihtoehtoa. Jos käytät *Shopify Paymentsia* testitilassa, syötä `5555 5555 5555 4444`.
 9. Täytä **Kortissa oleva nimi** -kenttä.
 10. Syötä **Voimassaolon päättymispäivä** -kenttään tämänhetkinen kuukausi/vuosi.
 11. Syötä **Suojauskoodi**-kenttään `111`.
@@ -162,18 +162,20 @@ Valmistele tiedot.
 2. Lisää uusi hintaryhmä. Kirjoita **Koodi**-kenttään `SHOPIFY`.
 3. Sulje **Asiakashintaryhmä**-ikkuna.
 4. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse vastaava linkki.
-5. Valitse nimike **1896-S, Athens Desk**.
-6. Valitse **Variantit**-toiminto ja lisää sitten kaksi varianttia: `PREMIUM, Athens Desk, Premium edition` ja `ESSENTIAL, Athens Desk, Essential edition`.
-7. Valitse **Lisäteksti** ja luo uusi lisäteksti, joka on käypä kaikille kielikoodeille. Kirjoita **Kuvaus**-kenttään `Shopify`. 
-8. Lisää seuraava kuvaus HTML-tunnisteineen: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
-9. Valitse **Myyntihinnat** ja lisää seuraavassa taulukossa esitetyt uudet hinnat:
+
+Valitse nimike **1896-S, Athens Desk** ja suorita seuraavat vaiheet.
+
+1. Valitse **Variantit**-toiminto ja lisää sitten kaksi varianttia: `PREMIUM, Athens Desk, Premium edition` ja `ESSENTIAL, Athens Desk, Essential edition`.
+2. Valitse **Lisäteksti**-toiminto ja luo uusi lisäteksti, joka on käypä kaikille kielikoodeille. Kirjoita **Kuvaus**-kenttään `Shopify`. 
+3. Lisää seuraava teksti HTML-tunnisteineen: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
+4. Valitse **Myyntihinnat**-toiminto ja lisää seuraavassa taulukossa esitetyt uudet hinnat:
 
   |Rivi|**Myynnin tyyppi**|**Myyntikoodi**|Tyyppi|Postinumero|Versiokoodi<br>(lisää kenttä mukautuksen avulla)|Yksikköhinta|
   |------|------------|------------|------------|------------|------------|------------|
   |1|Asiakkaan hintaryhmä|SHOPIFY|Vaihtoehto|1896-S|ESSENTIAL|700|
-  |2|Asiakkaan hintaryhmä|SHOPIFY|Vaihtoehto|1896-S|PREMIUM|1 000|
+  |2|Asiakkaan hintaryhmä|SHOPIFY|Nimike|1896-S|PREMIUM|1 000|
 
-10. Valitse **Myyntialennukset** ja lisää uusi alennus:
+5. Valitse **Myyntialennukset**-toiminto ja lisää uusi alennus:
 
 * **Myynnin tyyppi** *Asiakkaan alennusryhmä*
 * **Myyntikoodi** *RETAIL*
@@ -182,18 +184,18 @@ Valmistele tiedot.
 * **Mittayksikön koodi** *PCS*
 * **Rivialennus-%** *10*
 
-11. Valitse **Nimikeviittaukset** ja lisää seuraavat rivit:
+6. Valitse **Nimikeviittaukset**-toiminto ja lisää seuraavat rivit:
 
   |Rivi|**Viittauksen tyyppi**|**Viittauksen nro**|Versiokoodi|
   |------|------------|------------|------------|
   |1|Viivakoodi|77777777|ESSENTIAL|
   |2|Viivakoodi|11111111|PREMIUM|
 
-12. Sulje **nimikkeen kortti**.
-13. Valitse nimike **1920-S, ANTWERP Conference Table**.
-14. Valitse **Muuta varastoa** ja syötä **Uusi varasto** -kenttään `100` sijainneille *EAST* ja *WEST*. 
-1. Valitse **OK**.
-1. Sulje **nimikkeen kortti**.
+
+Valitse nimike **1920-S, ANTWERP Conference Table** ja suorita seuraavat vaiheet.
+
+1. Valitse **Muuta varastoa** ja syötä **Uusi varasto** -kenttään `100` sijainneille *EAST* ja *WEST*. 
+2. Valitse **OK**.
 
 Säädä synkronointiasetuksia.
 

@@ -2,19 +2,17 @@
 title: Business Centralin ja Dataversen synkronointi
 description: Lisätietoja tietojen synkronoinnissa Business Centralin ja Dataversein välillä.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'sales, crm, integration, sync, synchronize'
-ms.date: 06/14/2021
 ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: conceptual
+ms.date: 03/31/2023
+ms.custom: bap-template
+ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ---
 
 # Business Centralin ja Dataversein synkronoinnin ajoittaminen
 
-
-Voit synkronoida [!INCLUDE[prod_short](includes/prod_short.md)]in ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tietyin väliajoin määrittämällä työt työjonoon. Synkronointityöt synkronoivat [!INCLUDE[prod_short](includes/prod_short.md)]in tietueiden tiedot ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tietueet, jotka on aiemmin yhdistetty. Jos kyse on vielä yhdistämättömistä tietueista synkronointityöt voivat luoda ja yhdistää uusia tietueita kohdejärjestelmässä synkronointisuunnan ja -sääntöjen mukaisesti. 
+Voit synkronoida [!INCLUDE[prod_short](includes/prod_short.md)]in ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tietyin väliajoin määrittämällä työt työjonoon. Synkronointityöt synkronoivat [!INCLUDE[prod_short](includes/prod_short.md)]in tietueiden tiedot ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tietueet, jotka on yhdistetty. Vielä yhdistämättömistä tietueista synkronointityöt voivat luoda ja yhdistää uusia tietueita kohdejärjestelmässä synkronointisuunnan ja -sääntöjen mukaisesti.
 
 Käytettävissä on heti useita synkronointitöitä. Työt suoritetaan seuraavassa järjestyksessä, jotta taulukoiden välille ei muodostu yhdistämisen riippuvuussuhteita. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
 
@@ -44,7 +42,7 @@ Kunkin synkronoinnin työjonotapahtuma käyttää tiettyä integrointitaulukon y
 
 Tietojen synkronointi edellyttää, että [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -taulukon tietueet on yhdistettävä [!INCLUDE[prod_short](includes/prod_short.md)]in tietueisiin. Esimerkiksi [!INCLUDE[prod_short](includes/prod_short.md)]in asiakas on yhdistettävä [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tiliin. Yhdistämiset voidaan määrittää manuaalisesti, ennen kuin suoritat synkronointitöitä tai voit antaa synkronointitöiden määrittää yhdistämiset automaattisesti. Seuraavassa luettelossa käsitellään tietojen synkronointia [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in ja [!INCLUDE[prod_short](includes/prod_short.md)]in välillä, kun käytät synkronoinnin työjonon tapahtumia. Lisätietoja on kohdassa [Tietueiden yhdistäminen ja synkronoiminen manuaalisesti](admin-how-to-couple-and-synchronize-records-manually.md).
 
-- **Synkronoi vain yhdistetyt tietueet** -valintaruutu määrittää, luodaanko uusia tietueita synkronoinnin yhteydessä. Oletusarvon mukaan valintaruutu on valittuna, joten vain kytkettyjä tietueita synkronoidaan. Integraatiotaulukon yhdistämismäärityksissä voit muuttaa taulukon yhdistämismäärityksiä [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in taulukon ja [!INCLUDE[prod_short](includes/prod_short.md)]in taulukon välillä siten, että integroinnin synkronointityöt luovat uudet tietueet kohdetietokantaan kullekin lähdetietokannan riville, jota ei ole yhdistetty. Lisätietoja on kohdassa [Uusien tietueiden luominen](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).
+- **Synkronoi vain yhdistetyt tietueet** -valintaruutu määrittää, luodaanko uusia tietueita synkronoinnin yhteydessä. Oletusarvon mukaan valintaruutu on valittuna, joten vain kytkettyjä tietueita synkronoidaan. Integraatiotaulukon yhdistämismäärityksissä voit muuttaa taulukon yhdistämismäärityksiä [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in taulukon ja [!INCLUDE[prod_short](includes/prod_short.md)]in taulukon välillä siten, että integroinnin synkronointityöt luovat uudet tietueet kohdetietokantaan kullekin lähdetietokannan riville, jota ei ole yhdistetty. Lisätietoja on kohdassa [Uusien tietueiden luominen](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).
 
     **Esimerkki**: Jos tyhjennät **Synkronoi vain yhdistetyt tietueet** -valintaruudun, kun synkronoit [!INCLUDE[prod_short](includes/prod_short.md)] -asiakkaat [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -tilien kanssa, ohjelma luo uuden tilin kullekin asiakkaalle [!INCLUDE[prod_short](includes/prod_short.md)]ssa ja yhdistää sen automaattisesti. Lisäksi koska tässä tapauksessa synkronointi on kaksisuuntainen, uusi asiakas luodaan ja yhdistetään kuhunkin vielä yhdistämättömään [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in tiliin.  
 
@@ -60,6 +58,7 @@ Tietojen synkronointi edellyttää, että [!INCLUDE[cds_long_md](includes/cds_lo
 - Kaksisuuntaisessa synkronoinnissa työ synkronoituu [!INCLUDE[prod_short](includes/prod_short.md)]ista [!INCLUDE[cds_long_md](includes/cds_long_md.md)]iin ja sitten [!INCLUDE[cds_long_md](includes/cds_long_md.md)]sta [!INCLUDE[prod_short](includes/prod_short.md)]iin.
 
 ## Tietoja käyttämättömyyden aikakatkaisusta
+
 Jotkin työjonotapahtumat, esimerkiksi ne, jotka ajoittavat [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:n välisen synkronoinnin, käyttävät Työjonotapahtuma-sivulla **Käyttämättömyyden aikakatkaisu** -kenttää estämään työjonotapahtuman tarpeettoman suorittamisen.  
 
 :::image type="content" source="media/on-hold-with-inactivity-timeout.png" alt-text="Vuokaavio siitä, kun työjonon tapahtumat ovat pidossa käyttämättömyyden vuoksi.":::

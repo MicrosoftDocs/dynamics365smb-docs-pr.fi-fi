@@ -96,7 +96,7 @@ Tuotannon tuoterakenne vaatii 70 metalliosaa, joiden dimensioiden pituus = 0,20 
 
 [Uusien reititysten luominen](production-how-to-create-routings.md)  
 [Tuotevarianttien hallinta](inventory-item-variants.md)  
-[Vaihekuvaus: Variantit](contoso-coffee/variants.md)  
+[Vaihekuvaus: Variantit](contoso-coffee/manufacturing/variants.md)  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
 [Tuotanto](production-manage-manufacturing.md)  
 [Suunnittelu](production-planning.md)  

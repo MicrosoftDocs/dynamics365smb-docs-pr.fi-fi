@@ -18,11 +18,11 @@ On tehokasta suorittaa joitakin tehtäviä samanaikaisesti ja automatisoidusti. 
 
 ## Tehtävien suorittaminen taustalla tietyn myymälän osalta
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeeseen, kirjoita **Shopify-myymälän** nimi ja valitse myymälän nimi luettelosta.
-2. Valitse kauppa, jolle haluat synkronoida nimikkeet avataksesi **Shopify-ostoskortti**-sivun.
-3. Ota käyttöön **Salli taustasynkronointi** -vaihtonäppäin.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Shopify-kauppa** ja valitse vastaava linkki.
+2. Valitse kauppa, jolle haluat suorittaa synkronoinnin taustalla avataksesi **Shopify-ostoskortti**-sivun.
+3. Ota **Salli synkronointi taustalla** -valitsin käyttöön.
 
-Nyt kun synkronointitoiminto käynnistetään, se pyytää sinua odottamaan edustalla suoritettavan tehtävän sijaan. Kun se on valmis, voit siirtyä seuraavaan toimintoon. Tehtävä luodaan **Työjonotapahtumana**, ja se alkaa heti estämättömällä tavalla.
+Nyt kun synkronointitoiminto käynnistetään, se pyytää sinua odottamaan edustalla suoritettavan tehtävän sijaan. Kun se on valmis, voit siirtyä seuraavaan toimintoon. Tehtävä luodaan **Työjonotapahtumana**, ja se alkaa heti.
 
 ## Toistuvien tehtävien ajoittaminen
 
@@ -41,6 +41,15 @@ Voit ajoittaa seuraavat toistuvat aktiviteetit suoritettavaksi automaattisesti. 
 
 > [!NOTE]
 > Useat tehtävät voivat päivittää joitakin elementtejä, esimerkiksi silloin, kun tuot tilauksia **Shopify-ostoskortin** asetuksen mukaan, järjestelmä voi myös tuoda ja päivittää asiakkaan ja/tai tuotteen tietoja. Muista käyttää samaa työjonon luokkaa ristiriitojen välttämiseksi.
+
+Muita tehtäviä, joita voi olla hyödyllistä automatisoida myyntiasiakirjojen edelleenkäsittelyssä:
+
+- raportti 497 Eräkirjaa ostolaskut
+- raportti 496 Eräkirjaa ostotilaukset
+
+Voit käyttää **Shopify-tilausnro**-kenttää -kentästä tuotujen Shopify-myyntiasiakirjojen yksilöimiseksi.
+
+Saat lisätietoja myyntitilausten kirjaamisesta erään siirtymällä kohtaan [Työjonotapahtuman luonti myyntitilausten eräkirjausta varten](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
 ## Katso myös
 

@@ -1,19 +1,19 @@
 ---
 title: 'Toimintaohje: Vastuupaikkojen käyttäminen'
 description: 'Vastuupaikat hallintokeskuksina auttavat yrityksiä määrittämällä käyttäjäkohtaiset näkymät myynti- ja ostoasiakirjoista, jotka liittyvät yksinomaan tiettyyn vastuukeskukseen.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.search.forms: '5714, 5715'
-ms.date: 06/16/2021
-ms.author: edupont
+ms.date: 03/09/2023
+ms.author: bholtorf
 ---
 # Vastuupaikkojen käyttäminen
 
-Vastuupaikat mahdollistavat hallintakeskusten käsittelemisen. Vastuupaikka voi olla kustannuspaikka, kannattavuuspaikka, sijoituspaikka tai muu yrityksen määrittämä hallintapaikka. Vastuupaikkoja ovat esimerkiksi myyntitoimistot, usean sijainnin osto-osastot sekä tehtaan suunnittelutoimistot. Tällä toiminolla yritykset voivat esimerkiksi määrittää käyttäjäkohtaiset näkymät ainoastaan tiettyyn vastuupaikkaan liittyville osto- ja myyntiasiakirjoille.  
+Vastuupaikat mahdollistavat hallintakeskusten käsittelemisen. Vastuupaikka voi olla kustannuspaikka, kannattavuuspaikka, sijoituspaikka tai muu yrityksen määrittämä hallintapaikka. Vastuupaikkoja ovat esimerkiksi myyntitoimistot, usean sijainnin osto-osastot sekä tehtaan suunnittelutoimistot. Yritykset voivat esimerkiksi määrittää käyttäjäkohtaiset näkymät tiettyyn vastuupaikkaan liittyville osto- ja myyntiasiakirjoille.  
 
 Useiden sijaintien käyttäminen yhdessä vastuupaikan kanssa mahdollistaa yritystoimintojaan hallinnan joustavasti ja optimaalisesti.
 
@@ -25,7 +25,7 @@ Kun käytössä on useita sijainteja, yritykset voivat hallita varastoa useista 
 2. Valitse **Uusi**-toiminto.  
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-    Jos käytät vastuupaikkoja yrityksesi hallinnoimisessa, voi olla hyödyllistä määrittää yrityksen vastuupaikalle oletusarvo.
+    Jos käytät vastuupaikkoja yrityksesi hallinnoimisessa, voi olla hyödyllistä määrittää vastuupaikalle oletusarvo.
 4. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yrityksen tiedot** ja valitse sitten vastaava linkki.
 5. Anna vastuupaikan koodi **Vastuupaikka**-kentässä.
 
@@ -36,7 +36,7 @@ Tätä koodia käytetään kaikissa osto-, myynti- ja huoltoasiakirjoissa, jos k
 
 ## Vastuupaikkojen liittäminen käyttäjiin
 
-Voit määrittää käyttäjät siten, että käyttäjien päivittäisissä työtehtävissä sovellus hakee vain kyseiseen aihealueeseen liittyvät asiakirjat. Käyttäjät on yleensä liitetty yhteen vastuupaikkaan, ja he työskentelevät vain sen vastuupaikan tiettyihin sovellusalueisiin liittyvien asiakirjojen parissa.  
+Voit määrittää käyttäjät siten, että [!INCLUDE [prod_short](includes/prod_short.md)] hakee vain kyseiseen aihealueeseen liittyvät asiakirjat. Käyttäjät on yleensä liitetty yhteen vastuupaikkaan, ja he työskentelevät vain sen vastuupaikan tiettyihin sovellusalueisiin liittyvien asiakirjojen parissa.  
 
 Määritä tämä määrittämällä vastuupaikat käyttäjille kolmella toiminta-alueella: ostoissa, myynnissä ja huoltohallinnossa.  
 
@@ -58,6 +58,6 @@ Määritä tämä määrittämällä vastuupaikat käyttäjille kolmella toimint
 [Varasto](inventory-manage-inventory.md)  
 [Varastonhallinnan yleiskatsaus](design-details-warehouse-management.md)
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen](ui-work-product.md)  
-
+[Laskun kirjauskäytännön määrittäminen käyttäjille](admin-setup-invoice-posting-policy.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

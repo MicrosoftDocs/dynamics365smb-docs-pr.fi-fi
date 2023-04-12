@@ -22,7 +22,7 @@ Voit määrittää kirjausjaksojen avulla, milloin käyttäjät voivat tehdä ki
 2. Määritä jakso **Pääkirjanpidon asetukset** -sivulla antamalla päivämäärät **Ensimm. sallittu kirjauspvm**- ja **Viimeinen sallittu kirjauspvm** -kenttiin.  
 
 > [!NOTE]  
-> Nämä kirjausjaksot koskevat yritystä ja kaikki käyttäjiä. Voit sallia poikkeukset määrittämällä eri kirjausjaksot tietyille käyttäjille **Käyttäjäasetukset**-sivulla. Nämä kirjausjaksot ohittavat **Pääkirjanpidon asetukset** -sivulla määritetyt jaksot. Lisätietoja on kohdassa [Käyttäjän aikarajoitteiden määrittäminen](ui-define-granular-permissions.md#to-set-up-user-time-constraints).
+> Nämä kirjausjaksot koskevat yritystä ja kaikki käyttäjiä. Voit sallia poikkeukset määrittämällä eri kirjausjaksot tietyille käyttäjille **Käyttäjäasetukset**-sivulla. Nämä kirjausjaksot ohittavat **Pääkirjanpidon asetukset** -sivulla määritetyt jaksot. Lisätietoja on kohdassa [Käyttäjien aikarajoitteiden määrittäminen](ui-define-granular-permissions.md#to-set-up-time-constraints-for-users).
 
 ## Katso myös
 

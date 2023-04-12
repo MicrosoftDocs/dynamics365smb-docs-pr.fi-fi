@@ -69,9 +69,9 @@ Tässä vaihekuvauksessa esitellään töiden projektinhallintatoiminnot. Projek
 
 ## Taustatietoja
 
-Tämä vaihekuvaus keskittyy CRONUS-nimiseen suunnittelu- ja konsulttifirmaan, joka suunnittelee ja sovittaa uusia infrastruktuureja, kuten konferenssihalleja ja toimistoja huonekaluineen, tarvikkeineen ja varastointiyksikköineen. Sen useimmat työt projektisuuntautuneita. Thomas on projektipäällikkö yrityksessä CRONUS. Käynnissä olevien kohteen CRONUS käynnistämien projektien ansiosta hän saa yleiskäsityksen jokaisesta meneillään olevasta ja valmiista projektista. Hän järjestää tavallisesti kaupat asiakkaiden kanssa ja lisää projektin ydintiedot, joita olivat tehtävä- ja suunnittelurivit sekä hinnat, [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan. Hän toteaa, että tietojen luominen, ylläpitäminen ja tarkistaminen on suoraviivaista. Thomas pitää myös tavasta, jolla [!INCLUDE[prod_short](includes/prod_short.md)] mahdollistaa töiden kopioinnin ja maksamisen osamaksuina.
+Tämä vaihekuvaus keskittyy CRONUS-nimiseen suunnittelu- ja konsulttifirmaan, joka suunnittelee ja sovittaa uusia infrastruktuureja, kuten konferenssihalleja ja toimistoja huonekaluineen, tarvikkeineen ja varastointiyksikköineen. Sen useimmat työt projektisuuntautuneita. Thomas, CRONUSin projektipäällikkö, saa käynnissä olevien CRONUSin käynnistämien projektien ansiosta yleiskäsityksen jokaisesta meneillään olevasta ja valmiista projektista. Thomas järjestää tavallisesti kaupat asiakkaiden kanssa ja lisää projektin ydintiedot, joita olivat tehtävä- ja suunnittelurivit sekä hinnat, [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan. Thomas toteaa, että tietojen luominen, ylläpitäminen ja tarkistaminen on suoraviivaista. Thomas pitää myös tavasta, jolla [!INCLUDE[prod_short](includes/prod_short.md)] mahdollistaa töiden kopioinnin ja maksamisen osamaksuina.
 
- Projektitiimin jäsen Marianne, joka työskentelee Thomasin alaisena, on projektin päivittäinen vastuuhenkilö. Hän kirjoittaa oman työn lisäksi teknikoiden suorittaman työn jokaisen tehtävän kohdalle. Hän kirjaa nimikkeet, jotka he ovat käyttäneet ja kustannukset, jotka he ovat aiheuttaneet.  
+ Projektitiimin jäsen Marianne, joka työskentelee Thomasin alaisena, on projektin päivittäinen vastuuhenkilö. Marianne lisää paitsi omat työt myös teknikoiden kussakin tehtävässä suorittamat työt, mukaan lukien työssä käytetyt nimikkeet ja työstä kertyneet kustannukset.  
 
 ## Esimerkkitietojen valmisteleminen
 
@@ -208,7 +208,7 @@ Seuraavassa toimenpiteessä luot projektipäiväkirjan erän Mariannea varten, j
 
 ## Jäljellä olevan käytön laskeminen
 
- Marianne, projektiryhmän jäsen, on tehnyt työtä projektissa jonkin aikaa ja haluaa rekisteröidä omat tuntinsa ja käytön projektissa. Työmäärä ja käyttö eivät ole ylittäneet asiakkaan kanssa sovittua määrää. Hän laskee **Laske jäljellä oleva käyttö** -eräajon avulla projektin jäljellä olevan käytön projektipäiväkirjaan. Erätyö laskee kullekin tehtävälle nimikkeiden, resurssien ja kirjanpitokustannusten suunnitellun käytön ja projektitapahtumiin kirjatun todellisen käytön välisen eron. Jäljellä oleva käyttö tulee näkyviin projektipäiväkirjaan, josta sen voi kirjata.  
+ Marianne, projektiryhmän jäsen, on tehnyt työtä projektissa jonkin aikaa ja haluaa rekisteröidä omat tuntinsa ja käytön projektissa. Työmäärä ja käyttö eivät ole ylittäneet asiakkaan kanssa sovittua määrää. Marianne laskee **Laske jäljellä oleva käyttö** -eräajon avulla projektin jäljellä olevan käytön projektipäiväkirjaan. Erätyö laskee kullekin tehtävälle nimikkeiden, resurssien ja kirjanpitokustannusten suunnitellun käytön ja projektitapahtumiin kirjatun todellisen käytön välisen eron. Jäljellä oleva käyttö tulee näkyviin projektipäiväkirjaan, josta sen voi kirjata.  
 
 ### Jäljellä olevan käytön laskeminen  
 
@@ -226,7 +226,7 @@ Rivit kirjataan.
 
 ## Projektin myyntilaskun luominen ja kirjaaminen
 
- Seuraavaksi Marianne voi luoda uuden laskun koko projektia tai projektin osaa varten. Voit myös liittää laskun saman asiakkaan toiseen, samaa projektia koskevaan laskuun. Tällöin hän laskuttaa koko projektista, koska projekti on nyt valmis.  
+ Seuraavaksi Marianne voi luoda uuden laskun koko projektia tai projektin osaa varten. Marianne voi myös liittää laskun saman asiakkaan toiseen, samaa projektia koskevaan laskuun. Tällöin Marianne laskuttaa koko projektista, koska projekti on nyt valmis.  
 
 ### Projektin myyntilaskun luominen  
 
@@ -236,7 +236,7 @@ Rivit kirjataan.
 4.  Anna **Vaihtoehdot**-pikavälilehdessä kirjauspäivämäärä ja määritä, haluatko luoda yhden laskun tehtävää kohti vai yhden laskun kaikille tehtäville.  
 5.  Luo lasku valitsemalla **OK**-painike ja valitse sitten **OK**-painike vahvistussivulla.  
 
- Kun Tricia on luonut laskun, hän voi käyttää sitä esimerkiksi **Myyntitilausten käsittelijän** roolikeskuksessa. 
+ Kun Marianne on luonut laskun, hän voi käyttää sitä esimerkiksi **Myyntitilausten käsittelijän** roolikeskuksessa. 
 
 ### Uuden myyntilaskun kirjaaminen  
 
@@ -280,7 +280,7 @@ Rivit kirjataan.
 5. Kaksoisnapsauta **Budjetti (kokonaiskustannus)** -kenttää hiiren kakkospainikkeella ja valitse uudelleen **Siirtyminen** **Projektitehtävärivit**-sivulla. Tarkastele muutoksia aikatauluun. Kuten huomaat, aikatauluun on lisätty 30 tuntia.  
 6. Sulje sivut.  
 
-Kun Marianne on lisätty aikatauluun tämän tehtävärivin osalta, hän työskentelee projektissa 25 tuntia. Hän lisää nämä tunnit projektipäiväkirjaan.  
+Kun Marianne on lisätty aikatauluun tämän tehtävärivin osalta, hän työskentelee projektissa 25 tuntia. Nämä tunnit voidaan lisätä projektipäiväkirjaan.  
 
 ### Tuntien lisääminen projektipäiväkirjaan  
 
@@ -298,7 +298,7 @@ Kun Marianne on lisätty aikatauluun tämän tehtävärivin osalta, hän työske
 
 3. Valitse **Kirjaa**-toiminto.  
 
-     Muutamaa päivää myöhemmin Marianne tekee vielä 10 tuntia töitä projektissa. Hän on nyt tehnyt töitä yhteensä 35 tuntia. Koska asiakkaan kanssa on sovittu vain 30 tunnista, tunneista vain viisi laskutetaan asiakkaalta. Marianne lisää manuaalisesti aikatauluun viisi lisätuntia, jotka hän on työskennellyt.  
+     Muutamaa päivää myöhemmin Marianne työskentelee vielä 10 tuntia, ja on nyt työskennellyt 35 tuntia. Koska asiakkaan kanssa on sovittu vain 30 tunnista, tunneista vain viisi laskutetaan asiakkaalta. Marianne lisää manuaalisesti aikatauluun viisi lisätuntia, jotka hän on työskennellyt.  
 
 4. Valitse **Projektipäiväkirja**-sivulla **Laske jäljellä oleva käyttö**-toiminto.  
 5. Lisää seuraavat tiedot **Laske projektin jäljellä oleva käyttö** -sivun **Vaihtoehdot**-pikavälilehteen:  

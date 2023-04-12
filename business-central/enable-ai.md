@@ -39,7 +39,7 @@ Käytössäsi on Copilot-käyttöön otettu Business Centralin [esiversio](ai-pr
 
 ## Seuraavat vaiheet
 
-Kun olet saanut eristysympäristön tai kokeiluympäristön, voit kokeilla Copilotia Business Centralin nimikkeille. Siirry kohtaan [Markkinointitekstin lisääminen nimikkeille](item-marketing-text.md).  
+Kun olet ottanut ominaisuuden käyttöön ja hyväksynyt sen, voit kokeilla Copilotia Business Centralin nimikkeille. Siirry kohtaan [Markkinointitekstin lisääminen nimikkeille](item-marketing-text.md).  
 
 ## Katso myös
 

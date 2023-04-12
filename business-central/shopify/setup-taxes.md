@@ -10,37 +10,57 @@ ms.author: andreipa
 
 # Määritä Shopify-yhteyden verot
 
-Tässä artikkelissa selvitetään, miten eri asetukset Shopifyssa vaikuttavat kaupan hintoihin ja veroihin, jotka näkyvät asiakkaalle. Otamme myös tarkastella, miten määrittää [!INCLUDE[prod_short](../includes/prod_short.md)] tukemaan Shopifyn asetuksia. Tätä artikkelia ei ole tarkoitettu kattavaksi verotusoppaaksi. Saat lisätietoja paikalliselta veroviranomaiselta tai veroasiantuntijalta.  
+Tässä artikkelissa selvitetään, miten eri asetukset Shopifyssa vaikuttavat kaupan hintoihin ja veroihin, jotka näkyvät asiakkaalle. Katsomme myös, miten määrittää [!INCLUDE[prod_short](../includes/prod_short.md)] tukemaan Shopifyn asetuksia. Tätä artikkelia ei ole tarkoitettu kattavaksi verotusoppaaksi. Saat lisätietoja paikalliselta veroviranomaiselta tai veroasiantuntijalta.  
 
 Artikkelissa oletetaan, että olet velvollinen maksamaan veroja myydessäsi tavaroita paikallisesti tai kansainvälisesti.
 
 ## Jos myyt kotimaassa
 
 Kun olet määrittänyt oman Shopifyn keräämään veroja kotimaassa tai -alueella, voit päättää, miten haluat näyttää hinnat kaupassa.
-Voit hallita tätä ottamalla käyttöön tai poistamalla käytöstä **Kaikki hinnat sisältävät verot** -valinnan **Shopify-järjestelmänvalvojan** [**verot ja tullit**](https://www.shopify.com/admin/settings/taxes) -asetuksissa.
 
-On tavallista, että tämä vaihtoehto otetaan käyttöön esimerkiksi Australiassa, Itävallassa, Belgiassa, Tšekissä, Tanskassa, Suomessa, Ranskassa, Saksassa, Islannissa, Italiassa, Alankomaissa, Uudessa-Seelannissa, Norjassa, Espanjassa, Ruotsissa, Sveitsissä ja Yhdistyneessä kuningaskunnassa. Tämänkaltaisten markkinoiden hinta *100 EUR* on määritelty tuotekortissa sisältämään arvonlisäveron (ALV) ja tämä sama hinta näkyy asiakkaalle kaupassa ja kassalla.  
+Voit määrittää, sisällytetäänkö verot hintoihin, ottamalla kaikki **Kaikki hinnat sisältävät ALV:n** -valinnan käyttöön tai poistamalla sen käytöstä [**Verot ja velvollisuudet**](https://www.shopify.com/admin/settings/taxes) -asetuksissa **Shopify-hallinnassa**.
 
-Yhdysvalloissa ja Kanadassa asiakkaat odottavat näkevänsä tuotehinnat ilman veroja, jotka lisätään kassalla. **Kaikki hinnat sisältävät ALV:n** -kenttää ei siis yleensä valita. Tässä tapauksessa tuotekortissa määritetty hinta *$100* vastaa hintaa ilman veroa. Kassalla hinnan päälle lisätään verot, jotka vastaavat maksettavaa loppusummaa.
+Valinta on yleensä käytössä seuraavissa maissa:
 
-Jos haluat tukea skenaariota, jossa **Kaikki hinnat sisältävät veron** on valittuna [!INCLUDE[prod_short](../includes/prod_short.md)] -puolella, täytä **asiakasmallin koodi** -kenttä **Shopify-ostoskortti**-sivulla, jotta voit käyttää mallia seuraavilla määritetyillä kentillä:  
+* Australia
+* Itävalta
+* Belgia
+* Tšekin tasavalta
+* Tanska
+* Suomi
+* Ranska
+* Saksa
+* Islanti
+* Italia
+* Alankomaat
+* Uusi-Seelanti
+* Norja
+* Espanja
+* Ruotsi
+* Sveitsi
+* Yhdistynyt kuningaskunta. 
 
-1. **Yleinen liiketoiminnan kirjausryhmä**, käytetään kotimaan asiakkaille.  
-2. **ALV-liiketoiminnan kirjausryhmä**, käytetään kotimaan asiakkaille.  
-3. **Hinnat sisältävät ALV:n** -arvo on *Kyllä*.  
+Tällaisilla markkinoilla tuotekortissa määritetty 100 EUR hinta sisältää jo arvonlisäveron (ALV). Hinta, sisältäen ALV:n, näkyy asiakkaalle myymälässä ja kassalla.  
 
-Määritä nimikehinnat nyt **nimikekortti**- tai **myyntihintaluettelo**-kentässä joko veroineen tai ilman niitä. Kun tuot hintoja Shopify -järjestelmään, järjestelmä laskee hinnan niin, että se sisältää kotimaiset verot, ja näyttää sitten kyseisen hinnan Shopifyn tuotekortissa.
+USA:ssa ja Kanadassa asiakkaat eivät odota hintojen sisältävän veroa. Vero lisätään kassalla, joten **Kaikki hinnat sisältävät ALV:n** -valinta on yleensä pois päältä. Tässä tapauksessa tuotekortissa määritetty hinta $100 vastaa hintaa ilman veroa. Kassalla verot lisätään hintaan.
 
-> [!NOTE]
-> Jos olet määrittänyt Shopify-yhdistimen luomaan asiakkaat automaattisesti, sinun täytyy ehkä lisää kenttiä malliin, esimerkiksi **asiakkaan kirjausryhmä**. Jos olet käyttänyt tuotujen tilausten oletusasiakasta, varmista, että asiakkaaseen on täytetty samat kentät. Sinun tulee silti täyttää yllä esitetyn mukaisesti **Asiakkaan mallikoodi**, koska **Hinnat sisältävät veron**/**Hinnat sisältävät ALV:n** -kenttä ei riipu asiakkaasta, vaan Shopify-kauppakortin maakohtaisen asiakasmalli-kentän **Asiakasmallista**.
+Jos haluat tukea skenaariota, jossa **Kaikki hinnat sisältävät ALV:n** on valittuna, kohteessa [!INCLUDE[prod_short](../includes/prod_short.md)] täytä seuraavat kentät **Shopify-ostoskortin** sivulla:  
+
+1. Ota käyttöön **Hinnat sisältävät ALV:n**.  
+2. Valitse **ALV-liiketoiminnan kirjausryhmä** -kentässä kotimaan asiakkaille käytettävä kirjausryhmä.  
+
+Määritä nimikehinnat nyt **nimikekortti**- tai **myyntihintaluettelo**-kentässä joko veroineen tai ilman niitä. Kun tuot hintoja Shopifyhyn, [!INCLUDE [prod_short](../includes/prod_short.md)] laskee hinnan niin, että se sisältää kotimaiset verot, ja näyttää sitten kyseisen hinnan Shopifyn tuotteessa.
+
+[!Note]
+> Nämä asetukset vaikuttavat hintojen vientiin. Kun tuot tilauksia Shopifysta, **Hinnat sisältävät ALV:n** -kentän asetus **asiakasmallista** Shopify-ostoskortista tai asiakasmallista maata kohti. Vaikka käytät tuotujen tilausten oletusasiakasta, sinun täytyy täyttää **Asiakasmallin koodi**.
 
 ## Jos myyt ulkomailla
 
 Tässä osassa tutkitaan sellaisten skenaarioiden asetuksia, joissa sinulta kerätään veroja, kun myyt toiseen maahan, kuten muihin EU-maihin.
 
-Tällä hetkellä **Shopify-yhdistin**-laajennus tukee vain yhden hinnan vientiä. Shopify käyttää automaattisesti paikallisia veroja, valuuttoja ja pyöristystä. **Kaikkiin hintoihin sisältyy vero** -vaihtoehto, joka johtaa seuraavissa alikohdissa kuvattuihin toimintoihin.
+Tällä hetkellä Shopify-yhdistin sallii vain yhden hinnan viemisen. Shopify käyttää automaattisesti paikallisia veroja, valuuttoja ja pyöristystä. **Kaikkiin hintoihin sisältyy vero** -vaihtoehto, joka johtaa seuraavissa alikohdissa kuvattuihin toimintoihin.
 
-### *Kaikki hinnat sisältävät ALV:n* on valittu
+### Kaikki hinnat sisältävät ALV:n on valittu
 
 |-|Kotimaan myynti|Ulkomaa, jossa keräät veroja|Ulkomaa, jossa et kerää veroja|
 |------------------------|--------|--------|--------|
@@ -50,7 +70,7 @@ Tällä hetkellä **Shopify-yhdistin**-laajennus tukee vain yhden hinnan vienti�
 
 Hinta asiakkaalle säilyy ennallaan, riippumatta heidän sijainnistaan, mutta marginaali muuttuu eri maiden verokantojen vuoksi.
 
-### *Kaikki hinnat sisältävät ALV:n* ei ole valittu
+### Kaikki hinnat sisältävät ALV:n ei ole valittu
 
 |-|Kotimaan myynti|Ulkomaa, jossa keräät veroja|Ulkomaa, jossa et kerää veroja|
 |------------------------|--------|--------|--------|
@@ -62,14 +82,14 @@ Shopify lisää paikalliset verot tuotekortissa määritetyn hinnan päälle sen
 
 ## Dynaaminen verot sisältävä hinnoittelu
 
-Koska eri mailla on erilaiset vaatimukset riippuen siitä, onko verot sisällytetty näkyvään hintaan vai ei, voit siirtyä [dynaamiseen verolliseen hinnoitteluun](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing) Shopifyssa. Tämä automatisoi veronsisällyttämistoiminnon.
+Maissa on erilaiset vaatimukset, jotka koskevat verottoman hinnan sisällyttämistä. Jos haluat, että hinnat sisältävät ALV:n automaattisesti, voit ottaa [dynaamisen verot sisältävän hinnoittelun](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing) käyttöön Shopifyssa.
 
 Valitse **Sisällytä tai jätä pois verot asiakkaan maan mukaan** **Muut markkinat - Asetukset** -osassa [**Markkinat**](https://www.shopify.com/admin/settings/markets)-asetuksissa **Shopify-järjestelmänhallinnassa**.  
 
 > [!NOTE]
-> Tämä asetus ei vaikuta hintojen näyttämiseen kotimaan markkinoilla, joita ohjaa **Kaikki hinnat sisältävät veron** -vaihtoehto.
+> Tämä asetus ei vaikuta hintoihin kotimaan markkinoilla, joita ohjaa **Kaikki hinnat sisältävät veron** -vaihtoehto.
 
-### *Kaikki hinnat sisältävät ALV:n* on valittu
+### Kaikki hinnat sisältävät ALV:n on valittu
 
 |-|Kotimaan myynti|Ulkomaa, jossa vero sisältyy hintaan|Ulkomaa, jossa vero ei sisälly hintaan|
 |------------------------|--------|--------|--------|
@@ -79,7 +99,7 @@ Valitse **Sisällytä tai jätä pois verot asiakkaan maan mukaan** **Muut markk
 
 Kunkin asiakkaan hinta muuttuu heidän sijaintinsa mukaan.
 
-### *Kaikki hinnat sisältävät ALV:n* ei ole valittu
+### Kaikki hinnat sisältävät ALV:n ei ole valittu
 
 |-|Kotimaan myynti|Ulkomaa, jossa vero sisältyy hintaan|Ulkomaa, jossa vero ei sisälly hintaan|
 |------------------------|--------|--------|--------|
@@ -101,53 +121,52 @@ Valitse [**verot ja velvollisuudet**](https://www.shopify.com/admin/settings/tax
 |Mikroyritysten vapauttaminen|Kotimaan veroprosentin käyttäminen kaikessa myynnissä EU:ssa|
 |Keskitetty palvelupiste tai maakohtainen rekisteröinti|Käytä asiakkaan maan ALV-prosenttia|
 
-
 ### ALV-joukon nouto yhden luukun rekisteröinnistä
 
 Seuraavassa esimerkissä **Kaikki hinnat sisältävät veron** -vaihtoehto on käytössä. Tuotekortissa olevan hinnan arvo on *1200*.
-        
+
 |-|Kotimaan myynti|Ulkomaa|
 |------------------------|--------|--------|
 |Hinta näkyy kaupassa|1200|1250|
 |Veroprosentti|20|25|
-|Hinta kassalla|1200|1250|       
-        
+|Hinta kassalla|1200|1250|
+
 ### ALV:n kerääminen mikroyritysten vapautuksesta
 
 Seuraavassa esimerkissä **Kaikki hinnat sisältävät veron** -vaihtoehto on käytössä. Tuotekortissa olevan hinnan arvo on *1200*.
-        
+
 |-|Kotimaan myynti|Ulkomaan veroprosentti on 25 prosenttia.|
 |------------------------|--------|--------|
 |Hinta näkyy kaupassa|1200|1200|
 |Veroprosentti|20|20|
-|Hinta kassalla|1200|1200|           
-    
+|Hinta kassalla|1200|1200|
+
 Shopify ei ota huomioon ulkomaan veroprosenttia lopullista hintaa laskettaessa ja käyttää kotimaan veroprosenttia.
 
 ## Kansainvälisille asiakkaille myytyjen Shopify-tilausten tuominen
 
-Jos keräät veroja useista maista, sinun on todennäköisesti määritettävä maakohtaiset asetukset kohdassa [!INCLUDE[prod_short](../includes/prod_short.md)]. Tämä on pakollista, koska kun myyntiasiakirja luodaan [!INCLUDE[prod_short](../includes/prod_short.md)] -järjestelmässä, järjestelmä laskee verot Shopify-ohjelman tuomien tietojen uudelleenkäytön sijaan.
+Jos keräät veroja useista maista, sinun on määritettävä maakohtaiset asetukset kohdassa [!INCLUDE[prod_short](../includes/prod_short.md)]. On olemassa syy, miksi tämä asetus on välttämätön. Kun myyntiasiakirja luodaan [!INCLUDE[prod_short](../includes/prod_short.md)]-ohjelmassa, [!INCLUDE [prod_short](../includes/prod_short.md)] laskee verot sen sijaan, Shopifysta tuodut verot käytetään uudelleen.
 
-Maa-/aluekohtaiset asetukset valitaan **Shopify-asiakasmalli**-ikkunassa. Siellä voit määrittää **oletusasiakasnron** tai **Asiakasmallinron**. Varmista kummassakin tapauksessa, että valittuun asiakkaaseen tai malliin on määritetty seuraavat kentät:
+Maa-/aluekohtaiset asetukset valitaan **Shopify-asiakasmalli**-sivulla. Voit määrittää **oletusasiakasnron** tai **Asiakasmallinron**. Varmista kummassakin tapauksessa, että valittuun asiakkaaseen tai malliin on täytetty seuraavat kentät:
 
 1. **Yleinen liiketoiminnan kirjausryhmä** (käytetään ulkomaan asiakkaille).
 2. **ALV-liiketoiminnan kirjausryhmä** (käytetään ulkomaan asiakkaille).
 3. **Hinnat sisältävät ALV:n** (yhdenmukaistettu asetus Shopify-puolella):
-* Valitse *Kyllä*, jos **kaikki hinnat sisältävät ALV:n** -asetus on käytössä ja jos **Sisällytä tai sulje pois vero asiakkaan maan perusteella** on poistettu käytöstä.
-* Valitse *Ei*, jos **kaikki hinnat sisältävät ALV:n** -asetus on poissa käytöstä ja jos **Sisällytä tai sulje pois vero asiakkaan maan perusteella** on poistettu käytöstä.
-* Valitse *Kyllä*, jos **sisällytä tai poissulje verot asiakkaan maan perusteella** on käytössä ja maa tai alue on luetteloitu kohdassa [verot sisällyttävät maat](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing#tax-inclusive-versus-tax-exclusive-countries-and-regions).
-* Valitse *Ei*, jos **sisällytä tai poissulje verot asiakkaan maan perusteella** on käytössä ja maa/alue ei ole luetteloitu kohdassa [verot sisällyttävät maat](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing#tax-inclusive-versus-tax-exclusive-countries-and-regions).
 
-[!Note]
-> **Hinnat sisältävät ALV:n** -kentän asetus tulee mallista, ei tietyltä asiakkaalta. Siksi on tärkeää, että asiakasmalli on määritetty.
+* Valitse **Kyllä**, jos **kaikki hinnat sisältävät ALV:n** -asetus on käytössä ja jos **Sisällytä tai sulje pois vero asiakkaan maan perusteella** on poistettu käytöstä.
+* Valitse **Ei**, jos **kaikki hinnat sisältävät ALV:n** -asetus on poissa käytöstä ja jos **Sisällytä tai sulje pois vero asiakkaan maan perusteella** on poistettu käytöstä.
+* Valitse **Kyllä**, jos **sisällytä tai poissulje verot asiakkaan maan perusteella** on käytössä ja maa tai alue on luetteloitu kohdassa [verot sisällyttävät maat](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing#tax-inclusive-versus-tax-exclusive-countries-and-regions).
+* Valitse **Ei**, jos **sisällytä tai poissulje verot asiakkaan maan/alueen perusteella** on käytössä ja maa/alue ei ole luetteloitu kohdassa [verot sisällyttävät maat/alueet](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing#tax-inclusive-versus-tax-exclusive-countries-and-regions).
+
+> [!NOTE]
+> **Hinnat sisältävät ALV:n** -kentän asetus tulee mallista, ei tietyltä asiakkaalta. On tärkeää määrittää asiakasmalli.
 
 ## Muut verohuomautukset
 
 Kun tuotu Shopify-tilaus sisältää tietoja veroista, verot lasketaan uudelleen, kun luot myyntiasiakirjan. Tämä uudelleenlaskenta tarkoittaa, että on tärkeää, että ALV-/veroasetukset ovat [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa oikein.
 
-- Tuotteiden useat vero- tai ALV-prosentit. Esimerkiksi jotkin tuoteluokat ovat kelvollisia alennettuihin veroprosentteihin. Voit käyttää [veron ohitus](https://help.shopify.com/en/manual/taxes/tax-overrides#create-a-manual-collection-for-products-that-need-a-tax-override) -toimintoa Shopifyssa. Kun nimikkeet tuodaan ja luodaan [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa, ne käyttävät veroasetuksia, jotka on täytetty Shopify-kaupan nimikemallin koodikohdassa. Ennen tilausten tuomista tällaisille nimikkeille sinun täytyy päivittää tuotteen ALV-kirjausryhmä.  
-
-- Osoiteriippuvainen veroaste. Käytä **veroalueprioriteetti**-kenttää yhdessä **asiakasmallit**-taulukon kanssa, kun haluat korvata vakiologiikan, joka täyttää myyntiasiakirjan **veroaluekoodin**. **Veroalueen prioriteetti** -kentässä määritetään prioriteetti, josta toiminnon tulisi ottaa tietoja maasta tai alueesta ja osavaltiosta tai maakunnasta. Tämän jälkeen Shopify-asiakasmallien vastaava tietue tunnistetaan ja **Veroalueen koodi**-, **Verovelvollinen**- ja **Liiketoiminnan ALV-kirjausryhmä** -kenttiä käytetään, kun myyntiasiakirja luodaan.  
+* Tuotteiden useat vero- tai ALV-prosentit. Esimerkiksi jotkin tuoteluokat ovat kelvollisia alennettuihin veroprosentteihin. Voit käyttää [veron ohitus](https://help.shopify.com/en/manual/taxes/tax-overrides#create-a-manual-collection-for-products-that-need-a-tax-override) -toimintoa Shopifyssa. Kun nimikkeet tuodaan ja luodaan [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa, ne käyttävät veroasetuksia, jotka on määritetty Shopify-kaupan nimikemallin koodikohdassa. Ennen tilausten tuomista tällaisille nimikkeille sinun täytyy päivittää tuotteen ALV-kirjausryhmä.  
+* Osoiteriippuvainen veroaste. Käytä **veroalueprioriteetti**-kenttää yhdessä **asiakasmallit**-taulukon kanssa, kun haluat korvata vakiologiikan, joka täyttää myyntiasiakirjan **veroaluekoodin**. **Veroalueen prioriteetti** -kentässä määritetään prioriteetti, josta toiminnon tulisi ottaa tietoja maasta tai alueesta ja osavaltiosta tai maakunnasta. Tämän jälkeen Shopify-asiakasmallien vastaava tietue tunnistetaan ja **Veroalueen koodi**-, **Verovelvollinen**- ja **Liiketoiminnan ALV-kirjausryhmä** -kenttiä käytetään, kun myyntiasiakirja luodaan.  
 
 ## Katso myös
 

@@ -1,7 +1,7 @@
 ---
 title: Nimikekulujen määrittäminen myyntiin ja ostoihin (sisältää videon)
-description: 'Määritä nimikekuluja, kun haluat, että varastonimikkeisiin liittyy lisäkustannuksia (rahti, fyysinen käsittely), joita aiheutuu nimikkeitä ostaessasi tai myydessäsi.'
-author: SorenGP
+description: 'Nimikekulujen määrittäminen silloin, kun tarvitaan varastonimikkeitä, jotka kuljettavat lisäkustannuksia, kuten rahdin ja fyysisen käsittelyn.'
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,36 +12,41 @@ ms.date: 06/22/2021
 ms.author: edupont
 ---
 # Kaupan lisäkustannusten huomiointi nimikekulujen avulla
+
 Voit varmistaa oikean arvostuksen liittämällä varastonimikkeisiin lisäkustannukset, kuten nimikkeiden ostamisessa ja myynnissä syntyvät rahti-, käsittely-, vakuutus- ja kuljetuskulut. Ostoissa ostetun nimikkeen kokonaiskustannukset koostuvat toimittajan ostohinnasta ja kaikista suorista lisänimikekuluista, jotka voidaan määritellä yksittäisiin vastaanottoihin tai palautustoimituksiin. Myynnissä Myytyjen nimikkeiden lähetyskulujen tietäminen voi olla yritykselle yhtä tärkeää kuin ostettujen nimikkeiden kokonaiskustannusten tietäminen.
 
-Lisäkustannuksen varastoarvoon kirjaamisen lisäksi voit käyttää nimikekuluominaisuutta seuraavissa tilanteissa:
+Lisäkustannuksen varastoarvoon kirjaamisen lisäksi voit käyttää nimikekuluominaisuutta seuraavissa tehtävissä:
 
-- Saapuneen nimikkeen kulun määrittäminen, jotta voidaan tehdä täsmällisiä päätöksiä jakeluverkon optimoimiseksi.
-- Nimikkeen yksikkökulun tai yksikköhinnan erittely analyysia varten.
-- Ostohyvitysten sisällyttäminen yksikkökustannukseen ja myyntihyvitysten yksikköhintaan.
+* Saapuneen nimikkeen kulun määrittäminen, jotta voidaan tehdä täsmällisiä päätöksiä jakeluverkon optimoimiseksi.
+* Nimikkeen yksikkökulun tai yksikköhinnan erittely analyysia varten.
+* Ostohyvitysten sisällyttäminen yksikkökustannukseen ja myyntihyvitysten yksikköhintaan.
 
-Ennen nimikekulujen määrittämistä on määritettävä erityyppisten nimikekulujen nimikekulunumerot, mukaan lukin KP-tilit, joille myyntiin, ostoihin ja varaston muutoksiin liittyvät kustannukset kirjataan. Nimikekulunumero sisältää yleisen tuotteen kirjausryhmän, veroryhmäkoodin, tuotteen ALV-kirjausryhmän ja nimikekulun yhdistelmä. Kun nimikekulunumero annetaan osto- tai myyntiasiakirjassa, liittyvä KP-tili haetaan nimikkeen kulunumeroasetusten ja yksittäisen asiakirjan tietojen perusteella.
+Ennen kuin voit määrittää nimikekuluja, sinun täytyy määrittää nimikekulunumerot erityyppisille nimikekuluille. Numerot sisältävät sen, mille KP-tileille myyntiin, ostoon ja varaston muutoksiin liittyvät kustannukset kirjataan. Nimikekulunumero sisältää yleisen tuotteen kirjausryhmän, veroryhmäkoodin, tuotteen ALV-kirjausryhmän ja nimikekulun yhdistelmä. Kun syötät nimikekulunumeron osto- tai myyntiasiakirjaan, KP-tili haetaan. Haettu tili valitaan nimikekulujen numeron asetusten ja asiakirjan tietojen perusteella.
 
 Nimikekulun voi määrittää sekä osto- että myyntiasiakirjoissa kahdella tavalla:
-- Asiakirjassa, jossa on luettelo nimikkeistä, joihin nimikekulu liittyy. Tämä tehdään yleensä asiakirjoissa, joita ei ole vielä kokonaan kirjattu.
-- Erillisessä laskussa linkittämällä nimikekulu linkitetään kirjattuun vastaanottoon tai lähetykseen, jossa on luettelo nimikkeistä, joihin nimikekulu liittyy.
+
+* Asiakirjassa, jossa on luettelo nimikkeistä, joihin nimikekulu liittyy. Tämä tehdään yleensä asiakirjoissa, joita ei ole vielä kokonaan kirjattu.
+* Erillisessä laskussa linkittämällä nimikekulu linkitetään kirjattuun vastaanottoon tai lähetykseen, jossa on luettelo nimikkeistä, joihin nimikekulu liittyy.
 
 > [!NOTE]  
->   Voit määrittää nimikekulut myynneissä ja ostoissa tilauksiin, laskuihin ja hyvityslaskuihin. Seuraavat toimenpiteet kuvaavat, miten ostolaskujen nimikekuluja käsitellään. Vaiheet ovat samanlaiset kaikissa osto- ja myyntiasiakirjoissa.
+> Voit määrittää nimikekulut myynneissä ja ostoissa tilauksiin, laskuihin ja hyvityslaskuihin. Seuraavat toimenpiteet kuvaavat, miten ostolaskujen nimikekuluja käsitellään. Vaiheet ovat samanlaiset kaikissa osto- ja myyntiasiakirjoissa.
 
 ## Esimerkki
+
 Tässä videossa näytetään, miten lisätoimituskuluja käsitellään osana varaston kustannuslaskentaa.
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 
 ## Nimikekulunumeroiden määrittäminen
-Nimikekulunumeroita käytetään erottelemaan eri tyyppisiä nimikekuluja, joita yrityksessäsi käytetään ostoasiakirjoille.
+
+Nimikekulunumeroita käytetään erottelemaan eri tyyppisiä nimikekuluja.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikekulut** ja valitse sitten vastaava linkki.
 2. Luo uusi rivi valitsemalla **Nimikekulut**-sivulla **Uusi**-toiminto.
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## Nimikekulun määrittäminen suoraan nimikkeen ostolaskuun
+
 Jos tiedät nimikekulun nimikkeen ostolaskua kirjatessa, toimi seuraavasti.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten vastaava linkki.
@@ -65,13 +70,30 @@ Jos nimikekulu on määritetty kokonaan, ostolaskun **Määriteltävä määrä*
 Nimikekulu on nyt määritetty ostolaskuun. Kun kirjaat ostolaskun vastaanoton, nimikkeiden varastoarvot päivitetään nimikekulun kustannusten arvolla.  
 
 ## Nimikekulun määrittäminen erillisestä laskusta nimikkeen ostolaskuun
+
 Jos vastaanotit nimikekulun laskun alkuperäisen laskun vastaanoton kirjaamisen jälkeen, toimi seuraavasti.
+
 1. Toista kohdan [Nimikekulun määrittäminen suoraan nimikkeen ostolaskuun](payables-how-assign-item-charges.md#to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item) vaiheet 1–8.
 2. Valitse **Nimikekulujen määritys** -sivulla **Hae vastaanoton rivit** -toiminto.
 3. Valitse **Oston vast.otto rivit** -sivulla sen nimikkeen kirjattu oston vastaanotto, johon haluat määrittää nimikekulun, ja valitse sitten **OK**-painike.
 4. Valitse **Ehdota nimikk. kulumääritystä** -toiminto.
 
 Erillisen ostolaskun nimikekulu on nyt määritetty kirjatun oston vastaanoton nimikkeelle, joten nimikkeen varastoarvo päivitetään nimikekulun kustannuksella.
+
+## Osittaisten vastaanottojen nimikekulujen käsitteleminen
+
+Tutustutaan esimerkkiin siitä, miten nimikekuluja käsitellään osittaisen vastaanoton osalta.
+
+Ostotilaus sisältää kolme riviä:
+
+* Nimikkeille on kaksi riviä.
+* Yhdelle riville kerätään nimikekuluja, jotka on kohdistettu nimikkeiden kesken summan mukaan.
+
+Kun nimikkeet on toimitettu, huomaat, että jokin nimikkeistä puuttuu, joten et voi merkitä kyseistä riviä vastaanotetuksi. Voit vastaanottaa ja kirjata ostolaskun vain toiselle nimikkeelle ja käsitellä puuttuvaa nimikettä myöhemmin.
+
+Voit käsitellä osittaisen vastaanoton nimikekustannuksia **Nimikekulujen määritys** -sivulla syöttämällä **0** **Käsiteltävä määrä** -kenttään puuttuvan kohteen rivillä. Kopioi sitten arvo **Käsiteltävä nimikekulumäärä** -kentästä **Laskutettava määrä** -kenttään ostotilausriveillä.
+
+Kun olet valmis käsittelemään puuttuvan nimikkeen, päivitä **Käsiteltävä määrä** -kenttä ja kirjaa tilaus.
 
 ## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
 

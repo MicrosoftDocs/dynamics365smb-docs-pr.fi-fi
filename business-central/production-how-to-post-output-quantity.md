@@ -7,10 +7,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000773, 99000778, 99000823, 99000827'
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Tuotos- ja suoritusaikojen eräkirjaus
+
 Tuotosmäärä ilmaisee työn edistymisen valmiina määränä ja tuotantosolun tai kuormitusryhmän käytettynä kapasiteettina.
 
 Tuotospäiväkirjaa voi käyttää seuraaviin:
@@ -22,7 +23,7 @@ Tuotospäiväkirjaa voi käyttää seuraaviin:
 > [!NOTE]
 > Jos tuotannon reititystä käytetään, varasto päivitetään vasta, kun kirjaat viimeisen toiminnon tuotosmäärän.
 
-**Tuotantopäiväkirja**-ikkunassa voi suorittaa samat tehtävät kuin **Tuotospäivä**-ikkunassa ja samaan aikaan voi suorittaa kulutuskirjauksiin liittyviä tehtäviä. Lisätietoja on kohdassa [Yhden vapautetun tuotantotilausrivin kulutuksen ja tuotoksen rekisteröiminen](production-how-to-register-consumption-and-output.md).
+**Tuotantopäiväkirja**-sivulla voit suorittaa samat tehtävät kuin **Tuotospäiväkirja**-sivulla ja tehdä myös kulutuskirjauksiin liittyviä tehtäviä. Lisätietoja on kohdassa [Yhden vapautetun tuotantotilausrivin kulutuksen ja tuotoksen rekisteröiminen](production-how-to-register-consumption-and-output.md).
 
 ## Vähintään yhden tuotantotilausrivin tuotosmäärän ja/tai suoritusaikojen kirjaaminen
 
@@ -32,11 +33,11 @@ Tuotospäiväkirjaa voi käyttää seuraaviin:
     **Pura reititys** -toiminnolla voi luoda päiväkirjarivejä tuotantotilauksista.
   
 3. Jos toiminto on valmis, valitse **Valmis**-kenttä.  
-4. Kirjaa toiminnot valitsemalla **Kirjaa**-toiminto. 
+4. Kirjaa toiminnot valitsemalla **Kirjaa**-toiminto.
 
-Kapasiteettitapahtumat kirjataan käytetyille tuotantosoluille ja kuormitusryhmille yhdessä aikaa sekä tuotoksen ja hävikin määrää koskevien tietojen kanssa.  
+    Kapasiteettitapahtumat kirjataan käytetyille tuotantosoluille ja kuormitusryhmille yhdessä aikaa sekä tuotoksen ja hävikin määrää koskevien tietojen kanssa. Jos viimeinen toiminto on kirjattu, nimike lisätään varastoon.
 
-Jos viimeinen toiminto on kirjattu, nimike lisätään varastoon.  
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Katso myös
 

@@ -1,7 +1,7 @@
 ---
 title: Shopify- ja Business Central-synkronoinnin vianetsintä
 description: 'Tietoja siitä, mitä tehdä, jos jokin menee pieleen Shopifyn ja Business Centralin välisen tietojen synkronoinnin aikana'
-ms.date: 08/19/2022
+ms.date: 03/27/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30118, 30119, 30120, 30101, 30102'
@@ -12,15 +12,31 @@ ms.reviewer: solsen
 
 # Shopify- ja Business Central-synkronoinnin vianetsintä
 
-On mahdollista joutua tilanteisiin, joissa sinun on tehtävä vianmääritys, kun synkronoidaan tietoja Shopifyn ja [!INCLUDE[prod_short](../includes/prod_short.md)]in välillä. Tällä sivulla määritellään vaiheet joidenkin yleisten mahdollisten skenaarioiden vianmääritykseen.
+On mahdollista joutua tilanteisiin, joissa sinun on tehtävä vianmääritys, kun synkronoidaan tietoja Shopifyn ja [!INCLUDE[prod_short](../includes/prod_short.md)]in välillä. Tämä sivu määrittää joidenkin tyypillisten skenaarioiden vianmääritysvaiheet.
+
+## Tehtävien suorittaminen edustalla
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Shopify-kauppa** ja valitse vastaava linkki.
+2. Valitse kauppa, jolle haluat tehdä vianmäärityksen avataksesi **Shopify-ostoskortti**-sivun.
+3. Poista **Salli synkronointi taustalla** -valitsin käytöstä.
+
+Kun synkronointitoiminto käynnistetään, tehtävä suoritetaan edustalla ja virhetilanteessa saat virheikkunan, jossa on **Kopioi tiedot** -linkki. Tämän linkin avulla voit kopioida lisätietoja tekstieditoriin lisäanalyysia varten.
 
 ## Lokit
 
 Jos synkronointitehtävä epäonnistuu, voit ottaa lokiin kirjaamisen käyttöön ottamalla **ota loki käyttöön** -vaihtonäppäimen käyttöön **Shopify-ostoskortti**-sivulla. Voit käynnistää synkronointitehtävän manuaalisesti ja tarkastella lokia.
 
+### Lokiinkirjaamisen ottaminen käyttöön
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Shopify-kauppa** ja valitse vastaava linkki.
+2. Valitse kauppa, jolle haluat tehdä vianmäärityksen avataksesi **Shopify-ostoskortti**-sivun.
+3. Ota **Loki käytössä** -valitsin käyttöön.
+
+### Lokien tarkasteleminen
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Shopify-lokitapahtumat** ja valitse sitten vastaava linkki.
 2. Valitse liittyvä lokitapahtuma ja avaa **Shopify-lokitapahtuma**-sivu.
-3. Tarkastele pyyntöä, tilakoodia ja kuvausta sekä vastausarvoja.
+3. Tarkastele pyyntöä, tilakoodia ja kuvausta sekä vastausarvoja. Voit ladata pyyntö- ja vastausarvot tiedostoina tekstimuodossa.
 
 Muista poistaa loki käytöstä myöhemmin, jotta vältytään negatiivisilta tehokkuusvaikutuksilta ja tietokannan koon kasvulta.
 
@@ -85,17 +101,38 @@ Seuraavissa ohjeissa kuvataan, miten Shopify-liittimen käyttämää käyttötun
 
 ## Tunnetut ongelmat
 
-### *Ylein. liiketoim. kirjausryhmä* ei voi olla nolla tai tyhjä; asiakaskentässä täytyy olla arvo
+### Virhe: myynnin otsikkoa ei ole. Tunnistuskentät ja -arvot: asiakirjatyyppi = "tarjous", nro = "SINÄ SHOPIFY-KAUPPA"
+
+Laskeakseen hinnat Shopify-yhdistin luo väliaikaisen asiakkaan (kauppakoodin) väliaikaisen myyntiasiakirjan (tarjouksen) ja antaa vakiohinnan laskentalogiikan tehdä tehtävänsä. On tyypillistä, että kolmannen osapuolen laajennuksessa on tilaa myyntirivin tapahtumille, mutta se ei tarkista, että tietue on tilapäinen, joten otsikkoa ei välttämättä ole saatavilla. Suosituksemme on ottaa yhteyttä laajennuksen toimittajaan ja pyytää heitä muuttamaan koodia sen tarkistamiseksi, ovatko tietueet väliaikaisia. Joissakin tapauksissa, lisäämällä `IsTemporary`-menetelmä oikeaan paikkaan riittää. Lisätietoja IsTemporary-kohteesta on kohdassa [IsTemporary](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method). 
+
+Voit varmistaa, että ongelma aiheutuu kolmannen osapuolen laajennuksesta, käyttämällä **Kopioi tiedot leikepöydälle** -linkkiä virhesanomassa ja kopioimalla sisältö tekstieditoriin. Tiedot sisältävät **AL-kutsupinon**, jossa ylin rivi on virhetilanteessa oleva rivi. Seuraavassa esimerkissä on AL-kutsupino.
+
+AL-kutsupino: 
+```AL
+[Object Name]([Object type] [Object Id]).[Function Name] line [XX] - [Extension Name] by [Publisher] 
+...
+"Sales Line"(Table 37)."No. - OnValidate"(Trigger) line 98 - Base Application by Microsoft
+"Shpfy Product Price Calc."(CodeUnit 30182).CalcPrice line 20 - Shopify Connector by Microsoft
+"Shpfy Create Product"(CodeUnit 30174).CreateTempProduct line 137 - Shopify Connector by Microsoft
+"Shpfy Create Product"(CodeUnit 30174).CreateProduct line 5 - Shopify Connector by Microsoft
+"Shpfy Create Product"(CodeUnit 30174).OnRun(Trigger) line 12 - Shopify Connector by Microsoft
+"Shpfy Add Item to Shopify"(Report 30106)."Item - OnAfterGetRecord"(Trigger) line 2 - Shopify Connector by Microsoft
+"Shpfy Products"(Page 30126)."AddItems - OnAction"(Trigger) line 5 - Shopify Connector by Microsoft
+```
+
+Muista jakaa AL-kutsupinon tiedot laajennuksen toimittajan kanssa.
+
+### Virhe: yleinen. Liiketoiminnan kirjausryhmä täytyy sisältää arvon kohdassa Asiakas: 'SINÄ SHOPIFY-KAUPPA'. Se ei voi olla null eikä tyhjä
 
 Täytä **asiakasmallikoodi**-kenttä **Shopify-ostoskortti**-ikkunassa käyttäen mallia, jossa on **Ylein. liiketoim. kirjausryhmä** täytetty. Asiakasmallia käytetään paitsi asiakkaiden luomiseen myös myyntihinnan laskemiseen ja myyntiasiakirjojen luonnin yhteydessä.
 
-### Tietojen tuominen Shopify-kauppaan ei ole käytössä. Ota se käyttöön siirtymällä ostoskorttiin
+### Virhe: Tietojen tuominen Shopify-kauppaan ei ole käytössä. Ota se käyttöön siirtymällä ostoskorttiin
 
 Ota **Shopify-ostoskortti**-ikkunassa käyttöön **Salli tietojen synkronointi Shopifyssa** -vaihtoehto käyttöön. Tämä vaihtoehto on tarkoitettu suojaamaan verkkokauppaa saamasta demotietoja kohteesta [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-### Oauth-virhe invalid_request: Shopify-sovellusrajapintasovellusta ei löytynyt haulla api_key
+### Virhe: Oauth-virhe invalid_request: Shopify-sovellusrajapintasovellusta ei löytynyt haulla api_key
 
-Näyttää siltä, että käytät [upota sovellus](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview) -toimintoa, jossa asiakkaan URL-osoite on muotoa: `https://[application name].bc.dynamics.com`. Shopify-yhdistin ei toimi upotettavien sovellusten yhteydessä. Lue lisätietoja kohdasta [Mille Microsoft-tuotteille Shopify-yhdistin on saatavilla](shopify-faq.md#what-microsoft-products-is-the-shopify-connector-available-for).
+Näyttää siltä, että käytät [upota sovellus](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview) -toimintoa, jossa asiakkaan URL-osoite on muotoa: `https://[application name].bc.dynamics.com`. Shopify-yhdistin ei toimi upotettavien sovellusten yhteydessä. Lue lisätietoja kohdasta [Mille Microsoft-tuotteille Shopify-yhdistin on saatavilla?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
 
 ## Katso myös
 

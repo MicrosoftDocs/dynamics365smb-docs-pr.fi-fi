@@ -39,7 +39,7 @@ Tässä vaihekuvauksessa havainnollistetaan seuraavien käyttäjäroolien tehtä
 
 ## Taustatietoja
 
-Ken on CRONUS -päällikkö, joka tekee kuukausittaisia kassavirtaennusteita. Hän sisällyttää ennusteisiin rahoituksen, myynnin, oston ja käyttöomaisuuden ja esittelee ne talousjohtaja Saralle liiketoimintanäkemysten tarjoamiseksi.  
+Ken on CRONUS -päällikkö, joka tekee kuukausittaisia kassavirtaennusteita. Ken sisällyttää ennusteisiin rahoituksen, myynnin, oston ja käyttöomaisuuden ja esittelee ne talousjohtaja Saralle liiketoimintanäkemysten tarjoamiseksi.  
 
 ## Uuden talousraportin nimen määrittäminen
 
@@ -95,12 +95,12 @@ Kun talousraportin nimi on määritetty, Ken määrittää kassavirran talousrap
 
 ## Uuden sarakemäärityksen määrittäminen
 
-Ennen kuin Ken voi tulostaa kassavirtaennusteen, hänen on luotava sarakemääritys numeerisille tiedoille. Sarakkeisiin hän määrittää tiedot, jotka hän haluaa käyttää riveiltä.
+Ennen kuin Ken voi tulostaa kassavirtaennusteen, hänen on luotava sarakemääritys numeerisille tiedoille. Sarakkeisiin Ken määrittää tiedot, jotka hän haluaa käyttää riveiltä.
 
 - Ensimmäisen sarakkeen numero on *C10*, sen otsikko on **Summa**, ja sisältönä on nettomuutos.  
 - Toisella sarakkeella on numero *C20* otsikolla **Saldo päivämääränä**, ja se sisältää aikajakson tapahtumat.  
 - Kolmannessa sarakkeessa on numero *C30* ja otsikko **Koko vuosi**, ja se sisältää koko tilikauden saldojen nettomuutoksen.  
-- Lopuksi hän määrittää sarakemäärityksen talousraportin **ennusteen** oletusasetukseksi.  
+- Lopuksi Ken määrittää sarakemäärityksen talousraportin **ennusteen** oletusasetukseksi.  
 
 ### Uuden sarakemäärityksen määrittäminen
 
