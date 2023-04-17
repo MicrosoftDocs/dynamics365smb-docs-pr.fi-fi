@@ -23,16 +23,23 @@
 #### [Vaihekuvaus: Kassavirtaennusteiden tekeminen talousraporttien avulla](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Vaihekuvaus: Shopify-yhdistimen määrittäminen ja käyttäminen](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
-### Contoso Coffeen demotiedot tuotantoa varten
+### Contoso Coffeen demotiedot
 #### [Contoso Coffeen demotietojen esittely](contoso-coffee/contoso-coffee-intro.md)
-#### [Uuden tuotannon tuoterakenteen ja tuoterakenneversion luominen](contoso-coffee/create-new-production-bom-version.md)
-#### [Uuden reitityksen luominen](contoso-coffee/create-new-routing.md)
-#### [Sitovasti suunnitellun tuotantotilauksen luominen ja muuttaminen](contoso-coffee/create-firm-planned-production-order-change.md)
-#### [Automaattisen ja manuaalisen materiaalinoton yhdistäminen](contoso-coffee/combine-automatic-manual-flushing.md)
-#### [Tilauksen suunnittelun käyttäminen tarjonnan luomiseksi ja varaamiseksi](contoso-coffee/order-planning-create-reserve-supply.md)
-#### [Alihankintatoiminnon määrittäminen ja käsitteleminen](contoso-coffee/set-up-process-subcontracting-operation.md)
-#### [Uuden kapasiteetin määrittäminen](contoso-coffee/set-up-new-capacity.md)
-#### [Variantit](contoso-coffee/variants.md)
+#### Tuotanto
+##### [Contoso Coffeen tuotannon esittely](contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md)
+##### [Uuden tuotannon tuoterakenteen ja tuoterakenneversion luominen](contoso-coffee/manufacturing/create-new-production-bom-version.md)
+##### [Uuden reitityksen luominen](contoso-coffee/manufacturing/create-new-routing.md)
+##### [Sitovasti suunnitellun tuotantotilauksen luominen ja muuttaminen](contoso-coffee/manufacturing/create-firm-planned-production-order-change.md)
+##### [Automaattisen ja manuaalisen materiaalinoton yhdistäminen](contoso-coffee/manufacturing/combine-automatic-manual-flushing.md)
+##### [Tilauksen suunnittelun käyttäminen tarjonnan luomiseksi ja varaamiseksi](contoso-coffee/manufacturing/order-planning-create-reserve-supply.md)
+##### [Alihankintatoiminnon määrittäminen ja käsitteleminen](contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md)
+##### [Uuden kapasiteetin määrittäminen](contoso-coffee/manufacturing/set-up-new-capacity.md)
+##### [Variantit](contoso-coffee/manufacturing/variants.md)
+#### Varastointi
+##### [Contoso Coffeen fyysisen varaston esittely](contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md)
+##### [Vaihekuvaus: Saapuva ja lähtevä työnkulku fyysisen varaston perusmäärityksissä](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
+##### [Vaihekuvaus: Saapuva ja lähtevä työnkulku fyysisen sekavaraston perusmäärityksissä](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
+##### [Vaihekuvaus: Saapuva ja lähtevä työnkulku edistyneessä fyysisen varaston määrityksessä, jossa on ohjattu hyllytys ja poiminta](contoso-coffee/warehousing/warehouse-directed-flow.md)
 
 ### Rakennetiedot
 #### [Sovellussuunnittelun tietojen yleiskatsaus](design-details-application-design.md)
@@ -108,7 +115,7 @@
 ### [Business Centralin poistaminen tai tilauksen peruuttaminen](admin-cancel.md)
 ### Nimikkeen tekoälypohjainen markkinointiteksti ja Copilot
 #### [Yleiskatsaus](ai-overview.md)
-#### [Esiversion hankkiminen – Copilot-versio](ai-preview-getstarted.md)
+#### [Hanki esiversio](ai-preview-getstarted.md)
 #### [Nimikkeen tekoälypohjaisen markkinointitekstin määrittäminen](enable-ai.md)
 #### [Nimikkeen tekoälypohjaisen markkinointitekstin luominen](item-marketing-text.md)
 #### [Usein kysytyt kysymykset](ai-faq.md)
@@ -409,14 +416,19 @@
 ### Usean yrityksen kirjanpitotietojen yhdistäminen
 #### [Yrityksen konsolidointi](finance-consolidated-company-reporting.md)
 #### [Yrityksen konsolidoinnin määrittäminen](finance-consolidated-company-reporting-setup.md)
+
+### Tilikartan ja pääkirjanpidon käsitteleminen
+#### [Pääkirjanpidon ja tilikartan ymmärtäminen](finance-general-ledger.md)
+#### [Tarkista tilit](finance-review-accounts.md)
+
 ### [Saldojen yhdistäminen yritykselle, joka on asiakas ja toimittaja](finance-consolidate-customer-vendor-balances.md)
-### [Pääkirjanpito ja Certificate of Authenticity -aitoustodistus](finance-general-ledger.md)
 ### [Dimensioiden käsitteleminen](finance-dimensions.md)
 ### [Dimensioiden vianmääritys ja korjaaminen](finance-troubleshooting-correcting-dimensions.md)
 ### [Business Centralin valuutat](finance-currencies.md)
 ### [KP-budjettien luominen](finance-how-create-budgets.md)
 ### [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)
 ### [Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md)
+### [Tarkistustiedoston vienti](finance-how-to-export-audit-files.md)
 ### [Kustannusten ja tulojen kohdistaminen](year-allocate-costs-income.md)
 ### [Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md)
 ### [Tuottojen ja kulujen siirtäminen](finance-how-defer-revenue-expenses.md)
@@ -436,6 +448,7 @@
 ## Taloushallinnon liiketoimintatiedot ja raportointi
 ### [Taloushallinnon liiketoimintatietojen ja raportoinnin yleiskatsaus](bi.md)
 ### [Talousraportit](finance-reports.md)
+### [Analysoi tietoja tilastotilien avulla](bi-use-statistical-accounts.md)
 ### [Todellisten summien analysoiminen budjetoituihin summiin nähden](bi-how-analyze-actual-versus-budget.md)
 ### [Talousraportoinnin valmisteleminen taloustietojen ja tililuokkien avulla](bi-how-work-account-schedule.md)
 ### [Talousraportteihin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -618,8 +631,8 @@
 ### [Kapasiteettien kirjaaminen](production-how-to-post-capacities.md)
 ### [Tietoja valmiin tuotantotilauksen kustannuksista](finance-about-finished-production-order-costs.md)
 
-## Varastoinninhallinta
-### [Varastoinninhallinnan yleiskatsaus](design-details-warehouse-management.md)
+## Warehouse Management
+### [Warehouse Managementin yleiskatsaus](design-details-warehouse-management.md)
 <!-- ### [Warehouse Management](warehouse-manage-warehouse.md) -->
 ### [Varaston ja fyysisen varaston raportit](inventory-WMS-reports.md)
 
@@ -1511,6 +1524,7 @@
 #### [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)
 #### [Toimitusehtojen määrittäminen](sales-how-set-up-shipment-methods.md)
 #### [Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md)
+#### [Laskun kirjauskäytännön määrittäminen käyttäjille](admin-setup-invoice-posting-policy.md)
 ### Oston määrittäminen
 #### [Oston määrittäminen](purchasing-setup-purchasing.md)
 #### [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md)
@@ -1519,6 +1533,7 @@
 #### [Ostajien määrittäminen](purchasing-how-setup-purchasers.md)
 #### [Hintojen ja alennusten määrittäminen](across-prices-and-discounts.md)
 #### [Erikoisostohintojen ja -alennusten kirjaaminen](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Laskun kirjauskäytännön määrittäminen käyttäjille](admin-setup-invoice-posting-policy.md)
 ### Varaston määrittäminen
 #### [Varaston määrittäminen](inventory-setup-inventory.md)
 #### [Yleisten varastotietojen määrittäminen](inventory-how-setup-general.md)
@@ -1545,9 +1560,9 @@
 #### [Käyttäjäkohtaisten poistomenetelmien määrittäminen](fa-how-setup-user-defined-depreciation-method.md)
 #### [Käyttöomaisuuden vakuutuksen määrittäminen](fa-how-setup-insurance.md)
 #### [Käyttöomaisuuden kunnossapidon määrittäminen](fa-how-setup-maintenance.md)
-### Varastoinninhallinnan määrittäminen
+### Warehouse Managementin määrittäminen
 #### [Fyysisten varastojen määrittäminen](warehouse-setup-warehouse.md)
-#### [Varastoinninhallinnan yleiskatsaus](design-details-warehouse-management.md)
+#### [Warehouse Managementin yleiskatsaus](design-details-warehouse-management.md)
 #### [Varastopaikkatyyppien määrittäminen](warehouse-how-to-set-up-bin-types.md)
 #### [Varastopaikkojen luominen](warehouse-how-to-create-individual-bins.md)
 #### [Varastopaikkojen sisällön luominen](warehouse-how-to-set-up-bin-contents.md)
@@ -1631,6 +1646,7 @@
 ##### [Yleiskatsaus](across-teams-overview.md)
 ##### [Teamsin integroinnin hallinta](admin-teams-integration.md)
 ##### [Business Central -sovelluksen asentaminen Teamsille](across-install-app-for-teams.md)
+##### [Tietojen käyttö Teamsissa ilman Business Central -käyttöoikeutta](teams-access-with-m365-license.md)
 ##### [Asiakkaiden, toimittajien ja yhteyshenkilöiden hakeminen](across-search-contacts-teams.md)
 ##### [Business Central -välilehden lisääminen kanavaan tai keskusteluun](across-teams-tab.md)
 ##### [Tietueiden ja sivulinkkien jakaminen Teamsissa](across-working-with-teams.md)
@@ -1755,6 +1771,7 @@
 ### [Usein kysyttyjen kysymysten hakeminen ja suodattaminen](ui-search-filter-faq.yml)
 ### [Sivutietojen analysoiminen Excelissä](across-work-with-excel.md)
 ### [Raporttitietojen analysoiminen Excelillä](report-analyze-excel.md)
+### [Luettelotietojen analysoiminen analyysitilassa](analysis-mode.md)
 ### [Taloushallinnon liiketoimintatiedot](bi.md)
 
 ## Valmis analytiikka 
@@ -1884,6 +1901,9 @@
 ### [Synkronoimisen ajoittaminen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Synkronointivirheiden vianmääritys](admin-troubleshoot-sales-synchronization.md)
 ### [Power Automate -työnkulun hälytysten käyttäminen Dataverse-entiteetin muutoksissa](admin-power-automate-flow-dataverse.md)
+## Päätietojen synkronoiminen yritysten välillä
+### [Päätietojen synkronointiin valmistautuminen](admin-set-up-data-sync.md)
+### [Päätietojen synkronoinnin hallinta](admin-sync-master-data.md)
 ## Rakennetiedot
 ### [Sovellussuunnittelun tietojen yleiskatsaus](design-details-application-design.md)
 ### Rakennetiedot: Tarjonnan suunnittelu
