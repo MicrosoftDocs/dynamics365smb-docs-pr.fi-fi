@@ -12,15 +12,19 @@ ms.author: jswymer
 
 Voit käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -tietoja Power Appsin tietolähteenä.  
 
-> [!NOTE]  
-> Sinulla on oltava kelvollinen [!INCLUDE[prod_short](includes/prod_short.md)]- ja Power Apps -tili.  
+> [!TIP]  
+> Power Apps -lisädokumentaatio ja Power App -mallit, jotka esiteltiin [!INCLUDE[prod_short](includes/prod_short.md)] -julkaisutapahtuman aikana, julkaistaan täällä myöhemmin vuoden 2023 1. julkaisuaallossa. Lue lisää kohdasta [Käytön aloittaminen Power Automate -lisämallien ja Power Appsin avulla](/dynamics365/release-plan/2023wave1/smb/dynamics365-business-central/get-started-more-sample-power-automate-templates-power-apps).
+
+## Vaatimukset
+
+Sinulla on oltava kelvollinen [!INCLUDE[prod_short](includes/prod_short.md)]- ja Power Apps -tili.  
 
 ## [!INCLUDE[prod_short](includes/prod_short.md)]in lisääminen Power Appsin tietolähteeksi
 
 1. Siirry selaimessa osoitteeseen [powerapps.microsoft.com](https://powerapps.microsoft.com/) ja kirjaudu sisään.
 2. Valitse aloitussivun **Aloita tiedoista** -osassa **Muut tietolähteet** -ruutu.  
 
-    Power Apps Studio avautuu. Ensimmäisellä kertaa kirjauduttaessa on määritettävä maa tai alue.  
+    Tämä vaihe avaa Power Apps Studion. Ensimmäisellä kertaa kirjauduttaessa on määritettävä maa tai alue.  
 3. Tarjolla olevien yhteyksien joukosta, valitse **Business Central**, ja valitse sitten **Luo** nappula.
 
     Power Apps muodostaa [!INCLUDE[prod_short](includes/prod_short.md)] -yhteyden niillä käyttäjätiedoilla, joilla olet kirjautunut sisään. Jos et ole järjestelmänvalvoja [!INCLUDE[prod_short](includes/prod_short.md)] sovelluksessa, sinun täytyy ehkä kirjautua toisella käyttäjällä.  
@@ -34,7 +38,7 @@ Power Appsin [!INCLUDE[prod_short](includes/prod_short.md)] -yhdistin näyttää
 > [!NOTE]
 > Jos haluat sisällyttää muiden taulukoiden dataa [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmasta sovelluksessasi, sinun tulee työskennellä kehittäjän kanssa, jotta voitte määrittää mukautetun API:n [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa.  
 
-Tässä kohtaa olet yhdistänyt [!INCLUDE[prod_short](includes/prod_short.md)] dataasi ja olet valmis aloittamaan PowerAppisi rakentamisen. Voit luoda lisää ruutuja ja yhdistää lisädataan [!INCLUDE[prod_short](includes/prod_short.md)]. Lisätietoja on kohdassa [Kaaviosovelluksen luominen Power Appsin mallista](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
+Tässä kohtaa olet yhdistänyt [!INCLUDE[prod_short](includes/prod_short.md)] dataasi ja olet valmis aloittamaan Power App -sovelluksesi rakentamisen. Voit luoda lisää ruutuja ja yhdistää lisädataan [!INCLUDE[prod_short](includes/prod_short.md)]. Lisätietoja on kohdassa [Kaaviosovelluksen luominen Power Appsin mallista](/powerapps/maker/canvas-apps/open-and-run-a-sample-app).  
 
 Kun olet suunnitellut ja rakentanut sovelluseksi, voit jakaa sen kollegoidesi kanssa. Lisätietoja on kohdassa [Kaaviosovelluksen tallentaminen julkaiseminen Power Appsissa](/powerapps/maker/canvas-apps/save-publish-app).  
 
