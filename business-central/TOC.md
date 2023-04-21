@@ -810,9 +810,10 @@
 ##### [Kirjausjakson rajoittaminen](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [Käsittelypäivämäärän määrittäminen kirjauspäivämääräksi](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
 ##### [Päiväkirjamallien määrittäminen pakollisiksi](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
+##### [Siirrot myynti- ja ostokirjanpidon raporteissa](LocalFunctionality/Belgium/how-to-use-deferrals.md}
 
 ### Kanada
-#### [Paikalliset toiminnot kanadalaisessa versiossa](LocalFunctionality/Canada/canada-local-functionality.md)
+#### [Paikalliset toiminnot Kanadan versiossa](LocalFunctionality/Canada/canada-local-functionality.md)
 #### Vero
 ##### [Kanadan arvonlisäveron raportointi](LocalFunctionality/Canada/sales-tax-goods-services.md)
 ##### [Myyntiveron ilmoittaminen Kanadassa](LocalFunctionality/Canada/ca-sales-tax.md)
