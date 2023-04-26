@@ -44,8 +44,8 @@ Voit ajoittaa seuraavat toistuvat aktiviteetit suoritettavaksi automaattisesti. 
 
 Muita tehtäviä, joita voi olla hyödyllistä automatisoida myyntiasiakirjojen edelleenkäsittelyssä:
 
-- raportti 497 Eräkirjaa ostolaskut
-- raportti 496 Eräkirjaa ostotilaukset
+- raportti 297 Eräkirjaa myyntilaskut
+- raportti 296 Eräkirjaa myyntitilaukset
 
 Voit käyttää **Shopify-tilausnro**-kenttää -kentästä tuotujen Shopify-myyntiasiakirjojen yksilöimiseksi.
 

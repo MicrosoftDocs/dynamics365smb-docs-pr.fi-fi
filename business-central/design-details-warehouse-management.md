@@ -28,7 +28,7 @@ Liiketoimintaan sopivia varastointiprosesseja voidaan räätälöidä toteuttama
 
 ## Erilaisten määritysvaihtoehtojen yleiskatsaus
 
-Fyysisen varaston ominaisuuksia voidaan määrittää eri tavoin. On tärkeää, että valittavat vaihtoehdot parantavat prosesseja yleiskustannuksia lisäämättä. Seuraavassa taulukossa on yleiskuva määrityksistä, joita käytetään yleisesti fyysisten tavaroiden käsittelyssä.
+Fyysisen varaston ominaisuuksia voidaan määrittää eri tavoin. On tärkeää, valita vaihtoehdot, jotka parantavat prosesseja yleiskustannuksia lisäämättä. Seuraavassa taulukossa on yleiskuva määrityksistä, joita käytetään yleisesti fyysisten tavaroiden käsittelyssä.
 
 |Monimutkaisuustaso|Kuvaus|Asetukset|Varastopaikan koodi|Esimerkki saapuvasta virrasta|Esimerkki lähtevästä virrasta|Esimerkki sisäisestä virrasta|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
@@ -61,7 +61,7 @@ Fyysisten tavaroiden käsittelyä varten tarvitaan ainakin yksi sijainti. Fyysis
 Sijaintien käyttöä suositaan yleensä eri maantieteellisille alueille jaettujen toimintojen järjestämisessä. Joissakin tapauksissa halutaan kuitenkin ehkä luoda useita samassa paikassa sijaitsevia sijainteja. Sijaintien käytön hyvät puolet:
 
 * Käyttöoikeus myönnetään **Varastotyöntekijä**- ja **Vastuupaikat**-sivuilla.
-* Päivämäärän laskentaa ja suunnittelua varten määritetään kalenterit, reitit sekä saapuvien ja lähtevien käsittelyajat. [Tietoja toimintojen suunnittelusta](production-about-planning-functionality.md).
+* Päivämäärän laskentaa ja suunnittelua varten määritetään kalenterit, reitit sekä saapuvien ja lähtevien käsittelyajat. Lisätietoja: [Tietoja toimintojen suunnittelusta](production-about-planning-functionality.md).
 * Oletusdimensioiden määrittäminen ja erilaisten varastokirjauksien asetusten käyttäminen.
 * Suunnittelun parametrien määrittäminen. Lisätietoja on kohdassa [Suunnitteluparametrit](production-about-planning-functionality.md#planning-parameters).  
 * Erilaisten fyysisen varaston ominaisuuksien käyttäminen kussakin sijainnissa.
