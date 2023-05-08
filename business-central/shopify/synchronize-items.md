@@ -82,17 +82,15 @@ Voit hallita nimikkeiden vientiprosessia seuraavien asetusten avulla:
 
 |Kenttä|Kuvaus|
 |------|-----------|
-|**Asiakkaan hintaryhmä**|Määritä nimikkeen hinta Shopifyssa. Tämän asiakkaan hintaryhmän myyntihinta on otettu. Jos ryhmää ei ole syötetty, käytetään nimikekortin hintaa.|
-|**Asiakkaan alennusryhmä**|Määritä alennus, jota käytetään nimikkeen hinnan laskennassa Shopifyssa. Alennetut hinnat tallennetaan **hinta**-kenttään, ja koko hinta tallentuu **Vertaa hintaan** -kenttään.|
 |**Synkronoi nimikkeen lisäteksti**|Valitsemalla tämän kentän voit synkronoida nimikkeen lisätekstin. Koska se lisätään *kuvaus*-kenttään, se voi sisältää HTML-koodia. |
 |**Synkronoi nimikemääritteet**|Valitse tämä kenttä, jos haluat synkronoida nimikemääritteet. Määritteet muotoillaan taulukkona ja sisällytetään *kuvaus*-kenttään Shopifyssa.|
+|**Synkronoi nimikkeen markkinointiteksti**|Valitse tämä kenttä, jos haluat synkronoida nimikkeen markkinointitekstin. Vaikka markkinointiteksti on eräänlainen kuvaus, se on eri kuin nimikkeen **kuvaus**-kenttä. **Kuvaus**-kenttää käytetään tyypillisesti suppeana näyttönimenä, jotta tuote voidaan määrittää nopeasti. Toisaalta markkinointiteksti on rikas ja kuvaava teksti. Sen tarkoituksena on lisätä markkinointi- ja mainosmateriaalia. Tämä teksti voidaan sitten julkaista nimikkeen mukana Shopifyssa. Markkinointitekstin voi luoda kahdella tavalla. Käytä Copilotia, joka ehdottaa tekoälypohjaista tekstiä sinulle, tai aloita tyhjästä.|
 |**Kielikoodi**|Käännettyjä versioita käytetään otsikossa, määritteissä ja lisätekstissä, jos tämä kenttä valitaan.|
 |**Varastointiyksikön yhdistämismääritykset**|Valitse, miten haluat täyttää varastointiyksikkökentän Shopifyssa. Tuettuja vaihtoehtoja ovat:<br> - **Nimikenro** käyttää nimikenroa sekä tuotteille että varianteille.<br> - **Nimikenro + varianttikoodi**, jolla varastointiyksikkö luodaan yhdistämällä kahden kentän arvot toisiinsa. Nimikkeille, joilla ei ole variantteja, käytetään arvona vain nimikenumeroa.<br>- **Nimikkeen toimittajanro** käyttää *nimikekortissa* määritettyä nimiketoimittajan numeroa sekä tuotteille että varianteille.<br> - **Viivakoodi** käyttää viivakoodityypin **nimikeviittausta**. Tässä vaihtoehdossa noudatetaan variantteja.|
 |**Varastointiyksikön kenttäerotin**|Määritä nimikkeen erotin **Nimikenro + varianttikoodi** -vaihtoehto.|
 |**Varastoa seurataan**| Valitse, miten järjestelmä täyttää Shopifyn vietävien tuotteiden **seuraa varastoa** -kentän. Voit päivittää niiden tuotteiden saatavuustiedot [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmasta Shopifyssa oleville tuotteille, joiden seuranta on otettu käyttöön. Katso lisätietoja [Varasto](synchronize-items.md#sync-inventory-to-shopify)-osasta.|
 |**Oletusvarastokäytäntö**|Valitse *kiellä*, jos haluat estää Shopify-puolen negatiivisen varaston.|
 |**Voi päivittää Shopify-tuotteita**|Määritä tämä kenttä, jos [!INCLUDE[prod_short](../includes/prod_short.md)] voi luoda vain nimikkeitä tai jos voi myös päivittää nimikkeitä. Valitse tämä vaihtoehto, jos aiot päivittää nimikkeet manuaalisesti **Lisää nimike** -toiminnon käynnistämän synkronoinnin jälkeen **Synkronoi tuote** -toiminnolla tai toistuvien päivitysten työjonon kautta. Muista valita **Shopifyhin** **Nimikkeen synkronointi** -kentässä.|
-|**Asiakasmallin koodi**|Valitse oletusmalli, jota käytetään hinnan laskennassa. Lisätietoja kohdassa [Verojen määrittäminen](setup-taxes.md).|
 
 ### Kenttien yhdistämisen yleiskatsaus
 
@@ -104,8 +102,8 @@ Voit hallita nimikkeiden vientiprosessia seuraavien asetusten avulla:
 |Hakukoneoptimointisivun otsikko|Vakioarvo: tyhjä. Lisätietoja on [Shopify-tuotteiden Ad-hoc-päivitykset](synchronize-items.md#ad-hoc-updates-of-shopify-products) -osassa.|Ei käytetty.|
 |Hakukoneoptimoinnin metakuvaus|Vakioarvo: tyhjä. Lisätietoja on [Shopify-tuotteiden Ad-hoc-päivitykset](synchronize-items.md#ad-hoc-updates-of-shopify-products) -osassa.|Ei käytetty.|
 |Media|**Kuva**. Lisätietoja on [Synkronoi nimikekuvat](synchronize-items.md#sync-item-images) -osassa|**Kuva**|
-|Hinta|Loppuasiakkaan hinnan laskenta sisältää nimikkeen hintaryhmän, nimikkeen alennusryhmän, valuuttakoodin ja asiakasmallinkoodin.|**Yksikköhinta**|
-|Vertailuhinta|Hinnan laskenta ilman alennusta sisältää nimikkeen hintaryhmän, nimikkeen alennusryhmän, valuuttakoodin ja asiakasmallinkoodin.|Ei käytetty.|
+|Hinta|Loppuasiakkaan hinnan laskenta sisältää nimikkeen yksikköhinnan, asiakkaan hintaryhmän, asiakkaan alennusryhmän ja valuuttakoodin. Lisätietoja on [Synkronoi hinnat](synchronize-items.md#sync-prices-with-shopify) -osassa|**Yksikköhinta**|
+|Vertailuhinta|Hinnan laskeminen ilman alennusta.|Ei käytetty.|
 |Kustannus per nimike|**Yksikkökustannus**|**Yksikkökustannus**|
 |Varastointiyksikkö|Lisätietoja varastointiyksiköistä on [Vie nimikkeitä Shopifyhin](synchronize-items.md#export-items-to-shopify) **SKU-määritys**-kohdassa.|Lue lisää varastointiyksiköistä [Shopifyn tuotteiden varastointiyksiköiden ja viivakoodien vaikutus nimikkeiden ja varianttien kartoittaminen ja luominen Business Centralissa](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central) -osasta.|
 |Viivakoodi|Viivakoodityypin **nimikeviitteet**.|Viivakoodityypin **nimikeviitteet**.|
@@ -193,6 +191,17 @@ Kuvan synkronointi voidaan alustaa kahdella alla kuvatulla tavalla.
 
 ## Synkronoi hintoja Shopifyn kanssa
 
+Voit hallita hintojen vientiprosessia seuraavien asetusten avulla:
+
+|Kenttä|Kuvaus|
+|------|-----------|
+|**Asiakkaan hintaryhmä**|Määritä nimikkeen hinta Shopifyssa. Tämän asiakkaan hintaryhmän myyntihinta on otettu. Jos ryhmää ei ole määritetty, käytetään nimikekortin hintaa.|
+|**Asiakkaan alennusryhmä**|Määritä alennus, jota käytetään nimikkeen hinnan laskennassa Shopifyssa. Alennetut hinnat tallennetaan **hinta**-kenttään, ja koko hinta tallentuu **Vertaa hintaan** -kenttään.|
+|**Salli rivialennus**|Määrittää, sallitaanko rivialennus laskettaessa hintoja Shopifylle. Tämä asetus koskee vain nimikkeen hintoja. Asiakkaan hintaryhmän hinnoilla on oma vaihtorivi.|
+|**Hinnat sisältävät ALV:n**|Määrittää, sisältävätkö Shopifyn hintalaskelmat ALV:n. Lisätietoja kohdassa [Verojen määrittäminen](setup-taxes.md).|
+|**Liiketoim. ALV-kirjausryhmä**|Määrittää, mitä liiketoiminnan ALV-kirjausryhmää käytetään Shopify-hintojen laskemiseen. Tämän pitäisi olla ryhmä, jota käytetään kotimaan asiakkaille. Lisätietoja kohdassa [Verojen määrittäminen](setup-taxes.md).|
+|**Valuutan koodi**|Syötä Valuuttakoodi vain, jos verkkokauppa käyttää eri valuuttaa kuin paikallinen valuutta (PVA). Määritetyllä valuutalla on oltava määritettynä vaihtokurssit. Jos verkkokauppa käyttää samaa valuuttaa kuin [!INCLUDEprod_short], jätä kenttä tyhjäksi.|
+
 Synkronoitujen nimikkeiden hinnat voidaan viedä alla kuvatulla kahdella tavalla.
 
 ### Synkronoi hinnat Shopify-tuotesivulla
@@ -202,9 +211,8 @@ Synkronoitujen nimikkeiden hinnat voidaan viedä alla kuvatulla kahdella tavalla
 
 ### Hintalaskennan huomautukset
 
-* Hinnan laskennassa on tärkeää, että **oletusasiakasmalli** -kentässä on arvo. Lisätietoja kohdassa [Verojen määrittäminen](setup-taxes.md).
-* Syötä **Valuuttakoodi** vain, jos verkkokauppa käyttää eri valuuttaa kuin paikallinen valuutta (PVA). Määritetyllä valuutalla on oltava määritettynä vaihtokurssit. Jos verkkokauppa käyttää samaa valuuttaa kuin [!INCLUDE[prod_short](../includes/prod_short.md)], jätä kenttä tyhjäksi.
-* Hinnan määrittämisessä [!INCLUDE[prod_short](../includes/prod_short.md)] käyttää "alin hinta" -logiikkaa. Alimman hinnan logiikka tarkoittaa sitä, että jos nimikekortissa määritetty yksikköhinta on pienempi kuin hintaryhmässä määritetty, ohjelma käyttää nimikekortin hintayksikköä.
+* Hinnan määrittämisessä [!INCLUDE[prod_short](../includes/prod_short.md)] käyttää "alin hinta" -logiikkaa. Alhaisin hintalogiikka ei kuitenkaan huomioi nimikekortissa määritettyä yksikköhintaa, jos hinta on määritelty hintaryhmässä. Tämä pätee, vaikka nimikekortin hinnan yksikkökohtainen hinta on pienempi.
+* Kun haluat laskea hintoja, yhdistin luo nimikkeelle tilapäisen myyntitarjouksen, jonka määrä on 1, ja käyttää vakiohinnan laskentalogiikkaa. Vain määrään 1 sovellettavia hintoja ja alennuksia käytetään. Et voi viedä eri hintoja tai alennuksia määrän perusteella.
 
 ## Synkronoi varasto Shopifyhin
 
@@ -220,7 +228,7 @@ Varaston synkronointi voidaan määrittää jo synkronoiduille nimikkeille. On t
 3. Valitse **sijainnit** -toiminto, jolla **Shopify-myymäläsijainnit** avataan.
 4. Valitse **Hae Shopify-sijainnit** -toiminto, jos haluat tuoda kaikki Shopifyssa määritetyt sijainnit. Voit etsiä niitä [**Sijainnit**](https://www.shopify.com/admin/settings/locations)-asetuksista **Shopify-järjestelmänvalvojastasi**.
 5. Lisää **sijaintisuodatus** -kenttään sijainteja, jos haluat sisällyttää varaston vain tietyistä sijainneista. Voit siis syöttää arvoksi *ITÄ|LÄNSI*, jolloin varasto vain näistä kahdesta sijainnista on myynnissä verkkokaupan kautta.
-6. Ota käyttöön valittujen Shopify-sijaintien varaston synkronointi poistamalla **Poista käytöstä** -vaihtoehto.
+6. Valitse varaston laskentatapa, jota käytetään valituissa Shopify-sijainneissa.
 
 Voit alustaa varaston synkronoinnin kahdella alla kuvatulla tavalla.
 
@@ -232,14 +240,15 @@ Voit alustaa varaston synkronoinnin kahdella alla kuvatulla tavalla.
 
 ### Synkronoi varasto Shopify-tuotesivulta
 
-1. Siirry hakuun ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Shopify-tuotteet**, valitse sitten vastaava linkki.
+1. Siirry hakuun ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Shopify-tuotteet** ja valitse vastaava linkki.
 2. Valitse **Synkronoi varasto** -toiminto.
 
 ### Varaston huomautukset
 
-* Yhdistin laskee **Oletettu saatavilla oleva saldo** -arvon tämänhetkiseltä päivältä ja vie sen Shopifyhin.
+* Varaston vakiolaskentamenetelmä on **Oletettu saatavilla oleva päivän saldo**. Laajennettavuuden avulla voit lisätä vaihtoehtoja. Saat lisätietoja laajennettavuudesta siirtymällä [esimerkkeihin](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md). 
 * Voit tarkistaa Shopifysta saadut varastotiedot **Shopify-varaston tietoruutu** -sivulta. Tässä tietoruudussa on yleiskuvaus Shopify-varastosta ja viimeisestä lasketusta varastosta [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa. Sijaintia kohti on yksi tietue.
 * Jos Shopifyn varastotiedot poikkeavat [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelman **Arvioidusta käytettävissä olevasta saldosta**, varastotiedot päivitetään Shopifyssa.
+* Kun lisäät uuden sijainnin Shopifyhyn, sitä varten on lisättävä myös varastotietueita. Shopify ei tee sitä automaattisesti olemassa oleville tuotteille ja varianteille, eikä yhdistin synkronoi näiden nimikkeiden varastomääriä uudessa sijainnissa. Saat lisätietoja siirtymällä kohtaan [Varaston määrittäminen sijainteihin](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
 
 #### Esimerkki oletetun saatavilla olevan saldon laskemisesta
 

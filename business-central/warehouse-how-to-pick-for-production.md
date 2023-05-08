@@ -127,6 +127,8 @@ Kirjausprosessin sisältö:
 * Lähdeasiakirjan poimittujen rivien kulutuksen kirjaaminen.
 * Jos sijainti käyttää varastopaikkoja, kirjaus luo myös fyysiset varastotapahtumat, joilla muutokset varastopaikan määrään kirjataan.
 
+[!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
 ## Varastosiirron kirjaaminen
 
 1. Avaa **Varastosiirto**-sivulla asiakirja, johon varaston siirto kirjataan.  

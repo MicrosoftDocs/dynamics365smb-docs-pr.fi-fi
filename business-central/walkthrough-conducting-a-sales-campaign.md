@@ -44,7 +44,7 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 
 ## Taustatietoja
 
- CRONUS:n myyntiosaston markkinointipäällikkö vastaa kampanjoiden suunnittelemisesta ja toteuttamisesta. Hän tekee myös päätöksiä messuista, joihin yhtiö osallistuu, sekä arvioi kampanjan edistymistä.  
+ CRONUS:n myyntiosaston markkinointipäällikkö vastaa kampanjoiden suunnittelemisesta ja toteuttamisesta. Markkinointipäällikkö tekee myös päätöksiä messuista, joihin yhtiö osallistuu, sekä arvioi kampanjan edistymistä.  
 
  Markkinointiosaston markkinointityöntekijä huolehtii markkinointiaineiston tuottamisesta, jakamisesta ja sijoittamisesta.  
 
@@ -96,7 +96,7 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 
 ## Tietojen louhinta
 
- Markkinointipäällikkö tarkastelee segmentoitua kontaktiluetteloa lähemmin ja havaitsee, että luettelo on aivan liian laaja. Hän päättääkin pienentää luetteloa sen mukaan, mitkä ovat todellisia mahdollisia asiakkaita, jotta painopiste on varmasti oikeassa kohderyhmässä. Tätä tietojen uudelleenmäärittämistä ja karsimista kutsutaan myös tietojen louhinnaksi.  
+ Markkinointipäällikkö tarkastelee segmentoitua kontaktiluetteloa lähemmin ja havaitsee, että luettelo on aivan liian laaja. Päällikkö päättääkin pienentää luetteloa sen mukaan, mitkä ovat todellisia mahdollisia asiakkaita, jotta painopiste on varmasti oikeassa kohderyhmässä. Tätä tietojen uudelleenmäärittämistä ja karsimista kutsutaan myös tietojen louhinnaksi.  
 
 ### Kontaktien poistaminen segmentistä  
 
