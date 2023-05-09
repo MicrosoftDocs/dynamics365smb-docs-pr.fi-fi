@@ -45,18 +45,60 @@ Lähtevä siirto voidaan lähettää yhdestä sijainnista ja vastaanottaa kohtee
 
     Kun **Kuljetusliikkeen palvelu** -kenttä täytetään, kohteeseen-sijainnin vastaanottopäivämäärä lasketaan lisäämällä kuljetusliikkeen palvelun toimitusajan Kohteesta-pikavälilehden lähetyksen päivämäärään.
 
-3. Täytä rivit joka antamalla ne manuaalisesti tai valitsemalla jonkin seuraavista vaihtoehdoista **Funktiot**-toiminnossa:
+3. Rivit voi täyttää monella eri tavalla:
 
-    * Valitse **Hae var.paikan sisältö** -toiminnolla aiemmin luotuja nimikkeita tietystä sijainnin varastopaikasta.
-    * Valitse **Hae vastaanottorivit** -toiminnolla nimikkeet, jotka ovat juuri saapuneet kohteesta-sijainnista.
+    |Asetus  |Kuvaus  |
+    |---------|---------|
+    |Manuaalisesti     | **Rivit**-pikavälilehdessä täytä nimikkeen rivi tai valitse useita nimikkeitä **Valitse nimikkeet** -toiminnon avulla.        |
+    |Automaattisesti     | * Valitse **Hae var.paikan sisältö** -toiminnolla aiemmin luotuja nimikkeita tietystä sijainnin varastopaikasta.<br><br>* Valitse **Hae vastaanottorivit** -toiminnolla nimikkeet, jotka ovat juuri saapuneet kohteesta-sijainnista.        |
 
-    Kohteesta-sijainnin varastotyöntekijänä voit siirtyä nimikkeiden toimittamiseen.
+    Nimikkeitä voi nyt toimittaa.
 4. Valita ensin **Kirjaa**-toiminto, sitten **Toimitus**-asetus ja lopuksi **OK**-painike.
 
     Nimikkeet ovat nyt matkalla valittujen sijaintien välillä valitun siirtoreitin mukaisesti.
 
     Kohteesta-sijainnin varastotyöntekijänä voit siirtyä nimikkeiden vastaanottamiseen. Siirtotilausrivit ovat samat kuin toimituksen aikana eikä niitä voi muokata.
 5. Valita ensin **Kirjaa**-toiminto, sitten **Vastaanotto**-asetus ja lopuksi **OK**-painike.
+
+### Kirjaa useita siirtotilauksia erässä
+
+Siirtotilauksia voi eräkirjata toimimalla seuraavasti.
+
+1. 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Siirtotilaukset** ja valitse sitten vastaava linkki.  
+2. Valitse kirjattavat tilaukset **Siirtotilaukset**-sivulta.
+3. Valitse **Nro**-kenttään avaa pikavalikko ja valitse **Valitse lisää**.
+4. Valitse kunkin kirjattavan tilauksen rivien valintaruutu.
+5. Valitse ensin **Kirjaus**-toiminto ja sitten **Eräkirjaus**-toiminto.
+6. Täytä **Eräkirjaa siirtotilaukset** -sivulla tarvittavat kentät.
+
+   > [!TIP]
+    > Jos siirtotilaukset käyttävät kuljetuksessa-sijaintia, voit valita joko **Toimitus** tai **Vastaanottaminen**. Toista tämä vaihe, jos sinun täytyy tehdä molemmat. Jos tilauksessa on käytössä **Suorakirjaus**, molemmat vaihtoehdot toimivat samalla tavalla ja tilaukset kirjataan kokonaan.
+
+7. Valitse **OK**.
+8. Voit tarkastella mahdollisia ongelmia avaamalla **Virhesanomarekisteri**-sivun.
+
+    > [!NOTE]
+    > Usean asiakirjan kirjaaminen voi kestää jonkin aikaa ja estää muita käyttäjiä. Harkitse taustakirjauksen käyttöönottoa. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](/dynamics365/business-central/admin-job-queues-schedule-tasks).
+
+### Työjonotapahtuman ajoittaminen useiden asiakirjojen kirjaamiseksi erässä
+
+Työjonon avulla voit myös ajoittaa kirjauksen tapahtuvaksi organisaatiolle sopivana ajankohtana. Yrityksessä saattaa olla esimerkiksi hyödyllistä suorittaa tietyt toiminnot sen jälkeen, kun suurin osa päivän tiedoista on syötetty.
+
+Seuraavaksi selitetään, miten **Eräkirjaa siirtotilaukset** -raportti määritetään kirjaamaan suorasiirtotilaukset automaattisesti arkipäivisin kello 16. Tämä aika on vain esimerkki. Vaiheet ovat samat muissa asiakirjoissa.  
+
+1. Etsi **Työjonon tapahtumat** -sivu ja valitse sitten liittyvä linkki.  
+2. Valitse **Uusi**-toiminto.  
+3. Valitse **Suoritettavan objektin tyyppi** -kentässä **Raportti**.  
+4. Valitse **Suoritettavan objektin tunnus** -kentässä **5707, Eräkirjaa siirtotilaukset**.
+5. Valitse **Raporttipyyntösivu**-valintaruutu.
+6. Valitse **Eräkirjaa siirtotilaukset** -sivulla **Toimitus**-vaihtoehto, suodata **Suorasiirto**-kohdassa ja valitse sitten **OK**.
+
+   > [!IMPORTANT]
+   > On tärkeää asettaa suodattimia. Muussa tapauksessa [!INCLUDE [prod_short](includes/prod_short.md)] kirjaa kaikki asiakirjat, vaikka ne eivät olisikaan valmiita. **Vapautettu**-arvon käyttöä suodattimen **Tilan**-kentän arvona ja **tänään**-arvoa **Kirjauspäivämäärä**-kentän arvona kannattaa harkita. Saat lisätietoja suodattimista siirtymällä kohtaan [Lajitteleminen, hakeminen ja suodattaminen](/dynamics365/business-central/ui-enter-criteria-filters).
+
+7. Valitse kaikki valintaruudut **Suorita maanantaisin** -kohdasta **Suorita perjantaisin** -kohtaan.
+8. Anna **Aloitusaika**-kentässä arvoksi **16.00**.
+9. Valitse **Määritä tilaksi valmis** -toiminto.
 
 ## Siirrä nimikkeet nimikkeiden uudelleenluokituspäiväkirjan avulla
 
@@ -69,6 +111,20 @@ Lähtevä siirto voidaan lähettää yhdestä sijainnista ja vastaanottaa kohtee
 4. Anna **Uusi sijaintikoodi** -kenttään sijainti, johon haluat siirtää nimikkeet.
 5. Valitse **Kirjaa**-toiminto.
 
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
+## Peruuta siirtotoimitus
+
+Jos kirjatun siirtotilauksen määrässä on virhe, niin kauan kuin toimitusta ei ole vastaanotettu, määrä on helppo korjata. **Kirjattu siirtotoimitus** -sivulla **Peruuta toimitus** -toiminto luo korjausrivejä seuraavasti:
+
+* **Toimitettu määrä** -kentän arvo laskee kumotulla määrällä.
+* **Toimitettava määrä** -kentän arvo nousee kumotulla määrällä.
+* **Korjaus**-valintaruutu valitaan riveille.
+
+Jos määrä toimitettiin fyysisen varastoinnin toimituksena, korjaava rivi luodaan kirjattuun fyysisen varastoinnin toimitukseen.
+
+Viimeistele korjaus avaamalla siirtotilaus, antamalla oikea määrä ja kirjaamalla tilaus. Jos tilaus on toimitettu fyysisen varastoinnin toimituksen kautta, uusi fyysisen varastoinnin toimitus luodaan ja kirjataan.
+
 ## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/transfer-items/)
 
 ## Katso myös
@@ -78,6 +134,5 @@ Lähtevä siirto voidaan lähettää yhdestä sijainnista ja vastaanottaa kohtee
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

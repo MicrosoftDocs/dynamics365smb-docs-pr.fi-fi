@@ -7,33 +7,34 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5510
-ms.date: 06/24/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Yhden vapautetun tuotantotilausrivin kulutuksen ja tuotoksen rekisteröiminen
 
-Tämä suoritustehtävä suoritetaan **Tuotantopäiväkirja**-sivulla. Päiväkirjassa yhdistetään erillisten kulutuspäiväkirjan ja tuotospäiväkirjan toiminnot yhteen. Tuotantopäiväkirjassa yhdistyvät erillisten kulutus- ja tuotospäiväkirjojen toiminnot yhdeksi päiväkirjaksi, joka voidaan avata suoraan vapautetusta tuotantotilauksesta. Sitä käytetään pääasiassa komponenttien kulutuksen, lopullisten tuotettujen nimikkeiden määrän sekä operaatioihin käytetyn ajan manuaaliseen kirjaukseen. Arvot kirjataan vapautetun tuotantotilauksen tapahtumiksi: Kulutusmäärät kirjataan negatiivisiksi nimiketapahtumiksi, tuotosmäärät positiivisiksi tapahtumiksi ja käytetyt ajat kapasiteettitapahtumiksi. Kirjattuja arvoja voidaan tarkastella päiväkirjan alaosassa myös todellisina määrinä.  
+Tämä tehtävä suoritetaan **Tuotantopäiväkirja**-sivulla. Päiväkirjassa yhdistetään erillisten kulutuspäiväkirjan ja tuotospäiväkirjan toiminnot yhteen. Tuotantopäiväkirjassa yhdistyvät erillisten kulutus- ja tuotospäiväkirjojen toiminnot yhdeksi päiväkirjaksi, joka voidaan avata suoraan vapautetusta tuotantotilauksesta. Sitä käytetään pääasiassa komponenttien kulutuksen, lopullisten tuotettujen nimikkeiden määrän sekä operaatioihin käytetyn ajan manuaaliseen kirjaukseen. Arvot kirjataan vapautetun tuotantotilauksen tapahtumiksi: Kulutusmäärät kirjataan negatiivisiksi nimiketapahtumiksi, tuotosmäärät positiivisiksi tapahtumiksi ja käytetyt ajat kapasiteettitapahtumiksi. Kirjattuja arvoja voidaan tarkastella päiväkirjan alaosassa myös todellisina määrinä.  
 
 > [!NOTE]  
->  Koska kulutustietoja käsitellään yhdessä tuotostietojen kanssa, päiväkirjassa voidaan esittää linkitetyt komponentit ja toiminnot loogisena prosessirakenteena: komponentit toimintojen alle sisennettyinä. Tämä edellyttää, että käytetään reitityslinkkien koodeja.  
+> Koska kulutustietoja käsitellään yhdessä tuotostietojen kanssa, päiväkirjassa voidaan esittää linkitetyt komponentit ja toiminnot loogisena prosessirakenteena: komponentit toimintojen alle sisennettyinä. Tämä edellyttää, että käytetään reitityslinkkien koodeja.  
 
 > [!NOTE]  
->  Komponentit, joilla ei ole reitityslinkkien koodeja, näkyvät päiväkirjassa ensimmäisinä.  
+> Komponentit, joilla ei ole reitityslinkkien koodeja, näkyvät päiväkirjassa ensimmäisinä.  
 
 ## Kulutuksen ja tuotoksen rekisteröiminen  
-1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vapautetut tuotantotilaukset** ja valitse sitten vastaava linkki.  
-2.  Avaa rekisteröimistä odottava vapautettu tuotantotilausrivi ja valitse sitten **Rivit**-pikavälilehdessä ensin **Rivi**-toiminto ja lopuksi **Tuotantopäiväkirja**-toiminto.  
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vapautetut tuotantotilaukset** ja valitse sitten vastaava linkki.  
+2. Avaa rekisteröimistä odottava vapautettu tuotantotilausrivi ja valitse sitten **Rivit**-pikavälilehdessä ensin **Rivi**-toiminto ja lopuksi **Tuotantopäiväkirja**-toiminto.  
 
     **Tuotantopäiväkirja**-sivu avautuu, ja siinä näkyvät tuotantotilausrivin arviointiperusteeksi päiväkirjarivit **Tuotantotilauksen komponentti** ja **Tuotantotilauksen reititys** -sivujen mukaisesti. Nämä rivit ovat peräisin tuotannossa olevaan nimikkeeseen liitetystä tuoterakenteesta ja reitityksestä.  Lisätietoja on kohdassa [Tuotannon tuoterakenteiden luominen](production-how-to-create-routings.md).  
 
-3.  Syötä päiväkirjan yläreunan **Kirjauspvm**-kenttään kirjauspäivämäärä, jota käytetään kaikilla riveillä. Oletusarvona on käsittelypäivämäärä. Kenttä on tarkoitettu nopeaksi keinoksi asettaa kaikille riveille tarvittaessa yhtenäiset kirjauspäivämäärät.  
+3. Syötä päiväkirjan yläreunan **Kirjauspvm**-kenttään kirjauspäivämäärä, jota käytetään kaikilla riveillä. Oletusarvona on käsittelypäivämäärä. Kenttä on tarkoitettu nopeaksi keinoksi asettaa kaikille riveille tarvittaessa yhtenäiset kirjauspäivämäärät.  
 
     > [!NOTE]  
     >  Itse riville annettu kirjauspäivämäärä kumoaa tämän kentän arvon.  
 
-4.  Päiväkirjan yläreunan **Materiaalinottotapa**-suodatinkentässä voit valita, näytetäänkö myös kulutus ja tuotos, joka on kirjattu automaattisesti nimikkeelle ja resurssille määritettyjen materiaalinottotapojen mukaan. Lisätietoja on kohdassa [Komponenttien materiaalinoton ottaminen käyttöön toiminnan tuotoksen mukaan](production-how-to-flush-components-according-to-operation-output.md).   
+4. Päiväkirjan yläreunan **Materiaalinottotapa**-suodatinkentässä voit valita, näytetäänkö myös kulutus ja tuotos, joka on kirjattu automaattisesti nimikkeelle ja resurssille määritettyjen materiaalinottotapojen mukaan. Lisätietoja on kohdassa [Komponenttien materiaalinoton ottaminen käyttöön toiminnan tuotoksen mukaan](production-how-to-flush-components-according-to-operation-output.md).
 
-5.  Jatka antamalla muokattaviin kenttiin tarvittavat määrät – kulutus ja tuotos.  
+5. Jatka antamalla muokattaviin kenttiin tarvittavat määrät – kulutus ja tuotos.  
   
     Päiväkirjan kunkintyyppisellä rivillä näytetään vain tarvittavat kentät. Loput ovat tyhjiä ja kirjoitussuojattuja.  
 
@@ -44,27 +45,29 @@ Tämä suoritustehtävä suoritetaan **Tuotantopäiväkirja**-sivulla. Päiväki
     > [!NOTE]  
     >  Huomaa, että vain tapahtumatyyppiä **Tuotos** oleva viimeisellä päiväkirjan rivillä oleva tuotoksen määrä muuttaa varastotasoa päiväkirjan kirjauksen yhteydessä. Älä siis kirjaa päiväkirjaa, jonka viimeisellä tuotosrivillä on esiasetettu tuotoksen oletusmäärä, ennen kuin kaikki lopulliset nimikkeet on todella tuotettu.  
 
-6.  Lisää tuotosrivien **Valmis**-kenttään valintamerkki osoittamaan, että toiminto on valmis. Tämä kenttä on yhteydessä tuotantotilauksen reititysrivin **Reitityksen tila** -kenttään.  
-7.  Rekisteröi annetut määrät valitsemalla **Kirjaa**-toiminto ja sulje päiväkirja.  
+6. Lisää tuotosrivien **Valmis**-kenttään valintamerkki osoittamaan, että toiminto on valmis. Tämä kenttä on yhteydessä tuotantotilauksen reititysrivin **Reitityksen tila** -kenttään.  
+7. Rekisteröi annetut määrät valitsemalla **Kirjaa**-toiminto ja sulje päiväkirja.  
 
-Jos arvot pysyvät kirjattuina, päiväkirja sisältää nämä jäljellä olevat arvot, kun se avataan seuraavan kerran. Kirjatut arvot näytetään päiväkirjan alaosassa todellisina arvoina.  
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-> [!NOTE]  
->   Jos kulutettava nimike on suljettu, päiväkirja ei kirjaa nimikkeen kulutusmääriä. Jos kuormitusryhmä tai tuotantosolu on suljettu, päiväkirja ei kirjaa kyseisen tuotosrivin tuotosmääriä eikä prosessiaikoja.  
+    Jos arvot pysyvät kirjattuina, päiväkirja sisältää nämä jäljellä olevat arvot, kun se avataan seuraavan kerran. Kirjatut arvot näytetään päiväkirjan alaosassa todellisina arvoina.  
 
-> [!NOTE]  
->  Jos päiväkirja suljetaan kirjaamatta, muutokset menetetään.  
+    > [!NOTE]  
+    >   Jos kulutettava nimike on suljettu, päiväkirja ei kirjaa nimikkeen kulutusmääriä. Jos kuormitusryhmä tai tuotantosolu on suljettu, päiväkirja ei kirjaa kyseisen tuotosrivin tuotosmääriä eikä prosessiaikoja.  
+
+    > [!NOTE]  
+    > Jos päiväkirja suljetaan kirjaamatta, muutokset menetetään.  
 
 > [!WARNING]  
->  **Tuotantopäiväkirja**-sivua ei voi käyttää useampi käyttäjä samanaikaisesti. Tämä tarkoittaa, että jos käyttäjä 2 avaa sivun ja kirjoittaa tietoja, kun käyttäjä 1 toimii jo sivulla, 2 käyttäjä menettää tietoja, kun käyttäjä 1 sulkee sivun.  
+> **Tuotantopäiväkirja**-sivua ei voi käyttää useampi käyttäjä samanaikaisesti. Tämä tarkoittaa, että jos käyttäjä 2 avaa sivun ja kirjoittaa tietoja, kun käyttäjä 1 toimii jo sivulla, 2 käyttäjä menettää tietoja, kun käyttäjä 1 sulkee sivun.  
 
 ## Katso myös  
-[Tuotanto](production-manage-manufacturing.md)    
+
+[Tuotanto](production-manage-manufacturing.md)  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
-[Suunnittelu](production-planning.md)      
+[Suunnittelu](production-planning.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

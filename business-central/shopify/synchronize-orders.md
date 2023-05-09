@@ -28,7 +28,9 @@ Tavallinen Shopify-tilaus voi sisältää välisumman lisäksi muita kustannuksi
 
 Ota käyttöön **Automaattiset tilaukset**, joiden avulla voit luoda myyntiasiakirjoja automaattisesti [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa, kun Shopify-tilaus on tuotu.
 
-[!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelman myyntiasiakirjassa on linkki Shopify-tilaukseen. Jos valitset **Shopify--tilausnro asiakirjarivillä** -kentän, tämä tieto toistetaan myyntiriveillä, joiden tyyppi on *Kommentti*.
+Jos haluat vapauttaa myyntiasiakirjan automaattisesti, ota käyttöön **Vapauta myyntitilaukset automaattisesti** -valinta.
+
+Myyntiasiakirja kohteessa [!INCLUDE[prod_short](../includes/prod_short.md)] linkittyy Shopify-tilaukseen, ja voit lisätä kentän, jota ei ole vielä näkyvissä sivulla. Saat lisätietoja kentän lisäämisestä siirtymällä kohtaan [Sivun mukauttamisen aloittaminen **Mukauttaminen** -palkin avulla](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). Jos valitset **Shopify--tilausnro asiakirjarivillä** -kentän, tämä tieto toistetaan myyntiriveillä, joiden tyyppi on **Kommentti**.
 
 **Veroalueen lähde** -kentässä voit määrittää prioriteetin, jonka mukaan veroaluekoodi tai liiketoiminnan ALV-kirjausryhmä valitaan osoitteen perusteella. Tuotu Shopify-tilaus sisältää verotiedot, mutta verot lasketaan uudelleen, kun luot myyntiasiakirjan, joten on tärkeää, että ALV-/veroasetukset on määritetty oikein [!INCLUDE[prod_short](../includes/prod_short.md)]issa. Lisätietoja veroista on ohjeaiheessa [Shopify-yhteyden verojen määrittäminen](setup-taxes.md).
 
@@ -75,7 +77,7 @@ Seuraavassa kuvataan, miten myyntitilaukset tuodaan ja päivitetään.
 > [!NOTE]  
 > Kun suodatat tunnisteen mukaan, käytä suodatintunnuksia `@` ja `*`. Jos esimerkiksi haluat tuoda tilauksia, joissa on *tag1*, käytä `@*tag1*`. `@` varmistaa, että tulos ei riipu kirjainkoosta, kun taas `*` etsii tilauksia, joissa on useita tunnisteita.
 
-7. Valitse **OK**-painike.
+6. Valitse **OK**-painike.
 
 Vaihtoehtoisesti voit etsiä **synkronoituja tilauksia Shopifysta** -erätyötä.
 
@@ -132,20 +134,24 @@ Seuraavat vaiheet määräytyvät **asiakkaan yhdistämismäärityksen tyypin** 
 
 Shopifyssa:
 
-|Muokkaa|Vaikutus|
-|------|-----------|
-|Muuta täyttämissijaintia | Alkuperäinen sijainti synkronoidaan [!INCLUDE[prod_short](../includes/prod_short.md)]iin. |
-|Täyttämissijainnin ja täyttämisen rekisteröinti Shopifyssa| Jos tilaus oli jo tuotu, rivejä ei päivitetä. Muussa tapauksessa tuotu tilaus käyttää täyttämissijaintia. |
-|Muokkaa tilausta ja muuta määrää| Tilausotsikko ja lisätaulukot päivittyvät [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa, rivit eivät. |
-|Muokkaa tilausta ja lisää uusi nimike | Tilausotsikko päivittyy, rivit eivät. |
+|Muokkaa|Vaikutus jo tuotuun tilaukseen|Vaikutus ensimmäisen kerran tuotavaan tilaukseen|
+|------|-----------|-----------|
+|Muuta täyttämissijaintia | Alkuperäinen sijainti on riveillä | Täyttämissijainti on synkronoitu kohteeseen [!INCLUDE[prod_short](../includes/prod_short.md)].|
+|Muokkaa tilausta ja lisää määrää| Tilausotsikko ja lisätaulukot päivittyvät [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa, rivit eivät.| Tuotu tilaus käyttää uutta määrää|
+|Muokkaa tilausta ja pienennä määrää| Tilausotsikko ja lisätaulukot päivittyvät [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa, rivit eivät.| Tuotu tilaus käyttää alkuperäistä määrää, Jaettava määrä -kentässä on uusi arvo.|
+|Muokkaa tilausta ja poista olemassa oleva nimike | Tilausotsikko ja lisätaulukot päivittyvät [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa, rivit eivät.| Poistettu nimike tuodaan edelleen, Jaettava määrä -kentässä on nolla. |
+|Muokkaa tilausta ja lisää uusi nimike | Tilausotsikko päivittyy, rivit eivät. | Alkuperäiset ja lisätyt nimikkeet tuodaan. |
+|Käsittele tilaus: täytä, päivitä maksutiedot | Tilausotsikko päivittyy, rivit eivät. |Muutoksella ei ole vaikutusta siihen, miten tilaus tuodaan.|
+|Peruuta tilaus | Tilausotsikko päivittyy, rivit eivät. |Peruutettua tilausta ei ole tuotu |
 
 [!INCLUDE[prod_short](../includes/prod_short.md)]issa:
 
 |Muokkaa|Vaikutus|
 |------|-----------|
-|Muuta sijainti toiseen sijaintiin, joka on kartoitettu Shopify-sijainteihin. Kirjaa toimitus. | Kun toteutus on synkronoitu, sijainti päivittyy Shopifyssa. |
+|Muuta sijainti toiseen sijaintiin, joka on kartoitettu Shopify-sijainteihin. Kirjaa toimitus. | Tilaus merkitään täytetyksi. Alkuperäistä sijaintia käytetään. |
 |Muuta sijainti toiseen sijaintiin, jota ei ole kartoitettu Shopify-sijainteihin. Kirjaa toimitus. | Täydennystä ei synkronoida Shopifyn kanssa. |
 |Vähennä määrää. Kirjaa toimitus. | Shopify-tilaus merkitään osittain täytetyksi. |
+|Lisää määrää. Kirjaa toimitus. | Täydennystä ei synkronoida Shopifyn kanssa. |
 |Lisää uusi nimike. Kirjaa toimitus. | Shopify-tilaus merkitään täytetyksi. Rivejä ei päivitetä. |
 
 ## Synkronoi toimitukset Shopifyhin
@@ -162,7 +168,8 @@ Vaihtoehtoisesti voit käyttää **Synkronoi toimitukset** -toimintoa Shopifyn m
 
 Voit ajoittaa tehtävän suoritettavaksi automaattisesti. Lisätietoja on kohdassa [Toistuvien tehtävien ajoittaminen](background.md#to-schedule-recurring-tasks).
 
->[Tärkeää] Kirjatulla toimitusrivillä olevalla sijainnilla, myös tyhjällä sijainnilla, täytyy olla vastaava Shopify-sijainti. Muussa tapauksessa tätä riviä ei lähetetä takaisin Shopifyhin. Lisätietoja on kohdassa [Sijainnin yhdistämismääritys](synchronize-orders.md#location-mapping).
+>[!Important]
+>Kirjatulla toimitusrivillä olevalla sijainnilla, myös tyhjällä sijainnilla, täytyy olla vastaava Shopify-sijainti. Muussa tapauksessa tätä riviä ei lähetetä takaisin Shopifyhin. Lisätietoja on kohdassa [Sijainnin yhdistämismääritys](synchronize-orders.md#location-mapping).
 
 Muista suorittaa **Synkronoi tilaukset Shopifysta** -toiminto päivittääksesi tilauksen jakelun tilan [!INCLUDE[prod_short](../includes/prod_short.md)]issa. Yhdistintoiminto arkistoi myös täysin maksetut ja täytetyt tilaukset sekä Shopifyssa että [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa edellyttäen, että ehdot täyttyvät.
 
