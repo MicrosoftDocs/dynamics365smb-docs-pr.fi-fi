@@ -1,23 +1,17 @@
 ---
 title: Kassavirtojen analysoiminen
-description: Tässä artikkelissa kerrotaan, miten käyttöpääomasykli-, tulot ja kulut-, kassavirta- ja kassavirtaennustekaavioilla voidaan analysoida yrityksen historiallista ja tulevaa kassavirran liikkumista.
+description: 'Tässä artikkelissa kerrotaan, miten käyttöpääomasykli-, tulot ja kulut-, kassavirta- ja kassavirtaennustekaavioilla voidaan analysoida yrityksen historiallista ja tulevaa kassavirran liikkumista.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera
-ms.search.form: 762, 840, 841, 847, 848, 849, 850, 851, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818
+ms.search.keywords: 'money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera'
+ms.search.form: '762, 840, 841, 847, 848, 849, 850, 851, 857, 858, 859, 860, 862, 863, 865, 866, 867, 868, 869, 1818'
 ms.date: 12/20/2021
 ms.author: bholtorf
-ms.openlocfilehash: c0625964c396611a46575af8aee11da2144e3194
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529269"
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Yrityksen kassavirran analysoiminen
+# Yrityksen kassavirran analysoiminen
 Kirjanpitäjän roolikeskuksesta saa merkityksellisiä tietoja, joiden avulla voi päättää järkevästi käteisvarojen käytöstä.  
 
 | Vastattava kysymys | Käytettävä kaavio |
@@ -42,15 +36,15 @@ Jos haluat tarkastella ennustetta, voit perehtyä ennustetapahtumien lisäksi my
 * vähentää ostoreskontran ja lisää myyntireskontran  
 * ohittaa myynti- ja ostotilausten kaksoiskappaleet.  
 
-## <a name="to-view-a-cash-flow-worksheet"></a>Kassavirtatyökirjan tarkastelu
+## Kassavirtatyökirjan tarkastelu
 
 1. Hae **Kassavirtaennusteet** ja valitse liittyvä linkki.  
 2. Valitse ensin kassavirtaennustee ja sitten **Kassavirtatyökirja**-toiminto.  
 3. Valitse **Kassavirtatyökirja**-sivulla **Ehdota työkirjan rivejä** -toiminto.  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

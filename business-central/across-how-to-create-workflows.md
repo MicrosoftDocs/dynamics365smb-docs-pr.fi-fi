@@ -2,23 +2,24 @@
 title: Hyväksyntätyönkulkujen luominen tehtävien yhdistämistä varten
 description: 'Lue lisää siitä, miten voit luoda työnkulkuja, jotka yhdistävät eri ihmisten suorittamia tehtäviä liiketoimintaprosesseissa.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.date: 11/11/2022
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: how-to
+ms.date: 04/24/2023
+ms.custom: bap-template
 ---
 # Työnkulkujen luominen liiketoimintaprosessin yhdistämistehtäviä varten
 
-Voit luoda työnkulkuja, jotka yhdistävät eri käyttäjien suorittamia tehtäviä liiketoimintaprosesseissa. Järjestelmätehtäviä (kuten automaattinen kirjaus) voidaan sisällyttää työnkulkuihin, joita käyttäjän tehtävät edeltävät tai seuraavat. Uusien tietueiden luontiin liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.  
+Voit luoda työnkulkuja, jotka yhdistävät eri käyttäjien suorittamia tehtäviä liiketoimintaprosesseissa. Voit sisällyttää mukaan järjestelmätehtäviä (kuten automaattinen kirjaus) työnkulkuihin, joita käyttäjän tehtävät edeltävät tai seuraavat. Uusien tietueiden luontiin liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.  
 
-Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta ja vastausvaihtoehdoista. Työnkulku määritetään täyttämällä työnkulkurivien kentät käyttämällä tapahtumien kiinteitä luetteloita ja vastausarvoja, jotka edustavat sovelluskoodin tukemia skenaarioita.  
+Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla toimet riveillä. Jokainen vaihe koostuu käynnistimestä ja vastauksesta:
+
+* Tapahtuma, joka määrittää työnkulun aloitusehdot.
+* Työnkulun vastaus, joka määrittää työnkulun.
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-Kun luot työnkulkuja, voit kopioida vaiheet aiemmin luoduista työnkuluista tai työnkulkumalleista. Työnkulkumallit ovat yleisen [!INCLUDE[prod_short](includes/prod_short.md)] -version työnkulkuja, joita ei voi muokata. Työnkulkumallien koodit, jotka Microsoft on lisännyt, sisältävät etuliitteen "MS-", kuten "MS-PIW". Lisätietoja kohdassa [Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md).  
+Kun luot työnkulkuja, voit kopioida vaiheet aiemmin luoduista työnkuluista tai työnkulkumalleista. Työnkulun mallit ovat ei-muokattavissa olevia työnkulkuja, joita [!INCLUDE[prod_short](includes/prod_short.md)] tarjoaa. Työnkulkumallien tunnisteet, jotka sisältävät etuliitteen "MS-", kuten "MS-PIW". Lisätietoja kohdassa [Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md).  
 
 > [!NOTE]  
 > Kaikki työnkulun osavaiheiden ilmoitukset lähetetään työjonon kautta. Varmista, että työjono vastaa yrityksesi tarpeita. Lue lisätietoja kohdasta [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).  
@@ -27,7 +28,7 @@ Kun luot työnkulkuja, voit kopioida vaiheet aiemmin luoduista työnkuluista tai
 
 Työnkulku jakautuu kolmeen osaan:
 
-1. **Kun-tapahtuma**  
+1. **Kun - tapahtuma**  
    Tässä valitaan käynnistin.  
    Esimerkkejä käynnistimestä:
    * Päätietojen tietuetta muutetaan
@@ -36,10 +37,10 @@ Työnkulku jakautuu kolmeen osaan:
    * Asiakirjan hyväksyntää pyydetään
 2. **Ehto**  
    **Ehdot** liittyvät tapahtumaan ja mahdollistavat suodattimien luomisen sen päättämiseksi, miten työnkulku jatkuu.
-3. **Sitten-vastaus**  
+3. **Sitten - vastaus**  
    **Vastaukset** määrittävät työnkulun seuraavat vaiheet.
 
-Sekä tapahtumien että vastausten vaihtoehdot ovat järjestelmän määrittämiä. Uusien lisäämistä varten on kehitettävä laajennus.
+Tapahtumien ja vastausten vaihtoehdot ovat järjestelmän määrittämiä. Jos haluat lisätä uusia vaihtoehtoja, sinun on kehitettävä laajennus.
 
 ## Työnkulun luominen
 
@@ -51,18 +52,18 @@ Sekä tapahtumien että vastausten vaihtoehdot ovat järjestelmän määrittämi
 6. Määritä **Luokka**-kentässä, mihin luokkaan työnkulku kuuluu.  
 7. Määritä **Kun - tapahtuma** -kentässä tapahtuma, jonka on tapahduttava, jotta työnkulun vaihe käynnistyy.  
 
-   Kun valitset kentän, **Työnkulkutapahtumat**-sivu avautuu, jolloin voit valita tällä sivulla kaikista käytettävissä olevista työnkulun tapahtumista.  
+   Kun valitset kentän, **Työnkulkutapahtumat**-sivu näyttää kaikki käytettävissä olevat työnkulun tapahtumat.  
 8. Määritä **Ehto**-kentässä vähintään yksi ehto, jonka on toteuduttava, ennen kuin **Kun-tapahtuma**-kentän tapahtuma voi tapahtua.  
 
-   Kun valitset kentän, **Tapahtuman ehdot** -sivu avautuu, jolloin voit valita suodatinten luettelosta kentät, jotka liittyvät ehtoina kyseiseen tapahtumaan. Voit lisätä uusia suodatuskenttiä, joita haluat käyttää tapahtuman ehtoina. Voit määrittää tapahtuman ehtosuodattimet aivan kuin asetat suodattimet raportin pyyntösivuilla.  
+   Kun valitset kentän, **tapahtumaehdot**-sivulla on luettelo suodatuskentistä, jotka voivat olla tapahtuman ehdot. Voit halutessasi lisätä uusia suodatuskenttiä.  
 
-   Jos työnkulun tapahtuma on muutos tietyssä tietueen kentässä, myös **tapahtuma edellytykset** -sivu avautuu, jossa voit valita kentän ja muutoksen tyyppi.  
+   Jos työnkulun tapahtuma on muutos tietyssä tietueen kentässä, käytä **tapahtumaehdot**-sivua valitaksesi kentän ja muutoksen tyypin.  
 
    1. Voit määrittää tapahtuman kentän muutoksen **Tapahtuman ehdot** -sivulla **Kenttä**-kentässä valitsemalla kentän, joka muuttuu.  
    2. **Operaattori** -kentässä, valitse joko **Pienentynyt**, **Suurentunut** tai **Muuttunut**.  
 9. Määritä **Sitten - vastaus** -kentässä vastaus, joka seuraa, kun työnkulun tapahtuma toteutuu.  
 
-   Kun valitset kentän, **Työnkulun vastaukset** -sivu avautuu, jolloin voit valita tällä sivulla kaikista käytettävissä olevista työnkulun vastauksista ja määrittää vastausvaihtoehdot valitulle vastaukselle.  
+   Kun valitset kentän, **Työnkulun vastaukset**-sivu näyttää kaikki käytettävissä olevat työnkulun vastaukset ja vastausvaihtoehdot.  
 10. Määritä **Valitun vastauksen vaihtoehdot** -pikavälilehdessä työnkulun vastauksen asetukset valitsemalla arvoja eri kenttiin, jotka näkyvät, seuraavasti:  
 
     1. Määritä työnkulun vastauksen asetukset, johon sisältyy ilmoitusten lähettäminen, täyttämällä kentät seuraavassa taulukossa kuvatulla tavalla.  
@@ -74,46 +75,47 @@ Sekä tapahtumien että vastausten vaihtoehdot ovat järjestelmän määrittämi
        |-----|-----------|
        |**Ilmoita lähettäjälle**|Määrittää, ilmoitetaanko hyväksymispyynnön vastaanottajan asemesta hyväksynnän pyytäjälle. Jos valitset valintaruudun, **Vastaanottajan käyttäjätunnus** -kenttä on poissa käytöstä, koska hyväksynnän pyytäjälle eli lähettäjälle ilmoitetaan sen sijaan. Työnkulun vastauksen nimi muuttuu vastaavasti nimeksi **Luo ilmoitus &lt;lähettäjälle&gt;**. Jos valintaruutua ei ole valittu, työnkulun vastauksen nimi on **Luo ilmoitus &lt;käyttäjälle&gt;**.|
        |**Vastaanottajan käyttäjätunnus**|Määritä käyttäjä, jolle ilmoitus on lähetettävä. **Huomautus**: Tämä vaihtoehto on käytettävissä vain työnkulun vastauksissa, joissa on paikkamerkki kyseiselle käyttäjälle. Työnkulun vastaukset ilman paikkamerkkiä käyttäjille, ilmoituksen vastaanottaja määritetään yleensä **Hyväksyjäkäyttäjän asetuksissa**.|
-       |**Ilmoitustapahtuman tyyppi**|Määritä, käynnistyykö työnkulun ilmoituksen tietueiden muutos, hyväksymispyyntö vai välitetyt erääntyvät tiedot.|
-       |**Linkin kohdesivu**|Määritä toinen sivu, jonka ilmoituksen linkki avaa oletussivun sijaan. Sivulla on oltava sama lähdetaulukko kuin tietueella.|
+       |**Ilmoitustapahtuman tyyppi**|Valitse työnkulun ilmoituksen käynnistin. Käynnistin voi olla tietueiden muutos, hyväksymispyyntö tai kulunut eräpäivä.|
+       |**Linkin kohdesivu**|Valitse sivu, jonka ilmoituksen linkki avaa. Sivulla on oltava sama lähdetaulukko kuin tietueella.|
        |**Mukautettu linkki**|Määritä sen linkin URL-osoite, joka lisätään ilmoitukseen sivulle vievän linkin lisäksi.|
 
     2. Määritä työnkulun vastauksen asetukset, johon sisältyy hyväksymispyynnön luominen, täyttämällä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
-       |Kenttä|Description|  
+       |Kenttä|Kuvaus|  
        |-----|-----------|  
-       |**Eräpäivän kaava**|Määritä, kuinka monen päivän kuluessa lähettämisestä hyväksyntäpyyntö on ratkaistava.|
+       |**Eräpäivän kaava**|Määrittää, monenko päivän aikana hyväksyjän on ratkaistava pyyntö. Jakso alkaa, kun pyyntö lähetetään.|
        |**Delegoi seuraavan jälkeen:**|Määritä, milloin, jos ollenkaan, hyväksyntäpyyntö delegoidaan automaattisesti korvaajalle. Voit valita automaattisen delegoinnin yhden, kahden tai viiden päivän päähän hyväksynnän pyynnöstä.|
        |**Hyväksyjän tyyppi**|Määritä, kuka on hyväksyjä, käyttäen hyväksyntäkäyttäjien ja työnkulun käyttäjien määritystä. Kun kentän määritys on **Myyjä/ostaja**, **Myyjän/ostajan koodi** -kenttään **Hyväksynnän käyttäjäasetukset** -sivulla määritetty käyttäjä määrittää hyväksyjän. Hyväksymispyyntötapahtumat luodaan sitten **Hyväksyjän rajatyyppi** -kentän arvon mukaan. Lisätietoja kohdassa [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md).|
-       |**Näytä vahvistussanoma**|Määritä, näytetäänkö vahvistussanoma käyttäjille, kun he pyytävät hyväksyntää.|
-       |**Hyväksyjän rajatyyppi**|Määritä, kuinka hyväksyjän hyväksyntärajat vaikuttavat silloin, kun hyväksyjille luodaan hyväksyntäpyyntöjä. Hyväksytyllä hyväksyjällä tarkoitetaan hyväksyjää, jonka hyväksyntäraja on suurempi kuin pyynnön arvo. Käytettävissä ovat seuraavat vaihtoehdot: <ol><li>**Hyväksyjäketju** määrittää, että hyväksyntäpyynnöt luodaan kaikille pyytäjän hyväksyjille ensimmäiseen hyväksyttyyn hyväksyjään saakka.</li><li>**Suora hyväksyjä** määrittää, että hyväksyntäpyyntö luodaan vain pyytäjän lähimmälle hyväksyjälle hänen hyväksyntärajastaan riippumatta.</li><li>**Ensimmäinen hyväksytty hyväksyjä** määrittää, että hyväksyntäpyyntö luodaan vain pyytäjän ensimmäiselle hyväksytylle hyväksyjälle.</li><li>**Tietty hyväksyjä** määrittää, että ilmoitat **hyväksyjän tunnus** -kentässä valitulle käyttäjälle.</li></ol>|
+       |**Näytä vahvistussanoma**|Määritä, näytetäänkö vahvistussanoma käyttäjille, kun käyttäjä pyytää hyväksyntää.|
+       |**Hyväksyjän rajatyyppi**|Määrittele rajoitusten vaikutus hyväksyjille. Hyväksyjän hyväksymisrajan on oltava pyynnön arvon yläpuolella. Käytettävissä ovat seuraavat vaihtoehdot: <ol><li>**Hyväksyjäketju** määrittää, että hyväksyntäpyynnöt luodaan kaikille pyytäjän hyväksyjille ensimmäiseen hyväksyttyyn hyväksyjään saakka.</li><li>**Suora hyväksyjä** määrittää, että hyväksyntäpyyntö luodaan vain pyytäjän lähimmälle hyväksyjälle hänen hyväksyntärajastaan riippumatta.</li><li>**Ensimmäinen hyväksytty hyväksyjä** määrittää, että hyväksyntäpyyntö luodaan vain pyytäjän ensimmäiselle hyväksyjälle.</li><li>**Tietty hyväksyjä** määrittää, että ilmoitat **hyväksyjän tunnus** -kentässä valitulle käyttäjälle.</li></ol>|
+
     3. Määritä työnkulun vastauksen asetukset, johon sisältyy päiväkirjarivien luominen, täyttämällä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
-       |Kenttä|Description|  
+       |Kenttä|Kuvaus|  
        |-----|-----------|  
        |**Yleisen päiväkirjan mallin nimi**|Määritä päiväkirjan malliin nimi, josta määritetyt päiväkirjarivit luodaan.|  
        |**Yleisen päiväkirjan erän nimi**|Määritä päiväkirjan erän nimi, josta määritetyt päiväkirjarivit luodaan.|  
 
 11. Määritä osavaiheen sijainti työnkulussa sisentämällä **Kun**-kentässä olevan tapahtuman nimi **Suurenna sisennystä**- ja **Pienennä sisennystä** -painikkeilla.  
 
-    1. Osoita, että vaihe on seuraava työnkulun järjestyksessä sisentämällä sen nimi edellisen vaiheen alle.  
+    1. Sisennä edellisen vaiheen nimen alla oleva tapahtuma osoittamaan, että kyseessä on seuraava vaihe.  
     2. Osoita, että vaihe on yksi useammasta vaihtoehtoisesta vaiheesta, joka voi riippua sille asetetusta ehdosta sisentämällä tapahtuman nimi vastaamaan muita vaihtoehtoisia vaiheita. Aseta nämä vaihtoehtoiset vaiheet tärkeysjärjestykseen sijoittamalla tärkein ensimmäiseksi.  
 
     > [!NOTE]  
     >  Voit muuttaa ainoastaan sellaisen vaiheen sisennystä, jolla ei ole seuraavia vaiheita.  
 
 12. Toista vaiheet 7–11, lisätäksesi työnkulun vaiheita joko luomaasi vaihetta ennen tai jälkeen.  
-13. Kytke **Käytössä**-valitsin päälle määrittääksesi, että työnkulku alkaa heti ensimmäisen vaiheen **Aloituskohta**-tyyppisen tapahtuman toteuduttua. Lisätietoja on kohdassa [Työnkulkujen käyttäminen](across-use-workflows.md).  
+13. Kytke **Käytössä**-valitsin päälle määrittääksesi, että työnkulku alkaa ensimmäisen vaiheen **Aloituskohta**-tyyppisen tapahtuman toteuduttua. Lisätietoja on kohdassa [Työnkulkujen käyttäminen](across-use-workflows.md).  
 
 > [!NOTE]  
-> Älä ota työnkulkua käyttöön, ennen kuin olet varma, että työnkulku on valmis ja siihen liittyvät osavaiheet voi aloittaa.  
+> Älä ota työnkulkua käyttöön, ennen kuin olet varma, että se on valmis.  
 
 > [!TIP]  
-> Jos haluat nähdä työnkuluissa käytettävien taulukoiden väliset suhteet, valitse ![Kerro-ominaisuuden avaava hehkulamppu.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä sitten **Työnkulku – Taulukon suhteet**.  
+> Jos haluat tarkastella työnkuluissa käytettävien taulukoiden välisiä suhteita, valitse ![Kerro-ominaisuuden avaava hehkulamppu.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä sitten **Työnkulku – Taulukon suhteet**.  
 
 ## Esimerkki uuden työnkulun luomisesta aiemmin luotujen tapahtumien avulla
 
-Seuraavassa esimerkissä tehdään uusi työnkulku, joka hyväksyy muutokset aiemmin luodun toimittajan nimeen:
+Seuraavassa esimerkissä luodaan uusi työnkulku, joka hyväksyy muutoksen toimittajan nimeen:
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut**, valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto. **Työnkulku**-sivu avautuu.
@@ -128,39 +130,39 @@ Seuraavassa esimerkissä tehdään uusi työnkulku, joka hyväksyy muutokset aie
 4. Tee seuraavalla tavalla luodaksesi ensimmäisen työnkulun osavaiheen.
 
     1. Määritä **Kun - tapahtuma** -kentässä *Toimittajatietue muutetaan*.  
-    2. Valitse **Ehto**-kentässä sana **Aina**. Valitse sitten **Tapahtuman ehdot** -sivulla **Lisää ehto, kun kentän arvo muuttuu** -linkki ja valitse sitten *Nimi*-kenttä. Tämän vaiheen tulos on se, että ehto näkyy muodossa *Nimi muutetaan*.  
-    3. Valitse **Sitten vastaus** -kentässä **Valitse vastaus** -linkki. Valitse sitten **Työnkulun vastaukset** -sivun **Valitse vastaus** -kentässä *Palauta tietueen \<Field\>-kentän arvo ja tallenna muutos* -vastaus. Määritä sitten *Nimi*-kenttä **Valitun vastauksen vaihtoehdot** -osassa.  
-    4. Valitse **Lisää vastauksia** -linkki ja lisää sitten merkintä *Luo tietueelle hyväksyntäpyyntö käyttäen hyväksyjätyyppejä <%1> ja <%2>* -vastaukselle.  
-    5. Vaihda uuden vastauksen **Valitun vastauksen asetukset** -osassa **Hyväksyjätyyppi**-kenttä vaihtoehtoon *Työnkulun käyttäjäryhmä*, määritä sitten **Työnkulun käyttäjäryhmä** -kentässä asiaankuuluva käyttäjäryhmä. Lisätietoja kohdassa [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md).  
-    6. Lisää kolmas vastaus: *Lähetä tietueen hyväksymispyyntö ja luo ilmoitus.*  
-    7. Lisää neljäs vastaus nimellä *Näytä sanoma %1* ja määritä sitten **Valitun vastauksen asetukset** -osan **Sanoma**-kentässä **Hyväksymispyyntö on lähetetty**.  
+    2. Valitse **Ehto**-kentässä sana **Aina**. Valitse sitten **Tapahtuman ehdot** -sivulla **Lisää ehto, kun kentän arvo muuttuu** -linkki ja valitse sitten **Nimi**-kenttä. Tämän vaiheen tulos on se, että ehto näkyy muodossa *Nimi muutetaan*.  
+    3. Valitse **Sitten vastaus** -kentässä **Valitse vastaus** -linkki. Valitse sitten **Työnkulun vastaukset** -sivun **Valitse vastaus** -kentässä **Palauta tietueen \<Field\>-kentän arvo ja tallenna muutos** -vastaus. Määritä sitten **Nimi**-kenttä **Valitun vastauksen vaihtoehdot** -osassa.  
+    4. Valitse **Lisää vastauksia** -linkki ja lisää sitten merkintä **Luo tietueelle hyväksyntäpyyntö käyttäen hyväksyjätyyppejä <%1> ja <%2>** -vastaukselle.  
+    5. Vaihda uuden vastauksen **Valitun vastauksen asetukset** -osiossa **Hyväksyjän tyyppi** -kenttään **Työnkulun käyttäjäryhmä**. Määritä sitten käyttäjäryhmä **työnkulun käyttäjäryhmä** -kentässä. Lisätietoja kohdassa [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md).  
+    6. Lisää kolmas vastaus: **Lähetä tietueen hyväksymispyyntö ja luo ilmoitus**.  
+    7. Lisää neljäs vastaus, **Näytä viesti "%1"**. Määritä sitten **Valitun vastauksen asetukset** -osion **Viesti**-kenttään **Hyväksymispyyntö on lähetetty**.  
     8. Valitse **OK** palataksesi työnkulun osavaiheeseen.  
 
-5. Lisää seuraavalle riville uusi työnkulun osavaihe *Hyväksymispyyntö on hyväksytty.* -tapahtumalle.
+5. Lisää seuraavalle riville uusi työnkulun osavaihe **Hyväksymispyyntö on hyväksytty** -tapahtumalle.
 
-    1. Määritä **Kun - tapahtuma** -kenttään *Hyväksymispyyntö on hyväksytty*.  
+    1. Määritä **Kun - tapahtuma** -kenttään **Hyväksymispyyntö on hyväksytty**.  
     2. Valitse rivivalikko, valitse sitten **Suurenna sisennystä**.  
-    3. Valitse **Ehto** -kentässä sana **Aina**, määritä sitten **Odottavat hyväksynnät** -kentässä *0*. Tämän vaiheen tulos on se, että ehto näkyy muodossa *Odottavat hyväksynnät:0*, mikä osoittaa, että tämä on viimeinen hyväksyjä.  
-    4. Valitse **Sitten vastaus** -kentässä **Valitse vastaus** -linkki. Valitse sitten **Työnkulun vastaukset** -sivun **Valitse vastaus** -kentässä *Lähetä tietueen hyväksymispyyntö ja luo ilmoitus* -vastaus.  
+    3. Valitse **Ehto**-kentässä **Aina**. Määritä sitten **Odottavat hyväksynnät** -kentässä **0**. Ehto näkyy muodossa **Odottavat hyväksynnät:0**, mikä osoittaa, että pyyntö ei edellytä muita hyväksyjiä.  
+    4. Valitse **Sitten vastaus** -kentässä **Valitse vastaus** -linkki. Valitse sitten **Työnkulun vastaukset** -sivun **Valitse vastaus** -kentässä **Lähetä tietueen hyväksymispyyntö ja luo ilmoitus** -vastaus.  
     5. Valitse **OK**.  
-6. Lisää seuraavalle riville toinen työnkulun osavaihe *Hyväksymispyyntö on hyväksytty* -tapahtumalle.  
+6. Lisää seuraavalle riville toinen työnkulun osavaihe **Hyväksymispyyntö on hyväksytty** -tapahtumalle.  
 
-    1. Määritä **Kun - tapahtuma** -kenttään *Hyväksymispyyntö on hyväksytty*.
-    2. Valitse **Ehto** -kentässä sana **Aina**, määritä sitten **Odottavat hyväksynnät** -kentässä *>0*. Tämän vaiheen tulos on se, että ehto näkyy muodossa *Odottavat hyväksynnät:>0*, mikä osoittaa, että tämä *ei* ole viimeinen hyväksyjä.  
-    3. Valitse **Sitten vastaus** -kentässä **Valitse vastaus** -linkki. Valitse sitten **Työnkulun vastaukset** -sivun **Valitse vastaus** -kentässä *Lähetä tietueen hyväksymispyyntö ja luo ilmoitus* -vastaus.  
+    1. Määritä **Kun - tapahtuma** -kenttään **Hyväksymispyyntö on hyväksytty**.
+    2. Valitse **Ehto**-kentässä **Aina**. Määritä sitten **Odottavat hyväksynnät** -kentässä **>0**. Ehto näkyy muodossa **Odottavat hyväksynnät:>0**, mikä osoittaa, että tämä ei ole viimeinen hyväksyjä.  
+    3. Valitse **Sitten vastaus** -kentässä **Valitse vastaus** -linkki. Valitse sitten **Työnkulun vastaukset** -sivun **Valitse vastaus** -kentässä **Lähetä tietueen hyväksymispyyntö ja luo ilmoitus** -vastaus.  
     4. Valitse **OK**.  
-7. Lisää seuraavalle riville työnkulun osavaihe *Hyväksymispyyntö on delegoitu* -tapahtumalle.  
+7. Lisää seuraavalle riville työnkulun osavaihe **Hyväksymispyyntö on delegoitu** -tapahtumalle.  
 
-    1. Määritä **Kun-tapahtuma**-kenttään *Hyväksymispyyntö on delegoitu*.  
-    2. Jätä **Ehto**-kentässä arvoksi *Aina*.  
-    3. Valitse **Sitten vastaus** -kentässä **Valitse vastaus** -linkki. Valitse sitten **Työnkulun vastaukset** -sivun **Valitse vastaus** -kentässä *Lähetä tietueen hyväksymispyyntö ja luo ilmoitus* -vastaus.  
+    1. Määritä **Kun-tapahtuma**-kenttään **Hyväksymispyyntö on delegoitu**.  
+    2. Jätä **Ehto**-kentässä arvoksi **Aina**.  
+    3. Valitse **Sitten vastaus** -kentässä **Valitse vastaus** -linkki. Valitse sitten **Työnkulun vastaukset** -sivun **Valitse vastaus** -kentässä **Lähetä tietueen hyväksymispyyntö ja luo ilmoitus** -vastaus.  
     4. Valitse **OK**.  
-8. Lisää seuraavalle riville toinen työnkulun osavaihe *Hyväksymispyyntö on hylätty* -tapahtumalle.  
+8. Lisää seuraavalle riville toinen työnkulun osavaihe **Hyväksymispyyntö on hylätty** -tapahtumalle.  
 
-    1. Määritä **Kun - tapahtuma** -kenttään *Hyväksymispyyntö on hylätty*.  
-    2. Jätä **Ehto**-kentässä arvoksi *Aina*.  
-    3. Valitse **Sitten vastaus** -kentässä **Valitse vastaus** -linkki. Valitse sitten **Työnkulun vastaukset** -sivun **Valitse vastaus** - kentässä *Hylkää uudet arvot* -vastaus.  
-    4. Valitse **Lisää vastauksia** -linkki, lisää sitten merkintä *Hylkää tietueen hyväksymispyyntö ja luo ilmoitus* -vastaukselle
+    1. Määritä **Kun - tapahtuma** -kenttään **Hyväksymispyyntö on hylätty**.  
+    2. Jätä **Ehto**-kentässä arvoksi **Aina**.  
+    3. Valitse **Sitten vastaus** -kentässä **Valitse vastaus** -linkki. Valitse sitten **Työnkulun vastaukset** -sivun **Valitse vastaus** - kentässä **Hylkää uudet arvot** -vastaus.  
+    4. Valitse **Lisää vastauksia** -linkki, lisää sitten merkintä **Hylkää tietueen hyväksymispyyntö ja luo ilmoitus** -vastaukselle
     5. Valitse **OK**.  
 9. Ota työnkulku käyttöön valitsemalla **Käytössä**-tilanvaihtonäppäin.  
 

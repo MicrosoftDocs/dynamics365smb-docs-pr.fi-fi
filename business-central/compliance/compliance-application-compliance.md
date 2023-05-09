@@ -1,26 +1,25 @@
 ---
 title: Sovelluksen yhteensopivuus
-description: 'Tässä aiheessa on tietoja sovelluksen Business Centralia koskevasta yhteensopivuudesta, kuten kansainvälisistä tilinpäätösstandardeista, paikallisista toiminnoista ja GDPR:stä.'
+description: 'Tässä artikkelissa kerrotaan Business Centralin yhteensopivuudesta kansainvälisten tilinpäätösstandardien, paikallisten toimintojen ja tietosuojaa koskevien lakien ja määräysten kanssa.'
 author: sorenfriisalexandersen
-documentationcenter: ''
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.date: 08/25/2022
 ms.author: soalex
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.date: 04/25/2023
+ms.custom: bap-template
 ---
+
 # Sovelluksen yhteensopivuus
 
-Tässä sisällössä on tietoja sovelluksen [!INCLUDE[prod_short](../includes/prod_short.md)]ia koskevasta yhteensopivuudesta, kuten kansainvälisistä tilinpäätösstandardeista, paikallisista toiminnoista ja yleinen tietosuoja (GDPR) -asetuksesta. Luotettava liiketoiminnan hallintaratkaisu on tärkeää liiketoiminnan tehokkuuden kannalta. Business Centralin avulla yritykset pystyvät yksinkertaistamaan liiketoimintaprosessejaan samalla, kun ne pystyvät yhdenmukaisesti ja kustannustehokkaasti toimimaan koko ajan lisääntyvän säätelyn ja raportointivaatimusten mukaisesti.
+Tässä artikkelissa kerrotaan, kuinka [!INCLUDE [prod_short](../includes/prod_short.md)] -ohjelma auttaa yrityksiä yksinkertaistamaan liiketoimintaprosessejaan samalla, kun ne pystyvät yhdenmukaisesti ja kustannustehokkaasti toimimaan koko ajan lisääntyvän säätelyn ja raportointivaatimusten mukaisesti.
 
 ## Tietosuoja
 
-Business Central tukee tietosuojahankkeita, kuten yleistä tietosuoja-asetusta, joka astui voimaan 25.5.2018. Lue lisää tavasta, jolla [Business Central tukee GDPR-asetusta](../admin-responding-to-requests-about-personal-data.md).  
+[!INCLUDE [prod_short](../includes/prod_short.md)] tukee tietosuojaa koskevia lakeja ja määräyksiä. [Tutustu siihen, miten tietojen kohteen pyyntöihin vastataan Business Centralissa](../admin-responding-to-requests-about-personal-data.md).
 
-Jos kehität Business Central -laajennuksia, sinun on oltava tietoinen tietojen luokittelusta. Lue lisätietoja [tältä sivulta](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
-Jos haluat lisätietoja GDPR-asetuksen ottamisesta huomioon laajemmin Dynamics 365:ssä, tutustu [tässä luettelossa oleviin raportteihin](/dynamics365/get-started/gdpr/).
+Jos kehität [!INCLUDE [prod_short](../includes/prod_short.md)] -laajennuksia, sinun täytyy tietää, [miten tiedot luokitellaan Dynamics 365:ssä](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
+
+[Lisätietoja tietosuojasta Dynamics 365:ssä](https://privacy.microsoft.com/en-us/privacystatement).
 
 ## Vaatimustenmukaisuutta edistävät kirjanpidon prosessit ja ohjaukset
 
@@ -36,7 +35,7 @@ Yhdenmukaisuus ei perustu ainoastaan tarkkoihin tietoihin ja soveltuviin kirjanp
 
 ## Integroidun liiketoiminnan hallintaratkaisun etujen hyödyntäminen
 
-Business Centralin avulla saat käyttöösi reaaliaikaisia integroituja operatiivisia ja taloushallinnon tietoja koko organisaatiosta. Niiden avulla voit
+[!INCLUDE [prod_short](../includes/prod_short.md)] antaa käyttöösi reaaliaikaisia integroituja operatiivisia ja taloushallinnon tietoja koko organisaatiosta. Niiden avulla voit
 
 - Seuraa taloushallinnon tietoja käyttämällä mukautettuja talousraportteja kassavirrasta, tuotoista, taseista, käyttöomaisuudesta, pääomarakenteesta, keskeisistä suoritusindikaattoreista ja muista.
 - varmistaa tarkkuus roolipohjaisella suojauksella ja määritettävillä sovelluksen ohjausobjekteilla, jotka estävät virheellisen tietojen syötön tai kaksoiskappaleiden syöttämisen
@@ -45,7 +44,7 @@ Business Centralin avulla saat käyttöösi reaaliaikaisia integroituja operatii
 
 ## Tärkeiden tietojen, prosessien ja raporttien hallinta
 
-Business Central tehostaa liiketoiminnan onnistuneen toiminnan kannalta tärkeiden toimintojen ja tietojen hallintaa.
+[!INCLUDE [prod_short](../includes/prod_short.md)] tehostaa liiketoiminnan onnistuneen toiminnan kannalta tärkeiden toimintojen ja tietojen hallintaa.
 
 ### Tärkeiden standardien noudattamisen hallinta
 
@@ -90,7 +89,7 @@ Microsoft muodostaa Business Centralin lokalisoituja versioita rajoitetulle mä�
 
 > [!NOTE]  
 > **IAS/IFRS: kirjaamis- ja arvostamisstandardit**  
-> Käytettävien paikallisten yleisesti hyväksyttyjen kirjanpitoperiaatteiden mukaan yksi IAS/IFRS:n merkittävistä kirjaamisen ja arvostamisen muutoksista on käyvän arvon periaatteiden laajentaminen historiallisten kustannusten sijaan. Business Central voi auttaa yrityksiä laskemaan käyvän arvon ja nykyisen nettoarvon (NPV). Nämä käsitteet keskittyvät nykyiseen ja odotettuun kassavirtaan historiallisen ostohinnan sijaan. Raportoinnin osalta se mahdollistaa liiketoimintayksikön ja maantieteellisen sijainnin mukaisen segmenttiraportoinnin.
+> Käytettävien paikallisten yleisesti hyväksyttyjen kirjanpitoperiaatteiden mukaan yksi IAS/IFRS:n merkittävistä kirjaamisen ja arvostamisen muutoksista on käyvän arvon periaatteiden laajentaminen historiallisten kustannusten sijaan. [!INCLUDE [prod_short](../includes/prod_short.md)] voi auttaa yrityksiä laskemaan käyvän arvon ja nykyisen nettoarvon (NPV). Nämä käsitteet keskittyvät nykyiseen ja odotettuun kassavirtaan historiallisen ostohinnan sijaan. Raportoinnin osalta se mahdollistaa liiketoimintayksikön ja maantieteellisen sijainnin mukaisen segmenttiraportoinnin.
 
 > [!NOTE]  
 > **Basel II: vaikutukset raportointiin ja analysointiin**  

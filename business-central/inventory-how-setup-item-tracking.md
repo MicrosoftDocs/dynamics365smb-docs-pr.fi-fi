@@ -40,7 +40,7 @@ Nimikkeen seurantakoodi kuvastaa niitä asioita, jotka yritys on ottanut huomioo
 Koska kyseinen asetuskenttä kattaa kaikki mahdolliset nimikkeen transaktiot, myös yksittäisiin saapuvien/lähtevien kentät valitaan. Yksittäisillä saapuvilla/lähtevillä kentillä ei ole kuitenkaan mitään tekemistä varastossa kohdistuksen kanssa – ne ainoastaan määrittelevät yrityksen tehtävienhallintaa koskien sitä, milloin määritellään nimikeseurantanumeroita.  
 
 > [!NOTE]  
->  Kun määrität nimikeseurantanumeroita fyysisen varaston toiminnoille, **SN F.varastoinnin seuranta**- ja **Erän fyysisen varaston seuranta** -kenttien on oltava valittuna nimikkeen nimikeseurantakoodin kortissa.  
+> Kun määrität nimikeseurantanumeroita fyysisen varaston toiminnoille, **SN F.varastoinnin seuranta**- ja **Erän fyysisen varaston seuranta** -kenttien on oltava valittuna nimikkeen nimikeseurantakoodin kortissa.  
 
 ## Vanhentumissääntöjen määrittäminen sarja-/eränumeroille
 
@@ -78,6 +78,36 @@ Jotta nimikkeen seuranta voidaan ottaa käyttöön, nimikkeelle on ensin määri
 2. Valitse luettelosta aiemmin luotu kohde ja avaa **Nimikekortti**-sivu.  
 3. Määritä **Nimikkeen seuranta** -pikavälilehdessä asianmukaiset nimikeseurantakoodit ja valitse **Nimikkeen seurantakoodi**, **Sarjanrot** ja **Eränrot**.
     1. Vaihtoehtoisesti voit myös luoda uuden nimikkeen seurantakoodin valitsemalla **Uusi**-toiminnon.
+
+## Avaussaldojen määrittäminen seurattaville nimikkeille
+
+Voit luoda avaussaldot seuraamillesi nimikkeille. Koska voit valita eri fyysisen varastoinnin konfiguraatioita, vaihtoehtoja on kaksi:
+
+* Ota käyttöön **Nimikepäiväkirja**-sivun tietyt erät, jotta käyttäjät voivat syöttää sarja-, erä- ja pakettitietoja suoraan päiväkirjan riveille.
+* Niiden sijaintien osalta, joissa **Ohjattu hyllytys ja poiminta** -vaihto on käytössä, voit käyttää **Fyysisen varastoinnin varastopäiväkirjaa**, joka on saatavilla. Käytettävissä oleviin kenttiin kuuluvat **Takuun päivämäärä**- ja **Vanhentumispäivämäärä**-kentät.
+
+### Nimikepäiväkirjat 
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikepäiväkirjat** ja valitse sitten vastaava linkki.
+2. Valitse **Nimi**-kenttä, kun haluat avata nimikepäiväkirjan erien luettelon.
+3. Luo uusi erä valitsemalla **Uusi** ja ota sitten **Nimikkeen seuranta riveillä** -vaihto käyttöön.
+4. Valitse luomasi erä valitsemalla **OK**.
+5. Täytä tarvittaessa uuden nimikepäiväkirjarivin kentät. Huomaa, että **Eränro**-, **Sarjanro**-, **Vanhentumispäivämäärä**-, **Takuupäivämäärä**- ja **Paketin nro**- kentät ovat käytettävissä (jos ominaisuus on käytössä).
+6. Valitse **Kirjaa**-toiminto muokataksesi varastoa.
+
+> [!NOTE] 
+> [!INCLUDE [prod_short](includes/prod_short.md)] tekee muutamia pieniä vahvistuksia, kun syötät tai tuot tietoja. Kattavampi tarkistus tapahtuu, kun kirjaat tai siirrät päiväkirjarivien tietoja **Nimikkeen seuranta -ikkunaan**. Jälkimmäinen tapahtuu automaattisesti, kun **Nimikkeen seurantaikkuna** -sivu avataan nimikepäiväkirjan riviltä tai jos valitset **Päivitä nimikkeen seurantarivit** -toiminnon.
+
+### Varaston fyysinen varastointipäiväkirja sijainneille, joissa ohjattu keräily ja varastointi on käytössä  
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston inventointipäiväkirja** ja valitse sitten vastaava linkki.
+2. Täytä tarvittaessa uuden nimikepäiväkirjarivin kentät. Huomaa, että **Eränro**-, **Sarjanro**-, **Vanhentumispäivämäärä**-, **Takuupäivämäärä**- ja **Paketin nro**- kentät ovat käytettävissä (jos ominaisuus on käytössä).
+3. Tee muutokset varastoon valitsemalla **Rekisteröi**-toiminto. Muista, että sinun tulee synkronoida muutettujen fyysisen varastoinnin tapahtumat ja liittyvät nimiketapahtumat. Saat lisätietoja valitsemalla [Synkronoi muutetut fyysisen varastoinnin tapahtumat](/dynamics365/business-central/inventory-how-count-adjust-reclassify#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
+
+Käytä joukkotuonnissa määrityspaketteja tietojen tuomiseen päiväkirjoihin.
+
+> [!NOTE]
+> Et voi käyttää **Muokkaa Excelissä** -toimintoa luodaksesi päiväkirjarivejä, joissa on seurantatietoja.
 
 ## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepare-item-tracking/)
 

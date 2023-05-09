@@ -60,6 +60,8 @@ Jos haluat käyttää SMTP-protokollaa sähköpostien lähettämiseen [!INCLUDE[
 >
 > Exchange Online poistaa käytöstä perustodennuksen SMTP:lle. Tämä muutos ei vaikuta tällä hetkellä SMTP AUTH -todennusta käyttäviin vuokraajiin. Suosittelemme kuitenkin, että käytät [!INCLUDE [prod_short](includes/prod_short.md)] -ratkaisun uusinta versiota ja määrität OAuth 2.0-autentikoinnin   SMTP:lle. Emme lisää varmennepohjaista todennusta [!INCLUDE [prod_short](includes/prod_short.md)] -ratkaisun aiemmille versioille, esimerkiksi versiolle 14. Jos et voi määrittää OAuth 2.0 -todennusta, sinun kannattaa tutustua kolmannen osapuolen vaihtoehtoihin, jos haluat käyttää SMTP-sähköpostia aiemmissa versioissa.
 
+[!INCLUDE [email-copy-company](includes/email-copy-company.md)]
+
 ## Sähköpostitilien lisääminen
 
 Asetusten ohjattu **Määritä sähköposti** -määritys auttaa sinua pääsemään alkuun nopeasti sähköpostiviestien käytössä.

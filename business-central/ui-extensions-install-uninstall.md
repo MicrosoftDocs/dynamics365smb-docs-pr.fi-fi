@@ -2,14 +2,13 @@
 title: Sovellusten asentaminen ja asennusten poistaminen
 description: Lisätietoja sovellusten ja laajennusten asentamisesta ja asennusten poistamisesta Business Centralissa.
 author: SusanneWindfeldPedersen
+ms.author: solsen
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.date: 04/24/2023
+ms.custom: bap-template
 ms.search.keywords: 'app, add-in, manifest, customize, install, uninstall'
 ms.search.form: '2500, 20350'
-ms.date: 09/22/2022
-ms.author: solsen
 ---
 
 # Laajennusten (sovellusten) asentaminen ja asennusten poistaminen Business Centralissa
@@ -17,11 +16,11 @@ ms.author: solsen
 Voit muuttaa [!INCLUDE[prod_short](includes/prod_short.md)]ia asentamalla sovelluksia, jotka esimerkiksi sisältävät lisätoimintoja, muuttavat toimintaa tai antavat uusien verkkopalveluiden käyttöoikeuden. Lisätietoja on kohdassa [Business Centralin mukauttaminen laajennusten avulla](ui-extensions.md).
 
 > [!NOTE]
-> Jos haluat asentaa AppSourcen sovelluksia tai poistaa niitä tai lisätä vuokraajakohtaisia sovelluksia, sinulla on oltava vaaditut käyttöoikeudet. Sinun täytyy olla jäsen joko EXTEND. MGT. - ADMIN -käyttäjäryhmässä tai sinulla on oltava EXTEND. MGT. - ADMIN -käyttöoikeudet. Jos olet järjestelmänvalvoja, voit määrittää käyttäjäryhmiä ja käyttöoikeuksia yrityksesi muille käyttäjille.
+> Jos haluat asentaa AppSourcen sovelluksia tai poistaa niitä tai lisätä vuokraajakohtaisia sovelluksia, sinulla on oltava vaaditut käyttöoikeudet. Sinun on oltava D365 Extension MGT -käyttäjäryhmän jäsen tai sinulla on oltava EXTEND. MGT. - ADMIN -käyttöoikeudet. Jos olet järjestelmänvalvoja, voit määrittää käyttäjäryhmiä ja käyttöoikeuksia yrityksesi muille käyttäjille. Lue lisätietoja käyttäjäryhmistä ja käyttöoikeuksista kohdasta [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md).
 >
 > Jos haluat käyttää laajennuksen mahdollistamaa toimintoa, kuten avata sivuja, suorittaa raportteja tai valita toimintoja, sinulla on oltava käyttöoikeuksien joukko, joka on asennettu laajennuksen osana.
 
-Jos haluat käyttää laajennuksen mahdollistamaa toimintoa, kuten avata sivuja, suorittaa raportteja tai valita toimintoja, sinulla on oltava käyttöoikeuksien joukko, joka on asennettu laajennuksen osana.
+Jos haluat käyttää laajennusta, sinun on määritettävä sen mukana tulevat käyttöoikeuksien joukot.
 
 ## <a name="install"></a>Laajennuksen asentaminen
 
@@ -34,15 +33,15 @@ Uusia sovelluksia on saatavana kaupasta osoitteessa [AppSource.microsoft.com](ht
 
 Pääset AppSourceen myös käyttämällä sovellusta [!INCLUDE[prod_short](includes/prod_short.md)]. Tällä hetkellä asennettuna olevat sovellukset näkyvät **Laajennusten hallinta** -sivulla. Voit avata **Laajennuskauppa**-sivun, jossa näkyvät AppSourcessa tällä hetkellä käytettävissä olevat [!INCLUDE[prod_short](includes/prod_short.md)]in sovellukset. Jos valitset *Lisää sovelluksia* -linkin, sinut siirretään sivustolle [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
-Kun valitset sovelluksen, voit lukea tietoja sovelluksesta ja hakea lisätietoja käyttämällä sovelluksen Ohje-toimintoa. Kun haluat noutaa sovelluksen, sinun on hyväksyttävä käyttöehdot. Jos noudat sovelluksen AppSource-sivustosta, sinut kirjataan sisään sovellukseen [!INCLUDE[prod_short](includes/prod_short.md)] asennuksen viimeistelemiseksi.  
+Valitse sovellus saadaksesi tietoja siitä, miten se toimii ja hakea lisätietoja käyttämällä sovelluksen Ohje-toimintoa. Kun haluat noutaa sovelluksen, sinun on hyväksyttävä sen käyttöehdot. Jos noudat sovelluksen AppSource-sivustosta, sinut kirjataan sisään sovellukseen [!INCLUDE[prod_short](includes/prod_short.md)] asennuksen viimeistelemiseksi.  
 
 Sovelluksen asentamisen jälkeen se on ehkä määritettävä. Jotkin sovellukset edellyttävät, että annat tietoja ennen sovelluksen käyttämistä. Kun olet esimerkiksi asentanut **PayPal Payments Standard** -sovelluksen, sähköposti tai kauppiastilin tunnus on määritettävä PayPal-tiliä varten. Jos haluat määrittää sovelluksen tai selvittää tarvitsemasi tiedot, valitse **Asennetut laajennukset** -sivulla **Määritä**-toiminto.  
 
 Muissa sovelluksissa esimerkiksi yksinkertaisesti lisätään kenttiä olemassa olevalle sivulle tai lisätään uusi sivu.
 
-Jos poistat sovelluksen asennuksen ja haluat ottaa sen takaisin käyttöön, voit asentaa sovelluksen uudelleen. Kun poistat käytössäsi olleen sovelluksen asennuksen, tiedot säilytetään. Jos siis asennat sovelluksen uudelleen, tiedot ovat yhä käytettävissäsi. Jotkin sovellukset ovat pakollisia. Niiden sovellusten asennuksen poistaminen **Laajennusten hallinta** -sivulla on estetty. Jos yrität tehdä niin, näyttöön avautuu virhesanoma.
+Jos poistat sovelluksen asennuksen ja haluat ottaa sen takaisin käyttöön, voit asentaa sovelluksen uudelleen. Kun poistat sovelluksen, jota olet käyttänyt, tietojasi ei poisteta. Tiedot ovat käytettävissä, jos asennat sovelluksen uudelleen.
 
-Osa on Microsoftin sovelluksia, osa [muiden yritysten](ui-extensions-other.md) sovelluksia. Kaikki sovellukset testataan, ennen kuin ne ovat käyttäjien käytettävissä. Suosittelemme kuitenkin lisätietoihin tutustumista sovelluksen mukana saatavien linkkien avulla ennen sovelluksen asentamista.
+Osa on Microsoftin sovelluksia, osa [muiden yritysten](ui-extensions-other.md) sovelluksia. Suosittelemme, että luet lisää sovelluksesta, ennen kuin päätät asentaa sen.
 
 Microsoft tarjoaa seuraavat sovellukset:
 
@@ -67,10 +66,11 @@ Microsoft tarjoaa seuraavat sovellukset:
 * [DK – C5-tietojen siirto](ui-extensions-c5-data-migration.md)
 * [DK - Maksut ja täsmäytykset](ui-extensions-payments-reconciliation-formats-dk.md)
 * [DK – Verotiedostomuodot](ui-extensions-tax-file-formats-dk.md)
-* [Ison-Britannian postinumeroiden GetAddress.io-laajennus](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
-* [US/CA/UK/AU/NZ/ZA - Maksusuositusehdotuksen lähettäminen](ui-extensions-send-remittance-advice.md)
+* [Yhdistyneen kuningaskunnan postinumeroiden GetAddress.io-laajennus](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
+* [US/CA/UK/AU/NZ/ZA – Maksusuoritusilmoituksen lähettäminen](ui-extensions-send-remittance-advice.md)
 
-## Laajennuksen määrittäminen
+## Sovelluksen määrittäminen
+
 Sovelluksen asentamisen jälkeen se on ehkä määritettävä. Esimerkiksi **Sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] PayPal Payments Standard** -sovellukselle on määritettävä PayPal-tili. Jos näin on tehtävä, [!INCLUDE[prod_short](includes/prod_short.md)] kysyy käyttäjältä asennuksen valmistuttua, haluaako tämä määrittää sovelluksen heti. Sovellus saattaa vaatia asetukset toimiakseen.
 
 Jos haluat määrittää sovelluksen heti ja se vaaditaan asetuksessa, [!INCLUDE[prod_short](includes/prod_short.md)] avaa vaaditun asetuksen. Asetus voi olla sivu, johon syötetään tietoja, tai asetusten ohjattu määritysopas, joka auttaa vaiheiden suorittamisessa. Jos et tee asetusta kerralla valmiiksi, voit käyttää **_Sovelluksen nimi_ – asetukset** -sivua, jolla sovelluksen asetukset kerrotaan. Pakolliset asetukset osoitetaan **lihavoinnilla**.
@@ -85,13 +85,12 @@ Jos PTE sisältää rikkovia mallin muutoksia, on mahdollista *pakottaa* sen lat
 
 Sovelluksen asennus poistetaan **Laajennuksen hallinta** -sivulla. Jos haluat poistaa sovelluksen, valitse se sivulla ja valitse sitten **Poista asennus** -toiminto. Jos poistat sovelluksen asennuksen ja haluat ottaa sen takaisin käyttöön, voit asentaa sovelluksen uudelleen.
 
-Kun poistat käytössäsi olleen sovelluksen asennuksen, tiedot säilytetään oletusarvoisesti mahdollista sovelluksen uudelleenasennusta varten. Voit myös valita tietojen poistamisen sovelluksen kanssa. Tätä toimintoa ohjataan **Poista laajennuksen tiedot** -kytkimellä. Tämä kytkin on oletusarvoisesti **pois päältä**. Kun yrität kytkeä sovelluksen **Poista laajennuksen tiedot** -kytkentä, avautuu vahvistusvalintaikkuna, jossa päälle kytkeminen edellyttää valintaa **Kyllä**. Kun **Poista laajennuksen tiedot** -kytkin on kytketty päälle, voit poistaa sovelluksen asennuksen, jonka yhteydessä sinua pyydetään vahvistamaan uudelleen, että haluat poistaa sovelluksen asennuksen ja poistaa tiedot.
+Oletusarvoisesti, kun poistat sovelluksen, jota olet käyttänyt, tietojasi ei poisteta. Jos olet varma, ettet asenna sovellusta uudelleen, ja voit poistaa tiedot, kun poistat sen. Jos haluat poistaa tietoja, kun poistat sovelluksen, ota **Poista laajennustiedot** -vaihto käyttöön. Saat vahvistusvalintaikkunan, ja sinun on valittava **Kyllä**, jotta se kytketään päälle. Kun **Poista laajennuksen tiedot** -kytkin on kytketty päälle, voit poistaa sovelluksen asennuksen, jonka yhteydessä sinua pyydetään vahvistamaan uudelleen, että haluat poistaa sovelluksen asennuksen ja poistaa tiedot.
 
 > [!IMPORTANT]  
-> - Saattaa olla muita sovelluksia, joiden toimiminen vaatii poistettavan sovelluksen tai on riippuvainen siitä. Näitä muita sovelluksia kutsutaan *riippuvaisiksi*. Et voi poistaa sovelluksen asennusta, ellei myös sen riippuvaisia poisteta.
-> - Kun päätät poistaa sellaisen sovelluksen, jolla on vähintään yksi riippuvainen, avautuu vahvistusvalintaruutu, jossa riippuvaiset näkyvät ja sinulta kysytään, haluatko poistaa sovelluksen ja kaikki sen riippuvaiset. Jatkaaksesi sinun on valittava **Kyllä**.
-> - Jos kytket **Poista laajennuksen tiedot** -kytkimen päälle, sovelluksen asennuksen poistaminen poistaa kaikki sovelluksen tiedot **sekä** kaikki riippuvaisten sovellusten tiedot. Toimintoa ei voi kumota.
-> - Osa sovelluksista on pakollisia. Niiden asennuksen poistaminen **Laajennusten hallinta** -sivulla on estetty. Jos yrität tehdä niin, näyttöön avautuu virhesanoma.  
+> * Jotkin sovellukset saattavat vaatia poistettavan sovelluksen tai riippua siitä. Näitä sovelluksia kutsutaan *riippuvaisiksi*. Et voi poistaa sovelluksen asennusta, ellet poista myös sen riippuvaisia. Kun poistat sovelluksen, jossa on riippuvaisia, näyttöön tulee valintaikkuna, jossa on luettelo riippuvaisista. Jos haluat jatkaa, poista sovellus ja sen riippuvaisten tietojen asennus valitsemalla **Kyllä**.
+> * Jos kytket **Poista laajennuksen tiedot** -valinnan päälle, sovelluksen asennuksen poistaminen poistaa kaikki sovelluksen tiedot *sekä* kaikki riippuvaisten sovellusten tiedot. Toimintoa ei voi kumota.
+> * Jotkin sovellukset ovat pakollisia, eikä niitä voi poistaa **Laajennusten hallinta** -sivulla.  
 
 ## Katso myös
 

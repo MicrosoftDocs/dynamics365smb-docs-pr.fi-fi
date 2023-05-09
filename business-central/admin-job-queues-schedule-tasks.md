@@ -1,24 +1,23 @@
 ---
 title: Töiden aikatauluttaminen automaattisesti suoritettavaksi
-description: Ajoitettuja tehtäviä hallitaan työjonon avulla. Näillä töillä suoritetaan raportteja ja codeuniteja. Voit määrittää töitä suoritettavaksi yhtä aikaa tai toistuvasti.
-author: edupont04
+description: Tietoja työjonotapahtumien käyttämisestä raporttien ja koodiyksiköiden suorittamiseen.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.date: 03/20/2023
+ms.custom: bap-template
 ms.search.form: '672, 673, 674, 671'
-ms.date: 10/01/2021
-ms.author: edupont
 ---
 # Käytä työjonoja ajoitustehtäviin
 
-Työjonon tapahtumat -sivun avulla käyttäjät voivat ajoittaa ja suorittaa tiettyjä raportteja ja codeuniteja. Voit määrittää töitä suoritettavaksi yhtä aikaa tai toistuvasti. Voit esimerkiksi haluta suorittaa **Myyjän * myyntitilasto** -raportin viikoittain ja seurata näin myyjäkohtaista viikkomyyntiä. Vaihtoehtoisesti voit suorittaa **Delegoi hyväksymispyynnöt** -codeunitin päivittäin, jolloin asiakirjoja ei kasaudu odottamaan käsittelyä.
+Käytä **Työjonon tapahtumat** -sivua ajoittaaksesi ja suorittaaksesi tiettyjä raportteja ja codeuniteja. Voit määrittää töitä suoritettavaksi yhtä aikaa tai toistuvasti. Voit esimerkiksi haluta suorittaa **Myyjän * myyntitilasto** -raportin viikoittain ja seurata näin myyjäkohtaista viikkomyyntiä. Vaihtoehtoisesti voit suorittaa **Delegoi hyväksymispyynnöt** -codeunitin päivittäin, jolloin asiakirjoja ei kasaudu odottamaan käsittelyä.
 
-**Työjonon tapahtumat** -sivulla on luettelo kaikista aiemmin luoduista töistä. Jos lisäät uuden työjonotapahtuman, jonka haluat ajoittaa, sinun on annettava joitakin tietoja. Esimerkki:
+Työjonon tapahtumat -sivulla on luettelo kaikista aiemmin luoduista töistä. Jos lisäät uuden työjonotapahtuman, jonka haluat suorittaa aikataulussa, sinun on annettava joitakin tietoja. Esimerkiksi:
 
 * Suoritettavan objektin tyyppi, kuten raportti tai codeunit. Sinulla on oltava oikeus suorittaa kulloinenkin raportti tai codeunit.
-* Objektin nimi ja objektitunnus. 
-* Parametrit, joilla määritetään työjonotapahtuman käytös. Voit esimerkiksi lisätä parametrin vain kirjattujen myyntitilausten lähettämistä varten. 
+* Objektin nimi ja objektitunnus.
+* Parametrit, joilla määritetään työjonotapahtuman käytös. Voit esimerkiksi lisätä parametrin vain kirjattujen myyntitilausten lähettämistä varten.
 * Milloin ja kuinka usein työjonotapahtuma suoritetaan.
 
 > [!IMPORTANT]  
@@ -32,11 +31,11 @@ Kun työjonot on määritetty ja käytössä, tila voi muuttua seuraavasti kunki
 * **Virhe**  
 * **Valmis**  
 
-Kun työ on valmis, se poistetaan työjonotapahtumien luettelosta, ellei se ole toistuva työ. Toistuvien töiden yhteydessä **Aloituspvm ja -aika** -kentän arvo muokataan näyttämään seuraava aika, jolloin työ odotetaan suoritettavan.  
+Kun työ on valmis, se poistetaan työjonotapahtumien luettelosta, ellei se ole toistuva työ. Toistuvien töiden yhteydessä **Aloituspvm ja -aika** -kentän arvo muokataan näyttämään seuraava aika, jolloin työ suoritetaan.  
 
 ## Työjonon tilan tai virheiden seuraaminen
 
-Työnjonon luomat tiedot tallennetaan tietokantaan, jotta voit tehdä työjonon virheiden vianmäärityksen.  
+Työnjonon luomat tiedot tallennetaan, jotta voit tehdä virheiden vianmäärityksen.  
 
 Voit tarkastella ja muuttaa kunkin työjonotapahtuman tilaa. Kun luot työjonotapahtuman, sen tilaksi tulee **Estossa**. Voit määrittää tilaksi esimerkiksi **Valmis** ja takaisin tilaksi **Estossa**. Muuten tilatiedot päivitetään automaattisesti.
 
@@ -59,7 +58,7 @@ Seuraavassa taulukossa kuvataan **Tila**-kentän arvot.
 2. Valitse **Työjonotapahtumat**-sivulla ensin työjonotapahtuma ja sitten **Lokitapahtumat**-toiminto.  
 
 > [!TIP]
-> Voit myös tarkastella työjonotapahtumien tilaa käyttämällä Microsoft Azuren Application Insightsin telemetriaan perustuvaa analyysia. Lisätietoja on kohdassa [Telemetrian seuranta ja analysointi](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) sekä [Työjonon elinkaaren jäljitystelemetrian analysointi](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) [!INCLUDE [prod_short](includes/prod_short.md)] kehittäjän ja hallinnan sisällössä.
+> Voit telemetriaan perustuvaa syvällistä analyysiä varten voit käyttää Microsoft Azuren Application Insightsia tarkastellaksesi tehtävien jonotasojen tilaa. Saat lisätietoja telemetriasta kohdassa [Telemetrian seuranta ja analysointi](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) ja [Työjonon elinkaaren jäljitystelemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
 
 ## Näytä ajoitetut tehtävät
 
@@ -72,7 +71,7 @@ Esimerkiksi kaikki suunnitellut tehtävät pysäytetään, jos yritys on ympäri
 
 ## Oma työjono -osa
 
-Roolikeskuksen **Oma työjono** -osa sisältää työjonotapahtumat, jotka olet aloittanut mutta jotka eivät ole vielä valmiita. Oletusarvoisesti osa ei ole näkyvissä, mutta voit lisätä sen omaan roolikeskukseesi. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).  
+Roolikeskuksen **Oma työjono** -osa sisältää työjonotapahtumat, jotka olet aloittanut mutta jotka eivät ole vielä valmiita. Oletusarvoisesti osa ei ole näkyvissä, mutta voit lisätä sen omaan roolikeskukseesi. Lue lisää mukauttamisesta kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).  
 
 Osassa näkyvät seuraavat tiedot:
 
@@ -86,25 +85,45 @@ Oma työjono -osan avulla voit myös peruuttaa asiakirjan kirjaamisen.
 1. Valitse tapahtumassa, jonka tila on **Virhe**, **Näytä virhe** -toiminto.
 2. Tarkastele virhesanomaa ja korjaa ongelma.
 
-## Esimerkkejä siitä, mitä voidaan ajoittaa työjonon avulla
+## Esimerkkejä siitä, mitä voit ajoittaa työjonotapahtumien avulla
 
 ### Ajoita raportteja
 
 Voit aikatauluttaa raportin tai erätyön ajon tietylle päivämäärälle ja kellonajalle. Aikataulutetut raportit ja erätyöt syötetään työjonoon ja käsitellään aikataulutettuna aikana vastaavasti kuin muut työt. **Aikataulu**-asetus valitaan sen jälkeen, kun **Lähetä kohteeseen** -toiminto on valittu, minkä jälkeen annetaan tiedot, kuten tulostin sekä päivämäärä ja kellonaika tai toistuvuus.  
 
-Lisätietoja on kohdassa [Raportin ajoittaminen suoritettavaksi](ui-work-report.md#ScheduleReport)
+Lisätietoja ajoittamisesta on ohjeaiheessa [Raportin suorittamisen aikatauluttaminen](ui-work-report.md#ScheduleReport)
 
 ### Synkronoinnin aikatauluttaminen [!INCLUDE[prod_short](includes/prod_short.md)]in ja [!INCLUDE[prod_short](includes/cds_long_md.md)]n välillä
 
-Jos olet integroinut tuotteen [!INCLUDE[prod_short](includes/prod_short.md)] tuotteeseen [!INCLUDE[prod_short](includes/cds_long_md.md)], työjono mahdollistaa tietojen synkronoinnin ajoittamisen. Määrittämiesi suunnan ja sääntöjen mukaan työjonotapahtuma voi luoda yhdessä sovelluksessa toisen sovelluksen tietueita vastaavia tietueita. Hyvä esimerkki on yhteyshenkilön rekisteröiminen tuotteessa [!INCLUDE[crm_md](includes/crm_md.md)], jolloin työjonotapahtuma voi määrittää kyseissen yhteyshenkilön tuotteessa [!INCLUDE[prod_short](includes/prod_short.md)]. Lisätietoja on kohdassa [Business Centralin ja Dynamics 365 Salesin synkronoinnin ajoittaminen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+Jos olet integroinut tuotteen [!INCLUDE[prod_short](includes/prod_short.md)] tuotteeseen [!INCLUDE[prod_short](includes/cds_long_md.md)], työjono mahdollistaa tietojen synkronoinnin ajoittamisen. Määrittämiesi suunnan ja sääntöjen mukaan työjonotapahtuma voi luoda yhdessä sovelluksessa toisen sovelluksen tietueita vastaavia tietueita. Hyvä esimerkki on yhteyshenkilön rekisteröiminen tuotteessa [!INCLUDE[crm_md](includes/crm_md.md)], jolloin työjonotapahtuma voi määrittää kyseissen yhteyshenkilön tuotteessa [!INCLUDE[prod_short](includes/prod_short.md)]. Lisätietoja on aikatauluttamisesta on kohdassa [Business Centralin ja Dynamics 365 Salesin synkronoinnin ajoittaminen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 
-### Ajoita myynti- ja ostotilausten kirjaus
+### Ajoita milloin myynti- ja ostotilaukset kirjataan
 
-Työjonotapahtumien avulla voit ajoittaa liiketoimintaprosesseja suoritettavaksi taustalla. Taustatehtävät voivat olla hyödyllisiä esimerkiksi, kun useat käyttäjät kirjaavat myyntitilauksia samanaikaisesti, mutta käsittelyssä voi olla vain yksi tilaus kerrallaan. Lisätietoja on kohdassa [Taustakirjauksen määrittäminen työjonojen avulla](ui-batch-posting.md#to-set-up-background-posting-with-job-queues).
+Työjonotapahtumien avulla voit ajoittaa liiketoimintaprosesseja suoritettavaksi taustalla. Taustatehtävät voivat olla hyödyllisiä esimerkiksi, kun useat käyttäjät kirjaavat myyntitilauksia samanaikaisesti, mutta käsittelyssä voi olla vain yksi tilaus kerrallaan. Saat lisätietoja taustakirjaamisesta valitsemalla [Taustakirjauksen määrittäminen työjonojen avulla](ui-batch-posting.md#to-set-up-background-posting-with-job-queues).
+
+## Käsittele työjonotapahtumien ongelmat
+
+Jos työjonotapahtumassa näkyy virhe, ensimmäinen tapa ratkaista ongelma on käynnistää työjonotapahtuma uudelleen. Voit määrittää työjonotapahtuman tilaksi **Pidossa** ja sitten **Valmis** tai vain käynnistää sen uudelleen.
+
+Jos uudelleenkäynnistys ei auta, ongelma saattaa olla koodissa. Voit löytää koodin omistaja (kutsutaan myös *julkaisijaksi*) työjonolokin AL-pinojäljityksestä. Jos virhe johtuu sovelluksesta/laajennuksesta, ota yhteyttä Microsoft-kumppaniisi. Jos virhe johtuu Microsoft-sovelluksesta, avaa Microsoftin tukipyyntö.
+
+Jos otat yhteyttä Microsoft-kumppaniin tai Microsoft-tukeen, anna seuraavat tiedot:
+
+* Sen työjonotapahtuman tunnus, jossa virhe tapahtui
+* Virheen tapahtumisen aikaleima
+* Aikavyöhyke
+
+> [!TIP]
+> Voit kerätä tiedot seuraavilla tavoilla sen mukaan, onko [!INCLUDE [prod_short](includes/prod_short.md)] -versio 22.1 aiempi vai myöhäisempi:
+>
+> * Jos kyseessä on aiempi versio, anna kuvakaappaus **työjono lokin tapahtumat** -sivusta.
+> * Myöhempää versiota varten voit kopioida tiedot Työjonon loki tapahtumat -sivun **kopioi tiedot** -toiminnolla (Työjonon tunnus, aikaleima ja aikavyöhyke).
 
 ## Työjonon valvominen telemetrian avulla
 
-Järjestelmänvalvojana voit [Application Insightsin](/azure/azure-monitor/app/app-insights-overview) avulla kerätä ja analysoida telemetriaa, jonka avulla voit tunnistaa ongelmia. Lisätietoja on kehittäjien ja järjestelmänvalvojien ohjeessa [Telemetrian seuranta ja analysoiminen](/dynamics365/business-central/dev-itpro/administration/telemetry-overview).  
+Järjestelmänvalvojat voivat käyttää [Azure Application Insightsia](/azure/azure-monitor/app/app-insights-overview) kerätäkseen ja analysoidakseen telemetriaa, joka auttaa tunnistamaan ongelmia. Saat lisätietoja telemetriasta kohdassa [Telemetrian seuranta ja analysointi](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) ja [Työjonon elinkaaren jäljitystelemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace).
+
+Telemetria mahdollistaa sen, että järjestelmänvalvojat voivat määrittää hälytyksiä työjono-ongelmista, jotka lähettävät tekstiviestin, sähköpostin tai Teams-viestin, jos jokin ei ole oikein. Lisätietoja näistä ilmoituksista on kohdassa [Telemetria-ilmoitus](/dynamics365/business-central/dev-itpro/administration/telemetry-alert).
 
 ## Katso myös
 
@@ -112,6 +131,6 @@ Järjestelmänvalvojana voit [Application Insightsin](/azure/azure-monitor/app/a
 [Business Central -sovelluksen määrittäminen](setup.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Työjonon elinkaaren jäljityksen telemetrian analysoiminen](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace)  
-
+[Telemetria-ilmoitus](/dynamics365/business-central/dev-itpro/administration/telemetry-alert)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

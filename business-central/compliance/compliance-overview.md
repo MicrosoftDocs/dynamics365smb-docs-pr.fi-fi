@@ -2,16 +2,13 @@
 title: Yhteensopivuuden yleiskatsaus
 description: 'Yleiskatsaus siitä, miten Business Central perustuu ympäristöön ja sisältää toimintoja, jotka helpottavat yhteensopivuutta ja säädösten noudattamista asiakkaiden osalta.'
 author: sorenfriisalexandersen
-documentationcenter: ''
-ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: null
-ms.reviewer: edupont
-ms.date: 06/14/2021
 ms.author: soalex
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.date: 04/25/2023
+ms.custom: bap-template
 ---
+
 # Yhteensopivuuden yleiskatsaus
 
 Tässä sisällössä on tietoja [!INCLUDE[prod_short](../includes/prod_short.md)]ia koskevasta yhteensopivuudesta.  
@@ -22,7 +19,7 @@ Tässä osassa on lisätietoja, miten yhteensopivuus otetaan huomioon sovellukse
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
-|Lisätietoja sovellusta koskevasta yhteensopivuudesta, kuten mm. GDPR-asetuksesta ja kansainvälisistä tilinpäätösstandardeista.|[Sovelluksen yhteensopivuus](compliance-application-compliance.md)|  
+|Lisätietoja sovellusta koskevasta yhteensopivuudesta, kuten mm. tietosuojasta ja kansainvälisistä tilinpäätösstandardeista.|[Sovelluksen yhteensopivuus](compliance-application-compliance.md)|  
 |Lisätietoja palvelutason yhteensopivuudesta ja miten ympäristöön liittyvien seikkojen avulla voidaan varmistaa, että Business Centralin palvelun yhteensopivuus on luokkansa paras.|[Palvelun yhteensopivuus](compliance-service-compliance.md)|  
 |Lisätietoja Business Centraliin liittyvistä erilaisista sertifioinneista. Saat lisätietoja yleisistä sertifioinnista ja maakohtaisista sertifioinneista.|[Sertifikaatit](compliance-certifications.md)|  
 |Lisätietoja palvelutasosopimuksen ehdoista ja muista palveluehdoista.|[Palvelun ehdot](compliance-service-compliance.md#service-terms)|  

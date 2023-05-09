@@ -1,19 +1,25 @@
 ---
 title: 'Projektien, hintojen ja projektin kirjausryhmien määrittäminen'
-description: 'Tässä ohjeaiheessa kerrotaan, miten yleiset projektitiedot määritetään, sekä määritetään projektin nimikkeiden, resurssien sekä KP-tilien ja projektien kirjausryhmien hinnat.'
-author: edupont04
-ms.topic: conceptual
-ms.workload: na
+description: Tietoja töiden yleistietojen luomisesta.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 04/25/2023
+ms.custom: bap-template
 ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
-ms.date: 04/01/2021
-ms.author: edupont
 ---
 # Projektien, hintojen ja projektin kirjausryhmien määrittäminen
 
-Määrität projektipäällikkönä projektit, jotka määrittävät jokaisen [!INCLUDE[prod_short](includes/prod_short.md)]issa hallittavan projektin. Määritä **Projektienhallinnan asetukset** -sivulla projektin tiettyjen toimintojen asetukset.
+Määrität projektipäällikkönä projektit, jotka määrittävät jokaisen [!INCLUDE[prod_short](includes/prod_short.md)]issa hallittavan projektin. **Töiden asetukset** -sivulla voit määrittää, miten työominaisuuksia käytetään.
 
-Kullekin projektille määritetään sitten yksittäiset projektikortit, joissa on tietoja projektinimikkeiden hinnoista, projektin resursseista ja KP-tileistä. Määritä myös projektin kirjausryhmät.
+Määrittele eri tiedot jokaiselle työlle:
+
+* Projektinimikkeiden hinnat
+* Projektiresurssit
+* Projektin kirjanpitotilit
+* Projektin kirjausryhmät (pakollinen)
 
 ## Projektien yleistietojen määrittäminen
 
@@ -21,27 +27,21 @@ Kullekin projektille määritetään sitten yksittäiset projektikortit, joissa 
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> **Käytä käyttölinkkiä oletusarvoisesti** -kenttä osoittaa, ovatko projektitapahtumat linkitetty projektin suunnitteluriveihin oletusarvoisesti. Valitse kenttä, jos haluat ottaa tämän asetuksen käyttöön kaikkiin luomiisi projekteihin. Voit ottaa käyttöön projektin käytön seurannan tietyssä projektissa tai poistaa sen käytöstä muuttamalla **Käytä käyttölinkkiä** -kentän arvoa yksittäisessä projektikortissa. Seurauksista kerrotaan seuraavassa osassa.
+> **Käytä käyttölinkkiä oletusarvoisesti** -valinta **Projektimääritys**-sivulla osoittaa, onko projektitapahtumat linkitetty projektin suunnitteluriveihin oletusarvoisesti. Ota tämä asetus käyttöön kaikissa uusissa projekteissa ottamalla vaihto käyttöön. Voit ottaa käyttöön tai poistaa käytöstä projektin käytön seurannan tietylle projektille ottamalla käyttöön tai poistamalla **Käytä käyttölinkkiä** **Työkortti**-sivulla.
 
 ### Projektin käytön seurannan määrittäminen
 
-Kun työskentelet projektin parissa, haluat ehkä tietää, miten käyttöäsi seurataan suunnitelmaasi. Voit tehdä tämän helposti luomalla linkin työsuunnittelurivien ja toteutuneen käytön välille. Tämän avulla voi seurata kustannuksia ja helposti nähdä, miten paljon työtä on vielä jäljellä. Oletusarvon mukaan työn suunnittelurivin tyyppi on *Budjetti*, mutta käyttämällä rivin tyyppiä **Sekä budjetti että laskutettava** on samanlainen vaikutus.
+Kun työskentelet projektin parissa, haluat ehkä tietää, miten käyttöäsi seurataan suunnitelmaasi. Voit tutkia käyttöä luomalla linkin työsuunnittelurivien ja toteutuneen käytön välille. Linkin avulla voit seurata kustannuksia ja selvittää, kuinka paljon työtä on jäljellä. Oletusarvon mukaan työn suunnittelurivin tyyppi on **Budjetti**, mutta käyttämällä rivin tyyppiä **Sekä budjetti että laskutettava** on samanlainen vaikutus.
 
-Kun olet valinnut käytön seurannan valitsemalla **Käytä käyttölinkkiä** -kentän, voit tarkastella tietoja projektin suunnittelurivillä. Voit määrittää resurssin, nimikkeen tai pääkirjanpidon tilin määrän ja ilmaista projektipäiväkirjaan siirrettävän määrän. Projektin suunnittelurivin **Jäljellä oleva määrä** -kenttä osoittaa projektipäiväkirjaan siirrettävän ja kirjattavan jäljellä olevan määrän.
+Kun olet määrität käytön seurannan valitsemalla **Käytä käyttölinkkiä oletusarvoisesti** -valinnan, voit tarkastella tietoja projektin suunnittelurivillä. Voit esimerkiksi määrittää resurssin, nimikkeen tai kirjanpitotilin määrän. Voit myös määrittää projektipäiväkirjaan siirrettävän määrän. Projektin suunnittelurivin **Jäljellä oleva määrä** -kenttä osoittaa projektipäiväkirjaan siirrettävän ja kirjattavan jäljellä olevan määrän.
 
 >[!NOTE]
-> Jos yksittäisen projektin **Käytä käyttölinkkiä** -valintaruutu on valittu ja päiväkirjarivin **Rivityyppi**-kenttä tai ostorivi on *Laskutettava*, *Budjetti*-tyyppiset projektin uudet suunnittelurivit luodaan projektipäiväkirjan tai ostoasiakirjan kirjaamisen yhteydessä.  
+> Jos projektin **Käytä käyttölinkkiä** -valintaruutu on valittu ja päiväkirjarivin **Rivityyppi**-kenttä tai ostorivi on **Laskutettava**, **sekä budjetti että laskutettava**-tyyppiset projektin uudet suunnittelurivit luodaan projektipäiväkirjan tai ostoasiakirjan kirjaamisen yhteydessä.  
+>
 > Lisätietoja on kohdassa [Projektien käytön kirjaaminen](projects-how-record-job-usage.md) ja [Projektin tarvikkeiden hallinta](projects-how-manage-project-supplies.md)
 
 > [!IMPORTANT]
-> Jos projektipäiväkirjarivin tai ostorivin **Rivityyppi**-kenttä on tyhjä, projektin suunnittelurivejä ei luoda, kun projektipäiväkirja tai ostoasiakirja kirjataan.
-
-<!--
->[!Important]
-If job usage tracking is enabled on the individual job and the **Line Type** field on the job journal or purchase line line is blank, then new job planning lines of line type *Budget* are created when you post job journal or purchase document.
-If job usage tracking is not enabled and the **Line Type** field on the job journal line or purchase line is blank, then no job planning lines are created when you post job journal or purchase document.
--->
-
+> Jos et määritä projektipäiväkirjarivin tai ostorivin **Rivityyppi**-kentän arvoa, projektin suunnittelurivejä ei luoda, kun projektipäiväkirja tai ostoasiakirja kirjataan.
 
 ## Hintojen määrittäminen töiden nimikkeille, resursseille ja KP-tileille
 
@@ -56,13 +56,13 @@ Voit määrittää hintoja työhön liittyville nimikkeille, resursseille ja KP-
 2. Valitse projekti ja valitse sitten **Resurssi**- **Nimike**- tai **KP-tili**-toiminto.
 3. Täytä **Projektiresurssien hinnat**-, **Projektinimikkeiden hinnat**- tai **Projektin kirjanpitotilin hinnat** -sivulla tarvittavat kentät.
 
-Seuraavasta taulukosta näkee, miten valinnaisten kenttien tietoja käytetään projektin suunnitelma riveillä ja päiväkirjoissa, kun projektille valitaan resurssi, nimike tai kirjanpitotili.
+Kun projektille valitaan resurssi, nimike tai kirjanpitotili, [!INCLUDE [prod_short](includes/prod_short.md)] käyttää projektin suunnitelmarivien ja projektipäiväkirjojen valinnaisten kenttien tietoja. Seuraavassa taulukossa kuvataan, miten.
 
 |Sarake1  |Sarake2  |
 |---------|---------|
-|**Projektiresurssit**|**Projektitehtävänro**-, **Työtyyppi**-, **Valuuttakoodi**-, **Rivialennus-%**- ja **Yksikkökustannustekijä**-kentät. Resurssin **Yksikköhinta**-kentän arvoa käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa, kun tämä resurssi, resurssiryhmään liitetty resurssi tai mikä tahansa resurssi määritetään. Huomaa, että tämä hinta ohittaa aina aiemmin määritetyissä **Resurssihinta / resurssiryhmän hinta** -sivulla olevat hinnat.|
-|**Projektinimikkeet**|**Projektitehtävänro**-, **Valuuttakoodi**- ja **Rivialennus-%**-kentät. Nimikkeen **Yksikköhinta**-kentän arvoa käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa tämän nimikkeen syöttämisen yhteydessä. Huomaa, että tämä hinta ohittaa aina nimikkeiden normaalin asiakashinnan (parhaan hinnan mekanismi). Jos haluat käyttää säännöllisiä asiakashintamekanismeja, älä luo projektille projektinimikkeiden hintoja.|
-|**Kirjanpitotilit**|**Projektitehtävän nro**-, **Valuutan koodi**-, **Rivialennus-%**-, **Yksikkökustannustekijä**- ja **Yksikkökustannus**-kentän tietoja käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa, kun tämä kirjapitotili syötetään ja lisätään projektiin. Pääkirjanpidon projektikulujen **Yksikköhinta**-kentän arvoa käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa, kun tämä kirjanpitotili syötetään.|
+|**Projektiresurssit**|**Projektitehtävänro**-, **Työtyyppi**-, **Valuuttakoodi**-, **Rivialennus-%**- ja **Yksikkökustannustekijä**-kentät. Resurssin **Yksikköhinta**-kentän arvoa käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa, kun resurssi tai resurssiryhmään liitetty resurssi määritetään. Tämä hinta ohittaa **Resurssihinta / resurssiryhmän hinta** -sivulla määritetyt hinnat.|
+|**Projektinimikkeet**|**Projektitehtävänro**-, **Valuuttakoodi**- ja **Rivialennus-%**-kentät. Nimikkeen **Yksikköhinta**-kentän arvoa käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa tämän nimikkeen syöttämisen yhteydessä. Tämä hinta ohittaa nimikkeiden normaalin asiakashinnan (parhaan hinnan mekanismi). Jos haluat käyttää tavallista asiakashintaa, älä määrittele projektin projektinimikkeiden hintoja.|
+|**Kirjanpitotilit**|**Projektitehtävän nro**-, **Valuutan koodi**-, **Rivialennus-%**-, **Yksikkökustannustekijä**- ja **Yksikkökustannus**-kentän tietoja käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa, kun tämä kirjapitotili syötetään ja lisätään projektiin. Kun valitset pääkirjanpitotilin, projektin suunnittelurivit ja projektipäiväkirjat käyttävät **Yksikköhinta**-kentän arvoa pääkirjan työkuluille.|
 
 #### [Uusi kokemus](#tab/new-experience)
 
@@ -76,23 +76,23 @@ Seuraavasta taulukosta näkee, miten valinnaisten kenttien tietoja käytetään 
 Yksi näkökulma projektien suunnittelussa on sen päättäminen, mitä kirjaustilejä projektin kustannuslaskentaan käytetään. Projektien kirjaus edellyttää, että määrität kullekin projektin kirjausryhmälle tilit kirjausta varten. Kirjausryhmä edustaa linkkiä työn ja sen kirjanpitokäsittelyn välillä. Kun luot työn, määrität kirjausryhmän ja oletusarvon mukaan jokainen tehtävä, jonka luot työlle, liittyy kyseiseen kirjausryhmään. Voit kuitenkin ohittaa oletusarvon tehtävien luonnin yhteydessä ja valita sopivamman kirjausryhmän.  
 
 > [!NOTE]  
->   Tarvittavat tilikartat tulee määrittää Tilikartta-taulukossa ennen kirjausryhmien määrittämistä. Lisätietoja on kohdassa [Tilikartan määrittäminen tai muuttaminen](finance-setup-chart-accounts.md).  
+> Sinun tulee määrittää tilit tilikartassa ennen kirjausryhmien määrittämistä. Lisätietoja on kohdassa [Tilikartan määrittäminen tai muuttaminen](finance-setup-chart-accounts.md).  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektin kirjausryhmät** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto ja täytä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
 | Summakentät | Kuvaus |
 | --- | --- |
-| **Koodi** |Anna koodi kirjausryhmää varten. Voit kirjoittaa enintään 10 merkkiä (välilyönnit mukaan lukien). |
+| **Koodi** |Tunniste kirjausryhmää varten. Voit kirjoittaa enintään 10 merkkiä (välilyönnit mukaan lukien). |
 | **KET-kustannusten tili** |Projektin keskeneräisen työn laskettujen kustannusten KET-tili, joka on käyttöomaisuuden tasetili. |
-| **Kertyneiden KET-kustannusten tili** |Keskeneräisen työn laskennan kustannusarvon tai myyntikustannusmenetelmän tili, joka on taseen kertyneiden kustannusten velkatili. Kirjaus tapahtuu tälle tilille, kun keskeneräisen työn muutos edellyttää tuloslaskelmaan kirjattavien käyttökustannusten lisäystä. |
+| **Kertyneiden KET-kustannusten tili** |KET-laskennan kustannusarvon tai myynnin kustannusten tili. Tämä tili kattaa taseesi kertyneet siirtovelat. Kun KET-oikaisu edellyttää, että lisäät tuloslaskelmaan kirjattavia käyttökustannuksia, kirjaat tälle tilille. |
 | **Projektin kohdistettujen kustannusten tili** |KET-kustannusten tilin vastatili eli negatiivisten kustannusten tilin vastatili. |
 | **Nimikkeiden kohdistettujen kustannusten tili** |KET-kustannusten tilin vastatili eli negatiivisten kustannusten tilin vastatili. |
 | **Resurssien kohdistettujen kustannusten tili** |KET-kustannusten tilin vastatili eli negatiivisten kustannusten tilin vastatili. |
 | **Kohdistettujen kustannusten tili** |KET-kustannusten tilin vastatili eli negatiivisten kustannusten tilin vastatili. |
 | **Projektin kustannusten muutostili** |Kertyneiden KET-kustannusten tilin vastatili, joka on kustannustili. |
 | **Kirjanpidon kustannustili (budjetti)** |Tässä kentässä on myyntitili, jota käytetään tämän kirjausryhmän projektitehtävien kirjanpitokustannuksille. Jos kenttä on tyhjä, ohjelma käyttää projektin suunnittelurivillä määritettyä kirjanpitotiliä. |
-| **Kertyneen KET-myynnin tili** |Keskeneräisen työn lasketun myyntiarvon KET-tili, joka on taseen kertyneen tuoton tili. Kirjaus tapahtuu tälle tilille, kun keskeneräisen työn muutos edellyttää tuloutetun tuoton lisäystä. |
+| **Kertyneen KET-myynnin tili** |Keskeneräisen työn lasketun myyntiarvon KET-tili, joka on taseen kertyneen tuoton tili. Kun KET-oikaisu edellyttää kirjattujen tulojen lisäämistä, kirjaat tälle tilille. |
 | **Laskutetun KET-myynnin tili** |Keskeneräisen työn sen laskutetun myyntiarvon tili, jota ei voi tulouttaa. Tämä on taseen ansaitsemattoman tuoton tili. |
 | **Projektin myynnin kohdistuksen tili** |Laskutetun KET-myynnin tilin vastatili, joka on tuottotilin vastatili. |
 | **Projektin myynnin muutostili** |KET-myyntitilin vastatili, joka on tuottotili. |
