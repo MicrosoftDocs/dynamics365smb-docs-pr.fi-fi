@@ -348,11 +348,13 @@
 ### ALV:n hallinta
 #### [ALV-hallinnan yleiskatsaus](finance-manage-vat.md)
 #### ALV:n määritys
-##### [Määritä arvonlisävero](finance-setup-vat.md)
+##### [Arvonlisäveron määritys](finance-setup-vat.md)
 ##### [Kirjausryhmän määritys](finance-posting-groups.md#tax-posting-groups)
-##### [Määritä realisoitumaton arvonlisävero](finance-setup-unrealized-vat.md)
-##### [Määritä ALV-ilmoitus](finance-how-setup-vat-statement.md)
+##### [Vähennyskelvottoman ALV:n määritys](finance-setup-nondeductible-vat.md)
+##### [Realisoitumattoman arvonlisäveron määritys](finance-setup-unrealized-vat.md)
+##### [ALV-ilmoituksen määritys](finance-how-setup-vat-statement.md)
 #### [Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)
+#### [Vähennyskelvottoman ALV:n käyttäminen](finance-how-use-non-deductible-vat.md)
 #### [ALV-ilmoitusten lähettäminen veroviranomaisille](finance-how-report-vat.md)
 #### [ALV-prosenttimuutosten hallinta](finance-how-use-vat-rate-change-tool.md)
 #### [ALV-rekisterinumeroiden tarkistaminen](finance-how-validate-vat-registration-number.md)
