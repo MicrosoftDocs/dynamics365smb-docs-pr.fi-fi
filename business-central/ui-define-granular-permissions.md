@@ -76,7 +76,7 @@ Ylläpito on myös aiempaa helpompaa. Kun lisäät järjestelmän käyttöoikeud
   |**Vähennä epäsuoraksi**|Muuta käyttöoikeustasoksi Epäsuora, jos jokin käyttöoikeuksien joukko antaa objektin suoran käyttöoikeuden. Valitse tämä asetus esimerkiksi silloin, kun käyttöoikeuksien joukko antaa KP-tapahtumien suoran käyttöoikeuden, mutta et halua käyttäjillä olevan tapahtumien kaikkia käyttöoikeuksia.|
   
   > [!NOTE]
-  > Jos käyttöoikeus sekä sisältyy että on jätetty pois, käyttöoikeus ohitetaan.
+  > Jos käyttöoikeus sisältyy käyttöoikeusjoukkoon ja se on myös poissuljettu käyttöoikeusjoukko, käyttöoikeus ohitetaan.
 
 6. Määritä **Objektin tyyppi**- ja **Objektin tunnus** -kentissä objekti, jolle annetaan käyttöoikeus.
 
@@ -109,12 +109,11 @@ Jos haluat sulkea pois kokonaan kaikki käyttöoikeudet käyttöoikeuksien jouko
 
 Jos haluat sulkea pois kokonaan tai osittain tietyn käyttöoikeuden lisätyssä joukossa, luo objektille rivi **Käyttöoikeudet**-kohdassa. **Sulje pois** -vaihtoehto näkyy esimerkiksi käyttöoikeustasojen kentissä sekä Lisää käyttöoikeus- ja Muokkaa käyttöoikeutta -kentässä. Jos haluat sallia tietyn käyttöoikeustason, valitse soveltuva vaihtoehto.
 
-> [!NOTE]
-> Jos käyttöoikeusjoukko jätetään pois, kaikki joukon oikeudet jätetään pois. [!INCLUDE [prod_short](includes/prod_short.md)] laskee käyttöoikeudet seuraavasti:
+Jos käyttöoikeusjoukko jätetään pois, kaikki joukon oikeudet jätetään pois. [!INCLUDE [prod_short](includes/prod_short.md)] laskee käyttöoikeudet seuraavasti:
 
-> 1. Kaikkien sisällytettyjen käyttöoikeuksien luettelon laskeminen
-> 2. Kaikkien pois suljettujen käyttöoikeuksien luettelon laskeminen
-> 3. Poista pois jätetyt käyttöoikeudet sisällytettyjen käyttöoikeuksien luettelosta (epäsuoran käyttöoikeuden poistaminen on sama kuin Vähennä epäsuoraksi)
+1. Kaikkien sisällytettyjen käyttöoikeuksien luettelon laskeminen
+2. Kaikkien pois suljettujen käyttöoikeuksien luettelon laskeminen
+3. Poista pois jätetyt käyttöoikeudet sisällytettyjen käyttöoikeuksien luettelosta (epäsuoran käyttöoikeuden poistaminen on sama kuin Vähennä epäsuoraksi)
 
 ## Käyttöoikeuksien joukon kopioiminen
 
