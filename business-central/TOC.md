@@ -1,4 +1,5 @@
-# [Tervetuloa Business Centraliin](index.md)  
+
+# [Tervetuloa Business Centraliin](index.md)
 # [Uusia ja suunniteltuja ominaisuuksia](product-news.md)
 # Aloitus
 ## [Yleiskatsaus yrityksen toiminnoista](across-business-functionality.md)
