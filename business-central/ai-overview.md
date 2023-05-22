@@ -1,6 +1,6 @@
 ---
 title: Tekoälypohjainen tuotteen markkinointiteksti (esiversio) Copilotin avulla -yleiskatsaus
-description: Hanki yleiskuva Business Centralin tekoälypohjaisista sisällönluontiominaisuuksista
+description: Hanki yleiskuva Business Centralin tekoälypohjaisista sisällönluontiominaisuuksista.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -16,9 +16,9 @@ Tässä artikkelissa esitellään Business Centralin Copilot-palvelun tarjoamast
 
 ## Mikä on nimikkeen tekoälypohjainen markkinointiteksti ja Copilot
 
-Copilot tarjoaa tekoälypohjaista kirjoitusapua Business Centralin käyttäjille, jotka vastaavat markkinointitekstien (tuotekuvausten) luomisesta verkkokaupoissa, kuten Shopifyssa myytäviin tuotteisiin. Copilot luo napin painalluksella tekstiä, joka on houkuttelevaa, luovaa, ja korostaa tietyn nimikkeen keskeisiä määritteitä. Kevyen tarkistuksen ja muokkauksen jälkeen se on valmis julkaistavaksi.
+Copilot tarjoaa tekoälypohjaista kirjoitusapua Business Centralin käyttäjille, jotka vastaavat markkinointitekstien (tuotekuvausten) luomisesta verkkokaupoissa, kuten Shopifyssa myytäviin tuotteisiin. Copilot luo napin painalluksella tekstiä, joka on houkuttelevaa ja luovaa, ja korostaa tietyn nimikkeen keskeisiä määritteitä. Kevyen tarkistuksen ja muokkauksen jälkeen se on valmis julkaistavaksi.
 
-Copilot käyttää [Microsoftin Azure OpenAI -palvelua](/azure/cognitive-services/openai/overview) kielimalleihin, jotka tunnistavat, ennustavat ja luovat koulutettuja tietojoukkoja koskevaa tekstiä.
+Copilot käyttää [Microsoft Azure OpenAI -palvelua](/azure/cognitive-services/openai/overview) kielimalleihin, jotka tunnistavat, ennustavat ja luovat koulutettuja tietojoukkoja koskevaa tekstiä.
 
 <br><br>  
 
@@ -36,13 +36,13 @@ Jos Business Central on määritetty muodostamaan yhteys Shopifyn online-myymäl
 
 Tekoälypohjaisen tekstin avulla voit nopeuttaa online-kaupoissa olevien tuotteiden markkinoille pääsyä rajoittamalla tekstin luomiseen käytettyä työaikaa. Tärkeimpiin etuihin kuuluu:
 
-- Auttaa käyttäjiä voittamaan tyhjän sivun kammon saamalla heidät alkuun älykkään luonnoksen avulla
-- Avaa luovuuden ja tarjoaa kiinnostavamman tuotekuvauksen
-- Parantaa tuoteryhmien markkinointisisällön yhdenmukaisuutta
+- Auttaa käyttäjiä voittamaan tyhjän sivun kammon saamalla heidät alkuun älykkään luonnoksen avulla.
+- Avaa luovuuden ja tarjoaa kiinnostavamman tuotekuvauksen.
+- Parantaa tuoteryhmien markkinointisisällön yhdenmukaisuutta.
 
 Tekoälypohjainen teksti kannattaa ottaa huomioon **vain ehdotuksena**. Ehdotukset voivat joissakin tapauksissa sisältää virheitä ja jopa sopimatonta tekstiä, joten ihmisten valvontaa ja tarkistamista tarvitaan. Ennen kuin julkaiset tekstin, sinun täytyy tarkistaa, että sen tiedot virheettömiä, ja tehdä tarvittavat muutokset.
 
-## Mitkä ovat tämänhetkiset rajoitukset
+## Nykyiset rajoitukset
 
 Tässä osassa selitetään Copilotin tarjoamien tekoälypohjaisten tekstiominaisuuksien rajoitukset.
 

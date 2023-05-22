@@ -106,7 +106,7 @@ Järjestelmänvalvoja voi hyväksyä kahdella tavalla:
 
 - Helpoin tapa on käyttää Copilotia. Kun käytät Copilotia ensimmäistä kertaa ylläpitäjänä, saat kehotuksen tarkistaa käyttöehdot ja sitten joko hyväksyä tai hylätä ne. Jos haluat oppia käyttämään Copilotia, siirry kohtaan [Lisää markkinointiteksti nimikkeisiin](item-marketing-text.md).  
 
-- Toinen tapa on käyttää Business Centralin **Tietosuojailmoitusten tila** -sivua ja hyväksyä **Azure OpenAI** -integrointi kaikille käyttäjille. Lisätietoja on kohdassa [käyttöehtojen hyväksyminen](enable-ai.md#consent-to-or-reject-the-preview-and-privacy-terms-and-conditions-for-all-users).
+- Toinen tapa on käyttää Business Centralin **Tietosuojailmoitusten tila** -sivua ja hyväksyä **Azure OpenAI** -integrointi kaikille käyttäjille. Lisätietoja on kohdassa [käyttöehtojen hyväksyminen](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
 ## Katso myös
 

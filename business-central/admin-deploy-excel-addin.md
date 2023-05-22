@@ -12,7 +12,7 @@ ms.author: jswymer
 ---
 # Business Central -apuohjelman hankkiminen Exceliin
 
-[!INCLUDE[prod_short](includes/prod_short.md)] sisältää Excelin apuohjelman, jonka avulla käyttäjät voivat valita **Muokkaa Excelissä** -toiminnon tietyillä sivuilla tietojen avaamiseksi Excel-työkirjassa. Tämä toiminto ei ole sama kuin **Avaa Excelissä** -toiminto, koska sen avulla käyttäjät voivat tehdä muutoksia Excelissä ja julkaista muutokset sitten takaisin kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]
+[!INCLUDE[prod_short](includes/prod_short.md)] sisältää Excelin apuohjelman, jonka avulla käyttäjät voivat valita **Muokkaa Excelissä** -toiminnon tietyillä sivuilla tietojen avaamiseksi Excel-työkirjassa. Tämä toiminto ei ole sama kuin **Avaa Excelissä** -toiminto, koska sen avulla käyttäjät tekevät muutoksia Excelissä ja julkaista muutokset sitten takaisin kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]
 
 ## Yleiskuvaus
 

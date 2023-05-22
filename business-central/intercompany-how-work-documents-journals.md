@@ -7,12 +7,14 @@ ms.reviewer: bnielse
 ms.topic: how-to
 ms.date: 02/06/2023
 ms.custom: bap-template
-ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary, bank-to-bank'
 ms.search.form: '600, 610'
 ---
 # Konserniasiakirjojen ja -päiväkirjojen käyttäminen
 
-Voit kirjata konsernin asiakirjojen tai päiväkirjojen avulla tapahtumia yhdessä konsernikumppanien kanssa. Kun kirjaat konsernin asiakirja- tai päiväkirjarivin omassa yrityksessä, vastaava asiakirja- ja päiväkirjarivi luodaan konsernin Lähtevät-kansioon. Siirrät rivin Lähtevät-kansiosta kumppanillesi. Kumppaniyritys voi sitten kirjata vastaavan tapahtuman omassa yrityksessään ilman, että tiedot on annettava uudelleen.
+Voit kirjata konsernin asiakirjojen tai päiväkirjojen avulla tapahtumia yhdessä konsernikumppanien kanssa. Voit kirjata tapahtumia KP-tileille, ja jos olet määrittänyt konsernin pankkitilit, voit myös kirjata pankkien välisiä tilisiirtoja. Lisätietoja konsernin pankkitiliasetuksista on ohjeaiheessa [Konsernikumppanien käyttöön tarkoitettujen pankkitilitapahtumien määrittäminen](intercompany-how-setup.md#specify-the-bank-accounts-to-use-for-intercompany-partners).  
+
+Kun kirjaat konsernin asiakirja- tai päiväkirjarivin omassa yrityksessä, vastaava asiakirja- ja päiväkirjarivi luodaan konsernin Lähtevät-kansioon. Siirrät rivin Lähtevät-kansiosta kumppanillesi. Kumppaniyritys voi sitten kirjata vastaavan tapahtuman omassa yrityksessään ilman, että tiedot on annettava uudelleen.
 
 Myynti- ja ostoasiakirjojen osalta asiakkaan tai toimittajan konsernikumppanin koodi varmistaa, että kaikki kumppaneiden välisten tapahtumien tilaukset ja laskut tuottavat kumppaniyrityksissä vastaavia asiakirjoja. Yritystilin saldo on oikein.
 

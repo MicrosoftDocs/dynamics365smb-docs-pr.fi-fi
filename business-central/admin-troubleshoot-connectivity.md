@@ -99,6 +99,26 @@ Tarkistaa, että todennettu käyttäjä voi muodostaa yhteyden löydettyyn ympä
 |Ei klusteriosoitetta, jolle suorittaa tämä tarkistus|Tarkista luettelo käytettävissä olevista ympäristöistä Business Centralin hallintakeskuksessa.|
 |Version päätepistettä ei ole|Tarkista luettelo käytettävissä olevista ympäristöistä Business Centralin hallintakeskuksessa.|
 
+## Verkkopalvelimen yhteys
+
+Tarkistaa, että todennettu käyttäjä pystyy muodostamaan yhteyden Web-palvelimeen onnistuneesti.
+
+|Ongelma|Kokeile seuraavaa:|
+|-------|-------------|
+|Todennettua käyttäjää tämän tarkistuksen suorittamiseksi ei ole|Katso **Käyttäjän todennus -tarkistus**.|
+|Tilin käytettävissä olevien ympäristöjen noutaminen epäonnistui.|Katso **Business Central -ympäristöjen etsiminen**.|
+|Ei klusteriosoitetta, jolle suorittaa tämä tarkistus|Tarkista luettelo käytettävissä olevista ympäristöistä Business Centralin hallintakeskuksessa.|
+|Yhteyttä verkkopalvelimeen ei voitu muodostaa|Tyhjennä välimuisti ja lataa sivu uudelleen.|
+
+## Palvelun kunnon tila
+
+Raportoi Business Centralin huollon kunnon tilan tarkistamalla ilmoitetut katkokset.
+
+|Ongelma|Kokeile seuraavaa:|
+|-------|-------------|
+|Todennettua käyttäjää tämän tarkistuksen suorittamiseksi ei ole|Katso **Käyttäjän todennus -tarkistus**.|
+|Valitettavasti Business Central on tilapäisesti pois käytöstä. Ole hyvä ja yritä uudelleen myöhemmin.|Yritä myöhemmin uudelleen.|
+
 ## Katso myös
 
 [Ohje- ja tukiresurssit](product-help-and-support.md)  

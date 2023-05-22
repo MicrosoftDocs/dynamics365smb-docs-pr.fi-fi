@@ -13,7 +13,7 @@ ms.reviewer: jswymer
 
 [!INCLUDE[prod_long](includes/prod_long.md)] on kokonaisvaltainen liiketoiminnan hallintaratkaisu, joka on vahvasti integroitu Microsoft 365:n tuottavuussovelluksiin ja Power Platformiin. Maksuton Business Centralin kokeiluversio voi muodostaa yhteyden useisiin Microsoft-palveluihin, jotka on ensin määritettävä ja otettava käyttöön. Saadaksesi parhaan hyödyn ilmaisesta kokeilustasi, jotkin näistä ominaisuuksista on otettu käyttöön automaattisesti. Vaikka yhteys [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan on otettu käyttöön, nämä palvelut eivät sisälly kokeiluversioon, ja ne on hankittava erikseen, ellei niitä ole jo olemassa.
 
-Alla oleva taulukko ilmaisee Microsoft-palveluihin liittyvät yhteydet, jotka otetaan käyttöön automaattisesti [!INCLUDE[prod_short](includes/prod_short.md)] -kokeiluversioissa:
+Seuraava taulukko ilmaisee Microsoft-palveluihin liittyvät yhteydet, jotka otetaan käyttöön automaattisesti [!INCLUDE[prod_short](includes/prod_short.md)] -kokeiluversioissa:
 
 |Palvelun nimi|Yhteys otetaan automaattisesti käyttöön |Palveluun otetaan yhteyttä, kun Business Centraliin kirjaudutaan |Tätä palvelua käyttävä esimerkkiominaisuus | Opettele hallitsemaan yhteyttä käyttäviä yhteyksiä ja toimintoja|  
 |------------|-------------|--------|------------|-------------|
