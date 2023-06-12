@@ -14,17 +14,20 @@ ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 902
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in liiketoimintayksikölle tai yritykselle kuuluvaa liiketoimintatietojen säilöä kutsutaan *yritykseksi*. Kun rekisteröidyt [!INCLUDE[prod_short](includes/prod_short.md)]iin, saat käyttöösi esimerkkiyrityksen ja tyhjän yrityksen, jonka nimi on *Oma yritys*. Yritysten välillä siirtyminen on helppoa: valitse vain **Omat asetukset** ja siirry toiseen yritykseen. Voit myös luoda uusia yrityksiä [!INCLUDE[prod_short](includes/prod_short.md)]issa yrityksen tarpeiden mukaan.  
 
+> [!NOTE]
+> Jotta voisit luoda uuden yrityksen, sinulle täytyy olla määritetty **Super**-käyttöoikeusjoukko.
+
 Kun luot uuden yrityksen, asetusten ohjattu määritysopas auttaa varmistamaan, että perustoiminnot ovat kohdallaan. Voit tuoda tämän jälkeen tarvittavat tiedot vanhasta järjestelmästä tai toisesta [!INCLUDE[prod_short](includes/prod_short.md)]in yrityksestä.  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## Valitse oikea malli
 
-Jos päätät lisätä yrityksen [!INCLUDE[prod_short](includes/prod_short.md)]iin, pääset alkuun käyttämällä ohjattua **Luo uusi yritys** -asetusten määritystä. Ohjatun asetustoiminnon voi valita **Yritykset**-sivulla ja **Omat asetukset** -kohdassa **Yritys**-kentän valintaruudussa.  
+Jos päätät lisätä yrityksen [!INCLUDE[prod_short](includes/prod_short.md)]iin, pääset alkuun käyttämällä ohjattua **Luo uusi yritys** -asetusten määritystä. Asetusoppaan voi valita **Yritykset**-sivulla ja **Omat asetukset** -kohdassa **Yritys**-kentän valintaruudussa.  
 
-Ohjatussa asennuksessa on kaksi mallia ja tyhjä vaihtoehto:
+Asennusoppaassa on kaksi mallia ja tyhjä vaihtoehto:
 
-- **Arviointi - Mallitiedot**  
+- **Arviointi – esimerkkitiedot**  
     Näin luotu yritys muistuttaa esittely-yritystä, jossa on malli- ja asetustietoja. Tämän tyyppinen yritys on käytettävissäsi ilman, että siirrytään 30 päivän kokeilujaksoon, jota muut tyypit edellyttävät.  
 - **Tuotanto - Vain määritystiedot**  
     Näin luotu yritys muistuttaa **omaa yritystä**, jossa on asetustietoja mutta mallitiedot puuttuvat. Voit käyttää tätä yritystä 30 päivän kokeilujakson ajan.  

@@ -2,18 +2,18 @@
 title: Myyntien ja myyntiasiakirjojen arkistointi
 description: 'Voit arkistoida myynti-ja ostotilauksia, tarjouksia, palautustilauksia ja puitetilauksia sekä palauttaa alkuperäiset tarvittaessa.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
-ms.date: 03/06/2022
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 06/02/2023
+ms.custom: bap-template
+ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ---
 # Asiakirjojen arkistointi
+
 Voit arkistoida myynti-ja ostotilauksia, tarjouksia, palautustilauksia ja puitetilauksia. Asiakirjojen arkistointi mahdollistaa alkuperäisen palauttamisen tarvittaessa. Voit arkistoida myynti- tai ostoasiakirjan useita kertoja ja tallentaa kullakin kerralla erilaisen arkistoidun version.
 
-Jos kyse on myyntiasiakirjoista, joiden alkuperäinen versio on vielä olemassa eikä sitä ole kirjattu, voit korvata nykyisen asiakirjan arkistoidulla versiolla **Palauta**-toiminnolla. 
+Jos kyse on myyntiasiakirjoista, joiden alkuperäinen versio on vielä olemassa eikä sitä ole kirjattu, voit korvata nykyisen asiakirjan arkistoidulla versiolla **Palauta**-toiminnolla.
 
 Jos kyse on arkistoiduista asiakirjoista, joiden alkuperäinen versio on poistettu, voit käyttää sisällön uudelleen ainoastaan kopioimalla tiedot esimerkiksi käyttäen **Kopioi asiakirjasta** -toimintoa.  
 
@@ -39,9 +39,9 @@ Seuraavassa taulukossa kuvataan **Arkistoi tarjoukset**-kentän vaihtoehdot.
 |**Kysymys**|Kysy käyttäjältä myyntitarjousten arkistoinnista tarjousten poistamisen yhteydessä.|
 |**Aina**|Arkistoi myyntitarjoukset automaattisesti poistamisen yhteydessä.|
 
-## Myyntitilauksen arkistointi
+## Myyntitilauksen arkistointi manuaalisesti
 
-Seuraavassa kuvataan, miten myyntitilaus arkistoidaan. Vaiheet ovat samankaltaiset kaikille tilauksille, puitetilauksille, palautustilauksille ja tarjouksille.
+Seuraavassa kuvataan, miten myyntitilaus arkistoidaan manuaalisesti. Vaiheet ovat samankaltaiset kaikille tilauksille, puitetilauksille, palautustilauksille ja tarjouksille.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 2. Avaa myyntitilaus, jonka haluat arkistoida.  
@@ -60,18 +60,19 @@ Alkuperäisen myyntitilauksen sisältö korvataan arkistoidulla versiolla.
 
 ## Arkistoitujen myyntitilausten poistaminen
 
-Seuraavassa kuvataan, miten arkistoidut myyntitilaukset poistetaan. Vaiheet ovat samanlaiset muille arkistoiduille myynti- ja ostoasiakirjoille.
+Säilytyskäytännön avulla voit tyhjentää arkistoidut asiakirjat, joita et enää tarvitse. Säilytyskäytäntöjen avulla järjestelmänvalvojat voivat määrittää, kuinka kauan he haluavat säilyttää tietoja. He voivat esimerkiksi määrittää käytännön, joka poistaa tiedot vanhentumispäivämäärän jälkeen. Lisätietoja on kohdassa [Säilytyskäytäntöjen määrittäminen](admin-data-retention-policies.md).
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilausarkistot** ja valitse sitten vastaava linkki.  
-2. Valitse **Poista vanhemmat versiot** -toiminto ja valitse sitten **Poista arkistoidut myyntitilausversiot** -sivulla asiaankuuluvat suodattimet.  
-3. Valitse **OK**-painike.
+Arkistoitujen asiakirjojen säilytyskäytäntöjen luomista varten on syytä ottaa huomioon seuraavat seikat:
+
+* *Jos alkuperäistä asiakirjaa ei ole poistettu, Business Central ei poista arkistoituja versioita. Arkistoitu versio ei vanhene niin kauan kuin alkuperäinen on olemassa.
+* Kun määrität säilytyskäytännön, voit määrittää, että käytäntö poistaa kaikki asiakirjan arkistoidut versiot uusinta lukuun ottamatta. Sinulla voi olla esimerkiksi 10 versiota asiakirjasta ja haluat säilyttää viimeisimmän kopion. 
+* Business Central laskee asiakirjojen vanhentumispäivämäärän viimeisimmän arkistoidun version päivämäärän perusteella.
 
 ## Katso myös
 
-[Asiakirjarivien seuranta](across-how-to-track-document-lines.md)  
+[Asiakirjarivien seuraaminen](across-how-to-track-document-lines.md)  
 [Myynti](sales-manage-sales.md)  
-[Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
+[Yrityksen yleiset toiminnot](ui-across-business-areas.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

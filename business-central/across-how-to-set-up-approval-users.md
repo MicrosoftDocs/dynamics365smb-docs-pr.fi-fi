@@ -1,38 +1,37 @@
 ---
 title: Hyväksynnän käyttäjien määrittäminen
-description: 'Ennen kuin voit luoda työnkulkuja, joihin liittyy hyväksyntävaiheita, sinun on määritettävä hyväksymisprosesseihin osallistuvat työnkulun käyttäjät Hyväksyjäkäyttäjän määritys -sivulla.'
-author: SorenGP
-ms.topic: conceptual
+description: 'Ennen kuin voit luoda työnkulkuja, joihin liittyy hyväksyntävaiheita, sinun on määritettävä hyväksymisprosesseihin osallistuvat työnkulun käyttäjät.'
+author: brentholtorf
+ms.topic: how-to
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 663
-ms.date: 09/08/2022
-ms.author: edupont
+ms.search.form: '663,'
+ms.date: 05/31/2023
+ms.author: bholtorf
 ---
 # Hyväksynnän käyttäjien määrittäminen
 
-Ennen kuin voit luoda työnkulkuja, joihin liittyy hyväksyntävaiheita, sinun on määritettävä hyväksymisprosesseihin osallistuvat työnkulun käyttäjät. Voit myös määrittää **Hyväksynnän käyttäjäasetukset** -sivulla rajoituksia tietynlaisille pyynnöille sekä korvaavia hyväksyjiä, jotka voivat hyväksyä pyyntöjä alkuperäisen hyväksyjän ollessa poissa.  
+Ennen kuin voit luoda työnkulkuja, joihin liittyy hyväksyntävaiheita, sinun on määritettävä hyväksymisprosesseihin osallistuvat käyttäjät **Hyväksynnän käyttäjäasetukset** -sivulla. Voit myös määrittää määrärajoja erityyppisille pyynnöille, määrittää korvaavia hyväksyjiä ja määrittää ilmoituksia.  
 
-> [!NOTE]  
-> Sekä hyväksynnän pyytäjien että hyväksyjien on ensin määritettävä työnkulun käyttäjiksi **Työnkulun käyttäjäryhmä** -sivulla. Lisätietoja kohdassa [Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md).  
+Kun olet määrittänyt hyväksynnän käyttäjät, voit määrittää työnkulun vastaukset hyväksynnän työnkuluille. Lisätietoja on kohdassa [Hyväksyntätyönkulkujen luominen](across-how-to-create-workflows.md).  
 
-Kun olet määrittänyt hyväksynnän käyttäjät, voit määrittää työnkulun vastaukset hyväksynnän työnkuluille. Lisätietoja vaiheesta 9 on kohdassa [Hyväksyntätyönkulkujen luominen](across-how-to-create-workflows.md).  
-
-> [!NOTE]  
-> Jos haluat määrittää, että hyväksymispyyntöä ei ole hyväksytty, ennen kuin käyttäjät ovat hyväksyneet sen, määritä hyväksyjien hierarkia. Käyttäjätunnukselle **Hyväksyjä** on määritettävä hyväksyjä **Hyväksynnän käyttäjäasetukset** -sivulla. Määritä hyväksyjät **Työnkulun käyttäjäryhmä** -hyväksyjätyypille **Työnkulun käyttäjäryhmät** -sivulla ja määritä hierarkia määrittämällä kullekin hyväksyjälle **Järjestysnro** -kentässä. Lisätietoja alla ja kohdassa [Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md).  
+> [!TIP]
+> Voit edellyttää, että useat hyväksyjät reagoivat hyväksymispyyntöön luomalla hyväksyjien ryhmän **Työnkulun käyttäjäryhmä** -sivulla. Lisätietoja kohdassa [Työnkulun käyttäjäryhmien määrittäminen](across-how-to-set-up-workflow-users.md).  
 
 ## Hyväksynnän käyttäjän määrittäminen
 
+[!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyväksynnän käyttäjäasetukset**, valitse sitten vastaava linkki.  
-2. Luo uusi rivi **Hyväksynnän käyttäjäasetukset** -sivulla, täytä sitten kentät seuraavassa taulukossa kuvatulla tavalla.  
+2. Luo uusi rivi **Hyväksynnän käyttäjäasetukset** -sivulla ja täytä sitten kentät seuraavassa taulukossa kuvatulla tavalla.  
 
    |Kenttä|Kuvaus|
    |-----|-----------|
    |**Käyttäjätunnus**|Valitse hyväksyntäprosessiin liittyvän henkilön tunnus.|
-   |**Myyjän/ostajan koodi**|Määritä käyttäjää vastaava myyjän tai ostajan koodi.<br /><br /> Yleensä **Myyjän/ostajan koodi** -kenttä täytetään, jos myyjä tai ostaja, joka on vastuussa asiakkaasta tai toimittajasta, on samalla henkilö, joka hyväksyy kyseessä olevat osto- tai myyntipyynnöt.|
+   |**Myyjän/ostajan koodi**|Määritä käyttäjää vastaava myyjän tai ostajan koodi.<br /><br /> Yleensä **Myyjän/ostajan koodi** -kenttä täytetään, jos myyjä tai ostaja, joka on vastuussa asiakkaasta tai toimittajasta, on samalla henkilö, joka hyväksyy osto- tai myyntipyynnöt.|
    |**Hyväksyjän tunnus**|Valitse sen hyväksyntäprosessiin liittyvän henkilön tunnus, jonka on hyväksyttävä **Käyttäjätunnus**-kentässä määritetyn henkilön pyynnöt.|
-   |**Myyntisumman hyväksymisraja**|Määritä paikallisessa valuutassa (PVA) suurin myyntiarvo, jonka **Käyttäjätunnus**-kenttään määritetty henkilö saa hyväksyä.|
+   |**Myyntisumman hyväksymisraja**|Määritä paikallisessa valuutassa (PVA) suurin myyntiarvo, jonka **Käyttäjätunnus**-kentässä valittu henkilö saa hyväksyä.|
    |**Rajaton myynnin hyväksyntä**|Määritä, että **Käyttäjätunnus**-kenttään määritetty henkilö saa hyväksyä kaikki myyntipyynnöt summasta riippumatta.<br /><br /> Jos valitset tämän valintaruudun, et voi täyttää **Myyntisumman hyväksymisraja** -kenttää.|
    |**Ostosumman hyväksymisraja**|Määritä paikallisessa rahayksikössä suurin ostosumma, jonka **Käyttäjätunnus**-kenttään määritetty henkilö saa hyväksyä.|
    |**Rajaton ostojen hyväksyntä**|Määritä, että **Käyttäjätunnus**-kenttään määritetty henkilö saa hyväksyä kaikki ostopyynnöt summasta riippumatta.<br /><br /> Jos valitset tämän valintaruudun, et voi täyttää **Ostosumman hyväksymisraja** -kenttää.|
@@ -40,13 +39,12 @@ Kun olet määrittänyt hyväksynnän käyttäjät, voit määrittää työnkulu
    |**Rajaton pyyntöjen hyväksyntä**|Määritä, että **Käyttäjätunnus**-kenttään määritetty henkilö saa hyväksyä kaikki ostotarjoukset summasta riippumatta.<br /><br /> Jos valitset tämän valintaruudun, et voi täyttää **Pyyntösumman hyväksymisraja** -kenttää.|
    |**Varahyväksyjä**|Valitse hyväksyntäprosessiin liittyvän henkilön tunnus, jonka on hyväksyttävä **Käyttäjätunnus** -kentässä olevan henkilön pyynnöt jos **Hyväksyjän tunnus** -kentässä oleva käyttäjä ei ole saatavilla. <br /><br />**Huomautus:** korvaava voi olla joko käyttäjä **Korvaava**-kentässä, suora hyväksyjä tai hyväksynnän järjestelmänvalvoja, tässä järjestyksessä. Lisätietoja on kohdassa [Hyväksyntätyönkulkujen käyttäminen](across-how-use-approval-workflows.md).|
    |**Sähköpostiosoite**|Määritä **Käyttäjätunnus**-kenttään syötetyn henkilön sähköpostiosoite.|
-   |**Hyväksynnän järjestelmänvalvoja**|Määritä käyttäjä, jolla on oikeus avata hyväksynnän työnkulku, kuten delegoimalla hyväksyntäpyyntöjä uusille korvaaville hyväksyjille tai poistamalla hyväksyntäpyyntöjä, joiden määräaika on ohi.|
-
-   > [!NOTE]
-   > Vain yksi henkilö voi olla hyväksynnän järjestelmänvalvoja.
+   |**Hyväksynnän järjestelmänvalvoja**|Määritä käyttäjä, jolla on oikeus avata hyväksynnän työnkulku, kuten delegoimalla hyväksyntäpyyntöjä uusille korvaaville hyväksyjille tai poistamalla hyväksyntäpyyntöjä, joiden määräaika on ohi.<br /><br />**Huomautus** Vain yksi henkilö voi olla hyväksynnän järjestelmänvalvoja.|
 
 3. Voit testata hyväksyjäkäyttäjän asetukset valitsemalla **Hyväksynnän käyttäjien määrityksen testi** -toiminto.  
 4. Toista vaiheet 2 ja 3 jokaiselle henkilölle, jonka haluat määrittää hyväksynnän käyttäjäksi.  
+
+Seuraava askel on määrittää, miten haluat [!INCLUDE [prod_short](includes/prod_short.md)]in ilmoittavan käyttäjille, että pyyntö on odottamassa heidän huomiotaan. Lisätietoja: [Hyväksyntätyönkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md).
 
 ## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
