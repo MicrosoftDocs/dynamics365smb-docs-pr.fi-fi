@@ -78,7 +78,7 @@ Tässä osassa käsitellään resursseja, jotka ovat käytössäsi **Ohje ja tuk
 
 - Ohje, joka koskee juuri [!INCLUDE[prod_short](includes/prod_short.md)]issa katsottua sivua  
 
-  Tämä linkki luodaan automaattisesti. Jos [!INCLUDE[prod_short](includes/prod_short.md)] ei löydä sopivaa linkkiä, näytetään [Microsoft Learnin saapumissivu](index.md) sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] oletusversiolle. Jos sivu oli esimerkiksi sellaisen sovelluksen osa, joka ei lisännyt tilannekohtaista Ohje-määritystä [!INCLUDE[prod_short](includes/prod_short.md)]iin, *Lisätietoja-linkki* vie oletusarvoisesti saapumissivulle.  
+  Tämä linkki luodaan automaattisesti. Jos [!INCLUDE[prod_short](includes/prod_short.md)] ei löydä sopivaa linkkiä, näytetään [Microsoft Learnin saapumissivu](index.yml) sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] oletusversiolle. Jos sivu oli esimerkiksi sellaisen sovelluksen osa, joka ei lisännyt tilannekohtaista Ohje-määritystä [!INCLUDE[prod_short](includes/prod_short.md)]iin, *Lisätietoja-linkki* vie oletusarvoisesti saapumissivulle.  
   
 - [!INCLUDE[prod_short](includes/prod_short.md)]in ohjeen saapumissivu  
 
@@ -152,9 +152,9 @@ Jos haluat ilmoittaa kumppanille ongelmasta, lähetä joko sähköpostiviesti va
 
 ## Lue lisää tuotteen dokumentaation käyttämisestä
 
-Suuri kumppaniyhteisö on laajentanut ja mukauttanut [!INCLUDE [prod_short](includes/prod_short.md)]in perusversiota. Kukin kumppani ja monet asiakkaat ottavat oman ohjeen käyttöön sivustossaan. Saat tarvittaessa lisätietoja siirtymällä [Dynamics 365 Business Central -dokumentaatio](index.md)-sivustoon. Sivusto käytetään erilaisia sisältöjä, kuten seuraavia:
+Suuri kumppaniyhteisö on laajentanut ja mukauttanut [!INCLUDE [prod_short](includes/prod_short.md)]in perusversiota. Kukin kumppani ja monet asiakkaat ottavat oman ohjeen käyttöön sivustossaan. Saat tarvittaessa lisätietoja siirtymällä [Dynamics 365 Business Central -dokumentaatio](index.yml)-sivustoon. Sivusto käytetään erilaisia sisältöjä, kuten seuraavia:
 
-- [Liiketoimintatoimintoja koskeva käsitteellinen sisältö](index.md)  
+- [Liiketoimintatoimintoja koskeva käsitteellinen sisältö](welcome.md)  
 - [Kehittäjille tarkoitettu dokumentaatio](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)  
 - [Maksuttomat oppimispolut ja verkko-oppimismoduulit eri käyttäjäprofiileissa](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
@@ -164,7 +164,7 @@ Tässä osassa käsitellään liiketoimintatoimintojen sisällössä siirtymist�
 
 ### Sivuston sisältö
 
-Microsoft Learn-sivuston [tässä osassa](index.md) on Microsoft-sisältöä, joka ilmaisee käyttäjätukimallin *Lisätietoja*-osan. *Lisätietoja*-sisällön yhtenä tarkoituksena on vastata kysymyksiin, joihin käyttöliittymä ei voi vastata. Tällaisia kysymyksiä ovat esimerkiksi seuraavat:
+Microsoft Learn-sivuston [tässä osassa](welcome.md) on Microsoft-sisältöä, joka ilmaisee käyttäjätukimallin *Lisätietoja*-osan. *Lisätietoja*-sisällön yhtenä tarkoituksena on vastata kysymyksiin, joihin käyttöliittymä ei voi vastata. Tällaisia kysymyksiä ovat esimerkiksi seuraavat:
 
 - Miten sivu sijoittuu työnkulkukokonaisuuteen?  
 - Mitä tapahtuu seuraavaksi?  

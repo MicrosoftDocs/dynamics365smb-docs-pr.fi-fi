@@ -1,20 +1,20 @@
 ---
 title: Synkronoi nimikkeet ja varasto
 description: Määritä ja suorita nimikkeiden synkronoinnit Shopifyn ja Business Centralin välillä
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30116, 30117, 30126, 30127,'
 author: AndreiPanko
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Synkronoi nimikkeet ja varasto
 
-**Nimikkeet** [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa vastaavat *tuotteita* Shopifyssa ja niihin kuuluu fyysisiä tavaroita, digitaalisia latauksia, palveluja ja lahjakortteja, joita saatat myydä. On kaksi pääasiallista syytä synkronoida nimikkeet:
+**Nimikkeet** [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa vastaavat *tuotteita* Shopifyssa ja niihin kuuluu fyysisiä tavaroita, digitaalisia latauksia, palveluja ja lahjakortteja, joita myyt. On kaksi pääasiallista syytä synkronoida nimikkeet:
 
-1. Tietojen hallinta suoritetaan ensisijaisesti [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa. Sinun täytyy viedä kaikki tiedot sieltä Shopifyhin ja tehdä niistä näkyviä. Voit viedä nimikkeen nimen, kuvauksen, kuvan, hinnat, saatavuuden, variantit, toimittajan tiedot ja viivakoodin. Kun ne on viety, voit tarkastella nimikkeitä tai tehdä ne näkyviksi heti.
+1. Tietojen hallinta tapahtuu ensisijaisesti [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa. Sinun täytyy viedä kaikki tiedot sieltä Shopifyhin ja tehdä niistä näkyviä. Voit viedä nimikkeen nimen, kuvauksen, kuvan, hinnat, saatavuuden, variantit, toimittajan tiedot ja viivakoodin. Kun ne on viety, voit tarkastella nimikkeitä tai tehdä ne näkyviksi heti.
 2. Kun tilaus Shopifysta tuodaan, nimikkeen tiedot ovat olennaisia asiakirjan käsittelemisessä [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa.
 
 Edeltävät kaksi skenaariota ovat aina käytössä.
@@ -98,17 +98,17 @@ Voit hallita nimikkeiden vientiprosessia seuraavien asetusten avulla:
 |------|-----------------|-----------------|
 |Tila|**Shopify-ostoskortissa** **luotujen tuotteiden tila** -kentän mukaan. Lisätietoja on [Shopify-tuotteiden Ad-hoc-päivitykset](synchronize-items.md#ad-hoc-updates-of-shopify-products) -osassa.|Ei käytetty.|
 |Otsikko | **Kuvaus**. Jos kielikoodi on määritetty ja vastaava nimikekäännös on olemassa, käytetään nimikkeen käännöstä kuvauksen sijaan.|**Kuvaus**|
-|Kuvaus|Yhdistää lisätekstit ja määritteet, jos vastaava vaihto Shopify-ostoskortissa on käytössä. Säilyttää kielikoodit.|Ei käytetty.|
+|Kuvaus|Yhdistää lisätekstit, markkinointitekstit ja määritteet, jos otat käyttöön vastaavat vaihdot Shopify-ostoskortissa käyttöön. Säilyttää kielikoodit.|Ei käytetty.|
 |Hakukoneoptimointisivun otsikko|Vakioarvo: tyhjä. Lisätietoja on [Shopify-tuotteiden Ad-hoc-päivitykset](synchronize-items.md#ad-hoc-updates-of-shopify-products) -osassa.|Ei käytetty.|
 |Hakukoneoptimoinnin metakuvaus|Vakioarvo: tyhjä. Lisätietoja on [Shopify-tuotteiden Ad-hoc-päivitykset](synchronize-items.md#ad-hoc-updates-of-shopify-products) -osassa.|Ei käytetty.|
 |Media|**Kuva**. Lisätietoja on [Synkronoi nimikekuvat](synchronize-items.md#sync-item-images) -osassa|**Kuva**|
-|Hinta|Loppuasiakkaan hinnan laskenta sisältää nimikkeen yksikköhinnan, asiakkaan hintaryhmän, asiakkaan alennusryhmän ja valuuttakoodin. Lisätietoja on [Synkronoi hinnat](synchronize-items.md#sync-prices-with-shopify) -osassa|**Yksikköhinta**|
+|Hinta|Loppuasiakkaan hinnan laskenta sisältää nimikkeen yksikköhinnan, asiakkaan hintaryhmän, asiakkaan alennusryhmän ja valuuttakoodin. Lisätietoja on [Synkronoi hinnat](synchronize-items.md#sync-prices-with-shopify) -osassa|**Yksikköhinta**. Hinta tuodaan vain uusille nimikkeille, mutta sitä ei päivitetä myöhemmissä synkronoinneissa.|
 |Vertailuhinta|Hinnan laskeminen ilman alennusta.|Ei käytetty.|
-|Kustannus per nimike|**Yksikkökustannus**|**Yksikkökustannus**|
+|Kustannus per nimike|**Yksikkökustannus**|**Yksikkökustannus**. Yksikkökustannus tuodaan vain uusille nimikkeille, eikä sitä päivitetä myöhemmissä synkronoinneissa.|
 |Varastointiyksikkö|Lisätietoja varastointiyksiköistä on [Vie nimikkeitä Shopifyhin](synchronize-items.md#export-items-to-shopify) **SKU-määritys**-kohdassa.|Lue lisää varastointiyksiköistä [Shopifyn tuotteiden varastointiyksiköiden ja viivakoodien vaikutus nimikkeiden ja varianttien kartoittaminen ja luominen Business Centralissa](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central) -osasta.|
 |Viivakoodi|Viivakoodityypin **nimikeviitteet**.|Viivakoodityypin **nimikeviitteet**.|
-|Seurattava määrä|**Shopify-ostoskortti**-sivun **Seurattu varasto** -kentän mukaan. Katso lisätietoja [Varasto](synchronize-items.md#sync-inventory-to-shopify)-osasta.|Ei käytetty.|
-|Jatka myyntiä, kun varasto on loppunut|**Shopify-ostoskortin** **Oletusvarastokäytännön** mukaan. Ei tuotu.|Ei käytetty.|
+|Seurattava määrä|**Shopify-ostoskortti**-sivun **Seurattu varasto** -kentän mukaan. Katso lisätietoja [Varasto](synchronize-items.md#sync-inventory-to-shopify)-osasta. Käytetään vain, kun tuote viedään ensimmäisen kerran.|Ei käytetty.|
+|Jatka myyntiä, kun varasto on loppunut|**Shopify-ostoskortin** **Oletusvarastokäytännön** mukaan. Käytetään vain, kun tuote viedään ensimmäisen kerran.|Ei käytetty.|
 |Tyyppi|**Nimikekategoriakoodin** **kuvaus**. Jos tyyppiä ei ole määritetty Shopifyssa, se lisätään mukautettuna tyyppinä.|**Nimikeluokan koodi**. Linkitys kuvauksen mukaan.|
 |Toimittaja|Toimittajan **nimi** **Toimittajan nro**-kohteesta|**Toimittajan nro** Linkitys nimen mukaan.|
 |Paino|**Bruttopaino**.|Ei käytetty.|

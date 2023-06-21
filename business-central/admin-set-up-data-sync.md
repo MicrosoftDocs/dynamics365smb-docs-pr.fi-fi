@@ -13,9 +13,9 @@ ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 
 # Päätietojen synkronointiin valmistautuminen
 
-Kun sinulla on kaksi tai useampia yrityksiä, jotka käyttävät ainakin joitakin samoja päätietoja, voit säästää tietojen syöttämisen aikaa synkronoimalla ne yrityksiin. Tietojen synkronointi on erityisen hyödyllistä silloin, kun määrität uusia tytäryrityksiä.
+Kun vähintään kaksi yritystä käyttää samoja päätietoja, voit synkronoida tiedot sen sijaan, että lisäsit ne manuaalisesti jokaiseen yritykseen. Tietojen synkronointi on esimerkiksi erityisen hyödyllistä silloin, kun määrität uusia tytäryrityksiä.
 
-Päätietoihin kuuluvat asetukset ja ei-kaupalliset tiedot liiketoimintayksiköistä, kuten asiakkaista, toimittajista, nimikkeistä ja työntekijöistä. Tiedot tarjoavat kontekstin liiketoimintatapahtumia varten. Seuraavassa on muutamia esimerkkejä asiakkaan päätiedoista:
+Päätietoihin kuuluvat asetukset ja ei-kaupalliset tiedot liiketoimintayksiköistä. Esimerkiksi asiakkaat, toimittajat, nimikkeet ja työntekijät. Tiedot tarjoavat kontekstin liiketoimintatapahtumia varten. Seuraavassa on muutamia esimerkkejä asiakkaan päätiedoista:
 
 * Name
 * Tunnistenumero
@@ -23,7 +23,7 @@ Päätietoihin kuuluvat asetukset ja ei-kaupalliset tiedot liiketoimintayksiköi
 * Maksuehdot
 * Luottoraja
 
-Synkronointi määritetään tytäryrityksissä. Vetomallin avulla tytäryhtiöt hakevat lähdeyritykseltä tiedot, joita ne tarvitsevat asioidakseen niiden kanssa. Kun olet määrittänyt synkronoinnin ja synkronoit tiedot ensimmäisen kerran, olet valmis. Taulukoiden tietueet yhdistetään, ja työjonotapahtumat käynnistävät heti tietojen päivittämisen tytäryrityksiin, kun joku tekee muutoksen lähdeyrityksessä.
+Synkronointi määritetään tytäryrityksissä. Vetomallin avulla tytäryhtiöt hakevat lähdeyritykseltä tiedot, joita ne tarvitsevat asioidakseen niiden kanssa. Kun olet määrittänyt synkronoinnin ja synkronoit tiedot ensimmäisen kerran, olet valmis. Työjonotapahtumat käynnistävät heti tietojen päivittämisen tytäryrityksiin, kun joku muuttaa tietoja lähdeyrityksessä.
 
 ## Vain monisuuntainen synkronointi
 
@@ -34,10 +34,13 @@ Voit synkronoida tietoja vetomallilla vain lähdeyrityksestä tytäryrityksiin. 
 
 ## Ennen kuin aloitat
 
-Nämä ovat synkronoinnin määrittämisen vaatimukset.
+Seuraavat seikat ovat synkronoinnin määrittämisen vaatimukset.
 
 * Kaikkien yritysten täytyy olla samassa ympäristössä.
-* Käyttäjällä, joka määrittää tytäryrityksen, täytyy olla **Päätietojen hallinta - Näytä** -käyttöoikeusjoukko. Käyttöoikeusjoukko on saatavilla Premium- ja Essential-käyttöoikeuksissa. Tiimin jäsenen käyttöoikeus antaa käyttäjän käyttää mutta ei muokata tietueita, joten sitä ei voi käyttää synkronoinnin määrittämiseen.
+* Käyttäjällä, joka määrittää tytäryrityksen, täytyy olla **Essential**-, **Premium**- tai **Perus-ISV**-käyttöoikeus.
+
+> [!NOTE]
+> Ryhmän jäsenen ja sisäisen järjestelmänvalvojan käyttöoikeudet antavat sinulle pääsyn tietueisiin, mutta eivät muuta niitä, joten niitä ei voi käyttää synkronoinnin määrittämiseen. Delegoidun järjestelmänvalvojan käyttöoikeus ei anna sinun ajoittaa taustatehtäviä, joten et voi suorittaa asennusta loppuun.
 
 ## Määritä lähdeyritys
 
@@ -52,7 +55,7 @@ Seuraava vaihe on taulukoiden ja kenttien ottaminen käyttöön synkronointia va
 
 ## Taulukoiden ja kenttien ottaminen käyttöön ja poistaminen käytöstä
 
-Jos haluat säästää aikaa, [!INCLUDE [prod_short](includes/prod_short.md)] tarjoaa luettelon taulukoista, joita yritykset usein synkronoivat. Oletusarvon mukaan nämä taulukot ovat käytössä synkronointia varten, mutta voit muokata, poistaa käytöstä tai poistaa niitä parhaaksi katsomallaan tavalla. Ajan säästämiseksi, jotkin taulukoiden kentät on jo poistettu käytöstä, koska ne eivät todennäköisesti ole olennaisia tytäryrityksen kannalta.
+Jos haluat säästää aikaa, [!INCLUDE [prod_short](includes/prod_short.md)] tarjoaa luettelon taulukoista, joita yritykset usein synkronoivat. Oletusarvoisesti nämä taulukot on otettu käyttöön synkronointia varten. Voit muokata, poistaa käytöstä tai poistaa niitä parhaaksi katsomallasi tavalla. Ajan säästämiseksi, jotkin taulukoiden kentät on jo poistettu käytöstä, koska ne eivät todennäköisesti ole olennaisia tytäryrityksen kannalta.
 
 > [!NOTE]
 > Jos lähdeyritykseen on asennettu vähintään kaksi laajennusta, kun tytäryritys määrittää synkronoinnin, **Synkronointitaulukot**-sivulla on laajennuksia sisältäviä taulukoita, ja voit käyttää niiden kenttiä. Jos lähdeyritys lisää laajennuksen synkronoinnin jälkeen, kunkin tytäryrityksen on kuitenkin lisättävä taulukot manuaalisesti. Saat lisätietoja taulukoiden lisäämisestä valitsemalla [Lisää tai poista taulukoita synkronointitaulukoiden luettelosta](#add-or-delete-tables-from-the-synchronization-tables-list). Jos haluat lisä tietoja [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman laajentamisesta, siirry kohtaan [Visual Studio Coden laajennusten kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview#developing-extensions-in-visual-studio-code).
@@ -85,8 +88,11 @@ Voit määrittää taulukon synkronoitavat tiedot käyttämällä ehtoihin perus
 
 Kun olet valmis, valitse **Päätietojen hallinnan asetukset** -sivulla **Aloita ensimmäinen synkronointi** -toiminto. Valitse **Päätietojen ensimmäinen synkronointi** -sivulla kunkin taulukon synkronointityyppi.
 
-* Jos sekä lähde- että tytäryrityksissä on jo tietueita ja haluat kohdistaa olemassa olevat tietueet, valitse **Käytä vastaavuuteen perustuvaa yhdistämistä** -toimintoa. [!INCLUDE [prod_short](includes/prod_short.md)] kohdistaa tytäryhtiön tietueet lähdeyrityksen tietueisiin määrittämiesi kohdistuskriteerien perusteella. Useille oletustaulukoille [!INCLUDE [prod_short](includes/prod_short.md)] on jo kohdistanut aiemmin luodut tietueet käyttämällä niiden perusavainta, mutta voit halutessasi muuttaa sitä. Voit myös antaa synkronoinnin luoda uusia tietueita tytäryrityksessä lähdeyrityksen tietueisiin, joita tytäryrityksellä ei ole. Jos haluat lisätietoja kohdistuksesta, siirry kohtaan [Vastaavuuteen perustuvan yhdistämisen käyttäminen](#use-match-based-coupling).
-* Jos valitset **Suorita täydellinen synkronointi**, synkronointi luo uudet tietueet kaikille lähdeyrityksen tietueille, joita ei ole vielä yhdistetty. Yleensä tämä toiminto on hyödyllinen, jos tytäryrityksellä ei ole taulukon tietoja tai jos haluat lisätä tietueita lähdeyrityksestä ilman kohdistusta.  
+* Jos sekä lähde- että tytäryrityksissä on jo tietueita ja haluat kohdistaa olemassa olevat tietueet, valitse **Käytä vastaavuuteen perustuvaa yhdistämistä** -toimintoa. [!INCLUDE [prod_short](includes/prod_short.md)] vertaa tytäryrityksen tietueita lähdeyrityksen tietueisiin. Kohdistukset perustuvat määrittämiisi kriteereihin. Useille oletustaulukoille [!INCLUDE [prod_short](includes/prod_short.md)] on jo kohdistanut aiemmin luodut tietueet käyttämällä niiden perusavainta, mutta voit halutessasi muuttaa sitä. Voit myös antaa synkronoinnin luoda uusia tietueita tytäryrityksessä lähdeyrityksen tietueisiin, joita tytäryrityksellä ei ole. Jos haluat lisätietoja kohdistuksesta, siirry kohtaan [Vastaavuuteen perustuvan yhdistämisen käyttäminen](#use-match-based-coupling).
+* Jos valitset **Suorita täydellinen synkronointi**, synkronointi luo uudet tietueet kaikille lähdeyrityksen tietueille, joita ei ole vielä yhdistetty. Tästä vaihtoehdosta on hyötyä esimerkiksi seuraavissa tilanteissa:
+
+    * Tytäryrityksellä ei ole tietoja taulukossa.
+    * Haluat lisätä lähdeyrityksen tietueita ilman kohdistusta.  
 
 Kun olet valinnut käytettävän asetuksen, aloita synkronointi valitsemalla **Aloita kaikki** -toiminto.
 
@@ -118,7 +124,7 @@ Jos haluat käyttää tietoja, kuten lisättyjen tai muutettujen tietueiden mä�
 
 ## Jaa synkronointiasetukset käyttämällä vie ja tuo -asetusta
 
-Jos määrität useita tytäryhtiöitä, jotka käyttävät samoja tai samankaltaisia synkronointiasetuksia, voit säästää ajan määrittämällä yhden tytäryrityksen ja viemällä sen asetukset .xml-tiedostoon. Tiedosto sisältää kaikki asetukset, kuten taulukoiden ja kenttien yhdistämismääritykset ja suodatusehdot. Tämän jälkeen voit tuoda tiedoston seuraavalle tytäryhtiölle. Voit tuoda tai viedä asetukset käyttämällä **Päätietojen hallinnan asetukset** -sivulla **Tuonti**- tai **Vienti**-toimintoja.
+Jos määrität useita tytäryhtiöitä, jotka käyttävät samoja tai samankaltaisia synkronointiasetuksia, säästäjät aikaa. Määritä toinen tytäryritys ja vie sen asetukset .xml-tiedostoon. Tiedosto sisältää kaikki asetukset, kuten taulukoiden ja kenttien yhdistämismääritykset ja suodatusehdot. Tämän jälkeen voit tuoda tiedoston seuraavalle tytäryhtiölle. Voit tuoda tai viedä asetukset käyttämällä **Päätietojen hallinnan asetukset** -sivulla **Tuonti**- tai **Vienti**-toimintoja.
 
 ## Katso myös
 

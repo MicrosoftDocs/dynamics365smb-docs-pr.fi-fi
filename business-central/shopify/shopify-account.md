@@ -50,6 +50,9 @@ Kun olet luonut kaupan, ota seuraavat **asetukset** käyttöön luodun kaupan **
   1. *(for testing) Bogus Gateway*. Lisätietoja on kohdassa [Activate Bogus Gateway for testing](https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction).
   2. *Shopify Payments* testitilassa. Lisätietoja on kohdassa [Shopify Paymentsin testaaminen](https://help.shopify.com/en/manual/payments/shopify-payments/testing-shopify-payments).
 
+> [!Note]  
+> Kehittämisvarastot on yleensä suojattu salasanalla. Kun yrität avata tietyn verkkokauppasi sivun [!INCLUDE [prod_short](../includes/prod_short.md)]-ohjelmassa, esimerkiksi siirtyä tiettyyn tuotteeseen tai tilaukseen, sinun on kirjoitettava salasanasi. Kun testaat, sinun ei tarvitse syöttää salasanaasi, kun kirjaudut sisään Shopify-järjestelmänvalvojaasi ja avaat liikkeen sieltä. Sinun ei tarvitse syöttää liikkeen salasanaa, ennen kuin suljet selaimen tai istuntosi vanhenee.  
+
 ## Katso myös
 
 [Shopify-yhdistimen käytön aloittaminen](get-started.md)  

@@ -39,7 +39,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 ## Katso myös  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)   
 [Projektit](projects-how-create-jobs.md)   
-[Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin!](index.md)
+[Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin!](welcome.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

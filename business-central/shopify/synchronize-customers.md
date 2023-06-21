@@ -1,18 +1,18 @@
 ---
 title: Asiakkaiden synkronointi
 description: Asiakkaiden tuominen tai vieminen Shopifyista tai Shopifyihin
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30105, 30106, 30107, 30108, 30109,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Asiakkaiden synkronointi
 
-Kun tilaus tuodaan Shopifysta, asiakkaan tietojen hankkiminen on olennaista asiakirjan käsittelemisessä [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa. On olemassa kaksi päävaihtoehtoa ja niiden yhdistelmät:
+Kun tuot tilauksen Shopifysta, asiakkaan tietojen hankkiminen on olennaista asiakirjan käsittelemisessä [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa. On olemassa kaksi päävaihtoehtoa ja useita yhdistelmiä:
 
 * Käytä erikoisasiakasta kaikissa tilauksissa.
 * Tuo todelliset asiakastiedot Shopify-tiedoista. Tämä valinta on käytettävissä myös silloin, kun viet asiakkaan Shopifyhin [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmasta.
@@ -36,10 +36,9 @@ Jotkin asetukset voidaan määrittää maan tai alueen tasolla tai osavaltion/pr
 Voit tehdä seuraavan toimen kullekin asiakkaalle **Shopify-asiakasmallin** avulla:
 
 1. Määritä **oletusasiakasnro**, joka on etusijalla **asiakkaan tuonti Shopifysta** ja **Asiakkaan yhdistämismäärityksen tyyppi** -kentissä olevan valinnan. Sitä käytetään tuodussa myyntitilauksessa.
-2. **Määritä asiakasmallin koodi**, jota käytetään puuttuvien asiakkaiden luomisessa, jos **Luo automaattisesti tuntemattomat asiakkaat** on otettu käyttöön. Jos **asiakasmallin koodi** on tyhjä, funktio käyttää **Asiakasmallin koodia**, joka on määritetty **Shopify-ostoskortissa**.
-3. Määritä, sisällytetäänkö tuotujen tilausten hintoihin ALV/verot.
-4. Joissakin tapauksissa maalle määritetty **asiakasmallin koodi** ei riitä varmistamaan verojen oikeaa laskentaa (esimerkiksi maissa, joissa on myyntivero). Tässä tapauksessa **Veroalueiden** sisällyttäminen voi olla hyödyllinen lisäys.
-5. **Veroalue**-kenttä sisältää myös **Maakoodi**- ja **Läänin nimi** -parin. Tämä pari on hyödyllinen, kun yhdistimen tarvitsee muuntaa koodi nimeksi tai päinvastoin.
+2. **Määritä asiakasmallin koodi**, jota käytetään puuttuvien asiakkaiden luomisessa, jos **Luo automaattisesti tuntemattomat asiakkaat** on otettu käyttöön. Jos **asiakasmallin koodi** on tyhjä, funktio käyttää **Asiakasmallin koodia**, joka on määritetty **Shopify-ostoskortissa**. Järjestelmä yrittää ensin etsiä oletusosoitteen **Maa-/aluekoodi**-mallin. Jos mallia ei löydy, se käyttää ensimmäistä osoitetta.
+3. Joissakin tapauksissa maalle määritetty **asiakasmallin koodi** ei riitä varmistamaan oikeita verolaskelmia (esimerkiksi maissa, joissa on käytössä arvonlisävero). Tässä tapauksessa **Veroalueen** sisällyttäminen voi olla hyödyllinen lisäys.
+4. **Veroalue**-kenttä sisältää myös **Maakoodi**- ja **Läänin nimi** -parin. Tämä pari on hyödyllinen, kun yhdistimen tarvitsee muuntaa koodi nimeksi tai päinvastoin.
 
 > [!NOTE]  
 > Maakoodit ovat ISO 3166-1 alpha-2-maakoodeja. Lisätietoja kohdassa [maakoodi](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).

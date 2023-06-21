@@ -1,16 +1,14 @@
 ---
 title: Erikoismyyntihintojen ja -alennusten kirjaaminen
 description: Tietoja myyntiasiakirjojen hinnoittelu- ja alennussopimusten määrittämisestä.
-author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
+ms.date: 06/13/2023
+ms.custom: bap-template
 ms.search.keywords: 'special price, alternate price, pricing'
 ms.search.form: '7022, 7024'
-ms.date: 06/03/2022
-ms.author: bholtorf
 ---
 
 # Erikoismyyntihintojen ja -alennusten kirjaaminen
@@ -22,7 +20,11 @@ ms.author: bholtorf
 
 * Yhtä hintaa käyttävät mallit, joissa nimikettä myydään aina samaan hintaan.
 * Erikoishintasopimukset tiettyjen asiakkaiden tai asiakasryhmien kanssa.
-* Kampanjat, kun myynti täyttää erikoistarjouksen ehdot. Kriteerinä voi olla esimerkiksi se, että tilaus täyttää minimimäärän, on ennen tiettyä päivämäärää tai sisältää tietyntyyppisen nimikkeen.  
+* Kampanjat, kun myynti täyttää erikoistarjouksen ehdot. Tilauksen ehdot voivat olla esimerkiksi seuraavat:
+
+  * Se täyttää vähimmäismäärän
+  * Se on ennen tiettyä päivämäärää
+  * Se sisältää tietyn tyyppisen nimikkeen  
 
 Perushintamallin käyttöä varten on määritettävä vain nimikkeen tai resurssin yksikköhinta. Kyseistä hintaa käytetään aina myyntiasiakirjoissa. Edistyneissä malleissa, kuten myyntikampanjan erikoishinnoissa, erikoishintojen ehdot voidaan määrittää **Myyntihinnat**-sivulla. Erikoishintoja voidaan tarjota seuraavien tietojen yhdistelmien perusteella:  
 
@@ -32,13 +34,13 @@ Perushintamallin käyttöä varten on määritettävä vain nimikkeen tai resurs
 * Vähimmäismäärä
 * Päivämäärät, jotka määrittävät ajanjakson, jolla hinnat ovat voimassa.
 
-Sen jälkeen kun erikoishinnat on määritetty, [!INCLUDE[prod_short](includes/prod_short.md)] voi laskea parhaat hinnat osto- ja myyntiasiakirjoissa sekä työ- ja nimikepäiväkirjan riveillä. Lisätietoja on kohdassa [Parhaan hinnan laskenta](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Sen jälkeen kun erikoishinnat on määritetty, [!INCLUDE[prod_short](includes/prod_short.md)] voi laskea parhaat hinnat myynti- ja ostoasiakirjoille sekä työ- ja nimikeasiakirjojen riveille. Lisätietoja on kohdassa [Parhaan hinnan laskenta](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Voit määrittää seuraavat kaksi myyntialennustyyppiä:
 
-| Alennustyyppi | Kuvaus |
+| Alennuksen tyyppi | Kuvaus |
 | --- | --- |
-| **Myyntirivin alennus** |Myyntiriveillä käytettävä summa, jos niissä on tietty asiakkaan, nimikkeen, vähimmäismäärän, mittayksikön sekä aloitus- ja lopetuspäivämäärän yhdistelmä. Tätä tyyppiä käytetään samoin kuin myyntihinnoissa. |
+| **Myyntirivin alennus** |Lisää summa myyntiriveille, joilla on tietty yhdistelmä asiakasta, tuotetta, vähimmäismäärää, mittayksikköä tai alku- ja loppupäivää. Tätä tyyppiä käytetään samoin kuin myyntihinnoissa. |
 | **Laskualennus** |Prosenttialennus, joka vähennetään kokonaissummasta, kun myyntiasiakirjan kaikkien rivien summa ylittää määritetyn vähimmäisarvon. |
 
 > [!TIP]  
@@ -85,22 +87,22 @@ Kun **Uusi myyntihinnoittelukokemus** -ominaisuuspäivitys otetaan käyttöön *
 
 * Jos haluat käyttää kaikkia hintoja yhdellä sivulla, ota se käyttöön. Aiemmin luodut hinnat muunnetaan yhdeksi oletushinnastoksi kullekin seuraavista asiakirjoista:
 
-    * Myynti
-    * Ostot
-    * Projektimyynti
-    * Projektiostot
+  * Myynti
+  * Ostot
+  * Projektimyynti
+  * Projektiostot
 
-    Kaikkien näiden alueiden hintoja voidaan muokata **Hintojen työkirja** -sivulla. Oletushinnastot määritetään **Myyntien ja myyntisaamisten asetukset**-, **Ostojen ja ostovelkojen asetukset**- ja **Projektienhallinnan asetukset** -sivuilla. 
+  Kaikkien näiden alueiden hintoja voidaan muokata **Hintojen työkirja** -sivulla. Oletushinnastot määritetään **Myyntien ja myyntisaamisten asetukset**-, **Ostojen ja ostovelkojen asetukset**- ja **Projektienhallinnan asetukset** -sivuilla.
 
 > [!NOTE]
 > Jos hinnat määritetään vain nimike- tai resurssikorteissa, kyseisiä hintoja ei täytetä oletushinnastoihin tietojen päivityksen aikana. Minkä tahansa oletushinnaston voi kuitenkin avata **Hintatyökirja**-sivulla ja nimike- tai resurssikorteissa määritetyt hinnat voidaan lisätä **Ehdota rivejä** -toiminnolla.
 
-* Myyntihinnastoja voidaan käyttää, poistamalla hinnasto käytöstä. Nykyiset hinnat muunnetaan uudeksi hinnastoksi jokaiselle seuraavien asioiden yhdistelmälle: 
+* Myyntihinnastoja voidaan käyttää, poistamalla hinnasto käytöstä. Nykyiset hinnat muunnetaan uudeksi hinnastoksi jokaiselle seuraavien asioiden yhdistelmälle:
 
-* Asiakas
-* Asiakasryhmä tai kampanja
-* Aloitus- ja lopetuspäivämäärät
-* Valuutat 
+  * Asiakas
+  * Asiakasryhmä tai kampanja
+  * Aloitus- ja lopetuspäivämäärät
+  * Valuutat
 
 Jos yhdistelmiä on useita, myös hinnastoja on useita.
 
@@ -166,9 +168,12 @@ Jos haluat kopioida myyntihintoja, kuten jonkin yksittäisen asiakkaan hintoja k
 
 #### [Uusi kokemus](#tab/new-experience/)  
 
-Voit määrittää, käyttävätkö uudet hinnastot kopioimasi luettelon otsikon asetuksia vai kopioitavan uuden luettelon asetuksia. Jos haluat käyttää sen hinnaston asetuksia, johon kopioit hinnat, ota käyttöön **Käytä oletusarvoja lähteestä** -vaihto.
+Voit määrittää hinnaston käyttöasetukset:
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntihinnastot** ja valitse sitten liittyvä linkki. 
+* Käytä kopioitavan luettelon otsikon asetuksia.
+* Käytä sen luettelon asetuksia, johon kopioit. Jos haluat käyttää sen hinnaston asetuksia, johon kopioit hinnat, ota käyttöön **Käytä oletusarvoja lähteestä** -vaihto.
+
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntihinnastot** ja valitse sitten liittyvä linkki.
 2. Valitse kopioitava hinnasto ja valitse sitten **Kopioi rivit**.
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -185,8 +190,17 @@ Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käytt
 
 Jos nimikehinnoille halutaan tehdä joukkopäivitys, kuten nostaa kaikkien nimikkeiden hintoja tietyllä prosenttiosuudella, Myyntihinnan työkirja -sivu voidaan täyttää seuraavilla erätöillä:
 
-* **Ehdota myyntihintaa työkirj.** Ehdottaa muutoksia kahdella tavalla. Joko käyttämällä muutoskerrointa aiemmin luoduissa myyntihinnoissa tai kopioimalla aiemmin luodut myyntihintasopimukset toisiin asiakkaisiin, asiakashintaryhmiin tai myyntikampanjoihin.
-* **Ehdota nimikehintaa työkirjaan** Ehdottaa muutoksia kahdella tavalla. Joko käyttämällä muuntokerrointa nimikekorttien aiemmin luoduissa yksikköhinnoissa tai ehdottamalla hintoja esimerkiksi uusille valuutta- ja mittayksikköyhdistelmille. Erätyö ei muuta nimikkeiden yksikkökohtaisia hintoja.  
+* **Ehdota myyntihintaa työkirj.** Ehdottaa muutoksia kahdella tavalla:
+
+  * Soveltamalla olemassa oleviin myyntihintoihin korjauskerrointa.
+  * Kopioimalla olemassa olevat myyntihintasopimukset toisiin asiakkaisiin, asiakashintaryhmiin tai myyntikampanjoihin.
+
+* **Ehdota nimikehintaa työkirj.** Ehdottaa muutoksia kahdella tavalla:
+
+  * Soveltamalla korjauskerrointa nimikekorttien nykyisiin yksikköhintoihin.
+  * Ehdottamalla hintoja uusille valuuttayhdistelmille, mittayksiköille ja niin edelleen.
+
+  Tämä erätyö ei muuta kohteiden yksikköhintoja.  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Myyntihintatyökirja** ja valitse sitten liittyvä linkki.  
 2. Valitse **Ehdota nimikehintaa työkirjaan** -toiminto.  
@@ -219,7 +233,7 @@ Paras hinta on alin hinta, jolla on suurin sallittu rivialennus tiettynä päiv�
 
     * Onko asiakkaalla hinta- tai alennussopimus tai kuuluuko asiakas ryhmään, jolla on tällainen sopimus on?
     * Kuuluuko rivillä oleva nimike tai nimikealennusryhmä johonkin näistä hinta- tai alennussopimuksista?
-    * Onko tilauspäivämäärä (tai laskun ja hyvityslaskun osalta kirjauspäivämäärä) hinta- tai alennussopimuksen aloitus- ja lopetuspäivämäärän välissä?
+    * Onko päivämäärä hinta-/alennussopimuksen alkamis- ja päättymispäivämäärän sisällä? Laskuissa ja hyvityslaskuissa päivämäärä on asiakirjan otsikon **Kirjauspvm**-kentässä. Kaikissa muissa asiakirjoissa on otsikkojen **Tilauspvm**-kentässä oleva päivämäärä.
     * Onko mittayksikön koodia määritelty? Jos on, [!INCLUDE[prod_short](includes/prod_short.md)] tarkastaa hinnat tai alennukset, joilla on sama mittayksikön koodi, ja hinnat tai alennukset, joilla ei ole mittayksikön koodia.
 
 2. [!INCLUDE[prod_short](includes/prod_short.md)] tarkistaa, sovelletaanko mitään hinta-/alennussopimuksia asiakirjan tai päiväkirjan rivin tietoihin. Sen jälkeen se lisää sovellettavan yksikköhinnan ja rivialennusprosentin käyttämällä seuraavia kriteereitä:

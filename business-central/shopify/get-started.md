@@ -60,7 +60,7 @@ Toista vaiheet 2-6 kaikille verkkokaupoille, jotka haluat yhdistää.
 
 - Selain estää ponnahdusikkunan. Kun **otat käyttöön** -vaihtonäppäimen [!INCLUDE [prod_short](../includes/prod_short.md)] avaa **Odotetaan vastausta - Älä sulje tätä sivua** -sivun, kun se odottaa Shopifyn käyttöoikeustunnusta. Jos sivu on suljettu tai estetty, et voi muodostaa yhteyttä Shopifyhin. Lisätietoja on kohdassa [pyydä käyttöoikeustunnusta](troubleshoot.md#request-the-access-token)
 - [Virhe: Oauth-virhe invalid_request: Shopify-sovellusrajapintasovellusta ei löytynyt haulla api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
-- [Yhteyttä ei voi muodostaa eritysympäristöstä](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
+- [Yhteyttä ei voi muodostaa eritysympäristöstä](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
 ## Seuraavat vaiheet
 
@@ -96,7 +96,11 @@ Jos sinun on käytettävä tätä määritystä, suosittelemme tarkistamaan ja t
 * **Shopify voi päivittää asiakkaita** -arvoksi ei päivitä nykyisiä asiakkaita
 * **Luo myyntitilaus automaattisesti** -arvoksi älä luo myyntitilauksia ja myyntilaskuja
 
+Lisätietoja on kohdassa [Ympäristön palautus](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
+
 ### Shopify-tuotanto ja Business Central -eristysympäristö
+
+Tietojen varmuuskopiointi kannattaa suorittaa. Voit esimerkiksi viedä tuotteita ja asiakkaita. Lisätietoja on kohdassa [Liikkeen tietojen varmuuskopiointi CSV-tiedostojen avulla](https://help.shopify.com/en/manual/shopify-admin/duplicate-store#using-csv-files-to-back-up-store-information).
 
 Poista **Poista Salli tietojen synkronointi Shopifyhin** -vaihtonäppäin käytöstä, jotta [!INCLUDE[prod_short](../includes/prod_short.md)] ei kirjoittaisi Shopifyhin. Tässä tapauksessa pystyt tuomaan tuotteita, kuvia, asiakkaita ja tilauksia Shopifysta. Et voi kuitenkaan lähettää nimikettä, hintoja, varastomääriä, asiakkaita tai täyttämistietoja Shopifyhin.
 
