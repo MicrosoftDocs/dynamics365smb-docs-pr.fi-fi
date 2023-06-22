@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Microsoft Dataverse -integroinnissa käytettävien käyttäjätilien määrittäminen
+# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse" />Microsoft Dataverse -integroinnissa käytettävien käyttäjätilien määrittäminen
 
 Tässä artikkelissa on yleiskatsaus [!INCLUDE[prod_short](includes/cds_long_md.md)]in ja [!INCLUDE[prod_short](includes/prod_short.md)]in integroinnissa tarvittavien käyttäjätilien määrittämisestä.
 
-## Järjestelmänvalvojan käyttäjätilin määrittäminen
+## <a name="set-up-the-administrator-user-account" />Järjestelmänvalvojan käyttäjätilin määrittäminen
 
 Järjestelmänvalvojan käyttäjätili [!INCLUDE[prod_short](includes/prod_short.md)]:ssä on lisättävä käyttäjänä [!INCLUDE[cds_long](includes/cds_long_md.md)]:een. Kun määrität yhteyden [!INCLUDE[prod_short](includes/prod_short.md)]- ja [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen välille, tätä tiliä käytetään kerran asennuksen ja joidenkin pakollisten osien määrityksen aikana.
 
@@ -23,7 +23,7 @@ Järjestelmänvalvojan käyttäjätili [!INCLUDE[prod_short](includes/prod_short
 >
 > Kun yhteyden määritys on tehty, tämä [!INCLUDE[prod_short](includes/cds_long_md.md)] -käyttäjä voidaan poistaa. Integrointi jatkaa integrointia varten automaattisesti luodun käyttäjätilin käyttämistä.
 
-## [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen käyttäjätilien käyttöoikeudet ja ja käyttöoikeusroolit
+## <a name="permissions-and-security-roles-for-user-accounts-in-includeprodshortincludescdslongmdmd" />[!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen käyttäjätilien käyttöoikeudet ja ja käyttöoikeusroolit
 
 Perusintegraatioratkaisu luo seuraavat roolit [!INCLUDE[cds_long](includes/cds_long_md.md)] -ohjelmassa integrointia varten:
 
@@ -39,10 +39,10 @@ Kun perusintegrointiratkaisua asennetaan, se määrittää integroinnin käyttä
 <!--
 The following tables list the minimum permissions for the user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### Minimum Permissions for the Administrator
+### <a name="minimum-permissions-for-the-administrator" />Minimum Permissions for the Administrator
 The following table displays the minimum permissions on each tab for each security role that is required for the administrator user.
 
-##### Customization
+##### <a name="customization" />Customization
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Model Driven App|Global|||Read|
@@ -54,17 +54,17 @@ The following table displays the minimum permissions on each tab for each securi
 |SDK Message Proessing Step Image|Global|Read|Read|Read|
 |System From|Global|||Write|
 
-##### Custom Entities
+##### <a name="custom-entities" />Custom Entities
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2020|
 |----|----|-----|----|----|
 |Business Central Account Statistics|Global|Read|Read|Read|
 |Business Central Connection|Global|Create, Read, Write, Delete|Create, Read, Write, Delete|Create, Read, Write, Delete|
 |Post Configuration|Global|||Write|
 
-### Minimum Permissions for automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user
+### <a name="minimum-permissions-for-automatically-created-includeprodshortincludesprodshortmd-integration-application-user" />Minimum Permissions for automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user
 The following table displays the minimum permissions on each tab for each security role that is required for the automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user.
 
-##### Core Records
+##### <a name="core-records" />Core Records
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Account|Global|Create, Read, Write, Append, Append To, Assign|Create, Read, Write, Append, Append To, Assign|Create, Read, Write, Append, Append To, Assign|
@@ -76,7 +76,7 @@ The following table displays the minimum permissions on each tab for each securi
 |Post|Global|||Create, Read, Append To|
 |User Entity UI|User|Create, Read, Write|Create, Read, Write|Create, Read, Write|
 
-##### Sales
+##### <a name="sales" />Sales
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Invoice|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
@@ -87,12 +87,12 @@ The following table displays the minimum permissions on each tab for each securi
 |Property Option Set Item|Global|Read|Read|Read|
 |Quote|Global|Read|Read|Read|
 
-##### Service
+##### <a name="service" />Service
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Case|Global|Read|Read|Read|
 
-##### Business Management
+##### <a name="business-management" />Business Management
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Currency|Global|Create, Read, Write|Create, Read, Write|Create, Read, Write|
@@ -102,7 +102,7 @@ The following table displays the minimum permissions on each tab for each securi
 |User Settings|Global|Create, Read, Write, Delete, Append To|Create, Read, Write, Delete, Append To|Create, Read, Write, Delete, Append To|
 |Act on Behalf of Another User|Global|Yes|Yes|Yes|
 
-##### Customization
+##### <a name="customization" />Customization
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Field|Global||Read|Read|
@@ -112,16 +112,16 @@ The following table displays the minimum permissions on each tab for each securi
 |SDK Message Processing Step|Global|Read|Read|Read|
 |Web Resource|Global|Read|Read|Read|
 
-##### Custom Entities
+##### <a name="custom-entities" />Custom Entities
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Dynamics 365 Business Central Account Statistics|Global|Create, Read, Write, Append To|Create, Read, Write, Append To|Create, Read, Write, Append To|
 |Dynamics 365 Business Central Connection|Global|Read|Read|Read|
 
-### Product Availability User
+### <a name="product-availability-user" />Product Availability User
 You can allow sales people to view inventory levels for the items they sell by granting them the permissions described in the following table.
 
-##### Custom Entities
+##### <a name="custom-entities" />Custom Entities
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Dynamics 365 Business Central Account Statistics|Global|Create, Read, Write, Append To|Create, Read, Write, Append To|Create, Read, Write, Append To|
@@ -129,7 +129,7 @@ You can allow sales people to view inventory levels for the items they sell by g
 
 -->
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Integrointi Microsoft Dataversein kanssa](admin-common-data-service.md)  
 [Dynamics 365 Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md)  

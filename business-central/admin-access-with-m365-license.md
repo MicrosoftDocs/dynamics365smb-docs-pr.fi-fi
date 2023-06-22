@@ -11,13 +11,13 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# Business Centralin käyttäminen Microsoft 365 -käyttöoikeuksilla
+# <a name="business-central-access-with-microsoft--licenses" />Business Centralin käyttäminen Microsoft 365 -käyttöoikeuksilla
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -käyttäjille annetaan Dynamics 365 Business Central -käyttöoikeus, jonka avulla he voivat tarkastella, muokata ja käsitellä liiketoimintatietojaan mistä tahansa käyttöliittymästä. Kaikille muille organisaation työntekijöille, joiden tarvitsee tarkastella tietoja vain ajoittain, Business Central tarjoaa käyttöoikeuden Microsoft 365:n kautta.  
 
 Kun organisaatiossa on sekä Dynamics 365 Business Central- että Microsoft 365 -tilaus, järjestelmänvalvojat voivat määrittää ympäristöt, jotka mahdollistavat Microsoft 365 -käyttöoikeuksien käyttämisen, ja valita, mitä taulukoita ja muita objekteja tämä käyttäjäryhmä voi käyttää. Konfiguroitaessa työntekijät, joilla on Microsoft 365 -käyttöoikeus mutta ei [!INCLUDE [prod_short](includes/prod_short.md)] -käyttöoikeutta, voivat tarkastella heille jaettuja [!INCLUDE [prod_short](includes/prod_short.md)] -tietueita Microsoft Teams -keskustelussa ja -kanavissa.
 
-## Miksi Microsoft 365 -käyttöoikeuksien käyttäminen tulisi ottaa käyttöön  
+## <a name="why-enable-access-with-microsoft--licenses" />Miksi Microsoft 365 -käyttöoikeuksien käyttäminen tulisi ottaa käyttöön
 
 - Salli kaikille organisaatioon kuuluville työntekijöille käyttöoikeus päätietoihin.
 
@@ -31,11 +31,11 @@ Kun organisaatiossa on sekä Dynamics 365 Business Central- että Microsoft 365 
 
 - Paranna tietoturvaa vähentämällä tarvetta liittää yritystietojen näyttökatkelmia tietohallinnon rajojen ulkopuolelle.
 
-## Käyttöoikeudet
+## <a name="use-rights" />Käyttöoikeudet
 
 Kun henkilö käyttää [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaa Microsoft 365 -käyttöoikeudella, tämä käyttöoikeus oikeuttaa käyttäjän lukemaan (mutta ei kirjoittamaan) [!INCLUDE [prod_short](includes/prod_short.md)] -tietoja yksinkertaistetun Microsoft Teams -käyttöliittymän kautta. Tässä osassa selitetään nämä käyttöoikeudet ja rajoitukset, joiden avulla voit suunnitella tämän ominaisuuden määrittämisen ja käytön. Lisätietoja tästä käyttöoikeustyypistä muihin [!INCLUDE [prod_short](includes/prod_short.md)] -käyttöoikeuksiin verrattuna on [Dynamics 365 -käyttöoikeusoppaassa](https://go.microsoft.com/fwlink/?LinkId=866544).
  
-### Asiakasohjelman käyttöoikeus
+### <a name="client-access" />Asiakasohjelman käyttöoikeus
 
 Käyttäjillä on oikeus käyttää [!INCLUDE [prod_short](includes/prod_short.md)] -tietoja Microsoft Teamsissa. Seuraavassa taulukossa on yhteenveto siitä, mitkä [!INCLUDE [prod_short](includes/prod_short.md)] -palvelun käyttämisen eri tavoista sallitaan tämän käyttöoikeuden yhteydessä.
 
@@ -48,15 +48,15 @@ Käyttäjillä on oikeus käyttää [!INCLUDE [prod_short](includes/prod_short.m
 |Business Centralin integrointi muihin Office-sovelluksiin|![Ei](media/x-icon.png )|
 |Business Central upotettu muihin sovelluksiin |![Ei](media/x-icon.png )|
 
-### Pääsy tietoihin
+### <a name="data-access" />Pääsy tietoihin
 
 Käyttäjillä on oikeus lukea taulukon tietoja, mutta he eivät voi muokata, luoda tai poistaa tietueita. [!INCLUDE [prod_short](includes/prod_short.md)] -ympäristö estää automaattisesti kirjoittamisen mihinkään tietotaulukoihin.  
 
-### Objektien käyttö
+### <a name="use-of-objects" />Objektien käyttö
 
 Microsoft 365 -käyttöoikeuksien käyttäminen ei rajoita sitä, mitä Business Centralin objekteja tai objektialueita voi käyttää. Käyttäjillä on oikeus käyttää Microsoftin perussovellusta ja kaikkia laajennuksia, kuten mukautuksia ja lisäsovelluksia.
 
-## Yksinkertaistettu käyttöliittymä
+## <a name="simplified-user-interface" />Yksinkertaistettu käyttöliittymä
 
 Käyttäjillä on oikeus vähennettyyn määrään [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman Microsoft Teams -käyttöön tarkoitettuja ominaisuuksia ja toimintoja. Alla olevissa taulukoissa on huomionarvoisia piirteitä. Luettelo ei ole tyhjentävä, ja se voi muuttua.
 
@@ -90,17 +90,17 @@ Käyttäjillä on oikeus vähennettyyn määrään [!INCLUDE [prod_short](includ
 |Sisäinen käyttäjäapu|![Kyllä](media/check.png) |Työkaluvihjeet, linkit asiakirjoihin|
 |Käyttäjäavun parannus |![Ei](media/x-icon.png )|Sivu- ja kenttäopetuksen vihjeet, ohje-ruutu|
 
-## Vähimmäisvaatimukset
+## <a name="minimum-requirements" />Vähimmäisvaatimukset
 
 Tässä osassa kuvataan vähimmäisvaatimukset, jotka organisaation on täytettävä, jotta Microsoft 365 -käyttöoikeudet voidaan sallia ja yksittäisten Microsoft Teams -käyttäjät voivat käyttää [!INCLUDE [prod_short](includes/prod_short.md)] -tietoja ilman [!INCLUDE [prod_short](includes/prod_short.md)] -lisenssiä.
 
-### Käyttöoikeuden käytön vaatimukset
+### <a name="requirements-to-enable-access" />Käyttöoikeuden käytön vaatimukset
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] online (SaaS).
 
 - Ympäristöjen on oltava alustaversiolla 21.1 tai uudempi.
 
-### Teamsin tietojen käyttöä koskevat vaatimukset yksittäisille käyttäjille
+### <a name="requirements-for-individual-users-to-access-data-in-teams" />Teamsin tietojen käyttöä koskevat vaatimukset yksittäisille käyttäjille
 
 - Tietoja on käytettävä Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen avulla. Käyttäjillä on oltava [!INCLUDE [prod_short](includes/prod_short.md)] -sovellus Teamsille asennettuna, ja niiden on käytettävä jotakin tuetuista Teams-asiakkaista. Luettelo Teams-asiakkaiden [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman tukemista selaimista on kohdassa [Business Centralin käyttämisen vähimmäisvaatimukset](product-requirements.md#teams).
 
@@ -138,11 +138,11 @@ Tässä osassa kuvataan vähimmäisvaatimukset, jotka organisaation on täytett�
 
 - Organisaatiossa on oltava vähintään toinen käyttäjä, jolle on määritetty Dynamics 365 Business Central -käyttöoikeus.
 
-## Seuraavat vaiheet
+## <a name="next-steps" />Seuraavat vaiheet
 
 - Saat käsityksen käyttäjän käyttötyönkulusta, jotta voit suunnitella Business Centralin lähestymistavan ja konfiguroinnin vastaamaan yrityksen tarpeita. Katso [Käyttöoikeustyönkulku](admin-access-with-m365-license-flow.md).
 - Määritä Microsoft 365 -käyttöoikeutesi ympäristöön ja käyttäjiin. Katso [Käytön määrittäminen Microsoft 365 -käyttöoikeuksien avulla ](admin-access-with-m365-license-setup.md).
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Business Centralin ja Microsoft Teamsin integraatio](across-teams-overview.md)  

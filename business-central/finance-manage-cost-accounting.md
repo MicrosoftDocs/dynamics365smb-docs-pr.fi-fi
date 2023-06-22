@@ -11,7 +11,7 @@ ms.search.form: 1123
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Kustannuslaskenta
+# <a name="accounting-for-costs" />Kustannuslaskenta
 Kustannuslaskennan avulla voit ymmärtää käynnissä olevan liiketoiminnan kustannuksia. Aloita Kustannuslaskenta katsomalla seuraavat aiheet.  
 
 |Tehtävä|Katso|  
@@ -24,9 +24,9 @@ Kustannuslaskennan avulla voit ymmärtää käynnissä olevan liiketoiminnan kus
 |Tutustu kustannusbudjetin luonnin prosesseihin.|[Kustannusbudjettien luominen](finance-create-cost-budgets.md)|
 |Peruutat kustannusbudjettitapahtumat kustannusbudjettirekisteristä.|[Kustannusbudjettitapahtumien poistaminen](finance-how-to-delete-cost-budget-entries.md)|
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsuse-cost-accounting-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
-## Katso myös  
+## <a name="see-also" />Katso myös
 [Rahoitus](finance.md)  
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

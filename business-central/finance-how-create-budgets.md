@@ -11,7 +11,7 @@ ms.search.form: '113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 921
 ms.date: 08/24/2022
 ms.author: edupont
 ---
-# KP-budjettien luominen
+# <a name="create-gl-budgets" />KP-budjettien luominen
 
 Sinulla voi olla useita budjetteja samalle ajanjaksolle, kun luot budjetit eri nimillä. Määrittele ensin budjetin nimi ja syötä budjettiluvut. Budjetin nimi tulee sitten kaikkiin luomiisi budjettitapahtumiin.  
 
@@ -21,7 +21,7 @@ Talousarviolla on tärkeä rooli liiketoiminnan älykkyyteen. Esimerkkejä ovat 
 
 Voit käsitellä kustannusbudjetteja samalla tavoin kustannuslaskennassa. Lisätietoja on kohdassa [Kulubudjettien luominen](finance-create-cost-budgets.md).  
 
-## Uuden KP-budjetin luominen
+## <a name="to-create-a-new-gl-budget" />Uuden KP-budjetin luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KP-budjetit** ja valitse sitten vastaava linkki.  
 2. Valitse **Muokkaa luetteloa** -toiminto, täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -36,7 +36,7 @@ Voit käsitellä kustannusbudjetteja samalla tavoin kustannuslaskennassa. Lisät
 > [!NOTE]  
 > **Suodattimet** -pikavälilehdessä voit suodattaa budjettitietoja sen mukaan, mitä budjettidimensioita olet luonut budjetin nimen alle.
 
-## KP-budjettien vieminen ja tuominen Excelissä
+## <a name="exporting-and-importing-gl-budgets-with-excel" />KP-budjettien vieminen ja tuominen Excelissä
 
 Niin kuin käytännössä kaikkia muitakin sivuja voit viedä budjettisivujen tiedot Microsoft Exceliin lisäkäsittelyä tai -analyysia varten. Lue lisää kohdasta [Liiketoimintatietojen vieminen Exceliin](about-export-data.md).
 
@@ -45,7 +45,7 @@ Niin kuin käytännössä kaikkia muitakin sivuja voit viedä budjettisivujen ti
 
 Siispä, kun tuot KP-budjetin, kaikki Otsikko-riveillä olevat arvot poistetaan. Tällä tavoin estetään virheelliset yhteissummat sen jälkeen, kun Excelissä luotuja tai muokattuja tietoja on tuotu.
 
-### Skenaario
+### <a name="scenario" />Skenaario
 
 Tiedät, että uudet budjetoidut palkkakustannukset tulevat olemaan paikallisena valuuttana (PVA:na) 1 200 000. Haluat antaa palkkaosaston budjetoida kolmelle erityiselle riville (kirjaustilityyppi) kokoaikaisille työntekijöille, osa-aikaisille työntekijöille ja tilapäiselle avustajalle. Nämä kolme riviä ryhmitellään Palkat-otsikkorivin kohdalle.
 
@@ -53,9 +53,9 @@ Lisää 1 200 000 Otsikko-riville, vie budjetti Exceliin ja lähetä se sitten p
 
 Palkkaosasto jakaa summan kolmelle kirjaustilille. Kun tuot KP-budjetin takaisin, uudet Excel-tiedot on täytetty kolmelle tilille. Niiden summa on PVA 1 200 000 ja otsikkorivi on tyhjä.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesbudgets-exchange-rates-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Liiketoimintatietojen vienti Exceliin](about-export-data.md)  
 [Rahoitus](finance.md)  

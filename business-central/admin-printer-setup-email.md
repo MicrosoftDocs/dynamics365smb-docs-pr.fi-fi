@@ -9,14 +9,14 @@ ms.topic: how-to
 ms.date: 01/26/2023
 ms.custom: bap-template
 ---
-# Sähköpostitulostuksen määrittäminen
+# <a name="set-up-email-printers" />Sähköpostitulostuksen määrittäminen
 
 Tässä artikkelissa käsitellään sähköpostitulostuksen määrittämistä [!INCLUDE[prod_short](includes/prod_short.md)]issa. [!INCLUDE[prod_short](includes/prod_short.md)] lähettää näissä tulostimissa tulostustyöt tulostimeen käyttämällä tulostimen sähköpostiosoitetta.
 
 > [!TIP]
 > Lisätietoja muista tulostinmahdollisuuksista on kohdassa [Tulostimien hallinnan yleiskatsaus](admin-printer-setup-overview.md). 
 
-## Vaatimukset
+## <a name="prerequisites" />Vaatimukset
 
 - [!INCLUDE[prod_short](includes/prod_short.md)]in vuoden 2020 1. julkaisuaalto tai uudempi
 - **Lähetä sähköpostitulostimeen** -laajennus on asennettu
@@ -26,7 +26,7 @@ Tässä artikkelissa käsitellään sähköpostitulostuksen määrittämistä [!
 
    Lisätietoja kohdassa [Sähköpostin määrittäminen](admin-how-setup-email.md).
 
-## Lisää sähköpostitulostin
+## <a name="add-an-email-printer" />Lisää sähköpostitulostin
 
 **Tulostimen hallinta** -sivulla on näkyvissä tällä hetkellä määritetyt tulostimet. Sivu antaa myös kunkin tulostimen **Asetukset**-sivun käyttöoikeuden. Sivulla voi muokata nykyisiä määrityksiä ja määrittää uuden tulostimen.
 
@@ -39,17 +39,17 @@ Tässä artikkelissa käsitellään sähköpostitulostuksen määrittämistä [!
     >
     > Huomaa, että sähköpostitulostinlaajennuksen oletusasetuksena on **A4**-paperikoko, joka ei ole käytössä esimerkiksi Pohjois-Amerikassa.
 
-## Tietosuojatiedot
+## <a name="privacy-notice" />Tietosuojatiedot
 
 Jos käytät sähköpostitulostinlaajennusta, kaikki tai jotkin tulostustyöt lähetetään tulostimelle määritettyyn sähköpostiosoitteeseen. Yksilöllinen sähköpostitunnus kannattaa yhdistää tulostinlaitteeseen käyttämällä vain virallisia laitevalmistajan tarjoamia palveluita. Valmistaja voi olla esimerkiksi HP ePrint, KonicaMinolta EveryonePrint tai Epson Email Print.
 
 Noudata varovaisuutta tietoturva-asioissa. Varmista esimerkiksi, että sähköpostitulostusratkaisun käyttöoikeudet, tietosuoja-asetukset ja tietojen säilyttämistä koskevat käytännöt on määritetty oikein. Vastuullasi on antaa oikea, varmistettu ja toimiva sähköpostiosoite. Lisätietoja on kohdassa [Microsoftin tietosuojatiedot](https://privacy.microsoft.com/privacystatement).
 
-## Seuraavat vaiheet
+## <a name="next-steps" />Seuraavat vaiheet
 
 [Oletustulostimien määrittäminen](ui-specify-printer-selection-reports.md)
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Tulostimien hallinnan yleiskatsaus](admin-printer-setup-overview.md)  
 [Yleistulostuksen määrittäminen](admin-printer-setup-universal-print.md)

@@ -8,45 +8,45 @@ ms.author: edupont
 ms.date: 02/23/2022
 ---
 
-# Dynamics 365 Business Central -kokeiluversion usein kysytyt kysymykset
+# <a name="dynamics--business-central-trial-faq" />Dynamics 365 Business Central -kokeiluversion usein kysytyt kysymykset
 
 [!INCLUDE [beethoven-trial](includes/beethoven-trial.md)]
 
-### Voiko kokeiluversion muuntaa maksulliseksi käyttöoikeudeksi?
+### <a name="can-i-convert-the-trial-to-a-paid-license" />Voiko kokeiluversion muuntaa maksulliseksi käyttöoikeudeksi?
 
 Kyllä saat. Lisätietoja on kohdassa [Tilauksen käytön aloittaminen](trial-signup.md#get-started-with-a-subscription).  
 
-### Mitkä rajoitukset ja kiintiöt koskevat kokeiluversiota?
+### <a name="what-are-the-trial-limits-and-quotas" />Mitkä rajoitukset ja kiintiöt koskevat kokeiluversiota?
 
 Maksuton kokeiluversio sisältää näytetietoja. Jos haluat kokeilla Business Centralia omilla tiedoillasi, voit vaihtaa maksuttomaan 30 päivän kokeiluversioon, jossa on tyhjä yritys. Järjestelmänvalvoja saa lisätietoja kokeiluversioista ja tilauksista [täältä](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
-### Miten kokeiluversion käyttö aloitetaan?
+### <a name="how-do-i-start-using-the-trial" />Miten kokeiluversion käyttö aloitetaan?
 
 Kun olet kirjautunut kokeiluversioon, saavut oletuskotisivulle. Kotisivulla on linkkejä joihinkin tavallisimpiin tehtäviin, ja voit käyttää tuotteen omia vihjeitä ja esittelyitä.  
 
 Avustavat asetusoppaat helpottavat aloittamista. Lisätietoja on ohjeaiheessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
 
-### Mitä ominaisuuksia kokeiluversiossa on käytettävissä?
+### <a name="what-features-are-available-in-the-trial" />Mitä ominaisuuksia kokeiluversiossa on käytettävissä?
 
 Maksuton kokeiluversio sisältää lähes kaikki laajan [!INCLUDE [prod_short](includes/prod_short.md)] -portfolion ominaisuudet. Lisätietoja on ohjeaiheessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
 
-### Miten kauan kokeiluversio kestää?
+### <a name="how-long-does-the-trial-last" />Miten kauan kokeiluversio kestää?
 
 Maksuton Business Central -kokeiluversio kestää niin kauan kuin haluat, kunhan jatkat sisäänkirjautumista. Mutta jos haluat käyttää omia tietojasi, sinun on siirryttävä 30 päivän kokeiluversioon.  
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-### Miten näytetiedot poistetaan kokeiluversiosta?
+### <a name="how-do-i-remove-sample-data-from-the-trial" />Miten näytetiedot poistetaan kokeiluversiosta?
 
 Siirry 30 päivän kokeiluversioon ja lisää sitten omat tietosi. Lisätietoja hallintasisällössä: [Paikallisten tietojen siirtäminen Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) -ohjelmaan (vain englanniksi).  
 
-### Miten näytetiedot palautetaan?
+### <a name="how-do-i-restore-sample-data" />Miten näytetiedot palautetaan?
 
 Se ei ole mahdollista. Jos poistat näytetiedot vahingossa, pyydä järjestelmänvalvojaa luomaan uusi eristysympäristö. Lisätietoja on hallintasisällön kohdassa [Tuotanto ja -eristysympäristöjen hallinta](/dynamics365/business-central/dev-itpro/administration/environment-types) (vain englanniksi).  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trial-dynamics-365-business-central/)
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Rekisteröidy maksuttoman Dynamics 365 Business Central kokeiluversion käyttäjäksi](trial-signup.md)  
 [Usein kysyttyjä kysymyksiä Business Centralin käyttämisestä](across-faq.yml)  

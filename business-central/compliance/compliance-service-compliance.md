@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.date: 06/14/2021
 ms.author: soalex
 ---
-# Palvelun yhteensopivuus
+# <a name="service-compliance" />Palvelun yhteensopivuus
 
 Tässä sisällössä on tietoja palvelun [!INCLUDE[prod_short](../includes/prod_short.md)] onlinea koskevasta yhteensopivuudesta.  
 
@@ -21,17 +21,17 @@ Yksityiskohtainen luettelo [Business Centralin pilvipalvelujen yhteensopivuuksis
 
 Jos haluat nähdä täydellisen luettelon Microsoftin yhteensopivuustuotteista, siirry [Microsoftin luottamuskeskukseen](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## Palvelun ehdot
+## <a name="service-terms" />Palvelun ehdot
 
 [!INCLUDE [service-terms](../includes/service-terms.md)]
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Yhteensopivuus](compliance-overview.md)  
 [Sovelluksen yhteensopivuus](compliance-application-compliance.md)  
 [Sertifikaatit](compliance-certifications.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

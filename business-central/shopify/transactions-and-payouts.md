@@ -10,13 +10,13 @@ ms.author: andreipa
 ms.reviewer: solsen
 ---
 
-# Tapahtumat ja maksut
+# <a name="transactions-and-payouts" />Tapahtumat ja maksut
 
 Kun asiakas suorittaa kassaprosessin loppuun verkkokaupassa, maksujen tiedot tallennetaan **tapahtumana**. Tilaukseen voi liittyä useita tapahtumia, esimerkiksi kun asiakas maksaa osan tilauksestaan lahjakortilla ja loput luottokortilla tai PayPalilla.
 
 Jos maksupalvelun tarjoajasi on Shopify Payment, näet tietoja asiakkailta saaduista maksuista maksupalvelun tarjoajan mukaan sekä Shopifysta pankkitilillesi lähetetyt maksut.
 
-## Tapahtumat
+## <a name="transactions" />Tapahtumat
 
 Shopifyssa tapahtuvat maksutapahtumat synkronoidaan tilausten kanssa ja näytetään **Shopify-tilaukset**-sivulla.
 
@@ -24,7 +24,7 @@ Tarkastellaksesi kaikkia tapahtumia, valitse ![Lamppu, joka avaa Kerro-ominaisuu
 
 Jos olet määrittänyt maksutapojen kartoituksen, luodulle myyntiasiakirjalle kohdistetaan maksutavan koodi. Lisätietoja on kohdassa [Maksutavan yhdistäminen](#payment-method-mapping).
 
-## Maksut
+## <a name="payouts" />Maksut
 
 Jos kauppasi käyttää Shopify Payment -palvelua, saat maksut **Shopify-maksuina**, kun asiakas maksaa käyttämällä Shopify Payments -palvelua ja nopeutettua kassaprosessia.
 
@@ -36,7 +36,7 @@ Tarkastellaksesi kaikkia maksuja, valitse ![Lamppu, joka avaa Kerro-ominaisuuden
 
 **Maksut** on tarkoitettu vain tiedonannoksi eivätkä ne vaikuta pääkirjanpitoon tai pankkikirjanpitoon, mutta ne voivat olla hyödyllisiä, kun tarkastat tiliotettasi.
 
-## Maksutavan yhdistäminen
+## <a name="payment-method-mapping" />Maksutavan yhdistäminen
 
 Täyttääksesi **Maksutapakoodin** myyntiasiakirjoille, jotka on automaattisesti tuotu Shopifysta, sinun tulee määrittää **Maksutavan yhdistämismääritys**.
 
@@ -50,7 +50,7 @@ Täyttääksesi **Maksutapakoodin** myyntiasiakirjoille, jotka on automaattisest
 > [!NOTE]  
 > Jos vastaavan maksutavan **Vastatilin tyyppi**- ja **Vastatilin nro** -kentät on täytetty [!INCLUDE[prod_short](../includes/prod_short.md)]issa, järjestelmä luo laskun kirjaamisen yhteydessä *Maksu*-tyyppisen vastatapahtuman ja lisää sen *Lasku*-tyyppiin asiakkaan kirjanpitotapahtumassa.
 
-## Käyttötapaukset
+## <a name="use-cases" />Käyttötapaukset
   
 Osapuolet:
 
@@ -58,7 +58,7 @@ Osapuolet:
 * Myyjä - yrityksesi.
 * Maksupalvelun tarjoaja - yritys, joka helpottaa maksujen käsittelemistä puolestasi. Voi olla Shopify Payments tai kolmas osapuoli.
 
-### Miten raha liikkuu
+### <a name="how-money-flows" />Miten raha liikkuu
 
 Ostaja ostaa tuotteita verkkokaupastamme. Viimeinen vaihe on maksujen käsitteleminen.
 
@@ -75,7 +75,7 @@ Pankista riippuen myyjä näkee tämän saapuvan tapahtuman pankkitilillään ve
 
 Maksutapahtumia käsitellään useilla eri tavoilla [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa
   
-### Vaihtoehto 1: Täsmäytä saapuvat siirrot pankkitiliin alkuperäisten laskujen mukaan
+### <a name="option--reconcile-incoming-transfers-to-bank-account-against-original-invoices" />Vaihtoehto 1: Täsmäytä saapuvat siirrot pankkitiliin alkuperäisten laskujen mukaan
   
 Myyjä tuo myyntitilauksen [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmaan ja kirjaa toimituksen ja laskun.
 
@@ -88,7 +88,7 @@ Ongelmat:
 1. Voi olla vaikeaa, jos on olemassa useita laskuja (ja hyvityslaskuja), mutta yksi kertasuoritus maksupalvelun tarjoajalta.
 2. Summa ei yleensä täsmää komission vuoksi. Maksutoleranssin tai/ja maksualennuksen avulla voit käsitellä maksuja.
 
-### Vaihtoehto 2: Täsmäytä pankkitilille saapuvat siirrot maksupalvelun tarjoajan rahaa edustavan välitilin kanssa
+### <a name="option--reconcile-incoming-transfers-to-bank-account-against-interim-account-representing-money-at-the-payment-provider" />Vaihtoehto 2: Täsmäytä pankkitilille saapuvat siirrot maksupalvelun tarjoajan rahaa edustavan välitilin kanssa
   
 Myyjä tuo myyntitilauksen [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmaan ja kirjaa toimituksen ja laskun.
   
@@ -117,6 +117,6 @@ Ongelmat:
 
 1. Voit luoda useampia KP- tai pankkitunnuksia, jos käsittelet useaa maksupalvelun tarjoajaa. Myyntitilaukset [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa tukevat kuitenkin vain yhtä maksutapakoodia, mikä vaikeuttaa tapausten käsittelyä, kun ostaja käyttää useita tilauksen maksutapoja.
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Shopifyn yhdistimen käytön aloittaminen](get-started.md)  

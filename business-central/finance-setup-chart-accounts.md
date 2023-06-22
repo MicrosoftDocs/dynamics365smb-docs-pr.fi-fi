@@ -11,14 +11,14 @@ ms.search.form: '16, 17, 18, 118, 386, 391'
 ms.date: 01/21/2022
 ms.author: edupont
 ---
-# Tilikartan määrittäminen tai muuttaminen
+# <a name="set-up-or-change-the-chart-of-accounts" />Tilikartan määrittäminen tai muuttaminen
 
 Tilikartta näyttää ne kirjanpidon tilit, joihin on tallennettu taloustietoja. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää tilikartan, joka on valmis tukemaan liiketoimintaasi. Voit kuitenkin muuttaa oletustilejä ja lisätä uusia tilejä.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## Lisää tai muuta tilejä
+## <a name="add-or-change-accounts" />Lisää tai muuta tilejä
 
 Voit avata kunkin tilin pääkirjanpidon (KP) tilin tilikartasta ja lisätä tai muuttaa asetuksia. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,7 +29,7 @@ Tarvittaessa voit käyttää useita rivejä KP-tilin nimeä varten. Valitse **KP
 > [!IMPORTANT]
 > Jos olet syöttänyt määritelmiä **Summausväli**-kentässä **Loppusumma**-tileille ennen sisentämistä, sinun täytyy syöttää ne uudestaan, koska Sisennys-toiminto korvaa kaikki arvot **Loppusumma**-kentässä.
 
-## Poista tilejä
+## <a name="delete-accounts" />Poista tilejä
 
 Voit poistaa pääkirjanpitotilin. Ennen sen poistamista seuraavien on kuitenkin toteuduttava:  
 
@@ -39,7 +39,7 @@ Voit poistaa pääkirjanpitotilin. Ennen sen poistamista seuraavien on kuitenkin
 
 [!INCLUDE[prod_short](includes/prod_short.md)] estää tilikartassa tarvittavia tietoja sisältävän pääkirjanpitotilin poistamisen.  
 
-## Estä KP-tilien poisto
+## <a name="block-deletion-of-gl-accounts" />Estä KP-tilien poisto
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -49,9 +49,9 @@ Vuoden 2022 2. julkaisuaalto sisältää ylimääräisen suojauksen, ettei KP-ti
 
 Paras käytäntö on määrittää **Estä KP-tilien poisto** -kentän arvoksi *Kyllä* ja **Tarkista, voidaanko KP-tili poistaa tämän jälkeen** -kentän arvoksi esimerkiksi päivämäärä, johon mennessä taloustiedot on tallennettava.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/chart-accounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschart-accounts-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  
@@ -65,6 +65,6 @@ Paras käytäntö on määrittää **Estä KP-tilien poisto** -kentän arvoksi *
 [Määritä ja sulje tuloslaskelmasaldot espanjalaisessa versiossa](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)  
 [Tilikartan sisentäminen ja vahvistaminen espanjalaisessa versiossa](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

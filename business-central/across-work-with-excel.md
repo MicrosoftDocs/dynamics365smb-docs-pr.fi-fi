@@ -10,11 +10,11 @@ ms.search.keywords: 'accountant, accounting, financial report'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Näyttäminen ja muokkaaminen Excelissä Business Centralista
+# <a name="viewing-and-editing-in-excel-from-business-central" />Näyttäminen ja muokkaaminen Excelissä Business Centralista
 
 Jos sinulla on riveille ja sarakkeisiin sijoittava tietueluettelo, kuten asiakas-, myyntitilaus- tai laskuluettelo, voit tuoda luettelon Microsoft Exceliin ja tarkastella sitä siellä. Sivusta riippuen Excelissä tarkastelemiseen on kaksi vaihtoehtoa. Kumpikin vaihtoehto on käytettävissä **Jaa**-kuvakkeesta ![Jaa sivu toisessa sovelluksessa.](media/share-icon.png) sivun yläreunassa. Voit valita sivulla joko **Avaa Excelissä**- tai **Muokkaa Excelissä** -toiminnon. Tässä artikkelissa selitetään nämä kaksi toimintoa.
 
-## Avaa Excelissä
+## <a name="open-in-excel" />Avaa Excelissä
 
 **Avaa Excelissä** -toiminnon avulla voit tehdä muutoksia tietueisiin Excelissä, mutta et voi julkaista muutoksia takaisin [!INCLUDE[prod_short](includes/prod_short.md)]iin. Muutokset voi tallentaa vain Excel-tiedostoon vaikuttamatta [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman tietoihin.
 
@@ -32,7 +32,7 @@ Jos sinulla on riveille ja sarakkeisiin sijoittava tietueluettelo, kuten asiakas
 > Excelissä sarakkeiden kokonaisluvuissa desimaalierotin on lopussa (kuten piste `.` tai pilkku `,`), vaikka desimaalierotin ei näy Business Centralissa. Desimaalierotin määräytyy laitteen alueasetusten mukaan. Esimerkiksi `10` näkyy Business Centralissa muodossa `10.` ja Excelissä `10,`. Muodon voi vaihtaa Excelissä valitsemalla ensin arvot ja sitten näppäinyhdistelmän <kbd>Ctrl</kbd>+<kbd>1</kbd>. Lisätietoja lukujen muotoilun muuttamista Excelissä on kohdassa [Lukujen muotoileminen](https://support.microsoft.com/office/format-numbers-f27f865b-2dc5-4970-b289-5286be8b994a).
 
 
-## Muokkaa Excelissä
+## <a name="edit-in-excel" />Muokkaa Excelissä
 
 **Muokkaa Excelissä** -toiminto on käytettävissä useimmissa luetteloissa, mutta ei kaikissa. **Muokkaa Excelissä** -toiminnon avulla voit tehdä muutoksia tietueisiin Excelissä ja voit julkaista muutokset takaisin [!INCLUDE[prod_short](includes/prod_short.md)]iin. Kun Excel avautuu, **Excel-apuohjelma** -ruutu näkyy oikealla.
 
@@ -41,13 +41,13 @@ Jos sinulla on riveille ja sarakkeisiin sijoittava tietueluettelo, kuten asiakas
 - Voit hakea uusimmat tiedot [!INCLUDE[prod_short](includes/prod_short.md)]ista valitsemalla Excelin apuohjelmaruudussa **Päivitä**.
 - [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
-### Ensimmäinen sisäänkirjautuminen
+### <a name="first-time-sign-in" />Ensimmäinen sisäänkirjautuminen
 
 **Muokkaa Excelissä** -toiminto edellyttää, että Business Central -apuohjelma on asennettu Exceliin. Joissakin tapauksissa järjestelmänvalvoja on saattanut määrittää apuohjelman asentumaan automaattisesti puolestasi. Tässä tapauksessa sinun tarvitsee vain kirjautua Business Centraliin **Excel-apuohjelma** -ruudussa käyttäjänimesi ja salasanasi avulla. Muussa tapauksessa **Uusi Office-apuohjelma** -ruutu avautuu. Jos käyttäjä haluaa asentaa apuohjelman, valitse **Luota tähän apuohjelmaan**, joka asentaa apuohjelman suoraan Office-kaupasta.
 
 Jos apuohjelma ei asennu, ota joko yhteyttä ylläpitäjään tai yritä asentaa se manuaalisesti. Lisätietoja:[ Asenna apuohjelma manuaalisesti omaan käyttöön](admin-deploy-excel-addin.md#install).
 
-### Ympäristöjen ja yritysten välinen yhteistyö
+### <a name="work-across-environments-and-companies" />Ympäristöjen ja yritysten välinen yhteistyö
 
 Voit vaihtaa käytössä olevaa yritystä. Voit vaihtaa yrityksen valitsemalla **Asetukset**-kuvakkeen ![Excelin apuohjelma-asetukset.](media/cogwheel.png "Excel-apuohjelman asetukset") Excelin apuohjelmaruudussa ja valitsemalla yrityksen **Yritys**-kentästä.  
 
@@ -61,18 +61,18 @@ Jos apuohjelmaan tehdään muutoksia, yhteyden päivittäminen edellyttää sen 
 >
 > **Muokkaa Excelissä** -toiminto on käytettävissä paikallisessa [!INCLUDE[prod_short](includes/prod_short.md)] -versiossa vain, jos järjestelmänvalvoja on määrittänyt Excel-apuohjelman. Se on käytettävissä vain WWW-asiakasohjelmassa. Järjestelmänvalvojille on lisätietoja Excel-apuohjelman asentamisesta kohdassa [Excel-apuohjelman määrittäminen Business Central -tietojen muokkaamiseen](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
-### Rajoituksia käytettäessä Exceliä verkossa 
+### <a name="limits-when-using-excel-for-the-web" />Rajoituksia käytettäessä Exceliä verkossa
 
 Kun **Muokkaa Excelissä** -ohjelmaa käytetään luettelosivuilla, joilla on useita sarakkeita, tuloksena olevassa työkirjassa voi olla liian monta saraketta, jotta tiedostoa voisi tarkastella Excelissä verkossa. [!INCLUDE[prod_short](includes/prod_short.md)] rajoittaa viedyn työkirjan automaattisesti sataan sarakkeeseen, kun OneDrive on määritetty järjestelmän ominaisuuksille. 
 
-## Vaihtoehtojen välisiin eroihin tutustuminen
+## <a name="see-the-differences-between-the-options" />Vaihtoehtojen välisiin eroihin tutustuminen
 <br><br>  
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md)  
 [Business Centralin käyttäminen](ui-work-product.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Määritä monimutkaiset sovellusalueet käyttäen parhaita käytäntöjä
+# <a name="set-up-complex-application-areas-using-best-practices" />Määritä monimutkaiset sovellusalueet käyttäen parhaita käytäntöjä
 Uuden liiketoimintaohjelmiston toimivuuden vuoksi on tärkeää, että annettavat asetusarvot ovat oikein heti alusta alkaen.  
 
  Riippumatta siitä, otatko asetusarvot käyttöön RapidStart-määrityksellä vai annatko ne manuaalisesti uudessa yrityksessä, voit tukea määrityspäätöksiäsi tietyillä yleisillä suosituksilla sellaisissa määrityskentissä, joiden tiedetään voivan heikentää ratkaisun toimintaa, jos ne määritetään virheellisesti.  
@@ -21,12 +21,12 @@ Uuden liiketoimintaohjelmiston toimivuuden vuoksi on tärkeää, että annettava
 
 -   [Parhaiden käytäntöjen määrittäminen: Arvostusmenetelmä](setup-best-practices-costing-method.md)  
 
-## Katso myös  
+## <a name="see-also" />Katso myös
 [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
 [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

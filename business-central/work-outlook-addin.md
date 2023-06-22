@@ -10,7 +10,7 @@ ms.search.keywords: 'SMTP, mail, Microsoft 365'
 ms.date: 04/21/2022
 ms.author: jswymer
 ---
-# Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa
+# <a name="use-business-central-as-your-business-inbox-in-outlook" />Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tarjoaa apuohjelman, jonka avulla voit hallita liiketoiminnallisia vuorovaikutuksia asiakkaiden ja toimittajien kanssa suoraan Microsoft Outlookista. [!INCLUDE[prod_short](includes/prod_short.md)]in Outlook-apuohjelman avulla voit tarkastella asiakkaisiin ja toimittajiin liittyviä taloustietoja sekä luoda ja lähettää talousasiakirjoja, kuten tarjouksia ja laskuja.
 
@@ -24,7 +24,7 @@ ms.author: jswymer
 
    Kun sähköpostin tekstissä lähetetään liiketoiminta-asiakirja, tämä apuohjelma antaa sähköpostiviestistä suoran linkin varsinaiseen liiketoiminta-asiakirjaan [!INCLUDE[prod_short](includes/prod_short.md)]issa.
 
-## Aloitus
+## <a name="get-started" />Aloitus
 
 1. Ensimmäinen asia on saada [!INCLUDE[prod_short](includes/prod_short.md)] -apuohjelma asennettua Outlookiin. Järjestelmänvalvoja on saattanut jo asentaa apuohjelman puolestasi. Jos et ole varma, tarkista asia järjestelmänvalvojalta tai katso seuraava vaihe ja tarkista, onko se asennettu.
 
@@ -45,7 +45,7 @@ Kun käytät ensimmäistä kertaa apuohjelmaa, [!INCLUDE[prod_short](includes/pr
 
 Lisätietoja on kohdassa [Outlook-verkkoversion apuohjelmien käyttäminen](https://support.office.com/article/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?ns=OLWAO365B&version=16).  
 
-## Kontaktien ja asiakirjojen käsitteleminen kontaktin Kontaktin tiedot -apuohjelman avulla
+## <a name="work-with-contacts-and-documents-using-the-contact-insights-add-in" />Kontaktien ja asiakirjojen käsitteleminen kontaktin Kontaktin tiedot -apuohjelman avulla
 
 Oletetaan, että saat sähköpostiviestin asiakkaalta, joka haluaa tarjouksen tietyistä nimikkeistä. Voit avata [!INCLUDE[prod_short](includes/prod_short.md)] -apuohjelman suoraan Outlookissa, jossa lähettäjä tunnistetaan asiakkaaksi ja yrityksen asiakaskortti avataan. Tässä koontinäytössä näytetään asiakkaan yleiskuvauksen tiedot. Koontinäytössä voit myös siirtyä tiettyjen asiakirjojen lisätietoihin. Voit siirtyä tarkastelemaan myös asiakkaan myyntihistoriaa. Jos kyseessä on uusi yhteyshenkilö, voit luoda uuden asiakkaan [!INCLUDE[prod_short](includes/prod_short.md)]issa Outlookista poistumatta.  
 
@@ -58,7 +58,7 @@ Joskus haluat nähdä enemmän kenttiä kuin lisäohjelmassa on. Näin voi tapah
 > [!TIP]
 > Tehtävät selittävät, kuinka apuohjelmaa käytetään sähköpostiviestissä. Voit kuitenkin tehdä saman Outlook-kalenteritapaamisista.
 
-### Työyhteyshenkilön haku sähköpostiviestin kirjoittamisen yhteydessä
+### <a name="look-up-a-business-contact-when-composing-an-email" />Työyhteyshenkilön haku sähköpostiviestin kirjoittamisen yhteydessä
 
 1. Luo uusi sähköpostiviesti
 2. Etsi **[!INCLUDE[prod_short](includes/prod_short.md)]** valintanauhasta ja valitse **Yhteystietojen tiedot**. Jos käytät Outlookia verkossa, valitse sähköpostiviestin alareunasta ![Outlookin Business Central -apuohjelman kuvake.](media/outlook-business-central-icon.png) > **Kontaktien tiedot**
@@ -66,7 +66,7 @@ Joskus haluat nähdä enemmän kenttiä kuin lisäohjelmassa on. Näin voi tapah
 
     Ruudussa näkyy kontaktin yleiskuvaus, ja kontakti lisätään sähköpostin **Vastaanottaja**-riville.
 
-### Yhteystietojen tarkasteleminen ja muuttaminen tai yrityksen vaihtaminen
+### <a name="view-and-change-the-contact-details-or-switch-company" />Yhteystietojen tarkasteleminen ja muuttaminen tai yrityksen vaihtaminen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -apuohjelmaruudun yläosassa olevassa toimintopalkissa on useita toimintoja, joiden avulla saat kaivautua syvemmälle kontaktin yksityiskohtiin ja muuttaa asioita.
 
@@ -74,7 +74,7 @@ Joskus haluat nähdä enemmän kenttiä kuin lisäohjelmassa on. Näin voi tapah
 
 Voit esimerkiksi avata täydelliset kontaktitiedot niin kuin ne näkisit [!INCLUDE[prod_short](includes/prod_short.md)]issa. Jos työskentelet useamman kuin yhden [!INCLUDE[prod_short](includes/prod_short.md)] -yrityksen kanssa, voit helposti vaihtaa yritysten välillä.
 
-### Saapuvien asiakirjojen seuranta
+### <a name="track-incoming-documents" />Saapuvien asiakirjojen seuranta
 
 Ehkä käytät **Saapuvat asiakirjat** -luetteloa [!INCLUDE[prod_short](includes/prod_short.md)]issa, kun haluat seurata asiakirjoja, joita toimittajat lähettävät, kuten ostolasku, joka täytyy maksaa. Jos teet näin, voit helposti luoda Saapuvat asiakirjat -tietueita Outlook-apuohjelmasta ja sisällyttää sähköpostin liitteet.
 
@@ -82,13 +82,13 @@ Ehkä käytät **Saapuvat asiakirjat** -luetteloa [!INCLUDE[prod_short](includes
 
 2. Valitse apuohjelman toimintopalkissa **Näytä lisää toimintoja** ja valitse **Lähetä saapuviin asiakirjoihin...** -toiminto.  
 
-### Uuden asiakirjan luominen ja lähettäminen kontaktille
+### <a name="create-and-send-new-document-to-a-contact" />Uuden asiakirjan luominen ja lähettäminen kontaktille
 
 1. Valitse valintanauhassa tai sähköpostiviestin alaosassa ![Outlookin Business Central -apuohjelman kuvake.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]** > **Uusi** ja valitse luotavan asiakirjan tyyppi, esimerkiksi **Myyntitarjous**.
 2. Tee muutokset asiakirjaan **[!INCLUDE[prod_short](includes/prod_short.md)]** -lisäosan ruudussa.
 3. Kun asiakirja on valmis lähetettäväksi kontaktille, valitse toimintopalkissa **Näytä lisää toimintoja** ja valitse **Lähetä sähköpostilla** -toiminto.
 
-### Liitä tiedostoja tietueisiin
+### <a name="attach-files-to-records" />Liitä tiedostoja tietueisiin
 
 Sähköpostisi Saapuneet-kansio toimii usein saapuvien tiedostojen lähteenä, kun työnkulkuja käynnistetään tai niiden esto poistetaan. Tiedostot voivat sisältää esimerkiksi PDF-laskun maksuja, valokuvia tavaroista tai Word-asiakirjan vaatimuksia. Kun työskentelet Outlookissa Business Centralin tietueiden, kuten toimittajien, asiakkaiden, ostolaskujen tai myyntitilausten, parissa, voit liittää nämä tiedostot tietueisiin.
 
@@ -98,7 +98,7 @@ Voit liittää tiedostoja muutamalla eri tavalla. Yksi tapa on ladata tiedostoja
 
 Kun asiakirja on liitetty, työtoverit voivat ladata ja tarkastella tiedostoa minkä tahansa Business Central -asiakkaan **Liitteet**-tietoruudussa. He voivat myös avata tiedoston kohteessa OneDrive ja jakaa ja tehdä yhteistyötä osastonsa kanssa.
 
-#### Tiedoston liittäminen
+#### <a name="how-to-attach-a-file" />Tiedoston liittäminen
 
 1. Avaa sähköpostiviesti, valitse ![Outlookin Business Central -apuohjelman kuvake.](media/outlook-business-central-icon.png) **[!INCLUDE[prod_short](includes/prod_short.md)]**  > **Kontaktien tiedot**.
 2. Valitse apuohjelman toimintopalkissa **Näytä lisää toimintoja** > **Liitteet**.
@@ -112,7 +112,7 @@ Kun asiakirja on liitetty, työtoverit voivat ladata ja tarkastella tiedostoa mi
 > [!NOTE]
 > Et voi liittää tiedostoja kaikkiin tietueisiin. Tämä ominaisuus on käytettävissä tietueissa, jotka käyttävät **Liitteet**-tietoruutua, kuten toimittajaa, asiakasta, ostolaskua tai myyntitilausta.
 
-## Asiakirjan tarkasteleminen sähköpostiviestistä Asiakirjanäkymä-apuohjelman avulla
+## <a name="view-a-document-from-an-email-using-the-document-view-add-in" />Asiakirjan tarkasteleminen sähköpostiviestistä Asiakirjanäkymä-apuohjelman avulla
 
 Olipa kyseessä sähköpostiviesti, jonka olet lähettänyt tai vastaanottanut, voit näyttää minkä tahansa [!INCLUDE[prod_short](includes/prod_short.md)] -asiakirjan, kuten myyntitarjouksen, suoraan Outlookissa. Sieltä voit tehdä muutoksia ja navigoida liittyviin tietoihin &mdash; aivan kuten [!INCLUDE[prod_short](includes/prod_short.md)]issa.
 
@@ -122,9 +122,9 @@ Jos käytät Outlook-sovellusta, valitse vain sähköpostiviestin yläosassa **A
 > Alkaen vuoden 2022 julkaisuaallosta 1, asiakirjat avautuvat uuteen selainikkunaan kaikilla ominaisuuksilla, jotka ovat tuttuja kohteesta [!INCLUDE [prod_short](includes/prod_short.md)]. Voit siirtyä asiakirjasta luetteloon ja takaisin, avata luetteloita Excelissä, lähettää asiakirjat tulostettavaksi sekä suorittaa tai esikatsella liittyviä raportteja. Myös kaikki tutut pikanäppäimet ovat saatavilla, kun avaat asiakirjoja Outlookista.  
 
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Business Centralin hakeminen omaan mobiililaitteeseen](install-mobile-app.md)  

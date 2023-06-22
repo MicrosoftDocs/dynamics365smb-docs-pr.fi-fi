@@ -8,7 +8,7 @@ ms.search.form: 9171
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Profiilien sivujen mukauttaminen
+# <a name="customize-pages-for-profiles" />Profiilien sivujen mukauttaminen
 
 Käyttäjät voivat mukauttaa työtilan muodostavia sivuja omien mieltymystensä mukaisesti. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
@@ -19,7 +19,7 @@ Järjestelmänvalvojat voivat mukauttaa profiilin sivuja liittyvän liiketoimint
 
 Sivun mukauttaminen aloitetaan **Profiilit (roolit)** -sivulla, josta järjestelmänvalvojat aloittavat yksittäisten profiilikorttien käyttäjien profiilien hallinnan. Sivun asettelun mukauttamisen lisäksi voi kunkin profiilin **Profiili (rooli)** -sivulla voi hallita useita muita profiilien asetuksia. Lisätietoja on kohdassa [Profiilien hallinta](admin-users-profiles-roles.md).
 
-## Profiilin sivujen mukauttaminen
+## <a name="to-customize-pages-for-a-profile" />Profiilin sivujen mukauttaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Profiilit (Roolit)** ja valitse sitten vastaava linkki.
 2. Valitse ensin sen profiilin rivi, jonka sivuja haluat mukauttaa, ja valitse sitten **Muokkaa**-toiminto.
@@ -37,7 +37,7 @@ Sivun mukauttaminen aloitetaan **Profiilit (roolit)** -sivulla, josta järjestel
 
 Sivujen mukauttaminen on nyt tallennettu profiiliin.
 
-## Kaikkien profiilin mukautettujen sivujen näyttäminen
+## <a name="to-view-all-customized-pages-for-a-profile" />Kaikkien profiilin mukautettujen sivujen näyttäminen
 
 Saat tarvittaessa yleiskuvan profiiliin mukautetuista sivuista, mikä auttaa suunnittelemaan esimerkiksi sivujen lisämukautuksia tai poistamisia.
 
@@ -45,7 +45,7 @@ Saat tarvittaessa yleiskuvan profiiliin mukautetuista sivuista, mikä auttaa suu
 
 **Mukautetut sivut** -sivulla voit poistaa mukautuksia ja tehdä vian määrityksen tarkistamalla mahdolliset ongelmat.  
 
-## Profiilin kaikkien mukautusten poistaminen
+## <a name="to-delete-all-customizations-for-a-profile" />Profiilin kaikkien mukautusten poistaminen
 
 Voit peruuttaa kaikki profiiliin tehdyt mukautukset. Laajennukseen perustuvia mukautuksia ja käyttäjän tekemiä mukautuksia ei poisteta. Voit poistaa kaikki mukautukset toisella toiminnolla. Lisätietoja on kohdassa [Kaikkien käyttäjän tekemien mukautusten poistaminen](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
@@ -53,7 +53,7 @@ Voit peruuttaa kaikki profiiliin tehdyt mukautukset. Laajennukseen perustuvia mu
 
 Profiilin sivujen asetteluksi palautetaan oletusasettelu.  
 
-## Profiilin tiettyjen sivujen mukautusten poistaminen
+## <a name="to-delete-customization-for-specific-pages-for-a-profile" />Profiilin tiettyjen sivujen mukautusten poistaminen
 
 Voit poistaa profiilin yksittäisen sivun mukautukset. Laajennukseen perustuvia mukautuksia ja käyttäjän tekemiä mukautuksia ei poisteta. Voit poistaa tietyn sivun mukautukset toisella toiminnolla. Lisätietoja on kohdassa [Tiettyjen sivujen mukautusten poistaminen](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
@@ -62,9 +62,9 @@ Voit poistaa profiilin yksittäisen sivun mukautukset. Laajennukseen perustuvia 
 
 Valitun sivun asettelu muutetaan vastaamaan tekemiäsi muutoksia.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-trainingtrainingpathstailor-roles-design-ui" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/tailor-roles-design-ui/)
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Työtilan mukauttaminen](ui-personalization-user.md)  
 [Profiilien hallinta](admin-users-profiles-roles.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: 'SMTP, mail, Microsoft 365, setup, wizard, experience'
 ms.date: 05/25/2022
 ms.author: edupont
 ---
-# Valmistautuminen liiketoimintaan
+# <a name="get-ready-for-doing-business" />Valmistautuminen liiketoimintaan
 
 Olet juuri aloittanut ensimmäisen yrityksen [!INCLUDE[prod_short](includes/prod_short.md)]issa.
 
@@ -23,7 +23,7 @@ Löydät myös luettelon asetusten ohjatun määrityksen oppaista, jos valitset 
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## Aloitus
+## <a name="get-started" />Aloitus
 
 **Aloitus**-tarkistusluettelo opastaa toiminnan käytön aloittamisessa ensimmäisen kirjautumisen yhteydessä tai käynnistettäessä uusi yritys ensimmäisen kerran. Opastus vaihtelee maittain ja mahdollisten [!INCLUDE [prod_short](includes/prod_short.md)]iin lisättyjen toimialakohtaisten toimintojen mukaan. Alkaen vuoden 2021 2. julkaisuaallosta, kun ensin kirjaudut CRONUS-esittely yritykseen, kotisivu on optimoitu ensimmäistä käyttökokemusta varten. Jos haluat nähdä enemmän linkkejä useammalle sivulle, siirry Business Manager -rooliin. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).  
 
@@ -38,7 +38,7 @@ Jos alue ei kuulu asetusten ohjattuun määritykseen, valitse ![Hammaspyöräkuv
 
 Kun olet suorittanut asetusten ohjatun määrityksen, sen tilaksi merkitään **Valmis**.  
 
-## Opastusvihjeet ja esittelyt
+## <a name="teaching-tips-and-tours" />Opastusvihjeet ja esittelyt
 
 [!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 
@@ -46,7 +46,7 @@ Kun olet suorittanut asetusten ohjatun määrityksen, sen tilaksi merkitään **
 
 Opastusvihjeet ovat lyhyitä sanomia, jossa on tietoja ja muistutuksia tärkeistä ja uusista ominaisuuksista sekä niitä koskevaa opastusta. Opastus käynnistyy automaattisesti, kun sivu avataan. **Myyntilasku**-kortin opastusvihjeen saa esimerkiksi näkyviin valitsemalla sivun vasemmassa yläkulmassa *Myyntilasku*-linkin. Avautuvassa selitteessä on lyhyt kuvaus sivusta ja siinä tehtävistä toiminnoista. Jos sivulla on esittely, linkki pyytää katsomaan esittelyn. *Lisätietoja*-linkki avaa sivua koskevan tuotteen ohjeen.
 
-## Roolikohtaiset aloitussivut
+## <a name="role-specific-home-pages" />Roolikohtaiset aloitussivut
 
 Aloitussivulla on roolin mukainen liiketoiminnan yleiskuvaus. Ylhäällä olevan siirtymispalkin avulla voit helposti käsitellä asiakkaita, toimittajia, nimikkeitä jne. Keskellä ovat **toimenpideruudut**. **Toimenpiteet** esittävät nykyiset tiedot. Valitun asiakirjan saa helposti käyttöön toimenpiteitä napsauttamalla tai napauttamalla.
 
@@ -57,21 +57,21 @@ Nuolten avulla voit supistaa osan sivusta, jolloin haluamillesi tiedoille jää 
 > [!TIP]  
 > Voit palata aloitussivulle valitsemalla yrityksen nimen vasemmassa yläkulmassa.
 
-## Yrityksen tiedot
+## <a name="company-information" />Yrityksen tiedot
 
 Voit tarkastella ja muokata **Yrityksen asetukset** -kohdassa nykyisen yrityksen asetustietoja, joista suuri osa on esitäytetty, jos suoritit avustetun **Määritä yritys** -asennuksen [!INCLUDE[prod_short](includes/prod_short.md)]iin rekisteröityessäsi. Voit muuttaa tällä sivulla yrityksen logoa, yhteystietoja, pankkiasetuksia tai verotustietoja.  
 
-## Käyttäjien ja käyttöoikeuksien lisääminen
+## <a name="adding-users-and-permissions" />Käyttäjien ja käyttöoikeuksien lisääminen
 
 Jos sinun on lisättävä uusia käyttäjiä, voit tehdä sen Microsoft 365:n hallintaportaalissa. Katso lisätietoja kohdasta [Luo käyttäjiä lisenssien mukaan](ui-how-users-permissions.md).
 
 Kun käyttäjät on luotu Microsoft 365:ssä, heidät voidaan tuoda **Käyttäjät**-sivulle käyttämällä **Hae uudet päivitykset Office 365:stä** -toimintoa. Voit määrittää tämän jälkeen käyttäjien käyttöoikeudet ja järjestää käyttäjät käyttäjäryhmiin. Lisätietoja on kohdassa [Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md).  
 
-## Tuotteen ohje
+## <a name="product-help" />Tuotteen ohje
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Lisätietoja on kohdassa [Ohje- ja tukiresurssit](product-help-and-support.md).  
 
-### Määritä oma yritys [!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisussa
+### <a name="set-up-your-company-in-includeprodshortincludesprodshortmd" />Määritä oma yritys [!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisussa
 
 [Pika-aloituksen](quick-start-business-central.md) artikkelien avulla voit ottaa ensimmäiset askelet [!INCLUDE [prod_short](includes/prod_short.md)]in käyttöönotossa organisaatiollesi. [!INCLUDE [prod_short](includes/prod_short.md)]issa **Asetusten ohjattu määritys** -sivulla on luettelo oppaista, jotka voivat auttaa. Sivulla näkyvät roolin ja maan tai alueen mukaan erilaiset asetusten ohjatun määrityksen oppaat seuraavan taulukon mukaisesti:
 
@@ -93,11 +93,11 @@ Kun käyttäjät on luotu Microsoft 365:ssä, heidät voidaan tuoda **Käyttäj�
 
 **Asetusten ohjattu määritys** -sivu voi sisältää myös muita tapahtumia. Kun käyt läpi asetuksen, sen tilaksi merkitään **Valmis**. Voit määrittää muita yrityksen alueita manuaalisten asetusten avulla. Lisätietoja on ohjeaiheessa [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md).  
 
-## Seuraavat vaiheet
+## <a name="next-steps" />Seuraavat vaiheet
 
 Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen perusteella. Voit luoda nopeasti myyntitarjouksen, myyntilaskun, myyntitilauksen, ostolaskun tai maksurekisteröinnin aloitussivun **Toiminnot**-osassa. Tutustu [pika-aloituksen](quick-start-business-central.md) artikkeleihin, joiden avulla voit suorittaa ensimmäiset vaiheet.  
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Business Centralin pika-aloitus](quick-start-business-central.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
@@ -112,6 +112,6 @@ Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen per
 [Siirrä tiedot](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Kokeilut ja tilaukset](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,21 +10,21 @@ ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: edupont
 ---
-# Hyväksymistyönkulkujen ottaminen käyttöön
+# <a name="enable-approval-workflows" />Hyväksymistyönkulkujen ottaminen käyttöön
 
 Kun olet luonut hyväksyntätyönkulun ja olet varma, että se on valmis, se on otettava käyttöön.  
 
 Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan. Työnkulku määritetään täyttämällä työnkulkurivien kentät käyttämällä tapahtumien kiinteitä luetteloita ja vastausarvoja, jotka edustavat sovelluskoodin tukemia skenaarioita. Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).  
 
-## Työnkulun ottaminen käyttöön
+## <a name="enable-a-workflow" />Työnkulun ottaminen käyttöön
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut**, valitse sitten vastaava linkki.  
 2. Avaa työnkulku, jonka haluat ottaa käyttöön.  
 3. Kytke **Työnkulku**-sivun **Käytössä**-valitsin päälle.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Luo hyväksymistyönkulut](across-how-to-create-workflows.md)  
 [Hyväksymistyönkulkujen käyttäminen](across-use-workflows.md)  

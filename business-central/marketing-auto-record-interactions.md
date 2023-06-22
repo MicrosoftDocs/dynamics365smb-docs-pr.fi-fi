@@ -10,7 +10,7 @@ ms.search.keywords: 'marketing, relationship, prospect, contact, client, custome
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen automaattisesti
+# <a name="recording-interactions-with-contacts-automatically" />Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen automaattisesti
 Voit määrittää sovelluksen niin, että myynti-, osto- ja huoltoasiakirjojen, kansilehtien, sähköpostien ja puheluiden vuorovaikutukset tallennetaan automaattisesti seuraavasti:
 
 * Tulosta myynti- tai ostotarjoukset, -tilaukset, laskut, hyvityslaskut ja kansilehdet.
@@ -22,7 +22,7 @@ Voit määrittää sovelluksen niin, että myynti-, osto- ja huoltoasiakirjojen,
 Voit määrittää näille vuorovaikutuksille automaattisen tallentamisen määrittämällä asiakirjojen ja toimintojen vuorovaikutusmallit **Vuorovaikutusmallin asetukset** -sivulla.  
 Avataksesi **Vuorovaikutusmallin asetukset** -sivun valitse ![Kerro-ominaisuuden avaava hehkulamppu.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vuorovaikutusmallin asetukset** ja valitse sitten vastaava linkki.
 
-## Katso myös
+## <a name="see-also" />Katso myös
 [Kontaktien kanssa tapahtuvien vuorovaikutusten tallentaminen](marketing-interactions.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

@@ -8,7 +8,7 @@ ms.search.form: '911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99
 ms.date: 06/22/2021
 ms.author: bholtorf
 ---
-# Tuotannon tuoterakenteiden luominen
+# <a name="create-production-boms" />Tuotannon tuoterakenteiden luominen
 
 Tuotannon tuoterakenne sisältää perustiedot päänimikkeen tuotannossa käytettävistä komponenteista ja osakokoonpanoista. Kun päänimikkeelle luodaan tuotantotilaus, tuotannon tuoterakenne ohjaa materiaalitarpeiden laskentaa **Tuot.til. komponentit** -sivulla näkyvällä tavalla.
 
@@ -22,7 +22,7 @@ Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:
 - Tuotannossa mukana olevien päänimikkeiden nimikekortit on luotu. Lisätietoja on ohjeaiheessa [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).
 - Tuotantoresurssit on määritetty. Lisätietoja on kohdassa [Tuotantosolujen ja kuormituskeskusten määrittäminen](production-how-to-set-up-work-and-machine-centers.md).
 
-## Tuotannon tuoterakenteen luominen
+## <a name="to-create-a-production-bom" />Tuotannon tuoterakenteen luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotannon tuoterakenteet** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
@@ -46,7 +46,7 @@ Seuraavat toimet on oltava tehtynä ennen reitityksen määrittämistä:
 > [!NOTE]  
 > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Voit laskea nimikkeen vakiokustannukset nimikkeen kortista valitsemalla ensin **Tuotanto**-toiminnon ja sitten **Laske vakiokustannus** -toiminnon.  
 
-## Tuotannon tuoterakenteiden uusien versioiden luominen
+## <a name="to-create-a-new-version-of-a-production-bom" />Tuotannon tuoterakenteiden uusien versioiden luominen
 
 Tuotannon tuoterakenteen uusia versioita käytetään esimerkiksi silloin, kun nimike vaihdetaan toiseen nimikkeeseen tai silloin, kun asiakas pyytää tuotteesta erikoisversiota. Versioperiaate mahdollistaa tuotannon tuoterakenteen useiden versioiden hallinnan. Tuotannon tuoterakenteen version rakenne vastaa tuotannon tuoterakenteen rakennetta. Perusero on versioiden ajallinen voimassaolo. Voimassaolon määrittää aloituspäivämäärä.  
 
@@ -70,7 +70,7 @@ Version voimassaoloajan määrittää **Aloituspvm**-kenttä.
 >
 > Tuotannon haamutuoterakenteet auttavat tuotteiden rakenteistamisessa. Tämä tuotannon tuoterakenteen tyyppi ei johda koskaan valmiiseen tuotteeseen, vaan sitä käytetään ainoastaan riippuvaisen tarpeen määrittämisessä. Tuotannon haamutuoterakenteilla ei ole omia nimikkeen päätietoja.
 
-## Tuotannon tuoterakenteiden määrän laskentakaava
+## <a name="quantity-calculation-formula-on-production-boms" />Tuotannon tuoterakenteiden määrän laskentakaava
 
 Määrän laskennassa otetaan huomioon eri dimensiot, jotka myös annetaan tuotannon tuoterakenteen riveille. Dimensiot viittaavat vastaavan nimikkeen tilausyksikköön. Dimensioiksi voidaan syöttää pituus, leveys, syvyys ja paino.  
 
@@ -88,11 +88,11 @@ Laskentakaava määrittää yksittäisten komponenttien suhteen. Laskentakaavaks
 > [!NOTE]
 > **Kiinteä määrä** -laskentakaava varmistaa, että komponentin kulutus on sama riippumatta hukkatavaran tai tuotoksen määristä. Kun tuotantotilauksen komponenteille määritetään **Laskentakaava**-kentän arvoksi **Kiinteä määrä**, **Oletettu määrä** -kentän arvo on aina sama kuin **Määrä per** -kentässä. Samalla rivillä määritetty hukkatavaran prosentti ohitetaan. **Saatavuus tuoterakennetason mukaan** -raportti noudattaa kiinteää määrää. Raportissa näkyy nimike pullonkaulana, jos saatavilla oleva määrä on pienempi kuin **Määrä pääkohdetta kohti** -kentässä. **Kykenee valmistamaan päänimikettä**- ja **Kykenee valmistamaan tärkeintä nimikettä** -kentät ovat aina tyhjiä riippumatta käytettävissä olevasta määrästä. Vakiokustannusten laskentaan sisällytetään myös kiinteämääräinen määrä. Tuotetun nimikkeen eräkoko vaikuttaa yhdelle nimikkeelle kohdistettuun kustannukseen.
 
-### Esimerkki
+### <a name="example" />Esimerkki
 
 Tuotannon tuoterakenne vaatii 70 metalliosaa, joiden dimensioiden pituus = 0,20 m ja leveys = 0,15 m. Arvot annetaan seuraavalla tavalla: Laskentakaava = Pituus x Leveys, Pituus = 20, Leveys = 15, Määrä per = 70. Määräksi annetaan Määrä per x Pituus * Leveys eli Määrä = 70 x 0,20 m x 0,15 m = 2,1 m2.  
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Uusien reititysten luominen](production-how-to-create-routings.md)  
 [Tuotevarianttien hallinta](inventory-item-variants.md)  

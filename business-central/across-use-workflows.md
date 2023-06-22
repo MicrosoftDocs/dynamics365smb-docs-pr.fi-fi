@@ -11,7 +11,7 @@ ms.search.form: '1500, 1501, 1503, 1504, 1505'
 ms.date: 09/13/2022
 ms.author: edupont
 ---
-# Hyväksymistyönkulkujen käyttäminen
+# <a name="use-approval-workflows" />Hyväksymistyönkulkujen käyttäminen
 
 Työnkulku on tehtäväsarja, joka käynnistyy toiminnon, ehdon tai säännön seurauksena. Työnkulut toteutetaan yleensä liiketoimintalogiikan integroimiseksi organisaatioon, esimerkkeinä tehtävien erottelu, prosessien yhdistäminen tai parhaiden käytäntöjen soveltaminen.
 
@@ -64,9 +64,9 @@ Ennen kuin voit aloittaa työnkulkujen käyttämisen, sinun on määritettävä 
 | Tarkastele **Valmis**-tilassa olevia työnkulun osavaiheita. | [Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen](across-how-to-view-archived-workflow-step-instances.md) |
 | Poista hyväksyntätyönkulku, joka ei ole enää käytössä. | [Hyväksymistyönkulkujen poistaminen](across-how-to-delete-workflows.md) |
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Hyväksymistyönkulkujen määrittäminen](across-set-up-workflows.md)  
 [Työnkulku](across-workflow.md)  

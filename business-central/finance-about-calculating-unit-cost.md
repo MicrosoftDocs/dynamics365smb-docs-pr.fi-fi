@@ -7,13 +7,13 @@ ms.topic: article
 ms.date: 03/06/2022
 ms.author: a-reishima
 ---
-# Tietoja yksikkökustannuslaskennasta
+# <a name="about-unit-cost-calculation" />Tietoja yksikkökustannuslaskennasta
 
 Kullakin nimikkeellä on yksikkökustannus, joka lasketaan yrityksen arvostusmenetelmän ja muiden tekijöiden perusteella. *Vakio*-arvostusmenetelmässä sääntönä on, että **Yksikkökustannus**-kentän arvo perustuu nimikkeen vakiokustannukseen. Kaikissa muissa arvostusmenetelmissä (*FIFO*, *LIFO*, *Spesifi* ja *Keskiarvo*) yksikköhinta lasketaan tietyn ajan keskimääräisen yksikkökustannuksen perusteella.  
 
 Lisätietoja on kohdassa [Varaston kustannusten hallinta](finance-manage-inventory-costs.md).  
 
-## Yksikkökustannuksen kentän päivittämisaika
+## <a name="when-is-the-unit-cost-field-updated" />Yksikkökustannuksen kentän päivittämisaika
 
 Valittu arvostusmenetelmä vaikuttaa siihen, milloin **Yksikkökustannus**-kenttä päivitetään.
 
@@ -33,35 +33,35 @@ Jos jokin näistä ehdoista on tosi, **Yksikkökustannus**-kenttä päivitetää
 
 Nimikekortin **Yksikkökustannus**-kentässä voit porautua tarkastelemaan tapahtumahistoriaa, jonka perusteella varastossa olevien yksikköjen keskimääräinen hinta **Keskimääräisten kustannusten laskennan yleiskuvaus** -ikkunassa lasketaan.
 
-## Yksikkökustannusten laskeminen ostoille
+## <a name="unit-cost-calculation-for-purchases" />Yksikkökustannusten laskeminen ostoille
 
 Aina kun ostat nimikkeitä, nimikekortin **Viimeinen välitön kustannus** -kentän arvo kopioidaan ostorivin **Välitön yksikkökustannus** -kenttään tai nimikepäiväkirjan rivin **Yksikkösumma**-riville.
 
 Se, mitä valitset **Kustannustapa**-kentässä vaikuttaa siihen, miten [!INCLUDE[prod_short](includes/prod_short.md)] laskee **Yksikkökustannus**-kentän sisällön riveillä.
 
-### Kustannusmenetelmä FIFO, LIFO, Spesifi tai Keskimäärä
+### <a name="costing-method-fifo-lifo-specific-or-average" />Kustannusmenetelmä FIFO, LIFO, Spesifi tai Keskimäärä
 
 [!INCLUDE[prod_short](includes/prod_short.md)] laskee ostorivin **Yksikkökustannus PVA** -kentän sisällön tai nimikepäiväkirjan rivin **Yksikkökustannus**-kentän sisällön seuraavan laskukaavan mukaan:
 
 *Yksikkökustannus (PVA) = (Välitön yksikkökustannus - (Alennussumma / Määrä)) * (1 + Välillinen kustannus-% / 100) + Yleiskustannus*
 
-### Arvostusmenetelmä Vakio
+### <a name="costing-method-standard" />Arvostusmenetelmä Vakio
 
 Järjestelmä syöttää **yksikkökustannus (PVA)** -kentän ostoriville sekä **yksikkökustannus** -kentän nimikepäiväkirjalle kopioimalla arvon nimikekortin **yksikkökustannus** -kentästä. Jos arvostustapa on *Vakio*, perustuu kustannus aina vakiokustannukseen.
 
 Kun kirjaat oston, [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelma käyttää ostorivin tai nimikepäiväkirjan yksikkökustannusta oston nimikelaskutapahtumaan. Sen voi nähdä nimikkeen tapahtumaluettelossa
 
-### Kaikki arvostusmenetelmät
+### <a name="all-costing-methods" />Kaikki arvostusmenetelmät
 
 Lähdeasiakirjan rivin yksikkökustannusta käytetään kyseiseen nimiketapahtumaan liittyvän **Kustannussumma todellinen** -kentän (tai tarpeen mukaan **Kustannussumma oletettu** -kentän) sisällön laskennassa huolimatta siitä, mikä nimikkeen arvostusmenetelmä on.
 
-## Myynnin yksikkökustannusten laskenta
+## <a name="unit-cost-calculation-for-sales" />Myynnin yksikkökustannusten laskenta
 
 Kun myyt nimikkeitä, ohjelma kopioi yksikkökustannuksen nimikekortin **Yksikkökustannus**-kentästä myyntiriville tai nimikepäiväkirjan riville.
 
 Kirjauksen yhteydessä ohjelma kopioi yksikkökustannuksen myyntilaskun nimiketapahtumaan, ja se näkyy nimikkeen tapahtumaluettelossa. [!INCLUDE[prod_short](includes/prod_short.md)] käyttää lähdeasiakirjan rivin yksikkökustannusta kyseiseen nimiketapahtumaan liittyvän arvotapahtuman **Kustannussumma todellinen** -kentän (tai tarpeen mukaan **Kustannussumma oletettu** -kentän) sisällön laskennassa.
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  

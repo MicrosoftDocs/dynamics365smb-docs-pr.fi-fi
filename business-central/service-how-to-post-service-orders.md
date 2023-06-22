@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Huoltotilausten ja hyvityslaskujen kirjaaminen
+# <a name="post-service-orders-and-credit-memos" />Huoltotilausten ja hyvityslaskujen kirjaaminen
 Kun huoltotilaus on luotu, tarpeelliset tiedot on täytetty ja muutokset tehty, huoltotilauksen voi kirjata. Tilauksessa tulee olla vähintään yksi huoltonimikerivi ja yksi huoltorivi, ennen kuin sen voi kirjata. Jos tilaus sisältää useita huoltorivejä, kaikki rivit kirjataan kerralla.  
 
 Jos huoltotilauksia on runsaasti, voit säästää aikaa kirjaamalla ne samalla kertaa käyttämällä eräajoa. Voit suorittaa eräajon mistä tahansa huoltotilauksesta.
@@ -18,7 +18,7 @@ Jos huoltotilauksia on runsaasti, voit säästää aikaa kirjaamalla ne samalla 
 > [!Tip]
 > Ennen huoltoasiakirjan kirjaamista mahdolliset virheet ja puuttuvat tiedot kannattaa tarkistaa **Testiraportti**-toiminnolla. Jos virheitä löytyy, ongelmat on korjattava. Voit tarkistaa korjauksen tulostamalla uuden testiraportin ja kirjata sitten asiakirjan.
 
-## Huoltotilauksien kirjaaminen    
+## <a name="to-post-a-service-order" />Huoltotilauksien kirjaaminen
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** ja valitse sitten vastaava linkki.  
 2. Avaa haluamasi huoltotilaus.  
 3. Valitse **Huoltotilaus**-sivulla jompikumpi seuraavista toimista.  
@@ -43,13 +43,13 @@ Voit kirjata kulutuksen vain, jos rivillä on toimitettu määrä, jota ei ole l
 
 Ohjelma luo tilauksen kirjauksen yhteydessä vastaavat tapahtumat ja kirjatut asiakirjat. Se myös päivittää huoltotilausasiakirjan asianmukaiset kentät.  
 
-## Huoltotilauksien eräkirjaaminen
+## <a name="to-batch-post-service-orders" />Huoltotilauksien eräkirjaaminen
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Kirjaa erä** -toiminto.  
 3.  Voit asettaa suodatuksen valitsemaan tiettyjä huoltotilausnumeroita tai tietyn tilausnumeroiden välin eräajon käsiteltäväksi.  
 4.  Käynnistä eräajo valitsemalla **OK**.  
 
-## Huollon hyvityslaskujen kirjaaminen  
+## <a name="to-post-a-service-credit-memo" />Huollon hyvityslaskujen kirjaaminen
 Kun olet luonut huoltohyvityslaskun ja täyttänyt sen, voit kirjata hyvityslaskun. Jos ohjelma löytää hyvityslaskusta virheitä tai puuttuvia tietoja kirjauksen aikana, prosessi pysähtyy virhesanomaan.  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huollon hyvityslaskut** ja valitse sitten vastaava linkki.  
@@ -62,7 +62,7 @@ Kun olet luonut huoltohyvityslaskun ja täyttänyt sen, voit kirjata hyvityslask
 > [!NOTE]  
 >  On tärkeä syöttää kaikki tarvittavat hyvityslaskujen tiedot ennen erän kirjausta. Muutoin on mahdollista, että niitä ei kirjata. Kun eräajo on lopettanut kirjauksen, näyttöön tuleva viesti ilmoittaa, kuinka monta huoltopalautustilausta on kirjattu.  
 
-## Kulutuksen kirjaaminen huoltotilauksesta  
+## <a name="to-post-consumption-from-a-service-order" />Kulutuksen kirjaaminen huoltotilauksesta
 Seuraavassa ohjeessa neuvotaan, miten kirjataan nimikkeet, resurssitunnit ja/tai kulut, joita käytetään huoltotoimenpiteessä, jota ei laskuteta asiakkaalta. Huomaa, että voit kirjata kulutetut nimikkeet, tunnit tai kustannukset vain sellaista kirjattua toimitusta, jolla ei ole kirjattuaj laskuja tai kulutusta.  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** ja valitse sitten vastaava linkki.  
@@ -77,7 +77,7 @@ Seuraavassa ohjeessa neuvotaan, miten kirjataan nimikkeet, resurssitunnit ja/tai
 
 Huolto kirjataan joko kokonaan tai osittain käytettynä, riippuen **Kulutettava määrä** -kentän arvosta, ja liittyvät päiväkirjamerkinnät luodaan. Lisäksi aiemmin kirjatut huoltotoimitusasiakirjat päivitetään aikajärjestyksessä kulutettujen määrien kanssa. Määrät päivitetään tilauksen huoltoriveillä.  
 
-## Toimitusten kirjaaminen huoltotilauksista  
+## <a name="to-post-shipments-from-service-orders" />Toimitusten kirjaaminen huoltotilauksista
 Huollon tietojen määrityksen jälkeen voit muuttaa ja kirjata käytettyjen nimikkeiden määrät, käytetyn ajan ja aiheutuneet kustannukset. Tämän jälkeen [!INCLUDE[prod_short](includes/prod_short.md)] tekee tarvittavat muutokset varaston nykyisen tilan ja tietyn tilauksen käsittelyn nykyisen tilan mukaan.  
 
 Seuraavassa ohjeessa neuvotaan, miten kirjataan toimitus huoltorivin nimikkeille, jotka ovat sijainneissa, joissa ei vaadita varastonhallintaa.  
@@ -96,7 +96,7 @@ Jos sijainti on määritetty niin, että fyysisen varaston käsittely on pakolli
 
 Lisätietoja huoltorivinimikkeiden toimituksesta laajennetussa varastomäärityksissä on kohdassa Nimikkeiden poiminta varastoinnin toimitusta varten](warehouse-how-to-pick-items-for-warehouse-shipment.md).  
 
-## Kirjatun kulutuksen kumoaminen  
+## <a name="to-undo-posted-consumption" />Kirjatun kulutuksen kumoaminen
 Voit peruuttaa kulutuksen huoltotilauksissa. Syynä voi olla esimerkiksi vahingossa tehty kirjaus.  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut huoltotoimitukset** ja valitse sitten vastaava linkki.  
@@ -112,7 +112,7 @@ Voit peruuttaa kulutuksen huoltotilauksissa. Syynä voi olla esimerkiksi vahingo
 >    * huoltotilaus on suljettu  
 >    * se on kirjattu Projektit-alueelle, joten siihen on linkitetty projektitapahtumia.  
 
-## Huoltorivien kirjaaminen  
+## <a name="to-post-service-lines" />Huoltorivien kirjaaminen
 Jos huoltotilaukset ovat työn alla huomattavan ajan ennen niiden kirjausta, voit kirjata joitain linkitetyistä huoltoriveistä, jotta voit esimerkiksi pitää varastosi päivitettynä. Voit kirjata määrittämällä määrät kirjattavilla riveillä. Voit valita rivit yksitellen tai valita useita rivejä kerralla.  
 
 Seuraavassa ohjeessa neuvotaan, miten toimitus kirjataan suoraan huoltotilauksesta paikoissa, joissa ei ole varastonhallintaa. Jos sijainti on määritetty niin, että fyysisen varaston käsittely on pakollinen, toimituksen kirjaus tapahtuu eri fyysisen varastoinnin asiakirjassa sijainnin asetusten mukaan.
@@ -122,7 +122,7 @@ Seuraavassa ohjeessa neuvotaan, miten toimitus kirjataan suoraan huoltotilaukses
 4. Täytä kirjattavien rivien **Toimitettava määrä**-, **Laskutettava määrä**- ja **Kulutettava määrä** -kentät sen mukaan, miten rivit kirjataan.  
 5. Valitse **Kirjaa**-toiminto.
 
-## Katso myös  
+## <a name="see-also" />Katso myös
 [Kirjaaminen huoltohallinnassa](service-service-posting.md)  
 [Huoltotilauksen luominen](service-how-to-create-service-orders.md)  
 

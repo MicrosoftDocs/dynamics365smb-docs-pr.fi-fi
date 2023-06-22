@@ -11,7 +11,7 @@ ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Käyttöomaisuuden määrittäminen
+# <a name="setting-up-fixed-assets" />Käyttöomaisuuden määrittäminen
 
 Ennen käyttöomaisuuserien käsittelyä on määritettäviä muutamia toimintoja:  
 
@@ -36,9 +36,9 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Lisätietoja käyttöomaisuuden erilaisista poistotavoista. |[Poistotavat](fa-depreciation-methods.md) |
 | Tietoja käyttäjän määrittämien poistomenetelmien soveltamisesta. |[Käyttäjäkohtaisten poistomenetelmien määrittäminen](fa-how-setup-user-defined-depreciation-method.md) |
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-fixed-assets-management/)
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Käyttöomaisuus](fa-manage.md)  
 [Rahoitus](finance.md)  

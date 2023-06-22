@@ -11,11 +11,11 @@ ms.search.form: '18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790
 ms.date: 08/24/2022
 ms.author: edupont
 ---
-# Tietoja pääkirjanpidosta ja tilikartasta
+# <a name="understanding-the-general-ledger-and-chart-of-accounts" />Tietoja pääkirjanpidosta ja tilikartasta
 
 Pääkirjanpito(KP) sisältää taloustiedot ja tilikartta näyttää tilit, joihin kaikki pääkirjanpidon tapahtumat kirjataan. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää tilikartan, joka on valmis tukemaan liiketoimintaasi.
 
-## Pääkirjanpidon asetukset ja yleiset kirjausasetukset
+## <a name="general-ledger-setup-and-general-posting-setup" />Pääkirjanpidon asetukset ja yleiset kirjausasetukset
 
 Pääkirjanpidon asetukset ovat keskeisiä rahoitusprosesseja, sillä niillä määritetään tietojen kirjaaminen. Erityisesti kaksi sivua on tärkeässä osassa rahoitusprosessien määrittämisessä:  
 
@@ -41,7 +41,7 @@ Pääkirjanpidon asetukset ovat keskeisiä rahoitusprosesseja, sillä niillä m�
 
   Avaa sivu [täällä](https://businesscentral.dynamics.com/?page=314).
 
-## Tilikartta
+## <a name="the-chart-of-accounts" />Tilikartta
 
 Kaikki pääkirjanpidon tilit näkyvät tilikartassa. Tilikartassa voi tehdä esimerkiksi seuraavia toimintoja:  
 
@@ -53,7 +53,7 @@ Kaikki pääkirjanpidon tilit näkyvät tilikartassa. Tilikartassa voi tehdä es
 
 Voit lisätä, muuttaa tai poistaa pääkirjanpidon tilejä. Ristiriitojen estämiseksi et voi kuitenkaan poistaa pääkirjanpidon tiliä, jos sen tietoja käytetään tilikartassa. Alkaen vuoden 2022 2. julkaisuaallosta voit myös estää tilien vahingossa poistamisen arkaluonteisina kausina. Lisätietoja on [Tilien poistaminen](finance-setup-chart-accounts.md#delete-accounts) -osassa.  
 
-## Tililuokat
+## <a name="account-categories" />Tililuokat
 
 Voit räätälöidä rahoituslaskelmien rakennetta yhdistämällä pääkirjanpidon tilit tililuokkiin.  
 
@@ -63,7 +63,7 @@ Voit luoda luokkaryhmän sisentämällä **KP-tilin luokat** -sivun rivin alla o
 
 Voit määrittää, pitääkö tietyntyyppisten raporttien sisältää kunkin alaluokan tilit. Tililuokat auttavat rahoituslaskelmien asettelun määrittämisessä.  
 
-### Esimerkki
+### <a name="example" />Esimerkki
 
 Esimerkiksi oletussaldon tiliotteessa on *Käteisvarat*-alaluokka *Vastaavaa*-kohdassa. Jos haluat, että tiliote ottaa käteiskassan ja sekit huomioon, sinun tulee suorittaa seuraavat vaiheet:
 
@@ -90,17 +90,17 @@ Kun valitset **Luo talousraportit** -toiminnon tai seuraavan kerran, kun raportt
 > [!NOTE]
 > Jos luot KP-tilin määrittelemättä tililuokkaa, kun liität tilin kirjausryhmään [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelma liittää tililuokan KP-tilistä automaattisesti tilikarttaan. Jos haluat sisällyttää uuden tilin talousraportteihin, sinun täytyy kuitenkin valita **Luo rahoitusraportit** -toiminto **pääkirjanpidon tililuokat** -sivulta. Vaihtoehtoisesti voit avata KP-tilin korttisivun, määrittää tililuokan ja luoda talousraportin uudelleen.
 
-## Nopean yleiskuvauksen saaminen
+## <a name="get-a-quick-overview" />Nopean yleiskuvauksen saaminen
 
 **Tilikartat**-sivulla näkyvät hierarkkisessa luettelossa olevat tilit, jotka tarjoavat nopean pääsyn kunkin tilin avaintietoihin. Luettelo on kuitenkin staattinen, ja jos sinulla on paljon tilejä, sinun on ehkä vieritettävä nähdäksesi eri tilejä. Jos haluat vain nopean yleiskatsauksen perusasioista, kuten nettomuutoksista ja saldoista, **Tilikartan yleiskuvaus** -sivu on hyödyllinen vaihtoehto. Sivun sarakeasettelu on nyt sama kuin jonka löydät **tilikartta**-sivulta (vaikkakin vähemmillä sarakkeilla), joten sinun ei tarvitse suuntautua uudelleen. Voit tiivistää näkymää laajentamalla tai kutistamalla hierarkiatasoja. Jotta sivuja olisi helppo vaihtaa, **Tilikartan yleiskuvaus** -sivu on käytettävissä **Tilikartta**-sivulta.
 
-## Luo ja muokkaa tilejä ja tililuokkia
+## <a name="access-to-create-and-edit-accounts-and-account-categories" />Luo ja muokkaa tilejä ja tililuokkia
 
 Pienessä organisaatiossa, kuten CRONUS-esittely-yrityksessä, useimmat käyttäjät voivat muokata tilikarttaa lukuun ottamatta niitä käyttäjiä, joilla on TEAM MEMBER -käyttöoikeus. Suuremmissa organisaatioissa käytetään tyypillisesti rooleja ja käyttöoikeuksia rajoittamaan tilikartan muokkausoikeutta. Jos olet järjestelmänvalvoja tai sinulla on *Liiketoimintajohtaja*- tai *Kirjanpitäjä*-rooli, voit hallita käyttöoikeuksia antaaksesi oikeille käyttäjille oikeuden käyttää asianomaisia taulukoita. Lue lisätietoja [Käyttäjän käyttöoikeuksien yleiskatsauksen hankkiminen](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions) -osassa.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/business-central-configure-general-ledger-setup/)
+## <a name="see-related-microsoft-trainingtrainingmodulesbusiness-central-configure-general-ledger-setup" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/business-central-configure-general-ledger-setup/)
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Tilikartan määrittäminen tai muuttaminen](finance-setup-chart-accounts.md)  
 [Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md)  

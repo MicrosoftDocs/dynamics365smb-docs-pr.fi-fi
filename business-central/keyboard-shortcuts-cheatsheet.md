@@ -11,9 +11,9 @@ ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
 
-# Näppäimistön Pikaohje - Vain PC
+# <a name="keyboard-quick-reference---pc-only" />Näppäimistön Pikaohje - Vain PC
 
-#### Yleiset
+#### <a name="general" />Yleiset
 
 |Käytettävät näppäimet|Tehtävä|  
 |-|-|
@@ -39,7 +39,7 @@ ms.custom: bap-template
 |<kbd>Sarkain</kbd>/<kbd>Vaihto</kbd>+<kbd>Sarkain</kbd>|Siirrä kohdistus seuraavaan/edelliseen elementtiin|
 |<kbd>F6</kbd>/<kbd>Vaihto</kbd>+<kbd>F6</kbd>|Siirry seuraavaan pikavälilehteen/osaan|
 
-#### Siirtyminen ja rivien valitseminen
+#### <a name="navigate--select-rows" />Siirtyminen ja rivien valitseminen
 
 |Käytettävät näppäimet|Tehtävä|
 |-|-|
@@ -53,14 +53,14 @@ ms.custom: bap-template
 |<kbd>Vaihto</kbd>+<kbd>Page Up</kbd>/<kbd>Down</kbd>|Valitse näkyvät rivit ylä-/alapuolella|
 |<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Kohdistus luettelon ulkopuolella|
 
-#### Kopioi ja liitä
+#### <a name="copy--paste" />Kopioi ja liitä
 
 |Käytettävät näppäimet|Tehtävä|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Kopioi/liitä rivit|
 |<kbd>F8</kbd>|Kopioi yläpuolella oleva kenttä nykyiselle riville|
 
-#### Haku, suodatus ja lajittelu
+#### <a name="search-filter--sort" />Haku, suodatus ja lajittelu
 
 |Käytettävät näppäimet|Tehtävä|
 |-|-|
@@ -71,20 +71,20 @@ ms.custom: bap-template
 |<kbd>Vaihto</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Lisää valittuun kenttään suodatin|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Vaihto</kbd>+<kbd>F3</kbd>|Nollaa suodattimet|
 
-#### Pikatapahtuma
+#### <a name="quick-entry" />Pikatapahtuma
 
 |Käytettävät näppäimet|Tehtävä|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Vaihto</kbd>+<kbd>Enter</kbd>|Siirry seuraavaan pikatapahtumakenttään luettelon ulkopuolella|
 |<kbd>Enter</kbd>/<kbd>vaihto</kbd>+<kbd>Enter</kbd>|Siirry seuraavaan/edelliseen pikatapahtumakenttään|
 
-##### Raportin esikatselu
+##### <a name="report-preview" />Raportin esikatselu
 
 |Käytettävät näppäimet|Tehtävä|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd>/<kbd>End</kbd>|Siirry ensimmäiselle/viimeiselle sivulle|
 
-#### Numeronäppäimistö
+#### <a name="numeric-keypad" />Numeronäppäimistö
 
 |Käytettävät näppäimet|Tehtävä|  
 |-|-|

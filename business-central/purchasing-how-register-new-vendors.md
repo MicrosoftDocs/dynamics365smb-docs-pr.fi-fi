@@ -11,7 +11,7 @@ ms.search.form: '26, 27, 34, 461, 786, 1379, 1385, 1386, 1628'
 ms.date: 09/05/2022
 ms.author: bholtorf
 ---
-# Uusien toimittajien rekisteröiminen
+# <a name="register-new-vendors" />Uusien toimittajien rekisteröiminen
 
 Toimittajat tarjoavat tuotteita, jotka myydään. Jokainen toimittaja, jolta ostat, täytyy rekisteröidä toimittajakortin kanssa.
 
@@ -22,7 +22,7 @@ Toimittajan kortti sisältää tiedot, joita tarvitaan tuotteiden ostamiseksi ku
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-## Uusien toimittajien lisääminen
+## <a name="adding-new-vendors" />Uusien toimittajien lisääminen
 
 Voit lisätä uusia toimittajia manuaalisesti täyttämällä **Toimittajankortti**-sivun tai käyttämällä malleja, jotka sisältävät ennalta määritettyjä tietoja. Voit esimerkiksi luoda malleja erityyppisille toimittajaprofiileille. Mallien käyttäminen säästää aikaa uusien toimittajien lisäämisen aikana ja varmistaa, että tiedot ovat aina oikein.
 
@@ -40,7 +40,7 @@ Maksusuorituksen saajien osoitteita käytetään, kun tulostetaan sekkejä toimi
 
 Voit määrittää maksusuorituksen saajien osoitteita Toimittajakortti-sivuilla ja ostotilausten ja laskujen Toimitus ja maksut -pikavälilehdessä. Kun luot maksupäiväkirjarivejä käyttämällä Maksa toimittajalle- tai Luo maksu -toimintoa Toimittajaluettelo- tai Toimittajakortti-sivulla tai maksupäiväkirjan Kohdista tapahtumat -toimintoa, toimittajatapahtuman maksusuorituksen saajan koodi määritetään. Voit korvata tämän arvon.
 
-### Uuden toimittajan luominen
+### <a name="to-create-a-new-vendor" />Uuden toimittajan luominen
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
@@ -51,7 +51,7 @@ Toimittaja on nyt rekisteröity, ja toimittajan kortti on valmis käytettäväks
 
 Jos haluat käyttää tätä toimittajan korttia mallina, kun luot uusia toimittajan kortteja, tallenna se toimittajamallina. Lisätietoja on [Toimittajakortin tallentaminen mallina](#to-save-the-vendor-card-as-a-template) -osassa.
 
-### Toimittajan tietojen poistaminen ja muokkaaminen
+### <a name="deleting-and-editing-vendor-information" />Toimittajan tietojen poistaminen ja muokkaaminen
 
 Voit muokata toimittajakorttien tietoja milloin tahansa. Jos olet kirjannut toimittajalle tapahtuman, et voi kuitenkaan poistaa korttia, koska nimiketapahtumia voi tarvita valvontaan. Voit poistaa tapahtumia sisältäviä toimittajakortteja koodin avulla ottamalla yhteyttä Microsoft-kumppaniin.
 
@@ -61,7 +61,7 @@ Voit muokata toimittajakorttien tietoja milloin tahansa. Jos olet kirjannut toim
 > [!TIP]
 > Voit lisätä vaihtoehtoisia osoitteita toimittajakortteihin valitsemalla **Tilausosoitteet**-toiminnon.
 
-## Toimittajan kortin tallentaminen mallina
+## <a name="to-save-the-vendor-card-as-a-template" />Toimittajan kortin tallentaminen mallina
 
 1. Valitse **Toimittajakortti**-sivulla **Tallenna mallina** -toiminto. **Toimittajamalli**-sivu avautuu ja näyttää toimittajan kortin mallina.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -70,9 +70,9 @@ Voit muokata toimittajakorttien tietoja milloin tahansa. Jos olet kirjannut toim
 5. Kun olet määrittänyt uuden toimittajamallin, valitse **OK**.  
    Toimittajamalli lisätään toimittajamallien luetteloon niin, että sen avulla voit luoda uusia toimittajan kortteja.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trade-master-data-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trade-master-data-dynamics-365-business-central/).
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)  
 [Numerosarjojen luominen](ui-create-number-series.md)  

@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.keywords: 'analysis, history, track, business intelligence'
 ms.search.form: '408, 479, 480, 481, 484, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 560, 562, 564, 567, 568, 577, 578, 580, 699, 1343, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 9083, 9233, 9251, 9252, 9253'
 ---
-# Dimensioiden käyttäminen
+# <a name="work-with-dimensions" />Dimensioiden käyttäminen
 
 Dimensiot ovat tapahtumia luokittelevia arvoja, jotta voit seurata ja analysoida tapahtumia asiakirjoissa, kuten myyntitilauksissa. Dimensioiden avulla voit esimerkiksi ilmaista, mistä projektista tai osastosta tapahtuma on lähtöisin.  
 
@@ -24,7 +24,7 @@ Voit myös esimerkiksi määrittää *Osasto*-nimisen dimension ja käyttää si
 * nimikkeen myyjä.
 * kuka asiakas osti sen.
 
-## Analyysi dimensioittain
+## <a name="analyzing-by-dimensions" />Analyysi dimensioittain
 
 Dimensiot ovat tärkeä osa liiketoimintatietoja esimerkiksi analyysinäkymiä määritettäessä. Lue lisätietoja kohdasta [Analysoi tietoja dimensioiden mukaan](bi-how-analyze-data-dimension.md).
 
@@ -34,13 +34,13 @@ Dimensiot ovat tärkeä osa liiketoimintatietoja esimerkiksi analyysinäkymiä m
 > [!NOTE]
 > Analyysinäkymissä käytetään usein dimensioiden tietoja. Jos havaitset, että kirjatuissa pääkirjanpidon (KP) tapahtumissa on käytetty virheellistä dimensiota, voit korjata dimension arvot ja päivittää analyysinäkymät. Tällä tavoin talousraportit ja analyysit pysyvät tarkkoina. Lue lisätietoja kohdasta [Vianmääritys ja dimensioiden korjaaminen](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
 
-## Dimensioyhdistelmät
+## <a name="dimension-sets" />Dimensioyhdistelmät
 
 Dimensioyhdistelmä on dimensioarvojen yksilöllinen yhdistelmä. Ne tallennetaan dimensioyhdistelmän tapahtumiksi tietokantaan. Kukin dimensioyhdistelmän tapahtuma edustaa yksittäistä dimensioarvoa. Lisäksi kukin dimensiojoukko ja sen sisällä oleva dimensiojoukon tapahtuma tunnistetaan yleisen dimensiojoukon tunnuksen avulla.  
 
 Kun luot päiväkirjarivin, asiakirjaotsikon tai asiakirjarivin, voit määrittää dimensioarvojen yhdistelmän. Sen sijaan, että tallentaisit jokaisen dimensioarvon erikseen tietokantaan, dimensioyhdistelmä määritetään päiväkirjan rivillä, asiakirjaotsikossa tai asiakirjan rivillä dimensioyhdistelmän tunnuksen avulla.  
 
-## Dimensioiden luominen
+## <a name="setting-up-dimensions" />Dimensioiden luominen
 
 Voit määrittää päiväkirjojen ja asiakirjojen, kuten myynti- ja ostotilausten, luokitteluun käytettävät dimensiot ja dimension arvot. Dimensiot määritetään **Dimensiot**-sivulla, jossa kullekin dimensiolle luodaan yksi rivi. Dimensioita ovat esimerkiksi *Projekti*, *Osasto*, *Alue* ja *Myyjä*.
 
@@ -54,7 +54,7 @@ Kun dimensiot ja arvot on määritetty, voit määrittää yleiset ja pikadimens
 > [!NOTE]
 > Kun olet lisännyt uuden dimension mihin tahansa tapahtumaan, kuten riviin tai uuteen tietueeseen, et voi poistaa dimensiota, vaikka et kirjaakaan tapahtumaa. Tämä johtuu siitä, että [!INCLUDE[prod_short](includes/prod_short.md)] luo riville tai tietueelle välittömästi dimensioyhdistelmän. Katso lisätietoja [Dimensiojoukot](finance-dimensions.md#dimension-sets)-osasta.
 
-### Asiakkaiden, toimittajien ja muiden tilien oletusdimensioiden määrittäminen
+### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts" />Asiakkaiden, toimittajien ja muiden tilien oletusdimensioiden määrittäminen
 
 Voit määrittää oletusdimension tietylle tilille. Dimensio kopioidaan päiväkirjaan tai asiakirjaan, kun lisäät tilinumeron riville, mutta voit tarvittaessa poistaa koodin rivillä tai muuttaa sitä. Voit tarvita myös dimension, jota tarvitaan tietyn tyyppisen tilitapahtuman kirjaamiseen. > 
 
@@ -91,7 +91,7 @@ Voit määrittää oletusdimension tietylle tilille. Dimensio kopioidaan päivä
 > [!NOTE]  
 > Jos tiliin täytyy liittää dimensio, joka poikkeaa tilityypin oletusdimensiosta, sinun täytyy määrittää tälle tilille uusi oletusdimensio. Tilin oletusdimensio korvaa siten tilityypin oletusdimension.  
 
-### Oletus dimensioprioriteettien luominen
+### <a name="to-set-up-default-dimension-priorities" />Oletus dimensioprioriteettien luominen
 
 Eri tilityypeille, esimerkiksi asiakas- ja nimiketileille, voi olla erilaiset oletusdimensiot. Siten ohjelma voi ehdottaa tapahtumalle useampaa kuin yhtä oletusdimensiota. Jotta sellaisia ristiriitatilanteita ei syntyisi, voit soveltaa eri lähteisiin prioriteettisääntöjä.
 
@@ -103,7 +103,7 @@ Eri tilityypeille, esimerkiksi asiakas- ja nimiketileille, voi olla erilaiset ol
 > [!IMPORTANT]  
 > Jos luot kaksi taulukkoa, joilla on sama lähdekoodin prioriteetti, [!INCLUDE[prod_short](includes/prod_short.md)] hakee aina taulukon, jolla on pienin tunnus.  
 
-### Dimensioiden kombinaatioiden luominen
+### <a name="to-set-up-dimension-combinations" />Dimensioiden kombinaatioiden luominen
 
 Kun haluat estää sellaisten tapahtumien kirjauksen, joissa on väärät tai keskenään ristiriitaiset dimensiot, voit lukita tai rajoittaa tiettyjä kahden kombinaation yhdistelmiä. Lukittu dimensioyhdistelmä tarkoittaa, että et voi kirjata molempia dimensioita samaan tapahtumaan, riippumatta dimension arvoista. Rajoitettu dimensioyhdistelmä taas sallii molempien dimensioiden kirjaamisen samaan tapahtumaan, mutta vain tiettyjen dimension arvoyhdistelmien osalta.
 
@@ -126,7 +126,7 @@ Kun haluat estää sellaisten tapahtumien kirjauksen, joissa on väärät tai ke
 >
 > Jos haluat, että dimensiosta näkyy mieluummin nimi kuin koodi, laita ruksi **Näytä sarakkeen nimi** -kenttään.
 
-### Globaalien dimensioiden ja pikadimensioiden määrittäminen
+### <a name="to-set-up-global-and-shortcut-dimensions" />Globaalien dimensioiden ja pikadimensioiden määrittäminen
 
 Globaaleja dimensioita ja pikadimensioita voidaan käyttää suodattimina [!INCLUDE[prod_short](includes/prod_short.md)]issa, kuten raporteissa, erätöissä, kirjanpitotapahtumasivuilla ja analyysinäkymissä. Globaalit dimensiot ja pikadimensiot voidaan lisätä suoraan ilman **Dimensiot**-sivun avaamista. Voit valita päiväkirja- ja asiakirjariveillä rivin kentässä globaalin dimension ja pikadimension. Voit määrittää kaksi globaalia dimensioita ja kahdeksan pikadimensioita. Valitse eniten käyttämäsi dimensiot.
 
@@ -141,7 +141,7 @@ Globaaleja dimensioita ja pikadimensioita voidaan käyttää suodattimina [!INCL
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset**, valitse sitten vastaava linkki.
 2. Täytä **Dimensiot**-pikavälilehden kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### Globaalien dimensioiden muuttaminen
+#### <a name="to-change-global-dimensions" />Globaalien dimensioiden muuttaminen
 
 Kun muutat globaalin dimension tai pikadimension, kaikki dimensioon kirjatut tapahtumat päivitetään. Koska tämä prosessi voi olla aikaa vievää ja voi vaikuttaa suorituskykyyn, prosessin mukauttamiseksi tietokannan kokoon on käytettävissä kaksi eri toimintatapaa.  
 
@@ -163,7 +163,7 @@ Kun muutat globaalin dimension tai pikadimension, kaikki dimensioon kirjatut tap
 6. Kirjaudu ulos kohteesta [!INCLUDE[prod_short](includes/prod_short.md)], kirjaudu sitten takaisin sisään.
 7. Aloita dimension muutosten rinnakkainen käsitteleminen valitsemalla **Aloita**-toiminto.
 
-### Esimerkki dimension asetuksista
+### <a name="example-of-dimension-setup" />Esimerkki dimension asetuksista
 
 Oletetaan, että yritys haluaa seurata tapahtumia organisaatiorakenteen ja maantieteellisen sijainnin perusteella. Määrität tätä tarkoitusta varten kaksi dimensiota **Dimensiot**-sivulla:
 
@@ -204,7 +204,7 @@ Lisää **OSASTO**-koodiin seuraavat dimension arvot:
 
 Voit lisätä näillä asetuksilla kaksi dimensiota kahtena globaalina dimensiona **Pääkirjanpidon asetukset** -sivulla. Niinpä voit käyttää ALUE- ja OSASTO-koodeja pääkirjanpidon tapahtumien suodattamina sekä kaikissa raporteissa. Molemmat globaalit dimensiot ovat myös automaattisesti käytettävissä pikadimensioina tapahtumariveillä ja asiakirjojen otsikoissa.
 
-## Useita kertoja käytettyjen dimensioiden yhteenvedon hakeminen
+## <a name="getting-an-overview-of-dimensions-used-multiple-times" />Useita kertoja käytettyjen dimensioiden yhteenvedon hakeminen
 
 **Oletusdimensiot-useita**-sivu määrittää, miten tiliryhmä käyttää dimensioita ja dimensioarvoja. Voit määrittää tämän korostamalla useita tilejä ja määrittämällä sitten oletusdimensiot ja dimension arvot niille. Tämän jälkeen sovellus ehdottaa näitä dimensioita ja dimension arvoja aina kun jotakin näistä tileistä käytetään, esimerkiksi päiväkirjan rivillä. Käyttäjän kannalta tämä helpottaa tapahtumien kirjaamista, sillä dimensiokentät täytetään automaattisesti. Huomaamyös, että ehdotettuja dimension arvoja voidaan muuttaa, esimerkiksi päiväkirjan rivillä.
 
@@ -216,7 +216,7 @@ Voit lisätä näillä asetuksilla kaksi dimensiota kahtena globaalina dimension
 |**Dimension arvokoodi**|Näkyy joko yksittäisen dimensioarvo tai termin (ristiriita). Jos kentässä näkyy dimension arvo, niin kaikilla aktivoiduilla tileillä on sama oletusdimension arvo. Jos kentässä näkyy termi (Ristiriita), niin kaikilla aktivoiduilla tileillä ei ole samaa dimension oletusarvoa. Napsauttamalla kentässä **Dimension koodia** saat näkyviin luettelon yhden dimension kaikista käytettävissä olevista dimensioarvoista. Jos valitset dimension arvon, se määritetään oletusdimension arvoksi kaikille korostettuina oleville tileille.|
 |**Arvon kirjaaminen**|Tässä kentässä näkyy joko yksittäinen arvokirjaussääntö tai termi (Ristiriita). Jos kentässä näkyy arvokirjaussääntö, niin kaikilla aktivoiduilla tileillä on sama arvokirjaussääntö dimension arvoa koskien. Jos kentässä näkyy termi (Ristiriita), niin kaikilla aktivoiduilla tileillä ei ole samaa arvokirjaussääntöä dimension arvoa koskien. Napsauttamalla **Arvon kirjaus** -kentässä saat näkyviin luettelon dimension arvokirjaussäännöistä. Jos valitset arvokirjaussäännön, valittua arvokirjaussääntöä käytetään kaikille korostettuina oleville tileille.|
 
-## Dimensioiden käyttö
+## <a name="use-dimensions" />Dimensioiden käyttö
 
 Voit lisätä asiakirjaan, kuten esimerkiksi myyntitilaukseen, dimension tiedot sekä yksittäiseen asiakirjariviin että itse asiakirjaan. Joten voit antaa **Myyntitilaus**-sivulla kahden ensimmäisen pikadimension dimension arvot yksittäisillä myyntiriveillä. Voit myös lisätä lisää dimension tietoja valitsemalla **Dimensiot**-painikkeen.  
 
@@ -224,7 +224,7 @@ Jos käsittelet sen sijaan päiväkirjaa, voit lisätä dimension tietoja tapaht
 
 Voit myös määrittää tileille tai tilityypeille oletusdimensioita, jolloin dimensiot tai dimensioiden arvot täytetään automaattisesti.
 
-### Globaalien dimensioiden tarkastelu tapahtumasivuilla
+### <a name="to-view-global-dimensions-in-ledger-entry-pages" />Globaalien dimensioiden tarkastelu tapahtumasivuilla
 
 Globaalit dimensiot ovat aina yrityskohtaisia ja yrityksen nimeämiä. Kun haluat nähdä yrityksesi globaalit dimensiot, avaa **Pääkirjanpidon asetukset** -sivu.
 
@@ -238,9 +238,9 @@ Tapahtumasivulla näet, onko tapahtumille globaaleja dimensioita. Kaksi globaali
 > [!NOTE]  
 > **Tapahtuman dimensiot** -sivulla näkyy kerralla yhden tapahtuman dimensiot. Näet, kun selaat tapahtumia, **Tapahtuman dimensiot** -sivun sisältö muuttuu vastaavasti.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/dimensions-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesdimensions-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/dimensions-dynamics-365-business-central/index)
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Business Intelligence](bi.md)  
 [Rahoitus](finance.md)  

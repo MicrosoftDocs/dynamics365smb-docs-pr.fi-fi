@@ -11,14 +11,14 @@ ms.search.forms: '5091, 5139,'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Segmenttien vuorovaikutusten hallinta
+# <a name="manage-interactions-for-segments" />Segmenttien vuorovaikutusten hallinta
 **Segmentti**-sivu on tietynlainen työkirja, jossa voit
 
 * luoda segmenttejä
 * tallentaa ne segmentointikriteerit, joita olet käyttänyt valitessasi kontakteja
 * kirjata segmentin lokiin ja tallentaa segmentin kontaktien vuorovaikutukset.
 
-## Segmentointi
+## <a name="segmenting" />Segmentointi
 Segmenttejä voi luoda usealla eri tavalla:
 
 * Voit syöttää manuaalisesti ne kontaktit, jotka haluat sisällyttää segmenttiin segmenttiriveillä.
@@ -26,17 +26,17 @@ Segmenttejä voi luoda usealla eri tavalla:
 * Voit käyttää lokiin kirjattua segmenttiä uuden segmentin pohjana.
 * Voit käyttää tallennettuja segmentointikriteerejä uudelleen.
 
-## Vuorovaikutukset
+## <a name="interactions" />Vuorovaikutukset
 **Segmentti**-sivulla voi luoda vuorovaikutuksia useammalle kontaktille samanaikaisesti. Voit esimerkiksi yhdistää segmentin Microsoft Word -asiakirjaan, jolloin voit lähettää kirjeen kaikille segmentin kontakteille.
 
 Voit määritellä segmentin vuorovaikutuksen tiedot **segmentin** otsikossa. Voit esimerkiksi päättää, mitä vuorovaikutusmallia käytät kaikille kontakteille, määritellä kuvauksen, määritellä yhteydenpidon tyypin ja niin edelleen. Voit kuitenkin muuttaa näitä tietoja segmentin rivillä jokaisen yksittäisen kontaktin osalta, esimerkiksi määrittämällä toisen kuvauksen juuri tietylle kontaktille sopivaksi. Jos olet yhdistämässä segmenttiä Microsoft Word -asiakirjan kanssa, saat yhdelle tai useammalle segmentin kontaktille lähetettävän asiakirjan persoonalliseksi esimerkiksi lisäämällä kontaktikohtaisia kommentteja asiakirjaan.
 
-## Lokiin kirjaaminen
+## <a name="logging" />Lokiin kirjaaminen
 Kun valitset **Segmentti**-sivulla **Loki**, sovellus tallentaa yhteydenpidot **Vuorovaikutuslokin tapahtuma** -sivulle ja kirjaa segmentin lokiin. Kun olet kirjannut segmentin lokiin, löydät sen vain **Lokiin kirjattu segmentti** -sivulla.
 
 **Lokiin kirjatut segmentit** -sivulla voi päättää luoda seurantasegmentin, joka sisältää samat kontaktit kuin lokiin kirjattu segmentti.
 
-## Katso myös
+## <a name="see-also" />Katso myös
 [Segmenttien luominen](marketing-how-create-segment.md)  
 [Vuorovaikutusten luominen segmenteille](marketing-how-create-interactions.md)  
 [Segmenttien hallinta](marketing-segments.md)  

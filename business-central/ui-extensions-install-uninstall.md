@@ -11,7 +11,7 @@ ms.search.keywords: 'app, add-in, manifest, customize, install, uninstall'
 ms.search.form: '2500, 20350'
 ---
 
-# Laajennusten (sovellusten) asentaminen ja asennusten poistaminen Business Centralissa
+# <a name="install-and-uninstall-extensions-apps-in-business-central" />Laajennusten (sovellusten) asentaminen ja asennusten poistaminen Business Centralissa
 
 Voit muuttaa [!INCLUDE[prod_short](includes/prod_short.md)]ia asentamalla sovelluksia, jotka esimerkiksi sisältävät lisätoimintoja, muuttavat toimintaa tai antavat uusien verkkopalveluiden käyttöoikeuden. Lisätietoja on kohdassa [Business Centralin mukauttaminen laajennusten avulla](ui-extensions.md).
 
@@ -22,7 +22,7 @@ Voit muuttaa [!INCLUDE[prod_short](includes/prod_short.md)]ia asentamalla sovell
 
 Jos haluat käyttää laajennusta, sinun on määritettävä sen mukana tulevat käyttöoikeuksien joukot.
 
-## <a name="install"></a>Laajennuksen asentaminen
+## <a name="a-nameinstallainstall-an-extension" /><a name="install"></a>Laajennuksen asentaminen
 
 Sovelluksia ja laajennuksia hallitaan **Laajennusten hallinta** -sivulla. Tämä sivu löytyy kotisivulta. Vaihtoehtoisesti valitse **Hae sivua tai raporttia** -kuvake ![Lamppu, joka avaa Kerro-toiminnon.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") oikeassa yläkulmassa, syötä **Laajennus** ja valitse sitten liittyvä linkki.  
 
@@ -69,19 +69,19 @@ Microsoft tarjoaa seuraavat sovellukset:
 * [Yhdistyneen kuningaskunnan postinumeroiden GetAddress.io-laajennus](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA – Maksusuoritusilmoituksen lähettäminen](ui-extensions-send-remittance-advice.md)
 
-## Sovelluksen määrittäminen
+## <a name="set-up-an-app" />Sovelluksen määrittäminen
 
 Sovelluksen asentamisen jälkeen se on ehkä määritettävä. Esimerkiksi **Sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] PayPal Payments Standard** -sovellukselle on määritettävä PayPal-tili. Jos näin on tehtävä, [!INCLUDE[prod_short](includes/prod_short.md)] kysyy käyttäjältä asennuksen valmistuttua, haluaako tämä määrittää sovelluksen heti. Sovellus saattaa vaatia asetukset toimiakseen.
 
 Jos haluat määrittää sovelluksen heti ja se vaaditaan asetuksessa, [!INCLUDE[prod_short](includes/prod_short.md)] avaa vaaditun asetuksen. Asetus voi olla sivu, johon syötetään tietoja, tai asetusten ohjattu määritysopas, joka auttaa vaiheiden suorittamisessa. Jos et tee asetusta kerralla valmiiksi, voit käyttää **_Sovelluksen nimi_ – asetukset** -sivua, jolla sovelluksen asetukset kerrotaan. Pakolliset asetukset osoitetaan **lihavoinnilla**.
 
-## Vuokraajakotaisen laajennuksen (PTE) lataaminen palvelimeen
+## <a name="upload-a-per-tenant-extension-pte" />Vuokraajakotaisen laajennuksen (PTE) lataaminen palvelimeen
 
 Lataat PTE:n käyttämällä **Laajennuksen hallinta** -sivua. Valitse **Laajennuksen hallinta** -sivulla **Hallinta** ja valitse sitten **Lataa laajennus palvelimeen**. Valitse **Lataa ja ota käyttöön laajennus** -sivulla ladattava .app-tiedosto. Jatka valitsemalla **Hyväksy**-painike ja sitten **Ota käyttöön**-painike, jolloin PTE-käyttöönottoprosessi aloitetaan.
 
 Jos PTE sisältää rikkovia mallin muutoksia, on mahdollista *pakottaa* sen lataaminen. Voit tehdä sen valitsemalla **Mallin synkronointi tila** -kohdassa **Pakota**-asetuksen. Näyttöön tulee vahvistusikkuna, jonka voi hyväksyä ennen jatkamista.  
 
-## Sovelluksen asennuksen poistaminen
+## <a name="uninstall-an-app" />Sovelluksen asennuksen poistaminen
 
 Sovelluksen asennus poistetaan **Laajennuksen hallinta** -sivulla. Jos haluat poistaa sovelluksen, valitse se sivulla ja valitse sitten **Poista asennus** -toiminto. Jos poistat sovelluksen asennuksen ja haluat ottaa sen takaisin käyttöön, voit asentaa sovelluksen uudelleen.
 
@@ -92,7 +92,7 @@ Oletusarvoisesti, kun poistat sovelluksen, jota olet käyttänyt, tietojasi ei p
 > * Jos kytket **Poista laajennuksen tiedot** -valinnan päälle, sovelluksen asennuksen poistaminen poistaa kaikki sovelluksen tiedot *sekä* kaikki riippuvaisten sovellusten tiedot. Toimintoa ei voi kumota.
 > * Jotkin sovellukset ovat pakollisia, eikä niitä voi poistaa **Laajennusten hallinta** -sivulla.  
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Business Centralin mukauttaminen](ui-customizing-overview.md)  
 [Muiden toimittajien Business Central -laajennukset](ui-extensions-other.md)  
@@ -103,7 +103,7 @@ Oletusarvoisesti, kun poistat sovelluksen, jota olet käyttänyt, tietojasi ei p
 [Muiden palveluntarjoajien [!INCLUDE[prod_short](includes/prod_short.md)]in laajennukset](ui-extensions-other.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

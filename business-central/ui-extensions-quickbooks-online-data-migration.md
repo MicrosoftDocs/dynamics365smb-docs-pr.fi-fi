@@ -12,11 +12,11 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ---
 
-# QuickBooks Onlinen tietojen siirtolaajennus
+# <a name="the-quickbooks-online-data-migration-extension" />QuickBooks Onlinen tietojen siirtolaajennus
 
 Tämä laajennus sisältyy **tietojen siirron** asetusten ohjattuun määritykseen, joka auttaa siirtämään tärkeitä liiketoimintatietoja QuickBooks Onlinesta [!INCLUDE[prod_short](includes/prod_short.md)]iin. Tämä on kätevää esimerkiksi tilanteessa, jossa liiketoiminta kasvaa ja olet päättänyt päivittää liiketoiminnan hallintasovelluksen aloittamalla [!INCLUDE[prod_short](includes/prod_short.md)]in käytön.
 
-## QuickBooks Onlinesta siirrettävät tiedot
+## <a name="what-data-can-i-import-from-quickbooks-online" />QuickBooks Onlinesta siirrettävät tiedot
 
 Voit tuoda seuraavat tiedot QuickBooks Onlinesta [!INCLUDE[prod_short](includes/prod_short.md)]iin:  
 
@@ -33,7 +33,7 @@ Myynti- ja ostoasiakirjoissa vain täydet summat siirretään. Osittain maksettu
 > [!NOTE]  
 > Osto- tai myyntitilauksia ei siirretä.
 
-## Ennen kuin aloitat
+## <a name="before-you-start" />Ennen kuin aloitat
 
 Siirtoprosessiin olennaisesti kuuluva osa on määrittää tilit, joihin tapahtumat siirretään. Nämä yhdistämismääritykset on hyvä suunnitella ennen tietojen siirtoa. Kyse on esimerkiksi tileistä, joille seuraavat tapahtumat kirjataan:  
 
@@ -45,14 +45,14 @@ Siirtoprosessiin olennaisesti kuuluva osa on määrittää tilit, joihin tapahtu
 
 Jos QuickBooks Onlinen tapahtumissa on verosummia, [!INCLUDE[prod_short](includes/prod_short.md)]issa on määritettävä veroalueen verotili ennen tapahtumien kirjaamista.
 
-## Laajennuksen käytön aloittaminen
+## <a name="how-do-i-start-using-the-extension" />Laajennuksen käytön aloittaminen
 
 Aloittaminen on helppoa. Sinun tarvitsee vain suorittaa **tietojen siirron** asetusten ohjattu määritys. Ohjeet:
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asetusten ohjattu määritys** ja valitse sitten **Siirrä liiketoimintatiedot**.
 2. Noudata asetusten ohjatun määrityksen ohjeita.
 
-## Toimenpiteet tietojen siirtämisen jälkeen
+## <a name="what-do-i-do-after-i-migrate-data" />Toimenpiteet tietojen siirtämisen jälkeen
 
 Tietojen siirron jälkeen tapahtumien tila on **Kirjaamaton**, joten voit tarkastella niitä ja tehdä muutoksia. Voit tarkastella tapahtumia siirtymällä sivulle, jossa ne yleensä ovat. Voit tarkastella kirjaamattomia myyntilaskuja esimerkiksi siirtymällä **Myyntilaskut**-sivulle. Voit tarkastella maksupäiväkirjoja siirtymällä **Maksupäiväkirjat**-sivulle.  
 
@@ -62,9 +62,9 @@ Tietyt toimenpiteet kannattaa tehdä:
 * Jos käytät arvolisäveroa (ALV:tä), liiketoiminnan kirjausryhmä ja tuotteen kirjausryhmä on ehkä lisättävä kirjausasetuksiin ALV-summien kirjaamista varten.
 * Tarkista pääkirjanpidon tilien alkusaldot. QuickBooks Online ei tallenna kaikkien tilien ajankohtaisia saldoja, joten alkusaldoja on ehkä korjattava.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/migrate-data-dynamics-365-business-central/)
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  

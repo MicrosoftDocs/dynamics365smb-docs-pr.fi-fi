@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.date: 03/08/2023
 ms.custom: bap-template
 ---
-# Projektien kulutuksen tai käytön kirjaaminen
+# <a name="record-consumption-or-usage-for-jobs" />Projektien kulutuksen tai käytön kirjaaminen
 
 **Työkortti**-sivulla voidaan avata **Projektin suunnittelurivit** -sivu, jossa voidaan tarkastella projektin eri osia ja kirjata niiden käyttö. Nämä tiedot päivitetään automaattisesti, kun tietoja muokataan ja siirretään projektien ja projektipäiväkirjojen tai projektilaskujen välillä. Tämä edellyttää, että **Käytä käyttölinkkiä oletusarvoisesti** on otettu käyttöön vaihtopainikkeella **Projektiasetukset**-sivulla. Lisätietoja kohdassa [Projektien määrittäminen](projects-how-setup-jobs.md).  
 
@@ -17,7 +17,7 @@ Esimerkiksi **Budjetti**-tyyppisille suunnitteluriveille voidaan syöttää resu
 
 Seuraavaksi käsitellään projektipäiväkirjan todellisten (budjetoitujen) määrien ja kustannusten kirjaamista. Vaihtoehtoisesti voidaan käyttää ostoasiakirjoja projektin ostojen kirjaamiseen. Lisätietoja on kohdassa [Projektin tarvikkeiden hallinta](projects-how-manage-project-supplies.md).
 
-## Käytön kirjaaminen Budjetti-tyypin projektin suunnitteluriville
+## <a name="to-record-usage-for-a-job-planning-line-of-type-budget" />Käytön kirjaaminen Budjetti-tyypin projektin suunnitteluriville
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten vastaava linkki.  
 2. Valitse projekti ja valitse sitten **Projektin suunnittelurivit** -toiminto. 
@@ -42,7 +42,7 @@ Seuraavaksi käsitellään projektipäiväkirjan todellisten (budjetoitujen) mä
 9. Tarkista **Projektin suunnittelurivit** -sivulla kirjattu käyttö **Määrä**-, **Jäljellä oleva määrä**- ja **Päiväkirjaan siirrettävä määrä** -kentän avulla.  
 10. Kirjaa lisäkäyttö toistamalla vaiheet 3–8.  
 
-## Luo projektipäiväkirjan rivit manuaalisesti
+## <a name="to-create-job-journal-lines-manually" />Luo projektipäiväkirjan rivit manuaalisesti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektipäiväkirjat** ja valitse sitten vastaava linkki.  
 2. Valitse **Erän nimi** -kentässä asianmukaisen projektipäiväkirjan erä.  
@@ -51,7 +51,7 @@ Seuraavaksi käsitellään projektipäiväkirjan todellisten (budjetoitujen) mä
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Projektin käytön arvioiden tarkasteleminen ja päivitysten kirjaaminen
+## <a name="to-view-job-usage-estimates-and-post-updates" />Projektin käytön arvioiden tarkasteleminen ja päivitysten kirjaaminen
 
 Voit katsella projektin käyttöä projektin valmistumiseen asti yhden vaiheen avulla. Tämä tapahtuu käyttämällä **Laske projektin jäljellä oleva käyttö** -eräajoa kaikissa tehtävissä projektin alusta loppuun.  
 
@@ -66,7 +66,7 @@ Näin voit seurata ja vertailla alkuperäisiä arvioita todellisiin tuloksiin. V
 4. Päivitä tarvittavat muutokset päiväkirjaan.  
 5. Valitse **Kirjaa**.
 
-## Luo varaston ja fyysisen varaston poiminta-asiakirjat projektille
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-job" />Luo varaston ja fyysisen varaston poiminta-asiakirjat projektille
 
 Jos haluat luoda varaston ja fyysisen varaston poiminta-asiakirjat projekteille, järjestelmänvalvojan on määritettävä **Ominaisuuspäivitys: Ota käyttöön varaston ja fyysisen varaston poiminnat projekteista** -kohta käyttöön **Ominaisuuksien hallinta** -sivulla.
 
@@ -85,7 +85,7 @@ Voit käyttää toimintoja seuraavien ehtojen perusteella:
 > 
 > Jos sijainti on määritetty edellyttämään sekä poiminta- että toimituskäsittelyä eli olet valinnut sekä **Vaadi poiminta**- ja **Vaadi toimitus** -kohdan **Sijaintikortti**-sivulla, voit käsitellä poiminnan **F. varaston poiminta** -sivulla. Fyysisen varaston poiminnat ovat samanlaisia kuin varaston poiminnat. Erona on, että poiminnan tietojen kirjaamisen sijaan poiminta rekisteröidään. Tämä rekisteröinti ei kirjaa kulutusta, vaan se vain määrittää nimikkeet saataville kirjaamista varten. Varastopäällikkönä voit järjestää poimintatiedot poimintatyökirjan avulla ennen yksittäisten fyysisen varastoinnin poimintaohjeiden luontia
 
-## Projektitapahtuman suunnittelurivien tarkasteleminen
+## <a name="to-review-planning-lines-for-a-job-ledger-entry" />Projektitapahtuman suunnittelurivien tarkasteleminen
 
 Kun olet kirjannut projektipäiväkirjan rivit, näkyvissä ovat suunnittelurivit, jotka liittyvät kirjattuihin projektitapahtumiin.
 
@@ -96,9 +96,9 @@ Kun olet kirjannut projektipäiväkirjan rivit, näkyvissä ovat suunnittelurivi
 2. Valitse asianmukaisen projektin päiväkirja ja valitse sitten **Tapahtumakirjaukset**-toiminto.  
 3. Valitse **Projektitapahtumat**-sivulla **Näytä linkitetyt projektin suunnittelurivit** -toiminto.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-trainingtrainingpathspost-job-usage-sales" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/post-job-usage-sales/)
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Projektinhallinta](projects-manage-projects.md)  
 [Rahoitus](finance.md)  

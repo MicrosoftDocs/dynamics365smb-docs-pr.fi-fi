@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Huoltohallinto
+# <a name="service-management" />Huoltohallinto
 > [!NOTE]
 > Tässä ohjeaiheessa ja aliohjeaiheissa esitellyt toiminnot näkyvät käyttöliittymässä vain, jos käytössä on **Premium**-käyttökokemus. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
 
@@ -36,12 +36,12 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Luo ja hallitse asiakkaiden kanssa tehtyjä sopimuksia.|[Huoltosopimusten toteuttaminen](service-fulfill-service-contracts.md)|  
 |Tarjoa asiakkaille huoltoja ja laskuta huoltotilauksia.|[Huollon toimittaminen](service-deliver-service.md)|  
 
-## Katso myös  
+## <a name="see-also" />Katso myös
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)   
 [Projektit](projects-how-create-jobs.md)   
 [Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin!](welcome.md)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

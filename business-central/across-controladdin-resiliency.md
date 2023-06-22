@@ -11,7 +11,7 @@ ms.author: solsen
 ms.date: 04/01/2022
 ---
 
-# Ohjausobjektilaajennuksen vikasietoisuus Business Centralissa
+# <a name="control-add-in-resiliency-in-business-central" />Ohjausobjektilaajennuksen vikasietoisuus Business Centralissa
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in päivityksen 20.0 jälkeen järjestelmä tunnistaa automaattisesti hitaasti toimivat ohjausobjektiapuohjelmat, ja näyttöön tulee seuraavan kaltainen valintaikkuna.
 
@@ -19,6 +19,6 @@ ms.date: 04/01/2022
 
 Epäkuntoinen ohjausobjektiapuohjelma saattaa vaikuttaa Business Central -kokemukseen ja aiheuttaa sen, että käyttämäsi sivu käynnistyy hitaasti. Sillä ei ole vaikutusta tietoihin, ja tekemäsi muutokset tallennetaan aina. Jos näet varoituksen yllä kuvatulla tavalla, voit piilottaa sen, mutta se voi tulla takaisin ja jos ongelma toistuu, ota yhteyttä järjestelmänvalvojaan.
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 <!-- []() link to new topic in dev docs -->

@@ -9,11 +9,11 @@ ms.date: 03/09/2023
 ms.custom: bap-template
 ms.search.form: '7328, 7348'
 ---
-# Varastotyöntekijöiden määrittäminen
+# <a name="set-up-warehouse-employees" />Varastotyöntekijöiden määrittäminen
 
 Jokainen varastotoimintoja suorittava käyttäjä on määritettävä varastotyöntekijäksi ja määritettävä oletussijaintiin. [!INCLUDE [prod_short](includes/prod_short.md)] suodattaa varastotoiminnot työntekijän oletussijaintiin. He voivat suorittaa varastotoimintoja vain sijainnissa. Voit myös määrittää käyttäjän muihin sijainteihin. He voivat käyttää niitä, mutta he eivät voi suorittaa aktiviteetteja näissä sijainneissa.
 
-## Varastotyöntekijöiden määrittäminen  
+## <a name="to-set-up-warehouse-employees" />Varastotyöntekijöiden määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston työntekijät** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
@@ -22,9 +22,9 @@ Jokainen varastotoimintoja suorittava käyttäjä on määritettävä varastoty�
 5. Ota käyttöön **Oletus**-vaihto, jos haluat määrittää, että tämä on ainoa sijainti, jossa työntekijä voi suorittaa varastotoimintoja.  
 6. Liitä sijainteihin muita työntekijöitä tai liitä aiemmin luoduille varastotyöntekijöille muita sijainteja toistamalla nämä vaiheet.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/get-started-warehouse-management/)
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
 [Varasto](inventory-manage-inventory.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Huoltotilauksen tila ja korjauksen tila
+# <a name="service-order-status-and-repair-status" />Huoltotilauksen tila ja korjauksen tila
 
 **Huoltotilaus**-sivun **Tila**-kentällä (huoltotilauksen tilalla) ja **Huoltotilaus**-sivun **Korjauksen tilakoodi** -kentällä on tietty yhteys huoltohallinnon kohdistusalueella. Huoltotilauksen tila kuvastaa kaikkien huoltotilauksessa olevien huoltonimikkeiden korjauksen tilaa.  
 
@@ -27,7 +27,7 @@ Kun huoltotarjous muunnetaan huoltotilaukseksi, ohjelma muuttaa jokaisen tilauks
 > [!NOTE]
 > Ennen kuin voit luoda huoltotilauksia, sinun on asetettava korjauksen tilat ja huollon tilojen prioriteetit. Lisätietoja on kohdassa [Huoltotilausten ja korjausten tilojen määrittäminen](service-order-repair-status.md).
 
-## Huoltotilauksen tilan määrittäminen korjauksen tilaa varten
+## <a name="specifying-service-order-status-for-repair-status" />Huoltotilauksen tilan määrittäminen korjauksen tilaa varten
 
 Jokainen korjauksen tila on linkitetty tiettyyn huoltotilauksen tilaan. Huoltotilauksen tilan vaihtoehdot ovat seuraavat:
 
@@ -48,23 +48,23 @@ Korjauksen tilojen vaihtoehdot ovat seuraavat:
 * **Varaosa vastaanotettu**
 * **Valmis**  
 
-### Odottava
+### <a name="pending" />Odottava
 
 Huoltotilauksen tila **Odottava** tarkoittaa sitä, että huolto voi alkaa tai jatkua milloin tahansa. Tämän vuoksi korjauksen tilan vaihtoehdot **Alku**, **Lykätty**, **Osittain huollettu** ja **Varaosa vastaanotettu** voidaan kaikki linkittää kyseiseen huoltotilauksen tilaan.  
 
-### Työn alla
+### <a name="in-process" />Työn alla
 
 Huoltotilauksen tila **Työn alla** tarkoittaa sitä, että huolto on käynnissä. Tämän vuoksi korjauksen tilan vaihtoehdot **Työn alla** ja **Varaosa tilattu** voidaan molemmat linkittää kyseiseen huoltotilauksen tilaan. Jos **Varaosa tilattu** -tila linkitetään huoltotilauksen **Työn alla** -tilaan, myös **Varaosa vastaanotettu** -tila tulee linkittää tähän huoltotilauksen tilaan.  
 
-### Estossa
+### <a name="on-hold" />Estossa
 
 Huoltotilauksen tila **Estossa** tarkoittaa sitä, että huolto on tällä hetkellä estossa, koska ennen huollon aloittamista täytyy odottaa asiakkaan vastausta tai varaosia. Tämän vuoksi korjauksen tilan vaihtoehdot **Tarjous valmis**, **Varaosa tilattu** ja **Odotetaan asiakasta** voidaan kaikki linkittää kyseiseen huoltotilauksen tilaan.  
 
-### Valmis
+### <a name="finished" />Valmis
 
 Huoltotilauksen tila **Valmis** tarkoittaa sitä, että huolto on suoritettu loppuun. Tämän vuoksi korjauksen tila **Valmis** on linkitetty kyseiseen tilaan.  
 
-## Prioriteetin määritteleminen huoltotilauksen tilalle
+## <a name="assigning-priority-to-service-order-status" />Prioriteetin määritteleminen huoltotilauksen tilalle
 
 Kun muutat (tai ohjelma muuttaa) huoltonimikkeen korjauksen tilaa, ohjelma etsii huoltotilauksen tilan vaihtoehdot, jotka on linkitetty kaikkien tilauksessa olevien huoltonimikkeiden eri korjauksen tilan vaihtoehtoihin. Jos huoltonimikkeet on linkitetty kahteen tai useampaan huoltotilauksen tilan vaihtoehtoon, ohjelma valitsee huoltotilauksen tilan, jolla on korkein prioriteetti.  
 
@@ -72,7 +72,7 @@ Sinun täytyy päättää, mikä huoltotilauksen tila sisältää tärkeimmät t
 
 Kun luot uuden huoltotilauksen ja lisäät siihen huoltonimikkeitä, huoltotilauksen otsikon **Prioriteetti**-kenttä päivitetään huoltonimikkeiden prioriteettien perusteella.  
 
-### Esimerkki
+### <a name="example" />Esimerkki
 
 Tavallinen prioriteettitason määrittely voisi olla seuraavanlainen:  
 
@@ -83,7 +83,7 @@ Tavallinen prioriteettitason määrittely voisi olla seuraavanlainen:
 
 Esimerkiksi jos yhdellä huoltonimikkeellä on korjauksen tilana **Alku** (joka on linkitetty huoltotilauksen tilaan **Odottava**), toisella tilana on **Työn alla** (joka on linkitetty huoltotilauksen tilaan **Työn alla**) ja kolmannella **Varaosa tilattu** (joka on linkitetty huoltotilauksen tilaan **Estossa**), seurauksena syntyvä huoltotilauksen tila on **Työn alla**, koska sillä on korkein prioriteetti.  
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Huoltotilausten ja -korjausten tilan määrittäminen](service-order-repair-status.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  

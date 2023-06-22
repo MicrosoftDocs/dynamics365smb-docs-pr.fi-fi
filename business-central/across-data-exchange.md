@@ -11,7 +11,7 @@ ms.date: 06/10/2021
 ms.author: edupont
 ---
 
-# Sähköinen tiedonsiirto
+# <a name="exchanging-data-electronically" />Sähköinen tiedonsiirto
 Voit hallita liiketoiminta-asiakirjojen, pankkitiedostojen, vaihtokurssien ja muiden datatiedostojen siirtoa liikekumppaneille tiedonsiirtokehyksen avulla.
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in perusversiossa tiedonsiirtokehystä käytetään prosesseissa, kuten elektronisten asiakirjojen vaihdossa, pankkitiedostojen tuonnissa/viennissä ja valuutanvaihtokurssien päivityksessä. Lisätietoja on kohdassa [Tietoja tiedonsiirtokehyksestä](across-about-the-data-exchange-framework.md).
@@ -26,7 +26,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Valmistele tiedoston tietojen vaihto käyttämällä tiedoston XML-rakennetta. Määritä tietojenvaihtomääritykset. Määritä perustiedot sähköisten asiakirjojen lähettämistä varten. Määritä pankin tuonti- ja vientikentät.|[Tiedonsiirron määrittäminen](across-set-up-data-exchange.md)|  
 |Lähetä PEPPOL-laskuja, vastaanota PEPPOL-laskuja, tuo tiliotteita ja vie pankin maksutiedostoja tietojenvaihtomääritysten mukaisesti.|[Tiedonsiirto](across-exchange-data.md)|  
 
-## Katso myös  
+## <a name="see-also" />Katso myös
 [Tietoja tiedonvaihto-kehyksestä](across-about-the-data-exchange-framework.md)  
 [XML-mallien käyttäminen tietojenvaihtomääritysten valmisteluun](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Tiedonsiirron määrittäminen](across-set-up-data-exchange.md)  

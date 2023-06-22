@@ -12,14 +12,14 @@ ms.date: 09/20/2022
 ms.author: bholtorf
 ---
 
-# Tietueen hakeminen tiedoista
+# <a name="search-for-a-record-in-your-data" />Tietueen hakeminen tiedoista
 
 Kun haluat etsiä tietyn tietueen tai arvon, käytä **Hae tietoja** -toimintoa. Aloita haku roolikeskuksessa seuraavasti:
 
 * Käytä **Hae tietoja** -toimintoa
 * Käytä <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>F</kbd>-pikanäppäinyhdistelmää.
 
-## Haun toiminta
+## <a name="how-search-works" />Haun toiminta
 
 Kun olet syöttänyt hakusanat, [!INCLUDE[prod_short](includes/prod_short.md)] aloittaa haun taustalla ja käy läpi kunkin taulukon yksi kerrallaan. Hakutulokset alkavat näkyä sen jälkeen, kun kukin taulukko on valmis. 
 
@@ -32,11 +32,11 @@ Joka kerran kun valitset hakutuloksen, kasvatat taulukon suosiota, ja se näkyy 
 > [!NOTE]
 > Myynti-, osto- ja huoltoasiakirjojen otsikot edustavat eri asiakirjatyyppejä, kuten tarjouksia, laskuja ja tilauksia. Otsikoita käsitellään taulukoina. Jos avainsana löytyi jonkin asiakirjan riviltä ja valitset hakutuloksen, sivulla näytetään asiakirja, ei vain rivi.
 
-## Aloitusopas
+## <a name="getting-started" />Aloitusopas
 
 Voit nopeuttaa tuloksia valitsemalla niiden taulukoiden kentät, jotka haluat sisällyttää hakuihisi. Valittavissa olevat taulukot ja kentät vaihtelevat roolikeskuksesta riippuen. Oletusarvoisesti kaikki taulukot ja kentät on valittuna. Tämä voi hidastaa hakua. Kannattaa sulkea pois niin monta taulukkoa ja kenttää, kuin mahdollista.
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)  
 [Tietojen antaminen](ui-enter-data.md)  

@@ -9,7 +9,7 @@ ms.date: 06/14/2021
 ms.author: mikebc
 ---
 
-# Uusien ja tulevien ominaisuuksien käyttöönotto etuajassa
+# <a name="enabling-new-and-upcoming-features-ahead-of-time" />Uusien ja tulevien ominaisuuksien käyttöönotto etuajassa
 
 Joitakin uusia ominaisuuksia voidaan ottaa käyttöön etuajassa, joten voit hyödyntää niitä mahdollisimman aikaisin. Ominaisuuksien ottaminen käyttöön varhaisessa vaiheessa antaa sinulle aika testata ja valmistella organisaatiota muutokselle.
 
@@ -17,9 +17,9 @@ Kun Microsoft julkaisee ominaisuuksia tai ominaisuuksia koskevia parannuksia osa
 
 Lue lisää kohdasta [Ominaisuuksien hallinta](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/admin-online-dynamics-365-business-central/)
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Uusia ja suunniteltuja ominaisuuksia](/dynamics365-release-plan/2021wave1/)  
 

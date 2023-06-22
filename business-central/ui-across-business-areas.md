@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 12/01/2022
 ms.custom: bap-template
 ---
-# Yleiset liiketoimintatoiminnot
+# <a name="general-business-functionality" />Yleiset liiketoimintatoiminnot
 
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää omat toiminnot tavallisille liiketoiminta-alueille, kuten rahoitus ja myynti. Lisätietoja on kohdassa [Liiketoiminnan toiminnallisuus](across-business-functionality.md).
 
@@ -45,11 +45,11 @@ Seuraava taulukko sisältää nämä yleiset liiketoiminta-alueet ja linkit niit
 | Määritä tiedonsiirtomääritykset sähköisten asiakirjojen lähettämistä ja vastaanottamista varten. |[Sähköinen tiedonsiirto](across-data-exchange.md) |
 | Käytä verkkokarttoja, jos haluat etsiä asiakkaiden ja toimittajien sijainteja ja osoitteita yleisesti. | [Sijaintien ja reittiohjeiden etsiminen online-karttojen avulla](across-online-maps.md) |
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Hallinta](admin-setup-and-administration.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

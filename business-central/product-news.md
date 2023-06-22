@@ -7,7 +7,7 @@ ms.search.keywords: 'news, release plan, roadmap, whats new'
 ms.date: 12/07/2022
 ms.author: edupont
 ---
-# Uusia ja suunniteltuja ominaisuuksia Dynamics 365 Business Centralille
+# <a name="new-and-planned-for-dynamics--business-central" />Uusia ja suunniteltuja ominaisuuksia Dynamics 365 Business Centralille
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
@@ -20,11 +20,11 @@ Seuraavassa luettelossa on tietoja uusimmista [!INCLUDE [prod_short](includes/pr
 
 Voit halutessasi myös tutustua [Dynamics 365 Business Central -ominaisuudet](https://dynamics.microsoft.com/business-central/capabilities/) -sivustoon ja [Dynamics 365 Business Central -etenemissuunnitelma](https://dynamics.microsoft.com/roadmap/business-central/) -sivustoon.  
 
-## Ilmoitukset tehdyistä muutoksista RSS-syötteen kautta
+## <a name="get-notified-about-changes-through-an-rss-feed" />Ilmoitukset tehdyistä muutoksista RSS-syötteen kautta
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Microsoftin videokirjastoon tutustuminen](across-videos.md)  
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
@@ -36,6 +36,6 @@ Voit halutessasi myös tutustua [Dynamics 365 Business Central -ominaisuudet](ht
 [Business Centralin hinnoittelu](https://dynamics.microsoft.com/business-central/overview/#pricing)  
 [Dynamics 365 Business Central -yhteisö](https://community.dynamics.com/business/)
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

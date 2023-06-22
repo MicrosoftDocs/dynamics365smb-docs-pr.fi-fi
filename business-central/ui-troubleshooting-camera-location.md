@@ -11,17 +11,17 @@ ms.tgt_pltfrm: na
 ms.topic: conceptual
 ---
 
-# Vian etsintä: kameran ja sijainnin käyttäminen
+# <a name="troubleshooting-accessing-camera-and-location" />Vian etsintä: kameran ja sijainnin käyttäminen
 
 Saatat törmätä joihinkin ongelmiin, kun yrität käyttää laitteen kameraa ja sijaintitietoja kohteesta [!INCLUDE[prod_short](includes/prod_short.md)]. Löydät mahdolliset syyt näiden ongelmien takana ja voit kiertää ne alla olevien ohjeiden avulla.
 
-## Laitteessa on oltava kamera- ja sijaintiominaisuudet
+## <a name="device-must-have-camera-and-location-capabilities" />Laitteessa on oltava kamera- ja sijaintiominaisuudet
 
 Jotta voisit käyttää kameraa tai käyttäjän sijaintia laitteesta, laitteessa on oltava fyysinen kamera tai mahdollisuus hakea sijaintitietoja.
 
 Jos laitteessa on kamera ja sijaintiominaisuudet, mutta ongelmia ilmenee edelleen, jotkin ohjaimet on ehkä päivitettävä tai asennettava uudelleen. Vaikka et olisikaan varma, suosittelemme aina, että päivität laitteesi käyttöjärjestelmän, ohjaimet ja selaimen uusimpaan versioon saadaksesi parhaan käyttökokemuksen.
 
-## Käyttöoikeuksia ei ole otettu käyttöön
+## <a name="access-permissions-not-enabled" />Käyttöoikeuksia ei ole otettu käyttöön
 
 Sinun on otettava käyttöön kameran ja sijainnin yleinen käyttöoikeus laitteesi tietosuoja-asetuksista ja annettava niille eksplisiittisesti käyttöoikeus kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]. Jos haluat esimerkiksi tarkastella tai muuttaa Windowsissa suoritettavan laitteen käyttöoikeuksia, valitse **Asetukset**, valitse **Yksityisyys** ja valitse sitten **Sovelluksen käyttöoikeudet**. 
 
@@ -34,21 +34,21 @@ Oletusarvon mukaan laite tai selain näyttää pyynnön käyttää näitä omina
 > [!NOTE]  
 > Jotkin vanhat selaimet eivät salli kameran ja sijainnin käyttöä. Kamera ei ole käytettävissä esimerkiksi Internet Explorerissa tai vanhassa Edge-selaimessa.
 
-## WWW-asiakasohjelman yhteys ei ole suojattu
+## <a name="web-client-connection-not-secure" />WWW-asiakasohjelman yhteys ei ole suojattu
 
 Kamera- ja sijaintiominaisuudet ovat käytettävissä vain, kun WWW-asiakasohjelmaa käytetään SSL-suojattujen HTTP-yhteyksien avulla `https://`-URI-mallin avulla. 
 
 Ainoa poikkeus on yhteyden muodostus kohteeseen `http://localhost`, jota käytetään kehitys- ja testitarkoituksiin.
 
 
-## Virtualisointitekniikoiden käyttäminen
+## <a name="work-with-virtualization-technologies" />Virtualisointitekniikoiden käyttäminen
 
 Kun muodostat yhteyden kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)] etätyöpöydän tai muun virtualisoinnin kautta, kameran tai sijainnin käyttö ei välttämättä ole käytettävissä. Käytä tässä tapauksessa fyysistä järjestelmää sen sijaan.
 
-## Virustentorjuntaohjelmisto
+## <a name="antivirus-software" />Virustentorjuntaohjelmisto
 Jotkin virustentorjuntaohjelmat estävät oletusarvoisesti kameran ja sijainnin käytön. Muista tarkistaa virustentorjuntaohjelman asetukset.
 
-## Katso myös
+## <a name="see-also" />Katso myös
 [Kameran käyttöönotto AL:ssä](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [Sijainnin käyttöönotto AL:ssä](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
 

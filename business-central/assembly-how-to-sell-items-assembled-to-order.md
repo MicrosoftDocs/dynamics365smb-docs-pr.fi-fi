@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting, substitute items'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
 ---
-# Kokoonpano tilausta varten -nimikkeiden myyminen
+# <a name="sell-items-assembled-to-order" />Kokoonpano tilausta varten -nimikkeiden myyminen
 
 Tilausta varten koottujen nimikkeiden ei odoteta olevan varastossa, ja ne kootaan, kun ne sisällytetään myyntitilaukseen. Nimike on määritetty tilausta varten koottavaksi, kun nimikkeen kortin **Kokoonpanokäytäntö**-kentässä lukee **Kokoonpano tilausta varten**. Kun syötät nimikkeen myyntitilausriville, kokoonpanotilaus luodaan ja linkitetään myyntitilaukseen automaattisesti.  
 
@@ -28,7 +28,7 @@ Tässä toimenpiteessä käsittelet asiakkaan pyytämien määrittelyjen mukaan 
 > [!NOTE]  
 > Seuraava toimenpide ei sisällä vakiomyyntitilauksen luomisen vaiheita, jotka tapahtuvat ennen kuin syötät Kokoonpano tilaukseen -nimikkeen myyntitilausriville. Lisätietoja myyntitilausten luomisesta on kohdassa [Tuotteiden myyminen asiakkaan myyntitilauksen avulla](sales-how-sell-products.md).  
 
-## Myy nimike, jok aon kokoonpano tilausta varten
+## <a name="to-sell-an-item-that-is-assembled-to-order" />Myy nimike, jok aon kokoonpano tilausta varten
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 2. Luo myyntitilaus. 
@@ -60,9 +60,9 @@ Tässä toimenpiteessä käsittelet asiakkaan pyytämien määrittelyjen mukaan 
 > [!NOTE]  
 > Korvaavat nimikkeet eivät korvaa nimikettä automaattisesti toisella nimikkeellä esimerkiksi myyntitilausta luotaessa tai tuoterakenteessa. Sen sijaan sinulle ilmoitetaan, että korvaava vaihtoehto on saatavilla.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Kokoonpanon tuoterakenteiden käyttäminen](assembly-how-work-assembly-boms.md)  

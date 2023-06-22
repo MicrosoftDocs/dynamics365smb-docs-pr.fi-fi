@@ -17,7 +17,7 @@ ms.contentlocale: fi-FI
 ms.lasthandoff: 11/24/2022
 ms.locfileid: "9804497"
 ---
-# <a name="assemble-items"></a>Kokoa nimikkeet
+# <a name="assemble-items" /><a name="assemble-items"></a>Kokoa nimikkeet
 
 Jos nimikkeen kortin **Täydennysjärjestelmä**-kenttä sisältää **kokoonpanon**, nimikkeen toimituksen oletustapa on koota nimike kokoonpanon tuoterakenteen mukaan ja mahdollisesti tietyn resurssin toimesta. Lisätietoja on kohdassa [Kokoonpanon tuoterakenteiden käyttäminen](assembly-how-work-assembly-boms.md). Lisätietoja kokoonpanon nimikkeen määrittämisestä on kohdassa [Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista](assembly-assemble-to-order-or-assemble-to-stock.md).
 
@@ -33,7 +33,7 @@ Tämä artikkeli kuvaa Kokoonpano varastoon -prosessin vakioasetukset. Saatavill
 > [!NOTE]  
 > Kokoonpanon komponentit käsitellään tietyllä tavalla fyysisen varastoinnin perusmäärityksissä. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-## <a name="to-assemble-an-item-to-stock"></a>Nimikkeen kokoaminen varastoon
+## <a name="to-assemble-an-item-to-stock" /><a name="to-assemble-an-item-to-stock"></a>Nimikkeen kokoaminen varastoon
 
 Noudata näitä ohjeita kootaksesi nimikkeen varasoton. Lisätietoja Kokoonpano tilausta varten -prosessista on kohdassa [Kokoonpano tilausta varten -nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md).
 
@@ -67,9 +67,9 @@ Noudata näitä ohjeita kootaksesi nimikkeen varasoton. Lisätietoja Kokoonpano 
 
 Kun kirjaus on onnistunut, kokoonpanon nimike kirjatataan sijaintikoodiin ja mahdolliseen varastopaikkakoodiin, jotka on määritetty kokoonpano tilauksessa. Jos kokoonpanotilaus on luotu manuaalisesti, sijainti voidaan kopioida **Tilausten oletussijainti** -asetuskentästä Jos kyseessä on kokoonpano tilausta varten -virrat, sijaintikoodi voidaan kopioida myyntitilausriviltä.  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics--business-central" /><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also" /><a name="see-also"></a>Katso myös
 
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Kokoonpanon tuoterakenteiden käyttäminen](assembly-how-work-assembly-boms.md)  

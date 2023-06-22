@@ -10,13 +10,13 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# Huoltonimikkeiden ja huoltonimikkeen komponenttien määrittäminen
+# <a name="set-up-service-items-and-service-item-components" />Huoltonimikkeiden ja huoltonimikkeen komponenttien määrittäminen
 Huoltonimikkeiden käyttöä varten on määritettävä seuraavat asetukset
 
 * Huoltonimikeryhmät.
 * Valinnainen
 
-## Huoltonimikeryhmien määrittäminen
+## <a name="to-set-up-service-item-groups" />Huoltonimikeryhmien määrittäminen
 Voit määrittää korjaus- ja ylläpitoehtoihin liittyvät nimikeryhmät. Huoltonimikeryhmässä oleville huoltonimikkeille voi määritellä oletusarvoja, kuten vastausajan, sopimusalennus-%:n ja huoltohintaryhmän. Huoltonimikeryhmässä olevien nimikkeiden osalta voi valita, halutaanko, että ne rekisteröidään automaattisesti huoltonimikkeiksi silloin, kun ne myydään.  
 
 Huoltonimikeryhmiä määritetään **Nimike**-kortin nimikkeille ja **Huoltonimike**-kortin huoltonimikkeille.  
@@ -29,7 +29,7 @@ Huoltonimikeryhmiä määritetään **Nimike**-kortin nimikkeille ja **Huoltonim
 6. Anna **Oletusvastausaika (tuntia)** -kenttään oletusvastausaika tunneissa, jonka haluat ryhmässä olevilla huoltonimikkeillä olevan.  
 7. Jos haluat rekisteröidä ryhmän nimikkeen huoltonimikkeiksi silloin, kun ne myydään, valitse **Luo huoltonimike** -kenttä.  
 
-## Huoltonimikkeen komponenttien määrittäminen
+## <a name="to-set-up-service-item-components" />Huoltonimikkeen komponenttien määrittäminen
 Huoltonimike voi koostua useista komponenteista, jotka voidaan korvata varaosilla nimikettä huollettaessa. Nämä komponentit määritetään **Huoltonimikk. komponenttiluet.** -sivulla. Jos lisäksi haluat määrittää komponentteja huoltonimikkeille, jotka ovat tuoterakenteita, tuoterakennenimikkeet voidaan kopioida ja luoda huoltonimikkeen komponentteina.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltonimikkeet** ja valitse sitten vastaava linkki.
@@ -39,7 +39,7 @@ Huoltonimike voi koostua useista komponenteista, jotka voidaan korvata varaosill
 5. Valitse **Tyyppi** -kentässä **Huoltonimike**, jos itse komponentti on rekisteröity huoltonimike. Muutoin valitse **Nimike**.  
 6. Valitse **Nro**-kenttään nimike tai huoltonimike, joka on huoltonimikkeen komponentti.  
 
-## Huoltonimikkeen komponenttien määrittäminen tuoterakenteista
+## <a name="to-set-up-service-item-components-from-a-bom" />Huoltonimikkeen komponenttien määrittäminen tuoterakenteista
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltonimikkeet** ja valitse sitten vastaava linkki.  
 2. Avaa huoltonimike, jolle haluat määrittää komponentteja huoltorakenteesta.  
 3. Valitse **Komponentit**-toiminto. Näyttöön tulee **Huoltonimikk. komponenttiluet.** -sivu.  
@@ -47,13 +47,13 @@ Huoltonimike voi koostua useista komponenteista, jotka voidaan korvata varaosill
 
     Jos nimike, johon huoltonimike on linkitetty, on tuoterakenne, ohjelma luo automaattisesti komponentteja kaikille tuoterakenteessa oleville nimikkeille.  
 
-## Huoltohyllyn määrittäminen
+## <a name="to-set-up-a-service-shelf" />Huoltohyllyn määrittäminen
 Voit määrittää huoltohyllyjä, jotka ilmaisevat, mihin huoltonimikkeet varastoidaan. Huoltohyllyt määritetään huoltonimikkeille **Huoltotilaus**- ja **Huoltonimikkeen työkirja** -sivuilla.  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltohyllyt** ja valitse sitten vastaava linkki.
 2. Täytä tarvittavat kentät.
 
-## Katso myös
+## <a name="see-also" />Katso myös
 [Vakiohuoltokoodien määrittäminen](service-how-setup-service-coding.md)   
 [Vianmäärityksen määrittäminen](service-how-setup-troubleshooting.md)
 

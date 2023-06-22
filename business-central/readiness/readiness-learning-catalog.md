@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# Business Central -opintoluettelo
+# <a name="business-central-learning-catalog" />Business Central -opintoluettelo
 
 Etsi oikea online-koulutus, henkilökohtaisia työpajoja ja tapahtumia oman roolin Business Central -käyttäjänä tai kumppanina.
 

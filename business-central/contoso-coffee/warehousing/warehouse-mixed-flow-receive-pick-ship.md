@@ -12,17 +12,17 @@ ms.date: 04/01/2021
 ms.author: andreipa
 ---
 
-# Vaihekuvaus: Saapuva ja lähtevä työnkulku fyysisen sekavaraston perusmäärityksissä
+# <a name="walkthrough-of-inbound-and-outbound-flow-in-mixed-warehouse-configurations" />Vaihekuvaus: Saapuva ja lähtevä työnkulku fyysisen sekavaraston perusmäärityksissä
 
 Tässä vaihekuvauksessa kuvataan, miten saapuvat ja lähtevät työnkulut suoritetaan sekakokoonpanossa, jossa saapuvalle työnkululle varasto määritetään Perus: tilauksittain ja lähtevälle työnkululle käytetään lisäkonfiguraatiota. Lisätietoja on kohdassa [Erilaisten määritysvaihtoehtojen yleiskatsaus](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## Vaatimukset  
+## <a name="prerequisites" />Vaatimukset
 Tämän vaihekuvauksen suorittaminen edellyttää, että teet itsestäsi fyysisen varastoinnin työntekijän *KELTAINEN*-sijainnissa noudattamalla seuraavia ohjeita:  
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](../../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston työntekijät** ja valitse sitten vastaava linkki.  
 2. Valitse ensin **Käyttäjätunnus**-kenttä ja valitse oma käyttäjätilisi **Käyttäjät**-sivulla.  
 3. Kirjoita **Sijaintikoodi**-kenttään *KELTAINEN*.  
 
-## Saapuva työnkulku: Vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä
+## <a name="inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations" />Saapuva työnkulku: Vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)]issa vastaanoton ja hyllytyksen saapuvat prosessit voidaan suorittaa neljällä tavalla eri toimintojen avulla varastotason monimutkaisuuden mukaan.  
 
@@ -37,10 +37,10 @@ Lisätietoja on kohdassa [Rakennetiedot: Saapuvan fyysisen varastoinnin virta](.
 
 Seuraavassa vaihekuvauksessa kuvataan edellisen taulukon menetelmää C.  
 
-### Skenaario  
+### <a name="scenario" />Skenaario
 Alicia, ostaja, luo ostotilaukset erilaisille paahdetuille pavuille kysynnän mukaan. Kun yhdistetty toimitus saapuu varastoon, Joakim, varastotyöntekijä, vastaanottaa ja laittaa nimikkeet pois. Kun Joakim kirjaa vastaanoton, nimikkeet kirjataan vastaanotetuksi varastoon, ja ne ovat käytettävissä myyntiä tai muita kysyntää varten.  
 
-### Vaiheet
+### <a name="steps" />Vaiheet
 1. **Sijaintikortti**-sivun asetuksissa määritetään yrityksen saapuvat varastointityönkulut.  
 
     1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 2.](../../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten vastaava linkki.  
@@ -69,7 +69,7 @@ Alicia, ostaja, luo ostotilaukset erilaisille paahdetuille pavuille kysynnän mu
     4. Toisella rivillä muuta **Vastaanotettava määrä** -kentän arvo arvosta *200* arvoon *190*.
     5. Valitse **Kirjaa vast.otto** -toiminto.
 
-### Tulokset 
+### <a name="results" />Tulokset
  - paahdetut pavut ovat nyt rekisteröity hyllytetyiksi
  - **Kirjatut fyysisen varaston vastaanotot** luodaan
  - **Kirjattu ostovastaanotto** luodaan
@@ -77,7 +77,7 @@ Alicia, ostaja, luo ostotilaukset erilaisille paahdetuille pavuille kysynnän mu
  - **Varasto**-nimike kasvaa valitulla määrällä
     
 
-## Lähtevä virta: Poiminta ja toimitus fyysisen varastoinnin laajennetuissa määrityksissä
+## <a name="outbound-flow-picking-and-shipping-in-advanced-warehouse-configurations" />Lähtevä virta: Poiminta ja toimitus fyysisen varastoinnin laajennetuissa määrityksissä
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] -ohjelmassa noudon ja toimituksen lähtevät prosessit voidaan suorittaa neljällä tavalla käyttämällä eri toimintoja varastotason monimutkaisuudesta riippuen.  
 
@@ -92,10 +92,10 @@ Katso lisätietoja kohdasta [Rakennetiedot: lähtevän fyysisen varastoinnin vir
 
 Seuraavassa vaihekuvauksessa kuvataan edellisen taulukon menetelmää D.
 
-### Skenaario  
+### <a name="scenario" />Skenaario
 Tilauksen käsittelijä Susanna luo myyntitilaukset erilaisia paahdettuja papuja varten ja siirtää sen varastoon. Koska kaikki tilaukset ovat peräisin samalta asiakkaalta, Ellen, varastopäällikkö päättää toimittaa ne yhdessä. Johnin, varastotyöntekijän, täytyy varmistaa, että lähetys on valmisteltu ja toimitettu asiakkaalle.
 
-### Vaiheet
+### <a name="steps" />Vaiheet
 Tämä on jatkoa kohteelle [Saapuva työnkulku: Vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Vapauta myyntitilaukset fyysiseen varastoon.  
@@ -137,7 +137,7 @@ Tämä on jatkoa kohteelle [Saapuva työnkulku: Vastaanotto ja hyllytys fyysisen
     4. Valitse **Kirjaa toimitus** -toiminto.
     5. Vahvista **Toimitus**-valinta.
 
-### Tulokset
+### <a name="results" />Tulokset
  - paahdetut pavut ovat nyt rekisteröity poimituiksi 
  - **Rekisteröity fyysisen varaston poiminta** luodaan
  - **Kirjattu fyysisen varaston toimitus** luodaan
@@ -146,7 +146,7 @@ Tämä on jatkoa kohteelle [Saapuva työnkulku: Vastaanotto ja hyllytys fyysisen
  - **Varasto**-nimike pienenee valitulla määrällä
 
 
-## Katso myös
+## <a name="see-also" />Katso myös
 [Nimikkeiden vastaanottaminen](../../warehouse-how-receive-items.md)
 [Fyysisten perusvarastojen ja toimintoalueiden määrittäminen](../../warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)
 [Rakennetiedot: saapuvan fyysisen varastoinnin virta](../../design-details-inbound-warehouse-flow.md)

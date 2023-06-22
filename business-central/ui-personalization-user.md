@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 10/11/2022
 ms.author: bholtorf
 ---
-# Työtilan mukauttaminen
+# <a name="personalize-your-workspace" />Työtilan mukauttaminen
 
 Voit voivat mukauttaa työtilasi työsi ja mieltymystesi mukaiseksi. Muuta sivuja siten, että niissä näkyy vain tarvitsemasi tiedot, missä niitä tarvitaan. Mukauttaminen vaikuttaa vain työtilaan. Se ei muuta toisten työskentelyä.
 
@@ -25,13 +25,13 @@ Voit tehdä erilaisia muutoksia, kuten siirtää tai piilottaa kenttiä, sarakke
 > Järjestelmänvalvojat voivat tehdä samat asettelun muutokset kuin käyttäjät mukauttamalla sellaisen profiilin työtilaa, johon on määritetty useita käyttäjiä. Saat lisätietoja roolien sivuista valitsemalla [Roolien sivujen mukauttaminen](ui-personalization-manage.md)<br /><br />
 Järjestelmänvalvojat voivat myös ohittaa käyttäjien mukauttamiset tai poistaa ne käytöstä sekä määrittää, mitkä ominaisuudet käyttäjät näkevät kaikissa tai tietyissä yrityksissä. Lisätietoja on kohdassa [Business Centralin mukauttaminen](ui-customizing-overview.md).
 
-## Video
+## <a name="video" />Video
 
 Seuraava video näyttää joitakin tapoja, joilla voit mukauttaa roolikeskuksesi.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
-## Sarakkeen leveyden muuttaminen
+## <a name="to-change-the-width-of-a-column" />Sarakkeen leveyden muuttaminen
 
 Voit helposti muuttaa sarakkeiden kokoa missä tahansa luettelossa. Vedä vain kahden sarakkeen välistä rajaa vasemmalle tai oikealle.  
 
@@ -40,7 +40,7 @@ Voit helposti muuttaa sarakkeiden kokoa missä tahansa luettelossa. Vedä vain k
 
 Muiden mukautusten tavoin sarakkeen leveyteen tehdyt muutokset tallennetaan tiliin, ja ne ovat käytettävissä riippumatta siitä, millä laitetta käytetään kirjautumiseen.
 
-## Sivun mukauttamisen aloittaminen **Mukauttaminen**-palkin avulla
+## <a name="to-start-personalizing-a-page-through-the-personalizing-banner" />Sivun mukauttamisen aloittaminen **Mukauttaminen**-palkin avulla
 
 1. Avaa mukautettava sivu.
 2. Valitse oikeasta yläkulmasta ![Asetukset.](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") -kuvake ja valitse sitten **Mukauta**-toiminto.
@@ -58,7 +58,7 @@ Muiden mukautusten tavoin sarakkeen leveyteen tehdyt muutokset tallennetaan tili
 6. Valitse ensin elementti ja sitten joko **Siirrä**, **Poista**, **Piilota**, **Näytä**, **Näytä kohdassa ”Näytä lisää”**, **Näytä, kun tiivistetty**, **Näytä aina**, **Määritä tai tyhjennä kiinnitysruutu** tai **Sisällytä pikatapahtumaan tai Sulje pois pikatapahtumasta** käyttöliittymäelementin tyypin ja tilan mukaan. Lisätietoja on kohdassa [Mukautettavat toimet](#What).
 7. Kun olet muuttanut yhden tai usean sivun asettelua, valitse**Mukauttaminen**-palkissa **Valmis**-painike.
 
-## <a name="What"></a>Mukautettavat toimet
+## <a name="a-namewhatawhat-you-can-personalize" /><a name="What"></a>Mukautettavat toimet
 
 |Tehtävä toimi|Ohjeet|Huomautukset|
 |----|------------|-------|
@@ -74,7 +74,7 @@ Muiden mukautusten tavoin sarakkeen leveyteen tehdyt muutokset tallennetaan tili
 |Lisää uusi toiminto roolikeskuksen sivuun tai raporttiin.|Valitse kohdesivu-, raportin pyyntösivu- tai Ilmoita-ikkunassa kirjanmerkkikuvake.|Katso [Sivun tai raportin kirjanmerkin luominen roolikeskuksessa](ui-bookmarks.md)|
 |Aloita luettelo aina laajennettuna tai tiivistettynä|Valitse **Laajenna kaikki**- tai **Tiivistä kaikki** -painike luettelon vasemmassa yläkulmassa. Voit myös valita **Laajenna kaikki**- tai **Tiivistä kaikki** -toiminnot ensimmäisen sarakkeen valikosta. |Koskee tiivistettäviä hierarkialuetteloita|
 
-## <a name="Actions"></a>Toimintopalkin ja valikoiden mukauttaminen
+## <a name="a-nameactionsapersonalizing-the-action-bar-and-menus" /><a name="Actions"></a>Toimintopalkin ja valikoiden mukauttaminen
 
 Mukauttamisen avulla voit päättää, mitkä toiminnot näkyvät siirtymispalkissa, toimintoriveillä ja roolikeskuksissa sekä muissa kohdissa, joissa niiden halutaan näkyvän. Voit näyttää, piilottaa tai siirtää yksittäisiä toimintoja tai toimintoryhmiä.
 
@@ -93,7 +93,7 @@ Toiminnon mukauttamista helpottaa, kun tiedät, mitä muutama termi tarkoittaa. 
 > [!NOTE]  
 > Jos haluat poistaa mukauttamisen, valitse nuolenkärki osan suunnitteluvalikon ympärillä ja valitse sitten **Tyhjennä mukauttaminen**.
 
-### Toimintojen ja toimintoryhmien poistaminen, piilottaminen ja näyttäminen
+### <a name="to-remove-hide-and-show-actions-and-action-groups" />Toimintojen ja toimintoryhmien poistaminen, piilottaminen ja näyttäminen
 
 Jos haluat näyttää tai piilottaa toiminnot, nuolenpään vaihtoehdot määrittävät mahdolliset toimet toiminnon tilan mukaan. 
 
@@ -106,7 +106,7 @@ Jos haluat näyttää tai piilottaa toiminnot, nuolenpään vaihtoehdot määrit
 |**Piilota**|Tämä vaihtoehto näkyy, jos toiminto tai toimintoryhmä ei sijaitse muualla siirtymispalkissa tai toimintorivillä. **Poista**-vaihtoehdon tavoin myös tämä vaihtoehto poistaa toiminnon tai toimintoryhmän näkyvistä siirtymispalkissa tai toimintorivillä. Toiminto tai toimintoryhmä näkyy kuitenkin mukauttamistilassa nykyisessä paikassa – himmennettynä.|
 |**Näytä**|Tämä vaihtoehto näkyy, jos toiminto tai toimintoryhmä on piilotettu aiemmin (näkyy himmennettynä). Kun tämä vaihtoehto valitaan, toiminto tai toimintoryhmä tulee näkyviin siirtymispalkissa tai toimintorivillä.|
 
-### Toimintojen tai toimintoryhmien siirtäminen
+### <a name="to-move-actions-and-action-groups" />Toimintojen tai toimintoryhmien siirtäminen
 
 Kahden toiminnon välinen vaakaviiva tai toimintoryhmää ympäröivä reunus ilmaisee, mihin voit pudottaa toimintoja ja toimintoryhmiä. Voimassa ovat seuraavat rajoitukset:
 
@@ -116,7 +116,7 @@ Kahden toiminnon välinen vaakaviiva tai toimintoryhmää ympäröivä reunus il
 1. Voit siirtää toiminnon tai toimintoryhmä vetämällä ja pudottamalla sen toivottuun paikkaan samalla tavoin kuin kentät ja sarakkeet.
 2. Voit siirtää toiminnon tai toimintoryhmän toiseen, tyhjään toimintoryhmään vetämällä toiminnon tai toimintoryhmän uuteen ryhmään ja pudottamalla sen **Pudota toiminto tähän** -ruutuun.
 
-## <a name="Parts"></a>Osien mukauttaminen
+## <a name="a-namepartsapersonalizing-parts" /><a name="Parts"></a>Osien mukauttaminen
 
 Osat ovat sivun alueita, jotka koostuvat tavallisesti useista kentistä, kaavioista tai muusta sisällöstä. Osassa näkyy värillinen reunus, kun keskityt osaan. Esimerkiksi Roolikeskuksen aloitusnäytössä on useita osia. Voit mukauttaa koko osan ja sen sisällön, koska raja on määritetty selvästi.
 
@@ -126,7 +126,7 @@ Osat ovat sivun alueita, jotka koostuvat tavallisesti useista kentistä, kaavioi
 
 Voit poistaa kaikki yksittäisen osan sisällä tekemäsi mukautusmuutokset valitsemalla **Poista mukauttaminen** -asetuksen osan nuolenpään kohdalla. Osan mukauttamisen poistaminen vaikuttaa vain osan sisältöön, ei sivulla olevan osan sijoitteluun tai näkyvyyteen.  
 
-## Mukautuksen tyhjentäminen
+## <a name="to-clear-personalization" />Mukautuksen tyhjentäminen
 
 Haluat ehkä joissain vaiheessa kumota osan sivulle aiemmin tehdyistä mukautusmuutoksista tai kaikki muutokset.
 
@@ -143,7 +143,7 @@ Haluat ehkä joissain vaiheessa kumota osan sivulle aiemmin tehdyistä mukautusm
 |**Vain kenttä ja sarakkeet**|Tyhjentää kaikki muut sivun toimintoihin aiemmin tehdyt mukautusmuutokset paitsi siirtymispalkin tai toimintorivin muutokset. Nämä muutokset sisältävät kaikki kenttiin, sarakkeisiin, osiin ja ruutuihin tehdyt muutokset. |
 |**Kaikki**|Tyhjentää kaikki sivulle tehdyt mukautusmuutokset, joten sivu palautetaan alkuperäiseen ulkoasuunsa. Nämä muutokset sisältävät kaikki siirtymispalkkeihin, toimintoriveihin, kenttiin, sarakkeisiin, osiin ja ruutuihin tehdyt muutokset.|
 
-## Muita kiinnostavia seikkoja
+## <a name="other-points-of-interest" />Muita kiinnostavia seikkoja
 
 Seuraavat seikat auttavat ymmärtämään mukauttamista entistä paremmin.
 
@@ -158,9 +158,9 @@ Seuraavat seikat auttavat ymmärtämään mukauttamista entistä paremmin.
    > [!TIP]
    > Järjestelmänvalvojana voit piilottaa **Automaattisen** nimikkeen käyttäjiltä. Lisätietoja kohdassa [Power Automate -integraation määrittäminen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
-## Katso myös
+## <a name="see-also" />Katso myös
 [Profiilien sivujen mukauttaminen](ui-personalization-manage.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  

@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 02/24/2023
 ms.custom: bap-template
 ---
-# Korttien ja asiakirjojen liitteiden, linkkien ja muistioiden hallinta
+# <a name="manage-attachments-links-and-notes-on-cards-and-documents" />Korttien ja asiakirjojen liitteiden, linkkien ja muistioiden hallinta
 
 Tiedostoja voi liittää, linkkejä lisätä ja muistiinpanoja kirjoittaa useimpien luettelosivujen, korttien ja asiakirjojen **Tietoruutu**-ruudun **Liitteet**-välilehdessä. Välilehden otsikossa oleva luku ilmaisee, kuinka monta liitettyä tiedostoa, linkkiä tai muistiinpanoa kortissa tai asiakirjassa on.
 
@@ -23,7 +23,7 @@ Liitteitä voi lisätä myös [!INCLUDE [prod_short](includes/prod_short.md)]ist
 >
 > Jos tilaus poistetaan ennen laskutusta, myös liite poistetaan. Jos ostotilaukset laskutetaan käyttämällä ostolaskun Hae vastaanoton rivit -toiminto, ostotilauksen liitettä ei lisätä ostolaskuun.
 
-## Tiedoston liittäminen ostolaskuun
+## <a name="to-attach-a-file-to-a-purchase-invoice" />Tiedoston liittäminen ostolaskuun
 
 Korttiin, asiakirjaan tai asiakirjan riviin liitettävän tiedoston tyypillä ei ole merkitystä, sillä kyse voi olla teksti-, kuva- tai videotiedostossa. Tämä on kätevää esimerkiksi silloin, kun haluat tallentaa toimittajan laskun PDF-tiedostona liittyvään [!INCLUDE[prod_short](includes/prod_short.md)]in ostolaskuun.
 
@@ -44,14 +44,14 @@ Seuraava toimenpide perustuu ostolaskuun. Vaiheet ovat samanlaiset kaikissa tuet
 
 Tiedosto on nyt liitetty ostolaskuun.
 
-## Tarkastele liitettyä tiedostoa
+## <a name="to-view-an-attached-file" />Tarkastele liitettyä tiedostoa
 
 1. Avaa **Liitteet**-välilehti **tietoruudussa**.
 2. Valitse **Asiakirjat**-kentässä arvo, kuten 1.
 3. Valitse **Liitetyt asiakirjat** -sivulla **Esikatselu**-toiminto.
 4. Ladatun tiedoston avaaminen.
 
-## Asiakirjan tallentaminen PDF-liitteenä
+## <a name="to-save-a-document-as-a-pdf-attachment" />Asiakirjan tallentaminen PDF-liitteenä
 
 Kun asiakirja on tallennettava tiedostoksi, voit käyttää **Liitä PDF-tiedostona** -toimintoa ja tallentaa nykyisen asiakirjan sisällön PDF-tiedostoksi, joka on liitetty asiakirjan tietoruutuun. Tämä on hyödyllistä esimerkiksi silloin, kun asiakirjat noudattavat useita vaiheita prosessissa, kuten esimerkiksi myyntiprosessissa ja hyväksynnän työnkulussa, ja haluat viitata edellisen vaiheen tulostukseen.
 
@@ -62,7 +62,7 @@ Seuraava toimenpide perustuu myyntitilaukseen. Vaiheet ovat samanlaiset kaikissa
 
 PDF-tiedosto ja sen sisältö myyntitilauksesta lisätään **Liitteet**-välilehteen tietoruudussa.
 
-## Linkin lisääminen nimikekortista
+## <a name="to-add-a-link-from-an-item-card" />Linkin lisääminen nimikekortista
 
 Voit lisätä kortista tai asiakirjasta linkin mihin tahansa URL-osoitteeseen. Tämä kätevää esimerkiksi silloin, kun haluat linkittää nimikekortin toimittajan nimikeluetteloon.
 
@@ -80,7 +80,7 @@ Seuraava toimenpide perustuu nimikekorttiin. Vaiheet ovat samanlaiset kaikissa t
 
 Linkki on nyt liitetty nimikekorttiin.  
 
-## Muistion kirjoittaminen myyntitilaukseen
+## <a name="to-write-a-note-on-a-sales-order" />Muistion kirjoittaminen myyntitilaukseen
 
 Voit kirjoittaa asiakirjaan tai korttiin muistion, jossa on esimerkiksi ohjeita muille asiakirjan tai kortin käyttäjille. Voit sisällyttää muistioihin tiedostolinkkejä ja URL-osoitteita.
 
@@ -97,7 +97,7 @@ Seuraava toimenpide perustuu myyntitilaukseen. Vaiheet ovat samanlaiset kaikissa
 
 Huomautus on nyt liitetty myyntitilaukseen.
 
-## Katso myös  
+## <a name="see-also" />Katso myös
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Saapuvat asiakirjat](across-income-documents.md)  
 [Työnkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md)  

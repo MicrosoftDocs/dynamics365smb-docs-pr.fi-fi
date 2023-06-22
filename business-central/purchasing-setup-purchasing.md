@@ -11,7 +11,7 @@ ms.search.form: '175, 176, 177, 178, 456, 460, 5727, 5729'
 ms.date: 08/30/2022
 ms.author: edupont
 ---
-# Ostojen määrittäminen
+# <a name="setting-up-purchasing" />Ostojen määrittäminen
 
 Ennen ostoprosessien hallinnan aloittamista on määritettävä yrityksen ostokäytäntöjen säännöt ja arvot.
 
@@ -21,11 +21,11 @@ Uusien toimittajien rekisteröintiin liittyy erillinen sarja tehtäviä, joilla 
 
 Maksumenetelmiä ja valuuttoja sekä muita rahoitukseen liittyviä ostoasetuksia käsitellään Taloushallinnon asetukset -osassa. Lisätietoja kohdassa [Taloushallinnon määrittäminen](finance-setup-finance.md). Vastaavasti varastoon liittyvät ostomääritykset, kuten mittayksiköt ja nimikeseurannan koodit, löytyvät [Varaston määritys -osasta](inventory-setup-inventory.md).
 
-## Ostojen ja ostovelkojen asetukset
+## <a name="purchases-and-payables-setup" />Ostojen ja ostovelkojen asetukset
 
 Määritä ennen ostojen ja maksujen käsittelemistä **Ostojen ja ostovelkojen asetukset** -sivulla, miten ostojen arvot kirjataan ja numerosarjat, joita toimittajien asiakirjoissa ja ostoasiakirjoissa käytetään.
 
-### Yleiset asetukset
+### <a name="general-settings" />Yleiset asetukset
 
 **Yleinen**-pikavälilehdessä määritetään erilaisia vaihtoehtoja, esimerkiksi alennusten laskenta- ja kirjaustapa sekä se, onko laskujen summia tarkoitus pyöristää. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
@@ -37,15 +37,15 @@ Jotkin kentät myös muuttavat toimintaa tai ne riippuvat siitä, miten muiden k
 
 Lue lisää alla olevista [**Ulkois. asiakirjan nro pakoll.**](#external-document-number)- ja [**Todellisen kust. peruutt. pakollinen**](#exact-cost-reversing) -kentistä.
 
-### Numerosarjojen asetukset
+### <a name="number-series-settings" />Numerosarjojen asetukset
 
 **Numerosarjat**-pikavälilehdessä on määritettävä yksilölliset tunnuskoodit, joita käytetään toimittajien asiakirjoissa, laskuissa ja muissa ostoasiakirjoissa. Numerointi ei ole tärkeää pelkästään sisäisten prosessien kannalta, vaan sen on ehkä myös noudatettava paikallisia säädöksiä. Kannattaa siis määrittää kaikki sarjat **Numerosarjat**-sivulla etukäteen sen sijaan, että luotaisiin uusia sarjoja **Ostojen ja ostovelkojen asetukset** -kohdassa. Lisätietoja on kohdassa [Numerosarjojen luominen](ui-create-number-series.md).
 
-## Ulkoisen tiedoston numero
+## <a name="external-document-number" />Ulkoisen tiedoston numero
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Todellisten kustannusten peruuttaminen
+## <a name="exact-cost-reversing" />Todellisten kustannusten peruuttaminen
 
 **Todellisen kust. peruutt. pakollinen** -toiminnon avulla voidaan varmistaa, että palautetut tuotteet arvostetaan samana kustannuksena kuin ne alun perin otettiin varastosta käyttämällä kiinteää kohdistusta FIFO (first in first out) -arvostusmenetelmän sijaan. Lisätietoja on [Rakennetiedot: Kiinteä kohdistus](design-details-item-application.md#fixed-application) -osassa. Jos alkuperäiseen ostoon liitetään myöhemmin lisäkustannuksia niin ohjelma päivittää ostopalautuksen arvon vastaavasti.
 
@@ -53,7 +53,7 @@ Kun toiminto on käytössä, palautustapahtuma voidaan kirjata vain määrittäm
 
 [!INCLUDE[local-functionality](includes/local-functionality.md)]
 
-## Lisää ostojen asetuksia
+## <a name="more-purchasing-setups" />Lisää ostojen asetuksia
 
 | Vastaanottaja | Katso |
 | --- | --- |
@@ -70,9 +70,9 @@ Kun toiminto on käytössä, palautustapahtuma voidaan kirjata vain määrittäm
 | Määritä oletusraportteja, joita käytetään eri asiakirjatyypeille. |[Raporttien valinta Business Centralissa](across-report-selections.md)|
 |Määritä, voivatko käyttäjät kirjata ostolaskuja ja pitäisikö heidän kirjata ne yhdessä toimituksen kanssa. |[Laskun kirjauskäytännön määrittäminen käyttäjille](admin-setup-invoice-posting-policy.md)|
 
-## Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learnlearnpathstrade-get-started-dynamics--business-central" />Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Osto](purchasing-manage-purchasing.md)  
 [Yleistä määrityksestä](setup.md)  

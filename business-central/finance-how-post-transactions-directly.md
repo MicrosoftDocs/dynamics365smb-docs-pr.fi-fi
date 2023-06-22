@@ -11,7 +11,7 @@ ms.search.form: '39, 251'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# Tapahtumien kirjaaminen suoraan pääkirjanpitoon
+# <a name="post-transactions-directly-to-the-general-ledger" />Tapahtumien kirjaaminen suoraan pääkirjanpitoon
 
 Yleisiä päiväkirjoja käytetään rahoitustapahtumien kirjaamisessa suoraan pääkirjanpitotileille sekä muille tileille, kuten pankki-, asiakas-, toimittaja- ja työntekijätileille.  
 
@@ -21,7 +21,7 @@ Yleisiä päiväkirjoja käytetään rahoitustapahtumien kirjaamiseen suoraan ki
 
 Toisin kuin tapahtumat, jotka on kirjattu asiakirjasta ja edellyttävät hyvityslaskuprosessia, voit peruuttaa yleiseen päiväkirjaan kirjattuja tapahtumia oikein. Lisätietoja on kohdassa [Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md).
 
-## Tapahtumien kirjaaminen suoraan pääkirjanpitoon
+## <a name="to-post-a-transaction-directly-to-a-general-ledger-account" />Tapahtumien kirjaaminen suoraan pääkirjanpitoon
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleiset päiväkirjat** ja valitse sitten vastaava linkki.
 2. Avaa liittyvä yleisen päiväkirjan erä. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).
@@ -35,7 +35,7 @@ Toisin kuin tapahtumat, jotka on kirjattu asiakirjasta ja edellyttävät hyvitys
     > Jos haluat syöttää useita tapahtumarivejä yhden vastatilin rivin ylle, esimerkiksi yhdelle pankkitilille, valitse erän rivillä oleva **Ehdota vastasummaa** -valintaruutu **Yleisen päiväkirjan erät** -sivulla. Tällöin vastatilin rivin **Summa**-kenttä täytetään automaattisesti arvolla, joka vaaditaan tapahtumien täsmäyttämiseen.
 5. Valitse **Kirjaa**-toiminto kirjataksesi tapahtumat määritetyille KP-tileille.
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
 [Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md)  

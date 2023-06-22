@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.form: '393, 7382'
 ---
-# Nimikkeiden siirtäminen sisäisesti fyysisen varastoinnin perusmäärityksissä
+# <a name="move-items-internally-in-basic-warehouse-configurations" />Nimikkeiden siirtäminen sisäisesti fyysisen varastoinnin perusmäärityksissä
 
 Nimikkeitä halutaan ehkä siirtää varastopaikkojen välillä lähdeasiakirjasta peräisin olevaa kysyntää. Se voidaan tehdä esimerkiksi seuraavien toimintojen osana:
 
@@ -25,11 +25,11 @@ Jos **Varastopaikka pakollinen** on otettu käyttöön vaihtopainikkeella fyysis
 * **Sisäinen siirto** -sivu.
 * **Nimikkeen uudellenluokituspvk** -sivu.  
 
-## Sisäiset siirrot
+## <a name="internal-movements" />Sisäiset siirrot
 
 **Sisäiset siirrot** sivulla voidaan määrittää otto- ja asetusrivit, kun kysyntä ei ole peräisin lähdeasiakirjasta. Sisäinen siirto -sivu on eräänlainen järjestelemisen työkirja. Varsinaista varastosiirto ei voi käsitellä suoraan tältä sivulta. Kun rivi on täytetty, rivi lähetetään **Luo varastosiirto** -toiminnolla **Varastosiirto**-sivulle, jossa varastosiirto käsitellään ja rekisteröidään.
 
-### Siirrä kohteita sisäisenä siirtona
+### <a name="to-move-items-as-an-internal-movement" />Siirrä kohteita sisäisenä siirtona
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sisäiset siirrot** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto. Varmista, että **Nro**-kenttä täytetään **Yleinen**-pikavälilehdessä.
@@ -59,7 +59,7 @@ Jos **Varastopaikka pakollinen** on otettu käyttöön vaihtopainikkeella fyysis
 
 Suorita loput suunnittelemattomasta varaston siirrosta **Varastosiirto**-sivulla samalla tavoin kuin lähdeasiakirjojen varaston siirtoon perustuva siirto.
 
-### Varastosiirron kirjaaminen
+### <a name="to-record-the-inventory-movement" />Varastosiirron kirjaaminen
 
 1. Avaa **Varastosiirto**-sivulla asiakirja, johon varaston siirto kirjataan.  
 2. **Varastopaikkakoodi**-kentän varaston siirron riveillä varastopaikka, josta nimikkeet on poimitettava, on se varastopaikka, jossa nimike on saatavana. Varastopaikkaan voi muuttaa tarvittaessa.
@@ -72,7 +72,7 @@ Kirjausprosessin sisältö:
 
 * Fyysisen varaston tapahtumat ilmaisevat ottovarastopaikoista asetusvarastopaikkoihin siirretyn määrän.
 
-## Siirrä nimikkeet nimikkeiden uudelleenluokituspäiväkirjan kanssa
+## <a name="to-move-items-with-the-item-reclassification-journal" />Siirrä nimikkeet nimikkeiden uudelleenluokituspäiväkirjan kanssa
 
 Varaston siirtoasiakirjojen käytön sijaan varaston siirrot voidaan kirjata uudelleenluokittelemalla nimikkeiden varastopaikkakoodit. Lisätietoja on kohdassa [Varaston laskeminen, muuttaminen ja uudelleenluokitus käyttämällä päiväkirjoja](inventory-how-count-adjust-reclassify.md).
 
@@ -89,9 +89,9 @@ Varaston siirtoasiakirjojen käytön sijaan varaston siirrot voidaan kirjata uud
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-internal-warehouse-processes/)
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
 [Varasto](inventory-manage-inventory.md)  

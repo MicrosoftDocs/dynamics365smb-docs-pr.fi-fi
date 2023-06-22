@@ -17,11 +17,11 @@ ms.contentlocale: fi-FI
 ms.lasthandoff: 02/15/2022
 ms.locfileid: "8129363"
 ---
-# <a name="automatic-account-codes-in-the-finnish-version"></a>Automaattiset tilikoodit suomenkielisessä versiossa
+# <a name="automatic-account-codes-in-the-finnish-version" /><a name="automatic-account-codes-in-the-finnish-version"></a>Automaattiset tilikoodit suomenkielisessä versiossa
 
 [!INCLUDE [automatic-account-codes](../includes/FISE/automatic-account-codes.md)]
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also" /><a name="see-also"></a>Katso myös
 
 [Automaattisten tilin kirjausryhmien määrittäminen](how-to-set-up-automatic-account-posting-groups.md)   
 [Kirjausryhmien määrittäminen](../../finance-posting-groups.md)  

@@ -11,13 +11,13 @@ ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# Rakennetiedot: varaston arvostus
+# <a name="design-details-inventory-costing" />Rakennetiedot: varaston arvostus
 
 Tässä dokumentaatiossa on yksityiskohtaisia teknisiä tietoja [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman varaston arvostuksen toiminnoissa käytettävistä konsepteista ja periaatteista.  
 
 Varaston arvostus, jota kutsutaan myös kustannuslaskennaksi, käsittelee liiketoiminnan toimintokustannusten tallennusta ja raportointia.  
 
-## Tämän osan sisältö
+## <a name="in-this-section" />Tämän osan sisältö
 
 [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)  
 [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md)  

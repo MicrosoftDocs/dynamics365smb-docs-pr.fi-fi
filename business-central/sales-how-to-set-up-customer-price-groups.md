@@ -11,17 +11,17 @@ ms.date: 09/30/2021
 ms.author: edupont
 ---
 
-# Asiakashintaryhmien määrittäminen
+# <a name="set-up-customer-price-groups" />Asiakashintaryhmien määrittäminen
   
 Myyntihinnat voidaan tehdä riippuviksi asiakasryhmistä, joille myydään. Näitä kutsutaan asiakashintaryhmiksi.
 
 Ennen kuin asiakkaan hintaryhmiä määritetään, tulee päättää, kuinka monta ryhmää haluat ja ketkä asiakkaat kuuluvat mihinkin ryhmään.  
 
-## Myyntihintojen luominen asiakasryhmälle  
+## <a name="how-to-create-sales-prices-for-a-group-of-customers" />Myyntihintojen luominen asiakasryhmälle
 
 Kun olet hyväksynyt hinnat, jotka ryhmä asiakkaita maksaa tietyistä nimikkeistä, hyväksyminen rekisteröidään yksittäisten nimikkeiden osalta **Myyntihinnat**-sivun riveille.
 
-### Myyntihintojen luominen asiakasryhmälle
+### <a name="to-create-sales-prices-for-a-group-of-customers" />Myyntihintojen luominen asiakasryhmälle
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakashintaryhmät** ja valitse sitten vastaava linkki.  
 
@@ -43,11 +43,11 @@ Kun olet hyväksynyt hinnat, jotka ryhmä asiakkaita maksaa tietyistä nimikkeis
 
 Toista työvaiheet 4–8 kunkin nimikkeen osalta, joille haluat luoda Myyntihinnan.
 
-## Asiakkaan hintaryhmäkoodien syöttäminen asiakaskortteihin  
+## <a name="how-to-enter-customer-price-group-codes-on-customer-cards" />Asiakkaan hintaryhmäkoodien syöttäminen asiakaskortteihin
 
 Sen jälkeen, kun olet määrittänyt asiakashintaryhmät, voit syöttää asiakkaan hintaryhmäkoodit asiakaskortteihin.
 
-### Asiakkaan hintaryhmäkoodien syöttäminen asiakaskorttiin  
+### <a name="to-enter-customer-price-group-codes-on-a-customer-card" />Asiakkaan hintaryhmäkoodien syöttäminen asiakaskorttiin
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten vastaava linkki.  
 
@@ -56,7 +56,7 @@ Sen jälkeen, kun olet määrittänyt asiakashintaryhmät, voit syöttää asiak
 3. Valitse **Laskutus**-pikavälilehden **Asiakkaan hintaryhmä** -kentässä **Asiakashintaryhmä**-koodi.  
 
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  

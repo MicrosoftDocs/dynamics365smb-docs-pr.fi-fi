@@ -11,7 +11,7 @@ ms.search.form: '2500, 2502'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Business Centralin mukauttaminen
+# <a name="customize-business-central" />Business Centralin mukauttaminen
 
 Sovelluksen voi mukauttaa useilla eri tavoilla, jotta sinä ja työtoverisi voitte käyttää eniten tarvitsemianne ominaisuuksia, toimintoja ja tietoja tavalla, joka sopii parhaiten päivittäiseen työhönne. Seuraavassa taulukossa kerrotaan ketkä näkevät muutokset sen mukaan, mitä teet.
 
@@ -28,13 +28,13 @@ Sovelluksen voi mukauttaa useilla eri tavoilla, jotta sinä ja työtoverisi voit
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen käyttäjän dokumentaation kaikkien toimintojen kuvauksissa käsitellään **Premium**-käyttökokemusta. Tämä tarkoittaa sitä, että kuvaukset sisältävät käyttöliittymän kaikki elementit. Tämän vuoksi **Essential**-käyttökokemuksen käyttäjien ohjeaiheissa saatetaan käsitellä toimintoja ja käyttöliittymän elementtejä, jotka eivät ole käytettävissä käyttöliittymässä. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-trainingtrainingpathstailor-roles-design-ui" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/tailor-roles-design-ui/)
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

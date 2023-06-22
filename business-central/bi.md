@@ -11,7 +11,7 @@ ms.search.form: '103, 108, 198, 490'
 ms.date: 09/22/2022
 ms.author: edupont
 ---
-# Taloudelliset liiketoimintatiedot
+# <a name="financial-business-intelligence" />Taloudelliset liiketoimintatiedot
 
 Yritykset hankkivat päivittäisen toiminnan aikana valtavia määriä tietoja. Nämä tiedot voivat kuvata esimerkiksi organisaation myyntilukuja, ostoja, toimintakuluja, työntekijöiden palkkoja ja budjetteja, ja ne voivat antaa päätöksentekijöille arvokasta liiketoimintatietoa (BI). [!INCLUDE[prod_short](includes/prod_short.md)] sisältää erinäisiä toimintoja, joiden avulla voit kerätä, analysoida ja jakaa yrityksen tietoja.
 
@@ -32,7 +32,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 |Ota käyttöön kansainvälisten kirjanpitojärjestöjen maailmanlaajuinen taloushallinnon raportointi eXtensible Business Reporting Language (XBRL) -kielen avulla.|[Luo raportteja XBRL-linkityksellä.](bi-create-reports-with-xbrl.md)|
 |Tietokannan käyttötarkoituksen muuttaminen raporteissa, API-tyyppisillä sivuilla ja kyselyissä, jotta latauskuorma vähenee ja suorituskyky paranee.|[Tietokannan käyttötarkoituksen hallinta](admin-data-access-intent.md)|
 
-## Katso myös
+## <a name="see-also" />Katso myös
 
 [Rahoitus](finance.md)  
 [Business Centralin käyttäminen Power BI -tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
@@ -41,6 +41,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 [Business Intelligencen ja raportoinnin yleiskuva](reports-bi-reporting.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

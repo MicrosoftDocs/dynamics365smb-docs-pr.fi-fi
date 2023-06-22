@@ -11,7 +11,7 @@ ms.date: 06/11/2021
 ms.author: bholtorf
 ---
 
-# Tämä sisältö on keskeneräinen
+# <a name="sorry-this-content-is-under-construction" />Tämä sisältö on keskeneräinen
 
 :::image type="content" source="media/helene/empty illustration_BCdocs.png" alt-text="Täällä ei ole mitään juuri nyt." border="false":::
 
@@ -21,7 +21,7 @@ Video, jota yritit toistaa, ei ole juuri nyt käytettävissä. Tämä johtuu luu
 
 Tarkista tilanne kuitenkin piakkoin uudelleen. Sillä välin voit tutustua muihin aiheisiin [YouTuben Dynamics 365 -kanavassa](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4).
 
-## Katso myös
+## <a name="see-also" />Katso myös
 [Microsoftin videokirjastoon tutustuminen](across-videos.md)
 
  
