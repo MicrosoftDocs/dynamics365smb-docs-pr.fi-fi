@@ -61,7 +61,7 @@ Jos peruutus liittyy osittaiseen laskun kirjaukseen, alkuperäinen myyntitilausr
     Korjaava myyntihyvityslasku luodaan automaattisesti ja kirjataan mitätöimään alun perin kirjattu myyntilasku.
 5. Valitse **Näytä korjaava hyvityslasku** -toiminto, kun haluat tarkastella kirjattua myyntihyvityslaskua, joka mitätöi alkuperäisen kirjatun myyntilaskun.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/ship-invoice-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/ship-invoice-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

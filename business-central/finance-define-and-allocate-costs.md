@@ -70,7 +70,7 @@ Seuraavassa taulukossa on esitetty mitä suodattimia on mahdollista käyttää e
 |Nimikkeitä myyty (Summa)|Nimikkeen nro|Kyllä|Kyllä|Kyllä|Varaston kirjausryhmä|  
 |Nimikkeitä ostettu (Summa)|Nimikenro|Kyllä|Kyllä|Kyllä|Varaston kirjausryhmä|
 
-## <a name="scenario--defining-static-allocations-based-on-allocation-ratio" />Skenaario 1: Kohdistamissuhteeseen perustuvan staattisen kohdistamisen määrittäminen
+## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio" />Skenaario 1: Kohdistamissuhteeseen perustuvan staattisen kohdistamisen määrittäminen
 
 Staattinen kohdistaminen perustuu määriteltyihin arvoihin, kuten pinta-alaan tai vahvistettu-varaus -suhteeseen, esimerkiksi 5:2:4.  
 
@@ -110,7 +110,7 @@ Tässä aiheessa kuvataan, miten määrittää kolmen uuden kohdistuskohteen kus
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] laskee automaattisesti **Prosentti**-kenttään prosenttiarvon, joka määräytyy kaikkien niiden kolmen kohdistussuhteen mukaan, jotka syötetty **Osuus**-kenttään kaikilla kolmella rivillä.
 
-## <a name="scenario--defining-dynamic-allocations-based-on-items-sold" />Skenaario 2: Dynaamisten kohdistamisten määrittäminen myytyjen nimikkeiden perusteella
+## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold" />Skenaario 2: Dynaamisten kohdistamisten määrittäminen myytyjen nimikkeiden perusteella
 
 Tässä aiheessa kuvataan esimerkki siitä, kuinka kohdistuksia määritetään käyttämällä dynaamista kohdistustapaa. Esimerkissä muutetaan MYYNTI-kustannuspaikan kustannusten dynaaminen kohdistaminen tukemaan uutta IT-LAITTEISTO -kustannuskohdetta. IT-LAITTEISTO-paketeissa ovat nimikenumerot välilä 8904-W – 8924-W. Osuus lasketaan edellisen vuoden myyntilukujen avulla. Kohdistus kirjataan apukustannuslajiin 9903.  
 
@@ -137,7 +137,7 @@ Tässä aiheessa kuvataan esimerkki siitä, kuinka kohdistuksia määritetään 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] käyttää edellisen vuoden myyntilukuja laskettaessa 1596.50 PVA:n 100 prosentin osuus IT-LAITTEISTO -paketteja varten. Tämä tarkoittaa sitä, että kaikki viime vuonna myydyt nimikkeet kohdennetaan kustannuskohteelle IT-LAITTEISTO.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/allocate-costs-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/allocate-costs-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

@@ -67,71 +67,71 @@ Yleensä, kun suunnittelujärjestelmä havaitsee kysynnän tyhjässä sijainniss
 
 Tutustu jäljempänä oleviin määritystilanteisiin.
 
-### <a name="setup-" />Asetus 1
+### <a name="setup-1" />Asetus 1
 
 * Sijainti pakollinen = *Kyllä*  
 * Varastointiyksikkö on määritetty kohteeseen *LÄNSI*  
 * Komponentit sijainnissa = *ITÄ*  
 
-#### <a name="case--demand-is-at-west-location" />Tapaus 1.1: Kysyntää *LÄNSI*-sijainnissa
+#### <a name="case-11-demand-is-at-west-location" />Tapaus 1.1: Kysyntää *LÄNSI*-sijainnissa
 
 Nimike suunnitellaan Var. yks. -kortin suunnitteluparametrien mukaisesti (mahdolliset siirrot mukaan lukien).
 
-#### <a name="case--demand-is-at-east-location" />Tapaus 1.2: Kysyntää *ITÄ*-sijainnissa
+#### <a name="case-12-demand-is-at-east-location" />Tapaus 1.2: Kysyntää *ITÄ*-sijainnissa
 
 Nimike suunnitellaan nimikkeen kortin suunnitteluparametrien mukaisesti.
 
-#### <a name="case--demand-is-at-north-location" />Tapaus 1.3: Kysyntää *POHJOINEN*-sijainnissa
+#### <a name="case-13-demand-is-at-north-location" />Tapaus 1.3: Kysyntää *POHJOINEN*-sijainnissa
 
 Nimikkeen suunnittelu toteutetaan seuraavasti: Uusintatilaustapa = *Erä-erästä* (*Tilaus* on yhä *Tilaus*), Sisällytä varasto = *Kyllä*, kaikki muut suunnitteluparametrit ovat tyhjiä.
 
-#### <a name="case--demand-is-at-blank-location" />Tapaus 1.4: Kysyntää *TYHJÄ*-sijainnissa
+#### <a name="case-14-demand-is-at-blank-location" />Tapaus 1.4: Kysyntää *TYHJÄ*-sijainnissa
 
 Nimikkeen suunnittelu toteutetaan seuraavasti: Uusintatilaustapa = *Erä-erästä* (*Tilaus* on yhä *Tilaus*), Sisällytä varasto = *Kyllä*, kaikki muut suunnitteluparametrit ovat tyhjiä.
 
-### <a name="setup-" />Asetus 2
+### <a name="setup-2" />Asetus 2
 
 * Sijainti pakollinen = *Kyllä*  
 * Ei varastointiyksikköä  
 * Komponentit sijainnissa = *ITÄ*  
 
-#### <a name="case--demand-is-at-west-location" />Tapaus 2.1: Kysyntää *LÄNSI*-sijainnissa
+#### <a name="case-21-demand-is-at-west-location" />Tapaus 2.1: Kysyntää *LÄNSI*-sijainnissa
 
 Nimikkeen suunnittelu toteutetaan seuraavasti: Uusintatilaustapa = *Erä-erästä* (*Tilaus* on yhä *Tilaus*), Sisällytä varasto = *Kyllä*, kaikki muut suunnitteluparametrit ovat tyhjiä.
 
-#### <a name="case--demand-is-at-east-location" />Tapaus 2.2: Kysyntää *ITÄ*-sijainnissa
+#### <a name="case-22-demand-is-at-east-location" />Tapaus 2.2: Kysyntää *ITÄ*-sijainnissa
 
 Nimike suunnitellaan nimikkeen kortin suunnitteluparametrien mukaisesti.  
 
-### <a name="setup-" />Asetus 3
+### <a name="setup-3" />Asetus 3
 
 * Sijainti pakollinen = *Ei*  
 * Ei varastointiyksikköä  
 * Komponentit sijainnissa = *ITÄ*  
 
-#### <a name="case--demand-is-at-west-location" />Tapaus 3.1: Kysyntää *LÄNSI*-sijainnissa
+#### <a name="case-31-demand-is-at-west-location" />Tapaus 3.1: Kysyntää *LÄNSI*-sijainnissa
 
 Nimikkeen suunnittelu toteutetaan seuraavasti: Uusintatilaustapa = *Erä-erästä* (*Tilaus* on yhä *Tilaus*), Sisällytä varasto = *Kyllä*, kaikki muut suunnitteluparametrit ovat tyhjiä.
 
-#### <a name="case--demand-is-at-east-location" />Tapaus 3.2: Kysyntää *ITÄ*-sijainnissa
+#### <a name="case-32-demand-is-at-east-location" />Tapaus 3.2: Kysyntää *ITÄ*-sijainnissa
 
 Nimike suunnitellaan nimikkeen kortin suunnitteluparametrien mukaisesti.  
 
-#### <a name="case--demand-is-at-blank-location" />Tapaus 3.3: Kysyntää *TYHJÄ*-sijainnissa
+#### <a name="case-33-demand-is-at-blank-location" />Tapaus 3.3: Kysyntää *TYHJÄ*-sijainnissa
 
 Nimikkeen suunnittelu toteutetaan seuraavasti: Uusintatilaustapa = *Erä-erästä* (*Tilaus* on yhä *Tilaus*), Sisällytä varasto = *Kyllä*, kaikki muut suunnitteluparametrit ovat tyhjiä.
 
-### <a name="setup-" />Asetus 4
+### <a name="setup-4" />Asetus 4
 
 * Sijainti pakollinen = *Ei*  
 * Ei varastointiyksikköä  
 * Komponentit sijainnissa = *TYHJÄ*  
 
-#### <a name="case--demand-is-at-east-location" />Tapaus 4.1: Kysyntää *ITÄ*-sijainnissa
+#### <a name="case-41-demand-is-at-east-location" />Tapaus 4.1: Kysyntää *ITÄ*-sijainnissa
 
 Nimikkeen suunnittelu toteutetaan seuraavasti: Uusintatilaustapa = *Erä-erästä* (*Tilaus* on yhä *Tilaus*), Sisällytä varasto = *Kyllä*, kaikki muut suunnitteluparametrit ovat tyhjiä.
 
-#### <a name="case--demand-is-at-blank-location" />Tapaus 4.2: Kysyntää *TYHJÄ*-sijainnissa
+#### <a name="case-42-demand-is-at-blank-location" />Tapaus 4.2: Kysyntää *TYHJÄ*-sijainnissa
 
 Nimike suunnitellaan nimikkeen kortin suunnitteluparametrien mukaisesti.
 
@@ -139,7 +139,7 @@ Kuten viimeinen esimerkkitilanne osoittaa, kaikkien sijainteihin liittyvien aset
 
 Jos siis suunnittelet usein kysyntää sijainneissa, Varastointiyksiköt-ominaisuutta kannattaa käyttää.
 
-## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics--business-central" />Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/training/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics-365-business-central" />Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/training/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />Katso myös
 

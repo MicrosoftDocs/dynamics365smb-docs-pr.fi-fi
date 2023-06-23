@@ -75,7 +75,7 @@ Jos haluat tarkistaa kirjatuttuja sekkejä, esimerkiksi yhdelle toimittajalle ma
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitili - sekin tiedot** ja valitse sitten vastaava linkki.
 2. Aseta haluamasi suodattimet ja valitse sitten **Esikatselu**-painike.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-checks-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-checks-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesuse-checks-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-checks-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

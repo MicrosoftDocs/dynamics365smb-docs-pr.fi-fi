@@ -10,7 +10,7 @@ ms.search.keywords: 'sales, crm, integration, integrating'
 ms.date: 06/14/2021
 ms.author: bholtorf
 ---
-# <a name="integrating-with-dynamics--sales" />Dynamics 365 Sales -integrointi
+# <a name="integrating-with-dynamics-365-sales" />Dynamics 365 Sales -integrointi
 
 Myyjää pidetään usein liiketoiminnan eniten ulospäin suuntautuneena tehtävänä. Myyjien voisi kuitenkin olla hyödyllistä tarkastella liiketoimintaa myös sisäisesti, jotta he tiedostaisivat, mitä taustalla tapahtuu. Myyjät saavat merkityksellisiä tietoja, kun [!INCLUDE[prod_short](includes/prod_short.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] integroidaan. Integroinnin avulla käyttäjät näkevät, mitä tietoja [!INCLUDE[prod_short](includes/prod_short.md)] sisältää, kun käytössä on [!INCLUDE[crm_md](includes/crm_md.md)]. Myyntitarjousta valmistellessa voi esimerkiksi olla hyödyllistä tietää, riittääkö varasto tilauksen täyttämiseen. Lisätietoja on kohdassa [Dynamics 365 Salesin käyttäminen Business Centralissa](marketing-integrate-dynamicscrm.md).
 
@@ -51,7 +51,7 @@ Asetusten ohjattu määritysopas auttaa määrittämään yhteyden nopeasti ja m
 |**Ota käyttöön Dynamics 365 Sales -yhteys** | Ota [!INCLUDE[crm_md](includes/crm_md.md)] -yhteys käyttöön. |
 | **Dynamics 365 SDK -versio** | Tällä on merkitystä vain, jos integrointi tehdään [!INCLUDE[crm_md](includes/crm_md.md)]in paikalliseen versioon. [!INCLUDE[prod_short](includes/prod_short.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] voidaan yhdistää tällä Dynamics 365 SDK -versiolla (joka tunnetaan myös nimellä Xrm). Version on oltava yhteensopiva sen SDK-version kanssa, jota [!INCLUDE[crm_md](includes/crm_md.md)] käyttää. Lisäksi sen on oltava sama tai uudempi kuin versio, jota [!INCLUDE[crm_md](includes/crm_md.md)] käyttää. |
 
-### <a name="connection-settings-on-the-microsoft-dynamics--connection-setup-page" />Microsoft Dynamics 365 -yhteyden määrityssivun yhteysasetukset
+### <a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page" />Microsoft Dynamics 365 -yhteyden määrityssivun yhteysasetukset
 
 Anna seuraavat tiedot yhteyden muodostamiseen [!INCLUDE[crm_md](includes/crm_md.md)]ista [!INCLUDE[prod_short](includes/prod_short.md)]iin.
 
@@ -183,7 +183,7 @@ Seuraavassa taulukossa kuvaillaan Salesin synkronoinnin oletustyöt.
 |KIRJMNTILASKU-LASK – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in laskut ja [!INCLUDE[prod_short](includes/prod_short.md)]in kirjatut myyntilaskut.|[!INCLUDE[prod_short](includes/prod_short.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)]iin|LASKUT-KIRJATUT MYYNTILASKUT|30|1440<br> (24 tuntia)|
 |Asiakastilastot – Dynamics 365 Salesin synkronointityö|Päivittää [!INCLUDE[crm_md](includes/crm_md.md)]in tilit uusilla [!INCLUDE[prod_short](includes/prod_short.md)]in asiakastiedoilla. Nämä tiedot näkyvät [!INCLUDE[crm_md](includes/crm_md.md)]issa niiden tilien **Business Central -tilin tilastot** -pikanäkymälomakkeessa, jotka on yhdistetty [!INCLUDE[prod_short](includes/prod_short.md)]in asiakkaisiin.<br /><br /> Nämä tiedot voidaan päivittää myös manuaalisesti kustakin asiakastietueesta. Lisätietoja on kohdassa [Tietueiden yhdistäminen ja synkronoiminen manuaalisesti](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Huomautus:** Tällä työjonotapahtumalla on merkitystä vain, jos [!INCLUDE[prod_short](includes/prod_short.md)] -integrointiratkaisu on asennettu [!INCLUDE[crm_md](includes/crm_md.md)]iin. |Ei sovellu|Ei sovellu|30|Ei sovellu| 
 
-## <a name="connecting-to-on-premises-versions-of-business-central--release-wave--and-microsoft-dynamics-nav-" />Yhteyden muodostaminen Business Central 2019:n julkaisuaallon 1 ja Microsoft Dynamics NAV 2018:n paikallisiin versioihin
+## <a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018" />Yhteyden muodostaminen Business Central 2019:n julkaisuaallon 1 ja Microsoft Dynamics NAV 2018:n paikallisiin versioihin
 Microsoft Power Platform -tiimi on [ilmoittanut](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse), että Office 365 -todennustyyppi vanhentuu. Jos käytössä on [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen paikallinen versio, joka on vanhempi kuin Business Central 2019:n julkaisuaalto 1, sinun on muodostettava yhteys [!INCLUDE[crm_md](includes/crm_md.md)] -sovellukseen online-tilassa OAuth-todennustyypin avulla. Tässä osassa kerrotaan, miten seuraavat tuoteversiot yhdistetään:
 
 * Business Central 2019:n julkaisuaalto 1
@@ -201,7 +201,7 @@ Microsoft Power Platform -tiimi on [ilmoittanut](/power-platform/important-chang
 
    - OAuth
 
-### <a name="to-connect-business-central--release-wave--and-dynamics-nav-" />Business Central 2019:n julkaisuaallon 1 ja Dynamics NAV 2018:n yhdistäminen
+### <a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018" />Business Central 2019:n julkaisuaallon 1 ja Dynamics NAV 2018:n yhdistäminen
 
 1. Tuo Microsoft Dynamics 365 Business Central -integrointiratkaisu [!INCLUDE[crm_md](includes/crm_md.md)] -ympäristöösi. Integrointiratkaisu on käytettävissä CrmCustomization-kansiossa [!INCLUDE[prod_short](includes/prod_short.md)]- tai Dynamics NAV -DVD-asennuslevyllä. Tuo tuoteversiostasi riippuen jokin seuraavista ratkaisuista:
 

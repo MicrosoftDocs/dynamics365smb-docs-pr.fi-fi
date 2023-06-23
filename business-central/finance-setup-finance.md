@@ -51,7 +51,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 > [!TIP]
 > Maantieteellinen sijaintisi mukaan jotkin Business Central -sivut voivat sisältää kenttiä, joita ei ole kuvattu yllä olevassa luettelossa, koska ne koskevat paikallisia toimintoja tai mukautuksia. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

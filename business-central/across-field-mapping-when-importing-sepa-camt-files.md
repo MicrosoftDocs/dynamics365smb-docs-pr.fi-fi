@@ -17,7 +17,7 @@ ms.custom: bap-template
 
  Lisätietoja tietojenvaihtomäärityksen luomisesta tai muuttamisesta on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).  
 
-## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-" />CAMT-tietojen kohdistaminen kenttiin yleinen päiväkirja -taulukossa (81)
+## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81" />CAMT-tietojen kohdistaminen kenttiin yleinen päiväkirja -taulukossa (81)
 
 |Elementin polku|Viestin elementti|Tietotyyppi|Kuvaus|Negatiivisen etumerkin tunniste|Kentän nro|Kentän nimi|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -29,14 +29,14 @@ ms.custom: bap-template
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Rakenteeton|Teksti|Rakenteettomassa muodossa olevat tiedot, jotka on toimitettu sen tapahtuman kohdistamiseen/täsmäytykseen nimikkeillä, jotka maksun tulisi selvittää, esimerkiksi myyntireskontrajärjestelmän kaupallisten laskujen.||8|Kuvaus|  
 |Stmt/Ntry/AddtlNtryInf|LisätiedotMerkinnästä|Teksti|Lisätietoja merkinnästä||1222|Tapahtuman tiedot|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-" />CAMT-tietojen kohdistaminen kenttiin pankkitilin täsmäytys-taulukossa (273)
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273" />CAMT-tietojen kohdistaminen kenttiin pankkitilin täsmäytys-taulukossa (273)
 
 |Elementin polku|Viestin elementti|Tietotyyppi|Kuvaus|Negatiivisen etumerkin tunniste|Kentän nro|Kentän nimi|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
 |Stmt/CreDtTm|CreationDateTime|Pvm|Päivämäärä ja kellonaika, jolloin sanoma luotiin.||3|Tiliotteen pvm|  
 |Stmt/Bal/Amt|Summa|Desimaali|Summa, joka on seurasta kaikkien debet- ja kreditkirjausten summasta.||4|Tiliotteen loppusaldo|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-" />CAMT-tietojen kohdistaminen kenttiin pankkitilin täsmäytysrivi-taulukossa (274)
+## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274" />CAMT-tietojen kohdistaminen kenttiin pankkitilin täsmäytysrivi-taulukossa (274)
 
 |Elementin polku|Viestin elementti|Tietotyyppi|Kuvaus|Negatiivisen etumerkin tunniste|Kentän nro|Kentän nimi|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  

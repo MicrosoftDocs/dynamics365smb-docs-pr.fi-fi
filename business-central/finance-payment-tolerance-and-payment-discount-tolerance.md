@@ -89,7 +89,7 @@ Oletusarvo maksutoleranssiasetukselle on sallittu. Estääksesi tietyn asiakkaan
 > [!NOTE]  
 > Jos asiakkaalla tai toimittajalla on avoimia tapahtumia, sinun on ensin poistettava maksutoleranssi avoimista tapahtumista.
 
-## <a name="example----tolerance-calculations-for-a-single-document" />Esimerkki 1 – Yksittäisen asiakirjan toleranssilaskennat
+## <a name="example-1---tolerance-calculations-for-a-single-document" />Esimerkki 1 – Yksittäisen asiakirjan toleranssilaskennat
 
 Seuraavassa muutamia esimerkkejä oletetuista toleranssilaskelmista ja kirjauksista, erilaisissa tilanteissa.  
 
@@ -127,7 +127,7 @@ Seuraavissa tilanteissa käytössä on vaihtoehto A tai B:
 
 Yo. tapaukseen liittyen maksudiagrammi on seuraavanlainen:  
 
-#### <a name="-payment-date--scenarios--" />(1) Maksupvm <=15.01.03 (Tapaukset 1-3)
+#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Maksupvm <=15.01.03 (Tapaukset 1-3)
 
 Jäljellä oleva summa per  
 
@@ -139,7 +139,7 @@ Normaalit kohdistussäännöt
 
 (2) Mikäli maksu osuu tälle välille kaikkia kohdistettavia tapahtumia ei voida sulkea edes toleranssilla.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(2) Maksupvm on välillä 16.1.03 ja 20.1.03 (Tapaukset 4-9)
+#### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9" />(2) Maksupvm on välillä 16.1.03 ja 20.1.03 (Tapaukset 4-9)
 
 Jäljellä oleva summa per  
 
@@ -151,7 +151,7 @@ Normaalit kohdistussäännöt
 
 (2) Mikäli maksu osuu tälle välille kaikkia kohdistettavia tapahtumia ei voida sulkea edes toleranssilla.  
 
-#### <a name="-payment-date-is-after--scenarios--" />(3) Maksupvm 20.01.2003 jälkeen (Tapaukset 10-15)
+#### <a name="3-payment-date-is-after-012003-scenarios-10-15" />(3) Maksupvm 20.01.2003 jälkeen (Tapaukset 10-15)
 
 Jäljellä oleva summa per  
 
@@ -163,7 +163,7 @@ Normaalit kohdistussäännöt
 
 (2) Mikäli maksu osuu tälle välille kaikkia kohdistettavia tapahtumia ei voida sulkea edes toleranssilla.  
 
-## <a name="example----tolerance-calculations-for-multiple-documents" />Esimerkki 2 – Useiden asiakirjojen toleranssilaskelmat
+## <a name="example-2---tolerance-calculations-for-multiple-documents" />Esimerkki 2 – Useiden asiakirjojen toleranssilaskelmat
 
 Seuraavassa muutamia esimerkkejä oletetuista toleranssilaskelmista ja kirjauksista, erilaisissa tilanteissa. Nämä esimerkit rajoittuvat vain tilanteisiin, joissa kaikki kohdistettavat tapahtumat suljetaan.  
 
@@ -215,7 +215,7 @@ Seuraavissa tilanteissa käytössä on vaihtoehdot A, B, C tai D:
 
 Yo. tapaukseen liittyen maksudiagrammi on seuraavanlainen:  
 
-#### <a name="-payment-date--scenarios--" />(1) Maksupvm <=15.01.03 (Tapaukset 1–3)
+#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Maksupvm <=15.01.03 (Tapaukset 1–3)
 
 Jäljellä oleva summa per  
 
@@ -227,7 +227,7 @@ Normaalit kohdistussäännöt
 
 (2) Mikäli maksu osuu tälle välille kaikkia kohdistettavia tapahtumia ei voida sulkea edes toleranssilla.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(2) Maksupvm on välillä 16.1.03 ja 17.01.2003 (Tapaukset 4-9)
+#### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9" />(2) Maksupvm on välillä 16.1.03 ja 17.01.2003 (Tapaukset 4-9)
 
 Jäljellä oleva summa per  
 
@@ -239,7 +239,7 @@ Normaalit kohdistussäännöt
 
 (2) Mikäli maksu osuu tälle välille kaikkia kohdistettavia tapahtumia ei voida sulkea edes toleranssilla.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(3) Maksupvm on välillä 18.01.2003 ja 20.1.03 (Tapaukset 10-21)
+#### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21" />(3) Maksupvm on välillä 18.01.2003 ja 20.1.03 (Tapaukset 10-21)
 
 Jäljellä oleva summa per  
 
@@ -251,7 +251,7 @@ Normaalit kohdistussäännöt
 
 (2) Mikäli maksu osuu tälle välille kaikkia kohdistettavia tapahtumia ei voida sulkea edes toleranssilla.  
 
-#### <a name="-payment-date-is-between--and--scenarios--" />(4) Maksupvm on välillä 21.01.2003 ja 22.01.2003 (Tapaukset 22-27)
+#### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27" />(4) Maksupvm on välillä 21.01.2003 ja 22.01.2003 (Tapaukset 22-27)
 
 Jäljellä oleva summa per  
 
@@ -263,7 +263,7 @@ Normaalit kohdistussäännöt
 
 (2) Mikäli maksu osuu tälle välille kaikkia kohdistettavia tapahtumia ei voida sulkea edes toleranssilla.  
 
-#### <a name="-payment-date-is-after--scenarios--" />(5) Maksupvm 22.01.2003 jälkeen (Tapaukset 28-30)
+#### <a name="5-payment-date-is-after-012203-scenarios-28-30" />(5) Maksupvm 22.01.2003 jälkeen (Tapaukset 28-30)
 
 Jäljellä oleva summa per  
 
@@ -275,7 +275,7 @@ Normaalit kohdistussäännöt
 
 (2) Mikäli maksu osuu tälle välille kaikkia kohdistettavia tapahtumia ei voida sulkea edes toleranssilla.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/enter-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

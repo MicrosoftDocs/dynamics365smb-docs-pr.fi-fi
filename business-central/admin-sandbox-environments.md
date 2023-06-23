@@ -64,7 +64,7 @@ Lisätietoja on kehittäjä- ja järjestelmänvalvojasisällön kohdassa [Suunni
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

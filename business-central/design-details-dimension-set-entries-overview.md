@@ -33,7 +33,7 @@ Kun luot uuden päiväkirjarivin, asiakirjaotsikon tai asiakirjarivin, voit mä�
 
 Kun muokkaat **Muokkaa dimensioyhdistelmän tapahtumia** -sivua ja suljet sen, tarkastus on suoritettu nähdäksesi onko dimensioarvojen yhdistelmä olemassa dimensionyhdistelmänä taulukossa. Jos yhdistelmä tehdään taulukossa, vastaavan dimensioyhdistelmän tunnus liitetään päiväkirjariviin, asiakirjan otsikkoon tai asiakirjariville. Muussa tapauksessa taulukkoon lisätään uusi dimensioyhdistelmä ja uuden dimensioyhdistelmä tunnus määritetään päiväkirjariville, asiakirjaotsikkoon tai asiakirjariville.
 
-## <a name="codeunit--dimension-management" />Codeunit 408 -dimension hallinta
+## <a name="codeunit-408-dimension-management" />Codeunit 408 -dimension hallinta
 Codeunit 408, dimension hallinta, on toimintokirjasto, joka käsittelee yleiset dimensioihin liittyvät tehtävät, kuten kopioinnin taulukosta toiseen tai yhdestä asiakirjasta toiseen.
 
 ## <a name="performance-improvement" />Suorituskyvyn parantaminen

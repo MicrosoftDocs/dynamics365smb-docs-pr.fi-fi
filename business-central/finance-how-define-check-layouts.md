@@ -45,7 +45,7 @@ Päivityksessä 15.3 ja uudemmissa on asennettu magneettisten merkkien tunnistuk
 > [!NOTE]
 > Suojaus- ja oikeudellisista syistä mukautettuja fontteja ei voi ladata [!INCLUDE[prod_short](includes/prod_short.md)]-ympäristöön.
 
-### <a name="micr-e-b-specifications" />MICR E-13B -määritykset
+### <a name="micr-e-13b-specifications" />MICR E-13B -määritykset
 
 Seuraavassa on yhteenveto MICR E-13B -fonteista, joista voi olla hyötyä, kun fontteja kalibroidaan sekkiasetteluissa tiettyjen MICR-tulostimien avulla.
 
@@ -57,7 +57,7 @@ Seuraavassa on yhteenveto MICR E-13B -fonteista, joista voi olla hyötyä, kun f
 
 MICR E-13B -fonttien kokomääritys löytyy toimittajan dokumentaatiosta täältä: (https://www.idautomation.com/micr-fonts/e13b/).
 
-### <a name="micr-cmc--specifications" />MICR CMC-7 -määritykset
+### <a name="micr-cmc-7-specifications" />MICR CMC-7 -määritykset
 
 Seuraavat CMC-7 -fontit ovat käytettävissä [!INCLUDE[prod_short](includes/prod_short.md)] -online-käytössä:
 

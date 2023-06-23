@@ -75,7 +75,7 @@ Pankista riippuen myyjä näkee tämän saapuvan tapahtuman pankkitilillään ve
 
 Maksutapahtumia käsitellään useilla eri tavoilla [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa
   
-### <a name="option--reconcile-incoming-transfers-to-bank-account-against-original-invoices" />Vaihtoehto 1: Täsmäytä saapuvat siirrot pankkitiliin alkuperäisten laskujen mukaan
+### <a name="option-1-reconcile-incoming-transfers-to-bank-account-against-original-invoices" />Vaihtoehto 1: Täsmäytä saapuvat siirrot pankkitiliin alkuperäisten laskujen mukaan
   
 Myyjä tuo myyntitilauksen [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmaan ja kirjaa toimituksen ja laskun.
 
@@ -88,7 +88,7 @@ Ongelmat:
 1. Voi olla vaikeaa, jos on olemassa useita laskuja (ja hyvityslaskuja), mutta yksi kertasuoritus maksupalvelun tarjoajalta.
 2. Summa ei yleensä täsmää komission vuoksi. Maksutoleranssin tai/ja maksualennuksen avulla voit käsitellä maksuja.
 
-### <a name="option--reconcile-incoming-transfers-to-bank-account-against-interim-account-representing-money-at-the-payment-provider" />Vaihtoehto 2: Täsmäytä pankkitilille saapuvat siirrot maksupalvelun tarjoajan rahaa edustavan välitilin kanssa
+### <a name="option-2-reconcile-incoming-transfers-to-bank-account-against-interim-account-representing-money-at-the-payment-provider" />Vaihtoehto 2: Täsmäytä pankkitilille saapuvat siirrot maksupalvelun tarjoajan rahaa edustavan välitilin kanssa
   
 Myyjä tuo myyntitilauksen [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmaan ja kirjaa toimituksen ja laskun.
   

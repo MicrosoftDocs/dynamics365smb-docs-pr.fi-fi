@@ -30,7 +30,7 @@ Seuraavissa artikkeleissa kuvataan joitakin yrityksen tilan analysointiin liitty
 * [Luo raportteja XBRL-linkityksellä.](bi-create-reports-with-xbrl.md)  
 * [Tietokannan käyttötarkoituksen hallinta](admin-data-access-intent.md)  
 
-## <a name="see-related-microsoft-trainingtrainingpathscreate-financial-reports-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/create-financial-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathscreate-financial-reports-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

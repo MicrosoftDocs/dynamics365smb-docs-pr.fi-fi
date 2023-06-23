@@ -220,7 +220,7 @@ Seuraavat toimenpiteet perustuvat **Yleinen päiväkirja** -sivuun, mutta niitä
 
 **Asiakirjanumero**-kentän arvoja muutetaan tarvittaessa siten, että yksittäisten tai ryhmitettyjen päiväkirjojen rivien asiakirjanumerot ovat peräkkäisessä järjestyksessä. Voit kirjata päiväkirjan, kun asiakirjat on numeroitu uudelleen.
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-journals-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsuse-journals-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

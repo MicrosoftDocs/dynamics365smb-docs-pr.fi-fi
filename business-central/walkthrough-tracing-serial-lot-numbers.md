@@ -282,7 +282,7 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
  **Nimikkeen jäljitys** -sivun avulla laatu-ohjain havaitsi, että LOT1 sisälsi viallisia kilpakehyksiä, jotka toimittaja on toimittanut, ja kirjatun tapahtuman, jossa niitä on käytetty. Hänen on nyt selvitettävä, sisältyykö ERÄ1 mihinkään avoimeen asiakirjaan integroimalla jäljitystulos **Etsi tapahtumat** -sivulle, jossa hän voi suorittaa haun kaikista tietokantatietueista.  
 
-### <a name="to-find-all-occurrences-of-lot-in-non-posted-records-such-as-open-orders" />ERÄ1:n kaikkien esiintymien etsiminen avoimista tilauksista ja muista kirjaamattomista tietueista
+### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders" />ERÄ1:n kaikkien esiintymien etsiminen avoimista tilauksista ja muista kirjaamattomista tietueista
 
 1.  Valitse **Nimikkeen jäljitys** -sivulla ensimmäisen jäljitysrivin eli ERÄ1:n ostovastaanoton osoitin.  
 2.  Valitse **Etsi tapahtumat** -toiminto.  

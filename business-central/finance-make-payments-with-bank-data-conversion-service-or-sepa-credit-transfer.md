@@ -11,7 +11,7 @@ ms.search.form: '256, 1205, 1206, 1209, 10810, 10811'
 ms.date: 07/06/2021
 ms.author: bholtorf
 ---
-# <a name="make-payments-with-the-amc-banking--fundamentals-extension-or-sepa-credit-transfer" />Maksujen suorittaminen AMC Banking 365 Fundamentals -laajennuksen tai SEPA-tilisiirron avulla
+# <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer" />Maksujen suorittaminen AMC Banking 365 Fundamentals -laajennuksen tai SEPA-tilisiirron avulla
 
 Voit käsitellä **Maksupäiväkirja**-sivulla maksut toimittajille viemällä tiedoston yhdessä maksutietojen kanssa päiväkirjan riveiltä. Voit sitten ladata tiedoston verkkopankkiin, jossa liittyvät rahansiirrot käsitellään. [!INCLUDE[prod_short](includes/prod_short.md)] tukee SEPA-hyvitysten siirtomuotoa, mutta maa- tai aluekohtaisesti voi olla käytettävissä muita sähköisiä maksumuotoja.
 
@@ -23,7 +23,7 @@ Voit käsitellä **Maksupäiväkirja**-sivulla maksut toimittajille viemällä t
 > [!NOTE]  
 > Kun olet varmistanut, että pankki on käsitellyt maksut onnistuneesti, voit jatkaa maksupäiväkirjan rivien kirjaamista.  
 
-## <a name="setting-up-the-amc-banking--fundamentals-extension" />AMC Banking 365 Fundamentals -laajennuksen määrittäminen
+## <a name="setting-up-the-amc-banking-365-fundamentals-extension" />AMC Banking 365 Fundamentals -laajennuksen määrittäminen
 
 Voit aktivoida AMC Banking 365 Fundamentals -laajennuksen, jolla voi muuntaa minkä tahansa pankin tiliotteen tuotavaan muotoon, tai voit muuttaa viedyt maksutiedostot pankin edellyttämään muotoon. Lisätietoja on kohdassa [AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md).
 

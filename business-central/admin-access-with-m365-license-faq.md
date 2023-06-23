@@ -9,7 +9,7 @@ ms.topic: faq
 ms.date: 11/22/2022
 ms.custom: bap-template
 ---
-# <a name="access-with-microsoft--licenses-faq" />Usein kysyttyjä kysymyksiä käytöstä Microsoft 365 -käyttöoikeuksien avulla
+# <a name="access-with-microsoft-365-licenses-faq" />Usein kysyttyjä kysymyksiä käytöstä Microsoft 365 -käyttöoikeuksien avulla
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -57,7 +57,7 @@ Vaikka Business Central tarjoaa tämän suojaustason, suosittelemme silti, että
 
 Käytön salliminen Microsoft 365 -käyttöoikeuksilla on saatavilla vain Business Central -ympäristöille, joiden sovellusalustan versio on 21.1 tai sitä uudempi. Kun ympäristösi päivitetään tähän vähimmäisversioon, asetus tulee automaattisesti saataville. Voit tarkistaa ympäristösi version sen lisätietosivulta Business Central -hallintakeskuksesta. Voit myös kirjautua ympäristöön ja siirtyä **Ohje ja tuki** -sivulle **Ohje**-valikosta.
 
-### <a name="can-i-access-business-central-on-premises-with-microsoft--licenses" />Voinko käyttää Business Central on-premises -versiota Microsoft 365 -käyttöoikeuksilla?
+### <a name="can-i-access-business-central-on-premises-with-microsoft-365-licenses" />Voinko käyttää Business Central on-premises -versiota Microsoft 365 -käyttöoikeuksilla?
 
 Ei, sitä ei tueta. Business Central näyttää virheen, kun käyttäjät yrittävät käyttää Business Central on-premises -tietueita Teamsissa.
 
@@ -69,7 +69,7 @@ Ei, sitä ei tueta. Business Central näyttää virheen, kun käyttäjät yritt�
 
 **Käyttäjäryhmät** -sivulla näytetty **Microsoft Teamsin sisäiset käyttäjät** -käyttäjäryhmä otettiin käyttöön päivityksessä 21.1. Tämä ryhmä on oletusarvoinen käyttäjäryhmä, joka kohdistetaan käyttäjille, jotka käyttävät Business Centralia Microsoft 365 -käyttöoikeudellaan. Käyttäjäryhmä on tarkoitettu henkilöille, jotka kuuluvat Business Centralin isäntäorganisaatioon ja jotka tekevät yhteistyötä Microsoft Teamsissa.  
 
-### <a name="do-users-that-only-have-a-microsoft--license-show-up-in-the-users-list-in-business-central" />Näytetäänkö Business Centralin Käyttäjät-luettelossa käyttäjät, joilla on vain Microsoft 365 -käyttöoikeus?
+### <a name="do-users-that-only-have-a-microsoft-365-license-show-up-in-the-users-list-in-business-central" />Näytetäänkö Business Centralin Käyttäjät-luettelossa käyttäjät, joilla on vain Microsoft 365 -käyttöoikeus?
 
 Kyllä. Jos käytät ympäristöille suojausryhmiä, kyseiset käyttäjät näytetään Käyttäjät-luettelossa, kun suoritat Päivitä käyttäjät Microsoft 365:stä -toiminnon **Käyttäjät**-luettelosta. Jos et käytä suojausryhmiä, käyttäjätietueet näytetään Käyttäjät-luettelossa, kun käyttäjät käyttävät Business Central -tietuetta ensimmäisen kerran.
 
@@ -91,31 +91,31 @@ PK-yritykset ostavat Dynamics 365 Business Centralin usein yhdessä Microsoft 36
 - Käyttäjille, jotka tarvitsevat rajoitetut kirjoitusoikeudet, kohdistetaan tavallisesti Business Central Team Member -käyttöoikeus.
 - Kaikki muut organisaation työntekijät, joiden tarvitsee lukea vain satunnaisesti heille jaettuja liiketoimintatietoja, tarvitsevat vain Microsoft 365 -käyttöoikeuden. Heille ei tarvitse kohdistaa Team Member -käyttöoikeutta. Muita lisensointivaihtoehtoja on saatavilla. Lataa ja lue [Dynamics 365 -käyttöoikeusopas](https://go.microsoft.com/fwlink/?LinkId=866544) saadaksesi lisätietoja.
 
-### <a name="is-this--free-of-charge" />Onko se täysin ilmainen?
+### <a name="is-this-100-free-of-charge" />Onko se täysin ilmainen?
  
 Nro Business Central -tietojen käyttäminen Microsoft Teamsissa edellyttää, että jokaisella käyttäjällä on joko Business Central -käyttöoikeus tai tuettujen suunnitelmien luettelossa mainittu Microsoft 365 -käyttöoikeus.
 
-### <a name="does-this-work-with-microsoft--trials-and-business-central-trials" />Toimiiko tämä Microsoft 365- ja Business Central -kokeiluversioissa?
+### <a name="does-this-work-with-microsoft-365-trials-and-business-central-trials" />Toimiiko tämä Microsoft 365- ja Business Central -kokeiluversioissa?
 
 Kyllä. Jos käyttäjälle on kohdistettu tuetun suunnitelman kokeiluversion Microsoft 365 -käyttöoikeus, hän voi käyttää myös Business Central -tietueita Teamsissa. Näin asiakkaat voivat kokeilla Microsoftin tuottavuus- ja yrityssovelluksia yhdessä ja kumppanien myyjät ja konsultit voivat helposti esitellä tätä ominaisuutta helposti. Kumppanit voivat esimerkiksi tarjota osoitteesta [https://aka.ms/CDX](https://aka.ms/CDX) omia Azure AD -vuokralaisiaan, jotka sisältävät Microsoft 365- ja Business Central -kokeiluversioita, esitelläkseen Business Centralia.
 
-### <a name="the-list-of-licenses-in-business-central-shows-a-microsoft--license-whats-that" />Business Centralin käyttöoikeuksien luettelossa näkyy Microsoft 365 -käyttöoikeus. Mikä se on?
+### <a name="the-list-of-licenses-in-business-central-shows-a-microsoft-365-license-whats-that" />Business Centralin käyttöoikeuksien luettelossa näkyy Microsoft 365 -käyttöoikeus. Mikä se on?
 
 Business Centralin **Käyttöoikeuden konfiguraatio** -sivulla näytetään erityyppisiä käyttöoikeuksia, jotka voivat tarjota pääsyn Business Central -palveluun. Microsoft lisäsi Microsoft 365:n tähän luetteloon versiossa 21 tarjotakseen uuden tavan käyttää Business Centralia. Tämä käyttöoikeuksien luettelo ei tarkoita sitä, että organisaatiosi olisi ostanut tilauksia mihinkään näistä käyttöoikeuksista tai että organisaatiosi olisi sallinut käytön kyseisten käyttöoikeuksien kautta.
 
-### <a name="do-i-need-to-acquire-a-new-type-of-microsoft--license-for-this-feature-to-work" />Täytyykö minun hankkia uudentyyppinen Microsoft 365 -käyttöoikeus, jotta tämä ominaisuus toimisi?
+### <a name="do-i-need-to-acquire-a-new-type-of-microsoft-365-license-for-this-feature-to-work" />Täytyykö minun hankkia uudentyyppinen Microsoft 365 -käyttöoikeus, jotta tämä ominaisuus toimisi?
 
 Microsoft ei ole luonut tälle ominaisuudelle uusia käyttöoikeuksia tai uusia suunnitelmia. Tämä ominaisuus perustuu täysin olemassa oleviin Microsoft 365 -suunnitelmiin ja -käyttöoikeuksiin. Jos olet jo tilannut jonkin tuetuista Microsoft 365 -suunnitelmista, sinulla on jo tämä uusi käyttöoikeus. Muussa tapauksessa, jos et tilaa Microsoft 365:ää tänään, voit rekisteröidä Microsoft 365 Business Premium -suunnitelman tai sitä vastaavia suunnitelmia täältä. 
 
-### <a name="how-do-i-find-out-which-users-have-only-a-microsoft--license" />Miten saan selville, kenellä käyttäjistä on vain Microsoft 365 -käyttöoikeus?
+### <a name="how-do-i-find-out-which-users-have-only-a-microsoft-365-license" />Miten saan selville, kenellä käyttäjistä on vain Microsoft 365 -käyttöoikeus?
 
 Tähän on monia tapoja. Siirry Microsoft 365 -hallintakeskuksen **Aktiiviset käyttäjät** -luetteloon ja tarkasta **Käyttöoikeudet**-sarake. Siirry Business Centralin **Käyttäjät**-luetteloon, valitse käyttäjä ja tarkasta **Käyttöoikeudet**-tietoruutu.  
 
-### <a name="how-do-i-filter-the-users-list-in-business-central-to-see-users-that-only-have-a-microsoft--license" />Miten suodatan Business Centralin Käyttäjät-luetteloa nähdäkseni käyttäjät, joilla on vain Microsoft 365 -käyttöoikeus?
+### <a name="how-do-i-filter-the-users-list-in-business-central-to-see-users-that-only-have-a-microsoft-365-license" />Miten suodatan Business Centralin Käyttäjät-luetteloa nähdäkseni käyttäjät, joilla on vain Microsoft 365 -käyttöoikeus?
 
 Tämä ei ole tällä hetkellä mahdollista käyttämällä suodatinta tai luettelonäkymää. Voit kuitenkin valita luettelosta käyttäjän ja tarkastaa tietoruudun, joka sisältää vain Microsoft 365:n, jos käyttäjällä on vain Microsoft 365 -käyttöoikeus.
 
-### <a name="what-about-users-that-have-both-a-microsoft--license-and-a-business-central-license" />Entä käyttäjät, joilla on sekä Microsoft 365- että Business Central -käyttöoikeus?
+### <a name="what-about-users-that-have-both-a-microsoft-365-license-and-a-business-central-license" />Entä käyttäjät, joilla on sekä Microsoft 365- että Business Central -käyttöoikeus?
 
 Kun käyttäjälle on kohdistettu useita käyttöoikeuksia, laajemmat käyttöoikeudet ovat etusijalla rajoitetumpiin käyttöoikeuksiin nähden Business Centralia käytettäessä. Tällöin Business Central -käyttöoikeus myöntää käyttäjälle enemmän käyttöoikeuksia. Käyttäjät voivat siis lukea ja kirjoittaa Business Central -tietueita Teamsissa ja käyttää Business Central -verkkosovellusta selaimessa muiden Business Central -käyttöoikeuden haltijoiden tavoin. Jos Microsoft 365 -käyttöoikeudelle on määritetty erityisiä käyttöoikeuksien joukkoja, käyttäjä saa määritetyt käyttöoikeuksien joukot yhdistettynä käyttöoikeuksien joukkoihin, jotka on saatu Business Central -käyttöoikeudesta tai jotka on jo kohdistettu käyttäjälle.
 
@@ -149,7 +149,7 @@ Business Central -sivujen toimintolinkit näytetään usein lihavoituina hyperli
 
 Sivuilla näytetyissä tilannekohtaisissa ilmoituksissa on usein toimintolinkkejä. Kun käyttäjät käyttävät Business Central -sivuja Microsoft 365 -käyttöoikeudellaan, nämä linkit näytetään, mutta niitä ei voi aktivoida, koska tämä käyttöoikeus ei tarjoa oikeutta suorittaa toimintoja. Teknisellä tasolla nämä linkit on toteutettu toimintoina.
 
-### <a name="can-microsoft--users-remove-tabs" />Voivatko Microsoft 365 -käyttäjät poistaa välilehtiä?
+### <a name="can-microsoft-365-users-remove-tabs" />Voivatko Microsoft 365 -käyttäjät poistaa välilehtiä?
 
 Kyllä. Kuka tahansa keskustelussa tai kanavassa voi poistaa toisten luomia välilehtiä. Välilehden poistaminen ei poista Business Central -tietoja tai vaikuta niihin, mutta välilehti poistetaan kaikilta keskustelun tai kanavan käyttäjiltä.
 

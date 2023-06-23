@@ -133,13 +133,13 @@ Varausjärjestelmä on kokonaisvaltainen ja se sisältää Tilausten seurannan j
 
  ![Ensimmäinen esimerkki: Varaustapahtumataulukon tilausten seurantatapahtumat.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
-### <a name="entry-numbers--and-" />Tapahtumanumerot 8 ja 9
+### <a name="entry-numbers-8-and-9" />Tapahtumanumerot 8 ja 9
  Vastaavasti LOTA:n ja LOTB:n komponenttitarpeen osalta seurantalinkit luodaan taulukon 5407, **Tuotantotilauksen komponentti** kysynnästä tarjontaan taulukossa 32, **Nimiketapahtuma**. **Varauksen tila** -kenttä sisältää **Seurannan**, joka ilmaisee, että nämä kirjaukset ovat dynaamisen tilaustenseurannan linkkejä kysynnän ja tarjonnan välillä.  
 
 > [!NOTE]  
 >  **Eränro**-kenttä on tyhjä kysyntäriveillä, koska eränumeroita ei ole määritetty julkaistun tuotantotilauksen osariveillä.  
 
-### <a name="entry-numbers-" />Tapahtumanumerot 10
+### <a name="entry-numbers-10" />Tapahtumanumerot 10
  Myynnin kysynnästä taulukossa 37, **Myyntirivi** luodaan tilausseurantalinkki tarjontaan taulukossa 5406, **Tuot. til. rivi**. **Varauksen tila** -kenttä sisältää **Varauksen** ja **Sitova**-kenttä sisältää **Tilauksesta tilaukseen**. Tämä johtuu siitä, että vapautettu tuotantotilaus luotiin erityisesti myyntitilausta varten. Sen linkitys on säilytettävä, toisin kuin tilauksen seurantalinkit, joiden varauksen tila on **Seuranta**. Nämä linkit luodaan dynaamisesti ja niitä myös muokataan dynaamisesti. Lisätietoja on tämän aiheen "Automaattiset varaukset" -osassa.  
 
  Tässä skenaarion vaiheessa 100 yksikköä LOTA- ja LOTB-kohteita siirretään ITÄ-sijaintiin siirtotilauksella.  
@@ -151,12 +151,12 @@ Varausjärjestelmä on kokonaisvaltainen ja se sisältää Tilausten seurannan j
 
  ![Toinen esimerkki: Varaustapahtumataulukon tilausten seurantatapahtumat.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### <a name="entry-numbers--and-" />Tapahtumanumerot 8 ja 9
+### <a name="entry-numbers-8-and-9" />Tapahtumanumerot 8 ja 9
  Komponentin kahden erän tilauksen seurantatapahtumia, jotka kuvaavat kysyntää taulukossa 5407, muutetaan **Seuranta**-varaustilasta arvoon **Ylijäämää**. Syy on se, että siirtotilauksen lähetykseen on käytetty tarjontoja, joihin ne oli linkitetty ennen, taulukossa 32.  
 
  Aito ylijäämä, kuten tässä tapauksessa, kuvastaa ylimääräistä tarjontaa tai kysyntää, jota ei seurata. Se on osoitus epätasapainosta tilausverkossa, ja suunnittelujärjestelmä luo toimenpideviestin ellei sitä ratkaista dynaamisesti.  
 
-### <a name="entry-numbers--to-" />Tapahtumanumerot 12-16
+### <a name="entry-numbers-12-to-16" />Tapahtumanumerot 12-16
  Koska komponentin kaksi lokeroa kirjataan siirtotilaukseen toimitetuiksi mutta ei vastaanotetuiksi, kaikki liittyvät positiiviset seurantatapahtumat ovat varaustyyppiä **Ylijäämä**, joka tarkoittaa, että niitä ei kohdisteta mihinkään pyyntöihin. Jokaisen eränumeron osalta yksi merkintä liittyy taulukkoon 5741, **Siirtorivi** ja yksi merkintä liittyy nimiketapahtumaan kuljetuksessa-sijainnissa, jossa nimikkeet ovat tällä hetkellä.  
 
  Tässä skenaarion vaiheessa LÄNSI- ja ITÄ-sijainnin komponenttien siirtotilaus kirjataan vastaanotetuksi.  
@@ -173,7 +173,7 @@ Varausjärjestelmä on kokonaisvaltainen ja se sisältää Tilausten seurannan j
 
  ![Neljäs esimerkki: Varaustapahtumataulukon tilausten seurantatapahtumat.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
-### <a name="entry-numbers--and-" />Tapahtumanumeroita 21 ja 22
+### <a name="entry-numbers-21-and-22" />Tapahtumanumeroita 21 ja 22
  Koska osa pitää vaihtaa sijaintiin EAST ja tarjonta on käytettävissä nimikkeen pääkirjan kirjauksina sijainnissa EAST, kaikkia tilausseurantakirjauksia, jotka kohdistuvat kahteen eränumeroon, seurataan koko ajan ja ne ilmaistaan varaustilassa **Seuranta**.  
 
  **Eränro**-kenttä on nyt täytetty tilauksen seurantakirjauksessa taulukossa 5407, koska eränumerot on määritetty tuotantotilauksen osariveillä.  

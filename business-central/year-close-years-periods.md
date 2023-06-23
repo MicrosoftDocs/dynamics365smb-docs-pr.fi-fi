@@ -29,7 +29,7 @@ Seuraava taulukko sisältää yleiskuvauksen tehtävistä, joita yleensä suorit
 | Kirjanpitojaksojen ja tilikausien sulkeminen, tuloslaskelmasaldojen siirtäminen tasetileille ja vuositilinpäätöstapahtuman kirjaaminen. |[Kirjojen sulkeminen](year-close-books.md) |
 | Rahoituslaskelmien luomisessa apuna käytettävien raporttien tulostaminen. |[Tilinpäätöslaskelmien valmisteleminen](year-prepare-close-statement.md) |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

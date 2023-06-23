@@ -8,7 +8,7 @@ ms.author: edupont
 ms.date: 05/25/2022
 ---
 
-# <a name="sign-up-for-a-free-dynamics--business-central-trial" />Rekisteröidy maksuttoman Dynamics 365 Business Central -kokeiluversion käyttäjäksi
+# <a name="sign-up-for-a-free-dynamics-365-business-central-trial" />Rekisteröidy maksuttoman Dynamics 365 Business Central -kokeiluversion käyttäjäksi
 
 Business Central tarjoaa maksuttoman kokeiluversion. Nopean käyttäjäksi rekisteröitymisen jälkeen sovelluksen monet keskeiset toiminnot ovat käytettävissä. Kokeiluversion avulla voit testata sovellusta näytetiedoilla. Jos haluat kokeilla ohjelmaa omilla tiedoillasi, vaihda maksuttomaan 30 päivän kokeiluversioon. [Lisätietoja Business Central -ominaisuuksista](across-business-functionality.md).  
 
@@ -38,7 +38,7 @@ Voit ottaa yhteyttä myös [[!INCLUDE[prod_short](includes/prod_short.md)] -myyn
 
 Lisätietoja siitä, mitä voit tehdä [!INCLUDE [prod_short](includes/prod_short.md)] -toiminnolla, on kohdassa [Yritystoimintaan valmistautuminen](ui-get-ready-business.md) ja [Yritystoiminnot](across-business-functionality.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="additional-resources" />Lisäresurssit
 

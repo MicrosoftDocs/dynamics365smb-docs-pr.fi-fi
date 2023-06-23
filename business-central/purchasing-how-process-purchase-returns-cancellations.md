@@ -181,7 +181,7 @@ Kun palautustilaukset yhdistetään hyvityslaskuun ja kirjataan, laskutetuista r
 2. Täytä tarvittavat kentät ja valitse sitten **OK**-painike.  
 3. Voit poistaa yksittäiset ostopalautustilaukset myös manuaalisesti.
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 [Osto](purchasing-manage-purchasing.md)  

@@ -153,7 +153,7 @@ Tulostimen resursseja hallitaan luodun raportin **Lisäasetukset**-pikavälilehd
 > [!NOTE]
 > Enimmäisarvot voivat olla erilaiset [!INCLUDE[prod_short](includes/prod_short.md)] paikallisesti, ja järjestelmänvalvoja voi muuttaa niitä. Lisätietoja on [Business Central Serverin määrittäminen - raportit](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports) -osassa. Yhteenveto raportin rajoituksista [!INCLUDE[prod_short](includes/prod_short.md)] onlinessa on kohdassa [Toimintarajat](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics--business-central" />Katso [Microsoftin koulutukset](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Katso [Microsoftin koulutukset](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Katso myös
 

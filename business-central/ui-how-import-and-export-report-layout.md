@@ -45,7 +45,7 @@ Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tie
 
  Alkuperäinen mukautettu raporttiasettelu korvataan tuodulla raporttiasettelulla.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

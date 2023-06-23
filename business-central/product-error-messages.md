@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="warnings-and-error-messages-in-dynamics--business-central" />Varoitukset ja virhesanomat Dynamics 365 Business Centralissa
+# <a name="warnings-and-error-messages-in-dynamics-365-business-central" />Varoitukset ja virhesanomat Dynamics 365 Business Centralissa
 
 Työpäivän aikana voi näkyä ilmoituksia [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa esimerkiksi siitä, että jotain on mennyt pieleen tai että jotain ei voitu kirjata. Ilmoituksen avulla on usein helppo ratkaista asia tai peruuttaa tekemäsi muutokset. Muissa tapauksissa sinulla ei ehkä ole tietoja, joita tarvitset ratkaistaksesi asian. Tässä artikkelissa on vihjeitä siitä, miten voit onnistua.  
 

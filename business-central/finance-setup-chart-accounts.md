@@ -49,7 +49,7 @@ Vuoden 2022 2. julkaisuaalto sisältää ylimääräisen suojauksen, ettei KP-ti
 
 Paras käytäntö on määrittää **Estä KP-tilien poisto** -kentän arvoksi *Kyllä* ja **Tarkista, voidaanko KP-tili poistaa tämän jälkeen** -kentän arvoksi esimerkiksi päivämäärä, johon mennessä taloustiedot on tallennettava.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschart-accounts-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/chart-accounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschart-accounts-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

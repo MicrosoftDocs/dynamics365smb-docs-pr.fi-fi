@@ -118,7 +118,7 @@ Voit poistaa käyttäjän [!INCLUDE[prod_short](includes/prod_short.md)] online 
 
 Voit myös poistaa käyttöoikeuden käyttäjältä Microsoft 365 -hallintakeskuksessa. Käyttäjä ei pysty kirjautumaan sisään. Lisätietoja on kohdassa [Käyttöoikeuksien poistaminen käyttäjiltä](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="a-namemasynchronization-with-microsoft-" /><a name="m365"></a>Synkronointi Microsoft 365:n kanssa
+### <a name="a-namem365asynchronization-with-microsoft-365" /><a name="m365"></a>Synkronointi Microsoft 365:n kanssa
 
 Kun määrität käyttöoikeuden [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa Microsoft 365 -käyttäjälle, käyttäjän voi luoda kahdella eri tavalla [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa.  
 

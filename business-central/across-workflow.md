@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
 ---
-# <a name="workflows-in-dynamics--business-central" />Dynamics 365 Business Centralin työnkulut
+# <a name="workflows-in-dynamics-365-business-central" />Dynamics 365 Business Centralin työnkulut
 
 Voit määrittää ja käyttää työnkulkuja yhdistääksesi eri käyttäjien suorittamia liiketoimintaprosessin tehtäviä. Järjestelmätehtäviä, kuten automaattinen kirjaus, voidaan sisällyttää työnkulkuihin. Käyttäjätehtävät voivat edeltää tai seurata järjestelmätehtäviä. Uusien tietueiden luontiin liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.
 

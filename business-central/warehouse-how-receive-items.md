@@ -92,7 +92,7 @@ Jos varastopaikat ovat sijainnissa pakollisia, alueen ja varastopaikan koodit li
 * [!INCLUDE [prod_short](includes/prod_short.md)] käyttää ohjattua hyllytystä ja poimintaa käyttävissä laajennetuissa määrityksissä sijainnin **Sijaintikortti**-sivun vastaanoton varastopaikkakoodia. Jos vastaanoton varastopaikan koodia ei ole määritetty, mitään varastopaikkaa ei määritä. Jos nimikkeen ja vastaanoton varastopaikat eivät ole samat, vastaanoton varastopaikan koodi on tyhjä.
 * Jos toimituksen varastopaikan koodia ei ole määritetty muissa määrityksissä, [!INCLUDE [prod_short](includes/prod_short.md)] käyttää lähdeasiakirjan varastopaikan koodia.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/receive-invoice-dynamics-d365-business-central/index).
+## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/receive-invoice-dynamics-d365-business-central/index).
 
 ## <a name="see-also" />Katso myös
 

@@ -59,7 +59,7 @@ Voit myös poistaa manuaalisesti yksittäiset myyntitilaukset.
 
 Toista vaiheet 1–3 muissa käsiteltävissä asiakirjoissa, kuten puitemyyntitilauksissa.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesinvoicing-customers-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/invoicing-customers-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesinvoicing-customers-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/invoicing-customers-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

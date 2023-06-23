@@ -45,7 +45,7 @@ Ulkopuolisen kirjanpitäjän kutsumista on helpotettu. Avaa vain **Käyttäjät*
 >
 > Tämä tehtävä edellyttää pääsyä käyttäjien ja käyttöoikeuksien hallintaan Azure Active Directoryssä. Tämän kutsun lähettäneen käyttäjän on määritettävä **Yleinen järjestelmänvalvoja** -rooli tai **Käyttäjän järjestelmänvalvoja** -rooli Microsoft 365 -hallintakeskuksessa. Lisätietoja on kohdassa [Tietoja järjestelmänvalvojarooleista](/microsoft-365/admin/add-users/about-admin-roles)(Microsoft 365:n järjestelmänvalvojasisältö).  
 
-### <a name="adding-your-accountant-to-your-microsoft--in-the-azure-portal" />Kirjanpitäjän lisääminen Microsoft 365:iin Azure-portaalissa
+### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal" />Kirjanpitäjän lisääminen Microsoft 365:iin Azure-portaalissa
 
 Jos järjestelmänvalvoja tai jälleenmyyntikumppani ei halua käyttää **Ulkoisen kirjanpitäjän kutsuminen** -opasta, hän voi lisätä ulkoisen käyttäjän Azure-portaaliin ja määrittää tälle käyttäjälle *ulkoisen kirjanpitäjän* käyttöoikeuden. Lisätietoja on kohdassa [Nopeasti alkuun: Lisää vieraskäyttäjiä hakemistoon Azure-portaalissa](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 

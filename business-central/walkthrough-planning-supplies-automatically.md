@@ -138,7 +138,7 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 
  Nimikkeen 1300, Ketjun kokoonpano, ehdotetaan kymmentä kappaletta. Tämä poikkeaa viidestä kappaleesta, joita odotamme myyntitilauksen täyttämiseksi. Siirry tarkastelemaan tilauksen seurantatapahtumia.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />Tarkastele kohteen 1300 tilauksen merkintää
+### <a name="to-view-order-tracking-entries-for-item-1300" />Tarkastele kohteen 1300 tilauksen merkintää
 
 1.  Valitse ensin nimikkeen 1300 suunnittelurivi ja sitten **Tilauksen seuranta** -toiminto.  
 
@@ -234,7 +234,7 @@ Suunnittelutyökirjan ajolla ja tarvelaskennan ajolla viitataan päätuotantoaik
 
  Useat suunnittelurivit kerrotaan yksinkertaisesti kolmella, jotta saadaan 15 retkipyörää 5 sijasta. Eräpäivät siirretään taaksepäin ajassa, jotta lisätyt määrät voidaan tuottaa Cannon Groupin myyntitilauksen toimituspäivän perusteella. Näillä suunnitteluriveillä voidaan seurata kaikkia määriä. Jäljellä olevia suunnittelurivejä korotetaan kymmenellä kappaleella niiden eräpäivien siirtämisen lisäksi. Näille suunnitteluriveille osa määristä on seurannan ulkopuolella eri suunnitteluparametrien vuoksi. Siirry tarkastelemaan joitakin näistä seurantatapahtumista.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />Tarkastele kohteen 1250 tilauksen merkintää
+### <a name="to-view-order-tracking-entries-for-item-1250" />Tarkastele kohteen 1250 tilauksen merkintää
 
 1.  Valitse ensin nimikkeen 1250 suunnittelurivi ja sitten **Tilauksen seuranta** -toiminto.  
 

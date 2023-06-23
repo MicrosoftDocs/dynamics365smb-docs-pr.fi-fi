@@ -43,7 +43,7 @@ Tietokannan termeissä tätä ominaisuutta kutsutaan yleisesti *lukemisen skaala
     > [!NOTE]
     > Jos muokattavan objektin, kuten asiakaskortin, tilaksi määritetään **Vain luku**, käytetään yhä ensisijaista tietokantaa käyttötarkoituksesta huolimatta. Näin käyttäjät voivat tehdä muutoksia normaaliin tapaan.
 
-## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/deploy-configure-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 [Liiketoiminnan toiminnallisuus](across-business-functionality.md)  

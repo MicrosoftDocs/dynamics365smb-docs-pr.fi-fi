@@ -87,7 +87,7 @@ Microsoft-kumppanit ja -jälleenmyyjät voivat luoda sovelluksia, joita he voiva
 > [!NOTE]
 > Jos olet Microsoft-kumppani tai -jälleenmyyjä ja olet kiinnostunut tarjoamaan luettelon suositelluista sovelluksista, katso [Suositellut sovellukset AppSourcesta](/dynamics365/business-central/dev-itpro/administration/recommend-apps) -kohta hallintosisällössä.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/customize-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/customize-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

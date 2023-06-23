@@ -92,7 +92,7 @@ Seuraavaksi selitetään, miten myyntialueen numerosarja määritetään. Myös 
 
 Valitulla numerolla täytetään kyseisen kortin tai asiakirjan **Nro**-kenttä numerosarjarivillä tehtyjen asetusten mukaisesti.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesnumber-series-trail-codes-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesnumber-series-trail-codes-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

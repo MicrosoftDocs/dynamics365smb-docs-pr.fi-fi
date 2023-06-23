@@ -32,7 +32,7 @@ Kun olet määrittänyt varaston, voit hallita nimiketapahtumien liittyviä eril
 |Tuo useita nimikekuvia samalla kerralla zip-tiedostosta, jossa tiedostot on nimetty nimikenumeroiden mukaan.|[Useiden nimikekuvien tuominen](inventory-how-import-item-pictures.md)|
 |Määritä oletusraportteja, joita käytetään eri asiakirjatyypeille.|[Raporttien valinta Business Centralissa](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

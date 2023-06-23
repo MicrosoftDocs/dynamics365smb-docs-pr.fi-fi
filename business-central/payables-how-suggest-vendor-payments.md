@@ -47,7 +47,7 @@ Vaihtoehtoisesti voit luoda maksurivejä manuaalisesti niin, että eräpäivää
 > [!NOTE]  
 >   Jos ostolasku on myöhässä, kirjauspäivämäärä määritetään käsittelypäivämääräksi ja rivin fontti muuttuu punaiseksi.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessuggest-vendor-payments-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessuggest-vendor-payments-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

@@ -179,7 +179,7 @@ Noudata seuraavia ohjeita, jos haluat muuttaa käyttäjän määrittämän asett
     > Voit etsiä asettelua käyttämällä **Haku**-ruutua, **Suodatin**-ruutua ja sarakkeiden lajittelua.
 3. Muuta **asettelun nimi** ja valitse sitten **OK**.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

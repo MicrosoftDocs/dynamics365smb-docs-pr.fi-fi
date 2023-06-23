@@ -58,7 +58,7 @@ Voit määrittää raportin käyttämän asettelun muutamalla eri tavalla. Jokai
 
 Raportit on suunniteltu käyttämään asettelua oletusarvoisesti. Voit siirtyä takaisin alkuperäiseen oletusasetteluun **Raporttiasetteluvalinta**-sivulta. Valitse vain raportti ja valitse sitten sivun yläosasta **Palauta oletusvalinta** -toiminto.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

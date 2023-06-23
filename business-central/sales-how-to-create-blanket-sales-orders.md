@@ -89,7 +89,7 @@ Linkki puitemyyntitilauksen ja alkuperäisen myyntiasiakirjan, sekä kaikkien mu
 
 5. Näytä tapahtuma valitsemalla **Näytä asiakirja** -toiminto **Myyntirivit**-sivulla.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

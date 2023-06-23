@@ -77,7 +77,7 @@ Jotta voisit käyttää tätä toimintoa, sinun on lisättävä itsesi varastoty
   3. Valitse **Sijaintikoodi**-kentässä ETELÄ.  
   4. Valitse **Oletus**-kenttä ja sitten **Kyllä**-painike..  
 
-### <a name="making-item--s-available" />Nimikkeen 1928-S tekeminen saatavaksi
+### <a name="making-item-1928-s-available" />Nimikkeen 1928-S tekeminen saatavaksi
 
 Tehdäksesi nimikkeen 1928-S saatavaksi ETELÄ-sijainnissa noudata seuraavia vaiheita:  
 

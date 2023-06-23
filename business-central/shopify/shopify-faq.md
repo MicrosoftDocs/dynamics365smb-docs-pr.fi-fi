@@ -16,7 +16,7 @@ Tämä artikkeli vastaa Shopify-yhdistintä koskeviin yleisimpiin kysymyksiin.
 
 Shopify on tilauspohjainen sovellus, jonka avulla kuka tahansa voi perustaa verkkokaupan ja myydä tuotteitaan. Shopify-ympäristö tarjoaa verkkovähittäismyyjille palvelupaketin, johon kuuluu maksu-, markkinointi-, toimitus- ja asiakasvuorovaikutustyökaluja.
 
-## <a name="what-is-the-microsoft-dynamics--business-central-shopify-connector" />Mikä on Microsoft Dynamics 365 Business Central Shopify -yhdistin?
+## <a name="what-is-the-microsoft-dynamics-365-business-central-shopify-connector" />Mikä on Microsoft Dynamics 365 Business Central Shopify -yhdistin?
 
 Shopify-yhdistimen avulla yritykset voivat linkittää Shopify-kauppansa [!INCLUDE[prod_short](../includes/prod_short.md)]iin maksimoidakseen liiketoiminnan tuottavuuden. Käyttämällä Shopify-yhdistintä ne voivat käyttää ja hallita yrityksensä ja Shopify-verkkokauppansa merkityksellisiä tietoja yhtenä yksikkönä.
 

@@ -37,7 +37,7 @@ PayPal Payments Standard- ja WorldPay Payments Standard -laajennukset ovat asenn
     > [!NOTE]  
     > **Maksupalvelu**-kenttä on käytettävissä vain, jos olet ottanut maksupalvelun käyttöön.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

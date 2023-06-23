@@ -61,7 +61,7 @@ Jotta voisit yhdistää Business Central on-premises -versioon, sinun on luotava
 
 Jos haluat tallentaa sovelluksen tunnuksen ja salaisen avaimen eri sijaintiin, Asiakasohjelman tunnus- ja Asiakasohjelman salainen avain -kentät voidaan jättää tyhjäksi. Tunnuksen ja salaisen avaimen sijainnista noutoa varten on siinä tapauksessa kirjoitettava laajennus. Salainen avain voidaan antaa suorituspalvelussa tilaamalla OnGetClientId- ja OnGetClientSecret-tapahtumat codeunitissa 1410 Doc. Exch. Service Mgt.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/electronic-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/electronic-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

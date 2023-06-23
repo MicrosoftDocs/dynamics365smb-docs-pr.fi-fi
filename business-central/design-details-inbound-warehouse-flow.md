@@ -64,15 +64,15 @@ Seuraavassa kaaviossa kuvataan saapuvat fyysisen varastoinnin virrat asiakirjaty
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_basic_flow.png" alt-text="Fyysisen varaston saapuvien perusvirta":::
 
-### <a name="-release-a-source-document-to-create-a-request-for-an-inventory-put-away" />1: Varaston hyllytyspyynnön luominen vapauttamalla lähdeasiakirja
+### <a name="1-release-a-source-document-to-create-a-request-for-an-inventory-put-away" />1: Varaston hyllytyspyynnön luominen vapauttamalla lähdeasiakirja
 
 Nimikkeitä vastaanotettaessa lähdeasiakirja, kuten ostotilaus tai saapuva siirtotilaus, vapautetaan. Asiakirjan vapauttaminen mahdollistaa nimikkeiden hyllyttämisen. Varaston hyllytysasiakirjat voidaan luoda myös yksittäisille tilausriveille push-menetelmänä määritettyjen varastopaikkojen ja käsiteltävien määrien perusteella.  
 
-### <a name="-create-an-inventory-put-away" />2: Varaston hyllytyksen luominen
+### <a name="2-create-an-inventory-put-away" />2: Varaston hyllytyksen luominen
 
 Saapuviin fyysisen varastoinnin pyyntöihin perustavat odottavat lähdeasiakirjan rivit voi hakea **Varastohyllytys**-sivulta pull-menetelmällä. Lisäksi lähdeasiakirjaa luotaessa varaston hyllytysrivejä voidaan luoda push-menetelmällä.  
 
-### <a name="-post-an-inventory-put-away" />3: Varaston hyllytyksen kirjaaminen
+### <a name="3-post-an-inventory-put-away" />3: Varaston hyllytyksen kirjaaminen
 
 Kaikkien osittain tai kokonaan hyllytettyjen nimikkeiden rivin osalta täytetään **Määrä**-kenttä ja kirjataan sitten varastohyllytys. Lähdeasiakirjat, jotka liittyvät varastopoistoon, on lähetetty vastaanotettuina.  
 
@@ -89,21 +89,21 @@ Seuraavassa kaaviossa havainnollistetaan fyysisen varastoinnin saapuva virta asi
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_advanced_flow.png" alt-text="Saapuva virta fyysisen varastoinnin laajennetuissa määrityksissä":::
 
-### <a name="-release-the-source-document" />1: Lähdeasiakirjan vapauttaminen
+### <a name="1-release-the-source-document" />1: Lähdeasiakirjan vapauttaminen
 
 Nimikkeitä vastaanotettaessa lähdeasiakirja, kuten ostotilaus tai saapuva siirtotilaus, vapautetaan. Asiakirjan vapauttaminen mahdollistaa nimikkeiden hyllyttämisen. Hyllytys sisältää viittauksia lähdeasiakirjan tyyppiin ja numeroon.
 
-### <a name="-create-a-warehouse-receipt" />2: Fyysisen varastoinnin vastaanoton luominen
+### <a name="2-create-a-warehouse-receipt" />2: Fyysisen varastoinnin vastaanoton luominen
 
 Saapuvan lähdeasiakirjan rivit haetaan **F. varastoinnin vastaanotto** -sivulla. Useita lähdeasiakirjan rivejä voidaan yhdistää yhdessä fyysisen varaston vastaanottoasiakirjassa. **Käsiteltävä määrä** -kenttä täytetään ja tarvittaessa valitaan vastaanottava alue ja varastopaikka.  
 
-### <a name="-post-the-warehouse-receipt" />3: Fyysisen varastoinnin vastaanoton kirjaaminen
+### <a name="3-post-the-warehouse-receipt" />3: Fyysisen varastoinnin vastaanoton kirjaaminen
 
 Positiiviset nimiketapahtumat luodaan kirjaamalla fyysisen varastoinnin vastaanotto. **Vastaanotettu määrä** -kenttä päivitetään saapuvan lähdeasiakirjan rivillä.  
 
 Jos **Vaadi hyllytys** ei ole otettu käyttöön vaihtopainikkeella sijaintikortissa, prosessi päättyy tähän. Muussa tapauksessa saapuvan lähdeasiakirjan kirjaaminen mahdollistaa nimikkeiden hyllyttämisen. Hyllytys sisältää viittauksia lähdeasiakirjan tyyppiin ja numeroon.  
 
-### <a name="-optional-generate-put-away-worksheet-lines" />4: (Valinnainen) Hyllytystyökirjan rivien luominen
+### <a name="4-optional-generate-put-away-worksheet-lines" />4: (Valinnainen) Hyllytystyökirjan rivien luominen
 
 Fyysisen varastoinnin hyllytysrivit haetaan **hyllytystyökirjassa** kirjattujen fyysisen varastoinnin vastaanottojen tai tuotoksen tuottavien työvaiheiden perusteella. Hyllytettävät nimikkeet valitaan ja seuraavat tiedot määritetään:
 
@@ -118,11 +118,11 @@ Kun kaikki hyllytykset on suunniteltu ja määritetty varastotyöntekijöille, f
 > [!NOTE]  
 > Jos **Käytä hyllytystyökirjaa** ei ole otettu vaihtopainikkeella käyttöön sijaintikortissa, fyysisen varastoinnin hyllytysasiakirjat luodaan suoraan kirjattujen fyysisen varastoinnin vastaanottojen perusteella. Siinä tapauksessa tätä vaihetta ei tarvita.  
 
-### <a name="-create-a-warehouse-put-away-document" />5: Fyysisen varastoinnin hyllytysasiakirjan luominen
+### <a name="5-create-a-warehouse-put-away-document" />5: Fyysisen varastoinnin hyllytysasiakirjan luominen
 
 Fyysisen varastoinnin hyllytysasiakirja voidaan luoda pull-menetelmällä kirjatun fyysisen varastoinnin vastaanoton perusteella. Fyysisen varastoinnin hyllytysasiakirja voidaan vaihtoehtoisesti luoda ja määrittää varastotyöntekijälle push-menetelmällä.  
 
-### <a name="-register-a-warehouse-put-away" />6: Fyysisten varaston hyllytyksen rekisteröinti
+### <a name="6-register-a-warehouse-put-away" />6: Fyysisten varaston hyllytyksen rekisteröinti
 
 Kaikkien osittain tai kokonaan hyllytettyjen nimikkeiden rivin osalta täytetään **Määrä**-kenttä **F.varastoinnin hyllytys** -sivulla, jonka jälkeen rekisteröidään fyysisen varaston hyllytyksen.  
 

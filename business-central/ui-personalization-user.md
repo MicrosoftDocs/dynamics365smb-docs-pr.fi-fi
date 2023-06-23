@@ -158,7 +158,7 @@ Seuraavat seikat auttavat ymmärtämään mukauttamista entistä paremmin.
    > [!TIP]
    > Järjestelmänvalvojana voit piilottaa **Automaattisen** nimikkeen käyttäjiltä. Lisätietoja kohdassa [Power Automate -integraation määrittäminen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 [Profiilien sivujen mukauttaminen](ui-personalization-manage.md)  

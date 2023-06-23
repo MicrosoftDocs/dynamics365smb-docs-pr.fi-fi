@@ -70,7 +70,7 @@ Kumppaniyhteisö kehittää jatkuvasti sovelluksia, jotka lisäävät ominaisuuk
 
 Eri sidosryhmät ovat tutustuneet Kerro, mitä haluat tehdä -toimintoon ja esittäneet toimintoa koskevia kysymyksiä. Nämä kysymykset löytyvät usein kysyttyjen kysymysten luettelosta. Lisätietoja on kohdassa [Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset](ui-search-faq.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

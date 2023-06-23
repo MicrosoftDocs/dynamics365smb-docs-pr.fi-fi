@@ -29,7 +29,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Tilauksen luominen, ennakkomaksusummien muuttaminen ja ennakkomaksusummien mukaisen laskun lähettäminen.|[Ennakkomaksulaskujen luominen](finance-how-to-create-prepayment-invoices.md)|  
 |Lisäennakkomaksulaskun lähettäminen joko lisänimikkeiden tai alkuperäiseen tilaukseen kuulumattoman lisätalletuksen vuoksi tai ennakkomaksun hyvityslaskun lähettäminen.|[Ennakkomaksujen korjaaminen](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

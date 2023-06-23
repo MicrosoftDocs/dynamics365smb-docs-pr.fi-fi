@@ -53,7 +53,7 @@ Jos käytät [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versiot
 > [!NOTE]
 > Jos sovelluksen asentamisessa on ongelmia, ota yhteys järjestelmänvalvojaan. Se voi olla puuttuva edellytys tai epätäydellinen konfiguraatio. Lisätietoja on kohdassa [Ympäristön valmisteleminen mobiilisovellusta varten](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) tai [Business Central mobiilisovelluksen vianetsintä on-premises-versiossa](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

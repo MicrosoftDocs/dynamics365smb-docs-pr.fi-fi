@@ -13,7 +13,7 @@ ms.author: edupont
 # <a name="design-details-table-structure" />Rakennetiedot: taulukkorakenne
 Dimensiotapahtumien tallennuksen ja kirjauksen ymmärtäminen edellyttää taulukkorakenteen ymmärtämistä.  
 
-## <a name="table--dimension-set-entry" />Taulukko 480, Dimensioyhdistelmän tapahtuma
+## <a name="table-480-dimension-set-entry" />Taulukko 480, Dimensioyhdistelmän tapahtuma
 Tätä taulukkoa ei voi muuttaa. Kun tiedot on kirjoitettu taulukkoon, et voi poistaa tai muokata niitä.
 
 |Kentän nro|Kentän nimi|Tietotyyppi|Kommentti|  
@@ -25,7 +25,7 @@ Tätä taulukkoa ei voi muuttaa. Kun tiedot on kirjoitettu taulukkoon, et voi po
 |5|**Dimension nimi**|Teksti 30|CalcField. Taulukon 348 haku.|  
 |6|**Dimensioarvon nimi**|Teksti 30|CalcField. Taulukon 349 haku.|  
 
-## <a name="table--dimension-set-tree-node" />Taulukko 481, Dimensioyhdistelmän puusolmu
+## <a name="table-481-dimension-set-tree-node" />Taulukko 481, Dimensioyhdistelmän puusolmu
 Tätä taulukkoa ei voi muuttaa. Sitä käytetään hakuun dimensioyhdistelmässä. Jos dimensioyhdistelmää ei löydy, tällöin luodaan uusi yhdistelmä.  
 
 |Kentän nro|Kentän nimi|Tietotyyppi|Kommentti|  
@@ -35,7 +35,7 @@ Tätä taulukkoa ei voi muuttaa. Sitä käytetään hakuun dimensioyhdistelmäss
 |3|**Dimensioyhdistelmän tunnus**|Kokonaisluku|AutoIncrement. Käytetään taulukon 480 kentässä 1.|  
 |4|**Käytössä**|Totuusarvo|Epätosi, jos se ei ole käytössä.|  
 
-## <a name="table--reclas-dimension-set-buffer" />Taulukko 482 Uudelleenluokita dimensioyhdistelmän puskuri
+## <a name="table-482-reclas-dimension-set-buffer" />Taulukko 482 Uudelleenluokita dimensioyhdistelmän puskuri
 Taulukkoa käytetään, kun muutat dimensioarvon koodia esimerkiksi nimiketapahtumassa käyttämällä **Nimikkeen uudelleenluokituspäiväkirja** -sivua.  
 
 |Kentän nro|Kentän nimi|Tietotyyppi|Kommentti|  
@@ -56,7 +56,7 @@ Muiden taulukon dimensiokenttien lisäksi tämä kenttä on tärkeä:
 |---------------|----------------|---------------|-------------|  
 |480|**Dimensioyhdistelmän tunnus**|Kokonaisluku|Viittaukset kenttään 1 taulukossa 480.|  
 
-### <a name="table--item-journal-line" />Taulukko 83, Nimikepäiväkirjan rivi
+### <a name="table-83-item-journal-line" />Taulukko 83, Nimikepäiväkirjan rivi
 Muiden taulukon dimensiokenttien lisäksi nämä kentät ovat tärkeitä.  
 
 |Kentän nro|Kentän nimi|Tietotyyppi|Kommentti|  
@@ -64,7 +64,7 @@ Muiden taulukon dimensiokenttien lisäksi nämä kentät ovat tärkeitä.
 |480|**Dimensioyhdistelmän tunnus**|Kokonaisluku|Viittaukset kenttään 1 taulukossa 480.|  
 |481|**Uusi dimensioyhdistelmän tunnus**|Kokonaisluku|Viittaukset kenttään 1 taulukossa 480.|  
 
-### <a name="table--dimension-value" />Taulukko 349, Dimensioarvo
+### <a name="table-349-dimension-value" />Taulukko 349, Dimensioarvo
 Muiden taulukon dimensiokenttien lisäksi nämä kentät ovat tärkeitä.  
 
 |Kentän nro|Kentän nimi|Tietotyyppi|Kommentti|  

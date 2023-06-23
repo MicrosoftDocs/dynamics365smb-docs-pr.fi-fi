@@ -13,7 +13,7 @@ ms.author: bholtorf
 ---
 
 
-# <a name="changing-from-a-quickbooks-app-to-dynamics--business-central" />Vaihtaminen QuickBooks-sovelluksesta Dynamics 365 Business Centraliin
+# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central" />Vaihtaminen QuickBooks-sovelluksesta Dynamics 365 Business Centraliin
 
 Yhtä useammat kasvavat yritykset ovat vaihtamassa startup-yrityksille ja muille pienyrityksille tarkoitetuista taloushallinnon sovelluksista, kuten QuickBooks Desktop ja QuickBooks Online, [!INCLUDE[prod_short](includes/prod_short.md)]iin, joka tukee myös suuria ja monimutkaisia organisaatioita. 
 
@@ -31,7 +31,7 @@ Lue lisää QuickBooks-sovellukseen sopivasta laajennuksesta:
 
 Jos olet valmis aloittamaan nyt, valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asetusten ohjattu määritys** ja valitse sitten vastaava linkki. Valitse **Siirrä liiketoimintatiedot** ja noudata oppaan ohjeita.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/migrate-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

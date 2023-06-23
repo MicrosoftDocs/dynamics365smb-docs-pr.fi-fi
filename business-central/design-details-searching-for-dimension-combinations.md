@@ -16,7 +16,7 @@ Kun suljet sivun dimensioyhdistelmän muokkaamisen jälkeen, [!INCLUDE[prod_shor
 ## <a name="building-search-tree" />Rakennetaan hakupuuta
  Taulukkoa 481 **Dimensionasetuksen puusolmu** käytetään, kun [!INCLUDE[prod_short](includes/prod_short.md)] arvioi onko dimensiosarja jo olemassa taulukossa 480 **Dimensionasetuskirjaus**. Arviointi suoritetaan kulkemalla hakupuu läpi rekursiivisesti aloittaen ylätason numerosta 0. Ylätason 0 edustaa dimensiosarjaa, jossa ei ole dimensiosarjan kirjauksia. Tämän dimensiosarjan jälkeläiset edustavat dimensiosarjoja, joilla on vain yksi dimensiosarjan kirjaus. Näiden dimensiosarjojen jälkeläiset edustavat dimensiosarjoja, joilla on kaksi jälkeläistä jne.  
 
-### <a name="example-" />Esimerkki 1
+### <a name="example-1" />Esimerkki 1
  Seuraava kaavio esittelee hakupuun ja kuusi dimensiosarjaa. Kaaviossa näkyy vain erottava dimensioyhdistelmä.  
 
  ![Esimerkki dimension puurakenteesta.](media/nav2013_dimension_tree.png "Esimerkki dimension puurakenteesta")  
@@ -33,7 +33,7 @@ Kun suljet sivun dimensioyhdistelmän muokkaamisen jälkeen, [!INCLUDE[prod_shor
 |Aseta 5|AREA 40|  
 |Aseta 6|AREA 40, PROJ VW|  
 
-### <a name="example-" />Esimerkki 2
+### <a name="example-2" />Esimerkki 2
  Tämä esimerkki osoittaa, miten [!INCLUDE[prod_short](includes/prod_short.md)] arvioi, onko dimensioyhdistelmän tapahtumat AREA 40 ja DEPT PROD sisältävä dimensioyhdistelmä olemassa.  
 
  [!INCLUDE[prod_short](includes/prod_short.md)] varmistaa ensin päivittämällä **Dimensioyhdistelmän puusolmu** -taulukon, että hakupuu näyttää samalta kuin seuraavassa kaaviossa. Dimensioyhdistelmästä 7 tulee dimensioyhdistelmän 5 alitaso.  

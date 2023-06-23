@@ -62,7 +62,7 @@ Lisäksi jokainen Viivästyskuluehdot-taulukon ehto on linkitetty alitaulukkoon,
 |%8|Viivästyskululaskun otsikon **Valuutan koodi** -kentän sisältö|  
 |%9|Viivästyskululaskun otsikon **Kirjauspvm**-kentän sisältö|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessend-memos-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/send-memos-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessend-memos-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/send-memos-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

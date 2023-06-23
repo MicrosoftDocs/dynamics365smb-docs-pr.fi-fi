@@ -58,7 +58,7 @@ Voit määrittää rivien päivämääräkaavan manuaalisesti. Muussa tapauksess
 3. Varastointiyksikön kortti
 4. Toimittajan kortti
 
-## <a name="see-related-microsoft-trainingtrainingmodulesestimate-receipt-dates-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesestimate-receipt-dates-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

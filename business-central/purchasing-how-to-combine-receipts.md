@@ -42,7 +42,7 @@ Voit myös poistaa manuaalisesti yksittäiset tilaukset.
 
 Toista vaiheet 1–3 muissa käsiteltävissä asiakirjoissa, kuten puiteostotilauksissa.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/processing-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/processing-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

@@ -238,7 +238,7 @@ Tapahtumasivulla näet, onko tapahtumille globaaleja dimensioita. Kaksi globaali
 > [!NOTE]  
 > **Tapahtuman dimensiot** -sivulla näkyy kerralla yhden tapahtuman dimensiot. Näet, kun selaat tapahtumia, **Tapahtuman dimensiot** -sivun sisältö muuttuu vastaavasti.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesdimensions-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/dimensions-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesdimensions-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

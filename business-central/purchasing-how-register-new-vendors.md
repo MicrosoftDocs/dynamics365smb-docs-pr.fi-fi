@@ -70,7 +70,7 @@ Voit muokata toimittajakorttien tietoja milloin tahansa. Jos olet kirjannut toim
 5. Kun olet määrittänyt uuden toimittajamallin, valitse **OK**.  
    Toimittajamalli lisätään toimittajamallien luetteloon niin, että sen avulla voit luoda uusia toimittajan kortteja.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trade-master-data-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trade-master-data-dynamics-365-business-central/).
 
 ## <a name="see-also" />Katso myös
 

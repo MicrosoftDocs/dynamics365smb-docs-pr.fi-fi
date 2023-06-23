@@ -155,7 +155,7 @@ Voit muuttaa näiden kenttien arvoja, mutta jos valitset **Koskee palvelumääri
 
 Jos määrität arvon **Palvelutapahtumatyypin koodi** -kenttään, mutta et valitse **Koskee palvelumääritystä** -kenttää, voit kirjata asiakirjan, mutta riviä ei lasketa, kun teet niin.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics--business-centralindex" />Lisätietoja aiheeseen liittyvästä koulutuksesta on [Microsoft Learnissa](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Lisätietoja aiheeseen liittyvästä koulutuksesta on [Microsoft Learnissa](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Katso myös
 

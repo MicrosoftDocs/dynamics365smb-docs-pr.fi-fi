@@ -54,7 +54,7 @@ Yrityksen nimi näkyy aina vasemmassa yläkulmassa. Se on myös toiminto, jonka 
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -kokeiluversion oletuskäyttökokemus ei paljasta kaikkia ominaisuuksia. Voit vaihtaa koko käyttökokemusta **Yritystiedot**-sivulla. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

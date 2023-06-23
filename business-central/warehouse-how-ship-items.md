@@ -115,7 +115,7 @@ Kun fyysisen varaston toimitus on kirjattu, myyntitilauksen rivin kentät päivi
 >
 > Kokoonpano tilausta varten -määrä käsitellään tässä artikkelissa kuvatulla tavalla. Varastomäärä käsitellään tavallisena fyysisen varaston toimitusrivinä. Lisätietoja yhdistelmäskenaarioista on kohdassa [Tietoja Kokoonpano tilausta varten- tai Kokoonpano varastoon -toiminnoista](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/ship-invoice-items-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/ship-invoice-items-dynamics-365-business-central/).
 
 ## <a name="see-also" />Katso myös
 

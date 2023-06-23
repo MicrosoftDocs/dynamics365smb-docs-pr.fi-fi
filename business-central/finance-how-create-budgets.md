@@ -53,7 +53,7 @@ Lisää 1 200 000 Otsikko-riville, vie budjetti Exceliin ja lähetä se sitten p
 
 Palkkaosasto jakaa summan kolmelle kirjaustilille. Kun tuot KP-budjetin takaisin, uudet Excel-tiedot on täytetty kolmelle tilille. Niiden summa on PVA 1 200 000 ja otsikkorivi on tyhjä.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesbudgets-exchange-rates-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesbudgets-exchange-rates-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

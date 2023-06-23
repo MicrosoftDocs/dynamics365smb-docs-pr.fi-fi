@@ -49,7 +49,7 @@ Kun rekisteröit sovelluksen, harkitse seuraavia seikkoja:
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
-## <a name="set-up-the-onedrive-connection-in-version--and-later" />OneDrive-yhteyden määrittäminen versiossa 21 ja uudemmissa
+## <a name="set-up-the-onedrive-connection-in-version-21-and-later" />OneDrive-yhteyden määrittäminen versiossa 21 ja uudemmissa
 
 Käytä tätä toimintoa, jos käytössäsi on Business Centralin vuoden 2022 julkaisuaalto 2 (versio 21) tai uudempi.
 
@@ -74,7 +74,7 @@ Käytä tätä toimintoa, jos käytössäsi on Business Centralin vuoden 2022 ju
    - Jos et ole vielä määrittänyt Azure AD -rekisteröityä sovellusta, **Määritä Azure Active Directory** -opas avautuu.
 6. Kun se on valmis, tietosuojailmoitus OneDrive-integraatiolle hyväksytään kaikille käyttäjille. Jos haluat muuttaa sitä niin, että käyttäjien on hyväksyttävä tai hylättävä se itse, mene **Tietosuojailmoitusten tila** -sivulle ja valitse **Anna käyttäjän päättää** OneDrive-integraatiossa. Käyttäjiä pyydetään sitten hyväksymään tai hylkäämään tietosuojailmoitus, kun he käyttävät OneDrive-ominaisuuksia ensimmäisen kerran. Lisätietoja on kohdassa [Tietosuojailmoitukset](privacy-notices-status.md).
 
-## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version--and-" />[!INCLUDE[prod_short](includes/prod_short.md)]-yhteyden määrittäminen versioissa 19 ja 20
+## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version-19-and-20" />[!INCLUDE[prod_short](includes/prod_short.md)]-yhteyden määrittäminen versioissa 19 ja 20
 
 Käytä tätä toimintoa, jos käytössäsi on Business Centralin vuoden 2022 julkaisuaalto 1 (versio 20) tai vuoden 2021 julkaisuaalto 2 (versio 19).
 > [!IMPORTANT]
@@ -96,7 +96,7 @@ Käytä tätä toimintoa, jos käytössäsi on Business Centralin vuoden 2022 ju
 > [!IMPORTANT]
 > **SharePoint-yhteyden määritys** -sivulla määritetään monia vanhoja ominaisuuksia. **Yleiset**-osa määrittää yhteyden OneDriveen, ja **Jaetut asiakirjat** -osa ohjaa tiedostot sen sijaan uudelleen SharePointiin. **SharePoint-yhteyden asetukset** on syrjäytetty, ja ne poistetaan tulevassa versiossa. Microsoft suosittelee, että et määritä **Jaetut asiakirjat** -osiota. Lisätietoja on kohdassa [Vanhentuneet ominaisuudet perussovelluksessa](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup).
 
-## <a name="after-upgrade-to-version-" />Versioon 21 päivittämisen jälkeen
+## <a name="after-upgrade-to-version-21" />Versioon 21 päivittämisen jälkeen
 
 Kun päivität versioon 21 tai uudempaan, **SharePoint-yhteyden asetukset** -sivulla määritetty aiemmin luotu OneDrive-yhteys toimii edelleen. Koska **SharePoint-yhteyden asetus** -sivu poistetaan versiosta 23, Microsoft suosittelee, että siirryt uuteen OneDrive-integrointiin seuraavassa osassa kuvatulla tavalla. Tämän vaihdon tekeminen nyt helpottaa sitä, kun **SharePoint-yhteyden asetukset** poistetaan lopullisesti. Lisäksi sen avulla voit käyttää **OneDrive-määrityksen** asetusten ohjattu määritysopasta käyttäjien käytettävissä olevien OneDrive-ominaisuuksien hallintaan.
 

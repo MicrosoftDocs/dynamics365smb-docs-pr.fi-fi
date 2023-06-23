@@ -73,7 +73,7 @@ Seuraavan menettelyn avulla voit päivittää analyysinäkymän **Analyysi dimen
 > [!NOTE]  
 > Kun haluat päivittää joitakin tai kaikkia analyysinäkymiä samanaikaisesti, sinun täytyy käyttää **Päivitä analyysinäkymät** -eräajoa.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-financial-reports-dynamics--business-centralindex" />Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learnlearnmodulesdimensions-financial-reports-dynamics-365-business-centralindex" />Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Katso myös
 

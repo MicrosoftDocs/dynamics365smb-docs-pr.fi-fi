@@ -90,14 +90,14 @@ Kun **Muuta kustannuksia - Nimiketapahtumat** -eräajo suoritetaan, se voidaan s
 
 Seuraavassa esimerkissä kuvataan se, jos tiliöit ostonimikkeen vastaanotetuksi ja laskutetuksi 01-01-20. Myöhemmin kirjaat myydyn nimikkeen toimitetuksi ja laskutetuksi 15.1.2020. Suorita sitten **Muuta kustannuksia - Nimiketapahtumat** ja **Kirjaa varaston kustannus KP:oon** -eräajot. Seuraavat tapahtumat luodaan.  
 
-#### <a name="value-entries-" />Arvotapahtumat (1)
+#### <a name="value-entries-1" />Arvotapahtumat (1)
 
 |Kirjauspäivämäärä|Nimiketapahtuman tyyppi|Kustannussumma (Tod.)|KP:oon kirjattu kustannus|Laskutettu määrä|Tapahtumanro|  
 |------------|----------------------|--------------------|------------------|-----------------|---------|  
 |01-01-20|Osto|10,00|10,00|1|1|  
 |01-15-20|Myynti|-10.00|-10.00|-1|2|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Liittyvät kirjaukset G/L – nimikkeen pääkirjan suhdetaulukko (1)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-1" />Liittyvät kirjaukset G/L – nimikkeen pääkirjan suhdetaulukko (1)
 
 |KP-tapahtuman nro|Arvotapahtumanro|KP-rekisterin nro|  
 |-------------|---------------|----------------|  
@@ -106,7 +106,7 @@ Seuraavassa esimerkissä kuvataan se, jos tiliöit ostonimikkeen vastaanotetuksi
 |3|2|1|  
 |4|2|1|  
 
-#### <a name="general-ledger-entries-" />Pääkirjanpidon tapahtumat (1)
+#### <a name="general-ledger-entries-1" />Pääkirjanpidon tapahtumat (1)
 
 |Kirjauspäivämäärä|KP-tili|Tilinro (En-US-esittely)|Summa|Tapahtumanro|  
 |------------------|------------------|---------------------------------|------------|---------------|  
@@ -117,14 +117,14 @@ Seuraavassa esimerkissä kuvataan se, jos tiliöit ostonimikkeen vastaanotetuksi
 
 Myöhemmin kirjaat liittyvän oston nimikekulun 2,00 PVA, laskutettu 10.2.2000. Suorita sitten **Muuta kustannuksia - Nimiketapahtumat** -eräajo ja sen jälkeen **Kirjaa varaston kustannus KP:oon** -eräajo. Kustannusten muuttamisen eräajo säätää myyntikustannukset -2,00 PVA:n mukaan ja **Kirjaa varaston kustannus KP:oon** -eräajo kirjaa uudet arvotapahtumat pääkirjaan. Tulos on seuraavanlainen.  
 
-#### <a name="value-entries-" />Arvotapahtumat (2)
+#### <a name="value-entries-2" />Arvotapahtumat (2)
 
 |Kirjauspäivämäärä|Nimiketapahtuman tyyppi|Kustannussumma (Tod.)|KP:oon kirjattu kustannus|Laskutettu määrä|Muutos|Tapahtumanro|  
 |------------|----------------------|--------------------|------------------|-----------------|----------|---------|  
 |02-10-20|Osto|2,00|2,00|0|Ei|3|  
 |01-15-20|Myynti|-2.00|-2.00|0|Kyllä|4|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Liittyvät kirjaukset G/L – nimikkeen pääkirjan suhdetaulukko (2)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-2" />Liittyvät kirjaukset G/L – nimikkeen pääkirjan suhdetaulukko (2)
 
 |KP-tapahtuman nro|Arvotapahtumanro|KP-rekisterin nro|  
 |-------------|---------------|----------------|  
@@ -133,7 +133,7 @@ Myöhemmin kirjaat liittyvän oston nimikekulun 2,00 PVA, laskutettu 10.2.2000. 
 |7|4|2|  
 |8|4|2|  
 
-#### <a name="general-ledger-entries-" />Pääkirjanpidon tapahtumat (2)
+#### <a name="general-ledger-entries-2" />Pääkirjanpidon tapahtumat (2)
 
 |Kirjauspäivämäärä|KP-tili|Tilinro (En-US-esittely)|Summa|Tapahtumanro|  
 |------------|-----------|------------------------|------|---------|  

@@ -50,7 +50,7 @@ Excel-työkirjan muut taulukot näyttävät raportin taustalla olevat tiedot. Jo
 
 Apuohjelman ansiosta saat uusimmat tiedot [!INCLUDE [prod_short](includes/prod_short.md)]ista ja voit siirtää muutokset takaisin [!INCLUDE [prod_short](includes/prod_short.md)]iin. Mahdollisuus siirtää tiedostot takaisin tietokantaan ei ole käytöstä tarkasteltavissa Excel-raporteissa.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

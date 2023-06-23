@@ -41,7 +41,7 @@ RDL/RDLC:n liittyen sekä miten Report Builderia käytetään.
 > [!NOTE]
 > Report Builder tunnistaa vain .rdl-tiedostotyypin, ei .rdlc-tyyppiä. Business Centralista viedyt asettelutiedostot ovat .rdlc-tiedostotyyppiä. Jotta voit muokata näitä asetteluja Report Builderissa, nimeä tiedosto uudelleen muotoon .rdl.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

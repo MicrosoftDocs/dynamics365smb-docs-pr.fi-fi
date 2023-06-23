@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="troubleshoot-access-with-microsoft--licenses" />Microsoft 365 -käyttöoikeuksien käytön vianmääritys
+# <a name="troubleshoot-access-with-microsoft-365-licenses" />Microsoft 365 -käyttöoikeuksien käytön vianmääritys
 
 ## <a name="this-page-uses-data-from-related-tables-that-you-do-not-have-access-to-error-message" />"Tämä sivu käyttää niihin liittyvien taulukoiden tietoja, joihin sinulla ei ole käyttöoikeuksia" -virheilmoitus
 
@@ -24,7 +24,7 @@ Kun käytät Teamsin tietueita, näyttöön tulee välilehdessä tai kortissa vi
 
 Sinulta todennäköisesti puuttuu objektien käyttöoikeuksia niiden taulujen osalta, joihin kyseinen sivu tai tietueiden linkit liittyvät.
 
-## <a name="microsoft--access-has-been-enabled-but-users-get-a-permission-error" />Microsoft 365 on otettu käyttöön, mutta käyttäjät saavat käyttöoikeusvirheen
+## <a name="microsoft-365-access-has-been-enabled-but-users-get-a-permission-error" />Microsoft 365 on otettu käyttöön, mutta käyttäjät saavat käyttöoikeusvirheen
 
 ### <a name="symptoms" />Oireet
 

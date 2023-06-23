@@ -14,11 +14,11 @@ Käytä työpaikan tai koulun sähköpostiosoitetta. Luomme kokeiluversion organ
 
 Tämä sovellus on pilvipohjainen palvelu, jota varten tarvitaan vain päivitetty selain. Ohjelmistojen asentamista ei siis vaadita, vaikka joitakin rajoituksia sovelletaan.  
 
-### <a name="how-do-i-sign-up-for-the-trial-without-a-microsoft--tenant" />Miten kokeiluversion käyttäjäksi rekisteröidytään ilman Microsoft 365 -vuokraajaa?
+### <a name="how-do-i-sign-up-for-the-trial-without-a-microsoft-365-tenant" />Miten kokeiluversion käyttäjäksi rekisteröidytään ilman Microsoft 365 -vuokraajaa?
 
 Se ei ole mahdollista. Käytä työpaikan tai koulun sähköpostiosoitetta.
 
-### <a name="can-i-sign-up-for-other-dynamics--apps-such-as-sales-marketing-and-customer-service" />Voinko rekisteröityä muihin Dynamics 365 -sovelluksiin kuten Sales, Marketing ja Customer Service?
+### <a name="can-i-sign-up-for-other-dynamics-365-apps-such-as-sales-marketing-and-customer-service" />Voinko rekisteröityä muihin Dynamics 365 -sovelluksiin kuten Sales, Marketing ja Customer Service?
 
 Kyllä saat. Lisätietoja kaikissa saatavana olevista kokeiluversioista on [kokeilukeskuksen sivulla](https://dynamics.microsoft.com/dynamics-365-free-trial). Eri kokeiluversioiden käyttäjäksi rekisteröitymiseen voi käyttää samaa sähköpostitiliä.<!-- However, it is not possible to have multiple apps on the same trial site. Each trial will be on a different org and URL. The trial data won’t be shared across apps.-->
 

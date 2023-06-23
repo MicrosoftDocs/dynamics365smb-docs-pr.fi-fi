@@ -11,13 +11,13 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="business-central-access-with-microsoft--licenses" />Business Centralin käyttäminen Microsoft 365 -käyttöoikeuksilla
+# <a name="business-central-access-with-microsoft-365-licenses" />Business Centralin käyttäminen Microsoft 365 -käyttöoikeuksilla
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -käyttäjille annetaan Dynamics 365 Business Central -käyttöoikeus, jonka avulla he voivat tarkastella, muokata ja käsitellä liiketoimintatietojaan mistä tahansa käyttöliittymästä. Kaikille muille organisaation työntekijöille, joiden tarvitsee tarkastella tietoja vain ajoittain, Business Central tarjoaa käyttöoikeuden Microsoft 365:n kautta.  
 
 Kun organisaatiossa on sekä Dynamics 365 Business Central- että Microsoft 365 -tilaus, järjestelmänvalvojat voivat määrittää ympäristöt, jotka mahdollistavat Microsoft 365 -käyttöoikeuksien käyttämisen, ja valita, mitä taulukoita ja muita objekteja tämä käyttäjäryhmä voi käyttää. Konfiguroitaessa työntekijät, joilla on Microsoft 365 -käyttöoikeus mutta ei [!INCLUDE [prod_short](includes/prod_short.md)] -käyttöoikeutta, voivat tarkastella heille jaettuja [!INCLUDE [prod_short](includes/prod_short.md)] -tietueita Microsoft Teams -keskustelussa ja -kanavissa.
 
-## <a name="why-enable-access-with-microsoft--licenses" />Miksi Microsoft 365 -käyttöoikeuksien käyttäminen tulisi ottaa käyttöön
+## <a name="why-enable-access-with-microsoft-365-licenses" />Miksi Microsoft 365 -käyttöoikeuksien käyttäminen tulisi ottaa käyttöön
 
 - Salli kaikille organisaatioon kuuluville työntekijöille käyttöoikeus päätietoihin.
 

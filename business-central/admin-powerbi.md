@@ -71,7 +71,7 @@ Lisätietoja Power BIin mittareista on kohdassa [Power BIin mittareiden käytön
 - Jos Power BI on jo määritetty ja haluat kokeilla ominaisuuksia, siirry kohtaan [Power BI -raporttien käsitteleminen Business Centralissa](across-working-with-powerbi.md).
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

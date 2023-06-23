@@ -50,7 +50,7 @@ Tietojen analysointitilassa sivu on jaettu kahteen alueeseen:
 - Pääalue, joka koostuu tietoalueesta (1), yhteenvetopalkista (2) ja välilehtipalkista (5)
 - Tietojenkäsittelyalue, joka koostuu kahdesta ruudusta: sarakkeet (3) ja analyysisuodattimet (4).
 
-### <a name="data-area-" />Tietoalue (1)
+### <a name="data-area-1" />Tietoalue (1)
 
 Tietoalue näyttää luettelosivun rivit ja sarakkeet, ja tiedoista tehdään yhteenveto. Tietoalue tarjoaa monipuolisen tavan hallita sarakkeiden asettelua ja nopean tavan saada yhteenveto tiedoista. Numeerisia arvoja sisältävissä sarakkeissa sarakkeen kaikkien arvojen summa näkyy viimeisellä rivillä, ellet ole määrittänyt riviryhmiä. Tässä tapauksessa summat näkyvät ryhmien välisumina.  
 
@@ -64,7 +64,7 @@ Tietoalue näyttää luettelosivun rivit ja sarakkeet, ja tiedoista tehdään yh
 - Käytä tietoaluetta tietojen vuorovaikutukseen. Sarakkeissa, jotka sisältävät numeerisia arvoja, voit saada kuvaavia tilastoja kenttäjoukosta merkitsemällä ne. Tilastotiedot näkyvät sivun alaosassa tilarivillä (2).
 - Vie tiedot Excel- tai csv-muodossa. Napsauta hiiren kakkospainikkeella tietoaluetta tai valittua solua, johon viedään.
 
-### <a name="summary-bar-" />Yhteenvetopalkki (2)
+### <a name="summary-bar-2" />Yhteenvetopalkki (2)
 
 Yhteenvetopalkki on sivun alaosassa, ja se näyttää luettelon tietoja koskevat tilastotiedot. Kun käytät sarakkeita, joiden arvot voidaan tiivistää, kuten useiden rivien valitseminen sarakkeista, jotka näyttävät summat, tiedot päivitetään.
 
@@ -83,7 +83,7 @@ Seuraavassa taulukossa kuvataan kokonaissummat-alueessa näkyvät numerot:
 |Maks.|Kaikkien valittujen yhteenlaskettavien kenttien enimmäisarvo.|
 |Summa|Kaikkien valittujen yhteenlaskettavien kenttien arvojen kokonaissumma.|
 
-### <a name="columns-" />Sarakkeet (3)
+### <a name="columns-3" />Sarakkeet (3)
 
 **Sarakkeet** on toinen kahdesta ruudusta, jotka toimivat yhdessä määrittääkseen analyysin. Toinen alue on **Analyysisuodattimet**-ruutu. **Sarakkeet**-ruutua käytetään tietojen yhteenvetoon. **Sarakkeet**-ruudun avulla voit määrittää, mitkä sarakkeet sisällytetään analyysiin.
 
@@ -98,7 +98,7 @@ Seuraavassa taulukossa kuvataan kokonaissummat-alueessa näkyvät numerot:
 
 Jos haluat siirtää kentän yhdeltä alueelta toiselle, valitse sieppauskuvake ![Näyttää yhteenvedon analysointitilassa olevasta sivusta](media/column-grab-icon.png) yllä olevan luettelon sarakkeen viereen ja vedä kohde alueelle. Et voi siirtää kenttää alueelle, jossa sitä ei sallita.
 
-### <a name="analysis-filters-" />Analyysisuodattimet (4)
+### <a name="analysis-filters-4" />Analyysisuodattimet (4)
 
 **Analyysisuodattimet**-ruudun avulla voit määrittää lisää sarakkeita, jotka rajoittavat luettelon tietoja. Määritä sarakkeiden suodattimet rajoittamaan luettelo- ja seuraavien summien arvot vain niihin tapahtumiin, joista olet kiinnostunut määrittämiesi kriteerien perusteella. Oletetaan esimerkiksi, että olet kiinnostunut vain tietyn summan ylittävien asiakkaiden tai myyntitilausten tiedoista. Jos haluat asettaa suodattimen, valitse sarake, valitse vertailuoperaatio luettelosta (kuten **yhtä kuin** tai **alkaa**) ja syötä sitten arvo.
 
@@ -107,7 +107,7 @@ Jos haluat siirtää kentän yhdeltä alueelta toiselle, valitse sieppauskuvake 
 > [!NOTE]
 > Lisäsuodattimet koskevat vain nykyistä analyysivälilehteä. Tämän ansiosta voit määrittää juuri ne ylimääräiset tietosuodattimet, joita tarvitaan tietyssä analyysissä.
 
-### <a name="tabs-" />Välilehdet (5)
+### <a name="tabs-5" />Välilehdet (5)
 
 Yläosassa olevien välilehtien alueen avulla voit luoda eri kokoonpanoja (sarakkeita ja analyysisuodattimia) erillisiin välilehtiin, joissa voit käsitellä välilehtien tietoja itsenäisesti. Oletusarvoisesti aina on vähintään yksi välilehti eli **Analyysi 1**. Välilehtien lisääminen on hyödyllistä usein käytettyjen analyysimääritysten tallentamiseen tietojoukossa. Sinulla voi olla esimerkiksi sarkaimia pivot-tilan tietojen analysointia varten ja muita sarkaimia, jotka suodattavat rivien alijoukkoon. Jotkin välilehdet saattavat näyttää yksityiskohtaisen näkymän, jossa on useita sarakkeita, ja toisissa on vain muutamia avainsarakkeita.
 

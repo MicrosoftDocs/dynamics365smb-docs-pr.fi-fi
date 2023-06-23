@@ -39,7 +39,7 @@ Raportin Excel-asettelun määrittämiseen liittyy periaatteessa kaksi seuraavaa
 1. Luo uusi Excel-asettelutiedosto.
 2. Lisää uusi asettelu raporttiin.
 
-## <a name="task--create-the-excel-layout-file" />Tehtävä 1: Luo Excel-asettelutiedosto
+## <a name="task-1-create-the-excel-layout-file" />Tehtävä 1: Luo Excel-asettelutiedosto
 
 Excel-asettelutiedoston voi luoda raporttiin kolmella alla mainitulla tavalla.
 
@@ -58,13 +58,13 @@ Näiden vaiheiden avulla voit luoda Excelin asettelun mistä tahansa raportista 
 
 Jos raportille on jo Excel-asettelu, voit käyttää aiemmin luotua asettelua lähtökohtana. Käytettävissä on kaksi tapaa saada kopio asettelusta. Voit joko viedä aiemmin luodun asettelun **Raporttiasettelut**-sivulta tai ladata asettelun raportin pyyntösivulta. Kumpikin tapa lataa Excel-asettelutiedoston, joka sisältää kaikki olemassa olevan tiedoston raportit. Jos se ladataan pyyntösivulta, asettelu sisältää todelliset tiedot. (Tiedot eivät ole pakollisia, mutta ne auttavat asettelun suunnittelussa.)
 
-#### <a name="approach--export-the-layout-from-the-report-layouts-page" />Lähestymistapa 1: asettelun vieminen **Raporttiasettelut**-sivulta
+#### <a name="approach-1-export-the-layout-from-the-report-layouts-page" />Lähestymistapa 1: asettelun vieminen **Raporttiasettelut**-sivulta
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Valitse Excel-asettelu luettelosta ja valitse sitten **Vie asettelu** -toiminto sivun yläosasta.
 3. Avaa tiedosto Excelissä, tee muutokset ja tallenna sitten tiedosto.
 
-#### <a name="approach--download-the-layout-from-the-reports-request-page" />Lähestymistapa 2: Lataa asettelu raportin pyyntösivulta
+#### <a name="approach-2-download-the-layout-from-the-reports-request-page" />Lähestymistapa 2: Lataa asettelu raportin pyyntösivulta
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Valitse **Raporttiasettelut**-sivulla mikä tahansa raportin asettelu ja valitse sitten **Suorita raportti** -toiminto.
@@ -77,7 +77,7 @@ Tämä on kehittynein tapa Excel-raportin asettelun luomiseksi. Se on kohdistett
 
 ---
 
-## <a name="task--add-the-excel-layout-to-the-report" />Tehtävä 2: Lisää Excel-asettelu raporttiin
+## <a name="task-2-add-the-excel-layout-to-the-report" />Tehtävä 2: Lisää Excel-asettelu raporttiin
 
 Kun sinulla on Excelin asettelutiedosto, seuraava tehtävä on lisätä se raportin uudeksi asetteluksi.
 

@@ -172,7 +172,7 @@ Kun syötät kriteerejä, voit käyttää kaikkia numeroita ja kirjaimia, joita 
 > [!TIP]
 > Jos käytät numeronäppäimistöä, desimaalierotin voi tuottaa jonkin muun merkin kuin pisteen (.). Voit vaihtaa pisteeseen numeronäppäimistön näppäinyhdistelmällä <kbd>Alt</kbd>+<kbd>desimaalierotin</kbd>. Kun haluat vaihtaa takaisin, paina <kbd>Alt</kbd>+<kbd>desimaalierotin</kbd>-näppäimiä uudelleen. Lisätietoja on kohdassa [Numeeristen näppäimistöjen käyttämän desimaalierottimen asettaminen](ui-enter-data.md#decimal).
 
-#### <a name="-eitheror" />(&#124;) Joko/tai
+#### <a name="124-eitheror" />(&#124;) Joko/tai
 
 |Esimerkkimuoto|Näkyvät tietueet|  
 |-----------------------|-----------------------|  
@@ -302,7 +302,7 @@ Käytä `%myvendors`-tunnusta toimittajan **Nro**-kentässä, kun haluat näytt�
 |-----------------------|-----------------------|  
 |`%myvendors`|Roolikeskuksen **Omat toimittajat** -kohdan toimittajat. |  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

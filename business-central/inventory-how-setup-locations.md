@@ -104,7 +104,7 @@ Kentät on täytettävä vastakkaisessa järjestyksessä seuraavasti:
 
 ADM-dimensio kopioidaan sijainnista EAST.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-set-up-dynamics--business-central" />Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learnlearnmodulestrade-set-up-dynamics-365-business-central" />Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

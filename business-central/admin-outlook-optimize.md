@@ -33,11 +33,11 @@ Jos haluat päivittää Outlookin uusimpaan versioon, noudata tätä Microsoft-t
 
 [Office-päivitysten asentaminen](https://support.microsoft.com/office/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5)
 
-## <a name="install-microsoft-edge-webview" />Microsoft Edge WebView2:n asentaminen
+## <a name="install-microsoft-edge-webview2" />Microsoft Edge WebView2:n asentaminen
 
 Varmista, että Microsoft Edge WebView2 on asennettu laitteeseesi.
 
-### <a name="how-to-check-if-microsoft-edge-webview-is-installed" />Microsoft Edge WebView2 -asennuksen tarkistaminen
+### <a name="how-to-check-if-microsoft-edge-webview2-is-installed" />Microsoft Edge WebView2 -asennuksen tarkistaminen
 
 Voit tarkistaa Microsoft Edge WebView2 -asennuksen tietokoneeltasi seuraavasti:
 
@@ -52,7 +52,7 @@ Ohjauspaneelista:
 2. Valitse **Ohjelmat** > **Ohjelmat ja ominaisuudet**.
 3. Kirjoita hakukenttään **WebView2**. Jos Microsoft Edge WebView2 on asennettuna, näet merkinnän nimeltä **Microsoft Edge WebView2 Runtime**.
 
-### <a name="how-to-install-microsoft-edge-webview" />Microsoft Edge WebView2:n asentaminen
+### <a name="how-to-install-microsoft-edge-webview2" />Microsoft Edge WebView2:n asentaminen
 
 1. Siirry selaimen avulla kohteeseen [https://developer.microsoft.com/microsoft-edge/webview2/](https://developer.microsoft.com/microsoft-edge/webview2/).
 2. Valitse **Lataa**.

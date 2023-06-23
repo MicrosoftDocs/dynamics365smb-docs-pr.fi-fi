@@ -275,7 +275,7 @@ Oletetaan esimerkiksi, että käytät numeronäppäimistöä, joka käyttää pi
 > [!TIP]
 > Joskus voi olla tarpeen käyttää desimaalierotinta pisteen (.) syöttämiseen. Oletetaan esimerkiksi, että syötät päivämäärävälin suodattimeen, esimerkiksi `01/01/2022..04/01/2022`tai mikä tahansa, joka edellyttää pistettä. Tämän mahdollistamiseksi valitse numeronäppäimistön <kbd>Alt</kbd>+<kbd>desimaalierotin</kbd>-näppäimiä. Tämä näppäinyhdistelmä vaihtaa desimaalierottimen pisteen syöttämisen ja **Alue**-asetuksessa määritetyn desimaalierottimen välillä.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

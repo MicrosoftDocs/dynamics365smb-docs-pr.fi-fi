@@ -345,7 +345,7 @@ Jos haluat nähdä, mitä mittayksikköä kesto-kentässä käytetään, syötä
 
 Jos mittayksikkö on esimerkiksi Tunnit, numero 5 muunnetaan 5 tunniksi.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

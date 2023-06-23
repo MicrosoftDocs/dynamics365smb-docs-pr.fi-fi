@@ -184,7 +184,7 @@ Voit tuoda ja viedä talousraportteja RapidStart-konfigurointipaketteina, jotka 
 > [!NOTE]
 > Kun tuot talousraportteja, ohjelma poistaa aiemmin luodut tietueet, joiden nimet ovat samat kuin tuomasi.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-financial-reports-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-financial-reports-dynamics-365-business-central/index).
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-financial-reports-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-financial-reports-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Katso myös
 

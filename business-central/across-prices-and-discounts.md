@@ -199,7 +199,7 @@ Jos haluat päivittää monien nimikkeiden hinnat, sinun täytyy luoda uusi hinn
 
 Kun olet kirjannut myynnin ja ostojen erikoishinnat ja rivialennukset, [!INCLUDE[d365fin](includes/d365fin_md.md)] varmistaa, että nimikekaupan tuotto on aina optimaalinen laskemalla automaattisesti parhaan hinnan myynti- ja ostoasiakirjoille sekä projekti- ja nimikepäiväkirjan riville. Lisätietoja on kohdassa [Parhaan hinnan laskenta](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescustomer-discounts-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/customer-discounts-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescustomer-discounts-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/customer-discounts-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

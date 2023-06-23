@@ -18,7 +18,7 @@ ms.contentlocale: fi-FI
 ms.lasthandoff: 09/23/2022
 ms.locfileid: "9585862"
 ---
-# <a name="use-dynamics--sales-from-business-central" /><a name="use-dynamics-365-sales-from-business-central"></a>Dynamics 365 Salesin käyttäminen Business Centralissa
+# <a name="use-dynamics-365-sales-from-business-central" /><a name="use-dynamics-365-sales-from-business-central"></a>Dynamics 365 Salesin käyttäminen Business Centralissa
 Jos käytät Dynamics 365 Salesia asiakassuhteissa, saat käyttöösi saumattoman integroinnin liidistä tuottoon käyttämällä [!INCLUDE[prod_short](includes/prod_short.md)]ia taustatehtäviin, kuten tilausten käsittelyyn, varastonhallintaan ja talousasioihin.
 
 Ennen kuin voit käyttää integrointiominaisuuksia, [!INCLUDE[crm_md](includes/crm_md.md)]-järjestelmänvalvojan on määritettävä yhteys ja käyttäjät. Lisätietoja on kohdassa [Dynamics 365 Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md).

@@ -84,7 +84,7 @@ Kunkin poistokirjan osalta määritellään mallien ja erien oletusasetukset. Vo
 3. Jos haluat, että jokaisella käyttäjällä on oletusasetukset, valitse **Käyttäjätunnus**-kenttä, jotta voit tehdä valinnan **Käyttäjät**-sivulla.  
 4. Valitse muille kentille oletusarvoisesti käytettävä päiväkirjamalli tai -erä.  
 
-## <a name="fiscal-year--days-field-depreciation" />Tilikausi 365 päivää -kentän poisto
+## <a name="fiscal-year-365-days-field-depreciation" />Tilikausi 365 päivää -kentän poisto
 
 Kun Laske poisto -eräajo laskee poistot, eräajo käyttää tavallisesti standardisoitua 360 päivän vuotta, jossa kussakin 12 kuukaudessa on 30 päivää.
 

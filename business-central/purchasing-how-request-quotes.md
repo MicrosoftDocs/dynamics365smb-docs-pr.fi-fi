@@ -31,7 +31,7 @@ Ostotarjous poistetaan tietokannasta. Ostotarjouksen tietojen perusteella luodaa
 > [!NOTE]
 > Ostotarjousta ei voi muuntaa suoraan ostolaskuksi, kuten myyntitarjouksissa on mahdollista. Lisätietoja ostolaskun luomisesta on kohdassa [Kirjaa ostot ostolaskuilla](purchasing-how-record-purchases.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-purchase-documents-dynamics--business-central" />Katso lisätietoja [Microsoft-koulutuksesta](/training/modules/create-purchase-documents-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-purchase-documents-dynamics-365-business-central" />Katso lisätietoja [Microsoft-koulutuksesta](/training/modules/create-purchase-documents-dynamics-365-business-central/).
 
 ## <a name="see-also" />Katso myös
 

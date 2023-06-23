@@ -33,20 +33,20 @@ Seuraavassa esimerkissä kuvataan, kuinka nimikkeen pääkirjan kirjaukset, arvo
 
  Kirjaa ostotilaus vastaanotetuksi ja laskutetuksi 10 nimikkeelle, joiden välitön yksikkökustannus on 7 (PVA) ja yleiskustannuksen arvo 1 (PVA). Kirjauspäivämäärä on 1.1.2020. Seuraavat tapahtumat luodaan.  
 
-### <a name="item-ledger-entries-" />Nimiketapahtumat (1)
+### <a name="item-ledger-entries-1" />Nimiketapahtumat (1)
 
 |Kirjauspäivämäärä|Tapahtuman tyyppi|Kustannussumma (Tod.)|määrä|Tapahtumanro|  
 |------------|----------|--------------------|--------|---------|  
 |01-01-20|Osto|80.00|10|1|  
 
-### <a name="value-entries-" />Arvotapahtumat (1)
+### <a name="value-entries-1" />Arvotapahtumat (1)
 
 |Kirjauspäivämäärä|Tapahtuman tyyppi|Kustannussumma (Tod.)|Nimiketapahtuman nro|Tapahtumanro|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-01-20|Välitön kustannus|70,00|1|1|  
 |01-01-20|Välillinen kustannus|10,00|1|2|  
 
-### <a name="item-application-entries-" />Nimikkeen kohdistustapahtumat (1)
+### <a name="item-application-entries-1" />Nimikkeen kohdistustapahtumat (1)
 
 |Tapahtumanro|Nimiketapahtuman nro|Saapuvan nimiketapahtuman nro|Lähtevän nimiketapahtuman nro|määrä.|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -54,19 +54,19 @@ Seuraavassa esimerkissä kuvataan, kuinka nimikkeen pääkirjan kirjaukset, arvo
 
  Seuraavaksi kirjaat 10 yksikön nimikkeen myynnin kirjauspäivämäärällä 15.1.2000.  
 
-### <a name="item-ledger-entries-" />Nimiketapahtumat (2)
+### <a name="item-ledger-entries-2" />Nimiketapahtumat (2)
 
 |Kirjauspäivämäärä|Tapahtuman tyyppi|Kustannussumma (Tod.)|määrä|Tapahtumanro|  
 |------------|----------|--------------------|--------|---------|  
 |01-15-20|Myynti|-80.00|-10|2|  
 
-### <a name="value-entries-" />Arvotapahtumat (2)
+### <a name="value-entries-2" />Arvotapahtumat (2)
 
 |Kirjauspäivämäärä|Tapahtuman tyyppi|Kustannussumma (Tod.)|Nimiketapahtuman nro|Tapahtumanro|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-15-20|Välitön kustannus|-80.00|2|3|  
 
-### <a name="item-application-entries-" />Nimikkeen kohdistustapahtumat (2)
+### <a name="item-application-entries-2" />Nimikkeen kohdistustapahtumat (2)
 
 |Tapahtumanro|Nimiketapahtuman nro|Saapuvan nimiketapahtuman nro|Lähtevän nimiketapahtuman nro|Määrä|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -78,7 +78,7 @@ Kirjanpitojakson lopussa voit täsmäyttää nämä varastotapahtumat pääkirja
 
  Seuraavissa taulukoissa esitetään varastosiirtojen täsmäytyksen tulokset tässä esimerkissä pääkirjan kanssa.  
 
-### <a name="value-entries-" />Arvotapahtumat (3)
+### <a name="value-entries-3" />Arvotapahtumat (3)
 
 |Kirjauspäivämäärä|Tapahtuman tyyppi|Kustannussumma (Tod.)|KP:oon kirjattu kustannus|Nimiketapahtuman nro|Tapahtumanro|  
 |------------|----------|--------------------|------------------|---------------------|---------|  
@@ -86,7 +86,7 @@ Kirjanpitojakson lopussa voit täsmäyttää nämä varastotapahtumat pääkirja
 |01-01-20|Välillinen kustannus|10,00|10,00|1|2|  
 |01-15-20|Välitön kustannus|-80.00|-80.00|2|3|  
 
-### <a name="general-ledger-entries-" />Pääkirjanpidon tapahtumat (3)
+### <a name="general-ledger-entries-3" />Pääkirjanpidon tapahtumat (3)
 
 |Kirjauspäivämäärä|KP-tili|Tilinro (En-US-esittely)|Summa|Tapahtumanro|  
 |------------|-----------|------------------------|------|---------|  
@@ -104,7 +104,7 @@ Kirjanpitojakson lopussa voit täsmäyttää nämä varastotapahtumat pääkirja
 
  Arvotapahtumien ja pääkirjapidon tapahtumien suhde tallennetaan **Kirjanpito - nimikekirjauksen suhde** -taulukkoon.  
 
-### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Liittyvät kirjaukset G/L – nimikkeen pääkirjan suhdetaulukko (3)
+### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3" />Liittyvät kirjaukset G/L – nimikkeen pääkirjan suhdetaulukko (3)
 
 |KP-tapahtuman nro|Arvotapahtumanro|KP-rekisterin nro|  
 |-------------|---------------|----------------|  

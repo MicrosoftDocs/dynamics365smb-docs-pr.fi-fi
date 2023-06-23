@@ -58,7 +58,7 @@ Jos virheitä ei ilmene, päivitykset otetaan käyttöön raporttiasetteluissa. 
 
 Kun muutat asettelua, yritä päivittää asettelu uudelleen.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
  [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  

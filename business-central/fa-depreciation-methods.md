@@ -80,7 +80,7 @@ Tässä esimerkissä käyttöomaisuustapahtuma näyttää seuraavalta:
 | 06/30/27 |Arvonalennus |180 |-6.250,00 |6,250.00 |
 | 12/31/27 |Arvonalennus |180 |-6.250,00 |0 |
 
-## <a name="declining-balance--depreciation" />Menojäännöspoisto 1 -poisto
+## <a name="declining-balance-1-depreciation" />Menojäännöspoisto 1 -poisto
 
 Tämä degressiivinen poistomenetelmä kohdistaa suurimman osan omaisuuserän kustannuksesta sen eliniän ensimmäisille vuosille. Tätä menetelmää käytettäessä tulee syöttää kiinteä vuosiprosentti.  
 
@@ -92,7 +92,7 @@ Poistopohjaksi lasketaan kirjanpitoarvo vähennettynä kirjatulla poistolla nyky
 
 Kirjattu poistosumma voi sisältää tapahtumia, joilla on eri kirjaustyyppejä (arvonalennus, mukautettu 1 ja mukautettu 2), jotka on kirjattu nykyisen tilikauden aloituspäivämäärästä lähtien. Nämä kirjaustyypit sisältyvät kirjattuun poistosummaan, jos **Poistotyyppi**- ja **Osa kirjanpitoarvosta** -kentissä **KO:n kirjaustyypin asetukset** -sivulla on valintamerkki.  
 
-### <a name="example---declining-balance--depreciation" />Esimerkki - Menojäännöspoisto 1 -poisto
+### <a name="example---declining-balance-1-depreciation" />Esimerkki - Menojäännöspoisto 1 -poisto
 
 Käyttöomaisuuden hankintameno on PVA 100 000. **Menojäännöspoisto-%** -kentässä on arvo 25. **Laske poisto** -eräajo suoritetaan kaksi kertaa vuodessa.  
 
@@ -122,11 +122,11 @@ Laskentamenetelmä:
 
 Laskenta jatkuu siihen asti, kun kirjanpitoarvo on yhtä kuin lopullinen pyöristyssumma tai jäännösarvo, jonka syötit.  
 
-## <a name="declining-balance--depreciation" />Menojäännöspoisto 2 -poisto
+## <a name="declining-balance-2-depreciation" />Menojäännöspoisto 2 -poisto
 
 Menojäännöspoisto 1- ja Menojäännöspoisto 2 -menetelmät laskevat saman kokonaispoistosumman kullekin vuodelle. Jos **Laske poisto** -eräajo suoritetaan useammin kuin kerran vuodessa, Menojäännöspoisto 1 -menetelmä johtaa samansuuruisiin poistosummiin kunkin poistojakson osalta. Menojäännöspoisto 2 -menetelmä sen sijaan johtaa poistosummiin, jotka vähenevät joka jaksolla.  
 
-### <a name="example---declining-balance--depreciation" />Esimerkki - Menojäännöspoisto 2 -poisto
+### <a name="example---declining-balance-2-depreciation" />Esimerkki - Menojäännöspoisto 2 -poisto
 
 Käyttöomaisuuden hankintameno on PVA 100 000. **Menojäännöspoisto-%** -kentässä on arvo 25. **Laske poisto** -eräajo suoritetaan kaksi kertaa vuodessa. Käyttöomaisuustapahtumat näyttävät seuraavalta:  
 
@@ -159,7 +159,7 @@ Poistojen arvot ovat:
 | 06/30/21 |PS = 75 000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 10 048,09 |
 | 12/31/21 |PS = 64 951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8 701,91 |
 
-## <a name="dbsl-depreciation" />MJP1/TP-poisto
+## <a name="db1sl-depreciation" />MJP1/TP-poisto
 
 MJP1/TP on lyhenne Menojäännöspoiston 1 ja Tasapoiston yhdistelmästä. Laskenta jatkuu siihen asti, kun kirjanpitoarvo on yhtä kuin lopullinen pyöristyssumma tai jäännösarvo, jonka annoit.  
 
@@ -169,7 +169,7 @@ Voit laskea menojäännöspoiston käyttämällä eri prosentteja.
 
 Jos tätä menetelmää käytetään, **KO-poistokirjat** -sivulla on annettava arvioitu käyttöikä ja menojäännöspoistoprosentti  
 
-### <a name="example---db-sl-depreciation" />Esimerkki - MJP1/TP-poisto
+### <a name="example---db1-sl-depreciation" />Esimerkki - MJP1/TP-poisto
 
 Käyttöomaisuuden hankintameno on PVA 100 000. **KO-poistokirjat** -sivun **Menojäännöspoisto-%** -kentässä on 25 ja **Poistovuosien lukumäärä** -kentässä on 8. **Laske poisto** -eräajo suoritetaan kaksi kertaa vuodessa.  
 
@@ -246,7 +246,7 @@ Käyttöomaisuustapahtumat näyttävät seuraavalta:
 | 12/31/24 |Arvonalennus |360 |-20.000,00 |10,000.00 |
 | 12/31/25 |Arvonalennus |180 |-10.000,00 |0.00 |
 
-## <a name="example---dbsl-depreciation-using-half-year-convention" />Esimerkki – MJP1/TP-poisto puolivuotissopimusta käyttämällä
+## <a name="example---db1sl-depreciation-using-half-year-convention" />Esimerkki – MJP1/TP-poisto puolivuotissopimusta käyttämällä
 
 Käyttöomaisuuden hankintameno on PVA 100 000. **Poiston aloituspvm** on 11.1.20. Arvioitu käyttöikä on viisi vuotta, joten **Poiston lopetuspvm** -kohdan arvon on oltava 30.6.25. **KO-poistokirjat**-sivun **Menojäännöspoisto-%**-kentässä on 40. **Laske poisto** -eräajo suoritetaan vuosittain. Tämä esimerkki perustuu kalenteritilikauteen.  
 

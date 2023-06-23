@@ -79,7 +79,7 @@ Valittu syykoodi kopioituu niihin uusiin päiväkirjan eriin, jotka on luotu tä
 
 Kun lasku on kirjattu, syykoodi kopioituu kaikkiin KP-, asiakas- ja toimittajatapahtumiin. Et voi liittää erilaisia syykoodeja yksittäisille osto- ja myyntiriveille, koska kaikki rivit kirjataan yhtenä tapahtumana.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics--business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

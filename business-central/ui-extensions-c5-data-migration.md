@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-c-data-migration-extension" />Tietojen siirron C5-laajennus
+# <a name="the-c5-data-migration-extension" />Tietojen siirron C5-laajennus
 
 Tämän laajennuksen avulla on helppo siirtää asiakkaita, toimittajia, nimikkeitä ja pääkirjanpidon tilejä Microsoft Dynamics C5 2012 -versiosta [!INCLUDE[prod_short](includes/prod_short.md)]iin. Voit siirtää myös pääkirjanpidon tilien vanhat tapahtumat.
 
