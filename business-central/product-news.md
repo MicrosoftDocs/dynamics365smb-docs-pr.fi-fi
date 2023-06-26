@@ -1,30 +1,32 @@
 ---
 title: Uudet ja suunnitellut toiminnot oletusversiossa
 description: Tietoja Business Centralin oletusversiota koskevien uusien ja aiemmin luotujen ominaisuuksien uutisten ja päivitysten etsimisestä.
-author: edupont04
-ms.topic: get-started-article
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: jswymer
+ms.topic: conceptual
+ms.date: 06/15/2023
+ms.custom: bap-template
 ms.search.keywords: 'news, release plan, roadmap, whats new'
-ms.date: 12/07/2022
-ms.author: edupont
 ---
-# <a name="new-and-planned-for-dynamics-365-business-central" />Uusia ja suunniteltuja ominaisuuksia Dynamics 365 Business Centralille
+# Uusia ja suunniteltuja ominaisuuksia Dynamics 365 Business Centralille
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
-Julkaisusuunnitelmissa on uusien ja tulevien toimintojen yleiskatsaus. Tästä ohjeistuksesta löytyvät artikkelit, joiden avulla saat tietoja [!INCLUDE[prod_long](includes/prod_long.md)] -oletusversion uusista ja nykyisistä toiminnoista.  
-
 Seuraavassa luettelossa on tietoja uusimmista [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman versioista.  
 
+* [Vuoden 2023 julkaisuaalto 1](/dynamics365/release-plans/)
 * [Vuoden 2022 julkaisuaalto 2](/dynamics365-release-plan/2022wave2/smb/dynamics365-business-central/planned-features)  
-* [Vuoden 2022 julkaisuaalto 1](/dynamics365-release-plan/2022wave1/smb/dynamics365-business-central/planned-features)  
 
 Voit halutessasi myös tutustua [Dynamics 365 Business Central -ominaisuudet](https://dynamics.microsoft.com/business-central/capabilities/) -sivustoon ja [Dynamics 365 Business Central -etenemissuunnitelma](https://dynamics.microsoft.com/roadmap/business-central/) -sivustoon.  
 
-## <a name="get-notified-about-changes-through-an-rss-feed" />Ilmoitukset tehdyistä muutoksista RSS-syötteen kautta
+Tietoja siitä, miten [!INCLUDE [prod_short](includes/prod_short.md)] online -tilassa saa seuraavat päivitykset [suurissa päivityksissä ja pienissä päivityksissä](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline) (vain englanniksi).
+
+## Ilmoitukset tehdyistä muutoksista RSS-syötteen kautta
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]
 
-## <a name="see-also" />Katso myös
+## Katso myös
 
 [Microsoftin videokirjastoon tutustuminen](across-videos.md)  
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
@@ -36,6 +38,6 @@ Voit halutessasi myös tutustua [Dynamics 365 Business Central -ominaisuudet](ht
 [Business Centralin hinnoittelu](https://dynamics.microsoft.com/business-central/overview/#pricing)  
 [Dynamics 365 Business Central -yhteisö](https://community.dynamics.com/business/)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

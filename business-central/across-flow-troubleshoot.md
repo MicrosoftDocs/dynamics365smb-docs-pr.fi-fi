@@ -3,12 +3,11 @@ title: Automaattisten työnkulkujen vianmääritys
 description: 'Opettele tekemään vianmääritys Business Centralin ja Power Automaten väliselle yhteydelle, kun rakennat automaattista työnkulkua.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,'
-ms.date: 08/04/2022
-ms.author: edupont
+ms.date: 06/16/2023
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: d365-business-central
 ---
 
 # [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman automaattisten työnkulkujen vianmääritys
@@ -27,6 +26,20 @@ Tällä hetkellä työnkulun käsittelemien tietueiden määrä on rajoitettu. J
 
 > [!NOTE]
 > Kehittäjien osalta työnkulun käynnistys tehdään webhook-ilmoitusten avulla, ja tämä rajoitus johtuu tavasta, jolla Business Central -yhdistin käsittelee `collection`-ilmoituksia. Lisätietoja on kehittäjän ja järjestelmänvalvojan ohjeen kohdassa [Webhookien käyttö Dynamics 365 Business Centralissa](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows).
+
+## "Business Central -palvelun vastaus on liian suuri" -virhe
+
+### Ongelma
+
+Kun käytät tietueiden kanssa vuorovaikutuksessa olevaa toimintoa (kuten *Luo tietue (v3)* ja *Hae tietue (v3)*), Power Automate -näyttöön saattaa tulla tämän kaltainen virhe:
+
+`The response from the Business Central service is too large`
+
+### Mahdollinen syy
+
+Vaikka Business Central ei ole määrittänyt ohjelmointirajapintojen palauttamien tietueiden kokoa, Power Automaten Dynamics 365 Business Central -yhdistin voi käsitellä vain enintään 8 Mt:n tietueita.
+
+Kaikki Microsoftin tarjoamat Business Centralin sovellusliittymät palauttavat tietueita tämän rajan puitteissa, mutta kumppanien tarjoamat sovellusliittymät eivät välttämättä. Jos näet virheen "Business Central -palvelun vastaus on liian suuri", ota yhteyttä käyttämäsi API-liittymän luoneeseen kumppaniin.
 
 ## "Entiteettijoukkoa ei löydy" -virhe
 
