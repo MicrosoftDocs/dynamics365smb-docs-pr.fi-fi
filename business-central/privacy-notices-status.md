@@ -11,7 +11,7 @@ ms.author: a-jaaamir
 ms.date: 07/21/2022
 ---
 
-# <a name="privacy-notices-status-in-includeprodlongincludesprodlongmd" />Tietosuojatietojen tila [!INCLUDE[prod_long](includes/prod_long.md)]issa
+# <a name="privacy-notices-status-in-" />Tietosuojatietojen tila [!INCLUDE[prod_long](includes/prod_long.md)]issa
 
 Tässä artikkelissa kerrotaan, mikä tietosuojatieto on ja selitetään **Tietosuojatietojen tila** -sivun tarkoitus [!INCLUDE[prod_short](includes/prod_short.md)]issa. Tutustut myös siihen, miten järjestelmänvalvojat voivat käyttää tätä sivua.
 

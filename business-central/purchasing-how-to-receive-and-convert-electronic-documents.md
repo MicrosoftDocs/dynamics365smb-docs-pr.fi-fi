@@ -52,7 +52,7 @@ Seuraavassa kuvataan, miten toimittajan lasku vastaanotetaan ja muunnetaan ostol
 
     Yleensä vääriin tai puuttuviin perustietoihin liittyvät virheet näkyvät [!INCLUDE[prod_short](includes/prod_short.md)]in **Virhesanomat**-pikalomakkeessa.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

@@ -80,7 +80,7 @@ Oletusmäärityspaketti tukee seuraavia taulukoita:
 [QuickBooks-tietojen siirto](ui-extensions-quickbooks-data-migration.md)  
 [Useiden nimikekuvien tuominen](inventory-how-import-item-pictures.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -55,7 +55,7 @@ Seuraavassa taulukossa on esitetty liittyviä tehtäviä.
 |Hallitse myyntitoimistojen, osto-osastojen tai tehtaan suunnittelutoimistojen liiketoimintatoiminnoissa eri sijainneissa.|[Vastuupaikkojen käyttäminen](inventory-responsibility-centers.md)|
 |Käytä resursseja, joilla on erityistoimintoja, eri palveluille ja huoltonimikkeille.|[Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsget-started-inventory-management" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/get-started-inventory-management/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/get-started-inventory-management/)
 
 ## <a name="see-also" />Katso myös
 
@@ -65,6 +65,6 @@ Seuraavassa taulukossa on esitetty liittyviä tehtäviä.
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

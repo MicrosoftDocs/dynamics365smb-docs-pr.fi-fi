@@ -159,7 +159,7 @@ Projektien avulla voit laatia yrityksen resurssien käyttöön liittyviä aikata
 
  Tämä vaihekuvaus on ohjannut sinut keskeneräisen työn laskemisen vaiheiden läpi kohteessa [!INCLUDE[prod_short](includes/prod_short.md)]. Jos projektit ovat suuria, kustannukset kannattaa ehkä siirtää KET-tilille ajoittain siksi aikaa, että projekti valmistuu. Tässä vaihekuvauksessa osoitettiin, milloin ja miksi tehtävärivejä täytyy jättää pois laskennasta sekä milloin uudelleenlaskeminen on tarpeen. Se myös näyttää, milloiin uudellenlaskenta on suoritettava. Ja lopuksi, näissä vaiheittaisissa ohjeissa kerrotaan, miten kirjaat KET:n pääkirjanpitoon. Mukana on myös esimerkki siitä, miten voit kääntää KET-kirjauksen pääkirjanpitoon.  
 
-## <a name="see-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/calculate-post-job-wip/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/calculate-post-job-wip/)
 
 ## <a name="see-also" />Katso myös
 

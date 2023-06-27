@@ -11,7 +11,7 @@ ms.search.form: '100, 1156, 1157, 1314, 1315, 1316, 9027'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="accountant-experiences-in-includeprodlongincludesprodlongmd" />Kirjanpitäjän käyttökokemukset [!INCLUDE[prod_long](includes/prod_long.md)]issa
+# <a name="accountant-experiences-in-" />Kirjanpitäjän käyttökokemukset [!INCLUDE[prod_long](includes/prod_long.md)]issa
 
 Kaikkien yritysten on pidettävä kirjanpitoa ja hyväksyttävä se. Jotkin yritykset käyttävät ulkoista kirjanpitäjää, ja joillain yrityksillä on oma kirjanpitäjä. Olit kummanlainen kirjanpitäjä tahansa, voit käyttää **kirjanpitäjän** roolikeskusta [!INCLUDE[prod_short](includes/prod_short.md)]in kotisivunasi. Siitä saat avattua kaikki sivut, joita tarvitset työssäsi.  
 
@@ -25,7 +25,7 @@ Jos olet uusi [!INCLUDE[prod_short](includes/prod_short.md)] -käyttäjä, voit 
 
 Jos työskentelet useissa [!INCLUDE [prod_short](includes/prod_short.md)] -yrityksissä, kannattaa ehkä käyttää **Yritystoiminto**-sivua työn seuraamiseen.  Katso lisätietoja kohdasta [Työnhallinta useiden yritysten välillä yritystoiminnossa](company-hub.md).  
 
-## <a name="a-nameinviteaccountantainviting-your-external-accountant-to-your-includeprodshortincludesprodshortmd" /><a name="inviteaccountant"></a>Ulkoisen kirjanpitäjän kutsuminen [!INCLUDE[prod_short](includes/prod_short.md)]iin
+## <a name="inviting-your-external-accountant-to-your-" /><a name="inviteaccountant"></a>Ulkoisen kirjanpitäjän kutsuminen [!INCLUDE[prod_short](includes/prod_short.md)]iin
 
 Jos käytät ulkoista kirjanpitäjää kirjojen ja talousraportoinnin hallinnassa, järjestelmänvalvojasi voi kutsua kirjanpitäjän [!INCLUDE[prod_short](includes/prod_short.md)]iisi, jolloin he saavat käyttöönsä kirjanpitotietosi. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää kolme lisenssiä, joiden tyyppi on ulkopuolinen kirjanpitäjä. Lisätietoja käyttöoikeuksista on kohdassa [Microsoft Dynamics 365 Business Centralin käyttöoikeusopas](https://go.microsoft.com/fwlink/?LinkId=871590).
 
@@ -64,7 +64,7 @@ Jos järjestelmänvalvoja tai jälleenmyyntikumppani ei halua käyttää **Ulkoi
 
 Seuraavaksi sinun on määritettävä uudelle vieraskäyttäjälle käyttöoikeus [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-includeprodshortincludesprodshortmd" />Voit antaa kirjanpitäjälle pääsyn kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]
+#### <a name="to-give-your-accountant-access-to-your-" />Voit antaa kirjanpitäjälle pääsyn kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Valitse Azure-portaalissa juuri lisätyn käyttäjän **Profiili** ja valitse sitten **Muokkaa**
 2. Päivitä **Käyttösijainti** -kenttä asianomaisen maan kohdalle ja valitse sitten **Tallenna**.
@@ -78,7 +78,7 @@ Seuraavaksi sinun on määritettävä uudelle vieraskäyttäjälle käyttöoikeu
 
 Jos tämä onnistuu, käyttöoikeus määritetään vieraskäyttäjälle ja vierastili luodaan.
 
-### <a name="importing-the-new-user-into-includeprodshortincludesprodshortmd" />Uuden käyttäjän tuominen kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="importing-the-new-user-into-" />Uuden käyttäjän tuominen kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Kirjanpitäjä saa sähköpostiviestin, joka ilmoittaa hänelle, että hänelle on annettu pääsy Active Directoryyn. Seuraavaksi sinun on annettava heille oikeus käyttää oikeaa yritystä kohteessa [!INCLUDE[prod_short](includes/prod_short.md)].
 

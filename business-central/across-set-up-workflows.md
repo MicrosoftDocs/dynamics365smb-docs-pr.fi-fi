@@ -42,7 +42,7 @@ Tässä videossa kerrotaan, miten määritetään työnkulku, joka edellyttää 
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Katso myös
 

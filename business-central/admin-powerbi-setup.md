@@ -10,11 +10,11 @@ ms.search.keywords: 'Power BI, setup, analysis, reporting, financial report, bus
 ms.date: 07/13/2022
 ms.author: jswymer
 ---
-# <a name="enabling-power-bi-integration-with-includeprodshortincludesprodshortmd" />Power BI:n ja [!INCLUDE[prod_short](includes/prod_short.md)]in integroinnin ottaminen käyttöön
+# <a name="enabling-power-bi-integration-with-" />Power BI:n ja [!INCLUDE[prod_short](includes/prod_short.md)]in integroinnin ottaminen käyttöön
 
 Tässä artikkelissa käsitellään [!INCLUDE[prod_short](includes/prod_short.md)]in valmistelua Power BI -integrointia varten. Vaikka integrointi on jo otettu käyttöön [!INCLUDE[prod_short](includes/prod_short.md)] online -versiossa, kannattaa kuitenkin tutustua joihinkin käyttöoikeuksia koskeviin tietoihin. Paikallisessa [!INCLUDE[prod_short](includes/prod_short.md)] -versiossa ympäristön on määritettävä muodostamaan yhteys Power BI:hin, ennen kuin käyttäjät voivat käyttää sitä.
 
-## <a name="a-namelicenseapower-bi-licensing" /><a name="license"></a>Power BI:n käyttöoikeudet
+## <a name="power-bi-licensing" /><a name="license"></a>Power BI:n käyttöoikeudet
 
 Käyttäjät saavat [!INCLUDE[prod_short](includes/prod_short.md)]in mukana maksuttoman Power BI -käyttöoikeuden, jolla voi käyttää [!INCLUDE[prod_short](includes/prod_short.md)]in ja Power BI:n tavallisia ominaisuuksia. Ostamalla Power BI Pro -käyttöoikeuden saa käyttöön myös lisäominaisuuksia. Seuraavassa taulukossa on kunkin käyttöoikeuden ominaisuuksien yleiskatsaus.
 
@@ -25,7 +25,7 @@ Käyttäjät saavat [!INCLUDE[prod_short](includes/prod_short.md)]in mukana maks
 
 Lisätietoja on kohdassa [Power BI -palvelun käyttöoikeuden organisaation käyttäjille](/power-bi/admin/service-admin-licensing-organization) tai [Rekisteröityminen Power BI -palveluun henkilönä](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 
-## <a name="a-nameexposedataaexpose-data-through-api-or-odata-web-services" /><a name="exposedata"></a>Tietojen näyttäminen ohjelmointirajapinnan tai OData-verkkopalvelujen kautta
+## <a name="expose-data-through-api-or-odata-web-services" /><a name="exposedata"></a>Tietojen näyttäminen ohjelmointirajapinnan tai OData-verkkopalvelujen kautta
 
 Business Central tarjoaa kaksi tapaa näyttää tiedot, joita Power BI -raportit voivat käyttää: API-sivut tai -kyselyt ja OData (Open Data Protocol) -verkkopalvelut.
 
@@ -54,7 +54,7 @@ Lisätietoja tavoista, joilla voidaan verkkopalvelujen paras mahdollinen suoritu
 
 Aina kun mahdollista, suositellaan käyttämään API-sivuja OData-verkkopalvelun sijaan. Yleensä API-sivut lataavat tiedot nopeammin Power BI -raportteihin kuin OData-verkkopalvelut. Lisäksi ne ovat joustavampia, koska niiden avulla voit saada tietoja taulukon kentistä, joita ei ole määritetty sivuobjektissa.
 
-## <a name="a-namesetupaset-up-includeprodshortincludesprodshortmd-on-premises-for-power-bi-integration" /><a name="setup"></a>Paikallisen [!INCLUDE[prod_short](includes/prod_short.md)] -version Power BI -integroinnin valmistelu
+## <a name="set-up--on-premises-for-power-bi-integration" /><a name="setup"></a>Paikallisen [!INCLUDE[prod_short](includes/prod_short.md)] -version Power BI -integroinnin valmistelu
 
 Tässä osassa käsitellään paikallisen [!INCLUDE[prod_short](includes/prod_short.md)] -käyttöönoton edellytyksiä Power BI -integrointia varten.
 
@@ -92,7 +92,7 @@ Tässä osassa käsitellään paikallisen [!INCLUDE[prod_short](includes/prod_sh
     Voit muodostaa ensimmäisen yhteyden avaamalla [!INCLUDE[prod_short](includes/prod_short.md)]in ja suorittamalla aloitussivulla **Aloita Power BI:n käyttö** -toiminnon. Tämä toiminto opastaa hyväksyntäprosessin läpi ja tarkistaa Power BI -käyttöoikeutesi. Ohjelma pyytää kirjautumaan sisään käyttämällä Azuren järjestelmänvalvojatiliä. Lisätietoja on kohdassa [Power BI -yhteyden muodostaminen – kerran](across-working-with-powerbi.md#connect).
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

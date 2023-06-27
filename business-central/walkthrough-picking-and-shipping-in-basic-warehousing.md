@@ -135,7 +135,7 @@ Myyntitilaukset ovat yleisin lähtevien lähdeasiakirjojen tyyppi.
 
     30 Amsterdam-lamppua on nyt rekisteröity poimituiksi varastopaikoista S-01-0001- ja S-01-0002, ja luodaan negatiivinen nimiketapahtuma, joka heijastaa kirjattua myyntitoimitusta.  
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Katso myös
 

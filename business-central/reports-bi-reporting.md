@@ -26,7 +26,7 @@ Seuraava taulukko sisältää keskeiset liiketoimintatiedot ja raportointitoimin
 | Integroi ulkoiset liiketoimintatietotyökalut sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] kanssa.| [Ulkoiset liiketoimintatietotyökalut](reports-external-analysis.md) |
 |Muokkaa raporttiasetteluita tai kehitä omia raportteja alusta lähtien. |[Raporttien kehittäminen](reports-develop-reports.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Katso [Microsoftin koulutukset](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Katso [Microsoftin koulutukset](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Katso myös
 

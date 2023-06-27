@@ -36,7 +36,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Lisätietoja käyttöomaisuuden erilaisista poistotavoista. |[Poistotavat](fa-depreciation-methods.md) |
 | Tietoja käyttäjän määrittämien poistomenetelmien soveltamisesta. |[Käyttäjäkohtaisten poistomenetelmien määrittäminen](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also" />Katso myös
 

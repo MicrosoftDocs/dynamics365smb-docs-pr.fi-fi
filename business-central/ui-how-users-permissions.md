@@ -54,7 +54,7 @@ Molemmilla lähestymistavoilla on omat etunsa, ja niitä voi käyttää samanaik
 
 Lisätietoja hallintasisällössä: [Valtuutettu järjestelmänvalvojan käyttöoikeus Business Central Onlineen](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-### <a name="a-namelicensespermissionsaconfigure-permissions-based-on-licenses" /><a name="licensespermissions"></a>Käyttöoikeuksien määrittäminen oikeuksien perusteella
+### <a name="configure-permissions-based-on-licenses" /><a name="licensespermissions"></a>Käyttöoikeuksien määrittäminen oikeuksien perusteella
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -84,7 +84,7 @@ Jos tämä oletusarvoinen kokoonpano ei sovi tietylle ympäristölle, järjestel
 > [!IMPORTANT]
 > Tämä käyttöoikeuksien mukauttaminen koskee vain uusia käyttäjiä, joille kohdistat asiaankuuluvan käyttöoikeuden. Nykyisiä käyttäjiä ei päivitetä. Suosittelemme käyttöoikeuksien mukauttamista, ennen kuin käyttäjien käyttöoikeuksien aletaan määrittää Microsoft 365 -hallintakeskuksessa.
 
-### <a name="a-nameadduserato-add-users-or-update-user-information-and-license-assignments-in-business-central" /><a name="adduser"></a>Käyttäjien lisääminen tai käyttäjätietojen ja käyttöoikeuksien delegoinnin päivittäminen Business Centralissa
+### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central" /><a name="adduser"></a>Käyttäjien lisääminen tai käyttäjätietojen ja käyttöoikeuksien delegoinnin päivittäminen Business Centralissa
 
 Kun olet lisännyt käyttäjiä tai muuttanut käyttäjätietoja Microsoft 365 -hallintakeskuksessa, voit tuoda käyttäjätiedot nopeasti [!INCLUDE[prod_short](includes/prod_short.md)]iin. Tuontiin kuuluvat käyttöoikeusmääritykset.  
 
@@ -118,7 +118,7 @@ Voit poistaa käyttäjän [!INCLUDE[prod_short](includes/prod_short.md)] online 
 
 Voit myös poistaa käyttöoikeuden käyttäjältä Microsoft 365 -hallintakeskuksessa. Käyttäjä ei pysty kirjautumaan sisään. Lisätietoja on kohdassa [Käyttöoikeuksien poistaminen käyttäjiltä](/microsoft-365/admin/manage/remove-licenses-from-users).
 
-### <a name="a-namem365asynchronization-with-microsoft-365" /><a name="m365"></a>Synkronointi Microsoft 365:n kanssa
+### <a name="synchronization-with-microsoft-365" /><a name="m365"></a>Synkronointi Microsoft 365:n kanssa
 
 Kun määrität käyttöoikeuden [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa Microsoft 365 -käyttäjälle, käyttäjän voi luoda kahdella eri tavalla [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa.  
 

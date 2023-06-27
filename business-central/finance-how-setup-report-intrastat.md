@@ -337,7 +337,7 @@ Intrastat-raporttien käsittelyprosessi on sama kuin yleisessä ominaisuudessa.
 
 <!-- ### United Kingdom-->
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Lisätietoja aiheeseen liittyvästä koulutuksesta on [Microsoft Learnissa](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Lisätietoja aiheeseen liittyvästä koulutuksesta on [Microsoft Learnissa](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Katso myös
 

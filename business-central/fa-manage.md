@@ -53,7 +53,7 @@ Seuraava video kattaa käyttöomaisuuden perusteet.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-fixed-assets-transactions" /><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/manage-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training" /><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/manage-fixed-assets-transactions/)
 
 ## <a name="see-also" /><a name="see-also"></a>Katso myös
 
@@ -63,7 +63,7 @@ Seuraava video kattaa käyttöomaisuuden perusteet.
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

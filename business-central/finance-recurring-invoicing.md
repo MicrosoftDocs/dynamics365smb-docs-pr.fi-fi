@@ -12,7 +12,7 @@ ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
 ---
-# <a name="work-with-recurring-revenue-in-includeprodshortincludesprodshortmd" />Toistuvan tuoton käsitteleminen kohteessa [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-recurring-revenue-in-" />Toistuvan tuoton käsitteleminen kohteessa [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Monet yritykset ovat siirtymässä liiketoiminnan tuottomallista, jossa tuotto on tehty asiakkaan yhdestä ostosta tilausmalliin, jossa tuotto tehdään toistuvin perustein, kun halutaan saada yhdenmukainen käyttöoikeus tavaran tai palvelun toimittamiseen.
 [!INCLUDE[prod_short](includes/prod_short.md)] on seuraavat vaihtoehdot sille, miten automatisoit tilauslaskujen lähettämisen asiakkaille ja rekisteröit toistuvan tuoton. 
@@ -35,7 +35,7 @@ Toistuva projektipäiväkirja on kehittyneempi vaihtoehto yleiselle päiväkirja
 
 Kun olet kirjaamassa toistuvaa projektipäiväkirjaa, voit luoda useita laskuja **luomalla projektin myyntilasku** -tehtävän. Voit tarkastella ja kirjata luotuja laskuja **Myyntilaskut**-sivulla.
 
-### <a name="why-use-this-option" />Miksi käyttää tätä asetusta
+### <a name="why-use-this-option-1" />Miksi käyttää tätä asetusta
 
 Tämän vaihtoehdon avulla voit noudattaa vakiolaskutusmenettelyä ja kaikkia sen etuja, kuten viestintäasetusten vakio- ja asiakasasettelua. Voit myös määrittää kunkin projektin hinnat yksittäin.
 
@@ -47,7 +47,7 @@ Lisätietoja on kohdissa [Projektipäiväkirjarivien luominen](projects-how-reco
 
 Jos sinun on usein luotava samankaltaisia tietoja sisältäviä myynti- ja ostorivejä, voit määrittää toistuvia myyntirivejä ja lisätä ne sitten toistuviin myynti- ja ostoasiakirjoihin, kuten toistuviin täydennystilauksiin. Luo **Luo toistuvia myyntilaskuja** -eräajolla myyntilaskuja asiakkaille määritettyjen toistuvien myyntirivien mukaan siten, että niiden kirjauspäivämäärät ovat toistuville myyntiriveille määritetyllä voimassaolon päivämäärävälillä.  
 
-### <a name="why-use-this-option" />Miksi käyttää tätä asetusta
+### <a name="why-use-this-option-2" />Miksi käyttää tätä asetusta
 
 Tämän asetuksen avulla voit liittää samat toistuvat rivit usealle asiakkaalle. Voit määrittää tietyn asiakkaan toistuvien myyntirivien voimassaoloajan. Samalle asiakkaalle voi liittää useampia toistuvia rivejä, ja kaikki ne sisällytetään laskuun.
 
@@ -62,7 +62,7 @@ Huoltosopimus sisältää asiakkaiden ja oman yrityksen väliset huoltosopimukse
 Voit määrittää sopimuksen aloituspäivämäärän, laskutusjakson, sen, onko sopimus ennakkoon maksettu, hinnan päivityksen määritykset, jos aiot muuttaa hintoja, kun sopimus on aktiivinen. Huoltosopimusriveillä voi käyttää sekä huoltonimikkeitä että huoltosopimusnimikkeitä.
 Sopimusmalleja voidaan luoda määrittämään sitä, miten tietyn tyyppisiä sopimuksia luodaan.  
 
-### <a name="why-use-this-option" />Miksi käyttää tätä asetusta
+### <a name="why-use-this-option-3" />Miksi käyttää tätä asetusta
 
 Tämän asetuksen avulla voit käyttää kehittynyttä huollon hallintatoimintoa, joka ei rajoitu toistuvien laskujen myöntämiseen, vaan tukee korjaamo- ja field service -toimintoja.
 
@@ -78,7 +78,7 @@ Lisätietoja on kohdissa [Huoltosopimusten ja huoltosopimustarjousten käsittele
 Puitemyyntitilaus kuvastaa yrityksesi ja asiakkaan välisen pitkäaikaisen sopimuksen runkoa.
 Puitetilaus tehdään yleensä silloin, kun asiakas on päättänyt ostaa suuria määriä, jotka toimitetaan useissa pienissä toimituserissä määritetyn aikajakson sisällä. Puitetilaukset kattavat usein vain yhden nimikkeen ja ennalta määritetyt toimituspäivämäärät. Pääsyy puitetilauksen käytölle myyntitilauksen käytön sijaan on se, että puitetilaukseen syötetyt määrät eivät vaikuta nimikkeen saatavuuteen, mutta sitä voidaan kuitenkin käyttää suunnittelutarkoituksiin.
 
-#### <a name="why-use-this-option" />Miksi käyttää tätä asetusta
+#### <a name="why-use-this-option-4" />Miksi käyttää tätä asetusta
 
 Tällä vaihtoehdolla käytät odotettua kysyntää, joten tiedot otetaan huomioon tavanomaisten kaavoitusrutiinien yhteydessä. Lisätietoja on kohdassa [Kysyntäennusteet ja puitetilaukset](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders).  
 
@@ -91,7 +91,7 @@ Lisätietoja on kohdassa [Puitemyyntitilausten käyttäminen](sales-how-to-creat
 Toistuvien tilausten avulla voit luoda puitetilausmalleja, jotta myyntitilaukset voidaan luoda määrittämiesi päivämäärävälien perusteella. Jos esimerkiksi toimitat saman myyntitilauksen kahden viikon välein, voit käyttää puitemyyntitilausta ja luoda toistuvia tilauksia.
 Toistuvien ryhmien avulla voit määrittää joukon parametreja, jotka ilmaisevat, miten tilaukset tehdään. Nämä ryhmät määritellään puitetilauksille, jotka täytyy luoda säännöllisesti. Toistuvien tilausten luomiseksi on suoritettava luo toistuvat tilaukset -prosessi säännöllisesti. 
 
-#### <a name="why-use-this-option" />Miksi käyttää tätä asetusta
+#### <a name="why-use-this-option-5" />Miksi käyttää tätä asetusta
 
 Tämän asetuksen avulla voit valita kiinteiden ja "parhaiden" hintojen väliltä.
 

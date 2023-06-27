@@ -55,7 +55,7 @@ Sähköpostin työnkulkusäännöt etsivät viesteistä tiettyjä ehtoja ja tote
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] käsittelee vain jaetun postilaatikon Saapuneet-kansion viestit. Jos sääntö siirtää viestit Saapuneet-kansiosta toiseen kansioon, viestejä ei käsitellä. Lisäksi roskapostikansion viestit ohitetaan.
 
-## <a name="set-up-includeprodshortincludesprodshortmd-to-log-email-messages" />Määritä [!INCLUDE[prod_short](includes/prod_short.md)] -sovellus sähköpostiviestien kirjaamista varten
+## <a name="set-up--to-log-email-messages" />Määritä [!INCLUDE[prod_short](includes/prod_short.md)] -sovellus sähköpostiviestien kirjaamista varten
 
 Aloita sähköpostien kirjaaminen seuraavien kahden helpon vaiheen avulla:
 
@@ -145,14 +145,14 @@ Jos Azure Active Directorya ei käytetä käyttäjätietojen ja käyttöoikeuksi
 
 ## <a name="to-change-the-user-account-used-for-email-logging" />Sähköpostin lokiinkirjauksessa käytetyn käyttäjätilin vaihtaminen
 
-### <a name="includeprodshortincludesprodshortmd-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Online
+### <a name="-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 1. Kirjaudu sisään kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)] tilillä, jonka avulla aikataulutettu projekti muodostaa yhteyden jaettuun postilaatikkoon ja käsittelee sähköpostiviestit tilin avulla. Tällä tilillä täytyy olla sekä [!INCLUDE[prod_short](includes/prod_short.md)]- että Exchange Online-oikeudet.
 2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sähköpostin lokiinkirjaus** ja valitse sitten vastaava linkki. 
 3. Valitse **Aiheeseen liittyvät** ja sitten **Työjonotapahtuma**.
 4. Käynnistä **Sähköpostin lokiinkirjaus** -työ uudelleen.
 
-### <a name="includeprodshortincludesprodshortmd-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] On-Premises
+### <a name="-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] On-Premises
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sähköpostin lokiinkirjaus** ja valitse sitten vastaava linkki.
 2. Valitse **Toiminnot** ja sitten **Uudista tunnus**.

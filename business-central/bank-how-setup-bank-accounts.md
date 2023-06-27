@@ -230,7 +230,7 @@ Kun olet luonut uuden pankkitilin, luo myös uusi pankin kirjausryhmä ja määr
 
 Jos haluat tarkastella käteistilejäsi tarkemmin taloudellisessa raportoinnissa, käytä **Alkusumma**- ja **Loppusumma**-tilejä tilikartassasi, **Summausväli**-rivejä taloudellisissa raporteissa tai KP-tililuokkia. Lisätietoja on kohdassa [Liiketoimintatiedot ja Financial Reporting](bi.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

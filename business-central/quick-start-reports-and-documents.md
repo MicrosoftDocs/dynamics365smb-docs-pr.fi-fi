@@ -64,7 +64,7 @@ Luotu raporttitiedosto tallentuu automaattisesti selaimen latauskansioon.
 
 Lisätietoja raporttien ja asiakirjojen mukauttamisesta liiketoimintatarpeisiin kohdassa [Raportti- ja asiakirja-asettelut](ui-manage-report-layouts.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleswork-with-reports" />Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/work-with-reports/).
+## <a name="see-related-training-at-microsoft-learn" />Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/work-with-reports/).
 
 ## <a name="see-also" />Katso myös
 

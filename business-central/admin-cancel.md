@@ -10,7 +10,7 @@ ms.search.keywords: 'remove, delete'
 ms.date: 06/08/2022
 ms.author: edupont
 ---
-# <a name="unsubscribe-or-remove-includeprodshortincludesprodshortmd" />[!INCLUDE[prod_short](includes/prod_short.md)]in tilauksen peruuttaminen tai poistaminen
+# <a name="unsubscribe-or-remove-" />[!INCLUDE[prod_short](includes/prod_short.md)]in tilauksen peruuttaminen tai poistaminen
 
 Jos haluat lopettaa [!INCLUDE[prod_short](includes/prod_short.md)]:n käytön, voit sulkea tilisi tai pyytää poistamaan käyttöoikeuden tilistäsi. Suoritettavat vaiheet ovat erilaisia, jos käytössäsi maksuton kokeilu tai jos sinulla on tilaus.  
 
@@ -23,7 +23,7 @@ Jos haluat päättää tilauksen, järjestelmänvalvojan on poistettava tilaus M
 
 Voit lukea tietojen viemisestä Exceliin kohdasta [Tietojen vienti muihin rahoitusjärjestelmiin](about-export-data.md#exporting-data-to-other-finance-systems). Jos haluat mieluummin viedä kaikki tiedot Azure Storage -konttiin, Microsoft 365 -järjestelmänvalvoja voi tehdä sen hallintakeskuksessa. Lisätietoja on kohdassa [Tietokantojen vieminen hallintakeskuksessa](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export).  
 
-## <a name="removing-includeprodshortincludesprodshortmd-from-your-app-launcher" />[!INCLUDE[prod_short](includes/prod_short.md)]in poistaminen sovellusten käynnistysohjelmasta
+## <a name="removing--from-your-app-launcher" />[!INCLUDE[prod_short](includes/prod_short.md)]in poistaminen sovellusten käynnistysohjelmasta
 
 Jos haluat piilottaa [!INCLUDE[prod_short](includes/prod_short.md)]in sovellusten käynnistysohjelmalta, voit poistaa sen kiinnityksen. Tietoja ei menetetä, eikä tämä vaihe peruuta tilaustasi.  
 

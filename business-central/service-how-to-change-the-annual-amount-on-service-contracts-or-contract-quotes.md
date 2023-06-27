@@ -75,7 +75,7 @@ Jos huoltosopimuksen tai sopimustarjouksen vuosittaista summaa muutetaan, voidaa
 
 Vaiheet toistetaan kullekin sopimusriville.  
 
-#### <a name="example" />Esimerkki
+#### <a name="example-1" />Esimerkki
 Huoltosopimuksen **Salli epätäsmäävät summat**-kentässä ei ole valintamerkkiä, ja sopimus sisältää kolme sopimusriviä, joilla on seuraavat tiedot:  
 
 |Nimike|Rivikustannus|Rivin arvo|Rivialennus-%|Rivin alennussumma|Rivisumma|Tuotto|  
@@ -113,7 +113,7 @@ Jos huoltosopimuksen tai sopimustarjouksen vuosittaista summaa muutetaan, voidaa
     * Rivialennus-% = Rivin alennussumma / Rivin arvo * 100.  
     * Tuotto = Rivisumma - Rivikustannus.  
 
-#### <a name="example" />Esimerkki
+#### <a name="example-2" />Esimerkki
 Huoltosopimuksen **Salli epätäsmäävät summat**-valintaruutua ei ole valittu, ja sopimus sisältää kolme sopimusriviä, joilla on seuraavat tiedot:  
 
 |Nimike|Rivikustannus|Rivin arvo|Rivialennus-%|Rivin alennussumma|Rivisumma|Tuotto|  

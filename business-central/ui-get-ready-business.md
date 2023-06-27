@@ -71,7 +71,7 @@ Kun käyttäjät on luotu Microsoft 365:ssä, heidät voidaan tuoda **Käyttäj�
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Lisätietoja on kohdassa [Ohje- ja tukiresurssit](product-help-and-support.md).  
 
-### <a name="set-up-your-company-in-includeprodshortincludesprodshortmd" />Määritä oma yritys [!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisussa
+### <a name="set-up-your-company-in-" />Määritä oma yritys [!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisussa
 
 [Pika-aloituksen](quick-start-business-central.md) artikkelien avulla voit ottaa ensimmäiset askelet [!INCLUDE [prod_short](includes/prod_short.md)]in käyttöönotossa organisaatiollesi. [!INCLUDE [prod_short](includes/prod_short.md)]issa **Asetusten ohjattu määritys** -sivulla on luettelo oppaista, jotka voivat auttaa. Sivulla näkyvät roolin ja maan tai alueen mukaan erilaiset asetusten ohjatun määrityksen oppaat seuraavan taulukon mukaisesti:
 
@@ -112,6 +112,6 @@ Voit jatkaa luomalla uusia myynti- tai ostoasiakirjoja siirrettyjen tietojen per
 [Siirrä tiedot](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Kokeilut ja tilaukset](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

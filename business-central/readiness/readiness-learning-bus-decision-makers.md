@@ -13,13 +13,13 @@ Päätätkö sinä investoidaanko uusiin teknologioihin?
 
 Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja perustiedoista kaikkein kehittyneimpiin. Jos sisältöä on useissa muodoissa, ilmoitamme siitä sinulle, jotta voit valita tarpeitasi parhaiten vastaavan koulutusmuodon.  
 
-## <a name="business-valuea-namebusvaluea" />Liiketoiminta-arvo<a name="busvalue"></a>
+## <a name="business-value" />Liiketoiminta-arvo<a name="busvalue"></a>
 
 | Sisältö                                                                 | Kuvaus                                                                                                | Muoto                                | Pituus     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | Tämä moduuli näyttää sovelluksen ominaisuudet, hyödyt ja esimerkit Dynamics 365 Business Centralista käytännössä. | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 24 minuuttia |
 
-## <a name="getting-starteda-nameget-starteda" />Käytön aloittaminen<a name="get-started"></a>
+## <a name="getting-started" />Käytön aloittaminen<a name="get-started"></a>
 
 | Sisältö                                                                                                                             | Kuvaus                                                                                                                                                                                                                                                                                      | Muoto                                | Pituus             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|

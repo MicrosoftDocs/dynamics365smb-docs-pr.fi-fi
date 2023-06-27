@@ -11,7 +11,7 @@ ms.date: 09/07/2022
 ms.author: jswymer
 ---
 
-# <a name="building-power-bi-reports-to-display-include-prodlongincludesprodlongmd-data" />Power BI -raporttien luominen näyttämään [!INCLUDE [prod_long](includes/prod_long.md)] -tietoja
+# <a name="building-power-bi-reports-to-display--data" />Power BI -raporttien luominen näyttämään [!INCLUDE [prod_long](includes/prod_long.md)] -tietoja
 
 Voit määrittää [!INCLUDE[prod_long](includes/prod_long.md)]in tiedot käytettäviksi Power BI Desktop:n tietolähteenä ja tehokkaiden liiketoiminnan tilasta kertovien raporttien luomista varten.
 
@@ -46,7 +46,7 @@ Tässä artikkelissa käsitellään Power BI Desktopin käytön aloittamista luo
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="a-namegetdataaadd-includeprodshortincludesprodshortmd-as-a-data-source-in-power-bi-desktop" /><a name="getdata"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in lisääminen Power BI Desktopin tietolähteeksi
+## <a name="add--as-a-data-source-in-power-bi-desktop" /><a name="getdata"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in lisääminen Power BI Desktopin tietolähteeksi
 
 Raporttien luomisen ensimmäinen tehtävä on [!INCLUDE[prod_short](includes/prod_short.md)]in lisääminen Power BI Desktopin tietolähteeksi. Raportin luonnin voi aloittaa, kun yhteys on muodostettu.
 
@@ -108,7 +108,7 @@ Raportit on tärkeä luoda sellaisiksi, että mahdollisimman moni henkilö voi k
 
 Voit luoda [!INCLUDE [prod_short](includes/prod_short.md)] -luettelosivun tietoruudussa näytettäviä raportteja. Raporteissa voi olla tietoja luettelossa valitusta tietueesta. Vaikka näiden raporttien luominen muistuttaa muiden raporttien luontia, raporttien näkyminen odotetusti edellyttää muutamia toimintoja. Lisätietoja on kohdassa [Power BI -raporttien luominen näyttämään luettelotietoja [!INCLUDE[prod_short](includes/prod_short.md)]issa](across-how-use-powerbi-reports-factbox.md).
 
-## <a name="a-namethemeausing-the-include-prodshortincludesprodshortmd-report-theme-optional" /><a name="theme"></a>[!INCLUDE [prod_short](includes/prod_short.md)] -raportin teeman käyttäminen (valinnainen)
+## <a name="using-the--report-theme-optional" /><a name="theme"></a>[!INCLUDE [prod_short](includes/prod_short.md)] -raportin teeman käyttäminen (valinnainen)
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -teematiedosto kannattaa ladata ja tuoda ennen raportin luontia. Teematiedosto luo värivalikoiman, jonka avulla voit luoda raportteja samalla värityylillä kuin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksissa ilman, että kunkin visuaalisen ominaisuuden mukautetut värit on määritettävä erikseen.
 
@@ -180,7 +180,7 @@ Helmikuusta 2022 alkaen uudet Business Central -tietoja käyttävät raportit mu
 9. Valitse **Valmis**.
 10. Tallenna muutokset ja sulje Power Query Editor valitsemalla valintanauhasta **Sulje ja käytä**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

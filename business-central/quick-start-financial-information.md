@@ -79,7 +79,7 @@ Pankkitilit [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa rekister�
    Kenttä eroaa **pankkitilin nro** -kentästä, joka on käytettävissä myös **Yleinen**-pikavälilehdessä.
 4. Täytä **Pankkitilikortti**-sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics-365-business-central" />Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn" />Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
 
 ## <a name="see-also" />Katso myös
 

@@ -29,7 +29,7 @@ Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riv
    Uuden työnkulun avautuvalla **Työnkulku**-sivulla on kaikki valitun mallin tiedot. **Koodi**-kentän arvoon liitetään esimerkiksi ”-01”, joka osoittaa, että kyseessä on ensimmäinen työnkulkumallista luotu työnkulku.  
 4. Jatka työnkulun luontia muokkaamalla työnkulun vaiheita tai lisäämällä uusia vaiheita. Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Katso myös
 

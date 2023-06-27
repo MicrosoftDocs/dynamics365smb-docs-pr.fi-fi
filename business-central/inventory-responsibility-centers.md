@@ -49,7 +49,7 @@ Määritä tämä määrittämällä vastuupaikat käyttäjille kolmella toimint
 > [!NOTE]  
 > Käyttäjät voivat tarkastella vain omaan vastuukeskukseensa liittyviä kirjattuja asiakirjoja. He voivat kuitenkin tarkastella kaikkia kirjapintotapahtuma ja siirtyä muihin kirjattuihin asiakirjoihin kirjanpitotapahtumista.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-responsibility-centers" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-responsibility-centers/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-responsibility-centers/)
 
 ## <a name="see-also" />Katso myös
 

@@ -62,7 +62,7 @@ Voit poistaa profiilin yksittäisen sivun mukautukset. Laajennukseen perustuvia 
 
 Valitun sivun asettelu muutetaan vastaamaan tekemiäsi muutoksia.
 
-## <a name="see-related-microsoft-trainingtrainingpathstailor-roles-design-ui" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/tailor-roles-design-ui/)
 
 ## <a name="see-also" />Katso myös
 

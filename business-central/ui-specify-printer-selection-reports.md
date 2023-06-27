@@ -11,7 +11,7 @@ ms.search.form: '2650, 2750, 2752, 2753, 2754, 8900,'
 ms.date: 02/09/2023
 ms.author: jswymer
 ---
-# <a name="a-namedefaultaspecify-a-default-printer" /><a name="default"></a>Oletuskirjoittimen määrittäminen
+# <a name="specify-a-default-printer" /><a name="default"></a>Oletuskirjoittimen määrittäminen
 
 Kun tulostimet on määritetty Business Centralin avulla, voit määrittää, mitä tulostinta haluat käyttää oletusarvoisesti. Raporteissa ja muissa tulostustöissä oletusarvoisesti käytettävät tulostimet voidaan määrittää muutamalla eri tavalla. Oletustulostin on kätevä, jos käytössä on raportteja, joissa on käytettävä eri tulostinta sen vuoksi, miten ne on sijoitettu yrityksessä tai mitä tulostusominaisuuksia niissä on.
 

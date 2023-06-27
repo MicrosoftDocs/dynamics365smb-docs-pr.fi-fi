@@ -63,7 +63,7 @@ On olemassa useita pikanäppäimiä, joiden avulla voit työskennellä "hiirett�
 
 Lisätietoja pikanäppäimissä on kohdassa [Pikanäppäimet](keyboard-shortcuts.md). Tässä artikkelissa käsitellään muutamia pikanäppäimiä.
 
-## <a name="a-namequickentryaaccelerating-data-entry-using-quick-entry" /><a name="QuickEntry"></a>Tietojen syöttämisen helpottaminen pikatapahtuman avulla
+## <a name="accelerating-data-entry-using-quick-entry" /><a name="QuickEntry"></a>Tietojen syöttämisen helpottaminen pikatapahtuman avulla
 
 Pikatapahtuma on näppäimistön avulla tapahtuvaa tietojen antamista varten suunniteltu ominaisuus. Pikatapahtumia voi käyttää kentissä (kuten korttisivuilla) ja luetteloissa (rivit ja sarakkeet). Se on hyödyllistä, kun teet toistuvia kirjoitustehtäviä, jotka edellyttävät monen tietueen luomista peräkkäin. Esimerkkeinä mainittakoon myyntitilausten erä tai uusien nimikkeiden rekisteröinti.
 
@@ -125,7 +125,7 @@ Aloita suodatus valitsemalla ![Suodatusruudun kuvake](media/open-filter-pane-ico
 
 Suodatuksesta on apua erityisesti silloin, kun tarkasteltava ja analysoitava asiakirja on pitkä. Kuvittele, että avaat kirjatun myyntilaskun. Sen jälkeen voit suodattaa rivinimikkeet niin, että ne näyttävät kaikki rivinimikkeet, joiden yksittäinen alennus on yli 5 %. Voit myös suodattaa näyttämään vain polkupyörätarvikkeet, joiden nimessä on "Pro".
 
-## <a name="a-namefocusafocusing-on-line-items" /><a name="Focus"></a>Kohdistaminen rivinimikkeisiin
+## <a name="focusing-on-line-items" /><a name="Focus"></a>Kohdistaminen rivinimikkeisiin
 
 Jos käsiteltävissä asiakirjoissa on rivinimikeosia, voit siirtää kohdistuksen vain rivinimikkeisiin. Esimerkkiasiakirjat ovat myyntitilaus- tai laskusivuja. Rivinimikkeet-osa laajenee niin, että se peittää lähes koko työtilan. Se piilottaa sivun muut osat paitsi toiminnot-alueen yläosassa. Saat tällä sijoittelulla hyvän yleiskuvan rivinimikkeistä, ja sinulla on enemmän tilaa niiden käsittelemiseen.
 
@@ -266,7 +266,7 @@ Seuraavassa on muutamia esimerkkejä:
 
  Numero 5 muunnetaan 5 tunniksi, jos mittayksikkö on tunti.  
 
-## <a name="a-namedecimalasetting-the-decimal-separator-used-by-numeric-keyboards" /><a name="decimal"></a>Numeeristen näppäimistöjen käyttämän desimaalierottimen asettaminen
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards" /><a name="decimal"></a>Numeeristen näppäimistöjen käyttämän desimaalierottimen asettaminen
 
 Kun syötät tietoja numeronäppäimistön <kbd>desimaalierottimen</kbd> avulla, kenttään syötetty todellinen desimaali erotin määräytyy Business Centralin alueasetuksen mukaan. Useimmat alueet käyttävät piste (.)- tai pilkku (,) -symbolia desimaaliarvojen erottimena, kuten tavallisesti valuuttasummissa. Näppäimistön desimaalinäppäin mukautuu alueeseen. Se on usein eri kuin muun näppäimistön piste- tai pilkkunäppäimet. Määritä alue Business Centralin **Omat asetukset** -sivulla.
 
@@ -275,7 +275,7 @@ Oletetaan esimerkiksi, että käytät numeronäppäimistöä, joka käyttää pi
 > [!TIP]
 > Joskus voi olla tarpeen käyttää desimaalierotinta pisteen (.) syöttämiseen. Oletetaan esimerkiksi, että syötät päivämäärävälin suodattimeen, esimerkiksi `01/01/2022..04/01/2022`tai mikä tahansa, joka edellyttää pistettä. Tämän mahdollistamiseksi valitse numeronäppäimistön <kbd>Alt</kbd>+<kbd>desimaalierotin</kbd>-näppäimiä. Tämä näppäinyhdistelmä vaihtaa desimaalierottimen pisteen syöttämisen ja **Alue**-asetuksessa määritetyn desimaalierottimen välillä.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

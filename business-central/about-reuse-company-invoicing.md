@@ -10,7 +10,7 @@ ms.search.keywords: 'Invoicing, Microsoft 365'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="use-the-same-microsoft-365-account-in-includeprodshortincludesprodlongmd-and-microsoft-invoicing" />Saman Microsoft 365 -tilin käyttäminen [!INCLUDE[prod_short](includes/prod_long.md)]issa ja Microsoft Invoicingissa
+# <a name="use-the-same-microsoft-365-account-in--and-microsoft-invoicing" />Saman Microsoft 365 -tilin käyttäminen [!INCLUDE[prod_short](includes/prod_long.md)]issa ja Microsoft Invoicingissa
 Kun rekisteröidyt [!INCLUDE[prod_short](includes/prod_short.md)]:n kokeiluversioon, voit siirtyä 30 päivän arviointivaiheeseen, aloittaa tilauksen tai lopettaa [!INCLUDE[prod_short](includes/prod_short.md)]:n käytön. Joka tapauksessa, olet ehkä jossain vaiheessa nähnyt jotain, jonka nimi on **Microsoft Invoicing**, ja napsauttanut sitä. Tämä oli sovellus, joka oli osa sitä, mikä nyt Microsoft 365 Business Standard ja tunnettiin aiemmin nimellä Microsoft 365 Business Premium Subscription, joten kaikki eivät ole nähneet sen ruutua Microsoft 365 -kokemuksessaan.  
 
 Microsoft Invoicingia ei ole enää saatavilla, mutta jos sinun täytyy kirjautua sisään laskutukseen tietojen hakemista varten, saatat nähdä viestin, että Microsoft Invoicingia ei voi käyttää, koska tiliäsi käytetään [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa.  

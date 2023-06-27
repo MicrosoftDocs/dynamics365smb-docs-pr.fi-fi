@@ -29,7 +29,7 @@ Ennen yhteyden luomista tarvitaan seuraavat tiedot:
 > Seuraavat vaiheet koskevat [!INCLUDE[prod_short](includes/prod_short.md)] online -versiota.
 > Jos käytössä [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versiota eikä Azure Active Directory -tiliä käytetä muodostamaan yhteyttä [!INCLUDE [cds_long_md](includes/cds_long_md.md)]en, integrointia varten on määritettävä käyttäjätilin käyttäjänimi ja salasana. Tätä tiliä kutsutaan integroinnin käyttäjän tiliksi. Azure Active Directory -tiliä käytettäessä integroinnin käyttäjän tiliä ei tarvita eikä sitä näytetä. Integroinnin käyttäjä määritetään automaattisesti, eikä sitä varten tarvita käyttöoikeutta.
 
-## <a name="set-up-a-connection-to-includecdslongmdincludescdslongmdmd" />Määritä yhteys tuotteeseen [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+## <a name="set-up-a-connection-to-" />Määritä yhteys tuotteeseen [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 Microsoft 365 -todennustyyppiä lukuun ottamatta [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteys määritetään kaikissa todennustyypeissä **Dataverse -yhteyden määritys** -sivulla. Microsoft 365 -todennuksessa on suositeltavaa käyttää **Dataverse-yhteyden määrityksen asetusten** ohjattua määritysopasta. Opas auttaa määrittämään nopeasti yhteyden ja lisäominaisuudet, kuten omistajamallin ja ensimmäisen synkronoinnin.  
 
@@ -206,7 +206,7 @@ Seuraavissa vaiheissa oletetaan, käyttäjätietojen ja käyttöoikeuksien halli
    > [!NOTE]
    > Jos sinua ei pyydetä käyttämään kirjautumiseen järjestelmänvalvojan tiliä, syynä on luultavasti estetyt ponnahdusikkunat. Kirjautumista varten on sallittava ponnahdusikkunat osoitteesta `https://login.microsoftonline.com`.
 
-### <a name="to-disconnect-from-includecdslongmdincludescdslongmdmd" />[!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteyden katkaiseminen
+### <a name="to-disconnect-from-" />[!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteyden katkaiseminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Dataverse-yhteyden määritys** ja valitse sitten vastaava linkki.
 2. Poista käytöstä **Dataverse -yhteyden määritys** -sivulla **Käytössä**-valitsin.  

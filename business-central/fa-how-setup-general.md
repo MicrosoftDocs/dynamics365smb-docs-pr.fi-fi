@@ -123,7 +123,7 @@ Jos käytät käyttöomaisuutta ensimmäistä kertaa [!INCLUDE[prod_short](inclu
 
 Jos käyttöomaisuutta ei ole integroitu käyttöomaisuuden kanssa, ohita työvaiheet 6 ja 8.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also" />Katso myös
 

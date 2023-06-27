@@ -16,7 +16,7 @@ ms.author: bholtorf
 
 Tässä artikkelissa vastataan joihinkin kysymyksiin, joita sinulla voi olla, kun käytössä on OneDrive ja [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="does-this-work-with-all-includeprodshortincludesprodshortmd-clients" />Toimiiko tämä kaikkien [!INCLUDE[prod_short](includes/prod_short.md)] -asiakasohjelmien kanssa?
+## <a name="does-this-work-with-all--clients" />Toimiiko tämä kaikkien [!INCLUDE[prod_short](includes/prod_short.md)] -asiakasohjelmien kanssa?
 
 Kyllä. Voit avata tiedostoja OneDrivessa [!INCLUDE[prod_short](includes/prod_short.md)] -mobiilisovelluksista, kun tarkastelet kortin tietoja Microsoft Teamsissa tai myös Outlook-apuohjelmasta.  
 
@@ -24,7 +24,7 @@ Kyllä. Voit avata tiedostoja OneDrivessa [!INCLUDE[prod_short](includes/prod_sh
 
 Microsoft 365 -tilauksen osana organisaatiosi tarjoaa sinulle OneDriven, tiedostojen tallennuksen pilvipalveluun. OneDrive on yksityinen oletusarvon mukaan, ja siellä voit järjestellä sisältöä ja valita mitkä tiedostot ja kansiot jaetaan ja kenelle ne jaetaan. SharePoint puolestaan tarjoaa pilvipalvelussa tiedostosäilön, joka jaetaan muiden organisaation käyttäjien kanssa.  
 
-## <a name="does-includeprodshortincludesprodshortmd-support-consumer-onedrive" />Tukeeko [!INCLUDE[prod_short](includes/prod_short.md)] OneDriven kuluttajaversiota?
+## <a name="does--support-consumer-onedrive" />Tukeeko [!INCLUDE[prod_short](includes/prod_short.md)] OneDriven kuluttajaversiota?
 
 Ei. Tämä integrointi on tarkoitettu ainoastaan OneDrive for Businessille, ja se tukee vain työtiliäsi. 
 
@@ -36,15 +36,15 @@ Ei. Tämä integrointi on tarkoitettu ainoastaan OneDrive for Businessille, ja s
 
 Järjestelmänvalvojat voivat käyttää palvelun kunnon koontinäyttöä osana Microsoft 365 -hallintakeskusta. Koontinäyttö sisältää OneDrive-palvelun käytettävyyden. Siirry kohteeseen [https://admin.microsoft.com/Adminportal/Home?#/servicehealth](https://admin.microsoft.com/Adminportal/Home?#/servicehealth).
  
-## <a name="is-onedrive-integration-available-to-includeprodshortincludesprodshortmd-on-premises" />Onko OneDrive-integrointi saatavilla [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versioon?
+## <a name="is-onedrive-integration-available-to--on-premises" />Onko OneDrive-integrointi saatavilla [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versioon?
 
 Kyllä, mutta toisin kuin [!INCLUDE[prod_short](includes/prod_short.md)] online, se vaatii lisäasetuksia. Lisätietoja on kohdassa [Business Central on-premises -version määritys](admin-onedrive-integration-onpremises.md).  
 
-## <a name="does-includeprodshortincludesprodshortmd-on-premises-connect-with-sharepoint-server" />Onko [!INCLUDE[prod_short](includes/prod_short.md)] on-premises yhteydessä SharePoint Serveriin?
+## <a name="does--on-premises-connect-with-sharepoint-server" />Onko [!INCLUDE[prod_short](includes/prod_short.md)] on-premises yhteydessä SharePoint Serveriin?
 
 Nro Tätä käyttöönottoyhdistelmää ei tueta, vaikka SharePoint Server olisi sallinut Omat sivustot.  
 
-## <a name="does-includeprodshortincludesprodshortmd-online-connect-with-sharepoint-server" />Onko [!INCLUDE[prod_short](includes/prod_short.md)] online yhteydessä SharePoint Serveriin?
+## <a name="does--online-connect-with-sharepoint-server" />Onko [!INCLUDE[prod_short](includes/prod_short.md)] online yhteydessä SharePoint Serveriin?
 
 Nro Tätä käyttöönottoyhdistelmää ei tueta, vaikka SharePoint Server olisi sallinut Omat sivustot.  
 
@@ -56,7 +56,7 @@ Integrointi olettaa, että yritysten nimet ovat yksilöllisiä eri [!INCLUDE[pro
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ei siirrä aiemmin OneDrivessa avattuja tiedostoja uuteen kansioon automaattisesti. Kun olet nimennyt yrityksen uudelleen, Avaa OneDrivessa -toiminto kopioi tiedostot kansioon, jossa on yrityksen uusi nimi.   
 
-## <a name="when-attaching-files-to-includeprodshortincludesprodshortmd-how-do-i-pick-a-file-from-onedrive" />Kun liität tiedostoja [!INCLUDE[prod_short](includes/prod_short.md)]iin, miten valitsen tiedoston OneDrivesta?
+## <a name="when-attaching-files-to--how-do-i-pick-a-file-from-onedrive" />Kun liität tiedostoja [!INCLUDE[prod_short](includes/prod_short.md)]iin, miten valitsen tiedoston OneDrivesta?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ei tarjoa pilvitiedostojen valitsinta. Tiedosto on ladattava OneDrivesta laitteeseen ja sitten ladattava [!INCLUDE[prod_short](includes/prod_short.md)]iin. 
 
@@ -72,11 +72,11 @@ Suorita **OneDrive-määrityksen** asetusten ohjattu määritysopas ja poista **
 
 Tämä on vanha ominaisuus, jossa kaikkien käyttäjien kaikki [!INCLUDE[prod_short](includes/prod_short.md)]-tiedostot lähetetään yhteen SharePoint-kansioon. Suosittelemme, että et määritä jaetut asiakirjat -pikavälilehteä **SharePoint-yhteyden asetus** -sivulla, koska tämä sivu on [vanhentunut](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup) ja poistetaan vuoden 2023 julkaisuaalto 2:ssa, versiossa 23.0.  Sen sijaan kannattaa käyttää **OneDrive-määritystä**.  
 
-## <a name="which-version-of-includeprodshortincludesprodshortmd-supports-onedrive" />Mikä [!INCLUDE[prod_short](includes/prod_short.md)]-versio tukee OneDrivea?
+## <a name="which-version-of--supports-onedrive" />Mikä [!INCLUDE[prod_short](includes/prod_short.md)]-versio tukee OneDrivea?
 
 Integrointi OneDriven kanssa tuli saataville vuoden 2021 2. julkaisuaallossa.  
 
-## <a name="a-namefeaturesawhich-features-are-affected-by-onedrive-integration" /><a name="features"></a>Mihin ominaisuuksiin OneDrive-integrointi vaikuttaa?
+## <a name="which-features-are-affected-by-onedrive-integration" /><a name="features"></a>Mihin ominaisuuksiin OneDrive-integrointi vaikuttaa?
 
 OneDrive-integraation määrittämisen **OneDrive-määrityksen**-asetusten ohjatussa määrityksessä voit ottaa käyttöön tai poistaa käytöstä ominaisuuksia Business Central -tiedostojen käsittelyä varten OneDrivessa. Ominaisuudet on jaettu kahden vaihtoehdon välillä:
 

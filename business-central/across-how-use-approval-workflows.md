@@ -78,7 +78,7 @@ Sinun on säännöllisin väliajoin muistutettava hyväksynnän työnkulun käyt
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Erääntyneet hyväksymispyynnöt** ja valitse sitten vastaava linkki.
 2. Valitse **Myöhässä olevat hyväksyntäpyynnöt** -sivulla **Lähetä erääntyneiden hyväksyntöjen ilmoitukset** -toiminto.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-approval-workflows" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also" />Katso myös
 

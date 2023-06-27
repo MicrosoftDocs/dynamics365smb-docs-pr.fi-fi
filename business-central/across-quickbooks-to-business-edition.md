@@ -31,7 +31,7 @@ Lue lisää QuickBooks-sovellukseen sopivasta laajennuksesta:
 
 Jos olet valmis aloittamaan nyt, valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asetusten ohjattu määritys** ja valitse sitten vastaava linkki. Valitse **Siirrä liiketoimintatiedot** ja noudata oppaan ohjeita.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/migrate-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

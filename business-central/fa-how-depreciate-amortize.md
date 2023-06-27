@@ -115,7 +115,7 @@ Tapahtumia voidaan kopioida poistokirjasta toiseen käyttämällä **Kopioi pois
 
 Kopioidut rivit luodaan joko käyttöomaisuuden KP-päiväkirjassa tai käyttöomaisuuspäiväkirjassa sen mukaisesti, onko kopioitava poistokirja integroitu pääkirjanpitoon.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescalculate-post-depreciations" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/calculate-post-depreciations/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/calculate-post-depreciations/)
 
 ## <a name="see-also" />Katso myös
 

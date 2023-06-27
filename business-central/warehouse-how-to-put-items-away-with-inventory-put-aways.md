@@ -83,7 +83,7 @@ Varastotyöntekijä voi luoda uuden varaston hyllytyksen vapautetun lähdeasiaki
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-put-away-items" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/receive-put-away-items/)
 
 ## <a name="see-also" />Katso myös
 

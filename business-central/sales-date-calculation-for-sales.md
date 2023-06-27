@@ -36,7 +36,7 @@ Jos et ole määrittänyt pyydettyä toimituspäivämäärää myyntitilausrivil
 - *Suunniteltu toimituspvm = lähtevä f.var. käsittelyaika + toimituspäivä*
 - *suunniteltu lähetyspvm + toimitusaika = suunniteltu toimituspvm*
 
-## <a name="see-related-microsoft-trainingtrainingmodulespromising-sales-order-delivery-dynamics-365-business-central" />Lisätietoja on kohdassa [Microsoftin koulutukset](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Lisätietoja on kohdassa [Microsoftin koulutukset](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/).
 
 ## <a name="see-also" />Katso myös
 

@@ -158,7 +158,7 @@ Voit määrittää kustannusten muutoksen automaattiseksi varastotapahtuman kirj
 
 Tämä valinta, jonka teet **Automaattinen kustannusten muuttaminen** -kentässä, on tärkeä kustannusten suorituskyvylle ja tarkkuudelle. Lyhyemmät ajanjaksot, kuten **Päivä** tai **Viikko**, vaikuttavat järjestelmän toimintaan vähemmän, koska niillä on tiukemmat vaatimukset, joka maksaa vain, kun se on annettu edellisenä päivänä, tai viikkoa voidaan säätää automaattisesti. Tämä tarkoittaa, että automaattista kustannusten muuttamista ei suoriteta yhtä usein. Tämän vuoksi se vaikuttaa järjestelmän suorituskykyyn vähemmän. Tämä tarkoittaa kuitenkin myös sitä, että yksikkökustannukset voivat olla vähemmän tarkkoja.  
 
-### <a name="example" />Esimerkki
+### <a name="example-1" />Esimerkki
 
 Seuraavassa esimerkissä kuvataan automaattinen kustannusten sopeuttamisskenaario:  
 

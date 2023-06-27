@@ -147,7 +147,7 @@ Tämä toiminto on saatavilla pian. Helmikuusta 2022 lähtien uudet Business Cen
 
 Jos sinulla on vanhoja Business Central -tietoihin perustuvia raportteja, ne eivät muodosta yhteyttä vain luku -tyyppisiin tietokantareplikoihin.
 
-### <a name="a-namedatabasemodsaive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it" /><a name="databasemods"></a>Olen kokeillut helmikuun 2022 päivityksen uuden yhdistimen esikatselua. Kun muodostan yhteyden mukautettuun Business Central -ohjelmointirajapintasivuun, näkyviin tulee virhe Tietuetta ei voi lisätä. Nykyinen yhteystarkoitus on vain luku -muodossa.". Miten voin korjata asian?
+### <a name="ive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it" /><a name="databasemods"></a>Olen kokeillut helmikuun 2022 päivityksen uuden yhdistimen esikatselua. Kun muodostan yhteyden mukautettuun Business Central -ohjelmointirajapintasivuun, näkyviin tulee virhe Tietuetta ei voi lisätä. Nykyinen yhteystarkoitus on vain luku -muodossa.". Miten voin korjata asian?
 
 Uuden yhdistimen myötä uudet Business Central -tietoja käyttävät raportit muodostavat oletusarvoisesti yhteyden Business Central -tietokannan replikaan. Tämä muutos parantaa suorituskykyä. Joissakin harvoissa tapauksissa se voi kuitenkin aiheuttaa virheen. Tämä virhe johtuu yleensä siitä, että mukautettu ohjelmointirajapinta tekee muutoksia Business Central -tietueisiin, kun Power BI yrittää noutaa kyseisiä tietoja. Erityisesti virhettä esiintyy osana AL-käynnistimiä: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord ja OnAfterGetCurrRecord.
 
@@ -182,7 +182,7 @@ In general, we recommend avoiding any database modifications in API pages when t
 10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
 
 -->
-### <a name="a-namepermsahow-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop" /><a name="perms"></a>Miten muutan tai tyhjennän käyttäjän, jota tällä hetkellä käytän yhteyden muodostamiseen Business Centraliin Power BI Desktopista?
+### <a name="how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop" /><a name="perms"></a>Miten muutan tai tyhjennän käyttäjän, jota tällä hetkellä käytän yhteyden muodostamiseen Business Centraliin Power BI Desktopista?
 
 Tee Power BI Desktopissa seuraavat vaiheet:
 
@@ -237,14 +237,14 @@ Kyllä. Tämä lisäskenaario auttaa Business Centralia pysymään suorituskykyi
 
 Tutkimme tätä ominaisuutta. Power BI sisältää monipuolisia ohjelmointirajapintoja raportin käyttöönottojen hallintaa varten. Lisätietoja on kohdassa [Käyttöönottoputkien esittely](/power-bi/create-reports/deployment-pipelines-overview).
 
-### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-x0020-what-are-these-values" />Kun noudan tietoja Business Centralista käytettäväksi Power BI -raporteissa, näkyviin tulee tämänkaltaisia arvoja: _x0020_. Mitä nämä arvot ovat?
+### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-_x0020_-what-are-these-values" />Kun noudan tietoja Business Centralista käytettäväksi Power BI -raporteissa, näkyviin tulee tämänkaltaisia arvoja: _x0020_. Mitä nämä arvot ovat?
 
 Jotkut ohjelmointirajapintasivut, kuten useimmat API v2.0 -sivut, sisältävät [AL Enum -objekteihin](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums) perustuvia kenttiä. Kentillä, jotka perustuvat AL enum -objekteihin, on oltava yhdenmukaiset ja aina samat nimet. Tällöin raporttien suodattimet toimivat aina &mdash; kielestä ja käyttöjärjestelmästä huolimatta. Tästä syystä AL enum -objekteihin perustuvia kenttiä ei käännetä. Ne myös koodataan, jotta vältetään erikoismerkit, myös välilyönti. Erityisesti jos AL Enum -objektissa on tyhjä vaihtoehto, se arvoksi koodataan _x0020_. Voit pyytää aina Power BI:n tietojen muunnosta, jos haluat näyttää näissä kentissä eri arvoja, esimerkiksi Tyhjä-arvon.
 
 
 ---
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

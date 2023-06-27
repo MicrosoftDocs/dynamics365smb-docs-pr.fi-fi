@@ -59,7 +59,7 @@ Voit myös luoda oman ennakoivan verkkopalvelun **Microsoft Business Central -so
 6. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myynti- ja varastoennusteiden määritys** ja valitse sitten vastaava linkki.  
 7. Laajenna **Yleistä**-pikavälilehti ja täytä sitten API-URL- ja API-avain-kentät.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-sales-inventory-forecast-extension" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-sales-inventory-forecast-extension/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-sales-inventory-forecast-extension/)
 
 ## <a name="see-also" />Katso myös
 

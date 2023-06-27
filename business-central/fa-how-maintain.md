@@ -84,7 +84,7 @@ Voit tutkia kunnossapitokustannuksia myös tarkastelemalla kunnossapitotapahtumi
 2. Täytä tarvittavat kentät.
 3. Valitse **Tulosta**- tai **Esikatsele**-painike.
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-fixed-assets-maintenance-insurances" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/manage-fixed-assets-maintenance-insurances/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/manage-fixed-assets-maintenance-insurances/)
 
 ## <a name="see-also" />Katso myös
 

@@ -66,7 +66,7 @@ Eroa on silloin, kun sinulla on useampia vuokraajia. Toisin kuin [!INCLUDE[prod_
 > [!IMPORTANT]
 > Jos käytät Business Centralin vuoden 2021 julkaisuaaltoa 1 (versio 18) tai sitä vanhempaa versiota, et voi asentaa sovellusta tässä artikkelissa kuvatulla tavalla. Asenna sen sijaan sovellus [Microsoft Storesta ](https://go.microsoft.com/fwlink/?LinkId=734848). Lisätietoja ja ohjeita tämän vanhan sovelluksen asentamisesta: [Business Central -sovelluksen valmistelu ja asennus](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

@@ -28,13 +28,13 @@ Sovelluksen voi mukauttaa useilla eri tavoilla, jotta sinä ja työtoverisi voit
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen käyttäjän dokumentaation kaikkien toimintojen kuvauksissa käsitellään **Premium**-käyttökokemusta. Tämä tarkoittaa sitä, että kuvaukset sisältävät käyttöliittymän kaikki elementit. Tämän vuoksi **Essential**-käyttökokemuksen käyttäjien ohjeaiheissa saatetaan käsitellä toimintoja ja käyttöliittymän elementtejä, jotka eivät ole käytettävissä käyttöliittymässä. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
 
-## <a name="see-related-microsoft-trainingtrainingpathstailor-roles-design-ui" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/tailor-roles-design-ui/)
 
 ## <a name="see-also" />Katso myös
 
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

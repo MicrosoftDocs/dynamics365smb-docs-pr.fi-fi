@@ -242,7 +242,7 @@ Eri vaiheissa tulostettavat raportit voidaan määrittää valitsemalla jokin se
 > [!NOTE]
 > Käytettävissä olevat raportit voivat vaihdella maan lokalisoinnin mukaan. Perussovellus ei sisällä asetteluja.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/adjust-inventory/)
 
 ## <a name="see-also" />Katso myös
 

@@ -30,7 +30,7 @@ Kerro, mitä haluat tehdä -toiminto kerää laajennusten toiminnot, sivut ja ra
 
 Sivuhaku on kehittynyt Kerro, mitä haluat tehdä -toiminnoksi, jonka avulla työskentely on nopeampaa. Sivuhaku auttoi vain sivuihin ja raportteihin siirtymisessä. Teknisesti ottaen Kerro, mitä haluat tehdä ei enää perustu MenuSuite-käsitteeseen.
 
-### <a name="i-use-on-premises-includeprodshortincludesprodshortmd-does-that-include-tell-me" />Käytän paikallista [!INCLUDE[prod_short](includes/prod_short.md)] -sovellusta. Sisältääkö se Kerro, mitä haluat tehdä -toiminnon?
+### <a name="i-use-on-premises--does-that-include-tell-me" />Käytän paikallista [!INCLUDE[prod_short](includes/prod_short.md)] -sovellusta. Sisältääkö se Kerro, mitä haluat tehdä -toiminnon?
 
 Voit käyttää Kerro, mitä haluat tehdä -toimintoa paikallisesti verkkoasiakasohjelmassa, kun haluat etsiä toimintoja, sivuja ja raportteja. Sovelluksia ja konsultointipalveluja ei kuitenkaan voi etsiä sen avulla AppSourcessa.
 

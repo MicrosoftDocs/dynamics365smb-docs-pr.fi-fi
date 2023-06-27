@@ -63,7 +63,7 @@ OneDrive-integrointi on määritetty ympäristöä kohden eli asetuksia käytet�
 
 Voit vaihtaa yksinkertaisesti avaamalla ja suorittamalla **OneDrive-määrityksen** asetusten ohjatun määrityksen suoraan tai avaamalla **SharePoint-yhteysmääritys**-sivun ja valitsemalla sivun yläreunassa olevasta ilmoituksesta **Siirry uusiin OneDrive-asetuksiin**. Noudata edellisessä osassa kuvattuja asennusohjeita.
 
-## <a name="restoring-onedrive-and-includeprodshortincludesprodshortmd" />OneDriven ja [!INCLUDE[prod_short](includes/prod_short.md)]in palauttaminen
+## <a name="restoring-onedrive-and-" />OneDriven ja [!INCLUDE[prod_short](includes/prod_short.md)]in palauttaminen
 
 Osana katastrofitilanteen palauttamisen harjoitusta järjestelmänvalvojat voivat joutua palauttamaan [!INCLUDE[prod_short](includes/prod_short.md)] online -ympäristö aiempaan varmuuskopioon ja synkronoimaan OneDrive-tallennustila samaan ajankohtaan. OneDrive-ohjelmassa on erilaisia palautustyökaluja tähän, kuten käyttäjän OneDriven palauttaminen aiempaan hetkeen, yksittäisen tiedoston aiemman version palauttaminen tai poistettujen tiedostojen palauttaminen. Lisätietoja on seuraavissa artikkeleissa:
 

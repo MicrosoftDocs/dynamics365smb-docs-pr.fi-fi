@@ -52,7 +52,7 @@ Jos haluat aina kirjata kulut, jotka liittyvät tietyn pankin, Mybankin, pankkik
 | --- | --- | --- | --- | --- |
 | MyBank |TYHJÄ |60400|KP-tili |TYHJÄ |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

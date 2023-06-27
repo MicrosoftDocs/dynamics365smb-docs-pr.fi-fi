@@ -116,7 +116,7 @@ Kun käsittelet **Intrastat-raporttia**, asiakirjan otsikossa näkyy **tila**-ke
 * *Vapautettu*: [!INCLUDE[prod_short](includes/prod_short.md)] muuttaa tilaksi automaattisesti *vapautettu*, kun luot tiedoston. Tästä hetkestä lähtien **Intrastat-raporttia** ei voi muuttaa. Jos sinun täytyy muuttaa jotain ja raportoida uudelleen, voit avata Intrastat-raportin uudelleen **avaa uudelleen** -toiminnon avulla. Kun asiakirja on avattu uudelleen, voit vapauttaa asiakirjan uudelleen **vapautus**-toiminnon avulla.
 * **Raportoitu**: Määrittää, onko tapahtumasta jo raportoitu veroviranomaisille. Tämä ei ole tavallinen tila, mutta itsenäinen kenttä, ja vaikka olisit avannut uudelleen Intrastat-raportin, se silti näyttää, että tiedosto on jo luotu tälle raportille.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Lisätietoja aiheeseen liittyvästä koulutuksesta on [Microsoft Learnissa](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Lisätietoja aiheeseen liittyvästä koulutuksesta on [Microsoft Learnissa](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Katso myös
 

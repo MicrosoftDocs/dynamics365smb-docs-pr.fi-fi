@@ -123,7 +123,7 @@ Seuraavassa taulukossa on esimerkkejä kaikkia muotoja käyttävistä päivämä
 |t 23|Käsittelypvm:n vuoden viikon 23 tiistai|
 |t-1|Käsittelypvm:n vuoden viikon 1 tiistai|
 
-## <a name="a-namebkmksettingdaterangesa-setting-ranges" /><a name="BKMK_SettingDateRanges"></a> Alueiden asettaminen
+## <a name="setting-ranges" /><a name="BKMK_SettingDateRanges"></a> Alueiden asettaminen
 
 Luetteloissa, kokonaissummissa ja raporteissa voi määrittää suodattimia päivämäärille, ajoille sekä päivämäärille ja ajoille, joilla on aloitusarvo ja vaihtoehtoisesti lopetusarvo, jolloin näytetään vain kyseisen alueen tiedot. Päivämääräalueiden määrittämisessä käytetään vakiosääntöjä.
 
@@ -222,7 +222,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## <a name="use-date-formulas" />Use Date Formulas
+## <a name="use-date-formulas-1" />Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -345,7 +345,7 @@ Jos haluat nähdä, mitä mittayksikköä kesto-kentässä käytetään, syötä
 
 Jos mittayksikkö on esimerkiksi Tunnit, numero 5 muunnetaan 5 tunniksi.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

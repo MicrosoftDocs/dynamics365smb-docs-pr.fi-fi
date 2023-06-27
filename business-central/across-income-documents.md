@@ -57,7 +57,7 @@ Saapuvien asiakirjojen käsittely voi muodostua seuraavista pääaktiviteeteista
 | **Tilikartta**- ja **Pääkirjanpidon tapahtumat** -sivujen hakutoiminnon avulla voit etsiä pääkirjanpidon tapahtumia kirjatuille asiakirjoille, joilla ei ole saapuvia asiakirjatietueita. Tämän jälkeen voit keskitetysti muodostaa yhteyden olemassa oleviin tietueisiin tai luoda uusia tietueita ja niihin liittyviä asiakirjatiedostoja. |[Sellaisten kirjattujen asiakirjojen etsiminen, joilla ei ole saapuvia asiakirjatietueita](across-how-find-posted-documents-without-income-document-records.md) |
 | Saat paremman yleiskuvan määrittämällä saapuvien asiakirjatietueiden tilaksi *Käsitelty*, kun haluat poistaa ne oletusnäkymästä. |[Useiden saapuvien asiakirjatietueiden hallinta](across-how-manage-many-income-document-records.md) |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

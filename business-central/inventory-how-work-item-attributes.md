@@ -75,7 +75,7 @@ Voit myös määrittää nimikkeen määritteitä nimikeluokkiin, jotka kohdiste
 
 **Nimikkeet**-sivun nimikkeet suodatetaan määritettyjen nimikkeen määritteen arvojen mukaan.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

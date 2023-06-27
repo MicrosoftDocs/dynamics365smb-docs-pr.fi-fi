@@ -28,7 +28,7 @@ Jos [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa on mukana useamp
 
 Tiettyjen ominaisuuksien avulla voidaan siirtyä yritysten välillä työskentelyn aikana, kuten yrityksen vaihtaja (<kbd>Ctrl</kbd>+<kbd>O</kbd>). Lue lisää kohdasta [Siirtyminen toiseen yritykseen tai ympäristöön](ui-organization-switch.md).
 
-## <a name="a-namebadgeadisplay-a-company-badge" /><a name="badge"></a>Näytä yrityksen merkki
+## <a name="display-a-company-badge" /><a name="badge"></a>Näytä yrityksen merkki
 
 Kun yrityksiä tai ympäristöjä on enemmän kuin kaksi, yrityksen vaihtaja näkyy sovelluspalkin oikeassa yläkulmassa, sovelluspalkin hakukuvakkeen lähellä. Oletusarvon mukaan yrityksen vaihtaja käyttää ![yrityksen kuvakkeen aloituksen](media/ui-experience/company-icon.png "Näyttää yrityksen vaihtajan kuvakkeen, kun käytössä on yksittäinen ympäristö") tapaan yrityksen vakiokuvaketta ja ![company-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Näyttää yrityksen vaihtajan kuvakkeen, kun käytössä on useita ympäristöjä").
 
@@ -54,7 +54,7 @@ Yrityksen nimi näkyy aina vasemmassa yläkulmassa. Se on myös toiminto, jonka 
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -kokeiluversion oletuskäyttökokemus ei paljasta kaikkia ominaisuuksia. Voit vaihtaa koko käyttökokemusta **Yritystiedot**-sivulla. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

@@ -21,7 +21,7 @@ Raportti kerää tietoja määritettyjen ehtosarjojen perusteella. Se järjestä
 
 Kun valitset raportin, yleensä näkyviin tulee pyydetty sivu, jonka otsikkona on raportin nimi. Sivulla voit määrittää useita asetuksia ja suodattimia, jotka määrittävät sisällytettävät tiedot. Seuraavissa osissa kerrotaan, kuinka pyyntösivua käytetään raportin luomiseen, esikatseluun ja tulostamiseen.
 
-## <a name="a-namesavedsettingsausing-default-valuesmdashpredefined-settings" /><a name="SavedSettings"></a>Oletusarvojen käyttäminen – ennalta määritetyt asetukset
+## <a name="using-default-valuesmdashpredefined-settings" /><a name="SavedSettings"></a>Oletusarvojen käyttäminen – ennalta määritetyt asetukset
 
 Useimmat raportin pyyntösivut sisältävät **Käytä oletusarvoja** -kentän. Tämän kentän avulla voit valita raportille ennalta määritettyjä asetuksia, jotka automaattisesti määrittävät asetukset ja suodattimet. Valitse tapahtuma avattavasta luettelosta. Näet vaihtoehtojen ja suodattimien raportin pyyntösivulla muuttuvan vastaavasti.
 
@@ -80,7 +80,7 @@ Jos organisaatio on määrittänyt OneDriven järjestelmän virheitä varten, la
 >
 > Voit myös käyttää **Microsoft Excel -asiakirja (vain tiedot)** -kohtaa, kun haluat luoda uusia Excelin asetteluita tietylle raportille. LIsätietoja on kohdassa [Excel-asetteluiden käyttäminen](ui-excel-report-layouts.md).  
 
-## <a name="a-nameschedulereporta-scheduling-a-report-to-run-later-or-periodically" /><a name="ScheduleReport"></a> Raportin aikatauluttaminen suoritettavaksi myöhemmin tai säännöllisesti
+## <a name="scheduling-a-report-to-run-later-or-periodically" /><a name="ScheduleReport"></a> Raportin aikatauluttaminen suoritettavaksi myöhemmin tai säännöllisesti
 
 Voit aikatauluttaa yksittäisen tai toistuvan raportin ajon tietylle päivämäärälle ja kellonajalle. Aikataulutetut raportit syötetään työjonoon ja käsitellään aikataulutettuna aikana vastaavasti kuin muut työt. Valitse **Aikataulu**-asetus sen jälkeen, kun **Lähetä kohteeseen** on valittu. Tämän jälkeen annetaan tiedot, kuten tulostin sekä päivämäärä ja kellonaika. Raportti lisätään tämän jälkeen työjonoon ja suoritetaan määritettynä ajankohtana. Kun raportti on käsitelty, kohde poistetaan työjonosta. Lue lisätietoja kohdasta [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).  
 
@@ -103,13 +103,13 @@ Kun raportin asetusten muokkaaminen on tehty, toista kaksi ensimmäistä vaihett
 
 Lisätietoja työjonojen hallinnasta on kohdassa [Työjonojen käyttäminen ajoitustehtäviin](admin-job-queues-schedule-tasks.md).  
 
-## <a name="a-nameprintreportaprinting-a-report" /><a name="PrintReport"></a>Raportin tulostaminen
+## <a name="printing-a-report" /><a name="PrintReport"></a>Raportin tulostaminen
 
 Tulosta raportti, valitse **Tulosta** raportin pyyntösivulla tai **Esikatselu**-sivun valikkorivillä.
 
 Kun raportti käyttää Excel-asettelua, et näe **Tulostin**-kenttää etkä **Tulosta**- ja **Esikatselu**-painiketta. Sen sijaan näkyvissä on **Lataus**-vaihtoehto. Jos haluat tulostaa, valitse **Lataa** ja avaa sitten ladattu tiedosto Excelissä ja tulosta sieltä.
 
-### <a name="a-nameprinteraprinter" /><a name="Printer"></a>Tulostin
+### <a name="printer" /><a name="Printer"></a>Tulostin
 
 **Tulostin**-kentässä raportin pyyntösivulla näkyy, mille tulostimelle raportti tulostetaan. Tulostimen voi vaihtaa valitsemalla tulostimen luettelossa.
 
@@ -153,7 +153,7 @@ Tulostimen resursseja hallitaan luodun raportin **Lisäasetukset**-pikavälilehd
 > [!NOTE]
 > Enimmäisarvot voivat olla erilaiset [!INCLUDE[prod_short](includes/prod_short.md)] paikallisesti, ja järjestelmänvalvoja voi muuttaa niitä. Lisätietoja on [Business Central Serverin määrittäminen - raportit](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports) -osassa. Yhteenveto raportin rajoituksista [!INCLUDE[prod_short](includes/prod_short.md)] onlinessa on kohdassa [Toimintarajat](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Katso [Microsoftin koulutukset](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Katso [Microsoftin koulutukset](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Katso myös
 

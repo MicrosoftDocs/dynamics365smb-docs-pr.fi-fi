@@ -93,7 +93,7 @@ Voit aikatauluttaa raportin tai erätyön ajon tietylle päivämäärälle ja ke
 
 Lisätietoja ajoittamisesta on ohjeaiheessa [Raportin suorittamisen aikatauluttaminen](ui-work-report.md#ScheduleReport)
 
-### <a name="schedule-synchronization-between-includeprodshortincludesprodshortmd-and-includeprodshortincludescdslongmdmd" />Synkronoinnin aikatauluttaminen [!INCLUDE[prod_short](includes/prod_short.md)]in ja [!INCLUDE[prod_short](includes/cds_long_md.md)]n välillä
+### <a name="schedule-synchronization-between--and-includeprod_short" />Synkronoinnin aikatauluttaminen [!INCLUDE[prod_short](includes/prod_short.md)]in ja [!INCLUDE[prod_short](includes/cds_long_md.md)]n välillä
 
 Jos olet integroinut tuotteen [!INCLUDE[prod_short](includes/prod_short.md)] tuotteeseen [!INCLUDE[prod_short](includes/cds_long_md.md)], työjono mahdollistaa tietojen synkronoinnin ajoittamisen. Määrittämiesi suunnan ja sääntöjen mukaan työjonotapahtuma voi luoda yhdessä sovelluksessa toisen sovelluksen tietueita vastaavia tietueita. Hyvä esimerkki on yhteyshenkilön rekisteröiminen tuotteessa [!INCLUDE[crm_md](includes/crm_md.md)], jolloin työjonotapahtuma voi määrittää kyseissen yhteyshenkilön tuotteessa [!INCLUDE[prod_short](includes/prod_short.md)]. Lisätietoja on aikatauluttamisesta on kohdassa [Business Centralin ja Dynamics 365 Salesin synkronoinnin ajoittaminen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 

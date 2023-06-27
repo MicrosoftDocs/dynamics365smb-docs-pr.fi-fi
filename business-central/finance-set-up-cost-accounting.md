@@ -189,7 +189,7 @@ Voit määrittää kunkin pääkirjanpidon tilin dimension oletusarvot **Oletusd
 > [!NOTE]  
 >  Varmista, että kirjanpitoon ennalta määritetty kustannuspaikka ja kustannusobjekti siirretään automaattisesti kustannuslaskentaan, valitsemalla **Tarkista KP-kirjaukset** -valintaruutu Kustannuslaskennan asetukset -sivulla.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

@@ -53,7 +53,7 @@ Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen jär
 
 **Muokkaa Excelissä:** Jotta voit tehdä muutoksia Excelissä ja tuoda muutokset takaisin [!INCLUDE[prod_short](includes/prod_short.md)]:een Excel-lisäosan avulla, tarvitset Excel 2019 -version tai uudemman. Lisätietoja on kohdassa [Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md).  
 
-## <a name="a-nametaca-using-the-business-central-administration-center" /><a name="TAC"></a> Business Centralin hallintakeskuksen käyttäminen
+## <a name="using-the-business-central-administration-center" /><a name="TAC"></a> Business Centralin hallintakeskuksen käyttäminen
 
 Administration Center toimii seuraavien selainten uusimman version kanssa:
 

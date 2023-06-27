@@ -37,7 +37,7 @@ Raportin tietojoukko voi sisältää kenttiä, joissa näkyvät otsikot, tiedot 
 > [!NOTE]  
 >  Et voi muuttaa valmiita raporttiasetteluita<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-### <a name="a-nameopenxmlparta-to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a>Mukautetun XML-osan avaaminen raportille Wordissa
+### <a name="to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a>Mukautetun XML-osan avaaminen raportille Wordissa
   
 1. Jos se ei ole jo auki, avaa Word-raportin asettelun asiakirja Wordissa.  
   
@@ -103,7 +103,7 @@ Kuvat kohdistuvat automaattisesti sisällön hallinnan vasempaan yläkulmaan ja 
   
 3. Voit suurentaa tai pienentää kuvan kokoa vetämällä kahvaa poispäin sisällön ohjausobjektista tai sen keskustaa kohti.  
 
-## <a name="a-nameremovefielda-removing-label-and-data-fields" /><a name="RemoveField"></a> Otsikko- ja tietokenttien poistaminen
+## <a name="removing-label-and-data-fields" /><a name="RemoveField"></a> Otsikko- ja tietokenttien poistaminen
 
 Raportin otsikko- ja tietokentät sisältyvät Wordin sisällön ohjausobjekteihin. Seuraavassa kuvassa on esitetty sisällön ohjausobjekti, kun se on valittuna Word-asiakirjassa.  
 

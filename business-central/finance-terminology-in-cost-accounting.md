@@ -43,7 +43,7 @@ Tässä aiheessa määritellään keskeiset ehdot, joita käytetään kustannusl
 |Muuttuva kustannus|Muuttuvat kustannukset ovat kuluja, jotka muuttuvat suhteessa yrityksen toimintaan. Muuttuvat kustannukset ovat kaikkien tuotettujen yksiköiden marginaalikustannusten summa. Kokonaiskustannusten kaksi osaa muodostuvat kiinteistä kustannuksista ja muuttuvista kustannuksista.|  
 |Variantti|Varianttia käytetään valinnaisena käyttäjän määrittämänä nimenä määrityksille. Etiketin tarkoitus on suodattaa jakoryhmiä.|  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-cost-accounting-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

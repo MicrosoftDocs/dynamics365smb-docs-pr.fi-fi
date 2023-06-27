@@ -114,7 +114,7 @@ Jos et valinnut **Poisto KO-kirjauspvm:ään asti** -kenttää, omaisuuserä men
 
 *Kokonaispoisto = 100 + 15 + 55,54 = 170,54*
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-advanced-fixed-assets-transactions" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/manage-advanced-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/manage-advanced-fixed-assets-transactions/)
 
 ## <a name="see-also" />Katso myös
 

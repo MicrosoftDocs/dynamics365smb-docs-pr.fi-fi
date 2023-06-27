@@ -159,7 +159,7 @@ Tietoja suunnittelusta sijaintien ja siirtojen avulla on kohdassa [Suunnitelman 
 > [!TIP]
 > Kun käsittelet **Hankintalista**- tai **Suunnittelutyökirja**-sivuja, voit järjestää rivit lajittelemalla ne sarakkeen nimen mukaan. Tämä on erityisen hyödyllistä Suunnittelutyökirja-sivulla, koska sitä voidaan käyttää usean tason tuotantotilauksissa. Oletusarvoisesti rivit lajitellaan **Nimikenro**-kentän mukaan. Voit ryhmitellä rivit usean tason järjestykseen lajittelemalla **Viitatun tilauksen nro** -kohdan mukaan -kentässä. Myös **Tuotanto-ohjelma tilaus**- ja **Suunnittelun taso** -kenttiä voi käyttää rivien hierarkian näyttämisessä.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesplan-items-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/plan-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/plan-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

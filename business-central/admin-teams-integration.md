@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics365-business-central
 ---
 
-# <a name="managing-microsoft-teams-integration-with-include-prodshortincludesprodshortmd" />Microsoft Teamsin ja [!INCLUDE [prod_short](includes/prod_short.md)]in integroinnin hallinta
+# <a name="managing-microsoft-teams-integration-with-" />Microsoft Teamsin ja [!INCLUDE [prod_short](includes/prod_short.md)]in integroinnin hallinta
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -42,7 +42,7 @@ Tässä osassa kuvataan vähimmäisvaatimukset, jotka koskevat [!INCLUDE [prod_s
 
     **Salli URL-esikatselut** -käytäntöasetuksen on oltava käytössä. Muussa tapauksessa Teams-keskusteluun liitetyissä [!INCLUDE [prod_short](includes/prod_short.md)] -linkeissä ei voi luoda korttia. Lisätietoja tästä asetuksen käyttämisestä on kohdassa [Teamsin viestintäkäytäntöjen hallinta](/microsoftteams/messaging-policies-in-teams).
 
-### <a name="managing-the-include-prodshortincludesprodshortmd-app-optional" />[!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen hallinta (valinnainen)
+### <a name="managing-the--app-optional" />[!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen hallinta (valinnainen)
 
 Teamsin järjestelmänvalvojana voit hallita kaikkia organisaatiosi sovelluksia, myös [!INCLUDE [prod_short](includes/prod_short.md)] -sovellusta. Voit hyväksyä tai asentaa [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen organisaatiota varten, estää käyttäjän asentamasta sovellusta ja paljon muuta.
 
@@ -51,9 +51,9 @@ Lisätietoja on seuraavissa Microsoft Teams -asiakirjojen artikkeleissa:
 - [Sovellusten hallinta Microsoft Teams -hallintakeskuksessa](/MicrosoftTeams/manage-apps)
 - [Sovelluksen määrityskäytäntöjen hallinta Microsoft Teamsissa](/microsoftteams/teams-app-setup-policies)
 
-## <a name="in-include-prodshortincludesprodshortmd" />[!INCLUDE [prod_short](includes/prod_short.md)]issa
+## <a name="in-" />[!INCLUDE [prod_short](includes/prod_short.md)]issa
 
-### <a name="minimum-requirements" />Vähimmäisvaatimukset
+### <a name="minimum-requirements-1" />Vähimmäisvaatimukset
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] -versio:
 
@@ -103,7 +103,7 @@ Microsoft Teams -hallintakeskus on paikka, jossa määritetään Teams-sovelluks
 
 Microsoft Teams sisältää laajoja hallintatoimintoja, jotka koskevat arkaluontoisten tai henkilökohtaisten tunnistetietojen säännöstenmukaisuutta ja hallintaa – koskien myös [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen chatteihin ja kanaviin lisättyjä tietoja.
 
-### <a name="understanding-where-include-prodshortincludesprodshortmd-cards-are-stored" />[!INCLUDE [prod_short](includes/prod_short.md)] -korttien tallennussijainnin ymmärtäminen
+### <a name="understanding-where--cards-are-stored" />[!INCLUDE [prod_short](includes/prod_short.md)] -korttien tallennussijainnin ymmärtäminen
 
 Kun kortti on lähetetty chattiin, kortti ja kortissa näkyvät kentät kopioidaan Teamsiin. Nämä tiedot ovat organisaation Teams-käytäntöjen, esimerkiksi tietojensäilytyskäytäntöjen, alaisia. Kun näytetään kortin tiedot, mitään Tiedot-ikkunan tietoja ei tallenneta Teamsiin. Tiedot säilyvät tallennettuna [!INCLUDE [prod_short](includes/prod_short.md)]iin ja Teams vain noutaa ne, kun käyttäjä päättää tarkastella tietoja. 
 
@@ -153,7 +153,7 @@ Asetus määritetään ympäristöä kohti. Joten kun otat tietueiden yhteenvedo
 [Vianetsintä – Teams](admin-teams-troubleshooting.md)  
 [Teamsin integroinnin kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

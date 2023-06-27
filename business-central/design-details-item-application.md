@@ -69,7 +69,7 @@ Kun kirjaat varaston arvon laskun, luotava nimikkeen kohdistustapahtuma linkitt�
 
 **Nimiketapahtuma**-taulukon **Jäljellä oleva määrä** -kenttä näyttää määrän, jota ei ole vielä kohdistettu. Jos jäljellä oleva määrä on suurempi kuin 0, **Avoin** -valintaruutu valitaan.  
 
-### <a name="example" />Esimerkki
+### <a name="example-1" />Esimerkki
 Seuraava esimerkki näyttää nimikkeen kohdistustapahtuman, joka luodaan edellisessä esimerkissä vastaanotettujen 5 nimikkeen myyntitoimituksen kirjauksesta. Ensimmäinen nimikkeen käyttökirjaus on ostokuitti. Toinen käyttökirjaus on myyntitoimitus.  
 
 Seuraavissa taulukoissa esitetään kaksi nimikkeen sovelluskirjausta, jotka aiheutuvat varaston kasvusta ja varaston vähennyksistä, tässä järjestyksessä.  

@@ -39,7 +39,7 @@ Tässä videossa näytetään tietojen kytkentä ja synkronointi osana [!INCLUDE
 2. Valitse **Synkronoi nyt** -toiminto.  
 3. Jos tietue voidaan synkronoida yhteen suuntaan, valitse vaihtoehto, joka määrittää suunnan tietojen päivitykselle ja valitse sitten **OK**.  
 
-## <a name="to-synchronize-a-single-record-from-includecrmmdincludescrmmdmd" />Yhden tietueen synkronointi [!INCLUDE[crm_md](includes/crm_md.md)]-sovelluksesta
+## <a name="to-synchronize-a-single-record-from-" />Yhden tietueen synkronointi [!INCLUDE[crm_md](includes/crm_md.md)]-sovelluksesta
 
 1. Avaa [!INCLUDE[crm_md](includes/crm_md.md)]-sovelluksessa sen tietueen lomake, jonka haluat yhdistää. Se voi olla esimerkiksi tilikortin tai yhteyshenkilökortin lomake.  
 2. Valitse **[!INCLUDE[prod_short](includes/prod_short.md)]** -toiminto valintanauhasta. Tietue avataan ja yhdistetään automaattisesti.

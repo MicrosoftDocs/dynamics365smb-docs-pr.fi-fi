@@ -230,7 +230,7 @@ Sovelluksen rekisteröimisen yleiset ohjeet: [Pika-aloitus: sovelluksen rekister
 > [!NOTE]
 Jos SMTP-protokollan käyttäminen sähköpostin lähettämiseen aiheuttaa ongelmia sen jälkeen, kun [!INCLUDE[prod_short](includes/prod_short.md)] yhdistettiin sovelluksen rekisteröintiin, syynä voi olla se, että SMTP AUTH ei ole otettu käyttöön vuokraajassa. Suositeltavaa onkin käyttää Microsoft 365- ja Nykyinen käyttäjä -yhdistimiä, sillä ne käyttävät Microsoft Graphin Mail-ohjelmointirajapintoja. Jos SMTP-protokollaa on kuitenkin käytettävä, SMTP AUTH voidaan ottaa käyttöön. Lisätietoja on kohdassa [Todennetun asiakasohjelman SMTP-lähetyksen (SMTP AUTH) ottaminen käyttöön tai poistaminen käytöstä Exchange Onlinessa](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
-### <a name="connect-includeprodshortincludesprodshortmd-to-your-app-registration" />Yhdistä [!INCLUDE[prod_short](includes/prod_short.md)] sovellusrekisteröintiisi
+### <a name="connect--to-your-app-registration" />Yhdistä [!INCLUDE[prod_short](includes/prod_short.md)] sovellusrekisteröintiisi
 
 Kun olet rekisteröinyt sovelluksen Azure-portaalissa, voit [!INCLUDE[prod_short](includes/prod_short.md)]issa käyttää ohjattua **Sähköpostisovelluksen AAD-rekisteröinti** -määritystä yhdistääksesi [!INCLUDE[prod_short](includes/prod_short.md)]in siihen.
 
@@ -263,7 +263,7 @@ Kun olet rekisteröinyt sovelluksen Azure-portaalissa, voit [!INCLUDE[prod_short
 
 -->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-email" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-email/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-email/)
 
 ## <a name="see-also" />Katso myös
 

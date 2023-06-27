@@ -95,7 +95,7 @@ Voit kirjata tämän kasvaneen kustannuksen nimikekuluna hyvityslaskuun tai pala
 
 Kun kirjaat myyntipalautustilauksen, ohjelma lisää täydennysmaksun asianmukaisen myyntitapahtuman summaan. Tällä tavoin voit ylläpitää täsmällistä varaston arvostusta.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

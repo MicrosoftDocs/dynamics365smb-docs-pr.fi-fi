@@ -100,7 +100,7 @@ ALV-prosentin muutostyökalun avulla voit hallita muutoksia ALV:n vakiokorvaukse
 > [!IMPORTANT]  
 > Muutoksen jälkeen **ALV-prosentin muutoslokin tapahtuma** -taulukon **Muunnettu**-kenttä on valittuna ja **ALV-prosentin muutoslokin tapahtuma** -taulukon **Muunnospvm** -kentässä näkyy muunnospäivämäärä.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesrate-change-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/rate-change-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/rate-change-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

@@ -122,7 +122,7 @@ Jos käytät Outlook-sovellusta, valitse vain sähköpostiviestin yläosassa **A
 > Alkaen vuoden 2022 julkaisuaallosta 1, asiakirjat avautuvat uuteen selainikkunaan kaikilla ominaisuuksilla, jotka ovat tuttuja kohteesta [!INCLUDE [prod_short](includes/prod_short.md)]. Voit siirtyä asiakirjasta luetteloon ja takaisin, avata luetteloita Excelissä, lähettää asiakirjat tulostettavaksi sekä suorittaa tai esikatsella liittyviä raportteja. Myös kaikki tutut pikanäppäimet ovat saatavilla, kun avaat asiakirjoja Outlookista.  
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

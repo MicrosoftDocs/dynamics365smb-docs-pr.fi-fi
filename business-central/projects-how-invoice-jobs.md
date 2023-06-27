@@ -60,7 +60,7 @@ Voit luoda laskun projektin suunnitteluriveiltä ja määrittää samalla nimikk
 > [!NOTE]  
 >   Projektiin liittyvän myyntihyvityslaskun luominen, tarkistaminen ja kirjaaminen tapahtuu vastaavalla tavalla.
 
-## <a name="see-related-microsoft-trainingtrainingpathspost-job-usage-sales" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/post-job-usage-sales/)
 
 ## <a name="see-also" />Katso myös
 

@@ -66,7 +66,7 @@ Voit yhdistää useita käyttöomaisuuseriä yhdeksi käyttöomaisuuseräksi esi
 2. Täytä tarvittavat kentät.
 3. Valitse **Tulosta**- tai **Esikatsele**-painike.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsreclassify-fixed-assets" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/reclassify-fixed-assets/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/reclassify-fixed-assets/)
 
 ## <a name="see-also" />Katso myös
 

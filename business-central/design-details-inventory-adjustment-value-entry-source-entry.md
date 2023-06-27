@@ -158,7 +158,7 @@ Tässä skenaariossa ollut asetus, jonka mukaan käyttäjäryhmät, jotka eivät
 
 ## <a name="item-charge-scenario" />Nimikekulujen skenaario
 
-### <a name="prerequisites" />Vaatimukset
+### <a name="prerequisites-1" />Vaatimukset
 
 Määritä seuraavat arvot:
 
@@ -184,7 +184,7 @@ Määritä seuraavat arvot:
 
 - Viimeinen sallittu kirjauspvm = Tyhjä  
 
-### <a name="to-test-the-scenario" />Skenaarion testaaminen
+### <a name="to-test-the-scenario-1" />Skenaarion testaaminen
 
 Testaa tämä skenaario suorittamalla seuraavat vaiheet:
 

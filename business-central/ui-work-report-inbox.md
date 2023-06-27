@@ -47,7 +47,7 @@ Raporttien jakaminen yhteistyökumppaneiden kanssa on mahdollista myös **Saapun
 >
 > **Jaa**-toiminnon käyttäminen määrittää luodun raporttitiedoston muiden käyttäjien saataville vain OneDrive for Businessissa. Se ei määritä ajoitettua raporttia heidän **Saapuneet raportit** -kohdan luetteloon.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsbuild-reports" />Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/build-reports/).
+## <a name="see-related-training-at-microsoft-learn" />Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/build-reports/).
 
 ## <a name="see-also" />Katso myös
 

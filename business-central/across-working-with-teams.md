@@ -93,13 +93,13 @@ Seuraavassa on muutamia asioita, jotka pitää muistaa, kun käsittelet kortin t
 
 Lisätietoja korttien ja korttiietojen käyttämisestä on kohdassa [Teams – usein kysytyt kysymykset](teams-faq.md).
 
-## <a name="a-nameshare-linkashare-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Jaa sivun linkki Business Centralista Teamsiin
+## <a name="share-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Jaa sivun linkki Business Centralista Teamsiin
 
 Suoraan useimmista kokoelmasivuista, kuten **Kohteet**-sivusta, ja Tiedot-sivuista, kuten **Kohteet**-kortista, voit lähettää linkin sivulle Teams-keskusteluiden tietyille vastaanottajille. Voit esimerkiksi jakaa linkin tietueiden suodatettuun näkymään. Vastaanottajat voivat sitten napsauttamalla linkkiä avata sivun [!INCLUDE [prod_short](includes/prod_short.md)]\.issa
 
 [![Kortilla näkyvä Jaa-valikko.](media/teams-share-link-v2.png "Kortilla näkyvä Jaa-valikko.")](media/teams-share-link-v2.png#lightbox)
 
-### <a name="prerequisites" />Vaatimukset
+### <a name="prerequisites-1" />Vaatimukset
 
 - Sinulla on Microsoft Teamsin käyttöoikeus.
 - (Valinnainen) Olet asentanut [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen Teamsiin. 
@@ -127,6 +127,6 @@ Suoraan useimmista kokoelmasivuista, kuten **Kohteet**-sivusta, ja Tiedot-sivuis
 [Vianetsintä – Teams](admin-teams-troubleshooting.md)  
 [Teamsin integroinnin kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

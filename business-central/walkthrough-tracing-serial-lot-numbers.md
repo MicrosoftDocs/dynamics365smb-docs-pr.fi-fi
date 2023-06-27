@@ -297,7 +297,7 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
  **Etsi tapahtumat**- ja **Nimikkeen jäljitys** -sivujen käytön integrointia vikojen hallinnassa käsittelevä vaihekuvaus on nyt käyty läpi.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-serial-lot-numbers" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-serial-lot-numbers/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-serial-lot-numbers/)
 
 ## <a name="see-also" />Katso myös
 

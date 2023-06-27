@@ -58,7 +58,7 @@ Muiden mukautusten tavoin sarakkeen leveyteen tehdyt muutokset tallennetaan tili
 6. Valitse ensin elementti ja sitten joko **Siirrä**, **Poista**, **Piilota**, **Näytä**, **Näytä kohdassa ”Näytä lisää”**, **Näytä, kun tiivistetty**, **Näytä aina**, **Määritä tai tyhjennä kiinnitysruutu** tai **Sisällytä pikatapahtumaan tai Sulje pois pikatapahtumasta** käyttöliittymäelementin tyypin ja tilan mukaan. Lisätietoja on kohdassa [Mukautettavat toimet](#What).
 7. Kun olet muuttanut yhden tai usean sivun asettelua, valitse**Mukauttaminen**-palkissa **Valmis**-painike.
 
-## <a name="a-namewhatawhat-you-can-personalize" /><a name="What"></a>Mukautettavat toimet
+## <a name="what-you-can-personalize" /><a name="What"></a>Mukautettavat toimet
 
 |Tehtävä toimi|Ohjeet|Huomautukset|
 |----|------------|-------|
@@ -74,7 +74,7 @@ Muiden mukautusten tavoin sarakkeen leveyteen tehdyt muutokset tallennetaan tili
 |Lisää uusi toiminto roolikeskuksen sivuun tai raporttiin.|Valitse kohdesivu-, raportin pyyntösivu- tai Ilmoita-ikkunassa kirjanmerkkikuvake.|Katso [Sivun tai raportin kirjanmerkin luominen roolikeskuksessa](ui-bookmarks.md)|
 |Aloita luettelo aina laajennettuna tai tiivistettynä|Valitse **Laajenna kaikki**- tai **Tiivistä kaikki** -painike luettelon vasemmassa yläkulmassa. Voit myös valita **Laajenna kaikki**- tai **Tiivistä kaikki** -toiminnot ensimmäisen sarakkeen valikosta. |Koskee tiivistettäviä hierarkialuetteloita|
 
-## <a name="a-nameactionsapersonalizing-the-action-bar-and-menus" /><a name="Actions"></a>Toimintopalkin ja valikoiden mukauttaminen
+## <a name="personalizing-the-action-bar-and-menus" /><a name="Actions"></a>Toimintopalkin ja valikoiden mukauttaminen
 
 Mukauttamisen avulla voit päättää, mitkä toiminnot näkyvät siirtymispalkissa, toimintoriveillä ja roolikeskuksissa sekä muissa kohdissa, joissa niiden halutaan näkyvän. Voit näyttää, piilottaa tai siirtää yksittäisiä toimintoja tai toimintoryhmiä.
 
@@ -116,7 +116,7 @@ Kahden toiminnon välinen vaakaviiva tai toimintoryhmää ympäröivä reunus il
 1. Voit siirtää toiminnon tai toimintoryhmä vetämällä ja pudottamalla sen toivottuun paikkaan samalla tavoin kuin kentät ja sarakkeet.
 2. Voit siirtää toiminnon tai toimintoryhmän toiseen, tyhjään toimintoryhmään vetämällä toiminnon tai toimintoryhmän uuteen ryhmään ja pudottamalla sen **Pudota toiminto tähän** -ruutuun.
 
-## <a name="a-namepartsapersonalizing-parts" /><a name="Parts"></a>Osien mukauttaminen
+## <a name="personalizing-parts" /><a name="Parts"></a>Osien mukauttaminen
 
 Osat ovat sivun alueita, jotka koostuvat tavallisesti useista kentistä, kaavioista tai muusta sisällöstä. Osassa näkyy värillinen reunus, kun keskityt osaan. Esimerkiksi Roolikeskuksen aloitusnäytössä on useita osia. Voit mukauttaa koko osan ja sen sisällön, koska raja on määritetty selvästi.
 
@@ -158,7 +158,7 @@ Seuraavat seikat auttavat ymmärtämään mukauttamista entistä paremmin.
    > [!TIP]
    > Järjestelmänvalvojana voit piilottaa **Automaattisen** nimikkeen käyttäjiltä. Lisätietoja kohdassa [Power Automate -integraation määrittäminen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 [Profiilien sivujen mukauttaminen](ui-personalization-manage.md)  

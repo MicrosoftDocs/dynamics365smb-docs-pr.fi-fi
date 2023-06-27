@@ -35,7 +35,7 @@ Jos haluat tarkastella täydellistä ALV-tapahtumahistoriaa, jokainen ALV:n sis�
 > [!NOTE]
 > Jokaisen [!INCLUDE[prod_short](includes/prod_short.md)] -ympäristön on tarkoitus käsitellä yhden maan lakisääteinen raportointi. Esimerkiksi [!INCLUDE[prod_short](includes/prod_short.md)]in hollantilainen versio käsittelee vain Alankomaiden ALV-raportointia. Vastaavasti Yhdysvaltain [!INCLUDE[prod_short](includes/prod_short.md)]in versio käsittelee 1099-raportointia Yhdysvalloissa, eikä se tue ALV-raportointia muissa maissa ellei sitä ole tuotu kumppaniekosysteemin laajennuksella tai asiakaskohtaisella koodimuokkauksella.
 
-## <a name="a-nameecsaleslistaabout-the-ec-sales-list-report" /><a name="ecsaleslist"></a>Tietoja EU-myyntiluettelon raportista
+## <a name="about-the-ec-sales-list-report" /><a name="ecsaleslist"></a>Tietoja EU-myyntiluettelon raportista
 
 Euroopan unionissa (EU) ja Yhdistyneessä kuningaskunnassa kaikkien tavaroita ja palveluja ALV-rekisteröidyille asiakkaille, myös muiden EU-maiden asiakkaille, myyvien yritysten on lähetettävä EU-myyntiluettelo-raportin sähköinen versio tulli- ja veroviranomaisilleen. **EU-myyntiluettelo**-raportti toimii vain EU-maiden kohdalla.
 
@@ -53,7 +53,7 @@ Kun veroviranomainen on tarkistanut raporttisi, yrityksesi yhteyshenkilö saa vi
 
 [!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
 
-## <a name="a-namevatreturnaabout-the-vat-return-report" /><a name="vatreturn"></a>Tietoja ALV-palautusraportista
+## <a name="about-the-vat-return-report" /><a name="vatreturn"></a>Tietoja ALV-palautusraportista
 
 Voit lähettää tällä raportilla osto- ja myyntiasiakirjoissa olevan ALV:n. Näitä asiakirjoja ovat esimerkiksi osto- ja myyntitilaukset, laskut ja hyvityslaskut. Tiedot ovat raportissa samassa muodossa kuin tulli- ja veroviranomaisille tehtävässä yhteenvetoilmoituksessa.  
 
@@ -73,7 +73,7 @@ Jotta voisit ilmoittaa arvonlisäveron viranomaiselle sähköisesti, [!INCLUDE[p
     > [!NOTE]  
     > Yhteyden toimivuus kannattaa testata. Sen voi tehdä valitsemalla **Testitila**-valintaruudun sekä valmistelemalla ja lähettämällä ALV-raportin kohdassa [ALV-raportin valmisteleminen ja lähettäminen](#to-prepare-and-submit-a-vat-report) kuvatulla tavalla. Palvelu testaa testitilassa, voiko veroviranomainen vastaanottaa raportin. Raportin tila ilmaisee, onnistuiko testilähetys vai ei. Muista kuitenkin, että tietoja ei ole vielä oikeasti lähetetty. Kun haluat lähettää raportin oikeasti, poista **Testitila**-valintaruudun valinta ja toista sitten lähetysprosessi.
 
-## <a name="to-set-up-vat-reports-in-includeprodshortincludesprodshortmd" />ALV-raporttien määrittäminen [!INCLUDE[prod_short](includes/prod_short.md)]issa
+## <a name="to-set-up-vat-reports-in-" />ALV-raporttien määrittäminen [!INCLUDE[prod_short](includes/prod_short.md)]issa
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
@@ -148,7 +148,7 @@ Seuraavassa taulukossa kuvataan codeunitit, jotka sinun on luotava raporttiasi v
 > [!Note]
 > Kiinnitä huomiota raportin koodiyksiköitä luodessasi **ALV-raportin versio** -kentän arvoon. Tässä kentässä on oltava sama versio, joka on tai oli veroviranomaisen vaatimuksena. Voit esimerkiksi kirjoittaa kentän arvoksi **2021** osoittamaan, että raportti noudattaa kyseisenä vuonna voimassa olleita vaatimuksia. Voimassa olevan version saat selville veroviranomaiseltasi.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

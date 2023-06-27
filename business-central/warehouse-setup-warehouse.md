@@ -35,7 +35,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Tutustu vihjeisiin, joiden avulla voi järjestellä uudelleen sijainteja, varastopaikkoja tai alueita ja tehostaa näin varastotoimintoja.|[Fyysisten varastojen uudelleenjärjestely](warehouse-how-to-restructure-warehouses.md)|
 |Määritä oletusraportteja, joita käytetään eri asiakirjatyypeille.|[Raporttien valinta Business Centralissa](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-warehouse-management" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-warehouse-management/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-warehouse-management/)
 
 ## <a name="see-also" />Katso myös
 

@@ -23,7 +23,7 @@ Järjestelmänvalvojan käyttäjätili [!INCLUDE[prod_short](includes/prod_short
 >
 > Kun yhteyden määritys on tehty, tämä [!INCLUDE[prod_short](includes/cds_long_md.md)] -käyttäjä voidaan poistaa. Integrointi jatkaa integrointia varten automaattisesti luodun käyttäjätilin käyttämistä.
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-includeprodshortincludescdslongmdmd" />[!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen käyttäjätilien käyttöoikeudet ja ja käyttöoikeusroolit
+## <a name="permissions-and-security-roles-for-user-accounts-in-" />[!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen käyttäjätilien käyttöoikeudet ja ja käyttöoikeusroolit
 
 Perusintegraatioratkaisu luo seuraavat roolit [!INCLUDE[cds_long](includes/cds_long_md.md)] -ohjelmassa integrointia varten:
 
@@ -61,7 +61,7 @@ The following table displays the minimum permissions on each tab for each securi
 |Business Central Connection|Global|Create, Read, Write, Delete|Create, Read, Write, Delete|Create, Read, Write, Delete|
 |Post Configuration|Global|||Write|
 
-### <a name="minimum-permissions-for-automatically-created-includeprodshortincludesprodshortmd-integration-application-user" />Minimum Permissions for automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user
+### <a name="minimum-permissions-for-automatically-created--integration-application-user" />Minimum Permissions for automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user
 The following table displays the minimum permissions on each tab for each security role that is required for the automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user.
 
 ##### <a name="core-records" />Core Records
@@ -102,7 +102,7 @@ The following table displays the minimum permissions on each tab for each securi
 |User Settings|Global|Create, Read, Write, Delete, Append To|Create, Read, Write, Delete, Append To|Create, Read, Write, Delete, Append To|
 |Act on Behalf of Another User|Global|Yes|Yes|Yes|
 
-##### <a name="customization" />Customization
+##### <a name="customization-1" />Customization
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Field|Global||Read|Read|
@@ -112,7 +112,7 @@ The following table displays the minimum permissions on each tab for each securi
 |SDK Message Processing Step|Global|Read|Read|Read|
 |Web Resource|Global|Read|Read|Read|
 
-##### <a name="custom-entities" />Custom Entities
+##### <a name="custom-entities-1" />Custom Entities
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Dynamics 365 Business Central Account Statistics|Global|Create, Read, Write, Append To|Create, Read, Write, Append To|Create, Read, Write, Append To|
@@ -121,7 +121,7 @@ The following table displays the minimum permissions on each tab for each securi
 ### <a name="product-availability-user" />Product Availability User
 You can allow sales people to view inventory levels for the items they sell by granting them the permissions described in the following table.
 
-##### <a name="custom-entities" />Custom Entities
+##### <a name="custom-entities-2" />Custom Entities
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Dynamics 365 Business Central Account Statistics|Global|Create, Read, Write, Append To|Create, Read, Write, Append To|Create, Read, Write, Append To|

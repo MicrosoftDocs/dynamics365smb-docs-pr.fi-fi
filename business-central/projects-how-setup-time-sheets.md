@@ -88,7 +88,7 @@ Seuraavissa osissa kuvataan, miten voit määrittää tuntiraportteja, jos et k�
 > [!NOTE]  
 > Aikaraportin hyväksyjän tunnusta ei voi muuttaa, jos on aikaraportteja, joita ei ole vielä käsitelty ja joiden tila on **Lähetetty** tai **Auki**.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />Katso myös
 

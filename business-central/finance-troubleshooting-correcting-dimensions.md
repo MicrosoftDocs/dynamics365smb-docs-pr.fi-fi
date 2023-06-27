@@ -117,7 +117,7 @@ Jos korjaus on keskeneräinen, korjauskortissa näkyy varoitus. Korjauksen voi s
 
 Dimensioiden korjauksen jälkeen kustannuslaskennan tiedot eivät ole synkronoituja. Kustannuslaskenta käyttää dimensioita koostamaan kustannuspaikkoja ja kustannuskohteita ja suorittamaan kustannusten kohdistamiset. KP-tapahtumien dimensioiden muuttaminen aiheuttaa todennäköisesti kustannuslaskentamallien uudelleensuorittamisen. Se, onko poistettava vain muutamia kustannusrekistereitä ja onko kohdistus suoritettava uudelleen vai onko kaikki poistettava ja kaikki mallit suoritettava uudelleen, perustuu tietoihin, jotka on päivitetty, ja siihen, miten kustannuslaskentaominaisuudet on määritetty. Sinun on manuaalisesti määritettävä, miten dimension korjaukset vaikuttavat kustannuslaskentaan ja missä päivityksiä tarvitaan. [!INCLUDE[prod_short](includes/prod_short.md)]issa ei ole tällä hetkellä tapaa tehdä tätä automaattisesti.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesdimensions-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/dimensions-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/dimensions-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

@@ -139,7 +139,7 @@ Kuten viimeinen esimerkkitilanne osoittaa, kaikkien sijainteihin liittyvien aset
 
 Jos siis suunnittelet usein kysyntää sijainneissa, Varastointiyksiköt-ominaisuutta kannattaa käyttää.
 
-## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics-365-business-central" />Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/training/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learn" />Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/training/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />Katso myös
 

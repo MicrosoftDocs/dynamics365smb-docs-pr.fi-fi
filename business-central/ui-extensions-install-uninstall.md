@@ -22,7 +22,7 @@ Voit muuttaa [!INCLUDE[prod_short](includes/prod_short.md)]ia asentamalla sovell
 
 Jos haluat käyttää laajennusta, sinun on määritettävä sen mukana tulevat käyttöoikeuksien joukot.
 
-## <a name="a-nameinstallainstall-an-extension" /><a name="install"></a>Laajennuksen asentaminen
+## <a name="install-an-extension" /><a name="install"></a>Laajennuksen asentaminen
 
 Sovelluksia ja laajennuksia hallitaan **Laajennusten hallinta** -sivulla. Tämä sivu löytyy kotisivulta. Vaihtoehtoisesti valitse **Hae sivua tai raporttia** -kuvake ![Lamppu, joka avaa Kerro-toiminnon.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") oikeassa yläkulmassa, syötä **Laajennus** ja valitse sitten liittyvä linkki.  
 
@@ -103,7 +103,7 @@ Oletusarvoisesti, kun poistat sovelluksen, jota olet käyttänyt, tietojasi ei p
 [Muiden palveluntarjoajien [!INCLUDE[prod_short](includes/prod_short.md)]in laajennukset](ui-extensions-other.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

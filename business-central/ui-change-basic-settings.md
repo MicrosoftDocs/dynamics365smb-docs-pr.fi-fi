@@ -17,7 +17,7 @@ Voit tarkastella **Omat asetukset** -sivulla [!INCLUDE[prod_short](includes/prod
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namerole-centerarole" /><a name="role-center"></a>Rooli
+## <a name="role" /><a name="role-center"></a>Rooli
 
 Rooli määrittää aloitussivun, joka on suunniteltu organisaation tiettyä roolia varten. Roolin mukaan aloitussivu tai roolikeskus antaa yleiskuvan yrityksestä, osastosta tai henkilökohtaisista tehtävistä. Se auttaa myös siirtymään päivittäisten tehtävien välillä ja löytämään työt, jotka on määritetty sinulle.
 
@@ -33,7 +33,7 @@ Oletusrooli on **Liiketoimintajohtaja**, mutta voit valita toisen roolin, jotta 
 2. Valitse **Omat asetukset** -sivun **Roolikeskus**-kentässä oletusarvoisesti käytettävä rooli. Valitse esimerkiksi **Kirjanpitäjä**.
 3. Valitse **OK**.
 
-## <a name="a-namecompanyacompany" /><a name="company"></a>Oma yritys
+## <a name="company" /><a name="company"></a>Oma yritys
 
 Yritystoiminnot [!INCLUDE[prod_short](includes/prod_short.md)]in tietojen säilönä. Tietokannassa voi olla useita yrityksiä. Kerralla on kuitenkin mahdollista valita vain yksi yritys. Oletusyrityksen nimi on CRONUS, ja se sisältää vain esittelytietoja.
 
@@ -53,7 +53,7 @@ The company name is always displayed at the top left corner and works as an acti
 2. In the **Name** field, enter the new company name.
 3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-### <a name="a-namebadgeato-display-a-company-badge-for-quick-access-to-company-information" /><a name="badge"></a>To display a company badge for quick access to company information
+### <a name="to-display-a-company-badge-for-quick-access-to-company-information" /><a name="badge"></a>To display a company badge for quick access to company information
 
 You can add a customized badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
@@ -63,7 +63,7 @@ You can add a customized badge in the top-right corner, which you can choose to 
 > [!NOTE]
 > If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
-## <a name="a-namework-dateawork-date" /><a name="work-date"></a>Käsittelypäivämäärä
+## <a name="work-date" /><a name="work-date"></a>Käsittelypäivämäärä
 
 Eniten käytetty käsittelypäivämäärä on kuluvan päivän päivämäärä. Saatat joutua muuttamaan käsittelypäivämäärän väliaikaisesti, jotta voit suorittaa tehtäviä, kuten sellaisten tapahtumien täydentäminen, joiden päivämäärä ei ole kuluvan päivän päivämäärä.
 
@@ -83,11 +83,11 @@ Käsittelypäivämäärä on tärkeä sivuilla, joita voi muokata. Aina kun käs
 
 Jos nykyistä päivää (kuluva päivää) ei ole määritetty käsittelypäivämääräksi, nykyinen käsittelypäivämäärä näkyy niiden kaikkien sivujen vasemmassa yläkulmassa, joissa tietoja voidaan muokata.
 
-## <a name="a-nameregiona-region" /><a name="region"></a> Alue
+## <a name="region" /><a name="region"></a> Alue
 
 **Alue**-asetus määrittää, miten päivämäärät, ajat, luvut ja valuutat näkyvät tai miten ne on muotoiltu. Se määrittää myös, mitä merkkiä käytetään desimaalierottimena, kun käytetään numeronäppäimistöä tietojen syöttämiseen. Lisätietoja on kohdassa [Tietojen syöttäminen](ui-enter-data.md#decimal).
 
-## <a name="a-namelanguagea-language" /><a name="language"></a> Kieli
+## <a name="language" /><a name="language"></a> Kieli
 
 Muuttaa näyttökielen. Tämä kenttä näkyy vain, kun useita kieliä voi valita.
 
@@ -107,7 +107,7 @@ Valitsemalla *Muuta asetusta, milloin saan ilmoituksia* -linkin voit tarkastella
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

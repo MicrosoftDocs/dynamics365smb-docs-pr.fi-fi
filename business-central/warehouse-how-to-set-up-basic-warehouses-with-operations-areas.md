@@ -136,7 +136,7 @@ Erillisen varastopaikan tekeminen tuottaa samantapaisen toiminnan kuin varastopa
 > [!NOTE]  
 >  Varastopaikan on oltava tyhjä ennen kuin voit valita tai poistaa **Erityinen**-kentän.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />Katso myös
 

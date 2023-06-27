@@ -111,7 +111,7 @@ Fyysisen varastoinnin poiminta-asiakirjaa ei voi luoda tyhjästä. Poiminnat ova
 
 Nimikkeet voidaan nyt tuoda toimitusalueelle ja toimitus voidaan kirjata, mukaan lukien liittyvä lähdeasiakirja, **F.var. toimitus** -sivulla. Lisätietoja on kohdassa [Nimikkeiden toimittaminen](warehouse-how-ship-items.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespick-ship-items-warehouse" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/pick-ship-items-warehouse/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/pick-ship-items-warehouse/)
 
 ## <a name="see-also" />Katso myös
 

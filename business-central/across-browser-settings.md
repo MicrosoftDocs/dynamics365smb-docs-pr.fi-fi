@@ -50,7 +50,7 @@ Jos selain ei salli evästeitä, saat seuraavan virheilmoituksen:
 1. Siirry Microsoft Edgessä kohtaan **Asetukset** > **Evästeet ja sivuston käyttöoikeudet** > **Evästeet ja sivuston tiedot**.
 2. Siirrä **Salli sivustojen tallentaa ja lukea evästetietoja** -valitsin oikealle (päällä).  
 
-## <a name="a-namepopupaallow-pop-ups-from-business-central" /><a name="popup"></a>Salli ponnahdusikkunat Business Centralista
+## <a name="allow-pop-ups-from-business-central" /><a name="popup"></a>Salli ponnahdusikkunat Business Centralista
 
 [!INCLUDE[prod_short](includes/prod_short.md)] integroituu useisiin tuotteisiin. Joissakin tapauksissa, kuten Microsoft Teamsin kanssa, [!INCLUDE[prod_short](includes/prod_short.md)] avaa tai "ponnauttaa" ponnahdusikkunan tuotteen sisällä. Tämä ominaisuus edellyttää, että selain sallii ponnahdusikkunat [!INCLUDE[prod_short](includes/prod_short.md)]ista.
 

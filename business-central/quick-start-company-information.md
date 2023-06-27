@@ -27,7 +27,7 @@ Voit syöttää kaikki tarvittavat tiedot **Yritystiedot**-sivulla, kun määrit
 
 Kun olet täyttänyt tiedot, voit sulkea sivun.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

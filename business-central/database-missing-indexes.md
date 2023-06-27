@@ -10,7 +10,7 @@ audience: null
 ms.author: a-jaaamir
 ms.date: 06/09/2022
 ---
-# <a name="database-missing-indexes-in-includeprodlongincludesprodlongmd" />Tietokannasta puuttuvat indeksit [!INCLUDE[prod_long](includes/prod_long.md)]issa
+# <a name="database-missing-indexes-in-" />Tietokannasta puuttuvat indeksit [!INCLUDE[prod_long](includes/prod_long.md)]issa
 
 Järjestelmänvalvojat ja kehittäjät voivat tehdä tietokannasta tehokkaamman ja lopulta parantaa sovelluksen suorituskykyä käyttämällä tietoja, joita **Tietokannasta puuttuvat indeksit** keräävät [!INCLUDE[prod_short](includes/prod_short.md)]issa.
 

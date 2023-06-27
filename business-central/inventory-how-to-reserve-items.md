@@ -101,7 +101,7 @@ Seuraava toimenpide perustuu myyntitilaukseen.
 7. Valitse **OK**, jos haluat avata vain määritettyjen nimikkeen seurantanumeroiden tarjonnan näyttävän **Varaus**-sivun. Jos jollakin tälle riville määritetyllä nimikkeen seurantanumerolla on määrittämättömiä varauksia, saat ilmoituksen varatusta määrästä.  
 8. Luo tiettyjen nimikkeen seurantanumeroiden varaus valitsemalla joko **Automaattinen varaus**- tai **Varaa nykyiseltä riviltä** -toiminto.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-outbound-serial-lot-numbers" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-outbound-serial-lot-numbers/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-outbound-serial-lot-numbers/)
 
 ## <a name="see-also" />Katso myös
 

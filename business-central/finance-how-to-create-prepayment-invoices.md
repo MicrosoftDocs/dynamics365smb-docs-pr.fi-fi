@@ -74,7 +74,7 @@ Voit antaa muita tilauksen ennakkomaksulaskuja. Luo uusi lasku nostamalla yhden 
 
 Voit nopeuttaa tilausten ja laskujen käsittelemistä määrittämällä työjonotapahtumat, jotka päivittävät kyseisten asiakirjojen tilan automaattisesti. Kun ennakkomaksulasku on maksettu, työjonotapahtumat voivat automaattisesti muuttaa asiakirjan tilan **odottavasta ennakkomaksusta** **lähetetyksi**. Kun määrität työjonon tapahtumia, koodiyksiköt, joita tarvitset, ovat **383 Upd. Pending Prepmt. Sales** ja **383 Upd. Pending Prepmt. Purchase**. On suositeltavaa ajoittaa tapahtumat suoritettavaksi usein, esimerkiksi joka minuutti. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

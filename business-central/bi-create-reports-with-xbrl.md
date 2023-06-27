@@ -114,7 +114,7 @@ Kun taksonomia muuttuu tulee nykyinen taksonomia päivittää sen mukaiseksi. Sy
 6. Tuo linkkikanta valitsemalla **Tuo**-toiminto.  
 7. Valitse **Kyllä**, niin voit kohdistaa linkkikannan malliin.  
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesxbrl-reports-dynamics-365-business-centralindex" />Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Katso myös
 

@@ -32,6 +32,6 @@ Seuraava taulukko ilmaisee Microsoft-palveluihin liittyvät yhteydet, jotka otet
 
 Tietosuoja on meille tärkeää. [Microsoftin tietosuojatiedoissa](https://go.microsoft.com/fwlink/?linkid=521839) on tietoja siitä, miten Microsoft käsittelee tietojasi.
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

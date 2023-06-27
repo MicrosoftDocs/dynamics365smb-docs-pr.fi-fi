@@ -51,7 +51,7 @@ Valitse **Kirjattu ostolasku** -sivulla **Korjaa**- tai **Peruuta**-painike. Kun
 
 Jos peruutus liittyy osittaiseen laskun kirjaukseen, alkuperäinen ostotilausrivi päivitetään peruutetun laskutetun määrän mukaiseksi. **Laskutettava määrä** - ja **Laskutettu määrä** -kentät liittyvässä ostotilauksessa palautetaan arvoihin ennen osittaista kirjausta.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/receive-invoice-dynamics-d365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/receive-invoice-dynamics-d365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

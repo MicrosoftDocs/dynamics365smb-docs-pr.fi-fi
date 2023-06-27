@@ -47,7 +47,7 @@ Aloittaminen edellyttää muutamien vaiheiden suorittamista.
 
 Lisäksi on määritettävä toimittajat kotimaan **Ylein. liiketoim. kirjausryhmä**- ja **Toimittajan kirjausryhmä** -kohtaan. Toimittajan maa-/alueasetukseksi on määritettävä Tanska (DK). Lisätietoja on kohdassa [Kirjausryhmien määrittäminen](finance-posting-groups.md).  
 
-### <a name="to-allow-includeprodshortincludesprodshortmd-to-export-payment-data" />[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman salliminen maksutietojen vientiä varten
+### <a name="to-allow--to-export-payment-data" />[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman salliminen maksutietojen vientiä varten
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirja** ja valitse sitten vastaava linkki.  
 2. Valitse **Muokkaa maksupäiväkirjaa** -sivulla **Pankin** erä.  

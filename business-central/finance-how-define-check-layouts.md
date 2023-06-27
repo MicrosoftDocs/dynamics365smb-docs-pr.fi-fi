@@ -70,7 +70,7 @@ Seuraavassa on yhteenveto MICR CMC-7 -fonteista, joista voi olla hyötyä, kun f
 
 ![MICR CMC-7 -määritykset.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 -määritykset")
 
-### <a name="delimiter-characters" />Erottimen merkit
+### <a name="delimiter-characters-1" />Erottimen merkit
 
 ![Erottimen CMC-7-merkit.](media/font-cmc7-letters.png "Erottimen CMC-7-merkit")
 

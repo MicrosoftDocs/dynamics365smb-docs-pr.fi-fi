@@ -117,7 +117,7 @@ Työnkulun variaatiot määritetään täyttämällä työnkulkurivien kentät t
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-approval-workflows" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also" />Katso myös
 

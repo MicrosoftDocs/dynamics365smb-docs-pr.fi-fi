@@ -11,7 +11,7 @@ ms.search.form: null
 ms.date: 06/11/2021
 ms.author: edupont
 ---
-# <a name="local-functionality-in-includeprodlongincludesprodlongmd" />[!INCLUDE[prod_long](includes/prod_long.md)]in paikalliset toiminnot
+# <a name="local-functionality-in-" />[!INCLUDE[prod_long](includes/prod_long.md)]in paikalliset toiminnot
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in yhdistetty lokalisaatiostrategia sisältää sekä Microsoftin että kumppanin vetämät mallit. Tässä osassa on kuvaukset niissä maissa käytettävistä toiminnoista, joissa säädösten noudattaminen ja muut paikalliset toiminnot saadaan Microsoftin avulla.  
 

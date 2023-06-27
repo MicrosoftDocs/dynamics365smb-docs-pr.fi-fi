@@ -24,7 +24,7 @@ Seuraavat ohjeet käsittelevät [!INCLUDE[prod_short](includes/cds_long_md.md)]i
 
 3. Synkronoi tiedot sovellusten välillä. Lisätietoja on kohdassa [Business Centralin ja Dataversein synkronointi](admin-synchronizing-business-central-and-sales.md). 
 
-## <a name="getting-started-with-includeprodshortincludescdslongmdmd" />[!INCLUDE[prod_short](includes/cds_long_md.md)]in käytön aloittaminen
+## <a name="getting-started-with-" />[!INCLUDE[prod_short](includes/cds_long_md.md)]in käytön aloittaminen
 
 Jos haluat aloittaa [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen käyttämisen, tarvitset Microsoft Power Apps -tilin. Jos sinulla ei vielä ole Power Apps -tiliä, saat ilmaisen tilin käymällä osoitteessa [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) ja valitsemalla **Aloita ilmaiseksi** -linkin. Lisätietoja [!INCLUDE[prod_short](includes/cds_long_md.md)]n aloittamisesta on [Dataversen käytön aloittaminen](/training/modules/get-started-with-powerapps-common-data-service/) -moduulissa Microsoftin koulutuksissa.
 
@@ -57,7 +57,7 @@ Lisätietoja kustakin roolista, kuten käyttöoikeuksista ja käyttöoikeustasoi
 
 Yhteyden muodostamisen aikana luodaan integrointitaulukon yhdistämismääritykset, joita tarvitaan tietojen synkronoimiseen. [!INCLUDE[prod_short](includes/cds_long_md.md)]n entiteetit yhdistetään taulukoihin ja taulukkokenttiin Business Centralissa integrointitaulukoiden kautta. Lisätietoja on kohdassa [Synkronoinnin vakioentiteettien yhdistämismääritys](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-model-driven-apps-common-data-service" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-model-driven-apps-common-data-service/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-model-driven-apps-common-data-service/)
 
 ## <a name="see-also" />Katso myös
 

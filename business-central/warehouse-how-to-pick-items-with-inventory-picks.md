@@ -118,7 +118,7 @@ Skenaarioissa, joissa osa määrästä on kokoonpantava ja osa poimittava, luoda
 > [!NOTE]  
 > Jos nimikkeet ovat tilausta varten kokoonpantavia, varaston poiminta koskee linkitettyä myyntitilausta, kunnes varastosiirto luodaan kaikille kokoonpanon komponenteille.  
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Katso myös
 

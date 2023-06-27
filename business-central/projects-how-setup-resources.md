@@ -74,7 +74,7 @@ Resurssikortissa määritetyn hinnan lisäksi voit määrittää kullekin resurs
 3. Täytä **Resurssihinnat**-sivun rivillä tarvittavat kentät.
 4. Toista vaihe 3 kaikkien määritettävien vaihtoehtoisten resurssihintojen kohdalla.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />Katso myös
 

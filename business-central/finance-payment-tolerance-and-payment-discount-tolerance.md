@@ -211,11 +211,11 @@ Seuraavissa tilanteissa käytössä on vaihtoehdot A, B, C tai D:
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.1.03** <br />**17.1.03**|**20.1.03** <br />**22.1.03**|**>22.1.03**|**2000**|**Ei mitään**|**Kyllä**|**0**|**0**|  
 |30|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|>22.1.03|1990|Maksutoleranssi|Kyllä|0|5|  
 
-### <a name="payment-range-diagrams" />Maksualuediagrammit
+### <a name="payment-range-diagrams-1" />Maksualuediagrammit
 
 Yo. tapaukseen liittyen maksudiagrammi on seuraavanlainen:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3" />(1) Maksupvm <=15.01.03 (Tapaukset 1–3)
+#### <a name="1-payment-date-011503-scenarios-1-3-1" />(1) Maksupvm <=15.01.03 (Tapaukset 1–3)
 
 Jäljellä oleva summa per  
 
@@ -275,7 +275,7 @@ Normaalit kohdistussäännöt
 
 (2) Mikäli maksu osuu tälle välille kaikkia kohdistettavia tapahtumia ei voida sulkea edes toleranssilla.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesenter-payments-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/enter-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/enter-payments-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

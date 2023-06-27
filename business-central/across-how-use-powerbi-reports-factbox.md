@@ -10,7 +10,7 @@ ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysi
 ms.date: 06/11/2021
 ms.author: jswymer
 ---
-# <a name="creating-power-bi-reports-for-displaying-list-data-in-includeprodshortincludesprodshortmd" />[!INCLUDE[prod_short](includes/prod_short.md)]in luettelotiedot näyttävien Power BI -raporttien luominen
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-" />[!INCLUDE[prod_short](includes/prod_short.md)]in luettelotiedot näyttävien Power BI -raporttien luominen
 
 [!INCLUDE[prod_long](includes/prod_long.md)] sisältää Power BI -tietoruudun ohjausobjektielementin monilla tärkeillä luettelosivuilla. Tietoruudun tarkoitus on näyttää Power BI -raportteja, jotka liittyvät luetteloissa oleviin tietueisiin. Tällä tavoin tiedoista saadaan parempi käsitys. Raportti päivitetään valitun tapahtuman mukaan, kun siirryt luettelon riveillä.
 
@@ -116,7 +116,7 @@ Tarkista, että sivu, jonka haluat näkyvän, on raportin ensimmäinen sivu.
 
 Tarkista, että raportin kooksi on määritetty 325 x 310 kuvapistettä. Tallenna raportti ja päivitä sitten luettelosivu.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

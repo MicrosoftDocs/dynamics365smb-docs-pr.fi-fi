@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="use-the-include-prodshortincludesprodshortmd-apps-in-power-bi" />[!INCLUDE [prod_short](includes/prod_short.md)] -sovellusten käyttäminen Power BI:ssa
+# <a name="use-the--apps-in-power-bi" />[!INCLUDE [prod_short](includes/prod_short.md)] -sovellusten käyttäminen Power BI:ssa
 
 > **KOHDE:** [!INCLUDE [prod_long](includes/prod_long.md)] online 
 
@@ -51,7 +51,7 @@ Power BI -sovellukset tarvitsevat niiden taulukoiden käyttöoikeudet, joista ti
 
 Rekisteröidy Power BI -palveluun. Jos et ole vielä rekisteröitynyt, siirry osoitteeseen [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Käytä rekisteröityessä työpaikan sähköpostiosoitetta ja salasanaa.
 
-## <a name="install-a-includeprodshortincludesprodshortmd-app-in-power-bi" />[!INCLUDE[prod_short](includes/prod_short.md)] -asentaminen Power BI:ssa
+## <a name="install-a--app-in-power-bi" />[!INCLUDE[prod_short](includes/prod_short.md)] -asentaminen Power BI:ssa
 
 1. Avaa selain, siirry sivustoon [https://powerbi.microsoft.com](https://powerbi.microsoft.com) ja kirjaudu tilille.
 2. Valitse **Nouda tiedot** vasemman siirtymisruudun alareunassa.  
@@ -69,7 +69,7 @@ Rekisteröidy Power BI -palveluun. Jos et ole vielä rekisteröitynyt, siirry os
 
     Tämän jälkeen sovellus on käytettävissä Power BI:n siirtymisvalikon **Sovellukset**-kohdassa.
 
-## <a name="connect-the-includeprodshortincludesprodshortmd-app-to-your-data" />[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen yhdistäminen tietoihin
+## <a name="connect-the--app-to-your-data" />[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen yhdistäminen tietoihin
 
 1. Valitse **Sovellukset**-kohdassa ensin Business Central -sovellus ja sitten **Yhdistä**.
 2. Lisää pyydettäessä **Yrityksen nimi**- ja **Ympäristö**-kohtiin sitä [!INCLUDE[prod_short](includes/prod_short.md)] -esiintymää koskevat tiedot, johon haluat muodostaa yhteyden.
@@ -96,7 +96,7 @@ Power BI -tiliä ei ole määritetty. Kelvollinen Power BI -tili edellyttää k�
 
 Tämä sanoma avautuu, jos oletusraporttia ei voitu ottaa käyttöön Power BI -työtilassa. Vaihtoehtoisesti raportti otettiin käyttöön mutta sen päivittäminen ei onnistunut. Jos tämä ongelma esiintyy, siirry raporttiin Power BI -työtilassa, valitse **Tietojoukko**, **Asetukset** ja päivitä tunnistetiedot sitten manuaalisesti. Kun tietojoukko on päivitetty, siirry takaisin [!INCLUDE[prod_short](includes/prod_short.md)]iin ja valitse raportti manuaalisesti **Valitse raportit** -sivulla.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-includeprodshortincludesprodshortmd-app-in-power-bi" />[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen asentaminen Power BI:ihin edellyttää Power BI Pro -käyttöoikeutta.
+### <a name="you-need-a-power-bi-pro-license-to-install-the--app-in-power-bi" />[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen asentaminen Power BI:ihin edellyttää Power BI Pro -käyttöoikeutta.
 
 Tarvitse sisällön jakamiseen [Power BI Pro -käyttöoikeuden](/power-bi/service-features-license-type), joka on oltava myös henkilöillä, joiden kanssa sisältö jaetaan. Sisällön on oltava työtilassa [Premium-kapasiteettina](/power-bi/service-premium-what-is). Lisätietoja on kohdassa [Työn jakaminen Power BI:ssä](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
@@ -144,7 +144,7 @@ Power BI -sovellus näyttää vain sen [!INCLUDE[prod_short](includes/prod_short
 - [Avaa taustalla oleva raportti valitsemalla ruutu](/power-bi/service-dashboard-tiles).  
 - Tietojoukko ei oletusarvoisesti sisälly päivitykseen. Voit muuttaa päivitysaikataulua tai yrittää päivittämistä tarvittaessa **Päivitä nyt** -toiminnolla. Lisätietoja on kohdassa [Aikataulutetun päivityksen määrittäminen](/power-bi/refresh-scheduled-refresh).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

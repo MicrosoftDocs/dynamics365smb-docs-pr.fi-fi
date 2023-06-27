@@ -60,7 +60,7 @@ Tässä toimenpiteessä käsittelet asiakkaan pyytämien määrittelyjen mukaan 
 > [!NOTE]  
 > Korvaavat nimikkeet eivät korvaa nimikettä automaattisesti toisella nimikkeellä esimerkiksi myyntitilausta luotaessa tai tuoterakenteessa. Sen sijaan sinulle ilmoitetaan, että korvaava vaihtoehto on saatavilla.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

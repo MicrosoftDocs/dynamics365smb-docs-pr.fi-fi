@@ -231,7 +231,7 @@ FEFO-poimintaa käytettäessä ensimmäisenä vanhenevat nimikkeet kerätään v
 
 Hyllytysmalli määrittää sarjan priorisoituja sääntöjä, joita on käytettävä hyllytyksiä luotaessa. Hyllytysmalli esimerkiksi edellyttää, että nimikkeet asetetaan varastopaikkaan, jonka varastopaikan sisällössä on sama mittayksikkö. Jos kapasiteetiltaan samanlaista varastopaikkaa ei löydy, nimike on asetettava tyhjään varastopaikkaan. Hyllytysmalli määritetään nimikkeelle ja sijainnille.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />Katso myös
 
@@ -239,6 +239,6 @@ Hyllytysmalli määrittää sarjan priorisoituja sääntöjä, joita on käytett
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

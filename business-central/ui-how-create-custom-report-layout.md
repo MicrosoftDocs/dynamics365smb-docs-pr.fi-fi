@@ -54,7 +54,7 @@ Mukautettu asettelu on luotu, ja voit muokata sitä haluamallasi tavalla.
 > [!TIP]
 > Voit viedä raportin tulokset Microsoft Excel -tiedostoon koko tietojoukon tarkastelemista varten, kaikki sarakkeet mukaan lukien, mutta ilman asettelua. Excel-tiedoston avulla voit diagnosoida ongelmia tai tarkistaa, että raportti palauttaa odotetut tiedot. Lisätietoja on kohdassa [Raporttitietojen analysointi Excelillä](report-analyze-excel.md).
 
-## <a name="a-namemodifycustomlayoutamodifying-a-custom-layout" /><a name="ModifyCustomLayout"></a>Mukautetun asettelun muokkaaminen
+## <a name="modifying-a-custom-layout" /><a name="ModifyCustomLayout"></a>Mukautetun asettelun muokkaaminen
 
 Jos haluat muokata mukautetun raportin asettelua, sinun täytyy ensin viedä raportin asettelu tiedostona sijaintiin tietokoneessasi tai verkossa. Avaa sitten viety asia kirja ja tee muutokset. Kun olet tehnyt haluamasi muutokset, voit tuoda raporttiasettelun.
 
@@ -78,7 +78,7 @@ Jos haluat muokata mukautetun raportin asettelua, sinun täytyy ensin viedä rap
 > Muista tuoda muokkaamasi raporttiasetteluasiakirja. Muussa tapauksessa uusi raportin asettelu ei ole käytettävissä.
 
 <!--
-## <a name="a-namemakechangestolayouta-create-and-modify-custom-report-layouts" /><a name="MakeChangesToLayout"></a> Create and modify custom report layouts
+## <a name="create-and-modify-custom-report-layouts" /><a name="MakeChangesToLayout"></a> Create and modify custom report layouts
 
 To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word like you do with any Word document.
 
@@ -91,7 +91,7 @@ If you're designing a Word report layout from scratch or adding new data fields,
 
 To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. Learn more about embedding fonts in Word at [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-### <a name="a-nameremovefielda-removing-label-and-data-fields-in-word-layouts" /><a name="RemoveField"></a> Removing label and data fields in Word layouts
+### <a name="removing-label-and-data-fields-in-word-layouts" /><a name="RemoveField"></a> Removing label and data fields in Word layouts
 
  Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it's selected in the Word document.  
 
@@ -111,7 +111,7 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 Adding data fields from a report dataset is more advanced and requires some knowledge of the report dataset. Learn more about adding fields for data, labels, and images at [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

@@ -49,7 +49,7 @@ Vuoden 2022 2. julkaisuaalto sisältää ylimääräisen suojauksen, ettei KP-ti
 
 Paras käytäntö on määrittää **Estä KP-tilien poisto** -kentän arvoksi *Kyllä* ja **Tarkista, voidaanko KP-tili poistaa tämän jälkeen** -kentän arvoksi esimerkiksi päivämäärä, johon mennessä taloustiedot on tallennettava.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschart-accounts-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/chart-accounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 
@@ -65,6 +65,6 @@ Paras käytäntö on määrittää **Estä KP-tilien poisto** -kentän arvoksi *
 [Määritä ja sulje tuloslaskelmasaldot espanjalaisessa versiossa](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)  
 [Tilikartan sisentäminen ja vahvistaminen espanjalaisessa versiossa](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

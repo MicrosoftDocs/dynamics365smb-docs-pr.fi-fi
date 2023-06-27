@@ -25,7 +25,7 @@ Kun olet määrittänyt myyjän **Myyjät**-sivulla, voit valita luomasi myyjän
 
 Voit käyttää myyjiä erilaisissa asiakkuudenhallinta- ja markkinointitöissä. Voit esimerkiksi määrittää tehtäviä myyjille siten, että tehtävät sisältyvät niihin myyntimahdollisuuksiin, jotka on määritetty myyjälle. Lisätietoja on ohjeaiheessa [Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

@@ -174,7 +174,7 @@ Seuraavissa vaiheissa on esimerkki toiminnoista, joita eri henkilöt tekevät ja
 
 :::image type="content" source="media/binflow.png" alt-text="Yleiskatsaus Varastopaikkakoodi-kenttä täyttämisen ajankohdasta ja täyttämistavasta.":::
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Katso myös
 

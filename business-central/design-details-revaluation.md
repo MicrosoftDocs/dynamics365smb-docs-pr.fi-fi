@@ -89,7 +89,7 @@ Kun vakio-arvostusmenetelmää käyttävien nimikkeiden uudelleenarvostusmäär�
 -   Arvotapahtuman, jonka tapahtumatyyppi on **Varianssi**. Tämä tapahtuma tallentaa laskutettujen kustannusten ja uudelleenarvostettujen vakiokustannusten välisen eron.  
 -   Arvotapahtuman, jonka tapahtumatyyppi on **Uudelleenarvostus**. Tämä tapahtuma tallentaa oletetun kustannuksen uudelleenarvostuksen peruutuksen.  
 
-### <a name="example" />Esimerkki
+### <a name="example-1" />Esimerkki
 Seuraava esimerkki, joka perustuu edellisen esimerkin ketjun valmistukseen, kuvaa, kuinka kolme kirjaustyyppiä luodaan. Se perustuu seuraavaan skenaarioon:  
 
 1.  Käyttäjä kirjaa ostetut lenkit vastaanotetuiksi yksikköhintaan 2,00 (PVA).  
@@ -123,7 +123,7 @@ Seuraavassa taulukossa esitetään kriteeri, jota käytetään nimikkeelle, joka
 |I|Myöhempi kuin uudelleenarvostustapahtuman nro|Vastaava kuin uudelleenarvostuksen kirjauspäivämäärä|Kyllä|  
 |N|Myöhempi kuin uudelleenarvostustapahtuman nro|Myöhempi kuin uudelleenarvostuksen kirjauspäivämäärä|Kyllä|  
 
-### <a name="example" />Esimerkki
+### <a name="example-2" />Esimerkki
 Seuraava esimerkki, jossa kuvataan sellaisen nimikkeen uudelleenarvostus, joka käyttää FIFO-kustannuslaskentamenetelmää, perustuu seuraavaan skenaarioon:  
 
 1.  1.1.2000 käyttäjä kirjaa 6 yksikön oston.  

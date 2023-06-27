@@ -112,7 +112,7 @@ Voit myös luoda oman ennakoivan verkkopalvelun **Dynamics 365 Business Centrali
 7. Valitse **Käytä omaa Azure-tilausta** -valintaruutu.
 8. Syötä **Oman mallin tunnistetiedot** -pikavälilehteen mallin ohjelmointirajapinnan URL-osoite ja avain.  .  
 
-## <a name="see-related-microsoft-trainingtrainingmodulespredict-late-payments-sales-documents" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/predict-late-payments-sales-documents/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/predict-late-payments-sales-documents/)
 
 ## <a name="see-also" />Katso myös
 

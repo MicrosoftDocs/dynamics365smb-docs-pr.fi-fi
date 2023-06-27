@@ -234,7 +234,7 @@ Voit tarkastella sertifikaattiryhmiä aloittamalla **Tarjontasertifikaatit**-siv
 > * Tarjontasertifikaatin luominen manuaalisesti  
 > * Tarjontasertifikaatin tulostaminen.
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

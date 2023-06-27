@@ -25,7 +25,7 @@ Raportti [!INCLUDE[prod_short](includes/prod_short.md)]issa kerää tietoja mä�
 | Lisätietoja raportin oletusasettelun muuttamisesta. | [Raportin oletusasettelun muuttaminen](ui-how-change-layout-currently-used-report.md) |
 | Raportin tietojoukon tietojen tarkastelu ja analysointi Microsoft Excelissä. | [Raportin tietojoukon tallennus Exceliin pyyntösivulta](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Katso [Microsoftin koulutukset](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Katso [Microsoftin koulutukset](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Katso myös
 

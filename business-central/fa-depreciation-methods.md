@@ -294,7 +294,7 @@ Kun käyttöomaisuuden KP-päiväkirjan B1:een annetaan tapahtuma ja **Käytä m
 > [!NOTE]  
 > Samaa numerosarjaa ei voi käyttää sekä käyttöomaisuuden KP-päiväkirjassa että KO-päiväkirjassa. Kun kirjaat tapahtumia KO/KP-päiväkirjaan, jätä **Asiakirjan nro** -kenttä tyhjäksi. Jos annat kenttään numeron, numero monistetaan KO-päiväkirjaan. Asiakirjanumero on muutettava manuaalisesti ennen päiväkirjan kirjaamista.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-depreciation-books" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-depreciation-books/)
 
 ## <a name="see-also" />Katso myös
 

@@ -72,7 +72,7 @@ Kun toimittaja toimittaa nimikkeet, voit kirjata myyntitilauksen toimitetuksi. V
 4. Valitse **Kirjaa**- tai **Kirjaa ja lähetä** -toiminto.
 5. Valitse **Toimitus**-vaihtoehto, kun haluat laskuttaa myöhemmin, tai **Toimitus ja lasku** -vaihtoehto, kun haluat laskuttaa heti.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

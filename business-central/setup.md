@@ -10,7 +10,7 @@ ms.search.keywords: 'configure, initialize'
 ms.date: 09/27/2022
 ms.author: edupont
 ---
-# <a name="overview-of-tasks-to-set-up-includeprodshortincludesprodshortmd" />[!INCLUDE[prod_short](includes/prod_short.md)]in määritystehtävien yleiskatsaus
+# <a name="overview-of-tasks-to-set-up-" />[!INCLUDE[prod_short](includes/prod_short.md)]in määritystehtävien yleiskatsaus
 
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset organisaatiosi tarpeita vastaaviksi. [Business Centralin pika-aloituksen](quick-start-business-central.md) artikkelien avulla voit ottaa ensimmäiset askelet [!INCLUDE [prod_short](includes/prod_short.md)]in käyttöönotossa. Tässä artikkelissa on yleiskuvaus siitä, miten voit määrittää [!INCLUDE [prod_short](includes/prod_short.md)]in organisaatiollesi.
 
@@ -79,6 +79,6 @@ Voit lisätä ominaisuuksia sovellukseen [!INCLUDE [prod_short](includes/prod_sh
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Business Centralin pika-aloitus](quick-start-business-central.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

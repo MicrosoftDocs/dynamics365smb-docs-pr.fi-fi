@@ -10,7 +10,7 @@ audience: null
 ms.author: a-jaaamir
 ms.date: 06/15/2022
 ---
-# <a name="database-wait-statistics-in-includeprodlongincludesprodlongmd" />Tietokannan odotustilastot [!INCLUDE[prod_long](includes/prod_long.md)]issa
+# <a name="database-wait-statistics-in-" />Tietokannan odotustilastot [!INCLUDE[prod_long](includes/prod_long.md)]issa
 
 Järjestelmänvalvojat ja kehittäjät voivat tarkastella tietokannan suorituskykyä tarkastelemalla **tietokannan odotustilastoja** [!INCLUDE[prod_short](includes/prod_short.md)]issa. **Tietokannan odotustilastojen** tietojen avulla voidaan tarkistaa käytettävien resurssien laji sekä viiveet, joita tietokannan prosessit kohtaavat. Analysoimalla näitä odotustilastoja voit selvittää tietokannan hitaan suorituskyvyn perimmäiset syyt ja tehdä lopulta parempia päätöksiä sovelluksen suorituskyvystä.
 

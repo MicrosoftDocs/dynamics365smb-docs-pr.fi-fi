@@ -79,7 +79,7 @@ Projektin suunnittelurivin tyyppi voi olla jokin seuraavista tyypeistä.
 4. Täytä **Projektin suunnittelurivit** -sivun uuden rivin tarvittavat kentät.
 5. Toista vaiheet 3 ja 4 kaikille projektitehtävässä tarvittaville suunnitteluriveille.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-job" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-new-job/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-new-job/)
 
 ## <a name="see-also" />Katso myös
 

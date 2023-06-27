@@ -22,7 +22,7 @@ Jokainen varastotoimintoja suorittava käyttäjä on määritettävä varastoty�
 5. Ota käyttöön **Oletus**-vaihto, jos haluat määrittää, että tämä on ainoa sijainti, jossa työntekijä voi suorittaa varastotoimintoja.  
 6. Liitä sijainteihin muita työntekijöitä tai liitä aiemmin luoduille varastotyöntekijöille muita sijainteja toistamalla nämä vaiheet.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />Katso myös
 

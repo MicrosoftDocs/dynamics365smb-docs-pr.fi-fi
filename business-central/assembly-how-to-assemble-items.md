@@ -67,7 +67,7 @@ Noudata näitä ohjeita kootaksesi nimikkeen varasoton. Lisätietoja Kokoonpano 
 
 Kun kirjaus on onnistunut, kokoonpanon nimike kirjatataan sijaintikoodiin ja mahdolliseen varastopaikkakoodiin, jotka on määritetty kokoonpano tilauksessa. Jos kokoonpanotilaus on luotu manuaalisesti, sijainti voidaan kopioida **Tilausten oletussijainti** -asetuskentästä Jos kyseessä on kokoonpano tilausta varten -virrat, sijaintikoodi voidaan kopioida myyntitilausriviltä.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" /><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" /><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" /><a name="see-also"></a>Katso myös
 

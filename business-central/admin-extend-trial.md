@@ -45,7 +45,7 @@ Kun jatkettu kokeilujakso on päättynyt, voit [tilata](https://go.microsoft.com
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

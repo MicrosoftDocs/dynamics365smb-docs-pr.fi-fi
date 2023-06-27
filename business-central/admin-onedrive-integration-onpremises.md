@@ -22,7 +22,7 @@ OneDrive-integroinnin määrittämiseen tarvitaan kaksi tehtävää.
 > [!IMPORTANT]
 > [!INCLUDE[prod_short](includes/prod_short.md)] on-premises voidaan yhdistää vain OneDriveen, jota isännöi Microsoft pilvipalvelussa. Yhteyden muodostamista [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -asennuksesta SharePoint-palvelimen Omat sivustot -säilöön ei tueta.
 
-## <a name="a-nameregisterapparegister-an-app-in-azure-ad-for-onedrive-integration" /><a name="registerapp"></a>Sovelluksen rekisteröinti Azure AD:ssa OneDrive-integrointia varten
+## <a name="register-an-app-in-azure-ad-for-onedrive-integration" /><a name="registerapp"></a>Sovelluksen rekisteröinti Azure AD:ssa OneDrive-integrointia varten
 
 Tässä tehtävässä lisäät rekisteröidyn sovelluksen Business Centralille Microsoft 365 -suunnitelman Azure AD -vuokraajassa. Muiden Business Centralissa käytettävien Azure-palvelujen tavoin OneDrive edellyttää rekisteröityä sovellusta Azure Active Directoryssa (Azure AD). Rekisteröity sovellus tuottaa Business Centralin ja SharePointin välisiä todennus- ja valtuutuspalveluita, jota OneDrive käyttää.
 
@@ -45,7 +45,7 @@ Kun rekisteröit sovelluksen, harkitse seuraavia seikkoja:
 
 - Jos käytät Business Central -versiota 19 tai 20, kopioi rekisteröidyn sovelluksen käyttämä **Asiakastunnus** ja **Asiakkaan salaisuus**. Tarvitset näitä tietoja seuraavassa tehtävässä.
 
-## <a name="a-nameurlaget-your-onedrive-url" /><a name="url"></a>Hanki OneDrive URL-osoite
+## <a name="get-your-onedrive-url" /><a name="url"></a>Hanki OneDrive URL-osoite
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
@@ -74,7 +74,7 @@ Käytä tätä toimintoa, jos käytössäsi on Business Centralin vuoden 2022 ju
    - Jos et ole vielä määrittänyt Azure AD -rekisteröityä sovellusta, **Määritä Azure Active Directory** -opas avautuu.
 6. Kun se on valmis, tietosuojailmoitus OneDrive-integraatiolle hyväksytään kaikille käyttäjille. Jos haluat muuttaa sitä niin, että käyttäjien on hyväksyttävä tai hylättävä se itse, mene **Tietosuojailmoitusten tila** -sivulle ja valitse **Anna käyttäjän päättää** OneDrive-integraatiossa. Käyttäjiä pyydetään sitten hyväksymään tai hylkäämään tietosuojailmoitus, kun he käyttävät OneDrive-ominaisuuksia ensimmäisen kerran. Lisätietoja on kohdassa [Tietosuojailmoitukset](privacy-notices-status.md).
 
-## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version-19-and-20" />[!INCLUDE[prod_short](includes/prod_short.md)]-yhteyden määrittäminen versioissa 19 ja 20
+## <a name="set-up-the-connection-in--version-19-and-20" />[!INCLUDE[prod_short](includes/prod_short.md)]-yhteyden määrittäminen versioissa 19 ja 20
 
 Käytä tätä toimintoa, jos käytössäsi on Business Centralin vuoden 2022 julkaisuaalto 1 (versio 20) tai vuoden 2021 julkaisuaalto 2 (versio 19).
 > [!IMPORTANT]
@@ -106,7 +106,7 @@ Voit siirtyä uuteen OneDrive-integrointiin suorittamalla **OneDrive-määrityks
 
 Ennen kuin aloitat valitsimen käytön tai sen tekemisen, tutustu seuraavaan osioon ja tutustu prosessiin liittyviin näkökohtiin ja huomioihin. 
 
-### <a name="a-nameonedrivesetupmigrationaabout-switching-to-the-new-onedrive-integration" /><a name="onedrivesetupmigration"></a>Tietoja siirtymisestä uuteen OneDrive-integraatioon
+### <a name="about-switching-to-the-new-onedrive-integration" /><a name="onedrivesetupmigration"></a>Tietoja siirtymisestä uuteen OneDrive-integraatioon
 
 OneDrive-integroinnin lisäksi Business Central voi integroida myös muihin palveluihin, kuten Power BIhin ja Universal Print -palveluun. Integrointi näihin muihin palveluihin vaatii myös rekisteröidyn Azure AD -sovelluksen todennusta varten. Näiden muiden palveluiden käyttämä Azure AD -sovellus on määritetty **Määritä Azure Active Directory -tilit** asetusten ohjattuun määritykseen. Kun siirryt vanhan SharePoint-yhteyden asetuksista, uusi **OneDrive-määritys** asetusten ohjattu määritys muuttaa OneDrive-integrointia myös käyttämään **Määritä Azure Active Directory -tilien** -asetusten ohjatun määrityksen&mdash;jotta kaikki integraatiot käyttävät samaa Azure AD -sovellusta.
 

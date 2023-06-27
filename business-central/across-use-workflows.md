@@ -64,7 +64,7 @@ Ennen kuin voit aloittaa työnkulkujen käyttämisen, sinun on määritettävä 
 | Tarkastele **Valmis**-tilassa olevia työnkulun osavaiheita. | [Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen](across-how-to-view-archived-workflow-step-instances.md) |
 | Poista hyväksyntätyönkulku, joka ei ole enää käytössä. | [Hyväksymistyönkulkujen poistaminen](across-how-to-delete-workflows.md) |
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Katso myös
 

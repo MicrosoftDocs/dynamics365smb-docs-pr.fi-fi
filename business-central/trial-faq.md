@@ -44,7 +44,7 @@ Siirry 30 päivän kokeiluversioon ja lisää sitten omat tietosi. Lisätietoja 
 
 Se ei ole mahdollista. Jos poistat näytetiedot vahingossa, pyydä järjestelmänvalvojaa luomaan uusi eristysympäristö. Lisätietoja on hallintasisällön kohdassa [Tuotanto ja -eristysympäristöjen hallinta](/dynamics365/business-central/dev-itpro/administration/environment-types) (vain englanniksi).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

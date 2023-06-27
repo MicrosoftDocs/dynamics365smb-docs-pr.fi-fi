@@ -24,7 +24,7 @@ Kustannuslaskennan avulla voit ymmärtää käynnissä olevan liiketoiminnan kus
 |Tutustu kustannusbudjetin luonnin prosesseihin.|[Kustannusbudjettien luominen](finance-create-cost-budgets.md)|
 |Peruutat kustannusbudjettitapahtumat kustannusbudjettirekisteristä.|[Kustannusbudjettitapahtumien poistaminen](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-cost-accounting-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 [Rahoitus](finance.md)  

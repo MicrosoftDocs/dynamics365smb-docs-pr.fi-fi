@@ -82,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Kaikki [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen yllä mainitut enum-arvot yhdistetään [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen asetusjoukkoihin.
 
-### <a name="extending-option-sets-in-includeprodshortincludesprodshortmd" />[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen asetusjoukkojen laajentaminen
+### <a name="extending-option-sets-in-" />[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen asetusjoukkojen laajentaminen
 1. Luo uusi AL-laajennus.
 
 2. Lisää Enum-laajennus laajennettaville asetuksille. Varmista, että käytät samaa arvoa. 
@@ -104,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > Uusien asetusarvojen nimien ja otsikoiden kymmenen ensimmäisen merkin on oltava samoja. Esimerkiksi kaksi asetusta, joiden nimet ovat Siirretään 20 työpäivää ja Siirretään 20 kalenteripäivää, aiheuttavat virheen, koska molemmissa on samat 10 ensimmäistä merkkiä (Siirretään). Anna nimiksi esimerkiksi SIIR20 TP ja SIIR20 KP.
 
-### <a name="update-includeprodshortincludescdslongmdmd-option-mapping" />[!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen asetusten yhdistämisen päivittäminen
+### <a name="update--option-mapping" />[!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen asetusten yhdistämisen päivittäminen
 Nyt voit luoda uudelleen [!INCLUDE[prod_short](includes/cds_long_md.md)] -asetusten ja [!INCLUDE[prod_short](includes/prod_short.md)] -tietueiden välisen yhdistämismäärityksen.
 
 Valitse **Integrointitaulukon yhdistämismääritys** -sivulla rivi **Maksuehdot**-yhdistämistä varten. Valitse sitten **Synkronoi muokatut tietueet** -toiminto. **Dataverse-asetuksen yhdistäminen** -sivulle päivitetään alla olevat lisätietueet.

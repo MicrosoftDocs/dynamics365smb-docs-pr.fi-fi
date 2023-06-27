@@ -89,7 +89,7 @@ Valitse **Sisällytä tai jätä pois verot asiakkaan maan mukaan** **Muut markk
 > [!NOTE]
 > Tämä asetus ei vaikuta hintoihin kotimaan markkinoilla, joita ohjaa **Kaikki hinnat sisältävät veron** -vaihtoehto.
 
-### <a name="all-prices-include-tax-is-selected" />Kaikki hinnat sisältävät ALV:n on valittu
+### <a name="all-prices-include-tax-is-selected-1" />Kaikki hinnat sisältävät ALV:n on valittu
 
 |-|Kotimaan myynti|Ulkomaa, jossa vero sisältyy hintaan|Ulkomaa, jossa vero ei sisälly hintaan|
 |------------------------|--------|--------|--------|
@@ -99,7 +99,7 @@ Valitse **Sisällytä tai jätä pois verot asiakkaan maan mukaan** **Muut markk
 
 Kunkin asiakkaan hinta muuttuu heidän sijaintinsa mukaan.
 
-### <a name="all-prices-include-tax-is-not-selected" />Kaikki hinnat sisältävät ALV:n ei ole valittu
+### <a name="all-prices-include-tax-is-not-selected-1" />Kaikki hinnat sisältävät ALV:n ei ole valittu
 
 |-|Kotimaan myynti|Ulkomaa, jossa vero sisältyy hintaan|Ulkomaa, jossa vero ei sisälly hintaan|
 |------------------------|--------|--------|--------|

@@ -202,7 +202,7 @@ Muutosvarastopaikan tietueet kirjataan määritettyjen jaksojen nimiketapahtumii
 5. Valitse **OK**. Kunkin nimikkeen positiiviset ja negatiiviset muutokset lasketaan yhteen, minkä lisäksi nimikepäiväkirjaan luodaan rivit.  
 6. Lisää määräerot nimiketapahtumiin kirjaamalla päiväkirjarivit. Varastopaikkojen ja nimiketapahtuvien varastot vastaavat nyt toisiaan.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/adjust-inventory/)
 
 ## <a name="see-also" />Katso myös
 

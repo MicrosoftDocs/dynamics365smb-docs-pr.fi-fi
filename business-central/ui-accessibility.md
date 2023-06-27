@@ -26,7 +26,7 @@ Tässä artikkelissa on tietoja toiminnoista, joiden ansiosta [!INCLUDE[prod_sho
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namenavigationa-navigation" /><a name="Navigation"></a> Siirtyminen
+## <a name="navigation" /><a name="Navigation"></a> Siirtyminen
   
 Voit käyttää näppäimistön sarkain-, vaihto- ja nuolinäppäimiä, jos haluat siirtyä sivun elementtien välillä. Elementtejä ovat toiminnot, kentät ja sarakkeet, osat ja muut ohjausobjektit. Yleensä voit siirtyä seuraavaan tai edelliseen elementtiin valitsemalla <kbd>sarkain</kbd>- tai <kbd>vaihto</kbd>+<kbd>sarkain</kbd>-näppäimiä.
 
@@ -34,19 +34,19 @@ Kun keskitys tehdään toimintoja sisältävälle alueelle, siirry nuolinäppäi
 
 Voit siirtyä sarkaimella järjestyksessä pääselainsivun ja esimerkiksi vahvistusta pyytävän valintaikkunan tai kirjautumissivun välillä.  
 
-## <a name="a-nameheadingsa-headings-in-content" /><a name="Headings"></a>Sisällön otsikot
+## <a name="headings-in-content" /><a name="Headings"></a>Sisällön otsikot
 
 [!INCLUDE[prod_short](includes/prod_short.md)]:n sisällön HTML-lähde käyttää tunnisteita, jotka auttavat helppokäyttötoimintojen käyttäjiä ymmärtämään sivun rakennetta ja sisältöä. Esimerkiksi luettelosivuilla sarakkeet määritetään TH.-tunnisteilla ja sarakeotsikot määritetään tunnisteen sisällä olevalla TITLE-määritteellä. Otsikkotunnisteet (H1, H2, H3 ja H4) sisältävät elementtien, kuten pikavälilehtien, tietoruutujen ja kenttien, selosteet.  
 
-## <a name="a-nameimagesa-image-and-links" /><a name="Images"></a> Kuva ja linkit
+## <a name="image-and-links" /><a name="Images"></a> Kuva ja linkit
 
 Kuvien kuvaileva teksti määritetään IMG-tunnisteeseen sisältyvällä ALT-määritteellä. Hyperlinkkien kuvaileva teksti määritetään A-tunnisteeseen sisältyvällä TITLE-määritteellä.  
 
-## <a name="a-nameassistivetecha-assistive-technologies" /><a name="AssistiveTech"></a> Käyttöä tukevat tekniikat
+## <a name="assistive-technologies" /><a name="AssistiveTech"></a> Käyttöä tukevat tekniikat
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tukee erilaisia käyttöä helpottavia tekniikoita, kuten suurta kontrasti, näytönlukuohjelmia ja puheentunnistusohjelmistoja. Jotkin käyttöä helpottavat tekniikat eivät ehkä toimi hyvin tiettyjen [!INCLUDE[prod_short](includes/prod_short.md)]:n sivuelementtien kanssa.  
 
-## <a name="a-namezooma-zoom" /><a name="zoom"></a>Zoomaa
+## <a name="zoom" /><a name="zoom"></a>Zoomaa
 
 Useimmat selaimet käyttävät vakiopikanäppäimiä, kun haluat lähentää ja loitontaa nykyistä sivua. Nämä pikanäppäimet eivät ole tuotteelle [!INCLUDE [prod_short](includes/prod_short.md)] ominaisia, mutta ne toimivat, kun [!INCLUDE [prod_short](includes/prod_short.md)] on käytössä selaimessa. Luettelo tuetuista pikanäppäimistä on kohdassa [Pikanäppäimet lähentämistä ja loitontamista varten](keyboard-shortcuts.md#zoomshortcuts).
 

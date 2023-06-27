@@ -51,7 +51,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 |Tietoja kokoonpanon tuoterakenteiden käyttämisestä ja niiden eroista tuotannon tuoterakenteisiin.|[Kokoonpanon tuoterakenteiden käyttäminen](assembly-how-work-assembly-boms.md)|
 |Tietoja kokoonpanon kulutuksen ja tuotoksen kirjaamisesta ja tavasta, jolla [!INCLUDE [prod_short](includes/prod_short.md)] jakaa nimike- ja resurssikustannukset kirjanpitoon.|[Rakennetiedot: Kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 
@@ -63,6 +63,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 <!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

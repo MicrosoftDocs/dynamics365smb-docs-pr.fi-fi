@@ -109,7 +109,7 @@ Käytä joukkotuonnissa määrityspaketteja tietojen tuomiseen päiväkirjoihin.
 > [!NOTE]
 > Et voi käyttää **Muokkaa Excelissä** -toimintoa luodaksesi päiväkirjarivejä, joissa on seurantatietoja.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepare-item-tracking" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also" />Katso myös
 

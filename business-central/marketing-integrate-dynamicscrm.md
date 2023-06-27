@@ -144,7 +144,7 @@ Voit synkronoida hinnastot valitsemalla **Myyntihinnasto**-sivulla **Liittyvät*
 [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md)    
 [Salesin ja myyntikeskuksen yleiskuvaus](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

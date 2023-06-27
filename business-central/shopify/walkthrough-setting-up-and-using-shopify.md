@@ -132,11 +132,11 @@ Huomaa, että tilauksen tila on nyt **Shopify Adminissa** *Fulfilled*. Voit myö
 
 ## <a name="walkthrough-invite-your-customers-to-your-new-online-store" />Vaihekuvaus: Asiakkaiden kutsuminen uuteen verkkokauppaasi
 
-### <a name="scenario" />Skenaario
+### <a name="scenario-1" />Skenaario
 
 Uuden verkkokauppasi onnistuneen lanseerauksen jälkeen haluat, että nykyiset asiakkaasi vierailevat siellä ja aloittavat tilausten tekemisen.
 
-### <a name="steps" />Vaiheet
+### <a name="steps-1" />Vaiheet
 
 Suorita [!INCLUDE[prod_short](../includes/prod_short.md)] -järjestelmässä seuraavat vaiheet:
 
@@ -148,11 +148,11 @@ Huomaa, että asiakkaat tuotiin **Shopify Adminiin**. Avaa joku asiakkaista ja h
 
 ## <a name="walkthrough-fine-tuning-of-item-management" />Vaihekuvaus: Nimikkeiden hallinnan hienosäätö
 
-### <a name="scenario" />Skenaario
+### <a name="scenario-2" />Skenaario
 
 Haluat varmasti tehdä nimikkeiden hallinnan prosesseista joustavampia ja helpommin hallittavia. Haluat parantaa tuotteiden kuvausta ja lisätä uusia tarkistusvaiheita ennen kuin tuotteet julkaistaan loppuasiakkaille.
 
-### <a name="steps" />Vaiheet
+### <a name="steps-2" />Vaiheet
 
 Suorita [!INCLUDE[prod_short](../includes/prod_short.md)] -järjestelmässä seuraavat vaiheet:
 
@@ -241,11 +241,11 @@ Avaa tuotekatalogi **Shopify-verkkokaupassa** ja etsi *ATHENS Desk* -tuote. Huom
 
 ## <a name="walkthrough-import-items-from-shopify" />Vaihekuvaus: Nimikkeiden tuominen Shopifysta
 
-### <a name="scenario" />Skenaario
+### <a name="scenario-3" />Skenaario
 
 Sinulla on jo menestyvä verkkokauppa ja haluaisit aloittaa [!INCLUDE[prod_short](../includes/prod_short.md)]in käyttämisen liiketoiminnan hallintaohjelmistona. Haluat tuoda mahdollisimman paljon tietoja Shopifysta. 
 
-### <a name="steps" />Vaiheet
+### <a name="steps-3" />Vaiheet
 
 Tämä on jatkoa [Vaihekuvaus: Tuotteiden myynnin aloittaminen verkossa](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online) -osiolle. Voit myös kokeilla käyttää omia tietojasi, esimerkiksi Shopify-kauppaasi tai -eristysympäristöäsi.
 

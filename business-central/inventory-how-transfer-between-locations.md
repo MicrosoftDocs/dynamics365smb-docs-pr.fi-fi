@@ -125,7 +125,7 @@ Jos määrä toimitettiin fyysisen varastoinnin toimituksena, korjaava rivi luod
 
 Viimeistele korjaus avaamalla siirtotilaus, antamalla oikea määrä ja kirjaamalla tilaus. Jos tilaus on toimitettu fyysisen varastoinnin toimituksen kautta, uusi fyysisen varastoinnin toimitus luodaan ja kirjataan.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestransfer-items" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/transfer-items/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/transfer-items/)
 
 ## <a name="see-also" />Katso myös
 

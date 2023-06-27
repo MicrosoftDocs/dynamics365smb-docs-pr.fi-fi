@@ -220,7 +220,7 @@ Nimikkeiden seurannan uudelleenluokittelu tarkoittaa erä- tai sarjanumeron muut
 8. Jos haluat muokata erä- tai sarjanumeron olemassa olevia tietoja, voit tallentaa erä- tai sarjatietoja.  
 9. Kirjaamalla päiväkirjan voit linkittää uusitun nimikeseurannan numerot tai vanhentumispäivämäärät liitettyyn nimiketapahtumaan
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepare-item-tracking" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepare-item-tracking/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepare-item-tracking/)
 
 ## <a name="see-also" />Katso myös
 

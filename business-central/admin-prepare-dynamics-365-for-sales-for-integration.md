@@ -25,7 +25,7 @@ Jos [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[prod_short](includes/pro
 > [!NOTE]
 > Jos uudelleenyhdistämisessä käytetään [!INCLUDE[prod_short](includes/cds_long_md.md)] -palvelua, käyttöön otetaan synkronoinnin oletusasetukset ja käytössä olevat määritykset korvataan. Esimerkiksi taulukon oletusyhdistämismääritykset otetaan käyttöön.
 
-## <a name="integration-settings-that-are-specific-to-a-includecrmmdincludescrmmdmd-integration" />Integrointiasetukset, jotka ovat [!INCLUDE[crm_md](includes/crm_md.md)] -integrointikohtaisia
+## <a name="integration-settings-that-are-specific-to-a--integration" />Integrointiasetukset, jotka ovat [!INCLUDE[crm_md](includes/crm_md.md)] -integrointikohtaisia
 Integrointi sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] kanssa tapahtuu käyttämällä palvelua [!INCLUDE[prod_short](includes/cds_long_md.md)]. Useat vakioasetukset ja -taulukot määritetään. Vakioasetusten lisäksi [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksella on sovelluskohtaisia asetuksia. Seuraavissa osissa esitellään nämä asetukset.
 
 ## <a name="permissions-and-security-roles-for-user-accounts-in-sales" />Salesin käyttäjätilien käyttöoikeudet ja ja käyttöoikeusroolit

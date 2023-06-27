@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="work-with-power-bi-reports-in-include-prodshortincludesprodshortmd" />Power BI -raporttien käsittely [!INCLUDE [prod_short](includes/prod_short.md)]issa
+# <a name="work-with-power-bi-reports-in-" />Power BI -raporttien käsittely [!INCLUDE [prod_short](includes/prod_short.md)]issa
 
 Tässä artikkelissa on perustietoja Power BI -raporttien näyttämisestä [!INCLUDE [prod_short](includes/prod_short.md)]issa.
 
@@ -35,7 +35,7 @@ Jos käytössä on paikallinen [!INCLUDE[prod_short](includes/prod_short.md)], P
 
 Ennen kuin Power BI:ta voi käyttää [!INCLUDE[prod_short](includes/prod_short.md)]issa, Power BI -palveluun on rekisteröidyttävä. Jos et ole vielä rekisteröitynyt, siirry osoitteeseen [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Käytä rekisteröityessä työpaikan sähköpostiosoitetta ja salasanaa.
 
-## <a name="a-nameconnectaconnect-to-power-bi---one-time-only" /><a name="connect"></a>Power BI -yhteyden muodostaminen – kerran
+## <a name="connect-to-power-bi---one-time-only" /><a name="connect"></a>Power BI -yhteyden muodostaminen – kerran
 
 Kun [!INCLUDE [prod_short](includes/prod_short.md)]iin kirjaudutaan ensimmäisen kerran, eri sivuilla näkyy luultavasti tyhjä Power BI -osa (kuten edellisessä kuvassa). Ensimmäiseksi onkin muodostettava yhteys Power BI -tiliin. Kun yhteys on muodostettu, raportit ovat näkyvissä. Tämä vaihe tarvitsee tehdä vain kerran.
 
@@ -53,7 +53,7 @@ Yhteysprosessi käynnistyy. [!INCLUDE [prod_short](includes/prod_short.md)] on y
 > [!TIP]
 > [!INCLUDE [prod_short](includes/prod_short.md)] online -versiossa tämä vaihe lataa automaattisesti [!INCLUDE [prod_short](includes/prod_short.md)]issa käytettävät Power BI -oletusraportit Power BI -työtilaan.
 
-#### <a name="from-include-prodshortincludesprodshortmd-on-premises" />Paikallinen [!INCLUDE [prod_short](includes/prod_short.md)]
+#### <a name="from--on-premises" />Paikallinen [!INCLUDE [prod_short](includes/prod_short.md)]
 
 Power BI -yhteyden muodostaminen [!INCLUDE [prod_short](includes/prod_short.md)]ista muistuttaa online-version yhteydenmuodostusta. Sinua kuitenkin saatetaan pyytää myöntämään Power BI -palvelujen käyttöoikeus **AZURE ACTIVE DIRECTORY -PALVELUN KÄYTTÖOIKEUDET** -sivulla. Voit myöntää käyttöoikeuden valitsemalla ensin **Valtuuta Azure-palvelut** ja sitten **Hyväksy**.
 
@@ -99,7 +99,7 @@ Kun palaat roolikeskukseen, päivitetty raportti on näkyvissä. Jos valitsit **
 > [!NOTE]
 > Tämä ominaisuus ei ole käytettävissä paikallisessa [!INCLUDE [prod_short](includes/prod_short.md)] -versiossa.
 
-### <a name="a-nameuploadaupload-reports" /><a name="upload"></a>Raporttien lataaminen palvelimeen
+### <a name="upload-reports" /><a name="upload"></a>Raporttien lataaminen palvelimeen
 
 Power BI -raportteja voi jakaa käyttäjille .pbix-tiedostoina. Jos sinulla on .pbix-tiedostoja, voit ladata ja jakaa ne kaikkien [!INCLUDE [prod_short](includes/prod_short.md)] -käyttäjien kanssa. Raportit jaetaan kussakin [!INCLUDE [prod_short](includes/prod_short.md)] -yrityksessä.  
 
@@ -126,7 +126,7 @@ Tämä sanoma avautuu, jos oletusraporttia ei voitu ottaa käyttöön Power BI -
 
 Syynä luultavasti se, että raportin nimi ei sisällä luettelosivun nimeä. Saat näkyviin luettelon kaikista Power BI:ssa käytettävistä raporteista tyhjentämällä suodattimen.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

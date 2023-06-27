@@ -11,7 +11,7 @@ ms.search.form: '1500,'
 ms.date: 10/10/2022
 ms.custom: bap-template
 ---
-# <a name="use-power-automate-flows-in-includeprodshortincludesprodshortmd" />Power Automate -työnkulkujen käyttäminen [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksissa
+# <a name="use-power-automate-flows-in-" />Power Automate -työnkulkujen käyttäminen [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksissa
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukana olet antanut Microsoft Power Automate -lisenssin. Tämän lisenssin avulla voit käyttää [!INCLUDE[prod_short](includes/prod_short.md)]in tietoja työnkulun osana Microsoft Power Automatessa. Luo työnkulkuja ja yhdistä tiedot sisäisistä ja ulkoisista lähteistä [!INCLUDE [prod_short](includes/prod_short.md)] -yhdistimellä.
 
@@ -108,7 +108,7 @@ You can create new flows or manage existing Power Automate flows in [!INCLUDE [p
 <!--
 You can also manage available Power Automate workflows on the **Workflows** page in [!INCLUDE[prod_short](includes/prod_short.md)]. The page lists both the built-in approval and Power Automate workflows, with options for the latter to enable/disable, delete, and view the workflow on the Power Automate website.-->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-power-automate" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-power-automate/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-power-automate/)
 
 ## <a name="see-also" />Katso myös
 

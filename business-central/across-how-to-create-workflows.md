@@ -172,7 +172,7 @@ Seuraavassa kuvassa on yleiskuvaus tämän menettelyn tuloksesta.
 
 Testaa seuraavaksi työnkulku avaamalla aiemmin luotu toimittajakortti ja muuttamalla toimittajan nimeä. Varmista, että hyväksymispyyntö lähetetään toimittajan nimen muuttamisen jälkeen.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Katso myös
 

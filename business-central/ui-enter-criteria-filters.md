@@ -77,7 +77,7 @@ Seuraavassa taulukossa on esimerkkejä haun käyttämisestä.
 |`@*man`|Kaikki tietueet, joissa on **man**-tekstiin päättyviä kenttiä kirjainkoosta riippumatta. Esimerkiksi **Sportsman**, mutta ei **Manchester** tai **manual**.|
 
 
-## <a name="a-namefilteringafiltering" /><a name="filtering"></a>Suodattaminen
+## <a name="filtering" /><a name="filtering"></a>Suodattaminen
 
 Suodattaminen sisältää kehittyneitä ja monipuolisia toimintoja, joiden avulla määritetään luetteloon, raporttiin tai XMLportiin sisällytettävät tietueet. Hakemisella ja suodattamisella on kaksi pääeroa, jotka kerrotaan alla olevassa taulukossa.
 
@@ -249,7 +249,7 @@ Kun syötät kriteerejä, voit käyttää kaikkia numeroita ja kirjaimia, joita 
 |`..1299|1400..`|Sisällytä tietueet, joissa on numero, joka on pienempi tai yhtä suuri kuin 1299 tai suurempi tai yhtä suuri kuin 1400 (siis kaikki muut numerot paitsi 1300–1399).|  
 |`>50&<100`|Sisällytä tietueet, joissa on numero, joka on suurempi kuin 50 ja pienempi kuin 100 (siis numerot 51–99).|  
 
-### <a name="a-namesymbolsafiltering-on-values-that-contain-symbols" /><a name="symbols"></a>Symboleita sisältävien arvojen suodattaminen
+### <a name="filtering-on-values-that-contain-symbols" /><a name="symbols"></a>Symboleita sisältävien arvojen suodattaminen
 
 Joissakin tapauksissa kenttäarvot sisältävät jonkin seuraavista symboleista:
 
@@ -302,7 +302,7 @@ Käytä `%myvendors`-tunnusta toimittajan **Nro**-kentässä, kun haluat näytt�
 |-----------------------|-----------------------|  
 |`%myvendors`|Roolikeskuksen **Omat toimittajat** -kohdan toimittajat. |  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

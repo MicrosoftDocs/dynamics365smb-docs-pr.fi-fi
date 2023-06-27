@@ -45,7 +45,7 @@ Power BI:n ja [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen integr
 
 Voit myös luoda visuaalisia raportteja, jotka perustuvat [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan käyttämällä **Microsoft Excel -asiakirjojen (vain tiedot)** -raporttipyyntösivujen tiedostotyyppivaihtoehtoa. Lisätietoja on kohdassa [Suorita ja tulosta raportteja](ui-work-report.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsuse-power-bi" /><a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/use-power-bi).
+## <a name="see-related-training-at-microsoft-learn" /><a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/use-power-bi).
 
 ## <a name="see-also" /><a name="see-also"></a>Katso myös
 

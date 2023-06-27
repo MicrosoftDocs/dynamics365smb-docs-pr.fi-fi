@@ -138,7 +138,7 @@ Jos toisiin varastopaikkoihin ilman hyllytystä, poimintaa tai varaston siirtoa 
 2. Täytä **Nimikkeen nro**-, **Aluekoodista**-, **Var.paikasta**-, **Aluekoodiin**- ja **Varastopaikkakoodiin**-kentät.  
 3. Valitse **Rekisteröi**-toiminto.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Katso myös
 

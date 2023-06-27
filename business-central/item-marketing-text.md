@@ -15,7 +15,7 @@ Voit kirjoittaa nimikettä koskevan *markkinointitekstin* mille tahansa Business
 
 Markkinointitekstin voi luoda kahdella tavalla. Helpoin tapa päästä alkuun on käyttää Copilotia, mikä ehdottaa sinulle tekoälyn luomaa tekstiä. Toinen vaihtoehto on aloittaa tyhjästä. 
 
-## <a name="a-namecopilotacreate-ai-generated-marketing-text-preview-with-copilot" /><a name=copilot></a>Tekoälypohjaisen markkinointitekstin luominen (esiversio) Copilotin avulla
+## <a name="create-ai-generated-marketing-text-preview-with-copilot" /><a name=copilot></a>Tekoälypohjaisen markkinointitekstin luominen (esiversio) Copilotin avulla
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 

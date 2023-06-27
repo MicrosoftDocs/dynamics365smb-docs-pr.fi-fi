@@ -108,6 +108,6 @@ Voit myös muuttaa sivun ja sen tietojen näkymää, esimerkiksi lajitella ja va
 [Vianetsintä – Teams](admin-teams-troubleshooting.md)  
 [Teamsin integroinnin kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

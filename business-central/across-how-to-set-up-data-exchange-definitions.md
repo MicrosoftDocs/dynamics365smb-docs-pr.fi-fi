@@ -33,7 +33,7 @@ Tietojenvaihtomäärityksen luominen muodostuu kahdesta tehtävästä:
 1. Kuvaa tiedoston rivien ja sarakkeiden muotoilu **Tiedonsiirtomääritys**-sivulla. Lue lisätietoja [Tiedoston rivien ja sarakkeiden muotoilun kuvaileminen](#formatlinescolumns) -osasta.  
 2. Kohdista **Tiedonsiirron vastaavuus** -sivulla datatiedoston sarakkeet [!INCLUDE[prod_short](includes/prod_short.md)]in kenttiin. Lue lisätietoja [Kohdista datatiedoston sarakkeet [!INCLUDE[prod_short](includes/prod_short.md)]in kenttiin](#mapfields) -osassa.  
 
-### <a name="a-nameformatlinescolumnsato-describe-the-formatting-of-lines-and-columns-in-the-file" /><a name=formatlinescolumns></a>Tiedoston rivien ja sarakkeiden muotoilun kuvaaminen
+### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file" /><a name=formatlinescolumns></a>Tiedoston rivien ja sarakkeiden muotoilun kuvaaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tietojenvaihtomääritykset**, valitse sitten aiheeseen liittyvä linkki.  
 2. Valitse **Uusi**-toiminto.  
@@ -108,7 +108,7 @@ Seuraavaksi on päätettävä, mitkä datatiedoston sarakkeet tai XML-elementit 
 > [!NOTE]  
 > Erityinen kartoitus riippuu vaihdettavan tiedoston liiketoimintatarkoituksesta ja paikallisista variaatioista. Jopa SEPA-pankkistandardissa on paikallisia vaihteluita. [!INCLUDE[prod_short](includes/prod_short.md)] tukee SEPA CAMT -tiliotetiedostojen tuontia \-ilman\- lisä\-toimia. Siitä on osoituksena **SEPA CAMT** -tiedonsiirtomäärityksen tietuekoodi **Tiedonsiirtomääritykset**-sivulla. Lisätietoja SEPA CAMT -tuelle ominaisista kenttien yhdistämismäärityksistä on kohdassa [Kenttien yhdistämismääritykset SEPA CAMT -tiedostoja tuotaessa](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name="a-namemapfieldsato-map-columns-in-the-data-file-to-fields-in-includeprodshortincludesprodshortmd" /><a name=mapfields></a>Datatiedoston sarakkeiden yhdistäminen [!INCLUDE[prod_short](includes/prod_short.md)]in kenttiin
+### <a name="to-map-columns-in-the-data-file-to-fields-in-" /><a name=mapfields></a>Datatiedoston sarakkeiden yhdistäminen [!INCLUDE[prod_short](includes/prod_short.md)]in kenttiin
 
 > [!TIP]
 > Joskus kenttien arvot, jotka haluat yhdistää, ovat erilaisia. Esimerkiksi yhdessä yrityssovelluksessa Yhdysvaltojen kielikoodi on "U.S.", mutta toisessa se on "US". Tämä tarkoittaa, että arvo on muunnettava, kun tietoja vaihdetaan. Tämä tapahtuu muutossäännöillä, jotka määrität kentille. Lisätietoja on kohdassa [Muuntosäännöt](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).

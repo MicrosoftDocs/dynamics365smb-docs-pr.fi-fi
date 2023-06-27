@@ -112,7 +112,7 @@ Seuraavassa toimenpiteessä luot projektipäiväkirjan erän Mariannea varten, j
 
 4.  Tallenna muutokset valitsemalla **OK**-painike.
 
-## <a name="setting-up-a-job" />Projektin määrittäminen
+## <a name="setting-up-a-job-1" />Projektin määrittäminen
 
  Tässä skenaariossa CRONUS on voittanut sopimuksen Progressive Home Furnishings -yrityksen kanssa, jonka kanssa on päästy sopimukseen neuvottelusalin ja ruokasalin suunnittelemisesta. Asiakkaan tilat ovat Yhdysvalloissa, ja projektissa tarvitaan erityistä ohjelmistoa. Projektipäällikkö pääsee asiakkaan sopimukseen ja sopimuksen keston kattava projekti luodaan.  
 
@@ -258,7 +258,7 @@ Rivit kirjataan.
 2.  Valitse **Tilastot**-toiminto. Voit tarkastella yksityiskohtaisia tietoja projektihinnoista, kustannuksista ja paikallisista ja ulkomaisista valuuttojen voitoista.  
 3.  Valitse **Sulje**-painike **Projektin tilastot** -sivun sulkemiseksi.  
 
-## <a name="handling-fixed-prices" />Kiinteiden hintojen käsitteleminen
+## <a name="handling-fixed-prices-1" />Kiinteiden hintojen käsitteleminen
 
  CRONUS kanssa on tehty sopimus kokoushuoneiden määrittämiseksi. Projektipäällikkö Thomas tarvitsee hyvän yleiskäsityksen projektin edellyttämistä tehtävistä sekä kuhunkin tehtävään liittyvistä budjetoiduista ja kertyneistä kustannuksista. Tarkoitus on myös selvittää projektin sopimuksenmukainen kokonaishinta sekä tähän mennessä laskutettu summa. Asiakkaan kanssa on päästy sopimukseen projektin kiinteästä hinnoittelusta.  
 
@@ -454,7 +454,7 @@ Seuraavissa ohjeissa neuvotaan, miten luot uuden projektin, asetat hinnoittelun 
 
  Tämä vaihekuvaus on ohjannut sinut läpi tiettyjen perusvaiheiden töiden [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman parissa. Olet oppinut kuinka luodaan uusi työ, kuinka työ kopioidaan ja kuinka maksuja käsitellään. Olet myös nähnyt esityksen siitä, miten voit luoda laskuja ja seurata tunteja.  
 
-## <a name="see-related-microsoft-trainingtrainingpathscreate-jobs" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/create-jobs/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/create-jobs/)
 
 ## <a name="see-also" />Katso myös
 

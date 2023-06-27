@@ -100,7 +100,7 @@ Voit säästää aikaa määrittämällä työjonotapahtuman, joka vapauttaa aut
 3. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työjonon tapahtumat** ja valitse sitten vastaava linkki.
 4. Määritä **Päivitä odottavat ennakkomaksumyynnit** -tehtäväjonotapahtuma esimerkiksi käyttämällä **Toistuminen**-pikavälilehden asetuksia sen määrittämiseen, kuinka usein se suoritetaan. Lisätietoja: [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

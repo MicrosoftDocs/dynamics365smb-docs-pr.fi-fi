@@ -39,7 +39,7 @@ Tämä työnkulkukaavio näyttää, miten tuotantotilauksen osarivien **Varastop
 
 ![Varastopaikkojen työnkulkukaavio.](media/binflow.png "BinFlow")  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-bins-location" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-bins-location/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-bins-location/)
 
 ## <a name="see-also" />Katso myös
 

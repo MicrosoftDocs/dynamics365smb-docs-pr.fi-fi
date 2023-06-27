@@ -16,7 +16,7 @@ Osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/) on [!INC
 
 Luettelo muiden yritysten laajennuksista kasvaa joka kuukausi. Sivustoa [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646) kannattaakin tarkkailla ja sieltä voi ladata [!INCLUDE[prod_short](includes/prod_short.md)]in käyttöä helpottavia sovelluksia.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/customize-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/customize-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

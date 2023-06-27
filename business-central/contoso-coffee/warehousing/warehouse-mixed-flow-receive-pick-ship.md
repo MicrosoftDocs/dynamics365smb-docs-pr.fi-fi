@@ -92,10 +92,10 @@ Katso lisätietoja kohdasta [Rakennetiedot: lähtevän fyysisen varastoinnin vir
 
 Seuraavassa vaihekuvauksessa kuvataan edellisen taulukon menetelmää D.
 
-### <a name="scenario" />Skenaario
+### <a name="scenario-1" />Skenaario
 Tilauksen käsittelijä Susanna luo myyntitilaukset erilaisia paahdettuja papuja varten ja siirtää sen varastoon. Koska kaikki tilaukset ovat peräisin samalta asiakkaalta, Ellen, varastopäällikkö päättää toimittaa ne yhdessä. Johnin, varastotyöntekijän, täytyy varmistaa, että lähetys on valmisteltu ja toimitettu asiakkaalle.
 
-### <a name="steps" />Vaiheet
+### <a name="steps-1" />Vaiheet
 Tämä on jatkoa kohteelle [Saapuva työnkulku: Vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Vapauta myyntitilaukset fyysiseen varastoon.  
@@ -137,7 +137,7 @@ Tämä on jatkoa kohteelle [Saapuva työnkulku: Vastaanotto ja hyllytys fyysisen
     4. Valitse **Kirjaa toimitus** -toiminto.
     5. Vahvista **Toimitus**-valinta.
 
-### <a name="results" />Tulokset
+### <a name="results-1" />Tulokset
  - paahdetut pavut ovat nyt rekisteröity poimituiksi 
  - **Rekisteröity fyysisen varaston poiminta** luodaan
  - **Kirjattu fyysisen varaston toimitus** luodaan

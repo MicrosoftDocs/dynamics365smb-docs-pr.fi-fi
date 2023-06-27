@@ -50,7 +50,7 @@ Jos **Pääkirjanpidon asetukset** -sivulla otat käyttöön **Vaadi osoitteessa
 
 Voit tarkistaa **Ohje ja tuki** -sivulla mihin [!INCLUDE[prod_short](includes/prod_short.md)] -versioon yrityksesi perustuu. Jos haluat perustaa yrityksen eri versioon, järjestelmänvalvoja voi luoda uuden tuotantoympäristön. Lisätietoja on kohdassa [Uuden tuotanto ympäristön luominen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) Kehittäjän ja IT-ammattilaisen sisällössä.  
 
-## <a name="languages-of-the-includeprodshortincludesprodshortmd-help" />[!INCLUDE[prod_short](includes/prod_short.md)]-ohjeen kielet
+## <a name="languages-of-the--help" />[!INCLUDE[prod_short](includes/prod_short.md)]-ohjeen kielet
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman oletusversion ohjesisältö julkaistaan Microsoft Learniin. Sisältö on saatavilla eri kielillä. Jos siirryt asiakirjoihin [!INCLUDE[prod_short](includes/prod_short.md)]ista, sisältö näkyy omalla kielelläsi. Oletusarvoisesti, jos tiettyä sivua ei ole vielä käännetty omalle kielellesi, se näkyy englanninkielisenä.
 

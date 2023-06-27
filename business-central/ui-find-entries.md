@@ -46,7 +46,7 @@ Kun olet tehnyt valinnan, syötä asianmukaiset hakutiedot sivun yläreunan kent
 > [!TIP]
 > Pari esimerkkiä **Hae tapahtumia** -toiminnon käyttämisestä on kohdassa [Jäljitä nimike-seuratut nimikkeet](inventory-how-to-trace-item-tracked-items.md) ja [vaihekuvaus: sarja-eränumeroiden jäljittäminen](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

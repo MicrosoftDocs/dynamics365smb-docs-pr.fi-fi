@@ -47,7 +47,7 @@ Tässä toimenpiteessä korvaat tilausta varten kokoonpantavat määrät myyntit
 > [!CAUTION]  
 > Myyntitilauksen **Varastopaikkakoodi**-kentässä saattaa olla sijaintikortin **Kokoonpanot. toim. var.p.koodi**- tai **Kokoonpanosta-varastop.koodi** -kentän arvo. Siinä tapauksessa myyntitilauksen rivin **Varastopaikkakoodi** saattaa olla virheellinen tämän tilausten varten kokoonpantavien ja varastoon kokoonpantavien määrien yhdistelmässä. Kannattaakin varmistaa uudelleen **Varastopaikkakoodi**-kentässä oleva varastopaikka sopii kaikille määrille. Voit myös kirjoittaa kaksi eri määrää myyntitilauksen eri riveille.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

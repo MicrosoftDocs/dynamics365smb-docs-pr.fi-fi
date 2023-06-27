@@ -10,7 +10,7 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 09/07/2022
 ms.author: jswymer
 ---
-# <a name="work-with-include-prodshortincludesprodshortmd-data-in-power-bi" />[!INCLUDE [prod_short](includes/prod_short.md)] -tietojen käsitteleminen Power BI:ssä
+# <a name="work-with--data-in-power-bi" />[!INCLUDE [prod_short](includes/prod_short.md)] -tietojen käsitteleminen Power BI:ssä
 
 Tässä artikkelissa on perustietoja niistä Power BI:n raporteista ja koontinäytöistä, jotka käyttävät [!INCLUDE [prod_short](includes/prod_short.md)]ia tietolähteenä. Artikkelissa käsitellään seikkoja, jotka helpottavat [!INCLUDE[prod_short](includes/prod_short.md)] -käytön aloittamista käyttäjänä. Yleistä opastusta ja ohjeita Power BI:n käytöstä on kohdassa [Power BI:n kuluttajille suunnattu dokumentaatio](/power-bi/consumer).
 
@@ -44,7 +44,7 @@ Valitse siirtymisruudussa Tietojoukot-kohdassa tietojoukon vieressä Lisää vai
 
 Lisätietoja on kohdassa [Aikataulutetun päivityksen määrittäminen](/power-bi/connect-data/refresh-scheduled-refresh)
 
-## <a name="a-nameuploadaupload-reports-from-files" /><a name="upload"></a>Raporttien lataaminen tiedostoista
+## <a name="upload-reports-from-files" /><a name="upload"></a>Raporttien lataaminen tiedostoista
 
 Power BI -raportteja voi jakaa käyttäjille .pbix-tiedostoina. .pbix-tiedoston voi puolestaan ladata työtilaan. Raportti ladataan seuraavasti:
 
@@ -62,7 +62,7 @@ Lisätietoja on kohdassa [Raportin lataaminen palveluun](/power-bi/paginated-rep
 > [!TIP]
 > Jos käytössä on [!INCLUDE[prod_short](includes/prod_short.md)] online, raportin voi ladata myös [!INCLUDE[prod_short](includes/prod_short.md)]issa. Lisätietoja on kohdassa [Power BI -raporttien käyttäminen [!INCLUDE [prod_short](includes/prod_short.md)]issa – raporttien lataaminen palvelimeen](across-working-with-powerbi.md#upload).
 
-## <a name="a-nameshareashare-reports-with-others" /><a name="share"></a>Raporttien jakaminen muiden kanssa
+## <a name="share-reports-with-others" /><a name="share"></a>Raporttien jakaminen muiden kanssa
 
 Kun raportti on työtilassa, sen voi jakaa organisaatiossa muiden kanssa.
 
@@ -71,7 +71,7 @@ Voit jakaa raportin valitsemalla raporttiluettelossa tai avoimessa raportissa **
 > [!NOTE]
 > Sekä sinulla että henkilöillä, joiden kanssa jaat raportin, on oltava [Power BI Pro -käyttöoikeus](/power-bi/service-features-license-type). Sisällön on oltava työtilassa [Premium-kapasiteettina](/power-bi/service-premium-what-is). Lisätietoja on kohdassa [Työn jakaminen Power BI:ssä](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

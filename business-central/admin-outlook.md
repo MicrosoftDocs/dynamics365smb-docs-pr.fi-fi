@@ -83,7 +83,7 @@ Keskitetty käyttöönotto on Microsoft 365 -hallintakeskuksen ominaisuus, jonka
 
 Kun olet valmis, voit aina muuttaa käyttöönottoa Microsoft 365 -hallintakeskuksessa, kuten määrittää useampia käyttäjiä. Lisätietoja apuohjelmien käyttöönotosta hallintakeskuksessa on kohdassa [Apuohjelmien käyttöönotto hallintakeskuksessa](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
-## <a name="a-nameinstallainstall-the-add-in-for-your-own-use" /><a name="install"></a>Apuohjelman asentaminen omaan käyttöön
+## <a name="install-the-add-in-for-your-own-use" /><a name="install"></a>Apuohjelman asentaminen omaan käyttöön
 
 Jos organisaatiosi sen sallii, voit asentaa Business Central -apuohjelman vain itseäsi varten. Jos et ole varma, kysy järjestelmänvalvojalta.
 
@@ -94,7 +94,7 @@ Jos organisaatiosi sen sallii, voit asentaa Business Central -apuohjelman vain i
 
 Business Central muodostaa yhteyden sähköpostipalvelimeen ja asentaa apuohjelman Outlookiin. Tämä ei vie kauan. Olet nyt valmis aloittamaan apuohjelman käyttämisen Outlookissa.
 
-### <a name="a-nameonpremafor-business-central-on-premises" /><a name="onprem"></a>Business Central on-premises -versiolle
+### <a name="for-business-central-on-premises" /><a name="onprem"></a>Business Central on-premises -versiolle
 
 Jos käytät Business Centralin on-premises -asennusta, apuohjelman asentaminen voi olla hieman erilaista.
 
@@ -116,7 +116,7 @@ Jos käytät Business Centralin on-premises -asennusta, apuohjelman asentaminen 
 
 Olet nyt valmis aloittamaan apuohjelman käyttämisen Outlookissa.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

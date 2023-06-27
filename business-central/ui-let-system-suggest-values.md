@@ -10,7 +10,7 @@ ms.search.form: '39, 251, 981'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="letting-includeprodshortincludesprodshortmd-suggest-values" />[!INCLUDE[prod_short](includes/prod_short.md)] voi ehdottaa arvoja
+# <a name="letting--suggest-values" />[!INCLUDE[prod_short](includes/prod_short.md)] voi ehdottaa arvoja
 [!INCLUDE[prod_short](includes/prod_short.md)] voi auttaa tehtävien suorittamisessa nopeammin ja tarkemmin täyttämällä kentät tai rivit tiedoilla, jotka muussa tapauksessa olisi laskettava ja annettava manuaalisesti. Vaikka automaattinen tietojen syöte on aina oikea, voit halutessasi muuttaa arvoja myöhemmin.
 
 Toiminto, joka syöttää arvot puolestasi, sisältyy yleensä tehtäviin, joissa syötetään suuria määriä tapahtumatietoja. Niissä halutaan välttää virheet ja säästää aikaa. Tämä ohjeaihe sisältää näiden toimintojen valikoiman. [!INCLUDE[prod_short](includes/prod_short.md)]in tulevat päivitykset sisältävät uusia osia.

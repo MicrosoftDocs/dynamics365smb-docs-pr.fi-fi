@@ -96,7 +96,7 @@ Kun olet kirjannut projektipäiväkirjan rivit, näkyvissä ovat suunnittelurivi
 2. Valitse asianmukaisen projektin päiväkirja ja valitse sitten **Tapahtumakirjaukset**-toiminto.  
 3. Valitse **Projektitapahtumat**-sivulla **Näytä linkitetyt projektin suunnittelurivit** -toiminto.
 
-## <a name="see-related-microsoft-trainingtrainingpathspost-job-usage-sales" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/post-job-usage-sales/)
 
 ## <a name="see-also" />Katso myös
 

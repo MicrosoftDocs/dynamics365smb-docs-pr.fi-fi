@@ -35,7 +35,7 @@ Loppukäyttäjän osalta asennuskokemus poikkeaa kahdessa käyttöönottoskenaar
 
 Molempien käyttöönotto vaihtoehtojen yhteydessä apuohjelma määritetään automaattisesti muodostamaan yhteys kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]. Kolmas käyttöönottovaihtoehto on apuohjelman manuaalinen asennus suoraan Excelistä. Tässä vaihtoehdossa käyttäjän on määritettävä apuohjelman muodostamaan yhteys kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="a-nameswitchaswitching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around" /><a name="switch"></a>Siirtyminen yksittäisestä hankinnasta keskitettyyn käyttöönottoon tai toisin päin
+### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around" /><a name="switch"></a>Siirtyminen yksittäisestä hankinnasta keskitettyyn käyttöönottoon tai toisin päin
 
 Kun vaihdat apuohjelman yksittäisestä hankkimisesta keskitettyyn käyttöönottoon tai päinvastoin, tämä vaikuttaa Excel-tiedostoihin, jotka käyttäjät ovat luoneet ennen vaihtoa. Siirtymisen jälkeen käyttäjät voivat yhä avata **Muokkaa Excelissä** -toiminnossa aiemmin luodut tai Excel-apuohjelman määrittämällä manuaalisesti luodut Excel-laskentataulukot. He eivät kuitenkaan pysty päivittämään tiedoston tietoja Business Centralista tai lähettämään päivityksiä Business Centralin
 
@@ -87,7 +87,7 @@ Kun olet valmis, voit aina muuttaa käyttöönottoa Microsoft 365 -hallintakesku
 > [!NOTE]
 > Apuohjelman automaattinen käyttöönotto käyttäjille voi kestää 24 tuntia.
 
-## <a name="a-nameinstallaindividual-acquisition-install-the-add-in-manually-for-your-own-use" /><a name="install"></a>Yksittäinen hankinta: Asenna apuohjelma manuaalisesti omaan käyttöön
+## <a name="individual-acquisition-install-the-add-in-manually-for-your-own-use" /><a name="install"></a>Yksittäinen hankinta: Asenna apuohjelma manuaalisesti omaan käyttöön
 
 Useimmissa tapauksissa, kun avaat Excelin Business Centralista, apuohjelma asennetaan joko automaattisesti puolestasi tai sinua kehotetaan asentamaan se. Saattaa kuitenkin olla tilanteita, joissa apuohjelma on asennettava manuaalisesti.
 
@@ -159,7 +159,7 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

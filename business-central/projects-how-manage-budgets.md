@@ -17,7 +17,7 @@ Jokaiselle projektille voi määrittää budjetin. Budjettia käytetään projek
 
 Seuraavissa ohjeissa kerrotaan, miten budjetoituja kustannuksia arvioidaan suunnittelun aikana. Lisätietoja budjetoitujen ja todellisten projektihintojen ja -kustannusten kirjaamisesta on kohdassa [Projektien käytön kirjaaminen](projects-how-record-job-usage.md).  
 
-## <a name="a-namejobbudgetcostsa-to-estimate-the-budgeted-costs-for-a-job" /><a name="JobBudgetCosts"></a> Projektin budjetoitujen kustannusten arvioiminen
+## <a name="to-estimate-the-budgeted-costs-for-a-job" /><a name="JobBudgetCosts"></a> Projektin budjetoitujen kustannusten arvioiminen
 Kun asiakas haluaa tietää sellaisen projektin hinnan, joka laskutetaan käytön perusteella, on määritettävä projektin budjetoidut kustannukset. Tähän käytetään **Projektitehtävärivit**-sivua.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten vastaava linkki.  
@@ -43,7 +43,7 @@ Viittaa **Rivityyppi**-kentässä seuraaviin tietoihin.
 
 Lisätietoja budjetoitujen ja todellisten projektihintojen ja -kustannusten kirjaamisesta on kohdassa [Projektien käytön kirjaaminen](projects-how-record-job-usage.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-job-planning-lines" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-job-planning-lines/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-job-planning-lines/)
 
 ## <a name="see-also" />Katso myös
 

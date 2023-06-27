@@ -10,7 +10,7 @@ ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="work-with-includeprodshortincludesprodshortmd" />Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-" />Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Kun tehdään liiketoimintaan liittyviä tehtäviä, voit käsitellä tietoja eri tavoin, kuten tietueiden luominen ja tietojen syöttäminen, tietojen lajittelu ja suodatus, kirjalliset huomautukset ja tietojen lähettäminen muihin sovelluksiin.
 
@@ -18,7 +18,7 @@ Voit esimerkiksi säätää minkä tahansa sivun kokoa ja sijaintia, laajentaa s
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namecheatsheetatips-and-tricks" /><a name="cheatsheet"></a>Vihjeet ja vinkit
+## <a name="tips-and-tricks" /><a name="cheatsheet"></a>Vihjeet ja vinkit
 
 > [!TIP]
 > Jos haluat tulostettavan yleiskuvan eniten käytetyistä toiminnoista, valitse seuraava kuva ja lataa PDF-tiedosto.
@@ -80,7 +80,7 @@ Kun etsit avointa luettelosivua, kuten **Myyntitilaukset**-luetteloa, se on näk
 
 Mutta kun avaat saman luettelosivun kotisivultasi, **Hallinta**-toimintoa ei ole. Sen sijaan voit avata yksittäisen myyntitilauksen valitsemalla **Numero**-kentän. Tässä näkymässä toimintopalkkia ei voi kiinnittää.  
 
-## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 
@@ -89,7 +89,7 @@ Mutta kun avaat saman luettelosivun kotisivultasi, **Hallinta**-toimintoa ei ole
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
 [Suorituskykyä lisääviä vihjeitä yrityskäyttäjille](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

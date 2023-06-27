@@ -101,6 +101,6 @@ Microsoft muodostaa Business Centralin lokalisoituja versioita rajoitetulle m√§√
 [Palvelun yhteensopivuus](compliance-service-compliance.md)  
 [Sertifikaatit](compliance-certifications.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

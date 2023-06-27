@@ -112,7 +112,7 @@ Jos sijainnissa käytetään sekä hyllytyksen että vastaanoton käsittelyä ja
 
 5. Kun olet asettanut kaikki nimikkeet varastopaikkoihin ohjeiden mukaisesti, valitse **Rekisteröi hyllytys** -toiminto.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-put-away-items" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/receive-put-away-items/)
 
 ## <a name="see-also" />Katso myös
 

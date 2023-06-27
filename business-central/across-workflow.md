@@ -57,7 +57,7 @@ Esimerkkejä hyväksyntätyönkulkutapahtumista ovat myynti- tai ostotilausten/t
 <!--
 | Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |-->
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Katso myös
 

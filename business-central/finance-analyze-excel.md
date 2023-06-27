@@ -44,13 +44,13 @@ Esimääritetyt Excel-raportit perustuvat valitun yrityksen tietoihin. Esimerkki
 
 Excel-työkirjan muut taulukot näyttävät raportin taustalla olevat tiedot. Jos haluat tietää, mikä Excel-raporttien ryhmittelyiden perustana on, sinun täytyy ehkä suodattaa [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman luettelot.  
 
-## <a name="the-include-prodshortincludesprodshortmd-excel-add-in" />[!INCLUDE [prod_short](includes/prod_short.md)]in Excel-apuohjelma
+## <a name="the--excel-add-in" />[!INCLUDE [prod_short](includes/prod_short.md)]in Excel-apuohjelma
 
 [!INCLUDE [prod_short](includes/prod_short.md)]-kokemus sisältää Excelin apuohjelman. Tilauksen mukaan kirjaudut joko automaattisesti tai sinun on annettava kirjautumistiedot [!INCLUDE [prod_short](includes/prod_short.md)]iin. Lisätietoja on kohdassa [Tarkasteleminen ja muokkaaminen Excelissä Business Centralista](across-work-with-excel.md).  
 
 Apuohjelman ansiosta saat uusimmat tiedot [!INCLUDE [prod_short](includes/prod_short.md)]ista ja voit siirtää muutokset takaisin [!INCLUDE [prod_short](includes/prod_short.md)]iin. Mahdollisuus siirtää tiedostot takaisin tietokantaan ei ole käytöstä tarkasteltavissa Excel-raporteissa.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

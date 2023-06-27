@@ -99,7 +99,7 @@ Yksi näkökulma projektien suunnittelussa on sen päättäminen, mitä kirjaust
 | **Tuloutettujen kustannusten tili** |Kustannustili, joka sisältää projektin tuloutetut kustannukset. Yleensä tili on debetkustannustili. |
 | **Tuloutetun myynnin tili** |Tulotili, joka sisältää projektin tuloutetut tuotot. Yleensä tili on kredittulotili. |
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />Katso myös
 

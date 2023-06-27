@@ -11,7 +11,7 @@ ms.search.keywords: 'sandbox, demo, develop'
 ms.date: 12/20/2021
 ms.author: solsen
 ---
-# <a name="sandbox-environments-in-includeprodshortincludesprodshortmd" />Eristysympäristöt [!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisussa
+# <a name="sandbox-environments-in-" />Eristysympäristöt [!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisussa
 
 [!INCLUDE[prod_short](includes/prod_short.md)] onlinen avulla voit helposti luoda turvallisen ympäristön, jossa voit testata, kouluttaa tai tehdä vianmäärityksiä häiritsemättä yrityksen työprosesseja tai liiketoimintatietoja. Tällaista ei-tuotantoympäristöä kutsutaan *eristysympäristöksi (sandbox)*. Tuotannosta eristetty Sandbox-ympäristö on paikka, jossa voi turvallisesti tutustua palveluun, opetella sen käyttöä sekä kehittää ja testata sitä ilman, että tuotantoympäristön tiedot ja asetukset vaarantuvat.  
 
@@ -64,7 +64,7 @@ Lisätietoja on kehittäjä- ja järjestelmänvalvojasisällön kohdassa [Suunni
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

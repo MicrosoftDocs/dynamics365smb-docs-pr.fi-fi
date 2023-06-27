@@ -38,7 +38,7 @@ Jos virheitä ei ilmene, päivitykset otetaan käyttöön raporttiasetteluissa. 
 
  Raporttiasettelujen muutokset testataan, mutta niitä ei käytetä varsinaisissa raporttiasetteluissa. **Raporttiasettelun päivitysloki** -sivu avautuu, ja siinä näytetään jokaiselle raporttiasettelulle tulevat päivitykset sekä niiden tila. Jos raporttiasettelulla on virheitä, voit avata raporttiasettelun suoraan viestistä muokkaamista varten. Lisätietoja on kohdassa [Virheiden korjaaminen](ui-update-report-layouts.md#FixErrors).  
 
-## <a name="a-nameupdatelimitationsa-limitations-of-the-custom-report-layout-update" /><a name="UpdateLimitations"></a> Mukautettujen raporttiasetteluiden päivittämisen rajoitukset
+## <a name="limitations-of-the-custom-report-layout-update" /><a name="UpdateLimitations"></a> Mukautettujen raporttiasetteluiden päivittämisen rajoitukset
  Automaattinen päivitys voi tehdä monenlaisia muutoksia mukautettuihin raporttiasetteluihin, kuten jos asettelussa käytettävä kenttä on poistettu raportin tietojoukosta. Seuraavia muutoksia raportin tietojoukkoon automaattinen päivitys ei kuitenkaan käsittele.  
 
 1.  Poistetut kentät, otsikot ja tietokohteet.  
@@ -49,7 +49,7 @@ Jos virheitä ei ilmene, päivitykset otetaan käyttöön raporttiasetteluissa. 
 
  Jos päivitysprosessi havaitsee jonkin näistä ongelmista, päivitystä ei voi ottaa käyttöön. Nämä ongelmat on korjattava manuaalisesti, esimerkiksi muokkaamalla raporttia käsin Wordissa tai ohjelmallisesti käyttämällä päivityksen codeuniteja.  
 
-## <a name="a-namefixerrorsa-fixing-errors" /><a name="FixErrors"></a> Virheiden korjaaminen
+## <a name="fixing-errors" /><a name="FixErrors"></a> Virheiden korjaaminen
  Jos virhesanoma tulee näkyviin raporttiasettelun päivityksen tai testauksen jälkeen, sinun on todennäköisesti muokattava raportin asettelua ongelman korjaamiseksi. Lue virhesanoma, jonka avulla voit selvittää ongelman syyn.  
 
  Yleisin ongelma ilmenee, kun asettelussa käytetty kenttä on poistettu raportin tietojoukosta. Tässä tapauksessa näet virhesanoman rivin, joka ilmoittaa, että nimike on poistettu. Jotta voit korjata tämän ongelman, sinun on muokattava asettelua ja poistettava kyseinen kenttä.  
@@ -58,7 +58,7 @@ Jos virheitä ei ilmene, päivitykset otetaan käyttöön raporttiasetteluissa. 
 
 Kun muutat asettelua, yritä päivittää asettelu uudelleen.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
  [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  

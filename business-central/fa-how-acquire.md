@@ -99,7 +99,7 @@ Jäännösarvon voi kirjata käyttöomaisuuden KP-päiväkirjasta yhdessä hanki
 > [!NOTE]
 > Jos käyttöomaisuudelle on olemassa jäännösarvo, kyseistä arvoa käytetään poistokirjauksessa**KO-poistokirjat** -sivun **Loppukirjanpitoarvo**-kentän arvon sijaan. Lisätietoja on kohdassa [Loppukirjanpitoarvon hallinta](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespurchase-fixed-assets" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/purchase-fixed-assets/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/purchase-fixed-assets/)
 
 ## <a name="see-also" />Katso myös
 

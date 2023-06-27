@@ -56,7 +56,7 @@ Valitsemasi mukautetun asettelun nimi näkyy nyt **Mukautetun asettelun kuvaus**
 
 Voit nyt siirtyä asiakas- ja toimittajakortteihin ja määrittää, mitä asetteluita käytetään eri asiakirjoissa, joita lähetät kyseessä olevalle asiakkaalle tai toimittajalle – esimerkiksi tilausvahvistuksissa tai maksumuistutuksissa. Lisätietoja on kohdassa [Asiakkaiden ja toimittajien asiakirja-asettelujen määrittäminen ](ui-define-customer-vendor-document-layouts.md).
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  

@@ -136,7 +136,7 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
     |---------------------------------|---------------------------------------|  
     |**Muiden kuin nimikerivien KP-tili**|Määrittää kirjanpitotilin, joka lisätään automaattisesti sähköisistä asiakirjoista ostoriveille silloin, kun saapuva asiakirjarivi ei sisällä tunnistettavaa kohdetta. Kaikki saapuvan asiakirjan rivit, joilla ei ole GTIN-arvoa tai toimittajan nimikenumeroa, muunnetaan tyypin **KP-tili**-tyyppiseksi ostoriviksi. Ostorivin **Nro**-kenttä sisältää tilin, jonka valitset **Muiden kuin nimikerivien KP-tili** -kentässä.<br /><br /> Ostoasiakirjaa ei luoda, jos **Muiden kuin nimikerivien KP-tili** -kenttä jätetään tyhjäksi ja saapuva asiakirja sisältää rivejä, joilla ei ole tunnistettavia nimikkeitä. Virhesanoma pyytää täyttämään **Muiden kuin nimikerivien KP-tili** -kentän, ennen kuin voit päättää tehtävän.|  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 [Sähköinen tiedonsiirto](across-data-exchange.md)   

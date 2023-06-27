@@ -54,7 +54,7 @@ Laske tuleva poisto **Käyttöomaisuus - Suunnit. arvo** -raportin avulla. Rapor
 4. Jätä **Käyttöomaisuus**-pikavälilehti tyhjäksi sisällyttääksesi kaikki omaisuuserät. **Budjetoitu käyttöomaisuus** -kenttään syötetään **Ei**, kun budjetoidut käyttöomaisuuserät jätetään huomioimatta, ja **Kyllä**, kun tarkastellaan vain budjetoituja käyttöomaisuuseriä.
 5. Valitse **Tulosta**- tai **Esikatsele**-painike.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesbudget-fixed-assets" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/budget-fixed-assets/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/budget-fixed-assets/)
 
 ## <a name="see-also" />Katso myös
 

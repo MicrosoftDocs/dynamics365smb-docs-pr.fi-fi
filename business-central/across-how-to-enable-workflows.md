@@ -22,7 +22,7 @@ Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riv
 2. Avaa työnkulku, jonka haluat ottaa käyttöön.  
 3. Kytke **Työnkulku**-sivun **Käytössä**-valitsin päälle.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Katso myös
 

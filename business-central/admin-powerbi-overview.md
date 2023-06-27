@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="power-bi-integration-component-and-architecture-overview-for-includeprodshortincludesprodshortmd" />[!INCLUDE[prod_short](includes/prod_short.md)]in Power BI -integrointiosa ja arkkitehtuurin yleiskatsaus
+# <a name="power-bi-integration-component-and-architecture-overview-for-" />[!INCLUDE[prod_short](includes/prod_short.md)]in Power BI -integrointiosa ja arkkitehtuurin yleiskatsaus
 
 Tässä artikkelissa käsitellään Power BI:n ja [!INCLUDE[prod_short](includes/prod_short.md)]in integrointia eri tavoin, mikä auttaa ymmärtämään sen toteutusta ja käyttöä.
 
@@ -59,7 +59,7 @@ Seuraava kaavio näyttää käyttäjien perustyönkulun yhdistettäessä [!INCLU
 6. Käyttäjä luo raportin Power BI Desktopissa.
 7. Käyttäjä julkaisee raportin Power BI -palveluun. Raportit ovat sitten valittavissa [!INCLUDE[prod_short](includes/prod_short.md)]issa.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

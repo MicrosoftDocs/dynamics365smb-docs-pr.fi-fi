@@ -83,7 +83,7 @@ Lisätietoja on kohdassa [Business Central -välilehden lisääminen Teamsiin](a
 [Yrityksen ja muiden asetusten muuttaminen Teamsissa](across-teams-settings.md)  
 [Teamsin integroinnin kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -98,7 +98,7 @@ Kun valitset **Luo talousraportit** -toiminnon tai seuraavan kerran, kun raportt
 
 Pienessä organisaatiossa, kuten CRONUS-esittely-yrityksessä, useimmat käyttäjät voivat muokata tilikarttaa lukuun ottamatta niitä käyttäjiä, joilla on TEAM MEMBER -käyttöoikeus. Suuremmissa organisaatioissa käytetään tyypillisesti rooleja ja käyttöoikeuksia rajoittamaan tilikartan muokkausoikeutta. Jos olet järjestelmänvalvoja tai sinulla on *Liiketoimintajohtaja*- tai *Kirjanpitäjä*-rooli, voit hallita käyttöoikeuksia antaaksesi oikeille käyttäjille oikeuden käyttää asianomaisia taulukoita. Lue lisätietoja [Käyttäjän käyttöoikeuksien yleiskatsauksen hankkiminen](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions) -osassa.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesbusiness-central-configure-general-ledger-setup" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/business-central-configure-general-ledger-setup/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/business-central-configure-general-ledger-setup/)
 
 ## <a name="see-also" />Katso myös
 

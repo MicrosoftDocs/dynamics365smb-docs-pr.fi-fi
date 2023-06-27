@@ -83,7 +83,7 @@ Seuraavassa kaaviossa havainnollistetaan fyysisen varaston lähteviä prosesseja
 
 :::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Näkyvissä lähtevien laajennetun työkulun vaiheet fyysisessä varastoinnissa":::
 
-### <a name="1-release-a-source-document" />1: Lähdeasiakirjan vapauttaminen
+### <a name="1-release-a-source-document-1" />1: Lähdeasiakirjan vapauttaminen
 
 Lähdeasiakirjan vapauttamisen vaikutus on laajennetuissa määrityksissä sama kuin perusmäärityksissä. Nimikkeet tulevat käsiteltäviksi fyysisessä varastoinnissa. Niinpä ne voidaan sisällyttää esimerkiksi toimitukseen.  
 

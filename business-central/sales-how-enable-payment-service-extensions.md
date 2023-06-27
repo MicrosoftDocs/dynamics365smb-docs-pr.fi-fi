@@ -19,7 +19,7 @@ Kun olet ottanut maksupalvelun käyttöön [!INCLUDE[prod_short](includes/prod_s
 
 PayPal Payments Standard- ja WorldPay Payments Standard -laajennukset ovat asennettuina [!INCLUDE[prod_short](includes/prod_short.md)]iin, ja ne ovat valiina otettaviksi käyttöön.  
 
-## <a name="to-enable-a-payment-service-in-includeprodshortincludesprodshortmd" />Maksupalvelun ottaminen käyttöön [!INCLUDE[prod_short](includes/prod_short.md)]issa
+## <a name="to-enable-a-payment-service-in-" />Maksupalvelun ottaminen käyttöön [!INCLUDE[prod_short](includes/prod_short.md)]issa
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupalvelut** ja valitse sitten vastaava linkki.  
 2. Valitse **Maksupalvelut**-sivulla **Uusi**-toiminto.  
@@ -37,7 +37,7 @@ PayPal Payments Standard- ja WorldPay Payments Standard -laajennukset ovat asenn
     > [!NOTE]  
     > **Maksupalvelu**-kenttä on käytettävissä vain, jos olet ottanut maksupalvelun käyttöön.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

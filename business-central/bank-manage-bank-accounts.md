@@ -32,7 +32,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 > [!TIP]
 > Pankkitilin täsmäytyksen avulla voi varmistaa, että kirjat ovat ajan tasalla ja että täsmäytystä ei kirjata, ennen kuin olet tyytyväinen täsmäytykseen.
 
-## <a name="see-related-microsoft-trainingtrainingpathsreconcile-bank-accounts-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

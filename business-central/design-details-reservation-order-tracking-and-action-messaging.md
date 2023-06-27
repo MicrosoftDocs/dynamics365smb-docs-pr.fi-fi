@@ -151,7 +151,7 @@ Varausjärjestelmä on kokonaisvaltainen ja se sisältää Tilausten seurannan j
 
  ![Toinen esimerkki: Varaustapahtumataulukon tilausten seurantatapahtumat.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### <a name="entry-numbers-8-and-9" />Tapahtumanumerot 8 ja 9
+### <a name="entry-numbers-8-and-9-1" />Tapahtumanumerot 8 ja 9
  Komponentin kahden erän tilauksen seurantatapahtumia, jotka kuvaavat kysyntää taulukossa 5407, muutetaan **Seuranta**-varaustilasta arvoon **Ylijäämää**. Syy on se, että siirtotilauksen lähetykseen on käytetty tarjontoja, joihin ne oli linkitetty ennen, taulukossa 32.  
 
  Aito ylijäämä, kuten tässä tapauksessa, kuvastaa ylimääräistä tarjontaa tai kysyntää, jota ei seurata. Se on osoitus epätasapainosta tilausverkossa, ja suunnittelujärjestelmä luo toimenpideviestin ellei sitä ratkaista dynaamisesti.  

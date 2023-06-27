@@ -119,10 +119,10 @@ Katso lisätietoja kohdasta [Rakennetiedot: lähtevän fyysisen varastoinnin vir
 
 Seuraavassa vaihekuvauksessa kuvataan edellisen taulukon menetelmää B.
 
-### <a name="scenario" />Skenaario
+### <a name="scenario-1" />Skenaario
 Tilauksen käsittelijä Susanna luo myyntitilauksen erilaisia paahdettuja papuja varten ja siirtää sen varastoon. Johnin, varastotyöntekijän, täytyy varmistaa, että lähetys on valmisteltu ja toimitettu asiakkaalle. John hallitsee kaikkia **Varaston poiminta** -sivulla olevia tehtäviä, jotka viittaavat automaattisesti varastopaikkoihin, joissa nimikettä paahdettuja papuja varastoidaan.
 
-### <a name="steps" />Vaiheet
+### <a name="steps-1" />Vaiheet
 Tämä on jatkoa kohteelle [Saapuva työnkulku: Vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. **Sijaintikortti**-sivun asetuksissa määritetään yrityksen saapuvat varastointityönkulut.  
@@ -159,7 +159,7 @@ Tämä on jatkoa kohteelle [Saapuva työnkulku: Vastaanotto ja hyllytys fyysisen
 
 5. Valita ensin **Kirjaa**-toiminto, sitten **Toimitus** ja lopuksi **OK**.  
 
-### <a name="results" />Tulokset
+### <a name="results-1" />Tulokset
  - paahdetut pavut on nyt rekisteröity poimittuina määritellyissä varastopaikoissa
  - **Kirjattu varastopoiminta** luodaan
  - **Kirjattu myyntitoimitus** luodaan

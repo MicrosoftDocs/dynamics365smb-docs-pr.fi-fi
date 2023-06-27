@@ -115,7 +115,7 @@ Kun yrityksesi käyttää toimitussuunnitteluprosesseja [!INCLUDE [prod_short](i
 
 Esimerkkejä **Suunnittelu**-pikavälilehden kenttien käytöstä on kohdassa [Asetuksien parhaat käytännöt: Suunnitteluparametrit](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-items" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-items/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-items/)
 
 ## <a name="see-also" />Katso myös
 

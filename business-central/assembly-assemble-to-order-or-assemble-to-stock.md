@@ -96,7 +96,7 @@ Tämän esimerkin perusteella **Kokoonpantava määrä** -kenttää voidaan muut
 * Pienin syötettävä määrä on 1. Vähintään yksi yksikkö on koottava, jotta neljän yksikön myynti on mahdollista, olettaen, että loput kolme ovat saatavana varastossa.  
 * Suurin määrä, joka voidaan syöttää on 4. Tämä raja varmistaa, että kokoonpantavien nimikkeiden määrä ei ylitä myyntiin tarvittavaa määrää.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

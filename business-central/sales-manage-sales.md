@@ -53,7 +53,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 |Ilmoitta tilauksen toimiaika asiakkaille laskemalla joko mahdollinen luvattavaksi- tai luvattavissa -päivämäärä.|[Toimituksen lupaamisen päivämäärien laskeminen](sales-how-to-calculate-order-promising-dates.md)|
 |Ratkaise ristiriita, kun samalla asiakkaalla on ainakin kaksi tietuetta.|[Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathssell-items-services-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/sell-items-services-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/sell-items-services-dynamics-365-business-central/).
 
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md)  
@@ -63,6 +63,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

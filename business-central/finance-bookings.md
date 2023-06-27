@@ -11,7 +11,7 @@ ms.search.form: '1638, 6702, 6704'
 ms.date: 05/20/2022
 ms.author: edupont
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-includeprodshortincludesprodshortmd" />Microsoft Bookingsin massalaskutus [!INCLUDE[prod_short](includes/prod_short.md)]issa
+# <a name="bulk-invoicing-for-microsoft-bookings-in-" />Microsoft Bookingsin massalaskutus [!INCLUDE[prod_short](includes/prod_short.md)]issa
 
 Voit käyttää tapaamisten massalaskutusta, jos yrityksesi käyttää Microsoft 365:n Bookings-sovellusta. [!INCLUDE[prod_short](includes/prod_short.md)]in **Laskuttamattomat varaukset** -sivulla esitetään luettelo yrityksen valmiista varauksista. Tällä sivulla voit valita nopeasti tapaamiset, jotka haluat laskuttaa ja joille haluat luoda luonnoslaskut tarjotuista palveluista.  
 

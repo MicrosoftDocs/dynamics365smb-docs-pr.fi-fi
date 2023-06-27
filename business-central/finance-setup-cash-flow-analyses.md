@@ -121,7 +121,7 @@ Ennen ennakoivan verkkopalvelun käyttämistä [!INCLUDE[prod_short](includes/pr
 
 Ennen ennakoivan verkkopalvelun käyttämistä [!INCLUDE[prod_short](includes/prod_short.md)] tiivistää tapahtumat **asiakirjan päivämäärän** mukaan **Kauden tyyppi** -kentän arvon perusteella **Kassavirran asetukset** -sivulla.
 
-## <a name="a-nameanchortextacreate-and-use-your-own-predictive-web-service-for-cash-flow-forecasts" /><a name="AnchorText"></a>Kassavirtaennusteiden ennakoivan verkkopalvelun luominen ja käyttäminen
+## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts" /><a name="AnchorText"></a>Kassavirtaennusteiden ennakoivan verkkopalvelun luominen ja käyttäminen
 
 Voit myös luoda oman ennakoivan verkkopalvelun **Microsoft Business Central -sovelluksen ennustemalli** -nimisen julkisen mallin perusteella. Tämä ennakoiva malli on saatavana verkossa Azure AI Galleryssa. Voit käyttää mallia seuraavien vaiheiden avulla:  
 
@@ -134,7 +134,7 @@ Voit myös luoda oman ennakoivan verkkopalvelun **Microsoft Business Central -so
 7. Laajenna **Azure AI** -pikavälilehti ja täytä kentät, myös ohjelmointirajapinnan URL-osoite ja avain Azure Machine Learning Studiosta. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. Valitse kirjanpitäjän roolikeskuksessa **Laske ennuste uudelleen** -toiminto **Kassavirtaennuste** -kaaviossa.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-centralindex" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Katso myös
 

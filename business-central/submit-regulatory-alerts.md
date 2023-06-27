@@ -72,7 +72,7 @@ Voit lähettää lakisääteisiä ilmoituksia Microsoft Dynamics Lifecycle Servi
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Tervetuloa Business Centraliin](index.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

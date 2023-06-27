@@ -36,7 +36,7 @@ Nimikkeiden inventointi, muuttaminen ja uudelleenluokittelu voivat sisältää v
 |Fyysisen varastoinnin siirtotyökirjan sekä sisäisen poiminnan ja hyllytyksen avulla voidaan siirtää nimikkeitä laajennetuissa varastointimäärityksissä ohjatun poiminnan ja hyllytyksen avulla.|[Nimikkeiden siirtäminen laajennetuissa varastomäärityksissä](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Järjestä fyysinen varasto uudelleen uusilla varastopaikan koodeilla ja uusilla varastopaikan ominaispiirteillä sekä mahdollisesti vaihtamalla niiden paikkaa.|[Fyysisten varastojen uudelleenjärjestely](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Katso myös
 

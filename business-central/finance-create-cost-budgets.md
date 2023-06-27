@@ -26,7 +26,7 @@ Voit luoda ja analysoida kustannusbudjetteja seuraavilla sivuilla. Valitse ![Lam
 |Katso kustannusbudjetin rekisterit ja kustannusbudjettitapahtumat.|**Kustannusbudjettirekisterit** -sivu|  
 |Tulosta kustannusbudjettivertailut eri raporttien avulla.|**Kustannuslaskennan saldo/budjetti** -raportti<br /><br /> **Kustannuslaskelma/budjetti** -raportti<br /><br /> **Kustannusbudjetti kustannuspaikoittain** -raportti<br /><br /> **Kustannusbudjetti kustannuskohteittain** -raportti|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-reports-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

@@ -24,7 +24,7 @@ Tässä osassa on lisätietoja, miten yhteensopivuus otetaan huomioon sovellukse
 |Lisätietoja Business Centraliin liittyvistä erilaisista sertifioinneista. Saat lisätietoja yleisistä sertifioinnista ja maakohtaisista sertifioinneista.|[Sertifikaatit](compliance-certifications.md)|  
 |Lisätietoja palvelutasosopimuksen ehdoista ja muista palveluehdoista.|[Palvelun ehdot](compliance-service-compliance.md#service-terms)|  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

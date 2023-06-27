@@ -49,7 +49,7 @@ Työnkulun ilmoitusten osatekijöitä voi määrittää seuraavissa paikoissa:
 
   Hyväksymistyönkuluille voit lisätä työnkulun vastausvaiheen, joka ilmoittaa lähettäjälle, kun heidän pyyntönsä on hyväksytty tai hylätty. Lue lisätietoja vaiheesta 9 [Työnkulkujen luominen](across-how-to-create-workflows.md#to-create-a-workflow) -osassa.   
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Katso myös
 

@@ -55,7 +55,7 @@ Vakuutuspäiväkirjan mallin alla voidaan määrittää eriä. Päiväkirjaerän
 > [!NOTE]  
 >   Numeroilla on päiväkirjan nimissä erityistehtävä. Jos päiväkirjamallin nimessä tai päiväkirjaerän nimessä on numero, numero suurenee automaattisesti yhdellä joka kerta, kun päiväkirja kirjataan. Esimerkiksi jos **Nimi**-kenttään syötetään HH1, päiväkirjan nimi muuttuu HH2:ksi sen jälkeen, kun päiväkirja, jonka nimi on HH1, on kirjattu.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also" />Katso myös
 

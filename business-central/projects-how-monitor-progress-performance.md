@@ -139,7 +139,7 @@ Kaikki projektiin liittyvät tapahtumat on tallennettu projektirekistereihin ja 
 
 **Projektitapahtumat**-sivulla voi tarkastella mihin tahansa projektiin liittyviä tapahtumia.  
 
-## <a name="find-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />Etsi aiheeseen liittyvät [Microsoftin koulutukset](/training/paths/calculate-post-job-wip/)
+## <a name="find-related-microsoft-training" />Etsi aiheeseen liittyvät [Microsoftin koulutukset](/training/paths/calculate-post-job-wip/)
 
 ## <a name="see-also" />Katso myös
 

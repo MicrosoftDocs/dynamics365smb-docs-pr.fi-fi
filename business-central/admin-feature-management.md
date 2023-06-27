@@ -17,7 +17,7 @@ Kun Microsoft julkaisee ominaisuuksia tai ominaisuuksia koskevia parannuksia osa
 
 Lue lisää kohdasta [Ominaisuuksien hallinta](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 

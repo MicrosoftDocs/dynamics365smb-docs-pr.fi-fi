@@ -13,13 +13,13 @@ ms.date: 04/12/2021
 ms.author: edupont
 ---
 
-# <a name="intelligent-insights-in-includeprodshortincludesprodshortmd-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Onlinen älykkäät tiedot
+# <a name="intelligent-insights-in--online" />[!INCLUDE[prod_short](includes/prod_short.md)] Onlinen älykkäät tiedot
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tuotteen verkkoversion käyttäjänä, sinulla on täysi käyttöoikeus skenaarioihin, jotka perustuvat älykkääseen pilveen, kuten koneoppimiseen perustuviin suorituskyvyn mittareihin tai kun tarkastalet tietoja Power BIn kautta.   
 
 Jos käytössä on kuitenkin paikallinen [!INCLUDE [prod_short](includes/prod_short.md)], käytössä ei ole samoja merkityksellisiä tietoja. Jos haluat hyödyntää verkkoskenaarioita, sinun on siirryttävä [!INCLUDE [prod_short](includes/prod_short.md)] onlineen. Lisätietoja on kohdassa [Paikallisten tietojen siirtäminen Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) -ohjelmaan [!INCLUDE[prod_short](includes/prod_short.md)]-hallintasisällössä.  
 
-## <a name="viewing-insights-in-includeprodshortincludesprodshortmd-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Onlinen merkityksellisten tietojen näyttäminen
+## <a name="viewing-insights-in--online" />[!INCLUDE[prod_short](includes/prod_short.md)] Onlinen merkityksellisten tietojen näyttäminen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] onlinessa **Älykkään pilven tiedot** -sivulla on seuraavat neljä kohtaa, jotka ovat tärkeitä useimmissa yrityksissä:
 

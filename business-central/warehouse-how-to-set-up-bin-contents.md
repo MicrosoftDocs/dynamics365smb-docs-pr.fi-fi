@@ -49,7 +49,7 @@ Kun olet luonut varastopaikat, voit luoda varastopaikan sisällön, jonka haluat
 
 Tässä työkirjassa voi työskennellä useiden varastopaikan sisältörivien parissa useiden varastopaikkojen osalta ja sen ansiosta voi saada hyvän yleiskuvan siitä, mitä olet panemassa eri varastopaikkoihin tietyllä alueella, käytävällä tai hyllyllä.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-zones-bins" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-zones-bins/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-zones-bins/)
 
 ## <a name="see-also" />Katso myös
 

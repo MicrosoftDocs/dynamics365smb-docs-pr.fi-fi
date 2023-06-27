@@ -89,7 +89,7 @@ Varaston siirtoasiakirjojen käytön sijaan varaston siirrot voidaan kirjata uud
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Katso myös
 

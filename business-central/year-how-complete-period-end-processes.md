@@ -57,7 +57,7 @@ ms.author: jswymer
 
 * Täytä ALV-ilmoitukset.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics-365-business-central" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/close-fiscal-year-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
 ## <a name="see-also" />Katso myös
 
