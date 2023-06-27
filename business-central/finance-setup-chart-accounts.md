@@ -11,14 +11,14 @@ ms.search.form: '16, 17, 18, 118, 386, 391'
 ms.date: 01/21/2022
 ms.author: edupont
 ---
-# <a name="set-up-or-change-the-chart-of-accounts" />Tilikartan määrittäminen tai muuttaminen
+# <a name="set-up-or-change-the-chart-of-accounts"></a>Tilikartan määrittäminen tai muuttaminen
 
 Tilikartta näyttää ne kirjanpidon tilit, joihin on tallennettu taloustietoja. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää tilikartan, joka on valmis tukemaan liiketoimintaasi. Voit kuitenkin muuttaa oletustilejä ja lisätä uusia tilejä.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="add-or-change-accounts" />Lisää tai muuta tilejä
+## <a name="add-or-change-accounts"></a>Lisää tai muuta tilejä
 
 Voit avata kunkin tilin pääkirjanpidon (KP) tilin tilikartasta ja lisätä tai muuttaa asetuksia. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,7 +29,7 @@ Tarvittaessa voit käyttää useita rivejä KP-tilin nimeä varten. Valitse **KP
 > [!IMPORTANT]
 > Jos olet syöttänyt määritelmiä **Summausväli**-kentässä **Loppusumma**-tileille ennen sisentämistä, sinun täytyy syöttää ne uudestaan, koska Sisennys-toiminto korvaa kaikki arvot **Loppusumma**-kentässä.
 
-## <a name="delete-accounts" />Poista tilejä
+## <a name="delete-accounts"></a>Poista tilejä
 
 Voit poistaa pääkirjanpitotilin. Ennen sen poistamista seuraavien on kuitenkin toteuduttava:  
 
@@ -39,7 +39,7 @@ Voit poistaa pääkirjanpitotilin. Ennen sen poistamista seuraavien on kuitenkin
 
 [!INCLUDE[prod_short](includes/prod_short.md)] estää tilikartassa tarvittavia tietoja sisältävän pääkirjanpitotilin poistamisen.  
 
-## <a name="block-deletion-of-gl-accounts" />Estä KP-tilien poisto
+## <a name="block-deletion-of-gl-accounts"></a>Estä KP-tilien poisto
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -49,9 +49,9 @@ Vuoden 2022 2. julkaisuaalto sisältää ylimääräisen suojauksen, ettei KP-ti
 
 Paras käytäntö on määrittää **Estä KP-tilien poisto** -kentän arvoksi *Kyllä* ja **Tarkista, voidaanko KP-tili poistaa tämän jälkeen** -kentän arvoksi esimerkiksi päivämäärä, johon mennessä taloustiedot on tallennettava.  
 
-## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/chart-accounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  

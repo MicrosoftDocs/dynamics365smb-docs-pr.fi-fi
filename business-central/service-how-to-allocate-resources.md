@@ -11,14 +11,14 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="allocate-resources" />Resurssien kohdistaminen
+# <a name="allocate-resources"></a>Resurssien kohdistaminen
 Huollon toimittavat henkilöt ovat huoltohallinnon tärkein elementti. Voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in määrittämään henkilöt heille soveltuviin projekteihin. Toimeksiannot voivat perustua henkilön tai huollon sijainnin mukaisiin huoltoalueisiin. Lisäksi resurssit voi ryhmitellä yhteen huoltopyyntöihin vastattaessa. Lisätietoja on kohdassa [Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md).
 
 Huoltonimikkeille kohdistetaan resursseja, esimerkiksi teknikoita, käyttämällä **Lähetystaulukko**, tai huoltotilauksesta. Voit kohdistaa resurssit niiden saatavuuden mukaan suorittamaan tilausten tai tarjousten huoltotehtäviä.
 
 Saman resurssin (esimerkiksi teknikon) tai resurssiryhmän voi kohdistaa kaikille huoltotilauksessa oleville huoltonimikkeille. Ohjelma luo kohdistustapahtumat kaikille tilauksessa oleville huoltonimikkeille, joilla on sama resurssinumero ja kohdistuspäivämäärä kuin kohdistamallasi rivillä. Kohdistetut tunnit ovat tunteja, jotka kohdistit ja jotka on jaettu tilauksessa olevien huoltonimikkeiden lukumäärällä. Kaikkien luotujen tapahtumien **Tila**-kentän arvoksi asetetaan automaattisesti **Aktiivinen**.
 
-## <a name="to-see-an-overview-of-service-orders-and-service-quotes" />Huoltotilausten tai -tarjousten yleistilanteen katsominen
+## <a name="to-see-an-overview-of-service-orders-and-service-quotes"></a>Huoltotilausten tai -tarjousten yleistilanteen katsominen
 Käyttäjä voi tarvita tiettyjen ehtojen mukaista huoltotilausten ja/tai huoltotarjousten luetteloa, kun tilauksille tai tarjouksille halutaan tehdä toimia yksi kerrallaan. Voit esimerkiksi haluta kohdistaa tietylle asiakkaalle kuuluville huoltotilauksille resursseja.  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lähetystaulukko** ja valitse sitten vastaava linkki.  
@@ -31,7 +31,7 @@ Käyttäjä voi tarvita tiettyjen ehtojen mukaista huoltotilausten ja/tai huolto
 
     **Huoltotilaus**- tai **Huoltotarjous** -ikkuna avautuu, ja voit käsitellä asiakirjaa. Palaa **Lähetystaulukko**-sivulle valitsemalla **OK**.
 
-## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability" />Resurssin kohdistaminen resurssin tai resurssiryhmän saatavuuden avulla
+## <a name="to-allocate-a-resource-using-resource-or-resource-group-availability"></a>Resurssin kohdistaminen resurssin tai resurssiryhmän saatavuuden avulla
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lähetystaulukko** ja valitse sitten vastaava linkki.  
 2. Valitse ensin huoltotilaus ja sitten **Resurssin kohdistukset** -toiminto.  
 3. Valitse tapahtuma, jossa on huoltotehtävä, johon haluat kohdistaa resurssin.  
@@ -49,7 +49,7 @@ Käyttäjä voi tarvita tiettyjen ehtojen mukaista huoltotilausten ja/tai huolto
 > [!NOTE]  
 >  Huoltotilauksessa olevalla huoltonimikkeellä voi olla vain **aktiivisia** kohdistustapahtumia, joissa on yksi resurssi tai resurssiryhmä kerralla.  
 
-## <a name="to-allocate-a-resource-using-a-service-order" />Resurssien kohdistaminen huoltotilausta käyttämällä:
+## <a name="to-allocate-a-resource-using-a-service-order"></a>Resurssien kohdistaminen huoltotilausta käyttämällä:
 Kun huoltotilaus tai tilaustarjous on luotu ja täytetty, voidaan asiakirjan huoltonimikeriveiksi rekisteröidyille huoltotehtäville kohdistaa resurssit (esimerkiksi teknikoita).  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** ja valitse sitten vastaava linkki.  
@@ -65,7 +65,7 @@ Kun huoltotilaus tai tilaustarjous on luotu ja täytetty, voidaan asiakirjan huo
 > [!NOTE]  
 >  Huoltotilauksessa olevalla huoltonimikkeellä voi olla vain aktiivisia kohdistustapahtumia, joissa on yksi resurssi tai resurssiryhmä kerralla.
 
-## <a name="to-reallocate-resources-on-a-service-order" />Huoltotilauksen resurssien uudelleenkohdistaminen
+## <a name="to-reallocate-resources-on-a-service-order"></a>Huoltotilauksen resurssien uudelleenkohdistaminen
 Resursseja voidaan kohdistaa uudelleen suoraan huoltotilauksesta tai huoltotarjouksesta tätä käsiteltäessä. Alkuperäinen tapahtuma on edelleen olemassa, mutta sen tila päivitetään seuraavalla tavalla:  
 
 * Jos huolto aloitettiin silloin, kun kohdistus oli **Aktiivinen** (eli tapahtumassa olevan huoltonimikkeen korjauksen tilaksi muutettiin **Työn alla**), ohjelma muuttaa kohdistuksen tilan **Uudelleenkohdistus tarvitaan** **Valmiiksi**.  
@@ -79,7 +79,7 @@ Resursseja voidaan kohdistaa uudelleen suoraan huoltotilauksesta tai huoltotarjo
 5. Valitse <kbd>Enter</kbd>-näppäin. Näyttöön tulee valintaikkuna, jossa kysytään, haluatko kohdistaa tapahtuman uudelleen. Täytä **Syykoodi**-kenttä tarvittaessa ja vahvista uudelleenkohdistus valitsemalla **Kyllä**.  
 6. Täytä **Kohdistuspvm**- ja **Kohdistetut tunnit** -kentät. Tapahtuma sisältää nyt uuden resurssin, ja sen tila on **Aktiivinen**.
 
-## <a name="to-reallocate-a-resource-using-the-dispatch-board" />Resurssien kohdistaminen lähetystaulukkoa käyttämällä
+## <a name="to-reallocate-a-resource-using-the-dispatch-board"></a>Resurssien kohdistaminen lähetystaulukkoa käyttämällä
 Jos huoltotehtävään kohdistettu resurssi ei kykene suorittamaan tehtävää, on kyseiselle huoltotehtävälle kohdistettava uusi resurssi. Huoltotehtäviin kohdistetaan uusia resursseja tavallisesti **lähetystaulukkoa** käyttämällä.  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lähetystaulukko** ja valitse sitten vastaava linkki.  
@@ -97,7 +97,7 @@ Jos huoltotehtävään kohdistettu resurssi ei kykene suorittamaan tehtävää, 
     > * Jos huoltoa ei aloitettu silloin, kun kohdistus oli **Aktiivinen**, ohjelma muuttaa kohdistuksen tilan **Uudelleenkohdistus tarvitaan** **Peruutetuksi**.  
     > * Jos olet kohdistamassa uudelleen huoltotilausta, jonka olet muuntanut tarjouksesta, tarjoukselle rekisteröityjen kohdistustapahtumien tilaksi muutetaan **Valmis** aina silloin, kun huoltotilauksessa olevia huoltonimikkeitä uudelleenkohdistetaan.  
 
-## <a name="to-register-resource-hours" />Resurssituntien rekisteröiminen
+## <a name="to-register-resource-hours"></a>Resurssituntien rekisteröiminen
 Kun työskentelet huoltotilauksissa olevien huoltonimikkeiden parissa, huollolle käytetyt resurssitunnit tulee rekisteröidä. Seuraavassa kuvataan, miten resurssitunnit rekisteröidään **Huoltonimikkeen työkirja** -sivulla.  
 
 Samaa menettelyä voidaan käyttää rekisteröimään tunteja **Huoltorivit**-sivulla, jonka voit avata Huoltotilaus-sivulta. Avaa asianmukainen huoltokortti ja valitse **Huoltorivit**-toiminto.  
@@ -108,7 +108,7 @@ Jos sama resurssi työskentelee kaikkien huoltotilauksessa olevien huoltonimikke
 2. Valitse ensin huoltonimikkeen sisältävä rivi ja sitten **Nimikkeen työkirja** -toiminto.  
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-assign-a-resource-to-all-service-items-in-an-order" />Resurssien kohdistaminen kaikkiin tilauksen huoltonimikkeisiin
+## <a name="to-assign-a-resource-to-all-service-items-in-an-order"></a>Resurssien kohdistaminen kaikkiin tilauksen huoltonimikkeisiin
 Jos sama resurssi (esimerkiksi teknikko) työskentelee kaikkien huoltotilauksessa olevien huoltonimikkeiden parissa, kokonaisresurssitunnit voi rekisteröidä vain yhdelle huoltonimikkeelle ja resurssirivin voi sitten jakaa, jotta resurssitunnit voidaan jakaa resurssiriveille muiden huoltonimikkeiden osalta.  
 
 Seuraavassa kuvataan, miten resurssirivejä jaetaan **Huoltolaskun rivit** -sivulla.  
@@ -121,7 +121,7 @@ Seuraavassa kuvataan, miten resurssirivejä jaetaan **Huoltolaskun rivit** -sivu
 
     Ohjelma luo resurssirivejä muille tilauksessa oleville huoltonimikkeille, joilla on sama resurssinumero kuin jakamallasi rivillä. Määrä on määrä jakamasi rivin osalta jaettuna tilauksessa olevien huoltonimikkeiden lukumäärällä.  
 
-## <a name="to-cancel-an-allocation" />Kohdistusten peruuttaminen
+## <a name="to-cancel-an-allocation"></a>Kohdistusten peruuttaminen
 Voit peruuttaa huoltotehtävien resurssien kohdistukset ilman, että tehtävät on kohdistettava uudelleen.  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lähetystaulukko** ja valitse sitten vastaava linkki.  
@@ -134,7 +134,7 @@ Voit peruuttaa huoltotehtävien resurssien kohdistukset ilman, että tehtävät 
     > [!NOTE]  
     > Ohjelma valitsee automaattisesti **Uudelleenkohdistamista tarvitaan** -vaihtoehdon **Tila**-kentässä. Jos tapahtumassa olevan huoltonimikkeen korjauksen tila on **Alku**, ohjelma muuttaa korjauksen tilaksi **Lykätty** (huoltoa ei ole aloitettu). Jos korjauksen tila on **Työn alla**, ohjelma muuttaa korjauksen tilaksi **Osittain huollettu** (osa huollosta on suoritettu loppuun).
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 [Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md)  
 [Kohdistuksen tila ja korjauksen tila](service-allocation-status-and-repair-status.md)  
 

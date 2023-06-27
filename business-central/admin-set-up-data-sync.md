@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
 
-# <a name="get-ready-to-synchronize-master-data" />Päätietojen synkronointiin valmistautuminen
+# <a name="get-ready-to-synchronize-master-data"></a>Päätietojen synkronointiin valmistautuminen
 
 Kun vähintään kaksi yritystä käyttää samoja päätietoja, voit synkronoida tiedot sen sijaan, että lisäsit ne manuaalisesti jokaiseen yritykseen. Tietojen synkronointi on esimerkiksi erityisen hyödyllistä silloin, kun määrität uusia tytäryrityksiä.
 
@@ -25,14 +25,14 @@ Päätietoihin kuuluvat asetukset ja ei-kaupalliset tiedot liiketoimintayksiköi
 
 Synkronointi määritetään tytäryrityksissä. Vetomallin avulla tytäryhtiöt hakevat lähdeyritykseltä tiedot, joita ne tarvitsevat asioidakseen niiden kanssa. Kun olet määrittänyt synkronoinnin ja synkronoit tiedot ensimmäisen kerran, olet valmis. Työjonotapahtumat käynnistävät heti tietojen päivittämisen tytäryrityksiin, kun joku muuttaa tietoja lähdeyrityksessä.
 
-## <a name="uni-directional-synchronization-only" />Vain monisuuntainen synkronointi
+## <a name="uni-directional-synchronization-only"></a>Vain monisuuntainen synkronointi
 
 Voit synkronoida tietoja vetomallilla vain lähdeyrityksestä tytäryrityksiin. Tytäryhtiöt eivät voi työntää tietoja lähdeyritykseen.
 
 > [!NOTE]
 > Vaikka se on mahdollista, Microsoft ei suosittele kaksisuuntaisen synkronoinnin määrittämistä. Tämä tarkoittaa sitä, että lähdeyrityksen tiedot synkronoidaan tytäryrityksiin ja tytäryrityksistä lähdeyritykseen. Tietojen synkronoiminen molempiin suuntiin voi aiheuttaa ristiriitoja tai ei-toivottuja korvauksia.
 
-## <a name="before-you-start" />Ennen kuin aloitat
+## <a name="before-you-start"></a>Ennen kuin aloitat
 
 Seuraavat seikat ovat synkronoinnin määrittämisen vaatimukset.
 
@@ -42,7 +42,7 @@ Seuraavat seikat ovat synkronoinnin määrittämisen vaatimukset.
 > [!NOTE]
 > Ryhmän jäsenen ja sisäisen järjestelmänvalvojan käyttöoikeudet antavat sinulle pääsyn tietueisiin, mutta eivät muuta niitä, joten niitä ei voi käyttää synkronoinnin määrittämiseen. Delegoidun järjestelmänvalvojan käyttöoikeus ei anna sinun ajoittaa taustatehtäviä, joten et voi suorittaa asennusta loppuun.
 
-## <a name="specify-the-source-company" />Määritä lähdeyritys
+## <a name="specify-the-source-company"></a>Määritä lähdeyritys
 
 Ensimmäisten vaiheiden avulla voit määrittää yrityksen, joka on tietolähde, ja ottaa synkronoinnin käyttöön. Tytäryritykset vetävät tietoja lähdeyrityksestä.
 
@@ -53,7 +53,7 @@ Ensimmäisten vaiheiden avulla voit määrittää yrityksen, joka on tietolähde
 
 Seuraava vaihe on taulukoiden ja kenttien ottaminen käyttöön synkronointia varten.
 
-## <a name="enable-or-disable-tables-and-fields" />Taulukoiden ja kenttien ottaminen käyttöön ja poistaminen käytöstä
+## <a name="enable-or-disable-tables-and-fields"></a>Taulukoiden ja kenttien ottaminen käyttöön ja poistaminen käytöstä
 
 Jos haluat säästää aikaa, [!INCLUDE [prod_short](includes/prod_short.md)] tarjoaa luettelon taulukoista, joita yritykset usein synkronoivat. Oletusarvoisesti nämä taulukot on otettu käyttöön synkronointia varten. Voit muokata, poistaa käytöstä tai poistaa niitä parhaaksi katsomallasi tavalla. Ajan säästämiseksi, jotkin taulukoiden kentät on jo poistettu käytöstä, koska ne eivät todennäköisesti ole olennaisia tytäryrityksen kannalta.
 
@@ -75,7 +75,7 @@ Jos haluat säästää aikaa, [!INCLUDE [prod_short](includes/prod_short.md)] ta
 > [!TIP]
 > Nopea tapa ottaa useita kenttiä käyttöön tai poistaa ne käytöstä samanaikaisesti on valita ne luettelosta ja käyttää sitten joko **Ota käyttöön**- tai **Poista käytöstä** -toimintoa.
 
-### <a name="use-match-based-coupling" />Käytä vastaavuuteen perustuvaa yhdistämistä
+### <a name="use-match-based-coupling"></a>Käytä vastaavuuteen perustuvaa yhdistämistä
 
 Voit määrittää taulukon synkronoitavat tiedot käyttämällä ehtoihin perustuvia tietueita. Valitse **Perustietojen hallinnan asetukset** -sivulla **Vastaavuuteen perustuva yhdistäminen** -toiminto avataksesi **Valitse yhdistämisehdot** -sivun. Voit määrittää seuraavat kriteerit kohdistusta varten:
 
@@ -84,7 +84,7 @@ Voit määrittää taulukon synkronoitavat tiedot käyttämällä ehtoihin perus
 * Kentät, joita käytetään tietueiden täsmäämiseen ja se, onko vastaavuus kirjainkoon huomioonottava.
 * Priorisoi tietueiden hakujärjestystä määrittämällä vastaavuusprioriteetin. [!INCLUDE [prod_short](includes/prod_short.md)] etsii vastaavuutta nousevassa järjestyksessä vastaavuuden prioriteetin perusteella. Tyhjä arvo on sama kuin prioriteetti 0, joka on korkein prioriteetti. Kentät, joiden prioriteetti on 0, otetaan ensin huomioon.
 
-## <a name="synchronize-for-the-first-time" />Synkronoi ensimmäisen kerran
+## <a name="synchronize-for-the-first-time"></a>Synkronoi ensimmäisen kerran
 
 Kun olet valmis, valitse **Päätietojen hallinnan asetukset** -sivulla **Aloita ensimmäinen synkronointi** -toiminto. Valitse **Päätietojen ensimmäinen synkronointi** -sivulla kunkin taulukon synkronointityyppi.
 
@@ -103,9 +103,9 @@ Kun synkronointi on käynnissä, **Työn tila** -sarake **Perustietojen ensimmä
 
 Jos haluat käyttää tietoja, kuten lisättyjen tai muutettujen tietueiden määrää, valitse **Työn tila** -sarakkeesta arvo, kun haluat avata **Näytä - Integroinnin synkronointityöt** -sivun. Lisätyille tietueille voit valita **lisätty**-sarakkeen numeron ja käyttää uusia tietueita koskevia lisätietoja.
 
-## <a name="add-or-delete-tables-from-the-synchronization-tables-list" />Taulukkojen lisääminen tai poistaminen synkronointitaulukkojen luettelosta
+## <a name="add-or-delete-tables-from-the-synchronization-tables-list"></a>Taulukkojen lisääminen tai poistaminen synkronointitaulukkojen luettelosta
 
-### <a name="add-a-table" />Taulukon lisääminen
+### <a name="add-a-table"></a>Taulukon lisääminen
 
 > [!IMPORTANT]
 > Vaikka tapahtumatietoja sisältävät taulukot ovat saatavilla luettelossa, kuten taulukoita, jotka sisältävät pääkirjanpidon merkintöjä, niitä ei kannata valita. Synkronointi toimii vain sellaisissa taulukoissa, jotka sisältävät ei-tapahtumatietoja.
@@ -114,7 +114,7 @@ Jos haluat käyttää tietoja, kuten lisättyjen tai muutettujen tietueiden mä�
 1. Valitse **Uusi** ja valitse sitten lisättävä taulukko.
 1. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
 
-### <a name="delete-a-table" />Poista taulukko
+### <a name="delete-a-table"></a>Poista taulukko
 
 > [!NOTE]
 > Jos poistat tietueen lähdeyrityksestä, sitä ei poisteta myös tytäryhtiöstä. Tämä auttaa estämään ei-toivotut tietojen menetykset. Tytäryritys voi halutessaan poistaa taulukon.
@@ -122,10 +122,10 @@ Jos haluat käyttää tietoja, kuten lisättyjen tai muutettujen tietueiden mä�
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Synkronoi taulukot** ja valitse sitten vastaava linkki.
 1. Valitse **Poista**-toiminto.
 
-## <a name="use-export-and-import-to-share-a-synchronization-setup" />Jaa synkronointiasetukset käyttämällä vie ja tuo -asetusta
+## <a name="use-export-and-import-to-share-a-synchronization-setup"></a>Jaa synkronointiasetukset käyttämällä vie ja tuo -asetusta
 
 Jos määrität useita tytäryhtiöitä, jotka käyttävät samoja tai samankaltaisia synkronointiasetuksia, säästäjät aikaa. Määritä toinen tytäryritys ja vie sen asetukset .xml-tiedostoon. Tiedosto sisältää kaikki asetukset, kuten taulukoiden ja kenttien yhdistämismääritykset ja suodatusehdot. Tämän jälkeen voit tuoda tiedoston seuraavalle tytäryhtiölle. Voit tuoda tai viedä asetukset käyttämällä **Päätietojen hallinnan asetukset** -sivulla **Tuonti**- tai **Vienti**-toimintoja.
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Päätietojen synkronoinnin hallinta](admin-sync-master-data.md)

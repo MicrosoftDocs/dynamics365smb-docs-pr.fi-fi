@@ -11,7 +11,7 @@ ms.date: 10/01/2021
 ms.author: jswymer
 ---
 
-# <a name="getting-business-central-on-your-mobile-device" />Business Central -sovelluksen hakeminen mobiililaitteeseen
+# <a name="getting-business-central-on-your-mobile-device"></a>Business Central -sovelluksen hakeminen mobiililaitteeseen
 
 Voit käyttää [!INCLUDE[prod_short](includes/prod_short.md)]in tietoja mobiililaitteella. Voit siirtyä liiketoimintatiedoissa, käyttää erilaisia toimintoja, kuten lähettää tietoja Exceliin ja Microsoft 365:een, tarkastella päivitettyjä kaavioita ja tunnuslukuja, lähettää myyntitarjouksia ja -laskuja sähköpostitse sekä ottaa kameralla kuvia ja liittää niitä. Noudattamalla seuraavia ohjeita voit ladata sovelluksen ja aloittaa.
 
@@ -20,7 +20,7 @@ Voit käyttää [!INCLUDE[prod_short](includes/prod_short.md)]in tietoja mobiili
 > [!TIP]
 > Haluatko sovelluksen Windows- tai macOS-tietokoneen työpöydälle? Katso [Business Central -työpöytäsovelluksen hankkiminen](install-desktop-app.md).
 
-## <a name="get-the-app-on-my-mobile-device" />Sovelluksen asentaminen omaan mobiililaitteeseen
+## <a name="get-the-app-on-my-mobile-device"></a>Sovelluksen asentaminen omaan mobiililaitteeseen
 
 1. Asenna [!INCLUDE[prod_short](includes/prod_short.md)] -sovellus mobiililaitteeseen lataamalla se App Storesta tai Google Playsta.  
    - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
@@ -35,7 +35,7 @@ Voit nyt käyttää [!INCLUDE[prod_short](includes/prod_short.md)]ia sekä tarka
 > [!TIP]
 > Jos haluat yhdistää sovelluksen eristysympäristöön, valitse **Lisäasetukset**-painike ja valitse sitten **Pilvieristys**-sisäänkirjautumisvaihtoehto. Jos käytössäsi on useita eristysympäristöjä, valitse haluamasi ympäristö.
 
-## <a name="use-business-central-on-premises" />Käytätkö Business Central on-premises -versiota?
+## <a name="use-business-central-on-premises"></a>Käytätkö Business Central on-premises -versiota?
 
 Jos käytät [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versiota, voit myös nauttia mobiilisovelluksen eduista. Asennus on samankaltainen, mutta siinä on muutama poikkeus.
 
@@ -53,9 +53,9 @@ Jos käytät [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versiot
 > [!NOTE]
 > Jos sovelluksen asentamisessa on ongelmia, ota yhteys järjestelmänvalvojaan. Se voi olla puuttuva edellytys tai epätäydellinen konfiguraatio. Lisätietoja on kohdassa [Ympäristön valmisteleminen mobiilisovellusta varten](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) tai [Business Central mobiilisovelluksen vianetsintä on-premises-versiossa](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
-## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Mobiilisovellukset – usein kysytyt kysymykset](ui-mobile-faq.yml)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  

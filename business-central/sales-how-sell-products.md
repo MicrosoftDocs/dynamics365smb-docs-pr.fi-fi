@@ -17,7 +17,7 @@ ms.contentlocale: fi-FI
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9535824"
 ---
-# <a name="sell-products-with-a-customer-sales-order" /><a name="sell-products-with-a-customer-sales-order"></a>Tuotteiden myyminen asiakkaan myyntitilauksen avulla
+# <a name="sell-products-with-a-customer-sales-order"></a><a name="sell-products-with-a-customer-sales-order"></a>Tuotteiden myyminen asiakkaan myyntitilauksen avulla
 
 Tämä artikkeli antaa ohjeita siitä, milloin sinun tulee käyttää asiakkaan myyntitilausta laskun lisäksi. Jos myyntiprosessi edellyttää, että lähetät vain osan tilauksesta, ehkä siksi, että koko määrä ei ole heti saatavilla, sinun on käsiteltävä kyseinen myynti tekemällä myyntitilaus.
 
@@ -29,7 +29,7 @@ Yritysympäristöissä, joissa asiakas maksaa heti (esimerkiksi PayPal-maksuna t
 
 Voit luoda jopa suoraan maksettavia tilauksia rekisteröimättömille asiakkaille, kun määrität ensin käteisasiakaskortin, jossa viitataan myyntitilaukseen. Lisätietoja kohdassa [Käteisasiakkaiden määrittäminen](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order" /><a name="create-a-sales-order"></a>Luo myyntitilaus
+## <a name="create-a-sales-order"></a><a name="create-a-sales-order"></a>Luo myyntitilaus
 
 > [!NOTE]  
 > Seuraavassa oletetaan, että asiakas on jo määritetty. Lisätietoja tämän tekemisestä on kohdassa [Uusien asiakkaiden rekisteröiminen](sales-how-register-new-customers.md).
@@ -93,13 +93,13 @@ Asiakkaan ensisijainen asiakirjojen vastaanottomenetelmä näkyy **Kirjaa ja lä
 
 Nyt järjestelmässä luodaan liittyvä nimike ja asiakastapahtumat. Myyntitilaus tulostetaan PDF-asiakirjana. Kun myyntitilaus on kirjattu kokonaan, se poistetaan myyntitilausluettelosta ja korvataan uusilla kirjattujen myyntilaskujen luettelon ja kirjattujen myyntitoimitusten luettelon asiakirjoilla.  
 
-## <a name="external-document-number" /><a name="external-document-number"></a>Ulkoisen tiedoston numero
+## <a name="external-document-number"></a><a name="external-document-number"></a>Ulkoisen tiedoston numero
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-training" /><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-sales-documents-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-sales-documents-dynamics-365-business-central/).
 
-## <a name="see-also" /><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Myynnin laskutus](sales-how-invoice-sales.md)  
 [Myynnin kirjaaminen](ui-post-sales.md)  

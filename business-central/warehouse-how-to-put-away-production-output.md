@@ -10,7 +10,7 @@ ms.date: 12/20/2022
 ms.custom: bap-template
 ms.search.forms: '9326, 99000831, 9315, 7375'
 ---
-# <a name="put-away-production-or-assembly-output" />Tuotannon tai kokoonpanon tuotoksen hyllyttäminen
+# <a name="put-away-production-or-assembly-output"></a>Tuotannon tai kokoonpanon tuotoksen hyllyttäminen
 
 Tuotannon hyllytystapa määräytyy sen mukaan, miten fyysinen varasto on määritetty sijaintina Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).  
 
@@ -21,11 +21,11 @@ Jos fyysisen varastoinnin perusmääritykset edellyttävät sijainnissa hyllytyk
 
 Jos laajennetut varastomääritykset edellyttävät sijainnissa sekä hyllytyksen että vastaanoton käsittelyä, voit hyllyttää tuotoksen luomalla joko sisäisen hyllytysasiakirjan tai siirtoasiakirjan.  
 
-## <a name="to-put-away-production-output-with-an-inventory-put-away" />Tuotannon tuotosten hyllyttäminen varastohyllytyksen avulla
+## <a name="to-put-away-production-output-with-an-inventory-put-away"></a>Tuotannon tuotosten hyllyttäminen varastohyllytyksen avulla
 
 Tuotoksen hyllytyksen luonnin ensimmäinen vaihe on luoda saapuvan varastoinnin pyyntö. Tämä pyyntö ilmaisee fyysiselle varastolle, että tuotanto- tai kokoonpanotilauksen tuotos on valmis hyllytettäväksi.
 
-### <a name="to-create-the-inbound-warehouse-request" />Saapuvan f. varastoinnin pyyntö
+### <a name="to-create-the-inbound-warehouse-request"></a>Saapuvan f. varastoinnin pyyntö
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vapautettu tuotantotilaus** ja valitse sitten vastaava linkki.  
 2. Valitse ensin hyllytykseen valmis tuotantotilaus ja sitten **Luo saapuva f. var. pyyntö** -toiminto.  
@@ -33,7 +33,7 @@ Tuotoksen hyllytyksen luonnin ensimmäinen vaihe on luoda saapuvan varastoinnin 
 > [!NOTE]  
 > Voit luoda saapuvan fyysisen varastoinnin pyynnön myös valitsemalla **Luo saapuva pyyntö** --kentän, kun päivität tuotantotilauksen. Lisätietoja on kohdassa [Tuotantotilausten päivittäminen tai uudelleensuunnittelu](production-how-to-replan-refresh-production-orders.md).  
 
-### <a name="to-put-output-away-with-an-inventory-put-away" />Nimikkeiden hyllyttäminen varastohyllytyksen avulla
+### <a name="to-put-output-away-with-an-inventory-put-away"></a>Nimikkeiden hyllyttäminen varastohyllytyksen avulla
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston hyllytys** ja valitse sitten vastaava linkki.  
 2. Luo uusi varaston hyllytys. Lisätietoja on kohdassa [Nimikkeiden hyllyttäminen varaston hyllytyksen avulla](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
@@ -49,14 +49,14 @@ Kun kirjaat varastohyllytyksen, oletuksena on, että kaikki toiminnot kirjataan 
 
 Jos vain viimeisen toiminnon määritys- tai ajoaika on kirjattava, määritä viimeisen toiminnon tuotoksen määräksi 0. Viimeinen rivi voidaan jättää kirjaamatta myös poistamalla se.
 
-## <a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations" />Kokoonpanon tai tuotannon tuloksen hyllytys laajennetuissa varastointimäärityksissä
+## <a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a>Kokoonpanon tai tuotannon tuloksen hyllytys laajennetuissa varastointimäärityksissä
 
 Kun kirjaat tuotanto- tai kokoonpanotilauksen tuotoksen fyysiseen varastoon, joka käyttää ohjattua hyllytystä ja poimintaa, tuotos sijoitetaan varastopaikkaan, joka on määritetty tuotanto- tai kokoonpanotilauksessa. Lisätietoja erilaisista tavoista siirtää nimikkeitä fyysisessä varastossa laajennettujen määritysten avulla on kohdassa [Nimikkeiden siirtäminen laajennetuissa varastomäärityksissä](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet).
 
 > [!NOTE]  
 > Lähdeasiakirjan numeroa, kuten tuotantotilauksen numeroa ei voi syöttää kokoonpano- tai tuotannon tuotosprosessien sisäisessä hyllytyksen, hyllytyksen tai siirron asiakirjoissa.  
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
 [Varasto](inventory-manage-inventory.md)  

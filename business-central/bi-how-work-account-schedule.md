@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'bi, power BI, analysis, KPI, account schedule, financial report'
 ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ---
-# <a name="prepare-financial-reporting-with-financial-data-and-account-categories" />Taloushallinnon raportoinnin valmisteleminen taloustietojen ja tililuokkien avulla
+# <a name="prepare-financial-reporting-with-financial-data-and-account-categories"></a>Taloushallinnon raportoinnin valmisteleminen taloustietojen ja tililuokkien avulla
 
 Talousraporttien avulla saat tietoja tilikarttaan sisältyvistä kirjanpitotiedoista. Taloudelliset raportit analysoivat kirjanpitotilien lukuja ja vertaavat pääkirjanpidon tapahtumia budjettitapahtumiin. Tulokset näkyvät roolikeskuksen kaavioissa ja raporteissa, kuten kassavirtakaaviossa ja Tuloslaskelma- ja Tase-raporteissa.
 
@@ -20,7 +20,7 @@ Voit käyttää näitä kahta raporttia esimerkiksi liiketoimintajohtajan ja kir
 
 Taloudellisten raporttien määrittäminen vaatii tilikartan taloustietojen ymmärtämistä. Voit esimerkiksi tarkastella KP-tapahtumien prosenttiosuuksia budjettitapahtumista, mutta se edellyttää, että olet luonut budjetteja. Lisätietoja on kohdassa [KP-budjettien luominen](finance-how-create-budgets.md).
 
-## <a name="financial-reports" />Talousraportit
+## <a name="financial-reports"></a>Talousraportit
 
 Taloudelliset raportit järjestävät tilikarttasi tilejä tavoilla, jotka tekevät tiedoista helpommin esitettäviä. Voit määrittää eri asetteluja määrittääksesi tiedot, jotka haluat suodattaa tilikartasta. Taloudelliset raportit tarjoavat paikan laskelmille, joita ei voi tehdä suoraan tilikartassa. Voit esimerkiksi luoda tiliryhmien välisummia ja sisällyttää ne muihin summiin. Toinen esimerkki on laskea katteita osastojen tai asiakasryhmien kaltaisille dimensioille. Lisäksi pääkirjanpidon tapahtumia ja budjettitapahtumia voi suodattaa esimerkiksi nettomuutoksen tai veloitussumman perusteella.
 
@@ -30,7 +30,7 @@ Voit myös verrata kahta tai useampaa taloudellista raporttia ja sarakemäärite
 * Luo niin monta talousraporttia kuin tarvitset, joista jokaisella on yksilöllinen nimi.
 * määrittää useita raportin asetteluita sekä tulostaa raportit käyttäen nykyisiä lukuja.
 
-## <a name="gl-account-categories" />KP-tilin luokat
+## <a name="gl-account-categories"></a>KP-tilin luokat
 
 KP-tililuokkien avulla voit muuttaa rahoituslaskelmien asettelua. Kun olet esimerkiksi määrittänyt tililuokat **KP-tililuokat** -sivulla, voit valita **Luo talousraportit** -toiminnon ja päivittää talousraportin perustana olevat talousraportit. Kun seuraavan kerran suoritat toisen näistä raporteista, esimerkiksi **Tase**-raportin, uudet kokonaissummat ja korvaustapahtumat lisätään.
 
@@ -39,7 +39,7 @@ KP-tililuokkien avulla voit muuttaa rahoituslaskelmien asettelua. Kun olet esime
 >
 > Sinun tulisi luoda ja jäsentää omat alemman tason KP-tililuokat alusta alkaen hierarkkisesti sen sijaan, että yrittäisit järjestää aiemmin luotuja. Voit esimerkiksi jäsentää **Velat**-solmun uudelleen niin, että siinä on uusi **Oma pääoma** -solmu, ja sen perässä ovat **Lyhytaikaiset velat**- ja **Pitkäaikaiset velat** -solmut.
 
-## <a name="create-a-new-financial-report" />Luo uusi talousraportti
+## <a name="create-a-new-financial-report"></a>Luo uusi talousraportti
 
 Käytät talousraportteja pääkirjanpitotilien analysointiin tai pääkirjanpidon kirjausten vertaamiseen budjettimerkintöihin. Voit esimerkiksi tarkastella KP-tapahtumien prosenttiosuuksia budjettitapahtumista.
 
@@ -70,7 +70,7 @@ Käytät talousraportteja pääkirjanpitotilien analysointiin tai pääkirjanpid
 
 Olet määrittänyt seuraavan talousraportin perusteen, näytettävät taloudelliset tiedot ja aiemmin luodun sarakeasettelun, jonka mukaan tiedot näytetään rivikohtaisesti mukautettujen parametrien perusteella. Jos vaiheessa 4 valittu oletussarakemääritys ei ole tarkoituksenmukainen, toimi kohdan [Sarakemäärityksen muokkaaminen](#edit-a-column-definition) ohjeiden mukaan.
 
-### <a name="edit-a-column-definition" />Muokkaa sarakemääritystä
+### <a name="edit-a-column-definition"></a>Muokkaa sarakemääritystä
 
 Määritä sarakemääritysten avulla, mitkä sarakkeet sisällytetään raporttiin. Voit esimerkiksi suunnitella asettelun, jonka avulla voit verrata nettomuutosta ja saldoa samalta kaudelta tältä ja edelliseltä vuodelta. Sarakkeita voi olla enintään 15, mikä on hyödyllistä esimerkiksi silloin, kun näytetään 12 kuukauden budjetit, joissa on summan näyttävä sarake.
 
@@ -85,7 +85,7 @@ Määritä sarakemääritysten avulla, mitkä sarakkeet sisällytetään raportt
 > [!NOTE]
 > Kullekin riville määritetyt sarakkeet vastaavat **Talousraportti**-sivulla saraketta 3 ja siitä eteenpäin. Kaksi ensimmäistä saraketta, **Rivikoodi** ja **Kuvaus**, ovat kiinteitä sarakkeita.  
 
-### <a name="create-a-column-that-calculates-percentages" />Prosenttilukuja laskevan sarakkeen luominen
+### <a name="create-a-column-that-calculates-percentages"></a>Prosenttilukuja laskevan sarakkeen luominen
 
 Joskus haluat ehkä sisällyttää talousraporttiin sarakkeen, joka laskee prosenttiluvut kokonaissummasta. Jos sinulla esimerkiksi on myynnin dimensioittain eritteleviä rivejä, voit lisätä sarakkeen, joka ilmoittaa kunkin rivin prosenttiosuuden kokonaissummasta.
 
@@ -98,7 +98,7 @@ Joskus haluat ehkä sisällyttää talousraporttiin sarakkeen, joka laskee prose
 7. Täytä rivin kentät seuraavasti: valitse **Saraketyyppi**-kenttään **Kaava**. Anna **Kaava**-kenttään sen summan kaava, jolle haluat laskea prosentin, ja sen perään prosenttimerkki (%). Joten jos esimerkiksi sarake N sisältää nettomuutoksen, syötä **N %**.  
 8. Toista vaiheet 4-7 kullekin riviryhmälle, jonka haluat jakaa prosenttiluvun mukaan.
 
-## <a name="set-up-financial-reports-with-overviews" />Määritä talousraportit yleiskatsausten avulla
+## <a name="set-up-financial-reports-with-overviews"></a>Määritä talousraportit yleiskatsausten avulla
 
 Voit käyttää talousraporttia pääkirjanpidon lukuja ja pääkirjanpidon budjettilukuja vertaavan laskelman luomiseksi.
 
@@ -116,7 +116,7 @@ Voit käyttää talousraporttia pääkirjanpidon lukuja ja pääkirjanpidon budj
 
 Nyt voit kopioida ja liittää budjettierittelyn laskentataulukkoon.  
 
-## <a name="comparing-accounting-periods-using-period-formulas" />Kirjanpitojaksojen vertaaminen käyttäen jakson kaavoja
+## <a name="comparing-accounting-periods-using-period-formulas"></a>Kirjanpitojaksojen vertaaminen käyttäen jakson kaavoja
 
 Talousraporttisi voi verrata eri kirjanpitojaksojen tuloksia, kuten viime kuun tuloksia edellisen vuoden saman kuukauden tuloksiin. Voit tehdä sen avaamalla **sarakemääritys**-sivun ja mukauttamalla sen lisäämällä **Vertailujakson kaava** -kentän sarakkeeksi. Lue lisää kohdasta [Työtilan mukauttaminen](ui-personalization-user.md). Tämän jälkeen kenttä voidaan määrittää jakson kaavaksi.  
 
@@ -150,7 +150,7 @@ Jos haluat laskea tavallisten jaksojen mukaan, syötä kaava sen sijaan **Vertai
 
 Lisätietoja on kohdassa [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md).
 
-## <a name="print-and-save-financial-reports" />Tulosta ja tallenna talousraportit
+## <a name="print-and-save-financial-reports"></a>Tulosta ja tallenna talousraportit
 
 Voit tulostaa talousraportteja laitteesi tulostuspalveluiden avulla. [!INCLUDE[prod_short](includes/prod_short.md)] tarjoaa myös mahdollisuuden tallentaa raportteja Microsoft Excel -työkirjoina, Microsoft Word -asiakirjoina, PDF- ja XML-tiedostoina.
 
@@ -161,7 +161,7 @@ Voit tulostaa talousraportteja laitteesi tulostuspalveluiden avulla. [!INCLUDE[p
     1. **(Selaimen käsittelemä)** -vaihtoehto ilmaisee, että raportille ei ole määritetty tulostinta. Tässä tapauksessa selain käsittelee tulosteen ja näyttää vakiotulostusvaiheet. Voit valita laitteeseesi yhdistetyn paikallisen tulostimen. **(Käsitellään selaimessa)** ei ole käytössä [!INCLUDE[prod_short](includes/prod_short.md)] -mobiilisovelluksessa tai Microsoft Teamsin selaimessa.
 5. Valitse **Tulosta**-toiminto.
 
-### <a name="schedule-a-financial-report-or-save-as-a-pdf-word-or-excel-document" />Talousraportin ajoittaminen tai tallentaminen PDF-, Word- tai Excel-tiedostona
+### <a name="schedule-a-financial-report-or-save-as-a-pdf-word-or-excel-document"></a>Talousraportin ajoittaminen tai tallentaminen PDF-, Word- tai Excel-tiedostona
 
 Taloudellinen raportti voidaan tallentaa tiedostona eri muodoissa, kuten PDF, XML, Word tai Excel. Vaihtoehtoisesti [!INCLUDE[prod_short](includes/prod_short.md)] voidaan asettaa luomaan toistuvia talousraportteja:
 
@@ -172,11 +172,11 @@ Taloudellinen raportti voidaan tallentaa tiedostona eri muodoissa, kuten PDF, XM
 5. Voit luoda ajoitetun tai toistuvan talousraportin täyttämällä kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
    * Toistuvissa talousraporteissa luodaan talousraportti määrittämällä **Varhaisin aloituspäivämäärä/aika** ja **Vanhentumispäivä/aika** -kenttiin ensimmäinen ja viimeinen päivämäärä. Valitse myös sen päivän päivämäärä, jolloin raportti luodaan, määrittämällä **Seuraava suorituspvm-kaava** -kenttä [Käytä pvm-kaavoja](ui-enter-date-ranges.md#use-date-formulas) -osassa selostettujen muotojen jälkeen.
 
-## <a name="importing-or-exporting-financial-reports" />Taloudellisten raporttien tuominen tai vieminen
+## <a name="importing-or-exporting-financial-reports"></a>Taloudellisten raporttien tuominen tai vieminen
 
 Voit tuoda ja viedä talousraportteja RapidStart-konfigurointipaketteina, jotka ovat hyödyllisiä esimerkiksi tietojen jakamiseen muiden yritysten kanssa. Paketti luodaan .rapidstart-tiedostosssa, joka pakkaa paketin sisällön.
 
-### <a name="import-and-export-financial-reports" />Talousraporttien tuominen ja vieminen
+### <a name="import-and-export-financial-reports"></a>Talousraporttien tuominen ja vieminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 4.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Talousraportit** ja valitse sitten vastaava linkki.
 2. Valitse talousraportti ja valitse sitten **Tuo talousraportti**- tai **Vie talousraportti** -toiminto sen mukaan, mitä haluat tehdä.
@@ -184,9 +184,9 @@ Voit tuoda ja viedä talousraportteja RapidStart-konfigurointipaketteina, jotka 
 > [!NOTE]
 > Kun tuot talousraportteja, ohjelma poistaa aiemmin luodut tietueet, joiden nimet ovat samat kuin tuomasi.
 
-## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-financial-reports-dynamics-365-business-central/index).
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-financial-reports-dynamics-365-business-central/index).
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Suorita ja tulosta raportteja](ui-work-report.md)  
 [Taloudelliset liiketoimintatiedot](bi.md)  

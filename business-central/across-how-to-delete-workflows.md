@@ -11,7 +11,7 @@ ms.search.form: '1500,'
 ms.date: 09/08/2022
 ms.author: edupont
 ---
-# <a name="delete-approval-workflows" />Hyväksymistyönkulkujen poistaminen
+# <a name="delete-approval-workflows"></a>Hyväksymistyönkulkujen poistaminen
 
 Voit poistaa työnkulun, jos olet varma, ettei sitä enää käytetä. Kaikkien työnkulun osavaiheiden instanssilla pitää olla **Valmis**-tila.
 
@@ -20,7 +20,7 @@ Voit poistaa työnkulun, jos olet varma, ettei sitä enää käytetä. Kaikkien 
 
 Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan. Työnkulku määritetään täyttämällä työnkulkurivien kentät käyttämällä tapahtumien kiinteitä luetteloita ja vastausarvoja, jotka edustavat sovelluskoodin tukemia skenaarioita. Lisätietoja on kohdassa [Hyväksyntätyönkulkujen luominen](across-how-to-create-workflows.md).
 
-## <a name="delete-a-workflow" />Työnkulun poistaminen
+## <a name="delete-a-workflow"></a>Työnkulun poistaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut**, valitse sitten vastaava linkki.
 2. Valitse työnkulku, jonka haluat poistaa.
@@ -31,7 +31,7 @@ Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riv
 > [!NOTE]
 > Työnkulun poistaminen edellyttää sen poistamista käytöstä. Voit poistaa työnkulun käytöstä avaamalla sen **Työnkulut**-sivulla ja poistamalla **käytössä**-vaihtoehdon käytöstä.
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Luo hyväksymistyönkulut](across-how-to-create-workflows.md)  
 [Hyväksymistyönkulkujen ottaminen käyttöön](across-how-to-enable-workflows.md)  

@@ -17,10 +17,10 @@ ms.contentlocale: fi-FI
 ms.lasthandoff: 02/15/2022
 ms.locfileid: "8136698"
 ---
-# <a name="set-up-bank-reference-files-in-the-finnish-version" /><a name="set-up-bank-reference-files-in-the-finnish-version"></a>Pankin viitetiedostojen määrittäminen suomalaisessa versiossa
+# <a name="set-up-bank-reference-files-in-the-finnish-version"></a><a name="set-up-bank-reference-files-in-the-finnish-version"></a>Pankin viitetiedostojen määrittäminen suomalaisessa versiossa
 Elektronisten maksujen käsittelyä varten on ensin määritettävä pankin viitetiedostot, joiden avulla määritetään, miten maksutiedot tuodaan tai viedään.  
 
-## <a name="to-set-up-a-bank-reference-file" /><a name="to-set-up-a-bank-reference-file"></a>Pankin viitetiedoston määrittäminen
+## <a name="to-set-up-a-bank-reference-file"></a><a name="to-set-up-a-bank-reference-file"></a>Pankin viitetiedoston määrittäminen
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankin viitetiedoston asetukset** ja valitse sitten vastaava linkki.  
 2.  Täytä **Yleinen**-pikavälilehden kentät seuraavassa taulukossa kuvatulla tavalla.  
@@ -52,7 +52,7 @@ Elektronisten maksujen käsittelyä varten on ensin määritettävä pankin viit
 
 5.  Valitse **OK**-painike.  
 
-## <a name="see-also" /><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a>Katso myös
  [Verkkopankkitoiminta Suomessa](electronic-banking-in-finland.md)   
  [Maksutiedostojen luominen](how-to-generate-payment-files.md)   
  [Maksualennusten ohittaminen](how-to-disregard-payment-discounts.md)

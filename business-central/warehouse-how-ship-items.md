@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ---
 
-# <a name="ship-items-with-a-warehouse-shipment" />Nimikkeiden toimittaminen fyysisen varaston toimituksena
+# <a name="ship-items-with-a-warehouse-shipment"></a>Nimikkeiden toimittaminen fyysisen varaston toimituksena
 
 [!INCLUDE[prod_short](includes/prod_short.md)]issa nimikkeet poimintaan ja toimitukseen on käytettävissä neljä tapaa, jotka käsitellään seuraavassa taulukossa.
 
@@ -37,7 +37,7 @@ Fyysisen varaston toimitus voidaan luoda jommallakummalla tavalla:
 * Push-menetelmässä työ tehdään tilauskohtaisesti. Luo asiakirjan fyysisen varaston toimitus valitsemalla lähdeasiakirjassa **Luo fyysisen varaston toimitus** -toiminto.
 * Pull-menetelmässä lähdeasiakirjan **Vapauta**-toiminto vapauttaa asiakirjan fyysiseen varastoon. Varastotyöntekijä luo ainakin yhdelle vapautetulle lähdeasiakirjalle **fyysisen varaston toimituksen**. Fyysisen varaston toimitus luodaan pull-menetelmässä seuraavasti.
 
-## <a name="to-ship-items-using-a-warehouse-shipment-document" />Nimikkeiden toimittaminen käyttämällä fyysisen varaston asiakirjaa
+## <a name="to-ship-items-using-a-warehouse-shipment-document"></a>Nimikkeiden toimittaminen käyttämällä fyysisen varaston asiakirjaa
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston toimitukset**, valitse sitten vastaava linkki.  
 2. Valitse **Uusi**.  
@@ -74,7 +74,7 @@ Fyysisen varaston toimitus voidaan luoda jommallakummalla tavalla:
 
     [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
-## <a name="how-to-use-filters-to-get-source-documents" />Lähdeasiakirjojen hakeminen suodattimien avulla
+## <a name="how-to-use-filters-to-get-source-documents"></a>Lähdeasiakirjojen hakeminen suodattimien avulla
 
 Fyysisen varastoinnin toimituksen **Suod. lähdeasiakirj. saamisek.** -sivun avulla voidaan noutaa toimitettavat nimikkeet määrittävän vapautetun lähdeasiakirjan rivit.
 
@@ -90,14 +90,14 @@ Kaikki suodatusehdot täyttävät vapautetut lähdeasiakirjan rivit lisätään 
 
 Voit tehdä niin monta suodatinyhdistelmää kuin haluat. Suodattimet tallennetaan **Suod. lähdeasiakirj. saamisek.** -sivulle, jossa ne ovat käytettävissä tulevaa käyttöä varten. Voit muuttaa ehtoja milloin tahansa valitsemalla **Muokkaa**-toiminnon.
 
-## <a name="zone-and-bin-codes" />Alueen ja varastopaikan koodit
+## <a name="zone-and-bin-codes"></a>Alueen ja varastopaikan koodit
 
 Jos varastopaikat ovat pakollisia sijainnissa, [!INCLUDE [prod_short](includes/prod_short.md)] ehdottaa alueen ja varastopaikan koodia fyysisen varaston toimitusasiakirjassa.
 
 * Jos kyse on laajennetuista määrityksistä, joissa sijainti käyttää ohjattua hyllytystä ja poimintaa, [!INCLUDE [prod_short](includes/prod_short.md)] käyttää **sijaintikortin** **Toimituksen var.paikkakoodi** -kentässä määritettyä varastopaikkaa. Jos **toimituksen varastopaikan koodia** ei ole määritetty, kenttä on tyhjä. Jos nimikkeen ja toimituksen varastopaikka eivät ole samat, [!INCLUDE [prod_short](includes/prod_short.md)] jättää toimituksen varastopaikan tyhjäksi.
 * Muissa tapauksissa [!INCLUDE [prod_short](includes/prod_short.md)] käyttää aina ensin **sijaintikortin** **Toimituksen var.paikkakoodi** -kentässä määritettyä varastopaikkaa. Jos toimituksen varastopaikan koodia ei ole määritetty, [!INCLUDE [prod_short](includes/prod_short.md)] käyttää lähdeasiakirjan varastopaikan koodia.
 
-## <a name="handling-assemble-to-order-items-in-warehouse-shipments" />Kokoonpano tilausta varten -nimikkeiden käsitteleminen fyysisen varastoinnin toimituksissa
+## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Kokoonpano tilausta varten -nimikkeiden käsitteleminen fyysisen varastoinnin toimituksissa
 
 Jos kyseessä on kokoonpano tilausta varten, fyysisen varaston toimitusrivin **Toimitettava määrä** -kentän avulla voidaan kirjat koottujen yksiköiden lukumäärä. Määrä kirjataan kokoonpanon tuotoksena, kun fyysisen varastoinnin toimitus kirjataan. Muiden fyysisen varastoinnin toimitusrivien **Toimitettava määrä** -kentän arvo nolla.
 
@@ -115,9 +115,9 @@ Kun fyysisen varaston toimitus on kirjattu, myyntitilauksen rivin kentät päivi
 >
 > Kokoonpano tilausta varten -määrä käsitellään tässä artikkelissa kuvatulla tavalla. Varastomäärä käsitellään tavallisena fyysisen varaston toimitusrivinä. Lisätietoja yhdistelmäskenaarioista on kohdassa [Tietoja Kokoonpano tilausta varten- tai Kokoonpano varastoon -toiminnoista](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/ship-invoice-items-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/ship-invoice-items-dynamics-365-business-central/).
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Varasto](inventory-manage-inventory.md)  
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  

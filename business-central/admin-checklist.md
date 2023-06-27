@@ -8,11 +8,11 @@ ms.search.form: '1992, 1993, 1994, 1995, 1990, 1997, 1801'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="onboard-users-with-checklists" />Käyttäjien perehdyttäminen tarkistusluetteloiden avulla
+# <a name="onboard-users-with-checklists"></a>Käyttäjien perehdyttäminen tarkistusluetteloiden avulla
 
 Kun käyttäjä kirjautuu ensimmäisen kerran uuteen [!INCLUDE [prod_short](includes/prod_short.md)] -yritykseen, näkyvissä on ilmoituspalkki, joka kannustaa käynnistämään **Aloitus**-tarkistusluettelon, sillä se auttaa määrittämään tärkeimmät tiedot ja valmistautumaan toiminnan aloittamiseen. Järjestelmänvalvoja tai jälleenmyyntikumppani voi mukauttaa esimääritettyjä tarkistusluetteloja, ja voit määrittää omat vaiheesi.
 
-## <a name="to-add-an-item-to-the-checklist" />Nimikkeen lisääminen tarkistusluetteloon
+## <a name="to-add-an-item-to-the-checklist"></a>Nimikkeen lisääminen tarkistusluetteloon
 
 1. Kirjaudu [!INCLUDE[prod_short](includes/prod_short.md)] -kohteeseen osoitteessa [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
@@ -25,7 +25,7 @@ Kun käyttäjä kirjautuu ensimmäisen kerran uuteen [!INCLUDE [prod_short](incl
     > [!TIP]
     > Jos vaihe koskee määritysopasta, **Tehtävä**-kenttä määrittää määritysoppaan. Jos koskee lisäoppimista, **Tehtävä**-kenttä määrittää linkin artikkeliin ja verkko-oppimismoduuliin.
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Hallinta](admin-setup-and-administration.md)  

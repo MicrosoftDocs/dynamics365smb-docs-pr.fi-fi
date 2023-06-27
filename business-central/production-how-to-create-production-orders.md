@@ -10,7 +10,7 @@ ms.search.form: '9325, 99000815, 99000829, 9900083'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="create-production-order-headers" />Tuotantotilausten otsikoiden luominen
+# <a name="create-production-order-headers"></a>Tuotantotilausten otsikoiden luominen
 
 Tuotantotilauksen voi luoda manuaalisesti. Ensimmäinen työvaihe on tuotantotilauksen otsikon luominen.
 
@@ -18,7 +18,7 @@ Suunnittelutoiminto luo tuotantotilaukset tavallisesti automaattisesti toteuttam
 
 Seuraavassa toienpiteessä luodaan sitovasti suunniteltu tuotantotilaus. Voit luoda myös tuotantotilauksia, joilla on eri tila.  
 
-## <a name="to-create-a-production-order-header" />Tuotantotilausten otsikoiden luominen
+## <a name="to-create-a-production-order-header"></a>Tuotantotilausten otsikoiden luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sitovasti suunn. tuotantotil.** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
@@ -31,7 +31,7 @@ Seuraavassa toienpiteessä luodaan sitovasti suunniteltu tuotantotilaus. Voit lu
 
 Kun tuotannon vaatimukset, kuten komponentit tai toiminnot, muuttuvat, voit suunnitella tuotantotilauksen nopeasti uudelleen. Lisätietoja on kohdassa [Tuotantotilausten suora uudelleensuunnittelu tai päivitys](production-how-to-replan-refresh-production-orders.md).  
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Tuotanto](production-manage-manufacturing.md)
 [Tuotannon määrittäminen](production-configure-production-processes.md)  

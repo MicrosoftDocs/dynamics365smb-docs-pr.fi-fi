@@ -12,7 +12,7 @@ ms.locfileid: "8557541"
 ---
 Voit käyttää automaattisia tilikoodeja automaattisen tilin kirjausryhmän luonnin jälkeen.  
 
-## <a name="to-set-up-automatic-account-posting-groups" /><a name="to-set-up-automatic-account-posting-groups"></a>Automaattisten tilin kirjausryhmien määrittäminen
+## <a name="to-set-up-automatic-account-posting-groups"></a><a name="to-set-up-automatic-account-posting-groups"></a>Automaattisten tilin kirjausryhmien määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../../../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvake, syötä **Automaattiset tiliryhmät** ja valitse liittyvä linkki.  
 2. Valitse **Uusi**-toiminto.  

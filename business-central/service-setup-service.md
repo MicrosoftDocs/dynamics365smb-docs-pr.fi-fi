@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: edupont
 ---
 
-# <a name="setting-up-service-management" />Huoltohallinnon määrittäminen
+# <a name="setting-up-service-management"></a>Huoltohallinnon määrittäminen
 Tietyt toiminnot on määritettävä, ennen kuin [!INCLUDE[prod_short](includes/prod_short.md)]in huoltohallinnon toimintoja voi käyttää. Voit määrittää esimerkiksi vakiohuoltojen koodauksen, oire- ja vikakoodit sekä yrityksen asiakaspalvelun tarvitsemat huoltonimikkeet ja huoltonimiketyypit.  
 
 Huoltohallintoa määritettäessä on päätettävä, mitä huoltoja tarjoat asiakkaille ja mikä kyseisten huoltojen aikataulu on. Palvelu on yhden tai useamman resurssin suorittama työ, joka toimitetaan asiakkaalle. Huolto voi olla esimerkiksi tietokoneen korjaamista. Huoltonimike on laite tai nimike, joka tarvitsee huoltoa, kuten tietokone, joka on asennettu asiakkaalle. Voit määrittää palvelut osaksi ryhmää liittyviä korjaus- ja huolto-osia.  
@@ -35,7 +35,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 | Määritä huoltonimikkeet ja huoltonimikkeen komponentit. |[Huoltonimikkeiden määrittäminen](service-how-setup-service-items.md) |
 | Tee pohjatyö huoltosopimusten ja sopimustarjousten luontia varten. |[Huoltosopimusten määrittäminen](service-how-setup-service-contracts.md) |
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 [Huoltohallinto](service-service.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 

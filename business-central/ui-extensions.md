@@ -8,11 +8,11 @@ ms.search.form: '2500, 2502, 20350, 20353'
 ms.date: 09/27/2022
 ms.author: edupont
 ---
-# <a name="customizing-business-central-online-with-apps" />Business Central Onlinen mukauttaminen sovellusten avulla
+# <a name="customizing-business-central-online-with-apps"></a>Business Central Onlinen mukauttaminen sovellusten avulla
 
 Voit muuttaa [!INCLUDE[prod_short](includes/prod_short.md)] onlinea asentamalla sovelluksia, jotka sisältävät lisätoimintoja, muuttavat toimintaa tai mahdollistavat esimerkiksi uusien verkkopalveluiden käyttämisen. Nämä sovellukset ovat niin sanottuja *laajennuksia*, koska ne *laajentavat* [!INCLUDE [prod_short](includes/prod_short.md)]ia.
 
-## <a name="manage-apps" />Sovellusten hallinta
+## <a name="manage-apps"></a>Sovellusten hallinta
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -49,7 +49,7 @@ Osa on Microsoftin sovelluksia, osa [muiden yritysten](ui-extensions-other.md) s
 > [!NOTE]  
 > Voit pitää silmällä Microsoftin ja muiden toimittajien uusia sovelluksia osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
-## <a name="apps-and-data-transfer" />Sovellukset ja tietojen siirto
+## <a name="apps-and-data-transfer"></a>Sovellukset ja tietojen siirto
 
 Koska seuraavia sovelluksia käytetään viestintään muiden palvelujen kanssa, ne saattavat siirtää tietoja [!INCLUDE[prod_short](includes/prod_short.md)] -ympäristön maantieteellisen alueen ulkopuolelle:
 
@@ -69,7 +69,7 @@ Tämä koskee myös joitakin perussovelluksen toimintoja, kuten seuraavia ominai
 * Online-kartta
 * EU:n ALV-nron tarkistuksen Palvelu
 
-## <a name="connect-your-business" />Yhdistä yrityksesi
+## <a name="connect-your-business"></a>Yhdistä yrityksesi
 
 Vuoden 2022 2. julkaisuaallossa [!INCLUDE [prod_short](includes/prod_short.md)] online -ympäristöt voivat sisältää vähintään yhden sovelluksen **Yhteyssovellukset**- ja **Pankkisovellukset**-sivuilla. Nämä sovellukset voivat muodostaa yhteyden yrityksesi ulkoisiin palveluihin tuottavuuden lisäämiseksi automatisoimalla prosesseja. Voit esimerkiksi muodostaa yhteyden pankkeihin ja tuoda automaattisesti pankkitapahtumia. Sovellukset on helppo asentaa ja määrittää suoraan tällä sivulla. Valitse sovellus, jonka ominaisuuksista ja hinnoittelusta haluat lisätietoja.  
 
@@ -80,16 +80,16 @@ Tarkastele ehdotettujen sovellusten luetteloa valitsemalla **Yhteyssovellukset**
 
 Tämä ulkoinen palvelu luo luettelon liittyvistä sovelluksista maasi tai alueesi perusteella
 
-## <a name="recommended-apps" />Suositellut sovellukset
+## <a name="recommended-apps"></a>Suositellut sovellukset
 
 Microsoft-kumppanit ja -jälleenmyyjät voivat luoda sovelluksia, joita he voivat käyttää sellaisten sovellusten luetteloiden laatimiseen, joita he usein suosittelevat asiakkailleen. Jos näin tehdään, ja sovellus on otettu käyttöön vuokraajassasi, sovellukset ovat käytettävissä **Suositellut sovellukset** -sivulla. Siellä voit lukea kustakin sovelluksesta ja päättää, asennetaanko se.
 
 > [!NOTE]
 > Jos olet Microsoft-kumppani tai -jälleenmyyjä ja olet kiinnostunut tarjoamaan luettelon suositelluista sovelluksista, katso [Suositellut sovellukset AppSourcesta](/dynamics365/business-central/dev-itpro/administration/recommend-apps) -kohta hallintosisällössä.
 
-## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/customize-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/customize-dynamics-365-business-central/)
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Sovellusten asentaminen ja asennusten poistaminen](ui-extensions-install-uninstall.md)  
 [Business Centralin mukauttaminen](ui-customizing-overview.md)  

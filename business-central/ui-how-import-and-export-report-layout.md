@@ -10,7 +10,7 @@ ms.search.form: '9652, 9650'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="legacy-import-and-export-custom-report-layouts" />(Vanha) Tuo ja vie mukautettuja raporttiasetteluja
+# <a name="legacy-import-and-export-custom-report-layouts"></a>(Vanha) Tuo ja vie mukautettuja raporttiasetteluja
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -19,7 +19,7 @@ Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tie
 > [!IMPORTANT]  
 >  Et voi tuoda tai viedä valmiita raporttiasetteluita.  
 
-### <a name="to-export-a-report-layout-to-a-file" />Raporttiasettelun vienti tiedostoon
+### <a name="to-export-a-report-layout-to-a-file"></a>Raporttiasettelun vienti tiedostoon
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten vastaava linkki.  
 
@@ -29,7 +29,7 @@ Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tie
 
 4.  Valitse **Vie tiedosto** -valintaikkunassa **Tallenna**-painike ja tallenna tiedosto sitten uuteen paikkaan tietokoneelle tai verkkoon.  
 
-### <a name="to-import-a-report-layout-file" />Raporttiasettelun tiedoston tuonti
+### <a name="to-import-a-report-layout-file"></a>Raporttiasettelun tiedoston tuonti
 
 1.  Varmista, että raporttiasettelun määrittävä asianmukainen tiedosto on käytettävissä tietokoneellasi tai verkossa.  
 
@@ -45,9 +45,9 @@ Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tie
 
  Alkuperäinen mukautettu raporttiasettelu korvataan tuodulla raporttiasettelulla.  
 
-## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Raporttien mukautetun asettelun luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)   
 [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md)  

@@ -10,10 +10,10 @@ ms.search.form: '6560, 42, 50, 507, 509'
 ms.date: 06/11/2021
 ms.author: edupont
 ---
-# <a name="track-document-lines" />Asiakirjarivien seuranta
+# <a name="track-document-lines"></a>Asiakirjarivien seuranta
 Voit tarkastella asiakirjoja, jotka liittyvät myynti- ja ostotilausriveihin, myös arkistoituihin tilausriveihin. Liittyviä asiakirjoja, joita voi seurata, ovat tarjoukset, toimitukset, vastaanotot ja puitetilaukset. Näin voit tunnistaa tilausten käsittelyssä käytetyt asiakirjat.  
 
-## <a name="to-track-documents-related-to-a-sales-order-line" />Myyntitilausriviin liittyvien asiakirjojen seuranta
+## <a name="to-track-documents-related-to-a-sales-order-line"></a>Myyntitilausriviin liittyvien asiakirjojen seuranta
 Seuraavassa kuvataan, miten seuranta tehdään myyntitilausriviltä. Vaiheet ovat samanlaiset osto- ja puitetilausriveille.
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
@@ -24,7 +24,7 @@ Seuraavassa kuvataan, miten seuranta tehdään myyntitilausriviltä. Vaiheet ova
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

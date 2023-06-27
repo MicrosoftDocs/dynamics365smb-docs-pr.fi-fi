@@ -12,31 +12,31 @@ ms.date: 06/23/2021
 ms.author: edupont
 ---
 
-# <a name="bookmark-a-page-or-report-on-your-role-center" />Sivun tai raportin kirjanmerkin luominen roolikeskuksessa
+# <a name="bookmark-a-page-or-report-on-your-role-center"></a>Sivun tai raportin kirjanmerkin luominen roolikeskuksessa
 Voit lisätä kirjanmerkin kuvakkeella toimintolinkin, joka avaa sivun tai raportin roolikeskuksen siirtymisvalikosta. Kirjanmerkkien ansiosta voit nopeasti tavoittaa haluamasi sisällön tai liiketoimintatehtävän. Kirjanmerkki lisätään kohdesivulta tai raportista eli ruudusta, jonka haluat roolikeskuksen linkin avaavan.
 
 Kirjanmerkkikuvake näkyy sivun oikeassa yläkulmassa sekä **Kerro, mitä haluat tehdä** -ikkunassa, jossa voit lisätä kirjanmerkin useille sivuille tai raportteihin. Jos sivulla on jo kirjanmerkki, kuvake on tumma ja työkaluvihjeessä lukee Lisätty kirjanmerkkeihin.
 
-## <a name="to-bookmark-the-target-page" />Voit merkitä kohdesivun kirjanmerkiksi
+## <a name="to-bookmark-the-target-page"></a>Voit merkitä kohdesivun kirjanmerkiksi
 1. Avaa sivu, johon haluat roolikeskuksen linkin kohdistuvan.
 2. Valitse ![Kirjanmerkki.](media/ui_bookmark_icon.png "Kirjanmerkki") -kuvake.
 
 Sivun mukaan nimetty toiminto lisätään nyt roolikeskuksen siirtymisvalikkoon.
 
-## <a name="to-bookmark-the-target-report" />Voit merkitä kohderaportin kirjanmerkiksi
+## <a name="to-bookmark-the-target-report"></a>Voit merkitä kohderaportin kirjanmerkiksi
 1. Avaa raporttipyyntö, johon haluat roolikeskuksen linkin kohdistuvan.
 2. Valitse ![Kirjanmerkki.](media/ui_bookmark_icon.png "Kirjanmerkki") -kuvake.
 
 Raportin mukaan nimetty toiminto lisätään nyt roolikeskuksen siirtymisvalikkoon.
 
-## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window" />Sivun tai raportin kirjanmerkin lisääminen Ilmoita-ikkunasta
+## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>Sivun tai raportin kirjanmerkin lisääminen Ilmoita-ikkunasta
 1. Avaa **Kerro, mitä haluat tehdä** -ikkuna ja kirjoita esimerkiksi **Myyntitilaukset**.
 2. Siirrä osoitin **Myyntitilaukset**-sivun tai raportin hakutulosten päälle ja valitse sitten ![Kirjanmerkki.](media/ui_bookmark_icon.png "Kirjanmerkki") -kuvake.
 
 Sivun tai raportin mukaan nimetty toiminto lisätään nyt roolikeskuksen siirtymisvalikkoon.
 
 
-## <a name="frequently-asked-questions" />Usein kysytyt kysymykset
+## <a name="frequently-asked-questions"></a>Usein kysytyt kysymykset
 
 - **Voinko järjestellä kirjanmerkkini uudelleen?**  
 Kyllä. Voit mukauttaa roolikeskuksesi ja siirtää toiminnot optimaaliseen järjestykseen tai siirtää ne olemassa oleviin ryhmiin tai alaryhmiin.  
@@ -76,7 +76,7 @@ Kun lisäät uuden toiminnon, kaikkia käännettyjä tekstejä, jotka olivat saa
 - **Miksi sivulle ei voi lisätä tekstiä heti sen jälkeen, kun se on avattu kirjanmerkillä?**<br> Kun sivu on merkitty kirjanmerkkeihin, sivu avautuu aina näkymätilassa kirjanmerkistä&mdash;vaikka se olisi ollut muokkaustilassa silloin, kun se asetettiin kirjanmerkiksi. Kuvakkeen **Tee muutoksia sivulla** valitseminen ![Näyttää kynäkuvakkeen sivun muokkaamista varten.](media/edit-pencil.png) sallii sinun lisätä tekstiä muokattaviin kenttiin.
 
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 [Työtilan mukauttaminen](ui-personalization-user.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  

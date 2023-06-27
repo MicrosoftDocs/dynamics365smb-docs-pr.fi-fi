@@ -16,13 +16,13 @@ ms.contentlocale: fi-FI
 ms.lasthandoff: 03/02/2022
 ms.locfileid: "8372015"
 ---
-# <a name="vat-vies-declaration-in-finland" /><a name="vat-vies-declaration-in-finland"></a>ALV-yhteenvetoilmoitus Suomessa
+# <a name="vat-vies-declaration-in-finland"></a><a name="vat-vies-declaration-in-finland"></a>ALV-yhteenvetoilmoitus Suomessa
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] sisältää arvonlisäveron ja Euroopan unionin (EU) myyntiraportoinnin sääntöjen noudattamisessa tarvittavat Suomessa käytettävät lisätoiminnot. **ALV-yhteenvetoilmoitus**- ja **EU-myyntiluettelo**-raportit sisältävät **EU-palvelu**-kentän, jonka avulla voit tulostaa palveluun liittyviä myyntisummia erikseen nimikkeeseen liittyvistä myyntisummista eri kirjausryhmien perusteella. Nämä tiedot ovat pakollisia EU-kolmikantakaupan tapahtumien ALV-raporteissa vuonna 2010 ja sitä seuraavina vuosina.  
 
 [!INCLUDE [finance-ecsaleslist](../../includes/finance-ecsaleslist.md)]
 
-## <a name="see-also" /><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Tietoja EU-myyntiluettelo-raportista](../../finance-how-report-vat.md#ecsaleslist)  
 [Suomen paikalliset toiminnot](finland-local-functionality.md)  

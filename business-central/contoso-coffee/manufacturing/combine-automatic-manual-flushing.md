@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-combine-automatic-and-manual-flushing" />Vaihekuvaus: Yhdistä automaattinen ja manuaalinen materiaalinotto
+# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Vaihekuvaus: Yhdistä automaattinen ja manuaalinen materiaalinotto
 
 Tässä artikkelissa on tietoja Contoso Coffee -esittelyn tietojen käytöstä materiaalinotossa.  
 
-## <a name="scenario" />Esimerkkitilanne
+## <a name="scenario"></a>Esimerkkitilanne
 
 Olet Contoso Coffeen tuotantosuunnittelija. Luo uusi tuotantotilaus SP-SCM1004, AutoDrip -nimikkeen 10 yksikölle. Jotkin komponentit ja toiminnot suoritetaan eteenpäin suuntautuvana materiaalinottona, toiset taaksepäin suuntautuvana materiaalinottona eri ehtojen perusteella.
 
-## <a name="steps" />Vaiheet
+## <a name="steps"></a>Vaiheet
 
 > [Huomautus!] Muista oikaista varasto kirjaamalla alkusaldot nimikepäiväkirjaan.
 
@@ -103,7 +103,7 @@ Olet Contoso Coffeen tuotantosuunnittelija. Luo uusi tuotantotilaus SP-SCM1004, 
 
 Tässä oli tietoa manuaalisesta ja automaattisesta materiaalinotosta komponenteille.
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Komponenttien materiaalinotto toiminnan tuotoksen mukaan](../../production-how-to-flush-components-according-to-operation-output.md)  
 [Johdatus Contoson kahvidemotietoihin](contoso-coffee-manufacturing-intro.md)  

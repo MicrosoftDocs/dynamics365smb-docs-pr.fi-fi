@@ -12,7 +12,7 @@ ms.author: edupont
 ms.date: 05/20/2022
 ---
 
-# <a name="use-profile-questionnaires-to-classify-business-contacts" />Liiketoimintakontaktien luokittelu profiilikyselyiden avulla
+# <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Liiketoimintakontaktien luokittelu profiilikyselyiden avulla
 
 Voit arvioida prospektin ja tunnistaa parhaat mahdolliset prospektit, joille myyntikampanja kohdistetaan. Voit määrittää kyselyprofiileja niille kyselyille, joita haluat käyttää, kun syötät tietoja kontaktiesi profiileista. Jokaisessa kyselyssä voit määrittää eri kysymykset, jotka kontakteille esitetään. Tällä tavoin voit ryhmitellä kontakteja siten, että kampanjasi kohdistetaan todennäköisemmin oikeille henkilöille kyselyllä määrittämiesi perusteiden perusteella.  
 
@@ -20,13 +20,13 @@ Oikeiden kyselyjen avulla voit arvioida prospekteja ja ryhmitellä ne luokkiin. 
 
 Voit saada ohjelman vastaamaan automaattisesti joihinkin kysymyksiin kontakti-, asiakas- tai toimittajatietojen pohjalta.  
 
-## <a name="to-add-a-profile-questionnaire" />Profiilikyselyjen lisääminen
+## <a name="to-add-a-profile-questionnaire"></a>Profiilikyselyjen lisääminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kyselyn asetukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-add-questions-to-a-profile-questionnaire" />Kysymyksien lisääminen profiilikyselyyn
+## <a name="to-add-questions-to-a-profile-questionnaire"></a>Kysymyksien lisääminen profiilikyselyyn
 
 1. Valitse haluttu profiilikysely. Valitse sitten **Muokkaa kyselyn asetuksia** -toiminto.  
 2. Valitse ensimmäisellä tyhjällä rivillä **Tyyppi**-kenttä, valitse **Kysymys** ja kirjoita kysymys **Kuvaus**-kenttään. Täytä rivin muut kentät.  
@@ -61,11 +61,11 @@ Kun olet luonut kyselyn, voit käyttää sitä kontaktiesi arviointiin ja luokit
 > [!NOTE]
 > Jos syötät kysymyksen, johon ohjelma vastaa automaattisesti, napsauta **Rivi**, **Kysymyskortti**, niin voit syöttää ne kriteerit, joita ohjelma käyttää vastatessaan kysymykseen automaattisesti.
 
-## <a name="apply-questionnaires-to-contacts" />Kyselyjen soveltaminen kontakteihin
+## <a name="apply-questionnaires-to-contacts"></a>Kyselyjen soveltaminen kontakteihin
 
 Voit soveltaa kyselyjä manuaalisesti kontakteihin. Avaa vain kulloinenkin kontaktikortti ja valitse **Profiili**-toiminto. Kun sitten olet soveltanut haluamasi kyselyt, voit aloittaa luokkien käytön kampanjoissasi.  
 
-## <a name="the-automatic-classification-of-contacts" />Kontaktien automaattinen luokittelu
+## <a name="the-automatic-classification-of-contacts"></a>Kontaktien automaattinen luokittelu
 
 Voit saada ohjelman luokittelemaan kontaktisi automaattisesti asiakkaan, toimittajan tai kontaktitietojen mukaan, kun määrittelet automaattisesti vastattuja profiilikysymyksiä **Profiilikyselyjen asetukset** -sivulla.  
 
@@ -74,7 +74,7 @@ Voit saada ohjelman luokittelemaan kontaktisi automaattisesti asiakkaan, toimitt
 
 Kun olet määrittänyt automaattisesti vastattuja profiilikysymyksiä, jos liität niistä koostuvan profiilikyselyn kontaktiin, [!INCLUDE[prod_short](includes/prod_short.md)] liittää kontaktiin automaattisesti oikeat vastaukset.  
 
-## <a name="example" />Esimerkki
+## <a name="example"></a>Esimerkki
 
 Voit luokitella kontaktisi sen mukaan, kuinka paljon he ostivat sinulta:
 
@@ -102,7 +102,7 @@ Täytä sitten **Profiilikyselyn yksityiskohdat** -sivu seuraavalla tavalla:
 
 Kun määrität sen profiilikyselyn, jossa tämä kysymys on, kontaktiin, sovellus lisää automaattisesti asianomaisen vastauksen tälle kontaktille kontaktikortin profiiliriveille.
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Kontaktien luominen](marketing-create-contact-companies.md)  
 

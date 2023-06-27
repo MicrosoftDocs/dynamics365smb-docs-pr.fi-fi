@@ -9,11 +9,11 @@ ms.date: 08/16/2022
 ms.author: bholtorf
 ---
 
-# <a name="switching-to-another-company-or-environment" />Siirtyminen toiseen yritykseen tai ympäristöön
+# <a name="switching-to-another-company-or-environment"></a>Siirtyminen toiseen yritykseen tai ympäristöön
 
 [!INCLUDE [prod_short](includes/prod_short.md)] on saatavilla useissa eri maissa ja tukee monia erityyppisiä organisaatioita. Organisaatiossa voidaan päättää, että [!INCLUDE [prod_short](includes/prod_short.md)] on käytössä useissa *yrityksissä* ja *ympäristöissä*. Tässä artikkelissa on tietoja tärkeistä eroista ja siitä, miten niitä käytetään.
 
-## <a name="about-companies-and-environments" />Tietoja yrityksistä ja ympäristöistä
+## <a name="about-companies-and-environments"></a>Tietoja yrityksistä ja ympäristöistä
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
@@ -25,7 +25,7 @@ ms.author: bholtorf
 <!--
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]-->
 
-## <a name="features-for-switching-company-or-environment" />Ominaisuudet yrityksen tai ympäristön vaihtamista varten
+## <a name="features-for-switching-company-or-environment"></a>Ominaisuudet yrityksen tai ympäristön vaihtamista varten
 
 On olemassa muutamia ominaisuuksia, joiden avulla voit vaihtaa yritystä tai ympäristöä työskentelyn aikana. Seuraavassa taulukossa vertaillaan näitä ominaisuuksia. Niistä kerrotaan tarkemmin seuraavassa osassa.
 
@@ -36,7 +36,7 @@ On olemassa muutamia ominaisuuksia, joiden avulla voit vaihtaa yritystä tai ymp
 |[Omat asetukset](#use-my-settings)|![valintamerkki](media/check.png "tarkistus")|||![valintamerkki](media/check.png "tarkistus")|
 |[Yritystoiminto](#use-company-hub)|![valintamerkki](media/check.png "tarkistus")|![valintamerkki](media/check.png "tarkistus")|![valintamerkki](media/check.png "tarkistus")||
 
-## <a name="use-the-company-switcher" />Käytä yrityksen vaihtajaa
+## <a name="use-the-company-switcher"></a>Käytä yrityksen vaihtajaa
 
 Yrityksen vaihtajan käyttäminen on todennäköisesti nopein ja monipuolisin tapa vaihtaa yritystä. Yrityksen vaihtaja on ruutu, joka on käyttävissä kaikilla sivuilla. Ruutu sisältää yleiskatsauksen kaikkien ympäristöjen kaikista yrityksistä, joiden käyttöoikeus käyttäjällä on. Sen avulla voit vaihtaa suoraan mihin tahansa yritykseen samassa tai uudessa selainvälilehdessä. Tämä on erityisen hyödyllinen ominaisuus silloin, kun työskennellään useissa yrityksissä eri ympäristöissä.
 
@@ -57,7 +57,7 @@ Yrityksen vaihtajan käyttäminen on todennäköisesti nopein ja monipuolisin ta
 > [!TIP]
 > Päivitä ympäristöjen ja yritysten luettelo painamalla <kbd>F5</kbd>-näppäintä.
 
-## <a name="use-the-app-launcher" />Sovelluksen käynnistyksen käyttäminen
+## <a name="use-the-app-launcher"></a>Sovelluksen käynnistyksen käyttäminen
 
 Kun olet kirjautunut [!INCLUDE[prod_short](includes/prod_short.md)]iin, käytettävissä olevat ympäristöt ovat käytettävissä osoitteessa Office.com.  
 
@@ -73,7 +73,7 @@ The following image shows tiles for accessing production and sandbox environment
 
 :::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
 -->
-## <a name="use-my-settings" />Omien asetusten käyttäminen
+## <a name="use-my-settings"></a>Omien asetusten käyttäminen
 
 Jos olet kirjautunut [!INCLUDE[prod_short](includes/prod_short.md)]iin, voit vaihtaa nopeasti toiseen yritykseen samassa ympäristössä. Valitsemastasi yrityksestä tulee vaihdon jälkeen oletusyritys, ja se avautuu, kun kirjaudut sisään seuraavan kerran.
 
@@ -88,13 +88,13 @@ Jos olet kirjautunut [!INCLUDE[prod_short](includes/prod_short.md)]iin, voit vai
 > [!TIP]
 > Oletusympäristöön voi siirtyä kätevästi kirjautumisen yhteydessä ilman ympäristön määritystä lisäämällä URL-osoitteen suosikkiluetteloon kirjautumisen jälkeen.
 
-## <a name="use-company-hub" />Yritystoiminnon käyttäminen
+## <a name="use-company-hub"></a>Yritystoiminnon käyttäminen
 
 *Yritystoiminto* on pitkälti erikoistunut roolikeskus, joka tarjoaa yrityksille ja ympäristöille taloudellisen yhteenvedon. Yritystoiminto on saatavilla [laajennuksena](ui-extensions-company-hub.md). Se sisältää koontinäytön ja yhteenvetotiedot jokaisesta yrityksestä, jonka käyttöoikeus käyttäjällä on. Aloitussivu näyttää taloudelliset KPI:t sekä suoran linkin yksittäisiin ympäristöihin ja yrityksiin. Katso lisätietoja kohdasta [Työnhallinta useiden yritysten välillä yritystoiminnossa](company-hub.md).
 
 [![Näyttää yritystoiminnon sivun, jolla on luettelo kaikista yrityksistä.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Uusien yritysten luominen [!INCLUDE[prod_short](includes/prod_short.md)]issa](about-new-company.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  

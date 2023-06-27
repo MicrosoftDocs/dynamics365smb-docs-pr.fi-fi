@@ -16,13 +16,13 @@ ms.contentlocale: fi-FI
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8517470"
 ---
-# <a name="delete-cost-budget-entries" /><a name="delete-cost-budget-entries"></a>Poista kustannusbudjettitapahtumat
+# <a name="delete-cost-budget-entries"></a><a name="delete-cost-budget-entries"></a>Poista kustannusbudjettitapahtumat
 
 Voit käyttää **Poista kustannusbudjettitapahtumat** -eräajoa peruuttaaksesi kustannusbudjetin tapahtumat kustannusbudjetinrekisteristä.  
 
 Välttääksesi aukkoja kustannusbudjeteissa ja kustannusrekisteritapahtumissa et voi poistaa yhtä tapahtumaa tai tapahtumia keskellä rekisteritapahtumien luetteloa.  
 
-## <a name="to-delete-a-cost-budget-entry" /><a name="to-delete-a-cost-budget-entry"></a>Poista kustannusbudjettitapahtumat
+## <a name="to-delete-a-cost-budget-entry"></a><a name="to-delete-a-cost-budget-entry"></a>Poista kustannusbudjettitapahtumat
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista kustannusbudjettitapahtumat** ja valitse sitten vastaava linkki.  
 
@@ -34,7 +34,7 @@ Välttääksesi aukkoja kustannusbudjeteissa ja kustannusrekisteritapahtumissa e
 > [!NOTE]  
 > Vältä kustannusbudjettien poistoa epähuomiossa ja sulje rekisteritapahtumat merkitsemällä rivit **Suljetuiksi** **Suljettu** -kentässä **Kustannusbudjettirekisterit** -sivulla.  
 
-## <a name="see-also" /><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Kustannuslaskenta](finance-manage-cost-accounting.md)
 [Kustannusbudjettien luominen](finance-create-cost-budgets.md)  

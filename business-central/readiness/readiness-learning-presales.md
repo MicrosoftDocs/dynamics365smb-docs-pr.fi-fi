@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="partner-pre-sales-learning-catalog" />Kumppanin ennakkomyynnin opintoluettelo
+# <a name="partner-pre-sales-learning-catalog"></a>Kumppanin ennakkomyynnin opintoluettelo
 
 Oletko vastuussa avaintoimintojen esittelystä asiakkaille? 
 
 Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja perustiedoista kaikkein kehittyneimpiin. Jos sisältöä on useissa muodoissa, ilmoitamme siitä sinulle, jotta voit valita tarpeitasi parhaiten vastaavan koulutusmuodon. 
 
-## <a name="get-started" />Aloita<a name="get-started"></a>
+## <a name="get-started"></a>Aloita<a name="get-started"></a>
 
 | Sisältö                                                                                                                              | Kuvaus                                                                                                                                                                                                                                                                                      | Muoto                                | Pituus             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -23,21 +23,21 @@ Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja pe
 | [Business Central YouTube -soittolista](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | YouTuben saapumissivu Dynamics 365 Business Central -videoille | YouTube-videot |                    |
 | [Tutki Dynamics 365 Business Central -ominaisuuksia](https://dynamics.microsoft.com/business-central/capabilities/)                                                    | Tutki Dynamics 365 Business Central -ominaisuuksia                                                                                                                                                                                                                                               | Sivusto                               |                    |
 
-## <a name="grow-your-business" />Kasvata yritystäsi<a name="grow"></a>
+## <a name="grow-your-business"></a>Kasvata yritystäsi<a name="grow"></a>
 
 | Sisältö                                                                                                                                | Kuvaus                                                                                                                                                                                                                                                                                      | Muoto                                | Pituus                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365 Business Central - Mielenkiintoiset prospektikeskustelut (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761) | Errol Schosfish, tuotemarkkinointijohtaja, puhuu siitä, miten saada aikaan mielenkiintoisia keskusteluja prospektien kanssa Microsoft Dynamics 365 Business Centralista. | Video | 11 minuuttia 16 sekuntia |
 | [Dynamics 365 Business Central - Miten tehdä siitä todellista](https://mbspartner.microsoft.com/D365/Videos/101787) | Errol Schonfish, tuotemarkkinointijohtaja, puhuu siitä, kuinka aloittaa demojen ottaminen käyttöön Microsoft Dynamics 365 Business Centralille. | Video | 12 minuuttia 29 sekuntia |
 
-## <a name="business-value" />Liiketoiminta-arvo<a name="busvalue"></a>
+## <a name="business-value"></a>Liiketoiminta-arvo<a name="busvalue"></a>
 
 | Sisältö                                                                                                                                | Kuvaus                                                                                                                                                                                                                                                                                      | Muoto                                | Pituus                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Tutki Dynamics 365 Business Central -ominaisuuksia](https://dynamics.microsoft.com/business-central/capabilities/) | Tutki Dynamics 365 Business Central -ominaisuuksia | Sivusto |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | Tämä moduuli näyttää sovelluksen ominaisuudet, hyödyt ja esimerkit Dynamics 365 Business Centralista käytännössä. | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 24 minuuttia          |
 
-## <a name="whats-new" />Uutta<a name="whatsnew"></a>
+## <a name="whats-new"></a>Uutta<a name="whatsnew"></a>
 
 | Sisältö                                                                                                                                | Kuvaus                                 | Muoto                                | Pituus                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|

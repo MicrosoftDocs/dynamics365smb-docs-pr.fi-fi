@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 11/03/2022
 ms.author: bholtorf
 ---
-# <a name="block-items-from-sales-or-purchasing" />Nimikkeiden myynnin tai oston estäminen
+# <a name="block-items-from-sales-or-purchasing"></a>Nimikkeiden myynnin tai oston estäminen
 
 Voit estää tuotteen syöttämisen myynti- tai ostoasiakirjojen riveille ja estää sen kirjaamiseen tapahtumissa. Tämä on hyödyllistä esimerkiksi silloin, kun nimikkeellä on tunnettu vika. Jos joku valitsee myynti- tai ostoasiakirjassa estetyn nimikkeen, viesti ilmoittaa heille, että nimike on suljettu.
 
@@ -27,22 +27,22 @@ Seuraava taulukko kuvaa, mitä tapahtuu, kun nimikkeet on estetty.
 
 Kun luot uusia asiakirjoja aiemmin luotujen asiakirjojen perusteella **Kopioi asiakirjasta** -toiminnolla, saat ilmoituksen, jos lähdeasiakirjan riveillä olevia nimikkeitä on estetty. Estetyt asiakirjarivit jätetään pois uudesta asiakirjasta, ja ilmoitus sisältää yhteenvedon kaikista lähdeasiakirjassa estetyistä asiakirjariveistä.
 
-## <a name="to-block-an-item-from-being-entered-on-sales-lines" />Nimikkeen myyntiriveille viennin estäminen
+## <a name="to-block-an-item-from-being-entered-on-sales-lines"></a>Nimikkeen myyntiriveille viennin estäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
 2. Valitse estettävä nimike ja valitse sitten **Myynti estetty** -valintaruutu.  
 
-## <a name="to-block-an-item-from-being-entered-on-purchase-lines" />Nimikkeen ostoriveille viennin estäminen
+## <a name="to-block-an-item-from-being-entered-on-purchase-lines"></a>Nimikkeen ostoriveille viennin estäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
 2. Valitse estettävä nimike ja valitse sitten **Osto estetty** -valintaruutu.  
 
-## <a name="to-block-an-item-from-being-posted" />Nimikkeen kirjaamisen estäminen
+## <a name="to-block-an-item-from-being-posted"></a>Nimikkeen kirjaamisen estäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
 2. Valitse estettävä nimike ja valitse sitten **Estetty**-valintaruutu.
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Varasto](inventory-manage-inventory.md)  

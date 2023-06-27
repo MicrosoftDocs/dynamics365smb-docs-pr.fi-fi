@@ -17,10 +17,10 @@ ms.contentlocale: fi-FI
 ms.lasthandoff: 02/12/2022
 ms.locfileid: "8115020"
 ---
-# <a name="electronic-banking-in-finland" /><a name="electronic-banking-in-finland"></a>Verkkopankkitoiminta Suomessa
+# <a name="electronic-banking-in-finland"></a><a name="electronic-banking-in-finland"></a>Verkkopankkitoiminta Suomessa
 [!INCLUDE[prod_short](../../includes/prod_short.md)] -ohjelman verkkopankkitoimintojen avulla voi käsitellä elektronisia asiakas- ja toimittajamaksuja. Toiminto tukee verkkopankkimaksujen siirron kotimaan maksuja (LM03) ja ulkomaan maksuja (LUM2). Verkkopankkimaksujen vientiä tai tuontia varten on ensin määritettävä pankin viitetiedostot, joissa määritetään maksutiedostojen käsittelytapa.  
 
-## <a name="customer-payments" /><a name="customer-payments"></a>Asiakasmaksut
+## <a name="customer-payments"></a><a name="customer-payments"></a>Asiakasmaksut
 Kotimaan asiakasmaksut voidaan tuoda pankista ja linkittää liittyvään myyntisaatavatapahtumaan viitenumeron avulla. Tämä automaattinen toiminto mahdollistaa saapuvien maksujen linkittämisen suoraan avoimiin myyntisaataviin ilman manuaalisen käsittelyn aiheuttamaa viivettä. Seuraavissa vaiheissa kuvataan, miten asiakasmaksut tuodaan pankista tiedostoon ja miten nämä maksut linkitetään laskuihin viitenumeroiden avulla.  
 
 - Luo myyntilasku ja liitä laskuun yksilöivä viitenumero. Asiakas käyttää tätä viitenumeroa maksaessaan laskun.  
@@ -29,10 +29,10 @@ Kotimaan asiakasmaksut voidaan tuoda pankista ja linkittää liittyvään myynti
 
 - Kirjaa tiedot kassapäiväkirjaan ja sulje avoimet myyntisaatavatapahtumat tiedoston kohdistettujen maksujen avulla.  
 
-## <a name="reference-number" /><a name="reference-number"></a>Viitenumero
+## <a name="reference-number"></a><a name="reference-number"></a>Viitenumero
 Viitenumero luodaan automaattisesti, kun lasku kirjataan tai tilaus kirjataan laskutettavaksi. Myyntipäiväkirjan tapahtuman viitenumeron voi kuitenkin antaa myös manuaalisesti. Tämä viitenumero ei perustu **Myyntien ja myyntisaamisten asetukset** -sivun viitenumeroasetuksiin. Jos syötät myyntipäiväkirjaan viitenumeron, vain viitenumeron oikeellisuus tarkistetaan.  
 
-## <a name="vendor-payments" /><a name="vendor-payments"></a>Toimittajamaksut
+## <a name="vendor-payments"></a><a name="vendor-payments"></a>Toimittajamaksut
 Voit lähettää toimittajille verkkopankkimaksuja viemällä kotimaan tai ulkomaan toimittajamaksut pankille lähetettävään siirtotiedostoon. Seuraavissa vaiheissa kuvataan, miten toimittajamaksut viedään.  
 
 - Valitse **Lähetettävät pankkimaksut** -sivulla toimittajat, joille maksutiedostot luodaan.  
@@ -41,7 +41,7 @@ Voit lähettää toimittajille verkkopankkimaksuja viemällä kotimaan tai ulkom
 - Luo siirtotiedosto kotimaan tai ulkomaan toimittajamaksuille.  
 - Lähetä maksun siirtotiedosto pankkiin.  
 
-## <a name="see-also" /><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a>Katso myös
  [Suomen paikalliset toiminnot](finland-local-functionality.md)   
  [Pankin viitetiedostojen määrittäminen](how-to-set-up-bank-reference-files.md)   
  [Maksutiedostojen luominen](how-to-generate-payment-files.md)   

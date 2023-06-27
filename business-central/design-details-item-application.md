@@ -10,7 +10,7 @@ ms.search.keywords: 'design, items, ledger entries, posting, inventory'
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-item-application" />Rakennetiedot: Nimikkeen kohdistus
+# <a name="design-details-item-application"></a>Rakennetiedot: Nimikkeen kohdistus
 
 Kun kirjaat varastotapahtuman, määrän kirjaus tallennetaan nimiketapahtumiin ja arvon kirjaus arvotapahtumiin. Lisätietoja on ohjeaiheessa [Rakenteen tiedot: Varaston kirjaus](design-details-inventory-posting.md).  
 
@@ -54,22 +54,22 @@ Nimiketapahtuma tallentaa seuraavat tiedot.
 |**Määrä**|Kohdistettu määrä.|  
 |**Kirjauspvm**|Tapahtuman kirjauspäivämäärä.|  
 
-## <a name="inventory-increase" />Varastoarvon nousu
+## <a name="inventory-increase"></a>Varastoarvon nousu
 Kun kirjaat varaston arvon nousun, tämän jälkeen tallennetaan yksinkertainen nimikkeen kohdistustapahtuma ilman kohdistusta lähtevään tapahtumaan.  
 
-### <a name="example" />Esimerkki
+### <a name="example"></a>Esimerkki
 Seuraavassa taulukossa esitetään nimikkeen käyttökirjaus, joka luodaan, kun tiliöit 10 yksikön ostokuitit.  
 
 |Kirjauspäivämäärä|Saapuvan nimiketapahtuman nro|Lähtevän nimiketapahtuman nro|Määrä|Nimiketapahtuman nro|  
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |01-01-20|1|0|10|1|  
 
-## <a name="inventory-decrease" />Varastoarvon lasku
+## <a name="inventory-decrease"></a>Varastoarvon lasku
 Kun kirjaat varaston arvon laskun, luotava nimikkeen kohdistustapahtuma linkittää varaston arvon laskun varaston arvon nousuun. Tämä linkki luodaan käyttämällä ohjeena nimikkeen arvostusmenetelmää. FIFO-, vakio- ja keskimääräinen-arvostusmenetelmää käyttävien nimikkeiden osalta linkitys perustuu ensimmäinen käsitellään ensin -periaatteeseen. Varaston vähennystä käytetään varaston kasvuun aikaisimman tiliöintipäivämäärän mukaisesti. LIFO-arvostusmenetelmää käyttävien nimikkeiden osalta linkitys perustuu viimeisin käsitellään ensin -periaatteeseen. Varaston vähennys kohdistetaan varaston arvon nousuun viimeisimmän tiliöintipäivämäärän mukaisesti.  
 
 **Nimiketapahtuma**-taulukon **Jäljellä oleva määrä** -kenttä näyttää määrän, jota ei ole vielä kohdistettu. Jos jäljellä oleva määrä on suurempi kuin 0, **Avoin** -valintaruutu valitaan.  
 
-### <a name="example-1" />Esimerkki
+### <a name="example-1"></a>Esimerkki
 Seuraava esimerkki näyttää nimikkeen kohdistustapahtuman, joka luodaan edellisessä esimerkissä vastaanotettujen 5 nimikkeen myyntitoimituksen kirjauksesta. Ensimmäinen nimikkeen käyttökirjaus on ostokuitti. Toinen käyttökirjaus on myyntitoimitus.  
 
 Seuraavissa taulukoissa esitetään kaksi nimikkeen sovelluskirjausta, jotka aiheutuvat varaston kasvusta ja varaston vähennyksistä, tässä järjestyksessä.  
@@ -79,12 +79,12 @@ Seuraavissa taulukoissa esitetään kaksi nimikkeen sovelluskirjausta, jotka aih
 |01-01-20|1|0|10|1|  
 |01-03-20|1|2|-5|2|  
 
-## <a name="fixed-application" />Kiinteä kohdistus
+## <a name="fixed-application"></a>Kiinteä kohdistus
 Teet kiinteän kohdistuksen, kun kohdistat varaston arvon nousun kustannukset tiettyyn varaston arvon laskuun tai päinvastoin. Kiinteä kohdistus vaikuttaa jäljellä oleviin kirjausten määriin, mutta se myös kumoaa alkuperäisen kirjauksen tarkat kustannukset, jota käytät.  
 
 Voit tehdä kiinteän kohdistuksen asiakirjarivien **Kohdista nimiketapahtumaan**- tai **Kohdistus nimiketapahtumasta** -kentän avulla, kun haluat määrittää nimiketapahtuman, johon haluat kohdistaa tapahtumarivin tai josta haluat sen kohdistettavan. Voit esimerkiksi tehdä kiinteän kohdistuksen, kun haluat luoda kustannuksen kohdistuksen, joka määrittää, että myynnin tuoton tulisi koskea tiettyä myyntitoimitusta myyntitilauksen kustannuksen peruuttamiseksi. Tässä tapauksessa [!INCLUDE[prod_short](includes/prod_short.md)] ohittaa arvostusmenetelmän ja käyttää myyntipalautukselle varaston arvon vähennystä tai kasvatusta määrittämääsi nimiketapahtumaan. Kiinteän sovelluksen teon hyöty on se, että alkuperäisen siirron kustannus siirretään uuteen tapahtumaan.  
 
-### <a name="example--fixed-application-in-purchase-return" />Esimerkki – kiinteä kohdistus ostopalautuksessa
+### <a name="example--fixed-application-in-purchase-return"></a>Esimerkki – kiinteä kohdistus ostopalautuksessa
 Seuraava esimerkki, jossa kuvataan sellaisen nimikkeen vaikutus ostopalautuksen kiinteään sovellukseen, joka käyttää FIFO-kustannuslaskentamenetelmää, perustuu seuraavaan skenaarioon:  
 
 1. Tapahtumassa 1 käyttäjä kirjaa oston hintaan 10,00 (PVA).  
@@ -109,7 +109,7 @@ Seuraavassa taulukossa esitetään nimikkeen käyttökirjaus, joka johtuu kiinte
 
 Tämän jälkeen toisen oston kustannus 20,00 PVA siirtyy ostopalautukselle oikein.  
 
-### <a name="example--fixed-application-with-average-cost" />Esimerkki – kiinteä kohdistus keskimääräisen kustannuksen kanssa
+### <a name="example--fixed-application-with-average-cost"></a>Esimerkki – kiinteä kohdistus keskimääräisen kustannuksen kanssa
 Seuraava esimerkki, jossa kuvataan kiinteän sovelluksen vaikutusta, perustuu seuraavaan skenaarioon nimikkeestä, joka käyttää keskimääräisen kustannuslaskelman menetelmää:  
 
 1. Tapahtumissa numero 1 ja 2 käyttäjä kirjaa kaksi ostolaskua. Toisessa laskussa on väärä välitön kustannusyksikkö LCY 1000.00.  
@@ -149,7 +149,7 @@ Tapahtumassa numero 5 myös tämän tapahtuman **Kustannussumma todellinen** -ke
 > [!NOTE]  
 >  Jos luot Keskimäärä-arvostusmenetelmää käyttävälle varaston arvon laskulle kiinteän kohdistuksen, tällöin lasku ei vastaanota nimikkeen keskimääräistä kustannusta tavalliseen tapaan, vaan se vastaanottaa määrittämäsi varaston arvon nousun kustannukset. Tämä varaston arvon lasku ei tämän jälkeen enää ole osa keskimääräisten kustannusten laskenta.  
 
-### <a name="example--fixed-application-in-sales-return" />Esimerkki – kiinteä kohdistus myyntipalautuksessa
+### <a name="example--fixed-application-in-sales-return"></a>Esimerkki – kiinteä kohdistus myyntipalautuksessa
 Kiinteät kohdistukset ovat myös erittäin hyvä keino kustannuksen täsmälliseen peruuttamiseen, kuten myynnin palautusten kanssa.  
 
 Seuraava esimerkki, jossa kuvataan, kuinka kiinteä sovellus varmistaa täsmällisen kustannusten muutoksen, perustuu seuraavaan skenaarioon:  
@@ -190,10 +190,10 @@ Kun **Muuta kustannuksia - Nimiketapahtumat** -eräajo suoritetaan, ostotapahtum
 > [!NOTE]  
 >  Jos kirjaat tapahtuman, jolla on kiinteä kohdistus ja kohdistettava nimiketapahtuma on suljettu (eli jäljellä oleva määrä on nolla), tällöin vanha kohdistus kumotaan automaattisesti ja nimiketapahtuma kohdistetaan uudelleen käyttämällä määrittämääsi kiinteää kohdistusta.  
 
-## <a name="transfer-application" />Sovelluksen siirtäminen
+## <a name="transfer-application"></a>Sovelluksen siirtäminen
 Kun nimike siirretään paikasta toiseen yrityksen varastossa, näiden kahden siirtotapahtuman välille luodaan kohdistus. Siirtotapahtuman arvostaminen riippuu arvostusmenetelmästä. Keskiarvo-arvostusmenetelmää käyttävien nimikkeiden arvostus suoritetaan käyttämällä keskimääräistä kustannusta keskimääräisellä kustannusjaksolla jolla siirron arvostuspäivämäärä esiintyy. Muuta arvostusmenetelmää käyttävien nimikkeiden arvostus suoritetaan jäljittämällä takaisin alkuperäisen varaston arvon lisäyksen kustannukseen.  
 
-### <a name="example--average-costing-method" />Esimerkki – keskiarvo-arvostusmenetelmä
+### <a name="example--average-costing-method"></a>Esimerkki – keskiarvo-arvostusmenetelmä
 Seuraava esimerkki, joka kuvaa sitä, kuinka eri siirtokirjauksia käytetään, perustuu seuraavaan skenaarion nimikkeestä, joka käyttää keskimääräisen kustannuslaskelman menetelmää ja keskimääräistä päivän kustannusjaksoa.  
 
 1. Käyttäjä ostaa nimikkeen hintaan 10,00 (PVA).  
@@ -209,7 +209,7 @@ Seuraavassa taulukossa esitetään siirron vaikutus nimikkeen arvokirjauksiin.
 |02-01-20|Siirto|ITÄ|-1|15,00|3|  
 |02-01-20|Siirto|LÄNSI|1|15,00|4|  
 
-### <a name="example--standard-costing-method" />Esimerkki – Arvostusmenetelmä Vakio
+### <a name="example--standard-costing-method"></a>Esimerkki – Arvostusmenetelmä Vakio
 Seuraava esimerkki, joka kuvaa sitä, kuinka eri siirtokirjauksia käytetään, perustuu seuraavaan skenaarion nimikkeestä, joka käyttää kustannuslaskelman perusmenetelmää ja keskimääräistä päivän kustannusjaksoa.  
 
 1. Käyttäjä ostaa nimikkeen normaaliin hintaan 10,00 (PVA).  
@@ -225,7 +225,7 @@ Seuraavassa taulukossa esitetään siirron vaikutus nimikkeen arvokirjauksiin.
 
 Koska alkuperäisen varaston kasvun arvo on LCY 10.00, siirto arvioidaan kustannuksen mukaan, ei LCY 12.00.  
 
-## <a name="reapplication" />Uudelleenkohdistus
+## <a name="reapplication"></a>Uudelleenkohdistus
 Nimikkeen yksikkökustannuksen laskentatavan mukaan nimikkeen virheellinen kohdistus voi johtaa vääristyneeseen keskimääräiseen kustannukseen ja vääristyneeseen yksikkökustannukseen. Seuraavat skenaariot voivat aiheuttaa vääriä nimikesovelluksia, mikä vaatii sen, että mitätöit nimikesovellukset ja käytät uudelleen nimikkeen pääkirjan kirjaukset:  
 
 * Unohdit tehdä kiinteän kohdistuksen.  
@@ -235,7 +235,7 @@ Nimikkeen yksikkökustannuksen laskentatavan mukaan nimikkeen virheellinen kohdi
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tarjoaa ominaisuuden nimikkeen kohdistusten analysointiin ja korjaamiseen. Tämä työ tehdään **Kohdistustyökirja**-sivulla.  
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 [Rakennetiedot: Nimikkeen kohdistuksen tunnettu ongelma](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)  
 [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)  

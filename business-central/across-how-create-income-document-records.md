@@ -10,7 +10,7 @@ ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, eco
 ms.date: 06/14/2022
 ms.author: edupont
 ---
-# <a name="create-incoming-document-records" />Saapuvien asiakirjatietueiden luominen
+# <a name="create-incoming-document-records"></a>Saapuvien asiakirjatietueiden luominen
 
 **Saapuvat asiakirjat** -sivulla voit käyttää erilaisia toimintoja, joilla voit tarkistaa kulutositteita, hallita OCR-tehtäviä ja muuntaa saapuvia asiakirjatiedostoja manuaalisesti tai automaattisesti sekä siirtää niistä tietoja asiakirjoihin tai kirjanpitoriveille. Ulkoisia tiedostoja voi liittää missä tahansa prosessin vaiheessa myös kirjattuihin asiakirjoihin ja muodostuviin toimittaja-, asiakas- ja pääkirjamerkintöihin.
 
@@ -18,7 +18,7 @@ Voit tallentaa ulkoisen asiakirjan [!INCLUDE[prod_short](includes/prod_short.md)
 
 Ennen kuin voit käyttää **Saapuvat asiakirjat** -ominaisuutta, sinun on tehtävä tarvittavat asetukset. Lisätietoja on kohdassa [Saapuvien asiakirjojen määrittäminen](across-how-setup-income-documents.md).
 
-## <a name="approve-or-reject-an-incoming-document" />Saapuvan asiakirjan hyväksyminen tai hylkääminen
+## <a name="approve-or-reject-an-incoming-document"></a>Saapuvan asiakirjan hyväksyminen tai hylkääminen
 
 Jos olet määrittänyt **Saapuvat asiakirjat** -ominaisuuden edellyttämään asiakirjojen luomisen hyväksynnän, käyttäjien, joilla on tarvittavat oikeudet, on hyväksyttävä tietueet ennen niiden käsittelemistä. Lisätietoja on ohjeaiheessa [Saapuvien asiakirjatietueiden hyväksyjien määrittäminen](across-how-setup-income-documents.md#to-set-up-approvers-of-incoming-document-records).
 
@@ -27,7 +27,7 @@ Jos olet määrittänyt **Saapuvat asiakirjat** -ominaisuuden edellyttämään a
 
 Jos hyväksyt saapuvan asiakirjatietueen, saapuvan asiakirjan rivin **Vapautettu**-valintaruutu on valittuna. Esimerkiksi ostolaskujen luonnista vastaava henkilö voi nyt aloittaa tietueen käsittelemisen.
 
-## <a name="create-an-incoming-document-record-by-taking-a-photo" />Saapuvien asiakirjatietueiden luominen valokuva ottamalla
+## <a name="create-an-incoming-document-record-by-taking-a-photo"></a>Saapuvien asiakirjatietueiden luominen valokuva ottamalla
 
 > [!NOTE]  
 > Seuraavat toimet koskevat vain [!INCLUDE[prod_short](includes/prod_short.md)]in tabletti- ja puhelinasiakasohjelmia.
@@ -39,7 +39,7 @@ Jos hyväksyt saapuvan asiakirjatietueen, saapuvan asiakirjan rivin **Vapautettu
 
     Luo uuden saapuvan asiakirjan tietueen ja liittää kuvan.
 
-## <a name="attach-an-image-to-an-incoming-document-record-by-taking-a-photo" />Kuvan liittäminen saapuvien asiakirjatietueiden tietueeseen valokuva ottamalla
+## <a name="attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Kuvan liittäminen saapuvien asiakirjatietueiden tietueeseen valokuva ottamalla
 
 > [!NOTE]  
 > Seuraavat toimet koskevat vain [!INCLUDE[prod_short](includes/prod_short.md)]in tabletti- ja puhelinasiakasohjelmia.
@@ -51,7 +51,7 @@ Jos hyväksyt saapuvan asiakirjatietueen, saapuvan asiakirjan rivin **Vapautettu
 
     Kuva liitetään saapuvan asiakirjan tietueeseen.
 
-## <a name="create-an-incoming-document-record-manually" />Saapuvan asiakirjatietueen luominen manuaalisesti
+## <a name="create-an-incoming-document-record-manually"></a>Saapuvan asiakirjatietueen luominen manuaalisesti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Saapuvat asiakirjat** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi** ja sitten **Luo tiedostosta** -toiminto.  
@@ -61,9 +61,9 @@ Jos hyväksyt saapuvan asiakirjatietueen, saapuvan asiakirjan rivin **Vapautettu
 6. Valitse **Lisää tiedosto** -sivulla tiedosto, joka vastaa kyseistä saapuvaa asiakirjaa, ja valitse sitten **Avaa**.
 7. Täytä **Saapuva asiakirja** -sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-training" />Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/incoming-documents-dynamics-365-business-central/)
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Käytä OCR:ää PDF-ja kuvatiedostojen muuntamiseksi sähköisiksi asiakirjoiksi](across-how-use-ocr-pdf-images-files.md)
 [Saapuvien asiakirjatietueiden luominen suoraan asiakirjoista ja tapahtumista](across-how-connect-disconnect-income-document-records.md)

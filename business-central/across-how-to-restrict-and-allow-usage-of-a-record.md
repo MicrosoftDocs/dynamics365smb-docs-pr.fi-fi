@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: edupont
 ---
-# <a name="restrict-and-allow-usage-of-a-record" />Tietueen käytön rajoittaminen ja salliminen
+# <a name="restrict-and-allow-usage-of-a-record"></a>Tietueen käytön rajoittaminen ja salliminen
 
 Jos haluat rajoittaa tietueen käyttöä tietyissä aktiviteeteissa, esimerkiksi ennen kuin tietue on hyväksytty, voit sisällyttää kaksi työnkulun vastausta työnkulkuun, joka määrittää tietueen käyttöä. Yksi työnkulku vastaus rajoittaa tietueen käyttöä työnkulun tapahtuman ja ehtojen mukaan. Toinen työnkulku vastaus sallii tietueen käyttöä työnkulun tapahtuman ja ehtojen mukaan. Tuotteen [!INCLUDE[prod_short](includes/prod_short.md)] oletusversiossa on kaksi vastausta tähän tarkoitukseen: **Lisää tietuerajoitus** ja **Poista tietuerajoitus**.
 
@@ -22,7 +22,7 @@ Jos haluat rajoittaa tietueen käyttöä tietyissä aktiviteeteissa, esimerkiksi
 
 Seuraavassa kuvataan, miten rajoittaa ostotilausten kirjaamisen ennen kuin ne on hyväksytty. Uusi työnkulku perustuu *Ostolaskun hyväksymistyönkulku* -malliin.  
 
-## <a name="create-a-workflow-step-that-restricts-posting-of-unapproved-purchase-orders" />Voit seuraavasti luoda työnkulun vaiheen, joka rajoittaa hyväksymättömien ostotilausten kirjauksia
+## <a name="create-a-workflow-step-that-restricts-posting-of-unapproved-purchase-orders"></a>Voit seuraavasti luoda työnkulun vaiheen, joka rajoittaa hyväksymättömien ostotilausten kirjauksia
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut**, valitse sitten vastaava linkki.  
 2. Valitse **Työnkulut**-sivulla **Uusi työnkulku mallista** -toiminto. Lisätietoja kohdassa [Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md).
@@ -32,7 +32,7 @@ Seuraavassa kuvataan, miten rajoittaa ostotilausten kirjaamisen ennen kuin ne on
 4. Valitse **Työnkulun vaiheet** -pikavälilehdessä **Ehto** -kenttä ensimmäiselle vaiheelle, valitse sitten **Asiakirjan tyyppi** -suodattimeksi **Tilaus**.  
 5. Siirry muokkaamaan, poistamaan tai lisäämään muita työnkulun vaiheita kuvataksesi liiketoiminnan prosessia, joka alkaa rajoittamalla hyväksymättömien ostotilausten kirjaamista.  
 
-## <a name="see-also" />Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Hyväksymistyönkulkujen käyttäminen](across-use-workflows.md)  
 [Luo hyväksymistyönkulut](across-how-to-create-workflows.md)  
