@@ -10,27 +10,27 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# <a name="walkthrough-planning-supplies-manually"></a>Vaihekuvaus: Toimitusten manuaalinen suunnittelu
+# <a name="walkthrough-planning-supplies-manually"></a><a name="walkthrough-planning-supplies-manually"></a>Vaihekuvaus: Toimitusten manuaalinen suunnittelu
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Tässä vaihekuvauksessa kuvataan toimitustilausten suunnitteluprosessi uuden kysynnän täyttämiseksi. Voit aloittaa tarjonnan suunnittelun tietyin välein, esimerkiksi joka aamu tai joka maanantai, tai kun myynti tai tuotanto ilmoittaa ne kysyntätyypin mukaan. Tässä vaihekuvauksessa käytetään **Tilauksen suunnittelu** -sivua. Se on yksinkertainen toimitusten suunnittelutyökalu, joka perustuu parametripohjaisen automaattisen suunnittelun asemesta manuaaliseen päätöksentekoon.  
 
-## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta
+## <a name="about-this-walkthrough"></a><a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta
  Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:  
 
 -   ostotilauksen suunnitteleminen valmistuskomponentteja varten  
 -   myyntikysynnän täyttäminen siirtotilauksia suunnittelemalla  
 -   monitasoisen nimikkeen tuotantotilauksen suunnitteleminen.  
 
-## <a name="roles"></a>Roolit
+## <a name="roles"></a><a name="roles"></a>Roolit
  Tässä vaihekuvauksessa havainnollistetaan seuraavien käyttäjäroolien tehtäviä:  
 
 -   Tuotantosuunnittelija  
 -   Ostaja  
 -   myyntitilausten käsittelijä  
 
-## <a name="prerequisites"></a>Vaatimukset
+## <a name="prerequisites"></a><a name="prerequisites"></a>Vaatimukset
  Ennen kuin aloitat tämän vaihekohtaisen ohjeen, sinun on asennettava [!INCLUDE[prod_short](includes/prod_short.md)]. Tietokantaan on tehtävä seuraavat muutokset:  
 
 -   Poista kaikki aiemmat polkupyörien myyntitilaukset.  
@@ -39,17 +39,17 @@ Tässä vaihekuvauksessa kuvataan toimitustilausten suunnitteluprosessi uuden ky
 
  Tässä vaihekuvauksessa kannattaa käyttää ehdotettuja tietoja, koska näissä tiedoissa on tarvittavat tietueet.  
 
-## <a name="story"></a>Taustatietoja
+## <a name="story"></a><a name="story"></a>Taustatietoja
  Pienen teollisuusyhtiön tuotantosuunnittelija Karl aikoo suunnitella tuotanto- ja ostotilaukset uuden myyntikysynnän täyttämiseksi.  
 
  Koska tuotteissa ei ole useaa tuoterakennetasoa eikä tilauksia ole paljon, Karl luo toimitustilaukset manuaalisesti **Tilauksen suunnittelu** -sivulla yksi tuotetaso kerrallaan.  
 
  Monimutkaisemmissa tuotantoympäristöissä suunnittelutyökirjaa käytetään toimitusten suunnitteluun, joka perustuu nimikeparametreihin, kuten uudelleenajoitusjaksoon, toimitusajan varmistukseen ja uusintatilauspisteeseen, sekä kaikkien tuotetasojen yhdistetyn kysynnän erälaskentaan.  
 
-## <a name="setting-up-the-sample-data"></a>Esimerkkitietojen määrittäminen
+## <a name="setting-up-the-sample-data"></a><a name="setting-up-the-sample-data"></a>Esimerkkitietojen määrittäminen
  Tavallisessa CRONUS esimerkkiyrityksessä on tällä hetkellä paljon suunnittelematonta kysyntää. Tämän vaihekuvauksen suunnittelutehtävien aikana realistisesta liiketoimintojen työnkulusta täytyy poiketa. Siitä poiketaan jättämällä huomiotta kysyntä, jonka eräpäivät ovat lähellä, ja käyttämällä sen sijaan kysyntää, jonka eräpäivät ovat myöhäisempiä.  
 
-## <a name="use-the-order-planning-page"></a>Tilauksen suunnittelu -sivun käyttäminen
+## <a name="use-the-order-planning-page"></a><a name="use-the-order-planning-page"></a>Tilauksen suunnittelu -sivun käyttäminen
 
 **Tilauksen valmistelu** -sivua voi käyttää useista eri sijainneista:  
 
@@ -58,7 +58,7 @@ Tässä vaihekuvauksessa kuvataan toimitustilausten suunnitteluprosessi uuden ky
 -   Osto, Suunnittelu  
 -   Lisäksi voit avata tämän sivun tietylle tuotantotilaukselle valitsemalla **Suunnitelma**-toiminnon.
 
-### <a name="to-use-the-order-planning-page"></a>Tilauksen suunnittelu -sivun käyttäminen
+### <a name="to-use-the-order-planning-page"></a><a name="to-use-the-order-planning-page"></a>Tilauksen suunnittelu -sivun käyttäminen
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilauksen suunnittelu** ja valitse sitten vastaava linkki.  
 
@@ -82,10 +82,10 @@ Tässä vaihekuvauksessa kuvataan toimitustilausten suunnitteluprosessi uuden ky
 
      Tilaukset, joissa ei ole saatavuusongelmia, eivät näy. Jos suunnitelman laskemisen jälkeen ei ole tilauksia, näyttöön tulee sanoma, mutta ei suunnittelurivejä.  
 
-## <a name="planning-a-purchase-order-to-fulfill-component-demand"></a>Ostotilauksen suunnitteleminen komponenttien kysynnän täyttämiseksi
+## <a name="planning-a-purchase-order-to-fulfill-component-demand"></a><a name="planning-a-purchase-order-to-fulfill-component-demand"></a>Ostotilauksen suunnitteleminen komponenttien kysynnän täyttämiseksi
  Näissä toimintaohjeissa luodaan ostotilaus tarvittavia valmistuskomponentteja varten.  
 
-### <a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production"></a>Ostotilauksen suunnitteleminen täyttämään tuotannon komponenttitarve
+### <a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production"></a><a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production"></a>Ostotilauksen suunnitteleminen täyttämään tuotannon komponenttitarve
 
 1.  Laajenna ensimmäinen rivi (napsauta plusmerkkiä).  
 2.  Valitse ensimmäinen kysyntärivi, jossa on nimike **LSU-15**, ja valitse sitten **Näytä asiakirja** -toiminto.  
@@ -122,10 +122,10 @@ Tässä vaihekuvauksessa kuvataan toimitustilausten suunnitteluprosessi uuden ky
 
      Ostotilaukset luodaan ja tallennetaan viimeisiksi tilauksiksi ostotilausten luetteloon.  
 
-## <a name="planning-a-transfer-order-to-fulfill-sales-demand"></a>Siirtotilauksen suunnitteleminen myyntikysynnän täyttämiseksi
+## <a name="planning-a-transfer-order-to-fulfill-sales-demand"></a><a name="planning-a-transfer-order-to-fulfill-sales-demand"></a>Siirtotilauksen suunnitteleminen myyntikysynnän täyttämiseksi
  Näissä toimintaohjeissa kysyntää varten laaditaan suunnitelma myyntitilauksesta. Kysyntärivit vastaavat myyntirivejä, eivät komponenttirivejä, kuten tuotantokysynnässä.  
 
-### <a name="to-plan-a-transfer-order-to-fulfill-sales-demand"></a>Siirtotilauksen suunnitteleminen myyntikysynnän täyttämiseksi
+### <a name="to-plan-a-transfer-order-to-fulfill-sales-demand"></a><a name="to-plan-a-transfer-order-to-fulfill-sales-demand"></a>Siirtotilauksen suunnitteleminen myyntikysynnän täyttämiseksi
 
 1.  Siirrä kohdistin tilauksen numero **2008** suunnitteluriville.  
 2.  Laajenna rivi ja siirrä kohdistin kysyntäriville.  
@@ -150,10 +150,10 @@ Tässä vaihekuvauksessa kuvataan toimitustilausten suunnitteluprosessi uuden ky
 
      Siirtotilaus luodaan ja tallennetaan luetteloon avointen siirtotilausten luettelon viimeiseksi tilaukseksi.  
 
-## <a name="planning-a-multilevel-production-order-to-fulfill-sales-demand"></a>Monitasoisen tuotantotilauksen suunnitteleminen myyntikysynnän täyttämiseksi
+## <a name="planning-a-multilevel-production-order-to-fulfill-sales-demand"></a><a name="planning-a-multilevel-production-order-to-fulfill-sales-demand"></a>Monitasoisen tuotantotilauksen suunnitteleminen myyntikysynnän täyttämiseksi
  Näissä toimintaohjeissa laaditaan suunnitelma, jossa tuotetun nimikkeen myyntikysyntä täytetään usealla tuotetasolla. Jokainen taso luo riippuvaisen tuotantokysynnän.  
 
-### <a name="to-plan-multilevel-production-to-fulfill-sales-demand"></a>Monitasoisen tuotannon suunnitteleminen myyntikysynnän täyttämiseksi
+### <a name="to-plan-multilevel-production-to-fulfill-sales-demand"></a><a name="to-plan-multilevel-production-to-fulfill-sales-demand"></a>Monitasoisen tuotannon suunnitteleminen myyntikysynnän täyttämiseksi
 
 1.  Valitse tilauksen numero **1001** suunnittelurivi, jolla on myyntikysyntää (se luotiin aiemmin vaihekuvauksen valmistavissa toimissa).  
 
@@ -172,7 +172,7 @@ Tässä vaihekuvauksessa kuvataan toimitustilausten suunnitteluprosessi uuden ky
 
  Tuotantosuunnittelijan täytyy nyt suunnitella tietty tuotantotilaus.  
 
-### <a name="to-plan-a-specific-production-order"></a>Tietyn tuotantotilauksen suunnitteleminen
+### <a name="to-plan-a-specific-production-order"></a><a name="to-plan-a-specific-production-order"></a>Tietyn tuotantotilauksen suunnitteleminen
 
 1.  Avaa tuotantotilaus **101001** (kymmenen polkupyörää), joka luotiin aiemmin **Tee tilaukset**-toiminnolla.  
 2.  Avaa **Tuot.til. komponentit** -sivu ja varmista, että ylimääräinen kello näkyy tuotantotilauksessa.  
@@ -222,7 +222,7 @@ Tässä vaihekuvauksessa kuvataan toimitustilausten suunnitteluprosessi uuden ky
 
      Tarkista **Sitovasti suunn. tuotantotil.** -sivulla, miten yksittäisten tilausten aloitus- ja päättymisajat on ajoitettu tuoterakenteen mukaan. Alimman tason komponentit tuotetaan ensin. Monitasoisten tilausten suunnitteleminen onkin tärkeää, kuten tässä suunnittelun työnkulussa on havainnollistettu.  
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a>Katso myös
  [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)   
 <!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 

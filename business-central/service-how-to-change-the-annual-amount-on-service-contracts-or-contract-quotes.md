@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Huoltosopimuksen tai sopimustarjouksen vuosittaisen summan muuttaminen
+# <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a><a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Huoltosopimuksen tai sopimustarjouksen vuosittaisen summan muuttaminen
 Huoltosopimuksen tai sopimustarjouksen vuosittaista summaa voidaan muuttaa, jos vuosittain laskutettavaa summaa tarvitsee korjata.  
 
-## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Huoltosopimuksen tai sopimustarjouksen vuosittaisen summan muuttaminen
+## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a><a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Huoltosopimuksen tai sopimustarjouksen vuosittaisen summan muuttaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimukset** tai **Huoltosopimustarjoukset** ja valitse sitten vastaava linkki.  
 2. Valitse sopimus tai sopimustarjous.  
@@ -22,14 +22,14 @@ Huoltosopimuksen tai sopimustarjouksen vuosittaista summaa voidaan muuttaa, jos 
 5. Muuta **Vuosittainen summa** -kentän sisältöä. Et voi allekirjoittaa huoltosopimusta eli tarjousta ei voi muuntaa huoltosopimukseksi, jos käsittelet sopimustarjousta, etkä lukita sitä, jos sen vuosittainen summa on negatiivinen. Jos vuosittaiseksi summaksi annetaan nolla, **Laskutuskausi**-kentässä on oltava **Ei mitään**, kun huoltosopimus allekirjoitetaan tai lukitaan.  
 6. Jaa vuosittaisen summan ero manuaalisesti tai automaattisesti sen mukaan, onko **Salli epätäsmäävät summat** -valintaruutu valittu. Sopimusrivit päivitetään niin, että **Laskettu vuosittainen summa** -kentän arvoksi tulee sama kuin uusi vuosittainen summa.  
 
-## <a name="distributing-differences-between-new-and-calculated-annual-amounts"></a>Uuden ja lasketun vuosittaisen summan eron jakaminen
+## <a name="distributing-differences-between-new-and-calculated-annual-amounts"></a><a name="distributing-differences-between-new-and-calculated-annual-amounts"></a>Uuden ja lasketun vuosittaisen summan eron jakaminen
 Jos huoltotarjouksen tai -sopimuksen vuosittaista summaa muutetaan, voidaan uuden ja lasketun vuosittaisen summan välinen ero joutua jakamaan sopimusriveille. Voit jakaa summat kolmella tavalla:
 
 * Tasainen jako  
 * Jako rivisummien perusteella  
 * Tuottoon perustuva jako
 
-### <a name="even-distribution"></a>Tasainen jako
+### <a name="even-distribution"></a><a name="even-distribution"></a>Tasainen jako
 Jos huoltotarjouksen tai huoltosopimuksen vuosittaista summaa muutetaan, voidaan uuden ja lasketun vuosittaisen summan välinen ero joutua jakamaan sopimusriveille. Tasainen jako on yksi automaattisista jakomenetelmistä, jotka auttavat jakamaan uuden ja lasketun vuosittaisen summan eron tasaisesti sopimuksen rivisummien kesken. Seuraavassa toimenpiteiden luettelossa kuvataan tämän menetelmän perusajatus:  
 
 1. **Vuosittainen summa** -kentän uuden arvon ja **Laskettu vuosittainen summa** -kentän arvon ero jaetaan huoltosopimuksen tai sopimustarjouksen sopimusrivien lukumäärällä.  
@@ -41,7 +41,7 @@ Jos huoltotarjouksen tai huoltosopimuksen vuosittaista summaa muutetaan, voidaan
 
  Vaiheet toistetaan kullekin sopimusriville.  
 
-#### <a name="example"></a>Esimerkki
+#### <a name="example"></a><a name="example"></a>Esimerkki
 Huoltosopimuksen **Salli epätäsmäävät summat**-kentässä ei ole valintamerkkiä, ja sopimus sisältää kolme sopimusriviä, joilla on seuraavat tiedot:  
 
 |Nimike|Rivikustannus|Rivin arvo|Rivialennus-%|Rivin alennussumma|Rivisumma|Tuotto|  
@@ -62,7 +62,7 @@ Sopimusriveillä on lopuksi seuraavat tiedot:
 |Nimike 2|40,00|50,00|16.00|8.00|42.00|2.00|  
 |Nimike 3|50.00|70.00|14.29|10.00|60.00|10.00|  
 
-### <a name="distribution-based-on-line-amount"></a>Jako rivisumman perusteella
+### <a name="distribution-based-on-line-amount"></a><a name="distribution-based-on-line-amount"></a>Jako rivisumman perusteella
 Jos huoltosopimuksen tai sopimustarjouksen vuosittaista summaa muutetaan, voidaan uuden ja lasketun vuosittaisen summan välinen ero joutua jakamaan sopimusriveille. Rivisummaan perustuva jako on automaattinen menetelmä, joka auttaa jakamaan uuden ja lasketun vuosittaisen summan eron sopimusrivien rivisummien kesken. Jako tehdään suhteessa kunkin rivisumman osuuteen lasketusta vuosittaisesta summasta. Seuraavassa kullakin rivillä tehtävien toimenpiteiden luettelossa kuvataan tämän menetelmän perusajatus:  
 
 1. Rivisumman osuus lasketaan seuraavasti: **Rivisumma**-kentän sisältö jaetaan **Laskettu vuosittainen summa** -kentän arvolla kaikilla sopimusriveillä.  
@@ -75,7 +75,7 @@ Jos huoltosopimuksen tai sopimustarjouksen vuosittaista summaa muutetaan, voidaa
 
 Vaiheet toistetaan kullekin sopimusriville.  
 
-#### <a name="example-1"></a>Esimerkki
+#### <a name="example-1"></a><a name="example-1"></a>Esimerkki
 Huoltosopimuksen **Salli epätäsmäävät summat**-kentässä ei ole valintamerkkiä, ja sopimus sisältää kolme sopimusriviä, joilla on seuraavat tiedot:  
 
 |Nimike|Rivikustannus|Rivin arvo|Rivialennus-%|Rivin alennussumma|Rivisumma|Tuotto|  
@@ -102,7 +102,7 @@ Sopimusriveillä on lopuksi seuraavat tiedot:
 |Nimike 2|20,00|23,00|8.65|1.99|21.01|1.01|  
 |Nimike 3|24.00|27.00|11.37|3.07|23.93|-0,07|  
 
-### <a name="distribution-based-on-profit"></a>Tuottoon perustuva jako
+### <a name="distribution-based-on-profit"></a><a name="distribution-based-on-profit"></a>Tuottoon perustuva jako
 Jos huoltosopimuksen tai sopimustarjouksen vuosittaista summaa muutetaan, voidaan uuden ja lasketun vuosittaisen summan välinen ero joutua jakamaan sopimusriveille. Tuottoon perustuva jako on yksi automaattisista menetelmistä, jotka auttavat jakamaan uuden ja lasketun vuosittaisen summan eron sopimusrivien rivisummien kesken. Jako tehdään suhteessa rivien osuuteen sopimuksen tai sopimustarjouksen yhteistuotosta. Seuraavassa kullakin rivillä tehtävien toimenpiteiden luettelossa kuvataan tämän menetelmän perusajatus:  
 
 1. Tuottoprosenttiosuus lasketaan seuraavasti: **Tuotto**-kentän sisältö jaetaan kaikkien sopimusrivien **Tuotto**-kenttien yhteissummalla.  
@@ -113,7 +113,7 @@ Jos huoltosopimuksen tai sopimustarjouksen vuosittaista summaa muutetaan, voidaa
     * Rivialennus-% = Rivin alennussumma / Rivin arvo * 100.  
     * Tuotto = Rivisumma - Rivikustannus.  
 
-#### <a name="example-2"></a>Esimerkki
+#### <a name="example-2"></a><a name="example-2"></a>Esimerkki
 Huoltosopimuksen **Salli epätäsmäävät summat**-valintaruutua ei ole valittu, ja sopimus sisältää kolme sopimusriviä, joilla on seuraavat tiedot:  
 
 |Nimike|Rivikustannus|Rivin arvo|Rivialennus-%|Rivin alennussumma|Rivisumma|Tuotto|  
@@ -140,7 +140,7 @@ Sopimusriveillä on lopuksi seuraavat tiedot:
 |Nimike 2|50,00|58,00|9.93|5.76|52.24|2.24|  
 |Nimike 3|100.00|115.00|8.20|9.43|105.57|5.57|  
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a>Katso myös
 [Huoltosopimusten ja huoltosopimustarjousten luominen](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
 

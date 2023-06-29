@@ -10,11 +10,11 @@ ms.date: 02/10/2023
 ms.custom: bap-template
 ---
 
-# <a name="printer-setup-and-management-overview"></a>Tulostimen asetusten ja hallinnan yleiskuvaus
+# <a name="printer-setup-and-management-overview"></a><a name="printer-setup-and-management-overview"></a>Tulostimen asetusten ja hallinnan yleiskuvaus
 
 Asiakirjojen ja raporttien tulostaminen [!INCLUDE[prod_short](includes/prod_short.md)]ista on tärkeä tehtävä yrityskäyttäjille. Käyttäjä haluaa yleensä lähettää tulostustyöt suoraan johonkin organisaation tulostimiin riippumatta siitä, mikä [!INCLUDE[prod_short](includes/prod_short.md)] -asiakasohjelma tai -sovellus on käytössä. Koska [!INCLUDE[prod_short](includes/prod_short.md)] online on pilvipalvelu, se ei voi olla suoraan yhteydessä käyttäjien laitteisiin yhdistettyihin tulostimiin. Se voidaan kuitenkin yhdistää pilvipohjaisiin tulostimiin.
 
-## <a name="what-are-your-printer-possibilities-in-business-central"></a>Business Centralin tulostinmahdollisuudet
+## <a name="what-are-your-printer-possibilities-in-business-central"></a><a name="what-are-your-printer-possibilities-in-business-central"></a>Business Centralin tulostinmahdollisuudet
 
 [!INCLUDE[prod_short](includes/prod_short.md)]issa on seuraavat tulostamista tukevat ominaisuudet:
 
@@ -29,13 +29,13 @@ Tulostimet määritetään pääasiassa [!INCLUDE[prod_short](includes/prod_shor
 > [!IMPORTANT]
 > Paikallisessa Business Centralissa yleistulostus ja sähköpostitulostus edellyttävät Azure Active Directory (AD) -tai NavUserPassword-todennuksen käyttöä.
 
-## <a name="custom-printer-extensions"></a>Mukautetut tulostinlaajennukset
+## <a name="custom-printer-extensions"></a><a name="custom-printer-extensions"></a>Mukautetut tulostinlaajennukset
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tukee muita mukautettuja tulostinlaajennuksia, joilla saadaan käyttöön vielä lisää tulostusominaisuuksia. Jos asennettuna on mukautettuja tulostinlaajennuksia, sovelluksessa voi olla sellaisia tulostusominaisuuksia, joita ei käsitellä tässä artikkelissa.
 
 AL-kehittäjille tarkoitettuja lisätietoja tulostinlaajennusten luomisesta on kohdassa [Tulostinlaajennusten kehittäminen Business Centralissa](/dynamics365/business-central/dev-itpro/developer/devenv-reports-printing).
 
-## <a name="next-steps"></a>Seuraavat vaiheet
+## <a name="next-steps"></a><a name="next-steps"></a>Seuraavat vaiheet
 
 - [Yleistulostuksen tulostimien määrittäminen](admin-printer-setup-universal-print.md)  
 - [Sähköpostitulostuksen määrittäminen](admin-printer-setup-email.md)  

@@ -11,7 +11,7 @@ ms.search.form: '389, 1290, 1294, 1287'
 ms.date: 06/22/2022
 ms.author: bholtorf
 ---
-# <a name="reconcile-payments-using-automatic-application"></a>Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta
+# <a name="reconcile-payments-using-automatic-application"></a><a name="reconcile-payments-using-automatic-application"></a>Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta
 
 **Maksujen täsmäytyskirjauskansio** -sivulla määritetään saapuvat ja lähtevät maksut, jotka on tallennettu tapahtumina verkkopankkitilille tai maksupalveluun. Voit kohdistaa maksut liittyviin avoimiin asiakas-, toimittaja-ja pankkitilitapahtumiin. Päiväkirjan voi täyttää tuomalla pankin tiliotteen pankkisyötteenä tai -tiedostona tai syöttämällä manuaalisesti transaktioita, joita teet maksupalvelussa.
 
@@ -43,7 +43,7 @@ Voit avata kullekin maksua esittävälle **Maksujen täsmäytyskirjauskansio** -
 > [!NOTE]  
 > Voit aloittaa pankkitapahtumien tuonnin samaan aikaan kuin avaat **Maksujen täsmäytyskirjauskansio** -sivun aiemmin luodulle kirjauskansiolle. Seuraava toimenpide kuvaa kuinka pankkitapahtumat tuodaan **Maksujen täsmäytyskirjauskansio** -sivulle, kun olet luonut uuden päiväkirjan.
 
-## <a name="to-reconcile-payments-using-automatic-application"></a>Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta
+## <a name="to-reconcile-payments-using-automatic-application"></a><a name="to-reconcile-payments-using-automatic-application"></a>Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksujen täsmäytyskirjauskansiot** ja valitse sitten liittyvä linkki.
 2. Voit käsitellä uuden maksun täsmäytyksen päiväkirjaa valitsemalla **Uusi päiväkirja** -toiminnon.
 3. Valitse **Maksun pankkitililuettelo** -sivulla pankkitili, johon maksut täsmäytetään, ja valitse sitten **OK**-painike.
@@ -88,9 +88,9 @@ Voit verrata **Pankkitilin saldo kirjauksen jälkeen** -kentän ja **Tiliotteen 
 > [!NOTE]  
 >   Jos et halua täsmäyttää pankkitiliä **Maksujen täsmäytyskirjauskansio** -sivulla, sinun on käytettävä **Pankkitilin täsmäytys** -sivua. Lisätietoja on kohdassa [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md).
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-journals-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Myynti](sales-manage-sales.md)  

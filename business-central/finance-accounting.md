@@ -11,21 +11,21 @@ ms.search.form: '100, 1156, 1157, 1314, 1315, 1316, 9027'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="accountant-experiences-in-"></a>Kirjanpitäjän käyttökokemukset [!INCLUDE[prod_long](includes/prod_long.md)]issa
+# <a name="accountant-experiences-in-"></a><a name="accountant-experiences-in-"></a>Kirjanpitäjän käyttökokemukset [!INCLUDE[prod_long](includes/prod_long.md)]issa
 
 Kaikkien yritysten on pidettävä kirjanpitoa ja hyväksyttävä se. Jotkin yritykset käyttävät ulkoista kirjanpitäjää, ja joillain yrityksillä on oma kirjanpitäjä. Olit kummanlainen kirjanpitäjä tahansa, voit käyttää **kirjanpitäjän** roolikeskusta [!INCLUDE[prod_short](includes/prod_short.md)]in kotisivunasi. Siitä saat avattua kaikki sivut, joita tarvitset työssäsi.  
 
-## <a name="accountant-role-center"></a>Kirjanpitäjän roolikeskus
+## <a name="accountant-role-center"></a><a name="accountant-role-center"></a>Kirjanpitäjän roolikeskus
 
 Roolikeskus on koontinäyttö, joka sisältää reaaliaikaisia avainlukuja näyttäviä toimintoruutuja, joista saat nopean pääsyn tietoihin. Sivun yläreunassa on valintanauha, josta pääset käyttämään lisätoimintoja, kuten eniten käytettyjen raporttien ja laskelmien avaaminen Excelissä. Yläosassa olevan siirtymispalkin avulla voit vaihtaa eniten käyttämiesi luetteloiden välillä. Täällä näkyy muita alueita, kuten **Kirjatut asiakirjat** sekä eri tyyppisiä yrityksen kirjaamia asiakirjoja.  
 
 Jos olet uusi [!INCLUDE[prod_short](includes/prod_short.md)] -käyttäjä, voit avata opetusvideoiden luettelon suoraan roolikeskuksesta. Voit avata myös **Aloitusoppaan**, joka osoittaa sovelluksen tärkeimmät osat.  
 
-## <a name="company-hub"></a>Yritystoiminto
+## <a name="company-hub"></a><a name="company-hub"></a>Yritystoiminto
 
 Jos työskentelet useissa [!INCLUDE [prod_short](includes/prod_short.md)] -yrityksissä, kannattaa ehkä käyttää **Yritystoiminto**-sivua työn seuraamiseen.  Katso lisätietoja kohdasta [Työnhallinta useiden yritysten välillä yritystoiminnossa](company-hub.md).  
 
-## <a name="inviting-your-external-accountant-to-your-"></a><a name="inviteaccountant"></a>Ulkoisen kirjanpitäjän kutsuminen [!INCLUDE[prod_short](includes/prod_short.md)]iin
+## <a name="inviting-your-external-accountant-to-your-"></a><a name="inviting-your-external-accountant-to-your-"></a><a name="inviteaccountant"></a>Ulkoisen kirjanpitäjän kutsuminen [!INCLUDE[prod_short](includes/prod_short.md)]iin
 
 Jos käytät ulkoista kirjanpitäjää kirjojen ja talousraportoinnin hallinnassa, järjestelmänvalvojasi voi kutsua kirjanpitäjän [!INCLUDE[prod_short](includes/prod_short.md)]iisi, jolloin he saavat käyttöönsä kirjanpitotietosi. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää kolme lisenssiä, joiden tyyppi on ulkopuolinen kirjanpitäjä. Lisätietoja käyttöoikeuksista on kohdassa [Microsoft Dynamics 365 Business Centralin käyttöoikeusopas](https://go.microsoft.com/fwlink/?LinkId=871590).
 
@@ -45,11 +45,11 @@ Ulkopuolisen kirjanpitäjän kutsumista on helpotettu. Avaa vain **Käyttäjät*
 >
 > Tämä tehtävä edellyttää pääsyä käyttäjien ja käyttöoikeuksien hallintaan Azure Active Directoryssä. Tämän kutsun lähettäneen käyttäjän on määritettävä **Yleinen järjestelmänvalvoja** -rooli tai **Käyttäjän järjestelmänvalvoja** -rooli Microsoft 365 -hallintakeskuksessa. Lisätietoja on kohdassa [Tietoja järjestelmänvalvojarooleista](/microsoft-365/admin/add-users/about-admin-roles)(Microsoft 365:n järjestelmänvalvojasisältö).  
 
-### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Kirjanpitäjän lisääminen Microsoft 365:iin Azure-portaalissa
+### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a><a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal"></a>Kirjanpitäjän lisääminen Microsoft 365:iin Azure-portaalissa
 
 Jos järjestelmänvalvoja tai jälleenmyyntikumppani ei halua käyttää **Ulkoisen kirjanpitäjän kutsuminen** -opasta, hän voi lisätä ulkoisen käyttäjän Azure-portaaliin ja määrittää tälle käyttäjälle *ulkoisen kirjanpitäjän* käyttöoikeuden. Lisätietoja on kohdassa [Nopeasti alkuun: Lisää vieraskäyttäjiä hakemistoon Azure-portaalissa](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 
-#### <a name="to-add-your-accountant-as-a-guest-user"></a>Kirjanpitäjän lisääminen vieraskäyttäjäksi
+#### <a name="to-add-your-accountant-as-a-guest-user"></a><a name="to-add-your-accountant-as-a-guest-user"></a>Kirjanpitäjän lisääminen vieraskäyttäjäksi
 
 1. Avaa [Azure -portaali](https://portal.azure.com/).
 2. Valitse **Azure Active Directory** vasemmanpuoleisessa ruudussa.
@@ -64,7 +64,7 @@ Jos järjestelmänvalvoja tai jälleenmyyntikumppani ei halua käyttää **Ulkoi
 
 Seuraavaksi sinun on määritettävä uudelle vieraskäyttäjälle käyttöoikeus [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-"></a>Voit antaa kirjanpitäjälle pääsyn kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]
+#### <a name="to-give-your-accountant-access-to-your-"></a><a name="to-give-your-accountant-access-to-your-"></a>Voit antaa kirjanpitäjälle pääsyn kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Valitse Azure-portaalissa juuri lisätyn käyttäjän **Profiili** ja valitse sitten **Muokkaa**
 2. Päivitä **Käyttösijainti** -kenttä asianomaisen maan kohdalle ja valitse sitten **Tallenna**.
@@ -78,11 +78,11 @@ Seuraavaksi sinun on määritettävä uudelle vieraskäyttäjälle käyttöoikeu
 
 Jos tämä onnistuu, käyttöoikeus määritetään vieraskäyttäjälle ja vierastili luodaan.
 
-### <a name="importing-the-new-user-into-"></a>Uuden käyttäjän tuominen kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="importing-the-new-user-into-"></a><a name="importing-the-new-user-into-"></a>Uuden käyttäjän tuominen kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Kirjanpitäjä saa sähköpostiviestin, joka ilmoittaa hänelle, että hänelle on annettu pääsy Active Directoryyn. Seuraavaksi sinun on annettava heille oikeus käyttää oikeaa yritystä kohteessa [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### <a name="to-add-the-accountant-to-the-right-company"></a>Kirjanpitäjän lisääminen oikeaan yritykseen
+#### <a name="to-add-the-accountant-to-the-right-company"></a><a name="to-add-the-accountant-to-the-right-company"></a>Kirjanpitäjän lisääminen oikeaan yritykseen
 
 1. Avaa [!INCLUDE[prod_short](includes/prod_short.md)]-yritys, johon haluat antaa kirjanpitäjälle käyttöoikeuden, kohteessa [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com).
 2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten vastaava linkki.  
@@ -92,7 +92,7 @@ Tämä tuo käyttäjätilin, jonka loit Azure-portaalissa yritykselle. Lisätiet
 
 Jos haluat antaa käyttöoikeudet useille yrityksille, sinun on kirjauduttava jokaiseen yritykseen ja toistettava tämä prosessi. Vaihtoehtoisesti voit päivittää kirjanpitäjän käyttäjäprofiilin käyttöoikeusryhmät kohteessa [!INCLUDE[prod_short](includes/prod_short.md)], esimerkiksi määrittämällä heille *D365 Bus Premium* -käyttäjäryhmän. Lisätietoja on kohdassa [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md).  
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Rahoitus](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  

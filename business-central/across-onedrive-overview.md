@@ -9,17 +9,17 @@ ms.date: 02/28/2022
 ms.author: jswymer
 ---
 
-# <a name="business-central-and-onedrive-for-business-integration"></a>Business Centralin ja OneDrive for Businessin integrointi
+# <a name="business-central-and-onedrive-for-business-integration"></a><a name="business-central-and-onedrive-for-business-integration"></a>Business Centralin ja OneDrive for Businessin integrointi
 
 OneDrive for Business on pilvitallennuspalvelu, joka sisältyy Microsoft 365:een. [!INCLUDE[prod_short](includes/prod_short.md)]in avulla on helppo tallentaa, hallita ja jakaa tiedostoja muiden ihmisten kanssa OneDriven kautta. Kun tiedosto on OneDrivessa, voit nauttia Microsoft-tuotteiden, kuten Wordin, Excelin ja PowerPointin, online-versioiden monipuolisista yhteiskäyttökokemuksista. Voit esimerkiksi jakaa Word-asiakirjan, jolloin sinä ja työtoverisi voitte muokata sitä yhdessä reaaliaikaisesti. OneDriven avulla voit myös avata muuntyyppisiä tiedostoja, kuten PDF-tiedostoja. 
 
-## <a name="get-started-with-onedrive-features"></a>Aloita OneDrive-ominaisuuksien käyttö
+## <a name="get-started-with-onedrive-features"></a><a name="get-started-with-onedrive-features"></a>Aloita OneDrive-ominaisuuksien käyttö
 
 Jos käytät [!INCLUDE[prod_short](includes/prod_short.md)] onlinea, olemme jo luoneet yhteyden [!INCLUDE[prod_short](includes/prod_short.md)] onlinen ja OneDriven välille, joten on helppo päästä alkuun. Ainoa edellytys on, että käyttäjät ovat avanneet OneDriven ainakin yhden kerran. Paikallisessa [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa järjestelmänvalvojan on määritettävä yhteys, ennen kuin pääset alkuun. Lue lisätietoja kohdasta [OneDriven ja Business Centralin integroinnin hallinta](admin-onedrive-integration.md).
 
 <!-- We've created the connection between [!INCLUDE[prod_short](includes/prod_short.md)] online and OneDrive, so it's easy to get started. The only requirement is that users have opened OneDrive at least one time. -->
 
-### <a name="open-and-share-in-onedrive"></a>Avaa ja jaa OneDrivessä
+### <a name="open-and-share-in-onedrive"></a><a name="open-and-share-in-onedrive"></a>Avaa ja jaa OneDrivessä
 
 Useimmilla sivuilla, joilla on saatavilla tiedostoja, kuten raportin Saapuneet-kansio tai tiedostot, jotka on liitetty tietueisiin, löydät **Avaa OneDrivessa**- ja **Jaa**-toiminnot.
 
@@ -33,7 +33,7 @@ Useimmilla sivuilla, joilla on saatavilla tiedostoja, kuten raportin Saapuneet-k
 |Avaa OneDrivessa|Kopioi tiedosto OneDriven Business Central -kansioon ja avaa tiedosto.|[Avaa OneDrivessa](across-share-onedrive.md#open-in-onedrive) |
 |Osuus|Kopioi tiedosto OneDriveen ja jaa se muiden käyttäjien kanssa.|[Jaa OneDrivessa](across-share-onedrive.md#share) |
 
-### <a name="save-excel-workbooks-and-report-files-in-onedrive"></a>Tallenna Excel-työkirjat ja raporttitiedostot OneDriveen
+### <a name="save-excel-workbooks-and-report-files-in-onedrive"></a><a name="save-excel-workbooks-and-report-files-in-onedrive"></a>Tallenna Excel-työkirjat ja raporttitiedostot OneDriveen
 
 Kun OneDrive-integrointi on määritetty, pari muuta tuttua ominaisuutta käyttää automaattisesti OneDrivea tiedostojen tallentamiseen sen sijaan, että tallentaisi tiedostoja laitteeseen:
 
@@ -55,7 +55,7 @@ The folder and its content are private until you decide to share them with other
 > [!NOTE]
 > Voit myös yhdistää [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -version OneDriveen. On kuitenkin olemassa muutamia asioita, jotta se toimisi. Lisätietoja on kohdassa [Business Central on-premises -version määritys](admin-onedrive-integration-onpremises.md).
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [OneDriven ja Business Centralin integroinnin hallinta](admin-onedrive-integration.md)  
 [Business Central-tiedostojen avaaminen OneDrivessa](across-share-onedrive.md)  

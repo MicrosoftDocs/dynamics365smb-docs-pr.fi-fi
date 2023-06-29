@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605,'
 ---
-# <a name="managing-intercompany-transactions"></a>Konsernitapahtumien hallinta
+# <a name="managing-intercompany-transactions"></a><a name="managing-intercompany-transactions"></a>Konsernitapahtumien hallinta
 
 Yritykset, joissa on useampi kuin yksi oikeushenkilöä erillisillä kirjanpitofunktioilla voivat hyötyä konsernin tapahtumista. Se on hyödyllistä esimerkiksi yrityksille, joilla on tytäryhtiöitä useilla kansainvälisillä markkinoilla tai alueilla. Organisaatio saattaa koostua useasta yrityksestä, mutta siinä ei välttämättä ole samaa määrää laskenta- ja hallintotyöryhmiä. Konsernin tapahtumat yksinkertaistavat ja virtaviivaistavat yritysten välisiä liiketoimintaprosesseja ja -tapahtumia konserniyritysten välisessä kumppanuudessa.
 
@@ -23,7 +23,7 @@ Konsernitoimintoihin liittyy neljä merkittävää etua:
 * Kirjausketju on täydellinen, ja liiketoiminnoilla sekä tapahtumahistorioilla on täysi näkyvyys.  
 * Tapahtumat sisar- ja tytäryhtiöiden kanssa ovat tehokkaita ja kannattavia.  
 
-## <a name="streamline-the-flow-of-business-activities"></a>Liiketoimintojen sujuvuuden parantaminen
+## <a name="streamline-the-flow-of-business-activities"></a><a name="streamline-the-flow-of-business-activities"></a>Liiketoimintojen sujuvuuden parantaminen
 
 Konsernin tapahtumat -toiminto mahdollistaa myynti- ja ostoasiakirjojen sekä yleisen päiväkirjan merkintöjen jakamisen kaikkiin sivutoimistoihin, myyntitoimistoihin tai tytäryrityksiin. Tapahtumien jakelu säästää aikaa ja lisää tehokkuutta koko organisaatiossa vähentämällä tietojen syöttöä. Se vähentää tarvetta lähettää, vastaanottaa, tulostaa ja arkistoida myynti- ja ostoasiakirjoja.  
 
@@ -68,7 +68,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 |Järjestää ja käsitellä konsernikumppanien kanssa vaihdettavat saapuvat ja lähtevät tapahtumat.|[Konsernin Saapuneet- ja Lähtevät-kansion hallinta](intercompany-how-manage-intercompany-inbox.md)|
 |Konserniyritysten välisten tapahtumien avulla voit jakaa kustannuksia kumppaniyritysten kesken.|[Kustannusten kohdistaminen konsernikumppaneille](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Rahoitus](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  

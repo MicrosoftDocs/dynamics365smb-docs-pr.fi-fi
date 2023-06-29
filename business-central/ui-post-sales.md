@@ -11,7 +11,7 @@ ms.search.form: '130, 142, 1350'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="posting-sales"></a>Myynnin kirjaaminen
+# <a name="posting-sales"></a><a name="posting-sales"></a>Myynnin kirjaaminen
 
 Kun valitset myyntiasiakirjan **Kirjaus**-valikon, voit valita seuraavista kirjaustoiminnoista:
 
@@ -37,19 +37,19 @@ Jokaiselle myyntitilausriville luodaan nimiketapahtuma **Nimiketapahtuma**-taulu
 
 Voit kirjata tai kirjata ja lähettää. Jos valitset kirjaamisen ja lähettämisen, ohjelma luo PDF-tiedoston, jonka voit lähettää. **Kirjaa erä** -toiminnolla voit kirjata useita tilauksia samanaikaisesti. Lisätietoja on kohdassa [Useiden asiakirjojen kirjaaminen samanaikaisesti](ui-batch-posting.md).
 
-## <a name="viewing-ledger-entries"></a>Kirjaustapahtuminen katselu
+## <a name="viewing-ledger-entries"></a><a name="viewing-ledger-entries"></a>Kirjaustapahtuminen katselu
 
 Kun kirjaus on päättynyt, kirjatut myyntirivit poistuvat tilauksesta. Viesti kertoo, milloin kirjaus on valmis. Tämän jälkeen voit nähdä kirjatut tapahtumat kirjattuja tapahtumia sisältävillä sivuilla, kuten **Asiakastapahtumat**-, **KP-tapahtumat**-, **Nimiketapahtumat**-, **Kirjatut myyntitoimitukset**- ja**Kirjatut myyntilaskut** -sivuilla.  
 
 Useimmissa tapauksissa voit avata tapahtumat kortista tai asiakirjasta, johon ne vaikuttavat. Valitse esimerkiksi **Asiakaskortti**-sivulla **Tapahtumat**-toiminto.
 
-## <a name="editing-ledger-entries"></a>Kirjaustapahtuminen muokkaus
+## <a name="editing-ledger-entries"></a><a name="editing-ledger-entries"></a>Kirjaustapahtuminen muokkaus
 
 Voit muokata arvoja kirjattujen ostoasiakirjojen tietyissä kentissä, kuten **Paketin seurantanumerossa** -kentässä. Lisätietoja on kohdassa [Kirjattujen asiakirjojen muokkaaminen](across-edit-posted-document.md). Jos sinulla on enemmän kriittisiä kenttiä, jotka vaikuttavat jäljitysketjuun, sinun täytyy peruuttaa tai kumota kirjaus. Lisätietoja on kohdassa [Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Useiden asiakirjojen kirjaaminen samanaikaisesti](ui-batch-posting.md)  

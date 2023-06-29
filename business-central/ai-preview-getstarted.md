@@ -9,13 +9,13 @@ ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
-# <a name="get-started-with-a-business-central-preview-version-for-copilot"></a>Business Centralin Copilot-esiversion käytön aloittaminen
+# <a name="get-started-with-a-business-central-preview-version-for-copilot"></a><a name="get-started-with-a-business-central-preview-version-for-copilot"></a>Business Centralin Copilot-esiversion käytön aloittaminen
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
 Voit kokeilla tekoälypohjaista tuotemarkkinointitekstin luontia Copilotin avulla, olitpa Business Centralin nykyinen tai potentiaalinen asiakas, eli joku, joka on vain kiinnostunut tutustumaan Business Centraliin ja kokeilemaan uutta ominaisuutta. Päästäksesi alkuun tarvitset käyttöoikeuden Business Central Online -versioon, joka tukee uutta ominaisuutta. Täytä alla oleva sinua koskeva osio.
 
-## <a name="your-organization-already-uses-business-central"></a>Organisaatiossa on jo käytössä Business Central
+## <a name="your-organization-already-uses-business-central"></a><a name="your-organization-already-uses-business-central"></a>Organisaatiossa on jo käytössä Business Central
 
 Koska olet aiemmin rekisteröitynyt asiakas tai kumppanimme, tarvitset Business Central -hallintakeskuksen käyttöoikeuden, ja voit määrittää ympäristön, joka suorittaa esikatseluversion, johon kuuluu Copilot. Kun ympäristö on käynnissä, käyttäjät voivat kokeilla uutta ominaisuutta.
 
@@ -39,7 +39,7 @@ Lisätietoja ympäristöjen luomisesta on kohdassa [Ympäristön luominen](/dyna
 > [!IMPORTANT]
 > Jos sinulla on esiversiona eristysympäristöjä, jotka käyttävät **22.0.54157.54311 (Esiversio - Copilot edition)** -ympäristöä, huomaa, että nämä ympäristöt ovat saatavilla vain 1. toukokuuta 2023 saakka. Tämän päivämäärän jälkeen sinun täytyy valmistella uusi ympäristö tai päivittää mitä tahansa muuta ympäristöäsi versioon 22.0 tai uudempaan, jotta voit jatkaa tekoälypohjaisen nimikkeen markkinointitekstin esiversion kokeilua.
 
-## <a name="your-organization-doesnt-use-business-central"></a>Organisaatiossa ei ole käytössä Business Centralia
+## <a name="your-organization-doesnt-use-business-central"></a><a name="your-organization-doesnt-use-business-central"></a>Organisaatiossa ei ole käytössä Business Centralia
 
 Jos et ole Business Central -asiakas, voit rekisteröityä maksuttoman kokeiluversion käyttäjäksi kokeillaksesi tekoälyominaisuuksia. Kirjautuminen kokeiluversioon on helppoa. Sinut ohjataan muutaman vaiheen läpi, joissa sinun täytyy antaa joitakin tietoja, kuten sähköpostiosoite, puhelinnumero ja nimi. Voit saada kokeiluversion käyttöön toimimalla seuraavasti:
 
@@ -95,7 +95,7 @@ Jos et ole Business Central -asiakas, voit rekisteröityä maksuttoman kokeiluve
    > [!TIP]
    > Jos et näe **tarkistuslistaa**, valitse ensin **Näytä esittelykierrokset** -painike.
 
-## <a name="next-steps"></a>Seuraavat vaiheet
+## <a name="next-steps"></a><a name="next-steps"></a>Seuraavat vaiheet
 
 Copilot-ohjelman tarjoamien tekoälyominaisuuksin tulee olla käytössä, ennen kuin sinä tai joku muu voi käyttää Copilot-toimintoa. Jotta järjestelmänvalvoja voi ottaa käyttöön tekoälyominaisuudet, hänen täytyy hyväksyä [esiversion](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) käyttöehdot ja [Microsoftin tietosuojakäytäntöjen ehdot](https://go.microsoft.com/fwlink/?LinkId=521839) organisaation puolesta.
 
@@ -108,7 +108,7 @@ Järjestelmänvalvoja voi hyväksyä kahdella tavalla:
 
 - Toinen tapa on käyttää Business Centralin **Tietosuojailmoitusten tila** -sivua ja hyväksyä **Azure OpenAI** -integrointi kaikille käyttäjille. Lisätietoja on kohdassa [käyttöehtojen hyväksyminen](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Tekoälypohjainen tuotteen markkinointiteksti Copilotin avulla -yleiskatsaus](ai-overview.md)  
 [Nimikkeen tekoälypohjaisen markkinointitekstin määrittäminen Copilotin avulla järjestelmänvalvojana](enable-ai.md)  

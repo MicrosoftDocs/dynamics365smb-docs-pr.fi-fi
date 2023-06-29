@@ -11,13 +11,13 @@ ms.search.form: null
 ms.date: 06/11/2021
 ms.author: edupont
 ---
-# <a name="local-functionality-in-"></a>[!INCLUDE[prod_long](includes/prod_long.md)]in paikalliset toiminnot
+# <a name="local-functionality-in-"></a><a name="local-functionality-in-"></a>[!INCLUDE[prod_long](includes/prod_long.md)]in paikalliset toiminnot
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in yhdistetty lokalisaatiostrategia sisältää sekä Microsoftin että kumppanin vetämät mallit. Tässä osassa on kuvaukset niissä maissa käytettävistä toiminnoista, joissa säädösten noudattaminen ja muut paikalliset toiminnot saadaan Microsoftin avulla.  
 
 Luettelo tällä hetkellä tuetuista markkinoista on kohdassa [Saatavuus maassa/alueella ja tuetut käännökset.](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 
-## <a name="local-functionality"></a>Paikalliset toiminnot
+## <a name="local-functionality"></a><a name="local-functionality"></a>Paikalliset toiminnot
 
 Saat lisätietoja kunkin maan/alueen paikallisista toiminnoista valitsemalla sopivan linkin:
 
@@ -48,11 +48,11 @@ Saat lisätietoja kunkin maan/alueen paikallisista toiminnoista valitsemalla sop
 |        | Intia | [Intian paikalliset toiminnot](LocalFunctionality/India/india-local-functionality.md) |
 |        | Uusi-Seelanti | [Uusi-Seelannin paikalliset toiminnot](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### <a name="other-countries"></a>Muut maat
+### <a name="other-countries"></a><a name="other-countries"></a>Muut maat
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on saatavana myös muilla markkina-alueilla lokalisointisovellusten kautta. Jos Microsoftin kumppani on kehittänyt maassasi/alueellasi käytettävän lokalisointisovelluksen, löydät sen [AppSourcesta](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Yhteensopivuus](compliance/compliance-overview.md)  

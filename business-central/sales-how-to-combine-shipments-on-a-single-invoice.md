@@ -10,13 +10,13 @@ ms.search.keywords: null
 ms.date: 12/16/2021
 ms.author: edupont
 ---
-# <a name="combine-shipments-on-a-single-invoice"></a>Toimitusten yhdistäminen yhteen laskuun
+# <a name="combine-shipments-on-a-single-invoice"></a><a name="combine-shipments-on-a-single-invoice"></a>Toimitusten yhdistäminen yhteen laskuun
 
 Jos haluat laskuttaa useamman kuin yhden toimituksen kerralla, voit käyttää koontilasku-ominaisuutta.  
 
 Ennen kuin koontilaskun voi luoda, samalle asiakkaalle täytyy kirjata useita myyntitoimituksia samassa valuutassa. Toimintoa voi siis käyttää, kun vähintään kaksi myyntitilausta luodaan ja kirjataan toimitetuiksi, mutta ei laskutetuiksi. 
 
-## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Yhdistä manuaalisesti toimitukset yhteen laskuun
+## <a name="to-manually-combine-shipments-on-a-single-invoice"></a><a name="to-manually-combine-shipments-on-a-single-invoice"></a>Yhdistä manuaalisesti toimitukset yhteen laskuun
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntilaskut** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto. Lisätietoja on kohdassa [Myynnin laskutus](sales-how-invoice-sales.md).
@@ -33,7 +33,7 @@ Ennen kuin koontilaskun voi luoda, samalle asiakkaalle täytyy kirjata useita my
 > [!TIP]  
 > Jos olet toimittanut tilauksia, joissa **tilausasiakkaan nro** on eri kuin **Laskutus asiakkaan nro**, näitä rivejä ei näytetä **Hae toimitusrivit** -raportissa. Lisää **Tilausasiakas**-kenttä sivulle räätälöinnin avulla ja poista suodatin. Nyt voit lisätä toimitusrivejä laskuun riippumatta **tilausasiakkaan nro** -kentän arvosta niin kauan kuin **Laskutus asiakkaan nro** toimitusrivit vastaavat myyntilaskun arvoa.  
 
-## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Yhdistä automaattisesti toimitukset yhteen laskuun
+## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a><a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Yhdistä automaattisesti toimitukset yhteen laskuun
 
 [!INCLUDE[prod_short](includes/prod_short.md)] valitsee vain ne myyntitilaukset, joissa on valittu **koontilasku**. 
 
@@ -45,7 +45,7 @@ Ennen kuin koontilaskun voi luoda, samalle asiakkaalle täytyy kirjata useita my
 > [!NOTE]  
 >  Huomaa, että laskut on kirjattava manuaalisesti, jos eräajon **Kirjaa laskut** -valintaruutua ei ole valittu.  
 
-## <a name="to-remove-open-sales-orders-after-combined-shipment-posting"></a>Avoimen myyntitilauksen poistaminen koontilaskun kirjauksen jälkeen
+## <a name="to-remove-open-sales-orders-after-combined-shipment-posting"></a><a name="to-remove-open-sales-orders-after-combined-shipment-posting"></a>Avoimen myyntitilauksen poistaminen koontilaskun kirjauksen jälkeen
 
 Kun koontilasku on tehty ja kirjattu, laskutetuille riveille luodaan kirjattu myyntilasku. Alkuperäisen puitemyyntitilauksen tai myyntitilauksen **Laskutettu määrä** -kenttä päivitetään laskutetun määrän perusteella.  
 
@@ -59,9 +59,9 @@ Voit myös poistaa manuaalisesti yksittäiset myyntitilaukset.
 
 Toista vaiheet 1–3 muissa käsiteltävissä asiakirjoissa, kuten puitemyyntitilauksissa.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/invoicing-customers-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/invoicing-customers-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

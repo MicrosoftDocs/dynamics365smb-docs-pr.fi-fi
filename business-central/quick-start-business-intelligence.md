@@ -17,11 +17,11 @@ ms.contentlocale: fi-FI
 ms.lasthandoff: 09/23/2022
 ms.locfileid: "9586043"
 ---
-# <a name="business-intelligence-quick-start"></a><a name="business-intelligence-quick-start"></a>Business Intelligencen pika-aloitus
+# <a name="business-intelligence-quick-start"></a><a name="business-intelligence-quick-start"></a><a name="business-intelligence-quick-start"></a>Business Intelligencen pika-aloitus
 
 Kyky kerätä ja analysoida yhä kasvavia tietomääriä toimivalla tavalla on arvokas osa liiketoimintaa näinä päivinä. [!INCLUDE[prod_short](includes/prod_short.md)] tarjoaa monia Business Intelligence (BI)-työkaluja&mdash;sekä sisäänrakennettuja että integroituja muihin palveluihin&mdash;jotka auttavat yritystä päätöksenteossa.
 
-## <a name="get-insights-on-your-key-points-of-interest"></a><a name="get-insights-on-your-key-points-of-interest"></a>Hae näkemyksiä keskeisistä kiinnostuksenkohteista
+## <a name="get-insights-on-your-key-points-of-interest"></a><a name="get-insights-on-your-key-points-of-interest"></a><a name="get-insights-on-your-key-points-of-interest"></a>Hae näkemyksiä keskeisistä kiinnostuksenkohteista
 
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää sisäänrakennettuja kaavioita, jotka voi näyttää kotisivusi **merkitykselliset tiedot** -osassa, joka kattaa *tuotot & kulut*, *kassavirran*, *myynnin trendit* ja muut raportit. Löydät lisää suorituskykyilmaisimia **Älykkään pilven tiedot** -sivulta, jossa on rahoitukselle, varastolle, myynnille ja hankinnalle hyödyllisiä tietoja:
 
@@ -29,7 +29,7 @@ Kyky kerätä ja analysoida yhä kasvavia tietomääriä toimivalla tavalla on a
 
 Käytettävissä olevat tietokortit ja merkitykselliset tiedot voidaan valita niin, että niihin liittyvät kirjanpitosivut avautuvat. **Älykkään pilven tiedot** -sivulla on myös yhteys olemassa oleviin Power BI ja Azure Machine Learning -tilauksiin, joissa näkyy analyysi- ja ennustekoontinäytöt.
 
-## <a name="set-up-power-bi-integration"></a><a name="set-up-power-bi-integration"></a>Power BI -integraation määrittäminen
+## <a name="set-up-power-bi-integration"></a><a name="set-up-power-bi-integration"></a><a name="set-up-power-bi-integration"></a>Power BI -integraation määrittäminen
 
 Yhdistämällä [!INCLUDE[prod_short](includes/prod_short.md)]- ja Power BI -palvelut yhdistämällä voit luoda läpäiseviä raportteja ja tehokkaita koontinäyttöjä. Power BI -integrointi tarjoaa useita vaihtoehtoja, joiden avulla voit määrittää yrityksesi tietoihin perustuvia merkityksellisiä tietoja, kuten laajan valikoiman visualisointeja, suodatuksia ja näyttömukautuksia.
 
@@ -45,9 +45,9 @@ Power BI:n ja [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen integr
 
 Voit myös luoda visuaalisia raportteja, jotka perustuvat [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan käyttämällä **Microsoft Excel -asiakirjojen (vain tiedot)** -raporttipyyntösivujen tiedostotyyppivaihtoehtoa. Lisätietoja on kohdassa [Suorita ja tulosta raportteja](ui-work-report.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/use-power-bi).
+## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/use-power-bi).
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Liiketoiminnan analyysit ja Financial Reporting](bi.md)  
 [Business Centralin pika-aloitus](quick-start-business-central.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: 'exchange data, external files, electronic documents, AMC Ba
 ms.date: 06/10/2021
 ms.author: edupont
 ---
-# <a name="exchanging-data"></a>Tietojen vaihtaminen
+# <a name="exchanging-data"></a><a name="exchanging-data"></a>Tietojen vaihtaminen
 [!INCLUDE[prod_short](includes/prod_short.md)] -järjestelmä on määritetty vaihtamaan tietoja ulkoisten tiedostojen tai virtojen kanssa, jotka on liitetty yleisiin liiketoimintatehtäviin, kuten sähköisten asiakirjojen lähettämiseen ja vastaanottamiseen sekä pankkitiedostojen tuontiin ja vientiin.  
 
 Ennen kuin voit lähettää ja vastaanottaa sähköisiä asiakirjoja tai tuoda ja viedä pankkitiedostoja, sinun on määritettävä tiedonsiirtokehys datatiedostojen tai virtojen käsittelemistä varten. Lisäksi sinun on määritettävä liittyvät alueet, kuten asiakkaat, joille lähetät sähköiset laskut, ja AMC Banking 365 Fundamentals -laajennuksen, jos jaat pankkitiedostojen muuntamisen ulkoiselle palvelutarjoajalle. Lisätietoja on kohdassa [Tiedonsiirron määrittäminen](across-set-up-data-exchange.md).  
@@ -31,7 +31,7 @@ Ennen kuin voit lähettää ja vastaanottaa sähköisiä asiakirjoja tai tuoda j
 |Vie tiedot [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa Intrastat-raportointia varten.|[Intrastat-raportoinnin määrittäminen](finance-how-setup-report-intrastat.md)|
 |Tarkastele, mitkä tiedostoelementit on yhdistetty [!INCLUDE[prod_short](includes/prod_short.md)]in kenttiin, kun viet maksutiedostoja käyttämällä AMC Banking 365 Fundamentals -laajennusta.|[Kenttien yhdistäminen, kun maksutiedostoja viedään AMC Banking 365 Fundamentals -laajennuksen avulla](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a>Katso myös
 [Tiedonsiirron määrittäminen](across-set-up-data-exchange.md)  
 [Sähköinen tiedonsiirto](across-data-exchange.md)  
 [Myynnin laskutus](sales-how-invoice-sales.md)   

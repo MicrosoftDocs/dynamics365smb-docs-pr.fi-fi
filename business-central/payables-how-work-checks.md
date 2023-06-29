@@ -11,7 +11,7 @@ ms.search.form: '256, 404,'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="make-check-payments"></a>Sekkimaksujen suorittaminen
+# <a name="make-check-payments"></a><a name="make-check-payments"></a>Sekkimaksujen suorittaminen
 
 Voit myöntää sähköisiä ja manuaalisia sekkejä [!INCLUDE[prod_short](includes/prod_short.md)]issa. Molemmissa menetelmissä sekit myönnetään toimittajille maksupäiväkirjaa käyttäen. Ohjelman avulla voit myös mitätöidä sekkejä ja tarkastella sekkitapahtumia.
 
@@ -30,7 +30,7 @@ Voit maksaa kahdella eri tyyppisellä sekillä. Molemmissa tyypeissä **Vastatil
 
 Voit tulostaa sivulle enintään 10 laskua sekin talonkia kohti. Jos sekki koskee yli 10 laskua, sekki mitätöidään talongin tulostuksen yhteydessä ensimmäisellä sivulla ja sekkiin tulostetaan sana MITÄTÖITY. Tämän jälkeen toiselle sivulle tulostetaan loput laskut ja sekin kokonaissumma.
 
-## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Maksaaksesi toimittajalaskun tietokonesekillä
+## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a><a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Maksaaksesi toimittajalaskun tietokonesekillä
 
 Seuraavassa kuvataan, miten toimittajalle maksetaan sekillä. Vaiheet ovat samankaltaiset kuin hyvitettäessä asiakkaalle sekkimaksuna.
 
@@ -50,13 +50,13 @@ Täysin kohdistetut toimittajatapahtumat ja pankkitilitapahtumat luodaan.
 > [!NOTE]  
 > Jos sekkejä täytyy tulostaa ja maksaa monessa valuutassa eri pankkitileiltä, sinun täytyy suorittaa **Tulosta sekki** -eräajo erikseen kullekin valuutalle ja määrittää sopivat pankkitilit.
 
-## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Kirjaamattomien ja tulostettujen sekkien peruuttaminen
+## <a name="to-cancel-printed-checks-that-are-not-posted"></a><a name="to-cancel-printed-checks-that-are-not-posted"></a>Kirjaamattomien ja tulostettujen sekkien peruuttaminen
 
 Voit peruuttaa kirjaamattomat sekit niiden tulostamisen jälkeen **Maksupäiväkirja**-sivun **Mitätöi sekki** -toiminnon avulla.
 
 1. Valitse **Maksupäiväkirja**-sivulla **Mitätöi sekki** ja valitse peruutettavat sekit.
 
-## <a name="to-void-checks"></a>Sekkien mitätöiminen
+## <a name="to-void-checks"></a><a name="to-void-checks"></a>Sekkien mitätöiminen
 
 Kun sekkimaksu on kirjattu, voit peruuttaa (mitätöidä) sekit vain tuloksena syntyvistä pankkitapahtumista.
 
@@ -69,15 +69,15 @@ Kun sekkimaksu on kirjattu, voit peruuttaa (mitätöidä) sekit vain tuloksena s
 4. Valitse **Mitätöi vain sekki** -valintaruutu.
 5. Valitse **OK**-painike.
 
-## <a name="to-view-a-summary-of-posted-checks"></a>Voit tarkastella kirjattujen sekkien yhteenvetoa
+## <a name="to-view-a-summary-of-posted-checks"></a><a name="to-view-a-summary-of-posted-checks"></a>Voit tarkastella kirjattujen sekkien yhteenvetoa
 
 Jos haluat tarkistaa kirjatuttuja sekkejä, esimerkiksi yhdelle toimittajalle maksetut useat sekit, voit käyttää **Pankkitili – sekin tiedot** -raporttia.
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitili - sekin tiedot** ja valitse sitten vastaava linkki.
 2. Aseta haluamasi suodattimet ja valitse sitten **Esikatselu**-painike.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-checks-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-checks-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Maksujen suorittaminen](payables-make-payments.md)  
 [Ostovelkojen hallinta](payables-manage-payables.md)  

@@ -11,18 +11,18 @@ ms.search.form: '1231, 1232, 1233, 1234'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="export-a-positive-pay-file"></a>Positive Pay -tiedoston vienti
+# <a name="export-a-positive-pay-file"></a><a name="export-a-positive-pay-file"></a>Positive Pay -tiedoston vienti
 Kun viet toimittajan tiedot, sekin numeron ja maksun summan sisältävän Positive Pay -tiedoston, jonka sitten lähetät viitetiedoiksi pankkiin maksuja käsitellessäsi, voit varmistaa, että pankki vahvistaa vain tarkistetut sekit ja summat.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on määritetty tukemaan Bank of American ja City Bankin Positive Pay -tiedostoja.
 
-## <a name="to-set-up-a-bank-account-for-positive-pay"></a>Positive Pay -pankkitilin määrittäminen
+## <a name="to-set-up-a-bank-account-for-positive-pay"></a><a name="to-set-up-a-bank-account-for-positive-pay"></a>Positive Pay -pankkitilin määrittäminen
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten vastaava linkki.
 2. Avaa sen pankin kortti, jossa haluat käyttää Positive Pay -toimintoa.
 3. Kirjoita **Positive Pay -vientikoodi** -kenttään POSPAYBANK.
 4. Sulje sivu.
 
-## <a name="to-export-a-positive-pay-file"></a>Positive Pay -tiedoston vienti
+## <a name="to-export-a-positive-pay-file"></a><a name="to-export-a-positive-pay-file"></a>Positive Pay -tiedoston vienti
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten vastaava linkki.
 2. Valitse pankkitili, johon haluat viedä Positive Pay -tiedoston.
 3. Valitse **Positive Pay, vienti** -toiminto.
@@ -52,7 +52,7 @@ Positive Pay -tiedostojen uudelleenvienti
 4. Valitse uudelleenvietävä Positive Pay -vientitiedoston rivi.
 5. Valitse **Positive Pay -tapahtumat** -sivulla **Vie Positive Pay -maksu uudelleen tiedostoon** -toiminto.
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a>Katso myös
 [Rahoitus](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  

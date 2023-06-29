@@ -11,7 +11,7 @@ ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="receive-and-convert-electronic-documents"></a>Sähköisten asiakirjojen vastaanottaminen ja muuntaminen
+# <a name="receive-and-convert-electronic-documents"></a><a name="receive-and-convert-electronic-documents"></a>Sähköisten asiakirjojen vastaanottaminen ja muuntaminen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman yleinen versio tukee sähköisten laskujen ja hyvityslaskujen vastaanottamista PEPPOL-muodossa. Suurimmat document exchange -palveluiden tarjoajat tukevat tätä muotoa. Jotta voisit saada laskun toimittajalta sähköisenä PEPPOL-asiakirjana, asiakirja on muunnettava Saapuvat asiakirjat -sivulla [!INCLUDE[prod_short](includes/prod_short.md)]in ostolaskuksi tai päiväkirjan riviksi.
 
@@ -34,7 +34,7 @@ Sähköisten asiakirjojen muuntaminen voit käynnistää joko manuaalisesti täs
 
 Seuraavassa kuvataan, miten toimittajan lasku vastaanotetaan ja muunnetaan ostolaskuksi [!INCLUDE[prod_short](includes/prod_short.md)]:ssa. Menettely on sama, kun muunnat toimittajalaskun päiväkirjan riville.  
 
-### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Sähköisen laskun vastaanottaminen ja muuntaminen ostolaskuksi
+### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a><a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Sähköisen laskun vastaanottaminen ja muuntaminen ostolaskuksi
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Saapuvat asiakirjat** ja valitse sitten vastaava linkki.  
 
@@ -52,9 +52,9 @@ Seuraavassa kuvataan, miten toimittajan lasku vastaanotetaan ja muunnetaan ostol
 
     Yleensä vääriin tai puuttuviin perustietoihin liittyvät virheet näkyvät [!INCLUDE[prod_short](includes/prod_short.md)]in **Virhesanomat**-pikalomakkeessa.  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Saapuvat asiakirjat](across-income-documents.md)  

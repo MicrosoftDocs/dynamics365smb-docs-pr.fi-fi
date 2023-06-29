@@ -10,7 +10,7 @@ ms.search.form: 5841
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="update-standard-costs"></a>Vakiokustannusten päivittäminen
+# <a name="update-standard-costs"></a><a name="update-standard-costs"></a>Vakiokustannusten päivittäminen
 Komponenttien vakiokustannukset on päivitettävä säännöllisesti ja uudet kustannukset on vyörytettävä päänimikkeelle. Prosessi sisältää yleensä seuraavat neljä vaihetta:  
 
 1.  Päivitä kustannukset osa- ja kapasiteettitasolla. Lisätietoja on kohdassa **Ehdota nimikkeen vakiokust.** -eräajo.  
@@ -20,7 +20,7 @@ Komponenttien vakiokustannukset on päivitettävä säännöllisesti ja uudet ku
 
 Lisätietoja on kohdassa [Tietoja vakiokustannusten laskennasta](finance-about-calculating-standard-cost.md).
   
-## <a name="to-update-standard-costs"></a>Vakiokustannusten päivittäminen
+## <a name="to-update-standard-costs"></a><a name="to-update-standard-costs"></a>Vakiokustannusten päivittäminen
 
 1.  Suorita **Muuta kustannuksia - Nimiketapahtumat** -eräajo.  
 2.  Suorita **Kirjaa varaston kust. KP:oon** -eräajo.  
@@ -35,7 +35,7 @@ Lisätietoja on kohdassa [Tietoja vakiokustannusten laskennasta](finance-about-c
     7.  Suorita **Ota käyttöön vakiokustannusten muutokset** -eräajo.  
 4.  Tarkasta ja kirjaa **Uudelleenarvostus pvk** -sivu, jonka tapahtumat on täytetty tämän prosessin aiemmissa vaiheissa.  
 
-## <a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a>Katso myös
 
  [Tietoja standardikustannuksen laskemisesta](finance-about-calculating-standard-cost.md)   
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)   
