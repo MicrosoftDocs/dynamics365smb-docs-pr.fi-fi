@@ -1,5 +1,6 @@
 
-# [Tervetuloa Business Centraliin](index.md)
+# [Business Central -ohjeet](index.yml)
+# [Tervetuloa Business Centraliin](welcome.md)
 # [Uusia ja suunniteltuja ominaisuuksia](product-news.md)
 # Aloitus
 ## [Yleiskatsaus yrityksen toiminnoista](across-business-functionality.md)
@@ -157,6 +158,7 @@
 ### [Siirtyminen toiseen yritykseen tai ympäristöön](ui-organization-switch.md)
 ### [Ilmoitusten hallinta](ui-smart-notifications.md)
 ### [Suorituskykyä lisääviä vihjeitä yrityskäyttäjille](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
+### [Suorituskyvyn analysoiminen](/dynamics365/business-central/dev-itpro/administration/performance-profiler-overview?toc=/dynamics365/business-central/toc.json)
 ### [Varoitukset ja virhesanomat](product-error-messages.md)
 ### Business Centralin mukauttaminen
 #### [Oman työtilan mukauttaminen](ui-personalization-user.md)
@@ -646,8 +648,8 @@
 ### [Kapasiteettien kirjaaminen](production-how-to-post-capacities.md)
 ### [Tietoja valmiin tuotantotilauksen kustannuksista](finance-about-finished-production-order-costs.md)
 
-## Warehouse Management
-### [Warehouse Managementin yleiskatsaus](design-details-warehouse-management.md)
+## Varastoinninhallinta
+### [Varastoinninhallinnan yleiskatsaus](design-details-warehouse-management.md)
 <!-- ### [Warehouse Management](warehouse-manage-warehouse.md) -->
 ### [Varaston ja fyysisen varaston raportit](inventory-WMS-reports.md)
 
@@ -996,6 +998,7 @@
 ### Intia
 #### [Yleiskatsaus](LocalFunctionality/India/india-local-functionality.md)
 #### [Numerosarjojen kirjaamisen määrittäminen](LocalFunctionality/India/posting-no-series-setup.md)
+#### [Intian kirjanpito-ohjelmiston kirjausketju ja muokkauslokit](LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software.md)
 #### Veromoduuli
 ##### [Yleiskatsaus](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Veromoduulin tuonnin ja viennin määritys](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
@@ -1576,9 +1579,9 @@
 #### [Käyttäjäkohtaisten poistomenetelmien määrittäminen](fa-how-setup-user-defined-depreciation-method.md)
 #### [Käyttöomaisuuden vakuutuksen määrittäminen](fa-how-setup-insurance.md)
 #### [Käyttöomaisuuden kunnossapidon määrittäminen](fa-how-setup-maintenance.md)
-### Warehouse Managementin määrittäminen
+### Varastoinninhallinnan määrittäminen
 #### [Fyysisten varastojen määrittäminen](warehouse-setup-warehouse.md)
-#### [Warehouse Managementin yleiskatsaus](design-details-warehouse-management.md)
+#### [Varastoinninhallinnan yleiskatsaus](design-details-warehouse-management.md)
 #### [Varastopaikkatyyppien määrittäminen](warehouse-how-to-set-up-bin-types.md)
 #### [Varastopaikkojen luominen](warehouse-how-to-create-individual-bins.md)
 #### [Varastopaikkojen sisällön luominen](warehouse-how-to-set-up-bin-contents.md)
@@ -1842,8 +1845,9 @@
 ## [Kehittämisen ja hallinnan dokumentaation käytön aloittaminen](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
 ## Business Centralin hallintatehtävät
 ### [Hallintatehtävät](admin-setup-and-administration.md)
-### Business Centraliin pääsyn hallinta
+### Business Centralin käyttöoikeuksien hallinta
 #### [Yleiskatsaus](admin-access-overview.md)
+#### [Business Centralin käyttöoikeuden hallinta käyttöoikeusryhmien avulla](ui-security-groups.md)
 #### Käyttö Microsoft 365 -käyttöoikeuksien avulla
 ##### [Yleiskatsaus](admin-access-with-m365-license.md)
 ##### [Microsoft 365 -käyttöoikeuksien avulla tapahtuvan käytön määrittäminen](admin-access-with-m365-license-setup.md)
