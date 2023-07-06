@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: bholtorf
 ---
-# <a name="troubleshooting-synchronization-errors"></a><a name="troubleshooting-synchronization-errors"></a>Synkronointivirheiden vianmääritys
+# <a name="troubleshooting-synchronization-errors"></a><a name="troubleshooting-synchronization-errors"></a><a name="troubleshooting-synchronization-errors"></a>Synkronointivirheiden vianmääritys
 
 
 Sovellusten [!INCLUDE[prod_short](includes/prod_short.md)] ja [!INCLUDE[prod_short](includes/cds_long_md.md)] integrointi sisältää useita vaiheita, ja joskus tapahtuu virheitä. Tässä ohjeaiheessa kerrotaan yleisimpiä virheitä ja annetaan vinkkejä niiden korjaamiseen.
@@ -32,7 +32,7 @@ Seuraavat Integroinnin synkronointivirheet -sivun työkalut auttavat ratkaisemaa
 * **Poista yli 7 päivää vanhat tapahtumat**- ja **Poista kaikki tapahtumat** -toiminnot tyhjentävät luettelon. Näitä toimintoja käytetään yleensä sen jälkeen, kun useisiin tietueisiin vaikuttavan virheen syy on selvitetty. Mieti kuitenkin tarkasti, kun teet sen. Nämä toiminnot saattavat poistaa virheitä, jotka vielä vaikuttavat toimintaan.
 * **Näytä virheen kutsupino** -toiminto näyttää tiedot, jotka voivat auttaa tunnistamaan virheen syyn. Jos virhettä ei voi ratkaista itse ja päätät lähettää tukipyynnön, sisällytä tiedot tukipyyntöön.
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 [Integrointi Microsoft Dataversein kanssa](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Microsoft Dataverse -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md)  
 [Yhteyden määrittäminen Microsoft Dataverse -sovellukseen](admin-how-to-set-up-a-dynamics-crm-connection.md)  

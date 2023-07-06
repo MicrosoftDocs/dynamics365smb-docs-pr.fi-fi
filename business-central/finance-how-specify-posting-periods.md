@@ -12,11 +12,11 @@ ms.search.form: 118
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="specify-posting-periods"></a><a name="specify-posting-periods"></a>Kirjausjaksojen määrittäminen
+# <a name="specify-posting-periods"></a><a name="specify-posting-periods"></a><a name="specify-posting-periods"></a>Kirjausjaksojen määrittäminen
 
 Voit määrittää kirjausjaksojen avulla, milloin käyttäjät voivat tehdä kirjauksia pääkirjanpitoon.  
 
-## <a name="to-specify-posting-periods"></a><a name="to-specify-posting-periods"></a>Kirjausjaksojen määrittäminen
+## <a name="to-specify-posting-periods"></a><a name="to-specify-posting-periods"></a><a name="to-specify-posting-periods"></a>Kirjausjaksojen määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** ja valitse sitten vastaava linkki.  
 2. Määritä jakso **Pääkirjanpidon asetukset** -sivulla antamalla päivämäärät **Ensimm. sallittu kirjauspvm**- ja **Viimeinen sallittu kirjauspvm** -kenttiin.  
@@ -24,7 +24,7 @@ Voit määrittää kirjausjaksojen avulla, milloin käyttäjät voivat tehdä ki
 > [!NOTE]  
 > Nämä kirjausjaksot koskevat yritystä ja kaikki käyttäjiä. Voit sallia poikkeukset määrittämällä eri kirjausjaksot tietyille käyttäjille **Käyttäjäasetukset**-sivulla. Nämä kirjausjaksot ohittavat **Pääkirjanpidon asetukset** -sivulla määritetyt jaksot. Lisätietoja on kohdassa [Käyttäjien aikarajoitteiden määrittäminen](ui-define-granular-permissions.md#to-set-up-time-constraints-for-users).
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Rahoitus](finance.md)  
 [Kauden lopun prosessien viimeisteleminen](year-how-complete-period-end-processes.md)  

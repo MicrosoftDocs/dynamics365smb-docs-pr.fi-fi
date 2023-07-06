@@ -10,7 +10,7 @@ ms.search.form: '507, 509, 6620, 6622, 6623, 9303, 9310'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a><a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Puiteostotilausten tai ostotilausten käsitteleminen
+# <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a><a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a><a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Puiteostotilausten tai ostotilausten käsitteleminen
 
 Puitemyyntitilaus kuvastaa yrityksesi ja asiakkaan välisen pitkäaikaisen sopimuksen runkoa. Puiteostotilauksia käytetään myös pitkäaikaisten sopimusten hallintaan asiakkaan ja toimittajan välillä.
 
@@ -23,7 +23,7 @@ Esimerkki puitetilauksen käytöstä: Asiakas soittaa ja tilaa nimikettä 1 000 
 > [!NOTE]
 > Puiteostotilaukset toimivat samoin kuin puitemyyntitilaukset. Nämä ohjeet koskevat vain puitemyyntitilauksia.
 
-## <a name="to-create-a-blanket-sales-order"></a><a name="to-create-a-blanket-sales-order"></a>Uuden puitemyyntitilauksen luominen
+## <a name="to-create-a-blanket-sales-order"></a><a name="to-create-a-blanket-sales-order"></a><a name="to-create-a-blanket-sales-order"></a>Uuden puitemyyntitilauksen luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Puitemyyntitilaukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
@@ -31,7 +31,7 @@ Esimerkki puitetilauksen käytöstä: Asiakas soittaa ja tilaa nimikettä 1 000 
 4. Jätä **Tilauspvm**-kenttä tyhjäksi. Kun puitetilauksesta luodaan erillisiä myyntitilauksia, ohjelma määrittää myyntitilauksen tilauspäivämääräksi todellisen käsittelypäivämäärän.
 5. Luo **Rivit**-pikavälilehdessä erilliset rivit jokaista toimitusta varten. Jos asiakas haluaa esim. 1 000 yksikköä niin, että ne on jaettu tasaisesti neljälle viikolle, sinun on syötettävä neljä erillistä riviä, joilla jokaisella on 250 yksikköä.  
 
-## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a><a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Myyntitilauksen luominen puitemyyntitilauksesta
+## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a><a name="to-create-a-sales-order-from-a-blanket-sales-order"></a><a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Myyntitilauksen luominen puitemyyntitilauksesta
 
 1. Voit luoda tilauksen mille tahansa puitemyyntitilauksen riveille poistamalla kaikkien niiden rivien **Toimitettava määrä** -kentän määrä, joita et halua toimittaa tällä kertaa.  
 2. Kun olet valmis luomaan tilauksia, valitse ensin **Tee tilaus** -toiminto ja sitten **Kyllä**. Näyttöön tulee sanoma, jossa kerrotaan puitetilauksen määrityksestä tilausnumeroon. Huomaa, että puitetilausta ei ole poistettu.  
@@ -50,7 +50,7 @@ Seuraava koskee myyntitilauksia sen jälkeen, kun ne on luotu puitemyyntitilauks
 - Laskutettu puitemyyntitilaus säilytetään järjestelmässä, kunnes se poistetaan yksittäisiä puitemyyntitilauksia poistettaessa tai suoritettaessa **Poista virheelliset puitemyyntitilaukset** -eräajo.  
 - Jos asiakas on tallennettu myös kontaktina Markkinointi-kohdistusalueeseen ja jos olet määrittänyt puitemyyntitilauksille vuorovaikutusmallin koodin **Kontaktienhallinnan asetukset** -sivulla, ohjelma tallentaa vuorovaikutuksen automaattisesti, kun tulostat puitemyyntitilauksen valitsemalla Vuorovaikutuslokin tapahtuma -taulukossa **Tulosta**.
 
-## <a name="to-view-the-status-of-a-blanket-sales-order"></a><a name="to-view-the-status-of-a-blanket-sales-order"></a>Puitemyyntitilauksen tilan katsominen
+## <a name="to-view-the-status-of-a-blanket-sales-order"></a><a name="to-view-the-status-of-a-blanket-sales-order"></a><a name="to-view-the-status-of-a-blanket-sales-order"></a>Puitemyyntitilauksen tilan katsominen
 
 Voit nähdä puitemyyntitilauksen tilan **Puitemyyntitilauksen tilastot** -sivulla. Tällä voi olla merkitystä, kun aletaan laskuttaa tilausta, joka luotiin puitemyyntitilauksesta.  
 
@@ -63,7 +63,7 @@ Voit nähdä puitemyyntitilauksen tilan **Puitemyyntitilauksen tilastot** -sivul
 - **Ennakkomaksu**-pikavälilehdessä voit tarkastella yhteenvetotietoja mahdollisista ennakkoon maksetuista summista.  
 - **Toimittaja**-pikavälilehdessä voit tarkastella toimittajaa koskevia perustietoja.
 
-## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a><a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Kirjaamattomien ja kirjattujen puitemyyntitilausrivien näyttäminen
+## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a><a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a><a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Kirjaamattomien ja kirjattujen puitemyyntitilausrivien näyttäminen
 
 Linkki puitemyyntitilauksen ja alkuperäisen myyntiasiakirjan, sekä kaikkien muiden myyntiasiakirjojen välillä säilytetään kirjaamisen jälkeen luettelona kirjatuista ja kirjaamattomista myyntitilauksen laskuriveistä.  
 
@@ -89,9 +89,9 @@ Linkki puitemyyntitilauksen ja alkuperäisen myyntiasiakirjan, sekä kaikkien mu
 
 5. Näytä tapahtuma valitsemalla **Näytä asiakirja** -toiminto **Myyntirivit**-sivulla.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Puitekokoonpanotilausten luominen](assembly-how-to-create-blanket-assembly-orders.md)  

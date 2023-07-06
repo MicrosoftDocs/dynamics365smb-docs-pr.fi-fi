@@ -10,20 +10,20 @@ ms.search.keywords: 'design, general journal, posting, codeunit 12'
 ms.date: 06/14/2021
 ms.author: edupont
 ---
-# <a name="design-details-general-journal-post-line"></a><a name="design-details-general-journal-post-line"></a>Rakenteen tiedot: Yleisen päiväkirjan kirjausrivi
+# <a name="design-details-general-journal-post-line"></a><a name="design-details-general-journal-post-line"></a><a name="design-details-general-journal-post-line"></a>Rakenteen tiedot: Yleisen päiväkirjan kirjausrivi
 
 Tässä dokumentaatiossa on yksityiskohtaisia teknisiä tietoja [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman yleisen päiväkirjan kirjausriviominaisuuden uudelleenmäärityksessä käytetyistä käsitteistä ja periaatteista. Uudelleensuunnittelu teki codeunit 12:sta yksinkertaisemman ja ylläpidettävämmän. Dokumentointi alkaa kuvailemalla uudelleensuunnittelun käsitteelliset yhteenvedot. Tämän jälkeen kerrotaan teknisestä arkkitehtuurista ja näytetään muutokset, jotka uudelleensuunnittelu aiheuttaa.  
 
 > [!IMPORTANT]
 > Tämän osan tiedot koskevat tuotteen aiemman version, Microsoft Dynamics NAV 2013 R2:n, uudelleensuunnittelua.
 
-## <a name="in-this-section"></a><a name="in-this-section"></a>Tämän osan sisältö
+## <a name="in-this-section"></a><a name="in-this-section"></a><a name="in-this-section"></a>Tämän osan sisältö
 
 [Yleisen päiväkirjan kirjausrivin yleiskuva](design-details-general-journal-post-line-overview.md)  
 [Rakenteen tiedot: Kirjausliittymän rakenne](design-details-posting-interface-structure.md)  
 [Rakenteen tiedot: Kirjausohjelman rakenne](design-details-posting-engine-structure.md)  
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)
 [Rakenteen tiedot: Yleisen päiväkirjan kirjausrivi (Dynamics NAV)](/dynamics-nav-app/design-details-general-journal-post-line)  

@@ -17,11 +17,11 @@ ms.contentlocale: fi-FI
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8523239"
 ---
-# <a name="auditing-changes-in-business-central"></a><a name="auditing-changes-in-business-central"></a><a name="auditing-changes-in-business-central"></a>Business Centralin tilintarkastuksen muutokset
+# <a name="auditing-changes-in-business-central"></a><a name="auditing-changes-in-business-central"></a><a name="auditing-changes-in-business-central"></a><a name="auditing-changes-in-business-central"></a>Business Centralin tilintarkastuksen muutokset
 
 Monien liikkeenjohtosovellusten yhteisenä haasteena on välttää ei-toivottuja muutoksia tiedoissa. Kyseessä voi olla mikä tahansa väärästä asiakkaan puhelinnumerosta väärään pääkirjanpitokirjaukseen. Tässä ohjeaiheessa kuvataan, miten voidaan selvittää, mitä muutoksia on tehty, kuka sen muutoksen teki ja milloin se tehtiin.
 
-## <a name="about-the-change-log"></a><a name="about-the-change-log"></a><a name="about-the-change-log"></a>Muutoslokista
+## <a name="about-the-change-log"></a><a name="about-the-change-log"></a><a name="about-the-change-log"></a><a name="about-the-change-log"></a>Muutoslokista
 
 Voit seurata muutoslokiin avulla kaikkia suoria muutoksia, joita käyttäjä tekee tietokannan tietoihin. Jokainen taulukko ja kenttä voidaan haluttaessa määrittää erikseen seurattavaksi, ja sitten loki aktivoidaan. Muutosloki perustuu seuraamiesi taulukoiden tietoihin tehtyihin muutoksiin. **Muutoslokin tapahtumat** -sivulla tapahtumat järjestetään aikajärjestykseen. Sivulla näkyy kaikki muutokset, jotka tehdään määrittämiesi taulukoiden kenttien arvoihin. 
 
@@ -40,7 +40,7 @@ Muutosloki otetaan pois käytöstä, kun [!INCLUDE [prod_short](includes/prod_sh
 > * Käyttäjä valitsi toisen yrityksen tai roolikeskuksen.
 > * Käyttäjä kirjautui ensin ulos ja sitten takaisin sisään.
 
-### <a name="work-with-the-change-log"></a><a name="work-with-the-change-log"></a><a name="work-with-the-change-log"></a>Muutoslokin käyttäminen
+### <a name="work-with-the-change-log"></a><a name="work-with-the-change-log"></a><a name="work-with-the-change-log"></a><a name="work-with-the-change-log"></a>Muutoslokin käyttäminen
 Voit aktivoida muutoslokin ja poistaa sen aktivoinnin **Muutoslokin asetukset** -sivulla. Kun käyttäjä aktivoi muutoslokin tai poistaa sen aktivoinnin, tämä aktiviteetti kirjataan, joten näet aina, kuka käyttäjistä poisti muutoslokin aktivoinnin tai aktivoi sen uudelleen.
 
 Jos valitset **Muutoslokin asetukset** -sivulla **Taulukot**-toiminnon, voit määrittää sekä taulukot, joiden muutoksia seurataan, että seurattavat muutokset. [!INCLUDE[prod_short](includes/prod_short.md)] seuraa myös useita järjestelmätaulukoita.
@@ -50,21 +50,21 @@ Jos valitset **Muutoslokin asetukset** -sivulla **Taulukot**-toiminnon, voit mä
 
 Kun olet määrittänyt muutoslokin, aktivoinut sen ja muuttanut tietoja, voit tarkastella ja suodattaa muutoksia **Muutoslokin tapahtumat** -sivulla. Jos haluat poistaa merkintöjä, voit tehdä sen **Poista muutoslokin tapahtumat** -sivulla, jossa voit määrittää päivämääriin ja kellonaikaan perustuvia suodattimia.  
 
-## <a name="about-activity-logs"></a><a name="about-activity-logs"></a><a name="about-activity-logs"></a>Tietoja tapahtumalokeista
+## <a name="about-activity-logs"></a><a name="about-activity-logs"></a><a name="about-activity-logs"></a><a name="about-activity-logs"></a>Tietoja tapahtumalokeista
 
 Joillakin [!INCLUDE [prod_short](includes/prod_short.md)]in sivuilla voi tarkastella toimintalokeja, joissa näkyy [!INCLUDE [prod_short](includes/prod_short.md)]ista vietävien ja sovellukseen tuotavien tiedostojen tila ja mahdolliset virheet.  
 
-### <a name="work-with-activity-logs"></a><a name="work-with-activity-logs"></a><a name="work-with-activity-logs"></a>Toimintalokien käyttäminen
+### <a name="work-with-activity-logs"></a><a name="work-with-activity-logs"></a><a name="work-with-activity-logs"></a><a name="work-with-activity-logs"></a>Toimintalokien käyttäminen
 Tiedot näytetään **Toimintaloki**-sivulla sen kontekstin mukaan, josta ne avataan. Voit esimerkiksi avata sivun **Document Exchange -palvelun asetukset**-, **Saapuva asiakirja**-, **Kirjattu myyntilasku**- ja **Kirjattu myyntihyvityslasku** -sivuilta. Voit tyhjentää lokitapahtumaluettelon tai poistaa vain yli seitsemän päivää vanhemmat tapahtumat.  
 
-## <a name="monitoring-sensitive-fields"></a><a name="monitoring-sensitive-fields"></a><a name="monitoring-sensitive-fields"></a>Arkaluonteisten kenttien valvonta
+## <a name="monitoring-sensitive-fields"></a><a name="monitoring-sensitive-fields"></a><a name="monitoring-sensitive-fields"></a><a name="monitoring-sensitive-fields"></a>Arkaluonteisten kenttien valvonta
 
 Luottamuksellisten tietojen suojaaminen ja yksityisyys ovat useimmille yrityksille keskeinen huolenaihe. Jos haluat lisätä suojauskerroksen, voit seurata tärkeitä kenttiä ja saada ilmoituksen sähköpostilla, kun joku muuttaa arvoa. Saatat esimerkiksi haluta saada ilmoituksen, jos joku muuttaa yrityksesi IBAN-numeroa.
 
 > [!NOTE]
 > Ilmoitusten lähettäminen sähköpostitse edellyttää, että määrität sähköpostiominaisuuden [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan. Lisätietoja on kohdassa [Sähköpostin määrittäminen](admin-how-setup-email.md).
 
-### <a name="setting-up-field-monitoring"></a><a name="setting-up-field-monitoring"></a><a name="setting-up-field-monitoring"></a>Kentän valvonnan asetusten määrittäminen
+### <a name="setting-up-field-monitoring"></a><a name="setting-up-field-monitoring"></a><a name="setting-up-field-monitoring"></a><a name="setting-up-field-monitoring"></a>Kentän valvonnan asetusten määrittäminen
 
 **Kentän valvonnan asetusten määrittäminen** -avustetun asennusoppaan avulla kentät, joita haluat seurata suodatusehtojen, kuten kenttien tietojen arkaluonteisuusluokituksen perusteella. Lisätietoja on kohdassa [Tietojen arkaluontoisuuden luokitteleminen](admin-classifying-data-sensitivity.md). Oppaassa voidaan myös määrittää henkilö, joka saa sähköposti-ilmoituksen muutoksen tapahtuessa, sekä sähköpostitili, jolla ilmoitus lähetetään. Määritä sekä käyttäjä, jolle ilmoitetaan että tili, josta ilmoitus lähetetään. Kun ohjelma on valmis, voit hallita kentän seurannan asetuksia **Kentän seuranta-asetukset** -sivulla. 
 
@@ -80,7 +80,7 @@ Voit hallita kentän seurannan asetuksia, kuten sen, lähetetäänkö sähköpos
 > [!NOTE]
 > Kun olet lisännyt yhden tai useamman kentän ja käynnistät seurannan, sinun on kirjauduttava ulos [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmasta ja kirjautua uudelleen sisään, jotta voit ottaa asetukset käyttöön.
 
-### <a name="work-with-field-monitoring"></a><a name="work-with-field-monitoring"></a><a name="work-with-field-monitoring"></a>Kentän seurannan käsitteleminen
+### <a name="work-with-field-monitoring"></a><a name="work-with-field-monitoring"></a><a name="work-with-field-monitoring"></a><a name="work-with-field-monitoring"></a>Kentän seurannan käsitteleminen
 
 Tarkkailtujen kenttien kaikkien muutettujen arvojen tapahtumat ovat käytettävissä **Tarkkailtavat kentät-lokin tapahtumat** -sivulla. Merkinnät sisältävät esimerkiksi seuraavat tiedot:
 
@@ -90,18 +90,18 @@ Tarkkailtujen kenttien kaikkien muutettujen arvojen tapahtumat ovat käytettävi
 
 Jos haluat tutkia muutosta edelleen, valitse arvo, joka avaa sivun, jossa se on tehty. Voit tarkastella kaikkien tapahtumien luetteloa valitsemalla **Kentän muutostapahtumat**.
 
-### <a name="viewing-field-monitoring-telemetry"></a><a name="viewing-field-monitoring-telemetry"></a><a name="viewing-field-monitoring-telemetry"></a>Kentän seurannan telemetrian tarkastelu
+### <a name="viewing-field-monitoring-telemetry"></a><a name="viewing-field-monitoring-telemetry"></a><a name="viewing-field-monitoring-telemetry"></a><a name="viewing-field-monitoring-telemetry"></a>Kentän seurannan telemetrian tarkastelu
 
 Voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in lähettämään kentän seurannan aktiviteetit Application Insights -resurssille Microsoft Azuressa. Sitteen Azure Monitorin avulla luot raportteja ja määrität hälytyksiä kerätyille tiedoille. Lisätietoja on [!INCLUDE[prod_short](includes/prod_short.md)]in kehittäjien ja IT-ammattilaisten ohjeen seuraavissa artikkeleissa:
 
 - [Telemetrian seuranta ja analysointi – Application Insightsin käyttöönotto](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
 - [Kentän seurannan telemetrian analysointi](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace)
 
-## <a name="defining-retention-policies"></a><a name="defining-retention-policies"></a><a name="defining-retention-policies"></a>Säilytyskäytäntöjen määrittäminen
+## <a name="defining-retention-policies"></a><a name="defining-retention-policies"></a><a name="defining-retention-policies"></a><a name="defining-retention-policies"></a>Säilytyskäytäntöjen määrittäminen
 
 Voit luoda säilytyskäytäntöjä, jotka poistavat tarpeettomia tietoja lokeista määrittämäsi ajanjakson jälkeen. Esimerkiksi ajan mittaan lokimerkintöjen määrä voi kasvaa. Puhdistamalla vanhoja tapahtumia voit helpottaa keskittymistä viimeaikaisiin ja todennäköisesti osuvimpiin tapahtumiin. Lisätietoja on kohdassa [Säilytyskäytäntöjen määrittäminen](admin-data-retention-policies.md).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Lajitteleminen, hakeminen ja suodattaminen](ui-enter-criteria-filters.md)  

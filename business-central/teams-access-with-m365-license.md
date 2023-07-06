@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="access-data-in-teams-without-business-central-license"></a><a name="access-data-in-teams-without-business-central-license"></a>Tietojen käyttäminen Teamsissa ilman Business Central -käyttöoikeutta
+# <a name="access-data-in-teams-without-business-central-license"></a><a name="access-data-in-teams-without-business-central-license"></a><a name="access-data-in-teams-without-business-central-license"></a>Tietojen käyttäminen Teamsissa ilman Business Central -käyttöoikeutta
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -käyttäjille annetaan Dynamics 365 Business Central -käyttöoikeus, jonka avulla he voivat tarkastella, muokata ja käsitellä liiketoimintatietojaan Teamsissa. Käyttäjät voivat käsitellä tietoja yhteistyössä jakamalla tietueita chatteihin tai kanaviin tai lisäämällä tietueet näyttäviä välilehtiä. Organisaatiossa voi kuitenkin olla muita työntekijöitä, joilla ei ole Business Central -lisenssiä, mutta jotka voivat hyötyä Teamsin tietojen katsomisesta. Näille käyttäjille [!INCLUDE[prod_short](includes/prod_short.md)] tarjoaa rajoitetut käyttöoikeudet vain Microsoft 365 -käyttöoikeuksien kautta.  
 
@@ -19,10 +19,10 @@ Järjestelmänvalvojana voit määrittää ympäristöjä, jotka mahdollistavat 
 
 Lisätietoa käytöstä Microsoft 365 -käyttöoikeuksilla on kohdassa [Business Centralin käyttäminen Microsoft 365 -käyttöoikeuksilla](admin-access-with-m365-license.md) ja [Käyttö Microsoft 365 -käyttöoikeuksilla – Usein kysytyt kysymykset](admin-access-with-m365-license-faq.md).
 
-## <a name="next-steps"></a><a name="next-steps"></a>Seuraavat vaiheet
+## <a name="next-steps"></a><a name="next-steps"></a><a name="next-steps"></a>Seuraavat vaiheet
 
 [Business Centralin käytön määrittäminen Teamsissa Microsoft 365 -käyttöoikeuksilla](admin-access-with-m365-license-setup.md)  
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Microsoft 365 -käyttöoikeuksien käytön vianmääritys](admin-access-with-m365-license-troubleshooting.md)  

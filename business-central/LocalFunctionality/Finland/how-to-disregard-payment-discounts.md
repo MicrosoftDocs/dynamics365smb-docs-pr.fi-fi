@@ -18,13 +18,13 @@ ms.contentlocale: fi-FI
 ms.lasthandoff: 02/15/2022
 ms.locfileid: "8149294"
 ---
-# <a name="disregard-payment-discounts"></a><a name="disregard-payment-discounts"></a><a name="disregard-payment-discounts"></a>Maksualennusten ohittaminen
+# <a name="disregard-payment-discounts"></a><a name="disregard-payment-discounts"></a><a name="disregard-payment-discounts"></a><a name="disregard-payment-discounts"></a>Maksualennusten ohittaminen
 Käytä maksualennusten ohittamistoimintoa kokonaissumman yhteydessä, kun haluat hyväksyä maksut seuraavien ehtojen täyttyessä:  
 
 - Maksualennuksen päivämäärä < maksupäivämäärä <= maksutoleranssin päivämäärä  
 - Kokonaissumma >= maksun summa >= kokonaissumma - maksualennus  
 
-## <a name="to-disregard-a-payment-discount"></a><a name="to-disregard-a-payment-discount"></a><a name="to-disregard-a-payment-discount"></a>Maksualennuksen ohittaminen
+## <a name="to-disregard-a-payment-discount"></a><a name="to-disregard-a-payment-discount"></a><a name="to-disregard-a-payment-discount"></a><a name="to-disregard-a-payment-discount"></a>Maksualennuksen ohittaminen
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksuehdot** ja valitse sitten vastaava linkki.  
 2.  Valitse rivi, jonka maksuehdolle haluat ottaa käyttöön maksualennuksia tai jolta haluat poistaa ne.  
@@ -33,7 +33,7 @@ Käytä maksualennusten ohittamistoimintoa kokonaissumman yhteydessä, kun halua
 > [!NOTE]  
 >  Kun yksi maksu kohdistetaan useisiin laskuihin, maksualennuksen ohitustoimintoa ei tueta kokonaissumman yhteydessä.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 [Verkkopankkitoiminta Suomessa](electronic-banking-in-finland.md)   
 [Maksutiedostojen luominen](how-to-generate-payment-files.md)   
 [Maksutapojen määrittäminen](../../finance-payment-methods.md)  

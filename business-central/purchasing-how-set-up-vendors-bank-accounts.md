@@ -7,18 +7,18 @@ ms.topic: article
 ms.date: 07/04/2022
 ms.author: a-reishima
 ---
-# <a name="set-up-vendor-bank-accounts"></a><a name="set-up-vendor-bank-accounts"></a>Toimittajien pankkitilien määrittäminen
+# <a name="set-up-vendor-bank-accounts"></a><a name="set-up-vendor-bank-accounts"></a><a name="set-up-vendor-bank-accounts"></a>Toimittajien pankkitilien määrittäminen
 
 Samalla tavalla kuin voit seurata yrityksesi pankkitapahtumia käyttämällä pankkitietoja [!INCLUDE [prod_short](includes/prod_short.md)]issa voit myös määrittää pankkitietoja toimittajille. Toimittajien pankkitilitiedot voivat yksinkertaistaa maksuja toimittajille, kun niitä käytetään esimeriksi yhdessä [AMC Banking 365 Fundamentals -laajennuksen](ui-extensions-amc-banking.md) tai [Vie maksut pankkitiedostoon](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md) -toiminnon kanssa.
 
-## <a name="add-or-edit-a-vendor-bank-account"></a><a name="add-or-edit-a-vendor-bank-account"></a>Toimittajan pankkitilin lisääminen tai muokkaaminen
+## <a name="add-or-edit-a-vendor-bank-account"></a><a name="add-or-edit-a-vendor-bank-account"></a><a name="add-or-edit-a-vendor-bank-account"></a>Toimittajan pankkitilin lisääminen tai muokkaaminen
 
 [!INCLUDE [purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
 > [!TIP]
 > Voit määrittää lisää toimittajan pankkitilejä **Toimittajan pankkitililuettelo** -sivulla.
 
-## <a name="set-up-a-preferred-vendor-bank-account"></a><a name="set-up-a-preferred-vendor-bank-account"></a>Ensisijaisen pankkitilin määrittäminen toimittajalle
+## <a name="set-up-a-preferred-vendor-bank-account"></a><a name="set-up-a-preferred-vendor-bank-account"></a><a name="set-up-a-preferred-vendor-bank-account"></a>Ensisijaisen pankkitilin määrittäminen toimittajalle
 
 Jos toimittajalla on vähintään yksi pankkitili ja haluat määrittää ensisijaisen vaihtoehdon maksukirjauskansioriveille, noudata seuraavia ohjeita:
 
@@ -26,9 +26,9 @@ Jos toimittajalla on vähintään yksi pankkitili ja haluat määrittää ensisi
 2. Avaa toimittajan kortti.
 3. Valitse **Maksut**-pikavälilehden **Ensisijaisen pankkitilin koodi** -kentässä toimittajan oletusarvoinen pankkitili.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/cash-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Ostojen määrittäminen](purchasing-setup-purchasing.md)  
 [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md)  

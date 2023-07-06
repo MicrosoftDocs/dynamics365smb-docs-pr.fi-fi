@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-accounts-in-the-general-ledger"></a><a name="design-details-accounts-in-the-general-ledger"></a>Rakennetiedot: pääkirjanpidon tilit
+# <a name="design-details-accounts-in-the-general-ledger"></a><a name="design-details-accounts-in-the-general-ledger"></a><a name="design-details-accounts-in-the-general-ledger"></a>Rakennetiedot: pääkirjanpidon tilit
 Kun varasto ja kapasiteettitapahtumat täsmäytetään pääkirjanpidon kanssa, liittyvät arvotapahtumat kirjataan pääkirjanpidon eri tileille. Lisätietoja on kohdassa [Rakennetiedot: täsmäytys pääkirjanpidon kanssa](design-details-reconciliation-with-the-general-ledger.md).  
 
-## <a name="from-the-inventory-ledger"></a><a name="from-the-inventory-ledger"></a>Inventointitapahtumista
+## <a name="from-the-inventory-ledger"></a><a name="from-the-inventory-ledger"></a><a name="from-the-inventory-ledger"></a>Inventointitapahtumista
 Seuraavassa taulukossa esitetään suhde eri varastoarvojen kirjausten ja pääkirjan tilien ja balansoitavien tilien välillä.  
 
 |**Nimiketapahtuman tyyppi**|**Arvotapahtuman tyyppi**|**Vaihtelutyyppi**|**Oletettu kustannus**|**Tili**|**Vastatili**|  
@@ -56,7 +56,7 @@ Seuraavassa taulukossa esitetään suhde eri varastoarvojen kirjausten ja pääk
 |Kokoonpanon tuotos|Vaihtelu|Tuotannon yleiskustannus|Ei|Vaihto-omaisuus|Valm. yleisvaihtelu|  
 |Kokoonpanon tuotos|Pyöristäminen||Ei|Vaihto-omaisuus|Varastonmuutos|  
 
-## <a name="from-the-capacity-ledger"></a><a name="from-the-capacity-ledger"></a>Kapasiteettikirjauksista
+## <a name="from-the-capacity-ledger"></a><a name="from-the-capacity-ledger"></a><a name="from-the-capacity-ledger"></a>Kapasiteettikirjauksista
  Seuraavassa taulukossa esitetään suhde eri kapasiteettiarvojen kirjausten ja pääkirjan tilien ja balansoitavien tilien välillä. Kapasiteettitapahtumat edustavat kulutettua työaikaa kokoonpano- tai tuotantotyössä.  
 
 |**Työn tyyppi**|**Kapasiteettitapahtuman tyyppi**|**Arvotapahtuman tyyppi**|**Tili**|**Vastatili**|  
@@ -66,12 +66,12 @@ Seuraavassa taulukossa esitetään suhde eri varastoarvojen kirjausten ja pääk
 |Tuotanto|Kuormitusryhmä/tuotantosolu|Välitön kustannus|KET tili|Kohdistettu välitön kustannus|  
 |Tuotanto|Kuormitusryhmä/tuotantosolu|Välillinen kustannus|KET tili|Kohdistettu yleiskust.|  
 
-## <a name="assembly-costs-are-always-actual"></a><a name="assembly-costs-are-always-actual"></a>Kokoonpanokustannukset ovat aina todellisia
+## <a name="assembly-costs-are-always-actual"></a><a name="assembly-costs-are-always-actual"></a><a name="assembly-costs-are-always-actual"></a>Kokoonpanokustannukset ovat aina todellisia
  Kuten yllä olevassa taulukossa on esitetty, kirjauksia ei esitetä väliaikaisilla tileillä. Tämä johtuu siitä, että KET:n konsepti ei ole käytössä kokoonpanon tuotoksen kirjauksessa, toisin kuin tuotannon tuotoksen kirjaus. Kokoonpanokustannukset kirjataan vain todellisina kustannuksina, eikä koskaan oletettuina kustannuksina.  
 
  Katso lisätietoja kohdasta [Rakennetiedot: kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md).  
 
-## <a name="calculating-the-amount-to-post-to-the-general-ledger"></a><a name="calculating-the-amount-to-post-to-the-general-ledger"></a>Lasketaan pääkirjanpitoon kirjattavaa summaa
+## <a name="calculating-the-amount-to-post-to-the-general-ledger"></a><a name="calculating-the-amount-to-post-to-the-general-ledger"></a><a name="calculating-the-amount-to-post-to-the-general-ledger"></a>Lasketaan pääkirjanpitoon kirjattavaa summaa
  Seuraavia kenttiä **Arvotapahtuma**-taulukossa käytetään laskemaan arvioitu kustannussumma, joka on tiliöity pääkirjaan:  
 
 -   Kustannussumma (todellinen)  
@@ -86,7 +86,7 @@ Seuraavassa taulukossa esitetään, kuinka pääkirjaan tiliöitävät summat la
 |Todellinen kustannus|Kustannussumma (todellinen) – KP-kirjattu kustannus|  
 |Oletettu kustannus|Kustannussumma (oletettu) – Olet. kust. kirjattu KP:oon|  
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
  [Rakennetiedot: varaston arvostus](design-details-inventory-costing.md)   
  [Rakennetiedot: varaston kirjaus](design-details-inventory-posting.md)   
  [Rakennetiedot: Oletetun kustannuksen kirjaus](design-details-expected-cost-posting.md)  

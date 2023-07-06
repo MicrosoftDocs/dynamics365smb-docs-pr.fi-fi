@@ -12,18 +12,18 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-c5-data-migration-extension"></a><a name="the-c5-data-migration-extension"></a>Tietojen siirron C5-laajennus
+# <a name="the-c5-data-migration-extension"></a><a name="the-c5-data-migration-extension"></a><a name="the-c5-data-migration-extension"></a>Tietojen siirron C5-laajennus
 
 Tämän laajennuksen avulla on helppo siirtää asiakkaita, toimittajia, nimikkeitä ja pääkirjanpidon tilejä Microsoft Dynamics C5 2012 -versiosta [!INCLUDE[prod_short](includes/prod_short.md)]iin. Voit siirtää myös pääkirjanpidon tilien vanhat tapahtumat.
 
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman yrityksessä ei saa olla tietoja. Kun siirto on käynnistetty, asiakkaiden, toimittajien, nimikkeiden tai tilien luominen ei ole sallittua. Voit luoda niitä siirron valmistuttua.
 
-## <a name="what-data-is-migrated"></a><a name="what-data-is-migrated"></a>Mitkä tiedot siirretään?
+## <a name="what-data-is-migrated"></a><a name="what-data-is-migrated"></a><a name="what-data-is-migrated"></a>Mitkä tiedot siirretään?
 
 Seuraavat kunkin objektit tiedot siirretään:
 
-### <a name="customers"></a><a name="customers"></a>Asiakkaat
+### <a name="customers"></a><a name="customers"></a><a name="customers"></a>Asiakkaat
 
 * Kontaktit  
 * Sijainti
@@ -42,7 +42,7 @@ Jos siirrät tilit, myös seuraavat tiedot siirretään:
 * Yleisen päiväkirjan erä
 * Avoimet tapahtumat (asiakastapahtumat)
 
-### <a name="vendors"></a><a name="vendors"></a>Toimittajat
+### <a name="vendors"></a><a name="vendors"></a><a name="vendors"></a>Toimittajat
 
 * Kontaktit
 * Sijainti
@@ -61,7 +61,7 @@ Jos siirrät tilit, myös seuraavat tiedot siirretään:
 * Yleisen päiväkirjan erä
 * Avoimet tapahtumat (toimittajatapahtumat)
 
-### <a name="items"></a><a name="items"></a>Nimikkeet
+### <a name="items"></a><a name="items"></a><a name="items"></a>Nimikkeet
 
 * Sijainti
 * Maa
@@ -86,7 +86,7 @@ Jos siirrät tilit, myös seuraavat tiedot siirretään:
 > [!NOTE]
 > Jos avoimissa tapahtumissa käytetään ulkomaanvaluuttoja, myös kyseisten valuuttojen vaihtokurssit siirretään. Muita vaihtokursseja ei siirretä.
 
-### <a name="chart-of-accounts"></a><a name="chart-of-accounts"></a>Tilikartta
+### <a name="chart-of-accounts"></a><a name="chart-of-accounts"></a><a name="chart-of-accounts"></a>Tilikartta
 
 * Vakiodimensiot: osasto, kustannupaikka, tarkoitus  
 * Historialliset KP-tapahtumat  
@@ -94,11 +94,11 @@ Jos siirrät tilit, myös seuraavat tiedot siirretään:
 > [!NOTE]
 > Historialliset KP-tapahtumat, joita käsitellään hieman eri tavalla. Kun siirrät tietoja, määrität **Nykyinen jakso** -parametrin. Tämä parametri määrittää, miten KP-tapahtumia käsitellään. Tämän päivämäärän jälkeen tapahtumat siirretään erikseen. Tapahtumat ennen tätä päivämäärää koostetaan tilikohtaisesti ja siirretään yhtenä summana. Esimerkiksi oletetaan, että tapahtumia on vuosina 2015, 2016, 2017 ja 2018, ja määrität 1. tammikuuta 2017 Nykyinen jakso -kenttään. Kunkin tilin tapahtumien 31.12.2016 tai sitä ennen summat kootaan yhteen yleisen päiväkirjan riviin kullekin KP-tilille. Kaikki tapahtumat tämän päivämäärän jälkeen siirretään yksitellen.
 
-## <a name="file-size-requirements"></a><a name="file-size-requirements"></a>Tiedoston kokovaatimukset
+## <a name="file-size-requirements"></a><a name="file-size-requirements"></a><a name="file-size-requirements"></a>Tiedoston kokovaatimukset
 
 [!INCLUDE[prod_short](includes/prod_short.md)]iin ladattava tiedoston koko saa olla enintään 150 Mt. Jos C5:stä vietävä tiedosto on tätä suurempi, harkitse tietojen siirtämistä useina tiedostoina. Vie C5:stä yhden tai kahden tyyppiset objektit, kuten asiakkaat ja toimittajat, yhteen tiedostoon, nimikkeet toiseen tiedostoon ja niin edelleen. Voit tuoda tiedostot yksitellen [!INCLUDE[prod_short](includes/prod_short.md)]iin.
 
-## <a name="to-migrate-data"></a><a name="to-migrate-data"></a>Tietojen siirtäminen
+## <a name="to-migrate-data"></a><a name="to-migrate-data"></a><a name="to-migrate-data"></a>Tietojen siirtäminen
 
 Tietojen siirtäminen C5:stä ja tuominen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmasta edellyttää vain seuraavien vaiheiden suorittamista:  
 
@@ -106,14 +106,14 @@ Tietojen siirtäminen C5:stä ja tuominen [!INCLUDE[prod_short](includes/prod_sh
 2. Valitse [!INCLUDE[prod_short](includes/prod_short.md)]issa ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tietojen siirto** ja valitse sitten **Tietojen siirto**.  
 3. Suorita asetusten ohjatun määrityksen oppaan vaiheet. Varmista, että valitset tietolähteeksi **Tuo Microsoft Dynamics C5 2012** -versiosta -kohdan.  
 
-## <a name="viewing-the-status-of-the-migration"></a><a name="viewing-the-status-of-the-migration"></a>Siirron tilan tarkasteleminen
+## <a name="viewing-the-status-of-the-migration"></a><a name="viewing-the-status-of-the-migration"></a><a name="viewing-the-status-of-the-migration"></a>Siirron tilan tarkasteleminen
 
 Voit valvoa siirron onnistumista **Tietojen siirron yleiskuvaus** -sivulla. Sivulla on tietoja esimerkiksi siirrettävien objektien määrästä, siirron tilasta, siirrettyjen nimikkeiden määrästä ja siirron onnistumisesta. Sivulla on tietoja myös virheiden määrästä. Voit tarkastella sivulla virheitä ja mahdollisesti siirtyä sivulta korjaamaan objektin ongelmat. Lisätietoja on tämän aiheen seuraavassa osassa.  
 
 > [!NOTE]
 > Päivitä sivu, jotta siirron tulokset näkyvät sivulla.
 
-## <a name="how-to-avoid-double-posting"></a><a name="how-to-avoid-double-posting"></a>Miten voit välttää kaksinkertaisen kirjauksen
+## <a name="how-to-avoid-double-posting"></a><a name="how-to-avoid-double-posting"></a><a name="how-to-avoid-double-posting"></a>Miten voit välttää kaksinkertaisen kirjauksen
 
 Voit välttää kaksinkertaisen kirjaamisen pääkirjanpitoon, käyttämällä seuraavia vastatilejä avoimille tapahtumille:  
 
@@ -121,7 +121,7 @@ Voit välttää kaksinkertaisen kirjaamisen pääkirjanpitoon, käyttämällä s
 * Asiakkaita varten käytetään myyntireskontratiliä asiakkaan kirjausryhmästä.  
 * Nimikkeille luodaan yleinen kirjausasetus, missä oikaisutili on tili, joka on määritetty varastotiliksi varaston kirjausasetuksissa.  
 
-## <a name="correcting-errors"></a><a name="correcting-errors"></a>Virheiden korjaaminen
+## <a name="correcting-errors"></a><a name="correcting-errors"></a><a name="correcting-errors"></a>Virheiden korjaaminen
 
 Jos siirrossa tapahtuu virheitä, **Tila**-kentän arvoksi tulee **Valmis (löytyi virheitä)**. **Virheiden määrä** -kenttä osoittaa virheiden määrän. Voit tarkastella virheluetteloa, kun avaat **Tietojen siirron virheet** -sivun valitsemalla seuraavat kohdat:  
 
@@ -138,7 +138,7 @@ Kun olet korjannut yhden tai useita virheitä, voit siirtää korjaamasi objekti
 > [!NOTE]
 > Jos osa nimikkeistä sisältyy tuoterakenteeseen, siirto on ehkä tehtävä useaan kertaan, jos alkuperäistä nimikettä ei luoda ennen siihen viittaavien varianttien luomista. Jos nimikevariantti luodaan ensin, alkuperäisen nimikkeen viite voi aiheuttaa virhesanoman.  
 
-## <a name="verifying-data-after-migrating"></a><a name="verifying-data-after-migrating"></a>Tietojen tarkistaminen siirron jälkeen
+## <a name="verifying-data-after-migrating"></a><a name="verifying-data-after-migrating"></a><a name="verifying-data-after-migrating"></a>Tietojen tarkistaminen siirron jälkeen
 
 Yksi tapa tarkistaa, että tiedot on siirretty oikein, on katsoa seuraavia C5:n ja [!INCLUDE[prod_short](includes/prod_short.md)]in sivuja.
 
@@ -149,11 +149,11 @@ Yksi tapa tarkistaa, että tiedot on siirretty oikein, on katsoa seuraavia C5:n 
 |Nimiketapahtumat| Nimikepäiväkirjat| ITEMMIGR |
 |KP-tapahtumat| Yleiset päiväkirjat| GLACMIGR |
 
-## <a name="stopping-data-migration"></a><a name="stopping-data-migration"></a>Tietojen siirron pysäyttäminen
+## <a name="stopping-data-migration"></a><a name="stopping-data-migration"></a><a name="stopping-data-migration"></a>Tietojen siirron pysäyttäminen
 
 Voit pysäyttää tietojen siirron valitsemalla **Pysäytä kaikki siirrot**. Jos teet näin, kaikki odottavat siirrot pysäytetään.
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [[!INCLUDE[prod_short](includes/prod_short.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  

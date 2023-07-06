@@ -10,11 +10,11 @@ ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="create-bin-contents"></a><a name="create-bin-contents"></a>Varastopaikan sisältöjen luominen
+# <a name="create-bin-contents"></a><a name="create-bin-contents"></a><a name="create-bin-contents"></a>Varastopaikan sisältöjen luominen
 
 Kun olet määrittänyt varastopaikat, voit määrittää varastopaikan sisällön. Voit määrittää varastopaikkoihin varastoitavat nimikkeet ja säännöt, joita noudatetaan, kun varastopaikkaa täytetään tietyllä nimikkeellä. Voit tehdä sen manuaalisesti **Varastopaikan sisältö** -sivulla tai automaattisesti **Var.p. sisällön luontityökirja** -sivulla.
 
-## <a name="to-create-bin-content-manually"></a><a name="to-create-bin-content-manually"></a>Varastopaikan sisällön luominen manuaalisesti
+## <a name="to-create-bin-content-manually"></a><a name="to-create-bin-content-manually"></a><a name="to-create-bin-content-manually"></a>Varastopaikan sisällön luominen manuaalisesti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten vastaava linkki.  
 2. Valitse sijainti, jossa haluat määrittää varastopaikan sisällön, ja valitse sitten **Varastopaikat**-toiminto.  
@@ -31,7 +31,7 @@ Jos lisäät valintamerkin **Kiinteä**-kenttään, nimike asetetaan varastopaik
 > [!NOTE]  
 > Useita varastopaikan sisältöjä voi määrittää samaan aikaan **Var.p. sisällön luontityökirja** -sivulla.  
 
-## <a name="to-create-bin-content-with-a-worksheet"></a><a name="to-create-bin-content-with-a-worksheet"></a>Varastopaikan sisällön luominen työkirjan avulla
+## <a name="to-create-bin-content-with-a-worksheet"></a><a name="to-create-bin-content-with-a-worksheet"></a><a name="to-create-bin-content-with-a-worksheet"></a>Varastopaikan sisällön luominen työkirjan avulla
 
 Kun olet luonut varastopaikat, voit luoda varastopaikan sisällön, jonka haluat kullekin varastopaikalle varastopaikan sisällön luomisen työkirjassa.
 
@@ -49,9 +49,9 @@ Kun olet luonut varastopaikat, voit luoda varastopaikan sisällön, jonka haluat
 
 Tässä työkirjassa voi työskennellä useiden varastopaikan sisältörivien parissa useiden varastopaikkojen osalta ja sen ansiosta voi saada hyvän yleiskuvan siitä, mitä olet panemassa eri varastopaikkoihin tietyllä alueella, käytävällä tai hyllyllä.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-zones-bins/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-zones-bins/)
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
 [Varasto](inventory-manage-inventory.md)  

@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: '7351,'
 ---
 
-# <a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a><a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a>Nimikkeiden siirtäminen ohjattua hyllytystä ja poimintaa käyttävissä fyysisen varastoinnin laajennetuissa määrityksissä
+# <a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a><a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a><a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a>Nimikkeiden siirtäminen ohjattua hyllytystä ja poimintaa käyttävissä fyysisen varastoinnin laajennetuissa määrityksissä
 
 Nimikkeitä voidaan varastopaikkojen välillä ilman lähdeasiakirjasta peräisin olevaa kysyntää. Näin voidaan toimia esimerkiksi seuraavien toimintojen osana:
 
@@ -36,9 +36,9 @@ Niissä fyysisen varaston määrityksissä, joissa **Ohjattu poiminta ja hyllyty
 * Hyllytykset käyttävät hyllytysmalleja
 * Poiminta käyttää varastopaikkojen luokittelua ja saatavuutta
 
-## <a name="warehouse-movement-worksheet"></a><a name="warehouse-movement-worksheet"></a>Fyysisen varaston siirtotyökirja
+## <a name="warehouse-movement-worksheet"></a><a name="warehouse-movement-worksheet"></a><a name="warehouse-movement-worksheet"></a>Fyysisen varaston siirtotyökirja
 
-### <a name="to-move-items-with-the-warehouse-movement-worksheet"></a><a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Siirrä nimikkeitä fyysisen varastoinnin siirtotyökirjan kanssa
+### <a name="to-move-items-with-the-warehouse-movement-worksheet"></a><a name="to-move-items-with-the-warehouse-movement-worksheet"></a><a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Siirrä nimikkeitä fyysisen varastoinnin siirtotyökirjan kanssa
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston siirron työkirja** ja valitse sitten liittyvä linkki.  
 2. Työkirjan rivien kentät täytetään manuaalisesti. Rivit voidaan vaihtoehtoisesti täyttää automaattisesti jollakin seuraavista toiminnoista:
@@ -55,7 +55,7 @@ Niissä fyysisen varaston määrityksissä, joissa **Ohjattu poiminta ja hyllyty
 
 3. Varaston siirto luodaan valitsemalla **Luo varaston siirto** -toiminto. Kun siirto on valmis, se voidaan rekisteröidä.  
 
-### <a name="to-register-the-warehouse-movement"></a><a name="to-register-the-warehouse-movement"></a>F. varasoinnin siirron rekisteröinti
+### <a name="to-register-the-warehouse-movement"></a><a name="to-register-the-warehouse-movement"></a><a name="to-register-the-warehouse-movement"></a>F. varasoinnin siirron rekisteröinti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Var.siirrot** ja valitse sitten vastaava linkki.  
 2. Avaa rekisteröitävä varaston siirtoasiakirja.  
@@ -71,9 +71,9 @@ Niissä fyysisen varaston määrityksissä, joissa **Ohjattu poiminta ja hyllyty
 > [!NOTE]  
 > Ohjattua hyllytystä ja poimintaa käyttävissä sijainneissa ei voi siirtää manuaalisesti **VASTAANOTTO**-tyyppisten varastopaikkojen nimikkeitä, sillä niitä ei vielä pidetä saatavana olevana varastona. Näiden varastopaikkojen nimikkeet on hyllytettävä, jonka jälkeen niitä voi käyttää varaston siirroissa.
 
-## <a name="internal-pick"></a><a name="internal-pick"></a>Sisäinen poiminta
+## <a name="internal-pick"></a><a name="internal-pick"></a><a name="internal-pick"></a>Sisäinen poiminta
 
-### <a name="to-create-an-internal-pick"></a><a name="to-create-an-internal-pick"></a>Sisäisen poiminnan luominen
+### <a name="to-create-an-internal-pick"></a><a name="to-create-an-internal-pick"></a><a name="to-create-an-internal-pick"></a>Sisäisen poiminnan luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **F.var. sis. poim.** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.
@@ -82,7 +82,7 @@ Niissä fyysisen varaston määrityksissä, joissa **Ohjattu poiminta ja hyllyty
 5. Valitse **Luo poiminta** -toiminto. Fyysisen varastoinnin poimintaohje on nyt valmis varaston työntekijälle suoritettavaksi. Vaihtoehtoisesti voidaan valita **Vapautus**-toiminto ja luoda fyysisen varastoinnin poiminnat käyttämällä **Poimintatyökirja**-sivua. Lisätietoja poimintatyökirjoista on kohdassa [Poiminta-asiakirjojen joukkoluonti poimintatyökirjan avulla](warehouse-how-to-pick-items-for-warehouse-shipment.md#to-create-pick-documents-in-bulk-with-the-pick-worksheet).
 6. Kun poiminta on valmis, se voidaan rekisteröidä.  
 
-### <a name="to-register-the-warehouse-pick"></a><a name="to-register-the-warehouse-pick"></a>Fyysisen varasoinnin poiminnan rekisteröinti
+### <a name="to-register-the-warehouse-pick"></a><a name="to-register-the-warehouse-pick"></a><a name="to-register-the-warehouse-pick"></a>Fyysisen varasoinnin poiminnan rekisteröinti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poiminnat** ja valitse sitten vastaava linkki.  
 
@@ -94,9 +94,9 @@ Niissä fyysisen varaston määrityksissä, joissa **Ohjattu poiminta ja hyllyty
 
 4. Kun nimikkeet on poimittu ja asetettu toimitusalueelle tai toimituksen varastopaikkaan, valitse **Rekisteröi poiminta** -toiminto.  
 
-## <a name="internal-put-away"></a><a name="internal-put-away"></a>Sisäinen hyllytys
+## <a name="internal-put-away"></a><a name="internal-put-away"></a><a name="internal-put-away"></a>Sisäinen hyllytys
 
-### <a name="to-create-an-internal-put-away"></a><a name="to-create-an-internal-put-away"></a>Sisäisen hyllytyksen luominen
+### <a name="to-create-an-internal-put-away"></a><a name="to-create-an-internal-put-away"></a><a name="to-create-an-internal-put-away"></a>Sisäisen hyllytyksen luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **F.var. sis. hyllytys** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.
@@ -110,7 +110,7 @@ Niissä fyysisen varaston määrityksissä, joissa **Ohjattu poiminta ja hyllyty
 6. Valitse **Luo hyllytys** -toiminto. Varastotyöntekijän fyysisen varastoinnin hyllytysohje on nyt valmis. Vaihtoehtoisesti **Vapautus**-toiminnon valinta luo fyysisen varastoinnin hyllytykset käyttämällä **Hyllytystyökirja**-sivulla. Lisätietoja hyllytystyökirjoista on kohdassa [Hyllytysasiakirjojen joukkoluonti hyllytystyökirjan avulla](warehouse-how-to-put-items-away-with-warehouse-put-aways.md#to-create-put-away-documents-in-bulk-with-the-put-away-worksheet).
 6. Kun hyllytys on valmis, se voidaan rekisteröidä.  
 
-### <a name="to-register-the-warehouse-put-away"></a><a name="to-register-the-warehouse-put-away"></a>Fyysisen varastoinnin hyllytyksen rekisteröinti
+### <a name="to-register-the-warehouse-put-away"></a><a name="to-register-the-warehouse-put-away"></a><a name="to-register-the-warehouse-put-away"></a>Fyysisen varastoinnin hyllytyksen rekisteröinti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyllytykset** ja valitse sitten vastaava linkki.
 2. Avaa fyysisen varaston hyllytys, joka on valmis käsiteltäväksi.  
@@ -130,7 +130,7 @@ Niissä fyysisen varaston määrityksissä, joissa **Ohjattu poiminta ja hyllyty
 
 5. Kun olet asettanut kaikki nimikkeet varastopaikkoihin ohjeiden mukaisesti, valitse **Rekisteröi hyllytys** -toiminto.  
 
-## <a name="to-register-a-movement-that-has-already-happened"></a><a name="to-register-a-movement-that-has-already-happened"></a>Aiemmin tehdyn varaston siirron rekisteröinti
+## <a name="to-register-a-movement-that-has-already-happened"></a><a name="to-register-a-movement-that-has-already-happened"></a><a name="to-register-a-movement-that-has-already-happened"></a>Aiemmin tehdyn varaston siirron rekisteröinti
 
 Jos toisiin varastopaikkoihin ilman hyllytystä, poimintaa tai varaston siirtoa jo siirretyt nimikkeet on rekisteröitävä, varaston siirto voidaan rekisteröidä **F.var. uud.luokpäiväkirja** -sivulla.
 
@@ -138,9 +138,9 @@ Jos toisiin varastopaikkoihin ilman hyllytystä, poimintaa tai varaston siirtoa 
 2. Täytä **Nimikkeen nro**-, **Aluekoodista**-, **Var.paikasta**-, **Aluekoodiin**- ja **Varastopaikkakoodiin**-kentät.  
 3. Valitse **Rekisteröi**-toiminto.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-internal-warehouse-processes/)
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
 [Varasto](inventory-manage-inventory.md)  

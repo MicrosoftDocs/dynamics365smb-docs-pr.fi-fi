@@ -10,7 +10,7 @@ ms.search.keywords: 'relationship, prospect'
 ms.date: 08/30/2022
 ms.author: edupont
 ---
-# <a name="create-contacts"></a><a name="create-contacts"></a>Kontaktien luominen
+# <a name="create-contacts"></a><a name="create-contacts"></a><a name="create-contacts"></a>Kontaktien luominen
 
 Kun luot liiketoiminnan kontaktin johonkuhun toisessa yrityksessä, lisää heidät yhteyshenkilönä [!INCLUDE[prod_short](includes/prod_short.md)]iin. Lisää sitten kontakteista tai kontaktien yrityksestä tietoja, jotka voivat olla hyödyllisiä tulevissa yhteyksissä. Voit luoda seuraavanlaisia kontaktityyppejä **Kontaktin kortti** -sivulla:
 
@@ -28,7 +28,7 @@ Kun yhteyshenkilö muunnetaan esimerkiksi asiakkaaksi, yhteyshenkilö tai yhteys
 >
 > Jos kuitenkin käytät jo sisäänrakennettua toimintoa asiakkaiden tai nimikkeiden automaattiseen luomiseen, tämä ominaisuuspäivitys ei tue mukautettuja kenttiä, eivätkä äskettäin luodut asiakkaat tai kohteet sisällä tällaisia tietoja.
 
-## <a name="to-create-a-contact-manually"></a><a name="to-create-a-contact-manually"></a>Kontaktin luominen manuaalisesti
+## <a name="to-create-a-contact-manually"></a><a name="to-create-a-contact-manually"></a><a name="to-create-a-contact-manually"></a>Kontaktin luominen manuaalisesti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktit**, valitse sitten vastaava linkki.
 2. Valitse **Uusi**-toiminto.
@@ -37,7 +37,7 @@ Kun yhteyshenkilö muunnetaan esimerkiksi asiakkaaksi, yhteyshenkilö tai yhteys
    Jos olet määrittänyt kontakteille numerosarjan **Kontaktienhallinnan asetukset**-sivulla, voit lisätä seuraavan saatavilla olevan kontaktinumeron <kbd>Enter</kbd>-näppäimellä.
 4. Täytä jäljellä olevat kentät tarvittaessa. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a><a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a>Kontaktin luominen asiakkaana, toimittajana tai pankkitilinä.
+## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a><a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a><a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a>Kontaktin luominen asiakkaana, toimittajana tai pankkitilinä.
 
 Jos sinulla on olemassa olevia asiakkaita, toimittajia ja pankkitilejä, joille haluat luoda kontaktikortit **Luo kontakteja** -erätöinä. Kun luot kontaktin tällä tavalla, kontaktin tiedot synkronoidaan myöhemmin liittyvän asiakkaan, toimittajan tai pankkitilin tietojen kanssa. Lue lisätietoja kohdasta [Kontaktien synkronoiminen asiakkaiden, toimittajien, työntekijöiden ja pankkitilien kanssa](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
@@ -56,7 +56,7 @@ Ohjelma liittää uusiin kontakteihin seuraavat kontaktinumerot numerosarjasta. 
 > [!TIP]  
 > Tämän voi tehdä myös toisin päin eli asiakkaan, toimittajan, työntekijöihin tai pankkitilin voi kontaktista. Lisätietoja on [Asiakkaan, toimittajan, työntekijän tai pankkitilin luominen yhteyshenkilöstä](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact) -osassa.
 
-## <a name="to-create-a-customer-vendor-employee-or-bank-account-from-a-contact"></a><a name="to-create-a-customer-vendor-employee-or-bank-account-from-a-contact"></a>Asiakkaan, toimittajan, työntekijän tai pankkitilin luominen yhteyshenkilöstä
+## <a name="to-create-a-customer-vendor-employee-or-bank-account-from-a-contact"></a><a name="to-create-a-customer-vendor-employee-or-bank-account-from-a-contact"></a><a name="to-create-a-customer-vendor-employee-or-bank-account-from-a-contact"></a>Asiakkaan, toimittajan, työntekijän tai pankkitilin luominen yhteyshenkilöstä
 
 Jos yrityksellä, jolle haluat luoda yhteyshenkilön, on asiakas, toimittaja, työntekijä tai pankkitili, voit käyttää **Luo**-toimintoa. Kun luot kontaktin tällä tavalla, kontaktin tiedot synkronoidaan myöhemmin liittyvän asiakkaan, toimittajan, työntekijän tai pankkitilin tietojen kanssa. Lue lisätietoja kohdasta [Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).<!--Should this link include "Employees" as per the section title below?-->
 
@@ -70,7 +70,7 @@ Jos yrityksellä, jolle haluat luoda yhteyshenkilön, on asiakas, toimittaja, ty
 
 Yhteystiedot siirretään kontaktikortista uuteen asiakas-, toimittaja-, työntekijä- tai pankkitilikorttiin. Haluat ehkä lisätä tiettyjä tietoja jokaiseen korttiin, kuten laskutus- ja maksutiedot. Katso esimerkiksi kohta [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md).
 
-## <a name="to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account"></a><a name="to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account"></a>Kontaktin linkittäminen olemassa olevaan asiakkaaseen, toimittajaan, työntekijään tai pankkitiliin
+## <a name="to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account"></a><a name="to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account"></a><a name="to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account"></a>Kontaktin linkittäminen olemassa olevaan asiakkaaseen, toimittajaan, työntekijään tai pankkitiliin
 
 Jos kontakti ja joko asiakas, toimittaja, työntekijä tai pankkitili ovat samassa yrityksessä, voit linkittää nämä kaksi objektia ja synkronoida tiedot.
 
@@ -80,7 +80,7 @@ Jos kontakti ja joko asiakas, toimittaja, työntekijä tai pankkitili ovat samas
 4. Määritä **Nykyiset pääkentät** -kentässä priorisoitavat kentät, jos sekä olemassa olevan yhteyshenkilön että asiakkaan, toimittajan, työntekijän tai pankkitilin yhteisissä kentissä on ristiriitaisia tietoja. Joten, jos myyjän koodi on erilainen kontaktille ja asiakkaalle, voit valita toisen säilyttämisen kontaktikortissa valitsemalla **Kontakti**.
 5. Valitse **OK**.
 
-## <a name="to-remove-a-link-between-a-contact-and-an-existing-customer-vendor-employee-or-bank-account"></a><a name="to-remove-a-link-between-a-contact-and-an-existing-customer-vendor-employee-or-bank-account"></a>Kontaktin linkin poistaminen olemassa olevasta asiakkaasta, toimittajasta, työntekijästä tai pankkitilistä
+## <a name="to-remove-a-link-between-a-contact-and-an-existing-customer-vendor-employee-or-bank-account"></a><a name="to-remove-a-link-between-a-contact-and-an-existing-customer-vendor-employee-or-bank-account"></a><a name="to-remove-a-link-between-a-contact-and-an-existing-customer-vendor-employee-or-bank-account"></a>Kontaktin linkin poistaminen olemassa olevasta asiakkaasta, toimittajasta, työntekijästä tai pankkitilistä
 
 Jos linkitit yhteyshenkilön asiakkaaseen, toimittajaan, työntekijään tai pankkitiliin, jota et aikonut tehdä, poista linkki entiteettien välillä, jotta tietoja ei enää synkronoida.
 
@@ -92,7 +92,7 @@ Jos linkitit yhteyshenkilön asiakkaaseen, toimittajaan, työntekijään tai pan
 > [!NOTE]  
 > Älä käytä **Liikesuhteet**-ikkunaa aiemmin luotujen suhteiden muuttamiseen. Poista sen sijaan suhde ja käytä **Linkitä olemassa olevan kanssa** -toimintoa. Lisätietoja on [Kontaktin linkittäminen aiemmin luotuun asiakkaaseen, toimittajaan, työntekijään tai pankkitiliin](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account) -osassa.
 
-## <a name="synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts"></a><a name="synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts"></a>Kontaktien synkronoiminen asiakkaiden, toimittajien, työntekijöiden ja pankkitilien kanssa
+## <a name="synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts"></a><a name="synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts"></a><a name="synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts"></a>Kontaktien synkronoiminen asiakkaiden, toimittajien, työntekijöiden ja pankkitilien kanssa
 
 Jos jotkin kontakteistasi ovat myös asiakkaita, toimittajia, työntekijöitä tai pankkitilejä, voit synkronoida ne kontaktin tietojen kanssa ja saada seuraavat edut:
 
@@ -112,12 +112,12 @@ Tietojen synkronointi asiakkaiden, toimittajien, työntekijöiden tai pankkitili
 * Luomalla asiakkaita, toimittajia, työntekijöitä tai pankkitilejä kontakteista. Lisätietoja on [Asiakkaan, toimittajan, työntekijän tai pankkitilin luominen yhteyshenkilöstä](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact) -osassa.
 * Linkittämällä kontakteja aiemmin luotuihin asiakkaisiin, toimittajiin, työntekijöihin tai pankkitileihin kontaktikortista. Lisätietoja on [Kontaktin linkittäminen aiemmin luotuun asiakkaaseen, toimittajaan, työntekijään tai pankkitiliin](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account) -osassa.
 
-## <a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a><a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a>Tarkistetaan, mihin asiakkaaseen, toimittajaan, työntekijään tai pankkitiliin yhteyshenkilö liittyy
+## <a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a><a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a><a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a>Tarkistetaan, mihin asiakkaaseen, toimittajaan, työntekijään tai pankkitiliin yhteyshenkilö liittyy
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kontaktit** ja valitse sitten vastaava linkki.
 2. Valitse yhteyshenkilön rivi. Valitse **Liittyvät tiedot** -toiminto ja valitse sitten **Asiakas/toimittaja/pankkitili/työntekijä**-toiminto.
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Kontaktien hallinta](marketing-contacts.md)  
 [Kontaktien määrittäminen](marketing-setup-contacts.md)  

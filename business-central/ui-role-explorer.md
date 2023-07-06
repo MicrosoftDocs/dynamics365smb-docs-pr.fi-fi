@@ -12,7 +12,7 @@ ms.date: 08/01/2021
 ms.author: jswymer
 ---
 
-# <a name="finding-pages-with-the-role-explorer"></a><a name="finding-pages-with-the-role-explorer"></a>Sivujen etsiminen roolienhallinnan avulla
+# <a name="finding-pages-with-the-role-explorer"></a><a name="finding-pages-with-the-role-explorer"></a><a name="finding-pages-with-the-role-explorer"></a>Sivujen etsiminen roolienhallinnan avulla
 
 Saat yleiskuvan kaikista roolin käytössä olevista liiketoimintaominaisuuksista ja muiden roolien toiminnoista, jos siirryt yhden vaiheen eteenpäin. Seuraavassa dokumentaatiossa tätä ominaisuutta kutsutaan *Roolienhallinnaksi*.
 
@@ -20,7 +20,7 @@ Jokainen roolienhallinnan elementti on sivun avaava toiminto. Niinpä voitkin si
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="open-the-role-explorer"></a><a name="open-the-role-explorer"></a>Avaa roolien hallinta
+## <a name="open-the-role-explorer"></a><a name="open-the-role-explorer"></a><a name="open-the-role-explorer"></a>Avaa roolien hallinta
 
 Voit avata roolienhallinnan roolikeskuksesta ja kaikilta luettelosivuilta sekä **Kerro, mitä haluat tehdä** -ikkunasta.
 
@@ -29,7 +29,7 @@ Voit avata roolienhallinnan roolikeskuksesta ja kaikilta luettelosivuilta sekä 
 
 Kun avaat roolikeskuksen ensimmäisen kerran, siinä näkyvät useimpien roolisi käytettävissä olevien toimintojen linkit.
 
-## <a name="navigate-features"></a><a name="navigate-features"></a>Navigoi ominaisuuksia
+## <a name="navigate-features"></a><a name="navigate-features"></a><a name="navigate-features"></a>Navigoi ominaisuuksia
 
 Sivujen avoimet toiminnot on järjestetty ominaisuuksien tai sovellusalueiden mukaan nimetyille solmuille. Jokainen solmu voidaan tiivistää tai laajentaa yksittäin, ja voit tiivistää/laajentaa kaikki solmut yhteen.
 
@@ -37,11 +37,11 @@ Sivujen avoimet toiminnot on järjestetty ominaisuuksien tai sovellusalueiden mu
 - Jos haluat laajentaa tai kutistaa kaikki sivun ylätason solmut, mutta jättää alisolmut sellaisiksi kuin ne ovat, valitse ylhäällä **...** ja valitse sitten **Laajenna** tai **Tiivistä**.
 - Jos haluat laajentaa tai kutistaa kaikki sivun ylätason solmut ja alisolmut, valitse ylhäällä **...** ja valitse sitten **Laajenna kaikki** tai **Tiivistä kaikki**.
 
-## <a name="search-for-features"></a><a name="search-for-features"></a>Etsi ominaisuuksia
+## <a name="search-for-features"></a><a name="search-for-features"></a><a name="search-for-features"></a>Etsi ominaisuuksia
 
 Voit etsiä ominaisuuksia nopeasti valitsemalla **Etsi** ja kirjoittamalla sanan tai lauseen etsimääsi ominaisuutta varten. Roolikeskus tuo esiin mahdollisen vastaavan tekstin. Jos ominaisuus on piilossa tiivistetyn solmun näkymästä, tiivistetty solmu merkitään pisteellä. 
 
-## <a name="explore-other-roles"></a><a name="explore-other-roles"></a>Tutki muita rooleja
+## <a name="explore-other-roles"></a><a name="explore-other-roles"></a><a name="explore-other-roles"></a>Tutki muita rooleja
 
 Jos haluat tutkia muita rooleja kuin omia rooleja, valitse **Tutki lisää rooleja**. Roolikeskus näyttää jokaisen roolin oman otsikon alla, ja siinä on linkit sen ominaisuuksiin. Voit sitten navigoida ja etsiä ominaisuuksia aivan kuten omassa roolissasi.
 
@@ -57,7 +57,7 @@ Kun tutustut muihin rooleihin, voit rajata etsintää myös roolikeskuksen yläo
 > Sovelluskehittäjille voit luokitella sivuja ja raportteja määrittämällä objektin AL-koodissa [UsageCategory-ominaisuuden](/dynamics365/business-central/dev-itpro/developer/properties/devenv-usagecategory-property).
 <!--
  
-## <a name="role-explorer-actions"></a><a name="role-explorer-actions"></a>Role explorer actions
+## <a name="role-explorer-actions"></a><a name="role-explorer-actions"></a><a name="role-explorer-actions"></a>Role explorer actions
 
 There a several actions along the top of the role explorer to help you locate features of your role and other roles.
 
@@ -80,7 +80,7 @@ Choose the **Explore more roles** action at the top of the role explorer to get 
 > Only Role Center actions for profiles where the **Show in Role Explorer** check box is selected will appear on the extended version of the role explorer (shown with the **Explore more roles** action). For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 -->
 
-## <a name="expand-and-collapse-nodes-on-the-role-explorer"></a><a name="expand-and-collapse-nodes-on-the-role-explorer"></a>Solmujen laajentaminen ja tiivistäminen roolienhallinnassa
+## <a name="expand-and-collapse-nodes-on-the-role-explorer"></a><a name="expand-and-collapse-nodes-on-the-role-explorer"></a><a name="expand-and-collapse-nodes-on-the-role-explorer"></a>Solmujen laajentaminen ja tiivistäminen roolienhallinnassa
 
 Sivujen avoimet toiminnot on järjestetty ominaisuuksien tai sovellusalueiden mukaan nimetyille solmuille. Jokainen solmu voidaan tiivistää tai laajentaa yksittäin, ja voit tiivistää/laajentaa kaikki solmut yhteen.
 
@@ -90,7 +90,7 @@ Sivujen avoimet toiminnot on järjestetty ominaisuuksien tai sovellusalueiden mu
   - Paina <kbd>Ctrl</kbd>+<kbd>Vaihto</kbd>-näppäimiä samalla kun valitset **Laajenna** tai **Tiivistä**-toiminnon oikeassa yläkulmassa.
   - Valitse oikeassa yläkulmassa **...** ja valitse sitten **Laajenna kaikki**- tai **Tiivistä kaikki** -toiminto.
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)  
 [Profiilien hallinta](admin-users-profiles-roles.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

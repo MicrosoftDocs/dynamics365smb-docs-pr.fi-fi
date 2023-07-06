@@ -11,13 +11,13 @@ ms.search.form: '436, 437, 442, 431, 432, 434'
 ms.date: 02/09/2022
 ms.author: edupont
 ---
-# <a name="send-reminders-of-outstanding-balances"></a><a name="send-reminders-of-outstanding-balances"></a>Lähetä muistutuksia avoimista saldoista
+# <a name="send-reminders-of-outstanding-balances"></a><a name="send-reminders-of-outstanding-balances"></a><a name="send-reminders-of-outstanding-balances"></a>Lähetä muistutuksia avoimista saldoista
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)  
 [Useiden korkoprosenttien määrittäminen viivästynyttä maksua varten](finance-how-to-set-up-multiple-interest-rates.md)  

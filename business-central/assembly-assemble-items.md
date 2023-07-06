@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="assembly-management"></a><a name="assembly-management"></a>Kokoonpanon hallinta
+# <a name="assembly-management"></a><a name="assembly-management"></a><a name="assembly-management"></a>Kokoonpanon hallinta
 
 Yritykset voivat tarjota tuotteita asiakkaille yhdistämällä komponentteja ilman tuotantotoimintoja. Nimikkeiden kokoamistoiminnot integroituvat liittyviin toimintoihin, kuten myyntiin, suunnitteluun, varauksiin ja varastointiin:  
 
@@ -51,9 +51,9 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 |Tietoja kokoonpanon tuoterakenteiden käyttämisestä ja niiden eroista tuotannon tuoterakenteisiin.|[Kokoonpanon tuoterakenteiden käyttäminen](assembly-how-work-assembly-boms.md)|
 |Tietoja kokoonpanon kulutuksen ja tuotoksen kirjaamisesta ja tavasta, jolla [!INCLUDE [prod_short](includes/prod_short.md)] jakaa nimike- ja resurssikustannukset kirjanpitoon.|[Rakennetiedot: Kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)  
 [Varasto](inventory-manage-inventory.md)  

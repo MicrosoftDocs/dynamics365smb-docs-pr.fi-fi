@@ -11,7 +11,7 @@ ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="set-up-payment-methods"></a><a name="set-up-payment-methods"></a>Maksutapojen määrittäminen
+# <a name="set-up-payment-methods"></a><a name="set-up-payment-methods"></a><a name="set-up-payment-methods"></a>Maksutapojen määrittäminen
 
 Maksutavat määrittävät, miten asiakkaiden halutaan ensisijaisesti maksavan ja miten haluat maksaa toimittajille. Maksutapa voi olla asiakas- tai toimittajakohtainen, Tyypillisiä maksutapoja ovat esimerkiksi **pankki**, **käteinen**, **sekki** tai **tili**.
 
@@ -23,7 +23,7 @@ Palautusten hyvityslaskut ovat kuitenkin poikkeuksia, sillä rahavirrat kulkevat
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE476Ys?rel=0]
 
-## <a name="to-set-up-a-payment-method"></a><a name="to-set-up-a-payment-method"></a>Maksutapojen määrittäminen
+## <a name="to-set-up-a-payment-method"></a><a name="to-set-up-a-payment-method"></a><a name="to-set-up-a-payment-method"></a>Maksutapojen määrittäminen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää muutamia yritysten usein käyttämiä maksutapoja. Voit kuitenkin lisätä niitä tarvittavan määrän.
 
@@ -32,14 +32,14 @@ Palautusten hyvityslaskut ovat kuitenkin poikkeuksia, sillä rahavirrat kulkevat
 
 Vaihtoehtoisesti voit lisätä maksuehdot maksutapaan. Lisätietoja on ohjeaiheessa [Maksuehtojen määrittäminen](finance-payment-terms.md).  
 
-## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a><a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Maksutavan määrittely asiakkaalle tai toimittajalle
+## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a><a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a><a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Maksutavan määrittely asiakkaalle tai toimittajalle
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakas** tai **Toimittaja** ja valitse sitten vastaava linkki.
 2. Valitse **Maksutavan koodi** -kentässä menetelmä, jota käytetään oletusarvoisesti asiakkaalle tai toimittajalle.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/cash-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md)  
 [Maksuehtojen määrittäminen](finance-payment-terms.md)  

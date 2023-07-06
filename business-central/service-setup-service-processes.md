@@ -10,7 +10,7 @@ ms.search.keywords: 'service, number sequences, setup, warnings, fee, contracts,
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="configure-service-processes"></a><a name="configure-service-processes"></a>Huoltoprosessien määrittäminen
+# <a name="configure-service-processes"></a><a name="configure-service-processes"></a><a name="configure-service-processes"></a>Huoltoprosessien määrittäminen
 Seuraavaksi käsitellään esimerkkejä asetuksista, joita voidaan käyttää huoltohallintoprosesseissa:  
   
 * Jotkin eri prosessien yleisasetukset, kuten varoitukset, laskelmat huoltonimikkeiden seuraavasta huollosta, arvioinnin aloitusmaksu ja käytettävä vianmääritystaso.  
@@ -19,11 +19,11 @@ Seuraavaksi käsitellään esimerkkejä asetuksista, joita voidaan käyttää hu
 * Sopimusten asetukset, kuten sopimushuoltotilauksissa käytettävien päivien enimmäismäärä, sopimuksen peruutuksessa mahdollisesti käytettävät syykoodit, sopimuskuvausten vakiotekstit ja sopimuksen arvot.  
 * Huoltoon liittyvissä asiakirjoissa ja nimikkeissä käytettävät numerosarjat.  
 
-## <a name="to-enter-general-and-mandatory-settings"></a><a name="to-enter-general-and-mandatory-settings"></a>Yleisten ja pakollisten asetusten antaminen
+## <a name="to-enter-general-and-mandatory-settings"></a><a name="to-enter-general-and-mandatory-settings"></a><a name="to-enter-general-and-mandatory-settings"></a>Yleisten ja pakollisten asetusten antaminen
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltohallinnon asetukset** ja valitse sitten vastaava linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 [Vian raportoinnin määrittäminen](service-how-setup-fault-reporting.md)  
 [Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md)  
 [Vakiohuoltokoodien määrittäminen](service-how-setup-service-coding.md)  

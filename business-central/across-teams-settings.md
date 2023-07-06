@@ -16,7 +16,7 @@ ms.contentlocale: fi-FI
 ms.lasthandoff: 02/15/2022
 ms.locfileid: "8133224"
 ---
-# <a name="changing-company-and-other-settings-in-teams"></a><a name="changing-company-and-other-settings-in-teams"></a><a name="changing-company-and-other-settings-in-teams"></a>Yrityksen ja muiden asetusten muuttaminen Teamsissa
+# <a name="changing-company-and-other-settings-in-teams"></a><a name="changing-company-and-other-settings-in-teams"></a><a name="changing-company-and-other-settings-in-teams"></a><a name="changing-company-and-other-settings-in-teams"></a>Yrityksen ja muiden asetusten muuttaminen Teamsissa
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -32,7 +32,7 @@ Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksessa on **Aset
 
    ![Business Centralin asetukset viestiruudusta.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Business Centralin ja Microsoft Teamsin integraation yleiskatsaus](across-teams-overview.md)  
 [Microsoft Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen](across-install-app-for-teams.md)  

@@ -9,7 +9,7 @@ ms.search.form: null
 ms.date: 09/19/2022
 ms.author: bholtorf
 ---
-# <a name="status-field-on-documents"></a><a name="status-field-on-documents"></a>Asiakirjojen tilarivi
+# <a name="status-field-on-documents"></a><a name="status-field-on-documents"></a><a name="status-field-on-documents"></a>Asiakirjojen tilarivi
 
 Kun luodaan tarjous, tilaus tai hyvityslasku, asiakirjaotsikon **Tila**-kentässä oletustilana on **Avoin**.
 
@@ -22,11 +22,11 @@ Kun olet täyttänyt asiakirjan, voit vapauttaa sen, niin [!INCLUDE[prod_short](
 | Odottaa hyväksyntää   | Asiakirja odottaa hyväksyntää. |
 | Odottaa ennakkomaksua | Asiakirjan ennakkomaksulasku on kirjattu. |
 
-## <a name="release-process"></a><a name="release-process"></a>Julkaisukäsittely
+## <a name="release-process"></a><a name="release-process"></a><a name="release-process"></a>Julkaisukäsittely
 
 Vapautusprosessia voidaan käyttää monella tapaa helpottamaan tavallista asiankäsittelyä ja seuraamaan yrityksen hyväksymismenettelyjä tai fyysisen varastoinnin aktiviteettien aloittamista.
 
-### <a name="approval-procedures"></a><a name="approval-procedures"></a>Hyväksymismenettelyt
+### <a name="approval-procedures"></a><a name="approval-procedures"></a><a name="approval-procedures"></a>Hyväksymismenettelyt
 
 Yrityksesi voi käyttää vapautusprosessia osoittaakseen, että toinen käyttäjä on hyväksynyt asiakirjan, tai että ulkoinen yhteyshenkilö voi vastata asiakirjan määrityksiin seuraavien esimerkkien tapaan:
 
@@ -36,11 +36,11 @@ Yrityksesi voi käyttää vapautusprosessia osoittaakseen, että toinen käyttä
 
 Lisätietoja hyväksynnän työnkuluista on kohdassa [Työnkulkujen käyttäminen](across-use-workflows.md).
 
-### <a name="warehouse-activities"></a><a name="warehouse-activities"></a>Fyysisen varaston aktiviteetit
+### <a name="warehouse-activities"></a><a name="warehouse-activities"></a><a name="warehouse-activities"></a>Fyysisen varaston aktiviteetit
 
 Jos tilauksen tila on **Avoin**, fyysinen varastointi ei aloita toimituksen valmistelua, eikä se odota vastaanottavansa ostotilauksen nimikkeitä. Kun vapautat tilauksen, ilmaiset, että tilaus on valmis ja että fyysinen varastointi voi sisällyttää sen aktiviteetteihinsa.
 
-## <a name="reopen-a-released-order"></a><a name="reopen-a-released-order"></a>Vapautetun tilauksen avaaminen uudelleen
+## <a name="reopen-a-released-order"></a><a name="reopen-a-released-order"></a><a name="reopen-a-released-order"></a>Vapautetun tilauksen avaaminen uudelleen
 
 Vapautettuun tilaukseen voi tehdä muutoksia avaamalla sen uudelleen. Riveillä olevia, fyysisen varastoinnin jo käsittelemiä määriä voi kuitenkin vain kasvattaa.
 
@@ -51,7 +51,7 @@ Jos vapautettuun tilaukseen tehdään muutoksia, fyysiselle varastoinnille tulee
 > [!NOTE]
 > Jos haluat kirjata yksittäisen avoimen tilauksen tai hyvityslaskun ilman, että ensin vapautat sen, [!INCLUDE [prod_short](includes/prod_short.md)] vapauttaa asiakirjan automaattisesti silloin, kun kirjaat sen. Jos kirjaat tilauksia tai hyvityslaskuja käyttämällä **Kirjaa erä** -toimintoa, voit valita kirjaavasi vain vapautetut tilaukset tai hyvityslaskut.
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Tuotteiden myyminen asiakkaan myyntitilauksen avulla](sales-how-sell-products.md)  
 [Ostojen kirjaaminen ostolaskujen avulla](purchasing-how-record-purchases.md)  

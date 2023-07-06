@@ -11,7 +11,7 @@ ms.search.forms: '5122, 5121, 5120, 5175, 5119, 5098, 5096'
 ms.date: 05/27/2022
 ms.author: jswymer
 ---
-# <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a><a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen
+# <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a><a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a><a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen
 
 Myyntisyklit ja myyntisyklin vaiheet on määritettävä ennen kuin voit ottaa myyntimahdollisuudet käyttöön. Myyntisykli muodostuu vaiheista alkuperäisestä yhteydenotosta aina kaupantekoon asti. Määrität kullekin vaiheelle vaatimukset, jotka on täytettävä, esimerkiksi myyntitarjouksen vaatiminen ennen mahdollisuuden siirtämistä seuraavaan vaiheeseen. Voit myös määrittää, voiko vaiheen ohittaa. Voit määrittää niin monta myyntisykliä kuin tarvitset. Voit määrittää myyntisykille niin monta myyntisyklin vaihetta kuin on tarpeen.
 
@@ -19,25 +19,25 @@ Mahdollisuuden myyntisyklien käyttöä varten sinun on määritettävä myyntis
 
 Tässä artikkelissa kerrotaan myös, miten tehtävät ja toiminnot määritetään ja miten toiminnoille määritetään tehtäviä. Lisätietoja on kohdassa [Tehtäviä sisältävien toimintojen määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md#to-set-up-activities-with-tasks).
 
-## <a name="to-set-up-opportunity-sales-cycle-codes"></a><a name="to-set-up-opportunity-sales-cycle-codes"></a>Mahdollisuuden myyntisyklin koodien määrittäminen
+## <a name="to-set-up-opportunity-sales-cycle-codes"></a><a name="to-set-up-opportunity-sales-cycle-codes"></a><a name="to-set-up-opportunity-sales-cycle-codes"></a>Mahdollisuuden myyntisyklin koodien määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntisyklit** ja valitse sitten vastaava linkki. Kaikki olemassa olevat myyntisyklit sisältävä **Myyntisyklit**-sivu avautuu.
 2. Valitse **Uusi**-toiminto ja täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Toista nämä vaiheet ja luo niin monta myyntijaksoa kuin haluat. Kun olet määrittänyt mahdollisuuden myyntikoodit, haluat ehkä määrittää kunkin syklin eri vaiheet.
 
-## <a name="to-define-opportunity-sales-cycle-stages"></a><a name="to-define-opportunity-sales-cycle-stages"></a>Mahdollisuuden myyntisyklin vaiheiden määrittäminen
+## <a name="to-define-opportunity-sales-cycle-stages"></a><a name="to-define-opportunity-sales-cycle-stages"></a><a name="to-define-opportunity-sales-cycle-stages"></a>Mahdollisuuden myyntisyklin vaiheiden määrittäminen
 
 1. Valitse **Myyntisyklit**-sivulla mahdollisuuden myyntisykli, jolle haluat määrittää vaiheet. Valitse sitten **Vaiheet**-toiminto. **Myyntisyklin vaiheet** -sivu avautuu.
 2. Valitse **Uusi**-toiminto, kun haluat syöttää myyntisykliin uuden vaiheen.
 
 Toista nämä vaiheet ja määritä myyntisyklille niin monta vaihetta kuin haluat.
 
-## <a name="to-assign-stage-cycles-to-opportunities"></a><a name="to-assign-stage-cycles-to-opportunities"></a>Syklin vaiheiden määrittäminen mahdollisuuksille
+## <a name="to-assign-stage-cycles-to-opportunities"></a><a name="to-assign-stage-cycles-to-opportunities"></a><a name="to-assign-stage-cycles-to-opportunities"></a>Syklin vaiheiden määrittäminen mahdollisuuksille
 
 Kun olet lisännyt mahdollisuuksien myyntisyklin, voit lisätä myyntimahdollisuuksia ja liittää mahdollisuuksiin vaiheen syklin määrittämällä **Myyntisyklin koodi** -kentän. Lisätietoja on kohdassa [Myyntimahdollisuuksien luominen](marketing-how-create-opportunities.md).
 
-## <a name="to-set-up-activities-with-tasks"></a><a name="to-set-up-activities-with-tasks"></a>Tehtäviä sisältävien toimintojen määrittäminen
+## <a name="to-set-up-activities-with-tasks"></a><a name="to-set-up-activities-with-tasks"></a><a name="to-set-up-activities-with-tasks"></a>Tehtäviä sisältävien toimintojen määrittäminen
 
 Voit yhdistää toiminnoissa useita tehtäviä, kuten tehtäviä, joista jokainen edustaa vaihetta. Toiminnon tehtävät liittyvät toisiinsa päivämääräkaavan avulla. Voit määrittää toimintoja mahdollisuuksille, myyjille tai kontakteille.
 
@@ -45,7 +45,7 @@ Voit yhdistää toiminnoissa useita tehtäviä, kuten tehtäviä, joista jokaine
 2. Valitse **Uusi**-toiminto ja täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 3. Täytä **Rivit**-pikavälilehdessä kentät, joilla määritetään vähintään yksi toiminnon tehtävä.
 
-## <a name="to-assign-tasks-or-activities-of-tasks-to-opportunities"></a><a name="to-assign-tasks-or-activities-of-tasks-to-opportunities"></a>Tehtävien tai tehtävätoimintojen määrittäminen mahdollisuuksiin
+## <a name="to-assign-tasks-or-activities-of-tasks-to-opportunities"></a><a name="to-assign-tasks-or-activities-of-tasks-to-opportunities"></a><a name="to-assign-tasks-or-activities-of-tasks-to-opportunities"></a>Tehtävien tai tehtävätoimintojen määrittäminen mahdollisuuksiin
 
 Kun ole määrittänyt tehtävän, voit määrittää sen myyntimahdollisuudelle ja siten toiminnon, jolle tehtävä kuuluu.
 
@@ -65,7 +65,7 @@ Seuraavassa menettelyssä toimintotehtävät määritetään mahdollisuuksille. 
 6. Valitse **Tehtäväluettelo**-sivulla ensin uusi tehtävä ja sitten **Määritä aktiviteetit** -toiminto.
 7. Täytä **Määritä aktiviteetti** -sivulla tarvittavat kentät ja valitse sitten **OK**-painike.
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Myyntimahdollisuuksien käsitteleminen](marketing-processing-sales-opportunities.md)  
 [Myynti](sales-manage-sales.md)  

@@ -11,9 +11,9 @@ ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="keyboard-quick-reference---pc-only"></a><a name="keyboard-quick-reference---pc-only"></a>Näppäimistön Pikaohje - Vain PC
+# <a name="keyboard-quick-reference---pc-only"></a><a name="keyboard-quick-reference---pc-only"></a><a name="keyboard-quick-reference---pc-only"></a>Näppäimistön Pikaohje - Vain PC
 
-#### <a name="general"></a><a name="general"></a>Yleiset
+#### <a name="general"></a><a name="general"></a><a name="general"></a>Yleiset
 
 |Käytettävät näppäimet|Tehtävä|  
 |-|-|
@@ -39,7 +39,7 @@ ms.custom: bap-template
 |<kbd>Sarkain</kbd>/<kbd>Vaihto</kbd>+<kbd>Sarkain</kbd>|Siirrä kohdistus seuraavaan/edelliseen elementtiin|
 |<kbd>F6</kbd>/<kbd>Vaihto</kbd>+<kbd>F6</kbd>|Siirry seuraavaan pikavälilehteen/osaan|
 
-#### <a name="navigate--select-rows"></a><a name="navigate--select-rows"></a>Siirtyminen ja rivien valitseminen
+#### <a name="navigate--select-rows"></a><a name="navigate--select-rows"></a><a name="navigate--select-rows"></a>Siirtyminen ja rivien valitseminen
 
 |Käytettävät näppäimet|Tehtävä|
 |-|-|
@@ -53,14 +53,14 @@ ms.custom: bap-template
 |<kbd>Vaihto</kbd>+<kbd>Page Up</kbd>/<kbd>Down</kbd>|Valitse näkyvät rivit ylä-/alapuolella|
 |<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Kohdistus luettelon ulkopuolella|
 
-#### <a name="copy--paste"></a><a name="copy--paste"></a>Kopioi ja liitä
+#### <a name="copy--paste"></a><a name="copy--paste"></a><a name="copy--paste"></a>Kopioi ja liitä
 
 |Käytettävät näppäimet|Tehtävä|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Kopioi/liitä rivit|
 |<kbd>F8</kbd>|Kopioi yläpuolella oleva kenttä nykyiselle riville|
 
-#### <a name="search-filter--sort"></a><a name="search-filter--sort"></a>Haku, suodatus ja lajittelu
+#### <a name="search-filter--sort"></a><a name="search-filter--sort"></a><a name="search-filter--sort"></a>Haku, suodatus ja lajittelu
 
 |Käytettävät näppäimet|Tehtävä|
 |-|-|
@@ -71,20 +71,20 @@ ms.custom: bap-template
 |<kbd>Vaihto</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Lisää valittuun kenttään suodatin|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Vaihto</kbd>+<kbd>F3</kbd>|Nollaa suodattimet|
 
-#### <a name="quick-entry"></a><a name="quick-entry"></a>Pikatapahtuma
+#### <a name="quick-entry"></a><a name="quick-entry"></a><a name="quick-entry"></a>Pikatapahtuma
 
 |Käytettävät näppäimet|Tehtävä|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Vaihto</kbd>+<kbd>Enter</kbd>|Siirry seuraavaan pikatapahtumakenttään luettelon ulkopuolella|
 |<kbd>Enter</kbd>/<kbd>vaihto</kbd>+<kbd>Enter</kbd>|Siirry seuraavaan/edelliseen pikatapahtumakenttään|
 
-##### <a name="report-preview"></a><a name="report-preview"></a>Raportin esikatselu
+##### <a name="report-preview"></a><a name="report-preview"></a><a name="report-preview"></a>Raportin esikatselu
 
 |Käytettävät näppäimet|Tehtävä|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd>/<kbd>End</kbd>|Siirry ensimmäiselle/viimeiselle sivulle|
 
-#### <a name="numeric-keypad"></a><a name="numeric-keypad"></a>Numeronäppäimistö
+#### <a name="numeric-keypad"></a><a name="numeric-keypad"></a><a name="numeric-keypad"></a>Numeronäppäimistö
 
 |Käytettävät näppäimet|Tehtävä|  
 |-|-|

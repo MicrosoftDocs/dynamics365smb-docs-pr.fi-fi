@@ -11,11 +11,11 @@ ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="terminology-in-cost-accounting"></a><a name="terminology-in-cost-accounting"></a>Termit kustannuslaskennassa
+# <a name="terminology-in-cost-accounting"></a><a name="terminology-in-cost-accounting"></a><a name="terminology-in-cost-accounting"></a>Termit kustannuslaskennassa
 
 Tässä aiheessa määritellään keskeiset ehdot, joita käytetään kustannuslaskennassa.  
 
-## <a name="key-terms"></a><a name="key-terms"></a>Keskeiset termit
+## <a name="key-terms"></a><a name="key-terms"></a><a name="key-terms"></a>Keskeiset termit
 
  Seuraavassa taulukossa on esitetty keskeiset määritelmät kustannuslaskennassa.  
 
@@ -43,9 +43,9 @@ Tässä aiheessa määritellään keskeiset ehdot, joita käytetään kustannusl
 |Muuttuva kustannus|Muuttuvat kustannukset ovat kuluja, jotka muuttuvat suhteessa yrityksen toimintaan. Muuttuvat kustannukset ovat kaikkien tuotettujen yksiköiden marginaalikustannusten summa. Kokonaiskustannusten kaksi osaa muodostuvat kiinteistä kustannuksista ja muuttuvista kustannuksista.|  
 |Variantti|Varianttia käytetään valinnaisena käyttäjän määrittämänä nimenä määrityksille. Etiketin tarkoitus on suodattaa jakoryhmiä.|  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
  [Tietoja kustannuslaskennasta](finance-about-cost-accounting.md)  
  [Kustannuslaskenta](finance-manage-cost-accounting.md)  

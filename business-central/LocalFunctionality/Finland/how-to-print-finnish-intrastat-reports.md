@@ -18,7 +18,7 @@ ms.contentlocale: fi-FI
 ms.lasthandoff: 09/30/2022
 ms.locfileid: "9605671"
 ---
-# <a name="print-finnish-intrastat-reports"></a><a name="print-finnish-intrastat-reports"></a><a name="print-finnish-intrastat-reports"></a>Suomen Intrastat-raporttien tulostaminen
+# <a name="print-finnish-intrastat-reports"></a><a name="print-finnish-intrastat-reports"></a><a name="print-finnish-intrastat-reports"></a><a name="print-finnish-intrastat-reports"></a>Suomen Intrastat-raporttien tulostaminen
 
 Euroopan unionissa olevien yritysten on raportoitava kaupankäyntinsä muiden EU-maiden/alueiden kanssa tiettyjen sääntöjen mukaisesti. Tavaroiden siirrot on raportoitava omien maiden/alueiden Intrastat-viranomaisille.  
 
@@ -26,14 +26,14 @@ Valmiit tapahtumat voidaan lähettää tiedostona Intrastat-viranomaisille tai v
 
 [!INCLUDE[intrastat-2022w2](../../includes/intrastat-2022w2.md)]
 
-## <a name="to-print-a-finnish-intrastat-report"></a><a name="to-print-a-finnish-intrastat-report"></a><a name="to-print-a-finnish-intrastat-report"></a>Suomen Intrastat-raportin tulostaminen
+## <a name="to-print-a-finnish-intrastat-report"></a><a name="to-print-a-finnish-intrastat-report"></a><a name="to-print-a-finnish-intrastat-report"></a><a name="to-print-a-finnish-intrastat-report"></a>Suomen Intrastat-raportin tulostaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Intrastat-ilmoitus** ja valitse sitten vastaava linkki.  
 2. Kirjoita erän nimi Intrastat-raporttiin.  
 3. Valitse **Tulosta**-toiminto ja valitse sitten **Tarkistusluetteloraportti**-toiminto.  
 4. Valitse **Tulosta**-toiminto.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Suomen paikalliset toiminnot](finland-local-functionality.md)  
 [Intrastat-raportoinnin määrittäminen](../../finance-how-setup-report-intrastat.md)  

@@ -10,7 +10,7 @@ ms.search.form: null
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# <a name="save-and-personalize-list-views"></a><a name="save-and-personalize-list-views"></a>Luettelonäkymien tallentaminen ja mukauttaminen
+# <a name="save-and-personalize-list-views"></a><a name="save-and-personalize-list-views"></a><a name="save-and-personalize-list-views"></a>Luettelonäkymien tallentaminen ja mukauttaminen
 
 Jos olet määrittänyt luettelon suodattimen ja haluat säilyttää suodattimen myöhempää käyttöä varten, voit tallentaa sen näkymänä. Lisätietoja luetteloiden suodattamisesta on kohdassa [Suodattimien määrittäminen luetteloissa](ui-enter-criteria-filters.md#setting-filters-on-lists).
 
@@ -18,7 +18,7 @@ Jos näkymä on jo luotu, **Näkymät**-ryhmä näkyy suodatinruudun yläreunass
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="to-save-a-view"></a><a name="to-save-a-view"></a>Näkymän tallentaminen
+## <a name="to-save-a-view"></a><a name="to-save-a-view"></a><a name="to-save-a-view"></a>Näkymän tallentaminen
 
 1. Avaa jokin luettelosivu.
 2. Valitse ![Suodatinruudun kuvake.](media/open-filter-pane-icon.png "Suodatinruudun kuvake") luettelon yläosassa ja avaa suodatinruutu näppäinyhdistelmä <kbd>Vaihto</kbd>+<kbd>F3</kbd>.
@@ -34,16 +34,16 @@ Jos et anna näkymälle nimeä, sen nimeksi tulee **Kaikki (kopio)**.
 > [!TIP]
 > Etkö näe ![Tallenna näkymä](media/save_view_icon.png "Tallenna näkymä") -kuvaketta? Lisätietoja on kohdassa [Miksi tallennuskuvaketta ei ole](/dynamics365/business-central/ui-views-faq#save).
 
-## <a name="to-rename-or-remove-a-view"></a><a name="to-rename-or-remove-a-view"></a>Näkymän nimeäminen uudelleen tai poistaminen
+## <a name="to-rename-or-remove-a-view"></a><a name="to-rename-or-remove-a-view"></a><a name="to-rename-or-remove-a-view"></a>Näkymän nimeäminen uudelleen tai poistaminen
 
 1. Valitse näkymässä, jossa luettelo on tällä hetkellä näkyvissä, ![Näytä lisää asetuksia.](media/show-more-options-icon.png "Näytä enemmän vaihtoehtoja") -kuvake nähdäksesi, mitkä vaihtoehdot ovat käytettävissä.
 2. Valitse joko **Nimeä uudelleen**- tai **Poista**-toiminto.
 
-## <a name="managing-many-views"></a><a name="managing-many-views"></a>Useiden näkymien hallinta
+## <a name="managing-many-views"></a><a name="managing-many-views"></a><a name="managing-many-views"></a>Useiden näkymien hallinta
 
 Kun sivulla olevien näkymien määrä kasvaa, näkymien näkymistä suodatinruudussa on ehkä voitava hallita paremmin. **Mukautus**-palkin avulla voit piilottaa tarpeettomat näkymät tai järjestää näkymät parhaaseen mahdolliseen järjestykseen. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Luettelonäkymien usein kysytyt kysymykset](ui-views-faq.yml)  
 [Työtilan mukauttaminen](ui-personalization-user.md)    

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: edupont
 ---
-# <a name="export-and-import-approval-workflows"></a><a name="export-and-import-approval-workflows"></a>Hyväksyntätyönkulkujen vienti ja tuonti
+# <a name="export-and-import-approval-workflows"></a><a name="export-and-import-approval-workflows"></a><a name="export-and-import-approval-workflows"></a>Hyväksyntätyönkulkujen vienti ja tuonti
 
 Voit siirtää työnkulkuja muihin [!INCLUDE[prod_short](includes/prod_short.md)] tietokantoihin. esimerkiksi luotaessa uusia työnkuluja voidaan aikaa säästääksesi viedä ja tuoda työnkulkuja.  
 
@@ -18,12 +18,12 @@ Toinen tapa luoda nopeasti työnkulut on työnkulkumallien käyttäminen. Lisät
 
 Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan. Työnkulku määritetään täyttämällä työnkulkurivien kentät käyttämällä tapahtumien kiinteitä luetteloita ja vastausarvoja, jotka edustavat sovelluskoodin tukemia skenaarioita. Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).  
 
-## <a name="export-a-workflow"></a><a name="export-a-workflow"></a>Työnkulun vieminen
+## <a name="export-a-workflow"></a><a name="export-a-workflow"></a><a name="export-a-workflow"></a>Työnkulun vieminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut**, valitse sitten vastaava linkki.  
 2. Valitse ensin työnkulku, sitten **Vie tiedostoon** -toiminto.  
 
-## <a name="import-a-workflow"></a><a name="import-a-workflow"></a>Työnkulun tuominen
+## <a name="import-a-workflow"></a><a name="import-a-workflow"></a><a name="import-a-workflow"></a>Työnkulun tuominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut**, valitse sitten vastaava linkki.  
 2. Valitse **Tuo tiedostosta** -toiminto.  
@@ -32,7 +32,7 @@ Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riv
 > [!CAUTION]  
 > Jos työnkulun koodi on jo tietokannassa, työnkulun osavaiheita korvataan tuodun työnkulun vaiheilla.  
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Luo hyväksymistyönkulut](across-how-to-create-workflows.md)  
 [Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md)  

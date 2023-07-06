@@ -10,7 +10,7 @@ ms.search.keywords: 'design, reconciliation, general ledger, inventory'
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-reconciliation-with-the-general-ledger"></a><a name="design-details-reconciliation-with-the-general-ledger"></a>Rakennetiedot: täsmäytys pääkirjanpidon kanssa
+# <a name="design-details-reconciliation-with-the-general-ledger"></a><a name="design-details-reconciliation-with-the-general-ledger"></a><a name="design-details-reconciliation-with-the-general-ledger"></a>Rakennetiedot: täsmäytys pääkirjanpidon kanssa
 Kun kirjaat varastotapahtumia, kuten myyntitoimituksia, tuotannon tuloksia tai negatiivisia muutoksia, ohjelma kirjaa varaston määrien muutokset nimiketapahtumiin ja varaston arvojen muutokset arvotapahtumiin. Prosessin seuraava vaihe on kirjata varastoarvot pääkirjanpidon varastotileille.  
 
 Inventointipäiväkirjan ja pääkirjanpidon voi täsmäyttää kahdella eri tavalla:  
@@ -18,22 +18,22 @@ Inventointipäiväkirjan ja pääkirjanpidon voi täsmäyttää kahdella eri tav
 * Manuaalisesti suorittamalla **Kirjaa varaston kustannus KP:oon** -eräajo.  
 * Automaattisesti aina, kun kirjaat varastotapahtuman.  
 
-## <a name="post-inventory-cost-to-gl-batch-job"></a><a name="post-inventory-cost-to-gl-batch-job"></a>Kirjaa varaston kust. KP:oon -eräajo
+## <a name="post-inventory-cost-to-gl-batch-job"></a><a name="post-inventory-cost-to-gl-batch-job"></a><a name="post-inventory-cost-to-gl-batch-job"></a>Kirjaa varaston kust. KP:oon -eräajo
 Kun suoritat **Kirjaa varaston kustannus KP:oon** -eräajon, KP-tapahtumat luodaan arvotapahtumien perusteella. Voit tehdä yhteenvedon pääkirjanpidon tapahtumista jokaisen arvotapahtuman osalta tai luoda pääkirjanpidon tapahtumat jokaiselle kirjauspäivämääräyhdistelmälle, sijaintikoodille, varaston kirjausryhmälle, yleisen liiketoiminnan kirjausryhmälle ja yleisen tuotteen kirjausryhmälle.  
 
 Pääkirjan kirjausten tiliöintipäivät on määritetty vastaavan arvokirjauksen tiliöintipäiväksi lukuun ottamatta sitä, kun arvokirjaus osuu suljetulle kirjanpitokaudelle. Tässä tapauksessa arvotapahtuma ohitetaan ja sinun on muutettava joko pääkirjanpidon asetusta tai käyttäjäasetusta kirjaamisen asettamiseksi käyttöön päivämääräalueella.  
 
 Tämän **Kirjaa varaston kustannus KP:oon** -eräajon suoritus saattaa aiheuttaa virheitä, koska dimension asetukset puuttuvat tai ne eivät ole yhteensopivia. Jos dimension asetuksissa havaitaan virheitä eräajon aikana, eräajo ohittaa nämä virheet ja käyttää arvotapahtuman dimensioita. Muiden virheiden kohdalla eräajo jättää arvotapahtumat kirjaamatta ja listaa ne raportin lopussa osassa **Ohitetut tapahtumat**. Voit kirjata nämä tapahtumat korjattuasi ensin virheet. Saat virheluettelon näkyviin ennen eräajoa, kun suoritat **Kirjaa varaston kustannukset kirjanpitoon - Testaa** -raportin. Tämä raportti luetteloi kaikki testikirjauksen aikana havaitut virheet. Voit korjata virheet ja suorittaa sitten varaston kustannusten kirjauksen eräajon niin, että tapahtumia ei ohiteta.  
 
-## <a name="automatic-cost-posting"></a><a name="automatic-cost-posting"></a>Automaattinen kustann. kirjaus
+## <a name="automatic-cost-posting"></a><a name="automatic-cost-posting"></a><a name="automatic-cost-posting"></a>Automaattinen kustann. kirjaus
 Voit määrittää pääkirjanpidon kustannusten kirjaamisen automaattiseksi varastotapahtuman kirjaamisen yhteydessä valitsemalla **Varastonhallinnan asetukset** -sivun **Automaattinen kustann. kirjaus** -valintaruudun. Pääkirjan kirjauksen tiliöintipäivä on sama kuin nimikkeen pääkirjan kirjauksen tiliöintipäivä.  
 
-## <a name="account-types"></a><a name="account-types"></a>Tilityypit
+## <a name="account-types"></a><a name="account-types"></a><a name="account-types"></a>Tilityypit
 Täsmäytyksessä varastoarvot kirjataan taseen varastotilille. Sama summa, mutta kumousmerkillä, tiliöidään asianmukaiseen tasapainotustiliin. Yleensä vastatili on tuloslaskelmatili. Kun kirjaat kulutukseen tai tuotokseen liittyvän välittömän kustannuksen, vastatili on tasetili. Nimiketapahtuman ja arvotapahtuman tyyppi määrittää sen, mille kirjanpitotilille kirjaus tehdään.  
 
 Kirjaustyyppi määrittää sen, mihin pääkirjan tiliin tiliöinti tehdään. Tämä määritetään joko nimiketapahtuman määrän etumerkillä tai arvotapahtuman arvostetulla määrällä, koska määrillä on aina sama etumerkki. Esimerkiksi myyntitapahtuma positiivisella määrällä kuvaa myynnin aiheuttamaa varaston arvon laskua ja myyntitapahtuma negatiivisella määrällä kuvaa myyntipalautuksen aiheuttamaa varaston arvon lisäystä.  
 
-### <a name="example"></a><a name="example"></a>Esimerkki
+### <a name="example"></a><a name="example"></a><a name="example"></a>Esimerkki
 Seuraavassa esimerkissä kuvataan polkupyörän ketju, joka on valmistettu ostetuista lenkeistä. Tämä esimerkki osoittaa, miten eri pääkirjanpidon tilityyppejä käytetään tavallisessa skenaariossa.  
 
 **Varastonhallinnan asetukset** -sivulla on valittu **Oletettu kust. kirjaus KP:oon** -valintaruutu ja seuraavat asetukset on määritetty.  
@@ -61,7 +61,7 @@ Seuraavassa taulukossa esitetään, kuinka työkeskus on määritetty työkeskus
 |**Välitön yksikkökustannus**|2.00 PVA|  
 |**Välillinen kustannusprosentti**|10|  
 
-##### <a name="scenario"></a><a name="scenario"></a>Esimerkkitilanne
+##### <a name="scenario"></a><a name="scenario"></a><a name="scenario"></a>Esimerkkitilanne
 1. Käyttäjä ostaa 150 lenkkiä ja kirjaa ostotilauksen vastaanotetuksi. (Osto)  
 2. Käyttäjä kirjaa ostotilauksen laskutetuksi. Tämä luo kohdistettavan yleiskustannussumman 3,00 (PVA) ja erosumman 18,00 (PVA). (Osto)  
 
@@ -110,7 +110,7 @@ Seuraavassa taulukossa esitetään, kuinka työkeskus on määritetty työkeskus
 
 Saat lisätietoja tilityyppien välisestä suhteesta ja erityyppisistä arvotapahtumista kohdasta [Rakennetiedot: pääkirjanpidon tilit](design-details-accounts-in-the-general-ledger.md).  
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)   
 [Rakennetiedot: oletetun kustannuksen kirjaus](design-details-expected-cost-posting.md)   
 [Rakennetiedot: Kustannusten muuttaminen](design-details-cost-adjustment.md)

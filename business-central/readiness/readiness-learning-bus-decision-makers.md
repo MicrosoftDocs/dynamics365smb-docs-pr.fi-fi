@@ -7,19 +7,19 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="business-decision-makers-learning-catalog"></a><a name="business-decision-makers-learning-catalog"></a>Liiketoiminnan päätöksentekijöiden opintoluettelo
+# <a name="business-decision-makers-learning-catalog"></a><a name="business-decision-makers-learning-catalog"></a><a name="business-decision-makers-learning-catalog"></a>Liiketoiminnan päätöksentekijöiden opintoluettelo
 
 Päätätkö sinä investoidaanko uusiin teknologioihin?
 
 Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja perustiedoista kaikkein kehittyneimpiin. Jos sisältöä on useissa muodoissa, ilmoitamme siitä sinulle, jotta voit valita tarpeitasi parhaiten vastaavan koulutusmuodon.  
 
-## <a name="business-value"></a><a name="business-value"></a>Liiketoiminta-arvo<a name="busvalue"></a>
+## <a name="business-value"></a><a name="business-value"></a><a name="business-value"></a>Liiketoiminta-arvo<a name="busvalue"></a>
 
 | Sisältö                                                                 | Kuvaus                                                                                                | Muoto                                | Pituus     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | Tämä moduuli näyttää sovelluksen ominaisuudet, hyödyt ja esimerkit Dynamics 365 Business Centralista käytännössä. | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 24 minuuttia |
 
-## <a name="getting-started"></a><a name="getting-started"></a>Käytön aloittaminen<a name="get-started"></a>
+## <a name="getting-started"></a><a name="getting-started"></a><a name="getting-started"></a>Käytön aloittaminen<a name="get-started"></a>
 
 | Sisältö                                                                                                                             | Kuvaus                                                                                                                                                                                                                                                                                      | Muoto                                | Pituus             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|

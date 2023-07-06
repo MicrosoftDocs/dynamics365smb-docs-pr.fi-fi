@@ -11,7 +11,7 @@ ms.search.form: '44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
 ms.date: 09/27/2021
 ms.author: edupont
 ---
-# <a name="process-sales-returns-or-cancellations"></a><a name="process-sales-returns-or-cancellations"></a>Myynnin palautusten tai peruutusten käsittely
+# <a name="process-sales-returns-or-cancellations"></a><a name="process-sales-returns-or-cancellations"></a><a name="process-sales-returns-or-cancellations"></a>Myynnin palautusten tai peruutusten käsittely
 
 Jos asiakas haluaa palauttaa nimikkeitä tai saada hyvitystä nimikkeistä tai palveluista, jotka olet myynyt ja joista olet saanut maksun, sinun on luotava ja kirjattava myyntihyvityslasku, joka määrittää pyydetyn muutoksen. Voit sisällyttää oikeat myyntilaskun tiedot seuraavasti:  
 
@@ -30,7 +30,7 @@ Hyvityslaskun kirjaaminen palauttaa myös mahdolliset kirjattuun asiakirjaan mä
 > [!NOTE]
 > Myyntipalautusten kirjanpitonäkökohtia, kuten asiakkaille maksettavia maksuja, pidetään kirjanpitona, eikä niitä ole kuvattu tässä. Lisätietoja on kohdassa [Ostovelkojen hallinta](payables-manage-payables.md).
 
-## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a><a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Myyntihyvityslaskun luominen kirjatusta myyntilaskusta
+## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a><a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a><a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Myyntihyvityslaskun luominen kirjatusta myyntilaskusta
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut myyntilaskut** ja valitse sitten vastaava linkki.  
 2. Valitse **Kirjatut myyntilaskut** -sivulla kirjattu myyntilasku, jonka haluat peruuttaa, ja valitse **Peruuta**-toiminto ja sitten **Luo korjaava hyvityslasku** -toiminto.
@@ -53,7 +53,7 @@ Hyvityslaskun kirjaaminen palauttaa myös mahdolliset kirjattuun asiakirjaan mä
 
 Kirjatut myyntiasiakirjat, jotka kohdistettiin hyvityslaskuun, on nyt peruutettu, ja asiakkaalle voidaan luoda palautusmaksu. Myyntihyvityslasku poistetaan ja korvataan uudella kirjattujen myyntihyvityslaskujen luettelon asiakirjalla.
 
-## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a><a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Myyntihyvityslaskun luominen kopioimalla kirjattu myyntilasku
+## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a><a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a><a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Myyntihyvityslaskun luominen kopioimalla kirjattu myyntilasku
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntihyvityslaskut** ja valitse sitten vastaava linkki.
 2. Avaa uusi tyhjä myyntihyvityslasku valitsemalla **Uusi**-toiminto.
@@ -65,7 +65,7 @@ Kirjatut myyntiasiakirjat, jotka kohdistettiin hyvityslaskuun, on nyt peruutettu
 8. Valitse **OK**-painike. Kopioidut laskurivit lisätään myyntihyvityslaskuun.
 9. Täytä myyntihyvityslasku kohdan [Myyntihyvityslaskun luominen kirjatusta myyntilaskusta](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice) mukaisesti.
 
-## <a name="to-create-a-sales-allowance"></a><a name="to-create-a-sales-allowance"></a>Myyntialennuksen luominen
+## <a name="to-create-a-sales-allowance"></a><a name="to-create-a-sales-allowance"></a><a name="to-create-a-sales-allowance"></a>Myyntialennuksen luominen
 Joskus asiakkaalle täytyy lähettää hyvityslasku, jossa on hinnanalennus, jos asiakas on esimerkiksi vastaanottanut nimikkeet hieman vahingoittuneina tai saanut ne myöhässä.  
 Voit kirjata tämän alennushinnan nimikekuluna hyvityslaskuun tai palautustilaukseen ja määritellä sen kirjattuun toimitukseen. Seuraavassa se käsitellään myyntihyvityslaskun osalta, mutta samat vaiheet koskevat myös myyntipalautustilausta.
 
@@ -81,7 +81,7 @@ Voit kirjata tämän alennushinnan nimikekuluna hyvityslaskuun tai palautustilau
 
 Kun kirjaat myyntipalautustilauksen, ohjelma lisää myyntialennuksen asianmukaisen myyntitapahtuman summaan. Tällä tavoin voit ylläpitää täsmällistä varaston arvostusta.
 
-## <a name="to-combine-return-receipts"></a><a name="to-combine-return-receipts"></a>Palautusvastaanottojen yhdistäminen
+## <a name="to-combine-return-receipts"></a><a name="to-combine-return-receipts"></a><a name="to-combine-return-receipts"></a>Palautusvastaanottojen yhdistäminen
 Tämä toiminto on hyödyllinen, jos asiakkaasi palauttaa useita nimikkeitä, jotka korvataan eri myyntipalautustilauksilla.  
 
 Kun vastaanotat nimikkeet varastollesi, kirjaa asianmukaiset myyntipalautustilaukset vastaanotetuiksi. Tällä tavoin luodaan kirjatut palautusvastaanotot.  
@@ -90,7 +90,7 @@ Sitten kun olet valmis laskuttamaan asiakasta, voit luoda myyntihyvityslaskun ja
 
 **Asiakaskortti**-sivun **Tee koontilasku** -valintaruutu on valittava, jotta palautusvastaanottoja voidaan yhdistää.  
 
-### <a name="to-manually-combine-return-receipts"></a><a name="to-manually-combine-return-receipts"></a>Palautusvastaanottojen yhdistäminen manuaalisesti
+### <a name="to-manually-combine-return-receipts"></a><a name="to-manually-combine-return-receipts"></a><a name="to-manually-combine-return-receipts"></a>Palautusvastaanottojen yhdistäminen manuaalisesti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntihyvityslaskut** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.
@@ -104,7 +104,7 @@ Sitten kun olet valmis laskuttamaan asiakasta, voit luoda myyntihyvityslaskun ja
 6.  Jos valitsit virheellisen rivin tai haluat aloittaa alusta, voit yksinkertaisesti poistaa hyvityslaskun rivit ja ajaa **Hae palautusvast.oton rivit** -toiminnon uudelleen.  
 7.  Kirjaa lasku.  
 
-### <a name="to-automatically-combine-return-receipts"></a><a name="to-automatically-combine-return-receipts"></a>Palautusvastaanottojen yhdistäminen automaattisesti
+### <a name="to-automatically-combine-return-receipts"></a><a name="to-automatically-combine-return-receipts"></a><a name="to-automatically-combine-return-receipts"></a>Palautusvastaanottojen yhdistäminen automaattisesti
 
 Voit yhdistää palautusvastaanotot automaattisesti. Voit myös kirjata hyvityslaskut automaattisesti  **Yhdistä palautusvastaanotot** -toiminnolla.  
 
@@ -113,7 +113,7 @@ Voit yhdistää palautusvastaanotot automaattisesti. Voit myös kirjata hyvitysl
 3. Valitse **Kirjaa hyvityslaskut** -valintaruutu. Muussa tapauksessa saatavat ostohyvityslaskut on kirjattava manuaalisesti.
 4. Valitse **OK**-painike.  
 
-### <a name="to-remove-a-received-and-invoiced-return-order"></a><a name="to-remove-a-received-and-invoiced-return-order"></a>Vastaanotettujen ja laskutettujen palautustilausten poistaminen
+### <a name="to-remove-a-received-and-invoiced-return-order"></a><a name="to-remove-a-received-and-invoiced-return-order"></a><a name="to-remove-a-received-and-invoiced-return-order"></a>Vastaanotettujen ja laskutettujen palautustilausten poistaminen
 
 Kun laskutat palautusvastaanotot näin, säilyvät palautustilaukset, joista palautusvastaanotot kirjattiin, vaikka ne olisi vastaanotettu ja laskutettu täysin.  
 
@@ -125,7 +125,7 @@ Kun palautusvastaanotot yhdistetään hyvityslaskuun ja kirjataan, hyvitetyille 
 
 Voit myös poistaa manuaalisesti yksittäiset myyntipalautustilaukset.  
 
-## <a name="inventory-costing"></a><a name="inventory-costing"></a>Varaston arvostus
+## <a name="inventory-costing"></a><a name="inventory-costing"></a><a name="inventory-costing"></a>Varaston arvostus
 
 Oikean varaston arvostuksen säilyttämistä varten palautetut nimikkeet viedään yleensä takaisin varastoon sillä yksikkökustannuksella, jolla ne myyntiin, eikä nykyisellä yksikkökustannuksella. Tätä kutsutaan todellisten kustannusten peruuttamiseksi.
 
@@ -140,9 +140,9 @@ Jos haluat määrittää todellisten kustannusten peruuttamisen manuaalisesti, s
 
 Lisätietoja on ohjeaiheessa [Rakenteen tiedot: Varaston arvostus](design-details-inventory-costing.md).
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/return-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  

@@ -11,7 +11,7 @@ ms.search.form: '1665,'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="the-ceridian-payroll-extension"></a><a name="the-ceridian-payroll-extension"></a>Ceridian Payroll -laajennus
+# <a name="the-ceridian-payroll-extension"></a><a name="the-ceridian-payroll-extension"></a><a name="the-ceridian-payroll-extension"></a>Ceridian Payroll -laajennus
 
 Jotta palkanmaksut ja liittyvät tapahtumat voidaan käsitellä, palkanlaskennan tarjoajan tekemät rahoitustapahtumat on tuotava ja kirjattava pääkirjanpitoon.
 
@@ -19,7 +19,7 @@ Voit tehdä tämän tuomalla ensin palkanlaskennan tarjoajalta saadun csv-tiedos
 
 Voit tuoda Ceridian Payroll -laajennuksella palkkatapahtumia Ceridian HR/Payroll (USA)- ja Ceridian PowerPay (Kanada) -palveluista.
 
-## <a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
 
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Rahoitus](finance.md)  
