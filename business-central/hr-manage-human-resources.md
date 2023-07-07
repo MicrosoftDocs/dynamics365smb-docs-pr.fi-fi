@@ -11,7 +11,7 @@ ms.search.form: '5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212, 5221, 5228'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="manage-human-resources"></a><a name="manage-human-resources"></a><a name="manage-human-resources"></a>Henkilöstöresurssien hallinta
+# <a name="manage-human-resources"></a>Henkilöstöresurssien hallinta
 
 Voit luoda tarkat työntekijätietueet [!INCLUDE[prod_short](includes/prod_short.md)]issa. Voit rekisteröidä ja ylläpitää työntekijöiden tietoja, kuten työsopimuksia, luottamuksellisia tietoja, pätevyystietoja ja työntekijäkontakteja.
 
@@ -26,7 +26,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Voit rekisteröidä uusia työntekijöitä tai muokata vanhoja työntekijätietueita, sekä liittää lisätietoja, kuten sopimuksia ja artikkeleita. |[Työntekijöiden rekisteröiminen](hr-how-register-employees.md) |
 | Kirjaa työntekijöiden poissaoloja ja tarkastele poissaolotilastoja eri suodattimien avulla. |[Työntekijöiden poissaolojen hallinta](hr-how-manage-absence.md) |
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Rahoitus](finance.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

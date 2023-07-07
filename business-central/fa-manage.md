@@ -17,7 +17,7 @@ ms.contentlocale: fi-FI
 ms.lasthandoff: 09/19/2022
 ms.locfileid: "9529296"
 ---
-# <a name="managing-fixed-assets"></a><a name="managing-fixed-assets"></a><a name="managing-fixed-assets"></a><a name="managing-fixed-assets"></a>Käyttöomaisuuden hallinta
+# <a name="managing-fixed-assets"></a>Käyttöomaisuuden hallinta
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman Käyttöomaisuus-sovellusalueesta saat yleiskuvan käyttöomaisuudestasi, ja se takaa oikeat jaksottaiset poistot. Se mahdollistaa myös kunnossapitokulujen seuraamisen, vakuutussopimusten hallinnoimisen, käyttöomaisuustransaktioiden kirjaamisen sekä monenlaisten raporttien ja tilastojen luomisen.
 
@@ -47,15 +47,15 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Kirjaa luovutustransaktiot, tarkastele luovutustapahtumia ja kirjaa osittaisia luovutuksia. |[Käyttöomaisuuden käytöstä poistaminen](fa-how-dispose-retire.md) |
 | Hallitse käyttöominaisuuserien budjetteja, budjetin hankintamenoja, käyttöomaisuuden luovutusten budjetointia ja poistojen budjetointia. |[Käyttöomaisuuden budjettien hallinta](fa-how-manage-budgets.md) |
 
-## <a name="video-overview"></a><a name="video-overview"></a><a name="video-overview"></a><a name="video-overview"></a>Videon yleiskuvaus
+## <a name="video-overview"></a>Videon yleiskuvaus
 
 Seuraava video kattaa käyttöomaisuuden perusteet.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/manage-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/manage-fixed-assets-transactions/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  

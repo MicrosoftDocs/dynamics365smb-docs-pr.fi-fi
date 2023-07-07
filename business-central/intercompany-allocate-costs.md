@@ -10,7 +10,7 @@ ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="allocate-costs-to-intercompany-partners"></a><a name="allocate-costs-to-intercompany-partners"></a><a name="allocate-costs-to-intercompany-partners"></a>Kustannusten kohdistaminen konsernikumppaneille
+# <a name="allocate-costs-to-intercompany-partners"></a>Kustannusten kohdistaminen konsernikumppaneille
 Kun käytät konsernin kirjauksia asiakirjojen siirtoon konsernikumppanien välillä, ALV:hen liittyvät asetukset (pääasiassa liiketoiminnan ALV-kirjausryhmä), jotka on määritetty (konsernikumppaniin liittyville) asiakas- tai toimittajatileille, määrittävät, lasketaanko ALV ja miten se lasketaan ja rekisteröidään. Voit myös tehdä kustannusten jakoja suoraan ostotilauksesta kumppaniyrityksiin. Jos esimerkiksi rekisteröit ostolaskun ulkopuoliselle toimittajalle ja haluat jakaa osan kustannuksista tai kaikki kustannukset yhdelle tai useammalle konsernikumppanille.
 
 Kustannuksia voi kohdistaa yhdelle tai useammalle konsernikumppanille seuraavasti:
@@ -18,7 +18,7 @@ Kustannuksia voi kohdistaa yhdelle tai useammalle konsernikumppanille seuraavast
 * **Konsernin yleiset päiväkirjat** - Nämä päiväkirjat ovat hyödyllisiä silloin, kun palvelu ostetaan. Esimerkiksi silloin, kun emoyritys palkkaa palvelun määrittämään tietokonejärjestelmiä kahdelle tytäryhtiölle. Lasku lähetetään emoyhtiölle, mutta kustannukset kohdistetaan konsernikumppaneille. Lisätietoja on kohdassa [Konsernin asiakirjojen ja päiväkirjojen käsitteleminen](intercompany-how-work-documents-journals.md).
 * Ostotilaukset ja laskut – Ostoasiakirjojen käyttäminen on hyödyllistä silloin, kun esimerkiksi käyttökulujen ostotoiminnot on keskitetty yhteen yritykseen ja kohdistettu sitten konsernikumppaneille.
 
-## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a><a name="to-allocate-costs-using-an-intercompany-general-journal"></a><a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Kustannusten kohdistaminen konsernin yleisen päiväkirjan avulla
+## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Kustannusten kohdistaminen konsernin yleisen päiväkirjan avulla
 Voit lisätä rivin konsernin yleiseen päiväkirjaan noudattamalla seuraavia vaiheita. 
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Konsernin yleinen päiväkirja** ja valitse sitten vastaava linkki.
@@ -42,7 +42,7 @@ Voit lisätä rivin konsernin yleiseen päiväkirjaan noudattamalla seuraavia va
    1. Täytä tarvittavat jäljellä olevat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Toista nämä vaiheet kaikkien niiden konsernikumppanien osalta, joiden tulisi jakaa kustannukset.
 1. Kun haluat kirjata asiakirjan ja kohdistaa kustannukset, valitse **Kirjaa**.  
 
-## <a name="to-allocate-costs-using-a-purchase-document"></a><a name="to-allocate-costs-using-a-purchase-document"></a><a name="to-allocate-costs-using-a-purchase-document"></a>Kustannusten kohdistaminen ostoasiakirjan avulla
+## <a name="to-allocate-costs-using-a-purchase-document"></a>Kustannusten kohdistaminen ostoasiakirjan avulla
 Seuraavassa kuvataan, miten kustannuksia kohdistetaan ostolaskun avulla. Ostotilausten vaiheet ovat vastaavanlaiset.
 
 > [!NOTE]
@@ -60,12 +60,12 @@ Seuraavassa kuvataan, miten kustannuksia kohdistetaan ostolaskun avulla. Ostotil
 1. Täytä tarvittavat jäljellä olevat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 1. Kun haluat kirjata ostotilauksen, valitse **Kirjaa**.
 
-## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a><a name="to-send-the-allocated-costs-to-intercompany-partners"></a><a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Kohdistettujen kustannusten lähettäminen konsernikumppaneille
+## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Kohdistettujen kustannusten lähettäminen konsernikumppaneille
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Konsernin Lähtevät-kansion tapahtumat** ja valitse sitten vastaava linkki.
 2. Valitse lähetettävät rivit ja valitse sitten **Lähetä konsernikumppanille** -toiminto. 
 3. Voit kohdistaa kustannukset valitsemalla **Toteuta rivitoiminnot** -toiminnon.
 
-## <a name="calculating-vat-for-cost-distributions"></a><a name="calculating-vat-for-cost-distributions"></a><a name="calculating-vat-for-cost-distributions"></a>ALV:n laskeminen kustannusten jaoille
+## <a name="calculating-vat-for-cost-distributions"></a>ALV:n laskeminen kustannusten jaoille
 Kun käytät asiakirjaa kustannusten jakamiseen konsernikumppaneille, huomaa kaksi ALV-asetusta: 
 * KP-tilin asetukset kulujen osalta:
    * Jos KP-tiliin on määritetty liiketoiminnan tai yleinen liiketoiminnan ALV-kirjausryhmä, laskenta riippuu asiakirjarivin ryhmistä ja tuoteryhmistä.
@@ -77,7 +77,7 @@ Kun käytät asiakirjaa kustannusten jakamiseen konsernikumppaneille, huomaa kak
 > [!NOTE]
 > On tärkeää tarkistaa sekä konsernikumppanin asetukset että KP-tilin asetukset (kustannusten jaossa käytetyn kulutilin osalta) ennen kustannusten kohdistamista konsernikumppaneille.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 [Konsernin tietojen määrittäminen](intercompany-how-setup.md)  
 [Konsernitapahtumien hallinta](intercompany-manage.md)  
 [Rahoitus](finance.md)  

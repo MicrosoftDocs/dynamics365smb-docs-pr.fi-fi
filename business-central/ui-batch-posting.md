@@ -11,11 +11,11 @@ ms.reviewer: edupont
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="post-multiple-documents-at-the-same-time"></a><a name="post-multiple-documents-at-the-same-time"></a><a name="post-multiple-documents-at-the-same-time"></a>Useiden asiakirjojen kirjaaminen samanaikaisesti
+# <a name="post-multiple-documents-at-the-same-time"></a>Useiden asiakirjojen kirjaaminen samanaikaisesti
 
 Sen sijaan että yksittäisiä asiakirjoja yksi kerrallaan, voit valita luettelosta useita kirjaamattomia asiakirjoja eräkirjausta varten. Tämä kirjaus voidaan tehdä heti tai se voidaan aikatauluttaa tapahtumaan vaikkapa päivän päätteeksi. Tämä voi olla kätevää, jos vain esimies voi kirjata muiden käyttäjien tekemiä asiakirjoja tai jos halutaan estää järjestelmän suorituskyvyn heikentyminen työaikana tehtävien kirjausten vuoksi.
 
-## <a name="to-post-multiple-purchase-orders-immediately"></a><a name="to-post-multiple-purchase-orders-immediately"></a><a name="to-post-multiple-purchase-orders-immediately"></a>Useiden ostotilausten kirjaaminen heti
+## <a name="to-post-multiple-purchase-orders-immediately"></a>Useiden ostotilausten kirjaaminen heti
 
 Useita ostotilauksia voi kirjata heti toimimalla seuraavasti. Vaiheet ovat samanlaiset kaikissa osto- ja myyntiasiakirjoissa.
 
@@ -26,7 +26,7 @@ Useita ostotilauksia voi kirjata heti toimimalla seuraavasti. Vaiheet ovat saman
 5. Valitse ensin **Kirjaus**-toiminto ja sitten **Kirjaa**-toiminto.
 6. Valitse vahvistusviestissä **Kyllä**.
 
-## <a name="to-batch-post-multiple-purchase-orders"></a><a name="to-batch-post-multiple-purchase-orders"></a><a name="to-batch-post-multiple-purchase-orders"></a>Useiden ostotilausten eräkirjaaminen
+## <a name="to-batch-post-multiple-purchase-orders"></a>Useiden ostotilausten eräkirjaaminen
 
 Ostotilauksia voi eräkirjata toimimalla seuraavasti. Vaiheet ovat samat kaikissa osto- ja myyntiasiakirjoissa, joissa **Eräkirjaus**-toiminto on käytettävissä.
 
@@ -42,7 +42,7 @@ Ostotilauksia voi eräkirjata toimimalla seuraavasti. Vaiheet ovat samat kaikiss
 > [!NOTE]
 > Usean asiakirjan kirjaaminen voi kestää jonkin aikaa ja estää muita käyttäjiä. Harkitse taustakirjauksen käyttöönottoa. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
 
-## <a name="to-set-up-background-posting-with-job-queues"></a><a name="to-set-up-background-posting-with-job-queues"></a><a name="to-set-up-background-posting-with-job-queues"></a>Taustakirjauksen määrittäminen työjonojen avulla
+## <a name="to-set-up-background-posting-with-job-queues"></a>Taustakirjauksen määrittäminen työjonojen avulla
 Työjonot ovat tehokas työkalu taustalla suoritettavien liiketoimintaprosessien ajoittamiseen. Kyse voi olla esimerkiksi useista käyttäjistä, jotka yrittävät kirjata myyntitilauksia, kun vain yksi tilaus voidaan käsitellä kerralla.  
 
 Seuraavaksi käsitellään myyntitilausten taustakirjausta. Ostoa koskevat vaiheet ovat samanlaisia.  
@@ -67,14 +67,14 @@ Seuraavaksi käsitellään myyntitilausten taustakirjausta. Ostoa koskevat vaihe
 4. Varmistaaksesi, että työjono toimii odotetulla tavalla, kirjaa myyntitilaus. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).
     Myyntitilaus lisätään nyt määritettyyn työjonotapahtumaan, joka määrittää, milloin asiakirjat kirjataan. 
 
-### <a name="to-view-status-from-a-sales-or-purchase-document"></a><a name="to-view-status-from-a-sales-or-purchase-document"></a><a name="to-view-status-from-a-sales-or-purchase-document"></a>Myynti- tai ostoasiakirjan tilan näyttäminen
+### <a name="to-view-status-from-a-sales-or-purchase-document"></a>Myynti- tai ostoasiakirjan tilan näyttäminen
 Jos työjono ei voi kirjata myyntitilausta, tilaksi muutetaan **Virhe** ja myyntitilaus lisätään niiden myyntitilausten luetteloon, jotka käyttäjän on käsiteltävä manuaalisesti.
 1. Valitse asiakirjassa, jonka yritit kirjata taustakirjauksena, **Työjonon tila** -kenttä, jossa on **Virhe**.
 2. Tarkastele virhesanomaa ja korjaa ongelma.
 
 Vaihtoehtoisesti voit tarkistaa **Työjonon lokitapahtumat** -sivulta, onnistuiko myyntitilauksen kirjaus. Lisätietoja on [Valvo työjonoa](#monitor-the-job-queue) -osassa.
 
-## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a><a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a><a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Työjonotapahtuman luonti myyntitilausten eräkirjausta varten
+## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Työjonotapahtuman luonti myyntitilausten eräkirjausta varten
 
 Vaihtoehtoisesti voit lykätä kirjaukset organisaatiolle parhaiten sopivaan ajankohtaan. Yrityksessä saattaa olla esimerkiksi hyödyllistä suorittaa tietyt toiminnot sen jälkeen, kun suurin osa päivän tiedoista on syötetty. Tämä on mahdollista, kun määrität työjonon ajamaan useita eräkirjausraportteja, kuten **Eräkirjaa myyntitilaukset**- ja **Eräkirjaa ostotilaukset** -raportit sekä vastaavat raportit. [!INCLUDE[prod_short](includes/prod_short.md)] tukee kaikkien myynti-, osto- ja huoltoasiakirjojen taustakirjausta.
 
@@ -111,13 +111,13 @@ Seuraavaksi selitetään, miten **Eräkirjaa myyntitilaukset** -raportti määri
 
 Määritettyjen suodattimien mukaiset myyntitilaukset kirjataan nyt joka arkipäivä kello 16.
 
-## <a name="monitor-the-job-queue"></a><a name="monitor-the-job-queue"></a><a name="monitor-the-job-queue"></a>Valvo työjonoa
+## <a name="monitor-the-job-queue"></a>Valvo työjonoa
 
 Jos määrität taustakirjauksen työjonojen avulla, tee työjonon seuranta tavalliseksi tehtäväksi ongelmien havaitsemiseksi. Voit tarkastella tilaa  **Työjonon tapahtumat** -sivulla. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).  
 
 Järjestelmänvalvojana voit [Application Insightsin](/azure/azure-monitor/app/app-insights-overview) avulla kerätä ja analysoida telemetriaa, jonka avulla voit tunnistaa ongelmia. Lisätietoja on kehittäjien ja järjestelmänvalvojien ohjeessa [Telemetrian seuranta ja analysoiminen](/dynamics365/business-central/dev-itpro/administration/telemetry-overview).  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Asiakirjojen ja päiväkirjojen kirjaaminen](ui-post-documents-journals.md)  
 [Työjonojen käyttäminen ajoitustehtäviin](admin-job-queues-schedule-tasks.md)  

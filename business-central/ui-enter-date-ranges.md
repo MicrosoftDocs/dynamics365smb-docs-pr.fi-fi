@@ -12,13 +12,13 @@ ms.date: 06/23/2021
 ms.author: edupont
 ---
 
-# <a name="work-with-calendar-dates-and-times"></a><a name="work-with-calendar-dates-and-times"></a><a name="work-with-calendar-dates-and-times"></a>Kalenterin päivämäärien ja aikojen käsitteleminen
+# <a name="work-with-calendar-dates-and-times"></a>Kalenterin päivämäärien ja aikojen käsitteleminen
 
 Päivämäärät ja -ajat voi syöttää usealla eri tavalla. [!INCLUDE[prod_short](includes/prod_long.md)] sisältää tehokkaita toimintoja, jotka nopeuttavat tietojen syöttämistä ja helpottavat monimutkaisten kalenterilausekkeiden kirjoittamista. Sovelluksessa on useita kohtia, joissa voi syöttää päivämääriä ja aikoja kenttiin. Esimerkiksi myyntitilauksessa voi määrittää lähetyspäivämäärän. Voit syöttää päivämäärät ja ajat luetteloiden tai raportin tietojen suodattamisen yhteydessä ja etsiä vain tiedot, joista olet kiinnostunut.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="check-your-region-and-language-settings"></a><a name="check-your-region-and-language-settings"></a><a name="check-your-region-and-language-settings"></a>Alueen ja kielen asetusten tarkistaminen
+## <a name="check-your-region-and-language-settings"></a>Alueen ja kielen asetusten tarkistaminen
 
 **Omat asetukset** -sivulla määritetään sovelluksessa käytettävä **alue** ja **kieli**. Nämä asetukset vaikuttavat päivämäärien ja aikojen syöttötapaan.
 
@@ -33,7 +33,7 @@ Päivämäärät ja -ajat voi syöttää usealla eri tavalla. [!INCLUDE[prod_sho
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
 
-## <a name="entering-dates"></a><a name="entering-dates"></a><a name="entering-dates"></a>Päivämäärien syöttäminen
+## <a name="entering-dates"></a>Päivämäärien syöttäminen
 
 Voit syöttää päivämääräkenttään päivämäärän alueasetuksen vakiomuodossa. Eri alueilla voidaan käyttää päivien, kuukausien ja vuosien välillä erilaisia erottimia. Esimerkiksi joillakin alueilla käytetään ajatusviivoja (kk-pp-vvvv) ja toisilla alueilla vinoviivoja (kk/pp/vvvv).  
 
@@ -45,7 +45,7 @@ Voit syöttää päivämääräkenttään päivämäärän alueasetuksen vakiomu
 
 Seuraavissa osissa esiteltyjen menetelmien ja muotojen avulla voit käyttää päivämääriä ja aikoja tuottavammin.
 
-### <a name="picking-dates-from-the-calendar"></a><a name="picking-dates-from-the-calendar"></a><a name="picking-dates-from-the-calendar"></a>Päivämäärien valitseminen kalenterista
+### <a name="picking-dates-from-the-calendar"></a>Päivämäärien valitseminen kalenterista
 
 Mitä tahansa kalenterikuvakkeen sisältävä kenttä voidaan määrittää kalenterin päivämäärän valitsimen avulla. Voit näyttää kalenterin päivämäärän valitsimen aktivoimalla kalenterikuvakkeen tai painamalla kentässä pikanäppäimiä <kbd>Ctrl</kbd>+<kbd>Home</kbd>.
 
@@ -53,7 +53,7 @@ Mitä tahansa kalenterikuvakkeen sisältävä kenttä voidaan määrittää kale
 
 Katso myös [Kalenterin päivämäärän valitsimen pikanäppäimet](keyboard-shortcuts.md#calendarshortcuts)
 
-### <a name="day-week-year-pattern"></a><a name="day-week-year-pattern"></a><a name="day-week-year-pattern"></a>Päivä\-viikko\-vuosi-malli
+### <a name="day-week-year-pattern"></a>Päivä\-viikko\-vuosi-malli
 
 Voit syöttää päivämäärän viikonpäivänä, jonka jälkeen tulee viikon numero ja halutessasi vuosi. Esimerkiksi Ma25 tai ma25 tarkoittaa viikon 25 maanantaita. Jos et syötä vuotta, käytetään käsittelypäivämäärän vuotta.
 
@@ -61,7 +61,7 @@ Sen sijaan, että syötät koko sanan viikonpäivää varten, voit syöttää sa
 
 Viikon numeromalli on aina ISO 8601, jossa viikko 1 on viikko, joka sisältää tammikuun 4. päivän tai vuoden ensimmäisen torstain.
 
-### <a name="digit-patterns"></a><a name="digit-patterns"></a><a name="digit-patterns"></a>Numeromallit
+### <a name="digit-patterns"></a>Numeromallit
 
 Päivämäärä-kenttään voi syöttää kaksi, neljä, kuusi tai kahdeksan numeroa:
 
@@ -74,17 +74,17 @@ Päivämäärä-kenttään voi syöttää kaksi, neljä, kuusi tai kahdeksan num
   > [!NOTE]
   > Jos käytössä on paikallinen [!INCLUDE[prod_short](includes/prod_short.md)], kaksinumeroinen vuosiväli voi olla eri. Järjestelmänvalvojat voivat muuttaa aluetta muuttamalla **CalendarTwoDigitYearMax**-asetusta [!INCLUDE[prod_short](includes/prod_short.md)]-palvelimessa. Lisätietoja on kohdassa [Business Central Serverin määrittäminen](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
  
-### <a name="today"></a><a name="today"></a><a name="today"></a>Tänään
+### <a name="today"></a>Tänään
 
 Syötä sana _today_ **Omat asetukset** -sivulla määritetyllä kielellä määrittääksesi tietueen päivämäärän tälle päivämäärälle. Sen sijaan, että syötät koko sanan, voit syöttää sanan alkuosan. Esimerkiksi suomeksi voit syöttää _t_ tai _tän_, kunhan se ei ole myös jonkin toisen sanan alku.
 
-### <a name="period"></a><a name="period"></a><a name="period"></a>Jakso
+### <a name="period"></a>Jakso
 
 Voit suodattaa tietyn kirjanpitojakson antamalla päivämääräkentässä kirjaimen j tai sanan jakso ja lisäämällä sen perään luvun, joka yksilöi kirjanpitojakson, kuten j2 tai jakso4. Kirjapitojakso liittyy roolikeskuksessa määritetyn kuluvan käsittelypäivän tilikauteen. Jos esimerkiksi käsittelypäivämäärä on **21.3.22**, _j1_ tai vain _j_ suodattaa tilikauden 2022 ensimmäisen kirjanpitojakson (kuten 1.1.2022–31.1.2022). _j15_ suodattaa 15:nnen kirjanpitojakson tilikauden 2022 alusta (kuten 1.3.2023–31.3.2023).
 
 Kirjanpitojaksot määritetään **Kirjanpitojaksot**-sivulla. Voit tarkastella tai muuttaa kirjanpitojaksoja avaamalla sivun [täällä](https://businesscentral.dynamics.com/?page=100).
 
-### <a name="work-date"></a><a name="work-date"></a><a name="work-date"></a>Käsittelypvm
+### <a name="work-date"></a>Käsittelypvm
 
 Käytä käsittelypäivämäärää määrittääksesi päivämäärän, joka ei ole tietueissa tämä päivämäärä. Käsittelypäivämäärästä on hyötyä esimerkiksi tilanteessa, jossa useille tietueille on asetettava tietty päivämäärä. Käsittelypäivämäärä määritetään **Omat asetukset** -sivulla. 
 
@@ -92,13 +92,13 @@ Nopea tapa syöttää tietueiden käsittelypäivämäärä on syöttää sana _w
 
 Jos et ole määrittänyt käsittelypäivämäärää, käytetään tämän päivän päivämäärää. Lisätietoja on kohdassa [Perusasetusten, kuten käsittelypäivämäärän, muuttaminen](ui-change-basic-settings.md#work-date).
 
-### <a name="closing-date"></a><a name="closing-date"></a><a name="closing-date"></a>Sulkemispvm
+### <a name="closing-date"></a>Sulkemispvm
 
 Kun suljet tilikauden, voit käyttää sulkemispäivämääriä osoittaaksesi, että tapahtuma on tilinpäätöstapahtuma. Sulkemispäivämäärä sijoittuu teknisesti kahden päivämäärän väliin, esimerkiksi joulukuun 31. päivän ja tammikuun 1. päivän väliin.
 
 Jos haluat määrittää, että päivämäärä on sulkemispäivämäärä, kirjoita N päivämäärän edelle , esimerkiksi N31.12.01. Käytä tätä muotoa kaikkien päivämäärämallien kanssa.
 
-### <a name="examples"></a><a name="examples"></a><a name="examples"></a>Esimerkkejä
+### <a name="examples"></a>Esimerkkejä
 
 Seuraavassa taulukossa on esimerkkejä kaikkia muotoja käyttävistä päivämääristä. Oletetaan, että alueasetukset muotoilevat päivämäärät näin: **vuosi.kuukausi.päivä.**, viikko alkaa maanantaista ja kieli on englanti.
 
@@ -123,7 +123,7 @@ Seuraavassa taulukossa on esimerkkejä kaikkia muotoja käyttävistä päivämä
 |t 23|Käsittelypvm:n vuoden viikon 23 tiistai|
 |t-1|Käsittelypvm:n vuoden viikon 1 tiistai|
 
-## <a name="setting-ranges"></a><a name="setting-ranges"></a><a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a> Alueiden asettaminen
+## <a name="setting-ranges"></a><a name="BKMK_SettingDateRanges"></a>Alueiden asettaminen
 
 Luetteloissa, kokonaissummissa ja raporteissa voi määrittää suodattimia päivämäärille, ajoille sekä päivämäärille ja ajoille, joilla on aloitusarvo ja vaihtoehtoisesti lopetusarvo, jolloin näytetään vain kyseisen alueen tiedot. Päivämääräalueiden määrittämisessä käytetään vakiosääntöjä.
 
@@ -135,7 +135,7 @@ Luetteloissa, kokonaissummissa ja raporteissa voi määrittää suodattimia päi
 
 Voit käyttää päivämääräalueiden suodattimissa mitä tahansa sallittua muotoa. Jos esimerkiksi päivämäärän ja ajan kentässä käytetään arvoa ma14 3..t 4j, tuloksena on suodatin, joka käsittää aikavälin kuluvan käsittelypäivämäärän vuoden viikon 14 maanantaista kello 3:00 kuluvaan päivään kello 16:00 kyseiset ajankohdat mukaan lukien.
 
-## <a name="use-date-formulas"></a><a name="use-date-formulas"></a><a name="use-date-formulas"></a>Päivämääräkaavojen käyttäminen
+## <a name="use-date-formulas"></a>Päivämääräkaavojen käyttäminen
 
 Päivämäärän kaava on lyhyt kirjain- ja numeroyhdistelmä, joka kertoo ohjelmalle, miten päivämäärät lasketaan. Voit syöttää päivämääräkaavat erilaisiin päivämäärien laskentakenttiin ja suodattimiin.
 
@@ -199,7 +199,7 @@ Miinus-merkin avulla pystyt ilmaisemaan menneitä päiviä. Esimerkiksi:
 > [!IMPORTANT]
 > Jos sijainti käyttää peruskalenteria, sitten päivämääräkaava, jonka annat esimerkiksi **Toimitusaika** -kenttään, tulkitaan kalenterin mukaan työskentelypäiviksi. Esimerkiksi 1K tarkoittaa seitsemää käsittelypäivää.
 <!--
-# <a name="entering-date-ranges"></a><a name="entering-date-ranges"></a><a name="entering-date-ranges"></a>Entering Date Ranges
+# <a name="entering-date-ranges"></a>Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
 ![Setting a date range in the request page for the Customer Top 10 list.](./media/ui-enter-date-ranges/customer-top10-list.png)
@@ -222,7 +222,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## <a name="use-date-formulas-1"></a><a name="use-date-formulas-1"></a><a name="use-date-formulas-1"></a>Use Date Formulas
+## <a name="use-date-formulas-1"></a>Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -287,7 +287,7 @@ The following example shows how you can use a minus sign to indicate a date in t
 
 -->
 
-## <a name="entering-times"></a><a name="entering-times"></a><a name="entering-times"></a>Aikojen syöttäminen
+## <a name="entering-times"></a>Aikojen syöttäminen
 
 Kun syötät aikoja, voit lisätä minkä tahansa erotinmerkin, paitsi välilyönnin yksiköiden väliin. Jos käytät kullekin yksikölle kaksinumeroisia merkkejä aina millisekunteihin saakka, sitä ei edellytetä.
 
@@ -320,11 +320,11 @@ Seuraavassa taulukossa on luettelo eri tavoista, joilla aikoja voi syöttää ja
 
 Aika-sana [!INCLUDE[prod_short](includes/prod_long.md)] -sovelluksen käyttämällä kielellä arvioidaan tietokoneen tai mobiililaitteen nykyiseksi ajaksi. Voit syöttää sanan minkä tahansa alkuosan, kuten a tai AIK.
 
-## <a name="entering-combined-dates-and-times"></a><a name="entering-combined-dates-and-times"></a><a name="entering-combined-dates-and-times"></a>Yhdistettyjen päivämäärien ja aikojen syöttäminen
+## <a name="entering-combined-dates-and-times"></a>Yhdistettyjen päivämäärien ja aikojen syöttäminen
 
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
-## <a name="entering-duration"></a><a name="entering-duration"></a><a name="entering-duration"></a>Keston syöttäminen
+## <a name="entering-duration"></a>Keston syöttäminen
 
 Sovelluksen jotkin kentät edustavat kestoa tai kuluneen ajan määrää tietyn päivämäärän tai ajan sijaan. Kesto syötetään numerona, jota seuraa sen mittayksikkö.
 
@@ -345,9 +345,9 @@ Jos haluat nähdä, mitä mittayksikköä kesto-kentässä käytetään, syötä
 
 Jos mittayksikkö on esimerkiksi Tunnit, numero 5 muunnetaan 5 tunniksi.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Ostojen päivämäärälaskenta](purchasing-date-calculation-for-purchases.md)  

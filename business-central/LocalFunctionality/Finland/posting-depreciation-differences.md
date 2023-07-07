@@ -16,7 +16,7 @@ ms.contentlocale: fi-FI
 ms.lasthandoff: 02/15/2022
 ms.locfileid: "8131105"
 ---
-# <a name="posting-depreciation-differences-in-the-finnish-version"></a><a name="posting-depreciation-differences-in-the-finnish-version"></a><a name="posting-depreciation-differences-in-the-finnish-version"></a><a name="posting-depreciation-differences-in-the-finnish-version"></a>Poistoerojen kirjaaminen Suomi-versioissa
+# <a name="posting-depreciation-differences-in-the-finnish-version"></a>Poistoerojen kirjaaminen Suomi-versioissa
 Suomessa käyttöomaisuuden poistoissa käytetään yleisesti seuraavia poistotapoja:  
 
 - tasapoisto, joka kirjaa käyttöomaisuuden pääkirjanpitoon  
@@ -24,7 +24,7 @@ Suomessa käyttöomaisuuden poistoissa käytetään yleisesti seuraavia poistota
 
 Jos käytössä on kaksi poistotapaa, Suomen verolainsäädäntö vaatii, että eri poistotapojen välisen poistokertymän ero lasketaan ja kirjataan pääkirjanpitoon.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 [Suomen paikalliset toiminnot](finland-local-functionality.md)  
 [Käyttöomaisuus](../../fa-manage.md)   
 

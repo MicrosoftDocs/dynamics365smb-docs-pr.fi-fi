@@ -10,7 +10,7 @@ ms.search.form: '9701, 9702'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a><a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a><a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Pinojen värillisen ilmaisimen määrittäminen yrityskäyttäjille tai yksittäisille käyttäjille
+# <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Pinojen värillisen ilmaisimen määrittäminen yrityskäyttäjille tai yksittäisille käyttäjille
 
 Järjestelmänvalvojana voit määrittää pinot, jotka näkyvät käyttäjien Roolikeskuksissa sisällyttääksesi ilmaisimen, joka vaihtaa väriä pinojen arvojen mukaan.  
 
@@ -20,7 +20,7 @@ Ilmaisin näkyy värillisenä palkkina pinon ruudun yläreunassa. Se antaa visua
 
 Jotta voit määrittää ilmaisimen, sinun on määritettävä korkeintaan kaksi raja-arvoa, jotka määrittävät kolme arvoaluetta (matala, keskisuuri ja korkea), joihin voit käyttää eri värejä (tai tyyliä).  
 
-### <a name="to-set-up-colored-indicators-on-cues"></a><a name="to-set-up-colored-indicators-on-cues"></a><a name="to-set-up-colored-indicators-on-cues"></a>Värillisten ilmaisinten määrittäminen pinoissa
+### <a name="to-set-up-colored-indicators-on-cues"></a>Värillisten ilmaisinten määrittäminen pinoissa
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pinon asetukset** ja valitse sitten vastaava linkki.  
 
      **Pinon asetukset** -sivu avautuu. Sivulla on luettelo ilmaisimista, jotka on tällä hetkellä määritetty pinoissa. Kaikkia yrityksen käyttäjiä koskevissa ilmaisimissa on tyhjä **Käyttäjänimi**-kenttä. Tiettyä käyttäjää koskevat ilmaisimet sisältävät käyttäjän nimen **Käyttäjänimi**-kentässä.  
@@ -57,7 +57,7 @@ Jotta voit määrittää ilmaisimen, sinun on määritettävä korkeintaan kaksi
     |**Epäselvä**|Keltainen|  
     |**Alataso**|Harmaa|  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

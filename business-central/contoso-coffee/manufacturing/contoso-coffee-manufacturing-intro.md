@@ -9,7 +9,7 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a><a name="introduction-to-contoso-coffee-manufacturing"></a><a name="introduction-to-contoso-coffee-manufacturing"></a>Contoso Coffeen tuotannon esittely
+# <a name="introduction-to-contoso-coffee-manufacturing"></a>Contoso Coffeen tuotannon esittely
 
 Contoso Coffee on kuvitteellinen yritys, joka tuottaa kuluttajille ja yrityksille kahvinkeittimiä. **Contoso Coffee** -sovellukset Business Centralille lisäävät demotietoja, joiden avulla voit opetella käyttämään tuotanto-ominaisuuksia Business Centralissa.  
 
@@ -36,7 +36,7 @@ Kaikkien skenaarioiden tuotanto toiminnot käyttävät sijaintia *NORTH*.
 > [!IMPORTANT]
 > Ennen kuin suoritat mitään Contoso Coffeen skenaarioista, kirjaa kaikki nimikepäiväkirja rivit, joilla on alkusaldot. Lisätietoja vaatimuksista on [Contoso Coffee -tietojen määrittäminen](#set-up-contoso-coffee-manufacturing-data) -osiossa.
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a><a name="set-up-contoso-coffee-manufacturing-data"></a><a name="set-up-contoso-coffee-manufacturing-data"></a>Contoso Coffeen tuotantotietojen määrittäminen
+## <a name="set-up-contoso-coffee-manufacturing-data"></a>Contoso Coffeen tuotantotietojen määrittäminen
 
 Contoson Coffeen tuotannon esittelytietojen käyttäminen edellyttää, että asennat asianomaiseen yritykseen [!INCLUDE [prod_short](../../includes/prod_short.md)] -ratkaisussa kaksi sovellusta:  
 
@@ -67,7 +67,7 @@ Kun asianmukaiset sovellukset on asennettu, siirry [Contoso Coffee -esittelytied
 
 Kun olet valmis, valitse **Luo demotiedot** -toiminto. Tietojen lisääminen pohjana olevaan tietokantaan kestää muutaman minuutin, mutta sitten olet valmis suorittamaan erilaisia skenaarioita.  
 
-## <a name="scenarios"></a><a name="scenarios"></a><a name="scenarios"></a>Esimerkkitilanteet
+## <a name="scenarios"></a>Esimerkkitilanteet
 
 Contoso Coffeen tuotannon esittelytiedot tukevat tällä hetkellä seuraavia testi- ja harjoitteluskenaarioita:
 
@@ -85,7 +85,7 @@ Lue kunkin skenaarion vaiheet asianomaisessa artikkelissa.
 > [!IMPORTANT]
 > Nämä vaihekuvaukset edellyttävät, että käyttäjäkokemukseksi on asetettu *Premium* **Yritystiedot**-sivulla.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Tuotanto](../../production-manage-manufacturing.md)  
 [Business Centralin tuotantoraportit ja analytiikka](../../production-reports.md)  

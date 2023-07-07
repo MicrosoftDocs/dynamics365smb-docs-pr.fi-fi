@@ -8,17 +8,17 @@ ms.search.form: '800, 804'
 ms.date: 07/15/2022
 ms.author: a-reishima
 ---
-# <a name="set-up-online-maps"></a><a name="set-up-online-maps"></a><a name="set-up-online-maps"></a>Määritä online-kartan asetukset
+# <a name="set-up-online-maps"></a>Määritä online-kartan asetukset
 
 Kun suunnittelet vierailua korttiin tallennettuun osoitteeseen, kuten asiakkaan luo, saat online-palvelusta kartan, jossa on reittiohjeet valitsemallasi kielellä. Jotta online-karttapalvelu löytäisi oikean kartan ja oikeat reittiohjeet, sen asetukset on määritettävä [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa.
 
-## <a name="set-up-the-online-map-feature"></a><a name="set-up-the-online-map-feature"></a><a name="set-up-the-online-map-feature"></a>Määritä online-karttaominaisuus
+## <a name="set-up-the-online-map-feature"></a>Määritä online-karttaominaisuus
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Online-kartan asennus** ja valitse sitten vastaava linkki.
 2. Täytä kentät **Online-kartta-asetukset** -sivulla. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 3. Ota **Käytössä**-valitsin käyttöön.
 
-### <a name="customize-the-online-map-provider-features"></a><a name="customize-the-online-map-provider-features"></a><a name="customize-the-online-map-provider-features"></a>Online-karttapalvelutoimintojen mukauttaminen
+### <a name="customize-the-online-map-provider-features"></a>Online-karttapalvelutoimintojen mukauttaminen
 
 Voit mukauttaa Online-karttaominaisuuden **Online-karttojen asetukset** -sivulla mainittujen asetusten lisäksi tai käyttää eri karttapalvelua seuraavasti:
 
@@ -27,7 +27,7 @@ Voit mukauttaa Online-karttaominaisuuden **Online-karttojen asetukset** -sivulla
 3. Täytä kentät mukauttaaksesi, miten URL-osoitteet luodaan [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa käytettävissä oleville palveluille. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
    * Lisätietoja URL-osoitteiden luontia varten on **tietoruudun** **Online-karttojen korvausparametri** -luettelossa.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Sijaintien ja reittiohjeiden etsiminen online-karttojen avulla](across-online-maps.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  

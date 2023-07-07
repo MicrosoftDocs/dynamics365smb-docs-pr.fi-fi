@@ -10,13 +10,13 @@ ms.custom: bap-template
 ms.search.form: 630
 ---
 
-# <a name="the-data-archive-extension"></a><a name="the-data-archive-extension"></a><a name="the-data-archive-extension"></a>Tietoarkisto-laajennus
+# <a name="the-data-archive-extension"></a>Tietoarkisto-laajennus
 
 Ajan mittaan yrityksesi kerää huomattavan määrän tietoa, ja järjestelmänvalvojana on todennäköisesti hyvä luoda tietojen arkistointistrategia. Kun tietoja on paljon, esimerkiksi raporttien luominen tai tietueiden luominen voi kestää hieman kauemmin, tai tietueet voivat jopa lukittua. Lisäksi suuret tietomäärät voivat aiheuttaa lisääntyneitä tallennuskustannuksia.
 
 Tietoarkistolaajennus tarjoaa peruskehyksen tietojen arkistointiin ja varmuuskopiointiin päivämäärätiivistyksen osana. Päivämäärätiivistys konsolidoi liittyvät tapahtumat yhdeksi tapahtumaksi ja poista alkuperäiset. Lisätietoja on kohdassa [Tietojen tiivistäminen päivämäärätiivistyksen avulla](admin-manage-documents.md#compress-data-with-date-compression). Tietojen säilyttäminen saattaa kuitenkin olla arvokasta, joten sen sijaan voit arkistoida sen myöhempää käyttöä varten.
 
-## <a name="start-archiving-data"></a><a name="start-archiving-data"></a><a name="start-archiving-data"></a>Tietojen arkistoinnin aloittaminen
+## <a name="start-archiving-data"></a>Tietojen arkistoinnin aloittaminen
 
 Laajennus on esiasennettuna ja saatavilla **laajennuksen hallinnassa**, joten sinun ei tarvitse tehdä mitään päästäksesi alkuun. Laajennus on saatavilla myös AppSourcessa.
 
@@ -50,10 +50,10 @@ Seuraavat erätyöt käyttävät tietoarkistolaajennusta päivämäärätiivisty
 
 Voit aloittaa tietojen arkistoinnin, kun suoritat yhden eräajosta, ottamalla käyttöön **Arkistoi poistetut tapahtumat** -valitsimen.
 
-## <a name="storage-considerations"></a><a name="storage-considerations"></a><a name="storage-considerations"></a>Huomioitavaa tallennuksesta
+## <a name="storage-considerations"></a>Huomioitavaa tallennuksesta
 
 Arkistoidut tiedot tallennetaan **Vuokraajan media** -taulukkoon. On suositeltavaa viedä vanhat arkistot esimerkiksi CSV-tiedostoon ja poistaa vanhat arkistotietueet.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Hallitse tallennustilaa poistamalla asiakirjoja tai pakkaamalla tietoja](admin-manage-documents.md)

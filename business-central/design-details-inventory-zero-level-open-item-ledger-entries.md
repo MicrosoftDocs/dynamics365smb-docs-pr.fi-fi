@@ -10,12 +10,12 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="design-details-known-item-application-issue"></a><a name="design-details-known-item-application-issue"></a><a name="design-details-known-item-application-issue"></a>Rakennetiedot: Nimikkeen kohdistuksen tunnettu ongelma
+# <a name="design-details-known-item-application-issue"></a>Rakennetiedot: Nimikkeen kohdistuksen tunnettu ongelma
 Tässä artikkelissa kerrotaan ongelmasta, jossa varastomäärä on nolla, vaikka [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa on avoimia nimiketapahtumia.  
 
 Artikkelin alussa kerrotaan ongelman tyypilliset oireet. Tämän jälkeen käsitellään nimikkeen kohdistuksen perusteita, jotka tukevat tämän ongelman kuvattuja syitä. Artikkelin lopussa kerrotaan ratkaisu avointen nimiketapahtumien ongelmaan.  
 
-## <a name="symptoms-of-the-issue"></a><a name="symptoms-of-the-issue"></a><a name="symptoms-of-the-issue"></a>Ongelman oireet
+## <a name="symptoms-of-the-issue"></a>Ongelman oireet
  Jos varastomäärä on nolla, vaikka avoimia nimiketapahtumia on olemassa, oireet ovat yleensä seuraavat:  
 
 -   Kun varastokautta yritetään sulkea, näyttöön tulee seuraava sanoma: Varastoa ei voi sulkea, koska vähintään yhdellä nimikkeellä on negatiivista varastoa.  
@@ -29,7 +29,7 @@ Artikkelin alussa kerrotaan ongelman tyypilliset oireet. Tämän jälkeen käsit
      |333|28.1.2018|Myynti|Myyntitoimitus|102043|TESTI|SININEN|-1|-10|-1|-1|Kyllä|  
      |334|28.1.2018|Myynti|Myyntitoimitus|102043|TESTI|SININEN|1|10|1|1|Kyllä|  
 
-## <a name="basics-of-item-application"></a><a name="basics-of-item-application"></a><a name="basics-of-item-application"></a>Nimikkeen kohdistuksen perusteet
+## <a name="basics-of-item-application"></a>Nimikkeen kohdistuksen perusteet
  Nimikkeen kohdistustapahtuma luodaan jokaiselle varastotapahtumalle, jotta kustannusten vastaanottaja voidaan linkittää kustannusten vastaanottajan kustannuslähteeseen. Näin kustannus voidaan välittää edelleen arvostusmenetelmän mukaisesti. Katso lisätiedot kohdasta [Rakennetiedot: nimikkeen kohdistus](design-details-item-application.md).  
 
 -   Saapuvalle nimiketapahtumalle luodaan nimikkeen kohdistustapahtuma nimiketapahtuman luomisen yhteydessä.  
@@ -42,7 +42,7 @@ Artikkelin alussa kerrotaan ongelman tyypilliset oireet. Tämän jälkeen käsit
 
 -   Kustannusten kohdistus  
 
-### <a name="quantity-application"></a><a name="quantity-application"></a><a name="quantity-application"></a>Määrän kohdistus
+### <a name="quantity-application"></a>Määrän kohdistus
  Määrän kohdistukset tehdään kaikille varastotapahtumille. Ne luodaan automaattisesti, mutta erityisissä prosesseissa manuaalisesti. Kun määrän kohdistukset tehdään manuaalisesti, niitä kutsutaan kiinteiksi kohdistuksiksi.  
 
  Seuraavassa kaaviossa näytetään, miten määrän kohdistukset tehdään.  
@@ -54,7 +54,7 @@ Artikkelin alussa kerrotaan ongelman tyypilliset oireet. Tämän jälkeen käsit
 > [!NOTE]  
 >  Jos lähtevä nimiketapahtuma arvostetaan keskimääräisen kustannuksen mukaan, kohdistettu saapuva nimiketapahtuma ei ole yksilöivä kustannuslähde. Sen sijaan se on kauden keskimääräisen kustannuksen laskennan osa.  
 
-### <a name="cost-application"></a><a name="cost-application"></a><a name="cost-application"></a>Kustannusten kohdistus
+### <a name="cost-application"></a>Kustannusten kohdistus
 Kustannusten kohdistukset luodaan vain niille saapuville tapahtumille, joissa **Kohdistus nimiketapahtumasta** -kenttä täytetään kiinteän kohdistuksen antamiseksi. Tämä tapahtuu yleensä myyntihyvityslaskun tai toimitusskenaarion peruuttamisen yhteydessä. Kustannuksen kohdistus varmistaa, että nimike lisää varaston uudelleen käyttämällä toimituksen kustannusta.  
 
 Seuraavassa kaaviossa näytetään, miten kustannusten kohdistukset tehdään.  
@@ -66,7 +66,7 @@ Seuraavassa kaaviossa näytetään, miten kustannusten kohdistukset tehdään.
 
  Huomaa, että saapuva nimiketapahtuma 3 (myyntipalautus) on alkuperäisen lähtevän nimiketapahtuman (myynti) kustannusten vastaanottaja.  
 
-## <a name="illustration-of-a-basic-cost-flow"></a><a name="illustration-of-a-basic-cost-flow"></a><a name="illustration-of-a-basic-cost-flow"></a>Peruskustannusvirran kuva
+## <a name="illustration-of-a-basic-cost-flow"></a>Peruskustannusvirran kuva
  Oletetaan, että täydellinen kustannusvirta, jossa nimike vastaanotetaan, toimitetaan ja laskutetaan. Se palautetaan\-täydellisen kustannuksen palautuksen kanssa ja toimitetaan uudelleen.  
 
  Seuraavassa kaaviossa esitetään kustannusvirta.  
@@ -75,7 +75,7 @@ Seuraavassa kaaviossa näytetään, miten kustannusten kohdistukset tehdään.
 
  Huomaa, että kustannus ohjataan edelleen nimiketapahtumalle 2 (myynti), tämän jälkeen nimiketapahtumalle 3 (myyntipalautus) ja lopulta nimiketapahtumalle 4 (myynti 2).  
 
-## <a name="reasons-for-the-issue"></a><a name="reasons-for-the-issue"></a><a name="reasons-for-the-issue"></a>Ongelman syyt
+## <a name="reasons-for-the-issue"></a>Ongelman syyt
  Syy siihen, että varastomäärä on nolla, vaikka avoimia nimiketapahtumia on olemassa, voi olla jompikumpi seuraavista skenaarioista:  
 
 -   Skenaario 1: Toimitus ja lasku on kirjattu, vaikka nimike ei ole käytettävissä. Tällöin kirjaus peruutetaan todellisten kustannusten perusteella myyntihyvityslaskun kanssa.  
@@ -90,7 +90,7 @@ Seuraavassa kaaviossa näytetään, miten kustannusten kohdistukset tehdään.
 
  Nimiketapahtuma 2 (myyntipalautus) ei voi olla samalla sekä alkuperäisen nimiketapahtuman kustannusten vastaanottaja että nimikkeiden ja niiden kustannuslähteiden toimittaja. Tämän vuoksi alkuperäinen nimiketapahtuma 1 (myynti 1) on auki, kunnes sallittu lähde löytyy.  
 
-## <a name="identifying-the-issue"></a><a name="identifying-the-issue"></a><a name="identifying-the-issue"></a>Ongelman tunnistaminen
+## <a name="identifying-the-issue"></a>Ongelman tunnistaminen
  Voit määrittää, onko avoimia nimiketapahtumia luotu, tekemällä seuraavat toiminnot vastaavassa skenaariossa:  
 
  Tunnista ongelma skenaariossa 1 seuraavasti:  
@@ -130,7 +130,7 @@ Seuraavassa kaaviossa näytetään, miten kustannusten kohdistukset tehdään.
 
  Huomaa, että saapuvan nimiketapahtuman 334 kustannukset on kohdistettu lähtevään nimiketapahtumaan 333.  
 
-## <a name="workaround-for-the-issue"></a><a name="workaround-for-the-issue"></a><a name="workaround-for-the-issue"></a>Ongelman ratkaisu
+## <a name="workaround-for-the-issue"></a>Ongelman ratkaisu
  Kirjaa **Nimikepäiväkirja**-sivulla kyseisen nimikkeen seuraavat rivit:  
 
 -   Positiivinen muutos, kun avoin lähtevä nimiketapahtuma suljetaan.  
@@ -141,7 +141,7 @@ Seuraavassa kaaviossa näytetään, miten kustannusten kohdistukset tehdään.
 
  Tuloksena varaston määrä on nolla ja kaikki nimiketapahtumat suljetaan.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md)   
 [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)  
 

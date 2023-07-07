@@ -11,13 +11,13 @@ ms.date: 08/23/2022
 ms.author: jswymer
 ---
 
-# <a name="viewing-table-information"></a><a name="viewing-table-information"></a><a name="viewing-table-information"></a>Näyttää taulukon tiedot
+# <a name="viewing-table-information"></a>Näyttää taulukon tiedot
 
 **8700-taulukon tiedot** -sivulla on tietoja kaikkien [!INCLUDE[prod_short](includes/prod_short.md)]-järjestelmän ja -liiketoimintataulukoiden tietueiden lukumäärästä ja siitä, kuinka paljon tietoja kukin taulukko sisältää.
 
 Näistä tiedoista on hyötyä suorituskykyongelmien vianmäärityksessä, sillä se näyttää tietojen koon jakautumisen eri taulukoissa.
 
-## <a name="viewing-table-information-1"></a><a name="viewing-table-information-1"></a><a name="viewing-table-information-1"></a>Näyttää taulukon tiedot
+## <a name="viewing-table-information-1"></a>Näyttää taulukon tiedot
 
 Avaa tämä sivu valitsemalla ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Taulukon tiedot** ja valitse sitten vastaava linkki.
 
@@ -38,7 +38,7 @@ Seuraavassa taulukossa kuvataan kunkin taulukon tiedot:
 > [!NOTE]
 > Jos poistat taulukon tietoja, [!INCLUDE[prod_short](includes/prod_short.md)] aloittaa useita prosesseja taustalla varmistaakseen, että kaikki tiedot siivotaan tietokannassa. Taulukon tiedot -sivun arvot eivät päivity, ennen kuin nämä prosessit on suoritettu loppuun, mikä voi kestää jonkin aikaa. Odotusaikojen määrä voi vaihdella tietokannan koon mukaan.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Sivujen tarkistaminen](across-inspect-page.md)  
 [Suorituskykyartikkelit kehittäjille](/dynamics365/business-central/dev-itpro/performance/performance-developer)  

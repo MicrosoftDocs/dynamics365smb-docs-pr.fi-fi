@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records, tab'
 ---
 
-# <a name="add-business-central-tab-in-microsoft-teams"></a><a name="add-business-central-tab-in-microsoft-teams"></a><a name="add-business-central-tab-in-microsoft-teams"></a>Business Central -välilehden lisääminen Microsoft Teamsiin
+# <a name="add-business-central-tab-in-microsoft-teams"></a>Business Central -välilehden lisääminen Microsoft Teamsiin
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -19,7 +19,7 @@ Teamsissa välilehdet näkyvät kanavien ja keskustelujen yläosassa, jolloin os
 
 ![Välilehdet Teamsissa](media/teams-tabs-border.png)
 
-## <a name="about-business-central-tabs"></a><a name="about-business-central-tabs"></a><a name="about-business-central-tabs"></a>Tietoja Business Centralin välilehdistä
+## <a name="about-business-central-tabs"></a>Tietoja Business Centralin välilehdistä
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -välilehdessä on keskitetty näkymä [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman luettelo- ja korttisivuista. Välilehdessä ei näy koko [!INCLUDE [prod_short](includes/prod_short.md)] -WWW-asiakasohjelmaa. Ei ole selaimen rajaa, [!INCLUDE [prod_short](includes/prod_short.md)] -ilmoituspalkkia (esim. Kerro minulle, haku, ohje) tai ylänavigointivalikkoa&mdash;vain sivun sisältö ja sen toiminnot. Sisältö on vuorovaikutteinen, joten voit valita toimintoja ja linkkejä, muuttaa tietoja ja paljon muuta. Käyttöoikeutesi rajoittuvat siihen, mitä näet ja mitä voit tehdä [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman tiliisi liitetyistä käyttöoikeuksista.
 
@@ -28,7 +28,7 @@ Lisätietoja siitä, ketkä voivat tarkastella [!INCLUDE [prod_short](includes/p
 > [!TIP]
 > Oletko kehittäjä? Voit myös lisätä välilehtiä ohjelmallisesti Microsoft Graph API -liittymän avulla. Lisätietoja on kohdassa [Business Central -välilehtien lisääminen Teamsiin](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-tabs).  
 
-## <a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a>Vaatimukset
+## <a name="prerequisites"></a>Vaatimukset
 
 Jotta voit lisätä [!INCLUDE [prod_short](includes/prod_short.md)]-välilehden, seuraavien vaatimusten on täytyttävä:
 
@@ -42,7 +42,7 @@ Jos haluat tarkastella [!INCLUDE [prod_short](includes/prod_short.md)] -välileh
 - Sinulla on [!INCLUDE [prod_short](includes/prod_short.md)] -käyttöoikeus tai rajoitettu pääsy Business Centraliin Microsoft 365:n käyttöoikeuden avulla. Lisätietoja on kohdassa [Business Centralin käyttö Microsoft 365:n käyttöoikeuksien avulla](admin-access-with-m365-license.md).
 - Olet asentanut [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen Teamsiin.
 
-## <a name="add-tab-using-recommended-content"></a><a name="add-tab-using-recommended-content"></a><a name="add-tab-using-recommended-content"></a>Lisää välilehti käyttäen suositeltua sisältöä
+## <a name="add-tab-using-recommended-content"></a>Lisää välilehti käyttäen suositeltua sisältöä
 
 Näiden vaiheiden avulla voit lisätä välilehden valitsemalla, mitä näyttöön tulee käytettävissä olevasta suositellusta sisällöstä, joka perustuu roolikeskukseesi&mdash;ilman Teamsista poistumista. Lisätietoja sisällöstä, josta voit valita, on ohje aiheessa [Mistä suositeltu sisältö on peräisin](/dynamics365/business-central/teams-faq?tabs=tabs#where-does-the-recommended-content-come-from).
 
@@ -61,7 +61,7 @@ Näiden vaiheiden avulla voit lisätä välilehden valitsemalla, mitä näyttö�
 6. Valitse **Julkaise kanavalle tästä välilehdestä**, jos haluat lähettää tiedotteen automaattisesti Teams-kanavassa tai -keskustelussa ja antaa osallistujien tietää, että olet lisännyt tämän välilehden.
 7. Valitse **Tallenna**.
 
-## <a name="add-tab-using-a-page-link"></a><a name="add-tab-using-a-page-link"></a><a name="add-tab-using-a-page-link"></a>Lisää välilehti käyttämällä sivun linkkiä
+## <a name="add-tab-using-a-page-link"></a>Lisää välilehti käyttämällä sivun linkkiä
 
 Toinen tapa lisätä välilehti käyttämällä näytettävän sivun linkkiä (URL). Tästä on hyötyä silloin, kun haluat näyttää tietyn [!INCLUDE [prod_short](includes/prod_short.md)] -tietueen tai -luettelosivun, jota ei ole merkitty roolikeskuksessa.
 
@@ -80,14 +80,14 @@ Toinen tapa lisätä välilehti käyttämällä näytettävän sivun linkkiä (U
 8. Valitse **Julkaise kanavalle tästä välilehdestä**, jos haluat lähettää tiedotteen automaattisesti Teams-kanavassa tai -keskustelussa ja antaa osallistujien tietää, että olet lisännyt tämän välilehden.
 9. Valitse **Tallenna**.
 
-## <a name="add-tab-by-pinning-card-details"></a><a name="add-tab-by-pinning-card-details"></a><a name="add-tab-by-pinning-card-details"></a>Lisää välilehti kiinnittämällä kortin tiedot
+## <a name="add-tab-by-pinning-card-details"></a>Lisää välilehti kiinnittämällä kortin tiedot
 
 Näiden vaiheiden avulla voit lisätä välilehden, joka on jaettu tai kopioitu Teams-kanavaan tai -keskusteluun. Tietoja tietueiden ja sivulinkkien jakamisesta Teamsissa on kohdassa [Tietueiden ja sivulinkkien jakaminen Teamsissa](across-working-with-teams.md).
 
 1. Valitse Teams-kohdassa **tiedot**-painike kortilta.
 2. Valitse korttitietojen oikeasta yläkulmasta **Kiinnitä keskustelun yläpuolelle** ![Kiinnitä kuvake lisäämällä Teams-välilehti Business Centraliin](media/pin-teams.png) -kuvakkeeseen.
 
-## <a name="change-a-tab-and-its-content"></a><a name="change-a-tab-and-its-content"></a><a name="change-a-tab-and-its-content"></a>Välilehden ja sen sisällön muuttaminen
+## <a name="change-a-tab-and-its-content"></a>Välilehden ja sen sisällön muuttaminen
 
 Kun välilehti on lisätty, voit tehdä välilehteen tiettyjä muutoksia. Voit esimerkiksi nimetä välilehden uudelleen, siirtää sen ja poistaa sen. Löydät nämä toiminnot käytettävissä olevista välilehden vaihtoehdoista valitsemalla välilehdestä alanuolen.
 
@@ -97,7 +97,7 @@ Välilehden sisällön osalta voit muokata tietoja, jos sinulla on tarvittavat k
 
 Voit myös muuttaa sivun ja sen tietojen näkymää, esimerkiksi lajitella ja vaihtaa asettelua luettelo- ja ruutunäkymien välillä. Kun teet tällaisia muutoksia, ne eivät vaikuta siihen, mitä muut näkevät. He näkevät, mitä alun perin julkaisit, kunnes he tekevät samanlaisia muutoksia itse.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Business Centralin ja Microsoft Teamsin integraation yleiskatsaus](across-teams-overview.md)  
 [Microsoft Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen](across-install-app-for-teams.md)  

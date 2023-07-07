@@ -9,7 +9,7 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# <a name="compliance-overview"></a><a name="compliance-overview"></a><a name="compliance-overview"></a>Yhteensopivuuden yleiskatsaus
+# <a name="compliance-overview"></a>Yhteensopivuuden yleiskatsaus
 
 Tässä sisällössä on tietoja [!INCLUDE[prod_short](../includes/prod_short.md)]ia koskevasta yhteensopivuudesta.  
 

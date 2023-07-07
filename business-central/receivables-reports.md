@@ -8,15 +8,15 @@ ms.search.form: 'Report_33, Report_101, Report_104, Report_109, Report_112, Repo
 ms.date: 07/13/2021
 ms.author: edupont
 ---
-# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a><a name="accounts-receivable-reports-and-analytics-in-business-central"></a><a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Myyntisaatavien raportit ja analytiikka Business Centralissa
+# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Myyntisaatavien raportit ja analytiikka Business Centralissa
 
 Jotta voit hallita myyntisaamisiasi helpommin [!INCLUDE [prod_short](includes/prod_short.md)]issa, vakioraportit ja analytiikka ovat sisään rakennettuina. Se ylittää perinteisen raportoinnin rajoitukset, jotta voit suunnitella tehokkaasti erityyppisiä raportteja.  
 
-## <a name="reports"></a><a name="reports"></a><a name="reports"></a>Raportit
+## <a name="reports"></a>Raportit
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md)  
 [Dimensioiden käyttäminen](finance-dimensions.md)  

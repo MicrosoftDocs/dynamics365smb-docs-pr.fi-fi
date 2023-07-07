@@ -10,7 +10,7 @@ ms.search.form: '99000842, 99000843, 99000861, 99000862, 99000863'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="replan-or-refresh-production-orders-directly"></a><a name="replan-or-refresh-production-orders-directly"></a><a name="replan-or-refresh-production-orders-directly"></a>Tuotantotilausten suora uudelleensuunnittelu tai päivittäminen
+# <a name="replan-or-refresh-production-orders-directly"></a>Tuotantotilausten suora uudelleensuunnittelu tai päivittäminen
 
 Tuotantotilausten **Uudelleensuunnittelu**-toimintoa käytetään yleensä sen jälkeen, kun alemman tason tuotantotilauksiin vaikuttavia komponentteja on lisätty tai muutettu. Toiminto laskee komponentti- ja reititysriveille tehdyt muutokset. Toiminto vaikuttaa myös tuotannon tuoterakenteen alitasoihin, joille saatetaan luoda uusia tuotantotilauksia.  
 
@@ -28,7 +28,7 @@ Tuotantotilausrivit voidaan syöttää joko manuaalisesti tai voidaan käyttää
 > [!NOTE]
 > Jos päivitystoimintoa käytetään laskemaan tuotantotilausrivit uudelleen, ohjelma poistaa vanhat tuotantotilausrivit ja laskee uudet rivit.  
 
-## <a name="to-replan-a-production-order"></a><a name="to-replan-a-production-order"></a><a name="to-replan-a-production-order"></a>Tuotantotilauksen uudelleensuunnittelu
+## <a name="to-replan-a-production-order"></a>Tuotantotilauksen uudelleensuunnittelu
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sitovasti suunn. tuotantotil.** ja valitse sitten vastaava linkki.  
 2. Avaa uudelleensuunniteltava tuotantotilausrivi.  
@@ -57,7 +57,7 @@ Tuotantotilausrivit voidaan syöttää joko manuaalisesti tai voidaan käyttää
 > [!NOTE]  
 > **Uudelleensuunnittelutoiminnolla** tehdyt muutokset muuttavat hyvin todennäköisesti myös tuotantotilauksen kapasiteettitarvetta, joten operaatioiden aikatauluja saatetaan joutua muuttamaan päivityksen jälkeen  
 
-## <a name="to-refresh-a-production-order"></a><a name="to-refresh-a-production-order"></a><a name="to-refresh-a-production-order"></a>Tuotantotilauksen päivittäminen
+## <a name="to-refresh-a-production-order"></a>Tuotantotilauksen päivittäminen
 
 Jos olet muuttanut tuotantotilausrivejä, komponentteja tai reititysrivejä, myös tuotantotilauksen tiedot on päivitettävä. Seuraavassa toimenpiteessä komponentit lasketaan sitovasti suunnitellulle tuotantotilaukselle. Reititysrivejä koskevat vaiheet ovat samanlaisia.
 
@@ -80,7 +80,7 @@ Jos olet muuttanut tuotantotilausrivejä, komponentteja tai reititysrivejä, my�
 > [!NOTE]  
 > Tuotantotilauksen komponenttien laskeminen poistaa aiemmat komponenttien muutokset.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Suunnittelu](production-planning.md)  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  

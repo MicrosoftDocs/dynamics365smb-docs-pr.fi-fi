@@ -18,17 +18,17 @@ ms.contentlocale: fi-FI
 ms.lasthandoff: 02/15/2022
 ms.locfileid: "8140037"
 ---
-# <a name="print-vat-information-on-invoices"></a><a name="print-vat-information-on-invoices"></a><a name="print-vat-information-on-invoices"></a><a name="print-vat-information-on-invoices"></a>ALV-tietojen tulostaminen laskuihin
+# <a name="print-vat-information-on-invoices"></a>ALV-tietojen tulostaminen laskuihin
 Kirjausryhmien avulla voit tulostaa ALV-tiedot myyntilaskun jokaiselle nimikkeelle.  
 
-## <a name="to-print-vat-information-on-an-invoice"></a><a name="to-print-vat-information-on-an-invoice"></a><a name="to-print-vat-information-on-an-invoice"></a><a name="to-print-vat-information-on-an-invoice"></a>ALV-tietojen tulostaminen laskuun
+## <a name="to-print-vat-information-on-an-invoice"></a>ALV-tietojen tulostaminen laskuun
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-kirjausryhmä** ja valitse sitten vastaava linkki.  
 2.  Kirjoita nimikkeen koodi ja kuvaus.  
 3.  Valitse **Tulosta ALV-tiedot laskuun**, kun haluat tulostaa kunkin nimikkeen ALV-tiedot vastaavaan myyntilaskuun.  
 4.  Luo ja kirjaa myyntilasku. Valitse **Esikatselu**-painike ja tarkista lasku. Varmista, että se sisältää kirjausryhmän kunkin rivin ALV-tiedot.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Verkkopankkitoiminta Suomessa](electronic-banking-in-finland.md)  
 [Määritä kirjanpidon kirjausryhmät](../../finance-posting-groups.md)  

@@ -11,7 +11,7 @@ ms.search.form: 9297
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="reconcile-inventory-costs-with-the-general-ledger"></a><a name="reconcile-inventory-costs-with-the-general-ledger"></a><a name="reconcile-inventory-costs-with-the-general-ledger"></a>Varaston kustannusten täsmäyttäminen pääkirjanpitoon
+# <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Varaston kustannusten täsmäyttäminen pääkirjanpitoon
 
 Kun kirjaat varastotapahtumia, kuten myyntitoimituksia, ostolaskuja tai varaston muutoksia, muuttuneet nimikekustannukset kirjataan niiden arvotapahtumiin. Jotta varastoarvon muutos päivittyisi talouskirjoihin, varastokustannukset kirjataan automaattisesti pääkirjanpidon liittyviin varastotileihin. Ohjelma kirjaa jokaista itse kirjaamaasi varastotapahtumaa kohti sopivan arvon varastotilille, muutostilille ja myytyjen tuotteiden kustannusten tilille pääkirjanpidossa.
 
@@ -19,7 +19,7 @@ Kun kirjaat varastotapahtumia, kuten myyntitoimituksia, ostolaskuja tai varaston
 
 Vaikka kustannukset kirjattaisiin automaattisesti pääkirjanpitoon, on tarpeen varmistaa, että tavaroiden kustannukset välitetään liitetään lähtevälle tapahtumalle. Tämä on erityisen tärkeää, kun myyt tavaroita ennen näiden tavaroiden oston laskutusta. Tätä kutsutaan kustannusmuutokseksi. Nimikekustannukset muutetaan automaattisesti, kun kirjaat nimiketapahtumia, mutta voit muuttaa niitä myös manuaalisesti. Lisätietoja on kohdassa [Nimikekustannuksien muuttaminen](inventory-how-adjust-item-costs.md).
 
-## <a name="to-post-inventory-costs-manually"></a><a name="to-post-inventory-costs-manually"></a><a name="to-post-inventory-costs-manually"></a>Varaston kustannusten kirjaus manuaalisesti
+## <a name="to-post-inventory-costs-manually"></a>Varaston kustannusten kirjaus manuaalisesti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjaa varaston kustannus KP:oon** ja valitse sitten vastaava linkki.
 2. Kirjaa varaston kustannukset pääkirjanpitoon suorittamalla eräajo. Ohjelma luo tämän eräajon aikana KP-tapahtumia arvotapahtumien perusteella. Voit kirjata tapahtumat niin, että ne lasketaan yhteen kirjausryhmittäin.
@@ -31,7 +31,7 @@ Saat virheluettelon näkyviin ennen kirjauksen eräajon ajoa, kun suoritat **Kir
 
 Jos haluat yleiskuvauksen niistä arvoista, jotka pääkirjanpitoon voi kirjata ilman kirjauksen suoritusta, voit suorittaa **Kirjaa varaston kustannus KP:oon** -eräajon. Arvoja ei tällöin oikeasti kirjata pääkirjanpitoon. Voit tehdä tämän poistamalla valintaruudun valinnan **Kirjaa** -kentässä pyyntösivulla. Näin eräajoa suoritettaessa tuotetaan raportti, jossa on arvot, jotka ovat valmiita kirjattaviksi kirjanpitoon, mutta joita ei ole kirjattu.
 
-## <a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a><a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a><a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a>Varastotapahtumien ja pääkirjanpidon välisen täsmäytyksen tarkistaminen
+## <a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a>Varastotapahtumien ja pääkirjanpidon välisen täsmäytyksen tarkistaminen
 **Varasto - Kirjanpidon täsmäytys** -sivun sisältö:
 
 - osoittaa täsmäytyserot vertaamalla kirjanpidon ja varastokirjausten (arvotapahtumat) tallennuksia
@@ -64,7 +64,7 @@ Seuraavissa sarakkeissa näkyvät samojen tilityyppien kokonaissummat pääkirja
 
 Valitsemalla kokonaissummakentän summan voit tarkastella varastoraportin tapahtumia, joiden perusteella kokonaissummat on laskettu. Varaston kokonaissummien osalta varastoraportin tapahtumat ovat nimikkeiden arvotapahtumien summia. Pääkirjanpidon kokonaissummien osalta varastoraportin tapahtumat ovat pääkirjanpidon tapahtumien summia.
 
-## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a><a name="reporting-costs-and-reconciling-with-the-general-ledger"></a><a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Kustannukset raportointi ja täsmäyttäminen pääkirjanpidon kanssa
+## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Kustannukset raportointi ja täsmäyttäminen pääkirjanpidon kanssa
 Muut raportit, jäljitysfunktiot ja erityinen täsmäytystyökalu ovat niiden tilintarkastajien tai tarkistajien käytettävissä, jotka vastaavat oikeellisen ja tasapainotetun varastoarvon raportoinnista talousosastolle.
 
 Niitä kuvaillaan seuraavassa taulukossa.    
@@ -76,7 +76,7 @@ Niitä kuvaillaan seuraavassa taulukossa.
 |Valittujen nimikkeiden varaston arvon tarkastelu, mukaan lukien todellinen ja oletettu kustannus määritettynä päivämääränä.|**Varaston arvostus - Kust. määr.** -raportti|  
 |Raportin käyttäminen kustannusvarianssien analysoimiseksi tai myytyjen tuotteiden kustannusosuuksien selvittämiseksi.|**Kustannusjakaumien erittely** -raportti|  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Myynti](sales-manage-sales.md)    

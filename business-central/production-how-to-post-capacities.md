@@ -10,11 +10,11 @@ ms.search.form: '5832, 99000802, 99000820'
 ms.date: 03/08/2023
 ms.author: edupont
 ---
-# <a name="post-capacities"></a><a name="post-capacities"></a><a name="post-capacities"></a>Kapasiteettien kirjaaminen
+# <a name="post-capacities"></a>Kapasiteettien kirjaaminen
 
 Kapasiteettipäiväkirjaan kirjataan kulutetut kapasiteetit, joita ei ole määritelty tuotantotilaukselle. Esimerkiksi ylläpitotyö tulee määritellä kapasiteetille, muttei tuotantotilaukselle.  
 
-## <a name="to-post-capacities"></a><a name="to-post-capacities"></a><a name="to-post-capacities"></a>Kapasiteettien kirjaaminen
+## <a name="to-post-capacities"></a>Kapasiteettien kirjaaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kapasiteettipäiväkirjat** ja valitse sitten vastaava linkki.  
 2. Täytä **Kirjauspvm**- ja **Asiakirjan nro** -kentät.  
@@ -25,7 +25,7 @@ Kapasiteettipäiväkirjaan kirjataan kulutetut kapasiteetit, joita ei ole määr
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="to-view-work-center-ledger-entries"></a><a name="to-view-work-center-ledger-entries"></a><a name="to-view-work-center-ledger-entries"></a>Tuotantosolutapahtumien näyttäminen
+## <a name="to-view-work-center-ledger-entries"></a>Tuotantosolutapahtumien näyttäminen
 
 Voit tarkastella **Tuotantosolukortti**- ja **Kuormitusryhmän kortti** -sivuilla valmiiden tuotantotilausten tuloksena kirjattuja kapasiteetteja.    
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotantosolut** ja valitse sitten vastaava linkki.  
@@ -33,7 +33,7 @@ Voit tarkastella **Tuotantosolukortti**- ja **Kuormitusryhmän kortti** -sivuill
 
     **Kapasiteettitapahtumat**-sivulla näkyvät tuotantosolun kirjatut tapahtumat siinä järjestyksessä kuin ne on kirjattu.   
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Tuotanto](production-manage-manufacturing.md)  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  

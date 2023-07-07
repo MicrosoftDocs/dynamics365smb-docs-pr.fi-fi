@@ -10,11 +10,11 @@ ms.search.keywords: version
 ms.date: 08/23/2022
 ms.author: jswymer
 ---
-# <a name="minimum-requirements-for-using-business-central"></a><a name="minimum-requirements-for-using-business-central"></a><a name="minimum-requirements-for-using-business-central"></a>Business Central -sovelluksen käytön vähimmäisvaatimukset
+# <a name="minimum-requirements-for-using-business-central"></a>Business Central -sovelluksen käytön vähimmäisvaatimukset
 
 Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen järjestelmän vähimmäisvaatimusten täyttyminen tarkistetaan, ennen kuin [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen online-versio otetaan käyttöön. Tässä artikkelissa kerrotaan vaatimukset.  
 
-## <a name="browsers"></a><a name="browsers"></a><a name="browsers"></a>Selaimet
+## <a name="browsers"></a>Selaimet
 
 **Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] on suunniteltu käytettäväksi nykyisen Microsoft Edge -version kanssa.
   
@@ -25,13 +25,13 @@ Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen jär
 > [!TIP]
 > Asenna [!INCLUDE[prod_short](includes/prod_short.md)] [-sovellus Käynnistä-valikkoon](install-desktop-app.md#install-the-app-for-business-central-online) käyttäen Microsoft Edge- tai Chrome-selainta.
 
-## <a name="mobile-devices"></a><a name="mobile-devices"></a><a name="mobile-devices"></a>Mobiililaitteet
+## <a name="mobile-devices"></a>Mobiililaitteet
 
 **Android (tabletti ja puhelin):** jokin kolmesta viimeisimmästä käyttöjärjestelmän pääversiosta ja niiden päivityksistä.
 
 **iOS (iPad ja puhelin):** jokin kolmesta viimeisimmästä käyttöjärjestelmän pääversiosta ja niiden päivityksistä.
 
-## <a name="outlook"></a><a name="outlook"></a><a name="outlook"></a>Outlook
+## <a name="outlook"></a>Outlook
 
 **Outlook-sovellukset:** jos haluat käyttää [!INCLUDE[prod_short](includes/prod_short.md)] onlinea Outlookin yrityssähköpostina, tarvitset Outlook 2019:n tai uudemman, Outlookin verkkoversion, Outlook for iOS:n tai Outlook for Androidin. Organisaatiossa on oltava käytössä myös Microsoft 365. Et voi käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen online-versiota Outlookin yrityssähköpostina, jos organisaatiossa on käytössä paikallinen Exchange Server. 
 
@@ -39,7 +39,7 @@ Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen jär
 
 **Ympäristöt:** jos käytössä on [!INCLUDE[prod_short](includes/prod_short.md)] Outlookin apuohjelma Outlook for iOS- tai Outlook for Android -ratkaisussa, apuohjelma edellyttää, että mobiililaitteessa käytetään [!INCLUDE[prod_short](includes/prod_short.md)]in tuettujen mobiililaitteiden luettelossa mainittua mobiililaitetta.  
 
-## <a name="teams"></a><a name="teams"></a><a name="teams"></a>Teams
+## <a name="teams"></a>Teams
 
 **Teams-työpöytäsovellukset:** Teamsin [!INCLUDE[prod_short](includes/prod_short.md)] -sovellus tukee Teamsin Windows-työpöytäasiakassovelluksen versiota. 
 
@@ -49,11 +49,11 @@ Suosittelemme, että tietokoneen tai mobiililaitteen tuotteelle asetettujen jär
 
 **Tuettu tilaus:** [!INCLUDE[prod_short](includes/prod_short.md)] -sovellus Teamsia varten tukee Microsoft 365 Business- ja -Enterprise-tilauksia, mutta ei erillisiä Teams-tilauksia (kuten Microsoft Teams (maksuton) tai Microsoft Teams Essentials).
 
-## <a name="excel"></a><a name="excel"></a><a name="excel"></a>Excel
+## <a name="excel"></a>Excel
 
 **Muokkaa Excelissä:** Jotta voit tehdä muutoksia Excelissä ja tuoda muutokset takaisin [!INCLUDE[prod_short](includes/prod_short.md)]:een Excel-lisäosan avulla, tarvitset Excel 2019 -version tai uudemman. Lisätietoja on kohdassa [Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md).  
 
-## <a name="using-the-business-central-administration-center"></a><a name="using-the-business-central-administration-center"></a><a name="using-the-business-central-administration-center"></a><a name="TAC"></a> Business Centralin hallintakeskuksen käyttäminen
+## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a>Business Centralin hallintakeskuksen käyttäminen
 
 Administration Center toimii seuraavien selainten uusimman version kanssa:
 
@@ -62,11 +62,11 @@ Administration Center toimii seuraavien selainten uusimman version kanssa:
 - Firefox Windowsille
 - Safari MacOSille
 
-## <a name="use-business-central-on-premises"></a><a name="use-business-central-on-premises"></a><a name="use-business-central-on-premises"></a>Käytä Business Central on-premises -versiota
+## <a name="use-business-central-on-premises"></a>Käytä Business Central on-premises -versiota
 
 Jos haluat ottaa käyttöön paikallisen Business Central -sovelluksen, tarkista järjestelmän vaatimukset. Lisätietoja on kohdassa [Dynamics 365 Business Central -sovelluksen järjestelmävaatimukset](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20) ja [Käyttöönoton yleiskatsaus](/dynamics365/business-central/dev-itpro/deployment/deployment)  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Dynamics 365 Business Central -sovelluksen järjestelmävaatimukset](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v20)  

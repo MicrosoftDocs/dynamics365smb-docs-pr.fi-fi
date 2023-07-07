@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008'
 ---
-# <a name="receive-items-with-warehouse-receipts"></a><a name="receive-items-with-warehouse-receipts"></a><a name="receive-items-with-warehouse-receipts"></a>Nimikkeiden vastaanottaminen fyysisen varasto vastaanottona
+# <a name="receive-items-with-warehouse-receipts"></a>Nimikkeiden vastaanottaminen fyysisen varasto vastaanottona
 
 [!INCLUDE[prod_short](includes/prod_short.md)]issa nimikkeiden vastaanottoon ja hyllytykseen on neljä tapaa, jotka käsitellään seuraavassa taulukossa.
 
@@ -25,7 +25,7 @@ Lisätietoja saapuvien nimikkeiden käsittelemisestä on kohdassa [Fyysisen vara
 
 Seuraavassa artikkelissa viitataan aiemman taulukon menetelmiin C ja D.
 
-## <a name="receive-items-with-a-warehouse-receipt"></a><a name="receive-items-with-a-warehouse-receipt"></a><a name="receive-items-with-a-warehouse-receipt"></a>Nimikkeiden vastaanottaminen fyysisen varasto vastaanottona
+## <a name="receive-items-with-a-warehouse-receipt"></a>Nimikkeiden vastaanottaminen fyysisen varasto vastaanottona
 
 Kun nimikkeet saapuvat fyysiseen varasto, joka on määritetty käsittelemään fyysisen varaston vastanotot, vastaanoton käynnistäneet vapautetun lähdeasiakirjan rivit on haettava. Varastopaikkoja käytettäessä voidaan joko hyväksyä oletusvarastopaikka tai määrittää varastopaikka, johon nimikkeet asetetaan. Jälkimmäistä vaihtoehtoa voidaan edellyttää, kun nimike vastaanotetaan ensimmäisen kerran. Sen jälkeen syötetään vastaanotettujen nimikkeiden määrä ja kirjataan vastaanotto.  
 
@@ -66,7 +66,7 @@ Fyysisen varaston vastaanotto voidaan luoda jommallakummalla tavalla:
     > [!NOTE]  
     > Jos fyysisessä varastoinnissa käytetään laiturointia, voit tarkastaa, voidaanko nimikkeet laituroida ilman hyllytystä. Lisätietoja laituroinnista on kohdassa [Nimikkeiden laiturointi](warehouse-how-to-cross-dock-items.md).
 
-## <a name="how-to-use-filters-to-get-source-documents"></a><a name="how-to-use-filters-to-get-source-documents"></a><a name="how-to-use-filters-to-get-source-documents"></a>Lähdeasiakirjojen hakeminen suodattimien avulla
+## <a name="how-to-use-filters-to-get-source-documents"></a>Lähdeasiakirjojen hakeminen suodattimien avulla
 
 Fyysisen varastoinnin vastaanoton **Suod. lähdeasiakirj. saamisek.** -sivua voidaan käyttää niiden vapautetun lähdeasiakirjan rivien hakemiseen, jotka määrittävät vastaanotettavat nimikkeet.
 
@@ -82,7 +82,7 @@ Kaikki suodatusehdot täyttävät vapautetut lähdeasiakirjan rivit lisätään 
 
 Voit tehdä niin monta suodatinyhdistelmää kuin haluat. Suodattimet tallennetaan **Suod. lähdeasiakirj. saamisek.** -sivulle, jossa ne ovat käytettävissä tulevaa käyttöä varten. Voit muuttaa ehtoja milloin tahansa valitsemalla **Muokkaa**-toiminnon.
 
-## <a name="zone-and-bin-codes"></a><a name="zone-and-bin-codes"></a><a name="zone-and-bin-codes"></a>Alueen ja varastopaikan koodit
+## <a name="zone-and-bin-codes"></a>Alueen ja varastopaikan koodit
 
 Vastaanotettaessa nimikkeitä, joiden fyysisen varastoinnin luokkakoodi ei ole sama kuin asiakirjan otsikon **Varastopaikkakoodi**-kentässä olevan varastopaikan luokkakoodi, otsikon **Varastopaikkakoodi**-kenttä on tyhjennettävä ennen lähdeasiakirjan rivien hakemista nimikkeitä varten.  
 <!-- TBD, table with comparison of various options-->
@@ -92,9 +92,9 @@ Jos varastopaikat ovat sijainnissa pakollisia, alueen ja varastopaikan koodit li
 * [!INCLUDE [prod_short](includes/prod_short.md)] käyttää ohjattua hyllytystä ja poimintaa käyttävissä laajennetuissa määrityksissä sijainnin **Sijaintikortti**-sivun vastaanoton varastopaikkakoodia. Jos vastaanoton varastopaikan koodia ei ole määritetty, mitään varastopaikkaa ei määritä. Jos nimikkeen ja vastaanoton varastopaikat eivät ole samat, vastaanoton varastopaikan koodi on tyhjä.
 * Jos toimituksen varastopaikan koodia ei ole määritetty muissa määrityksissä, [!INCLUDE [prod_short](includes/prod_short.md)] käyttää lähdeasiakirjan varastopaikan koodia.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/receive-invoice-dynamics-d365-business-central/index).
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/receive-invoice-dynamics-d365-business-central/index).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
 [Varasto](inventory-manage-inventory.md)  

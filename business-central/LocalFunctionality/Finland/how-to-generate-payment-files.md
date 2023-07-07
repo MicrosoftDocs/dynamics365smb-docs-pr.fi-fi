@@ -17,11 +17,11 @@ ms.contentlocale: fi-FI
 ms.lasthandoff: 02/15/2022
 ms.locfileid: "8140039"
 ---
-# <a name="generate-payment-files-in-the-finnish-version"></a><a name="generate-payment-files-in-the-finnish-version"></a><a name="generate-payment-files-in-the-finnish-version"></a><a name="generate-payment-files-in-the-finnish-version"></a>Maksutiedostojen luominen suomalaisessa versiossa
+# <a name="generate-payment-files-in-the-finnish-version"></a>Maksutiedostojen luominen suomalaisessa versiossa
 
 Voit lähettää toimittajille elektronisia maksuja, kun olet luonut kotimaan tai ulkomaan maksuille maksutiedoston.  
 
-## <a name="to-generate-a-payment-file"></a><a name="to-generate-a-payment-file"></a><a name="to-generate-a-payment-file"></a><a name="to-generate-a-payment-file"></a>Maksutiedoston luominen
+## <a name="to-generate-a-payment-file"></a>Maksutiedoston luominen
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lähetettävät pankkimaksut** ja valitse sitten vastaava linkki.  
 2.  Valitse **Toimittajan nro** -sarakkeessa maksutiedostoon sisällytettävät toimittajat.  
@@ -29,7 +29,7 @@ Voit lähettää toimittajille elektronisia maksuja, kun olet luonut kotimaan ta
 4.  Valitse **Kotimaan maksut**- tai **Ulkomaan maksut** -toiminto.  
 5.  Valitse **Kyllä**-painike ja luo maksutiedosto.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
  [Verkkopankkitoiminta Suomessa](electronic-banking-in-finland.md)   
  [Pankin viitetiedostojen määrittäminen](how-to-set-up-bank-reference-files.md)   

@@ -11,7 +11,7 @@ ms.search.form: '308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8
 ms.date: 09/02/2022
 ms.author: altotovi
 ---
-# <a name="work-with-intrastat-reporting"></a><a name="work-with-intrastat-reporting"></a><a name="work-with-intrastat-reporting"></a>Intrastat-raportoinnin käyttäminen
+# <a name="work-with-intrastat-reporting"></a>Intrastat-raportoinnin käyttäminen
 
 Kaikkien Euroopan unionin (EU) alueen yritysten täytyy raportoida kaupastaan muiden EU-maiden/alueiden kanssa. Tavaran liikkuminen on raportoitava kotimaan/-alueen tilastoviranomaisille kuukausittain ja raportti on toimitettava veroviranomaisille. Intrastat on järjestelmä, jolla kerätään kauppatilastoja tavaroista näissä maissa/alueilla. **Intrastat-raportin** avulla voit suorittaa jaksoittaisen Intrastat-raportoinnin (tyypillisesti kuukausittain), keräämisen, kirjaamisen ja raportoinnin kauppatavaran paikallishallinnon lainsäädännön mukaisesti.
 
@@ -27,7 +27,7 @@ Intrastat-raportointi perustuu kaikkiin maihin sovellettaviin EU:n perussäädö
 >
 > Tällä hetkellä odotamme, että tämä ominaisuus on saatavilla marraskuusta 2022 alkaen sovelluksena osoitteessa [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). Jos haluat käyttää sitä, sinun on ensin asennettava se **Laajennuksen hallinta** -sivulle.
 
-## <a name="fill-in-the-intrastat-report"></a><a name="fill-in-the-intrastat-report"></a><a name="fill-in-the-intrastat-report"></a>Täytä Intrastat-raportti
+## <a name="fill-in-the-intrastat-report"></a>Täytä Intrastat-raportti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Intrastat-luettelo** ja valitse sitten vastaava linkki.
 2. Luo uusi **Intrastat-raportti** valitsemalla **Uusi**-toiminto.
@@ -44,7 +44,7 @@ Intrastat-raportointi perustuu kaikkiin maihin sovellettaviin EU:n perussäädö
 
 Eräajo hakee kaikki tämän tilastokauden nimiketapahtumat ja lisää ne riveiksi **Intrastat-raportti**-riveille. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="modify-the-intrastat-report"></a><a name="modify-the-intrastat-report"></a><a name="modify-the-intrastat-report"></a>Muokkaa Intrastat-raporttia
+## <a name="modify-the-intrastat-report"></a>Muokkaa Intrastat-raporttia
 
 Voit tarvittaessa muokata rivejä, mutta aina kun muutat arvoa Intrastat-raportin rivillä, **korjaus**-kentän arvoksi merkitään automaattisesti **kyllä**. Lopulta voit lisätä uuden rivin manuaalisesti, jos siihen on syy. Uuden rivin lisääminen manuaalisesti:
 
@@ -57,13 +57,13 @@ Voit tarvittaessa muokata rivejä, mutta aina kun muutat arvoa Intrastat-raporti
 > [!NOTE]
 > Kun lisäät uuden rivin Intrastat-raporttiin manuaalisesti, rivin **pvm**-kentän tulee olla otsikossa lisäämäsi **tilastojakson** sisällä.
 
-## <a name="validate-intrastat-lines"></a><a name="validate-intrastat-lines"></a><a name="validate-intrastat-lines"></a>Tarkista Intrastat-rivit
+## <a name="validate-intrastat-lines"></a>Tarkista Intrastat-rivit
 
 Kun olet täyttänyt **Intrastat-ilmoituksen**, voit suorittaa **Tarkistusluettelo-raportti**-toiminnon ja varmistaa, että kaikki **Intrastat-ilmoituksen** tiedot ovat oikein. **Intrastat-tarkistusluettelo**-sivulla määritetyt pakolliset kentät, joissa ei ole arvoja, näytetään **Virheet ja varoitukset** -tietoruudussa **Intrastat-kirjaus**-sivulla.
 
 Suorittamalla **Intrastat-raportin tarkistusluettelo** -raportin voit tarkistaa Intrastat-rivit ennen niiden viemistä vaaditussa muodossa. Tarkistus suoritetaan **Intrastat-raportin** sisällä.
 
-## <a name="recalculating-weight-or-supplementary-unit-of-measure"></a><a name="recalculating-weight-or-supplementary-unit-of-measure"></a><a name="recalculating-weight-or-supplementary-unit-of-measure"></a>Painon tai täydentävän mittayksikön uudelleenlaskenta
+## <a name="recalculating-weight-or-supplementary-unit-of-measure"></a>Painon tai täydentävän mittayksikön uudelleenlaskenta
 
 Jos sait virheilmoituksen *Kokonaispaino Intrastat-raportin rivillä ei saa olla tyhjä*, se johtuu todennäköisesti siitä, että et ole määrittänyt käytetylle lähteelle, nimikkeelle tai käyttöomaisuudelle **Nettopaino**-kenttää. Etsi tässä tapauksessa nimike tai käyttöomaisuuden kortti ja lisää tarvittava arvo. Sen jälkeen sinun tarvitsee vain avata **Intrastat-raportti** uudelleen ja noudattaa seuraavia vaiheita:
 
@@ -75,7 +75,7 @@ Jos sait virheilmoituksen *Kokonaispaino Intrastat-raportin rivillä ei saa olla
     3. **MOlemmat** – lasketaan uudelleen sekä **kokonaispaino** ja **lisämäärä**, nimikkeiden ja käyttöomaisuuden tämänhetkisten tietojen perusteella.
 3. Käynnistä eräajo valitsemalla **OK**.
 
-## <a name="report-intrastat-in-a-file"></a><a name="report-intrastat-in-a-file"></a><a name="report-intrastat-in-a-file"></a>Intrastat-raportointi tiedostona
+## <a name="report-intrastat-in-a-file"></a>Intrastat-raportointi tiedostona
 
 Voit lähettää Intrastat-raportin tiedostona, joka perustuu eri paikallisviranomaisten vaatimuksiin. Ennen kuin luot tiedoston, tarkista, että kaikki rivit sisältävät kaikki tarvittavat ja kelvolliset tiedot, suorittamalla **tarkistusluetteloraportin**. Tiedoston luominen:
 
@@ -93,22 +93,22 @@ Kun olet luonut tiedoston, [!INCLUDE[prod_short](includes/prod_short.md)] täytt
 > [!NOTE]
 > Kun seuraavan kerran luot tiedoston, **Vie päivämäärä**- ja **Vie aika** -kentissä säilytetään tietoja vain viimeisestä luodusta tiedostosta.
 
-## <a name="intrastat-rules"></a><a name="intrastat-rules"></a><a name="intrastat-rules"></a>Intrastat-säännöt
+## <a name="intrastat-rules"></a>Intrastat-säännöt
 
-### <a name="grouping-lines"></a><a name="grouping-lines"></a><a name="grouping-lines"></a>Ryhmittelyrivit
+### <a name="grouping-lines"></a>Ryhmittelyrivit
 
 **Intrastat-raportti**-riveillä ei ole ryhmittelyä minkään kentän mukaan. Kaikki tapahtumat kopioidaan alkuperäisestä lähteestä, joten voit etsiä ne nopeasti **lähdetyypin** ja **lähdetapahtumanumeron** yhdistelmän perusteella.
 
 Viranomaisten edellyttämä ryhmittely annetaan viedyssä tiedostossa. Tämä täytyy määrittää **Tiedonvaihtomäärityksessä**, joka on täysin määritettävissä. Lisätietoja kohdassa [Tiedonsiirtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).
 
-### <a name="fixed-assets-reporting"></a><a name="fixed-assets-reporting"></a><a name="fixed-assets-reporting"></a>Käyttöomaisuuden raportit
+### <a name="fixed-assets-reporting"></a>Käyttöomaisuuden raportit
 
 Käyttöomaisuuserät näkyvät Intrastat-riveillä vain, jos:
 
 * **KO:n kirjaustyyppi** **ALV-tapahtuma**-kentässä on **hankintameno** ja jos **asiakirjatyyppi** on **lasku** ostojen ollessa kyseessä ja
 * **KO:n kirjaustyyppi** **ALV-tapahtuma**-kentässä on **Jatkuu luovutuksessa** ja jos **asiakirjatyyppi** on **lasku** myynnin ollessa kyseessä.
 
-### <a name="intrastat-report-statuses"></a><a name="intrastat-report-statuses"></a><a name="intrastat-report-statuses"></a>Intrastat-raportin tilat
+### <a name="intrastat-report-statuses"></a>Intrastat-raportin tilat
 
 Kun käsittelet **Intrastat-raporttia**, asiakirjan otsikossa näkyy **tila**-kenttä. Voit löytää seuraavat tilat yhdessä asiaan liittyvien sääntöjen kanssa:
 
@@ -116,9 +116,9 @@ Kun käsittelet **Intrastat-raporttia**, asiakirjan otsikossa näkyy **tila**-ke
 * *Vapautettu*: [!INCLUDE[prod_short](includes/prod_short.md)] muuttaa tilaksi automaattisesti *vapautettu*, kun luot tiedoston. Tästä hetkestä lähtien **Intrastat-raporttia** ei voi muuttaa. Jos sinun täytyy muuttaa jotain ja raportoida uudelleen, voit avata Intrastat-raportin uudelleen **avaa uudelleen** -toiminnon avulla. Kun asiakirja on avattu uudelleen, voit vapauttaa asiakirjan uudelleen **vapautus**-toiminnon avulla.
 * **Raportoitu**: Määrittää, onko tapahtumasta jo raportoitu veroviranomaisille. Tämä ei ole tavallinen tila, mutta itsenäinen kenttä, ja vaikka olisit avannut uudelleen Intrastat-raportin, se silti näyttää, että tiedosto on jo luotu tälle raportille.
 
-## <a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a><a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvästä koulutuksesta on [Microsoft Learnissa](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvästä koulutuksesta on [Microsoft Learnissa](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Intrastat-raportoinnin määrittäminen](finance-how-setup-report-intrastat.md)  
 [Taloushallinto](finance.md)  

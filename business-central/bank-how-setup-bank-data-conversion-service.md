@@ -11,7 +11,7 @@ ms.search.form: '304, 20106, 20105, 20100, 20101, 20107, 20109'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-the-amc-banking-365-fundamentals-extension"></a><a name="set-up-the-amc-banking-365-fundamentals-extension"></a><a name="set-up-the-amc-banking-365-fundamentals-extension"></a>AMC Banking 365 Fundamentals -laajennuksen määrittäminen
+# <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>AMC Banking 365 Fundamentals -laajennuksen määrittäminen
 Yleiset palvelut on yhdistetty [!INCLUDE[prod_short](includes/prod_short.md)]iin ja valmis otettavaksi käyttöön. Sen avulla maksutiedot muunnetaan mihin tahansa pankkisi vaatimaan tietomuotoon. Tähän viitataan [!INCLUDE[prod_short](includes/prod_short.md)]issa AMC Banking 365 Fundamentals -laajennuksena.
 
 Voit viedä maksurivit **Maksupäiväkirja**-sivulta tiedostoon tai tietovirtaan, joka ladataan pankkiin automaattista käsittelyä varten. Sähköisiä maksuja ei siis tarvitse tehdä yksitellen. Lisätietoja on kohdassa [Maksujen vieminen pankkitiedostoon](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
@@ -25,7 +25,7 @@ Pankkitiedostojen tuontia ja vientiä varten on määritettävä oma pankkitili 
 > [!NOTE]  
 > AMC Banking 365 Fundamentals -laajennus saattaa rajoittaa rivimäärää, joka voidaan viedä yhdessä tiedostossa. Näyttöön tulee virhesanoma, jos raja ylitetään. On suositeltavaa, että tiliotetiedostot sisältävät enintään 1 000 riviä, koska AMC Banking 365 Fundamentals -laajennuksen käsittelyaika saattaa muuten pidentyä merkittävästi.
 
-## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension"></a><a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension"></a><a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension"></a>Yrityksen rekisteröiminen AMC Banking 365 Fundamentals -laajennukseen
+## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension"></a>Yrityksen rekisteröiminen AMC Banking 365 Fundamentals -laajennukseen
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitiet. muuntopalvelun asetukset** ja valitse sitten vastaava linkki.  
 2. **Pankkitiet. muuntopalvelun asetukset** -sivu avautuu ja siinä on kolme esitäytettyä kenttää, jotka sisältävät AMC Banking 365 Fundamentals -laajennuksen tarjoajan tarvittavat URL-osoitteet.
 
@@ -42,7 +42,7 @@ Pankkitiedostojen tuontia ja vientiä varten on määritettävä oma pankkitili 
 > [!NOTE]  
 > Sisäänkirjaustiedot salataan automaattisesti.
 
-## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a><a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a><a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Tällä hetkellä tuettujen pankin tietomuotojen luettelon tarkastelu tai päivitys
+## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Tällä hetkellä tuettujen pankin tietomuotojen luettelon tarkastelu tai päivitys
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitiet. muuntopalvelun asetukset** ja valitse sitten vastaava linkki.
 2. Valitse **Pankkitiet. muuntopalvelun asetukset** -sivulla **Pankin nimi - tietojen muuntoluettelo** -toiminto, jolloin avautuu muuntopalvelun tukemien pankin tietomuotojen luettelo.
 3. Valitse **Pankin nimi - tietojen muuntamisen luettelo** -sivulla **Päivitä pankkien nimien luettelo** -toiminto.
@@ -54,7 +54,7 @@ AMC Banking 365 Fundamentals -laajennuksen tukema pankkitietomuotojen luettelo o
 
 Olet nyt rekisteröitynyt AMC Banking 365 Fundamentals -laajennukseen. Jatka kirjautumistietojen käyttämistä jokaisella pankkitilillä, joka tulee käyttämään palvelua.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

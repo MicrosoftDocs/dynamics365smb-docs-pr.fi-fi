@@ -10,11 +10,11 @@ ms.search.keywords: 'Power BI, setup, analysis, reporting, financial report, bus
 ms.date: 07/13/2022
 ms.author: jswymer
 ---
-# <a name="enabling-power-bi-integration-with-"></a><a name="enabling-power-bi-integration-with-"></a><a name="enabling-power-bi-integration-with-"></a>Power BI:n ja [!INCLUDE[prod_short](includes/prod_short.md)]in integroinnin ottaminen käyttöön
+# <a name="enabling-power-bi-integration-with-"></a>Power BI:n ja [!INCLUDE[prod_short](includes/prod_short.md)]in integroinnin ottaminen käyttöön
 
 Tässä artikkelissa käsitellään [!INCLUDE[prod_short](includes/prod_short.md)]in valmistelua Power BI -integrointia varten. Vaikka integrointi on jo otettu käyttöön [!INCLUDE[prod_short](includes/prod_short.md)] online -versiossa, kannattaa kuitenkin tutustua joihinkin käyttöoikeuksia koskeviin tietoihin. Paikallisessa [!INCLUDE[prod_short](includes/prod_short.md)] -versiossa ympäristön on määritettävä muodostamaan yhteys Power BI:hin, ennen kuin käyttäjät voivat käyttää sitä.
 
-## <a name="power-bi-licensing"></a><a name="power-bi-licensing"></a><a name="power-bi-licensing"></a><a name="license"></a>Power BI:n käyttöoikeudet
+## <a name="power-bi-licensing"></a><a name="license"></a>Power BI:n käyttöoikeudet
 
 Käyttäjät saavat [!INCLUDE[prod_short](includes/prod_short.md)]in mukana maksuttoman Power BI -käyttöoikeuden, jolla voi käyttää [!INCLUDE[prod_short](includes/prod_short.md)]in ja Power BI:n tavallisia ominaisuuksia. Ostamalla Power BI Pro -käyttöoikeuden saa käyttöön myös lisäominaisuuksia. Seuraavassa taulukossa on kunkin käyttöoikeuden ominaisuuksien yleiskatsaus.
 
@@ -25,11 +25,11 @@ Käyttäjät saavat [!INCLUDE[prod_short](includes/prod_short.md)]in mukana maks
 
 Lisätietoja on kohdassa [Power BI -palvelun käyttöoikeuden organisaation käyttäjille](/power-bi/admin/service-admin-licensing-organization) tai [Rekisteröityminen Power BI -palveluun henkilönä](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 
-## <a name="expose-data-through-api-or-odata-web-services"></a><a name="expose-data-through-api-or-odata-web-services"></a><a name="expose-data-through-api-or-odata-web-services"></a><a name="exposedata"></a>Tietojen näyttäminen ohjelmointirajapinnan tai OData-verkkopalvelujen kautta
+## <a name="expose-data-through-api-or-odata-web-services"></a><a name="exposedata"></a>Tietojen näyttäminen ohjelmointirajapinnan tai OData-verkkopalvelujen kautta
 
 Business Central tarjoaa kaksi tapaa näyttää tiedot, joita Power BI -raportit voivat käyttää: API-sivut tai -kyselyt ja OData (Open Data Protocol) -verkkopalvelut.
 
-### <a name="api-pages-and-queries"></a><a name="api-pages-and-queries"></a><a name="api-pages-and-queries"></a>API-sivut ja -kyselyt
+### <a name="api-pages-and-queries"></a>API-sivut ja -kyselyt
 
 > **KOHDE:** vain Business Central online
 
@@ -44,17 +44,17 @@ Business Central online tukee myös mukautettuja ohjelmointirajapintoja. Busines
 >
 > Joissakin harvoissa tapauksissa tämä toiminta aiheuttaa virheen, kun käyttäjä yrittää noutaa tietoja ohjelmointirajapinnasta Power BI Desktop -raporttia varten. Jos tietokantamuutokset kuitenkin ovat tarpeen muokatulla ohjelmointirajapinnalla, Power BI Desktopin käyttäjät voivat pakottaa tämän toimintatavan. Lisätietoja: [Power BI -raporttien kokoaminen näyttämään Business Central -tietoja](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 
-### <a name="odata-web-services"></a><a name="odata-web-services"></a><a name="odata-web-services"></a>OData-verkkopalvelut
+### <a name="odata-web-services"></a>OData-verkkopalvelut
 
 Voit julkaista Business Central -sovellusobjekteja kuten koodiyksikköjä, sivuja ja kyselyitä [OData-verkkopalveluina](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). Business Central onlinessa on oletusarvoisesti julkaistu monia verkkopalveluita. Verkkopalveluja voi etsiä kätevästi hakemalla *verkkopalveluja* [!INCLUDE[prod_short](includes/prod_short.md)]issa. Varmista **Verkkopalvelut**-sivulla, että **Julkaisu**-kenttä on valittuna edellä mainituissa verkkopalveluissa. Lisätietoja verkkopalvelujen julkaisemisesta on kohdassa [Verkkopalvelun julkaiseminen](across-how-publish-web-service.md).
 
 Lisätietoja tavoista, joilla voidaan verkkopalvelujen paras mahdollinen suorituskyky sekä Business Central Serverin (päätepiste) että kuluttajan (asiakasohjelma) kannalta, on kohdassa [Tehokkaiden verkkopalvelujen kirjoittaminen](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services).
 
-### <a name="choosing-whether-to-use-api-pages-or-odata-web-services"></a><a name="choosing-whether-to-use-api-pages-or-odata-web-services"></a><a name="choosing-whether-to-use-api-pages-or-odata-web-services"></a>API-sivujen tai OData-verkkopalvelujen valitseminen
+### <a name="choosing-whether-to-use-api-pages-or-odata-web-services"></a>API-sivujen tai OData-verkkopalvelujen valitseminen
 
 Aina kun mahdollista, suositellaan käyttämään API-sivuja OData-verkkopalvelun sijaan. Yleensä API-sivut lataavat tiedot nopeammin Power BI -raportteihin kuin OData-verkkopalvelut. Lisäksi ne ovat joustavampia, koska niiden avulla voit saada tietoja taulukon kentistä, joita ei ole määritetty sivuobjektissa.
 
-## <a name="set-up--on-premises-for-power-bi-integration"></a><a name="set-up--on-premises-for-power-bi-integration"></a><a name="set-up--on-premises-for-power-bi-integration"></a><a name="setup"></a>Paikallisen [!INCLUDE[prod_short](includes/prod_short.md)] -version Power BI -integroinnin valmistelu
+## <a name="set-up--on-premises-for-power-bi-integration"></a><a name="setup"></a>Paikallisen [!INCLUDE[prod_short](includes/prod_short.md)] -version Power BI -integroinnin valmistelu
 
 Tässä osassa käsitellään paikallisen [!INCLUDE[prod_short](includes/prod_short.md)] -käyttöönoton edellytyksiä Power BI -integrointia varten.
 
@@ -92,9 +92,9 @@ Tässä osassa käsitellään paikallisen [!INCLUDE[prod_short](includes/prod_sh
     Voit muodostaa ensimmäisen yhteyden avaamalla [!INCLUDE[prod_short](includes/prod_short.md)]in ja suorittamalla aloitussivulla **Aloita Power BI:n käyttö** -toiminnon. Tämä toiminto opastaa hyväksyntäprosessin läpi ja tarkistaa Power BI -käyttöoikeutesi. Ohjelma pyytää kirjautumaan sisään käyttämällä Azuren järjestelmänvalvojatiliä. Lisätietoja on kohdassa [Power BI -yhteyden muodostaminen – kerran](across-working-with-powerbi.md#connect).
 
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Business Central ja Power BI](admin-powerbi.md)  
 [Power BI -integrointiosa ja [!INCLUDE[prod_short](includes/prod_short.md)] -arkkitehtuurin yleiskatsaus](admin-powerbi-overview.md)  

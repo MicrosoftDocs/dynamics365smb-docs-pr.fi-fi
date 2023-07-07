@@ -11,7 +11,7 @@ ms.search.form: '256, 233, 624, 1228'
 ms.date: 07/09/2021
 ms.author: edupont
 ---
-# <a name="record-payments-and-refunds-in-the-payment-journal"></a><a name="record-payments-and-refunds-in-the-payment-journal"></a><a name="record-payments-and-refunds-in-the-payment-journal"></a>Maksujen ja hyvitysten tallentaminen maksupäiväkirjaan
+# <a name="record-payments-and-refunds-in-the-payment-journal"></a>Maksujen ja hyvitysten tallentaminen maksupäiväkirjaan
 
 Kirjaat maksut toimittajille tai hyvitykset asiakkaille **Maksupäiväkirja**-sivulla. Kun kirjaat maksupäiväkirjan rivin, maksettu summa kirjataan määritetyn järjestelmän pankkitilille. Sinun on tehtävä sitten todellinen rahan siirto liittyvältä pankkitililtä muutaman vaiheen kautta.  
 
@@ -29,7 +29,7 @@ Maksupäiväkirja on yleinen päiväkirja, joka on tarkoitettu erityisesti maksu
 
     Maksun suorituksen kirjaamisen lisäksi voit käyttää myös **Maksupäiväkirja**-sivua siirtämään maksun pankin lisäkäsittelyä varten. Lisätietoja on kohdissa [Sekkimaksujen suorittaminen](payables-how-work-checks.md) ja [Sähköisten maksujen suorittaminen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
-## <a name="to-make-payments-in-the-payment-journal"></a><a name="to-make-payments-in-the-payment-journal"></a><a name="to-make-payments-in-the-payment-journal"></a>Maksujen tekeminen maksupäiväkirjaan
+## <a name="to-make-payments-in-the-payment-journal"></a>Maksujen tekeminen maksupäiväkirjaan
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten vastaava linkki.
 2. Avaa päiväkirjaerä, joka on varattu maksuja varten.
@@ -43,7 +43,7 @@ Maksupäiväkirja on yleinen päiväkirja, joka on tarkoitettu erityisesti maksu
 6. Kun kaikki maksupäiväkirjan rivit ovat valmiit, valitse **Kirjaa**-toiminto.
 
 
-## <a name="to-issue-a-refund-check"></a><a name="to-issue-a-refund-check"></a><a name="to-issue-a-refund-check"></a>Palautussekin julkaiseminen
+## <a name="to-issue-a-refund-check"></a>Palautussekin julkaiseminen
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten liittyvä linkki.
 2. Valitse **Asiakirjatyyppi**-kentässä **Hyvitys**.  
@@ -57,7 +57,7 @@ Maksupäiväkirja on yleinen päiväkirja, joka on tarkoitettu erityisesti maksu
 10. Kun kaikki maksupäiväkirjan rivit on täytetty, valitse **Kirjaa/tulosta**-toiminto, valitse **Kirjaa ja tulosta** -toiminto ja valitse sitten **Kyllä**.  
   
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 [Sekkimaksujen suorittaminen](payables-how-work-checks.md)  
 [Sähköisten maksujen suorittaminen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
 [Ostovelkojen hallinta](payables-manage-payables.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-cost-components"></a><a name="design-details-cost-components"></a><a name="design-details-cost-components"></a>Rakennetiedot: kustannuskomponentit
+# <a name="design-details-cost-components"></a>Rakennetiedot: kustannuskomponentit
 Kustannuskomponentit ovat erityyppisiä kustannuksia, jotka muodostavat varaston arvon nousun tai laskun.  
 
  Seuraavassa taulukossa kuvataan eri kustannusosat ja mitkä tahansa toissijaiset kustannusosat, joista ne koostuvat.  
@@ -33,7 +33,7 @@ Kustannuskomponentit ovat erityyppisiä kustannuksia, jotka muodostavat varaston
 > [!NOTE]  
 >  Rahti-ja vakuutuskustannukset ovat nimikekustannuksia, jotka voidaan lisätä milloin tahansa nimikkeen kustannukseen. Kun **Muuta kustannuksia - Nimiketapahtumat** -eräajo suoritetaan, minkä tahansa liittyvän varaston arvon laskut päivitetään sen mukaan.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
  [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)   
  [Rakennetiedot: Vaihtelu](design-details-variance.md) [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
  [Rahoitus](finance.md)  

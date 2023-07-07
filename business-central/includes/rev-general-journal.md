@@ -5,7 +5,7 @@ ms.date: 10/27/2022
 ms.author: bholtorf
 ---
 
-### <a name="reversing-journals-to-correct-mistakes"></a><a name="reversing-journals-to-correct-mistakes"></a><a name="reversing-journals-to-correct-mistakes"></a>Päiväkirjojen peruuttaminen virheiden korjaamiseksi
+### <a name="reversing-journals-to-correct-mistakes"></a>Päiväkirjojen peruuttaminen virheiden korjaamiseksi
 
 Kun käsittelet päiväkirjoja, joissa on monta riviä ja jokin menee pieleen, on tärkeää, että virheet on helppo korjata. **Kirjattu yleisen päiväkirjan** sivu sisältää muutamia toimintoja, jotka voivat auttaa.
 

@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="design-details-integration-with-inventory"></a><a name="design-details-integration-with-inventory"></a><a name="design-details-integration-with-inventory"></a>Rakennetiedot: integrointi varaston kanssa
+# <a name="design-details-integration-with-inventory"></a>Rakennetiedot: integrointi varaston kanssa
 
 Varastonhallinta- ja varasto-ominaisuudet ovat yhteydessä toistensa kanssa inventoinnissa ja inventoinnin tai fyysisen varaston muutoksessa.  
 
-## <a name="physical-inventory"></a><a name="physical-inventory"></a><a name="physical-inventory"></a>Fyysinen varasto
+## <a name="physical-inventory"></a>Fyysinen varasto
 
 **F. var. inventointipvk** -sivu käytetään **Inventointipäiväkirja**-sivulla kaikkien fyysisen varaston lisäsijaintien osalta. Varaston tai bin-tiedoston taso lasketaan ja tulostettu luettelo annetaan varastotyöntekijälle. Luettelossa näytetään, mitkä nimikkeet missä bineissä täytyy laskea.  
   
@@ -30,7 +30,7 @@ Kun kirjaat inventointipäiväkirjan, varaston ja oletusmuutoksen varastopaikka 
 
 [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
   
-## <a name="warehouse-adjustments-to-the-item-ledger"></a><a name="warehouse-adjustments-to-the-item-ledger"></a><a name="warehouse-adjustments-to-the-item-ledger"></a>Nimikekirjausten fyysisen varastoinnin muutokset
+## <a name="warehouse-adjustments-to-the-item-ledger"></a>Nimikekirjausten fyysisen varastoinnin muutokset
 
 **Nimikepäiväkirja**-sivun ja **Laske f.var. muutos** -toiminnon avulla voit muuttaa nimiketapahtuman varaston sen mukaan, miten fyysisen varastoinnin varastopaikan nimikemäärää on muutettu. Kun haluat luoda linkin varaston ja fyysisen varaston välille, määritä oletusmuutosvarastopaikka sijaintia kohti.  
   
@@ -43,7 +43,7 @@ Voidaksesi muuttaa varastopaikan sisältöä, käytä fyysisen varastoinnin nimi
   
 Jos kirjoitat positiivisen määrän ja kirjaat rivin, varastopaikkaan tallennettu varaston määrä lisääntyy ja oletusarvoisen muutosvarastopaikan määrä pienenee vastaavasti.  
   
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)  
 [Rakennetiedot: saatavuus varastossa](design-details-availability-in-the-warehouse.md)  

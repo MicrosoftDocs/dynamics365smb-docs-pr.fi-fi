@@ -17,7 +17,7 @@ ms.contentlocale: fi-FI
 ms.lasthandoff: 03/31/2022
 ms.locfileid: "8516393"
 ---
-# <a name="setting-up-banking"></a><a name="setting-up-banking"></a><a name="setting-up-banking"></a><a name="setting-up-banking"></a>Pankkitoiminnan määrittäminen
+# <a name="setting-up-banking"></a>Pankkitoiminnan määrittäminen
 
 Pankkitilikorttien avulla voit seurata kaikkia pankkitilejäsi missä tahansa valuutassa. Kun olet määrittänyt pankkitilit, voit myös käyttää Sekin tulostus -vaihtoehtoa.
 
@@ -31,7 +31,7 @@ Voit käyttää sähköisiä pankkipalveluita pankin tiliotteiden tuonnissa ja m
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  

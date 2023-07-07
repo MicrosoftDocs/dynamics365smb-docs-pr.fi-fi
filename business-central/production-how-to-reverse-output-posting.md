@@ -10,11 +10,11 @@ ms.search.form: 5510
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="reverse-output-posting"></a><a name="reverse-output-posting"></a><a name="reverse-output-posting"></a>Tuotoksen kirjaamisen peruuttaminen
+# <a name="reverse-output-posting"></a>Tuotoksen kirjaamisen peruuttaminen
 
 Tuotoksen kirjaus täytyy joissakin tilanteissa peruuttaa. Tällainen tilanne voi olla esimerkiksi, jos tiedot annettiin virheellisesti ja tuotantotilaukseen kirjataan väärä tuotoksen määrä.  
 
-## <a name="to-reverse-an-output-posting"></a><a name="to-reverse-an-output-posting"></a><a name="to-reverse-an-output-posting"></a>Peruuta tuotoksen kirjaus
+## <a name="to-reverse-an-output-posting"></a>Peruuta tuotoksen kirjaus
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotospäiväkirja** ja valitse sitten vastaava linkki. Valitse haluamasi erä.  
 2. Täytä tarvittavat kentät. Lisätietoja on kohdassa [Tuotoksen ja ajoaikojen eräkirjaaminen](production-how-to-post-output-quantity.md).
@@ -23,7 +23,7 @@ Tuotoksen kirjaus täytyy joissakin tilanteissa peruuttaa. Tällainen tilanne vo
 
 Tuotospäiväkirjan tapahtumat kirjataan nimiketapahtumiin positiivisena muutoksena.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
  [Tuotanto](production-manage-manufacturing.md) [Tuotannon määrittäminen](production-configure-production-processes.md)  
  [Suunnittelu](production-planning.md)  

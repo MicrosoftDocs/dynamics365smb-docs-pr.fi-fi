@@ -11,13 +11,13 @@ ms.search.form: '44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
 ms.date: 09/08/2021
 ms.author: edupont
 ---
-# <a name="process-sales-return-orders"></a><a name="process-sales-return-orders"></a><a name="process-sales-return-orders"></a>Myyntipalautustilausten käsittely
+# <a name="process-sales-return-orders"></a>Myyntipalautustilausten käsittely
 
 Jos myyntipalautuskäsittelyä, kuten nimikkeen käsittelyn varastoasiakirjoja, on hallittava paremmin tai jos haluat paremman yleiskuvan, kun useiden myyntiasiakirjojen nimikkeitä vastaanotetaan yhtenä myyntipalautuksena, voit luoda myyntipalautustilauksia. Myyntipalautustilaus lähettää automaattisesti liittyvän myyntihyvityslaskun ja tarvittaessa muut palautukseen liittyvät asiakirjat, kuten korvaavan myyntitilauksen.
 
 Alkuperäisen kirjatun myyntilaskun lisäksi voit kohdistaa myyntihyvityslaskun tai myyntipalautustilauksen muihin myyntilaskuihin, kuten toiseen kirjattuun myyntilaskuun, koska asiakas on myös palauttamassa tämän laskun kanssa toimitettuja nimikkeitä.
 
-## <a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a><a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a><a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Myyntipalautustilauksen luominen vähintään yhden kirjatun myyntiasiakirjan perusteella
+## <a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Myyntipalautustilauksen luominen vähintään yhden kirjatun myyntiasiakirjan perusteella
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntipalautustilaukset** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi**-toiminto.  
@@ -67,7 +67,7 @@ Alkuperäisen kirjatun myyntilaskun lisäksi voit kohdistaa myyntihyvityslaskun 
 10. Valitse **Myyntipalautustilaus**-sivun kunkin rivin **Palautuksen syykoodi** -kentässä palautuksen syy.
 11. Valitse **Kirjaa**-toiminto.
 
-## <a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a><a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a><a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a>Korvaavan myyntitilauksen luominen myyntipalautustilauksesta
+## <a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a>Korvaavan myyntitilauksen luominen myyntipalautustilauksesta
 Voit hyvittää asiakkaalle myymäsi nimikkeen vaihtamalla nimikkeen. Voit vaihtaa nimikkeen samaan tai eri nimikkeeseen. Tällainen tilanne voi syntyä esimerkiksi silloin, kun olet toimittanut asiakkaalle vahingossa väärän nimikkeen.  
 
 1. Tee korvaavalle nimikkeelle aktiivisen palautuskäsittelyn **Myyntipalautustilaus**-sivun tyhjällä rivillä negatiivinen tapahtuma lisäämällä negatiivinen summa **Määrä**-kenttään.  
@@ -75,7 +75,7 @@ Voit hyvittää asiakkaalle myymäsi nimikkeen vaihtamalla nimikkeen. Voit vaiht
 3. Täytä **Siirrä negat. myyntirivit** -sivulla tarvittavat kentät.
 4. Valitse **OK**-painike. Ohjelma poistaa vaihdettavan nimikkeen negatiivisen rivin myyntipalautustilauksesta ja sisällyttää sen uudelle **Myyntitilaus**-sivulle. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).
 
-## <a name="to-create-return-related-documents-from-a-sales-return-order"></a><a name="to-create-return-related-documents-from-a-sales-return-order"></a><a name="to-create-return-related-documents-from-a-sales-return-order"></a>Palautuksiin liittyvien asiakirjojen luonti myyntipalautustilauksesta
+## <a name="to-create-return-related-documents-from-a-sales-return-order"></a>Palautuksiin liittyvien asiakirjojen luonti myyntipalautustilauksesta
 Voit luoda korvaavia myyntitilauksia, ostopalautustilauksia ja korvaavia ostotilauksia automaattisesti myyntipalautuskäsittelyn aikana. Tämä on kätevää esimerkiksi silloin, kun haluat käsitellä nimikkeitä, joilla on toimittajan myöntämä takuu.
 
 1. Valitse aktiivisen palautuskäsittelyn **Myyntipalautustilaus**-sivulla **Luo palautuksiin liittyvät asiakirjat** -toiminto.
@@ -84,7 +84,7 @@ Voit luoda korvaavia myyntitilauksia, ostopalautustilauksia ja korvaavia ostotil
 4. Jos palautettu nimike on tilattava toimittajalta, valitse  **Luo ostotilaus** -valintaruutu.
 5. Jos korvaava myyntitilaus on luotava, valitse **Luo myyntitilaus** -valintaruutu.
 
-## <a name="to-create-a-restock-charge"></a><a name="to-create-a-restock-charge"></a><a name="to-create-a-restock-charge"></a>Täydennysmaksun luominen
+## <a name="to-create-a-restock-charge"></a>Täydennysmaksun luominen
 Voit veloittaa asiakkaaltasi täydennysmaksun kattamaan nimikkeen palauttamisesta aiheutuneet fyysiset käsittelykulut. Täydennysmaksu voidaan veloittaa esimerkiksi, jos asiakas tilasi vahingossa väärän nimikkeen tai muutti mieltänsä sen jälkeen, kun oli vastaanottanut myymäsi nimikkeen.
 
 Voit kirjata tämän kasvaneen kustannuksen nimikekuluna hyvityslaskuun tai palautustilaukseen ja määritellä sen kirjattuun toimitukseen. Seuraavassa se käsitellään myyntipalautustilauksen osalta, mutta samat vaiheet koskevat myös myyntihyvityslaskua.
@@ -95,9 +95,9 @@ Voit kirjata tämän kasvaneen kustannuksen nimikekuluna hyvityslaskuun tai pala
 
 Kun kirjaat myyntipalautustilauksen, ohjelma lisää täydennysmaksun asianmukaisen myyntitapahtuman summaan. Tällä tavoin voit ylläpitää täsmällistä varaston arvostusta.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/return-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
