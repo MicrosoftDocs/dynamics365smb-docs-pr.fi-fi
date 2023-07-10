@@ -10,7 +10,7 @@ ms.author: andreipa
 ms.reviewer: bholtorf
 ---
 
-# Synkronoi nimikkeet ja varasto
+# <a name="synchronize-items-and-inventory"></a>Synkronoi nimikkeet ja varasto
 
 **Nimikkeet** [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa vastaavat *tuotteita* Shopifyssa ja niihin kuuluu fyysisiä tavaroita, digitaalisia latauksia, palveluja ja lahjakortteja, joita myyt. On kaksi pääasiallista syytä synkronoida nimikkeet:
 
@@ -21,7 +21,7 @@ Edeltävät kaksi skenaariota ovat aina käytössä.
 
 Kolmas skenaario on tietojen hallinta Shopify mutta kyseisten nimikkeiden tuonti joukkona [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmaan. Tämä skenaario voi olla hyödyllinen tiedonsiirtotapahtumissa, kuten kun aiemmin luotu verkkokauppa halutaan yhdistää uuteen [!INCLUDE[prod_short](../includes/prod_short.md)] -ympäristöön.
 
-## Määritä nimikkeiden synkronointivaltuudet
+## <a name="define-item-synchronizations"></a>Määritä nimikkeiden synkronointivaltuudet
 
 1. Valitse haku ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake ja kirjoita **Shopify-kauppa**. Avaa myymälä, jolle haluat määrittää nimikkeen synkronoinnin.
 2. Valitse haluamasi vaihtoehdot **synkronointikohde**-kentästä.
@@ -34,7 +34,7 @@ Kolmas skenaario on tietojen hallinta Shopify mutta kyseisten nimikkeiden tuonti
 |**Shopifyhin**| Valitse tämä vaihtoehto, jos aiot päivittää nimikkeet manuaalisesti **Lisää nimike** -toiminnon käynnistämän synkronoinnin jälkeen **Synkronoi tuote** -toiminnolla tai toistuvien päivitysten työjonon kautta. Muista ottaa käyttöön **voi päivittää Shopify-tuotetta** -kenttä. Jos se ei ole käytössä, se vastaa **tyhjää** (oletusprosessi)-asetusta. Lue lisää [Nimikkeiden vienti Shopifyhin](synchronize-items.md#export-items-to-shopify) -osasta.|
 |**Lähettäjä Shopify**| Valitse tämä vaihtoehto, jos aiot tuoda tuotteita Shopifysta joukkona, joko manuaalisesti käyttämällä **Synkronoi tuote** -toimintoa tai työjonon kautta toistuvia päivityksiä varten. Lue lisää [Nimikkeiden tuonti Shopifysta](synchronize-items.md#import-items-from-shopify) -osasta.|
 
-## Tuo nimikkeitä Shopifysta
+## <a name="import-items-from-shopify"></a>Tuo nimikkeitä Shopifysta
 
 Tuo ensin nimikkeitä Shopifysta joko joukkona tai yhdessä tilausten tuonnin kanssa lisätäksesi nimikkeet ensin **Shopify-tuote**- ja **Shopify-variantti**-taulukoihin. Yhdistä sitten tuotuja tuotteita ja variantteja nimikkeisiin ja variantteihin [!INCLUDE[prod_short](../includes/prod_short.md)]issa. Hallitse prosessia seuraavien asetusten avulla:
 
@@ -47,7 +47,7 @@ Tuo ensin nimikkeitä Shopifysta joko joukkona tai yhdessä tilausten tuonnin ka
 |**Version etuliite**|Käytä yhdessä **Varastointiyksikön yhdistämismäärityksen** kanssa , jonka arvona on joko **Varianttikoodi** tai **Nimikenro + varianttikoodi** -vaihtoehtoja varmistusstrategiaksi silloin, kun Shopifysta lähtevä varastointiyksikkö on tyhjä.<br>Jos haluat luoda nimikevariantin [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa automaattisesti, sinun täytyy syöttää arvo **koodiin**. Oletusarvon mukaan käytetään Shopifysta tuodussa varastointiyksikkökentässä määritettyä arvoa. Jos varastointiyksikkö on kuitenkin tyhjä, se luo koodin alkaen määritetystä variantti-etuliitteestä ja "001"-numerosta.|
 |**Shopify voi päivittää nimikkeen**|Valitse tämä vaihtoehdoista, jos haluat päivittää nimikkeet ja/tai variantit automaattisesti.|
 
-### Shopify-tuotteiden SKU:iden ja viivakoodien vaikutus tuotteiden ja varianttien kartoittamiseen ja luomiseen Business Centralissa
+### <a name="effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central"></a>Shopify-tuotteiden SKU:iden ja viivakoodien vaikutus tuotteiden ja varianttien kartoittamiseen ja luomiseen Business Centralissa
 
 Kun tuotteet tuodaan Shopifysta **Shopify-tuotteet**- ja **Shopify-variantit**-taulukoihin, [!INCLUDE[prod_short](../includes/prod_short.md)] yrittää löytää aiemmin luotuja tietueita.
 
@@ -71,7 +71,7 @@ Seuraava taulukko luonnostelee **Viivakoodi**-kentän vaikutuksen.
 > [!NOTE]  
 > Voit käynnistää valittujen tuotteiden/varianttien tai kaikkien tuotujen yhdistämättömien tuotteiden yhdistämisen valitsemalla **Yritä etsiä tuotteen yhdistäminen** tai **Yritä etsiä yhdistämisiä**.
 
-## Vie nimikkeet Shopifyhin
+## <a name="export-items-to-shopify"></a>Vie nimikkeet Shopifyhin
 
 Valitse elementit nimikeluettelosta, joka viedään Shopifyhin. Käytä **Lisää nimike**-toimintoa **Shopify-tuotteet**-sivulla lisätäksesi nimikkeitä Shopify-tuoteluetteloon. 
 
@@ -92,7 +92,7 @@ Voit hallita nimikkeiden vientiprosessia seuraavien asetusten avulla:
 |**Oletusvarastokäytäntö**|Valitse *kiellä*, jos haluat estää Shopify-puolen negatiivisen varaston.|
 |**Voi päivittää Shopify-tuotteita**|Määritä tämä kenttä, jos [!INCLUDE[prod_short](../includes/prod_short.md)] voi luoda vain nimikkeitä tai jos voi myös päivittää nimikkeitä. Valitse tämä vaihtoehto, jos aiot päivittää nimikkeet manuaalisesti **Lisää nimike** -toiminnon käynnistämän synkronoinnin jälkeen **Synkronoi tuote** -toiminnolla tai toistuvien päivitysten työjonon kautta. Muista valita **Shopifyhin** **Nimikkeen synkronointi** -kentässä.|
 
-### Kenttien yhdistämisen yleiskatsaus
+### <a name="fields-mapping-overview"></a>Kenttien yhdistämisen yleiskatsaus
 
 |Shopify|Lähde vietäessä kohteesta [!INCLUDE[prod_short](../includes/prod_short.md)]|Kohde tuotaessa kohteeseen [!INCLUDE[prod_short](../includes/prod_short.md)]|
 |------|-----------------|-----------------|
@@ -115,16 +115,16 @@ Voit hallita nimikkeiden vientiprosessia seuraavien asetusten avulla:
 |Verotettava|Vakioarvo: käytössä.|Ei käytetty.|
 |Verokoodit|**Veroryhmän koodi**. Koskee vain myyntiveroja. Lisätietoja kohdassa [Verojen määrittäminen](setup-taxes.md).|Ei käytetty.|
 
-### Tunnisteet
+### <a name="tags"></a>Tunnisteet
 
 Poista tuodut tunnisteen **Tunnisteet**-tietoruudusta **Shopify-tuote**-sivulla. Muokkaa tunnisteita valitsemalla **Tunnisteet**-toiminto samalla sivulla.
 Jos **Shopifyhin** on valittuna **Synkronoi nimike** -kentässä, määritetyt tunnisteet viedään Shopifyhin seuraavan synkronoinnin yhteydessä.
 
-## Suorita nimikkeiden synkronointi
+## <a name="run-item-synchronization"></a>Suorita nimikkeiden synkronointi
 
 Kohteiden synkronointi kokonaan tai osittain voidaan suorittaa monella eri tavalla.
 
-### Nimikkeiden alkusynkronointi Business Centralista Shopifyhin
+### <a name="initial-sync-of-items-from-business-central-to-shopify"></a>Nimikkeiden alkusynkronointi Business Centralista Shopifyhin
 
 1. Siirry hakuun ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Shopify-tuotteet**, valitse sitten vastaava linkki.
 2. Valitse **Lisää nimikkeitä** -toiminto.
@@ -135,7 +135,7 @@ Kohteiden synkronointi kokonaan tai osittain voidaan suorittaa monella eri taval
 
 Tuloksena syntyvät nimikkeet hintoineen luodaan Shopifyssa automaattisesti. Tekemiesi valintojen mukaan ne voivat sisältää kuvia ja varastomääriä. Toiminto voi kestää jonkin aikaa, jos useita nimikkeitä on lisätty.
 
-### Synkronoi tuotteita Shopifysta Business Centraliin
+### <a name="sync-products-from-shopify-to-business-central"></a>Synkronoi tuotteita Shopifysta Business Centraliin
 
 1. Siirry hakuun ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeeseen, syötä **Shopify-myymälä** ja valitse sitten vastaava linkki.
 2. Valitse kauppa, jolle haluat synkronoida nimikkeet avataksesi **Shopify-ostoskortti**-sivun.
@@ -145,7 +145,7 @@ Vaihtoehtoisesti voit käyttää **Synkronoi tuotteet** - toimintoa **Shopify-tu
 
 Voit ajoittaa tehtävän suoritettavaksi automaattisesti. Lisätietoja on kohdassa [Toistuvien tehtävien ajoittaminen](background.md#to-schedule-recurring-tasks).
 
-### Shopify-tuotteiden Ad-Hoc-päivitykset
+### <a name="ad-hoc-updates-of-shopify-products"></a>Shopify-tuotteiden Ad-Hoc-päivitykset
 
 Kun tietueet on päivitettävä **Shopify-tuote**-taulukossa, seuraavat muutokset synkronoidaan Shopifyn kanssa.
 
@@ -163,7 +163,7 @@ Poisto:
 * **Tila luonnokseksi** - Shopifyn tuotteen tilaksi on asetettu *Luonnos*.
 * **Tilaksi arkistoitu** - tuote on arkistoitu Shopifyssa.
 
-## Synkronoi nimikekuvat
+## <a name="sync-item-images"></a>Synkronoi nimikekuvat
 
 Kuvien synkronointi voidaan määrittää synkronoiduille nimikkeille. Valitse seuraavista vaihtoehdoista:
 
@@ -173,23 +173,23 @@ Kuvien synkronointi voidaan määrittää synkronoiduille nimikkeille. Valitse s
 
 Kuvan synkronointi voidaan alustaa kahdella alla kuvatulla tavalla.
 
-### Synkronoi tuotekuvat Shopify-myymäläsivulla
+### <a name="sync-product-images-from-the-shopify-shop-page"></a>Synkronoi tuotekuvat Shopify-myymäläsivulla
 
 1. Siirry hakuun ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeeseen, syötä **Shopify-myymälät**, valitse sitten vastaava linkki.
 2. Valitse kauppa, jolle haluat synkronoida kuvat avataksesi **Shopify-ostoskortti**-sivun.
 3. Valitse **Synkronoi tuotekuvat** -toiminto.
 
-### Synkronoi tuotekuvat Shopify-tuotesivulta
+### <a name="sync-product-images-from-the-shopify-products-page"></a>Synkronoi tuotekuvat Shopify-tuotesivulta
 
 1. Siirry hakuun ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Shopify-tuotteet**, valitse sitten vastaava linkki.
 2. Valitse **Synkronoi tuotekuvat** -toiminto.
 
-### Kuvien synkronoinnin huomautukset
+### <a name="image-synchronization-remarks"></a>Kuvien synkronoinnin huomautukset
 
 * Kun viet kuvia [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmasta Shopifyhin, uudet kuvat lisätään Shopifyhin ja vanhat kuvat säilyvät ennallaan. Jos kuva päivitetään [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmaan, sinun täytyy poistaa vanhoja kuvia **Shopify-ylläpitäjänä**.
 * Kuvat, joita viedään Shopifyhin ja jotka eivät vastaa Shopifyn määrittämiä vaatimuksia, ei tuoda. Lisätietoja on kohdassa [Tuotemediatyypit osoitteessa help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images).
 
-## Synkronoi hintoja Shopifyn kanssa
+## <a name="sync-prices-with-shopify"></a>Synkronoi hintoja Shopifyn kanssa
 
 Voit hallita hintojen vientiprosessia seuraavien asetusten avulla:
 
@@ -204,24 +204,24 @@ Voit hallita hintojen vientiprosessia seuraavien asetusten avulla:
 
 Synkronoitujen nimikkeiden hinnat voidaan viedä alla kuvatulla kahdella tavalla.
 
-### Synkronoi hinnat Shopify-tuotesivulla
+### <a name="sync-prices-from-the-shopify-products-page"></a>Synkronoi hinnat Shopify-tuotesivulla
 
 1. Siirry hakuun ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Shopify-tuotteet**, valitse sitten vastaava linkki.
 2. Valitse **Synkronoi tuotteet Shopifyhin** -toiminto.
 
-### Hintalaskennan huomautukset
+### <a name="price-calculation-remarks"></a>Hintalaskennan huomautukset
 
 * Hinnan määrittämisessä [!INCLUDE[prod_short](../includes/prod_short.md)] käyttää "alin hinta" -logiikkaa. Alhaisin hintalogiikka ei kuitenkaan huomioi nimikekortissa määritettyä yksikköhintaa, jos hinta on määritelty hintaryhmässä. Tämä pätee, vaikka nimikekortin hinnan yksikkökohtainen hinta on pienempi.
 * Kun haluat laskea hintoja, yhdistin luo nimikkeelle tilapäisen myyntitarjouksen, jonka määrä on 1, ja käyttää vakiohinnan laskentalogiikkaa. Vain määrään 1 sovellettavia hintoja ja alennuksia käytetään. Et voi viedä eri hintoja tai alennuksia määrän perusteella.
 
-## Synkronoi varasto Shopifyhin
+## <a name="sync-inventory-to-shopify"></a>Synkronoi varasto Shopifyhin
 
 Varaston synkronointi voidaan määrittää jo synkronoiduille nimikkeille. On täytettävä kaksi ehtoa:
 
 1. Shopifyssa olevalle tuotteelle otettava käyttöön varastoseuranta. Jos nimikkeitä viedään Shopifyhin, harkitse **Seuratun varaston** vaihto-ohjelman käyttöönottoa **Shopify-ostos**-sivulla. Lue lisää [Nimikkeiden vienti Shopifyhin](synchronize-items.md#export-items-to-shopify) -osasta.
 2. **Shopify-sijaintien** synkronoinnin on oltava käytössä.
 
-### Varaston synkronoinnin ottaminen käyttöön
+### <a name="to-enable-inventory-sync"></a>Varaston synkronoinnin ottaminen käyttöön
 
 1. Siirry hakuun ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeeseen, syötä **Shopify-myymälä** ja valitse sitten vastaava linkki.
 2. Valitse kauppa, jolle haluat synkronoida varaston avataksesi **Shopify-ostoskortti**-sivun.
@@ -232,25 +232,25 @@ Varaston synkronointi voidaan määrittää jo synkronoiduille nimikkeille. On t
 
 Voit alustaa varaston synkronoinnin kahdella alla kuvatulla tavalla.
 
-### Synkronoi varasto Shopify-myymäläsivulta
+### <a name="sync-inventory-from-the-shopify-shop-page"></a>Synkronoi varasto Shopify-myymäläsivulta
 
 1. Siirry hakuun ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeeseen, syötä **Shopify-myymälät**, valitse sitten vastaava linkki.
 2. Valitse kauppa, jolle haluat synkronoida varaston avataksesi **Shopify-ostoskortti**-sivun.
 3. Valitse **Synkronoi varasto** -toiminto.
 
-### Synkronoi varasto Shopify-tuotesivulta
+### <a name="sync-inventory-from-the-shopify-products-page"></a>Synkronoi varasto Shopify-tuotesivulta
 
 1. Siirry hakuun ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Shopify-tuotteet** ja valitse vastaava linkki.
 2. Valitse **Synkronoi varasto** -toiminto.
 
-### Varaston huomautukset
+### <a name="inventory-remarks"></a>Varaston huomautukset
 
 * Varaston vakiolaskentamenetelmä on **Oletettu saatavilla oleva päivän saldo**. Laajennettavuuden avulla voit lisätä vaihtoehtoja. Saat lisätietoja laajennettavuudesta siirtymällä [esimerkkeihin](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md). 
 * Voit tarkistaa Shopifysta saadut varastotiedot **Shopify-varaston tietoruutu** -sivulta. Tässä tietoruudussa on yleiskuvaus Shopify-varastosta ja viimeisestä lasketusta varastosta [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa. Sijaintia kohti on yksi tietue.
 * Jos Shopifyn varastotiedot poikkeavat [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelman **Arvioidusta käytettävissä olevasta saldosta**, varastotiedot päivitetään Shopifyssa.
 * Kun lisäät uuden sijainnin Shopifyhyn, sitä varten on lisättävä myös varastotietueita. Shopify ei tee sitä automaattisesti olemassa oleville tuotteille ja varianteille, eikä yhdistin synkronoi näiden nimikkeiden varastomääriä uudessa sijainnissa. Saat lisätietoja siirtymällä kohtaan [Varaston määrittäminen sijainteihin](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
 
-#### Esimerkki oletetun saatavilla olevan saldon laskemisesta
+#### <a name="example-of-calculation-of-projected-available-balance"></a>Esimerkki oletetun saatavilla olevan saldon laskemisesta
 
 Nimikettä A saatavilla on 10 kappaletta ja niille on kaksi avointa myyntitilausta. Toinen on maanantaille, jossa määrä on *Yksi*, ja toinen torstaille, jossa määrä on *Kaksi*. Riippuen siitä, milloin synkronoit varaston, järjestelmä päivittää varastotason Shopifyssa käyttämällä eri määriä:
 
@@ -259,6 +259,6 @@ Nimikettä A saatavilla on 10 kappaletta ja niille on kaksi avointa myyntitilaus
 |Tiistai|9|Varasto 10 miinus myyntitilaus asetettu lähetettäväksi maanantaina|
 |Perjantai|7|Varasto 10 miinus molemmat myyntitilaukset|
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Shopifyn yhdistimen käytön aloittaminen](get-started.md)  
