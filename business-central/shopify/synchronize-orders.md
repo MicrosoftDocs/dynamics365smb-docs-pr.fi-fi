@@ -1,13 +1,13 @@
 ---
 title: Myyntitilausten synkronoiminen ja täyttäminen
 description: Määritä ja suorita myyntitilauksen tuonti ja käsittely Shopifysta.
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Myyntitilausten synkronoiminen ja täyttäminen
@@ -32,7 +32,20 @@ Jos haluat vapauttaa myyntiasiakirjan automaattisesti, ota käyttöön **Vapauta
 
 Myyntiasiakirja kohteessa [!INCLUDE[prod_short](../includes/prod_short.md)] linkittyy Shopify-tilaukseen, ja voit lisätä kentän, jota ei ole vielä näkyvissä sivulla. Saat lisätietoja kentän lisäämisestä siirtymällä kohtaan [Sivun mukauttamisen aloittaminen **Mukauttaminen** -palkin avulla](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). Jos valitset **Shopify--tilausnro asiakirjarivillä** -kentän, tämä tieto toistetaan myyntiriveillä, joiden tyyppi on **Kommentti**.
 
-**Veroalueen lähde** -kentässä voit määrittää prioriteetin, jonka mukaan veroaluekoodi tai liiketoiminnan ALV-kirjausryhmä valitaan osoitteen perusteella. Tuotu Shopify-tilaus sisältää verotiedot, mutta verot lasketaan uudelleen, kun luot myyntiasiakirjan, joten on tärkeää, että ALV-/veroasetukset on määritetty oikein [!INCLUDE[prod_short](../includes/prod_short.md)]issa. Lisätietoja veroista on ohjeaiheessa [Shopify-yhteyden verojen määrittäminen](setup-taxes.md).
+**Veroalueen prioriteetti** -kentässä voit määrittää prioriteetin, miten veroaluekoodi valitaan tilauksen osoitteissa. Tuotu Shopify-tilaus sisältää tietoja veroista. Verot lasketaan uudelleen, kun luot myyntiasiakirjan, joten on tärkeää, että ALV:n/veron asetukset ovat oikein [!INCLUDE[prod_short](../includes/prod_short.md)]-ohjelmassa. Lisätietoja veroista on ohjeaiheessa [Shopify-yhteyden verojen määrittäminen](setup-taxes.md).
+
+Palautusten ja hyvitysten käsittelyn määrittäminen:
+
+* **Tyhjä** määrittää, että palautuksia ja hyvityksiä ei tuoda eikä käsitellä.
+* **Vain tuonti** määrittää, että tuot tietoja, mutta luot vastaavan hyvityslaskun manuaalisesti.
+* **Luo hyvityslasku automaattisesti** määrittää, että tiedot tuodaan ja [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelma luo hyvityslaskut automaattisesti. Tämän vaihtoehdon valinta edellyttää, että otat käyttöön **myyntitilauksen automaattinen luonti** -vaihtotoiminnon.
+
+Määrittele palautusten sijainti ja KP-tilit tavaroiden ja muiden hyvitysten palautusta varten.
+
+* **Ei-varastoitavat tuotteiden hyvitysten palautustili** - Määrittää sen KP-tilin numeron nimikkeille, jolla ei tarvitse olla varaston korjausta.
+* **Palautustili** - Määrittää KP-tilin hyvitetyn kokonaismäärän ja nimikkeiden kokonaismäärän väliselle erolle.
+
+Lisätietoja [Palautuksista ja hyvityksistä](synchronize-orders.md#returns-and-refunds)
 
 ### Toimitustavan yhdistäminen
 
@@ -118,7 +131,7 @@ Jos asetuksesi estävät asiakkaan luomisen automaattisesti ja sopivaa asiakasta
 
 *Tuo tilaus Shopifysta* -toiminto yrittää valita asiakkaat seuraavassa järjestyksessä:
 
-1. Jos **Oletusasiakasnro** -kenttä määritetään vastaavan maan **Shopify-asiakasmallissa**, vastaavalle maalle, silloin **oletusasiakasnroa** käytetään, riippumatta **asiakkaan tuonti Shopifysta** ja **Asiakkaan yhdistämismäärityksen tyyppi** -kentistä. Lisätietoja kohdassa [Asiakasmalli maata kohti](synchronize-customers.md#customer-template-per-country).
+1. Jos **Oletusasiakasnro** -kenttä määritetään **Shopify-asiakasmallissa**, **Lähettäjämaa/-aluekoodille**, silloin **oletusasiakasnroa** käytetään, riippumatta **asiakkaan tuonti Shopifysta** ja **Asiakkaan yhdistämismäärityksen tyyppi** -kentistä. Lisätietoja kohdassa [Asiakasmalli maata kohti](synchronize-customers.md#customer-template-per-country).
 2. Jos **Asiakkaan tuonti Shopifysta** on määritetty arvoon *Ei mitään* ja **Oletusasiakasnro** on määritetty **Shopify-ostoskortti**-sivulla, sitten **Oletusasiakasnro** käytetään.
 
 Seuraavat vaiheet määräytyvät **asiakkaan yhdistämismäärityksen tyypin** mukaan.
@@ -129,6 +142,27 @@ Seuraavat vaiheet määräytyvät **asiakkaan yhdistämismäärityksen tyypin** 
 
 > [!NOTE]  
 > Yhdistin käyttää laskutusosoitteen tietoja ja luo laskutusasiakkaan [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmaan. Tilausasiakas on sama kuin laskutusasiakas.
+
+### Tilausten eri prosessisäännöt
+
+Haluat ehkä käsitellä tilauksia eri tavalla säännön mukaan. Esimerkiksi tietyn myyntikanavan tilaukset (kuten POS) käyttävät oletusasiakasta, mutta haluat, että verkkokaupassa on todellista tietoa asiakkaasta.
+
+Eräs tapa korjata tämä vaatimus on luoda ylimääräinen Shopify-kauppakortti ja käyttää suodattimia **Synkronoi tilaukset Shopifysta** -pyyntösivulta.
+
+Esimerkki: sinulla on verkkokauppa sekä Shopify-myyntipiste. Haluat käyttää kiinteätä asiakasta myyntipisteelle, mutta luoda asiakkaita verkkokaupalle [!INCLUDE[prod_short](../includes/prod_short.md)]-ohjelmassa. Seuraavassa on luettelo ylätason vaiheista. Saat lisätietoja siirtymällä vastaaviin ohjeartikkeleihin.
+
+1. Luo Shopify-myymälä nimeltä *KAUPPA* ja linkitä se Shopify-tiliisi.
+2. Määritä nimikkeen tai tuotteen synkronointi, jotta tämä säilö hallitsee tuotetietoja.
+3. Määrittää, että asiakkaat tuodaan tilausten mukana. Yhdistimen tulisi löytää asiakkaat etsimällä heidän sähköposti osoitteitaan. Jos osoitetta ei löydy, ohjelma käyttää asiakasmallia uuden asiakkaan luomiseen.
+4. Luo Shopify-myymälä nimeltä *POS* ja linkitä se samaan Shopify-tiliin.
+6. Varmista, että nimikkeen tai tuotteen synkronointi on poistettu käytöstä.
+7. Valitse oletusasiakasta käyttävä yhdistin.
+8. Luo toistuva työjonotapahtuma raportille 30104 **Synkronoi tilauksia Shopifysta**. Valitse **Shopify-kauppakoodi** **KAUPPA**-kentässä ja käytä suodattimia, kun haluat löytää kaikki tilaukset paitsi ne, jotka POS-myyntikanava luo. Esimerkiksi **<>Myyntipiste**
+9. Luo toistuva työjonotapahtuma raportille 30104 **Synkronoi tilauksia Shopifysta**. Valitse **Shopify-kauppakoodi**-kentästä **POS** ja käytä suodattimia POS-myyntikanavan tuottamien tilausten keräämiseen. Esimerkiksi **Myyntipiste**.
+
+Kukin työjono tuo ja käsittelee määritettyjen suodattimien tilaukset ja käyttää vastaavan Shopify-kauppakortin sääntöjä. He esimerkiksi luovat myyntitilauspisteen oletusasiakkaalle.
+
+>![Tärkeää] Jos haluat välttää ristiriitoja tilausten käsittelyssä, muista käyttää samaa työjonoluokkaa molemmissa työjonotapahtumissa.
 
 ### Tilausten muokkaamisen vaikutus
 
@@ -184,6 +218,27 @@ Seurantayritys-kenttä täytetään seuraavassa järjestyksessä (suurimmasta pi
 * **Koodi**
 
 Jos kuljetusliikkeen tietueen **Paketin seurannan URL-osoite** -kenttä on täytetty, toimitusvahvistus sisältää myös seuranta-URL-osoitteen.
+
+## Palautukset ja hyvitykset
+
+Shopifyn ja [!INCLUDE[prod_short](../includes/prod_short.md)]-ohjelman integroinnissa on tärkeää pystyä synkronoimaan mahdollisimman paljon liiketoimintatietoja. Tämän ansiosta rahoitus- ja varastotasot on helpompi pitää ajan tasalla [!INCLUDE[prod_short](../includes/prod_short.md)]-ohjelmassa. Synkronoitava data sisältää palautuksen ja hyvityksen, jotka tallennettiin Shopifyn järjestelmänvalvojan tai Shopify POS:in avulla.
+
+Palautukset ja hyvitykset tuodaan niihin liittyvien tilausten yhteydessä, jos olet ottanut käsittelytyypin käyttöön Shopify-kauppakortissa.
+
+Palautukset tuodaan vain tiedoksi. Niihin ei liity prosessilogiikkaa.
+
+Rahoitus- ja tarvittaessa varastotapahtumat käsitellään palautusten avulla. Hyvitykset voivat sisältää tuotteita tai vain summia, esimerkiksi jos kauppias on päättänyt hyvittää kuljetusmaksuja tai muun summan.
+Voit luoda myyntihyvityslaskuja hyvityksille. Hyvityslaskuissa voi olla seuraavan tyyppisiä rivejä:
+
+|Tyyppi|Nro|Kommentti|
+|-|-|-|
+|KP-tili|Myytyjen lahjakorttien tili| Käytä lahjakortteihin liittyviin hyvityksiin.|
+|KP-tili|Ei varastossa -hyvitystili | Käytä palautuksiin, jotka liittyvät tuotteisiin, joita ei ole varastoitu. |
+|Vaihtoehto |Nimikenro| Käytä palautuksiin, jotka liittyvät tuotteisiin, jotka oli varastoitu. Voimassa suoriin hyvityksiin ja hyvityksiin liittyvinä hyvityksinä. Luotto-lisärivin sijaintikoodi asetetaan palautuspaikaksi valitun arvon perusteella.|
+|KP-tili| Hyvitystili | Käytä muihin palautettaviin määriin, jotka eivät liity tuotteisiin tai lahjakortteihin. Voit esimerkiksi määrittää palautukseen käytettävän summan manuaalisesti Shopifyssa. |
+
+>[!Note]
+>Luotuun hyvityslaskuun käytetään palautussijaintia, myös tyhjiä sijainteja, jotka on määritetty **Shopifyn kauppakortissa**. Järjestelmä ei ota huomioon alkuperäisiä sijainteja tilauksista tai toimituksista.
 
 ## Lahjakortit
 
