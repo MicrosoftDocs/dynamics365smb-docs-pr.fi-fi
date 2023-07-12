@@ -4,7 +4,7 @@ description: 'Opettele tekemään vianmääritys Business Centralin ja Power Aut
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,'
-ms.date: 06/16/2023
+ms.date: 07/03/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: d365-business-central
@@ -22,7 +22,7 @@ Jos tapahtuma luo tai muuttaa useita tietueita, työnkulkua ei suoriteta joissak
 
 ### Mahdollinen syy
 
-Tällä hetkellä työnkulun käsittelemien tietueiden määrä on rajoitettu. Jos 30 sekunnin kuluessa luodaan tai muutetaan yli 100 tietuetta, työnkulkua ei käynnistetä.
+Tällä hetkellä työnkulun käsittelemien tietueiden määrä on rajoitettu. Jos 30 sekunnin kuluessa luodaan tai muutetaan yli 1000 tietuetta, työnkulkua ei käynnistetä.
 
 > [!NOTE]
 > Kehittäjien osalta työnkulun käynnistys tehdään webhook-ilmoitusten avulla, ja tämä rajoitus johtuu tavasta, jolla Business Central -yhdistin käsittelee `collection`-ilmoituksia. Lisätietoja on kehittäjän ja järjestelmänvalvojan ohjeen kohdassa [Webhookien käyttö Dynamics 365 Business Centralissa](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows).

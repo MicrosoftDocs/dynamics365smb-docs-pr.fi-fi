@@ -10,4 +10,4 @@ ms.author: edupont
 |**Tiedonvälitys**|Syötä yrityksen perusyhteystiedot, kuten puhelinnumero ja sähköpostiosoite.|  
 |**Maksut**| Täytä tarvittavat pankkitiedot varmistaaksesi, että asiakkaasi voivat maksaa sinulle.|  
 |**Toimitus**|Täytä tarvittavat toimitustiedot, jotta pystyt lähettämään ja vastaanottamaan tavaroita yritykselläsi.|  
-|**Vero**|Riippuen siitä, missä maassa yrityksesi on rekisteröity, saatat nähdä Vero-pikavälilehden. Jos se on saatavilla, täytä kentät.|  
+|**Vero**|Riippuen siitä, missä maassa tai millä alueella yrityksesi on rekisteröity, saatat nähdä Vero-pikavälilehden. Jos se on saatavilla, täytä kentät.|  

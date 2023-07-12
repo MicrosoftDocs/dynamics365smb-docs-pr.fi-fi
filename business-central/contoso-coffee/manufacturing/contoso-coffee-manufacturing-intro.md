@@ -9,7 +9,7 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a>Contoso Coffeen tuotannon esittely
+# Contoso Coffeen tuotannon esittely
 
 Contoso Coffee on kuvitteellinen yritys, joka tuottaa kuluttajille ja yrityksille kahvinkeittimiä. **Contoso Coffee** -sovellukset Business Centralille lisäävät demotietoja, joiden avulla voit opetella käyttämään tuotanto-ominaisuuksia Business Centralissa.  
 
@@ -36,7 +36,7 @@ Kaikkien skenaarioiden tuotanto toiminnot käyttävät sijaintia *NORTH*.
 > [!IMPORTANT]
 > Ennen kuin suoritat mitään Contoso Coffeen skenaarioista, kirjaa kaikki nimikepäiväkirja rivit, joilla on alkusaldot. Lisätietoja vaatimuksista on [Contoso Coffee -tietojen määrittäminen](#set-up-contoso-coffee-manufacturing-data) -osiossa.
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a>Contoso Coffeen tuotantotietojen määrittäminen
+## Contoso Coffeen tuotantotietojen määrittäminen
 
 Contoson Coffeen tuotannon esittelytietojen käyttäminen edellyttää, että asennat asianomaiseen yritykseen [!INCLUDE [prod_short](../../includes/prod_short.md)] -ratkaisussa kaksi sovellusta:  
 
@@ -45,7 +45,7 @@ Contoson Coffeen tuotannon esittelytietojen käyttäminen edellyttää, että as
     Tämä sovellus tarjoaa demotietoja perussovellukselle.  
 - **Contoso Coffee Demo Dataset (maatunnus)**  
 
-    Tämä sovellus lisää maakohtaisen sisällön perussovelluksen päälle.
+    Tämä sovellus lisää maa- ja aluekohtaisen sisällön perussovelluksen päälle.
 
 Lisää sovellukset tyhjään yritykseen maksulliseen tilaukseen tai kokeiluversion osana. Voit esimerkiksi luoda uuden yrityksen, jolla ei ole näytetietoja **Luo uusi yritys** -asennustoiminnon avulla, jonka voit avata **Yritykset**-luettelosta. Lisää sitten sovellukset [Marketplacesta](../../ui-extensions-install-uninstall.md#install), jos niitä ei ole vielä **Laajennusten hallinta** -sivulla.  
 
@@ -67,13 +67,13 @@ Kun asianmukaiset sovellukset on asennettu, siirry [Contoso Coffee -esittelytied
 
 Kun olet valmis, valitse **Luo demotiedot** -toiminto. Tietojen lisääminen pohjana olevaan tietokantaan kestää muutaman minuutin, mutta sitten olet valmis suorittamaan erilaisia skenaarioita.  
 
-## <a name="scenarios"></a>Esimerkkitilanteet
+## Esimerkkitilanteet
 
 Contoso Coffeen tuotannon esittelytiedot tukevat tällä hetkellä seuraavia testi- ja harjoitteluskenaarioita:
 
 1. [Uuden tuotannon tuoterakenteen ja tuoterakenneversion luominen](create-new-production-bom-version.md)  
 2. [Uuden reitityksen luominen](create-new-routing.md)  
-3. [Luo sitovasti suunniteltu tuotantotilaus muuta sitä](create-firm-planned-production-order-change.md)  
+3. [Sitovasti suunnitellun tuotantotilauksen luominen ja muuttaminen](create-firm-planned-production-order-change.md)  
 4. [Yhdistä automaattinen ja manuaalinen materiaalinotto](combine-automatic-manual-flushing.md)  
 5. [Käytä tilauksen suunnittelua tarjonnan luomiseksi ja varaamiseksi](order-planning-create-reserve-supply.md)  
 6. [Alihankintatoiminnon määrittäminen ja käsitteleminen](set-up-process-subcontracting-operation.md)  
@@ -85,7 +85,7 @@ Lue kunkin skenaarion vaiheet asianomaisessa artikkelissa.
 > [!IMPORTANT]
 > Nämä vaihekuvaukset edellyttävät, että käyttäjäkokemukseksi on asetettu *Premium* **Yritystiedot**-sivulla.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Tuotanto](../../production-manage-manufacturing.md)  
 [Business Centralin tuotantoraportit ja analytiikka](../../production-reports.md)  

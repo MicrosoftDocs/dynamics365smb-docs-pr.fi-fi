@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="walkthrough-set-up-new-capacity"></a>Vaihekuvaus: Määritä uusi kapasiteetti
+# Vaihekuvaus: Määritä uusi kapasiteetti
 
 Tässä artikkelissa on tietoja Contoso Coffee -esittelyn tietojen käytöstä kapasiteetin hallinnassa.  
 
-## <a name="scenario"></a>Esimerkkitilanne
+## Esimerkkitilanne
 
 Olet Contoso Coffeen tuotantosuunnittelija. Vastauksena tuotantokerroksen muutoksiin sinun täytyy määrittää uusi tuotantosolu, testiosasto. Uudessa tuotantosolussa on yksi kuormitusryhmä, testaus. Uusissa keskuksissa täytyy olla kapasiteettikalenteri yksittäiselle vuorolle klo 8-16 maanantaista perjantaihin.  
 
-## <a name="steps"></a>Vaiheet
+## Vaiheet
 
 1. Määritä tuotantosolu.
 
@@ -32,7 +32,7 @@ Olet Contoso Coffeen tuotantosuunnittelija. Vastauksena tuotantokerroksen muutok
         |**Välitön yksikkökustannus**|3.25|
         |**Yksikkökustannuslaskenta**|Aika|
         |**Materiaalinottotapa**|Manuaalinen|
-        |**Yleinen tuotteen kirjausryhmä**|EI ALV:TÄ</br></br>Huomaa, että tämä valinta riippuu laskenta-asetuksista ja maasta.|
+        |**Yleinen tuotteen kirjausryhmä**|EI ALV:TÄ</br></br>Huomaa, että tämä valinta riippuu laskenta-asetuksista ja maasta tai alueesta.|
         |**Mittayksikön koodi** |MINUUTTIA|
         |**Kapasiteetti** |1|
         |**Tehokkuus** |90|
@@ -84,6 +84,6 @@ Olet Contoso Coffeen tuotantosuunnittelija. Vastauksena tuotantokerroksen muutok
 
 **Kalenteritapahtumat**-sivulla **Kapasiteetti (yhteensä)** -kentän päivittäiset kapasiteettitapahtumat ovat 480 minuuttia. Tämä vastaa yhtä 8 tunnin vuoroa jokaiselle työpäivälle. **Kapasiteetti (varsinainen)** -kentässä näkyy myös 432 minuuttia. Tämä ilmaisee kuormitusryhmälle määritetyn 90 prosentin tehokkuusprosentin.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Johdatus Contoson kahvidemotietoihin](../contoso-coffee-intro.md)  

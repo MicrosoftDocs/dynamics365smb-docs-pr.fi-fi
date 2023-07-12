@@ -1,6 +1,6 @@
 ---
 title: Palvelumääritys-laajennuksen määrittäminen ja käyttäminen
-description: Opi määrittämään Palvelumääritys (Intrastat palveluille) -ominaisuudet ja raportoimaan muiden EU-maissa toimivien yritysten kanssa käyty palvelukauppa.
+description: Opi määrittämään Palvelumääritys (Intrastat palveluille) -ominaisuudet ja raportoimaan muiden EU-maissa ja -alueilla toimivien yritysten kanssa käyty palvelukauppa.
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
@@ -11,11 +11,11 @@ ms.custom: bap-template
 ms.search.keywords: 'electronic document, Intrastat, trade, EU, service, declaration,'
 ms.search.form: '30, 76, 5010, 5022, 5023, 5024, 5800'
 ---
-# <a name="the-service-declaration-extension"></a>Palvelumääritys-laajennus
+# Palvelumääritys-laajennus
 
-Joidenkin EU-maiden viranomaiset vaativat, että yritykset raportoivat muihin maihin viedyistä palveluista. **Palvelumääritys**-laajennuksen avulla voit kerätä tietoja palvelukaupasta EU:ssa ja raportoida siitä viranomaisille. Vaikka sen nimi **Palvelumääritys**, voit käyttää sitä myös **Intrastat palveluille** -ratkaisuna. Tämä laajennus on saatavilla kaikissa EU-maissa W1-versiona, ja sitä voidaan käyttää sellaisenaan Belgiassa. Muissa maissa tarvitaan maakohtainen laajennus. Jos maa tarvitsee vain eri formaatin, voit muuttaa formaattia **tiedonsiirtokehyksen** raporttikokoonpanon avulla.
+Joidenkin EU-maiden ja -alueiden viranomaiset vaativat, että yritykset raportoivat muihin maihin ja muille alueille viedyistä palveluista. **Palvelumääritys**-laajennuksen avulla voit kerätä tietoja palvelukaupasta EU:ssa ja raportoida siitä viranomaisille. Vaikka sen nimi **Palvelumääritys**, voit käyttää sitä myös **Intrastat palveluille** -ratkaisuna. Tämä laajennus on saatavilla kaikissa EU-maissa ja kaikilla EU-alueilla W1-versiona, ja sitä voidaan käyttää sellaisenaan Belgiassa. Muissa maissa ja muilla alueilla tarvitaan maa- ja aluekohtainen laajennus. Jos maa tai alue tarvitsee vain eri formaatin, voit muuttaa formaattia **tiedonsiirtokehyksen** raporttikokoonpanon avulla.
 
-## <a name="enable-the-service-declaration-extension"></a>Palvelumääritys-laajennuksen ottaminen käyttöön
+## Palvelumääritys-laajennuksen ottaminen käyttöön
 
 Kun olet asentanut laajennuksen ympäristöösi, sinun täytyy ottaa se käyttöön.
 
@@ -26,11 +26,11 @@ Kun olet asentanut laajennuksen ympäristöösi, sinun täytyy ottaa se käyttö
 5. Tarkista **koodien kokonaismäärä** ennen aloittamista nähdäksesi, montako palvelutapahtumatyyppiä on jo määritetty.
 6. Viimeistele määritys valitsemalla viimeisessä vaiheessa **Valmis**.
 
-## <a name="set-up-the-service-declaration-extension"></a>Palvelumääritys-laajennuksen määrittäminen
+## Palvelumääritys-laajennuksen määrittäminen
 
 Voit määrittää laajennuksen manuaalisesti tai käyttämällä tiedonsiirtomäärityksissä olevaa raportointitiedostoa.
 
-### <a name="to-set-up-service-declaration-manually"></a>Palvelumäärityksen määrittäminen manuaalisesti
+### Palvelumäärityksen määrittäminen manuaalisesti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Palvelumäärityksen määritys** ja valitse sitten vastaava linkki.
 2. Määritä **Yleiset**-pikavälilehdessä seuraavassa taulukossa kuvatut kentät:
@@ -47,7 +47,7 @@ Voit määrittää laajennuksen manuaalisesti tai käyttämällä tiedonsiirtom�
 3. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Palvelutapahtumatyypit** ja valitse sitten vastaava linkki.
 4. Määritä riveille **Koodit** ja **Kuvaukset** käyttämillesi maksutapahtumatyypeille.
 
-### <a name="set-up-a-reporting-file"></a>Määritä raportointitiedosto
+### Määritä raportointitiedosto
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Tiedonsiirtomääritykset** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi**-toiminto.
@@ -64,13 +64,13 @@ Voit määrittää laajennuksen manuaalisesti tai käyttämällä tiedonsiirtom�
 9. Jos haluat ryhmitellä tapahtumat sarakkeiden perusteella, valitse **Kenttäryhmittely**-pikavälilehdestä kentät, joita haluat käyttää ryhmittelemiseen.
 
 > [!NOTE]
-> [!INCLUDE[prod_long](includes/prod_long.md)] sisältää esimääritetyn tiedonsiirtomäärityksen **palvelumääritystä** varten kaikille lokalisoiduille maille. Lisätietoja uuden tiedonsiirtomäärityksen luomisesta tai muuttamisesta on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).
+> [!INCLUDE[prod_long](includes/prod_long.md)] sisältää esimääritetyn tiedonsiirtomäärityksen **palvelumääritystä** varten kaikille lokalisoiduille maille ja alueille. Lisätietoja uuden tiedonsiirtomäärityksen luomisesta tai muuttamisesta on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).
 
-## <a name="other-related-configurations"></a>Muut asiaan liittyvät määritykset
+## Muut asiaan liittyvät määritykset
 
 Ennen kuin käytät Palvelumääritys-laajennusta, määritä nimikkeiden, resurssien ja nimikekulujen kentät.
 
-### <a name="items"></a>Nimikkeet
+### Nimikkeet
 
 Määritä palvelumääritykseen liittyvät tiedot nimikkeiden korttien sivuilla:
 
@@ -81,7 +81,7 @@ Määritä palvelumääritykseen liittyvät tiedot nimikkeiden korttien sivuilla
    2. Määritä **Palvelutapahtumatyypin koodi** -kenttään **palvelutapahtumatyypin** koodi.
    3. Jos et halua sisällyttää tätä palvelunimikettä palvelumäärityksiin, valitse **Sulje pois palvelumäärityksestä** -kenttä.
 
-### <a name="resources"></a>Resurssit
+### Resurssit
 
 Määritä palvelumääritykseen liittyvät tiedot resurssien korttien sivuilla:
 
@@ -91,7 +91,7 @@ Määritä palvelumääritykseen liittyvät tiedot resurssien korttien sivuilla:
    1. Määritä **Palvelutapahtumatyypin koodi** -kenttään **palvelutapahtumatyypin** koodi.
    2. Jos et halua sisällyttää tätä resurssia palvelumäärityksiin, valitse **Sulje pois palvelumäärityksestä** -kenttä.
 
-### <a name="item-charges"></a>Nimikekulut
+### Nimikekulut
 
 Määritä palvelumääritykseen liittyvät tiedot nimikekuluille:
 
@@ -100,7 +100,7 @@ Määritä palvelumääritykseen liittyvät tiedot nimikekuluille:
 3. Määritä **Palvelutapahtumatyypin koodi** -kenttään **palvelutapahtumatyypin** koodi.
 4. Jos et halua sisällyttää tätä nimikekulua palvelumäärityksiin, valitse **Sulje pois palvelumäärityksestä** -kenttä.
 
-## <a name="create-new-service-declaration"></a>Uuden palvelumäärityksen luominen
+## Uuden palvelumäärityksen luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Palvelumääritykset** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi**-toiminto.
@@ -111,7 +111,7 @@ Määritä palvelumääritykseen liittyvät tiedot nimikekuluille:
 
 Erätyö noutaa kaikki tapahtumat asiaankuuluvista osto- ja myyntiasiakirjoista vaaditulta ajanjaksolta ja lisää ne palvelumäärityksen riveille. Lue lyhyt kuvaus siirtämällä kohdistin riveillä olevien kenttien päälle.
 
-## <a name="modify-a-service-declaration"></a>Palvelumäärityksen muokkaaminen
+## Palvelumäärityksen muokkaaminen
 
 Voit tarvittaessa muokata rivejä tai lisätä uusia.
 
@@ -120,11 +120,11 @@ Voit tarvittaessa muokata rivejä tai lisätä uusia.
 3. Täytä **Asiakirjanumero**-kenttä **Asiakirjatyyppi**-kentän perusteella.
 4. Täytä jäljellä olevat kentät.
 
-## <a name="overview-the-service-declaration-lines"></a>Palvelumäärityksen rivien yleiskatsaus
+## Palvelumäärityksen rivien yleiskatsaus
 
 Kun olet luonut palvelumäärityksen, käytä **Yleiskatsaus**-toimintoa nähdäksesi palvelumäärityksen rivien yleiskatsauksen. Voit ryhmitellä rivit ja tehdä niistä yhteenvedon samalla tavalla kuin viedyllä tiedostolla. Voit avata rivit myös Excelissä.
 
-## <a name="report-service-declaration-in-a-file"></a>Palvelumäärityksen raportointi tiedostossa
+## Palvelumäärityksen raportointi tiedostossa
 
 Voit lähettää palvelumäärityksen tiedostona, joka perustuu eri paikallisviranomaisten vaatimuksiin. Tiedoston luominen:
 
@@ -134,17 +134,17 @@ Voit lähettää palvelumäärityksen tiedostona, joka perustuu eri paikallisvir
 4. Valitse **Luo tiedosto** -toiminto.
 5. Palvelumäärityksen tiedosto tallennetaan vaaditussa muodossa.
 
-## <a name="other-considerations"></a>Muita huomioitavia seikkoja
+## Muita huomioitavia seikkoja
 
 Kun käytät **Palvelumääritys**-laajennusta, sinun tulisi huomioida muutama muu lisäseikka. On esimerkiksi tärkeää, että ryhmäsi vastaavat viranomaisten vaatimuksia. On myös tärkeää, että palvelut sisällytetään myynti- ja ostoasiakirjoihin oikein.
 
-### <a name="grouping-lines"></a>Ryhmittelyrivit
+### Ryhmittelyrivit
 
 Palvelumäärityksen riveillä ei ole ryhmittelyä minkään kentän mukaan. Kaikki tapahtumat kopioidaan käyttämällä alkuperäistä asiakirjaa lähteenä.
 
 Viranomaisten edellyttämä ryhmittely annetaan viedyssä tiedostossa. Sinun täytyy määrittää ryhmät **tiedonsiirtomäärityksessä**, joka on täysin määritettävissä. Lisätietoja kohdassa [Tiedonsiirtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).
 
-### <a name="using-services-in-document-lines"></a>Palveluiden käyttäminen asiakirjariveillä
+### Palveluiden käyttäminen asiakirjariveillä
 
 Kun luot osto-, myynti- tai palvelulaskun, näkyvissä on kaksi kenttää, jotka liittyvät niiden riveillä oleviin palvelumäärityksiin. Molemmat kentät täytetään nimikkeiden, resurssien tai nimikekulujen määritysten oletusarvoilla.
 
@@ -155,9 +155,9 @@ Voit muuttaa näiden kenttien arvoja, mutta jos valitset **Koskee palvelumääri
 
 Jos määrität arvon **Palvelutapahtumatyypin koodi** -kenttään, mutta et valitse **Koskee palvelumääritystä** -kenttää, voit kirjata asiakirjan, mutta riviä ei lasketa, kun teet niin.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvästä koulutuksesta on [Microsoft Learnissa](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## Lisätietoja aiheeseen liittyvästä koulutuksesta on [Microsoft Learnissa](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Intrastat-raportoinnin määrittäminen](finance-how-setup-report-intrastat.md)
 [Intrastat-raportointi Business Centralissa](finance-how-report-intrastat.md)  

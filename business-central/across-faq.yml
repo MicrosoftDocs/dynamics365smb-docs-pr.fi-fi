@@ -16,7 +16,7 @@ sections:
       - question: |
           Onko Business Central käytössä maassani tai alueellani?
         answer: |
-          [!INCLUDE[prod_short](includes/prod_short.md)] on saatavana vain tietyillä markkina-alueilla, mutta uusia maita lisätään Microsoftin tai kumppanien johtamina lokalisointeina neljännesvuosittain. Lisätietoja on kohdassa [Saatavuus maassa/alueella ja tuetut käännökset](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (saatavilla vain englanniksi).  
+          [!INCLUDE[prod_short](includes/prod_short.md)] on saatavana vain tietyillä markkina-alueilla, mutta uusia maita ja alueita lisätään Microsoftin tai kumppanien johtamina lokalisointeina neljännesvuosittain. Lisätietoja on kohdassa [Saatavuus maassa/alueella ja tuetut käännökset](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) (saatavilla vain englanniksi).  
       - question: |
           Miten pääsen Business Centralin?
         answer: |

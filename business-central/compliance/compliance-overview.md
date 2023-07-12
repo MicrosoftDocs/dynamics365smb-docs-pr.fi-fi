@@ -9,7 +9,7 @@ ms.date: 04/25/2023
 ms.custom: bap-template
 ---
 
-# <a name="compliance-overview"></a>Yhteensopivuuden yleiskatsaus
+# Yhteensopivuuden yleiskatsaus
 
 Tässä sisällössä on tietoja [!INCLUDE[prod_short](../includes/prod_short.md)]ia koskevasta yhteensopivuudesta.  
 
@@ -21,10 +21,10 @@ Tässä osassa on lisätietoja, miten yhteensopivuus otetaan huomioon sovellukse
 |------------|-------------|  
 |Lisätietoja sovellusta koskevasta yhteensopivuudesta, kuten mm. tietosuojasta ja kansainvälisistä tilinpäätösstandardeista.|[Sovelluksen yhteensopivuus](compliance-application-compliance.md)|  
 |Lisätietoja palvelutason yhteensopivuudesta ja miten ympäristöön liittyvien seikkojen avulla voidaan varmistaa, että Business Centralin palvelun yhteensopivuus on luokkansa paras.|[Palvelun yhteensopivuus](compliance-service-compliance.md)|  
-|Lisätietoja Business Centraliin liittyvistä erilaisista sertifioinneista. Saat lisätietoja yleisistä sertifioinnista ja maakohtaisista sertifioinneista.|[Sertifikaatit](compliance-certifications.md)|  
+|Lisätietoja Business Centraliin liittyvistä erilaisista sertifioinneista. Saat lisätietoja yleisistä sertifioinnista ja maa- ja aluekohtaisista sertifioinneista.|[Sertifioinnit](compliance-certifications.md)|  
 |Lisätietoja palvelutasosopimuksen ehdoista ja muista palveluehdoista.|[Palvelun ehdot](compliance-service-compliance.md#service-terms)|  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

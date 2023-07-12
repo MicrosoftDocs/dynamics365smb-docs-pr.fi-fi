@@ -29,7 +29,7 @@ Joko tuot asiakkaita Shopifysta joukkona tai yhdessä tilausten tuonnin kanssa k
 |**Luo tuntemattomat asiakkaat automaattisesti**| Valitse tämä kenttä, jos haluat, että yhdistin luo puutuvat asiakkaat, kun **asiakkaan yhdistämismäärityksen tyyppi** -kentässä on valittuna **sähköpostilla/puhelimella** tai **Laskutusasiakkaan tiedoilla**. Uusi asiakas luodaan käyttämällä tuotuja tietoja ja **asiakasmallin koodia**, joka on määritetty **Shopify-ostoskortilla** tai **Shopify-asiakasmalli**-sivuilla. Huomaa, että Shopify-asiakkaalla täytyy olla vähintään 1 osoite. Shopify-myyntipisteen kautta luoduista tilauksista puuttuvat usein osoitetiedot. Jos tämä asetus ei ole käytössä, sinun on luotava asiakas manuaalisesti ja linkitettävä se Shopify-asiakkaaseen.|
 |**Asiakasmallin koodi**|Tätä kenttää käytetään yhdessä **Tuntemattomien asiakkaiden luominen automaattisesti** -toiminnon kanssa.<br>- Valitse oletusmalli, jota käytetään automaattisesti luoduille asiakkaille. Varmista, että valitussa mallissa on pakolliset kentät, kuten **Yleinen liiketoiminnan kirjausryhmä**, **Asiakkaan kirjausryhmä**, arvonlisävero- (ALV) tai veroihin liittyvät kentät.<br>- Voit määrittää malleja kullekin maalle/alueelle **Shopify-asiakasmallit** -sivulla, josta on hyötyä asianmukaisen veron laskentaan. <br>- Lisätietoja kohdassa [Verojen määrittäminen](setup-taxes.md).|
 
-### Asiakasmalli maata kohti
+### Asiakasmalli maata tai aluetta kohti
 
 Jotkin asetukset voidaan määrittää maan tai alueen tasolla tai osavaltion/provinssin tasolla. Asetukset voidaan määrittää kohdassa [Toimitus-ja toimitus](https://www.shopify.com/admin/settings/shipping) Shopifyssa.
 
@@ -37,7 +37,7 @@ Voit tehdä seuraavan toimen kullekin asiakkaalle **Shopify-asiakasmallin** avul
 
 1. Määritä **oletusasiakasnro**, joka on etusijalla **asiakkaan tuonti Shopifysta** ja **Asiakkaan yhdistämismäärityksen tyyppi** -kentissä olevan valinnan. Sitä käytetään tuodussa myyntitilauksessa.
 2. **Määritä asiakasmallin koodi**, jota käytetään puuttuvien asiakkaiden luomisessa, jos **Luo automaattisesti tuntemattomat asiakkaat** on otettu käyttöön. Jos **asiakasmallin koodi** on tyhjä, funktio käyttää **Asiakasmallin koodia**, joka on määritetty **Shopify-ostoskortissa**. Järjestelmä yrittää ensin etsiä oletusosoitteen **Maa-/aluekoodi**-mallin. Jos mallia ei löydy, se käyttää ensimmäistä osoitetta.
-3. Joissakin tapauksissa maalle määritetty **asiakasmallin koodi** ei riitä varmistamaan oikeita verolaskelmia (esimerkiksi maissa, joissa on käytössä arvonlisävero). Tässä tapauksessa **Veroalueen** sisällyttäminen voi olla hyödyllinen lisäys.
+3. Joissakin tapauksissa maalle tai alueelle määritetty **asiakasmallin koodi** ei riitä varmistamaan oikeita verolaskelmia (esimerkiksi kun maa tai alue käyttää arvonlisäveroa). Tässä tapauksessa **Veroalueen** sisällyttäminen voi olla hyödyllinen lisäys.
 4. **Veroalue**-kenttä sisältää myös **Maakoodi**- ja **Läänin nimi** -parin. Tämä pari on hyödyllinen, kun yhdistimen tarvitsee muuntaa koodi nimeksi tai päinvastoin.
 
 > [!NOTE]  
@@ -83,7 +83,7 @@ Asiakkaalla on Shopifyssa myös oletusosoite. Osoite voi myös sisältää yrity
 |1|**Nimi**|Korkein prioriteetti, jos **Nimilähde**-kentässä **Shopify-ostoskortissa** on *yrityksen nimi*.|
 |2|**Nimi 2**|Alin prioriteetti, jos **Nimi 2 lähde** -kentässä **Shopify-ostoskortissa** on *yrityksen nimi*.|
 
-Valitse osoitteissa, joissa käytetään lääniä tai provinssia, valitsemalla **Koodi** tai **Nimi** -ostoskortin **Läänin lähde**-kentässä **Shopify-ostoskortissa**. Tämä koodi määrittää **Lääni**-kentän [!INCLUDE[prod_short](../includes/prod_short.md)]iin tallennettavien tietojen tyypin. Muista alustaa asiakasmalleja maittain niin, että läänin koodi/nimi-kartoitus on valmis. 
+Valitse osoitteissa, joissa käytetään lääniä tai provinssia, valitsemalla **Koodi** tai **Nimi** -ostoskortin **Läänin lähde**-kentässä **Shopify-ostoskortissa**. Tämä koodi määrittää **Lääni**-kentän [!INCLUDE[prod_short](../includes/prod_short.md)]iin tallennettavien tietojen tyypin. Muista alustaa asiakasmalleja maittain tai alueittain niin, että läänin koodi/nimi-kartoitus on valmis. 
 
 
 ## Synkronoi asiakkaat

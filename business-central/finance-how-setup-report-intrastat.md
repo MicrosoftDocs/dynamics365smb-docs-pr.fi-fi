@@ -1,6 +1,6 @@
 ---
 title: Intrastat-raportoinnin määrittäminen
-description: Opi tämän artikkelin avulla määrittämään Intrastat-raportointiominaisuudet ja raportoimaan muiden EU-maissa toimivien yritysten kanssa käyty kauppa.
+description: Opi tämän artikkelin avulla määrittämään Intrastat-raportointiominaisuudet ja raportoimaan muiden EU-maissa tai -alueilla toimivien yritysten kanssa käyty kauppa.
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
@@ -11,14 +11,14 @@ ms.custom: bap-template
 ms.search.keywords: 'electronic document, Intrastat, trade, EU, European Union'
 ms.search.form: '308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077'
 ---
-# <a name="set-up-intrastat-reporting"></a>Intrastat-raportoinnin määrittäminen
+# Intrastat-raportoinnin määrittäminen
 
 Kaikkien Euroopan unionin (EU) alueen yritysten täytyy raportoida kaupastaan muiden EU-maiden/alueiden kanssa. Yritysten tulee raportoida tavaran liikkuminen kotimaan/-alueen tilastoviranomaisille kuukausittain ja raportti on toimitettava veroviranomaisille. Intrastat on järjestelmä, jolla kerätään kauppatilastoja tavaroista näissä maissa/alueilla. Intrastat-raportin avulla voit suorittaa jaksoittaisen Intrastat-raportoinnin, keräämisen, kirjaamisen ja raportoinnin kauppatavaran paikallisen lainsäädännön mukaisesti.
 
-Intrastat-raportointi perustuu kaikkiin maihin sovellettaviin EU-perussäädöksiin. Yksittäisten maiden välillä on kuitenkin eroja. Jokaisella maalla on omat sääntönsä siitä, mitä ja miten raportoidaan.
+Intrastat-raportointi perustuu kaikkiin maihin ja alueisiin sovellettaviin EU-perussäädöksiin. Yksittäisten maiden ja alueiden välillä on kuitenkin eroja. Jokaisella maalla ja alueella on omat sääntönsä siitä, mitä ja miten raportoidaan.
 
 > [!NOTE]
-> Intrastat-tietoja ei sovelleta maiden välisten palvelujen siirtoon. Tiedot koskevat sen sijaan vain tavaroita, esimerkiksi nimikkeitä ja käyttöomaisuutta. Jos hallinto vaatii rekisteröimään palvelujen liikkumisen maiden välillä, se voidaan tehdä käyttämällä **Palveluilmoitus**-toimintoa.
+> Intrastat-tietoja ei sovelleta maiden ja alueiden välisten palvelujen siirtoon. Tiedot koskevat sen sijaan vain tavaroita, esimerkiksi nimikkeitä ja käyttöomaisuutta. Jos hallinto vaatii rekisteröimään palvelujen liikkumisen maiden ja alueiden välillä, se voidaan tehdä käyttämällä **Palveluilmoitus**-toimintoa.
 >
 > Tämä ominaisuus on saatavilla alkaen marraskuusta 2022 sovelluksen, jonka voit ladata [AppSourcesta](https://go.microsoft.com/fwlink/?linkid=2081646). Jos haluat käyttää tätä toimintoa, sinun on asennettava se **Laajennuksen hallinta** -sivulla.
 
@@ -27,7 +27,7 @@ Intrastat-raportointi perustuu kaikkiin maihin sovellettaviin EU-perussäädöks
 >
 > Lue edellisen version Intrastat-asetukset- ja käyttö-artikkeli kohdassa [Määritä ja raportoi Intrastat](finance-how-setup-report-intrastat-v20.md).
 
-## <a name="enable-the-new-intrastat-experience"></a>Ota käyttöön uusi Intrastat-käyttökokemus
+## Ota käyttöön uusi Intrastat-käyttökokemus
 
 Vuoden 2022 2. julkaisuaallossa [!INCLUDE[prod_short](includes/prod_short.md)] sisältää uudelleensuunnitellun Intrastat-kokemuksen ja laajennettuja ominaisuuksia. Jos uusi Intrastat-toiminto ei ole käytössä ympäristössäsi, järjestelmänvalvoja voi ottaa sen käyttöön **Ominaisuuksien hallinta** -sivulla.
 
@@ -42,13 +42,13 @@ Vuoden 2022 2. julkaisuaallossa [!INCLUDE[prod_short](includes/prod_short.md)] s
 6. Kun asetukset on määritetty, aloita uuden Intrastat-kokemuksen käyttö valitsemalla **Valmis**.
 
     > [!NOTE]
-    > Yrityksen sijainnista riippuen yllä kuvatun ominaisuuden ottaminen käyttöön on riittävää. Sellaisten maiden osalta, joilla on erityistoimintoja Intrastat-raportointia varten, ota käyttöön päälaajennuksen lisäksi maakohtaiset Intrastat-sovellukset.
+    > Yrityksen sijainnista riippuen yllä kuvatun ominaisuuden ottaminen käyttöön on riittävää. Jos mailla ja alueilla on erityistoimintoja Intrastat-raportointia varten, ota käyttöön päälaajennuksen lisäksi maa- tai aluekohtaiset Intrastat-sovellukset.
 
-## <a name="intrastat-configuration"></a>Intrastatin määritys
+## Intrastatin määritys
 
 Ennen kuin Intrastat-raportteja voi käyttää, on määritettävä useita konfiguraatioita.
 
-### <a name="intrastat-reporting-setup"></a>Intrastat-raportoinnin määrittäminen
+### Intrastat-raportoinnin määrittäminen
 
 **Intrastat-raportoinnin asetukset** -sivua käytetään Intrastat-raportoinnin käyttöönottoon ja sen oletustoiminnallisuuden määrittelyyn. Voit määrittää sen, tarvitseeko sinun raportoida Intrastat lähetyksistä (toimitukset), vastaanotoista (saapuvat) vai molemmista, riippuen paikallisten säädöksien rajoista. Voit myös määrittää oletusasetukset tapahtumatyypeille tavallisia ja palautusdokumentteja koskien, joita käytetään maksuliikenteen raportointiin.
 
@@ -91,7 +91,7 @@ Intrastat-raportoinnin määritys tehdään seuraavasti.
 
 5. Määritä arvo **Numerointi**-pikavälilehdessä **Intrastat-nrot**-kenttään.
 
-### <a name="set-up-a-reporting-file"></a>Määritä raportointitiedosto
+### Määritä raportointitiedosto
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Tiedonsiirtomääritykset** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi** ja anna sitten **Yleiset**-pikavälilehdellä tiedonsiirron määritelmä, datatiedostotyyppi, sarake-erotin, liittyvät koodiyksiköt, XMLport ja muut kentät tarpeen mukaan.
@@ -112,11 +112,11 @@ Intrastat-raportoinnin määritys tehdään seuraavasti.
 9. Jos sinun täytyy ryhmitellä tapahtumia tiettyjen sarakkeiden perusteella, valitse **Kenttien ryhmittely** -pikavälilehdessä kentät, joita haluat käyttää ryhmittelemiseen.
 
 > [!NOTE]
-> [!INCLUDE[prod_long](includes/prod_long.md)] sisältää kaikkien lokalisoitujen maiden Intrastatin esimääritetyn tiedonvaihtomäärityksen. Lisätietoja uuden tiedonsiirtomäärityksen luomisesta tai muuttamisesta on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).
+> [!INCLUDE[prod_long](includes/prod_long.md)] sisältää kaikkien lokalisoitujen maiden ja alueiden Intrastatin esimääritetyn tiedonvaihtomäärityksen. Lisätietoja uuden tiedonsiirtomäärityksen luomisesta tai muuttamisesta on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).
 
-### <a name="set-mandatory-fields-with-the-intrastat-report-checklist"></a>Pakollisten kenttien määrittäminen Intrastat-raportin tarkistusluettelon avulla
+### Pakollisten kenttien määrittäminen Intrastat-raportin tarkistusluettelon avulla
 
-Joissakin maissa viranomaiset vaativat Intrastat-raportteihin esimerkiksi ostojen toimitustavan tai joitakin arvoja myynnin ylittäessä tietyn raja-arvon.
+Joissakin maissa ja joillakin alueilla viranomaiset vaativat Intrastat-raportteihin esimerkiksi ostojen toimitustavan tai joitakin arvoja myynnin ylittäessä tietyn raja-arvon.
 
 Pakollisten kenttien tai arvojen määrittäminen **Intrastat-raportti**-sivulla tapahtuu seuraavasti.
 
@@ -136,9 +136,9 @@ Pakollisten kenttien tai arvojen määrittäminen **Intrastat-raportti**-sivulla
 > [!NOTE]
 > Kun avaat **suodatinsivun** **suodatinlauseke**-riviltä, voit käyttää kaikkia vakiosuodatuslausekkeita, jotka liittyvät suodatettavaan kenttään.
 >
-> Ole varovainen määrittäessäsi oikeellisuustarkistusääntöjä, koska ne voivat vaihdella maittain.
+> Ole varovainen määrittäessäsi oikeellisuustarkistusääntöjä, koska ne voivat vaihdella maittain ja alueittain.
 
-## <a name="use-custom-codeunits-in-intrastat-reporting"></a>Käytä mukautettuja codeunitseja Intrastat-raporteissa
+## Käytä mukautettuja codeunitseja Intrastat-raporteissa
 
 Jos haluat muuttaa tapaa, jolla Intrastat toimii ja oletuskonfiguraatio ei riitä, voit mukauttaa järjestelmää laajentamalla vakio-ominaisuuksia. Jos sinun on muutettava Intrastat-käyttäytymistä, voit kehittää omia codeunitseja. Kun luot codeunitseja, sinun täytyy tehdä lisää muutoksia niiden käyttöön. Järjestelmän määrittäminen käyttämään omia objekteja tapahtuu seuraavasti.
 
@@ -154,7 +154,7 @@ Jos haluat muuttaa tapaa, jolla Intrastat toimii ja oletuskonfiguraatio ei riit�
 > [!IMPORTANT]
 > Tämän rivin on oltava tyhjä, jos käytät vakiocodeuniteja. Luo rivi ja määritä se vain, jos olet kehittänyt mukautettuja codeunitseja.
 
-## <a name="other-intrastat-configurations"></a>Muut Intrastatin määritykset
+## Muut Intrastatin määritykset
 
 Asiakas- ja toimittajakortit sisältävät **Intrastat-kumppanin tyyppi** -kentän, jolla on samat arvovaihtoehdot kuin **Kumppanin tyyppi** -kentällä: 
 
@@ -171,7 +171,7 @@ Jos **Intrastat-kumppanin tyyppi** -kenttä jätetään tyhjäksi, Intrastat-rap
 | Sivu | Kuvaus |
 | ---- | ----------- |
 | **Maat/alueet** | **Maat/alueet**-sivulla sinun täytyy lisätä **EU-maa-/aluekoodi** ja **Intrastat-koodi**-tiedot määritelläksesi sen maan/alueen koodin, jonka kanssa käyt kauppaa. Näitä tietoja käytetään Intrastat-raportoinnissa. |
-| **Tariffinumerot** | Monissa maissa tulli- ja veroviranomaiset määrittävät kahdeksannumeroiset koodit eri nimikkeille. Jotta nimikkeen tapahtumat sisältäisivät tarvittavat tiedot ohjelman tuodessa ne Intrastat-ilmoituksen riville, sinun on syötettävä nimikekoodi **Tavaranimike**-sivulle. Etsi niiden nimikkeiden koodit, joilla yrityksesi käy kauppaa, ja syötä ne **Tavaranimikkeet**-sivulle. |
+| **Tariffinumerot** | Monissa maissa ja monilla alueilla tulli- ja veroviranomaiset määrittävät kahdeksannumeroiset koodit eri nimikkeille. Jotta nimikkeen tapahtumat sisältäisivät tarvittavat tiedot ohjelman tuodessa ne Intrastat-ilmoituksen riville, sinun on syötettävä nimikekoodi **Tavaranimike**-sivulle. Etsi niiden nimikkeiden koodit, joilla yrityksesi käy kauppaa, ja syötä ne **Tavaranimikkeet**-sivulle. |
 | **Kuljetusmuodot** | Intrastat-kuljetusmuodoilla on seitsemän yksimerkkistä koodia: **1** tarkoittaa merikuljetusta, **2** rautatiekuljetusta, **3** tiekuljetusta, **4** ilmakuljetusta, **5** postitusta, **7** kiinteää asennusta ja **9** omaa käyttövoimaa (kuten auton kuljettaminen sitä ajamalla). [!INCLUDE[prod_short](includes/prod_short.md)] ei vaadi näitä erityisiä koodeja. Suosituksena on kuitenkin käyttää merkitykseltään vastaavia kuvauksia. |
 | **Kauppatapahtumien luonteet** | Mailla ja alueilla on eri koodit Intrastat-tapahtumatyypeille, kuten tavallisille ostoille ja myynneille, palautettujen tavaroiden vaihdolle ja palauttamattomien tavaroiden vaihdolle. Määritä omaa maata tai aluetta koskevat koodit. Näitä koodeja käytetään myynti-ja ostoasiakirjojen **Ulkomaankauppa**-pikavälilehdessä sekä palautusten käsittelyssä. |
 | **Tapahtumamääritykset** | Määritä koodit, jotka täydentävät transaktiotyypin kuvauksia. |
@@ -182,31 +182,31 @@ Jos **Intrastat-kumppanin tyyppi** -kenttä jätetään tyhjäksi, Intrastat-rap
 |   Kenttä   |   Kuvaus   |
 | --------- | --------------- |
 | **Nettopaino** | Paino on eräs Intrastat-raportointiin liittyvistä perusmäärityksistä, koska kokonaispaino on pakollinen raportoinnissa. Jotta olisit valmis tämän vaatimuksen täyttämiseen, sinun täytyy täyttää nimikkeen tai käyttöomaisuuden kortin **Nettopaino**-kenttä. |
-| **Alkuperämaan koodi** | Käytä kaksikirjaimisia ISO-alfakoodeja nimikkeelle tai käyttöomaisuuskortille sen maan osalta, jossa tuote hankittiin tai tuotettiin. Jos tuotetta on tuotettu useammassa kuin yhdessä maassa, alkuperämaa on viimeinen maa, jossa sitä käsiteltiin merkittävästi. |
-| **Tuontijäsenvaltion kumppanitoiminnan harjoittajan ALV-tunnistenumero** | Tämä on tuontijäsenvaltion kumppanitoiminnan harjoittajan ALV-tunnistenumero. ALV-tunnusta käytetään myös EU-maiden välisten vientitietojen vaihdossa jäsenvaltioiden kesken, ja sen avulla jäsenvaltiot voivat jakaa vastaanotetut tiedot oman maansa tuontiyritykselle. Raportointiyksiköiden on ilmoitettava sen yrityksen ALV-tunnus, joka on ilmoittanut unionin sisäisen tuotteiden hankinnan jäsenvaltiossa, johon tuote tuotiin. |
+| **Alkuperämaan koodi** | Käytä kaksikirjaimisia ISO-alfakoodeja nimikkeelle tai käyttöomaisuuskortille sen maan tai alueen osalta, jossa tuote hankittiin tai tuotettiin. Jos tuotetta on tuotettu useammassa kuin yhdessä maassa tai yhdellä alueella, alkuperämaa- tai -alue on viimeinen merkittävän käsittelyn maa/alue. |
+| **Tuontijäsenvaltion kumppanitoiminnan harjoittajan ALV-tunnistenumero** | Tämä on tuontijäsenvaltion kumppanitoiminnan harjoittajan ALV-tunnistenumero. ALV-tunnusta käytetään myös EU-maiden välisten vientitietojen vaihdossa jäsenvaltioiden kesken, ja sen avulla jäsenvaltiot voivat jakaa vastaanotetut tiedot oman maansa tai alueensa tuontiyritykselle. Raportointiyksiköiden on ilmoitettava sen yrityksen ALV-tunnus, joka on ilmoittanut unionin sisäisen tuotteiden hankinnan jäsenvaltiossa, johon tuote tuotiin. |
 
 Myös seuraavat voi määrittää:
 
 * **Kauppatavarakoodit**: Tulli- ja veroviranomaiset ovat luoneet nimikkeiden ja palvelujen luokittelua varten numeeriset koodit. Nämä koodit voidaan määrittää nimikkeissä.
 * **Alueet**: Täydentäviä maita ja alueita koskevia tietoja.
-* **Tulo-/ lähtöpaikat**: Määritä tämän vaihtoehdon avulla sijainnit, joissa lähetät nimikkeitä muihin maihin tai vastaanotat nimikkeitä muista maista. Lentoasema on esimerkki tulo- tai lähtöpaikasta. Tulo- tai lähtöpaikat annetaan myynti- ja ostoasiakirjoihin **Ulkomaankauppa**-pikavälilehdessä. Nämä tiedot kopioidaan nimiketapahtumista Intrastat-ilmoituksen luomisen yhteydessä.
+* **Tulo-/ lähtöpaikat**: Määritä tämän vaihtoehdon avulla sijainnit, joissa lähetät nimikkeitä muihin maihin tai muille alueille tai vastaanotat nimikkeitä muista maista tai muilta alueilta. Lentoasema on esimerkki tulo- tai lähtöpaikasta. Tulo- tai lähtöpaikat annetaan myynti- ja ostoasiakirjoihin **Ulkomaankauppa**-pikavälilehdessä. Nämä tiedot kopioidaan nimiketapahtumista Intrastat-ilmoituksen luomisen yhteydessä.
 * **Täydentävä mittayksikkö**: Intrastat-raportoinnissa käytettävä tavaroiden määrä voi olla joko nettopaino (kilogrammoina) tai lisäyksikkö. Jos tarvitaan lisäyksiköitä, ne on määritettävä nimikkeille ja käyttöomaisuudelle.
 
-#### <a name="set-up-transport-methods"></a>Kuljetusmuotojen määrittäminen
+#### Kuljetusmuotojen määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kuljetusmuodot** ja valitse sitten vastaava linkki.
 2. Täytä tarvittavat kenttätiedot. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### <a name="set-up-transaction-nature-codes"></a>Kauppatapahtuman luonteen koodien määrittäminen
+#### Kauppatapahtuman luonteen koodien määrittäminen
 
 1. valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Tapahtumatyypit** ja valitse sitten vastaava linkki.
 2. Täytä tarvittavat kenttätiedot. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="other-related-configurations"></a>Muut asiaan liittyvät määritykset
+### Muut asiaan liittyvät määritykset
 
 Ennen kuin käytät Intrastat-raportointiominaisuutta, sinun täytyy määrittää kentät nimikkeen, käyttöomaisuuden, asiakkaan ja toimittajan korteille.
 
-#### <a name="item-cards"></a>Nimikekortit
+#### Nimikekortit
 
 Kaikkien Intrastatiin liittyvien tarvittavien tietojen määrittäminen nimikekortteihin tapahtuu seuraavasti.
 
@@ -222,7 +222,7 @@ Kaikkien Intrastatiin liittyvien tarvittavien tietojen määrittäminen nimikeko
 > [!NOTE]
 > Kun lisäät tavaranumeron mittayksikölle, joka on määritelty nimikkeelle,  [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelma täyttää automaattisesti **Lisämittayksikkö**-kentän tavaranumerokonfiguraation perusteella. **Lisämittayksikkö**-kentän arvoa voi muuttaa tarpeen mukaan.
 
-#### <a name="set-up-fixed-assets-for-intrastat"></a>Määritä käyttöomaisuus Intrastatia varten
+#### Määritä käyttöomaisuus Intrastatia varten
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuus** ja valitse sitten vastaava linkki.
 2. Valitse käyttöomaisuus, jota haluat määrittää.
@@ -231,7 +231,7 @@ Kaikkien Intrastatiin liittyvien tarvittavien tietojen määrittäminen nimikeko
 > [!NOTE]
 > Voit käyttää lisämittayksikkönä eri mittayksiköitä. Mutta minkä tahansa **Mittayksikön koodin** valitset, sen **Määrä** Intrastat-raporteissa on aina 1.
 
-#### <a name="set-up-vendors-for-intrastat"></a>Toimittajien määrittäminen Intrastatia varten
+#### Toimittajien määrittäminen Intrastatia varten
 
 Ennen kuin voit sisällyttää toimittajan Intrastat-raportointiin, syötä toimittajan tiedot  **Toimittajakortti**-sivulle. Voit esimerkiksi määrittää **Maa-/aluekoodi**-arvon ja **ALV-rekisterinumero**-arvon.
 
@@ -240,7 +240,7 @@ Ennen kuin voit sisällyttää toimittajan Intrastat-raportointiin, syötä toim
 3. **Intrastat**-pikavälilehdessä voit määrittää oletusarvot **oletussiirtotyyppi**-, **oletussiirtotyyppi - palautukset** ja **oletuskuljetusmuoto** -kentille.
 4. Valitse **maksut** -pikavälilehdellä **Intrastat-kumppanien tyyppi** -kentässä oleva valinta, jos haluat määrittää, onko toimittaja henkilö vai yritys Intrastat-raportoinnissa.
 
-#### <a name="set-up-customers-for-intrastat"></a>Asiakkaiden määritys Intrastatia varten
+#### Asiakkaiden määritys Intrastatia varten
 
 Ennen kuin voit sisällyttää asiakkaan Intrastat-raportointiin, syötä toimittajan tiedot **Asiakaskortti**-sivulle. Voit esimerkiksi määrittää **Maa-/aluekoodi**-arvon ja **ALV-rekisterinumero**-arvon.
 
@@ -249,22 +249,22 @@ Ennen kuin voit sisällyttää asiakkaan Intrastat-raportointiin, syötä toimit
 3. **Intrastat**-pikavälilehdessä voit määrittää oletusarvot **oletussiirtotyyppi**-, **oletussiirtotyyppi - palautukset** ja **oletuskuljetusmuoto** -kentille.
 4. Valitse **maksut** -pikavälilehdellä **Intrastat-kumppanien tyyppi** -kentässä oleva valinta, jos haluat määrittää, onko toimittaja henkilö vai yritys Intrastat-raportoinnissa.
 
-#### <a name="exclude-items-and-fixed-assets-from-intrastat-reporting"></a>Nimikkeiden ja käyttöomaisuuden jättäminen pois Intrastat-raportoinnista
+#### Nimikkeiden ja käyttöomaisuuden jättäminen pois Intrastat-raportoinnista
 
 Jos tietty nimike tai käyttöomaisuus jätetään pois Intrastat-raportoinnista, muuta kortissa olevaa asetusta.
 
-##### <a name="exclude-an-item-from-intrastat-reporting"></a>Sulje nimike pois Intrastat-raportoinnista
+##### Sulje nimike pois Intrastat-raportoinnista
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
 2. Valitse nimike, jonka haluat määrittää, ja valitse sitten **Kustannus & kirjaus** -pikavälilehdessä **Poista Intrastat-raportista** -valintaruutu.
 
-##### <a name="exclude-a-fixed-asset-from-intrastat-reporting"></a>Käyttöomaisuuden jättäminen pois Intrastat-raportoinnista
+##### Käyttöomaisuuden jättäminen pois Intrastat-raportoinnista
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuus** ja valitse sitten vastaava linkki.
 2. Valitse käyttöomaisuus, jota haluat määrittää.
 3. Valitse **Intrastat**-pikavälilehdellä **Jätä pois Intrastat-raportista** -valintaruutu.
 
-#### <a name="set-up-tariff-numbers"></a>Tavaranimikkeiden määrittäminen
+#### Tavaranimikkeiden määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tavaranimikkeet** ja valitse sitten vastaava linkki.  
 2. Täytä **Tavaranimikkeet**-sivun kentät seuraavassa taulukossa kuvatulla tavalla.
@@ -282,11 +282,11 @@ Jos tietty nimike tai käyttöomaisuus jätetään pois Intrastat-raportoinnista
 > 
 > Kun lisäät nimikkeelle tavaranimikkeen, jonka **Mittayksikkö**-arvo on määritelty, [!INCLUDE [prod_short](includes/prod_short.md)] lisää uuden mittayksikön automaattisesti **Nimikkeen mittayksiköt** -arvoihin. **Määrä mittayksikköä kohti** -arvo perustuu **Määrän pyöristystarkkuus** -kenttään.
 
-## <a name="enter-countryregion-intrastat-settings"></a>Määritä maa-/aluekohtaiset Intrastat-asetukset
+## Määritä maa- tai aluekohtaiset Intrastat-asetukset
 
-Intrastat-vaatimukset ovat samanlaiset kaikissa EU:n jäsenvaltioissa, joskin tärkeitä poikkeuksia on olemassa. Teoriassa sääntöjä olisi sovellettava yhdenmukaisesti kaikissa jäsenvaltioissa. Täytäntöönpanossa on kuitenkin eroja, koska jotkin jäsenvaltiot antavat suuntaviivoja siitä, miten asetuksen periaatteita olisi sovellettava erityistilanteissa (esimerkiksi kaupalliset näytteet, tavaroiden palautus). Nämä suuntaviivat voivat johtaa erilaisiin tuloksiin eri tilanteissa. Sen vuoksi tiedot, jotka maiden on syötettävä, voivat vaihdella, kuten myös ne tiedostomuodot, joita niiden on käytettävä raportoinnissa.
+Intrastat-vaatimukset ovat samanlaiset kaikissa EU:n jäsenvaltioissa, joskin tärkeitä poikkeuksia on olemassa. Teoriassa sääntöjä olisi sovellettava yhdenmukaisesti kaikissa jäsenvaltioissa. Täytäntöönpanossa on kuitenkin eroja, koska jotkin jäsenvaltiot antavat suuntaviivoja siitä, miten asetuksen periaatteita olisi sovellettava erityistilanteissa (esimerkiksi kaupalliset näytteet, tavaroiden palautus). Nämä suuntaviivat voivat johtaa erilaisiin tuloksiin eri tilanteissa. Sen vuoksi tiedot, jotka maiden tai alueiden on syötettävä, voivat vaihdella, kuten myös ne tiedostomuodot, joita niiden on käytettävä raportoinnissa.
 
-### <a name="austria"></a>Itävalta
+### Itävalta
 
 Itävallan Intrastat-raportointiin tarvitaan kaksi eri tiedostoa vastaanotoille ja toimituksille. Voit varmistaa, että asetukset ovat oikein, toimimalla seuraavasti.
 
@@ -298,11 +298,11 @@ Intrastat-raporttien käsittelyprosessi on sama kuin yleisessä ominaisuudessa.
 
 <!-- ### Belgium-->
 
-### <a name="czech-republic"></a>Tšekin tasavalta
+### Tšekin tasavalta
 
 Uusi Intrastat-raporttikokemus Tšekin tasavallalle on saatavilla 2023 julkaisuaalto 1 -versiossa. Tällä välin voit jatkaa **Intrastat-ilmoitus**-ominaisuuden käyttöä.
 
-### <a name="finland"></a>Suomi
+### Suomi
 
 Intrastatin määrittämisessä on Suomessa muutamia lisävaiheita. Suomen Intrastat-raportointiin tarvitaan kaksi eri tiedostoa vastaanotoille ja toimituksille. Löydät myös kaksi erillistä **Tiedonsiirtomäärityksen koodi** -arvoa määritettynä.
 
@@ -320,13 +320,13 @@ Intrastat-raporttien käsittelyprosessi on sama kuin yleisessä ominaisuudessa.
 
 <!-- ### Germany-->
 
-### <a name="italy"></a>Italia
+### Italia
 
 Italian uusi Intrastat-raporttikokemus on saatavilla helmikuusta 2023 alkaen. Tällä välin voit jatkaa **Intrastat-ilmoitus**-ominaisuuden käyttöä.
 
 <!-- ### France-->
 
-### <a name="sweden"></a>Ruotsi
+### Ruotsi
 
 Ruotsin Intrastat-raportointiin tarvitaan kaksi eri tiedostoa vastaanotoille ja toimituksille. Voit varmistaa, että asetukset ovat oikein, toimimalla seuraavasti.
 
@@ -337,9 +337,9 @@ Intrastat-raporttien käsittelyprosessi on sama kuin yleisessä ominaisuudessa.
 
 <!-- ### United Kingdom-->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvästä koulutuksesta on [Microsoft Learnissa](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## Lisätietoja aiheeseen liittyvästä koulutuksesta on [Microsoft Learnissa](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Intrastat-raportointi Business Centralissa](finance-how-report-intrastat.md)  
 [Taloushallinto](finance.md)  

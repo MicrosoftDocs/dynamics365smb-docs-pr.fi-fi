@@ -14,14 +14,14 @@ ms.custom: bap-template
 
 # Vähennyskelvottoman arvonlisäveron määrittäminen
 
-Vähennyskelvoton arvonlisävero (ALV) on ostajan maksettavaksi tuleva ALV, mutta se ei ole vähennyskelpoinen ostajan omasta ALV-velasta. Yritykset voivat yleensä periä ALV:n liiketoimintansa yhteydessä olevien tavaroiden ja palveluiden hankinnasta. Joissakin tilanteissa yritys kuitenkin aiheuttaa ALV:n, joka ei ole vähennyskelpoinen. Nämä tilanteet liittyvät yleensä paikallisiin määräyksiin ja voivat vaihdella maittain. Vähennyskelvottoman tai osittain vähennyskelpoisen arvonlisäveron käyttömalli on kuitenkin samanlainen. Voit käyttää suhteellista ALV:ia ALV:n laskemiseen, kun ALV on vähennyskelpoista ja vähennyskelvotonta.
+Vähennyskelvoton arvonlisävero (ALV) on ostajan maksettavaksi tuleva ALV, mutta se ei ole vähennyskelpoinen ostajan omasta ALV-velasta. Yritykset voivat yleensä periä ALV:n liiketoimintansa yhteydessä olevien tavaroiden ja palveluiden hankinnasta. Joissakin tilanteissa yritys kuitenkin aiheuttaa ALV:n, joka ei ole vähennyskelpoinen. Nämä tilanteet liittyvät yleensä paikallisiin määräyksiin ja voivat vaihdella maittain ja alueittain. Vähennyskelvottoman tai osittain vähennyskelpoisen arvonlisäveron käyttömalli on kuitenkin samanlainen. Voit käyttää suhteellista ALV:ia ALV:n laskemiseen, kun ALV on vähennyskelpoista ja vähennyskelvotonta.
 
 Yleisesti ottaen ALV:tä ei voi vähentää joistakin ostoista seuraavien seikkojen vuoksi:
 
 - **Ostettavien tavaroiden tai palveluiden tyyppi** – ALV on kokonaan tai osittain vähennyskelvoton lain säännöksen mukaan tavaroista, kuten autoista, matkapuhelimista ja ravintoloista ostetuista ruoista.
 - **Osittain vähennyskelpoinen suhteellinen ALV** – ALV on suhteutettu arvonlisäverovelvollisen myyntitoiminnan ja kaikkien suoritettujen toimintojen suhteeseen. Tämän suhteen ylittävää ALV:tä ei voida vähentää.
 
-Koska voi olla vaikea tietää, missä ja miten nimikettä käytetään, sinun on otettava yhteyttä oman maasi paikallisiin veroviranomaisiin ja selvitettävä, vähennetäänkö tietty prosenttiosuus ALV:stä historiallisten tietojen perusteella. 
+Koska voi olla vaikea tietää, missä ja miten nimikettä käytetään, sinun on otettava yhteyttä oman maasi tai alueesi paikallisiin veroviranomaisiin ja selvitettävä, vähennetäänkö tietty prosenttiosuus ALV:stä historiallisten tietojen perusteella. 
 
 > [!IMPORTANT]
 > Tämä yleinen ominaisuus on käytettävissä kaikissa maissa, joissa on käytössä ALV **lukuun ottamatta Belgiaa, Italiaa, Norjaa ja Espanjaa**. Näissä lokalisoinneissa on jo paikallinen ominaisuus, ja ne päivitetään myöhemmin. Älä suorita tätä ominaisuutta näissä maissa, koska päivitystoimintoa ei ole.

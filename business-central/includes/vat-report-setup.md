@@ -8,7 +8,7 @@ ms.author: edupont
 2. Jos haluat, että käyttäjät voivat muuttaa ja uudelleenlähettää näitä raportteja, valitse **Salli muokkaus** -kenttä.  
 3. Jos veroviranomaiset vaativat sellaisten ALV-raporttien toimittamista, jotka sisältävät myös ALV:n laskemiseen käytetyn nettosumman, valitse **Raportin ALV-peruste** -kenttä.  
 4. Valitse kussakin raportissa käytettävä numerosarja. [!INCLUDE [tooltip-inline-tip_md](tooltip-inline-tip_md.md)]  
-5. Tuetuissa maissa voit määrittää ALV-palautusjaksoja täyttämällä **Palautusjakso**-osan kentät **Raportin versio** ja **Jäljellä olevan jakson laskeminen**.  
+5. Tuetuissa maissa ja tuetuilla alueilla voit määrittää ALV-palautusjaksoja täyttämällä **Palautusjakso**-osan kentät **Raportin versio** ja **Jäljellä olevan jakson laskeminen**.  
 
-    Maissa, joissa veroviranomaiset vaativat ALV-palautusjaksot, kuten Yhdistyneessä kuningaskunnassa, on täytettävä myös lisäkentät. [!INCLUDE [tooltip-inline-tip_md](tooltip-inline-tip_md.md)] Kuitenkin brittiläisessä versiossa tämän osion nimi on **Tehdään veroista digitaalisia**.
+    Jos veroviranomaiset vaativat ALV-palautusjaksot maassa tai alueella, kuten Yhdistyneessä kuningaskunnassa, myös lisäkentät on täytettävä. [!INCLUDE [tooltip-inline-tip_md](tooltip-inline-tip_md.md)] Kuitenkin brittiläisessä versiossa tämän osion nimi on **Tehdään veroista digitaalisia**.
 6. Jos yrityksesi kuuluu ALV-ryhmään, erittele roolisi. Lisätietoja [ALV-ryhmän hallinnan laajennus](../ui-extensions-vat-group.md)  
