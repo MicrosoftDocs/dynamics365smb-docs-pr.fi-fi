@@ -1,519 +1,351 @@
 ### YamlMime:Hub
-title:  Microsoft Dynamics 365 Business Central -ohjeet
-summary: Katso, miten saat kaiken hyödyn Dynamics 365 Business Centralista käyttämällä online-koulutusta ja ohjeita, jotka kertovat tuoteominaisuuksista. Saat lisätietoja siitä, miten Business Centralia käytetään esimerkiksi taloushallinnon, tuotannon ja myynnin toimintojen hallinnassa, mukauttamisessa ja tehostamisessa pienissä ja keskisuurissa yrityksissä.
+title: Microsoft Dynamics 365 Business Central -ohjeet
+summary: 'Katso, miten saat kaiken hyödyn Dynamics 365 Business Centralista käyttämällä online-koulutusta ja ohjeita, jotka kertovat tuoteominaisuuksista. Saat lisätietoja siitä, miten Business Centralia käytetään esimerkiksi taloushallinnon, tuotannon ja myynnin toimintojen hallinnassa, mukauttamisessa ja tehostamisessa pienissä ja keskisuurissa yrityksissä.'
 brand: dynamics
-
 metadata:
   title: Microsoft Dynamics 365 Business Central -ohjeet
-  description: Business Central on pienille ja keskisuurille organisaatioille tarkoitettu liiketoiminnan hallintaratkaisu. Se yhdistää myynnin, palvelun, taloushallinnon ja toiminnot, jolloin työskentely on aiempaa älykkäämpää ja käyttöönotto nopeampaa sekä suorituskyky entistä parempi. Business Central automatisoi ja tehostaa liiketoimintaprosesseja ja auttaa liiketoiminnan hallinnassa.  
+  description: 'Business Central on pienille ja keskisuurille organisaatioille tarkoitettu liiketoiminnan hallintaratkaisu. Se yhdistää myynnin, palvelun, taloushallinnon ja toiminnot, jolloin työskentely on aiempaa älykkäämpää ja käyttöönotto nopeampaa sekä suorituskyky entistä parempi. Business Central automatisoi ja tehostaa liiketoimintaprosesseja ja auttaa liiketoiminnan hallinnassa.'
   ms.topic: hub-page
   ms.service: dynamics365-business-central
   author: jswymer
   ms.author: jswymer
   ms.date: 06/16/2023
   hide_bc: true
-
 highlightedContent:
-# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
-
-# Do not change the following cards. You should only need to update the URLs to provide the correct links to your product documentation.
-
   items:
-    # Card
     - title: Tervetuloa Business Centraliin
       itemType: get-started
       url: /dynamics365/business-central/welcome
-    # Card
     - title: Uudet ominaisuudet
       itemType: whats-new
       url: /dynamics365/business-central/product-news
-    # Card
     - title: Koulutus
       itemType: training
       url: /training/dynamics365/business-central
-    # Card
     - title: Vianmääritys
       itemType: concept
       url: /dynamics365/business-central/across-faq
-      
-additionalContent: 
+additionalContent:
   sections:
-  - title: Implementointi
-# Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
-# Each card should have at least three and no more than five links. Do not include a "See also" link.
-    items:
-    - title: Ohjeet 
-      links: 
-      - text: Tietoturva, yhteensopivuus ja suojaus
-        url: /dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json
-    #  - text: Yhteensopivuus
-    #    url: /dynamics365/business-central/compliance/compliance-overview    
-    #  - text: Tietosuoja
-    #    url: /dynamics365/business-central/privacy-connected-services
-    #  - text: Suorituskyky ylläpitäjät
-    #    url: /dynamics365/business-central/dev-itpro/performance/performance-overview
-    #  - text: Suorituskyky käyttäjät
-    #    url: /dynamics365/business-central/dev-itpro/performance/performance-users
-      - text: Business Central Online -infrastruktuurin ymmärtäminen
-        url: /dynamics365/business-central/dev-itpro/administration/tenant-environment-topology 
-      - text: Siirtäminen paikallisesta online-tilaan
-        url: /dynamics365/business-central/dev-itpro/administration/migrate-data
-    #  - text: Sovelluksen rakennetiedot
-    #    url: /dynamics365/business-central/design-details-application-design
-      - text: Suorituskyky
-        url: /dynamics365/business-central/dev-itpro/performance/performance-overview
-    - title: Kokeileminen/ostaminen
-      links: 
-      - text: Kokeile Business Central Onlinea ilmaiseksi
-        url: /dynamics365/business-central/trial-signup
-      - text: Osta Business Central Online
-        url: /dynamics365/business-central/trial-signup#get-started-with-a-subscription
-    #  - text: Osta paikallinen Business Central (PDF)
-    #    url: https://assetsprod.microsoft.com/mpn/en-us/business-central-dynamics-licensing-guide.pdf
-      - text: Lisää laajennuksia lisätoimintoja varten
-        url: /dynamics365/business-central/ui-extensions-install-uninstall
-    #  - text: Ota käyttöön paikallinen Business Central
-    #    url: /dynamics365/business-central/dev-itpro/deployment/deployment-scenarios
-    #  - text: Mobiili- ja työpöytäsovelluksen asentaminen
-    #    url: /dynamics365/business-central/install-mobile-app
-    #  - text: Siirtäminen paikallisesta online-tilaan
-    #    url: /dynamics365/business-central/dev-itpro/administration/migrate-data
-    - title: Määrittäminen
-      links:
-      - text: Yritykset
-        url: /dynamics365/business-central/about-new-company      
-#      - text: Lisää yrityksen tiedot
-#        url: /dynamics365/business-central/admin-company-information
-#      - text: Numerosarjojen luominen
-#        url: /dynamics365/business-central/ui-create-number-series
-#      - text: Peruskalenterien määrittäminen
-#        url: /dynamics365/business-central/across-how-to-assign-base-calendars
-#      - text: Työskentely yritysten välillä yritystoiminnossa
-#        url: /dynamics365/business-central/company-hub 
-#    - title: Liiketoiminnan määrittäminen
-#      links: 
-      - text: Yrityksen toiminnot
-        url: /dynamics365/business-central/setup
-    #  - text: Taloushallinto
-    #    url: /dynamics365/business-central/finance-setup-finance
-    #  - text: Pankkitoiminta
-    #    url: /dynamics365/business-central/bank-setup-banking        
-    #  - text: Myynti
-    #    url: /dynamics365/business-central/sales-setup-sales
-    #  - text: Osto
-    #    url: /dynamics365/business-central/purchasing-setup-purchasing  
-    #  - text: Sähköpostiosoite
-    #    url: /dynamics365/business-central/admin-how-setup-email
-    #  - url: /dynamics365/business-central/inventory-setup-inventory
-    ##    text: Vaihto-omaisuus
-    #- title: Lisää määritetty
-    #  links:
-    #  - url: /dynamics365/business-central/warehouse-setup-warehouse
-    #    text: Varasto
-    #  - url: /dynamics365/business-central/production-configure-production-processes
-    #    text: Tuotanto
-    #  - url: /dynamics365/business-central/service-setup-service
-    #    text: Palveluiden hallinta
-      - text: Työjonot
-        url: /dynamics365/business-central/admin-job-queues-schedule-tasks      
-      - text: Työnkulut
-        url: /dynamics365/business-central/across-set-up-workflows
-    #  - text: Tulostimet
-    #    url: /dynamics365/business-central/ui-specify-printer-selection-reports
-    #  - text: Muokkaa Excelissä
-    #    url: /dynamics365/business-central/admin-deploy-excel-addin
-    - title: Integrointi muiden tuotteiden kanssa
-      links:     
-      - text: Teams
-        url: /dynamics365/business-central/across-teams-overview
-      - text: Dataverse
-        url: /dynamics365/business-central/admin-common-data-service 
-      - text: Power Automate 
-        url: /dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview
-      - text: Power BI
-        url: /dynamics365/business-central/admin-powerbi
-      - text: OneDrive
-        url: /dynamics365/business-central/across-onedrive-overview  
-  - title: Hallinnointi ja kehitys
-    items:
-    - title: Käyttäjien käyttöoikeuksien hallinta
-      links:
-      - text: Luo käyttäjiä
-        url: /dynamics365/business-central/ui-how-users-permissions
-      - text: Käyttöoikeuksien delegoiminen käyttäjille ja ryhmille
-        url: /dynamics365/business-central/ui-define-granular-permissions
-      - text: Profiilien hallinta
-        url: /dynamics365/business-central/admin-users-profiles-roles  
-      - text: Käyttö Microsoft 365 -käyttöoikeuksien avulla
-        url: /dynamics365/business-central/admin-access-with-m365-license
-    - title: Ympäristöjen hallinta
-      links:
-      - text: Yleiskuvaus
-        url: /dynamics365/business-central/dev-itpro/administration/tenant-administration
-      - text: Ympäristöjen luonti
-        url: /dynamics365/business-central/dev-itpro/administration/tenant-administration  
-#      - text: Kapasiteetin hallinta
-#        url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-capacity  
-      - text: Päivitysten hallinta
-        url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-update-management
-#      - text: Hallintakeskuksen ohjelmointirajapinta
-#        url: /dynamics365/business-central/dev-itpro/administration/administration-center-api
-#      - text: Paikallinen hallinta
-#        url: /dynamics365/business-central/dev-itpro/administration/administration
-    - title: Tietojen varastoinnin hallinta
-      links: 
-      - text: Tietojen pakkaaminen tai asiakirjojen poistaminen
-        url: /dynamics365/business-central/admin-manage-documents
-      - text: Tietojen arkistointi
-        url: /dynamics365/business-central/admin-archive-data
-      - text: Vähennä tietokantoihin tallennettuja tietoja
-        url: /dynamics365/business-central/dev-itpro/administration/database-reduce-data
-      - text: Kapasiteetin hallinta
-        url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-capacity  
-#    - title: Paikallinen hallinta 
-#      links:
-#      - text: Yleiskuvaus
-#        url: /dynamics365/business-central/dev-itpro/administration/administration
-#      - text: Määritä Business Central Server
-#        url: /dynamics365/business-central/dev-itpro/administration/configure-server-instance  
-#      - text: Määritä Business Central Web Server
-#        url: /dynamics365/business-central/dev-itpro/administration/configure-web-server
-#      - text: Business Central -tietokannan suorituskyvyn optimointi
-#        url: /dynamics365/business-central/dev-itpro/administration/optimize-sql-server-performance
-#      - text: Business Central -järjestelmänvalvojan PowerShell-moduulit
-#        url: /powershell/business-central/overview      
-    - title: Toimintojen ja muutosten valvonta
-      links: 
-      - text: Muutosten valvonta
-        url: /dynamics365/business-central/across-log-changes
-      - text: Telemetrian yleiskuva
-        url: /dynamics365/business-central/dev-itpro/administration/telemetry-overview       
-      - text: Ota telemetria käyttöön
-        url: /dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights 
-#      - text: Power BIn avulla
-#        url: /dynamics365/business-central/dev-itpro/administration/telemetry-power-bi-app
-#      - text: KQL:n avulla
-#        url: /dynamics365/business-central/dev-itpro/administration/telemetry-analyze-with-kql
-    - title: Mukauttaminen ja laajentaminen (järjestelmänvalvoja)
-      links:
-      - text: Yleiskuvaus
-        url: /dynamics365/business-central/ui-customizing-overview
-#      - text: Laajennusten asentaminen ja asennuksen poistaminen
-#        url: /dynamics365/business-central/dev-itpro/ui-extensions-install-uninstall
-      - text: Profiilien sivujen mukauttaminen
-        url: /dynamics365/business-central/ui-personalization-manage
-#      - text: Muuta käyttökokemusta
-#        url: /dynamics365/business-central/ui-experiences
-      - text: Ominaisuuksien käyttöönotto etuajassa
-        url: /dynamics365/business-central/admin-feature-management 
-    - title: AL-kehittäminen
-      links:
-      - text: Yleiskuvaus
-        url: /dynamics365/business-central/dev-itpro/developer/devenv-landing?branch=dev-landing
-#      - text: Määritä AL-ympäristö
-#        url: /dynamics365/business-central/dev-itpro/developer/devenv-get-started
-#      - text: Rakenna ensimmäinen sovelluksesi
-#        url: /dynamics365/business-central/dev-itpro/developer/devenv-extension-example
-      - text: Kehitä AppSourcelle
-        url: /dynamics365/business-central/dev-itpro/developer/readiness/opportunity-app-publisher
-      - text: AL-kielen viitetiedot
-        url: /dynamics365/business-central/dev-itpro/developer/
-    #  - text: Järjestelmä ja perussovellus
-    #    url: /dynamics365/business-central/application/    
-    - title: Integroinnin kehittäminen
-      links:
-      - text: Verkkopalvelut (OData, SOAP)
-        url: /dynamics365/business-central/dev-itpro/webservices/web-services
-      - text: Connect Apps 
-        url: /dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps 
-      - text: Business Central -ohjelmointirajapinta  
-        url: /dynamics365/business-central/dev-itpro/api-reference/v2.0/       
- #     - text: Teams
- #       url: /dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams 
- #     - text: Dataverse
- #       url: /dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration 
-
-  - title: Tuottava toiminta
-    items:
-      - title: Työtilan asetukset
-        links:
-          - text: Kieli, alue, käsittelypäivämäärä, aikavyöhyke, yms.
-            url: /dynamics365/business-central/ui-change-basic-settings
-          - text: Vaihda ympäristöä tai yritystä
-            url: /dynamics365/business-central/ui-organization-switch
-          - text: Mukauta käyttöliittymää
-            url: /dynamics365/business-central/ui-personalization-user
-          - text: Ilmoitusten hallinta
-            url: /dynamics365/business-central/ui-smart-notifications
-      - title: Yhteistyö ja jakaminen 
-        links:
-          - text: Yleiskuvaus
-            url: /dynamics365/business-central/across-share-data-features
-          - text: Jaa tietoja Teamsin keskusteluissa ja kanavissa
-            url: /dynamics365/business-central/across-teams-overview
-          - text: Jaa tiedostoja OneDrivessa
-            url: /dynamics365/business-central/across-share-onedrive
-          - text: Tee yhteistyötä Excelissä
-            url: /dynamics365/business-central/across-work-with-excel
-      - title: Liiketoimintatiedot, raportointi ja tietojen analysointi
-        links:
-          - text: Yleiskuvaus
-            url: /dynamics365/business-central/reports-bi-reporting
-          - text: Raporttien suorittaminen, ajoittaminen ja tulostaminen
-            url: /dynamics365/business-central/ui-work-report
-          - text: Power BI -raporttien käyttäminen Business Centralissa
-            url: /dynamics365/business-central/across-working-with-powerbi
-        # - text: Muuta asettelua
-        #    url: /dynamics365/business-central/ui-set-report-layout                                                   
-          - text: Luettelotietojen analysoiminen analyysitilassa
-            url: /dynamics365/business-central/across-working-with-powerbi            
-          - text: Raporttitietojen analysoiminen Excelillä
-            url: /dynamics365/business-central/report-analyze-excel                                                                                
-      - title: Yrityksen yleiset toiminnot
-        links:
-          - text: Yleiset päiväkirjat
-            url: /dynamics365/business-central/ui-work-general-journals
-          - text: Asiakirjojen ja päiväkirjojen kirjaaminen
-            url: /dynamics365/business-central/ui-post-documents-journals
-          - text: Työjonot
-            url: /dynamics365/business-central/admin-job-queues-schedule-tasks
-          - text: Saapuvat asiakirjat
-            url: /dynamics365/business-central/across-income-documents
-#          - text: Paikalliset toiminnot
-#            url: /dynamics365/business-central/about-localization
-  - title: Liikeasioiden hoitaminen
-    items:
-#      - title: Työtilan asetukset
-#        links:
-#          - text: Kieli, alue, käsittelypäivämäärä, aikavyöhyke, yms.
-#            url: /dynamics365/business-central/ui-change-basic-settings
-#          - text: Vaihda ympäristöä tai yritystä
-#            url: /dynamics365/business-central/ui-organization-switch
-#           - text: Mukauta käyttöliittymää
-#             url: /dynamics365/business-central/ui-personalization-user
-#           - text: Ilmoitusten hallinta
-#             url: /dynamics365/business-central/ui-smart-notifications
-#      - title: Yhteistyö ja jakaminen 
-#          links:
-#            - text: Yleiskuvaus
-#              url: /dynamics365/business-central/across-share-data-features
-#            - text: Jaa tietoja Teamsin keskusteluissa ja kanavissa
-#              url: /dynamics365/business-central/across-teams-overview
-#            - text: Jaa tiedostoja OneDrivessa
-#              url: /dynamics365/business-central/across-share-onedrive
-#            - text: Tee yhteistyötä Excelissä
-#              url: /dynamics365/business-central/across-work-with-excel
-#        - title: Liiketoimintatiedot, raportointi ja tietojen analysointi
-#          links:
-#            - text: Yleiskuvaus
-#              url: /dynamics365/business-central/reports-bi-reporting
-#            - text: Raporttien suorittaminen, ajoittaminen ja tulostaminen
-#              url: /dynamics365/business-central/ui-work-report
-#            - text: Power BI -raporttien käyttäminen Business Centralissa
-#              url: /dynamics365/business-central/across-working-with-powerbi
-#          # - text: Muuta asettelua
-#          #    url: /dynamics365/business-central/ui-set-report-layout                                                   
-#            - text: Luettelotietojen analysoiminen analyysitilassa
-#              url: /dynamics365/business-central/across-working-with-powerbi            
-#            - text: Raporttitietojen analysoiminen Excelillä
-#              url: /dynamics365/business-central/report-analyze-excel                                                                                
-#        - title: Yleinen liiketoiminta ja paikallinen toiminnallisuus
- #         links:
-#            - text: Yleiset päiväkirjat
-#              url: /dynamics365/business-central/ui-work-general-journals
-#            - text: Asiakirjojen ja päiväkirjojen kirjaaminen
-#             url: /dynamics365/business-central/ui-post-documents-journals
-#            - text: Työjonot
-#              url: /dynamics365/business-central/admin-job-queues-schedule-tasks
-#            - text: Saapuvat asiakirjat
-#              url: /dynamics365/business-central/across-income-documents
-#            - text: Paikalliset toiminnot
-#              url: /dynamics365/business-central/about-localization
-      - title: Taloushallinto
-        links:
-          - text: Yleiskuvaus
-            url: /dynamics365/business-central/finance
-          - text: Rahoitusraportit
-            url: /dynamics365/business-central/finance-reports
-          - text: Myyntisaamisten hallinta
-            url: /dynamics365/business-central/receivables-manage-receivables
-          - text: Ostovelkojen hallinta
-            url: /dynamics365/business-central/payables-manage-payables   
-      #    - text: Laskutuksen ennakkomaksut
-      #      url: /dynamics365/business-central/finance-invoice-prepayments
-          - text: Pankkitilien täsmäyttäminen
-            url: /dynamics365/business-central/bank-manage-bank-accounts
-      - title: Myynti
-        links:
-          - text: Yleiskuvaus
-            url: /dynamics365/business-central/sales-manage-sales
-          - text: Myyntiraportit
-            url: /dynamics365/business-central/sales-reports
-          - text: Uusien asiakkaiden rekisteröiminen 
-            url: /dynamics365/business-central/sales-how-register-new-customers   
-          - text: Myyntitarjousten tekeminen
-            url: /dynamics365/business-central/sales-how-make-offers
-          - text: Myynnin laskuttaminen
-            url: /dynamics365/business-central/sales-how-invoice-sales
-      - title: Osto
-        links:
-          - text: Yleiskuvaus
-            url: /dynamics365/business-central/purchasing-manage-purchasing
-          - text: Ostoraportit
-            url: /dynamics365/business-central/purchase-reports
-          - text: Ostojen kirjaaminen 
-            url: /dynamics365/business-central/purchasing-how-record-purchases   
-          - text: Tarjousten pyytäminen
-            url: /dynamics365/business-central/purchasing-how-request-quotes
-          - text: Nimikkeiden ostaminen myyntiin
-            url: /dynamics365/business-central/purchasing-how-purchase-products-sale           
-      - title: Vaihto-omaisuus
-        links:
-          - text: Yleiskuvaus
-            url: /dynamics365/business-central/inventory-manage-inventory
-          - text: Varaston ja fyysisen varaston raportit
-            url: /dynamics365/business-central/inventory-WMS-reports
-          - text: Nimikkeiden rekisteröiminen
-            url: /dynamics365/business-central/inventory-how-register-new-items
-          - text: Käytä tuoterakennetta
-            url: /dynamics365/business-central/inventory-how-work-boms
-          - text: Nimikkeiden luokitteleminen
-            url: /dynamics365/business-central/inventory-how-categorize-items
-      - title: Projektien hallinta
-        links:
-          - text: Yleiskuvaus
-            url: /dynamics365/business-central/projects-manage-projects
-          - text: Projektiraportit
-            url: /dynamics365/business-central/project-reports
-          - text: Projektien luominen
-            url: /dynamics365/business-central/projects-how-create-jobs
-          - text: Resurssien käyttäminen projekteissa
-            url: /dynamics365/business-central/projects-how-use-resources
-          - text: Käytä aikaraportteja
-            url: /dynamics365/business-central/projects-how-use-time-sheets
-      - title: Käyttöomaisuus
-        links:
-          - text: Yleiskuvaus
-            url: /dynamics365/business-central/fa-manage
-          - text: Käyttöomaisuuden raportit
-            url: /dynamics365/business-central/fa-reports
-          - text: Käyttöomaisuuden hankkiminen
-            url: /dynamics365/business-central/fa-how-acquire
-          - text: Käyttöomaisuuden ylläpitäminen
-            url: /dynamics365/business-central/fa-how-maintain
-          - text: Käyttöomaisuuden vakuuttaminen
-            url: /dynamics365/business-central/fa-how-insure
-      - title: Liikesuhteiden hallinta
-        links:
-          - text: Yleiskuvaus
-            url: /dynamics365/business-central/marketing-relationship-management
-          - text: Yhteyshenkilöt
-            url: /dynamics365/business-central/marketing-contacts
-          - text: Segmentit
-            url: /dynamics365/business-central/marketing-segments
-          - text: Vuorovaikutukset
-            url: /dynamics365/business-central/marketing-interactions-overview
-          - text: Mahdollisuudet
-            url: /dynamics365/business-central/marketing-manage-sales-opportunities
-
-      - title: Henkilöstöhallinto
-        links:
-          - text: Yleiskuvaus
-            url: /dynamics365/business-central/hr-manage-human-resources
-          - text: Työntekijöiden rekisteröiminen
-            url: /dynamics365/business-central/hr-how-register-employees
-          - text: Työntekijöiden poissaolojen hallinta
-            url: /dynamics365/business-central/hr-how-manage-absence
-      - title: Suunnittelu
-        links:
-          - text: Yleiskuvaus
-            url: /dynamics365/business-central/production-planning
-          - text: Suunnittelu sijainteja käyttämällä tai ilman niitä
-            url: /dynamics365/business-central/production-planning-with-without-locations
-          - text: Ennusteen luominen
-            url: /dynamics365/business-central/production-how-to-create-a-forecast
-          - text: Tuotantotilausten luominen myyntitilauksista
-            url: /dynamics365/business-central/production-how-to-create-production-orders-from-sales-orders
-          - text: Uuden kysyntätilauksen suunnitteleminen tilauksen mukaan
-            url: /dynamics365/business-central/production-how-to-plan-for-new-demand 
-      - title: Kokoonpanon hallinta
-        links:
-          - text: Yleiskuvaus
-            url: /dynamics365/business-central/assembly-assemble-items
-          - text: Kokoonpanoraportit
-            url: /dynamics365/business-central/assembly-reports
-          - text: Kokoonpano tilausta varten -myynnin tarjous
-            url: /dynamics365/business-central/assembly-how-to-quote-an-assemble-to-order-sale
-          - text: Nimikkeiden kokoonpano
-            url: /dynamics365/business-central/assembly-how-to-assemble-items
-          - text: Kokoonpano tilausta varten -nimikkeiden myyminen
-            url: /dynamics365/business-central/assembly-how-to-sell-items-assembled-to-order
-      - title: Tuotanto
-        links:
-          - text: Yleiskuvaus
-            url: /dynamics365/business-central/production-manage-manufacturing
-          - text: Tuotantoraportit
-            url: /dynamics365/business-central/production-reports
-          - text: Tuotantotilausten luominen
-            url: /dynamics365/business-central/production-about-production-orders
-          - text: Tuotanto alihankintana
-            url: /dynamics365/business-central/production-how-to-subcontract-manufacturing
-          - text: Kulutuksen ja tuotoksen kirjaaminen
-            url: /dynamics365/business-central/production-how-to-register-consumption-and-output
-      - title: Varastoinninhallinta
-        links:
-          - text: Yleiskuvaus
-            url: /dynamics365/business-central/warehouse-manage-warehouse
-          - text: Varastoraportit
-            url: /dynamics365/business-central/inventory-WMS-reports
-          - text: Nimikkeiden sijoittaminen
-            url: /dynamics365/business-central/warehouse-how-to-put-items-away-with-inventory-put-aways
-          - text: Nimikkeiden siirtäminen
-            url: /dynamics365/business-central/warehouse-move-items
-          - text: Nimikkeiden poiminta
-            url: /dynamics365/business-central/warehouse-how-to-pick-items-with-inventory-picks
-      - title: Palveluiden hallinta
-        links:
-          - text: Yleiskuvaus
-            url: /dynamics365/business-central/service-service
-          - text: Suunnittelu
-            url: /dynamics365/business-central/service-plan-service
-          - text: Huoltosopimusten toteuttaminen
-            url: /dynamics365/business-central/service-fulfill-service-contracts
-          - text: Huollon toimittaminen
-            url: /dynamics365/business-central/service-deliver-service
-          - text: Huoltotarjousten luominen
-            url: /dynamics365/business-central/service-how-to-create-service-quotes
-      - title: Verkkokauppa Shopifylla
-        links:
-          - text: Aloittaminen
-            url: /dynamics365/business-central/shopify/get-started
-          - text: Asiakkaiden synkronoiminen Shopifyn kanssa
-            url: /dynamics365/business-central/shopify/synchronize-customers
-          - text: Myyntitilausten synkronoiminen ja täyttäminen Shopifyn kanssa
-            url: /dynamics365/business-central/shopify/synchronize-orders
-          - text: Tapahtumien ja maksujen synkronoiminen
-            url: /dynamics365/business-central/shopify/transactions-and-payouts
-          - text: Shopify-yhteyden verojen määrittäminen
-            url: /dynamics365/business-central/shopify/setup-taxes
-      - title: Paikalliset toiminnot
-        links:
-          - text: Yleiskuvaus
-            url: /dynamics365/business-central/about-localization
-          - text: Dynamics 365:n kansainvälinen saatavuus
-            url: /dynamics365/get-started/availability
-          - text: Lokalisoinnin kehitys
-            url: /dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization
-#  - title: Aiheeseen liittyvät tuotteet
-#    items:
-        # Card
-        
-#        - title: Dynamics 365
-#          summary: "Opettele ottamaan käyttöön, mukauttamaan, hallitsemaan ja käyttämään muita Microsoft Dynamics 365 -palveluja ja -sovelluksia. Hanki dokumentaatiota, esimerkkikoodia, opetusohjelmia ja paljon muuta."
-#          url: /dynamics365/index
-#        - title: Microsoft Power Platform
-#          summary: "Tietojen analysoiminen, ratkaisujen luominen, prosessien automatisoiminen ja virtuaalisten asiakaspalvelijoiden luominen"
-#          url: /power-platform/index
-#        - title: Dynamics 365 App for Outlook
-#          summary: Käytä Dynamics 365 -sovelluksia Microsoft Outlookissa
-#          url: /dynamics365/outlook-app/overview
+    - title: Implementointi
+      items:
+        - title: Ohjeet
+          links:
+            - text: 'Security, compliance, and privacy'
+              url: /dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json
+            - text: Understand Business Central online infrastructure
+              url: /dynamics365/business-central/dev-itpro/administration/tenant-environment-topology
+            - text: Migrate from on-premises to online
+              url: /dynamics365/business-central/dev-itpro/administration/migrate-data
+            - text: Performance
+              url: /dynamics365/business-central/dev-itpro/performance/performance-overview
+        - title: Kokeileminen/ostaminen
+          links:
+            - text: Try Business Central online for free
+              url: /dynamics365/business-central/trial-signup
+            - text: Buy Business Central online
+              url: /dynamics365/business-central/trial-signup#get-started-with-a-subscription
+            - text: Add extensions for more functionality
+              url: /dynamics365/business-central/ui-extensions-install-uninstall
+        - title: Määrittäminen
+          links:
+            - text: Companies
+              url: /dynamics365/business-central/about-new-company
+            - text: Business functionality
+              url: /dynamics365/business-central/setup
+            - text: Job queues
+              url: /dynamics365/business-central/admin-job-queues-schedule-tasks
+            - text: Workflows
+              url: /dynamics365/business-central/across-set-up-workflows
+        - title: Integrointi muiden tuotteiden kanssa
+          links:
+            - text: Teams
+              url: /dynamics365/business-central/across-teams-overview
+            - text: Dataverse
+              url: /dynamics365/business-central/admin-common-data-service
+            - text: Power Automate
+              url: /dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview
+            - text: Power BI
+              url: /dynamics365/business-central/admin-powerbi
+            - text: OneDrive
+              url: /dynamics365/business-central/across-onedrive-overview
+    - title: Hallinnointi ja kehitys
+      items:
+        - title: Käyttäjien käyttöoikeuksien hallinta
+          links:
+            - text: Create users
+              url: /dynamics365/business-central/ui-how-users-permissions
+            - text: Assign permissions to users and groups
+              url: /dynamics365/business-central/ui-define-granular-permissions
+            - text: Manage profiles
+              url: /dynamics365/business-central/admin-users-profiles-roles
+            - text: Access with Microsoft 365 licenses
+              url: /dynamics365/business-central/admin-access-with-m365-license
+        - title: Ympäristöjen hallinta
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/dev-itpro/administration/tenant-administration
+            - text: Create environments
+              url: /dynamics365/business-central/dev-itpro/administration/tenant-administration
+            - text: Manage updates
+              url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-update-management
+        - title: Tietojen varastoinnin hallinta
+          links:
+            - text: Compress data or delete documents
+              url: /dynamics365/business-central/admin-manage-documents
+            - text: Archive data
+              url: /dynamics365/business-central/admin-archive-data
+            - text: Reduce stored data in databases
+              url: /dynamics365/business-central/dev-itpro/administration/database-reduce-data
+            - text: Manage capacity
+              url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-capacity
+        - title: Toimintojen ja muutosten valvonta
+          links:
+            - text: Audit changes
+              url: /dynamics365/business-central/across-log-changes
+            - text: Telemetry overview
+              url: /dynamics365/business-central/dev-itpro/administration/telemetry-overview
+            - text: Enable telemetry
+              url: /dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights
+        - title: Mukauttaminen ja laajentaminen (järjestelmänvalvoja)
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/ui-customizing-overview
+            - text: Customize pages for profiles
+              url: /dynamics365/business-central/ui-personalization-manage
+            - text: Enable features ahead of time
+              url: /dynamics365/business-central/admin-feature-management
+        - title: AL-kehittäminen
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/dev-itpro/developer/devenv-landing?branch=dev-landing
+            - text: Develop for AppSource
+              url: /dynamics365/business-central/dev-itpro/developer/readiness/opportunity-app-publisher
+            - text: AL language reference
+              url: /dynamics365/business-central/dev-itpro/developer/
+        - title: Integroinnin kehittäminen
+          links:
+            - text: 'Web services (OData, SOAP)'
+              url: /dynamics365/business-central/dev-itpro/webservices/web-services
+            - text: Connect apps
+              url: /dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps
+            - text: Business Central API
+              url: /dynamics365/business-central/dev-itpro/api-reference/v2.0/
+    - title: Tuottava toiminta
+      items:
+        - title: Työtilan asetukset
+          links:
+            - text: 'Language, region, work date, time zone, and more'
+              url: /dynamics365/business-central/ui-change-basic-settings
+            - text: Switch environment or company
+              url: /dynamics365/business-central/ui-organization-switch
+            - text: Personalize UI
+              url: /dynamics365/business-central/ui-personalization-user
+            - text: Manage notifications
+              url: /dynamics365/business-central/ui-smart-notifications
+        - title: Yhteistyö ja jakaminen
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/across-share-data-features
+            - text: Share data in Teams chats and channels
+              url: /dynamics365/business-central/across-teams-overview
+            - text: Share files in OneDrive
+              url: /dynamics365/business-central/across-share-onedrive
+            - text: Collaborate in Excel
+              url: /dynamics365/business-central/across-work-with-excel
+        - title: 'Liiketoimintatiedot, raportointi ja tietojen analysointi'
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/reports-bi-reporting
+            - text: 'Run, schedule, and print reports'
+              url: /dynamics365/business-central/ui-work-report
+            - text: Work with Power BI reports in Business Central
+              url: /dynamics365/business-central/across-working-with-powerbi
+            - text: Analyze list data with analysis mode
+              url: /dynamics365/business-central/across-working-with-powerbi
+            - text: Analyze report data with Excel
+              url: /dynamics365/business-central/report-analyze-excel
+        - title: Yrityksen yleiset toiminnot
+          links:
+            - text: General journals
+              url: /dynamics365/business-central/ui-work-general-journals
+            - text: Post documents and journals
+              url: /dynamics365/business-central/ui-post-documents-journals
+            - text: Job queues
+              url: /dynamics365/business-central/admin-job-queues-schedule-tasks
+            - text: Incoming documents
+              url: /dynamics365/business-central/across-income-documents
+    - title: Liikeasioiden hoitaminen
+      items:
+        - title: Taloushallinto
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/finance
+            - text: Finance reports
+              url: /dynamics365/business-central/finance-reports
+            - text: Manage receivables
+              url: /dynamics365/business-central/receivables-manage-receivables
+            - text: Manage payables
+              url: /dynamics365/business-central/payables-manage-payables
+            - text: Reconcile bank accounts
+              url: /dynamics365/business-central/bank-manage-bank-accounts
+        - title: Myynti
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/sales-manage-sales
+            - text: Sales reports
+              url: /dynamics365/business-central/sales-reports
+            - text: Register new customers
+              url: /dynamics365/business-central/sales-how-register-new-customers
+            - text: Make Sales Quotes
+              url: /dynamics365/business-central/sales-how-make-offers
+            - text: Invoice sales
+              url: /dynamics365/business-central/sales-how-invoice-sales
+        - title: Osto
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/purchasing-manage-purchasing
+            - text: Purchase reports
+              url: /dynamics365/business-central/purchase-reports
+            - text: Record purchases
+              url: /dynamics365/business-central/purchasing-how-record-purchases
+            - text: Request quotes
+              url: /dynamics365/business-central/purchasing-how-request-quotes
+            - text: Purchase items for a sale
+              url: /dynamics365/business-central/purchasing-how-purchase-products-sale
+        - title: Varasto
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/inventory-manage-inventory
+            - text: Inventory and Warehouse Reports
+              url: /dynamics365/business-central/inventory-WMS-reports
+            - text: Register items
+              url: /dynamics365/business-central/inventory-how-register-new-items
+            - text: Work with BOMs
+              url: /dynamics365/business-central/inventory-how-work-boms
+            - text: Categorize items
+              url: /dynamics365/business-central/inventory-how-categorize-items
+        - title: Projektien hallinta
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/projects-manage-projects
+            - text: Project reports
+              url: /dynamics365/business-central/project-reports
+            - text: Create jobs
+              url: /dynamics365/business-central/projects-how-create-jobs
+            - text: Use resources for projects
+              url: /dynamics365/business-central/projects-how-use-resources
+            - text: Use time sheets
+              url: /dynamics365/business-central/projects-how-use-time-sheets
+        - title: Käyttöomaisuus
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/fa-manage
+            - text: Fixed asset reports
+              url: /dynamics365/business-central/fa-reports
+            - text: Acquire fixed assets
+              url: /dynamics365/business-central/fa-how-acquire
+            - text: Maintain fixed assets
+              url: /dynamics365/business-central/fa-how-maintain
+            - text: Insure fixed assets
+              url: /dynamics365/business-central/fa-how-insure
+        - title: Liikesuhteiden hallinta
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/marketing-relationship-management
+            - text: Contacts
+              url: /dynamics365/business-central/marketing-contacts
+            - text: Segments
+              url: /dynamics365/business-central/marketing-segments
+            - text: Interactions
+              url: /dynamics365/business-central/marketing-interactions-overview
+            - text: Opportunities
+              url: /dynamics365/business-central/marketing-manage-sales-opportunities
+        - title: Henkilöstöhallinto
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/hr-manage-human-resources
+            - text: Register employees
+              url: /dynamics365/business-central/hr-how-register-employees
+            - text: Manage employee absence
+              url: /dynamics365/business-central/hr-how-manage-absence
+        - title: Suunnittelu
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/production-planning
+            - text: Plan with or without locations
+              url: /dynamics365/business-central/production-planning-with-without-locations
+            - text: Create a forecast
+              url: /dynamics365/business-central/production-how-to-create-a-forecast
+            - text: Create production orders from sales order
+              url: /dynamics365/business-central/production-how-to-create-production-orders-from-sales-orders
+            - text: Plan for new demand order by order
+              url: /dynamics365/business-central/production-how-to-plan-for-new-demand
+        - title: Kokoonpanon hallinta
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/assembly-assemble-items
+            - text: Assembly reports
+              url: /dynamics365/business-central/assembly-reports
+            - text: Quote an assemble-to-order sale
+              url: /dynamics365/business-central/assembly-how-to-quote-an-assemble-to-order-sale
+            - text: Assemble items
+              url: /dynamics365/business-central/assembly-how-to-assemble-items
+            - text: Sell items assembled to order
+              url: /dynamics365/business-central/assembly-how-to-sell-items-assembled-to-order
+        - title: Tuotanto
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/production-manage-manufacturing
+            - text: Production reports
+              url: /dynamics365/business-central/production-reports
+            - text: Create production orders
+              url: /dynamics365/business-central/production-about-production-orders
+            - text: Subcontract manufacturing
+              url: /dynamics365/business-central/production-how-to-subcontract-manufacturing
+            - text: Post consumption and output
+              url: /dynamics365/business-central/production-how-to-register-consumption-and-output
+        - title: Varastoinninhallinta
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/warehouse-manage-warehouse
+            - text: Warehouse reports
+              url: /dynamics365/business-central/inventory-WMS-reports
+            - text: Put items
+              url: /dynamics365/business-central/warehouse-how-to-put-items-away-with-inventory-put-aways
+            - text: Move items
+              url: /dynamics365/business-central/warehouse-move-items
+            - text: Pick items
+              url: /dynamics365/business-central/warehouse-how-to-pick-items-with-inventory-picks
+        - title: Palveluiden hallinta
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/service-service
+            - text: Planning
+              url: /dynamics365/business-central/service-plan-service
+            - text: Fulfill service contracts
+              url: /dynamics365/business-central/service-fulfill-service-contracts
+            - text: Deliver service
+              url: /dynamics365/business-central/service-deliver-service
+            - text: Create service quotes
+              url: /dynamics365/business-central/service-how-to-create-service-quotes
+        - title: Verkkokauppa Shopifylla
+          links:
+            - text: Get started
+              url: /dynamics365/business-central/shopify/get-started
+            - text: Synchronize Customers with Shopify
+              url: /dynamics365/business-central/shopify/synchronize-customers
+            - text: Synchronize and fulfill sales orders with Shopify
+              url: /dynamics365/business-central/shopify/synchronize-orders
+            - text: Synchronize Transactions and payouts
+              url: /dynamics365/business-central/shopify/transactions-and-payouts
+            - text: Set up taxes for the Shopify connection
+              url: /dynamics365/business-central/shopify/setup-taxes
+        - title: Paikalliset toiminnot
+          links:
+            - text: Overview
+              url: /dynamics365/business-central/about-localization
+            - text: International availability of Dynamics 365
+              url: /dynamics365/get-started/availability
+            - text: Development for localization
+              url: /dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization
