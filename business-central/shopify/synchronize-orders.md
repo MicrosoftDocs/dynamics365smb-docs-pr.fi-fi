@@ -96,6 +96,31 @@ Vaihtoehtoisesti voit etsiä **synkronoituja tilauksia Shopifysta** -erätyötä
 
 Voit ajoittaa tehtävän suoritettavaksi automaattisesti. Lisätietoja on kohdassa [Toistuvien tehtävien ajoittaminen](background.md#to-schedule-recurring-tasks).
 
+### Pinnan alla
+
+Shopify-yhdistin tuo tilaukset kahdessa vaiheessa:
+
+1.  Se tuo tilausotsikot **Tuotavat Shopify-tilaukset** -taulukkoon, kun ne vastaavat tiettyjä ehtoja:
+    
+* Niitä ei arkistoida.
+* Ne luotiin tai muutettiin viimeisen synkronoinnin jälkeen.
+
+2.  Se tuo Shopify-tilauksia ja lisätietoja.
+* Shopify-yhdistin käsittelee kaikki ne **Tuotavat Shopify-tilaukset** -taulukon tietueet, jotka vastaavat **Synkronoi tilauksia Shopifysta** -pyyntösivulla määritettyjä suodatinperusteita. Esimerkiksi tunnisteet, kanava tai täyttämisen tila. Jos et ole määrittänyt suodattimia, se käsittelee kaikki tietueet.
+* Kun tuot Shopify-tilausta, Shopify-yhdistin pyytää lisätietoja Shopifysta:
+
+    * Tilauksen otsikko
+    * Tilausrivit
+    * Toimitus- ja täyttämistiedot
+    * Tapahtumat
+    * Palautukset ja hyvitykset, jos ne on määritetty
+
+**Tuotava Shopify-tilaus** -sivu on hyödyllinen tilausten tuontiongelmien vianmäärityksessä. Voit arvioida saatavilla olevat tilaukset ja tehdä seuraavat vaiheet:
+
+* Tarkista, estääkö virhe tietyn tilauksen tuonnin, ja tutki virheen tietoja. Valitse **sisältää virheen** -kenttä.
+* Käsittele vain tiettyjä tilauksia. Sinun täytyy täyttää **kauppakoodi**-kenttä, valita vähintään yksi tilaus ja valita sitten **Tuo valitut tilaukset** -toiminto.
+* Poista tilaukset **Tuotava Shopify-tilaus** -sivusta, jos haluat jättää ne synkronoinnin ulkopuolelle.
+
 ## Tuotujen tilausten tarkistaminen
 
 Kun tuonti on valmis, voit tutkia Shopify-tilausta ja löytää kaikkia siihen liittyvät tiedot, kuten maksutapahtumat, toimituskulut, riskitason, muut määritteet ja tunnisteet tai täydennykset, jos tilaus oli jo täytetty Shopifyssa. Voit myös tarkastella mitä tahansa asiakkaalle lähetettyä tilausvahvistusta valitsemalla **Shopify-tilasivu**-toiminnon.
@@ -131,7 +156,7 @@ Jos asetuksesi estävät asiakkaan luomisen automaattisesti ja sopivaa asiakasta
 
 *Tuo tilaus Shopifysta* -toiminto yrittää valita asiakkaat seuraavassa järjestyksessä:
 
-1. Jos **Oletusasiakasnro** -kenttä määritetään **Shopify-asiakasmallissa**, **Lähettäjämaa/-aluekoodille**, silloin **oletusasiakasnroa** käytetään, riippumatta **asiakkaan tuonti Shopifysta** ja **Asiakkaan yhdistämismäärityksen tyyppi** -kentistä. Lisätietoja kohdassa [Asiakasmalli maata kohti](synchronize-customers.md#customer-template-per-country).
+1. Jos **Oletusasiakasnro** -kenttä määritetään **Shopify-asiakasmallissa**, **Lähettäjämaa/-aluekoodille**, silloin **oletusasiakasnroa** käytetään, riippumatta **asiakkaan tuonti Shopifysta** ja **Asiakkaan yhdistämismäärityksen tyyppi** -kentistä. Lisätietoja kohdassa [Asiakasmalli maata kohti](synchronize-customers.md#customer-template-per-countryregion).
 2. Jos **Asiakkaan tuonti Shopifysta** on määritetty arvoon *Ei mitään* ja **Oletusasiakasnro** on määritetty **Shopify-ostoskortti**-sivulla, sitten **Oletusasiakasnro** käytetään.
 
 Seuraavat vaiheet määräytyvät **asiakkaan yhdistämismäärityksen tyypin** mukaan.

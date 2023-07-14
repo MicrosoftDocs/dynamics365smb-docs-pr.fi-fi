@@ -189,8 +189,9 @@ Kuvan synkronointi voidaan alustaa kahdella alla kuvatulla tavalla.
 
 ### Kuvien synkronoinnin huomautukset
 
-* Kun viet kuvia [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmasta Shopifyhin, uudet kuvat lisätään Shopifyhin ja vanhat kuvat säilyvät ennallaan. Jos kuva päivitetään [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmaan, sinun täytyy poistaa vanhoja kuvia **Shopify-ylläpitäjänä**.
-* Kuvat, joita viedään Shopifyhin ja jotka eivät vastaa Shopifyn määrittämiä vaatimuksia, ei tuoda. Lisätietoja on kohdassa [Tuotemediatyypit osoitteessa help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images).
+* Kun viet kuvia [!INCLUDE[prod_short](../includes/prod_short.md)] -järjestelmästä Shopifyhin, kuvat korvaavat aiemmin viedyt kuvat. Aiemmat kuvat eivät ole enää käytettävissä.
+* Jos poistat kuvan [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa, Shopifyssa olevaa kuvaa ei poisteta samalla. Sinun täytyy poistaa vanhoja kuvia manuaalisesti **Shopify-järjestelmänhallinnassa**.
+* Shopifyhin vietävien kuvien on täytettävä Shopifyn vaatimukset. Muussa tapauksessa et voi tuoda niitä. Lisätietoja median vaatimuksista on kohdassa [Tuotemediatyypit osoitteessa help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images).
 
 ## Synkronoi hintoja Shopifyn kanssa
 
