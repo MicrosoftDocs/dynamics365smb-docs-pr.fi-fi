@@ -11,13 +11,13 @@ ms.search.form: '8645,'
 ms.date: 06/06/2023
 ms.author: bholtorf
 ---
-# <a name="design-details-average-cost"></a>Rakennetiedot: Keskimääräinen kustannus
+# Rakennetiedot: Keskimääräinen kustannus
 
 Nimikkeen keskimääräinen kustannus lasketaan jaksoittaisen painotetun keskiarvon avulla. Keskiarvo perustuu [!INCLUDE[prod_short](includes/prod_short.md)]-ohjelman määrittämään keskimääräisen kustannuksen jaksoon.  
 
 Arvostuspäivämäärä määritetään automaattisesti.  
 
-## <a name="setting-up-average-cost-calculation"></a>Määritetään keskimääräiskustannuslaskelma
+## Määritetään keskimääräiskustannuslaskelma
 
 Seuraavassa taulukossa kuvataan kaksi kenttää **Varastonhallinnan asetukset** -sivulla, jotka täytyy täyttää, jotta keskimääräiskustannuslaskelma on mahdollinen.  
 
@@ -31,7 +31,7 @@ Seuraavassa taulukossa kuvataan kaksi kenttää **Varastonhallinnan asetukset** 
 >
 > **Kirjanpitojaksot**-sivulla näkyy mikä keskimääräiskustannuskausi ja mikä keskimääräiskustannuslaskutyyppi on voimassa kullakin kaudella, liittyen kuhunkin kirjanpitokauteen.  
 
-## <a name="calculating-average-cost"></a>Keskimääräisen kustannuksen laskeminen
+## Keskimääräisen kustannuksen laskeminen
 
  Kun kirjaat tapahtuman nimikkeelle, joka käyttää keskimääräistä kustannusmenetelmää, ohjelma luo merkinnän **Keskim. kust. muutoksen tulopaikka** -taulukossa. Tämä sisältää tapahtuman nimikenumeron, varianttikoodin ja sijaintikoodin. Tapahtuma sisältää myös **Arvostuspvm** -kentän, joka määrittää keskimääräisen kustannuksen jakson viimeisen päivämäärän, jona tapahtuma kirjattiin.  
 
@@ -47,7 +47,7 @@ Seuraavassa taulukossa kuvataan kaksi kenttää **Varastonhallinnan asetukset** 
 
  Laskettu keskimääräinen kustannus kohdistetaan tämän jälkeen varaston vähennyksiin nimikkeelle (tai nimikkeelle, sijainnille ja variantille) joiden kirjauspäivämäärät ovat keskimääräisellä kustannusjaksolla. Jos varastojen lisäyksiä sovelletaan kiinteästi varastojen vähennyksiin keskikustannusjakson aikana, [!INCLUDE [prod_short](includes/prod_short.md)] siirtää laskettuja keskikustannuksia lisäyksestä vähennykseen.  
 
-### <a name="example-average-cost-period--day"></a>Esimerkki: keskimääräisen kustannusjakso = päivä
+### Esimerkki: keskimääräisen kustannusjakso = päivä
 
 Seuraavassa esimerkissä kuvataan yhden päivän keskimääräiskustannusjaksoon perustuvan keskimääräiskustannusten laskennan vaikutus. **Varastonhallinnan asetukset** -sivun **Keskim. kust. laskentatyyppi** -kentän arvoksi on asetettu **Nimike**.  
 
@@ -85,7 +85,7 @@ Seuraavassa taulukossa esitetään nimikkeen pääkirjan kirjaukset esimerkkinä
 | 02-02-23 |   Ostot | 1 | 100.00 | 5 |
 | 02-03-23 |   Myynti | -1 | -100.00 | 6 |
 
-### <a name="example-average-cost-period--month"></a>Esimerkki: keskimääräinen kustannusjakso = kuukausi
+### Esimerkki: keskimääräinen kustannusjakso = kuukausi
 
  Tässä esimerkissä kuvataan kuukauden keskimääräiskustannusjaksoon perustuvan keskimääräiskustannusten laskennan vaikutus. **Varastonhallinnan asetukset** -sivun **Keskim. kust. laskentatyyppi** -kentän arvoksi on asetettu **Nimike**.  
 
@@ -130,7 +130,7 @@ Tapahtumanumeron 3 keskimääräinen kustannus lasketaan tammikuun keskimäärä
 
 Helmikuun keskimääräisten kustannusten saamiseksi [!INCLUDE [prod_short](includes/prod_short.md)] lisää varastoon saadun tuotteen keskimääräiset kustannukset (100,00) jakson alun keskimääräisiin kustannuksiin (30,00). Summa (130,00) jaetaan sitten varaston kokonaismäärällä (2). Tämä laskelma antaa nimikkeen keskimääräisen kustannuksen helmikuun aikana (65,00). Keskimääräinen kustannus määritetään varaston vähennyksille tilikaudella (tapahtumat 4 ja 6).  
 
-## <a name="setting-the-valuation-date"></a>Arvostuspäivämäärän asetus
+## Arvostuspäivämäärän asetus
 
  **Arvostuspvm**-kenttä **Arvotapahtuma**-taulukko määrittelee mihin keskimääräiskustannuskauteen varastonvähennyskirjaus kuuluu. Tämä asetus koskee myös KET-varastoa.  
 
@@ -143,7 +143,7 @@ Helmikuun keskimääräisten kustannusten saamiseksi [!INCLUDE [prod_short](incl
 | 3 | Aiempi kuin viimeisin käytettyjen arvotapahtumien arvostuspäivämäärä | Positiivinen | Ei | Viimeisin käytettyjen arvotapahtumien arvostuspäivämäärä |
 | 4 |  | Negatiivinen | Kyllä | Uudelleenarvostuksen arvotapahtuman päivämäärän kirjaaminen |
 
-### <a name="example"></a>Esimerkki
+### Esimerkki
 
 Seuraavassa arvokirjaustaulukossa kuvataan eri skenaariot.  
 
@@ -165,7 +165,7 @@ Seuraavassa arvokirjaustaulukossa kuvataan eri skenaariot.
 
 Jos varastomäärä on pienempi kuin nolla varaston arvon vähennyksen kirjauksen jälkeen, arvostuspäivämäärä asetetaan ensin varaston arvon vähennyksen kirjauspäivämääräksi. Voit muuttaa tätä päivämäärää, jolloin varastokorotusta sovelletaan, tämän jakson aiemmassa huomautuksessa kuvattujen sääntöjen mukaisesti.  
 
-## <a name="recalculating-average-cost"></a>Keskimääräisen kustannuksen uudelleenlaskeminen
+## Keskimääräisen kustannuksen uudelleenlaskeminen
 
 Varaston arvon laskujen arvostus painotetun keskiarvon perusteella olisi yksinkertaista useissa tilanteissa:
 
@@ -188,7 +188,7 @@ Tästä joustavuudesta johtuen sinun on ehkä laskettava keskimääräinen kusta
 
 Voit muuttaa varaston arvostuspohja tilikaudella vaihtamalla **Keskimääräisen kustannuksen jakso**- ja **Keskim. kust. laskentatyyppi** -kenttien arvoja. Suosittelemme, että olet kuitenkin varovainen ja konsultoit tilintarkastajia.  
 
-### <a name="example-of-recalculated-average-cost"></a>Esimerkki uudelleen laskettavista keskimääräisistä kustannuksista
+### Esimerkki uudelleen laskettavista keskimääräisistä kustannuksista
 
 Tässä esimerkissä näytetään, miten [!INCLUDE [prod_short](includes/prod_short.md)] laskee keskimääräisen kustannuksen uudelleen, kun kirjaat päivämääränä, joka on ennen varaston vähennystä. Esimerkki perustuu keskimääräiskustannuskauteen **Päivää**.  
 
@@ -213,7 +213,7 @@ Seuraavassa taulukossa esitetään arvokirjaukset, jotka ovat olemassa nimikkeel
 | 02-15-20 | -1 | -17.00 | 3 |
 | 02-16-20 | -1 | -17.00 | 4 |
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rakennetiedot: Varaston kustannuslaskenta](design-details-inventory-costing.md)  
 [Rakennetiedot: Kustannuslaskennan menetelmät](design-details-costing-methods.md)  
