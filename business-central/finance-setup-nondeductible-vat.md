@@ -12,7 +12,7 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
-# Vähennyskelvottoman arvonlisäveron määrittäminen
+# <a name="set-up-non-deductible-vat"></a>Vähennyskelvottoman arvonlisäveron määrittäminen
 
 Vähennyskelvoton arvonlisävero (ALV) on ostajan maksettavaksi tuleva ALV, mutta se ei ole vähennyskelpoinen ostajan omasta ALV-velasta. Yritykset voivat yleensä periä ALV:n liiketoimintansa yhteydessä olevien tavaroiden ja palveluiden hankinnasta. Joissakin tilanteissa yritys kuitenkin aiheuttaa ALV:n, joka ei ole vähennyskelpoinen. Nämä tilanteet liittyvät yleensä paikallisiin määräyksiin ja voivat vaihdella maittain ja alueittain. Vähennyskelvottoman tai osittain vähennyskelpoisen arvonlisäveron käyttömalli on kuitenkin samanlainen. Voit käyttää suhteellista ALV:ia ALV:n laskemiseen, kun ALV on vähennyskelpoista ja vähennyskelvotonta.
 
@@ -26,7 +26,7 @@ Koska voi olla vaikea tietää, missä ja miten nimikettä käytetään, sinun o
 > [!IMPORTANT]
 > Tämä yleinen ominaisuus on käytettävissä kaikissa maissa, joissa on käytössä ALV **lukuun ottamatta Belgiaa, Italiaa, Norjaa ja Espanjaa**. Näissä lokalisoinneissa on jo paikallinen ominaisuus, ja ne päivitetään myöhemmin. Älä suorita tätä ominaisuutta näissä maissa, koska päivitystoimintoa ei ole.
 
-## Vähennyskelvottoman ALV:n käyttäminen
+## <a name="use-non-deductible-vat"></a>Vähennyskelvottoman ALV:n käyttäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 3.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV:n määrittäminen** ja valitse sitten vastaava linkki.
 2. Valitse **Salli vähennyskelvoton ALV** -valintaruutu.
@@ -41,7 +41,7 @@ Koska voi olla vaikea tietää, missä ja miten nimikettä käytetään, sinun o
     3. Valitse **Käytä projektin kustannukseen** -valintaruutu, jos haluat määrittää, että vähennyskelvoton ALV täytyy lisätä projektin kustannuksiin projektinimikkeiden ostamisen yhteydessä. Muussa tapauksessa vähennyskelvottomalla ALV:llä ei ole vaikutusta työkustannuksiin, ja koko summa tallennetaan vain pääkirjanpidon tasolla.
     4. Valitse **Näytä vähennyskelv. ALV riveinä** -valintaruutu, jos haluat määrittää, että vähennyskelvottoman ALV:n on oltava asiakirjarivisivuilla, jotta ALV-summia on helpompi manipuloida.
 
-## Käytä vähennyskelvotonta ALV-prosenttia
+## <a name="use-the-non-deductible-vat-percentage"></a>Käytä vähennyskelvotonta ALV-prosenttia
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 3.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-kirjausten asetukset** ja valitse sitten vastaava linkki.
 2. Määritä **ALV-kirjauksen asetukset** -sivun kentät seuraavassa taulukossa kuvatulla tavalla.
@@ -62,7 +62,7 @@ Koska voi olla vaikea tietää, missä ja miten nimikettä käytetään, sinun o
 >
 > Älä käytä samaa **ALV-tunnus**-arvoa sekä normaalille ALV:lle, jossa **vähennyskelvoton ALV-%** -kentän arvo on **0** (nolla) ja normaali ALV, jossa **vähennyskelvoton ALV-%** -kentän arvoksi on määritetty muu kuin nolla. Muussa tapauksessa vähennyskelvottoman ALV-summan kokonaissumma lasketaan virheellisesti.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Taloushallinto](finance.md)  
 [Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen](finance-setup-vat.md)  
