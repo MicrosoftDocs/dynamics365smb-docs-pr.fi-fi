@@ -11,14 +11,14 @@ ms.date: 10/01/2020
 ms.author: bholtorf
 ---
 
-# <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central kansainvälisille organisaatioille ja organisaatioille, joilla on useita toimipaikkoja
+# Business Central kansainvälisille organisaatioille ja organisaatioille, joilla on useita toimipaikkoja
 Organisaatiot, joilla on useita toimipaikkoja, käyttävät usein säteittäisen ryhmän mallia. Siinä pääyritys tai pääkonttori hallinnoi liiketoiminnan yleisiä toimintoja samalla, kun kukin toimipaikka toimii yksittäisenä, erillisenä yksikkönä. Alueet ovat usein maantieteellisesti jakautuneet ja niillä on erilaiset tiedon jakamisen tarpeet pääkonttorin yrityksen kanssa. Lisäksi toimipaikat eivät yleensä tarvitse kovin monimutkaisia toimintoja, eikä niillä ole resursseja ylläpitää suurta järjestelmää.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tarjoaa pienille ja keskisuurille yrityksille helppokäyttöisen ja edullisesti ylläpidettävän liiketoiminnan hallintaratkaisun.
 
 Tässä artikkelissa kerrotaan joitakin tapoja, joilla [!INCLUDE[prod_short](includes/prod_short.md)] tukee säteittäisen ryhmän liiketoimintamallia.
 
-## <a name="integrating-the-headquarter-company-and-the-sites"></a>Pääkonttorin yrityksen ja toimipaikkojen integroiminen
+## Pääkonttorin yrityksen ja toimipaikkojen integroiminen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] voidaan integroida pääkonttorin yrityksen kirjanpitojärjestelmän kanssa samalla, kun eri toimipaikkojen tarpeet täytetään koosta, sijainnista ja toimialasta riippumatta.
 
@@ -26,7 +26,7 @@ Seuraava kaavio on esimerkki pääkonttorin yritykseen integroiduista eri toimip
 
 ![Kaavion kuvaus luodaan automaattisesti.](media/multisite-headquarter-sites.png)
 
-## <a name="meet-the-needs-of-domestic-and-international-sites"></a>Kansallisten ja kansainvälisten toimipaikkojen tarpeiden täyttäminen
+## Kansallisten ja kansainvälisten toimipaikkojen tarpeiden täyttäminen
 
 Liiketoiminnan tarpeet toimipaikoissa eroavat usein toimialan, liiketoimintamenetelmien tai pääkonttorin yrityksen suhteen perusteella. [!INCLUDE[prod_short](includes/prod_short.md)] voidaan mukauttaa ja laajentaa helposti liiketoimintojen ja aluekohtaisten asetusten eri tyyppien perusteella. Microsoft AppSource sisältää Microsoftin ja kumppaneidemme useita sovelluksia. Kumppanit voivat nopeasti ottaa käyttöön tuotteen [!INCLUDE[prod_short](includes/prod_short.md)] vain vähäisillä päivittäisten toimintojen keskeytyksillä.
 
@@ -45,7 +45,7 @@ Microsoftin kumppaneiden verkosto sisältää yli 4 000 kumppania maailmanlaajui
 | Käsittele useita kieliä ja valuuttoja. | Usean kielen ja valuutan tuki auttaa paikallisten vaatimusten täyttämisessä. | [Usean kielen ominaisuudet](about-locale-language.md)<br></br>[Usean valuutan ominaisuudet](finance-how-setup-additional-currencies.md) |
 
 
-## <a name="consolidate-financial-data"></a>Taloustietojen konsolidointi
+## Taloustietojen konsolidointi
 
 Säteittäisen ryhmän liiketoimintamallin perusfasetti on pääkonttorin yrityksen ja toimipaikkojen kyky vaihtaa taloustietoja myös silloin, kun pääkonttorin yritys ja toimipaikat käyttävät eri järjestelmiä, kirjanpitorakenteita, kieliä ja valuuttoja.
 
@@ -55,7 +55,7 @@ Säteittäisen ryhmän liiketoimintamallin perusfasetti on pääkonttorin yrityk
 | Integroi kirjanpitorakenteet. | Siirrä konsolidointitiedot eri kirjanpitorakenteista omaan järjestelmään. F&O:n sisäänrakennettu tiedostomuoto (käytettävissä aallossa 2, 2020) | [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)<br></br>[Valmistele kirjanpitotilit konsolidointia varten](finance-consolidated-company-reporting-setup.md#glacc) |
 | Käsittele tietoja useissa valuutoissa. | Auta varmistamaan, että tilipäätökset eri valuutoissa ovat tarkkoja ja että niissä käytetään oikeita vaihtokursseja. | [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md) |
 
-## <a name="share-business-insight-with-integrated-analytics"></a>Liiketoimintatietojen jakaminen integroitujen analyysien kanssa
+## Liiketoimintatietojen jakaminen integroitujen analyysien kanssa
 
 Linjaa organisaation liiketoiminnan tavoitteet antamalla tietoja nykyisestä tilanteesta. Integroidut analyysit voivat auttaa ihmisiä perustamaan päätöksensä samoihin tosiasioihin.
 
@@ -67,7 +67,7 @@ Linjaa organisaation liiketoiminnan tavoitteet antamalla tietoja nykyisestä til
 | Analysoi tietoja Excelissä. | Etsi tosiasioita ja tee vianmääritys ja ad hoc -analyyseja Microsoft Excelissä. | [Rahoituslaskelmien analysoiminen Excelissä](finance-analyze-excel.md) |
 
 
-## <a name="exchange-data-using-apis-and-xmlports"></a>Tietojen vaihtaminen ohjelmointirajapintojen ja XMLport-objektien avulla
+## Tietojen vaihtaminen ohjelmointirajapintojen ja XMLport-objektien avulla
 
 Ohjelmointirajapinnat ja XMLport-objektit yksinkertaistavat tuotteen [!INCLUDE[prod_short](includes/prod_short.md)] esiintymien yhteyksien muodostamista. Tämä koskee myös kunkin toimipaikan mukautettujen esiintymiä.
 
@@ -82,7 +82,7 @@ Ohjelmointirajapinnat ja XMLport-objektit yksinkertaistavat tuotteen [!INCLUDE[p
 | Muodosta yhteys kolmannen<sup></sup> osapuolen ratkaisuihin ja palveluihin. | Ohjelmointirajapinnat muodostavat pisteestä pisteeseen -yhteyden Business Centralin ja kolmannen <sup></sup>  osapuolen ratkaisujen ja palveluiden välille. | [Ohjelmointirajapinta v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
-## <a name="promote-an-efficient-intercompany-supply-chain"></a>Konsernin tehokkaan toimitusketjun määrittäminen
+## Konsernin tehokkaan toimitusketjun määrittäminen
 
 Toimipaikoissa tarvitaan usein toimitusketjun käyttöoikeus sekä oikeus hallinnoida sen tiettyjä osia. Toimipaikat voivat esimerkiksi käyttää samaa toimittajaa, mutta hallinnoida resursseja ja fyysisiä sijainteja erikseen.
 
@@ -91,7 +91,7 @@ Toimipaikoissa tarvitaan usein toimitusketjun käyttöoikeus sekä oikeus hallin
 | Käsittele osastojen välisiä tapahtumia tavallisina myynti- ja ostotapahtumina. | Käytä konsernin kirjauksia luodessasi myynti- ja ostoasiakirjoja ja pääkirjanpidon tapahtumia koko työnkuluille ja useammille kuin yhdelle yritykselle kerralla, jotta voidaan välttää tietojen tallentamisen kaksoiskappaleet. | [Konsernitapahtumien hallinta](intercompany-manage.md) |
 | Käytä paperittomia prosesseja. | Vältä asiakirjojen lähettämisen, vastaanottamisen ja tulostamisen kustannukset. | [Saapuvat asiakirjat](across-income-documents.md)<br><br> [Korttien ja asiakirjojen liitteiden, linkkien ja muistioiden hallinta](ui-how-add-link-to-record.md) |
 
-## <a name="respond-quickly-to-new-business-conditions"></a>Nopea reagoiminen liiketoiminnan uusiin olosuhteisiin
+## Nopea reagoiminen liiketoiminnan uusiin olosuhteisiin
 
 Pääkonttorin yrityksen on reagoitava nopeasti liiketoiminnan muutoksiin kussakin toimipaikassa. [!INCLUDE[prod_short](includes/prod_short.md)] voi toimia ennakoivana varoitusmekanismina yhdessä Power Automaten kanssa.
 
@@ -102,7 +102,7 @@ Pääkonttorin yrityksen on reagoitava nopeasti liiketoiminnan muutoksiin kussak
 | Luo sähköposti-ilmoituksia automaattisesti. | Määritä hälytykset Power Automatessa niin, että saat sähköposti-ilmoitukset kriittisistä liiketoiminnan olosuhteista toimipaikoissa tai toimitusketjun kumppaneilla. | [Business Central ja Power BI](admin-powerbi.md) |
 | Käytä vakiohälytyksiä tai mukautettuja hälytyksiä. | Käytä Business Centralin 12 erilaista mallia tai määritä omat hälytykset liiketoiminnan vaatimusten mukaan. | [Business Centralin käyttäminen automaattisessa työnkulussa](across-how-use-financials-data-source-flow.md) |
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Business Central Onlinen hallintatehtävät](/dynamics365/business-central/dev-itpro/administration/tenant-administration)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
