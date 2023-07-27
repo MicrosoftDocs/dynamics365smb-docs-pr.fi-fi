@@ -11,7 +11,7 @@ ms.search.form: '5605, 5551, 5600, 5628, 5629, 5633'
 ms.date: 12/03/2021
 ms.author: edupont
 ---
-# Hankittu käyttöomaisuus
+# <a name="acquire-fixed-assets"></a>Hankittu käyttöomaisuus
 
 Kunkin käyttöomaisuuserän osalta tulee määrittää kortti, joka sisältää tietoja kyseisestä käyttöomaisuuserästä. Voit määrittää rakennuksia tai tuotantolaitoksia pääkäyttöomaisuuseräksi. Voit myös ryhmitellä niitä eri tavoin, kuten esimerkiksi luokan, osaston ja sijainnin mukaan. Kullekin käyttöomaisuuserälle on määritettävä ja liitettävä poistokirja ennen hankintaa.
 
@@ -21,7 +21,7 @@ Jäännösarvo on käyttöomaisuuden jäljellä oleva arvo silloin, kun käyttö
 
 Indeksointia käytetään muuttamaan arvoja yleisten hintatason muutosten mukaan. Tee **Indeksimuutos KO:teen** -eräajoa voidaan käyttää laskemaan hankintamenot vaihtokustannuksilla.
 
-## Käyttöomaisuuden luominen ja hankinta automaattisesti
+## <a name="to-create-a-fixed-asset-and-acquire-it-automatically"></a>Käyttöomaisuuden luominen ja hankinta automaattisesti
 
 Seuraavassa kuvataan, miten käyttöomaisuuserä luodaan ja miten se hankitaan **Käyttöomaisuuden avustettu hankinta** -sivun avulla vaaditun käyttöomaisuuserän KP-päiväkirjarivien luomista ja kirjaamista varten. Voit myös luoda ja kirjata päiväkirjarivit manuaalisesti. Lisätietoja on kohdassa [Käyttöomaisuuden hankinnan kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjan avulla](fa-how-acquire.md#to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal).
 
@@ -39,7 +39,7 @@ Seuraavassa kuvataan, miten käyttöomaisuuserä luodaan ja miten se hankitaan *
 
 Kun valitset **Valmis**-arvon **Kirjanpitoarvo**-kenttä **Käyttöomaisuuden kortti** -sivulla täytetään. Se osoittaa, että käyttöomaisuus on hankittu tietyn hankintamenon avulla.  
 
-## Komponenttiluetteloiden määrittäminen pääkäyttöomaisuuserälle
+## <a name="to-set-up-a-component-list-for-a-main-asset"></a>Komponenttiluetteloiden määrittäminen pääkäyttöomaisuuserälle
 
 Käyttöomaisuuden voi ryhmitellä pääkäyttöomaisuuseriksi ja niiden komponenteiksi. Tähän tapaan voi ryhmitellä esimerkiksi tuotantokoneen, joka koostuu useista osista.  
 
@@ -53,7 +53,7 @@ Sekä pääkäyttöomaisuuserä että kaikki sen komponentit tulee määrittää
 6. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuuden asetukset** ja valitse sitten vastaava linkki.
 7. Valitse **Salli kirj. Pääkäyttöom.eriin** -valintaruutu.
 
-## Käyttöomaisuuden hankinnan kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjan kanssa
+## <a name="to-post-a-fixed-asset-acquisition-manually-with-the-fixed-asset-gl-journal"></a>Käyttöomaisuuden hankinnan kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjan kanssa
 
 Seuraavassa kerrotaan, miten käyttöomaisuus hankitaan manuaalisesti luomalla ja kirjaamalla rivit **Käyttöom. KP-päiväkirja** -sivulla. Voit hankkia käyttöomaisuuden myös automaattisesti **Käyttöomaisuuden avustettu hankinta** -sivun avulla. Lisätietoja on kohdan [Käyttöomaisuuden luominen ja hankinta automaattisesti](fa-how-acquire.md#to-create-a-fixed-asset-and-acquire-it-automatically) vaiheessa 5.
 
@@ -68,7 +68,7 @@ Seuraavassa kerrotaan, miten käyttöomaisuus hankitaan manuaalisesti luomalla j
 > [!TIP]  
 >   Jos käyttöomaisuuden KP-päiväkirjan **Vakuutusnro**-kenttä täytetään silloin, kun hankintameno kirjataan, [!INCLUDE[prod_short](includes/prod_short.md)] kirjaa käyttöomaisuuden hankintamenon myös vakuutuksen kattavuuskirjauksiin. Lisätietoja on kohdassa [Käyttöomaisuuden vakuuttaminen](fa-how-insure.md).
 
-## Yhden käyttöomaisuuserän hankintamenon kirjauksen peruuttaminen
+## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Yhden käyttöomaisuuserän hankintamenon kirjauksen peruuttaminen
 
 Jos teet virheen hankintamenon kirjaamisessa, voit poistaa tapahtuman **Peruuta KO-tapahtumia** -eräajon avulla ja kirjata sitten oikean hankintatapahtuman. Virheelliset merkinnät siirretään **KO-virhetapahtumat** -sivulle.
 
@@ -84,7 +84,7 @@ Jos esimerkiksi kirjaat hankinnan väärälle päivämäärälle, se on korjatta
 5. Suorita eräajo valisemalla **OK**.
 6. Kun virheellinen tapahtuma tai tapahtumat on peruutettu, voit kirjata oikean hankintamenon.
 
-## Jäännösarvon kirjaaminen yhdessä hankintamenon kanssa
+## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Jäännösarvon kirjaaminen yhdessä hankintamenon kanssa
 
 Jäännösarvon voi kirjata käyttöomaisuuden KP-päiväkirjasta yhdessä hankintamenon kanssa.
 
@@ -99,9 +99,9 @@ Jäännösarvon voi kirjata käyttöomaisuuden KP-päiväkirjasta yhdessä hanki
 > [!NOTE]
 > Jos käyttöomaisuudelle on olemassa jäännösarvo, kyseistä arvoa käytetään poistokirjauksessa**KO-poistokirjat** -sivun **Loppukirjanpitoarvo**-kentän arvon sijaan. Lisätietoja on kohdassa [Loppukirjanpitoarvon hallinta](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/purchase-fixed-assets/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/purchase-fixed-assets/)
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Käyttöomaisuus](fa-manage.md) 
 
