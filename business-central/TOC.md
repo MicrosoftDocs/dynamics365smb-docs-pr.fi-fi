@@ -106,8 +106,8 @@
 ##### [Yleisen päiväkirjan kirjausrivin yleiskuvas](design-details-general-journal-post-line-overview.md)  
 ##### [Rakennetiedot: Kirjausliittymän rakenne](design-details-posting-interface-structure.md)  
 ##### [Rakennetiedot: Kirjausmoduulin rakenne](design-details-posting-engine-structure.md)  
-
-## Kokeileminen
+#### [Rakennetiedot: Arvonlisävero, jota ei vähennetä](design-details-nondeductible-vat.md)
+## Kokeile
 ### [Rekisteröityminen maksuttoman Dynamics 365 Business Central -kokeiluversion käyttäjäksi](trial-signup.md)
 ### [Dynamics 365 Business Central -kokeiluversion usein kysytyt kysymykset](trial-faq.md)
 ### [Kokeiluversiot ja tilaukset (vain englanniksi)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)
@@ -213,7 +213,7 @@
 ## Ohje ja tuki
 ### [Ohje- ja tukiresurssit](product-help-and-support.md)
 ### [Microsoftin videokirjastoon tutustuminen](across-videos.md)
-### [Teknisen tuen pyytäminen](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
+### [Teknisen tuen pyytäminen](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
 <!--## Microsoft Learn training
 ### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)

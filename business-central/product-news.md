@@ -9,7 +9,7 @@ ms.date: 06/15/2023
 ms.custom: bap-template
 ms.search.keywords: 'news, release plan, roadmap, whats new'
 ---
-# <a name="new-and-planned-for-dynamics-365-business-central"></a>Uusia ja suunniteltuja ominaisuuksia Dynamics 365 Business Centralille
+# Uusia ja suunniteltuja ominaisuuksia Dynamics 365 Business Centralille
 
 [!INCLUDE[release notes](includes/release-notes.md)]
 
@@ -22,21 +22,22 @@ Voit halutessasi myös tutustua [Dynamics 365 Business Central -ominaisuudet](ht
 
 Tietoja siitä, miten [!INCLUDE [prod_short](includes/prod_short.md)] online -tilassa saa seuraavat päivitykset [suurissa päivityksissä ja pienissä päivityksissä](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline) (vain englanniksi).
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Ilmoitukset tehdyistä muutoksista RSS-syötteen kautta
+## Ilmoitukset tehdyistä muutoksista RSS-syötteen kautta
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Microsoftin videokirjastoon tutustuminen](across-videos.md)  
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
 [Dynamics 365 Business Central -opetustoiminta](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
-[Business Centralin pika-aloitus](quick-start-business-central.md)  
+[Business Centralin pika-aloitusopas](quick-start-business-central.md)  
+[Uudet ja muuttuneet ominaisuudet](/dynamics365/business-central/dev-itpro/whatsnew/overview)  
 [Dynamics 365 Business Central ominaisuudet](https://dynamics.microsoft.com/business-central/capabilities/)  
 [Dynamics 365 Business Central -etenemissuunnitelma](https://dynamics.microsoft.com/roadmap/business-central/)  
 [Dynamics 365 -blogi](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
 [Business Centralin hinnoittelu](https://dynamics.microsoft.com/business-central/overview/#pricing)  
-[Dynamics 365 Business Central -yhteisö](https://community.dynamics.com/business/)
+[Dynamics 365 Business Central -yhteisön keskustelupalsta](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
