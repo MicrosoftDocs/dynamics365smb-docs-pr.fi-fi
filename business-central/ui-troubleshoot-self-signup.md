@@ -9,15 +9,15 @@ ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Itsepalvelun rekisteröitymisen vianmääritys
+# <a name="troubleshooting-self-service-sign-up"></a>Itsepalvelun rekisteröitymisen vianmääritys
 [!INCLUDE[prod_short](includes/prod_short.md)]iin rekisteröityminen on helppoa ja nopeaa. Voit luoda ilmaisen tilin myös silloin, jos organisaatio on olemassa. Tässä artikkelissa kerrotaan ongelmista, joita rekisteröitymisen aikana voi ilmetä.
 
-## Mitä sähköpostiosoitetta voin käyttää Business Central -sovelluksen kanssa?
+## <a name="what-email-address-can-i-use-with-business-central"></a>Mitä sähköpostiosoitetta voin käyttää Business Central -sovelluksen kanssa?
 [!INCLUDE[prod_short](includes/prod_short.md)] edellyttää työ- tai opiskelupaikan antaman sähköpostiosoitteen käyttämistä rekisteröitymisen yhteydessä. [!INCLUDE[prod_short](includes/prod_short.md)] ei tue kuluttajille tarkoitettujen sähköpostipalveluiden ja tietoliikennepalveluiden tarjoajien sähköpostiosoitteita. Näitä ovat esimerkiksi outlook.com, hotmail.com ja gmail.com.
 
 Jos yrität rekisteröityä käyttämällä henkilökohtaista sähköpostiosoitetta, saat viestin, jossa pyydetään käyttämään työ- tai opiskelupaikan antamaa sähköpostiosoitetta.
 
-## Vianetsintä
+## <a name="troubleshooting"></a>Vianetsintä
 [!INCLUDE[prod_short](includes/prod_short.md)]iin voidaan usein rekisteröityä rekisteröitymisprosessin avulla. Itsepalvelun rekisteröityminen voi kuitenkin keskeytyä useasta eri syystä. Seuraavassa taulukossa esitellään yleisimpiä syitä, joiden vuoksi rekisteröityminen ei onnistu, sekä ratkaisuja näihin ongelmiin.
 
 | Oire/virhesanoma | Syy ja ratkaisu |
@@ -29,13 +29,13 @@ Jos yrität rekisteröityä käyttämällä henkilökohtaista sähköpostiosoite
 | Sähköpostiosoite ei ole Microsoft 365:n tunnus. Näyttöön tulee rekisteröitymisen yhteydessä seuraavan tyyppinen viesti:<br /><br />**Sähköpostiosoitettasi ei löydy contoso.com-tiedoista. Käytätkö eri tunnusta töissä tai koulussa? Yritä rekisteröityä tällä toisella tunnuksella. Jos rekisteröityminen ei onnistu, ota yhteys yrityksen IT-osastoon.** |Organisaatiosi kirjautuu Microsoft 365:een ja muihin Microsoft-palveluihin tunnuksilla eikä sähköpostiosoitteella. Sähköpostiosoitteesi voi olla esimerkiksi Nancy.Smith@contoso.com, kun taas tunnuksesi voi olla nancys@contoso.com. Voit tehdä rekisteröitymisen valmiiksi käyttämällä tunnusta, jonka organisaatio on määrittänyt Microsoft 365:een tai muihin Microsoft-palveluihin rekisteröitymistä varten. Jos et tiedä tunnusta, ota yhteys IT-järjestelmänvalvojaan. Jos rekisteröityminen ei onnistu vieläkään ja haluat kokeilla monimutkaisempaa asetusprosessia, voit rekisteröityä uuteen Microsoft 365 -kokeiluversioon ja rekisteröityä kyseisellä sähköpostiosoitteella. |
 | Jos Microsoft 365 -tili on rekisteröity tuetussa maassa ja olet rekisteröitymässä [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan eri maassa, näyttöön tulee rekisteröitymisen yhteydessä seuraavan tyyppinen viesti:<br /><br />**Toiminto ei onnistunut. Microsoft ei vielä tue maatasi tai aluettasi.**| Organisaation Microsoft 365 -tilaus on rekisteröity tietyssä maassa Microsoft 365:n hallintaportaalissa. [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman rekisteröitymisessä käytetään nykyisen selaimen kieltä ja kielialuetta. Tämän vuoksi saatat saada virhesanoman, vaikka sijaintisi olisi tuettu maa. Pyydä IT-järjestelmänvalvojaa tarkistamaan [Microsoft 365:n hallintaportaalin](https://portal.office.com/adminportal/home#/companyprofile) organisaatioprofiilissa määritetty maa tai alue. Saatat joutua käyttämään eri tiliä [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa.|
 
-## Aluekohtainen saatavuus
+## <a name="regional-availability"></a>Aluekohtainen saatavuus
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on saatavilla useissa maissa tai alueilla, joiden lokalisointi on Microsoftin tai hyväksytyn lokalisointipartnerin tarjoama. Täydellinen luettelo tällä hetkellä tuetuista maista ja alueista on kohdassa [Saatavuus maassa/alueella ja tuetut käännökset.](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 
 Yleiskuvaus Dynamics 365:n tukemista markkinoista on kohdassa [Microsoft Dynamics 365:n kansainvälinen saatavuus](/dynamics365/get-started/availability). Lisätietoja [!INCLUDE[prod_short](includes/prod_short.md)]:n paikallisista toiminnoista on [paikallisten toimintojen](about-localization.md) aloitussivulla.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Rekisteröidy maksuttoman Dynamics 365 Business Central kokeiluversion käyttäjäksi](trial-signup.md)  
 [Dynamics 365 Business Central kokeiluversion usein kysytyt kysymykset](trial-faq.md)  
