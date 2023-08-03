@@ -12,11 +12,11 @@ ms.date: 08/15/2022
 ms.author: a-reishima
 ---
 
-# <a name="basic-reports-and-documents-output-quick-start"></a>Perusraporttien ja asiakirjojen tulostuksen pika-aloitus
+# Perusraporttien ja asiakirjojen tulostuksen pika-aloitus
 
 Jos haluat sopeuttaa [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen yrityksesi tarpeisiin, aseta ja käytä raportteja ja räätälöityjä asiakirjoja, jotka sopivat yrityksesi prosesseihin ja visuaaliseen identiteettiin.
 
-## <a name="add-your-company-logo-to-documents"></a>Lisää yrityksesi logo asiakirjoihin
+## Lisää yrityksesi logo asiakirjoihin
 
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää malleja, jotka on asetettu käyttämään yrityksesi logoa, mikä säästää aikaa asiakirjojen, kuten laskujen, tilausten ja tiliotteiden, mukauttamiseen.
 
@@ -26,7 +26,7 @@ Jos haluat sopeuttaa [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen
 
 Voit nähdä yllä olevat ohjeet [tässä YouTube-videossa](https://www.youtube.com/watch?v=AatXbKF1NGg). Kun kuva näkyy **Kuva**-kentässä, voit sulkea **Yritystiedot**-sivun.
 
-## <a name="run-reports"></a>Raporttien suorittaminen
+## Raporttien suorittaminen
 
 Raportit järjestävät tietoja eri lähteistä [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa ja esittävät ne luettavassa muodossa, joka voidaan helposti tulostaa tai jakaa digitaalisesti. Raportit ovat sivuilla, joihin ne on liitetty asiasisällön yhteydessä. Esimerkiksi **Nimikkeet**-sivulla on luettelo raporteista, jotka liittyvät varastotasoihin, ostoihin ja myynteihin.
 
@@ -38,7 +38,7 @@ Raportit järjestävät tietoja eri lähteistä [!INCLUDE[prod_short](includes/p
 
 Saat lisätietoja tietojen suodattamisesta, raporttien ajoittamisesta ja lisätietoja kohdasta [Suorita ja tulosta raportteja](ui-work-report.md).
 
-## <a name="save-reports-as-pdf-excel-or-word-documents"></a>Tallentaminen PDF-, Excel- tai Word-tiedostoina
+## Tallentaminen PDF-, Excel- tai Word-tiedostoina
 
 Voit jakaa raportteja nopeasti tallentamalla [!INCLUDE[prod_short](includes/prod_short.md)] -raportit suoraan PDF-, Microsoft Excel- tai Microsoft Word -asiakirjoihin.
 
@@ -47,7 +47,7 @@ Voit jakaa raportteja nopeasti tallentamalla [!INCLUDE[prod_short](includes/prod
 3. Valitse tiedostotyyppi ja valitse sitten **OK**.
 Luotu raporttitiedosto tallentuu automaattisesti selaimen latauskansioon.
 
-### <a name="change-report-and-document-layouts"></a>Muutosraportti ja asiakirjojen asettelu
+### Muutosraportti ja asiakirjojen asettelu
 
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää useita valmiita asetteluita raportteihisi ja muihin luomiisi asiakirjoihin, kuten myyntilaskuihin. Voit käyttää esimerkiksi Microsoft Word- tai Excel-sovelluksia asiakirjojen ja raporttien asettelumallien muokkaamiseen seuraavassa esimerkissä kuvatulla tavalla:
 
@@ -64,9 +64,9 @@ Luotu raporttitiedosto tallentuu automaattisesti selaimen latauskansioon.
 
 Lisätietoja raporttien ja asiakirjojen mukauttamisesta liiketoimintatarpeisiin kohdassa [Raportti- ja asiakirja-asettelut](ui-manage-report-layouts.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/work-with-reports/).
+## Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/work-with-reports/).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Raporttien käyttö päivittäisessä työssä](reports-use-reports.md)  
 [Käytettävissä olevat raportit kohteessa [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  

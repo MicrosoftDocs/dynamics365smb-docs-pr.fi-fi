@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="partner-sales-and-marketing-learning-catalog"></a>Kumppanimyynti- ja markkinointiopintoluettelo
+# Kumppanimyynti- ja markkinointiopintoluettelo
 
 Oletko vastuussa siitä, että autat asiakkaita ostamaan oikean ratkaisun?
 
 Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja perustiedoista kaikkein kehittyneimpiin. Jos sisältöä on useissa muodoissa, ilmoitamme siitä sinulle, jotta voit valita tarpeitasi parhaiten vastaavan koulutusmuodon.  
 
-## <a name="business-value"></a><a name="busvalue"></a>Liiketoiminta-arvo
+## Liiketoiminta-arvo<a name="busvalue"></a>
 
 | Sisältö     | Kuvaus    | Muoto                                | Pituus              |
 |-------------|----------------|---------------------------------------|---------------------|
@@ -21,7 +21,7 @@ Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja pe
 | [Tutki Dynamics 365 Business Central -ominaisuuksia](https://dynamics.microsoft.com/business-central/capabilities/) | Tutki Dynamics 365 Business Central -ominaisuuksia    | Sivusto    |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/)            | Tämä moduuli näyttää sovelluksen ominaisuudet, hyödyt ja esimerkit Dynamics 365 Business Centralista käytännössä.    | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 24 minuuttia          |
 
-## <a name="getting-started"></a><a name="get-started"></a>Käytön aloittaminen
+## Käytön aloittaminen<a name="get-started"></a>
 
 | Sisältö   | Kuvaus   | Muoto                                | Pituus              |
 |-----------|---------------|---------------------------------------|---------------------|
@@ -30,11 +30,11 @@ Seuraava luettelo on järjestetty perustiedoista tiettyihin toimialueisiin ja pe
 | [Käsittele Business Central -tietoja kuin ammattilainen](/training/paths/work-pro-data-dynamics-365-business-central) | Oletko juuri aloittanut Business Centralin käytön? Tämä oppimispolku auttaa sinua valmistautumaan Business Centralin tietotyyppeihin ja siihen, miten löydät tarvitsemasi tiedot sovelluksesta.      | Ilmainen, omaan tahtiin etenevä verkko-oppimispolku | 2 tuntia 27 minuuttia  |
 | [Business Central YouTube -soittolista](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4) | YouTuben saapumissivu Dynamics 365 Business Central -videoille  | YouTube-videot  |                     |
 
-## <a name="grow-your-business"></a><a name="grow"></a>Kasvata yritystäsi
+## Kasvata yritystäsi<a name="grow"></a>
 
 | Sisältö   | Kuvaus        | Muoto                                | Pituus                |
 |-----------|--------------------|---------------------------------------|-----------------------|
-| [Dynamics 365 Business Central - Mielenkiintoiset prospektikeskustelut (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)    | (Vain kumppanit) Liity Errol Schosfishin, tuotemarkkinointijohtajan seuraan, kun hän puhuu siitä, miten saada aikaan mielenkiintoisia keskusteluja prospektien kanssa Microsoft Dynamics 365 Business Centralista.   | Video    | 11 minuuttia 15 sekuntia |
+| [Dynamics 365 Business Central - Mielenkiintoiset prospektikeskustelut (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761)    | (Vain kumppanit) Errol Schosfish, tuotemarkkinointijohtaja, puhuu siitä, miten saada aikaan mielenkiintoisia keskusteluja prospektien kanssa Microsoft Dynamics 365 Business Centralista.   | Video    | 11 minuuttia 15 sekuntia |
 | [Pilvipalveluratkaisuohjelma](https://partner.microsoft.com/membership/cloud-solution-provider)    | (Vain kumppanit) Tietoja pilvipalveluratkaisuohjelmasta     | Sivusto |                       |
 | [Markkinointi pilviympäristössä](https://mbspartner.microsoft.com/OSS/Topic/19) | (Vain Partner) Se, miten optimoit markkinointikäytännöt ja uudelleensuuntaavat markkinointiperiaatteet pilvipalveluun keskittyneessä maailmassa, on ensisijainen tekijä, kun organisaation onnistuminen tai epäonnistuminen etenee. Tämä sarja videoita ja resursseja tarjoaa markkinoinnin parhaita käytäntöjä, sisällön luomisen ohjausta, pragmaattisia vinkkejä ja hyödyllisiä työkaluja pilvimarkkinointiperiaatteiden soveltamiseen ratkaisujen kysynnän kasvattamiseksi. | Aihesivu | 35 minuuttia |
 | [Pilvipalveluratkaisuohjelma - kysynnän mukaisten pilviratkaisujen myynti](/partner-center/csp-overview)  | Pilvipalveluratkaisuohjelma (CSP) auttaa sinua jälleenmyyjälisenssien ulkopuolella, jotta voisit osallistua paremmin asiakkaan liiketoimintaan.   | Sivusto      |                       |
