@@ -9,7 +9,7 @@ ms.date: 02/23/2023
 ms.custom: bap-template
 ms.search.keywords: 'design, supply, planning, reordering, replenishment'
 ---
-# <a name="design-details-supply-planning"></a>Rakennetiedot: tarjonnan suunnittelu
+# Rakennetiedot: tarjonnan suunnittelu
 
 Tässä osassa tarkkoja teknisiä tietoja [!INCLUDE[prod_short](includes/prod_short.md)]in tarjonnan suunnitteluominaisuuksien käsitteistä ja periaatteista.  
 
@@ -20,7 +20,7 @@ Tässä artikkelissa käsitellään suunnittelujärjestelmän toimintaa:
 * Kuvailee keskeisen mekanismin logiikkaa eli tarjonnan tasapainottamista
 * Selitetään uudelleentilauskäytäntöjen käyttö varastosuunnittelussa  
 
-## <a name="in-this-section"></a>Tämän osan sisältö
+## Tämän osan sisältö  
 
 [Rakennetiedot: Suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md)  
 [Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys](design-details-reservation-order-tracking-and-action-messaging.md)  

@@ -11,7 +11,7 @@ ms.date: 04/29/2021
 ms.author: jswymer
 ---
 
-# <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Kosketuseleet ja kynän liikkeet tabletteja ja puhelimia varten
+# Kosketuseleet ja kynän liikkeet tabletteja ja puhelimia varten 
 
 Tässä artikkelissa on tietoja joistakin erityisistä eleistä, joita voit käyttää, kun käytössä on [!INCLUDE[prod_short](includes/prod_short.md)] tabletissa tai puhelimessa.
 
@@ -30,7 +30,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Näppäimistön pikaohje - Vain PC](keyboard-shortcuts-cheatsheet.md)  
 [Aputoiminnot](ui-accessibility.md)  

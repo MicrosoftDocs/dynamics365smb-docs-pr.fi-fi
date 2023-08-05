@@ -6,17 +6,12 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search'
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 21edfebd4507c383d9af217fa0617d22867e204d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133224"
 ---
-# <a name="changing-company-and-other-settings-in-teams"></a>Yrityksen ja muiden asetusten muuttaminen Teamsissa
+
+# Yrityksen ja muiden asetusten muuttaminen Teamsissa
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -32,7 +27,7 @@ Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksessa on **Aset
 
    ![Business Centralin asetukset viestiruudusta.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Business Centralin ja Microsoft Teamsin integraation yleiskatsaus](across-teams-overview.md)  
 [Microsoft Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen](across-install-app-for-teams.md)  
@@ -42,7 +37,7 @@ Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksessa on **Aset
 [Vianetsintä – Teams](admin-teams-troubleshooting.md)  
 [Teamsin integroinnin kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

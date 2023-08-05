@@ -10,7 +10,7 @@ ms.date: 01/26/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-universal-print-printers"></a>Yleistulostuksen tulostimien määrittäminen
+# Yleistulostuksen tulostimien määrittäminen
 
 Yleistulostus on tilauspohjainen Microsoft 365 -palvelu, joka suoritetaan kokonaisuudessaan Microsoft Azuressa. Yleistulostusportaalin kautta käytettävissä on keskitetty tulostimen hallinta. [!INCLUDE[prod_short](includes/prod_short.md)] tuo yleistulostuksessa määritetyt tulostimet asiakasohjelmakäyttäjien käyttöön **Yleistulostuksen integrointi** -laajennuksen avulla.
 
@@ -21,7 +21,7 @@ Täydellinen määritys edellyttää, että työskentelet sekä Microsoft Azures
 1. Microsoft Azureissa yleistulostus määritetään ja Business Centralissa käytettävät tulostimet lisätään tulostusresurssiin. Lisätietoja on [tässä osassa](#set-up-universal-print-and-printers-in-microsoft-azure).
 2. [!INCLUDE[prod_short](includes/prod_short.md)]issa tulostimet lisätään yleistulostuksen tulostusresursseista. Siirry verkkoversiossa [tähän osaan](#add-printers-in-business-central-online) tai paikallisessa versiossa [tänne](#add-printers-in-business-central-on-premises).
 
-## <a name="prerequisites"></a>Vaatimukset
+## Vaatimukset
 
 - Tuetut tulostimet
 
@@ -55,7 +55,7 @@ Täydellinen määritys edellyttää, että työskentelet sekä Microsoft Azures
 
     Lisätietoja sovelluksen rekisteröimisestä ja soveltuvien oikeuksien määrittämisestä on kohdassa [Sovelluksen rekisteröinti Azure Active Directoryssa](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
 
-## <a name="set-up-universal-print-and-printers-in-microsoft-azure"></a>Yleistulostuksen ja tulostimien määrittäminen Microsoft Azuressa
+## Yleistulostuksen ja tulostimien määrittäminen Microsoft Azuressa
 
 Ennen yleistulostuksen tulostimien hallinnan aloittamista Business Centralissa yleistulostus on otettava käyttöön Azuressa ja siihen on määritettävä käytettävät tulostimet.
 
@@ -108,7 +108,7 @@ Lisätietoja määrittämisestä on yleistulostuksen ohjeiden kohdassa [Aloitus:
 
 Olet nyt valmis lisäämään tulostimia [!INCLUDE[prod_short](includes/prod_short.md)]iin, määrittämään raporttien oletustulostimet ja tulostamaan.  
 
-## <a name="add-printers-in-business-central-online"></a>Tulostimien lisääminen Business Central onlinessa
+## Tulostimien lisääminen Business Central onlinessa
 
 Kun tulostimet on määritetty ja jaettu yleistulostuksessa, ne voidaan lisätä käyttöä varten [!INCLUDE[prod_short](includes/prod_short.md)]iin. Yleistulostuksen tulostimia voi lisätä kahdella tavalla. Tulostimet voidaan lisätä kaikki kerralla tai yksi kerrallaan.
 
@@ -131,7 +131,7 @@ Jos tulostimet lisätään yksitellen, sama yleistulostuksen tulostin voidaan m�
 
 Kun tulostin on lisätty, sen asetuksia voi tarkastella ja muuttaa **Tulostimen hallinta** -sivulla. Valitse ensin tulostin ja sitten **Muokkaa tulostimen asetuksia**.
 
-## <a name="add-printers-in-business-central-on-premises"></a>Tulostimien lisääminen paikallisessa Business Centralissa
+## Tulostimien lisääminen paikallisessa Business Centralissa
 
 <!--With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, unlike online, users aren't automatically authenticated with the registered app in Azure used for the Universal Print service. So, before any Business Central user (including admins) can add or even use Universal Print printers, they'll have to authenticate with the Azure app and grant access to the Universal Print service. The following procedure describes how to initiate this authentication flow. Each user typically only has to do this task once.-->
 
@@ -147,7 +147,7 @@ Tämä tehdään yleensä silloin, kun käyttäjä muodostaa ensimmäisen kerran
 > Järjestelmänvalvojia suositellaan suorittamaan tämä tehtävä ennen muita käyttäjiä. Tämän jälkeen käyttäjille, joiden on käytettävä yleistulostuksen tulostimia, voidaan kertoa, miten se tehdään. Jos yleistulostuksen Azure-rekisteröity sovellus edellyttää, että järjestelmänvalvoja hyväksyy ohjelmointirajapinnan oikeudet, suostumus on helpompi antaa organisaation puolesta. Järjestelmänvalvojan suostumus voidaan antaa Azure-portaalissa ja seuraavien vaiheiden suorittamisen aikana. 
 
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
-### <a name="connect-to-universal-print-for-the-first-time"></a>Ensimmäinen yhdistäminen yleistulostukseen
+### Ensimmäinen yhdistäminen yleistulostukseen
 
 Yhteys yleistulostuspalveluun muodostetaan ensimmäisen kerran seuraavien ohjeiden avulla.
 
@@ -173,11 +173,11 @@ Kun tulostin on lisätty, sen asetuksia voi tarkastella ja muuttaa **Tulostimen 
 
 Ensimmäisen kirjautumisen jälkeen yleistulostuksen tulostimilla voidaan tulostaa raportteja ja muita tulostustöitä. Lisätietoja on kohdassa [Raportin tulostaminen](ui-work-report.md#PrintReport). Tulostimia voi lisätä, poistaa tai vaihtaa palaamalla **Tulostuksen hallinta** -sivulle ja valitsemalla **Yleistulostus**.
 
-## <a name="common-problems-and-resolutions"></a>Yleisiä ongelmia ja niiden ratkaisuja
+## Yleisiä ongelmia ja niiden ratkaisuja
 
 Tässä osassa on tietoja yleisistä ongelmista, joita käyttäjillä voi olla yritettäessä määrittää tai käyttää yleistulostuksen tulostimia.
 
-### <a name="you-dont-have-access-to-the-printer-your-printer"></a>Et voi käyttää tulostinta \<your-printer\>.
+### Et voi käyttää tulostinta \<your-printer\>.
 
 Jos käyttäjä näkee tämän sanoman, kun asiakirjaa yritetään tulostaa yleistulostuksen tulostimeen, syy voi olla jokin seuraavista:
 
@@ -186,17 +186,17 @@ Jos käyttäjä näkee tämän sanoman, kun asiakirjaa yritetään tulostaa ylei
 - (Paikallinen) Yleistuloksessa käytetty Azure-sovellusrekisteröinti ei toimi tai sitä muutettu sen jälkeen, kun käyttäjä kirjautui edellisen kerran sisään.
 - (Paikallinen) Käyttäjä ei ole vielä kirjautunut yleistulostuksen Azure-rekisteröityyn sovellukseen eikä antanut suostumustaan ensimmäistä kertaa.
 
-## <a name="there-was-an-error-fetching-printers-shared-to-you"></a>Virhe noudettaessa sinulle jaettuja tulostimia.
+## Virhe noudettaessa sinulle jaettuja tulostimia.
 
 Jos käyttäjä näkee tämän sanoman yrittäessään lisätä yleistulostuksen tulostin **Tulostimen hallinta** -sivulta, syynä on yleensä se, että käyttäjä ei ole vielä kirjautunut yleistulostussovelluksen Azure-rekisteröityyn sovellukseen ja antanut suostumustaan ensimmäisellä kerralla. 
 <!--
-### <a name="troubleshooting"></a>Troubleshooting
+### Troubleshooting
 
-#### <a name="you-dont-see-the-a-printer-in-the"></a>You don't see the a printer in the
+#### You don't see the a printer in the 
 
 The printer is not shared in Universal Print.
 
-### <a name="you-get-an-error-when-tryong-to-add-all-or-a-single-printer"></a>You get an error when tryong to add all or a single printer
+### You get an error when tryong to add all or a single printer
 
 You have'nt been assigned a Uincersla Print license.
 
@@ -204,7 +204,7 @@ There was an error fetching printers shared to you. You don't have access to the
 or 
 You don't seem to have access to Universal Print. Make sure you have a Universal Print subscription, and that your account has been assigned a Universal Print license.
 
-## <a name="could-not-upload-the-document-to-print-job-50"></a>Could not upload the document to print job 50.
+## Could not upload the document to print job 50.
 
 There is a technical problem withe the printer. Unsupported document-format: application/pdf. Supported formats: Attribute document-format-supported: SimpleIppValue-Type:MimeMediaType-Value:application/oxps
 
@@ -213,10 +213,10 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 -->
 
-## <a name="next-steps"></a>Seuraavat vaiheet
+## Seuraavat vaiheet
 [Oletustulostimien määrittäminen](ui-specify-printer-selection-reports.md).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Tulostimien yleiskatsaus](admin-printer-setup-overview.md)  
 [Sähköpostitulostimien määrittäminen](admin-printer-setup-email.md)

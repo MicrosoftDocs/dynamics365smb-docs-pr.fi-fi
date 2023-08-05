@@ -350,6 +350,7 @@
 
 ### ALV:n hallinta
 #### [ALV-hallinnan yleiskatsaus](finance-manage-vat.md)
+#### [EU-kolmikantatapahtumat](finance-how-to-eu3party-trade-purchase.md)
 #### ALV:n määritys
 ##### [Arvonlisäveron määritys](finance-setup-vat.md)
 ##### [Kirjausryhmän määritys](finance-posting-groups.md#tax-posting-groups)

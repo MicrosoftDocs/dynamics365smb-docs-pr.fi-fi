@@ -9,17 +9,17 @@ ms.date: 04/04/2023
 ms.custom: bap-template
 ---
 
-# <a name="manage-access-to-business-central"></a>Business Centraliin pääsyn hallinta
+# Business Centraliin pääsyn hallinta
 
 Tämä artikkeli antaa järjestelmänvalvojille ja sovelluskehittäjille korkean tason yleiskatsauksen siitä, miten [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman ja sen toimintojen käyttöä hallitaan. Linkkien avulla voit siirtyä muihin artikkeleihin, joissa on lisätietoja aiheista.
 
-## <a name="layered-access"></a>Monitasoiset käyttöoikeudet
+## Monitasoiset käyttöoikeudet
 
 [!INCLUDE [prod_short](includes/prod_short.md)] käyttää monitasoista lähestymistapaa sovellusten suojaukseen seuraavassa kaaviossa kuvatulla tavalla. Saat lisätietoja kustakin tasosta siirtymällä [Sovelluksen suojaus Business Centralissa](/dynamics365/business-central/dev-itpro/security/security-application) -kohtaan.
 
 :::image type="content" source="media/security-overview.png" alt-text="Monitasoinen sovellusten suojaus Business Centralissa.":::
 
-## <a name="licenses"></a>Käyttöoikeudet
+## Käyttöoikeudet
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -käyttäjille annetaan **Dynamics 365 Business Central** -käyttöoikeus, jotta he voivat tarkastella, muokata ja käsitellä liiketoimintatietojaan mistä tahansa käyttöliittymästä. Lisätietoja käyttöoikeuksista on kohdassa [Dynamics 365 Business Centralin käyttöoikeudet](/dynamics365/business-central/dev-itpro/deployment/licensing).
 
@@ -27,7 +27,7 @@ Kuitenkin ihmiset, jotka joskus tarvitsevat vain luku-oikeuden saadakseen tietoj
 
 Perusteellisia tietoja erilaisista käyttöoikeustyypeistä ja [!INCLUDE[prod_short](includes/prod_short.md)]in käyttöoikeuksista on [ladattavassa Dynamics 365:n käyttöoikeusoppaassa](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-## <a name="business-central-administrator-tasks"></a>Business Centralin järjestelmänvalvojan tehtävät
+## Business Centralin järjestelmänvalvojan tehtävät
 
 Seuraavassa taulukossa on luettelo siitä, miten järjestelmänvalvojat voivat hallita [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman käyttöoikeuksia ja mitä ominaisuuksia käyttäjät käyttävät. Jotkin tehtävät auttavat myös pitämään käyttöoikeusasetukset ajan tasalla.
 
@@ -42,7 +42,7 @@ Seuraavassa taulukossa on luettelo siitä, miten järjestelmänvalvojat voivat h
 |Azure-huoltotunniste edustaa ryhmää IP-osoitteita, joista palvelun liikenne voi tulla tai joihin se voi siirtyä. Huoltotunnisteiden avulla voit määrittää palomuurit sallimaan liikenteen vain tietyistä palveluista. **Dynamics365BusinessCentral**-tunnisteen avulla voit käyttää palomuurin ja verkon suojausryhmän sääntöjä liikenteen rajoittamiseen [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaan ja -ohjelmasta.| [Azure-suojauspalvelun tunnisteet](/dynamics365/business-central/dev-itpro/security/security-service-tags)|
 |Käyttäessäsi Azure Active Directory -todennusta [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa, on suositeltavaa hyödyntää [Azure AD:n monimenetelmäistä todentamista (MFA)](/azure/active-directory/authentication/concept-mfa-howitworks). MFA antaa lisäturvaa hakemuksen ja datan käyttöön.|[Dynamics 365 Business Centralin monimenetelmäinen todentaminen](/dynamics365/business-central/dev-itpro/security/multifactor-authentication)|
 
-## <a name="business-central-developer-tasks"></a>Business Central -sovelluksen kehittäjätehtävät
+## Business Central -sovelluksen kehittäjätehtävät
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman käyttöoikeuden hallintaan on myös kehittäjän tarina. Kehittäjät ja järjestelmänvalvojat voivat esimerkiksi muodostaa ja yhdistää liiketoimintaa hyödyntäviä sovelluksia [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaan:  
 
@@ -56,6 +56,6 @@ Seuraavassa taulukossa on linkit tietoihin siitä, kuinka sovelluksille ja laaje
 |--|--|
 |Ominaisuuksien käytön määrittämisen kaksi pääkäsitettä ovat oikeudet ja käyttöoikeudet. Käyttöoikeudet antavat objektien laajan käyttöoikeuden Azure Active Directory -käyttöoikeuksien tai -roolien mukaan. Käyttöoikeuksien ja käyttöoikeusjoukkojen avulla voit hienosäätää objektien käyttöä. |[Oikeuksien ja käyttöoikeusjoukkojen yleiskuvaus](/dynamics365/business-central/dev-itpro/developer/devenv-entitlements-and-permissionsets-overview)|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Suojaus Business Centralissa](/dynamics365/business-central/dev-itpro/security/security-and-protection)

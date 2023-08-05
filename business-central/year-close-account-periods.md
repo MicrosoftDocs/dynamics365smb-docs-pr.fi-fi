@@ -11,11 +11,11 @@ ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
 ---
-# <a name="close-accounting-periods"></a>Kirjanpitojakson päättäminen
+# Kirjanpitojakson päättäminen
 
 Kun tilikausi on ohi, sinun täytyy päättää tilikauteen sisältyvät kirjanpitojaksot.
 
-## <a name="to-close-accounting-periods"></a>Kirjanpitojakson päättäminen
+## Kirjanpitojakson päättäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjanpitojaksot** ja valitse sitten vastaava linkki.
 2. Valitse **Kirjanpitojaksot**-sivulla **Sulje vuosi** -toiminto.
@@ -32,7 +32,7 @@ Vaikka tilikausi on suljettu, voit silti kirjata tilikaudelle KP-tapahtumia. Kun
 
 Kun tilikausi on suljettu, tuloslaskelmatilien saldo eli tilikauden tulos tulee siirtää tasetilille. Tämä toistetaan aina, kun suljetulle tilikaudelle tehdään kirjauksia.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Kirjojen sulkeminen](year-close-books.md)  
 [Vuositilinpäätöstapahtuman kirjaaminen](year-how-post-year-end-close-entry.md)  

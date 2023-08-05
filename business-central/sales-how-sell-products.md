@@ -1,23 +1,17 @@
 ---
 title: Asiakkaan myyntitilauksen luominen ja tuotteiden myyminen
-description: Tässä ohjeaiheessa kerrotaan, miten luodaan myyntitilaus kirjaamaan asiakkaan kanssa tehty sopimus tuotteiden myynnistä tai kaupasta tietyin ehdoin.
+description: 'Tässä ohjeaiheessa kerrotaan, miten luodaan myyntitilaus kirjaamaan asiakkaan kanssa tehty sopimus tuotteiden myynnistä tai kaupasta tietyin ehdoin.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, partial deliveries, customer sales order, shipping advice, partial shipments,
-ms.search.form: 42, 48, 9305
+ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
+ms.search.form: '42, 48, 9305'
 ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: 7d3363557e469344c1648c52b08393efc0f2dc69
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535824"
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Tuotteiden myyminen asiakkaan myyntitilauksen avulla
+# Tuotteiden myyminen asiakkaan myyntitilauksen avulla
 
 Tämä artikkeli antaa ohjeita siitä, milloin sinun tulee käyttää asiakkaan myyntitilausta laskun lisäksi. Jos myyntiprosessi edellyttää, että lähetät vain osan tilauksesta, ehkä siksi, että koko määrä ei ole heti saatavilla, sinun on käsiteltävä kyseinen myynti tekemällä myyntitilaus.
 
@@ -29,7 +23,7 @@ Yritysympäristöissä, joissa asiakas maksaa heti (esimerkiksi PayPal-maksuna t
 
 Voit luoda jopa suoraan maksettavia tilauksia rekisteröimättömille asiakkaille, kun määrität ensin käteisasiakaskortin, jossa viitataan myyntitilaukseen. Lisätietoja kohdassa [Käteisasiakkaiden määrittäminen](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a>Luo myyntitilaus
+## Luo myyntitilaus
 
 > [!NOTE]  
 > Seuraavassa oletetaan, että asiakas on jo määritetty. Lisätietoja tämän tekemisestä on kohdassa [Uusien asiakkaiden rekisteröiminen](sales-how-register-new-customers.md).
@@ -93,13 +87,13 @@ Asiakkaan ensisijainen asiakirjojen vastaanottomenetelmä näkyy **Kirjaa ja lä
 
 Nyt järjestelmässä luodaan liittyvä nimike ja asiakastapahtumat. Myyntitilaus tulostetaan PDF-asiakirjana. Kun myyntitilaus on kirjattu kokonaan, se poistetaan myyntitilausluettelosta ja korvataan uusilla kirjattujen myyntilaskujen luettelon ja kirjattujen myyntitoimitusten luettelon asiakirjoilla.  
 
-## <a name="external-document-number"></a>Ulkoisen tiedoston numero
+## Ulkoisen tiedoston numero
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-sales-documents-dynamics-365-business-central/).
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-sales-documents-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Myynnin laskutus](sales-how-invoice-sales.md)  
 [Myynnin kirjaaminen](ui-post-sales.md)  

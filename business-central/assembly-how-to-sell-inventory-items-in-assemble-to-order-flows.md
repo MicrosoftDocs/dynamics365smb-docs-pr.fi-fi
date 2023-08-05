@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Varastonimikkeiden myyminen kokoonpano tilausta varten -virroissa
+# Varastonimikkeiden myyminen kokoonpano tilausta varten -virroissa
 
 Jos kokoonpanon nimikkeen kortin **Kokoonpanokäytäntö**-kenttä sisältää **Kokoonpano tilausta varten** -kohdan, myyntitilausprosessi olettaa, että nimikettä ei ole varastossa vaan se on kokoonpantava myyntitilauksia varten. Kun nimike lisätään myyntitilauksen riville, [!INCLUDE [prod_short](includes/prod_short.md)] luo myyntitilaukseen linkitetyn kokoonpanotilauksen. Lisätietoja tilausta varten kokoonpantavien nimikkeiden myynnistä on kohdassa [Tilausta varten kokoonpantujen nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md). Jos osa myyntitilauksen määrästä on kuitenkin jo saatavana varastossa, kokoonpanotilauksen määrää voidaan pienentää muuttamalla myyntitilausrivin **Kokoonpantava määrä tilausta varten** -kentän arvoa.  
 
@@ -30,7 +30,7 @@ Tässä toimenpiteessä korvaat tilausta varten kokoonpantavat määrät myyntit
 2. Määrän vähentäminen linkitetystä kokoonpanotilauksesta.
 3. Varastomäärän varaaminen varmistaa, että se poimitaan ja toimitetaan tilaukseen.  
 
-## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>Myy varastonimikkeidtä kokoonpano tilausta varten -virroissa
+## Myy varastonimikkeidtä kokoonpano tilausta varten -virroissa
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 2. Luo myyntitilaus. Lisätietoja myyntitilausten luonnista on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).  
@@ -47,9 +47,9 @@ Tässä toimenpiteessä korvaat tilausta varten kokoonpantavat määrät myyntit
 > [!CAUTION]  
 > Myyntitilauksen **Varastopaikkakoodi**-kentässä saattaa olla sijaintikortin **Kokoonpanot. toim. var.p.koodi**- tai **Kokoonpanosta-varastop.koodi** -kentän arvo. Siinä tapauksessa myyntitilauksen rivin **Varastopaikkakoodi** saattaa olla virheellinen tämän tilausten varten kokoonpantavien ja varastoon kokoonpantavien määrien yhdistelmässä. Kannattaakin varmistaa uudelleen **Varastopaikkakoodi**-kentässä oleva varastopaikka sopii kaikille määrille. Voit myös kirjoittaa kaksi eri määrää myyntitilauksen eri riveille.  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Nimikkeiden varaaminen](inventory-how-to-reserve-items.md)  

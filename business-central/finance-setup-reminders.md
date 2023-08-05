@@ -11,30 +11,30 @@ ms.search.form: '431, 432, 436, 478'
 ms.date: 02/09/2022
 ms.author: edupont
 ---
-# <a name="set-up-reminder-terms-and-levels"></a>Muistutusehtojen ja -tasojen määrittäminen.
+# Muistutusehtojen ja -tasojen määrittäminen.
 
 Muistutusten avulla voit muistuttaa asiakkaita erääntyneistä summista. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
 
-## <a name="reminder-terms"></a>Muistutusehdot
+## Muistutusehdot
 
 Jos asiakkailla on erääntyneitä maksuja, sinun täytyy päättää, milloin ja miten heille lähetetään muistutus. Lisäksi saattaa olla tarpeen veloittaa heidän tileiltään korkoja tai maksuja. Muistutusehtoja voi määrittää kuinka monta tahansa.  
 
 > [!NOTE]
 > Jos haluat laskea erääntyneiden maksujen koron, voit tehdä sen muistutusten luomisen yhteydessä. Jos haluat laskea koron ja tiedottaa siitä asiakkaille lähettämättä muistutuksia, käytä [viivästyskululaskuja](finance-setup-finance-charges.md). Lisätietoja on vastaavasti kohdissa [Muistutukset](receivables-collect-outstanding-balances.md#reminders) tai [Viivästyskulut](receivables-collect-outstanding-balances.md#finance-charges).
 
-### <a name="to-set-up-reminder-terms"></a>Muistutusehtojen määrittäminen
+### Muistutusehtojen määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muistutusehdot** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Voit käyttää useita muistutusehtoyhdistelmä, kun määrität kullekin koodin.
 
-## <a name="reminder-levels"></a>Muistutustasot
+## Muistutustasot
 
 Voit määrittää kullekin muistutusehtojen koodille rajoittamattoman määrän muistutustasoja. Kun asiakkaalle luodaan ensimmäinen muistutus, ohjelma käyttää tason 1 asetuksia. Kun muistutus lähetetään, tason numero rekisteröidään muistutustapahtumiin, jotka luodaan ja linkitetään yksittäisiin asiakastapahtumiin. Jos asiakkaalle on tarpeen lähettää uusi muistutus, kaikki avoimiin asiakastapahtumiin linkitetyt muistutustapahtumat tarkistetaan suurimman tason numeron selvittämistä varten. Tämän jälkeen käytetään uutta muistutusta varten seuraavan tason numeron ehtoja.
 
 Jos luot enemmän muistutuksia kuin mille olet määrittänyt tasoja, ohjelma käyttää ylimmän tason ehtoja. Luotavien muistutusten enimmäismäärä määräytyy muistutusehtojen **Muistutusten enimmäislukumäärä** -kentän mukaan.
 
-### <a name="to-set-up-reminder-levels"></a>Muistutustasojen määrittäminen
+### Muistutustasojen määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muistutusehdot** ja valitse sitten vastaava linkki.  
 2. Valitse **Muistutusehdot**-sivulla rivi, jonka ehdoille haluat määrittää tasoja, ja valitse sitten **Tasot**-toiminto.  
@@ -92,9 +92,9 @@ Jos luot enemmän muistutuksia kuin mille olet määrittänyt tasoja, ohjelma k�
 
 Kun olet määrittänyt muistutusehdot sekä lisätasot ja tekstin, määritä jokin koodeista kussakin asiakkaan kortissa. Lisätietoja on kohdassa [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md).  
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/send-reminders-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/send-reminders-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)  
 [Lähetä muistutuksia avoimista saldoista](receivables-send-reminders.md)  

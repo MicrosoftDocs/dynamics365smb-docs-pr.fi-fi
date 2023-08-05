@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 01/11/2023
 ms.custom: bap-template
 ---
-# <a name="administration-tasks"></a>Hallintatehtävät
+# Hallintatehtävät
 
 Yleensä yksi rooli hoitaa yrityksen keskitetyt hallintatehtävät. Tehtävien laajuus voi määräytyä yrityksen koon ja järjestelmänvalvojan vastuualueiden mukaan. Tehtäviin voi sisältyä esimerkiksi työ- ja sähköpostijonojen tietokantasynkronoinnin hallintaa, käyttäjien määritystä ja käyttöliittymän mukautusta.  
 
@@ -43,7 +43,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 |Dynamics 365 Salesin yhdistäminen [!INCLUDE[prod_short](includes/prod_short.md)]iin, mikä mahdollistaa asiakassuhteiden ja tilausten käsittelyn saumattoman integroinnin liidistä tuottoon -prosessissa.|[Dynamics 365 Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Vaihda käyttöliittymässä näytettävät kentät ja toiminnot vastaamaan yrityksen liiketoimintaprosesseja ja laajenna ratkaisua sovelluksilla.|[Mukauta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
 
-## <a name="administration-in-the-admin-center"></a>Hallinta hallintakeskuksessa
+## Hallinta hallintakeskuksessa
 
 Sisäiset ja delegoidut järjestelmänvalvojat voivat käyttää [!INCLUDE [prod_short](includes/prod_short.md)] -hallintakeskusta, jossa he voivat määrittää ja valvoa [!INCLUDE [prod_short](includes/prod_short.md)] -ympäristöjä ja tehdä vianmääritystä. Seuraavassa taulukossa on kuvataan tärkeimpiä tehtäviä ja siinä on linkit tehtäviä kuvaaviin artikkeleihin.  
 
@@ -54,16 +54,16 @@ Sisäiset ja delegoidut järjestelmänvalvojat voivat käyttää [!INCLUDE [prod
 |Käyttäjäistuntojen hallinta, mukaan lukien istunnon peruuttaminen, jos käyttäjä on estetty.|[Istuntojen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Määritä vuokraaja lähettämään telemetriatiedot Azureen Application Insightsin analyysin ja vianmäärityksen parantamiseksi.|[Ota käyttöön telemetrian lähettäminen Application Insightsiin](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/deploy-configure-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/deploy-configure-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Liiketoiminnan toiminnallisuus](across-business-functionality.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

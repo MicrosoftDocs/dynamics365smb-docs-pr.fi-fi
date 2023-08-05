@@ -10,7 +10,7 @@ ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.date: 08/19/2022
 ms.author: edupont
 ---
-# <a name="setting-up-finance"></a>Rahoituksen määrittäminen
+# Rahoituksen määrittäminen
 
 Ennen kuin voit aloittaa yrityksesi pyörittämisen, sinun on määritettävä, miten haluat hallita yrityksen rahoitusprosesseja. Aloita määrittämällä yrityksen tilitietueiden perusta – tilikartta. Sitten määritetään kirjausryhmät. Tämä tehostaa pääkirjanpidon oletuskirjaustilien määrittämistä asiakkaille, toimittajille ja nimikkeille.
 
@@ -51,9 +51,9 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 > [!TIP]
 > Maantieteellinen sijaintisi mukaan jotkin Business Central -sivut voivat sisältää kenttiä, joita ei ole kuvattu yllä olevassa luettelossa, koska ne koskevat paikallisia toimintoja tai mukautuksia. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rahoitus](finance.md)  
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  
@@ -62,6 +62,6 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 [Yrityksen kassavirran analysoiminen](finance-analyze-cash-flow.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

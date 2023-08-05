@@ -1,23 +1,17 @@
 ---
 title: Pankkitoiminnan määrittäminen
-description: Pankkitilikorttien avulla voit seurata pankkitilejäsi ja määrittää pankkisyötteitä, kuten Yodleen, tietojen vaihtoa varten.
+description: 'Pankkitilikorttien avulla voit seurata pankkitilejäsi ja määrittää pankkisyötteitä, kuten Yodleen, tietojen vaihtoa varten.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
+ms.search.keywords: 'Yodlee, feed, stream, data exchange, AMC, link'
 ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 95455b4100aa2628fe6f1e2eefdce8c8117f1166
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: fi-FI
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516393"
 ---
-# <a name="setting-up-banking"></a>Pankkitoiminnan määrittäminen
+# Pankkitoiminnan määrittäminen
 
 Pankkitilikorttien avulla voit seurata kaikkia pankkitilejäsi missä tahansa valuutassa. Kun olet määrittänyt pankkitilit, voit myös käyttää Sekin tulostus -vaihtoehtoa.
 
@@ -31,7 +25,7 @@ Voit käyttää sähköisiä pankkipalveluita pankin tiliotteiden tuonnissa ja m
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  

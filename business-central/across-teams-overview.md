@@ -11,7 +11,7 @@ ms.date: 09/22/2022
 ms.custom: bap-template
 ---
 
-# <a name="business-central-and-microsoft-teams-integration"></a>Business Centralin ja Microsoft Teamsin integraatio
+# Business Centralin ja Microsoft Teamsin integraatio
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -19,11 +19,11 @@ ms.custom: bap-template
 
 Sovellus on saatavilla Teams marketplacesta, ja sitä voi käyttää Teamsin työpöytä-, mobiili- tai verkkosovelluksella.
 
-## <a name="features-overview"></a>Ominaisuuksien yleiskuvaus
+## Ominaisuuksien yleiskuvaus
 
 Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovellus sisältää seuraavat ominaisuudet.
 
-### <a name="look-up-details-of-customers-vendors-and-other-contacts"></a>Asiakkaiden, toimittajien ja muiden yhteyshenkilöiden tietojen hakeminen
+### Asiakkaiden, toimittajien ja muiden yhteyshenkilöiden tietojen hakeminen
 
 Riippumatta siitä, missä Teamsissa ollaan, tietoja voidaan hakea asiakkaista, toimittajista ja muista [!INCLUDE [prod_short](includes/prod_short.md)]in yhteyshenkilöistä. Tällä ominaisuudella ei voi tarkastella ainoastaan yleisiä tietoja yhteyshenkilöistä, vaan se antaa myös oikeuden käyttää esimerkiksi vuorovaikutushistoriaa ja liittyviä asiakirjoja.
 
@@ -35,7 +35,7 @@ Yhteyshenkilön tietoja voi jakaa myös keskustelussa. Myös osallistujat voivat
 
 Lisätietoja on kohdassa [Yhteyshenkilöiden hakeminen Microsoft Teamsissa](across-search-contacts-teams.md).
 
-### <a name="share-records-in-conversations"></a>Tietueiden jakaminen keskusteluissa
+### Tietueiden jakaminen keskusteluissa
 
 Kopioida linkin mihin tahansa Business Central -tietueeseen ja liittää sen Tems-keskusteluun, jonka haluat jakaa työtovereidesi kanssa. Sovellus laajentaa linkin kompaktiksi ja vuorovaikutteiseksi kortiksi, joka näyttää tietoja tietueesta.
 
@@ -45,7 +45,7 @@ Keskustelun aikana sinä ja työtoverisi voitte tarkastella lisätietoja tietuee
 
 Lisätietoja on kohdassa [Jaa tietueita Microsoft Teams](across-working-with-teams.md)issa.
 
-### <a name="share-links-from-pages-in-business-central-to-teams"></a>Jaa sivujen linkit Business Centralista Teamsiin
+### Jaa sivujen linkit Business Centralista Teamsiin
 
 Suoraan useimmista Business Centralin kokoelma- ja tietosivuilta voit käyttää **Jaa Teamsiin** -toimintoa ![!Sivujen Jaa-valikkokuvake.](media/share-icon.png "Kortilla näkyvä Jaa-valikko.") -kuvakkeesta, jolloin voit kirjoittaa viestin, valita vastaanottajat, kuten ryhmän jäsenet, ryhmät tai kanavat, ja lähettää viestin ja linkin Business Central -sivulle.
 
@@ -55,7 +55,7 @@ Suoraan useimmista Business Centralin kokoelma- ja tietosivuilta voit käyttää
 
 Lisätietoja on kohdassa [Jaa tietueiden ja sivujen linkkejä Microsoft Teamsissa](across-working-with-teams.md#share-link).
 
-### <a name="add-a-business-central-tab-to-teams-channel-or-chat"></a>Business Central -välilehden lisääminen Teams-kanavalle tai -keskusteluun
+### Business Central -välilehden lisääminen Teams-kanavalle tai -keskusteluun
 
 Kun olet asentanut Business Central -sovelluksen Teamsiin, voit lisätä kanava- tai keskusteluikkunan, jossa näkyy Business Central -tiedot luetteloista ja korttisivuista.
 
@@ -63,7 +63,7 @@ Kun olet asentanut Business Central -sovelluksen Teamsiin, voit lisätä kanava-
 
 Lisätietoja on kohdassa [Business Central -välilehden lisääminen Teamsiin](across-teams-tab.md).
 
-## <a name="get-started"></a>Aloitus
+## Aloitus
 
 1. [!INCLUDE [prod_short](includes/prod_short.md)] online -käyttäjätili tarvitaan Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovellukseen.
 
@@ -76,14 +76,14 @@ Lisätietoja on kohdassa [Business Central -välilehden lisääminen Teamsiin](a
 3. [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen Teamsiin. Katso [Asenna [!INCLUDE [prod_short](includes/prod_short.md)] -sovellus Microsoft Teamsiin](across-install-app-for-teams.md).
 4. Kun sovellus on asennettu, olet valmis aloittamaan. Lisätietoja on kohdassa [Asiakkaiden, toimittajien ja muiden yhteystietojen etsiminen Microsoft Teams](across-search-contacts-teams.md)issa ja [Jaa tietueita Microsoft Teams](across-working-with-teams.md)issa.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Teams – usein kysytyt kysymykset](teams-faq.md)  
 [Vianetsintä – Teams](admin-teams-troubleshooting.md)  
 [Yrityksen ja muiden asetusten muuttaminen Teamsissa](across-teams-settings.md)  
 [Teamsin integroinnin kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)
   
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

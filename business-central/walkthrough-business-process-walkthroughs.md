@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# <a name="business-process-walkthroughs"></a>Liiketoimintaprosessien vaihekuvaukset
+# Liiketoimintaprosessien vaihekuvaukset
 
 Näissä vaihekuvauksissa käsitellään yksityiskohtaisesti ja kattavasti liiketoimintaprosesseja, joita voi käyttää CRONUS-esittely-yrityksen avulla. Vaihekuvaukset koostuvat useista toimenpiteistä, joista osan voi normaalisti suorittaa yksi käyttäjä, kun taas muihin liittyy useita erilaisia käyttäjärooleja. Jotta työympäristöstä saadaan asianmukainen, vaihekuvaukset voivat sisältää erityisiä määritysvaiheita. Ne täytyy suorittaa ohjeiden mukaisesti ennen harjoitusten tekemistä. Nämä vaiheet voivat antaa käsityksen siitä, millaisia tietoja käyttäjien on kerrottava yrityksensä tietotekniikan ammattilaisille.  
 
@@ -36,11 +36,11 @@ Näissä vaihekuvauksissa käsitellään yksityiskohtaisesti ja kattavasti liike
 <!-- |Put received items away in advanced warehouse configurations. **Requires complete sample data**|[Walkthrough: Receiving and Putting Away in advanced warehouse configurations](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)|   -->
 <!-- |Perform defects management. **Requires complete sample data** |[Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md)| -->
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

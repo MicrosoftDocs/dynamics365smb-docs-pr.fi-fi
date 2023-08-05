@@ -10,11 +10,11 @@ ms.search.form: 9880
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="managing-database-access-intent"></a>Tietokannan käyttötarkoituksen hallinta
+# Tietokannan käyttötarkoituksen hallinta
 
 Superkäyttäjä ja järjestelmänvalvoja voivat muuttaa tietokannan käyttötarkoitusta raporteissa, API-tyyppisillä sivuilla ja kyselyissä. Näin parannetaan palvelun suorituskykyä.
 
-## <a name="overview"></a>Yleiskuvaus
+## Yleiskuvaus
 
 [!INCLUDE[prod_short](includes/prod_short.md)] voidaan määrittää käyttämään ensisijaisen (vain luku) tietokannan vain luku -replikoita. Tietokannan replikan käyttäminen vähentää ensisijaisen tietokannan työkuormaa. Joissakin tapauksissa se parantaa myös tietojen tarkastelemisen suorituskykyä asiakasohjelmassa. Replikat ovat hyödyllisiä objekteille, kuten raporteille, kyselyille ja API-sivuille, joita käytetään vain tietojen tarkastelemiseen tietojen muokkaamisen sijaan.
 
@@ -24,7 +24,7 @@ Kun objektit suoritetaan, tietokannan käyttötarkoitus määrittää, käytetä
 
 Tietokannan termeissä tätä ominaisuutta kutsutaan yleisesti *lukemisen skaalaamiseksi*. Lisätietoja lukemisen skaalaamisesta ja tietokannan käyttötarkoituksesta [!INCLUDE[prod_short](includes/prod_short.md)]:ssä on kohdassa [Lukemisen skaalautumisen käyttäminen paremman suorituskyvyn saavuttamiseksi](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) [!INCLUDE[prod_short](includes/prod_short.md)]:n kehittäjän ja hallinnon ohjeessa.
 
-## <a name="to-change-the-database-access-intent"></a>Tietokannan käyttötarkoituksen muuttaminen
+## Tietokannan käyttötarkoituksen muuttaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tietokannan käyttötarkoitusluettelo** ja valitse sitten liittyvä linkki.
 
@@ -43,9 +43,9 @@ Tietokannan termeissä tätä ominaisuutta kutsutaan yleisesti *lukemisen skaala
     > [!NOTE]
     > Jos muokattavan objektin, kuten asiakaskortin, tilaksi määritetään **Vain luku**, käytetään yhä ensisijaista tietokantaa käyttötarkoituksesta huolimatta. Näin käyttäjät voivat tehdä muutoksia normaaliin tapaan.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/deploy-configure-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/deploy-configure-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Liiketoiminnan toiminnallisuus](across-business-functionality.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

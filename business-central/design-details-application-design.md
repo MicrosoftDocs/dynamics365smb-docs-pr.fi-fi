@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 11/26/2021
 ms.author: edupont
 ---
-# <a name="application-design-details"></a>Sovelluksen suunnittelutiedot
+# Sovelluksen suunnittelutiedot
 
 Artikkelit tässä osiossa sisältävät yksityiskohtaisia teknisiä tietoja [!INCLUDE[prod_short](includes/prod_short.md)] monimutkaisista ominaisuuksista.  
 
@@ -26,7 +26,7 @@ Rakennetietojen sisältö on tarkoitettu käyttöönottajille, kehittäjille ja 
 |Lisätietoja nimikeseurannan historiallisesta ja nykyisestä rakenteesta, ja kuinka se integroituu varausjärjestelmään, ja sisällyttää sarja-/ eränumerot saatavuuslaskelmiin.|[Rakennetiedot: Nimikkeen seuranta](design-details-item-tracking.md)|  
 |Tietoja yleisen päiväkirjan kirjausriviominaisuudesta.|[Rakenteen tiedot: Yleisen päiväkirjan kirjausrivi](design-details-general-journal-post-line.md)|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Suunnittelu](production-planning.md)  
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
@@ -34,4 +34,4 @@ Rakennetietojen sisältö on tarkoitettu käyttöönottajille, kehittäjille ja 
 [Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen avulla](set-up-complex-application-areas-using-best-practices.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="flush-components-according-to-operation-output"></a>Komponenttien materiaalinotto toiminnan tuotoksen mukaan
+# Komponenttien materiaalinotto toiminnan tuotoksen mukaan
 Voit määrittää erilaisia materiaaliottostrategioita automatisoimaan komponenttien kulutuksen rekisteröintiä. 
 
 Tämä toiminto on hyödyllinen seuraavista syistä:  
@@ -29,14 +29,14 @@ Tämä toiminto on hyödyllinen seuraavista syistä:
 
     Kun operaation materiaalinotto voidaan toteuttaa automaattisesti, kulutuksen ja tuotosten koko kirjausprosessi voidaan automatisoida. Se haitta automaattisessa materiaalinotossa kuitenkin on, että hukkatavaran kirjauksessa voi olla virheitä tai hukkatavara voi jäädä kokonaan huomaamatta.
 
-## <a name="automatic-consumption-posting-flushing-methods"></a>Kulutuksen automaattisen kirjaamisen (materiaalinotto) menetelmät
+## Kulutuksen automaattisen kirjaamisen (materiaalinotto) menetelmät  
 
 - koko tilauksen Eteenpäin-materiaalinotto  
 - operaatiokohtainen Eteenpäin-materiaalinotto  
 - operaatiokohtainen Taaksepäin-materiaalinotto  
 - koko tilauksen Taaksepäin-materiaalinotto.  
 
-### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Automaattinen raportointi - koko tilauksen Eteenpäin-materiaalinotto
+### Automaattinen raportointi - koko tilauksen Eteenpäin-materiaalinotto  
 Jos tuotantotilaukselle tehdään työn alussa Eteenpäin-materiaalinotto, sovellus toimii lähes samoin kuin manuaalista kulutusta käytettäessä. Suurin ero on siinä, että kulutus tapahtuu automaattisesti.  
 
 - Tuotannon tuoterakenteen koko sisältö kulutetaan ja vähennetään varastosta, kun vapautettu tuotantotilaus päivitetään.  
@@ -51,7 +51,7 @@ Koko tilauksen Eteenpäin-materiaalinotto sopii tuotantoympäristöihin, joissa
 -   toimenpiteitä on vähän  
 -   alkupään toimenpiteissä kulutetaan paljon komponentteja.  
 
-### <a name="automatic-reporting---forward-flushing-by-operation"></a>Automaattinen raportointi - operaatiokohtainen Eteenpäin-materiaalinotto
+### Automaattinen raportointi - operaatiokohtainen Eteenpäin-materiaalinotto  
 Operaatiokohtaisen materiaalinoton avulla voit vähentää varastoa tietyn päänimikkeen reitityksen operaation aikana. Materiaali on sidottu reititykseen reitityslinkin koodeilla, jotka vastaavat komponenteille tuotannon tuoterakenteessa määritettyjä reitityslinkin koodeja.  
 
 Materiaalinotto tapahtuu, kun saman reitityslinkin koodin mukainen operaatio alkaa. Operaatio katsotaan alkaneeksi, kun sen tietoja kirjataan operaation tuotospäiväkirjaan. Kirjattavat tiedot voivat olla esimerkiksi asetusajan syöttäminen.  
@@ -62,7 +62,7 @@ Tämä tekniikka sopii parhaiten tilanteisiin, joissa operaatioita on useita ja 
 
 Materiaalia voi kuluttaa operaatioiden aikana reitityslinkin koodien avulla. Kaikkia komponentteja ei välttämättä käytetä ennen viimeisiä kokoonpano-operaatioita, eikä niitä tule ottaa varastosta ennen sitä.  
 
-### <a name="automatic-reporting---back-flushing-by-operation"></a>Automaattinen raportointi - operaatiokohtainen Taaksepäin-materiaalinotto
+### Automaattinen raportointi - operaatiokohtainen Taaksepäin-materiaalinotto  
 Operaatiokohtaisessa Taaksepäin-materiaalinotossa kulutus kirjataan sen jälkeen, kun operaatio on kirjattu tuotospäiväkirjaan.  
 
 Tästä menetelmästä on se hyöty, että operaation valmiiden osien määrä tunnetaan.  
@@ -71,7 +71,7 @@ Tuotannon tuoterakenteen materiaali on linkitetty reititystietueisiin reititysli
 
 Materiaalinoton määrä on tuotannon tuoterakenteessa määritetyn kokoonpanokohtaisen määrän ja kyseiseen operaatioon tuotoksen määränä kirjattujen päänimikkeiden määrän tulo. Se ei välttämättä ole sama kuin oletettu määrä.  
 
-### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Automaattinen raportointi - koko tilauksen Taaksepäin-materiaalinotto
+### Automaattinen raportointi - koko tilauksen Taaksepäin-materiaalinotto  
 Reitityslinkin koodeja ei oteta huomioon tässä raportointimenetelmässä.  
 
 Komponentit valitaan vasta, kun vapautetun tuotantotilauksen tilaksi vaihtuu *Valmis*. Materiaalinoton määrä on tuotannon tuoterakenteessa määritetyn kokoonpanokohtaisen määrän ja valmistuneiden ja varastoon lisättyjen päänimikkeiden määrän tulo.  
@@ -82,7 +82,7 @@ Taaksepäin-materiaalinoton käyttäminen koko tuotantotilauksessa edellyttää,
 
 Tuotantotilauksessa voidaan esimerkiksi määrittää, että 800 metrin tuottaminen vaatii 8 kg komponentteja. Jos tuotokseksi kirjataan 200 metriä, kulutukseksi kirjataan automaattisesti 2 kg. Se tehdään yhdistämällä taaksepäin suuntautuvan materiaalinottomenetelmä ja reitityslinkkien koodit siten, että materiaalinottomäärä toimintoa kohden on verrannollinen toiminnon todelliseen tuotokseen. Jos nimikkeiden määrityksessä on käytetty Taaksepäin-materiaalinottotapaa, oletustoiminto laskee ja kirjaa kulutuksen automaattisesti, kun vapautetun tuotantotilauksen tilaksi muutetaan **Valmis**. Jos määrität myös reitityslinkin koodeja, laskenta ja kirjaus tehdään toiminnon valmistuttua. Toiminnon kuluttama todellinen määrä kirjataan. Lisätietoja on kohdassa [Reititysten luominen](production-how-to-create-routings.md).  
 
-## <a name="to-flush-components-according-to-operation-output"></a>Voit tyhjentää osat toiminnon tuotoksen mukaan
+## Voit tyhjentää osat toiminnon tuotoksen mukaan
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
 2.  Valitse **Muokkaa** -toiminto.  
@@ -100,7 +100,7 @@ Tuotantotilauksessa voidaan esimerkiksi määrittää, että 800 metrin tuottami
 
 Kulutus kirjataan automaattisesti, kun tuotos rekisteröidään. Lisätietoja on kohdassa [Tuotoksen ja ajoaikojen eräkirjaaminen](production-how-to-post-output-quantity.md).
 
-## <a name="flushing-methods"></a>Materiaalinottotavat
+## Materiaalinottotavat
 
 Seuraavassa taulukossa käsitellään käytettävissä olevia materiaaliottomenetelmien vaihtoehtoja, jotka voidaan määrittää **Nimike**- ja **Varastointiyksikkö**-korteissa.
 
@@ -112,7 +112,7 @@ Seuraavassa taulukossa käsitellään käytettävissä olevia materiaaliottomene
 |Poiminta + eteenpäin|Sama kuin materiaalinottotapa eteenpäin lukuun ottamatta sitä, että toimintoa käytetään vain sijainneissa, joissa käytetään joko varastoinnin laajennettua määritystä tai varastoinnin perusmääritystä ja pakollisia varastopaikkoja.<br><br> Kulutus lasketaan ja kirjataan varastopaikasta, joka on määritetty **Tuotannon valm.var.paik.koodi** -kentässä sijainnissa tai kuormitusryhmässä sen jälkeen, kun komponentti on poimittu varastosta.<br><br> **Huomautus** <br>Jos komponentin materiaalinottotavaksi on määritetty Poiminta + Eteenpäin, sillä ei voi olla toiminnon reitityslinkkikoodia, jonka materiaalinottotavaksi on määritetty Eteenpäin. Osa poistetaan automaattisesti toiminnon alkaessa, minkä vuoksi poimintatoimintoa ei voi pyytää.|
 |Poiminta + taaksepäin|Sama kuin materiaalinottotapa taaksepäin lukuun ottamatta sitä, että toimintoa käytetään vain sijainneissa, joissa käytetään joko varastoinnin laajennettua määritystä tai varastoinnin perusmääritystä ja pakollisia varastopaikkoja.<br><br> Kulutus lasketaan ja kirjataan varastopaikasta, joka on määritetty **Tuotannon valm.var.paik.koodi** -kentässä sijainnissa tai kuormitusryhmässä sen jälkeen, kun komponentti on poimittu varastosta.|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Tuotannon tuoterakenteiden luominen](production-how-to-create-production-boms.md)  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  

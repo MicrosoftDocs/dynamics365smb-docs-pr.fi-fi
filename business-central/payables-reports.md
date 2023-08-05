@@ -8,15 +8,15 @@ ms.search.form: '347, Report_301, Report_304, Report_305, Report_312, Report_317
 ms.date: 07/13/2021
 ms.author: edupont
 ---
-# <a name="accounts-payable-reports-and-analytics-in-business-central"></a>Ostovelkojen raportit ja analytiikka Business Centralissa
+# Ostovelkojen raportit ja analytiikka Business Centralissa
 
 Jotta voit hallita ostovelkojasi helpommin [!INCLUDE [prod_short](includes/prod_short.md)]issa, vakioraportit ja analytiikka ovat sisään rakennettuina. Se ylittää perinteisen raportoinnin rajoitukset, jotta voit suunnitella tehokkaasti erityyppisiä raportteja.  
 
-## <a name="reports"></a>Raportit
+## Raportit
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md)  
 [Dimensioiden käyttäminen](finance-dimensions.md)  
