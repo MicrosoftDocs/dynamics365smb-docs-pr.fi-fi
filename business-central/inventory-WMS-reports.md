@@ -8,15 +8,15 @@ ms.search.form: 'Report_707, Report_716, Report_813, Report_1001, Report_5807, R
 ms.date: 04/13/2023
 ms.author: andreipa
 ---
-# Varasto, varastoraportit ja analytiikka Business Centralissa
+# <a name="inventory-and-warehouse-reports-and-analytics-in-business-central"></a>Varasto, varastoraportit ja analytiikka Business Centralissa
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -varastoraporttien avulla varaston ja liiketoiminnan ammattilaiset voivat saada merkityksellistä tietoa ja analytiikkaa nykyisistä ja aiemmista varastotoiminnoista.  
 
-## Raportit
+## <a name="reports"></a>Raportit
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
 
-## Tehtävät
+## <a name="tasks"></a>Tehtävät
 
 Seuraavissa artikkeleissa kuvataan joitakin yrityksen tilan analysointiin liittyviä keskeisiä tehtäviä:
 
@@ -24,7 +24,7 @@ Seuraavissa artikkeleissa kuvataan joitakin yrityksen tilan analysointiin liitty
 * [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)
 
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Varaston määrittäminen](inventory-setup-inventory.md)  
 [Varasto](inventory-manage-inventory.md)  

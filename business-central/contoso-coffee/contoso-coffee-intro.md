@@ -9,12 +9,12 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# Johdatus Contoso Coffee -demotietoihin
+# <a name="introduction-to-contoso-coffee-demo-data"></a>Johdatus Contoso Coffee -demotietoihin
 
 Contoso Coffee on kuvitteellinen yritys, joka tuottaa kuluttajille ja yrityksille kahvinkeittimiä. **Contoso Coffee** -sovellukset Business Centralille lisäävät demotietoja, joiden avulla voit opetella käyttämään ominaisuuksia Business Centralissa.  
 
 
-## Contoso Coffee -tietojen määrittäminen
+## <a name="set-up-contoso-coffee-data"></a>Contoso Coffee -tietojen määrittäminen
 
 Contoson Coffee -esittelytietojen käyttäminen edellyttää, että asennat asianomaiseen yritykseen [!INCLUDE [prod_short](../includes/prod_short.md)] -ratkaisussa kaksi sovellusta:  
 
@@ -31,7 +31,7 @@ Sen jälkeen tulisi täyttää:
  - [Tuotannon asetusten](manufacturing/contoso-coffee-manufacturing-intro.md) laatiminen [tuotantoskenaarioiden](#manufacturing-scenarios) käyttöä varten
  - [Varastoinnin asetusten](warehousing/contoso-coffee-warehousing-intro.md) laatiminen [varastoinnin skenaarioiden](#warehousing-scenarios) käyttöä varten
 
-## Tuotantoskenaariot
+## <a name="manufacturing-scenarios"></a>Tuotantoskenaariot
 
 Contoso Coffee -esittelytiedot tukevat tällä hetkellä seuraavia testi- ja harjoittelutuotantoskenaarioita:
 
@@ -49,7 +49,7 @@ Lue kunkin skenaarion vaiheet asianomaisessa artikkelissa.
 > [!IMPORTANT]
 > Tuotannon vaihekuvaukset edellyttävät, että käyttäjäkokemukseksi on asetettu *Premium* **Yritystiedot**-sivulla.
 
-## Varastointiskenaariot
+## <a name="warehousing-scenarios"></a>Varastointiskenaariot
 
 Contoso Coffee -esittelytiedot tukevat tällä hetkellä seuraavia testi- ja harjoitteluvarastointiskenaarioita:
 
@@ -59,7 +59,7 @@ Contoso Coffee -esittelytiedot tukevat tällä hetkellä seuraavia testi- ja har
 
 Lue kunkin skenaarion vaiheet asianomaisessa artikkelissa.
    
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Tuotanto](../production-manage-manufacturing.md)  
 [Varastointi](../warehouse-manage-warehouse.md)  

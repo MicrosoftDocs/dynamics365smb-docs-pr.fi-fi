@@ -6,11 +6,11 @@ ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Varoitukset ja virhesanomat Dynamics 365 Business Centralissa
+# <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Varoitukset ja virhesanomat Dynamics 365 Business Centralissa
 
 Työpäivän aikana voi näkyä ilmoituksia [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa esimerkiksi siitä, että jotain on mennyt pieleen tai että jotain ei voitu kirjata. Ilmoituksen avulla on usein helppo ratkaista asia tai peruuttaa tekemäsi muutokset. Muissa tapauksissa sinulla ei ehkä ole tietoja, joita tarvitset ratkaistaksesi asian. Tässä artikkelissa on vihjeitä siitä, miten voit onnistua.  
 
-## Tuotteen sisäinen käyttäjätuki
+## <a name="in-product-user-assistance"></a>Tuotteen sisäinen käyttäjätuki
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman oletusversio sisältää useimpien kenttien, sarakkeiden ja toimintojen kuvaukset, joita voi käyttää, kun valitset nimen. Yhdessä tärkeiden sivujen, kuvailevien kuvatekstien ja ohjetekstien opastusvihjeiden kanssa nämä työkaluvihjeet tai kuvatekstit ovat nykyinen *upotetun käyttäjätuen* toteutus, mikä on tärkeä periaate nykyisessä ohjelmistosuunnittelussa.  
 
@@ -18,15 +18,15 @@ Jos sinulla on kysyttävää jostakin kentästä tai käyttöliittymän jostakin
 
 Saadaksesi lisätietoja, katso [Dynamics 365 Business Central -käyttäjäapumalli](/dynamics365/business-central/dev-itpro/user-assistance)n hallinnon sisällössä [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmalle.  
 
-## Ohje- ja tukisivu
+## <a name="help-and-support-page"></a>Ohje- ja tukisivu
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in Ohje-valikosta (kysymysmerkki oikeassa yläkulmassa) pääsee **Ohje ja tuki** -sivulle. Siellä on linkkejä resursseihin, jotka auttavat löytämään vastauksia kysymyksiin. Lisätietoja on kohdassa [Resurssit ohjeelle ja tuelle](product-help-and-support.md).  
 
-## Auta muita
+## <a name="help-others"></a>Auta muita
 
 Jos olet järjestelmänvalvoja tai pääkäyttäjä, voit auttaa muita käyttäjiä etsimällä virhesanomia **Virhesanomien rekisteröinti**- tai Hallintokeskus -sivuilta. Monissa tapauksissa varoitus- tai virhesanomassa on kyse asennuksesta tai puutteellisista oikeuksista ja samankaltaisissa kysymyksissä, joissa pääkäyttäjä tai järjestelmänvalvoja voi helposti auttaa. Muissa tapauksissa saatat joutua tarkastamaan sivut syyn selvittämiseksi. Lisätietoja on kohdassa [Teknisten tietojen etsiminen](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) [!INCLUDE [prod_short](includes/prod_short.md)] -hallintasisällöstä.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
 [Usein kysytyt kysymykset](across-faq.yml)  

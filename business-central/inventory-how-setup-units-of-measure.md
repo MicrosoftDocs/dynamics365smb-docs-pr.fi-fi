@@ -10,7 +10,7 @@ ms.search.keywords: UOM
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Mittayksikön määrittäminen
+# <a name="set-up-units-of-measure"></a>Mittayksikön määrittäminen
 
 Mittayksiköt määritetään [!INCLUDE [prod_short](includes/prod_short.md)]in määritysten osana **Mittayksikkö**-sivulla. Kun sitten rekisteröit uusia nimikkeitä, perusmittayksikkö määritetään **nimikkeen kortissa**. Mittayksiköt voi lisätä myös myöhemmin.  
 
@@ -23,7 +23,7 @@ Jos nimike varastoidaan yhtä mittayksikköä ja tuotetaan toista mittayksikkö�
 
 Toinen työkalu, jonka avulla nimikkeiden eri mittayksiköitä on helpompi käsitellä, on mahdollisuus määrittää pyöristystarkkuus perusmittayksiköitä varten. Pyöristystarkkuuden määrittäminen antaa ohjeita siitä, mitä jonkun tiettyyn liiketoimintaprosessiin tulee syöttää, ja auttaa vähentämään pyöristysongelmia. Kun käytät vaihtoehtoisia mittayksiköitä, **Määrä mittayksikköä kohti** -kentän arvo auttaa laskemaan määrän perusmittayksikössä, mikä voi johtaa pyöristysongelmiin. Oletetaan esimerkiksi, että vastaanotat yhden laatikon, jossa on kuusi nimikettä. Kun laatikko saapuu fyysiseen varastoon, huomaat, että yksi kuudesta nimikkeestä puuttuu. Et kirjaakaan yhden laatikon vastaanottoa, vaan muutat vastaanotetuksi määräksi viisi kuudesta kappaleesta. Tämä johtaisi viiden sijasta 4,99998 kappaleen vastaanottoon. **Nimikkeen mittayksiköt** -sivulla **Määrän pyöristystarkkuus** -kenttään voidaan määrittää arvo, joka muuntaa määrän helpommin ymmärrettävän numeromuotoon. Jatkaen esimerkistä, syötämme **1** kenttään, jotta pyöristetään täyteen viiteen kappaleeseen.
 
-## Mittayksikön määrittäminen
+## <a name="to-set-up-units-of-measure"></a>Mittayksikön määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Mittayksiköt** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto. Uusi tyhjä rivi lisätään.  
@@ -36,7 +36,7 @@ Toinen työkalu, jonka avulla nimikkeiden eri mittayksiköitä on helpompi käsi
 
 Kun rekisteröit uuden nimikkeen, voit valita perusmittayksikön mittayksikköluettelosta, joka on nyt määritetty. Voit määrittää nimikkeelle myös useita mittayksikköitä.  
 
-## Useiden nimikkeiden mittayksikön määrittäminen
+## <a name="to-set-up-multiple-item-units-of-measure"></a>Useiden nimikkeiden mittayksikön määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
 2. Avaa nimikkeen kortti, jolle haluat määrittää vaihtoehtoisen mittayksikön.
@@ -54,7 +54,7 @@ Kun rekisteröit uuden nimikkeen, voit valita perusmittayksikön mittayksikkölu
 
 Voit nyt käyttää vaihtoehtoisia mittayksiköitä osto-, tuotanto- ja myyntiasiakirjoissa. Lisätietoja: [Oletusmittayksikön koodien määrittäminen myynti- ja ostotapahtumille](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
 
-## Mittayksikön käännösten määrittäminen
+## <a name="to-set-up-unit-of-measure-translations"></a>Mittayksikön käännösten määrittäminen
 
 Jos myyt nimikkeitä ulkomaisille asiakkaille, mittayksikkö halutaan enkä määrittää asiakkaan kielellä. Voit tehdä sen määrittämällä mittayksiköiden käännökset.
 
@@ -64,7 +64,7 @@ Jos myyt nimikkeitä ulkomaisille asiakkaille, mittayksikkö halutaan enkä mä�
 4. Syötä **Kuvaus**-kenttään asianmukainen teksti.
 5. Toista vaiheet 2–4 niiden mittayksikön koodien ja kielien osalta, joille haluat antaa käännöksen.
 
-## Oletusmittayksikön koodien määrittäminen myynti- ja ostotapahtumille
+## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Oletusmittayksikön koodien määrittäminen myynti- ja ostotapahtumille
 
 Jos ostat tai myyt tavallisesti eri yksiköissä kuin perusmittayksiköissä, voit määrittää erillisiä mittayksiköitä ostoille ja myynneille. Tehdäksesi näin **Nimikkeen mittayksiköt** -sivulla tulee määrittää mittayksiköitä.
 
@@ -74,9 +74,9 @@ Jos ostat tai myyt tavallisesti eri yksiköissä kuin perusmittayksiköissä, vo
 4. Avaa oston osalta **Täydennys**-pikavälilehden **Oston mittayksikkö** -kentässä **Nimikkeen mittayksiköt** -sivu.
 5. Valitse myynnin tai oston oletusmittayksiköksi määritettävä koodi ja valitse sitten **OK**.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trade-master-data-dynamics-365-business-central/)
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Tuotantoerän mittayksiköiden käyttäminen](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)  
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  

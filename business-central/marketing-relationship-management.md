@@ -12,7 +12,7 @@ ms.search.forms: '9076, 9026'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# Kontaktienhallinta
+# <a name="managing-relationships"></a>Kontaktienhallinta
 [!INCLUDE[prod_short](includes/prod_short.md)]in kontaktienhallinnan toiminnot auttavat myyntitoimintojen hallinnassa ja tukemisessa. Ominaisuuksien avulla saat kaikki tiedot käyttöösi tarkkoina ja ajantasaisina ja voit keskittyä ensisijaisten asiakas-/kontaktisegmenttien hoitamiseen.
 
 Tärkeintä hyvissä myynti- ja markkinointikäytännöissä on tehdä oikeita päätöksiä oikeaan aikaan. [!INCLUDE[prod_short](includes/prod_short.md)]in avulla kontaktien tietojen yleiskuvaus on saatavana täsmällisenä ja oikea-aikaisesti. Ohjelman avulla voit palvella mahdollisia asiakkaita tehokkaammin ja parantaa asiakastyytyväisyyttä.

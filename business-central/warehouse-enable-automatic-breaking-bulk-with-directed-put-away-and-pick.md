@@ -11,21 +11,21 @@ ms.search.form: '5703, 7352'
 ms.date: 11/04/2022
 ms.author: bholtorf
 ---
-# Irtotavaran ohjatulla hyllytyksellä ja poiminnalla tapahtuvan automaattisen erottelun ottaminen käyttöön
+# <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Irtotavaran ohjatulla hyllytyksellä ja poiminnalla tapahtuvan automaattisen erottelun ottaminen käyttöön
 
 Jos sijainneissa käytetään ohjattua hyllytystä ja poimintaa, [!INCLUDE[prod_short](includes/prod_short.md)] voi erotella ison mittayksikön pienempiin mittayksiköihin, kun luodaan fyysisen varastoinnin ohjeita, jotka täyttävät lähdeasiakirjojen, tuotantotilausten tai sisäisten poimintojen ja hyllytysten tarpeet. Erottelu voi tarkoittaa myös sitä, että nimikkeitä kerätään pienemmissä mittayksiköissä lähdeasiakirjan tai tuotantotilauksen suuremman mittayksikön määrän verran.
 
-## Erotteleminen poiminnoissa  
+## <a name="breakbulk-in-picks"></a>Erotteleminen poiminnoissa
 
 Jos haluat varastoida nimikkeitä useissa eri mittayksiköissä sijainnissa ja antaa ohjelman yhdistellä automaattisesti niitä poimintaprosessissa, ota käyttöön sijaintikortin **Salli erottelu** -valinta. Myöhemmin [!INCLUDE [prod_short](includes/prod_short.md)] -sovellus etsii tehtävän toteuttamista varten automaattisesti nimikettä, joka olisi samassa mittayksikössä. Jos sellaista ei löydy, [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelma ehdottaa, että katkaiset suuremman mittayksikön tarpeen mukaan pienemmäksi.  
 
 Jos vain pieniä mittayksiköitä on tarjolla, [!INCLUDE [prod_short](includes/prod_short.md)] ehdottaa, että nimikkeitä kerätään yhteen toimituksen tai tuotantotilauksen määrän täyttämiseksi. Itse asiassa se jakaa lähdeasiakirjan ison mittayksikön pienempiin poimintaa varten.  
 
-## Erottelu hyllytyksissä  
+## <a name="breakbulk-in-put-aways"></a>Erottelu hyllytyksissä
 
 [!INCLUDE [prod_short](includes/prod_short.md)] ehdottaa, että fyysisen varastoinnin hyllytykset asettavat toimenpiderivit hyllytyksen mittayksikköön. Se voi esimerkiksi ehdottaa kappaletta, vaikka nimikkeet saapuvat eri mittayksikössä.  
 
-## Erottelu varastosiirroissa  
+## <a name="breakbulk-in-movements"></a>Erottelu varastosiirroissa
 
 [!INCLUDE [prod_short](includes/prod_short.md)] voi myös tehdä erottelun täydennyksen siirroissa, jos **Laske varasto paikkojen täydennys** -sivulla oleva **Salli erottelu** -valinta on otettu käyttöön.  
 
@@ -40,7 +40,7 @@ Muunnosprosessin mittayksiköstä toiseen tuloksia voi katsella välissä olevin
 > - Määrittää nimikkeen perusmittayksiköksi pienin mittayksikkö, jota oletat käsitteleväsi fyysisen varastoinnin prosesseissa.  
 > - Määrittää nimikkeen vaihtoehtoisiksi mittayksiköiksi perusmittayksikön kerrannaisia.  
 
-## Katso myös  
+## <a name="see-also"></a>Katso myös
 
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
 [Varasto](inventory-manage-inventory.md)  

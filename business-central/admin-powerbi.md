@@ -10,13 +10,13 @@ ms.date: 07/17/2023
 ms.author: jswymer
 ms.custom: bap-template
 ---
-# [!INCLUDE[prod_short](includes/prod_short.md)]-sovelluksen ja Power BI:n esittely
+# <a name="introduction-to--and-power-bi"></a>[!INCLUDE[prod_short](includes/prod_short.md)]-sovelluksen ja Power BI:n esittely
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -tiedoista saa kätevästi merkityksellisiä tietoja Microsoftin tietojen visualisointiin käytetyn [Power BI:n](https://powerbi.microsoft.com). Power BI noutamista [!INCLUDE[prod_short](includes/prod_short.md)] -tiedoista voidaan muodostaa tietoihin perustuvia koontinäyttöjä ja raportteja. Power BI on joustava vaihtoehto [!INCLUDE[prod_short](includes/prod_short.md)]in raporteille, sillä sen avulla voi porautua tietoja ja mukauttaa visualisointia sekä jopa yhdistää tietoja [!INCLUDE[prod_short](includes/prod_short.md)]in eri yrityksistä. Jotkin Power BI -raportit voidaan myös upottaa Business Centraliin, jossa niitä voidaan tarkastella järjestelmästä poistumatta. Monimutkaisia koontinäyttöjä kannattaa kuitenkin tarkastella Power BI -sivustossa.
 
 ![Power BI ja Business Central.](media/power-bi-intro.png)
 
-## Power BI:n ja [!INCLUDE[prod_short](includes/prod_short.md)]in käyttötapoja
+## <a name="what-you-can-do-with-power-bi-and-"></a>Power BI:n ja [!INCLUDE[prod_short](includes/prod_short.md)]in käyttötapoja
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in ja Power BI:n käyttöä varten on erilaisia ominaisuuksia. Joitakin toimintoja voi tehdä Power BI:ssa, kun taas joitakin tehdään [!INCLUDE[prod_short](includes/prod_short.md)]issa. Lisäksi osa ominaisuuksista on käytössä vain [!INCLUDE[prod_short](includes/prod_short.md)] online -versiossa mutta ei paikallisessa versiossa. Seuraavassa taulukossa on ominaisuuksien yleiskuva.
 
@@ -30,7 +30,7 @@ ms.custom: bap-template
 
 <a name="onprem"><sup>*</sup></a> Tätä ominaisuutta varten tarvitaan Microsoft Azuressa rekisteröity Business Centralin sovellus. Lisätietoja on kohdassa [Paikallisen Business Centralin rekisteröinti Azure AD:ssä muiden palvelujen integrointia varten](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## Power BI:n valmistelu käyttöä varten
+## <a name="get-ready-to-use-power-bi"></a>Power BI:n valmistelu käyttöä varten
 
 Muutama tehtävä on suoritettava, ennen kuin Power BI:ta voi käyttää [!INCLUDE[prod_short](includes/prod_short.md)]in kanssa. <!-- Some of the tasks are typically only done by administrators or super users.--> Tehtävät määräytyvät sen mukaan, mikä roolisi organisaatiossa on ja mitä haluat tehdä Power BI:ssä.
 
@@ -45,7 +45,7 @@ Muutama tehtävä on suoritettava, ennen kuin Power BI:ta voi käyttää [!INCLU
 |Business Central -tietojen julkaiseminen Power BI:hin||![se on valintamerkki.](media/check.png)|![jälleen valintamerkki](media/check.png)|[Tietojen näyttäminen API-sivujen tai OData-verkkopalvelujen kautta](admin-powerbi-setup.md#exposedata)
 |Ota Power BI -integrointi käyttöön<br />(vain paikallinen)||![se on valintamerkki.](media/check.png)||[Määritä paikallinen Business Central Power BI -integraatiota varten](admin-powerbi-setup.md#setup)|
 
-## Liiketoiminnan KPI:iden seuraaminen Power BI -mittareiden avulla
+## <a name="track-your-business-kpis-with-power-bi-metrics"></a>Liiketoiminnan KPI:iden seuraaminen Power BI -mittareiden avulla
 
 Jos käytät Power BI:tä [!INCLUDE[prod_short](includes/prod_short.md)] -tietoihin, voit helposti seurata sinulle tärkeitä suorituskykyilmaisimia tai mittareita. 
 
@@ -65,14 +65,14 @@ Lisätietoja Power BI-mittareista on kohdassa [Power BI:n mittareiden käytön a
 > [!NOTE]
 > Tällä hetkellä Power BI:n tuloskortteja ei voi upottaa [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan.
 
-## Seuraavat vaiheet
+## <a name="next-steps"></a>Seuraavat vaiheet
 
 - Jos olet järjestelmänvalvoja, joka täytyy määrittää Power BI [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan, siirry kohtaan [Power BI -integroinnin käyttöönotto](admin-powerbi-setup.md).
 - Jos Power BI on jo määritetty ja haluat kokeilla ominaisuuksia, siirry kohtaan [Power BI -raporttien käsitteleminen Business Centralissa](across-working-with-powerbi.md).
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Business Intelligence](bi.md)  
 [Määritä [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

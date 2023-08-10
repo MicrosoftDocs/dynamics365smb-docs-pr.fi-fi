@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# Nimikkeiden poiminta fyysisen varastoinnin toimitusta varten
+# <a name="pick-items-for-warehouse-shipment"></a>Nimikkeiden poiminta fyysisen varastoinnin toimitusta varten
 
 [!INCLUDE[prod_short](includes/prod_short.md)]issa nimikkeet poimintaan ja toimitukseen on käytettävissä neljä tapaa, jotka käsitellään seuraavassa taulukossa.
 
@@ -39,7 +39,7 @@ Fyysisen varastoinnin poiminta-asiakirjaa ei voi luoda tyhjästä. Poiminnat ova
 >  
 > Lisätietoja kokoonpanotilausten komponenttien poiminnasta, mukaan lukien tilanteissa, joissa kokoonpanon nimikkeet eivät liity myyntitoimitukseen, on kohdassa [Poiminta tuotantoon, kokoonpanoon tai projekteihin fyysisen varastoinnin laajennetuissa määrityksissä](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
-## Poiminta-asiakirjojen joukkoluonti poimintatyökirjan avulla
+## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Poiminta-asiakirjojen joukkoluonti poimintatyökirjan avulla
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poimintatyökirja** ja valitse sitten vastaava linkki.  
 
@@ -89,7 +89,7 @@ Fyysisen varastoinnin poiminta-asiakirjaa ei voi luoda tyhjästä. Poiminnat ova
 
 8. Valitse **OK**. [!INCLUDE [prod_short](includes/prod_short.md)] luo valintojen mukaisen poiminnan.  
 
-## Fyysisen varastoinnin toimituksen nimikkeiden poimiminen
+## <a name="to-pick-items-for-a-warehouse-shipment"></a>Fyysisen varastoinnin toimituksen nimikkeiden poimiminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston poiminnat** ja valitse sitten vastaava linkki.  
 
@@ -111,9 +111,9 @@ Fyysisen varastoinnin poiminta-asiakirjaa ei voi luoda tyhjästä. Poiminnat ova
 
 Nimikkeet voidaan nyt tuoda toimitusalueelle ja toimitus voidaan kirjata, mukaan lukien liittyvä lähdeasiakirja, **F.var. toimitus** -sivulla. Lisätietoja on kohdassa [Nimikkeiden toimittaminen](warehouse-how-ship-items.md).
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/pick-ship-items-warehouse/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/pick-ship-items-warehouse/)
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
 [Varasto](inventory-manage-inventory.md)  

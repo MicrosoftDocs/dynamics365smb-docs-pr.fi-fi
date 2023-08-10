@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 09/17/2021
 ms.author: edupont
 ---
-# Rakennetiedot: Muutoksen arvotapahtuman kirjauspäivämäärä
+# <a name="design-details-posting-date-on-adjustment-value-entry"></a>Rakennetiedot: Muutoksen arvotapahtuman kirjauspäivämäärä
 
 Tässä artikkelissa on ohjeita varaston arvostustoimintojen käyttäjille [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa ja erityisesti siitä, miten **Muuta kust. - nimiketapahtumat** -eräajo tunnistaa ja liittää kirjauspäivämäärän arvotapahtumiin, jotka eräajo on aikeissa luoda.
 
-## Miten kirjauspäivämäärät määritellään
+## <a name="how-posting-dates-are-assigned"></a>Miten kirjauspäivämäärät määritellään
 
 **Muuta kustannuksia - Nimiketapahtumat** -eräajo määrittää kirjauspäivämäärän arvotapahtumalle, jonka se luo seuraavien vaiheiden avulla:  
 
@@ -26,7 +26,7 @@ Tässä artikkelissa on ohjeita varaston arvostustoimintojen käyttäjille [!INC
 
 Tarkastellaan tätä prosessia lähemmin. Oletetaan, että käsittelyssä on myynnin nimiketapahtuma. Nimike on toimitettu 5.9.2020 ja laskutettu päivää myöhemmin.  
 
-#### Nimiketapahtuma
+#### <a name="item-ledger-entry"></a>Nimiketapahtuma
 
 |Tapahtumanro  |Nimikkeen nro  |Kirjauspäivämäärä  |Tapahtuman tyyppi  | Asiakirjanumero |Sijaintikoodi   |määrä  |Kustannussumma (Tod.)  |Laskutettu määrä  |Jäljellä oleva määrä  |
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
@@ -52,7 +52,7 @@ Määrittääksesi **Tapahtuman 391** kirjauspäivämäärän seuraavat vaiheet 
 
 Tarkistetaan yllämainittu myynti lisäämällä sallittujen kirjauspäivämääräalueiden asetukset.  
   
-#### Varastokaudet
+#### <a name="inventory-periods"></a>Varastokaudet
 
 |Lopetuspvm  |Name  |Suljettu  |
 |---------|---------|---------|
@@ -71,7 +71,7 @@ Tarkistetaan yllämainittu myynti lisäämällä sallittujen kirjauspäivämää
 
 Ensimmäinen sallittu kirjauspäivämäärä on ensimmäisen avoimen kauden ensimmäinen päivä eli 1.9.2020.  
 
-#### Pääkirjanpidon asetukset
+#### <a name="general-ledger-setup"></a>Pääkirjanpidon asetukset
 
 |Kenttä|Arvo  |
 |---------|---------|
@@ -93,19 +93,19 @@ Alkuperäinen määritetty kirjauspäivämäärä oli 6.9., kuten vaiheessa 1 ke
 |381     |  A       |    2020-09-06     |    Myynti     | Välitön kustannus   | 103022        |319     | Sininen        |  0       |-1        |-10       |    10     | Ei  |0      |       Myynti   |
 |391     |  A       |    **2020-09-10**     |    Myynti     | Välitön kustannus   | 103022        |319     | Sininen        |  0       |0         |-1        |    0     |Kyllä   |    181   | VARMUUTOS   |
 
-## Yleisiä ongelmia Muuta kustannuksia - Nimiketapahtumat -eräajossa
+## <a name="common-problems-with-the-adjust-cost---item-entries-batch-job"></a>Yleisiä ongelmia Muuta kustannuksia - Nimiketapahtumat -eräajossa
 
 On olemassa kaksi skenaariota, joita tuki tiimi kohtaa niin usein, että niillä on omat ongelmanratkaisuartikkelinsa.
 
-### Virhesanoma: "Kirjauspäivämäärä ei kuulu sallittujen kirjauspäivämäärien alueeseen..."
+### <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Virhesanoma: "Kirjauspäivämäärä ei kuulu sallittujen kirjauspäivämäärien alueeseen..."
 
 Jos kohtaat tämän virheen, sinun täytyy muuttaa päivämääriä, jolloin käyttäjällä on oikeus kirjata tapahtumia. Lisätietoja: [Virhesanoma: "Kirjauspäivämäärä ei kuulu sallittujen kirjauspäivämäärien alueeseen"](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)
 
-### Kirjauspäivämäärään verratun muutoksen arvotapahtuman kirjauspäivämäärän vuoksi muutos voi olla uudelleenarvostus tai nimikekulu.
+### <a name="posting-date-on-adjustment-value-entry-versus-posting-date-on-entry-causing-the-adjustment-such-as-revaluation-or-item-charge"></a>Kirjauspäivämäärään verratun muutoksen arvotapahtuman kirjauspäivämäärän vuoksi muutos voi olla uudelleenarvostus tai nimikekulu.
 
 Lisätietoja: [Oikaisun arvon tapahtuman kirjauspäivämäärä verrattuna lähdetapahtumaan](design-details-inventory-adjustment-value-entry-source-entry.md)
 
-## Katso myös  
+## <a name="see-also"></a>Katso myös
 
 [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)  
 [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md)  

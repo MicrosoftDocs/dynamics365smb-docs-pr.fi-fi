@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Kuljetusliikkeiden määrittäminen
+# <a name="set-up-shipping-agents"></a>Kuljetusliikkeiden määrittäminen
 Voit määrittää koodin jokaiselle kuljetusliikkeelle, ja syöttää tietoja niistä.  
 
 Jos syötät Internet-osoitteen kuljetusliikkeen kohdalle, ja jos kuljetusliike tarjoaa kollinseurantapalveluja Internetissä, voit käyttää ohjelman automaattista kollin seuranta -ominaisuutta. Lisätietoja on kohdassa [Kollien seuraaminen](sales-how-track-packages.md).
@@ -20,7 +20,7 @@ Voit määrittää rajoittamattoman määrän palveluita jokaiselle kuljetusliik
 
 Kun olet määrittänyt kuljetusliikkeen palvelun myyntitilausriville, palvelun toimitusaika sisällytetään sille riville toimituksen lupaamisen laskentaan. Lisätietoja on kohdassa [Toimituksen lupaamisen päivämäärän laskeminen](sales-how-to-calculate-order-promising-dates.md).
 
-## Kuljetusliikkeiden määrittäminen  
+## <a name="to-set-up-a-shipping-agent"></a>Kuljetusliikkeiden määrittäminen
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kuljetusliikkeet** ja valitse sitten vastaava linkki.  
 2.  Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Valitse **Kuljetusliikkeen palvelut** -toiminto.
@@ -29,7 +29,7 @@ Kun olet määrittänyt kuljetusliikkeen palvelun myyntitilausriville, palvelun 
 > [!NOTE]  
 >  Jos poistat kuljetusliikkeen tilausriviltä, ohjelma poistaa riviltä myös kuljetusliikkeen palvelukoodin. Ohjelma laskee sen jälkeen uudelleen kenttien tiedot, jotka perustuivat osittain kuljetusliikkeiden palveluihin.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 [Toimitusehtojen määrittäminen](sales-how-set-up-shipment-methods.md)  
 [Kollien seuraaminen](sales-how-track-packages.md)    
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)

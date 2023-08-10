@@ -10,7 +10,7 @@ ms.search.keywords: 'posting, interface, design'
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# Rakenteen tiedot: Kirjausliittymän rakenne
+# <a name="design-details-posting-interface-structure"></a>Rakenteen tiedot: Kirjausliittymän rakenne
 [!INCLUDE[prod_short](includes/prod_short.md)] -kirjausliittymän rakenteessa on useita globaaleja proseduureja, jotka käyttävät samaa rakennetta:  
   
 * RunWithCheck- ja RunWithoutCheck-kutsuproseduurin Code – yleinen kirjausliittymä päiväkirjan riville.  
@@ -19,7 +19,7 @@ ms.author: edupont
 * UnapplyCustLedgEntry – peruuta asiakassovelluksen kirjaus, kutsuja on codeunit 226 CustEntry-käytä kirjattuja tapahtumia.  
 * UnapplyVendLedgEntry – peruuta toimittajasovelluksen kirjaus, kutsuja on codeunit 227 VendEntry-käytä kirjattuja tapahtumia.  
   
-## Katso myös  
+## <a name="see-also"></a>Katso myös
 [Rakenteen tiedot: Kirjausohjelman rakenne](design-details-posting-engine-structure.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
