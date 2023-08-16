@@ -5,7 +5,7 @@ author: edupont04
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: 'SMTP, mail, Microsoft 365, cover, body, PayPal, layout'
-ms.search.form: null
+ms.search.form: '41,'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
@@ -13,7 +13,7 @@ ms.author: edupont
 
 Voit helposti jakaa tietoja ja asiakirjoja, kuten myynti- ja ostotilauksia ja laskuja, sähköpostitse suoraan [!INCLUDE[prod_short](includes/prod_short.md)]ista ilman sähköpostisovelluksen avaamista.  
 
-Voit lähettää lähes kaikentyyppisiä asiakirjoja PDF-liitteinä. Vaihtoehtoisesti voit määrittää raportin asettelun, joka sisältää asiakirjan tiedot sähköpostin tekstissä sekä tekstin, joka tekee sähköposteista entistä ystävällisempiä, esimerkiksi vakiotervehdyksen. Lisätietoja on kohdassa [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md). <!--this topic does not mention how to set up a layout for email. Need to investigate.-->
+Voit lähettää lähes kaikentyyppisiä asiakirjoja PDF-liitteinä. Vaihtoehtoisesti voit määrittää raportin asettelun, joka sisältää asiakirjan tiedot sähköpostin tekstissä sekä tekstin, joka tekee sähköposteista entistä ystävällisempiä, esimerkiksi vakiotervehdyksen. Lisätietoja on kohdassa [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md).
 
 Laskujen lähettämisen yhteydessä asiakkaiden on helpompi suorittaa maksuja maksupalvelun (esimerkiksi PayPalin) kautta lisäämällä automaattisesti sähköpostissa tietoja ja linkin palveluun. Lisätietoja on kohdassa [Asiakasmaksujen ottaminen käyttöön maksupalvelujen kautta](sales-how-enable-payment-service-extensions.md).
 
@@ -24,12 +24,12 @@ Ota sähköpostit käyttöön [!INCLUDE[prod_short](includes/prod_short.md)]issa
 
 ## Asiakirjojen lähettäminen sähköpostitse
 
-Tässä kuvataan, miten kirjattu myyntilasku liitetään sähköpostiin PDF-tiedostona ja asiakirjakohtaisen sähköpostiviestin tekstinä. <!--update this-->
+Tässä kuvataan, miten kirjattu myyntilasku liitetään sähköpostiin PDF-tiedostona ja asiakirjakohtaisen sähköpostiviestin tekstinä. Vaiheet ovat samat muissa asiakirjoissa.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut myyntilaskut** ja valitse sitten vastaava linkki.
-2. Valitse lasku ja sitten **Tulosta/Lähetä**-toiminto ja valitse **Lähetä**.
+2. Valitse lasku ja sitten **Tulosta/Lähetä**-toiminto ja valitse **Lähetä sähköpostilla**.
 3. Valitse **Sähköposti**-kentässä **Kyllä (Pyydä asetuksia)**. Lisätietoja on kohdassa [Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md).
-    
+
     Jos **Sähköposti**-kentän arvoksi on **Lähetä asiakirja kohteeseen** -sivulla määritetty **Kyllä (Pyydä asetuksia)**, **Lähetä sähköposti** -sivu avautuu. Sivun **Vastaanottaja:**-kenttään on esitäytetty kontaktihenkilön tiedot ja asiakirja on liitetty PDF-tiedostona. Voit syöttää tekstin manuaalisesti **Perusteksti**-kenttään tai kenttään voidaan täyttää määrittämäsi asiakirjakohtaisen sähköpostin perusteksti.
 
 4. Valitse **OK**-painike.
@@ -51,7 +51,17 @@ Voit luoda nopeasti sähköpostit kontakteille, asiakkaille, toimittajille, myyj
 > [!TIP]
 > Jos lähetät usein samankaltaisia sähköpostiviestejä tai haluat lähettää joukkoviestintää esimerkiksi myyntikampanjan mainostamista varten, voit nopeuttaa prosessia käyttämällä Word-malleja sähköpostiviesteissä. Voit luoda mallin sellaisille entiteeteille kuten asiakkaat, toimittajat ja kontaktit, jotka luovat sähköpostiviestin sisällön ja jopa räätälöivät sen vastaanottajan mukaan [!INCLUDE[prod_short](includes/prod_short.md)]in tietojen perusteella. Lisätietoja on kohdassa [Word-mallien käyttäminen joukkoviestinnässä](ui-mail-merge.md).  
 
+### Liitä asiakirja sähköpostiviestiin
+
+Asiakirjoja voi liittää sähköpostiviesteihin usealla eri tavalla.
+
 Jos sinulle on delegoitu sähköpostiskenaario, joka liittyy entiteettiin, jolle lähetät sähköpostiviestin, tai asiakirjaan, jonka lähetät, liite saatetaan liittää viestiin automaattisesti. Tämä johtuu siitä, että sähköpostiskenaariolle on määritetty oletusliite. Voit poistaa liitteen, jos et halua lähettää liitettä viestissä. Lisätietoja on kohdassa [Sähköpostiskenaarioiden määrittäminen sähköpostitileille](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
+
+Voit liittää tiedoston itse sähköpostieditorissa seuraavien toimintojen avulla:
+
+* Valitse tiedosto valitsemalla **Lisää tiedosto**.
+* Voit lisätä sähköpostiskenaarioon liittyvän tiedoston manuaalisesti valitsemalla **Lisää tiedostot oletusvalinnasta**.
+* Valitse asiakirjaan liitetty tiedosto valitsemalla **Lisää tiedosto lähdeasiakirjasta**. Tiedostot on liitetty joko itse asiakirjaan tai yhteen tai useampaan sen riviin.
 
 ## Asiakirjat, jotka on merkitty tulostetuiksi, kun ne lähetetään
 

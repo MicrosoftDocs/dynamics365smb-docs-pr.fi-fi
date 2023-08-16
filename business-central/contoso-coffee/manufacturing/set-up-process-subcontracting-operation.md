@@ -8,17 +8,17 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# <a name="set-up-and-process-a-subcontracting-operation"></a>Alihankintatoiminnon määrittäminen ja käsitteleminen
+# Alihankintatoiminnon määrittäminen ja käsitteleminen
 
 Tässä artikkelissa on tietoja Contoso Coffee -esittelyn tietojen käytöstä alihankinnassa.
 
-## <a name="scenario"></a>Esimerkkitilanne
+## Esimerkkitilanne
 
 Olet Contoso Coffeen tuotantosuunnittelija. Kapasiteettirajoitusten vuoksi aiot käyttää alihankkijaa tuottaaksesi nimikkeen **SP-SCM1009, Airpot**.
 
 Tässä voit luoda uuden vapautetun tuotantotilauksen nimikkeen SP-SCM1009, Airpot 12 yksikölle käyttämällä reititystä - SP-SCM1009-SUB-2. Käytä alihankintatyökirjaa tuotannon ostotilauksen luomiseen ja viimeistele operaatio sitten vastaanottamalla ja laskuttamalla ostotilaus.
 
-## <a name="steps"></a>Vaiheet
+## Vaiheet
 
 1. Luo uusi vapautettu tuotantotilaus SP-SCM1009, Airpot -nimikkeen 12 yksikölle.
 
@@ -73,6 +73,6 @@ Tässä voit luoda uuden vapautetun tuotantotilauksen nimikkeen SP-SCM1009, Airp
 
 Nimikkeen SP-SCM1009 Airpot tuotos on nyt rekisteröity.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Johdatus Contoson kahvidemotietoihin](../contoso-coffee-intro.md)  

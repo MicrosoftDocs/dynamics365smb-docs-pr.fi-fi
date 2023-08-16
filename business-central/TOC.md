@@ -1994,14 +1994,14 @@
 #### [Rakennetiedot: Dimensioyhdistelmien hakeminen](design-details-searching-for-dimension-combinations.md)  
 #### [Rakennetiedot: Taulukkorakenne](design-details-table-structure.md)
 <!--migrate to BC online-->
-## Siirtäminen Business Central Onlineen
-### [Paikallisten tietojen siirtäminen](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
-### [Pilvipalveluihin siirtymisen työkalun suorittaminen](/dynamics365/business-central/dev-itpro/administration/migration-tool?toc=/dynamics365/business-central/toc.json)
-### [Pilvipalveluun siirtymisen hallinta](/dynamics365/business-central/dev-itpro/administration/migration-management?toc=/dynamics365/business-central/toc.json)
+## Siirtyminen Business Central Onlineen
+### [Esittely](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
+<!--### [Running the Cloud Migration Tool](/dynamics365/business-central/dev-itpro/administration/migration-tool?toc=/dynamics365/business-central/toc.json)-->
+### [Pilvipalveluihin siirtymisen hallinta](/dynamics365/business-central/dev-itpro/administration/migration-manage?toc=/dynamics365/business-central/toc.json)
 ### [Siirtyminen paikallisesta Business Centralista](/dynamics365/business-central/dev-itpro/administration/migrate-business-central-on-premises?toc=/dynamics365/business-central/toc.json)
 ### [Siirtyminen Dynamics GP:stä](/dynamics365/business-central/dev-itpro/administration/migrate-dynamics-gp?toc=/dynamics365/business-central/toc.json)
-### [Siirtyminen Dynamics NAVista](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)
-### [Usein kysyttyjä kysymyksiä pilvipalveluihin siirtymisestä](/dynamics365/business-central/dev-itpro/administration/faq-intelligent-cloud?toc=/dynamics365/business-central/toc.json)
+<!--### [Migrating from Dynamics NAV](/dynamics365/business-central/dev-itpro/upgrade/Upgrade-Considerations#online?toc=/dynamics365/business-central/toc.json)-->
+### [Usein kysyttyjä kysymyksiä pilvipalveluihin siirtymisestä](/dynamics365/business-central/dev-itpro/administration/faq-migrate-data?toc=/dynamics365/business-central/toc.json)
 ## [Business Central Onlinen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-administration?toc=/dynamics365/business-central/toc.json)
 ## [Kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)
 ## [Tietoturva ja suojaus](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)

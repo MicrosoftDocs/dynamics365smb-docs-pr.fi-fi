@@ -12,7 +12,7 @@ ms.date: 03/14/2023
 ms.author: altotovi
 ---
 
-# <a name="accounting-and-bookkeeping"></a>Kirjanpito
+# Kirjanpito
 
 Kirjanpito on ratkaiseva toiminto kaikissa ERP-toiminnanohjausratkaisussa ja myös useimmissa yrityksissä. Kirjanpito edustaa prosessia, jossa yrityksen taloushallinnon tapahtumat kirjataan ja luetteloidaan, ja sitten haetaan, mitataan, tehdään yhteenvetoa ja esitetään tuloksia käyttämällä erilaisia raportteja, joita paikallinen lainsäädäntö usein vaatii. Tämän prosessin ensisijaisena tavoitteena on auttaa yrityksen johtoa ymmärtämään yrityksen taloushallintoa ja mittaamaan yrityksen taloudellisen toiminnan tuloksia.
 
@@ -100,7 +100,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 | Ota käyttöön kansainvälisten kirjanpitojärjestöjen maailmanlaajuinen taloushallinnon raportointi eXtensible Business Reporting Language (XBRL) -kielen avulla. | [Luo raportteja XBRL-linkityksellä.](bi-create-reports-with-xbrl.md) |
 | Tietokannan käyttötarkoituksen muuttaminen raporteissa, API-tyyppisillä sivuilla ja kyselyissä, jotta latauskuorma vähenee ja suorituskyky paranee. | [Tietokannan käyttötarkoitusten hallinta](admin-data-access-intent.md) |
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Myynti](sales-manage-sales.md)  

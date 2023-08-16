@@ -8,11 +8,11 @@ ms.search.form: '5, 118'
 ms.date: 03/15/2022
 ms.author: edupont
 ---
-# <a name="update-currency-exchange-rates"></a>Valuutan vaihtokurssien päivittäminen
+# Valuutan vaihtokurssien päivittäminen
 
 Voit määrittää eri valuuttoja [!INCLUDE [prod_short](includes/prod_short.md)]issa esimerkiksi silloin, kun et tee kauppaa muussa valuutassa kuin paikallisessa valuutassa. Tämän jälkeen voit auttaa itseäsi seuraamaan valuutan vaihtokurssien muutoksia, kun hallitset valuuttoja manuaalisesti tai voit määrittää valuutan vaihtokurssipalvelun.
 
-## <a name="currencies"></a>Valuutat
+## Valuutat
 
 > [!TIP]  
 > Jos etsit [!INCLUDE[prod_short](includes/prod_short.md)]issa reaaliajassa tietoa valuuttakurssien (FX) hinnoista tai historiallisista hinnoista, löydät sen nimityksellä valuutta. Tämän artikkelin lisäksi on artikkeli [Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md).
@@ -21,11 +21,11 @@ Voit määrittää eri valuuttoja [!INCLUDE [prod_short](includes/prod_short.md)
 
 Valuuttakoodit määritetään **Valuutat**-luettelossa, mukaan lukien lisätiedot ja asetukset, jotka ovat välttämättömiä kunkin valuuttakoodin osalta. Lisätietoja on ohjeaiheessa [Valuutat](finance-set-up-currencies.md#curr)
 
-### <a name="example-of-a-receivable-currency-transaction"></a>Esimerkki saamisen valuuttatapahtumasta
+### Esimerkki saamisen valuuttatapahtumasta
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="exchange-rates"></a>Vaihtokurssit
+## Vaihtokurssit
 
 Vaihtokurssit ovat työkalu, jonka avulla lasketaan kunkin valuuttatapahtuman arvo paikallisessa valuutassa (PVA). **Vaihtokurssit**-sivulla on seuraavat kentät:
 
@@ -54,7 +54,7 @@ Muutoksen vaihtokurssisummaa tai suhteellista vaihtokurssisumman muutosta käyte
 >
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
-## <a name="adjusting-exchange-rates"></a>Vaihtokurssien muuttaminen
+## Vaihtokurssien muuttaminen
 
 Koska vaihtokurssit vaihtelevat jatkuvasti, järjestelmän lisävaluutta-arvot on tarkistettava jaksoittain. Jos tarkistuksia ei tehdä, ulkomaisista valuutoista (tai lisävaluutoista) muunnetut summat voivat olla harhaanjohtavia, kun ne kirjataan pääkirjanpitoon PVA:na. Lisäksi päivittäiset tapahtumat, jotka on kirjattu ennen päivittäisen vaihtokurssin lisäämistä sovellukseen, on päivitettävä, kun päivittäinen vaihtokurssi on lisätty.
 
@@ -69,28 +69,28 @@ Voit esikatsella oikaisun vaikutusta kirjaukseen ennen kirjaamista valitsemalla 
 - **K/P-tilin mukaan**: Ei-realisoituneiden voittojen ja tappioiden K/P-tapahtumien dimensioiden arvot siirretään ei-realisoituneiden voittojen ja tappioiden K/P-tilien dimension asetusten lähdetapahtumasta.
 - **Ei siirtoa**: Ei-realisoituneiden voittojen ja tappioiden K/P-tapahtumilla ei ole dimensioiden arvoja.
 
-### <a name="effect-on-customers-and-vendors"></a>Vaikutus asiakkaisiin ja toimittajiin
+### Vaikutus asiakkaisiin ja toimittajiin
 
 Asiakkaan ja toimittajan tileillä eräajo muuttaa valuutan käyttäen sitä vaihtokurssia, joka on kirjauspäivämääränä voimassa eräajossa. Eräajo laskee yksittäisten valuuttasaldojen erot ja kirjaa summat sille kirjanpitotilille, joka on määritetty **Valuutat**-sivun **Ei-realisoit. val.voitt. tili** -kentässä tai **Ei-realisoit. val.voitt. tili** -kentässä. Vastatapahtumat kirjataan automaattisesti ostoreskontran/myyntireskontran tilille pääkirjanpidossa.
 
 Eräajo käsittelee kaikki avoimet asiakas- ja toimittajatapahtumat. Jos tapahtumassa on valuuttaero, eräajo luo uuden, eritellyn asiakas- tai toimittajatapahtuman, josta näkyy muutettu summa asiakas- tai toimittajatapahtumassa.
 
-#### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Asiakas- ja toimittajatapahtumien dimensiot
+#### Asiakas- ja toimittajatapahtumien dimensiot
 
 Muutostapahtumille on määritetty dimensiot asiakas-/toimittajatapahtumilta, ja muutokset on kirjattu dimensioarvojen kombinaatioiden mukaan.
 
-### <a name="effect-on-bank-accounts"></a>Vaikutus pankkitileihin
+### Vaikutus pankkitileihin
 
 Pankkitileillä eräajo muuttaa valuutan käyttäen sitä vaihtokurssia, joka on kirjauspäivämääränä voimassa eräajossa. Eräajo laskee eron jokaiselle tilille, jolla on valuuttakoodi ja kirjaa summat sille kirjanpitotilille, joka on määritetty **Valuutat**-sivun **Realisoitun. val.voitt. tili** -kentässä tai **Realisoit. val.tapp. tili** -kentässä. Vastatapahtumat kirjataan automaattisesti niille KP:n pankkitileille, jotka on määritelty pankkitilien postitusryhmissä. Eräajo laskee yhden tapahtuman valuuttaa ja kirjausryhmää kohden.
 
-#### <a name="dimensions-on-bank-account-entries"></a>Dimensiot pankkitilitapahtumilla
+#### Dimensiot pankkitilitapahtumilla
 
 Muutostapahtumien pankkitilin KP-tilille ja voitto/tappio tileille määritetään oletusdimensiot.
 
-### <a name="effect-on-gl-accounts"></a>Vaikutus KP-tileihin
+### Vaikutus KP-tileihin
 Jos kirjaat lisäraportointivaluutan, voit eräajon avulla luoda uusia KP-tapahtumia PVA:n ja lisäraportointivaluutan välillä tapahtuvia kurssimuutoksia varten. Eräajo laskee jokaisen kirjanpitotapahtuman erotuksen ja muuttaa kirjanpitotapahtumaa sen mukaan, mitä **Vaihtokurssin muutos** -kentässä lukee kirjanpitotilin kohdalla.
 
-##### <a name="dimensions-on-gl-account-entries"></a>Dimensiot KP-tilin tapahtumille
+##### Dimensiot KP-tilin tapahtumille
 Muutostapahtumille on määritetty niiden KP-tilien dimensiot, joille ne on kirjattu.
 
 > [!Important]
@@ -98,7 +98,7 @@ Muutostapahtumille on määritetty niiden KP-tilien dimensiot, joille ne on kirj
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
-## <a name="to-set-up-a-currency-exchange-rate-service"></a>Valuutanvaihdon kurssipalvelun määrittäminen
+## Valuutanvaihdon kurssipalvelun määrittäminen
 Voit pitää valuutan vaihtokurssit ajan tasalla ulkoisen palvelun, kuten FloatRatesin avulla. 
 
 > [!NOTE]
@@ -116,15 +116,15 @@ Voit pitää valuutan vaihtokurssit ajan tasalla ulkoisen palvelun, kuten FloatR
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
-## <a name="to-update-currency-exchange-rates-through-a-service"></a>Valuutan vaihtokurssien päivittäminen palvelun avulla
+## Valuutan vaihtokurssien päivittäminen palvelun avulla
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Valuutat** ja valitse sitten vastaava linkki.
 2. Valitse **Päivitä valuutan vaihtokurssit** -toiminto.
 
 **Valuutat**-sivun **Vaihtokurssi**-kentän arvo päivittyy uusimman valuutan vaihtokurssin mukaan.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Valuutat Business Centralissa](finance-currencies.md)  
 [Valuuttojen määrittäminen](finance-set-up-currencies.md)  

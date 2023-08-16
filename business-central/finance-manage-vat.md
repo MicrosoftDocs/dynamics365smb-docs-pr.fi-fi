@@ -11,7 +11,7 @@ ms.search.form: '118, 472, 737, 743'
 ms.date: 01/31/2023
 ms.author: altotovi
 ---
-# <a name="vat-management-overview"></a>ALV-hallinnan yleiskatsaus
+# ALV-hallinnan yleiskatsaus
 Arvonlisävero (ALV) on välillinen vero tavaroiden ja palvelujen kulutuksesta. ALV peritään toimitusketjun jokaisessa vaiheessa, jossa arvoa lisätään alkutuotannosta myyntipisteeseen. Aloita ALV-hallinta katsomalla seuraavat aiheet.  
 
 |  Artikkeli  |  Kuvaus  |  
@@ -22,13 +22,14 @@ Arvonlisävero (ALV) on välillinen vero tavaroiden ja palvelujen kulutuksesta. 
 | [Vähennyskelvottoman ALV:n määritys](finance-setup-nondeductible-vat.md) | Tässä artikkelissa on tietoja siitä, miten prosentteihin ja tileihin liittyvä vähennyskelvoton arvonlisävero määritetään oikein.|
 | [Realisoitumattoman arvonlisäveron määritys](finance-setup-unrealized-vat.md) | Jos käytät kassaperusteista kirjanpitoa, tässä artikkelissa on ohjeet siihen, miten voit määrittää myynnin ja ostojen ei-realisoituneen ALV:n käsittelyn.|
 | [ALV-ilmoitusten lähettäminen veroviranomaisille](finance-how-report-vat.md) | Tässä artikkelissa on tietoja sellaisten ilmoitusten valmistelusta, joissa mainitaan myynnin tai myynnin ja ostojen arvonlisävero tiettynä kautena, ilmoituksen lähettämisestä veroviranomaisille.|
-| [Vähennyskelvottoman ALV:n käyttäminen](finance-how-use-non-deductible-vat.md) | Tässä artikkelissa kerrotaan, miten vähennyskelvotonta ALV:tä voidaan käyttää ja raportoida.|
+| [Vähennyskelvottoman ALV:n käyttäminen](finance-how-use-non-deductible-vat.md) | Tässä artikkelissa kerrotaan, miten vähennyskelvotonta ALV:tä voidaan käyttää ja raportoida.| 
+| [EU-kolmikantatapahtumat](finance-how-to-eu3party-trade-purchase.md) | Tässä artikkelissa kerrotaan, miten järjestelmä määritetään, kun EU:n kolmannen osapuolen kauppa tapahtuu, kun ostolasku vastaanotetaan yhdestä EU-maasta/alueelta olevalta asiakkaalta, ja tuotteet lähetetään toiseen EU-maahan/alueelle saapumatta asuinmaahan.|  
 | [ALV-ilmoituksen määritys](finance-how-setup-vat-statement.md) | Tässä artikkelissa kerrotaan, miten ALV-ilmoitusmalli ja ALV-ilmoitusnimet määritetään vastaamaan muuttuvia veroviranomaisvaatimuksia.|
 | [ALV-prosenttimuutosten hallinta](finance-how-use-vat-rate-change-tool.md) | Lue tästä artikkelista, miten ALV-prosentin muutostyökalua käytetään Dynamics 365 Business Centralissa ALV-prosentin muuttamiseen paikallisen lainsäädännön mukaiseksi.|
 | [ALV-rekisterinumeroiden tarkistaminen](finance-how-validate-vat-registration-number.md) | Tässä artikkelissa kerrotaan, miten voit käyttää Business Centralin vahvistusta ALV-rekisterinumeroille kontakteillesi, asiakkaillesi ja toimittajillesi EU VIES ALV -numeron validointipalvelun perusteella.|
 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 [Taloushallinto](finance.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

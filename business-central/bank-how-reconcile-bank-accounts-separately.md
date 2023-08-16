@@ -34,11 +34,6 @@ Jos rivi sisältää kohdistettavia tapahtumia, rivin **Kohdistettu**-valintaruu
 
 Kun **Tiliotteen rivit** -ruudun **Kokonaissaldo**-kentän arvo on yhtä suuri kuin **Täsmäytettävä saldo** -kentän ja **Tilin reskontrakirjaukset** -ruudun **Viimeinen saldo** -kentän kokonaisarvo, voit valita **Kirjaa**-toiminnon. Täsmäyttämättömät pankkitilitapahtumat säilyvät sivulla, ja osoittavat eroa, joka tulee ratkaista pankkitilin täsmäyttämiseksi.
 
-Jos haluat tarkistaa pankkitilin täsmäytyksen ennen kirjausta, voit valmistella täsmäytyksen esikatselun käyttämällä **testiraportti**-toimintoa. Raportti on käytettävissä seuraavissa yhteyksissä:
-
-* Kun valmistelet pankkitilin täsmäytystä **pankkitilin täsmäytys** -sivulla.
-* Kun täsmäytät maksuja **Maksujen täsmäytyskirjauskansiot** -sivulla.
-
 Kaikki rivit, joita ei voi kohdentaa, ilmaistuina arvoina **Erotus**-kentässä, pysyvät **Pankkitilin täsmäytys** -sivulla kirjauksen jälkeen. Ne edustavat eroa, joka sinun on ratkaistava, ennen kuin voit suorittaa pankkitilin täsmäytyksen. Seuraavassa taulukossa kuvataan muutamia tavallisia liiketoimintatilanteita, jotka voivat aiheuttaa eroja.
 
 | Ero | Syy | Ratkaisu |
@@ -97,7 +92,7 @@ Voit tutkia vastaavuuksien perusteita käyttämällä **Vastaavuuden tiedot** -t
     Jos kirjoitat arvon 0 tai jätät kentän tyhjäksi, **Kohdista automaattisesti** -toiminto etsii vain vastaavat tapahtumapäivämäärät pankkitilin kirjanpitotapahtuman kirjauspäivänä.
 3. Valitse **OK**-painike.
 
-    Rivit ovat värikoodattuja, mikä auttaa hahmottamaan, mitä niillä tehdään. Kaikkien pankin tiliotteen rivien ja täsmäytettävissä olevien pankkitilitapahtumien kirjasin muuttuu vihreäksi, ja **Kohdistettu**-valintaruutu on valittuna. Pankkitilitapahtumat, jotka on jo täsmäytetty muihin pankkitilien täsmäytyksiin, näkyvät sinisenä.
+    Rivit ovat värikoodattuja, mikä auttaa hahmottamaan, mitä niillä tehdään. Pankkitiliotteiden rivien ja pankkikirjanpitotilikirjan merkintöjen, jotka täsmäävät nykyisessä pankkitarkistuksessa, kirjasin muuttuu lihavoiduksi ja vihreäksi. Pankkitilitapahtumat, jotka on jo täsmäytetty muihin pankkitilien täsmäytyksiin, kirjasin näkyy kursivoituna ja sinisenä.
 4. Voit poistaa kohdistuksen valitsemalla pankin tiliotteen rivin ja valitsemalla sitten **Poista kohdistus** -toiminto.
 
 > [!TIP]
@@ -107,6 +102,13 @@ Voit tutkia vastaavuuksien perusteita käyttämällä **Vastaavuuden tiedot** -t
 
 > [!TIP]
 > Kun rivit ja tapahtumat täsmäytetään manuaalisesti, **Näytä kaikki**, **Näytä peruutetut tapahtumat**, **Piilota peruutetut tapahtumat** ja **Näytä ei-kohdistetut** -toiminnot helpottavat yleiskuvauksen saamista. Oletusarvon mukaan pankkitilitapahtumat eivät sisällä täsmäyttämättömiä peruutettuja tapahtumia. Jos haluat sisällyttää nämä tapahtumat luetteloon ja sovittaa ne manuaalisesti, valitse **Näytä peruutetut tapahtumat** -toiminto. Jos haluat piilottaa peruutetut tapahtumat sen jälkeen, kun olet tehnyt yhden tai useampia vastaavuuksia, vastaavat tapahtumat näkyvät edelleen.
+
+> [!NOTE]
+> Et voi kirjata pankkitäsmäytystä, jos teet monta yhteen -täsmäytyksen ja jos yhdistetyissä summissa on eroja. Tämä pätee, vaikka yhdistetyt erot tasoittuvat nollaan.
+>
+> Tässä on esimerkki monta yhteen -täsmäytyksestä, jossa on eroja. Pankin tiliotteen tapahtuman 1 arvo 200 täsmäytetään kahteen pankkitapahtumaan, joiden kokonaisarvo on 180. Ero on 20. Pankin tiliotteen 2 arvo 350 täsmäytetään kahteen muuhun pankkitapahtumaan, joiden kokonaisarvo on 370. Ero on -20, joka tasapainottaa pankin tiliotteen 1 arvon 20.  
+>
+> Jos haluat kirjata pankin täsmäytyksen, jossa on eroja riveillä, kirjaa erot ja täsmäytä ne sitten kirjattuihin merkintöihin.
 
 1. Valitse **Pankkitilin täsmäytys** -sivun **Pankin tiliotteen rivit** -ruudussa kohdistamaton rivi.
 2. Valitse **Pankkitilitapahtumat** -ruudussa yksi tai useampia pankkitilitapahtumia, joihin voidaan kohdistaa valitun pankin tiliotteen rivi. Voit valita useita rivejä pitämällä <kbd>CTRL</kbd>-näppäimen painettuna ja valitsemalla sitten rivit.
@@ -121,6 +123,49 @@ Voit tutkia vastaavuuksien perusteita käyttämällä **Vastaavuuden tiedot** -t
 > [!TIP]
 > Voit poistaa kohdistuksen valitsemalla pankin tiliotteen rivin ja valitsemalla sitten **Poista kohdistus** -toiminto. Jos olet täsmäyttänyt useita pankin tiliotteen rivejä yhteen tapahtumaan ja haluat poistaa yhden tai useamman täsmäytetyn rivin, kaikki manuaaliset vastaavuudet poistetaan tapahtumakirjauksesta, kun valitset **Poista vastaavuus**.
 
+## Pankkitilin täsmäytyksen vahvistaminen
+
+Jos haluat tarkistaa pankkitilin täsmäytyksen ennen kirjausta, voit käyttää **testiraportti**-toimintoa täsmäytyksen esikatseluun. Raportti on käytettävissä seuraavissa yhteyksissä:
+
+* Kun valmistelet pankkitilin täsmäytystä **pankkitilin täsmäytys** -sivulla.
+* Kun täsmäytät maksuja **Maksujen täsmäytyskirjauskansiot** -sivulla.
+
+Rivit, joita ei voi sovittaa, pysyvät **pankkitilin täsmäytys** -sivulla kirjauksen jälkeen. Nämä rivit sisältävät arvon **ero**-kentässä. Ero on ristiriita, joka sinun on ratkaistava ennen kuin voit suorittaa pankkitilin täsmäytyksen. Seuraavassa taulukossa kuvataan muutamia tavallisia liiketoimintatilanteita, jotka voivat aiheuttaa eroja.
+
+| Ero | Syy | Ratkaisu |
+|------------|--------|------------|
+| Pankkitilisi tapahtuma [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa ei ole pankin tiliotteessa. | Pankkitapahtumaa ei luotu, vaikka kirjaus tehtiin kohteessa [!INCLUDE[prod_short](includes/prod_short.md)]. | Luo puuttuva tapahtuma (tai pyydä velallista tekemään se). Tuo sitten pankin tiliotteen tiedosto uudelleen tai syötä tapahtuma manuaalisesti. |
+| Pankin tiliotteen tapahtumaa ei ole asiakirjana tai kirjauskansion rivinä järjestelmässä [!INCLUDE[prod_short](includes/prod_short.md)]. | Pankkitapahtuma tehtiin ilman vastaavaa kirjausta kohteessa [!INCLUDE[prod_short](includes/prod_short.md)], esimerkiksi kulun kirjauskansiorivin kirjausta varten. | Luo ja kirjaa puuttuva tapahtuma. Lisätietoja nopeasta tavasta tämän tekemiseksi on aiheessa [Puuttuvien tapahtumien luominen pankkitapahtumien kohdistamiseksi.](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines) kanssa. |
+| Sisäisen pankkitilin tapahtuma vastaa pankkitapahtumaa, mutta jotkin tiedot ovat liian erilaisia, jotta ne antaisivat vastaavuuden. | Tiedot, kuten summa tai asiakkaan nimi, on syötetty eri tavalla pankkitapahtumassa tai sisäisessä kirjauksessa. | Tarkista tiedot ja kohdenna nämä kaksi manuaalisesti. Vaihtoehtoisesti voit korjata ristiriidan. |
+
+Erot on ratkaistava esimerkiksi luomalla puuttuvia merkintöjä ja korjaamalla ei-vastaavia tietoja tai tekemällä puuttuvia rahatapahtumia, kunnes pankkitilin täsmäytys on suoritettu ja kirjattu.
+
+> [!NOTE]
+> Pankkitilin täsmäytyssivu ja testiraportti olettavat, että vain täsmäytämme jakson sisällä ennen tiliotteen lopetuspäivämäärää. Jos täsmäytät pankin tiliotteen rivin pankkitapahtumaan ennen kuin syötät tiliotteen lopetuspäivämäärän, ja lisäät sitten tiliotteen lopetuspäivämäärän, joka on pankkitapahtuman lopetuspäivämäärän jälkeen, testiraportin tiedot ovat virheellisiä.
+
+Seuraavassa taulukossa kuvataan testiraportin kenttiä, joiden avulla voit viimeistellä pankkitäsmäytyksen.
+
+|Kenttä  |Kuvaus  |
+|---------|---------|
+|Tiliotteen pvm| **Pankkitilin täsmäytys** -sivun **tiliotteen pvm** -kentässä määritetty päivämäärä.|
+|Viimeisen tiliotteen saldo|**Pankkitilin täsmäytys** -sivun **Tiliotteen loppusaldo** -kentässä määritetty saldo. Tämä täytetään automaattisesti viimeisimmän täsmäytyksen osalta samalle pankkitilille. Arvo on nolla, jos kyseessä on ensimmäinen pankkitilin täsmäytys.|
+|Tiliotteen loppusaldo|**Pankkitilin täsmäytys** -sivun **Tiliotteen loppusaldo** -kentässä määritetty saldo. |
+|KP-tilinro <*numero*> saldo <*Pvm*> | Tiliotteen lopetuspäivämäärän KP-tilin saldo. Tämä on suodattamaton saldo kyseisestä päivämäärästä alkaen. Jos pankkisi käyttää paikallista valuuttaa, tämän saldon tulee olla sama kuin pankkitilin saldo (näkyy raportin ylätunnisteen oikealla puolella), kun olet täsmäyttänyt kaikki tiliotteen rivit. Tyhjä **()** tämän kentän nimessä tarkoittaa, että pankkisi käyttää paikallista valuuttaa.<br><br>Tässä ja aiemmissa kentissä oleva poikkeama voi tarkoittaa sitä, että olet kirjannut suoraan KP-tiliin tai että käytät samaa KP-tiliä useassa pankissa, mitä ei suositella. Pankit linkitetään pääkirjanpitoon tilille määritetyn pankkitilin kirjausryhmän kautta.<br><br>Testiraportti näyttää varoituksen, jos sinulla on suoria kirjauksia, vaikka kirjauksen saldo olisi nolla. Suorat kirjaukset, joita ei ole tasapainotettu, johtavat usein siihen, että tuleviin pankkien täsmäytyksiin kertyy eroja. Tarkista pääkirjanpidon saldo ja tapahtumat ennen pankkitäsmäytyksen kirjaamista. Jos haluat lisätietoja suorakirjauksesta, siirry kohtaan [Vältä suorakirjausta](#avoid-direct-posting).|
+|KP-tilinro <*numero*> saldo (<*PVA*>) <*Pvm*>| Tiliotteen lopetuspäivämäärän KP-tilin saldo paikallisena valuuttana. Saldo muunnetaan pankkitilin valuutaksi käyttäen tiliotteen lopetuspäivänä voimassa olevaa vaihtokurssia. Tämä on suodattamaton saldo kyseisestä päivämäärästä alkaen. Tätä verrataan **KP-tili numeroon <* numero *> Saldo <* pvm*>* -kenttään, jos pankkisi käyttää ulkomaan valuuttaa. Paikallisen valuutan KP-tilinro <* numero *> Saldo <* pvm*> -kenttä voi vaihdella hieman, koska valuutan muunnos voi aiheuttaa pieniä eroja. Pankin saldon tulisi olla hyvin lähellä tätä saldoa.  |
+|Pankkitilin saldo päivänä <*pvm*>| Tiliotteen lopetuspäivämäärän pankkitilin saldo.|
+|Erojen summa    | Laskelmarivien erojen summa. Jos haluat käyttää tietoja, ota **tulosta avoimet tapahtumat** -vaihtoehto käyttöön, kun syötät ehtoja raportille. Ero on pankin tiliotteen rivi, joka ei täsmää kokonaan yhteen tai useampaan pankkitapahtumaan. Et voi kirjata pankkitilin täsmäytystä, jolla on eroja. Voit kirjata pankkitilin täsmäytyksen, joka sisältää pankkitapahtumia, joita ei ole täsmäytetty tiliotteen riveille. Tämä arvo näkyy **Avoimet pankkitapahtumat** -kentässä ja erillisessä osassa, jos Tulosta avoimet tapahtumat -vaihtotoiminto kytketään päälle.      |
+|Tiliotteen saldo     | **Pankkitilin täsmäytys** -sivun **Tiliotteen loppusaldo** -kentässä määritetty arvo.  |
+|Avoimet pankkitapahtumat     | Niiden ei-täsmäytettyjen, muiden kuin shekkien pankkitapahtumien summa, joiden kirjauspäivämäärä on ennen tiliotteen lopetuspäivämäärää tai sitä ennen. Näin tapahtuu, kun rekisteröit transaktioita, ennen kuin ne rekisteröidään pankkiin. Esimerkiksi jakson lopussa. Kun luot seuraavan pankkitäsmäytyksen, voit täsmäyttää nämä tapahtumat.        |
+|Avoimet sekit     | Sellaisten shekkien ei-täsmäytettyjen pankkikirjanpitokirjausten summa, joiden kirjauspäivämäärä on tiliotteen päättymispäivänä tai sitä ennen. Näin tapahtuu, kun rekisteröit transaktioita, ennen kuin ne rekisteröidään pankkiin. Tämä voi tapahtua esimerkiksi shekkien osalta, jos toimittaja ei vaihda shekkiä käteiseksi samalla ajanjaksolla, jolla rekisteröit sen. Kun luot seuraavan pankkitäsmäytyksen, voit täsmäyttää nämä tapahtumat.        |
+|Pankkitilin saldo     | Pankin tiliotteen loppusaldon, maksamattomien pankkitapahtumien ja avointen sekkien arvojen summa. Kun olet käsitellyt täsmäytettyjen tapahtumien kaikki erot, tämä saldo täsmää pankkisi saldon kanssa. Olet esimerkiksi saanut kirjanpitoon kaikki kohdistetut tapahtumat sekä tapahtumat, joita et voinut täsmätä tämän pankin tiliotteen kanssa. Voit kirjata täsmäytyksen.        |
+
+> [!TIP]
+> Jos suoritat **testiraportin** **Maksujen täsmäytyskirjauskansio** -sivulta, [!INCLUDE [prod_short](includes/prod_short.md)] laskee **tiliotteen loppusaldon** arvon seuraavasti:
+>
+> * viimeisen tiliotteen saldo + kaikkien maksujen täsmäytyskirjauskansiorivien summa
+>
+> Voit verrata tiliotettasi käyttämällä arvoa.
+
 ## Puuttuvien tapahtumien luominen ja kohdistaminen pankin tiliotteen riveihin
 
 Joskus pankin tiliote sisältää koron tai veloitetun maksun summia. Tällaisia tiliotteen rivejä ei voi kohdistaa, koska niillä ei ole vastaavia tapahtumia kohteessa [!INCLUDE[prod_short](includes/prod_short.md)]. Tällöin jokaiselle tapahtumalle on kirjattava päiväkirjarivi. Näin luodaan liittyvä tapahtuma, johon kohdistus voidaan tehdä.
@@ -128,9 +173,9 @@ Joskus pankin tiliote sisältää koron tai veloitetun maksun summia. Tällaisia
 1. Valitse **Pankkitilin täsmäytys** -sivulla **Siirrä yleiseen päiväkirjaan** -toiminto.  
 2. Määritä käytettävä yleinen päiväkirja **Siirrä p-til. täsm. yl. pvk:aan** -sivulla ja valitse sitten **OK**.
 
-    **Yleinen päiväkirja** -sivu avautuu. Se sisältää kaikkien puuttuvia tapahtumia sisältävien tiliotteiden päiväkirjarivit.
-3. Syötä päiväkirjariville tarvittavat tiedot, kuten vastatili. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).  
-4. Tarkastele kirjaamisen tulosta ennen kirjaamista valitsemalla **Testiraportti** -toiminto. **Pankin tiliote** -raportti avautuu ja näyttää samat kentät kuin **Pankkitilin täsmäytys** -sivun otsikot.
+    **Yleinen päiväkirja** -sivu avautuu uusilla päiväkirjariveillä kaikille pankin tiliotteen riveille, joilta puuttuvat pääkirjanpidon kirjaukset.
+3. Syötä päiväkirjariville tiedot, kuten vastatili. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).  
+4. Voit tarkistaa kirjauksen tuloksen ennen kirjausta valitsemalla **Testiraportti**-toiminnon ja valitsemalla sitten raportin käyttö -vaihtoehdon. **Pankin tiliote** -raportti näyttää samat kentät kuin **Pankkitilin täsmäytys** -sivun otsikot.
 5. Valitse **Kirjaa**-toiminto.
 
     Kun tapahtuma on kirjattu, täsmäytä pankin tiliotteen rivi siihen.
@@ -197,11 +242,11 @@ Tämä virhe tapahtuu usein, kun syötät avaussaldon pankkitilille. On tärkeä
 ## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
 
 ## Katso myös
+
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  
 [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  
 [Automaattinen maksujen soveltamisen sääntöjen määrittäminen](receivables-how-set-up-payment-application-rules.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
