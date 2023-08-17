@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: edupont
 ---
-# Rakennetiedot: kustannuksen muutos
+# <a name="design-details-cost-adjustment"></a>Rakennetiedot: kustannuksen muutos
 
 Kustannusten muuttamisen päätarkoitus on siirtää eteenpäin kustannusmuutokset kustannuslähteistä kustannusten vastaanottajille nimikkeen kustannuslaskentamenetelmän mukaisesti, jotta se tuottaisi oikean varaston arvostuksen.  
 
@@ -27,7 +27,7 @@ Seuraavat ovat kustannusten sopeuttamisen toissijaisia tarkoituksia tai toiminto
 
 Varaston kustannuksia on muutettava ennen kuin liittyvät arvotapahtumat voi täsmäyttää pääkirjanpidon kanssa. Lisätietoja on kohdassa [Rakennetiedot: täsmäytys pääkirjanpidon kanssa](design-details-reconciliation-with-the-general-ledger.md).  
 
-## Muutoksen havaitseminen
+## <a name="detecting-the-adjustment"></a>Muutoksen havaitseminen
 
 Nimikepäiväkirja - kirjaa rivi -rutiini määrittää ensisijaisesti sen, tuleeko kustannuksia muuttaa, kun taas kustannusten muuttamisen tapahtumien laskemisen ja luomisen suorittaa **Muuta kustannuksia - Nimiketapahtumat** -eräajo.  
 
@@ -37,21 +37,21 @@ Kun haluat siirtää kustannukset eteenpäin, tunnistusmekanismi määrittää k
 * Keskimääräinen kustannusten oikaisun tulopaikka  
 * Tilauksen taso  
 
-### Nimikkeen kohdistustapahtuma
+### <a name="item-application-entry"></a>Nimikkeen kohdistustapahtuma
 
 Tätä tunnistustoimintoa käytetään nimikkeissä, jotka käyttävät FIFO-, LIFO- tai Vakio-arvostusmenetelmään tai spesifistä arvostusmenetelmää ja myös kiinteän kohdistuksen skenaarioita. Toiminto toimii seuraavasti:  
 
 * Hinnan muutos havaitaan merkitsemällä lähdenimiketapahtumat arvolla *Kohdist. tapaht. muutettavaksi*, aina kun nimiketapahtuma tai arvotapahtuma kirjataan.  
 * Kustannus siirretään eteenpäin kustannusketjujen mukaan, jotka on kirjattu **Nimikkeen kohdistustapahtuma** -taulukossa.  
 
-### Keskimääräinen kustannusten oikaisun tulopaikka
+### <a name="average-cost-adjustment-entry-point"></a>Keskimääräinen kustannusten oikaisun tulopaikka
 
 Tätä tunnistustoimintoa käytetään nimikkeissä, jotka käyttävät keskimääräistä arvostusmenetelmää. Toiminto toimii seuraavasti:  
 
 * Kustannusten muuttaminen havaitaan merkitsemällä tietue **Keskim. kust. muutoksen tulopaikka** -taulukossa aina, kun arvotapahtuma kirjataan.  
 * Kustannus siirretään eteenpäin soveltamalla kustannukset arvotapahtumiin, joilla on myöhäisempi arvostuspäivämäärä.  
 
-### Tilauksen taso
+### <a name="order-level"></a>Tilauksen taso
 
 Tätä tunnistustoimintoa käytetään muunnoksen skenaarioissa, tuotannossa ja kokoonpanossa. Toiminto toimii seuraavasti:  
 
@@ -64,7 +64,7 @@ Tilaustason toimintoa käytetään havaitsemaan kokoonpanotiliöinnin määritt�
 
 Lisätietoja on kohdassa [Rakennetiedot: Kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md).  
 
-## Manuaalinen kustannusten muuttaminen verrattuna automaattiseen kustannusten muuttamiseen
+## <a name="manual-versus-automatic-cost-adjustment"></a>Manuaalinen kustannusten muuttaminen verrattuna automaattiseen kustannusten muuttamiseen
 
 Kustannusten muuttaminen voidaan tehdä kahdella tavalla:  
 
@@ -79,25 +79,25 @@ Muutosprosessi ja sen seuraukset ovat samat, suoritettiin kustannusten muutos ma
 
 Uusissa sopeuttamis- ja pyöristysarvokirjauksissa on liittyvän laskun tiliöintipäivä. Poikkeuksen muodostavat arvotapahtumat, jotka osuvat suljetulle kirjanpitojaksolle tai varastokaudelle tai jos kirjauspäivämäärä on aiemmin kuin **Ensimm. sallittu kirjauspvm** -kentän päivämäärä **Pääkirjanpidon asetukset** -sivulla. Jos näin tapahtuu, eräajo määrittää kirjauspäivämääräksi seuraavan avoimen jakson ensimmäisen päivämäärän.  
 
-## Muuta kustann. - Nimiketapaht. -eräajo
+## <a name="adjust-cost---item-entries-batch-job"></a>Muuta kustann. - Nimiketapaht. -eräajo
 
 Kun **Muuta kustannuksia - Nimiketapahtumat** -eräajo suoritetaan, se voidaan suorittaa kaikille nimikkeille tai vain tietyille nimikkeille tai luokille.  
 
 > [!NOTE]  
 > Eräajo kannattaa aina suorittaa kaikille nimikkeille. Suodatustoimintoa kannattaa käyttää vain ajonaikaisten eräajojen vähentämiseksi tai tietyn nimikkeen kustannusten korjaamiseksi.  
 
-### Esimerkki
+### <a name="example"></a>Esimerkki
 
 Seuraavassa esimerkissä kuvataan se, jos tiliöit ostonimikkeen vastaanotetuksi ja laskutetuksi 01-01-20. Myöhemmin kirjaat myydyn nimikkeen toimitetuksi ja laskutetuksi 15.1.2020. Suorita sitten **Muuta kustannuksia - Nimiketapahtumat** ja **Kirjaa varaston kustannus KP:oon** -eräajot. Seuraavat tapahtumat luodaan.  
 
-#### Arvotapahtumat (1) 
+#### <a name="value-entries-1"></a>Arvotapahtumat (1)
 
 |Kirjauspäivämäärä|Nimiketapahtuman tyyppi|Kustannussumma (Tod.)|KP:oon kirjattu kustannus|Laskutettu määrä|Tapahtumanro|  
 |------------|----------------------|--------------------|------------------|-----------------|---------|  
 |01-01-20|Osto|10,00|10,00|1|1|  
 |01-15-20|Myynti|-10.00|-10.00|-1|2|  
 
-#### Liittyvät kirjaukset G/L – nimikkeen pääkirjan suhdetaulukko (1)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-1"></a>Liittyvät kirjaukset G/L – nimikkeen pääkirjan suhdetaulukko (1)
 
 |KP-tapahtuman nro|Arvotapahtumanro|KP-rekisterin nro|  
 |-------------|---------------|----------------|  
@@ -106,7 +106,7 @@ Seuraavassa esimerkissä kuvataan se, jos tiliöit ostonimikkeen vastaanotetuksi
 |3|2|1|  
 |4|2|1|  
 
-#### Pääkirjanpidon tapahtumat (1)
+#### <a name="general-ledger-entries-1"></a>Pääkirjanpidon tapahtumat (1)
 
 |Kirjauspäivämäärä|KP-tili|Tilinro (En-US-esittely)|Summa|Tapahtumanro|  
 |------------------|------------------|---------------------------------|------------|---------------|  
@@ -117,14 +117,14 @@ Seuraavassa esimerkissä kuvataan se, jos tiliöit ostonimikkeen vastaanotetuksi
 
 Myöhemmin kirjaat liittyvän oston nimikekulun 2,00 PVA, laskutettu 10.2.2000. Suorita sitten **Muuta kustannuksia - Nimiketapahtumat** -eräajo ja sen jälkeen **Kirjaa varaston kustannus KP:oon** -eräajo. Kustannusten muuttamisen eräajo säätää myyntikustannukset -2,00 PVA:n mukaan ja **Kirjaa varaston kustannus KP:oon** -eräajo kirjaa uudet arvotapahtumat pääkirjaan. Tulos on seuraavanlainen.  
 
-#### Arvotapahtumat (2)  
+#### <a name="value-entries-2"></a>Arvotapahtumat (2)
 
 |Kirjauspäivämäärä|Nimiketapahtuman tyyppi|Kustannussumma (Tod.)|KP:oon kirjattu kustannus|Laskutettu määrä|Muutos|Tapahtumanro|  
 |------------|----------------------|--------------------|------------------|-----------------|----------|---------|  
 |02-10-20|Osto|2,00|2,00|0|Ei|3|  
 |01-15-20|Myynti|-2.00|-2.00|0|Kyllä|4|  
 
-#### Liittyvät kirjaukset G/L – nimikkeen pääkirjan suhdetaulukko (2)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-2"></a>Liittyvät kirjaukset G/L – nimikkeen pääkirjan suhdetaulukko (2)
 
 |KP-tapahtuman nro|Arvotapahtumanro|KP-rekisterin nro|  
 |-------------|---------------|----------------|  
@@ -133,7 +133,7 @@ Myöhemmin kirjaat liittyvän oston nimikekulun 2,00 PVA, laskutettu 10.2.2000. 
 |7|4|2|  
 |8|4|2|  
 
-#### Pääkirjanpidon tapahtumat (2)
+#### <a name="general-ledger-entries-2"></a>Pääkirjanpidon tapahtumat (2)
 
 |Kirjauspäivämäärä|KP-tili|Tilinro (En-US-esittely)|Summa|Tapahtumanro|  
 |------------|-----------|------------------------|------|---------|  
@@ -142,7 +142,7 @@ Myöhemmin kirjaat liittyvän oston nimikekulun 2,00 PVA, laskutettu 10.2.2000. 
 |01-15-20|[Varastotili]|2130|-2.00|7|  
 |01-15-20|[COGS-tili]|7290|2,00|8|  
 
-## Automaattinen kustannusten muuttaminen
+## <a name="automatic-cost-adjustment"></a>Automaattinen kustannusten muuttaminen
 
 Voit määrittää kustannusten muutoksen automaattiseksi varastotapahtuman kirjaamisen yhteydessä käyttämällä **Varastonhallinnan asetukset** -sivun **Automaattinen kustannusten muuttaminen** -kenttää. Tämän kentän avulla voit valita, millainen ajanjakso nykyistä käsittelypäivämäärää edeltävältä ajalta sisällytetään automaattiseen kustannusten muuttamiseen. Käytettävissä ovat seuraavat vaihtoehdot.  
 
@@ -158,7 +158,7 @@ Voit määrittää kustannusten muutoksen automaattiseksi varastotapahtuman kirj
 
 Tämä valinta, jonka teet **Automaattinen kustannusten muuttaminen** -kentässä, on tärkeä kustannusten suorituskyvylle ja tarkkuudelle. Lyhyemmät ajanjaksot, kuten **Päivä** tai **Viikko**, vaikuttavat järjestelmän toimintaan vähemmän, koska niillä on tiukemmat vaatimukset, joka maksaa vain, kun se on annettu edellisenä päivänä, tai viikkoa voidaan säätää automaattisesti. Tämä tarkoittaa, että automaattista kustannusten muuttamista ei suoriteta yhtä usein. Tämän vuoksi se vaikuttaa järjestelmän suorituskykyyn vähemmän. Tämä tarkoittaa kuitenkin myös sitä, että yksikkökustannukset voivat olla vähemmän tarkkoja.  
 
-### Esimerkki
+### <a name="example-1"></a>Esimerkki
 
 Seuraavassa esimerkissä kuvataan automaattinen kustannusten sopeuttamisskenaario:  
 
@@ -170,7 +170,7 @@ Jos olet asettanut automaattisen kustannusten muutoksen käytettäväksi kirjauk
 
 Jos olet määrittänyt automaattisia kustannuksen muutoksia kirjauksiin, jotka tapahtuvat päivän tai viikon kuluessa nykyisestä työpäivästä, automaattinen kustannuksen muutos ei toimi ja oston kustannusta ei siirretä eteenpäin myyntiin, ennen kuin suoritat **Muuta kustannuksia - Nimiketapahtumat** -eräajon.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Nimikekustannusten muuttaminen](inventory-how-adjust-item-costs.md)  
 [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)  

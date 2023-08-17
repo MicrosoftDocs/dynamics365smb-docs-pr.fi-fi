@@ -11,7 +11,7 @@ ms.search.form: '170, 172, 300, 301, 428, 456, 459, 1401'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# Myynnin määrittäminen
+# <a name="setting-up-sales"></a>Myynnin määrittäminen
 
 Ennen myyntiprosessien hallinnan aloittamista on määritettävä yrityksen myyntikäytäntöjen säännöt ja arvot.
 
@@ -35,9 +35,9 @@ Maksumenetelmiä ja valuuttoja sekä muita rahoitukseen liittyviä myyntiasetuks
 |Määritä oletusraportteja, joita käytetään eri asiakirjatyypeille.|[Raporttien valinta Business Centralissa](across-report-selections.md)|
 |Määritä, voivatko käyttäjät kirjata myyntilaskuja ja pitäisikö heidän kirjata ne yhdessä toimituksen kanssa. |[Laskun kirjauskäytännön määrittäminen käyttäjille](admin-setup-invoice-posting-policy.md)|
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/trade-get-started-dynamics-365-business-central/)
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

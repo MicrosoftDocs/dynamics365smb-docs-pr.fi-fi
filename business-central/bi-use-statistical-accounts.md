@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'bi, power BI, analysis, KPI, financial report'
 ms.search.form: '2632, 2631, 2633, 2623, 2634'
 ---
-# Analysoi tietoja tilastotilien avulla
+# <a name="analyze-data-with-statistical-accounts"></a>Analysoi tietoja tilastotilien avulla
 
 Kirjanpitoraporttien avulla voit täydentää tilastotietoja. Tilastolliset tilit mahdollistavat muihin kuin tapahtumatietoihin perustuvien tietojen lisäämisen. Lisää muut kuin tapahtumapohjaiset tiedot numeropohjaisiin yksiköihin, kuten:
 
@@ -26,12 +26,12 @@ Toimintatavoiltaan tilastotilit ovat samankaltaisia kuin kirjaustilit. Ne tallen
 
 Tilastollisissa tileissä ja kirjaustileissä on muutama erottava avaintekijä. Tilastotilit ovat erillisiä entiteettejä, eivätkä ne sisälly päätilin saldoraportteihin. Sinun ei myöskään tarvitse tasapainottaa debet- ja kredit-summaa, kun käytät tilastotilin päiväkirjoja kirjataksesi tapahtumia tilastotilille. Sinä vain kirjaat summan.
 
-## Tilastollisen tilin määrittäminen
+## <a name="set-up-a-statistical-account"></a>Tilastollisen tilin määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilastolliset tilit**, valitse sitten vastaava linkki.
 1. Täytä  **Yleinen**-pikavälilehden kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Kirjaa määrät tilastolliseen tiliin
+## <a name="post-amounts-to-a-statistical-account"></a>Kirjaa määrät tilastolliseen tiliin
 
 1. Kun haluat kirjata seurattavat määrät, valitse **Tilastolliset tilit** -sivulla **Tilastotilin päiväkirja** -toiminto.
 1. Syötä **Kirjauspvm**-kenttään viimeinen päivämäärä, jolla haluat kirjauskaudella kirjata summia.
@@ -41,11 +41,11 @@ Tilastollisissa tileissä ja kirjaustileissä on muutama erottava avaintekijä. 
 1. Syötä kirjattava summa **Summa**-kenttään. 
 1. Valinnainen: Jos haluat sisällyttää tilastotilin myös kehittyneemmille analyyseille, määrittele dimensiot **Osastokoodi**- ja **Asiakasryhmäkoodi**-kenttiin. Saat lisätietoja dimensioista siirtymällä kohtaan [Tietojen analysoiminen dimensioittain](bi-how-analyze-data-dimension.md).
 
-## Tarkista tilastollisen tilin summat
+## <a name="verify-statistical-account-amounts"></a>Tarkista tilastollisen tilin summat
 
 Käytä **Tilastotilit**-sivulla **Tilastotilien saldo** -toimintoa varmistaaksesi, että rekisteröidyt summat ovat oikein kullekin ajanjaksolle.  
 
-## Sisällytä tilastotili talousraporttiin
+## <a name="include-the-statistical-account-in-a-financial-report"></a>Sisällytä tilastotili talousraporttiin
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Talousraportit** ja valitse sitten vastaava linkki.
 1. Luo uusi rahoitusraportti jollakin seuraavista tavoista:
@@ -61,7 +61,7 @@ Käytä **Tilastotilit**-sivulla **Tilastotilien saldo** -toimintoa varmistaakse
 1. Valitse **Rivityyppi**-kentässä, haluatko tarkastella saldoa kirjauspäivämääränä vai kirjausjakson alussa, tai näyttää muutoksen summaan jakson aikana.
 1. Täytä jäljellä olevat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Taloudelliset liiketoimintatiedot](bi.md)  
 [Talousraportit ja analytiikka Business Centralissa](finance-reports.md)
