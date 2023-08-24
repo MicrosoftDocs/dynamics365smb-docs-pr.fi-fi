@@ -1,21 +1,20 @@
 ---
 title: Käyttöomaisuuden poistomenetelmät
-description: Tietoja eri sisäänrakennetusta käyttöomaisuuserien poiston tai arvon alennuksen kahdeksasta menetelmästä Business Centralin oletusversiossa.
-author: edupont04
+description: Lisätietoja eri sisäänrakennetuista tavoista käyttöomaisuuden poistojen tai arvonalennusten toteuttamiseen.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: write down
+ms.search.keywords: 'write down, depreciate, depreciation'
 ms.search.form: '5629, 5633'
-ms.date: 07/05/2021
-ms.author: edupont
+ms.date: 08/08/2023
+ms.custom: bap-template
 ---
 # Käyttöomaisuuden poistomenetelmät
 
-[!INCLUDE [prod_short](includes/prod_short.md)] -oletusversiossa on kahdeksan poistomenetelmää:  
+Kahdeksan poistomenetelmää on saatavilla kohdassa [!INCLUDE [prod_short](includes/prod_short.md)]:  
 
-* Tasapoisto  
+* Suora viiva  
 * Menojäännöspoisto 1  
 * Menojäännöspoisto 2  
 * MJP1/TP  
@@ -27,11 +26,11 @@ ms.author: edupont
 * Manuaalinen  
 
   > [!NOTE]  
-  > Tätä menetelmää voidaan käyttää omaisuuserille, joille ei tehdä poistoja, kuten maa-alueille. Poisto on vietävä käyttöomaisuuserän KP-päiväkirjaan. **Laske poisto** -eräajo jättää huomiotta tätä poistomenetelmää käyttävät käyttöomaisuuserät.  
+  > Tätä manuaalista menetelmää voidaan käyttää omaisuuserille, joille ei tehdä poistoja, kuten maa-alueille. Poisto on vietävä käyttöomaisuuserän KP-päiväkirjaan. **Laske poisto** -eräajo jättää huomiotta käyttöomaisuuserät, joille käytetään manuaalista poistomenetelmää.  
 * Puolivuotissopimus  
 
   > [!NOTE]  
-  > Tätä menetelmää käytettäessä käyttöomaisuudesta poistetaan joka vuosi sama summa.  
+  > Tällä menetelmällä käyttöomaisuudesta poistetaan joka vuosi sama summa.  
 
 ## Tasapoisto
 
@@ -54,15 +53,15 @@ Kirjanpitoarvoa voidaan vähentää kirjatulla arvonkorotuksella, arvonalennukse
 
 ### Kiinteä vuosittainen prosentti
 
-Jos annat kiinteän vuosittaisen prosentin, sovellus käyttää poistosumman laskemiseen seuraavaa laskukaavaa:  
+Jos annat kiinteän vuosittaisen prosentin, [!INCLUDE [prod_short](includes/prod_short.md)] käyttää poistosumman laskemiseen seuraavaa laskukaavaa:  
 
 *Poistosumma = (Tasapoisto-% x Poistopohja x Poistopäivien lkm) / (100 x 360)*  
 
 ### Kiinteä vuosittainen summa
 
-Jos annat kiinteän vuosittaisen summan, sovellus käyttää poistosumman laskemiseen seuraavaa laskukaavaa:  
+Jos annat kiinteän vuosittaisen summan, [!INCLUDE [prod_short](includes/prod_short.md)] käyttää poistosumman laskemiseen seuraavaa laskukaavaa:  
 
-*Poistosumma = (Kiinteä poistosumma x Poistopäivien lukumäärä) / 360*  
+* *Poistosumma = (Kiinteä poistosumma x Poistopäivien lukumäärä) / 360*  
 
 ### Esimerkki - Tasapoisto
 
@@ -82,17 +81,17 @@ Tässä esimerkissä käyttöomaisuustapahtuma näyttää seuraavalta:
 
 ## Menojäännöspoisto 1 -poisto
 
-Tämä degressiivinen poistomenetelmä kohdistaa suurimman osan omaisuuserän kustannuksesta sen eliniän ensimmäisille vuosille. Tätä menetelmää käytettäessä tulee syöttää kiinteä vuosiprosentti.  
+Tämä poistomenetelmä kohdistaa suurimman osan omaisuuserän kustannuksesta sen eliniän ensimmäisille vuosille. Tätä menetelmää käytettäessä tulee syöttää kiinteä vuosiprosentti.  
 
 Poistosumma lasketaan seuraavalla kaavalla:  
 
-*Poistosumma = (Menojäännöspoisto-% x Poistopäivien lkm x Poistopohja) / (100 x 360)*  
+* *Poistosumma = (Menojäännöspoisto-% x Poistopäivien lkm x Poistopohja) / (100 x 360)*  
 
-Poistopohjaksi lasketaan kirjanpitoarvo vähennettynä kirjatulla poistolla nykyisen tilikauden aloituspäivämäärästä lähtien.  
+Poistettavissa olevaksi pohjaksi lasketaan kirjanpitoarvo vuoden alussa. Poistopäivien määrä on kirjauspäivän ja viimeisen poistopäivän välisten päivien lukumäärä. [!INCLUDE [prod_short](includes/prod_short.md)] laskee poiston olettaen, että tilikaudelle tehdyt poistot tehdään tällä laskukaavalla.  
 
 Kirjattu poistosumma voi sisältää tapahtumia, joilla on eri kirjaustyyppejä (arvonalennus, mukautettu 1 ja mukautettu 2), jotka on kirjattu nykyisen tilikauden aloituspäivämäärästä lähtien. Nämä kirjaustyypit sisältyvät kirjattuun poistosummaan, jos **Poistotyyppi**- ja **Osa kirjanpitoarvosta** -kentissä **KO:n kirjaustyypin asetukset** -sivulla on valintamerkki.  
 
-### Esimerkki - Menojäännöspoisto 1 -poisto
+### Esimerkki 1 - Menojäännöspoisto 1 -poisto
 
 Käyttöomaisuuden hankintameno on PVA 100 000. **Menojäännöspoisto-%** -kentässä on arvo 25. **Laske poisto** -eräajo suoritetaan kaksi kertaa vuodessa.  
 
@@ -121,6 +120,28 @@ Laskentamenetelmä:
 * Vuosi 3: *25 % arvosta 56 250 = 14 062,50 = 7 031,25 + 7 031,25*
 
 Laskenta jatkuu siihen asti, kun kirjanpitoarvo on yhtä kuin lopullinen pyöristyssumma tai jäännösarvo, jonka syötit.  
+
+### Esimerkki 2 - Menojäännöspoisto 1 -poisto
+
+Omaisuuserän kirjanpitoarvo on 100 000 31.12.2022. Poisto 1 778 kirjataan 2.2.23. Se on odotettu (suhteellinen) määrä vuoden poistoista 32 päivän kohdalla. Jos poisto suoritetaan 30.6.2023, [!INCLUDE [prod_short](includes/prod_short.md)] ehdottaa 8 222:a, koska päivämäärien 2.2.2023 ja 30.6.2023 ero on 148 päivää. 30.6.2023 oletettu jäljellä oleva poisto lasketaan seuraavaa laskukaavaa käyttäen:
+
+* *148/360 x 0,20 x 100 000 = 8 222*
+
+### Esimerkki 3 - Menojäännöspoisto 1 -poisto
+
+Jos kirjaat summan, joka ei vastaa menojäännöspoisto 1 -poistomenetelmää, esimerkiksi 5 000, [!INCLUDE [prod_short](includes/prod_short.md)] ehdottaa odotetun summaa jäljellä olevaa määrää.
+
+Omaisuuserän kirjanpitoarvo on 100 000 31.12.2022. Poisto 5 000 kirjataan 2.2.23. Se on enemmän kuin odotettu (suhteellinen) määrä 2.2.2023 32 päivän kohdalla. Jos poisto suoritetaan 30.6.2023, [!INCLUDE [prod_short](includes/prod_short.md)] ehdottaa 8 222:a, koska päivämäärien 2.2.2023 ja 30.6.2023 ero on 148 päivää. 30.6.2023 oletettu jäljellä oleva poisto lasketaan seuraavaa laskukaavaa käyttäen:
+
+* *148/360 x 0,20 x 100 000 = 8 222*
+
+### Esimerkki 4 - Menojäännöspoisto 1 -poisto
+
+Omaisuuserän kirjanpitoarvo on 100 000 31.12.2023. Poisto 95 000 kirjataan 2.2.23. Se ylittää vuoden sallitun poistosumman. Jos poisto suoritetaan 30.6.2023, [!INCLUDE [prod_short](includes/prod_short.md)] ehdottaa 5 000:a, koska päivämäärien 2.2.2023 ja 30.6.2023 ero on 148 päivää. 30.6.2023 oletettu jäljellä oleva poisto lasketaan seuraavaa laskukaavaa käyttäen: 
+
+* *148/360 x 0,20 x 100 000 = 8 222*
+
+Jäljellä oleva kirjanpitoarvo on kuitenkin vain 5 000, joten [!INCLUDE [prod_short](includes/prod_short.md)] ehdottaa 5 000:aa, koska kirjanpitoarvo ei voi olla negatiivinen.
 
 ## Menojäännöspoisto 2 -poisto
 
@@ -219,9 +240,9 @@ Laskentamenetelmä:
 
 Puolivuotissopimus-menetelmää käytetään vain, jos **KO-poistokirja**-sivun **Käytä puolivuotissopimusta** -kentässä on valintamerkki.  
 
-Tätä poistomenetelmää voidaan käyttää yhdessä seuraavien sovelluksen poistomenetelmien kanssa:  
+Tätä poistomenetelmää voidaan käyttää seuraavien sovelluksen poistomenetelmien kanssa:  
 
-* Tasapoisto  
+* Suora viiva  
 * Menojäännöspoisto 1  
 * MJP1/TP  
 
@@ -284,9 +305,12 @@ Laskentamenetelmä:
 
 ## Tapahtumien monistaminen lisäpoistokirjoihin
 
-Jos poistokirjoja on kolme – B1, B2 ja B3 – ja jos haluat monistaa tapahtumia B1:stä B2:een ja B3:een, B2:n ja B3:n poistokirjakorttien **Osa monistusluettelosta** -kenttään voi lisätä rastin. Tämä voi olla hyödyllistä, jos poistokirja B1 on integroitu pääkirjanpidon kanssa, ja se käyttää käyttöomaisuuden KP-päiväkirjaa, eikä poistokirjoja B2 ja B3 ole integroitu pääkirjanpidon kanssa, ja ne käyttävät käyttöomaisuuden päiväkirjaa.  
+Jos poistokirjoja on kolme – B1, B2 ja B3 – ja jos haluat monistaa tapahtumia B1:stä B2:een ja B3:een, valitse B2:n ja B3:n poistokirjakorttien **Osa monistusluettelosta** -valintaruutu. Tästä asetuksesta voi olla hyötyä esimerkiksi seuraavissa tapauksissa:
 
-Kun käyttöomaisuuden KP-päiväkirjan B1:een annetaan tapahtuma ja **Käytä monistusluetteloa** -kenttään lisätään valintamerkki, sovellus monistaa KO-päiväkirjan kirjassa B2 ja B3 olevan tapahtuman silloin, kun tapahtuma kirjataan.  
+* Poistokirja B1 integroituu pääkirjanpitoon ja käyttää käyttöomaisuuden KP-päiväkirjaa.
+* Poistokirjat B2 ja B3 eivät integroidu pääkirjanpitoon ja käytä käyttöomaisuuden käyttöomaisuuspäiväkirjaa.  
+
+Kun käyttöomaisuuskirjanpidon B1-kirjaan pääkirjanpidossa tehdään kirjaus ja valitaan **Käytä monistusluetteloa** -valintaruudun, [!INCLUDE [prod_short](includes/prod_short.md)] monistaa kirjauksen B2- ja B3-kirjaan käyttöomaisuuskirjanpidossa, kun kirjaus kirjataan.  
 
 > [!NOTE]  
 > Samaan päiväkirjaan tai päiväkirjan erään, josta olet monistamassa, ei voi monistaa. Jos tapahtumia kirjataan käyttöomaisuuden KP-päiväkirjaan, ne voidaan monistaa KO-päiväkirjaan tai käyttöomaisuuden KP-päiväkirjaan muuta erää käyttämällä.  
@@ -303,6 +327,5 @@ Kun käyttöomaisuuden KP-päiväkirjan B1:een annetaan tapahtuma ja **Käytä m
 [Rahoitus](finance.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
