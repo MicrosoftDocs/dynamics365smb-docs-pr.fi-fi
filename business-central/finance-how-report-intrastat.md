@@ -116,12 +116,31 @@ Kun käsittelet **Intrastat-raporttia**, asiakirjan otsikossa näkyy **tila**-ke
 * *Vapautettu*: [!INCLUDE[prod_short](includes/prod_short.md)] muuttaa tilaksi automaattisesti *vapautettu*, kun luot tiedoston. Tästä hetkestä lähtien **Intrastat-raporttia** ei voi muuttaa. Jos sinun täytyy muuttaa jotain ja raportoida uudelleen, voit avata Intrastat-raportin uudelleen **avaa uudelleen** -toiminnon avulla. Kun asiakirja on avattu uudelleen, voit vapauttaa asiakirjan uudelleen **vapautus**-toiminnon avulla.
 * **Raportoitu**: Määrittää, onko tapahtumasta jo raportoitu veroviranomaisille. Tämä ei ole tavallinen tila, mutta itsenäinen kenttä, ja vaikka olisit avannut uudelleen Intrastat-raportin, se silti näyttää, että tiedosto on jo luotu tälle raportille.
 
+### Kolmikantakauppa Intrastatissa
+
+Kolmikantakauppaan kuuluu kolmen maan tai alueen välinen kauppa, jossa tavarat ohittavat raportointiyrityksen maan. Tätä voi helpottaa Business Centralissa [Suoratoimitus](sales-how-drop-shipment.md)-toiminnon avulla. Ota tämä vaihtoehto käyttöön aktivoimalla **Sisällytä suoratoimitus** -kenttä **Intrastat-raportin asetuksissa**.  
+
+Kun tämä vaihtoehto otetaan käyttöön, järjestelmä käyttää seuraavia sääntöjä, mutta vain, jos **suoratoimitus** on merkitty **myyntitilaukseen**: 
+
+| Vastaanotetaan kohteesta | Toimitetaan kohteeseen | Oletettu Intrastat-tulos |
+|----------|------------|----------------------|
+| Maa samassa muodossa kuin **Yrityksen tiedot** -kohdassa | Maa samassa muodossa kuin **Yrityksen tiedot** -kohdassa | Ei Intrastat-rivejä |  
+| Maa samassa muodossa kuin **Yrityksen tiedot** -kohdassa | EU-maa ei ole sama kuin **Yrityksen tiedoissa** oleva maa | Intrastat-toimitusrivi | 
+| Maa samassa muodossa kuin **Yrityksen tiedot** -kohdassa | EU:n ulkopuolinen maa | Ei Intrastat-rivejä |   
+| EU-maa ei ole sama kuin **Yrityksen tiedoissa** oleva maa | Maa samassa muodossa kuin **Yrityksen tiedot** -kohdassa | Intrastatin vastaanottava rivi | 
+| EU-maa ei ole sama kuin **Yrityksen tiedoissa** oleva maa | EU-maa ei ole sama kuin **Yrityksen tiedoissa** oleva maa | Ei Intrastat-rivejä |
+| EU-maa ei ole sama kuin **Yrityksen tiedoissa** oleva maa | EU:n ulkopuolinen maa | Ei Intrastat-rivejä | 
+| EU:n ulkopuolinen maa | Maa samassa muodossa kuin **Yrityksen tiedot** -kohdassa | Ei Intrastat-rivejä |  
+| EU:n ulkopuolinen maa | EU-maa ei ole sama kuin **Yrityksen tiedoissa** oleva maa | Ei Intrastat-rivejä |
+| EU:n ulkopuolinen maa | EU:n ulkopuolinen maa | Ei Intrastat-rivejä |   
+
 ## Lisätietoja aiheeseen liittyvästä koulutuksesta on [Microsoft Learnissa](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## Katso myös
 
 [Intrastat-raportoinnin määrittäminen](finance-how-setup-report-intrastat.md)  
 [Taloushallinto](finance.md)  
+[Suoratoimitus](sales-how-drop-shipment.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
