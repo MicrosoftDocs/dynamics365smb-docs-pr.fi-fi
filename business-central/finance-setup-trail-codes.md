@@ -1,7 +1,7 @@
 ---
 title: Kirjausketjujen määrittäminen
 description: Lue lisää kirjausketjujen seurantaan käytettävien lähdekoodien ja syykoodien määrittämisestä.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,15 +9,15 @@ ms.workload: na
 ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.search.form: '257, 259, 279'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Kirjausketjujen lähdekoodien ja syykoodien määrittäminen
+# Kirjausketjujen lähdekoodien ja syykoodien määrittäminen
 
 Kaikille kirjatuille tapahtumille määritetään automaattisesti lähdekoodi niin, että tapahtumien alkuperä voidaan jäljittää. Jos haluat antaa tapahtumille lisälähdekoodin, voit käyttää syykoodeja. Syykoodien avulla ilmaistaan, miksi tapahtuma on luotu. Syykoodit voidaan määrittää luomisen yhteydessä koko päiväkirjan malliin ja erään sekä yksittäisiin päiväkirjan riveihin ja asiakirjoihin.  
 
 Käytä koodeja, jotka on helppo muistaa ja jotka ovat kuvaavia, käyttämällä sekä lähdekoodeja että syykoodeja. Koodin tulee olla yksilöivä, ja voit määrittää niin monta koodia kuin haluat.
 
-## <a name="define-source-codes"></a>Lähdekoodien määrittely
+## Lähdekoodien määrittely
 
 Joskus haluat saada selville, miten tietty tapahtuma on syntynyt: esimerkiksi onko tapahtuma syntynyt yleisen päiväkirjan kirjauksen vai ostolaskun kirjauksen tuloksena. Lähdekoodi ilmaisee, missä tapahtuma on syntynyt. Tapahtumia syntyy, kun päiväkirja tai lasku kirjataan ja kun tietyt eräajot suoritetaan. Jokaisella kirjaustyypillä on oma lähdekoodinsa, joka liitetään, kun yksittäinen tapahtuma luodaan.  
 
@@ -25,7 +25,7 @@ Päiväkirjojen, tilausten, laskujen ja hyvityslaskujen kirjaaminen, sekä eräa
 
 Kun kirjaat tai suoritat eräajon, ohjelma liittää tapahtumaan automaattisesti oikean lähdekoodin. Kun esimerkiksi kirjaat yleisestä päiväkirjasta, ohjelma antaa tapahtumalle koodin *YLEINENPVK*. Tämän jälkeen voit suodattaa **Pääkirjanpidon tapahtumat** -sivun näyttämään, mitkä tapahtumat on kirjattu yleisestä päivä kirjasta tai myynti asiakirjoista, esimerkiksi
 
-### <a name="to-define-source-codes"></a>Lähdekoodien määrittely
+### Lähdekoodien määrittely
 
 1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Lähdekoodin määritys** ja valitse sitten vastaava linkki.  
 
@@ -33,11 +33,11 @@ Kun kirjaat tai suoritat eräajon, ohjelma liittää tapahtumaan automaattisesti
 
 Kentän sisältöä voi muuttaa myöhemmin, ja muutos vaikuttaa tuleviin kirjauksiin.
 
-## <a name="change-source-codes"></a>Lähdekoodien muuttaminen
+## Lähdekoodien muuttaminen
 
 Haluat ehkä muuttaa lähdekoodia. Saatat haluta muuttaa lähdekoodin *YLEINENPVK* koodiksi *YLEINEN*.
 
-### <a name="to-change-source-codes"></a>Lähdekoodien muuttaminen
+### Lähdekoodien muuttaminen
 
 1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Lähdekoodit** ja valitse sitten vastaava linkki.
 
@@ -47,11 +47,11 @@ Haluat ehkä muuttaa lähdekoodia. Saatat haluta muuttaa lähdekoodin *YLEINENPV
 
 Kaikilla uusilla kirjauksilla, jotka jatkossa kirjataan yleisestä päiväkirjasta, tulee olemaan tämä uusi lähdekoodi.
 
-## <a name="define-reason-codes"></a>Syykoodien määrittäminen
+## Syykoodien määrittäminen
 
 Syykoodit täydentävät lähdekoodeja, ja niiden avulla ilmaistaan, miksi tapahtuma luotiin. Voit määritellä syykoodeja yksittäisissä merkinnöissä ja voit liittää pysyvät koodit tiettyihin päiväkirjan malleihin ja päiväkirjan eriin. Kun syykoodi on linkitetty päiväkirjan riviin tai myyntien tai ostojen otsikkoon, ohjelma merkitsee kaikkiin tapahtumiin syykoodin kirjatessaan tapahtumat.  
 
-### <a name="to-set-up-reason-codes"></a>Syykoodien määrittäminen
+### Syykoodien määrittäminen
 
 1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake")  -kuvake, syötä **Syykodit** ja valitse sitten vastaava linkki.
 
@@ -61,7 +61,7 @@ Toista nämä vaiheet kaikkien niiden koodien osalta, joita haluat käyttää. V
 
 Seuraavassa kuvataan, miten syykoodi lisätään päiväkirjan malliin, mutta vastaavat vaiheet koskevat syykoodin lisäämistä päiväkirjan riville tai päiväkirjan erään.  
 
-### <a name="to-assign-reason-codes-to-journal-templates"></a>Syykoodien määrittäminen päiväkirjan malleissa
+### Syykoodien määrittäminen päiväkirjan malleissa
 
 1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake")  -kuvake, syötä **Yleisen päiväkirjan mallit** ja valitse sitten liittyvä linkki.
 
@@ -71,7 +71,7 @@ Seuraavassa kuvataan, miten syykoodi lisätään päiväkirjan malliin, mutta va
 
 Valittu syykoodi kopioituu niihin uusiin päiväkirjan eriin, jotka on luotu tämän päiväkirjan mallin avulla. Syykoodeja liitetään päiväkirjan malleihin samalla tavalla muilla sovellusalueilla.
 
-### <a name="to-use-reason-codes-on-sales-and-purchase-documents"></a>Syykoodien käyttäminen myynti- ja ostoasiakirjoissa
+### Syykoodien käyttäminen myynti- ja ostoasiakirjoissa
 
 1. Avaa asianomainen myynti- tai ostoasiakirja.
 
@@ -79,9 +79,9 @@ Valittu syykoodi kopioituu niihin uusiin päiväkirjan eriin, jotka on luotu tä
 
 Kun lasku on kirjattu, syykoodi kopioituu kaikkiin KP-, asiakas- ja toimittajatapahtumiin. Et voi liittää erilaisia syykoodeja yksittäisille osto- ja myyntiriveille, koska kaikki rivit kirjataan yhtenä tapahtumana.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rahoitus](finance.md)  
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  

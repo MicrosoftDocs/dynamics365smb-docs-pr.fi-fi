@@ -1,7 +1,7 @@
 ---
 title: Taloudelliset liiketoimintatiedot
 description: 'Business Central sisältää useita ominaisuuksia, joiden avulla voit kerätä, analysoida ja jakaa arvokkaita yritystietoja liiketoimintatietoa ja päätöksentekoa varten.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '103, 108, 198, 490'
 ms.date: 09/22/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="financial-business-intelligence"></a>Taloudelliset liiketoimintatiedot
+# Taloudelliset liiketoimintatiedot
 
 Yritykset hankkivat päivittäisen toiminnan aikana valtavia määriä tietoja. Nämä tiedot voivat kuvata esimerkiksi organisaation myyntilukuja, ostoja, toimintakuluja, työntekijöiden palkkoja ja budjetteja, ja ne voivat antaa päätöksentekijöille arvokasta liiketoimintatietoa (BI). [!INCLUDE[prod_short](includes/prod_short.md)] sisältää erinäisiä toimintoja, joiden avulla voit kerätä, analysoida ja jakaa yrityksen tietoja.
 
@@ -32,7 +32,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 |Ota käyttöön kansainvälisten kirjanpitojärjestöjen maailmanlaajuinen taloushallinnon raportointi eXtensible Business Reporting Language (XBRL) -kielen avulla.|[Luo raportteja XBRL-linkityksellä.](bi-create-reports-with-xbrl.md)|
 |Tietokannan käyttötarkoituksen muuttaminen raporteissa, API-tyyppisillä sivuilla ja kyselyissä, jotta latauskuorma vähenee ja suorituskyky paranee.|[Tietokannan käyttötarkoituksen hallinta](admin-data-access-intent.md)|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rahoitus](finance.md)  
 [Business Centralin käyttäminen Power BI -tietolähteenä](across-how-use-financials-data-source-powerbi.md)  

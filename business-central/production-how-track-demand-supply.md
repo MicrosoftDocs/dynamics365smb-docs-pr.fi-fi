@@ -1,22 +1,22 @@
 ---
 title: Kysynnän ja tarjonnan välisten suhteiden seuraaminen
 description: 'Tässä aiheessa kerrotaan eri tavoista seurata kysynnän ja tarjonnan välisiä suhteita, kuten linkitettyjen nimikkeiden seurantaa ja seuraamattomien suunnitteluelementtien käsittelemistä.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '5830, 9101, 99000822, 99000855'
 ms.date: 06/25/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="track-relations-between-demand-and-supply"></a>Kysynnän ja tarjonnan välisten suhteiden seuraaminen
+# Kysynnän ja tarjonnan välisten suhteiden seuraaminen
 
 Voit seurata tilausverkon kysyntä- tai tarjousasiakirjojen avulla tilauskysyntää (seurattu määrä), ennustetta, myyntipuitetilausta tai suunnitteluparametria (ei-seurattu määrä), joka on kiinnittänyt huomion kyseiseen suunnitteluriviin.
 
 Suunnittelutyökirjasta saa myös suunnittelua tukevia tietoja muista kuin tilattavista yksiköistä, mikä auttaa suunnittelijaa saamaa mahdollisimman hyvän toimitussuunnitelman. Lisätietoja on kohdassa [Ei-seuratut suunnitteluelementit.](production-how-track-demand-supply.md#untracked-planning-elements).
 
-## <a name="to-track-linked-items"></a>Linkitettyjen kohteiden seuraaminen
+## Linkitettyjen kohteiden seuraaminen
 Tilauksen seurannan avulla voi nähdä, miten myyntitilaukset, tuotantotilaukset ja ostotilaukset liittyvät tuotantotilaukseen suunnittelu- ja varausjärjestelmien kautta.
 
 Seuraavaksi käsitellään linkitettyjen nimikkeiden seuraamista sitovasti suunnitellussa tuotantotilauksessa. Nämä vaiheet ovat samankaltaiset kaikilla muilla tilaustyypeillä ja suunnittelutyökirjan riveillä.
@@ -27,7 +27,7 @@ Seuraavaksi käsitellään linkitettyjen nimikkeiden seuraamista sitovasti suunn
 
 Nykyiseen tuotantotilauksen riviin liittyvät asiakirjat näkyvät **Tilauksen seuranta** -ikkunan riveillä.
 
-## <a name="untracked-planning-elements"></a>Ei-seuratut suunnitteluelementit
+## Ei-seuratut suunnitteluelementit
 **Ei-seuratut suunnitteluelementit** -sivu avautuu, kun valitset **Ei-seurattu määrä** -kentän **Tilauksen suunnittelu** -sivulla. Sillä on kaksi tarkoitusta:
 
 1. Se sisältää tietoja ei-seuratuista määristä, jotka näytetään, kun käyttäjä etsii ei-seurattuja määriä Tilauksen seuranta -sivun avulla.
@@ -46,7 +46,7 @@ Sivu sisältää tapahtumia, jotka selittävät ei-seuratun ylijäämämäärän
 - Tilauskerrannainen
 - Vaimennin (% eräkoosta).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 [Suunnittelu](production-planning.md)   
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
 [Tuotanto](production-manage-manufacturing.md)    

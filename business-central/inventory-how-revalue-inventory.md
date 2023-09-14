@@ -2,7 +2,7 @@
 title: Uusien arvotapahtumien luominen varastossa oleville nimikkeille| Microsoft Docs
 description: 'Tässä ohjeaiheessa kerrotaan, miten vähintään yhden varaston nimikkeen arvotapahtumaa nostetaan tai lasketaan kirjaamalla nimikkeen nykyinen laskettu arvo.'
 documentationcenter: ''
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: 'costing, inventory cost, value entries'
 ms.search.forms: '5803,'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="revalue-inventory"></a>Varaston uudelleenarvostus
+# Varaston uudelleenarvostus
 Jos haluat nostaa tai laskea nimikkeen tai tietyn nimiketapahtuman varastoarvoa, sinun tulee käyttää uudelleenarvostuspäiväkirjaa.
 
-## <a name="to-revalue-inventory"></a>Varaston uudelleenarvostus
+## Varaston uudelleenarvostus
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Uud.arviointipvk.** ja valitse sitten vastaava linkki.
 2. Valitse **Laske varaston arvo** -toiminto.
 3. Täytä **Laske varaston arvo** -sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -27,7 +27,7 @@ Jos haluat nostaa tai laskea nimikkeen tai tietyn nimiketapahtuman varastoarvoa,
 
 Kirjaamiasi uudelleenarvostuksia vastaavat uudet arvotapahtumat on nyt luotu. Uudet arvot näkyvät vastaavissa nimikekorteissa.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Rakennetiedot: uudelleenarvostus](design-details-revaluation.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Myynti](sales-manage-sales.md)  

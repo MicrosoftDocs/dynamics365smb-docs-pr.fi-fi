@@ -1,10 +1,10 @@
 ---
-author: bholtorf
+author: brentholtorf
 ms.topic: include
 ms.date: 02/23/2022
 ms.author: bholtorf
 ---
-## <a name="check-data-in-documents-and-journals-while-you-work"></a>Tarkista asiakirjojen ja päiväkirjojen tiedot samalla kun työskentelet
+## Tarkista asiakirjojen ja päiväkirjojen tiedot samalla kun työskentelet
 
 Vuoden 2022 1. julkaisuaallossa otimme käyttöön ominaisuuden, joka vahvistaa tiedot, jotka syötät asiakirjoihin ja päiväkirjoihin, kun olet syöttämässä niitä. Esimerkiksi tämän ominaisuuden ottaminen käyttöön voi auttaa välttämään tietojen syöttämisessä tehtyjä virheitä tai jos ei voi kirjata mitään virheen takia. 
 

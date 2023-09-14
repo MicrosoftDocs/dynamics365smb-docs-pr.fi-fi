@@ -1,7 +1,7 @@
 ---
 title: Monikielisyys ja lokalisointi
 description: 'Tutustu, miten kieli ja alue vaikuttavat Business Centralin käyttökokemukseen. Voit vaihtaa käyttöliittymän kielen Omat asetukset -sivulla.'
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'language, locale, localization, culture, region, regional settings'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="changing-language-and-region"></a>Kielen ja alueen muuttaminen
+# Kielen ja alueen muuttaminen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on saatavana useilla markkina-alueilla ja kielillä eri puolilla maailmaa. Markkina-alueilla, joilla [!INCLUDE[prod_short](includes/prod_short.md)] on saatavana, lakisääteiset ominaisuudet auttavat yrityksiä lakisääteisten vaatimusten osalta. [!INCLUDE[prod_short](includes/prod_short.md)] voidaan näyttää eri kielillä. Voit myös vaihtaa tekstin näyttämiseen käytettävää kieltä. Muutos otetaan välittömästi käyttöön, kun olet automaattisesti kirjautunut ulos ja uudelleen sisään. Tämä asetus koskee vain muutoksen tekevää käyttäjää – ei siis yrityksen kaikkia käyttäjiä.  
 
@@ -29,7 +29,7 @@ Et voi muuttaa sovellustiedoiksi tallennettuja tekstejä. Nimikkeiden nimet vara
 > [!NOTE]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] tukee ainoastaan yhtä merkistöä. Tämän vuoksi ympäristö ei välttämättä tue kaikkia merkkejä, ja saatat havaita ongelmia hakiessasi eri merkistöllä annettuja tietoja. Ympäristö voi tukea esimerkiksi vain englantilaisia tai venäläisiä merkkejä. Tässä tapauksessa, jos syötät tietoja eri kielellä, tiedot saattavat tallentua virheellisesti. Ota yhteys järjestelmänvalvojaan, jos haluat lisätietoja [!INCLUDE[prod_short](includes/prod_short.md)]in tukemista kielistä.  
 
-## <a name="changing-your-region-setting"></a>Alueasetuksen muuttaminen
+## Alueasetuksen muuttaminen
 
 Alue on eri asia kuin paikallisten markkina-alueiden kielivaatimukset ja lainsäädännölliset vaatimukset. Alue määrittää, miten tietosi esitetään, kuten desimaalierotin, ja kuinka teksti tasataan vasemmalle tai oikealle. Alue määrittää myös jotkin selaimen järjestelmäelementit, kuten toiminnon, jolla luetteloon luodaan uusi nimike.  
 
@@ -40,28 +40,28 @@ Voit muuttaa alueen siinä selaimen välilehdessä, jossa käytät [!INCLUDE[pro
 
 Voit muuttaa alueen **Omat asetukset** -sivulla. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).  
 
-## <a name="changing-the-region-setting-for-customers-contacts-and-vendors"></a>Asiakkaiden, kontaktien ja toimittajien alueasetuksen muuttaminen
+## Asiakkaiden, kontaktien ja toimittajien alueasetuksen muuttaminen
 
 Jotkin yritykset käyttävät ulkoista palvelua, joka tarkistaa maan tai alueen osoitetiedot. Jos kuitenkin osoite tiedot on päivitettävä, näiden palveluiden käytössä oleva rakenteellinen lähestymistapa ei välttämättä aina ole oikea ratkaisu joissakin tilanteissa. Business Central tarjoaa joustavamman keinon osoitetietojen syöttämiseen.
 
 Jos **Pääkirjanpidon asetukset** -sivulla otat käyttöön **Vaadi osoitteessa maa-/aluekoodi** -valitsimen, **Maa-/aluekoodi** -kentän muuttaminen asiakkaille, yhteyshenkilöille tai toimittajille nollaavat muiden osoitekenttien arvot.
 
-## <a name="application-version"></a>Sovellusversio
+## Sovellusversio
 
 Voit tarkistaa **Ohje ja tuki** -sivulla mihin [!INCLUDE[prod_short](includes/prod_short.md)] -versioon yrityksesi perustuu. Jos haluat perustaa yrityksen eri versioon, järjestelmänvalvoja voi luoda uuden tuotantoympäristön. Lisätietoja on kohdassa [Uuden tuotanto ympäristön luominen](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) Kehittäjän ja IT-ammattilaisen sisällössä.  
 
-## <a name="languages-of-the--help"></a>[!INCLUDE[prod_short](includes/prod_short.md)]-ohjeen kielet
+## [!INCLUDE[prod_short](includes/prod_short.md)]-ohjeen kielet
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman oletusversion ohjesisältö julkaistaan Microsoft Learniin. Sisältö on saatavilla eri kielillä. Jos siirryt asiakirjoihin [!INCLUDE[prod_short](includes/prod_short.md)]ista, sisältö näkyy omalla kielelläsi. Oletusarvoisesti, jos tiettyä sivua ei ole vielä käännetty omalle kielellesi, se näkyy englanninkielisenä.
 
-### <a name="how-do-i-change-the-language-of-the-microsoft-learn-site"></a>Miten Microsoft Learn -sivuston kieli muutetaan?
+### Miten Microsoft Learn -sivuston kieli muutetaan?
 
 Kielen vaihtaminen on helppoa: siirry selainsivun alareunaan ja valitse vasemmassa kulmassa maapallokuvake.
 
 > [!NOTE]  
 > Avautuvassa luettelossa on kaikki Microsoft Learn -sivuston tukemat kielet. [!INCLUDE[prod_short](includes/prod_short.md)] on saatavana vain tietyissä maissa ja tietyillä alueilla eikä [!INCLUDE [prod_short](includes/prod_short.md)] -ohjesisältö ole saatavana kaikilla kielillä, joita Microsoft Learn -sivusto tukee.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  

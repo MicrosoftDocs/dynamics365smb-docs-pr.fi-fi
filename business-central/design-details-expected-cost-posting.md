@@ -1,16 +1,16 @@
 ---
 title: Rakennetiedot - oletetun kustannuksen kirjaus
 description: 'Oletetut kustannukset kuvaavat esimerkiksi arviota ostetun nimikkeen kustannuksesta, jonka kirjaat ennen nimikkeen laskun vastaanottamista.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 07/20/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="design-details-expected-cost-posting"></a>Rakennetiedot: oletetun kustannuksen kirjaus
+# Rakennetiedot: oletetun kustannuksen kirjaus
 Oletetut kustannukset kuvaavat esimerkiksi arviota ostetun nimikkeen kustannuksesta, jonka kirjaat ennen nimikkeen laskun vastaanottamista.  
 
  Voit kirjata oletetut kustannukset varastoon ja pääkirjanpitoon. Kun kirjaat määrän, joka on vastaanotettu tai toimitettu, mutta ei laskutettu, siitä luodaan arvotapahtuma ja oletetut kustannukset. Tämä oletettu kustannus vaikuttaa varaston arvoon, mutta se kirjataan pääkirjaan vain, jos järjestelmä määritetään tekemään niin.  
@@ -22,7 +22,7 @@ Oletetut kustannukset kuvaavat esimerkiksi arviota ostetun nimikkeen kustannukse
 
  Laskutetussa arvotapahtumassa näkyy väliaikaisten tilien täsmäyttämiseksi kirjattu oletettu kustannussumma. Tämä tukee täsmäytystä ja jäljitystä.  
 
-## <a name="prerequisites-for-posting-expected-costs"></a>Oletetun kustannuksen kirjaamisen edellytykset
+## Oletetun kustannuksen kirjaamisen edellytykset
 
 Jotta odotetut kustannukset voidaan kirjata, sinun on tehtävä seuraavat toimet:
 1. **Varastonhallinnan asetukset** -sivulla valitse **Automaattinen kustann. kirjaus** -valintaruutu ja **Oletettu kust. kirjaus KP:oon** -valintaruutu.
@@ -32,7 +32,7 @@ Jotta odotetut kustannukset voidaan kirjata, sinun on tehtävä seuraavat toimet
 3. Tarkista **Yleiset kirjausasetukset** -sivulla **Varaston kertymätili (väliaik)** -kenttä käyttämillesi **Yleinen liiketoim. kirjausryhmä**- ja **Yleinen tuotteen kirjausryhmä** -ryhmille.
 4. Kun luot ostotilauksen, oletusarvona on, että **Toimittajan laskun nro** -kenttä on pakollinen. Sinun on poistettava se käytöstä **Ostojen ja ostovelkojen asetukset** -sivulla poistamalla **Ulkois. asiakirjan nro pakoll.** -kentän valinta.
 
-## <a name="example"></a>Esimerkki
+## Esimerkki  
 
 > [!NOTE]  
 > Tässä esimerkissä käytetyt tilinumerot ovat vain viitteenä, ja ne ovat erilaisia järjestelmässäsi. Määritä ne yllä olevissa edellytyksissä olevien ohjeiden mukaan.
@@ -85,7 +85,7 @@ Kirjaa ostotilaus vastaanotetuksi. Oletetut kustannukset ovat LCY 95.00.
 |01-15-20|Välitön kust. kohdistettutili|7291|-100|6|  
 |01-15-20|Varastotili|2130|100|5|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
  [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)   
  [Rakennetiedot: kustannuksen muutos](design-details-cost-adjustment.md)   
  [Rakennetiedot: täsmäytys pääkirjanpidon kanssa](design-details-reconciliation-with-the-general-ledger.md)   

@@ -3,8 +3,8 @@ metadata:
   title: Sähköinen laskutus – usein kysytyt kysymykset
   description: Saat vastauksia asiakirjojen vaihtopalvelusta ja tuetuista PEPPOL-versioista.
   ms.topic: faq
-  author: edupont04
-  ms.author: edupont
+  author: brentholtorf
+  ms.author: bholtorf
 title: Sähköinen laskutus – usein kysytyt kysymykset
 summary: |
   Sisäänrakennettu asiakirjojen vaihtopalvelu lähettää sähköiset laskut TradeShift-palveluntarjoajalle, joka välittää sähköiset laskut PEPPOLIN- tai NemHandel-vastaanottajille. Palvelu tukee kuitenkin rajoitettua määrää versioita.   

@@ -1,27 +1,27 @@
 ---
 title: Asiakashintaryhmien määrittäminen
 description: Tietoja asiakashintaryhmien määrittämisestä ja myyntihintojen luomisesta näille ryhmille.
-author: jill-kotel-andersson
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'customer price groups, discounts, sales prices'
 ms.date: 09/30/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
-# <a name="set-up-customer-price-groups"></a>Asiakashintaryhmien määrittäminen
+# Asiakashintaryhmien määrittäminen
   
 Myyntihinnat voidaan tehdä riippuviksi asiakasryhmistä, joille myydään. Näitä kutsutaan asiakashintaryhmiksi.
 
 Ennen kuin asiakkaan hintaryhmiä määritetään, tulee päättää, kuinka monta ryhmää haluat ja ketkä asiakkaat kuuluvat mihinkin ryhmään.  
 
-## <a name="how-to-create-sales-prices-for-a-group-of-customers"></a>Myyntihintojen luominen asiakasryhmälle
+## Myyntihintojen luominen asiakasryhmälle  
 
 Kun olet hyväksynyt hinnat, jotka ryhmä asiakkaita maksaa tietyistä nimikkeistä, hyväksyminen rekisteröidään yksittäisten nimikkeiden osalta **Myyntihinnat**-sivun riveille.
 
-### <a name="to-create-sales-prices-for-a-group-of-customers"></a>Myyntihintojen luominen asiakasryhmälle
+### Myyntihintojen luominen asiakasryhmälle
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakashintaryhmät** ja valitse sitten vastaava linkki.  
 
@@ -43,11 +43,11 @@ Kun olet hyväksynyt hinnat, jotka ryhmä asiakkaita maksaa tietyistä nimikkeis
 
 Toista työvaiheet 4–8 kunkin nimikkeen osalta, joille haluat luoda Myyntihinnan.
 
-## <a name="how-to-enter-customer-price-group-codes-on-customer-cards"></a>Asiakkaan hintaryhmäkoodien syöttäminen asiakaskortteihin
+## Asiakkaan hintaryhmäkoodien syöttäminen asiakaskortteihin  
 
 Sen jälkeen, kun olet määrittänyt asiakashintaryhmät, voit syöttää asiakkaan hintaryhmäkoodit asiakaskortteihin.
 
-### <a name="to-enter-customer-price-group-codes-on-a-customer-card"></a>Asiakkaan hintaryhmäkoodien syöttäminen asiakaskorttiin
+### Asiakkaan hintaryhmäkoodien syöttäminen asiakaskorttiin  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten vastaava linkki.  
 
@@ -56,7 +56,7 @@ Sen jälkeen, kun olet määrittänyt asiakashintaryhmät, voit syöttää asiak
 3. Valitse **Laskutus**-pikavälilehden **Asiakkaan hintaryhmä** -kentässä **Asiakashintaryhmä**-koodi.  
 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  

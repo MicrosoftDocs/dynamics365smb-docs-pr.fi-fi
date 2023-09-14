@@ -1,14 +1,14 @@
 ---
 title: Roolien sivujen mukauttaminen
 description: 'Lisätietoja profiilin (roolin) käyttöliittymän mukauttamisesta siten, että kaikki käyttäjät, joille kyseinen rooli on määritetty, näkevät mukautetun työtilan.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: 'customize, personalize, personalization, hide columns, remove fields, move fields'
 ms.search.form: 9171
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="customize-pages-for-profiles"></a>Profiilien sivujen mukauttaminen
+# Profiilien sivujen mukauttaminen
 
 Käyttäjät voivat mukauttaa työtilan muodostavia sivuja omien mieltymystensä mukaisesti. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
@@ -19,7 +19,7 @@ Järjestelmänvalvojat voivat mukauttaa profiilin sivuja liittyvän liiketoimint
 
 Sivun mukauttaminen aloitetaan **Profiilit (roolit)** -sivulla, josta järjestelmänvalvojat aloittavat yksittäisten profiilikorttien käyttäjien profiilien hallinnan. Sivun asettelun mukauttamisen lisäksi voi kunkin profiilin **Profiili (rooli)** -sivulla voi hallita useita muita profiilien asetuksia. Lisätietoja on kohdassa [Profiilien hallinta](admin-users-profiles-roles.md).
 
-## <a name="to-customize-pages-for-a-profile"></a>Profiilin sivujen mukauttaminen
+## Profiilin sivujen mukauttaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Profiilit (Roolit)** ja valitse sitten vastaava linkki.
 2. Valitse ensin sen profiilin rivi, jonka sivuja haluat mukauttaa, ja valitse sitten **Muokkaa**-toiminto.
@@ -37,7 +37,7 @@ Sivun mukauttaminen aloitetaan **Profiilit (roolit)** -sivulla, josta järjestel
 
 Sivujen mukauttaminen on nyt tallennettu profiiliin.
 
-## <a name="to-view-all-customized-pages-for-a-profile"></a>Kaikkien profiilin mukautettujen sivujen näyttäminen
+## Kaikkien profiilin mukautettujen sivujen näyttäminen
 
 Saat tarvittaessa yleiskuvan profiiliin mukautetuista sivuista, mikä auttaa suunnittelemaan esimerkiksi sivujen lisämukautuksia tai poistamisia.
 
@@ -45,7 +45,7 @@ Saat tarvittaessa yleiskuvan profiiliin mukautetuista sivuista, mikä auttaa suu
 
 **Mukautetut sivut** -sivulla voit poistaa mukautuksia ja tehdä vian määrityksen tarkistamalla mahdolliset ongelmat.  
 
-## <a name="to-delete-all-customizations-for-a-profile"></a>Profiilin kaikkien mukautusten poistaminen
+## Profiilin kaikkien mukautusten poistaminen
 
 Voit peruuttaa kaikki profiiliin tehdyt mukautukset. Laajennukseen perustuvia mukautuksia ja käyttäjän tekemiä mukautuksia ei poisteta. Voit poistaa kaikki mukautukset toisella toiminnolla. Lisätietoja on kohdassa [Kaikkien käyttäjän tekemien mukautusten poistaminen](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
@@ -53,7 +53,7 @@ Voit peruuttaa kaikki profiiliin tehdyt mukautukset. Laajennukseen perustuvia mu
 
 Profiilin sivujen asetteluksi palautetaan oletusasettelu.  
 
-## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Profiilin tiettyjen sivujen mukautusten poistaminen
+## Profiilin tiettyjen sivujen mukautusten poistaminen
 
 Voit poistaa profiilin yksittäisen sivun mukautukset. Laajennukseen perustuvia mukautuksia ja käyttäjän tekemiä mukautuksia ei poisteta. Voit poistaa tietyn sivun mukautukset toisella toiminnolla. Lisätietoja on kohdassa [Tiettyjen sivujen mukautusten poistaminen](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
@@ -62,9 +62,9 @@ Voit poistaa profiilin yksittäisen sivun mukautukset. Laajennukseen perustuvia 
 
 Valitun sivun asettelu muutetaan vastaamaan tekemiäsi muutoksia.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/tailor-roles-design-ui/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/tailor-roles-design-ui/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Työtilan mukauttaminen](ui-personalization-user.md)  
 [Profiilien hallinta](admin-users-profiles-roles.md)  

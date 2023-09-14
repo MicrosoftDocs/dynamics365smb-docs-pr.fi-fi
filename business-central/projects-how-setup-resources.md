@@ -1,7 +1,7 @@
 ---
 title: 'Projektin resurssin kustannusten, hintojen ja kapasiteetin määrittäminen'
 description: Voit käyttää resursseja ja helpottaa projektinhallintaa määrittämällä yksittäisten resurssien tai resurssiryhmien kustannukset ja hinnat sekä resurssikapasiteetin.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'project management, capacity, staff'
 ms.search.form: '72, 76, 77, 203, 204'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-resources-for-projects"></a>Projektien resurssien määrittäminen
+# Projektien resurssien määrittäminen
 
 Jotta voit hallita resurssitoimintoja tarkasti, sinun on määritettävä resurssit sekä niihin liittyvät kustannukset ja hinnat. Projekteihin liittyvät hinnat, alennukset ja kustannustekijäsäännöt määritetään projektikortissa. Voit määrittää kustannukset ja hinnat yksittäisille resursseille, resurssiryhmille tai kaikille yrityksen käytettävissä oleville resursseille.
 
@@ -25,7 +25,7 @@ Tuntikohtainen oletussumma määritetään resurssin luomisen yhteydessä. Jos k
 >  
 > Jos olet kirjaamassa konsernin tapahtumia, vaikka voit luoda resurssin myyntitilauksen riville, jos muunnat myyntitilauksen vastaanottopuolen ostotilaukseksi, resurssia ei sisällytetä. Käyttääksesi konsernin tapahtumissa resursseja käytä **Kons. oston KP-tilinro** -kenttää resurssikortissa määrittääksesi tilin, jolle kulut kirjataan.
 
-## <a name="to-set-up-a-resource"></a>Resurssin määrittäminen
+## Resurssin määrittäminen
 
 Luo jokaiselle projekteissa käytettävälle resurssille kortti.
 
@@ -33,7 +33,7 @@ Luo jokaiselle projekteissa käytettävälle resurssille kortti.
 2. Valitse **Uusi**-toiminto.
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-set-up-a-resource-group"></a>Resurssiryhmän määrittäminen
+## Resurssiryhmän määrittäminen
 
 Yhteen resurssiryhmään voi yhdistää useita resursseja. Kaikki resurssiryhmien kapasiteetit ja budjetit kertyvät yksittäisistä resursseista. Resurssiryhmille voi syöttää kapasiteetteja joko kertyneistä arvoista itsenäisesti tai niiden lisäksi.
 
@@ -41,7 +41,7 @@ Yhteen resurssiryhmään voi yhdistää useita resursseja. Kaikki resurssiryhmie
 2. Valitse **Uusi**-toiminto.
 3. Täytä tarvittavat kentät.
 
-## <a name="to-set-capacity-for-a-resource"></a>Resurssin kapasiteetin määrittäminen
+## Resurssin kapasiteetin määrittäminen
 
 Resurssien kapasiteetti on määritettävä työkalenteriin jaksoittaisena saatavuusaikana, jotta voit laskea, kuinka kauan resurssia voi käyttää työssä. Tätä määritystä käytetään silloin, kun täytät työn suunnittelurivit, jotka sisältävät resurssin. Lisätietoja on kohdassa [Projektien luominen](projects-how-create-jobs.md).
 
@@ -54,7 +54,7 @@ Resurssien kapasiteetti on määritettävä työkalenteriin jaksoittaisena saata
 7. Valitse **Päivitä kapasiteetti** -toiminto. **Resurssikapasiteetti**-sivulle päivitetään annettu kapasiteetti.
 8. Sulje sivu.
 
-## <a name="to-set-up-alternate-resource-costs"></a>Vaihtoehtoisten resurssikustannusten määrittäminen
+## Vaihtoehtoisten resurssikustannusten määrittäminen
 
 Resurssikortissa määritettyjen kustannusten lisäksi voit määrittää kullekin resurssille vaihtoehtoiset kustannukset. Jos esimerkiksi maksat työntekijälle suurempaa tuntipalkkaa ylityöstä, ylityöpalkalle voi määrittää resurssikustannuksen. Resurssille määritetty vaihtoehtoinen kustannus ohittaa resurssikortissa olevan kustannuksen silloin, kun resurssia käytetään resurssipäiväkirjassa.
 
@@ -65,7 +65,7 @@ Resurssikortissa määritettyjen kustannusten lisäksi voit määrittää kullek
 
 **Huomautus**. Voit määrittää kaikki resursseja ja resurssiryhmiä koskevia resurssikustannuksia avaamalla **Resurssikustannukset**-sivun ja täyttämällä sen kentät.
 
-## <a name="to-set-up-alternate-resource-prices"></a>Vaihtoehtoisten resurssihintojen määrittäminen
+## Vaihtoehtoisten resurssihintojen määrittäminen
 
 Resurssikortissa määritetyn hinnan lisäksi voit määrittää kullekin resurssille vaihtoehtoiset hinnat. Vaihtoehtoiset hinnat voivat olla ehdollisia. Ne voivat riippua siitä, minkä projekti- tai työtyypin yhteydessä resurssia käytetään.
 
@@ -74,9 +74,9 @@ Resurssikortissa määritetyn hinnan lisäksi voit määrittää kullekin resurs
 3. Täytä **Resurssihinnat**-sivun rivillä tarvittavat kentät.
 4. Toista vaihe 3 kaikkien määritettävien vaihtoehtoisten resurssihintojen kohdalla.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-jobs-resources/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-jobs-resources/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Projektinhallinnan määrittäminen](projects-setup-projects.md)  
 [Projektinhallinta](projects-manage-projects.md)  

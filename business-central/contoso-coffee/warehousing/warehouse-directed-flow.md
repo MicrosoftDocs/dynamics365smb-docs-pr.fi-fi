@@ -1,7 +1,7 @@
 ---
 title: 'Vastaanotto, hyllytys, siirtäminen, poiminta ja toimitus laajennetussa varastomäärityksessä sekä Ohjattu hyllytys ja poiminta'
 description: Business Central -sovelluksessa saapuvat ja lähtevät prosessit voidaan suorittaa neljällä eri tavalla varastotason monimutkaisuuden mukaan.
-author: andreipanko
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: null
 ms.date: 04/01/2021
-ms.author: andreipa
+ms.author: bholtorf
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration-with-directed-put-away-and-pick"></a>Vaihekuvaus: Saapuva ja lähtevä työnkulku edistyneessä fyysisen varaston määrityksessä, jossa on ohjattu hyllytys ja poiminta
+# Vaihekuvaus: Saapuva ja lähtevä työnkulku edistyneessä fyysisen varaston määrityksessä, jossa on ohjattu hyllytys ja poiminta
 
 Tässä vaihekuvauksessa kuvataan, miten saapuvat ja lähtevät työnkulut suoritetaan kohteessa Lisäasetukset: Ohjatun hyllytyksen ja poiminnan määritys. Lisätietoja on kohdassa [Erilaisten määritysvaihtoehtojen yleiskatsaus](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Vaatimukset
+## Vaatimukset  
 Tämän vaihekuvauksen suorittaminen edellyttää, että teet itsestäsi fyysisen varastoinnin työntekijän *VALKOINEN*-sijainnissa noudattamalla seuraavia ohjeita:  
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](../../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston työntekijät** ja valitse sitten vastaava linkki.  
 2. Valitse ensin **Käyttäjätunnus**-kenttä ja valitse oma käyttäjätilisi **Käyttäjät**-sivulla.  
@@ -24,10 +24,10 @@ Tämän vaihekuvauksen suorittaminen edellyttää, että teet itsestäsi fyysise
 4. Ota käyttöön **Oletus**-vaihto.
 
 
-## <a name="scenario"></a>Skenaario
+## Skenaario  
 Ellen, varastopäällikkö, käyttää laiturointia ja varastopaikan täydennystoimintoja nopeuttamaan vastaanottoa ja toimitusaikaa.  
 
-## <a name="steps"></a>Vaiheet
+## Vaiheet
 
 1. Luo fyysisen varaston toimitus.  
 
@@ -136,7 +136,7 @@ Ellen, varastopäällikkö, käyttää laiturointia ja varastopaikan täydennyst
     4. Vahvista **Toimitus**-valinta.
 
 
-## <a name="results"></a>Tulokset
+## Tulokset
 - **Kirjatut fyysisen varaston vastaanotot** luodaan
 - **Rekisteröity fyysisen varaston hyllytys** luodaan    
 - **Kirjattu ostovastaanotto** luodaan    
@@ -150,7 +150,7 @@ Ellen, varastopäällikkö, käyttää laiturointia ja varastopaikan täydennyst
 
 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Nimikkeiden vastaanottaminen](../../warehouse-how-receive-items.md) 
 [Rakennetiedot: saapuvan fyysisen varastoinnin virta](../../design-details-inbound-warehouse-flow.md) 
 [Nimikkeiden lähettäminen](../../warehouse-how-ship-items.md) 

@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
 ---
-# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Projektien, hintojen ja projektin kirjausryhmien määrittäminen
+# Projektien, hintojen ja projektin kirjausryhmien määrittäminen
 
 Määrität projektipäällikkönä projektit, jotka määrittävät jokaisen [!INCLUDE[prod_short](includes/prod_short.md)]issa hallittavan projektin. **Töiden asetukset** -sivulla voit määrittää, miten työominaisuuksia käytetään.
 
@@ -21,7 +21,7 @@ Määrittele eri tiedot jokaiselle työlle:
 * Projektin kirjanpitotilit
 * Projektin kirjausryhmät (pakollinen)
 
-## <a name="to-set-general-information-for-jobs"></a>Projektien yleistietojen määrittäminen
+## Projektien yleistietojen määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektienhallinnan asetukset** ja valitse sitten vastaava linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -29,7 +29,7 @@ Määrittele eri tiedot jokaiselle työlle:
 > [!NOTE]
 > **Käytä käyttölinkkiä oletusarvoisesti** -valinta **Projektimääritys**-sivulla osoittaa, onko projektitapahtumat linkitetty projektin suunnitteluriveihin oletusarvoisesti. Ota tämä asetus käyttöön kaikissa uusissa projekteissa ottamalla vaihto käyttöön. Voit ottaa käyttöön tai poistaa käytöstä projektin käytön seurannan tietylle projektille ottamalla käyttöön tai poistamalla **Käytä käyttölinkkiä** **Työkortti**-sivulla.
 
-### <a name="to-set-up-job-usage-tracking"></a>Projektin käytön seurannan määrittäminen
+### Projektin käytön seurannan määrittäminen
 
 Kun työskentelet projektin parissa, haluat ehkä tietää, miten käyttöäsi seurataan suunnitelmaasi. Voit tutkia käyttöä luomalla linkin työsuunnittelurivien ja toteutuneen käytön välille. Linkin avulla voit seurata kustannuksia ja selvittää, kuinka paljon työtä on jäljellä. Oletusarvon mukaan työn suunnittelurivin tyyppi on **Budjetti**, mutta käyttämällä rivin tyyppiä **Sekä budjetti että laskutettava** on samanlainen vaikutus.
 
@@ -43,7 +43,7 @@ Kun olet määrität käytön seurannan valitsemalla **Käytä käyttölinkkiä 
 > [!IMPORTANT]
 > Jos et määritä projektipäiväkirjarivin tai ostorivin **Rivityyppi**-kentän arvoa, projektin suunnittelurivejä ei luoda, kun projektipäiväkirja tai ostoasiakirja kirjataan.
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Hintojen määrittäminen töiden nimikkeille, resursseille ja KP-tileille
+## Hintojen määrittäminen töiden nimikkeille, resursseille ja KP-tileille
 
 > [!NOTE]
 > Vuoden 2020 julkaisuaallossa 2 julkaisimme uudet prosessit hintojen ja alennusten määritykseen ja hallintaan. Jos olet uusi asiakas, käytät uutta käyttökokemusta. Jos olet jo asiakas, uuden käyttöokemuksen käyttö riippuu siitä, onko järjestelmänvalvoja ottanut käyttöön **Uusi myyntihinnoittelukokemus** -ominaisuuden päivityksen **ominaisuuksien hallinnassa**. Lisätietoja on kohdassa [Tulevien ominaisuuksien ottaminen käyttöön etuajassa](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -71,7 +71,7 @@ Kun projektille valitaan resurssi, nimike tai kirjanpitotili, [!INCLUDE [prod_sh
 
 ---
 
-## <a name="to-set-up-job-posting-groups"></a>Projektin kirjausryhmien määrittäminen
+## Projektin kirjausryhmien määrittäminen
 
 Yksi näkökulma projektien suunnittelussa on sen päättäminen, mitä kirjaustilejä projektin kustannuslaskentaan käytetään. Projektien kirjaus edellyttää, että määrität kullekin projektin kirjausryhmälle tilit kirjausta varten. Kirjausryhmä edustaa linkkiä työn ja sen kirjanpitokäsittelyn välillä. Kun luot työn, määrität kirjausryhmän ja oletusarvon mukaan jokainen tehtävä, jonka luot työlle, liittyy kyseiseen kirjausryhmään. Voit kuitenkin ohittaa oletusarvon tehtävien luonnin yhteydessä ja valita sopivamman kirjausryhmän.  
 
@@ -81,29 +81,29 @@ Yksi näkökulma projektien suunnittelussa on sen päättäminen, mitä kirjaust
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektin kirjausryhmät** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto ja täytä kentät seuraavassa taulukossa kuvatulla tavalla.  
 
-| Summakentät | Kuvaus |
-| --- | --- |
-| **Koodi** |Tunniste kirjausryhmää varten. Voit kirjoittaa enintään 10 merkkiä (välilyönnit mukaan lukien). |
-| **KET-kustannusten tili** |Projektin keskeneräisen työn laskettujen kustannusten KET-tili, joka on käyttöomaisuuden tasetili. |
-| **Kertyneiden KET-kustannusten tili** |KET-laskennan kustannusarvon tai myynnin kustannusten tili. Tämä tili kattaa taseesi kertyneet siirtovelat. Kun KET-oikaisu edellyttää, että lisäät tuloslaskelmaan kirjattavia käyttökustannuksia, kirjaat tälle tilille. |
-| **Projektin kohdistettujen kustannusten tili** |KET-kustannusten tilin vastatili eli negatiivisten kustannusten tilin vastatili. |
-| **Nimikkeiden kohdistettujen kustannusten tili** |KET-kustannusten tilin vastatili eli negatiivisten kustannusten tilin vastatili. |
-| **Resurssien kohdistettujen kustannusten tili** |KET-kustannusten tilin vastatili eli negatiivisten kustannusten tilin vastatili. |
-| **Kohdistettujen kustannusten tili** |KET-kustannusten tilin vastatili eli negatiivisten kustannusten tilin vastatili. |
-| **Projektin kustannusten muutostili** |Kertyneiden KET-kustannusten tilin vastatili, joka on kustannustili. |
-| **Kirjanpidon kustannustili (budjetti)** |Tässä kentässä on myyntitili, jota käytetään tämän kirjausryhmän projektitehtävien kirjanpitokustannuksille. Jos kenttä on tyhjä, ohjelma käyttää projektin suunnittelurivillä määritettyä kirjanpitotiliä. |
-| **Kertyneen KET-myynnin tili** |Keskeneräisen työn lasketun myyntiarvon KET-tili, joka on taseen kertyneen tuoton tili. Kun KET-oikaisu edellyttää kirjattujen tulojen lisäämistä, kirjaat tälle tilille. |
-| **Laskutetun KET-myynnin tili** |Keskeneräisen työn sen laskutetun myyntiarvon tili, jota ei voi tulouttaa. Tämä on taseen ansaitsemattoman tuoton tili. |
-| **Projektin myynnin kohdistuksen tili** |Laskutetun KET-myynnin tilin vastatili, joka on tuottotilin vastatili. |
-| **Projektin myynnin muutostili** |KET-myyntitilin vastatili, joka on tuottotili. |
-| **Tuloutettujen kustannusten tili** |Kustannustili, joka sisältää projektin tuloutetut kustannukset. Yleensä tili on debetkustannustili. |
-| **Tuloutetun myynnin tili** |Tulotili, joka sisältää projektin tuloutetut tuotot. Yleensä tili on kredittulotili. |
+| Summakentät | Kuvaus | Käytetty KET-tyypissä |
+| --- | --- |  --- |
+| **Koodi** |Tunniste kirjausryhmää varten. Voit kirjoittaa enintään 10 merkkiä (välilyönnit mukaan lukien). | |
+| **KET-kustannusten tili** |Projektin keskeneräisen työn laskettujen kustannusten KET-tili, joka on käyttöomaisuuden tasetili. | Sovellettu kustannus, kirjatut kustannukset|
+| **Kertyneiden KET-kustannusten tili** |KET-laskennan kustannusarvon tai myynnin kustannusten tili. Tämä tili kattaa taseesi kertyneet siirtovelat. Kun KET-oikaisu edellyttää, että lisäät tuloslaskelmaan kirjattavia käyttökustannuksia, kirjaat tälle tilille. | Kertyneet kustannukset|
+| **Projektin kohdistettujen kustannusten tili** |KET-kustannusten tilin vastatili eli negatiivisten kustannusten tilin vastatili. Käytetään, kun **käytetty KET-kirjaustapa** on *Työ* . | Sovelletut kustannukset, kirjatut kustannukset|
+| **Nimikkeiden kohdistettujen kustannusten tili** |Sama kuin **Sovelletut työkustannukset** -tili, mutta sitä käytetään, kun **Käytetty KET-kirjausmenetelmän** arvoksi on asetettu *Työkirjanpidon kirjaus*.| |
+| **Resurssien kohdistettujen kustannusten tili** |Sama kuin **Sovelletut työkustannukset** -tili, mutta sitä käytetään, kun **Käytetty KET-kirjausmenetelmän** arvoksi on asetettu *Työkirjanpidon kirjaus*.| |
+| **KP-kustannusten kohdistettujen kustannusten tili** |Sama kuin **Sovelletut työkustannukset** -tili, mutta sitä käytetään, kun **Käytetty KET-kirjausmenetelmän** arvoksi on asetettu *Työkirjanpidon kirjaus*.| |
+| **Projektin kustannusten muutostili** |Kertyneiden KET-kustannusten tilin vastatili, joka on kustannustili. | Kertyneet kustannukset|
+| **Kirjanpidon kustannustili (budjetti)** |Tässä kentässä on myyntitili, jota käytetään tämän kirjausryhmän projektitehtävien kirjanpitokustannuksille. Jos kenttä on tyhjä, ohjelma käyttää projektin suunnittelurivillä määritettyä kirjanpitotiliä. | |
+| **Kertyneen KET-myynnin tili** |Keskeneräisen työn lasketun myyntiarvon KET-tili, joka on taseen kertyneen tuoton tili. Kun KET-oikaisu edellyttää kirjattujen tulojen lisäämistä, kirjaat tälle tilille. | Kertyneet myynnit, kirjatut myynnit|
+| **Laskutetun KET-myynnin tili** |Keskeneräisen työn sen laskutetun myyntiarvon tili, jota ei voi tulouttaa. Tämä on taseen ansaitsemattoman tuoton tili. | Kirjatut myynnit, sovelletut myynnit|
+| **Projektin myynnin kohdistuksen tili** |Laskutetun KET-myynnin tilin vastatili, joka on tuottotilin vastatili. | Sovelletut myynnit, kirjatut myynnit|
+| **Projektin myynnin muutostili** |KET-myyntitilin vastatili, joka on tuottotili. | Kertynyt myynti|
+| **Tuloutettujen kustannusten tili** |Kustannustili, joka sisältää projektin tuloutetut kustannukset. Yleensä tili on debetkustannustili. | Tuloutetut kustannukset|
+| **Tuloutetun myynnin tili** |Tulotili, joka sisältää projektin tuloutetut tuotot. Yleensä tili on kredittulotili. | Tuloutettu myynti|
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-jobs-resources/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-jobs-resources/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
-[Projektinhallinnan määrittäminen](projects-setup-projects.md)  
+[Projektienhallinnan määrittäminen](projects-setup-projects.md)  
 [Video: Projektin luonti Dynamics 365 Business Centralissa](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Projektien hallinta](projects-manage-projects.md)  
 [Rahoitus](finance.md)  

@@ -1,16 +1,16 @@
 ---
 title: Huoltohallinto
 description: 'Opi käyttämään Business Centralin ominaisuuksia, jotka on suunniteltu hallitsemaan ja seuraamaan palveluita ja siten tukemaan korjaamo- ja kenttäpalvelutoimintoja.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 06/23/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="service-management"></a>Huoltohallinto
+# Huoltohallinto
 > [!NOTE]
 > Tässä ohjeaiheessa ja aliohjeaiheissa esitellyt toiminnot näkyvät käyttöliittymässä vain, jos käytössä on **Premium**-käyttökokemus. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
 
@@ -36,7 +36,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Luo ja hallitse asiakkaiden kanssa tehtyjä sopimuksia.|[Huoltosopimusten toteuttaminen](service-fulfill-service-contracts.md)|  
 |Tarjoa asiakkaille huoltoja ja laskuta huoltotilauksia.|[Huollon toimittaminen](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)   
 [Projektit](projects-how-create-jobs.md)   
 [Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin!](welcome.md)

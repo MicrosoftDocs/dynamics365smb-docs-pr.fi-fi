@@ -1,20 +1,20 @@
 ---
 title: Käteisasiakkaiden määrittäminen
 description: 'Tässä aiheessa kuvataan vaiheet, joita tarvitaan laskun määrittämiseen asiakasnumerolla käteisellä maksavia asiakkaita varten.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '21, 22'
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-cash-customers"></a>Käteisasiakkaiden määrittäminen
+# Käteisasiakkaiden määrittäminen
 
 Laskua ei voi luoda ilman asiakasnumeroa. Näin on, vaikka teet käteismyynnin, eikä asiakastilille ole mitään tallennettavaa.  
 
-## <a name="to-set-up-a-cash-customer"></a>Käteisasiakkaiden määrittäminen
+## Käteisasiakkaiden määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakas** ja valitse sitten vastaava linkki.  
 2. Luo uusi **Asiakkaan** kortti. Lisätietoja on kohdassa [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md).
@@ -29,7 +29,7 @@ Laskua ei voi luoda ilman asiakasnumeroa. Näin on, vaikka teet käteismyynnin, 
 >
 > Myyntisaamistilille täytyy syöttää numero kirjausryhmää varten, vaikka tilin saldo on aina 0 laskun kirjaamisen jälkeen.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Uusien asiakkaiden rekisteröiminen](sales-how-register-new-customers.md)

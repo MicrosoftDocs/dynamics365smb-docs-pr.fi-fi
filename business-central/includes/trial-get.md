@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 04/05/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 1. Siirry [kokeiluversion sivustolle](https://go.microsoft.com/fwlink/?linkid=847861), valitse *talous- ja toimintosovellukset* ja valitse sitten **Dynamics 365 Business Central** -kortissa **Kokeile ilmaiseksi** -painike.  
 2. Syötä työpaikan tai koulun sähköpostiosoite ja muut tiedot. Sinut uudelleenohjataan kokeiluversioon osoitteessa [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  

@@ -11,7 +11,7 @@ ms.search.form: 'TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9
 ms.date: 09/13/2022
 ms.author: bholtorf
 ---
-# <a name="finding-pages-and-information-with-tell-me"></a>Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla
+# Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla
 
 Tässä artikkelissa käsitellään, miten tuotteen sisällä oleva hakukenttä *Kerro, mitä haluat tehdä* voi siirtyä nopeasti esimerkiksi toimintoihin tai raportteihin, etsiä tietoja tietyn tehtävän suorittamisesta sekä löytää muita sovelluksia ja konsultointipalveluja sovelluksessa [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -31,48 +31,48 @@ Oikealla oleva sarake osoittaa tuloksen yleisen luokan. Se voi ilmaista esimerki
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="find-an-action-on-the-current-page"></a>Toiminnon etsiminen nykyiseltä sivulta
+## Toiminnon etsiminen nykyiseltä sivulta
 
 **Nykyisellä sivulla** -osassa voit etsiä avoinna olevasta sivusta ja suorittaa siinä toimintoja. Jos esimerkiksi **Myyntitarjous**-sivu on avoinna ja kirjoitat asiakas-sanan, osan sisältämä toiminto avaa myyntitarjouksessa valitun asiakkaan kortin.
 
 > [!NOTE]  
 > Luettelo sisältää vain sivun yläosan siirtymispalkissa käytettävissä olevat toiminnot. Pikavälilehtien toiminnot eivät ole luettelossa.  
 
-## <a name="find-a-page-or-a-task"></a>Sivun tai tehtävän etsiminen
+## Sivun tai tehtävän etsiminen
 
 **Siirry Sivut ja tehtävät -näkymään** -osan tulosten avulla voi käyttää muita sivuja ja suorittaa tehtäviä tai hakea tietoja. Jos käytät näitä sivuja usein, voit lisätä roolikeskukseen minkä tahansa sivun linkin valitsemalla kirjanmerkkikuvakkeen. Lisätietoja on kohdassa [Sivutoiminnon lisääminen roolikeskukseen](ui-bookmarks.md).
 
 Luettelossa olevat sivut ja tehtävät määräytyvät yritykselle valitun käyttäjäkokemuksen mukaan. **Essential**-kokemuksen valikoima on suppeampi kuin **Premium**-kokemuksen valikoima. Ensimmäisellä kirjautumiskerralla käytössä on **Essential**-kokemus. Lisätietoja on kohdassa [[!INCLUDE[prod_short](includes/prod_short.md)] -kokemuksen mukauttaminen](ui-experiences.md).
 
-## <a name="find-a-report-or-archived-information"></a>Raportin tai arkistoitujen tietojen etsiminen
+## Raportin tai arkistoitujen tietojen etsiminen
 
 **Siirry Raportit ja analyysi -näkymään** -osan avulla voi käyttää raportointityökaluja. Voit esimerkiksi avata **Tase**-raportin luettelosta tai käyttää arkistoituja asiakirjoja ja muita tietoja.  
 
-## <a name="find-information-in-the-help"></a>Tietojen etsiminen ohjeesta
+## Tietojen etsiminen ohjeesta
 
 **Ohjeet**-kohdassa on linkki haun toistamiseksi Microsoftin ohjeissa. Jos valitset linkin, näyttöön avautuu Ohje-ruutu, jossa näkyvät hakutulokset.  
 
 > [!NOTE]  
 > Kolmannen osapuolen laajennusten dokumentaatio ei ole mukana tuloksissa.
 
-## <a name="get-more-functionality-from-apps"></a>Sovellusten toimintojen tehostaminen
+## Sovellusten toimintojen tehostaminen
 
 Kumppaniyhteisö kehittää jatkuvasti sovelluksia, jotka lisäävät ominaisuuksia [!INCLUDE[prod_short](includes/prod_short.md)]iin. **Hanki Microsoft AppSourcesta** -osassa on luettelo [!INCLUDE[prod_short](includes/prod_short.md)]in sovelluksista, jotka ovat saatavana Microsoft AppSourcessa ja jotka liittyvät hakemaasi avainsanaan.
 
-## <a name="search-for-data"></a>Tietojen haku
+## Tietojen haku
 
 **Kerro, mitä haluat tehdä** -toiminto ei etsi tietoja, kuten asiakkaiden nimiä, osoitteita tai tapahtumia. Voit sen sijaan hakea tietoja luettelosivuilta valitsemalla luettelon otsikon vasemmassa kulmassa olevan ![Hakuluettelo](media/ui-search/search-list.png "Hakuluettelon kuvake") **Haku**-kuvakkeen. Haku tehdään vain avatussa luettelossa. Lisätietoja on kohdassa [Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md).  
 
 > [!TIP]
 > Vuoden 2022 2. julkaisuaallosta lähtien on ollut mahdollista hakea kirjattuja asiakirjarivejä, kuten lasku-, hyvityslasku-, lähetys- ja kuittirivejä. Hae asiakirjarivien tyyppiä, jonka haluat etsiä, ja merkitse asiakirjojen linkit aloitussivulle kirjanmerkeiksi. Näin alkuperäisen ja suodatetun näkymän käyttäminen myöhemmin on helppoa. Lisätietoja on kohdassa [Sivutoiminnon lisääminen roolikeskukseen](ui-bookmarks.md).
 
-## <a name="questions"></a>Kysyttävää?
+## Kysyttävää?
 
 Eri sidosryhmät ovat tutustuneet Kerro, mitä haluat tehdä -toimintoon ja esittäneet toimintoa koskevia kysymyksiä. Nämä kysymykset löytyvät usein kysyttyjen kysymysten luettelosta. Lisätietoja on kohdassa [Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset](ui-search-faq.md).
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/user-interface-dynamics-365-business-central/index)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/user-interface-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Business Centralin käyttäminen](ui-work-product.md)  
 [Sivutoiminnon lisääminen roolikeskukseen](ui-bookmarks.md)  

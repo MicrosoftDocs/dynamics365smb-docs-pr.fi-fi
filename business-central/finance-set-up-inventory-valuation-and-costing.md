@@ -1,13 +1,13 @@
 ---
 title: Varastonarvostuksen ja kustannuslaskennan määrittäminen
 description: 'Voit varmistaa, että varastokustannukset kirjataan oikein, määrittämällä tietyt kentät ja sivut ennen nimiketapahtumien tekemistä.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: null
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a>Varastonarvostuksen ja kustannuslaskennan määrittäminen
+# Varastonarvostuksen ja kustannuslaskennan määrittäminen
 
 Voit varmistaa, että varastokustannukset kirjataan oikein, määrittämällä tietyt kentät ja sivut ennen nimiketapahtumien tekemistä. Yleensä yritykset valitsevat tietyn kustannuslaskentamenetelmän ja soveltavat niitä esimerkiksi varastonimikkeisiin voidakseen seurata varastossa olevien nimikkeiden arvoa.  
 
@@ -30,7 +30,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Varmista, että ostopalautukset kohdistetaan alkuperäiseen saapuvaan tapahtumaan varaston arvon säilyttämiseksi.|**Ostot ja ostovelat** -sivun **Todellisen kust. peruutt. pakollinen** -kenttä|
 |Nimikehintojen ja vakiokustannusten muuttamisessa tai ehdottamisessa käytettävien pyöristyssääntöjen määrittäminen.|**Pyöristystapa**-sivu|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
 [Yleisten varastotietojen määrittäminen](inventory-how-setup-general.md)  

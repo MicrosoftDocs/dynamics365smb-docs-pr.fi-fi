@@ -1,7 +1,7 @@
 ---
 title: Kassavirta – yleistä
 description: Yleiskuvaus kassaviroista sisään ja kassavirroista ulos. Yleiskuvaus auttaa ennustamaan saatavaa ja maksettavaa rahaa.
-author: jill-kotel-andersson
+author: brentholtorf
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,18 +9,18 @@ ms.workload: na
 ms.search.keywords: 'cash flow, money flow, expense and income, liquidity, cash receipts minus cash payments'
 ms.search.form: '841, 849, 1818'
 ms.date: 12/20/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
-# <a name="cash-flow-overview"></a>Kassavirta – yleistä
+# Kassavirta – yleistä
 
 Tietoja siitä, että saapuvat ja lähtevät kassavirrat ovat avain onnistuneeseen liiketoimintaan. Kassavirran avulla voit helposti luoda lyhyen aikavälin ennusteen, joka ennustaa miten ja milloin voit odottaa vastaanottavasi ja maksavasi rahaa. On tärkeää tietää, että yritykselläsi on tarpeeksi rahaa velkojen ja kulujen maksuun niden erääntyessä.
 
-## <a name="definition-of-cash-flow"></a>Kassavirran määritelmä
+## Kassavirran määritelmä
 
 Termi *kassavirta* tarkoittaa tietyn ajanjakson aikana määritettyjä kassaanmaksuja, joista on vähennetty kassastamaksut. Se on arvio rahasummasta, jonka odotetaan siirtyvän yritykseen ja yrityksestä, ja se sisältää kaikki ennustetut tulot ja menot.
 
-## <a name="work-with-cash-flow"></a>Kassavirtojen käsittely
+## Kassavirtojen käsittely
 
 Seuraavassa kuvassa on yhteenveto siitä, miten voit käsitellä kassavirtaa.
 
@@ -39,7 +39,7 @@ Seuraavassa kuvassa on yhteenveto siitä, miten voit käsitellä kassavirtaa.
 - Siirrä seuraavien alueiden tietoja työkirjaan eräajon avulla: pääkirjanpito, ostaminen, myynti, huolto, käyttöomaisuus. Tee sitten kassavirtaennuste rekisteröimällä työkirjan rivit.  
 - Käytä eri ikkunoita, raportteja ja kaavioita analysoidaksesi ja tulostaaksesi kassavirtaennusteen, joka liittyy saatavuuteen ja aikajanan yhteenvetoihin.  
 
-## <a name="making-a-cash-flow-forecast"></a>Kassavirtaennusteen tekeminen
+## Kassavirtaennusteen tekeminen
 
 Rekisteröityjen työkirjan riveihin perustuen voit tehdä säännöllisesti kassavirran ennusteen. Seuraavaa asettelua käytetään usein kassavirtaennusteessa. Asettelussa on kolme osaa:
 
@@ -67,7 +67,7 @@ Kassavirta tai käteisvarat lasketaan kunkin jakson lopussa vähentämällä mak
 
 Ennustetta voidaan käyttää sisäisen päätöksenteon työkaluna, jonka avulla voit suunnitella etukäteen ja tehdä yrityksen toiminnalle tärkeitä strategisia päätöksiä.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Kassavirta-analyysin määrittäminen](finance-setup-cash-flow-analyses.md)  
 [Kassavirran analysoiminen](finance-analyze-cash-flow.md)  

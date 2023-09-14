@@ -1,16 +1,16 @@
 ---
 title: Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen avulla | Microsoft Docs
 description: 'Uuden liiketoimintaohjelmiston toimivuuden vuoksi on tärkeää, että annettavat asetusarvot ovat oikein heti alusta alkaen.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-complex-application-areas-using-best-practices"></a>Määritä monimutkaiset sovellusalueet käyttäen parhaita käytäntöjä
+# Määritä monimutkaiset sovellusalueet käyttäen parhaita käytäntöjä
 Uuden liiketoimintaohjelmiston toimivuuden vuoksi on tärkeää, että annettavat asetusarvot ovat oikein heti alusta alkaen.  
 
  Riippumatta siitä, otatko asetusarvot käyttöön RapidStart-määrityksellä vai annatko ne manuaalisesti uudessa yrityksessä, voit tukea määrityspäätöksiäsi tietyillä yleisillä suosituksilla sellaisissa määrityskentissä, joiden tiedetään voivan heikentää ratkaisun toimintaa, jos ne määritetään virheellisesti.  
@@ -21,7 +21,7 @@ Uuden liiketoimintaohjelmiston toimivuuden vuoksi on tärkeää, että annettava
 
 -   [Parhaiden käytäntöjen määrittäminen: Arvostusmenetelmä](setup-best-practices-costing-method.md)  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
 [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

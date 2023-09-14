@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 05/09/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 **Käyttäjät**-luettelossa voi näkyä muita käyttäjiä oman yrityksesi lisäksi. Kun jälleenmyyntikumppaniyrityksen valtuutettu järjestelmänvalvoja kirjautuu [!INCLUDE [prod_short](prod_short.md)] -ympäristöön asiakkaansa puolesta, hänet luodaan automaattisesti [!INCLUDE [prod_short](prod_short.md)] -käyttäjäksi. Tällä tavalla delegoitujen järjestelmänvalvojan tekemät toimet kirjataan lokiin [!INCLUDE [prod_short](prod_short.md)] -ohjelmassa, kuten asiakirjojen kirjaaminen ja niihin liittyvät käyttäjätunnukset.  
 

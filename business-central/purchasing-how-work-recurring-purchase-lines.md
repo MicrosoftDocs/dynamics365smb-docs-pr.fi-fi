@@ -1,7 +1,7 @@
 ---
 title: Toistuvat vakio-ostorivit
 description: Voit määrittää usein käytettäviä ostorivejä. Voit sitten lisätä ne ostoasiakirjoihin ja täyttää tällä tavoin vakiotiedot nopeasti.
-author: rubenseishima
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,13 +9,13 @@ ms.workload: na
 ms.search.keywords: 'trade, purchase, replenishment'
 ms.search.form: 177
 ms.date: 07/06/2022
-ms.author: a-reishima
+ms.author: bholtorf
 ---
-# <a name="create-recurring-purchase-lines"></a>Toistuvien ostorivien luonti
+# Toistuvien ostorivien luonti
 
 Jos sinun on usein luotava samankaltaisia tietoja sisältäviä ostorivejä, voit määrittää vakiorivejä ja lisätä ne sitten toistuviin ostoasiakirjoihin, kuten toistuviin täydennystilauksiin.
 
-## <a name="set-up-recurring-purchase-lines"></a>Toistuvien ostorivien määrittäminen
+## Toistuvien ostorivien määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toistuvat ostorivit** ja valitse sitten vastaava linkki.
 2. Valitse **Toistuvat ostorivit** -sivulla **Uusi**-toiminto.
@@ -27,7 +27,7 @@ Jos sinun on usein luotava samankaltaisia tietoja sisältäviä ostorivejä, voi
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## <a name="assign-recurring-purchase-lines-to-a-vendor"></a>Toistuvien ostorivien määrittäminen toimittajalle
+## Toistuvien ostorivien määrittäminen toimittajalle
 
 Määritä toimittajalle vähintään yksi toistuva ostorivi, jotta näitä rivejä voidaan liittää kyseisen toimittajan ostoasiakirjoihin.
 
@@ -44,7 +44,7 @@ Määritä toimittajalle vähintään yksi toistuva ostorivi, jotta näitä rive
 |**Automaattinen**|Jos toimittajalla on useita toistuvia ostorivejä, saat ilmoituksen siitä, mistä voi valita, mikä rivi lisätään. Jos toistuvia ostorivejä on vain yksi, se lisätään automaattisesti.<br /><br />Tämä toimii vain, jos uusi asiakirja luotiin asiakirjaluettelosta esimerkiksi valitsemalla **Uusi**-toiminto **Ostotilaukset**-sivulla. Se ei toimi, jos asiakirja luotiin esimerkiksi toimittajakortista.|
 |**Kysy aina**|Ilmoitus avautuu ja kaikki aiemmin luodut toistuvat ostorivit näytetään. Voit sitten valita niistä yhden.
 
-## <a name="insert-recurring-purchase-lines-on-a-purchase-invoice"></a>Lisää toistuvia ostorivejä ostolaskulle
+## Lisää toistuvia ostorivejä ostolaskulle
 
 Jos toimittajalla on toistuvia ostorivejä, voit lisätä tai antaa lisätä niitä automaattisesti kaikenlaisiin ostoasiaakirjoihin, kuten ostolaskuihin. Jos olet aktivoinut **Kysy aina** -asetukset määrittäessäsi toistuvia ostorivejä toimittajille, saat ilmoituksen, jos toistuvia ostorivejä on.
 
@@ -54,7 +54,7 @@ Jos toimittajalla on toistuvia ostorivejä, voit lisätä tai antaa lisätä nii
 4. Valitse **Toistuvat ostorivit** -sivun **Koodi**-kentässä hakupainike ja valitse sitten vakio-ostorivijoukko.
 5. Lisää vakio-ostorivit laskuun valitsemalla **OK**. Voit sitten käyttää näitä rivejä sellaisenaan tai muokata rivien tietoja.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Osto](purchasing-manage-purchasing.md)  
 [Oston määrittäminen](purchasing-setup-purchasing.md)  

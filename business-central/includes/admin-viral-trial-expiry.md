@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 02/21/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 > [!NOTE]
 > Jos [!INCLUDE [prod_short](prod_short.md)] kokeiluversiota ei käytetä 45 päivään, Microsoft tulkitsee kokeiluversion vanhentuneeksi ja [!INCLUDE [prod_short](prod_short.md)] vuokraaja poistetaan.

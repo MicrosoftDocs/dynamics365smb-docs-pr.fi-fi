@@ -5,16 +5,16 @@ ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: 4760
-author: edupont04
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Johdatus Contoso Coffee -demotietoihin
+# Johdatus Contoso Coffee -demotietoihin
 
 Contoso Coffee on kuvitteellinen yritys, joka tuottaa kuluttajille ja yrityksille kahvinkeittimiä. **Contoso Coffee** -sovellukset Business Centralille lisäävät demotietoja, joiden avulla voit opetella käyttämään ominaisuuksia Business Centralissa.  
 
 
-## <a name="set-up-contoso-coffee-data"></a>Contoso Coffee -tietojen määrittäminen
+## Contoso Coffee -tietojen määrittäminen
 
 Contoson Coffee -esittelytietojen käyttäminen edellyttää, että asennat asianomaiseen yritykseen [!INCLUDE [prod_short](../includes/prod_short.md)] -ratkaisussa kaksi sovellusta:  
 
@@ -31,7 +31,7 @@ Sen jälkeen tulisi täyttää:
  - [Tuotannon asetusten](manufacturing/contoso-coffee-manufacturing-intro.md) laatiminen [tuotantoskenaarioiden](#manufacturing-scenarios) käyttöä varten
  - [Varastoinnin asetusten](warehousing/contoso-coffee-warehousing-intro.md) laatiminen [varastoinnin skenaarioiden](#warehousing-scenarios) käyttöä varten
 
-## <a name="manufacturing-scenarios"></a>Tuotantoskenaariot
+## Tuotantoskenaariot
 
 Contoso Coffee -esittelytiedot tukevat tällä hetkellä seuraavia testi- ja harjoittelutuotantoskenaarioita:
 
@@ -49,7 +49,7 @@ Lue kunkin skenaarion vaiheet asianomaisessa artikkelissa.
 > [!IMPORTANT]
 > Tuotannon vaihekuvaukset edellyttävät, että käyttäjäkokemukseksi on asetettu *Premium* **Yritystiedot**-sivulla.
 
-## <a name="warehousing-scenarios"></a>Varastointiskenaariot
+## Varastointiskenaariot
 
 Contoso Coffee -esittelytiedot tukevat tällä hetkellä seuraavia testi- ja harjoitteluvarastointiskenaarioita:
 
@@ -59,7 +59,7 @@ Contoso Coffee -esittelytiedot tukevat tällä hetkellä seuraavia testi- ja har
 
 Lue kunkin skenaarion vaiheet asianomaisessa artikkelissa.
    
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Tuotanto](../production-manage-manufacturing.md)  
 [Varastointi](../warehouse-manage-warehouse.md)  

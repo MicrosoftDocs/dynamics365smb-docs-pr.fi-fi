@@ -10,7 +10,7 @@ ms.search.form: 5430
 ms.date: 08/30/2022
 ms.author: bholtorf
 ---
-# <a name="about-planning-functionality"></a>Tietoja toimintojen suunnittelusta
+# Tietoja toimintojen suunnittelusta
 
 Suunnittelujärjestelmä ottaa kaikki kysyntä- ja tarjontatiedot huomioon, nettouttaa tulokset ja luo ehdotuksia, joita noudattamalla tarjonta ja kysyntä voidaan saattaa tasapainoon.  
 
@@ -19,7 +19,7 @@ Lisätietoja on ohjeaiheessa [Rakenteen tiedot: Toimitusten suunnittelu](design-
 > [!NOTE]  
 > Saat lisätietoja kaikkien tässä ohjeaiheessa mainittujen kenttien toiminnoista lukemalla työkaluvihjeen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="demand-and-supply"></a>Kysyntä ja tarjonta
+## Kysyntä ja tarjonta
 
 Suunnittelu koostuu kahdesta osasta, jotka ovat kysyntä ja tarjonta. Ne täytyy pitää tasapainossa, jotta kysyntään voidaan varmasti vastata taloudellisesti ja ajallaan.  
 
@@ -28,7 +28,7 @@ Suunnittelu koostuu kahdesta osasta, jotka ovat kysyntä ja tarjonta. Ne täytyy
 
 Suunnittelujärjestelmän toinen tavoite on varmistaa, että varasto ei kasva tarpeettoman suureksi. Jos kysyntä vähenee, suunnittelujärjestelmä ehdottaa tehtyjen täydennystilausten lykkäämistä, pienentämistä tai peruuttamista.  
 
-## <a name="planning-calculation"></a>Suunnittelulaskenta
+## Suunnittelulaskenta
 
 Suunnittelujärjestelmän perustana ovat arvioitu ja todellinen asiakaskysyntä sekä varaston uusintatilausten parametrit. Kun suunnitelma lasketaan, sovellus ehdottaa tiettyjä toimenpiteitä ([toimenpideviestit](production-how-to-run-mps-and-mrp.md#action-messages)), jotka liittyvät alihankkijatäydennyksiin, varastojen välisiin siirtoihin tai tuotantoon. Jos täydennystilauksia on jo tehty, ehdotettuja toimenpiteitä voivat olla tilausten lisääminen tai vauhdittaminen muuttuneen kysynnän mukaisiksi.  
 
@@ -37,7 +37,7 @@ Suunnitteluohjelma perustuu brutto-netto-laskutoimituksiin. Suunnitellut tilausv
 > [!TIP]
 > Suunnittelujärjestelmä perustuu siihen, miten organisaatiosi käyttää sijainteja. Lisätietoja on kohdassa [Suunnittelu sijainneilla tai ilman sijainteja](production-planning-with-without-locations.md).
 
-## <a name="planning-with-manual-transfer-orders"></a>Suunnittelu manuaalisia siirtotilauksia käyttäen.
+## Suunnittelu manuaalisia siirtotilauksia käyttäen.
 
 Kuten Var. yks. -kortin **Täydennysjärjestelmä**-kentässä näkyy, suunnittelujärjestelmän voi määrittää luomaan siirtotilauksia, jotka tasapainottavat eri sijaintien kysyntää ja tarjontaa.  
 
@@ -45,7 +45,7 @@ Automaattisten siirtotilausten lisäksi voit tarvittaessa siirtää varastoeriä
 
 Jos sen sijaan haluat, että suunnittelujärjestelmä muuttaa siirtotilauksen määriä ja päivämääriä kysynnän mukaan, määritä **Suunnittelun joustavuus** -kentän arvoksi oletusarvo Rajaton.
 
-## <a name="planning-parameters"></a>Suunnittelun parametrit
+## Suunnittelun parametrit
 
 Suunnittelun parametreilla ohjataan sitä, milloin, miten ja kuinka paljon täydennyksiä nimikkeen kortin asetusten (eli varastointiyksikön) ja tuotannon asetusten perusteella tehdään.  
 
@@ -86,16 +86,16 @@ Nimikkeen tai varastointiyksikön korteissa on käytettävissä seuraavat tilaus
 
 Lisätietoja on ohjeaiheessa [Rakenteen tiedot: Suunnittelun parametrit](design-details-planning-parameters.md)  
 
-## <a name="other-important-planning-fields"></a>Muut tärkeät suunnittelukentät
+## Muut tärkeät suunnittelukentät
 
-### <a name="planning-flexibility"></a>Suunnittelun joustavuus
+### Suunnittelun joustavuus
 
 Voit valita useimpien toimitustilausten, kuten tuotantotilausten, riveillä **Suunnittelun juostavuus** -kentässä **Rajoittaminen** tai **Mitään**.
 
 Näin määritetään, ottaako suunnittelujärjestelmä tuotantotilausrivin osoittaman tarjonnan huomioon toimenpideviestejä laskettaessa.
 Jos kentässä on valittu **Rajaton**, suunnittelujärjestelmä sisällyttää rivin laskiessaan toimenpideviestejä. Jos kentässä on valittu **Ei mitään**, rivi on pysyvä, eikä sitä voi muuttaa. Suunnittelujärjestelmä ei sisällytä sitä toimenpideviestien laskentaan.
 
-### <a name="warning"></a>Varoitus
+### Varoitus
 
 **Suunnittelutyökirja**-sivun **Varoitus**-tietokenttä ilmoittaa poikkeuksellista tilannetta varten luodusta suunnittelurivistä tekstillä, josta käyttäjä voi lukea lisätietoja. Varoitustyyppejä on kolme:
 
@@ -113,7 +113,7 @@ Jos nimikkeen varasto on negatiivinen suunnittelun aloituspäivämääränä, su
 
 Jos asiakirjassa on rivejä, joiden eräpäivä on ennen suunnittelun aloituspäivämäärää, rivit yhdistetään yhdeksi hätätoimitustilaukseksi, jotta nimike saapuisi suunnittelun aloituspäivämääränä.
 
-### <a name="exception"></a>Poikkeus
+### Poikkeus
 
 Poikkeus-varoitus näytetään, jos oletettu saatavilla oleva varasto pienenee varmuusvaraston määrää pienemmäksi.
 
@@ -124,7 +124,7 @@ Varmuusvaraston tason alittaminen aiheuttaa poikkeuksen, koska näin ei pitäisi
 > [!NOTE]
 > Tarjontaa suunnitteluriveillä, joilla on poikkeusvaroituksia, ei yleensä muokata suunnitteluparametrien mukaan. Suunnittelujärjestelmä ehdottaa sen sijaan vain toimitusmäärää, joka kattaa kysyntämäärän täsmällisesti. Voit kuitenkin määrittää suunnittelun noudattamaan tiettyjä suunnittelurivien suunnitteluparametreja, joihin liittyy tiettyjä varoituksia. Lue lisätietoja **Noudata poikkeusvaroitusten suunnitteluparametreja** -kentästä [Suorita koko suunnittelu, MPS tai MRP](production-how-to-run-mps-and-mrp.md) -artikkelista.
 
-### <a name="attention"></a>Huomautus
+### Huomautus
 
 Huomautus-varoitus tulee näkyviin kahdessa tilanteessa:
 
@@ -134,11 +134,11 @@ Huomautus-varoitus tulee näkyviin kahdessa tilanteessa:
 > [!NOTE]
 > Suunnitteluriveillä, joilla on varoituksia, ei valita **Hyväksy toimenpideviesti** -kenttää, koska suunnitteluohjelman oletetaan tutkivan tarkemmin näitä rivejä ennen suunnitelman toteutusta.
 
-## <a name="planning-worksheets-and-requisition-worksheets"></a>Suunnittelutyökirjat ja hankintatyökirjat
+## Suunnittelutyökirjat ja hankintatyökirjat
 
 Kuten [suunnitelmassa](production-planning.md) on kuvattu, voit valita kahdesta taulukosta useimpiin suunnittelutoimintoihin, suunnittelulaskentataulun ja tarvittavan taulukon. Useimmat prosessit kuvataan suunnittelutyötyökirjan perusteella, mutta on olemassa muutamia tilanteita, joissa hankintatyökirjaa suositellaan.
 
-### <a name="requisition-worksheet"></a>Hankintatyökirja
+### Hankintatyökirja
 
 **Hankintatyökirja**-sivu luetteloi nimikkeitä joita haluat tilata. Voit syöttää nimikkeitä työkirjaan seuraavilla tavoilla:
 
@@ -159,9 +159,9 @@ Tietoja suunnittelusta sijaintien ja siirtojen avulla on kohdassa [Suunnitelman 
 > [!TIP]
 > Kun käsittelet **Hankintalista**- tai **Suunnittelutyökirja**-sivuja, voit järjestää rivit lajittelemalla ne sarakkeen nimen mukaan. Tämä on erityisen hyödyllistä Suunnittelutyökirja-sivulla, koska sitä voidaan käyttää usean tason tuotantotilauksissa. Oletusarvoisesti rivit lajitellaan **Nimikenro**-kentän mukaan. Voit ryhmitellä rivit usean tason järjestykseen lajittelemalla **Viitatun tilauksen nro** -kohdan mukaan -kentässä. Myös **Tuotanto-ohjelma tilaus**- ja **Suunnittelun taso** -kenttiä voi käyttää rivien hierarkian näyttämisessä.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/plan-items-dynamics-365-business-central/)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/plan-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)  
 [Suunnittelu](production-planning.md)  

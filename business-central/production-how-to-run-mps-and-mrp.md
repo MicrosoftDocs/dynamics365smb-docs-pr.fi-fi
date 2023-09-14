@@ -1,16 +1,16 @@
 ---
 title: 'Kokonaisvaltaisen suunnittelun, tuotanto-ohjelman tai tarvelaskennan suorittaminen'
 description: 'Suunnittelujärjestelmä voi laskea tuotanto-ohjelman tai tarvelaskennan pyydettäessä, tai se voi laskea molemmat samanaikaisesti.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000852, 99000860'
 ms.date: 06/22/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="run-full-planning-mps-or-mrp"></a>Kokonaisvaltaisen suunnittelun, tuotanto-ohjelman tai tarvelaskennan suorittaminen
+# Kokonaisvaltaisen suunnittelun, tuotanto-ohjelman tai tarvelaskennan suorittaminen
 
 Suunnittelutyökirjan suorittaminen ja tarvelaskennan suorittaminen tarkoitetaan tuotanto-ohjelman ja materiaalitarpeen laskemista todellisen ja ennustetun tarpeen perusteella. Suunnittelujärjestelmä voi laskea tuotanto-ohjelman tai tarvelaskennan pyydettäessä, tai se voi laskea molemmat samanaikaisesti.  
 
@@ -23,7 +23,7 @@ Suunnittelumoduulin kysynnän ja tarjonnan välille luodut linkit ja niihin liit
 
 Suunnitelmasta saadaan asianmukaisia tuloksia sen mukaan, kuinka nimikkeen kortit, tuotannon tuoterakenteet ja reititykset on määritetty.  
 
-## <a name="methods-for-generating-a-plan"></a>Suunnitelman luomismenetelmät
+## Suunnitelman luomismenetelmät  
 
 -   **Laske uudelleensuunnittelu:** Tämä toiminto käsittelee tai uudistaa materiaalisuunnitelman. Prosessin aluksi kaikki ladatut suunnitellut toimitustilaukset poistetaan. Tietokannan kaikki nimikkeet suunnitellaan uudelleen.  
 -   **Laske nettomuutossuunnitelma**: Tämä toiminto käsittelee nettomuutossuunnitelman. Kun nimikkeitä käsitellään nettomuutossuunnitelmassa kahden tyyppisistä muutoksista:  
@@ -38,7 +38,7 @@ Jokaisen suunnitellun menetelmän kanssa, [!INCLUDE[prod_short](includes/prod_sh
 >   
 >  Hae toimenpideviestit -suunnitelma voidaan suorittaa nettomuutossuunnittelu- ja uudelleensuunnitteluajojen välissä. Tällöin saadaan välitön käsitys aikataulumuutosten vaikutuksista. Tätä suunnitelmaa ei kuitenkaan ole tarkoitettu nettomuutossuunnittelun tai uudelleensuunnittelun korvaajaksi.  
 
-## <a name="to-calculate-the-planning-worksheet"></a>Suunnittelutyökirjan laskeminen
+## Suunnittelutyökirjan laskeminen  
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnittelutyökirjat** ja valitse sitten vastaava linkki.  
 2.  Avaa **Laske suunnitelma** -sivu valitsemalla **Laske uudelleensuunnittelu** -toiminto.  
 3.  Täytä **Vaihtoehdot**-pikavälilehden kentät seuraavassa taulukossa kuvatulla tavalla.  
@@ -57,7 +57,7 @@ Jokaisen suunnitellun menetelmän kanssa, [!INCLUDE[prod_short](includes/prod_sh
 4.  **Nimike**-pikavälilehdessä voit suodattaa ja suorittaa suunnittelutoimia nimikkeen, nimikkeen kuvauksen tai sijainnin perusteella.  
 5.  Valitse **OK**-painike. Eräajo suoritetaan ja suunnittelurivit täytetään suunnittelutyökirjaan.  
 
-## <a name="to-perform-action-messages"></a>Suorita toimenpideviestit
+## Suorita toimenpideviestit  
 1.  Valitse **Suunnittelutyökirja**-sivulla **Toteuta toimenpideviesti** -toiminto.  
 2.  Määritä **Asetukset**-pikavälilehdessä, miten toimitukset luodaan. Täytä tilikentät seuraavassa taulukossa kuvatulla tavalla.  
 
@@ -75,7 +75,7 @@ Jokaisen suunnitellun menetelmän kanssa, [!INCLUDE[prod_short](includes/prod_sh
 
 Eräajo poistaa työkirjan rivit toimenpideviestin suorittamisen jälkeen. Muut rivit jäävät suunnittelutyökirjaan, kunnes ne joko hyväksytään myöhemmin tai muuten poistetaan. Rivit voi poistaa myös manuaalisesti.  
 
-## <a name="action-messages"></a>Toimenpideviestit
+## Toimenpideviestit  
 Tilausten seurantajärjestelmä tuottaa toimenpideviestejä, kun nykyisessä tilausverkossa ei päästä tasapainoon. Ne ovat sellaisiin muutoksiin kehottavia ehdotuksia, jotka tasapainottavat kysynnän ja tarjonnan uudelleen.  
 
 Toimenpideviestejä luodaan taso kerrallaan kunkin nimikkeen alatason koodin mukaan. Näin varmistetaan, että kaikki nimikkeet, joiden kysyntään tai tarjontaan on tullut tai tulee muutoksia, otetaan huomioon.  
@@ -97,7 +97,7 @@ Ohjelma luo seuraavia toimenpideviestejä, jos kysyntä ja tarjonta menevät ep�
 |**Aikataul. uud. & Muuta määrä**|Jos sekä päivämääriä että määriä on muutettu tilauksessa, suunnitelmia täytyy muuttaa molemmat osatekijät huomioon ottaen. Toimenpiteitä ehdotetaan yhteisessä toimenpideviestissä **Aikatauluta uud. ja Muuta määrä**, jotta tilausverkko saadaan takaisin tasapainoon.|  
 |**Peruuta**|Jos sellainen kysyntä poistetaan, johon on vastattu tilauskohtaisesti, järjestelmä antaa asianmukaisten toimitustilausten peruuttamiseen kehottavan toimenpideviestin. Jos suhde ei ole tilauskohtainen, järjestelmä luo muutokseen kehottavan toimenpideviestin kysynnän vähentämiseksi. Jos muut tekijät, kuten varastonmuutokset, aiheuttavat sen, että tuotantotilausta ei tarvita, kun käyttäjä luo toimenpideviestejä, [!INCLUDE[prod_short](includes/prod_short.md)] ehdottaa työkirjassa toimenpideviestiä **Peruuta**.|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 [Suunnittelu](production-planning.md)  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
 [Tuotanto](production-manage-manufacturing.md)    

@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 12/13/2022
 ms.custom: bap-template
 ---
-# <a name="reconcile-bank-accounts"></a>Pankkitilien täsmäytys
+# Pankkitilien täsmäytys
 
 Pankkitäsmäytyksen avulla varmistat, että kirjanpitosi tiedot vastaavat pankistasi vastaanottamiasi tietoja. Pankkitilien täsmäytys vertaa ja täsmäyttää [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa määrittämiesi pankkitilien merkintöjä pankkisi pankkitapahtumiin. Täsmäyttäminen voi sitten kirjata saldot pankkitilillesi [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa, jotta ne ovat rahoituksen haltijoiden käytettävissä. Pankkitilin täsmäytys on myös käytännöllinen tapa löytää ja ratkaista puuttuvat maksut ja kirjanpitovirheet.
 
@@ -49,7 +49,7 @@ Voit täyttää **Pankin tiliotteen rivit** -ruudun **Pankkitilin täsmäytys** 
 * Automaattisesti käyttämällä **Tuo pankin tiliote** -toimintoa täyttämään **Pankin tiliotteen rivit** -ruutu pankkitapahtumilla tuodun tiedoston tai pankin tarjoaman tietovirran mukaisesti.
 * Manuaalisesti **Ehdota rivejä** -toiminnolla täyttämään **Pankin tiliotteen rivit** -ruutu niiden kohteessa [!INCLUDE[prod_short](includes/prod_short.md)] olevien laskujen mukaisesti, joilla on maksamattomia maksuja.
 
-## <a name="to-add-bank-statement-lines-by-importing-a-bank-statement"></a>Pankin tiliotteen rivien lisääminen tiliotteen tuomisen avulla
+## Pankin tiliotteen rivien lisääminen tiliotteen tuomisen avulla
 
 **Pankin tiliotteen rivit** -ruutu täytetään pankkitapahtumilla tuodun tiedoston tai pankin antaman tietovirran mukaan.
 
@@ -66,7 +66,7 @@ Kun haluat tuoda tiliotteet pankkisyötteiksi, sinun täytyy määrittää Enves
 6. Jos sinulla on tiliotetiedosto, valitse **Tuo pankin tiliote** -toiminto.
 7. Etsi tiedosto ja valitse sitten **Avaa**-painike tuodaksesi pankkitilin tapahtumat **Pankin tiliotteen rivit** -ruutuun **Pankkitilin täsmäytys** -sivulla.
 
-## <a name="to-fill-in-bank-reconciliation-lines-with-the-suggest-lines-action"></a>Pankin täsmäytyksen rivien täyttäminen Ehdota rivejä -toiminnon avulla
+## Pankin täsmäytyksen rivien täyttäminen Ehdota rivejä -toiminnon avulla
 
 **Pankin tiliotteen rivit** -ruutu täytetään niiden, kohteessa [!INCLUDE[prod_short](includes/prod_short.md)] olevien laskujen mukaan, joissa on maksamattomia maksuja.  
 
@@ -80,7 +80,7 @@ Kun haluat tuoda tiliotteet pankkisyötteiksi, sinun täytyy määrittää Enves
 4. Jos et halua, että pankkitilitapahtumissa on avoimia peruutettuja avoimia tapahtumia, valitse **Ohita peruutetut tapahtumat** -vaihto. Pankkitilitapahtumien luetteloon sisällytetään oletusarvoisesti peruutetut tapahtumat tiliotteen päivämäärään asti.
 5. Valitse **OK**-painike.
 
-## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>Pankin tiliotteen rivien ja pankkitilitapahtumien kohdistaminen automaattisesti
+## Pankin tiliotteen rivien ja pankkitilitapahtumien kohdistaminen automaattisesti
 
 Sivu **Pankkitilin täsmäytys** tarjoaa automaattisen vastaavuustoiminnon, joka kohdistaa maksut niihin liittyviin avoimiin tapahtumiin pankin tiliotteen rivillä (vasemmassa ruudussa) olevan tekstin vastaavuuden perusteella verrattuna yhden tai useamman pankkitilitapahtuman (oikealla puolella) tekstiin. Ehdotetut automaattiset kohdistukset voidaan korvata toisilla. Voit myös olla käyttämättä automaattista kohdistusta. Lisäohjeita on kohdassa [Pankin tiliotteen rivien ja pankkitilin tapahtumien kohdistaminen manuaalisesti](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
@@ -98,7 +98,7 @@ Voit tutkia vastaavuuksien perusteita käyttämällä **Vastaavuuden tiedot** -t
 > [!TIP]
 > Voit yhdistellä manuaalista ja automaattista vastaavuutta. Jos olet täsmäyttänyt manuaalisesti, automaattinen täsmäytyksen toiminto ei korvaa valittuja kohteita.
 
-## <a name="to-match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Pankin tiliotteen rivien ja pankkitilitapahtumien kohdistaminen manuaalisesti
+## Pankin tiliotteen rivien ja pankkitilitapahtumien kohdistaminen manuaalisesti
 
 > [!TIP]
 > Kun rivit ja tapahtumat täsmäytetään manuaalisesti, **Näytä kaikki**, **Näytä peruutetut tapahtumat**, **Piilota peruutetut tapahtumat** ja **Näytä ei-kohdistetut** -toiminnot helpottavat yleiskuvauksen saamista. Oletusarvon mukaan pankkitilitapahtumat eivät sisällä täsmäyttämättömiä peruutettuja tapahtumia. Jos haluat sisällyttää nämä tapahtumat luetteloon ja sovittaa ne manuaalisesti, valitse **Näytä peruutetut tapahtumat** -toiminto. Jos haluat piilottaa peruutetut tapahtumat sen jälkeen, kun olet tehnyt yhden tai useampia vastaavuuksia, vastaavat tapahtumat näkyvät edelleen.
@@ -123,7 +123,7 @@ Voit tutkia vastaavuuksien perusteita käyttämällä **Vastaavuuden tiedot** -t
 > [!TIP]
 > Voit poistaa kohdistuksen valitsemalla pankin tiliotteen rivin ja valitsemalla sitten **Poista kohdistus** -toiminto. Jos olet täsmäyttänyt useita pankin tiliotteen rivejä yhteen tapahtumaan ja haluat poistaa yhden tai useamman täsmäytetyn rivin, kaikki manuaaliset vastaavuudet poistetaan tapahtumakirjauksesta, kun valitset **Poista vastaavuus**.
 
-## <a name="to-validate-your-bank-reconciliation"></a>Pankkitilin täsmäytyksen vahvistaminen
+## Pankkitilin täsmäytyksen vahvistaminen
 
 Jos haluat tarkistaa pankkitilin täsmäytyksen ennen kirjausta, voit käyttää **testiraportti**-toimintoa täsmäytyksen esikatseluun. Raportti on käytettävissä seuraavissa yhteyksissä:
 
@@ -166,7 +166,7 @@ Seuraavassa taulukossa kuvataan testiraportin kenttiä, joiden avulla voit viime
 >
 > Voit verrata tiliotettasi käyttämällä arvoa.
 
-## <a name="to-create-missing-ledger-entries-to-match-bank-statement-lines"></a>Puuttuvien tapahtumien luominen ja kohdistaminen pankin tiliotteen riveihin
+## Puuttuvien tapahtumien luominen ja kohdistaminen pankin tiliotteen riveihin
 
 Joskus pankin tiliote sisältää koron tai veloitetun maksun summia. Tällaisia tiliotteen rivejä ei voi kohdistaa, koska niillä ei ole vastaavia tapahtumia kohteessa [!INCLUDE[prod_short](includes/prod_short.md)]. Tällöin jokaiselle tapahtumalle on kirjattava päiväkirjarivi. Näin luodaan liittyvä tapahtuma, johon kohdistus voidaan tehdä.
 
@@ -182,7 +182,7 @@ Joskus pankin tiliote sisältää koron tai veloitetun maksun summia. Tällaisia
 6. Päivitä tai avaa **Pankkitilin täsmäytys** -sivu. Uusi tapahtuma näkyy **Pankkitilitapahtumat**-ruudussa.
 7. Kohdista tiliotteen rivi pankkitilitapahtumaan manuaalisesti tai automaattisesti.
 
-## <a name="find-outstanding-transactions-in-previous-periods"></a>Etsi avoimia tapahtumia edellisistä kausista
+## Etsi avoimia tapahtumia edellisistä kausista
 
 Voit käyttää pankin tiliotteen raporttia, kun haluat etsiä avoimia tapahtumia edellisiltä jaksoilta. Avoimet tapahtumat avattiin ennen tiliotteen päivämäärää, eikä niitä ole suljettu, tai ne suljettiin sen jälkeen, kun pankkitäsmäytys kirjattiin.
 
@@ -194,22 +194,22 @@ Syyskuussa saamme maksun merkinnästä B ja päätämme täsmäyttää pankkitil
 
 Jos tulostamme elokuun raportin, meillä on B- ja C-merkinnöissämme maksamattomia tapahtumia, vaikka suljimme B-merkinnän syyskuussa.
 
-## <a name="undo-a-bank-account-reconciliation"></a>Pankkitilin täsmäytyksen peruuttaminen
+## Pankkitilin täsmäytyksen peruuttaminen
 
 Jos löydät virheen kirjatussa pankkitäsmäytyksessä, voit korjata sen käyttämällä **Pankkitilin tilioteluettelo** -sivun **Kumoa**-toimintoa. Kun peruutat kirjatun pankkitäsmäytyksen, tapahtumat siirretään **Pankkitilin täsmäytys** -sivulle ja merkitään **avoimiksi**, mikä tarkoittaa, että niitä ei ole täsmäytetty. Tämän jälkeen voit korjata pankkitäsmäytyksen ja kirjata sen uudelleen.
 
 > [!NOTE]
 > Pohjoisamerikkalaisessa versiossa voit käyttää Kumoa-toimintoa kirjattujen pankkitilien täsmäytysten ja tiliotteiden peruutukseen vain, kun otat käyttöön **Pankin täsmäytys ja autom. vastaavuus** -valitsimen **Pääkirjanpidon asetukset** -sivulla. Kumoa-toiminto ei ole käytettävissä pankkitiliotteissa, jotka on kirjattu pankkitilin täsmäytysten työkirjoista.
 
-### <a name="reusing-the-bank-statement-number"></a>Pankintiliotteen numeron uudelleenkäyttö
+### Pankintiliotteen numeron uudelleenkäyttö
 
 Uuden pankkitilin täsmäytyksen tiliotteen numero otetaan pankkitililtä Viimeisen tiliotteen saldo -tiliotteena. Voit muuttaa näitä arvoja ennen uuden pankkitäsmäytyksen aloittamista. Kun kuitenkin luot uuden pankkitäsmäytyksen, [!INCLUDE[d365fin](includes/d365fin_md.md)] tarkistaa, onko tiliotteen numero jo määritetty kirjatulle tiliotteelle. Jos numero on käytössä, mutta haluat sen sijaan käyttöön uuden tiliotteen, voit käyttää **Muuta tiliotteen nroa** -toimintoa **Pankkitilin täsmäytys** -sivulla.
 
-### <a name="examples"></a>Esimerkkejä
+### Esimerkkejä
 
 Seuraavassa on esimerkkejä siitä, miten korjataan kirjatun pankkitäsmäytyksen virhe käyttämällä samaa tai eri tiliotteen numeroa.
 
-#### <a name="example-1"></a>Esimerkki 1
+#### Esimerkki 1
 
 Teit pankkitäsmäytykset tammi-, helmi- ja maaliskuussa. Pankkitiliotteen numero oli maaliskuussa 100. Myöhemmin huomaat, että maaliskuu sisälsi merkinnät vain 30. päivä asti, mikä tarkoittaa merkinnät 31. päivältä puuttuvat. Joten sinun täytyy tehdä pankkitäsmäytys maaliskuulle uudelleen. Avaa tässä tapauksessa **Pankkitilin tiliote** -sivu, valitse maaliskuun tiliote ja valitse sitten **Kumoa**. 
 
@@ -218,7 +218,7 @@ Uudelle pankkitäsmäytykselle annetaan tilitteen numero 101. Voit määrittää
 > [!TIP]
 > Muista asettaa asianmukainen tilioteen lopetuspäivämäärä (tässä esimerkissä 31. maaliskuuta) ja muokkaa **Viimeisen tiliotteen saldo** -kenttää. 
 
-#### <a name="example-2"></a>Esimerkki 2
+#### Esimerkki 2
 
 Teit pankkitäsmäytykset tammi-, helmi, kesä- ja heinäkuussa. Huomaat, että helmikuu oli virheellinen. Oletetaan, että helmikuun tiliotteen numero oli 100. Kuten esimerkissä 1, käytetään Kumoa- ja Muuta tiliotteen nroa -toimintoja, jotka muuttavat tiliotteen numeron kuten yllä olevassa esimerkissä 1, jotta nyt voit tehdä uudelleen helmikuun pankkitilin täsmäytyksen.  
 
@@ -233,15 +233,15 @@ Jos teet seuraavan pankkitäsmäytyksen elokuun osalta, harkitse arvojen muuttam
 >
 > Viimeisen tiliotteen saldo -arvoa pidetään pankkitilillä virheiden minimoimiseksi pankkitäsmäytyksiä tehtäessä. Sitä voi myös muokata, joten pankkitilin täsmäytykset voidaan tehdä missä tahansa järjestyksessä. Tämä tarkoittaa myös sitä, että jos peruutat pankin tiliotteen, uusi loppusaldo ei ehkä ole seuraavassa tiliotteessa Viimeisen tiliotteen saldo. Ei ole mitään toimintoa, jolla voi siirtää saldon eteenpäin kaikille myöhemmille tiliotteille. Tämä on hyvä ottaa huomioon Kumoa-toimintoa käytettäessä.  
 
-## <a name="avoid-direct-posting"></a>Vältä suorakirjausta
+## Vältä suorakirjausta
 
 Älä käytä KP-tiliä, joka mahdollistaa suoran kirjauksen pankkitilin kirjausryhmässä. Suora kirjaus katkaisee yhteyden pankkitilitapahtuman ja KP-tilitapahtuman välillä. Kun täsmäytetään pankkitilisi, suoraan KP-tiliin kirjatut tapahtumat eivät sisälly toimitukseen, ja täsmäytyksen suorittaminen on hankalaa.
 
 Tämä virhe tapahtuu usein, kun syötät avaussaldon pankkitilille. On tärkeää, että et kirjaa alkusaldoa suoraan pääkirjanpitoon. KP-tilin tapahtumat, jotka kirjataan suoraan KP-tilille, aiheuttavat ongelmia. Nämä tapahtumat voivat esimerkiksi estää sinua täsmäyttämästä pankkitiliäsi. Ulkomaan valuutan pankkitileille tapahtumat voivat aiheuttaa eroja kertymiseen sen jälkeen, kun olet kirjannut lisää pankkitäsmäytyksiä valuutanvaihtokurssien muutosten vuoksi. Usein pankin avaussaldo kirjataan suoraan pankkitilille, ja summa päätyy KP-tiliin. Voit vaihtoehtoisesti kumota sen myöhemmin sellaisen KP-tilin osalta, jota käytät pääkirjanpidon avaussaldon tasapainottamista varten. Molemmissa tapauksissa sinun on tasapainotettava mahdolliset suorat kirjaukset KP-tiliin ennen ensimmäisen pankkitäsmäytyksen aloittamista ja erityisesti silloin, kun pankkitili käyttää ulkomaan valuuttaa.
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
+## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  
 [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
