@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# Vaihekuvaus: Variantit
+# <a name="walkthrough-variants"></a>Vaihekuvaus: Variantit
 
 Tässä artikkelissa on tietoja Contoso Coffee -esittelyn tietojen käytöstä varianttien suhteen.
 
-## Esimerkkitilanne
+## <a name="scenario"></a>Esimerkkitilanne
 
 Olet Contoso Coffeen tuotantosuunnittelija. Jokaisen nimikkeen SP-SCM1006, AutoDripLite variantin osalta on päivitettävä kysyntäennuste. Koska ne ovat eri värisiä, sinun täytyy varmistaa, että oikeaa tuoterakennetta (BOM) käytetään kunkin variantin osalta. Suorita suunnittelutyökirja toimitusten laskemiseksi.  
 
-## Vaiheet
+## <a name="steps"></a>Vaiheet
 
 1. Määritä varastointiyksiköt nimikkeelle SP-SCM1006, AutoDripLite. Määritä tuoterakenne varastointiyksikölle muunnoksilla PUNAINEN ja VALKOINEN.
 
@@ -98,6 +98,6 @@ Olet Contoso Coffeen tuotantosuunnittelija. Jokaisen nimikkeen SP-SCM1006, AutoD
 
     9. Valitse jokaiselle luodulle riville **Komponentit**-toiminto ja tarkista, mitä maalia käytetään.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Johdatus Contoson kahvidemotietoihin](../contoso-coffee-intro.md)  
