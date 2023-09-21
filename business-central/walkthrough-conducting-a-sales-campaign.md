@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: bholtorf
 ---
-# Vaihekuvaus: Myyntikampanjan suorittaminen
+# <a name="walkthrough-conducting-a-sales-campaign"></a>Vaihekuvaus: Myyntikampanjan suorittaminen
 
 Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampanjan määrittämisen tärkeä osa liittyy kampanjan kohderyhmän valitsemiseen. Tätä tarkoitusta varten [!INCLUDE[prod_short](includes/prod_short.md)]:ssa luodaan segmentti tai yhteystietoryhmä suodattimien avulla.  
 
@@ -18,7 +18,7 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 
  Kampanja- ja Segmentti-toiminnoilla ja niiden automaattisten prosessien avulla voit suunnitella, järjestää ja seurata markkinointitoimenpiteitä. Tällä tavoin uusien asiakkaiden saamisen ja aiempien asiakkaiden säilymisen mahdollisuudet paranevat.  
 
-## Tietoja tästä vaihekuvauksesta
+## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta
 
  Tässä vaihekuvauksessa havainnollistetaan messutapahtuman seurantatoimia sekä jatkokampanjan kohdistamista mahdollisiin asiakkaisiin (kontakteihin).  
 
@@ -31,18 +31,18 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 - kirjeiden lähettäminen kontakteille  
 - kampanjareaktioiden rekisteröinti.  
 
-## Roolit
+## <a name="roles"></a>Roolit
 
  Tässä vaihekuvauksessa havainnollistetaan seuraavien käyttäjäroolien tehtäviä:  
 
 - markkinointi- tai myyntipäällikkö  
 - markkinointityöntekijä.  
 
-## Vaatimukset
+## <a name="prerequisites"></a>Vaatimukset
 
  Asenna [!INCLUDE[prod_short](includes/prod_short.md)] ennen tämän vaihekuvauksen tehtävien suorittamista:  
 
-## Taustatietoja
+## <a name="story"></a>Taustatietoja
 
  CRONUS:n myyntiosaston markkinointipäällikkö vastaa kampanjoiden suunnittelemisesta ja toteuttamisesta. Markkinointipäällikkö tekee myös päätöksiä messuista, joihin yhtiö osallistuu, sekä arvioi kampanjan edistymistä.  
 
@@ -56,11 +56,11 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 
  Työntekijä auttaa lähettämään kiitoskirjeitä kontakteille, jotka jättivät korttinsa henkilökunnalle messujen aikana. Lopuksi päällikkö kirjaa kaikki mahdollisilta asiakkailta saadut vastaukset.  
 
-## Kampanjan määrittäminen
+## <a name="setting-up-a-campaign"></a>Kampanjan määrittäminen
 
  Kun työntekijä on lisännyt messuilla saatujen käyntikorttien tiedot, markkinointipäällikkö määrittää kampanjan kortin kampanjaan liittyvien toimien hallintaa varten.  
 
-### Kampanjan määrittäminen  
+### <a name="to-set-up-a-campaign"></a>Kampanjan määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kampanjat** ja valitse sitten vastaava linkki.  
 2. Luo uusi kampanja valitsemalla **Uusi**-toiminto. Paina kampanjakortissa <kbd>Enter</kbd>-näppäintä, jos haluat lisätä kampanjanumeron automaattisesti.  
@@ -68,13 +68,13 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 4. Valitse **Tilakoodi**-kenttä ja valitse tilakoodi "1-PLAN". 
 5. Täytä kampanjan **Aloituspvm**- ja **Lopetuspvm**-kenttien tiedot asiaankuuluvalla tavalla.  
 
-## Kohderyhmän valitseminen
+## <a name="selecting-the-target-audience"></a>Kohderyhmän valitseminen
 
  Luomalla segmentin markkinointipäällikkö valitsee kontaktit, joiden kanssa hän haluaa olla vuorovaikutuksessa.  
  
  Kun luot segmentin, voit valita eri kriteerien avulla ne yhteystiedot, joiden on oltava segmentin kohteita. Voit valita esimerkiksi yhteyshenkilöitä, jotka työskentelevät asiakkaan toimipaikassa tai mahdollisen asiakkaan toimipaikassa tai henkilöitä, jotka vastaavat yrityksensä ostoista. Käytä suodattimia lisätäksesi kontakteja sinun tarkoituksiisi parhaiten sopivien ehtojen mukaan. Kontakteja lisätään suodatinten avulla esimerkiksi kontaktihenkilön vastuualueen tai kontaktiyrityksen liikesuhteen tai toimialan perusteella. Tässä vaihekuvauksessa valitsemme **Vastuualue**-suodattimen valituille yhteyshenkilöille.
 
-### Asianmukaiset kontaktit sisältävän segmentin luominen  
+### <a name="to-create-a-segment-with-the-relevant-contacts"></a>Asianmukaiset kontaktit sisältävän segmentin luominen
 
 1. Valitse ensin **Navigoi**-toiminto ja sitten **Segmentit**.  
 2. Luo uusi segmentti valitsemalla **Uusi**-toiminto. Valitse segmentin kortissa **Enter** jos haluat, että segmenttinumero lisätään automaattisesti.  
@@ -87,18 +87,18 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
 > [!NOTE]  
 > Voit tallentaa segmentin kriteerin myöhempää käyttöä varten.
 
-### Segmentointikriteerien tallentaminen
+### <a name="to-save-your-segmentation-criteria"></a>Segmentointikriteerien tallentaminen
 
 1. Valitse **Segmentti**-sivulla **Toiminnot**.
 2. Valitse **Toiminnot**, sitten **Segmentti** ja valitse sitten **Tallenna kriteeri** -toiminto.  
 3. Anna **Tallenna segmentin kriteeri** -sivulla segmentin koodi. Syötä **Kuvaus**-kenttään segmentointikriteerien kuvaus.
 4. Valitse **OK**-painike.  
 
-## Tietojen louhinta
+## <a name="mining-the-data"></a>Tietojen louhinta
 
  Markkinointipäällikkö tarkastelee segmentoitua kontaktiluetteloa lähemmin ja havaitsee, että luettelo on aivan liian laaja. Päällikkö päättääkin pienentää luetteloa sen mukaan, mitkä ovat todellisia mahdollisia asiakkaita, jotta painopiste on varmasti oikeassa kohderyhmässä. Tätä tietojen uudelleenmäärittämistä ja karsimista kutsutaan myös tietojen louhinnaksi.  
 
-### Kontaktien poistaminen segmentistä  
+### <a name="to-remove-contacts-from-the-segment"></a>Kontaktien poistaminen segmentistä
 
 1. Valitse **Segmentti**-sivulla **Toiminnot**.
 2. Valitse alla olevassa valikkopalkissa **Toiminnot**, valitse **Yhteystiedot** ja valitse sitten **Vähennä kontakteja**.  
@@ -111,28 +111,28 @@ Kampanja voi olla mikä tahansa toimi, jossa on mukana useita kontakteja. Kampan
  > [!NOTE]  
  > Jos kontaktien ryhmän poistaminen täytyy syystä tai toisesta peruuttaa, voit käyttää **Mene takaisin** -toimintoa. Et toisin sanoen voi kumota viimeistä segmentointia.  
 
-### Poistettujen yhteystietojen palauttaminen
+### <a name="to-bring-back-the-removed-contacts"></a>Poistettujen yhteystietojen palauttaminen
 
 1. Valitse **Segmentti**-sivulla **Segmentti**-toiminto.
 2. Valitse **Mene takaisin**-toiminto.
 
 Yhteystiedot, jotka olet juuri poistanut lisätään takaisin yhteystietojen luetteloon.
 
-## Segmentin yhdistäminen kampanjaan
+## <a name="linking-a-segment-to-a-campaign"></a>Segmentin yhdistäminen kampanjaan
 
 Markkinointipäällikkö päättää, että karsittu luettelo on kampanjan lopullinen kontaktiluettelo. Näin ollen he yhdistävät tämän segmentin FUTURUS-messut-kampanjaan.  
 
-### Segmentin yhdistäminen kampanjaan  
+### <a name="to-link-a-segment-to-the-campaign"></a>Segmentin yhdistäminen kampanjaan
 
 1. Valitse kampanja, johon segmentti on tarkoitus yhdistää, valitsemalla **Segmentti**-sivun **Kampanja**-pikavälilehdessä **Kampanjan Nro**-kenttä. Kampanja voi olla esimerkiksi **CP0001**.
 2. Valitse **Kyllä**.  
 3. Koska tämä segmentti on kampanjan kohde, valitse **Kampanjan kohde** -valintaruutu ja valitse **Kyllä**.  
 
-## Kirjeet ja sähköpostiviestit lähetetään yhteystiedoille
+## <a name="sending-letters-and-email-messages-to-contacts"></a>Kirjeet ja sähköpostiviestit lähetetään yhteystiedoille
 
  Työntekijä auttaa markkinointipäällikköä lähettämään mahdollisille asiakkaille kirjeitä, joissa heitä kiitetään messukäynnistä.
 
-### Lähetä kirje yhteyshenkilölle segmentin avulla  
+### <a name="to-use-a-segment-to-send-a-letter-to-a-contact"></a>Lähetä kirje yhteyshenkilölle segmentin avulla
 
 > [!NOTE]  
 > Tässä menettelyssä on liitettävä Word-asiakirja. Voit lisätä liitteitä millä tahansa kielellä.
@@ -160,7 +160,7 @@ Kun segmentti kirjataan lokiin, jokainen lähetetty kirje tallennetaan vuorovaik
 
 Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vuorovaikutuslokin tapahtumat** ja valitse sitten vastaava linkki. Jokaiselle lähetetylle kirjeelle on olemassa merkintä.  
 
-### Lähetä sähköpostiviesti yhteyshenkilölle  
+### <a name="to-send-an-email-message-to-a-contact"></a>Lähetä sähköpostiviesti yhteyshenkilölle
 
 1. Valitse **Vuorovaikutus**-pikavälilehden **Vuorovaikutusmallin koodi** -kentässä Liikekirje (**LIIKET**) -malli.  
 2. Kirjoita **Aihe (oletus)** -kenttään esimerkiksi **Kiitos messukäynnistä**.  
@@ -173,13 +173,13 @@ Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.pn
 
  Kirjeet lähetetään automaattisesti sähköpostilla ja segmentti kirjataan lokiin. Koska segmentti on kirjattu lokiin, ei ole enää segmenttien luettelossa, vaan tallennettu luetteloon lokiin kirjatuista segmenteistä. Luettelon nähdäksesi valitse ![Lamppu, joka avaa toisena Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lokiin kirjatut segmentit** ja valitse sitten vastaava linkki.  
 
-## Kampanjareaktioiden rekisteröiminen
+## <a name="registering-campaign-responses"></a>Kampanjareaktioiden rekisteröiminen
 
  Mahdolliset asiakkaat vastaavat kirjeeseen seuraavien kahden viikon aikana. Markkinointipäällikkö haluaa pitää kirjaa vastauksista ja kirjata nämä vuorovaikutukset ohjelmaan.  
 
  Määritä tätä tarkoitusta varten segmentti kontakteille, jotka ovat vastanneet kirjeeseen.  
 
-### Kampanjareaktioiden rekisteröiminen  
+### <a name="to-register-campaign-responses"></a>Kampanjareaktioiden rekisteröiminen
 
 1. Valitse **Segmentti**-sivun **Vuorovaikutus**-pikavälilehdessä **Vuorovaikutusmallin koodi** -kenttä.  
 
@@ -193,7 +193,7 @@ Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.pn
 7. Valitse **Segmentti**-sivulla **Loki**-toiminto.  
 8. Tyhjennä **Lokin segmentti** -sivulla **Lähetä liitteet** -valintaruutu. Valitse sitten **OK**-painike vahvistaaksesi sanoman siitä, että segmentti on kirjattu lokiin.  
   
-## Katso myös  
+## <a name="see-also"></a>Katso myös
 [Liikesuhteiden hallinta](marketing-relationship-management.md)  
  [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)  
  [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

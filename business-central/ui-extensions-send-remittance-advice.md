@@ -10,7 +10,7 @@ ms.search.keywords: 'app, add-in, manifest, customize, stream, remittance, advic
 ms.date: 07/06/2021
 ms.author: bholtorf
 ---
-# Lähetä Maksusuoritustietojen Ohjeet
+# <a name="send-remittance-advice"></a>Lähetä Maksusuoritustietojen Ohjeet
 
 Kun maksusuoritetietojen ohjetta käytetään tiedottamaan toimittajia maksuista, voit nyt lähettää maksusuoritustietojen ohjeet kootusti maksukirjauskansiosta ja uudelleenlähettää ne, kun maksut on suoritettu toimittajatapahtumista käyttäen dokumenttienlähetysprofiileita.
 
@@ -22,7 +22,7 @@ Voit lähettää maksusuoritetietojen ohjeita kahdella eri tapaa:
 * **Maksukirjauskansio** -sivulla, valitse **Liittyvät**, **Maksut**, **Lähetä Maksusuoritetietojen Ohjeet** lähettääksesi sähköpostilla maksusuoritetietojen ohjeet yhdeltä tai useammalta maksukirjauskansion riviltä
 * Valitse **Toimittajatapahtumat**-sivulla **Toiminnot**, **Funktiot**, **Lähetä Maksutietojen Ohjeet** lähettääksesi sähköpostilla maksutietojen ohjeet, kun toimittajamaksut on julkaistu yhdestä tai useammasta toimittajatapahtumasta
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Ehdota toimittajamaksuja](payables-how-suggest-vendor-payments.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  

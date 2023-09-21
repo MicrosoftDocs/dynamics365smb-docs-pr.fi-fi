@@ -11,7 +11,7 @@ ms.search.forms: '5737, 5735, 5736'
 ms.date: 10/27/2021
 ms.author: bholtorf
 ---
-# Käytä nimikeviittauksia
+# <a name="use-item-references"></a>Käytä nimikeviittauksia
 
 Jos ostat tai myyt nimikkeitä, joissa sinä sekä toimittaja tai asiakas käyttävät erilaisia ehtoja, nimikkeiden ehtojen ja kyseisen nimikkeen asiakkaan tai toimittajan käyttämien ehtojen välille voidaan määrittää viittaus. Tällä tavoin toimittajan tai asiakkaan nimikkeen kuvaus, mittayksikkö tai varianttikoodi lisätään automaattisesti soveltuviin asiakirjoihin, kun tiedot annetaan **Nimikeviittauksen nro** -kentässä.  
 
@@ -22,14 +22,14 @@ Jos ostat tai myyt nimikkeitä, joissa sinä sekä toimittaja tai asiakas käytt
 >
 > Vuoden 2021 2. julkaisuaaltoa edeltävissä versioissa järjestelmänvalvoja voi ottaa käyttöön *Kirjoita pidempiä viitteitä* -ominaisuuden [Ominaisuuksien hallinta](https://businesscentral.dynamics.com/?page=2610) -sivulla (linkki edellyttää, että sinulla on [!INCLUDE [prod_short](includes/prod_short.md)] -vuokraaja). Viittausten käyttö ei muutu, mutta sivujen ja painikkeiden kaltaisten asioiden nimet muuttuvat. Esimerkiksi **Nimikkeen ristiviittaustapahtumat** -sivulta tulee **Nimikkeen viitetapahtumat** -sivu.
 
-## Voit alkaa käyttää nimikeviitteitä seuraavasti
+## <a name="to-start-using-item-references"></a>Voit alkaa käyttää nimikeviitteitä seuraavasti
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
 1. Valitse :::image type="icon" source="media/ui-search/search_small.png" border="false":::-kuvake, kirjoita **Varastonhallinnan asetukset** ja valitse sitten liittyvä linkki.
 2. Valitse **Käytä nimikeviittauksia** -kenttä.
 
-## Nimikeviittauksen määrittäminen
+## <a name="to-set-up-an-item-reference"></a>Nimikeviittauksen määrittäminen
 
 1. Valitse :::image type="icon" source="media/ui-search/search_small.png" border="false":::-kuvake, kirjoita **Nimikkeet** ja valitse sitten liittyvä linkki.
 2. Avaa sen nimikkeen kortti, jolle haluat luoda viittauksen.
@@ -41,7 +41,7 @@ Jos ostat tai myyt nimikkeitä, joissa sinä sekä toimittaja tai asiakas käytt
 
 Seuraavaksi käsitellään nimikeviittauksen määrittämistä ostotilauksessa. Vastaavat ohjeet koskevat myyntiasiakirjoja ja muita ostoasiakirjoja.  
 
-## Toimittajan nimikekuvauksen antaminen asiakirjassa
+## <a name="to-enter-a-vendors-item-description-on-a-document"></a>Toimittajan nimikekuvauksen antaminen asiakirjassa
 
 1. Valitse :::image type="icon" source="media/ui-search/search_small.png" border="false":::-kuvake, kirjoita **Ostotilaukset** ja valitse sitten liittyvä linkki.
 2. Luo ostotilaus toimittajalle, jolle määritit nimikkeen viittauksen edellisessä menettelyssä.
@@ -50,7 +50,7 @@ Seuraavaksi käsitellään nimikeviittauksen määrittämistä ostotilauksessa. 
 
 Rivin **Kuvaus**-kentän tiedot on korvattu toimittajan nimikkeen kuvauksella nimikkeen viittaustapauksessa määritetyllä tavalla. Jos nimikeviittaus sisältää varianttikoodin tai mittayksikön, myös nämä arvot kopioidaan asiakirjaan.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Varasto](inventory-manage-inventory.md)  
