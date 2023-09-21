@@ -9,7 +9,7 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-warehousing"></a>Contoso Coffeen fyysisen varastoinnin esittely
+# Contoso Coffeen fyysisen varastoinnin esittely
 
 Contoso Coffee on kuvitteellinen yritys, joka tuottaa kuluttajille ja yrityksille kahvinkeittimiä. **Contoso Coffee** -sovellukset Business Centralille lisäävät demotietoja, joiden avulla voit opetella käyttämään varastointiominaisuuksia Business Centralissa. Voit määrittää fyysisen varastoinnin ominaisuuksia monella eri tavalla, katso [Yleiskuvaus erilaisista määritysvaihtoehdoista](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
@@ -27,7 +27,7 @@ Sovellus sisältää kolme sijaintia, jotka on optimoitu eri skenaarioita varten
 
   Tässä sijainnissa käytetään kehittynyttä fyysisen varastoinnin konfiguraatiota, jossa on ohjatut hyllytykset ja poiminnat, joiden avulla nimikkeet liikkuvat koko fyysisessä varastossa.
 
-## <a name="set-up-contoso-coffee-warehousing-data"></a>Contoso Coffeen varastointitietojen määrittäminen
+## Contoso Coffeen varastointitietojen määrittäminen
 
 Contoson Coffeen varastoinnin esittelytietojen käyttäminen edellyttää, että asennat asianomaiseen yritykseen [!INCLUDE [prod_short](../../includes/prod_short.md)] -ratkaisussa kaksi sovellusta:  
 
@@ -70,7 +70,7 @@ Kun olet valmis, valitse **Luo demotiedot** -toiminto. Tietojen lisääminen poh
 > [!IMPORTANT]
 > Jos käytät skenaarioita, haluat ehkä varmistaa, että käyttäjä on lisätty valittujen sijaintien osalta. Lisätietoja on kohdassa [Varastotyöntekijöiden määrittäminen](../../warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="scenarios"></a>Esimerkkitilanteet
+## Esimerkkitilanteet
 
 Contoso Coffeen varastoinnin esittelytiedot tukevat tällä hetkellä seuraavia testi- ja harjoitteluskenaarioita:
 
@@ -80,7 +80,7 @@ Contoso Coffeen varastoinnin esittelytiedot tukevat tällä hetkellä seuraavia 
 
 Lue kunkin skenaarion vaiheet asianomaisessa artikkelissa.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Varaston määrittäminen](../../inventory-setup-inventory.md) 
 [Tietoja sijaintien määrittämisestä](../../inventory-how-setup-locations.md) 

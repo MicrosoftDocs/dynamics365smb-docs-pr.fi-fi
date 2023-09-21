@@ -11,7 +11,7 @@ ms.search.form: '555, 556, 557, 558, 9372, 9370, 9371'
 ms.date: 09/22/2022
 ms.author: bholtorf
 ---
-# <a name="create-analysis-reports"></a>Analyysiraporttien luominen
+# Analyysiraporttien luominen
 
 Myyntipäälliköiden on analysoitava liikevaihtoa, bruttokatetta ja muita myynnin tunnuslukuja säännöllisesti. Ostajat ovat kiinnostuneempia ostovolyymien dynamiikasta, toimittajien suorituskyvystä ja ostohinnoista. Logistiikka-/varastopäälliköt puolestaan tarvitsevat tietoja varaston kierrosta, varaston siirtoanalyysin ja tilastotietoja varaston arvosta. Yhden koon analyysiraporttia ei siis ole.
 
@@ -23,7 +23,7 @@ Analyysiraportit koostuvat analysoitavista objekteista, (kuten asiakkaista, asia
 
 Analyysiraporttien lisäksi voit luoda ja tarkastella samanlaisia tietoja analyysinäkymissä, (jotka perustuvat dimensioihin). Lue lisätietoja kohdasta [Analysoi tietoja dimensioiden mukaan](bi-how-analyze-data-dimension.md).
 
-## <a name="example"></a>Esimerkki
+## Esimerkki
 
 Voit määrittää nämä rivit (analysoitavat objektit):  
 
@@ -37,7 +37,7 @@ Tämän jälkeen voit määrittää sarakkeet (miten haluat objektit analysoida)
 - Edellisen kuukauden myynti  
 - Edellisen kuukauden myynti prosentteina.  
 
-## <a name="setting-up-line-and-column-layouts"></a>Rivi- ja sarakeasettelujen määrittäminen
+## Rivi- ja sarakeasettelujen määrittäminen
 
 **Analyysiraportti**-sivun avulla voit katsella eri rivi- ja sarakeasetteluja, joita olet määrittänyt:
 
@@ -57,7 +57,7 @@ Huomaa, että analyysin rivit ja sarakkeet ovat riippumattomia toisistaan.
 
 Voit esimerkiksi esittää kuukausiraportin määrittämällä yhden ryhmän riviasetteluja ja vuosiraportin määrittämällä useita ryhmiä sarakeasetteluja.
 
-## <a name="set-up-analysis-column-templates"></a>Analyysisarakkeen mallien määrittäminen
+## Analyysisarakkeen mallien määrittäminen
 
 Seuraava toimenpide perustuu myynnin analyysinäkymiin. Vaiheet ovat samanlaiset ostojen ja varaston analyysinäkymille.
 
@@ -74,7 +74,7 @@ Analyysisarakemalli sisältää joukon rivejä, joista jokainen edustaa analyysi
     Jos lisäksi valitset **Tapahtumakirjauksen tyyppi** -kentässä **Nimiketapahtumat**, ohjelma kopioi todelliset luvut nimiketapahtumasta. Jos valitset **Nimikkeiden budjettitapahtumat**, ohjelma kopioi budjetoidut luvut budjetista.  
 5. Tallenna muutokset valitsemalla  **OK**.  
 
-## <a name="set-up-analysis-line-templates"></a>Analyysirivimallien määrittäminen
+## Analyysirivimallien määrittäminen
 
 Seuraava toimenpide perustuu myynnin analyysiraportteihin. Vaiheet ovat samanlaiset ostojen ja varaston analyysiraporteille.
 
@@ -88,7 +88,7 @@ Analyysirivimalli sisältää joukon rivejä, joista jokainen edustaa analyysira
 > [!NOTE]  
 > Voit myös luoda useita yksittäisiä rivejä jokaista nimikettä, asiakasta ja niin edelleen kohti. Valitse Toiminnot ja sitten haluamasi lisäysvaihtoehto, jolloin ohjelma täyttää rivin kaikki asiaankuuluvat kentät. Sen jälkeen voit tarvittaessa muokata rivejä manuaalisesti. Voit halutessasi muokata rivejä manuaalisesti. Voit lisätä rivejä valitsemalla **Lisää nimikkeet** tai **Lisää nimikeryhmät** -toiminnon.  
 
-## <a name="create-a-new-sales-analysis-report"></a>Uusien myynnin analyysiraporttien luominen
+## Uusien myynnin analyysiraporttien luominen
 
 Seuraava toimenpide perustuu myynnin analyysiraportteihin. Vaiheet ovat samanlaiset ostojen ja varaston analyysiraporteille.
 
@@ -103,7 +103,7 @@ Analyysiraporttien avulla voit analysoida myynnin dynamiikkaa tunnuslukujen muka
 > [!NOTE]  
 > Rivi- ja sarakemallien yhdistelmien muodostaminen raporttien luontia varten sekä yksilöivien nimien määrittäminen niille on vapaavalintaista. Jos teet näin, sinun ei tarvitse valita rivi- ja sarakemalleja **Myynnin analyysiraportti** -sivulla jos valitset raportin nimen. Kun raportin nimi on valittu, voidaan rivi- ja sarakemalleja muuttaa itsenäisesti. Alkuperäinen yhdistelmä voidaan sitten myöhemmin palauttaa valitsemalla raportin nimi uudelleen.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Taloudelliset liiketoimintatiedot](bi.md)  
 [Rahoitus](finance.md)  

@@ -3,12 +3,12 @@ title: Rakennetiedot – suunnittelun parametrit
 description: 'Tässä artikkelissa kuvataan eri suunnitteluparametrit, joita voit käyttää, ja miten ne vaikuttavat suunnittelujärjestelmään.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 04/26/2023
 ms.custom: bap-template
 ---
-# <a name="design-details-planning-parameters"></a>Rakennetiedot: Suunnitteluparametrit
+# Rakennetiedot: Suunnitteluparametrit
 
 Tässä artikkelissa kerrotaan, mitä suunnitteluparametreja [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa voi käyttää.  
 
@@ -23,11 +23,11 @@ Se, miten suunnittelujärjestelmä ohjaa nimiketarjontaa, määräytyy **Tuoteko
 |Toimitustilausten muuttaminen|Vähimmäistilausmäärä<br /><br /> Enimmäistilausmäärä<br /><br /> Tilauskerrannainen|
 |Rajaa suunniteltu nimike|Tuotantotapa:<br /><br /> -  Varasto-ohjattu<br />- Tilausohjattu|
 
-## <a name="define-whether-the-item-is-planned"></a>Määritä suunnitellaanko nimike
+## Määritä suunnitellaanko nimike  
 
 Kun haluat sisällyttää nimikkeen tai varastointiyksikön suunnitteluprosessiin, sinun täytyy määritellä se uusintatilaustavaksi. Muussa tapauksessa se on suunniteltava manuaalisesti esimerkiksi tilauksen suunnitteluominaisuuden avulla.  
 
-## <a name="define-when-to-reorder"></a>Määritä uudelleentilauksen ajankohta
+## Määritä uudelleentilauksen ajankohta  
 
 Jälkitilausehdotukset julkaistaan yleensä vain, kun arvioitu käytettävissä oleva määrä on tippunut alle annetun määrän. Uusintatilauspiste määrittää määrän. Muussa tapauksessa se on nolla. Voit muuttaa nollan syöttämällä varmuusvaraston määrän. Jos määrität toimitusajan varmistuksen, ehdotus toimitetaan jaksolla ennen vaadittavaa eräpäivää.  
 
@@ -40,7 +40,7 @@ Oletusarvoinen varmuusläpimenoaika tulee olla asetettuna vähintään yhteen p�
 
 **Uudelleenajoitusjakso**-, **Erän koontijakso**- ja **Puskuriaika**-kentät ottavat myös osaa uudelleentilauksen ajankohdan määrittämiseen. Lisätietoja on ohjeaiheessa [Lisätilausten aikataulujen ja määrän optimointi](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-## <a name="define-how-much-to-reorder"></a>Määritä uusintatilauksen määrä
+## Määritä uusintatilauksen määrä
 
 Jos suunnittelujärjestelmä havaitsee uusintatilauksen tarpeen, uusintatilaustapa määrittää milloin ja kuinka paljon tilataan.  
 
@@ -52,7 +52,7 @@ Suunnittelujärjestelmä noudattaa tavallisesti tätä logiikka uusintatilaustav
 4. Jos bruttokysyntää on jäljellä enemmän ennen tulevaisuuteen aikataulutetun ehdotuksen päättymispäivämäärää ja tämä kysyntä tuo tällä hetkellä lasketun oletetun saatavilla olevan varaston varmuusvaraston määrän alapuolelle, tilauksen määrää kasvatetaan alijäämän hyvittämiseksi. Ehdotettu tarjontatilaus aikataulutetaan sitten taaksepäin nettokysynnän eräpäivästä, joka on saattanut vahingoittaa varmuusvaraston määrää.  
 5. Jos **Aikaväli**-kenttää ei ole täytetty, vain saman eräpäivän bruttokysyntä lisätään.  
 
-### <a name="reordering-policies"></a>Uusintatilauskäytännöt
+### Uusintatilauskäytännöt  
 
 Seuraavat uudelleenjärjestysohjeet vaikuttavat jälkitilattavaan määrään. Jos haluat lisätietoja uusintatilaus käytännöistä, siirry kohtaan [Suunnittelutiedot: uusintatilaustapojen käsittely](design-details-handling-reordering-policies.md).  
 
@@ -63,7 +63,7 @@ Seuraavat uudelleenjärjestysohjeet vaikuttavat jälkitilattavaan määrään. J
 |**Tilaus**|Tilausmäärä lasketaan vastaamaan jokaista yksittäistä kysyntätapahtumaa ja kysyntä-tarjonta-sarja pysyy liitettynä täytäntöönpanoon saakka. Suunnitteluparametreja ei harkita.|  
 |**Erä-erästä**|Määrä lasketaan vastaamaan kysynnän summaa, joka on seurausta ajanjaksosta.|  
 
-## <a name="optimize-when-and-how-much-to-reorder"></a>Optimoi milloin ja kuinka paljon järjestetään uudelleen
+## Optimoi milloin ja kuinka paljon järjestetään uudelleen  
 
 Suunnittelija hienosäätää suunnitteluparametreja ja näin rajoittaa uudelleenajoituksen ehdotuksia, kokoaa kysynnän (dynaaminen uudelleentilausmäärä) ja välttää merkityksettömät suunnittelutoimenpiteet. Seuraavat kentät auttavat optimoimaan milloin ja kuinka paljon jälkitilataan.  
 
@@ -100,13 +100,13 @@ Seuraavassa esimerkissä mustat nuolet kuvaavat olemassa olevaa tarjontaa (ylös
 
 **Oletusarvot:** **Aikaväli**-kentän ja kolmen uudelleenjärjestelyjakson kentän oletusarvo on tyhjä. **Puskuriaika**-kenttää lukuun ottamatta arvo on muissa kentissä 0D (nolla päivää). Jos **Puskuriaika**-kenttä on tyhjä, käytetään **Tuotannon asetukset** -sivulla olevan **Oletuspuskuriaika**-kentän arvoa.  
 
-## <a name="modify-the-supply-orders"></a>Toimitustilausten muuttaminen
+## Toimitustilausten muuttaminen  
 
 Kun tilausehdotuksen määrä on laskettu, yksi tai usea tilauksen määrite voi muuttaa sitä. Esimerkiksi enimmäistilausmäärä on suurempi tai yhtä suuri kuin vähimmäistilausmäärä, joka on suurempi tai yhtä suuri kuin tilauskerrannainen.  
 
 Määrää vähennetään, jos se ylittää maksimitilausmäärän. Tämän jälkeen se kasvaa, jos se on pienempi kuin vähimmäistilausmäärä. Lopuksi se pyöristetään ylöspäin siten, että se vastaa tiettyä tilauskerrannaista. Jäljellä oleva määrä käyttää samoja oikaisuja, kunnes kokonaiskysyntä on muutettu tilausehdotuksiksi.  
 
-## <a name="delimit-the-item"></a>Rajaa nimike
+## Rajaa nimike  
 
 **Nimikkeen kortti** -sivun **tuotantotapa**-kenttä määrittää, mitä muita tilauksia tarvelaskenta ehdottaa.  
 
@@ -114,7 +114,7 @@ Jos käytetään **Varasto-ohjautuva**-vaihtoehtoa, tilaukset koskevat vain nimi
 
 Jos käytetään **Tilausohjattu**-vaihtoehtoa, suunnittelujärjestelmä analysoi nimikkeen tuotannon tuoterakenteen ja luo linkitetyt tilausehdotukset näille alemman tason nimikkeille, joilla on myös Tilausohjattu-määritys. Tämä jatkuu niin kauan kunnes laskevissa tuoterakenteissa on tilausohjautuvia nimikkeitä.
 
-## <a name="use-low-level-codes-to-manage-derived-demand"></a>Johdetun kysynnän hallinta matalan tason koodien avulla
+## Johdetun kysynnän hallinta matalan tason koodien avulla
 
 Matalan tason koodien avulla komponenttien johdettu kysyntä etenee tuoterakenteen alemmille tasoille. Saat lisätietoja alatason koodeista siirtymällä kohtaan [Nimikkeen prioriteetti/alatason koodi](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
 
@@ -130,7 +130,7 @@ Kentän valinnan jälkeen dynaamisesti tehtävän automaattisen laskennan sijaan
 > [!NOTE]
 > Vaikka valitset **Dynaaminen alatason koodi** -kentän, komponenttinimikkeiden alatason koodeja ei muuteta dynaamisesti, jos päätuoterakenne on poistettu tai sitä ei ole hyväksytty. Tämä voi aiheuttaa ongelmia uusien nimikkeiden lisäyksessä tuoterakenteen loppupäässä, koska alatason koodien enimmäismäärä saattaa ylittyä. Sen vuoksi **Laske alatason koodi** -eräajo voidaan suorittaa säännöllisesti suurissa tuoterakenteissa, joissa saavutetaan alatason koodien raja, jotta rakenne säilyy.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 
 [Rakennetiedot: Uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)  
 [Rakennetiedot: Kysynnän ja tarjonnan tasaaminen](design-details-balancing-demand-and-supply.md)  

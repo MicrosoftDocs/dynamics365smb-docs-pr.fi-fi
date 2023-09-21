@@ -3,13 +3,13 @@ title: Rakennetiedot – siirrot suunnittelussa
 description: Tietoja siirtotilausten käyttämisestä toimituslähteenä varastomääriä suunniteltaessa.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template
 ms.search.keywords: 'design, transfer, sku, locations, warehouse'
 ---
-# <a name="design-details-transfers-in-planning"></a>Rakennetiedot: siirrot suunnittelussa
+# Rakennetiedot: siirrot suunnittelussa
 
 Siirtotilaukset ovat myös tarjonnan lähde, kun työskennellään varastointiyksikön tasolla. Kun käytössä on useita sijainteja (fyysisiä varastoja), varastointiyksikön täydennysjärjestelmän arvoksi voi määrittää Siirto. Tällöin sijainnin täydennys tehdään siirtämällä tavaroita toisesta sijainnista. Jos fyysisiä varastoja on useita, siirrot voivat ketjuttua. Toimitus VIHREÄÄN sijaintiin siirretään KELTAISESTA sijainnista, toimitus KELTAISEEN siirretään PUNAISESTA ja niin edelleen. Ketjun alussa täydennysjärjestelmänä on **Tuotantotilaus** tai **Osto**.  
 
@@ -27,7 +27,7 @@ Kysynnän muuttuminen voi heijastua koko ketjuun. Kaikki siirtotilaukset sekä o
 
 ![Esimerkki toimitusten/kysynnän tasapainosta siirroissa.](media/nav_app_supply_planning_7_transfers2.png "Esimerkki toimitusten/kysynnän tasapainosta siirroissa")  
 
-## <a name="why-is-a-transfer-a-special-case"></a>Siirron erikoisasema
+## Siirron erikoisasema  
 
 Siirtotilaukset muistuttavat muita tilauksia, kuten osto- ja tuotantotilauksia. Käytännössä ne ovat kuitenkin erilaisia.  
 
@@ -37,7 +37,7 @@ Yhtenä erona on se, että siirtorivi ilmaisee sekä kysynnän että tarjonnan. 
 
 Kun [!INCLUDE [prod_short](includes/prod_short.md)] muuttaa siirron tarjontapuolta, sen on tehtävä samanlainen muutos kysyntäpuoleen.  
 
-## <a name="transfers-are-dependent-demand"></a>Siirrot ovat riippuvaisia kysynnästä
+## Siirrot ovat riippuvaisia kysynnästä  
 
 Kysynnän ja tarjonnan suhde muistuttaa tuotantotilausrivien komponentteja. Erona on kuitenkin se, että tuotantotilausrivien komponentit ovat seuraavalla suunnittelutasolla ja että niillä on eri nimike. Siirron kaksi osaa ovat samalla tasolla oleva sama nimike.  
 
@@ -47,7 +47,7 @@ Jos suunnittelun joustavuuden arvoksi ei ole määritetty Ei mitään, siirtoriv
 
 Suunnittelutoimenpiteessä siirron kysyntä on otettava huomioon vasta, kun suunnittelujärjestelmä on käsitellyt tarjontapuolen. Todellista kysyntää ei tiedetä ennen käsittelyä. Muutosten järjestys on tärkeää siirtotilauksissa  
 
-## <a name="planning-sequence"></a>Suunnittelujärjestys
+## Suunnittelujärjestys  
 
 Seuraavassa kuvassa on esimerkki siirtoketjusta.  
 
@@ -59,7 +59,7 @@ Tässä esimerkissä suunnittelujärjestelmä aloittaa asiakkaan kysynnästä ja
 
 ![Toimitusten suunnittelu siirtojen avulla.](media/nav_app_supply_planning_7_transfers5.png "Toimitusten suunnittelu siirtojen avulla")  
 
-## <a name="transfer-level-code"></a>Siirtotason koodi
+## Siirtotason koodi  
 
 Varastointiyksikön siirtotason koodi määrittää järjestyksen, jossa suunnittelujärjestelmä käsittelee sijainnit.  
 
@@ -71,7 +71,7 @@ Siirtotason koodi on 0, kun kyseessä ovat oston tai tuotantotilauksen täydenny
 
 Varastointiyksikköä päivitettäessä suunnittelujärjestelmä havaitsee, onko varastointiyksiköiden täydennysjärjestelmissä kehäviittauksia.  
 
-## <a name="planning-transfers-without-sku"></a>Siirtojen suunnittelu ilman varastointiyksiköitä
+## Siirtojen suunnittelu ilman varastointiyksiköitä  
 
 Yksinkertaisemmissa fyysisen varaston määrityksissä voidaan käyttää sijainteja ja tehdä sijaintien välillä manuaalisia siirtoa, vaikka varastointiyksiköt eivät olisi käytössä. Siirto voi koskea esimerkiksi sijainnissa olevaa myyntitilausta. Suunnittelujärjestelmän reagoi kysynnän muutoksiin.  
 
@@ -81,7 +81,7 @@ Suunnittelujärjestelmä analysoi manuaalisissa siirroissa siirtotilaukset ja su
 
 Jos sijainnissa on useita siirtoja, ensimmäinen siirtotilaus määrittää suunnittelun suunnan. Siirrot vastakkaiseen suuntaan peruutetaan.  
 
-## <a name="changing-quantity-with-reservations"></a>Varauksia sisältävän määrän muuttaminen
+## Varauksia sisältävän määrän muuttaminen  
 
 Suunnittelujärjestelmä ottaa varaukset huomioon, kun tarjonnan määriä muutetaan. Varattu määrä ilmaisee alimman määrän, jolle tarjonnan voi vähentää.  
 
@@ -96,7 +96,7 @@ Vaikka saapuvalla puolella voi olla ylimääräistä tarjontaa, siirtorivin mä�
 
 ![Varaukset siirron suunnittelussa.](media/nav_app_supply_planning_7_transfers8.png "Varaukset siirron suunnittelussa")  
 
-## <a name="changing-quantity-in-a-transfer-chain"></a>Määrän muuttaminen siirtoketjussa
+## Määrän muuttaminen siirtoketjussa  
 
 Seuraava esimerkki osoittaa, mitä tapahtuu, kun siirron määrää muutetaan.
 
@@ -118,7 +118,7 @@ Kun suunnittelujärjestelmä toimii jälleen, sen tulisi päästä eroon ylimä�
 
 PINK-RED-siirto on vähennetty 22:een. Vaikka SININEN-VAALEANPUNAINEN-siirron saapuvaa osaa ei varattu, lähtevä osa on. Varauksen vuoksi määrää ei vähentää pienemmäksi kuin 27.  
 
-## <a name="lead-time-calculation"></a>Toimitusajan laskenta
+## Toimitusajan laskenta  
 
 Siirtotilauksen eräpäivän laskennassa otetaan huomioon erilaisia toimitusaikoja.  
 
@@ -149,7 +149,7 @@ Seuraavat laskelmat näkyvät esimerkissä:
 * Aloituspvm + Toimitusaika = Lopetuspvm  
 * Lopetuspvm + Saapuva käsittely = Vast.ott. pvm  
 
-## <a name="safety-lead-time"></a>Toimitusajan varmistus
+## Toimitusajan varmistus  
 
 **Oletus toimitusajan varmistus** -kenttä **Tuotannon asetukset** -sivulla ja **Toimitusajan varmistus** -kenttää **Nimikekortti**-sivulla ei sisällytetä siirtotilauksen laskelmiin. Toimitusajan varmistus vaikuttaa kuitenkin kokonaissuunnitelmaan. Toimitusajan varmistus vaikuttaa täydennystilaukseen (osto tai tuotanto) siirtoketjun alussa. Tässä vaiheessa nimikkeet asetetaan sijaintiin, josta ne siirretään.  
 
@@ -159,7 +159,7 @@ Tuotantoitilausrivillä Lopetuspvm + Toimitusajan varmistus + Saapuvan f.var. k�
 
 Ostotilausrivillä Suunniteltu vast.otto pvm + Toimitusajan varmistus + Saapuvan f.var. käsittelyaika = Oletettu vast.otto pvm.  
 
-## <a name="reschedule"></a>Aikataul. uud.
+## Aikataul. uud.  
 
 Kun siirtorivi ajoitetaan uudelleen, suunnittelujärjestelmä etsii lähtevän osa ja muuttaa päivämäärän ja ajan.
 
@@ -170,11 +170,11 @@ Kun siirtorivi ajoitetaan uudelleen, suunnittelujärjestelmä etsii lähtevän o
 
 Siirtorivin eräpäivän muutettaessa toimitusaika on laskettava, jotta siirron lähtevä osuus päivittyy.  
 
-## <a name="serial-and-lot-numbers-in-transfer-chains"></a>Sarja- ja eränumerot siirtoketjuissa
+## Sarja- ja eränumerot siirtoketjuissa  
 
 Jos kysyntä käyttää sarja- tai eränumeroita ja suunnittelujärjestelmä suoritetaan, se luo siirtotilaukset. Katso lisätietoja tästä käsitteestä Nimikkeen määritteet -kohdasta. Jos sarja- tai eränumerot kuitenkin poistetaan kysynnästä, siirtotilaukset käyttävät edelleen sarja- ja eränumeroita ja suunnittelu ohittaa ne (niitä ei poisteta).  
 
-## <a name="order-to-order-links"></a>Tilausten väliset linkit
+## Tilausten väliset linkit  
 
 Tässä esimerkissä SINISEEN varastointiyksikköön määritetään **tilauksen** uusintatilauskäytäntö. VAALEANPUNAISILLA JA PUNAISILLA varastointiyksilöillä on **Erä-erästä**-uudelleentilauskäytäntö. Kun PUNAISESSA sijainnissa luodaan myyntitilaus määrälle 27, seurauksena on siirtoketju. Viimeinen siirto on SINISESSÄ sijainnissa, ja se on varattu sidonnan avulla. Tässä esimerkissä varaukset eivät ole kiinteitä suunnittelijan VAALEANPUNAISESSA sijainnissa luomia varauksia. Suunnittelujärjestelmä luo sidonnat. Oleellinen ero on se, että suunnittelujärjestelmä voi vaihtaa jälkimmäisen.  
 
@@ -182,7 +182,7 @@ Tässä esimerkissä SINISEEN varastointiyksikköön määritetään **tilauksen
 
 Jos kysyntä muutetaan arvosta 27 arvoon 22, suunnittelujärjestelmä vähentää määrä koko ketjussa. Myös sitova varaus vähenee.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 
 [Rakennetiedot: suunnittelun parametrit](design-details-planning-parameters.md)   
 [Rakennetiedot: suunnittelun kohdistustaulukko](design-details-planning-assignment-table.md)   

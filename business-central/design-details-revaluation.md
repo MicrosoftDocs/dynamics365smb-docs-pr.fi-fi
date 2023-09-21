@@ -3,13 +3,13 @@ title: Rakennetiedot – uudelleenarvostus
 description: 'Voit uudelleenarvostaa varaston sen arvostuksen perustan perusteella, joka vastaa varaston arvoa parhaiten.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 07/07/2023
 ms.custom: bap-template
 ---
 
-# <a name="design-details-revaluation"></a>Rakennetiedot: uudelleenarvostus
+# Rakennetiedot: uudelleenarvostus
 
 Voit uudelleenarvostaa varaston sen arvostuksen perustan perusteella, joka vastaa varaston arvoa parhaiten. Voit myös päivittää uudelleenarvostuksen taaksepäin päivittääksesi jo myymiesi tuotteiden myytyjen tavaroiden kustannukset (COGS). Vakio-arvostusmenetelmää käyttävät nimikkeet, joita ei ole laskutettu kokonaan, voidaan myös arvostaa uudelleen.  
 
@@ -19,7 +19,7 @@ Voit uudelleenarvostaa varaston sen arvostuksen perustan perusteella, joka vasta
 - Vakioarvostusmenetelmää käyttävien nimikkeiden osalta oletetut kustannustapahtumat on sisällytetty uudelleenarvostukseen.  
 - Järjestelmä havaitsee uudelleenarvostuksen aiheuttamia varaston arvon vähennyksiä.  
 
-## <a name="calculate-the-revaluable-quantity"></a>Lasketaan uudelleenarvotettavaa määrää
+## Lasketaan uudelleenarvotettavaa määrää
 
 Uudelleenarvostettava määrä on tiettynä päivänä käytettävissä oleva jäljellä oleva varasto. Määrä on uudelleenarvostuspäivänä tai sitä ennen kirjaamasi kokonaan laskutettujen nimiketapahtumien kokonaismäärä.  
 
@@ -30,7 +30,7 @@ Kun uudelleenarvostus on kirjattu, voit kirjata varaston lisäyksen tai vähenny
 
 Koska voit arvostaa uudelleen milloin tahansa, sinulla on oltava käytännöt, kun pidät tuotetta osana varastoa. Esimerkiksi, kun nimike on varastossa, ja kun kohde on keskeneräinen työ (KET).  
 
-### <a name="example"></a>Esimerkki
+### Esimerkki  
 
 Seuraavassa esimerkissä kuvataan milloin WIP-nimikkeiden siirroista tulee osa varastoa. Esimerkki perustuu ketjun ja 150 linkin tuotantoon.  
 
@@ -79,7 +79,7 @@ Arvostuspäivämääräksi määritetään kulutuksen kirjauspäivämäärä (1.
 |02-01-20|Välitön kustannus|02-01-20|-150.00|2|2|  
 |02-15-20|Välitön kustannus|02-15-20|150.00|3|3|  
 
-## <a name="expected-cost-in-revaluation"></a>Oletettu kustannus uudelleenarvostuksessa
+## Oletettu kustannus uudelleenarvostuksessa
 
 Uudelleenarvostettava määrä on uudelleenarvostuspäivänä tai sitä ennen kirjaamasi kokonaan laskutettujen nimikkeiden määrän summa. Kun osa nimikkeistä on vastaanotettu tai toimitettu, mutta ei laskutettu, niiden varastoarvoa voi laskea. Vakio-arvostusmenetelmää käyttävät nimikkeet eivät ole tässä suhteessa rajoitettuja.  
 
@@ -92,7 +92,7 @@ Kun vakio-arvostusmenetelmää käyttävien nimikkeiden uudelleenarvostusmäär�
 - Arvotapahtuman, jonka tapahtumatyyppi on **Varianssi**. Tämä tapahtuma tallentaa laskutettujen kustannusten ja uudelleenarvostettujen vakiokustannusten välisen eron.  
 - Arvotapahtuman, jonka tapahtumatyyppi on **Uudelleenarvostus**. Tämä tapahtuma tallentaa oletetun kustannuksen uudelleenarvostuksen peruutuksen.
 
-### <a name="example-1"></a>Esimerkki
+### Esimerkki  
 
 Seuraava esimerkki perustuu ketjun tuotantoon edellisessä esimerkissä. Tässä esimerkissä havainnollistetaan, miten kolmen tyyppisiä tapahtumia luodaan seuraavan skenaarion perusteella:  
 
@@ -114,7 +114,7 @@ Seuraavassa taulukossa näytetään tulokset.
 |3.b.|01-15-20|Uudelleenarvostus|01-20-20|-150.00|0,00|1|4|  
 |3.c.|01-15-20|Vaihtelu|01-15-20|0.00|450.00|1|5|  
 
-## <a name="determine-whether-revaluation-affects-an-inventory-decrease"></a>Selvitä, vaikuttaako uudelleenarvostus varaston vähenemiseen
+## Selvitä, vaikuttaako uudelleenarvostus varaston vähenemiseen  
 
 Uudelleenarvostuksen tai tiliöinnin päivämäärää käytetään määrittämään, onko uudelleenarvostus vaikuttanut varaston vähenemiseen.  
 
@@ -129,7 +129,7 @@ Seuraavassa taulukossa esitetään kriteeri, jota käytetään nimikkeelle, joka
 |I|Myöhempi kuin uudelleenarvostustapahtuman nro|Vastaava kuin uudelleenarvostuksen kirjauspäivämäärä|Kyllä|  
 |N|Myöhempi kuin uudelleenarvostustapahtuman nro|Myöhempi kuin uudelleenarvostuksen kirjauspäivämäärä|Kyllä|  
 
-### <a name="example-2"></a>Esimerkki
+### Esimerkki  
 
 Seuraava esimerkki havainnollistaa FIFO-kustannuslaskentamenetelmää käyttävän kohteen uudelleenarvostusta. Esimerkki perustuu seuraavaan skenaarioon:  
 
@@ -160,7 +160,7 @@ Seuraavassa taulukossa on tuloksena saatavat arvotapahtumat.
 |N|04-01-20|Myynti|04-01-20|-1|-10.00|7|8|  
 ||04-01-20|Myynti|04-01-20|-1|2.00|7|12|  
 
-## <a name="wip-inventory-revaluation"></a>KET-varaston uudelleenarvostus
+## KET-varaston uudelleenarvostus  
 
 KET-varaston uudelleenarvostus tarkoittaa sitä, että uudelleenarvostetaan KET-varastona rekisteröityjä komponentteja.  
 
@@ -180,7 +180,7 @@ Voit arvostaa KET-varaston uudelleen seuraavissa olosuhteissa:
 > [!CAUTION]  
 > **Varaston arvostus - WIP** -raportti osoittaa tiliöityjen tuotantotilauskirjausten arvon ja voi siksi olla hieman sekava WIP-nimikkeiden suhteen, jotka on uudelleenarvostettu.  
 
-## <a name="revaluate-items-with-the-average-costing-method"></a>Uudelleen arvioi nimikkeet, joilla on keskimääräinen arvostusmenetelmä
+## Uudelleen arvioi nimikkeet, joilla on keskimääräinen arvostusmenetelmä
 
 Voit arvostaa uudelleen vain ne nimikkeet, jotka käyttävät keskimääräistä arvostusmenetelmää, jos **Laske per** -kohdan arvona on *Nimike*.
 
@@ -188,7 +188,7 @@ Voit tehdä uudelleenarvostuksen vain kauden lopussa, joka on valittu **Keskimä
 
 Uudelleenarvostus ei vaikuta negatiivisiin transaktioihin kuluvana kuukautena, minkä vuoksi kokonaan kohdistetut saapuvat tapahtumat eivät sisälly myöskään.
 
-### <a name="example-3"></a>Esimerkki
+### Esimerkki
 
 Tässä esimerkissä näkyy, mitä tapahtuu, kun varaston arvo lasketaan **Nimikkeen uudelleenarvostuspäiväkirja** -sivulla. **Varastonhallinnan asetukset** -sivulla **Nimike** valitaan **Keskim. kust. laskentatyyppi** -kentässä ja **Kuukausi** valitaan **Keskimääräisen kustannuksen jakso** -kentässä.
 
@@ -218,7 +218,7 @@ Seuraavien tapahtumien tulos on 0, riippumatta kirjauspäivämäärästä.
 13-05-23|Ostot|5|5.00|1
 26-04-23|Myynti|-5|5.00|2
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 
 [Rakennetiedot: Varaston kustannuslaskenta](design-details-inventory-costing.md)   
 [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)   

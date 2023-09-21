@@ -9,7 +9,7 @@ ms.search.form: '89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015'
 ms.date: 06/22/2021
 ms.author: bholtorf
 ---
-# <a name="project-management"></a>Projektinhallinta
+# Projektinhallinta
 
 [!INCLUDE[prod_short](includes/prod_short.md)]issa voi suorittaa yleisiä projektinhallinnan tehtäviä, kuten projektin määrittämistä ja resurssin aikatauluttamista, sekä budjettien hallinnassa ja projektin etenemisen valvonnassa tarvittavien tietojen antamista. Voit seurata projektin koneiden käyttötunteja ja työntekijöiden työtunteja käyttämällä aikaraportteja. Projektipäällikkönä saat hyvän yleiskuvan yksittäisten projektien lisäksi työntekijöiden varauksista sekä koneiden ja muiden resurssien käytöstä kaikissa projekteissa.
 
@@ -29,11 +29,11 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Kirjaa projektin keskeneräisen työn materiaalien, resurssien ja muiden kulujen kulutus. Tämän avulla voit valvoa taloudellista arvoa ja ylläpitää oikeita taloudellisia raportteja, vaikka kirjaat projektin kulut ennen projektin laskuttamista. |[Projektin edistymisen ja suorituskyvyn valvonta](projects-how-monitor-progress-performance.md) |
 | Kirjaa projektin kustannukset resurssin käytön, materiaalien ja projektiin liittyvien ostojen osalta jatkuvasti. Laskuta asiakasta projektin valmistuttua tai laskutusaikataulun mukaisesti. |[Projektien laskuttaminen](projects-how-invoice-jobs.md) |
 
-## <a name="get-started-with-projects"></a>Projektien käytön aloittaminen
+## Projektien käytön aloittaminen
 
 Projektinhallinta on jo sinänsä monimutkaista, ja projektien luonti- ja työn hallintaprosessin oppiminen uudessa työkalussa voi olla lisähaaste. Voit aloittaa projektinhallinnan käytön [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa katsomalla [töiden luontia käsittelevän videon](https://www.youtube.com/watch?v=VqaPWr7BWmw) [!INCLUDE[prod_short](includes/prod_short.md)] YouTube -kanavassa.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Projektinhallinnan määrittäminen](projects-setup-projects.md)  
 [Video: Projektin luonti Dynamics 365 Business Centralissa](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

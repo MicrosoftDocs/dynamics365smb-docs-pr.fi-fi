@@ -10,14 +10,14 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="create-and-set-up-a-shopify-account"></a>Shopify-tilin luominen ja määrittäminen
+# Shopify-tilin luominen ja määrittäminen
 
 Jos harkitset Shopifyn käyttämistä verkkokaupparatkaisunasi ja tarvitset Shopify-tilin integroidun työnkulun vahvistamiseen, saatavillasi on seuraavat vaihtoehdot:
 
 - Hanki kokeiluversio. Tämä on tavallinen aloituspiste loppukäyttäjille.  
 - Luo testikauppoja. Tämä lähestymistapa on tarkoitettu kumppaneille, jotka tarjoavat toistuvia esittelyitä, koulutusta ja tukea.
 
-## <a name="trial-end-user"></a>Kokeiluversio (loppukäyttäjä)
+## Kokeiluversio (loppukäyttäjä)
 
 Siirry [Shopify-sivustolle](https://www.shopify.com) ja rekisteröi maksuton kokeiluversio käyttämällä järjestelmänvalvojatilin sähköpostitiliä. Lisätietoja verkkokaupan luomisesta ja mukauttamisesta on [Shopifyn ohjekeskuksessa](https://help.shopify.com/).
 
@@ -36,7 +36,7 @@ Ota seuraavat **asetukset** käyttöön luodun kaupan **Shopify Admin** -sivulta
 > [!Important]  
 > Muista peruuttaa Shopify-kokeiluversio välttyäksesi maksuilta.
 
-## <a name="development-store"></a>Testikauppa
+## Testikauppa
 
 Aloita liittymällä [Shopify-kumppaniohjelmaan](https://help.shopify.com/partners/about). Käytä sen jälkeen **Partner Dashboard** -koontinäyttöä luodaksesi testikaupan. Lisätietoja on kohdassa [Testikauppojen luonti](https://help.shopify.com/partners/dashboard/managing-stores/development-stores).
 
@@ -53,7 +53,7 @@ Kun olet luonut kaupan, ota seuraavat **asetukset** käyttöön luodun kaupan **
 > [!Note]  
 > Kehittämisvarastot on yleensä suojattu salasanalla. Kun yrität avata tietyn verkkokauppasi sivun [!INCLUDE [prod_short](../includes/prod_short.md)]-ohjelmassa, esimerkiksi siirtyä tiettyyn tuotteeseen tai tilaukseen, sinun on kirjoitettava salasanasi. Kun testaat, sinun ei tarvitse syöttää salasanaasi, kun kirjaudut sisään Shopify-järjestelmänvalvojaasi ja avaat liikkeen sieltä. Sinun ei tarvitse syöttää liikkeen salasanaa, ennen kuin suljet selaimen tai istuntosi vanhenee.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Shopify-yhdistimen käytön aloittaminen](get-started.md)  
 [Vaihekuvaus: Shopify-yhdistimen määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-shopify.md)

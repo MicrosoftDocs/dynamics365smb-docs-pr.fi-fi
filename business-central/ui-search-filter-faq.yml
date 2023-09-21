@@ -2,13 +2,13 @@
 metadata:
   title: Tietoja hakemisesta ja suodattamisesta Business Central -sovelluksessa
   description: Vastaa hakemiseen ja suodattamiseen liittyviin usein kysyttyihin kysymyksiin.
-  author: mikebcMSFT
+  author: brentholtorf
   ms.topic: faq
   ms.reviewer: bholtorf
   ms.search.keywords: 'keyboarding, productivity, how do i, filter pane'
   ms.search.form: TellMe
   ms.date: 04/01/2021
-  ms.author: mikebc
+  ms.author: bholtorf
 title: Usein kysyttyjen kysymysten haku ja suodatus
 summary: Tässä artikkelissa on vastauksia Business Centralissa hakemiseen ja suodattamiseen liittyviin yleisiin kysymyksiin.
 sections:
