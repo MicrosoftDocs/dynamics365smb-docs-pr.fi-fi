@@ -11,11 +11,11 @@ ms.reviewer: bholtorf
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# [!INCLUDE[prod_short](includes/prod_short.md)]in Power BI -integrointiosa ja arkkitehtuurin yleiskatsaus
+# <a name="power-bi-integration-component-and-architecture-overview-for-"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in Power BI -integrointiosa ja arkkitehtuurin yleiskatsaus
 
 Tässä artikkelissa käsitellään Power BI:n ja [!INCLUDE[prod_short](includes/prod_short.md)]in integrointia eri tavoin, mikä auttaa ymmärtämään sen toteutusta ja käyttöä.
 
-## Komponentit
+## <a name="components"></a>Komponentit
 
 Seuraavassa taulukossa käsitellään Power BI -integraation keskeisiä komponentteja.
 
@@ -25,7 +25,7 @@ Seuraavassa taulukossa käsitellään Power BI -integraation keskeisiä komponen
 |Power BI Desktop|Raporttien ja koontinäyttöjen luontityökalu, jolla voi suorittaa raportteja. Sen voi ladata maksutta Microsoft Storesta ja se asennetaan paikallisesti.|
 |[!INCLUDE[prod_short](includes/prod_short.md)]|Online- tai paikallinen ratkaisu yhdistimineen on näkyvissä Power BI:ssa ja mahdollistaa Power BI -osan upotuksen.|
 
-## Käytettävissä heti
+## <a name="whats-available-from-the-start"></a>Käytettävissä heti
 
 Seuraavassa taulukossa käsitellään käytettävissä olevat ominaisuudet.
 
@@ -37,7 +37,7 @@ Seuraavassa taulukossa käsitellään käytettävissä olevat ominaisuudet.
 |Power BI:ssa näkyvät roolikeskusten Power BI -oletusraportit|Online|
 |Power BI -sovellukset Microsoft AppSourcessa|Online|
 
-## Arkkitehtuuri
+## <a name="architecture"></a>Arkkitehtuuri
 
 [!INCLUDE[prod_short](includes/prod_short.md)] integroidaan Power BI:n kanssa ODataa käyttävällä yhdistimellä. Power BI -raporttien tietolähde näkyy API-sivuina ja OData-verkkopalveluina.
 
@@ -45,7 +45,7 @@ Seuraavassa taulukossa käsitellään käytettävissä olevat ominaisuudet.
 
 Helmikuusta 2022 alkaen [!INCLUDE[prod_short](includes/prod_short.md)] Onlinen Power BI -raporttien lähteenä käytetään toissijaista vain luku -tilassa olevaa tietokantareplikaa. Tietokantareplika on osa [lukemisen skaalaus](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) -ominaisuutta [!INCLUDE[prod_short](includes/prod_short.md)] Onlinessa. Tämä määritys vapauttaa päätietokannan tapahtumia varten, mikä parantaa järjestelmän suorituskykyä. Yhteyden muodostaminen vain luku -tilassa olevaan tietokantareplikaan on osa Business Central Onlinen yhdistintä eikä vaadi sinulta lisämäärityksiä. Kaikki uudet raportit luovat oletusarvoisesti yhteyden vain luku -tilassa olevaan tietokantaan. Vanhat raportit käyttävät edelleen päätietokantaa. Lisätietoja: [Business Centralin vuoden 2021 julkaisuaallon 2 suunnitelma](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
 
-## Yleinen työnkulku
+## <a name="general-flow"></a>Yleinen työnkulku
 
 Seuraava kaavio näyttää käyttäjien perustyönkulun yhdistettäessä [!INCLUDE[prod_short](includes/prod_short.md)] Power BI:hin.
 
@@ -59,7 +59,7 @@ Seuraava kaavio näyttää käyttäjien perustyönkulun yhdistettäessä [!INCLU
 6. Käyttäjä luo raportin Power BI Desktopissa.
 7. Käyttäjä julkaisee raportin Power BI -palveluun. Raportit ovat sitten valittavissa [!INCLUDE[prod_short](includes/prod_short.md)]issa.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Business Central ja Power BI](admin-powerbi.md)  
 [Power BI kuluttajille](/power-bi/consumer/end-user-consumer)  

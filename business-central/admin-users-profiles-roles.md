@@ -10,7 +10,7 @@ ms.date: 01/11/2023
 ms.custom: bap-template
 ms.search.form: 9171
 ---
-# Käyttäjäprofiilien hallinta
+# <a name="manage-user-profiles"></a>Käyttäjäprofiilien hallinta
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -35,11 +35,11 @@ Lisätietoja käyttäjän asetuksista ja roolikeskuksista on kohdassa [Perusaset
 
 Käyttäjät on luotava ja lisättävä Microsoft 365 -hallintakeskuksessa, ennen kuin käyttäjäprofiileja voi hallita. Sen jälkeen voit määrittää käyttöoikeudet kullekin käyttäjälle tai käyttäjäryhmälle. Käyttöoikeudet määrittävät ominaisuudet, joita käyttäjät voivat käyttää. Lisätietoja on kohdassa [Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md).
 
-## Sivun mukauttaminen
+## <a name="page-customization"></a>Sivun mukauttaminen
 
 Voit mukauttaa profiilin sivuasettelua siten, että kaikki profiiliin määritetyt käyttäjät näkevät mukautetut sivut. Voit mukauttaa järjestelmänvalvojana sivuja samalla toiminnolla, jota käyttäjät käyttävät mukauttamiseen. Lisätietoja on kohdassa [Profiilien sivujen mukauttaminen](ui-personalization-manage.md).
 
-## Profiilin luominen
+## <a name="to-create-a-profile"></a>Profiilin luominen
 
 Jos et voi kopioida aiemmin luotua profiilia, voit luoda uuden profiilin manuaalisesti.
 
@@ -50,7 +50,7 @@ Jos et voi kopioida aiemmin luotua profiilia, voit luoda uuden profiilin manuaal
 > [!TIP]
 > Jos haluat tietyn profiilin olevan käytettävissä vain tietyillä käyttäjillä, voit määrittää **Kuvaus**-kentän arvoksi `Navigation menu only.`. Näin profiili jätetään pois käytettävissä olevien roolien luettelosta kohdassa **Omat asetukset**.
 
-## Profiilin kopioiminen
+## <a name="to-copy-a-profile"></a>Profiilin kopioiminen
 
 Voit säästää työaikaa luomalla uuden profiilin kopioimalla aiemmin luodun profiilin. Kopioi luontia varten profiili, jonka asetukset vastaavat haluamasi profiilin asetuksia.
 
@@ -61,14 +61,14 @@ Voit säästää työaikaa luomalla uuden profiilin kopioimalla aiemmin luodun p
 2. Täytä **Profiilin tunnus**- ja **Näyttönimi**-kentät ja valitse sitten **OK**-painike.
 3. Avaa **Profiilit (roolit)** -sivulla juuri luodun profiilin kortti ja muokkaa sitten tarvittaessa muita kenttiä.
 
-## Profiilin muokkaaminen
+## <a name="to-edit-a-profile"></a>Profiilin muokkaaminen
 
 Voit muokata profiilia muuttamalla **Profiili (rooli)** -sivun kenttiä. Muutokset eivät kuitenkaan näy käyttäjälle, joka on määrittänyt profiilin, ennen kuin hän kirjautuu ulos ja takaisin sisään.
 
 > [!Caution]
 > Älä nimeä profiilia uudelleen, kun profiilin käyttäjät ovat kirjautuneina. Käyttäjät voivat kokea, että tuote jumittuu ja että se on käynnistettävä uudelleen.
 
-## Profiilin määrittäminen käyttäjälle
+## <a name="to-assign-a-profile-to-a-user"></a>Profiilin määrittäminen käyttäjälle
 
 Käyttäjät voivat määrittää itselleen rooli (joka vastaa profiilia) valitsemalla **Rooli**-kentän **Omat asetukset** -sivulla. Voit tehdä järjestelmänvalvojana saman **Profiilit (roolit)** -sivulla.
 
@@ -79,7 +79,7 @@ Käyttäjät voivat määrittää itselleen rooli (joka vastaa profiilia) valits
 > [!NOTE]
 > Jos määrität käyttäjälle toisen profiilin, käyttäjän edelliseen profiiliin tekemät mukautukset säilytetään.
 
-## Profiilin käyttäjän asetusten määrittäminen
+## <a name="to-define-user-settings-for-a-profile"></a>Profiilin käyttäjän asetusten määrittäminen
 
 Käyttäjät voivat määrittää **Omat asetukset** -sivulla tilinsä perustoiminnan, kuten roolikeskuksen, kielen ja vastaanotettavat ilmoitukset. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).
 
@@ -90,7 +90,7 @@ Järjestelmänvalvojana voit määrittää profiilin asetukset. Asetukset koskev
 3. Avaa **Käyttäjän mukautukset** -sivulla sen käyttäjän kortti, jonka asetuksia haluat muuttaa.
 4. Muokkaa kenttiä tarvittaessa **Käyttäjän mukautuskortti** -sivulla.
 
-## Profiilin aktivointi
+## <a name="to-activate-a-profile"></a>Profiilin aktivointi
 
 Profiilia luodessasi voit valita onko profiili tietoineen käyttäjien käytettävissä, missä ne ovat käytettävissä ja miten ne ovat käytettävissä.
 
@@ -101,7 +101,7 @@ Valitse **Profiili (rooli)**-sivulla seuraavat valintaruudut:
 * **Mukauttamisen käytöstä poistaminen** määrittää, voivatko liittyvän rooli käyttäjät mukauttaa työtilaansa.
 * **Näytä roolin hallinta** -kohdassa, jos haluat määrittää, näytetäänkö profiiliin sisältyvissä liiketoimintatoiminnoissa toimintoja roolin hallinnan laajennetussa näkymässä. Lisätietoja on kohdassa [Sivujen etsiminen roolinhallinnalla](ui-role-explorer.md).
 
-## Profiilien vieminen
+## <a name="to-export-profiles"></a>Profiilien vieminen
 
 Voit viedä profiileja [!INCLUDE[prod_short](includes/prod_short.md)]:stä ja esimerkiksi käyttää niitä uudelleen toisessa vuokraajassa. Kaikki profiili viedään zip-tiedostoon, joka sisältää AL-tiedostot. Voit käyttää AL-tiedostoja uudelleen laajennusten kehittämiseksi. Lisätietoja on kohdassa [Profiilien ja sivun mukautusten luominen asiakasohjelman avulla](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
@@ -109,7 +109,7 @@ Voit viedä profiileja [!INCLUDE[prod_short](includes/prod_short.md)]:stä ja es
 
     Toiminto vie zip-tiedoston, joka sisältää kaikkien profiilien AL-tiedostot.
 
-## Profiilien tuominen
+## <a name="to-import-profiles"></a>Profiilien tuominen
 
 Voit tuoda profiileja, jotka on viety [!INCLUDE[prod_short](includes/prod_short.md)]:stä. Vaiheet ovat suunnilleen päinvastaiset kuin profiilien viemisessä. Lisätietoja on kohdassa [Profiilien vieminen](admin-users-profiles-roles.md#to-export-profiles).
 
@@ -121,7 +121,7 @@ Voit tuoda profiileja, jotka on viety [!INCLUDE[prod_short](includes/prod_short.
 
     Toiminto tuo zip-tiedoston, joka sisältää valittujen profiilien AL-tiedostot.
 
-## Profiilin poistaminen
+## <a name="to-delete-a-profile"></a>Profiilin poistaminen
 
 Voit poistaa profiilin valitsemalla **Poista**-toiminto **Profiilit (roolit)** -sivulla. Käytössä on kuitenkin seuraavat rajoitukset:
 
@@ -129,7 +129,7 @@ Voit poistaa profiilin valitsemalla **Poista**-toiminto **Profiilit (roolit)** -
 *-* Et voi poistaa laajennuksista peräisin olevia profiileja. Laajennuksen asennus on poistettava ensin.
 *-* Kerralla voi poistaa vain yhden profiilin.
 
-## Kaikkien käyttäjän tekemien mukautusten poistaminen
+## <a name="to-delete-all-personalizations-made-by-a-user"></a>Kaikkien käyttäjän tekemien mukautusten poistaminen
 
 Voit poistaa kaikki muutokset, jotka käyttäjä on tehnyt sivuille. Muutosten poistamisesta voi olla hyötyä esimerkiksi silloin, jos työntekijä on muuttanut roolia eikä enää tarvitse niitä. Poistaminen muuttaa sivun asettelun takaisin profiilin määrittämäksi asetteluksi.
 
@@ -144,7 +144,7 @@ Käyttäjä näkee muutokset kirjautuessaan sisään seuraavan kerran.
 
 Voit poistaa myös kaikki profiilin sivun mukautukset. Lisätietoja on kohdassa [Kaikkien profiilin mukautusten poistaminen](ui-personalization-manage.md#to-delete-all-customizations-for-a-profile).
 
-## Tiettyjen sivujen mukautusten poistaminen
+## <a name="to-delete-personalizations-for-specific-pages"></a>Tiettyjen sivujen mukautusten poistaminen
 
 Voit poistaa mukautuksia, joita yksi tai usea käyttäjä on tehnyt tietyille sivuille. Mukautusten poistaminen voi olla kätevää esimerkiksi silloin, jos liiketoimintaprosessin muutos tarkoittaa, että mukautusta ei voi käyttää. Poistaminen muuttaa sivun asettelun takaisin profiilin määrittämäksi asetteluksi.
 
@@ -161,13 +161,13 @@ Käyttäjä näkee muutokset kirjautuessaan sisään seuraavan kerran.
 
 Voit poistaa myös profiilin yksittäisiä sivun mukautukset. Lisätietoja on kohdassa [Profiilin tiettyjen sivujen mukautuksen poistaminen](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
 
-## Käyttäjäistuntojen hallinta
+## <a name="managing-user-sessions"></a>Käyttäjäistuntojen hallinta
 
 [!INCLUDE[prod_short](includes/prod_short.md)] Onlinen järjestelmänvalvojana voit hallita käyttäjäistuntoja hallintakeskuksessa. Lisätietoja on hallintasisällön kohdassa [Istuntojen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions).  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versiossa istuntoja voidaan hallita esimerkiksi SQL Server Management Studion avulla. Lisätietoja on kohdassa [SQL Serverin tekninen dokumentaatio](/sql/sql-server).  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Käyttöoikeuksien delegoiminen käyttäjille ja ryhmille](ui-define-granular-permissions.md)  
 [Profiilien sivujen mukauttaminen](ui-personalization-manage.md)  

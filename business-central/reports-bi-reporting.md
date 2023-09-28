@@ -11,7 +11,7 @@ ms.reviewer: bholtorf
 ms.date: 09/22/2022
 ms.author: kepontop
 ---
-# Business Intelligencen ja raportoinnin yleiskuva
+# <a name="business-intelligence-and-reporting-overview"></a>Business Intelligencen ja raportoinnin yleiskuva
 
 Pienet ja keskisuuret yritykset käyttävät valmista analytiikkaa ja raportointiominaisuuksia, joita ne voivat käyttää suoraan liiketoimintansa seuraamiseen. [!INCLUDE[prod_short](includes/prod_short.md)] tukee tällaisten organisaatioiden yleisiä liiketoimintaprosesseja sekä monimutkaisempia prosesseja. Jokainen näistä prosesseista sisältää raportteja ja analytiikkatyökaluja. Voit myös tehdä ad-hoc-analyysin suoraan aloitussivulla.  
 
@@ -26,7 +26,7 @@ Seuraava taulukko sisältää keskeiset liiketoimintatiedot ja raportointitoimin
 | Integroi ulkoiset liiketoimintatietotyökalut sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] kanssa.| [Ulkoiset liiketoimintatietotyökalut](reports-external-analysis.md) |
 |Muokkaa raporttiasetteluita tai kehitä omia raportteja alusta lähtien. |[Raporttien kehittäminen](reports-develop-reports.md)|
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Taloushallinnon liiketoimintatiedot](bi.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
