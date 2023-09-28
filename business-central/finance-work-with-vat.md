@@ -234,8 +234,6 @@ Voit tarkastella sertifikaattiryhmiä aloittamalla **Tarjontasertifikaatit**-siv
 > * Tarjontasertifikaatin luominen manuaalisesti  
 > * Tarjontasertifikaatin tulostaminen.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen](finance-setup-vat.md)  

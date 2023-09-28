@@ -92,8 +92,6 @@ Seuraavaksi selitetään, miten myyntialueen numerosarja määritetään. Myös 
 
 Valitulla numerolla täytetään kyseisen kortin tai asiakirjan **Nro**-kenttä numerosarjarivillä tehtyjen asetusten mukaisesti.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
-
 ## Katso myös
 
 [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  

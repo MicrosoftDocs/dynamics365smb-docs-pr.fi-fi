@@ -50,7 +50,7 @@ Käytä analyysinäkymiä, jotka olet jo määrittänyt **analyysi dimension muk
 > **Analyysinäkymä**-kortin Pvmtiivistys-kentässä määritettyä jaksoa lyhyempää jakson pituutta ei voi valita. **Seuraava joukko**- ja **Edellinen joukko** -komennot eivät ole käytettävissä, jos olet valinnut **Jakso**-vaihtoehdon **Näytä riveinä**- tai **Näytä sarakkeina** -kentässä.  
 
 > [!NOTE]  
-> **Dimensiot - Yksityiskohdat** -raportti sisältää yksityiskohtaisen luokittelun, josta näkyy, miten dimensioita on käytetty valitun jakson tapahtumissa. **Dimensiot - Yhteensä** -raporttia voidaan käyttää yhteissummien tarkastelemiseen.  
+> Voit käyttää **Dimensiot - Yksityiskohdat** -raporttia, kun haluat yksityiskohtaisen erittelyn siitä, miten dimensioita on käytetty tapahtumissa tietyn ajanjakson aikana. **Dimensiot - Yhteensä** -raporttia voidaan käyttää yhteissummien tarkastelemiseen.  
 
 > [!TIP]  
 > Voit muuttaa näkymää myös muuttamalla **Näytä riveinä**- ja **Näytä sarakkeina** -kenttien sisältöä. Voit peruuttaa näkymäasetukset **Muuta rivit ja sar. käänt.** -toiminnolla.
@@ -73,12 +73,10 @@ Seuraavan menettelyn avulla voit päivittää analyysinäkymän **Analyysi dimen
 > [!NOTE]  
 > Kun haluat päivittää joitakin tai kaikkia analyysinäkymiä samanaikaisesti, sinun täytyy käyttää **Päivitä analyysinäkymät** -eräajoa.  
 
-## Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
-
 ## Katso myös
 
-[Taloudelliset liiketoimintatiedot](bi.md)  
-[Rahoitus](finance.md)  
+[Taloushallinnon liiketoimintatiedot](bi.md)  
+[Taloushallinto](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
 [Dimensioiden käyttäminen](finance-dimensions.md)  

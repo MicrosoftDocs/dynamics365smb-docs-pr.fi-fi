@@ -45,11 +45,9 @@ Kun jatkettu kokeilujakso on päättynyt, voit [tilata](https://go.microsoft.com
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trial-dynamics-365-business-central/)
-
 ## Katso myös
 
-[Kokeilut ja tilaukset (vain englanniksi)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
+[Kokeiluversiot ja tilaukset (vain englanniksi)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Uusien yritysten luominen](about-new-company.md)  
 [Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner)  
 [Kokeiluversioiden jatkaminen (järjestelmänvalvojana)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  

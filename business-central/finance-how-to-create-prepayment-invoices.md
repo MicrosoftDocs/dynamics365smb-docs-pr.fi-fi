@@ -9,7 +9,7 @@ ms.date: 02/02/2023
 ms.custom: bap-template
 ms.search.form: '42, 50, 9305, 9307'
 ---
-# <a name="create-prepayment-invoices"></a>Ennakkomaksulaskujen luominen
+# Ennakkomaksulaskujen luominen
 
 Jos asiakkaiden on lähetettävä maksu, ennen kuin lähetät tilauksen heille, voit käyttää ennakkomaksuominaisuuksia. Näin voi toimia myös silloin, jos toimittaja edellyttää, että maksat ennen tilauksen toimittamista.  
 
@@ -19,7 +19,7 @@ Kun olet luonut myynti- tai ostotilauksen, voit luoda sille ennakkomaksun laskun
 
 Seuraavaksi käsitellään myyntitilauksen ennakkomaksun laskuttamista. Ostotilausten vaiheet ovat vastaavanlaiset.  
 
-## <a name="to-create-a-prepayment-invoice"></a>Ennakkomaksulaskun luominen
+## Ennakkomaksulaskun luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 2. Luo uusi myyntitilaus asianomaiselle asiakkaalle. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).  
@@ -70,15 +70,13 @@ Voit antaa muita tilauksen ennakkomaksulaskuja. Luo uusi lasku nostamalla yhden 
 
  Kun olet valmis kirjaamaan loput laskusta, kirjaa se kuten mikä tahansa lasku. Ennakkomaksusumma vähennetään automaattisesti erääntyvästä summasta.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Ennakkoon maksettujen tilausten ja laskujen tilan päivittäminen automaattisesti
+## Ennakkoon maksettujen tilausten ja laskujen tilan päivittäminen automaattisesti
 
 Voit nopeuttaa tilausten ja laskujen käsittelemistä määrittämällä työjonotapahtumat, jotka päivittävät kyseisten asiakirjojen tilan automaattisesti. Kun ennakkomaksulasku on maksettu, työjonotapahtumat voivat automaattisesti muuttaa asiakirjan tilan **odottavasta ennakkomaksusta** **lähetetyksi**. Kun määrität työjonon tapahtumia, koodiyksiköt, joita tarvitset, ovat **383 Upd. Pending Prepmt. Sales** ja **383 Upd. Pending Prepmt. Purchase**. On suositeltavaa ajoittaa tapahtumat suoritettavaksi usein, esimerkiksi joka minuutti. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-microsoft-training"></a>Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## Katso myös
 
-## <a name="see-also"></a>Katso myös
-
-[Ennakkomaksujen laskuttaminen](finance-invoice-prepayments.md)  
+[Laskutuksen ennakkomaksut](finance-invoice-prepayments.md)  
 [Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Rahoitus](finance.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

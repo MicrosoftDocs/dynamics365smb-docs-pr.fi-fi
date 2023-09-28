@@ -47,8 +47,6 @@ Näkyvissä ovat kaikki saapuvat asiakirjatietueet, eli myös ne tietueet, joide
 > [!NOTE]  
 > Voit tehdä tämän toiminnon yksittäiselle tietueelle **Saapuvan asiakirjan kortti** -sivulla.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Katso myös
   
 [Saapuvien asiakirja tietueiden luonti](across-how-create-income-document-records.md)

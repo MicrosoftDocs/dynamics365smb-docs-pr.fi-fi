@@ -17,11 +17,9 @@ Laajennus avustaa paikallisen ratkaisun ja [!INCLUDE [prod_short](includes/prod_
 
 Kun yhteys on määritetty, tiedot voidaan siirtää paikallisesta ratkaisusta [!INCLUDE[prod_short](includes/prod_short.md)] Onlineen. Tämä laajennus toimii yhdessä tietyn paikallisen ratkaisun tietojen replikointilaajennuksen kanssa. Lisätietoja on kohdassa [Pilvipalveluihin siirtymistyökalun suorittaminen](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/connect-intelligent-cloud-dynamics-365-business-central/)
-
 ## Katso myös
 
-[Pilvisiirto-työkalun suorittaminen](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
+[Pilvipalveluihin siirtymisen työkalun suorittaminen](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
 [Pilvisiirron älykkäät pilvilaajennukset](ui-extensions-data-replication.md)  
 
 

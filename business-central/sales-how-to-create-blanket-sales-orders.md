@@ -89,12 +89,10 @@ Linkki puitemyyntitilauksen ja alkuperäisen myyntiasiakirjan, sekä kaikkien mu
 
 5. Näytä tapahtuma valitsemalla **Näytä asiakirja** -toiminto **Myyntirivit**-sivulla.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Myynti](sales-manage-sales.md)  
-[Puitekokoonpanotilausten luominen](assembly-how-to-create-blanket-assembly-orders.md)  
+[Kokoonpanon puitetilausten luominen](assembly-how-to-create-blanket-assembly-orders.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

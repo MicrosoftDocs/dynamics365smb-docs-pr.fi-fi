@@ -140,8 +140,6 @@ Jos haluat määrittää todellisten kustannusten peruuttamisen manuaalisesti, s
 
 Lisätietoja on ohjeaiheessa [Rakenteen tiedot: Varaston arvostus](design-details-inventory-costing.md).
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/return-items-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Myynti](sales-manage-sales.md)  

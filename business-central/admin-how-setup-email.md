@@ -2,14 +2,12 @@
 title: Business Central -sovelluksen sähköpostin määrittäminen (sisältää videon)
 description: 'Tässä artikkelissa kuvataan, miten sähköpostitilit yhdistetään Business Centraliin, jotta voit lähettää lähteviä viestejä avaamatta toista sovellusta.'
 author: brentholtorf
+ms.author: bholtorf
 ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'SMTP, email, Office 365, connector'
 ms.search.form: '1805, 9813, 9814, 1262, 1263'
-ms.date: 07/17/2023
-ms.author: bholtorf
+ms.date: 09/13/2023
+ms.custom: bap-template
 ---
 
 # Määritä sähköposti
@@ -56,7 +54,9 @@ Seuraavassa taulukossa kuvataan oletusarvoisesti käytettävissä olevat sähkö
 Jos haluat käyttää SMTP-protokollaa sähköpostien lähettämiseen [!INCLUDE[prod_short](includes/prod_short.md)]sta, voit käyttää SMTP-yhdistinlaajennusta. Kun määrität SMTP-protokollaa käyttävän tilin, **Lähettäjän tyyppi** on tärkeä kenttä. Jos valitset **tietyn käyttäjän**, sähköpostit lähetetään käyttäen sen tilin nimeä ja muita tietoja, jota olet määrittämässä. Jos kuitenkin valitset **nykyisen käyttäjän**, sähköpostit lähetetään kullekin käyttäjätilille määritetyltä sähköpostitililtä. Valittu käyttäjä on samankaltainen kuin Lähetä toimintona. Lisätietoja: [Korvaavan lähettäjän osoitteen käyttäminen lähtevissä sähköpostiviesteissä](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
-> Jos käytössä on paikallinen [!INCLUDE[prod_short](includes/prod_short.md)], OAuth 2.0 -protokollan käyttö todennukseen on mahdollista. Sinun on luotava sovellusrekisteröinti Azure-portaalissa ja sitten suoritettava **Määritä Azure Active Directory** -asetusten ohjatun määrityksen opas [!INCLUDE[prod_short](includes/prod_short.md)]ssa muodostaaksesi yhteyden Azure AD:hen. Lisätietoja on kohdassa [Business Centralin sovelluksen rekisteröinnin luonti Azure-portaalissa](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Jos käytössä on paikallinen [!INCLUDE[prod_short](includes/prod_short.md)], OAuth 2.0 -protokollan käyttö todennukseen on mahdollista. Jotta OAuthia voitaisiin käyttää SMTP:lle, kaikkien käyttäjien on oltava samassa Microsoft Entra -vuokralaisessa. 
+> 
+> Sinun on luotava sovellusrekisteröinti Azure-portaalissa ja sitten suoritettava **Määritä Azure Active Directory** -asetusten ohjatun määrityksen opas [!INCLUDE[prod_short](includes/prod_short.md)]ssa muodostaaksesi yhteyden Azure AD:hen. Lisätietoja on kohdassa [Business Centralin sovelluksen rekisteröinnin luonti Azure-portaalissa](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
 > Exchange Online poistaa käytöstä perustodennuksen SMTP:lle. Tämä muutos ei vaikuta tällä hetkellä SMTP AUTH -todennusta käyttäviin vuokraajiin. Suosittelemme kuitenkin, että käytät [!INCLUDE [prod_short](includes/prod_short.md)] -ratkaisun uusinta versiota ja määrität OAuth 2.0-autentikoinnin   SMTP:lle. Emme lisää varmennepohjaista todennusta [!INCLUDE [prod_short](includes/prod_short.md)] -ratkaisun aiemmille versioille, esimerkiksi versiolle 14. Jos et voi määrittää OAuth 2.0 -todennusta, sinun kannattaa tutustua kolmannen osapuolen vaihtoehtoihin, jos haluat käyttää SMTP-sähköpostia aiemmissa versioissa.
 
@@ -273,8 +273,6 @@ Kun olet rekisteröinyt sovelluksen Azure-portaalissa, voit [!INCLUDE[prod_short
 18. The **Verify Registration** button becomes available. 
 
 -->
-
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-email/)
 
 ## Katso myös
 

@@ -24,13 +24,11 @@ Seuraavissa artikkeleissa kuvataan joitakin yrityksen tilan analysointiin liitty
 
 * [Todellisten summien analysointi budjetoituihin summiin nähden](bi-how-analyze-actual-versus-budget.md)  
 * [Talousraportoinnin valmisteleminen taloustietojen ja tililuokkien avulla](bi-how-work-account-schedule.md)  
-* [Taloudellisiin raportteihin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
-* [Tietojen analysointi dimensioiden mukaan](bi-how-analyze-data-dimension.md)  
+* [Talousraportteihin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
+* [Tietojen analysoiminen dimensioiden mukaan](bi-how-analyze-data-dimension.md)  
 * [Analyysiraporttien luominen](bi-how-create-analysis-views-reports.md)  
-* [Luo raportteja XBRL-linkityksellä.](bi-create-reports-with-xbrl.md)  
+* [Raporttien luominen XBRL:n avulla](bi-create-reports-with-xbrl.md)  
 * [Tietokannan käyttötarkoituksen hallinta](admin-data-access-intent.md)  
-
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
 ## Katso myös
 

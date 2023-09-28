@@ -49,8 +49,6 @@ Määritä tämä määrittämällä vastuupaikat käyttäjille kolmella toimint
 > [!NOTE]  
 > Käyttäjät voivat tarkastella vain omaan vastuukeskukseensa liittyviä kirjattuja asiakirjoja. He voivat kuitenkin tarkastella kaikkia kirjapintotapahtuma ja siirtyä muihin kirjattuihin asiakirjoihin kirjanpitotapahtumista.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-responsibility-centers/)
-
 ## Katso myös
 
 [Varaston määrittäminen](inventory-setup-inventory.md)  

@@ -91,11 +91,9 @@ Nyt järjestelmässä luodaan liittyvä nimike ja asiakastapahtumat. Myyntitilau
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-sales-documents-dynamics-365-business-central/).
-
 ## Katso myös
 
-[Myynnin laskutus](sales-how-invoice-sales.md)  
+[Lasku – myynti](sales-how-invoice-sales.md)  
 [Myynnin kirjaaminen](ui-post-sales.md)  
 [Nimikkeiden lähettäminen](warehouse-how-ship-items.md)  
 [Suoratoimitusten tekeminen](sales-how-drop-shipment.md)  

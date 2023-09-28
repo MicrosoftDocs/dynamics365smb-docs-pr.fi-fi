@@ -53,9 +53,7 @@ Seuraavassa taulukossa on esitetty liittyviä tehtäviä.
 |Määritä nimikkeen kortissa toimittajan tai asiakkaan oma nimikkeen kuvaus, jotta voit lisätä heidän nimikkeen kuvauksensa nopeasti kaupankäyntiasiakirjoihin.|[Käytä nimikeviittauksia](inventory-how-use-item-cross-refs.md)|
 |Estä nimikkeiden vienti myynti- tai ostoriveille tai sen kirjaaminen mihinkään tapahtumaan.|[Nimikkeiden estäminen](inventory-how-block-items.md)|
 |Hallitse myyntitoimistojen, osto-osastojen tai tehtaan suunnittelutoimistojen liiketoimintatoiminnoissa eri sijainneissa.|[Vastuupaikkojen käyttäminen](inventory-responsibility-centers.md)|
-|Käytä resursseja, joilla on erityistoimintoja, eri palveluille ja huoltonimikkeille.|[Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md)|
-
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/get-started-inventory-management/)
+|Käytä resursseja, joilla on erityistoimintoja, eri palveluille ja huoltonimikkeille.|[Resurssin kohdistuksen määrittäminen](service-how-setup-resource-allocation.md)|
 
 ## Katso myös
 

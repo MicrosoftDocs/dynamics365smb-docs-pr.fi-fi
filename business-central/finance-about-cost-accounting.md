@@ -68,12 +68,10 @@ Kirjanpidon budjetoinnin tavoin voit luoda budjetteja kustannusten suunnittelua 
 
 Useimmat raportit ja tilastot perustuvat kirjattuihin kustannustapahtumiin. Voit asettaa tulosten lajittelun ja suodattimien avulla määrittää, mitkä tiedot täytyy näyttää. Voit luoda raportteja kustannusanalyysin jakelua varten. Voit lisäksi käyttää vakiomuotoisia taloudellisia raportteja määrittääksesi miten raportit kustannustyyppikaaviossa näkyvät.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-cost-accounting-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Kustannuslaskenta](finance-manage-cost-accounting.md)  
-[Rahoitus](finance.md)  
+[Taloushallinto](finance.md)  
 [Termit kustannuslaskennassa](finance-terminology-in-cost-accounting.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -436,8 +436,6 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Kun Laitekauppa maksaa 18 tietokoneen vastaanotosta CRONUSista, myyntitilaus ja sen linkitetyt kokoonpanotilaukset poistetaan.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/assemble-items-dynamics-365-business-central/)
-
 ## Katso myös
 
  [Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista](assembly-assemble-to-order-or-assemble-to-stock.md)   

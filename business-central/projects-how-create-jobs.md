@@ -79,13 +79,11 @@ Projektin suunnittelurivin tyyppi voi olla jokin seuraavista tyypeistä.
 4. Täytä **Projektin suunnittelurivit** -sivun uuden rivin tarvittavat kentät.
 5. Toista vaiheet 3 ja 4 kaikille projektitehtävässä tarvittaville suunnitteluriveille.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-new-job/)
-
 ## Katso myös
 
-[Projektinhallinta](projects-manage-projects.md)  
+[Projektien hallinta](projects-manage-projects.md)  
 [Video: Projektin luonti Dynamics 365 Business Centralissa](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
-[Rahoitus](finance.md)  
+[Taloushallinto](finance.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Myynti](sales-manage-sales.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

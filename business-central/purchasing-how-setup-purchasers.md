@@ -29,8 +29,6 @@ Jos yrityksessäsi työskentelee useita ostajia, ne voidaan määrittää sivull
 2. Avaa sen toimittajan toimittajan kortti, jolle määritetään ostaja.
 3. Valitse **Ostajan koodi** -kentässä sopiva ostajan koodi ja sulje sivu.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md)  

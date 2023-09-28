@@ -70,8 +70,6 @@ Voit käyttää **Var.paikan luontityökirja** -sivua, jos sinut on määritetty
 
 Prosessi toistetaan toisen varastopaikkasarjan osalta, siihen asti kun fyysiseen varastoon on luotu kaikki varastopaikat.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-new-bins/)
-
 ## Katso myös
 
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)

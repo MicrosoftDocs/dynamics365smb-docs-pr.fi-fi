@@ -87,8 +87,6 @@ Microsoft-kumppanit ja -jälleenmyyjät voivat luoda sovelluksia, joita he voiva
 > [!NOTE]
 > Jos olet Microsoft-kumppani tai -jälleenmyyjä ja olet kiinnostunut tarjoamaan luettelon suositelluista sovelluksista, katso [Suositellut sovellukset AppSourcesta](/dynamics365/business-central/dev-itpro/administration/recommend-apps) -kohta hallintosisällössä.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/customize-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Sovellusten asentaminen ja asennusten poistaminen](ui-extensions-install-uninstall.md)  

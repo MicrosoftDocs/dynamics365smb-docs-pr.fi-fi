@@ -84,13 +84,11 @@ Voit tutkia kunnossapitokustannuksia myös tarkastelemalla kunnossapitotapahtumi
 2. Täytä tarvittavat kentät.
 3. Valitse **Tulosta**- tai **Esikatsele**-painike.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/manage-fixed-assets-maintenance-insurances/)
-
 ## Katso myös
 
 [Käyttöomaisuus](fa-manage.md)  
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
-[Rahoitus](finance.md)  
+[Taloushallinto](finance.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

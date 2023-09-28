@@ -45,8 +45,6 @@ Voit säästää aikaa lähettäessäsi asiakirja asiakkaan ja toimittajan yhtey
 1. Valitse **Asiakirjan asettelut** -sivulla **Valitse sähköpostiosoite kontakteista** -toiminto siltä raporttiasettelun riviltä, jonka haluat lähettää asiakkaan tietylle kontaktille.
 2. Valitse **Yhteyshenkilöt**-sivulla vähintään yksi yhteyshenkilö ja valitse sitten **OK**.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Päivitä mukautetut raporttiasettelut](ui-update-report-layouts.md)  

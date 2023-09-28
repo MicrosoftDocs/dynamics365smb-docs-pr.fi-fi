@@ -106,8 +106,6 @@ Kokoonpanon tuoterakenteen yksikkökustannus on aina yhtä suuri kuin sen kompon
 
 Kokoonpanon tuoterakenteen muodostavien nimikkeiden kustannukset kopioidaan osanimikekorteilta. Kunkin nimikkeen kustannus kerrotaan määrällä ja kokonaiskustannus lisätään kokoonpanon nimikekortin **Yksikkökustannus**-kenttään.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-assembly-items-dynamics-365-business-central/).
-
 ## Katso myös
 
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  

@@ -32,8 +32,6 @@ Kun olet määrittänyt varaston, voit hallita nimiketapahtumien liittyviä eril
 |Tuo useita nimikekuvia samalla kerralla zip-tiedostosta, jossa tiedostot on nimetty nimikenumeroiden mukaan.|[Useiden nimikekuvien tuominen](inventory-how-import-item-pictures.md)|
 |Määritä oletusraportteja, joita käytetään eri asiakirjatyypeille.|[Raporttien valinta Business Centralissa](across-report-selections.md)|
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/trade-get-started-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Varaston hallinta](inventory-manage-inventory.md)  

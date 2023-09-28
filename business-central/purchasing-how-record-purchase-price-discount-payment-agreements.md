@@ -139,8 +139,6 @@ Paras hinta on tietyn päivän alhaisin sallittu hinta, jolla on suurin sallittu
 
 Jos erikoishintaa ei voi laskea rivin nimikkeelle, joko viimeinen välitön kustannus tai nimikekortin yksikköhinta lisätään.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index)
-
 ## Katso myös
 
 [Ostojen määrittäminen](purchasing-setup-purchasing.md)  

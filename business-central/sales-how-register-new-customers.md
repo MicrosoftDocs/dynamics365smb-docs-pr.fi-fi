@@ -82,8 +82,6 @@ Voit valita, ettet saa varoitusta siitä, että asiakkaan luottoraja on ylitetty
     |**Erääntynyt saldo**|**Erääntynyt saldo** -kenttä asiakkaan kortilla on valittuna ja jos asiakkaalla on erääntyneitä saldoja, näytetään varoitus.|
     |**Ei varoitusta**|Asiakkaan tilasta ei näytetä luottovaroituksia.|
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trade-master-data-dynamics-365-business-central/).
-
 ## Katso myös
 
 [Maksutapojen määrittäminen](finance-payment-methods.md)  

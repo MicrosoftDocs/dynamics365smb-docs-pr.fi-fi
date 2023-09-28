@@ -345,12 +345,10 @@ Jos haluat nähdä, mitä mittayksikköä kesto-kentässä käytetään, syötä
 
 Jos mittayksikkö on esimerkiksi Tunnit, numero 5 muunnetaan 5 tunniksi.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/explore-modify-info-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
-[Ostojen päivämäärälaskenta](purchasing-date-calculation-for-purchases.md)  
+[Ostojen päivämäärien laskeminen](purchasing-date-calculation-for-purchases.md)  
 [Ehtojen antaminen suodattimiin](ui-enter-criteria-filters.md)  
 
 

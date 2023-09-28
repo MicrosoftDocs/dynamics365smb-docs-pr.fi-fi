@@ -56,12 +56,10 @@ Seuraava toimenpide perustuu asiakaskorttiin. Toimittajan ja kontaktin korttien 
 > [!NOTE]
 > Voit etsiä kontaktien kaksoiskappaleet toiminnolla ennen **Yhdistä kaksoiskappale** -sivun käyttämistä. Lisätietoja on kohdassa [Kontaktien kaksoiskappaleiden hakeminen](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Myynti](sales-manage-sales.md)  
-[Kontaktien määrittäminen](marketing-setup-contacts.md)  
+[Yhteyshenkilöiden määrittäminen](marketing-setup-contacts.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

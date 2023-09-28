@@ -56,11 +56,9 @@ Seuraavassa kuvataan, miten huoltonimikkeitä luodaan myyntitilauksissa olevia n
 
     Ohjelma lisää **Kustannus**-tyypin huoltorivin, jolla on aloitusmaksu. Tämä aloitusmaksu koskee valittua huoltonimikettä.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-items/)
-
 ## Katso myös
 
-[Huoltonimikkeiden ja huoltonimikkeen komponenttien määrittäminen](service-how-setup-service-items.md)  
+[Huoltonimikkeiden ja huoltonimikkeiden komponenttien määrittäminen](service-how-setup-service-items.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
 [Huoltohallinto](service-service.md)  
 

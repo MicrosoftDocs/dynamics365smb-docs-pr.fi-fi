@@ -181,11 +181,9 @@ Kun palautustilaukset yhdistetään hyvityslaskuun ja kirjataan, laskutetuista r
 2. Täytä tarvittavat kentät ja valitse sitten **OK**-painike.  
 3. Voit poistaa yksittäiset ostopalautustilaukset myös manuaalisesti.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/return-items-dynamics-365-business-central/)
-
 ## Katso myös
 [Osto](purchasing-manage-purchasing.md)  
-[Ostojen kirjaus](purchasing-how-record-purchases.md)  
+[Ostojen kirjaaminen](purchasing-how-record-purchases.md)  
 [Maksamattomien ostolaskujen korjaaminen tai peruuttaminen](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Myynnin palautusten tai peruutusten käsittely](sales-how-process-sales-returns-cancellations.md)  

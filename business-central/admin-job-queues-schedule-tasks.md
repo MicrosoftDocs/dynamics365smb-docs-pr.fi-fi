@@ -37,6 +37,14 @@ Kun työjonot on määritetty ja käytössä, tila voi muuttua seuraavasti kunki
 
 Kun työ on valmis, se poistetaan työjonotapahtumien luettelosta, ellei se ole toistuva työ. Toistuvien töiden yhteydessä **Aloituspvm ja -aika** -kentän arvo muokataan näyttämään seuraava aika, jolloin työ suoritetaan.  
 
+## Aikaisin aloituspvm
+
+**Työjonon tapahtumakortti** -sivun **Varhaisin alkamispvm/aika** -kentän arvo näyttää, milloin työ seuraavan kerran suoritetaan. On useita tekijöitä, jotka voivat vaikuttaa siihen, suoritetaanko työjonotapahtuma silloin.
+
+Yleisimmät tekijät ovat työjonon tapahtumien määrä ympäristössä ja ajoitettujen tehtävien kokonaismäärä. Suoritustasojen suojaamiseksi on asetettu toimintarajoja. Jos jonossa on paljon tapahtumia, ja jos esimerkiksi yksi niistä epäonnistuu tai tapahtumat vain vievät odotettua kauemmin, seuraava työ ei ehkä käynnisty oletettuna ajankohtana. Jos sinulla on koodiyksiköitä, jotka tuottavat vähintään 100 000 suunniteltua tehtävää, sinun on tutkittava tarvitsetko kaikki nämä tehtävät. Voit tarkastella kaikkien aikataulutettujen tehtävien luetteloa **Aikataulutetut tehtävät** -sivulla.
+
+Lisätietoja työjonotapahtumien tilan valvonnasta on kohdassa [Minkä tahansa työn tilan tarkastelu](#to-view-status-for-any-job). Lisätietoja toimintarajoituksista saat kohdasta [Asynkroniset tehtävärajat](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Task).
+
 ## Työjonon tilan tai virheiden seuraaminen
 
 Työnjonon luomat tiedot tallennetaan, jotta voit tehdä virheiden vianmäärityksen.  

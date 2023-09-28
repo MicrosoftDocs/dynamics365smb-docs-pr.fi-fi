@@ -167,11 +167,9 @@ Voit poistaa myös profiilin yksittäisiä sivun mukautukset. Lisätietoja on ko
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versiossa istuntoja voidaan hallita esimerkiksi SQL Server Management Studion avulla. Lisätietoja on kohdassa [SQL Serverin tekninen dokumentaatio](/sql/sql-server).  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/users-security-dynamics-365-business-central/)
-
 ## Katso myös
 
-[Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md)  
+[Käyttöoikeuksien delegoiminen käyttäjille ja ryhmille](ui-define-granular-permissions.md)  
 [Profiilien sivujen mukauttaminen](ui-personalization-manage.md)  
 [Työtilan mukauttaminen](ui-personalization-user.md)  
 

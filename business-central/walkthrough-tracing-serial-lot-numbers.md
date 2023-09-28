@@ -297,12 +297,10 @@ Seuraavaksi näille kahdelle nimikkeelle luodaan osto-, tuotanto- ja myyntitilau
 
  **Etsi tapahtumat**- ja **Nimikkeen jäljitys** -sivujen käytön integrointia vikojen hallinnassa käsittelevä vaihekuvaus on nyt käyty läpi.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-serial-lot-numbers/)
-
 ## Katso myös
 
 [Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md)  
-[Nimikeseurannan nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)  
+[Nimikeseurannassa olevien nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)  
 [Etsi tapahtumat](ui-find-entries.md)  
 [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)  
 

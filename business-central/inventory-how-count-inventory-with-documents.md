@@ -242,8 +242,6 @@ Eri vaiheissa tulostettavat raportit voidaan määrittää valitsemalla jokin se
 > [!NOTE]
 > Käytettävissä olevat raportit voivat vaihdella maan tai alueen lokalisoinnin mukaan. Perussovellus ei sisällä asetteluja.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/adjust-inventory/)
-
 ## Katso myös
 
 [Varaston laskeminen, muuttaminen ja uudelleenluokitus käyttämällä päiväkirjoja](inventory-how-count-adjust-reclassify.md)  

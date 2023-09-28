@@ -107,8 +107,6 @@ Valitsemalla *Muuta asetusta, milloin saan ilmoituksia* -linkin voit tarkastella
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/personalize-ui-dynamics-365-business-central/index)
-
 ## Katso myös
 
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -11,11 +11,9 @@ ms.search.form: '436, 437, 442, 431, 432, 434'
 ms.date: 02/09/2022
 ms.author: bholtorf
 ---
-# Lähetä muistutuksia avoimista saldoista
+# Avoimia saldoja koskevien muistutusten lähettäminen
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
-
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
 ## Katso myös
 

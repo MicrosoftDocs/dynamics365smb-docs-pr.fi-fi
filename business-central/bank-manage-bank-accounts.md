@@ -32,12 +32,10 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 > [!TIP]
 > Pankkitilin täsmäytyksen avulla voi varmistaa, että kirjat ovat ajan tasalla ja että täsmäytystä ei kirjata, ennen kuin olet tyytyväinen täsmäytykseen.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  
-[Pankkitilien täsmäytys](bank-how-reconcile-bank-accounts-separately.md)  
+[Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md)  
 [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Siirrä pankkivarat](bank-how-transfer-bank-funds.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  

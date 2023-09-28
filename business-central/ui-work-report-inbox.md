@@ -47,13 +47,11 @@ Raporttien jakaminen yhteistyökumppaneiden kanssa on mahdollista myös **Saapun
 >
 > **Jaa**-toiminnon käyttäminen määrittää luodun raporttitiedoston muiden käyttäjien saataville vain OneDrive for Businessissa. Se ei määritä ajoitettua raporttia heidän **Saapuneet raportit** -kohdan luetteloon.
 
-## Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/build-reports/).
-
 ## Katso myös
 
-[Suorita ja tulosta raportteja](ui-work-report.md)  
+[Raporttien suorittaminen ja tulostaminen](ui-work-report.md)  
 [Käytettävissä olevat raportit kohteessa [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
-[Raporttien käyttö päivittäisessä työssä](reports-use-reports.md)  
+[Raporttien käyttäminen päivittäisessä työssä](reports-use-reports.md)  
 [Business Intelligencen ja raportoinnin yleiskuva](reports-bi-reporting.md)  
 [Tulostimien määrittäminen](ui-specify-printer-selection-reports.md)  
 [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md)  

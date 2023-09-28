@@ -46,8 +46,6 @@ Kun olet määrittänyt hyväksynnän käyttäjät, voit määrittää työnkulu
 
 Seuraava askel on määrittää, miten haluat [!INCLUDE [prod_short](includes/prod_short.md)]in ilmoittavan käyttäjille, että pyyntö on odottamassa heidän huomiotaan. Lisätietoja: [Hyväksyntätyönkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md).
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
-
 ## Katso myös
 
 [Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md)  

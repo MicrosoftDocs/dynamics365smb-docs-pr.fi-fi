@@ -3,7 +3,7 @@ title: 'Projektien, hintojen ja projektin kirjausryhmien määrittäminen'
 description: Tietoja töiden yleistietojen luomisesta.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/25/2023
 ms.custom: bap-template
@@ -98,8 +98,6 @@ Yksi näkökulma projektien suunnittelussa on sen päättäminen, mitä kirjaust
 | **Projektin myynnin muutostili** |KET-myyntitilin vastatili, joka on tuottotili. | Kertynyt myynti|
 | **Tuloutettujen kustannusten tili** |Kustannustili, joka sisältää projektin tuloutetut kustannukset. Yleensä tili on debetkustannustili. | Tuloutetut kustannukset|
 | **Tuloutetun myynnin tili** |Tulotili, joka sisältää projektin tuloutetut tuotot. Yleensä tili on kredittulotili. | Tuloutettu myynti|
-
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-jobs-resources/)
 
 ## Katso myös
 

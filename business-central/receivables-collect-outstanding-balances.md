@@ -107,11 +107,9 @@ Kun lähetät muistutuksen, muistutustapahtuma luodaan **Muistutus-/viivästysku
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)]Lisätietoja on kohdassa [Useiden korkoprosenttien määrittäminen](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
-
 ## Katso myös
 
-[Muistutusehtojen ja -tasojen määrittäminen](finance-setup-reminders.md)  
+[Muistutusehtojen ja -tasojen määrittäminen.](finance-setup-reminders.md)  
 [Viivästyskuluehtojen määrittäminen](finance-setup-finance-charges.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Myynti](sales-manage-sales.md)  

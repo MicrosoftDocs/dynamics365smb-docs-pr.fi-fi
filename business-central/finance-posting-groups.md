@@ -126,8 +126,6 @@ Kun jotain on vialla, [!INCLUDE[prod_short](includes/prod_short.md)] -näyttöö
 > [!NOTE]
 > Yllä kuvattu virheen käsittely ei ole käytettävissä nimike-, resurssi-, työntekijä- ja käyttöomaisuuspäiväkirjoissa tai KP-tileissä, jotka on lisätty kirjausryhmien paikallisiin versioihin.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/posting-groups-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  

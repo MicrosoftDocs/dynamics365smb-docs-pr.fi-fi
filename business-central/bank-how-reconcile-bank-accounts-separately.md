@@ -239,8 +239,6 @@ Jos teet seuraavan pankkitäsmäytyksen elokuun osalta, harkitse arvojen muuttam
 
 Tämä virhe tapahtuu usein, kun syötät avaussaldon pankkitilille. On tärkeää, että et kirjaa alkusaldoa suoraan pääkirjanpitoon. KP-tilin tapahtumat, jotka kirjataan suoraan KP-tilille, aiheuttavat ongelmia. Nämä tapahtumat voivat esimerkiksi estää sinua täsmäyttämästä pankkitiliäsi. Ulkomaan valuutan pankkitileille tapahtumat voivat aiheuttaa eroja kertymiseen sen jälkeen, kun olet kirjannut lisää pankkitäsmäytyksiä valuutanvaihtokurssien muutosten vuoksi. Usein pankin avaussaldo kirjataan suoraan pankkitilille, ja summa päätyy KP-tiliin. Voit vaihtoehtoisesti kumota sen myöhemmin sellaisen KP-tilin osalta, jota käytät pääkirjanpidon avaussaldon tasapainottamista varten. Molemmissa tapauksissa sinun on tasapainotettava mahdolliset suorat kirjaukset KP-tiliin ennen ensimmäisen pankkitäsmäytyksen aloittamista ja erityisesti silloin, kun pankkitili käyttää ulkomaan valuuttaa.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
-
 ## Katso myös
 
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  

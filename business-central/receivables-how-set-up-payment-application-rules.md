@@ -74,8 +74,6 @@ Seuraavassa taulukossa kuvataan [!INCLUDE[prod_short](includes/prod_short.md)]in
 | Heikko              | 4        | Ei                    | Ei                             | Yksi vastaavuus                      |
 | Heikko              | 5        | Ei                    | Ei                             | Useita vastaavuuksia               |
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
-
 ## Katso myös
 [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  

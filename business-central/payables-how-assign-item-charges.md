@@ -95,13 +95,11 @@ Voit käsitellä osittaisen vastaanoton nimikekustannuksia **Nimikekulujen mää
 
 Kun olet valmis käsittelemään puuttuvan nimikkeen, päivitä **Käsiteltävä määrä** -kenttä ja kirjaa tilaus.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Ostovelkojen hallinta](payables-manage-payables.md)  
-[Ostojen kirjaus](purchasing-how-record-purchases.md)  
-[Myynnin laskutus](sales-how-invoice-sales.md)  
+[Ostojen kirjaaminen](purchasing-how-record-purchases.md)  
+[Lasku – myynti](sales-how-invoice-sales.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

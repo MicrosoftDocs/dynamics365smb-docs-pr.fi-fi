@@ -59,8 +59,6 @@ Seuraava kaavio näyttää käyttäjien perustyönkulun yhdistettäessä [!INCLU
 6. Käyttäjä luo raportin Power BI Desktopissa.
 7. Käyttäjä julkaisee raportin Power BI -palveluun. Raportit ovat sitten valittavissa [!INCLUDE[prod_short](includes/prod_short.md)]issa.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
 ## Katso myös
 
 [Business Central ja Power BI](admin-powerbi.md)  

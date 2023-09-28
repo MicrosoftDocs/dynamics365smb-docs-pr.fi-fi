@@ -70,13 +70,11 @@ Voit luoda **Luo toistuvia myyntilaskuja** -eräajolla myyntilaskuja asiakkaille
 
 Myyntilaskut luodaan asiakkaille, joilla on määrätty asiakkaan vakiomyyntikoodi ja jotkut määritetyt suoraveloitustiedot kirjaamista varten määrättynä päivämääränä.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
-[Toistuvien ostorivien luonti](purchasing-how-work-recurring-purchase-lines.md)  
+[Toistuvien ostorivien luominen](purchasing-how-work-recurring-purchase-lines.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

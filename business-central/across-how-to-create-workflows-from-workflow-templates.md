@@ -29,12 +29,10 @@ Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riv
    Uuden työnkulun avautuvalla **Työnkulku**-sivulla on kaikki valitun mallin tiedot. **Koodi**-kentän arvoon liitetään esimerkiksi ”-01”, joka osoittaa, että kyseessä on ensimmäinen työnkulkumallista luotu työnkulku.  
 4. Jatka työnkulun luontia muokkaamalla työnkulun vaiheita tai lisäämällä uusia vaiheita. Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
-
 ## Katso myös
 
-[Luo hyväksymistyönkulut](across-how-to-create-workflows.md)  
-[Hyväksyntätyönkulkujen vienti ja tuonti](across-how-to-export-and-import-workflows.md)  
+[Hyväksymistyönkulkujen luominen](across-how-to-create-workflows.md)  
+[Hyväksymistyönkulkujen vieminen ja tuominen](across-how-to-export-and-import-workflows.md)  
 [Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen](across-how-to-view-archived-workflow-step-instances.md)  
 [Hyväksymistyönkulkujen poistaminen](across-how-to-delete-workflows.md)  
 [Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  

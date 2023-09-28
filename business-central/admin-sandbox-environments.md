@@ -3,7 +3,7 @@ title: Eristysympäristöt
 description: 'Lisätietoja siitä, miten erillisen ympäristön avulla voit turvallisesti tutkia, oppia, esitellä, kehittää, ratkaista ja testata Business Centralin ominaisuuksia.'
 author: brentholtorf
 ms.topic: conceptual
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -63,8 +63,6 @@ Sandbox-ympäristössä on **Rakennenäkymä** käytössä. Voit aktivoida Suunn
 Lisätietoja on kehittäjä- ja järjestelmänvalvojasisällön kohdassa [Suunnitteluohjelman käyttäminen ](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) (vain englanniksi).  
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
-
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## Katso myös
 

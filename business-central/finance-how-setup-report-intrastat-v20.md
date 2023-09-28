@@ -170,8 +170,6 @@ Monissa maissa ja monilla alueilla tulli- ja veroviranomaiset määrittävät ka
 
 Lisää **Tavaranimikkeet**-sivulle kaikki koodit, joita käytät. Koodit täytyy syöttää nimikekortille ennen kirjauksen aloittamista. Kun olet määrittänyt koodit, syötä ne **Tavaranimike**-kenttään. kenttä nimikekortissa. Sinun täytyy myös täyttää **Nettopaino**-kenttä nimikekortilla.
 
-## Lisätietoja aiheeseen liittyvästä koulutuksesta on [Microsoft Learnissa](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## Katso myös
 
 [Taloushallinto](finance.md)

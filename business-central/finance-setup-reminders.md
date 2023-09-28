@@ -92,8 +92,6 @@ Jos luot enemmän muistutuksia kuin mille olet määrittänyt tasoja, ohjelma k�
 
 Kun olet määrittänyt muistutusehdot sekä lisätasot ja tekstin, määritä jokin koodeista kussakin asiakkaan kortissa. Lisätietoja on kohdassa [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md).  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/send-reminders-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)  

@@ -42,8 +42,6 @@ Tässä videossa kerrotaan, miten määritetään työnkulku, joka edellyttää 
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
-
 ## Katso myös
 
 [Hyväksymistyönkulkujen käyttäminen](across-use-workflows.md)  

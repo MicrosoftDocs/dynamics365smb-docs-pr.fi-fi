@@ -115,13 +115,11 @@ Tapahtumia voidaan kopioida poistokirjasta toiseen käyttämällä **Kopioi pois
 
 Kopioidut rivit luodaan joko käyttöomaisuuden KP-päiväkirjassa tai käyttöomaisuuspäiväkirjassa sen mukaisesti, onko kopioitava poistokirja integroitu pääkirjanpitoon.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/calculate-post-depreciations/)
-
 ## Katso myös
 
 [Käyttöomaisuus](fa-manage.md)  
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
-[Rahoitus](finance.md)  
+[Taloushallinto](finance.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

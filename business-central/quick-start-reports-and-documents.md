@@ -64,11 +64,9 @@ Luotu raporttitiedosto tallentuu automaattisesti selaimen latauskansioon.
 
 Lisätietoja raporttien ja asiakirjojen mukauttamisesta liiketoimintatarpeisiin kohdassa [Raportti- ja asiakirja-asettelut](ui-manage-report-layouts.md).
 
-## Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/work-with-reports/).
-
 ## Katso myös
 
-[Raporttien käyttö päivittäisessä työssä](reports-use-reports.md)  
+[Raporttien käyttäminen päivittäisessä työssä](reports-use-reports.md)  
 [Käytettävissä olevat raportit kohteessa [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
 [Asiakirjaraporttien valinta](across-report-selections.md)  
 [Business Centralin pika-aloitus](quick-start-business-central.md)  

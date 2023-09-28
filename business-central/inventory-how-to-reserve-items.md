@@ -101,12 +101,10 @@ Seuraava toimenpide perustuu myyntitilaukseen.
 7. Valitse **OK**, jos haluat avata vain määritettyjen nimikkeen seurantanumeroiden tarjonnan näyttävän **Varaus**-sivun. Jos jollakin tälle riville määritetyllä nimikkeen seurantanumerolla on määrittämättömiä varauksia, saat ilmoituksen varatusta määrästä.  
 8. Luo tiettyjen nimikkeen seurantanumeroiden varaus valitsemalla joko **Automaattinen varaus**- tai **Varaa nykyiseltä riviltä** -toiminto.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-outbound-serial-lot-numbers/)
-
 ## Katso myös
 
 [Varasto](inventory-manage-inventory.md)  
-[Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys](design-details-reservation-order-tracking-and-action-messaging.md)  
+[Rakennetiedot: Varaus, tilauksen seuranta ja toimintojen viestintä](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Rakennetiedot: nimikkeen seuranta ja varaukset](design-details-item-tracking-and-reservations.md)  
 [Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

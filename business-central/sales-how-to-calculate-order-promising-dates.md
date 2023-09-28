@@ -128,12 +128,10 @@ Nimike on merkittävä kriittiseksi, ennen kuin sen voi sisällyttää toimituks
     - Valitse **Mahdollinen luvattavaksi**, jos tiedät, että nimikettä ei ole nyt varastossa, ja jos haluat ohjelman laskevan aikaisimman päivämäärän, jolloin nimike voi olla saatavilla, lähettämällä uusia täydennyshankintoja.  
 5.  Valitse **Hyväksy** -painike hyväksyäksesi aikaisimman mahdollisimman lähetyspäivämäärän.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Myynti](sales-manage-sales.md)  
-[Ostojen päivämäärälaskenta](purchasing-date-calculation-for-purchases.md)  
+[Ostojen päivämäärien laskeminen](purchasing-date-calculation-for-purchases.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

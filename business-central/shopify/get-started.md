@@ -59,7 +59,9 @@ Toista vaiheet 2-6 kaikille verkkokaupoille, jotka haluat yhdistää.
 ### Tunnetut ongelmat
 
 - Selain estää ponnahdusikkunan. Kun **otat käyttöön** -vaihtonäppäimen [!INCLUDE [prod_short](../includes/prod_short.md)] avaa **Odotetaan vastausta - Älä sulje tätä sivua** -sivun, kun se odottaa Shopifyn käyttöoikeustunnusta. Jos sivu on suljettu tai estetty, et voi muodostaa yhteyttä Shopifyhin. Lisätietoja on kohdassa [pyydä käyttöoikeustunnusta](troubleshoot.md#request-the-access-token)
+- Olisi hyvä, jos Shopify-järjestelmänvalvoja avattaisiin samassa selaimessa kuin [!INCLUDE [prod_short](../includes/prod_short.md)]
 - [Virhe: Oauth-virhe invalid_request: Shopify-sovellusrajapintasovellusta ei löytynyt haulla api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
+- [Virhe: Oauth-virheen invalid_request: tililläsi ei ole lupaa myöntää pyydettyä käyttöoikeutta tälle sovellukselle.](troubleshoot.md#error-oauth-error-invalid_request-your-account-does-not-have-permission-to-grant-the-requested-access-for-this-app)
 - [Yhteyttä ei voi muodostaa eritysympäristöstä](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
 ## Seuraavat vaiheet
@@ -108,8 +110,6 @@ Jos pidät **Salli tietojen synkronointi Shopifyhin** -vaihtonäppäimen käytö
 
 *   Valitse **Luo tuote -määritteen tila** -kentässä **luonnos**, jos haluat varmistua siitä, että viedyt tuotteet eivät ole ostajien saatavilla. Voit tarkistaa, miltä tuotteet näyttävät verkkokaupassa, ja synkronoida hinnat, optiot ja varastomäärät. Varmista vain, että käytät suodattimia **Lisää nimike Shopifyhin** -sivulla, kun haluat rajoittaa vietävien nimikkeiden määrää.
 * Ota **Vie asiakas Shopifyhin** -vaihtonäppäin pois käytöstä, jotta et lähetä asiakkaita Shopifyhin.
-
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-shopify-connector-dynamics-365-business-central/)
 
 ## Katso myös
 

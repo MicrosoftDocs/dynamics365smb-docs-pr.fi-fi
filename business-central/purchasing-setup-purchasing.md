@@ -70,8 +70,6 @@ Kun toiminto on käytössä, palautustapahtuma voidaan kirjata vain määrittäm
 | Määritä oletusraportteja, joita käytetään eri asiakirjatyypeille. |[Raporttien valinta Business Centralissa](across-report-selections.md)|
 |Määritä, voivatko käyttäjät kirjata ostolaskuja ja pitäisikö heidän kirjata ne yhdessä toimituksen kanssa. |[Laskun kirjauskäytännön määrittäminen käyttäjille](admin-setup-invoice-posting-policy.md)|
 
-## Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/trade-get-started-dynamics-365-business-central/).
-
 ## Katso myös
 
 [Osto](purchasing-manage-purchasing.md)  

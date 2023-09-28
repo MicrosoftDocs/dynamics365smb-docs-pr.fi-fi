@@ -109,12 +109,10 @@ Käytä joukkotuonnissa määrityspaketteja tietojen tuomiseen päiväkirjoihin.
 > [!NOTE]
 > Et voi käyttää **Muokkaa Excelissä** -toimintoa luodaksesi päiväkirjarivejä, joissa on seurantatietoja.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepare-item-tracking/)
-
 ## Katso myös
 
 [Sarja- ja eränumeroiden käsitteleminen](inventory-how-work-item-tracking.md)  
-[Nimikeseurannan nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)  
+[Nimikeseurannassa olevien nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Rakennetiedot: Nimikkeen seuranta](design-details-item-tracking.md)  
 [Rakennetiedot – nimikkeen seuranta ja varaukset](design-details-item-tracking-and-reservations.md)  

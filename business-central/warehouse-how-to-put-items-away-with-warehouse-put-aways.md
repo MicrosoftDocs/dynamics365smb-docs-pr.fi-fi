@@ -3,7 +3,7 @@ title: Nimikkeiden hyllyttäminen ja fyysisen varaston hyllytykset
 description: Tietoja erilaisista tavoista käyttää fyysisen varaston hyllytyksiä vastaanotettujen nimikkeiden hyllyttämiseen.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/24/2023
@@ -111,8 +111,6 @@ Jos sijainnissa käytetään sekä hyllytyksen että vastaanoton käsittelyä ja
     > Jos yhden rivin nimikkeet on asetettava useaan varastopaikkaan esimerkiksi siksi, että määritetty varastopaikka on täynnä, käytä **Rivit**-pikavälilehden **Jaa rivi** -toimintoa. Toiminto luo rivin jäljellä olevalle käsiteltävälle määrälle.
 
 5. Kun olet asettanut kaikki nimikkeet varastopaikkoihin ohjeiden mukaisesti, valitse **Rekisteröi hyllytys** -toiminto.  
-
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/receive-put-away-items/)
 
 ## Katso myös
 

@@ -111,8 +111,6 @@ Voit syöttää valuutan koodin yleisen päiväkirjan riville ja kirjata rivin k
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)  

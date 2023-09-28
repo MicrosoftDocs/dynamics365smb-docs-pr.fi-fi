@@ -134,8 +134,6 @@ Kun tämä vaihtoehto otetaan käyttöön, järjestelmä käyttää seuraavia s�
 | EU:n ulkopuolinen maa | EU-maa ei ole sama kuin **Yrityksen tiedoissa** oleva maa | Ei Intrastat-rivejä |
 | EU:n ulkopuolinen maa | EU:n ulkopuolinen maa | Ei Intrastat-rivejä |   
 
-## Lisätietoja aiheeseen liittyvästä koulutuksesta on [Microsoft Learnissa](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## Katso myös
 
 [Intrastat-raportoinnin määrittäminen](finance-how-setup-report-intrastat.md)  

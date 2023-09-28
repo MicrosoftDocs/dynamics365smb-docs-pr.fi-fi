@@ -47,8 +47,6 @@ Seuraava video kattaa käyttöomaisuuden perusteet.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/manage-fixed-assets-transactions/)
-
 ## Katso myös
 
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  

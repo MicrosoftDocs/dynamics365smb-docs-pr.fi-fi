@@ -120,8 +120,6 @@ Koska OCR perustuu optiseen tunnistukseen, OCR-palvelu voi tulkita PDF- tai kuva
 
 **Saapunut asiakirja** -sivun **Rahoituksellisia tietoja** -pikavälilehden kenttiin päivitetään vaiheessa 4 antamasi uudet arvot.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Saapuvien asiakirja tietueiden luonti](across-how-create-income-document-records.md)

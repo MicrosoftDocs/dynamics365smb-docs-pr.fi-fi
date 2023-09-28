@@ -60,12 +60,10 @@ Voit luoda laskun projektin suunnitteluriveiltä ja määrittää samalla nimikk
 > [!NOTE]  
 >   Projektiin liittyvän myyntihyvityslaskun luominen, tarkistaminen ja kirjaaminen tapahtuu vastaavalla tavalla.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/post-job-usage-sales/)
-
 ## Katso myös
 
 [Projektien hallinta](projects-manage-projects.md)  
-[Rahoitus](finance.md)  
+[Taloushallinto](finance.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Myynti](sales-manage-sales.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

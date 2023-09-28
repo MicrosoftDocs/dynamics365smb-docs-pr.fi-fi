@@ -40,12 +40,10 @@ Power BI:n ja [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen integr
 
 Voit myös luoda visuaalisia raportteja, jotka perustuvat [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan käyttämällä **Microsoft Excel -asiakirjojen (vain tiedot)** -raporttipyyntösivujen tiedostotyyppivaihtoehtoa. Lisätietoja on kohdassa [Suorita ja tulosta raportteja](ui-work-report.md).
 
-## Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/use-power-bi).
-
 ## Katso myös
 
 [Liiketoiminnan analyysit ja Financial Reporting](bi.md)  
-[Business Centralin pika-aloitus](quick-start-business-central.md)  
+[Business Centralin pika-aloitusopas](quick-start-business-central.md)  
 [Power BI -raporttien käyttäminen Business Centralissa](across-working-with-powerbi.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

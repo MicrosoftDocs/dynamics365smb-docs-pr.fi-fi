@@ -139,12 +139,10 @@ Kuten viimeinen esimerkkitilanne osoittaa, kaikkien sijainteihin liittyvien aset
 
 Jos siis suunnittelet usein kysyntää sijainneissa, Varastointiyksiköt-ominaisuutta kannattaa käyttää.
 
-## Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/training/paths/trade-get-started-dynamics-365-business-central/).
-
 ## Katso myös
 
 [Suunnittelu](production-planning.md)  
-[Tuotannon asetukset](production-configure-production-processes.md)  
+[Tuotannon määrittäminen](production-configure-production-processes.md)  
 [Tuotanto](production-manage-manufacturing.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Varastointiyksiköiden määrittäminen](inventory-how-to-set-up-stockkeeping-units.md)  

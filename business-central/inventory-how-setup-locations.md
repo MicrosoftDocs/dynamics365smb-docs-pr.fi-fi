@@ -104,8 +104,6 @@ Kentät on täytettävä vastakkaisessa järjestyksessä seuraavasti:
 
 ADM-dimensio kopioidaan sijainnista EAST.
 
-## Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/trade-set-up-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Varaston hallinta](inventory-manage-inventory.md)  

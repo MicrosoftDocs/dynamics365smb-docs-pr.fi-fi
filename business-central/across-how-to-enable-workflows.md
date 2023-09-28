@@ -22,11 +22,9 @@ Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riv
 2. Avaa työnkulku, jonka haluat ottaa käyttöön.  
 3. Kytke **Työnkulku**-sivun **Käytössä**-valitsin päälle.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
-
 ## Katso myös
 
-[Luo hyväksymistyönkulut](across-how-to-create-workflows.md)  
+[Hyväksymistyönkulkujen luominen](across-how-to-create-workflows.md)  
 [Hyväksymistyönkulkujen käyttäminen](across-use-workflows.md)  
 [Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen](across-how-to-view-archived-workflow-step-instances.md)  
 [Hyväksymistyönkulkujen poistaminen](across-how-to-delete-workflows.md)  

@@ -38,8 +38,6 @@ Voit ottaa yhteyttä myös [[!INCLUDE[prod_short](includes/prod_short.md)] -myyn
 
 Lisätietoja siitä, mitä voit tehdä [!INCLUDE [prod_short](includes/prod_short.md)] -toiminnolla, on kohdassa [Yritystoimintaan valmistautuminen](ui-get-ready-business.md) ja [Yritystoiminnot](across-business-functionality.md).  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/trial-dynamics-365-business-central/)
-
 ## Lisäresurssit
 
 - [Microsoftin videokirjastoon tutustuminen](across-videos.md)  

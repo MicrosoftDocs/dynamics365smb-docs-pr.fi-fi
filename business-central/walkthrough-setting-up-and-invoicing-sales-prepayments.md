@@ -235,12 +235,10 @@ Vaihekuvauksessa käsiteltiin myös ennakkomaksulaskun kirjaamista, toisen ennak
 
 Ennakkomaksuominaisuuksien avulla on helppo määrittää ja pakottaa asiakkaiden ja nimikkeiden ennakkomaksusääntöjä. Niiden avulla voit myös kirjata jokaisen maksun laskua vastaan.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepayment-invoices-dynamics-365-business-central/)
-
 ## Katso myös
 
-[Ennakkomaksujen laskuttaminen](finance-invoice-prepayments.md)  
-[Rahoitus](finance.md)  
+[Laskutuksen ennakkomaksut](finance-invoice-prepayments.md)  
+[Taloushallinto](finance.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)
 

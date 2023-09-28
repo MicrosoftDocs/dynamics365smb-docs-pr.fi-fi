@@ -1,14 +1,14 @@
 ---
 title: Varastopaikan sisältöjen luominen
 description: 'Kun olet määrittänyt varastopaikat, voit määrittää ne nimikkeet, jotka haluat säilyttää, ja määrittää säännöt, jotka määrittävät, kuinka usein varastopaikat täytetään uudelleen.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 7374
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 # Varastopaikan sisältöjen luominen
 
@@ -48,8 +48,6 @@ Kun olet luonut varastopaikat, voit luoda varastopaikan sisällön, jonka haluat
 7. Kun olet valmis, valitse **Luo var.paikan sisältö** -toiminto.  
 
 Tässä työkirjassa voi työskennellä useiden varastopaikan sisältörivien parissa useiden varastopaikkojen osalta ja sen ansiosta voi saada hyvän yleiskuvan siitä, mitä olet panemassa eri varastopaikkoihin tietyllä alueella, käytävällä tai hyllyllä.  
-
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-zones-bins/)
 
 ## Katso myös
 

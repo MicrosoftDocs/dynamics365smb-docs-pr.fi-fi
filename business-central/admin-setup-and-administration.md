@@ -54,12 +54,10 @@ Sisäiset ja delegoidut järjestelmänvalvojat voivat käyttää [!INCLUDE [prod
 |Käyttäjäistuntojen hallinta, mukaan lukien istunnon peruuttaminen, jos käyttäjä on estetty.|[Istuntojen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Määritä vuokraaja lähettämään telemetriatiedot Azureen Application Insightsin analyysin ja vianmäärityksen parantamiseksi.|[Ota käyttöön telemetrian lähettäminen Application Insightsiin](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/deploy-configure-dynamics-365-business-central/)
-
 ## Katso myös
 
-[Liiketoiminnan toiminnallisuus](across-business-functionality.md)  
-[Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
+[Yrityksen toiminnot](across-business-functionality.md)  
+[Yrityksen yleiset toiminnot](ui-across-business-areas.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 

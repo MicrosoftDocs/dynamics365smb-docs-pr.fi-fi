@@ -172,12 +172,10 @@ Seuraavassa kuvassa on yleiskuvaus tämän menettelyn tuloksesta.
 
 Testaa seuraavaksi työnkulku avaamalla aiemmin luotu toimittajakortti ja muuttamalla toimittajan nimeä. Varmista, että hyväksymispyyntö lähetetään toimittajan nimen muuttamisen jälkeen.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
-
 ## Katso myös
 
 [Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md)  
-[Hyväksyjäkäyttäjien määrittäminen](across-how-to-set-up-approval-users.md)  
+[Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)  
 [Hyväksyntätyönkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md)  
 [Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen](across-how-to-view-archived-workflow-step-instances.md)  
 [Hyväksymistyönkulkujen poistaminen](across-how-to-delete-workflows.md)  

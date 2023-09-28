@@ -42,8 +42,6 @@ Voit myös poistaa manuaalisesti yksittäiset tilaukset.
 
 Toista vaiheet 1–3 muissa käsiteltävissä asiakirjoissa, kuten puiteostotilauksissa.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/processing-invoices-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Osto](purchasing-manage-purchasing.md)  

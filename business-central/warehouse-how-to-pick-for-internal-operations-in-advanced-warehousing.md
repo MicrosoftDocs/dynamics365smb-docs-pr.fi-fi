@@ -167,8 +167,6 @@ Seuraavassa kuvassa esitetään, milloin **Bin-koodi** -kenttä osaluettelossa t
 
 :::image type="content" source="media/binflow.png" alt-text="Yleiskatsaus Varastopaikkakoodi-kenttä täyttämisen ajankohdasta ja täyttämistavasta.":::
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/pick-ship-items-business-central/)
-
 ## Katso myös
 
 [Varasto](inventory-manage-inventory.md)  

@@ -62,11 +62,9 @@ Voit poistaa profiilin yksittäisen sivun mukautukset. Laajennukseen perustuvia 
 
 Valitun sivun asettelu muutetaan vastaamaan tekemiäsi muutoksia.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/tailor-roles-design-ui/)
-
 ## Katso myös
 
-[Työtilan mukauttaminen](ui-personalization-user.md)  
+[Oman työtilan mukauttaminen](ui-personalization-user.md)  
 [Profiilien hallinta](admin-users-profiles-roles.md)  
 [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  

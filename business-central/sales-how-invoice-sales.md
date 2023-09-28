@@ -119,13 +119,11 @@ Voit luoda jopa suoraan maksettavia laskuja rekisteröimättömille asiakkaille,
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/invoicing-customers-dynamics-365-business-central/index).
-
 ## Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
-[Tulosta poimintaluettelo](sales-how-print-picking-list.md)  
+[Poimintaluettelon tulostaminen](sales-how-print-picking-list.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
 [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)  

@@ -80,8 +80,6 @@ Kun etsit avointa luettelosivua, kuten **Myyntitilaukset**-luetteloa, se on näk
 
 Mutta kun avaat saman luettelosivun kotisivultasi, **Hallinta**-toimintoa ei ole. Sen sijaan voit avata yksittäisen myyntitilauksen valitsemalla **Numero**-kentän. Tässä näkymässä toimintopalkkia ei voi kiinnittää.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/work-pro-data-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  

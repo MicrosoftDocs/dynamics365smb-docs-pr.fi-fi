@@ -302,8 +302,6 @@ Sinun on määritettävä tiedot siitä, mitä vaatimuksia maasi veroviranomaise
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## Katso myös
 
 [ALV-ilmoitusmallien ja ALV-ilmoitusten nimien määrittäminen](finance-how-setup-vat-statement.md)  

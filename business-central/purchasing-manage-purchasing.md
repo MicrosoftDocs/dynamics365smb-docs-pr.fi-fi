@@ -37,13 +37,11 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Voit muuntaa esimerkiksi toimittajien sähköiset laskut ostolaskuiksi Business Centralissa.|[Sähköisten asiakirjojen vastaanottaminen ja muuntaminen](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 | Lisätietoja tavasta, jolla [!INCLUDE[prod_short](includes/prod_short.md)] laskee nimikkeen tilausajankohdan, niin että se vastaanotetaan tiettynä päivänä.|[Ostojen päivämäärälaskenta](purchasing-date-calculation-for-purchases.md)|
 |Ratkaise ristiriita, kun samalla toimittajalla on ainakin tietuetta.|[Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)|
-|Voit hallita toimittajan suurta määrää koskevaa ostositoumustasi, joka toimitetaan useassa erässä tietyn ajan kuluessa.|[Puiteostotilausten käyttäminen](sales-how-to-create-blanket-sales-orders.md)|
+|Voit hallita toimittajan suurta määrää koskevaa ostositoumustasi, joka toimitetaan useassa erässä tietyn ajan kuluessa.|[Puiteostotilaukset käyttäminen](sales-how-to-create-blanket-sales-orders.md)|
 
 ## Ulkoisen tiedoston numerot
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
-
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/purchase-items-services-dynamics-365-business-central/)
 
 ## Katso myös
 

@@ -114,12 +114,10 @@ Kun taksonomia muuttuu tulee nykyinen taksonomia päivittää sen mukaiseksi. Sy
 6. Tuo linkkikanta valitsemalla **Tuo**-toiminto.  
 7. Valitse **Kyllä**, niin voit kohdistaa linkkikannan malliin.  
 
-## Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
-
 ## Katso myös
 
-[Taloudelliset liiketoimintatiedot](bi.md)  
-[Rahoitus](finance.md)  
+[Taloushallinnon liiketoimintatiedot](bi.md)  
+[Taloushallinto](finance.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

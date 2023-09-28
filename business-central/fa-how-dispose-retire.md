@@ -45,8 +45,6 @@ Kun myyt tai luovutat käyttöomaisuutta, luovutusarvo kirjataan pääkirjanpito
 
 Näyttöön tulee **Pääkirjanpidon tapahtumat** -sivu, jossa näkyvät tapahtumat, joiden tuloksena on luovutuksen kirjaaminen.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/dispose-fixed-assets/)
-
 ## Katso myös
 
 [Käyttöomaisuus](fa-manage.md)  

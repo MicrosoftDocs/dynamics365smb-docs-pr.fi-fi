@@ -70,8 +70,6 @@ Kumppaniyhteisö kehittää jatkuvasti sovelluksia, jotka lisäävät ominaisuuk
 
 Eri sidosryhmät ovat tutustuneet Kerro, mitä haluat tehdä -toimintoon ja esittäneet toimintoa koskevia kysymyksiä. Nämä kysymykset löytyvät usein kysyttyjen kysymysten luettelosta. Lisätietoja on kohdassa [Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset](ui-search-faq.md).
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/user-interface-dynamics-365-business-central/index)
-
 ## Katso myös
 
 [Business Centralin käyttäminen](ui-work-product.md)  

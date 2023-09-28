@@ -45,8 +45,6 @@ Voit tuoda ja viedä olemassa olevan mukautetun raporttiasettelun tiedostona tie
 
  Alkuperäinen mukautettu raporttiasettelu korvataan tuodulla raporttiasettelulla.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
-
 ## Katso myös
 
 [Raporttien mukautetun asettelun luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)   

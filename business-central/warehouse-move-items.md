@@ -3,7 +3,7 @@ title: Nimikkeiden siirtäminen
 description: Tietoja nimikkeiden siirtämisestä varastopaikkojen välillä varastossa.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: Conceptual
 ms.date: 01/25/2023
@@ -36,11 +36,9 @@ Nimikkeiden inventointi, muuttaminen ja uudelleenluokittelu voivat sisältää v
 |Fyysisen varastoinnin siirtotyökirjan sekä sisäisen poiminnan ja hyllytyksen avulla voidaan siirtää nimikkeitä laajennetuissa varastointimäärityksissä ohjatun poiminnan ja hyllytyksen avulla.|[Nimikkeiden siirtäminen laajennetuissa varastomäärityksissä](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Järjestä fyysinen varasto uudelleen uusilla varastopaikan koodeilla ja uusilla varastopaikan ominaispiirteillä sekä mahdollisesti vaihtamalla niiden paikkaa.|[Fyysisten varastojen uudelleenjärjestely](warehouse-how-to-restructure-warehouses.md)|  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/manage-internal-warehouse-processes/)
-
 ## Katso myös
 
-[Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)  
+[Varastoinninhallinnan yleiskatsaus](design-details-warehouse-management.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

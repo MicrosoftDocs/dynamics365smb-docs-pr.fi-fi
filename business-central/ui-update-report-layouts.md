@@ -58,8 +58,6 @@ Jos virheitä ei ilmene, päivitykset otetaan käyttöön raporttiasetteluissa. 
 
 Kun muutat asettelua, yritä päivittää asettelu uudelleen.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/change-documents-dynamics-365-business-central/index)
-
 ## Katso myös  
  [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  
  [Raporttien, eräajojen ja XMLportien käsitteleminen](ui-work-report.md)  

@@ -117,11 +117,9 @@ Työnkulun variaatiot määritetään täyttämällä työnkulkurivien kentät t
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/use-approval-workflows/)
-
 ## Katso myös
 
-[Hyväksyjäkäyttäjien määrittäminen](across-how-to-set-up-approval-users.md)  
+[Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)  
 [Työnkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md)  
 [Luo hyväksymistyönkulut](across-how-to-create-workflows.md)  
 [Hyväksymistyönkulkujen käyttäminen](across-how-use-approval-workflows.md)  

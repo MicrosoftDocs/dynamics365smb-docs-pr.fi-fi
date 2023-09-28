@@ -31,8 +31,6 @@ Voit määrittää useita hyllytysmalleja ja valita niistä yhden hallitaksesi h
 
 Voit luoda useita hyllytysmalleja ja käyttää niitä yrityksesi tarpeisiin sopivalla tavalla. Ohjelma viittaa ensin nimikkeelle tai varastointiyksikölle mahdollisesti valitsemaasi hyllytysmalliin. Jos näitä kenttiä ei ole täytetty, käytetään sitä hyllytysmallia, jonka olet valinnut fyysiselle varastoinnille sijaintikortin **Var.paikkojen periaatteet** -pikavälilehdessä.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/put-away-templates/)
-
 ## Katso myös
 
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)

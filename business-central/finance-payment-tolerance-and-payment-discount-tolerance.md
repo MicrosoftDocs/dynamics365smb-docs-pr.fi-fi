@@ -275,11 +275,9 @@ Normaalit kohdistussäännöt
 
 (2) Mikäli maksu osuu tälle välille kaikkia kohdistettavia tapahtumia ei voida sulkea edes toleranssilla.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/enter-payments-dynamics-365-business-central/)
-
 ## Katso myös
 
-[Rahoitus](finance.md)  
+[Taloushallinto](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

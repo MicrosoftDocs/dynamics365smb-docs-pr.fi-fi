@@ -122,11 +122,9 @@ Voit pitää valuutan vaihtokurssit ajan tasalla ulkoisen palvelun, kuten FloatR
 
 **Valuutat**-sivun **Vaihtokurssi**-kentän arvo päivittyy uusimman valuutan vaihtokurssin mukaan.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
-
 ## Katso myös
 
-[Valuutat Business Centralissa](finance-currencies.md)  
+[Business Centralin valuutat](finance-currencies.md)  
 [Valuuttojen määrittäminen](finance-set-up-currencies.md)  
 [Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md)  
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  

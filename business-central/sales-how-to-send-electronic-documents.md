@@ -43,12 +43,10 @@ ms.author: bholtorf
     > [!NOTE]  
     >  Voit myös lähettää kirjatun myyntilaskun sähköisenä asiakirjana. Menettely on sama kuin joka on kuvattu tässä aiheessa kirjaamattomille myyntiasiakirjoille. Valitse **Kirjattu myyntilasku** -sivun **Toimintoloki**-toiminto, kun haluat tarkastella sähköisen asiakirjan tilaa.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/electronic-documents-dynamics-365-business-central/index)
-
 ## Katso myös
 
-[Myynnin laskutus](sales-how-invoice-sales.md)  
-[Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md)  
+[Lasku – myynti](sales-how-invoice-sales.md)  
+[Asiakirjan lähetyksen profiilien määrittäminen](sales-how-setup-document-send-profiles.md)  
 [Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Document Exchange -palvelun määrittäminen](across-how-to-set-up-a-document-exchange-service.md)  
 [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md)  

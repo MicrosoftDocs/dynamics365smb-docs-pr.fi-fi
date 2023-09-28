@@ -115,12 +115,10 @@ Kun yrityksesi käyttää toimitussuunnitteluprosesseja [!INCLUDE [prod_short](i
 
 Esimerkkejä **Suunnittelu**-pikavälilehden kenttien käytöstä on kohdassa [Asetuksien parhaat käytännöt: Suunnitteluparametrit](setup-best-practices-planning-parameters.md).  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-items/)
-
 ## Katso myös
 
 [Varasto](inventory-manage-inventory.md)  
-[Mittayksikön määrittäminen](inventory-how-setup-units-of-measure.md)  
+[Mittayksiköiden määrittäminen](inventory-how-setup-units-of-measure.md)  
 [Tuotevarianttien hallinta](inventory-item-variants.md)  
 [Intrastat-raportoinnin määrittäminen](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  
 [Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  

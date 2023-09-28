@@ -76,13 +76,11 @@ Joissakin [!INCLUDE[prod_short](includes/prod_short.md)] -sivuston asia kirjoiss
 
 **Sähköpostin Lähtevät-kansioon** on tallennettu luonnoksina tallentamasi sähköpostit ja sähköpostit, joita ei voitu lähettää, esimerkiksi jos sähköpostiosoite oli virheellinen. Viesteille, joita ei voitu lähettää, voit valita **Näytä virhe** tai **tutki virhe** ja tehdä ongelman vianmäärityksen.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-email/)
-
 ## Katso myös
 
 [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md)  
 [Sähköpostin määrittäminen](admin-how-setup-email.md)  
-[Myynnin laskutus](sales-how-invoice-sales.md)  
+[Lasku – myynti](sales-how-invoice-sales.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

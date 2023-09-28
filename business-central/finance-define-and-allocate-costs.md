@@ -137,8 +137,6 @@ Tässä aiheessa kuvataan esimerkki siitä, kuinka kohdistuksia määritetään 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] käyttää edellisen vuoden myyntilukuja laskettaessa 1596.50 PVA:n 100 prosentin osuus IT-LAITTEISTO -paketteja varten. Tämä tarkoittaa sitä, että kaikki viime vuonna myydyt nimikkeet kohdennetaan kustannuskohteelle IT-LAITTEISTO.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/allocate-costs-dynamics-365-business-central/)
-
 ## Katso myös
 
  [Kustannuslaskennan määrittäminen](finance-set-up-cost-accounting.md)  

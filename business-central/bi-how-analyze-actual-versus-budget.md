@@ -60,11 +60,9 @@ Sen sijaan että tarkastelisit todellisia ja budjetoituja summia kaikkien tilien
 3. Täyttämällä **Valinnat**-pikavälilehden kentät määrität, mitä näytetään taulukossa.  
 4. Vie osoitin taulukon kentän päälle **Rivit**-pikavälilehdellä voit lukea lyhyen kuvauksen näytettävästä summasta.  
 
-## Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
-
 ## Katso myös
 
-[Taloudelliset liiketoimintatiedot](bi.md)  
+[Taloushallinnon liiketoimintatiedot](bi.md)  
 [Talousraporttien käsitteleminen](bi-how-work-account-schedule.md)  
 [Rahoitus](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  

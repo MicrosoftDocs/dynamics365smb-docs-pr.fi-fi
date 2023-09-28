@@ -124,12 +124,10 @@ Lisäksi kaikissa samantyyppisissä tulevissa tapahtumissa summat kirjataan sek�
 > [!NOTE]  
 > **Lisäraportointivaluutta**-kenttä aktivoituu vasta, kun olet napsauttanut **Muuta lisäraportointivaluuttaa**-eräajon **OK**-painiketta.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)  
-[Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
+[Vuosien ja kausien sulkeminen](year-close-years-periods.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

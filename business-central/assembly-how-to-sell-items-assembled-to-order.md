@@ -3,7 +3,7 @@ title: Kokoonpano tilausta varten -nimikkeiden myyminen
 description: 'Opettele myymään nimike, joka on koottu tilausta varten.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
@@ -59,8 +59,6 @@ Tässä toimenpiteessä käsittelet asiakkaan pyytämien määrittelyjen mukaan 
 
 > [!NOTE]  
 > Korvaavat nimikkeet eivät korvaa nimikettä automaattisesti toisella nimikkeellä esimerkiksi myyntitilausta luotaessa tai tuoterakenteessa. Sen sijaan sinulle ilmoitetaan, että korvaava vaihtoehto on saatavilla.
-
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## Katso myös
 

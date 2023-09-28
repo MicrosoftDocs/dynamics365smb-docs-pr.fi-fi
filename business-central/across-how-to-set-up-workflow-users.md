@@ -34,8 +34,6 @@ Ennen kuin voit luoda hyväksyntätyönkulun, on määritettävä käyttäjät j
 
 6. Toista vaihe 5, jos haluat lisätä useampia työnkulun käyttäjiä työnkulun käyttäjäryhmään.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/create-workflows/)
-
 ## Katso myös
 
 [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)  

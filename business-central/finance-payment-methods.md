@@ -37,13 +37,11 @@ Vaihtoehtoisesti voit lisätä maksuehdot maksutapaan. Lisätietoja on ohjeaihee
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakas** tai **Toimittaja** ja valitse sitten vastaava linkki.
 2. Valitse **Maksutavan koodi** -kentässä menetelmä, jota käytetään oletusarvoisesti asiakkaalle tai toimittajalle.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Katso myös
 
-[Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md)  
+[Uusien asiakkaiden rekisteröiminen](sales-how-register-new-customers.md)  
 [Maksuehtojen määrittäminen](finance-payment-terms.md)  
-[Rahoitus](finance.md)  
+[Taloushallinto](finance.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -26,8 +26,6 @@ Jos toimittajalla on vähintään yksi pankkitili ja haluat määrittää ensisi
 2. Avaa toimittajan kortti.
 3. Valitse **Maksut**-pikavälilehden **Ensisijaisen pankkitilin koodi** -kentässä toimittajan oletusarvoinen pankkitili.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Ostojen määrittäminen](purchasing-setup-purchasing.md)  

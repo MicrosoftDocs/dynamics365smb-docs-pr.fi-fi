@@ -29,8 +29,6 @@ Valuuttakoodit määritetään **Valuutat**-luettelossa, mukaan lukien lisätied
 
 Vaihtokurssit ovat työkalu, jonka avulla lasketaan kunkin valuuttatapahtuman arvo paikallisessa valuutassa (PVA). Lisätietoja on kohdassa [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md).  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Valuuttojen määrittäminen](finance-set-up-currencies.md)  
