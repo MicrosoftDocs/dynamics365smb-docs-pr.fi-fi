@@ -447,9 +447,10 @@
 ### [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)
 ### [Päiväkirjakirjausten peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md)
 ### [Tarkistustiedoston vieminen](finance-how-to-export-audit-files.md)
-### [Kustannusten ja tulojen kohdistaminen](year-allocate-costs-income.md)
 ### [Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md)
 ### [Tuottojen ja kulujen siirtäminen](finance-how-defer-revenue-expenses.md)
+### [Toistuvien kustannusten ja tulojen kohdistaminen](year-allocate-costs-income.md)
+### [Tuoton ja kustannusten kohdistaminen usealle KP-tilille](finance-allocate-revenue-costs.md)
 ### [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)
 ### [Palkkatapahtumien tuominen](finance-how-import-payroll-transactions.md)
 ### [Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)
@@ -585,6 +586,7 @@
 #### [Segmenttien vuorovaikutusten hallinta](marketing-interaction-segments.md)
 ### Vuorovaikutusten hallinta
 #### [Vuorovaikutukset](marketing-interactions-overview.md)
+#### [Vuorovaikutusten liitteet](marketing-interaction-attachments.md)
 #### [Yhteyshenkilöiden kanssa tapahtuvan vuorovaikutuksen tallentaminen](marketing-interactions.md)
 #### [Vuorovaikutusten luominen yhteyshenkilöille ja segmenteille](marketing-how-create-interactions.md)
 #### [Yhteyshenkilöiden kanssa tapahtuvan vuorovaikutuksen tallentaminen automaattisesti](marketing-auto-record-interactions.md)
@@ -1545,6 +1547,7 @@
 #### [Toimitusehtojen määrittäminen](sales-how-set-up-shipment-methods.md)
 #### [Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md)
 #### [Laskun kirjauskäytännön määrittäminen käyttäjille](admin-setup-invoice-posting-policy.md)
+#### [Asiakirjapäivämäärien päivittäminen kirjauspäivämäärillä](across-link-doc-dates-to-posting-dates.md)
 ### Ostojen määrittäminen
 #### [Ostojen määrittäminen](purchasing-setup-purchasing.md)
 #### [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md)
@@ -1554,6 +1557,7 @@
 #### [Hintojen ja alennusten määrittäminen](across-prices-and-discounts.md)
 #### [Erikoisostohintojen ja -alennusten kirjaaminen](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Laskun kirjauskäytännön määrittäminen käyttäjille](admin-setup-invoice-posting-policy.md)
+#### [Asiakirjapäivämäärien päivittäminen kirjauspäivämäärillä](across-link-doc-dates-to-posting-dates.md)
 ### Varaston määrittäminen
 #### [Varaston määrittäminen](inventory-setup-inventory.md)
 #### [Yleisten varastotietojen määrittäminen](inventory-how-setup-general.md)
@@ -1791,7 +1795,7 @@
 ### [Lajittelemisen ja suodattamisen usein kysytyt kysymykset](ui-search-filter-faq.yml)
 ### [Sivutietojen analysoiminen Excelissä](across-work-with-excel.md)
 ### [Raporttitietojen analysoiminen Excelillä](report-analyze-excel.md)
-### [Luettelotietojen analysoiminen analyysitilassa](analysis-mode.md)
+### [Luettelo- ja kyselytietojen analysoiminen analyysitilassa](analysis-mode.md)
 ### [Taloushallinnon liiketoimintatiedot](bi.md)
 
 ## Valmis analytiikka 

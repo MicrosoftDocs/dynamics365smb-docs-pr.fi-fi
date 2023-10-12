@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
 ---
-# <a name="workflows-in-dynamics-365-business-central"></a>Dynamics 365 Business Centralin työnkulut
+# Dynamics 365 Business Centralin työnkulut
 
 Voit määrittää ja käyttää työnkulkuja yhdistääksesi eri käyttäjien suorittamia liiketoimintaprosessin tehtäviä. Järjestelmätehtäviä, kuten automaattinen kirjaus, voidaan sisällyttää työnkulkuihin. Käyttäjätehtävät voivat edeltää tai seurata järjestelmätehtäviä. Uusien tietueiden luontiin liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.
 
@@ -18,7 +18,7 @@ Voit määrittää ja käyttää työnkulkuja yhdistääksesi eri käyttäjien s
 * Power Automate -työnkulut
 
   * Automaattiset työnkulut käynnistyvät tapahtumien, (kuten tietueiden tai asiakirjojen luonnin, muuttamisen tai poistamisen avulla) [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa. Mukana ovat myös Power Automatessa luodut hyväksymistyönkulut, jotka käynnistyvät kun hyväksyntää pyydetään [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa.
-  * Pikatyönkulut, jotka käynnistetään manuaalisesti **Automaattinen**-toiminnolla luetteloista, korteista ja asiakirjasivuilta.
+  * Pikatyönkulut, jotka käynnistetään manuaalisesti **Automaattinen**-toimintovalikosta luetteloista, korteista ja asiakirjasivuilta.
 
     Luo ja manuaalisesti käynnistää Power Automate -työnkulun [!INCLUDE[prod_short](includes/prod_short.md)] -tietueesta, kuten asiakkaasta, nimikkeestä tai myyntitilauksesta, jolla voi käsitellä tietoja sekä sisäisesti että ulkoisesti (käyttämällä integroituja työkaluja).
 
@@ -26,17 +26,17 @@ Voit määrittää ja käyttää työnkulkuja yhdistääksesi eri käyttäjien s
 
   **Työnkulkumallit**-sivulla näkyvät kaikki käytettävissä olevat työnkulut. [!INCLUDE[prod_short](includes/prod_short.md)]in kokeiluversio sisältää useita valmiiksi määritettyjä työnkulkuja ja työnkulkumalleja, joita kopioimalla voit luoda uusia. Kun avaat mallin **Työnkulunmallit**-sivulta ja työnkulun nimi alkaa kirjaimilla *MS-*, Microsoft lisää mallin.
 
-## <a name="power-automate-flows"></a>Power Automate -työnkulut
+## Power Automate -työnkulut
 
 [!INCLUDE [prod_short](includes/prod_short.md)] online-tilan avulla voit kirjautua Power Automateen luodaksesi tehokkaita automaattisia työnkulkuja. Nämä työnkulut suoritetaan [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmasta. Työnkulut voivat yhdistämää sisäisiä ja ulkoisia tietolähteitä ja työkaluja ilman koodaustaitoa.
 
 |**Tehtävä** |**Katso**|
 |-------|-------|
-|Aloita Power Automaten käyttäminen ja työnkulkujen luominen, pikatyönkulkujen suorittaminen|[[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen käyttäminen Power Automate -työnkuluissa](across-how-use-financials-data-source-flow.md)|
+|Aloita Power Automaten käyttäminen, työnkulkujen luominen, pikatyönkulkujen suorittaminen|[[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen käyttäminen Power Automate -työnkuluissa](across-how-use-financials-data-source-flow.md)|
 |Lisätietoja työnkulkujen luomisesta, muokkaamisesta ja hallinnasta|[Automaattisten työnkulkujen määrittäminen](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) ja [Pikatyönkulkujen määrittäminen](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)|
 |Määritä Power Automate -integrointi [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmalla käyttäjille ylläpitäjänä|[Power Automate -integraation määrittäminen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
 
-## <a name="approval-workflows"></a>Hyväksyntätyönkulut
+## Hyväksyntätyönkulut
 
 Luo hyväksymistyönkulku määrittämällä, mikä työnkulun aloittaa ja mitä tapahtuu seuraavaksi:
 
@@ -57,7 +57,7 @@ Esimerkkejä hyväksyntätyönkulkutapahtumista ovat myynti- tai ostotilausten/t
 <!--
 | Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |-->
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Osto](purchasing-manage-purchasing.md)  

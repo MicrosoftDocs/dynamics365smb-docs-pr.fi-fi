@@ -9,7 +9,7 @@ ms.date: 07/05/2021
 ms.author: bholtorf
 ---
 
-# <a name="set-up-fixed-assets-with-user-defined-depreciation-methods"></a>Käyttöomaisuuden määrittäminen käyttäjän määrittämien poistomenetelmien avulla
+# Käyttöomaisuuden määrittäminen käyttäjän määrittämien poistomenetelmien avulla
 
 Voit käyttää [!INCLUDE[prod_short](includes/prod_short.md)]ia käyttäjän määrittämien poistomenetelmien määrittämiseen tässä kuvatulla tavalla.
 
@@ -23,20 +23,20 @@ Poistosumman laskennan kaava on:
 > [!NOTE]  
 > Päivämäärää kentässä **Ens. käyttäjäkoht. poistopvm** käytetään aikavälien määrittämiseen, ja kenttää **Poiston aloituspvm** käytetään poistopäivien lukumäärän määrittämiseen. Jos **Ens. käyttäjäkoht. poistopvm** on aikaisempi kuin **Poiston aloituspvm**, poistotaulukon ensimmäisen jakson prosenttiosuus käytetään vain osittain silloin, kun ohjelma laskee ensimmäistä poistoa. Tämä tarkoittaa sitä, että omaisuuserää ei poisteta kokonaan viimeisen jakson loppuun mennessä.
 
-## <a name="to-assign-a-depreciation-book-to-a-fixed-asset-with-a-user-defined-depreciation-method"></a>Poistokirjan liittäminen käyttöomaisuuserään käyttäjän määrittämällä poistomenetelmällä
+## Poistokirjan liittäminen käyttöomaisuuserään käyttäjän määrittämällä poistomenetelmällä
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuus** ja valitse sitten vastaava linkki.
 2. Valitse käyttöomaisuus, jolle haluat määrittää käyttöomaisuuden poistokirjan.
 3. Valitse **Liittyvä**-toiminto, valitse **Käyttöomaisuus** ja valitse sitten **Poistokirjat**. Tämä avaa **KO:n poistokirjat** -sivun.
 
-   Oletusarvon mukaan jotkin kentät, jotka on täytettävä alla olevien ohjeiden mukaisesti, on piilotettu, joten ne otettava näkyviin. Sen tehdäksesi sinun on muokattava sivua. Lisätietoja on kohdassa, jossa [Sivun mukauttaminen mukautusvalintanauhan avulla](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+   Oletusarvon mukaan jotkin kentät, jotka on täytettävä alla olevien ohjeiden mukaisesti, on piilotettu, joten ne otettava näkyviin. Sen tehdäksesi sinun on muokattava sivua. Lisätietoja on kohdassa, jossa [Sivun mukauttaminen mukautusvalintanauhan avulla](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 4. Valitse **Poistomenetelmä**-kentässä **Käyttäjän määrittämä**.
 5. Valitse **Poistotaulukon koodi** -kentässä **Poistotaulukko**, jota haluat käyttää.
 6. Valitse **Poiston aloituspvm** -kentässä poistolaskelman alkamispäivämäärä.
 7. Kun käytät käyttäjän määrittämää menetelmää, **Ens. käyttäjäkoht. poistopvm** -kenttä on määritettävä niin, että sen päivämäärä on sama tai aikaisempi kuin  **Poiston aloituspvm** -kentässä. Jos olet valinnut arvon poistotaulukon **Jakson pituus** -kentässä, päivämäärän **Ens. käyttäjäkoht. poistopvm** -kentässä on oltava kirjanpitojakson aloituspäivämäärä.
 8. Täytä joko **Poistovuosien lukumäärä** -kenttä tai **Poiston lopetuspvm** -kenttä. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
-## <a name="to-set-up-user-defined-depreciation-methods"></a>Käyttäjäkohtaisten poistomenetelmien määrittäminen
+## Käyttäjäkohtaisten poistomenetelmien määrittäminen
 
 **Poistotaulukon kortti** -sivulla voidaan määrittää käyttäjäkohtaiset poistomenetelmät. Voit esimerkiksi määrittää poiston yksiköiden määrän perusteella.  
 
@@ -56,11 +56,11 @@ Numeroiden summa = 1 + 2 + 3 + 4 = 10 Poisto:
 * Vuosi 3 = 2/10  
 * Vuosi 4 = 1/10  
 
-### <a name="depreciation-based-on-number-of-units"></a>Yksiköiden lukumäärään perustuvat poistot
+### Yksiköiden lukumäärään perustuvat poistot
 
 Tätä käyttäjäkohtaista menetelmää voidaan käyttää myös poistoissa, jotka perustuvat yksiköiden lukumäärään, esimerkiksi sellaisten tuotantokoneiden kohdalla, joiden eliniän kapasiteetti on vakio. **Poistotaulukot**-sivulle voidaan syöttää yksiköiden lukumäärä, joka voidaan tuottaa kullakin ajanjaksolla (kuukaudessa, neljännesvuodessa, vuodessa tai kirjanpitojakson aikana).  
 
-### <a name="example---user-defined-depreciation"></a>Esimerkki - käyttäjän määrittämä poisto
+### Esimerkki - käyttäjän määrittämä poisto
 
 Käytä poistomenetelmää, joka mahdollistaa poistojen tekemisen käyttöomaisuuseriin nopeutetusti tuloverotarkoituksia varten.  
 
@@ -93,7 +93,7 @@ Edellisessä esimerkissä sekä **Ens. käyttäjäkoht. poistopvm**- ja **Poisto
 | 12/31/24 |Arvonalennus |Ei yhtään |Ei yhtään |0 |
 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Käyttöomaisuus](fa-manage.md)  
 [Käyttöomaisuuden poiston määrittäminen](fa-how-setup-depreciation.md)  

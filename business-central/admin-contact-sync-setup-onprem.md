@@ -6,33 +6,35 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 04/04/2023
+ms.date: 09/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-contact-sync-with-outlook-for-business-central-on-premises"></a>Määritä yhteyshenkilön synkronointi paikalliselle Outlook for Business Centralille
+# Määritä yhteyshenkilön synkronointi paikalliselle Outlook for Business Centralille
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Tässä artikkelissa on tietoja siitä, miten voit määrittää paikalliset [!INCLUDE[prod_short](includes/prod_short.md)]-tiedot synkronoimaan yhteyshenkilöitä [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa Outlook-kontaktien avulla. Lisätietoja ominaisuudesta on kohdassa [Synkronoi yhteystiedot Business Centralissa Microsoft Outlookin kontaktien avulla](admin-synchronize-outlook-contacts.md).
 
-## <a name="introduction"></a>Esittely
+## Esittely
 
 Kontaktin synkronointi edellyttää OAuth 2.0-protokollan käyttämistä Exchange Online -todennukseen. Aiemmin perustodennusta tuettiin myös, mutta se on vanhentunut eikä sitä enää tueta Exchange Onlinessa. Voit lukea lisää poistoista kohdassa [Perustodennuksen vanhentuminen Exchange Onlinessa](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online). Tämä muutos tarkoittaa sitä, että Business Centralin yhteystietojen synkronointi on saattanut lakata toimimasta paikallisessa ympäristössä. Tämä artikkeli kertoo, miten saada se taas toimimaan.
 
-## <a name="prerequisites"></a>Vaatimukset
+## Vaatimukset
 
 - Exchange Online, joko itsenäinen versio tai Microsoft 365 -suunnitelman kautta  
-- Käytä Azure Active Directory ( Azure AD) -vuokralaista, jota Exchange Online käyttää
+- Käytä Microsoft Entra -vuokralaista, jota Exchange Online käyttää
 - [!INCLUDE[prod_short](includes/prod_short.md)] -käyttäjillä on Microsoft 365- tai Exchange Online -sähköpostitili, joka on liitetty [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman tileihin. Voit tarkistaa tämän asetuksen **Käyttäjät**-luettelossa käyttäjäprofiilin **Microsoft 365 -todennus** -osassa. 
 
-## <a name="set-up-contact-sync"></a>Kontaktin synkronoinnin määritys
+## Kontaktin synkronoinnin määritys
 
 Määritä kontaktin synkronointi suorittamalla seuraavat vaiheet. Jos käytössäsi on [!INCLUDE[prod_short](includes/prod_short.md)] kevät 2019 (v.14), sinun on tehtävä ylimääräinen vaihe, joka joko muuttaa sovelluskoodia tai määrittää yhteyden Power BI:hin.
 
-1. <a name="registerapp"></a>Sovelluksen rekisteröinti Exchange Online -ohjelmointirajapintaan Azure AD -vuokraajassa.
+1. <a name="registerapp"></a>Sovelluksen rekisteröinti Exchange Online -ohjelmointirajapintaan Microsoft Entra -vuokraajassa.
 
-   Tässä vaiheessa lisäät rekisteröidyn sovelluksen Microsoft 365- tai Exchange Online- suunnitelman Azure AD -vuokraajassa. Muiden Business Centralissa käytettävien Azure-palvelujen tavoin Exchange Online edellyttää rekisteröityä sovellusta Azure ADssa. Rekisteröity sovellus tuottaa Business Centralin ja Exchange Onlinein välisiä todennus- ja valtuutuspalveluita.
+   Tässä vaiheessa lisäät rekisteröidyn sovelluksen Microsoft 365- tai Exchange Online- suunnitelman Microsoft Entra -vuokraajassa. Muiden Business Centralissa käytettävien Azure-palvelujen tavoin Exchange Online edellyttää rekisteröityä sovellusta Microsoft Entra ID:ssä. Rekisteröity sovellus tuottaa Business Centralin ja Exchange Onlinein välisiä todennus- ja valtuutuspalveluita.
 
-   Seuraa yksityiskohtaisia ohjeita kehittäjä- ja IT-ammattilaisen tuessa kohdassa [Sovelluksen rekisteröinti Azure Active Directoryssa](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory) . Kun käyt läpi ohjeita, muista seuraavat asiat:
+   Seuraa yksityiskohtaisia ohjeita kehittäjä- ja IT-ammattilaisen tuessa kohdassa [Sovelluksen rekisteröinti Microsoft Entra ID:ssä](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory). Kun käyt läpi ohjeita, muista seuraavat asiat:
 
    - Jos olet jo rekisteröinyt sovelluksen osana jonkin muun Microsoft-tuotteen (kuten Power BI) integrointia, voit käyttää kyseistä rekisteröityä sovellusta uudelleen. Tässä tapauksessa sinun on vain määritettävä sovellus Office 365 Exchange Online -käyttöoikeuksilla, jotka on kuvattu seuraavassa luettelossa.
 
@@ -59,6 +61,6 @@ Määritä kontaktin synkronointi suorittamalla seuraavat vaiheet. Jos käytöss
 
    Kun valitsemasi ratkaisu on valmis, pyydä käyttäjiä joko suorittamaan uusi/modifioitu sivu tai [muodostamaan yhteys Power BI:hin](across-working-with-powerbi.md#connect). Tämä vaihe tarvitsee tehdä vain kerran.
 
-## <a name="next-steps"></a>Seuraavat vaiheet
+## Seuraavat vaiheet
 
 [Business Centralin kontaktien synkronisointi Microsoft Outlookin yhteystietojen kanssa](admin-synchronize-outlook-contacts.md)  

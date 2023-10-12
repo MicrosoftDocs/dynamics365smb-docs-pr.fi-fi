@@ -8,14 +8,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: bholtorf
 ms.search.form: 461
-ms.date: 09/23/2021
+ms.date: 09/19/2023
 ms.author: bholtorf
 ---
-# <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Ajoita työt varaston kustannusten täsmäytystä ja oikaisua varten pääkirjanpitoon.
+# Ajoita työt varaston kustannusten täsmäytystä ja oikaisua varten
 
-Jos haluat optimoida käyttökokemuksen, automaattinen kustannusten muuttaminen ja kirjaaminen pääkirjanpitoon ovat käytössä oletusarvoisesti. Tiedot kuitenkin kerääntyvät ajan mittaan, mikä saattaa vaikuttaa suorituskykyyn. Sovelluksen kuormituksen vähentämiseksi on usein hyödyllistä käyttää työjonotapahtumia, kun haluat siirtää tehtäviä suoritettavaksi taustalla.
+Ajoita projektit automaattista kustannusten muutosta varten pääkirjanpidon avulla. Pääkirjanpitoon kirjaaminen otetaan oletusarvoisesti käyttöön.
+Tiedot kuitenkin kerääntyvät ajan mittaan, mikä saattaa vaikuttaa suorituskykyyn. Sovelluksen kuormituksen vähentämiseksi on usein hyödyllistä käyttää työjonotapahtumia, kun haluat siirtää tehtäviä suoritettavaksi taustalla.
 
-## <a name="move-the-task-of-adjusting-item-costs-to-the-background-with-the-help-of-assisted-setup"></a>Siirrä nimikekustannusten säätämisen tehtävä taustalle ohjatun määrityksen avulla
+## Siirrä nimikekustannusten säätämisen tehtävä taustalle ohjatun määrityksen avulla
 
 Työjonotapahtumien luominen voi olla hankalaa myös kokeneelle konsultille, joten meillä on avusteinen käyttöönotto-opas, joka helpottaa prosessia nimikekustannusten muuttamiseksi.  
 
@@ -29,7 +30,7 @@ Työjonotapahtumien luominen voi olla hankalaa myös kokeneelle konsultille, jot
 
 5. Valitse **Näytä työjonotapahtumat, kun valmis** -kenttä ja tarkista ja säädä asetukset. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).  
 
-## <a name="to-create-a-job-queue-entry-for-adjusting-and-reconciling-inventory-cost-manually"></a>Työjonotapahtuman luominen varaston kustannusten manuaalista säätöä ja täsmäyttämistä varten
+## Työjonotapahtuman luominen varaston kustannusten manuaalista säätöä ja täsmäyttämistä varten
 
 Vaihtoehtoisesti voit luoda työjonotapahtumia manuaalisesti. Seuraavassa kuvataan , miten **Muuta kustann. - Nimiketapaht.** -eräajo asetetaan suoritettavaksi automaattisesti päivittäin, mutta samat työvaiheet koskevat **Kirjaa varaston kust. KP:oon** -eräajoa.  
 
@@ -48,10 +49,10 @@ Kun haluat ajoittaa tehtävän varaston täsmäyttämiseksi pääkirjanpitoon, v
 > [!TIP]
 > Jos haluat välttää lukitsemisen, älä ajoita **Muuta kust.-nimike tapahtumat** -eräajoa, **Kirjaa varaston kustannus KP:oon** -koodiyksikköä ja tehtäviä, joiden avulla kirjaat myynti-tai ostotransaktioita, samaan aikaan. Varmista myös, että ne käyttävät samaa työjonoluokkaa
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Nimikekustannusten muuttaminen](inventory-how-adjust-item-costs.md)  
-[Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
+[Varaston kustannusten täsmäyttäminen pääkirjanpidon kanssa](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Työjonojen käyttäminen ajoitustehtäviin](admin-job-queues-schedule-tasks.md)  
 [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)  
 [Käsittele kohdetta [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

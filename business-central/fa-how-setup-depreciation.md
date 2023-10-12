@@ -90,13 +90,11 @@ Kun Laske poisto -eräajo laskee poistot, eräajo käyttää tavallisesti standa
 
 Jos valitset tämän kentän, Laske poisto -eräajo käyttää sen sijaan 365 päivän kalenterivuotta, jossa kullekin kuukaudelle lasketaan sama päivien määrä kuin kalenterissa. Ainoa poikkeus on karkausvuosien helmikuu, jolloin helmikuussa ei katsota olevan 29 vaan 28 päivää. Tämän vuoksi kaikki vuodet, myös karkausvuodet, katsotaan 365 päivän pituisiksi.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/configure-depreciation-books/)
-
 ## Katso myös
 
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Käyttöomaisuus](fa-manage.md)  
-[Rahoitus](finance.md)  
+[Taloushallinto](finance.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

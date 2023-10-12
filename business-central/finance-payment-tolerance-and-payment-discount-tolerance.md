@@ -10,7 +10,7 @@ ms.search.form: '118, 314, 395'
 ms.date: 04/03/2023
 ms.author: bholtorf
 ---
-# <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Maksutoleranssien ja maksualennustoleranssien käsitteleminen
+# Maksutoleranssien ja maksualennustoleranssien käsitteleminen
 
 Voit määrittää maksutoleranssin ja sulkea sen avulla laskun, kun maksu ei täysin kata laskun summaa. Esimerkiksi maksutoleranssit ovat tyypillisesti pieniä maksuja, joiden korjaaminen maksaa enemmän kuin niiden hyväksyntä. Voit määrittää maksualennustoleranssin, jolla voi myöntää maksualennuksen sen jälkeen kun maksualennuspäivämäärä on ohitettu.  
 
@@ -18,7 +18,7 @@ Käytä maksutoleransseja siten, että jokaiselle avoimelle summalle on määrit
 
 Voit käyttää maksualennustoleransseja siten, että jos hyväksyt maksualennuksen maksualennuspäivämäärän jälkeen, se kirjataan aina joko maksualennustilille tai maksutoleranssin tilille.
 
-## <a name="applying-payment-tolerance-to-multiple-documents"></a>Maksutoleranssien käyttöönotto useissa asiakirjoissa
+## Maksutoleranssien käyttöönotto useissa asiakirjoissa
 
 Yksittäisellä asiakirjalla on sama maksutoleranssi riippumatta siitä kohdistetaanko se yksinään vai muiden asiakirjojen kanssa samanaikaisesti. Myöhästyneen maksualennuksen hyväksyntä, kun kohdistat maksutoleranssin useisiin asiakirjoihin, tapahtuu automaattisesti kullekin asiakirjalle, kun seuraava sääntö täyttyy:  
 
@@ -36,7 +36,7 @@ Voit tuoda näyttöön varoituksen, joka perustuu eri poikkeamatilanteisiin.
 
 Lisätietoja on kohdassa [Maksutoleranssin varoitusten käyttöönotto tai käytöstäpoisto](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings). 
 
-## <a name="to-set-up-tolerances"></a>Toleranssien määrittäminen
+## Toleranssien määrittäminen
 
 Päivä- ja määrätoleranssi sallii sinun sulkea laskun, vaikka maksu ei täysin kata laskun summaa. Esimerkiksi koska maksualennuksen eräpäivä on ylitetty, tavarat on vähennetty tai pienen virheen vuoksi. Tämä pätee myös hyvityksiin ja hyvityslaskuihin.  
 
@@ -70,7 +70,7 @@ Määrittääksesi toleranssin sinun tulee määrittää useita toleranssitilej�
 > [!IMPORTANT]  
 > Kun otat käyttöön **Muuta maksualennusta** -kentän **ALV-kirjausten asetukset** -sivussa, ALV-summan katsotaan liittyvän **maksutoleranssien** ja **maksualennusten** summiin, ja molempia transaktiosummia koskevaa ALV:tä vähennetään, jos niitä on olemassa. Järjestelmää ei voi määrittää käyttämään ALV-vähennystä vain yhden tapahtumatyypin yhteydessä.  
 
-## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Maksutoleranssivaroitusten ottaminen käyttöön tai poistaminen käytöstä
+## Maksutoleranssivaroitusten ottaminen käyttöön tai poistaminen käytöstä
 
 Maksutoleranssivaroitus ilmestyy, kun kirjaat kohdistuksen, jonka saldo mahtuu sallittuun toleranssiin. Voit sitten päättää kuinka kirjaat ja dokumentoit saldon.    
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** ja valitse sitten vastaava linkki.  
@@ -79,7 +79,7 @@ Maksutoleranssivaroitus ilmestyy, kun kirjaat kohdistuksen, jonka saldo mahtuu s
 > [!NOTE]  
 > Oletusarvon mukainen vaihtoehto **Maksutoleranssin varoitus** -sivulla on **Jätä saldo jäljelläolevaksi summaksi**. Oletusarvon mukainen vaihtoehto **Maksualennustoleranssin varoitus** -sivulle on **Älä hyväksy myöhästynyttä maksualennusta**.
 
-## <a name="to-block-payment-tolerance-for-customers"></a>Maksutoleranssin estäminen asiakkailta
+## Maksutoleranssin estäminen asiakkailta
 
 Oletusarvo maksutoleranssiasetukselle on sallittu. Estääksesi tietyn asiakkaan tai toimittajan maksutoleranssin sinun tulee estää toleranssi kyseisen asiakkaan tai toimittajan kortilta Seuraavaksi kerrotaan, miten se tehdään asiakkaalle. Toimittajaa koskevat vaiheet ovat samanlaisia.
 
@@ -89,7 +89,7 @@ Oletusarvo maksutoleranssiasetukselle on sallittu. Estääksesi tietyn asiakkaan
 > [!NOTE]  
 > Jos asiakkaalla tai toimittajalla on avoimia tapahtumia, sinun on ensin poistettava maksutoleranssi avoimista tapahtumista.
 
-## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Esimerkki 1 – Yksittäisen asiakirjan toleranssilaskennat
+## Esimerkki 1 – Yksittäisen asiakirjan toleranssilaskennat
 
 Seuraavassa muutamia esimerkkejä oletetuista toleranssilaskelmista ja kirjauksista, erilaisissa tilanteissa.  
 
@@ -123,11 +123,11 @@ Seuraavissa tilanteissa käytössä on vaihtoehto A tai B:
 |14|1000|20|5|01/15/03|20.1.03|>20.1.03|980|Ei mitään|Ei, 20 laskulla|0|0|  
 |15|1000|20|5|01/15/03|20.1.03|>20.1.03|975|Ei mitään|Ei, 25 laskulla|0|0|  
 
-### <a name="payment-range-diagrams"></a>Maksualuediagrammit
+### Maksualuediagrammit
 
 Yo. tapaukseen liittyen maksudiagrammi on seuraavanlainen:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3"></a>(1) Maksupvm <=15.01.03 (Tapaukset 1-3)
+#### (1) Maksupvm <=15.01.03 (Tapaukset 1-3)
 
 Jäljellä oleva summa per  
 
@@ -139,7 +139,7 @@ Normaalit kohdistussäännöt
 
 (2) Mikäli maksu osuu tälle välille kaikkia kohdistettavia tapahtumia ei voida sulkea edes toleranssilla.  
 
-#### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9"></a>(2) Maksupvm on välillä 16.1.03 ja 20.1.03 (Tapaukset 4-9)
+#### (2) Maksupvm on välillä 16.1.03 ja 20.1.03 (Tapaukset 4-9)
 
 Jäljellä oleva summa per  
 
@@ -151,7 +151,7 @@ Normaalit kohdistussäännöt
 
 (2) Mikäli maksu osuu tälle välille kaikkia kohdistettavia tapahtumia ei voida sulkea edes toleranssilla.  
 
-#### <a name="3-payment-date-is-after-012003-scenarios-10-15"></a>(3) Maksupvm 20.01.2003 jälkeen (Tapaukset 10-15)
+#### (3) Maksupvm 20.01.2003 jälkeen (Tapaukset 10-15)
 
 Jäljellä oleva summa per  
 
@@ -163,7 +163,7 @@ Normaalit kohdistussäännöt
 
 (2) Mikäli maksu osuu tälle välille kaikkia kohdistettavia tapahtumia ei voida sulkea edes toleranssilla.  
 
-## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Esimerkki 2 – Useiden asiakirjojen toleranssilaskelmat
+## Esimerkki 2 – Useiden asiakirjojen toleranssilaskelmat
 
 Seuraavassa muutamia esimerkkejä oletetuista toleranssilaskelmista ja kirjauksista, erilaisissa tilanteissa. Nämä esimerkit rajoittuvat vain tilanteisiin, joissa kaikki kohdistettavat tapahtumat suljetaan.  
 
@@ -211,11 +211,11 @@ Seuraavissa tilanteissa käytössä on vaihtoehdot A, B, C tai D:
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.1.03** <br />**17.1.03**|**20.1.03** <br />**22.1.03**|**>22.1.03**|**2000**|**Ei mitään**|**Kyllä**|**0**|**0**|  
 |30|1000 <br />1000|60 <br />30|5 <br />5|01/15/03 <br />17.1.2013|20.1.03 <br />22.1.2013|>22.1.03|1990|Maksutoleranssi|Kyllä|0|5|  
 
-### <a name="payment-range-diagrams-1"></a>Maksualuediagrammit
+### Maksualuediagrammit
 
 Yo. tapaukseen liittyen maksudiagrammi on seuraavanlainen:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3-1"></a>(1) Maksupvm <=15.01.03 (Tapaukset 1–3)
+#### (1) Maksupvm <=15.01.03 (Tapaukset 1–3)
 
 Jäljellä oleva summa per  
 
@@ -227,7 +227,7 @@ Normaalit kohdistussäännöt
 
 (2) Mikäli maksu osuu tälle välille kaikkia kohdistettavia tapahtumia ei voida sulkea edes toleranssilla.  
 
-#### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9"></a>(2) Maksupvm on välillä 16.1.03 ja 17.01.2003 (Tapaukset 4-9)
+#### (2) Maksupvm on välillä 16.1.03 ja 17.01.2003 (Tapaukset 4-9)
 
 Jäljellä oleva summa per  
 
@@ -239,7 +239,7 @@ Normaalit kohdistussäännöt
 
 (2) Mikäli maksu osuu tälle välille kaikkia kohdistettavia tapahtumia ei voida sulkea edes toleranssilla.  
 
-#### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21"></a>(3) Maksupvm on välillä 18.01.2003 ja 20.1.03 (Tapaukset 10-21)
+#### (3) Maksupvm on välillä 18.01.2003 ja 20.1.03 (Tapaukset 10-21)
 
 Jäljellä oleva summa per  
 
@@ -251,7 +251,7 @@ Normaalit kohdistussäännöt
 
 (2) Mikäli maksu osuu tälle välille kaikkia kohdistettavia tapahtumia ei voida sulkea edes toleranssilla.  
 
-#### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27"></a>(4) Maksupvm on välillä 21.01.2003 ja 22.01.2003 (Tapaukset 22-27)
+#### (4) Maksupvm on välillä 21.01.2003 ja 22.01.2003 (Tapaukset 22-27)
 
 Jäljellä oleva summa per  
 
@@ -263,7 +263,7 @@ Normaalit kohdistussäännöt
 
 (2) Mikäli maksu osuu tälle välille kaikkia kohdistettavia tapahtumia ei voida sulkea edes toleranssilla.  
 
-#### <a name="5-payment-date-is-after-012203-scenarios-28-30"></a>(5) Maksupvm 22.01.2003 jälkeen (Tapaukset 28-30)
+#### (5) Maksupvm 22.01.2003 jälkeen (Tapaukset 28-30)
 
 Jäljellä oleva summa per  
 
@@ -275,7 +275,7 @@ Normaalit kohdistussäännöt
 
 (2) Mikäli maksu osuu tälle välille kaikkia kohdistettavia tapahtumia ei voida sulkea edes toleranssilla.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Taloushallinto](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  

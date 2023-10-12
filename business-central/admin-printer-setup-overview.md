@@ -6,15 +6,17 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics365-business-central
 ms.topic: overview
-ms.date: 02/10/2023
+ms.date: 09/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="printer-setup-and-management-overview"></a>Tulostimen asetusten ja hallinnan yleiskuvaus
+# Tulostimen asetusten ja hallinnan yleiskuvaus
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Asiakirjojen ja raporttien tulostaminen [!INCLUDE[prod_short](includes/prod_short.md)]ista on tärkeä tehtävä yrityskäyttäjille. Käyttäjä haluaa yleensä lähettää tulostustyöt suoraan johonkin organisaation tulostimiin riippumatta siitä, mikä [!INCLUDE[prod_short](includes/prod_short.md)] -asiakasohjelma tai -sovellus on käytössä. Koska [!INCLUDE[prod_short](includes/prod_short.md)] online on pilvipalvelu, se ei voi olla suoraan yhteydessä käyttäjien laitteisiin yhdistettyihin tulostimiin. Se voidaan kuitenkin yhdistää pilvipohjaisiin tulostimiin.
 
-## <a name="what-are-your-printer-possibilities-in-business-central"></a>Business Centralin tulostinmahdollisuudet
+## Business Centralin tulostinmahdollisuudet
 
 [!INCLUDE[prod_short](includes/prod_short.md)]issa on seuraavat tulostamista tukevat ominaisuudet:
 
@@ -27,15 +29,15 @@ Asiakirjojen ja raporttien tulostaminen [!INCLUDE[prod_short](includes/prod_shor
 Tulostimet määritetään pääasiassa [!INCLUDE[prod_short](includes/prod_short.md)]in **Tulostimien hallinta** -sivulla. Yleistulostuksen tulostimien yhteydessä on kuitenkin ehkä käytettävä myös Microsoft 365 -hallintakeskusta ja Azure-portaalia.
 
 > [!IMPORTANT]
-> Paikallisessa Business Centralissa yleistulostus ja sähköpostitulostus edellyttävät Azure Active Directory (AD) -tai NavUserPassword-todennuksen käyttöä.
+> Paikallisessa Business Centralissa yleistulostus ja sähköpostitulostus edellyttävät Microsoft Entra ID- -tai NavUserPassword-todennuksen käyttöä.
 
-## <a name="custom-printer-extensions"></a>Mukautetut tulostinlaajennukset
+## Mukautetut tulostinlaajennukset
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tukee muita mukautettuja tulostinlaajennuksia, joilla saadaan käyttöön vielä lisää tulostusominaisuuksia. Jos asennettuna on mukautettuja tulostinlaajennuksia, sovelluksessa voi olla sellaisia tulostusominaisuuksia, joita ei käsitellä tässä artikkelissa.
 
 AL-kehittäjille tarkoitettuja lisätietoja tulostinlaajennusten luomisesta on kohdassa [Tulostinlaajennusten kehittäminen Business Centralissa](/dynamics365/business-central/dev-itpro/developer/devenv-reports-printing).
 
-## <a name="next-steps"></a>Seuraavat vaiheet
+## Seuraavat vaiheet
 
 - [Yleistulostuksen tulostimien määrittäminen](admin-printer-setup-universal-print.md)  
 - [Sähköpostitulostuksen määrittäminen](admin-printer-setup-email.md)  

@@ -79,13 +79,11 @@ Pankkitilit [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa rekister�
    Kenttä eroaa **pankkitilin nro** -kentästä, joka on käytettävissä myös **Yleinen**-pikavälilehdessä.
 4. Täytä **Pankkitilikortti**-sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Lisätietoja aiheeseen liittyvistä kursseista on [Microsoft Learnissa](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
-
 ## Katso myös
 
 [Tilikartan määrittäminen](finance-setup-chart-accounts.md)  
 [Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md)  
-[Suorita ja tulosta raportteja](ui-work-report.md)  
+[Raporttien suorittaminen ja tulostaminen](ui-work-report.md)  
 [Business Centralin pika-aloitus](quick-start-business-central.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

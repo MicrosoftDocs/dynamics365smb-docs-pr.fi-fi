@@ -65,7 +65,7 @@ sections:
       - question: |
           Mistä löydän tämän rivinumeron?
         answer: |
-          Esimerkiksi myyntitilauksen tai ostolaskun asiakirjat koostuvat otsikoista ja riveistä. Kullakin rivillä on numero, jota [!INCLUDE [prod_short](includes/prod_short.md)] käyttää tämän rivin tunnistamiseen. Tämän seurauksena näyttöön voi tulla esimerkiksi varoitus- tai virhesanoma, jonka mukaan rivillä numero 1000 on jotain vikaa. Rivi numerot on piilotettu [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman oletusversiossa. Jos haluat nähdä rivinumerot, sinun täytyy mukauttaa nykyistä sivua ja lisätä **Rivinro.** -kentässä. Lue lisää kohdasta [Työtilan mukauttaminen](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).  
+          Esimerkiksi myyntitilauksen tai ostolaskun asiakirjat koostuvat otsikoista ja riveistä. Kullakin rivillä on numero, jota [!INCLUDE [prod_short](includes/prod_short.md)] käyttää tämän rivin tunnistamiseen. Tämän seurauksena näyttöön voi tulla esimerkiksi varoitus- tai virhesanoma, jonka mukaan rivillä numero 1000 on jotain vikaa. Rivi numerot on piilotettu [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman oletusversiossa. Jos haluat nähdä rivinumerot, sinun täytyy mukauttaa nykyistä sivua ja lisätä **Rivinro.** -kentässä. Lue lisää kohdasta [Työtilan mukauttaminen](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
       - question: |
           Miksi ohjeessa kerrotaan toiminnoista, joita en voi käyttää?
         answer: |
@@ -90,7 +90,7 @@ sections:
 
           Jos kirjaudut jollain muulla kuin Microsoft 365 -työtilillä (kuten joe@mysolution.com) ja sinulla on Microsoft 365 -tilaus, voit liittää toimialueen (*mysolution.com*) Microsoft 365 -tilaukseen. Lue lisätietoja kohdasta [Mikä on toimialue?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) Microsoft 365 -sisällössä.  
 
-          Jos sinulla ei ole Microsoft 365 -tilausta etkä halua ostaa sitä, kirjautumisen yhteydessä valmistellaan uuden Azure Active Directory -vuokraajan, jonka avulla voi käyttää edistyneitä hallintatyökaluja Azure-portaalissa.  
+          Jos sinulla ei ole Microsoft 365 -tilausta etkä halua ostaa sitä, kirjautumisen yhteydessä valmistellaan uuden Microsoft Entra -vuokraajan, jonka avulla voi käyttää edistyneitä hallintatyökaluja Azure-portaalissa.  
       - question: |
           Mitä Microsoft 365 -integraatio tarkoittaa?
         answer: "[!INCLUDE[prod_short](includes/prod_short.md)] -verkkoversio on täysin integroitu Microsoft 365:een, joten voit siirtyä vapaasti Microsoft 365 -sovellusten ja [!INCLUDE[prod_short](includes/prod_short.md)]in välillä sovellusten käynnistysohjelman avulla. Voit esimerkiksi avata [!INCLUDE[prod_short](includes/prod_short.md)]in tietoja Excelissä, tulostaa raportteja Wordin avulla\_ja käyttää [!INCLUDE[prod_short](includes/prod_short.md)]in tietoja Outlookissa. Lue lisätietoja kohdasta [[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md).  \n"

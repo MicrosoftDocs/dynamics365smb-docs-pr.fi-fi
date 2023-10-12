@@ -4,12 +4,12 @@ metadata:
   description: Katso vastauksia usein kysyttyihin kysymyksiin Business Centralin käyttämisestä puhelimessa tai tabletissa.
   author: brentholtorf
   ms.topic: faq
-  ms.devlang: na
-  ms.tgt_pltfrm: na
-  ms.workload: na
+  ms.service: dynamics365-business-central
   ms.search.keywords: 'phone, tablet'
-  ms.date: 10/25/2021
+  ms.date: 09/21/2023
   ms.author: bholtorf
+  ms.reviewer: jswymer
+  ms.custom: bap-template
 title: Mobiilisovellukset – usein kysytyt kysymykset
 summary: |
   Tässä artikkelissa vastataan kokeneiden käyttäjien [!INCLUDE [prod_short](includes/prod_short.md)]in mobiilisovelluksia koskeviin usein kysyttyihin kysymyksiin.  
@@ -38,8 +38,8 @@ sections:
           | Toiminnot toimintopalkissa | Vain korostetut toiminnot näytetään. | Vain korostetut toiminnot näytetään. |  |
           | Tietoruudut | Ei näytetä luettelosivuilla tai työkirjasivuilla. | Ei näytetä luettelosivuilla tai työkirjasivuilla. | `Customer`-luettelo `Small Business` -roolikeskuksessa. |
           | Lisäsuodattimet | Sarakekohtaista suodatusta ei ole käytettävissä. | Sarakekohtaista suodatusta ei ole käytettävissä. | `Customer`-luettelosivulla. |
-          | Kerro, mitä haluat tehdä | Ei käytettävissä vielä. | Ei käytettävissä vielä. | Lisätietoja: [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md). |  |
-          | Roolin hallinta | Ei käytettävissä vielä. | Ei käytettävissä vielä. | Lisätietoja: [Sivujen etsiminen roolienhallinnan avulla](ui-role-explorer.md). |
+          | Kerro, mitä haluat tehdä | Sen on oltava käytössä [ominaisuuksien hallinnassa](/dynamics365/business-central/dev-itpro/administration/feature-management) käyttämällä kytkintä **Ominaisuus: Etsi sivuja ja tietoja mobiilisovelluksella**. Sovellustulosten **Hae Microsoft AppSourcesta** -osa ei ole käytettävissä. | Sama kuin tabletit | Lisätietoja: [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md). |  |
+          | Roolienhallinta | Ei käytettävissä vielä. | Ei käytettävissä vielä. | Lisätietoja: [Sivujen etsiminen roolienhallinnan avulla](ui-role-explorer.md). |
           | Pikavälilehtien kentät | Luettelosivujen pikavälilehtien kentät eivät näy. Vain repeater-ohjausobjekti näkyy sivun sisältöalueessa. | Ei käytettävissä. |  |
           | Valitse koko luettelosta | Ei käytettävissä hakujen yhteydessä. Käyttäjät eivät voi käyttää hakusivun toimintoja, eivätkä he voi käyttää kaikkia tietueita. | Ei käytettävissä hakujen yhteydessä. Käyttäjät eivät voi käyttää hakusivun toimintoja, eivätkä he voi käyttää kaikkia tietueita. | `Item Card` -kohdassa, kun valitaan **Perusmittayksikkö**. |
           | Etsi kaikista luettelon sarakkeista | Osittain tuettu. Haku ei sisällä FlowField-kenttiä. | Osittain tuettu. Haku ei sisällä FlowField-kenttiä. | Katso esimerkkejä `Customers`-luettelosivulta. |
@@ -61,7 +61,7 @@ sections:
       - question: |
           Voiko vieraskäyttäjät käyttää Business Central -ratkaisua sovelluksen avulla?
         answer: |
-          Ei. Vieraskäyttäjät ovat jostain muusta kuin omasta Azure Active Directory (AD) -vuokraajasta kutsuttuja käyttäjiä. Tässä tapauksessa sovellus todennetaan vieraskäyttäjän ensisijaiseen Azure AD -vuokraajaan. Kokeile Business Central -päätepisteen avaamista kyseisessä vuokraajassa oman vuokraajan sijaan.  
+          Nro Vieraskäyttäjät ovat jostain muusta kuin omasta Microsoft Entra -vuokraajasta kutsuttuja käyttäjiä. Tässä tapauksessa sovellus todennetaan vieraskäyttäjän ensisijaiseen Microsoft Entra -vuokraajaan. Kokeile Business Central -päätepisteen avaamista kyseisessä vuokraajassa oman vuokraajan sijaan.  
 additionalContent: |
 
   ## Katso myös

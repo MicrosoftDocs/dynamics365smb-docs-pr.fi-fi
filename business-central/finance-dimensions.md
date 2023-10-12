@@ -238,13 +238,11 @@ Tapahtumasivulla näet, onko tapahtumille globaaleja dimensioita. Kaksi globaali
 > [!NOTE]  
 > **Tapahtuman dimensiot** -sivulla näkyy kerralla yhden tapahtuman dimensiot. Näet, kun selaat tapahtumia, **Tapahtuman dimensiot** -sivun sisältö muuttuu vastaavasti.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/dimensions-dynamics-365-business-central/index)
-
 ## Katso myös
 
 [Business Intelligence](bi.md)  
-[Rahoitus](finance.md)  
-[Tietojen analysointi dimensioiden mukaan](bi-how-analyze-data-dimension.md)  
+[Taloushallinto](finance.md)  
+[Tietojen analysoiminen dimensioiden mukaan](bi-how-analyze-data-dimension.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

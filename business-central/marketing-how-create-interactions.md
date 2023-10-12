@@ -1,52 +1,55 @@
 ---
-title: Vuorovaikutusten luominen kontakteille ja segmenteille
-description: 'Tässä ohjeaiheessa kerrotaan, miten vuorovaikutukset luodaan Business Central -sovelluksessa asiakkaiden ja segmenttien kanssa käydylle viestinnälle. Kyse voi olla esimerkiksi suoramainonnasta.'
-documentationcenter: ''
-author: jswymer
+title: Vuorovaikutusten luominen yhteyshenkilöille ja segmenteille
+description: 'Tässä ohjeaiheessa kerrotaan, miten vuorovaikutukset luodaan Business Central -sovelluksessa asiakkaiden ja segmenttien kanssa käydylle viestinnälle.'
+author: brentholtorf
+ms.author: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.reviewer: ivkoleti
+ms.date: 04/01/2021
+ms.custom: bap-template
 ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5077, 5078, 5074, 5076, 5186, 5075, 5079'
-ms.date: 04/01/2021
-ms.author: jswymer
 ---
-# <a name="create-interactions-on-contacts-and-segments"></a>Vuorovaikutusten luominen kontakteille ja segmenteille
-Voit luoda vuorovaikutuksia, kun haluat tallentaa kaikki vuorovaikutukset ja kaiken yhteydenpidon (esimerkiksi postin), joita sinulla on kontaktiesi ja segmenttiesi kanssa.
+# Vuorovaikutusten luominen yhteyshenkilöille ja segmenteille
 
-Ennen vuorovaikutusten luomista sinun täytyy määrittää vuorovaikutusmallit. Lisätietoja on ohjeaiheessa [Vuorovaikutusmallien määrittäminen](marketing-interactions.md).
+Voit luoda vuorovaikutuksia, joiden avulla voit seurata yhteydenpitoa, jota sinulla on yhden kontaktin kanssa tai jossa on useita kontakteja segmenteissäsi. Vuorovaikutusten luonnin helpottamiseksi [!INCLUDE [prod_short](includes/prod_short.md)] tarjoaa **Luo vuorovaikutus** -asetusten ohjatun määrityksen. Oppaasta on apua, kun halutaan tallentaa tärkeitä vuorovaikutustietoja.
 
-## <a name="to-create-an-interaction"></a>Integroinnin luominen
-1. Avaa kontakti-, myyjä- tai vuorovaikutuslokitapahtuma.
+Ennen vuorovaikutusten luomista sinun täytyy kuitenkin määrittää vuorovaikutusmallit. Lisätietoja vuorovaikutusmalleista on [Vuorovaikutusmallien määrittäminen](marketing-interactions.md) -kohdassa.
+
+## Vuorovaikutuksen luominen yhteyshenkilön kanssa
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yhteyshenkilöt**, **Myyjä** tai **Vuorovaikutuslokitapahtuma** ja valitse liittyvä linkki.
 2. Valitse **Luo vuorovaikutus** -toiminto.
-3. Täytä kentät ja valitse **OK**-painike.
+3. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Jos haluat suorittaa toisen tehtävän ennen vuorovaikutuksen suorittamista, valitse **Peruuta** ja valitse sitten yhteydenpidon suorittaminen myöhemmin. Tällöin vuorovaikutusta lykätään.
+> Jos sinun täytyy lopettaa ennen vuorovaikutuksen päättymistä, voit valita **Peruuta** ja määrittää, haluatko tallentaa asetukset, jotta voit jatkaa myöhemmin. Jos haluat lisätietoja lykätyistä vuorovaikutuksista, siirry [Lykätyn vuorovaikutuksen viimeistely](#to-finish-setting-up-a-postponed-interaction) -kohtaan.
 
-## <a name="to-finish-and-delete-postponed-interactions"></a>Lykättyjen vuorovaikutusten lopettaminen ja poistaminen
-1. Avaa kontakti-, myyjä- tai vuorovaikutuslokitapahtuma.
-2. Valitse **Lykätyt vuorovaikutukset**.
-3. Valitse lopetettava vuorovaikutus ja valitse sitten **Jatka**-toiminto.
+## Vuorovaikutusten luominen segmentille
 
-## <a name="to-create-an-interaction-on-a-segment"></a>Vuorovaikutusten luominen segmentille
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Segmentit** ja valitse sitten vastaava linkki.
-2. Määritä, minkä vuorovaikutuksen haluat liittää segmenttiin, täyttämällä **Segmentti**-sivulla **Vuorovaikutus**-osan kentät.
+2. Valitse **Luo vuorovaikutus** -toiminto.
+3. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-    Kun olet liittänyt vuorovaikutuksen segmenttiin, voit tehdä jokaisen segmentin kontaktin vuorovaikutuksesta yksilöllisen, esimerkiksi valitsemalla toisen vuorovaikutusmallin **Segmentti**-sivun riveillä.  
-3. Voit kirjata segmentin ja vuorovaikutukset lokiin valitsemalla **Loki**-toiminnon. **Lokin segmentti** -sivu avautuu.
-4. Jos haluat luoda uuden segmentin, joka sisältää samat kontaktit, valitse **Luo seurantasegmentti** -valintaruutu. Jotta ohjelma luo seurantasegmentin, segmenttien numerosarja on määritettävä **Kontaktienhallinnan asetukset** -sivulla.
+> [!TIP]
+> Sen jälkeen kun olet liittänyt vuorovaikutuksen segmenttiin, **Segmentti**-sivulla on useita muita toimenpiteitä:
+>
+> * Mukauta jokaisen segmentin kontaktin vuorovaikutusta esimerkiksi valitsemalla riveillä toinen vuorovaikutusmalli.  
+>* Kirjaa segmentti ja vuorovaikutukset lokiin valitsemalla **Loki**-toiminto, joka avaa **Lokin segmentti** -sivun.
+> * Jos haluat luoda uuden segmentin, joka sisältää samat kontaktit, valitse **Luo seurantasegmentti** -valintaruutu. Tämä asetus edellyttää, että segmenteille on määritetty numerosarja **Kontaktienhallinnan asetukset** -sivulla.
 
 Vuorovaikutus tallennetaan kullekin kontaktille **Vuorovaikutuslokitapahtuma**-taulukon segmentissä. Tämän jälkeen segmentti kirjataan lokiin. Lokiin kirjatut segmentit löytyvät **Lokiin kirjattu segmentti** -sivulta.
 
-Jos olet valinnut **Luo seurantasegmentti** -valintaruudun, ohjelma luo automaattisesti uuden segmentin, jossa on samat kontaktit kuin juuri lokiin kirjaamassasi segmentissä.
+## Lykätyn vuorovaikutuksen viimeistely
 
-## <a name="see-also"></a>Katso myös
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lykätyt vuorovaikutukset** ja valitse sitten vastaava linkki.
+2. Valitse lopetettava vuorovaikutus ja valitse sitten **Jatka**-toiminto.
+
+## Katso myös
+
 [Vuorovaikutusten tallentaminen](marketing-interactions.md)  
 [Kontaktien hallinta](marketing-contacts.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [Business Centralin käyttäminen](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

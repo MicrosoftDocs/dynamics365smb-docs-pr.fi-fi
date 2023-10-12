@@ -10,13 +10,13 @@ ms.search.form: null
 ms.date: 09/05/2023
 ms.custom: bap-template
 ---
-# <a name="what-is-local-functionality-in-"></a>Mitä ovat [!INCLUDE[prod_long](includes/prod_long.md)]in paikalliset toiminnot?
+# Mitä ovat [!INCLUDE[prod_long](includes/prod_long.md)]in paikalliset toiminnot?
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in yhdistetty lokalisaatiostrategia sisältää sekä Microsoftin että kumppanin vetämät mallit. Tässä osassa on kuvaukset niissä maissa ja niillä alueilla käytettävistä toiminnoista, joissa säädösten noudattaminen ja muut paikalliset toiminnot saadaan Microsoftin avulla.  
 
 Luettelo tällä hetkellä tuetuista markkinoista on kohdassa [Saatavuus maassa/alueella ja tuetut käännökset.](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 
-## <a name="local-functionality"></a>Paikalliset toiminnot
+## Paikalliset toiminnot
 
 Seuraavassa taulukossa on linkkejä artikkeleihin, joissa on tietoja kunkin maan tai alueen paikallisista toiminnoista.
 
@@ -47,11 +47,11 @@ Seuraavassa taulukossa on linkkejä artikkeleihin, joissa on tietoja kunkin maan
 |        | Intia | [Intian paikalliset toiminnot](LocalFunctionality/India/india-local-functionality.md) |
 |        | Uusi-Seelanti | [Uusi-Seelannin paikalliset toiminnot](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### <a name="other-countriesregions"></a>Muut maat ja alueet
+### Muut maat ja alueet
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on saatavana myös muilla markkina-alueilla lokalisointisovellusten kautta. Jos Microsoftin kumppani on kehittänyt maassasi/alueellasi käytettävän lokalisointisovelluksen, löydät sen [AppSourcesta](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Ympäristöjen luonti](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  

@@ -9,7 +9,7 @@ Kun olet lisännyt kaikki nimikkeet riveille, laskun alennus voidaan laskea koko
 Alennus lasketaan sen myyntiasiakirjan kaikkien rivien perusteella, jossa **Salli laskualennus** -valintaruutu on valittu. Oletusarvon mukaan laskualennukset ovat sallittuja. Kuitenkin esimerkiksi nimikekuluja sisältäviä rivejä ei sisällytetä laskualennuksen laskentaan. Voidaksesi kohdistaa alennuksen tällaisiin riveihin, sinun tulee syöttää arvot **Rivialennuksen määrä** -kentän riveille.  
 
 > [!NOTE]
-> Oletusarvon mukaan **Salli laskualennus**- ja **Rivin alennussumma** -kentät on piilotettu riveillä. Jos kenttiä ei ole käytettävissä, voit lisätä ne mukauttamalla sivua. Lisätietoja on kohdassa [Työtilan mukauttaminen](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+> Oletusarvon mukaan **Salli laskualennus**- ja **Rivin alennussumma** -kentät on piilotettu riveillä. Jos kenttiä ei ole käytettävissä, voit lisätä ne mukauttamalla sivua. Lisätietoja on kohdassa [Työtilan mukauttaminen](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 > [!TIP]
 > Jos **Myyntien ja myyntisaamisten asetukset** -sivun **Lask. laskun alennus** -kentässä on valintamerkki, laskun alennus laskettiin automaattisesti. Laskentatapa vaihtelee käyttämäsi myyntiasiakirjan tyypin mukaan.

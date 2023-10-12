@@ -8,10 +8,10 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'bill, sale, invoice, order'
 ms.search.form: '43, 48, 9301'
-ms.date: 09/01/2022
+ms.date: 09/11/2023
 ms.author: bholtorf
 ---
-# <a name="invoice-sales"></a>Myynnin laskutus
+# Myynnin laskuttaminen
 
 Voit yleensä luoda joko myyntitilauksen tai -laskun tallentaaksesi sopimuksesi asiakkaan kanssa ja myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla.  
 
@@ -23,23 +23,23 @@ Myyntitilausta täytyy kuitenkin käyttää myyntilaskun sijaan, jos:
 
 Kaikissa muissa tapauksissa myyntitilaukset ja myyntilaskut toimivat samalla tavalla. Lue lisätietoja myyntitilausten käyttämisestä kohdasta [Tuotteiden myyminen](sales-how-sell-products.md).
 
-Voit neuvotella asiakkaan kanssa luomalla ensin myyntitarjouksen, jonka voit muuntaa myyntilaskuksi, kun hyväksyt myynnin. Lue lisätietoja kohdasta [Myyntitarjousten tekeminen](sales-how-make-offers.md).
+Voit neuvotella asiakkaan kanssa luomalla ensin myyntitarjoukseen, jonka voit muuntaa myyntilaskuksi, kun hyväksyt myynnin. Lisätietoja on kohdassa [Myyntitarjousten tekeminen](sales-how-make-offers.md).
 
-## <a name="create-sales-invoices"></a>Luo myyntilaskut
+## Luo myyntilaskut
 
-Jos asiakas päättää tehdä oston, luo liittyvä määrä- ja arvotapahtuma kirjaamalla myyntilasku. Kun kirjaat myyntilaskun, voit myös lähettää sen PDF-liitteenä sähköpostitse. Voit täyttää sähköpostin tekstiosan yhteenvedolla lasku- ja maksutiedoista. Tietoihin voi kuulua esimerkiksi PayPal-linkki. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostilla](ui-how-send-documents-email.md). Kun asiakas maksaa laskun, voit rekisteröidä maksun eri tavoilla organisaation koosta ja ensisijaisista työnkuluista riippuen. Lisätietoja on kohdassa [Rekisteröintimaksut](#registering-payments).  
+Jos asiakas päättää tehdä oston, luo liittyvä määrä- ja arvotapahtuma kirjaamalla myyntilasku. Kun kirjaat myyntilaskun, voit myös lähettää sen PDF-liitteenä sähköpostitse. Voit täyttää sähköpostin tekstiosan yhteenvedolla lasku- ja maksutiedoista. Tietoihin voi kuulua esimerkiksi PayPal-linkki. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostilla](ui-how-send-documents-email.md). Kun asiakas maksaa laskun, voit rekisteröidä maksun eri tavoilla organisaation koosta ja ensisijaisista työnkuluista riippuen. Lisätietoja on kohdassa [Rekisteröintimaksut](#register-payments).  
 
 Nimikkeen kortin tyyppi voi olla **Varasto**, **palvelu** tai **Muu kuin varasto**. Se määrittää, onko nimike fyysisen varasto yksikkö, työn aikayksikkö vai fyysinen yksikkö, jota ei vastaavasti säilytetä varastossa. Lisätietoja on kohdassa [Uusien nimikkeiden rekisteröinti](inventory-how-register-new-items.md). Myyntilaskuprosessi on sama kaikille kolmelle nimiketyypeille.
 
 Voit täyttää myyntilaskun asiakkaan kentät kahdella tavalla sen mukaan, onko asiakas jo rekisteröity. Katso vaihe 2 seuraavassa menettelyssä.
 
-### <a name="to-create-a-sales-invoice"></a>Myyntilaskujen luominen
+### Myyntilaskujen luominen
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntilaskut**, valitse sitten vastaava linkki.  
-2. Syötä **Asiakas**-kenttään nykyisen asiakkaan nimi. Jos asiakas kuitenkin on uusi eikä ole rekisteröitynyt, täytä asiakastiedot **myyntilasku**-sivulla seuraavien ohjeiden mukaan:
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntilaskut** ja valitse sitten vastaava linkki.  
+2. Syötä **Asiakkaan nimi**-kenttään nykyisen asiakkaan nimi. Jos asiakas kuitenkin on uusi eikä ole rekisteröitynyt, täytä asiakastiedot **myyntilasku**-sivulla seuraavien ohjeiden mukaan:
 
     1. Syötä **Asiakkaan nimi** -kenttään uuden asiakkaan nimi.
-    2. Valitse uuden asiakkaan rekisteröimisen valintaikkunassa **Kyllä**.
+    2. Valitse uuden asiakkaan rekisteröimisen valintaikkunassa **OK**.
     3. Valitse **Valitse uuden asiakkaan malli** -sivulla malli uuden asiakkaan kortin perusteella ja valitse sitten **OK**.
     4. Uuden asiakkaan kortissa näkyy valitun asiakasmallin tiedot. Täytä jäljellä olevat kentät. Lisätietoja on kohdassa [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md).  
     5. Kun olet määrittänyt asiakaskortin, valitse **Sulje** palataksesi **Myyntilasku**-sivulle.
@@ -53,7 +53,8 @@ Voit täyttää myyntilaskun asiakkaan kentät kahdella tavalla sen mukaan, onko
     Voit nyt täyttää **Rivit**-pikavälilehden tuotteilla, joita myyt asiakkaalle, tai mitä tahansa asiakkaan kanssa tapahtuvaa tapahtumaa varten, jonka haluat kirjata pääkirjanpitotilille.
 
 4. Valitse **Rivit**-pikavälilehden **Tyyppi**-kentässä sen tuotteen, kulun tai tapahtuman tyyppi, jonka kirjaat myyntirivin asiakkaalle.
-   * Jos olet määrittänyt toistuvien myyntien rivin asiakkaalle, kuten kuukausittainen täydennystilaus, voit näyttää sen järjestyksessä valitsemalla **Nouda toistuvat myyntirivit** -toiminnon.
+   > [!TIP]
+   > Jos olet määrittänyt toistuvien myyntien rivin asiakkaalle, kuten kuukausittainen täydennystilaus, voit näyttää sen järjestyksessä valitsemalla **Nouda toistuvat myyntirivit** -toiminnon.
 5. Valitse **Nro**-kenttään kirjattava tietue **Tyyppi**-kentän arvon mukaan.
 
     Jätä **Nro**-kenttä tyhjäksi seuraavissa tapauksissa:
@@ -77,7 +78,8 @@ Voit täyttää myyntilaskun asiakkaan kentät kahdella tavalla sen mukaan, onko
     Rivien alla olevat summakentät päivitetään automaattisesti aina, kun luot tai muokkaat rivejä ja näytät summat, jotka kirjataan päiväkirjoihin.
 
     > [!NOTE]
-    > Hyvin harvoin kirjatut summat ovat erilaisia kuin summakenttien summat. Tämä johtuu yleensä arvonlisäveroon liittyvistä pyöristyslaskelmista.<br /><br />Voit tarkistaa kirjattavat summat käyttämällä **Tilastot**-sivua. Sivulla otetaan huomioon pyöristyslaskelmat. Jos valitset **Vapauta**-toiminnon, summakentät päivitetään niin, että ne sisältävät pyöristyslaskelmat.
+    > Hyvin harvoin kirjatut summat ovat erilaisia kuin summakenttien summat. Tämä johtuu yleensä arvonlisäveroon liittyvistä pyöristyslaskelmista.<br /><br />Kun haluat tarkistaa kirjatut summat, käytä **Asiakastilastot**-tietoruutua. Jos valitset **Vapauta**-toiminnon, summakenttien arvot päivitetään niin, että ne sisältävät pyöristyslaskelmat.
+
 9. Syötä **Laskun alennussumma ilman veroja** -kenttään summa, joka vähennetään **Yhteensä sis. ALV:n** -kentässä olevasta arvosta.
 
     Jos asiakkaalle on määritetty laskualennukset, määritetty prosenttiluvun arvo lisätään automaattisesti **Asiakkaan laskun alennus-%** -kenttään, jos alennusehdot täyttyvät. Liittyvä summa lisätään **Laskun alennussumma ilman ALV:a** -kenttään. Lue lisätietoja kohdasta [Myyntihinnan, alennuksen ja maksusopimusten tallentaminen](sales-how-record-sales-price-discount-payment-agreements.md).
@@ -88,11 +90,11 @@ Asiakkaan ensisijainen asiakirjojen vastaanottomenetelmä näkyy **Kirjaa ja lä
 
 Nyt järjestelmässä luodaan liittyvä nimike ja asiakastapahtumat. Myyntilasku tulostetaan PDF-asiakirjana. Myyntilasku poistetaan myyntilaskujen luettelosta ja korvataan uudella asiakirjalla kirjattujen myyntilaskujen luettelosta.  
 
-### <a name="calculating-invoice-discounts-on-sales"></a>Myynnin laskualennusten laskenta
+### Myynnin laskualennusten laskenta
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## <a name="posted-invoices"></a>Kirjatut laskut
+## Kirjatut laskut
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
@@ -100,7 +102,7 @@ Voit helposti korjata tai peruuttaa kirjatun myyntilaskun ennen kuin se on makse
 
 [Avaa **Kirjatut myyntilaskut** -luettelo](https://businesscentral.dynamics.com/?page=143) [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksessa.
 
-## <a name="registering-payments"></a>Maksujen rekisteröiminen
+## Rekisteröi maksu
 
 Voit saada maksun ja rekisteröidä maksun eri tavoilla liiketoimintatarpeistasi riippuen: manuaalisesti, automaattisesti tai maksupalveluiden avulla.  
 
@@ -115,11 +117,11 @@ Voit luoda jopa suoraan maksettavia laskuja rekisteröimättömille asiakkaille,
 > [!TIP]
 > Jos haluat lähettää asiakkaille muistutuksia erääntyneistä maksuista, sinun täytyy määrittää ensin muistutustasot ja -ehdot. Lue lisätietoja kohdasta [Muistutusehtojen ja -tasojen määrittäminen](finance-setup-reminders.md).  
 
-## <a name="external-document-numbers"></a>Ulkoisen tiedoston numerot
+## Ulkoisen tiedoston numerot
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  

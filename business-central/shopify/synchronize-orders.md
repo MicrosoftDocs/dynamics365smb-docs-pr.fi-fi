@@ -10,11 +10,11 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
 
-# <a name="synchronize-and-fulfill-sales-orders"></a>Myyntitilausten synkronoiminen ja täyttäminen
+# Myyntitilausten synkronoiminen ja täyttäminen
 
 Tässä artikkelissa kuvataan tarvittavat asetukset ja vaiheet, jotka täytyy suorittaa myyntitilausten synkronoimiseksi ja täyttämiseksi Shopifylla [!INCLUDE[prod_short](../includes/prod_short.md)]issa.
 
-## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>Tilausten tuonnin määrittäminen Shopify-ostoskortissa
+## Tilausten tuonnin määrittäminen Shopify-ostoskortissa
 
 Syötä **Valuuttakoodi**, jos verkkokauppa käyttää eri valuuttaa kuin paikallinen valuutta (PVA). Määritetyllä valuutalla on oltava määritettynä vaihtokurssit. Jos verkkokauppa käyttää samaa valuuttaa kuin [!INCLUDE[prod_short](../includes/prod_short.md)], jätä kenttä tyhjäksi. 
 
@@ -33,7 +33,7 @@ Jos haluat vapauttaa myyntiasiakirjan automaattisesti, ota käyttöön **Vapauta
 Jos valitset **Shopify-tilausnro asiakirjarivillä** -kentän, [!INCLUDE [prod_short](../includes/prod_short.md)] lisää **Kommentti**-tyylin myyntirivit Shopify-tilausnumerolla.
 
 >[!NOTE]
->Myyntiasiakirja kohteessa [!INCLUDE[prod_short](../includes/prod_short.md)] linkittyy Shopify-tilaukseen ja voit lisätä **Shopify-tilausnumeron** kentän myyntitilausten, laskujen ja toimitusten luettelo- tai korttisivuille. Saat lisätietoja kentän lisäämisestä siirtymällä kohtaan [Sivun mukauttamisen aloittaminen **Mukauttaminen** -palkin avulla](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). 
+>Myyntiasiakirja kohteessa [!INCLUDE[prod_short](../includes/prod_short.md)] linkittyy Shopify-tilaukseen ja voit lisätä **Shopify-tilausnumeron** kentän myyntitilausten, laskujen ja toimitusten luettelo- tai korttisivuille. Saat lisätietoja kentän lisäämisestä siirtymällä kohtaan [Sivun mukauttamisen aloittaminen **Mukauttaminen** -palkin avulla](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode). 
 
 **Veroalueen prioriteetti** -kentässä voit määrittää prioriteetin, miten veroaluekoodi valitaan tilauksen osoitteissa. Tuotu Shopify-tilaus sisältää tietoja veroista. Verot lasketaan uudelleen, kun luot myyntiasiakirjat, joten on tärkeää, että ALV:n/veron asetukset ovat oikein [!INCLUDE[prod_short](../includes/prod_short.md)]-ohjelmassa. Lisätietoja veroista on ohjeaiheessa [Shopify-yhteyden verojen määrittäminen](setup-taxes.md).
 
@@ -50,7 +50,7 @@ Määrittele palautusten sijainti ja KP-tilit tavaroiden ja muiden hyvitysten pa
 
 Lisätietoja [Palautuksista ja hyvityksistä](synchronize-orders.md#returns-and-refunds)
 
-### <a name="shipment-method-mapping"></a>Toimitustavan yhdistäminen
+### Toimitustavan yhdistäminen
 
 **Toimitustavan koodi** Shopifysta tuoduille myyntiasiakirjoille, voidaan täyttää automaattisesti. **Toimitusehdon yhdistämismääritys** täytyy määrittää.
 
@@ -63,21 +63,20 @@ Lisätietoja [Palautuksista ja hyvityksistä](synchronize-orders.md#returns-and-
 > [!NOTE]  
 > Jos myyntitilaukseen liittyy useita toimituskuluja, vain yksi valitaan toimitustavaksi ja liitetään myyntiasiakirjaan.
 
-### <a name="location-mapping"></a>Sijainnin kartta
+### Sijainnin kartta
 
-Sijaintikartoitus tarvitaan kolmea tarkoitusta varten:
-
-* Jos haluat synkronoida varaston, katso lisätietoja kohdasta [Synkronoi varasto Shopifyhin](synchronize-items.md#sync-inventory-to-shopify)
-* Voit täyttää Shopifysta tuotujen myyntiasiakirjojen **sijaintikoodin**. Tämä on tärkeää, jos **Sijainti pakollinen** -valitsin on otettu käyttöön **Varaston asetukset** -kortissa, muuten myyntiasiakirjoja ei voi luoda.
-* Shopify-tilauksen päivittäminen toimitustiedoilla **kirjattu myyntitoimitus** -sivun perusteella.
+Sijainnin yhdistämismääritystä tarvitaan, jotta **Sijaintikoodi**-kenttä täytetään myyntiasiakirjojen rivien osalta, jotka on tuotu Shopifysta. Tämä on tärkeää, jos **Sijainti pakollinen** -valitsin on otettu käyttöön **Varaston asetukset** -kortissa, muuten myyntiasiakirjoja ei voi luoda.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Shopify-kaupat**, valitse sitten vastaava linkki.
 2. Valitse kauppa, jolle haluat määrittää sijaintien kartoituksen avataksesi **Shopify-kauppa-kortti**-sivun.
 3. Valitse **Sijainnit** -toiminto, jolla **Shopify-myymäläsijainnit** avataan.
-4. Valitse **Hae Shopify-sijainnit** -toiminto, jos haluat tuoda kaikki Shopifyssa määritetyt sijainnit. Voit etsiä niitä [**Sijainnit**](https://www.shopify.com/admin/settings/locations)-asetuksista **Shopify-hallinta** -paneelista. Huomaa, että *Oletus*-arvona olevaa sijaintia käytetään tuotaessa täyttymättömiä Shopify-tilauksia.
+4. Valitse **Hae Shopify-sijainnit** -toiminto, jos haluat tuoda kaikki Shopifyssa määritetyt sijainnit. Voit etsiä niitä [**Sijainnit**](https://www.shopify.com/admin/settings/locations)-asetuksista **Shopify-hallinta** -paneelista. 
 5. Syötä **oletussijaintikoodi** ja vastaava sijainti [!INCLUDE[prod_short](../includes/prod_short.md)]issa.
 
-## <a name="run-the-order-synchronization"></a>Suorita tilausten synkronointi
+> [!NOTE]  
+> Sijainnin yhdistämismääritystä käytetään myös varaston synkronointiin. Lisätietoja on kohdassa [Synkronoi varasto Shopifyhin](synchronize-items.md#sync-inventory-to-shopify).
+  
+## Suorita tilausten synkronointi
 
 Seuraavassa kuvataan, miten myyntitilaukset tuodaan ja päivitetään.
 
@@ -99,14 +98,14 @@ Vaihtoehtoisesti voit etsiä **synkronoituja tilauksia Shopifysta** -erätyötä
 
 Voit ajoittaa tehtävän suoritettavaksi automaattisesti. Lisätietoja on kohdassa [Toistuvien tehtävien ajoittaminen](background.md#to-schedule-recurring-tasks).
 
-### <a name="under-the-hood"></a>Pinnan alla
+### Pinnan alla
 
 Shopify-yhdistin tuo tilaukset kahdessa vaiheessa:
 
 1.  Se tuo tilausotsikot **Tuotavat Shopify-tilaukset** -taulukkoon, kun ne vastaavat tiettyjä ehtoja:
     
-* Niitä ei arkistoida.
-* Ne luotiin tai muutettiin viimeisen synkronoinnin jälkeen.
+* Niitä ei arkistoida. Tämä tarkoittaa, että voit sisällyttää tilaukset synkronointiin tai jättää ne pois synkronoinnin ulkopuolelle arkistoimalla tai avaamalla ne Shopify-järjestelmänvalvojassa.
+* Ne on luotu tai muokattu edellisen synkronoinnin jälkeen. Tämä tarkoittaa sitä, että voit pakottaa tietyn tilauksen uudelleentuonnin, jos muutat tilausta, esimerkiksi lisäämällä **Muistiot** tai **Tunnistetiedot**.
 
 2.  Se tuo Shopify-tilauksia ja lisätietoja.
 * Shopify-yhdistin käsittelee kaikki ne **Tuotavat Shopify-tilaukset** -taulukon tietueet, jotka vastaavat **Synkronoi tilauksia Shopifysta** -pyyntösivulla määritettyjä suodatinperusteita. Esimerkiksi tunnisteet, kanava tai täyttämisen tila. Jos et ole määrittänyt suodattimia, se käsittelee kaikki tietueet.
@@ -124,18 +123,18 @@ Shopify-yhdistin tuo tilaukset kahdessa vaiheessa:
 * Käsittele vain tiettyjä tilauksia. Sinun täytyy täyttää **kauppakoodi**-kenttä, valita vähintään yksi tilaus ja valita sitten **Tuo valitut tilaukset** -toiminto.
 * Poista tilaukset **Tuotava Shopify-tilaus** -sivusta, jos haluat jättää ne synkronoinnin ulkopuolelle.
 
-## <a name="review-imported-orders"></a>Tuotujen tilausten tarkistaminen
+## Tuotujen tilausten tarkistaminen
 
 Kun tuonti on valmis, voit tutkia Shopify-tilausta ja löytää kaikkia siihen liittyvät tiedot, kuten maksutapahtumat, toimituskulut, riskitason, muut määritteet ja tunnisteet tai täydennykset, jos tilaus oli jo täytetty Shopifyssa. Voit myös tarkastella mitä tahansa asiakkaalle lähetettyä tilausvahvistusta valitsemalla **Shopify-tilasivu**-toiminnon.
 
 > [!NOTE]  
 > Voit siirtyä **Shopify-tilaukset**-ikkunaan suoraan, jolloin näet tilaukset, joissa on *avoin* tila kaikista kaupoista. Jos haluat tarkastella valmiita tilauksia, sinun täytyy avata **Shopify-tilaukset**-sivu tietystä **Shopify-ostoskortti**-ikkunasta.
 
-## <a name="create-sales-documents-in-business-central"></a>Luo myyntiasiakirjoja Business Centralissa
+## Luo myyntiasiakirjoja Business Centralissa
 
 Jos **Tilausten automaattinen luominen**-vaihto on otettu käyttöön **Shopify-ostoskortissa**, [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelma yrittää luoda myyntiasiakirjan, kun tilaus tuodaan. Jos sinulla esiintyy ongelmia, kuten jos asiakas tai tuote puuttuu, sinun täytyy korjata ongelmat ja luoda myyntitilaus uudelleen.
 
-### <a name="to-create-sales-documents"></a>Myyntiasiakirjojen luominen
+### Myyntiasiakirjojen luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Shopify-kaupat**, valitse sitten vastaava linkki.
 2. Valitse kauppa, jolle haluat synkronoida tilaukset avataksesi **Shopify-kauppa-kortti**-sivun.
@@ -147,7 +146,7 @@ Jos Shopify-tilaus edellyttää täyttämistä, **myyntitilaus** luodaan. Täyte
 
 Myyntiasiakirja luodaan nyt, ja sitä voidaan hallita [!INCLUDE[prod_short](../includes/prod_short.md)]in vakiotoimintojen avulla.
 
-### <a name="manage-missing-customers"></a>Puuttuvien asiakkaiden hallinta
+### Puuttuvien asiakkaiden hallinta
 
 Jos asetuksesi estävät asiakkaan luomisen automaattisesti ja sopivaa asiakasta ei löydy, sinun täytyy kohdistaa asiakas Shopify-tilaukseen manuaalisesti. Voit tehdä tämän muutamalla eri tavalla:
 
@@ -155,7 +154,7 @@ Jos asetuksesi estävät asiakkaan luomisen automaattisesti ja sopivaa asiakasta
 * Voit valita asiakasmallin koodin ja luoda ja kohdistaa asiakkaan sitten **Shopify-tilaukset**-sivun **Luo uusi asiakas** -toiminnolla. Huomaa, että Shopify-asiakkaalla täytyy olla vähintään 1 osoite. Shopify-myyntipisteen kautta luoduista tilauksista puuttuvat usein osoitetiedot.
 * Voit yhdistää aiemmin luodun asiakkaan **Shopify-asiakkaaseen** **Shopify-asiakas**-ikkunassa ja valita sitten **Shopify-tilaukset** -sivulla **Etsi yhdistämismääritys** -toiminto.
 
-### <a name="how-the-connector-chooses-which-customer-to-use"></a>Miten yhdistin valitsee käytettävän asiakkaan
+### Miten yhdistin valitsee käytettävän asiakkaan
 
 *Tuo tilaus Shopifysta* -toiminto yrittää valita asiakkaat seuraavassa järjestyksessä:
 
@@ -171,7 +170,7 @@ Seuraavat vaiheet määräytyvät **asiakkaan yhdistämismäärityksen tyypin** 
 > [!NOTE]  
 > Yhdistin käyttää laskutusosoitteen tietoja ja luo laskutusasiakkaan [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmaan. Tilausasiakas on sama kuin laskutusasiakas.
 
-### <a name="different-processing-rules-for-orders"></a>Tilausten eri prosessisäännöt
+### Tilausten eri prosessisäännöt
 
 Haluat ehkä käsitellä tilauksia eri tavalla säännön mukaan. Esimerkiksi tietyn myyntikanavan tilaukset (kuten POS) käyttävät oletusasiakasta, mutta haluat, että verkkokaupassa on todellista tietoa asiakkaasta.
 
@@ -185,14 +184,15 @@ Esimerkki: sinulla on verkkokauppa sekä Shopify-myyntipiste. Haluat käyttää 
 4. Luo Shopify-myymälä nimeltä *POS* ja linkitä se samaan Shopify-tiliin.
 6. Varmista, että nimikkeen tai tuotteen synkronointi on poistettu käytöstä.
 7. Valitse oletusasiakasta käyttävä yhdistin.
-8. Luo toistuva työjonotapahtuma raportille 30104 **Synkronoi tilauksia Shopifysta**. Valitse **Shopify-kauppakoodi** **KAUPPA**-kentässä ja käytä suodattimia, kun haluat löytää kaikki tilaukset paitsi ne, jotka POS-myyntikanava luo. Esimerkiksi **<>Myyntipiste**
+8. Luo toistuva työjonotapahtuma raportille 30104 **Synkronoi tilauksia Shopifysta**. Valitse **Shopify-kauppakoodi** **KAUPPA**-kentässä ja käytä suodattimia, kun haluat löytää kaikki tilaukset paitsi ne, jotka POS-myyntikanava luo. Esimerkiksi **<>-myyntipiste**
 9. Luo toistuva työjonotapahtuma raportille 30104 **Synkronoi tilauksia Shopifysta**. Valitse **Shopify-kauppakoodi**-kentästä **POS** ja käytä suodattimia POS-myyntikanavan tuottamien tilausten keräämiseen. Esimerkiksi **Myyntipiste**.
 
 Kukin työjono tuo ja käsittelee määritettyjen suodattimien tilaukset ja käyttää vastaavan Shopify-kauppakortin sääntöjä. He esimerkiksi luovat myyntitilauspisteen oletusasiakkaalle.
 
->![Tärkeää] Jos haluat välttää ristiriitoja tilausten käsittelyssä, muista käyttää samaa työjonoluokkaa molemmissa työjonotapahtumissa.
+>[!Important]
+> Jos haluat välttää ristiriitoja tilausten käsittelyssä, muista käyttää samaa työjonoluokkaa molemmissa työjonotapahtumissa.
 
-### <a name="impact-of-order-editing"></a>Tilausten muokkaamisen vaikutus
+### Tilausten muokkaamisen vaikutus
 
 Shopifyssa:
 
@@ -206,6 +206,8 @@ Shopifyssa:
 |Käsittele tilaus: täytä, päivitä maksutiedot | Tilausotsikko päivittyy, rivit eivät. |Muutoksella ei ole vaikutusta siihen, miten tilaus tuodaan.|
 |Peruuta tilaus | Tilausotsikko päivittyy, rivit eivät. |Peruutettua tilausta ei ole tuotu |
 
+Kuten näet, joissakin tapauksissa voi olla kohtuullista poistaa muokattu tilaus [!INCLUDE[prod_short](../includes/prod_short.md)]-ohjelmasta ja tuoda se uutena tilauksena.
+
 [!INCLUDE[prod_short](../includes/prod_short.md)]issa:
 
 |Muokkaa|Vaikutus|
@@ -216,7 +218,7 @@ Shopifyssa:
 |Lisää määrää. Kirjaa toimitus. | Täydennystä ei synkronoida Shopifyn kanssa. |
 |Lisää uusi nimike. Kirjaa toimitus. | Shopify-tilaus merkitään täytetyksi. Rivejä ei päivitetä. |
 
-## <a name="synchronize-shipments-to-shopify"></a>Synkronoi toimitukset Shopifyhin
+## Synkronoi toimitukset Shopifyhin
 
 Kun Shopify-tilauksesta luotu myyntitilaus toimitetaan, voit synkronoida toimitukset Shopifyn kanssa.
 
@@ -233,9 +235,9 @@ Voit ajoittaa tehtävän suoritettavaksi automaattisesti. Lisätietoja on kohdas
 >[!Important]
 >Kirjatulla toimitusrivillä olevalla sijainnilla, myös tyhjällä sijainnilla, täytyy olla vastaava Shopify-sijainti. Muussa tapauksessa tätä riviä ei lähetetä takaisin Shopifyhin. Lisätietoja on kohdassa [Sijainnin yhdistämismääritys](synchronize-orders.md#location-mapping).
 
-Muista suorittaa **Synkronoi tilaukset Shopifysta** -toiminto päivittääksesi tilauksen jakelun tilan [!INCLUDE[prod_short](../includes/prod_short.md)]issa. Yhdistintoiminto arkistoi myös täysin maksetut ja täytetyt tilaukset sekä Shopifyssa että [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa edellyttäen, että ehdot täyttyvät.
+Muista suorittaa **Synkronoi tilaukset Shopifysta** -toiminto päivittääksesi tilauksen jakelun tilan [!INCLUDE[prod_short](../includes/prod_short.md)]issa. Yhdistintoiminto arkistoi myös täysin maksetut ja täytetyt tilaukset sekä Shopifyssa että [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa edellyttäen, että ehdot täyttyvät. 
 
-### <a name="shipping-agents-and-tracking-url"></a>Kuljetusliikkeet ja seuranta-URL-osoite
+### Kuljetusliikkeet ja seuranta-URL-osoite
 
 Jos **Kirjattu myyntitoimitus** -asiakirja sisältää **Kuljetusliikkeen koodi**- ja/tai **Kollin seurantanro** -kentän, nämä tiedot lähetetään Shopify'hin ja asiakkaalle toimituksen vahvistussähköpostissa.
 
@@ -247,7 +249,7 @@ Seurantayritys-kenttä täytetään seuraavassa järjestyksessä (suurimmasta pi
 
 Jos kuljetusliikkeen tietueen **Paketin seurannan URL-osoite** -kenttä on täytetty, toimitusvahvistus sisältää myös seuranta-URL-osoitteen.
 
-## <a name="returns-and-refunds"></a>Palautukset ja hyvitykset
+## Palautukset ja hyvitykset
 
 Shopifyn ja [!INCLUDE[prod_short](../includes/prod_short.md)]-ohjelman integroinnissa on tärkeää pystyä synkronoimaan mahdollisimman paljon liiketoimintatietoja. Tämän ansiosta rahoitus- ja varastotasot on helpompi pitää ajan tasalla [!INCLUDE[prod_short](../includes/prod_short.md)]-ohjelmassa. Synkronoitava data sisältää palautuksen ja hyvityksen, jotka tallennettiin Shopifyn järjestelmänvalvojan tai Shopify POS:in avulla.
 
@@ -268,7 +270,7 @@ Voit luoda myyntihyvityslaskuja hyvityksille. Hyvityslaskuissa voi olla seuraava
 >[!Note]
 >Luotuun hyvityslaskuun käytetään palautussijaintia, myös tyhjiä sijainteja, jotka on määritetty **Shopifyn kauppakortissa**. Järjestelmä ei ota huomioon alkuperäisiä sijainteja tilauksista tai toimituksista.
 
-## <a name="gift-cards"></a>Lahjakortit
+## Lahjakortit
 
 Voit myydä Shopify-kaupassa lahjakortteja, joita voidaan käyttää oikeiden tuotteiden maksamiseen.
 
@@ -276,6 +278,6 @@ Kun on kyse lahjakorteista, on tärkeää syöttää **myydyn lahjakortin tili**
 
 Jos haluat tarkastella myönnettyjä ja käytettyjä lahjakortteja, valitse ![Kerro-ominaisuuden avaava Hehkulamppu.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lahjakortit**, valitse sitten vastaava linkki.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Shopifyn yhdistimen käytön aloittaminen](get-started.md)  

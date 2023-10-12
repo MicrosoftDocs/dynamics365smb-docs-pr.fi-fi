@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 01/25/2023
+ms.date: 09/11/2023
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
@@ -38,6 +38,10 @@ Fyysisen varastoinnin poiminta-asiakirjaa ei voi luoda tyhjästä. Poiminnat ova
 > Fyysisen varastoinnin poimintarivit luodaan kokoonpanotilauksen **Jäljellä oleva määrä** -kentässä olevalle arvolle; kyseinen kokoonpanotilaus on linkitetty toimitettavaan myyntitilausriviin. Kaikki komponentit kerätään yhtenä toimintona. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden käsitteleminen fyysisen varastoinnin toimituksissa](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).  
 >  
 > Lisätietoja kokoonpanotilausten komponenttien poiminnasta, mukaan lukien tilanteissa, joissa kokoonpanon nimikkeet eivät liity myyntitoimitukseen, on kohdassa [Poiminta tuotantoon, kokoonpanoon tai projekteihin fyysisen varastoinnin laajennetuissa määrityksissä](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
+
+## Tarkista, ovatko nimikkeet poimittavissa
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
 ## Poiminta-asiakirjojen joukkoluonti poimintatyökirjan avulla
 
@@ -110,8 +114,6 @@ Fyysisen varastoinnin poiminta-asiakirjaa ei voi luoda tyhjästä. Poiminnat ova
 4. Kun nimikkeet on poimittu ja asetettu toimitusalueelle tai toimituksen varastopaikkaan, valitse **Rekisteröi poiminta** -toiminto.  
 
 Nimikkeet voidaan nyt tuoda toimitusalueelle ja toimitus voidaan kirjata, mukaan lukien liittyvä lähdeasiakirja, **F.var. toimitus** -sivulla. Lisätietoja on kohdassa [Nimikkeiden toimittaminen](warehouse-how-ship-items.md).
-
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/pick-ship-items-warehouse/)
 
 ## Katso myös
 

@@ -3,7 +3,7 @@ title: Nimikkeiden poiminta varaston poiminnalla
 description: Tietoja varaston poimintojen käyttämisestä lähdeasiakirjojen poiminta- ja toimitustietojen tallentamiseen ja kirjaamiseen.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
@@ -119,8 +119,6 @@ Skenaarioissa, joissa osa määrästä on kokoonpantava ja osa poimittava, luoda
 
 > [!NOTE]  
 > Jos nimikkeet ovat tilausta varten kokoonpantavia, varaston poiminta koskee linkitettyä myyntitilausta, kunnes varastosiirto luodaan kaikille kokoonpanon komponenteille.  
-
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/pick-ship-items-business-central/)
 
 ## Katso myös
 

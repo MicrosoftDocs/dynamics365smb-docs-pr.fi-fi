@@ -3,21 +3,21 @@ title: Dynamics 365 Sales -integrointi
 description: Tietoja Dynamics 365 Business Centralin valmistelusta Dynamics 365 Sales -integrointia varten.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'sales, crm, integration, integrating'
-ms.date: 06/14/2021
+ms.date: 09/28/2023
 ms.author: bholtorf
+ms.custom: bap-template
 ---
-# <a name="integrating-with-dynamics-365-sales"></a>Dynamics 365 Sales -integrointi
+# Dynamics 365 Sales -integrointi
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Myyjää pidetään usein liiketoiminnan eniten ulospäin suuntautuneena tehtävänä. Myyjien voisi kuitenkin olla hyödyllistä tarkastella liiketoimintaa myös sisäisesti, jotta he tiedostaisivat, mitä taustalla tapahtuu. Myyjät saavat merkityksellisiä tietoja, kun [!INCLUDE[prod_short](includes/prod_short.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] integroidaan. Integroinnin avulla käyttäjät näkevät, mitä tietoja [!INCLUDE[prod_short](includes/prod_short.md)] sisältää, kun käytössä on [!INCLUDE[crm_md](includes/crm_md.md)]. Myyntitarjousta valmistellessa voi esimerkiksi olla hyödyllistä tietää, riittääkö varasto tilauksen täyttämiseen. Lisätietoja on kohdassa [Dynamics 365 Salesin käyttäminen Business Centralissa](marketing-integrate-dynamicscrm.md).
 
 > [!NOTE]
 > Tässä ohjeaiheessa kerrotaan [!INCLUDE[crm_md](includes/crm_md.md)]- ja [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen online-versioiden integroinnista [!INCLUDE[prod_short](includes/cds_long_md.md)] -palvelun avulla. Lisätietoja paikallisesta määrityksestä on kohdassa [Paikallisen Dynamics 365 Salesin integroinnin valmistelu](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
-## <a name="integrating-through-dataverse"></a>Integroiminen Dataverse -palvelun avulla
+## Integroiminen Dataverse -palvelun avulla
 [!INCLUDE[prod_short](includes/prod_short.md)] voidaan integroida myös [!INCLUDE[prod_short](includes/cds_long_md.md)] -ratkaisun kanssa, joten tietojen yhdistäminen ja synkronoiminen Dynamics 365 -sovellusten kanssa on helppoa. Voit esimerkiksi muodostaa yhteyden sovellukseen [!INCLUDE[crm_md](includes/crm_md.md)] tai jopa itse luotuihin sovelluksiin. Jos integrointi tehdään ensimmäistä kertaa, käytössä on oltava [!INCLUDE[prod_short](includes/cds_long_md.md)]. Lisätietoja on kohdassa [Integroiminen Dataverse -palvelun kanssa](admin-common-data-service.md).
 
 Jos [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[prod_short](includes/prod_short.md)] on jo integroitu, voit jatkaa tietojen synkronointia asetuksen avulla. Jos kuitenkin päivität [!INCLUDE[crm_md](includes/crm_md.md)] -integroinnin tai otat sen pois käytöstä, voit ottaa sen käyttöön uudelleen [!INCLUDE[prod_short](includes/cds_long_md.md)] -palvelun avulla. Lisätietoja on kohdassa [Integroinnin päivittäminen Dynamics 365 Salesin avulla](admin-upgrade-sales-to-cds.md).
@@ -25,17 +25,17 @@ Jos [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[prod_short](includes/pro
 > [!NOTE]
 > Jos uudelleenyhdistämisessä käytetään [!INCLUDE[prod_short](includes/cds_long_md.md)] -palvelua, käyttöön otetaan synkronoinnin oletusasetukset ja käytössä olevat määritykset korvataan. Esimerkiksi taulukon oletusyhdistämismääritykset otetaan käyttöön.
 
-## <a name="integration-settings-that-are-specific-to-a--integration"></a>Integrointiasetukset, jotka ovat [!INCLUDE[crm_md](includes/crm_md.md)] -integrointikohtaisia
+## Integrointiasetukset, jotka ovat [!INCLUDE[crm_md](includes/crm_md.md)] -integrointikohtaisia
 Integrointi sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] kanssa tapahtuu käyttämällä palvelua [!INCLUDE[prod_short](includes/cds_long_md.md)]. Useat vakioasetukset ja -taulukot määritetään. Vakioasetusten lisäksi [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksella on sovelluskohtaisia asetuksia. Seuraavissa osissa esitellään nämä asetukset.
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-sales"></a>Salesin käyttäjätilien käyttöoikeudet ja ja käyttöoikeusroolit
+## Salesin käyttäjätilien käyttöoikeudet ja ja käyttöoikeusroolit
 Kun integrointiratkaisua asennetaan, integroinnin käyttäjätilin käyttöoikeudet määritetään. Jos näitä käyttöoikeuksia on muutettu, käyttöoikeudet on ehkä palautettava alkuperäisiksi. Voit tehdä tämän asentamalla integrointiratkaisun uudelleen **Ota integraatioratkaisu uudelleen käyttöön** -kohdan avulla **Dynamics 365 -yhteyden asetukset** -sivulla. Seuraavat käyttöoikeus roolit on otettu käyttöön:
 
 * Dynamics 365 Business Central -sovelluksen integroinnin järjestelmänvalvoja
 * Dynamics 365 Business Central -sovelluksen integroinnin käyttäjä
 * Dynamics 365 Business Central -sovelluksen tuotteen saatavuuden käyttäjä
 
-### <a name="connection-settings-in-the-setup-guide"></a>Yhteysasetukset asennusoppaassa
+### Yhteysasetukset asennusoppaassa
 Asetusten ohjattu määritysopas auttaa määrittämään yhteyden nopeasti ja määrittämään lisäominaisuudet, kuten tietueiden välisen yhdistämisen.
 
 1. Valitse ensin **Asennus ja laajennukset** ja valitse sitten **Asetusten ohjattu määritys**.
@@ -51,7 +51,7 @@ Asetusten ohjattu määritysopas auttaa määrittämään yhteyden nopeasti ja m
 |**Ota käyttöön Dynamics 365 Sales -yhteys** | Ota [!INCLUDE[crm_md](includes/crm_md.md)] -yhteys käyttöön. |
 | **Dynamics 365 SDK -versio** | Tällä on merkitystä vain, jos integrointi tehdään [!INCLUDE[crm_md](includes/crm_md.md)]in paikalliseen versioon. [!INCLUDE[prod_short](includes/prod_short.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] voidaan yhdistää tällä Dynamics 365 SDK -versiolla (joka tunnetaan myös nimellä Xrm). Version on oltava yhteensopiva sen SDK-version kanssa, jota [!INCLUDE[crm_md](includes/crm_md.md)] käyttää. Lisäksi sen on oltava sama tai uudempi kuin versio, jota [!INCLUDE[crm_md](includes/crm_md.md)] käyttää. |
 
-### <a name="connection-settings-on-the-microsoft-dynamics-365-connection-setup-page"></a>Microsoft Dynamics 365 -yhteyden määrityssivun yhteysasetukset
+### Microsoft Dynamics 365 -yhteyden määrityssivun yhteysasetukset
 
 Anna seuraavat tiedot yhteyden muodostamiseen [!INCLUDE[crm_md](includes/crm_md.md)]ista [!INCLUDE[prod_short](includes/prod_short.md)]iin.
 
@@ -71,10 +71,10 @@ Syötä yllä olevien asetusten lisäksi seuraavat asetukset [!INCLUDE[crm_md](i
 |**Myyntitilausten kaksisuuntainen synkronointi**|Synkronoi myyntitilaukset molempiin suuntiin. Jos asiakas esimerkiksi muuttaa mieltään tuotteesta tai määrästä, jonka tilaamisessa on ollut käytössä [!INCLUDE[crm_md](includes/crm_md.md)], voit arkistoida myyntiasiakirjan ja luoda uuden sovelluksessa [!INCLUDE[prod_short](includes/prod_short.md)]. Sama pätee muutoksiin [!INCLUDE[prod_short](includes/prod_short.md)]issa. Esimerkiksi silloin, kun hinnat, verosummat tai oletetut toimituspäivämäärät muuttuvat, muutokset synkronoidaan automaattisesti [!INCLUDE[crm_md](includes/crm_md.md)]:ään. Kaksisuuntainen synkronointi auttaa pitämään myyjät ajan tasalla uusimmista muutoksista sekä tarjousten ja tilausten tilasta.|
 
 <!--
-### <a name="user-account-settings"></a>User Account Settings
+### User Account Settings
 Integration with Business Central through Dataverse requires an administrator user account and an account that is used only for the connection between the apps. This account is called the "integration user." When you install the CDS Base Integration Solution, permissions for the integration user account are configured in [!INCLUDE[crm_md](includes/crm_md.md)]. If those permissions are changed you might need to reset them. You can do that by reinstalling the Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[crm_md](includes/crm_md.md)].  -->
 
-### <a name="standard-sales-entity-mapping-for-synchronization"></a>Synkronoinnin Myynti-entiteetin yhdistämismääritys
+### Synkronoinnin Myynti-entiteetin yhdistämismääritys
 
 [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen entiteetit, kuten tilaukset, yhdistetään [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa samantyyppisiin taulukoihin, kuten myyntitilauksiin. [!INCLUDE[crm_md](includes/crm_md.md)]in tietoja käytetään määrittämällä linkkejä [!INCLUDE[prod_short](includes/prod_short.md)]in ja [!INCLUDE[crm_md](includes/crm_md.md)]in taulukoiden välille. Tätä sanotaan yhdistämiseksi.
 
@@ -99,7 +99,7 @@ Seuraavassa taulukossa on luettelo [!INCLUDE[prod_short](includes/prod_short.md)
 > [!NOTE]
 > Nimikkeen mittayksikkö-, Resurssin mittayksikkö- ja Yksikköryhmä-taulukoiden yhdistämismääritykset ovat käytettävissä vain, jos järjestelmänvalvoja on ottanut **Ominaisuuspäivitys: useiden mittayksiköiden synkronointi Dynamics 365 Salesin kanssa** -ominaisuuden käyttöön **Ominaisuuksien hallinta** -sivulla. Lisätietoja on kohdassa [Nimikkeiden ja resurssien synkronointi eri mittayksiköitä käyttävien tuotteiden kanssa](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
 
-## <a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a>Nimikkeiden ja resurssien synkronointi eri mittayksiköitä käyttävien tuotteiden kanssa
+## Nimikkeiden ja resurssien synkronointi eri mittayksiköitä käyttävien tuotteiden kanssa
 Yritykset usein tuottavat tai ostavat tiettyä mittayksikköä käyttäviä nimikkeitä ja myyvät niitä sitten käyttämällä toista mittayksikköä. Useita mittayksiköitä käyttävien nimikkeiden synkronointi edellyttää, että **Ominaisuuspäivitys: useiden mittayksiköiden synkronointi Dynamics 365 Salesin kanssa** -ominaisuus otetaan käyttöön **Ominaisuuksien hallinta** -sivulla. 
 
 Kun otat käyttöön ominaisuuden päivityksen, luodaan uusi Yksikköryhmä-taulukko ja se määritetään kullekin nimikkeelle ja resurssille [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa. Taulukoiden avulla voit yhdistää Yksikköryhmä-, Nimikkeen mittayksikkö- ja Resurssin mittayksikkö -taulukot voidaan [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen Dynamics 365 Salesin yksikköryhmään. Seuraavassa kuvassa näkyvät yhdistämismääritykset.
@@ -108,7 +108,7 @@ Kun otat käyttöön ominaisuuden päivityksen, luodaan uusi Yksikköryhmä-taul
 
 Kullekin yksikköryhmälle voidaan luoda useita mittayksiköitä, ja nämä ryhmät voidaan määrittää tuotteisiin [!INCLUDE[crm_md](includes/crm_md.md)]issa. Tämän jälkeen tuotteet voidaan synkronoida nimikkeiden ja resurssien kanssa [!INCLUDE[prod_short](includes/prod_short.md)]issa. Nimikkeen mittayksiköt ja resurssiin mittayksiköt voidaan yhdistää manuaalisesti yksikköryhmään. Jos nimikkeen tai resurssin yksikköryhmää ei näin toimittaessa ole yhdistetty [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen yksikköryhmään esimerkiksi siksi, että yksikköryhmää ei ole, [!INCLUDE[prod_short](includes/prod_short.md)] luo yksikköryhmän automaattisesti [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksessa.
 
-### <a name="mapping-items-and-resources-to-products"></a>Nimikkeiden ja resurssien yhdistäminen tuotteisiin
+### Nimikkeiden ja resurssien yhdistäminen tuotteisiin
 Kun **Ominaisuuspäivitys: useiden mittayksiköiden synkronointi Dynamics 365 Salesin kanssa** -ominaisuus otetaan käyttöön, tuloksena on seuraavat:
 
 * Nimikkeille ja resursseille luodaan uudet yhdistämismääritykset.
@@ -140,7 +140,7 @@ Yksikköryhmien yhdistäminen aloitetaan seuraavasti:
 5. Valitse ensin **NIMIKE-TUOTE**-yhdistämismääritys ja sitten **Käynnistä uudelleen** -toiminto. Uudelleenkäynnistäminen luo uusia tuotteita nimikkeistä [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksessa ja määrittää nimikekohtaisen uuden yksikköryhmän.
 6. Valitse ensin **RESURSSI-TUOTE**-yhdistämismääritys ja sitten **Käynnistä uudelleen** -toiminto. Uudelleenkäynnistäminen luo uusia tuotteita resursseista [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksessa ja määrittää resurssikohtaisen uuden yksikköryhmän.
 
-### <a name="synchronization-rules"></a>Synkronointisäännöt
+### Synkronointisäännöt
 
 Seuraavassa taulukossa ovat säännöt, jotka ohjaavat [!INCLUDE[crm_md](includes/crm_md.md)]- ja [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen välistä synkronointia. Nämä säännöt ovat myös Dataversessa määritettyjä sääntöjä, jotka otetaan käyttöön. Lisätietoja on kohdassa [Vakioentiteetin yhdistämismääritys](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
@@ -158,7 +158,7 @@ Seuraavassa taulukossa ovat säännöt, jotka ohjaavat [!INCLUDE[crm_md](include
 |Kirjatut myyntilaskut|Kirjatut myyntilaskut synkronoidaan myyntilaskujen kanssa. Ennen laskun synkronointia kannattaa synkronoida kaikki muut taulukot, jotka voivat vaikuttaa laskuun. Niitä voivat olla esimerkiksi myyjien taulukot ja hinnastot. Laskun otsikossa oleva myyjän koodin arvo määrittää yhdistetyn taulukon omistajan Sales-sovelluksessa.|
 |Myyntitilaukset|Kun myyntitilausten integrointi on käytössä, [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen myyntitilaukset, jotka on luotu [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen lähetetyistä myyntitilauksista, synkronoidaan [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen myyntitilausten kanssa niiden vapauttamisen yhteydessä. Ennen tilausten synkronoimista on suositeltavaa synkronoida kaikki tilaukseen liittyvät taulukot, esimerkiksi myyjät ja hinnastot. Tilauksen otsikossa oleva Myyjän koodi -kenttä määrittää yhdistetyn taulukon omistajan [!INCLUDE[crm_md](includes/crm_md.md)]:ssä.|
 
-### <a name="synchronization-jobs-for-a-sales-integration"></a>Myynnin integroinnin synkronointityöt
+### Myynnin integroinnin synkronointityöt
 
 Työt suoritetaan seuraavassa järjestyksessä, jotta taulukoiden välille ei muodostu yhdistämisen riippuvuussuhteita. Dataversessa on lisää projekteja. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](./admin-job-queues-schedule-tasks.md).
 
@@ -169,7 +169,7 @@ Työt suoritetaan seuraavassa järjestyksessä, jotta taulukoiden välille ei mu
 5. MYYNTIHNT-TUOTEHINTA - Dynamics 365 Salesin synkronointityö.
 6. KIRJMNTILASKU-LASK – Dynamics 365 Salesin synkronointityö.
 
-### <a name="default-synchronization-job-queue-entries"></a>Oletusarvoiset synkronoinnin työjonotapahtumat
+### Oletusarvoiset synkronoinnin työjonotapahtumat
 
 Seuraavassa taulukossa kuvaillaan Salesin synkronoinnin oletustyöt.  
 
@@ -183,13 +183,13 @@ Seuraavassa taulukossa kuvaillaan Salesin synkronoinnin oletustyöt.
 |KIRJMNTILASKU-LASK – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in laskut ja [!INCLUDE[prod_short](includes/prod_short.md)]in kirjatut myyntilaskut.|[!INCLUDE[prod_short](includes/prod_short.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)]iin|LASKUT-KIRJATUT MYYNTILASKUT|30|1440<br> (24 tuntia)|
 |Asiakastilastot – Dynamics 365 Salesin synkronointityö|Päivittää [!INCLUDE[crm_md](includes/crm_md.md)]in tilit uusilla [!INCLUDE[prod_short](includes/prod_short.md)]in asiakastiedoilla. Nämä tiedot näkyvät [!INCLUDE[crm_md](includes/crm_md.md)]issa niiden tilien **Business Central -tilin tilastot** -pikanäkymälomakkeessa, jotka on yhdistetty [!INCLUDE[prod_short](includes/prod_short.md)]in asiakkaisiin.<br /><br /> Nämä tiedot voidaan päivittää myös manuaalisesti kustakin asiakastietueesta. Lisätietoja on kohdassa [Tietueiden yhdistäminen ja synkronoiminen manuaalisesti](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Huomautus:** Tällä työjonotapahtumalla on merkitystä vain, jos [!INCLUDE[prod_short](includes/prod_short.md)] -integrointiratkaisu on asennettu [!INCLUDE[crm_md](includes/crm_md.md)]iin. |Ei sovellu|Ei sovellu|30|Ei sovellu| 
 
-## <a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a>Yhteyden muodostaminen Business Central 2019:n julkaisuaallon 1 ja Microsoft Dynamics NAV 2018:n paikallisiin versioihin
+## Yhteyden muodostaminen Business Central 2019:n julkaisuaallon 1 ja Microsoft Dynamics NAV 2018:n paikallisiin versioihin
 Microsoft Power Platform -tiimi on [ilmoittanut](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse), että Office 365 -todennustyyppi vanhentuu. Jos käytössä on [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen paikallinen versio, joka on vanhempi kuin Business Central 2019:n julkaisuaalto 1, sinun on muodostettava yhteys [!INCLUDE[crm_md](includes/crm_md.md)] -sovellukseen online-tilassa OAuth-todennustyypin avulla. Tässä osassa kerrotaan, miten seuraavat tuoteversiot yhdistetään:
 
 * Business Central 2019:n julkaisuaalto 1
 * Microsoft Dynamics NAV 2018
 
-### <a name="prerequisites"></a>Vaatimukset
+### Vaatimukset
 
 - Sinulla täytyy olla Microsoft Azure -tilaus. Kokeilutili toimii sovelluksen rekisteröinnissä.
 - [!INCLUDE[crm_md](includes/crm_md.md)] on määritetty käyttämään jotakin seuraavista todennustyypeistä:
@@ -201,7 +201,7 @@ Microsoft Power Platform -tiimi on [ilmoittanut](/power-platform/important-chang
 
    - OAuth
 
-### <a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a>Business Central 2019:n julkaisuaallon 1 ja Dynamics NAV 2018:n yhdistäminen
+### Business Central 2019:n julkaisuaallon 1 ja Dynamics NAV 2018:n yhdistäminen
 
 1. Tuo Microsoft Dynamics 365 Business Central -integrointiratkaisu [!INCLUDE[crm_md](includes/crm_md.md)] -ympäristöösi. Integrointiratkaisu on käytettävissä CrmCustomization-kansiossa [!INCLUDE[prod_short](includes/prod_short.md)]- tai Dynamics NAV -DVD-asennuslevyllä. Tuo tuoteversiostasi riippuen jokin seuraavista ratkaisuista:
 
@@ -216,10 +216,10 @@ Microsoft Power Platform -tiimi on [ilmoittanut](/power-platform/important-chang
    > [!Important]
    > Käyttäjällä ei saa olla järjestelmänvalvojan käyttöoikeusroolia. Et voi myöskään käyttää järjestelmänvalvojan tiliä integrointikäyttäjänä.
 
-3.  Azure-portaali: luo sovellusrekisteröinti [!INCLUDE[prod_short](includes/prod_short.md)]ille. Lisätietoja on kohdassa [Sovelluksen rekisteröiminen Azure Active Directoryssa](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
+3.  Azure-portaali: luo sovellusrekisteröinti [!INCLUDE[prod_short](includes/prod_short.md)]ille. Lisätietoja on kohdassa [Sovelluksen rekisteröiminen Microsoft Entra ID:ssä](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
   
    > [!NOTE]
-   > Suosittelemme, että rekisteröit sovelluksen samaan vuokraajaan Dataverse-ympäristösi kanssa, jotta sinun ei tarvitse antaa sovellukselle suostumusta käyttää ympäristöä. Jos rekisteröit sovelluksen toisessa ympäristössä, sinun on kirjauduttava sisään Dataverse-ympäristösi Azure AD -järjestelmänvalvojan tilille ja annettava suostumus.
+   > Suosittelemme, että rekisteröit sovelluksen samaan vuokraajaan Dataverse-ympäristösi kanssa, jotta sinun ei tarvitse antaa sovellukselle suostumusta käyttää ympäristöä. Jos rekisteröit sovelluksen toisessa ympäristössä, sinun on kirjauduttava sisään Dataverse-ympäristösi Microsoft Entra ID -järjestelmänvalvojan tilille ja annettava suostumus.
    >
    > Lisäksi rekisteröimälläsi sovelluksella ei saa olla salaisuutta. Sovelluksen yhdistäminen salaisuuden kanssa Dataverseen on käytettävissä vain Business Central 2020:n julkaisuaallossa 1 ja sitä uudemmissa.
   
@@ -256,7 +256,7 @@ Microsoft Power Platform -tiimi on [ilmoittanut](/power-platform/important-chang
 > [!Note]
 > Jos haluat määrittää yhteyden [!INCLUDE[crm_md](includes/crm_md.md)] -ilmentymään tietyllä todennustyypillä, täytä **Todennustyypin tiedot** -pikavälilehden kentät. Lisätietoja on kohdassa [Microsoft Dataverse -verkkopalvelujen käyttö todennuksessa](/powerapps/developer/data-platform/authentication). Tätä vaihetta tarvita yhdistettäessä [!INCLUDE[prod_short](includes/prod_short.md)]in online-versiota.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [[!INCLUDE[crm_md](includes/crm_md.md)] -integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md)  
 [Yhteyden määrittäminen [!INCLUDE[crm_md](includes/crm_md.md)] -sovellukseen](admin-how-to-set-up-a-dynamics-crm-connection.md)  

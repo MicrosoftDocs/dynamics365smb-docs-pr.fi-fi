@@ -2,57 +2,44 @@
 title: Usean yrityksen tietojen konsolidointi
 description: 'Tämä artikkeli selittää, miten voit konsolidoida yritysten (tytäryritysten) pääkirjanpidon tapahtumat konsolidoituun yritykseen.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.date: 06/27/2023
+ms.custom: bap-template
 ms.search.keywords: 'consolidation, subsidiaries, consolidate'
 ms.search.form: '1826, 1827'
-ms.date: 09/29/2022
-ms.author: bholtorf
 ---
 
-# <a name="consolidating-financial-data-from-multiple-companies"></a>Usean yrityksen kirjanpitotietojen konsolidoiminen
+# Usean yrityksen kirjanpitotietojen konsolidoiminen
 
-Jotkin organisaatiot käyttävät [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaa useassa liiketoimintayksikössä tai yrityksessä. Muut käyttävät [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaa tytäryhtiöissä, joiden tulee raportoida emo-organisaatioihin. Molemmissa tapauksissa kirjanpitäjät käyttävät sisäisiä työkaluja, jotka auttavat vahvistamaan taloudellisia tietoja.  
+Jotkin organisaatiot käyttävät [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaa useassa liiketoimintayksikössä tai yrityksessä. Muut käyttävät [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaa tytäryhtiöissä, joiden tulee raportoida emo-organisaatioihin. [!INCLUDE [prod_short](includes/prod_short.md)] antaa kirjanpitäjille työkalut, jotka auttavat heitä siirtämään pääkirjanpidon tapahtumia kahdesta tai useammasta yrityksestä (tytäryrityksistä) konsolidoituun yritykseen.  
 
-Voit konsolidoida yritysten (tytäryritysten) pääkirjanpidon tapahtumat konsolidoituun yritykseen. Kutakin konsolidointiin liittyvää yksittäistä yritystä kutsutaan liiketoimintayksiköksi. Yhdistettyä yritystä kutsutaan konsolidoiduksi yritykseksi.  
+Kutakin konsolidointiin liittyvää yritystä kutsutaan liiketoimintayksiköksi. Yritystä, jossa tiedot yhdistetään, kutsutaan konsolidoiduksi yritykseksi.  
 
-Voit tuoda tietoja konsolidoituun yritykseen muista saman tietokannan yrityksistä samasta [!INCLUDE [prod_short](includes/prod_short.md)] -vuokraajasta, vuokraajista tai tiedostoista.  
+Voit siirtää taloudellisia tietoja tytäryrityksistä konsolidoituun yritykseen, vaikka tytäryritykset käyttäisivät kohdetta [!INCLUDE [prod_short](includes/prod_short.md)] erilaisissa ympäristöissä. Lisätietoja yhteyden muodostamisesta muihin ympäristöihin on [Määritä yrityksen konsolidointi](finance-consolidated-company-reporting-setup.md#busunit) -kohdassa.
 
-Jos liiketoimintayksikön tilinpäätösten valuutta ei ole sama kuin konsolidoidun yrityksen käyttämä valuutta, konsolidointia varten on määritettävä vaihtokurssit.  
+Jos liiketoimintayksikön tilinpäätösten valuutta ei ole sama kuin konsolidoidun yrityksen, konsolidointia varten on määritettävä vaihtokurssit. Lisätietoja konsolidointien vaihtokursseista on [Määritä yrityksen konsolidointi](finance-consolidated-company-reporting-setup.md#exchrates) -kohdassa.  
 
 Voit konsolidoida  
 
 * yrityksiä, joissa on käytössä erilaiset tilikartat  
 * yrityksiä, joissa on käytössä erilaiset tilikaudet ja valuutat  
-* yrityksen taloudelliset tiedot kokonaan tai tietyn prosenttiosuuden niistä
+* yrityksen taloudelliset tiedot kokonaan tai tietyn prosenttiosuuden niistä.
 * käyttämällä eri valuuttakursseja yksittäisillä KP-tileillä.
-* Yritykset muissa kirjanpidon ja liiketoiminnan hallintaohjelmissa
+* Yritykset muissa kirjanpidon ja liiketoiminnan hallintaohjelmissa.
+* Yritykset eri [!INCLUDE [prod_short](includes/prod_short.md)] -ympäristöissä.
 
-Konsolidoitu yritys määritetään samalla tavalla kuin muutkin yritykset. Tilikartta on riippumaton liiketoimintayksiköiden tilikartasta. Liiketoimintayksiköiden tilikartat voivat vaihdella keskenään. Määritä konsolidoitavien yritysten luettelo, tarkista laskentatiedot ennen konsolidointia, tuo tiedostoista tai tietokannoista ja luo konsolidointiraportteja. Lisätietoja on kohdassa [Yrityksen konsolidoinnin määrittäminen](finance-consolidated-company-reporting-setup.md).  
+Konsolidoitu yritys määritetään samalla tavalla kuin muutkin yritykset. Tilikartta on riippumaton liiketoimintayksiköiden tilikartasta. Liiketoimintayksiköiden tilikartat voivat vaihdella keskenään. Lisätietoja konsolidoinnin määrittämisestä on [Määritä yrityksen konsolidointi](finance-consolidated-company-reporting-setup.md) -kohdassa.  
 
 > [!TIP]
-> Kirjanpitotietojen konsolidoiminen voi olla erityisen tärkeää konsernin sisäisissä prosesseissa. Lisätietoja on ohjeaiheessa [Konsernitapahtumien hallinta](intercompany-manage.md).
+> Kirjanpitotietojen konsolidoiminen voi olla erityisen tärkeää konsernin sisäisissä prosesseissa. Lisätietoja konsernin ominaisuuksista on [Konsernitapahtumien hallinta](intercompany-manage.md) -kohdassa.
 
-## <a name="use-the-consolidated-trial-balance-report"></a>Käytä Konsolidoitu alustava saldo -raporttia
+## Tietojen konsolidointi
 
-**Konsolidoitu alustava saldo** -raportti antaa yleiskuvan liiketoiminnan yleisestä taloudellisesta tilanteesta. Raportti yhdistää kunkin yrityksen kirjanpitotapahtumat uuteen yritykseen, joka luodaan konsolidoituja tietoja varten. Tätä yritystä kutsutaan yleensä *konsolidoiduksi yritykseksi*. Konsolidoitu yritys on vain konsolidoitujen tietojen säilö, eikä se sisällä muita liiketoimintatietoja. Konsolidoituun yritykseen sisällytettävät yritykset ovat raportin **liiketoimintayksiköitä**. Lisätietoja on kohdassa [Yrityksen konsolidoinnin määrittäminen](finance-consolidated-company-reporting-setup.md). Jos liiketoimintayksiköitä on neljä tai vähemmän, voit käyttää myös **Konsol. alust. tulos/tase (4)** -raporttia.  
+Ennen konsolidoinnin aloittamista on hyvä testata tiedot ennen niiden siirtämistä konsolidoituun yritykseen. [!INCLUDE[prod_short](includes/prod_short.md)] etsii eroavaisuuksia liiketoimintayksiköiden tietojen ja konsolidoidun yrityksen tietojen välillä. Tarkistettavia kohteita ovat esimerkiksi erot tilinumeroiden tai dimensiokoodien välillä. Virheet on korjattava ennen raportin suorittamista. Voit testata tietokannan. Jos tuot tietoja XML-tiedostosta, voit testata myös tiedoston.
 
-Raportissa näkyy rivi kullekin tilille ja se noudattaa tilikartan rakennetta. Tiliä ei ole näkyvissä, jos rivin kaikki summat ovat 0. Raportissa näkyy seuraavat tiedot kullekin tilille:
-
-* Tilinumero ja tilin nimi.
-* Konsolidoidun yrityksen ja kunkin liiketoimintayksikön kokonaissummat. Kokonaissummat voidaan näyttää joko nettomuutoksena tai päivän saldona.
-* Konsolidoidussa yrityksessä tehdyt poistot. Poistot näkyvät aina ajanjaksolta, joka vastaa konsolidoidun yrityksen tilikautta.
-* Konsolidoidun yrityksen kokonaissumma poistojen jälkeen, ilmoitettuna joko nettomuutoksena tai päivän saldona.
-
-## <a name="consolidate-data"></a>Tietojen konsolidointi
-
-Varsinaisessa konsolidoinnissa luvut siirretään liiketoimintayksiköistä *konsolidoituun* yritykseen. Ennen konsolidointia on hyvä tarkistaa, onko perustiedoissa eroa liiketoimintayksiköiden ja konsolidoidun yrityksen välillä. Ohjelmassa on kaksi raporttia, joita voi käyttää tietokannan ja tiedoston testaamiseen.
-
-### <a name="to-test-the-data-before-you-consolidate"></a>Tietojen testaus ennen konsolidointia
-
-Testaa tiedot, ennen kuin siirrät ne konsolidoituun yritykseen. [!INCLUDE[prod_short](includes/prod_short.md)] etsii eroavaisuuksia liiketoimintayksiköiden tietojen ja konsolidoidun yrityksen tietojen välillä. Tarkistettavia kohteita ovat esimerkiksi erot tilinumeroiden tai dimensiokoodien välillä. Virheet on korjattava ennen raportin suorittamista. Voit testata tietokannan. Jos tuot tietoja XML-tiedostosta, voit testata myös tiedoston.  
+### Tietojen testaus ennen konsolidointia
 
 1. Avaa konsolidoitu yritys.  
 2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Liiketoimintayksiköt** ja valitse sitten vastaava linkki.  
@@ -61,17 +48,29 @@ Testaa tiedot, ennen kuin siirrät ne konsolidoituun yritykseen. [!INCLUDE[prod_
     * Testaa tiedosto valitsemalla **Testaa tiedosto** -toiminto, antamalla testattavan tiedoston nimen ja valitsemalla **Tulosta**.  
     * Voit testata tietokannan valitsemalla **Testaa tietokanta**.  
 
-### <a name="run-the-consolidation"></a>Suorita konsolidointi
+### Suorita konsolidointi
 
-Kun olet testannut tiedot, voit siirtää ne konsolidoituun yritykseen.  
+Kun olet testannut tiedot, voit siirtää ne konsolidoituun yritykseen. Asetusten ohjatun määrityksen avulla voit käsitellä prosessia.
+
+> [!NOTE]
+> Kun suoritat konsolidoinnin, voit valita sisällytettävät yritykset. Jos konsolidoidulla yrityksellä ei ole pääsyä yhteen tai useampaan tytäryritykseen, oppaassa voit antaa heille käyttöoikeuden.
 
 1. Kirjaudu konsolidoituun yritykseen.  
-2. Valitse **kirjanpitäjän roolikeskuksessa** **Suorita konsolidointi** -toiminto.  
+2. Valitse **Liiketoimintayksiköt**-sivulta **Konsolidoi**-toiminto.  
 3. Täytä vaaditut kentät.  
-4. Aseta suodatin-osassa haluamasi liiketoimintayksikön tai yrityksen nimen suodatin.  
-5. Vaihtoehtoisesti voit aikatauluttaa raportin suorituksen sopivalle ajalle.  
 
-## <a name="eliminate-repeated-transactions"></a>Estä toistuvat tapahtumat
+## Käytä Konsolidoitu alustava saldo -raporttia
+
+**Konsolidoitu alustava saldo** -raportti antaa yleiskuvan liiketoiminnan yleisestä taloudellisesta tilanteesta. Raportti yhdistää kunkin yrityksen kirjanpitotapahtumat uuteen yritykseen, joka luodaan konsolidoituja tietoja varten. Konsolidoitu yritys on vain konsolidoitujen tietojen säilö, eikä se sisällä muita liiketoimintatietoja. Konsolidoituun yritykseen sisällytettävät yritykset ovat raportin **liiketoimintayksiköitä**. Jos liiketoimintayksiköitä on neljä tai vähemmän, voit käyttää myös **Konsol. alust. tulos/tase (4)** -raporttia.  
+
+Raportissa näkyy rivi kullekin tilille ja se noudattaa tilikartan rakennetta. Tiliä ei ole näkyvissä, jos rivin kaikki summat ovat 0. Raportissa näkyy seuraavat tiedot kullekin tilille:
+
+* Tilinumero ja tilin nimi.
+* Konsolidoidun yrityksen ja kunkin liiketoimintayksikön kokonaissummat. Kokonaissummat voidaan näyttää joko nettomuutoksena tai päivän saldona.
+* Konsolidoidussa yrityksessä tehdyt poistot. Poistot näkyvät aina ajanjaksolta, joka vastaa konsolidoidun yrityksen tilikautta.
+* Konsolidoidun yrityksen kokonaissumma poistojen jälkeen, ilmoitettuna joko nettomuutoksena tai päivän saldona.
+
+## Estä toistuvat tapahtumat
 
 Yritysten konsolidoinnin jälkeen on etsittävä ja poistettava tapahtumat, jotka on tallennettu useaan yritykseen. Sisäisten liiketapahtumien eliminointien käsittely on manuaalinen prosessi.  
 
@@ -83,9 +82,9 @@ Toistuvien tapahtumien estäminen:
 
 **KP-konsolidoinnin eliminoinnit** -raportissa näkyy alustava saldo, jossa voit simuloida tapahtumien poistamisen seurauksia. Raportissa verrataan konsolidoidun yrityksen kirjauksia yleiseen päiväkirjaan kirjattuihin eliminointeihin.
 
-Ennen kuin liiketoimintayksikkö voidaan sisällyttää raporttiin, yksikkö on luotava **Liiketoimintayksiköt**-sivulla. **Konsolidoi**-kenttä on valittava.
+Ennen kuin liiketoimintayksikkö voidaan sisällyttää raporttiin, yksikkö on luotava **Liiketoimintayksiköt**-sivulla. Ota **Konsolidoi**-vaihto käyttöön.
 
-Jokaiselle tilille luodaan oma rivi noudattaen tilikartan rakennetta. Tiliä ei ole näkyvissä, jos rivin kaikki summat ovat 0. Jokaisesta tilistä näkyy seuraavat tiedot:
+Jokaiselle tilille luodaan oma rivi noudattaen tilikartan rakennetta. Tiliä ei ole näkyvissä, jos rivin kaikki summat ovat 0. Raportissa näkyy seuraavat tiedot kullekin tilille:
 
 * Tilinumero.
 * Tilin nimi.
@@ -96,12 +95,16 @@ Jokaiselle tilille luodaan oma rivi noudattaen tilikartan rakennetta. Tiliä ei 
 * Yleisestä päiväkirjasta kopioitu kirjausteksti.
 * Konsolidoidun yrityksen kokonaissumma poistojen jälkeen (jos ne on kirjattu).
 
-## <a name="export-and-import-consolidated-data-between-databases"></a>Vie ja tuo konsolidoituja tietoja tietokantojen välillä
+## Vie ja tuo konsolidoituja tietoja tietokantojen välillä
 
-Jos liiketoimintayksikön tiedot ovat toisessa tietokannassa, tiedot on vietävä tiedostoon, ennen kuin ne voidaan sisällyttää konsolidointiin. Jokainen yritys täytyy viedä erikseen. Tähän tarkoitukseen ohjelma käyttää **Konsolidoinnin vienti** -eräajoa.  
+Jos liiketoimintayksikön tiedot ovat toisessa tietokannassa, voit tehdä manuaalisen tiedostopohjaisen siirron tai automatisoida prosessin ohjelmointirajapinnan avulla. Lisätietoja ohjelmointirajapinnasta on kohdassa [Käytä ohjelmointirajapintaa, kun haluat jakaa tietoja automaattisesti ympäristöissä](#use-our-api-to-automatically-share-data-across-environments).
+
+Tässä osassa kuvataan manuaalinen tiedostopohjainen prosessi.
+
+Tiedot viedään tiedostoon ennen niiden sisällyttämistä konsolidointiin. Vie jokainen yritys erikseen **Konsolidoinnin vienti** -eräajon avulla.  
 
 > [!TIP]
-> Käytä samaa prosessia sellaisten konsolidoitavien tietojen viemiseen, jotka on tarkoitus lähettää Dynamics 365 Financeen, kuten jos tämänhetkinen liiketoimintayksikkösi on tytäryhtiö ja emoyhtiö käyttää Dynamics 365 Financea.
+> Käytä samaa prosessia, kun haluat viedä konsolidoitua tietoa, joka on lähetettävä Dynamics 365 Finance -ohjelmaan. Jos liiketoimintayksikkö on esimerkiksi tytäryritys ja emoyritys käyttää Dynamics 365 Finance -ohjelmaa.
 
 Kun eräajo on suoritettu, KP-tilien kaikki tapahtumat käsitellään. Jokaisen globaalin dimension ja päivämäärän yhdistelmän osalta tapahtumien **summa**-kentät lasketaan yhteen, ja nämä summat viedään konsolidoituun yritykseen. Valittujen dimensioiden ja päivämäärän seuraava yhdistelmä samalla tilinumerolla käsitellään. Sitten käsitellään seuraavan tilinumeron yhdistelmät ja niin edelleen.  
 
@@ -112,12 +115,15 @@ Viedyt tapahtumat sisältävät seuraavat kentät: **Tilinro**, **Kirjauspvm** j
 3. Tapahtumaan tuotava dimension arvo on kyseisen dimension arvon **Konsolidointikoodi**-kentässä määritetty konsolidoidun yrityksen dimension arvo. Jos kyseisen dimension arvon **Konsolidointikoodi**-kenttään ei ole määritetty konsolidoidun yrityksen dimension arvoa, riville tuodaan itse dimension arvo.  
 4. XML-tiedostot sisältävät lisäksi konsolidointikauden valuutanvaihtokurssit. Nämä kurssit ovat erillisessä osassa tiedoston alussa.  
 
-## <a name="see-also"></a>Katso myös
+## Ohjelmointirajapinnan käyttäminen tietojen automaattiseen jakamiseen ympäristöissä
 
-[Määritä yrityksen konsolidointi](finance-consolidated-company-reporting-setup.md)  
+[!INCLUDE [prod_short](includes/prod_short.md)] tarjoaa ohjelmointirajapinnan, jonka avulla voit automatisoida taloustietojen jakamisen liiketoimintayksiköistä konsolidoituun yritykseen. Ohjelmointirajapinta on helppokäyttöinen ja helppo määrittää. Voit myös jakaa tietoja [!INCLUDE [prod_short](includes/prod_short.md)] -ympäristöissä. Sinun on esimerkiksi ehkä jaettava ympäristöissä silloin, kun liiketoimintayksiköt eivät ole samoilla Azuren maantieteellisillä alueilla. Lisätietoja ohjelmointirajapinnan käyttämisestä konsolidointiprosessin automatisoimiseen on [Määritä yrityksen konsolidointi](finance-consolidated-company-reporting-setup.md#busunit) -kohdassa.
+
+## Katso myös
+
+[Yrityksen konsolidoinnin määrittäminen](finance-consolidated-company-reporting-setup.md)  
 [Konsernitapahtumien hallinta](intercompany-manage.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Liiketoimintatietojen vienti Exceliin](about-export-data.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

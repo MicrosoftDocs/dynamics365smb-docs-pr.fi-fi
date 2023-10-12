@@ -43,12 +43,10 @@ Viittaa **Rivityyppi**-kentässä seuraaviin tietoihin.
 
 Lisätietoja budjetoitujen ja todellisten projektihintojen ja -kustannusten kirjaamisesta on kohdassa [Projektien käytön kirjaaminen](projects-how-record-job-usage.md).
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/set-up-job-planning-lines/)
-
 ## Katso myös
 
-[Projektinhallinta](projects-manage-projects.md)  
-[Rahoitus](finance.md)  
+[Projektien hallinta](projects-manage-projects.md)  
+[Taloushallinto](finance.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Myynti](sales-manage-sales.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
