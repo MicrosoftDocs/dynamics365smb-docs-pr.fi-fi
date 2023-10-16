@@ -114,13 +114,11 @@ Jos et valinnut **Poisto KO-kirjauspvm:ään asti** -kenttää, omaisuuserä men
 
 *Kokonaispoisto = 100 + 15 + 55,54 = 170,54*
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/manage-advanced-fixed-assets-transactions/)
-
 ## Katso myös
 
 [Käyttöomaisuus](fa-manage.md)  
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
-[Rahoitus](finance.md)  
+[Taloushallinto](finance.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

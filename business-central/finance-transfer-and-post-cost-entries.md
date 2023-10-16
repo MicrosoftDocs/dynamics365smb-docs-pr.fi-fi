@@ -98,8 +98,6 @@ Kun pääkirjanpidon tapahtumia siirretään kustannustapahtumiin, [!INCLUDE[pro
 
 **Kustannusrekisteri**-taulukkoon [!INCLUDE[prod_short](includes/prod_short.md)] luo merkinnän lähteen siirtämisestä pääkirjanpidosta. Tapahtuma kirjaa siirrettyjen pääkirjanpidon tapahtumien ensimmäisen ja viimeisen tapahtumanumeron sekä luotujen kustannustapahtumien ensimmäisen ja viimeisen tapahtumanumeron.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
-
 ## Katso myös
 
  [Tietoja kustannuslaskennasta](finance-about-cost-accounting.md)  

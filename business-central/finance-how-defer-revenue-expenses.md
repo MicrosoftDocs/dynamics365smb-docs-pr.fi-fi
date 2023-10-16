@@ -102,13 +102,11 @@ Jos olet tehnyt sen, sinun täytyy tehdä poikkeuslykkäyksiä, jotta ne voitais
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** tai **Käyttäjän määritys** ja valitse sitten vastaava linkki.
 2. Syötä **Salli lykkäyskirjaus kohteesta**- ja **Salli lykkäyskirjaus kohteeseen** -kenttiin jakson alkamis- ja päättymispäivämäärä.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/processing-invoices-dynamics-365-business-central/)
-
 ## Katso myös
 
-[Rahoitus](finance.md)  
+[Taloushallinto](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
-[Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
+[Yleisten päiväkirjojen käsitteleminen](ui-work-general-journals.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

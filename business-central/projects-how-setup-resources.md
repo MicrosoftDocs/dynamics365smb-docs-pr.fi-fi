@@ -74,12 +74,10 @@ Resurssikortissa määritetyn hinnan lisäksi voit määrittää kullekin resurs
 3. Täytä **Resurssihinnat**-sivun rivillä tarvittavat kentät.
 4. Toista vaihe 3 kaikkien määritettävien vaihtoehtoisten resurssihintojen kohdalla.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/paths/set-up-jobs-resources/)
-
 ## Katso myös
 
 [Projektinhallinnan määrittäminen](projects-setup-projects.md)  
-[Projektinhallinta](projects-manage-projects.md)  
+[Projektien hallinta](projects-manage-projects.md)  
 [Rahoitus](finance.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Myynti](sales-manage-sales.md)  

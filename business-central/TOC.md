@@ -348,8 +348,13 @@
 #### [Maksutoleranssien ja maksualennustoleranssien käsitteleminen](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Myöhästyneen maksun ennusteen laajennus](ui-extensions-late-payment-prediction.md)
 
+### Sähköisten asiakirjojen hallinta
+#### [Sähköisten asiakirjojen määrittäminen](finance-how-setup-edocuments.md)
+#### [Sähköisten asiakirjojen käyttäminen myynnissä ja ostoissa](finance-how-use-edocuments.md)
+#### [Sähköisten asiakirjojen toimintojen laajentaminen](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### ALV:n hallinta
-#### [ALV-hallinnan yleiskatsaus](finance-manage-vat.md)
+#### [ALV:n hallinnan yleiskatsaus](finance-manage-vat.md)
 #### [EU-kolmikantatapahtumat](finance-how-to-eu3party-trade-purchase.md)
 #### ALV:n määrittäminen
 ##### [Arvonlisäveron määrittäminen](finance-setup-vat.md)

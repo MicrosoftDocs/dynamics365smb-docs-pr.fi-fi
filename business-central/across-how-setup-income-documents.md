@@ -43,8 +43,6 @@ Määrittämällä OCR-ominaisuuden voit muuntaa PDF-ja kuvatiedostot elektronis
 
 Lisätietoja on kohdassa [PDF- ja kuvatiedostojen muuntaminen sähköisiksi asiakirjoiksi OCR-palvelun avulla](across-how-use-ocr-pdf-images-files.md).  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Katso myös
 
 [Saapuvat asiakirjat](across-income-documents.md)  

@@ -59,8 +59,6 @@ Nämä toiminnot ovat erityisen hyödyllisiä laaduntarkkailussa, kun haluat tie
 3. Anna **Sarjanumero**- ja **Eränro**-kenttiin nimikeseurantanumerot, joita haluat seurata.  
 4. Etsi kaikki sarja- tai eränumeron ilmentymät tietokannasta valitsemalla **Etsi**-toiminto.  
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/prepare-item-tracking/)
-
 ## Katso myös
 
 [Varasto](inventory-manage-inventory.md)  

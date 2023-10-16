@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.search.forms: '119, 9807,'
 ---
 
-# <a name="define-an-invoice-posting-policy-for-users"></a>Laskun kirjauskäytännön määrittäminen käyttäjille
+# Laskun kirjauskäytännön määrittäminen käyttäjille
 
 Yrityksillä on usein yksilöllisiä prosesseja myynti- ja ostolaskujen sekä toimitusten kirjaamista varten. Prosessit voivat vaihdella esimerkiksi yhdestä henkilöstä, joka kirjaa kaiken ostotilaukseen, useisiin työntekijöihin. Voit rajoittaa käyttäjiä kirjaamalla laskuja tai vaatia, että laskut kirjataan yhdessä toimitusten tai vastaanottojen kanssa.
 
-## <a name="to-specify-a-posting-policy"></a>Kirjauskäytännön määrittäminen
+## Kirjauskäytännön määrittäminen
 
 Valitse **Käyttäjäasetukset** -sivun **Myyntilaskun kirjaustapa**- ja **Ostolaskun kirjaustapa** -kentät, valitse jokin seuraavista vaihtoehdoista:
 
@@ -22,7 +22,7 @@ Valitse **Käyttäjäasetukset** -sivun **Myyntilaskun kirjaustapa**- ja **Ostol
 * **Kielletty** - Estä käyttäjää kirjaamasta laskuja. Business Central näyttää vahvistusikkunan, jossa on vain **Lähetys**- ja **Vastaanotto** -vaihtoehdot.
 * **Pakollinen** - Anna käyttäjän kirjata laskut yhdessä vastaanottojen tai toimitusten kanssa. Business Central näyttää vahvistusikkunan, jossa on **Lähetys ja laskutus**- tai **Vastaanotto ja laskutus** -vaihtoehdot.
 
-## <a name="effect-on-documents"></a>Vaikutus asiakirjoihin
+## Vaikutus asiakirjoihin
 
 Seuraavassa taulukossa kuvataan, miten laskun kirjauskäytännöt vaikuttavat asiakirjoihin.
 
@@ -39,7 +39,7 @@ Seuraavassa taulukossa kuvataan, miten laskun kirjauskäytännöt vaikuttavat as
    > [!Note]
    > Asetus ei vaikuta yleisen päiväkirjan rivien kirjaukseen, jossa voit valita **Asiakirjatyyppi**-kentässä **Lasku**.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Myynnin laskutus](sales-how-invoice-sales.md)  
 [Ostojen kirjaaminen ostolaskujen ja tilausten avulla](purchasing-how-record-purchases.md)  

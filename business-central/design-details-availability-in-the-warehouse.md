@@ -73,6 +73,10 @@ Tulos näkyy **Saatavilla oleva kokonaismäärä** -kenttään **Varaus**-sivull
 
 Varausrivillä oleva määrä, jota ei voi varata, koska se on kohdistettu fyysisessä varastossa, näytetään **Varaus**-sivun **F.var. kohdistettu määrä** -kentässä.  
 
+## Tarkista, ovatko nimikkeet poimittavissa
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
+
 ### Varattavissa olevaan määrän laskeminen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] laskee varattavissa olevan määrän seuraavasti:  
@@ -85,8 +89,8 @@ Seuraava kaavio sisältää laskelman eri elementit.
 
 ## Katso myös  
 
-[Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
+[Varastoinninhallinnan yleiskatsaus](design-details-warehouse-management.md)
 [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)
-
+[Tuotanto-, kokoonpano- ja projektipoiminta laajennetuissa varastointimäärityksissä](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

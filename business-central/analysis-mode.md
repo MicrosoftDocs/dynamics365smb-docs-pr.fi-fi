@@ -1,11 +1,11 @@
 ---
-title: Tietojen analysoiminen luettelosivuilla tietojen analysointitilan avulla
+title: Tietojen analysoiminen luettelosivuilla ja kyselyissä tietojen analysointitilan avulla
 description: Opettele analysoimaan tietoja Business Centralin tietojen analysointitilan avulla.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 09/23/2023
+ms.date: 10/05/2023
 ms.custom: bap-template
 ms.service: dynamics365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
@@ -21,7 +21,7 @@ Tässä artikkelissa opit analysoimaan tietoja luettelosivuilta ja kyselyistä *
 
 ## Vaatimukset 
 
-- Jos käytössäsi on Business Centralin versio 22, tietojen analysointitila on esikatselussa, joten järjestelmänvalvojan on otettava se käyttöön, ennen kuin voit käyttää sitä. Voit ottaa sen käyttöön siirtymällä **Ominaisuuksien hallinta** -sivulle ja ottamalla käyttöön **Ominaisuuden päivitys: analyysitila, analysoi tiedot nopeasti suoraan Business Centralin avulla**. [Lue lisää kohdasta Ominaisuuksien hallinta](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- Jos käytössä on Business Centralin versio 22, tietojen analysointitila on esiversio. Järjestelmänvalvojan on siis otettava se käyttöön, ennen kuin sitä voi alkaa käyttää. Voit ottaa sen käyttöön siirtymällä **Ominaisuuksien hallinta** -sivulle ja ottamalla käyttöön **Ominaisuuden päivitys: analyysitila, analysoi tiedot nopeasti suoraan Business Centralin avulla**. [Lue lisää kohdasta Ominaisuuksien hallinta](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - Versiossa 23 ja sitä uudemmissa versioissa tilillesi on määritettävä **DATA ANALYSIS - EXEC** -käyttöoikeuksien joukko tai sisällytettävä järjestelmän objektin **9640 Salli tietojen analysointitila** -suoritusoikeus. Järjestelmänvalvojana voit jättää nämä käyttöoikeudet pois käyttäjiltä, jotka eivät halua käyttää analyysitilaa.
 
 > [!NOTE]
@@ -45,7 +45,7 @@ Tässä artikkelissa opit analysoimaan tietoja luettelosivuilta ja kyselyistä *
 
 4. Kun haluat poistua analysointitilasta, ota **Analysoi**-vaihtokytkin pois käytöstä.
 
-   Lisäämäsi analyysivälilehdet säilyvät, kunnes poistat ne. Joten jos palaat Tietoanalyysitilaan uudelleen, näet ne juuri sellaisina kuin ne jätit.
+   Lisäämäsi analyysivälilehdet säilyvät, kunnes poistat ne. Joten jos palaat tietojen analysointitilaan uudelleen, näet ne juuri sellaisina kuin ne jätit.
 
 > [!NOTE]
 > Analyysitilassa näkyviä tietoja ohjataan luettelosivulla määritettyjen suodattimien tai näkymien avulla. Tämän ansiosta voit suodattaa tiedot ennen analyysitilan syöttämistä.
@@ -69,7 +69,7 @@ Tietoalue näyttää luettelosivun kyselyn rivit ja sarakkeet, ja tiedoista tehd
   - Jos haluat kiinnittää sarakkeen tietoalueen vasempaan tai oikeaan reunaan niin, että se ei siirry pois näytöstä vieritettäessä, valitse ![Näyttää kuvakkeen sarakkeessa tietojen analysointitilassa, joka avaa toimintojen valikon](media/analysis-mode-column-menu-icon.png) > **PIN-koodin sarake** > **PIN-koodi vasen** -sarakkeen osa.
   - Määritä tietosuodattimet suoraan sarakemääritykseen **analyysisuodattimet**-ruutujen sijaan. Voit vielä tarkastella tietoja asiaan liittyvistä tiedoista ja kustakin rivistä sekä avata kortin ja lukea lisätietoja tietystä kohteesta.
 - Käytä tietoaluetta tietojen vuorovaikutukseen. Sarakkeissa, jotka sisältävät numeerisia arvoja, voit saada kuvaavia tilastoja kenttäjoukosta merkitsemällä ne. Tilastotiedot näkyvät sivun alaosassa tilarivillä (2).
-- Vie tiedot Excel- tai csv-muodossa. Napsauta hiiren kakkospainikkeella tietoaluetta tai valittua solua, johon viedään.
+- Vie tiedot Excel- tai csv-muodossa. Napsauta hiiren kakkospainikkeella tietoaluetta tai valittua solua, johon vienti tehdään.
 
 ### Yhteenvetopalkki (2)
 
@@ -103,7 +103,7 @@ Seuraavassa taulukossa kuvataan kokonaissummat-alueessa näkyvät numerot:
 |Riviryhmät|Tämän alueen avulla voit ryhmitellä ja laskea yhteen tai useampaan kenttään tietoja. Voit sisällyttää vain muita kuin numeerisia kenttiä, kuten tekstiä, päivämäärä- ja kellonaikakenttiä. Riviryhmiä käytetään usein pivot-tilassa.|
 |Arvot|Tämän alueen avulla voit määrittää kentät, joille haluat laskea summan. Voit sisällyttää vain sellaiset kentät, jotka sisältävät numeroita, jotka voidaan laskea yhteen. Esimerkiksi ei teksti-, päivä määrä- tai kellonaikakenttä.|
 
-Jos haluat siirtää kentän yhdeltä alueelta toiselle, valitse sieppauskuvake ![Näyttää yhteenvedon analysointitilassa olevasta sivusta](media/column-grab-icon.png) yllä olevan luettelon sarakkeen viereen ja vedä kohde alueelle. Et voi siirtää kenttää alueelle, jossa sitä ei sallita.
+Jos haluat siirtää kentän yhdeltä alueelta toiselle, valitse sieppauskuvake ![Näyttää yhteenvedon analysointitilassa olevasta sivusta](media/column-grab-icon.png) luettelon sarakkeen viereen ja vedä kohde alueelle. Et voi siirtää kenttää alueelle, jossa sitä ei sallita.
 
 ### Analyysisuodattimet (4)
 
@@ -126,11 +126,21 @@ Tässä on joitain vinkkejä useiden analyysivälilehtien käyttämiseen:
    - **Delete** poistaa avoinna olevan välilehden. **Poista kaikki** poistaa kaikki lisäämäsi välilehdet, paitsi oletusvälilehden **Analyysi 1**.
 - Et voi poistaa **Analyysi 1**:tä kokonaan, mutta voit nimetä sen uudelleen käyttämällä **Nimeä uudelleen** -toimintoa ja poistamalla tekemäsi muutokset **Poista**- tai **Poista kaikki** -toiminnolla.  
 
-- Lisäämäsi ja määrittämäsi analyysivälilehdet säilyvät, kunnes poistat ne. Joten jos palaat Tietoanalyysitilaan uudelleen, näet ne juuri sellaisina kuin ne jätit.
+- Lisäämäsi ja määrittämäsi analyysivälilehdet säilyvät, kunnes poistat ne. Joten jos palaat tietojen analysointitilaan uudelleen, näet ne juuri sellaisina kuin ne jätit.
 
    > [!TIP]
    > Määrittämäsi välilehdet näkyvät vain sinulle. Muut käyttäjät näkevät vain määrittämäsi välilehdet.
 - Voit kopioida analyysivälilehtiä. Kopioiminen voi olla hyödyllistä, jos haluat kokeilla välilehden muuttamista alkuperäistä muuttamatta tai jos haluat luoda eri muunnelmia samasta analyysista.
+
+
+## Päivämäärähierarkiat
+
+Analyysitilassa tietojoukon päivämääräkentät luodaan kolmen erillisen kentän vuosi-neljännesvuosi-kuukausi-hierarkian avulla. Tämä hierarkia perustuu normaaliin kalenteriin, ei Business Centralissa määritettyyn kirjanpitokalenteriin.
+
+Lisäkenttien nimet ovat _\<field name\> vuosi_, _\<field name\> neljännesvuosi_ ja _\<field name\> kuukausi_. Jos esimerkiksi tietojoukko sisältää kentän nimeltä _Kirjauspvm_, vastaava päivämäärähierarkia sisältää kentät nimeltä _Kirjauspvm:n vuosi_, _Kirjauspvm:n neljännesvuosi_ ja _Kirjauspvm:n kuukausi_.
+
+> [!NOTE]
+> Päivämäärähierarkia koskee tällä hetkellä vain päivämäärätyyppisiä kenttiä, ei päivämäärä/aika-tyyppisiä kenttiä.
 
 ## Pivot-tila
 
@@ -183,7 +193,7 @@ Kun olet tehnyt analyysin välilehdessä, voit jakaa sen linkkinä työtoverien 
 
 1. Valitse **Kopioi**.
 
-1. Liitä linkki haluamaasi viestintävälineisiin, kuten Wordiin, Outlookiin, Teamsiin, OneNoteen ja niin edelleen. 
+1. Liitä linkki haluamaasi viestintävälineisiin, esimerkiksi Wordiin, Outlookiin, Teamsiin tai OneNoteen. 
 
 2. Kun vastaanottaja on vastaanotettu, hän voi valita linkin ja avata sivun tai kyselyn analyysin Business Centralissa. Ohjelma pyytää heitä määrittämään uuden analyysivälilehden nimen, joka luodaan.  
 
