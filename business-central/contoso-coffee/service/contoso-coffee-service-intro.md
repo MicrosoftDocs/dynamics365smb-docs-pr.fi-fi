@@ -8,7 +8,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ---
 
-# Johdatus Contoso Coffeeen huoltohallintoon
+# <a name="introduction-to-contoso-coffee-service-management"></a>Johdatus Contoso Coffeeen huoltohallintoon
 
 Contoso Coffee on kuvitteellinen yritys, joka tuottaa kuluttajille ja yrityksille kahvinkeittimiä. **Contoso Coffee** -sovellukset Business Centralille lisäävät demotietoja, joiden avulla voit opetella käyttämään huoltohallinnon ominaisuuksia Business Centralissa.
 
@@ -22,7 +22,7 @@ Tässä sovelluksessa on useita elementtejä, joita käytetään pääkuvauksiss
 > Ennen kuin suoritat mitään Contoso Coffeen skenaarioista, kirjaa kaikki nimikepäiväkirja rivit, joilla on alkusaldot. Lisätietoja vaatimuksista on [Contoso Coffee -tietojen määrittäminen](#set-up-contoso-coffee-service-management-data) -osiossa.
 >
 > 
-## Contoso Coffeen huoltohallinnon tietojen määrittäminen
+## <a name="set-up-contoso-coffee-service-management-data"></a>Contoso Coffeen huoltohallinnon tietojen määrittäminen
 
 [!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
 
@@ -42,7 +42,7 @@ Kun asianmukaiset sovellukset on asennettu, siirry [Contoson demotyökalu](https
 
 Kun olet valmis, valitse **Luo demotiedot** -toiminto. Tietojen lisääminen pohjana olevaan tietokantaan kestää muutaman minuutin, mutta sitten olet valmis suorittamaan erilaisia skenaarioita.  
 
-## Esimerkkitilanteet
+## <a name="scenarios"></a>Esimerkkitilanteet
 
 Contoso Coffeen esittelytiedot tukevat tällä hetkellä seuraavia testin ja harjoittelun huoltoskenaarioita:
 
@@ -55,6 +55,6 @@ Lue kunkin skenaarion vaiheet asianomaisessa artikkelissa.
 > Huollon vaihekuvaukset edellyttävät, että käyttäjäkokemukseksi on asetettu **Premium** **Yritystiedot**-sivulla.
 
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Palvelu](../../service-service.md)

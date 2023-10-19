@@ -11,7 +11,7 @@ ms.search.form: '672, 676, 682'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Eräajojen ja XMLportien suorittaminen
+# <a name="run-batch-jobs-and-xmlports"></a>Eräajojen ja XMLportien suorittaminen
 
 Eräajo on rutiini, joka käsittelee tietoja erissä, esimerkiksi **Valuuttakurssien muutoksen** eräajo. Ohjelmassa on eräajoja, jotka suorittavat säännöllisiä kirjanpidon toimintoja, kuten tuloslaskelman sulkeminen tilikauden päättyessä. Monet eräajot suorittavat laskutoimituksia. Tällaiset eräajot voivat esimerkiksi laskea viivästyskulut, vaihtokurssien muutoksen tai yksikköhinnat.
 
@@ -19,13 +19,13 @@ Eräajo vastaa raporttia, mutta se päivittää tiedot suoraan saatujen tulosten
 
 Voit aikatauluttaa eräajon suorittamisen. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
 
-## Eräajon suorittaminen
+## <a name="to-run-a-batch-job"></a>Eräajon suorittaminen
 1. Jos haluat avata asianomaisen eräajon pyyntösivun, valitse ![Hehkulamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä eräajon nimi ja valitse sitten liittyvä linkki.
 2. Jos eräajolla on **Vaihtoehdot**-pikavälilehti, voit määrittää eräajon toiminnan täyttämällä kentät.
 3. Sivulla voi olla yksi tai useita pikavälilehtiä ja suodattimia, joiden avulla voidaan rajoittaa eräajoon sisällytettyjä tietoa. Voit syöttää kriteerin ehdotetuille suodattimille tai lisätä suodattimia.
 4. Aloita eräajo valitsemalla **OK**.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 [Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md)  
 [Työjonojen käyttäminen ajoitustehtäviin](admin-job-queues-schedule-tasks.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

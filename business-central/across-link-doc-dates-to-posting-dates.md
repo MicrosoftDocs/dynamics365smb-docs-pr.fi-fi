@@ -9,10 +9,10 @@ ms.date: 08/03/2023
 ms.custom: bap-template
 ---
 
-# Asiakirjapäivämäärien päivittäminen kirjauspäivämäärillä
+# <a name="updating-document-dates-with-posting-dates"></a>Asiakirjapäivämäärien päivittäminen kirjauspäivämäärillä
 
 [!INCLUDE [document-posting-date](includes/document-posting-date.md)]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Myynnin määrittäminen](sales-setup-sales.md)

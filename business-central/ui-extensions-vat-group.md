@@ -10,26 +10,26 @@ ms.search.form: '4700, 4701, 4703, 4704, 4705, 4706, 4707, 4708, 4709,'
 ms.date: 09/18/2023
 ---
 
-# Yhdistyneen kuningaskunnan ALV-ryhmän hallinnan laajennus
+# <a name="the-vat-group-management-extension-for-the-united-kingdom"></a>Yhdistyneen kuningaskunnan ALV-ryhmän hallinnan laajennus
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Voit yhdistää yhden tai useamman Yhdistyneessä kuningaskunnassa sijaitsevan yrityksen yhdistääksesi arvonlisäveron (ALV) raportoinnin yhdelle rekisteröintinumerolle. Tämäntyyppistä järjestelyä kutsutaan *ALV-ryhmäksi*. Voit pitää ryhmään yhteyttä jäsenenä tai ryhmän edustajana.
 
-## ALV-ryhmän muodostaminen
+## <a name="forming-a-vat-group"></a>ALV-ryhmän muodostaminen
 
 ALV-ryhmän jäsenet ja ryhmän edustaja voivat käyttää **Määritä ALV-ryhmän hallinta** -asetusten ohjattua määritysopasta määrittääkseen sitoutumisensa ryhmän kanssa ja luodakseen yhteyden [!INCLUDE[prod_short](includes/prod_short.md)] -vuokraajiensa välille. Ryhmän jäsenet käyttävät tätä yhteyttä lähettääkseen ALV-palautuksensa ryhmän edustajalle. Tämän jälkeen ryhmän edustaja käyttää yhtä ALV-palautusta toimittaakseen ryhmän arvonlisäveron veroviranomaisille.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tukee ryhmien välisiä ALV-palautuslähetyksiä yrityksissä, joissa käytetään [!INCLUDE[prod_short](includes/prod_short.md)]in paikallista versiota tai verkkoversiota missä tahansa yritysten väliseen viestintäkokoonpanoon vaikuttamassa yhdistelmässä. Tässä artikkelissa kuvataan eri ryhmäkokoonpanoja.
 
-### Lisenssivaatimukset
+### <a name="license-requirements"></a>Lisenssivaatimukset
 
 Ryhmän jäsenillä on oltava [!INCLUDE[prod_short](includes/prod_short.md)]-käyttöoikeus. Et voi käyttää vierastilejä ALV-ryhmissä.
 
 * Käyttäjän täytyy olla täysi [!INCLUDE[prod_short](includes/prod_short.md)] -käyttäjä ALV-palautuksen laskemista ja lähettämistä varten.
 * Tarvitset [!INCLUDE[prod_long](includes/prod_long.md)] -ryhmän jäsenen käyttöoikeuden sisäänkirjautumiseen ja perustehtävien suorittamiseen, kuten tilien luomiseen.
 
-## Määritä ALV-ryhmä
+## <a name="set-up-a-vat-group"></a>Määritä ALV-ryhmä
 
 Alla on suositeltu järjestys vaiheille, joita järjestelmänvalvoja käyttää ALV-ryhmän määrittämiseen:
 
@@ -44,7 +44,7 @@ Alla on suositeltu järjestys vaiheille, joita järjestelmänvalvoja käyttää 
 > [!NOTE]
 > Muodostaakseen yhteyden ALV-ryhmän edustajaan, ryhmän jäsenillä on oltava käyttäjätili, jolla on ALV-ryhmän edustajan käyttöoikeus [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan. ALV-ryhmän edustajan täytyy luoda vähintään yksi käyttäjä tätä tarkoitusta varten. Tietoturvasyistä suosittelemme kuitenkin, että he luovat käyttäjän jokaiselle ALV-ryhmän jäsenelle. Tämä käyttäjä voi olla järjestelmäkäyttäjä, jota ei ole liitetty kehenkään todelliseen henkilöön. Muista jakaa käyttäjien tunnistetiedot ALV-ryhmän jäsenille turvallisella tavalla.
 
-### Microsoft Entra ID -asetukset ryhmän jäsenille
+### <a name="microsoft-entra-id-setup-for-group-members"></a>Microsoft Entra ID -asetukset ryhmän jäsenille
 
 Kun ALV-ryhmän edustaja käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaa onlinessa tai paikallisesti, ALV-ryhmän jäsenten on käytettävä Microsoft Entra ID:tä käyttäjien todentamiseen, kun he lähettävät ALV-palautuksia ALV-ryhmän edustajalle. Paikallisen [!INCLUDE[prod_short](includes/prod_short.md)]n osalta jäsenten on määritettävä kertakirjautuminen. Lisätietoja on kohdassa [Microsoft Entra -todennuksen määrittäminen WS-Federation-tunnisteilla](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory?tabs=singletenant%2Cadmintool).
 
@@ -60,7 +60,7 @@ Kun ALV-ryhmän jäsenen järjestelmänvalvoja luo sovelluksen rekisteröinnin M
 * Lisää käyttöoikeudet **API-oikeudet**-osiossa [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan. Ota käyttöön delegoitu käyttöoikeus kohteisiin **Financials.ReadWrite.All** ja **user_impersonation**.
 * Huomioi **Sovelluksen (asiakkaan) tunnus** **Yhteenveto**-osassa. Alv-ryhmän jäsenet tarvitsevat tunnuksen, kun he muodostavat yhteyden ryhmän edustajaan.
 
-### Ryhmän ohjelmointirajapinnan asetukset
+### <a name="group-api-setup"></a>Ryhmän ohjelmointirajapinnan asetukset
 
 ALV-ryhmän edustaja luo ja toimittaa ohjelmointirajapinnan ryhmän jäsenille. Jäsenet käyttävät tätä ohjelmointirajapintaa muodostaakseen yhteyden edustajan [!INCLUDE[prod_short](includes/prod_short.md)] -vuokraajaan ja ALV-palautusten lähettämiseen. ALV-ryhmän jäsenet käyttävät usein [!INCLUDE[prod_short](includes/prod_short.md)]:sta erillisissä Microsoft Entra -vuokraajissa. Tästä syystä ALV-ryhmän jäsenen ja edustajan [!INCLUDE[prod_short](includes/prod_short.md)]in yhdistäminen toisiinsa edellyttää määritystoimia.
 
@@ -72,7 +72,7 @@ ALV-ryhmän edustaja luo ja toimittaa ohjelmointirajapinnan ryhmän jäsenille. 
 1. Kopioi **URL**-osoite **Tiedot**-osasta.
 1. Avaa Muistio ja liitä URL-osoite. Korvaa osoite `https://businesscentral.dynamics.com` osoitteella `https://api.businesscentral.dynamics.com/v2.0`.
 
-## Määritä ALV-ryhmän jäsenet
+## <a name="set-up-vat-group-members"></a>Määritä ALV-ryhmän jäsenet
 
 ALV-ryhmän jäsenet muodostavat yhteyden edustajaan kutsumalla verkkopalvelua alv-ryhmän edustajan vuokraajalla. Kutsuja täytyy todentaa käyttämällä OAuth2-määritystä. Kun ALV-ryhmän hallinnan laajennus on määritetty, jäseniä pyydetään tunnistautumaan ALV-ryhmän edustajalle, jolloin käyttötunnussanoma luodaan ja tallennetaan. Tätä käyttötunnussanomaa käytetään alv-palautusten lähettämisen yhteydessä alv-ryhmän edustajalle.
 
@@ -96,14 +96,14 @@ Ennen kuin ALV-ryhmän jäsenet aloittavat kokoonpanonsa määrittämisen (luett
 
    Noudata sitten [ALV-ryhmän edustaja käyttää Business Central Online -versiota](ui-extensions-vat-group.md#vat-group-representative-uses-business-central-online)- tai [ALV-ryhmän edustaja käyttää Business Central On-Premises -versiota](ui-extensions-vat-group.md#vat-group-representative-uses-business-central-on-premises) -osion ohjeita alta.
 
-### ALV-ryhmän edustaja käyttää Business Central Online -versiota
+### <a name="vat-group-representative-uses-business-central-online"></a>ALV-ryhmän edustaja käyttää Business Central Online -versiota
 
 1. Syötä ALV-ryhmän edustajan antamat tunnistetiedot ja lisää tarvittavat käyttöoikeudet luodaksesi käyttötunnussanoman.
 2. Valitse ALV-raporttikokoonpano, jota käytät ALV-palautusten toimittamiseen Yhdistyneen kuningaskunnan veroviranomaisille. 
 
 Kun olet suorittanut määritykset loppuun, [!INCLUDE[prod_short](includes/prod_short.md)] luo tämän valinnan perusteella uuden kokoonpanon, jolla voit lähettää ALV-palautuksia ALV-ryhmän edustajalle.
 
-### ALV-ryhmän edustaja käyttää Business Central On-Premises -versiota
+### <a name="vat-group-representative-uses-business-central-on-premises"></a>ALV-ryhmän edustaja käyttää Business Central On-Premises -versiota
 
 1. Syötä ALV-ryhmän edustajan antamat tunnistetiedot ja valitse **Seuraava**.
 2. Määritä **Asiakastunnus**-kenttään asiakkaan tunnus sovelluksen rekisteröinnistä kohdassa [Microsoft Entra ID -asetukset ryhmän jäsenille](#microsoft-entra-id-setup-for-group-members).
@@ -114,7 +114,7 @@ Kun olet suorittanut määritykset loppuun, [!INCLUDE[prod_short](includes/prod_
 7. Kun olet määrittänyt eri kentät, valitse **Seuraava** ja vahvista todennusyhteys luodaksesi käyttötunnussanoman.
 8. Valitse ALV-raporttikokoonpano, jota käytät ALV-palautusten toimittamiseen Yhdistyneen kuningaskunnan veroviranomaisille.
 
-## Määritä ALV-ryhmän edustaja
+## <a name="set-up-the-vat-group-representative"></a>Määritä ALV-ryhmän edustaja
 
 > [!NOTE]
 > Paikallinen [!INCLUDE[prod_short](includes/prod_short.md)] tukee vain yhden vuokraajan esiintymää ryhmän edustajasta.
@@ -135,7 +135,7 @@ Kun olet suorittanut määritykset loppuun, [!INCLUDE[prod_short](includes/prod_
     3. Määritä **Yritys**-kenttään yritys, josta ryhmän jäsen lähettää ALV-palautuksia [!INCLUDE[prod_short](includes/prod_short.md)]issa, kuten, **CRONUS UK Ltd**.
     4. Määritä yrityksen yhteystiedot.
 
-## ALV-ryhmän hallintaominaisuuksien käyttäminen
+## <a name="use-the-vat-group-management-features"></a>ALV-ryhmän hallintaominaisuuksien käyttäminen
 
 ALV-ryhmän jäsenet käyttävät vakioprosesseja alv-palautusten valmisteluun. Ainoa ero on se, että jäsenten täytyy valita **ALV-palautus**-sivulta **VATGROUP**-raporttiversio lähettääkseen ALV-palautuksen ALV-ryhmän edustajalle viranomaisten sijaan. Lisätietoja on kohdassa [Tietoja ALV-palautusraportista](finance-how-report-vat.md#vatreturn).
 
@@ -144,14 +144,14 @@ ALV-ryhmän jäsenet käyttävät vakioprosesseja alv-palautusten valmisteluun. 
 
 Seuraavissa osioissa kuvataan tehtävät, jotka ALV-ryhmän edustajien täytyy suorittaa kirjatakseen ryhmän ALV-palautuksen.
 
-### Tarkasta ALV-ryhmän jäsenten lähetykset
+### <a name="review-vat-member-submissions"></a>Tarkasta ALV-ryhmän jäsenten lähetykset
 
 **ALV-ryhmän lähetykset** -sivulla näkyvät jäsenten lähettämät alv-palautukset. Sivu toimii toimituksille luonnossijaintina, kunnes alv-ryhmän edustaja sisällyttää ne ryhmän ALV-palautukseen. Edustaja voi avata lähetykset tarkastaakseen yksittäiset ruudut, jotka sisältävät VAT-ryhmän kunkin jäsenen ilmoittaman summan.
 
 > [!TIP]
 > **ALV-palautusjaksot**-sivun **Ryhmän jäsenten lähetykset** -kenttä näyttää, kuinka monta palautusta jäsenet ovat lähettäneet. Varmista tämän luvun ajantasaisuus valitsemalla **Hae ALV-palautukset**-toiminto.
 
-### Luo ryhmän ALV-palautus
+### <a name="create-a-group-vat-return"></a>Luo ryhmän ALV-palautus
 
 Jos haluat raportoida ALV:n ryhmän puolesta, luo ALV-ilmoitus vain yrityksellesi **ALV-palautus**-sivulla. Sisällytä sen jälkeen viimeisimmät ALV-lähetykset alv-ryhmän jäseniltä valitsemalla **Sisällytä ryhmä-ALV** -toimenpiteeseen.  
 
@@ -160,7 +160,7 @@ Kun ryhmän edustaja on lähettänyt ryhmän ALV-ilmoituksen viranomaisille, hä
 > [!IMPORTANT]
 > ALV-ryhmien toimintoa tuetaan vain niillä markkina-alueilla, joissa [!INCLUDE[prod_short](includes/prod_short.md)] käyttää ALV-palautuksista ja ALV-palautusjaksoista koostuvaa ALV-kehystä. Et voi käyttää ALV-ryhmiä markkina-alueilla, joilla on muita paikallisen ALV-raportoinnin toteutuksia, kuten Espanja, Italia, Itävalta, Saksa ja Sveitsi.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Yhdistyneen kuningaskunnan paikallinen toiminnallisuus brittiversiossa](LocalFunctionality/unitedkingdom/united-kingdom-local-functionality.md)  
 [Veron määrittäminen digitaaliseksi Yhdistyneessä Kuningaskunnassa](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  

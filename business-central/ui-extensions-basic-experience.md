@@ -11,7 +11,7 @@ ms.reviewer: bholtorf
 ms.custom: bap-template
 ---
 
-# Peruskokemuksen laajennus
+# <a name="the-basic-experience-extension"></a>Peruskokemuksen laajennus
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -22,7 +22,7 @@ Laajennus on tarkoitettu pienille yrityksille, ja se voi tukea enintään kolmea
 > [!NOTE]
 > Tällä hetkellä tämä laajennus on saatavilla vain asiakkaille Tanskassa ja Islannissa.
 
-## Mitä on saatavilla
+## <a name="whats-available"></a>Mitä on saatavilla
 
 Seuraavassa taulukossa on kuvattu ominaisuudet, jotka ovat käytettävissä, jos asennat peruskokemukseen laajennuksen.
 
@@ -34,7 +34,7 @@ Seuraavassa taulukossa on kuvattu ominaisuudet, jotka ovat käytettävissä, jos
 |**Projektinhallinta** |Projektit, projektin hinnoittelu, työaikataulukot, toimeksiannot tehtävät, resurssit |
 |**Varasto** |Perusvarasto, nimikkeen korvaukset, nimikkeen viittaus |
 
-## Aloitusopas
+## <a name="getting-started"></a>Aloitusopas
 
 Tämä laajennus on hieman erilainen kuin useimmat, ja tarvitset apua Microsoft-kumppanilta laajennuksen asennukseen ja määrittämiseen. Jotta tiedät mitä odottaa, tässä on korkean tason näkymä siitä, mitä Microsoft-kumppani tekee.
 
@@ -45,11 +45,11 @@ Tämä laajennus on hieman erilainen kuin useimmat, ja tarvitset apua Microsoft-
 5. Lisää **Demo RapidStart** -paketti. <!--what does the package contain?-->
 6. Lataa ja asenna peruskokemuksen laajennus AppSourcesta.
 
-## Tietojen siirto
+## <a name="migrating-data"></a>Tietojen siirto
 
 Tuo Dynamics C5 -tiedot mukana. Kun Microsoft-kumppani on asentanut peruskokemuslaajennuksen, sinulla on tyhjä yritys. Helppo tapa siirtää tietoja Dynamics C5:stä peruskokemukseen on käyttää C5 Data Migration -laajennusta, joka sisältyy [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan. Laajennus siirtää asiakkaat, toimittajat, nimikkeet ja pääkirjanpidon tilit sekä niiden tapahtumat.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Tietojen siirron C5-laajennus](ui-extensions-c5-data-migration.md)  
 
