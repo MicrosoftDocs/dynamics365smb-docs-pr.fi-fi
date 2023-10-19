@@ -10,7 +10,7 @@ ms.search.form: '39, 2673, 2670, 2674,'
 ms.custom: bap-template
 ---
 
-# <a name="allocate-revenue-and-costs-to-multiple-general-ledger-accounts"></a>Tuoton ja kustannusten kohdistaminen useille kirjanpitotileille
+# Tuoton ja kustannusten kohdistaminen useille kirjanpitotileille
 
 Tässä artikkelissa kuvataan, miten kohdistustilejä käytetään summien jakamiseen myynti- ja ostoasiakirjoissa sekä yleisen päiväkirjan riveillä eri KP-tileille. Summia voi kohdistaa kiinteän tai muuttuvan jaon avulla.  
 
@@ -25,7 +25,7 @@ Seuraavassa taulukossa esitellään käytettävissä olevat kohdistusmenetelmät
 |Korjattu     | Kun haluat jakaa kulut tavalla, joka toistetaan pidemmällä aikavälillä, voit käyttää kiinteää kohdistusta. Kiinteä kohdistus mahdollistaa kohdistuksen jakamisen. Tämä jako muuttuu vain, kun asetuksia muutetaan **Kohdistustili**-sivulla.        |
 |Muuttuva     | Kun haluat jakaa tuoton tai kulut ajan mittaan muuttuviin arvoihin, käytä muuttuvaa kohdistusmenetelmää. Muuttuvien kohdistusten avulla voit määrittää käytettävät lähteet kohdistusprosenttien laskennassa. Tämä menetelmä on hyödyllinen esimerkiksi sellaisten työntekijöiden kustannusten jakamisessa, jotka ovat osastojen eri henkilöstömäärän mukaan. Toinen esimerkki on vuokrakustannusten jakaminen tuotannon lattiamateriaalin perusteella, joka saattaa vaihdella tuotantorivin mukaan ajan mittaan. Muuttujakohdistukset määrittävät dimensioiden ja tilastotilien yhdistelmän avulla, miten summat jakautuvat tietylle jaksolle. Saat lisätietoja tilastotileistä, kun valitset [Analysoi tietoja tilastotilien avulla](bi-use-statistical-accounts.md). Saat lisätietoja dimensioista siirtymällä kohtaan [Dimensioiden käyttäminen](finance-dimensions.md).        |
 
-## <a name="use-a-fixed-share-or-percentage-method-to-allocate-amounts"></a>Summien kohdistamiseen käytetään kiinteää osaketta tai prosenttiosuutta
+## Summien kohdistamiseen käytetään kiinteää osaketta tai prosenttiosuutta
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kohdistustili** ja valitse sitten liittyvä linkki.  
 1. Valitse **Kohdistustilit**-sivulta **Uusi**.
@@ -40,7 +40,7 @@ Seuraavassa taulukossa esitellään käytettävissä olevat kohdistusmenetelmät
    > Jos todellinen kohdistettava summa syötetään kiinteälle kohdistukselle **Jaa**-kenttään, **Prosentti**-kentässä näkyy prosenttiosuus kokonaissummasta.
 1. Toista tämä prosessi jokaisen kohdistukseen sisällytettävän tilin osalta.
 
-## <a name="use-a-variable-method-to-allocate-amounts"></a>Summien kohdistamiseen käytetään muuttuvaa menetelmää
+## Summien kohdistamiseen käytetään muuttuvaa menetelmää
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvakkeen, syötä **Kohdistustili** ja valitse sitten liittyvä linkki.  
 1. Valitse **Kohdistustilit**-sivulta **Uusi**.
@@ -53,7 +53,7 @@ Seuraavassa taulukossa esitellään käytettävissä olevat kohdistusmenetelmät
 1. Valinnainen: Voit suodattaa tiettyjen globaalien dimensioiden arvojen mukaan valitsemalla **Erittelytilin saldosuodattimet** -toiminnon ja määrittämällä sitten suodattimen arvot.
 1. Valinnainen: Valitse **Dimensiot**-toiminto ja määritä sitten riville kirjattavat dimensiot.
 
-## <a name="allocate-amounts-on-the-fly"></a>Summien kohdistaminen lennossa
+## Summien kohdistaminen lennossa
 
 Luot kohdistustilejä tulon ja kustannusten jakamiseen KP-tileille ja pankkitileille. Kohdistuksen automatisointi voi säästää paljon aikaa. Jos kuitenkin haluat käyttää kohdistustilejä, mutta et halua luoda niitä jokaiselle KP-tilille, voit säästää vielä enemmän aikaa.
 
@@ -61,14 +61,14 @@ Peri pääelementistä -vaihtoehdon avulla voit käyttää kohdistustiliä jakaa
 
 Tapauskohtaiset kohdistukset on helppo määrittää. Sen sijaan, että määrität pankin tai KP-tilin **Kohdistustili**-sivun **Kohdetilin tyyppi** -kenttään, valitse **Peri pääelementistä**. Jätä **Kohdetilin numero** -kenttä tyhjäksi. Kun valitset KP-tilin asiakirjalle tai päiväkirjan riville, kyseistä tiliä käytetään summien kohdistamiseen.
 
-## <a name="verify-that-amounts-distribute-correctly-before-you-post-them"></a>Tarkista, että summat jakautuvat oikein, ennen kuin kirjaat ne.
+## Tarkista, että summat jakautuvat oikein, ennen kuin kirjaat ne.
 
 Voit tarkistaa seuraavilla tavoilla, miten summat jakautuvat oikein:
 
 * Valitse **Kohdistustili**-sivulta **Testikohdistus**-toiminto. Käytä **Kohdistettava summa** -kenttää, kun haluat testata eri summia.
 * Valitse **Pääkirjanpidon päiväkirjat** -sivulla päiväkirja ja käytä **Kirjauksen esikatselu** -toimintoa.
 
-## <a name="adjust-the-distribution"></a>Muuta jakoa
+## Muuta jakoa
 
 Jos löydät kohdistuksesta jotain, jota haluat muuttaa, voit muuttaa kohdistusta ennen sen kirjaamista.  
 
@@ -76,7 +76,7 @@ Jos löydät kohdistuksesta jotain, jota haluat muuttaa, voit muuttaa kohdistust
 1. Valitse rivi ja sitten **Jaa tilin kohdistukset uudelleen** -toiminto.
 1. Tee muutokset **Muuta kohdistuksia** -sivulla.
 
-## <a name="post-an-allocation-transaction"></a>Kohdistustransaktion kirjaaminen
+## Kohdistustransaktion kirjaaminen
 
 Seuraavassa kuvataan, miten kohdistustransaktio kirjataan yleisestä päiväkirjasta. Vaiheet ovat samat myynti- ja ostoasiakirjoille.
 
@@ -92,6 +92,6 @@ Seuraavassa kuvataan, miten kohdistustransaktio kirjataan yleisestä päiväkirj
 1. Valitse **Kirjaa**.
 1. 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Yleisten päiväkirjojen käsitteleminen](ui-work-general-journals.md)  

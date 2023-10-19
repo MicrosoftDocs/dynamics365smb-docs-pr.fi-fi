@@ -11,11 +11,11 @@ ms.search.form: '5194,'
 ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Johdatus Contoso Coffee -demotietoihin
+# Johdatus Contoso Coffee -demotietoihin
 
 Contoso Coffee on kuvitteellinen yritys, joka tuottaa kuluttajille ja yrityksille kahvinkeittimiä. **Contoso Coffee** -sovellukset kohteelle [!INCLUDE [prod_short](../includes/prod_short.md)] lisäävät demotietoja, joiden avulla voit opetella käyttämään ominaisuuksia kohteessa [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
-## <a name="set-up-contoso-coffee-data"></a>Contoso Coffee -tietojen määrittäminen
+## Contoso Coffee -tietojen määrittäminen
 
 [!INCLUDE [contoso-coffee-app-install](contoso-coffee-app-install.md)].
 
@@ -39,7 +39,7 @@ Asetukset kuvaillaan seuraavassa taulukossa:
 
 Kun olet määrittänyt moduulit, joita haluat kokeilla, luo niille esimerkkitiedot valitsemalla **Luo**-toiminto.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Tuotanto](../production-manage-manufacturing.md)  
 [Varastointi](../warehouse-manage-warehouse.md)  

@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621'
 ---
-# <a name="set-up-intercompany-transactions"></a>Konsernitapahtumien määrittäminen
+# Konsernitapahtumien määrittäminen
 
 Konsernikumppanuuksien avulla on helpompi käsitellä kirjanpitoprosesseja, kun vähintään kaksi yrityksen tytäryhtiötä usein tekee kauppaa toistensa kanssa. Kumppanit voivat siirtää tapahtumia, kuten myyntiä ja ostoja, ja käsitellä niitä joko manuaalisesti tai automaattisesti. Jos esimerkiksi osapuoli lähettää myyntipäiväkirjarivin toiselle kumppanille, vastaanottavalle kumppanille luodaan ostopäiväkirjan rivi.
 
@@ -21,7 +21,7 @@ Konsernin tilikartta voi olla esimerkiksi synkronointikumppanin tilikartan versi
 >
 > Tämän artikkelin tehtävät olettavat, että ominaisuus on käytössä. Jos olet jo luonut konsernikumppanuuden, voit jatkaa sen käyttöä.
 
-## <a name="before-you-start"></a>Ennen kuin aloitat
+## Ennen kuin aloitat
 
 Ennen konsernikumppanuuden määrittämistä on tehtävä muutamia päätöksiä.
 
@@ -35,7 +35,7 @@ Ennen konsernikumppanuuden määrittämistä on tehtävä muutamia päätöksiä
 |Miten haluat käsitellä nimikenumeroita?     | Jos konsernin riveissä on nimikkeitä, voit joko käyttää omia nimikenumeroja tai määrittää kumppanin nimikenumerot kullekin soveltuvalle nimikkeelle. Nimikenumeron voi määrittää joko nimikkeen kortin **Toimittajan nimikenro**- tai **Yleinen nimikenro** -kenttään. Voit myös käyttää **Nimikeviittaus**-toimintoa, kun haluat yhdistää nimikkeiden numerot konsernikumppanien kuvauksiin. Saat lisätietoja nimikeviitteistä siirtymällä kohtaan [Käytä nimikeviittauksia](inventory-how-use-item-cross-refs.md).        |
 |Ovatko resurssit mukana?     | Jos suorittamiisi konsernin myyntitapahtumiin sisältyy resursseja, täytä kunkin resurssin kortin **Kons.kump. oston KP-tilinro** -kenttä. Kentässä on konsernin kirjanpitotilin numero, jolle tämän resurssin summa kirjataan kumppaniyrityksessä. Saat lisätietoja resursseista valitsemalla [Resurssien määrittäminen](projects-how-setup-resources.md).<br><br>**HUOMAUTUS**<br>Konsernin sisäisiä ostotapahtumia, jotka sisältävät resursseja, käyttöomaisuutta ja nimikekuluja, ei täysin tueta. Kumppaniyrityksessä **Rivityyppi**-kenttä on tyhjä ostoasiakirjariveillä, jotka sisältävät kyseiset entiteetit. Kenttä tulee päivittää manuaalisesti.        |
 
-## <a name="overview-of-the-steps-to-get-started"></a>Yleistä aloitusvaiheista
+## Yleistä aloitusvaiheista
 
 **Konsernin asetukset** -sivun avulla voit määrittää seuraavat konsernin tapahtumien komponentit:
 
@@ -47,7 +47,7 @@ Ennen konsernikumppanuuden määrittämistä on tehtävä muutamia päätöksiä
 * Yritykset, jotka ovat konsernikumppaneita.
 * Yritykset, jotka ovat toimittajia tai asiakkaita tai molempia.
 
-## <a name="set-up-a-synchronization-partner"></a>Synkronointikumppanien määrittäminen
+## Synkronointikumppanien määrittäminen
 
 Kaikkien kumppaneiden on käytettävä samaa konsernin tilikarttaa ja tarpeen mukaan samoja konsernin dimensioita. Voit säästää aikaa, kun määrität kumppanuuden, käyttämällä jonkin kumppanin tilikarttaa ja dimensioita konsernin tilikartan ja dimensioiden pohjana. Pohjana käyttämäsi yritys on nimeltään *synkronointikumppani*. Yleensä synkronointikumppani on pääkonttorin yritys, mutta sen ei tarvitse olla.
 
@@ -56,7 +56,7 @@ Kaikkien kumppaneiden on käytettävä samaa konsernin tilikarttaa ja tarpeen mu
 > [!NOTE]
 > On tärkeää yhdistää tilit ja dimensiot molempiin suuntiin. Tämä koskee sekä konsernin tilikarttaa että dimensioita ja niistä omiin tileihin ja dimensioihisi.
 
-### <a name="connect-with-partners-in-another-tenant-or-environment"></a>Yhteyden muodostaminen toisen vuokralaisen tai ympäristön kumppaneiden kanssa
+### Yhteyden muodostaminen toisen vuokralaisen tai ympäristön kumppaneiden kanssa
 
 Jos yhden tai usean kumppanin [!INCLUDE [prod_short](includes/prod_short.md)] on toisessa vuokraajassa tai ympäristössä, yhteyden luomisessa vaaditaan muutama lisävaihe. Vaiheet koskevat kaikkia toisessa vuokraajassa tai ympäristössä olevia kumppaneita.
 
@@ -80,7 +80,7 @@ Jos yhden tai usean kumppanin [!INCLUDE [prod_short](includes/prod_short.md)] on
 
 Suorita ohjattu **Konsernikumppanin ympäristöjen välinen määritys** -määritysopas kaikissa yrityksissä tietojen määrittämiseksi. Aloita opas **Konsernikumppani**-sivulla käyttämällä **Yhdistä ulkoisesti -määritys** -toimintoa.
 
-#### <a name="create-a-registered-app-in-azure-portal"></a>Rekisteröidyn sovelluksen luominen Azure-portaalissa
+#### Rekisteröidyn sovelluksen luominen Azure-portaalissa
 
 Tämä prosessi on tarpeellinen vain, jos haluat muodostaa yhteyden kumppaneihin, joiden [!INCLUDE [prod_short](includes/prod_short.md)] on eri vuokraajassa tai ympäristössä.
 
@@ -119,7 +119,7 @@ Tämä prosessi on tarpeellinen vain, jos haluat muodostaa yhteyden kumppaneihin
 20. Kopioi arvo **Hakemiston (vuokraajan) tunnus** -kenttään. Voit esimerkiksi liittää arvon tekstieditoriin.
 21. Kun tunnuksen arvo on kopioitu, korvaa **organisaatiot** edellisessä vaiheessa **Hakemiston (vuokraajan) tunnus** -kentästä kopioidulla arvolla.
 
-#### <a name="add-and-enable-your-registered-app-in-business-central"></a>Rekisteröidyn sovelluksen lisääminen ja sen käyttöönotto Business Centralissa
+#### Rekisteröidyn sovelluksen lisääminen ja sen käyttöönotto Business Centralissa
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Microsoft Entra -sovelluksen kortti** ja valitse liittyvä linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -127,7 +127,7 @@ Tämä prosessi on tarpeellinen vain, jos haluat muodostaa yhteyden kumppaneihin
 4. Valitse **Anna suostumus** -toiminto. 
 5. Valitse **Käyttöoikeuksien joukko** -kentässä käyttöoikeuksien joukoksi **Ohjelmointirajapinta – ympäristöjen välinen konserni**.
 
-## <a name="set-up-the-intercompany-charts-of-accounts"></a>Konsernin tilikartan määrittäminen
+## Konsernin tilikartan määrittäminen
 
 Kaikkien kumppaneiden on käytettävä samaa konsernin tilikarttaa ja määritettävä siihen tilit omissa tilikartoissaan. Jos yrityksesi tilikartta määrittää konsernin tilikartan kumppaniyrityksille, noudata tämän osion ohjeita.
 
@@ -145,7 +145,7 @@ Jos käytät konsernin tilikartan sisältävää XML-tiedostoa, noudata ohjeita 
 
 Seuraavana vaiheena voit linkittää tilikartan yrityksen tilikarttaan. Lisätietoja on kohdassa [Konsernin tilikartan linkittäminen yrityksen tilikarttaan](#map-the-intercompany-chart-of-accounts-to-your-companys-chart-of-accounts).
 
-### <a name="import-or-export-an-intercompany-chart-of-accounts"></a>Konsernin tilikartan tuominen tai vieminen
+### Konsernin tilikartan tuominen tai vieminen
 
 Synkronointiyritys voi jakaa tilikartan kumppaneille viemällä sen tiedostoon. Kumppanit voivat tuoda tiedoston saadakseen tilikartan.
 
@@ -156,7 +156,7 @@ Synkronointiyritys voi jakaa tilikartan kumppaneille viemällä sen tiedostoon. 
 
 **Konsernin tilikartta** -sivulle on täytetty uudet tai muokatut KP-tilin rivit tiedostossa olevan konsernin tilikartan mukaisesti. Sivulla olevat aiemmin luodut liittymättömät rivit eivät muutu.
 
-## <a name="map-the-intercompany-chart-of-accounts-to-your-companys-chart-of-accounts"></a>Konsernin tilikartan linkittäminen yrityksen tilikarttaan
+## Konsernin tilikartan linkittäminen yrityksen tilikarttaan  
 
 Kun olet määrittänyt tai tuonut konsernin tilikartan, yhdistä jokainen konsernin tili johonkin tiliin. Määritä **Konsernin tilikartta** -sivulla, kuinka saapuvien tapahtumien konsernin KP-tilit linkitetään yrityksen tilikartan tileihin.
 
@@ -177,7 +177,7 @@ Jos konsernin tileillä ja omilla tileillä on samat numerot, voit yhdistää ti
     > [!TIP]
     > Jos haluat yhdistää monta tiliä tai ehkä kaikki tilit, valitse rivi, valitse :::image type="icon" source="media/show-more-options-icon.png" border="false"::: ja valitse sitten **Valitse lisää**.
 
-## <a name="set-up-intercompany-dimensions"></a>Konsernin dimensioiden määrittäminen
+## Konsernin dimensioiden määrittäminen
 
 Jos kumppanit vaihtavat tapahtumia, joihin on linkitetty dimensioita, sopikaa dimensioista, joita kaikki käyttävät. Esimerkiksi synkronointiyritys voi luoda dimensioista yksinkertaistetun version, viedä ne XML-tiedostoon ja jaella tiedoston sitten jokaiselle kumppanille. Kukin kumppani voi tuoda XML-tiedoston **Konsernin dimensiot** -sivulla ja yhdistää konsernin dimensiot omiin dimensioihin. Lisätietoja on kohdassa [Konsernin dimensioiden linkittäminen oman yrityksen dimensioihin](#map-intercompany-dimensions-to-your-companys-dimensions).
 
@@ -196,7 +196,7 @@ Jos kumppanit käyttävät synkronointikumppanin konsernin dimensioita, noudata 
     > [!TIP]
     > Jos kopioit konsernin dimensiot synkronointikumppanilta, voit päivittää konsernin dimensiot käyttämällä **Synkronoinnin määritykset** -toimintoa kumppanin tekemillä muutoksilla.  
 
-### <a name="import-or-export-intercompany-dimensions"></a>Konsernin dimensioiden tuonti tai vienti
+### Konsernin dimensioiden tuonti tai vienti  
 
 Synkronointiyritys voi jakaa dimensiot kumppaneille viemällä ne tiedostoon. Kumppanit voivat tuoda tiedoston, jotta dimensiot saadaan.
 
@@ -207,7 +207,7 @@ Synkronointiyritys voi jakaa dimensiot kumppaneille viemällä ne tiedostoon. Ku
 
 Seuraava askel on yhdistää dimensiot konsernin dimensioihin. Lisätietoja on kohdassa [Konsernin dimensioiden linkittäminen oman yrityksen dimensioihin](#map-intercompany-dimensions-to-your-companys-dimensions).
 
-### <a name="map-intercompany-dimensions-to-your-companys-dimensions"></a>Konsernin dimensioiden linkittäminen oman yrityksen dimensioihin
+### Konsernin dimensioiden linkittäminen oman yrityksen dimensioihin
 
 Kun olet määrittänyt käytettävät dimensiot, yhdistä jokainen konsernin dimensio oman yrityksen dimensioon ja päinvastoin. Voit määrittää yhdistämismäärityksen **Konsernin dimensioiden linkittäminen** -sivulla. Toista tämän jälkeen dimensioarvojen prosessi uudelleen.
 
@@ -232,7 +232,7 @@ Seuraavissa vaiheissa määritetään ensin konsernin dimensiot saapuvien asiaki
 5. Valitse **Dimensioarvojen yhdistämismääritys** -toiminto.
 6. **Konsernin dimensioarvojen yhdistämismääritys** -sivulla yhdistämismäärityksen luomisvaiheet ovat samanlaiset kuin dimensioissa.
 
-## <a name="set-up-intercompany-general-journal-templates-and-batches"></a>Konsernin yleisen päiväkirjan mallien ja erien määrittäminen
+## Konsernin yleisen päiväkirjan mallien ja erien määrittäminen
 
 Sinun täytyy määrittää yleisen päiväkirjan malli ja yleisen päiväkirjan erä käytettäväksi oletusarvoisesti konsernin tapahtumissa. Malli ja erä ovat erityisen tärkeitä, jos hyväksyt konsernin tapahtumat automaattisesti kumppaneilta. Saat lisätietoja tapahtumien automaattisesta hyväksymisestä valitsemalla [Hyväksy tapahtumia automaattisesti konsernikumppaneilta](#auto-accept-transactions-from-intercompany-partners).   
 
@@ -241,7 +241,7 @@ Sinun täytyy määrittää yleisen päiväkirjan malli ja yleisen päiväkirjan
 
 Saat lisätietoja yleisen päiväkirjan malleista ja eristä valitsemalla [Päiväkirjan mallien ja erien käyttäminen](ui-work-general-journals.md#use-journal-templates-and-batches).
 
-## <a name="set-up-a-company-for-intercompany-transactions"></a>Konsernitapahtumien yrityksen määrittäminen
+## Konsernitapahtumien yrityksen määrittäminen
 
 Seuraavissa vaiheissa oletetaan, että synkronointikumppanille on määritetty tilikartta ja dimensiot, joihin konsernin tilikartta ja dimensiot perustuvat. Voit määrittää ne itse, mutta se on yleensä nopeampaa päästä alkuun, ja ylläpito on helpompaa, jos käytät synkronointikumppania. Lisä tietoja synkronointikumppanista on kohdassa [Synkronointikumppanien määrittäminen](#set-up-a-synchronization-partner).
 
@@ -259,7 +259,7 @@ Seuraavissa vaiheissa oletetaan, että synkronointikumppanille on määritetty t
 
 Seuraavassa vaiheessa määritetään kumppaniyritykset.
 
-## <a name="set-up-intercompany-partners"></a>Määritä konsernikumppanit
+## Määritä konsernikumppanit
 
 Kunkin kumppanin on lisättävä kaikki muut yritykset kumppanuudessa kumppaniksi.
 
@@ -271,7 +271,7 @@ Kunkin kumppanin on lisättävä kaikki muut yritykset kumppanuudessa kumppaniks
 > [!NOTE]
 > Jos konsernin kirjauksessa **Hyväksy tapahtumia automaattisesti** -vaihtopainike **Konsernikumppani**-sivulla on otettu käyttöön, [!INCLUDE[prod_short](includes/prod_short.md)] piilottaa sanomat, joissa varoitetaan ostolaskujen kaksoiskappaleista alkuperäisessä ostotilauksessa. On tärkeää, että yrityksellä on liiketoimintaprosessi kaksoiskappaleiden hallintaa varten. Se voidaan tehdä esimerkiksi poistamalla tällaiset ostotilaukset, kun ostolasku vastaanotetaan konsernikumppanilta.
 
-### <a name="set-up-intercompany-partners-as-customers-and-vendors"></a>Konsernikumppanien määrittäminen asiakkaiksi ja toimittajiksi
+### Konsernikumppanien määrittäminen asiakkaiksi ja toimittajiksi
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Konsernin asetukset** ja valitse sitten vastaava linkki.
 2. Avaa **Konsernikumppanit**-pikavälilehdessä kumppanin korttisivu.
@@ -283,7 +283,7 @@ Kunkin kumppanin on lisättävä kaikki muut yritykset kumppanuudessa kumppaniks
     > [!TIP]
     > Voit myös määrittää asiakkaan tai toimittajan konsernikumppaniksi täyttämällä **Konsernikumppanin koodi** -kentän **Asiakaskortti**-ja **Toimittajan kortti** -sivuilla.
 
-### <a name="set-up-default-intercompany-partner-general-ledger-accounts"></a>Oletuskonsernikumppanin kirjanpitotilien määrittäminen
+### Oletuskonsernikumppanin kirjanpitotilien määrittäminen  
 
 Kun luot konsernin myynti- tai ostorivin tapahtumana lähetettäväksi, annat konsernin tilikartasta tilin, johon summa oletusarvoisesti kirjataan kumppaniyrityksessä. Voit määrittää **KP-tilin kortti** -sivulla oletuskonsernikumppanin KP-tilin sellaisia tilejä varten, joita käytät säännöllisesti lähtevissä konsernin myynti- tai ostoriveissä. Voit määrittää esimerkiksi myyntisaamistilejä varten konsernin tilikartasta vastaavat ostovelkatilit. Myyntisaamisten ja ostovelkojen tilejä käytetään konsernikumppanien vastakirjauksen tilinä, kun kirjaat konsernin yleisten päiväkirjojen tapahtumia.  
 
@@ -293,7 +293,7 @@ Kun lisäät kirjanpitotilin **Vastatilin nro** -kenttään sille konsernin rivi
 2. Avaa KP-tili, jota käytetään konsernin tapahtumissa, ja anna konsernitapahtumissa käytettävän KP-tilin rivin **Konsernikumppanin KP-oletustili** -kentässä konsernin kirjanpitotili, jonka kumppani kirjaa kun kirjaat KP-tilin riville.
 3. Toista vaihe 2 kaikkien sellaisten tilien osalta, joita lisäät usein konsernin päiväkirjan tai asiakirjan riville **Vastatilin nro** -kenttään.
 
-### <a name="auto-accept-transactions-from-intercompany-partners"></a>Hyväksy tapahtumia automaattisesti konsernikumppaneilta
+### Hyväksy tapahtumia automaattisesti konsernikumppaneilta
 
 Jotta konsernin tapahtumat voidaan käsitellä nopeammin, voit määrittää, että haluat luoda automaattisesti päiväkirjarivejä, jotka perustuvat konsernikumppanien kirjauksiin **Konsernin yleinen päiväkirja** -sivulla. Saapuvien ja lähtevien tapahtumien automaattinen luominen edellyttää, että otat käyttöön seuraavat vaihtoehdot jokaiselle kumppanille:
 
@@ -309,17 +309,17 @@ Päiväkirjan rivit luodaan, mutta niitä ei kirjata.
 > [!NOTE]
 > Jos organisaatiossasi käytettiin konsernin sisäisiä [!INCLUDE [prod_short](includes/prod_short.md)]-toimintoja ennen vuoden 2022 1. julkaisuaaltoa, järjestelmänvalvojan täytyy ottaa käyttöön **Hyväksy konsernin yleisen päiväkirjan tapahtumat automaattisesti** -ominaisuus käyttöön **toiminnon hallinta** -sivulla.
 
-### <a name="specify-the-bank-accounts-to-use-for-intercompany-partners"></a>Konsernikumppanien käyttöön tarkoitettujen pankkitilien määrittäminen
+### Konsernikumppanien käyttöön tarkoitettujen pankkitilien määrittäminen
 
 Voit helpottaa maksujen suorittamista määrittämällä yhden tai useamman pankkitilin, joita käytetään konsernikumppanien kanssa. Kun kumppani suorittaa maksun konsernin yleisessä päiväkirjassa, hän voi määrittää pankkitilin riville. Pankkitiliä käytetään vastaanottavan yrityksen vastatilinä, mikä minimoi tapahtumien manuaalisen kirjaamisen tarpeen.
 
 * Määritä käytettävä pankkitili valitsemalla **Konsernikumppanit** -sivulta **Pankkitilit**-toiminto. Syötä tilitiedot kohtaan **Konsernin pankkitili -kortti**.
 
-## <a name="troubleshoot-your-intercompany-setup"></a>Konsernin määritysten vianmääritys
+## Konsernin määritysten vianmääritys
 
 **Konsernin asetukset** -sivulla **Konsernimäärityksen diagnostiikka** -ruudussa on ruutuja, jotka ilmaisevat, onko konsernin tapahtumien vaihtoon tarvittavat komponentit määritetty. Ruudut ovat käytettävissä myös Liiketoimintajohtajan roolikeskuksessa. Valitse ruudut selvittääksesi, mitä puuttuu. Saat yleiskuvauksen tarvittavista komponenteista kohdasta [Yleistä aloitusvaiheista](#overview-of-the-steps-to-get-started).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Konsernitapahtumien hallinta](intercompany-manage.md)  
 [Rahoitus](finance.md)  

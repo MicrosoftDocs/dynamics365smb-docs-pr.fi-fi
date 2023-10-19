@@ -9,7 +9,7 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-manufacturing"></a>Contoso Coffeen tuotannon esittely
+# Contoso Coffeen tuotannon esittely
 
 Contoso Coffee on kuvitteellinen yritys, joka tuottaa kuluttajille ja yrityksille kahvinkeittimiä. **Contoso Coffee** -sovellukset Business Centralille lisäävät demotietoja, joiden avulla voit opetella käyttämään tuotanto-ominaisuuksia Business Centralissa.  
 
@@ -36,7 +36,7 @@ Kaikkien skenaarioiden tuotanto toiminnot käyttävät sijaintia *MAIN*.
 > [!IMPORTANT]
 > Ennen kuin suoritat mitään Contoso Coffeen skenaarioista, kirjaa kaikki nimikepäiväkirja rivit, joilla on alkusaldot. Lisätietoja vaatimuksista on [Contoso Coffee -tietojen määrittäminen](#set-up-contoso-coffee-manufacturing-data) -osiossa.
 
-## <a name="set-up-contoso-coffee-manufacturing-data"></a>Contoso Coffeen tuotantotietojen määrittäminen
+## Contoso Coffeen tuotantotietojen määrittäminen
 
 [!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
 
@@ -47,7 +47,7 @@ Kaikkien skenaarioiden tuotanto toiminnot käyttävät sijaintia *MAIN*.
 
 Kun olet valmis, valitse **Luo demotiedot** -toiminto. Tietojen lisääminen pohjana olevaan tietokantaan kestää muutaman minuutin, mutta sitten olet valmis suorittamaan erilaisia skenaarioita.  
 
-## <a name="scenarios"></a>Esimerkkitilanteet
+## Esimerkkitilanteet
 
 Contoso Coffeen tuotannon esittelytiedot tukevat tällä hetkellä seuraavia testi- ja harjoitteluskenaarioita:
 
@@ -65,7 +65,7 @@ Lue kunkin skenaarion vaiheet asianomaisessa artikkelissa.
 > [!IMPORTANT]
 > Nämä vaihekuvaukset edellyttävät, että käyttäjäkokemukseksi on asetettu *Premium* **Yritystiedot**-sivulla.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Tuotanto](../../production-manage-manufacturing.md)  
 [Business Centralin tuotantoraportit ja analytiikka](../../production-reports.md)  
