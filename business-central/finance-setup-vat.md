@@ -21,7 +21,7 @@ Kuluttajat ja yritykset maksavat arvonlisäveroa (ALV:tä), kun he ostavat tavar
 * Mitä myydään  
 * Mitä ostetaan  
 
-Voit määrittää ALV-laskelmat manuaalisesti, mutta se voi olla hankalaa ja aikaavievää. Tämä johtuu siitä, että on erittäin helppoa käyttää vahingossa erilaisia ALV-kantoja ja luoda epätarkkoja ALV-raportteja. Jotta ALV-asetukset olisi helpompi määrittää, on suositeltavaa käyttää tuotteessa olevaa avustettua **ALV-määritys**-opasta. 
+Voit määrittää ALV-laskelmat manuaalisesti, mutta se voi olla hankalaa ja aikaavievää. On helppo käyttää vahingossa erilaisia ALV-kantoja ja luoda epätarkkoja ALV-raportteja. Jotta ALV-asetukset olisi helpompi määrittää, on suositeltavaa käyttää tuotteessa olevaa avustettua **ALV-määritys**-opasta. 
 
 Jos haluat kuitenkin määrittää ALV-laskelmat itse tai jos haluat lisätietoja kustakin vaiheesta, kukin vaihe käsitellään tässä artikkelissa:  
 
@@ -44,7 +44,7 @@ Jos haluat tukea nopeaa aloitusta, [!INCLUDE [prod_short](includes/prod_short.md
 
 Jos valitset tällaisen ilmoituksen, [!INCLUDE [prod_short](includes/prod_short.md)] luo nämä kirjausasetukset automaattisesti sen asiakirjan tai päiväkirjan kirjausryhmien perusteella, jota parhaillaan käsittelet.  
 
-Tässä vaiheessa saatat vain täyttää puuttuvat KP-tilit. Mutta myöhemmin, kun tarkennat asetuksia tarkemmin, saatat huomata, että alkuperäinen asetus on virheellinen. Eikä [!INCLUDE [prod_short](includes/prod_short.md)] salli ALV-kirjausasetusten ja yleisten kirjausasetusten poistoa silloin, kun on luotuna tapahtumia, jotka perustuvat tällaisiin konfiguraatioihin. Joten vuoden 2022 1. julkaisuaallossa voit käyttää **ALV-kirjausasetukset** -sivun **Estetty**-kenttää, jos haluat estää käyttäjiä vahingossa käyttämästä asetuksia, jotka eivät enää ole merkityksellisiä uusissa kirjauksissa.
+Tässä vaiheessa saatat vain täyttää puuttuvat KP-tilit. Mutta myöhemmin, kun tarkennat asetuksia tarkemmin, saatat huomata, että alkuperäinen asetus on virheellinen. Eikä [!INCLUDE [prod_short](includes/prod_short.md)] salli ALV-kirjausasetusten ja yleisten kirjausasetusten poistoa silloin, kun luodaan tapahtumia, jotka perustuvat tällaisiin määrityksiin. Joten vuoden 2022 1. julkaisuaallossa voit käyttää **ALV-kirjausasetukset** -sivun **Estetty**-kenttää, jos haluat estää käyttäjiä vahingossa käyttämästä asetuksia, jotka eivät enää ole merkityksellisiä uusissa kirjauksissa.
 
 ## ALV:n oletuspäivämäärän määrittäminen asiakirjoille ja päiväkirjoille
 
@@ -75,7 +75,7 @@ Voit määrittää ALV-päivämäärän käytön tason seuraavasti:
 |--------------------|-----------------------------------------|
 | **Käytä täydellistä ALV-päivämäärä-toimintoa** | Kaikki **ALV-päivämäärään** liittyvät toiminnot ovat oletusarvon mukaan käytössä ja antavat sinulle maksimaalisen **ALV-päivämäärä**-toiminnon. Voit määrittää päivämäärän, muuttaa sitä asiakirjoissa, raportoida sen perusteella ja muuttaa päivämäärää kirjauksen jälkeen niin kauan kuin jaksoa ei ole suljettu tai suojattu päivämäärien kirjauksen yhteydessä. |
 | **Käytä, mutta älä salli muutoksia** | Kaikki **ALV-päivämäärään** liittyvät asiat toimivat oletusarvoisesti yhtä poikkeusta lukuun ottamatta. **ALV-päivämäärää** ei voi muuttaa **ALV-tapahtumissa**. |
-| **Ei käytä ALV-päivämäärä-toimintoa** | [!INCLUDE [prod_short](includes/prod_short.md)] piilottaa ja määrittää **ALV-päivämäärä**-kentät ei käytettäviksi oleviksi asiakirjoissa, kirjauskansioissa ja tapahtumissa. **ALV-oletuspäivämäärä** määritetään **Kirjauspäivämääräksi**. |
+| **Ei käytä ALV-päivämäärä-toimintoa** | [!INCLUDE [prod_short](includes/prod_short.md)] piilottaa ja määrittää **ALV-päivämäärä**-kentät ei käytettäviksi oleviksi asiakirjoissa, kirjauskansioissa ja tapahtumissa. **ALV-oletuspäivämäärä** määritetään **kirjauspäivämääräksi**. |
 
 3. Sulje sivu.
 
@@ -84,7 +84,7 @@ Voit määrittää ALV-päivämäärän käytön tason seuraavasti:
 
 ### Kausien rajoittaminen ALV-päivämäärän kirjaamista ja muuttamista varten
 
-Voit estää käyttäjiä kirjaamasta tai vaihtamasta tiettyjen päivämäärävälien ALV-tapahtumia. Rajoitus määritetään käyttämällä kahta asetusta:
+Voit estää käyttäjiä kirjaamasta tai vaihtamasta tiettyjen päivämäärävälien ALV-tapahtumia. Rajoitus määritetään käyttämällä kahta seuraavaa asetusta:
 
 * Suljetun **ALV-palautusjakson** perusteella
 * **Salli kirjaaminen kohteesta**- ja **Salli kirjaaminen kohteeseen** -kenttien perusteella.
@@ -101,7 +101,32 @@ Voit estää käyttäjiä kirjaamasta tai vaihtamasta tiettyjen päivämääräv
 | **Varoita kirjattaessa suljetulla jaksolla** | Näytä varoitus, mutta älä estä kirjausta, jos haluat kirjata asiakirjan tai kirjauskansion, jolla on ALV-päivämäärä suljetussa **ALV-palautusjaksossa**. |
 | **Poistettu käytöstä** | Älä tee toimenpiteitä suljetun **ALV-palautuskauden** perusteella. |
 
-#### Voit rajoittaa kirjauksen, joka perustuu sallimiseen kohteesta/kohteeseen
+#### Sellaisen kirjauksen rajoittaminen, joka perustuu sallimiseen kohteesta/kohteeseen
+
+> [!NOTE]
+> Business Centralin versiosta 23.1 lähtien tätä ohjausobjektia on muutettu. Aiemmissa versioissa **Pääkirjanpidon asetukset** -sivulla oli vain yksi ohjausobjekti sekä kirjaus- että ALV-päivämäärälle. Nyt nämä ohjausobjektit on jaettu niin, että **Pääkirjanpidon asetukset** -sivulla on vain **kirjauspäivämäärän** ohjausobjekti ja **ALV-asetukset**-sivulla vain **ALV-päivämäärän** ohjausobjekti. **Käyttäjäasetukset**-sivulla on uusia päivämääräohjausobjekteja.  
+
+##### Versio 23.1 tai uudempi
+
+> [!IMPORTANT]
+> Varmista uuteen versioon päivitettäessä, että arvot päivitetään uudessa **Salli ALV-päivämäärästä alkaen / Salli ALV-päivämäärään asti** -kohdassa **ALV-asetukset**-sivulla **Ensimm. sallittu kirjauspvm / Viimeinen sallittu kirjauspvm** -kohdasta **Pääkirjanpidon asetukset** -sivulla. Jos haluat käyttää eri päivämääräohjausobjekteja, avaa **ALV-asetukset**-sivu ja tee muutokset.  
+
+Voit määrittää rajoituksia yritykselle tai tietyille käyttäjätasoille.
+
+Koko yrityksen kaikkien kirjausten rajoittaminen:
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV:n määrittäminen** ja valitse sitten vastaava linkki.  
+2. Valitse **ALV-asetukset**-pikavälilehden **Salli ALV-päivämäärästä alkaen** -kentässä ALV-päivämäärä, josta kirjaus sallitaan. Asiakirjan tai kirjauskansion kirjaaminen ALV-päivämäärällä ennen tätä päivämäärää ei ole sallittua.  
+3. Valitse **ALV-asetukset**-pikavälilehden **Salli ALV-päivämäärään asti** -kentässä ALV-päivämäärä, johon asti kirjaus sallitaan. Asiakirjan tai kirjauskansion kirjaaminen ALV-päivämäärälle tämän päivämäärän jälkeen ei ole sallittua. 
+
+Tietyn käyttäjän kirjausten rajoittaminen:  
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjän määritys** ja valitse sitten vastaava linkki.  
+2. Valitse **Käyttäjätunnus**-kentässä käyttäjä, joka voi kirjata tiettynä ajanjaksona.  
+3. Valitse **Salli ALV-päivämäärästä alkaen** -kentässä ALV-päivämäärä, josta kirjaus sallitaan. Asiakirjan tai kirjauskansion kirjaaminen ALV-päivämäärällä ennen tätä päivämäärää ei ole sallittua. 
+4. Valitse **Salli ALV-päivämäärään asti** -kentässä ALV-päivämäärä, johon asti kirjaus sallitaan. Asiakirjan tai kirjauskansion kirjaaminen ALV-päivämäärälle tämän päivämäärän jälkeen ei ole sallittua.  
+
+##### Versiot ennen versiota 23.1 
 
 Voit määrittää rajoituksia yritykselle tai tietyille käyttäjätasoille.
 
@@ -114,7 +139,7 @@ Koko yrityksen kaikkien kirjausten rajoittaminen:
 Tietyn käyttäjän kirjausten rajoittaminen:
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjän määritys** ja valitse sitten vastaava linkki.  
-2. Valitse **käyttäjätunnus**-kentässä käyttäjä, jonka haluat sallia kirjaavan tiettynä ajanjaksona.  
+2. Valitse **Käyttäjätunnus**-kentässä käyttäjä, joka voi kirjata tiettynä ajanjaksona.  
 3. Valitse **Salli kirjaus kohteesta** -kentässä ALV-päivämäärä, josta kirjaus sallitaan. Asiakirjan tai kirjauskansion kirjaaminen ALV-päivämäärällä ennen tätä päivämäärää ei ole sallittua.
 4. Valitse **Salli kirjaus kohteeseen** -kentässä ALV-päivämäärä, johon asti kirjaus sallitaan. Asiakirjan tai kirjauskansion kirjaaminen ALV-päivämäärälle tämän päivämäärän jälkeen ei ole sallittua.
 
@@ -122,7 +147,7 @@ Tietyn käyttäjän kirjausten rajoittaminen:
 
 Voit auttaa varmistamaan, että annettavat ALV-rekisteröintinumerot ovat kelvollisia, määrittämällä niiden maiden tai alueiden ALV-rekisteröintinumeroiden muodot, joissa sinulla on liiketoimintaa. [!INCLUDE[prod_short](includes/prod_short.md)] näyttää virhesanoman, jos joku tekee virheen tai käyttää muotoa, jota ei hyväksytä maassa tai alueella.
 
-ALV-rekisteröintinumeroiden määritysohjeet:
+Voit määrittää ALV-rekisteröintinumerot seuraavasti:
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 2.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maat/alueet**.
 2. Valitse ensin maa tai alue ja sitten **ALV-rekisteröintinron muodot** -toiminto.
@@ -152,7 +177,7 @@ Liiketoiminnan ALV-kirjausryhmien oletusarvot voidaan luoda linkittämällä ne 
 
 ALV-tuotekirjausryhmät edustavat tuotteita ja resursseja, joita ostat tai myyt, ja määrittävät, kuinka ALV lasketaan ja kirjataan tuotteen tai resurssin tyypin mukaan.
 
-Olisi hyvä käyttää koodeja, jotka on helppo muistaa ja joissa on viittaus ALV-prosenttiin, kuten **EI-ALV** tai **Nolla**, **ALV10** tai **Alennettu**, jos ALV on 10 prosenttia, ja **ALV25** tai **Vakio**, jos ALV on 25 prosenttia.
+Kannattaa käyttää koodeja, jotka on helppo muistaa ja joissa on viittaus ALV-prosenttiin, kuten **EI-ALV** tai **Nolla**, **ALV10** tai **Alennettu**, jos ALV on 10 prosenttia, ja **ALV25** tai **Vakio**, jos ALV on 25 prosenttia.
 
 Liiketoiminnan ALV-kirjausryhmä määritetään seuraavasti:
 

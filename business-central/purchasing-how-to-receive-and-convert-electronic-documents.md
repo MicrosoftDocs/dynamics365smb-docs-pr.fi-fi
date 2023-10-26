@@ -11,7 +11,11 @@ ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="receive-and-convert-electronic-documents"></a>Sähköisten asiakirjojen vastaanottaminen ja muuntaminen
+# Sähköisten asiakirjojen vastaanottaminen ja muuntaminen
+
+> [!NOTE]
+> Tämän artikkelin sisältö koskee vain Dynamics 365 Business Centralin niitä versioita, jotka on julkaistu ennen vuoden 2023 2. julkaisuaaltoa. Vuoden 2023 2. julkaisuaalto sisältää sähköisten asiakirjojen uudet toiminnot. Lisätietoja on kohdassa [Sähköisten asiakirjojen määrittäminen](finance-how-setup-edocuments.md). 
+
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman yleinen versio tukee sähköisten laskujen ja hyvityslaskujen vastaanottamista PEPPOL-muodossa. Suurimmat document exchange -palveluiden tarjoajat tukevat tätä muotoa. Jotta voisit saada laskun toimittajalta sähköisenä PEPPOL-asiakirjana, asiakirja on muunnettava Saapuvat asiakirjat -sivulla [!INCLUDE[prod_short](includes/prod_short.md)]in ostolaskuksi tai päiväkirjan riviksi.
 
@@ -34,7 +38,7 @@ Sähköisten asiakirjojen muuntaminen voit käynnistää joko manuaalisesti täs
 
 Seuraavassa kuvataan, miten toimittajan lasku vastaanotetaan ja muunnetaan ostolaskuksi [!INCLUDE[prod_short](includes/prod_short.md)]:ssa. Menettely on sama, kun muunnat toimittajalaskun päiväkirjan riville.  
 
-### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Sähköisen laskun vastaanottaminen ja muuntaminen ostolaskuksi
+### Sähköisen laskun vastaanottaminen ja muuntaminen ostolaskuksi
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Saapuvat asiakirjat** ja valitse sitten vastaava linkki.  
 
@@ -52,7 +56,7 @@ Seuraavassa kuvataan, miten toimittajan lasku vastaanotetaan ja muunnetaan ostol
 
     Yleensä vääriin tai puuttuviin perustietoihin liittyvät virheet näkyvät [!INCLUDE[prod_short](includes/prod_short.md)]in **Virhesanomat**-pikalomakkeessa.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Saapuvat asiakirjat](across-income-documents.md)  

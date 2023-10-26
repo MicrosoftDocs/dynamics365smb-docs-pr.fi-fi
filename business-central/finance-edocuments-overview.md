@@ -1,0 +1,40 @@
+---
+title: Sähköisten asiakirjojen yleiskuvaus
+description: Tässä artikkelissa on yleiskuvaus sähköisten asiakirjojen moduulista.
+author: altotovi
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice'
+ms.search.form: null
+ms.date: 10/10/2023
+ms.author: altotovi
+---
+
+# Sähköisten asiakirjojen yleiskuvaus
+
+Sähköiset asiakirjat ovat nykyaikaisten liiketoimintatapahtumien perusta. Ne kattavat tärkeät asiakirjat, kuten laskut ja vastaanotot molempiin suuntiin (toimitus ja vastaanotto). Ne myös lisäävät mahdollisuuksia asiakirjojen tilaan liittyvään viestintään yhteyspisteiden välillä.
+
+Liiketoimintaprosessien parantaminen johti sellaisen mullistavan sovelluksen kehitykseen, joka on varattu sähköisille asiakirjoille Microsoft Dynamics 365 Business Centralissa. Tämä sovellus toimii vakaana ympäristönä tehokkaalle sähköisten asiakirjojen hallinnalle.
+
+> [!NOTE]
+> Voit käyttää näitä ominaisuuksia asentamalla sähköisten asiakirjojen perussovelluksen ympäristössä.
+
+Sähköisten asiakirjojen sovellusta voivat käyttää yritykset, joiden maa tai alue edellyttää erityistä sähköisten asiakirjojen hallintaa paikallisten säädösten noudattamiseksi. Sovellus tarjoaa vakaan perustan, jota on helppo laajentaa tiettyjen paikallisten tai toimialan vaatimusten mukaan.
+
+Ohjeissa kerrotaan sähköisistä asiakirjoista yksityiskohtaisesti. Niissä kerrotaan sovelluksen ominaisuuksista ja näytetään, miten sovellus mukautuu saumattomasti organisaation yksilöllisten tarpeiden mukaan. Aloita sähköisten asiakirjojen käyttäminen tutustumalla alla oleviin artikkeleihin.
+
+| Artikkeli | Kuvaus | 
+|---------|-------------|
+| [Sähköisten asiakirjojen määrittäminen](finance-how-setup-edocuments.md) | Lisätietoja sähköisten asiakirjojen toimintojen, kuten palveluiden, työnkulkujen, profiilien lähettämisen ja säilytyskäytäntöjen määrittämisestä. |
+| [Sähköisten asiakirjojen käyttäminen myynnissä ja ostoissa](finance-how-use-edocuments.md) | Lisätietoja myynti- ja ostolaskuihin, niiden tiloihin, lokeihin ja toimenpideviesteihin liittyvien sähköisten asiakirjojen toimintojen käyttämisestä.| 
+| [Sähköisten asiakirjojen toimintojen laajentaminen](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) | Lisätietoja sähköisten asiakirjojen toimintojen laajentamisesta tiettyjen paikallisten tai toimialan vaatimusten mukaan luomalla lisäsovelluksia tämän sovelluksen päälle. |
+| [Sähköinen tiedonsiirto](across-data-exchange.md) | Lisätietoja liiketoiminta-asiakirjojen, kuten pankkitiedostojen ja vaihtokurssien siirron hallinnasta liikekumppaneille tiedonsiirtokehyksen avulla. | 
+
+## Katso myös
+
+[Taloushallinto](finance.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

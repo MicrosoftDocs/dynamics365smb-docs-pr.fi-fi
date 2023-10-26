@@ -116,6 +116,13 @@ Kun käsittelet **Intrastat-raporttia**, asiakirjan otsikossa näkyy **tila**-ke
 * *Vapautettu*: [!INCLUDE[prod_short](includes/prod_short.md)] muuttaa tilaksi automaattisesti *vapautettu*, kun luot tiedoston. Tästä hetkestä lähtien **Intrastat-raporttia** ei voi muuttaa. Jos sinun täytyy muuttaa jotain ja raportoida uudelleen, voit avata Intrastat-raportin uudelleen **avaa uudelleen** -toiminnon avulla. Kun asiakirja on avattu uudelleen, voit vapauttaa asiakirjan uudelleen **vapautus**-toiminnon avulla.
 * **Raportoitu**: Määrittää, onko tapahtumasta jo raportoitu veroviranomaisille. Tämä ei ole tavallinen tila, mutta itsenäinen kenttä, ja vaikka olisit avannut uudelleen Intrastat-raportin, se silti näyttää, että tiedosto on jo luotu tälle raportille.
 
+### Intrastat-raportoinnin sijainnit 
+
+[!INCLUDE[prod_short](includes/prod_short.md)] käyttää aina **Sijaintikortti**-sivun **Maa- tai aluekoodi** -kentän tietoja **lähettäjä**- tai **vastaanottaja**-tavaroiden maana. Jos näitä tietoja ei ole tai sijaintia ei ole käytetty, järjestelmä käyttää **Yritystiedot**-sivun tietoja.   
+
+> [!NOTE]
+> Jos yritys toimii useissa maissa, Intrastat-raportointi ei toimi kaikissa maissa, joissa sijainnit on määritetty. Raportoinnin perustana on vain päämaa, koska tällä hetkellä ei ole mahdollista käyttää usean maan raportointia.  
+
 ### Kolmikantakauppa Intrastatissa
 
 Kolmikantakauppaan kuuluu kolmen maan tai alueen välinen kauppa, jossa tavarat ohittavat raportointiyrityksen maan. Tätä voi helpottaa Business Centralissa [Suoratoimitus](sales-how-drop-shipment.md)-toiminnon avulla. Ota tämä vaihtoehto käyttöön aktivoimalla **Sisällytä suoratoimitus** -kenttä **Intrastat-raportin asetuksissa**.  

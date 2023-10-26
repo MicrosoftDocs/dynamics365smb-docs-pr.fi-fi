@@ -7,10 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5841
-ms.date: 04/01/2021
+ms.date: 10/11/2023
 ms.author: bholtorf
 ---
-# <a name="update-standard-costs"></a>Vakiokustannusten päivittäminen
+# Vakiokustannusten päivittäminen
 Komponenttien vakiokustannukset on päivitettävä säännöllisesti ja uudet kustannukset on vyörytettävä päänimikkeelle. Prosessi sisältää yleensä seuraavat neljä vaihetta:  
 
 1.  Päivitä kustannukset osa- ja kapasiteettitasolla. Lisätietoja on kohdassa **Ehdota nimikkeen vakiokust.** -eräajo.  
@@ -20,11 +20,11 @@ Komponenttien vakiokustannukset on päivitettävä säännöllisesti ja uudet ku
 
 Lisätietoja on kohdassa [Tietoja vakiokustannusten laskennasta](finance-about-calculating-standard-cost.md).
   
-## <a name="to-update-standard-costs"></a>Vakiokustannusten päivittäminen
+## Vakiokustannusten päivittäminen
 
-1.  Suorita **Muuta kustannuksia - Nimiketapahtumat** -eräajo.  
-2.  Suorita **Kirjaa varaston kust. KP:oon** -eräajo.  
-3.  Avaa **Vakiokust. työkirja** ja käytä vähintään yhtä seuraavista toiminnoista:  
+1.  Suorita **Muuta kustannuksia - Nimiketapahtumat** -eräajo. Jos haluat käynnistää eräajon, valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muuta kust. - Nimiketapahtumat** ja valitse sitten vastaava linkki. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Tarkasta tulokset ja tee tarvittavat muutokset.  
+2.  Suorita **Kirjaa varaston kust. KP:oon** -eräajo. Jos haluat käynnistää eräajon, valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjaa varaston kustannus KP:oon** ja valitse sitten vastaava linkki. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Tarkasta tulokset ja tee tarvittavat muutokset.  
+3.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, anna **Vakiokust. työkirja** ja käytä vähintään yhtä seuraavista toiminnoista:
 
     1.  Suorita **Ehdota nimikkeen vakiokust.** -eräajo.  
     2.  Tarkasta tulokset ja tee tarvittavat muutokset.  
@@ -35,11 +35,12 @@ Lisätietoja on kohdassa [Tietoja vakiokustannusten laskennasta](finance-about-c
     7.  Suorita **Ota käyttöön vakiokustannusten muutokset** -eräajo.  
 4.  Tarkasta ja kirjaa **Uudelleenarvostus pvk** -sivu, jonka tapahtumat on täytetty tämän prosessin aiemmissa vaiheissa.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
  [Tietoja standardikustannuksen laskemisesta](finance-about-calculating-standard-cost.md)   
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)   
- [Rakennetiedot: arvostusmenetelmät](design-details-costing-methods.md) [Rahoitus](finance.md)  
+ [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)   
+ [Taloushallinto](finance.md)  
  [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
