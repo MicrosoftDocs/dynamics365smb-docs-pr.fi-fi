@@ -17,7 +17,8 @@ Myyjää pidetään usein liiketoiminnan eniten ulospäin suuntautuneena tehtäv
 > [!NOTE]
 > Tässä ohjeaiheessa kerrotaan [!INCLUDE[crm_md](includes/crm_md.md)]- ja [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen online-versioiden integroinnista [!INCLUDE[prod_short](includes/cds_long_md.md)] -palvelun avulla. Lisätietoja paikallisesta määrityksestä on kohdassa [Paikallisen Dynamics 365 Salesin integroinnin valmistelu](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
-## Integroiminen Dataverse -palvelun avulla
+## Integrointi Dataversen avulla
+
 [!INCLUDE[prod_short](includes/prod_short.md)] voidaan integroida myös [!INCLUDE[prod_short](includes/cds_long_md.md)] -ratkaisun kanssa, joten tietojen yhdistäminen ja synkronoiminen Dynamics 365 -sovellusten kanssa on helppoa. Voit esimerkiksi muodostaa yhteyden sovellukseen [!INCLUDE[crm_md](includes/crm_md.md)] tai jopa itse luotuihin sovelluksiin. Jos integrointi tehdään ensimmäistä kertaa, käytössä on oltava [!INCLUDE[prod_short](includes/cds_long_md.md)]. Lisätietoja on kohdassa [Integroiminen Dataverse -palvelun kanssa](admin-common-data-service.md).
 
 Jos [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[prod_short](includes/prod_short.md)] on jo integroitu, voit jatkaa tietojen synkronointia asetuksen avulla. Jos kuitenkin päivität [!INCLUDE[crm_md](includes/crm_md.md)] -integroinnin tai otat sen pois käytöstä, voit ottaa sen käyttöön uudelleen [!INCLUDE[prod_short](includes/cds_long_md.md)] -palvelun avulla. Lisätietoja on kohdassa [Integroinnin päivittäminen Dynamics 365 Salesin avulla](admin-upgrade-sales-to-cds.md).
@@ -25,10 +26,12 @@ Jos [!INCLUDE[crm_md](includes/crm_md.md)] ja [!INCLUDE[prod_short](includes/pro
 > [!NOTE]
 > Jos uudelleenyhdistämisessä käytetään [!INCLUDE[prod_short](includes/cds_long_md.md)] -palvelua, käyttöön otetaan synkronoinnin oletusasetukset ja käytössä olevat määritykset korvataan. Esimerkiksi taulukon oletusyhdistämismääritykset otetaan käyttöön.
 
-## Integrointiasetukset, jotka ovat [!INCLUDE[crm_md](includes/crm_md.md)] -integrointikohtaisia
+## Sovelluksen [!INCLUDE[crm_md](includes/crm_md.md)] integrointia varten tarkoitetut integrointiasetukset
+
 Integrointi sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] kanssa tapahtuu käyttämällä palvelua [!INCLUDE[prod_short](includes/cds_long_md.md)]. Useat vakioasetukset ja -taulukot määritetään. Vakioasetusten lisäksi [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksella on sovelluskohtaisia asetuksia. Seuraavissa osissa esitellään nämä asetukset.
 
-## Salesin käyttäjätilien käyttöoikeudet ja ja käyttöoikeusroolit
+## Salesin käyttäjätilien käyttöoikeudet ja käyttöoikeusroolit
+
 Kun integrointiratkaisua asennetaan, integroinnin käyttäjätilin käyttöoikeudet määritetään. Jos näitä käyttöoikeuksia on muutettu, käyttöoikeudet on ehkä palautettava alkuperäisiksi. Voit tehdä tämän asentamalla integrointiratkaisun uudelleen **Ota integraatioratkaisu uudelleen käyttöön** -kohdan avulla **Dynamics 365 -yhteyden asetukset** -sivulla. Seuraavat käyttöoikeus roolit on otettu käyttöön:
 
 * Dynamics 365 Business Central -sovelluksen integroinnin järjestelmänvalvoja
@@ -36,6 +39,7 @@ Kun integrointiratkaisua asennetaan, integroinnin käyttäjätilin käyttöoikeu
 * Dynamics 365 Business Central -sovelluksen tuotteen saatavuuden käyttäjä
 
 ### Yhteysasetukset asennusoppaassa
+
 Asetusten ohjattu määritysopas auttaa määrittämään yhteyden nopeasti ja määrittämään lisäominaisuudet, kuten tietueiden välisen yhdistämisen.
 
 1. Valitse ensin **Asennus ja laajennukset** ja valitse sitten **Asetusten ohjattu määritys**.
@@ -47,9 +51,10 @@ Asetusten ohjattu määritysopas auttaa määrittämään yhteyden nopeasti ja m
 |--|--|
 | **Tuo Dynamics 365 Sales -ratkaisu** | Asenna ja määritä integrointiratkaisu [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksessa. <!--For more information, see [About the Base CDS Integration Solution](admin-common-data-service.md#about-the-business-central-integration-solution). Need to add a new topic--> |
 |**Synkronoi nimikkeen saatavuus automaattisesti**|Määrittää, että nimikkeen saatavuuden työjono on ajoitettava. Työjono suoritetaan 30 minuutin välein, ja se päivittää yhdistettyjen nimikkeiden saatavuuden.|
-| **Ota käyttöön myyntitilauksen integrointi** | Kun myyntitilauksia luodaan [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksessa ja tilauksia täytetään [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa, tämä asetus integroi prosessin [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksessa. Lisätietoja on kohdassa [Myyntitilauksen käsittelyn integroinnin käyttöönotto](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Anna [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen järjestelmänvalvojan käyttäjätilin tunnistetiedot. Lisätietoja on kohdassa [Myyntitilauksen tietojen käsitteleminen](marketing-integrate-dynamicscrm.md#handling-sales-order-data) |
+| **Ota käyttöön vanha myyntitilauksen integrointi** | Kun myyntitilauksia luodaan [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksessa ja tilauksia täytetään [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa, tämä asetus integroi prosessin [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksessa. Lisätietoja on kohdassa [Myyntitilauksen käsittelyn integroinnin käyttöönotto](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).<br><br>**Huomautus:** Et voi käyttää tätä vaihtoehtoa, jos käytössä on **Myyntitilausten kaksisuuntainen synkronointi** -vaihtoehto. Nämä kaksi asetusta ovat toisensa poissulkevia. Lisätietoja tästä vaihtoehdosta on kohdassa [Myyntitilausten yksi- ja kaksisuuntainen synkronointi](#single-and-bi-directional-synchronization-of-sales-orders). |
 |**Ota käyttöön Dynamics 365 Sales -yhteys** | Ota [!INCLUDE[crm_md](includes/crm_md.md)] -yhteys käyttöön. |
 | **Dynamics 365 SDK -versio** | Tällä on merkitystä vain, jos integrointi tehdään [!INCLUDE[crm_md](includes/crm_md.md)]in paikalliseen versioon. [!INCLUDE[prod_short](includes/prod_short.md)] ja [!INCLUDE[crm_md](includes/crm_md.md)] voidaan yhdistää tällä Dynamics 365 SDK -versiolla (joka tunnetaan myös nimellä Xrm). Version on oltava yhteensopiva sen SDK-version kanssa, jota [!INCLUDE[crm_md](includes/crm_md.md)] käyttää. Lisäksi sen on oltava sama tai uudempi kuin versio, jota [!INCLUDE[crm_md](includes/crm_md.md)] käyttää. |
+|**Myyntitilausten kaksisuuntainen synkronointi**|Synkronoi myyntitilaukset molempiin suuntiin. Lisätietoja tästä vaihtoehdosta on kohdassa [Myyntitilausten yksi- ja kaksisuuntainen synkronointi](#single-and-bi-directional-synchronization-of-sales-orders).<br><br>**Huomautus:** Et voi käyttää tätä vaihtoehtoa, jos käytössä on **Ota käyttöön vanha myyntitilauksen integrointi** -vaihtoehto. Nämä kaksi asetusta ovat toisensa poissulkevia.|
 
 ### Microsoft Dynamics 365 -yhteyden määrityssivun yhteysasetukset
 
@@ -68,11 +73,29 @@ Syötä yllä olevien asetusten lisäksi seuraavat asetukset [!INCLUDE[crm_md](i
 | **Myyntitilauksen integrointi on käytössä** | Antaa käyttäjille mahdollisuuden lähettää myyntitilauksia ja aktivoituja tarjouksia [!INCLUDE[crm_md](includes/crm_md.md)]issa sekä tarkastella ja käsitellä niitä sitten [!INCLUDE[prod_short](includes/prod_short.md)]issa. Tämä asetus integroi prosessin sovelluksessa [!INCLUDE[crm_md](includes/crm_md.md)]. Lisätietoja on kohdassa [Myyntitilauksen käsittelyn integroinnin käyttöönotto](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). |
 | **Myyntitilausten automaattinen luominen** | Luo myyntitilaus [!INCLUDE[prod_short](includes/prod_short.md)]issa, kun käyttäjä luo ja lähettää sellaisen [!INCLUDE[crm_md](includes/crm_md.md)]issa. |
 | **Käsittele myyntitarjoukset automaattisesti** | Käsittele myyntitarjous [!INCLUDE[prod_short](includes/prod_short.md)]issa, kun käyttäjä luo ja aktivoi sellaisen [!INCLUDE[crm_md](includes/crm_md.md)]issa. Lisätietoja on kohdassa [Myyntitarjoustietojen käsittely](/dynamics365/business-central/marketing-integrate-dynamicscrm?tabs=new-experience#handling-sales-quotes-data). |
-|**Myyntitilausten kaksisuuntainen synkronointi**|Synkronoi myyntitilaukset molempiin suuntiin. Jos asiakas esimerkiksi muuttaa mieltään tuotteesta tai määrästä, jonka tilaamisessa on ollut käytössä [!INCLUDE[crm_md](includes/crm_md.md)], voit arkistoida myyntiasiakirjan ja luoda uuden sovelluksessa [!INCLUDE[prod_short](includes/prod_short.md)]. Sama pätee muutoksiin [!INCLUDE[prod_short](includes/prod_short.md)]issa. Esimerkiksi silloin, kun hinnat, verosummat tai oletetut toimituspäivämäärät muuttuvat, muutokset synkronoidaan automaattisesti [!INCLUDE[crm_md](includes/crm_md.md)]:ään. Kaksisuuntainen synkronointi auttaa pitämään myyjät ajan tasalla uusimmista muutoksista sekä tarjousten ja tilausten tilasta.|
-
+|**Myyntitilausten kaksisuuntainen synkronointi**|Synkronoi myyntitilaukset molempiin suuntiin. Lisätietoja tästä vaihtoehdosta on kohdassa [Myyntitilausten yksi- ja kaksisuuntainen synkronointi](#single-and-bi-directional-synchronization-of-sales-orders).|
 <!--
 ### User Account Settings
 Integration with Business Central through Dataverse requires an administrator user account and an account that is used only for the connection between the apps. This account is called the "integration user." When you install the CDS Base Integration Solution, permissions for the integration user account are configured in [!INCLUDE[crm_md](includes/crm_md.md)]. If those permissions are changed you might need to reset them. You can do that by reinstalling the Integration Solution or by manually resetting them. The following tables list the minimum permissions for the user accounts in [!INCLUDE[crm_md](includes/crm_md.md)].  -->
+### Myyntitilausten yksi- ja kaksisuuntainen synkronointi
+
+Kun integrointi määritetään asetusoppaassa tai Microsoft Dynamics 365 -yhteysasetukset -sivulla, käytettävissä on vaihtoehtoja, jotka ohjaavat myyntitilausten synkronoinnin suuntaa sekä sitä, miten ne lähetetään.
+
+**Myyntitilausten kaksisuuntainen synkronointi** -vaihtoehdon avulla voit synkronoida myyntitilaukset Salesista [!INCLUDE [prod_short](includes/prod_short.md)] -sovellukseen ja päin vastoin. Jos asiakas esimerkiksi muuttaa mieltään tuotteesta tai määrästä, jonka tilaamisessa on ollut käytössä [!INCLUDE[crm_md](includes/crm_md.md)], voit arkistoida myyntiasiakirjan ja luoda uuden sovelluksessa [!INCLUDE[prod_short](includes/prod_short.md)]. Sama pätee muutoksiin [!INCLUDE[prod_short](includes/prod_short.md)]issa. Esimerkiksi silloin, kun hinnat, verosummat tai oletetut toimituspäivämäärät muuttuvat, muutokset synkronoidaan [!INCLUDE[crm_md](includes/crm_md.md)] -sovellukseen. Kaksisuuntainen synkronointi auttaa pitämään myyjät ajan tasalla uusimmista muutoksista ja myyntitilausten tilasta.
+
+Kaksisuuntaisessa synkronoinnissa myyntitilaukset ovat käytettävissä synkronointia varten, kun niiden tilaksi Salesissa on muutettu **Lähetetty**. Kun tämä tila määritetään, tilauksen rivien tietoja ei enää voi muuttaa. Kun synkronoit tilauksen, tilaus siirretään [!INCLUDE [prod_short](includes/prod_short.md)] -sovellukseen tilassa **Vapautettu**. Virheen sattuessa tilauksen tilaksi voidaan palauttaa **Avoin** ([!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksessa) tai **Aktiivinen** (Salesissa). Tämän jälkeen rivejä voi lisätä tai poistaa virheen korjaamiseksi, ja tilaus lähetetään uudelleen.
+
+> [!TIP]
+> Kun **Myyntitilausten kaksisuuntainen synkronointi** -vaihtoehto otetaan käyttöön, [!INCLUDE [prod_short](includes/prod_short.md)] luo tietueen **Myyntitilausarkistot** -sivulla tilauksen tietojen kirjaamisen tai muuttamisen yhteydessä. Arkistoituja versioita voidaan käyttää esimerkiksi tilauksen historian tutkimisessa.
+
+**Ota käyttöön vanha myyntitilauksen integrointi** -vaihtoehto synkronoi vain Salesista [!INCLUDE [prod_short](includes/prod_short.md)]iin. Tässä vaihtoehdossa voit käyttää **Lähetä**-toimintoa Salesissa, kun tilaukset määritetään käytettäviksi synkronointia varten. Kun näin tehdään, tilauksen tietoja ei enää voi muuttaa. Kun synkronoit tilauksen, tilaus siirretään [!INCLUDE [prod_short](includes/prod_short.md)] -sovellukseen tilassa **Vapautettu**.
+
+Jos haluat käyttää tätä vaihtoehtoa, anna [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen järjestelmänvalvojan käyttäjätilin tunnistetiedot. Lisätietoja on kohdassa [Myyntitilauksen tietojen käsitteleminen](marketing-integrate-dynamicscrm.md#handling-sales-order-data).
+
+> [!NOTE]
+> **Myyntitilausten kaksisuuntainen synkronointi**- ja **Ota käyttöön vanha myyntitilauksen integrointi** -vaihtoehdot ovat toistensa poissulkevia. Molempia vaihtoehtoja ei voi käyttää samanaikaisesti.
+
+Molemmissa vaihtoehdoissa [!INCLUDE [prod_short](includes/prod_short.md)] näyttää kaikki myyntitilaukset **Lähetetty**-tilassa **Tilaukset – Microsoft Dynamics 365 Sales** -sivulla.
 
 ### Synkronoinnin Myynti-entiteetin yhdistämismääritys
 
@@ -100,6 +123,7 @@ Seuraavassa taulukossa on luettelo [!INCLUDE[prod_short](includes/prod_short.md)
 > Nimikkeen mittayksikkö-, Resurssin mittayksikkö- ja Yksikköryhmä-taulukoiden yhdistämismääritykset ovat käytettävissä vain, jos järjestelmänvalvoja on ottanut **Ominaisuuspäivitys: useiden mittayksiköiden synkronointi Dynamics 365 Salesin kanssa** -ominaisuuden käyttöön **Ominaisuuksien hallinta** -sivulla. Lisätietoja on kohdassa [Nimikkeiden ja resurssien synkronointi eri mittayksiköitä käyttävien tuotteiden kanssa](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
 
 ## Nimikkeiden ja resurssien synkronointi eri mittayksiköitä käyttävien tuotteiden kanssa
+
 Yritykset usein tuottavat tai ostavat tiettyä mittayksikköä käyttäviä nimikkeitä ja myyvät niitä sitten käyttämällä toista mittayksikköä. Useita mittayksiköitä käyttävien nimikkeiden synkronointi edellyttää, että **Ominaisuuspäivitys: useiden mittayksiköiden synkronointi Dynamics 365 Salesin kanssa** -ominaisuus otetaan käyttöön **Ominaisuuksien hallinta** -sivulla. 
 
 Kun otat käyttöön ominaisuuden päivityksen, luodaan uusi Yksikköryhmä-taulukko ja se määritetään kullekin nimikkeelle ja resurssille [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa. Taulukoiden avulla voit yhdistää Yksikköryhmä-, Nimikkeen mittayksikkö- ja Resurssin mittayksikkö -taulukot voidaan [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen Dynamics 365 Salesin yksikköryhmään. Seuraavassa kuvassa näkyvät yhdistämismääritykset.
@@ -109,6 +133,7 @@ Kun otat käyttöön ominaisuuden päivityksen, luodaan uusi Yksikköryhmä-taul
 Kullekin yksikköryhmälle voidaan luoda useita mittayksiköitä, ja nämä ryhmät voidaan määrittää tuotteisiin [!INCLUDE[crm_md](includes/crm_md.md)]issa. Tämän jälkeen tuotteet voidaan synkronoida nimikkeiden ja resurssien kanssa [!INCLUDE[prod_short](includes/prod_short.md)]issa. Nimikkeen mittayksiköt ja resurssiin mittayksiköt voidaan yhdistää manuaalisesti yksikköryhmään. Jos nimikkeen tai resurssin yksikköryhmää ei näin toimittaessa ole yhdistetty [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen yksikköryhmään esimerkiksi siksi, että yksikköryhmää ei ole, [!INCLUDE[prod_short](includes/prod_short.md)] luo yksikköryhmän automaattisesti [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksessa.
 
 ### Nimikkeiden ja resurssien yhdistäminen tuotteisiin
+
 Kun **Ominaisuuspäivitys: useiden mittayksiköiden synkronointi Dynamics 365 Salesin kanssa** -ominaisuus otetaan käyttöön, tuloksena on seuraavat:
 
 * Nimikkeille ja resursseille luodaan uudet yhdistämismääritykset.
@@ -125,7 +150,7 @@ Yksikköryhmien yhdistäminen aloitetaan seuraavasti:
 1. Varmista, että [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen tuotteita ei ole yhdistetty [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen nimikkeisiin tai resursseihin. Jos ne on yhdistetty, siirry **Nimikkeet** ja/tai **Resurssit**-sivulle ja valitse yhdistetyt tietueet suodatinvaihtoehtojen avulla. Valitse sitten **Dynamics 365 Sales** -toiminto ja valitse sitten **Poista pari**. Tämä toiminto aikatauluttaa taustatyön poistamaan tietueiden yhdistämisen. Suoritettavan työn tila voidaan tarkistaa käyttämällä **Synkronointiloki**-toimintoa. Lisätietoja on kohdassa [Yhdistäminen ja synkronointi](admin-how-to-couple-and-synchronize-records-manually.md). 
 2. Koska uudet tuotteet luodaan [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksessa siten, että niissä on uudet yksikköryhmät, nimien kaksoiskappaleet voidaan estää jollakin seuraavista vaiheista:
     
-    * Anna tuotteille uusi nimi ja poista ne sitten käytöstä [!INCLUDE[crm_md](includes/crm_md.md)]issa. Lisätietoja on kohdassa [Tuotteiden poistaminen käytöstä (myyntikeskus)](/dynamics365/sales-enterprise/retire-product). Tuotteita voi joukkomuokata Microsoft Excelissa kirjautumalla Power Appsiin, valitsemalla ympäristön, siirtymällä **Tuotteet**-taulukkoon ja sitten valitsemalla **Tiedot**-taulukon. Poista kaikki käytetyt suodattimet. Valitse **Tiedot**-ryhmässä **Muokkaa tietoja Excelissä** -toiminto. Lisää yhdistettyihin tuotteisiin etu- tai jälkiliite ja poista ne käytöstä.
+  * Anna tuotteille uusi nimi ja poista ne sitten käytöstä [!INCLUDE[crm_md](includes/crm_md.md)]issa. Lisätietoja on kohdassa [Tuotteiden poistaminen käytöstä (myyntikeskus)](/dynamics365/sales-enterprise/retire-product). Tuotteita voi joukkomuokata Microsoft Excelissa kirjautumalla Power Appsiin, valitsemalla ympäristön, siirtymällä **Tuotteet**-taulukkoon ja sitten valitsemalla **Tiedot**-taulukon. Poista kaikki käytetyt suodattimet. Valitse **Tiedot**-ryhmässä **Muokkaa tietoja Excelissä** -toiminto. Lisää yhdistettyihin tuotteisiin etu- tai jälkiliite ja poista ne käytöstä.
     * Poista tuotteet käytöstä ja poista ne. 
 
 3. Synkronoi **Yksikköryhmät**, **Mittayksiköt**, **Nimikkeet** ja **Resurssit** seuraavasti:
@@ -171,7 +196,7 @@ Työt suoritetaan seuraavassa järjestyksessä, jotta taulukoiden välille ei mu
 
 ### Oletusarvoiset synkronoinnin työjonotapahtumat
 
-Seuraavassa taulukossa kuvaillaan Salesin synkronoinnin oletustyöt.  
+Seuraavassa taulukossa kuvaillaan [!INCLUDE[crm_md](includes/crm_md.md)]:n synkronoinnin oletustyöt.  
 
 |Työjonotapahtuma|Kuvaus|Suunta|Integrointitaulukon yhdistämismääritys|Synkronoinnin oletustiheys (min)|Passivisuuden oletusaika (min)|  
 |---------------------|---------------------------------------|---------------|-------------------------------|-----|-----|  
@@ -183,7 +208,8 @@ Seuraavassa taulukossa kuvaillaan Salesin synkronoinnin oletustyöt.
 |KIRJMNTILASKU-LASK – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in laskut ja [!INCLUDE[prod_short](includes/prod_short.md)]in kirjatut myyntilaskut.|[!INCLUDE[prod_short](includes/prod_short.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)]iin|LASKUT-KIRJATUT MYYNTILASKUT|30|1440<br> (24 tuntia)|
 |Asiakastilastot – Dynamics 365 Salesin synkronointityö|Päivittää [!INCLUDE[crm_md](includes/crm_md.md)]in tilit uusilla [!INCLUDE[prod_short](includes/prod_short.md)]in asiakastiedoilla. Nämä tiedot näkyvät [!INCLUDE[crm_md](includes/crm_md.md)]issa niiden tilien **Business Central -tilin tilastot** -pikanäkymälomakkeessa, jotka on yhdistetty [!INCLUDE[prod_short](includes/prod_short.md)]in asiakkaisiin.<br /><br /> Nämä tiedot voidaan päivittää myös manuaalisesti kustakin asiakastietueesta. Lisätietoja on kohdassa [Tietueiden yhdistäminen ja synkronoiminen manuaalisesti](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Huomautus:** Tällä työjonotapahtumalla on merkitystä vain, jos [!INCLUDE[prod_short](includes/prod_short.md)] -integrointiratkaisu on asennettu [!INCLUDE[crm_md](includes/crm_md.md)]iin. |Ei sovellu|Ei sovellu|30|Ei sovellu| 
 
-## Yhteyden muodostaminen Business Central 2019:n julkaisuaallon 1 ja Microsoft Dynamics NAV 2018:n paikallisiin versioihin
+## Yhteyden muodostaminen Business Central 2019:n 1. julkaisuaallon ja Microsoft Dynamics NAV 2018:n paikallisiin versioihin
+
 Microsoft Power Platform -tiimi on [ilmoittanut](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse), että Office 365 -todennustyyppi vanhentuu. Jos käytössä on [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen paikallinen versio, joka on vanhempi kuin Business Central 2019:n julkaisuaalto 1, sinun on muodostettava yhteys [!INCLUDE[crm_md](includes/crm_md.md)] -sovellukseen online-tilassa OAuth-todennustyypin avulla. Tässä osassa kerrotaan, miten seuraavat tuoteversiot yhdistetään:
 
 * Business Central 2019:n julkaisuaalto 1
@@ -191,15 +217,15 @@ Microsoft Power Platform -tiimi on [ilmoittanut](/power-platform/important-chang
 
 ### Vaatimukset
 
-- Sinulla täytyy olla Microsoft Azure -tilaus. Kokeilutili toimii sovelluksen rekisteröinnissä.
-- [!INCLUDE[crm_md](includes/crm_md.md)] on määritetty käyttämään jotakin seuraavista todennustyypeistä:
+* Sinulla täytyy olla Microsoft Azure -tilaus. Kokeilutili toimii sovelluksen rekisteröinnissä.
+* [!INCLUDE[crm_md](includes/crm_md.md)] on määritetty käyttämään jotakin seuraavista todennustyypeistä:
 
-   - Office365 (vanha)
+   * Office365 (vanha)
 
      > [!IMPORTANT]
      > Huhtikuusta 2022 alkaen Office365 (vanha) -versiota ei enää tueta. Lisätietoja on kohdassa [Power Appsiin, Power Automateen ja asiakasvuorovaikutussovelluksiin tulevia tärkeitä muutoksia (vanhentumisia)](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
 
-   - OAuth
+   * OAuth
 
 ### Business Central 2019:n julkaisuaallon 1 ja Dynamics NAV 2018:n yhdistäminen
 
@@ -216,7 +242,7 @@ Microsoft Power Platform -tiimi on [ilmoittanut](/power-platform/important-chang
    > [!Important]
    > Käyttäjällä ei saa olla järjestelmänvalvojan käyttöoikeusroolia. Et voi myöskään käyttää järjestelmänvalvojan tiliä integrointikäyttäjänä.
 
-3.  Azure-portaali: luo sovellusrekisteröinti [!INCLUDE[prod_short](includes/prod_short.md)]ille. Lisätietoja on kohdassa [Sovelluksen rekisteröiminen Microsoft Entra ID:ssä](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
+3. Azure-portaali: luo sovellusrekisteröinti [!INCLUDE[prod_short](includes/prod_short.md)]ille. Lisätietoja on kohdassa [Sovelluksen rekisteröiminen Microsoft Entra ID:ssä](/powerapps/developer/data-platform/walkthrough-register-app-azure-active-directory). 
   
    > [!NOTE]
    > Suosittelemme, että rekisteröit sovelluksen samaan vuokraajaan Dataverse-ympäristösi kanssa, jotta sinun ei tarvitse antaa sovellukselle suostumusta käyttää ympäristöä. Jos rekisteröit sovelluksen toisessa ympäristössä, sinun on kirjauduttava sisään Dataverse-ympäristösi Microsoft Entra ID -järjestelmänvalvojan tilille ja annettava suostumus.

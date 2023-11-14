@@ -10,22 +10,22 @@ ms.search.form: 'Report_707, Report_716, Report_813, Report_1001, Report_5807, R
 ms.date: 04/13/2023
 ms.custom: bap-template
 ---
-# <a name="inventory-and-warehouse-reports-and-analytics"></a>Varasto, varastoraportit ja analytiikka
+# Varasto, varastoraportit ja analytiikka
 
 Sovelluksen [!INCLUDE [prod_short](includes/prod_short.md)] varastoraporttien avulla varaston ja liiketoiminnan ammattilaiset voivat saada merkityksellistä tietoa ja analytiikkaa nykyisistä ja aiemmista varastotoiminnoista.  
 
-## <a name="reports"></a>Raportit
+## Raportit
 
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
-## <a name="tasks"></a>Tehtävät
+## Tehtävät
 
 Seuraavissa artikkeleissa kuvataan joitakin yrityksen tilan analysointiin liittyviä keskeisiä tehtäviä:
 
 * [Analyysiraporttien luominen](bi-how-create-analysis-views-reports.md)  
 * [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)
 
-## <a name="print-and-scan-barcodes"></a>Viivakoodien tulostaminen ja lukeminen
+## Viivakoodien tulostaminen ja lukeminen
 
 Viivakoodien avulla saapuvien, lähtevien ja sisäisten varastoprosessien tehostaminen ja nopeuttaminen on mahdollista. 
 
@@ -43,7 +43,7 @@ Sovelluksen asentamisen jälkeen voit tulostaa 1D- ja 2D-viivakoodit **Tulosta e
 > [!NOTE]
 > Jotkin tulostimet ja viivakoodi-/QR-koodimuodot vaativat tietyn toteutuksen. Voit joutua lataamaan toisen Word-mallin tai kloonaamaan raportin luodaksesi oman mukautetun version.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Varaston määrittäminen](inventory-setup-inventory.md)  
 [Varasto](inventory-manage-inventory.md)  

@@ -12,7 +12,7 @@ ms.date: 10/10/2023
 ms.author: altotovi
 ---
 
-# <a name="e-documents-overview"></a>Sähköisten asiakirjojen yleiskuvaus
+# Sähköisten asiakirjojen yleiskuvaus
 
 Sähköiset asiakirjat ovat nykyaikaisten liiketoimintatapahtumien perusta. Ne kattavat tärkeät asiakirjat, kuten laskut ja vastaanotot molempiin suuntiin (toimitus ja vastaanotto). Ne myös lisäävät mahdollisuuksia asiakirjojen tilaan liittyvään viestintään yhteyspisteiden välillä.
 
@@ -32,7 +32,7 @@ Ohjeissa kerrotaan sähköisistä asiakirjoista yksityiskohtaisesti. Niissä ker
 | [Sähköisten asiakirjojen toimintojen laajentaminen](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) | Lisätietoja sähköisten asiakirjojen toimintojen laajentamisesta tiettyjen paikallisten tai toimialan vaatimusten mukaan luomalla lisäsovelluksia tämän sovelluksen päälle. |
 | [Sähköinen tiedonsiirto](across-data-exchange.md) | Lisätietoja liiketoiminta-asiakirjojen, kuten pankkitiedostojen ja vaihtokurssien siirron hallinnasta liikekumppaneille tiedonsiirtokehyksen avulla. | 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Taloushallinto](finance.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

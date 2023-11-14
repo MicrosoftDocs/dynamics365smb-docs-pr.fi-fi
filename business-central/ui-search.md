@@ -8,7 +8,7 @@ ms.search.form: 'TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9
 ms.date: 06/14/2023
 ms.author: bholtorf
 ---
-# <a name="finding-pages-and-information-with-tell-me"></a>Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla
+# Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla
 
 Tässä artikkelissa kerrotaan, miten tuotteen sisäinen haku *Kerro, mitä haluat tehdä* voi auttaa sinua: 
 
@@ -32,24 +32,24 @@ Oikealla oleva sarake osoittaa tuloksen yleisen luokan. Se voi ilmaista esimerki
 
 **Kerro, mitä haluat tehdä** -sivu luokittelee tulokset syöttämiesi tietojen ja käsiteltävän sivun perusteella. Seuraavissa luvuissa kuvataan luokat.
 
-## <a name="find-an-action-on-the-current-page"></a>Toiminnon etsiminen nykyiseltä sivulta
+## Toiminnon etsiminen nykyiseltä sivulta
 
 **Nykyisellä sivulla** -osassa voit etsiä toimintoja avoinna olevasta sivusta. Jos esimerkiksi **Myyntitarjous**-sivu on avoinna ja kirjoitat asiakas-sanan, osan sisältämä toiminto avaa myyntitarjouksessa valitun Asiakaskortti-sivun.
 
 > [!NOTE]  
 > Luettelo sisältää vain sivun yläosan siirtymispalkissa käytettävissä olevat toiminnot. Pikavälilehtien toiminnot eivät ole luettelossa.  
 
-## <a name="find-a-page-or-a-task"></a>Sivun tai tehtävän etsiminen
+## Sivun tai tehtävän etsiminen
 
 **Siirry Sivut ja tehtävät -näkymään** -osan tulosten avulla voi käyttää muita sivuja ja suorittaa tehtäviä tai hakea tietoja. Jos käytät näitä sivuja usein, voit lisätä roolikeskukseen minkä tahansa sivun linkin valitsemalla kirjanmerkkikuvakkeen. Lisätietoja on kohdassa [Sivutoiminnon lisääminen roolikeskukseen](ui-bookmarks.md).
 
 Luettelossa olevat sivut ja tehtävät määräytyvät yritykselle valitun käyttäjäkokemuksen mukaan. **Essential**-kokemuksen valikoima sisältää vähemmän sivuja ja tehtäviä kuin **Premium**-kokemuksen valikoima. Ensimmäisellä kirjautumiskerralla käytössä on **Essential**-kokemus. Lisätietoja käyttökokemuksista on kohdassa [[!INCLUDE[prod_short](includes/prod_short.md)]-kokemuksen mukauttaminen](ui-experiences.md).
 
-## <a name="find-a-report-or-archived-information"></a>Raportin tai arkistoitujen tietojen etsiminen
+## Raportin tai arkistoitujen tietojen etsiminen
 
 **Siirry Raportit ja analyysi -näkymään** -osan avulla voi käyttää raportointityökaluja. Voit esimerkiksi avata **Tase**-raportin luettelosta tai käyttää arkistoituja asiakirjoja ja muita tietoja.  
 
-## <a name="find-a-record-or-search-the-documentation"></a>Tietueen etsiminen tai haku dokumentaatiossa
+## Tietueen etsiminen tai haku dokumentaatiossa
 
 **Hae kohdetta \<keyword\>** -osa [!INCLUDE [prod_short](includes/prod_short.md)] tarjoaa muutamia hakutapoja:
 
@@ -59,7 +59,7 @@ Luettelossa olevat sivut ja tehtävät määräytyvät yritykselle valitun käyt
   > [!NOTE]  
   > Kolmannen osapuolen laajennusten dokumentaatio ei ole mukana hakutuloksissa.
 
-### <a name="use-tell-me-what-you-want-to-do"></a>Käytä toimintoa Kerro, mitä haluat tehdä
+### Käytä toimintoa Kerro, mitä haluat tehdä
 
 Käytä toimintoa ![Kerro, mitä haluat tehdä.](media/ui-search/search.png "Etsi sivua tai raporttia") **Haku**-kuvake etsiäksesi tietoja kohteessa [!INCLUDE [prod_short](includes/prod_short.md)]. Voit esimerkiksi löytää asiakkaan syöttämällä hänen nimensä tai osoitteensa tai jopa löytää tietyn tietueen, kuten myyntitilauksen. Voit käyttää sitä myös tietojen etsimiseen dokumentaatiossamme.
 
@@ -73,22 +73,22 @@ Syötä vain vähintään kolme merkkiä avainsanaa ja valitse sitten joko **Hae
 
 [!INCLUDE [ui-how-search-works](includes/ui-how-search-works.md)]
 
-## <a name="get-more-functionality-from-apps"></a>Sovellusten toimintojen tehostaminen
+## Sovellusten toimintojen tehostaminen
 
 Kumppaniyhteisö kehittää jatkuvasti sovelluksia, jotka lisäävät ominaisuuksia [!INCLUDE[prod_short](includes/prod_short.md)]iin. **Hanki Microsoft AppSourcesta** -osassa on luettelo [!INCLUDE[prod_short](includes/prod_short.md)]in sovelluksista, jotka ovat saatavana Microsoft AppSourcessa ja jotka liittyvät hakemaasi avainsanaan.
 
-### <a name="use-search-on-list-pages"></a>Käytä hakua luettelosivuilla
+### Käytä hakua luettelosivuilla
 
 Se ei liity Kerro, mitä haluat tehdä -toimintoon, mutta on toinenkin tapa hakea tiettyjä tietoja. Kun käytät luettelosivua, voit hakea sivun tietoja luettelosivujen otsikoiden vasemmassa kulmassa olevan ![Hakuluettelon](media/ui-search/search-list.png "Hakuluettelon kuvake") **haku**kentän avulla. Haku tehdään vain avatussa luettelossa. Lisätietoja luettelosivujen tietojen käsittelystä on kohdassa [Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md).  
 
 > [!TIP]
 > Voit hakea kirjattuja asiakirjarivejä, kuten lasku-, hyvityslasku-, lähetys- ja kuittirivejä. Hae asiakirjarivien tyyppiä, jonka haluat etsiä, ja merkitse asiakirjojen linkit aloitussivulle kirjanmerkeiksi. Näin alkuperäisen ja suodatetun näkymän käyttäminen myöhemmin on helppoa. Lisätietoja on kohdassa [Sivutoiminnon lisääminen roolikeskukseen](ui-bookmarks.md).
 
-## <a name="questions"></a>Kysyttävää?
+## Kysyttävää?
 
 Eri sidosryhmät ovat tutustuneet hakuun ja esittäneet toimintoa koskevia kysymyksiä. Nämä kysymykset löytyvät usein kysyttyjen kysymysten luettelosta. Lisätietoja on kohdassa [Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset](ui-search-faq.md).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Business Centralin käyttäminen](ui-work-product.md)  
 [Sivutoiminnon lisääminen roolikeskukseen](ui-bookmarks.md)  

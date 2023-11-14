@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="set-up-electronic-document-sending-and-receiving"></a>Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen
+# Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen
 
 > [!NOTE]
 > Tämän artikkelin sisältö koskee vain Dynamics 365 Business Centralin niitä versioita, jotka on julkaistu ennen vuoden 2023 2. julkaisuaaltoa. Vuoden 2023 2. julkaisuaalto sisältää sähköisten asiakirjojen uudet toiminnot. Lisätietoja on kohdassa [Sähköisten asiakirjojen määrittäminen](finance-how-setup-edocuments.md). 
@@ -41,7 +41,7 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
 * **PEPPOL – Lasku** -tietojenvaihtomäärityksen valitseminen asiakirjojen vastaanottamista varten  
 * Kirjanpitotilin määrittäminen käyttämään uusia ostolaskun rivejä tunnistamatto\-mille nimikkeille ja muille kuin \-nimikkeille  
 
-### <a name="to-set-up-the-company-for-electronic-document-sending-and-receiving"></a>Yrityksen valmistelu sähköisten asiakirjojen lähettämistä ja vastaanottamista varten
+### Yrityksen valmistelu sähköisten asiakirjojen lähettämistä ja vastaanottamista varten
 
 1. Syötä **Etsi**-ruudussa **Oman yrityksen tiedot** ja valitse sitten vastaava linkki.  
 2. Lisää soveltuvat arvot **Yleinen**-pikalomakkeen kenttiin seuraavassa taulukossa kuvatulla tavalla.  
@@ -52,7 +52,7 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
     |**ALV-rekisterinro**|Määritä yrityksesi ALV-tunnus.|  
     |**Vastuupaikka**|Jos yrityksellesi on määritetty vastuukeskus, varmista, että **Maa-/aluekoodi**-kenttä on täytetty.|  
 
-### <a name="to-set-up-vat-posting-for-electronic-document-sending-and-receiving"></a>ALV-kirjausten määrittäminen sähköisten asiakirjojen lähettämistä ja vastaanottamista varten
+### ALV-kirjausten määrittäminen sähköisten asiakirjojen lähettämistä ja vastaanottamista varten
 
 1. Syötä **Etsi**-ruudussa **ALV-kirjausten asetukset** ja valitse sitten vastaava linkki.  
 2. Täytä jokainen sähköisille asiakirjoille käyttämäsi ALV-kirjauksen asetusrivi seuraavan taulukon mukaisesti.  
@@ -61,7 +61,7 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
     |---------------------------------|---------------------------------------|  
     |**Veroluokka**|Määritä ALV-luokka:<br /><br /> Jos esimerkiksi lähetät sähköisiä laskuja PEPPOL-formaatissa, tämän kentän arvoa käytetään täyttämään **TaxApplied**-elementti tiedoston **AccountingSupplierParty** -solmussa. Luku perustuu UNCL5305-standardiin.|  
 
-### <a name="to-set-up-countriesregions-for-electronic-document-sending-and-receiving"></a>Maa-/alueasetuksien määrittäminen asiakirjojen sähköistä lähettämistä ja vastaanottamista varten
+### Maa-/alueasetuksien määrittäminen asiakirjojen sähköistä lähettämistä ja vastaanottamista varten
 
 1. Avaa **Haku**-ruudusta **Maa/alueet** ja valitse liittyvä linkki.  
 2. Täytä jokainen maa-/aluekenttä, jonka kanssa vaihdat sähköisiä asiakirjoja seuraavan taulukon mukaisesti.  
@@ -70,7 +70,7 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
     |---------------------------------|---------------------------------------|  
     |**ALV-suunnitelma**|Määritä kansallinen, ALV-numeroita jakava viranomainen maalle tai \/alueelle, joka liittyy sähköisten asiakirjojen lähettämiseen.<br /><br /> Jos esimerkiksi lähetät sähköisiä laskuja PEPPOL-formaatissa, tämän kentän arvoa käytetään täyttämään **EndPointID** -elementin **SchemeID**-määrite tiedoston **AccountingSupplierParty** ja **AccountingCustomerParty** -solmuissa.<br /><br /> **ALV-suunnitelma**-kenttää käytetään vain, jos **Yritystiedot**-sivun **GLN**-kenttä on tyhjä. **Huomautus:** **Maat\/alueet**-sivulla olevan **Koodi**-kentän arvon on noudatettava ISO 3166\-1:Alpha2 -standardin vaatimuksia.|  
 
-### <a name="to-set-up-items-for-electronic-document-sending-and-receiving"></a>Kohteiden määrittäminen sähköisten asiakirjojen lähettämistä ja vastaanottamista varten
+### Kohteiden määrittäminen sähköisten asiakirjojen lähettämistä ja vastaanottamista varten
 
 1. Syötä **Etsi**-ruudussa **Nimikkeet** ja valitse sitten vastaava linkki.  
 2. Täytä jokaisen sähköisten asiakirjojen avulla myymäsi tai ostamasi kohteen kenttä seuraavan taulukon mukaisesti.  
@@ -79,7 +79,7 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
     |---------------------------------|---------------------------------------|  
     |**GTIN**|Määrittää kohteelle liitännän asiakirjojen sähköistä lähettämistä ja vastaanottamista varten. Kenttää käytetään PEPPOL-formaatissa seuraavasti:<br /><br /> Jos **StandardItemIdentification\/ID**-elementin **SchemaID**-määritteen arvo on **GTIN**, elementti määritetään nimikekortin **GTIN**-kenttään.|  
 
-### <a name="to-set-up-units-of-measure-for-electronic-document-sending-and-receiving"></a>Mittayksikköjen määrittäminen asiakirjojen sähköistä lähettämistä ja vastaanottamista varten
+### Mittayksikköjen määrittäminen asiakirjojen sähköistä lähettämistä ja vastaanottamista varten
 
 1. Avaa **Haku**-ruudusta **Mittayksiköt** ja valitse liittyvä linkki.  
 2. Täytä jokaiselle kohteelle sähköisissä asiakirjoissa käyttämäsi mittayksikkökenttä seuraavan taulukon mukaisesti.  
@@ -88,7 +88,7 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
     |---------------------------------|---------------------------------------|  
     |**Kansainvälisen standardin koodi**|Määritä UNECERec20-standardin mukainen mittayksikkö, jota käytät sähköisten asiakirjojen lähettämisessä.<br /><br /> Jos esimerkiksi lähetät sähköisiä laskuja PEPPOL-formaatissa, tämän kentän arvoa käytetään täyttämään **InvoicedQuantity**-elementin **unitCode** -määrite tiedoston **InvoiceLine** -solmussa. **Huomautus:** Jos myyntirivin **Mittayksikkö**-kenttä on tyhjä, UNECERe20-standardin mukainen "Kappale" \(H87\) -arvo täytetään oletusarvoisesti. Lisätietoja mittayksiköistä ja kelvollisten mittayksikkökoodien luettelo on asiakirjassa [Recommendation No. 20\-Units of Measure used in International Trade](https://www.unece.org/fileadmin/DAM/cefact/recommendations/rec20/rec20_rev3_Annex2e.pdf).|  
 
-### <a name="to-set-up-customers-for-electronic-document-sending"></a>Asiakkaiden määrittäminen sähköisten asiakirjojen lähettämistä ja vastaanottamista varten
+### Asiakkaiden määrittäminen sähköisten asiakirjojen lähettämistä ja vastaanottamista varten
 
 1. Syötä **Etsi**-ruudussa **Asiakkaat** ja valitse sitten vastaava linkki.  
 2. Täytä jokaisen asiakkaan, jolle lähetät sähköisiä asiakirjoja, kentät seuraavan taulukon mukaisesti.  
@@ -101,7 +101,7 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
 
     Voit määrittää jokaiselle asiakkaalle haluamasi liiketoiminta-asiakirjojen lähettämistavan, ettei sinun tarvitse valita lähettämistapaa joka kerta, kun lähetät asiakkaalle asiakirjan. Lisätietoja on kohdassa [Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md).  
 
-### <a name="to-select-the-peppol-electronic-document-format-for-electronic-document-sending"></a>PEPPOL-formaatin valitseminen asiakirjojen lähettämistä varten
+### PEPPOL-formaatin valitseminen asiakirjojen lähettämistä varten  
 1. Kirjoita **Haku**-ruutuun **Asiakirjan lähetysprofiilit** ja valitse aiheeseen liittyvä linkki.  
 2. Avaa joko aiemmin luotu asiakirjan lähetysprofiili tai luo uusi. Lisätietoja on kohdassa [Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md).  
 3. Valitse **Asiakirjan lähetyksen profiili** -sivulla ensin **Sähköinen muoto**, sitten PEPPOL-rivi ja lopuksi **OK**.  
@@ -114,7 +114,7 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
 
     Voit nyt lähettää muunnettua tietoa sisältävän sähköisen asiakirjan. Lisätietoja on kohdassa [Sähköisten asiakirjojen lähettäminen](sales-how-to-send-electronic-documents.md).  
 
-### <a name="to-set-up-vendors-for-electronic-document-receiving"></a>Toimittajien määrittäminen sähköisten asiakirjojen vastaanottamista varten
+### Toimittajien määrittäminen sähköisten asiakirjojen vastaanottamista varten  
 1. Syötä **Etsi**-ruudussa **Toimittajat** ja valitse sitten vastaava linkki.  
 2. Täytä jokaisen toimittajan, jolta vastaanotat sähköisiä asiakirjoja, kentät seuraavan taulukon mukaisesti.  
 
@@ -124,7 +124,7 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
     |**ALV-rekisterinro**|Määritä toimittajan ALV-tunnus. **Vinkki:** Tuetuissa lokalisoiduissa versioissa voit valita porautumispainikkeella verkkopalvelun, joka varmistaa, onko numero kansallisessa yritysrekisterissä.|  
     |**Vastuupaikka**|Jos toimittajalle on määritetty vastuukeskus, varmista, että **Maa-/aluekoodi**-kenttä on täytetty.|  
 
-### <a name="to-select-the-peppol---invoice-data-exchange-definition-for-electronic-document-receiving"></a>PEPPOL – Lasku -tietojenvaihtomäärityksen valitseminen asiakirjojen vastaanottamista varten
+### PEPPOL – Lasku -tietojenvaihtomäärityksen valitseminen asiakirjojen vastaanottamista varten  
 1. Kirjoita **Etsi**-ruutuun **Saapuvat asiakirjat** ja valitse sitten vastaava linkki.  
 2. Valitse vastaanotettavan ja muunnettavan sähköisen asiakirjan rivillä **Tiedonsiirron tyyppi** -kenttä ja valitse sitten **PEPPOLINVOICE**.  
 
@@ -132,7 +132,7 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
 
     Voit nyt vastaanottaa sähköisen asiakirjan aloittamalla tietojen muuntamisen **Saapuvat asiakirjat** -sivulla. Lisätietoja on kohdassa [Sähköisten asiakirjojen vastaanottaminen ja muuntaminen](purchasing-how-to-receive-and-convert-electronic-documents.md).  
 
-### <a name="to-set-up-the-gl-account-to-use-on-new-purchase-invoice-lines-for-non-identifiable-items-and-non-items"></a>Kirjanpitotilin määrittäminen käyttämään uusia ostolaskun rivejä tunnistamattomille kohteille ja ei-kohteille
+### Kirjanpitotilin määrittäminen käyttämään uusia ostolaskun rivejä tunnistamattomille kohteille ja ei-kohteille  
 1. Avaa **Haku**-ruudusta **Ostojen ja ostovelkojen asetukset** ja valitse liittyvä linkki.  
 2. Täytä **Oletustilit**-pikalomakkeen kenttä seuraavassa taulukossa kuvatulla tavalla.  
 
@@ -140,7 +140,7 @@ Ohjeaihe sisältää seuraavat toimintosarjat:
     |---------------------------------|---------------------------------------|  
     |**Muiden kuin nimikerivien KP-tili**|Määrittää kirjanpitotilin, joka lisätään automaattisesti sähköisistä asiakirjoista ostoriveille silloin, kun saapuva asiakirjarivi ei sisällä tunnistettavaa kohdetta. Kaikki saapuvan asiakirjan rivit, joilla ei ole GTIN-arvoa tai toimittajan nimikenumeroa, muunnetaan tyypin **KP-tili**-tyyppiseksi ostoriviksi. Ostorivin **Nro**-kenttä sisältää tilin, jonka valitset **Muiden kuin nimikerivien KP-tili** -kentässä.<br /><br /> Ostoasiakirjaa ei luoda, jos **Muiden kuin nimikerivien KP-tili** -kenttä jätetään tyhjäksi ja saapuva asiakirja sisältää rivejä, joilla ei ole tunnistettavia nimikkeitä. Virhesanoma pyytää täyttämään **Muiden kuin nimikerivien KP-tili** -kentän, ennen kuin voit päättää tehtävän.|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 [Sähköinen tiedonsiirto](across-data-exchange.md)   
 [Myynnin laskutus](sales-how-invoice-sales.md)   
 [Ostojen kirjaus](purchasing-how-record-purchases.md)

@@ -12,7 +12,7 @@ ms.date: 10/03/2023
 ms.author: altotovi
 ---
 
-# <a name="use-e-documents-in-sales-and-purchases"></a>Sähköisten asiakirjojen käyttäminen myynnissä ja ostoissa
+# Sähköisten asiakirjojen käyttäminen myynnissä ja ostoissa
 
 Voit käyttää määritettyjä sähköisiä asiakirjoja myynti- ja ostoasiakirjojen yhteydessä.
 
@@ -28,13 +28,13 @@ Tällä hetkellä voit käyttää seuraavia asiakirjoja sähköisiä asiakirjoja
 
 Tällä hetkellä ostotilausta voidaan käyttää vain silloin, kun asiakirja luodaan toimittajan lähettämästä sähköisestä asiakirjasta. Et kuitenkaan voi päivittää olemassa olevaa asiakirjaa riveillä, jotka olet saanut toimittajaltasi.
 
-## <a name="e-documents-in-sales"></a>Myynnin sähköiset asiakirjat
+## Myynnin sähköiset asiakirjat
 
 Voit luoda ja lähettää asiakkaalle sähköisen laskun, jos luot ensin myyntilaskun ja kirjaat sen. Lisätietoja vakioprosessista on kohdassa [Myynnin laskutus](sales-how-invoice-sales.md).
 
 Kun olet kirjannut myyntiasiakirjan, avaa **Kirjattu myyntilasku** -sivu ja sen jälkeen liittyvä **Sähköinen asiakirja** -sivu.
 
-### <a name="view-e-documents"></a>Sähköisten asiakirjojen tarkasteleminen
+### Sähköisten asiakirjojen tarkasteleminen
 
 Voit tarkastella aiemmin luotuja sähköisiä asiakirjoja alla olevien ohjeiden avulla.
 
@@ -43,7 +43,7 @@ Voit tarkastella aiemmin luotuja sähköisiä asiakirjoja alla olevien ohjeiden 
 3. **Tietue**-kentässä on kirjatun myyntilaskun asiakirjanumero. Avaa asiakirja valitsemalla linkki.
 4. **Sähköisen asiakirjan tila** -kentässä voit tarkastella asiakirjan reaaliaikaista tilaa ja sen sijaintia prosessiputkessa. Jos asiakirja on kirjattu, tila on **Käsitelty**.
 
-### <a name="e-document-statuses-and-logs"></a>Sähköisten asiakirjojen tilat ja lokit
+### Sähköisten asiakirjojen tilat ja lokit
 
 Saat lisätietoja sähköisen asiakirjapalvelun tilan tasosta **Sähköisen asiakirjapalvelun tila** -pikavälilehdestä. Järjestelmä näyttää riveillä vähintään yhden asiakirjan käyttämän palvelun. Yleisimmässä skenaariossa jokainen asiakirja käyttää vain yhtä palvelua. Asiakirja voi kuitenkin käyttää useita palveluita.
 
@@ -67,11 +67,11 @@ Jos palveluntarjoajan kanssa on ongelmia, eikä asiakirjaa voi lähettää, etsi
 
 Kun ongelma on korjattu, suorita manuaalisesti **Lähetä asiakirja** -toiminnot. Jos tarvitset erilaisia toimintoja, kuten **Uudelleenluotu asiakirja**-, **Peruuta asiakirja**- tai **Hae hyväksyntää** -toiminnon, voit suorittaa niitä.
 
-## <a name="e-documents-in-purchases"></a>Sähköiset asiakirjat ostoissa
+## Sähköiset asiakirjat ostoissa
 
 Dynamics 365 Business Centralin ostojen sähköisten laskujen vastaanotto voidaan tehdä eräajona tai manuaalisesti.
 
-### <a name="run-the-batch-job"></a>Eräajon suorittaminen
+### Eräajon suorittaminen
 
 > [!NOTE]
 > Tämä eräajo on tarkoitettu saapuvien laskujen automaattista keräilyä varten. Toiminnon käyttäminen on mahdollista vain, jos se on otettu käyttöön maassa tai alueella.
@@ -95,7 +95,7 @@ Seuraavassa kerrotaan kaksi yleisintä virhettä:
 
 Virheiden ja varoitusten korjaamisen jälkeen voit manuaalisesti määrittää, milloin järjestelmän tulee luoda ostolasku asetusten perusteella, valitsemalla **Luo tiedosto**.
 
-### <a name="manually-import-invoices"></a>Laskujen tuominen manuaalisesti
+### Laskujen tuominen manuaalisesti
 
 Voit tuoda manuaalisesti ulkoisia sähköisiä asiakirjoja alla olevien ohjeiden mukaan.
 
@@ -106,7 +106,7 @@ Voit tuoda manuaalisesti ulkoisia sähköisiä asiakirjoja alla olevien ohjeiden
 5. Kun virheet on korjattu, valitse **Tuo manuaalisesti** -ryhmässä **Luo asiakirja**.
 6. Kun asiakirja on luotu Business Centralissa, voit tarkastella sitä samalla tavalla kuin eräajoa käytettäessä.
 
-## <a name="overview-of-e-document-statuses"></a>Sähköisten asiakirjojen tilojen yleiskatsaus
+## Sähköisten asiakirjojen tilojen yleiskatsaus
 
 Jos haluat aiempaa paremman yleiskatsauksen yrityksen kaikista sähköisistä asiakirjoista, voit valita **Kirjanpitäjä**-roolikeskuksen, jossa sähköisten asiakirjojen tilat ovat. Siellä voit etsiä sähköistä asiakirjaa koskevat aktiviteetit, joilla on seuraavat tilat:
 
@@ -122,7 +122,7 @@ Jos haluat aiempaa paremman yleiskatsauksen yrityksen kaikista sähköisistä as
     - Työn alla
     - Virhe
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Sähköisten asiakirjojen määrittäminen Business Centralissa](finance-how-setup-edocuments.md)  
 [Sähköisten asiakirjojen laajentaminen Business Centralissa](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

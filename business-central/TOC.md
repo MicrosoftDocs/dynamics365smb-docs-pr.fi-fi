@@ -6,6 +6,7 @@
 ## [Yleiskatsaus yrityksen toiminnoista](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Lisätietoja
+### [Käyttäjien resurssit](resources-for-users.md)
 ### [Business Central -opintoluettelo](readiness/readiness-learning-catalog.md)
 ### [Business Centralin koulutus](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Liiketoimintaprosessien vaihekuvaukset
@@ -349,6 +350,7 @@
 #### [Myöhästyneen maksun ennusteen laajennus](ui-extensions-late-payment-prediction.md)
 
 ### Sähköisten asiakirjojen hallinta
+#### [Sähköisten asiakirjojen yleiskuvaus](finance-edocuments-overview.md)
 #### [Sähköisten asiakirjojen määrittäminen](finance-how-setup-edocuments.md)
 #### [Sähköisten asiakirjojen käyttäminen myynnissä ja ostoissa](finance-how-use-edocuments.md)
 #### [Sähköisten asiakirjojen toimintojen laajentaminen](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
@@ -1815,6 +1817,7 @@
 
 ## Tietojen analysoiminen liiketoimintatietotyökaluilla
 ### [Yleiskatsaus](reports-external-analysis.md)
+### [Microsoft Fabric ja Business Central](admin-fabric.md)
 ### [Power BI:n käyttäminen Business Centralin kanssa](admin-powerbi.md)
 ### [Tilinpäätösten analysoiminen Excelin avulla](finance-analyze-excel.md)
 ### [Tietojen poimiminen tietovarastoon tai Data Lake ‑tallennustilaan](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)

@@ -8,15 +8,15 @@ ms.search.form: 'Report_5600, Report_5601, Report_5603, Report_5604, Report_5605
 ms.date: 07/13/2021
 ms.author: bholtorf
 ---
-# <a name="fixed-assets-reports-and-analytics-in-business-central"></a>Käyttöomaisuuden raportit ja analytiikka Business Centralissa
+# Käyttöomaisuuden raportit ja analytiikka Business Centralissa
 
 Jotta voit hallita käyttöomaisuuttasi helpommin [!INCLUDE [prod_short](includes/prod_short.md)]issa, vakioraportit ja analytiikka ovat sisään rakennettuina. Se ylittää perinteisen raportoinnin rajoitukset, jotta voit suunnitella tehokkaasti erityyppisiä raportteja.  
 
-## <a name="reports"></a>Raportit
+## Raportit
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md)  
 [Dimensioiden käyttäminen](finance-dimensions.md)  

@@ -158,6 +158,10 @@ Ota yhteyttä Shopify-tukeen 7 päivän kuluessa tämän virheen ilmenemistä ja
 
 Näyttää siltä, että käyttäjällä, joka pyytää käyttöoikeutta, ei ole oikeuksia hallita sovelluksia (kykyä hallita ja asentaa sovelluksia ja kanavia sekä mahdollisesti hyväksyä sovellusmaksuja). Voit ehkä ratkaista tämän ongelman asentamalla sovelluksen tilin omistajaksi. Vaihtoehtoisesti voit tarkistaa käyttäjän **sovelluksen käyttöoikeudet** [**Käyttäjät ja käyttöoikeudet**](https://www.shopify.com/admin/settings/account) -asetuksista **Shopify-järjestelmänvalvojassa**.  
 
+### [{"viesti":"Pääsy estetty FIELD-kentässä","sijainnit":[{"rivi":0,"sarake":0}],"polku":["polku"],"laajennukset":{"koodi":"ACCESS_DENIED","dokumentaatio":https://shopify.dev/api/usage/access-scopes}}]
+
+Pyydä uusi tunnus, koska yhdistimen päivitetty versio vaatii enemmän käyttöoikeuksia (sovelluksen käyttöalueita). Lue lisätietoja kohdasta [Pyydä käyttöoikeustunnusta](#request-the-access-token).
+
 ## Katso myös
 
 [Shopifyn yhdistimen käytön aloittaminen](get-started.md)

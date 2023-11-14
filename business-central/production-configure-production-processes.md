@@ -10,7 +10,7 @@ ms.search.form: '99000768, 99000779, 99000780, 99000866'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="setting-up-manufacturing"></a>Tuotannon määrittäminen
+# Tuotannon määrittäminen
 
 Jotta materiaalit voidaan muuntaa tuotetuiksi lopullisiksi nimikkeiksi, järjestelmässä on määritettävä tuotantoresurssit, kuten tuoterakenteet, reititykset, koneenkäyttäjät ja koneet.
 
@@ -33,7 +33,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Yksinkertaista reitityksen luontia vakiotehtävillä, jotka liittävät lisätiedot nopeasti toistuviin toimintoihin.|[Vakioreititysrivien määrittäminen](production-how-set-up-standard-routing-lines.md)|  
 |Valmistele tuotantosolut ja reititykset alihankintana toteutettuja tuotantotoimintoja edustaviksi.|[Tuotanto alihankintana](production-how-to-subcontract-manufacturing.md)|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Tuotanto](production-manage-manufacturing.md)  
 [Suunnittelu](production-planning.md)  

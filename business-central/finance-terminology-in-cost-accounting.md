@@ -11,11 +11,11 @@ ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# <a name="terminology-in-cost-accounting"></a>Termit kustannuslaskennassa
+# Termit kustannuslaskennassa
 
 Tässä aiheessa määritellään keskeiset ehdot, joita käytetään kustannuslaskennassa.  
 
-## <a name="key-terms"></a>Keskeiset termit
+## Keskeiset termit
 
  Seuraavassa taulukossa on esitetty keskeiset määritelmät kustannuslaskennassa.  
 
@@ -43,7 +43,7 @@ Tässä aiheessa määritellään keskeiset ehdot, joita käytetään kustannusl
 |Muuttuva kustannus|Muuttuvat kustannukset ovat kuluja, jotka muuttuvat suhteessa yrityksen toimintaan. Muuttuvat kustannukset ovat kaikkien tuotettujen yksiköiden marginaalikustannusten summa. Kokonaiskustannusten kaksi osaa muodostuvat kiinteistä kustannuksista ja muuttuvista kustannuksista.|  
 |Variantti|Varianttia käytetään valinnaisena käyttäjän määrittämänä nimenä määrityksille. Etiketin tarkoitus on suodattaa jakoryhmiä.|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
  [Tietoja kustannuslaskennasta](finance-about-cost-accounting.md)  
  [Kustannuslaskenta](finance-manage-cost-accounting.md)  

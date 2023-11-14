@@ -10,6 +10,9 @@ summary: |
   Sisäänrakennettu asiakirjojen vaihtopalvelu lähettää sähköiset laskut TradeShift-palveluntarjoajalle, joka välittää sähköiset laskut PEPPOLIN- tai NemHandel-vastaanottajille. Palvelu tukee kuitenkin rajoitettua määrää versioita.   
 
   Tämä UKK vastaa joihinkin sähköistä laskutusta koskeviin tärkeimpiin kysymyksiin.  
+
+  > [!NOTE]
+  > Tämä usein kysyttyjen kysymysten sivu ei liity uuteen sähköisten asiakirjojen sovellukseen, joka on saatavilla vuoden 2023 2. julkaisuaallossa. Lisätietoja uudesta ominaisuudesta on kohdassa [Sähköisten asiakirjojen yleiskatsaus](finance-edocuments-overview.md).  
 sections:
   - name: Yleiset
     questions:
