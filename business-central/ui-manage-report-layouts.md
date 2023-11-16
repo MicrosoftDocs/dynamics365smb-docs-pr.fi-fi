@@ -11,7 +11,7 @@ ms.search.form: '9652, 9650, 9660'
 ms.date: 05/23/2023
 ms.author: jswymer
 ---
-# Raporttien ja asiakirjojen asettelujen yleiskatsaus
+# <a name="report-and-document-layouts-overview"></a>Raporttien ja asiakirjojen asettelujen yleiskatsaus
 
 Raporttiasettelu ohjaa raportin sisältöä ja muotoa, mukaan lukien, mitkä tietojen kentät näkyvät raportissa ja miten ne järjestetään, tekstityylin, kuvia ja muita ominaisuuksia. Voit luoda [!INCLUDE[prod_short](includes/prod_short.md)]ista uuden asettelun, muuttaa raportissa käytettävää asettelua tai muokata nykyisiä asetteluja.
 
@@ -20,7 +20,7 @@ Raporttiasettelu ohjaa raportin sisältöä ja muotoa, mukaan lukien, mitkä tie
 
 Voit myös käyttää raporttiasetteluja lisätäksesi sisältöä sähköpostiviesteihin. Raporttiasettelut voivat esimerkiksi säästää aikaa ja auttaa yhdenmukaisuuden varmistamisessa siten, että samaa sisältöä käytetään uudelleen, kun viestit asiakkaidesi kanssa. Jotta voit käyttää mukautettuja raporttiasetteluja sähköpostissa, niiden tiedostotyyppinä on oltava Word. Et voi käyttää RDLC-tiedostotyyppiä. Lisätietoja: [Uudelleenkäytettävien sähköpostitekstien ja -asettelujen määrittäminen](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
-## Esittely
+## <a name="introduction"></a>Esittely
 
 Erityisesti raporttiasettelu määrittää seuraavat asetukset:
 
@@ -35,11 +35,11 @@ Raportti voidaan määrittää useille raportin asetteluille, joita voit vaihtaa
 
 Raportin asetteluissa on kaksi tärkeää näkökohtaa, jotka vaikuttavat niiden käsittelytapaan: *asettelun tyyppi* ja *asettelun lähde*. Asettelun tyyppi ilmaisee tiedoston tyypin, johon asettelu perustuu. Asettelun tyyppi ilmaisee asettelun alkuperän.
 
-## Asettelun tyypit
+## <a name="layout-types"></a>Asettelun tyypit
 
 Raporteissa käytettävän asettelun tyyppi voi olla neljänlainen: Word, RDLC, Excel tai ulkoinen.
 
-### Word
+### <a name="word"></a>Word
 
 Word-asettelut perustuvat Word-asiakirjoihin (.docx-tiedostotyyppi). Word-asetteluiden avulla voit suunnitella raporttiasetteluita käyttämällä Microsoft Wordiä. Word-asettelu määrittää raportin sisällön ja ohjaa sitä, miten sisältöelementit järjestetään ja miltä ne näyttävät. Asettelu Word-asiakirjassa käyttää yleensä taulukoita, joiden avulla voit järjestää sisältöä, jossa solut sisältävät tietokentät, tekstiä tai kuvia.
 
@@ -49,7 +49,7 @@ Word-asettelut perustuvat Word-asiakirjoihin (.docx-tiedostotyyppi). Word-asette
 
 Lisätietoja on kohdassa [Wordin asettelujen käyttö](ui-how-add-fields-word-report-layout.md).
 
-### Excel
+### <a name="excel"></a>Excel
 
 Excel-asettelujen perustana ovat Microsoft Excel-työkirjat (.xlsx-tiedostotyyppi). Niiden avulla voit luoda raportteja käyttämällä tuttuja Excelin ominaisuuksia yhteenvetoon, analysointiin ja tietojen esittämiseen työkaluilla, kuten kaavoilla, pivot-taulukoilla ja pivot-kaavioilla.
 
@@ -57,7 +57,7 @@ Excel-asettelujen perustana ovat Microsoft Excel-työkirjat (.xlsx-tiedostotyypp
 
 Lisätietoja on kohdassa [Excel-asettelujen käyttö](ui-excel-report-layouts.md).
 
-### RDLC
+### <a name="rdlc"></a>RDLC
 
 RDLC-asettelut perustuvat asiakkaan määrittelemiin raportinasettelutiedostoihin (.rdl- tai .rdlc-tiedostotyypit). Näitä asetteluja luodaan ja muokataan käyttämällä SQL Server Report Builderia tai Microsoft RDLC Report Designeria. RDLC-asettelujen suunnittelukonsepti on samankaltainen kuin Wordin asetteluissa, joissa asettelu määrittää, mitkä kentät näytetään ja miten ne järjestetään. RDLC-asetteluiden suunnitteleminen on kuitenkin monimutkaisempaa kuin Word-asetteluiden.
 
@@ -65,13 +65,13 @@ RDLC-asettelut perustuvat asiakkaan määrittelemiin raportinasettelutiedostoihi
 
 Lisätietoja on kohdassa [RDLC-asettelujen käyttö](ui-rdlc-report-layouts.md).
 
-### Ulkoinen
+### <a name="external"></a>Ulkoinen
 
 Ulkoinen asettelutyyppi viittaa erikoistyyppiin, joka on suunniteltu erityisesti tiettyjä raportteja varten. Raportit ja kaavat ovat tavallisesti kumppaneiden toimittamia, eivät Microsoftilta. Asettelun todellinen tiedostotyyppi vaihtelee palveluntarjoajan mukaan.
 
 Lisätietoja on ohjeaiheessa [Mukautetun raportin hahmonnuksen kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
 
-## Asettelun lähteet
+## <a name="layout-sources"></a>Asettelun lähteet
 
 Tyypin lisäksi asettelut jaetaan edelleen kolmeen luokkaan niiden lähteen tai alkuperän perusteella.
 
@@ -97,7 +97,7 @@ Lisätietoja siitä, mikä tyyppi sopii parhaiten sinulle, on ohjeaiheessa [Halu
 > On tärkeää muistaa, että et voi muokata laajennuksen asetteluita Business Central -asiakkaasta. Et voi esimerkiksi muuttaa asettelun nimeä tai tyyppiä tai ladata ja korvata sitä toisella versiolla. Jos yrität tehdä niin, näyttöön avautuu virhesanoma. Sinun on sen sijaan luotava käyttäjän määrittämä tai mukautettu asettelu laajennuksen asettelun perusteella.
 
 <!--
-### Built-in and custom report layouts
+### <a name="built-in-and-custom-report-layouts"></a>Built-in and custom report layouts
 
 
 
@@ -117,7 +117,7 @@ Deciding on whether to use a Word, Excel, or RDLC layout type will depend on how
 For information about how to switch the layout currently used on a report, see [Set the Layout Used by a Report](ui-set-report-layout.md).
 
 -->
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Raporttien mukautettujen asetteluiden päivittäminen](ui-update-report-layouts.md)  
 [Raporttien mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)  

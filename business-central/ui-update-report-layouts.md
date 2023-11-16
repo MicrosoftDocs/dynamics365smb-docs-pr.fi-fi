@@ -10,7 +10,7 @@ ms.search.form: '9652, 9650'
 ms.date: 06/24/2021
 ms.author: bholtorf
 ---
-# (Vanha) Päivitä mukautetut raporttiasettelut
+# <a name="legacy-update-custom-report-layouts"></a>(Vanha) Päivitä mukautetut raporttiasettelut
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -22,7 +22,7 @@ Voit myös halutessasi testata päivitykset tekemättä vaadittuja muutoksia muk
 
 Kaikkia raportin tietojoukon muutoksia ei voi päivittää automaattisesti raporttiasetteluihin. Jotkin muutokset edellyttävät raporttiasettelun manuaalista muokkaamista. Lisätietoja on ohjeaiheessa [Mukautettujen raporttiasetteluiden päivittämisen rajoitukset](ui-update-report-layouts.md#UpdateLimitations).  
 
-## Vähintään yhden mukautetun raportin asettelun päivittäminen  
+## <a name="to-update-one-or-more-custom-report-layouts"></a>Vähintään yhden mukautetun raportin asettelun päivittäminen
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten vastaava linkki.  
 
@@ -30,7 +30,7 @@ Kaikkia raportin tietojoukon muutoksia ei voi päivittää automaattisesti rapor
 
 Jos virheitä ei ilmene, päivitykset otetaan käyttöön raporttiasetteluissa. Jos virheitä esiintyy, järjestelmä näyttää viestin, joka sisältää virheet. Päivityksen jälkeen mukautettua raporttiasettelua on muokattava virheen korjaamiseksi. Lisätietoja on kohdassa [Virheiden korjaaminen](ui-update-report-layouts.md#FixErrors).  
 
-## Mukautettujen raporttiasetteluiden päivitysten testaaminen  
+## <a name="to-test-custom-report-layout-updates"></a>Mukautettujen raporttiasetteluiden päivitysten testaaminen
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten vastaava linkki.  
 
@@ -38,7 +38,7 @@ Jos virheitä ei ilmene, päivitykset otetaan käyttöön raporttiasetteluissa. 
 
  Raporttiasettelujen muutokset testataan, mutta niitä ei käytetä varsinaisissa raporttiasetteluissa. **Raporttiasettelun päivitysloki** -sivu avautuu, ja siinä näytetään jokaiselle raporttiasettelulle tulevat päivitykset sekä niiden tila. Jos raporttiasettelulla on virheitä, voit avata raporttiasettelun suoraan viestistä muokkaamista varten. Lisätietoja on kohdassa [Virheiden korjaaminen](ui-update-report-layouts.md#FixErrors).  
 
-##  <a name="UpdateLimitations"></a> Mukautettujen raporttiasetteluiden päivittämisen rajoitukset  
+## <a name="limitations-of-the-custom-report-layout-update"></a><a name="UpdateLimitations"></a>Mukautettujen raporttiasetteluiden päivittämisen rajoitukset
  Automaattinen päivitys voi tehdä monenlaisia muutoksia mukautettuihin raporttiasetteluihin, kuten jos asettelussa käytettävä kenttä on poistettu raportin tietojoukosta. Seuraavia muutoksia raportin tietojoukkoon automaattinen päivitys ei kuitenkaan käsittele.  
 
 1.  Poistetut kentät, otsikot ja tietokohteet.  
@@ -49,7 +49,7 @@ Jos virheitä ei ilmene, päivitykset otetaan käyttöön raporttiasetteluissa. 
 
  Jos päivitysprosessi havaitsee jonkin näistä ongelmista, päivitystä ei voi ottaa käyttöön. Nämä ongelmat on korjattava manuaalisesti, esimerkiksi muokkaamalla raporttia käsin Wordissa tai ohjelmallisesti käyttämällä päivityksen codeuniteja.  
 
-##  <a name="FixErrors"></a> Virheiden korjaaminen  
+## <a name="fixing-errors"></a><a name="FixErrors"></a>Virheiden korjaaminen
  Jos virhesanoma tulee näkyviin raporttiasettelun päivityksen tai testauksen jälkeen, sinun on todennäköisesti muokattava raportin asettelua ongelman korjaamiseksi. Lue virhesanoma, jonka avulla voit selvittää ongelman syyn.  
 
  Yleisin ongelma ilmenee, kun asettelussa käytetty kenttä on poistettu raportin tietojoukosta. Tässä tapauksessa näet virhesanoman rivin, joka ilmoittaa, että nimike on poistettu. Jotta voit korjata tämän ongelman, sinun on muokattava asettelua ja poistettava kyseinen kenttä.  
@@ -58,7 +58,7 @@ Jos virheitä ei ilmene, päivitykset otetaan käyttöön raporttiasetteluissa. 
 
 Kun muutat asettelua, yritä päivittää asettelu uudelleen.  
 
-## Katso myös  
+## <a name="see-also"></a>Katso myös
  [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  
  [Raporttien, eräajojen ja XMLportien käsitteleminen](ui-work-report.md)  
 

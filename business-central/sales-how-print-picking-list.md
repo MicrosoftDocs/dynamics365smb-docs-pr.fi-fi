@@ -10,13 +10,13 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: bholtorf
 ---
-# Tulosta poimintaluettelo
+# <a name="print-the-picking-list"></a>Tulosta poimintaluettelo
 
 Voit tulostaa varaston poimintaluettelon suoraan myyntitilauksesta tai mistä tahansa muusta asiakirjasta, joka aloittaa tavaroiden lähettämisen.
 
 Tätä raporttia käytetään tyypillisesti yrityksissä, joissa ei ole erillisiä toimintoja varastoinnin hallintaan, joten varastotyöntekijä voi tarkastella tai tulostaa poimintaluetteloa asiaan liittyvällä myyntiasiakirjalla. Yrityksissä, joiden prosessit ovat suuria tai monimutkaisia, toimitus ja poiminta suunnitellaan ja suoritetaan tietyissä varastointiasiakirjoissa. Lisätietoja on kohdassa [Fyysisen varaston lähtevä työnkulku](design-details-outbound-warehouse-flow.md).
 
-## Varaston poimintaluettelon tulostaminen myyntitilauksesta
+## <a name="to-print-a-picking-list-from-a-sales-order"></a>Varaston poimintaluettelon tulostaminen myyntitilauksesta
 
 Seuraava toimenpide perustuu myyntitilaukseen. Vaiheet ovat samanlaiset kaikissa asiakirjoissa, joita voidaan käyttää nimikkeiden toimituksen käynnistämiseen. Yksi esimerkki on siirtotilaus.
 
@@ -30,7 +30,7 @@ Voit myös tallentaa poimintaluettelon asiakirjana, esimerkiksi lähettääksesi
 > [!NOTE]
 > Jos käytit myyntitilauksessa **Pura tuoterakenne** -toimintoa, vain asiaan liittyvän kokoonpanonimikkeen komponentit näkyvät raportissa. Lisätietoja on kohdassa [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Varasto](inventory-manage-inventory.md)  
 [Lähtevien varastotyönkulku](design-details-outbound-warehouse-flow.md)

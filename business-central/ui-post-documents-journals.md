@@ -10,7 +10,7 @@ ms.date: 06/24/2021
 ms.search.form: null
 ms.author: bholtorf
 ---
-# Asiakirjojen ja päiväkirjojen kirjaaminen
+# <a name="posting-documents-and-journals"></a>Asiakirjojen ja päiväkirjojen kirjaaminen
 
 Kirjaaminen on kirjanpitotoiminto, jolla tallennetaan liiketoimintatapahtumia erilaisiin yrityksen päiväkirjoihin.
 
@@ -27,7 +27,7 @@ Seuraavassa taulukossa esitellään liittyvät tehtävät ja linkit tehtäviä k
 | Esikatsele sivulla tapahtumia, jotka luodaan kirjaamisen yhteydessä. |[Kirjaustulosten esikatselu](ui-how-preview-post-results.md) |
 | Esikatsele raportissa syöttöjä, jotka luodaan kirjaamisen yhteydessä. |[Testiraporttien tarkastelu ennen kirjausta](ui-how-view-test-reports-posting.md) |
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Kirjattujen asiakirjojen muokkaaminen](across-edit-posted-document.md)  
 [Etsi liittyviä tapahtumia asiakirjoille](ui-find-entries.md)  

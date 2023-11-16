@@ -11,7 +11,7 @@ ms.search.form: '1533,'
 ms.date: 05/31/2023
 ms.author: bholtorf
 ---
-# Työnkulun käyttäjien järjestyksen määrittäminen
+# <a name="set-up-a-sequence-of-workflow-users"></a>Työnkulun käyttäjien järjestyksen määrittäminen
 
 Ennen kuin voit luoda hyväksyntätyönkulun, on määritettävä käyttäjät jotka lähettävät pyyntöjä sekä pyyntöjen hyväksyjät. Voit esimerkiksi määrittää ne henkilöt, jotka saavat ilmoituksen toimia työnkulun osavaiheissa. Hyväksyntätyönkulun osallistujat määritetään **Hyväksynnän käyttäjäasetukset** -sivulla. Lisätietoja kohdassa [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md).
 
@@ -19,7 +19,7 @@ Ennen kuin voit luoda hyväksyntätyönkulun, on määritettävä käyttäjät j
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
-## Työnkulun käyttäjäryhmän määrittäminen
+## <a name="to-set-up-a-workflow-user-group"></a>Työnkulun käyttäjäryhmän määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulun käyttäjäryhmät**, valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto. **Työnkulun käyttäjäryhmä** -sivu avautuu.  
@@ -34,7 +34,7 @@ Ennen kuin voit luoda hyväksyntätyönkulun, on määritettävä käyttäjät j
 
 6. Toista vaihe 5, jos haluat lisätä useampia työnkulun käyttäjiä työnkulun käyttäjäryhmään.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)  
 [Hyväksymistyönkulkujen määrittäminen](across-set-up-workflows.md)  

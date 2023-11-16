@@ -10,7 +10,7 @@ ms.search.form: '9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000
 ms.date: 06/22/2021
 ms.author: bholtorf
 ---
-# Tuotantokalentereiden määrittäminen
+# <a name="set-up-shop-calendars"></a>Tuotantokalentereiden määrittäminen
 
 Tuotantosolun tai kuormituskeskuksen kalenterissa määritetään työpäivät ja -tunnit, työvuorot, lomapäivät sekä poissaolot, jotka määräävät tuotantosolun tai kuormituskeskuksen käytettävissä olevan kokonaiskapasiteetin (ajassa mitattuna) tehokkuus- ja kapasiteettiarvojen mukaisesti.
 
@@ -18,7 +18,7 @@ Tuotantosolun tai kuormituskeskuksen kalenterin laskemisen perustaksi on ensin m
 
 Seuraavaksi käsitellään tuotantosolun kalenterien määrittämistä. Kuormitusryhmän kalenterit määritetään vastaavasti.  
 
-## Työvuorojen luominen  
+## <a name="to-create-work-shifts"></a>Työvuorojen luominen
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työvuorot** ja valitse sitten vastaava linkki.  
 2.  Anna tyhjälle riville **Koodi**-kenttään numero työvuoron tunnisteeksi (esimerkiksi **1**).  
 3.  Kirjoita työvuoron kuvaus **Kuvaus**-kenttään, esimerkiksi **1. vuoro**.  
@@ -26,7 +26,7 @@ Seuraavaksi käsitellään tuotantosolun kalenterien määrittämistä. Kuormitu
 
 Vaikka tuotantosolussa ei työskenneltäisi eri vuoroissa, syötä ainakin yksi työvuoron koodin.  
 
-## Tuotantokalenterin määrittäminen  
+## <a name="to-set-up-a-shop-calendar"></a>Tuotantokalenterin määrittäminen
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotantokalenterit** ja valitse sitten vastaava linkki.  
 2.  Anna tyhjälle riville **Koodi**-kenttään numero tuotantokalenterin tunnisteeksi (esimerkiksi 1).  
 3.  Kirjoita tuotantokalenterin kuvaus **Kuvaus**-kenttään.  
@@ -60,7 +60,7 @@ Määritettyinä lomapäivinä tuotantosolun kalenterin käytettävissä oleva k
 
 Tuotantokalenteri voidaan nyt liittää tuotantosoluun, ja tuotantosolun kalenteri voidaan laskea. Tuotantosolun kalenteri ohjaa kaikkien toimintojen aikataulutusta kyseisessä tuotantosolussa.  
 
-## Tuotantosolun kalenterin laskeminen  
+## <a name="to-calculate-a-work-center-calendar"></a>Tuotantosolun kalenterin laskeminen
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotantosolut** ja valitse sitten vastaava linkki.
 2. Avaa tuotantosolu, jonka haluat päivittää.  
@@ -88,7 +88,7 @@ Järjestelmä luo (tai päivittää) kalenteritapahtumat, joista näkyy käytett
 
 Laskettu tuotantosolun kalenteri määrittelee nyt, milloin ja kuinka paljon kapasiteettia on saatavilla tässä tuotantosolussa. Tämä ohjaa tuotantosolussa suoritettavaa toimintojen yksityiskohtaista aikataulutusta.  
 
-## Tuotantosolun poissaolojen tallentaminen  
+## <a name="to-record-work-center-absence"></a>Tuotantosolun poissaolojen tallentaminen
 1.  Valitse **Tuotantosolun kalenteri** -sivulla **Näytä matriisi** -toiminto.
 2. Valitse **Tuotantosolun kalenterimatriisi** -sivulla tuotantosolu ja kalenteripäivä, jolle poissaolo halutaan merkitä, ja valitse sitten **Poissaolo**-toiminto.  
 3.  Määritä **Poissaolo**-sivulla poissaolon alkamis- ja päättymisaika kyseisenä päivänä sekä poissaolon kuvaus esimerkiksi seuraavalla tavalla: Esimerkki:  
@@ -99,7 +99,7 @@ Laskettu tuotantosolun kalenteri määrittelee nyt, milloin ja kuinka paljon kap
 
 Valitun päivän kapasiteetti on nyt pienentynyt kalenteriin merkityn poissaoloajan verran.  
 
-## Katso myös  
+## <a name="see-also"></a>Katso myös
 [Peruskalenterien määrittäminen](across-how-to-assign-base-calendars.md)  
 [Tuotantosolujen ja kuormituskeskusten määrittäminen](production-how-to-set-up-work-and-machine-centers.md)  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  

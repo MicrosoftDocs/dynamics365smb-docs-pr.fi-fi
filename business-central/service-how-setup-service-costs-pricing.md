@@ -11,12 +11,12 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ---
 
-# Huollon hintojen ja lisäkustannusten määrittäminen
+# <a name="set-up-pricing-and-additional-costs-for-services"></a>Huollon hintojen ja lisäkustannusten määrittäminen
 Voit käyttää [!INCLUDE[prod_short](includes/prod_short.md)] hinnoitteluominaisuuksia määrittääksesi ja mukauttaaksesi sovellusta niin, että voit käyttää ja säätää palvelunimikkeiden, korjausten ja tilausten hinnoittelun. Nämä hinnoittelupäätökset on sitten helppo siirtää laskutusprosessiin.  
   
 Tarpeen mukaan voit määrittää hinnoitteluryhmiä ja liittää niitä ajanjaksoihin, asiakkaisiin tai valuuttaan. Asiakkaiden huoltosopimusten mukaan voi määrittää kiinteän hinnoittelun sekä vähimmäis- ja enimmäishinnat. Hintojen muutokset voi tarkistaa ja hyväksyä ennen muutosten käyttöönottoa.  
 
-## Huoltohintaryhmien määrittäminen
+## <a name="to-set-up-a-service-price-group"></a>Huoltohintaryhmien määrittäminen
 Voit määrittää huoltonimikkeitä sisältäviä ryhmiä, joissa haluat käyttää samoja erikoishuoltohinnoittelua. Huoltohintaryhmiä määritellään huoltonimikeriveillä oleville huoltonimikkeille. Huoltohintaryhmiä voidaan liittää myös huoltonimikeryhmiin.  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltohintaryhmät** ja valitse sitten vastaava linkki.  
@@ -28,7 +28,7 @@ Voit määrittää huoltonimikkeitä sisältäviä ryhmiä, joissa haluat käytt
  > [!Tip]
  > **Muokkaustyyppi**- ja **Summa**-kenttiä käytetään yhdessä määrittämään, koskeeko muutos kiinteää summaa tai käytetäänkö sitä vain, kun kokonaishuoltohinta ylittää tai alittaa **Summa**-kentän summan.  
 
-## Huoltohintamuutoksen ryhmien määrittäminen  
+## <a name="to-set-up-a-service-price-adjustment-group"></a>Huoltohintamuutoksen ryhmien määrittäminen
 Voit muuttaa huoltonimikkeiden huoltohinnoittelua määrittämällä hinnan muutosryhmän. Voit määrittää esimerkiksi hinnanmuutosryhmiä, jotka muuttavat rahdin tai varaosien hintaa.  
   
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltohintamuutoksen ryhmät** ja valitse sitten vastaava linkki.  
@@ -45,18 +45,18 @@ Voit muuttaa huoltonimikkeiden huoltohinnoittelua määrittämällä hinnan muut
 > [!Tip]
 > Voit lisätä muutosryhmää koskevia lisätietoja valitsemalla **Tiedot**. Voit esimerkiksi määrittää, mikä nimike kuuluu huoltohintamuutoksen ryhmään ja onko se nimike, resurssi, resurssiryhmä vai palvelumaksu.  
 
-## Huollon lisäkustannusten määrittäminen
+## <a name="to-set-up-additional-costs-for-services"></a>Huollon lisäkustannusten määrittäminen
 Kun käsittelet huoltonimikkeitä ja -tilauksia, on ehkä rekisteröitävä lisäkustannuksia, kuten matkakulut tietyille huoltoalueille tai aloitusmaksut. Kun luot huoltotilauksen, voit lisätä nämä kustannukset ja **Kustannus**-tyypin rivi lisätään tilaukseen. Jos puolestaan haluat kohdistaa kustannukset kaikkiin huoltotilauksiin, voit määrittää oletuskustannuksen. Voit esimerkiksi haluta aina käyttää aloitusmaksua.
   
-### Huoltokustannusten määrittäminen
+### <a name="to-set-up-service-costs"></a>Huoltokustannusten määrittäminen
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltokustannukset** ja valitse sitten vastaava linkki. 
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-### Huoltotilausten oletuskustannusten määrittäminen
+### <a name="to-specify-a-default-cost-for-service-orders"></a>Huoltotilausten oletuskustannusten määrittäminen
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huollon asetukset** ja valitse sitten vastaava linkki. 
 2. Valitse **Huoltotilauksen aloituspalkkio** -kentässä sopiva palvelukustannus.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
 [Huoltohallinto](service-service.md)  
 

@@ -8,7 +8,7 @@ ms.search.form: 9027
 ms.date: 08/23/2022
 ms.author: bholtorf
 ---
-# Rahoituslaskelmien analysointi Microsoft Excelissä
+# <a name="analyzing-financial-statements-in-microsoft-excel"></a>Rahoituslaskelmien analysointi Microsoft Excelissä
 
 [!INCLUDE [prod_short](includes/prod_short.md)] tarjoaa suorituskykyilmaisimia ja antaa yleiskatsauksia yrityksesi taloudesta. Seuraavassa on esimerkkejä tavoista analysoida KPI:tä ja yleiskatsauksia Excelissä:
 
@@ -18,7 +18,7 @@ ms.author: bholtorf
 > [!TIP]
 > Excelissä näkyvät raportit on suunniteltu siten, että niiden avulla voidaan analysoida kuluvaa vuotta. Tuloslaskelmaraportti on kuitenkin poikkeus. Raportin avulla voit suodattaa tiedot niin, että ne sisältävät aikaisempien vuosien analyysit.
 
-## Yleiskuvan ja yksityiskohtien tarkastelu Excelissä
+## <a name="getting-the-overview-and-the-details-in-excel"></a>Yleiskuvan ja yksityiskohtien tarkastelu Excelissä
 
 Liiketoimintajohtajan ja kirjanpitäjän roolikeskusten **Raportit**-toiminnon avulla voit valita Excelissä tarkasteltavat tilinpäätökset. Kun valitse raportin, se avautuu Excelissä tai Excel Onlinessa. Apuohjelma yhdistää tiedot [!INCLUDE [prod_short](includes/prod_short.md)]iin. Kirjautumiseen on kuitenkin käytettävä sitä tiliä, jolla [!INCLUDE [prod_short](includes/prod_short.md)]ia käytetään. Seuraavassa taulukossa on luettelo raporteista ja siitä, missä ne ovat saatavilla.  
 
@@ -38,19 +38,19 @@ Oletetaan, että haluat porautua kassavirtaan. Voit avata liiketoimintajohtajan 
 
 Excelissä on välilehti, jossa tiedot on sijoitettu ensimmäiseen työkirjaan. Kaikki viedyt tiedot ovat esillä muissa työkirjoissa, jos satut tarvitsemaan niitä. Voit tulostaa raportin heti tai voit muokata sitä, kunnes käytössä on haluamasi yleiskatsaus ja yksityiskohdat. Voit suodattaa ja analysoida tietoja entistä paremmin [!INCLUDE [prod_short](includes/prod_short.md)]in Excel-apuohjelmalla.  
 
-### Excel-mallien ymmärtäminen
+### <a name="understanding-the-excel-templates"></a>Excel-mallien ymmärtäminen
 
 Esimääritetyt Excel-raportit perustuvat valitun yrityksen tietoihin. Esimerkkiyritys on esimerkiksi määrittänyt tilikarttaan kolme käteistiliä, jotka on lueteltu *Nykyisissä käyttöomaisuuserissä*: 10100 **Sekkitili**, 10200 **Säästötili** ja 10300 **Käteiskassa**. **Tilien alaluokka** -kentän arvoksi on määritetty *Käteinen*, ja niiden yhteenlaskettu summa näkyy *Käteisenä* **Taseen** Excel-raportissa.  
 
 Excel-työkirjan muut taulukot näyttävät raportin taustalla olevat tiedot. Jos haluat tietää, mikä Excel-raporttien ryhmittelyiden perustana on, sinun täytyy ehkä suodattaa [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman luettelot.  
 
-## [!INCLUDE [prod_short](includes/prod_short.md)]in Excel-apuohjelma
+## <a name="the--excel-add-in"></a>[!INCLUDE [prod_short](includes/prod_short.md)]in Excel-apuohjelma
 
 [!INCLUDE [prod_short](includes/prod_short.md)]-kokemus sisältää Excelin apuohjelman. Tilauksen mukaan kirjaudut joko automaattisesti tai sinun on annettava kirjautumistiedot [!INCLUDE [prod_short](includes/prod_short.md)]iin. Lisätietoja on kohdassa [Tarkasteleminen ja muokkaaminen Excelissä Business Centralista](across-work-with-excel.md).  
 
 Apuohjelman ansiosta saat uusimmat tiedot [!INCLUDE [prod_short](includes/prod_short.md)]ista ja voit siirtää muutokset takaisin [!INCLUDE [prod_short](includes/prod_short.md)]iin. Mahdollisuus siirtää tiedostot takaisin tietokantaan ei ole käytöstä tarkasteltavissa Excel-raporteissa.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Näyttäminen ja muokkaaminen Excelissä Business Centralista](across-work-with-excel.md)  
 [Rahoitus](finance.md)  

@@ -8,15 +8,15 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# Vaihekuvaus: Määritä uusi kapasiteetti
+# <a name="walkthrough-set-up-new-capacity"></a>Vaihekuvaus: Määritä uusi kapasiteetti
 
 Tässä artikkelissa on tietoja Contoso Coffee -esittelyn tietojen käytöstä kapasiteetin hallinnassa.  
 
-## Esimerkkitilanne
+## <a name="scenario"></a>Esimerkkitilanne
 
 Olet Contoso Coffeen tuotantosuunnittelija. Vastauksena tuotantokerroksen muutoksiin sinun täytyy määrittää uusi tuotantosolu, testiosasto. Uudessa tuotantosolussa on yksi kuormitusryhmä, testaus. Uusissa keskuksissa täytyy olla kapasiteettikalenteri yksittäiselle vuorolle klo 8-16 maanantaista perjantaihin.  
 
-## Vaiheet
+## <a name="steps"></a>Vaiheet
 
 1. Määritä tuotantosolu.
 
@@ -84,6 +84,6 @@ Olet Contoso Coffeen tuotantosuunnittelija. Vastauksena tuotantokerroksen muutok
 
 **Kalenteritapahtumat**-sivulla **Kapasiteetti (yhteensä)** -kentän päivittäiset kapasiteettitapahtumat ovat 480 minuuttia. Tämä vastaa yhtä 8 tunnin vuoroa jokaiselle työpäivälle. **Kapasiteetti (varsinainen)** -kentässä näkyy myös 432 minuuttia. Tämä ilmaisee kuormitusryhmälle määritetyn 90 prosentin tehokkuusprosentin.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Johdatus Contoson kahvidemotietoihin](../contoso-coffee-intro.md)  

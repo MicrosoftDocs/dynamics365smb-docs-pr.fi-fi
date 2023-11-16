@@ -11,7 +11,7 @@ ms.search.form: '5091, 5093'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="add-contacts-to-segments"></a>Kontaktien lisääminen segmentteihin
+# <a name="adding-contacts-to-segments"></a>Kontaktien lisääminen segmentteihin
 Kun olet luonut segmentin ja syöttänyt sen perustiedot, haluat ehkä lisätä segmenttiin kontakteja. Voit tehdä tämän täyttämällä rivit **Segmentti**-sivulla manuaalisesti, mutta nopeampi ja helpompi tapa on käyttää **Lisää kontakteja**-toimintoa.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Kontaktin lisääminen segmenttiin:

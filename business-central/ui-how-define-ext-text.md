@@ -10,13 +10,13 @@ ms.search.form: '391, 30'
 ms.date: 06/24/2021
 ms.author: bholtorf
 ---
-# Lisätekstin lisääminen
+# <a name="add-extended-text"></a>Lisätekstin lisääminen
 
 Nimikkeiden, varastointiyksiköiden, pääkirjanpitotilien ja resurssien kuvausta voi laajentaa lisäämällä lisärivejä lisätekstinä. Lisärivien käytölle voi määrittää myös ehdot.  
 
 Seuraavassa osassa käsitellään lisätekstin lisäämistä nimikkeen kuvaukseen. Samat ohjeet koskevat myös varastointiyksiköitä, kirjanpitotilejä ja resursseja.  
 
-## Kuvauksen lisätekstin määrittäminen
+## <a name="to-define-extended-text-for-an-description"></a>Kuvauksen lisätekstin määrittäminen
 
 1. Avaa sen nimikkeen kortti, johon lisäteksti lisätään, ja valitse **Lisäteksti**-toiminto.
 2. Täytä **Koodi**- ja **Kuvaus**-kentät.
@@ -29,12 +29,12 @@ Seuraavassa osassa käsitellään lisätekstin lisäämistä nimikkeen kuvauksee
 
 Tämän lisätekstin voi lisätä nyt asiakirjoihin. Seuraavaksi käsitellään tapaa, jolla lisäteksti lisätään myyntilaukseen, mutta lisäteksti määritetään samalla tavalla myös mihin tahansa muuhun asiakirjaan.  
 
-## Laajennetun nimiketekstin lisääminen myyntitilausriville
+## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>Laajennetun nimiketekstin lisääminen myyntitilausriville
 
 1. Avaa sen nimikkeen myyntitilaus ja myyntirivi, jolle on määritetty laajennettu teksti. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).
 2. Valitse kyseinen rivi ja valitse sitten **Syötä lisätekstit** -toiminto.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Varaston määrittäminen](inventory-setup-inventory.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
