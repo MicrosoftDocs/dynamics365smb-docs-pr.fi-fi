@@ -86,7 +86,7 @@ sections:
       - question: |
           Onko minun ostettava Microsoft 365?
         answer: |
-          Nro Jos kuitenkin haluat käyttää Microsoft 365:een täysin integroitua [!INCLUDE[prod_short](includes/prod_short.md)]ia, voit rekisteröityä käyttämään Microsoft 365 -kokeiluversiota maksutta kuukauden ajan [täällä](https://products.office.com/try).  
+          Ei. Jos kuitenkin haluat käyttää Microsoft 365:een täysin integroitua [!INCLUDE[prod_short](includes/prod_short.md)]ia, voit rekisteröityä käyttämään Microsoft 365 -kokeiluversiota maksutta kuukauden ajan [täällä](https://products.office.com/try).  
 
           Jos kirjaudut jollain muulla kuin Microsoft 365 -työtilillä (kuten joe@mysolution.com) ja sinulla on Microsoft 365 -tilaus, voit liittää toimialueen (*mysolution.com*) Microsoft 365 -tilaukseen. Lue lisätietoja kohdasta [Mikä on toimialue?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) Microsoft 365 -sisällössä.  
 

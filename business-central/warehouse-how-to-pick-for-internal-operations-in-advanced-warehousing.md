@@ -101,8 +101,8 @@ Projektin komponentteja voi poimia työnkulussa projektinhallintaan **F.varastoi
 
     |Asetus|Kuvaus|
     |-|-|
-    |Maks. Ei. poimintarivejä|Luo poiminta-asiakirjat, joista jokaisessa on enintään määritetty määrä rivejä.|
-    |Maks. Ei. poiminnan lähdeasiakirjoja|Luo poiminta-asiakirjat, jotka kattavat määritetyn määrän lähdeasiakirjoja.|
+    |Enimm. määrä poimintarivejä|Luo poiminta-asiakirjat, joista jokaisessa on enintään määritetty määrä rivejä.|
+    |Enimm. määrä poiminnan lähdeasiakirjoja|Luo poiminta-asiakirjat, jotka kattavat määritetyn määrän lähdeasiakirjoja.|
     |Määritetty käyttäjätunnus|Luo poiminta-asiakirjat vain työkirjan riveille, jotka on liitetty valittuun varastotyöntekijään.|
     |Järjestämistapa poimintariveille|Rivien lajittelu luodussa poiminta-asiakirjassa tekemällä valinnan käytettävistä olevista vaihtoehdoista.|
     |Aseta erottelusuodatin|Piilottaa poiminnan erottelurivit, kun suurempi mittayksikkö muunnetaan pienemmäksi mittayksiköksi ja poimitaan kokonaan.|

@@ -42,11 +42,11 @@ Kyllä, mutta toisin kuin [!INCLUDE[prod_short](includes/prod_short.md)] online,
 
 ## Onko [!INCLUDE[prod_short](includes/prod_short.md)] on-premises yhteydessä SharePoint Serveriin?
 
-Nro Tätä käyttöönottoyhdistelmää ei tueta, vaikka SharePoint Server olisi sallinut Omat sivustot.  
+Ei. Tätä käyttöönottoyhdistelmää ei tueta, vaikka SharePoint Server olisi sallinut Omat sivustot.  
 
 ## Onko [!INCLUDE[prod_short](includes/prod_short.md)] online yhteydessä SharePoint Serveriin?
 
-Nro Tätä käyttöönottoyhdistelmää ei tueta, vaikka SharePoint Server olisi sallinut Omat sivustot.  
+Ei. Tätä käyttöönottoyhdistelmää ei tueta, vaikka SharePoint Server olisi sallinut Omat sivustot.  
 
 ## Miten tämä toimii organisaatiossa, jossa on useampia ympäristöjä?
 

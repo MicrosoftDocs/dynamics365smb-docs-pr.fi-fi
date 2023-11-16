@@ -123,7 +123,7 @@ Kokoonpanotilauksia luotaessa käytetään Kun luot kokoonpano tilauksia, käyte
 |Kenttä  |Annettava arvo  |
 |---------|---------|
 |Tyyppi |Nimike |
-|Ei. |Alkuperäisen nimikkeen numero. |
+|Nro |Alkuperäisen nimikkeen numero. |
 |Määrä per |1 |
 |Varianttikoodi |Sama kuin inventointipäiväkirjassa. |
 |Sijaintikoodi  |Sama kuin inventointipäiväkirjassa. |

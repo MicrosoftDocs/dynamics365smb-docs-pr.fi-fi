@@ -190,7 +190,7 @@ Seuraavassa toimenpiteessä luot projektipäiväkirjan erän Mariannea varten, j
 
 2. Luo suunnittelurivit, joissa on seuraavat tiedot:  
 
-    | Rivi | Rivityyppi | Suunnittelupäivämäärä  | Tyyppi        | Ei.   | määrä | Yksikköhinta |
+    | Rivi | Rivityyppi | Suunnittelupäivämäärä  | Tyyppi        | Nro   | määrä | Yksikköhinta |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Sekä budjetti että laskutettava | (kuluvan päivän päivämäärä) | Resurssi | Marianne | 40        |     |
     | 2    | Sekä budjetti että laskutettava | (kuluvan päivän päivämäärä) | Resurssi | Teemu | 40        |     |
@@ -199,7 +199,7 @@ Seuraavassa toimenpiteessä luot projektipäiväkirjan erän Mariannea varten, j
      Sulje sivu. Summat on päivitetty **Projektitehtävärivit**-sivulla.  
 3. Valitse ensin rivi 1020 ja sitten **Projektin suunnittelurivit** -toiminto. Lisää seuraavat tiedot:  
 
-    | Rivi | Rivityyppi | Suunnittelupäivämäärä  | Tyyppi        | Ei.   | määrä | Yksikköhinta |
+    | Rivi | Rivityyppi | Suunnittelupäivämäärä  | Tyyppi        | Nro   | määrä | Yksikköhinta |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Sekä budjetti että laskutettava | (kuluvan päivän päivämäärä) | Resurssi | Marianne | 80        |     |
     | 2    | Sekä budjetti että laskutettava | (kuluvan päivän päivämäärä) | Nimike | 80201 (Grafiikkaohjelma) | 1 |     |
@@ -272,7 +272,7 @@ Rivit kirjataan.
 
 4. Valitse **Projektitehtävärivit**-sivulla ensin rivi 1120 ja sitten **Projektin suunnittelurivit** -toiminto. Luo suunnittelurivi, jossa on seuraavat tiedot:  
 
-    | Rivi | Rivityyppi | Tyyppi        | Ei.   | määrä |
+    | Rivi | Rivityyppi | Tyyppi        | Nro   | määrä |
     |------|-----------|-------------|-------|----------|
     | 1    | Sekä budjetti että laskutettava  | Resurssi | Marianne | 30 |
 
@@ -413,7 +413,7 @@ Seuraavissa ohjeissa neuvotaan, miten luot uuden projektin, asetat hinnoittelun 
 
 6. Luo suunnittelurivi, jossa on seuraavat tiedot:  
 
-    | Rivi | Rivityyppi | Suunnittelupäivämäärä  | Tyyppi        | Ei.   | määrä | Yksikköhinta |
+    | Rivi | Rivityyppi | Suunnittelupäivämäärä  | Tyyppi        | Nro   | määrä | Yksikköhinta |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Laskutettava  | (kuluvan päivän päivämäärä) | KP-tili | 40255 | 1        | 5000       |
 
@@ -423,7 +423,7 @@ Seuraavissa ohjeissa neuvotaan, miten luot uuden projektin, asetat hinnoittelun 
 
 8. Luo suunnittelurivi, jossa on seuraavat tiedot:
 
-    | Rivi | Rivityyppi | Suunnittelupäivämäärä  | Tyyppi     | Ei.    | määrä |
+    | Rivi | Rivityyppi | Suunnittelupäivämäärä  | Tyyppi     | Nro    | määrä |
     |------|-----------|----------------|----------|--------|----------|
     | 1    | Budjetti    | (kuluvan päivän päivämäärä) | Resurssi | Marianne | 120      |
     | 2    | Budjetti    | (kuluvan päivän päivämäärä) | Nimike     | 70104  | 10       |
@@ -434,7 +434,7 @@ Seuraavissa ohjeissa neuvotaan, miten luot uuden projektin, asetat hinnoittelun 
 
 10. Luo suunnittelurivi, jossa on seuraavat tiedot:
 
-    | Rivi | Rivityyppi | Suunnittelupäivämäärä   | Tyyppi        | Ei.   | määrä | Yksikköhinta |
+    | Rivi | Rivityyppi | Suunnittelupäivämäärä   | Tyyppi        | Nro   | määrä | Yksikköhinta |
     |------|-----------|-----------------|-------------|-------|----------|------------|
     | 1    | Laskutettava  | (tuleva päivämäärä) | KP-tili | 40255 | 1        | 5000       |
 

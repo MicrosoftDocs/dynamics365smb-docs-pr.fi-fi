@@ -61,7 +61,7 @@ sections:
       - question: |
           Voiko vieraskäyttäjät käyttää Business Central -ratkaisua sovelluksen avulla?
         answer: |
-          Nro Vieraskäyttäjät ovat jostain muusta kuin omasta Microsoft Entra -vuokraajasta kutsuttuja käyttäjiä. Tässä tapauksessa sovellus todennetaan vieraskäyttäjän ensisijaiseen Microsoft Entra -vuokraajaan. Kokeile Business Central -päätepisteen avaamista kyseisessä vuokraajassa oman vuokraajan sijaan.  
+          Ei. Vieraskäyttäjät ovat jostain muusta kuin omasta Microsoft Entra -vuokraajasta kutsuttuja käyttäjiä. Tässä tapauksessa sovellus todennetaan vieraskäyttäjän ensisijaiseen Microsoft Entra -vuokraajaan. Kokeile Business Central -päätepisteen avaamista kyseisessä vuokraajassa oman vuokraajan sijaan.  
 additionalContent: |
 
   ## Katso myös

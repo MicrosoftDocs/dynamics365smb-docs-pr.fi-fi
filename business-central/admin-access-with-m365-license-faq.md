@@ -41,7 +41,7 @@ Kyllä. Käyttöoikeuksien joukkojen lisääminen Microsoft Teamsin sisäiset k�
 
 ### Kun Business Central -käyttäjä jakaa tietueiden Teamsissa, myöntääkö hän uusia käyttöoikeuksia?
 
-Nro Tämä toiminto ei ole sama asia kuin linkin jakaminen SharePoint -asiakirjaan, jolloin asiakirjan jakava henkilö voi halutessaan myöntää käyttöoikeuden muille käyttäjille. Vain järjestelmänvalvojat voivat määrittää ja kohdistaa käyttöoikeuksia Business Centralissa. Verrattaessa SharePoint-asiakirjojen jakamiseen, se vastaa ”Jaa henkilöille, joilla on olemassa oleva käyttöoikeus” -vaihtoehdon valitsemista.
+Ei. Tämä toiminto ei ole sama asia kuin linkin jakaminen SharePoint -asiakirjaan, jolloin asiakirjan jakava henkilö voi halutessaan myöntää käyttöoikeuden muille käyttäjille. Vain järjestelmänvalvojat voivat määrittää ja kohdistaa käyttöoikeuksia Business Centralissa. Verrattaessa SharePoint-asiakirjojen jakamiseen, se vastaa ”Jaa henkilöille, joilla on olemassa oleva käyttöoikeus” -vaihtoehdon valitsemista.
 
 ### Tukeeko tämä ominaisuus rivitason suojausta?
 
@@ -95,7 +95,7 @@ PK-yritykset ostavat Dynamics 365 Business Centralin usein yhdessä Microsoft 36
 
 ### Onko se täysin ilmainen?
  
-Nro Business Central -tietojen käyttäminen Microsoft Teamsissa edellyttää, että jokaisella käyttäjällä on joko Business Central -käyttöoikeus tai tuettujen suunnitelmien luettelossa mainittu Microsoft 365 -käyttöoikeus.
+Ei. Business Central -tietojen käyttäminen Microsoft Teamsissa edellyttää, että jokaisella käyttäjällä on joko Business Central -käyttöoikeus tai tuettujen suunnitelmien luettelossa mainittu Microsoft 365 -käyttöoikeus.
 
 ### Toimiiko tämä Microsoft 365- ja Business Central -kokeiluversioissa?
 
