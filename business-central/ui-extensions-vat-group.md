@@ -160,6 +160,18 @@ Kun ryhmän edustaja on lähettänyt ryhmän ALV-ilmoituksen viranomaisille, hä
 > [!IMPORTANT]
 > ALV-ryhmien toimintoa tuetaan vain niillä markkina-alueilla, joissa [!INCLUDE[prod_short](includes/prod_short.md)] käyttää ALV-palautuksista ja ALV-palautusjaksoista koostuvaa ALV-kehystä. Et voi käyttää ALV-ryhmiä markkina-alueilla, joilla on muita paikallisen ALV-raportoinnin toteutuksia, kuten Espanja, Italia, Itävalta, Saksa ja Sveitsi.
 
+## Ongelma monivaiheisen todennuksen (MFA) käyttöönotossa
+
+Jos saat valtuutukseen liittyvän virhesanoman **OAuth2-tunnuksen** uusimisen aikana **ALV-raportin asetukset** -sivulla, kun olet ottanut MFA:n käyttöön, suorita seuraavat vaiheet.  
+
+1. Kirjaudu **Azure-portaaliin** todennuksen järjestelmänvalvojana.  
+2. Siirry kohtaan **Microsoft Entra ID**.   
+3. Siirry kohtaan **Käyttäjät** ja valitse sitten käyttäjä, jolle haluat tehdä toimen.  
+4. Valitse **todennusmenetelmät** ja valitse sivun yläosassa **Vaadi monitasoisen käyttöoikeuksien uudelleenrekisteröinti**. 
+5. Palaa takaisin Dynamics 365 Business Centraliin ja valitse, että tunnus uusitaan **ALV-raportin asetuksista**.  
+
+Tämän pitäisi olla määritetty kerran sen jälkeen, kun olet ottanut käyttöön monitasoisen todennuksen **ALV-raportin asetuksissa** valitulle käyttäjälle.  
+
 ## Katso myös
 
 [Yhdistyneen kuningaskunnan paikallinen toiminnallisuus brittiversiossa](LocalFunctionality/unitedkingdom/united-kingdom-local-functionality.md)  

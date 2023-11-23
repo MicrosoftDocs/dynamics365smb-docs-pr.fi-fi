@@ -14,16 +14,6 @@ ms.custom: bap-template
 
 Jos ostat tai myyt nimikkeitä, joissa sinä sekä toimittaja tai asiakas käyttävät erilaisia ehtoja, nimikkeiden ehtojen ja kyseisen nimikkeen asiakkaan tai toimittajan käyttämien ehtojen välille voidaan määrittää viittaus. Tällä tavoin toimittajan tai asiakkaan nimikkeen kuvaus, mittayksikkö tai varianttikoodi lisätään automaattisesti soveltuviin asiakirjoihin, kun tiedot annetaan **Nimikeviittauksen nro** -kentässä.  
 
-> [!NOTE]
-> Kaikki yritykset eivät käytä nimikeviitteitä. Sivut pidetään mahdollisimman selkeinä piilottamalla liittyvät kentät ja toiminnot oletusarvoisesti. Jos päätät käyttää niitä, valitse **Käytä nimikeviitteitä** -kenttä **Varastonhallinnan asetukset** -sivulla. Kun nimikeviitteet on otettu käyttöön, kentät ja toiminnot ovat käytettävissä nimikekortin, toimittajakortin ja asiakaskortin sivuilla sekä myynti- ja ostoasiakirjoissa.
->
-> Vuoden 2021 2. julkaisuaaltoa edeltävissä versioissa järjestelmänvalvoja voi ottaa käyttöön *Kirjoita pidempiä viitteitä* -ominaisuuden [Ominaisuuksien hallinta](https://businesscentral.dynamics.com/?page=2610) -sivulla (linkki edellyttää, että sinulla on [!INCLUDE [prod_short](includes/prod_short.md)] -vuokraaja). Viittausten käyttö ei muutu, mutta sivujen ja painikkeiden kaltaisten asioiden nimet muuttuvat. Esimerkiksi **Nimikkeen ristiviittaustapahtumat** -sivulta tulee **Nimikkeen viitetapahtumat** -sivu.
-
-## Voit alkaa käyttää nimikeviitteitä seuraavasti
-
-1. Valitse :::image type="icon" source="media/ui-search/search_small.png" border="false":::-kuvake, kirjoita **Varastonhallinnan asetukset** ja valitse sitten liittyvä linkki.
-2. Valitse **Käytä nimikeviittauksia** -kenttä.
-
 ## Nimikeviittauksen määrittäminen
 
 1. Valitse :::image type="icon" source="media/ui-search/search_small.png" border="false":::-kuvake, kirjoita **Nimikkeet** ja valitse sitten liittyvä linkki.

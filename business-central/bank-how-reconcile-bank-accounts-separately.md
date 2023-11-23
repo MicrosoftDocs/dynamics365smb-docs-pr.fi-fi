@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/04/2023
+ms.date: 10/24/2023
 ms.custom: bap-template
 ---
 # Pankkitilien täsmäytys
@@ -22,9 +22,15 @@ Voit kuitenkin myös täsmäyttää pankkitilejä **Maksujen täsmäytyskirjausk
 
 **Pankkitilin täsmäytys** -sivun rivit jaetaan kahteen ruutuun. **Pankin tiliotteen rivit** -ruudussa näkyvät joko tuodut pankkitapahtumat tai tapahtumat, joilla on avoimia maksuja. **Pankkitilitapahtumat**-ruudussa näkyvät sisäisen pankkitilin tapahtumat.
 
-Pankkitapahtumien täsmäytystä sisäisten pankkitapahtumien kanssa [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa kutsutaan *kohdistukseksi*. Tapahtumia voi täsmäyttää pankkitapahtumien kanssa kahdella tavalla:
+## Tietoja pankkitilin täsmäytyksestä 
+
+Pankkitapahtumien täsmäytystä sisäisten pankkitapahtumien kanssa [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa kutsutaan *kohdistukseksi*. Tapahtumia voi täsmäyttää pankkitapahtumien kanssa kolmella tavalla:
 
 * Automaattisesti **Kohdista automaattisesti** -toiminnon avulla.
+
+* Automaattisesti käyttämällä **Täsmäytä Copilotin avulla** -toimintoa.
+
+  Tämä toiminto on käytettävissä osana pankkitilin täsmäytysavustaja (esiversio) -ominaisuutta, joka on tekoälypohjainen ominaisuus. [Lisätietoja pankkitilin täsmäytysavustajasta](bank-reconciliation-with-copilot.md).
 * Manuaalisesti valitsemalla rivit molemmissa ruuduissa linkittääksesi jokaisen tilioterivin yhteen tai useampaan pankkitilin kirjanpitotapahtumaan ja käyttää sitten **Kohdista manuaalisesti** -toimintoa.
 
 Jos rivi sisältää kohdistettavia tapahtumia, rivin **Kohdistettu**-valintaruutu valitaan. Lisätietoja on kohdassa [Määritä sääntöjä maksujen automaattiselle soveltamiselle](receivables-how-set-up-payment-application-rules.md). Jos syötät tiliotteen lopetuspäivämäärän pankkitilin täsmäytyksessä sen jälkeen, kun olet täsmäyttänyt sen riveihin, joilla on tapahtumia, [!INCLUDE [prod_short](includes/prod_short.md)] kumoaa vastaavat rivit ja tapahtumat, jotka ovat kyseisen päivämäärän jälkeen.
@@ -49,7 +55,7 @@ Voit täyttää **Pankin tiliotteen rivit** -ruudun **Pankkitilin täsmäytys** 
 * Automaattisesti käyttämällä **Tuo pankin tiliote** -toimintoa täyttämään **Pankin tiliotteen rivit** -ruutu pankkitapahtumilla tuodun tiedoston tai pankin tarjoaman tietovirran mukaisesti.
 * Manuaalisesti **Ehdota rivejä** -toiminnolla täyttämään **Pankin tiliotteen rivit** -ruutu niiden kohteessa [!INCLUDE[prod_short](includes/prod_short.md)] olevien laskujen mukaisesti, joilla on maksamattomia maksuja.
 
-## Pankin tiliotteen rivien lisääminen tiliotteen tuomisen avulla
+## Lisää pankin tiliotteen rivejä tiliotteen tuomisen avulla
 
 **Pankin tiliotteen rivit** -ruutu täytetään pankkitapahtumilla tuodun tiedoston tai pankin antaman tietovirran mukaan.
 
@@ -80,9 +86,9 @@ Kun haluat tuoda tiliotteet pankkisyötteiksi, sinun täytyy määrittää Enves
 4. Jos et halua, että pankkitilitapahtumissa on avoimia peruutettuja avoimia tapahtumia, valitse **Ohita peruutetut tapahtumat** -vaihto. Pankkitilitapahtumien luetteloon sisällytetään oletusarvoisesti peruutetut tapahtumat tiliotteen päivämäärään asti.
 5. Valitse **OK**-painike.
 
-## Pankin tiliotteen rivien ja pankkitilitapahtumien kohdistaminen automaattisesti
+## Kohdista pankin tiliotteen rivejä ja pankkitilitapahtumia automaattisesti
 
-Sivu **Pankkitilin täsmäytys** tarjoaa automaattisen vastaavuustoiminnon, joka kohdistaa maksut niihin liittyviin avoimiin tapahtumiin pankin tiliotteen rivillä (vasemmassa ruudussa) olevan tekstin vastaavuuden perusteella verrattuna yhden tai useamman pankkitilitapahtuman (oikealla puolella) tekstiin. Ehdotetut automaattiset kohdistukset voidaan korvata toisilla. Voit myös olla käyttämättä automaattista kohdistusta. Lisäohjeita on kohdassa [Pankin tiliotteen rivien ja pankkitilin tapahtumien kohdistaminen manuaalisesti](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
+Sivu **Pankkitilin täsmäytys** tarjoaa automaattisen vastaavuustoiminnon, joka kohdistaa maksut niihin liittyviin avoimiin tapahtumiin pankin tiliotteen rivillä (vasemmassa ruudussa) olevan tekstin vastaavuuden perusteella verrattuna yhden tai useamman pankkitilitapahtuman (oikealla puolella) tekstiin. Ehdotetut automaattiset kohdistukset voidaan korvata toisilla. Voit myös olla käyttämättä automaattista kohdistusta. Lisäohjeita on kohdassa [Kohdista pankin tiliotteen rivejä ja pankkitilin tapahtumia manuaalisesti](#match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
 Voit tutkia vastaavuuksien perusteita käyttämällä **Vastaavuuden tiedot** -toimintoa. Tiedot sisältävät esimerkiksi niiden kenttien nimet, jotka sisälsivät vastaavat arvot.  
 
@@ -98,7 +104,7 @@ Voit tutkia vastaavuuksien perusteita käyttämällä **Vastaavuuden tiedot** -t
 > [!TIP]
 > Voit yhdistellä manuaalista ja automaattista vastaavuutta. Jos olet täsmäyttänyt manuaalisesti, automaattinen täsmäytyksen toiminto ei korvaa valittuja kohteita.
 
-## Pankin tiliotteen rivien ja pankkitilitapahtumien kohdistaminen manuaalisesti
+## Kohdista pankin tiliotteen rivejä ja pankkitilitapahtumia manuaalisesti
 
 > [!TIP]
 > Kun rivit ja tapahtumat täsmäytetään manuaalisesti, **Näytä kaikki**, **Näytä peruutetut tapahtumat**, **Piilota peruutetut tapahtumat** ja **Näytä ei-kohdistetut** -toiminnot helpottavat yleiskuvauksen saamista. Oletusarvon mukaan pankkitilitapahtumat eivät sisällä täsmäyttämättömiä peruutettuja tapahtumia. Jos haluat sisällyttää nämä tapahtumat luetteloon ja sovittaa ne manuaalisesti, valitse **Näytä peruutetut tapahtumat** -toiminto. Jos haluat piilottaa peruutetut tapahtumat sen jälkeen, kun olet tehnyt yhden tai useampia vastaavuuksia, vastaavat tapahtumat näkyvät edelleen.
@@ -123,7 +129,7 @@ Voit tutkia vastaavuuksien perusteita käyttämällä **Vastaavuuden tiedot** -t
 > [!TIP]
 > Voit poistaa kohdistuksen valitsemalla pankin tiliotteen rivin ja valitsemalla sitten **Poista kohdistus** -toiminto. Jos olet täsmäyttänyt useita pankin tiliotteen rivejä yhteen tapahtumaan ja haluat poistaa yhden tai useamman täsmäytetyn rivin, kaikki manuaaliset vastaavuudet poistetaan tapahtumakirjauksesta, kun valitset **Poista vastaavuus**.
 
-## Pankkitilin täsmäytyksen vahvistaminen
+## Vahvista pankkitilin täsmäytys
 
 Jos haluat tarkistaa pankkitilin täsmäytyksen ennen kirjausta, voit käyttää **testiraportti**-toimintoa täsmäytyksen esikatseluun. Raportti on käytettävissä seuraavissa yhteyksissä:
 
@@ -239,10 +245,12 @@ Jos teet seuraavan pankkitäsmäytyksen elokuun osalta, harkitse arvojen muuttam
 
 Tämä virhe tapahtuu usein, kun syötät avaussaldon pankkitilille. On tärkeää, että et kirjaa alkusaldoa suoraan pääkirjanpitoon. KP-tilin tapahtumat, jotka kirjataan suoraan KP-tilille, aiheuttavat ongelmia. Nämä tapahtumat voivat esimerkiksi estää sinua täsmäyttämästä pankkitiliäsi. Ulkomaan valuutan pankkitileille tapahtumat voivat aiheuttaa eroja kertymiseen sen jälkeen, kun olet kirjannut lisää pankkitäsmäytyksiä valuutanvaihtokurssien muutosten vuoksi. Usein pankin avaussaldo kirjataan suoraan pankkitilille, ja summa päätyy KP-tiliin. Voit vaihtoehtoisesti kumota sen myöhemmin sellaisen KP-tilin osalta, jota käytät pääkirjanpidon avaussaldon tasapainottamista varten. Molemmissa tapauksissa sinun on tasapainotettava mahdolliset suorat kirjaukset KP-tiliin ennen ensimmäisen pankkitäsmäytyksen aloittamista ja erityisesti silloin, kun pankkitili käyttää ulkomaan valuuttaa.
 
+
 ## Katso myös
 
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  
-[Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
+[Pankkitilien täsmäyttäminen pankkitilin täsmäytysavustajan avulla (esiversio)](bank-reconciliation-with-copilot.md)
+[Maksujen automaattinen kohdistaminen ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  
 [Automaattinen maksujen soveltamisen sääntöjen määrittäminen](receivables-how-set-up-payment-application-rules.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
