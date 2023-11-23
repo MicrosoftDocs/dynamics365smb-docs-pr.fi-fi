@@ -17,7 +17,7 @@ ms.author: jswymer
 
 Näistä tiedoista on hyötyä suorituskykyongelmien vianmäärityksessä, sillä se näyttää tietojen koon jakautumisen eri taulukoissa.
 
-## <a name="viewing-table-information-1"></a>Näyttää taulukon tiedot
+## <a name="view-table-information"></a>Näyttää taulukon tiedot
 
 Avaa tämä sivu valitsemalla ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Taulukon tiedot** ja valitse sitten vastaava linkki.
 

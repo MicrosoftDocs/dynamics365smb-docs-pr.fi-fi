@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: 7775
 ---
 
-# Copilotin ja tekoälyn ominaisuuksien määrittäminen 
+# <a name="configure-copilot-and-ai-capabilities"></a>Copilotin ja tekoälyn ominaisuuksien määrittäminen
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
@@ -34,12 +34,12 @@ Tässä artikkelissa kerrotaan, miten voit hallita käyttäjien pääsyä Copilo
 
 Jos jokin näistä vaatimuksista ei täyty, ominaisuus ei ole käytettävissä.
 
-## Vaatimukset
+## <a name="prerequisites"></a>Vaatimukset
 
 - Käytät Business Central online -versiota 23.1 tai sitä uudempaa. <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
 - Sinulla on Business Centralin järjestelmänvalvojan tai pääkäyttäjän käyttöoikeudet.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
 
-## Suostumus esiversioon ja tietosuojaehtoihin
+## <a name="allow-data-movement-across-geographies"></a>Suostumus esiversioon ja tietosuojaehtoihin
 
 Hyväksy [Esiversion](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) ehdot ja [Microsoftin tietosuojalauseke](https://go.microsoft.com/fwlink/?LinkId=521839) organisaation puolesta. Toisin kuin muiden toimintojen ja palveluiden tietosuojailmoitukset, vain järjestelmänvalvojat voivat antaa suostumuksensa Azure OpenAI:n käyttöön organisaation puolesta. Käyttäjät eivät voi päättää itse.   
 
@@ -47,7 +47,7 @@ Hyväksy [Esiversion](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-
 2. Valitse **integrointinimi**-sarakkeessa **Azure OpenAI**ja lue sitten sinulle esitettävät käyttöehdot.
 3. Valitse **Azure OpenAI** -rivillä **hyväksy kaikille** -valintaruutu, jos haluat hyväksyä tai **hylätä kaikille** valintaruudun valinnan.
 
-## Ota ominaisuus käyttöön Ominaisuuksien hallinnassa
+## <a name="activate-features"></a>Ota ominaisuus käyttöön Ominaisuuksien hallinnassa
 
 **Ominaisuuksien hallinnan** avulla voit ottaa käyttöön tai poistaa käytöstä esiversiossa olevia toimintoja, kuten pankkitilien täsmäytyksen, sekä joitain yleisesti saatavilla olevia ominaisuuksia, kuten nimikemarkkinointiehdotuksia. [Lue lisää Ominaisuuksien hallinnasta](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -59,7 +59,7 @@ Hyväksy [Esiversion](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-
 
    Saat lisätietoja ominaisuuksien hallinnasta yleisesti siirtymällä [Ominaisuuksien hallintaan](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-## Salli tietojen siirto eri maantieteellisillä alueilla
+## <a name="enable-feature-in-feature-management"></a>Salli tietojen siirto eri maantieteellisillä alueilla
 
 Tämä tehtävä on käytössä vain, jos **Salli tiedonsiirto** -kytkin tulee näkyviin **Copilot ja tekoälytoiminnot** -sivun yläosan lähelle. **Salli tiedonsiirto** -kytkimellä ilmaistaan, että Business Central -ympäristösi sijainti eli maantieteellinen sijainti, jossa tietoja käsitellään ja tallennetaan, ei ole sama kuin Copilotin käyttämä Azure OpenAI Servicen maantieteellinen sijainti. Jos haluat ottaa Copilotin käyttöön, tietojen siirto maantieteellisten sijaintien välillä on sallittu. Lisätietoja tietojen siirtämisestä on kohdassa [Copilot-tietojen siirtäminen maantieteellisillä alueilla](ai-copilot-data-movement.md). 
 
@@ -92,7 +92,7 @@ Copilot and other AI capabilities use Azure OpenAI Service.  and are provided by
 Meanwhile, customers with environments outside the United States can use Copilot AI features by opting in to share relevant data with the Azure OpenAI Service in United States or Switzerland.
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
-## Aktivoi ominaisuuksia
+## <a name="granting-user-access"></a>Aktivoi ominaisuuksia
 
 **Copilotin ja tekoälyn ominaisuudet** -sivulla voit ottaa kaikki ominaisuudet käyttöön kaikille käyttäjille tai poistaa ne käytöstä.
 
@@ -106,14 +106,14 @@ The information in the following table outlines the Azure OpenAI service that's 
    - Voit poistaa ominaisuuden käytöstä valitsemalla sen luettelosta ja valitsemalla valintanauhassa **Deaktivoi**. 
 
 
-## Seuraavat vaiheet
+## <a name="next-steps"></a>Seuraavat vaiheet
 
 Kun olet ottanut ominaisuudet käyttöön ja antanut niihin suostumuksesi, voit kokeilla niitä. Mene kohtaan:
 
 - [Markkinointitekstin lisääminen nimikkeille](item-marketing-text.md) 
 - [Täsmäyttäminen pankkitilien täsmäytysavustajan avulla](bank-reconciliation-with-copilot.md) 
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Markkinointitekstiehdotusten yleiskatsaus](ai-overview.md)   
 [Markkinointitekstiehdotusten UKK](faqs-marketing-text.md)  
