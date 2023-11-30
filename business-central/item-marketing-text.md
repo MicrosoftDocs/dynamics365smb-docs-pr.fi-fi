@@ -132,6 +132,7 @@ Voit parantaa tekstiehdotuksia ja nipistää niitä henkilökohtaisten tai yrity
 ## Katso myös
 
 [Markkinointitekstiehdotusten yleiskatsaus](ai-overview.md)  
+[Copilot- ja tekoälyominaisuuksien vianmääritys](ai-copilot-troubleshooting.md)  
 [Markkinointitekstiehdotusten UKK](faqs-marketing-text.md)  
-[Copilotin ja tekoälyn ominaisuuksien määrittäminen](enable-ai.md)  
+[Copilot- ja tekoälyominaisuuksien määrittäminen](enable-ai.md)  
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  

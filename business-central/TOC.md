@@ -7,7 +7,6 @@
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Lisätietoja
 ### [Käyttäjien resurssit](resources-for-users.md)
-### [Business Central -opintoluettelo](readiness/readiness-learning-catalog.md)
 ### [Business Centralin koulutus](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Liiketoimintaprosessien vaihekuvaukset
 #### [Käytettävissä olevat vaihekuvaukset](walkthrough-business-process-walkthroughs.md)
@@ -116,13 +115,6 @@
 ### [Itsepalvelua varten rekisteröitymisen vianmääritys](ui-troubleshoot-self-signup.md)
 ### [Kokeilujakson jatkaminen](admin-extend-trial.md)
 ### [Business Centralin poistaminen tai tilauksen peruuttaminen](admin-cancel.md)
-### Nimikkeen tekoälypohjainen markkinointiteksti ja Copilot
-#### [Yleiskatsaus](ai-overview.md)
-#### [Esiversion hankkiminen](ai-preview-getstarted.md)
-#### [Nimikkeen tekoälypohjaisen markkinointitekstin määrittäminen](enable-ai.md)
-#### [Nimikkeen tekoälypohjaisen markkinointitekstin luominen](item-marketing-text.md)
-#### [Usein kysytyt kysymykset](ai-faq.md)
-
 ## Ostaminen
 ### [Tilauksen käytön aloittaminen](trial-signup.md#get-started-with-a-subscription)
 ### [Liiketoimintaan valmistautuminen](ui-get-ready-business.md)
@@ -216,19 +208,6 @@
 ### [Microsoftin videokirjastoon tutustuminen](across-videos.md)
 ### [Teknisen tuen pyytäminen](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
-<!--## Microsoft Learn training
-### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
-### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Functionality Learning Paths](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
-### Resources for a Business Decision Maker
-#### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Business User
-#### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Developer
-#### [Learning catalog](readiness/readiness-learning-developers.md)
-#### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
 # Yrityksen toiminnot
 ## [Yleiskatsaus yrityksen toiminnoista](across-business-functionality.md)
 <!--general-->
@@ -251,6 +230,7 @@
 ### [Työjonojen käyttäminen tehtävien ajoittamisessa](admin-job-queues-schedule-tasks.md)
 ### [Business Central ehdottaa arvoja](ui-let-system-suggest-values.md)
 ### [Sijaintien ja reittiohjeiden etsiminen online-karttojen avulla](across-online-maps.md)
+### [Digitaalisten tositteiden määrittäminen](across-how-setup-digital-vouchers.md)
 
 ### Saapuvat asiakirjat
 #### [Saapuvien asiakirjojen yleiskatsaus](across-income-documents.md)
@@ -379,6 +359,7 @@
 ### Pankkitilien täsmäyttäminen
 #### [Pankkitilin täsmäytyksen yleiskatsaus](bank-manage-bank-accounts.md)
 #### [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md)
+#### [Pankkitilien täsmäyttäminen Copilotin avulla (esiversio)](bank-reconciliation-with-copilot.md)
 #### [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 
 ### Konsernin tapahtumien hallinta
@@ -888,10 +869,12 @@
 
 ### Tanska
 #### [Paikalliset toiminnot Tanskan versiossa](LocalFunctionality/Denmark/denmark-local-functionality.md)
+#### [Ilmoittaminen ja rekisteröinti NemHandelsregisteretille Tanskassa](localfunctionality/denmark/how-to-nemhandel-register.md)
 #### ALV
 ##### [ALV-täsmäytysraporttien tulostaminen](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [ALV-raportit](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ##### [Intrastatin ALV-rekisterinumeron asetukset](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
+##### [ALV-palautusten lähettäminen sähköisesti](localfunctionality/denmark/how-to-evat-statement-dk.md)
 #### Pankkitoiminta ja maksut
 ##### [Maksujen täsmäytyskirjauskansion FIK-tiedot](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [Maksujen ja täsmäytysten (DK) laajennus](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -903,6 +886,8 @@
 ##### [OIOUBL-muotoisten sähköisten asiakirjojen luominen](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
 #### Palkat
 ##### [Palkanlaskentatietojen määritykset (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
+#### Digitaaliset tositteet
+##### [Digitaalisten tositteiden määrittäminen Tanskassa](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
 ### Suomi
 #### [Paikalliset toiminnot Suomen versiossa](LocalFunctionality/Finland/finland-local-functionality.md)
@@ -1577,7 +1562,6 @@
 #### [Varastointiyksiköiden määrittäminen](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Nimikkeiden luokitteleminen](inventory-how-categorize-items.md)
 #### [Useiden nimikekuvien tuominen](inventory-how-import-item-pictures.md)
-#### [Nimikkeen tekoälypohjaisen markkinointitekstin määrittäminen Copilotin avulla](enable-ai.md)
 ### Projektienhallinnan määrittäminen
 #### [Projektien määrittäminen](projects-setup-projects.md)
 #### [Resurssien määrittäminen](projects-how-setup-resources.md)
@@ -1841,6 +1825,18 @@
 #### [Raporttien kehittämisopas](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Raporttien suorituskyvyn hienosäätöopas](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
+# Copilot- ja tekoälyominaisuudet
+## Copilot- ja tekoälyominaisuuksien hallinta
+### [Copilot- ja tekoälyominaisuuksien määrittäminen](enable-ai.md)
+### [Copilot-tietojen siirtäminen maantieteellisten alueiden välillä](ai-copilot-data-movement.md)
+### [Copilot- ja tekoälyominaisuuksien vianmääritys](ai-copilot-troubleshooting.md)
+## Pankkitilin täsmäytyksen avustaja (esiversio)
+### [Pankkitilien täsmäyttäminen Copilotin avulla](bank-reconciliation-with-copilot.md)
+### [Pankkitilin täsmäytyksen avustajan usein kysytyt kysymykset](faqs-bank-reconciliation.md)
+## Markkinointitekstiehdotukset
+### [Markkinointitekstiehdotusten yleiskatsaus](ai-overview.md)
+### [Markkinointitekstin luominen Copilotin avulla](item-marketing-text.md)
+### [Markkinointitekstiehdotusten usein kysytyt kysymykset](faqs-marketing-text.md)
 
 # Tietoturva, yhteensopivuus ja suojaus
 ## Tietoturva ja suojaus
@@ -1894,6 +1890,7 @@
 ### [Uusien ominaisuuksien käyttöönotto etuajassa](admin-feature-management.md)
 ### [Käyttäjien perehdyttäminen tarkistusluetteloiden avulla](admin-checklist.md)
 ### [Eristysympäristöt](admin-sandbox-environments.md)
+## [Copilot- ja tekoälyominaisuudet](enable-ai.md)
 ## Business Centralin mukauttaminen
 ### [Mukauttamisen yleiskatsaus](ui-customizing-overview.md)
 ### [Profiilien sivujen mukauttaminen](ui-personalization-manage.md)
@@ -1926,19 +1923,19 @@
 #### [US/CA/UK/AU/NZ/ZA – maksusuoritusilmoituksen lähettäminen](ui-extensions-send-remittance-advice.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [Muiden toimittajien Business Central ‑laajennukset](ui-extensions-other.md)
-## Dynamics 365 Sales ‑integrointi
-### [Dynamics 365 Sales ‑integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md)
+## Integroiminen muiden Dynamics 365 ‑sovellusten kanssa
+### [Dynamics 365 Sales ‑integrointi tietojen synkronoinnin avulla](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ## Microsoft Dataverse ‑integrointi
-### [Microsoft Dataverse ‑integrointi](admin-common-data-service.md)
-### [Tietojen omistusmallit](admin-cds-company-concept.md)
-### [Microsoft Dataverse ‑integroinnissa käytettävien käyttäjätilien määrittäminen](admin-setting-up-integration-with-dynamics-sales.md)
-### [Yhteyden muodostaminen Microsoft Dataverseen](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Dataverse-integrointi tietojen synkronoinnin avulla](admin-common-data-service.md)
+### [Tietojen omistusmallit synkronointia varten](admin-cds-company-concept.md)
+### [Käyttäjätilien määrittäminen Dataverse‑integrointia varten tietojen synkronoinnin avulla](admin-setting-up-integration-with-dynamics-sales.md)
+### [Yhteyden muodostaminen Dataverseen tietojen synkronointia varten](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Business Centralin ja Microsoft Dataversen synkronoiminen](admin-synchronizing-business-central-and-sales.md)
 ### [Synkronoitavien taulukoiden ja kenttien yhdistäminen](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Taulukon yhdistämismääritysten manuaalinen synkronoiminen](admin-manual-synchronization-of-table-mappings.md)
-### [Synkronoimisen ajoittaminen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
+### [Synkronoinnin ajoittaminen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Synkronointivirheiden vianmääritys](admin-troubleshoot-sales-synchronization.md)
-### [Hälytysten Power Automate ‑työnkulun käyttäminen Dataverse-entiteetin muutoksissa](admin-power-automate-flow-dataverse.md)
+### [Power Automate ‑työnkulun käyttäminen Dataverse-entiteetin muutosten synkronointiin](admin-power-automate-flow-dataverse.md)
 ## Päätietojen synkronoiminen yritysten välillä
 ### [Päätietojen synkronointiin valmistautuminen](admin-set-up-data-sync.md)
 ### [Päätietojen synkronoinnin hallinta](admin-sync-master-data.md)
@@ -2019,3 +2016,7 @@
 ## [Tietoturva ja suojaus](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Suorituskyky](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Poistetut tai vanhentuneet ominaisuudet](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# Vastuullinen tekoäly
+## [Yleiskatsaus](responsible-ai-overview.md)
+## [Usein kysyttyjä kysymyksiä pankkitilin täsmäytyksen avustajasta (esiversio)](faqs-bank-reconciliation.md)
+## [Markkinointitekstiehdotusten usein kysytyt kysymykset](faqs-marketing-text.md)

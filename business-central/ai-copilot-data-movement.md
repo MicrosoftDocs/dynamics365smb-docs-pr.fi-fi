@@ -5,66 +5,45 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: conceptual
-ms.collection: get-started
-ms.date: 11/09/2023
+ms.collection: null
+ms.date: 11/15/2023
 ms.custom: bap-template
 ---
 
-# <a name="copilot-data-movement-across-geographies"></a>Copilot-tietojen siirtäminen maantieteellisten alueiden välillä
+# Copilot-tietojen siirtäminen maantieteellisten alueiden välillä 
 
-Copilot on käytettävissä kaikilla tuetuilla [Business Centralin maantieteellisillä alueilla](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). Copilot kuitenkin käyttää Microsoft Azure OpenAI Serviceä, joka on tällä hetkellä käytettävissä Business Centralissa vain joillakin maantieteellisillä alueilla, tällä hetkellä Yhdysvalloissa ja Sveitsissä. Tämä tarkoittaa, että jos ympäristösi sijaitsee muualla, Copilotin ja luovien tekoälyominaisuuksien tiedot on siirrettävä maantieteellisen alueesi ulkopuolelle ja niitä voidaan käsitellä ja tallentaa vaatimustenmukaisuusrajojesi ulkopuolelle. Tiedot sisältävät tekoälyn kehotukset ja liiketoimintatiedot, joita Copilot käyttää tai luo. Siinä tapauksessa sinun täytyy valita, että sallit tiedonsiirron Azure OpenAI Servicen jollakin muulla maantieteellisellä alueella. <!--For a list of geographies, refer to the [Azure OpenAI Service geographies](#azure-openai-service-geographies) section that follows.-->
+Copilot on käytettävissä kaikilla tuetuilla [Business Centralin maissa/alueilla](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). Copilot kuitenkin käyttää Microsoft Azure OpenAI Serviceä, joka on tällä hetkellä käytettävissä Business Centralissa vain joillakin maantieteellisillä alueilla. Tämä tarkoittaa, että jos ympäristösi sijaitsee muualla, Copilotin ja luovien tekoälyominaisuuksien tiedot on siirrettävä maantieteellisen alueesi ulkopuolelle ja niitä voidaan käsitellä ja tallentaa vaatimustenmukaisuusrajojesi ulkopuolelle. Tiedot sisältävät tekoälyn kehotukset ja liiketoimintatiedot, joita Copilot käyttää tai luo. Siinä tapauksessa sinun täytyy valita, että sallit tiedonsiirron Azure OpenAI Servicen jollakin muulla maantieteellisellä alueella. <!--For a list of geographies, refer to the [Azure OpenAI Service geographies](#azure-openai-service-geographies) section that follows.-->
 
 > [!IMPORTANT]
-> Jos ympäristösi sijaitsee samalla maantieteellisellä alueella kuin Azure OpenAI Service, se muodostaa yhteyden automaattisesti Azure OpenAI Serviceen, vaihtoehtoja ei ole. Euroopassa Business Central ottaa automaattisesti käyttöön tiedonsiirron, mutta järjestelmänvalvojat voivat halutessaan kieltäytyä siitä milloin tahansa.
+> Jos ympäristösi sijaitsee samalla Azure-alueella kuin Azure OpenAI Service, se muodostaa yhteyden automaattisesti Azure OpenAI Serviceen, vaihtoehtoja ei ole eikä kertaluonteista määritystä vaadita.
 
 > [!NOTE]
-> Yksittäiset Copilotin ja luonnin tekoälyominaisuudet eivät välttämättä ole käytettävissä kaikilla Business Centralin maantieteellisen sijainnin alueilla. Kysy julkaisijalta lisätietoja kunkin ominaisuuden saatavuudesta.
+> Yksittäiset Copilotin ja luonnin tekoälyominaisuudet eivät välttämättä ole käytettävissä kaikissa Business Central -ympäristön maissa tai alueilla. Kysy julkaisijalta lisätietoja kunkin ominaisuuden saatavuudesta.
 > 
 > Muiden kuin Microsoftin julkaisijoiden Copilot- ja luovat tekoälyominaisuudet, kuten mukautuksista tai asentamistasi AppSource-sovelluksista peräisin olevat, määrittelevät kukin omat Azure OpenAI Service -alueet. Kysy laajennuksen julkaisijalta lisätietoja siitä, mitä alueellista Azure-palvelua laajennuksessa käytetään. 
 
-### <a name="azure-openai-service-geographies"></a>Azure OpenAI Servicen maantieteelliset alueet
+### Azure OpenAI Servicen maantieteelliset alueet
 
-Seuraavassa taulukossa näkyy Copilotin käyttämä Azure OpenAI Servicen paikkatieto, joka perustuu Business Central -ympäristön maantieteelliseen sijaintiin. Nämä tiedot ovat tärkeitä, kun päätetään, valitaanko tiedonsiirto maantieteellisillä alueilla. Voit tunnistaa ympäristösi maantieteellisen sijainnin Business Central -hallintakeskuksessa, jossa sitä kutsutaan *Azure-alueeksi* (lisätietoja on kohdassa [Hallintakeskuksen ympäristöjen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)).
+Seuraavassa taulukossa näkyy Copilotin käyttämä Azure OpenAI Servicen paikkatieto, joka perustuu Business Central -ympäristön Azure-alueeseen. Nämä tiedot ovat tärkeitä, kun päätetään, valitaanko tiedonsiirto maantieteellisillä alueilla. Voit tunnistaa ympäristösi Azure-alueeseen Business Central -hallintakeskuksessa (lisätietoja on kohdassa [Hallintakeskuksen ympäristöjen hallinta](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)).
 
-| Business Central -ympäristön maantieteellinen sijainti (Azure-alue)| Azure OpenAI Servicen maantieteellinen alue|
-| - | - |
-|Aasia (Itäinen, kaakkois-) |Yhdysvallat|
-|Australia (Kaakkois-)| Yhdysvallat |
-|Brasilia (eteläinen) |Yhdysvallat|
-|Kanada (keskinen, itäinen)|Yhdysvallat|
-|Eurooppa (Läntinen, pohjoinen)| Sveitsi |
-|Ranska (keskinen, eteläinen)|Sveitsi |
-|Saksa (Pohjoinen, keskinen läntinen)|Sveitsi |
-|Intia (Keskinen, eteläinen)|Yhdysvallat|
-|Japani (itäinen, läntinen)|Yhdysvallat|
-|Korea (Keskinen, eteläinen)|Yhdysvallat|
-|Norja (Itäinen, läntinen)|Sveitsi |
-|Etelä-Afrikka (Pohjoinen, läntinen)|Yhdysvallat|
-|Sveitsi (Pohjoinen, läntinen) |Sveitsi|
-|Yhdistyneet arabiemiirikunnat (Pohjoinen, läntinen)|Yhdysvallat|
-|Yhdistynyt kuningaskunta (Eteläinen, läntinen)|Yhdysvallat|
-|Yhdysvallat (Keskinen, itäinen, pohjoinen keskinen, eteläinen keskinen, läntinen) |Yhdysvallat|
-<!--
-| Business Central environment geography | Azure OpenAI Service geography|
-| - | - |
-|Asia Pacific|United States|
-|Australia| United States |
-|Brazil |United States|
-|Canada|United States|
-|Europe| Switzerland |
-|France|Switzerland |
-|Germany|Switzerland |
-|France|Switzerland |
-|India|United States|
-|Japan|United States|
-|Korea|United States|
-|Norway|Switzerland |
-|Singapore|United States|
-|South Africa|United States|
-|Switzerland |Switzerland|
-|United Arab Emirates|United States|
-|United Kingdom|United States|
-|United States|United States|-->
+| Ympäristön Azure-alue| Azure OpenAI Servicen maantieteellinen alue|Copilotin lukituksen avaaminen edellyttää järjestelmänvalvojan toimenpiteitä| 
+| - | - | - |
+|Aasia (Itäinen, kaakkois-) |Yhdysvallat|Kyllä|
+|Australia (Kaakkois-)| Yhdysvallat |Kyllä, päivitykseen 23.2 asti |
+|Brasilia (eteläinen) |Yhdysvallat|Kyllä|
+|Kanada (keskinen, itäinen)|Yhdysvallat|Kyllä|
+|Eurooppa (Läntinen, pohjoinen)| Ruotsi tai Sveitsi |Kyllä|
+|Ranska (keskinen, eteläinen)| Ruotsi tai Sveitsi |Kyllä|
+|Saksa (Pohjoinen, keskinen läntinen)| Ruotsi tai Sveitsi |Kyllä|
+|Intia (Keskinen, eteläinen)|Yhdysvallat|Kyllä|
+|Japani (itäinen, läntinen)|Yhdysvallat|Kyllä|
+|Korea (Keskinen, eteläinen)|Yhdysvallat|Kyllä|
+|Norja (Itäinen, läntinen)|Ruotsi tai Sveitsi |Kyllä|
+|Etelä-Afrikka (Pohjoinen, läntinen)|Yhdysvallat|Kyllä|
+|Sveitsi (Pohjoinen, läntinen) |Ruotsi tai Sveitsi |Kyllä|
+|Yhdistyneet arabiemiirikunnat (Pohjoinen, läntinen)|Yhdysvallat|Kyllä|
+|Yhdistynyt kuningaskunta (Eteläinen, läntinen)|Yhdistynyt kuningaskunta|Kyllä, päivitykseen 23.2 asti|
+|Yhdysvallat (Keskinen, itäinen, pohjoinen keskinen, eteläinen keskinen, läntinen) |Yhdysvallat|Ei|
 
 > [!NOTE]
 > Sen jälkeen, kun Azure OpenAI Service voidaan ottaa käyttöön Business Centralin maantieteellisellä alueellasi, ympäristösi siirtyy automaattisesti käyttämään Azure OpenAI Serviceä ja valinta ei ole pakollista tai edes mahdollista.  
@@ -127,6 +106,6 @@ case "AUSTRALIAEAST":
 
 -->
 
-## <a name="next-steps"></a>Seuraavat vaiheet
+## Seuraavat vaiheet
 
 Voit sallia tietojen siirron maantieteellisillä alueilla [Copilot ja tekoälyominaisuudet](https://businesscentral.dynamics.com/?page=7775) -sivulta. Lisätietoja on kohdassa [Tietojen siirtämisen salliminen maantieteellisillä alueilla](enable-ai.md#allow-data-movement-across-geographies).

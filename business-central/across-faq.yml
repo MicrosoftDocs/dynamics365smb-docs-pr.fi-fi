@@ -65,7 +65,7 @@ sections:
       - question: |
           Mistä löydän tämän rivinumeron?
         answer: |
-          Esimerkiksi myyntitilauksen tai ostolaskun asiakirjat koostuvat otsikoista ja riveistä. Kullakin rivillä on numero, jota [!INCLUDE [prod_short](includes/prod_short.md)] käyttää tämän rivin tunnistamiseen. Tämän seurauksena näyttöön voi tulla esimerkiksi varoitus- tai virhesanoma, jonka mukaan rivillä numero 1000 on jotain vikaa. Rivi numerot on piilotettu [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman oletusversiossa. Jos haluat nähdä rivinumerot, sinun täytyy mukauttaa nykyistä sivua ja lisätä **Rivinro.** -kentässä. Lue lisää kohdasta [Työtilan mukauttaminen](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
+          Esimerkiksi myyntitilauksen tai ostolaskun asiakirjat koostuvat otsikoista ja riveistä. Kullakin rivillä on numero, jota [!INCLUDE [prod_short](includes/prod_short.md)] käyttää tämän rivin tunnistamiseen. Tämän seurauksena näyttöön voi tulla esimerkiksi varoitus- tai virhesanoma, jonka mukaan rivillä numero 1000 on jotain vikaa. Rivi numerot on piilotettu [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman oletusversiossa. Jos haluat nähdä rivinumerot, sinun täytyy mukauttaa nykyistä sivua ja lisätä **Rivinro.**-kenttä . Lue lisää kohdasta [Työtilan mukauttaminen](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).  
       - question: |
           Miksi ohjeessa kerrotaan toiminnoista, joita en voi käyttää?
         answer: |
@@ -86,7 +86,7 @@ sections:
       - question: |
           Onko minun ostettava Microsoft 365?
         answer: |
-          Ei. Jos kuitenkin haluat käyttää Microsoft 365:een täysin integroitua [!INCLUDE[prod_short](includes/prod_short.md)]ia, voit rekisteröityä käyttämään Microsoft 365 -kokeiluversiota maksutta kuukauden ajan [täällä](https://products.office.com/try).  
+          Nro Jos kuitenkin haluat käyttää Microsoft 365:een täysin integroitua [!INCLUDE[prod_short](includes/prod_short.md)]ia, voit rekisteröityä käyttämään Microsoft 365 -kokeiluversiota maksutta kuukauden ajan [täällä](https://products.office.com/try).  
 
           Jos kirjaudut jollain muulla kuin Microsoft 365 -työtilillä (kuten joe@mysolution.com) ja sinulla on Microsoft 365 -tilaus, voit liittää toimialueen (*mysolution.com*) Microsoft 365 -tilaukseen. Lue lisätietoja kohdasta [Mikä on toimialue?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) Microsoft 365 -sisällössä.  
 
@@ -150,9 +150,9 @@ additionalContent: |
   [Perusasetusten muuttaminen](ui-change-basic-settings.md)  
   [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)  
   [Vastauksia kysymyksiin](/dynamics365/business-central/ui-get-ready-business#getting-answers-to-questions)  
+  [Business Centralin koulutus](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)   
   [Ohje- ja tukiresurssit](product-help-and-support.md)  
-  [Business Central -opintoluettelo](readiness/readiness-learning-catalog.md)  
-  [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md)  
+  [Käyttöoikeuksien delegoiminen käyttäjille ja ryhmille](ui-define-granular-permissions.md)  
   [Saatavuus maassa/alueella ja tuetut käännökset](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
   [Palvelun ehdot](compliance/compliance-service-compliance.md#service-terms)  
   [Kehittäjä- ja järjestelmänvalvojakokemuksia koskevat usein kysytyt kysymykset](/dynamics365/business-central/dev-itpro/faq)

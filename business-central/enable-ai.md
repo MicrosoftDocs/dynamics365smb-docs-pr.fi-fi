@@ -10,56 +10,32 @@ ms.custom: bap-template
 ms.search.form: 7775
 ---
 
-# <a name="configure-copilot-and-ai-capabilities"></a>Copilotin ja tekoälyn ominaisuuksien määrittäminen
+# Copilot- ja tekoälyominaisuuksien määrittäminen 
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
 <!--This article explains how you can control the ability to create AI-powered item marketing text with Copilot for your organization. This task is done by an admin. There are two requirements that you must fulfill to make the feature available to users:-->
 
-Tässä artikkelissa kerrotaan, miten voit hallita käyttäjien pääsyä Copilotiin ja muihin tekoälyominaisuuksiin Business Centralissa. Tämän tehtävän suorittaa järjestelmänvalvoja. Copilot- ja tekoälyominaisuuksien käytönvalvontatasoja on kolme sen mukaan, mikä ominaisuus on:
-
-- Azure OpenAI [esiversio](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/)- ja [tietosuoja](https://go.microsoft.com/fwlink/?LinkId=521839)-ehtojen hyväksyminen tai hylkääminen.
-
-   Tämä suostumus on pakollinen, jotta Copilotin tai tekoälyn ominaisuudet toimivat käyttäjille. Suostumus on yleinen kaikille käyttäjille, ja se koskee kaikkia Copilotin ja tekoälyn ominaisuuksia. [Lisätietoja](#consent-to-preview-and-privacy-terms)
+Tässä artikkelissa kerrotaan, miten hallita Copilotia ja muita tekoälyominaisuuksia Business Centralissa. Tämän tehtävän suorittaa järjestelmänvalvoja. Copilot on järjestelmäominaisuus ja olennainen osa Business Centralia. Kuten useimmissa järjestelmäominaisuuksissa, et myönnä pääsyä yksittäisille käyttäjille etkä voi kytkeä Copilotia päälle tai pois päältä. Copilot tarjoaa kuitenkin tietojen hallintaa ja mahdollisuuden poistaa yksittäiset Copilot- ja tekoälyominaisuudet käytöstä jokaisessa ympäristössä. Tekoälyominaisuuksille on eri tasoisia pääsynhallintaominaisuuksia ominaisuudesta riippuen:
 
 - Tiedonsiirtojen salliminen maantieteellisillä alueilla
 
   Tämä tehtävä on pakollinen vain, jos Business Central -ympäristösi on eri maantieteellisellä alueella kuin sen käyttämä Azure OpenAI Service. [Lisätietoja](#allow-data-movement-across-geographies)
 
+- Aktivoi ominaisuus **Copilotin ja tekoälyn ominaisuudet** -sivulla. [Lisätietoja](#activate-features)
+
 - Ota tietty ominaisuus käyttöön, jos **ominaisuuden hallinta** on yhä käytössä.
 
-  Vuoden 2023 julkaisuaalto 2:ssa sekä markkinointitekstiehdotukset että pankkitilin täsmäytysapuominaisuudet sisältyvät kohtaan **Ominaisuuksien hallinta**. Markkinointitekstiehdotukset ovat kuitenkin oletusarvoisesti käytössä. [Lisätietoja](#enable-feature-in-feature-management)
-
-- Aktivoi ominaisuus **Copilotin ja tekoälyn ominaisuudet** -sivulla. [Lisätietoja](#activate-features)
+  Vuoden 2023 julkaisuaalto 2:ssa sekä markkinointitekstiehdotukset että pankkitilin täsmäytysapuominaisuudet sisältyvät kohtaan **Ominaisuuksien hallinta**. [Lisätietoja](#enable-feature-in-feature-management)
 
 Jos jokin näistä vaatimuksista ei täyty, ominaisuus ei ole käytettävissä.
 
-## <a name="prerequisites"></a>Vaatimukset
+## Vaatimukset
 
 - Käytät Business Central online -versiota 23.1 tai sitä uudempaa. <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
 - Sinulla on Business Centralin järjestelmänvalvojan tai pääkäyttäjän käyttöoikeudet.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
 
-## <a name="allow-data-movement-across-geographies"></a>Suostumus esiversioon ja tietosuojaehtoihin
-
-Hyväksy [Esiversion](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/) ehdot ja [Microsoftin tietosuojalauseke](https://go.microsoft.com/fwlink/?LinkId=521839) organisaation puolesta. Toisin kuin muiden toimintojen ja palveluiden tietosuojailmoitukset, vain järjestelmänvalvojat voivat antaa suostumuksensa Azure OpenAI:n käyttöön organisaation puolesta. Käyttäjät eivät voi päättää itse.   
-
-1. Etsi ja avaa Business Centralissa **tietosuojatietojen tila** -sivu.
-2. Valitse **integrointinimi**-sarakkeessa **Azure OpenAI**ja lue sitten sinulle esitettävät käyttöehdot.
-3. Valitse **Azure OpenAI** -rivillä **hyväksy kaikille** -valintaruutu, jos haluat hyväksyä tai **hylätä kaikille** valintaruudun valinnan.
-
-## <a name="activate-features"></a>Ota ominaisuus käyttöön Ominaisuuksien hallinnassa
-
-**Ominaisuuksien hallinnan** avulla voit ottaa käyttöön tai poistaa käytöstä esiversiossa olevia toimintoja, kuten pankkitilien täsmäytyksen, sekä joitain yleisesti saatavilla olevia ominaisuuksia, kuten nimikemarkkinointiehdotuksia. [Lue lisää Ominaisuuksien hallinnasta](/dynamics365/business-central/dev-itpro/administration/feature-management).
-
-1. Etsi ja avaa **toimintojen hallinta** -sivu Business Centralissa.
-2. Voit ottaa ominaisuuden käyttöön määrittämällä **käytössä** -sarakkeen **Kaikille käyttäjille**. Voit poistaa ominaisuuden käytöstä määrittämällä **käytössä**-sarakkeen **Ei kenellekään**. Käytä seuraavaa taulukkoa apuna, kun määrität sen kytkimen, joka koskee Copilotia ja AO-ominaisuutta, jotka haluat ottaa käyttöön:
-
-   - **Ominaisuuden esiversio: Pankkitilin täsmäytys Copilotin avulla** liittyy pankkitilin täsmäytysavustoimintoon.
-   - **Ominaisuuden esiversio: Luo tekoälypohjaiset tuotekuvaukset Copilotin avulla** liittyy markkinointitekstien ehdotustoimintoon.
-
-   Saat lisätietoja ominaisuuksien hallinnasta yleisesti siirtymällä [Ominaisuuksien hallintaan](/dynamics365/business-central/dev-itpro/administration/feature-management).
-
-## <a name="enable-feature-in-feature-management"></a>Salli tietojen siirto eri maantieteellisillä alueilla
+## Salli tietojen siirto eri maantieteellisillä alueilla
 
 Tämä tehtävä on käytössä vain, jos **Salli tiedonsiirto** -kytkin tulee näkyviin **Copilot ja tekoälytoiminnot** -sivun yläosan lähelle. **Salli tiedonsiirto** -kytkimellä ilmaistaan, että Business Central -ympäristösi sijainti eli maantieteellinen sijainti, jossa tietoja käsitellään ja tallennetaan, ei ole sama kuin Copilotin käyttämä Azure OpenAI Servicen maantieteellinen sijainti. Jos haluat ottaa Copilotin käyttöön, tietojen siirto maantieteellisten sijaintien välillä on sallittu. Lisätietoja tietojen siirtämisestä on kohdassa [Copilot-tietojen siirtäminen maantieteellisillä alueilla](ai-copilot-data-movement.md). 
 
@@ -92,9 +68,9 @@ Copilot and other AI capabilities use Azure OpenAI Service.  and are provided by
 Meanwhile, customers with environments outside the United States can use Copilot AI features by opting in to share relevant data with the Azure OpenAI Service in United States or Switzerland.
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
-## <a name="granting-user-access"></a>Aktivoi ominaisuuksia
+## Aktivoi ominaisuuksia
 
-**Copilotin ja tekoälyn ominaisuudet** -sivulla voit ottaa kaikki ominaisuudet käyttöön kaikille käyttäjille tai poistaa ne käytöstä.
+Kaikki Copilot- ja tekoälyominaisuudet ovat oletusarvoisesti aktiivisia, kun ne ovat saatavilla esiversiona tai ne tulevat yleisesti saataville. **Copilotin ja tekoälyn ominaisuudet** -sivulla voit poistaa kaikki ominaisuudet käytöstä kaikilta käyttäjiltä tai ottaa ne taas käyttöön.
 
 1. Etsi ja avaa Business Centralissa **Copilot ja tekoälyominaisuudet** -sivu.
 
@@ -102,18 +78,37 @@ The information in the following table outlines the Azure OpenAI service that's 
 
    [![Näyttää Business Central -roolikeskuksen ja Copilot-ohjelman tarkistusluettelon](media/copilot-and-ai-capabilties-page.svg)](media/copilot-and-ai-capabilties-page.svg#lightbox)
 
-   - Voit ottaa ominaisuuden käyttöön valitsemalla sen luettelosta ja valitsemalla valintanauhassa **Aktivoi**.
-   - Voit poistaa ominaisuuden käytöstä valitsemalla sen luettelosta ja valitsemalla valintanauhassa **Deaktivoi**. 
+   - Voit ottaa ominaisuuden käyttöön valitsemalla sen luettelosta ja valitsemalla **Aktivoi**-toiminnon.
+   - Voit poistaa ominaisuuden käytöstä valitsemalla sen luettelosta ja valitsemalla **Deaktivoi**-toiminnon. 
 
 
-## <a name="next-steps"></a>Seuraavat vaiheet
+## Ota ominaisuus käyttöön Ominaisuuksien hallinnassa
+
+Kun yksittäiset Copilot-ominaisuudet julkaistaan ​​Business Centralin pienissä päivityksissä, nämä ominaisuudet ovat valinnaisia ​​seuraavaan suureen päivitykseen asti. **Ominaisuuksien hallinnan** avulla voit ottaa käyttöön tai poistaa käytöstä esiversiossa olevia toimintoja, kuten pankkitilien täsmäytyksen, sekä joitain yleisesti saatavilla olevia ominaisuuksia, kuten markkinointitekstiehdotuksia. [Lue lisää Ominaisuuksien hallinnasta](/dynamics365/business-central/dev-itpro/administration/feature-management).
+
+1. Etsi ja avaa **toimintojen hallinta** -sivu Business Centralissa.
+2. Voit ottaa ominaisuuden käyttöön määrittämällä **käytössä** -sarakkeen **Kaikille käyttäjille**. Voit poistaa ominaisuuden käytöstä määrittämällä **käytössä**-sarakkeen **Ei kenellekään**. Käytä seuraavaa taulukkoa apuna, kun määrität sen kytkimen, joka koskee Copilotia ja AO-ominaisuutta, jotka haluat ottaa käyttöön:
+
+   - **Ominaisuuden esiversio: Pankkitilin täsmäytys Copilotin avulla** liittyy pankkitilin täsmäytysavustoimintoon.
+   - **Ominaisuuden esiversio: Luo tekoälypohjaiset tuotekuvaukset Copilotin avulla** liittyy markkinointitekstien ehdotustoimintoon.
+
+   Saat lisätietoja ominaisuuksien hallinnasta yleisesti siirtymällä [Ominaisuuksien hallintaan](/dynamics365/business-central/dev-itpro/administration/feature-management).
+
+## Käyttäjien käyttöoikeuksien myöntäminen 
+
+Copilot- ja tekoälyominaisuudet voivat tarjota toimintoja, jotka on tarkoitettu kaikille käyttäjille organisaatiossasi tai tietyille käyttäjärooleille. Useimmat Copilot- ja tekoälyominaisuudet tarjoavat pääsynhallinnan Business Centralin käyttöoikeuksien hallintajärjestelmän lupien ja käyttöoikeusjoukkojen avulla. [Lue lisää käyttöoikeuksista ja käyttöoikeusjoukoista](ui-define-granular-permissions.md).
+
+Jos haluat myöntää tai estää pääsyn tiettyihin Copilot- ja tekoälyominaisuuksiin, tutustu kyseisen ominaisuuden dokumentaatioon tai julkaisijaan saadaksesi selville, mitä käyttöoikeuksia tarvitaan. 
+
+## Seuraavat vaiheet
 
 Kun olet ottanut ominaisuudet käyttöön ja antanut niihin suostumuksesi, voit kokeilla niitä. Mene kohtaan:
 
 - [Markkinointitekstin lisääminen nimikkeille](item-marketing-text.md) 
 - [Täsmäyttäminen pankkitilien täsmäytysavustajan avulla](bank-reconciliation-with-copilot.md) 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
+[Copilot- ja tekoälyominaisuuksien vianmääritys](ai-copilot-troubleshooting.md)  
 [Markkinointitekstiehdotusten yleiskatsaus](ai-overview.md)   
-[Markkinointitekstiehdotusten UKK](faqs-marketing-text.md)  
+[Markkinointitekstiehdotusten usein kysytyt kysymykset](faqs-marketing-text.md)  
