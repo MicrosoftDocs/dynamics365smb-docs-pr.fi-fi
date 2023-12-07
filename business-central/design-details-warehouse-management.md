@@ -10,7 +10,7 @@ ms.date: 10/09/2023
 ms.custom: bap-template
 ---
 
-# <a name="warehouse-management-overview"></a>Varastohallinnan yleiskuvaus
+# Varastohallinnan yleiskuvaus
 
 Fyysiseen varastoon tavaroita sisään ja ulos siirtäville yrityksille seuraavat kaksi asiaa ovat tärkeitä:
 
@@ -26,7 +26,7 @@ Fyysiseen varastoon tavaroita sisään ja ulos siirtäville yrityksille seuraava
 
 Liiketoimintaan sopivia varastointiprosesseja voidaan räätälöidä toteuttamalla näitä ominaisuuksia erilaisina yhdistelmiä. Yrityksen kasvaessa ja prosessien muuttuessa myös monimutkaisuus lisääntyy, mikä kannattaa ottaa huomioon jo alkuvaiheessa.
 
-## <a name="overview-of-different-configuration-options"></a>Erilaisten määritysvaihtoehtojen yleiskatsaus
+## Erilaisten määritysvaihtoehtojen yleiskatsaus
 
 Fyysisen varaston ominaisuuksia voidaan määrittää eri tavoin. On tärkeää, valita vaihtoehdot, jotka parantavat prosesseja yleiskustannuksia lisäämättä. Seuraavassa taulukossa on yleiskuva määrityksistä, joita käytetään yleisesti fyysisten tavaroiden käsittelyssä.
 
@@ -48,13 +48,13 @@ Monimutkaisuuden taso vaikuttaa myös varastointitoiminnoissa käytettävien asi
 
 Toinen monimutkaisuuteen vaikuttava tekijä on tapa, jolla fyysinen varasto ilmaistaan [!INCLUDE[prod_short](includes/prod_short.md)]issa. Lisätietoja on kohdassa [Fyysisen varaston mallinnus](#modeling-the-physical-warehouse).
 
-## <a name="modeling-the-physical-warehouse"></a>Fyysisen varaston mallinnus
+## Fyysisen varaston mallinnus
 
 Varaston fyysistä todellisuutta vastaavat määritykset voidaan ilmaista eri tavoin [!INCLUDE[prod_short](includes/prod_short.md)]issa. Valinnat määrittävät, miten fyysisen varaston ominaisuuksia käytetään.
 
 Nimikkeet voidaan sijoittaa hyllyille, sijainteihin tai varastopaikkoihin, ja kullakin vaihtoehdolla on omat hyvät ja huonot puolensa.
 
-### <a name="locations-and-bins"></a>Sijainnit ja varastopaikat
+### Sijainnit ja varastopaikat
 
 Fyysisten tavaroiden käsittelyä varten tarvitaan ainakin yksi sijainti. Fyysisen varaston ja organisaation rakenteen mallintamiseen voi käyttää useita sijainteja tai varastopaikkoja.
 
@@ -66,7 +66,7 @@ Sijaintien käyttöä suositaan yleensä eri maantieteellisille alueille jaettuj
 * Suunnittelun parametrien määrittäminen. Lisätietoja on kohdassa [Suunnitteluparametrit](production-about-planning-functionality.md#planning-parameters).  
 * Erilaisten fyysisen varaston ominaisuuksien käyttäminen kussakin sijainnissa.
 
-### <a name="shelves-and-bins"></a>Hyllyt ja varastopaikat
+### Hyllyt ja varastopaikat
 
 Jos nimike varastoidaan aina samassa paikassa, käytössä on **Hyllynro**-kenttä **Nimikekortti**- tai **Varastointiyksikkökortti**-sivulla. Tätä kenttä voi olla manuaalisena perusvarastointijärjestelmä ympäristöissä, joissa ei ole varastopaikkoja. Sen arvo kopioidaan nimikekortista asiakirjariveille ja raportteihin, mutta se on tarkoitettu vain tiedoksi. Arvoa käytetä fyysisen varastoinnin aktiviteeteissa eikä saatavuuslaskennassa.
 
@@ -77,7 +77,7 @@ Varastopaikat ilmaisevat fyysisen varastoinnin perusrakenteen, ja niitä käytet
 * Varastopaikan kapasiteetti- ja painorajoitukset (vain ohjatussa hyllytyksessä ja poiminnassa).
 * Varastopaikkaluokitus (vain ohjatussa hyllytyksessä ja poiminnassa).
 
-## <a name="typical-warehouse-workflow"></a>Tyypillinen fyysisen varastoinnin työnkulku
+## Tyypillinen fyysisen varastoinnin työnkulku
 
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkeleihin.
 
@@ -89,19 +89,19 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 
 Fyysiset varastointiprosessit määritetään liiketoiminnan tarpeiden mukaan. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).
 
-## <a name="terminology-related-to-warehouse-management"></a>Varastoinninhallintaan liittyvät termit
+## Varastoinninhallintaan liittyvät termit
 
-### <a name="complexity-levels"></a>Monimutkaisuustasot
+### Monimutkaisuustasot
 
 Monimutkaisuustasot erotetaan toisistaan termien perustaso ja laajennettu avulla. Tämä yksinkertainen erottelu kattaa useita sijaintimääritysten monimutkaisuustasoja, joista kutakin erilaiset fyysisen varastoinnin asiakirjat tukevat. Varastoinnin laajinta tasoa kutsutaan ohjatuksi hyllytykseksi ja poiminnaksi. Ohjattu hyllytys ja poiminta otetaan sijainnissa käyttöön **Sijaintikortti**-sivun **ohjattu hyllytys ja poiminta** -vaihtopainikkeella.
 
-### <a name="warehouse-flows"></a>Fyysiset varastointivirrat
+### Fyysiset varastointivirrat
 
 * Saapuva virta – Nimikkeiden siirtäminen fyysiseen varastosijaintiin ja niiden tuominen saataville. Esimerkki: ostot ja saapuvat siirrot.
 * Lähtevä virta – nimikkeiden poimiminen ja toimittaminen asiakkaille tai muihin sijainteihin.
 * Sisäinen virta – Nimikkeiden käsittely sijainnissa. Esimerkki: komponenttien siirtäminen tuotantoon tai inventointi.
 
-### <a name="basic-documents"></a>Perusasiakirjat
+### Perusasiakirjat  
 
 Seuraavia asiakirjoja käytetään fyysisen varaston perustyönkuluissa.
 
@@ -111,7 +111,7 @@ Seuraavia asiakirjoja käytetään fyysisen varaston perustyönkuluissa.
 * Nimikepäiväkirja
 * Nimikkeen uudelleenluokituspäiväkirja
 
-### <a name="advanced-documents"></a>Laajennettujen toimintojen asiakirjat
+### Laajennettujen toimintojen asiakirjat  
 
 Seuraavia asiakirjoja käytetään fyysisen varaston laajennetuissa työnkuluissa.
 
@@ -129,11 +129,11 @@ Seuraavia asiakirjoja käytetään fyysisen varaston laajennetuissa työnkuluiss
 * Fyysisen varaston nimikepäiväkirja
 * Fyysisen varaston nimikkeen uudelleenluokituspäiväkirja
 
-### <a name="pages-and-settings"></a>Sivut ja asetukset
+### Sivut ja asetukset
 
 Tässä osassa käsitellään käsitteitä, joihin varastoinnin keskeiset sivut ja asetukset perustuvat.
 
-#### <a name="bins-and-bin-content"></a>Varastopaikat ja varastopaikan sisältö
+#### Varastopaikat ja varastopaikan sisältö
 
 Lokero on tallennuslaite, jonka tarkoituksena on tallentaa erilliset osat. Se on [!INCLUDE[prod_short](includes/prod_short.md)]in pienin varastoyksikkö. Varastopaikkojen nimikemääriä kutsutaan *varastopaikan sisällöksi*. **Nimike**- tai **Lokerokoodi**-kentästä suoritettu haku missä tahansa fyysiseen varastoon liittyvässä asiakirjassa näyttää lokerossa olevan nimikkeen lasketun saatavuuden.  
 
@@ -150,7 +150,7 @@ Erityisvarastopaikka sisältää varastopaikan sisällön, joka voidaan poimia v
 
 Kullakin nimikkeellä voi olla sijainnissa yksi oletusvarastopaikka.  
 
-#### <a name="bin-type"></a>Varastopaikan tyyppi
+#### Varastopaikan tyyppi
 
 Ohjattua hyllytystä ja poimintaa käyttävissä sijainneissa voidaan käyttää varastopaikkatyyppejä. Varastopaikkatyyppien avulla hallitaan varastopaikassa sallittuja toimintoja. Saatavana olevat varastopaikkojen tyypit:  
 
@@ -168,7 +168,7 @@ POIMINTA-, HYLLPOIM- ja HYLLYTYS-varastopaikkatyyppejä lukuun ottamatta varasto
 > [!NOTE]  
 > Nimikkeiden siirtoon VASTAANOTTO- ja QC-varastopaikkoihin on käytettävä varastosiirtoja. Nimikkeet siirretään LÄHETYS- ja QC-varastopaikoista varastosiirtojen avulla.  
 
-#### <a name="bin-ranking"></a>Varastopaikan luokittelu
+#### Varastopaikan luokittelu
 
 Laajennetussa varastoinnissa nimikkeiden kerääminen voidaan automatisoida ja optimoida hyllytys- ja poimintatyökirjoissa varastopaikkojen luokittelun avulla. Nimikkeitä ehdotetaan poimittavaksi tai hyllytettäväksi varastopaikan luokittelun perusteella.
 
@@ -176,7 +176,7 @@ Hyllytysprosessit on optimoitu varastopaikan luokittelun mukaan ehdottamalla kor
 
 Varastopaikan luokittelu ja varastopaikan sisältö perustuvat perusominaisuuksiin, jotka ohjaavat fyysisen varaston varastotyöntekijöitä.  
 
-#### <a name="bin-setup"></a>Varastopaikan asetus
+#### Varastopaikan asetus
 
 Laajennetussa varastoinnissa seuraavat kapasiteettiarvot määrittämällä voidaan hallita miten ja mihin varastopaikkoihin nimikkeet varastoidaan:
 
@@ -193,7 +193,7 @@ Ennen varastopaikan sisältörajoitusten määrittämistä on varmistettava, ett
 > [!NOTE]  
 > Useita mittayksiköitä voi käyttää vain ohjattua hyllytystä ja poimintaa käyttävissä sijainneissa. Kaikissa muissa määrityksissä varastopaikan sisältö voi olla vain perusmittayksikössä. Tapahtumissa, joissa mittayksikkö on suurempi kuin nimikkeen perusmittayksikkö, määrä muutetaan perusmittayksiköksi.  
 
-#### <a name="zone"></a>Vyöhyke
+#### Vyöhyke
 
 Laajennetussa varastoinnissa varastopaikat voidaan ryhmitellä vyöhykkeisiin hallitsemaan sijaintien varastotoimintojen työnkulun ohjausta.  
 
@@ -201,7 +201,7 @@ Vyöhyke voi olla vastaanottava alue tai varastointivyöhyke, minkä lisäksi ku
 
 Useimmat vyöhykkeelle määritetyt ominaisuudet määritetään vyöhykkeelle luoduille varastopaikoille.  
 
-#### <a name="warehouse-class"></a>F. var. luokka
+#### F. var. luokka
 
 Laajennetussa varastoinnissa fyysisen varastoinnin luokkakoodit voidaan määrittää seuraaville entiteeteille: 
 
@@ -215,11 +215,11 @@ Fyysisen varastoinnin luokkia ja vastaanoton/toimituksen oletusvarastopaikkaa k�
 
 Saapuvissa virroissa luokkakoodi korostetaan vain saapuvilla riveillä, kun luokkakoodi ei vastaa vastaanoton oletusvarastopaikkaa. Jos oikeita oletusvarastopaikkoja ei määritetä, määrää ei voida vastaanottaa.  
 
-#### <a name="location"></a>Sijainti
+#### Sijainti
 
 Sijainti on fyysinen rakenne tai paikka, jossa varastoa vastaanotetaan, varastoidaan ja toimitetaan. Sijainti voi olla fyysinen varasto, huoltoauto, esittelytila, laitos tai laitoksen alue. Varasto on usein järjestetty varastopaikkoihin ja vyöhykkeisiin.
 
-#### <a name="first-expired-first-out"></a>FEFO (ensin vanhentunut ensimmäisenä ulos)
+#### FEFO (ensin vanhentunut ensimmäisenä ulos)
 
 Jos **FEFO-poiminta**-valintaruutu valitaan **Sijaintikortti**-sivun **Varastopaikkojen periaatteet** -pikavälilehdessä, nimikeseuratut nimikkeet poimitaan sijainnissa niiden vanhenemispäivämäärän mukaan. Ensimmäisenä poimitaan nimikkeet, joissa on aikaisin erääntymispäivä.  
 
@@ -227,11 +227,11 @@ Kaikkien poiminta- ja siirtoasiakirjojen fyysisen varaston toiminnot on lajitelt
 
 FEFO-poimintaa käytettäessä ensimmäisenä vanhenevat nimikkeet kerätään vanhenemispäivämäärien perusteella muodostettuun väliaikaisen nimikeseurantaluetteloon. Jos kahdella nimikkeellä on sama vanhentumispäivämäärä, pienemmällä erä- tai sarjanumerolla varustettu poimitaan ensin. Jos erä- tai sarjanumerot ovat samoja, ensimmäisenä rekisteröity nimike valitaan ensin. Poimimisvarastopaikkojen nimikkeiden valinnan perusehtoja, kuten varastopaikan luokittelua ja kappaletavaraa, käytetään väliaikaisessa FEFO-nimikkeenseurantaluettelossa.  
 
-#### <a name="put-away-template"></a>Hyllytysmalli
+#### Hyllytysmalli
 
 Hyllytysmalli määrittää sarjan priorisoituja sääntöjä, joita on käytettävä hyllytyksiä luotaessa. Hyllytysmalli esimerkiksi edellyttää, että nimikkeet asetetaan varastopaikkaan, jonka varastopaikan sisällössä on sama mittayksikkö. Jos kapasiteetiltaan samanlaista varastopaikkaa ei löydy, nimike on asetettava tyhjään varastopaikkaan. Hyllytysmalli määritetään nimikkeelle ja sijainnille.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Varasto](inventory-manage-inventory.md)  
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  

@@ -10,7 +10,7 @@ ms.search.form: 5841
 ms.author: bholtorf
 ms.date: 10/10/2023
 ---
-# <a name="about-calculating-standard-cost"></a>Tietoja standardikustannuksen laskemisesta
+# Tietoja standardikustannuksen laskemisesta
 
 Useat tuotantoyritykset valitsevat vakiokustannusten perustaksi arvostuksen. Tämä pätee myös yrityksiin, jotka tekevät vain kevyitä tuotantotöitä, kuten kokoonpanoa ja varustelua. Vakiokustannusjärjestelmässä varastoyksikkö määritetään kohtuullisten aiempien tai odotettujen kustannusten perusteella. Tällöin aiempien ja arvioitujen kustannusten tarkastelut muodostavat vakiokustannusten perustan. Nämä kustannukset jäädytetään, kunnes niiden muutosta koskeva päätös on tehty. Tuotteen todelliset tuotantokustannukset voivat erota arvioiduista vakiokustannuksista. Todellisia kustannuksia vertaillaan tietyn nimikkeen vakiokustannuksiin johdon hallintotarkoituksia varten, ja *erot* tunnistetaan ja analysoidaan.  
 
@@ -22,7 +22,7 @@ Vakiokustannuksia voidaan ylläpitää nimikkeiden osalta, jotka täydennetään
 |**Kokoonpano**|Välittömät materiaalikustannukset, välittömät tai kiinteän työn kustannukset ja yleiskustannukset.|  
 |**Tuotantotilaus**|Välittömät materiaalikustannukset, työkustannukset, alihankintakustannukset ja yleiskustannukset.|  
 
-## <a name="setting-up-standard-costs"></a>Vakiokustannusten määrittäminen
+## Vakiokustannusten määrittäminen
 
 Vakiokustannukset on muodostettava jokaiselle kustannuselementille, koska kokoonpannun tai tuotetun nimikkeen vakiokustannukset koostuvat useista kustannuselementeistä, joita ovat materiaalien, kapasiteetin (työvoima) ja alihankkijan kustannukset (välittömät ja yleiset).  
 
@@ -39,7 +39,7 @@ Seuraavat keskeiset kustannukset muodostavat valmiiksi käsitellyn nimikkeen vä
 - Kapasiteettikustannus  
 - Alihankintakustannukset ainoastaan tuotetuille nimikkeille.  
 
-### <a name="material-costs"></a>Materiaalikulut
+### Materiaalikulut
 
 Materiaalikustannuksia ovat osakokoonpanoihin ja ostettuun raaka-aineeseen liittyvät kustannukset. Materiaaliyksikön kustannukset voivat koostua välittömistä ja välillisistä kustannuselementeistä.  
 
@@ -57,7 +57,7 @@ Tuotetun nimikkeen materiaalikustannukset voidaan esittää kahdella vakiokustan
 |Yksitasoinen|Tuotettu nimike vastaa kyseisen nimikkeen tuotannon tuotantorakenteen kaikkien ostettujen tai osakokoonpantujen nimikkeiden kokonaiskustannusta.|  
 |Vyörytystaso tai monitasoinen|Tuotettu nimike on kyseisen nimikkeen tuotantorakenteen kaikkien osakokoonpanojen materiaalikustannusten ja kyseisen nimikkeen tuotannon tuotantorakenteen kaikkien ostettujen nimikkeiden summa.|  
 
-### <a name="capacity-costs"></a>Kapasiteettikustannukset
+### Kapasiteettikustannukset
 
 Kapasiteetin kustannuksia ovat kustannukset, jotka liittyvät sisäisen työn ja koneen kustannuksiin. Määritä nämä kustannukset kullekin resurssille (kokoonpanon hallinnassa) ja työlle tai kuormitusryhmälle reitityksessä (tuotannossa). Kuten materiaalien kanssa, voit tunnistaa kapasiteettikustannusten väliliset ja välittömät elementit. Esimerkiksi tuotantosolun välittömät kustannukset voivat olla tietyn toiminnon suorituksesta muodostuvat tuotantokustannukset. Tuotantosolun epäsuoriin kustannuksiin voi kuulua joitain yleisiä tehdaskuluja, esimerkiksi valaistus ja lämmitys. Kuten materiaalikustannusten kanssa, voit ilmaista kapasiteetin yleiskustannukset välillisenä kustannusprosenttina tai kiinteänä yleiskustannuksena.  
 
@@ -82,13 +82,13 @@ Jos haluat määrittää määritysajan reitityksen suunnittelulle mutta et sis�
 
 Yksitasoisena tämä on valmiin tuotantonimikkeen tuotannossa tarvittava työkustannus. Se määritetään tuotantonimikkeen reitityksessä. Monitasoisena tämä on päänimikkeen tuoterakenteeseen sisällytettyjen yksittäisten tuotettujen nimikkeiden kapasiteettikustannus.  
 
-### <a name="subcontractor-costs"></a>Alihankkijan kustannukset
+### Alihankkijan kustannukset
 
 Alihankkijan kustannuksia ovat yrityksen ulkopuolisille toimittajille tai alihankkijoille toimittamiin palveluihin liittyvät kustannukset. Alihankkijan kustannukset voivat koostua materiaali- ja kapasiteettikustannusten tavoin sekä välittömistä että yleisistä kustannuksista. Välittömiä alihankkijan kustannuksia ovat tuotettujen palveluiden todelliset yksikkökohtaiset kulut. Yleisiä alihankkijan kustannuksia voivat olla esimerkiksi alihankintatilaukseen liittyvän yrityksen aiheuttamat kuljetus- ja/tai käsittelykustannukset.  
 
 Koska alihankinta on ulkoistettua kapasiteettia, alihankintapalveluiden kustannukset (välittömät ja välilliset) määritetään alihankintatoimintoa edustavalle toimintosolukortille.  
 
-## <a name="updating-standard-costs"></a>Vakiokustannusten päivittäminen
+## Vakiokustannusten päivittäminen
 
 Päivitä tai laske kokoonpanon nimikkeiden standardikustannukset käyttäen funktiota nimikekortista.  
 
@@ -99,9 +99,9 @@ Vakiokustannusten päivittäminen tai laskeminen koostuu yleensä seuraavista te
 3.  Otetaan edellisten eräajojen aikana syötetyt vakiokustannukset käyttöön. Vakiokustannukset eivät tule voimaan, ennen kuin ne on otettu käyttöön. Käytä **Ota käyttöön vakiokustannusten muutokset** -erätyötä, joka päivittää nimikkeiden vakiokustannusten muutokset Vakiokustannustyökirja-taulukossa.  
 4.  Otetaan muutokset käyttöön nimikkeen kortin **Yksikkökustannus**-kentän päivittämistä ja varaston uudelleenarvostuksen suorittamista varten. Lisätietoja on kohdassa [Varaston uudelleenarvostus](inventory-how-revalue-inventory.md).
 
-## <a name="use-batch-jobs-to-update-standard-costs"></a>Eräajojen käyttäminen vakiokustannusten päivittämisessä
+## Eräajojen käyttäminen vakiokustannusten päivittämisessä
 Alla olevissa osissa on tietoja eräajoista, joita käytetään vakiokustannusten päivittämisessä.
-### <a name="suggest-item-standard-cost"></a>Ehdota nimikkeen vakiokust.
+### Ehdota nimikkeen vakiokust.
 
  Luo ehdotuksia nimikekorttien vakiokustannuksen kustannusten tai kustannusjakaumien muuttamiseksi. Kun eräajo on suoritettu loppuun, tuloksen voi nähdä Vakiokustannustyökirja-ikkunassa.
 
@@ -109,7 +109,7 @@ Alla olevissa osissa on tietoja eräajoista, joita käytetään vakiokustannuste
 > Eräajo on tarkoitettu vain ostetuille nimikkeille. Jos haluat päivittää nimikkeen jolla on tuotantotilaus tai kokoonpanon tuotantotilaus, sinun tulee ensin täyttää työkirja kaikilla komponenteilla ja suorittaa sitten Vyörytä vakiokustannus -eräajo.
 
 Tämä eräajo luo vain ehdotuksia. Se ei toteuta ehdotettuja muutoksia. Jos olet tyytyväinen ehdotuksiin ja haluat ottaa ne käyttöön eli päivittää ne nimikkeen kortteihin ja lisätä ne uudelleenarvostuspäiväkirjaan, valitse Vakiokustannustyökirja-ikkunassa Ota käyttöön vakiokustannusten muutokset.
-#### <a name="options"></a>Asetukset
+#### Asetukset
 
 **Vakiokustannus**: Syötä muuntokerroin jota haluat käyttää kun päivität vakiokustannusta. Voit myös valita pyöristystavan uudelle vakiokustannukselle. Täytä kenttä käyttäen prosenttiosuuden kasvulle desimaalia, esimerkiksi 1,1.
 
@@ -117,21 +117,21 @@ Tämä eräajo luo vain ehdotuksia. Se ei toteuta ehdotettuja muutoksia. Jos ole
 
 **Yleiskustannus (arvo)**: Syötä muuntokerroin, jota haluat käyttää, kun päivität yleiskustannuksen arvoa. Voit myös valita pyöristystavan uudelle yleiskustannukselle. Täytä kenttä käyttäen prosenttiosuuden kasvulle desimaalia, esimerkiksi 1,1.
 
-### <a name="suggest-workmach-ctr-std-cost"></a>Ehdota k.ryh./t.sol. vak.kust.
+### Ehdota k.ryh./t.sol. vak.kust.
 
 Luo ehdotuksia tuotantosolun, kuormitusryhmän tai resurssikorttien vakiokustannuksen kustannusten tai kustannusjakaumien muuttamiseksi. Kun eräajo on suoritettu loppuun, tuloksen voi nähdä **Vakiokustannustyökirja**-ikkunassa.
 
 Tämä eräajo luo vain ehdotuksia. Se ei toteuta ehdotettuja muutoksia. Jos olet tyytyväinen ehdotuksiin ja haluat ottaa ne käyttöön eli päivittää ne nimikkeen kortteihin ja lisätä ne uudelleenarvostuspäiväkirjaan, valitse **Vakiokustannustyökirja**-ikkunassa **Ota käyttöön vakiokustannusten muutokset**.
 
 Jos eräajon suorituksen jälkeen haluat nähdä sen vaikutuksen tuotantoon tai kokoonpano-osastoihin, voit suorittaa **Vyörytä vakiokustannus** -eräajon päivittääksesi vakiokustannukset tuotantosoluihin, kuormitusryhmiin, kokoonpanoresursseihin, tuotannon tuoterakenteisiin ja kokoonpanon tuoterakenteisiin.
-#### <a name="options-1"></a>Asetukset
+#### Asetukset
 **Vakiokustannus**: Syötä muuntokerroin jota haluat käyttää kun päivität vakiokustannusta. Voit myös valita **pyöristystavan** uudelle vakiokustannukselle. Täytä kenttä käyttäen prosenttiosuuden kasvulle desimaalia, esimerkiksi 1,1.
 
 **Välillinen kustannus -%**: Syötä muuntokerroin jota haluat käyttää kun päivität välillistä kustannusprosenttia. Voit myös valita pyöristystavan uudelle välitön kustannus -%:lle. Täytä kenttä käyttäen prosenttiosuuden kasvulle desimaalia, esimerkiksi 1,1.
 
 **Yleiskustannus (arvo)**: Syötä muuntokerroin, jota haluat käyttää, kun päivität yleiskustannuksen arvoa. Voit myös valita pyöristystavan uudelle yleiskustannukselle. Täytä kenttä käyttäen prosenttiosuuden kasvulle desimaalia, esimerkiksi 1,1.
 
-### <a name="post-inventory-cost-to-gl"></a>Kirjaa varaston kustannus KP:oon
+### Kirjaa varaston kustannus KP:oon
 
  Tallentaa varaston määrien muutokset nimiketapahtumiin ja varaston arvojen muutokset arvotapahtumiin, kuten myyntitoimituksiin tai ostojen vastaanottoihin.
 
@@ -149,7 +149,7 @@ Jos haluat varmistaa, ettei eräajossa ilmene virheitä, voit suorittaa **Kirjaa
  
 > [!IMPORTANT]  
 > Suorita **Muuta kustannuksia - Nimiketapahtumat** -eräajo, ennen kuin käytät tätä eräajoa. Tällä tavoin varmistat, että pääkirjanpitoon kirjattavat kustannukset ovat ajan tasalla, kun sitten suoritat tämän eräajon.
-#### <a name="options-2"></a>Asetukset
+#### Asetukset
 
 |Asetus  |Kuvaus  |
 |--------------|---------|
@@ -157,7 +157,7 @@ Jos haluat varmistaa, ettei eräajossa ilmene virheitä, voit suorittaa **Kirjaa
 |**Asiakirjan nro**|Tähän kenttään voit syöttää asiakirjan numeron, jos olet valinnut Kirjaa varaston kirjausryhmää kohti -vaihtoehdon. Asiakirjan numero näkyy kirjatuissa tapahtumissa.|
 |**Kirjaa**|Valitse tämä kenttä, jos haluat eräajon kirjaavan yleiseen kirjanpitoon automaattisesti. Jos varaston kustannusta ei kirjata pääkirjanpitoon, eräajo tulostaa vain testiraportin, joka ilmaisee pääkirjanpitoon kirjattavissa olevat arvot, ja raporttiin tulee näkyviin teksti: **Testiraportti (ei kirjattu)**.|
 
-### <a name="roll-up-standard-cost"></a>Vyörytä vakiokustannus
+### Vyörytä vakiokustannus
 
 Vyöryttää kokoonpantujen ja tuotettujen nimikkeiden vakiokustannukset. Näihin vaikuttavat osien vakiokustannusten muutos, jota **Ehdota nimikkeen vakiokust.** -eräajo on ehdottanut. Lisäksi niihin vaikuttaa **Ehdota k.ryh./t.sol. vak.kust.** -eräajon ehdottama tuotantokapasiteetin ja kokoonpanon resurssien vakiokustannusten muutos.
 
@@ -167,14 +167,14 @@ Kun olet suorittanut toisen tai molemmat eräajoista ja toteutat vyörytyksen, k
 > Tämä funktio vyöryttää vain nimikekorttien vakiokustannuksen, ei varastointiyksiköiden vakiokustannusta.
 
 Tämä eräajo luo vain ehdotuksia. Se ei toteuta ehdotettuja muutoksia. Jos olet tyytyväinen ehdotuksiin ja haluat ottaa ne käyttöön eli päivittää ne nimikekortteihin ja syöttää ne **Uudelleenarvostuspäiväkirja**-ikkunaan, voit käyttää **Ota käyttöön vakiokust. muutos** -eräajoa. Voit käyttää tätä eräajoa **Vakiokustannustyökirja**-ikkunassa.
-#### <a name="options-3"></a>Asetukset
+#### Asetukset
 
 **Laskentapvm**: Syötä päivämäärä joka kohdistuu tuotannon tuoterakenteen versioon jolle haluat tehdä vyörytyksen.
  
-### <a name="implement-standard-cost-change"></a>Ota käyttöön vakiokust. muutos
+### Ota käyttöön vakiokust. muutos
 
 Päivittää **Nimike**-taulukon vakiokustannusten muutokset **Vakiokustannustyökirja**-taulukon tiedoilla. Vakiokustannuksen muutosten ehdotukset voidaan luoda **Ehdota nimikkeen vakiokust.**- ja/tai **Ehdota k.ryh./t.sol. vak.kust.** --eräajolla, ja niitä voi myös muuttaa. Vakiokustannuksen muutosehdotusten kaikkien kenttien sisällöt siirretään. Kun toteutat vakiokustannuksen muutosehdotuksia, voit nähdä ne nimikkeen kortissa ja/tai tuotantosolun/kuormitusryhmän kortissa. Myös uudelleenarvostuspäiväkirja luodaan, jotta voit päivittää olemassa olevan varaston arvon.
-#### <a name="options-4"></a>Vaihtoehdot
+#### Vaihtoehdot
 
 **Kirjauspvm**: Syötä pvm, jolloin uudelleenluokittelu tulisi tapahtua.
 
@@ -186,7 +186,7 @@ Päivittää **Nimike**-taulukon vakiokustannusten muutokset **Vakiokustannusty�
 
 Käynnistä eräajo valitsemalla **OK**. Jos et halua suorittaa eräajoa juuri nyt, sulje ikkuna valitsemalla **Peruuta**.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rakennetiedot: Kustannuslaskennan menetelmät](design-details-costing-methods.md)  
 [Vakiokustannusten päivittäminen](finance-how-to-update-standard-costs.md)  

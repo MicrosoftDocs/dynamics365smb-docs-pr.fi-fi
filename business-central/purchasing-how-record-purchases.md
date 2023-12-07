@@ -11,18 +11,18 @@ ms.search.form: '50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310'
 ms.date: 09/01/2022
 ms.author: bholtorf
 ---
-# <a name="record-purchases-with-purchase-invoices-and-orders"></a>Ostojen kirjaaminen ostolaskujen ja tilausten avulla
+# Ostojen kirjaaminen ostolaskujen ja tilausten avulla
 
 Voit luoda ostolaskun tai -tilauksen ostojen kustannusten tallentamiseksi ja ostoreskontran seuraamiseksi. Ostolaskuja ja -tilauksia käytetään varastotasojen dynaamiseen päivittämiseen, jotta voit minimoida varaston kustannukset ja tarjota parempaa asiakaspalvelua. Ostokustannukset, kuten palvelukulut, ja varastoarvot, jotka aiheutuvat ostolaskujen tai -tilausten kirjaamisesta, vaikuttavat tuottolukuihin ja muihin talouden suorituskykyilmaisimiin (KPI) roolikeskuksessasi.
 
-## <a name="record-purchases-with-purchase-invoices"></a>Ostojen kirjaaminen ostolaskujen avulla
+## Ostojen kirjaaminen ostolaskujen avulla
 
 Kun varastonimikkeitä vastaanotetaan tai ostettu palvelu on valmis, ostolasku kirjataan varasto- ja taloustietueiden päivittämiseksi ja laskun aktivoimiseksi toimittajalle maksuehtojen mukaan. [Maksujen suorittaminen](payables-make-payments.md).
 
 > [!CAUTION]  
 > Älä kirjaa ostolaskun fyysisiä nimikkeitä, ennen kuin vastaanotat nimikkeet ja tiedät oston lopullisen kustannuksen, mahdolliset lisäkustannukset mukaan lukien. Muussa tapauksessa varaston arvo ja voittoluvut voivat olla virheelliset.
 
-### <a name="create-a-and-post-purchase-invoice"></a>Ostolaskun luominen ja kirjaaminen
+### Ostolaskun luominen ja kirjaaminen
 
 Seuraavassa kerrotaan, miten ostolasku luodaan. Vaiheet ovat samankaltaisia ostotilaukselle. Tärkein ero on se, että ostotilauksilla on lisäkenttiä ja -toimintoja nimikkeiden fyysistä käsittelemistä varten.
 
@@ -64,7 +64,7 @@ Osto vaikuttaa nyt varastoon, resurssitapahtumiin ja taloustietueisiin, ja myyj�
 >
 > Voit tarkistaa kirjattavat summat menemällä **Tilastotiedot**-sivulle. Sivulla otetaan huomioon pyöristyslaskelmat. Jos valitset **Vapauta**-toiminnon, summakentät päivitetään niin, että ne sisältävät pyöristyslaskelmat.
 
-## <a name="posted-invoices"></a>Kirjatut laskut
+## Kirjatut laskut
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
@@ -73,7 +73,7 @@ Voit helposti korjata tai peruuttaa kirjatun ostolaskun ennen kuin maksua toimit
 [Avaa **Kirjatut ostolaskut** -luettelo](https://businesscentral.dynamics.com/?page=146) [!INCLUDE [prod_short](includes/prod_short.md)] -ratkaisussa.
 
 
-## <a name="purchasing-non-inventory-items"></a>Muiden kuin varastonimikkeiden osto
+## Muiden kuin varastonimikkeiden osto
 
 Ostolaskun rivejä voivat olla **Resurssi**- tai **Nimike**-tyyppiä. Tuotekortit voidaan luokitella edelleen **varasto**-, **palvelu**- tai **ei-varasto**-tyyppiin, mikä määrittää, onko tuote fyysinen varastoyksikkö, työaikayksikkö (koskee myös resursseja) vai fyysinen yksikkö, jota ei säilytetä inventaarioon. Lisätietoja on kohdassa [Uusien nimikkeiden rekisteröinti](inventory-how-register-new-items.md). Ostolaskuprosessi on sama kaikille mainituille nimiketyypeille.
 
@@ -82,7 +82,7 @@ Ostolaskun rivejä voivat olla **Resurssi**- tai **Nimike**-tyyppiä. Tuotekorti
 >
 > Jos haluat käyttää ostettua resurssia, resurssin kapasiteetti on mahdollisesti määritettävä ja liitettävä manuaalisesti työhön. Resurssin ostaminen luo resurssitapahtuman. Resurssitapahtumia ei kuitenkaan seurata määrän ja arvon osalta kuten esimerkiksi nimikkeitä. Jos määrän ja arvon seuranta on pakollista, kannattaa harkita muiden rivinimiketyyppien käyttämistä.
 
-## <a name="when-to-use-purchase-orders"></a>Ostotilausten käyttö
+## Ostotilausten käyttö
 
 Ostotilauksia on käytettävä, jos ostoprosessi vaatii tilausmäärän osittaisten vastaanottojen tallentamisen esimerkiksi silloin, kun koko määrä ei ole kerralla toimittajan käytettävissä. Jos toimitat nimekkeitä suoraan toimittajalta asiakkaalle suoratoimituksena, ostotilauksia on käytettävä. Lisätietoja on kohdassa [Tee suoratoimituksia](sales-how-drop-shipment.md).
 
@@ -92,7 +92,7 @@ Kaikilta muilta osin ostotilaukset toimivat samalla tavalla kuin ostolaskut. Seu
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
-## <a name="receive-items-with-a-purchase-order"></a>Nimikkeiden vastaanottaminen ostotilauksella
+## Nimikkeiden vastaanottaminen ostotilauksella
 
 Seuraavaksi käsitellään, miten nimikkeitä vastaanotetaan ostotilauksella. 
 
@@ -109,19 +109,19 @@ Seuraavaksi käsitellään, miten nimikkeitä vastaanotetaan ostotilauksella.
 > [!NOTE]
 > Jos käytössä fyysisen varaston käsittely, ostotilauksen **Kirjaa**-toimintoa ei voi käyttää vastaanoton rekisteröintiin. Tämä johtuu siitä, että varastotyöntekijä on jo kirjannut ostotilauksen määrän vastaanotetuksi. Lisätietoja on kohdassa [Rakennetiedot – saapuvan fyysisen varastoinnin virta](design-details-inbound-warehouse-flow.md).
 
-## <a name="receive-more-items-than-ordered"></a>Tilattua määrää useamman nimikkeen vastaanottaminen
+## Tilattua määrää useamman nimikkeen vastaanottaminen
 
 Jos saapuvia tavaroita on enemmän kuin tilattuja, ne halutaan ehkä vastaanottaa vastaanoton peruuttamisen sijaan. Voi esimerkiksi olla halvempaa pitää ylimääräiset nimikkeet varastossa kuin palauttaa ne. Toimittaja voi myös tarjota alennuksen nimikkeiden pitämisestä.
 
 <!--move the over-receipt setup info to an article about purchasing. Keep the concept info here and link to the steps-->
-### <a name="set-up-over-receipts"></a>Vastaanoton ylittävän määrän määrittäminen
+### Vastaanoton ylittävän määrän määrittäminen
 
 Ylittävän määrän koodien luominen määrittämään prosenttiosuus, jolla vastaanotettu määrä voi ylittää tilatun määrän. Prosenttiosuuden määrittäminen **Vastaanoton ylittävän määrän toleranssi-%** -kentässä. Sen jälkeen nimikkeille ja toimittajille määritetään koodi Nimikekortti- tai Toimittajakortti-sivuilla.  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vastaanoton ylittävän määrän koodit** ja valitse sitten vastaava linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="assign-the-over-receipt-code-to-an-item"></a>Vastaanoton ylittävän määrän koodin määrittäminen nimikkeelle
+### Vastaanoton ylittävän määrän koodin määrittäminen nimikkeelle
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet**, valitse sitten vastaava linkki.
 2. Avaa nimikkeen **Nimikekortti**-sivu.
@@ -132,7 +132,7 @@ Vastaanoton ylittävän määrän koodi on määritetty nimikkeelle. Nimikkeen o
 > [!NOTE]
 > Voit määrittää hyväksynnän työnkulun, jos vastaanoton ylittävät määrät on hyväksyttävä ennen käsittelemistä. Valitse **Hyväksyntä vaaditaan** -valintaruutu **Vastaanoton ylittävän määrän koodit** -sivulla. Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).
 
-### <a name="over-receive-an-order"></a>Tilauksen vastaanoton ylitys
+### Tilauksen vastaanoton ylitys
 
 Ostoriveillä ja varaston vastaanoton riveillä käytetään **Vastaanoton ylittävä määrä** -kenttää tallennettaessa vastaanoton ylittävät määrät. Nämä ovat määriä, jotka ylittävät tilatun määrän arvon **Määrä**-kentässä.
 
@@ -149,11 +149,11 @@ Kun käsittelet vastaanoton ylittävää määrää, voit suurentaa arvoa **Vast
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] ei automaattisesti käsittele vastaanoton ylittävien määrien taloudellisia seikkoja. Tämä on käsiteltävä manuaalisesti yhdessä toimittajan kanssa esimerkiksi niin, että toimittaja lähettää uuden tai päivitetyn laskun.
 
-## <a name="external-document-number"></a>Ulkoisen tiedoston numero
+## Ulkoisen tiedoston numero
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="posting-purchases"></a>Ostojen kirjaaminen
+## Ostojen kirjaaminen
 
 Voit valita ostoasiakirjassa seuraavien kirjaustoimintojen välillä:
 
@@ -183,17 +183,17 @@ Kirjausten tuloksena olevia tapahtumia voi aina tarkastella. Tarkista asiakirja 
 
 Voit kirjata tai kirjata ja tulostaa. Jos valitset kirjaamisen ja tulostamisen, raportti tulostetaan tilauksen kirjaamisen yhteydessä. **Kirjaa erä** -toiminnon kirjataksesi useita tilauksia samanaikaisesti. Lue lisätietoja kohdasta [Useiden asiakirjojen kirjaaminen samanaikaisesti](ui-batch-posting.md).
 
-## <a name="viewing-ledger-entries"></a>Kirjaustapahtuminen katselu
+## Kirjaustapahtuminen katselu
 
 Kun kirjaus on päättynyt, kirjatut ostorivit poistuvat tilauksesta. Viesti kertoo, milloin kirjaus on suoritettu loppuun. Tämän jälkeen voit nähdä kirjatut tapahtumat useissa kirjattuja tapahtumia sisältävissä sivuilla, kuten **Toimittajatapahtumat**, **KP-tapahtumat**, **Nimiketapahtumat**, **Resurssitapahtumat**, **Ostovastaanotot** ja **Kirjatut ostolaskut**.
 
 Useimmissa tapauksissa voit avata tapahtumat kortista tai asiakirjasta, johon ne vaikuttavat. Valitse esimerkiksi **Toimittajakortti**-sivulla **Tapahtumat**-toiminto.
 
-## <a name="editing-ledger-entries"></a>Kirjaustapahtuminen muokkaus
+## Kirjaustapahtuminen muokkaus
 
 Voit muokata arvoja kirjattujen ostoasiakirjojen tietyissä kentissä, kuten **Maksuviite**-kentässä. Lisätietoja on kohdassa [Kirjattujen asiakirjojen muokkaaminen](across-edit-posted-document.md). Jos sinulla on enemmän kriittisiä kenttiä, jotka vaikuttavat jäljitysketjuun, sinun täytyy peruuttaa tai kumota kirjaus. Lue lisätietoja kohdasta [Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Tarjousten pyytäminen](purchasing-how-request-quotes.md)  
 [Nimikkeiden ostaminen myyntiin](purchasing-how-purchase-products-sale.md)  

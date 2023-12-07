@@ -42,7 +42,7 @@ Lisää aiemmin luotuun nimikkeeseen markkinointitekstiä noudattamalla seuraavi
 
    1. Valitse oikeasta yläkulmasta ![Lamppu, joka avaa kerro minulle -ominaisuuden 22.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä"). -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki, joka näyttää saatavilla olevat nimikkeet.
 
-   2. Kaksoisnapsauta nimikettä tai valitse sen arvo kohdassa **Nro** -sarakkeessa.
+   2. Kaksoisnapsauta nimikettä tai valitse sen arvo kohdassa **Nro**-sarakkeessa .
 
    [![Näyttää nimikkeen kortin, jossa on markkinointitekstiruutu](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
 
@@ -120,7 +120,7 @@ Voit parantaa tekstiehdotuksia ja nipistää niitä henkilökohtaisten tai yrity
 1. Avaa Business Centralissa nimike, jota haluat muokata seuraavalla tavalla:
 
     1. Valitse oikeasta yläkulmasta ![Lamppu, joka avaa kerro minulle -ominaisuuden 22.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä"). -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki, joka näyttää saatavilla olevat nimikkeet.
-    2. Voit avata nimikkeen kaksoisnapsauttamalla sitä tai valitsemalla sen numeron **Nro** -kentässä.
+    2. Voit avata nimikkeen kaksoisnapsauttamalla sitä tai valitsemalla sen numeron **Nro**-kentässä .
 
 2. Tee jompikumpi seuraavista:
 

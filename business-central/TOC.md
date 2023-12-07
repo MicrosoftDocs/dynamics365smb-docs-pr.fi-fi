@@ -1,7 +1,7 @@
 
 # [Business Central -ohjeet](index.yml)
 # [Tervetuloa Business Centraliin](welcome.md)
-# [Uusia ja suunniteltuja ominaisuuksia](product-news.md)
+# [Uusia ja suunniteltuja ominaisuuksia](/dynamics365/business-central/dev-itpro/whatsnew/overview)
 # Aloittaminen
 ## [Yleiskatsaus yrityksen toiminnoista](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
