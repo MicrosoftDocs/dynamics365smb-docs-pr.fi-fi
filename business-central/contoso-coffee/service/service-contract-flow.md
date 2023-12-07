@@ -73,7 +73,7 @@ Huoltopäällikkö Charles luo tämän jälkeen huoltosopimuksen tavallisten kun
 - Allekirjoitettu huoltosopimus ja tapahtumakirjaukset luodaan
 - Kirjattu huoltolasku luodaan
 
-## <a name="creating-a-service-order-for-a-service-contract-and-assign-resources"></a>Huoltotilauksen luominen huoltosopimukselle ja resurssien määritteleminen
+## <a name="create-a-service-order-for-a-service-contract-and-assign-resources"></a>Huoltotilauksen luominen huoltosopimukselle ja resurssien määritteleminen
 
 ### <a name="scenario-2"></a>Skenaario
 

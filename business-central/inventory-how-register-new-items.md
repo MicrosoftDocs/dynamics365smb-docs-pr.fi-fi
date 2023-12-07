@@ -99,7 +99,7 @@ Kun pyydetty määrä on suurempi kuin määrä, joka on saatavilla varastossa, 
 
 Lisätietoja varianteista on kohdassa [Tuotevarianttien hallinta](inventory-item-variants.md).  
 
-## <a name="deleting-item-cards"></a>Nimikekorttien poistaminen
+## <a name="delete-item-cards"></a>Nimikekorttien poistaminen
 
 Jos olet kirjannut nimikkeelle tapahtuman, et voi poistaa korttia, koska nimiketapahtumia voi tarvita varaston arvostamiseen tai valvontaan. Voit poistaa nimiketapahtumia tapahtumakirjauksilta ottamalla yhteyttä Microsoft-kumppaniin koodin avulla.  
 

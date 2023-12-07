@@ -29,14 +29,14 @@ Maksuehdotuksia voi hyödyntää täysimääräisesti, kun toimittajat on ensin 
 > * erääntyneissä toimittajatapahtumissa, joita ei ole priorisoitu  
 > * Avoimissa toimittajatapahtumissa, joissa voi käyttää maksualennuksia. Tapahtumat on järjestetty toimittajan numeron mukaan.  
 
-## <a name="to-use-the-suggest-vendor-payments-function"></a>Ehdota toimittajamaksuja -toiminnon käyttäminen
+## <a name="use-the-suggest-vendor-payments-action"></a>Ehdota toimittajamaksuja -toiminnon käyttäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten vastaava linkki.  
 2. Avaa päiväkirja ja valitse **Ehdota toimittajamaksuja** -toiminto.  
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Valitse **OK**-painike.  
 
-## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Eräpäivän lisääminen maksupäiväkirjan rivien kirjauspäivämääräksi
+## <a name="insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Eräpäivän lisääminen maksupäiväkirjan rivien kirjauspäivämääräksi
 
 Kun **Ehdota toimittajamaksuja** -eräajoa käytetään toimittajien maksurivien luomisessa, täyttämällä kaksi erikoiskenttää voi varmistaa, että luodut rivit käyttävät eräpäivää kirjauspäivämäärän laskemisessa. Nämä kentät ovat **Laske kirjauspäivämäärä kohdistuksen asiakirjan eräpäivästä** ja **Kohdistuksen asiakirjan eräpäivän siirtymä**.  
 
