@@ -9,11 +9,11 @@ ms.date: 10/09/2023
 ms.custom: bap-template
 ms.search.form: '15, 5703, 7302, 7332, 5768'
 ---
-# Nimikkeiden laiturointi
+# <a name="cross-dock-items"></a>Nimikkeiden laiturointi
 
 Laituroidut nimikkeet ovat nimikkeitä, jotka vastaanotetaan ja toimitetaan ilman hyllytystä. Hyllytys- ja poimintaprosessit edellyttävät nimikkeiden rajoitettua käsittelyä. Toimitus- että tuotantotilausten nimikkeet voidaan laituroida.
 
-## Laituroinnin varastopaikat ja vyöhykkeet
+## <a name="cross-dock-bins-and-zones"></a>Laituroinnin varastopaikat ja vyöhykkeet
 
 Varastopaikkoja käytettäessä määritetään ainakin yksi laituroinnin varastopaikka ja sen jälkeen varastopaikka sijaintien **Laiturointivar.paikan koodi** -kentässä. Laiturointialue määritetään, jos käytössä on ohjattu hyllytys ja poiminta.
 
@@ -21,13 +21,13 @@ Kun toimitusta valmistellaan tai nimikkeitä poimintaan tuotantoon ja varastopai
 
 Jos laiturointimäärät on laskettu, laiturointilaskelmien hyllytysrivit luodaan laiturointivarastopaikkaan vastaanoton kirjauksen yhteydessä. Muita hyllytysrivejä luodaan tavalliseen tapaan.  
 
-## Vastaanoton laituroinnin valintarivit
+## <a name="cross-dock-select-lines-for-a-receipt"></a>Vastaanoton laituroinnin valintarivit
 
 Jos haluat kirjata laiturointinimikkeet heti saadaksesi ne poimittaviksi, hyllytys on rekisteröitävä myös muiden vastaanottoriviltä peräisin olevien varastoitavien nimikkeiden osalta. Jos vastaanottoriviltä laituroidaan vain muutama nimike, jäljelle jäävät nimikkeet tulisi hyllyttää niin pian kuin mahdollista. Toisaalta fyysisen varastoinnin toimintaohjeissa tulisi kannustaa kokonaisten vastaanottorivien laiturointiin aina, kun se on mahdollista.
 
 Kunkin hyllytettävän nimikkeen vastaanottorivin otto- ja asetusohjerivit poistetaan hyllytysohjeissa. Ohjerivit voidaan luoda myöhemmin uudelleen hyllytysriveinä hyllytystyökirjasta tai kirjatusta vastaanotosta. Kun ohjerivit on poistettu, laiturointinimikkeiden rivit voidaan hyllyttää ja rekisteröidä.  
 
-## Tietoja hyllytystyökirjasta -sivu
+## <a name="about-the-put-away-worksheet-page"></a>Tietoja hyllytystyökirjasta -sivu
 
 Jos **Käytä hyllytystyökirjaa** otetaan käyttöön vaihtopainikkeella **Sijaintikortti**-sivulla ja laskettuja laiturointeja sisältävä vastaanotto on kirjattu, kaikki vastaanottorivit tulevat saataville työkirjaan. Laiturointitiedot häviävät, eikä niitä voida luoda uudelleen. Niinpä laiturointitoimintoja käytettäessä rivit on siirrettävä hyllytystyökirjaan mieluummin poistamalla hyllytysohjeet kuin käyttämällä automaattista siirtotoimintoa, joka sisältyy **Käytä hyllytystyökirjaa** -kenttään.  
 
@@ -39,7 +39,7 @@ Kun fyysisen varaston vastaanotto kirjataan eikä **Käytä hyllytystyökirjaa**
 
 [!INCLUDE [prod_short](includes/prod_short.md)] ei pidä erillisiä tietueita laituroitaville nimikkeille. Se rekisteröi ne tavallisina hyllytysohjeina.  
 
-## Fyysisen varastoinnin määrittäminen laiturointia varten  
+## <a name="to-set-up-the-warehouse-for-cross-docking"></a>Fyysisen varastoinnin määrittäminen laiturointia varten
 
 1. Varastopaikkoja käytettäessä on määritettävä ainakin yksi laiturointivarastopaikka. Laiturointialue määritetään, jos käytössä on ohjattu hyllytys ja poiminta.  
 
@@ -61,7 +61,7 @@ Kun fyysisen varaston vastaanotto kirjataan eikä **Käytä hyllytystyökirjaa**
 > [!NOTE]  
 >  Laiturointi on mahdollista sijainnissa vain, jos sijainnissa on määritetty fyysisen varastoinnin vastaanoton ja hyllytyksen käsittely pakolliseksi.  
 
-## Nimikkeiden laituroiminen ilman mahdollisuuksien tarkastelua  
+## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Nimikkeiden laituroiminen ilman mahdollisuuksien tarkastelua
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston vastaanotot** ja valitse sitten vastaava linkki.  
 2. Luo varaston vastaanotot nimikkeelle, joka on saapunut ja voidaan laituroida. Saat lisätietoja vastaanottamisesta siirtymällä [Nimikkeiden vastaanottaminen](warehouse-how-receive-items.md) -kohtaan.  
@@ -79,7 +79,7 @@ Kun fyysisen varaston vastaanotto kirjataan eikä **Käytä hyllytystyökirjaa**
 6. Tulosta jäljellä oleville riveille hyllytysohje ja sijoita vastaanoton varastoitavat määrät sopiviin varastopaikkoihin tai sopivalle fyysisen varaston alueelle. Sijoita laiturointinimikkeet alueelle tai varastopaikkaan, joka osoitetaan niille fyysisen varastoinnin menettelytavoissa. Joskus fyysisen varastoinnin menettelytavoissa voidaan haluta nimikkeiden jättäminen vastaanottoalueelle.  
 7. Rekisteröi laituroidut nimikkeet hyllytetyiksi ja poimintaan käytettäviksi valitsemalla **Rekisteröi**-toiminto.  
 
-## Nimikkeiden laiturointi mahdollisuuksien tarkastelemisen jälkeen  
+## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Nimikkeiden laiturointi mahdollisuuksien tarkastelemisen jälkeen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston vastaanotot** ja valitse sitten vastaava linkki.  
 2. Luo varaston vastaanotot nimikkeelle, joka on saapunut ja voidaan laituroida.  
@@ -99,7 +99,7 @@ Kun fyysisen varaston vastaanotto kirjataan eikä **Käytä hyllytystyökirjaa**
     > [!NOTE]  
     > Fyysisen varastoinnin hyllytyksessä voit jatkaa tarpeen mukaan niiden määrien muuttamista, jotka hyllytetään varastoon tai laituroidaan. Voit esimerkiksi päättää laituroida ylimääräisen määrän nopeuttaaksesi laituroinnin rekisteröimistä.  
 
-## Laituroitujen nimikkeiden tarkasteleminen toimituksissa tai poimintatyökirjassa  
+## <a name="to-view-cross-docked-items-in-a-shipment-or-pick-worksheet"></a>Laituroitujen nimikkeiden tarkasteleminen toimituksissa tai poimintatyökirjassa
 
 Jos käytät varastopaikkoja, kun avaat toimituksen tai poimintatyökirjan, kunkin nimikkeiden määrä laiturointivarastopaikoissa päivitetään. Kun nimike on saatavilla laiturointivarastopaikassa, voit luoda poiminnan kaikille toimituksen nimikkeille. Poimintatyökirjassa voit muokata rivejä tarpeen mukaan.  
 
@@ -107,7 +107,7 @@ Kun tuotantotilaus vapautetaan, rivit ovat saatavilla poimintatyökirjassa ja **
 
 Jos et käytä varastopaikkoja, muista tarkastaa laiturointialue ajoittain tai turvaudu vastaanottoilmoituksiin siitä, että tuotannon nimikkeet ovat saapuneet.  
 
-## Katso myös  
+## <a name="see-also"></a>Katso myös
 
 [Varasto](inventory-manage-inventory.md)  
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)     

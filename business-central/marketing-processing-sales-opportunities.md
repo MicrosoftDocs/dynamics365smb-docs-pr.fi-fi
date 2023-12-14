@@ -10,10 +10,10 @@ ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: jswymer
 ---
-# Myyntimahdollisuuksien käsitteleminen
+# <a name="process-sales-opportunities"></a>Myyntimahdollisuuksien käsitteleminen
 Mahdollisuuden luomisen jälkeen sen hallinnassa ja valmistumisprosessissa voidaan käyttää useita toimintoja.
 
-## Mahdollisuuksien tarkasteleminen
+## <a name="to-view-opportunities"></a>Mahdollisuuksien tarkasteleminen
 Olemassa olevat myyntimahdollisuudet ovat käytettävissä **Mahdollisuusluettelo**-sivulla. Tätä sivua voidaan käyttää seuraavilla tavoilla myyntimahdollisuuksien käsittelemisessä:
 
 | Mahdollisuuksien tarkasteminen | Sitten |
@@ -24,7 +24,7 @@ Olemassa olevat myyntimahdollisuudet ovat käytettävissä **Mahdollisuusluettel
 
 Jokainen näistä tehtävistä avaa **Mahdollisuusluettelo**-sivun.
 
-## Mahdollisuuksien sulkeminen
+## <a name="to-close-opportunities"></a>Mahdollisuuksien sulkeminen
 Voit sulkea mahdollisuuden, kun neuvottelut ovat ohi. Mahdollisuuden sulkemisen yhteydessä voit määrittää, onko se voitettu vai menetetty ja sulkemisen syyt. Syyn määrittäminen edellyttää suljettujen mahdollisuuksien koodien määrittämistä.
 
 1. Valitse **Mahdollisuusluettelo**-sivulla mahdollisuus ja valitse sitten **Sulje**-toiminto. **Sulje mahdollisuus** -sivu avautuu.
@@ -34,14 +34,14 @@ Voit sulkea mahdollisuuden, kun neuvottelut ovat ohi. Mahdollisuuden sulkemisen 
 
    Valitse **Sulje mahdollisuuden koodi** -kentässä jokin olemassa olevista suljettujen mahdollisuuksien koodeista tai lisää uusi koodi. Voit lisätä uuden koodin valitsemalla avattavasta luettelosta **Valitse koko luettelosta** ja valitsemalla sitten **Uusi**. Täytä tyhjän rivin **Koodi**-, **Tyyppi**- ja **Kuvaus**-kenttä ja valitse sitten **OK**-painike.
 
-## Tarjousten luominen mahdollisuuksille
+## <a name="to-create-quotes-for-opportunities"></a>Tarjousten luominen mahdollisuuksille
 > [!NOTE]
 > Voit luoda myyntitarjouksia vain mahdollisuuksista, joiden yhteyshenkilön tyyppi on Yritys.
 
 1. Valitse **Mahdollisuusluettelo**-sivulla mahdollisuus ja valitse sitten **Määritä myyntitarjous** -toiminto. **Myyntitarjous**-sivu aukeaa.
 2. Täytä asianmukaiset kentät.
 
-## Mahdollisuuksien myyntitilausten luominen
+## <a name="to-create-sales-orders-for-opportunities"></a>Mahdollisuuksien myyntitilausten luominen
 Voit tehdä myyntitilauksia niistä myyntitarjouksista, jotka olet luonut mahdollisuuksillesi. Ennen kun voit luoda myyntitilauksia kontakteillesi, sinun täytyy luoda kontaktista asiakas. Lisätietoja on kohdassa [Kontaktien luominen](marketing-create-contact-companies.md).
 
 1. Etsi **Mahdollisuusluettelo**-sivulla mahdollisuus, jolle olet luonut myyntitarjouksen.
@@ -50,7 +50,7 @@ Voit tehdä myyntitilauksia niistä myyntitarjouksista, jotka olet luonut mahdol
 
 Käsitellessäsi myyntien mahdollisuuksia sinulle ehkä tarvitsee luoda tarjous sille kontaktille, johon mahdollisuus on linkitetty.
 
-## Mahdollisuuksien poistaminen
+## <a name="to-delete-opportunities"></a>Mahdollisuuksien poistaminen
 Voit poistaa mahdollisuuksia esimerkiksi silloin, kun olet tehnyt sopimuksen. Voit kuitenkin poistaa vain suljettuja mahdollisuuksia. Suljetut mahdollisuudet voi poistaa kahdella eri tavalla. Voit poistaa yksittäisiä suljettuja mahdollisuuksia **Mahdollisuusluettelo**-sivulla tai voit suorittaa **Poista suljetut mahdollisuudet** -erätyön ja poistaa useita mahdollisuuksia määritettyjen ehtojen perusteella.
 
 Voit poistaa suljetut mahdollisuudet **Mahdollisuusluettelo**-sivulla valitsemalla mahdollisuuden ja valitsemalla sitten **Poista**-toiminnon.
@@ -63,7 +63,7 @@ Voit poistaa suljetut mahdollisuudet **Poista suljetut mahdollisuudet** -eräajo
 
 Kun olet poistanut mahdollisuuden, ohjelma poistaa sen **Mahdollisuusluettelo**-sivulta.
 
-## Mahdollisuuden siirtäminen myyntisyklin vaiheiden läpi
+## <a name="to-move-an-opportunity-through-sales-cycle-stages"></a>Mahdollisuuden siirtäminen myyntisyklin vaiheiden läpi
 Jos mahdollisuus seuraa myyntisykliä, voit siirtää sitä vaiheittain eteen- tai takaisinpäin eli seuraavaan tai edelliseen vaiheeseen. Voit jopa ohittaa vaiheita.
 
 1. Valitse **Mahdollisuusluettelo**-sivulla **Päivitä**-toiminto. **Päivitä mahdollisuus** -ikkuna avautuu.
@@ -75,7 +75,7 @@ Jos mahdollisuus seuraa myyntisykliä, voit siirtää sitä vaiheittain eteen- t
    * **Päivitä**-kohdan avulla voi muuttaa tietoja (kuten muokata onnistumismahdollisuuksien arviota ja arvioituja arvoja) ilman toiseen vaiheeseen siirtymistä.
 3. Täytä muut tarvittavat kentät ja valitse **OK**-painike.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  
 [Kontaktien luonti ja hallinta](marketing-contacts.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

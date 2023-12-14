@@ -10,7 +10,7 @@ ms.search.form: '99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 990
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Tuotantosolujen ja kuormituskeskusten määrittäminen
+# <a name="set-up-work-centers-and-machine-centers"></a>Tuotantosolujen ja kuormituskeskusten määrittäminen
 
 Sovelluksessa erotetaan kolme eri kapasiteettityyppiä. Tyypit on järjestelty hierarkkisesti. Jokaiseen tasoon kuuluu alatasoja.  
 
@@ -25,7 +25,7 @@ Saatavuus tallennetaan kalenteritapahtumiin.
 > [!IMPORTANT]
 > Tuotantokalenteri on määritettävä ennen tuotantosolujen tai kuormitusryhmien määrittämistä. Lisätietoja on kohdassa [Tuotantokalenterien luominen](production-how-to-create-work-center-calendars.md).
 
-## Tuotantosolun määrittäminen
+## <a name="to-set-up-a-work-center"></a>Tuotantosolun määrittäminen
 
 Seuraavaksi käsitellään ennen kaikkea tuotantosolun määrittämiseen. Kuormitusryhmän kalenterin määrittämisen vaiheet ovat vastaavanlaiset **Reitityksen asetukset** -pikavälilehteä lukuun ottamatta.  
 
@@ -71,13 +71,13 @@ Seuraavaksi käsitellään ennen kaikkea tuotantosolun määrittämiseen. Kuormi
 > [!NOTE]
 > Jonotusaikojen avulla voit määrittää puskurin sille, kuinka kauan komponentin saapumisesta kuormitusryhmälle tai tuotantosolulle kuluu toiminnon varsinaiseen aloittamiseen. Esimerkiksi osa toimitetaan kuormitusryhmälle klo 10:00, mutta se kestää tunnin, ennen kuin se asennetaan koneeseen, jolloin toiminto ei ala ennen klo 11:00. Jotta voisit ottaa huomioon kyseisen tunnin, jonotusaika on tunti. Kun lasketaan yhteen kuormitusryhmän tai tuotantosolun kortin **Jonotusaika**-kentän arvo sekä nimikkeen reititysrivin **Asetusaika**-, **Ajoaika**-, **Odotusaika**- ja **Siirtoaika**-kenttien arvot, saadaan nimikkeen tuotannon toimitusaika. Tämä auttaa tarjoamaan tarkkoja kokonaistuotantoaikoja.  
 
-## Huomioitavaa kapasiteetista
+## <a name="considerations-about-capacity"></a>Huomioitavaa kapasiteetista
 
 Tuotantosolulle ja kuormitusryhmälle määritetty kapasiteetti ja tehokkuus eivät vaikuta vain käytettävissä olevaan kapasiteettiin. Ne vaikuttavat myös tuotannon kokonaisaikaan, joka koostuu määritys- ja suoritusajasta. Ne puolestaan määritetään reititysrivillä.  
 
 Kun tietty reititysrivi kohdistetaan tuotantosolulle tai kuormitusryhmälle, järjestelmä laskee, kuinka paljon kapasiteettia tarvitaan ja kuinka kauan toiminnon valmistuminen kestää.  
 
-### Ajoaika
+### <a name="run-time"></a>Ajoaika
 
 Järjestelmä laskee ajoajan kohdistamalla täsmälleen sen ajan, joka on määritetty reititysrivin **Ajoaika**-kentässä. Tehokkuus ja kapasiteetti eivät kumpikaan vaikuta kohdistettuun aikaan. Jos ajoajaksi on esimerkiksi määritetty 2 tuntia, kohdistettu aika on 2 tuntia riippumatta siitä, mitä arvoja tuotantosolun tehokkuus- ja kapasiteettikentissä on.  
 
@@ -93,7 +93,7 @@ Toiminnon *kestossa* sen sijaan otetaan huomioon sekä tehokkuus että kapasitee
 
 Osittaisessa kapasiteetissa on tiettyjä hankaluuksia, ja sitä käsitellään myöhemmin. 
 
-### Määritysaika
+### <a name="setup-time"></a>Määritysaika
 
 Määritykseen kohdistettu aika määräytyy kapasiteetin mukaan, ja se lasketaan kaavalla *Määritysaika * kapasiteetti*. Jos kapasiteetiksi on esimerkiksi määritetty *2*, kohdistettu määritysaika kaksinkertaistuu, koska toimintoa varten on määritettävä kaksi konetta.  
 
@@ -104,7 +104,7 @@ Määritysajan *kesto* määräytyy tehokkuuden mukaan, ja se lasketaan kaavalla
 
 Osittaisen kapasiteetin hahmottaminen ei ole yksinkertaista, ja sitä vain käytetään vain tietyissä erikoistilanteissa.
 
-### Tuotantosolu käsittelee samanaikaisesti useita tilauksia
+### <a name="work-center-processing-multiple-orders-simultaneously"></a>Tuotantosolu käsittelee samanaikaisesti useita tilauksia
 
 Käytetään esimerkkejä ruiskumaalauspistettä. Siinä kunkin käsitellyn erän määritys- ja ajoaika on sama. Kussakin erässä voi olla useita yksittäisiä tilauksia, jotka maalataan samanaikaisesti.  
 
@@ -122,7 +122,7 @@ Kullekin yksittäiselle tilaukselle kohdistettu määritysaika on samanaikaisest
 Kummasakin tapauksessa kaikkien tilausten kohdistettu aika on yhteensä kaksi tuntia.
 
 
-### Tehokas resurssi voi varata vain osan työpäivästä tuottavaan työhön
+### <a name="efficient-resource-can-dedicate-only-part-of-their-work-date-to-productive-work"></a>Tehokas resurssi voi varata vain osan työpäivästä tuottavaan työhön
 
 > [!NOTE]
 > Tämä ei ole suositeltava skenaario. Sen sijaan kannattaa käyttää tehokkuutta. 
@@ -133,7 +133,7 @@ Kohdistettu ajoaika on kaksi tuntia ja kesto on neljä tuntia.
 
 Määritysaikaa ei kannata käyttää tällaisissa skenaarioissa, sillä järjestelmä kohdistaa 50 % ajasta. Jos määritysajaksi on määritetty *2*, kohdistettu määritysaika on yksi tunti ja kesto on kaksi tuntia.
 
-### Yhdistetty kalenteriin
+### <a name="consolidated-calendar"></a>Yhdistetty kalenteriin
 
 Kun **Yhdistetty kalenteriin** -kenttä on valittu, tuotantosolulla ei ole omaa kapasiteettia. Sen sijaan sen kapasiteetti on yhtä suuri kuin kaikkien tuotantosoluun määritettyjen kuormitusryhmien kapasiteettien summa.  
 
@@ -145,7 +145,7 @@ Jos käytössä on esimerkiksi kaksi kuormitusryhmää, joiden tehokkuus on 80 j
 > [!NOTE]
 >  **Kalenteriin yhdistetty** -kenttää käytetään, kun reititykset jäsennetään aikatauluttamaan tuotantotoiminnot kuormitusryhmä- eikä tuotantosolutasolla. Kun kalenteriin yhdistäminen tehdään, **Tuotantosolun kuormitus** -sivusta ja -raporteista tulee kaikkien tuotantosoluun määritettyjen kuormitusryhmien kootun kuormituksen yleiskuvaus.
 
-### Esimerkki - Tuotantosoluun liitetyt erilaiset kuormitusryhmät
+### <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Esimerkki - Tuotantosoluun liitetyt erilaiset kuormitusryhmät
 
 On tärkeää suunnitella, mitkä kapasiteetit muodostavat kokonaiskapasiteetin silloin, kun määritellään kuormitusryhmiä ja tuotantosoluja.
 
@@ -155,7 +155,7 @@ Jos tuotantosoluksi on kuitenkin yhdistetty identtisiä kuormitusryhmiä (kuten 
 
 Jos tuotantosolujen kapasiteettien ei ole tarkoitus vaikuttaa kokonaiskapasiteettiin, sen voi saavuttaa asettamalla tehokkuudeksi 0.
 
-## Kapasiteettirajoitetun kuormitusryhmän tai tuotantosolun määrittäminen
+## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Kapasiteettirajoitetun kuormitusryhmän tai tuotantosolun määrittäminen
 
 Tässä taulukossa on mahdollista määritellä tuotantoresurssit niille alueille, joita pidät kriittisinä, ja merkitä ne hyväksymään äärellinen kuormitus oletusarvoisen äärettömän kuormituksen sijaan, jotka muut tuotantoresurssit hyväksyvät. Kapasiteettirajoitettu resurssi voi olla tuotantosolu tai kuormitusryhmä, jonka olet tunnistanut pullonkaulaksi ja jolle haluaisit määritellä rajoitetun (rajallisen) kuormituksen.
 
@@ -174,7 +174,7 @@ Kun suunnitellaan kapasiteettirajoitettuja resursseja, järjestelmä varmistaa, 
 
 > Jos toiminto jaetaan, asetusaika kohdistetaan vain kerran, koska oletetaan, että jotkin manuaaliset muutokset suoritetaan aikataulun optimoimiseksi.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Tuotantokalenterien luominen](production-how-to-create-work-center-calendars.md)  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  

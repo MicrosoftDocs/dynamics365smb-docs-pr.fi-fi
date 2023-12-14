@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.date: 02/27/2023
 ms.custom: bap-template
 ---
-# Vaihekuvaus: Vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä
+# <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Vaihekuvaus: Vastaanotto ja hyllytys fyysisen varastoinnin perusmäärityksissä
 
 [!INCLUDE[prod_short](includes/prod_short.md)]issa nimikkeiden vastaanottoon ja hyllytykseen on neljä tapaa, jotka käsitellään seuraavassa taulukossa.
 
@@ -23,7 +23,7 @@ Lisätietoja on kohdassa [Saapuvien varastotyönkulku](design-details-inbound-wa
 
 Seuraavassa vaihekuvauksessa kuvataan edellisen taulukon menetelmää B.  
 
-## Tietoja tästä vaihekuvauksesta  
+## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta
 
 Jos fyysisen varastoinnin perusmääritykset määrittävät sijainnin edellyttämän hyllytyksen muttei vastaanoton käsittelyä, saapuvien lähdeasiakirjojen hyllytys- ja vastaanottotiedot tallennetaan ja kirjataan **Varaston hyllytys**-sivulla. Seuraavat asiakirjat ovat saapuvia lähdeasiakirjoja:
 
@@ -50,7 +50,7 @@ Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-## Roolit  
+## <a name="roles"></a>Roolit
 
 Seuraavat käyttäjärooli suorittavat tässä vaihekuvauksessa esiteltävät tehtävät:  
 
@@ -58,7 +58,7 @@ Seuraavat käyttäjärooli suorittavat tässä vaihekuvauksessa esiteltävät te
 * Ostaja  
 * Varastotyöntekijä  
 
-## Vaatimukset  
+## <a name="prerequisites"></a>Vaatimukset
 
 Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:  
 
@@ -70,15 +70,15 @@ Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:
     3. Valitse **Sijaintikoodi**-kentässä **HOPEA**.  
     4. Valitse **Oletus**-valintaruutu.  
 
-## Taustatietoja  
+## <a name="story"></a>Taustatietoja
 
 Ellen on CRONUS Finland Oy:n varastopäällikkö ja hän luo ostotilauksen, jossa on 10 yksikköä LS-75-nimikettä ja 30 yksikköä LS-81-nimikettä, toimittajalta 10000 toimitettavaksi HOPEISEEN varastoon. Kun toimitus saapuu varastoon, varastotyöntekijä Joakim hyllyttää nimikkeet niille määritettyihin oletusvarastopaikkoihin. Kun Joakim kirjaa hyllytyksen, nimikkeet kirjataan vastaanotetuksi varastoon, ja ne ovat käytettävissä myyntiä tai muita kysyntää varten.  
 
-## Sijainnin määrittäminen  
+## <a name="setting-up-the-location"></a>Sijainnin määrittäminen
 
 **Sijaintikortti**-sivun asetuksissa määritetään yrityksen varastointityönkulut.  
 
-### Sijainnin määrittäminen  
+### <a name="to-set-up-the-location"></a>Sijainnin määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten vastaava linkki.  
 2. Avaa asianmukaisen HOPEA sijainnin kortti.  
@@ -95,11 +95,11 @@ Ellen on CRONUS Finland Oy:n varastopäällikkö ja hän luo ostotilauksen, joss
 7. Valitse **Kiinteä**- ja **Oletus**-kentät.  
 8. Anna **Nimikenro**-kentässä **LS-81**.  
 
-## Ostotilauksen luominen  
+## <a name="create-the-purchase-order"></a>Ostotilauksen luominen
 
 Ostotilaukset ovat yleisin saapuvien lähdeasiakirjojen tyyppi.  
 
-### Ostotilausten luominen  
+### <a name="to-create-the-purchase-order"></a>Ostotilausten luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
@@ -119,11 +119,11 @@ Ostotilaukset ovat yleisin saapuvien lähdeasiakirjojen tyyppi.
 
     Kaiuttimien toimitus toimittajalta 10000 on saapunut HOPEISEEN varastoon, ja John ryhtyy hyllyttämään niitä.  
 
-## Nimikkeiden vastaanottaminen ja hyllyttäminen  
+## <a name="receive-and-put-the-items-away"></a>Nimikkeiden vastaanottaminen ja hyllyttäminen
 
 **Varastohyllytys**-sivulla voi hallita kaikkia tietyn lähdeasiakirjan saapuvia varastotoimintoja, kuten ostotilausta.  
 
-### Nimikkeiden vastaanottaminen ja hyllyttäminen  
+### <a name="to-receive-and-put-the-items-away"></a>Nimikkeiden vastaanottaminen ja hyllyttäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston hyllytykset** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
@@ -140,7 +140,7 @@ Ostotilaukset ovat yleisin saapuvien lähdeasiakirjojen tyyppi.
 
     40 kaiutinta on nyt rekisteröity hyllytetyiksi varastopaikasta S-01-0001, ja luodaan positiivinen nimiketapahtuma, joka heijastaa kirjattua ostotoimitusta.  
 
-## Katso myös  
+## <a name="see-also"></a>Katso myös
 
 [Nimikkeiden hyllyttäminen varastohyllytyksen avulla](warehouse-how-to-put-items-away-with-inventory-put-aways.md)  
 [Fyysisten perusvarastojen ja toimintoalueiden määrittäminen](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)  

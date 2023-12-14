@@ -9,40 +9,40 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ---
 
-# [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman automaattisten työnkulkujen vianmääritys
+# <a name="troubleshoot-your--automated-workflows"></a>[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman automaattisten työnkulkujen vianmääritys
 
 Kun muodostat yhteyden [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaan Power Automaten avulla automaattisten työnkulkujen luomiseksi, saatat törmätä virheviesteihin. Tässä artikkelissa on ratkaisuehdotuksia usein toistuviin ongelmiin.
 
-## Työnkulku ei toimi kaikissa luoduissa tai muuttuvissa tietueissa
+## <a name="flow-doesnt-run-on-all-records-created-or-changed"></a>Työnkulku ei toimi kaikissa luoduissa tai muuttuvissa tietueissa
 
-### Ongelma
+### <a name="problem"></a>Ongelma
 
 Jos tapahtuma luo tai muuttaa useita tietueita, työnkulkua ei suoriteta joissakin tai kaikissa tietueissa.
 
-### Mahdollinen syy
+### <a name="possible-cause"></a>Mahdollinen syy
 
 Tällä hetkellä työnkulun käsittelemien tietueiden määrä on rajoitettu. Jos 30 sekunnin kuluessa luodaan tai muutetaan yli 1000 tietuetta, työnkulkua ei käynnistetä.
 
 > [!NOTE]
 > Kehittäjien osalta työnkulun käynnistys tehdään webhook-ilmoitusten avulla, ja tämä rajoitus johtuu tavasta, jolla Business Central -yhdistin käsittelee `collection`-ilmoituksia. Lisätietoja on kehittäjän ja järjestelmänvalvojan ohjeen kohdassa [Webhookien käyttö Dynamics 365 Business Centralissa](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows).
 
-## "Business Central -palvelun vastaus on liian suuri" -virhe
+## <a name="the-response-from-the-business-central-service-is-too-large-error"></a>"Business Central -palvelun vastaus on liian suuri" -virhe
 
-### Ongelma
+### <a name="problem-1"></a>Ongelma
 
 Kun käytät tietueiden kanssa vuorovaikutuksessa olevaa toimintoa (kuten *Luo tietue (v3)* ja *Hae tietue (v3)*), Power Automate -näyttöön saattaa tulla tämän kaltainen virhe:
 
 `The response from the Business Central service is too large`
 
-### Mahdollinen syy
+### <a name="possible-cause-1"></a>Mahdollinen syy
 
 Vaikka Business Central ei ole määrittänyt ohjelmointirajapintojen palauttamien tietueiden kokoa, Power Automaten Dynamics 365 Business Central -yhdistin voi käsitellä vain enintään 8 Mt:n tietueita.
 
 Kaikki Microsoftin tarjoamat Business Centralin sovellusliittymät palauttavat tietueita tämän rajan puitteissa, mutta kumppanien tarjoamat sovellusliittymät eivät välttämättä. Jos näet virheen "Business Central -palvelun vastaus on liian suuri", ota yhteyttä käyttämäsi API-liittymän luoneeseen kumppaniin.
 
-## "Entiteettijoukkoa ei löydy" -virhe
+## <a name="entity-set-not-found-error"></a>"Entiteettijoukkoa ei löydy" -virhe
 
-### Ongelma
+### <a name="problem-2"></a>Ongelma
 
 Kun luot uuden Power Automate -työnkulun [!INCLUDE[prod_short](includes/prod_short.md)] -hyväksymiskäynnistimen avulla, esimerkiksi *Kun ostoasiakirjan hyväksyntää pyydetään*, näyttöön voi tulla tämän kaltainen virhesanoma:
 
@@ -50,11 +50,11 @@ Kun luot uuden Power Automate -työnkulun [!INCLUDE[prod_short](includes/prod_sh
 
 Paikkamerkki `\<name\>` on puuttuvan Web-palvelun palvelun nimi, kuten *workflowWebhookSubscriptions* tai *workflowPurchaseDocumentLines*.
 
-### Mahdollinen syy
+### <a name="possible-cause-2"></a>Mahdollinen syy
 
 Power Automaten käyttäminen hyväksyntiin edellyttää, että tietyt sivu- ja codeunit-objektit julkaistaan Web-palveluina. Oletusarvon mukaan useimmat tarvittavista objekteista julkaistaan Web-palveluina. Joissakin tapauksissa ympäristösi on ehkä mukautettu siten, että näitä objekteja ei enää julkaista.
 
-### Korjaa
+### <a name="fix"></a>Korjaa
 
 Siirry **Verkkopalvelut**-sivulle ja varmista, että seuraavat objektit on julkaistu Web-palveluina. Kaikille objekteille tulisi olla merkintä luettelossa , ja **Julkaistu**-valintaruutu valittuna.  
 
@@ -77,7 +77,7 @@ Siirry **Verkkopalvelut**-sivulle ja varmista, että seuraavat objektit on julka
 
 Lue lisää verkkopalvelujen julkaisemisesta kohdasta [Verkkopalvelun julkaiseminen](across-how-publish-web-service.md).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen käyttäminen Power Automate -työnkuluissa](across-how-use-financials-data-source-flow.md)  
 [Työnkulku](across-workflow.md)  

@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ---
 
-# Dynamics 365 Business Centralin vastuullisen tekoälyn usein kysytyt kysymykset
+# <a name="responsible-ai-faqs-for-for-dynamics-365-business-central"></a>Dynamics 365 Business Centralin vastuullisen tekoälyn usein kysytyt kysymykset
 
 [!INCLUDE[responsible-ai-features-intro](includes/responsible-ai-intro.md)]
 

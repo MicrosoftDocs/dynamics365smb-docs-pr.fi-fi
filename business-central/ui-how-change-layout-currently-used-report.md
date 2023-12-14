@@ -11,7 +11,7 @@ ms.search.form: '9652, 9650'
 ms.date: 03/07/2022
 ms.author: jswymer
 ---
-# (Vanha) Raportin käyttämän asettelun määrittäminen
+# <a name="legacy-set-the-layout-used-by-a-report"></a>(Vanha) Raportin käyttämän asettelun määrittäminen
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -24,7 +24,7 @@ Kun mukautettuja raportin asetteluita määritetään, voit valita ne asiakas- j
 > [!TIP]  
 > Word-raportin asettelua käyttävät asiakirjaraportit (eivät luettelot) ovat yleensä nopeampia kuin RDLC-raporttiasettelua käyttävät raportit. Jos sinulla on mahdollisuus valita asiakirjaraportin asetteluksi joko Word- tai RDLC-raportin asettelua, Word-raporttiasettelu on paras vaihtoehto.
 
-## Raporttia tai asiakirjaa varten käytettävän raporttiasettelun muuttaminen
+## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Raporttia tai asiakirjaa varten käytettävän raporttiasettelun muuttaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten vastaava linkki.
   
@@ -43,7 +43,7 @@ Kun mukautettuja raportin asetteluita määritetään, voit valita ne asiakas- j
 
 Lisätoimia ei vaadita, jos valitsit valmiin RDLC- tai Word-raporttiasettelun ja asettelua käytetään, kun raportti suoritetaan seuraavan kerran.
 
-## Raporttiasettelussa käytettävän mukautetun asettelun muuttaminen
+## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Raporttiasettelussa käytettävän mukautetun asettelun muuttaminen
 
 Haluat ehkä myös muuttaa käytössä olevaa mukautettua asettelua. Lisätietoja on kohdassa [Raportin mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md).
 
@@ -56,7 +56,7 @@ Valitsemasi mukautetun asettelun nimi näkyy nyt **Mukautetun asettelun kuvaus**
 
 Voit nyt siirtyä asiakas- ja toimittajakortteihin ja määrittää, mitä asetteluita käytetään eri asiakirjoissa, joita lähetät kyseessä olevalle asiakkaalle tai toimittajalle – esimerkiksi tilausvahvistuksissa tai maksumuistutuksissa. Lisätietoja on kohdassa [Asiakkaiden ja toimittajien asiakirja-asettelujen määrittäminen ](ui-define-customer-vendor-document-layouts.md).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -9,7 +9,7 @@ ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9
 ms.date: 09/19/2023
 ms.custom: bap-template
 ---
-# Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-"></a>Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Kun käsittelet [!INCLUDE [prod_short](includes/prod_short.md)] -tietoja eri tavoin, tiedot ovat vuorovaikutuksessa keskenään. Voit esimerkiksi luoda tietueita, syöttää tietoja, lajitella ja suodattaa tietoja, kirjoittaa muistioita ja viedä tietoja muihin sovelluksiin.
 
@@ -23,14 +23,14 @@ Jos haluat tarkastella kaikkia luettelosivun tai asiakirjarivien sarakkeita vaak
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="cheatsheet"></a>Vihjeet ja vinkit
+## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Vihjeet ja vinkit
 
 > [!TIP]
 > Jos haluat tulostettavan yleiskuvan eniten käytetyistä toiminnoista, valitse seuraava kuva ja lataa PDF-tiedosto.
 >
 > [ ![PDF-tiedoston kuvake.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "PDF-tiedoston avaava kuvake")
 
-## Lisätietolinkkejä
+## <a name="links-to-learn-more"></a>Lisätietolinkkejä
 
 Seuraava taulukko sisältää joitakin yleisiä toimintoja ja linkkejä niitä käsitteleviin ohjeaiheisiin.
 
@@ -56,13 +56,13 @@ Seuraava taulukko sisältää joitakin yleisiä toimintoja ja linkkejä niitä k
 |Raporttien ja asiakirjojen sisällön ja muodon hallinta. Määritä sisällytettävät kenttätiedot ja se, miten ne näkyvät. Voit esimerkiksi valita tekstityylin, lisätä kuvia ja paljon muuta.|[Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md) |
 |Tietoja toiminnoista, joiden ansiosta [!INCLUDE[prod_short](includes/prod_short.md)] on toimintarajoitteisten henkilöiden käytettävissä.|[Helppokäyttötoiminnot ja pikanäppäimet](ui-accessibility.md)|
 
-## Business Central -sovelluksen käyttäminen
+## <a name="getting-around-in-business-central"></a>Business Central -sovelluksen käyttäminen
 
 Seuraavassa on lyhyt video [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen käyttämisestä.
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## Työpöydän selaimen valitseminen
+## <a name="choosing-a-desktop-browser"></a>Työpöydän selaimen valitseminen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tukee useita selaimia, ja jokaisessa selaimessa on useita ominaisuuksia. Selain on merkittävässä roolissa käyttöliittymän reaktioissa ja toimivuudessa. Katso luettelo tuetuista, suositelluista selaimista [Business Central Onlinea](./product-requirements.md) ja [paikallista Business Centralia](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15) varten.
 
@@ -72,7 +72,7 @@ Seuraavassa on lyhyt video [!INCLUDE[prod_short](includes/prod_short.md)] -sovel
     > Internet Exploreria ei tueta enää. Lisätietoja on kohdassa [Microsoft Edge -dokumentaatio](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - Pidä selain päivitettynä uusimpaan versioon.
 
-## Toimintopalkit
+## <a name="action-bars"></a>Toimintopalkit
 
 [!INCLUDE [prod_short](includes/prod_short.md)]issa teet suurimman osan työstäsi luettelossa, asiakirjassa tai kortissa. Kaikilla sivuilla on palkki, jossa on niihin liittyviä toimintoja. Toiminnot ovat lähes samat yksittäisessä kortissa tai asiakirjassa sekä objektien luettelossa. Näin voit hallita yksittäistä myyntitilausta **Myyntitilaus** -sivulla ja **Myyntitilaukset**-luettelossa, mukaan lukien sen kirjaaminen ja laskutus.  
 
@@ -89,7 +89,7 @@ Kun etsit ja avaat luettelosivun, kuten **Myyntitilaukset**-luetteloa, se on nä
 
 Kun avaat saman luettelosivun kotisivultasi, **Hallinta**-toimintoa ei ole. Sen sijaan voit avata yksittäisen myyntitilauksen valitsemalla **Numero**-kentän. Tässä näkymässä toimintopalkkia ei voi kiinnittää.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Business Central -sovelluksen määrittäminen](setup.md)  

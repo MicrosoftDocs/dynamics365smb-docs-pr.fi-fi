@@ -10,7 +10,7 @@ ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Tietueiden kaksoiskappaleiden yhdistäminen
+# <a name="merge-duplicate-records"></a>Tietueiden kaksoiskappaleiden yhdistäminen
 
 Kun eri käyttäjät luovat uusia asiakkaan, toimittajan tai kontaktin kortteja ajan mittaan tai kun uusia tietueita luodaan automaattisesti siirron aikana, asiakkaalle, toimittajalle tai kontaktille voi tulla järjestelmään useita tietueita. Voit siinä tapauksessa käyttää säilytettävän tietueen kortin **Yhdistä kaksoiskappale** -sivua. Sivulla on yleiskatsaus kenttäarvoista, joilla on kaksoiskappaleita, ja toimintoja, joilla valitaan, mitkä arvot säilytetään tai hylätään, kun kaksi tietuetta yhdistetään.
 
@@ -56,7 +56,7 @@ Seuraava toimenpide perustuu asiakaskorttiin. Toimittajan ja kontaktin korttien 
 > [!NOTE]
 > Voit etsiä kontaktien kaksoiskappaleet toiminnolla ennen **Yhdistä kaksoiskappale** -sivun käyttämistä. Lisätietoja on kohdassa [Kontaktien kaksoiskappaleiden hakeminen](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Yhteyshenkilöiden määrittäminen](marketing-setup-contacts.md)  

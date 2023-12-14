@@ -10,7 +10,7 @@ ms.search.form: '5, 16, 118, 459, 460, 495'
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# Laskun pyöristyksen määrittäminen
+# <a name="set-up-invoice-rounding"></a>Laskun pyöristyksen määrittäminen
 Jos laskujen summat on pyöristettävä laskuja luotaessa, voit käyttää automaattista pyöristystoimintoa. Kun lasku pyöristetään, lisätään lisärivi, joka sisältää pyöristyssumman ja joka kirjataan muiden laskurivien kanssa.
 
 > [!NOTE]  
@@ -25,10 +25,10 @@ Jos haluat käyttää automaattista laskun pyöristystä, sinun on
 > [!NOTE]  
 >  Laskun pyöristysominaisuuksien lisäksi laskujen summien pyöristyksessä voi käyttää yksikkösumman ja summan pyöristysominaisuuksia.  
 
-## KP-tilien määrittäminen laskun kohdistuksen pyöristyseroille
+## <a name="set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>KP-tilien määrittäminen laskun kohdistuksen pyöristyseroille
 Kun haluat käyttää ohjelman automaattista laskunpyöristystoimintoa, sinun täytyy määrittää se KP-tili (tai ne KP-tilit), joille pyöristyserot kirjataan. Sitä ennen sinun täytyy luoda tuotteen ALV-kirjausryhmät. Lisätietoja on kohdassa [ALV:n määrittäminen](finance-setup-vat.md).  
 
-### KP-tilien määrittäminen laskun kohdistuksen pyöristyseroille  
+### <a name="to-set-up-general-ledger-accounts-for-invoice-rounding-differences"></a>KP-tilien määrittäminen laskun kohdistuksen pyöristyseroille
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten vastaava linkki.  
 2. Määritä tili **Tilikartta**-sivulla ja anna sen nimeksi esimerkiksi **Laskun pyöristys**. [!INCLUDE[prod_short](includes/prod_short.md)] käyttää tätä tilin nimeä pyöristetyissä laskuissa.  
 3. Valitse **Veron ALV-kirjausryhmä**- tai **Tuotteen ALV-kirjausryhmä** -kentässä pyöristettyjen summien kirjausryhmä sen mukaan, onko kyseessä ALV- vai myyntivero. Voit halutessasi määrittää uuden ryhmäkoodin laskun pyöristystä varten.
@@ -36,24 +36,24 @@ Kun haluat käyttää ohjelman automaattista laskunpyöristystoimintoa, sinun t�
 
 Voit nyt määrittää laskun pyöristystilin kirjausryhmille **Toimittajan kirjausryhmät** -sivulla.  <!-- Why only the vendor posting groups? -->
 
-## Ulkomaan valuutan ja paikallisen valuutan pyöristämisen määrittäminen
+## <a name="set-up-rounding-for-foreign-and-local-currencies"></a>Ulkomaan valuutan ja paikallisen valuutan pyöristämisen määrittäminen
 Ulkomaanvaluutan ja paikallisen valuutan pyöristämissäännöt on määritettävä ennen automaattisen pyöristystoiminnon käyttöä.
 
-### Ulkomaan valuuttojen pyöristyssääntöjen määrittäminen  
+### <a name="to-set-up-rounding-for-foreign-currencies"></a>Ulkomaan valuuttojen pyöristyssääntöjen määrittäminen
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Valuutat** ja valitse sitten vastaava linkki.  
 2. Avaa **Valuutan kortti** valitsemalla **Valuutat**-sivulla ulkomaanvaluutta ja täytä sitten **Summan pyöristystarkkuus**-, **Yksikkösumman pyöristystarkkuus**-, **Laskun pyöristystarkkuus**- ja **Laskun pyöristystyyppi** -kentät.
 
-### Paikallisen valuutan pyöristyssääntöjen määrittäminen
+### <a name="to-set-up-rounding-for-your-local-currency"></a>Paikallisen valuutan pyöristyssääntöjen määrittäminen
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** ja valitse sitten vastaava linkki.  
 2. Täytä **Pääkirjanpidon asetukset** -sivun **Yleiset**-pikavälilehdessä **Laskun pyöristystarkkuus**- ja **Laskun pyöristystyyppi** -kentät.  
 
-## Laskun pyöristystoiminnon aktivointi  
+## <a name="activate-the-invoice-rounding-function"></a>Laskun pyöristystoiminnon aktivointi
 Laskun pyöristystoiminto on aktivoitava, jotta voit varmistaa myynti- ja ostolaskujen automaattisen pyöristyksen. Voit aktivoida laskunpyöristyksen erikseen myynti- ja ostolaskuille.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntien ja myyntisaamisten asetukset** tai **Ostojen ja ostovelkojen asetukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Yleiset**-pikavälilehdessä **Laskun pyöristys** -valintaruutu.  
 
-## Katso myös  
+## <a name="see-also"></a>Katso myös
 [Myynnin laskutus](sales-how-invoice-sales.md)  
 [Ostojen kirjaus](purchasing-how-record-purchases.md)
 

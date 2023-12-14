@@ -8,7 +8,7 @@ ms.date: 11/08/2023
 ms.custom: bap-template
 ---
 
-# Huoltonimikkeiden huoltosopimusten vaihekuvaus
+# <a name="walkthrough-of-service-contracts-for-service-items"></a>Huoltonimikkeiden huoltosopimusten vaihekuvaus
 
 Tässä vaihekuvauksessa kuvataan useita ydinprosesseja:
 
@@ -19,13 +19,13 @@ Tässä vaihekuvauksessa kuvataan useita ydinprosesseja:
 - Täytä huoltotilauksen aikatapahtuma
 - Kirjaa ja laskuta sopimushuoltotilaus
 
-## Huoltonimikkeiden luonti
+## <a name="creation-of-service-items"></a>Huoltonimikkeiden luonti
 
-### Skenaario  
+### <a name="scenario"></a>Skenaario
 
 Tilausten käsittelijä Susan kirjaa myyntitilauksen, jossa myydään huoltonimikkeen luomiseen määritettyä nimikettä.  
 
-### Vaiheet
+### <a name="steps"></a>Vaiheet
 
 1. Tarkista, että **Nimike**-kohdassa on valittuna **Huoltonimikeryhmä**.
    
@@ -39,13 +39,13 @@ Tilausten käsittelijä Susan kirjaa myyntitilauksen, jossa myydään huoltonimi
     2. Valitse asiakkaan 10000 tilaus. Ulkoisten tilausten nro on *SVC-1*.
     3. Toimita nimike asiakkaalle valitsemalla **Kirjaa**-toiminto.
 
-### Tulokset
+### <a name="results"></a>Tulokset
 
 - Asiakkaalle 10000 luodaan huoltonimike
 
-##  Huoltosopimuksen laskuttaminen
+## <a name="invoicing-a-service-contract"></a>Huoltosopimuksen laskuttaminen
 
-### Skenaario
+### <a name="scenario-1"></a>Skenaario
 
 Huoltopäällikkö Charles luo tämän jälkeen huoltosopimuksen tavallisten kunnossapitokäyntien laskuttamiseksi.
 
@@ -68,18 +68,18 @@ Huoltopäällikkö Charles luo tämän jälkeen huoltosopimuksen tavallisten kun
    1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltolaskut** ja valitse sitten vastaava linkki.
    2. Etsi huoltolasku ja valitse **Kirjaa**-toiminto.
 
-### Tulokset
+### <a name="results-1"></a>Tulokset
 
 - Allekirjoitettu huoltosopimus ja tapahtumakirjaukset luodaan
 - Kirjattu huoltolasku luodaan
 
-## Huoltotilauksen luominen huoltosopimukselle ja resurssien määritteleminen
+## <a name="create-a-service-order-for-a-service-contract-and-assign-resources"></a>Huoltotilauksen luominen huoltosopimukselle ja resurssien määritteleminen
 
-### Skenaario  
+### <a name="scenario-2"></a>Skenaario
 
 Huoltopäällikkö Charles luo huoltotilaukset huoltosopimuksen mukaisille tavallisille kunnossapitotilauksille ja tarkistaa niiden määrittämisen lähetystaulukosta.
 
-### Vaiheet
+### <a name="steps-1"></a>Vaiheet
 
 1. Suorita huoltotilaukset, jotka täyttävät aktiivisten huoltosopimusten velvoitteet.
    1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Luo sopimushuoltotilauksia** ja valitse sitten vastaava linkki.
@@ -102,21 +102,21 @@ Huoltopäällikkö Charles luo huoltotilaukset huoltosopimuksen mukaisille taval
     3. Kohdistus muutetaan tilaksi Aktiivinen.
     4. Kun lähetystaulukko päivitetään, huoltotilauksen **Kohdistusten lkm** muuttuu 0:sta 1:een.
 
-### Tulokset
+### <a name="results-2"></a>Tulokset
 
 - Huoltotilaukset luodaan huoltosopimuksille
 - Huoltotilaukset kohdistetaan resurssille työn loppuunsaattamiseksi
 
-## Täytä huoltotilauksen aikatapahtuma ja kirjaa huoltotilaus
+## <a name="complete-the-time-entry-for-the-service-order-and-post-the-service-order"></a>Täytä huoltotilauksen aikatapahtuma ja kirjaa huoltotilaus
 
-### Skenaario  
+### <a name="scenario-3"></a>Skenaario
 
 Huoltoteknikko rekisteröi aikansa suoraan huoltotilausta vastaan ja merkitsee tilauksen valmiiksi.
 
 > [!NOTE]
 > Huoltotilausten aikatapahtuma voidaan syöttää tuntiraporttien avulla. Lisätietoja on kohdassa [linkki tuntiraporttiin, jos tässä huomautuksessa on järkeä].
 
-### Vaiheet
+### <a name="steps-2"></a>Vaiheet
 
 1. Etsi huoltotilaus ja syötä aika huoltoriville
    1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset** ja valitse sitten vastaava linkki.
@@ -131,11 +131,11 @@ Huoltoteknikko rekisteröi aikansa suoraan huoltotilausta vastaan ja merkitsee t
 2. Kirjaa kulutus huoltotilauksessa
    1. Suorita huoltotilaus loppuun valitsemalla **Kirjaa**-toiminto, valitse **Toimitus ja kulutus** -toiminto ja valitse sitten **OK**.
 
-### Tulokset
+### <a name="results-3"></a>Tulokset
 
 - Huoltotapahtumat luodaan huoltonimikkeen, huoltosopimuksen ja resurssin kanssa
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Contoso Coffeen demotietojen esittely](../../contoso-coffee/contoso-coffee-intro.md)  
 [Tietoja tuotantotilauksista](../../production-about-production-orders.md)

@@ -11,7 +11,7 @@ ms.search.form: '460, 9307'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Ostaminen
+# <a name="purchasing"></a>Ostaminen
 
 Voit luoda ostolaskun tai -tilauksen ostojen kustannusten tallentamiseksi ja ostoreskontran seuraamiseksi. Jos haluat hallita varastoa, myös ostolaskuja käytetään varastotasojen dynaamiseen päivittämiseen, jotta voit minimoida varaston kustannukset ja tarjota parempaa asiakaspalvelua. Ostokustannukset, sisältäen palvelukulut ja varastoarvot, jotka aiheutuvat tiliöinnin ostolaskuista, vaikuttavat voittolukuihin ja muihin talouden KPI:hin roolikeskuksessasi.
 
@@ -39,11 +39,11 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Ratkaise ristiriita, kun samalla toimittajalla on ainakin tietuetta.|[Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)|
 |Voit hallita toimittajan suurta määrää koskevaa ostositoumustasi, joka toimitetaan useassa erässä tietyn ajan kuluessa.|[Puiteostotilaukset käyttäminen](sales-how-to-create-blanket-sales-orders.md)|
 
-## Ulkoisen tiedoston numerot
+## <a name="external-document-numbers"></a>Ulkoisen tiedoston numerot
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Ostojen määrittäminen](purchasing-setup-purchasing.md)  
 [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md)  

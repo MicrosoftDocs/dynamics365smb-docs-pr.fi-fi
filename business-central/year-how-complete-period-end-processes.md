@@ -10,11 +10,11 @@ ms.search.keywords: 'year closing, close accounting period, close fiscal year, a
 ms.date: 08/29/2022
 ms.author: jswymer
 ---
-# Kirjanpitojaksojen sulkemistehtävien yleiskatsaus
+# <a name="overview-of-tasks-to-close-accounting-periods"></a>Kirjanpitojaksojen sulkemistehtävien yleiskatsaus
 
 [!INCLUDE[prod_short](includes/prod_short.md)] ei pakota päättämään kausia, joskin on monia kauden lopussa (kuukauden lopussa) aktiviteetteja, jotka voit tehdä. Tässä ohjeaiheessa on yleiskatsaus kausien päättämiseen liittyvistä valinnaisista prosesseista ja aktiviteeteista.  
 
-## Pääkirjanpito
+## <a name="general-ledger"></a>Pääkirjanpito
 
 * Määritä järjestelmänlaajuiset ja käyttäjäkohtaiset kirjausjaksot.  
 
@@ -25,7 +25,7 @@ ms.author: jswymer
 * Suorita talousraportit seuraavasti:  
   * Avaa **Talousraportit**-sivu ja valitse **Tulosta**-toiminto.  
 
-## Myynnit ja myyntisaamiset
+## <a name="sales-and-receivables"></a>Myynnit ja myyntisaamiset
 
 * Kirjaa kaikki myyntitilaukset, laskut, hyvityslaskut ja palautustilaukset.  
 * Kirjaa kaikki kassapäiväkirjat.  
@@ -33,7 +33,7 @@ ms.author: jswymer
 * Täsmäytä myyntisaatavat pääkirjanpitoon.  
 * Suorita **Poista laskutetut myyntitilaukset** -eräajo.  
 
-## Ostot ja ostovelat
+## <a name="purchases-and-payables"></a>Ostot ja ostovelat
 
 * Kirjaa kaikki ostotilaukset, laskut, hyvityslaskut ja palautustilaukset.  
 * Kirjaa kaikki maksupäiväkirjat.  
@@ -41,7 +41,7 @@ ms.author: jswymer
 * Suorita **Ostovelkojen tilanne** -raportti ja täsmäytä ostovelat pääkirjanpitoon.  
 * Suorita **Poista laskutetut ostotilaukset** -eräajo.  
 
-## Käyttöomaisuus
+## <a name="fixed-assets"></a>Käyttöomaisuus
 
 * Kirjaa kaikki kunnossapitokustannukset, jotka on kirjattu käyttöomaisuuspäiväkirjojen tai laskujen kautta.
 * Kirjaa muutokset.
@@ -49,15 +49,15 @@ ms.author: jswymer
 * Kirjaa arvonalennus.
 * Päivitä ja kirjaa toistuva käyttöomaisuuspäiväkirja.
 
-## Konserni
+## <a name="intercompany"></a>Konserni
 
 * Käsittele konsernin tapahtumat.
 
-## Arvonlisäveron laskeminen ja käsitteleminen
+## <a name="calculate-and-process-sales-tax"></a>Arvonlisäveron laskeminen ja käsitteleminen
 
 * Täytä ALV-ilmoitukset.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Vuosien ja kausien sulkeminen](year-close-years-periods.md)  
 [Kirjojen sulkeminen](year-close-books.md)  
