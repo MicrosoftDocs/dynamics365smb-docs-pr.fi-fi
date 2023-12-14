@@ -5,13 +5,13 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 10/29/2023
+ms.date: 11/17/2023
 ms.custom: bap-template
 ---
 
 # Markkinointitekstin lisääminen nimikkeille
 
-Voit kirjoittaa nimikettä koskevan *markkinointitekstin* mille tahansa Business Centralin rekisteröidylle nimikkeelle. Vaikka markkinointiteksti on eräänlainen kuvaus, se on eri kuin nimikkeen **Kuvaus**-kenttä. **Kuvaus**-kenttää käytetään tyypillisesti suppeana näyttönimenä, jotta tuote voidaan määrittää nopeasti. Toisaalta markkinointiteksti on rikas ja kuvaava teksti. Sen tarkoitus on lisätä markkinointi-ja mainossisältöä, joka tunnetaan myös nimellä *copy*. Tämä teksti voidaan julkaista nimikkeen kanssa, jos se julkaistaan esimerkiksi verkkokaupassa, kuten Shopify.
+Voit kirjoittaa nimikettä koskevan *markkinointitekstin* mille tahansa Business Centralin rekisteröidylle nimikkeelle. Vaikka markkinointiteksti on eräänlainen kuvaus, se on eri kuin nimikkeen **Kuvaus**-kenttä. **Kuvaus**-kenttää käytetään tyypillisesti suppeana näyttönimenä, jotta tuote voidaan määrittää nopeasti. Toisaalta markkinointiteksti on rikas ja kuvaava teksti. Sen tarkoitus on lisätä markkinointi-ja mainossisältöä, joka tunnetaan myös nimellä *copy*. Tämä teksti voidaan sitten julkaista tuotteen kanssa, jos se on julkaistu verkkokaupassa, kuten Shopifyssa, tai liittää sähköposteihin tai muihin asiakkaiden kanssa käytäviin keskusteluihin.
 
 Markkinointitekstin voi luoda kahdella tavalla. Helpoin tapa päästä alkuun on käyttää Copilotia, mikä ehdottaa sinulle tekoälyn luomaa tekstiä. Toinen vaihtoehto on aloittaa tyhjästä. 
 
@@ -19,20 +19,22 @@ Markkinointitekstin voi luoda kahdella tavalla. Helpoin tapa päästä alkuun on
 
 Copilot luo nopeasti tekstiehdotuksen, joka luodaan puolestasi automaattisesti. Tekoälyn luoma teksti on räätälöity nimikkeelle ja se antaa hyvän lähtökohdan. Teksti perustuu seuraaviin tietoihin:
 
-- Nimikkeelle määritetyt määritteet – esimerkiksi kuvaus, väri, dimensiot, materiaali ja niin edelleen.
+- Nimikkeelle määritetyt määritteet – esimerkiksi kuvaus, väri, dimensiot, materiaali ja niin edelleen. [Lisätietoja on nimikemääritteistä](inventory-how-work-item-attributes.md).
+- Nimikkeen **Kuvaus**-kenttä.
+- Nimikeluokka. [Lisätietoja nimikkeiden luokittelusta](inventory-how-categorize-items.md).
 - Valittavissa olevat tyyliasetukset, kuten äänensävy, muoto ja pituus.
 
 Copilot on suunniteltu säästämään sinua ja auttamaan luovan ja mukaansatempaavan tekstin kirjoittamisessa, joka kuvastaa brändiä ja on yhdenmukainen koko tuotelinjan kanssa. Aloita luomalla ehdotus ja muuta ehdotettua tekstiä tarpeen mukaan.
 
 ### Vaatimukset
 
-- Markkinointitekstiehdotustoiminto on otettu käyttöön ja aktivoitu ympäristössä. Tämän toiminnon tekee tavallisesti ylläpitäjä. Lisätietoja on kohdassa [Määritä nimikkeiden tekoälypohjaisten markkinointitekstien luominen Copilotilla](enable-ai.md).
+- Markkinointitekstiehdotustoiminto on otettu käyttöön ja aktivoitu ympäristössä. Tämän toiminnon tekee tavallisesti ylläpitäjä. Lisätietoja on kohdassa [Määritä Copilot ja tekoälyominaisuudet](enable-ai.md).
 - Käytät jotakin niistä kielistä, joita markkinointitekstiehdotukset tällä hetkellä tukevat.
 
-   [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)] <!--you're using in Business Central must be English. Any of the available English locales work, like English (United States), English (United Kingdom), or English (South Africa).-->
+  [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
 
-   Valitse oikeasta yläkulmasta **Asetukset**-kuvake ![Asetukset.](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") > **Omat asetukset** > **Kieli**. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md#language).
-- Tutustu [Markkinointitekstiehdotusten usein kysyttyihin kysymyksiin](faqs-marketing-text.md) oppiaksesi lisää Copilotin luomista tekstiehdotuksista ja niiden käyttämisestä.
+  Valitse oikeasta yläkulmasta **Asetukset**-kuvake ![Asetukset.](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") > **Omat asetukset** > **Kieli**. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md#language).
+- Tutustu [UKK:iin markkinointitekstiehdotuksia varten](faqs-marketing-text.md)  saadaksesi lisätietoja tekoälyn soveltamisesta.
 
 ### Luo ensimmäinen luonnos Copilotin avulla
 
@@ -40,9 +42,9 @@ Lisää aiemmin luotuun nimikkeeseen markkinointitekstiä noudattamalla seuraavi
 
 1. Avaa Business Centralissa nimike, jota haluat muokata suorittamalla seuraavat vaiheet:
 
-   1. Valitse oikeasta yläkulmasta ![Lamppu, joka avaa kerro minulle -ominaisuuden 22.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä"). -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki, joka näyttää saatavilla olevat nimikkeet.
+   - Valitse oikeasta yläkulmasta ![Lamppu, joka avaa kerro minulle -ominaisuuden 22.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä"). -kuvake, syötä **Nimikkeet** ja valitse sitten liittyvä linkki, joka näyttää saatavilla olevat nimikkeet.
 
-   2. Kaksoisnapsauta nimikettä tai valitse sen arvo kohdassa **Nro**-sarakkeessa .
+   - Kaksoisnapsauta nimikettä tai valitse sen arvo kohdassa **Nro**-sarakkeessa .
 
    [![Näyttää nimikkeen kortin, jossa on markkinointitekstiruutu](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
 
@@ -64,10 +66,6 @@ Lisää aiemmin luotuun nimikkeeseen markkinointitekstiä noudattamalla seuraavi
 
    Voit nyt saada lisää ehdotuksia, yrittää parantaa saamiasi ehdotuksia, muokata tekstiä, ja enemmän. Siirry [Tarkista, Muokkaa ja Tallenna](#review-edit-and-save-text) -kohtaan lisätietoja varten.
 
-
-<!--
-   > [!TIP]
-   > [Where does the suggestion come from?](ai-faq.md#how-does-copilot-work-where-does-the-suggested-text-come-from)-->
 
 ### Tarkista, muokkaa ja tallenna teksti
 
@@ -114,6 +112,10 @@ Voit parantaa tekstiehdotuksia ja nipistää niitä henkilökohtaisten tai yrity
 1. Varmista, että nimikekortin **Nimikekategorian koodi** -kenttään on asetettu oikea luokka.
 
    Copilot etsii luokkaan liittyviä sanoja ja lauseita ja työstää niitä ehdotettuun tekstiin.
+
+### Monikielinen työskentely 
+
+Teksti luodaan aina käyttäjän [asetuksissasi](ui-change-basic-settings.md#language) määritetyllä kielellä. Jos organisaatiosi toimii ja syöttää tietoja Business Centraliin eri kielellä tai jos Business Central on yhdistetty verkkokauppaasi, kuten  Shopifyhin, tämä saattaa johtaa sisällön julkaisemiseen, joka ei vastaa samanlaista markkinointisisältöä. .
 
 ## Luo teksti tyhjästä
 

@@ -11,11 +11,11 @@ ms.search.form: '6, 494'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="set-up-finance-charge-terms"></a>Viivästyskuluehtojen määrittäminen
+# Viivästyskuluehtojen määrittäminen
 
 Jos asiakas ei suorita maksua eräpäivään mennessä, voit antaa ohjelman laskea viivästyskulut automaattisesti ja lisätä ne asiakkaan tilin erääntyneisiin summiin. Voi antaa asiakkaille tiedon lisätyistä kuluista lähettämällä viivästyskululaskuja. Ensin jokaista viivästyskulun laskentaa kuvaamaan täytyy määrittää koodi. Sitten tämä koodi voidaan syöttää asiakaskortin Viivästyskuluehtojen koodi -kenttään.  
 
-## <a name="finance-charge-terms"></a>Viivästyskuluehdot
+## Viivästyskuluehdot
 
 Kullekin viivästyskululaskelmalle on määritettävä viivästyskuluehdot ja määritettävä ehdot asiakkaalle **Asiakas**-sivun **Viivästyskuluehtojen koodi** -kentässä.
 
@@ -33,7 +33,7 @@ Viivästyskulut voidaan laskea käyttämällä joko keskimääräinen päiväsal
 
 Lisäksi jokainen Viivästyskuluehdot-taulukon ehto on linkitetty alitaulukkoon, Viivästyskuluteksti-taulukkoon. Jokaiselle viivästyskuluehtojen sarjalle voidaan määrittää alku- ja/tai lopputekstiä, joka sisällytetään viivästyskululaskuun.
 
-### <a name="to-set-up-finance-charge-terms"></a>Viivästyskuluehtojen määrittäminen
+### Viivästyskuluehtojen määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Viivästyskuluehdot** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät.
@@ -62,7 +62,7 @@ Lisäksi jokainen Viivästyskuluehdot-taulukon ehto on linkitetty alitaulukkoon,
 |%8|Viivästyskululaskun otsikon **Valuutan koodi** -kentän sisältö|  
 |%9|Viivästyskululaskun otsikon **Kirjauspvm**-kentän sisältö|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)  
 [Muistutusehtojen ja -tasojen määrittäminen](finance-setup-reminders.md)  

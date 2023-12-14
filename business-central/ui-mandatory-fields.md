@@ -10,19 +10,19 @@ ms.search.form: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="detecting-mandatory-fields"></a>Pakollisten kenttien havaitseminen
+# Pakollisten kenttien havaitseminen
 
 Kun syötät tietoja, kentän vieressä voi näkyä punainen tähti. Punainen tähti tarkoittaa, että kenttä vaaditaan tiettyä prosessia varten. Olet esimerkiksi aikeissa kirjata tapahtuman, mutta et ole täyttänyt tärkeää kenttää.
 
 Visuaalinen vihje ei pakota sinua täyttämään kenttää. Punainen tähti on muistutus siitä, että sinua estetään suorittamasta prosessia.
 
-## <a name="examples"></a>Esimerkkejä
+## Esimerkkejä
 
 **Asiakkaan kortti** -sivulla näkyy punainen tähti **Veroaluekoodi**-kentän **Nimi**-kentässä ja kolme kirjauksen ryhmäkenttää, jotka ilmaisevat, että et voi kirjata myyntitapahtumia asiakkaalle, ellei kenttiä täytetä.
 
 **Nimikkeen kortti** -sivun **Kuvaus**-kentässä näkyvä punainen tähti osoittaa sen, että et voi kirjoittaa nimikettä asiakirjariville, kuten myyntitilaukseen, jos tätä kenttää ole täytetty.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

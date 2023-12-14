@@ -1,25 +1,27 @@
 ---
 title: Päivitä valuutanvaihtokurssit (sisältää videon)
-description: 'Jos seuraat eri valuutoissa olevia summia, voit antaa Business Centralin auttaa sinua muuttamaan vaihtokursseja.'
+description: Opi käyttämään Business Centralia vaihtokurssien säätämiseen eri valuuttasummille.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
 ms.topic: conceptual
 ms.search.keywords: 'multiple currencies, adjust exchange rates, FX rates'
 ms.search.form: '5, 118'
-ms.date: 09/07/2023
-ms.author: bholtorf
+ms.date: 11/13/2023
+ms.custom: bap-template
 ---
 # Valuutan vaihtokurssien päivittäminen
 
-Voit määrittää eri valuuttoja [!INCLUDE [prod_short](includes/prod_short.md)]issa esimerkiksi silloin, kun et tee kauppaa muussa valuutassa kuin paikallisessa valuutassa. Voit auttaa itseäsi seuraamaan valuutan vaihtokurssien muutoksia, kun hallitset valuuttoja manuaalisesti tai voit määrittää valuutan vaihtokurssipalvelun.
+Jos käyt kauppaa eri valuutoilla, sinun on seurattava valuuttakurssien muutoksia. [!INCLUDE [prod_short](includes/prod_short.md)] auttaa hallitsemaan ja päivittämään valuutan vaihtokurssien muutoksia manuaalisesti ja määrittämään valuutan vaihtokurssipalvelun.
 
 ## Valuutat
 
 > [!TIP]  
-> Jos etsit [!INCLUDE[prod_short](includes/prod_short.md)]issa reaaliajassa tietoa valuuttakurssien (FX) hinnoista tai historiallisista hinnoista, löydät sen nimityksellä valuutta. Tämän artikkelin lisäksi on artikkeli [Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md).
+> Kohteessa [!INCLUDE[prod_short](includes/prod_short.md)] on reaaliaikaista tietoa valuuttakurssien (FX) hinnoista tai historiallisista hinnoista kauden valuutan alla. Lisätietoja on kohdassa [Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md).
 
 [!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
-Valuuttakoodit määritetään **Valuutat**-luettelossa, mukaan lukien lisätiedot ja asetukset, jotka ovat välttämättömiä kunkin valuuttakoodin osalta. Lisätietoja on ohjeaiheessa [Valuutat](finance-set-up-currencies.md#curr)
+Valuuttakoodit voi määrittää **Valuutat**-luettelossa, mukaan lukien lisätiedot ja asetukset, jotka ovat välttämättömiä kunkin valuuttakoodin osalta. Lisätietoja on ohjeaiheessa [Valuutat](finance-set-up-currencies.md#curr)
 
 ### Esimerkki saamisen valuuttatapahtumasta
 
@@ -31,13 +33,13 @@ Vaihtokurssit ovat työkalu, jonka avulla lasketaan kunkin valuuttatapahtuman ar
 
 |Kenttä|Kuvaus|  
 |---------------------------------|---------------------------------------|  
-|**Aloitustiedot**|Päivämäärä, jolloin valuuttakurssi on pantu toimeen|  
-|**Valuutan koodi**|Tähän vaihtokurssiin liittyvä valuutan koodi|  
-|**Suhteellinen valuuttakoodi**|Jos tämä valuutta on osa kolmenkeskistä valuuttalaskentaa, liittyvä valuuttakoodi voidaan määrittää tässä|  
-|**Vaihtokurssisumma**|Vaihtokurssisumma on rivillä valitulle valuuttakoodille käytettävä kurssi. Normaalisti 1 tai 100|  
-|**Suhteellinen vaihtokurssisumma**|Suhteellinen vaihtokurssisumma on rivillä valitulle suhteelliselle valuuttakoodille käytettävä kurssi.|  
-|**Muutoksen vaihtokurssisumma**|Muutoksen vaihtokurssisumma on kurssi, jota käytetään valuuttakoodille, joka on valittuna rivillä **Muuta vaihtokursseja** -eräajoa varten|  
-|**Suhteellinen vaihtokurssisumman muutos**|Suhteellinen vaihtokurssisumman muutos on kurssi, jota käytetään valuuttakoodille, joka on valittuna rivillä **Muuta vaihtokursseja** -eräajoa varten|  
+|**Aloituspvm**|Päivämäärä, jolloin valuuttakurssi on pantu toimeen.|  
+|**Valuutan koodi**|Tähän vaihtokurssiin liittyvä valuutan koodi.|  
+|**Suhteellinen valuuttakoodi**|Jos tämä valuutta on osa kolmenkeskistä valuuttalaskentaa, liittyvä valuuttakoodi voidaan määrittää tässä.|  
+|**Vaihtokurssisumma**|Vaihtokurssisumma on rivillä valitulle valuuttakoodille käytettävä kurssi. Normaalisti 1 tai 100.|  
+|**Suhteellinen vaihtokurssisumma**|Suhteellinen vaihtokurssisumma liittyy suhteelliselle valuuttakoodille käytettävään kurssiin.|  
+|**Muutoksen vaihtokurssisumma**|Muutoksen vaihtokurssisumma on kurssi, jota käytetään valuuttakoodille, joka on valittuna rivillä **Muuta vaihtokursseja** -eräajoa varten.|  
+|**Suhteellinen vaihtokurssisumman muutos**|Muutoksen vaihtokurssisumma on kurssi, jota käytetään valuuttakoodille, joka on valittuna rivillä **Muuta vaihtokursseja** -eräajoa varten.|  
 |**Kiinteä vaihtokurssisumma**|Määrittää, voidaanko valuuttakurssia muuttaa laskuissa ja päiväkirjan riveillä.|  
 
 Yleisesti arvoja **Vaihtokurssisumma**- ja **Suhteellinen vaihtokurssisumma** -kentissä käytetään oletusvaluuttakursseina kaikissa vastedes luotavissa myyntisaamisten ja ostovelkojen asiakirjoissa. Asiakirjalle määritetään valuuttakurssi tämänhetkisen käsittelypäivämäärän mukaan.  
@@ -54,14 +56,14 @@ Muutoksen vaihtokurssisummaa tai suhteellista vaihtokurssisumman muutosta käyte
 >
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
-## Muutetaan vaihtokursseja
+## Vaihtokurssien muuttaminen
 
-Koska vaihtokurssit vaihtelevat koko ajan, muita valuuttoja täytyy muuttaa jaksoittain. Jos et tee niin, ulkomaan valuutoista (tai muista) valuutoista muunnetut summat, jotka kirjattiin pääkirjanpitoon paikallisena valuuttana, voivat olla virheellisiä. Päivitä myös päivittäiset tapahtumat, jotka on kirjattu ennen päivittäisen vaihtokurssin syöttämistä.
+Koska vaihtokurssit vaihtelevat koko ajan, muita valuuttoja täytyy muuttaa jaksoittain. Jos et tee niin, ulkomaan valuutoista (tai muista) valuutoista muunnetut summat, jotka kirjattiin pääkirjanpitoon paikallisena valuuttana, voivat olla virheellisiä. Myös päivittäiset tapahtumat, jotka on kirjattu ennen päivittäisen vaihtokurssin syöttämistä, on päivitettävä.
 
 **Muuta vaihtokursseja** -eräajon avulla voi muuttaa manuaalisesti kirjattujen asiakas-, toimittaja- ja pankkitilitapahtumien vaihtokursseja. Eräajo myös päivittää KP-tapahtumien lisäraportointivaluutan summat.  
 
 > [!TIP]
-> Voit käyttää palvelua vaihtokurssien päivittämiseen automaattisesti järjestelmässä. Lisätietoja on kohdassa [Valuutanvaihdon kurssipalvelun määrittäminen](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). Jos kirjattujen tapahtumien vaihtokursseja ei kuitenkaan silloin muuteta. Voit päivittää kirjattujen tapahtumien vaihtokurssit käyttämällä **Muuta vaihtokursseja** -erätyötä.
+> Voit käyttää palvelua vaihtokurssien päivittämiseen automaattisesti järjestelmässä. Lisätietoja on kohdassa [Valuutanvaihdon kurssipalvelun määrittäminen](finance-how-update-currencies.md#set-up-a-currency-exchange-rate-service). Jos kirjattujen tapahtumien vaihtokursseja ei kuitenkaan silloin muuteta. Voit päivittää kirjattujen tapahtumien vaihtokurssit käyttämällä **Muuta vaihtokursseja** -erätyötä.
 
 Voit myös määrittää, miten dimensioita käsitellään ei-realisoituneiden voittojen ja tappioiden kirjausten kohdalla valitsemalla jonkin **Dimension kirjaus** -kentän seuraavista vaihtoehdoista:  
 
@@ -70,7 +72,7 @@ Voit myös määrittää, miten dimensioita käsitellään ei-realisoituneiden v
 * **KP-tilin dimensiot**: Dimension arvojen siirtäminen ei-realisoituneiden voittojen ja tappioiden KP-tilin dimensioasetusten lähdetapahtumasta KP-tapahtumiin.
 
 > [!NOTE]
-> Jotta voit käyttää esikatseluominaisuutta, ota käyttöön **Ominaisuuspäivitys: Salli uuden laajennettavan vaihtokurssioikaisun (myös kirjauksen tarkistuksen) käyttö** -ominaisuus **[Ominaisuuksien hallinta](https://businesscentral.dynamics.com/?page=2610)** -sivulla.
+> Jotta voit käyttää esikatseluominaisuutta, on otettava käyttöön **Ominaisuuspäivitys: Salli uuden laajennettavan vaihtokurssioikaisun (myös kirjauksen tarkistuksen) käyttö** -ominaisuus **[Ominaisuuksien hallinta](https://businesscentral.dynamics.com/?page=2610)** -sivulla.
 
 > [!IMPORTANT]
 > Sveitsin paikallisten vaatimusten vuoksi emme suosittele, että otat käyttöön **Ominaisuuspäivitys: Salli uuden laajennettavan vaihtokurssioikaisun (myös kirjauksen tarkistuksen) käyttö** -ominaisuutta Sveitsin (CH) maaversiossa.
@@ -79,7 +81,7 @@ Voit myös määrittää, miten dimensioita käsitellään ei-realisoituneiden v
 
 Voit esikatsella valuuttakurssin muutoksen vaikutusta kirjaukseen ennen varsinaista kirjausta valitsemalla **Esikatsele kirjausta** -toiminnon **Vaihtokurssien muutos** -raportin (Raportti 596) pyyntösivulla. Pyyntösivulla voit määrittää, mitä esiversioon sisällytetään:
 
-* Yksityiskohtaisen kirjauksen hakeminen pääkirjanpitoon tapahtuman mukaan
+* Yksityiskohtaisen kirjauksen hakeminen pääkirjanpitoon tapahtuman mukaan.
 * Tee yhteenveto kirjauksesta valuutoittain. Valitse vain **Muuta tapahtumakohtaisesti** -kenttä **Vaihtokurssien muutos** -raportista.
 
 ### Vaikutus asiakkaisiin ja toimittajiin
@@ -102,14 +104,14 @@ Muutostapahtumien pankkitilin KP-tilille ja voitto/tappio tileille määritetä�
 
 ### Vaikutus KP-tileihin
 
-Jos kirjaat toisen raportointivaluutan, voit eräajon avulla luoda uusia KP-tapahtumia paikallisen valuutan ja toisen raportointivaluutan välillä tapahtuvia kurssimuutoksia varten. Eräajo laskee jokaisen kirjanpitotapahtuman erotuksen ja muuttaa kirjanpitotapahtumaa sen mukaan, mitä **Vaihtokurssin muutos** -kentässä lukee kirjanpitotilin kohdalla.
+Jos kirjaat toisena raportointivaluuttana, voit eräajon avulla luoda uusia KP-tapahtumia paikallisen valuutan ja toisen raportointivaluutan välillä tapahtuvia kurssimuutoksia varten. Erätyö laskee kunkin pääkirjan merkinnän erot. Se muuttaa kirjanpitotapahtumaa sen mukaan, mitä **Vaihtokurssin muutos** -kentässä lukee kirjanpitotilin kohdalla.
 
 #### Dimensiot KP-tilin tapahtumille
 
 Muutostapahtumille on määritetty niiden KP-tilien dimensiot, joille ne on kirjattu.
 
 > [!Important]
-> Syötä ennen eräajon käyttämistä vaihtokurssit, joita käytetään ulkomaisen valuutan saldoja muutettaessa. Se tehdään **Valuutan vaihtokurssit** -sivulla.<br><br>  
+> Ennen eräajon käyttämistä on syötettävä vaihtokurssit, joita käytetään ulkomaisen valuutan saldoja muutettaessa. Se tehdään **Valuutan vaihtokurssit** -sivulla.<br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
@@ -118,7 +120,7 @@ Muutostapahtumille on määritetty niiden KP-tilien dimensiot, joille ne on kirj
 Voit pitää valuutan vaihtokurssit ajan tasalla ulkoisen palvelun, kuten FloatRatesin avulla. 
 
 > [!NOTE]
-> Useimmat vaihtokurssipalvelut sisältävät tietoja, jotka ovat yhteensopivia kohteen [!INCLUDE[prod_short](includes/prod_short.md)] tuontiprosessin kanssa. Joskus tiedot kuitenkin muotoillaan eri tavalla, ja sinun on mukautettava tuontiprosessia. Voit tehdä näin tiedonsiirtokehyksen avulla lisäämällä oman koodiyksikön. Tarvitset luultavasti kehittäjän apua. Lisätietoja on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).
+> Useimmat vaihtokurssipalvelut sisältävät tietoja, jotka ovat yhteensopivia kohteen [!INCLUDE[prod_short](includes/prod_short.md)] tuontiprosessin kanssa. Joskus tiedot kuitenkin muotoillaan eri tavalla, ja sinun on mukautettava tuontiprosessia. Voit tehdä näin tiedonsiirtokehyksen avulla lisäämällä oman codeunitin. Tarvitset luultavasti kehittäjän apua. Lisätietoja on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvake, syötä **Valuutanvaihdon kurssipalvelut** ja valitse liittyvä linkki.
 2. Valitse **Uusi**-toiminto.
@@ -126,7 +128,7 @@ Voit pitää valuutan vaihtokurssit ajan tasalla ulkoisen palvelun, kuten FloatR
 4. Valitse **Käytössä**-tilanvaihtonäppäin ottaaksesi palvelun käyttöön.
 
 > [!NOTE]
-> Seuraava video näyttää esimerkin siitä, miten voit muodostaa yhteyden valuutan vaihtokurssipalveluun. Esimerkissä käytetään Euroopan keskuspankkia. Segmentissä, joka kuvaa, miten kenttien yhdistämismääritykset tehdään, **Valuutan koodin pääsolmu** -kohdan **Lähde**-sarakkeen asetus palauttaa vain ensimmäisen löydetyn valuutan. Asetuksen on oltava `/gesmes:Envelope/Code/Code/Code`.
+> Seuraava video näyttää, miten voit muodostaa yhteyden valuutan vaihtokurssipalveluun. Esimerkissä käytetään Euroopan keskuspankkia. Segmentissä, joka kuvaa, miten kenttien yhdistämismääritykset tehdään, **Valuutan koodin pääsolmu** -kohdan **Lähde**-sarakkeen asetus palauttaa vain ensimmäisen löydetyn valuutan. Asetuksen on oltava `/gesmes:Envelope/Code/Code/Code`.
 
 <br><br>  
   
@@ -134,10 +136,10 @@ Voit pitää valuutan vaihtokurssit ajan tasalla ulkoisen palvelun, kuten FloatR
 
 ## Valuutan vaihtokurssien päivittäminen palvelun avulla
 
+Noudata annettuja ohjeita päivittääksesi valuuttakurssit palvelun kautta:
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Valuutat** ja valitse sitten vastaava linkki.
 2. Valitse **Päivitä valuutan vaihtokurssit** -toiminto.
-
-**Valuutat**-sivun **Vaihtokurssi**-kentän arvo päivittyy uusimman valuutan vaihtokurssin mukaan.
 
 ## Virheiden korjaaminen
 
@@ -148,11 +150,12 @@ Ajoittain on korjattava virheitä maksutapahtumissa, jotka liittyvät ulkomaan v
 
 ## Katso myös
 
+## Katso myös
+
 [Business Centralin valuutat](finance-currencies.md)  
 [Valuuttojen määrittäminen](finance-set-up-currencies.md)  
 [Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md)  
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

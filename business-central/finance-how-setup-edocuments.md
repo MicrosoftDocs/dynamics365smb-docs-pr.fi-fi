@@ -12,17 +12,17 @@ ms.date: 10/05/2023
 ms.author: altotovi
 ---
 
-# <a name="set-up-e-documents"></a>Sähköisten asiakirjojen määrittäminen
+# Sähköisten asiakirjojen määrittäminen
 
 > [!IMPORTANT]
-> Sähköisten asiakirjojen ydinmoduuli on kehys. Oletusarvoisesti **Asiakirjan muoto**- ja **Palvelun integrointi** -kenttiä ei ole. Nämä tiedot ovat osa lokalisointisovelluksia, koska ne ovat molemmat paikallisia tarpeita koskevia.
+> Sähköisten asiakirjojen ydinmoduuli on kehys. Oletusarvoisesti **Palvelun integrointi** -kenttää ei ole. Jos löydät oletusarvoisesti  **Dokumenttimuoto** -vaihtoehdot, ota huomioon, että ne tarjotaan esimerkkinä ja että lokalisoinnin on tarjottava yksityiskohtainen muoto. Nämä tiedot ovat osa lokalisointisovelluksia, koska ne ovat paikallisia tarpeita koskevia.
 
 > [!NOTE]
-> Versiosta 23.1 lähtien PEPPOL-asiakirjan vakiomuoto on mukana **Asiakirjan muoto** -kentän yleisenä muotona.
+> Versiosta 23.2 lähtien PEPPOL-asiakirjan vakiomuoto on mukana **Asiakirjan muoto** -kentän yleisenä muotona. Muista, että et todennäköisesti voi käyttää tätä muotoa sellaisenaan. Se on W1-muoto, joka on tarkoitettu osoittamaan, kuinka tätä ominaisuutta käytetään. Suosittelemme, että testaat olemassa olevaa PEPPOL-muotoa ennen kuin alat käyttää tätä muotoa.
 
 Sähköisten asiakirjojen määrityksen ensimmäinen vaihe on määrittää sähköinen asiakirjapalvelu. Tällöin määritetään järjestelmän koko toiminta, koska se liittyy sähköisten asiakirjojen viestintään.
 
-## <a name="set-up-the-e-document-service"></a>Sähköisen asiakirjapalvelun määrittäminen
+## Sähköisen asiakirjapalvelun määrittäminen
 
 Määritä sähköinen asiakirjapalvelu alla olevien ohjeiden mukaan.
 
@@ -33,11 +33,11 @@ Määritä sähköinen asiakirjapalvelu alla olevien ohjeiden mukaan.
     |-------|-------------|
     | Postinumero | Valitse sähköisen viennin asetuskoodi. |
     | Kuvaus | Anna sähköisen viennin asetusten lyhyt kuvaus. |
-    | Asiakirjan muoto | <p>Sähköisen viennin asetusten vientimuoto.</p><p>Tässä kentässä ei oletusarvoisesti ole vaihtoehtoja 1. aallossa.</p> |
+    | Asiakirjan muoto | <p>Sähköisen viennin asetusten vientimuoto.</p><p>Tässä kentässä on oletusarvoisesti kaksi vaihtoehtoa. Voit valita **PEPPOL BIS 3** yleiseksi koodipohjaiseksi muodoksi tai **tiedonvaihdon** kun sinun on määritettävä ennalta tietyn muotoiset esiasiakirjat **Tietojen vaihdon määrityksen** pikavälilehdellä.</p> |
     | Palvelun integrointi | Valitse sähköisen viennin määrityksen integrointikoodi. Ainoa vaihtoehto 1. aallossa on **Ei integrointia**. |
     | Käytä eräkäsittelyä | Määritä, käyttääkö palvelu eräkäsittelyä vientiin. |
 
-4. Määritä **Tuodut parametrit** -pikavälilehdessä alla olevassa taulukossa kuvatut kentät.
+3. Määritä **Tuodut parametrit** -pikavälilehdessä alla olevassa taulukossa kuvatut kentät.
 
     | Kenttä | Kuvaus |
     |-------|-------------|
@@ -57,11 +57,22 @@ Määritä sähköinen asiakirjapalvelu alla olevien ohjeiden mukaan.
     | Erän aloitusaika | Määritä tuontitöiden aloitusaika. |
     | Minuuttia suoritusten välillä | Määritä tuontitöiden suorittamisen välisen minuuttimäärän. |
 
-Jos olet määrittänyt lokalisoinnissa **Tiedonsiirtomääritys**-muodon, voit lisätä rivin jokaiselle tarvittavalle asiakirjatyypille. Valitse kuitenkin ensin **Asiakirjatyyppi**-vaihtoehto jokaiselle tarvitsemallesi riville. Valitse kullekin tietotyypille **Tuo tiedonsiirtomäärityksen koodi**- tai **Vie tiedonsiirtomäärityksen koodi** -arvo, jota haluat käyttää.
+4. Jos valitsit **Tiedonvaihto**  **Dokumenttimuoto** -kentässä  **Yleiset**-pikavälilehdellä, aseta seuraavat kentät  **Tietojen vaihdon määritys** -pikavälilehdellä.
 
-Jos lopulta et käytä **Tiedonsiirtomääritys**-muotoa, voit määrittää muodot **Viennin yhdistämismääritys**- tai **Tuonnin yhdistämismääritys** -rivien avulla. Niissä voit etsiä taulukot ja kentät, joita käytetään tarvittavien muutossääntöjen käyttämisessä ja määrittämisessä.
+    | Kenttä | Kuvaus |
+    |-------|-------------|
+    | Asiakirjatyyppi | Määritä asiakirjatyyppi, joka käyttää tiedonsiirtoa tietojen tuontiin ja vientiin. Esimerkkejä ovat **myyntilasku**, **myynnin hyvityslasku** ja **ostolasku**. |
+    | Tuo tiedonsiirtomäärityksen koodi | Määritä tietojen tuonnissa käytettävä tiedonsiirtokoodi. Käytä tätä kenttää vain saadaksesi asiakirjan ostoprosessissa. |
+    | Vie tiedonsiirtomäärityksen koodi | Määritä tietojen viennissä käytettävä tiedonsiirtokoodi. Käytä tätä kenttää vain asiakirjojen toimittamiseen myyntiprosessissa. |
 
-## <a name="set-up-a-document-sending-profile"></a>Asiakirjan lähetyksen profiilin määrittäminen
+> [!NOTE]
+> PEPPOL-formaatille on valmisteltu tiedonvaihtomääritykset, jotka liittyvät vakiomyynti- ja ostotositteeseen. Et kuitenkaan todennäköisesti voi käyttää näitä määritelmiä sellaisenaan. Ne ovat kaikki W1-muotoa, joka on tarkoitettu osoittamaan, kuinka tätä ominaisuutta käytetään. Suosittelemme, että testaat olemassa olevaa PEPPOL-muotoa ennen kuin alat käyttää niitä.
+
+Jos olet määrittänyt lokalisoinnissa **Tiedonsiirtomääritys**-muodon, voit lisätä rivin jokaiselle tarvittavalle asiakirjatyypille. Lisää rivejä, jotka vastaavat W1 PEPPOL -muodon oletustiedonvaihtoesimerkkiä. Valitse kuitenkin ensin **Asiakirjatyyppi**-vaihtoehto jokaiselle tarvitsemallesi riville. Valitse kullekin tietotyypille **Tuo tiedonsiirtomäärityksen koodi**- tai **Vie tiedonsiirtomäärityksen koodi** -arvo, jota haluat käyttää.
+
+Jos et käytä **Tiedonsiirtomääritys**-muotoa, voit luoda ja määrittää muotoja  [käyttöliittymän](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) avulla. Säädä tietoja **Viennin yhdistämismäärityksessä** ja **Tuonnin yhdistämismäärityksessä** , joista löydät taulukot ja kentät muunnossääntöjen määrittämistä varten. Tässä tapauksessa sinun on lisättävä muotoosi liittyvä uusi vaihtoehto  **Asiakirjan muoto** -kenttään.
+
+## Asiakirjan lähetyksen profiilin määrittäminen
 
 Voit määrittää kullekin asiakkaalle myyntiasiakirjojen lähettämisen ensisijaisen tavan. Näin lähetysvaihtoehtoa ei tarvitse valita aina, kun **Kirjaa ja lähetä** -toiminto valitaan. **Asiakirjan lähetyksen profiilit** -sivulla voi määrittää eri lähetyksen profiileja, joista voit valita asiakkaan kortin **Asiakirjan lähetyksen profiili** -kentässä. Valitse **Oletus**-valintaruutu, kun haluat, että asiakirjan lähetyksen profiili on kaikkien asiakkaiden oletusprofiili lukuun ottamatta niitä asiakkaita, joiden **Asiakirjan lähetyksen profiili** -kenttä on määritetty toiselle lähetyksen profiilille.
 
@@ -83,7 +94,7 @@ Alla olevien vaiheiden avulla voit määrittää asiakirjan lähetyksen profiili
     > [!NOTE]
     > Jos valitset **Laajennettu sähköisten asiakirjojen palvelutyönkulku** -kohdan **Sähköinen asiakirja** -kentässä, sähköisten asiakirjojen työnkulun määritys on oltava jo tehty.
 
-## <a name="set-up-the-workflow"></a>Työnkulun määrittäminen
+## Työnkulun määrittäminen
 
 Alla olevien vaiheiden avulla voit määrittää työnkulun, jota käytetään sähköisen asiakirjan toiminnossa.
 
@@ -98,7 +109,11 @@ Alla olevien vaiheiden avulla voit määrittää työnkulun, jota käytetään s
 > [!NOTE]
 > Voit luoda oman työnkulun sähköisille asiakirjoille ilman ennalta määritettyjä työnkulkumalleja. Jos palveluita on enemmän, voit käyttää eri työnkulkuja.
 
-## <a name="set-up-a-retention-policy-for-e-documents"></a>Sähköisten asiakirjojen säilytyskäytäntöjen määrittäminen
+Jos haluat käyttää enemmän työnkulkuja, määritä ne eri asiakkaiden asiakirjojen lähetysprofiilien kautta. Kun määrität työnkulkua, määritä asiakirjan lähetysprofiili **Ehdolla** -sarakkeessa  **Työnkulun vaiheet** -pikavälilehdessä, koska sinulla ei voi olla kahta palvelua, jotka käyttävät samaa asiakirjan lähetysprofiilia työnkuluissa.
+
+Kun määrität työnkulkusi  **Työnkulku**-sivulla, osoita  **Ehdolla**-kenttään  **Työnkulun vaiheet** -pikavälilehdessä. Valitse  **Tapahtumaehdot** -sivun  **Suodatin**-kentästä asiakirjan lähetysprofiili, jota haluat käyttää.
+
+## Sähköisten asiakirjojen säilytyskäytäntöjen määrittäminen
 
 Sähköisiä asiakirjoja voivat koskea erilaiset paikalliset säädökset, jotka liittyvät sähköisten asiakirjojen säilytysjaksoon. Tämän vuoksi säilytyskäytännön asetukset on lisätty kaikkiin tärkeisiin tietoihin, jotka liittyvät sähköisiin asiakirjoihin. Järjestelmänvalvojat voivat määrittää säilytyskäytännöt, jotka määrittävät, miten usein Dynamics 365 Business Central poistaa sähköisiin asiakirjoihin liittyvät vanhentuneet tietueet. Lisätietoja säilytyskäytännöistä on kohdassa [Säilytyskäytäntöjen määrittäminen](admin-data-retention-policies.md).
 
@@ -112,7 +127,7 @@ Voit määrittää sähköiseen asiakirjaan liittyvät säilytyskäytännöt all
     - Sähköisen asiakirjan yhdistämismääritysloki
     - Sähköisen asiakirjan tietojen tallennustila
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Sähköisten asiakirjojen käyttäminen Business Centralissa](finance-how-use-edocuments.md)  
 [Sähköisten asiakirjojen laajentaminen Business Centralissa](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

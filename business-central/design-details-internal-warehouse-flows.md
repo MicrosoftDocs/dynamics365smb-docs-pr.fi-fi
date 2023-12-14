@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 12/16/2022
 ms.custom: bap-template
 ---
-# <a name="flows-for-production-assembly-and-jobs"></a>Tuotanto-, kokoonpano- ja projektityönkulut
+# Tuotanto-, kokoonpano- ja projektityönkulut
 
 Sisäiset työnkulut, kuten komponenttien poimiminen ja kokoonpano-, projekti- ja tuotantotilausten loppunimikkeiden hyllyttäminen, muistuttavat saapuvia tai lähteviä virtoja. Monet prosessit voivatkin vaikuttaa tutuilta. Tässä artikkelissa on tietoja fyysisen varaston sisäisten, monimutkaisuudeltaan eritasoisten työnkulkujen käsittelemisestä.
 
-## <a name="overview-of-different-configuration-options"></a>Erilaisten määritysvaihtoehtojen yleiskatsaus
+## Erilaisten määritysvaihtoehtojen yleiskatsaus
 
 Fyysisen varaston ominaisuuksia voidaan määrittää eri tavoin. On tärkeää, että valittavat vaihtoehdot parantavat prosesseja yleiskustannuksia lisäämättä. Seuraavissa taulukoissa käsitellään tavanomaisia määrityksiä, joilla käsitellään fyysisten tavaroiden tuotanto-, projekti- ja kokoonpanotilauksia.
 
-### <a name="inbound-flow-put-away"></a>Saapuva virta (hyllytys)
+### Saapuva virta (hyllytys)
 
 |Monimutkaisuustaso|Kuvaus|Asetukset|Varastopaikan koodi|Tuotantotilauksen saapuva virta|Kokoonpanotilauksen saapuva virta|Projektien saapuva virta|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
@@ -28,7 +28,7 @@ Fyysisen varaston ominaisuuksia voidaan määrittää eri tavoin. On tärkeää,
 
 Jotkin määritykset eivät salli hyllytysten rekisteröintiä käyttämällä erillisiä fyysisen varastoinnin asiakirjoja. Jos sijainnissa kuitenkin käytetään varastopaikkoja, tuotettuja tai koottuja nimikkeitä voidaan siirtää fyysiseen varastoon yleisillä varaston siirtoasiakirjoilla. Lisätietoja on kohdassa [Nimikkeiden sisäinen siirtäminen fyysisen varastoinnin perusmäärityksissä](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
-### <a name="outbound-flow-pick"></a>Lähtevä virta (poiminta)
+### Lähtevä virta (poiminta)
 
 |Monimutkaisuustaso|Kuvaus|Asetukset|Varastopaikan koodi|Tuotantotilauksen lähtevä virta|Kokoonpanotilauksen lähtevä virta|Projektien lähtevä virta|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
@@ -39,7 +39,7 @@ Jotkin määritykset eivät salli hyllytysten rekisteröintiä käyttämällä e
 
 Samoin kuin saapuvassa virrassa jotkin määritykset eivät salli hyllytysten rekisteröintiä käyttämällä erillisiä fyysisen varastoinnin asiakirjoja. Jos sijainnissa käytetään varastopaikkoja, tuotettuja tai koottuja nimikkeitä voidaan siirtää yleisillä varaston siirtoasiakirjoilla. Lisätietoja on kohdassa [Nimikkeiden siirtäminen varastossa](warehouse-move-items.md).
 
-## <a name="warehouses-without-dedicated-warehouse-activity"></a>Fyysiset varastot, joissa ei ole erillistä varastotoimintoa
+## Fyysiset varastot, joissa ei ole erillistä varastotoimintoa
 
 Esimerkiksi kulutusta ja tuotannon tuotosta halutaan todennäköisesti seurata, vaikka käytössä ei olisikaan erillisiä varastotoimintoja. Seuraavissa artikkeleissa on tietoja lähdeasiakirjojen vastaanottojen käsittelemisestä.
 
@@ -47,14 +47,14 @@ Esimerkiksi kulutusta ja tuotannon tuotosta halutaan todennäköisesti seurata, 
 * [Kokoa nimikkeet](assembly-how-to-assemble-items.md)
 * [Projektien kulutuksen tai käytön kirjaaminen](projects-how-record-job-usage.md)
 
-## <a name="basic-warehouse-configuration"></a>Fyysisen varastoinnin perusmääritykset
+## Fyysisen varastoinnin perusmääritykset
 
 Fyysisen varastoinnin perusmääritysten saapuviin ja lähteviin virtoihin liittyvät seuraavat sijainnin **Sijaintikortit**-sivulla olevat asetukset:
 
 * Saapuvien virrassa (hyllytyksessä) **Vaadi hyllytys** otetaan käyttöön vaihtopainikkeella mutta **Vaadi vastaanotto** poistetaan käytöstä vaihtopainikkeella.
 * Lähtevien virrassa (poiminnassa) **Vaadi poiminta** otetaan käyttöön vaihtopainikkeella mutta **Vaadi toimitus** poistetaan käytöstä vaihtopainikkeella.
 
-### <a name="flows-to-and-from-production-in-a-basic-warehouse-configuration"></a>Fyysisen varastoinnin perusmääritysten tuotannon tulevat ja lähtevät työnkulut
+### Fyysisen varastoinnin perusmääritysten tuotannon tulevat ja lähtevät työnkulut  
 
 Tuotannon komponentteja voi poimia työkulussa tuotantoon **Varaston poiminta** -asiakirjojen avulla. Tuotettavat tuotteet hyllytetään **Varaston hyllytys** -asiakirjojen avulla.
 
@@ -66,7 +66,7 @@ Varastopaikkoja käyttävissä sijainneissa komponentin materiaaliottojen tekemi
 * Sijaintikortin taikka kuormitusryhmän tai tuotantosolun **Tuotannon valm.var.paik.koodi**-, **Valm. tuot.nim. var.paik.koodi**- ja **Avoin tuotannon var.paik.koodi** -kentät määrittävät tuotantoalueen tulevat ja lähtevät oletustyönkulut.
 * Tuotettujen nimikkeiden varaston siirtoa voidaan hallita **Varastosiirto**-sivulla ilman suhdetta tuotantotilaukseen.
 
-### <a name="flows-to-and-from-assembly-in-a-basic-warehouse-configuration"></a>Fyysisen varastoinnin perusmääritysten kokoonpanoon tulevat lähtevät työnkulut
+### Fyysisen varastoinnin perusmääritysten kokoonpanoon tulevat lähtevät työnkulut  
 
 Kokoonpanon tuotos ja kulutus kirjataan suoraan kokoonpanotilauksesta.
 
@@ -81,20 +81,20 @@ Varastopaikkoja käyttävät sijainnit:
 
 [!INCLUDE [prod_short](includes/prod_short.md)] tukee kokoonpanotyönkulkuja, joissa on kyse kokoonpanosta varastoon ja kokoonpanosta tilausta varten. Lisätietoja on kohdassa [Tietoja kokoonpanosta tilausta varten ja kokoonpanosta varastoon](assembly-assemble-to-order-or-assemble-to-stock.md#understanding-assemble-to-order-and-assemble-to-stock) Suhteessa fyysiseen varaston hallintaan kokoonpano varastoon on osa sisäistä fyysisen varastoinnin työnkulkuja, kun taas kokoonpano tilausta varten tapahtuu fyysisen varaston lähtevässä virrassa. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-### <a name="flows-for-project-management-in-a-basic-warehouse-configuration"></a>Fyysisen varaston perusmääritysten projektinhallinnan työnkulut
+### Fyysisen varaston perusmääritysten projektinhallinnan työnkulut
 
 Projektin komponentteja voi poimia työnkulussa projektinhallintaan **Varaston poiminta** -asiakirjojen avulla.
 
 Varastopaikkoja käyttävässä sijainnissa sijainnin **Projektiin-lokeron koodi** -kenttää määrittää oletustyönkulut projektinhallintaan.
 
-## <a name="advanced-warehouse-configurations"></a>Laajennetut varastomääritykset
+## Laajennetut varastomääritykset  
 
 Fyysisen varastoinnin laajennettujen määritysten saapuviin ja lähteviin virtoihin liittyvät seuraavat sijainnin **Sijaintikortit**-sivulla olevat asetukset:
 
 * Saapuvien virrassa (hyllytyksessä) **Vaadi vastaanotto** ja **Vaadi hyllytys** otetaan vaihtopainikkeilla käyttöön.
 * Lähtevien virrassa (poiminnassa) **Vaadi toimitus** ja **Vaadi vastaanotto** otetaan vaihtopainikkeilla käyttöön.
 
-### <a name="flows-to-and-from-production-in-advanced-warehouse-configurations"></a>Fyysisen varastoinnin laajennettujen määritysten tuotannon tulevat ja lähtevät työnkulut
+### Fyysisen varastoinnin laajennettujen määritysten tuotannon tulevat ja lähtevät työnkulut
 
 Komponentteja poimitaan tuotantoon käyttämällä **F.varastoinnin poiminta** -asiakirjoja ja **Poimintatyökirja**-sivua.
 
@@ -104,7 +104,7 @@ Varastopaikkoja käyttävät sijainnit:
 * Sijaintikortin taikka kuormitusryhmän tai tuotantosolun **Tuotannon valm.var.paik.koodi**-, **Valm. tuot.nim. var.paik.koodi**- ja **Avoin tuotannon var.paik.koodi** -kentät määrittävät tuotantoalueen tulevat ja lähtevät oletustyönkulut. 
 * Tuotettujen nimikkeiden varaston siirtoa voidaan hallita **Siirtotyökirja**- tai **F.var. sis. hyllytys**-sivuilla ilman suhdetta tuotantotilaukseen.
 
-### <a name="flows-to-and-from-assembly-in-advanced-warehouse-configurations"></a>Fyysisen varastoinnin laajennettujen määritysten kokoonpanon tulevat ja lähtevät työnkulut
+### Fyysisen varastoinnin laajennettujen määritysten kokoonpanon tulevat ja lähtevät työnkulut
 
 Komponentteja poimitaan kokoonpanoon käyttämällä **F.varastoinnin poiminta** -asiakirjoja ja **Poimintatyökirja**-sivua.
 
@@ -117,13 +117,13 @@ Varastopaikkoja käyttävät sijainnit:
 
 Kokoonpano varastoon on osa sisäistä fyysisen varastoinnin työnkulkuja, kun taas kokoonpano tilausta varten tapahtuu fyysisen varaston lähtevässä virrassa. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden käsitteleminen fyysisen varastoinnin toimituksissa](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-### <a name="flows-to-project-management-in-advanced-warehouse-configurations"></a>Fyysisen varaston laajennettujen määritysten projektinhallinnan työnkulut
+### Fyysisen varaston laajennettujen määritysten projektinhallinnan työnkulut
 
 Komponentteja poimitaan projektinhallinnan työnkulussa käyttämällä **F.varastoinnin poiminta** -asiakirjoja ja **Poimintatyökirja**-sivua.
 
 Varastopaikkoja käyttävissä sijainneissa sijainnin **Projektiin-lokeron koodi** -kenttää määrittää oletustyönkulut projektialueelle.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
 

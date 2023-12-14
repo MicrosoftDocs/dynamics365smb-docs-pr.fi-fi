@@ -10,21 +10,21 @@ ms.search.keywords: 'marketing, campaign, promo, prospect'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="managing-marketing-campaigns"></a>Markkinointikampanjoiden hallinta
+# Markkinointikampanjoiden hallinta
 Vahvan markkinointisuunnitelman avulla yritys voi tunnistaa, houkutella ja säilyttää asiakkaita. Markkinointisuunnitelma sisältää erilaisia kampanjoita ja muita myyntiin ja markkinointiin liittyviä vuorovaikutustapoja. Kampanjan suunnitteluvaiheessa on päätettävä kohteena olevat kontaktit, kampanjan tyyppi (kuten messut tai suoramainonta) ja myyjien tehtävät.
 
 Jokainen kampanja koostuu eri toiminnoista tai tehtävistä. Voit yhdistää toiminnoissa useita tehtäviä, kuten kutakin vaihetta koskeva tehtävän. Toiminnon tehtävät liittyvät toisiinsa päivämääräkaavan avulla. Yksittäiset tehtävät voidaan määrittää vain myyjille. Toiminnot voidaan määrittää mahdollisuuksille, myyjille, myyjäryhmille tai kontakteille. Lisätietoja on ohjeaiheessa [Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="defining-individual-campaigns"></a>Yksittäisten kampanjoiden määrittäminen
+## Yksittäisten kampanjoiden määrittäminen
 Ennen kampanjan luomista on määritettävä *kampanjan tilakoodit*. Näiden koodien avulla kampanjoiden hallinta on helpompaa, koska kampanjalle määritetään tila. Kun kampanja etenee, näet nopeasti, missä vaiheessa kampanja on ja mikä on seuraava vaihe. Kampanjan tilakoodit määritetään **Kampanjan tila** -sivulla.
 
 Voit luoda jokaiselle seurattavalle kampanjalle kampanjan kortin. Näiden korttien avulla voit myös tarkastella kampanjoiden yleistietoja.
 Voit poistaa kampanjatapahtumia, esimerkiksi jos tapahtumassa on kyse toiminnosta, jotka on peruutettu. Vain peruutettuja kampanjatapahtumia voi poistaa.
 
-### <a name="selecting-the-target-audience"></a>Kohderyhmän valitseminen
+### Kohderyhmän valitseminen
 Kampanjan luomisen jälkeen voit luoda kampanjassa käytettävät segmentit, jotka määrittävät kampanjan kohdeyleisön. Lisätietoja on myös kohdassa [Segmenttien hallinta](marketing-segments.md).
 
-### <a name="registering-discount-percentages"></a>Alennusprosenttien rekisteröiminen
+### Alennusprosenttien rekisteröiminen
 Kun olet asettanut kampanjan, päättänyt mitä segmenttejä haluat kampanjan kattavan ja määrittänyt aloitus- ja loputuspäivämäärät, rekisteröit alennusprosentin, jonka asiakkaat saavat yksittäisille nimikkeille **Myyntirivialennukset**-sivulla. Voit rekisteröidä myös rivien yksittäisten nimikkeiden myyntihinnat **Myyntihinnat**-sivulla. Voit käyttää molempia sivuja kampanjan kortista.
 
  Kun olet asettanut myyntihinnat/rivialennukset ja kampanjakortin segmentit, sinun tulee aktivoida ne niin, että kampanjan hinnat/alennukset tulevat esille myös riveille.
@@ -34,12 +34,12 @@ Kun olet asettanut kampanjan, päättänyt mitä segmenttejä haluat kampanjan k
 
 Jos myyntihintaa tai rivialennuksia ei tarjota segmentin kaikille kontakteille, voit poistaa valintamerkin kyseisten kontaktien **Kampanjan kohde** -kentästä. Jos tämä kenttä ei ole näkyvissä, voit lisätä sen näkymään. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
-## <a name="conducting-campaigns"></a>Kampanjoiden toteuttaminen
+## Kampanjoiden toteuttaminen
 Kaikki kampanjan aikainen kontaktin tai segmentin kanssa tapahtuva yhteydenpito tallennetaan. Tällä tavoin saat käyttöösi kampanjaa sekä kustannuksia ja onnistumisprosentteja koskevia tilastotietoja ja muita tietoja.
 
 Myyjät hoitavat kampanjoita, ja sinun onkin luotava kutakin tehtävää vastaa toiminto ja määritettävä se soveltuvalle myyjälle. Lisätietoja on ohjeaiheessa [Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Kontaktien hallinta](marketing-contacts.md)  
 [Segmenttien hallinta](marketing-segments.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  

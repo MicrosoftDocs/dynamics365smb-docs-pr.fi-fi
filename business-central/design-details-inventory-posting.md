@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf
 ---
-# <a name="design-details-inventory-posting"></a>Rakennetiedot: varaston kirjaus
+# Rakennetiedot: varaston kirjaus
 
 Jokainen varastotapahtuma, kuten tavaran vastaanotto tai myyntitoimitus, kirjaa kaksi erityyppistä tapahtumaa.  
 
@@ -27,26 +27,26 @@ Jokainen varastotapahtuma, kuten tavaran vastaanotto tai myyntitoimitus, kirjaa 
 
  ![Merkintätyönkulku varaston täsmäyttämisessä KP-kirjanpidon kanssa.](media/design_details_inventory_costing_1_entry_flow.png "Merkintätyönkulku varaston täsmäyttämisessä KP-kirjanpidon kanssa")  
 
-## <a name="example"></a>Esimerkki
+## Esimerkki
 
 Seuraavassa esimerkissä kuvataan, kuinka nimikkeen pääkirjan kirjaukset, arvokirjaukset ja nimikkeen sovelluskirjaukset vaikuttavat pääkirjan kirjauksiin.  
 
  Kirjaa ostotilaus vastaanotetuksi ja laskutetuksi 10 nimikkeelle, joiden välitön yksikkökustannus on 7 (PVA) ja yleiskustannuksen arvo 1 (PVA). Kirjauspäivämäärä on 1.1.2020. Seuraavat tapahtumat luodaan.  
 
-### <a name="item-ledger-entries-1"></a>Nimiketapahtumat (1)
+### Nimiketapahtumat (1)
 
 |Kirjauspäivämäärä|Tapahtuman tyyppi|Kustannussumma (Tod.)|määrä|Tapahtumanro|  
 |------------|----------|--------------------|--------|---------|  
 |01-01-20|Osto|80.00|10|1|  
 
-### <a name="value-entries-1"></a>Arvotapahtumat (1)
+### Arvotapahtumat (1)
 
 |Kirjauspäivämäärä|Tapahtuman tyyppi|Kustannussumma (Tod.)|Nimiketapahtuman nro|Tapahtumanro|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-01-20|Välitön kustannus|70,00|1|1|  
 |01-01-20|Välillinen kustannus|10,00|1|2|  
 
-### <a name="item-application-entries-1"></a>Nimikkeen kohdistustapahtumat (1)
+### Nimikkeen kohdistustapahtumat (1)
 
 |Tapahtumanro|Nimiketapahtuman nro|Saapuvan nimiketapahtuman nro|Lähtevän nimiketapahtuman nro|määrä.|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -54,19 +54,19 @@ Seuraavassa esimerkissä kuvataan, kuinka nimikkeen pääkirjan kirjaukset, arvo
 
  Seuraavaksi kirjaat 10 yksikön nimikkeen myynnin kirjauspäivämäärällä 15.1.2000.  
 
-### <a name="item-ledger-entries-2"></a>Nimiketapahtumat (2)
+### Nimiketapahtumat (2)
 
 |Kirjauspäivämäärä|Tapahtuman tyyppi|Kustannussumma (Tod.)|määrä|Tapahtumanro|  
 |------------|----------|--------------------|--------|---------|  
 |01-15-20|Myynti|-80.00|-10|2|  
 
-### <a name="value-entries-2"></a>Arvotapahtumat (2)
+### Arvotapahtumat (2)
 
 |Kirjauspäivämäärä|Tapahtuman tyyppi|Kustannussumma (Tod.)|Nimiketapahtuman nro|Tapahtumanro|  
 |------------|----------|--------------------|---------------------|---------|  
 |01-15-20|Välitön kustannus|-80.00|2|3|  
 
-### <a name="item-application-entries-2"></a>Nimikkeen kohdistustapahtumat (2)
+### Nimikkeen kohdistustapahtumat (2)
 
 |Tapahtumanro|Nimiketapahtuman nro|Saapuvan nimiketapahtuman nro|Lähtevän nimiketapahtuman nro|Määrä|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -78,7 +78,7 @@ Kirjanpitojakson lopussa voit täsmäyttää nämä varastotapahtumat pääkirja
 
  Seuraavissa taulukoissa esitetään varastosiirtojen täsmäytyksen tulokset tässä esimerkissä pääkirjan kanssa.  
 
-### <a name="value-entries-3"></a>Arvotapahtumat (3)
+### Arvotapahtumat (3)  
 
 |Kirjauspäivämäärä|Tapahtuman tyyppi|Kustannussumma (Tod.)|KP:oon kirjattu kustannus|Nimiketapahtuman nro|Tapahtumanro|  
 |------------|----------|--------------------|------------------|---------------------|---------|  
@@ -86,7 +86,7 @@ Kirjanpitojakson lopussa voit täsmäyttää nämä varastotapahtumat pääkirja
 |01-01-20|Välillinen kustannus|10,00|10,00|1|2|  
 |01-15-20|Välitön kustannus|-80.00|-80.00|2|3|  
 
-### <a name="general-ledger-entries-3"></a>Pääkirjanpidon tapahtumat (3)
+### Pääkirjanpidon tapahtumat (3)
 
 |Kirjauspäivämäärä|KP-tili|Tilinro (En-US-esittely)|Summa|Tapahtumanro|  
 |------------|-----------|------------------------|------|---------|  
@@ -104,7 +104,7 @@ Kirjanpitojakson lopussa voit täsmäyttää nämä varastotapahtumat pääkirja
 
  Arvotapahtumien ja pääkirjapidon tapahtumien suhde tallennetaan **Kirjanpito - nimikekirjauksen suhde** -taulukkoon.  
 
-### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3"></a>Liittyvät kirjaukset G/L – nimikkeen pääkirjan suhdetaulukko (3)
+### Liittyvät kirjaukset G/L – nimikkeen pääkirjan suhdetaulukko (3)
 
 |KP-tapahtuman nro|Arvotapahtumanro|KP-rekisterin nro|  
 |-------------|---------------|----------------|  
@@ -115,13 +115,13 @@ Kirjanpitojakson lopussa voit täsmäyttää nämä varastotapahtumat pääkirja
 |5|3|1|  
 |6|3|1|  
 
-## <a name="assembly-and-production-posting"></a>Kokoonpanon ja tuotannon kirjaus
+## Kokoonpanon ja tuotannon kirjaus
 
 Kapasiteetti- ja resurssitapahtumat edustavat sitä hetkeä, joka kirjataan kulutetuksi tuotannossa tai kokoonpanossa. Prosessin kustannukset kirjataan arvotapahtumina pääkirjanpitoon mukana olevien materiaalikustannusten kanssa samanlaisena rakenteena kuin nimiketapahtumien kohdalla. Lisätietoja on tässä ohjeaiheessa.  
 
 Katso lisätietoja kohdasta [Rakennetiedot: kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md).  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
  [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)  
  [Rakennetiedot: pääkirjanpidon tilit](design-details-accounts-in-the-general-ledger.md)  

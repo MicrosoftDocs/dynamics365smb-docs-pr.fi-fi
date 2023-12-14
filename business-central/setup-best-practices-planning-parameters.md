@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="setup-best-practices-planning-parameters"></a>Asetukset - parhaat käytännöt: suunnitteluparametrit
+# Asetukset - parhaat käytännöt: suunnitteluparametrit
 
 **Suunnittelu**-pikavälilehti nimikkeen kortissa on yrityksen toimitusketjun keskus. Oikeiden suunnitteluparametrien määrittäminen on erittäin tärkeää kustannustehokkaan varastonhallinnan ja hyvän asiakaspalvelun vuoksi.  
 
@@ -34,7 +34,7 @@ ms.author: bholtorf
 >
 > Jos yritykset suunnittelevat kysyntää eri sijainneissa, on suositeltavaa määrittää jokaiselle sijainnille varastointiyksiköt ja luoda kaikki kysyntä **Sijainnin koodi** -kentän arvon avulla. Lisätietoja on kohdassa [Rakennetiedot: suunnitelman luominen sijaintien avulla tai ilman sijainteja](production-planning-with-without-locations.md).  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 [Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)  
 [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)  
 [Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen avulla](set-up-complex-application-areas-using-best-practices.md)  
