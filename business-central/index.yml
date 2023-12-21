@@ -162,7 +162,7 @@ additionalContent:
             - text: Power BI -raporttien käyttäminen Business Centralissa
               url: /dynamics365/business-central/across-working-with-powerbi
             - text: Luettelotietojen analysoiminen analyysitilassa
-              url: /dynamics365/business-central/across-working-with-powerbi
+              url: /dynamics365/business-central/analysis-mode
             - text: Raporttitietojen analysoiminen Excelillä
               url: /dynamics365/business-central/report-analyze-excel
         - title: Yrityksen yleiset toiminnot
