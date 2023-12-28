@@ -10,7 +10,7 @@ ms.search.forms: '5082,'
 ms.date: 04/01/2021
 ms.custom: bap-template
 ---
-# Yhteyshenkilöiden kanssa tapahtuvan vuorovaikutuksen tallentaminen
+# <a name="record-interactions-with-contacts"></a>Yhteyshenkilöiden kanssa tapahtuvan vuorovaikutuksen tallentaminen
 
 Vuorovaikutusten tallentaminen työyhteyshenkilöiden kanssa koostuu seuraavista tehtävistä:
 
@@ -18,7 +18,7 @@ Vuorovaikutusten tallentaminen työyhteyshenkilöiden kanssa koostuu seuraavista
 * Vuorovaikutusten luominen kontakteille ja segmenteille  
 * Tallennettujen vuorovaikutusten tarkasteleminen ja hallinta  
 
-## Määritä vuorovaikutusmallit
+## <a name="set-up-interaction-templates"></a>Määritä vuorovaikutusmallit
 
 Ennen vuorovaikutusten tallentamista sinun täytyy määrittää vuorovaikutusmallit. Vuorovaikutusmalli on malli, joka määrittää vuorovaikutuksen perusominaisuudet. Kun tallennat vuorovaikutuksen, määrittelet, mihin vuorovaikutusmalleihin se perustuu. Asetukset, kuten käytetty kommunikointitapa, vuorovaikutuksen käynnistäjä ja sen kustannus, siirtyvät vuorovaikutukseen.
 
@@ -26,14 +26,14 @@ Voit määrittää vuorovaikutusmallin **Vuorovaikutusmallit**-sivulla.
 
 Kun määrität vuorovaikutusmallin, voit lisätä liitteen. Voit esimerkiksi liittää Microsoft Word -asiakirjan, joka sisältää kokouksen muistiinpanoja. Lisätietoja liitteistä on [Vuorovaikutusten liitteet](marketing-interaction-attachments.md) -kohdassa. Toista vaiheet ja luo niin monta vuorovaikutusmallia kuin haluat.  
 
-## Vuorovaikutusten luominen
+## <a name="create-interactions"></a>Vuorovaikutusten luominen
 
 Vuorovaikutuksia voi tallentaa kahdella tavalla:
 
 * Voit luoda manuaalisesti vuorovaikutuksia, jotka on linkitetty yhteen kontaktiin tai segmenttiin. Lisätietoja on kohdassa [Vuorovaikutusten luominen kontakteille ja segmenteille](marketing-how-create-interactions.md).  
 * Voit tallentaa vuorovaikutukset automaattisesti, kun teet toimenpiteitä sovelluksessa (esimerkiksi tulostat laskun tai tarjouksen). Lisätietoja on ohjeaiheessa [Kontaktien kanssa tapahtuvien vuorovaikutusten tallennus automaattisesti](marketing-auto-record-interactions.md).
 
-## Tallennettujen vuorovaikutusten tarkasteleminen ja hallinta
+## <a name="view-and-manage-recorded-interactions"></a>Tallennettujen vuorovaikutusten tarkasteleminen ja hallinta
 
 Voit tarkastella kaikkia tallennettuja vuorovaikutuksia, joita ei ole poistettu, **Vuorovaikutuslokin tapahtumat** -sivulla. Voit avata sivun seuraavasti:
 
@@ -46,7 +46,7 @@ Vuorovaikutuslokin tapahtumat -sivulla voit tarkastella vuorovaikutusten tilaa s
 
 Voit poistaa vuorovaikutuslokin tapahtumia, jotka on peruutettu. Poistaaksesi vuorovaikutuslokin valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista peruutetut vuorovaikutuslokin merkinnät**, valitse liittyvä linkki ja täytä sitten tiedot.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Kontaktien hallinta](marketing-contacts.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
