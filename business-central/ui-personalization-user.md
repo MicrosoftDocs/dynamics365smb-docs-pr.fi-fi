@@ -8,12 +8,16 @@ ms.custom: bap-template
 ms.reviewer: jswymer
 ms.search.keywords: 'customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
-ms.date: 09/14/2023
+ms.date: 12/05/2023
 ms.author: jswymer
 ---
 # Mukauta työtilaa
 
-Voit voivat mukauttaa työtilasi työsi ja mieltymystesi mukaiseksi. Muuta sivuja siten, että niissä näkyy vain tarvitsemasi tiedot, missä niitä tarvitaan. Mukauttaminen vaikuttaa vain työtilaan. Se ei muuta toisten työskentelyä. Voit mukauttaa kaikenlaisia sivuja, myös [roolikeskuksen](ui-change-basic-settings.md#role-center) sivua. 
+Voit voivat mukauttaa työtilasi työsi ja mieltymystesi mukaiseksi. Muuta sivuja siten, että niissä näkyy vain tarvitsemasi tiedot, missä niitä tarvitaan. Mukauttaminen vaikuttaa vain työtilaan. Se ei muuta toisten työskentelyä. Voit mukauttaa kaikenlaisia sivuja, myös [roolikeskuksen](ui-change-basic-settings.md#role-center) sivua.
+
+> [!NOTE]
+> Verkkoasiakasohjelman suunnitteluominaisuuksien rajoitusten vuoksi ei ole tällä hetkellä mahdollista mukauttaa tai personoida ohjaimia ruudukon syntaksin sisällä.
+Se koskee kaikkia suunnittelutiloja, ei vain personointia.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
@@ -184,7 +188,6 @@ Seuraavat seikat auttavat ymmärtämään mukauttamista entistä paremmin.
 - Joillakin sivuilla on useita sivukenttiä, jotka on linkitetty samaan lähdetaulukkoon. Ruudussa näkyvät molemmat tai kaikki sivun kentät erikseen. Kenttien näyttäminen, piilottaminen ja siirtäminen on myös itsenäistä, eikä toiminto vaikuta muihin kenttiin.
 - Jos piilotettuna on osa tai ryhmä, kentät, joista on luotu esimerkki, näkyvät yhä sen sisällä, mutta et voi vetää ja pudottaa tai lisätä ja näyttää kenttää ennen kuin ryhmä tai osa on määritetty näkyväksi.
 
-## Lue aiheeseen liittyen [Microsoftin koulutukset](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## Katso myös
 [Profiilien sivujen mukauttaminen](ui-personalization-manage.md)  

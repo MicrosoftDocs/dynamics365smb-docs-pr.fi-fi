@@ -1,24 +1,23 @@
 ---
 title: Tilikartan valmistelutoimien määrittäminen tai muuttaminen (sisältää videon)
-description: 'Tilikartta näyttää ne kirjanpidon tilit, joihin on tallennettu taloustietoja. Voit muuttaa oletustilejä tilikartassa ja lisätä uusia tilejä.'
+description: 'Lue, miten voit määrittää tilikartan, jossa näkyvät kirjanpitotilit, joihin on tallennettu taloustietoja.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'COA, cha of acc'
 ms.search.form: '16, 17, 18, 118, 386, 391'
-ms.date: 01/21/2022
-ms.author: bholtorf
+ms.date: 12/19/2023
+ms.custom: bap-template
 ---
-# <a name="set-up-or-change-the-chart-of-accounts"></a>Tilikartan määrittäminen tai muuttaminen
+# Tilikartan määrittäminen tai muuttaminen
 
 Tilikartta näyttää ne kirjanpidon tilit, joihin on tallennettu taloustietoja. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää tilikartan, joka on valmis tukemaan liiketoimintaasi. Voit kuitenkin muuttaa oletustilejä ja lisätä uusia tilejä.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="add-or-change-accounts"></a>Lisää tai muuta tilejä
+## Lisää tai muuta tilejä
 
 Voit avata kunkin tilin pääkirjanpidon (KP) tilin tilikartasta ja lisätä tai muuttaa asetuksia. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,7 +28,7 @@ Tarvittaessa voit käyttää useita rivejä KP-tilin nimeä varten. Valitse **KP
 > [!IMPORTANT]
 > Jos olet syöttänyt määritelmiä **Summausväli**-kentässä **Loppusumma**-tileille ennen sisentämistä, sinun täytyy syöttää ne uudestaan, koska Sisennys-toiminto korvaa kaikki arvot **Loppusumma**-kentässä.
 
-## <a name="delete-accounts"></a>Poista tilejä
+## Poista tilejä
 
 Voit poistaa pääkirjanpitotilin. Ennen sen poistamista seuraavien on kuitenkin toteuduttava:  
 
@@ -39,17 +38,17 @@ Voit poistaa pääkirjanpitotilin. Ennen sen poistamista seuraavien on kuitenkin
 
 [!INCLUDE[prod_short](includes/prod_short.md)] estää tilikartassa tarvittavia tietoja sisältävän pääkirjanpitotilin poistamisen.  
 
-## <a name="block-deletion-of-gl-accounts"></a>Estä KP-tilien poisto
+Voit myös määrittää, milloin ihmisten sallitaan poistaa tilejä. Käytössä **Pääkirjanpidon asetukset** -sivu, **Estä pääkirjatilien poistaminen** -valinta toimii yhdessä päivämäärän kanssa **Tarkista KP-tilien poistaminen jälkeen** -kenttä toimimaan ylimääräisenä vahvistuksena. Jos otat käyttöön **Estä KP-tilien poisto** -valinnan, et voi poistaa KP-tilejä, joissa on kirjanpitotapahtumia **Tarkista, voidaanko KP-tili poistaa tämän jälkeen** -kenttään määritetyn päivämäärän jälkeen. Jos haluat poistaa tällaisen tilin, joku, jolla on pääsy **Pääkirjanpidon asetukset** -sivun tulee poistaa käytöstä **Estä KP-tilien poisto** -valinta.  
 
-[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+**Estä KP-tilien poisto** -kentän käyttöönotto on usein paras käytäntö, kuten myös päivämäärän asettaminen **Tarkista KP-tilien poisto jälkeen** -kenttä, esimerkiksi päivämäärä, johon asti säädökset edellyttävät rahoitustietojen tallentamista.  
 
-Vuoden 2022 2. julkaisuaalto sisältää ylimääräisen suojauksen, ettei KP-tilejä poistetaan vahingossa edes sellaisissa skenaarioissa, joissa kriteerit täyttyvät.  
+### Video-opastus
 
-**Pääkirjanpidon asetukset** -sivulle lisättiin uusi **Estä KP-tilien poisto** -kenttä. Kun arvoksi on määritetty *Kyllä*, kenttä toimii lisätarkistuksena. Tämä tarkoittaa sitä, että KP-tilejä ja kirjanpitotapahtumia ei voi poistaa **Tarkista, voidaanko KP-tili poistaa tämän jälkeen** -kenttään määritetyn päivämäärän jälkeen. Jos haluat poistaa tällaisen tilin, kentän arvoksi on määritettävä ensin *Ei* **Pääkirjanpidon asetukset** -sivulla, johon käyttäjällä on oltava oikeudet.  
+Tämä video näyttää, kuinka voit määrittää, voivatko ihmiset poistaa KP-tilejä ja milloin.
 
-Paras käytäntö on määrittää **Estä KP-tilien poisto** -kentän arvoksi *Kyllä* ja **Tarkista, voidaanko KP-tili poistaa tämän jälkeen** -kentän arvoksi esimerkiksi päivämäärä, johon mennessä taloustiedot on tallennettava.  
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  

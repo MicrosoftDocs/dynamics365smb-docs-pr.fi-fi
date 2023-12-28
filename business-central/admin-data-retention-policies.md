@@ -3,63 +3,74 @@ title: Tietojen puhdistaminen säilytyskäytäntöjen avulla
 description: 'Voit määrittää, kuinka usein haluat poistaa tietyntyyppiset tiedot.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.author: bholtorf
 ms.search.keywords: 'delete, data, retention, policy, policies'
 ms.search.form: '3903, 3901'
-ms.date: 04/01/2021
-ms.author: bholtorf
+ms.date: 12/15/2023
+ms.custom: bap-template
 ---
 # Määritä säilytyskäytännöt
-Järjestelmänvalvojat voivat määrittää säilytyskäytäntöjä ja määrittää, kuinka usein he haluavat [!INCLUDE[prod_short](includes/prod_short.md)]:n poistavan vanhentuneita tietoja lokimerkintöjä ja arkistoituja tietueita sisältävissä taulukoissa. Esimerkiksi lokitapahtumien puhdistaminen voi helpottaa todella merkityksellisten tietojen käyttöä. Käytännöt voivat sisältää kaikki niiden taulukoiden tiedot, joiden vanhentumispäivämäärä on kulunut, tai voit lisätä suodatusehtoja, jotka sisältävät vain tietyt käytännön vanhentuneet tiedot. 
+
+Tämä artikkeli kuvaa, miten Järjestelmänvalvojat voivat määrittää säilytyskäytäntöjä ja määrittää, kuinka usein vanhentuneita tietoja poistetaan lokimerkintöjä ja arkistoituja tietueita sisältävistä taulukoista. Esimerkiksi lokitapahtumien puhdistaminen voi helpottaa merkityksellisempien tietojen käyttöä. Käytännöt voivat poistaa tietoja vanhenemispäivän perusteella tai voit lisätä suodattimia, jotka sisältävät vain tietyt vanhentuneet tiedot.
 
 ## Pakolliset määritykset ja käyttöoikeudet
-Seuraavat on määritettävä, ennen kuin voit määrittää säilytyskäytäntöjä.
 
-|Määritys  |Kuvaus  |
+Ennen kuin voit luoda säilytyskäytäntöjä, sinun on määritettävä sisällytettävät taulukot ja ajat säilyttääksesi tiedot.
+
+|Asennus  |Kuvaus  |
 |---------|---------|
-|**Sallitut taulukot**     |Tarjoamme luettelon taulukoista, jotka voidaan sisällyttää säilytyskäytäntöihin. Jos kuitenkin haluat lisätä taulukkoja laajennuksesta säilytyskäytäntöihin, kehittäjän on lisättävä taulukot luetteloon. Lisätietoja on kohdassa [Laajennuksen lisääminen säilytyskäytäntöihin](admin-data-retention-policies.md#including-your-extension-in-a-retention-policy-requires-help-from-a-developer).          |
+|**Sallitut taulukot**     |Tarjoamme luettelon taulukoista, jotka voit sisällyttää säilytyskäytäntöihin. Jos haluat lisätä taulukkoja laajennuksesta säilytyskäytäntöihin, kehittäjän on lisättävä taulukot luetteloon. Lue lisätietoja kohdasta [Laajennuksen lisääminen säilytyskäytäntöihin](admin-data-retention-policies.md#include-your-extension-in-a-retention-policy-requires-help-from-a-developer).          |
 |**Säilytysjaksot**     |Määrittää ajanjaksot, joiden tiedot säilytetään käytännön taulukoissa. Jaksot määrittävät, kuinka usein tiedot poistetaan.         |
 
-Lisäksi sinulla on oltava PÄÄKÄYTTÄJÄN käyttöoikeudet tai säilytyskäytännön asetukset -oikeusjoukko. Käyttäjät, joille on myönnetty säilytyskäytännön asetukset -asetus, voivat määrittää taulujen säilytyskäytäntöjä, vaikka heillä ei olisi kyseisten taulukoiden luku- ja poisto-oikeuksia. Työjonomerkintä on suoritettava käyttäjänä, jolla on oikeus lukea ja poistaa tietoja. Microsoft suosittelee, että et myönnä säilytyskäytännön määritysoikeuksia käyttäjille, joiden ei sallita poistaa tietoja.
+Lisäksi sinulla on oltava **PÄÄKÄYTTÄJÄN** käyttöoikeudet tai **säilytyskäytännön asetukset** -oikeusjoukko. Käyttäjät, joilla on säilytyskäytännön asetukset, voivat määrittää taulukoille säilytyskäytännöt. Se on totta, vaikka heillä ei olisi taulukoiden luku- ja poisto-oikeuksia. Työjonomerkintä on suoritettava käyttäjänä, jolla on oikeus lukea ja poistaa tietoja. Älä myönnä säilytyskäytännön määritysoikeuksia käyttäjille, joiden ei sallita poistaa tietoja.
 
 > [!NOTE]
 > Jos käytät [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaa paikallisesti ja haluat kokeilla säilytyskäytäntöjä Cronus-esittelytietokannassa, sinun täytyy tehdä muutamia asioita. Esittely-yritys ei sisällä sellaisia taulukoita, joita voi käyttää säilytyskäytäntöjen kanssa, joten ne on lisättävä. Luo uusi, tyhjä yritysesittely tietokantaan. Tuo uudessa yrityksessä oman maasi tai alueesi RapidStart -konfigurointi paketti, joka vastaa vakio-NAV17.0.W1.ENU.STANDARD.rapidstart-pakettia. Säilytyskäytäntöjen asetustiedot ovat käytettävissä uudessa yrityksessä.
 
 ### Säilytyskausien luominen
+
 Säilytysjaksot voivat olla niin pitkiä tai lyhyitä kuin haluat. Voit luoda säilytysaikoja käyttämällä **Säilytyskäytännöt**-sivulla **Säilytysaika**-toimintoa. Määrittämäsi jaksot ovat kaikkien käytäntöjen käytettävissä.
 
 > [!NOTE]
 > Yhteensopivuussyistä olemme määritelleet joillekin taulukoille vähimmäissäilyttämisajan. Jos asetat vähimmäispitoajan, joka on vähimmäisvaatimusta lyhyempi, näyttöön tulee pakollinen jakso.
 
 ### Säilytyskäytännön määrittäminen
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Säilytyskäytännöt** ja valitse sitten vastaava linkki.
 2. Valitse **Taulukon tunnus** -kentässä taulukko, jonka haluat sisällyttää käytäntöön.
 3. **Määrittele säilytysaika** -kentässä, kuinka kauan taulukon tiedot säilytetään.
-4. Valinnainen: Jos haluat kohdistaa käytännön taulukon tiettyihin tietoihin, poista Käytä kaikissa tietueissa- vaihtoehto käytöstä. Näyttöön tulee Tietueiden säilytyskäytäntö -pikavälilehti, jossa voit määrittää suodattimia, kun haluat luoda tietojen alijoukkoja kullekin riville. Lisätietoja on kohdassa [Suodattaminen](ui-enter-criteria-filters.md#filtering).
+4. Valinnainen: Jos haluat kohdistaa käytännön taulukon tiettyihin tietoihin, poista **Käytä kaikissa tietueissa** -vaihtoehto käytöstä. Näyttöön tulee **Tietueiden säilytyskäytäntö** -pikavälilehti, jolloin voit määrittää suodattimia, kun haluat luoda tietojen alijoukkoja kullekin riville. Lisätietoja on kohdassa [Suodatus](ui-enter-criteria-filters.md#filtering).
 
    > [!NOTE]
    > Kullakin rivillä on oma säilytysaika. Jos määrität eri säilytysaikoja samoille tiedoille, ohjelma käyttää pisintä ajanjaksoa. Jotkin taulukot sisältävät myös suodattimia, joita ei voi muuttaa tai poistaa. Näiden suodattimien tunnistamisen helpottamiseksi ne näkyvät vaaleampana fonttina.
 
+#### Video-opastus
+
+Tässä videossa on esimerkki säilytyskäytännön määrittämisestä.
+
+>[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1fLeJ]
+
 ## Säilytyskäytäntöjen ottaminen käyttöön
+
 Työjonotapahtuman avulla voit kohdistaa säilytyskäytäntöjä tietojen automaattiseen poistamiseen tai voit kohdistaa käytäntöjä manuaalisesti.
 
-Jos haluat käyttää säilytyskäytäntöjä automaattisesti, luo ja ota käyttöön käytäntö. Kun otat käyttöön käytännön, luomme työjonotapahtuman, joka ottaa säilytyskäytännöt käyttöön määrittämäsi säilytysajan mukaan. Kaikki säilytyskäytännöt käyttävät samaa työjonotapahtumaa. Oletusarvon mukaan työjonotapahtuma kohdistaa käytännön joka päivä klo 02.00. Voit muuttaa oletusarvoa, mutta jos et tee sitä, suosittelemme sen suorittamista aukioloaikojen ulkopuolella. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md). 
+Jos haluat käyttää säilytyskäytäntöjä automaattisesti, luo ja ota käyttöön käytäntö. Kun otat käyttöön käytännön, [!INCLUDE [prod_short](includes/prod_short.md)] luo työjonotapahtuman, joka käyttää sitä sen säilytysajan mukaan. Kaikki säilytyskäytännöt käyttävät samaa työjonotapahtumaa. Oletusarvon mukaan työjonotapahtuma kohdistaa käytännön joka päivä klo 02.00. Voit muuttaa oletusarvoa, mutta jos et tee sitä, suosittelemme sen suorittamista aukioloaikojen ulkopuolella. Lue lisätietoja kohdasta [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md). 
 
 Voit kohdistaa käytännön manuaalisesti **Säilytyskäytännöt**-sivun **Käytä manuaalista toimintoa** -toiminnolla. Jos haluat käyttää käytäntöä aina manuaalisesti, ota **Manuaalinen** vaihto käyttöön. Työjonotapahtuma ohittaa käytännön, kun se suoritetaan.
 
 ## Säilytyskäytäntölokin tapahtumien tarkasteleminen
-Voit tarkastella säilytyskäytäntöihin liittyviä toimintoja **Säilytyskäytäntöloki**-sivulla. Tapahtumat luodaan esimerkiksi silloin, kun käytäntö otetaan käyttöön, tai jos tapahtui virheitä. 
+
+Voit tarkastella säilytyskäytäntöihin liittyviä toimintoja **Säilytyskäytäntöloki**-sivulla. Tapahtumat luodaan esimerkiksi silloin, kun käytäntö otetaan käyttöön, tai jos tapahtui virheitä.
 
 ## Laajennuksen käyttäminen säilytyskäytännön mukaan (edellyttää kehittäjän apua)
-Säilytyskäytännöt kattavat oletusarvoisesti vain taulukot, jotka sisältyvät [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman tarjoamiin taulukoihin. Voit poistaa oletustaulukot luettelosta ja voit lisätä omistamiasi taulukoita. Et siis voi lisätä taulukkoa, jota et itse luonut. Et voi esimerkiksi lisätä muita taulukoita [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmasta tai ostamastasi laajennuksesta.
 
-Jotta voisit lisätä taulukot sallittujen taulukoiden luetteloon, kehittäjän on lisättävä koodia esimerkiksi laajennuksen asennusohjelman codeunitia varten (codeunit, jossa on *asenna*-alatyyppi). 
+Säilytyskäytännöt kattavat oletuksena vain [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman toimittamassamme luettelossa. Voit poistaa oletustaulukot luettelosta ja voit lisätä omistamiasi taulukoita. Et siis voi lisätä taulukkoa, jota et itse luonut. Et voi esimerkiksi lisätä muita taulukoita [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmasta tai ostamastasi laajennuksesta.
 
-Kun kehittäjä lisää taulukon, hän voi määrittää pakollisia ja oletussuodattimia. Pakollisia suodattimia ei voi poistaa tai muuttaa myöhemmin, kun taulukoita lisätään säilytyskäytännön määrittämistä varten. Oletussuodattimet ovat vain ystävällisiä ehdotuksia.
+Jos haluat lisätä taulukosi sallittujen taulukkojen luetteloon, kehittäjän on lisättävä koodi. Esimerkiksi laajennuksen asennusohjelman codeunitiin (codeunit, jonka alatyyppi on *asenna* ).
 
-Seuraavassa on esimerkkejä siitä, kuinka voit lisätä taulukon sallittujen taulukoiden luetteloon pakollisten- tai oletussuodattimien avulla ja ilman niitä. Monimutkaisempaa esimerkkiä varten katso codeunit 3999 "Reten. Pol. Install-BaseApp". 
+Kun kehittäjä lisää taulukon, hän voi määrittää pakollisia ja oletussuodattimia. Pakollisia suodattimia ei voi poistaa tai muuttaa myöhemmin, kun taulukoita lisätään säilytyskäytännön määrittämistä varten. Oletussuodattimet ovat vain ehdotuksia.
+
+Seuraavassa on esimerkkejä siitä, kuinka voit lisätä taulukon sallittujen taulukoiden luetteloon pakollisten- tai oletussuodattimien avulla ja ilman niitä. Monimutkaisempaa esimerkkiä varten katso codeunit 3999 "Reten. Käyt. Install-BaseApp".
 
 ```al
  trigger OnInstallAppPerCompany()

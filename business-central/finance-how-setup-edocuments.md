@@ -70,7 +70,11 @@ Määritä sähköinen asiakirjapalvelu alla olevien ohjeiden mukaan.
 
 Jos olet määrittänyt lokalisoinnissa **Tiedonsiirtomääritys**-muodon, voit lisätä rivin jokaiselle tarvittavalle asiakirjatyypille. Lisää rivejä, jotka vastaavat W1 PEPPOL -muodon oletustiedonvaihtoesimerkkiä. Valitse kuitenkin ensin **Asiakirjatyyppi**-vaihtoehto jokaiselle tarvitsemallesi riville. Valitse kullekin tietotyypille **Tuo tiedonsiirtomäärityksen koodi**- tai **Vie tiedonsiirtomäärityksen koodi** -arvo, jota haluat käyttää.
 
-Jos et käytä **Tiedonsiirtomääritys**-muotoa, voit luoda ja määrittää muotoja  [käyttöliittymän](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) avulla. Säädä tietoja **Viennin yhdistämismäärityksessä** ja **Tuonnin yhdistämismäärityksessä** , joista löydät taulukot ja kentät muunnossääntöjen määrittämistä varten. Tässä tapauksessa sinun on lisättävä muotoosi liittyvä uusi vaihtoehto  **Asiakirjan muoto** -kenttään.
+Jos et käytä **Tiedonsiirtomääritys**-muotoa, voit luoda ja määrittää muotoja  [käyttöliittymän](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) avulla. Säädä tietoja **Viennin yhdistämismäärityksessä** ja **Tuonnin yhdistämismäärityksessä** , joista löydät taulukot ja kentät muunnossääntöjen määrittämistä varten. Tässä tapauksessa sinun on lisättävä muotoosi liittyvä uusi vaihtoehto  **Asiakirjan muoto** -kenttään.  
+
+### Tuetut asiakirjatyypit 
+
+Tuetut asiakirjatyypit perustuvat valittuun **asiakirjamuotoon**. Tarkista tuetut asiakirjatyypit suorittamalla **Sähköinen asiakirjapalvelu** -sivulla  **Tuetut asiakirjatyypit** . **Sähköisen tiedostopalvelun tuetut lähdeasiakirjatyypit** avautuu ja **Lähdeasiakirjatyyppi**-sarakkeesta löydät kaikki tuetut asiakirjatyypit.  
 
 ## Asiakirjan lähetyksen profiilin määrittäminen
 

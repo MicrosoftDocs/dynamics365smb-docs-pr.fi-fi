@@ -1,7 +1,7 @@
 
 # [Business Central -ohjeet](index.yml)
 # [Tervetuloa Business Centraliin](welcome.md)
-# [Uusia ja suunniteltuja ominaisuuksia](/dynamics365/business-central/dev-itpro/whatsnew/overview)
+# [Uusia ja suunniteltuja ominaisuuksia](/dynamics365/business-central/dev-itpro/whatsnew/overview?toc=/dynamics365/business-central/toc.json)
 # Aloittaminen
 ## [Yleiskatsaus yrityksen toiminnoista](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
@@ -330,9 +330,10 @@
 #### [Myöhästyneen maksun ennusteen laajennus](ui-extensions-late-payment-prediction.md)
 
 ### Sähköisten asiakirjojen hallinta
-#### [Sähköisten asiakirjojen yleiskuvaus](finance-edocuments-overview.md)
+#### [Sähköisten asiakirjojen yleiskatsaus](finance-edocuments-overview.md)
 #### [Sähköisten asiakirjojen määrittäminen](finance-how-setup-edocuments.md)
 #### [Sähköisten asiakirjojen käyttäminen myynnissä ja ostoissa](finance-how-use-edocuments.md)
+#### [Sähköisten asiakirjojen yhdistimen määrittäminen ulkoisten päätepisteiden kanssa](finance-how-setup-edocuments-external.md)
 #### [Sähköisten asiakirjojen toimintojen laajentaminen](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### ALV:n hallinta
@@ -870,9 +871,11 @@
 ### Tanska
 #### [Paikalliset toiminnot Tanskan versiossa](LocalFunctionality/Denmark/denmark-local-functionality.md)
 #### [Ilmoittaminen ja rekisteröinti NemHandelsregisteretille Tanskassa](localfunctionality/denmark/how-to-nemhandel-register.md)
+#### [Sähköisen laskutuksen määrittäminen NemHandelin kanssa](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
+#### [Tapahtumatietojen säilyttäminen viiden vuoden ajan Tanskassa](localfunctionality/denmark/how-to-keep-data-5years.md)
 #### ALV
 ##### [ALV-täsmäytysraporttien tulostaminen](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
-##### [ALV-raportit](LocalFunctionality/Denmark/vat-vies-reporting.md)
+##### [ALV-yhteenvetoraportit](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ##### [Intrastatin ALV-rekisterinumeron asetukset](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
 ##### [ALV-palautusten lähettäminen sähköisesti](localfunctionality/denmark/how-to-evat-statement-dk.md)
 #### Pankkitoiminta ja maksut
@@ -883,7 +886,7 @@
 ##### [Asiakkaiden määrittäminen – OIOUBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
 ##### [OIOUBL:n sähköisen laskutuksen määrittäminen](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
 ##### [Sähköisen laskutuksen OIOUBL-laajennus](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
-##### [OIOUBL-muotoisten sähköisten asiakirjojen luominen](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
+##### [Sähköisten asiakirjojen luominen OIOUBL-muodossa](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md
 #### Palkat
 ##### [Palkanlaskentatietojen määritykset (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
 #### Digitaaliset tositteet
