@@ -11,7 +11,7 @@ ms.search.form: '7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380
 ms.date: 11/01/2023
 ms.author: bholtorf
 ---
-# <a name="register-new-customers"></a>Uusien asiakkaiden rekisteröiminen
+# Uusien asiakkaiden rekisteröiminen
 
 Asiakkaat ovat tulonlähteesi. Jokainen asiakas, jolle myyt, on rekisteröitävä asiakaskorttina. Asiakkaan kortit sisältävät tietoja, jotka tarvitaan tuotteiden asiakkaalle myymistä varten. Lisätietoja on kohdissa [Myyntien laskuttaminen](sales-how-invoice-sales.md) ja [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  
 
@@ -20,7 +20,7 @@ Ennen kuin voit rekisteröidä uusia asiakkaita, sinun on määritettävä myynt
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-## <a name="add-new-customers"></a>Lisää uusia asiakkaita
+## Lisää uusia asiakkaita
 
 Voit lisätä uusia asiakkaita manuaalisesti täyttämällä **Asiakaskortti**-sivun tai käyttämällä malleja, jotka sisältävät ennalta määritettyjä tietoja. Voit esimerkiksi luoda mallin erityyppisille asiakasprofiileille. Mallien käyttäminen säästää aikaa uusien asiakkaiden lisäämisen aikana ja varmistaa, että tiedot ovat aina oikein. 
 
@@ -35,7 +35,7 @@ Kun olet luonut mallin, voit kohdistaa sen yhteen tai useampaan valittuun asiakk
 
 Asiakkaan voi luoda myös yhteyshenkilöstä. Lisätietoja on [Asiakkaan, toimittajan, työntekijän tai pankkitilin luominen yhteyshenkilöstä](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact) -osassa.  
 
-### <a name="to-create-a-new-customer-card"></a>Uuden asiakkaan kortin luominen
+### Uuden asiakkaan kortin luominen
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
@@ -43,7 +43,7 @@ Asiakkaan voi luoda myös yhteyshenkilöstä. Lisätietoja on [Asiakkaan, toimit
 
 Asiakas on nyt rekisteröity, ja asiakkaan kortti on valmis käytettäväksi myyntiasiakirjoissa.  
 
-### <a name="to-save-the-customer-card-as-a-template"></a>Asiakkaan kortin tallentaminen mallina
+### Asiakkaan kortin tallentaminen mallina
 
 Voit käyttää asiakkaan korttia mallina, kun luot uusia asiakkaan kortteja.
 
@@ -55,11 +55,11 @@ Voit käyttää asiakkaan korttia mallina, kun luot uusia asiakkaan kortteja.
 
 Asiakasmalli lisätään asiakasmallien luetteloon ja sen avulla voit luoda uusia asiakkaiden kortteja.
 
-## <a name="delete-customer-cards"></a>Asiakaskorttien poistaminen
+## Asiakaskorttien poistaminen
 
 Jos olet kirjannut asiakkaalle tapahtuman, et voi poistaa asiakkaan korttia, koska kirjanpitotapahtumia voidaan tarvita valvontaan. Voit poistaa asiakaskortin, jossa on tapahtumakirjauksia ottamalla yhteyttä Microsoft-kumppaniisi koodin avulla.  
 
-## <a name="manage-credit-limits"></a>Luottorajojen hallinta
+## Luottorajojen hallinta
 
 Luottoraja-, saldosumma- ja maksuehto-ominaisuudet mahdollistavat sen, että [!INCLUDE [prod_short](includes/prod_short.md)] antaa luottovaroituksen ja erääntynyt saldo -varoituksen tullessasi myyntitilaukseen. Lisäksi muistutusehto- ja rahoitusmaksuehtoelementit mahdollistavat koron ja/tai lisäkulujen laskutuksen.  
 
@@ -69,7 +69,7 @@ Kirjaaminen on mahdollista vaikka luottoraja ylittyisi. Jos kenttä on jätetty 
 
 Voit valita, ettet saa varoitusta siitä, että asiakkaan luottoraja on ylitetty, ja voit määrittää, minkä tyyppisiä varoituksia haluat nähdä.
 
-### <a name="to-specify-credit-limit-warnings"></a>Luottorajavaroitusten määrittäminen
+### Luottorajavaroitusten määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntien ja myyntisaamisten asetukset**, valitse sitten vastaava linkki.
 
@@ -82,7 +82,7 @@ Voit valita, ettet saa varoitusta siitä, että asiakkaan luottoraja on ylitetty
     |**Erääntynyt saldo**|**Erääntynyt saldo** -kenttä asiakkaan kortilla on valittuna ja jos asiakkaalla on erääntyneitä saldoja, näytetään varoitus.|
     |**Ei varoitusta**|Asiakkaan tilasta ei näytetä luottovaroituksia.|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Maksutapojen määrittäminen](finance-payment-methods.md)  
 [Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)  
