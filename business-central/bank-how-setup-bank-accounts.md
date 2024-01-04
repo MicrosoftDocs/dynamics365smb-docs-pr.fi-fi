@@ -10,7 +10,7 @@ ms.search.form: '370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280'
 ms.date: 08/03/2023
 ms.custom: bap-template
 ---
-# Pankkitilien määrittäminen
+# <a name="set-up-bank-accounts"></a>Pankkitilien määrittäminen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] seuraa pankkitapahtumia pankkitilien avulla. Tilit voidaan määrittää käyttämään paikallista valuuttaa tai ulkomaan valuuttaa. Kun olet määrittänyt pankkitilit, voit myös käyttää Sekin tulostus -vaihtoehtoa. Pankkitilit sisältävät lisätoimintoja maksujen [täsmäytystä](receivables-apply-payments-auto-reconcile-bank-accounts.md), [pankkitäsmäytystä](bank-how-reconcile-bank-accounts-separately.md) sekä pankkitiedostojen tuontia ja vientiä varten. Pankkitilit voidaan sisällyttää myös yleisten päiväkirjojen tapahtumiin. Kukin pankkitili linkitetään tilikartassa olevaan tiliin määritetyn pankkitilin kirjausryhmän kautta. Pankkitilin käyttö maksutapahtumassa luo automaattisesti tapahtuman sekä pankkitilille että yhdistetylle pääkirjanpitotilille (KP).  
 
@@ -80,7 +80,7 @@ Katso alla olevasta videosta perusvaiheet pankkitilin määrittämiseksi [!INCLU
 > [!WARNING]
 > Jotkin kentät voivat sisältää luottamuksellisia tietoja, kuten kentät **Pankkikonttorin nro**, **Pankkitilin numero**, **SWIFT-koodi** ja **IBAN-koodi**. Lue lisää kohdasta [Valvo arkaluontoisia kenttiä](across-log-changes.md#monitor-sensitive-fields).
 
-## Pankkitilien määrittäminen
+## <a name="to-set-up-bank-accounts"></a>Pankkitilien määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit**, valitse sitten vastaava linkki.
 2. Valitse **Pankkitilit**-sivulla **Uusi**-toiminto.
@@ -150,7 +150,7 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that is exported when you choose **Export Payments to File** on the **Payment Journal** page.|
 -->
 
-## Alkusaldon syöttäminen
+## <a name="to-enter-an-opening-balance"></a>Alkusaldon syöttäminen
 
 Voit täyttää **Saldo**-kenttään alkusaldon, kun pankkitilitapahtuma ja kyseinen summa on kirjattu. Voit tehdä tämän suorittamalla pankkitilin täsmäytyksen. Lisätietoja on kohdassa [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md).  
 >
@@ -159,7 +159,7 @@ Voit täyttää **Saldo**-kenttään alkusaldon, kun pankkitilitapahtuma ja kyse
 > [!IMPORTANT]
 > Älä kirjaa alkusaldoa suoraan pääkirjanpitoon. Jos KP-tilillä on kirjauksia, jotka on kirjattu siihen suoraan, et yleensä pysty täsmäyttämään pankkitiliä. Valuuttamääräisten pankkitilien kohdalla tällainen käytäntö johtaa erojen kertymiseen, kun kirjaat lisää pankkitilin täsmäytyksiä. Usein pankin avaussaldo kirjataan suoraan pankkitilille, ja summa päätyy KP-tiliin. Voit vaihtoehtoisesti kumota sen myöhemmin sellaisen KP-tilin osalta, jota käytät pääkirjanpidon avaussaldon tasapainottamista varten. Molemmissa tapauksissa sinun on tasapainotettava mahdolliset suorat kirjaukset KP-tiliin ennen ensimmäisen pankkitäsmäytyksen aloittamista&mdash;erityisesti silloin, kun pankkitili käyttää ulkomaan valuuttaa.
 
-## Pankkitilin määrittäminen pankkitiedostojen tuontia tai vientiä varten
+## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Pankkitilin määrittäminen pankkitiedostojen tuontia tai vientiä varten
 
 **Pankkitilin kortti** -sivun **Siirto**-pikavälilehden kentät liittyvät pankkisyötteiden ja -tiedostojen tuontiin ja vientiin. Lue lisätietoja on kohdissa [AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md) ja [Envestnet Yodlee Bank Feeds -palvelun määrittäminen](bank-how-setup-bank-statement-service.md).
 
@@ -212,13 +212,13 @@ Alla oleva kuva näyttää lähtevien maksujen reitin (kuvauksen numerot vastaav
   :::column-end:::
 :::row-end:::
 
-## Toimittajan pankkitilien määrittäminen pankkitiedostojen vientiä varten
+## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Toimittajan pankkitilien määrittäminen pankkitiedostojen vientiä varten
 
 **Toimittajan pankkitilin kortti** -sivun **Siirto**-pikavälilehden kentät liittyvät pankkisyötteiden ja -tiedostojen vientiin. Lisätietoja on kohdassa [AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md) ja [Maksujen vieminen pankkitiedostoon](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 [!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
-## Pankkitilin vaihtaminen
+## <a name="changing-your-bank-account"></a>Pankkitilin vaihtaminen
 
 Käyttääksesi yrityksessäsi toista pankkitiliä, sinun on luotava uusi pankkitili [!INCLUDE[prod_short](includes/prod_short.md)]issa. Suosittelemme, ettet vain korvaa tällä hetkellä käyttämäsi tilin tietoja, koska se voi aiheuttaa virheellisiä tietoja. Esimerkiksi avaussaldosi voi olla virheellinen tai pankkisyöte saattaa lakata toimimasta oikein. On tärkeää, että pidät nykyiset ja uudet tilit erillään.
 
@@ -229,7 +229,7 @@ Kun olet luonut uuden pankkitilin, luo myös uusi pankin kirjausryhmä ja määr
 
 Jos haluat tarkastella käteistilejäsi tarkemmin taloudellisessa raportoinnissa, käytä **Alkusumma**- ja **Loppusumma**-tilejä tilikartassasi, **Summausväli**-rivejä taloudellisissa raporteissa tai KP-tililuokkia. Lisätietoja on kohdassa [Liiketoimintatiedot ja Financial Reporting](bi.md).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  
 [Kirjausryhmien määrittäminen](finance-posting-groups.md)  

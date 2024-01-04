@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# Sähköisten asiakirjojen lähettäminen
+# <a name="send-electronic-documents"></a>Sähköisten asiakirjojen lähettäminen
 
 > [!NOTE]
 > Tämän artikkelin sisältö koskee vain Dynamics 365 Business Centralin niitä versioita, jotka on julkaistu ennen vuoden 2023 2. julkaisuaaltoa. Vuoden 2023 2. julkaisuaalto sisältää sähköisten asiakirjojen uudet toiminnot. Lisätietoja on kohdassa [Sähköisten asiakirjojen määrittäminen](finance-how-setup-edocuments.md).  
@@ -21,7 +21,7 @@ ms.author: bholtorf
 
  Lähettääksesi myyntilaskun sähköisenä PEPPOL-tiedostona voit valita **Sähköinen asiakirja** -vaihtoehdon **Kirjaa ja lähetä** -valintaikkunassa. Voit määrittää myös asiakkaan oletuslähettämisprofiilin kyseisessä valintaikkunassa. Aluksi on määritettävä joitakin perustietoja, kuten yrityksen tiedot, asiakkaat, nimikkeet ja mittayksiköt. Näitä käytetään liiketoimintakumppanien ja nimikkeiden tunnistamiseen, kun kenttien tietoja muutetaan. Lisätietoja on kohdassa [Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen](across-how-to-set-up-electronic-document-sending-and-receiving.md).  
 
-### Sähköisen myyntilaskun lähettäminen
+### <a name="to-send-an-electronic-sales-invoice"></a>Sähköisen myyntilaskun lähettäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntilaskut** ja valitse sitten vastaava linkki.  
 
@@ -46,7 +46,7 @@ ms.author: bholtorf
     > [!NOTE]  
     >  Voit myös lähettää kirjatun myyntilaskun sähköisenä asiakirjana. Menettely on sama kuin joka on kuvattu tässä aiheessa kirjaamattomille myyntiasiakirjoille. Valitse **Kirjattu myyntilasku** -sivun **Toimintoloki**-toiminto, kun haluat tarkastella sähköisen asiakirjan tilaa.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Lasku – myynti](sales-how-invoice-sales.md)  
 [Asiakirjan lähetyksen profiilien määrittäminen](sales-how-setup-document-send-profiles.md)  
