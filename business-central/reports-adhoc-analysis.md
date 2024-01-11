@@ -7,7 +7,7 @@ ms.search.keywords: feature overview
 ms.date: 03/31/2023
 ms.author: jswymer
 ---
-# Ad-hoc-tietoanalyysi
+# <a name="ad-hoc-data-analysis"></a>Ad-hoc-tietoanalyysi
 
 Joskus [!INCLUDE[prod_short](includes/prod_short.md)]issa on analysoitava tietoja tavalla, joka ei ole mahdollinen vakiomuotoisessa raportissa. Tätä kutsutaan usein ad-hoc-analyysiksi. Alla on linkkejä, joiden avulla opit käyttämään ominaisuutta.
 
@@ -19,7 +19,7 @@ Joskus [!INCLUDE[prod_short](includes/prod_short.md)]issa on analysoitava tietoj
 | Taloustietojen tarkastelu ja analysointi talousraporttien avulla | [Talousanalytiikka](bi.md) |
 | Luettelotietojen analysointi suoraan sivulta |[Luettelotietojen analysoiminen analysointitilan avulla](analysis-mode.md)|
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Business Intelligencen ja raportoinnin yleiskuva](ui-work-report.md)
 

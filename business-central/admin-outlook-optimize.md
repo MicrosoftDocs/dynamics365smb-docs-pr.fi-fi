@@ -10,34 +10,34 @@ ms.search.keywords: 'Outlook, Microsoft 365, inbox, business inbox, WebView2, Ed
 ms.date: 05/12/2021
 ms.author: jswymer
 ---
-# Outlookin optimointi yrityssähköpostia varten 
+# <a name="optimize-outlook-for-your-business-inbox"></a>Outlookin optimointi yrityssähköpostia varten
 
 Tässä artikkelissa käsitellään sitä, miten voit saada yrityssähköpostin parhaan mahdollisen käyttökokemuksen Microsoft Outlookissa. 
 
-## Päivitä Outlook
+## <a name="update-outlook"></a>Päivitä Outlook
 
 Päivitä Outlook-versioon 2012 tai uudempaan.
 
 > [!NOTE]
 > Jos et pysty päivittämään Outlookia versioon 2012 tai uudempaan, varmista, että päivität ainakin versioon 1905. Se estää Outlook-apuohjelmaa käyttämästä vanhoja Internet Explorer -komponentteja
 
-### Outlook-versiosi tarkistaminen
+### <a name="how-to-check-your-version-of-outlook"></a>Outlook-versiosi tarkistaminen
 
 Käytät sitten Office 2019:ää tai Microsoft 365:tä, seuraa tätä Microsoft tukiopasta ja tarkista, mikä Outlook-versio sinulla on:  
 
 [Tietoja Officesta: mikä Officen versio minulla on käytössä?](https://support.microsoft.com/office/about-office-what-version-of-office-am-i-using-932788b8-a3ce-44bf-bb09-e334518b8b19)
 
-### Outlookin päivittäminen
+### <a name="how-to-update-outlook"></a>Outlookin päivittäminen
 
 Jos haluat päivittää Outlookin uusimpaan versioon, noudata tätä Microsoft-tukiopasta tai ota yhteyttä järjestelmänvalvojaan:
 
 [Office-päivitysten asentaminen](https://support.microsoft.com/office/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5)
 
-## Microsoft Edge WebView2:n asentaminen
+## <a name="install-microsoft-edge-webview2"></a>Microsoft Edge WebView2:n asentaminen
 
 Varmista, että Microsoft Edge WebView2 on asennettu laitteeseesi.
 
-### Microsoft Edge WebView2 -asennuksen tarkistaminen 
+### <a name="how-to-check-if-microsoft-edge-webview2-is-installed"></a>Microsoft Edge WebView2 -asennuksen tarkistaminen
 
 Voit tarkistaa Microsoft Edge WebView2 -asennuksen tietokoneeltasi seuraavasti:
 
@@ -52,7 +52,7 @@ Ohjauspaneelista:
 2. Valitse **Ohjelmat** > **Ohjelmat ja ominaisuudet**.
 3. Kirjoita hakukenttään **WebView2**. Jos Microsoft Edge WebView2 on asennettuna, näet merkinnän nimeltä **Microsoft Edge WebView2 Runtime**.
 
-### Microsoft Edge WebView2:n asentaminen 
+### <a name="how-to-install-microsoft-edge-webview2"></a>Microsoft Edge WebView2:n asentaminen
 
 1. Siirry selaimen avulla kohteeseen [https://developer.microsoft.com/microsoft-edge/webview2/](https://developer.microsoft.com/microsoft-edge/webview2/).
 2. Valitse **Lataa**.
@@ -62,11 +62,11 @@ Ohjauspaneelista:
 > [!NOTE]
 > Organisaatiosi saattaa rajoittaa sitä, mitä komponentteja laitteeseesi voi asentaa. Pyydä apua järjestelmänvalvojalta.
 
-## Käytä tuettua selainta
+## <a name="use-a-supported-browser"></a>Käytä tuettua selainta
 
 Harkitse Outlookin verkkoversion käyttämistä jossakin Business Centralin tukemassa selaimessa. Luettelo tuetuista selaimista on kohdassa [Business Centralin käyttämisen vähimmäisvaatimukset](product-requirements.md#browsers).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Business Centralin hakeminen omaan mobiililaitteeseen](install-mobile-app.md)  
