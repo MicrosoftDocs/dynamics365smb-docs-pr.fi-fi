@@ -10,7 +10,7 @@ ms.search.form: '312, 313'
 ms.date: 12/21/2023
 ms.custom: bap-template
 ---
-# Kirjausryhmien määrittäminen
+# <a name="set-up-posting-groups"></a>Kirjausryhmien määrittäminen
 
 Kirjausryhmät yhdistävät entiteetit kirjanpitotileihin. Esimerkkejä entiteeteistä ovat asiakkaat, toimittajat, nimikkeet, resurssit sekä myynti- ja ostoasiakirjat. Kirjausryhmät säästävät aikaa ja auttavat välttämään virheitä tapahtumia kirjattaessa. Tapahtuman arvot viedään kyseisen objektin kirjausryhmässä määritetylle tilille. Kirjausryhmiä varten tarvitaan vain tilikartta. Lisätietoja on kohdassa [Tilikartan määrittäminen](finance-setup-chart-accounts.md).  
 
@@ -28,7 +28,7 @@ Kirjausryhmiä on kolmenlaisia:
 
 Seuraavissa osioissa käsitellään kutakin kirjausryhmätyyppiä.  
 
-## Yleiset kirjausryhmät
+## <a name="general-posting-groups"></a>Yleiset kirjausryhmät
 
 Seuraavassa taulukossa kuvaillaan yleisiä kirjausryhmätyyppiä.
 
@@ -38,7 +38,7 @@ Seuraavassa taulukossa kuvaillaan yleisiä kirjausryhmätyyppiä.
 | Yleiset tuotteen kirjausryhmät |Liittämällä tämän ryhmän nimikkeisiin ja resursseihin voit määrittää, mitä myyt ja mitä ostat. Määritä nämä kirjausryhmät **Yleiset tuotteen kirj.ryhmät** -sivulla. Mieti määrityksiä tehdessäsi, kuinka monta ryhmää tarvitse erittelemään tuotteiden (nimikkeiden ja resurssien) mukaisen myynnin ja nimikkeiden mukaiset ostot. Jaa nämä ryhmät esimerkiksi raaka-aineiden, resurssien ja kapasiteetin mukaan. |
 | Yleiset kirjausasetukset |Yhdistä liiketoiminnan ja tuotteen kirjausryhmiä ja valitse tilit, joille kirjaukset tehdään. Kullekin liiketoiminnan ja tuotteen kirjausryhmien yhdistelmälle voi määrittää eri joukon pääkirjanpidon tilejä. Saman nimikkeen myynnin voi siis esimerkiksi kirjata eri pääkirjanpitotileille, sillä asiakkaille on määritetty eri liiketoiminnan kirjausryhmät. Määritä nämä asetukset **Yleiset kirjausasetukset** -sivulla. |
 
-## Erityiset kirjausryhmät
+## <a name="specific-posting-groups"></a>Erityiset kirjausryhmät
 
 Seuraavassa taulukossa kuvaillaan tietotyyppikohtaisia nimiketyyppejä.
 
@@ -50,7 +50,7 @@ Seuraavassa taulukossa kuvaillaan tietotyyppikohtaisia nimiketyyppejä.
 | Pankkitilin kirjausryhmät |Määritä pääkirjanpitotilit, joihin pankkitilitapahtumat kirjataan. Tämä esimerkiksi yksinkertaistaa tapahtumien jäljittämistä ja pankkitilin täsmäyttämistä. Määritä nämä kirjausryhmät **Pankkitilin kirjausryhmät** -sivulla. Suosittelemme, että näiden KP-tilien **Suorakirjaus**-kentän arvoksi asetetaan *Ei*. |
 | Käyttöomaisuuden kirjausryhmät |Määritä erilaisten kulujen ja kustannusten tilit. Näitä kuluja ja kustannuksia ovat esimerkiksi hankintamenot, kokonaispoistosummat, hankintamenot luovutettaessa, kokonaispoistot luovutettaessa, voitot luovutettaessa, tappiot luovutettaessa, ylläpitokulut ja poistokustannukset. Määritä nämä kirjausryhmät **KO:n kirjausryhmät** -sivulla. |
 
-### Korvaavien asiakkaan tai toimittajan kirjausryhmien salliminen asiakirjoille
+### <a name="allow-substitute-customer-or-vendor-posting-groups-on-documents"></a>Korvaavien asiakkaan tai toimittajan kirjausryhmien salliminen asiakirjoille
 
 Voit antaa käyttäjien valita eri asiakkaan ja toimittajan kirjausryhmät kuin oletusryhmät, kun he työskentelevät myynti- tai ostoasiakirjojen ja päiväkirjojen parissa.
 
@@ -62,7 +62,7 @@ Kun olet määrittänyt tämän, voit valita sallituista korvaavista kirjausryhm
 
 Esimerkiksi silloin, kun kirjataan lasku ja maksu, jotka on kirjattu eri asiakkaan tai toimittajan kirjausryhmien kanssa (eri KP-tilit), [!INCLUDE[prod_short](includes/prod_short.md)] siirtää summat KP-tilien välillä, jotta ne tasapainotetaan.
 
-## Verokirjausryhmä
+## <a name="tax-posting-groups"></a>Verokirjausryhmä
 
 Seuraavassa taulukossa kuvaillaan veroihin liittyviä kirjausryhmätyyppiä.
 
@@ -74,7 +74,7 @@ Seuraavassa taulukossa kuvaillaan veroihin liittyviä kirjausryhmätyyppiä.
 
 Jos maasi tai alueesi käyttää arvonlisäveroa (ALV), lisätietoja on kohdassa [Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen](finance-setup-vat.md).  
 
-## Esimerkki kirjausryhmien linkittämisestä
+## <a name="example-of-linking-posting-groups"></a>Esimerkki kirjausryhmien linkittämisestä
 
 Käytettävä skenaario.  
 
@@ -97,11 +97,11 @@ Kun luot myyntiasiakirjan, myyntiotsikko käyttää asiakaskortin tietoja ja myy
 
 Kirjausajankohta määräytyy asetusten mukaan. Esimerkiksi jaksoittaiset toiminnot, kuten varaston kustannusten kirjaus- tai kustannusnimikkeiden muutostapahtumat, vaikuttavat ajoitukseen.
 
-## Kirjausasetusrivien kopioiminen
+## <a name="copy-posting-setup-lines"></a>Kirjausasetusrivien kopioiminen
 
 Mitä enemmän tuotteen ja liiketoiminnan kirjausryhmiä on luotu, sitä enemmän rivejä näkyy **Yleiset kirjausasetukset** -sivulla. Vaikka liiketoiminnan ja tuotteen kirjausryhmiä saattaa olla useita, eri yhdistelmillä voi kuitenkin kirjata samoille pääkirjanpidon tileille. Manuaalisia vientejä voi rajoittaa kopioimalla pääkirjanpidon tilit aiemmin luodulta riviltä **Yleiset kirjausasetukset** -sivulla.
 
-## Kirjausryhmien määrittäminen liikkeellä ollessa
+## <a name="set-up-posting-groups-on-the-go"></a>Kirjausryhmien määrittäminen liikkeellä ollessa
 
 Jotta käyttäjät voisivat aloittaa nopeammin, [!INCLUDE[prod_short](includes/prod_short.md)] voi näyttää ilmoitukset puuttuvista pääkirjanpitotileistä asiakirjojen eri kirjausryhmien asetuksissa. Jos haluat saada nämä ilmoitukset, varmista, että **KP-tili puuttuu kirjausryhmästä tai asetuksesta** -ilmoitus on valittuna **Omat ilmoitukset** -sivulla, jonka voit avata **Omat asetukset**-sivun **Muuta vastaanotettaessa ilmoituksia** -kentän avulla.  
 
@@ -114,7 +114,7 @@ Tällöin saat ilmoituksen, kun työskentelet asiakirjan parissa, joka käyttä�
 
 Vuoden 2022 1. julkaisuaallossa voit käyttää **Yleiset kirjausasetukset** -sivun **Estetty**-kenttää, jos haluat estää käyttäjiä vahingossa käyttämästä asetuksia, jotka eivät enää ole merkityksellisiä uusissa kirjauksissa.  
 
-## Kirjausryhmän virheiden vianetsintä
+## <a name="troubleshooting-posting-group-errors"></a>Kirjausryhmän virheiden vianetsintä
 
 Kirjausryhmät ovat eräs kehittyneimmistä käsitteistä, jotka määritetään [!INCLUDE[prod_short](includes/prod_short.md)]issa. Jos niitä ei ole määritetty oikein, asiakirjojen tai päiväkirjarivien kirjauksessa voi ilmetä virheitä. Virheet johtuvat esimerkiksi siitä, miten kirjanpitotilit määritetään tai miten kirjausryhmät yhdistetään virheellisesti.
 
@@ -123,7 +123,7 @@ Kun jotain on vialla, [!INCLUDE[prod_short](includes/prod_short.md)] -näyttöö
 > [!NOTE]
 > Yllä kuvattu virheen käsittely ei ole käytettävissä nimike-, resurssi-, työntekijä- ja käyttöomaisuuspäiväkirjoissa tai KP-tileissä, jotka on lisätty kirjausryhmien paikallisiin versioihin.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  

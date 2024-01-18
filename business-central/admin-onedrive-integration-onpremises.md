@@ -10,7 +10,7 @@ ms.search.keywords: 'OneDrive, share, browser'
 ms.date: 12/12/2023
 ms.author: jswymer
 ---
-# Määritetään paikallinen Business Central OneDrive -integraatiota varten
+# <a name="configuring-onedrive-integration-with-business-central-on-premises"></a>Määritetään paikallinen Business Central OneDrive -integraatiota varten
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -24,7 +24,7 @@ OneDrive-integroinnin määrittämiseen tarvitaan kaksi tehtävää.
 > [!IMPORTANT]
 > [!INCLUDE[prod_short](includes/prod_short.md)] on-premises voidaan yhdistää vain OneDriveen, jota isännöi Microsoft pilvipalvelussa. Yhteyden muodostamista [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -asennuksesta SharePoint-palvelimen Omat sivustot -säilöön ei tueta.
 
-## <a name="registerapp"></a>Sovelluksen rekisteröinti Microsoft Entra ID:ssä OneDrive-integrointia varten
+## <a name="register-an-app-in-microsoft-entra-id-for-onedrive-integration"></a><a name="registerapp"></a>Sovelluksen rekisteröinti Microsoft Entra ID:ssä OneDrive-integrointia varten
 
 Tässä tehtävässä lisäät rekisteröidyn sovelluksen Business Centralille Microsoft 365 -suunnitelman Microsoft Entra -vuokraajassa. Muiden Business Centralissa käytettävien Azure-palvelujen tavoin OneDrive edellyttää rekisteröityä sovellusta Microsoft Entra ID:ssä. Rekisteröity sovellus tuottaa Business Centralin ja SharePointin välisiä todennus- ja valtuutuspalveluita, jota OneDrive käyttää.
 
@@ -47,19 +47,19 @@ Kun rekisteröit sovelluksen, harkitse seuraavia seikkoja:
 
 - Jos käytät Business Central -versiota 19 tai 20, kopioi rekisteröidyn sovelluksen käyttämä **Asiakastunnus** ja **Asiakkaan salaisuus**. Tarvitset näitä tietoja seuraavassa tehtävässä.
 
-## <a name="url"></a>Hanki OneDrive URL-osoite
+## <a name="get-your-onedrive-url"></a><a name="url"></a>Hanki OneDrive URL-osoite
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
-## OneDrive-yhteyden määrittäminen versiossa 21 ja uudemmissa
+## <a name="set-up-the-onedrive-connection-in-version-21-and-later"></a>OneDrive-yhteyden määrittäminen versiossa 21 ja uudemmissa
 
 Käytä tätä toimintoa, jos käytössäsi on Business Centralin vuoden 2022 julkaisuaalto 2 (versio 21) tai uudempi.
 
-### Vaatimukset
+### <a name="prerequisites"></a>Vaatimukset
 
 - Vähintään epäsuora-, Muokkaa- ja Poista (IMD)-käyttöoikeus taulukossa **Asiakirja huoltoskenaariolle**
 
-### Suorita OneDrive-määritys
+### <a name="run-onedrive-setup"></a>Suorita OneDrive-määritys
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **OneDrive -määritys** ja valitse sitten vastaava linkki.
 2. Kun suoritat asetusten ohjatun määrityksen ensimmäisen kerran, näet **Oma tietosuoja**. Lue sivun tiedot, ja jos hyväksyt käyttöehdot, jatka valitsemalla **Hyväksy**.
@@ -76,7 +76,7 @@ Käytä tätä toimintoa, jos käytössäsi on Business Centralin vuoden 2022 ju
    - Jos et ole vielä määrittänyt Microsoft Entra ID:n rekisteröityä sovellusta, **Määritä Microsoft Entra ID** -opas avautuu.
 6. Kun se on valmis, tietosuojailmoitus OneDrive-integraatiolle hyväksytään kaikille käyttäjille. Jos haluat muuttaa sitä niin, että käyttäjien on hyväksyttävä tai hylättävä se itse, mene **Tietosuojailmoitusten tila** -sivulle ja valitse **Anna käyttäjän päättää** OneDrive-integraatiossa. Käyttäjiä pyydetään sitten hyväksymään tai hylkäämään tietosuojailmoitus, kun he käyttävät OneDrive-ominaisuuksia ensimmäisen kerran. Lisätietoja on kohdassa [Tietosuojailmoitukset](privacy-notices-status.md).
 
-## [!INCLUDE[prod_short](includes/prod_short.md)]-yhteyden määrittäminen versioissa 19 ja 20
+## <a name="set-up-the-connection-in--version-19-and-20"></a>[!INCLUDE[prod_short](includes/prod_short.md)]-yhteyden määrittäminen versioissa 19 ja 20
 
 Käytä tätä toimintoa, jos käytössäsi on Business Centralin vuoden 2022 julkaisuaalto 1 (versio 20) tai vuoden 2021 julkaisuaalto 2 (versio 19).
 > [!IMPORTANT]
@@ -98,17 +98,17 @@ Käytä tätä toimintoa, jos käytössäsi on Business Centralin vuoden 2022 ju
 > [!IMPORTANT]
 > **SharePoint-yhteyden määritys** -sivulla määritetään monia vanhoja ominaisuuksia. **Yleiset**-osa määrittää yhteyden OneDriveen, ja **Jaetut asiakirjat** -osa ohjaa tiedostot sen sijaan uudelleen SharePointiin. **SharePoint-yhteyden asetukset** on syrjäytetty, ja ne poistetaan tulevassa versiossa. Microsoft suosittelee, että et määritä **Jaetut asiakirjat** -osiota. Lisätietoja on kohdassa [Vanhentuneet ominaisuudet perussovelluksessa](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup).
 
-## Versioon 21 päivittämisen jälkeen
+## <a name="after-upgrade-to-version-21"></a>Versioon 21 päivittämisen jälkeen
 
 Kun päivität versioon 21 tai uudempaan, **SharePoint-yhteyden asetukset** -sivulla määritetty aiemmin luotu OneDrive-yhteys toimii edelleen. Koska **SharePoint-yhteyden asetus** -sivu poistetaan versiosta 23, Microsoft suosittelee, että siirryt uuteen OneDrive-integrointiin seuraavassa osassa kuvatulla tavalla. Tämän vaihdon tekeminen nyt helpottaa sitä, kun **SharePoint-yhteyden asetukset** poistetaan lopullisesti. Lisäksi sen avulla voit käyttää **OneDrive-määrityksen** asetusten ohjattu määritysopasta käyttäjien käytettävissä olevien OneDrive-ominaisuuksien hallintaan.
 
-## Siirtyminen vanhasta SharePointista uuteen OneDrive-integraatioon 
+## <a name="switching-from-legacy-sharepoint-to-new-onedrive-integration"></a>Siirtyminen vanhasta SharePointista uuteen OneDrive-integraatioon
 
 Voit siirtyä uuteen OneDrive-integrointiin suorittamalla **OneDrive-määrityksen** asetusten ohjatun määritysoppaan, jonka voit avata suoraan tai vanhalta **SharePoint-yhteyden asetus** -sivulta. **OneDrive-määritys**asetusten ohjattu määritys vie sinut läpi siirtymisen ja antaa tietoa muutoksista, joita tehdään matkan varrella.
 
 Ennen kuin aloitat valitsimen käytön tai sen tekemisen, tutustu seuraavaan osioon ja tutustu prosessiin liittyviin näkökohtiin ja huomioihin. 
 
-### <a name="onedrivesetupmigration"></a>Tietoja siirtymisestä uuteen OneDrive-integraatioon
+### <a name="about-switching-to-the-new-onedrive-integration"></a><a name="onedrivesetupmigration"></a>Tietoja siirtymisestä uuteen OneDrive-integraatioon
 
 OneDrive-integroinnin lisäksi Business Central voi integroida myös muihin palveluihin, kuten Power BIhin ja Universal Print -palveluun. Integrointi näihin muihin palveluihin vaatii myös rekisteröidyn Microsoft Entra -sovelluksen todennusta varten. Näiden muiden palveluiden käyttämä Microsoft Entra -sovellus on määritetty **Määritä Microsoft Entra -tilit** asetusten ohjattuun määritykseen. Kun siirryt vanhan SharePoint-yhteyden asetuksista, uusi **OneDrive-määritys** asetusten ohjattu määritys muuttaa OneDrive-integrointia myös käyttämään **Määritä Microsoft Entra -tilien** -asetusten ohjatun määrityksen&mdash;jotta kaikki integraatiot käyttävät samaa Microsoft Entra -sovellusta.
 
@@ -117,7 +117,7 @@ Tämä muutos vaikuttaa siirryttäessä uuteen OneDrive-integrointiin sen mukaan
 > [!IMPORTANT]
 > Kun siirryt uuteen OneDrive-määritykseen, et voi enää käyttää **SharePoint-yhteyden asetus** -sivua OneDrive-integroinnin määrittämiseen.
 
-#### Muutosten vaikutus integrointiin
+#### <a name="how-the-changes-affect-the-integration"></a>Muutosten vaikutus integrointiin
 
 **OneDrive-määrityksen** -asetusten ohjattu määritys käyttää aina sovellusta, joka on määritetty **Määritä Microsoft Entra -tilit** asetusten ohjatussa määrityksessä, jos sellainen on olemassa. Kun suoritat **OneDrive-määrityksen** asetusten ohjatussa määrityksessä, se vertaa sovellusta, joka on määritetty **Määritä Microsoft Entra -tilisi** nykyisessä sovelluksessa, joka on määritetty **SharePoint-yhteysasetuksissa**.
 
@@ -149,7 +149,7 @@ Tämä muutos vaikuttaa siirryttäessä uuteen OneDrive-integrointiin sen mukaan
 
    `The Microsoft Entra application used for authentication will be configured for all Business Central integrations`.
 
-### Siirry uuteen OneDrive-integrointiin suorittamalla OneDrive-määritys
+### <a name="run-onedrive-setup-to-switch-to-the-new-onedrive-integration"></a>Siirry uuteen OneDrive-integrointiin suorittamalla OneDrive-määritys
 
 1. Avaa joko **OneDrive-määritys**-sivu tai **SharePoint-yhteyden määritys** -sivu.
 2. Jos käytät **SharePoint-yhteyden asetus** -sivua, valitse sivun yläosassa olevassa ilmoituksessa **Siirry uuteen OneDrive-määritykseen** -kohtaan.
@@ -163,7 +163,7 @@ Tämä muutos vaikuttaa siirryttäessä uuteen OneDrive-integrointiin sen mukaan
 
    Jos testi onnistuu, valitse **Valmis**, ja olet valmis aloittamaan. Muussa tapauksessa voit korjata ongelman käyttämällä sivun viestejä.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 [Business Centralin ja OneDrive for Businessin integrointi](across-onedrive-overview.md)  
 [Business Central-tiedostojen avaaminen OneDrivessa](across-share-onedrive.md)  
 [OneDrive – usein kysytyt kysymykset](admin-onedrive-faq.md)

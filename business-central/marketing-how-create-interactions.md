@@ -10,13 +10,13 @@ ms.custom: bap-template
 ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5077, 5078, 5074, 5076, 5186, 5075, 5079'
 ---
-# Vuorovaikutusten luominen yhteyshenkilöille ja segmenteille
+# <a name="create-interactions-on-contacts-and-segments"></a>Vuorovaikutusten luominen yhteyshenkilöille ja segmenteille
 
 Voit luoda vuorovaikutuksia, joiden avulla voit seurata yhteydenpitoa, jota sinulla on yhden kontaktin kanssa tai jossa on useita kontakteja segmenteissäsi. Vuorovaikutusten luonnin helpottamiseksi [!INCLUDE [prod_short](includes/prod_short.md)] tarjoaa **Luo vuorovaikutus** -asetusten ohjatun määrityksen. Oppaasta on apua, kun halutaan tallentaa tärkeitä vuorovaikutustietoja.
 
 Ennen vuorovaikutusten luomista sinun täytyy kuitenkin määrittää vuorovaikutusmallit. Lisätietoja vuorovaikutusmalleista on [Vuorovaikutusmallien määrittäminen](marketing-interactions.md) -kohdassa.
 
-## Vuorovaikutuksen luominen yhteyshenkilön kanssa
+## <a name="to-create-an-interaction-with-a-contact"></a>Vuorovaikutuksen luominen yhteyshenkilön kanssa
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yhteyshenkilöt**, **Myyjä** tai **Vuorovaikutuslokitapahtuma** ja valitse liittyvä linkki.
 2. Valitse **Luo vuorovaikutus** -toiminto.
@@ -25,7 +25,7 @@ Ennen vuorovaikutusten luomista sinun täytyy kuitenkin määrittää vuorovaiku
 > [!NOTE]  
 > Jos sinun täytyy lopettaa ennen vuorovaikutuksen päättymistä, voit valita **Peruuta** ja määrittää, haluatko tallentaa asetukset, jotta voit jatkaa myöhemmin. Jos haluat lisätietoja lykätyistä vuorovaikutuksista, siirry [Lykätyn vuorovaikutuksen viimeistely](#to-finish-setting-up-a-postponed-interaction) -kohtaan.
 
-## Vuorovaikutusten luominen segmentille
+## <a name="to-create-an-interaction-on-a-segment"></a>Vuorovaikutusten luominen segmentille
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Segmentit** ja valitse sitten vastaava linkki.
 2. Valitse **Luo vuorovaikutus** -toiminto.
@@ -40,12 +40,12 @@ Ennen vuorovaikutusten luomista sinun täytyy kuitenkin määrittää vuorovaiku
 
 Vuorovaikutus tallennetaan kullekin kontaktille **Vuorovaikutuslokitapahtuma**-taulukon segmentissä. Tämän jälkeen segmentti kirjataan lokiin. Lokiin kirjatut segmentit löytyvät **Lokiin kirjattu segmentti** -sivulta.
 
-## Lykätyn vuorovaikutuksen viimeistely
+## <a name="to-finish-setting-up-a-postponed-interaction"></a>Lykätyn vuorovaikutuksen viimeistely
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Lykätyt vuorovaikutukset** ja valitse sitten vastaava linkki.
 2. Valitse lopetettava vuorovaikutus ja valitse sitten **Jatka**-toiminto.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Vuorovaikutusten tallentaminen](marketing-interactions.md)  
 [Kontaktien hallinta](marketing-contacts.md)  

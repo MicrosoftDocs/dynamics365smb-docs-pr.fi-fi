@@ -10,14 +10,14 @@ ms.search.keywords: 'SMTP, mail, Microsoft 365'
 ms.date: 12/11/2023
 ms.author: bholtorf
 ---
-# Business Central -sovelluksen käyttäminen ilman Outlookia
+# <a name="use-business-central-without-outlook"></a>Business Central -sovelluksen käyttäminen ilman Outlookia
 [!INCLUDE[prod_short](includes/prod_short.md)] on integroitu tiiviisti Microsoft 365:n kanssa, ja voit käyttää [!INCLUDE[prod_short](includes/prod_short.md)]ia Outlookissa yrityssähköpostina. Jos Outlook ei ole käytössä, [!INCLUDE[prod_short](includes/prod_short.md)]ia voi käyttää selaimessa tai mobiililaitteessa.  
 
-## Lähetetään sähköpostiviestiä
+## <a name="sending-email"></a>Lähetetään sähköpostiviestiä
 Voit lähettää asiakirjoja, kuten laskuja, sähköpostina käyttämällä yrityksen sähköpostiosoitetta. Roolikeskuksesta voit käyttää avustettua asennusopasta, joka auttaa sähköpostin määrittämisessä. Jos Microsoft 365 -sähköpostitili ei ole käytössä, sinun on määritettävä sähköpostipalvelimen tekniset tiedot. Jos tiedot eivät ole käytettävissä, ota yhteys IT-tukeen.  
 
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md)  
 [Business Centralin hakeminen omaan mobiililaitteeseen](install-mobile-app.md)  

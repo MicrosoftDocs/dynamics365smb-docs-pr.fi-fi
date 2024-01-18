@@ -9,11 +9,11 @@ ms.date: 12/07/2023
 ms.author: soalex
 ---
 
-# Maa- tai aluekohtaisten lakisääteisiä ominaisuuksia koskevien ilmoitusten lähettäminen
+# <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Maa- tai aluekohtaisten lakisääteisiä ominaisuuksia koskevien ilmoitusten lähettäminen
 
 Voit lähettää lakisääteisiä ilmoituksia Microsoft Dynamics Lifecycle Servicesin (LCS) kautta Dynamicsin lakisääteisten ilmoitusten lähetyspalveluun.  
 
-## Lakisääteisen ilmoituksen lähettäminen LCS:ssä
+## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Lakisääteisen ilmoituksen lähettäminen LCS:ssä
 
 1. Siirry kohtaan [Lifecycle Services](https://lcs.dynamics.com) ja kirjaudu sisään.  
 
@@ -66,7 +66,7 @@ Voit lähettää lakisääteisiä ilmoituksia Microsoft Dynamics Lifecycle Servi
 
       Kun olet lähettänyt ilmoituksen, saat vahvistuksen, että ilmoituksen lähetys Microsoftille onnistui.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [[!INCLUDE[prod_long](includes/prod_long.md)]in paikalliset toiminnot](about-localization.md)  
 [Kielen ja kielialueen muuttaminen](about-locale-language.md)  

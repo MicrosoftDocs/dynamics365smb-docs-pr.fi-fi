@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.date: 12/12/2023
 ---
 
-# Ohjausobjektilaajennuksen vikasietoisuus Business Centralissa
+# <a name="control-add-in-resiliency-in-business-central"></a>Ohjausobjektilaajennuksen vikasietoisuus Business Centralissa
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in päivityksen 20.0 jälkeen järjestelmä tunnistaa automaattisesti hitaasti toimivat ohjausobjektiapuohjelmat, ja näyttöön tulee seuraavan kaltainen valintaikkuna.
 
@@ -19,5 +19,5 @@ ms.date: 12/12/2023
 
 Epäkuntoinen ohjausobjektiapuohjelma saattaa vaikuttaa Business Central -kokemukseen ja aiheuttaa sen, että käyttämäsi sivu käynnistyy hitaasti. Sillä ei ole vaikutusta tietoihin, ja tekemäsi muutokset tallennetaan aina. Jos näet varoituksen yllä kuvatulla tavalla, voit piilottaa sen, mutta se voi tulla takaisin ja jos ongelma toistuu, ota yhteyttä järjestelmänvalvojaan.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 [Hallinnoi lisäosan suorituskyvyn parhaita käytäntöjä](/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-bestpractices)  

@@ -17,7 +17,7 @@ Myyjää pidetään usein liiketoiminnan eniten ulospäin suuntautuneena tehtäv
 > [!NOTE]
 > Tässä ohjeaiheessa kerrotaan [!INCLUDE[crm_md](includes/crm_md.md)]- ja [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen online-versioiden integroinnista [!INCLUDE[prod_short](includes/cds_long_md.md)] -palvelun avulla. Lisätietoja paikallisesta määrityksestä on kohdassa [Paikallisen Dynamics 365 Salesin integroinnin valmistelu](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
-## <a name="integrating-through-dataverse"></a>Integrointi Dataversen avulla
+## <a name="integrate-through-dataverse"></a>Integrointi Dataversen avulla
 
 [!INCLUDE[prod_short](includes/prod_short.md)] voidaan integroida myös [!INCLUDE[prod_short](includes/cds_long_md.md)] -ratkaisun kanssa, joten tietojen yhdistäminen ja synkronoiminen Dynamics 365 -sovellusten kanssa on helppoa. Voit esimerkiksi muodostaa yhteyden sovellukseen [!INCLUDE[crm_md](includes/crm_md.md)] tai jopa itse luotuihin sovelluksiin. Jos integrointi tehdään ensimmäistä kertaa, käytössä on oltava [!INCLUDE[prod_short](includes/cds_long_md.md)]. Lisätietoja on kohdassa [Integroiminen Dataverse -palvelun kanssa](admin-common-data-service.md).
 
@@ -122,7 +122,7 @@ Seuraavassa taulukossa on luettelo [!INCLUDE[prod_short](includes/prod_short.md)
 > [!NOTE]
 > Nimikkeen mittayksikkö-, Resurssin mittayksikkö- ja Yksikköryhmä-taulukoiden yhdistämismääritykset ovat käytettävissä vain, jos järjestelmänvalvoja on ottanut **Ominaisuuspäivitys: useiden mittayksiköiden synkronointi Dynamics 365 Salesin kanssa** -ominaisuuden käyttöön **Ominaisuuksien hallinta** -sivulla. Lisätietoja on kohdassa [Nimikkeiden ja resurssien synkronointi eri mittayksiköitä käyttävien tuotteiden kanssa](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
 
-## <a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a>Nimikkeiden ja resurssien synkronointi eri mittayksiköitä käyttävien tuotteiden kanssa
+## <a name="synchronize-items-and-resources-with-products-with-different-units-of-measure"></a>Nimikkeiden ja resurssien synkronointi eri mittayksiköitä käyttävien tuotteiden kanssa
 
 Yritykset usein tuottavat tai ostavat tiettyä mittayksikköä käyttäviä nimikkeitä ja myyvät niitä sitten käyttämällä toista mittayksikköä. Useita mittayksiköitä käyttävien nimikkeiden synkronointi edellyttää, että **Ominaisuuspäivitys: useiden mittayksiköiden synkronointi Dynamics 365 Salesin kanssa** -ominaisuus otetaan käyttöön **Ominaisuuksien hallinta** -sivulla. 
 
@@ -132,7 +132,7 @@ Kun otat käyttöön ominaisuuden päivityksen, luodaan uusi Yksikköryhmä-taul
 
 Kullekin yksikköryhmälle voidaan luoda useita mittayksiköitä, ja nämä ryhmät voidaan määrittää tuotteisiin [!INCLUDE[crm_md](includes/crm_md.md)]issa. Tämän jälkeen tuotteet voidaan synkronoida nimikkeiden ja resurssien kanssa [!INCLUDE[prod_short](includes/prod_short.md)]issa. Nimikkeen mittayksiköt ja resurssiin mittayksiköt voidaan yhdistää manuaalisesti yksikköryhmään. Jos nimikkeen tai resurssin yksikköryhmää ei näin toimittaessa ole yhdistetty [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksen yksikköryhmään esimerkiksi siksi, että yksikköryhmää ei ole, [!INCLUDE[prod_short](includes/prod_short.md)] luo yksikköryhmän automaattisesti [!INCLUDE[crm_md](includes/crm_md.md)] -sovelluksessa.
 
-### <a name="mapping-items-and-resources-to-products"></a>Nimikkeiden ja resurssien yhdistäminen tuotteisiin
+### <a name="map-items-and-resources-to-products"></a>Nimikkeiden ja resurssien yhdistäminen tuotteisiin
 
 Kun **Ominaisuuspäivitys: useiden mittayksiköiden synkronointi Dynamics 365 Salesin kanssa** -ominaisuus otetaan käyttöön, tuloksena on seuraavat:
 
@@ -208,7 +208,7 @@ Seuraavassa taulukossa kuvaillaan [!INCLUDE[crm_md](includes/crm_md.md)]:n synkr
 |KIRJMNTILASKU-LASK – Dynamics 365 Salesin synkronointityö|Synkronoi [!INCLUDE[crm_md](includes/crm_md.md)]in laskut ja [!INCLUDE[prod_short](includes/prod_short.md)]in kirjatut myyntilaskut.|[!INCLUDE[prod_short](includes/prod_short.md)]ista [!INCLUDE[crm_md](includes/crm_md.md)]iin|LASKUT-KIRJATUT MYYNTILASKUT|30|1440<br> (24 tuntia)|
 |Asiakastilastot – Dynamics 365 Salesin synkronointityö|Päivittää [!INCLUDE[crm_md](includes/crm_md.md)]in tilit uusilla [!INCLUDE[prod_short](includes/prod_short.md)]in asiakastiedoilla. Nämä tiedot näkyvät [!INCLUDE[crm_md](includes/crm_md.md)]issa niiden tilien **Business Central -tilin tilastot** -pikanäkymälomakkeessa, jotka on yhdistetty [!INCLUDE[prod_short](includes/prod_short.md)]in asiakkaisiin.<br /><br /> Nämä tiedot voidaan päivittää myös manuaalisesti kustakin asiakastietueesta. Lisätietoja on kohdassa [Tietueiden yhdistäminen ja synkronoiminen manuaalisesti](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Huomautus:** Tällä työjonotapahtumalla on merkitystä vain, jos [!INCLUDE[prod_short](includes/prod_short.md)] -integrointiratkaisu on asennettu [!INCLUDE[crm_md](includes/crm_md.md)]iin. |Ei sovellu|Ei sovellu|30|Ei sovellu| 
 
-## <a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a>Yhteyden muodostaminen Business Central 2019:n 1. julkaisuaallon ja Microsoft Dynamics NAV 2018:n paikallisiin versioihin
+## <a name="connect-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a>Yhteyden muodostaminen Business Central 2019:n 1. julkaisuaallon ja Microsoft Dynamics NAV 2018:n paikallisiin versioihin
 
 Microsoft Power Platform -tiimi on [ilmoittanut](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse), että Office 365 -todennustyyppi vanhentuu. Jos käytössä on [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen paikallinen versio, joka on vanhempi kuin Business Central 2019:n julkaisuaalto 1, sinun on muodostettava yhteys [!INCLUDE[crm_md](includes/crm_md.md)] -sovellukseen online-tilassa OAuth-todennustyypin avulla. Tässä osassa kerrotaan, miten seuraavat tuoteversiot yhdistetään:
 
@@ -227,7 +227,7 @@ Microsoft Power Platform -tiimi on [ilmoittanut](/power-platform/important-chang
 
    * OAuth
 
-### <a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a>Business Central 2019:n julkaisuaallon 1 ja Dynamics NAV 2018:n yhdistäminen
+### <a name="connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a>Business Central 2019:n julkaisuaallon 1 ja Dynamics NAV 2018:n yhdistäminen
 
 1. Tuo Microsoft Dynamics 365 Business Central -integrointiratkaisu [!INCLUDE[crm_md](includes/crm_md.md)] -ympäristöösi. Integrointiratkaisu on käytettävissä CrmCustomization-kansiossa [!INCLUDE[prod_short](includes/prod_short.md)]- tai Dynamics NAV -DVD-asennuslevyllä. Tuo tuoteversiostasi riippuen jokin seuraavista ratkaisuista:
 

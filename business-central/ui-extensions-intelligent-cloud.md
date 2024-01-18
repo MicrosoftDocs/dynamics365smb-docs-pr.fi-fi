@@ -11,13 +11,13 @@ ms.date: 12/11/2023
 ms.author: bholtorf
 ---
 
-# Pilvipalveluihin siirtymisen peruslaajennus
+# <a name="cloud-migration-base-extension"></a>Pilvipalveluihin siirtymisen peruslaajennus
 
 Laajennus avustaa paikallisen ratkaisun ja [!INCLUDE [prod_short](includes/prod_short.md)] Online -ympäristön määritysvaiheissa, kun siirtymisen pilvipalveluihin aloitetaan.  
 
 Kun yhteys on määritetty, tiedot voidaan siirtää paikallisesta ratkaisusta [!INCLUDE[prod_short](includes/prod_short.md)] Onlineen. Tämä laajennus toimii paikallisen ratkaisun tietojen replikointilaajennuksen kanssa. Lisätietoja on kohdassa [Pilvipalveluihin siirtymistyökalun suorittaminen](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Pilvipalveluihin siirtymisen työkalun suorittaminen](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
 [Pilvisiirron älykkäät pilvilaajennukset](ui-extensions-data-replication.md)  
