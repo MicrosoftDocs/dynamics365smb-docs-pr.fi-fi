@@ -1,5 +1,5 @@
 ---
-title: Sovelluksen suunnittelutiedot
+title: Sovelluksen rakennetiedot
 description: Tässä sisällössä on yksityiskohtaisia teknisiä tietoja Business Central -sovelluksen monimutkaisista ominaisuuksista.
 author: brentholtorf
 ms.topic: conceptual
@@ -7,10 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 11/26/2021
+ms.date: 12/13/2023
 ms.author: bholtorf
 ---
-# <a name="application-design-details"></a>Sovelluksen suunnittelutiedot
+# Sovelluksen rakennetiedot
 
 Artikkelit tässä osiossa sisältävät yksityiskohtaisia teknisiä tietoja [!INCLUDE[prod_short](includes/prod_short.md)] monimutkaisista ominaisuuksista.  
 
@@ -24,9 +24,9 @@ Rakennetietojen sisältö on tarkoitettu käyttöönottajille, kehittäjille ja 
 |Lue kuinka suunnittelujärjestelmä toimii, ja kuinka algoritmeja voidaan muuttaa eri ympäristöjen suunnitteluvaatimuksia vastaaviksi.|[Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)|  
 |Lisätietoja tavasta, jolla järjestelmä valvoo varaston nimikkeiden saatavuutta jatkuvasti, jotta lähtevät tilaukset toimitetaan tehokkaasti ja toimitukset saadaan halutussa ajassa.|[Rakennetiedot: saatavuus varastossa](design-details-availability-in-the-warehouse.md)|
 |Lisätietoja nimikeseurannan historiallisesta ja nykyisestä rakenteesta, ja kuinka se integroituu varausjärjestelmään, ja sisällyttää sarja-/ eränumerot saatavuuslaskelmiin.|[Rakennetiedot: Nimikkeen seuranta](design-details-item-tracking.md)|  
-|Tietoja yleisen päiväkirjan kirjausriviominaisuudesta.|[Rakenteen tiedot: Yleisen päiväkirjan kirjausrivi](design-details-general-journal-post-line.md)|
+|Tietoja yleisen päiväkirjan kirjausriviominaisuudesta.|[Rakennetiedot: Yleisen päiväkirjan kirjausrivi](design-details-general-journal-post-line.md)|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Suunnittelu](production-planning.md)  
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  

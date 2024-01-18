@@ -6,14 +6,14 @@ ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
-ms.date: 03/23/2022
+ms.date: 12/12/2023
 ---
 
 # Puuttuvien asetusarvojen käsitteleminen
 > [!NOTE]
 > Vuoden 2022 1. julkaisuaallossa voit luoda omia asetusten yhdistämismäärityksiä. Lisätietoja on kohdassa [Asetusten yhdistämismääritysten mukauttaminen Microsoft Dataversen avulla](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping). Uudet ominaisuudet edellyttävät, että järjestelmänvalvoja ottaa käyttöön asetuksen **Ominaisuuden päivitys: Liitä Dataversen asetusjoukkoihin ilman koodia** **Ominaisuuksien hallinta** - sivulla. Lisätietoja on kohdassa [Tulevien ominaisuuksien ottaminen käyttöön etuajassa](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-Tämä aihe on tarkoitettu tekniselle yleisölle. Siinä kuvatut prosessit edellyttävät kehittäjän apua.
+Tämä artikkeli on tarkoitettu tekniselle yleisölle. Siinä kuvatut prosessit edellyttävät kehittäjän apua.
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] sisältää kolme asetusjoukkokenttää, joissa on Asetus-tyyppiä oleviin [!INCLUDE[prod_short](includes/prod_short.md)] -kenttiin yhdistettävät arvot automaattista synkronointia varten. Synkronoinnin aikana muut kuin yhdistetyt asetukset ohitetaan ja puuttuvat asetukset liitetään liittyvään [!INCLUDE[prod_short](includes/prod_short.md)] -tauluun ja lisätään **Dataverse-asetuksen yhdistäminen** -järjestelmätauluun myöhemmin tapahtuvaa manuaalista käsittelemistä varten. Voit esimerkiksi lisätä puuttuvat asetukset tuotteeseen ja päivittää sitten yhdistämismäärityksen.
 
@@ -82,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Kaikki [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen yllä mainitut enum-arvot yhdistetään [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen asetusjoukkoihin.
 
-### [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen asetusjoukkojen laajentaminen
+## [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen asetusjoukkojen laajentaminen
 1. Luo uusi AL-laajennus.
 
 2. Lisää Enum-laajennus laajennettaville asetuksille. Varmista, että käytät samaa arvoa. 
@@ -104,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > Uusien asetusarvojen nimien ja otsikoiden kymmenen ensimmäisen merkin on oltava samoja. Esimerkiksi kaksi asetusta, joiden nimet ovat Siirretään 20 työpäivää ja Siirretään 20 kalenteripäivää, aiheuttavat virheen, koska molemmissa on samat 10 ensimmäistä merkkiä (Siirretään). Anna nimiksi esimerkiksi SIIR20 TP ja SIIR20 KP.
 
-### [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen asetusten yhdistämisen päivittäminen
+## [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksen asetusten yhdistämisen päivittäminen
 Nyt voit luoda uudelleen [!INCLUDE[prod_short](includes/cds_long_md.md)] -asetusten ja [!INCLUDE[prod_short](includes/prod_short.md)] -tietueiden välisen yhdistämismäärityksen.
 
 Valitse **Integrointitaulukon yhdistämismääritys** -sivulla rivi **Maksuehdot**-yhdistämistä varten. Valitse sitten **Synkronoi muokatut tietueet** -toiminto. **Dataverse-asetuksen yhdistäminen** -sivulle päivitetään alla olevat lisätietueet.

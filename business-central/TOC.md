@@ -42,6 +42,10 @@
 ##### [Vaihekuvaus: saapuva ja lähtevä työnkulku fyysisen varaston perusmäärityksissä](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
 ##### [Vaihekuvaus: saapuva ja lähtevä työnkulku fyysisen sekavaraston perusmäärityksissä](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
 ##### [Vaihekuvaus: saapuva ja lähtevä työnkulku edistyneessä fyysisen varaston määrityksessä, jossa on ohjattu hyllytys ja poiminta](contoso-coffee/warehousing/warehouse-directed-flow.md)
+#### Huolto
+##### [Contoso Coffeen huollon hallinnan esittely](contoso-coffee/service/contoso-coffee-service-intro.md)
+##### [Huoltonimikkeiden huoltotilausten vaihekuvaus](contoso-coffee/service/service-basic-flow-order.md)
+##### [Huoltonimikkeiden huoltosopimusten vaihekuvaus](contoso-coffee/service/service-contract-flow.md)
 
 ### Rakennetiedot
 #### [Kohdistuksen suunnittelun tietojen yleiskatsaus](design-details-application-design.md)

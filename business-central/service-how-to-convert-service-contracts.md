@@ -1,27 +1,30 @@
 ---
 title: Huoltosopimusten muuntaminen
-description: 'Tässä aiheessa kuvataan useita vaihtoehtoisia menetelmiä, joita voit käyttää ALV-summia sisältävän palvelusopimuksen muuntamista varten.'
+description: 'Tässä artikkelissa kuvataan useita vaihtoehtoisia menetelmiä, joita voit käyttää ALV-summia sisältävän palvelusopimuksen muuntamista varten.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 06/23/2021
+ms.date: 12/07/2023
 ms.author: bholtorf
 ---
+
 # ALV-summia sisältävien huoltosopimusten muuntaminen
-Koska ALV:n muutostyökalu ei voi muuntaa huoltosopimuksia, nämä sopimukset on muunnettava manuaalisesti. Tässä aiheessa kuvataan useita vaihtoehtoisia menetelmiä, joita voit käyttää palvelusopimuksen muuntamista varten.  
+
+Koska ALV:n muutostyökalu ei voi muuntaa huoltosopimuksia, nämä sopimukset on muunnettava manuaalisesti. Tässä artikkelissa kuvataan useita vaihtoehtoisia menetelmiä, joita voit käyttää palvelusopimuksen muuntamista varten.  
 
 > [!NOTE]  
->  Tämä aihe tarjoaa korkeatasoisen työnkulun.  
+> Tämä artikkeli tarjoaa korkeatasoisen työnkulun.  
 
  Seuraavassa ohjeessa neuvotaan, miten korjataan etukäteen maksetun huoltosopimuksen lasku, joka on luotu vuoden etukäteen.  
 
 > [!NOTE]  
->  Määritä tässä esimerkissä käsittelypäivämääräksi 01.01.2017.  
+> Määritä tässä esimerkissä käsittelypäivämääräksi 01.01.2017.  
 
-### Korjaa ennakkoon maksetun huoltosopimuksen lasku  
+## Korjaa ennakkoon maksetun huoltosopimuksen lasku  
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sopimuksen hallinta** ja valitse sitten vastaava linkki.  
 2. Valitse **Luettelot** -kohdan alta **Huoltosopimukset**.  
 3. Luo uusi ennakkoon maksettu huoltosopimus. Anna aloituspäiväksi **01.01.2017** ja laskukausi asiakkaalle **20000**.  
@@ -31,15 +34,17 @@ Koska ALV:n muutostyökalu ei voi muuntaa huoltosopimuksia, nämä sopimukset on
 7. Kirjaa huoltolasku.  
 
 > [!NOTE]  
->  Älä muuta kirjaamatonta huoltolaskua. Koska palvelutapahtumat luodaan laskun luonnin yhteydessä, kirjaamattoman laskun muutos ei muuta jo luotuja tapahtumia. ALV-tapahtumat luodaan laskun kirjauksen yhteydessä. Tämän avulla voi muuttaa yleisiä tuotteen kirjausryhmiä ja GSP-tuotteen kirjausryhmiä kirjaamattomassa huoltolaskussa.   
+> Älä muuta kirjaamatonta huoltolaskua. Koska palvelutapahtumat luodaan laskun luonnin yhteydessä, kirjaamattoman laskun muutos ei muuta jo luotuja tapahtumia. ALV-tapahtumat luodaan laskun kirjauksen yhteydessä. Tämän avulla voi muuttaa yleisiä tuotteen kirjausryhmiä ja GSP-tuotteen kirjausryhmiä kirjaamattomassa huoltolaskussa.   
 
-### Luo ALV-erotuksen hyvityslasku  
+### Luo ALV-erotuksen hyvityslasku 
+ 
 Seuraavassa ohjeessa neuvotaan, miten luodaan hyvityslasku, joka sisältää vain jo laskutetun, **01.07.2017** alkaneen kauden ALV-erotus. Tässä esimerkissä ALV-summa kirjataan vain varainhoidon moduulin, ei palveluiden hallinta-moduuliin. Huoltotapahtumaan linkitettyjä ALV-tapahtumia ei voi korjata.  
 
 1. Luo uusi pääkirjanpidon tili ALV-erolle. Tätä tiliä käytetään ALV-korjausten suoraan kirjaamiseen.  
 2. Lisää uusi rivi ALV-kirjausasetuksiin.  
 
-### Luo sopimuksen vanhentumispäivämäärät sopimusriveille  
+## Luo sopimuksen vanhentumispäivämäärät sopimusriveille  
+
 Seuraavassa ohjeessa neuvotaan, miten luodaan uusia sopimuksia käyttämällä sopimuksen vanhentumispäiviä huoltosopimusriveillä.  
 
 1. Määritä **Huoltosopimus**-sivulla sopimuksen vanhenemispäivämääräksi **30.06.2017**.  
@@ -47,6 +52,7 @@ Seuraavassa ohjeessa neuvotaan, miten luodaan uusia sopimuksia käyttämällä s
 3. Koska sopimus on vanhentunut, sinun on luotava uusi sopimus uudella ALV-arvolla ajalle 1. heinäkuuta 2017 ja 31. joulukuuta 2017.  
 
 ### Luo uusi hyvityslasku.  
+
 Seuraavassa ohjeessa neuvotaan, miten luodaan uusi hyvityslasku käyttäen **Hae enn. maksetut sop. tapahtumat** -erä-ajoa. Vuoden 2017 tammikuun ja kesäkuun väliset tapahtumat, joita et halua korjata, poistetaan.  
 
 1. Aja ALV-kannan muutostyökalu 1. heinäkuuta 2017. Yleinen tuotteen kirjausryhmä tai ALV-tuotteen kirjausryhmä muutetaan. Lisätietoja on kohdassa [Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md).  
@@ -57,6 +63,7 @@ Seuraavassa ohjeessa neuvotaan, miten luodaan uusi hyvityslasku käyttäen **Hae
 6. Kun muuntaminen on valmis, ALV- ja huoltotapahtumasyötteet ovat oikeat.  
 
 ## Katso myös  
+
 [Huoltosopimusten ja huoltosopimustarjousten käyttäminen](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Rahoitus](finance.md)  
 [ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)  
