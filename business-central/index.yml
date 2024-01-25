@@ -6,7 +6,7 @@ metadata:
   title: Microsoft Dynamics 365 Business Central -ohjeet
   description: 'Business Central on pienille ja keskisuurille organisaatioille tarkoitettu liiketoiminnan hallintaratkaisu. Se yhdistää myynnin, palvelun, taloushallinnon ja toiminnot, jolloin työskentely on aiempaa älykkäämpää ja käyttöönotto nopeampaa sekä suorituskyky entistä parempi. Business Central automatisoi ja tehostaa liiketoimintaprosesseja ja auttaa liiketoiminnan hallinnassa.'
   ms.topic: hub-page
-  ms.service: dynamics365-business-central
+  ms.service: dynamics-365-business-central
   author: jswymer
   ms.author: jswymer
   ms.date: 06/16/2023

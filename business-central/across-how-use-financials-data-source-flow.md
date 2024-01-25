@@ -4,7 +4,7 @@ description: Määritä ja käytä Power Automate -työnkulkuja luodaksesi tai m
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: 'workflow, OData, Power App, SOAP, Power Automate,'
 ms.search.form: '1500,'
@@ -15,7 +15,7 @@ ms.custom: bap-template
 <!-- Line 41 says there are three cloud flow types, but the table lists four. Should line 41 change? -->
 
 
-# <a name="use-power-automate-flows-in-"></a>Power Automate -työnkulkujen käyttäminen [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksissa
+# Power Automate -työnkulkujen käyttäminen [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksissa
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukana olet antanut Microsoft Power Automate -lisenssin. Tämän lisenssin avulla voit käyttää [!INCLUDE[prod_short](includes/prod_short.md)]in tietoja työnkulun osana Microsoft Power Automatessa. Luo työnkulkuja ja yhdistä tiedot sisäisistä ja ulkoisista lähteistä [!INCLUDE [prod_short](includes/prod_short.md)] -yhdistimellä.
 
@@ -29,7 +29,7 @@ Power Automate -työnkulut käynnistyvät tapahtumien avulla, kuten tietueiden l
 > [!TIP]
 > Power Automaten lisäksi voi käyttää hyväksyntätyönkulkumalleja [!INCLUDE[prod_short](includes/prod_short.md)] -tuotteessa. Vaikka kyse on erillisistä työnkulkujärjestelmistä, jokainen Power Automatessa luotu hyväksyntätyönkulkumalli lisätään työnkulkuluetteloon [!INCLUDE[prod_short](includes/prod_short.md)] -tuotteessa. Lisätietoja kohdassa [Työnkulut](across-workflow.md).
 
-## <a name="about-power-automate-flows"></a>Tietoja Power Automaten työnkuluista
+## Tietoja Power Automaten työnkuluista
 
 Power Automateon palvelu, jonka avulla voit luoda automaattisia työnkulkuja (tai työnkulkuja) sovellusten ja palveluiden välillä, kuten [!INCLUDE[prod_short](includes/prod_short.md)]. Power Automaten työnkulut vaativat vain vähän tai ei lainkaan tietoa koodauksesta. Ne voivat liittyä moniin erilaisiin tapahtumiin ja vastauksiin, esimerkiksi:
 
@@ -47,7 +47,7 @@ Voit käsitellä kolmea eri pilvityönkulun tyyppiä:
 |Ajoitettu työnkulku|Tämä työnkulun tyyppi suoritetaan myös automaattisesti, mutta se suoritetaan ajoittain aikataulutetun päivämäärän ja ajan mukaan. |
 |Pikatyönkulku|Tämä työnkulun tyyppi suoritetaan pyydettäessä, ja se vaatii käyttäjää suorittamaan sen manuaalisesti toisesta sovelluksesta tai laitteesta, tässä tapauksessa [!INCLUDE[prod_short](includes/prod_short.md)] -asiakasohjelmasta. Pikatyönkulut toimivat samalla tavalla kuin eräajot, suorittavat useita pitkiä vaiheita muutamalla näppäimen painalluksella ja ne käynnistetään tietyiltä sivuilta tai taulukoista. Työnkulun avulla voit esimerkiksi lisätä painikkeen toimintovalikkoon **Toimittajat**-sivulla, jos haluat estää toimittajalle suoritettavat maksut ja samaan aikaan lähettää mukautettavia sähköposteja myyjän kontaktille ja yrityksesi ostajille sekä päivittää kontaktin Outlookissa. |
 
-## <a name="power-automate-features"></a>Power Automate -toiminnot
+## Power Automate -toiminnot
 
 Voit tutustua kaikkiin tällä hetkellä käytettävissä oleviin Power Automate -työnkulkuihin kirjautumalla sisään [Power Automateen](https://powerautomate.com) ja valitsemalla vasemmalla olevasta siirtymispalkista **Omat työnkulut**. Täältä löydät kaikki työnkulut, jotka olet jo luonut itse, ja työnkulut, jotka ylläpitäjä tai työtoverisi on jakanut kanssasi.
 
@@ -56,13 +56,13 @@ Voit tutustua kaikkiin tällä hetkellä käytettävissä oleviin Power Automate
 - [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman automaattisten työnkulkujen avulla sinun ei tarvitse tehdä mitään, jos et halua muuttaa niitä tai poistaa niitä käytöstä. Muussa tapauksessa ne vain toimivat käynnistettäessä. 
 <!--
 
-## <a name="automated-flows"></a>Automated flows
+## Automated flows
 
 With Power Automate, you can create business flows directly in-house and rely on citizen developers. Automated workflows can be started by both internal and external events in [!INCLUDE[prod_short](includes/prod_short.md)], and also be set to run periodically. Learn more and get instructions on how to create flows in the [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) article in the administration content.
 
 -->
 
-## <a name="run-instant-flows"></a>Suorita pikatyönkulkuja
+## Suorita pikatyönkulkuja
 
 Pikatyönkulut avautuvat [!INCLUDE [prod_short](includes/prod_short.md)] onlinessa niin, että ne säilyvät sen liiketoimintaprosessin kontekstissa, jota suoritat. Voit käyttää pikatyönkulkua useimmista luetteloista, korteista tai asiakirjoista.
 
@@ -89,7 +89,7 @@ Most flows require you to fill in a field or two before you choose the **Run flo
 > [!TIP]
 > If you don't see an **Automate** action, then your [!INCLUDE [prod_short](includes/prod_short.md)] probably hasn't yet been set up to use Power Automate. Learn more from your admin.-->
 
-## <a name="create-edit-and-manage-flows"></a>Luo, muokkaa ja hallitse työnkulkuja
+## Luo, muokkaa ja hallitse työnkulkuja
 
 Uusien työnkulkujen luominen tai vanhojen muokkaaminen ja hallinta (esimerkiksi niiden kytkeminen päälle tai pois) voidaan tehdä suoraan Power Automatessa. Voit kuitenkin aloittaa joitakin näistä tehtävistä Automaattinen toiminto -valikosta kohdassa [!INCLUDE[prod_short](includes/prod_short.md)]:
 
@@ -112,20 +112,20 @@ Nämä tehtävät tekee yleensä vain järjestelmänvalvoja tai superkäyttäjä
 - [Power Automate -työnkulkujen hallinta](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows)
 <!-- 
 
-## <a name="add-more-automated-flows-and-instant-flows"></a>Add more automated flows and instant flows
+## Add more automated flows and instant flows
 
 You can create flows through the [powerautomate.microsoft.com](https://powerautomate.microsoft.com) website. However, if your admin has switched on the capability to run Power Automate flows from inside [!INCLUDE [prod_short](includes/prod_short.md)] online, you can start the process of building a flow from the **Automate** action on the relevant pages, which can be found under the **More Options** menu depending on the page. Then choose the **Power Automate** menu item, and then choose the **Create a flow** action. Power Automate then opens in a new browser tab, and you're signed in automatically.
 
 You can find sample templates to adapt to your company and all available trigger events, using both [!INCLUDE [prod_short](includes/prod_short.md)] and external tools, by choosing the **Connectors** menu on the Power Automate website. Learn more about available templates and triggers in the [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) article in the administration content.
 
-## <a name="create-and-manage-power-automate-flows"></a>Create and manage Power Automate flows
+## Create and manage Power Automate flows
 
 You can create new flows or manage existing Power Automate flows in [!INCLUDE [prod_short](includes/prod_short.md)] on the **Manage Power Automate Flows** page. Learn more in the [Manage Power Automate Flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows) article in the administration content.
 
 <!--
 You can also manage available Power Automate workflows on the **Workflows** page in [!INCLUDE[prod_short](includes/prod_short.md)]. The page lists both the built-in approval and Power Automate workflows, with options for the latter to enable/disable, delete, and view the workflow on the Power Automate website.-->
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman automaattisten työnkulkujen vianmääritys](across-flow-troubleshoot.md)  
 [Liiketoimintaan valmistautuminen](ui-get-ready-business.md)  

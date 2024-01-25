@@ -3,20 +3,20 @@ title: Variantit
 description: 'Vaihekuvaus, jossa kerrotaan, miten tuotteen kunkin variantin kysyntäennuste päivitetään Business Centralin avulla.'
 ms.date: 04/01/2022
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-variants"></a>Vaihekuvaus: Variantit
+# Vaihekuvaus: Variantit
 
 Tässä artikkelissa on tietoja Contoso Coffee -esittelyn tietojen käytöstä varianttien suhteen.
 
-## <a name="scenario"></a>Esimerkkitilanne
+## Esimerkkitilanne
 
 Olet Contoso Coffeen tuotantosuunnittelija. Jokaisen nimikkeen SP-SCM1006, AutoDripLite variantin osalta on päivitettävä kysyntäennuste. Koska ne ovat eri värisiä, sinun täytyy varmistaa, että oikeaa tuoterakennetta (BOM) käytetään kunkin variantin osalta. Suorita suunnittelutyökirja toimitusten laskemiseksi.  
 
-## <a name="steps"></a>Vaiheet
+## Vaiheet
 
 1. Määritä varastointiyksiköt nimikkeelle SP-SCM1006, AutoDripLite. Määritä tuoterakenne varastointiyksikölle muunnoksilla PUNAINEN ja VALKOINEN.
 
@@ -98,6 +98,6 @@ Olet Contoso Coffeen tuotantosuunnittelija. Jokaisen nimikkeen SP-SCM1006, AutoD
 
     9. Valitse jokaiselle luodulle riville **Komponentit**-toiminto ja tarkista, mitä maalia käytetään.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Johdatus Contoson kahvidemotietoihin](../contoso-coffee-intro.md)  

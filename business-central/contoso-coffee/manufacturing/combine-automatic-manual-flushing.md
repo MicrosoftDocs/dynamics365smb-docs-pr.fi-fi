@@ -3,20 +3,20 @@ title: Yhdistä automaattinen ja manuaalinen materiaalinotto
 description: 'Tuotantosuunnittelijan vaihekuvaus Contoso Coffeelle, jossa halutaan yhdistää automaattinen ja manuaalinen materiaalinotto.'
 ms.date: 04/01/2022
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Vaihekuvaus: Yhdistä automaattinen ja manuaalinen materiaalinotto
+# Vaihekuvaus: Yhdistä automaattinen ja manuaalinen materiaalinotto
 
 Tässä artikkelissa on tietoja Contoso Coffee -esittelyn tietojen käytöstä materiaalinotossa.  
 
-## <a name="scenario"></a>Esimerkkitilanne
+## Esimerkkitilanne
 
 Olet Contoso Coffeen tuotantosuunnittelija. Luo uusi tuotantotilaus SP-SCM1004, AutoDrip -nimikkeen 10 yksikölle. Jotkin komponentit ja toiminnot suoritetaan eteenpäin suuntautuvana materiaalinottona, toiset taaksepäin suuntautuvana materiaalinottona eri ehtojen perusteella.
 
-## <a name="steps"></a>Vaiheet
+## Vaiheet
 
 > [Huomautus!] Muista oikaista varasto kirjaamalla alkusaldot nimikepäiväkirjaan.
 
@@ -103,7 +103,7 @@ Olet Contoso Coffeen tuotantosuunnittelija. Luo uusi tuotantotilaus SP-SCM1004, 
 
 Tässä oli tietoa manuaalisesta ja automaattisesta materiaalinotosta komponenteille.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Komponenttien materiaalinotto toiminnan tuotoksen mukaan](../../production-how-to-flush-components-according-to-operation-output.md)  
 [Johdatus Contoson kahvidemotietoihin](contoso-coffee-manufacturing-intro.md)  

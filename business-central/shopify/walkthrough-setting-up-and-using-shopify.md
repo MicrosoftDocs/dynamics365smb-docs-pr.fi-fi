@@ -3,20 +3,20 @@ title: Shopify-yhdistimen määrittäminen ja käyttäminen
 description: Useita integrointiskenaarioita Shopifyn ja Business Centralin välisen työnkulun esittelyyn
 ms.date: 06/21/2022
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.form: '30101, 30102, 30106, 30107, 30113, 30115, 30126'
 ms.reviewer: solsen
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-set-up-and-use-the-shopify-connector"></a>Vaihekuvaus: Shopify-yhdistimen määrittäminen ja käyttäminen
+# Vaihekuvaus: Shopify-yhdistimen määrittäminen ja käyttäminen
 
 Tässä osiossa esitellään joitakin tyypillisiä skenaarioita ja käydään läpi vaiheet, joiden avulla voit testata integroidun [!INCLUDE[prod_short](../includes/prod_short.md)] -järjestelmän ja Shopify-kaupan välistä työnkulkua ja kouluttaa käyttäjiä sen parissa.
 
-## <a name="prerequisites"></a>Vaatimukset
+## Vaatimukset 
 
-### <a name="shopify"></a>Shopify
+### Shopify
 
 Tarvitaan:
 
@@ -25,13 +25,13 @@ Tarvitaan:
 
 Lisätietoja Shopify-kokeiluversioiden luomisesta ja suositelluista asetuksista on kohdassa [Shopify-tilin luominen ja määrittäminen](shopify-account.md).
 
-### <a name="business-central"></a>Business Central
+### Business Central
 
 Sinulla täytyy olla [!INCLUDE[prod_short](../includes/prod_short.md)] -tili. 
 
 Voit esimerkiksi luoda esittelytilin tai aloittaa kokeiluversion. Lisätietoja on kohdissa [Dynamics 365 Business Central -esittely-ympäristöjen valmistelu](/dynamics365/business-central/dev-itpro/administration/demo-environment) ja [Rekisteröityminen kokeiluversion käyttäjäksi](../trial-signup.md). 
 
-## <a name="connect-business-central-to-the-shopify-shop"></a>Business Centralin yhdistäminen Shopify-kauppaan
+## Business Centralin yhdistäminen Shopify-kauppaan
 
 Suorita [!INCLUDE[prod_short](../includes/prod_short.md)] -järjestelmässä seuraavat vaiheet:
 
@@ -62,13 +62,13 @@ Määritä sijaintien yhdistäminen:
 4. Ota **Tuotteen oletussijainti** -vaihto käyttöön.
 5. Valitse *Arvioitu käytettävissä oleva saldo tänään* **Varastolaskenta**-kentästä ottaaksesi varastosynkronoinnin käyttöön valitussa Shopify-sijainnissa.
 
-## <a name="walkthrough-start-selling-products-online"></a>Vaihekuvaus: Tuotteiden myynnin aloittaminen verkossa
+## Vaihekuvaus: Tuotteiden myynnin aloittaminen verkossa
 
-### <a name="scenario"></a>Skenaario
+### Skenaario
 
 Oletetaan, että haluat kokeilla Shopifya verkkokauppana kuluttamatta liian paljon aikaa asioiden määrittämiseen, varsinkin koska ylläpidät jo nimikkeitäsi [!INCLUDE[prod_short](../includes/prod_short.md)] -järjestelmässä oikein. Kun julkaiset Shopify-verkkokauppasi, saat heti uusia asiakkaita, jotka ovat tyytyväisiä kauppaasi ja ostokokemukseensa. Tästä syystä he päättävät jättää tippiä kassalla.
 
-### <a name="steps"></a>Vaiheet
+### Vaiheet
 
 Suorita [!INCLUDE[prod_short](../includes/prod_short.md)]issa seuraavat vaiheet:
 
@@ -130,13 +130,13 @@ Fyysiset ja taloudelliset tiedot on nyt rekisteröity [!INCLUDE[prod_short](../i
 
 Huomaa, että tilauksen tila on nyt **Shopify Adminissa** *Fulfilled*. Voit myös tarkastella toimituksen tietoja ja nähdä seurannan URL-osoitteen. Jos suoritat **Synkronoi tilaukset Shopifysta** -toiminnon uudelleen, tilaus arkistoidaan molempiin järjestelmiin.
 
-## <a name="walkthrough-invite-your-customers-to-your-new-online-store"></a>Vaihekuvaus: Asiakkaiden kutsuminen uuteen verkkokauppaasi
+## Vaihekuvaus: Asiakkaiden kutsuminen uuteen verkkokauppaasi
 
-### <a name="scenario-1"></a>Skenaario
+### Skenaario
 
 Uuden verkkokauppasi onnistuneen lanseerauksen jälkeen haluat, että nykyiset asiakkaasi vierailevat siellä ja aloittavat tilausten tekemisen.
 
-### <a name="steps-1"></a>Vaiheet
+### Vaiheet
 
 Suorita [!INCLUDE[prod_short](../includes/prod_short.md)] -järjestelmässä seuraavat vaiheet:
 
@@ -146,13 +146,13 @@ Suorita [!INCLUDE[prod_short](../includes/prod_short.md)] -järjestelmässä seu
 
 Huomaa, että asiakkaat tuotiin **Shopify Adminiin**. Avaa joku asiakkaista ja huomioi, että asiakkaan etu- ja sukunimi saadaan **asiakkaan kortin** **Yhteyshenkilön nimi** -kentästä. Yrityksen nimi löytyy oletusosoitteesta, joka on linkitetty asiakkaaseen. Kutsu asiakas valitsemalla **Lähetä tilin kutsu**.
 
-## <a name="walkthrough-fine-tuning-of-item-management"></a>Vaihekuvaus: Nimikkeiden hallinnan hienosäätö
+## Vaihekuvaus: Nimikkeiden hallinnan hienosäätö
 
-### <a name="scenario-2"></a>Skenaario
+### Skenaario 
 
 Haluat varmasti tehdä nimikkeiden hallinnan prosesseista joustavampia ja helpommin hallittavia. Haluat parantaa tuotteiden kuvausta ja lisätä uusia tarkistusvaiheita ennen kuin tuotteet julkaistaan loppuasiakkaille.
 
-### <a name="steps-2"></a>Vaiheet
+### Vaiheet
 
 Suorita [!INCLUDE[prod_short](../includes/prod_short.md)] -järjestelmässä seuraavat vaiheet:
 
@@ -239,19 +239,19 @@ Huomaa, että ANTWERP Conference Table -nimikkeen varasto on 100, koska määrit
 
 Avaa tuotekatalogi **Shopify-verkkokaupassa** ja etsi *ATHENS Desk* -tuote. Huomaa, että saatavilla on eri vaihtoehtoja. Hinnat vaihtelevat eri vaihtoehdoissa. Kiinnitä huomiota alennustietoihin.
 
-## <a name="walkthrough-import-items-from-shopify"></a>Vaihekuvaus: Nimikkeiden tuominen Shopifysta
+## Vaihekuvaus: Nimikkeiden tuominen Shopifysta
 
-### <a name="scenario-3"></a>Skenaario
+### Skenaario 
 
 Sinulla on jo menestyvä verkkokauppa ja haluaisit aloittaa [!INCLUDE[prod_short](../includes/prod_short.md)]in käyttämisen liiketoiminnan hallintaohjelmistona. Haluat tuoda mahdollisimman paljon tietoja Shopifysta. 
 
-### <a name="steps-3"></a>Vaiheet
+### Vaiheet
 
 Tämä on jatkoa [Vaihekuvaus: Tuotteiden myynnin aloittaminen verkossa](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online) -osiolle. Voit myös kokeilla käyttää omia tietojasi, esimerkiksi Shopify-kauppaasi tai -eristysympäristöäsi.
 
 Suorita [!INCLUDE[prod_short](../includes/prod_short.md)] -järjestelmässä seuraavat vaiheet:
 
-#### <a name="prepare-data"></a>Valmistele tiedot
+#### Valmistele tiedot
 
 1. Vaihda maksuttomaan 30 päivän kokeiluversioon ilman näytetietoja. Lisätietoja on kohdassa [Omien tietojen lisääminen tyhjään kokeiluyritykseen](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#add-your-own-data-to-an-empty-trial-company).
 2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Shopify-kaupat** ja valitse sitten vastaava linkki.
@@ -270,7 +270,7 @@ Määritä Shopify-kauppa seuraavissa vaiheissa kuvatulla tavalla:
 12. Valitse *Asiakkaan tuonti Shopifysta* -kentästä **Kaikki asiakkaat**.
 13. Ota **Luo tuntemattomat asiakkaat automaattisesti** -valitsin käyttöön.
 
-#### <a name="run-the-synchronization"></a>Suorita synkronointi
+#### Suorita synkronointi
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeeseen, syötä **Shopify-myymälät**, valitse sitten vastaava linkki.
 2. Valitse *DEMO2*-kauppa, jolle haluat synkronoida tiedot, avataksesi **Shopify-ostoskortti**-sivun.
@@ -278,7 +278,7 @@ Määritä Shopify-kauppa seuraavissa vaiheissa kuvatulla tavalla:
 4. Valitse **Synkronoi tuotekuvat** -toiminto.
 5. Valitse **Synkronoi asiakkaat** -toiminto.
 
-### <a name="results"></a>Tulokset
+### Tulokset
 
 * Shopify-tuotteet tuodaan. Jos haluat vahvistaa tulokset, valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Shopify-tuotteet** ja valitse vastaava linkki.
 * Nimikkeet ja kuvat luodaan. Jos haluat vahvistaa tulokset, valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Nimike** ja valitse vastaava linkki.
@@ -286,6 +286,6 @@ Määritä Shopify-kauppa seuraavissa vaiheissa kuvatulla tavalla:
 * Asiakkaat luodaan. Jos haluat vahvistaa tulokset, valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Asiakkaat** ja valitse vastaava linkki.
 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Shopify-yhdistimen käytön aloittaminen](get-started.md)  

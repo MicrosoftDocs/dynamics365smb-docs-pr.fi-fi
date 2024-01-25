@@ -2,13 +2,13 @@
 title: Osittaisten toimitusten prosessointi
 description: Myyntitilausten toimituksia voi käsitellä Business Centralin osatoimituksilla toimitusneuvonta- ja toimitettava määrä -kenttien avulla.
 author: brentholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: 'shipping advice, partial shipments, partial deliveries, trade, customer sales order'
 ms.date: 08/12/2022
 ms.author: bholtorf
 ---
-# <a name="process-partial-shipments"></a>Osittaisten toimitusten prosessointi
+# Osittaisten toimitusten prosessointi
 
 Osittaisessa toimituksessa tilausta ei toimiteta kerralla. Esimerkiksi 100 yksikön tilauksesta 40 yksikköä toimitetaan heti ja 60 yksikköä myöhemmin. Ohjelmassa ei ole rajoituksia yhteen tilaukseen tehtyjen toimitusten lukumäärästä.
 
@@ -18,7 +18,7 @@ Ennen kuin voit käyttää osittaisia toimituksia [!INCLUDE [prod_short](include
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Tuotteiden myyminen asiakkaan myyntitilauksen avulla](sales-how-sell-products.md)  
 [Nimikkeiden lähettäminen](warehouse-how-ship-items.md)  

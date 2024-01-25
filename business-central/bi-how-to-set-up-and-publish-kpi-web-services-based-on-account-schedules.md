@@ -4,20 +4,20 @@ description: 'Tässä artikkelissa kuvataan, miten taloudellisten raporttien KPI
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ---
-# <a name="set-up-and-publish-kpi-web-services-based-on-financial-reports"></a>Taloudellisiin raportteihin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen
+# Taloudellisiin raportteihin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen
 
 **Taloudellisen raportin KPI-verkkopalvelun asetukset** -sivulla määrität, kuinka taloudellisen raportin KPI-tiedot näytetään ja mihin taloudellisiin raportteihin KPI-arvot perustuvat. Kun valitset **Julkaise verkkopalvelu**, määritetyt talousraportin KPI-tiedot lisätään julkaistujen verkkopalvelujen luetteloon **Verkkopalvelut**-sivulla.
 
 > [!NOTE]
 > Kun käytät tätä verkkopalvelua, tietojoukkoon ei sisällytetä sulkemispäivämääriä. Voit käyttää suodattimia Power BI:ssä eri ajanjaksojen analysoimiseksi.
 
-## <a name="set-up-and-publish-a-kpi-web-service-based-on-financial-reports"></a>Taloudellisiin raportteihin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen
+## Taloudellisiin raportteihin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen
   
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Taloudellisen raportin KPI-verkkopalvelun asetukset**, valitse sitten liittyvä linkki.
 2. Täytä  **Yleinen**-pikavälilehden kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -32,7 +32,7 @@ Voit nyt luoda talousraportteja  Power BI:ssä luomasi verkkopalvelun tai -palve
 > [!NOTE]  
 > Voit myös julkaista KPI-verkkopalvelun osoittamalla **Taloudellisen raportin KPI-verkkopalvelun asetukset** -sivukohdetta **Verkkopalvelut**-sivulla. Lisätietoja on kohdassa [Verkkopalvelun julkaiseminen](across-how-publish-web-service.md).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Taloudelliset liiketoimintatiedot](bi.md)  
 [Rahoitus](finance.md)  
