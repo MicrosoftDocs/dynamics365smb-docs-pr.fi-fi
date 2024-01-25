@@ -11,7 +11,7 @@ ms.search.form: '308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8
 ms.date: 10/19/2023
 ms.author: altotovi
 ---
-# Intrastat-raportoinnin käyttäminen
+# <a name="work-with-intrastat-reporting"></a>Intrastat-raportoinnin käyttäminen
 
 Kaikkien Euroopan unionin (EU) alueen yritysten täytyy raportoida kaupastaan muiden EU-maiden/alueiden kanssa. Tavaran liikkuminen on raportoitava kotimaan/-alueen tilastoviranomaisille kuukausittain ja raportti on toimitettava veroviranomaisille. Intrastat on järjestelmä, jolla kerätään kauppatilastoja tavaroista näissä maissa/alueilla. **Intrastat-raportin** avulla voit suorittaa jaksoittaisen Intrastat-raportoinnin (tyypillisesti kuukausittain), keräämisen, kirjaamisen ja raportoinnin kauppatavaran paikallishallinnon lainsäädännön mukaisesti.
 
@@ -27,7 +27,7 @@ Intrastat-raportointi perustuu kaikkiin maihin ja alueisiin sovellettaviin EU:n 
 >
 > Tällä hetkellä odotamme, että tämä ominaisuus on saatavilla marraskuusta 2022 alkaen sovelluksena osoitteessa [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). Jos haluat käyttää sitä, sinun on ensin asennettava se **Laajennuksen hallinta** -sivulle.
 
-## Täytä Intrastat-raportti
+## <a name="fill-in-the-intrastat-report"></a>Täytä Intrastat-raportti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Intrastat-luettelo** ja valitse sitten vastaava linkki.
 2. Luo uusi **Intrastat-raportti** valitsemalla **Uusi**-toiminto.
@@ -44,7 +44,7 @@ Intrastat-raportointi perustuu kaikkiin maihin ja alueisiin sovellettaviin EU:n 
 
 Eräajo hakee kaikki tämän tilastokauden nimiketapahtumat ja lisää ne riveiksi **Intrastat-raportti**-riveille. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Muokkaa Intrastat-raporttia
+## <a name="modify-the-intrastat-report"></a>Muokkaa Intrastat-raporttia
 
 Voit tarvittaessa muokata rivejä, mutta aina kun muutat arvoa Intrastat-raportin rivillä, **korjaus**-kentän arvoksi merkitään automaattisesti **kyllä**. Lopulta voit lisätä uuden rivin manuaalisesti, jos siihen on syy. Uuden rivin lisääminen manuaalisesti:
 
@@ -57,13 +57,13 @@ Voit tarvittaessa muokata rivejä, mutta aina kun muutat arvoa Intrastat-raporti
 > [!NOTE]
 > Kun lisäät uuden rivin Intrastat-raporttiin manuaalisesti, rivin **pvm**-kentän tulee olla otsikossa lisäämäsi **tilastojakson** sisällä.
 
-## Tarkista Intrastat-rivit
+## <a name="validate-intrastat-lines"></a>Tarkista Intrastat-rivit
 
 Kun olet täyttänyt **Intrastat-ilmoituksen**, voit suorittaa **Tarkistusluettelo-raportti**-toiminnon ja varmistaa, että kaikki **Intrastat-ilmoituksen** tiedot ovat oikein. **Intrastat-tarkistusluettelo**-sivulla määritetyt pakolliset kentät, joissa ei ole arvoja, näytetään **Virheet ja varoitukset** -tietoruudussa **Intrastat-kirjaus**-sivulla.
 
 Suorittamalla **Intrastat-raportin tarkistusluettelo** -raportin voit tarkistaa Intrastat-rivit ennen niiden viemistä vaaditussa muodossa. Tarkistus suoritetaan **Intrastat-raportin** sisällä.
 
-## Painon tai täydentävän mittayksikön uudelleenlaskenta
+## <a name="recalculating-weight-or-supplementary-unit-of-measure"></a>Painon tai täydentävän mittayksikön uudelleenlaskenta
 
 Jos sait virheilmoituksen *Kokonaispaino Intrastat-raportin rivillä ei saa olla tyhjä*, se johtuu todennäköisesti siitä, että et ole määrittänyt käytetylle lähteelle, nimikkeelle tai käyttöomaisuudelle **Nettopaino**-kenttää. Etsi tässä tapauksessa nimike tai käyttöomaisuuden kortti ja lisää tarvittava arvo. Sen jälkeen sinun tarvitsee vain avata **Intrastat-raportti** uudelleen ja noudattaa seuraavia vaiheita:
 
@@ -75,7 +75,7 @@ Jos sait virheilmoituksen *Kokonaispaino Intrastat-raportin rivillä ei saa olla
     3. **MOlemmat** – lasketaan uudelleen sekä **kokonaispaino** ja **lisämäärä**, nimikkeiden ja käyttöomaisuuden tämänhetkisten tietojen perusteella.
 3. Käynnistä eräajo valitsemalla **OK**.
 
-## Intrastat-raportointi tiedostona
+## <a name="report-intrastat-in-a-file"></a>Intrastat-raportointi tiedostona
 
 Voit lähettää Intrastat-raportin tiedostona, joka perustuu eri paikallisviranomaisten vaatimuksiin. Ennen kuin luot tiedoston, tarkista, että kaikki rivit sisältävät kaikki tarvittavat ja kelvolliset tiedot, suorittamalla **tarkistusluetteloraportin**. Tiedoston luominen:
 
@@ -93,22 +93,22 @@ Kun olet luonut tiedoston, [!INCLUDE[prod_short](includes/prod_short.md)] täytt
 > [!NOTE]
 > Kun seuraavan kerran luot tiedoston, **Vie päivämäärä**- ja **Vie aika** -kentissä säilytetään tietoja vain viimeisestä luodusta tiedostosta.
 
-## Intrastat-säännöt
+## <a name="intrastat-rules"></a>Intrastat-säännöt
 
-### Ryhmittelyrivit
+### <a name="grouping-lines"></a>Ryhmittelyrivit
 
 **Intrastat-raportti**-riveillä ei ole ryhmittelyä minkään kentän mukaan. Kaikki tapahtumat kopioidaan alkuperäisestä lähteestä, joten voit etsiä ne nopeasti **lähdetyypin** ja **lähdetapahtumanumeron** yhdistelmän perusteella.
 
 Viranomaisten edellyttämä ryhmittely annetaan viedyssä tiedostossa. Tämä täytyy määrittää **Tiedonvaihtomäärityksessä**, joka on täysin määritettävissä. Lisätietoja kohdassa [Tiedonsiirtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).
 
-### Käyttöomaisuuden raportit
+### <a name="fixed-assets-reporting"></a>Käyttöomaisuuden raportit
 
 Käyttöomaisuuserät näkyvät Intrastat-riveillä vain, jos:
 
 * **KO:n kirjaustyyppi** **ALV-tapahtuma**-kentässä on **hankintameno** ja jos **asiakirjatyyppi** on **lasku** ostojen ollessa kyseessä ja
 * **KO:n kirjaustyyppi** **ALV-tapahtuma**-kentässä on **Jatkuu luovutuksessa** ja jos **asiakirjatyyppi** on **lasku** myynnin ollessa kyseessä.
 
-### Intrastat-raportin tilat
+### <a name="intrastat-report-statuses"></a>Intrastat-raportin tilat
 
 Kun käsittelet **Intrastat-raporttia**, asiakirjan otsikossa näkyy **tila**-kenttä. Voit löytää seuraavat tilat yhdessä asiaan liittyvien sääntöjen kanssa:
 
@@ -116,14 +116,14 @@ Kun käsittelet **Intrastat-raporttia**, asiakirjan otsikossa näkyy **tila**-ke
 * *Vapautettu*: [!INCLUDE[prod_short](includes/prod_short.md)] muuttaa tilaksi automaattisesti *vapautettu*, kun luot tiedoston. Tästä hetkestä lähtien **Intrastat-raporttia** ei voi muuttaa. Jos sinun täytyy muuttaa jotain ja raportoida uudelleen, voit avata Intrastat-raportin uudelleen **avaa uudelleen** -toiminnon avulla. Kun asiakirja on avattu uudelleen, voit vapauttaa asiakirjan uudelleen **vapautus**-toiminnon avulla.
 * **Raportoitu**: Määrittää, onko tapahtumasta jo raportoitu veroviranomaisille. Tämä ei ole tavallinen tila, mutta itsenäinen kenttä, ja vaikka olisit avannut uudelleen Intrastat-raportin, se silti näyttää, että tiedosto on jo luotu tälle raportille.
 
-### Intrastat-raportoinnin sijainnit 
+### <a name="locations-in-intrastat-reporting"></a>Intrastat-raportoinnin sijainnit
 
 [!INCLUDE[prod_short](includes/prod_short.md)] käyttää aina **Sijaintikortti**-sivun **Maa- tai aluekoodi** -kentän tietoja **lähettäjä**- tai **vastaanottaja**-tavaroiden maana. Jos näitä tietoja ei ole tai sijaintia ei ole käytetty, järjestelmä käyttää **Yritystiedot**-sivun tietoja.   
 
 > [!NOTE]
 > Jos yritys toimii useissa maissa, Intrastat-raportointi ei toimi kaikissa maissa, joissa sijainnit on määritetty. Raportoinnin perustana on vain päämaa, koska tällä hetkellä ei ole mahdollista käyttää usean maan raportointia.  
 
-### Kolmikantakauppa Intrastatissa
+### <a name="triangular-trade-in-intrastat"></a>Kolmikantakauppa Intrastatissa
 
 Kolmikantakauppaan kuuluu kolmen maan tai alueen välinen kauppa, jossa tavarat ohittavat raportointiyrityksen maan. Tätä voi helpottaa Business Centralissa [Suoratoimitus](sales-how-drop-shipment.md)-toiminnon avulla. Ota tämä vaihtoehto käyttöön aktivoimalla **Sisällytä suoratoimitus** -kenttä **Intrastat-raportin asetuksissa**.  
 
@@ -141,7 +141,7 @@ Kun tämä vaihtoehto otetaan käyttöön, järjestelmä käyttää seuraavia s�
 | EU:n ulkopuolinen maa | EU-maa ei ole sama kuin **Yrityksen tiedoissa** oleva maa | Ei Intrastat-rivejä |
 | EU:n ulkopuolinen maa | EU:n ulkopuolinen maa | Ei Intrastat-rivejä |   
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Intrastat-raportoinnin määrittäminen](finance-how-setup-report-intrastat.md)  
 [Taloushallinto](finance.md)  

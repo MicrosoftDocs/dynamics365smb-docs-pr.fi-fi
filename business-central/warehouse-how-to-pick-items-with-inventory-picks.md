@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '931, 7377'
 ---
-# Nimikkeiden poiminta varastopoiminnalla
+# <a name="pick-items-with-inventory-picks"></a>Nimikkeiden poiminta varastopoiminnalla
 
 [!INCLUDE[prod_short](includes/prod_short.md)]issa nimikkeet poimintaan ja toimitukseen on käytettävissä neljä tapaa, jotka käsitellään seuraavassa taulukossa.
 
@@ -42,29 +42,29 @@ Varaston poiminnan voi luoda kolmella tavalla:
 
 Varaston poiminta voidaan sitten luoda **Varaston poiminta** -sivulta lähdeasiakirjan perusteella.  
 
-## Varastopoiminnan lähdeasiakirjasta luominen
+## <a name="to-create-an-inventory-pick-from-the-source-document"></a>Varastopoiminnan lähdeasiakirjasta luominen
 
 1. Valitse **Luo varaston hyllytys tai poiminta** -toiminto lähdeasiakirjassa, joka voi olla myyntitilaus, ostopalautustilaus tai lähtevä siirtotilaus.
 2. Valitse **Luo varaston poiminta** -valintaruutu.  
 3. Valitse **OK**-painike. Uusi varaston poiminta luodaan.
 
-## Useiden varaston poimintojen luominen eräajon avulla
+## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Useiden varaston poimintojen luominen eräajon avulla
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Luo varaston hyllytys/poiminta/siirto** ja valitse sitten vastaava linkki.  
 2. Suodata **F.varastoinnin pyyntö** -pikavälilehden **Lähdeasiakirja**- ja **Lähteen nro** -kenttien avulla tietyntyyppiset asiakirjat tai asiakirjanumerovälit. Voit esimerkiksi luoda poimintoja vain myyntitilauksille.  
 3. Valitse **Asetukset**-pikavälilehdessä **Luo varaston poiminta** -valintaruutu.
 4. Valitse **OK**-painike.
 
-## Poiminnan luominen kahdessa vaiheessa
+## <a name="to-create-the-pick-in-two-steps"></a>Poiminnan luominen kahdessa vaiheessa
 
-### Pyydä varastopoiminta vapauttamalla lähdeasiakirja
+### <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>Pyydä varastopoiminta vapauttamalla lähdeasiakirja
 
 Jos kyseessä on myyntitilaus, ostopalautustilaus tai lähtevä siirto, voit luoda fyysisen varastoinnin pyynnön vapauttamalla tilauksen. Tilauksen vapauttamien mahdollistaa nimikkeiden poiminnan.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.
 2. Valitse ensin vapautettava myyntitilaus ja sitten **Vapauta**-toiminto.
 
-### Lähdeasiakirjaan perustuvan varaston poiminnan luominen
+### <a name="to-create-an-inventory-pick-based-on-the-source-document"></a>Lähdeasiakirjaan perustuvan varaston poiminnan luominen
 
 Kun tilaus on vapautettu, varastotyöntekijä voi luoda varaston poiminnan.
 
@@ -75,7 +75,7 @@ Kun tilaus on vapautettu, varastotyöntekijä voi luoda varaston poiminnan.
 5. Vaihtoehtoisesti valitsemalla **Hae lähdeasiakirja** -toiminto voidaan luoda niiden lähtevien lähdeasiakirjojen luettelo, jotka ovat sijainnissa valmiita poimintaan.  
 6. Täytä poimintarivit valittujen lähdeasiakirjojen mukaan valitsemalla **OK**.  
 
-## Varaston poimintojen kirjaaminen
+## <a name="to-record-inventory-picks"></a>Varaston poimintojen kirjaaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston poiminta** ja valitse sitten vastaava linkki.  
 2. Poimintarivien **Varastopaikkakoodi**-kentässä varastopaikka, josta nimikkeet on poimittava, ehdotetaan nimikkeen oletusvarastopaikan mukaan. Voi muuttaa tarvittaessa varastopaikkaa tällä sivulla.  
@@ -90,7 +90,7 @@ Kun tilaus on vapautettu, varastotyöntekijä voi luoda varaston poiminnan.
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## Tilausta varten kokoonpantavien nimikkeiden käsitteleminen varaston poimintojen avulla
+## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Tilausta varten kokoonpantavien nimikkeiden käsitteleminen varaston poimintojen avulla
 
 **Varaston poiminta** -sivua voi käyttää myös sellisten nimikkeiden myyntiin poimimiseen ja toimittamiseen, jotka on kokoonpantava ennen toimitusta. Lisätietoja on kohdassa [Tilausta varten kokoonpantavien nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md).
 
@@ -120,7 +120,7 @@ Skenaarioissa, joissa osa määrästä on kokoonpantava ja osa poimittava, luoda
 > [!NOTE]  
 > Jos nimikkeet ovat tilausta varten kokoonpantavia, varaston poiminta koskee linkitettyä myyntitilausta, kunnes varastosiirto luodaan kaikille kokoonpanon komponenteille.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
 [Varasto](inventory-manage-inventory.md)  

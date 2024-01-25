@@ -12,11 +12,11 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
-# Vähennyskelvottoman ALV:n käyttö
+# <a name="use-non-deductible-vat"></a>Vähennyskelvottoman ALV:n käyttö
 
 Tässä artikkelissa kerrotaan, miten vähennyskelvotonta ALV:tä voidaan käyttää ja raportoida.
 
-## Ostolaskun luominen ilman vähennyskelpoista ALV:tä
+## <a name="create-a-purchase-invoice-with-non-deductible-vat"></a>Ostolaskun luominen ilman vähennyskelpoista ALV:tä
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 3.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten vastaava linkki.
 2. Luo ostolasku valitsemalla **Uusi** ja syötä tarvittavat tiedot laskun otsikkoon.
@@ -27,7 +27,7 @@ Tässä artikkelissa kerrotaan, miten vähennyskelvotonta ALV:tä voidaan käytt
 
 5. Kirjaa lasku.
 
-## Ostotilauksen luominen ilman vähennyskelpoista ALV:tä
+## <a name="create-a-purchase-order-with-non-deductible-vat"></a>Ostotilauksen luominen ilman vähennyskelpoista ALV:tä
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 3.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostotilaukset** ja valitse sitten vastaava linkki.
 2. Luo ostotilaus valitsemalla **Uusi** ja syötä tarvittavat tiedot asiakirjan otsikkoon.
@@ -38,7 +38,7 @@ Tässä artikkelissa kerrotaan, miten vähennyskelvotonta ALV:tä voidaan käytt
 
 5. Kirjaa ostotilaus.
 
-## Oikaise pyöristetyt ALV-summat ennen asiakirjan kirjausta
+## <a name="adjust-rounded-vat-amounts-before-document-posting"></a>Oikaise pyöristetyt ALV-summat ennen asiakirjan kirjausta
 
 Jos ALV-summia ei ole pyöristetty samalla tavalla ympäristössäsi ja ulkoisessa kirjanpitojärjestelmässä (alkuperäisessä laskuasiakirjassa), voit muuttaa ALV-summaa ennen asiakirjan kirjaamista. Voit tehdä tämän muutoksen tekemällä seuraavat toimet ennen asiakirjan kirjaamista.
 
@@ -61,7 +61,7 @@ Voit muuttaa **ALV-summan** ja **Vähennyskelvoton ALV-summa** -kentän arvoja. 
 > [!IMPORTANT]
 > Ennakkomaksulaskuissa ei voi käyttää vähennyskelvotonta ALV:ta.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Taloushallinto](finance.md)
 
