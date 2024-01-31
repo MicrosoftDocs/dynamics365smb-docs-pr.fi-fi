@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 
 # [Business Central -ohjeet](index.yml)
 # [Tervetuloa Business Centraliin](welcome.md)
@@ -286,6 +289,7 @@
 ## Taloushallinto
 ### [Talouden yleiskatsaus](finance.md)
 ### [Talousraportit](finance-reports.md)
+
 ### Myyntisaamisten hallinta
 #### [Myyntisaamisten yleiskatsaus](receivables-manage-receivables.md)
 #### [Myyntireskontran raportit ja analytiikka](receivables-reports.md)
@@ -298,6 +302,7 @@
 ##### [Sääntöjen määrittäminen maksujen automaattista kohdistusta varten](receivables-how-set-up-payment-application-rules.md)
 #### [Asiakkaan maksujen täsmäyttäminen maksamattomien myyntiasiakirjojen luettelosta](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 #### [Asiakkaan maksujen täsmäyttäminen kassapäiväkirjan tai asiakastapahtumien avulla](receivables-how-apply-sales-transactions-manually.md)
+#### [Saldojen yhdistäminen yritykselle, joka on asiakas ja toimittaja](finance-consolidate-customer-vendor-balances.md)
 #### [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)
 #### [Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Avoimia saldoja koskevien muistutusten lähettäminen](receivables-send-reminders.md)
@@ -326,34 +331,13 @@
 ##### [Niiden maksujen täsmäyttäminen, joita ei voi kohdistaa automaattisesti](receivables-how-reconcile-payments-cannot-apply-auto.md)
 ##### [Toistuvien maksujen tekstin yhdistäminen tileihin automaattisen täsmäytyksen suorittamiseksi](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 #### [Toimittajamaksujen täsmäyttäminen maksupäiväkirjan tai toimittajatapahtumien avulla](payables-how-apply-purchase-transactions-manually.md)
+#### [Saldojen yhdistäminen yritykselle, joka on asiakas ja toimittaja](finance-consolidate-customer-vendor-balances.md)
 #### [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)
 #### [Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Toimittajien estäminen](payables-how-block-vendors.md)
 #### [Kaupan lisäkustannusten huomioiminen nimikekulujen avulla](payables-how-assign-item-charges.md)
 #### [Maksutoleranssien ja maksualennustoleranssien käsitteleminen](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Myöhästyneen maksun ennusteen laajennus](ui-extensions-late-payment-prediction.md)
-
-### Sähköisten asiakirjojen hallinta
-#### [Sähköisten asiakirjojen yleiskatsaus](finance-edocuments-overview.md)
-#### [Sähköisten asiakirjojen määrittäminen](finance-how-setup-edocuments.md)
-#### [Sähköisten asiakirjojen käyttäminen myynnissä ja ostoissa](finance-how-use-edocuments.md)
-#### [Sähköisten asiakirjojen yhdistimen määrittäminen ulkoisten päätepisteiden kanssa](finance-how-setup-edocuments-external.md)
-#### [Sähköisten asiakirjojen toimintojen laajentaminen](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
-
-### ALV:n hallinta
-#### [ALV:n hallinnan yleiskatsaus](finance-manage-vat.md)
-#### [EU-kolmikantatapahtumat](finance-how-to-eu3party-trade-purchase.md)
-#### ALV:n määrittäminen
-##### [Arvonlisäveron määrittäminen](finance-setup-vat.md)
-##### [Kirjausryhmän määrittäminen](finance-posting-groups.md#tax-posting-groups)
-##### [Vähennyskelvottoman ALV:n määrittäminen](finance-setup-nondeductible-vat.md)
-##### [Realisoitumattoman arvonlisäveron määrittäminen](finance-setup-unrealized-vat.md)
-##### [ALV-ilmoituksen määrittäminen](finance-how-setup-vat-statement.md)
-#### [Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)
-#### [Vähennyskelvottoman ALV:n käyttäminen](finance-how-use-non-deductible-vat.md)
-#### [ALV-ilmoitusten lähettäminen veroviranomaisille](finance-how-report-vat.md)
-#### [ALV-prosenttimuutosten hallinta](finance-how-use-vat-rate-change-tool.md)
-#### [ALV-rekisterinumeroiden tarkistaminen](finance-how-validate-vat-registration-number.md)
 
 ### Laskutuksen ennakkomaksut
 #### [Ennakkomaksujen yleiskatsaus](finance-invoice-prepayments.md)
@@ -366,13 +350,8 @@
 #### [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md)
 #### [Pankkitilien täsmäyttäminen Copilotin avulla (esiversio)](bank-reconciliation-with-copilot.md)
 #### [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-
-### Konsernin tapahtumien hallinta
-#### [Konsernin yleiskatsaus](intercompany-manage.md)
-#### [Konsernin määrittäminen](intercompany-how-setup.md)
-#### [Konserniasiakirjojen ja ‑päiväkirjojen käyttäminen](intercompany-how-work-documents-journals.md)
-#### [Konsernin Saapuneet- ja Lähtevät-kansion hallinta](intercompany-how-manage-intercompany-inbox.md)
-#### [Kustannusten kohdistaminen konsernikumppaneille](intercompany-allocate-costs.md)
+#### [Pankkivarojen siirtäminen](bank-how-transfer-bank-funds.md)
+#### [Pankkitalletusten luominen](bank-create-bank-deposits.md)
 
 ### Kustannuslaskenta
 #### [Kustannuslaskennan yleiskatsaus](finance-manage-cost-accounting.md)
@@ -408,6 +387,8 @@
 ### Kassavirran hallinta
 #### [Kassavirran yleiskatsaus](finance-cash-flow-overview.md)
 #### [Yrityksen kassavirtojen analysoiminen](finance-analyze-cash-flow.md)
+#### [Vaihekuvaus: kassavirtaennusteiden tekeminen talousraporttien avulla](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+
 
 ### Vuosien ja kausien sulkeminen
 #### [Tilinpäätöksen yleiskatsaus](year-close-years-periods.md)
@@ -424,38 +405,63 @@
 #### [Tuloslaskelman tilien sulkeminen](year-close-income-statement.md)
 #### [Tilinpäätöstapahtuman kirjaaminen](year-how-post-year-end-close-entry.md)
 
-### Usean yrityksen kirjanpitotietojen yhdistäminen
-#### [Yrityksen konsolidointi](finance-consolidated-company-reporting.md)
-#### [Yrityksen konsolidoinnin määrittäminen](finance-consolidated-company-reporting-setup.md)
-
-### Tilikartan ja pääkirjanpidon käsitteleminen
+### Tilikartan ja pääkirjanpidon (KP) käsitteleminen
 #### [Pääkirjanpidon ja tilikartan ymmärtäminen](finance-general-ledger.md)
 #### [Tilien tarkistaminen](finance-review-accounts.md)
+#### [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)
+#### [Päiväkirjakirjausten peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md)
+#### [Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md)
+#### [KP-budjettien luominen](finance-how-create-budgets.md)
+#### [Tarkistustiedoston vieminen](finance-how-to-export-audit-files.md)
+#### [Tuottojen ja kulujen siirtäminen](finance-how-defer-revenue-expenses.md)
+#### [Toistuvien kustannusten ja tulojen kohdistaminen](year-allocate-costs-income.md)
+#### [Tuoton ja kustannusten kohdistaminen usealle KP-tilille](finance-allocate-revenue-costs.md)
 
-### [Saldojen yhdistäminen yritykselle, joka on asiakas ja toimittaja](finance-consolidate-customer-vendor-balances.md)
-### [Dimensioiden käsitteleminen](finance-dimensions.md)
-### [Dimensioiden vianmääritys ja korjaaminen](finance-troubleshooting-correcting-dimensions.md)
-### [Business Centralin valuutat](finance-currencies.md)
-### [KP-budjettien luominen](finance-how-create-budgets.md)
-### [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)
-### [Päiväkirjakirjausten peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md)
-### [Tarkistustiedoston vieminen](finance-how-to-export-audit-files.md)
-### [Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md)
-### [Tuottojen ja kulujen siirtäminen](finance-how-defer-revenue-expenses.md)
-### [Toistuvien kustannusten ja tulojen kohdistaminen](year-allocate-costs-income.md)
-### [Tuoton ja kustannusten kohdistaminen usealle KP-tilille](finance-allocate-revenue-costs.md)
-### [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)
-### [Palkkatapahtumien tuominen](finance-how-import-payroll-transactions.md)
-### [Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)
-### [ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)
-### [ALV-summia sisältävien huoltosopimusten muuntaminen](service-how-to-convert-service-contracts.md)
-### [ALV-prosenttimuutosten hallinta](finance-how-use-vat-rate-change-tool.md)
-### [Vaihekuvaus: kassavirtaennusteiden tekeminen talousraporttien avulla](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-### [Tilinpäätösten analysoiminen Excelissä](finance-analyze-excel.md)
-### [Pankkivarojen siirtäminen](bank-how-transfer-bank-funds.md)
-### [Pankkitalletusten luominen](bank-create-bank-deposits.md)
-### [Kirjanpitäjän käyttökokemukset Business Centralissa](finance-accounting.md)
+### Dimensioiden käsitteleminen
+#### [Dimensioiden yleiskatsaus](finance-dimensions.md)
+#### [Dimensioiden vianmääritys ja korjaaminen](finance-troubleshooting-correcting-dimensions.md)
+#### [Palkkatapahtumien tuominen](finance-how-import-payroll-transactions.md)
+
+### Valuuttojen käsitteleminen
+#### [Valuutat Business Centralissa](finance-currencies.md)
+#### [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)
+
+### ALV:n käsitteleminen
+#### [ALV:n hallinnan yleiskatsaus](finance-manage-vat.md)
+#### [EU-kolmikantatapahtumat](finance-how-to-eu3party-trade-purchase.md)
+#### ALV:n määrittäminen
+##### [Arvonlisäveron määrittäminen](finance-setup-vat.md)
+##### [Kirjausryhmän määrittäminen](finance-posting-groups.md#tax-posting-groups)
+##### [Vähennyskelvottoman ALV:n määrittäminen](finance-setup-nondeductible-vat.md)
+##### [Realisoitumattoman arvonlisäveron määrittäminen](finance-setup-unrealized-vat.md)
+##### [ALV-ilmoituksen määrittäminen](finance-how-setup-vat-statement.md)
+#### [Myynnin ja ostojen ALV:n käsitteleminen](finance-work-with-vat.md)
+#### [Vähennyskelvottoman ALV:n käyttäminen](finance-how-use-non-deductible-vat.md)
+#### [ALV-ilmoitusten lähettäminen veroviranomaisille](finance-how-report-vat.md)
+#### [ALV-prosenttimuutosten hallinta](finance-how-use-vat-rate-change-tool.md)
+#### [ALV-rekisterinumeroiden tarkistaminen](finance-how-validate-vat-registration-number.md)
+#### [ALV-summia sisältävien huoltosopimusten muuntaminen](service-how-to-convert-service-contracts.md)
+
+### Sähköisten asiakirjojen määrittäminen ja käyttäminen
+#### [Sähköisten asiakirjojen yleiskatsaus](finance-edocuments-overview.md)
+#### [Sähköisten asiakirjojen määrittäminen](finance-how-setup-edocuments.md)
+#### [Sähköisten asiakirjojen käyttäminen myynnissä ja ostoissa](finance-how-use-edocuments.md)
+#### [Sähköisten asiakirjojen yhdistimen määrittäminen ulkoisten päätepisteiden kanssa](finance-how-setup-edocuments-external.md)
+#### [Sähköisten asiakirjojen toimintojen laajentaminen](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### [Useat toimipaikat ja kansainväliset organisaatiot](finance-multi-site-organizations.md)
+#### Usean yrityksen kirjanpitotietojen yhdistäminen
+##### [Yrityksen konsolidointi](finance-consolidated-company-reporting.md)
+##### [Yrityksen konsolidoinnin määrittäminen](finance-consolidated-company-reporting-setup.md)
+#### Konsernin tapahtumien hallinta
+##### [Konsernin yleiskatsaus](intercompany-manage.md)
+##### [Konsernin määrittäminen](intercompany-how-setup.md)
+##### [Konserniasiakirjojen ja ‑päiväkirjojen käyttäminen](intercompany-how-work-documents-journals.md)
+##### [Konsernin Saapuneet- ja Lähtevät-kansion hallinta](intercompany-how-manage-intercompany-inbox.md)
+##### [Kustannusten kohdistaminen konsernikumppaneille](intercompany-allocate-costs.md)
+
+### [Kirjanpitäjän käyttökokemukset Business Centralissa](finance-accounting.md)
+
 
 ## Taloushallinnon liiketoimintatiedot ja raportit
 ### [Taloushallinnon liiketoimintatietojen ja raporttien yleiskatsaus](bi.md)
@@ -466,8 +472,11 @@
 ### [Talousraportteihin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ### [Tietojen analysoiminen dimensioiden mukaan](bi-how-analyze-data-dimension.md)
 ### [Analyysiraporttien luominen](bi-how-create-analysis-views-reports.md)
+### [Tilinpäätösten analysoiminen Excelissä](finance-analyze-excel.md)
 ### [Raporttien luominen XBRL:n avulla](bi-create-reports-with-xbrl.md)
 ### [Tietokannan käyttötarkoitusten hallinta](admin-data-access-intent.md)
+### [Vaihekuvaus: kassavirtaennusteiden tekeminen talousraporttien avulla](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+
 
 ## Myynti
 ### [Myynnin yleiskatsaus](sales-manage-sales.md)
@@ -874,9 +883,13 @@
 
 ### Tanska
 #### [Paikalliset toiminnot Tanskan versiossa](LocalFunctionality/Denmark/denmark-local-functionality.md)
-#### [Ilmoittaminen ja rekisteröinti NemHandelsregisteretille Tanskassa](localfunctionality/denmark/how-to-nemhandel-register.md)
-#### [Sähköisen laskutuksen määrittäminen NemHandelin kanssa](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
+#### Vaatimustenmukaisuus
 #### [Tapahtumatietojen säilyttäminen viiden vuoden ajan Tanskassa](localfunctionality/denmark/how-to-keep-data-5years.md)
+##### [Digitaalisten tositteiden määrittäminen Tanskassa](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
+#### Tilintarkastus
+##### [SAF-T-tarkistustiedostomuodon vieminen Tanskassa](LocalFunctionality/Denmark/how-to-use-saft-audit-files-export.md)
+##### [Julkinen standarditilikartta Tanskassa](LocalFunctionality/Denmark/how-to-set-up-standard-coa.md)
+##### [Kirjanpitotietojen vieminen Regnskab Basis ‑työkaluun Tanskassa](LocalFunctionality/Denmark/how-to-use-regnskabbasis-export.md)
 #### ALV
 ##### [ALV-täsmäytysraporttien tulostaminen](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [ALV-yhteenvetoraportit](LocalFunctionality/Denmark/vat-vies-reporting.md)
@@ -890,11 +903,11 @@
 ##### [Asiakkaiden määrittäminen – OIOUBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
 ##### [OIOUBL:n sähköisen laskutuksen määrittäminen](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
 ##### [Sähköisen laskutuksen OIOUBL-laajennus](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
-##### [Sähköisten asiakirjojen luominen OIOUBL-muodossa](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md
+##### [OIOUBL-muotoisten sähköisten asiakirjojen luominen](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
+#### [Ilmoittaminen ja rekisteröinti NemHandelsregisteretille Tanskassa](localfunctionality/denmark/how-to-nemhandel-register.md)
+#### [Sähköisen laskutuksen määrittäminen NemHandelin kanssa](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
 #### Palkat
 ##### [Palkanlaskentatietojen määritykset (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
-#### Digitaaliset tositteet
-##### [Digitaalisten tositteiden määrittäminen Tanskassa](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
 ### Suomi
 #### [Paikalliset toiminnot Suomen versiossa](LocalFunctionality/Finland/finland-local-functionality.md)
@@ -1832,19 +1845,6 @@
 #### [Raporttien kehittämisopas](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Raporttien suorituskyvyn hienosäätöopas](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
-# Copilot- ja tekoälyominaisuudet
-## Copilot- ja tekoälyominaisuuksien hallinta
-### [Copilot- ja tekoälyominaisuuksien määrittäminen](enable-ai.md)
-### [Copilot-tietojen siirtäminen maantieteellisten alueiden välillä](ai-copilot-data-movement.md)
-### [Copilot- ja tekoälyominaisuuksien vianmääritys](ai-copilot-troubleshooting.md)
-## Pankkitilin täsmäytyksen avustaja (esiversio)
-### [Pankkitilien täsmäyttäminen Copilotin avulla](bank-reconciliation-with-copilot.md)
-### [Pankkitilin täsmäytyksen avustajan usein kysytyt kysymykset](faqs-bank-reconciliation.md)
-## Markkinointitekstiehdotukset
-### [Markkinointitekstiehdotusten yleiskatsaus](ai-overview.md)
-### [Markkinointitekstin luominen Copilotin avulla](item-marketing-text.md)
-### [Markkinointitekstiehdotusten usein kysytyt kysymykset](faqs-marketing-text.md)
-
 # Tietoturva, yhteensopivuus ja suojaus
 ## Tietoturva ja suojaus
 ### [Tietoturvan ja suojauksen yleiskatsaus (vain englanniksi)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
@@ -2023,6 +2023,18 @@
 ## [Tietoturva ja suojaus](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Suorituskyky](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Poistetut tai vanhentuneet ominaisuudet](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# Copilot- ja tekoälyominaisuudet
+## Copilot- ja tekoälyominaisuuksien hallinta
+### [Copilot- ja tekoälyominaisuuksien määrittäminen](enable-ai.md)
+### [Copilot-tietojen siirtäminen maantieteellisten alueiden välillä](ai-copilot-data-movement.md)
+### [Copilot- ja tekoälyominaisuuksien vianmääritys](ai-copilot-troubleshooting.md)
+## Pankkitilin täsmäytyksen avustaja (esiversio)
+### [Pankkitilien täsmäyttäminen Copilotin avulla](bank-reconciliation-with-copilot.md)
+### [Pankkitilin täsmäytyksen avustajan usein kysytyt kysymykset](faqs-bank-reconciliation.md)
+## Markkinointitekstiehdotukset
+### [Markkinointitekstiehdotusten yleiskatsaus](ai-overview.md)
+### [Markkinointitekstin luominen Copilotin avulla](item-marketing-text.md)
+### [Markkinointitekstiehdotusten usein kysytyt kysymykset](faqs-marketing-text.md)
 # Vastuullinen tekoäly
 ## [Yleiskatsaus](responsible-ai-overview.md)
 ## [Usein kysyttyjä kysymyksiä pankkitilin täsmäytyksen avustajasta (esiversio)](faqs-bank-reconciliation.md)

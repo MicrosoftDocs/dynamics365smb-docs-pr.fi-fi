@@ -1,16 +1,16 @@
 ---
-title: Komponenttien materiaalinotto toiminnan tuotoksen mukaan
-description: 'Tässä ohjeaiheessa kuvataan, miten komponenttien materiaalinotto tehdään toiminnon tuotoksen ja muiden materiaalinottomenetelmien mukaan.'
+title: Toiminnan tuotoksen mukaisen komponenttien materiaalioton ottaminen käyttöön
+description: 'Tässä artikkelissa kuvataan, miten komponenttien materiaalinotto tehdään toiminnon tuotoksen ja muiden materiaalinottomenetelmien mukaan.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/22/2021
+ms.date: 12/13/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="flush-components-according-to-operation-output"></a>Komponenttien materiaalinotto toiminnan tuotoksen mukaan
+
+# Toiminnan tuotoksen mukaisen komponenttien materiaalioton ottaminen käyttöön
 Voit määrittää erilaisia materiaaliottostrategioita automatisoimaan komponenttien kulutuksen rekisteröintiä. 
 
 Tämä toiminto on hyödyllinen seuraavista syistä:  
@@ -29,15 +29,15 @@ Tämä toiminto on hyödyllinen seuraavista syistä:
 
     Kun operaation materiaalinotto voidaan toteuttaa automaattisesti, kulutuksen ja tuotosten koko kirjausprosessi voidaan automatisoida. Se haitta automaattisessa materiaalinotossa kuitenkin on, että hukkatavaran kirjauksessa voi olla virheitä tai hukkatavara voi jäädä kokonaan huomaamatta.
 
-## <a name="automatic-consumption-posting-flushing-methods"></a>Kulutuksen automaattisen kirjaamisen (materiaalinotto) menetelmät
+## Kulutuksen automaattisen kirjaamisen (materiaalinotto) menetelmät  
 
 - koko tilauksen Eteenpäin-materiaalinotto  
 - operaatiokohtainen Eteenpäin-materiaalinotto  
 - operaatiokohtainen Taaksepäin-materiaalinotto  
-- koko tilauksen Taaksepäin-materiaalinotto.  
+- koko tilauksen Taaksepäin-materiaalinotto  
 
-### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Automaattinen raportointi - koko tilauksen Eteenpäin-materiaalinotto
-Jos tuotantotilaukselle tehdään työn alussa Eteenpäin-materiaalinotto, sovellus toimii lähes samoin kuin manuaalista kulutusta käytettäessä. Suurin ero on siinä, että kulutus tapahtuu automaattisesti.  
+### Automaattinen raportointi - koko tilauksen Eteenpäin-materiaalinotto  
+Jos tuotantotilaukselle tehdään työn alussa Eteenpäin-materiaalinotto, sovellus toimii samoin kuin manuaalista kulutusta käytettäessä. Suurin ero on siinä, että kulutus tapahtuu automaattisesti.  
 
 - Tuotannon tuoterakenteen koko sisältö kulutetaan ja vähennetään varastosta, kun vapautettu tuotantotilaus päivitetään.  
 - Kulutusmäärä on tuotannon tuoterakenteessa määritetyn kokoonpanokohtaisen määrän ja rakennettavien päänimikkeiden määrän tulo.  
@@ -49,9 +49,9 @@ Koko tilauksen Eteenpäin-materiaalinotto sopii tuotantoympäristöihin, joissa
 
 -   valmistusvirheitä on vähän  
 -   toimenpiteitä on vähän  
--   alkupään toimenpiteissä kulutetaan paljon komponentteja.  
+-   alkupään toimenpiteissä kulutetaan paljon komponentteja  
 
-### <a name="automatic-reporting---forward-flushing-by-operation"></a>Automaattinen raportointi - operaatiokohtainen Eteenpäin-materiaalinotto
+### Automaattinen raportointi - operaatiokohtainen Eteenpäin-materiaalinotto  
 Operaatiokohtaisen materiaalinoton avulla voit vähentää varastoa tietyn päänimikkeen reitityksen operaation aikana. Materiaali on sidottu reititykseen reitityslinkin koodeilla, jotka vastaavat komponenteille tuotannon tuoterakenteessa määritettyjä reitityslinkin koodeja.  
 
 Materiaalinotto tapahtuu, kun saman reitityslinkin koodin mukainen operaatio alkaa. Operaatio katsotaan alkaneeksi, kun sen tietoja kirjataan operaation tuotospäiväkirjaan. Kirjattavat tiedot voivat olla esimerkiksi asetusajan syöttäminen.  
@@ -62,7 +62,7 @@ Tämä tekniikka sopii parhaiten tilanteisiin, joissa operaatioita on useita ja 
 
 Materiaalia voi kuluttaa operaatioiden aikana reitityslinkin koodien avulla. Kaikkia komponentteja ei välttämättä käytetä ennen viimeisiä kokoonpano-operaatioita, eikä niitä tule ottaa varastosta ennen sitä.  
 
-### <a name="automatic-reporting---back-flushing-by-operation"></a>Automaattinen raportointi - operaatiokohtainen Taaksepäin-materiaalinotto
+### Automaattinen raportointi - operaatiokohtainen Taaksepäin-materiaalinotto  
 Operaatiokohtaisessa Taaksepäin-materiaalinotossa kulutus kirjataan sen jälkeen, kun operaatio on kirjattu tuotospäiväkirjaan.  
 
 Tästä menetelmästä on se hyöty, että operaation valmiiden osien määrä tunnetaan.  
@@ -71,7 +71,7 @@ Tuotannon tuoterakenteen materiaali on linkitetty reititystietueisiin reititysli
 
 Materiaalinoton määrä on tuotannon tuoterakenteessa määritetyn kokoonpanokohtaisen määrän ja kyseiseen operaatioon tuotoksen määränä kirjattujen päänimikkeiden määrän tulo. Se ei välttämättä ole sama kuin oletettu määrä.  
 
-### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Automaattinen raportointi - koko tilauksen Taaksepäin-materiaalinotto
+### Automaattinen raportointi - koko tilauksen Taaksepäin-materiaalinotto  
 Reitityslinkin koodeja ei oteta huomioon tässä raportointimenetelmässä.  
 
 Komponentit valitaan vasta, kun vapautetun tuotantotilauksen tilaksi vaihtuu *Valmis*. Materiaalinoton määrä on tuotannon tuoterakenteessa määritetyn kokoonpanokohtaisen määrän ja valmistuneiden ja varastoon lisättyjen päänimikkeiden määrän tulo.  
@@ -80,9 +80,9 @@ Taaksepäin-materiaalinoton käyttäminen koko tuotantotilauksessa edellyttää,
 
 
 
-Tuotantotilauksessa voidaan esimerkiksi määrittää, että 800 metrin tuottaminen vaatii 8 kg komponentteja. Jos tuotokseksi kirjataan 200 metriä, kulutukseksi kirjataan automaattisesti 2 kg. Se tehdään yhdistämällä taaksepäin suuntautuvan materiaalinottomenetelmä ja reitityslinkkien koodit siten, että materiaalinottomäärä toimintoa kohden on verrannollinen toiminnon todelliseen tuotokseen. Jos nimikkeiden määrityksessä on käytetty Taaksepäin-materiaalinottotapaa, oletustoiminto laskee ja kirjaa kulutuksen automaattisesti, kun vapautetun tuotantotilauksen tilaksi muutetaan **Valmis**. Jos määrität myös reitityslinkin koodeja, laskenta ja kirjaus tehdään toiminnon valmistuttua. Toiminnon kuluttama todellinen määrä kirjataan. Lisätietoja on kohdassa [Reititysten luominen](production-how-to-create-routings.md).  
+Tuotantotilauksessa voidaan esimerkiksi määrittää, että 800 metrin tuottaminen vaatii 8 kg komponentteja. Jos tuotokseksi kirjataan 200 metriä, kulutukseksi kirjataan automaattisesti 2 kg. Se tehdään yhdistämällä taaksepäin suuntautuvan materiaalinottomenetelmä ja reitityslinkkien koodit siten, että materiaalinottomäärä toimintoa kohden on verrannollinen toiminnon todelliseen tuotokseen. Jos nimikkeiden määrityksessä on käytetty Taaksepäin-materiaalinottotapaa, oletustoiminto laskee ja kirjaa kulutuksen automaattisesti, kun vapautetun tuotantotilauksen tilaksi muutetaan **Valmis**. Jos määrität myös reitityslinkin koodeja, laskenta ja kirjaus tehdään toiminnon valmistuttua. Toiminnon kuluttama määrä kirjataan. Lisätietoja on kohdassa [Reititysten luominen](production-how-to-create-routings.md).  
 
-## <a name="to-flush-components-according-to-operation-output"></a>Voit tyhjentää osat toiminnon tuotoksen mukaan
+## Voit tyhjentää osat toiminnon tuotoksen mukaan
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
 2.  Valitse **Muokkaa** -toiminto.  
@@ -98,21 +98,21 @@ Tuotantotilauksessa voidaan esimerkiksi määrittää, että 800 metrin tuottami
 6.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotannon tuoterakenne** ja valitse sitten vastaava linkki.  
 7.  Määritä reitityslinkkikoodit kustakin komponentin esiintymästä toimintoon, jossa se kulutetaan.
 
-Kulutus kirjataan automaattisesti, kun tuotos rekisteröidään. Lisätietoja on kohdassa [Tuotoksen ja ajoaikojen eräkirjaaminen](production-how-to-post-output-quantity.md).
+Kulutus kirjataan automaattisesti, kun tuotos rekisteröidään. Lisätietoja on kohdassa [Tuotoksen ja ajoaikojen eräkirjaaminen](production-how-to-post-output-quantity.md)
 
-## <a name="flushing-methods"></a>Materiaalinottotavat
+## Materiaalinottotavat
 
 Seuraavassa taulukossa käsitellään käytettävissä olevia materiaaliottomenetelmien vaihtoehtoja, jotka voidaan määrittää **Nimike**- ja **Varastointiyksikkö**-korteissa.
 
 |Asetus|Kuvaus|
 |------------|-------------|  
 |Manuaalinen|Edellyttää, että annat ja kirjaat kulutuksen manuaalisesti kulutuspäiväkirjaan.|
-|Eteenpäin|Kirjaa kulutuksen automaattisesti tuotantotilauksen osarivien mukaan. <br><br>Oletusarvon mukaan komponentin kulutuksen kirjaus tapahtuu, kun tuotantotilauksen tila muutetaan **vapautetuksi**. Jos kuitenkin käytät tuotantotilauksen komponenttirivien **Reitityslinkin** koodi -kenttää, kirjaukset tehdään toiminnoittain toiminnon käynnistyessä. Lisätietoja on kohdassa [Reitityslinkkien luominen](production-how-to-create-routings.md#to-create-routing-links). <br><br> **Huomautus**<br>Eteenpäin tapahtuvassa materiaalinotossa reitityslinkin koodien yhteydessä saatava toimintokohtainen kirjaus perustuu komponenttirivillä määritettyyn oletettuun määrään. Lisätietoja toimintokohtaisista materiaalinotoista toteutuneen tuloksen mukaan on tämän aiheen **Taaksepäin**-kuvauksessa.<br><br>Jos sijainnille tai resursseille, joissa tämä komponentti kulutetaan, on määritetty varastopaikan oletusrakenne, nimike kulutetaan **avoimen tuotannon varastopaikasta**. Lisätietoja on kohdassa [Toimintaohje: Fyysisten perusvarastojen ja toimintoalueiden määrittäminen](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md). <br><br> **Tärkeää** <br>Eteenpäin suuntautuva materiaalinotto tapahtuu myös, kun valitset tyhjästä luodussa vapautetussa tuotantotilauksessa **Päivitä**. Näissä suoraan luoduissa vapautetuissa tuotantotilauksissa ei voi muuttaa varastopaikkatietoja, koska tuotantotilauksen komponenttirivit luodaan tilauksen päivityksen yhteydessä, jolloin komponentteja samalla siirretään eteenpäin. Jos siis halutaan muuttaa tuotantotilauksen osarivien varastopaikkatietoa ennen tyhjennyksen tapahtumista, luotavan tilauksen tilan on oltava *Suunniteltu* tai *Sitovasti suunniteltu*.|
+|Eteenpäin|Kirjaa kulutuksen automaattisesti tuotantotilauksen osarivien mukaan. <br><br>Oletusarvon mukaan komponentin kulutuksen kirjaus tapahtuu, kun tuotantotilauksen tila muutetaan **vapautetuksi**. Jos kuitenkin käytät tuotantotilauksen komponenttirivien **Reitityslinkin** koodi -kenttää, kirjaukset tehdään toiminnoittain toiminnon käynnistyessä. Lisätietoja on kohdassa [Reitityslinkkien luominen](production-how-to-create-routings.md#to-create-routing-links). <br><br> **Huomautus**<br>Eteenpäin tapahtuvassa materiaalinotossa reitityslinkin koodien yhteydessä saatava toimintokohtainen kirjaus perustuu komponenttirivillä määritettyyn oletettuun määrään. Lisätietoja toimintokohtaisista materiaalinotoista toteutuneen tuloksen mukaan on tämän artikkelin **Taaksepäin**-kuvauksessa.<br><br>Jos sijainnille tai resursseille, joissa tämä komponentti kulutetaan, on määritetty varastopaikan oletusrakenne, nimike kulutetaan **avoimen tuotannon varastopaikasta**. Lisätietoja on kohdassa [Toimintaohje: Fyysisten perusvarastojen ja toimintoalueiden määrittäminen](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md). <br><br> **Tärkeää** <br>Eteenpäin suuntautuva materiaalinotto tapahtuu myös, kun valitset tyhjästä luodussa vapautetussa tuotantotilauksessa **Päivitä**. Näissä suoraan luoduissa vapautetuissa tuotantotilauksissa ei voi muuttaa varastopaikkatietoja, koska tuotantotilauksen komponenttirivit luodaan tilauksen päivityksen yhteydessä, jolloin komponentteja samalla siirretään eteenpäin. Jos siis halutaan muuttaa tuotantotilauksen osarivien varastopaikkatietoa ennen tyhjennyksen tapahtumista, luotavan tilauksen tilan on oltava *Suunniteltu* tai *Sitovasti suunniteltu*.|
 |Taaksepäin|Laskee ja kirjaa kulutuksen automaattisesti tuotantotilauksen osarivien mukaan.<br><br> Oletusarvon mukaan komponentin kulutuksen laskenta ja kirjaus tapahtuu, kun vapautetun tuotantotilauksen tilaksi muutetaan **Valmis**. Jos kuitenkin käytät tuotantotilauksen komponenttirivien **Reitityslinkin koodi** -kenttää, laskennat ja kirjaukset tehdään kunkin toiminnon päättyessä.<br><br> **Huomautus** <br>Taaksepäin suuntautuvat materiaalinoton ja reitityslinkkien koodit voidaan yhdistää niin, että materiaalinottomäärä toimintoa kohden on verrannollinen toiminnon todelliseen tuotokseen. Lisätietoja on kohdassa [Komponenttien materiaalinotto toiminnan tuotoksen mukaan](#to-flush-components-according-to-operation-output).<br><br> Jos sijainnille tai kuormitusryhmälle, jossa tämä komponentti kulutetaan, on määritetty varastopaikan oletusrakenne, nimike kulutetaan **avoimen tuotannon varastopaikasta**.|
 |Poiminta + eteenpäin|Sama kuin materiaalinottotapa eteenpäin lukuun ottamatta sitä, että toimintoa käytetään vain sijainneissa, joissa käytetään joko varastoinnin laajennettua määritystä tai varastoinnin perusmääritystä ja pakollisia varastopaikkoja.<br><br> Kulutus lasketaan ja kirjataan varastopaikasta, joka on määritetty **Tuotannon valm.var.paik.koodi** -kentässä sijainnissa tai kuormitusryhmässä sen jälkeen, kun komponentti on poimittu varastosta.<br><br> **Huomautus** <br>Jos komponentin materiaalinottotavaksi on määritetty Poiminta + Eteenpäin, sillä ei voi olla toiminnon reitityslinkkikoodia, jonka materiaalinottotavaksi on määritetty Eteenpäin. Osa poistetaan automaattisesti toiminnon alkaessa, minkä vuoksi poimintatoimintoa ei voi pyytää.|
 |Poiminta + taaksepäin|Sama kuin materiaalinottotapa taaksepäin lukuun ottamatta sitä, että toimintoa käytetään vain sijainneissa, joissa käytetään joko varastoinnin laajennettua määritystä tai varastoinnin perusmääritystä ja pakollisia varastopaikkoja.<br><br> Kulutus lasketaan ja kirjataan varastopaikasta, joka on määritetty **Tuotannon valm.var.paik.koodi** -kentässä sijainnissa tai kuormitusryhmässä sen jälkeen, kun komponentti on poimittu varastosta.|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Tuotannon tuoterakenteiden luominen](production-how-to-create-production-boms.md)  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  

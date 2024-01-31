@@ -3,15 +3,14 @@ title: Tilikausien ja kirjanpitojaksojen sulkeminen
 description: 'Tässä ohjeaiheessa kerrotaan tilikauden tai kirjanpitojakson sulkemistehtävistä, joita ovat esimerkiksi varmistaminen, että asiakirjat ja päiväkirjat on kirjattu, ja pankkitilien saldojen tarkistaminen.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 ms.search.form: 100
 ms.date: 08/18/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="closing-years-and-periods"></a>Vuosien ja kausien sulkeminen
+# Vuosien ja kausien sulkeminen
 
 Tilikauden lopussa on suoritettava joukko hallinnollisia tehtäviä. On esimerkiksi tarkistettava, että kaikki asiakirjat ja päiväkirjat on kirjattu, valuuttatiedot ovat ajan tasalla ja kirjat on suljettu. Suoritettavat tehtävät riippuvat yrityksestä.
 
@@ -29,7 +28,7 @@ Seuraava taulukko sisältää yleiskuvauksen tehtävistä, joita yleensä suorit
 | Kirjanpitojaksojen ja tilikausien sulkeminen, tuloslaskelmasaldojen siirtäminen tasetileille ja vuositilinpäätöstapahtuman kirjaaminen. |[Kirjojen sulkeminen](year-close-books.md) |
 | Rahoituslaskelmien luomisessa apuna käytettävien raporttien tulostaminen. |[Tilinpäätöslaskelmien valmisteleminen](year-prepare-close-statement.md) |
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Kirjanpitojaksojen ja tilikausien käyttäminen](finance-accounting-periods-and-fiscal-years.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -9,8 +9,9 @@ ms.workload: na
 ms.search.keywords: null
 ms.date: 05/12/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-costing-methods"></a>Rakennetiedot: arvostusmenetelmät
+# Rakennetiedot: arvostusmenetelmät
 
 Arvostusmenetelmä määrittää, siirretäänkö todellinen tai budjetoitu arvo pääomaan ja käytetäänkö sitä kustannuslaskennassa. Kirjauspäivämäärän ja järjestyksen kanssa arvostusmenetelmä vaikuttaa myös siihen, miten kustannusvirta tallennetaan.
 
@@ -49,7 +50,7 @@ Arvostusmenetelmät eroavat siinä, miten ne arvostavat varaston vähennyksiä, 
 |**Vakio**     |Helppo käyttää, mutta vaatii pätevää kunnossapitoa|Sovellus seuraa **jäljellä olevaa määrää**.<br /><br /> Sovellus perustuu FIFO-käytäntöön.|Uudelleen arvostaa laskutetut ja laskuttamattomat määrät.<br /><br /> Voidaan suorittaa nimikekohtaisesti tai tapahtumakohtaisesti.<br /><br /> Voidaan suorittaa ajassa taaksepäin.|Voit päivittää ja vyöryttää vakiokustannukset säännöllisesti **Vakiotyökirja**-sivun avulla.<br /><br /> EI tueta varastoyksikkökohtaisesti.<br /><br /> Historiallisia tietueita ei ole olemassa standardikustannuksille.|
 |**Yksilöity**     |Vaatii nimikeseurantaa sekä saapuvissa että lähtevissä tapahtumissa.<br /><br /> Yleensä käytetään sarjoitettuja nimikkeitä|Kaikki sovellukset ovat kiinteitä.|Uudelleen arvostaa vain laskutetut määrät.<br /><br /> Voidaan suorittaa nimikekohtaisesti tai tapahtumakohtaisesti.<br /><br /> Voidaan suorittaa ajassa taaksepäin.|Voit käyttää tietyn nimikkeen seurantaa ilman Spesifinen-arvostusmenetelmän käyttöä. Kustannukset eivät seuraa eränumeroa, vaan valitun arvostusmenetelmän kustannusten oletusta.|
 
-## <a name="example"></a>Esimerkki
+## Esimerkki
 
 Tässä osassa on esimerkkejä siitä, miten erilaiset arvostusmenetelmät vaikuttavat varaston arvoon.  
 
@@ -67,7 +68,7 @@ Seuraavassa taulukossa esitetään varaston kasvut ja vähennykset, joihin esime
 > [!NOTE]  
 > Tästä seuraava määrä varastossa on nolla. Näin ollen myös varastoarvon on oltava nolla arvostusmenetelmästä riippumatta.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Arvostusmenetelmien vaikutus arvostetussa varastossa kasvaa
+### Arvostusmenetelmien vaikutus arvostetussa varastossa kasvaa  
 
 Niiden nimikkeiden kohdalla, jotka käyttävät todelliseen kustannukseen pohjautuvaa arvostusmenetelmää (**FIFO**, **LIFO**, **Keskimääräinen** tai **Spesifinen**), varaston arvon nousut arvostetaan nimikkeen hankintamenon mukaan.  
 
@@ -75,11 +76,11 @@ Niiden nimikkeiden kohdalla, jotka käyttävät todelliseen kustannukseen pohjau
 
     **Vakio**arvostusmenetelmää käyttävien nimikkeiden kohdalla varastoarvon nousut arvostetaan nimikkeen nykyisellä vakiokustannuksella.  
 
-#### <a name="standard"></a>Vakio
+#### Vakio  
 
 **Vakio**-arvostusmenetelmää käyttävien nimikkeiden kohdalla varastoarvon nousut arvostetaan nimikkeen nykyisellä vakiokustannuksella.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Arvostusmenetelmien vaikutus arvostetussa varastossa laskee
+### Arvostusmenetelmien vaikutus arvostetussa varastossa laskee
 
 - **FIFO**  
 
@@ -147,7 +148,7 @@ Niiden nimikkeiden kohdalla, jotka käyttävät todelliseen kustannukseen pohjau
     |03-01-20|-1|-10.00|**1**|5|  
     |04-01-20|-1|-30.00|**3**|6|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rakennetiedot: Varaston kustannuslaskenta](design-details-inventory-costing.md)  
 [Rakennetiedot: Varianssi](design-details-variance.md)  

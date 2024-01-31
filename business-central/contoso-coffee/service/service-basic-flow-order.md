@@ -9,7 +9,7 @@ ms.date: 05/31/2023
 ms.custom: bap-template
 ---
 
-# <a name="walkthrough-of-service-orders-for-service-items"></a>Huoltonimikkeiden huoltotilausten vaihekuvaus
+# Huoltonimikkeiden huoltotilausten vaihekuvaus
 
 Tässä vaihekuvauksessa kuvataan useita ydinprosesseja:
 
@@ -17,13 +17,13 @@ Tässä vaihekuvauksessa kuvataan useita ydinprosesseja:
 - Anna asiakkaalle korjausaikaa varten lainanimike
 - Kirjaa ja laskuta huoltotilaus
     
-## <a name="creating-a-service-order"></a>Huoltotilauksen luominen
+## Huoltotilauksen luominen
 
-### <a name="scenario"></a>Skenaario
+### Skenaario  
 
 Huoltopäällikkö Charles luo huoltotilauksen korjausskenaariota varten ja lainaa lainatavaran asiakkaalle korjausaikaa varten.
 
-### <a name="steps"></a>Vaiheet
+### Vaiheet
 
 1. Luo huoltotilaus manuaalisesti nimikkeelle, joka on korjattava.
    1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilaukset**
@@ -40,20 +40,20 @@ Huoltopäällikkö Charles luo huoltotilauksen korjausskenaariota varten ja lain
    1. Valitse riveillä Nimikkeen nro -kohtaan **L.TAVARA1** Vahvista lainatavaran liikkeeseenlasku valitsemalla **Kyllä** lainatavaran lainaamiseksi. 
    2. Valitse Funktiot-toiminto **Hae vakiohuoltokoodit**, valitse huoltoryhmään liittyvä vakiokoodi ja valitse **Ok**.
    
-### <a name="results"></a>Tulokset
+### Tulokset
 
 - Nimikkeelle luodaan huoltotilaus
 - Huoltotilauksen huoltoasiakirjalokissa näkyvät lainatavaran aktiviteetit.
 - Lainatavaralla on lainaustapahtuma, joka kuvastaa lainausta.
    
 
-## <a name="register-performed-work-mark-loaner-as-returned"></a>Rekisteröi suoritetun työn, merkitsee lainatavaran palautetuksi.
+## Rekisteröi suoritetun työn, merkitsee lainatavaran palautetuksi.
 
-### <a name="scenario-1"></a>Skenaario
+### Skenaario  
 
 Huoltoteknikko merkitsee lainatavaran palautetuksi, rekisteröi suoritetun työn.
 
-### <a name="steps-1"></a>Vaiheet
+### Vaiheet
 
 1. Etsi huoltotehtävä ja rekisteröi aika 
    1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotehtävät** ja valitse sitten vastaava linkki.
@@ -73,13 +73,13 @@ Huoltoteknikko merkitsee lainatavaran palautetuksi, rekisteröi suoritetun työn
    3. Valitse **Vastaanota**-toiminto 
    4. Vahvista lainatavaran palautus valitsemalla **Kyllä** lainatavaran palauttamiseksi.
       
-### <a name="results-1"></a>Tulokset
+### Tulokset
 
 - Huoltotilauksen **huoltoasiakirjalokissa** näkyvät lainatavaran aktiviteetit.
 - Lainatavaralla on lainaustapahtuma, joka kuvastaa vastaanottoa.
 
 
-### <a name="scenario-2"></a>Skenaario
+### Skenaario  
 
 Huoltopäällikkö Charles kirjaa valmiin huoltotilauksen.
 
@@ -90,11 +90,11 @@ Huoltopäällikkö Charles kirjaa valmiin huoltotilauksen.
 2. Kirjaa lasku huoltotilauksessa
    1. Suorita huoltotilaus loppuun valitsemalla **Kirjaa**-toiminto, valitse **Toimitus ja lasku** -toiminto ja valitse sitten **OK**.
    2. Vahvista kirjatun laskun avaaminen valitsemalla **Kyllä**. 
-### <a name="results-2"></a>Tulokset
+### Tulokset
 
 - **Kirjattu huoltolasku** luodaan.
 - Nimikkeeseen ja resurssiin liittyvät **huoltotapahtumat** luodaan
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Huoltonimikkeiden huoltosopimusten vaihekuvaus](service-contract-flow.md)  
 [Palvelu](../../service-service.md)

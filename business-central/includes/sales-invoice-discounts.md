@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 10/05/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Kun olet lisännyt kaikki nimikkeet riveille, laskun alennus voidaan laskea koko myyntiasiakirjalle valitsemalla **Laske laskun alennus** -toiminto.
 

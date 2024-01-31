@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 08/08/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 > [!IMPORTANT]
 > Kun kirjaat myyntitilauksen, luot toimituksen ja laskun. Nämä asiakirjat voidaan tehdä samaan aikaan tai erikseen. Voit luoda myös osittaisen toimituksen tai osittaisen laskun täyttämällä **Toimitettava määrä**- ja **Laskutettava määrä** -kentät yksittäisillä myyntitilausriveillä ennen kirjausta. Huomaa, että laskua ei voi luoda **Myyntitilaus**-sivulta jollekin, jota ei ole toimitettu. Tämä tarkoittaa sitä, että ennen laskutusta on täytynyt tallentaa toimitus, tai täytyy valita yhtäaikainen toimitus ja laskutus.

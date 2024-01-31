@@ -9,8 +9,9 @@ ms.workload: na
 ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="about-inventory-costing"></a>Tietoja varaston arvostuksesta
+# Tietoja varaston arvostuksesta
 Varastokustannusten hallinta käsittelee liiketoiminnan toimintokustannusten tallennusta ja raportointia. Se sisältää tuotanto- ja varastointikustannusten eli nimikkeiden arvon raportoinnin..  
 
  Tärkeintä on ymmärtää, että arvostusmenetelmät määrittävät, miten nimikkeet arvostetaan varastosta lähdön jälkeen, että kustannusten muuttaminen päivittää myytyjen tuotteiden kustannukset liittyvillä myynnin jälkeen kirjatuilla ostokustannuksilla ja että varaston arvot on kirjattava säännöllisesti erityisille KP-tileille.  
@@ -31,7 +32,7 @@ Varastokustannusten hallinta käsittelee liiketoiminnan toimintokustannusten tal
 |Varastokausien käyttäminen yrityksen varaston arvon pitkäaikaisessa hallinnassa määrittämällä lyhyempiä kausia, jotka voi sulkea kirjaamista varten tilikauden edetessä.|[Varastokausien käsitteleminen](finance-how-to-work-with-inventory-periods.md)|  
 |Tutustu kaikki kustannuslaskentaohjelman kaikkiin mekanismeihin, myös siihen mitä tapahtuu, kun kokoonpano- ja tuotantotapahtumia kirjataan.|[Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)    
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -3,15 +3,14 @@ title: Maksujen tarkasteleminen ja kohdistaminen automaattisen kohdistuksen jäl
 description: 'Kun maksut on kohdistettu automaattisesti, voit tarkastella maksun kaikkia tapahtumia ja kohdistaa manuaalisesti uudelleen virheellisesti kohdistetut maksut.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment process, reconcile payment, expenses, cash receipts'
 ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="review-and-apply-payments-manually-after-automatic-application"></a>Maksujen tarkasteleminen ja kohdistaminen automaattisen kohdistuksen jälkeen
+# Maksujen tarkasteleminen ja kohdistaminen automaattisen kohdistuksen jälkeen
 Voit avata kullekin **Maksujen täsmäytyskirjauskansio** -sivulla maksua esittävälle päiväkirjan riville **Maksun kohdistus** -sivun ja tarkastella kaikkia mahdollisia avoimia maksuja ja yksityiskohtaisia tietoja merkintöjen täsmäytyksestä, joihin maksujen kohdistus perustuu. Tässä voit kohdistaa maksuja manuaalisesti tai kohdistaa uudelleen maksuja, joka kohdistettiin automaattisesti väärään merkintään. Lisätietoja automaattisesta kohdistuksesta on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]  
@@ -30,7 +29,7 @@ Siksi on suositeltavaa etsiä ulkomaan valuuttakoodit **Valuuttakoodi**-kentäst
 > [!NOTE]  
 >   Voit nyt kohdistaa maksun yhteen tiliin. Jos haluat jakaa kohdistuksen useisiin avoimiin tapahtumiin, esimerkiksi kertasuorituksen käyttämiseksi, avointen tapahtumien on oltava samalle tilille. Lisätietoja on tämän ohjeaiheen menettelytavan vaiheiden 7 ja 8 mukaisesti.
 
-## <a name="to-review-or-apply-payments-after-automatic-application"></a>Maksujen tarkastelu tai käyttäminen automaattisen kohdistuksen jälkeen
+## Maksujen tarkastelu tai käyttäminen automaattisen kohdistuksen jälkeen
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksujen täsmäytyskirjauskansiot** ja valitse sitten liittyvä linkki.
 2. Avaa sen pankkitilin maksun täsmäytyspäiväkirja jolle haluat täsmäyttää maksut. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
 3. Valitse **Maksujen täsmäytyskirjauskansio** -sivulla maksu, jonka haluat tarkistaa tai kohdistaa manuaalisesti yhteen tapahtumaan tai useisiin tapahtumiin. Valitse sitten **Kohdista manuaalisesti** -toiminto.
@@ -43,7 +42,7 @@ Siksi on suositeltavaa etsiä ulkomaan valuuttakoodit **Valuuttakoodi**-kentäst
 
 **Maksun kohdistus** -sivu sulkeutuu. **Maksujen täsmäytyskirjauskansio** -sivun **Vastaavuuden luotettavuus** -kentän arvoksi tulee **Hyväksytty**. Se osoittaa, että olet tarkistanut maksun tai ottanut sen käyttöön manuaalisesti.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Myynti](sales-manage-sales.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -3,14 +3,13 @@ title: Rakennetiedot – Varianssi | Microsoft Docs
 description: Varianssi on todellisten kustannusten ja vakiokustannuksen välinen ero seuraavan kaavan määrittämällä tavalla.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-variance"></a>Rakennetiedot: varianssi
+# Rakennetiedot: varianssi
 Varianssi on todellisten kustannusten ja vakiokustannuksen välinen ero seuraavan kaavan määrittämällä tavalla.  
 
  todellinen kustannus – standardikustannus = varianssi  
@@ -20,7 +19,7 @@ Varianssi on todellisten kustannusten ja vakiokustannuksen välinen ero seuraava
 > [!NOTE]  
 >  Uudelleenarvostus ei vaikuta varianssin laskentaan, koska uudelleenarvostus vaihtaa vain varaston arvon.  
 
-## <a name="example"></a>Esimerkki
+## Esimerkki  
  Seuraavassa esimerkissä kuvataan sitä, kuinka varianssi lasketaan laskutetuista nimikkeistä. Se perustuu seuraavaan skenaarioon:  
 
 1.  Käyttäjä ostaa nimikkeen hintaan 90,00 (PVA), mutta vakiokustannus on 100,00 (PVA). Näin ollen ostovaihteluksi tulee 10,00 PVA.  
@@ -33,7 +32,7 @@ Varianssi on todellisten kustannusten ja vakiokustannuksen välinen ero seuraava
 
  ![Ostovarianssin laskenta.](media/design_details_inventory_costing_11_purchase_variance.png "Ostovarianssin laskenta")  
 
-## <a name="determining-the-standard-cost"></a>Vakiokustannuksen määrittäminen
+## Vakiokustannuksen määrittäminen  
  Peruskustannuksia käytetään, kun lasketaan varianssia ja hyödynnettävää määrää. Koska peruskustannus voidaan vaihtaa ajan kuluessa manuaalisista päivityslaskuista johtuen, sinulla tulee olla ajankohta, kun peruskustannus on kiinteä varianssilaskennalle. Tässä kohdassa varastoarvon nousu laskutetaan. Valmistettujen tai koottujen nimikkeiden osalta vakiokustannuksen määrityskohta on kustannuksen muutoshetki.  
 
  Seuraava taulukko osoittaa, kuinka eri kustannusjaot lasketaan tuotetuille ja kootuille nimikkeille, kun käytät Laske peruskustannukset -toimintoa.  
@@ -52,7 +51,7 @@ Varianssi on todellisten kustannusten ja vakiokustannuksen välinen ero seuraava
 |**Vyörytetty kapasiteettiyleiskustannus**|Ei sovellu|![Kaava 8.](media/design_details_inventory_costing_11_equation_8.png "Kaava 8")|  
 |**Vyörytetty tuotannon yleiskust**|Ei sovellu|![Kaava 9.](media/design_details_inventory_costing_11_equation_9.png "Kaava 9")|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
  [Rakennetiedot: varaston arvostus](design-details-inventory-costing.md)   
  [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md) [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
  [Rahoitus](finance.md)  

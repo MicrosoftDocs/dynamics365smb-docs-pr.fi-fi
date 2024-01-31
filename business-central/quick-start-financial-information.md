@@ -3,24 +3,23 @@ title: Taloudellisten tietojen pika-aloitus
 description: Valmista yrityksesi liiketoimintaa varten määrittämällä taloustiedot Business Centralissa.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.search.form: null
 ms.date: 08/25/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="financial-information-quick-start"></a>Taloudellisten tietojen pika-aloitus
+# Taloudellisten tietojen pika-aloitus
 
 Kun olet syöttänyt perustiedot yrityksestä [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan, jokin seuraavista vaiheista täydentää talousosiota. Teet tämän paitsi vastaanottaaksesi tai suorittaaksesi maksuja, myös hallitaksesi ja raportoidaksesi yrityksesi lukuja oikein.
 
-## <a name="the-chart-of-accounts"></a>Tilikartta
+## Tilikartta
 
 Tilikartta tarjoaa yleiskuvan yrityksen taloudesta ja listaa tilit strukturoituihin ryhmiin, kuten varat, velat, tuotot, myytyjen tavaroiden kustannukset ja kulut. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää vakiotilikartan, jonka voit mukauttaa yrityksesi kirjanpitokäytäntöjen mukaan.
 
-## <a name="set-up-the-chart-of-accounts"></a>Tilikartan määrittäminen
+## Tilikartan määrittäminen
 
 Seuraavassa videossa kerrotaan, miten voit määrittää tilikartan [!INCLUDE[prod_short](includes/prod_short.md)]issa.
 
@@ -28,7 +27,7 @@ Seuraavassa videossa kerrotaan, miten voit määrittää tilikartan [!INCLUDE[pr
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-### <a name="add-an-account-to-the-chart-of-accounts"></a>Lisää tili tilikarttaan
+### Lisää tili tilikarttaan
 
 Jos haluat lisätä tilin, joka ei sisälly oletusarvoisesti [!INCLUDE[prod_short](includes/prod_short.md)] -sovellukseen–esimerkiksi puutarhanhoitopalvelut–toimi seuraavasti:
 
@@ -56,7 +55,7 @@ Jos haluat lisätä tilin, joka ei sisälly oletusarvoisesti [!INCLUDE[prod_shor
 
 5. Täytä puuttuvat kentät **KP-tilikortti**-sivulla tarpeen mukaan. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="get-an-overview-of-the-chart-of-accounts"></a>Yleiskuvan saaminen tilikartasta
+### Yleiskuvan saaminen tilikartasta
 
 Jos tarvitset tiiviimmän näkymän tilikartasta ilman sarakkeita kirjausryhmille, kirjaustyypille tai kustannustyypeille, esimerkiksi **Tilikartan yleiskatsauksessa** luetellaan kunkin tilin tärkeimmät tiedot pienemmässä taulukossa. Lisäksi voit kutistaa tai laajentaa ryhmiä kätkemään niiden sisällä olevat tilit.
 
@@ -64,7 +63,7 @@ Jos haluat näyttää yleiskatsauksen, valitse **Tilikartta**-sivulla **Tilikart
 
 Lisätietoja tilikartasta ja pääkirjanpidosta on kohdassa [Tietoja pääkirjanpidosta ja tilikartoista](finance-general-ledger.md).
 
-## <a name="set-up-bank-accounts"></a>Pankkitilien määrittäminen
+## Pankkitilien määrittäminen
 
 Pankkitilit [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa rekisteröidään pankkitapahtumia varten, ja ne liittyvät tilikartan tapahtumiin. Seuraavassa videossa kerrotaan, miten voit määrittää pankkitilit.
 
@@ -79,7 +78,7 @@ Pankkitilit [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa rekister�
    Kenttä eroaa **pankkitilin nro** -kentästä, joka on käytettävissä myös **Yleinen**-pikavälilehdessä.
 4. Täytä **Pankkitilikortti**-sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Tilikartan määrittäminen](finance-setup-chart-accounts.md)  
 [Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md)  

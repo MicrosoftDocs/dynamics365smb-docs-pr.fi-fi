@@ -3,15 +3,14 @@ title: Toimittajille suoritettavien maksujen hallintatehtävien yleiskatsaus
 description: 'Tässä ohjeaiheessa kerrotaan toimittajille tai luotonantajille suoritettavien maksujen hallintatehtävistä, kuten maksurivien kirjaamisesta ja erääntyvän saldon yleiskatsauksen hakemisesta.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'print check, vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '254, 256, 1190, 1191, 1227, 1228, 1229'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="making-payments"></a>Maksujen suorittaminen
+# Maksujen suorittaminen
 
 Kun suoritat maksut toimittajille tai asiakkaille tai hyvityksiä työntekijöille, kirjaat liittyvät maksurivit **Maksupäiväkirja**-sivulle. Maksukirjauskansio on yleinen kirjauskansio, joka on tarkoitettu maksujen tekemiseen. Se sisältää useita tehokkaita toimintoja, kuten **Ehdota toimittajamaksuja** -toiminnon, joka etsii toimittajat, joilla on erääntyneitä maksuja, ja **Toimittaja - Eräänt.yht.veto** -raportin, joka näyttää toimittajan erääntyneiden maksujen yleiskatsauksen.  
 
@@ -35,7 +34,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Maksaa toimittajalle käteisellä tai sekillä ja kirjaa maksu, kun lasku kirjataan. |[Ostolaskujen selvittäminen viipymättä](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Varmista lähettämällä toimittaja-, sekki- ja maksutiedot sisältävä tiedosto, että pankki vahvistaa vain tarkistetut sekit ja summat. |[Positive Pay -tiedoston vieminen](finance-how-positive-pay.md) |
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Osto](purchasing-manage-purchasing.md)  

@@ -10,8 +10,9 @@ ms.workload: na
 ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
 ms.date: 06/14/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>PDF- ja kuvatiedostojen muuntaminen sähköisiksi asiakirjoiksi OCR-palvelun avulla
+# PDF- ja kuvatiedostojen muuntaminen sähköisiksi asiakirjoiksi OCR-palvelun avulla
 
 Ulkoinen OCR (Optical Character Recognition) -palvelu voi luoda liikekumppaneilta vastaanotetuista PDF- tai kuvatiedostoista sähköisiä asiakirjoja, jotka voit muuntaa tiedostotietueiksi [!INCLUDE[prod_short](includes/prod_short.md)]issa. Kun esimerkiksi saat PDF-muotoisen laskun toimittajalta, voit [lähettää sen OCR-palveluun **Saapuvat asiakirjat** -sivulta](#to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page).
 
@@ -26,7 +27,7 @@ Tiedostoliikenne OCR-palveluun ja -palvelusta käsitellään erillisellä työjo
 > [!NOTE]
 > Ulkoiset palveluntarjoajat tarjoavat OCR-ominaisuuden. Valitse organisaatiolle ja/tai maalle/alueelle sopiva huoltopaketti. Etsi palvelut, jotka ovat yhteensopivia [!INCLUDE[prod_short](includes/prod_short.md)]in kanssa ja tietoja saatavilla olevista ominaisuuksista osoitteessa [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-from-the-incoming-documents-page"></a>Voit lähettää PDF- tai kuvatiedoston OCR-palveluun Saapuvat asiakirjat -sivulta
+## Voit lähettää PDF- tai kuvatiedoston OCR-palveluun Saapuvat asiakirjat -sivulta
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Saapuvat asiakirjat** ja valitse sitten vastaava linkki.
 2. Luo uuden saapuvan asiakirjan tietueen ja liittää tiedoston. Lisätietoja on kohdassa [Saapuvien asiakirjatietueiden luominen](across-how-create-income-document-records.md).  
@@ -37,7 +38,7 @@ Tiedostoliikenne OCR-palveluun ja -palvelusta käsitellään erillisellä työjo
 
    **OCR-tila**-kentän arvoksi tulee **Lähetetty**, jos virheitä ei löydy.
 
-## <a name="to-send-a-pdf-or-image-file-to-the-ocr-service-by-email"></a>Lähetä PDF- tai kuvatiedosto OCR-palveluun sähköpostitse
+## Lähetä PDF- tai kuvatiedosto OCR-palveluun sähköpostitse
 
 Lähetä edelleen sähköpostiohjelmasta OCR-palveluntarjoajalle sähköpostiviesti PDF- tai kuvatiedostoliitteen kanssa. Palveluntarjoajan verkkosivusto sisältää sähköpostiosoitteen, jonne viesti lähetetään.
 
@@ -46,7 +47,7 @@ Koska tiedostolla ei ole tulevaa asiakirjatietuetta, uusi tietue luodaan automaa
 > [!NOTE]  
 > Jos käytät Tablet PC:tä tai puhelinta, voit lähettää tiedoston OCR-palvelun heti kun olet ottanut valokuvan asiakirjasta tai voit luoda saapuvan asiakirjan suoraan. Lisätietoja on kohdassa [Saapuvien asiakirjatietueiden luominen valokuva ottamalla](across-how-create-income-document-records.md#create-an-incoming-document-record-by-taking-a-photo).
 
-## <a name="to-receive-the-resulting-electronic-document-from-the-ocr-service"></a>Tuloksena olevan vastaanotettavan sähköisen asiakirjan vastaanottaminen OCR-palvelusta
+## Tuloksena olevan vastaanotettavan sähköisen asiakirjan vastaanottaminen OCR-palvelusta
 
 Työjonotapahtuma, joka määritetään OCR-palvelun käyttöönoton yhteydessä, vastaanottaa **Saapuvat asiakirjat** -sivulle automaattisesti sähköisen asiakirjan, jonka OCR-palvelu luo PDF- tai kuvatiedostosta.
 
@@ -65,7 +66,7 @@ Jos et käytä työjonoa tai haluat vastaanottaa OCR-asiakirjan työjonon aikata
 
 Voit nyt jatkaa asiakirjatietueiden luomista vastaanotetuille sähköisille asiakirjoille [!INCLUDE[prod_short](includes/prod_short.md)]issa manuaalisesti tai automaattisesti. Lisätietoja on seuraavassa toimenpiteessä. Voit myös [yhdistää uuden saapuvan asiakirjan tietueen aiemmin kirjattuun tai kirjaamattomaan asiakirjaan](across-how-connect-disconnect-income-document-records.md) siten, että lähdetiedostoa on helppo käyttää [!INCLUDE[prod_short](includes/prod_short.md)]ista.
 
-## <a name="to-create-a-purchase-invoice-from-an-electronic-document-received-from-the-ocr-service"></a>Ostolaskun luominen OCR-palvelusta vastaanotetusta sähköisestä asiakirjasta
+## Ostolaskun luominen OCR-palvelusta vastaanotetusta sähköisestä asiakirjasta
 
 Seuraavassa kuvataan, miten ostolaskutietue luodaan toimittajan laskusta, joka on vastaanotettu sähköisenä asiakirjana OCR-palvelusta. Menettelytapa on sama kuin esimerkiksi silloin, kun yleisen päiväkirjan rivi luodaan kulutositteesta tai myyntipalautustilaus asiakkaasta.
 
@@ -78,7 +79,7 @@ Seuraavassa kuvataan, miten ostolaskutietue luodaan toimittajan laskusta, joka o
 
 Vahvistusvirheet (jotka yleensä liittyvät [!INCLUDE[prod_short](includes/prod_short.md)]in vääriin tai puuttuviin tietoihin) näkyvät **Virheet ja varoitukset** -pikavälilehdessä. Lisätietoja on kohdassa [Virheiden käsitteleminen vastaanotettaessa sähköisiä asiakirjoja](across-how-use-ocr-pdf-images-files.md#to-handle-errors-when-receiving-electronic-documents).
 
-### <a name="to-map-text-on-an-incoming-document-to-a-specific-vendor-account"></a>Saapuvan asiakirjan tekstin yhdistäminen tietyn toimittajan tiliin
+### Saapuvan asiakirjan tekstin yhdistäminen tietyn toimittajan tiliin
 
 Saapuvissa asiakirjoissa käytetään yleensä **Linkitä teksti tiliin** -toimintoa, kun määritetään, että OCR-palvelusta vastaanotetun toimittajan laskun tietty teksti on linkitetty tiettyyn toimittajan tiliin. Edelleen, mille tahansa saapuvan asiakirjan kuvauksen osalle, joka on olemassa yhdistämismäärityksen tekstinä, tämä tarkoittaa sitä, että **Toimittajan nro** -kenttä, joka on tuloksena syntyvässä asiakirjassa tai *KP-tili*-tyypin päiväkirjariveillä, täytetään kyseisellä toimittajalla.
 
@@ -94,7 +95,7 @@ Toimittajatiliin tai toiseen KP-tiliin linkittämisen lisäksi myös pankkitili
    > Älä käytä saapuvien asiakirjojen yhteydessä **Saldon lähteen tyyppi**- ja **Saldon lähteen numero** -kenttiä. Niitä käytetään vain automaattisessa maksujen täsmäytyksessä. Lisätietoja on kohdassa [Toistuvien maksujen tekstin yhdistäminen tileihin automaattisen täsmäytyksen suorittamiseksi](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 6. Toista vaiheet 2–5 kaikkien niiden saapuvien asiakirjojen tekstien osalta, joille haluat luoda automaattisesti asiakirjat.
 
-## <a name="to-handle-errors-when-receiving-electronic-documents"></a>Virheiden käsitteleminen vastaanotettaessa sähköisiä asiakirjoja
+## Virheiden käsitteleminen vastaanotettaessa sähköisiä asiakirjoja
 
 1. Valitse **Saapuvat asiakirjat** -sivulla OCR-palvelusta vastaanotetun sähköisen asiakirjan virheitä sisältävä rivi, joka ilmaistaan **OCR-tila** -kentän *Virhe*-arvolla.
 2. Valitse **Muokkaa** -toiminto, jonka jälkeen **Saapuva asiakirja** -sivu avautuu.
@@ -104,7 +105,7 @@ Toimittajatiliin tai toiseen KP-tiliin linkittämisen lisäksi myös pankkitili
 6. Jatka saapuvan sähköisen asiakirjan käsittelemistä valitsemalla uudelleen **Luo manuaalisesti** -toiminto.
 7. Toista vaiheet 5–6 kaikille jäljellä oleville virheille. Tämän jälkeen sähköinen asiakirja voidaan ottaa vastaan.
 
-## <a name="to-train-the-ocr-service-to-avoid-errors"></a>OCR-palvelun kouluttaminen välttämään virheet
+## OCR-palvelun kouluttaminen välttämään virheet
 
 Koska OCR perustuu optiseen tunnistukseen, OCR-palvelu voi tulkita PDF- tai kuvatiedostojesi merkit väärin, kun se käsittelee ensimmäistä kertaa esimerkiksi tietyn toimittajan asiakirjoja. Se ei ehkä tulkitse yrityksen logoa toimittajan nimeksi, tai se voi tulkita kulutositteen kokonaissumman väärin sen asettelun vuoksi. Voit välttää näitä virheitä vastaisuudessa korjaamalla OCR-palvelun vastaanottamat tiedot ja lähettämällä sitten palautteen palveluun.
 
@@ -120,7 +121,7 @@ Koska OCR perustuu optiseen tunnistukseen, OCR-palvelu voi tulkita PDF- tai kuva
 
 **Saapunut asiakirja** -sivun **Rahoituksellisia tietoja** -pikavälilehden kenttiin päivitetään vaiheessa 4 antamasi uudet arvot.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Saapuvien asiakirja tietueiden luonti](across-how-create-income-document-records.md)
 [Saapuvien asiakirjatietueiden luominen suoraan asiakirjoista ja tapahtumista](across-how-connect-disconnect-income-document-records.md)

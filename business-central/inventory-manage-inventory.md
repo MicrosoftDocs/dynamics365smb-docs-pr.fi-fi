@@ -3,16 +3,15 @@ title: Varaston hallinta
 description: 'Tässä artikkelissa kuvataan, miten luomalla varastonimikekortti hallitaan fyysisiä tuotteita, joilla käydään kauppaa.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'warehouse, stock'
 ms.search.forms: '5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782'
 ms.date: 12/19/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="manage-inventory"></a>Varaston hallinta
+# Varaston hallinta
 
 Jokaiselle fyysiselle tuotteelle, jolla käydään kauppaa, on luotava **Varasto**-tyyppinen nimikekortti. Asiakkaille tarjottavat nimikkeet, joita ei säilytetä varastossa, voidaan rekisteröidä luettelonimikkeiksi. Ne voidaan muuntaa varastonimikkeiksi tarvittaessa. Voit suurentaa tai pienentää varastossa olevien nimikkeiden määrää kirjaamalla arvon suoraan nimiketapahtumiin esimerkiksi fyysisen määrän jälkeen tai jättämällä ostoja kirjaamatta.
 
@@ -25,13 +24,13 @@ Voit parantaa nimikkeiden yhteenvetoa ja auttaa niiden etsimisessä luokittelema
 
 Nimikkeiden suunnittelu kysynnän täyttämiseksi katetaan osana tarjonnan suunnittelutoimintoa. Lisätietoja kohdassa [Suunnittelu](production-planning.md).  
 
-## <a name="inventory-reconciliation"></a>Varaston täsmäytys
+## Varaston täsmäytys
 
 Kun kirjaat varastotapahtumia, kuten myyntitoimituksia, ostolaskuja tai varaston muutoksia, muuttuneet nimikekustannukset kirjataan niiden arvotapahtumiin. Jotta varastoarvon muutos päivittyisi talouskirjoihin, varastokustannukset kirjataan automaattisesti pääkirjanpidon liittyviin varastotileihin. Jokaista itse kirjattua varastotapahtumaa kohti kirjataan sopiva arvo varastotilille, muutostilille ja myytyjen tuotteiden kustannusten tilille pääkirjanpidossa. Lisätietoja kohdassa [Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Vaikka kustannukset kirjattaisiin automaattisesti pääkirjanpitoon, on tarpeen varmistaa, että tavaroiden kustannukset välitetään liitetään lähtevälle tapahtumalle. Tämä on erityisen tärkeää, kun myyt tavaroita ennen näiden tavaroiden oston laskutusta. Tätä kutsutaan kustannusmuutokseksi. Nimikekustannukset muutetaan automaattisesti nimiketapahtumia kirjattaessa, mutta voit muuttaa niitä myös manuaalisesti. Lisätietoja kohdassa [Nimikekustannusten muuttaminen](inventory-how-adjust-item-costs.md).  
 
-## <a name="related-tasks"></a>Liittyvät tehtävät
+## Liittyvät tehtävät
 
 Seuraavassa taulukossa on esitetty liittyviä tehtäviä.
 
@@ -55,7 +54,7 @@ Seuraavassa taulukossa on esitetty liittyviä tehtäviä.
 |Hallitse myyntitoimistojen, osto-osastojen tai tehtaan suunnittelutoimistojen liiketoimintatoiminnoissa eri sijainneissa.|[Vastuupaikkojen käyttäminen](inventory-responsibility-centers.md)|
 |Käytä resursseja, joilla on erityistoimintoja, eri palveluille ja huoltonimikkeille.|[Resurssin kohdistuksen määrittäminen](service-how-setup-resource-allocation.md)|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
 [Hankinta](purchasing-manage-purchasing.md)  

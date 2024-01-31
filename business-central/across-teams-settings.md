@@ -3,15 +3,14 @@ title: Yrityksen ja muiden asetusten muuttaminen Teamsissa
 description: Tietoja Business Central -yhteysasetusten muuttamisesta Microsoft Teamsissa.
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search'
 ms.date: 04/12/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="changing-company-and-other-settings-in-teams"></a>Yrityksen ja muiden asetusten muuttaminen Teamsissa
+# Yrityksen ja muiden asetusten muuttaminen Teamsissa
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -27,7 +26,7 @@ Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksessa on **Aset
 
    ![Business Centralin asetukset viestiruudusta.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Business Centralin ja Microsoft Teamsin integraation yleiskatsaus](across-teams-overview.md)  
 [Microsoft Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen](across-install-app-for-teams.md)  

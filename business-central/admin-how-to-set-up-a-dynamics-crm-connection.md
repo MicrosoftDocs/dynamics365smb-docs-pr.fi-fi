@@ -3,19 +3,19 @@ title: Microsoft Dataverseen yhdistäminen (sisältää videon)
 description: Yhteyden määrittäminen Business Centralin ja Dataversen välille. Yleensä yritykset luovat yhteyden integroidakseen tietoja toisen Dynamics 365 -liiketoimintasovelluksen kanssa.
 author: brentholtorf
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: null
 ms.search.forms: '7200, 7201'
 ms.date: 09/28/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="connect-to-microsoft-dataverse"></a>Yhteyden muodostaminen Microsoft Dataverseen
+# Yhteyden muodostaminen Microsoft Dataverseen
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Tässä artikkelissa kuvataan, kuinka [!INCLUDE[prod_short](includes/prod_short.md)] ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)] välille määritetään yhteys. Yleensä yritykset luovat yhteyden integroidakseen ja synkronoidakseen tietoja toisen Dynamics 365 -liiketoimintasovelluksen kanssa. Sovellus voi olla esimerkiksi [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-## <a name="before-you-start"></a>Ennen kuin aloitat
+## Ennen kuin aloitat
 
 Ennen yhteyden luomista tarvitaan seuraavat tiedot:  
 
@@ -31,7 +31,7 @@ Ennen yhteyden luomista tarvitaan seuraavat tiedot:
 > Seuraavat vaiheet koskevat [!INCLUDE[prod_short](includes/prod_short.md)] online -versiota.
 > Jos käytössä [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versiota eikä Microsoft Entra -tiliä käytetä muodostamaan yhteyttä [!INCLUDE [cds_long_md](includes/cds_long_md.md)]en, integrointia varten on määritettävä käyttäjätilin käyttäjänimi ja salasana. Tätä tiliä kutsutaan integroinnin käyttäjän tiliksi. Microsoft Entra -tiliä käytettäessä integroinnin käyttäjän tiliä ei tarvita eikä sitä näytetä. Integroinnin käyttäjä määritetään automaattisesti, eikä sitä varten tarvita käyttöoikeutta.
 
-## <a name="allow-for-different-currencies"></a>Eri valuuttojen salliminen
+## Eri valuuttojen salliminen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -yrityksen voivat muodostaa yhteyden [!INCLUDE [cds_long_md](includes/cds_long_md.md)] -ympäristöön, jonka perusvaluutta on eri kuin paikallinen valuutta.
 
@@ -54,7 +54,7 @@ Koska valuutan synkronointi on yksisuuntaista kohteesta [!INCLUDE [prod_short](i
 * Jos [!INCLUDE [cds_long_md](includes/cds_long_md.md)]n perusvaluutassa, summat muunnetaan [!INCLUDE [prod_short](includes/prod_short.md)]in paikalliseksi valuutaksi [!INCLUDE [prod_short](includes/prod_short.md)]ista synkronoidun uusimman vaihtokurssin perusteella.
 * Jos [!INCLUDE [prod_short](includes/prod_short.md)]in paikallisessa valuutassa, summat synkronoidaan [!INCLUDE [prod_short](includes/prod_short.md)]in paikallisen valuutan kanssa jonakin muuna valuuttana (ei perusvaluuttana) [!INCLUDE [cds_long_md](includes/cds_long_md.md)]ssa.
 
-## <a name="set-up-a-connection-to-"></a>Määritä yhteys tuotteeseen [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+## Määritä yhteys tuotteeseen [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 Microsoft 365 -todennustyyppiä lukuun ottamatta [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteys määritetään kaikissa todennustyypeissä **Dataverse -yhteyden määritys** -sivulla. Microsoft 365 -todennuksessa on suositeltavaa käyttää **Dataverse-yhteyden määrityksen asetusten** ohjattua määritysopasta. Opas auttaa määrittämään nopeasti yhteyden ja lisäominaisuudet, kuten omistajamallin ja ensimmäisen synkronoinnin.  
 
@@ -67,7 +67,7 @@ Microsoft 365 -todennustyyppiä lukuun ottamatta [!INCLUDE[cds_long_md](includes
 >
 > Antamalla suostumuksen organisaation puolesta järjestelmänvalvoja antaa [!INCLUDE[prod_short](includes/prod_short.md)] Integration to [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -nimiselle Azure-sovelluksen oikeuden synkronoida tietoja käyttämällä automaattisesti luodun [!INCLUDE[prod_short](includes/prod_short.md)] Integration -sovelluksen käyttäjän tunnistetietoja.
 
-### <a name="to-use-the-dataverse-connection-setup-assisted-setup-guide"></a>Dataverse -yhteyden määrityksen asetusten ohjatun määritysoppaan käyttäminen
+### Dataverse -yhteyden määrityksen asetusten ohjatun määritysoppaan käyttäminen
 
 Dataverse -yhteyden asetusopas helpottaa sovellusten yhdistämistä, ja se voi auttaa sinua myös suorittamaan ensimmäisen synkronoinnin. Jos päätät käynnistää ensimmäisen synkronoinnin, [!INCLUDE[prod_short](includes/prod_short.md)] tarkistaa molempien sovellusten tiedot ja antaa suosituksia ensimmäisen synkronoinnin toteutusta varten. Seuraavassa taulukossa kuvaillaan näitä suosituksia.
 
@@ -87,7 +87,7 @@ Dataverse -yhteyden asetusopas helpottaa sovellusten yhdistämistä, ja se voi a
 > [!NOTE]
 > Jos sinua ei pyydetä käyttämään kirjautumiseen järjestelmänvalvojan tiliä, syynä on luultavasti estetyt ponnahdusikkunat. Kirjautumista varten on sallittava ponnahdusikkunat osoitteesta `https://login.microsoftonline.com`.
 
-### <a name="to-create-or-maintain-the-connection-manually"></a>Yhteyden luominen tai ylläpitäminen manuaalisesti
+### Yhteyden luominen tai ylläpitäminen manuaalisesti
 
 Seuraavassa kerrotaan, miten yhteys määritetään manuaalisesti **Dataverse -yhteyden määritys** -sivulla. **Dataverse-yhteyden määritys** -sivulla hallitaan integroinnin asetuksia.
 
@@ -115,7 +115,7 @@ Seuraavassa kerrotaan, miten yhteys määritetään manuaalisesti **Dataverse -y
 5. Jos [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in synkronointia ei ole määritetty, sinulta kysytään, haluatko käyttää oletussynkronointiasetuksia. Valitse **Kyllä** tai **Ei** sen mukaan, haluatko pitää [!INCLUDE[cds_long_md](includes/cds_long_md.md)]in ja [!INCLUDE[prod_short](includes/prod_short.md)]in tietueet kohdistettuina.
 
 <!--
-## <a name="show-me-the-process"></a>Show Me the Process
+## Show Me the Process
 
 The following video shows the steps to connect [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. <br>
   
@@ -123,7 +123,7 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
-## <a name="customize-the-match-based-coupling"></a>Vastaavuuteen perustuvan yhdistämisen mukauttaminen
+## Vastaavuuteen perustuvan yhdistämisen mukauttaminen
 
 Alkaen vuoden 2021 2. julkaisuaallosta voit yhdistää tietueita ylläpitäjän määrittelemien vastaavuuskriteerien perusteella. Tietueiden vastaavuuden algoritmi voidaan aloittaa seuraavista paikoista [!INCLUDE [prod_short](includes/prod_short.md)]ista:
 
@@ -155,7 +155,7 @@ Kaikissa kolmessa tapauksessa **Valitse yhdistämisehdot** -sivu avautuu, jotta 
 
 * Määrittää, luodaanko uusi entiteettiesiintymä [!INCLUDE [cds_long_md](includes/cds_long_md.md)]issa siinä tapauksessa, että hakuehdoilla ei löydy yksilöllistä yhdistämättä olevaa vastaavuutta. Voit aktivoida tämän ominaisuuden valitsemalla **Luo uusi, jos ei löydy vastaavuutta** -toiminto.  
 
-### <a name="view-the-results-of-the-coupling-job"></a>Yhdistämistyön tulosten tarkasteleminen
+### Yhdistämistyön tulosten tarkasteleminen
 
 Jos haluat tarkastella yhdistämistyön tuloksia, avaa **Integrointitaulukon yhdistämismääritykset** -sivu, valitse haluamasi linkitys, valitse **Yhdistäminen**-toiminto ja valitse sitten **Integroinnin yhdistämistyön loki** -toiminto.  
 
@@ -182,7 +182,7 @@ Yleensä yhdistäminen epäonnistuu seuraavista syistä:
 > [!TIP]
 > Jotta saat yleiskuvan yhdistämisen edistymisestä, **Yhdistetty Dataverseen** -kentässä näkyy, onko tietue liitetty [!INCLUDE [cds_long_md](includes/cds_long_md.md)] -kohteeseen. **Yhdistetty Dataverseen** -kentän avulla voit suodattaa synkronoitavien tietueiden luettelon.
 
-## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Päivitä yhteydet Business Central Onlinesta käyttääksesi varmennepohjaista todennusta
+## Päivitä yhteydet Business Central Onlinesta käyttääksesi varmennepohjaista todennusta
 
 > [!NOTE]
 > Tämä osa on merkityksellinen vain Microsoftin isännöimille [!INCLUDE[prod_short](includes/prod_short.md)] online -vuokraajille. Tämä ei vaikuta ISV-isännöityihin online-vuokralaisiin tai paikan päällä tehtyihin asennuksiin.
@@ -191,7 +191,7 @@ Huhtikuussa 2022 [!INCLUDE[cds_long_md](includes/cds_long_md.md)]issa vanhentuu 
 
 Jotta integraatiot eivät häiriinny, yhteys _on päivitettävä_ käyttämään varmennepohjaista todennusta. Vaikka muutos ajoittuu maaliskuulle 2022, suosittelemme, että päivität mahdollisimman pian. Seuraavissa vaiheissa kuvataan, miten varmennepohjaiseen todennukseen päivitetään. 
 
-### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Business Central online -yhteyden päivittäminen käyttämään varmennepohjaista todennusta
+### Business Central online -yhteyden päivittäminen käyttämään varmennepohjaista todennusta
 
 1. Tee jokin seuraavista toimista sen mukaan, integroitko Dynamics 365 Salesiin:
    * Jos kyllä, avaa **Microsoft Dynamics 365 -yhteysasetukset** -sivu.
@@ -202,13 +202,13 @@ Jotta integraatiot eivät häiriinny, yhteys _on päivitettävä_ käyttämään
 > [!NOTE]
 > Nämä vaiheet on toistettava jokaisessa [!INCLUDE[prod_short](includes/prod_short.md)] -ympäristössä, mukaan lukien tuotanto- ja eristysympäristöt ja jokaisessa yrityksessä, jolla on yhteys [!INCLUDE[cds_long_md](includes/cds_long_md.md)]iin.
 
-## <a name="connecting-on-premises-versions"></a>Paikallisten versioiden yhdistäminen
+## Paikallisten versioiden yhdistäminen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -version yhdistäminen [!INCLUDE[cds_long_md](includes/cds_long_md.md)]en edellyttää, että **Dataverse -yhteyden määritys** -sivulla määritetään joitakin tietoja.
 
 Jotta voisit muodostaa yhteyden Microsoft Entra -tilin avulla, sinun täytyy rekisteröidä sovellus Microsoft Entra ID:ssä. Anna sovelluksen tunnus, avainsäilön salaisuus ja uudelleenohjauksen URL-osoite. Uudelleenohjauksen URL-osoite täytetään valmiiksi, ja sen pitäisi toimia useimmissa asennuksissa. Asennus on määritettävä käyttämään HTTPS-yhteyttä. Lisätietoja on kohdassa [SSL:n määrittäminen suojaamaan Business Centralin verkkoasiakasohjelman yhteyttä](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Jos palvelimelle määritetään jokin muu aloitussivu, URL-osoitteen voi vaihtaa. Asiakasohjelman salaisuus tallennetaan tietokantaan salattuna merkkijonona. 
 
-### <a name="to-register-an-application-in-microsoft-entra-id-for-connecting-from-business-central-to-dataverse"></a>Sovelluksen rekisteröiminen Microsoft Entra ID:ssä muodostamaan yhteys Business Centralista Dataverseen
+### Sovelluksen rekisteröiminen Microsoft Entra ID:ssä muodostamaan yhteys Business Centralista Dataverseen
 
 Seuraavissa vaiheissa oletetaan, käyttäjätietojen ja käyttöoikeuksien hallintaan käytetään Microsoft Entra ID:tä. Lisätietoja sovelluksen rekisteröimisestä Microsoft Entra ID:ssä on kohdassa [Pika-aloitus: sovelluksen rekisteröinti Microsoftin käyttäjätietoympäristössä](/azure/active-directory/develop/quickstart-register-app). 
 
@@ -231,12 +231,12 @@ Seuraavissa vaiheissa oletetaan, käyttäjätietojen ja käyttöoikeuksien halli
    > [!NOTE]
    > Jos sinua ei pyydetä käyttämään kirjautumiseen järjestelmänvalvojan tiliä, syynä on luultavasti estetyt ponnahdusikkunat. Kirjautumista varten on sallittava ponnahdusikkunat osoitteesta `https://login.microsoftonline.com`.
 
-### <a name="to-disconnect-from-"></a>[!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteyden katkaiseminen
+### [!INCLUDE[cds_long_md](includes/cds_long_md.md)] -yhteyden katkaiseminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Dataverse-yhteyden määritys** ja valitse sitten vastaava linkki.
 2. Poista käytöstä **Dataverse -yhteyden määritys** -sivulla **Käytössä**-valitsin.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Synkronoinnin tilan näyttäminen](admin-how-to-view-synchronization-status.md)  
 

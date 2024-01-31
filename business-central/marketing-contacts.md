@@ -3,21 +3,21 @@ title: Yrityksen kontaktien luominen ja hallinta
 description: 'Voit määrittää kaikki ulkoiset yksiköt, joiden kanssa sinulla on liikesuhde, kontakteiksi. Kyse voi olla esimerkiksi prospekteista, asiakkaista, toimittajista ja konsulteista.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5054, 5050, 5051, 5052, 5104, 5053, 9130, 6701, 5055, 1604'
-ms.date: 04/01/2021
+ms.date: 12/13/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="managing-contacts"></a>Kontaktien hallinta
+
+# Kontaktien hallinta
 
 Yrityksen työntekijät kohtaavat säännöllisesti mahdollisia liikesuhteita, joista voi kehittyä virallisia liikesuhteita. Kaikki tällaiset ulkoiset yhteyshenkilöt ja heidän eritellyt tietonsa tulee tallentaa järjestelmään, jotta viestintä onnistuu. Tämän jälkeen yhteyshenkilöt voidaan helposti muuntaa virallisesti asiakkaiksi, toimittajiksi tai pankkisuhteiksi.
 
 Käytä **Kontakti**-luetteloa kontaktien hallintaan. Sieltä voit luoda mahdollisuuksia ja hallita muita vuorovaikutuksia yksittäisten kontaktien kanssa. Voit myös tarkastella kontaktin tilastoja, ja voit käyttää erilaisia raportteja. Lisätietoja oikean kontaktin etsimisestä luettelosta on kohdassa [Lajittelu, hakeminen ja suodattaminen](ui-enter-criteria-filters.md).  
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkeleihin.
 
 | Vastaanottaja | Katso |
 | --- | --- |
@@ -26,7 +26,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Määritä kyselyprofiileja niille kyselyille, joita haluat käyttää, kun annat tietoja kontaktien profiileista.|[Liiketoimintakontaktien luokittelu profiilikyselyiden avulla](marketing-create-contact-profile-questionnaire.md)|
 |Ratkaise ristiriita, kun samalla kontaktilla on ainakin kaksi tietuetta.|[Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [Lajitteleminen, hakeminen ja suodattaminen](ui-enter-criteria-filters.md)  

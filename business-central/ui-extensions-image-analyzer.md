@@ -3,16 +3,15 @@ title: Kuvan analysointilaajennus
 description: 'Voit analysoida tällä laajennuksella kontaktihenkilöiden ja nimikkeiden kuvia ja etsiä määritteitä, mikä nopeuttaa niiden määrittämistä Business Central -sovelluksessa.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition'
 ms.search.form: '2026, 2027, 2029,'
 ms.date: 05/19/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="the-image-analyzer-extension"></a>Kuvan analysointilaajennus
+# Kuvan analysointilaajennus
 
 Kuvan analysointilaajennus havaitsee Azure Cognitive Servicesin konenäön ohjelmointirajapinnan tehokkaalla kuva-analytiikalla määritteet nimikkeille ja kontaktihenkilöille tuoduissa kuvissa, mikä helpottaa kuvien tarkastelua ja määrittämistä. Nimikkeiden määritteet voivat ilmaista esimerkiksi, onko kyse pöydästä vai autosta ja onko se sininen vai punainen. Kontaktihenkilöiden määritteet voivat ilmaista sukupuolen tai iän.
 
@@ -22,11 +21,11 @@ Kuvan analysointitoiminto on maksuton [!INCLUDE[prod_short](includes/prod_short.
 
 Kun laajennus on otettu käyttöön, kuvan analysointitoiminto suoritetaan aina, kun tuot nimikkeeseen tai kontaktihenkilöön kuvan. Näet määritteet, luottamustason ja tiedot heti ja voit määrittää, miten kutakin määritettä käsitellään. Jos toit kuvia ennen kuvan analysointilaajennuksen käyttöönottoa, sinun on siirryttävä nimikkeeseen tai kontaktikortteihin ja valittava **Analysoi kuva** -toiminto.  
 
-## <a name="privacy-notice"></a>Tietosuojatiedot
+## Tietosuojatiedot
 
 Tämä laajennus käyttää Azure Cognitive Servicesin konenäön ohjelmointirajapintaa. Sen yhdenmukaisuussitoumusten tasot voivat olla erilaiset kuin [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa. Jos otat käyttöön kuvan analysointilaajennuksen, asiakastiedot, kuten kontaktin kuva ja nimikkeen kuva, lähetetään konenäön ohjelmointirajapinnalle. Kun asennat tämän laajennuksen, suostut siihen, että tämä rajoitettu määrä tietoja lähetetään konenäön ohjelmointirajapinnalle. Ota huomioon, että voit poistaa kuvan analysointilaajennuksen käytöstä ja poistaa sen asennuksen milloin tahansa, kun haluat keskeyttää tämän toiminnon käytön. Lisätietoja on [Microsoftin luottamuskeskuksessa](https://go.microsoft.com/fwlink/?linkid=851463).
 
-## <a name="requirements"></a>Tarpeet
+## Tarpeet
 
 Kuvavaatimukset:
 
@@ -34,7 +33,7 @@ Kuvavaatimukset:
 * Tiedoston suurin koko: alle 4 Mt  
 * Kuvan koko: yli 50 x 50 kuvapistettä  
 
-## <a name="switch-on-the-image-analyzer-extension"></a>Ota käyttöön Kuvan analysointilaajennus
+## Ota käyttöön Kuvan analysointilaajennus
 
 Kuvan analysointilaajennus sisältyy [!INCLUDE[prod_short](includes/prod_short.md)]iin. Sinun tarvitsee vain ottaa se käyttöön.
 
@@ -49,7 +48,7 @@ Ota kuvan analysointilaajennus käyttöön jollakin seuraavista toiminnoista:
     > [!TIP]  
     > **Kuva-analyysin asetukset** -sivulla voi muuttaa myös määrite-ehdotusten luotettavuustasoa. Jos esimerkiksi haluat käyttää suurempaa luotettavuustasoa, voit antaa korkeamman prosenttiluvun.
 
-## <a name="analyze-an-item-image"></a>Analysoi nimikkeen kuvaa
+## Analysoi nimikkeen kuvaa
 
 Seuraavaksi kerrotaan, miten analysoidaan kuva, joka oli tuotu ennen kuvan analysointilaajennuksen käyttöönottoa.  
 
@@ -69,7 +68,7 @@ Seuraavaksi kerrotaan, miten analysoidaan kuva, joka oli tuotu ennen kuvan analy
 > [!NOTE]  
 > Oletusarvoisesti **Nimikkeen määritteet** näyttää määritteet, joiden **Luotettavuuspistemäärä** on korkeampi kuin **Luotettavuuspistemäärän kynnysprosentti**, joka määritellään kohdassa **Kuva-analyysin asetukset**. Jos haluat nähdä kaikki havaitut määritteet, valitse **Näytä kaikki määritteet** -toiminto.
 
-## <a name="analyze-a-contact-person-picture"></a>Analysoi kontaktihenkilön kuva
+## Analysoi kontaktihenkilön kuva
 
 Seuraavaksi kerrotaan, miten analysoidaan kuva, joka oli tuotu ennen kuvan analysointilaajennuksen käyttöönottoa.  
 
@@ -90,7 +89,7 @@ Seuraavaksi kerrotaan, miten analysoidaan kuva, joka oli tuotu ennen kuvan analy
     >
     > Konenäön ohjelmointirajapinta ei palauta ikä- ja sukupuolimääritteiden luottamustasoa.
   
-## <a name="use-your-own-computer-vision-api-account"></a>Käytä omaa konenäön ohjelmointirajapintatiliäsi
+## Käytä omaa konenäön ohjelmointirajapintatiliäsi
 
 Voit käyttää konenäön ohjelmointirajapintana myös omaa tiliäsi, jos haluat esimerkiksi analysoida isomman määrän kuvia kuin mitä oletusintegraatio tarjoaa.
 
@@ -100,21 +99,21 @@ Voit käyttää konenäön ohjelmointirajapintana myös omaa tiliäsi, jos halua
     > [!NOTE]  
     > API:n URI-osoitteen loppuun on lisättävä **/analyze**, jos se puuttuu. Esimerkiksi: ```https://cronus.api.cognitive.microsoft.com/vision/v2.0/analyze```.
 
-## <a name="see-how-many-analyses-you-have-left-in-the-current-period"></a>Kuluvan jakson jäljellä olevien analyysien näyttäminen
+## Kuluvan jakson jäljellä olevien analyysien näyttäminen
 
 Voit tarkistaa, kuinka monta analyysia olet kuluvalla jaksolla tehnyt ja kuinka monta voit vielä tehdä.  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kuva-analyysin asetukset** ja valitse sitten vastaava linkki.
 2. **Rajatyyppi**-, **Raja-arvo**- ja **Suoritetut analyysit** -kentät sisältävät hyödyllisiä käyttötietoja.  
 
-## <a name="stop-using-the-image-analyzer-extension"></a>Kuvan analysointilaajennuksen käytön lopettaminen
+## Kuvan analysointilaajennuksen käytön lopettaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Palvelun yhteydet** ja valitse sitten **Kuva-analyysin asetukset**.  
 2. Poista **Ota kuvan analysointitoiminto käyttöön** -kentän valinta.  
 
 Vaihtoehtoisesti voit poistaa laajennuksen kokonaan. Voit hakea sen aina uudelleen AppSourcesta. Lisätietoja on kohdassa [Laajennusten asentaminen Business Centraliin ja asennusten poistaminen](ui-extensions-install-uninstall.md#uninstall-an-app).  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md)  
 [Nimikkeiden luokitteleminen](inventory-how-categorize-items.md)  

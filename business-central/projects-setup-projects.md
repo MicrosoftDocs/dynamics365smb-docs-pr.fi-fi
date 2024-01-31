@@ -3,15 +3,14 @@ title: 'Raporttien, tuntiraporttien ja projektien määrittäminen'
 description: 'Tässä ohjeaiheessa kerrotaan, miten resurssit, tuntiraportit ja projektit on määritetty hallitsemaan projekteja ja niiden budjetteja.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: projects
 ms.search.form: '289, 290, 376, 462, 463, 1029, 8904, 9014, 9015'
 ms.date: 06/22/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-project-management"></a>Projektinhallinnan määrittäminen
+# Projektinhallinnan määrittäminen
 
 Ennen kuin voit käyttää [!INCLUDE[prod_short](includes/prod_short.md)]ia projektien hallintaan, on määritettävä resurssit, aikaraportit ja projektit.
 
@@ -26,7 +25,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 | Ota raporteissa käyttöön ajan käytön raportointi yksityishenkilölle tai koneelle. Anna esimiehelle oikeus tarkistaa käyttö ja sen kohdistus. |[Aikaraporttien määrittäminen](projects-how-setup-time-sheets.md) |
 | Luo projektikortit ja valmistele projektitehtävät. Määritä projektinimikkeiden ja -resurssien hinnat ja määritä projektin kirjausryhmät. |[Projektien määrittäminen](projects-how-setup-jobs.md) |
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Projektien hallinta](projects-manage-projects.md)  
 [Video: Projektin luonti Dynamics 365 Business Centralissa](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

@@ -4,14 +4,13 @@ description: 'Lisätietoja siitä, miten erillisen ympäristön avulla voit turv
 author: brentholtorf
 ms.topic: conceptual
 ms.reviewer: bholtorf
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'sandbox, demo, develop'
 ms.date: 12/20/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="sandbox-environments-in-"></a>Eristysympäristöt [!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisussa
+# Eristysympäristöt [!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisussa
 
 [!INCLUDE[prod_short](includes/prod_short.md)] onlinen avulla voit helposti luoda turvallisen ympäristön, jossa voit testata, kouluttaa tai tehdä vianmäärityksiä häiritsemättä yrityksen työprosesseja tai liiketoimintatietoja. Tällaista ei-tuotantoympäristöä kutsutaan *eristysympäristöksi (sandbox)*. Tuotannosta eristetty Sandbox-ympäristö on paikka, jossa voi turvallisesti tutustua palveluun, opetella sen käyttöä sekä kehittää ja testata sitä ilman, että tuotantoympäristön tiedot ja asetukset vaarantuvat.  
 
@@ -35,13 +34,13 @@ Eristysympäristö on hyödyllinen muun muassa seuraavien kätevien ominaisuuksi
 <!--* [Complete sample data](#complete-sample-data)  -->
 * [Suunnitteluohjelma](#designer)  
 
-## <a name="advanced-user-experience"></a>Käyttäjäkokemuksen parannus
+## Käyttäjäkokemuksen parannus
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in perusversion voi ottaa käyttöön ja sen kaikkia toimintoja voi käyttää eristysvuokraajassa määrittämällä **Kokemus**-kentän asetukseksi *Premium* **Yrityksen tiedot** -sivulla. Etsi **Yrityksen tiedot** -sivu :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Asetukset-kuvake."::: -valikosta.  
 
 Kun olet ottanut käyttöön *Premium*-käyttökokemuksen, saat käyttöösi kaikki vakioprofiilit (roolit) ja roolikeskukset vakioversiossa. Vaihtoehtoisesti voit ottaa yhteyttä jälleenmyyntiyhteistyökumppaniin, jotta saat esittelyn ominaisuuksista. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäkumppanin?](across-faq.yml#how-do-i-find-a-reselling-partner).  
 
-### <a name="complete-sample-data"></a>Täydelliset esimerkkitiedot
+### Täydelliset esimerkkitiedot
 
 Jos tarvitset lisää esimerkkitietoja, käänny jälleenmyyjäkumppanin puoleen.
 <!-- In the sandbox environment, you can also create a new company with the **Advanced Evaluation - Complete Sample Data** option so that you can take training or step through walkthroughs that require additional sample data, such as [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).   -->
@@ -56,7 +55,7 @@ Jos tarvitset lisää esimerkkitietoja, käänny jälleenmyyjäkumppanin puoleen
 
 When the assisted setup guide completes, you can start exploring the new company with the complete sample data. For more information, see [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  -->
 
-## <a name="designer"></a>Rakennenäkymä
+## Rakennenäkymä
 
 Sandbox-ympäristössä on **Rakennenäkymä** käytössä. Voit aktivoida Suunnitteluohjelman valitsemalla suunnittelukuvakkeen ![Designer.](./media/across-sandbox/sandbox-inclient-design-icon.png) sivulla tai valitsemalla **Rakenne**-valikkokohteen ![Asetukset](media/ui-experience/settings_icon_small.png) Asetukset-valikossa.  
 
@@ -64,7 +63,7 @@ Lisätietoja on kehittäjä- ja järjestelmänvalvojasisällön kohdassa [Suunni
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)]in kokeiluversiot ja tilaukset](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

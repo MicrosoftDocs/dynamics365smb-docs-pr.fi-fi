@@ -4,15 +4,14 @@ description: 'Kontaktienhallinnan ominaisuudet tukevat myyntitoimintoja. Voit my
 documentationcenter: ''
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'contact, prospect, client'
 ms.search.forms: '9076, 9026'
 ms.date: 06/22/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="managing-relationships"></a>Kontaktienhallinta
+# Kontaktienhallinta
 [!INCLUDE[prod_short](includes/prod_short.md)]in kontaktienhallinnan toiminnot auttavat myyntitoimintojen hallinnassa ja tukemisessa. Ominaisuuksien avulla saat kaikki tiedot käyttöösi tarkkoina ja ajantasaisina ja voit keskittyä ensisijaisten asiakas-/kontaktisegmenttien hoitamiseen.
 
 Tärkeintä hyvissä myynti- ja markkinointikäytännöissä on tehdä oikeita päätöksiä oikeaan aikaan. [!INCLUDE[prod_short](includes/prod_short.md)]in avulla kontaktien tietojen yleiskuvaus on saatavana täsmällisenä ja oikea-aikaisesti. Ohjelman avulla voit palvella mahdollisia asiakkaita tehokkaammin ja parantaa asiakastyytyväisyyttä.

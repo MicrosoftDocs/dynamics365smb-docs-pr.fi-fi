@@ -3,15 +3,14 @@ title: Puitekokoonpanotilausten luominen
 description: 'Luo mukautetuille kokoonpanonimikkeille puitemyyntitilauksia, ennen kuin teet säännöllisesti todelliset myyntitilaukset puitetilauksen sopimuksen mukaisesti.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-blanket-assembly-orders"></a>Puitekokoonpanotilausten luominen
+# Puitekokoonpanotilausten luominen
 
 Voit mukauttaa kokoonpanonimikettä asiakkaan pyynnöstä myyntiprosessin kokoonpanon hallinnan avulla. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -20,7 +19,7 @@ Voit mukauttaa kokoonpanonimikettä asiakkaan pyynnöstä myyntiprosessin kokoon
 > [!NOTE]  
 >  Kuten kaikissa puitetilauksissa, kokoonpanon joukkotilausten määrät ovat vain ennusteita, eikä niitä käytetä, ennen kuin ne muunnetaan todellisiksi kokoonpanotilauksiksi. Tämän vuoksi tilaustoiminnot, kuten saatavuus, laskenta, varaus ja nimikeseuranta, eivät ole aktiivisia kokoonpanon puitetilauksissa.  
 
-## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>Luo puitekokokoonpanotilaus kokoonpano\-tilausta\-varten -nimikkeelle
+## Luo puitekokokoonpanotilaus kokoonpano\-tilausta\-varten -nimikkeelle  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Puitemyyntitilaukset** ja valitse sitten vastaava linkki.  
 2. Luo uusi puitemyyntitilaus yhdellä kokoonpanonimikkeen rivillä. Lisätietoja on kohdassa [Puitemyyntitilausten luominen](sales-how-to-create-blanket-sales-orders.md).  
@@ -36,7 +35,7 @@ Voit mukauttaa kokoonpanonimikettä asiakkaan pyynnöstä myyntiprosessin kokoon
 
 Linkitetty puitekokoonpanotilaus ja kaikki muokkaukset on linkitetty uuteen myyntitilaukseen kokoonpanon tai myynnin valmistelua varten.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Puitemyyntitilausten luominen](sales-how-to-create-blanket-sales-orders.md)  
 [Kokoonpanon hallinta](assembly-assemble-items.md)  

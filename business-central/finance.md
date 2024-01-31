@@ -3,15 +3,14 @@ title: Taloushallinto (sisältää videon)
 description: 'Tutustu siihen, miten Business Central tukee taloushallinnon, kirjanpidon, tilintarkastuksen ja kirjanpidon tarpeita.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.search.form: '1151, 1166, 9027, 9004'
 ms.date: 12/19/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="financial-management"></a>Taloushallinto
+# Taloushallinto
 
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää useimpien taloushallinnon prosessien vakiomäärityksen. Voit muuttaa sitä liiketoiminnan tarpeiden mukaan. Lisätietoja kohdassa [Taloushallinnon määrittäminen](finance-setup-finance.md).
 
@@ -49,13 +48,13 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Käsittele tilinpäätöksiä ja yhteenvetoja Microsoft Excelissä. |[Rahoituslaskelmien analysointi Excelissä](finance-analyze-excel.md) |
 |Lisätietoja kirjanpitäjän roolikeskuksesta, vuorovaikutuksesta ulkoisen kirjanpitäjän kanssa ja useiden asiakkaiden tilien hallinnasta yritystoiminnon avulla.|[Kirjanpitäjän käyttökokemukset Business Centralissa](finance-accounting.md)|  
 
-## <a name="take-a-video-tour"></a>Katso videoesittely
+## Katso videoesittely
 
 Tässä videossa kerrotaan joistakin keskeisistä taloudenhallinnan valmiuksista. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Myynti](sales-manage-sales.md)  

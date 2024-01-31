@@ -3,44 +3,43 @@ title: Varastopaikkojen luominen
 description: 'Luo samankaltaisten varastopaikkojen ryhmiä varastopaikan luontityökirjaan, luo varastopaikkoja yksitellen sijaintikortille tai automaattisesti varastopaikan luontityökirjaan.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '7368, 7369, 7370, 7371, 7372, 7373'
-ms.date: 06/24/2021
+ms.date: 12/13/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-bins"></a>Varastopaikkojen luominen
+# Varastopaikkojen luominen
 
 Tehokkain tapa luoda fyysisen varaston varastopaikkoja on luoda samankaltaisten varastopaikkojen ryhmiä varastopaikan luontityökirjassa, mutta varastopaikkoja voi luoda myös yksittäin sijainnin kortista. Voit luoda varastopaikkoja myös automaattisesti **Var.paikan luontityökirja** -sivulla.  
 
-## <a name="to-create-a-bin-from-the-location-card"></a>Varastopaikan luonti sijaintikortista
+## Varastopaikan luonti sijaintikortista
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten vastaava linkki.  
 2.  Valitse ensin sijainti, josta haluat luoda varastopaikan, ja sitten **Varastopaikat**-toiminto.  
 3. Valitse **Uusi**-toiminto.
 4. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="the-dedicated-field"></a>Erityinen-kenttä
+### Erityinen-kenttä
 
 **Varastopaikat**-sivun **Erityinen**-kenttä määrittää, että varastopaikan määrät suojataan poiminnalta muuhun kysyntään. Erityisvarastopaikoissa olevat määrät voidaan kuitenkin edelleen varata. Näin ollen erityisvarastopaikkojen määrät sisällytetään **Varaus**-sivun **Saatavilla oleva kokonaismäärä** -kenttään.
 
 Erillisen varastopaikan tekemisen tuloksena on samantapainen toiminta perusvarastoinnissa kuin varastopaikkatyyppien käyttö, joka on mahdollista vain laajennetussa varastoinnissa. Lisätietoja on kohdassa [Varastopaikkojen määrittäminen](warehouse-how-to-set-up-bin-types.md).
 
-### <a name="example"></a>Esimerkki
+### Esimerkki
 
 Tuotantosolu on määritetty **Tuotannon valmisteluvarastopaikkakoodi** -kentän varastopaikkakoodilla. Oletusvarastopaikkakoodilla varustetut tuotantotilauksen komponenttirivit vaativat, että eteenpäin siirretyt komponentit sijoitetaan niihin. Kunnes kyseisen varastopaikan komponentit on kulutettu loppuun, tästä varastopaikasta voidaan poimia tai kuluttaa muiden komponenttien kysynnän mukaisesti, koska varastopaikat ovat yhä saatavana olevaa varastopaikan sisältöä. Jotta varmistat, että varastopaikan sisältö on käytettävissä vain komponenttitarpeeseen, joka käyttää kyseistä tuotannon valmisteluvarastopaikkaa, sinun on valittava **Erityinen**-kenttä kyseisen varastopaikkakoodin rivillä.
 
 > [!Caution]
 > Erikoisvarastopaikoissa olevat nimikkeet eivät ole suojattuja, kun ne on kerätty ja kulutettu tuotanto- tai kokoonpanokomponentteina **Varaston poiminta** -sivun kautta. Lisätietoja on kohdassa [Tuotanto- tai kokoonpanopoiminta perusvarastointimäärityksissä](warehouse-how-to-pick-for-production.md).
 
-## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Varastopaikkojen luominen yksittäin varastopaikan luontityökirjassa
+## Varastopaikkojen luominen yksittäin varastopaikan luontityökirjassa
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Var.paikan luontityökirja** ja valitse sitten vastaava linkki.  
 2.  Täytä jokaisella rivillä kentät, jotka tarvitaan luotavien varastopaikkojen nimeämiseen ja kuvailemiseen.  
 3.  Valitse **Luo varastopaikat** -toiminto.  
 
-## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>Varastopaikkojen muodostaminen automaattisesti varastopaikkojen luontityökirjassa
+## Varastopaikkojen muodostaminen automaattisesti varastopaikkojen luontityökirjassa
 
 Ennen kuin aloitat varastopaikkojen automaattisen luonnin, sinun on päätettävä toimintojesi kannalta olennainen varastopaikkojen tyyppi ja nimikkeiden kätevin kulku fyysisen varaston rakenteiden läpi.  
 
@@ -66,15 +65,15 @@ Voit käyttää **Var.paikan luontityökirja** -sivua, jos sinut on määritetty
 
     Sovellus luo työkirjaan rivin kullekin varastopaikalle. Voit nyt poistaa joitain varastopaikoista, jos sinulla on esimerkiksi hylly, jossa on käytävä parin osion kahden ensimmäisen tason välillä.  
 
-9. Kun olet poistanut kaikki tarpeettomat varastopaikat, valitse **Luo varastopaikat** -toiminto, jolloin sovellus luo työkirjan kullekin riville varastopaikan.  
+9. Kun poistat kaikki tarpeettomat varastopaikat, valitse **Luo varastopaikat** -toiminto, jolloin sovellus luo työkirjan kullekin riville varastopaikan.  
 
 Prosessi toistetaan toisen varastopaikkasarjan osalta, siihen asti kun fyysiseen varastoon on luotu kaikki varastopaikat.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
-[Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
+[Varastoinninhallinnan yleiskatsaus](design-details-warehouse-management.md)  
 [Varasto](inventory-manage-inventory.md)  
-[Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  
+[Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)    
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -7,9 +7,10 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 03/28/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-locations-to-use-bins"></a>Sijaintien määrittäminen varastopaikkojen käyttämistä varten
+# Sijaintien määrittäminen varastopaikkojen käyttämistä varten
 
 Varastopaikat edustavat fyysisen varaston perusrakennetta. Ne voivat ehdottaa, minne nimikkeet kannattaa sijoittaa. Kun olet luonut varastopaikat, määrität niiden sisällön tai annat niiden olla määrittelemättömiä varastopaikkoja, joissa ei ole tiettyä sisältöä.
 
@@ -27,7 +28,7 @@ Sitten voi suunnitella nimikevirran sijainnissa määrittämällä varastopaikka
 > [!NOTE]  
 > Ennen kuin voit määrittää varastopaikkakoodeja sijainnissa, on luotava varastopaikkakoodit. Lisätietoja on kohdassa [Varastopaikkojen luominen](warehouse-how-to-create-individual-bins.md).  
 
-## <a name="to-set-up-a-location-to-use-bins"></a>Määritä sijainti käyttääksesi varastopaikkoja
+## Määritä sijainti käyttääksesi varastopaikkoja
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten vastaava linkki.  
 2. Valitse sijainti, jossa haluat käyttää varastopaikkoja.  
@@ -45,13 +46,13 @@ Sitten voi suunnitella nimikevirran sijainnissa määrittämällä varastopaikka
 9. Valinnainen: täytä **Var.paikkojen periaatteet** -pikavälilehden kentät. Tärkeimmät kentät ovat **Var.paikan kapasiteettitapa**, **Salli erottelu** ja **Hyllytysmallin koodi**.  
 10. Täytä **F. varastointi** -pikavälilehdessä kentät **Lähtevä f. var. käsittelyaika**, **Saapuva f. var. käsittelyaika** ja  **Peruskalenterin koodi**. Saat lisätietoja valitsemalla [Peruskalenterien määrittäminen](across-how-to-assign-base-calendars.md).
 
-## <a name="fill-in-the-consumption-bin"></a>Kulutuksen varastopaikan täyttäminen
+## Kulutuksen varastopaikan täyttäminen
 
 Seuraava työnkulkukaavio näyttää, miten tuotantotilauksen osarivien **Varastopaikkakoodi**-kenttä täytetään sijaintiasetusten mukaisesti.
 
 :::image type="content" source="media/binflow.png" alt-text="Varastopaikkakoodi-kenttä tuotantotilauksen osariveillä.":::
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
 [Varasto](inventory-manage-inventory.md)  

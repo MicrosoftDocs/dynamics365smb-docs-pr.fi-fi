@@ -3,14 +3,13 @@ title: Talousprosessien määrittäminen
 description: 'Lisätietoja vaadittavista tehtävistä, joilla määritetään liiketoiminnan taloushallinto laskentatoimen, tilintarkastuksen tai kirjanpidon tarpeita varten.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.date: 08/19/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-finance"></a>Rahoituksen määrittäminen
+# Rahoituksen määrittäminen
 
 Ennen kuin voit aloittaa yrityksesi pyörittämisen, sinun on määritettävä, miten haluat hallita yrityksen rahoitusprosesseja. Aloita määrittämällä yrityksen tilitietueiden perusta – tilikartta. Sitten määritetään kirjausryhmät. Tämä tehostaa pääkirjanpidon oletuskirjaustilien määrittämistä asiakkaille, toimittajille ja nimikkeille.
 
@@ -51,7 +50,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 > [!TIP]
 > Maantieteellinen sijaintisi mukaan jotkin Business Central -sivut voivat sisältää kenttiä, joita ei ole kuvattu yllä olevassa luettelossa, koska ne koskevat paikallisia toimintoja tai mukautuksia. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Taloushallinto](finance.md)  
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  

@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/21/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 Kun avaat **Nimikkeen saat. varianteittain** -sivun asiakirjan riviltä, voit lisätä variantin asiakirjan riville valitsemalla rivin ja variantin, jonka haluat lisätä ja valitsemalla sitten OK-painikkeen. Jos olet käyttänyt sivua vain saatavuuden tarkasteluun, etkä halua lisätä varianttia, sivu on suljettava ilman, että valitset OK-painikkeen.
 

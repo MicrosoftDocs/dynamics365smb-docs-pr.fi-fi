@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 Tarvitset URL-osoitteen, jotta voit muodostaa yhteyden Business Centralista OneDriveen. Helpoin tapa saada URL-osoite on kirjautua organisaation [OneDriveen](https://onedrive.live.com). Selaimen osoitteessa näkyy URL-osoite seuraavassa muodossa:
 
 `https://<your Microsoft 365 tenant name>-my.sharepoint.com/personal/<your user name>`

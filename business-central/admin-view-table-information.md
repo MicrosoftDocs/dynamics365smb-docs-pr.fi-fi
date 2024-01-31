@@ -3,21 +3,20 @@ title: Taulukon tietojen tarkasteleminen
 description: Lue miten voit tarkastella tietokantataulukoiden tietoja Business Centralissa.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 8700
 ms.date: 10/11/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="viewing-table-information"></a>Näyttää taulukon tiedot
+# Näyttää taulukon tiedot
 
 **8700-taulukon tiedot** -sivulla on tietoja kaikkien [!INCLUDE[prod_short](includes/prod_short.md)]-järjestelmän ja -liiketoimintataulukoiden tietueiden lukumäärästä ja siitä, kuinka paljon tietoja kukin taulukko sisältää.
 
 Näistä tiedoista on hyötyä suorituskykyongelmien vianmäärityksessä, sillä se näyttää tietojen koon jakautumisen eri taulukoissa.
 
-## <a name="view-table-information"></a>Taulukon tietojen tarkasteleminen
+## Taulukon tietojen tarkasteleminen
 
 Avaa tämä sivu valitsemalla ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Taulukon tiedot** ja valitse sitten vastaava linkki.
 
@@ -42,7 +41,7 @@ Seuraavassa taulukossa kuvataan kunkin taulukon tiedot:
 > **Taulukon tiedot** -sivu näyttää data- ja hakemistokoot, eikä taulukkokokojen summa vastaa käytettyä kokonaiskapasiteettia, koska se näyttää datan koon, ei todellista varattua kokoa. Varattu tila on aina suurempi kuin käytetty tila, jotta vältytään varaamasta tilaa jokaiselle lisäkkeelle, mikä rajoittaisi suorituskykyä merkittävästi
 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Sivujen tarkistaminen](across-inspect-page.md)  
 [Suorituskykyartikkelit kehittäjille](/dynamics365/business-central/dev-itpro/performance/performance-developer)  

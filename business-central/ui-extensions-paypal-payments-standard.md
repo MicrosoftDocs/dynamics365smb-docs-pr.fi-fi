@@ -3,15 +3,14 @@ title: PayPal Payments Standard -laajennuksen käyttäminen
 description: 'Tässä artikkelissa kerrotaan, miten vakiolaajennusten avulla asiakkaille voidaan antaa mahdollisuus suorittaa PayPal-maksuja.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'app, add-in, manifest, customize'
 ms.search.form: '1070, 1071, 1073, 1074'
 ms.date: 12/12/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="the-paypal-payments-standard-extension"></a>PayPal Payments Standard -laajennus
+# PayPal Payments Standard -laajennus
 
 Asiakkaat vaativat jatkuvasti yhä korkeatasoisempaa asiakaspalvelua sekä tuotteen laadun että toimitus- ja maksuvaihtoehtojen osalta. Voit parantaa asiakaspalvelun tasoa PayPal Payments Standard -palvelun avulla.
 
@@ -29,7 +28,7 @@ PayPal Payments Standard -palvelusta on apua seuraavissa asioissa:
 
 Lisätietoja on kohdassa [Asiakkaan maksujen ottaminen käyttöön PayPalin kautta](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [[!INCLUDE[prod_short](includes/prod_short.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  

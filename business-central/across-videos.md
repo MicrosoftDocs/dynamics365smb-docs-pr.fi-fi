@@ -10,8 +10,9 @@ ms.search.keywords: 'video, library, how to'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 06/11/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="visit-our-video-library"></a>Vieraile Microsoftin videokirjastossa
+# Vieraile Microsoftin videokirjastossa
 
 Olet löytänyt asiakirjat. Mutta jotkut ihmiset mieluummin katselevat sisältöä kuin lukevat sitä. Tätä varten olemme tuottaneet lyhyitä, helposti katsottavia videoita. Useimmat videot täydentävät käyttäjäapua, ja joitakin niistä voi katsella itsenäisesti.  
 
@@ -24,7 +25,7 @@ Voit tarkastella myös opastusvideoita sekä runsaasti muuta sisältöä [!INCLU
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Dynamics 365 -kanava YouTubessa](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  

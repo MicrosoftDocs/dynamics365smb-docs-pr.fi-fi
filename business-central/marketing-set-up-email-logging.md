@@ -9,8 +9,9 @@ ms.date: 09/18/2023
 ms.custom: bap-template
 ms.search.keywords: 'relationship, prospect, opportunity, email'
 ms.search.form: '1680, 1811, 5076'
+ms.service: dynamics-365-business-central
 ---
-# <a name="track-email-message-exchanges-between-salespeople-and-contacts"></a>Myyjien ja yhteyshenkilöiden välisten sähköpostiviestien seuraaminen
+# Myyjien ja yhteyshenkilöiden välisten sähköpostiviestien seuraaminen
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -19,15 +20,15 @@ Saat enemmän hyötyä myyjien ja asiakkaiden välisestä viestinnästä, jos mu
 > [!IMPORTANT]
 > [!INCLUDE[prod_short](includes/prod_short.md)] online, [!INCLUDE[prod_short](includes/prod_short.md)] ja Exchange Online täytyy olla samassa vuokralaisessa.
 
-## <a name="to-set-up-email-logging"></a>Määritä sähköpostin lokiinkirjaus
+## Määritä sähköpostin lokiinkirjaus
 
-### <a name="set-up-public-folders-and-rules-for-email-logging-in-exchange-online"></a>Yleisten kansioiden ja sääntöjen määrittäminen sähköpostin lokiinkirjaukselle Exchange Onlinessa
+### Yleisten kansioiden ja sääntöjen määrittäminen sähköpostin lokiinkirjaukselle Exchange Onlinessa
 
 [!INCLUDE[admin-setup-email-public-folder](includes/admin-setup-email-public-folder.md)]
 
 Seuraavaksi [!INCLUDE[prod_short](includes/prod_short.md)] yhdistetään Exchange Onlineen.
 
-### <a name="set-up-a-shared-mailbox-and-rules-for-email-logging-in-exchange-online"></a>Jaetun postilaatikon määrittäminen sähköpostin lokiinkirjausta varten kohteessa Exchange Online
+### Jaetun postilaatikon määrittäminen sähköpostin lokiinkirjausta varten kohteessa Exchange Online
 
 > [!NOTE]
 > Nämä vaiheet edellyttävät järjestelmänvalvojan oikeuksia kohteelle Exchange Online.
@@ -37,15 +38,15 @@ Valmistele jaettu postilaatikko Exchange-hallintakeskuksessa. Vaihtoehtoisesti v
 > [!NOTE]
 > Jos käytät Exchange Management PowerShelliä, muutokset tulevat näkyviin Exchangen hallintakeskuksessa viiveen jälkeen. Viive voi olla useita tunteja.
 
-### <a name="add-a-user-account-for-members-of-the-shared-mailbox"></a>Käyttäjätilin lisääminen jaetun postilaatikon jäsenille
+### Käyttäjätilin lisääminen jaetun postilaatikon jäsenille
 
 Sähköpostin lokiinkirjauksessa käytettävä tili on Exchange Online-tili. Aikataulutettu projekti muodostaa yhteyden jaettuun postilaatikkoon ja käsittelee sähköpostiviestit tilin avulla. Tätä tiliä ei tulisi liittää tiettyyn henkilöön. Lisää sähköpostitili jaetun postilaatikon jäsenille. Lisätietoja on ohjeaiheessa [Jaetun postilaatikon delegoimisen muokkaus EAC-määrityksen avulla](/exchange/collaboration-exo/shared-mailboxes#use-the-eac-to-edit-shared-mailbox-delegation).
 
-### <a name="allow-other-users-to-see-logged-emails"></a>Salli muiden käyttäjien nähdä lokiin kirjatut sähköpostit
+### Salli muiden käyttäjien nähdä lokiin kirjatut sähköpostit
 
 Voit antaa toisen käyttäjän avata Exchangessa sähköpostiviestin, joka liittyy vuorovaikutuslokitapahtumaan kohteesta [!INCLUDE[prod_short](includes/prod_short.md)]. Jos haluat tehdä niin, anna käyttäjälle jaetun postilaatikon ``Read``-käyttöoikeus **Arkisto**-kansioon. Lisätietoja on kohdassa [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true).
 
-### <a name="create-mail-flow-rules"></a>Sähköpostin työnkulkusääntöjen luominen
+### Sähköpostin työnkulkusääntöjen luominen
 
 Sähköpostin työnkulkusäännöt etsivät viesteistä tiettyjä ehtoja ja toteuttavat niitä koskevia toimia. Kahden postityönkulkusäännön luonti seuraavan taulukon tietojen perusteella. Lisätietoja on kohdassa [Postityönkulkusääntöjen hallinta Exchange Onlinessa](/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules?preserve-view=true) ja [Postityönkulkusäännön toiminnot Exchange Onlinessa](/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions?preserve-view=true).
 
@@ -57,7 +58,7 @@ Sähköpostin työnkulkusäännöt etsivät viesteistä tiettyjä ehtoja ja tote
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] käsittelee vain jaetun postilaatikon Saapuneet-kansion viestit. Jos sääntö siirtää viestit Saapuneet-kansiosta toiseen kansioon, viestejä ei käsitellä. Lisäksi roskapostikansion viestit ohitetaan.
 
-## <a name="set-up--to-log-email-messages"></a>Määritä [!INCLUDE[prod_short](includes/prod_short.md)] -sovellus sähköpostiviestien kirjaamista varten
+## Määritä [!INCLUDE[prod_short](includes/prod_short.md)] -sovellus sähköpostiviestien kirjaamista varten
 
 Aloita sähköpostien kirjaaminen seuraavien kahden helpon vaiheen avulla:
 
@@ -68,14 +69,14 @@ Aloita sähköpostien kirjaaminen seuraavien kahden helpon vaiheen avulla:
     > [!Tip]
     > Kun olet tehnyt nämä oppaan vaiheet, voit tarkistaa yhteyden tilan. Etsi **Sähköpostin lokiinkirjaus**, valitse **Toiminnot** ja valitse sitten **Tarkista asetukset**.
 
-## <a name="view-email-message-exchanges-in-the-interaction-log"></a>Sähköpostiviestien tarkasteleminen vuorovaikutuslokissa
+## Sähköpostiviestien tarkasteleminen vuorovaikutuslokissa
 
 [!INCLUDE[prod_short](includes/prod_short.md)] luo **Vuorovaikutusloki**-sivulle tapahtuman aina, kun myyjä ja yhteyshenkilö lähettävät sähköpostiviestejä. Voit tarkastella vuorovaikutuslokia avaamalla **Yhteyshenkilö**-kortin, valitsemalla sitten **Liittyvä** ja valitsemalla sitten **Historia**- ja **Vuorovaikutuslokin tapahtumat**. Lokin tapahtumille voi tehdä esimerkiksi seuraavia toimintoja:
 
 * Voit tarkastella sähköpostiviestin sisältöä valitsemalla **Prosessi** ja sitten **Näytä liitteet** -toiminnon.
 * Voit muuttaa sähköpostiviestinnän myyntimahdollisuudeksi. Jos tapahtuma näyttää lupaavalta, voit muuttaa sen mahdollisuudeksi, jonka jälkeen siitä voi kehittyä myyntiä. Jos haluat muuttaa sähköpostiviestinnän myyntimahdollisuudeksi, valitse tapahtuma, sitten **Käsittely** ja sitten **Luo mahdollisuus**. Lisätietoja on kohdassa [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md).
 
-## <a name="mailbox-and-folder-limits-in-exchange-online"></a>Exchange Onlinen postilaatikon ja kansion rajat
+## Exchange Onlinen postilaatikon ja kansion rajat
 
 Exchange Onlinessa on postilaatikon ja kansion rajoituksia, kuten kansioiden kokojen rajoitukset ja viestien lukumäärä. Lisätietoja on kohdassa [Exchange Online -rajoitukset](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#storage-limits) ja [Yleisten kansioiden rajoitukset Exchange Serverissa](/Exchange/collaboration/public-folders/limits?view=exchserver-2019&preserve-view=true).
 
@@ -89,14 +90,14 @@ Seuraavien vaiheiden avulla voit välttää Exchange Online -ohjelman viestien l
     2. Päivitä sähköpostityökulun säännöt Exchange Onlineen.
     3. Päivitä sähköpostin kirjaamisasetukset Business Centralissa sen mukaisesti
 
-## <a name="connect-on-premises-versions-to-microsoft-exchange"></a>Yhdistä on-premises-versiot Microsoft Exchangeen
+## Yhdistä on-premises-versiot Microsoft Exchangeen
 
 Voit muodostaa yhteyden [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -ratkaisusta paikalliseen Exchange on-premisesiin tai Exchange Onlineen sähköpostin lokiinkirjaamiseksi. Molemmissa Exchange-versioissa yhteyden asetukset ovat käytettävissä **Kontaktienhallinnan asetukset** -sivulla. Exchange Onlinessa voit käyttää myös avustettua asennusopasta.
 
 <!-- [!IMPORTANT]
 > The new experience doesn't support a connection to Exchange on-premises. If you must use Exchange on-premises, do not enable the feature update for the new experience.
 
-## <a name="connect-to-exchange-on-premises"></a>Connect to Exchange on-premises
+## Connect to Exchange on-premises
 <!--
 ## [Current Experience](#tab/current-experience)
 To connect [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to Exchange on-premises, on the **Marketing Setup** page, you can use **Basic** as the **Authentication Type**, and then enter credentials for the user account for Exchange on-premises. Then turn on the **Enabled** toggle to start logging email.
@@ -104,7 +105,7 @@ To connect [!INCLUDE[prod_short](includes/prod_short.md)] on-premises to Exchang
 ## [New Experience](#tab/new-experience)
 The new experience does not support connections to Exchange on-premises.
 -->
-## <a name="connect-to-exchange-online"></a>Yhdistä tuotteeseen Exchange Online
+## Yhdistä tuotteeseen Exchange Online
 
 Jotta voisit muodostaa yhteyden kohteeseen Exchange Online, sinun täytyy rekisteröidä sovellus Microsoft Entra ID:ssä. Anna sovelluksen tunnus, avainsäilön salaisuus ja uudelleenohjauksen URL-osoite rekisteröintiä varten. Uudelleenohjauksen URL-osoite määritetään valmiiksi, ja sen pitäisi toimia useimmissa asennuksissa. Lisätietoja on kohdassa [Sovelluksen rekisteröiminen Microsoft Entra ID:ssä yhteyden muodostamiseksi Business Centralista Exchange Onlineen](#to-register-an-application-in-microsoft-entra-id-for-connecting-from-business-central-to-exchange-online). 
 
@@ -112,7 +113,7 @@ Sinun on myös käytettävä **OAuth2**-arvoa **todennustyyppinä**. Sinun täyt
 
 Asennus on määritettävä käyttämään HTTPS-yhteyttä. Lisätietoja on kohdassa [SSL:n määrittäminen suojaamaan Business Centralin verkkoasiakasohjelman yhteyttä](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Jos palvelimelle määritetään jokin muu aloitussivu, URL-osoitteen voi vaihtaa. Asiakasohjelman salaisuus tallennetaan tietokantaan salattuna merkkijonona.
 
-### <a name="to-register-an-application-in-microsoft-entra-id-for-connecting-from-business-central-to-exchange-online"></a>Sovelluksen rekisteröiminen Microsoft Entra ID:ssä muodostamaan yhteys Business Centralista Exchange Onlineen
+### Sovelluksen rekisteröiminen Microsoft Entra ID:ssä muodostamaan yhteys Business Centralista Exchange Onlineen
 
 Seuraavissa vaiheissa oletetaan, käyttäjätietojen ja käyttöoikeuksien hallintaan käytetään Microsoft Entra ID:tä. Lisätietoja on kohdassa [Pika-aloitus: sovelluksen rekisteröinti Microsoftin käyttäjätietoympäristössä](/azure/active-directory/develop/quickstart-register-app). 
 
@@ -128,11 +129,11 @@ Seuraavissa vaiheissa oletetaan, käyttäjätietojen ja käyttöoikeuksien halli
 6. Valitse **Yleiskuvaus** ja etsi sitten **Sovelluksen (asiakasohjelman) tunnus** -arvo. Tämä on sovelluksen asiakasohjelman tunnus. Sinun täytyy syöttää se joko **Asiakastunnus** -kenttään **Sähköpostin lokiinkirjaus** -sivulla.
 7. Määritä [!INCLUDE[prod_short](includes/prod_short.md)]issa sähköpostin lokiinkirjaus **Sähköpostin lokiinkirjaus** -sivulla tai käytä **Asetusten ohjattu määritys** -asennusopasta apuna.
 
-### <a name="use-another-identity-and-access-management-service"></a>Jonkin muun käyttäjätieto- ja käyttöoikeuspalvelun käyttäminen
+### Jonkin muun käyttäjätieto- ja käyttöoikeuspalvelun käyttäminen
 
 Jos Microsoft Entra ID:tä ei käytetä käyttäjätietojen ja käyttöoikeuksien hallintaa, apua on pyydettävä kehittäjältä. Jos haluat tallentaa sovelluksen tunnuksen ja salaisen avaimen eri sijaintiin, Asiakasohjelman tunnus- ja Asiakasohjelman salainen avain -kentät voidaan jättää tyhjäksi. Tunnuksen ja salaisen avaimen sijainnista noutoa varten on siinä tapauksessa kirjoitettava laajennus. Salainen avain voidaan antaa suorituspalvelussa tilaamalla OnGetEmailLoggingClientId- ja OnGetEmailLoggingClientSecret-tapahtumat codeunitissa 1641 "Setup Email Logging".
 
-## <a name="to-start-logging-email"></a>Sähköpostin lokiinkirjaamisen aloittaminen
+## Sähköpostin lokiinkirjaamisen aloittaminen
 
 1. Aloita sähköpostin lokiinkirjaaminen **Sähköpostin lokiinkirjaus** -sivulla ottamalla käyttöön **Käytössä**-valitsin.
 2. Kirjaudu sisään Exchange Online-tilillä, jonka avulla aikataulutettu projekti muodostaa yhteyden jaettuun postilaatikkoon ja käsittelee sähköpostiviestit tilin avulla.
@@ -140,27 +141,27 @@ Jos Microsoft Entra ID:tä ei käytetä käyttäjätietojen ja käyttöoikeuksie
     > [!NOTE]
     > Jos sinua ei pyydetä käyttämään kirjautumiseen Exchange Online-tiliä, syynä on luultavasti selaimen estetyt ponnahdusikkunat. Kirjautumista varten on sallittava ponnahdusikkunat osoitteesta https://login.microsoftonline.com.
 
-## <a name="to-stop-logging-email"></a>Sähköpostin lokiinkirjaamisen lopettaminen
+## Sähköpostin lokiinkirjaamisen lopettaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sähköpostin lokiinkirjaus** ja valitse sitten vastaava linkki.
 2. Poista **Käytössä**-valitsin käytöstä.
 
-## <a name="to-change-the-user-account-used-for-email-logging"></a>Sähköpostin lokiinkirjauksessa käytetyn käyttäjätilin vaihtaminen
+## Sähköpostin lokiinkirjauksessa käytetyn käyttäjätilin vaihtaminen
 
-### <a name="-online"></a>[!INCLUDE[prod_short](includes/prod_short.md)] Online
+### [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 1. Kirjaudu sisään kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)] tilillä, jonka avulla aikataulutettu projekti muodostaa yhteyden jaettuun postilaatikkoon ja käsittelee sähköpostiviestit tilin avulla. Tällä tilillä täytyy olla sekä [!INCLUDE[prod_short](includes/prod_short.md)]- että Exchange Online-oikeudet.
 2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sähköpostin lokiinkirjaus** ja valitse sitten vastaava linkki. 
 3. Valitse **Aiheeseen liittyvät** ja sitten **Työjonotapahtuma**.
 4. Käynnistä **Sähköpostin lokiinkirjaus** -työ uudelleen.
 
-### <a name="-on-premises"></a>[!INCLUDE[prod_short](includes/prod_short.md)] On-Premises
+### [!INCLUDE[prod_short](includes/prod_short.md)] On-Premises
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sähköpostin lokiinkirjaus** ja valitse sitten vastaava linkki.
 2. Valitse **Toiminnot** ja sitten **Uudista tunnus**.
 3. Kirjaudu sisään Exchange Online-tilillä, jonka avulla aikataulutettu projekti muodostaa yhteyden jaettuun postilaatikkoon ja käsittelee sähköpostiviestit tilin avulla.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Kontaktienhallinta](marketing-relationship-management.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

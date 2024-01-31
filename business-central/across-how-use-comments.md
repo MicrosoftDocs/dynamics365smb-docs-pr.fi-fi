@@ -10,8 +10,9 @@ ms.search.keywords: 'tasks, work'
 ms.search.form: '124, 30'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="add-comments-to-cards-and-documents"></a>Kommenttien lisääminen kortteihin ja asiakirjoihin
+# Kommenttien lisääminen kortteihin ja asiakirjoihin
 
 Voit lisätä tietoja KP-tileihin, asiakkaiden kortteihin tai myyntitilauksiin ja jakaa muille käyttäjille tietoja poikkeuksista tai erikoissopimuksista.
 Käytännössä kaikissa korteissa ja asiakirjoissa on **Kommentit**-toiminto. Se avaa **Kommenttilomake**-sivun, jossa voi kirjoittaa ja lukea kommentteja. Asiakirjoissa voi lisätä kommentteja myös yksittäisille riveille.
@@ -25,14 +26,14 @@ Voit määrittää myös, haluatko, että kommentit siirretään yhdestä asiaki
 
 Seuraavassa kerrotaan, miten kommentti lisätään nimikkeen korttiin. Vaiheet ovat samanlaiset kaikissa korteissa ja asiakirjoissa asiakirjan rivejä lukuun ottamatta. Niillä **Kommentit**-toiminto on rivien toimintovalikossa.
 
-## <a name="to-add-a-comments-to-an-item-card"></a>Kommenttien lisääminen nimikkeen korttiin
+## Kommenttien lisääminen nimikkeen korttiin
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
 2. Avaa oikea nimikkeen kortti.
 3. Valitse **Kommentit**-toiminto.
 4. Kirjoita **Kommenttilomake**-sivulla tekstiä ja valitse sitten **OK**-painike.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)

@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 > [!NOTE]
 > Voimassa marraskuusta 2020 lähtien:
 > - Common Data Service on nimetty uudelleen Microsoft Dataverseksi. [Lisätietoja](https://aka.ms/PAuAppBlog)
