@@ -3,9 +3,7 @@ title: Asiakirjojen ja päiväkirjojen kirjaaminen
 description: 'Tässä ohjeaiheessa hahmotellaan kirjaustoiminnot sekä tavat, joilla voit kirjata asiakirjoja ja päiväkirjoja yrityksen eri kirjanpitoihin.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.date: 06/24/2021
 ms.search.form: null
 ms.author: bholtorf

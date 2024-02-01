@@ -3,6 +3,7 @@ metadata:
   title: Tietojen kopioiminen ja liittäminen – usein kysytyt kysymykset
   description: Vastauksia usein kysyttyihin kysymyksiin kenttien ja rivien tietojen kopioimisesta ja liittämisestä Business Centralin sivuilta.
   ms.topic: faq
+  ms.service: dynamics-365-business-central
 title: Kopioimisen ja liittämisen usein kysytyt kysymykset
 summary: |
   Voit kopioida yhden rivin tai useita rivejä (tietueita) luettelosta tai yhden kentän sivulta ja liittää kopioidut kohteet samalle sivulle, toiselle sivulle tai ulkoiseen asiakirjaan (kuten Microsoft Exceliin tai Outlook-sähköpostiin).  

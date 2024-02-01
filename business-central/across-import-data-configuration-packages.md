@@ -3,9 +3,7 @@ title: Tietojen tuominen Business Central -ohjelmaan Excelin avulla
 description: Voit lisätä asiakastietoja Excelissä oletusmäärityspaketin avulla ja tuoda tiedot takaisin Business Central -sovellukseen.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'migration, Excel'
 ms.date: 05/10/2022
 ms.author: bholtorf

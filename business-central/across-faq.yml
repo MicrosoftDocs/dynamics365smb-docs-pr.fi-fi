@@ -5,8 +5,9 @@ metadata:
   author: brentholtorf
   ms.topic: faq
   ms.search.keywords: 'FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend'
-  ms.date: 07/14/2023
+  ms.date: 12/19/2023
   ms.author: bholtorf
+  ms.service: dynamics-365-business-central
 title: Usein kysyttyjä kysymyksiä Business Centralin käyttämisestä
 summary: |
   Tässä osassa on vastauksia [!INCLUDE[prod_short](includes/prod_short.md)]in kokeiluversioon rekisteröitymiseen, tilauksen ostamisen ja sen käyttämiseen liittyviin usein kysyttyihin kysymyksiin. Saat myös lisätietoja teknisen tuen saamisesta.  
@@ -22,7 +23,7 @@ sections:
         answer: |
           Voit tutustua [!INCLUDE[prod_short](includes/prod_short.md)]iin rekisteröitymällä maksuttomaan kokeiluversioon. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Jos haluat enemmän aikaa perehtymiseen, [voit pidentää kokeilujaksoa](#can-i-extend-my-30-day--new-company--trial-period-).  
 
-          Pääset [!INCLUDE[prod_short](includes/prod_short.md)]in käytön alkuun käynnistämällä asetusten ohjatut määritysoppaat, videot tai valitut asennustehtävien ohjeaiheet. Lue lisätietoja kohdasta [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
+          Pääset [!INCLUDE[prod_short](includes/prod_short.md)]in käytön alkuun käynnistämällä asetusten ohjatut määritysoppaat, videot tai valitut asennustehtävien ohjeartikkelit. Lue lisätietoja kohdasta [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
 
           Kun olet valmis ostamaan [!INCLUDE[prod_short](includes/prod_short.md)]in, voit etsiä [!INCLUDE[prod_short](includes/prod_short.md)]in kumppanin [Ratkaisutoimittajien haku](https://go.microsoft.com/fwlink/?linkid=2038145) -sivulla. Lue lisätietoja kohdasta [Miten löydän jälleenmyyjäkumppanin?](#how-do-i-find-a-reselling-partner).  
       - question: |
@@ -69,7 +70,7 @@ sections:
       - question: |
           Miksi ohjeessa kerrotaan toiminnoista, joita en voi käyttää?
         answer: |
-          Jos **Yrityksen tiedot** -sivun käyttökokemusasetukseksi on määritetty **Essential**, valmistuksen ja huoltohallinnan toimintojen käyttöliittymän elementit eivät näy, koska ne vaativat **Premium**-käyttökokemuksen. Seuraava tekstimuistiinpano lisätään näiden toimintoalueiden ylätason ohjeaiheisiin. Lue lisätietoja kohdasta [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).  
+          Jos **Yrityksen tiedot** -sivun käyttökokemusasetukseksi on määritetty **Essential**, valmistuksen ja huoltohallinnan toimintojen käyttöliittymän elementit eivät näy, koska ne vaativat **Premium**-käyttökokemuksen. Seuraava tekstimuistiinpano lisätään näiden toimintoalueiden ylätason ohjeartikkeleihin. Lue lisätietoja kohdasta [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).  
       - question: |
           Miksi uudet tiedot eivät ole saatavana kielelläni?
         answer: |
@@ -141,8 +142,8 @@ additionalContent: |
   ## Katso myös
 
   [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
-  [Kerro, mitä haluat tehdä -toiminnon usein kysytyt kysymykset](ui-search-faq.md)  
-  [Usein kysyttyjen kysymysten haku ja suodatus](ui-search-filter-faq.yml)  
+  [Kerro-toiminnon usein kysytyt kysymykset](ui-search-faq.md)  
+  [Usein kysyttyjen kysymysten hakeminen ja suodattaminen](ui-search-filter-faq.yml)  
   [Luettelonäkymien usein kysytyt kysymykset](ui-views-faq.yml)  
   [Kielen ja kielialueen muuttaminen](about-locale-language.md)  
   [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen yrityssähköpostina Outlookissa](admin-outlook.md)  

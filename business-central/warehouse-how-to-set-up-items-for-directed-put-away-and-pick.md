@@ -3,9 +3,7 @@ title: Ohjatun hyllytyksen ja poiminnan määrittäminen
 description: Ohjattua hyllytys ja poimintaa antaa toiminnot tehokkaaseen varastointiin.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: null
 ms.date: 11/07/2022

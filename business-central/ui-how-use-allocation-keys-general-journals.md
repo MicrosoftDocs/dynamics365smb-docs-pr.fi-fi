@@ -3,9 +3,7 @@ title: Kohdistustunnusten käyttäminen yleisissä päiväkirjoissa
 description: Voit kohdistaa yleisen päiväkirjan tapahtuman useille eri tileille päiväkirjan kirjaamisen yhteydessä.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: cost accounting
 ms.search.form: '283, 284'
 ms.date: 06/29/2021

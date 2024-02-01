@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/11/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Lisää fyysisen varastoinnin tehokkuutta tarkoilla reaaliaikatuilla tiedoilla tekijöistä, jotka voivat vaikuttaa saatavilla oleviin määriin. Esimerkki: 
@@ -25,11 +26,11 @@ Tiedot huomioivat myös muut saatavuuteen vaikuttavat tekijät. Esimerkiksi erit
 > [!NOTE]
 > Tämä ominaisuus edellyttää, että **Ohjattu hyllytys ja poiminta** ottaa käyttöön poimintaprosessissa käytettävien sijaintien osalta.
 
-### <a name="set-up-previews"></a>Esiversioiden määrittäminen
+### Esiversioiden määrittäminen
 
 Kun haluat lisätietoja poimittavista ja ei-poimittavista kohteista, ota käyttöön **Näytä yhteenveto (ohjattu hyllytys ja poiminta)** -valinta **F. var.-lähde - luo asiakirja**- tai **F. var.toimitus - luo poiminta** -pyyntösivuilla.
 
-### <a name="determine-the-quantity-you-can-pick"></a>Määritä poimittavissa oleva määrä
+### Määritä poimittavissa oleva määrä
 
 **Käsiteltävä määrä (perus)** -kenttä näyttää **Luo fyysisen varaston poimintayhteenveto** -sivun riveillä, mitkä nimikkeet ja kuinka monta nimikettä [!INCLUDE [prod_short](prod_short.md)] on yrittänyt poimia. **Yhteenveto**-tietoruudussa on lisätietoja.
 
@@ -56,7 +57,7 @@ Seuraava kuva kuvaa poiminnassa huomioon otettavan enimmäismäärän.
 |B     |Varastopaikat, joiden tyyppi on Poiminta ja joiden lähtevä siirto on estetty         |
 |O     |Muut varastopaikat         |
 
-### <a name="reservations"></a>Varaukset
+### Varaukset
 
 Jos poimittavalle nimikkeelle on varauksia, laskenta jatkuu. Ajatuksena on, että varatulla kysynnällä on korkeampi prioriteetti kuin varaamattomalla kysynnällä, eli ei-varatun kysynnän poiminta ei saa estää poimimista varatulle kysynnälle myöhemmin.
 
@@ -74,7 +75,7 @@ Nämä määrät voivat olla saatavilla, mutta niitä ei ehkä vielä voi poimia
 
 **Saatavilla oleva määrä ilman toimituslokeroa** ja varattu määrä fyysisessä varastossa on poimittavissa oleva määrä ilman, että se vaikuttaa varattuun varastoon.
 
-### <a name="other-details"></a>Muut tiedot
+### Muut tiedot
 
 Jos nimikkeet vaativat nimikeseurantaa, voit löytää määrän myös suljettujen erien tai sarjanumeroiden osalta, mikä aiheuttaa seuraavat vähennykset:
 

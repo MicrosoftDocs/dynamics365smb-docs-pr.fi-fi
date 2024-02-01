@@ -3,9 +3,7 @@ title: Ulkoisten asiakirjanumeroiden syöttäminen
 description: 'Voit syöttää ulkoisia asiakirjanumeroita asiakkaille ja toimittajille kaikissa myynti- ja ostotilauksissa, laskuissa ja hyvityslaskuissa. Näiden numeroiden avulla voit hakea kirjattuja myynti- ja ostorivejä.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 05/28/2021
 ms.author: bholtorf

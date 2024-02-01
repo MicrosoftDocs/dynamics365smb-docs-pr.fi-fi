@@ -3,12 +3,11 @@ title: Business Centralin käyttäminen Outlookin kanssa
 description: 'Tämä palvelu integroituu kattavasti Microsoft 365:n kanssa, joten voit hallita kaikkea yrityksen asiakkaiden ja toimittajien kanssa tapahtuvaa viestintää suoraan Outlookissa.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'SMTP, mail, Microsoft 365'
 ms.date: 04/21/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 # Business Central -sovelluksen käyttäminen yrityssähköpostina Outlookissa
 

@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 06/14/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Kun olet syöttänyt hakusanat, [!INCLUDE [prod_short](prod_short.md)] aloittaa haun taustalla ja käy läpi kunkin taulukon yksi kerrallaan. Hakutulokset alkavat näkyä sen jälkeen, kun kukin taulukko on valmis. Jos syötät useita avainsanoja, tuloksiin sisällytetään vain ne tietueet, joissa on kaikki sanat valituissa kentissä.

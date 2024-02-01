@@ -4,12 +4,11 @@ metadata:
   description: Katso vastauksia usein kysyttyihin kysymyksiin Outlookin Business Central -apuohjelman käyttämisestä.
   author: jswymer
   ms.topic: faq
-  ms.devlang: na
-  ms.tgt_pltfrm: na
-  ms.workload: na
+  ms.devlang: al
   ms.search.keywords: 'phone, tablet'
   ms.date: 04/27/2022
   ms.author: jswymer
+  ms.service: dynamics-365-business-central
 title: Outlookin Business Central -apuohjelman usein kysytyt kysymykset
 summary: |
   Tässä artikkelissa vastataan käyttäjien Outlookin Business Central -apuohjelmaa koskeviin usein kysyttyihin kysymyksiin.   

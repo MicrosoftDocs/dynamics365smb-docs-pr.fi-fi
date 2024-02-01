@@ -3,9 +3,7 @@ title: Ongelmien vianmääritys itsepalvelun rekisteröitymisen avulla | Microso
 description: 'Lisätietoja yleistä syistä, minkä vuoksi Business Central -sovellukseen rekisteröityminen ei onnistu ja miten nämä ongelmat voidaan kiertää.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

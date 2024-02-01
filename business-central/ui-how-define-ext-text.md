@@ -3,9 +3,7 @@ title: Lisätekstin lisääminen
 description: 'Voit laajentaa nimikkeen, KP-tilin ja muiden tietojen kuvauksena käytettävää vakiotekstiä lisäämällä ylimääräisiä rivejä.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '391, 30'
 ms.date: 06/24/2021
 ms.author: bholtorf

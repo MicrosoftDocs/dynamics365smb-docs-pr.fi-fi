@@ -3,9 +3,7 @@ title: Kapasiteettien kirjaaminen
 description: 'Kirjaa kuluneet kapasiteetit, joita ei ole määritetty tuotantotilaukseen kapasiteettipäiväkirjassa, ja tarkastele kirjattuja kapasiteetteja kapasiteettitapahtumien sivulla.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '5832, 99000802, 99000820'
 ms.date: 03/08/2023
 ms.author: bholtorf

@@ -3,21 +3,20 @@ title: Ennakkomaksujen korjaaminen
 description: 'Voit tehdä korjauksen tilaukseen sen jälkeen, kun olet kirjannut tilauksesta ennakkomaksulaskun, ja lisätä tilaukseen uusia rivejä ennakkomaksun julkaisun jälkeen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '44, 48, 42, 50, 52, 9305, 9307'
 ms.date: 06/16/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="correct-prepayments"></a>Ennakkomaksujen korjaaminen
+# Ennakkomaksujen korjaaminen
 
 Joskus sinun on korjattava tilausta ennakkomaksulaskun kirjaamisen jälkeen. Voit lisätä tilaukseen uusia rivejä ennakkomaksun lähettämisen jälkeen ja voit kirjata uuden ennakkomaksulaskun, mutta et voi poistaa riviä tilauksesta sen jälkeen, kun rivin ennakkomaksu on laskutettu.  
 
 > [!TIP]
 > Jos myyntilaskun ennakkomaksulasku on kirjattu ja sitä sitten korjataan tai se peruutetaan, myös ennakkomaksu on korjattava tai peruutettava.
 
-## <a name="to-correct-a-prepayment"></a>Ennakkomaksujen korjaaminen
+## Ennakkomaksujen korjaaminen
 
 Seuraavaksi kerrotaan, miten kaikki myyntitilauksen laskutetut ennakkomaksut peruutetaan luomalla ennakkomaksun hyvityslasku.  
 
@@ -32,7 +31,7 @@ Seuraavaksi kerrotaan, miten kaikki myyntitilauksen laskutetut ennakkomaksut per
 5. Tee ennakkomaksu myyntihyvityslaskun uusille riveille valitsemalla **Ennakkomaksu**-toiminto ja valitsemalla sitten **Kirjaa ennakkomaksulasku**- tai **Kirjaa ja tulosta ennakkomaksulasku** -toiminto.  
 6. Voit luoda ylimääräisen ennakkomaksulaskun nostamalla vähintään yhden rivin ennakkomaksua ja kirjaamalla ennakkomaksulaskun. Uusi lasku luodaan ennakkomaksun laskutettujen summien ja uusien ennakkomaksun summien välisen eron vuoksi.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Laskutuksen ennakkomaksut](finance-invoice-prepayments.md)  
 [Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

@@ -3,9 +3,7 @@ title: Älykkäät tiedot ja pilvisiirto
 description: 'Business Central onlinessa voi käyttää muita verkkopalveluja ja saada älykkäitä esimerkiksi Azuren tekoälyyn perustuvia tietoja. Jatka lukemista, jos harkitset siirtymistä paikallisesta ympäristöstä pilvipalveluihin.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.reviewer: bholtorf
 ms. search.keywords: 'cloud, migrate, insights'
 ms.search.form: 4010

@@ -3,9 +3,7 @@ title: Positive Pay -tiedostojen vieminen
 description: 'Voit varmistaa toimittaja- ja maksutiedot sisältävän Positive Pay -tiedoston viennin avulla, että pankki vahvistaa vain tarkistetut sekit ja summat.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'check, clearing'
 ms.search.form: '1231, 1232, 1233, 1234'
 ms.date: 04/01/2021

@@ -3,9 +3,7 @@ title: Kenttien lisääminen Wordin raporttiasetteluun
 description: Tässä aiheessa kuvaillaan raportin tietojoukon kenttien lisäämistä aiemmin luodun raportin Wordin raporttiasetteluun.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 11/25/2021
 ms.author: jswymer

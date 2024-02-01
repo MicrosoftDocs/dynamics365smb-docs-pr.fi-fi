@@ -3,9 +3,7 @@ title: Huoltotilastot
 description: 'Saat nopean yleiskuvan huoltoasiakirjojen, esimerkiksi tilausten, tarjousten, laskujen tai hyvityslaskujen sisällöstä ja tilastoista, tietyn huoltorivin tiedoista ja huoltonimikkeistä.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

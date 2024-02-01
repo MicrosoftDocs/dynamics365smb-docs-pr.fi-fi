@@ -3,15 +3,14 @@ title: Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen
 description: 'Voit tehostaa luetteloiden käsittelemistä hakemalla tietoja, lajittelemalla sarakkeita ja tarkentamalla tuloksia suodatussymboleiden ja pikanäppäinten avulla.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'delimit, FlowFilter, totals, limit, advanced'
 ms.search.form: null
 ms.date: 10/30/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="sorting-searching-and-filtering"></a>Lajitteleminen, hakeminen ja suodattaminen
+# Lajitteleminen, hakeminen ja suodattaminen
 
 Luettelossa, raportissa tai XMLportissa olevien tietueiden skannaamista, etsimistä ja rajaamista voi helpottaa muutamilla keinoilla. Näitä keinoja ovat esimerkiksi lajitteleminen, etsiminen ja suodattaminen. Voit käyttää samanaikaisesti joitakin keinoja tai kaikkia keinoja, kun haluat etsiä tai analysoida tiedot nopeasti.
 
@@ -26,7 +25,7 @@ Raporteissa ja XMLporteissa suodattimet voidaan määrittää luetteloiden tavoi
 When you want to search for data, such as customer names, addresses, or product groups, you enter criteria. In search criteria, you can use all the numbers and letters that you normally use in the specific field. In addition, you can use special symbols to further filter the results. There are two ways to search: using the Quick Filter or column filters.
 -->
 
-## <a name="sorting"></a>Lajittelu
+## Lajittelu
 
 Lajittelun avulla tiedoista saa nopeasti ja kätevästi yleiskuvan. Jos esimerkiksi asiakkaita on useita, saat tarvitsemasi yleiskuvan lajittelemalla heidät esimerkiksi **Asiakasnro**-, **Valuuttakoodi**- tai **Maa-/aluekoodi** -kohdan avulla.
 
@@ -38,7 +37,7 @@ Voit lajitella luettelon seuraavasti:
 > [!NOTE]  
 > Lajittelua ei tueta kuvissa, BLOB-kentissä ja FlowFilter-suodattimissa, jotka eivät kuulu taulukkoon.  
 
-## <a name="searching"></a>Hakeminen
+## Hakeminen
 
 <!--## Searching by using the Quick Filter -->
 Jokaisen luettelosivun yläosassa on ![Hakuluettelo.](media/ui-search/search-list.png "Hakuluettelon kuvake") **Haku**-toiminto, jonka avulla luettelon tietueiden määrää on helppo vähentää. Näin näkyvissä ovat vain tietueet, jotka sisältävät käyttäjää kiinnostavia tietoja.
@@ -54,7 +53,7 @@ Yleensä haussa yritetään hakea vastaavuuksia kaikista kentistä. Haussa ei er
 > Hakua ei vastaa kuvien, BLOB-, FlowFilters-, FlowFields- ja muiden taulukon ulkopuolisten kenttien arvoja.
 
 
-### <a name="fine-tuning-the-search-with-filter-criteria"></a>Haun hienosäätäminen suodatusehdoilla
+### Haun hienosäätäminen suodatusehdoilla
 
 Voit tehdä täsmällisemään haun käyttämällä suodatusoperaattoreita, lausekkeita ja suodatustunnuksia. Toisin kuin suodattaminen, niitä käytetään kaikissa kentissä, kun niitä käytetään hakuruudussa, jolloin ne eivät ole yhtä tehokkaita kuin suodattaminen.
 
@@ -77,7 +76,7 @@ Seuraavassa taulukossa on esimerkkejä haun käyttämisestä.
 |`@*man`|Kaikki tietueet, joissa on **man**-tekstiin päättyviä kenttiä kirjainkoosta riippumatta. Esimerkiksi **Sportsman**, mutta ei **Manchester** tai **manual**.|
 
 
-## <a name="filtering"></a><a name="filtering"></a>Suodattaminen
+## <a name="filtering"></a>Suodattaminen
 
 Suodattaminen sisältää kehittyneitä ja monipuolisia toimintoja, joiden avulla määritetään luetteloon, raporttiin tai XMLportiin sisällytettävät tietueet. Hakemisella ja suodattamisella on kaksi pääeroa, jotka kerrotaan alla olevassa taulukossa.
 
@@ -90,7 +89,7 @@ Suodattaminen mahdollistaa tiettyjen tilien tai asiakkaiden, päivämäärien, s
 
 Luetteloiden suodattimet näkyvät suodatinruudussa luettelon vasemmalla puolella, kun se aktivoidaan. Raporttien, erätöiden ja XMLportien suodattimet näkyvät suoraan pyyntösivulla.
 
-### <a name="filtering-with-option-fields"></a>Vaihtoehtokenttien käyttäminen suodattamiseen
+### Vaihtoehtokenttien käyttäminen suodattamiseen
 
 Tavallisissa tietoja, määrityspäivämäärän tai liiketoimintatietoja sisältävissä kentissä suodattimia voi määrittää sekä valitsemalla tietoja ja kirjoittamalla suodatinarvoja. Suodatusehtoja voi lisäksi tarkentaa symbolien avulla. Lisätietoja on kohdassa [Suodatusehtojen antaminen](ui-enter-criteria-filters.md#entering-filter-criteria).
 
@@ -99,7 +98,7 @@ Tavallisissa tietoja, määrityspäivämäärän tai liiketoimintatietoja sisäl
 > [!NOTE]
 > Jos valitset suodatusarvoksi useita vaihtoehtoja, vaihtoehtojen välille määritetään *TAI*-suhde. Jos valitset esimerkiksi sekä **Avoin**- ja **Vapautettu**-valintaruudun **Tila**-suodatuskentän **Myyntitilaukset**-sivulla, silloin näytetään myyntitilaukset, jotka ovat joko avoimia tai vapautettuja.
 
-### <a name="setting-filters-on-lists"></a>Suodattimien määrittäminen luetteloissa
+### Suodattimien määrittäminen luetteloissa
 
 Luetteloiden suodattimet määritetään suodatinruudussa. Avaa luettelon suodatinruutu valitsemalla sivun nimen vieressä oleva avattavan luettelon nuoli ja valitse sitten **Näytä suodatinruutu** -toiminto. Vaihtoehtoisesti voit käyttää näppäinyhdistelmää <kbd>Vaihto</kbd>+<kbd>F3</kbd>.
 
@@ -126,7 +125,7 @@ Suodatinruudussa näkyvät luettelon nykyiset suodattimet. Sen avulla voi määr
 
 Voit määrittää yksinkertaisen suodattimen suoraan luettelossa käyttämällä suodatinruutua. Tällainen suodatin näyttää vain tietueet, joilla on sama arvo kuin valitussa solussa. Valitse solu luettelossa valitsemalla ensin avattavan luettelon nuoli ja sitten **Suodata tähän arvoon** -toiminto. Vaihtoehtoisesti voit käyttää näppäinyhdistelmää <kbd>Alt</kbd>+<kbd>F3</kbd>.
 
-### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Raporttien, erätöiden ja XMLportien suodattimien määrittäminen
+### Raporttien, erätöiden ja XMLportien suodattimien määrittäminen
 
 Raporttien ja XMLportien suodattimet näkyvät suoraan pyyntösivulla. Viimeksi käytetyt suodattimet näkyvät pyyntösivulla **Käytä oletusarvoja kohteesta:** -kentän valinnan mukaisesti. Lisätietoja on kohdassa [Tallennettujen asetusten käyttäminen](ui-work-report.md#SavedSettings).
 
@@ -134,7 +133,7 @@ Raporttien ja XMLportien suodattimet näkyvät suoraan pyyntösivulla. Viimeksi 
 
 Voit säätää **Kokonaisarvojen suodatusperuste** -osassa erilaisia dimensioita, jotka vaikuttavat raportin tai XMLportin laskelmiin. Lisää suodatin valitsemalla **+ Suodatin** -toiminto. Kirjoita sitten suodatusperusteena käytettävän kentän nimi tai valitsemalla kenttä avattavasta luettelosta.
 
-## <a name="entering-filter-criteria"></a>Suodatusehtojen antaminen
+## Suodatusehtojen antaminen
 
 Voit antaa suodatinruudussa ja pyyntösivulla suodatusehdot suodatuskentän ruudussa.
 
@@ -145,7 +144,7 @@ Sarakkeita, joilla on jo suodattimia, ilmaisee ![Suodatin-kuvake.](media/ui-sear
 > [!TIP]
 > Nopeuta tietojen etsimistä ja analysoimista pikanäppäinyhdistelmien avulla. Voit esimerkiksi valita kentän ja lisätä kentän suodatinruutuun näppäinyhdistelmällä <kbd>Vaihto</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>, kirjoittaa suodatinehdot ja palata riveille näppäinyhdistelmällä <kbd>Ctrl</kbd>+<kbd>Enter</kbd>. Valitse toinen kenttä ja suodata sen arvot näppäinyhdistelmällä <kbd>Alt</kbd>+<kbd>F3</kbd>. Lisätietoja on kohdassa [Pikanäppäimet](keyboard-shortcuts.md#KeyboardFilter).
 
-### <a name="a-namefiltercriteria-afilter-criteria-and-operators"></a><a name="FilterCriteria"> </a>Suodatusehdot ja operaattorit
+### <a name="FilterCriteria"> </a>Suodatusehdot ja operaattorit
 
 Kun syötät kriteerejä, voit käyttää kaikkia numeroita ja kirjaimia, joita voi yleensäkin käyttää kentässä. Mutta on olemassa myös joukko erikoismerkkejä, joita voit käyttää operaattoreina suodattaaksesi tuloksia edelleen. Seuraavissa osissa on kuvattu nämä symbolit ja niiden käyttö suodattimien operaattoreina.
 
@@ -157,13 +156,14 @@ Kun syötät kriteerejä, voit käyttää kaikkia numeroita ja kirjaimia, joita 
 >
 > - Jos yhdessä suodattimessa on yli 200 operaattoria, järjestelmä ryhmittää jotkin lausekkeet sulkeisiin `()` käsittelyä varten. Se ei vaikuta suodattimeen eikä tuloksiin.  
 
-#### <a name="-interval"></a>(..) väli
+#### (..) väli
 
 |Esimerkkimuoto|Näkyvät tietueet|  
 |-----------------------|-----------------------|  
 |`1100..2100`|Numerot 1100 - 2100|  
 |`..2500`|Numeroon 2500 asti, 2500 mukaan lukien|  
 |`..12 31 00`|Päivämäärät 31.12.00 asti, kyseinen päivämäärä mukaan lukien|  
+|`Bicycle..Car`| Merkkijonot B:stä C:hen, kun ne on järjestetty leksikografisesti|  
 |`P8..`|Tiedot kirjanpitojaksosta 8 ja siitä eteenpäin|  
 |`..23`|Alkupäivämäärästä lähtien päivään 23 nykyistä kuukautta nykyistä vuotta klo 23:59:59|  
 |`23..`|Päivästä 23 nykyistä kuukautta nykyistä vuotta klo 00:00:00 ajan loppuun asti|  
@@ -172,62 +172,65 @@ Kun syötät kriteerejä, voit käyttää kaikkia numeroita ja kirjaimia, joita 
 > [!TIP]
 > Jos käytät numeronäppäimistöä, desimaalierotin voi tuottaa jonkin muun merkin kuin pisteen (.). Voit vaihtaa pisteeseen numeronäppäimistön näppäinyhdistelmällä <kbd>Alt</kbd>+<kbd>desimaalierotin</kbd>. Kun haluat vaihtaa takaisin, paina <kbd>Alt</kbd>+<kbd>desimaalierotin</kbd>-näppäimiä uudelleen. Lisätietoja on kohdassa [Numeeristen näppäimistöjen käyttämän desimaalierottimen asettaminen](ui-enter-data.md#decimal).
 
-#### <a name="124-eitheror"></a>(&#124;) Joko/tai
+> [!NOTE]  
+> Jos suodattamasi kenttä on tyyppiä Teksti, leksikografista järjestystä käytetään määrittämään, mitä väliin sisältyy. Tällaisten kenttien osalta, joita käytetään kokonaislukujen tallentamiseen, tämä voi johtaa (odottamattomaan) tulokseen, että suodatin kohdassa 10000..10042 sisältää myös arvot 100000 ja 1000042.
+
+#### (&#124;) Joko/tai
 
 |Esimerkkimuoto|Näkyvät tietueet|  
 |-----------------------|-----------------------|  
 |`1200|1300`|Numerot, joissa on 1200 tai 1300|  
 
-#### <a name="-not-equal-to"></a>(<>) ei ole sama kuin
+#### (<>) ei ole sama kuin  
 
 |Esimerkkimuoto|Näkyvät tietueet|  
 |-----------------------|-----------------------|  
 |`<>0`|Kaikki numerot paitsi 0<br /><br /> SQL Server -vaihtoehto sallii tämän symbolin yhdistämisen yleismerkkihakuun. Esimerkiksi: <>A* - ei teksti, joka alkaa kirjaimella A.|  
 
-#### <a name="-greater-than"></a>(>) suurempi kuin
+#### (>) suurempi kuin  
 
 |Esimerkkimuoto|Näkyvät tietueet|  
 |-----------------------|-----------------------|  
 |`>1200`|Numerot, jotka ovat suurempia kuin 1200|  
 
-#### <a name="-greater-than-or-equal-to"></a>(>=) Suurempi tai yhtä suuri
+#### (>=) Suurempi tai yhtä suuri  
 
 |Esimerkkimuoto|Näkyvät tietueet|  
 |-----------------------|-----------------------|  
 |`>=1200`|Numerot, jotka ovat suurempia tai yhtä suuria kuin 1200|  
 
-#### <a name="-less-than"></a>(<) pienempi kuin
+#### (<) pienempi kuin  
 
 |Esimerkkimuoto|Näkyvät tietueet|  
 |-----------------------|-----------------------|  
 |`<1200`|Numerot, jotka ovat pienempiä kuin 1200|  
 
-#### <a name="-less-than-or-equal-to"></a>(<=) Pienempi tai yhtä suuri
+#### (<=) Pienempi tai yhtä suuri  
 
 |Esimerkkimuoto|Näkyvät tietueet|  
 |-----------------------|-----------------------|  
 |`<=1200`|Numerot, jotka ovat pienempiä tai yhtä suuria kuin 1200|  
 
-#### <a name="-and"></a>(&) ja
+#### (&) ja  
 
 |Esimerkkimuoto|Näkyvät tietueet|  
 |-----------------------|-----------------------|  
 |`>200&<1200`|Luvut, jotka ovat suurempia kuin 200 ja pienempiä kuin 1200.|  
 
-#### <a name="-an-exact-character-match"></a>('') Tarkka merkin vastine
+#### ('') Tarkka merkin vastine  
 
 |Esimerkkimuoto|Näkyvät tietueet|  
 |-----------------------|-----------------------|  
 |`'man'`|Teksti, joka vastaa täysin merkkijonoa **man** ja jossa isoilla ja pienillä kirjaimilla on merkitystä.|  
 |`''`|Tyhjä teksti.|  
 
-#### <a name="-case-insensitive"></a>(@) Ei kirjainkokoon perustuva
+#### (@) Ei kirjainkokoon perustuva  
 
 |Esimerkkimuoto|Näkyvät tietueet|  
 |-----------------------|-----------------------|  
 |`@man*`|Teksti, joka alkaa **man** ja jossa isoilla ja pienillä kirjaimilla ei ole merkitystä.|  
 
-#### <a name="-an-indefinite-number-of-unknown-characters"></a>(*) Rajoittamaton määrä tuntemattomia merkkejä
+#### (*) Rajoittamaton määrä tuntemattomia merkkejä
 
 |Esimerkkimuoto|Näkyvät tietueet|  
 |-----------------------|-----------------------|  
@@ -235,13 +238,13 @@ Kun syötät kriteerejä, voit käyttää kaikkia numeroita ja kirjaimia, joita 
 |`*Co`|Teksti, jonka lopussa on **Co** ja jossa kirjainkoolla on merkitystä.|  
 |`Co*`|Teksti, jonka alussa on **Co** ja jossa kirjainkoolla on merkitystä.|  
 
-#### <a name="-one-unknown-character"></a>(?) yksi tuntematon merkki
+#### (?) yksi tuntematon merkki  
 
 |Esimerkkimuoto|Näkyvät tietueet|  
 |-----------------------|-----------------------|  
 |`Hans?n`|Teksti, kuten **Hansen** tai **Hanson**|  
 
-#### <a name="combined-format-expressions"></a>Yhdistetyn muodon lausekkeet
+#### Yhdistetyn muodon lausekkeet  
 
 |Esimerkkimuoto|Näkyvät tietueet|  
 |-----------------------|-----------------------|  
@@ -249,7 +252,7 @@ Kun syötät kriteerejä, voit käyttää kaikkia numeroita ja kirjaimia, joita 
 |`..1299|1400..`|Sisällytä tietueet, joissa on numero, joka on pienempi tai yhtä suuri kuin 1299 tai suurempi tai yhtä suuri kuin 1400 (siis kaikki muut numerot paitsi 1300–1399).|  
 |`>50&<100`|Sisällytä tietueet, joissa on numero, joka on suurempi kuin 50 ja pienempi kuin 100 (siis numerot 51–99).|  
 
-### <a name="filtering-on-values-that-contain-symbols"></a><a name="symbols"></a>Symboleita sisältävien arvojen suodattaminen
+### <a name="symbols"></a>Symboleita sisältävien arvojen suodattaminen
 
 Joissakin tapauksissa kenttäarvot sisältävät jonkin seuraavista symboleista:
 
@@ -263,14 +266,14 @@ Jos haluat suodattaa jonkin näistä symboleista, sijoita suodatinlauseke heitto
 
 Tämä vaatimus ei ole välttämätön muille symboleille.
 
-### <a name="a-namefiltertokens-afilter-tokens"></a><a name="FilterTokens"> </a>Suodatuksen tunnukset
+### <a name="FilterTokens"> </a>Suodatuksen tunnukset
 
 Kun syötät suodatusehtoja, voit kirjoittaa myös sanoja, joilla on erityinen tarkoitus. Niitä kutsutaan suodatuksen tunnuksiksi. Kun olet syöttänyt tunnussanan, sana korvataan arvolla tai arvoilla, joita se edustaa. Suodatuksen tunnukset helpottavat suodattamista ja vähentää muille sivuille siirtymistä ja suodattimeen lisättävien arvojen etsimistä. Taulukossa on joitakin tunnuksia, joita voit käyttää suodatusehtoina.
 
 > [!TIP]
 > Organisaatio voi käyttää mukautettuja tunnuksia. Järjestelmänvalvojalta saa lisätietoja käytettävissä olevista tunnuksista ja mukautettujen tunnusten lisäämisestä. Teknisiä tietoja on kohdassa [Suodatuksen tunnusten lisääminen](/dynamics365/business-central/dev-itpro/developer/devenv-adding-filter-tokens).
 
-#### <a name="me-or-userid-records-assigned-to-you"></a>(%me tai %userid) Sinulle määritetyt tietueet
+#### (%me tai %userid) Sinulle määritetyt tietueet
 
 Käytä `%me`- tai `%userid`-tunnusta suodattaessasi kenttiä, jotka sisältävät käyttäjätunnuksen. Tällainen kenttä on esimerkiksi **Liitetty käyttäjätunnukseen**, jossa näytetään kaikki käyttäjälle liitetyt kentät.
 
@@ -278,7 +281,7 @@ Käytä `%me`- tai `%userid`-tunnusta suodattaessasi kenttiä, jotka sisältäv�
 |-----------------------|-----------------------|  
 |`%me`<br />tai<br />`%userid`|Tietueet, jotka on liitetty käyttäjätiliisi. |  
 
-#### <a name="mycustomers-customers-in-my-customers"></a>(%mycustomers) Omat asiakkaat -kohdan asiakkaat
+#### (%mycustomers) Omat asiakkaat -kohdan asiakkaat
 
 Käytä `%mycustomers`-tunnusta asiakkaan **Nro**-kentässä, kun haluat näyttää asiakkaan kaikki tietueet, jotka sisältyvät roolikeskuksen **Omat asiakkaat** -luetteloon.
 
@@ -286,7 +289,7 @@ Käytä `%mycustomers`-tunnusta asiakkaan **Nro**-kentässä, kun haluat näytt�
 |-----------------------|-----------------------|  
 |`%mycustomers`|Roolikeskuksen **Omat asiakkaat** -kohdan asiakkaat. |  
 
-#### <a name="myitems-items-in-my-items"></a>(%myitems) Omat nimikkeet -kohdan nimikkeet
+#### (%myitems) Omat nimikkeet -kohdan nimikkeet
 
 Käytä `%myitems`-tunnusta nimikkeen **Nro**-kentässä, kun haluat näyttää nimikkeiden kaikki tietueet, jotka sisältyvät roolikeskuksen **Omat nimikkeet** -luetteloon.
 
@@ -294,7 +297,7 @@ Käytä `%myitems`-tunnusta nimikkeen **Nro**-kentässä, kun haluat näyttää 
 |-----------------------|-----------------------|  
 |`%myitems`|Roolikeskuksen **Omat nimikkeet** -kohdan nimikkeet. |  
 
-#### <a name="myvendors-vendors-in-my-vendors"></a>(%myvendors) Omat toimittajat -kohdan toimittajat
+#### (%myvendors) Omat toimittajat -kohdan toimittajat
 
 Käytä `%myvendors`-tunnusta toimittajan **Nro**-kentässä, kun haluat näyttää toimittajien kaikki tietueet, jotka sisältyvät roolikeskuksen **Omat toimittajat** -luetteloon.
 
@@ -302,7 +305,7 @@ Käytä `%myvendors`-tunnusta toimittajan **Nro**-kentässä, kun haluat näytt�
 |-----------------------|-----------------------|  
 |`%myvendors`|Roolikeskuksen **Omat toimittajat** -kohdan toimittajat. |  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Usein kysyttyjen kysymysten hakeminen ja suodattaminen](ui-search-filter-faq.yml)  
 [Luettelonäkymien tallentaminen ja mukauttaminen](ui-views.md)  

@@ -3,9 +3,7 @@ title: Kontaktien tietojen määrittäminen | Microsoft Docs
 description: 'Tässä ohjeaiheessa kerrotaan tehtävistä, joilla määritetään tietoja ja koodeja, kuten toimialaryhmiä ja liikesuhteita, ennen kontaktien määrittämistä.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'relationship, prospect'
 ms.date: 04/01/2021
 ms.author: bholtorf

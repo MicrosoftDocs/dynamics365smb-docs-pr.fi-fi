@@ -3,9 +3,7 @@ title: Tuo palkkatapahtumat
 description: 'Voit hallita palkkoja tuomalla ja kirjaamalla taloustapahtumia palkka-aineiston toimittajalta pääkirjanpitoon palkanlaskennan laajennusta, kuten Ceridiania käyttäen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Ceridian, Quickbooks, salary'
 ms.search.form: '1660, 1661, 36601'
 ms.date: 06/16/2021

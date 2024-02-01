@@ -7,8 +7,9 @@ ms.search.keywords: multiple currencies
 ms.search.form: '5, 118'
 ms.date: 03/15/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-currencies"></a>Valuuttojen määrittäminen
+# Valuuttojen määrittäminen
 
 [!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
@@ -16,7 +17,7 @@ Voit käyttää ulkoista palvelua ja päivittää ajantasaiset valuutan vaihtoku
 
 [!INCLUDE [finance-currencies-lcy](includes/finance-currencies-lcy-note.md)]
 
-## <a name="currencies"></a><a name="curr"></a>Valuutat
+## <a name="curr"></a>Valuutat
 
 Seuraavassa taulukossa kuvataan **Valuutat**-luettelon kentät.
 
@@ -52,7 +53,7 @@ Seuraavassa taulukossa kuvataan **Valuutat**-luettelon kentät.
 |**Maksimi sallittu ALV-ero**|Tämän valuutan ALV-erojen suurin sallittu summa. Lisätietoja on kohdassa [ALV-määrien korjaaminen manuaalisesti myynti- ja ostoasiakirjoissa](finance-work-with-vat.md#correcting-vat-amounts-manually-on-sales-and-purchase-documents). Tämä kenttä ei välttämättä ole näkyvissä oletusarvoisesti. Sen voi hakea mukauttamalla sivua.|
 |**ALV-pyöristystyyppi**|Määrittää pyöristystavan ALV-summien oikaisemiseksi manuaalisesti myynti- ja ostoasiakirjoissa. Tämä kenttä ei välttämättä ole näkyvissä oletusarvoisesti. Sen voi hakea mukauttamalla sivua.|
 
-### <a name="available-currency-functions"></a>Käytettävissä olevat valuuttafunktiot
+### Käytettävissä olevat valuuttafunktiot
 
 Seuraavassa taulukossa esitellään päätoiminnot **Valuutat**-sivulla.  
 
@@ -67,11 +68,11 @@ Seuraavassa taulukossa esitellään päätoiminnot **Valuutat**-sivulla.
 ||**Päivitä valuutan vaihtokurssit**|Nouda uusimmat valuuttojen vaihtokurssit palveluntarjoajalta.|
 |**Raportit**|**Valuuttasaldo**|Tämä raportti näyttää kaikkien asiakkaiden ja toimittajien saldot valuutoissa ja paikallisessa valuutassa (PVA). Raportti näyttää kaksi PVA-saldoa. Toinen on ulkomaan valuuttasaldo muunnettuna PVA:ksi tapahtumahetken vaihtokurssia käyttäen. Toinen on ulkomaan valuuttasaldo muunnettuna PVA:ksi työpäivän vaihtokurssia käyttäen.|
 
-## <a name="lcy-and-other-currencies"></a>PVA ja muut valuutat
+## PVA ja muut valuutat
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
-## <a name="rounding-currencies"></a>Valuuttojen pyöristys
+## Valuuttojen pyöristys
 
 Kahden erilaisen pyöristysominaisuuden avulla voit hallita valuuttoja, joissa ei käytetä desimaaleja, sekä välttää tarpeettomien desimaalien käyttöä ulkomaanvaluutoissa:
 
@@ -83,35 +84,35 @@ Näitä ominaisuuksia voi käyttää yhdessä tai erikseen. Lisäksi niitä voi 
 
 Summan ja yksikkösumman pyöristysominaisuudet vaikuttavat vain ulkomaanvaluuttana oleviin summiin, eivät vastaaviin paikallisena valuuttana oleviin summiin. Nämä kaksi ominaisuutta ei tuota mitään kirjauksia pääkirjanpidon tileille. Näin ollen pääkirjanpitotiliä ei ole määritettävä kirjausryhmissä tai muualla.
 
-### <a name="unit-amount-rounding"></a>yksikkösumman pyöristys
+### yksikkösumman pyöristys
 
 Yksikkösumman pyöristysominaisuus ohjaa nimikkeiden ja resurssien ulkomaanvaluuttana olevien myyntihintojen pyöristystä myynti- ja ostoriveillä. Säännöt määritetään erikseen jokaiselle valuutalle **Valuutat**-luettelon **Yksikkösumman pyörist.tarkkuus** -kentässä.
 
 Yksikkösumman pyöristysominaisuutta käytetään automaattisesti aina, kun myyntiriville syötetään nimikkeen tai resurssin numero. Jos lasku on tarkoitettu asiakkaalle, johon liittyy valuutan koodi, nimikkeen tai resurssin hinta muunnetaan asiakkaan valuutaksi. Hinta pyöristetään valuutan yksikkösumman pyöristystarkkuuden mukaan.
 
-### <a name="amount-rounding"></a>summan pyöristys.
+### summan pyöristys.
 
 Summan pyöristysominaisuus ohjaa ulkomaavaluuttana olevien summien pyöristystä yleisen päiväkirjan riveillä sekä myynti- ja ostoriveillä. Säännöt määritetään erikseen jokaiselle valuutalle **Valuutat**-luettelon **Summan pyöristystarkkuus** -kentässä.
 
 Ulkomaanvaluuttana olevat summat pyöristetään, kun yleisen päiväkirjan rivit sekä myynti- ja ostorivit täytetään ja kirjataan.
 
-## <a name="exchange-rates"></a>Vaihtokurssit
+## Vaihtokurssit
 
 Voit rekisteröidä jokaisen ulkomaanvaluutan vaihtokurssit ja määrittää, mistä päivämääristä alkaen kurssit ovat voimassa. Jokaiselle ulkomaanvaluutalle voi syöttää esimerkiksi päivittäiset, kuukausittaiset tai neljännesvuosittaiset vaihtokurssit.
 
 Voit palauttaa historialliset vaihtokurssit viitetarkoituksia varten **Valuutan vaihtokurssit** -sivulla. Kun vaihtokurssit täytyy päivittää, voit käyttää **Päivitä vaihtokurssit** -painiketta hakeaksesi ajankohtaiset vaihtokurssit ulkoiselta palveluntarjoajalta.
 
-## <a name="general-ledger-accounts"></a>Kirjanpitotilit
+## Kirjanpitotilit
 
 Et voi linkittää valuutan koodeja kirjanpitotileihin, koska kirjanpitotilien summat ovat paikallisena valuuttana. Jos pankkilaina on Yhdysvaltojen dollareina ja talletus tehdään Ruotsin kruunuina, tilejä voi seurata määrittämällä pankkitilit käyttämään sekä Yhdysvaltojen dollareita että Ruotsin kruunuja. Voit linkittää tilit kirjausryhmien avulla vastaaviin kirjanpitotileihin. Pääkirjanpidon summien arvo näkyy paikallisena valuuttana.
 
 Voit syöttää valuutan koodin yleisen päiväkirjan riville ja kirjata rivin kirjanpitotilille. Oikeaa vaihtokurssia käytetään muunnettaessa summa paikalliseksi valuutaksi ennen sen kirjaamista kirjanpitotilille.  
 
-## <a name="example-of-a-receivable-currency-transaction"></a>Esimerkki saamisen valuuttatapahtumasta
+## Esimerkki saamisen valuuttatapahtumasta
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)  
 [Lisäraportointivaluutan määrittäminen](finance-how-setup-additional-currencies.md)  

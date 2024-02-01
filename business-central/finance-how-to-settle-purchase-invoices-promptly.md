@@ -6,15 +6,16 @@ ms.topic: conceptual
 ms.search.form: '51, 9308'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="settle-purchase-invoices-promptly"></a>Ostolaskujen selvittäminen viipymättä
+# Ostolaskujen selvittäminen viipymättä
 
 Jos toimittajalle on maksettava käteisellä tai sekillä, voit kirjata maksun kun kirjaat laskun.  
 
 > [!NOTE]  
 > Jos maksat ostolaskuja usein käteisellä, sekillä tai pankkisiirrolla, on hyvä idea perustaa tiettyjä maksutapoja joissa on vastatili ja syötä tämä metodi **Maksutapa** -kenttään toimittajakortille. Ohjelma automaattisesti syöttää vastatilin numeron ja laskuotsikon joka kerta kun luot uuden laskun. Lisätietoja on kohdassa [Maksutapojen määrittely](finance-payment-methods.md).  
 
-## <a name="to-settle-purchase-invoices-promptly"></a>Ostolaskujen selvittäminen viipymättä
+## Ostolaskujen selvittäminen viipymättä
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
@@ -25,7 +26,7 @@ Jos toimittajalle on maksettava käteisellä tai sekillä, voit kirjata maksun k
 >
 > Tämä mukautus tarvitaan vain, jos et määritä vastatilejä maksutavoille yllä kuvatulla tavalla.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Osto](purchasing-manage-purchasing.md)  

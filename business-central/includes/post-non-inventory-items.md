@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/21/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Varaston työntekijät voivat toimittaa ja vastaanottaa muita kuin varastonimikkeitä sekä fyysisiä tavaroita myynti- ja ostotilauksissa. Muut kuin varaston nimikkeet ovat aineettomia hyödykkeitä, kuten vakuutus tai lisäkustannukset.

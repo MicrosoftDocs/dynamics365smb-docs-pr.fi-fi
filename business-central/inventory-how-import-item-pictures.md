@@ -3,9 +3,7 @@ title: Useiden nimikekuvien tuominen ZIP-tiedostosta
 description: 'Jos haluat tuoda useita nimikekuvia, anna kuvatiedostoille nimikenumeroita vastaavat nimet, pakkaa ne ZIP-tiedostoon ja hallinnoi sitten nimikekuvien tuontia Tuo nimikekuvat -sivulla.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'product, image'
 ms.search.form: '30, 461'
 ms.date: 06/16/2021

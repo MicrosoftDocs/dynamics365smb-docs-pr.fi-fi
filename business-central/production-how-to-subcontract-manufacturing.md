@@ -3,9 +3,7 @@ title: Tuotanto alihankintana
 description: 'Tässä aiheessa on laaja yleiskuva Business Centralin alihankinnan laajennetusta toiminnosta, mukaan lukien tuotantosolu ja reititys.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 99000886
 ms.date: 06/22/2021
 ms.author: bholtorf

@@ -3,9 +3,7 @@ title: Määritä arvolisävero
 description: 'Varmista, että lasket, kirjaat ja raportoit myynnin ja ostojen ALV:n oikein. Tämän oppaan käyttö on suositeltavaa ALV:tä määritettäessä.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'VAT, posting, tax, value-added tax'
 ms.search.form: '10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877,'
 ms.date: 01/31/2023

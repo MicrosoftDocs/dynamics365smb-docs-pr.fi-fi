@@ -3,14 +3,13 @@ title: Työnkulkujen luominen työnkulkumalleista
 description: 'Voit säästää aikaa luodessasi uusia hyväksyntätyönkulkuja luomalla ei-muokattavia työnkulkuja työnkulkumalleista, joiden etuliitteenä on "MS".'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-workflows-from-workflow-templates"></a>Työnkulkujen luominen työnkulkumalleista
+# Työnkulkujen luominen työnkulkumalleista
 
 Voit säästää aikaa uusien hyväksyntätyönkulkujen luomisessa käyttämällä työnkulkumalleja.  
 
@@ -20,7 +19,7 @@ Työnkulun voi nopeasti myös tuomalla aiemmin luodun työnkulun, joka on [!INCL
 
 Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riveillä. Jokainen vaihe koostuu työnkulun tapahtumasta, jota valvotaan tapahtuman ehtojen mukaan, ja työnkulun vastauksesta, jota valvotaan vastausvaihtoehtojen mukaan. Työnkulku määritetään täyttämällä työnkulkurivien kentät tapahtumien kiinteistä luetteloista ja vastausarvot, jotka edustavat sovelluskoodin tukemia skenaarioita. Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).  
 
-## <a name="to-create-a-workflow-from-a-workflow-template"></a>Työnkulun luominen työnkulkumallista
+## Työnkulun luominen työnkulkumallista
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut**, valitse sitten vastaava linkki.  
 2. Valitse **Uusi työnkulku mallista** -toiminto. **Työnkulkumallit**-sivu avautuu.  
@@ -29,7 +28,7 @@ Voit luoda **Työnkulku**-sivulla työnkulun mainitsemalla liittyvät toimet riv
    Uuden työnkulun avautuvalla **Työnkulku**-sivulla on kaikki valitun mallin tiedot. **Koodi**-kentän arvoon liitetään esimerkiksi ”-01”, joka osoittaa, että kyseessä on ensimmäinen työnkulkumallista luotu työnkulku.  
 4. Jatka työnkulun luontia muokkaamalla työnkulun vaiheita tai lisäämällä uusia vaiheita. Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Hyväksymistyönkulkujen luominen](across-how-to-create-workflows.md)  
 [Hyväksymistyönkulkujen vieminen ja tuominen](across-how-to-export-and-import-workflows.md)  

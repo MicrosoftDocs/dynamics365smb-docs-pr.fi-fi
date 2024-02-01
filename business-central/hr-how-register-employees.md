@@ -3,9 +3,7 @@ title: Työntekijöiden rekisteröinti ja tietojen muokkaaminen
 description: 'Tässä artikkelissa kuvataan, miten henkilöstöhallintotoimintoa käytetään uuden henkilöstön rekisteröimiseen tai olemassa olevan henkilöstön työntekijätietojen muokkaamiseen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'personnel, people, employee, staff, HR'
 ms.search.form: '5200, 5201, 5204, 5206, 5208, 5209, 5211, 5221, 5228'
 ms.date: 06/16/2021

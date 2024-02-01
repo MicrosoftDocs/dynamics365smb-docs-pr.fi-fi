@@ -3,9 +3,7 @@ title: Varastopaikan sisältöjen luominen
 description: 'Kun olet määrittänyt varastopaikat, voit määrittää ne nimikkeet, jotka haluat säilyttää, ja määrittää säännöt, jotka määrittävät, kuinka usein varastopaikat täytetään uudelleen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: bholtorf

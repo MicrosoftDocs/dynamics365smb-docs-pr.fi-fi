@@ -3,9 +3,7 @@ title: Ostojen päivämäärien laskeminen
 description: 'Tässä artikkelissa kuvataan, miten ostoille voi laskea päivämäärät.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'purchase order, purchase, date, receipt, delivery, lead time'
 ms.search.forms: null
 ms.date: 10/28/2022

@@ -3,9 +3,7 @@ title: Aiemmin luotujen sijaintien muuntaminen fyysisen varaston sijainneiksi
 description: Ottamalla alueet ja varastopaikat käyttöön aiemmin luodussa varastosijainnissa voit tehdä siitä fyysisen varastoinnin sijainnin.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: 15
 ms.date: 04/01/2021

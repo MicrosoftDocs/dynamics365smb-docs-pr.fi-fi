@@ -3,9 +3,7 @@ title: Rakennetiedot - oletetun kustannuksen kirjaus
 description: 'Oletetut kustannukset kuvaavat esimerkiksi arviota ostetun nimikkeen kustannuksesta, jonka kirjaat ennen nimikkeen laskun vastaanottamista.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 07/20/2021
 ms.author: bholtorf

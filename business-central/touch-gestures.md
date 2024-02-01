@@ -3,15 +3,14 @@ title: Kosketuseleet ja kynän liikkeet
 description: 'Tietoja kosketuseleistä ja kynän liikkeistä, joiden avulla tietoja voi käsitellä tehokkaasti tableteissa ja puhelimissa.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'accessibility, shortcuts, charts, tiles'
 ms.date: 04/29/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Kosketuseleet ja kynän liikkeet tabletteja ja puhelimia varten
+# Kosketuseleet ja kynän liikkeet tabletteja ja puhelimia varten 
 
 Tässä artikkelissa on tietoja joistakin erityisistä eleistä, joita voit käyttää, kun käytössä on [!INCLUDE[prod_short](includes/prod_short.md)] tabletissa tai puhelimessa.
 
@@ -30,7 +29,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Näppäimistön pikaohje - Vain PC](keyboard-shortcuts-cheatsheet.md)  
 [Aputoiminnot](ui-accessibility.md)  

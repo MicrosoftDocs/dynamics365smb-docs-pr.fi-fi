@@ -3,9 +3,7 @@ title: Huoltohallinnon määrittäminen | Microsoft Docs
 description: 'Yleiskuvaus tehtävistä, joilla huoltohallinta määritetään organisaation huollon hallintatapaan sopivaksi.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'service, service items, repairs, maintenance, fix'
 ms.date: 04/01/2021
 ms.author: bholtorf

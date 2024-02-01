@@ -3,19 +3,18 @@ title: Yleisten varastotietojen määrittäminen
 description: 'Kuvaus siitä, miten fyysisen varaston ja varaston hallinta voidaan määrittää.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'warehouse, stock'
 ms.search.form: '30, 456, 461'
 ms.date: 07/28/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-general-inventory-information"></a>Yleisten varastotietojen määrittäminen
+# Yleisten varastotietojen määrittäminen
 
 Yleiset varastoasetukset määritetään **Varastonhallinnan asetukset** -sivulla.
 
-## <a name="to-set-up-general-inventory-information"></a>Yleisten varastotietojen määrittäminen
+## Yleisten varastotietojen määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastonhallinnan asetukset** ja valitse sitten vastaava linkki.
 2. Täytä **Varastonhallinnan asetukset** -sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -31,7 +30,7 @@ Jos haluat sisällyttää fyysisen varastoinnin käsittelyajan ostorivin toimitu
 >
 > Vaihtoehtoisesti voit muuttaa kustannuksia säännöllisin väliajoin Muuta kust.-nimike tapahtumat -eräajon avulla. Voit myös poistaa automaattisen kustannusten kirjaamisen käytöstä tai määrittää **Automaattinen kustannusten oikaisu** -kentän arvoksi *Ei koskaan*. Molemmissa tapauksissa näyttöön tulee ilmoitus, josta voit käynnistää avustetun asennusoppaan, jonka avulla voit ajoittaa tehtäviä työjonoon. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Varastonhallinnan määrittäminen](inventory-setup-inventory.md)  
 [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)  

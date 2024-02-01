@@ -3,9 +3,7 @@ title: Kulujen tai tuottojen kirjaaminen suoraan kirjanpitoon
 description: 'Liiketoiminnan aktiviteeteille, joihin ei liity asiakirjaa, voi luoda liittyvät tapahtumat kirjaamalla päiväkirjarivit Yleinen päiväkirja -sivulla.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'direct posting, general ledger'
 ms.search.form: '39, 251'
 ms.date: 06/16/2021

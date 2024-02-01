@@ -3,9 +3,7 @@ title: Toistuvat vakio-ostorivit
 description: Voit määrittää usein käytettäviä ostorivejä. Voit sitten lisätä ne ostoasiakirjoihin ja täyttää tällä tavoin vakiotiedot nopeasti.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'trade, purchase, replenishment'
 ms.search.form: 177
 ms.date: 07/06/2022

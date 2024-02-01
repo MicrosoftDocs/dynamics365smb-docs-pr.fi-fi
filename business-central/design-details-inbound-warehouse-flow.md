@@ -3,14 +3,13 @@ title: Rakennetiedot – fyysisen varastoinnin saapuva virta
 description: Tutustu nimikkeiden vastaanottoon fyysisellä varastolla ja rekisteröi ja vastaa ne saapuviin lähdeasiakirjoihin.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: warehouse
 ms.date: 09/18/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-inbound-warehouse-flow"></a>Rakennetiedot: saapuvan fyysisen varastoinnin virta
+# Rakennetiedot: saapuvan fyysisen varastoinnin virta
 
 Varaston tuleva virta alkaa, kun nimikkeet saapuvat yrityksen sijainnin varastoon joko vastaanotettuina ulkoisista lähteistä tai toisesta yrityksen sijainnista. Voit vastaanottaa fyysisiä nimikkeitä ja nimikkeitä, joita ei ole varastossa. Jos haluat lisätietoja muiden kuin varastonimikkeiden vastaanottamisesta, siirry kohtaan [Muiden kuin varastonimikkeiden kirjaaminen](#post-non-inventory-items).
 
@@ -50,7 +49,7 @@ Menetelmissä A, B ja C vastaanotto ja hyllytys yhdistetään yhteen vaiheeseen,
 > * Menetelmässä B käytetty varaston hyllytys yhdessä hyllytystietojen rekisteröinnin kanssa kirjaa myös lähdeasiakirjan vastaanoton.
 > * Menetelmässä D käytettyä fyysisen varaston hyllytystä ei vo kirjata, ja se vain rekisteröi hyllytyksen. Rekisteröinti tuo nimikkeet saataville lisäkäsittelyä varten, muttei kirjaa vastaanottoa. Saapuvassa virrassa fyysisen varaston edellyttää fyysisen varaston vastaanottoa.
 
-## <a name="no-dedicated-warehouse-activity"></a>Ei määritettyä varastotoimintoa
+## Ei määritettyä varastotoimintoa
 
 Seuraavissa artikkeleissa on tietoja lähdeasiakirjojen vastaanottojen käsittelystä, jos varastotoimintoja ei ole määritetty.
 
@@ -58,7 +57,7 @@ Seuraavissa artikkeleissa on tietoja lähdeasiakirjojen vastaanottojen käsittel
 * [Siirtotilaukset](inventory-how-transfer-between-locations.md)
 * [Myyntipalautustilausten käsittely](sales-how-process-sales-returns-orders.md)
 
-## <a name="basic-warehouse-configurations"></a>Fyysisen varastoinnin perusmääritykset
+## Fyysisen varastoinnin perusmääritykset  
 
 Fyysisen varastoinnin perusmäärityksissä **Vaadi hyllytys** on otettu vaihtopainikkeella käyttöön sijainnin **Sijaintikortti**-sivulla mutta **Vaadi vastaanotto** ei ole.
 
@@ -66,15 +65,15 @@ Seuraavassa kaaviossa kuvataan saapuvat fyysisen varastoinnin virrat asiakirjaty
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_basic_flow.png" alt-text="Fyysisen varaston saapuvien perusvirta":::
 
-### <a name="1-release-a-source-document-to-create-a-request-for-an-inventory-put-away"></a>1: Varaston hyllytyspyynnön luominen vapauttamalla lähdeasiakirja
+### 1: Varaston hyllytyspyynnön luominen vapauttamalla lähdeasiakirja  
 
 Nimikkeitä vastaanotettaessa lähdeasiakirja, kuten ostotilaus tai saapuva siirtotilaus, vapautetaan. Asiakirjan vapauttaminen mahdollistaa nimikkeiden hyllyttämisen. Varaston hyllytysasiakirjat voidaan luoda myös yksittäisille tilausriveille push-menetelmänä varastopaikkojen ja käsiteltävien määrien perusteella.  
 
-### <a name="2-create-an-inventory-put-away"></a>2: Varaston hyllytyksen luominen
+### 2: Varaston hyllytyksen luominen  
 
 Saapuviin fyysisen varastoinnin pyyntöihin perustavat odottavat lähdeasiakirjan rivit voi hakea **Varastohyllytys**-sivulta pull-menetelmällä. Lisäksi lähdeasiakirjaa luotaessa varaston hyllytysrivejä voidaan luoda push-menetelmällä.  
 
-### <a name="3-post-an-inventory-put-away"></a>3: Varaston hyllytyksen kirjaaminen
+### 3: Varaston hyllytyksen kirjaaminen  
 
 Kaikkien osittain tai kokonaan hyllytettyjen nimikkeiden rivin osalta täytetään **Määrä**-kenttä ja kirjataan sitten varastohyllytys. Lähdeasiakirjat, jotka liittyvät varastopoistoon, on lähetetty vastaanotettuina.  
 
@@ -83,7 +82,7 @@ Kaikkien osittain tai kokonaan hyllytettyjen nimikkeiden rivin osalta täytetä�
 * Hyllytyspyyntö poistetaan, jos se on kokonaisuudessaan käsitelty. Esimerkiksi **Vastaanotettu määrä** -kenttä saapuvan lähdeasiakirjan rivillä päivitetään.
 * Luodaan kirjatun vastaanoton asiakirja, joka vastaa esimerkiksi ostotilausta ja vastaanotettuja nimikkeitä.  
 
-## <a name="advanced-warehouse-configurations"></a>Laajennetut varastomääritykset
+## Laajennetut varastomääritykset  
 
 Fyysisen varastoinnin laajennetuissa määrityksissä ota **Vaadi vastaanotto** vaihtopainikkeella käyttöön sijainnin Sijaintikortti-sivulla. **Vaadi hyllytys** -vaihtopainikkeen käyttö on valinnaista.
 
@@ -91,21 +90,21 @@ Seuraavassa kaaviossa havainnollistetaan fyysisen varastoinnin saapuva virta asi
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_advanced_flow.png" alt-text="Saapuva virta fyysisen varastoinnin laajennetuissa määrityksissä":::
 
-### <a name="1-release-the-source-document"></a>1: Lähdeasiakirjan vapauttaminen
+### 1: Lähdeasiakirjan vapauttaminen  
 
 Nimikkeitä vastaanotettaessa lähdeasiakirja, kuten ostotilaus tai saapuva siirtotilaus, vapautetaan. Asiakirjan vapauttaminen mahdollistaa nimikkeiden hyllyttämisen. Hyllytys sisältää viittauksia lähdeasiakirjan tyyppiin ja numeroon.
 
-### <a name="2-create-a-warehouse-receipt"></a>2: Fyysisen varastoinnin vastaanoton luominen
+### 2: Fyysisen varastoinnin vastaanoton luominen  
 
 Saapuvan lähdeasiakirjan rivit haetaan **F. varastoinnin vastaanotto** -sivulla. Useita lähdeasiakirjan rivejä voidaan yhdistää yhdessä fyysisen varaston vastaanottoasiakirjassa. **Käsiteltävä määrä** -kenttä täytetään ja tarvittaessa valitaan vastaanottava alue ja varastopaikka.  
 
-### <a name="3-post-the-warehouse-receipt"></a>3: Fyysisen varastoinnin vastaanoton kirjaaminen
+### 3: Fyysisen varastoinnin vastaanoton kirjaaminen  
 
 Positiiviset nimiketapahtumat luodaan kirjaamalla fyysisen varastoinnin vastaanotto. **Vastaanotettu määrä** -kenttä päivitetään saapuvan lähdeasiakirjan rivillä.  
 
 Jos **Vaadi hyllytys** ei ole otettu käyttöön vaihtopainikkeella sijaintikortissa, prosessi päättyy tähän. Muussa tapauksessa saapuvan lähdeasiakirjan kirjaaminen mahdollistaa nimikkeiden hyllyttämisen. Hyllytys sisältää viittauksia lähdeasiakirjan tyyppiin ja numeroon.  
 
-### <a name="4-optional-generate-put-away-worksheet-lines"></a>4: (Valinnainen) Hyllytystyökirjan rivien luominen
+### 4: (Valinnainen) Hyllytystyökirjan rivien luominen
 
 Fyysisen varastoinnin hyllytysrivit haetaan **hyllytystyökirjassa** kirjattujen fyysisen varastoinnin vastaanottojen tai tuotoksen tuottavien työvaiheiden perusteella. Hyllytettävien nimikkeiden kohdalla määritä seuraavat tiedot:
 
@@ -120,11 +119,11 @@ Kun kaikki hyllytykset on suunniteltu ja määritetty varastotyöntekijöille, f
 > [!NOTE]  
 > Jos **Käytä hyllytystyökirjaa** ei ole otettu vaihtopainikkeella käyttöön sijaintikortissa, fyysisen varastoinnin hyllytysasiakirjat luodaan suoraan kirjattujen fyysisen varastoinnin vastaanottojen perusteella. Siinä tapauksessa tätä vaihetta ei tarvita.  
 
-### <a name="5-create-a-warehouse-put-away-document"></a>5: Fyysisen varastoinnin hyllytysasiakirjan luominen
+### 5: Fyysisen varastoinnin hyllytysasiakirjan luominen
 
 Fyysisen varastoinnin hyllytysasiakirja voidaan luoda pull-menetelmällä kirjatun fyysisen varastoinnin vastaanoton perusteella. Fyysisen varastoinnin hyllytysasiakirja voidaan vaihtoehtoisesti luoda ja määrittää varastotyöntekijälle push-menetelmällä.  
 
-### <a name="6-register-a-warehouse-put-away"></a>6: Fyysisten varaston hyllytyksen rekisteröinti
+### 6: Fyysisten varaston hyllytyksen rekisteröinti
 
 Kaikkien osittain tai kokonaan hyllytettyjen nimikkeiden rivin osalta täytetään **Määrä**-kenttä **F.varastoinnin hyllytys** -sivulla, jonka jälkeen rekisteröidään fyysisen varaston hyllytyksen.  
 
@@ -133,7 +132,7 @@ Kaikkien osittain tai kokonaan hyllytettyjen nimikkeiden rivin osalta täytetä�
 * Fyysisen varastoinnin hyllytysasiakirja pysyy avoimena niin kauan, kunnes liittyvän kirjatun fyysisen varastoinnin vastaanoton koko määrä on rekisteröity.
 * **Määrä hyllytetty** -kenttä päivitetään kirjatun fyysisen varaston vastaanoton tilausriveillä.
 
-## <a name="related-tasks"></a>Liittyvät tehtävät
+## Liittyvät tehtävät
 
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkeleihin.
 
@@ -143,10 +142,10 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 |Nimikkeet hyllytetään tilauskohtaisesti ja vastaanotto kirjataan yhtenä toimintona fyysisen varastoinnin perusmäärityksissä.|[Nimikkeiden hyllyttäminen varastohyllytyksen avulla](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
 |Useista ostoista, myyntipalautuksista tai siirtotilauksista vastaanotettujen nimikkeiden hyllyttäminen fyysisen varastoinnin laajennetuissa määrityksissä.|[Nimikkeiden hyllytys fyysisen varaston hyllytysten avulla](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
 
-## <a name="post-non-inventory-items"></a>Muiden kuin varastonimikkeiden kirjaaminen
+## Muiden kuin varastonimikkeiden kirjaaminen
 
 [!INCLUDE [post-non-inventory-items](includes/post-non-inventory-items.md)]
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

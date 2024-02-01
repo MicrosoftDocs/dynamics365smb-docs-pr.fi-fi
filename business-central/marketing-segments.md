@@ -4,15 +4,14 @@ description: 'Tässä aiheessa hahmotellaan, miten segmentti luodaan valitsemall
 documentationcenter: ''
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5150, 5142, 5140, 5141, 5144, 5091, 5143, 5093, 5092'
 ms.date: 10/04/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="managing-segments"></a>Segmenttien hallinta
+# Segmenttien hallinta
 Luomalla segmenttejä voit valita kontaktiryhmän tiettyjen ehtojen mukaan. Esimerkiksi segmentti voi olla toimiala, johon kontaktit kuuluvat, tai liikesuhde kontaktien kanssa. Luomalla segmentin voit valita kampanjan kohteeksi haluamasi kontaktit.
 
 Segmenttien luomisessa on seuraavat kaksi päätehtävää:
@@ -28,7 +27,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 | Hallitse segmentteihin liitettyjä kontakteja. |[Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md) |
 | Lisätietoja segmenttien vuorovaikutusten, myös lokiin kirjaamisen käyttämisestä. |[Segmenttien vuorovaikutusten hallinta](marketing-interaction-segments.md) |
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [Kontaktien hallinta](marketing-contacts.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

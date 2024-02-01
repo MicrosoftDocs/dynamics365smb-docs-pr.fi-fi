@@ -3,9 +3,7 @@ title: Tiedonsiirron määrittäminen tiedostojen lähettämistä ja vastaanotta
 description: Määritä tiedonsiirtokehys siirtääksesi tietoja ulkoisten tiedostojen kanssa sekä lähettääksesi ja vastaanottaaksesi sähköisiä asiakirjoja tai tuodaksesi tai viedäksesi pankkitiedostoja.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/11/2021
 ms.author: bholtorf

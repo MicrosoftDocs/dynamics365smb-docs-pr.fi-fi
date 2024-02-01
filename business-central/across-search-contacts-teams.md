@@ -3,9 +3,7 @@ title: Yhteyshenkilöiden hakeminen Microsoft Teamsista
 description: 'Tietoja Business Centralin asiakkaiden, toimittajien ja muiden yhteyshenkilöiden hakeminen Microsoft Teamsista.'
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions'
 ms.date: 04/12/2021
 ms.author: jswymer

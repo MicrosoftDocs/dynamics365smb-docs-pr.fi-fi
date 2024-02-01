@@ -3,9 +3,7 @@ title: 'Toimintaohje: Raporttien luominen XBRL-kielellä'
 description: 'XBRL on XML-pohjainen kieli taloudellisten tietojen merkitsemiseen ja yrityskäyttöön, jotta nämä voivat tehokkaasti ja tarkasti käsitellä ja jakaa tietojaan.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 09/14/2022
 ms.author: bholtorf

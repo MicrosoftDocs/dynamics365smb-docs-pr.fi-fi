@@ -3,9 +3,7 @@ title: Prosessien suorittamiseen tarvittavat pakolliset kentät
 description: 'Tutustu punaisella tähtimerkillä merkittyihin kenttien. Tämä merkintä osoittaa, että ne ovat pakollisia ja ne on täytettävä, jotta prosessi voidaan suorittaa.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: null
 ms.date: 04/01/2021
 ms.author: bholtorf

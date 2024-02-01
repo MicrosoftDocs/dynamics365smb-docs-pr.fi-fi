@@ -3,9 +3,7 @@ title: Taulukon yhdistämismääritysten manuaalinen synkronointi | Microsoft Do
 description: 'Synkronointi kopioi tiedot Microsoft Dataversein taulukoiden ja Business Centralin välillä, jotta kumpikin järjestelmä pysyy ajan tasalla.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ms.date: 04/01/2021
 ms.author: bholtorf

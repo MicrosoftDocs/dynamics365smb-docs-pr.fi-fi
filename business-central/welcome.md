@@ -3,9 +3,7 @@ title: Tervetuloa Microsoft Dynamics 365 Business Centraliin
 description: 'Tutustu Business Centralin ominaisuuksiin ja työskenaarioihin, jotka auttavat yrityksiä hallitsemaan liiketoimintaansa, mukaan lukien taloushallinto, tuotanto, myynti, toimitus, projektinhallinta ja palvelut.'
 author: jswymer
 ms.topic: landing-page
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.date: 05/22/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central

@@ -3,9 +3,7 @@ title: Poista kustannusbudjettitapahtumat
 description: Voit käyttää Poista kustannusbudjettitapahtumat -eräajoa peruuttaaksesi kustannusbudjetin tapahtumat kustannusbudjetinrekisteristä.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 1115
 ms.date: 04/01/2021
 ms.author: bholtorf

@@ -3,15 +3,14 @@ title: Raporttiasettelun määrittäminen
 description: 'Tietoja siitä, miten voit määrittää raportissa käytettävän asettelun esikatselua ja tulostamista varten.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'customized report, document layout, logo, personalize'
 ms.search.form: '9652, 9650'
 ms.date: 08/12/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-the-layout-used-by-a-report"></a>Raportin käyttämän asettelun määrittäminen
+# Raportin käyttämän asettelun määrittäminen
 
 > **KOSKEE:** Business Central online, Business Central on-premises 2022 julkaisuaalto 1 ja uudemmat. Aiemmissa versioissa mene [tänne](ui-how-change-layout-currently-used-report.md).
 
@@ -19,7 +18,7 @@ Raportin asettelu määrittää raportin ulkoasun. Se määrittää, mitkä rapo
 
 Kun sovelluksessa on useita yrityksiä, asettelujen asetukset määritetään yrityskohtaisesti. Saman yrityksen raportissa voi siis olla eri asettelu kuin toisessa yrityksessä.
 
-## <a name="get-started"></a>Aloittaminen
+## Aloittaminen
 
 Voit määrittää raportin käyttämän asettelun muutamalla eri tavalla. Jokaisella tavalla on hyötynsä riippuen siitä, mitä aiotaan tehdä: 
 
@@ -36,12 +35,12 @@ Voit määrittää raportin käyttämän asettelun muutamalla eri tavalla. Jokai
   > [!NOTE]
   > Et voi käyttää **Raporttiasettelut**-sivua Wordin ja RDLC:n asetteluille, jotka luotiin käyttämällä vanhaa **Mukautetut asettelut** -ominaisuutta. Itse asiassa et edes näe näitä mukautettuja asetteluita luettelossa **Raporttiasettelut**-sivulla. Voit määrittää nämä asettelut vain käyttämällä **Raporttiasetteluvalinta**-sivua.
 
-## <a name="set-the-layout-from-the-report-layouts-page"></a>Asettelun määrittäminen Raporttiasettelut-sivulta
+## Asettelun määrittäminen Raporttiasettelut-sivulta
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Etsi asettelu luettelosta, valitse se ja valitse sitten **Määritä oletus** -toiminto sivun yläosasta.
 
-## <a name="set-the-layout-from-report-layout-selection-page"></a>Asettelun määrittäminen Raporttiasetteluvalinta-sivulta
+## Asettelun määrittäminen Raporttiasetteluvalinta-sivulta
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttiasetteluvalinta** ja valitse sitten vastaava linkki.
   
@@ -54,11 +53,11 @@ Voit määrittää raportin käyttämän asettelun muutamalla eri tavalla. Jokai
 
 4. Valitse **Raporttiasettelut**-sivulla asettelu ja valitse sitten **OK**.
 
-## <a name="revert-to-the-original-default-layout"></a>Palauta alkuperäinen oletusasettelu
+## Palauta alkuperäinen oletusasettelu
 
 Raportit on suunniteltu käyttämään asettelua oletusarvoisesti. Voit siirtyä takaisin alkuperäiseen oletusasetteluun **Raporttiasetteluvalinta**-sivulta. Valitse vain raportti ja valitse sitten sivun yläosasta **Palauta oletusvalinta** -toiminto.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman käyttäminen](ui-work-product.md)

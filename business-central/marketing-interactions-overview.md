@@ -3,14 +3,13 @@ title: Kontaktien vuorovaikutusten luonti ja hallinta
 description: Business Centralissa kaikentyyppinen yhteydenpito yrityksesi ja kontaktiesi välillä on vuorovaikutusta. Lue lisää kontaktien luonti- ja hallintatavoista.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="managing-interactions-with-your-contacts"></a>Kontaktien kanssa tapahtuvien vuorovaikutusten hallinta
+# Kontaktien kanssa tapahtuvien vuorovaikutusten hallinta
 [!INCLUDE[prod_short](includes/prod_short.md)]:ssa kaikentyyppinen yhteydenpito yrityksesi ja kontaktiesi välillä on vuorovaikutusta. Yhteydenpito voi tapahtua esimerkiksi sähköpostitse, kirjeitse, puhelimitse ja kokouksissa.
 
 Voit tallentaa kaikki vuorovaikutukset, joita sinulla on kontaktiesi kanssa, jotta voit seurata kontakteihin suuntaamiasi markkinointi- ja myyntiponnistuksia, ja jatkossa parantaa liiketoiminnallista vuorovaikutustasi näiden kontaktien kanssa.

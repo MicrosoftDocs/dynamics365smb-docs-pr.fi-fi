@@ -3,9 +3,7 @@ title: Kommenttien lisääminen kortteihin ja asiakirjoihin
 description: 'Lisää tietoja tileihin, asiakkaiden kortteihin tai myyntitilauksiin ja jaa muille käyttäjille tietoja sopimuksista, kuten erikoishinnoista tai toimitustavasta.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'tasks, work'
 ms.search.form: '124, 30'
 ms.date: 04/01/2021

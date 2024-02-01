@@ -3,15 +3,14 @@ title: Myynnin hallintatehtävien yleiskatsaus
 description: 'Lue lisää Business Centralin palveluiden käytöstä asiakkaiden myynnin aktiviteettien hallintaan: esimerkkeinä myyntilaskut, tilaukset ja tarjoukset.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'trade, sell'
 ms.search.form: 253
 ms.date: 09/02/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="sales"></a>Myynti
+# Myynti
 
 Luo myyntilasku tai -tilaus tallentaaksesi sopimuksesi asiakkaan kanssa ja myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla.
 
@@ -53,7 +52,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 |Ilmoitta tilauksen toimiaika asiakkaille laskemalla joko mahdollinen luvattavaksi- tai luvattavissa -päivämäärä.|[Toimituksen lupaamisen päivämäärien laskeminen](sales-how-to-calculate-order-promising-dates.md)|
 |Ratkaise ristiriita, kun samalla asiakkaalla on ainakin kaksi tietuetta.|[Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Uusien asiakkaiden rekisteröiminen](sales-how-register-new-customers.md)  

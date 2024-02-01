@@ -3,9 +3,7 @@ title: Ostotarjouksen luominen tarjouksen pyytämistä varten
 description: 'Ohjeaiheessa käsitellään, miten luodaan myyntitarjous- tai tarjouspyyntö kirjaamaan asiakkaalle tehty tarjous tuotteiden myynnistä tietyin ehdoin.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: '49, 97, 9306, 9346'
 ms.date: 08/08/2022

@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 [!INCLUDE[prod_short](prod_short.md)] -verkkoversiota hallitaan [modernin elinkaarimallin](https://support.microsoft.com/help/30881/modern-lifecycle-policy) mukaisesti. Palvelutasosopimuksen ehdot ovat asiakirjassa, jonka voi ladata [Käyttöoikeusehdot](https://www.microsoft.com/licensing/product-licensing/products)-sivun **Microsoft Online Servicesin palvelutasosopimukset** -osasta.  
 

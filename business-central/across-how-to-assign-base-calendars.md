@@ -3,9 +3,7 @@ title: Peruskalenterien määrittäminen
 description: Voit määrittää yrityksellesi ja sen liikekumppaneille peruskalenterin toimitus- ja vastaanottopäivämäärien laskemista varten määritettyjen työpäivien mukaan.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '7600, 7601, 7602, 5703'
 ms.date: 06/11/2021
 ms.author: bholtorf

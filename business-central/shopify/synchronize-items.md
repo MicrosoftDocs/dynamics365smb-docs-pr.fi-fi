@@ -3,7 +3,6 @@ title: Synkronoi nimikkeet ja varasto
 description: Määritä ja suorita nimikkeiden synkronoinnit Shopifyn ja Business Centralin välillä
 ms.date: 11/17/2023
 ms.topic: article
-ms.service: dynamics-365-business-central
 ms.search.form: '30116, 30117, 30126, 30127,'
 author: brentholtorf
 ms.author: bholtorf

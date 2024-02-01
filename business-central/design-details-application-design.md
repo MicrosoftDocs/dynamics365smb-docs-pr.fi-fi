@@ -3,12 +3,11 @@ title: Sovelluksen rakennetiedot
 description: Tässä sisällössä on yksityiskohtaisia teknisiä tietoja Business Central -sovelluksen monimutkaisista ominaisuuksista.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 12/13/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Sovelluksen rakennetiedot
 
@@ -18,7 +17,7 @@ Rakennetietojen sisältö on tarkoitettu käyttöönottajille, kehittäjille ja 
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
-|Tietoja kustannuslaskentaohjelman mekanismeista, kuten arvostusmenetelmästä ja kustannusten muuttamisesta sekä niiden laskentaperiaatteista.|[Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)|  
+|Tietoja kustannuslaskentaohjelman mekanismeista, kuten arvostusmenetelmästä ja kustannusten muuttamisesta sekä niiden laskentaperiaatteista.|[Rakennetiedot: Varaston kustannuslaskenta](design-details-inventory-costing.md)|  
 |Lisätietoja siitä, miten Muuta kustannuksia - Nimiketapahtumat -eräajo tunnistaa ja määrittää niiden arvotapahtumien kirjauspäivämäärän, joita eräajo on luomassa.|[Rakennetiedot: Muutoksen arvotapahtuman kirjauspäivämäärä](design-details-inventory-adjustment-value-entry-posting-date.md)|
 |Katso lisätietoja dimensioiden tallennuksen ja kirjauksen suunnittelusta, kuten koodiesimerkkejä dimensiokoodien siirrosta ja päivityksestä.|[Rakennetiedot: Dimensioyhdistelmä-tapahtumat](design-details-dimension-set-entries-overview.md)|
 |Lue kuinka suunnittelujärjestelmä toimii, ja kuinka algoritmeja voidaan muuttaa eri ympäristöjen suunnitteluvaatimuksia vastaaviksi.|[Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)|  
@@ -30,8 +29,8 @@ Rakennetietojen sisältö on tarkoitettu käyttöönottajille, kehittäjille ja 
 
 [Suunnittelu](production-planning.md)  
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
-[Varastonhallinnan yleiskatsaus](design-details-warehouse-management.md)
-[Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen avulla](set-up-complex-application-areas-using-best-practices.md)  
+[Varastoinninhallinnan yleiskatsaus](design-details-warehouse-management.md)  
+[Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen avulla](set-up-complex-application-areas-using-best-practices.md)    
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

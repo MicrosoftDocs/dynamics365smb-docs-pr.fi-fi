@@ -3,9 +3,7 @@ title: 'Virhesanoma: "Kirjauspäivämäärä ei kuulu sallittujen kirjauspäivä
 description: 'Korjaa sanoman "Kirjauspäivämäärä ei ole sallittujen kirjaus päivämäärien rajoissa" virheen, kun suoritat Muuta kust. - nimike tapahtumat -eräajoa.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 09/17/2021
 ms.author: bholtorf

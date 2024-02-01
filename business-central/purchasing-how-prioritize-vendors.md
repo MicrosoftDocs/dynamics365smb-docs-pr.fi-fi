@@ -3,9 +3,7 @@ title: Prioriteettitason määrittäminen toimittajalle (sisältää videon)
 description: 'Voit määrittää toimittajille numeron, joka priorisoi ne ja helpottaa maksuehdotuksia Business Central -sovelluksessa.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'supplier, payment priority'
 ms.search.form: '26, 27'
 ms.date: 04/01/2021

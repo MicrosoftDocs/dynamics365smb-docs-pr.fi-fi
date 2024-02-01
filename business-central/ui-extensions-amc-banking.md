@@ -3,9 +3,7 @@ title: AMC Banking 365 Fundamentals -laajennuksen käyttäminen
 description: 'Tietoa siitä, miten voit helposti vaihtaa tietoja pankkiesi kanssa muuttamalla tietoja niiden edellyttämään muotoon.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'bank, format, data'
 ms.search.form: '20100, 20101, 20102, 20105, 20106, 20107, 20109,'
 ms.date: 09/20/2022
