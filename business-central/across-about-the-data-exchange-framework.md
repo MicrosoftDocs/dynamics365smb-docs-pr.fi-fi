@@ -11,7 +11,7 @@ ms.search.form: '189,'
 ms.date: 12/13/2023
 ms.author: bholtorf
 ---
-# Tietoja tiedonvaihto-kehyksestä
+# <a name="about-the-data-exchange-framework"></a>Tietoja tiedonvaihto-kehyksestä
 
 Voit hallita liiketoiminta-asiakirjojen, pankkitiedostojen, vaihtokurssien ja muiden datatiedostojen siirtoa liikekumppaneille tai viranomaisille tiedonsiirtokehyksen avulla.
 
@@ -23,7 +23,7 @@ Järjestelmänvalvojana tai Microsoft-kumppanina voit käyttää kehystä uusiss
 
  ![Tiedonsiirtokehys &#45; Vie.](media/across-data-exchange/dataexchangeframework_export.png)  
 
-## Sähköiset asiakirjat
+## <a name="electronic-documents"></a>Sähköiset asiakirjat
 
 Sähköpostin liitetiedostojen lähettämisen sijaan liiketoiminta-asiakirjoja voi lähettää ja vastaanottaa sähköisesti. Sähköisellä asiakirjalla tarkoitetaan sitä, että liiketoiminta-asiakirjaa (kuten toimittajan laskua) edustava standardinmukainen tiedosto voidaan vastaanottaa ja muuntaa ostolaskuksi [!INCLUDE[prod_short](includes/prod_short.md)]issa. Kauppakumppanit vaihtavat sähköisiä asiakirjoja ulkoisten asiakirjavaihtopalvelujen välityksellä. Oletusarvoisesti [!INCLUDE[prod_short](includes/prod_short.md)] tukee sähköisten laskujen ja hyvityslaskujen lähettämistä ja vastaanottamista PEPPOL-muodossa. Suurimmat asiakirjojen vaihtopalveluiden tarjoajat tukevat tätä muotoa. Document exchange -palveluiden merkittävä tarjoaja Tradeshift on esimääritetty, ja se on valmis määritettäväksi yrityksellesi. Tuen tarjoamiseen muissa sähköisen asiakirjan muodoissa, sinun on luotava uudet asiakirjojen vaihdon määritykset.  
 
@@ -35,7 +35,7 @@ Jotta voisit vastaanottaa esimerkiksi laskun toimittajalta sähköisenä PEPPOL-
 
   Saat esimerkiksi laskun sähköisenä OCR-tiedostona, kun käsittelet sitä kuin vastaanottaessasi sähköisen PEPPOL-asiakirjan. Sähköisten asiakirjojen vastaanottamisen ja tietojen muunnon OCR:stä suorittaa tietojen vaihtamiskehys (jota edustaa **OCR – Lasku** -tietojenvaihtomääritys).  
 
-## Pankkitiedostot
+## <a name="bank-files"></a>Pankkitiedostot
 
 Pankkitietojen vaihtamiseen tarkoitetut liiketoiminnan hallinnan sovellusten tiedostomuodot vaihtelevat tiedoston toimittajan sekä maan tai alueen mukaan. [!INCLUDE[prod_short](includes/prod_short.md)] tukee yhtenäisen euromaksualueen (SEPA) pankkitiedostojen tuontia ja vientiä. Lisäksi AMC Banking 365 Fundamentals -laajennuksen avulla voit liittää AMC Banking 365 Fundamentals -laajennuksen, jonka tarjoaa ulkopuolinen palveluntarjoaja AMC Consult. Lisätietoja on kohdassa [Maksujen suorittaminen AMC Banking 365 Fundamentals -laajennuksella tai SEPA-hyvityksen siirrolla](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md). Muiden sähköisten asiakirjojamuotojen tuki saadaan käyttämällä tietojen vaihtamiskehystä.  
 
@@ -47,17 +47,17 @@ Jos haluat viedä SEPA-tilisiirtoja, valitse **Maksupäiväkirja**-sivulla **Vie
 
  Lisäksi [!INCLUDE[prod_short](includes/prod_short.md)]in paikallinen versio tukee monia muita tiedostomuotoja, joiden avulla voidaan tuoda tai viedä pankkitietoja, palkanlaskentatapahtumia ja muita tietoja. Lisätietoja on ohjeaiheessa oman maasi/alueesi [Paikallisten toimintojen](about-localization.md) -aloitussivulla.  
 
-## Valuutan vaihtokurssit
+## <a name="currency-exchange-rates"></a>Valuutan vaihtokurssit
 
 Voit määrittää ulkoisen palvelun pitämään valuutan vaihtokurssit ajan tasalla. Päivitetyt valuuttakurssit määrittävä palvelu otetaan käyttöön tietojenvaihtomäärityksen avulla. Näin ollen **Valuutanvaihtokurssin päivitysasetusten kortti** -sivu on tiivistetty näkymä kyseessä olevan tiedonsiirtomäärityksen **Tiedonsiirtomääritys**-sivulta.  
 
 Voit valmistella kaikille XML-tiedostojen tiedonsiirroille tiedonsiirtoasetukset lataamalla liittyvän XML-rakennetiedoston **XML-mallin tarkastelutoiminto** -sivulla. Voit valita ikkunassa tietoelementit, joita haluat vaihtaa [!INCLUDE[prod_short](includes/prod_short.md)]in kanssa. Tämän jälkeen voit joko käynnistää tiedonsiirtomäärityksen tai luoda XMLportin.
 
-## Intrastat
+## <a name="intrastat"></a>Intrastat
 
 [!INCLUDE[prod_short](includes/prod_short.md)] käyttää Intrastat-raportoinnin tiedonsiirtokehystä, jossa voit helposti luoda aikaleimattuja tiedostoja eri muodoissa vientiä varten. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää valmiita muotoja lokalisoituja maita ja alueita sekä oletusversioita varten. Voit kuitenkin muuttaa valmista raporttia tai tehdä oman.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Sähköinen tiedonsiirto](across-data-exchange.md)  
 [XML-mallien käyttäminen tiedonsiirtomääritysten valmistelussa](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  

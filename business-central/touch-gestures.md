@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# Kosketuseleet ja kynän liikkeet tabletteja ja puhelimia varten 
+# <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Kosketuseleet ja kynän liikkeet tabletteja ja puhelimia varten
 
 Tässä artikkelissa on tietoja joistakin erityisistä eleistä, joita voit käyttää, kun käytössä on [!INCLUDE[prod_short](includes/prod_short.md)] tabletissa tai puhelimessa.
 
@@ -29,7 +29,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Näppäimistön pikaohje - Vain PC](keyboard-shortcuts-cheatsheet.md)  
 [Aputoiminnot](ui-accessibility.md)  

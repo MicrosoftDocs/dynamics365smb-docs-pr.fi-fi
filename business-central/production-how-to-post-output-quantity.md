@@ -9,7 +9,7 @@ ms.date: 03/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Tuotos- ja suoritusaikojen eräkirjaus
+# <a name="batch-post-output-and-run-times"></a>Tuotos- ja suoritusaikojen eräkirjaus
 
 Tuotosmäärä ilmaisee työn edistymisen valmiina määränä ja tuotantosolun tai kuormitusryhmän käytettynä kapasiteettina.
 
@@ -24,7 +24,7 @@ Tuotospäiväkirjaa voi käyttää seuraaviin:
 
 **Tuotantopäiväkirja**-sivulla voit suorittaa samat tehtävät kuin **Tuotospäiväkirja**-sivulla ja tehdä myös kulutuskirjauksiin liittyviä tehtäviä. Lisätietoja on kohdassa [Yhden vapautetun tuotantotilausrivin kulutuksen ja tuotoksen rekisteröiminen](production-how-to-register-consumption-and-output.md).
 
-## Vähintään yhden tuotantotilausrivin tuotosmäärän ja/tai suoritusaikojen kirjaaminen
+## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Vähintään yhden tuotantotilausrivin tuotosmäärän ja/tai suoritusaikojen kirjaaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotospäiväkirja** ja valitse sitten vastaava linkki.  
 2. Täytä kentät tuotantotilauksen tiedoilla, tuotostiedoilla ja/tai suoritusajalla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -38,7 +38,7 @@ Tuotospäiväkirjaa voi käyttää seuraaviin:
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Hävikin kirjaaminen manuaalisti](production-how-to-post-scrap.md)
 [Tuotoksen kirjaamisen peruuttaminen](production-how-to-reverse-output-posting.md)

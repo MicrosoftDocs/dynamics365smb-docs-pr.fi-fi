@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# Wordin asettelujen käyttö
+# <a name="work-with-word-layouts"></a>Wordin asettelujen käyttö
 
 Wordin raporttiasettelu määrittää raportin sisällön ja muotoilun, kun raportti on esikatselussa ja tulostettu Business Centralista. Näitä asetteluita luodaan ja muokataan käyttämällä ohjelmaa Microsoft Word.
 
@@ -25,18 +25,18 @@ Jos olet suunnittelemassa Wordin raporttiasettelua alusta tai lisäämässä uus
 > [!TIP]  
 > Näytä taulukon ruudukko siten, että näet taulukon solujen rajat. Muista piilottaa ruudukko, kun lopetat muokkauksen. Voit näyttää tai piilottaa ruudukot valitsemalla taulukon ja valitsemalla **Asettelu**-kohdan alta **Taulukko**-välilehdellä **Näytä ruudukko**.
 
-## Fonttien upottaminen Word-asetteluihin yhdenmukaisuuden vuoksi
+## <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Fonttien upottaminen Word-asetteluihin yhdenmukaisuuden vuoksi
 
 Upottamalla fontit Word-asiakirjaan voit varmistaa, että raportit näkyvät ja tulostuvat aiotuilla fonteilla riippumatta siitä, missä käyttäjä avaa tai tulostaa raportit. Fonttien upottaminen voi suurentaa merkittävästi Word-tiedostojen kokoa. Lisätietoja fonttien upottamisesta Wordiin on kohdassa [Fonttien upottaminen Wordissa, PowerPointissa tai Excelissä](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-## Tietokenttien lisääminen
+## <a name="adding-data-fields"></a>Tietokenttien lisääminen
 
 Raportin tietojoukko voi sisältää kenttiä, joissa näkyvät otsikot, tiedot ja kuvat. Tässä ohjeaiheessa käsitellään raportin tietojoukon kenttien lisääminen olemassa olevaan raportin Word-raporttiasetteluun. Lisäät kenttiä käyttämällä raportille mukautettua XML-osaa ja lisäämällä sisällön ohjausobjekteja, jotka on yhdistetty raportin tietojoukon kenttiin. Kenttien lisääminen edellyttää, että tunnet jonkin raportin tietojoukon niin, että voit tunnistaa kentät, jotka haluat lisätä asetteluun.  
   
 > [!NOTE]  
 >  Et voi muuttaa valmiita raporttiasetteluita<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-###  <a name="OpenXMLPart"></a>Mukautetun XML-osan avaaminen raportille Wordissa  
+### <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a>Mukautetun XML-osan avaaminen raportille Wordissa
   
 1. Jos se ei ole jo auki, avaa Word-raportin asettelun asiakirja Wordissa.  
   
@@ -58,7 +58,7 @@ Raportin tietojoukko voi sisältää kenttiä, joissa näkyvät otsikot, tiedot 
   
      Kun valitset mukautetun XML-osan, XML:n yhdistäminen -ruudussa näkyvät otsikot ja kenttäohjausobjektit, jotka ovat käytettävissä raportissa.  
   
-### Selitteen tai tietokentän lisääminen  
+### <a name="to-add-a-label-or-data-field"></a>Selitteen tai tietokentän lisääminen
   
 1. Aseta kohdistin asiakirjaan, johon haluat lisätä ohjausobjektin.  
   
@@ -67,7 +67,7 @@ Raportin tietojoukko voi sisältää kenttiä, joissa näkyvät otsikot, tiedot 
     > [!NOTE]  
     >  Et voi lisätä kenttää manuaalisesti kirjoittamalla tietojoukon kentän nimen sisällön ohjausobjektiin. Sinun on käytettävä **XML-yhdistäminen**-ruutua kenttien yhdistämiseen.  
   
-### Tietokenttien toistuvien rivien lisääminen luettelon luomiseksi  
+### <a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a>Tietokenttien toistuvien rivien lisääminen luettelon luomiseksi
   
 1. Lisää taulukkoon taulukkorivi, joka sisältää sarakkeen, kullekin kentälle, jonka haluat toistuvan.  
   
@@ -85,7 +85,7 @@ Raportin tietojoukko voi sisältää kenttiä, joissa näkyvät otsikot, tiedot 
   
     3. Toista työvaiheet a ja b kunkin kentän kohdalla.  
   
-## Kuvakenttien lisääminen
+## <a name="adding-image-fields"></a>Kuvakenttien lisääminen
 
 Raportin tietojoukko voi sisältää kentän, joka sisältää kuvan, kuten yrityksen logon tai kuvan kohteen. Voit lisätä kuvan raportin tietojoukosta lisäämällä sisällön **Kuva**-ohjausobjektin.  
   
@@ -94,7 +94,7 @@ Kuvat kohdistuvat automaattisesti sisällön hallinnan vasempaan yläkulmaan ja 
 > [!IMPORTANT]  
 > Voit lisätä vain kuvia, joiden muotoa Word tukee (esimerkiksi .bmp-, .png- ja .jpeg-tiedostotyypit). Jos lisäät sellaisen kuvan, jota Word ei tue, näyttöön avautuu virhesanoma, kun suoritat raportin [!INCLUDE[prod_short](includes/prod_short.md)] -asiakasohjelmasta.  
   
-### Kuvan lisääminen  
+### <a name="to-add-an-image"></a>Kuvan lisääminen
   
 1. Aseta osoitin asiakirjaan, johon haluat lisätä ohjausobjektin.  
   
@@ -102,7 +102,7 @@ Kuvat kohdistuvat automaattisesti sisällön hallinnan vasempaan yläkulmaan ja 
   
 3. Voit suurentaa tai pienentää kuvan kokoa vetämällä kahvaa poispäin sisällön ohjausobjektista tai sen keskustaa kohti.  
 
-##  <a name="RemoveField"></a> Otsikko- ja tietokenttien poistaminen
+## <a name="removing-label-and-data-fields"></a><a name="RemoveField"></a>Otsikko- ja tietokenttien poistaminen
 
 Raportin otsikko- ja tietokentät sisältyvät Wordin sisällön ohjausobjekteihin. Seuraavassa kuvassa on esitetty sisällön ohjausobjekti, kun se on valittuna Word-asiakirjassa.  
 
@@ -110,7 +110,7 @@ Raportin otsikko- ja tietokentät sisältyvät Wordin sisällön ohjausobjekteih
 
 Selitteen tai tietokentän nimi näkyy sisällön ohjausobjektissa. Esimerkissä kentän nimi on CompanyAddr1.  
 
-### Selitteen tai tietokentän poistaminen  
+### <a name="to-remove-a-label-or-data-field"></a>Selitteen tai tietokentän poistaminen
 
 1. Napsauta poistettavaa kenttää hiiren kakkospainikkeella ja valitse **Poista sisällön hallinta**.  
 
@@ -118,11 +118,11 @@ Selitteen tai tietokentän nimi näkyy sisällön ohjausobjektissa. Esimerkissä
 
 2. Poistaa jäljellä olevan tekstin tarpeen mukaan.
 
-## Mukautetun XML-osan yleiskatsaus
+## <a name="custom-xml-part-overview"></a>Mukautetun XML-osan yleiskatsaus
 
 Word-raporttiasettelut on rakennettu *mukautetuista XML-osista*. Raportin mukautettu XML-osa koostuu niitä tieto-osia, sarakkeita ja otsikoita vastaavista elementeistä, jotka muodostavat raportin tietojoukon. <!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. -->Mukautettua XML-osaa käytetään yhdistämään tietoja raporttiin, kun raportti suoritetaan.
 
-### Mukautetun XML-osan XML-rakenne
+### <a name="xml-structure-of-custom-xml-part"></a>Mukautetun XML-osan XML-rakenne
 
 Seuraavassa taulukossa on yksinkertaistettu yhteenveto mukautetun XML-osan XML-koodista.  
   
@@ -135,7 +135,7 @@ Seuraavassa taulukossa on yksinkertaistettu yhteenveto mukautetun XML-osan XML-k
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Tietojen kohteet ja sarakkeet, jotka sisältyvät ylimmän tason tietokohteeseen. Sarakkeet näkyvät aakkosjärjestyksessä vastaavien tietojen kohdassa.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Elementin sulkeminen.|  
   
-### Mukautettu XML-osa Wordissa
+### <a name="custom-xml-part-in-word"></a>Mukautettu XML-osa Wordissa
 
  Word -ohjelmassa mukautettu XML-osa avataan **XML-yhdistäminen**-ruudussa ja elementit yhdistetään ruudun avulla Word-asiakirjassa. **XML-yhdistäminen**-ruutua voi käyttää **Kehitystyökalut**-välilehdessä. (Lisätietoja on kohdassa [Valintanauhan Kehitystyökalut-välilehden näyttäminen](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
@@ -153,7 +153,7 @@ Seuraavassa taulukossa on yksinkertaistettu yhteenveto mukautetun XML-osan XML-k
   
 * Raportin suorituksen aikana näkyvä tunnuksen kieli määräytyy raporttiobjektin kieliasetuksen perusteella.  
   
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Raporttien mukautetun asettelun luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)   
 

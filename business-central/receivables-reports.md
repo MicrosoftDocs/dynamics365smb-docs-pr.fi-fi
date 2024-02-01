@@ -9,15 +9,15 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Myyntisaatavien raportit ja analytiikka Business Centralissa
+# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Myyntisaatavien raportit ja analytiikka Business Centralissa
 
 Jotta voit hallita myyntisaamisiasi helpommin [!INCLUDE [prod_short](includes/prod_short.md)]issa, vakioraportit ja analytiikka ovat sisään rakennettuina. Se ylittää perinteisen raportoinnin rajoitukset, jotta voit suunnitella tehokkaasti erityyppisiä raportteja.  
 
-## Raportit
+## <a name="reports"></a>Raportit
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md)  
 [Dimensioiden käyttäminen](finance-dimensions.md)  

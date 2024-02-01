@@ -9,7 +9,7 @@ ms.date: 10/27/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Ennakkomaksujen määrittäminen
+# <a name="set-up-prepayments"></a>Ennakkomaksujen määrittäminen
 
 Jos haluat, että asiakkaat lähettävät maksun ennen kuin toimitat heille tilauksen tai jos toimittaja haluaa maksun ennen kuin toimitus lähetetään sinulle, voit käyttää Ennakkomaksu-toimintoa. Ennakkomaksutoiminnon avulla voit laskuttaa ja periä toiminnolla asiakkailta edellytettäviä talletuksia tai suorittaa talletuksia toimittajille sekä varmistaa, että kaikki osamaksut kohdistetaan laskuun. Lisätietoja on kohdassa [Ennakkomaksulaskujen luominen](finance-how-to-create-prepayment-invoices.md).
 
@@ -29,7 +29,7 @@ Koska ennakkoon maksettu summa kuuluu ostajalle siihen asti, kunnes hän on vast
 
 [!INCLUDE[local-func-setup-link](includes/local-func-setup-link.md)]
 
-## Ennakkomaksutilien lisääminen yleisiin kirjausasetuksiin  
+## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Ennakkomaksutilien lisääminen yleisiin kirjausasetuksiin
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleiset kirjausasetukset** ja valitse sitten vastaava linkki.
 2. Täytä **Yleiset kirjausasetukset** -sivulla seuraavat kentät tarvittavien rivien osalta:  
@@ -42,7 +42,7 @@ Koska ennakkoon maksettu summa kuuluu ostajalle siihen asti, kunnes hän on vast
 
 Jos et ole vielä määrittänyt ennakkomaksujen pääkirjanpitotilejä, voit avata sen **KP-tililuettelo**-sivun kyseisen tilin kentästä.  
 
-## Ennakkomaksuasiakirjojen numerosarjojen määrittäminen  
+## <a name="to-set-up-number-series-for-prepayment-documents"></a>Ennakkomaksuasiakirjojen numerosarjojen määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntien ja myyntisaamisten asetukset** ja valitse sitten vastaava linkki.
 2. Täytä seuraavat kentät **Myyntien ja myyntisaamisten asetukset** -sivun **Numerosarjat**-pikavälilehdessä:  
@@ -59,7 +59,7 @@ Jos et ole vielä määrittänyt ennakkomaksujen pääkirjanpitotilejä, voit av
 > [!NOTE]  
 > Voit käyttää ennakkomaksuissa ja tavallisissa maksuissa samoja tai erilaisia numerosarjoja. Jos käytät erilaisia sarjoja, ne eivät saa olla päällekkäisiä, koska sarjoissa ei saa olla samoja numeroita.  
 
-## Nimikkeiden, asiakkaiden ja toimittajien ennakkomaksuprosenttien määrittäminen
+## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Nimikkeiden, asiakkaiden ja toimittajien ennakkomaksuprosenttien määrittäminen
 
 Voit määrittää nimikkeelle oletusennakkomaksuprosentin kaikkia asiakkaita, tiettyä asiakasta tai asiakkaan hintaryhmää kohti. Jos samaa ennakkomaksuprosenttia ei haluta käyttää kaikissa asiakkaissa, on määritettävä, mitä asiakkaita tai asiakashintaryhmiä ennakkomaksuprosentti koskee.
 
@@ -77,7 +77,7 @@ Voit määrittää asiakkaalle tai toimittajalle yhden kaikkia nimikkeitä ja ka
 > [!TIP]
 > Voit myös käyttää **Myynnin ennakkomaksuprosentit** -sivua asiakkaan tai toimittajan kortilta.
 
-### Etusijalla olevan ennakkomaksuprosentin määrittäminen  
+### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Etusijalla olevan ennakkomaksuprosentin määrittäminen
 
 Tilauksella voi olla ennakkomaksuprosentti myynnin tunnistetiedoissa ja toinen prosentti riveillä nimikkeitä varten. Järjestelmä hakee jokaiselle myyntiriville ennakkomaksuprosentin seuraavassa järjestyksessä ja käyttää ensimmäistä löytämäänsä oletusprosenttia:  
 
@@ -88,7 +88,7 @@ Tilauksella voi olla ennakkomaksuprosentti myynnin tunnistetiedoissa ja toinen p
 
 Toisin sanoin asiakaskortin ennakkomaksuprosenttia käytetään vain, jos nimikkeelle ei ole määritetty ennakkomaksuprosenttia. Jos kuitenkin muutat **Ennakkomaksuprosentti**-kentän sisältöä myynnin tai oston tunnistetiedoissa rivien luomisen jälkeen, kaikkien rivien ennakkomaksuprosentti päivitetään. Tällöin tilauksen luonti kiinteällä ennakkomaksuprosentin kanssa on helppoa nimikkeille määritetystä prosentista huolimatta.
 
-## Myyntitilausten automaattinen vapauttaminen, kun käytetään ennakkomaksuja
+## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>Myyntitilausten automaattinen vapauttaminen, kun käytetään ennakkomaksuja
 
 Voit säästää aikaa määrittämällä työjonotapahtuman, joka vapauttaa automaattisesti myyntitilaukset, jotka vaativat ennakkomaksun, kun maksuja on sovellettu. Prosessin automatisointi säästää myyntitilauksen vapauttamisen vaiheen.
 
@@ -101,7 +101,7 @@ Voit säästää aikaa määrittämällä työjonotapahtuman, joka vapauttaa aut
 3. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työjonon tapahtumat** ja valitse sitten vastaava linkki.
 4. Määritä **Päivitä odottavat ennakkomaksumyynnit** -tehtäväjonotapahtuma esimerkiksi käyttämällä **Toistuminen**-pikavälilehden asetuksia sen määrittämiseen, kuinka usein se suoritetaan. Lisätietoja: [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
 
-## Katso myös  
+## <a name="see-also"></a>Katso myös
 
 [Laskutuksen ennakkomaksut](finance-invoice-prepayments.md)  
 [Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

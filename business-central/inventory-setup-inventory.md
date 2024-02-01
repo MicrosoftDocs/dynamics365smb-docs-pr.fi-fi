@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Varaston määrittäminen
+# <a name="setting-up-inventory"></a>Varaston määrittäminen
 Ennen varastoaktiviteettien ja varaston arvostuksen hallinnan aloittamista on määritettävä yrityksen varastonhallintakäytäntöjen säännöt ja arvot.
 
 Voit parantaa asiakaspalvelua ja optimoida toimitusketjuasi järjestämällä varastosi eri osoitteisiin. Voit sitten ostaa, varastoida tai myydä nimikkeitä eri sijainneissa ja siirtää varastoa niiden välillä.
@@ -31,7 +31,7 @@ Kun olet määrittänyt varaston, voit hallita nimiketapahtumien liittyviä eril
 |Tuo useita nimikekuvia samalla kerralla zip-tiedostosta, jossa tiedostot on nimetty nimikenumeroiden mukaan.|[Useiden nimikekuvien tuominen](inventory-how-import-item-pictures.md)|
 |Määritä oletusraportteja, joita käytetään eri asiakirjatyypeille.|[Raporttien valinta Business Centralissa](across-report-selections.md)|
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Varaston hallinta](inventory-manage-inventory.md)  
 [Ostojen hallinta](purchasing-manage-purchasing.md)  

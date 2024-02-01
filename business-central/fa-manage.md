@@ -10,7 +10,7 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Käyttöomaisuuden hallinta
+# <a name="managing-fixed-assets"></a>Käyttöomaisuuden hallinta
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman Käyttöomaisuus-sovellusalueesta saat yleiskuvan käyttöomaisuudestasi, ja se takaa oikeat jaksottaiset poistot. Se mahdollistaa myös kunnossapitokulujen seuraamisen, vakuutussopimusten hallinnoimisen, käyttöomaisuustransaktioiden kirjaamisen sekä monenlaisten raporttien ja tilastojen luomisen.
 
@@ -40,13 +40,13 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Kirjaa luovutustransaktiot, tarkastele luovutustapahtumia ja kirjaa osittaisia luovutuksia. |[Käyttöomaisuuden käytöstä poistaminen](fa-how-dispose-retire.md) |
 | Hallitse käyttöominaisuuserien budjetteja, budjetin hankintamenoja, käyttöomaisuuden luovutusten budjetointia ja poistojen budjetointia. |[Käyttöomaisuuden budjettien hallinta](fa-how-manage-budgets.md) |
 
-## Videon yleiskuvaus
+## <a name="video-overview"></a>Videon yleiskuvaus
 
 Seuraava video kattaa käyttöomaisuuden perusteet.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  

@@ -9,14 +9,14 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Business Centralin myyntiraportit ja analytiikka
+# <a name="sales-reports-and-analytics-in-business-central"></a>Business Centralin myyntiraportit ja analytiikka
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -myyntiraporttien avulla myynnin ja liiketoiminnan ammattilaiset voivat saada merkityksellistä tietoa ja analytiikkaa nykyisistä ja aiemmista myyntitoiminnoista.  
 
-## Raportit
+## <a name="reports"></a>Raportit
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## Tehtävät
+## <a name="tasks"></a>Tehtävät
 
 Seuraavissa artikkeleissa kuvataan joitakin yrityksen tilan analysointiin liittyviä keskeisiä tehtäviä:
 
@@ -24,7 +24,7 @@ Seuraavissa artikkeleissa kuvataan joitakin yrityksen tilan analysointiin liitty
 * [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)
 
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Myynti](sales-manage-sales.md)  

@@ -9,17 +9,17 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Talousraportit ja analytiikka Business Centralissa
+# <a name="financial-reports-and-analytics-in-business-central"></a>Talousraportit ja analytiikka Business Centralissa
 
 [!INCLUDE [prod_short](includes/prod_short.md)]in talousraportoinnin avulla talouden ja liiketoiminnan ammattilaiset voivat luoda, ylläpitää, ottaa käyttöön ja tarkastella taloudellisia raportteja. Se ylittää perinteisen raportoinnin rajoitukset, jotta voit suunnitella tehokkaasti erityyppisiä raportteja. [!INCLUDE [prod_short](includes/prod_short.md)] sisältää useita raportteja, jäljitystoimintoja ja työkaluja, joiden avulla tilintarkastajat tai valvojat ovat vastuussa talousosaston raportoinnista. Taloudelliseen raportointiin sisältyy dimensioiden tuki, joten tilisegmentit tai -dimensiot ovat heti saatavilla. Muita työkaluja tai määritysvaiheita ei tarvita.  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## Raportit
+## <a name="reports"></a>Raportit
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## Tehtävät
+## <a name="tasks"></a>Tehtävät
 
 Seuraavissa artikkeleissa kuvataan joitakin yrityksen tilan analysointiin liittyviä keskeisiä tehtäviä:
 
@@ -31,7 +31,7 @@ Seuraavissa artikkeleissa kuvataan joitakin yrityksen tilan analysointiin liitty
 * [Raporttien luominen XBRL:n avulla](bi-create-reports-with-xbrl.md)  
 * [Tietokannan käyttötarkoituksen hallinta](admin-data-access-intent.md)  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Kustannusbudjettien luominen](finance-create-cost-budgets.md)  
 [ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)  
