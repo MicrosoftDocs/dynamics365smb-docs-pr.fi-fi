@@ -11,7 +11,7 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Rakennetiedot: f. varaston asetus
+# <a name="design-details-warehouse-setup"></a>Rakennetiedot: f. varaston asetus
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in fyysisen varastoinnin toiminnolla on erilaisia monimutkaisuustasoja, jotka perustuvat valittavissa olevien yksiköiden käyttöoikeuksiin. Varastoratkaisun monimutkaisuuden taso määritellään laajasti binin asetusten mukaisesti sijaintikorteissa, joka vuorostaan on lisenssikontrolloitu niin, että binin määrityskenttien käyttö määritellään lisenssissä. Lisäksi lisenssin sovellusobjektit hallitsevat mitä käyttöliittymäasiakirjaa käytetään tuetuille varastotoiminnoille.  
 <!--
@@ -45,7 +45,7 @@ Seuraavassa taulukossa käsitellään mitä yksiköitä vaaditaan määrittämä
 
 Esimerkkejä käyttöliittymäasiakirjojen käytöstä kullakin fyysisen varaston monimutkaisuustasolla on kohdassa [Rakennetiedot: saapuvan fyysisen varastoinnin virta](design-details-inbound-warehouse-flow.md).  
 
-## Varastopaikka ja varastopaikan sisältö
+## <a name="bin-and-bin-content"></a>Varastopaikka ja varastopaikan sisältö
 
 Lokero on tallennuslaite, jonka tarkoituksena on tallentaa erilliset osat. Pienin [!INCLUDE[prod_short](includes/prod_short.md)]in varastoyksikkö. Varastopaikkojen nimikemääriä kutsutaan varastopaikan sisällöksi. **Nimike**- tai **Lokerokoodi**-kentästä suoritettu haku missä tahansa fyysiseen varastoon liittyvässä asiakirjassa näyttää lokerossa olevan nimikkeen lasketun saatavuuden.  
 
@@ -62,7 +62,7 @@ Bin-tiedoston oletusominaisuutta käytetään järjestelmässä ehdottamaan bine
 
 Sijainnin nimikkeellä voi olla vain yksi varastopaikka.  
 
-## Varastopaikan tyyppi
+## <a name="bin-type"></a>Varastopaikan tyyppi
 
 WMS-asennuksissa voit rajoittaa varastopaikalle sallittuja varastotoimintoja määrittämällä sille varastotyypin. Käytössä on seuraavat lokerotyypit:  
 
@@ -80,7 +80,7 @@ Kaikkien varastopaikan tyyppien osalta, lukuun ottamatta POIMINTA-, HYLLYPOIMINT
 > [!NOTE]  
 > Vain siirto voidaan luoda varastopaikkoihin joiden tyyppi on VASTAANOTTO ja QC. Samoin vain liikkeitä voidaan tehdä bineistä, joiden tyyppi on SHIP ja QC.  
 
-## Varastopaikan luokittelu
+## <a name="bin-ranking"></a>Varastopaikan luokittelu
 
 Laajennetussa varastoinnissa voit automatisoida ja optimoida nimikkeiden keräystavan hyllytys- ja poimintatyökirjoissa luokittelemalla varastopaikat niin, että nimikkeet otetaan tai asetetaan luokitusehdon mukaisesti varaston käyttämiseksi optimaalisesti.  
 
@@ -88,7 +88,7 @@ Hyllytysprosessit on optimoitu varastopaikan luokittelun mukaan ehdottamalla kor
 
 Varastopaikan luokittelu yhdessä varastopaikan sisältötietojen kanssa ovat perusominaisuuksia, jotka antavat käyttäjälle mahdollisuuden lokeroida nimikkeitä f. varastossa.  
 
-## Varastopaikan asetus  
+## <a name="bin-setup"></a>Varastopaikan asetus
 Laajennetussa varastoinnin varastopaikat voidaan määrittää kapasiteettiarvoilla, kuten määrä, kokonaiskuutiotilavuus ja paino, ja niiden perusteella hallitaan nimikkeiden varastointia varastopaikassa.  
 
 Voit määrittää jokaiseen nimikkeen korttiin nimikkeelle mittayksikön, kuten kappaletta, kuormalavaa, litraa, grammaa tai laatikkoa. Nimikkeellä voi olla myös perusmittayksikkö, jolle voidaan määrittää siihen perustuvia suurempia mittayksiköitä. Voi esimerkiksi määrittää kuormalavan vastaamaan 16 kappaletta niin, että myöhempi perustuu perusmittayksikköön.  
@@ -100,7 +100,7 @@ Ennen kuin asetat lokerossa olevan lokeron sisällön kapasiteettirajoitukset, s
 > [!NOTE]  
 > Toiminta on mahdollista vain useiden mittayksiköiden kanssa WMS-asennuksissa. Kaikissa muissa määrityksissä varastopaikan sisältö voi olla vain perusmittayksikössä. Kaikissa tapahtumissa, joissa mittayksikkö on korkeampi kuin nimikkeen perusmittayksikkö, määrä muutetaan perusmittayksikköön.  
 
-## Vyöhyke
+## <a name="zone"></a>Vyöhyke
 
 Laajennetussa varastoinnissa varastopaikat voidaan ryhmitellä vyöhykkeisiin varastotoimintojen työnkulun hallitsemiseksi.  
 
@@ -108,18 +108,18 @@ Vyöhyke voi olla vastaanottava alue tai varastointivyöhyke ja jokainen vyöhyk
 
 Useimmat vyöhykkeeseen kohdistetut ominaisuudet kohdistetaan oletusarvoisesti tästä vyöhykkeestä luotuun varastopaikkaan.  
 
-## Luokka  
+## <a name="class"></a>Luokka
 Laajennetussa varastoinnissa voit määrittää nimikkeille, varastopaikoille ja vyöhykkeille fyysisen varastoinnin luokkakoodit joiden avulla voidaan hallita eri nimikeluokkien varastointia, kuten jäädytetyt tuotteet. Voit jakaa alueen useisiin fyysisen varastoinnin luokkiin. Esimerkiksi vastaanottavan vyöhykkeen nimikkeet voidaan tallentaa jäädytetyiksi, vaarallisiksi tai muuhun luokkaan.  
 
 Kun käsittelet fyysisen varastoinnin luokkia ja vastaanoton/toimituksen oletusvarastopaikkaa, sopivat varastopaikat on täytettävä manuaalisesti fyysisen varastoinnin vastaanotto- ja toimitusriveille.  
 
 Saapuvissa virroissa luokkakoodi korostetaan vain saapuvilla riveillä, kun luokkakoodi ei vastaa vastaanoton oletusvarastopaikkaa. Jos oikeita oletusvarastopaikkoja ei määritetä, määrää ei voida vastaanottaa.  
 
-## Sijainti
+## <a name="location"></a>Sijainti
 
 Sijainti on mahdollisesti lokeroihin järjestetty fyysinen rakenne tai paikka, jossa varasto vastaanotetaan, tallennetaan ja lähetetään. Sijainti voi olla varasto, huoltoauto, esittelytila, laitos tai laitoksen alue.  
 
-## FEFO (ensin vanhentunut ensimmäisenä ulos)
+## <a name="first-expired-first-out"></a>FEFO (ensin vanhentunut ensimmäisenä ulos)
 
 Jos valitset **FEFO-poiminta**-valintaruudun sijaintikortin **Varastopaikkojen periaatteet** -pikavälilehdessä, nimikeseuratut nimikkeet poimitaan niiden vanhenemispäivämäärän mukaan. Nimikkeet, joissa on aikaisimmat erääntymispäivät, poimitaan ensin.  
 
@@ -127,11 +127,11 @@ Kaikkien poiminta- ja siirtoasiakirjojen fyysisen varaston toiminnot on lajitelt
 
 Kun FEFO-poiminta on käytössä, valitaan ensin vanhenevat käytettävissä olevat nimikkeet. Tällöin ohjelma luo väliaikaisen nimikkeiden seurantaluettelon vanhenemispäivämäärien perusteella. Jos kahdella nimikkeellä on sama vanhentumispäivämäärä, pienemmällä erä- tai sarjanumerolla varustettu poimitaan ensin. Jos erä- tai sarjanumerot ovat samoja, ensimmäisenä rekisteröity nimike valitaan ensin. Peruskriteereitä, kuten säiliön sijoitus ja kappaletavara, joita käytetään valitsemaan nimikkeitä poimintasäiliöissä, käytetään tähän väliaikaiseen FEFO-nimikkeenseurantaluetteloon.  
 
-## Hyllytysmalli
+## <a name="put-away-template"></a>Hyllytysmalli
 
 Poistettu malli voidaan kirjata nimikkeelle ja sijainnille. Poistettu malli määrittää sarjan priorisoituja sääntöjä, jotka täytyy ottaa huomioon, kun luodaan poistoja. Esimerkiksi hyllytysmalli voi vaatia, että nimike sijoitetaan varastopaikkaan sellaisella varastopaikan sisällöllä, joka vastaa mittayksikköä, ja jos vastaavaa varastopaikkaa riittävällä kapasiteetilla ei löydy, nimike tulee asettaa tyhjään varastopaikkaan.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Varastonhallinnan yleiskuvaus](design-details-warehouse-management.md)
 [Rakennetiedot: saatavuus varastossa](design-details-availability-in-the-warehouse.md)
