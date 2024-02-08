@@ -1,5 +1,5 @@
 ---
-translation.priority.ht:
+translation.priority.ht: 
   - da-dk
   - de-at
   - de-ch
@@ -23,6 +23,6 @@ translation.priority.ht:
   - nl-be
   - nl-nl
   - ru-ru
-  - sv-se
+  - "sv-se" ms.service: dynamics-365-business-central
 ---
 Microsoft Dynamics NAV 2015

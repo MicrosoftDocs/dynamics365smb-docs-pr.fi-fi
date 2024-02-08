@@ -4,7 +4,7 @@ description: 'Lue, miten voit määrittää yhteyden Power BI:hin. Merkitykselli
 author: jswymer
 ms.topic: get-started
 ms.search.keywords: 'Power BI, setup, analysis, reporting, financial report, business intelligence, KPI'
-ms.date: 09/28/2023
+ms.date: 01/28/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
@@ -90,6 +90,12 @@ Tässä osassa käsitellään paikallisen [!INCLUDE[prod_short](includes/prod_sh
     Ennen kuin loppukäyttäjät voivat käyttää Power BI:tä [!INCLUDE[prod_short](includes/prod_short.md)]issa, Azure-sovelluksen järjestelmänvalvojan täytyy antaa suostumuksensa Power BI-palvelulle.
 
     Voit muodostaa ensimmäisen yhteyden avaamalla [!INCLUDE[prod_short](includes/prod_short.md)]in ja suorittamalla aloitussivulla **Aloita Power BI:n käyttö** -toiminnon. Tämä toiminto opastaa hyväksyntäprosessin läpi ja tarkistaa Power BI -käyttöoikeutesi. Ohjelma pyytää kirjautumaan sisään käyttämällä Microsoft Entra -järjestelmänvalvojatiliä. Lisätietoja on kohdassa [Power BI -yhteyden muodostaminen – kerran](across-working-with-powerbi.md#connect).
+
+## Tietovoiden määrittäminen
+
+Tietovoiden avulla voit tarkastella, muuntaa ja ladata tietoja Power BI -työtilaan ja käyttää sitten tietoja raporttien perustana. Näissä tietovoissa voi joissakin tapauksissa ilmetä ohimeneviä virheitä ajoitetun päivityksen yhteydessä. Virheviesti näyttää tältä: `DataSource.Error: OData: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.` 
+
+PowerAutomaten avulla voit määrittää uudelleenyritykset tälle paikalle. Lisätietoja on kohdassa [Tietovuon automaattinen uudelleenyritys epäonnistumisen jälkeen](/power-query/dataflows/automatically-retry-dataflow).
 
 ## Katso myös
 

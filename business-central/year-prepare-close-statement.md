@@ -3,14 +3,13 @@ title: Tilinpäätöslaskelmien valmistelua helpottavien raporttien yleiskatsaus
 description: 'Tässä ohjeaiheessa on yleiskatsaus raporteista, joilla kerätään tietoja yrityksen tilinpäätöslaskelmien laatimista varten tilikautta suljettaessa.'
 author: jswymer
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI'
 ms.date: 04/01/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="preparing-closing-statements"></a>Tilinpäätöslaskelmien valmisteleminen
+# Tilinpäätöslaskelmien valmisteleminen
 Yrityksen tilinpäätöslaskelmien laatimiseen tarvittavien tietojen keräämistä varten on useita vakioraportteja.
 
 Seuraavassa taulukossa on luettelo raporteista, joista voi olla hyötyä tässä prosessissa.  
@@ -27,7 +26,7 @@ Seuraavassa taulukossa on luettelo raporteista, joista voi olla hyötyä tässä
 
 Raportin nähdäksesi valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita nimi sellaisena kuin se näkyy taulukossa ja valitse sitten liittyvä linkki.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Business Intelligence](bi.md)

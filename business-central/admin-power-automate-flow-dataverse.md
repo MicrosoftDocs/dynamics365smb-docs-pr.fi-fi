@@ -3,22 +3,21 @@ title: Käytä Power Automate -työnkulkua synkronoidaksesi Dataverse-entiteetin
 description: 'Opi luomaan Power Automatessa työnkulku, joka hälyttää, kun entiteetti muuttuu Dataverse-ympäristössä.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Power Automate, Flow, Dataverse'
 ms.search.form: null
 ms.date: 09/05/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="use-a-power-automate-flow-to-timely-synchronize-dataverse-entity-changes"></a>Käytä Power Automate -työnkulkua synkronoidaksesi Dataverse-entiteetin muutokset ajoissa
+# Käytä Power Automate -työnkulkua synkronoidaksesi Dataverse-entiteetin muutokset ajoissa
 
 Järjestelmänvalvojat voivat luoda Power Automatessa automatisoidun työnkulun, joka ilmoittaa [!INCLUDE[prod_short](includes/prod_short.md)] -sovellukselle muutoksista [!INCLUDE [cds_long_md](includes/cds_long_md.md)] -organisaation tietueisiin.
 
 > [!NOTE]
 > Tässä artikkelissa oletetaan, että olet kytkenyt [!INCLUDE[prod_short](includes/prod_short.md)]-Online-version [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-sovellukseen ja ajoittanut niiden synkronoinnin niiden välillä.
 
-## <a name="import-the-flow-template"></a>Tuo työnkulun malli
+## Tuo työnkulun malli
 
 > [!TIP]
 > Työnkulun määrittämisen helpottamiseksi olemme luoneet mallin, joka määrittää työnkulun käynnistimen ja työnkulun kunnon. Voit käyttää mallia noudattamalla tämän osion ohjeita. Jos haluat luoda työnkulun itse, ohita tämä osa ja aloita kohdassa [työnkulun käynnistimen määrittäminen](#define-the-flow-trigger).
@@ -30,7 +29,7 @@ Järjestelmänvalvojat voivat luoda Power Automatessa automatisoidun työnkulun,
 3. Valitse **Ilmoita Business Centralille, kun tili muuttuu** -malli.
 4. Jatka seuraamalla ohjeita [Ilmoita Business Centralille muutoksista](#notify-business-central-about-a-change) -osiosta.
 
-## <a name="define-the-flow-trigger"></a>Määritä työnkulun käynnistin
+## Määritä työnkulun käynnistin
 
 1. Kirjaudu sisään [Power Automateen](https://flow.microsoft.com).
 2. Luo automatisoitu pilvityönkulku, joka alkaa, kun [!INCLUDE [cds_long_md](includes/cds_long_md.md)] -entiteetin rivi lisätään, muokataan tai poistetaan. Lisätietoja on kohdassa [Käynnistäminen työnkulkujen lisääminen rivin lisäämisen, muokkaamisen tai poistamisen yhteydessä](/power-automate/dataverse/create-update-delete-trigger). Tässä esimerkissä käytetään **asiakkuudet**-entiteettiä. Seuraavassa kuvassa on työnkulun käynnistimen määrittämisen ensimmäisen vaiheen asetukset.
@@ -39,7 +38,7 @@ Järjestelmänvalvojat voivat luoda Power Automatessa automatisoidun työnkulun,
 3. Lisää yhteys [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-ympäristöön käyttämällä **AssistEdit (...)** -painiketta oikeassa yläkulmassa.
 4. Valitse **Näytä lisäasetukset** ja kirjoita **Suodattimen rivit** -kenttään **customertypecode eq 3** tai **customertypecode eq 11** ja **statecode EQ 0**. Nämä arvot tarkoittavat, että käynnistin reagoi vain silloin, kun **asiakas**- tai **toimittaja**-tyypin aktiivisiin tileihin tehdään muutoksia.
 
-## <a name="define-the-flow-condition"></a>Määritä työnkulun ehto
+## Määritä työnkulun ehto
 
 Tiedot synkronoidaan integrointikäyttäjätilin avulla [!INCLUDE[prod_short](includes/prod_short.md)]-sovelluksen ja [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-sovelluksen välillä. Voit ohittaa synkronoinnin tekemät muutokset luomalla työnkulkuun ehtovaiheen, joka ei sisällä integrointikäyttäjätilin tekemiä muutoksia.  
 
@@ -58,7 +57,7 @@ Seuraavassa kuvassa nähdään miten työnkulun käynnistin ja työnkulun kunto 
 
 :::image type="content" source="media/power-automate-flow-dataverse.png" alt-text="Yleiskuva työnkulun käynnistimen ja kunnon asetuksista":::
 
-## <a name="notify-business-central-about-a-change"></a>Muutoksen ilmoittaminen Business Centralin avulla
+## Muutoksen ilmoittaminen Business Centralin avulla
 
 Jos työnkulkua ei ole pysäytetty ehdon mukaan, sinun täytyy ilmoittaa kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)] muutoksen tapahtuneen. Käytä [!INCLUDE[prod_short](includes/prod_short.md)] -yhdistintä tehdäksesi sen.
 
@@ -84,7 +83,7 @@ Kun lisäät, poistat tai muokkaat tiliä omassa [!INCLUDE [cds_long_md](include
 2. Lisää [!INCLUDE[prod_short](includes/prod_short.md)]-API-liittymän avulla tietue, jonka **entityName** on asetettu **tilille** **Dataverse-tapahtuman muutos** -taulukossa. Tämä parametri on sen Dataverse-entiteetin tarkka nimi, jolle olet luomassa työnkulun.
 3. [!INCLUDE[prod_short](includes/prod_short.md)] aloittaa työjonotapahtuman, joka synkronoi asiakkaiden tilit.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Business Centralin käyttö Power Automate -työnkuluissa](across-how-use-financials-data-source-flow.md)  
 [Automaattisten työnkulkujen määrittäminen](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows)  

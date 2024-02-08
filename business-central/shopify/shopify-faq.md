@@ -1,7 +1,7 @@
 ---
 title: Teknisten tietojen UKK
 description: Shopify-yhdistimeen liittyvät toteutustiedot.
-ms.date: 03/27/2023
+ms.date: 01/24/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 author: brentholtorf
@@ -70,8 +70,7 @@ Voit myös tutustua [Experts Marketplaceen](https://experts.shopify.com/) löyt�
 ## Seuraavia ominaisuuksia ei tueta tällä hetkellä, mutta pidämme niitä silmällä ja saatamme harkita niiden lisäämistä
 
 - B2B-ominaisuudet, mukaan lukien yritykset, yritysten hinnastot ja maksuehdot
-  - Tällä hetkellä voidaan tuoda yritysten välisessä kaupassa luotuja tilauksia. Jos yritykseen on linkitetty useita ostajia, asiakkaiden automaattista luomista ei tulisi ottaa käyttöön, vaan kukin Shopify-ostaja tulee linkittää omaan asiakkaaseen manuaalisesti.
-  - Yrityksen hintaluetteloja on ylläpidettävä Shopifyssa.
+  - B2B:n lisätuki on saatavilla vuoden 2024 1. julkaisuaallossa. Lisätietoja on kohdassa [Business Centralin yhdistäminen Shopifyn B2B:hen](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/connect-business-central-shopify-b2b)
 - Markkinat
   - Päätietojen useat käännökset. Voit valita yhden kielen, jota käytetään tuotetietojen viennissä.
   - Maa-/aluekohtaiset hinnat. Valitulle valuutalle on saatavilla yksi hinnasto. Shopify käsittelee muuntamisen muihin valuuttoihin.
@@ -84,6 +83,16 @@ Kyllä, Shopify-yhdistintä voidaan laajentaa. Tarkista GitHub ja tutustu [laaje
 ## Voivatko muut osallistua Shopify-yhdistimen työstämiseen?
 
 Kyllä, yhteisö voi osallistua tämän laajennuksen työstämiseen. Löydät [lähdekoodin](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) Microsoft AL -sovelluksen lisäosasäilöstä.
+
+## Shopify-yhdistimen rakentaminen
+
+Shopifyn mukaan, jos haluat luoda ja julkaista Shopify-markkinapaikalla yhdistinsovelluksen, jonka pääasiallisena tarkoituksena on siirtää tai jakaa kauppiastietoja kolmannelle osapuolelle ([!INCLUDE [prod_short](../includes/prod_short.md)]), sinulla on oltava Shopifyn kirjallinen suostumus. Osana tätä prosessia sinun tulee saada Microsoftin suostumus Loppuvastaanottajan tietojen kuittauslomake -lomakkeeseen. Meidän on pyydettävä sinua käsittelemään asiaa Shopifyn kanssa, koska Microsoft ei voi allekirjoittaa kolmansien osapuolten sopimuksia.
+
+### Mitä tehdä
+
+Tarkista Shopifyn vaatimukset, koska sinulla voi vielä olla luetteloimaton sovellus.
+
+Vaihtoehtoisesti Shopify Connector for [!INCLUDE [prod_short](../includes/prod_short.md)] saa jatkuvasti uusia ominaisuuksia ja uusia asiakkaita. Jos huomaat jonkin tietyn välin, harkitse tuote-ehdotuksen (https://aka.ms/bcideas) tai koodiehdotuksen sen lähettämistä [!INCLUDE [prod_short](../includes/prod_short.md)] -ohjelmaan. Sellaisten tarpeiden osalta, jotka eivät välttämättä ole olennaisia suurimmalle osalle asiakkaita ja joita nykyinen laajennettavuusmalli ei pysty käsittelemään helposti, ota yhteyttä [!INCLUDE [prod_short](../includes/prod_short.md)] -kehitystiimiin voidaksesi keskustella käyttötapauksesta. Meidän pitäisi pystyä löytämään toteuttamiskelpoinen ratkaisu.
 
 ## Katso myös
 
