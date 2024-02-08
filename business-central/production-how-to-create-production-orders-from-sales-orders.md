@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.search.form: '99000883, 99000884,'
 ms.service: dynamics-365-business-central
 ---
-# Tuotantotilausten luominen myyntitilauksista
+# <a name="create-production-orders-from-sales-orders"></a>Tuotantotilausten luominen myyntitilauksista
 
 Voit luoda tuotettujen nimikkeiden tuotantotilaukset suodaan myyntitilauksista.  
 
-## Tuotantotilausten luominen myyntitilauksista  
+## <a name="to-create-a-production-order-from-a-sales-order"></a>Tuotantotilausten luominen myyntitilauksista
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 2. Valitse myyntitilaus, jolle haluat luoda tuotantotilauksen.  
@@ -28,7 +28,7 @@ Voit luoda tuotettujen nimikkeiden tuotantotilaukset suodaan myyntitilauksista.
     >
     > Kun myyntitilauksille luodaan tuotantotilauksia Myyntitilauksen suunnittelu -sivulla, tilausten välisiä linkkejä käytetään kysynnän ja tarjonnan välillä. Kun tilausten välisiä linkkejä on määritetty, suunnittelujärjestelmä ei sisällytä linkitettyä tarjontaa tai varastoa täsmäytykseen. Lisätietoja täsmäytyksestä on kohdassa [Tilausten väliset linkit](design-details-central-concepts-of-the-planning-system.md#order-to-order-links).
 
-## Tilaustyyppi  
+## <a name="order-type"></a>Tilaustyyppi
 
 Seuraavassa taulukossa käsitellään kaksi tuotantotilausten luontitapaa.
 
@@ -37,7 +37,7 @@ Seuraavassa taulukossa käsitellään kaksi tuotantotilausten luontitapaa.
 |Nimiketilaus|Kullekin nimikkeelle, jolla on rivi **Myyntitilauksen suunnittelu** -sivulla, luodaan yksi tuotantotilaus.|
 |Projektitilaus|Kaikille nimikkeille, joilla on rivi **Myyntitilauksen suunnittelu** -sivulla, luodaan yksi monirivinen tuotantotilaus. Projektitilauksia käytettäessä tuotantotilauksen **Lähdetyyppi**-kentässä on **Myynnin tunnistetiedot**. Tilauksessa on yksi rivi kullekin tuotettavalle myyntitilausriville.|
 
-## Katso myös  
+## <a name="see-also"></a>Katso myös
 
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
 [Tuotanto](production-manage-manufacturing.md)  

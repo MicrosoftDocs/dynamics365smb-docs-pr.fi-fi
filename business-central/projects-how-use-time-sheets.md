@@ -131,7 +131,7 @@ Aikaraportin rekisteröintiä seurataan tunneissa, resurssien perusmittayksikkö
     > Esimies voi hylätä aikaraporttirivin, joka on lähetetty hyväksyttäväksi. Jos rivin tila on **Hylätty**, voit muuttaa riviä ja valita sitten uudelleen **Lähetä**-kohdan.  
 6. Valitse **OK**-painike.
 
-## <a name="to-approve-or-reject-a-time-sheet"></a>Hyväksy tai hylkää aikaraportti
+## <a name="approve-or-reject-a-time-sheet"></a>Hyväksy tai hylkää aikaraportti
 
 Aikaraportti on lähetettävä hyväksyttäväksi, jotta sitä voidaan käyttää. Voit hyväksyä ja hylätä aikarapportin yksittäisiä rivenä tai lähettää ne takaisin lähettäjälle. Aikaraportti voidaan hyväksyä kahdella seuraavalla tavalla:
 
@@ -207,7 +207,7 @@ Kun olet hyväksynyt työn aikaraportin tapahtumia, voit julkaista ne asianmukai
 5. Valitse **Kirjaa**-toiminto.  
 6. Vahvista kirjaus valitsemalla **Tapahtumakirjaukset**-toiminto. Näyttöön avautuu **Projektitapahtumat**-sivu, jossa näkyvät resurssipäiväkirjan kirjausten tulokset.
 
-## <a name="to-archive-time-sheets"></a>Arkistoi aikaraportit
+## <a name="archive-time-sheets"></a>Arkistoi aikaraportit
 
 Kun olet kirjannut aikaraportit, voit arkistoida ne myöhempää käyttöä varten. Kaikki aikaraportin rivit tulee kirjata ennen arkistoimista.
 

@@ -59,7 +59,7 @@ Asennusoppaan lopussa voit määrittää, että [!INCLUDE [prod_short](includes/
 
 Seuraavissa osissa kuvataan, miten voit määrittää tuntiraportteja, jos et käytä avusteista **Määritä tuntiraportteja** -asetusopasta.  
 
-### <a name="to-set-up-general-information-for-time-sheets-manually"></a>Aikaraporttien yleistietojen määrittäminen manuaalisesti
+### <a name="set-up-general-information-for-time-sheets-manually"></a>Aikaraporttien yleistietojen määrittäminen manuaalisesti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Resurssienhallinnan asetukset** ja valitse sitten vastaava linkki.  
 1. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -74,7 +74,7 @@ Seuraavissa osissa kuvataan, miten voit määrittää tuntiraportteja, jos et k�
 | **Aina** |Projektikortin **Vastuuhenkilö**-kenttä hyväksyy aikaraportin. |
 | **Vain kone** |Jos koneen aikaraportti on linkitetty projektiin, projektikortin **Vastuuhenkilö**-kentässä mainittu käyttäjä hyväksyy aikaraportin. Jos koneen aikaraportti on linkitetty resurssiin, resurssikortin **Aikaraportin hyväksyjän käyttäjätunnus** -kentässä mainittu käyttäjä hyväksyy aikaraportin. |
 
-### <a name="to-assign-a-time-sheet-administrator-manually"></a>Aikaraportin järjestelmänvalvojan määrittäminen manuaalisesti
+### <a name="assign-a-time-sheet-administrator-manually"></a>Aikaraportin järjestelmänvalvojan määrittäminen manuaalisesti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjän määritys** ja valitse sitten vastaava linkki.  
 3. Valitse ensin käyttäjä, josta tulee aikaraportin järjestelmänvalvoja, ja valitse sitten **Tuntiraportin valvoja** -valintaruutu.  
@@ -82,7 +82,7 @@ Seuraavissa osissa kuvataan, miten voit määrittää tuntiraportteja, jos et k�
 > [!TIP]  
 > Yrityksen aikaraportin järjestelmänvalvojaksi kannattaa nimetä vain yksi käyttäjä. Seuraavassa toimenpiteessä määritetään aikaraportin omistaja ja hyväksyjä. Aikaraportin hyväksyjä määritetään jokaiselle resurssille.  
 
-### <a name="to-assign-a-time-sheets-owner-and-approver-manually"></a>Aikaraportin omistajan ja hyväksyjän määrittäminen manuaalisesti
+### <a name="assign-a-time-sheets-owner-and-approver-manually"></a>Aikaraportin omistajan ja hyväksyjän määrittäminen manuaalisesti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Resurssit** ja valitse sitten vastaava linkki.
 2. Valitse resurssi, jolle haluat määrittää aikaraporttien käyttömahdollisuuden. Valitse sitten **Käytä aikaraporttia** -valintaruutu.  

@@ -11,11 +11,11 @@ ms.search.form: '30118, 30119, 30120, 30101, 30102'
 ms.service: dynamics-365-business-central
 ---
 
-# Shopify- ja Business Central-synkronoinnin vianetsintä
+# <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Shopify- ja Business Central-synkronoinnin vianetsintä
 
 On mahdollista joutua tilanteisiin, joissa sinun on tehtävä vianmääritys, kun synkronoidaan tietoja Shopifyn ja [!INCLUDE[prod_short](../includes/prod_short.md)]in välillä. Tämä sivu määrittää joidenkin tyypillisten skenaarioiden vianmääritysvaiheet.
 
-## Tehtävien suorittaminen edustalla
+## <a name="run-tasks-in-the-foreground"></a>Tehtävien suorittaminen edustalla
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Shopify-kauppa** ja valitse vastaava linkki.
 2. Valitse kauppa, jolle haluat tehdä vianmäärityksen avataksesi **Shopify-ostoskortti**-sivun.
@@ -23,7 +23,7 @@ On mahdollista joutua tilanteisiin, joissa sinun on tehtävä vianmääritys, ku
 
 Nyt kun synkronointitoiminto käynnistetään, tehtävä suoritetaan edustalla. Jos ilmenee virhe, saat virhevalintaikkunan, jossa on **Kopioi tiedot** -linkki. Linkin avulla voit kopioida tietoja tekstieditoriin lisäanalyysia varten.
 
-## Lokit
+## <a name="logs"></a>Lokit
 
 Lokiinkirjaustoimintojen avulla virheen syy voi olla helpompi saada selville. **Shopify-kauppa-kortti** -sivun **Kirjaamistila**-kentässä voit määrittää virheistä tallennettavien tietojen tason. Kentässä ovat seuraavat vaihtoehdot:
 
@@ -31,7 +31,7 @@ Lokiinkirjaustoimintojen avulla virheen syy voi olla helpompi saada selville. **
 - **Vain virhe** - Kirjaa vain virhesanoma lokiin ilman pyyntö-/vastauspareja. Tämä on oletusasetus uusille kaupoille.
 - **Kaikki** - Kaikkien tapahtumien, myös onnistuneiden tapahtumien, pyyntö-/vastausparien kirjaaminen lokiin. Kaikkien virheiden jatkuva kirjaaminen lokiin voi hidastaa kohdetta [!INCLUDE [prod_short](../includes/prod_short.md)]. Käytä tätä tilaa, kun tiedonvaihto ei johda virheeseen, mutta haluat saada enemmän tietoa tiedoista, jotka tosiasiallisesti lähetettiin ja vastaanotettiin. Huomaa, että jotain tietoja kirjataan aina lokiin, riippumatta siitä, onko kirjaaminen käytössä. Lisätietoja on kohdassa [Tietojen kaappaaminen](#data-capture).
 
-### Lokien tarkasteleminen
+### <a name="to-review-logs"></a>Lokien tarkasteleminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Shopify-lokitapahtumat** ja valitse sitten vastaava linkki.
 2. Valitse liittyvä lokitapahtuma ja avaa sitten **Shopify-lokitapahtuma**-sivu.
@@ -42,13 +42,13 @@ Lokiinkirjaustoimintojen avulla virheen syy voi olla helpompi saada selville. **
 
 Voit ladata pyyntö- ja vastausarvot tiedostoina tekstimuodossa.
 
-### Lokin tapahtumatietojen hallinta
+### <a name="manage-log-entry-data"></a>Lokin tapahtumatietojen hallinta
 
 Lokitapahtumat sisällytetään tietojen säilyttämiskäytäntöön nimeltä **Shopify-lokitapahtuma**, jotta tietokannan koko pysyy hallinnassa. Säilyttämiskäytäntöjen avulla voit määrittää, kuinka kauan haluat tallentaa erityyppisiä tietoja. Shopify-lokitapahtumia säilytetään oletusarvoisesti yhden kuukauden ajan. Lisätietoja Teamsin säilytyskäytännöistä on kohdassa [Säilytyskäytäntöjen määrittäminen](../admin-data-retention-policies.md).
 
 Lisäksi **Shopify-lokitapahtumat**-sivulla voit poistaa kaikki lokitapahtumat tai vain sellaiset, jotka ovat vanhempia kuin seitsemän päivää.
 
-## Tiedonkeruu
+## <a name="data-capture"></a>Tiedonkeruu
 
 Osa Shopify-vastauksista kirjataan aina lokiin, riippumatta siitä, onko kirjaaminen käytössä. Voit tarkastaa tai ladata lokitiedot **Tietojen sieppausluettelo** -sivulta.
 
@@ -67,13 +67,13 @@ Valitse **Haettu Shopify-data** -toiminto jollakin seuraavista sivuista:
 - **Shopify-maksutapahtumat**
 - **Shopify-tapahtumat**
 
-## Palauta synkronointi
+## <a name="reset-sync"></a>Palauta synkronointi
 
 Parhaan suorituskyvyn takaamiseksi yhdistin tuo vain edellisen synkronoinnin jälkeen luodut tai muutetut asiakkaat, tuotteet ja tilaukset. **Shopify-ostoskortti**-sivulla on toimintoja, joiden avulla voi muuttaa viimeisimmän synkronoinnin päivämäärää ja aikaa tai nollata sen kokonaan. Tämä toiminto varmistaa sen, että kaikki tiedot synkronoidaan eikä vain viimeisimmän synkronoinnin jälkeen tehtyjä muutoksia.
 
 Tämä toiminto koskee vain synkronointia Shopifysta [!INCLUDE[prod_short](../includes/prod_short.md)] -toimintoon. Se voi olla hyödyllinen, jos haluat palauttaa poistetut tiedot, kuten tuotteet, asiakkaat tai poistetut tilaukset.
 
-## Käyttöoikeustunnuksen pyytäminen
+## <a name="request-the-access-token"></a>Käyttöoikeustunnuksen pyytäminen
 
 Jos [!INCLUDE[prod_short](../includes/prod_short.md)] ei pysty muodostamaan yhteyttä Shopify-tiliisi, pyydä käyttöoikeustietuetta Shopifysta. Sinun täytyy ehkä pyytää uusi tunnus, jos suojausavaimiin tai käyttöoikeuksiin (sovelluksen vaikutusalueisiin) tehtiin muutoksia.
 
@@ -84,7 +84,7 @@ Jos [!INCLUDE[prod_short](../includes/prod_short.md)] ei pysty muodostamaan yhte
 
 **On AccessKey** -vaihto on käytössä.
 
-## Tarkista ja ota käyttöön käyttöoikeudet, jotka mahdollistavat HTTP-pyyntöjen luomisen muussa kuin tuotantoympäristössä
+## <a name="verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment"></a>Tarkista ja ota käyttöön käyttöoikeudet, jotka mahdollistavat HTTP-pyyntöjen luomisen muussa kuin tuotantoympäristössä
 
 Toimiakseen oikein Shopify-yhdistinlaajennus tarvitsee oikeuden HTTP-pyyntöjen tekemiseen. HTTP-pyynnöt on kielletty kaikkien laajennusten osalta, kun suoritetaan testejä eristysympäristöissä.
 
@@ -93,26 +93,26 @@ Toimiakseen oikein Shopify-yhdistinlaajennus tarvitsee oikeuden HTTP-pyyntöjen 
 3. Avaa **Laajennusasetukset**-sivu valitsemalla **Määritä**-toiminto.
 4. Varmista, että **Salli HTTPClient-pyynnöt** -valitsin on käytössä.
 
-## Shopify-käyttöoikeustunnuksen kääntäminen
+## <a name="rotate-the-shopify-access-token"></a>Shopify-käyttöoikeustunnuksen kääntäminen
 
 Seuraavissa ohjeissa kuvataan, miten Shopify-liittimen käyttämää käyttötunnussanomaa kierrätetään Shopify-verkkokaupan käyttöä varten.
 
-### Shopifyssa
+### <a name="in-shopify"></a>Shopifyssa
 
 1. Siirry **Shopify-hallinnasta** kohtaan [Sovellukset](https://www.shopify.com/admin/apps).
 2. Valitse **Dynamics 365 Business Central** -sovelluksen riviltä **Poista**.
 3. Valitse avautuvassa sanomassa **Poista**.
 
-### [!INCLUDE[prod_short](../includes/prod_short.md)]issa
+### <a name="in-"></a>[!INCLUDE[prod_short](../includes/prod_short.md)]issa
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Shopify-kaupat** ja valitse sitten vastaava linkki.
 2. Valitse kauppa, jolle haluat kierrättää käyttöoikeustunnuksen avataksesi **Shopify-ostoskortti**-sivun.
 3. Valitse **Pyydä käyttöoikeutta** -toiminto.
 4. Kirjaudu pyydettäessä sisään Shopify-tiliisi, tarkista tietosuoja ja käyttöoikeudet ja valitse sitten **Asenna sovellus** -painike.
 
-## Tunnetut ongelmat
+## <a name="known-issues"></a>Tunnetut ongelmat
 
-### Virhe: myynnin otsikkoa ei ole. Tunnistuskentät ja -arvot: Document Type='Quote',No.='YOUR SHOPIFY STORE'
+### <a name="error-the-sales-header-does-not-exist-identification-fields-and-values-document-typequotenoyour-shopify-store"></a>Virhe: myynnin otsikkoa ei ole. Tunnistuskentät ja -arvot: Document Type='Quote',No.='YOUR SHOPIFY STORE'
 
 Laskeakseen hinnat Shopify-yhdistin luo väliaikaisen asiakkaan (kauppakoodin) väliaikaisen myyntiasiakirjan (tarjouksen) ja käyttää vakiohinnan laskentalogiikkaa. Jos kolmannen osapuolen laajennus tilaa väliaikaisen myyntiasiakirjan tapahtumia, otsikko ei välttämättä ole käytettävissä. Microsoft suosittelee, että otat yhteyttä laajennuksen tarjoajaan. Pyydä heitä muuttamaan koodia tilapäisten tietueiden tarkistusta varten. Joissakin tapauksissa riittää, että `IsTemporary`-menetelmä lisätään oikeaan paikkaan riittää. Lisätietoja `IsTemporary`-kohteesta on kohdassa [IsTemporary](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method). 
 
@@ -134,30 +134,30 @@ AL-kutsupino:
 
 Muista jakaa AL-kutsupinon tiedot laajennuksen toimittajan kanssa.
 
-### Virhe: yleinen. Liiketoiminnan kirjausryhmä täytyy sisältää arvon kohdassa Asiakas: 'SINUN SHOPIFY-KAUPPASI'. Se ei voi olla null eikä tyhjä
+### <a name="error-gen-bus-posting-group-must-have-a-value-in-customer-your-shopify-store-it-cannot-be-zero-or-empty"></a>Virhe: yleinen. Liiketoiminnan kirjausryhmä täytyy sisältää arvon kohdassa Asiakas: 'SINUN SHOPIFY-KAUPPASI'. Se ei voi olla null eikä tyhjä
 
 Valitse **asiakasmallikoodi**-kenttä **Shopify-ostoskortti**-ikkunassa käyttäen mallia, jossa on **Ylein. liiketoim. kirjausryhmä** täytetty. Asiakasmallia käytetään luomaan asiakkaita ja laskemaan myyntihintoja myyntiasiakirjoissa.
 
-### Virhe: Tietojen tuominen Shopify-kauppaan ei ole käytössä. Ota se käyttöön siirtymällä ostoskorttiin
+### <a name="error-importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>Virhe: Tietojen tuominen Shopify-kauppaan ei ole käytössä. Ota se käyttöön siirtymällä ostoskorttiin
 
 Ota **Shopify-ostoskortti**-sivulla käyttöön **Salli tietojen synkronointi Shopifyssa** -vaihtoehto käyttöön. Tämä asetus auttaa suojaamaan verkkokauppaa saamasta demotietoja kohteesta [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-### Virhe: Oauth-virhe invalid_request: Shopify-sovellusrajapintasovellusta ei löytynyt haulla api_key
+### <a name="error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key"></a>Virhe: Oauth-virhe invalid_request: Shopify-sovellusrajapintasovellusta ei löytynyt haulla api_key
 
 Näyttää siltä, että käytät [upota sovellus](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview) -toimintoa, jossa asiakkaan URL-osoite on muotoa: `https://[application name].bc.dynamics.com`. Shopify-yhdistin ei toimi upotettavien sovellusten yhteydessä. Lue lisää kohdasta [Mille Microsoft-tuotteille Shopify-yhdistin on saatavilla?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
 
-### Virhe: sisäinen virhe. Jokin meni vikaan meidän päässämme. Pyyntötunnus: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
+### <a name="error-internal-error-looks-like-something-went-wrong-on-our-end-request-id-xxxxxxxx-xxxx-xxxx-xxxx-xxxx"></a>Virhe: sisäinen virhe. Jokin meni vikaan meidän päässämme. Pyyntötunnus: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
 
 Ota yhteyttä Shopify-tukeen 7 päivän kuluessa tämän virheen ilmenemistä ja anna pyynnön tunnus. Saat lisätietoja siirtymällä [Shopifyn tukivaihtoehtoihin](shopify-faq.md#shopify).
 
-### Virhe: Oauth-virheen invalid_request: tililläsi ei ole lupaa myöntää pyydettyä käyttöoikeutta tälle sovellukselle. 
+### <a name="error-oauth-error-invalid_request-your-account-does-not-have-permission-to-grant-the-requested-access-for-this-app"></a>Virhe: Oauth-virheen invalid_request: tililläsi ei ole lupaa myöntää pyydettyä käyttöoikeutta tälle sovellukselle.
 
 Näyttää siltä, että käyttäjällä, joka pyytää käyttöoikeutta, ei ole oikeuksia hallita sovelluksia (kykyä hallita ja asentaa sovelluksia ja kanavia sekä mahdollisesti hyväksyä sovellusmaksuja). Voit ehkä ratkaista tämän ongelman asentamalla sovelluksen tilin omistajaksi. Vaihtoehtoisesti voit tarkistaa käyttäjän **sovelluksen käyttöoikeudet** [**Käyttäjät ja käyttöoikeudet**](https://www.shopify.com/admin/settings/account) -asetuksista **Shopify-järjestelmänvalvojassa**.  
 
-### [{"viesti":"Pääsy estetty FIELD-kentässä","sijainnit":[{"rivi":0,"sarake":0}],"polku":["polku"],"laajennukset":{"koodi":"ACCESS_DENIED","dokumentaatio":https://shopify.dev/api/usage/access-scopes}}]
+### <a name="messageaccess-denied-for-field-fieldlocationsline0column0pathpathextensionscodeaccess_denieddocumentationhttpsshopifydevapiusageaccess-scopes"></a>[{"viesti":"Pääsy estetty FIELD-kentässä","sijainnit":[{"rivi":0,"sarake":0}],"polku":["polku"],"laajennukset":{"koodi":"ACCESS_DENIED","dokumentaatio":https://shopify.dev/api/usage/access-scopes}}]
 
 Pyydä uusi tunnus, koska yhdistimen päivitetty versio vaatii enemmän käyttöoikeuksia (sovelluksen käyttöalueita). Lue lisätietoja kohdasta [Pyydä käyttöoikeustunnusta](#request-the-access-token).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Shopifyn yhdistimen käytön aloittaminen](get-started.md)
