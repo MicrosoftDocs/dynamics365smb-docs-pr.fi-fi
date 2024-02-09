@@ -11,7 +11,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Maksamattomien myyntilaskujen korjaaminen tai peruuttaminen
+# <a name="correct-or-cancel-unpaid-sales-invoices"></a>Maksamattomien myyntilaskujen korjaaminen tai peruuttaminen
 
 Voit korjata tai peruuttaa maksamattoman kirjatun myyntilaskun, jos sitä ei ole toimitettu kokonaan. Tästä on hyötyä, jos teet virheen tai jos asiakas pyytää muutosta ennen kuin toimitus on valmis. Kaikissa muissa tilanteissa on suositeltavaa luoda korjaava myyntihyvityslasku suoraan. Lisätietoja on kohdassa [Myyntihyvitysaskun luominen kirjatusta myyntilaskusta](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).  
 
@@ -30,7 +30,7 @@ Kun korjaat tai peruutat kirjatun myyntilaskun, korjaavaa myyntihyvityslaskua k�
 > [!TIP]
 > Jos myyntilaskun ennakkomaksulasku on kirjattu ja sitä sitten korjataan tai se peruutetaan, myös ennakkomaksu on korjattava tai peruutettava. Lisätietoja on kohdassa [Ennakkomaksujen korjaaminen](finance-how-to-correct-prepayments.md).
 
-## Kirjatun myyntilaskun peruuttaminen
+## <a name="to-cancel-a-posted-sales-invoice"></a>Kirjatun myyntilaskun peruuttaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut myyntilaskut** ja valitse sitten vastaava linkki.  
 2. Valitse kirjattu myyntilasku, jonka haluat peruuttaa.
@@ -42,11 +42,11 @@ Kun korjaat tai peruutat kirjatun myyntilaskun, korjaavaa myyntihyvityslaskua k�
     Korjaava myyntihyvityslasku luodaan automaattisesti ja kirjataan mitätöimään alun perin kirjattu myyntilasku. Alkuperäisen kirjatun myyntilaskun **Peruutettu**-kentän arvoksi muutetaan **Kyllä**.
 4. Valitse **Näytä korjaava hyvityslasku**, kun haluat tarkastella kirjattua myyntihyvityslaskua, joka mitätöi alkuperäisen kirjatun myyntilaskun.
 
-### Osittaisen laskun kirjausta tuetaan myös
+### <a name="partial-invoice-posting-also-supported"></a>Osittaisen laskun kirjausta tuetaan myös
 
 Jos peruutus liittyy osittaiseen laskun kirjaukseen, alkuperäinen myyntitilausrivi päivitetään peruutetun laskutetun määrän mukaiseksi. **Laskutettava määrä** - ja **Laskutettu määrä** -kentät liittyvässä myyntitilauksessa palautetaan arvoihin ennen osittaista kirjausta.
 
-## Kirjatun myyntilaskun korjaaminen
+## <a name="to-correct-a-posted-sales-invoice"></a>Kirjatun myyntilaskun korjaaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut myyntilaskut** ja valitse sitten vastaava linkki.  
 2. Valitse kirjattu myyntilasku, jonka haluat korjata.
@@ -62,7 +62,7 @@ Jos peruutus liittyy osittaiseen laskun kirjaukseen, alkuperäinen myyntitilausr
     Korjaava myyntihyvityslasku luodaan automaattisesti ja kirjataan mitätöimään alun perin kirjattu myyntilasku.
 5. Valitse **Näytä korjaava hyvityslasku** -toiminto, kun haluat tarkastella kirjattua myyntihyvityslaskua, joka mitätöi alkuperäisen kirjatun myyntilaskun.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
