@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 [!INCLUDE[prod_short](prod_short.md)] -käyttäjät voivat joskus tukea useampaa kuin yhtä osastoa tai aliorganisaatiota liiketoimintayksikön sisällä. Yrityksellä voi esimerkiksi olla myyntitoimistoja eri kaupungeissa useissa maissa ja useilla alueilla, joten se on luonut erillisen liiketoimintayksikön kullekin toimistolle. Samassa maassa tai samalla alueella olevat toimistot määritetään erillisinä *yrityksinä* jaetussa *ympäristössä*. Muut toimistot luodaan yrityksinä erillisissä ympäristöissä, koska ne sijaitsevat maantieteellisesti muissa maissa tai muilla alueilla.
 

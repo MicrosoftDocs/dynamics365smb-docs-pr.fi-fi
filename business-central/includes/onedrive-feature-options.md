@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 |Asetus|Kuvaus|
 |------|----------|
 |**Käytä sovellusominaisuuksia OneDriven avulla**|Jos otat tämän asetuksen käyttöön, **Avaa OneDrivessä**- ja **Jaa**-toiminnot ovat käytettävissä Business Centralin tiedostoissa, kuten asiakirjoihin liitetyissä tiedostoissa tai Saapuneet raportit -kansiossa. Näiden toimintojen avulla käyttäjät voivat kopioida, avata ja jakaa tiedostoja OneDrivessa. <ul><li>Business Centralin ominaisuudet, jotka tallentavat ja keräävät asiakirjoja ja muita tiedostoja ja sisältävät Avaa OneDrivessa- ja Jaa-toiminnot, joiden avulla tiedostot, kuten saapuvat asiakirjat ja tietueliitteet, voidaan tuoda Business Centralista.</li><li>Toimialan ominaisuudet, jotka luovat mukautettuja Excel-työkirjoja, esimerkiksi myyntibudjetteja.</li><li>Saapuneet raportit -kohtaan lähetetyt raportit</li><li>Jos olet asentanut mukautuksia tai laajennuksia, nämä voivat lisätä OneDrivea käyttäviä ominaisuuksia.</li></ul>Lisätietoja on kohdassa [Business Centralin tiedostojen avaaminen ja jakaminen OneDrivessa](../across-share-onedrive.md).

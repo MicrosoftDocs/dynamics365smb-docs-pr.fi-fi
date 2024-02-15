@@ -3,15 +3,14 @@ title: ALV-hallinnan yleiskatsaus
 description: 'Lisätietoja ALV:n hallinnasta luettelossa olevien tietojen ja resurssien avulla.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: VAT
 ms.search.form: '118, 472, 737, 743'
 ms.date: 01/31/2023
 ms.author: altotovi
+ms.service: dynamics-365-business-central
 ---
-# <a name="vat-management-overview"></a>ALV-hallinnan yleiskatsaus
+# ALV-hallinnan yleiskatsaus
 Arvonlisävero (ALV) on välillinen vero tavaroiden ja palvelujen kulutuksesta. ALV peritään toimitusketjun jokaisessa vaiheessa, jossa arvoa lisätään alkutuotannosta myyntipisteeseen. Aloita ALV-hallinta katsomalla seuraavat aiheet.  
 
 |  Artikkeli  |  Kuvaus  |  
@@ -29,7 +28,7 @@ Arvonlisävero (ALV) on välillinen vero tavaroiden ja palvelujen kulutuksesta. 
 | [ALV-rekisterinumeroiden tarkistaminen](finance-how-validate-vat-registration-number.md) | Tässä artikkelissa kerrotaan, miten voit käyttää Business Centralin vahvistusta ALV-rekisterinumeroille kontakteillesi, asiakkaillesi ja toimittajillesi EU VIES ALV -numeron validointipalvelun perusteella.|
 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 [Taloushallinto](finance.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

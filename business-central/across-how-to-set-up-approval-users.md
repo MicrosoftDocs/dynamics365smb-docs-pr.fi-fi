@@ -3,14 +3,13 @@ title: Hyväksynnän käyttäjien määrittäminen
 description: 'Ennen kuin voit luoda työnkulkuja, joihin liittyy hyväksyntävaiheita, sinun on määritettävä hyväksymisprosesseihin osallistuvat työnkulun käyttäjät.'
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '663,'
 ms.date: 05/31/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-approval-users"></a>Hyväksynnän käyttäjien määrittäminen
+# Hyväksynnän käyttäjien määrittäminen
 
 Ennen kuin voit luoda työnkulkuja, joihin liittyy hyväksyntävaiheita, sinun on määritettävä hyväksymisprosesseihin osallistuvat käyttäjät **Hyväksynnän käyttäjäasetukset** -sivulla. Voit myös määrittää määrärajoja erityyppisille pyynnöille, määrittää korvaavia hyväksyjiä ja määrittää ilmoituksia.  
 
@@ -19,7 +18,7 @@ Kun olet määrittänyt hyväksynnän käyttäjät, voit määrittää työnkulu
 > [!TIP]
 > Voit edellyttää, että useat hyväksyjät reagoivat hyväksymispyyntöön luomalla hyväksyjien ryhmän **Työnkulun käyttäjäryhmä** -sivulla. Lisätietoja kohdassa [Työnkulun käyttäjäryhmien määrittäminen](across-how-to-set-up-workflow-users.md).  
 
-## <a name="to-set-up-an-approval-user"></a>Hyväksynnän käyttäjän määrittäminen
+## Hyväksynnän käyttäjän määrittäminen
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
@@ -46,7 +45,7 @@ Kun olet määrittänyt hyväksynnän käyttäjät, voit määrittää työnkulu
 
 Seuraava askel on määrittää, miten haluat [!INCLUDE [prod_short](includes/prod_short.md)]in ilmoittavan käyttäjille, että pyyntö on odottamassa heidän huomiotaan. Lisätietoja: [Hyväksyntätyönkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md)  
 [Työnkulkuilmoitusten määrittäminen](across-setting-up-workflow-notifications.md)  

@@ -5,6 +5,7 @@ metadata:
   ms.topic: faq
   author: brentholtorf
   ms.author: bholtorf
+  ms.service: dynamics-365-business-central
 title: Sähköinen laskutus – usein kysytyt kysymykset
 summary: |
   Sisäänrakennettu asiakirjojen vaihtopalvelu lähettää sähköiset laskut TradeShift-palveluntarjoajalle, joka välittää sähköiset laskut PEPPOLIN- tai NemHandel-vastaanottajille. Palvelu tukee kuitenkin rajoitettua määrää versioita.   

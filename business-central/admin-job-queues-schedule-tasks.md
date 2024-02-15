@@ -63,13 +63,16 @@ Seuraavassa taulukossa kuvataan **Tila**-kentän arvot.
 |--|--|
 | Valmis | Työjonotapahtuma on valmis suoritettavaksi. |
 | Työn alla | Työjonotapahtuma on keskeneräinen. Tämä kenttä päivittyy, kun työjonoa suoritetaan. |
-| Pidossa | Työtapahtuman oletustila, kun se luodaan. Valitse **Aseta tilaksi valmis** -toiminto, jotta tilaksi muuttuu **Valmis**. Palauta tilaksi **Pidossa** valitsemalla **Määritä pitoon**. |
-| Virhe | Tapahtui virhe. Valitse **Näytä virhe**, niin näyttöön tulee virhesanoma. |
+| Pidossa | Työtapahtuman oletustila, kun se luodaan. Valitse **Aseta tilaksi valmis** -toiminto, jotta tilaksi muuttuu **Valmis**. Palauta tilaksi **Pidossa** valitsemalla **Määritä pitoon**. Lue lisätietoja [Pidossa](#about-on-hold)-kohdasta.|
+| Virhe | Jokin meni vikaan. Valitse **Näytä virhe**, niin näyttöön tulee virhesanoma. |
 | Valmis | Työjonotapahtuma on valmis. |
 
-> [!Tip]  
+> [!TIP]  
 > Työjonotapahtumien suoritus loppuu, kun tapahtuu virhe. Tämä voi olla ongelma esimerkiksi silloin, kun tapahtuma muodostaa yhteyden ulkoiseen palveluun, kuten pankkisyötteeseen. Jos palvelu ei ole väliaikaisesti saatavilla ja työjonotapahtuma ei pysty muodostamaan yhteyttä, tapahtuma näyttää virheen ja sen suorittaminen loppuu. Työjonotapahtuma on käynnistettävä manuaalisesti uudelleen. Voit kuitenkin välttää tämän tilanteen kentillä **Yritysten enimmäismäärä** ja **Uudelleenajon viive (s)**. **Yritysten enimmäismäärä** -kentän avulla voit määrittää, kuinka monta kertaa työjonotapahtuma voi epäonnistua, ennen kuin sen suorittamisen yrittäminen loppuu. **Uudelleenajon viive (s)** -kentän avulla voit määrittää yritysten välisen ajan sekunneissa. Näiden kahden kentän yhdistelmä saattaa pitää työjonotapahtuman käynnissä, kunnes ulkoinen palvelu on käytettävissä.
 
+### Pidossa-tilasta
+
+Työjonotapahtuman asettaminen **Pidossa**-arvoksi ei vaikuta jo käynnissä olevaan työhön. Kun työ on alkanut työjonossa, se jatkuu valmistumiseen asti huolimatta työjonotapahtumaan tehdyistä muutoksista, kuten työn pidossa olosta.<br><br>**Pidossa**-tilaa käytetään yleensä estämään työn automaattinen käynnistyminen, kun se saavuttaa aikataulutetun aloitusajan. Sen avulla voit keskeyttää työn suorittamisen väliaikaisesti ennen sen käsittelyn aloittamista. Kun työ on jo käynnissä, tilan muuttaminen Pidossa-tilaksi ei kuitenkaan keskeytä työn suorittamista tai vaikuta sen toteuttamiseen.<br><br>Jos käynnissä oleva työ on keskeytettävä tai peruutettava, voit tehdä sen puuttumalla prosessiin manuaalisesti. Voit esimerkiksi päättää vastaavan istunnon tai prosessin, joka vastaa työn suorittamisesta.
 ### Minkä tahansa työn tilan näyttäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työjonon tapahtumat** ja valitse sitten vastaava linkki.

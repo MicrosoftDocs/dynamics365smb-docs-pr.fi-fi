@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: troubleshooting
 ms.collection:
   - bap-ai-copilot
-ms.date: 11/15/2023
+ms.date: 02/01/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -30,8 +30,12 @@ Kun yrität käyttää Copilotia ja saat virheilmoituksen, kuten **Copilotia ei 
 - Varmista ensin, että ominaisuus on aktivoitu **Copilotin ja tekoälyn ominaisuudet** -sivulla. [Lisätietoja Copilotin ja tekoälyn ominaisuuksien aktivoinnista](enable-ai.md#activate-features). 
 - Varmista seuraavaksi, että Azuren OpenAI -integraation tietosuojailmoitus ei ole asetettu arvoon **Eri mieltä kaikkien kanssa**. Jos on, muuta se muotoon **Samaa mieltä kaikkien kanssa**. [Lue lisää tietosuojailmoituksista](privacy-notices-status.md).
 
+## Microsoftin avustajaominaisuudet, joita ei ole lueteltu Copilot- ja tekoälyominaisuudet -sivulla
+
+Jos mikään Microsoftin tekoälyominaisuuksista ei näy **Copilotin ja tekoälyn ominaisuudet** -sivulla, se johtuu todennäköisesti siitä, että ympäristöösi on asennettu yksi tai useampi upotettu sovellus. Upotetut sovellukset voivat tarjota omia Copilot-ominaisuuksia, mutta Microsoftin julkaisemat ominaisuudet eivät ole yhteensopivia sellaisten ympäristöjen kanssa, joihin on upotettu sovelluksia.
+
 ## Katso myös
 
-[Copilotin ja tekoälyn ominaisuuksien määrittäminen](enable-ai.md)  
+[Copilot- ja tekoälyominaisuuksien määrittäminen](enable-ai.md)  
 [Copilotin avulla luodut markkinointitekstiehdotukset](ai-overview.md)  
 [Täsmäytä pankkitilit Copilotin avulla](bank-reconciliation-with-copilot.md)  
