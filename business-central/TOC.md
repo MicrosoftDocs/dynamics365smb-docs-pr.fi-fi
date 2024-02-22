@@ -1560,6 +1560,7 @@ ms.service: dynamics-365-business-central
 #### [Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md)
 #### [Laskun kirjauskäytännön määrittäminen käyttäjille](admin-setup-invoice-posting-policy.md)
 #### [Asiakirjapäivämäärien päivittäminen kirjauspäivämäärillä](across-link-doc-dates-to-posting-dates.md)
+#### [Varaston loppumisen varoituksen näyttäminen](sales-setup-show-stockout-warning.md)
 ### Ostojen määrittäminen
 #### [Ostojen määrittäminen](purchasing-setup-purchasing.md)
 #### [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md)
