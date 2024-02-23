@@ -2,13 +2,14 @@
 title: Asiakkaan myyntitilauksen luominen ja tuotteiden myyminen
 description: 'Tässä ohjeaiheessa kerrotaan, miten luodaan myyntitilaus kirjaamaan asiakkaan kanssa tehty sopimus tuotteiden myynnistä tai kaupasta tietyin ehdoin.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: soalex
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 11/03/2023
-ms.author: bholtorf
+ms.date: 02/01/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Tuotteiden myyminen asiakkaan myyntitilauksen avulla
 
@@ -89,6 +90,12 @@ Nyt järjestelmässä luodaan liittyvä nimike ja asiakastapahtumat. Myyntitilau
 ## Ulkoisen tiedoston numero
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
+
+## Summan sisältävien kenttien käsitteleminen
+
+Summat näyttävien kenttien arvot voivat olla positiivisia tai negatiivisia sen mukaan, vastaako arvo kredit- vai debet-summaa. Tässä videossa kuvataan, miten summia näyttäviä kenttiä käsitellään.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
 
 ## Katso myös
 

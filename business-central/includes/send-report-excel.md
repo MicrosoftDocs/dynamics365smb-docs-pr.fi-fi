@@ -1,2 +1,5 @@
+---
+ms.service: dynamics-365-business-central
+---
 > [!TIP]
 > **Entä raportit?** No, voit viedä raportin tulokset Excel-tiedostoon koko tietojoukon tarkastelemista varten, kaikki sarakkeet mukaan lukien. Excel-tiedoston avulla voit tarkistaa, että raportti palauttaa odotetut tiedot. Jos haluat viedä raportin, suorita raportti ja valitse **Lähetä kohteeseen** > **Microsoft Excel -asiakirja (vain tiedot)** pyyntösivulla. Lisätietoja on kohdassa [Raporttien käyttäminen – Raportin tallentaminen tiedostoon](../ui-work-report.md#saving-a-report-to-a-file).

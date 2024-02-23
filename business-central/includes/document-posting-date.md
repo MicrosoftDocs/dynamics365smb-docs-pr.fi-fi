@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-Myynti- ja ostoasiakirjojen **Asiakirjan pvm**- ja **Kirjauspvm**-kentät auttavat sinua noudattamaan kirjanpitostandardeja ja varmistamaan tarkat talouslaskelmat. Kentät ovat eri tarkoituksia varten:
+Myynti- ja ostoasiakirjojen **Asiakirjan pvm**- ja **Kirjauspvm**-kentät auttavat sinua noudattamaan kirjanpitostandardeja ja saamaan tarkat talouslaskelmat. Kentät ovat eri tarkoituksia varten:
 
 - Jotta [!INCLUDE [prod_short](prod_short.md)] laskee viivästyskulut ja myyntilaskuissa erääntyvät summat oikein, **Asiakirjan pvm** -kohdan on oltava yhdenmukainen yhden seuraavista päivämääristä kanssa:
 
