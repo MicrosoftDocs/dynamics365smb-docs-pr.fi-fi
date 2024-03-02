@@ -2,17 +2,20 @@
 title: Rakennetiedot – Pääkirjanpidon tilit | Microsoft Docs
 description: 'Kun varasto ja kapasiteettitapahtumat täsmäytetään pääkirjanpidon kanssa, liittyvät arvotapahtumat kirjataan pääkirjanpidon eri tileille.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: null
-ms.date: 06/08/2021
 ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: conceptual
+ms.search.keywords: null
+ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="design-details-accounts-in-the-general-ledger"></a>Rakennetiedot: pääkirjanpidon tilit
+# Rakennetiedot: pääkirjanpidon tilit
+
 Kun varasto ja kapasiteettitapahtumat täsmäytetään pääkirjanpidon kanssa, liittyvät arvotapahtumat kirjataan pääkirjanpidon eri tileille. Lisätietoja on kohdassa [Rakennetiedot: täsmäytys pääkirjanpidon kanssa](design-details-reconciliation-with-the-general-ledger.md).  
 
-## <a name="from-the-inventory-ledger"></a>Inventointitapahtumista
+## Inventointitapahtumista  
+
 Seuraavassa taulukossa esitetään suhde eri varastoarvojen kirjausten ja pääkirjan tilien ja balansoitavien tilien välillä.  
 
 |**Nimiketapahtuman tyyppi**|**Arvotapahtuman tyyppi**|**Vaihtelutyyppi**|**Oletettu kustannus**|**Tili**|**Vastatili**|  
@@ -55,7 +58,8 @@ Seuraavassa taulukossa esitetään suhde eri varastoarvojen kirjausten ja pääk
 |Kokoonpanon tuotos|Vaihtelu|Tuotannon yleiskustannus|Ei|Vaihto-omaisuus|Valm. yleisvaihtelu|  
 |Kokoonpanon tuotos|Pyöristäminen||Ei|Vaihto-omaisuus|Varastonmuutos|  
 
-## <a name="from-the-capacity-ledger"></a>Kapasiteettikirjauksista
+## Kapasiteettikirjauksista  
+
  Seuraavassa taulukossa esitetään suhde eri kapasiteettiarvojen kirjausten ja pääkirjan tilien ja balansoitavien tilien välillä. Kapasiteettitapahtumat edustavat kulutettua työaikaa kokoonpano- tai tuotantotyössä.  
 
 |**Työn tyyppi**|**Kapasiteettitapahtuman tyyppi**|**Arvotapahtuman tyyppi**|**Tili**|**Vastatili**|  
@@ -63,20 +67,22 @@ Seuraavassa taulukossa esitetään suhde eri varastoarvojen kirjausten ja pääk
 |Kokoonpano|Resurssi|Välitön kustannus|Kohdistettu välitön kustannus|Varastonmuutos|  
 |Kokoonpano|Resurssi|Välillinen kustannus|Kohdistettu yleiskust.|Varastonmuutos|  
 |Tuotanto|Kuormitusryhmä/tuotantosolu|Välitön kustannus|KET tili|Kohdistettu välitön kustannus|  
-|Tuotanto|Kuormitusryhmä/tuotantosolu|Välillinen kustannus|KET tili|Kohdistettu yleiskust.|  
+|Tuotanto|Kuormitusryhmä/tuotantosolu|Välillinen kustannus|KET tili|Kohdistettu yleiskustannus|  
 
-## <a name="assembly-costs-are-always-actual"></a>Kokoonpanokustannukset ovat aina todellisia
+## Kokoonpanokustannukset ovat aina todellisia  
+
  Kuten yllä olevassa taulukossa on esitetty, kirjauksia ei esitetä väliaikaisilla tileillä. Tämä johtuu siitä, että KET:n konsepti ei ole käytössä kokoonpanon tuotoksen kirjauksessa, toisin kuin tuotannon tuotoksen kirjaus. Kokoonpanokustannukset kirjataan vain todellisina kustannuksina, eikä koskaan oletettuina kustannuksina.  
 
- Katso lisätietoja kohdasta [Rakennetiedot: kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md).  
+ Lisätietoja on kohdassa [Rakennetiedot: Kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md).  
 
-## <a name="calculating-the-amount-to-post-to-the-general-ledger"></a>Lasketaan pääkirjanpitoon kirjattavaa summaa
+## Lasketaan pääkirjanpitoon kirjattavaa summaa  
+
  Seuraavia kenttiä **Arvotapahtuma**-taulukossa käytetään laskemaan arvioitu kustannussumma, joka on tiliöity pääkirjaan:  
 
--   Kustannussumma (todellinen)  
--   KP:oon kirjattu kustannus  
--   Kustannussumma (oletettu)  
--   Olet. kust. kirjattu KP:oon  
+- Kustannussumma (todellinen)  
+- KP:oon kirjattu kustannus  
+- Kustannussumma (oletettu)  
+- Olet. kust. kirjattu KP:oon  
 
 Seuraavassa taulukossa esitetään, kuinka pääkirjaan tiliöitävät summat lasketaan kahdelle eri kustannustyypille.  
 
@@ -85,13 +91,13 @@ Seuraavassa taulukossa esitetään, kuinka pääkirjaan tiliöitävät summat la
 |Todellinen kustannus|Kustannussumma (todellinen) – KP-kirjattu kustannus|  
 |Oletettu kustannus|Kustannussumma (oletettu) – Olet. kust. kirjattu KP:oon|  
 
-## <a name="see-also"></a>Katso myös
- [Rakennetiedot: varaston arvostus](design-details-inventory-costing.md)   
- [Rakennetiedot: varaston kirjaus](design-details-inventory-posting.md)   
- [Rakennetiedot: Oletetun kustannuksen kirjaus](design-details-expected-cost-posting.md)  
- [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
- [Rahoitus](finance.md)  
- [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+## Katso myös  
 
+[Rakennetiedot: Varaston kustannuslaskenta](design-details-inventory-costing.md)  
+[Rakennetiedot: Varastokirjaus](design-details-inventory-posting.md)  
+[Rakennetiedot: Oletetun kustannuksen kirjaus](design-details-expected-cost-posting.md)  
+[Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
+[Rahoitus](finance.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
