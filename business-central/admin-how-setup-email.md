@@ -6,12 +6,12 @@ ms.author: bholtorf
 ms.topic: get-started
 ms.search.keywords: 'SMTP, email, Office 365, connector'
 ms.search.form: '1805, 9813, 9814, 1262, 1263'
-ms.date: 10/06/2023
+ms.date: 03/04/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-email"></a>Määritä sähköposti
+# Sähköpostin määrittäminen
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -24,14 +24,14 @@ Ihmiset yrityksissä lähettävät päivittäin sähköpostitse tietoja ja asiak
 >
 > Jos käytät paikallista [!INCLUDE[prod_short](includes/prod_short.md)]ia, ennen kuin voit määrittää sähköpostin, sinun on luotava sovellusrekisteröinti [!INCLUDE[prod_short](includes/prod_short.md)]ille Azure-portaalissa. Sovelluksen rekisteröinti mahdollistaa [!INCLUDE[prod_short](includes/prod_short.md)]in valtuuttamaan ja todentamaan sähköpostipalveluntarjoajasi kanssa. Lisätietoja on kohdassa [Sähköpostin määrittäminen Business Central On-Premises -versiossa](admin-how-setup-email.md#set-up-email-for-business-central-on-premises). [!INCLUDE[prod_short](includes/prod_short.md)] onlinessa hoidamme tämän puolestasi.
 
-## <a name="requirements"></a>Tarpeet
+## Tarpeet
 
 Sähköpostitoimintojen määrittämiseen ja käyttämiseen on muutamia vaatimuksia.
 
 * Sähköpostin määrittäminen edellyttää, että sinulla on **SÄHKÖPOSTIN MÄÄRITYS** -oikeusjoukko. Lisätietoja on kohdassa [Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md).
 * Kaikkien sähköpostitoimintoja käyttävien käyttäjien on oltava täysin lisensoituja [!INCLUDE [prod_short](includes/prod_short.md)]. Esimerkiksi delegoidut järjestelmänvalvojat ja vieraskäyttäjät eivät voi käyttää vuokraajan sähköpostitiliä.
 
-## <a name="add-email-accounts"></a>Sähköpostitilien lisääminen
+## Sähköpostitilien lisääminen
 
 Sähköpostitilit lisätään laajennusten avulla, joiden avulla eri palveluntarjoajien tilit voivat muodostaa yhteyden [!INCLUDE[prod_short](includes/prod_short.md)]iin. Vakiolaajennusten avulla voit käyttää tilejä Microsoft Exchange Onlinesta. Muita laajennuksia, joiden avulla voit yhdistää muiden palveluntarjoajien, kuten Gmailin, tileihin, voivat olla käytettävissä.
 
@@ -52,12 +52,12 @@ Seuraavassa taulukossa kuvataan oletusarvoisesti käytettävissä olevat sähkö
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
-## <a name="use-smtp"></a>Käytä SMTP
+## Käytä SMTP
 
 Jos haluat käyttää SMTP-protokollaa sähköpostien lähettämiseen [!INCLUDE[prod_short](includes/prod_short.md)]sta, voit käyttää SMTP-yhdistinlaajennusta. Kun määrität SMTP-protokollaa käyttävän tilin, **Lähettäjän tyyppi** on tärkeä kenttä. Jos valitset **tietyn käyttäjän**, sähköpostit lähetetään käyttäen sen tilin nimeä ja muita tietoja, jota olet määrittämässä. Jos kuitenkin valitset **nykyisen käyttäjän**, sähköpostit lähetetään kullekin käyttäjätilille määritetyltä sähköpostitililtä. Valittu käyttäjä on samankaltainen kuin Lähetä toimintona. Lisätietoja: [Korvaavan lähettäjän osoitteen käyttäminen lähtevissä sähköpostiviesteissä](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
-> Jos käytössä on paikallinen [!INCLUDE[prod_short](includes/prod_short.md)], OAuth 2.0 -protokollan käyttö todennukseen on mahdollista. Jotta OAuthia voitaisiin käyttää SMTP:lle, kaikkien käyttäjien on oltava samassa Microsoft Entra -vuokralaisessa. 
+> Jotta OAuthia voitaisiin käyttää SMTP:lle, kaikkien käyttäjien on oltava samassa Microsoft Entra -vuokralaisessa. 
 > 
 > Sinun on luotava sovellusrekisteröinti Azure-portaalissa ja sitten suoritettava **Määritä Microsoft Entra ID** -asetusten ohjatun määrityksen opas kohteessa[!INCLUDE[prod_short](includes/prod_short.md)] muodostaaksesi yhteyden Microsoft Entra ID:hen. Lisätietoja on kohdassa [Business Centralin sovelluksen rekisteröinnin luonti Azure-portaalissa](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
@@ -65,7 +65,7 @@ Jos haluat käyttää SMTP-protokollaa sähköpostien lähettämiseen [!INCLUDE[
 
 [!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
-## <a name="use-the-set-up-email-assisted-setup-guide"></a>Käytä ohjattua Määritä sähköposti -määritystä
+## Käytä ohjattua Määritä sähköposti -määritystä
 
 Asetusten ohjattu **Määritä sähköposti** -määritys auttaa sinua pääsemään alkuun nopeasti sähköpostiviestien käytössä.
 
@@ -81,14 +81,14 @@ Asetusten ohjattu **Määritä sähköposti** -määritys auttaa sinua pääsem�
 > If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Microsoft 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
 
 is this still true?-->
-## <a name="assign-email-scenarios-to-email-accounts"></a>Sähköpostiskenaarioiden määritys sähköpostitileille
+## Sähköpostiskenaarioiden määritys sähköpostitileille
 
 Sähköpostiskenaariot ovat prosesseja, joihin liittyy asiakirjan lähettäminen. Esimerkiksi myynti- tai ostotilaus tai ilmoitus, esimerkiksi ulkoisen kirjanpitäjän kutsu. Tietyissä skenaarioissa voi käyttää tiettyjä sähköpostitilejä. Voit esimerkiksi määrittää, että kaikki käyttäjät lähettävät aina myyntiasiakirjat yhdeltä tililtä, ostoasiakirjat toiselta ja varasto- tai tuotantoasiakirjat kolmannelta tililtä. Voit määrittää, määrittää uudelleen ja poistaa skenaarioita milloin tahansa. Skenaarion voi määrittää vain yhdelle sähköpostitilille kerrallaan. Oletusarvoista sähköpostitiliä käytetään kaikissa skenaarioissa, joita ei ole määritetty muulle tilille.
 
 **Sähköpostiskenaarion määritys** -sivulla voit valita **Aseta oletusliitteet** -toiminnon, joka lisää sähköpostiskenaarioiden liitteet. Liitteet ovat aina käytettävissä, kun luot sähköpostiviestin skenaarioon liittyvästä asiakirjasta. Jokaisessa sähköpostitilanteessa voi olla vähintään yksi oletusliite. Oletusliitteet lisätään automaattisesti sähköpostiin sähköpostiskenaarion yhteydessä. Kun esimerkiksi lähetät myyntitilauksen sähköpostilla, ohjelma lisää myyntitilausskenaariolle määritetyn oletusliitteen. Oletusliitteet näkyvät **Liitteet**-osassa **Luo sähköposti** -sivun alaosassa. Voit lisätä sähköpostiin manuaalisesti muita kuin oletusliitteitä.
 
 <!--
-## <a name="to-set-up-email"></a>To set up email
+## To set up email
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -100,7 +100,7 @@ Sähköpostiskenaariot ovat prosesseja, joihin liittyy asiakirjan lähettäminen
 
 -->
 
-## <a name="set-up-view-policies"></a>Näkymäkäytäntöjen määrittäminen
+## Näkymäkäytäntöjen määrittäminen
 
 Voit hallita sähköpostiviestejä, joita käyttäjä voi käyttää sähköpostin Lähtevät- ja Lähetetyt-kansion sivuilla.
 
@@ -114,7 +114,7 @@ Valitse **Käyttäjän sähköpostinäkymän käytännöt** -kohdassa käyttäj�
 > [!NOTE]
 > Jos jätät **Käyttäjätunnus**-kentän tyhjäksi ja valitset **Sähköpostinäkymän käytäntö** -toiminnon, näkymäkäytäntö koskee kaikkia käyttäjiä.
 
-## <a name="specify-how-many-messages-an-account-can-send-per-minute"></a>Määritä, montako viestiä tili voi lähettää minuutissa
+## Määritä, montako viestiä tili voi lähettää minuutissa
 
 Jotkin sähköpostipalveluntarjoajat rajoittavat sähköpostiviestien määrää, jonka sähköpostitili voi lähettää kerralla tai tietyssä ajassa tai molemmissa. *Sähköpostin rajoitukseksi* kutsuttu käytäntö auttaa palveluntarjoajia hallitsemaan liikennettä niiden palvelimilla ja estää roskapostia. Jos sähköpostitili ylittää rajoituksen, Internet-palveluntarjoaja saattaa estää viestit. Voit varmistaa, että [!INCLUDE [prod_short](includes/prod_short.md)] -ratkaisusta lähettämiesi viestien määrä vastaa palveluntarjoajan rajaa, määrittämällä kunkin sähköpostitilisi rajoituksen.
 
@@ -125,7 +125,7 @@ Rajan voi määrittää kahdella tavalla:
 * Kun luot uuden tilin ohjatun Määritä sähköposti -opastuksen avulla, määritä raja **Raja minuuttia kohti** -kentässä.
 * Jos kyseessä on olemassa oleva sähköpostitili, voit määrittää rajoituksen tilin **Sähköpostiraja** -kentässä.
 
-## <a name="set-up-reusable-email-texts-and-layouts"></a>Uudelleenkäytettävien sähköpostitekstien ja -asettelujen määrittäminen
+## Uudelleenkäytettävien sähköpostitekstien ja -asettelujen määrittäminen
 
 Raporttien avulla voit sisällyttää myynti-, osto ja huoltoasiakirjojen avaintietoja sähköpostien teksteihin. Raportin asettelujen avulla määritetään sähköpostissa olevan tekstin tyyli ja sisältö. Sisältöön voi esimerkiksi kuulua tekstejä, kuten tervehdys tai asiakirjan tietoja edeltävät ohjeet. Tässä kuvataan , miten **Myynti–lasku**-raportti määritetään kirjatuille myyntilaskuille, mutta prosessi on samankaltainen muille raporteille.
 
@@ -145,7 +145,7 @@ Raporttien avulla voit sisällyttää myynti-, osto ja huoltoasiakirjojen avaint
 
 Kun nyt valitset esimerkiksi **Kirjattu myyntilasku** -sivulla **Lähetä**-toiminnon, sähköpostin perusteksti sisältää raportin 1306 asiakirjan tiedot, joita edeltää tyylitelty vakioteksti vaiheessa 5 valitun raporttiasettelun mukaan.
 
-## <a name="use-a-substitute-sender-address-on-outbound-email-messages"></a>Korvaavan lähettäjän osoitteen käyttäminen lähtevissä sähköpostiviesteissä
+## Korvaavan lähettäjän osoitteen käyttäminen lähtevissä sähköpostiviesteissä
 
 Jos käytät SMTP-yhdistinlaajennusta, voit muuttaa Microsoft Exchange -palvelimen **Lähetä –**- tai **Lähetä puolesta** -toimintoja lähtevien viestin lähettäjän osoitteen muuttamiseksi. [!INCLUDE[prod_short](includes/prod_short.md)] käyttää SMTP-tiliä Exchange-todennuksessa mutta joko korvaa lähettäjän osoitteen määrittämälläsi osoitteella tai muuttaa sitä puolesta-tiedolla.
 
@@ -162,14 +162,14 @@ Seuraavassa on esimerkkejä tavoista, joilla Lähetä –- tai Lähetä puolesta
 > Lähettäjän osoitteiden korvaamiseen voidaan käyttää vain yhtä tiliä. Et siis voi käyttää yhtä korvaavaa osoitetta ostoprosesseissa ja toista myyntiprosesseissa.
 
 <!--
-### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>To set up the substitute sender address for all outbound email messages
+### To set up the substitute sender address for all outbound email messages
 1. In the **Exchange admin center** for your Microsoft 365 account, find the mailbox to use as the substitute address, and then copy or make a note of the address. If you need a new address, go to your Microsoft 365 admin center to create a new user and set up their mailbox.
 2. In [!INCLUDE[prod_short](includes/prod_short.md)] choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 3. In the **Send As** field, enter the substitute address.
 4. Copy or make a note of the address in the **User ID** field.
 5. In the **Exchange admin center**, find the mailbox to use as the substitute address, and then enter the address from the **User ID** field in the **Send As** field. For more information, see [Use the EAC to assign permissions to individual mailboxes](/Exchange/recipients/mailbox-permissions?view=exchserver-2019&preserve-view=true#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
-### <a name="to-use-the-substitute-address-in-approval-workflows"></a>To use the substitute address in approval workflows
+### To use the substitute address in approval workflows
 1. In [!INCLUDE[prod_short](includes/prod_short.md)] choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 2. Copy or make a note of the address in the **User ID** field.
 3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, and then choose the related link.
@@ -180,11 +180,11 @@ Seuraavassa on esimerkkejä tavoista, joilla Lähetä –- tai Lähetä puolesta
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] will determine which address to display in the following order: <br><br> 1. The address specified in the **E-Mail** field on the **Approval User Setup** page for messages in a workflow. <br> 2. The address specified in the **Send As** field in the **SMTP Email Setup** page. <br> 3. The address specified in the **User ID** field in the **SMTP Email Setup** page. -->
 
-## <a name="set-up-document-sending-profiles"></a>Asiakirjan lähetysprofiilien määrittäminen
+## Asiakirjan lähetysprofiilien määrittäminen
 
 Voit säästää aikaa määrittämällä ensisijaisen tavan lähettää myyntiasiakirjoja kullekin asiakkaallesi. Sinun ei tarvitse valita lähetysvaihtoehtoa, esimerkiksi lähettääkö asiakirja sähköpostilla tai sähköisenä asiakirjana aina, kun lähetät asiakirjan. Lisätietoja on kohdassa [Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md).
 
-## <a name="optional-set-up-email-logging-in-exchange-online"></a>Valinnainen: Sähköpostin lokiinkirjauksen määrittäminen Exchange Onlinessa
+## Valinnainen: Sähköpostin lokiinkirjauksen määrittäminen Exchange Onlinessa
 
 Ota enemmän irti myyjien ja nykyisten tai potentiaalisten asiakkaiden välisestä viestinnästä. Voit seurata sähköpostien vaihtoa ja muuttaa ne toiminnallisiksi mahdollisuuksiksi. Lisätietoja: [Myyjien ja yhteyshenkilöiden välisten sähköpostiviestien seuraaminen](marketing-set-up-email-logging.md).  
 <!--
@@ -192,7 +192,7 @@ Ota enemmän irti myyjien ja nykyisten tai potentiaalisten asiakkaiden välisest
 
 Next, you connect [!INCLUDE[prod_short](includes/prod_short.md)] with Exchange Online. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  -->
 
-## <a name="optional-monitor-email-usage-and-troubleshoot-email-failures-with-telemetry"></a>Valinnainen: Valvo sähköpostin käyttöä ja tee vianetsintä sähköpostin vioista telemetrian avulla
+## Valinnainen: Valvo sähköpostin käyttöä ja tee vianetsintä sähköpostin vioista telemetrian avulla
 
 Järjestelmänvalvojat voivat ottaa telemetriaominaisuuden käyttöön kohdassa [!INCLUDE[prod_short](includes/prod_short.md)] käyttöön ja saada tietoja järjestelmän eri ominaisuuksien käytöstä ja virheistä. Sähköpostissa kirjaamme seuraavat toiminnot:
 
@@ -203,11 +203,11 @@ Järjestelmänvalvojat voivat ottaa telemetriaominaisuuden käyttöön kohdassa 
 
 Voit käyttää näitä tietoja sähköpostin käytön valvontaan ja sähköpostivirheiden vian määritykseen. Lisätietoja on kohdassa [Jäljityksen telemetrian analysointi (järjestelmänvalvojan sisältö)](/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace).  
 
-## <a name="set-up-email-for-business-central-on-premises"></a>Sähköpostin määrittäminen Business Central On-Premises -versiossa
+## Sähköpostin määrittäminen Business Central On-Premises -versiossa
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises voidaan integroida Microsoft Azure -järjestelmään perustuvien palveluiden kanssa. Voit esimerkiksi käyttää Cortana Intelligence -toimintoa entistä älykkäämpien kassavirtaennusteiden muodostamiseksi, Power BI:tä visualisoidaksesi liiketoimintaasi ja Exchange Onlinea lähettääksesi sähköpostia. Integrointi näihin palveluihin perustuu sovelluksen rekisteröintiin Microsoft Entra ID:ssä. Sovelluksen rekisteröinti tarjoaa todennus- ja valtuutuspalveluita viestintää varten. Jotta voisit käyttää [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -version sähköpostitoimintoja , sinun täytyy rekisteröidä [!INCLUDE[prod_short](includes/prod_short.md)]in sovelluksena Azure-portaalissa ja yhdistää [!INCLUDE[prod_short](includes/prod_short.md)] sovellusrekisteröintiin. Seuraavissa luvuissa kerrotaan, miten tämä tehdään.
 
-### <a name="create-an-app-registration-for-business-central-in-azure-portal"></a>Business Centralin sovelluksen rekisteröinnin luonti Azure-portaalissa
+### Business Centralin sovelluksen rekisteröinnin luonti Azure-portaalissa
 
 Kohteen [!INCLUDE[prod_short](includes/prod_short.md)] Azure-portaaliin rekisteröimisen vaiheet on kuvattu kohdassa [Rekisteröi sovellus Microsoft Entra ID:ssä](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
 
@@ -244,7 +244,7 @@ Sovelluksen rekisteröimisen yleiset ohjeet: [Pika-aloitus: sovelluksen rekister
 > [!NOTE]
 Jos SMTP-protokollan käyttäminen sähköpostin lähettämiseen aiheuttaa ongelmia sen jälkeen, kun [!INCLUDE[prod_short](includes/prod_short.md)] yhdistettiin sovelluksen rekisteröintiin, syynä voi olla se, että SMTP AUTH ei ole otettu käyttöön vuokraajassa. Suositeltavaa onkin käyttää Microsoft 365- ja Nykyinen käyttäjä -yhdistimiä, sillä ne käyttävät Microsoft Graphin Mail-ohjelmointirajapintoja. Jos SMTP-protokollaa on kuitenkin käytettävä, SMTP AUTH voidaan ottaa käyttöön. Lisätietoja on kohdassa [Todennetun asiakasohjelman SMTP-lähetyksen (SMTP AUTH) ottaminen käyttöön tai poistaminen käytöstä Exchange Onlinessa](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
-### <a name="connect--to-your-app-registration"></a>Yhdistä [!INCLUDE[prod_short](includes/prod_short.md)] sovellusrekisteröintiisi
+### Yhdistä [!INCLUDE[prod_short](includes/prod_short.md)] sovellusrekisteröintiisi
 
 Kun olet rekisteröinyt sovelluksen Azure-portaalissa, voit kohteessa [!INCLUDE[prod_short](includes/prod_short.md)] käyttää **Sähköpostisovelluksen Microsoft Entra ID:n rekisteröinti** -sivua yhdistääksesi kohteen [!INCLUDE[prod_short](includes/prod_short.md)] siihen.
 
@@ -277,7 +277,7 @@ Kun olet rekisteröinyt sovelluksen Azure-portaalissa, voit kohteessa [!INCLUDE[
 
 -->
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Exchange Onlinen jaetut postilaatikot](/exchange/collaboration-exo/shared-mailboxes)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
