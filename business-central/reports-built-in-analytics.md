@@ -9,7 +9,7 @@ ms.date: 02/03/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="built-in-analytics"></a>Valmis analytiikka
+# Valmis analytiikka
 
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää joitakin ominaisuuksia, joiden avulla voit analysoida tietoja koostetussa muodossa. Tämä ominaisuus on hyödyllinen esimerkiksi silloin, kun seurataan taloushallinnon tunnuslukuja (KPI:t) tai analysoidaan tilinpäätöksiä Microsoft Excelissä. Alla on linkkejä, joiden avulla opit käyttämään ominaisuutta.
 
@@ -22,7 +22,7 @@ ms.service: dynamics-365-business-central
 |Useiden yritysten taloustietojen analysoiminen | [Usean yrityksen kirjanpitotietojen konsolidointi](finance-consolidated-company-reporting.md) |
 |Tietojen hankkiminen siitä, mitä raportteja käyttäjät käyttävät| [Raportin käytön telemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Business Intelligencen ja raportoinnin yleiskuva](reports-use-reports.md)
 

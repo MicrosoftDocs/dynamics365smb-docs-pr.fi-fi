@@ -10,13 +10,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="need-more-time-to-decide-whether-to-subscribe"></a>Tarvitsetko lisää aikaa, ennen kuin päätät tilauksen tekemisestä?
+# Tarvitsetko lisää aikaa, ennen kuin päätät tilauksen tekemisestä?
 
 Liiketoimintasovellusta valittaessa on oltava tarkkana, ja tiedämme, että [!INCLUDE[prod_short](includes/prod_short.md)]in kaikkiin ominaisuuksiin tutustuminen vie aikaa. Jos tarvitset arviontiin lisäaikaa, voit jatkaa itse kokeilujaksoa 30 päivällä. Kun kokeilujakson päättyminen on lähellä, kirjautumisen yhteydessä näkyy ilmoitus asiasta. Ilmoituksessa on linkki **kokeilujakson jatkamisen** oppaaseen, jonka avulla voit jatkaa kokeilujaksoa. 30 päivän lisäjakso alkaa heti, kun valitset oppaassa **Jatka kokeilujaksoa**.
 
 Kokeilujaksoa voi kuitenkin jatkaa itse vain kerran. Et siis voi jatkaa sitä itse kahdesti. Jos olet jo jatkanut kokeilujaksoa itse, Microsoft-kumppani voi jatkaa sitä uudelleen puolestasi. Sekin on kuitenkin mahdollista vain kerran. Jos sinulla ei vielä ole kumppania, katso [Miten löydän jälleenmyyjäkumppanin?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner).  
 
-## <a name="to-extend-your-trial-period"></a>Kokeilujakson laajentaminen
+## Kokeilujakson laajentaminen
 
 1. Kirjaudu [!INCLUDE[prod_short](includes/prod_short.md)] -kohteeseen osoitteessa [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
@@ -30,7 +30,7 @@ Kokeilujaksoa voi kuitenkin jatkaa itse vain kerran. Et siis voi jatkaa sitä it
 > [!TIP]
 > Jos ilmoitus ei näy, [!INCLUDE [prod_short](includes/prod_short.md)] voidaan pakottaa suorittamaan asetusten ohjattu **Jatka kokeilujaksoa** -määritys lisäämällä parametri ```?page=1828``` URL-osoitteeseen, kuten seuraavassa esimerkissä: [https://businesscentral.dynamics.com/?page=1828](https://businesscentral.dynamics.com/?page=1828)
 
-## <a name="what-happens-if-my-trial-period-is-expired"></a>Mitä tapahtuu, jos kokeilujakso päättyy?
+## Mitä tapahtuu, jos kokeilujakso päättyy?
 
 Jos ensimmäisen 30 päivän kokeilujakso päättyy, voit jatkaa sitä itse edellä kuvatulla tavalla. Tämän jälkeen kaikki toimii tavalliseen tapaan. Sinun tarvitsee vain kirjautua esittely-yritykseen ja käynnistää **kokeilujakson jatkamisen** opas ilmoituksesta.  
 
@@ -44,7 +44,7 @@ Kun jatkettu kokeilujakso on päättynyt, voit [tilata](https://go.microsoft.com
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Kokeiluversiot ja tilaukset (vain englanniksi)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Uusien yritysten luominen](about-new-company.md)  

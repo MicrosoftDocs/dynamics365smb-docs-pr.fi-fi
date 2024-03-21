@@ -9,7 +9,7 @@ ms.date: 09/28/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="add-companies-to-your-company-hub"></a>Yritysten lisääminen yritystoimintoon
+# Yritysten lisääminen yritystoimintoon
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -20,7 +20,7 @@ Aivan yritystoiminnon aloitussivulla on **Asetukset**-valikko, josta voit siirty
 > [!NOTE]
 > Voit yhdistää yrityskeskuksen niin moneen yritykseen kuin tarvitset. Yrityskeskuksen voi kuitenkin liittää vain yrityksiin, joita isännöidään [!INCLUDE [prod_short](includes/prod_short.md)] onlinessa.
 
-## <a name="environment-links"></a>Ympäristölinkit
+## Ympäristölinkit
 
 Ympäristölinkki on kortti, jossa määritetään [!INCLUDE [prod_short](includes/prod_short.md)] -ympäristö, jossa vähintään yhden yrityksen isäntä toimii. Kunkin ympäristön kortin tiedot määrität sinä itse, ja voit myös muuttaa niitä tarvittaessa. **Ympäristölinkki**-kenttä on kuitenkin erityisen tärkeä – sitä tarvitaan yrityksen [!INCLUDE [prod_short](includes/prod_short.md)]iin pääsyyn. Tarkista, että linkki on oikein valintanauhan **Testaa yhteys** -toiminnon avulla. Linkki, johon sinun täytyy syöttää pisteitä lisättävän yrityksen isännöimisessä ympäristössä, ja sen täytyy sisältää Microsoft Entra ID tai organisaation toimialuenimi. Jos toimialueeksi on määritetty esimerkiksi MyBusiness.com, linkki [!INCLUDE [prod_short](includes/prod_short.md)] -sovellukseen on ```https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1```. Muussa tapauksessa se näyttää suunnilleen tältä: ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```  
 
@@ -33,14 +33,14 @@ Linkkiä käytetään, kun yritys valitaan yritystoiminnossa.
 >
 > Jos olet siirtynyt kolmenkymmenen päivän kokeiluyritykseen, My Companyyn, voit lisätä sen luetteloon valitsemalla **Lataa uudelleen/Lataa uudelleen kaikki yritykset** -toiminnon luettelossa.
 
-## <a name="load-companies"></a>Lataa yritykset
+## Lataa yritykset
 
 Kun olet lisännyt ympäristösi, yritykset näkyvät automaattisesti. Jos kuitenkin tiedät, että uusi yritys on lisätty ympäristöön, voit päivittää luettelon valitsemalla **Lataa kaikki yritykset uudelleen** -toiminnon. Käytä samaa toimintoa tietojen päivittämiseen yritysten välillä.  
 
 > [!TIP]
 > Jotta voisit päivittää yritystoiminnon tiedot, sinun on voitava käyttää niiden yritysten tietoja, joista tiedot ovat peräisin.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Työnhallinta useiden yritysten välillä yrityksen keskittimessä](company-hub.md)  
 [Ohje- ja tukiresurssit](product-help-and-support.md)  

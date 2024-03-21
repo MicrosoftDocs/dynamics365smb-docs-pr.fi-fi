@@ -11,7 +11,7 @@ ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Muihin Microsoft-palveluihin yhteydessä olevat kokeiluominaisuudet
+# Muihin Microsoft-palveluihin yhteydessä olevat kokeiluominaisuudet 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] on kokonaisvaltainen liiketoiminnan hallintaratkaisu, joka on vahvasti integroitu Microsoft 365:n tuottavuussovelluksiin ja Power Platformiin. Maksuton Business Centralin kokeiluversio voi muodostaa yhteyden useisiin Microsoft-palveluihin, jotka on ensin määritettävä ja otettava käyttöön. Saadaksesi parhaan hyödyn ilmaisesta kokeilustasi, jotkin näistä ominaisuuksista on otettu käyttöön automaattisesti. Vaikka yhteys [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan on otettu käyttöön, nämä palvelut eivät sisälly kokeiluversioon, ja ne on hankittava erikseen, ellei niitä ole jo olemassa.
 

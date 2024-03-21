@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-statuses-for-service-orders-and-repairs"></a>Huoltotilausten ja -korjausten tilan määrittäminen
+# Huoltotilausten ja -korjausten tilan määrittäminen
 
 Sinun on määritettävä korjauksen tilan vaihtoehdot, jotka ilmaisevat huoltotilauksissa olevien huoltonimikkeiden korjauksen edistymisen ja ylläpidon. Sinun on määritettävä vähintään yhdeksän korjauksen tilan vaihtoehtoa, jotka ilmaisevat tilanteet tai suoritettavat toimenpiteet huoltonimikkeiden huoltamisen aikana.  
 
@@ -19,7 +19,7 @@ Kun huoltotilauksessa olevan huoltonimikkeen korjauksen tilaa muutetaan, ohjelma
 
 Ennen kuin voit määrittää korjauksen tilan, sinun on asetettava huollon tilojen prioriteetit.
 
-## <a name="to-set-up-service-status-priorities"></a>Huoltotilan prioriteettien määrittäminen
+## Huoltotilan prioriteettien määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotilauksen tila** ja valitse sitten vastaava linkki.  
 2. Valitse huoltotilauksen tila, jolle haluat määrittää prioriteetin.  
@@ -27,7 +27,7 @@ Ennen kuin voit määrittää korjauksen tilan, sinun on asetettava huollon tilo
 
 Toista työvaiheita 2 ja 3, kunnes kaikille neljälle tilan vaihtoehdolle on määritetty prioriteetti: **Odottava**, **Työn alla**, **Valmis** ja **Estossa**.  
 
-## <a name="to-set-up-a-repair-status"></a>Korjauksen tilan määrittäminen
+## Korjauksen tilan määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Korjauksen tila** ja valitse sitten vastaava linkki.
 2. Luo uusi korjauksen tila.  
@@ -40,7 +40,7 @@ Toista työvaiheita 2 ja 3, kunnes kaikille neljälle tilan vaihtoehdolle on mä
 
 Toista nämä vaiheet jokaisen luotavan korjauksen tilan osalta.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Huoltotilauksen tila ja korjauksen tila](service-service-order-status-and-repair-status.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  

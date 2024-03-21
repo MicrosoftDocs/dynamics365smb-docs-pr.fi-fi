@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="enable-picking-items-by-fefo"></a>FEFO-poiminnan ottaminen käyttöön
+# FEFO-poiminnan ottaminen käyttöön
 FEFO (First Expired First Out) on lajittelumenetelmä, joka varmistaa sen, että vanhimmat ja aikaisimman vanhenemispäivämäärän omaavat nimikkeet poimitaan ensin.  
 
  Tämä toiminto toimii vain, kun seuraavat ehdot täyttyvät:  
@@ -32,7 +32,7 @@ Ota varastosiirrot käyttöön FEFO:n mukaan jättämällä **Varastopaikasta**-
 <br /><br />
 Jos **Tiukka vanhentumisen kirj.** -kenttä on valittu **Nimikk. seurantakoodin kortti** -kohdassa, poimintaan sisällytetään vain nimikkeet, jotka eivät ole vanhentuneet, ja rivit lajitellaan FEFO-periaatteen mukaisesti.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 [Nimikkeiden poiminta fyysisen varastoinnin toimitusta varten](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
 [Nimikkeiden poiminta varastopoiminnalla](warehouse-how-to-pick-items-with-inventory-picks.md)   
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
