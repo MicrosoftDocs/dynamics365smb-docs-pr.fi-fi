@@ -9,7 +9,7 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Kontaktien kanssa tapahtuvien vuorovaikutusten hallinta
+# <a name="managing-interactions-with-your-contacts"></a>Kontaktien kanssa tapahtuvien vuorovaikutusten hallinta
 [!INCLUDE[prod_short](includes/prod_short.md)]:ssa kaikentyyppinen yhteydenpito yrityksesi ja kontaktiesi välillä on vuorovaikutusta. Yhteydenpito voi tapahtua esimerkiksi sähköpostitse, kirjeitse, puhelimitse ja kokouksissa.
 
 Voit tallentaa kaikki vuorovaikutukset, joita sinulla on kontaktiesi kanssa, jotta voit seurata kontakteihin suuntaamiasi markkinointi- ja myyntiponnistuksia, ja jatkossa parantaa liiketoiminnallista vuorovaikutustasi näiden kontaktien kanssa.

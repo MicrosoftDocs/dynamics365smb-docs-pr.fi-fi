@@ -10,7 +10,7 @@ ms.date: 09/22/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Analysoi tiedot dimensioiden mukaan
+# <a name="analyze-data-by-dimensions"></a>Analysoi tiedot dimensioiden mukaan
 
 Talousanalyysissä dimensio on tieto, jonka lisäät tapahtumaan eräänlaiseksi merkiksi. Tämän tiedon avulla voi yhdistää ryhmiksi tapahtumia, joilla on samoja ominaisuuksia, kuten asiakkaita, alueita, tuotteita tai myyjiä, sekä noutaa nämä ryhmät helposti analysoitavaksi. Dimensioita voi käyttää päiväkirjojen tapahtumissa, asiakirjoissa ja budjeteissa. 
 
@@ -22,7 +22,7 @@ Kukin dimensio kuvaa analysoinnin fokusta. Joten esimerkiksi kaksidimensioinen a
 > [!NOTE]
 > Jos havaitset, että kirjatuissa pääkirjanpidon tapahtumissa on käytetty virheellistä dimensioarvoa, voit korjata sen ja päivittää analyysinäkymät. Lisätietoja on [Vianmääritys ja dimensioiden korjaaminen](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting) -osassa.
 
-## Analyysinäkymän luominen
+## <a name="set-up-an-analysis-view"></a>Analyysinäkymän luominen
 
 Dimensioittainen analyysi käyttää valittua dimensioyhdistelmää. Kyseinen dimensiojoukko tallennetaan, noudetaan ja päivitetään luomalla **analyysinäkymä**-kortti. 
 
@@ -32,7 +32,7 @@ Dimensioittainen analyysi käyttää valittua dimensioyhdistelmää. Kyseinen di
 4. Jos haluat lisätä muita dimensiokoodeja neljän **Dimensiot**-pikavälilehden koodin lisäksi, valitse **Suodatin**-toiminto, täytä kentät ja valitse **OK**.  
 5. Voit päivittää näkymän valitsemalla **Päivitä**-toiminnon.
 
-## Analyysi dimensioiden mukaan
+## <a name="analyze-by-dimensions"></a>Analyysi dimensioiden mukaan
 
 Käytä analyysinäkymiä, jotka olet jo määrittänyt **analyysi dimension mukaan** -matriisilla, nähdäksesi pääkirjapidon summia.   
 
@@ -54,7 +54,7 @@ Käytä analyysinäkymiä, jotka olet jo määrittänyt **analyysi dimension muk
 > [!TIP]  
 > Voit muuttaa näkymää myös muuttamalla **Näytä riveinä**- ja **Näytä sarakkeina** -kenttien sisältöä. Voit peruuttaa näkymäasetukset **Muuta rivit ja sar. käänt.** -toiminnolla.
 
-## Analyysinäkymän päivittämien
+## <a name="update-an-analysis-view"></a>Analyysinäkymän päivittämien
 
 Summat, jotka näkyvät **Analyysi dimensioittain** -sivulla, kuvaavat yrityksen tilaa viimeisimmän päivityksen aikaan. Jos haluat nähdä nykyisen tilanteen, sinun on päivitettävä analyysinäkymä suorittamalla päivitystoiminto.
 
@@ -72,7 +72,7 @@ Seuraavan menettelyn avulla voit päivittää analyysinäkymän **Analyysi dimen
 > [!NOTE]  
 > Kun haluat päivittää joitakin tai kaikkia analyysinäkymiä samanaikaisesti, sinun täytyy käyttää **Päivitä analyysinäkymät** -eräajoa.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Taloushallinnon liiketoimintatiedot](bi.md)  
 [Taloushallinto](finance.md)  

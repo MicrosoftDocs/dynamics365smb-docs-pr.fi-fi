@@ -9,7 +9,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# huoltohallinnan asetukset
+# <a name="service-price-management"></a>huoltohallinnan asetukset
 Huoltohinnan hallinnan toimintojen avulla voidaan soveltaa oikeita hintoja huoltotilauksiin, määrittää asiakkaille yksilöllisiä huoltohintasopimuksia, parantaa huoltohenkilöstön tehokkuutta ja nopeuttaa laskutusprosessia.  
   
 Huoltohinnan hallinnassa voidaan määrittää erilaisia huoltohintaryhmiä sen mukaan, mistä huoltonimikkeestä (tai huoltonimikeryhmästä) ja minkä tyyppisestä viasta huoltotehtävässä on kyse. Huoltohintaryhmä voidaan määrittää rajalliseksi ajaksi ja/tai tietylle asiakkaalle tai valuutalle. Kun huoltotehtävälle määritetään hintaa, voidaan näitä hinnoittelurakenteita käyttää mallina.  
@@ -20,7 +20,7 @@ Ennen kuin huoltonimikkeen hintaa muutetaan huoltotilauksessa, ohjelma näyttä�
   
 Huoltohintaryhmien tilastoiden ja vakioraporttien avulla voidaan seurata myös eri huoltohintaryhmien kannattavuutta.  
   
-## Huoltohintamuutoksen ryhmät  
+## <a name="service-price-adjustment-groups"></a>Huoltohintamuutoksen ryhmät
 Huoltohinnan muutosryhmiä voidaan käyttää erityyppisten palvelurivien hinnanmuutosten määrittämiseen. On mahdollista esimerkiksi määrittää yksi huoltohinnan muutosryhmä, joka muuttaa varaosien hintoja, toinen, joka muuttaa työn hintoja, kolmas, joka muuttaa kulujen hintoja, ja niin edelleen. Lisäksi voidaan määrittää, sovelletaanko huoltohinnanmuutosta vain yhteen tiettyyn nimikkeeseen tai resurssiin vai kaikkiin nimikkeisiin ja resursseihin.  
   
 Huoltohintojen muutostoimintoa ei voida käyttää huoltonimikkeisiin, kun seuraavat ehdot ovat voimassa:
@@ -31,14 +31,14 @@ Huoltohintojen muutostoimintoa ei voida käyttää huoltonimikkeisiin, kun seura
   
 Kun huoltohintojen muutostoiminto käynnistetään, kaikki tilauksen sisältämät alennukset korvataan huoltohinnanmuutoksen arvoilla.  
   
-## Huoltohintaryhmät  
+## <a name="service-price-groups"></a>Huoltohintaryhmät
 Huoltohintaryhmiä määrittämällä voidaan luoda huoltonimikkeiden ryhmiä, joita koskee sama erikoishinnoittelu. Kun huoltohintaryhmät on määritetty, voidaan niitä liittää huoltonimikerivin huoltonimikkeisiin. Huoltohintaryhmiä voidaan liittää myös huoltonimikeryhmiin.  
   
 Ennen kuin huoltohintaryhmä liitetään huoltonimikkeeseen, on päätettävä, mitä vian aluetta, valuuttaa ja huoltohinnan muutosryhmää huoltohintaryhmä koskee. On myös päätettävä, miksi summaksi huoltohinta muutetaan sekä sisältyykö tähän summaan ALV ja alennukset. Samoin on päätettävä, koskeeko muutos kiinteää summaa ja onko muutoksen soveltamiselle ehtoja.  
   
 Kun huoltohintaryhmä liitetään huoltonimikkeeseen, kaikki ryhmälle määritetyt erikoishinnoittelut tulevat voimaan kyseiselle huoltonimikkeelle.  
   
-## Huoltohinnoittelu  
+## <a name="service-pricing"></a>Huoltohinnoittelu
 Todelliset huoltohinnoittelun tyypit (hinnanmuutoksen tyyppi ja hinta) määritetään huoltohintaryhmien ja asiakashintaryhmien yhdistelmälle. Kullekin huoltohinnoittelun tyypille valitaan huoltohinnan muutosryhmä. Lisäksi määritetään huoltohinnan muutoksen tyyppi (kiinteä, maksimi tai minimi) ja todellinen hinta.  
   
 Huoltohinnoittelun tyyppejä voi määrittää esimerkiksi radioiden huoltohintaryhmälle. Asiakkaille, joilla ei ole hintaryhmää, voidaan määritellä huoltohinnoittelu, jossa työllä on enimmäishinta (työn hinnanmuutosryhmä). Asiakkaille, joilla on tietty hintaryhmä, voidaan määritellä huoltohinnoittelu, jossa työllä on kiinteä hinta (sama työn hinnanmuutosryhmä).  
@@ -49,7 +49,7 @@ Huoltohinnoittelun tyyppejä voi määrittää esimerkiksi radioiden huoltohinta
 3. Täytä **Projektiresurssien hinnat**-, **Projektinimikkeiden hinnat**- tai **Projektin kirjanpitotilin hinnat** -sivulla tarvittavat kentät.
 
   
-## huoltohintojen oikaisu  
+## <a name="service-price-adjustment"></a>huoltohintojen oikaisu
 Huoltohinnan muutoksella voidaan muuttaa nimikkeen, resurssin, KP-tilin tai kulun hintaa huoltotilauksessa.  
   
 Kun huoltonimikeriveille on annettu nimike, annetaan kaikki tämän nimekkeen kustannustiedot huoltoriveille. Kun suoritat Muokkaa huoltohinta -toimintoa, voit esikatsella hintojen muutoksia. Tietoja voidaan tarvittaessa muokata. Kun muokatut tiedot hyväksytään, ohjelma laskee muutokset ja siirtää tiedot huoltoriveille. Tämän jälkeen huoltotilaus kirjataan.  
@@ -64,7 +64,7 @@ Asetukset kuvaillaan seuraavassa taulukossa.
 |**Suurin**|Tämä tarkoittaa, että asiakkaalta veloitettavalle summalle asetetaan yläraja todellisista kustannuksista tai vakioveloituksista välittämättä. Kun valitaan tämä vaihtoehto, huoltohinnan muutos tehdään vain, jos yhteishinta ylittää huoltohintaryhmälle määritetyn summan.|  
 |**Pienin**|Tämä tarkoittaa, että asiakkaalta veloitettavalle summalle asetetaan alaraja todellisista kustannuksista tai vakioveloituksista välittämättä. Kun valitaan tämä vaihtoehto, huoltohinnan muutos tehdään vain, jos yhteishinta alittaa huoltohintaryhmälle määritetyn summan.|  
   
-## Katso myös  
+## <a name="see-also"></a>Katso myös
 [Huollon hintojen ja lisäkustannusten määrittäminen](service-how-setup-service-costs-pricing.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
 

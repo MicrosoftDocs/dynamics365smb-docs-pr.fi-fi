@@ -9,7 +9,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Käyttöomaisuuden poiston määrittäminen
+# <a name="set-up-fixed-asset-depreciation"></a>Käyttöomaisuuden poiston määrittäminen
 
 Rahoituslaskelmien ja tuloveropalautusten valmistelussa voi käyttää useita poistomenetelmiä. Monet suuret yritykset käyttävät tasapoistoja rahoituslaskelmissaan, koska sen avulla voidaan yleensä raportoida suurempia tuloja. Tuloverotarkoituksia varten monet yritykset käyttävät kuitenkin nopeutettua poistomenetelmää, kuten vähenevän saldon poistoa. Käyttöomaisuuden poistomenetelmä määritetään **Poistomenetelmä**-kentässä **Käyttöomaisuuden kortti** -sivulla. Lisätietoja eri menetelmistä on kohdassa [Poistomenetelmät](fa-depreciation-methods.md).
 
@@ -17,7 +17,7 @@ Poistokirjoissa määritetään eri käyttöomaisuustyyppien poistojen laskentat
 
 Kun olet luonut asianmukaiset poistokirjat, kuhunkin käyttöomaisuuserään tulee liittää yksi tai usea poistokirja. Käyttöomaisuuteen liitettyä poistokirjaa kutsutaan käyttöomaisuuden poistokirjaksi. Poistokirjoja käyttöomaisuudelle voi määrittää kuinka monta tahansa.  
 
-## Poistokirjan luominen
+## <a name="to-create-a-depreciation-book"></a>Poistokirjan luominen
 
 Käyttöomaisuuden poistokirjaan voidaan määrittää, miten käyttöomaisuus poistetaan. Useiden erilaisten poistomenetelmien hallitsemiseksi voidaan määrittää useita poistokirjoja.  
 
@@ -35,7 +35,7 @@ Käyttöomaisuuden poistokirjaan voidaan määrittää, miten käyttöomaisuus p
 
 Jos esimerkiksi hävität käyttöomaisuuserän, jolle poistokirjassa ei määritetä pyöristystä, mutta yrityksesi pääkirjanpidon asetukset edellyttävät pyöristystä, ja käyttöomaisuudesta luovutaan, näyttöön tulee virhesanoma siitä, että summa on pyöristettävä tapahtumassa.  
 
-## Poistokirjan liittäminen käyttöomaisuuteen
+## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Poistokirjan liittäminen käyttöomaisuuteen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuus** ja valitse sitten vastaava linkki.
 2. Valitse käyttöomaisuus, jolle haluat määrittää käyttöomaisuuden poistokirjan.
@@ -49,7 +49,7 @@ Jos esimerkiksi hävität käyttöomaisuuserän, jolle poistokirjassa ei määri
     > [!NOTE]  
     > Kun käytät käyttäjän määrittämää poistomenetelmää, poistokirja on määritettävä eri tavalla. Lisätietoja on kohdassa [Käyttäjän määrittämän poistomenetelmän määrittäminen](fa-how-setup-user-defined-depreciation-method.md).
 
-## Poistokirjan liittäminen useisiin käyttöomaisuuseriin eräajon avulla
+## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Poistokirjan liittäminen useisiin käyttöomaisuuseriin eräajon avulla
 
 Jos haluat määrittää poistokirjan moneen käyttöomaisuuteen, voit luoda **Luo KO:n poistokirjat** -eräajolla käyttöomaisuuden poistokirjat.  
 
@@ -63,7 +63,7 @@ Jos haluat määrittää poistokirjan moneen käyttöomaisuuteen, voit luoda **L
 6. **Käyttöomaisuus**-pikavälilehteen voidaan asettaa suodatus valitsemaan se omaisuus, jolle halutaan luoda käyttöomaisuuden poistokirjat.
 7. Valitse **OK**-painike.
 
-## Poiston kirjaustyyppien määrittäminen
+## <a name="to-set-up-depreciation-posting-types"></a>Poiston kirjaustyyppien määrittäminen
 
 Kunkin poistokirjan osalta on määritettävä, miten [!INCLUDE[prod_short](includes/prod_short.md)] käsittelee eri kirjaustyyppejä. Voit esimerkiksi määrittää, että tuleeko kirjauksen olla debet vai kredit, ja tuleeko kirjaustyyppi sisällyttää poistopohjaan.  
 
@@ -76,7 +76,7 @@ Kunkin poistokirjan osalta on määritettävä, miten [!INCLUDE[prod_short](incl
 
 On hyvin suositeltavaa, ettei niiden poistokirjojen asetuksia muuteta, joiden osalta on jo kirjattu tapahtumia. Muutokset eivät vaikuta jo kirjattuihin tapahtumiin, mikä tekee poistokirjatilastoista harhaanjohtavia.
 
-## Käyttöomaisuuden poiston oletusmallien ja -erien määrittäminen
+## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Käyttöomaisuuden poiston oletusmallien ja -erien määrittäminen
 
 Kunkin poistokirjan osalta määritellään mallien ja erien oletusasetukset. Voit monistaa näillä oletusarvoilla yhden päiväkirjan rivit toiseen päiväkirjaan, luomaan päiväkirjarivejä **Laske poisto**- tai **Tee indeksimuutos KO:teen** -eräajoilla ja monistamaan vakuutuspäiväkirjan hankintamenoja.  
 
@@ -85,13 +85,13 @@ Kunkin poistokirjan osalta määritellään mallien ja erien oletusasetukset. Vo
 3. Jos haluat, että jokaisella käyttäjällä on oletusasetukset, valitse **Käyttäjätunnus**-kenttä, jotta voit tehdä valinnan **Käyttäjät**-sivulla.  
 4. Valitse muille kentille oletusarvoisesti käytettävä päiväkirjamalli tai -erä.  
 
-## Tilikausi 365 päivää -kentän poisto
+## <a name="fiscal-year-365-days-field-depreciation"></a>Tilikausi 365 päivää -kentän poisto
 
 Kun Laske poisto -eräajo laskee poistot, eräajo käyttää tavallisesti standardisoitua 360 päivän vuotta, jossa kussakin 12 kuukaudessa on 30 päivää.
 
 Jos valitset tämän kentän, Laske poisto -eräajo käyttää sen sijaan 365 päivän kalenterivuotta, jossa kullekin kuukaudelle lasketaan sama päivien määrä kuin kalenterissa. Ainoa poikkeus on karkausvuosien helmikuu, jolloin helmikuussa ei katsota olevan 29 vaan 28 päivää. Tämän vuoksi kaikki vuodet, myös karkausvuodet, katsotaan 365 päivän pituisiksi.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Käyttöomaisuus](fa-manage.md)  

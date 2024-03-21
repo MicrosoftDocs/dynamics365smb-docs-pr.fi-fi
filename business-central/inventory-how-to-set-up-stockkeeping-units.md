@@ -11,14 +11,14 @@ ms.search.forms: '5704, 5700, 5702, 5701'
 ms.service: dynamics-365-business-central
 ---
 
-# Varastointiyksiköiden määrittäminen
+# <a name="set-up-stockkeeping-units"></a>Varastointiyksiköiden määrittäminen
 
 Käytä varastointiyksikköjä (SKU:ita) tallentaaksesi tietoja tietyn sijainnin tai variantin nimikkeistä. Niiden avulla voit lisätä nimikettä koskevia erilaisia tietoja tietylle sijainnille, esimerkiksi:
 
 * Varasto tai jakelukeskus
 * Saman nimikkeen variantit, kuten eri hyllynumerot ja eri täydennystiedot  
 
-## Varastointiyksiköiden määrittäminen  
+## <a name="to-set-up-a-stockkeeping-unit"></a>Varastointiyksiköiden määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastointiyksiköt** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
@@ -35,7 +35,7 @@ Käytä **Luo varastointiyksikkö** -eräajoa, kun haluat luoda nimikkeelle usei
 > Jos varastointiyksikkö toimitetaan tuotannon välityksellä, **Vakiokustannus**-kenttää ei käytetä tuotetun nimikkeen todellisten kustannusten laskutuksessa ja oikaisussa. Sen sijaan [!INCLUDE [prod_short](includes/prod_short.md)] käyttää nimikekortin **Vakiokustannus**-kentän arvoa, ja kaikki varianssit lasketaan nimikkeen kustannusjakaumia kohden.<br><br>
 > Vaikka voit määrittää SKU:ille tuotannon materiaaliluetteloita ja reitityksiä, yksikkökustannusten kokoaminen ja siihen liittyvä kustannusosuuksien laskelma eivät ole saatavilla SKU:ille. Lisätietoja vakiokustannuksista on kohdassa [Tietoja vakiokustannusten laskemisesta](finance-about-calculating-standard-cost.md)
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  
