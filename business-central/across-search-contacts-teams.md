@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Asiakkaiden, toimittajien ja muiden yhteyshenkilöiden hakeminen Microsoft Teamsista
+# Asiakkaiden, toimittajien ja muiden yhteyshenkilöiden hakeminen Microsoft Teamsista
 
 [!INCLUDE [online_only](includes/online_only.md)]. Otettiin käyttöön vuoden 2021 1. julkaisuaallossa.
 
@@ -20,7 +20,7 @@ ms.service: dynamics-365-business-central
 - Yhteyshenkilön jakaminen korttina Teams-keskustelussa.
 - Näytä yhteyshenkilötiedot, vuorovaikutushistoria ja muut merkitykselliset tiedot, kuten avoimet maksut tai asiakirjat.
 
-## <a name="prerequisites"></a>Vaatimukset
+## Vaatimukset
 
 - Sinulla on Microsoft Teamsin käyttöoikeus.
 - Olet asentanut [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen Teamsiin. Lisätietoja, katso [[!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen Microsoft Teamsiin](across-install-app-for-teams.md)
@@ -29,7 +29,7 @@ ms.service: dynamics-365-business-central
 > [!NOTE]
 > Riippumatta siitä, tehdäänkö haku komento- vai viestiruudussa, sinua voidaan pyytää ensimmäisellä kerralla kirjautumaan sisään tai määrittämään sovellus. Tämä vaihe on välttämätön, jotta yhteyshenkilöitä voidaan hakea oikeasta Business Central -yrityksestä. Lisätietoja sovelluksen määrittämisestä valitsemaan yritys on kohdassa [Yrityksen ja muiden asetusten muuttaminen Teamsissa](across-teams-settings.md).
 
-## <a name="look-up-contacts-from-the-command-box"></a>Yhteyshenkilöiden haku komentoruudussa
+## Yhteyshenkilöiden haku komentoruudussa
 
 Komentoruutu on jokaisen Teamsin näytön yläosassa. Sen avulla voi hakea, tehdä pikatoimintoja tai käynnistää sovelluksia, kuten [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen. Komentoruutuhaku sopii hyvin yhteyshenkilöiden ja niihin liittyvien tietojen hakemiseen nopeasti omaan käyttöön. Oletetaan esimerkiksi, että haluat hakea toimittajan sähköpostiosoitteen kalenteritapaamisen määrittämistä varten. Tai ehkä haluat hakea vuorovaikutushistorian asiakastapaamisen aikana.
 
@@ -50,7 +50,7 @@ Komentoruutu on jokaisen Teamsin näytön yläosassa. Sen avulla voi hakea, tehd
 
 Lisätietoja Teamsin komentoruudusta on kohdassa [Teams – komentoruudun käyttö](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
 
-## <a name="look-up-contacts-from-the-message-compose-box"></a>Yhteyshenkilöiden haku viestiruudussa
+## Yhteyshenkilöiden haku viestiruudussa
 
 Viestiruudun käytön etuna on se, että yhteyshenkilökortti voidaan lisätä suoraan keskusteluun muiden nähtäväksi.
 
@@ -72,13 +72,13 @@ Viestiruudun käytön etuna on se, että yhteyshenkilökortti voidaan lisätä s
     > [!NOTE]
     > Yhteyshenkilöruutua ei lähetetä heti keskusteluun muiden nähtäväksi. Voit tarkastella kortin sisältöä sekä lisätä tekstiä ennen tarkastelua tai sen jälkeen tarvittaessa. Kun olet valmis, voit lähettää viestin keskusteluun.
 
-### <a name="heres-another-way"></a>Vaihtoehtoinen tapa
+### Vaihtoehtoinen tapa
 
 1. **Business Central** -kuvakkeen käytön sijaan voit kirjoittaa **@Business Central** suoraan viestiruutuun.
 2. Kirjoita hakusanat ruutuun.
 3. Valitse yhteyshenkilö näppäimistön ylä- ja alanuolella ja valitse se sitten <kbd>Enter</kbd>-näppäimellä.
 
-## <a name="viewing-contact-card-details"></a>Yhteyshenkilökortin tietojen näyttäminen
+## Yhteyshenkilökortin tietojen näyttäminen
 
 Teamsin yhteyshenkilökortista saa nopeasti yleiskuvan asiakkaasta, toimittajasta tai yhteyshenkilöstä. Kortti on vuorovaikutteinen, joten saat tarkasteltavaksi lisää tietoja tai voit muokata yhteyshenkilöä **Tiedot**- tai **Ponnahdusruutu**-painikkeilla.
 
@@ -89,7 +89,7 @@ Yhteyshenkilökortti toimii samoin kuin tietueiden, kuten nimikkeiden, asiakkaid
 > [!NOTE]
 > Kaikki Teams-keskustelun osallistujat voivat tarkastella keskusteluun lähetettäviä Business Central -yhteyshenkilöiden kortteja. Mutta halutessaan tarkastella lisätietoja tietueista käyttämällä **Tiedot**- tai **Ponnahdusikkuna**-painikkeita, he tarvitsevat käyttöoikeuden [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaan. Lisätietoja on kohdassa [Microsoft Teams -integraation hallinta](admin-teams-integration.md#minimum-requirements-1).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Business Centralin ja Microsoft Teamsin integraation yleiskatsaus](across-teams-overview.md)  
 [Microsoft Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen](across-install-app-for-teams.md)  

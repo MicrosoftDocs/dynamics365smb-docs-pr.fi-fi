@@ -8,7 +8,7 @@ ms.date: 09/13/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="approval-workflow-notifications"></a>Hyväksyntätyönkulkuilmoitukset
+# Hyväksyntätyönkulkuilmoitukset
 
 Määritä työnkulut ilmoittamaan käyttäjille automaattisesti, kun työnkulun vaihe vaatii heidän huomionsa. Useat työnkulun vastaukset ilmoittavat käyttäjälle toimia vaativista tapahtumista.
 
@@ -20,7 +20,7 @@ Voit esimerkiksi määrittää, että hyväksyjäkäyttäjä Käyttäjä 2 saa i
 > [!IMPORTANT]  
 > Kaikki työnkulun ilmoitukset lähetetään työjonon kautta. Varmista, että asennuksen työjono on määritetty käsittelemään työnkulun ilmoituksia ja että olet valinnut **Käynnistä automaattisesti palvelimelta** -valintaruudun. Lue lisätietoja kohdasta [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
 
-## <a name="set-up-notifications"></a>Ilmoitusten määrittäminen
+## Ilmoitusten määrittäminen
 
 Työnkulun ilmoitusten osatekijöitä voi määrittää seuraavissa paikoissa:  
 
@@ -49,7 +49,7 @@ Työnkulun ilmoitusten osatekijöitä voi määrittää seuraavissa paikoissa:
 
   Hyväksymistyönkuluille voit lisätä työnkulun vastausvaiheen, joka ilmoittaa lähettäjälle, kun heidän pyyntönsä on hyväksytty tai hylätty. Lue lisätietoja vaiheesta 9 [Työnkulkujen luominen](across-how-to-create-workflows.md#to-create-a-workflow) -osassa.   
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)  
 [Työnkulun käyttäjien määrittäminen](across-how-to-set-up-workflow-users.md)  
