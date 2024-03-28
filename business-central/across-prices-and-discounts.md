@@ -10,14 +10,14 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Hintojen ja alennusten määrittäminen
+# <a name="set-up-prices-and-discounts"></a>Hintojen ja alennusten määrittäminen
 
 > [!NOTE]
 > Vuoden 2020 julkaisuaallossa 2 julkaisimme virtaviivaiset prosessit hintojen ja alennusten määritykseen ja hallintaan. Jos olet uusi asiakas, joka käyttää kyseistä versiota, käytät uutta käyttökokemusta. Jos olet jo asiakas, uuden käyttöokemuksen käyttö riippuu siitä, onko järjestelmänvalvoja ottanut käyttöön **Uusi myyntihinnoittelukokemus** -ominaisuuden päivityksen **Ominaisuuksien hallinta** -sivulla. Lisätietoja on kohdassa [Tulevien ominaisuuksien ottaminen käyttöön etuajassa](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Nimikkeiden ja palveluiden osto- ja myyntistrategiat ovat perustyökaluja menestyville yrityksille. Kun yrityksesi ostaa ja myy nimikkeitä ja palveluja, voit määrittää, mitä maksat tai laskutat niistä, ja nämä summat lisätään automaattisesti myynti- ja ostoasiakirjoihin. 
 
-## Hintojen ja alennusten määrittäminen
+## <a name="setting-up-prices-and-discounts"></a>Hintojen ja alennusten määrittäminen
 
 Ennen kuin luot hinnastoja, sinun täytyy määrittää hinnoittelu- ja alennusstrategiat **Myyntien ja myyntisaamisten asetukset**- ja **Ostojen ja ostovelkojen asetukset** -sivuilla.
 
@@ -33,11 +33,11 @@ Koska myyntihinnat ja myyntirivialennukset perustuvat nimikkeen ja asiakkaan yhd
 > [!TIP]  
 > Jos nimikettä ei koskaan myydä alennetulla hinnalla, jätä nimikesivun alennuskentät tyhjiksi äläkä sisällytä nimikettä yhteenkään rivialennuksen määritykseen.
 
-## Tietoja hinnastoista
+## <a name="about-price-lists"></a>Tietoja hinnastoista
 
 Hinnastot ovat joustavia, ja niiden avulla voit määrittää, mihin liiketoimintakumppaniin tai toimintoon ne kohdistetaan. Voit esimerkiksi määrittää yhden hinnaston, joka koskee kaikkia toimittajia ja asiakkaita, tai tarjota erikoishintoja tai -alennuksia kullekin liiketoimintapartnerille, perustuen esimerkiksi osto- tai myyntitilausten vähimmäismäärään tai tiettyyn asiakkaan, nimikkeen, vähimmäismäärän, mittayksikön tai ajanjakson yhdistelmään. Määrittämäsi hinnat ja alennukset kohdistetaan automaattisesti osto- ja myyntiasiakirjoihin. 
 
-## Määritä hinnat
+## <a name="set-up-prices"></a>Määritä hinnat
 
 Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käyttöön **Uusi myyntihinnoittelukokemus** -ominaisuuden päivityksen. 
 
@@ -67,7 +67,7 @@ Voit tarkastella tiettyjen asiakkaiden tai toimittajien hinnastoja ja hintoja va
 
 ---
 
-## Myyntirivialennuksien määrittäminen asiakkaalle
+## <a name="to-set-up-a-sales-line-discount-for-a-customer"></a>Myyntirivialennuksien määrittäminen asiakkaalle
 
 Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käyttöön **Uusi myyntihinnoittelukokemus** -ominaisuuden päivityksen. 
 
@@ -97,7 +97,7 @@ Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käytt
 
 ---
 
-## Laskualennusten ja palvelumaksujen käyttäminen
+## <a name="work-with-invoice-discounts-and-service-charges"></a>Laskualennusten ja palvelumaksujen käyttäminen
 
 Kun käytät laskualennuksia, laskusumman suuruus määrää annettavan alennuksen suuruuden. Voit lisätä **Laskualennukset** -sivulla tietyn summaisille laskuille myös palvelumaksuja.  <!--The Invoice Discounts page is hard to find.-->
 
@@ -114,7 +114,7 @@ Spesifiseen laskusummaan voi linkittää alennusprosentin lisäksi (tai sen sija
 > [!TIP]  
 > Ennen tietojen kirjoittamista on suositeltavaa valmistella alennusrakenne etukäteen, jolloin on helpompi nähdä, mitkä asiakkaat linkitetään samaan laskualennussivuun. Lisätietoja myynnin alennuksista on kohdassa [Alennusten määrittäminen asiakkaille](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
-### Laskualennuksen määrittäminen asiakkaalle
+### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Laskualennuksen määrittäminen asiakkaalle
 
 Kun olet määrittänyt asiakkaat, joille myönnetään laskun alennuksia, määritä laskun alennuskoodi asiakkaiden kortteihin ja määritä kunkin koodin ehdot.
 
@@ -135,7 +135,7 @@ Jatka uuden myyntilaskun alennusehtojen määrittämiseen.
 
 Laskualennus on nyt määritetty ja liitetty kyseiselle asiakkaalle. Kun valitset asiakaskoodin muiden asiakkaiden korttien **Laskun alennuskoodi** -kentässä, sama laskualennus liitetään myös näille asiakkaille.
 
-## Myyntihintojen kopioiminen
+## <a name="to-copy-sales-prices"></a>Myyntihintojen kopioiminen
 
 Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käyttöön **Uusi myyntihinnoittelukokemus** -ominaisuuden päivityksen. 
 
@@ -166,7 +166,7 @@ Hinnaston rivin tilan on oltava **Luonnos**.
   
 ---
 
-## Nimikehintojen joukkopäivitys
+## <a name="to-bulk-update-item-prices"></a>Nimikehintojen joukkopäivitys
 
 Nämä vaiheet vaihtelevat sen mukaan, onko järjestelmänvalvoja ottanut käyttöön **Uusi myyntihinnoittelukokemus** -ominaisuuden päivityksen. 
 
@@ -194,11 +194,11 @@ Jos haluat päivittää monien nimikkeiden hinnat, sinun täytyy luoda uusi hinn
 
 ---
 
-## Parhaan hinnan laskenta
+## <a name="calculating-the-best-price"></a>Parhaan hinnan laskenta
 
 Kun olet kirjannut myynnin ja ostojen erikoishinnat ja rivialennukset, [!INCLUDE[d365fin](includes/d365fin_md.md)] varmistaa, että nimikekaupan tuotto on aina optimaalinen laskemalla automaattisesti parhaan hinnan myynti- ja ostoasiakirjoille sekä projekti- ja nimikepäiväkirjan riville. Lisätietoja on kohdassa [Parhaan hinnan laskenta](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Myynti](sales-manage-sales.md)  

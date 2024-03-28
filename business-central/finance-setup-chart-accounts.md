@@ -11,14 +11,14 @@ ms.date: 12/19/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Tilikartan määrittäminen tai muuttaminen
+# <a name="set-up-or-change-the-chart-of-accounts"></a>Tilikartan määrittäminen tai muuttaminen
 
 Tilikartta näyttää ne kirjanpidon tilit, joihin on tallennettu taloustietoja. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää tilikartan, joka on valmis tukemaan liiketoimintaasi. Voit kuitenkin muuttaa oletustilejä ja lisätä uusia tilejä.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## Lisää tai muuta tilejä
+## <a name="add-or-change-accounts"></a>Lisää tai muuta tilejä
 
 Voit avata kunkin tilin pääkirjanpidon (KP) tilin tilikartasta ja lisätä tai muuttaa asetuksia. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,7 +29,7 @@ Tarvittaessa voit käyttää useita rivejä KP-tilin nimeä varten. Valitse **KP
 > [!IMPORTANT]
 > Jos olet syöttänyt määritelmiä **Summausväli**-kentässä **Loppusumma**-tileille ennen sisentämistä, sinun täytyy syöttää ne uudestaan, koska Sisennys-toiminto korvaa kaikki arvot **Loppusumma**-kentässä.
 
-## Poista tilejä
+## <a name="delete-accounts"></a>Poista tilejä
 
 Voit poistaa pääkirjanpitotilin. Ennen sen poistamista seuraavien on kuitenkin toteuduttava:  
 
@@ -43,13 +43,13 @@ Voit myös määrittää, milloin ihmisten sallitaan poistaa tilejä. Käytöss�
 
 **Estä KP-tilien poisto** -kentän käyttöönotto on usein paras käytäntö, kuten myös päivämäärän asettaminen **Tarkista KP-tilien poisto jälkeen** -kenttä, esimerkiksi päivämäärä, johon asti säädökset edellyttävät rahoitustietojen tallentamista.  
 
-### Video-opastus
+### <a name="video-guidance"></a>Video-opastus
 
 Tämä video näyttää, kuinka voit määrittää, voivatko ihmiset poistaa KP-tilejä ja milloin.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Pääkirjanpito ja tilikartta](finance-general-ledger.md)  
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  

@@ -10,7 +10,7 @@ ms.date: 04/27/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Business Central -apuohjelman hankkiminen Outlookiin
+# <a name="get-the-business-central-add-in-for-outlook"></a>Business Central -apuohjelman hankkiminen Outlookiin
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in avulla voit hallita liiketoiminnallisia vuorovaikutuksia asiakkaiden ja toimittajien kanssa suoraan Microsoft Outlookista. [!INCLUDE[prod_short](includes/prod_short.md)]in Outlook-apuohjelman avulla voit tarkastella asiakkaisiin ja toimittajiin liittyviä taloudellisia tietoja. Voit myös luoda ja lähettää rahoitusasiakirjoja, kuten tarjouksia ja laskuja.  
 
@@ -20,7 +20,7 @@ On kaksi tapaa saada Business Central -lisäosa Outlookiin asennetuksi organisaa
 
 - Tavallinen käyttäjä voi asentaa lisäosan omaan käyttöön, jos järjestelmänvalvoja ei ole jo ottanut sitä käyttöön.
 
-## Tietoja Outlookin Business Central -apuohjelmasta
+## <a name="about-the-business-central-add-in-for-outlook"></a>Tietoja Outlookin Business Central -apuohjelmasta
 
 Outlookin Business Central -apuohjelma koostuu kahdesta pienemmästä apuohjelmista:
 
@@ -39,20 +39,20 @@ Jokainen apuohjelma toimitetaan XML-tiedostona eli *luettelotiedostona*, joka on
 > [!IMPORTANT]
 > Useiden ympäristöjen käsitteleminen Outlookin Business Central -apuohjelma on suunniteltu toimimaan yhdessä Business Central -ympäristössä. Kun apuohjelma on asennettu, ympäristön nimi sisällytetään apuohjelman kokoonpanotietoihin. Tämä määritys tarkoittaa, että apuohjelma muodostaa yhteyden vain ympäristöön, josta se asennettiin. Jos haluat käyttää apuohjelmaa eri ympäristössä, avaa ympäristö ja asenna apuohjelma uudelleen.
 
-## Apuohjelman käyttöönottaminen keskitetyn käyttöönoton avulla järjestelmänvalvojana
+## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Apuohjelman käyttöönottaminen keskitetyn käyttöönoton avulla järjestelmänvalvojana
 
 Keskitetty käyttöönotto on Microsoft 365 -hallintakeskuksen ominaisuus, jonka avulla voit asentaa apuohjelmat automaattisesti käyttäjien Office-sovelluksiin, kuten Outlookiin. Se on suositeltava tapa, jolla järjestelmänvalvojat voivat ottaa Office-apuohjelmia käyttöön organisaatiossasi oleville käyttäjille ja ryhmille.
 
 > [!NOTE]
 > Katso Business Central on-premises -versiolle järjestelmänvalvojan sisällössä ohjeaihe [Outlook-integraation apuohjelman määrittäminen Business Central on-premises -versiolle](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) (vain englanniksi).
 
-### Vaatimukset
+### <a name="prerequisites"></a>Vaatimukset
 
 - Microsoft 365 -tilaus  
 - Käyttäjille on määritetty Microsoft 365 -käyttöoikeus.  
 - Microsoft 365 -tilillä on *Yleinen järjestelmänvalvoja*- tai *Exchange-järjestelmänvalvoja* -rooli
 
-### Apuohjelman käyttöönotto
+### <a name="deploy-the-add-in"></a>Apuohjelman käyttöönotto
 
 1. Valitse Business Centralissa ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asetusten ohjattu määritys** ja valitse sitten vastaava linkki.
 2. Valitsemalla **Outlook-lisäohjelman keskitetty käyttöönotto** voit käynnistää avustetun asennusoppaan.
@@ -82,7 +82,7 @@ Keskitetty käyttöönotto on Microsoft 365 -hallintakeskuksen ominaisuus, jonka
 
 Kun olet valmis, voit aina muuttaa käyttöönottoa Microsoft 365 -hallintakeskuksessa, kuten määrittää useampia käyttäjiä. Lisätietoja apuohjelmien käyttöönotosta hallintakeskuksessa on kohdassa [Apuohjelmien käyttöönotto hallintakeskuksessa](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
-## <a name="install"></a>Apuohjelman asentaminen omaan käyttöön
+## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Apuohjelman asentaminen omaan käyttöön
 
 Jos organisaatiosi sen sallii, voit asentaa Business Central -apuohjelman vain itseäsi varten. Jos et ole varma, kysy järjestelmänvalvojalta.
 
@@ -93,7 +93,7 @@ Jos organisaatiosi sen sallii, voit asentaa Business Central -apuohjelman vain i
 
 Business Central muodostaa yhteyden sähköpostipalvelimeen ja asentaa apuohjelman Outlookiin. Tämä ei vie kauan. Olet nyt valmis aloittamaan apuohjelman käyttämisen Outlookissa.
 
-### <a name="onprem"></a>Business Central on-premises -versiolle
+### <a name="for-business-central-on-premises"></a><a name="onprem"></a>Business Central on-premises -versiolle
 
 Jos käytät Business Centralin on-premises -asennusta, apuohjelman asentaminen voi olla hieman erilaista.
 
@@ -115,7 +115,7 @@ Jos käytät Business Centralin on-premises -asennusta, apuohjelman asentaminen 
 
 Olet nyt valmis aloittamaan apuohjelman käyttämisen Outlookissa.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Business Centralin hakeminen omaan mobiililaitteeseen](install-mobile-app.md)  

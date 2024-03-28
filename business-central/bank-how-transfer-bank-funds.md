@@ -10,11 +10,11 @@ ms.date: 04/29/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Siirrä pankkivarat
+# <a name="transfer-bank-funds"></a>Siirrä pankkivarat
 
 Joskus on siirrettävä varoja yhdeltä pankkitililtä kohteessa [!INCLUDE[prod_short](includes/prod_short.md)] toiselle. Se tehdään kirjaamalla tapahtuma **Yleinen päiväkirja** -sivulle. Tehtävä vaihtelee sen mukaan, käytetäänkö pankkitileillä samaa vai eri valuuttaa.
 
-## Siirtojen kirjaaminen pankkitileillä, jotka käyttävät samaa valuuttakoodia
+## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Siirtojen kirjaaminen pankkitileillä, jotka käyttävät samaa valuuttakoodia
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleinen päiväkirja** ja valitse sitten vastaava linkki.
 2. Täytä päiväkirjan rivillä **Kirjauspvm**- ja **Asiakirjan nro** -kentät.
@@ -27,7 +27,7 @@ Joskus on siirrettävä varoja yhdeltä pankkitililtä kohteessa [!INCLUDE[prod_
 7. Valitse **Vastatilin nro**-kentässä pankkitili, johon haluat siirtää varat.
 8. Kirjaa päiväkirja.
 
-## Siirtojen kirjaaminen pankkitileillä, joilla on eri valuuttakoodit
+## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Siirtojen kirjaaminen pankkitileillä, joilla on eri valuuttakoodit
 
 Voit siirtää varoja eri valuuttoja käyttävien pankkitilien välillä kirjaamalla kaksi yleisen päiväkirjan riviä.
 
@@ -64,7 +64,7 @@ Voit siirtää varoja eri valuuttoja käyttävien pankkitilien välillä kirjaam
     > Jos summan edessä ei ole merkkiä, se on debet-summa. Muussa tapauksessa kyseessä on kredit-summa.
 10. Kirjaa päiväkirja.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  

@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ms.service: dynamics-365-business-central
 ---
-# Asiakirjojen arkistoiminen
+# <a name="archive-documents"></a>Asiakirjojen arkistoiminen
 
 Voit arkistoida myynti-ja ostotilauksia, tarjouksia, palautustilauksia ja puitetilauksia. Voit arkistoida myynti- tai ostoasiakirjan useita kertoja ja tallentaa kullakin kerralla erilaisen arkistoidun version.
 
@@ -18,7 +18,7 @@ Jos kyse on myyntiasiakirjoista, joiden alkuperäinen versio on vielä olemassa 
 
 Jos kyse on arkistoiduista asiakirjoista, joiden alkuperäinen versio on poistettu, voit käyttää sisällön uudelleen ainoastaan kopioimalla tiedot esimerkiksi käyttäen **Kopioi asiakirjasta** -toimintoa.  
 
-## Asiakirjojen automaattisen arkistoinnin määrittäminen
+## <a name="to-set-up-automatic-document-archiving"></a>Asiakirjojen automaattisen arkistoinnin määrittäminen
 
 Voit määrittää myynti- ja ostotilausten, tarjousten, puitetilausten ja palautustilausten automaattisen arkistoinnin. Kun automaattinen arkistointi on käytössä, arkistoidusta asiakirjasta luodaan uusi versio, kun joku tekee seuraavat asiat:
 
@@ -40,7 +40,7 @@ Seuraavassa taulukossa kuvataan **Arkistoi tarjoukset**-kentän vaihtoehdot.
 |**Kysymys**|Kysy käyttäjältä myyntitarjousten arkistoinnista tarjousten poistamisen yhteydessä.|
 |**Aina**|Arkistoi myyntitarjoukset automaattisesti poistamisen yhteydessä.|
 
-## Myyntitilauksen arkistointi manuaalisesti
+## <a name="to-manually-archive-a-sales-order"></a>Myyntitilauksen arkistointi manuaalisesti
 
 Seuraavassa kuvataan, miten myyntitilaus arkistoidaan manuaalisesti. Vaiheet ovat samankaltaiset kaikille tilauksille, puitetilauksille, palautustilauksille ja tarjouksille.
 
@@ -50,7 +50,7 @@ Seuraavassa kuvataan, miten myyntitilaus arkistoidaan manuaalisesti. Vaiheet ova
 
 Myyntitilaus on arkistoitu. Voit tarkastella sitä **Arkistoidut myyntitilaukset** -sivulla.
 
-## Kirjaamattomien myyntitilausten palauttaminen arkistosta
+## <a name="to-restore-a-non-posted-sales-order-from-the-archive"></a>Kirjaamattomien myyntitilausten palauttaminen arkistosta
 
 Seuraavaksi käsitellään menetelmä, jolla arkistoitu myyntitilaus palautetaan alkuperäiseen myyntitilaukseen. Asiakirjan palauttaminen on mahdollista vain, jos alkuperäistä tiedostoa ei ole kirjattu. Vaiheet ovat samankaltaiset kaikille tilauksille, puitetilauksille, palautustilauksille ja tarjouksille.
 
@@ -59,7 +59,7 @@ Seuraavaksi käsitellään menetelmä, jolla arkistoitu myyntitilaus palautetaan
 
 Alkuperäisen myyntitilauksen sisältö korvataan arkistoidulla versiolla.
 
-## Arkistoitujen myyntitilausten poistaminen
+## <a name="to-delete-archived-sales-orders"></a>Arkistoitujen myyntitilausten poistaminen
 
 Säilytyskäytännön avulla voit tyhjentää arkistoidut asiakirjat, joita et enää tarvitse. Säilytyskäytäntöjen avulla järjestelmänvalvojat voivat määrittää, kuinka kauan he haluavat säilyttää tietoja. He voivat esimerkiksi määrittää käytännön, joka poistaa tiedot vanhentumispäivämäärän jälkeen. Lisätietoja on kohdassa [Säilytyskäytäntöjen määrittäminen](admin-data-retention-policies.md).
 
@@ -69,7 +69,7 @@ Arkistoitujen asiakirjojen säilytyskäytäntöjen luomista varten on syytä ott
 * Kun määrität säilytyskäytännön, voit määrittää, että käytäntö poistaa kaikki asiakirjan arkistoidut versiot uusinta lukuun ottamatta. Sinulla voi olla esimerkiksi 10 versiota asiakirjasta ja haluat säilyttää viimeisimmän kopion. 
 * Business Central laskee asiakirjojen vanhentumispäivämäärän viimeisimmän arkistoidun version päivämäärän perusteella.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Asiakirjarivien seuraaminen](across-how-to-track-document-lines.md)  
 [Myynti](sales-manage-sales.md)  
