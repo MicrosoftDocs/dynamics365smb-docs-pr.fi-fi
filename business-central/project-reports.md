@@ -9,21 +9,22 @@ ms.date: 06/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="project-reports-and-analytics-in-business-central"></a>Business Centralin projektiraportit ja analytiikka
+# Business Centralin projektiraportit ja analytiikka
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -projektiraporttien avulla projektien ja liiketoiminnan ammattilaiset voivat saada merkityksellistä tietoa ja analytiikkaa nykyisistä ja aiemmista projektitoiminnoista.  
 
-## <a name="reports"></a>Raportit
+## Raportit
+
 [!INCLUDE [project_reports](includes/project-reports-include.md)]
 
-## <a name="tasks"></a>Tehtävät
+## Tehtävät
 
 Seuraavissa artikkeleissa kuvataan joitakin yrityksen tilan analysointiin liittyviä keskeisiä tehtäviä:
 
 * [Projektin edistymisen ja suorituskyvyn valvonta](projects-how-monitor-progress-performance.md)  
 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Projektinhallinnan määrittäminen](projects-setup-projects.md)  
 [Projektinhallinta](projects-manage-projects.md)  
