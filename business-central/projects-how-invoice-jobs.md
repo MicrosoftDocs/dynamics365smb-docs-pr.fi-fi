@@ -10,7 +10,7 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Projektien laskuttaminen
+# <a name="invoice-projects"></a>Projektien laskuttaminen
 
 Projektin aikana voi kertyä projektin kustannuksia resurssien käytöstä, materiaaleista ja projektiin liittyvistä ostoista. Projektin edetessä nämä tapahtumat kirjataan projektipäiväkirjaan. On tärkeää, että kaikki kustannukset kirjataan projektipäiväkirjaan ennen asiakkaan laskuttamista.
 
@@ -24,7 +24,7 @@ Voit laskuttaa koko projektin **Projektitehtävärivit**-sivulla tai laskuttaa v
 
 Voit myös laskuttaa yritystä, joka ei ole loppuasiakas. Joskus osapuoli, jolle projekti on luotu, eroaa laskun maksavasta osapuolesta. **Projektit**-sivulla voit määrittää projektista hyötyvän asiakkaan **Tilausasiakas**-kentissä sekä laskutettavan osapuolen **Laskutusasiakas**-kentissä. 
 
-## Voit luoda monta projektin myyntilaskua
+## <a name="to-create-multiple-project-sales-invoices"></a>Voit luoda monta projektin myyntilaskua
 
 Voit luoda asiakkaalle laskun projektista tai vähintään yhdestä projektitehtävästä, kun laskutettava työ on valmis tai kun laskutusaikatauluun perustuva laskutuspäivämäärä on saavutettu.
 
@@ -40,7 +40,7 @@ Voit tarkastella ja kirjata luotuja laskuja **Myyntilaskut**-ikkunassa.
 > [!NOTE]
 > Vaihtoehtoisesti voit laskuttaa Projektit-sivulla asiakasta valitsemalla projektin ja valitsemalla sitten **Luo projektin myyntilasku** -toiminnon. 
 
-## Projektin myyntilaskun luominen ja kirjaaminen projektin suunnitteluriveistä
+## <a name="to-create-and-post-project-sales-invoice-from-project-planning-lines"></a>Projektin myyntilaskun luominen ja kirjaaminen projektin suunnitteluriveistä
 
 Voit luoda laskun projektin suunnitteluriveiltä ja määrittää samalla nimikkeen määrän, resurssin tai KP-tilin, jonka haluat laskuttaa.
 
@@ -59,7 +59,7 @@ Voit luoda laskun projektin suunnitteluriveiltä ja määrittää samalla nimikk
 > [!NOTE]  
 >   Projektiin liittyvän myyntihyvityslaskun luominen, tarkistaminen ja kirjaaminen tapahtuu vastaavalla tavalla.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Projektien hallinta](projects-manage-projects.md)  
 [Taloushallinto](finance.md)  

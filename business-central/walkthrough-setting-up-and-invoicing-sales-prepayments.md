@@ -9,7 +9,7 @@ ms.date: 12/03/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen
+# <a name="walkthrough-set-up-and-invoicing-sales-prepayments"></a>Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen
 
 Tässä opastuksessa käsitellään ennakkomaksujen määrittäminen ja käyttö kohteessa [!INCLUDE [prod_short](includes/prod_short.md)]. [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -17,7 +17,7 @@ Tässä opastuksessa käsitellään ennakkomaksujen määrittäminen ja käyttö
 
 Voit myös esimerkiksi lähettää lisäennakkomaksulaskuja, jos tilaukseen esimerkiksi lisätään nimikkeitä.  
 
-## Tietoja tästä vaihekuvauksesta  
+## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta
 
 Tässä vaihekuvauksessa käsitellään seuraavia tilanteita:  
 
@@ -28,7 +28,7 @@ Tässä vaihekuvauksessa käsitellään seuraavia tilanteita:
 - Ennakkomaksujen kohdistaminen tilaukseen  
 - Ennakkomaksun sisältävän tilauksen lopullisen summan laskuttaminen  
 
-### Roolit
+### <a name="roles"></a>Roolit
 
 Tässä vaihekuvauksessa on seuraaviin rooleihin liittyviä tehtäviä:  
 
@@ -36,7 +36,7 @@ Tässä vaihekuvauksessa on seuraaviin rooleihin liittyviä tehtäviä:
 - tilausten käsittelijä (Susanna)  
 - myyntireskontran hoitaja (Erik).  
 
-## Taustatietoja
+## <a name="story"></a>Taustatietoja
 
  Paula on talouspäällikkö ja tekee päätökset asiakkaista, joiden tarvitsee maksaa vakuus, ennen kuin osat valmistetaan tai toimitetaan. Paula määrittää [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman laskemaan ennakkomaksut automaattisesti.  
 
@@ -52,7 +52,7 @@ Tässä vaihekuvauksessa on seuraaviin rooleihin liittyviä tehtäviä:
 
  Erik rekisteröi asiakkaan maksun, kohdistaa sen laskuihin ja lähettää lopullisen laskun.  
 
-## Ennakkomaksujen määrittäminen
+## <a name="set-up-prepayments"></a>Ennakkomaksujen määrittäminen
 
 Paula määrittää järjestelmän käsittelemään asiakkaiden ennakkomaksut.  
 
@@ -62,13 +62,13 @@ Paula määrittää järjestelmän käsittelemään asiakkaiden ennakkomaksut.
 
 Seuraavissa kohdissa on kuvattu, miten Paulan työtehtävät suoritetaan.  
 
-### Ennakkomaksujen numerosarjojen määrittäminen
+### <a name="to-set-up-number-series-for-prepayments"></a>Ennakkomaksujen numerosarjojen määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntien ja myyntisaamisten asetukset** ja valitse sitten vastaava linkki.  
 2. Laajenna **Myyntien ja myyntisaamisten asetukset** -sivun **Numerosarja**-pikavälilehti.  
 3. Varmista, että kirjattujen ennakkomaksulaskujen numerosarja (**Kirjattujen ennakkomaksulaskujen nrot** -kenttä) on sama kuin kirjattujen myyntilaskujen numerosarja (**Kirjattujen laskujen nrot**) ja että kirjattujen ennakkomaksun hyvityslaskujen numerosarja (**Kirjattujen ennakkomaksun hyvityslaskujen nrot**) on sama kuin kirjattujen hyvityslaskujen numerosarja (**Kirjattujen hyvityslas. nrot**).  
 
-### Toimitusten estäminen tilanteissa, joissa ennakkomaksuja on jätetty maksamatta
+### <a name="to-block-shipments-for-unpaid-prepayment"></a>Toimitusten estäminen tilanteissa, joissa ennakkomaksuja on jätetty maksamatta
 
 1. Valitse **Myyntien ja myyntisaamisten asetukset** -sivun **Yleinen**-pikavälilehdessä **Tarkista ennakkomaksu kirjattaessa** -valintaruudussa.
 
@@ -78,7 +78,7 @@ Paula edellyttää, että asiakkaalta 20000 laskutetaan kaikkien tilausten yhtey
 
 Paula edellyttää, että kaikilta asiakkailta laskutetaan 20 prosentin ennakkomaksu nimikkeestä 1896-S. Asiakkaan 20000 maksuhistoria on huono, joten asiakkaalta 20000 edellytetään 40 prosentin ennakkomaksua nimikkeestä 1896-S. Seuraavassa menettelyssä kuvataan, miten ennakkomaksujen oletusprosentit määritetään.  
 
-### Ennakkomaksujen oletusprosenttien määrittäminen asiakkaille ja nimikkeille
+### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Ennakkomaksujen oletusprosenttien määrittäminen asiakkaille ja nimikkeille
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten vastaava linkki.  
 2. Avaa asiakkaan 20000 (Trey Research) kortti.
@@ -96,7 +96,7 @@ Paula edellyttää, että kaikilta asiakkailta laskutetaan 20 prosentin ennakkom
 
 6. Sulje kaikki sivut.  
 
-### Määritä tili myynnin ennakkomaksuille yleisissä kirjausasetuksissa
+### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Määritä tili myynnin ennakkomaksuille yleisissä kirjausasetuksissa
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleiset kirjausasetukset** ja valitse sitten vastaava linkki.  
 2. Valitse rivi, jossa **Ylein. liiketoim. kirjausryhmä** -kentän arvoksi on määritetty **KOTIMAAN** ja **Yleinen tuotteen kirjausryhmä** -kentän arvoksi **VÄH.MYYNTI**.  
@@ -105,7 +105,7 @@ Paula edellyttää, että kaikilta asiakkailta laskutetaan 20 prosentin ennakkom
 > [!TIP]
 > Jos **Yleiset kirjausasetukset** -sivun kenttä ei ole näkyvissä, siirry sivulla oikealle sivun alaosassa olevan vaakavierityspalkin avulla.  
 
-## Ennakkomaksua edellyttävän tilauksen luominen
+## <a name="create-an-order-that-requires-a-prepayment"></a>Ennakkomaksua edellyttävän tilauksen luominen
 
  Seuraavassa tilanteessa Sanna, tilausten käsittelijä, luo tilauksen puhuessaan asiakkaan kanssa. Asiakkaan tilaamissa nimikkeissä tarvitaan ennakkomaksu. Lisäksi asiakas on maksanut aiemmin maksuja myöhässä. Susania on kehotettu vaatimaan kiinteää summaa **800** tilauksen ennakkomaksuksi.  
 
@@ -113,7 +113,7 @@ Asiakas pyytää, että hän saisi maksaa 35 prosenttia, johon Susan voi myönty
 
 Susanna luo ennakkomaksulaskun ja lähettää sen asiakkaalle.  
 
-### Ennakkomaksun sisältävän myyntitilauksen luominen
+### <a name="to-create-a-sales-order-with-a-prepayment"></a>Ennakkomaksun sisältävän myyntitilauksen luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
@@ -150,11 +150,11 @@ Susanna luo ennakkomaksulaskun ja lähettää sen asiakkaalle.
 12. Valitse näyttöön tulevassa varoituksessa **Kyllä**. 35 % sovelletaan koko tilaukseen maksuprosenttina.  
 13. Vahvista, että rivit on päivitetty oikein.  
 
-## Ennakkomaksulaskun luominen
+## <a name="create-a-prepayment-invoice"></a>Ennakkomaksulaskun luominen
 
 Kun Susanna on lisännyt oikean ennakkomaksuarvon tilaukseen, hän luo ennakkomaksulaskun ja lähettää sen asiakkaalle.  
 
-### Ennakkomaksulaskun luominen
+### <a name="to-create-a-prepayment-invoice"></a>Ennakkomaksulaskun luominen
 
 1. Valitse **Myyntitilaus**-sivulla **Toiminnot**, sitten **Kirjaus**, sitten **Ennakkomaksu** ja valitse sitten **Kirjaa ja tulosta ennakkomaksulasku**
 2. Kirjaa lasku valitsemalla **Kyllä**-painike.  
@@ -162,11 +162,11 @@ Kun Susanna on lisännyt oikean ennakkomaksuarvon tilaukseen, hän luo ennakkoma
 > [!NOTE]  
 > Susanna lähettää laskun asiakkaalle.  
 
-## Ylimääräisen ennakkolaskumaksun luominen
+## <a name="create-an-additional-prepayment-invoice"></a>Ylimääräisen ennakkolaskumaksun luominen
 
 Seuraavana päivänä asiakas soittaa Susannalle ja tekee muutoksia tilaukseen. Asiakas haluaisi kaksi kappaletta nimikettä 1896-S. Susanna avaa tilauksen uudelleen, päivittää tilauksen, luo tilaukselle toisen ennakkomaksulaskun ja lähettää sen asiakkaalle.  
 
-### Ylimääräisen ennakkolaskumaksun luominen
+### <a name="to-create-an-additional-prepayment-invoice"></a>Ylimääräisen ennakkolaskumaksun luominen
 
 1. Valitse **Myyntitilaus**-sivulla **Vapauta**-toiminto ja sitten **Avaa uudelleen**.  
 2. Syötä nimikkeen **1896-S** kentässä **Määrä** arvoksi **2**.  
@@ -175,11 +175,11 @@ Seuraavana päivänä asiakas soittaa Susannalle ja tekee muutoksia tilaukseen. 
 3. Kirjaa ylimääräinen ennakkomaksun summa valitsemalla **Toiminnot**, sitten **Kirjaus**, sitten **Ennakkomaksu** ja sitten valitse **Kirjaa ja tulosta ennakkomaksulasku**
 4. Kirjaa lasku valitsemalla **Kyllä**-painike.  
 
-## Ennakkomaksujen kohdistaminen
+## <a name="apply-the-prepayments"></a>Ennakkomaksujen kohdistaminen
 
 Asiakas maksaa ennakkomaksusumman. Kirjanpito-osaston Arnie rekisteröi maksun ja kohdistaa sen ennakkomaksulaskuihin.  
 
-### Maksun kohdistaminen ennakkomaksulaskuihin
+### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Maksun kohdistaminen ennakkomaksulaskuihin
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kassapäiväkirjat** ja valitse sitten vastaava linkki.  
 2. Täytä päiväkirjan rivi seuraavilla tiedoilla:  
@@ -199,11 +199,11 @@ Asiakas maksaa ennakkomaksusumman. Kirjanpito-osaston Arnie rekisteröi maksun j
 7. Kirjaa päiväkirja valitsemalla **Kirjaa/tulosta**-toiminto ja sitten **Kirjaa**.
 8. Valitse **Kyllä**-painike.
 
-## Jäljellä olevan summan laskuttaminen
+## <a name="invoice-the-remaining-amount"></a>Jäljellä olevan summan laskuttaminen
 
 Erikille on nyt ilmoitettu, että tilauksen nimikkeet on toimitettu ja että tilaus on valmis laskutettavaksi. Erik luo tilauksen laskun.  
 
-### Jäljellä olevan summan laskuttaminen
+### <a name="to-invoice-the-remaining-amount"></a>Jäljellä olevan summan laskuttaminen
 
 1. Avaa myyntitilaus.
 2. Valitse **Kirjaus**-toiminto ja sitten **Kirjaa**.
@@ -217,11 +217,11 @@ Erikille on nyt ilmoitettu, että tilauksen nimikkeet on toimitettu ja että til
 
 5. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjatut myyntilaskut** ja valitse sitten vastaava linkki.  
 
-## Ennakkoon maksettujen tilausten ja laskujen tilan päivittäminen automaattisesti
+## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Ennakkoon maksettujen tilausten ja laskujen tilan päivittäminen automaattisesti
 
 Voit nopeuttaa tilausten ja laskujen käsittelemistä määrittämällä työjonotapahtumat, jotka päivittävät kyseisten asiakirjojen tilan automaattisesti. Kun ennakkomaksulasku on maksettu, työjonotapahtumat voivat automaattisesti muuttaa asiakirjan tilan **odottavasta ennakkomaksusta** **lähetetyksi**. Kun määrität työjonon tapahtumia, koodiyksiköt, joita tarvitset, ovat **383 Upd. Pending Prepmt. Sales** ja **383 Upd. Pending Prepmt. Purchase**. On suositeltavaa ajoittaa tapahtumat suoritettavaksi usein, esimerkiksi joka minuutti. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md).
 
-## Seuraavat vaiheet
+## <a name="next-steps"></a>Seuraavat vaiheet
 
 Tässä vaihekuvauksessa käsiteltiin seuraavia vaiheita, joita noudattamalla [!INCLUDE[prod_short](includes/prod_short.md)] määritetään käsittelemään ennakkomaksuja. 
 
@@ -234,7 +234,7 @@ Vaihekuvauksessa käsiteltiin myös ennakkomaksulaskun kirjaamista, toisen ennak
 
 Ennakkomaksuominaisuuksien avulla on helppo määrittää ja pakottaa asiakkaiden ja nimikkeiden ennakkomaksusääntöjä. Niiden avulla voit myös kirjata jokaisen maksun laskua vastaan.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Laskutuksen ennakkomaksut](finance-invoice-prepayments.md)  
 [Taloushallinto](finance.md)  

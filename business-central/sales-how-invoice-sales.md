@@ -10,7 +10,7 @@ ms.date: 11/01/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Myynnin laskuttaminen
+# <a name="invoice-sales"></a>Myynnin laskuttaminen
 
 Voit yleensä luoda joko myyntitilauksen tai -laskun tallentaaksesi sopimuksesi asiakkaan kanssa ja myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla.  
 
@@ -24,7 +24,7 @@ Kaikissa muissa tapauksissa myyntitilaukset ja myyntilaskut toimivat samalla tav
 
 Voit neuvotella asiakkaan kanssa luomalla ensin myyntitarjoukseen, jonka voit muuntaa myyntilaskuksi, kun hyväksyt myynnin. Lisätietoja on kohdassa [Myyntitarjousten tekeminen](sales-how-make-offers.md).
 
-## Luo myyntilaskut
+## <a name="create-sales-invoices"></a>Luo myyntilaskut
 
 Jos asiakas päättää tehdä oston, luo liittyvä määrä- ja arvotapahtuma kirjaamalla myyntilasku. Kun kirjaat myyntilaskun, voit myös lähettää sen PDF-liitteenä sähköpostitse. Voit täyttää sähköpostin tekstiosan yhteenvedolla lasku- ja maksutiedoista. Tietoihin voi kuulua esimerkiksi PayPal-linkki. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostilla](ui-how-send-documents-email.md). Kun asiakas maksaa laskun, voit rekisteröidä maksun eri tavoilla organisaation koosta ja ensisijaisista työnkuluista riippuen. Lisätietoja on kohdassa [Rekisteröintimaksut](#register-payments).  
 
@@ -32,7 +32,7 @@ Nimikkeen kortin tyyppi voi olla **Varasto**, **palvelu** tai **Muu kuin varasto
 
 Voit täyttää myyntilaskun asiakkaan kentät kahdella tavalla sen mukaan, onko asiakas jo rekisteröity. Katso vaihe 2 seuraavassa menettelyssä.
 
-### Myyntilaskujen luominen
+### <a name="to-create-a-sales-invoice"></a>Myyntilaskujen luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntilaskut** ja valitse sitten vastaava linkki.  
 2. Syötä **Asiakkaan nimi**-kenttään nykyisen asiakkaan nimi. Jos asiakas kuitenkin on uusi eikä ole rekisteröitynyt, täytä asiakastiedot **myyntilasku**-sivulla seuraavien ohjeiden mukaan:
@@ -89,11 +89,11 @@ Asiakkaan ensisijainen asiakirjojen vastaanottomenetelmä näkyy **Kirjaa ja lä
 
 Nyt järjestelmässä luodaan liittyvä nimike ja asiakastapahtumat. Myyntilasku tulostetaan PDF-asiakirjana. Myyntilasku poistetaan myyntilaskujen luettelosta ja korvataan uudella asiakirjalla kirjattujen myyntilaskujen luettelosta.  
 
-### Myynnin laskualennusten laskenta
+### <a name="calculate-invoice-discounts-on-sales"></a>Myynnin laskualennusten laskenta
 
 [!INCLUDE [sales-invoice-discounts](includes/sales-invoice-discounts.md)]
 
-## Kirjatut laskut
+## <a name="posted-invoices"></a>Kirjatut laskut
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
@@ -101,7 +101,7 @@ Voit helposti korjata tai peruuttaa kirjatun myyntilaskun ennen lopullista maksu
 
 [Avaa **Kirjatut myyntilaskut** -luettelo](https://businesscentral.dynamics.com/?page=143) [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksessa.
 
-## Rekisteröi maksu
+## <a name="register-payments"></a>Rekisteröi maksu
 
 Voit saada maksun ja rekisteröidä maksun eri tavoilla liiketoimintatarpeistasi riippuen: manuaalisesti, automaattisesti tai maksupalveluiden avulla.  
 
@@ -116,11 +116,11 @@ Voit luoda jopa suoraan maksettavia laskuja rekisteröimättömille asiakkaille,
 > [!TIP]
 > Jos haluat lähettää asiakkaille muistutuksia erääntyneistä maksuista, sinun täytyy määrittää ensin muistutustasot ja -ehdot. Lue lisätietoja kohdasta [Muistutusehtojen ja -tasojen määrittäminen](finance-setup-reminders.md).  
 
-## Ulkoisen tiedoston numerot
+## <a name="external-document-numbers"></a>Ulkoisen tiedoston numerot
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
