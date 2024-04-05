@@ -139,8 +139,9 @@ ms.service: dynamics-365-business-central
 ## Tuottavuuden parantaminen Business Centralin avulla
 ### [Yleisten toimintojen yleiskatsaus](ui-work-product.md)
 ### [Helposti tulostettava pikaopas](ui-work-product.md#cheatsheet)
-### [Sivujen ja tietojen etsiminen Kerro-toiminnolla](ui-search.md)
-### [Kerro-toiminnon usein kysytyt kysymykset](ui-search-faq.md)
+### [Keskustelu Copilotin avulla (esiversio)](chat-with-copilot.md)
+### [Sivujen ja tietojen etsiminen Kerro minulle, mitä haluat tehdä -toiminnolla](ui-search.md)
+### [Kerro minulle, mitä haluat tehdä -toiminnon usein kysytyt kysymykset](ui-search-faq.md)
 ### [Tiettyjen tietojen hakeminen](ui-search-data.md)
 ### [Sivujen etsiminen roolienhallinnan avulla](ui-role-explorer.md)
 ### [Lajitteleminen, hakeminen ja suodattaminen](ui-enter-criteria-filters.md)
@@ -201,7 +202,8 @@ ms.service: dynamics-365-business-central
 ### [Älykkäät merkitykselliset tiedot (vain verkossa)](about-intelligent-cloud.md)
 ## Usein kysytyt kysymykset
 ### [Usein kysytyt kysymykset](across-faq.yml)
-### [Kerro-toiminnon usein kysytyt kysymykset](ui-search-faq.md)
+### [Usein kysyttyjä kysymyksiä keskustelusta Copilotin avulla (esiversio)](chat-with-copilot-faq.md)
+### [Kerro minulle, mitä haluat tehdä -toiminnon usein kysytyt kysymykset](ui-search-faq.md)
 ### [Lajittelemisen ja suodattamisen usein kysytyt kysymykset](ui-search-filter-faq.yml)
 ### [Luettelonäkymien usein kysytyt kysymykset](ui-views-faq.yml)
 ### [Kopioimisen ja liittämisen usein kysytyt kysymykset](faq-copy-paste.yml)
@@ -374,6 +376,7 @@ ms.service: dynamics-365-business-central
 #### [Varastonarvostuksen ja kustannuslaskennan määrittäminen](finance-set-up-inventory-valuation-and-costing.md)
 #### [Varaston uudelleenarvostus](inventory-how-revalue-inventory.md)
 #### [Nimikekustannusten muuttaminen](inventory-how-adjust-item-costs.md)
+#### [Nimikekustannusten muutosten seuraaminen](finance-track-inventory-costs.md)
 #### [Varaston ja tuotannon kustannusten käsitteleminen](finance-handle-inventory-and-manufacturing-costs.md)
 #### [Vakiokustannusten päivittäminen](finance-how-to-update-standard-costs.md)
 #### [Nimiketapahtumien poistaminen ja uudelleenkohdistaminen](finance-how-to-remove-and-reapply-item-entries.md)
@@ -388,7 +391,6 @@ ms.service: dynamics-365-business-central
 #### [Kassavirran yleiskatsaus](finance-cash-flow-overview.md)
 #### [Yrityksen kassavirtojen analysoiminen](finance-analyze-cash-flow.md)
 #### [Vaihekuvaus: kassavirtaennusteiden tekeminen talousraporttien avulla](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-
 
 ### Vuosien ja kausien sulkeminen
 #### [Tilinpäätöksen yleiskatsaus](year-close-years-periods.md)
@@ -408,6 +410,7 @@ ms.service: dynamics-365-business-central
 ### Tilikartan ja pääkirjanpidon (KP) käsitteleminen
 #### [Pääkirjanpidon ja tilikartan ymmärtäminen](finance-general-ledger.md)
 #### [Tilien tarkistaminen](finance-review-accounts.md)
+#### [Pääkirjanpitotilin saldojen uudelleenarvostus](finance-revalue-account-balances.md)
 #### [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)
 #### [Päiväkirjakirjausten peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md)
 #### [Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md)
@@ -459,24 +462,34 @@ ms.service: dynamics-365-business-central
 ##### [Konserniasiakirjojen ja ‑päiväkirjojen käyttäminen](intercompany-how-work-documents-journals.md)
 ##### [Konsernin Saapuneet- ja Lähtevät-kansion hallinta](intercompany-how-manage-intercompany-inbox.md)
 ##### [Kustannusten kohdistaminen konsernikumppaneille](intercompany-allocate-costs.md)
-
 ### [Kirjanpitäjän käyttökokemukset Business Centralissa](finance-accounting.md)
 
+## Talousanalytiikka 
+### [Talousanalytiikan yleiskatsaus](bi.md)
+### [Taloushallinnon raportoinnin käsitteleminen liiketoimintayksiköiden tai yritysten välillä](finance-consolidated-company-reporting.md)
+<!-- ### [Financial KPIs](bi-finance-kpis.md) -->
 
-## Taloushallinnon liiketoimintatiedot ja raportit
-### [Taloushallinnon liiketoimintatietojen ja raporttien yleiskatsaus](bi.md)
-### [Talousraportit](finance-reports.md)
-### [Tietojen analysoiminen tilastotilien avulla](bi-use-statistical-accounts.md)
-### [Todellisten summien analysoiminen budjetoituihin summiin verraten](bi-how-analyze-actual-versus-budget.md)
-### [Talousraportoinnin valmisteleminen taloustietojen ja tililuokkien avulla](bi-how-work-account-schedule.md)
-### [Talousraportteihin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
-### [Tietojen analysoiminen dimensioiden mukaan](bi-how-analyze-data-dimension.md)
-### [Analyysiraporttien luominen](bi-how-create-analysis-views-reports.md)
-### [Tilinpäätösten analysoiminen Excelissä](finance-analyze-excel.md)
-### [Raporttien luominen XBRL:n avulla](bi-create-reports-with-xbrl.md)
-### [Tietokannan käyttötarkoitusten hallinta](admin-data-access-intent.md)
-### [Vaihekuvaus: kassavirtaennusteiden tekeminen talousraporttien avulla](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+### Taloushallinnon raportointi (käyttämällä tilinpäätöksiä ja tunnuslukuja)
+#### [Taloushallinnon raportoinnin valmisteleminen](bi-how-work-account-schedule.md)
+#### [Vaihekuvaus: kassavirtaennusteiden tekeminen taloushallinnon raportoinnin avulla](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Taloushallinnon raportointiin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
+#### [Tietojen analysoiminen tilastotilien avulla](bi-use-statistical-accounts.md)
+#### [Tietojen analysoiminen dimensioiden mukaan](bi-how-analyze-data-dimension.md)
+#### [Analyysiraporttien luominen](bi-how-create-analysis-views-reports.md)
 
+<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
+
+### Valmiit talousanalyysin työkalut
+#### [Tilikartan taloustietojen analysoiminen](finance-general-ledger.md)
+#### [Todellisten summien analysoiminen budjetoituihin summiin verraten](bi-how-analyze-actual-versus-budget.md)
+#### [Kassavirran analysoiminen](finance-analyze-cash-flow.md)
+
+### Valmiit talousraportit
+#### [Excelin valmiit talousraportit](finance-analyze-excel.md)
+#### [Valmiit keskeiset talousraportit](finance-reports.md)
+#### [Valmiit käyttöomaisuusraportit](fa-reports.md)
+#### [Valmiit myyntireskontran raportit](receivables-reports.md)
+#### [Valmiit ostoreskontran raportit](payables-reports.md)
 
 ## Myynti
 ### [Myynnin yleiskatsaus](sales-manage-sales.md)
@@ -549,18 +562,20 @@ ms.service: dynamics-365-business-central
 ## Projektien hallinta
 ### [Projektien hallinnan yleiskatsaus](projects-manage-projects.md)
 ### [Projektiraportit](project-reports.md)
-### [Töiden luominen](projects-how-create-jobs.md)
+### [Projektien luominen](projects-how-create-jobs.md)
 ### [Resurssien käyttäminen projekteissa](projects-how-use-resources.md)
 ### [Aikaraporttien käyttäminen](projects-how-use-time-sheets.md)
-### [Työbudjettien hallinta](projects-how-manage-budgets.md)
-### [Töiden käytön kirjaaminen](projects-how-record-job-usage.md)
-### [Työn tarvikkeiden hallinta](projects-how-manage-project-supplies.md)
+### [Projektin budjettien hallinta](projects-how-manage-budgets.md)
+### [Projektin käytön kirjaaminen](projects-how-record-job-usage.md)
+### [Projektin tarvikkeiden hallinta](projects-how-manage-project-supplies.md)
 ### [Tietoja KET-menetelmistä](projects-understanding-wip.md)
-### [Työn edistymisen ja suorituskyvyn valvonta](projects-how-monitor-progress-performance.md)
-### [Töiden laskuttaminen](projects-how-invoice-jobs.md)
+### [Projektin edistymisen ja suorituskyvyn valvonta](projects-how-monitor-progress-performance.md)
+### [Projektien laskutus](projects-how-invoice-jobs.md)
 
 ## Käyttöomaisuus
 ### [Käyttöomaisuuden yleiskatsaus](fa-manage.md)
+### [Käyttöomaisuuden määrittäminen](fa-setup.md)
+### [Poistotavat](fa-depreciation-methods.md)
 ### [Käyttöomaisuuden raportit ja analytiikka](fa-reports.md)
 ### [Käyttöomaisuuden hankkiminen](fa-how-acquire.md)
 ### [Käyttöomaisuuden ylläpitäminen](fa-how-maintain.md)
@@ -723,12 +738,12 @@ ms.service: dynamics-365-business-central
 ## Verkkokauppa Shopifylla
 ### [Shopify-yhdistimen käytön aloittaminen](shopify/get-started.md)
 #### [Shopify-tilin luominen ja määrittäminen](shopify/shopify-account.md)
-### [Nimikkeiden synkronoiminen Shopifyn kanssa](shopify/synchronize-items.md)
-### [Asiakkaiden synkronoiminen Shopifyn kanssa](shopify/synchronize-customers.md)
+### [Nimikkeiden ja varaston synkronoiminen Shopifyn avulla](shopify/synchronize-items.md)
+### [Asiakkaiden ja yritysten synkronoiminen Shopifyn avulla](shopify/synchronize-customers.md)
 ### [Myyntitilausten synkronoiminen ja täyttäminen Shopifyn kanssa](shopify/synchronize-orders.md)
 ### [Tapahtumien ja maksujen synkronoiminen](shopify/transactions-and-payouts.md)
 ### [Shopify-yhteyden verojen määrittäminen](shopify/setup-taxes.md)
-### [Tehtävien suorittaminen taustalla](shopify/background.md)
+### [Shopifyn synkronoinnin automatisointi työjonon avulla](shopify/background.md)
 ### [Shopify-yhdistimen vianmääritys](shopify/troubleshoot.md)
 ### [Shopify-yhdistimen usein kysytyt kysymykset](shopify/shopify-faq.md)
 ### [Vaihekuvaus: Shopify-yhdistimen määrittäminen ja käyttäminen](shopify/walkthrough-setting-up-and-using-shopify.md)
@@ -849,37 +864,70 @@ ms.service: dynamics-365-business-central
 ##### [GIFI-koodien käsitteleminen](LocalFunctionality/Canada/work-gifi-codes.md)
 
 ### Tšekin tasavalta
-#### [Paikalliset toiminnot Tšekin versiossa](LocalFunctionality/Czech/czech-local-functionality.md)
+#### [Paikalliset toiminnot tšekkiläisessä versiossa](LocalFunctionality/Czech/czech-local-functionality.md)
 #### [Perustoimintojen lokalisointipaketti – Tšekki (laajennus)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
 #### [Lisätoimintojen lokalisointipaketti – Tšekki (laajennus)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
 #### Taloushallinnon perustiedot  
-##### [Taloushallinto](LocalFunctionality/Czech/finance.md)
+##### [Korjauksen kirjaus (Red Storno)](LocalFunctionality/Czech/how-to-use-corrections-posting.md)
+##### [Lakisääteiset yritystä koskevat tiedot](LocalFunctionality/Czech/statutory-company-information.md)
+##### [Sisäiset taloushallinnon asiakirjat](LocalFunctionality/Czech/internal-financial-documents.md)
+##### [Kirjanpidon tuotosasiakirjat](LocalFunctionality/Czech/accounting-output-documents.md)
+##### [Kirjanpidon aikataulu-ominaisuus](LocalFunctionality/Czech/how-to-use-accounting-schedule-feature.md)
+##### [Lakisääteiset ilmoitukset](LocalFunctionality/Czech/statutory-statements.md)
 ##### [Vuoden sulkemistoiminnot](LocalFunctionality/Czech/year-close-operations.md)
 ##### [Pääkirjanpidon tapahtumien kohdistus](LocalFunctionality/Czech/general-ledger-entries-application.md)
-##### [Vaihtokurssien päivittäminen](LocalFunctionality/Czech/exchange-rate-update.md)
+##### [Valuuttakurssien päivittäminen](LocalFunctionality/Czech/exchange-rate-update.md)
+##### [Monikierroksinen kirjanpito](LocalFunctionality/Czech/how-to-use-multi-circuit-accounting.md)
 #### ALV
-##### [Taloushallinto – ALV](LocalFunctionality/Czech/finance-vat.md)
+##### [ALV-päivämäärä](LocalFunctionality/Czech/how-to-setup-vat-date.md)
+##### [ALV-ilmoitus](LocalFunctionality/Czech/vat-statement.md)
+##### [Täydentävä ALV-ilmoitus](LocalFunctionality/Czech/supplementary-vat-statement.md)
+##### [VIES](LocalFunctionality/Czech/vies-cz.md)
+##### [VIES – CZ vienti](LocalFunctionality/Czech/how-to-use-vies-cz-export.md)
+##### [Epäluotettava maksaja](LocalFunctionality/Czech/unreliable-payer.md)
+##### [ALV-vaihtokurssi](LocalFunctionality/Czech/how-to-setup-vat-exchange-rate.md)
+##### [Vastakirjauksen määrittäminen ja kirjaaminen](LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge.md)
 ##### [ALV:n valvontaraportti](LocalFunctionality/Czech/vat-control-report.md)
+##### [ALV-raportit](LocalFunctionality/Czech/vat-reports-cz.md)
+##### [ALV-korjaus paikallisena valuuttana](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
+##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+##### [Intrastat – Tšekki (laajennus)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Käyttöomaisuus
-##### [Käyttöomaisuus](LocalFunctionality/Czech/fixed-assets.md)
 ##### [Käyttöomaisuuden lokalisointi – Tšekki (laajennus)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Pankkitoiminta ja maksut
-##### [Pankkiominaisuus](LocalFunctionality/Czech/bank-feature.md)
 ##### [Pankin asiakirjojen lokalisointi – Tšekki (laajennus)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
-##### [Kassanhallinta](LocalFunctionality/Czech/cash-desk-management.md)
 ##### [Kassan lokalisointi – Tšekki (laajennus)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Myynnin rekisteröinti (EET)](LocalFunctionality/Czech/eet.md)
-##### [Ennakkomaksut](LocalFunctionality/Czech/advances.md)
 ##### [Ennakkomaksujen lokalisointi – Tšekki (laajennus)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
 #### Ostovelat ja myyntisaatavat
-##### [Ostovelat ja myyntisaatavat](LocalFunctionality/Czech/receivables-payables.md)
-##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
-##### [Korvausten lokalisointi – Tšekki (laajennus)](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
+##### [Vaihtokurssien muutosominaisuus)](LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature.md)
+##### [Useita ostovelka- ja myyntisaamistilejä](LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts.md)
+##### [Asiakkaan ja toimittajan täsmäytykset](LocalFunctionality/Czech/customers-vendors-reconciliations.md)
+##### [Myynnin korjausasiakirjat](LocalFunctionality/Czech/sales-correcting-documents.md)
+##### [Yhteyshenkilöiden päivittäminen ARES-järjestelmästä](LocalFunctionality/Czech/how-to-update-contacts-from-ares.md)
+##### [Tulosasiakirjojen uusi ulkoasu](LocalFunctionality/Czech/new-design-of-output-documents.md)
+##### [Korvaukset](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
 #### Varasto
-##### [Varasto](LocalFunctionality/Czech/inventory.md)
+##### [Pyöristyskirjanpito varastossa](LocalFunctionality/Czech/how-to-setup-round-account-in-inventory.md)
+##### [Varaston pääkirjanpidon täsmäytyksen parannukset](LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements.md)
+##### [Fyysisen varaston lisäominaisuus](LocalFunctionality/Czech/advanced-features-physical-inventory.md)
+##### [Inventointiasiakirjat](LocalFunctionality/Czech/how-to-use-inventory-counting-documents.md)
+##### [Varastotoimintojen asiakirja](LocalFunctionality/Czech/how-to-use-inventory-operations-document.md)
+##### [Kirjausryhmät siirtotilauksissa](LocalFunctionality/Czech/how-to-use-posting-groups-in-transfer-orders.md)
 #### Yleiset
 ##### [Laajennettu käyttäjän valvonta](LocalFunctionality/Czech/general.md)
-##### [Parhaat käytännöt](LocalFunctionality/Czech/best-practices.md)
+##### [Kirjausryhmän muutosten hallinta](LocalFunctionality/Czech/check-of-posting-group-changing.md)
+##### [Tuotosvaraston aikajärjestyksen hallinta](LocalFunctionality/Czech/check-output-inventory-time-sequence.md)
+##### [Varastosiirtomallit](LocalFunctionality/Czech/inventory-movement-templates.md)
+##### [Varastointiyksikkömallit](LocalFunctionality/Czech/stockkeeping-unit-templates.md)
+##### [Pakollinen todellisen kustannuksen palautus tuotannossa](LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing.md)
+##### [Liiketoiminnan oletuskirjausryhmä tuotannossa](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-manufacturing.md)
+##### [Liiketoiminnan oletuskirjausryhmä kokoonpanotilauksissa](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-assembly-orders.md)
+##### [Dimensioiden automaattinen luominen ja päivittäminen](LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions.md)
+##### [Kenttien lisääminen nimiketapahtumissa](LocalFunctionality/Czech/how-to-use-add-fields-item-entries.md)
+##### [Yleinen tuotannon kirjausryhmä varastointiyksikössä](LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku.md)
+##### [Varastointiyksikön päivityksen ohittaminen kirjattaessa](LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting.md)
+##### [Ei-varastoitavan nimikkeen numerointi](LocalFunctionality/Czech/how-to-setup-nonstock-item-numbering.md)
 
 ### Tanska
 #### [Paikalliset toiminnot Tanskan versiossa](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1522,7 +1570,8 @@ ms.service: dynamics-365-business-central
 #### [Talousraportoinnin valmisteleminen taloustietojen ja tililuokkien avulla](bi-how-work-account-schedule.md)
 #### [Maksutoleranssien ja maksualennustoleranssien käsitteleminen](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Kirjanpitojaksojen ja tilikausien käyttäminen](finance-accounting-periods-and-fiscal-years.md)
-#### [Muistutusehtojen ja -tasojen määrittäminen.](finance-setup-reminders.md)
+#### [Muistutusehtojen ja -tasojen määrittäminen](finance-setup-reminders.md)
+#### [Perinnän muistutusten automatisointi](finance-automate-reminders.md)
 #### [Viivästyskuluehtojen määrittäminen](finance-setup-finance-charges.md)
 #### [Arvonlisäveron (ALV) määrittäminen](finance-setup-vat.md)
 #### [Arvonlisäveron (ALV) laskemisen ja kirjaustapojen määrittäminen](finance-setup-vat.md)
@@ -1584,15 +1633,14 @@ ms.service: dynamics-365-business-central
 #### [Nimikkeiden luokitteleminen](inventory-how-categorize-items.md)
 #### [Useiden nimikekuvien tuominen](inventory-how-import-item-pictures.md)
 ### Projektienhallinnan määrittäminen
-#### [Projektien määrittäminen](projects-setup-projects.md)
+#### [Projektienhallinnan määrittäminen](projects-setup-projects.md)
 #### [Resurssien määrittäminen](projects-how-setup-resources.md)
 #### [Tuntiraporttien määrittäminen](projects-how-setup-time-sheets.md)
-#### [Töiden määrittäminen](projects-how-setup-jobs.md)
+#### [Projektien määrittäminen](projects-how-setup-jobs.md)
 ### Käyttöomaisuuden määrittäminen
 #### [Käyttöomaisuuden määrittäminen](fa-setup.md)
 #### [Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md)
 #### [Käyttöomaisuuden poiston määrittäminen](fa-how-setup-depreciation.md)
-#### [Poistomenetelmän määrittäminen](fa-depreciation-methods.md)
 #### [Käyttäjäkohtaisten poistomenetelmien määrittäminen](fa-how-setup-user-defined-depreciation-method.md)
 #### [Käyttöomaisuuden vakuutuksen määrittäminen](fa-how-setup-insurance.md)
 #### [Käyttöomaisuuden kunnossapidon määrittäminen](fa-how-setup-maintenance.md)
@@ -1727,15 +1775,18 @@ ms.service: dynamics-365-business-central
 ### [Online-karttojen määrittäminen](across-online-maps-setup.md)
 ### [Business Centralin hankkiminen mobiililaitteeseen](install-mobile-app.md)
 ### [Business Centralin hankkiminen tietokoneeseen](install-desktop-app.md)
-<!--Reporting landing page-->
-# Liiketoimintatiedot ja raportointi 
 
-## [Yleiskatsaus](reports-bi-reporting.md)
+<!--Reporting landing page-->
+# Analytiikka, liiketoimintatiedot ja raportointi 
+
+## [Analytiikan yleiskatsaus](reports-bi-reporting.md)
+## [Tunnuslukujen käyttäminen liiketoimintatavoitteiden saavuttamiseen](./analytics-about-kpis.md)
+## [Talousraportoinnin käyttäminen](bi-how-work-account-schedule.md)
 
 ## Raporttien käyttäminen päivittäisessä työssä
 ### [Yleiskatsaus](reports-use-reports.md)
 ### [Raporttien suorittaminen](ui-work-report.md)
-### [Lisää raporttiin kirjanmerkki](ui-bookmarks.md)
+### [Kirjanmerkin lisääminen raporttiin](ui-bookmarks.md)
 ### [Raporttitietojen analysoiminen Excelillä](report-analyze-excel.md)
 ### [Raporttien tulostaminen](ui-specify-printer-selection-reports.md#default)
 ### [Raporttien ajoittaminen](ui-work-report.md#ScheduleReport)
@@ -1773,10 +1824,10 @@ ms.service: dynamics-365-business-central
 #### [Varastotapahtumien ja pääkirjanpidon välisen täsmäytyksen tarkistaminen](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
 #### [Laituroitujen nimikkeiden tarkasteleminen toimituksessa tai poimintatyökirjassa](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
 
-### Projekti
+### §Projekti
 #### [Projektiraportit](project-reports.md)
-#### [Työn käyttöarvioiden tarkasteleminen](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
-#### [Työn edistymisen ja suorituskyvyn valvonta](projects-how-monitor-progress-performance.md)
+#### [Projektin käyttöarvioiden tarkasteleminen](projects-how-record-job-usage.md#to-view-project-usage-estimates-and-post-updates)
+#### [Projektin edistymisen ja suorituskyvyn valvonta](projects-how-monitor-progress-performance.md)
 
 ### Käyttöomaisuus
 #### [Käyttöomaisuuden raportit](fa-reports.md)
@@ -1933,6 +1984,7 @@ ms.service: dynamics-365-business-central
 #### [Muiden toimittajien Business Central ‑laajennukset](ui-extensions-other.md)
 ## Integroiminen muiden Dynamics 365 ‑sovellusten kanssa
 ### [Dynamics 365 Sales ‑integrointi tietojen synkronoinnin avulla](admin-prepare-dynamics-365-for-sales-for-integration.md)
+### [Microsoft Dynamics 365 Field Service ‑integrointi](admin-integrate-field-service.md)
 ## Microsoft Dataverse ‑integrointi
 ### [Dataverse-integrointi tietojen synkronoinnin avulla](admin-common-data-service.md)
 ### [Tietojen omistusmallit synkronointia varten](admin-cds-company-concept.md)
@@ -2025,18 +2077,36 @@ ms.service: dynamics-365-business-central
 ## [Suorituskyky](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Poistetut tai vanhentuneet ominaisuudet](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
 # Copilot- ja tekoälyominaisuudet
+## [Tietoja Business Centralin Copilotista](copilot-overview.md)
 ## Copilot- ja tekoälyominaisuuksien hallinta
 ### [Copilot- ja tekoälyominaisuuksien määrittäminen](enable-ai.md)
 ### [Copilot-tietojen siirtäminen maantieteellisten alueiden välillä](ai-copilot-data-movement.md)
 ### [Copilot- ja tekoälyominaisuuksien vianmääritys](ai-copilot-troubleshooting.md)
+## Analyysiavustaja (esiversio)
+### [Luetteloiden tietojen analysointi Copilotin avulla](analysis-assist.md)
+### [Analyysiavustajan usein kysytyt kysymykset](faqs-analysis-assist.md)
 ## Pankkitilin täsmäytyksen avustaja (esiversio)
 ### [Pankkitilien täsmäyttäminen Copilotin avulla](bank-reconciliation-with-copilot.md)
 ### [Pankkitilin täsmäytyksen avustajan usein kysytyt kysymykset](faqs-bank-reconciliation.md)
+## Keskustelu Copilotin avulla (esiversio)
+### [Keskustelu Copilotin avulla](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+### [Usein kysyttyjä kysymyksiä keskustelusta Copilotin avulla](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
+### [Vastuullisen tekoälyn usein kysyttyjä kysymyksiä keskustelusta Copilotin avulla](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ## Markkinointitekstiehdotukset
 ### [Markkinointitekstiehdotusten yleiskatsaus](ai-overview.md)
 ### [Markkinointitekstin luominen Copilotin avulla](item-marketing-text.md)
 ### [Markkinointitekstiehdotusten usein kysytyt kysymykset](faqs-marketing-text.md)
+## Myyntirivin ehdotus (esiversio)
+### [Rivien ehdottaminen myyntitilaukseen Copilotin avulla](sales-suggest-sales-lines-with-copilot.md)
+### [Usein kysyttyjä kysymyksiä Copilotin myyntiriviehdotuksista](faq-sales-suggest-sales-lines-with-copilot.md)
+## Sähköisten asiakirjojen yhdistäminen (esiversio)
+### [Sähköisten asiakirjojen yhdistäminen ostotilausriveille Copilotin avulla](map-edocuments-with-copilot.md)
+### [Usein kysyttyjä kysymyksiä sähköisten asiakirjojen yhdistämisestä ostotilauksiin Copilotin avulla](faqs-map-edocuments.md)
 # Vastuullinen tekoäly
 ## [Yleiskatsaus](responsible-ai-overview.md)
+## [Usein kysyttyjä kysymyksiä analyysiavustajasta (esiversio)](faqs-analysis-assist.md)
 ## [Usein kysyttyjä kysymyksiä pankkitilin täsmäytyksen avustajasta (esiversio)](faqs-bank-reconciliation.md)
+## [Usein kysyttyjä kysymyksiä keskustelusta Copilotin avulla (esiversio)](faqs-chat-with-copilot.md)
 ## [Markkinointitekstiehdotusten usein kysytyt kysymykset](faqs-marketing-text.md)
+## [Usein kysyttyjä kysymyksiä Copilotin myyntiriviehdotuksista (esiversio)](faq-sales-suggest-sales-lines-with-copilot.md)
+## [Usein kysyttyjä kysymyksiä sähköisten asiakirjojen yhdistämisestä ostotilauksiin Copilotin avulla (esiversio)](faqs-map-edocuments.md)
