@@ -11,22 +11,22 @@ ms.date: 04/13/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Varasto, varastoraportit ja analytiikka
+# <a name="inventory-and-warehouse-reports-and-analytics"></a>Varasto, varastoraportit ja analytiikka
 
 Sovelluksen [!INCLUDE [prod_short](includes/prod_short.md)] varastoraporttien avulla varaston ja liiketoiminnan ammattilaiset voivat saada merkityksellistä tietoa ja analytiikkaa nykyisistä ja aiemmista varastotoiminnoista.  
 
-## Raportit
+## <a name="reports"></a>Raportit
 
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
-## Tehtävät
+## <a name="tasks"></a>Tehtävät
 
 Seuraavissa artikkeleissa kuvataan joitakin yrityksen tilan analysointiin liittyviä keskeisiä tehtäviä:
 
 * [Analyysiraporttien luominen](bi-how-create-analysis-views-reports.md)  
 * [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)
 
-## Viivakoodien tulostaminen ja lukeminen
+## <a name="print-and-scan-barcodes"></a>Viivakoodien tulostaminen ja lukeminen
 
 Viivakoodien avulla saapuvien, lähtevien ja sisäisten varastoprosessien tehostaminen ja nopeuttaminen on mahdollista. 
 
@@ -44,7 +44,7 @@ Sovelluksen asentamisen jälkeen voit tulostaa 1D- ja 2D-viivakoodit **Tulosta e
 > [!NOTE]
 > Jotkin tulostimet ja viivakoodi-/QR-koodimuodot vaativat tietyn toteutuksen. Voit joutua lataamaan toisen Word-mallin tai kloonaamaan raportin luodaksesi oman mukautetun version.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Varaston määrittäminen](inventory-setup-inventory.md)  
 [Varasto](inventory-manage-inventory.md)  
