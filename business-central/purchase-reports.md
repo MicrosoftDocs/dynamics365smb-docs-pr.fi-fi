@@ -9,21 +9,21 @@ ms.date: 06/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="purchase-reports-and-analytics-in-business-central"></a>Business Centralin ostoraportit ja analytiikka
+# Business Centralin ostoraportit ja analytiikka
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -ostoraporttien avulla hankinnan ja liiketoiminnan ammattilaiset voivat saada merkityksellistä tietoa ja analytiikkaa nykyisistä ja aiemmista ostotoiminnoista.  
 
-## <a name="reports"></a>Raportit
+## Raportit
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## <a name="tasks"></a>Tehtävät
+## Tehtävät
 Seuraavissa artikkeleissa kuvataan joitakin yrityksen tilan analysointiin liittyviä keskeisiä tehtäviä:
 
 * [Analyysiraporttien luominen](bi-how-create-analysis-views-reports.md)  
 * [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)  
 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Ostojen määrittäminen](purchasing-setup-purchasing.md)  
 [Osto](purchasing-manage-purchasing.md)  
 
