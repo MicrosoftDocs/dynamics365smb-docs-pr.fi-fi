@@ -12,7 +12,7 @@ ms.date: 02/23/2024
 ms.custom: bap-template
 ---
 
-# Sähköisten asiakirjojen yhdistäminen ostotilausriveille Copilotin avulla (esiversio)
+# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>Sähköisten asiakirjojen yhdistäminen ostotilausriveille Copilotin avulla (esiversio)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -33,17 +33,17 @@ Business Centralissa aiemmin luotua ostotilausta voidaan nyt päivittää sähk�
 > - AI-generated content may be incorrect.-->
 
 
-## Ostotilausten tunnistaminen
+## <a name="identify-purchase-orders"></a>Ostotilausten tunnistaminen
 
 Ensimmäiseksi tunnistetaan automaattisesti kohdistettavat ostotilaukset.
 
-## Rivien yhdistäminen
+## <a name="map-lines"></a>Rivien yhdistäminen
 
 Copilot auttaa kohdistamaan sähköisen laskun rivit ja ostotilauksen rivit automaattisesti, minkä lisäksi se mahdollistaa kohdistuksia parantavan älykkään lisäkohdistuksen.
 
 Kun ne on kohdistettu ja yhdistetty, Business Central päivittää kohdistetun ostotilauksen soveltuvilla vastaanotetuilla tiedoilla. Tämä varmistaa, että tilausriveillä vastaanotetaan oikeat määrät.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Sähköisten asiakirjojen yleiskatsaus](finance-edocuments-overview.md)  
 [Sähköisten asiakirjojen käyttäminen myynnissä ja ostoissa](finance-how-use-edocuments.md)  

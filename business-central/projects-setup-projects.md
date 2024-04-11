@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Projektinhallinnan määrittäminen
+# <a name="setting-up-project-management"></a>Projektinhallinnan määrittäminen
 
 Ennen kuin [!INCLUDE[prod_short](includes/prod_short.md)]ia voidaan käyttää projektien hallintaan, resurssit, aikaraportit ja projektit on määritettävä.
 
@@ -26,7 +26,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 | Ota raporteissa käyttöön ajan käytön raportointi yksityishenkilölle tai koneelle. Anna esimiehelle oikeus tarkistaa käyttö ja sen kohdistus. |[Tuntiraporttien määrittäminen](projects-how-setup-time-sheets.md) |
 | Luo projektikortit ja valmistele projektitehtävät. Määritä projektinimikkeiden ja -resurssien hinnat sekä määritä projektin kirjausryhmät. |[Projektien määrittäminen](projects-how-setup-jobs.md) |
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Projektien hallinta](projects-manage-projects.md)  
 [Video: Projektin luonti Dynamics 365 Business Centralissa](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

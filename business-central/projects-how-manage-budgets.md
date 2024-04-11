@@ -11,13 +11,13 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Projektin budjettien hallinta
+# <a name="manage-project-budgets"></a>Projektin budjettien hallinta
 
 Budjetti voidaan määrittää kullekin projektille. Budjettia käytetään projektille kohdistettavien resurssien suunnittelussa. Budjetti voi olla joko yleisluonteinen budjetti, joka sisältää vain vähän tapahtumia, tai se voi sisältää monia tapahtumia, jotka on jaettu toimintotasoille. Voit verrata budjetoituja summia projektipäiväkirjaan kirjattuun todelliseen käyttöön. Kun todellisen ja budjetoidun käytön välisiä eroja seuraamalla voidaan hallita meneillään olevaa projektia ja parantaa tulevien projektien laatua pienentämällä kustannusten aliarvioinnin riskiä.
 
 Seuraavissa ohjeissa kerrotaan, miten budjetoituja kustannuksia arvioidaan suunnittelun aikana. Lisätietoja budjetoitujen ja todellisten projektihintojen ja -kustannusten kirjaamisesta on kohdassa [Projektien käytön kirjaaminen](projects-how-record-job-usage.md).  
 
-## <a name="JobBudgetCosts"></a> Projektin budjetoitujen kustannusten arvioiminen
+## <a name="to-estimate-the-budgeted-costs-for-a-project"></a><a name="JobBudgetCosts"></a>Projektin budjetoitujen kustannusten arvioiminen
 
 Kun asiakas haluaa tietää sellaisen projektin hinnan, joka laskutetaan käytön perusteella, on määritettävä projektin budjetoidut kustannukset. Se tehdään **Projektitehtävärivit**-sivulla.
 
@@ -44,7 +44,7 @@ Viittaa **Rivityyppi**-kentässä seuraaviin tietoihin.
 
 Lisätietoja budjetoitujen ja todellisten projektihintojen ja -kustannusten kirjaamisesta on kohdassa [Projektien käytön kirjaaminen](projects-how-record-job-usage.md).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Projektien hallinta](projects-manage-projects.md)  
 [Taloushallinto](finance.md)  

@@ -10,7 +10,7 @@ ms.date: 01/25/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Myynti
+# <a name="sales"></a>Myynti
 
 Luo myyntilasku tai -tilaus tallentaaksesi sopimuksesi asiakkaan kanssa ja myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla.
 
@@ -52,7 +52,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 |Ilmoitta tilauksen toimiaika asiakkaille laskemalla joko mahdollinen luvattavaksi- tai luvattavissa -päivämäärä.|[Toimituksen lupaamisen päivämäärien laskeminen](sales-how-to-calculate-order-promising-dates.md)|
 |Ratkaise ristiriita, kun samalla asiakkaalla on ainakin kaksi tietuetta.|[Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)|
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Uusien asiakkaiden rekisteröiminen](sales-how-register-new-customers.md)  

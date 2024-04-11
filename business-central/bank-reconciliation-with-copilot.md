@@ -12,7 +12,7 @@ ms.date: 03/27/2024
 ms.custom: bap-template
 ---
 
-# Pankkitilien täsmäyttäminen Copilotin avulla (esiversio)
+# <a name="reconcile-bank-accounts-with-copilot-preview"></a>Pankkitilien täsmäyttäminen Copilotin avulla (esiversio)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -20,7 +20,7 @@ Tässä artikkelissa kerrotaan, miten pankkitilin täsmäytysavustaja auttaa pan
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## Tietoja pankkitilin täsmäytysavustajasta
+## <a name="about-bank-account-reconciliation-assist"></a>Tietoja pankkitilin täsmäytysavustajasta
 
 Pankkitilin täsmäytysavustaja on joukko tekoälyä käyttäviä ominaisuuksia, jotka auttavat pankkitilien täsmäytyksessä. Pankkitilin täsmäytysavustaja tarjoaa kaksi erillistä tehtävää Copilotin kautta:
 
@@ -36,14 +36,14 @@ Pankkitilin täsmäytysavustaja on joukko tekoälyä käyttäviä ominaisuuksia,
   
    Siirry kohtaan [Siirrä täsmäyttämättömät pankkitilitapahtumat ehdotetuille kirjanpitotileille](#transfer-unmatched-bank-transactions-to-suggested-general-ledger-accounts).
 
-## Vaatimukset
+## <a name="prerequisites"></a>Vaatimukset
 
 - Pankkitilin täsmäytysavustaja on aktivoitu. Järjestelmänvalvoja tekee tämän tehtävän. [Lisätietoja Copilotin ja tekoälyn ominaisuuksien määrittämisestä](enable-ai.md).
 - Business Centralin pankkitilit, jotka haluat täsmäyttää, on linkitetty online-pankkitiliin tai ne on määritetty pankin tiliotteen tuontimuodon avulla. 
 - Pankkitilien täsmäytys Business Centralissa on sinulle tuttua, kuten kohdassa [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md) on kuvattu. 
 
 <!--H2s. Required. A how-to article explains how to do a task. The bulk of each H2 should be a procedure.-->
-## Täsmäytä pankkitilit Copilotin avulla
+## <a name="reconcile-bank-accounts-with-copilot"></a>Täsmäytä pankkitilit Copilotin avulla
 
 <!-- Similar to the **Match Automatically** capability on the **Bank Acc. Reconciliation** page, Bank account reconciliation assist can also automatically matches transactions in banks statements with bank entries. The difference is that **Match Automatically** uses a native rules-based algorithm, while Bank account reconciliation assist is based AI technology though Copilot. Bank account reconciliation assist is intended to supplement the **Match Automatically** capability. While **Match Automatically** is fairly successful at matching transactions, there are some instances where it can't&mdash;which is where Bank account reconciliation assist comes. By using the **Reconcile with Copilot** action on **Bank Acc. Reconciliation** page, you can find even more matches.-->
 
@@ -87,7 +87,7 @@ Tämän lähestymistavan avulla voit käyttää Copilot-toimintoa joko uudessa p
 1. Tarkista ehdotetut täsmäytykset seuraavassa osiossa kuvatulla tavalla. 
 ---
 
-### Ehdotettujen osumien tarkistaminen, tallentaminen ja hylkääminen
+### <a name="review-save-or-discard-proposed-matches"></a>Ehdotettujen osumien tarkistaminen, tallentaminen ja hylkääminen
 
 Copilotin suorittamisen jälkeen **Täsmäytä Copilotin avulla** -ikkunassa näkyvät eritellyt tulokset sekä ehdotetut osumat. Tällöin Copilotin ehdottamia vastaavuuksia ei ole tallennettu, joten sen avulla voit tarkastaa ehdotukset ja tallentaa tai hylätä haluamasi tiedot.
 
@@ -102,7 +102,7 @@ Copilot-ikkuna on jaettu seuraaviin kahteen osaan. Ylemmässä osiossa on yleist
 |Tiliotteen loppusaldo|Määrittää loppusaldon, joka näytetään pankin tiliotteessa, jota täsmäytät|
 |Kirjaa, jos kohdistettu kokonaan|Ota tämä kytkin käyttöön, jos haluat kirjata pankkitilin täsmäytyksen automaattisesti, kun kaikki rivit (100 %) täsmäävät ja olet valinnut **Säilytä**.|
 
-#### Tallenna tai hylkää ehdotetut kohdistukset
+#### <a name="save-or-discard-proposed-matches"></a>Tallenna tai hylkää ehdotetut kohdistukset
 
 Tarkista **Täsmäytetyt ehdotukset** -osassa ehdotetut vastaavuudet rivi riviltä ja ryhdy asianmukaisiin toimiin:
 
@@ -114,7 +114,7 @@ Tarkista **Täsmäytetyt ehdotukset** -osassa ehdotetut vastaavuudet rivi rivilt
 - Tallenna Copilot-ikkunassa tällä hetkellä näkyvät vastaavuudet valitsemalla **Säilytä se**.
 
 
-## Siirrä vastaamattomat pankkitilitapahtumat ehdotetuille kirjanpitotileille
+## <a name="transfer-unmatched-bank-transactions-to-suggested-general-ledger-accounts"></a>Siirrä vastaamattomat pankkitilitapahtumat ehdotetuille kirjanpitotileille
 
 Tässä osassa on tietoja Copilotin käyttämisestä tiliotteiden siirtämiseen pankkitilitapahtumista pääkirjanpidon tilille. Tämän tehtävän voi tehdä vain olemassa olevasta täsmäytyksestä. 
 
@@ -151,11 +151,11 @@ Tässä osassa on tietoja Copilotin käyttämisestä tiliotteiden siirtämiseen 
 
       Tämä vaihe vahvistaa valittujen ehdotusten siirron pankkitilikirjauksista kirjanpitotilille. Ohjelma kirjaa uudet maksut ehdotetuille KP-tileille ja kohdistaa vastaavat rivit tuloksena syntyviin pankkitilitapahtumiin.
 
-## Seuraavat vaiheet
+## <a name="next-steps"></a>Seuraavat vaiheet
 
 [Vahvista pankkitilin täsmäytys](bank-how-reconcile-bank-accounts-separately.md#validate-your-bank-reconciliation)  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 [Copilot- ja tekoälyominaisuuksien vianmääritys](ai-copilot-troubleshooting.md)  
 [Vastuullisen tekoälyn usein kysyttyjä kysymyksiä pankkitäsmäytysavustajasta](faqs-bank-reconciliation.md)  
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  

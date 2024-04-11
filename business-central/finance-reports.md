@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Business Centralin valmiit raportit
+# <a name="built-in-finance-reports-in-business-central"></a>Business Centralin valmiit raportit
 
 [!INCLUDE [prod_short](includes/prod_short.md)] sisältää useita valmiita raportteja, jäljitystoimintoja ja työkaluja, joista on hyöytä talousosaston raportoinnista vastaaville tilintarkastajille tai valvojille. 
 
@@ -19,7 +19,7 @@ ms.service: dynamics-365-business-central
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Kustannusbudjettien luominen](finance-create-cost-budgets.md)  
 [ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)  

@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Varaston hallinta
+# <a name="manage-inventory"></a>Varaston hallinta
 
 Jokaiselle fyysiselle tuotteelle, jolla käydään kauppaa, on luotava **Varasto**-tyyppinen nimikekortti. Asiakkaille tarjottavat nimikkeet, joita ei säilytetä varastossa, voidaan rekisteröidä luettelonimikkeiksi. Ne voidaan muuntaa varastonimikkeiksi tarvittaessa. Voit suurentaa tai pienentää varastossa olevien nimikkeiden määrää kirjaamalla arvon suoraan nimiketapahtumiin esimerkiksi fyysisen määrän jälkeen tai jättämällä ostoja kirjaamatta.
 
@@ -24,13 +24,13 @@ Voit parantaa nimikkeiden yhteenvetoa ja auttaa niiden etsimisessä luokittelema
 
 Nimikkeiden suunnittelu kysynnän täyttämiseksi katetaan osana tarjonnan suunnittelutoimintoa. Lisätietoja kohdassa [Suunnittelu](production-planning.md).  
 
-## Varaston täsmäytys
+## <a name="inventory-reconciliation"></a>Varaston täsmäytys
 
 Kun kirjaat varastotapahtumia, kuten myyntitoimituksia, ostolaskuja tai varaston muutoksia, muuttuneet nimikekustannukset kirjataan niiden arvotapahtumiin. Jotta varastoarvon muutos päivittyisi talouskirjoihin, varastokustannukset kirjataan automaattisesti pääkirjanpidon liittyviin varastotileihin. Jokaista itse kirjattua varastotapahtumaa kohti kirjataan sopiva arvo varastotilille, muutostilille ja myytyjen tuotteiden kustannusten tilille pääkirjanpidossa. Lisätietoja kohdassa [Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Vaikka kustannukset kirjattaisiin automaattisesti pääkirjanpitoon, on tarpeen varmistaa, että tavaroiden kustannukset välitetään liitetään lähtevälle tapahtumalle. Tämä on erityisen tärkeää, kun myyt tavaroita ennen näiden tavaroiden oston laskutusta. Tätä kutsutaan kustannusmuutokseksi. Nimikekustannukset muutetaan automaattisesti nimiketapahtumia kirjattaessa, mutta voit muuttaa niitä myös manuaalisesti. Lisätietoja kohdassa [Nimikekustannusten muuttaminen](inventory-how-adjust-item-costs.md).  
 
-## Liittyvät tehtävät
+## <a name="related-tasks"></a>Liittyvät tehtävät
 
 Seuraavassa taulukossa on esitetty liittyviä tehtäviä.
 
@@ -54,7 +54,7 @@ Seuraavassa taulukossa on esitetty liittyviä tehtäviä.
 |Hallitse myyntitoimistojen, osto-osastojen tai tehtaan suunnittelutoimistojen liiketoimintatoiminnoissa eri sijainneissa.|[Vastuupaikkojen käyttäminen](inventory-responsibility-centers.md)|
 |Käytä resursseja, joilla on erityistoimintoja, eri palveluille ja huoltonimikkeille.|[Resurssin kohdistuksen määrittäminen](service-how-setup-resource-allocation.md)|
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)    
 [Osto](purchasing-manage-purchasing.md)    
