@@ -1,15 +1,15 @@
 ---
-title: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen
+title: Ostojen hyväksyntätyönkulun määrittäminen ja käyttäminen
 description: 'Tässä opastuksessa on kaikki vaiheet, jotka liittyvät ostojen hyväksymistyönkulun määrittämiseen ja käyttämiseen Business Centralissa.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 09/13/2022
+ms.date: 03/11/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen
+# Vaihekuvaus: ostojen hyväksynnän työnkulun määrittäminen ja käyttäminen
 
 Voit automatisoida uusien tai muuttuneiden tietueiden hyväksymisprosessin esimerkiksi asiakirjojen, kirjausrivien ja asiakaskorttien kohdalla luomalla työnkulkuihin hyväksymisvaiheet.
 
@@ -40,7 +40,7 @@ Sean testaa hyväksyntätyönkulkua kirjautumalla [!INCLUDE[prod_short](includes
 
 Ennen käyttäjien ja heidän ilmoitustapansa hyväksyminen määrittämistä sinun on varmistettava, että nuo käyttäjät ovat [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa: Toinen käyttäjä viittaa Aliciaan. Toinen käyttäjä, eli sinä itse, viittaa Seaniin. Lue lisätietoja kohdasta [Luo käyttäjät käyttöoikeuksien mukaan](ui-how-users-permissions.md).
 
-### Hyväksyjäkäyttäjien määrittäminen
+### Hyväksynnän käyttäjien määrittäminen
 
 Kun kirjautunut omana itsenäsi, määritä Alicia hyväksyjäkäyttäjäksi, jonka hyväksyjä sinä itse olet. Aseta hyväksyntäoikeutesi ja määritä, miten ja milloin sinulle ilmoitetaan hyväksymispyynnöt.  
 
@@ -63,7 +63,7 @@ Kun kirjautunut omana itsenäsi, määritä Alicia hyväksyjäkäyttäjäksi, jo
 
 Tässä vaihekuvauksessa käyttäjälle ilmoitetaan sisäisellä ilmoituksella hyväksyttävistä pyynnöistä. Hyväksymisilmoituksia voidaan myös lähettää sähköpostitse, ja voit lisätä työnkulun vastausvaiheen, joka ilmoittaa lähettäjälle, kun pyyntö hyväksytään tai hylätään. Lue lisätietoja kohdasta [Työnkulkuilmoitusten vastaanoton ajankohdan ja tavan määrittäminen](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
-#### Voit määrittää, miten ja milloin saat ilmoituksen
+#### Ilmoituksen saantitavan ja -ajan määrittäminen
 
 1. Valitse **Hyväksynnän käyttäjäasetukset** -sivulla, valitse itsellesi rivi ja valitse sitten **Ilmoituksen asetukset** -toiminto.  
 2. Valitse **Ilmoituksen asetukset** -sivun **Ilmoitustyyppi**-kentässä **Hyväksyntä**.  

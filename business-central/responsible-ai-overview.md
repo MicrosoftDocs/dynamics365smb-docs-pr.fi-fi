@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Business Centralin vastuullisen tekoälyn usein kysytyt kysymykset
 description: 'Vastuullisen tekoälyn usein kysytyt kysymykset sisältävät tietoja Business Centralin käyttämästä tekoälyteknologiasta sekä tärkeitä huomioita tekoälyn käyttämisestä, sen testaamisesta ja arvioimisesta sekä mahdollisista erityisistä rajoituksista.'
-ms.date: 10/29/2023
+ms.date: 03/27/2024
 ms.custom:
   - responsible-ai-faqs
 ms.topic: article
@@ -18,5 +18,9 @@ ms.collection:
 
 [!INCLUDE[responsible-ai-features](includes/responsible-ai-features.md)]
 
+- [Analyysiavustaja (esiversio)](faqs-analysis-assist.md)
 - [Pankkitilin täsmäytysavustaja (esiversio)](faqs-bank-reconciliation.md)
+- [Keskustelu Copilotin avulla (esiversio)](faqs-chat-with-copilot.md)
 - [Markkinointitekstiehdotukset](faqs-marketing-text.md)
+- [Copilotin myyntiriviehdotuksista (esiversio)](faq-sales-suggest-sales-lines-with-copilot.md)
+- [Sähköisten asiakirjojen yhdistäminen ostotilausriveille Copilotin avulla (esiversio)](map-edocuments-with-copilot.md)

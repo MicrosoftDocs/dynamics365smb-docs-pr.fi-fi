@@ -5,11 +5,11 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '507, 509, 6620, 6622, 6623, 9303, 9310'
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Puiteostotilausten tai ostotilausten käsitteleminen
+# Puitemyyntitilausten tai puiteostotilausten käsitteleminen
 
 Puitemyyntitilaus kuvastaa yrityksesi ja asiakkaan välisen pitkäaikaisen sopimuksen runkoa. Puiteostotilauksia käytetään myös pitkäaikaisten sopimusten hallintaan asiakkaan ja toimittajan välillä.
 
@@ -44,7 +44,7 @@ Seuraava koskee myyntitilauksia sen jälkeen, kun ne on luotu puitemyyntitilauks
 - On tärkeä muistaa, että myyntitilausrivin määrä ei saa ylittää liitetyn puitetilausrivin määrää. Muussa tapauksessa myyntitilauksen kirjaus ei onnistu.  
 - Kun myyntitilaus on kirjattu toimitettuna ja/tai laskutettuna, ohjelma päivittää liittyvän puitetilauksen **Toimitettu määrä**- ja **Laskutettu määrä** -kentät.  
 - Ohjelma tallentaa puitetilausnumeron ja rivinumeron ominaisuuksina myyntiriveille, kun ne luodaan puitetilauksesta.  
-- Jos myyntitilauksia ei luoda suoraan puitetilauksesta, mutta se liittyy puitetilaukseen, myyntitilauksen ja puitetilauksen välille voidaan muodostaa linkki syöttämällä liittyvän puitetilauksen numero myyntitilausrivin **Puitetilauksen nro** -kenttään.  
+- Jos myyntitilauksia ei luoda suoraan puitetilauksesta mutta ne liittyvät silti puitetilaukseen, myyntitilauksen ja puitetilauksen välille voidaan muodostaa linkki syöttämällä liittyvän puitetilauksen numero myyntitilausrivin **Puitetilauksen nro** -kenttään.  
 - Kun myyntitilaus on luotu puitetilauksen rivien kokonaismäärällä, muita myyntitilauksia ei voi luoda samalle riville. Käyttäjät eivät voi syöttää määrää **Toimitettava määrä** -kenttään. Jos puitetilaukseen täytyy kuitenkin lisätä määriä, voit kasvattaa **Määrä**-kentän arvoa. Sen jälkeen voit luoda lisätilauksia.  
 - Laskutettu puitemyyntitilaus säilytetään järjestelmässä, kunnes se poistetaan yksittäisiä puitemyyntitilauksia poistettaessa tai suoritettaessa **Poista virheelliset puitemyyntitilaukset** -eräajo.  
 - Jos asiakas on tallennettu myös kontaktina Markkinointi-kohdistusalueeseen ja jos olet määrittänyt puitemyyntitilauksille vuorovaikutusmallin koodin **Kontaktienhallinnan asetukset** -sivulla, ohjelma tallentaa vuorovaikutuksen automaattisesti, kun tulostat puitemyyntitilauksen valitsemalla Vuorovaikutuslokin tapahtuma -taulukossa **Tulosta**.

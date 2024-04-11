@@ -1,46 +1,55 @@
 ---
-title: Käyttöomaisuuserien määrittäminen
+title: Käyttöomaisuuden määrittäminen
 description: 'Lue käyttöomaisuuden, kuten koneiden tai rakennusten määrittämiseen tarvittavasta tehtäväsarjasta.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: 'machinery, buildings'
-ms.search.form: 5607
-ms.date: 04/01/2021
 ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: conceptual
+ms.search.keywords: 'machinery, buildings'
+ms.search.form: '5607,'
+ms.date: 03/25/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Käyttöomaisuuden määrittäminen
 
-Ennen käyttöomaisuuserien käsittelyä on määritettäviä muutamia toimintoja:  
+Ennen käyttöomaisuuden käsittelyä on määritettäviä muutamia toimintoja:  
 
-* käyttöomaisuuden vakuuttaminen, kunnossapito ja poistaminen  
-* kustannusten ja muiden arvojen kirjaaminen pääkirjanpitoon.  
+* Käyttöomaisuuden poistaminen.  
+* Hankintakustannusten, poistojen ja muiden arvojen kirjaaminen pääkirjanpitoon.  
+* Valinnaisena käyttöomaisuuden vakuutuksen ja ylläpidon kirjaaminen.
 
-Seuraavassa taulukossa on linkkejä lisätietoihin. Kun olet määrittänyt nämä toiminnot, voit aloittaa erilaisten aktiviteettien käytön. Lisätietoja on kohdassa [Käyttöomaisuus](fa-manage.md).  
+Tämän artikkelin osat linkittävät lisätietoa käyttöomaisuuden määrittämisestä. Kun määritys on valmis, käyttöomaisuuden käytön voi aloittaa. Lisätietoja on kohdassa [Käyttöomaisuuden käyttäminen](fa-manage.md).  
 
 > [!NOTE]  
->   Voit tallentaa käyttöomaisuustapahtumat **Käyttöomaisuuden KP-päiväkirja**- tai **Käyttöomaisuuspäiväkirja**-sivulla sen mukaan, koskevatko tapahtumat talousraportointia vai sisäistä hallintaa. Käyttöomaisuuden ohje sisältää tietoja vain **Käyttöomaisuuden KP-päiväkirja** -sivun käyttämisestä.  
+> Voit tallentaa käyttöomaisuustapahtumat **Käyttöomaisuuden KP-päiväkirja**- tai **Käyttöomaisuuspäiväkirja**-sivulla sen mukaan, koskevatko tapahtumat talousraportointia vai sisäistä hallintaa. Käyttöomaisuuden ohjeartikkeleissa käsitellään vain **Käyttöomaisuuden KP-päiväkirja** -sivun käyttämistä.  
 
-Kun otat käyttöomaisuusaktiviteetin käyttöön **Poistokirjakortti**-sivun **KP-integrointi**-osassa, **Käyttöomaisuuden KP-päiväkirja** -sivua käytetään kyseisen aktiviteetin tapahtumien kirjaamisessa.
+Kun käyttöomaisuusaktiviteetti otetaan käyttöön **Poistokirjakortti**-sivun **KP-integrointi**-osassa, **Käyttöomaisuuden KP-päiväkirja** -sivua käytetään kyseisen aktiviteetin tapahtumien kirjaamiseen.
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.  
+## Pakolliset määritystehtävät
 
-| Toiminta | Katso |
-| --- | --- |
-| Määritä oletusarvoiset KP-tilit, kohdistusavaimet, päiväkirjamallit ja -erät käyttöomaisuuden kirjaamista varten. Määritä myös käyttöomaisuuden luokat ja alaluokat, kuten Aineellinen ja Aineeton. |[Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md) |
+Seuraavassa taulukossa sarja tehtäviä, joilla käyttöomaisuus määritetään sekä linkit liittyviin artikkeleihin.
+
+| Vastaanottaja | Katso |
+|---|---|
+| Määritä oletusarvoiset KP-tilit, kohdistustunnukset sekä päiväkirjamallit ja -erät käyttöomaisuuden kirjaamista varten. Määritä myös käyttöomaisuuden luokat ja alaluokat, kuten Aineellinen ja Aineeton. |[Käyttöomaisuuden yleisten tietojen määrittäminen](fa-how-setup-general.md) |
 | Luo poistokirjat, määritä eri poistotavat, integroi pääkirjanpidon kanssa ja ota käyttöön tapahtumien monistaminen useissa poistokirjoissa. |[Käyttöomaisuuden poiston määrittäminen](fa-how-setup-depreciation.md) |
+
+## Valinnaiset määritystehtävät (vakuutus, ylläpito ja käyttäjän määrittämät poistomenetelmät)
+
+Seuraavassa taulukossa sarja valinnaisia tehtäviä, kuten vakuutus, ylläpito ja poistomenetelmät, joilla käyttöomaisuus määritetään sekä linkit liittyviin artikkeleihin. 
+
+| Vastaanottaja | Katso |
+|---|---|
 | Voit ottaa käyttöön käyttöomaisuuden vakuutuksen määrittämällä vakuutuksen tiedot ja sopimuskohtaisen vakuutuskortin sekä valmistelemalla päiväkirjat vakuutuskustannusten kirjaamista varten. |[Käyttöomaisuuserän määrittäminen](fa-how-setup-insurance.md) |
-| Voit ottaa käyttöomaisuuden kunnossapidon määrittämällä yleiset kunnossapitotiedot, kunnossapidon kirjaustilit ja kunnossapitotyön tyypit. |[Käyttöomaisuuden huollon määrittäminen](fa-how-setup-maintenance.md) |
-| Lisätietoja käyttöomaisuuden erilaisista poistotavoista. |[Poistotavat](fa-depreciation-methods.md) |
-| Tietoja käyttäjän määrittämien poistomenetelmien soveltamisesta. |[Käyttäjäkohtaisten poistomenetelmien määrittäminen](fa-how-setup-user-defined-depreciation-method.md) |
+| Voit ottaa käyttöomaisuuden kunnossapidon määrittämällä yleiset kunnossapitotiedot, kunnossapidon kirjaustilit ja kunnossapitotyön tyypit. |[Käyttöomaisuuden kunnossapidon määrittäminen](fa-how-setup-maintenance.md) |
+| Tietoja poistomenetelmien soveltamisesta. |[Käyttäjäkohtaisten poistomenetelmien määrittäminen](fa-how-setup-user-defined-depreciation-method.md) |
 
 ## Katso myös
 
-[Käyttöomaisuus](fa-manage.md)  
+[Käyttöomaisuuden yleiskatsaus](fa-manage.md)  
 [Taloushallinto](finance.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,9 +9,9 @@ ms.topic: conceptual
 ms.date: 01/25/2023
 ms.custom: bap-template
 ---
-# Rakennetiedot: suunnittelujärjestelmän keskeiset käsitteet
+# Rakennetiedot: Suunnittelujärjestelmän keskeiset käsitteet
 
-Suunnittelutoiminnot on sisällytetty eräajoon, joka ensin valitsee asiaankuuluvat nimikkeet ja ajanjaksot, jotka suunnitellaan. Erätyö kutsuu sitten kunkin nimikkeen alatason koodin mukaisen (sijainti tuoterakenteessa) codeunitin, joka laskee tarjontasuunnitelman. Codeunit täsmäyttää kysyntä- ja tarjontajoukot sekä ehdottaa käyttäjälle toimintoja. Ehdotetut toimenpiteet ilmestyvät riveinä suunnittelutaulukkoon tai tilaustaulukkoon.  
+Suunnittelutoiminnot on sisällytetty eräprojektiin, joka ensin valitsee asiaankuuluvat nimikkeet ja ajanjaksot, jotka suunnitellaan. Erätyö kutsuu sitten kunkin nimikkeen alatason koodin mukaisen (sijainti tuoterakenteessa) codeunitin, joka laskee tarjontasuunnitelman. Codeunit täsmäyttää kysyntä- ja tarjontajoukot sekä ehdottaa käyttäjälle toimintoja. Ehdotetut toimenpiteet ilmestyvät riveinä suunnittelutaulukkoon tai tilaustaulukkoon.  
 
 ![Suunnittelutyökirjasivun sisältö.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Suunnittelutyökirja-sivun sisältö")  
 
@@ -75,7 +75,7 @@ Suunnittelun suorittamisen jälkeen Toimenpideviestitapahtuma-taulukossa ei ole 
 
 ## Suunnittelun järjestys ja ensisijaisuus
 
-Suunnitelman laskentajärjestys on tärkeä, sillä sen avulla työ voidaan tehdä kohtuullisessa ajassa. Myös tarpeiden ja resurssien priorisoinnilla on tärkeä merkitys parhaiden tulosten saamisessa.  
+Suunnitelman laskentajärjestys on tärkeä, sillä sen avulla projekti voidaan tehdä kohtuullisessa ajassa. Myös tarpeiden ja resurssien priorisoinnilla on tärkeä merkitys parhaiden tulosten saamisessa.  
 
 Suunnittelujärjestelmä on tarveperustainen. Korkean tason nimikkeet on suunniteltava ennen alatason nimikkeitä, koska korkean tason nimikkeet voivat luoda alatason nimekkeiden kysyntää. Esimerkiksi vähittäismyyntisijainnit kannatta suunnitella ennen jakelukeskusten sijaintia, koska vähittäismyyntisijainti saattaa kysyntää jakelukeskuksesta. Yksityiskohtaisella täsmäytystasolla puolestaan järjestelmän ei pitäisi luoda uutta toimitustilausta, jos vapautettu toimitustilaus kattaa myyntitilauksen. Tarjontaa, jolla on tietty eränumero, ei pitäisi kohdistaa kattamaan yleistä kysyntää, jos toinen kysyntä edellyttää kyseistä erää.  
 
@@ -267,7 +267,7 @@ Jos kenttää ei ole valittu, **Laske suunnitelma** -eräajo jatkuu valmistumise
 
 ## Suunnittelun joustavuus
 
-Aiemmin luodun toimitustilauksen suunnittelu ei ole aina järkevää. Kyse voi olla esimerkiksi siitä, että tuotanto on käynnistynyt tai työtä varten on palkattu tiettynä päivänä lisähenkilöstöä. Kaikilla toimitustilauksen riveillä on **Suunnittelun joustavuus** -kenttä, jossa on kaksi vaihtoehtoa: **Rajaton** tai **Ei mitään**. Tämän kentän avulla osoitetaan, voiko suunnittelujärjestelmä muuttaa aiemmin luotua tilausta. Jos kentän määrityksenä on **Ei mitään**, suunnittelujärjestelmä ei yritä muuttaa toimitustilauksen riviä.  
+Aiemmin luodun toimitustilauksen suunnittelu ei ole aina järkevää. Kyse voi olla esimerkiksi siitä, että tuotanto on käynnistynyt tai projektia varten on palkattu tiettynä päivänä lisähenkilöstöä. Kaikilla toimitustilauksen riveillä on **Suunnittelun joustavuus** -kenttä, jossa on kaksi vaihtoehtoa: **Rajaton** tai **Ei mitään**. Tämän kentän avulla osoitetaan, voiko suunnittelujärjestelmä muuttaa aiemmin luotua tilausta. Jos kentän määrityksenä on **Ei mitään**, suunnittelujärjestelmä ei yritä muuttaa toimitustilauksen riviä.  
 
 Vaihtoehto voidaan valita kentässä manuaalisesti, joskin joissakin tapauksissa [!INCLUDE [prod_short](includes/prod_short.md)] määrittää sen automaattisesti. Mahdollisuus määrittää suunnittelun joustavuus manuaalisesti on tärkeää, koska sen ansiosta on helppo mukauttaa ominaisuuden käyttöä erilaisten työnkulkujen ja liiketoimintatapausten perusteella. Lisätietoja tämän kentän käytöstä on kohdassa [Rakennetiedot: siirrot suunnittelussa](design-details-transfers-in-planning.md).  
 

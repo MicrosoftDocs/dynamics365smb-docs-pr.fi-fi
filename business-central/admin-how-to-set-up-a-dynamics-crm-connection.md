@@ -2,11 +2,12 @@
 title: Microsoft Dataverseen yhdistäminen (sisältää videon)
 description: Yhteyden määrittäminen Business Centralin ja Dataversen välille. Yleensä yritykset luovat yhteyden integroidakseen tietoja toisen Dynamics 365 -liiketoimintasovelluksen kanssa.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.forms: '7200, 7201'
-ms.date: 09/28/2023
-ms.author: bholtorf
+ms.date: 02/28/2024
 ms.service: dynamics-365-business-central
 ---
 # Yhteyden muodostaminen Microsoft Dataverseen
@@ -29,7 +30,13 @@ Ennen yhteyden luomista tarvitaan seuraavat tiedot:
 
 > [!Note]
 > Seuraavat vaiheet koskevat [!INCLUDE[prod_short](includes/prod_short.md)] online -versiota.
-> Jos käytössä [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versiota eikä Microsoft Entra -tiliä käytetä muodostamaan yhteyttä [!INCLUDE [cds_long_md](includes/cds_long_md.md)]en, integrointia varten on määritettävä käyttäjätilin käyttäjänimi ja salasana. Tätä tiliä kutsutaan integroinnin käyttäjän tiliksi. Microsoft Entra -tiliä käytettäessä integroinnin käyttäjän tiliä ei tarvita eikä sitä näytetä. Integroinnin käyttäjä määritetään automaattisesti, eikä sitä varten tarvita käyttöoikeutta.
+> Jos paikallista [!INCLUDE[prod_short](includes/prod_short.md)]ia eikä Microsoft Entra -tiliä käytetä muodostamaan yhteys [!INCLUDE [cds_long_md](includes/cds_long_md.md)]en, integrointia varten on määritettävä käyttäjätilin käyttäjänimi ja salasana. Tätä tiliä kutsutaan integroinnin käyttäjän tiliksi. Microsoft Entra -tiliä käytettäessä integroinnin käyttäjän tiliä ei tarvita eikä sitä näytetä. Integroinnin käyttäjä määritetään automaattisesti, eikä sitä varten tarvita käyttöoikeutta.
+
+## Business Central- ja Dataverse-ympäristöjen linkittäminen
+
+Yritykset haluavat pitää tietonsa turvallisesti suojattuina tietosuojarajan sisällä etenkin silloin, kun liiketoiminnan hallintasovellus integroituu muihin sovelluksiin. [!INCLUDE [prod_short](includes/prod_short.md)]- ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-ympäristöjen linkittäminen ei ota huomioon ainoastaan näitä seikkoja vaan helpottaa järjestelmänvalvojien työtä, kun he luovat ja ylläpitävät muiden Dynamics 365 -sovellusten kanssa tehtyjä integrointeja.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] -ympäristö voidaan linkittää [!INCLUDE [cds_long_md](includes/cds_long_md.md)] -ympäristöön [!INCLUDE [prod_short](includes/prod_short.md)] -hallintakeskuksessa. [!INCLUDE [prod_short](includes/prod_short.md)] voi käyttää linkkien tietoja muiden Dynamics 365 -sovellusten, kuten Salesin ja Field Servicen, kanssa tehtävien integrointien helpottamiseen entistä turvallisemmin. Esimerkiksi linkitetyn [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-ympäristön URL-osoite on saatavana oletusarvoisesti **Dataverse-yhteyden asetukset** -sivulla ja suoritettaessa ohjattua **Dataverse-yhteyden asetukset** -määritystä.
 
 ## Eri valuuttojen salliminen
 

@@ -12,30 +12,29 @@ ms.service: dynamics-365-business-central
 ---
 # Lisäraportointivaluutan määrittäminen
 
-Yritysten toimiessa yhä useammassa maassa tai alueella niiden on entistä tärkeämpää pystyä tarkistamaan ja raportoimaan taloustiedot useana valuuttana.
+Yritysten toimiessa yhä useammassa maassa tai useammalla alueella niiden on entistä tärkeämpää pystyä tarkistamaan ja raportoimaan taloustiedot useana valuuttana.
 
 > [!NOTE]  
 > Jos etsit [!INCLUDE[prod_short](includes/prod_short.md)]issa reaaliajassa tietoa valuuttakurssien (FX) hinnoista tai historiallisista hinnoista, löydät sen nimityksellä valuutta. Tämän artikkelin lisäksi on myös artikkeli [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md).
 
-
-Pääkirjanpito määritetään käyttämään paikallista valuuttaa (PVA), mutta voit määrittää sen käyttämään myös toista valuuttaa, jolle määritetään ajantasainen vaihtokurssi. Kun toinen valuutta määritetään niin sanotuksi lisäraportointivaluutaksi, [!INCLUDE[prod_short](includes/prod_short.md)] tallentaa summat automaattisesti sekä PVA:na että lisäraportointivaluuttana kuhunkin KP-tapahtumaan sekä muihin tapahtumiin, kuten ALV-tapahtumiin.
+Pääkirjanpito määritetään käyttämään paikallista valuuttaa (PVA), mutta voit määrittää sen käyttämään myös toista valuuttaa, jolle määritetään ajantasainen vaihtokurssi. Kun toinen valuutta määritetään niin kutsutuksi lisäraportointivaluutaksi, [!INCLUDE[prod_short](includes/prod_short.md)] tallentaa summat automaattisesti sekä PVA:na että lisäraportointivaluuttana kuhunkin KP-tapahtumaan sekä muihin tapahtumiin, kuten ALV-tapahtumiin.
 
 > [!Warning]
-> Lisäraportointivaluutta-toimintoa saa käyttää rahoituslaskelmien käännösten perustana vain, jos ymmärtää siihen liittyvät rajoitukset. Tällä työkalulla ei pysty kääntämään ulkomaisten tytäryritysten tilinpäätöksiä osana yrityksen konsolidointia. Lisäraportointivaluuttaa voidaan käyttää vain toista valuttaa käyttävien raporttien valmisteluun siten, että kyseinen valuutta on kuin yrityksen paikallinen valuutta.
+> Lisäraportointivaluuttatoimintoa saa käyttää tilinpäätösten käännösten perustana vain, jos ymmärtää siihen liittyvät rajoitukset. Sillä ei voi kääntää ulkomaisten tytäryritysten tilinpäätöksiä osana yrityksen konsolidointia. Lisäraportointivaluuttaa voidaan käyttää vain toista valuttaa käyttävien raporttien valmisteluun siten, että kyseinen valuutta on kuin yrityksen paikallinen valuutta.
 >
 > Sinulla voi olla esimerkiksi suuri määrä myyntisaamisia Ison-Britannian puntina (GBP), ja olet määrittänyt lisäraportointivaluutan (LVA) GBP:ksi. Tässä skenaariossa myyntisaamisten summia, jotka käyttävät GBP:tä, ei oikaista valuuttakurssivoitoiksi/tappioiksi LVA:ssa, vaan ainoastaan myyntisaamisten summat, jotka ovat eri valuutoissa. Tämä tarkoittaa sitä, että jos ilmoitat tilinpäätöksen LVA:n avulla, se voi johtaa liian pieniin tai liian suuriin avoimiin saldoihin myyntisaamisissa.
 
 ## Raporttien ja summien näyttäminen lisäraportointivaluuttana
 Lisäraportointivaluutan käyttäminen voi helpottaa yrityksen raportointiprosessia seuraavissa tapauksissa:
 
-- Yritys toimii EU:n ulkopuolella ja suuri osa sen liiketoimista tapahtuu EU:ssa toimivien yritysten kanssa. Tässä tapauksessa EU:n ulkopuolisen yrityksen kannattaa ehkä raportoida euroina, jotta sen finanssiraportit olisivat helpommin EU-liikekumppanien käytettävissä.
+- Yritys toimii EU:n ulkopuolella ja suuri osa sen liiketoimista tapahtuu EU:ssa toimivien yritysten kanssa. Tässä tapauksessa EU:n ulkopuolisen yrityksen kannattaa ehkä raportoida euroina, jotta sen talousraportit olisivat helpommin EU-liikekumppanien käytettävissä.
 - Yritys haluaa esittää raporttinsa oman paikallisen valuuttansa lisäksi myös laajemmin kansainvälisesti käytetyssä valuutassa.
 
-Useat talousraportit perustuvat kirjanpitotapahtumiin. Voit näyttää raportin tiedot lisäraportointivaluuttana yksinkertaisesti lisäämällä valintamerkin kyseisen KP-raportin **Vaihtoehdot**-pikavälilehden **Näytä summat lisäraportointivaluuttana** -kenttään.
+Useat talousraportit perustuvat kirjanpitotapahtumiin. Raportin tiedot voidaan näyttää lisäraportointivaluuttana valitsemalla kyseisen KP-raportin **Vaihtoehdot**-pikavälilehdessä **Näytä summat lisäraportointivaluuttana** -valintaruutu.
 
 ## Vaihtokurssien muuttaminen
 
-Koska vaihtokurssit vaihtelevat jatkuvasti, järjestelmän lisävaluutta-arvot on tarkistettava jaksoittain. Jos tarkistuksia ei tehdä, ulkomaisista valuutoista (tai lisävaluutoista) muunnetut summat voivat olla harhaanjohtavia, kun ne kirjataan pääkirjanpitoon PVA:na. Lisäksi päivittäiset tapahtumat, jotka on kirjattu ennen päivittäisen vaihtokurssin lisäämistä sovellukseen, on päivitettävä, kun päivittäinen vaihtokurssi on lisätty. **Muuta vaihtokursseja** -eräajon avulla voi muuttaa kirjattujen asiakas-, toimittaja- ja pankkitilitapahtumien vaihtokursseja. Sen avulla voi myös päivittää KP-tapahtumien lisäraportointivaluutan summia. Lisätietoja on kohdassa [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md).
+Koska vaihtokurssit vaihtelevat jatkuvasti, järjestelmän lisävaluutta-arvot on tarkistettava jaksoittain. Jos muutoksia ei tehdä, ulkomaanvaluutoista (tai lisävaluutoista) muunnetut summat voivat olla harhaanjohtavia, kun ne kirjataan pääkirjanpitoon PVA:na. Lisäksi päivittäiset tapahtumat, jotka on kirjattu ennen päivittäisen vaihtokurssin lisäämistä sovellukseen, on päivitettävä, kun päivittäinen vaihtokurssi on lisätty. **Muuta vaihtokursseja** -eräajon avulla voidaan muuttaa kirjattujen asiakas-, toimittaja- ja pankkitilitapahtumien vaihtokursseja. Sen avulla voi myös päivittää KP-tapahtumien lisäraportointivaluutan summia. Lisätietoja on kohdassa [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md).
 
 ## Lisäraportointivaluutan määrittäminen
 
@@ -53,15 +52,15 @@ Määritä lisäraportointivaluutta seuraavien ohjeiden mukaisesti:
 
 |Kenttä|Description|  
 |---------------------------------|---------------------------------------|  
-|**Realisoitun. KP-voittojen tili**|KP-tili, jolle ohjelma kirjaa PVA:n ja lisäraportointivaluutan välisten valuuttamuutosten vaihtokurssivoitot|  
-|**Realisoitun. KP-tapp. tili**|KP-tili, jolle ohjelma kirjaa PVA:n ja lisäraportointivaluutan välisten valuuttamuutosten kurssitappiot|  
+|**Realisoitun. KP-voittojen tili**|KP-tili, johon kirjataan PVA:n ja lisäraportointivaluutan välisten valuuttamuutosten vaihtokurssivoitot|  
+|**Realisoitun. KP-tapp. tili**|KP-tili, johon kirjataan PVA:n ja lisäraportointivaluutan välisten valuuttamuutosten kurssitappiot|  
 |**Jäännösvoittojen tili**|KP-tili, jolle ohjelma kirjaa jäännössummat, jotka ovat voittoja, silloin kun tapahtumat kirjataan pääkirjanpidon sovellusalueelle sekä PVA:na että lisäraportointivaluuttana|  
 |**Jäännöstappioiden tili**|KP-tili, jolle ohjelma kirjaa jäännössummat, jotka ovat tappioita, silloin kun tapahtumat kirjataan pääkirjanpidon sovellusalueelle sekä PVA:na että lisäraportointivaluuttana|
 
 > [!NOTE]  
 >  Jäännössummia voi syntyä [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman pyöristäessä PVA:sta lisäraportointivaluutaksi muunnettuja debet- ja kreditsummia.  
 
-Kutakin KP-tiliä varten on määritettävä, kuinka tilin KP-summat muutetaan PVA:n ja lisäraportointivaluutan välisen vaihtokurssin muuttuessa.  
+Kutakin KP-tiliä varten on määritettävä, miten tilin KP-summat muutetaan PVA:n ja lisäraportointivaluutan välisen vaihtokurssin muuttuessa.  
 
 ### Määritä vaihtokurssien muutosmenetelmä kaikille pääkirjanpidon tileille
 
@@ -77,7 +76,7 @@ Kutakin KP-tiliä varten on määritettävä, kuinka tilin KP-summat muutetaan P
     |**Muuta summaa**|PVA muutetaan aina valuuttakurssitappion ja –voiton yhteydessä. Ohjelma kirjaa kaikki vaihtokurssivoitot ja -tappiot KP-tilille ( **Lisävaluutan summa** -kenttä) sekä **Valuutat**-sivun **Realisoitun. KP-voittojen tili**- tai **Realisoitun. KP-tapp. tili** -kentässä voitoille tai tappioille määritetyille tileille.|  
     |**Muuta lisävaluuttasummaa**|Lisäraportointivaluutta muutetaan aina valuuttakurssitappion ja –voiton yhteydessä. Ohjelma kirjaa kaikki vaihtokurssivoitot ja -tappiot KP-tilille ( **Lisävaluutan summa** -kenttä) sekä **Valuutat**-sivun **Realisoitun. KP-voittojen tili**- tai **Realisoitun. KP-tapp. tili** -kentässä voitoille tai tappioille määritetyille tileille.|  
 
-    Vaihtokurssivoitot ja -tappiot kirjataan **Muuta vaihtokursseja** -eräajon suorituksen yhteydessä. Kyseisessä eräajossa ohjelma etsii muuttuneen vaihtokurssin **Valuutan vaihtokurssit** -sivulta ja selvittää sitten, onko kyseessä vaihtokurssivoitto vai -tappio, vertaamalla KP-tapahtuman **Summa**- ja **Lisävaluutan summa** -kenttien summia. Eräajo määrittää **Vaihtokurssin muutos** -kentässä valitun vaihtoehdon perusteella, Miten KP-tilien vaihtokurssivoitot tai -tappiot lasketaan ja kirjataan.  
+    Vaihtokurssivoitot ja -tappiot kirjataan **Muuta vaihtokursseja** -eräajon suorituksen yhteydessä. Kyseisessä eräajossa etsitään muuttunut vaihtokurssi **Valuutan vaihtokurssit** -sivulta ja selvitetään sitten, onko kyseessä vaihtokurssivoitto vai -tappio, vertaamalla KP-tapahtuman **Summa**- ja **Lisävaluutan summa** -kenttien summia. Eräajo määrittää **Vaihtokurssin muutos** -kentässä valitun vaihtoehdon perusteella, Miten KP-tilien vaihtokurssivoitot tai -tappiot lasketaan ja kirjataan.  
 
 4.  Sulje **KP-tilin kortti** -sivu.  
 
@@ -85,7 +84,7 @@ Kutakin KP-tiliä varten on määritettävä, kuinka tilin KP-summat muutetaan P
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Pääkirjanpidon asetukset** -sivun **ALV:n vaihtokurssin muutos** -kentässä sopiva menetelmä.  
-3. Jos tapahtumat kirjataan lisäraportointivaluuttana, **ALV:n vaihtokurssin muutos** -kentässä voi määrittää, kuinka **ALV-kirjausten asetukset** -sivulla ALV-kirjauksille määritettyjä tilejä muutetaan PVA:n ja lisäraportointivaluutan välisen vaihtokurssin muuttuessa.  
+3. Jos tapahtumat kirjataan lisäraportointivaluuttana, **ALV:n vaihtokurssin muutos** -kentässä voi määrittää, miten **ALV-kirjausten asetukset** -sivulla ALV-kirjauksille määritettyjä tilejä muutetaan PVA:n ja lisäraportointivaluutan välisen vaihtokurssin muuttuessa.  
 
     **Muuta vaihtokursseja** -eräajon suorittamisen yhteydessä muuttunut vaihtokurssi määritetään **Valuutan vaihtokurssi** -sivulla ja selvitetään sitten, onko kyseessä vaihtokurssivoitto vai -tappio, vertaamalla ALV-tapahtuman **Summa**- ja **Lisävaluutan summa** -kenttiä. Eräajo määrittää tässä kentässä valitun vaihtoehdon perusteella, kuinka ALV-tilien vaihtokurssivoitot tai -tappiot kirjataan.  
 

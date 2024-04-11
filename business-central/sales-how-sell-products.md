@@ -7,7 +7,7 @@ ms.reviewer: soalex
 ms.topic: conceptual
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 02/01/2024
+ms.date: 02/06/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -30,7 +30,7 @@ Voit luoda jopa suoraan maksettavia tilauksia rekisteröimättömille asiakkaill
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset**, valitse sitten vastaava linkki.
 2. Luo uusi merkintä valitsemalla **Uusi**.
-3. Syötä **Asiakas**-kenttään nykyisen asiakkaan nimi.
+3. Syötä **Asiakkaan nimi**-kenttään nykyisen asiakkaan nimi.
 
     Muut **Myyntitilaus**-sivun kentät täytetään nyt valitun asiakkaan vakiotiedoilla.  
 
@@ -71,7 +71,7 @@ Voit luoda jopa suoraan maksettavia tilauksia rekisteröimättömille asiakkaill
     >
     > Voit tarkistaa kirjattavat summat käyttämällä **Tilastotiedot**-sivua. Sivulla otetaan huomioon pyöristyslaskelmat. Jos valitset **Vapauta**-toiminnon, summakentät päivitetään niin, että ne sisältävät pyöristyslaskelmat.  
 
-11. Valinnaisesti voit syöttää **Laskun alennussumma** -kenttään summan, joka vähennetään **Yhteensä sis. ALV:n** -kentässä olevasta arvosta.
+11. Valinnaisesti **Laskun alennussumma** -kenttään voidaan syöttää summa, joka vähennetään **Yhteensä sis. ALV:n** -kentässä olevasta arvosta.
 
     Jos asiakkaalle on määritetty laskualennuksia, määritetty prosenttiluvun arvo lisätään automaattisesti **Toimittajalaskun alennus-%** -kenttään, jos ehdot täyttyvät. Ja liittyvä summa syötetään **Laskun veroton alennussumma** -kenttään. Lue lisätietoja kohdasta [Myyntihinnan, alennuksen ja maksusopimusten tallentaminen](sales-how-record-sales-price-discount-payment-agreements.md).
 12. Jos haluat toimittaa osan tilausmäärästä, syötä määrä **Toimitettava määrä** -kenttään. Arvo kopioidaan automaattisesti **Laskutettava määrä** -kenttään.

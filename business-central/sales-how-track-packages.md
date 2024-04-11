@@ -1,16 +1,16 @@
 ---
-title: Kollien seuraaminen
+title: Pakettien seuraaminen
 description: Seuraa paketteja ja seuraa toimituksen edistymistä kuljetusliikkeen internetseurantapalvelun avulla.
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: rfq
 ms.search.form: '142, 800, 806'
-ms.date: 06/23/2021
+ms.date: 03/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Kollien seuraaminen
-Useimmilla kuljetusliikkeillä on verkkopalvelu, jolla voi seurata matkalla olevien pakettien tilaa. Tästä tiedosta voi olla hyötyä monissa liiketoimintaprosesseissa esimerkiksi asiakaspalvelua tarjottaessa. Jos käytössä on useita kuljetusliikkeitä, voit antaa niistä perustietoja ja käyttää sitten niiden paketin seurantapalvelua suoraan Kirjatut myyntitoimitukset-, Kirjatut myyntilaskut-, Kirjatut myyntihyvityslaskut- ja Kirjattu palautusvastaanotto -sivut. Lisätietoja on kohdassa [Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md). 
+# Pakettien seuraaminen
+Useimmilla kuljetusliikkeillä on verkkopalvelu, jossa voi seurata matkalla olevien pakettien tilaa. Tästä tiedosta voi olla hyötyä monissa liiketoimintaprosesseissa esimerkiksi asiakaspalvelua tarjottaessa. Jos käytössä on useita kuljetusliikkeitä, voit antaa niistä perustietoja ja käyttää sitten niiden paketin seurantapalvelua suoraan Kirjatut myyntitoimitukset-, Kirjatut myyntilaskut-, Kirjatut myyntihyvityslaskut- ja Kirjattu palautusvastaanotto -sivut. Lisätietoja on kohdassa [Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md). 
 
 Seuraavassa kuvataan, miten pakettia seurataan kirjatusta myyntitoimituksesta, mutta samoja vaiheita käytetään, jotta voidaan ottaa käyttöön pakettien seuranta kirjatusta myyntilaskusta, kirjatusta myyntihyvityslaskusta ja kirjatuista palautuskuittisivuista.  
 

@@ -1,13 +1,13 @@
 ---
 title: Myyntitilausten synkronoiminen ja täyttäminen
 description: Määritä ja suorita myyntitilausten tuonti ja käsittely Shopifysta.
-ms.date: 06/06/2023
+ms.date: 03/25/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ---
 
 # Myyntitilausten synkronoiminen ja täyttäminen
@@ -20,7 +20,7 @@ Syötä **Valuuttakoodi**, jos verkkokauppa käyttää eri valuuttaa kuin paikal
 
 Voit nähdä kaupan valuutan [Kaupan tiedot](https://www.shopify.com/admin/settings/general) -asetuksissa Shopify-järjestelmänhallinnassa. Shopify voidaan määrittää hyväksymään eri valuuttoja. [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmaan tuodut tilaukset käytetään kuitenkin varastovaluutassa.
 
-Tavallinen Shopify-tilaus voi sisältää välisumman lisäksi muita kustannuksia, kuten kuljetusmaksuja tai tippejä, jos ne ovat käytössä. Nämä summat kirjataan suoraan KP-tilille, jota haluat käyttää tietyille tapahtumatyypeille:
+Tavallinen Shopify-tilaus voi sisältää välisumman lisäksi muita kustannuksia, kuten kuljetusmaksuja tai tippejä, jos ne ovat käytössä. Nämä summat kirjataan suoraan KP-tilille, jota halutaan käyttää tietyissä tapahtumatyypeissä:
 
 * **Toimitusmaksujen tili**
 * **Myytyjen lahjakorttien tili**: lisätietoja on kohdassa [Lahjakortti](synchronize-orders.md#gift-cards)
@@ -30,10 +30,12 @@ Ota käyttöön **Automaattiset tilaukset**, joiden avulla voit luoda myyntiasia
 
 Jos haluat vapauttaa myyntiasiakirjan automaattisesti, ota käyttöön **Vapauta myyntitilaukset automaattisesti** -valinta.
 
+Jos asiakkaille ei haluta lähettää automaattisia toimitusvahvistuksia, poista **Lähetä toimitusvahvistus** käytöstä vaihtopainikkeella. Vaihtopainikkeen siirtäminen käytöstäpoistoasentoon voi olla kätevää digitaalisia tavaroita myytäessä tai jos halutaan käyttää jotain muuta ilmoitusmekanismia.
+
 Jos valitset **Shopify-tilausnro asiakirjarivillä** -kentän, [!INCLUDE [prod_short](../includes/prod_short.md)] lisää **Kommentti**-tyylin myyntirivit Shopify-tilausnumerolla.
 
->[!NOTE]
->Myyntiasiakirja kohteessa [!INCLUDE[prod_short](../includes/prod_short.md)] linkittyy Shopify-tilaukseen ja voit lisätä **Shopify-tilausnumeron** kentän myyntitilausten, laskujen ja toimitusten luettelo- tai korttisivuille. Saat lisätietoja kentän lisäämisestä siirtymällä kohtaan [Sivun mukauttamisen aloittaminen mukauttamistoiminnon](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode) avulla. 
+> [!NOTE]
+> Myyntiasiakirja kohteessa [!INCLUDE[prod_short](../includes/prod_short.md)] linkittyy Shopify-tilaukseen ja voit lisätä **Shopify-tilausnumeron** kentän myyntitilausten, laskujen ja toimitusten luettelo- tai korttisivuille. Saat lisätietoja kentän lisäämisestä siirtymällä kohtaan [Sivun mukauttamisen aloittaminen mukauttamistoiminnon](../ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode) avulla. 
 
 **Veroalueen prioriteetti** -kentässä voit määrittää prioriteetin, miten veroaluekoodi valitaan tilauksen osoitteissa. Tuotu Shopify-tilaus sisältää tietoja veroista. Verot lasketaan uudelleen, kun luot myyntiasiakirjat, joten on tärkeää, että ALV:n/veron asetukset ovat oikein [!INCLUDE[prod_short](../includes/prod_short.md)]-ohjelmassa. Lisätietoja veroista on ohjeaiheessa [Shopify-yhteyden verojen määrittäminen](setup-taxes.md).
 
@@ -131,7 +133,11 @@ Shopify-yhdistin tuo tilaukset kahdessa vaiheessa:
 Kun tuonti on valmis, voit tutkia Shopify-tilausta ja löytää kaikkia siihen liittyvät tiedot, kuten maksutapahtumat, toimituskulut, riskitason, muut määritteet ja tunnisteet tai täydennykset, jos tilaus oli jo täytetty Shopifyssa. Voit myös tarkastella mitä tahansa asiakkaalle lähetettyä tilausvahvistusta valitsemalla **Shopify-tilasivu**-toiminnon.
 
 > [!NOTE]  
-> Voit siirtyä **Shopify-tilaukset**-ikkunaan suoraan, jolloin näet tilaukset, joissa on *avoin* tila kaikista kaupoista. Jos haluat tarkastella valmiita tilauksia, sinun täytyy avata **Shopify-tilaukset**-sivu tietystä **Shopify-ostoskortti**-ikkunasta.
+> Voit siirtyä **Shopify-tilaukset**-ikkunaan suoraan, jolloin näet tilaukset, joissa on *avoin* tila kaikista kaupoista. Jos halutaan tarkastella valmiita tilauksia, **Shopify-tilaukset**-sivu on avattava tietyltä **Shopify-ostoskortti**-sivulta.
+
+Ennen myyntiasiakirjojen luontia [!INCLUDE[prod_short](../includes/prod_short.md)]issa tietyt tilaukset voidaan tuoda uudelleen käyttämällä **Synkronoi tilaus Shopifysta** -toimintoa **Shopify-tilaus**-sivulla.
+
+Tilaus voidaan myös merkitä maksetuksi. Tämä on kätevää yritystenvälisessä skenaariossa, jossa maksuja ei käsitellä Shopify-kassalla. Valitse **Merkitse maksetuksi** -toiminto **Shopify-tilaus** -sivulla. Tilaus voidaan merkitä myös peruutetuksi, mikä aloittaa hyvitystyönkulun Shopifyssa. Valitse **Peruuta tilaus** -toiminto **Shopify-tilaus**-sivulla, täytä tarvittavat kentät **Shopify-tilauksen peruutus** -sivulla ja valitse **OK**. Päivitysten tuonti [!INCLUDE[prod_short](../includes/prod_short.md)]iin edellyttää tilauksen synkronoinnin suorittamista.
 
 ## Luo myyntiasiakirjoja Business Centralissa
 
@@ -147,15 +153,17 @@ Jos **Tilausten automaattinen luominen**-vaihto on otettu käyttöön **Shopify-
 
 Jos Shopify-tilaus edellyttää täyttämistä, **myyntitilaus** luodaan. Täytettyjen Shopify-tilausten, kuten vain lahjakortin sisältävien tilausten tai jo Shopifyssa käsiteltyjen tilausten, osalta luodaan **Myyntilasku**.
 
-Myyntiasiakirja luodaan nyt, ja sitä voidaan hallita [!INCLUDE[prod_short](../includes/prod_short.md)]in vakiotoimintojen avulla.
+Myyntiasiakirja luodaan, ja sitä voidaan hallita [!INCLUDE[prod_short](../includes/prod_short.md)]in vakiotoimintojen avulla.
+
+Myyntitilaus voidaan luoda uudelleen käyttämällä **Poista käsiteltyjen asiakirjojen linkitys** -toimintoa **Shopify-tilaus**-sivulla. On kuitenkin huomattava, että tämä toiminto ei poista jo luotua myyntiasiakirjaa, vaan se on käsiteltävä manuaalisesti.
 
 ### Puuttuvien asiakkaiden hallinta
 
-Jos asetuksesi estävät asiakkaan luomisen automaattisesti ja sopivaa asiakasta ei löydy, sinun täytyy kohdistaa asiakas Shopify-tilaukseen manuaalisesti. Voit tehdä tämän muutamalla eri tavalla:
+Jos asetukset estävät asiakkaan luomisen automaattisesti eikä sopivaa asiakasta löydy, asiakas on kohdistettava Shopify-tilaukseen manuaalisesti. Asiakkaiden määrittäminen tilauksiin voidaan tehdä eri tavoin:
 
-* Voit määrittää **Myyntiasiakasnron** ja **Laskutusasiakkaan nron** suoraan **Shopify-tilaukset**-sivulta valitsemalla asiakkaan olemassa olevien asiakkaiden luettelosta.
-* Voit valita asiakasmallin koodin ja luoda ja kohdistaa asiakkaan sitten **Shopify-tilaukset**-sivun **Luo uusi asiakas** -toiminnolla. Huomaa, että Shopify-asiakkaalla täytyy olla vähintään 1 osoite. Shopify-myyntipisteen kautta luoduista tilauksista puuttuvat usein osoitetiedot.
-* Voit yhdistää aiemmin luodun asiakkaan **Shopify-asiakkaaseen** **Shopify-asiakas**-ikkunassa ja valita sitten **Shopify-tilaukset** -sivulla **Etsi yhdistämismääritys** -toiminto.
+* Määritä **Tilausasiakkaan nro** ja **Laskutusasiakkaan nron** suoraan **Shopify-tilaukset**-sivulta valitsemalla asiakkaan olemassa olevien asiakkaiden luettelosta.
+* Valitse asiakasmalli sekä luo ja määritä asiakas **Shopify-tilaukset**-sivun **Luo uusi asiakas** -toiminnolla. Shopify-asiakkaalla on oltava ainakin yksi osoite. Shopify-myyntipisteen kautta luoduista tilauksista puuttuvat usein osoitetiedot.
+* Yhdistä aiemmin luotu asiakas liittyvään **Shopify-asiakkaaseen** **Shopify-asiakas**-sivulla ja valitse sitten **Etsi yhdistämismääritys** -toiminto **Shopify-tilaukset**-sivulla.
 
 ### Miten yhdistin valitsee käytettävän asiakkaan
 
@@ -172,6 +180,8 @@ Seuraavat vaiheet määräytyvät **asiakkaan yhdistämismäärityksen tyypin** 
 
 > [!NOTE]  
 > Yhdistin käyttää laskutusosoitteen tietoja ja luo laskutusasiakkaan [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmaan. Tilausasiakas on sama kuin laskutusasiakas.
+
+Yritystenvälisten tilausten työnkulku on samankaltainen, joskin yhdistin käyttää **Yrityksen oletusnro**-, **Yrityksen tuonti Shopifysta**- ja **Yrityksen yhdistämismäärityksen tyyppi** -kenttiä **Shopify-kauppa-kortti**-sivulla. On kuitenkin huomattava, että **Yrityksen oletusnro** -kenttää ei ole **Shopify-asiakasmallissa**, sillä yritystenvälisessä toiminnassa oletetaan olevan nimettyjä asiakkaita.
 
 ### Tilausten eri prosessisäännöt
 
@@ -199,27 +209,32 @@ Kukin työjono tuo ja käsittelee määritettyjen suodattimien tilaukset ja käy
 
 Shopifyssa:
 
-|Muokkaa|Vaikutus jo tuotuun tilaukseen|Vaikutus ensimmäisen kerran tuotavaan tilaukseen|
+|Muokkaa|Vaikutus Shopify-tilauksiin, joita ei ole vielä käsitelty [!INCLUDE[prod_short](../includes/prod_short.md)]issa | Vaikutus Shopify-tilauksiin, jotka on jo käsitelty [!INCLUDE[prod_short](../includes/prod_short.md)]issa |
 |------|-----------|-----------|
-|Muuta täyttämissijaintia | Alkuperäinen sijainti on riveillä | Täyttämissijainti on synkronoitu kohteeseen [!INCLUDE[prod_short](../includes/prod_short.md)].|
-|Muokkaa tilausta ja lisää määrää| Tilausotsikko ja lisätaulukot päivittyvät [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa, rivit eivät.| Tuotu tilaus käyttää uutta määrää|
-|Muokkaa tilausta ja pienennä määrää| Tilausotsikko ja lisätaulukot päivittyvät [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa, rivit eivät.| Tuotu tilaus käyttää alkuperäistä määrää, Jaettava määrä -kentässä on uusi arvo.|
-|Muokkaa tilausta ja poista olemassa oleva nimike | Tilausotsikko ja lisätaulukot päivittyvät [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa, rivit eivät.| Poistettu nimike tuodaan edelleen, Jaettava määrä -kentässä on nolla. |
-|Muokkaa tilausta ja lisää uusi nimike | Tilausotsikko päivittyy, rivit eivät. | Alkuperäiset ja lisätyt nimikkeet tuodaan. |
-|Käsittele tilaus: täytä, päivitä maksutiedot | Tilausotsikko päivittyy, rivit eivät. |Muutoksella ei ole vaikutusta siihen, miten tilaus tuodaan.|
-|Peruuta tilaus | Tilausotsikko päivittyy, rivit eivät. |Peruutettua tilausta ei ole tuotu |
+|Muuta täyttämissijaintia | Täyttämissijainti on synkronoitu kohteeseen [!INCLUDE[prod_short](../includes/prod_short.md)]. | Täyttämissijainti on synkronoitu [!INCLUDE[prod_short](../includes/prod_short.md)]iin.|
+|Muokkaa tilausta ja lisää määrää|Tuotu tilaus käyttää uutta määrää.| Yhdistin havaitsee muutoksen ja merkitsee tilaukset. |
+|Muokkaa tilausta ja pienennä määrää|Tuotu tilaus käyttää uutta määrää. Tuotavaa Shopifyn 0-summaista hyvitystä ei voi muuntaa hyvityslaskuksi.| Yhdistin havaitsee muutoksen ja merkitsee tilaukset. |
+|Muokkaa tilausta ja poista olemassa oleva nimike |Poistettua nimikettä ei tuoda. Tuotavaa Shopifyn 0-summaista hyvitystä ei voi muuntaa hyvityslaskuksi.| Yhdistin havaitsee muutoksen ja merkitsee tilaukset. |
+|Muokkaa tilausta ja lisää uusi nimike | Alkuperäiset ja lisätyt nimikkeet tuodaan. | Yhdistin havaitsee muutoksen ja merkitsee tilaukset. |
+|Käsittele tilaus: täytä, päivitä maksutiedot | Tilausotsikko päivitetään. |Tilausotsikko päivitetään. Täydennystä ei synkronoida Shopifyn kanssa.|
+|Maksetun tilauksen peruuttaminen | Tilausotsikko päivitetään erikseen käsiteltäväksi |Yhdistin havaitsee muutoksen ja merkitsee tilaukset. |
+|Maksamattoman tilauksen peruuttaminen | Poistettua nimikettä ei tuoda. Tuotavaa Shopifyn 0-summaista hyvitystä ei voi muuntaa hyvityslaskuksi. |Yhdistin havaitsee muutoksen ja merkitsee tilaukset. |
 
-Kuten näet, joissakin tapauksissa voi olla kohtuullista poistaa muokattu tilaus [!INCLUDE[prod_short](../includes/prod_short.md)]-ohjelmasta ja tuoda se uutena tilauksena.
+Jos tilaus on jo käsitelty [!INCLUDE[prod_short](../includes/prod_short.md)]issa, yhdistin näyttää seuraavan virhesanoman: *Tilaus on jo käsitelty Business Centralissa, mutta Shopifysta vastaanotettiin versio. Muutoksia ei välitetty käsiteltyyn tilaukseen Business Centralissa. Päivitä käsitellyt asiakirjat vastaamaan Shopifysta saatuja tietoja. Jos haluat pakottaa synkronoinnin, käytä Shopify-tilaus-korttisivun Synkronoi tilaus Shopifysta -toimintoa.*
+
+Luodun myyntiasiakirjan tilan mukaan voidaan suorittaa seuraavat toiminnot:
+1. Luodun myyntiasiakirjan poistaminen
+2. Palauta **Käsitelty**-ilmaisin valitsemalla **Poista käsiteltyjen asiakirjojen linkitys** -toiminto.
+3. Päivitä yksittäiseen tilaukseen Shopifyn viimeisimmät tiedot valitsemalla **Synkronoi tilaus Shopifysta** -toiminto.
 
 [!INCLUDE[prod_short](../includes/prod_short.md)]issa:
 
 |Muokkaa|Vaikutus|
 |------|-----------|
-|Muuta sijainti toiseen sijaintiin, joka on kartoitettu Shopify-sijainteihin. Kirjaa toimitus. | Tilaus merkitään täytetyksi. Alkuperäistä sijaintia käytetään. |
-|Muuta sijainti toiseen sijaintiin, jota ei ole kartoitettu Shopify-sijainteihin. Kirjaa toimitus. | Täydennystä ei synkronoida Shopifyn kanssa. |
+|Sijainnin vaihtaminen toiseen sijaintiin. Kirjaa toimitus. | Tilaus merkitään täytetyksi. Shopifyn täyttämissijaintia käytetään. |
 |Vähennä määrää. Kirjaa toimitus. | Shopify-tilaus merkitään osittain täytetyksi. |
-|Lisää määrää. Kirjaa toimitus. | Täydennystä ei synkronoida Shopifyn kanssa. |
-|Lisää uusi nimike. Kirjaa toimitus. | Shopify-tilaus merkitään täytetyksi. Rivejä ei päivitetä. |
+|Lisää määrää. Kirjaa toimitus. | Täydennystä ei synkronoida Shopifyn kanssa. Sama, jos täyttäminen jaettiin Shopifyssa mutta käsiteltiin yhtenä rivinä [!INCLUDE[prod_short](../includes/prod_short.md)]issa. |
+|Lisää uusi nimike. Kirjaa toimitus. | Shopify-tilaus merkitään täytetyksi. Uusia rivejä ei lisätä. |
 
 ## Synkronoi toimitukset Shopifyhin
 

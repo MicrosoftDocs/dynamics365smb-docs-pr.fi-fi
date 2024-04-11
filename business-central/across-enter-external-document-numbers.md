@@ -1,15 +1,15 @@
 ---
-title: Ulkoisten asiakirjanumeroiden syöttäminen
+title: Ulkoisten asiakirjojen numeroiden syöttäminen
 description: 'Voit syöttää ulkoisia asiakirjanumeroita asiakkaille ja toimittajille kaikissa myynti- ja ostotilauksissa, laskuissa ja hyvityslaskuissa. Näiden numeroiden avulla voit hakea kirjattuja myynti- ja ostorivejä.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 05/28/2021
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Ulkoisten asiakirjanumeroiden syöttäminen
+# Ulkoisten asiakirjojen numeroiden syöttäminen
 
 Voit syöttää ulkoisia asiakirjanumeroita asiakkaille ja toimittajille kaikissa myynti- ja ostotilauksissa, laskuissa ja hyvityslaskuissa. Näiden numeroiden avulla voit hakea kirjattuja myynti- ja ostorivejä.  
 
@@ -29,7 +29,7 @@ Seuraavassa kuvataan, miten ulkoinen asiakirjanumero määritetään myyntitilau
 
 ## Katso myös
 
-[Ulkoisen tiedoston numerot ostoasiakirjoissa](purchasing-ext-doc-no.md)  
+[Ulkoisten asiakirjojen numerot ostoasiakirjoissa](purchasing-ext-doc-no.md)  
 [Ulkoisen tiedoston numerot myyntiasiakirjoissa](sales-how-invoice-sales.md#external-document-numbers)  
 [Tuotteiden myyminen](sales-how-sell-products.md)  
 [Osto](purchasing-manage-purchasing.md)  

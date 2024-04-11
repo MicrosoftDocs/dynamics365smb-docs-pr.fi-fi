@@ -7,7 +7,7 @@ ms.devlang: al
 ms.search.keywords: 'recurring, invoicing, subscription, billing'
 ms.search.form: 283
 ms.reviewer: bholtorf
-ms.date: 04/01/2021
+ms.date: 03/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -18,29 +18,29 @@ Monet yritykset ovat siirtymässä liiketoiminnan tuottomallista, jossa tuotto o
 
 ## Rekisteröi tuotot toistuvassa yleisessä päiväkirjassa
 
-Toistuvien tapahtumien päiväkirja on yleinen päiväkirja, jossa on erityiskenttiä sellaisten tapahtumien hallintaa varten, jotka kirjataan usein vähäisin muutoksin tai ilman muutoksia. Näitä ovat esimerkiksi vuokra, lehtitilaukset, sähkö tai lämmitys. Käyttämällä näitä kenttiä toistuviin tapahtumiin, voit kirjata sekä vakiosummia että muuttuvia summia. Toistuvassa päiväkirjassa säännöllisesti kirjattavat tapahtumat tarvitsee syöttää vain kerran. Siten tilit, dimensiot , dimension arvot ym. tiedot jotka syötät, säilyvät päiväkirjassa kirjauksen jälkeen. Jos sinun tarvitsee tehdä muutoksia, voit tehdä niitä jokaisen kirjauksen yhteydessä.
+Toistuvien tapahtumien päiväkirja on yleinen päiväkirja, jossa on erityiskenttiä sellaisten tapahtumien hallintaa varten, jotka kirjataan usein vähäisin muutoksin tai ilman muutoksia. Näitä ovat esimerkiksi vuokra, lehtitilaukset, sähkö tai lämmitys. Käyttämällä näitä kenttiä toistuviin tapahtumiin, voit kirjata sekä vakiosummia että muuttuvia summia. Toistuvassa päiväkirjassa säännöllisesti kirjattavat tapahtumat tarvitsee syöttää vain kerran. Siten esimerkiksi syötettävät tilit, dimensiot, dimension arvot säilyvät päiväkirjassa kirjauksen jälkeen. Jos sinun tarvitsee tehdä muutoksia, voit tehdä niitä jokaisen kirjauksen yhteydessä.
 
 ### Miksi käyttää tätä asetusta
 
 Tämän asetuksen avulla määritetään joustavat laskutusjaksot [päivämääräkaavojen](ui-enter-date-ranges.md#use-date-formulas) avulla.
 
-Tämän asetuksen avulla et kuitenkaan voi tulostaa ja lähettää laskuja [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman oletusversiossa.  
+Tämän asetuksen avulla et kuitenkaan voi tulostaa ja lähettää laskuja [!INCLUDE[prod_short](includes/prod_short.md)]in oletusversiossa.  
 
 Lisätietoja on kohdassa [Toistuvien päiväkirjojen käyttäminen](ui-work-general-journals.md#work-with-recurring-journals).  
 
-## Luo useita laskuja toistuvan projektipäiväkirjan perusteella
+## Useiden laskujen luominen toistuvan projektipäiväkirjan perusteella
 
-Toistuva projektipäiväkirja on kehittyneempi vaihtoehto yleiselle päiväkirjalle. Voit määrittää nimikkeet, resurssit ja KP-tilit, jotka täytyy toistaa jokaisen projektin osalta, ja määrittää toistumisen tiheyden.  
+Toistuva projektipäiväkirja on kehittyneempi vaihtoehto yleiselle päiväkirjalle. Voit määrittää nimikkeet, resurssit ja KP-tilit, jotka on toistettava kunkin projektin osalta, ja määrittää toistumisvälin.  
 
-Kun olet kirjaamassa toistuvaa projektipäiväkirjaa, voit luoda useita laskuja **luomalla projektin myyntilasku** -tehtävän. Voit tarkastella ja kirjata luotuja laskuja **Myyntilaskut**-sivulla.
+Kun olet kirjaamassa toistuvaa projektipäiväkirjaa, voit luoda useita laskuja **Luo projektin myyntilasku** -tehtävän avulla. Voit tarkastella ja kirjata luotuja laskuja **Myyntilaskut**-sivulla.
 
 ### Miksi käyttää tätä asetusta
 
 Tämän vaihtoehdon avulla voit noudattaa vakiolaskutusmenettelyä ja kaikkia sen etuja, kuten viestintäasetusten vakio- ja asiakasasettelua. Voit myös määrittää kunkin projektin hinnat yksittäin.
 
-Sinun täytyy kuitenkin luoda uusi projekti jokaiselle uudelle asiakkaalle ja lisätä rivejä toistuvaan päiväkirjaan. 
+Uusi projekti on kuitenkin luotava jokaiselle uudelle asiakkaalle ja lisätä rivejä toistuvaan päiväkirjaan. 
 
-Lisätietoja on kohdissa [Projektipäiväkirjarivien luominen](projects-how-record-job-usage.md#to-create-job-journal-lines-manually) ja [Useiden projektin myyntilaskujen luominen](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices).
+Lisätietoja on kohdissa [Projektipäiväkirjarivien luominen](projects-how-record-job-usage.md#to-create-project-journal-lines-manually) ja [Useiden projektin myyntilaskujen luominen](projects-how-invoice-jobs.md#to-create-multiple-project-sales-invoices).
 
 ## Luo useita laskuja toistuvien myyntirivien perusteella
 
@@ -50,7 +50,7 @@ Jos sinun on usein luotava samankaltaisia tietoja sisältäviä myynti- ja ostor
 
 Tämän asetuksen avulla voit liittää samat toistuvat rivit usealle asiakkaalle. Voit määrittää tietyn asiakkaan toistuvien myyntirivien voimassaoloajan. Samalle asiakkaalle voi liittää useampia toistuvia rivejä, ja kaikki ne sisällytetään laskuun.
 
-Nimikkeille ei kuitenkaan ole mahdollista määrittää kiinteitä hintoja, koska [!INCLUDE[prod_short](includes/prod_short.md)] käyttää todellisia hintoja ja alennuksia, jotka ovat voimassa asiakirjan päivämääränä ja jotka yrittävät löytää parhaan yhdistelmän, joka antaa alimman hinnan.  
+Nimikkeille ei kuitenkaan ole mahdollista määrittää kiinteitä hintoja, koska [!INCLUDE[prod_short](includes/prod_short.md)] käyttää todellisia hintoja ja alennuksia, jotka ovat voimassa asiakirjan päivämääränä ja jotka yrittävät löytää parhaan alimman hinnan antavan yhdistelmän.  
 
 Lisätietoja on kohdassa [Toistuvien myynti- ja ostorivien luominen](sales-how-work-standard-lines.md).
 
@@ -88,7 +88,7 @@ Lisätietoja on kohdassa [Puitemyyntitilausten käyttäminen](sales-how-to-creat
 ### Toistuvat tilaukset (Norja)
 
 Toistuvien tilausten avulla voit luoda puitetilausmalleja, jotta myyntitilaukset voidaan luoda määrittämiesi päivämäärävälien perusteella. Jos esimerkiksi toimitat saman myyntitilauksen kahden viikon välein, voit käyttää puitemyyntitilausta ja luoda toistuvia tilauksia.
-Toistuvien ryhmien avulla voit määrittää joukon parametreja, jotka ilmaisevat, miten tilaukset tehdään. Nämä ryhmät määritellään puitetilauksille, jotka täytyy luoda säännöllisesti. Toistuvien tilausten luomiseksi on suoritettava luo toistuvat tilaukset -prosessi säännöllisesti. 
+Toistuvien ryhmien avulla voit määrittää joukon parametreja, jotka ilmaisevat, miten tilaukset tehdään. Nämä ryhmät määritellään puitetilauksille, jotka täytyy luoda säännöllisesti. Toistuvien tilausten luomiseksi on suoritettava toistuvien tilausten luontiprosessi säännöllisesti. 
 
 #### Miksi käyttää tätä asetusta
 
@@ -106,8 +106,8 @@ Osoitteessa [AppSource.microsoft.com](https://appsource.microsoft.com/) on laaje
 
 [Pvm-kaavat](ui-enter-date-ranges.md#use-date-formulas)  
 [Toistuvien tapahtumien päiväkirjojen käyttäminen](ui-work-general-journals.md#work-with-recurring-journals)  
-[Luo projektipäiväkirjan rivit](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
-[Luo monta projektin myyntilaskua](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
+[Projektipäiväkirjan rivien luominen](projects-how-record-job-usage.md#to-create-project-journal-lines-manually)  
+[Useiden projektin myyntilaskujen luominen](projects-how-invoice-jobs.md#to-create-multiple-project-sales-invoices)  
 [Toistuvien myynti- ja ostorivien luominen](sales-how-work-standard-lines.md)  
 [Huoltosopimusten ja huoltosopimustarjousten käyttäminen](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Laskuta useita huoltosopimuksia](service-how-create-invoices.md#to-invoice-several-service-contracts)  

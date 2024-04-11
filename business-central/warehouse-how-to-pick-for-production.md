@@ -25,7 +25,7 @@ Käytössä on seuraavat sisäisten toimintojen asiakirjat:
 
 * Kun sisäisen toiminnon, kuten tuotannon tai projektin, varaston poiminta rekisteröidään, poimittujen komponenttien kulutus kirjataan samanaikaisesti.
 * **Sijaintikortti**-sivun **Var.paikka pakollinen** -valintapainike on valinnainen.
-* Varaston poimintoja käytettäessä tuotantotilauksen komponentin rivillä tai projektin suunnitteluriveillä oleva **Varastopaikkakoodi**-kenttä määrittää*ota* -varastopaikan. Ottovarastopaikan komponenttien määrä vähenee, kun kulutus kirjataan.
+* Varaston poimintoja käytettäessä tuotantotilauksen komponentin rivillä tai projektin suunnitteluriveillä oleva **Varastopaikkakoodi**-kenttä määrittää *ota*-varastopaikan. Ottovarastopaikan komponenttien määrä vähenee, kun kulutus kirjataan.
 
 ## Varastosiirrot
 
@@ -60,9 +60,9 @@ Projektin komponentteja voi poimia työnkulussa projektinhallintaan **Varaston p
 Jos sijainneissa käytetään varastopaikkoja, työnkulkua projekteihin voidaan laajentaa käyttämällä **Varaston siirto** -asiakirjoja.
 
 > [!NOTE]
-> Projektin suunnittelurivien komponenttien poimintamahdollisuus lisättiin sovellukseen [!INCLUDE[d365fin](includes/d365fin_md.md)] vuoden 2022 2. julkaisuaallossa. Jotta ominaisuutta voi käyttää, järjestelmänvalvojan on otettava käyttöön **Ominaisuuspäivitys: Ota käyttöön varaston ja fyysisen varaston poiminnat projekteista** **Ominaisuuksien hallinta** -sivulla.
+> Projektin suunnittelurivien komponenttien poimintamahdollisuus lisättiin [!INCLUDE[d365fin](includes/d365fin_md.md)]iin vuoden 2022 2. julkaisuaallossa. Ominaisuuden käytön aloittaminen edellyttää, että järjestelmänvalvojan on otettava käyttöön **Ominaisuuspäivitys: Ota käyttöön varaston ja fyysisen varaston poiminnat projekteista** **Ominaisuuksien hallinta** -sivulla.
 >
-> [!INCLUDE[prod_short](includes/prod_short.md)] käyttää arvoa **Jäljellä oleva määrä** -kentässä työn suunnittelurivillä, kun se luo varastopoiminnat. Jos haluat käyttää töiden varastopoimintoja, **Käytä käyttölinkkiä** -vaihtopainike on otettava käyttöön työn **Työkortti**-sivulla. Tämän ansiosta voit seurata, vastaako käyttö suunnitelmaa. Jos et ota vaihtopainiketta käyttöön, jäljelle jäävän määrän arvona pysyy **0** eikä varastopoimintaa luoda. Lisätietoja on kohdassa [Projektin käytön seurannan määrittäminen](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking).
+> [!INCLUDE[prod_short](includes/prod_short.md)] käyttää **Jäljellä oleva määrä** -kentän arvoa projektin suunnittelurivillä, kun se luo varastopoiminnat. Jos haluat käyttää töiden varastopoimintoja, **Käytä käyttölinkkiä** -vaihtopainike on otettava käyttöön työn **Projektikortti**-sivulla. Tämän ansiosta voit seurata, vastaako käyttö suunnitelmaa. Jos et ota vaihtopainiketta käyttöön, jäljelle jäävän määrän arvona pysyy **0** eikä varastopoimintaa luoda. Lisätietoja on kohdassa [Projektin käytön seurannan määrittäminen](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-project-usage-tracking).
 
 ## Tuotantoon, kokoonpanoon ja projekteihin poimiminen tai siirtäminen fyysisen varastoinnin perusmäärityksissä
 

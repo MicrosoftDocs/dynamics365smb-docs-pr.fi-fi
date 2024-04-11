@@ -1,7 +1,7 @@
 ---
 title: Pankkitilin täsmäytysavustaja (esiversio) Copilotin avulla - UKK
 description: 'Tässä UKK:ssa on tietoa tekoälytekniikasta, jota käytetään pankkitilien ja tiliotteiden täsmäytykseen Business Centralissa. Siinä on tärkeitä seikkoja ja tietoja siitä, miten tekoälyä käytetään, miten sitä on testattu ja arvioitu, sekä tiettyjä rajoituksia.'
-ms.date: 11/07/2023
+ms.date: 03/27/2024
 ms.custom:
   - responsible-ai-faqs
 ms.topic: article
@@ -13,11 +13,13 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Pankkitilin täsmäytysavustaja (esiversio) Copilotin avulla - UKK
+# Usein kysyttyjä kysymyksiä pankkitilin täsmäytysavustajasta Copilotin avulla (esiversio)
+
+[!INCLUDE[preview-banner](includes/preview-banner.md)]
+
+Nämä usein kysytyt kysymykset kuvaavat Copilot-avustajan tekoälyn vaikutusta pankkitilin täsmäytykseen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa.
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
-
-Nämä usein kysytyt kysymykset kuvaavat Copilot-avustajan tekoälyn vaikutusta pankkitilin täsmäytykseen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa. 
 
 ## Mikä on pankkitilin täsmäytysavustaja?
 

@@ -133,7 +133,7 @@ Jos käyttäjä ei olisi tehnyt kiinteää kohdistusta ostohyvityslaskun ja osto
 
 Seuraavassa taulukossa käsitellään nimikkeen arvotapahtumien tulos, jos vaihe 2 edellisessä skenaariossa suoritetaan ilman kiinteää kohdistusta.  
 
-|Kirjauspäivämäärä|Nimiketapahtuman tyyppi|Arvostettu määrä|Kustannussumma (todellinen)|Kohdista nimiketapahtumaan|Arvostettu keskim. kust.|Nimiketapahtuman nro|Tapahtumanro|  
+|Kirjauspäivämäärä|Nimiketapahtuman tyyppi|Arvostettu määrä|Kustannussumma (todellinen)||Arvostettu keskim. kust.|Nimiketapahtuman nro|Tapahtumanro|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01-01-20|Osto|1|200.00||Ei|1|1|  
 |01-01-20|Osto|1|1000.00||Ei|2|2|  

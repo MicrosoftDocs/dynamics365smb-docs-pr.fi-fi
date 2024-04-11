@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: reimbursement
 ms.search.form: '63, 234, 625, 5224, 5237, 5238, 5239, 5240'
-ms.date: 06/16/2021
+ms.date: 03/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -15,14 +15,17 @@ ms.service: dynamics-365-business-central
 [!INCLUDE[prod_short](includes/prod_short.md)] tukee työntekijöiden tapahtumia samalla tavoin kuin toimittajien tapahtumia. Niinpä työntekijän kirjausryhmien avulla voidaan varmistaa, että työntekijätapahtumat kirjataan oikeille yleisen päiväkirjan tileille.
 
 > [!NOTE]  
-> Työntekijätapahtumat voidaan kirjata vain paikallisena valuuttana. Työntekijöille tehtävät hyvitysmaksut eivät tue alennuksia ja maksutoleransseja.
+> Työntekijöille tehtävät hyvitysmaksut eivät tue alennuksia ja maksutoleransseja.
 
 Jos työntekijät voivat käyttää omia varojaan liiketoiminnoissa, voit kirjata kulun työntekijän tilille. Työntekijälle tehdään sitten hyvitys suorittamalla maksu työntekijän pankkitilille toimittajille tehtävien maksujen tavoin.  
 
-> [!TIP]
-> Tässä artikkelissa käsitellään kulujen kirjaamista kirjoihin ja niiden hyvittämistä työntekijöille. Organisaatiossa voi olla portaali tai sovellus, jossa työntekijät voivat lähettää kuluraportit.
+Tässä artikkelissa käsitellään kulujen kirjaamista kirjoihin ja niiden hyvittämistä työntekijöille. Organisaatiossa voi olla portaali tai sovellus, jossa työntekijät voivat lähettää kuluraportit.
 
 Joustavana [!INCLUDE [prod_short](includes/prod_short.md)] sopii moniin erilaisiin käytäntöihin. Käytettävät tilinumerot määräytyvät organisaation määritysten ja prosessien mukaan.  
+
+Työntekijätilien yleisiä päiväkirjoja voidaan käyttää rekisteröimään työntekijän kulu- ja hyvitystapahtumia ulkomaanvaluuttana sekä seuraamaan sitten kätevästi summia ja vertaamaan niitä kuitteihin. Laskimen voi jättää työpöydän laatikkoon, sillä Business Central voi tehdä vaihtokurssimuutokset. Kun yleisiä päiväkirjoja käytetään työntekijätilien tapahtumien kirjaamiseen, kuten kulujen hyvittämiseen, **Valuuttakoodi**-kentän avulla voidaan määrittää tapahtumien valuutta. Valuutan määrittämisessä voidaan käyttää samoja ominaisuuksia kuin rekisteröitäessä tapahtumia asiakas- tai toimittajatapahtumissa. Työntekijät voivat esimerkiksi rekisteröidä kulun euroina ja saada maksun dollareina.
+
+Summien valuuttakurssin ajantasaisuus varmistetaan oikaisemalla työntekijän saldot, kun valuutan vaihtokurssi suoritetaan erätyönä. Jos halutaan käyttää vaihtokurssitaulukkoa mutta selvittää työntekijän saldon paikallisena valuuttana, työntekijätilit voidaan jättää pois vaihtokurssien muuttamisen yhteydessä.
 
 ## Työntekijän kulun kirjaaminen
 

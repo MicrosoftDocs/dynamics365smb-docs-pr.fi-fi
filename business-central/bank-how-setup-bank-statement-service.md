@@ -6,11 +6,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Yodlee, feed, stream, payment process'
 ms.search.form: '1280, 1290'
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Envestnet Yodlee Bank Feeds -palvelun määrittäminen
+# Envestnet Yodlee Bank Feeds ‑palvelun määrittäminen
 
 Voit tuoda pankistasi sähköisiä tiliotteita ja täyttää nopeasti **Maksujen täsmäytyskirjauskansio** -sivun maksujen kohdistamiseksi ja pankkitilin täsmäyttämiseksi. Lisätietoja on kohdassa [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
@@ -18,7 +18,7 @@ Voit tuoda pankistasi sähköisiä tiliotteita ja täyttää nopeasti **Maksujen
 > Eurooppalaisen maksupalveludirektiivin vuoksi (PSD2) tiliotteita ei voi enää 14.9.2019 jälkeen tuoda automaattisesti [!INCLUDE[prod_short](includes/prod_short.md)]iin brittiläisistä pankeista. Tutkimme mahdollisuutta ottaa tämä ominaisuus uudelleen käyttöön tulevaisuudessa.
 
 > [!NOTE]
-> Envestnet Yodlee Bank Feeds -palvelua tuetaan vain Business Central -sovelluksen online-versiossa. Tämän toiminnon paikallista käyttöä varten on hankittava yhteistili Envestnetistä ja lisättävä koodi Yodlee-ohjelmointirajapinnan integrointia varten.
+> Envestnet Yodlee Bank Feeds -palvelua tuetaan vain Business Central -sovelluksen online-versiossa. Tätä toimintoa ei tueta [!INCLUDE [prod_short](includes/prod_short.md)]in paikallisissa versioissa tai [!INCLUDE [prod_short](includes/prod_short.md)] -ympäristöissä, joita isännöidään upotetuissa ISV-sovelluspalveluissa. Tämän toiminnon paikallista käyttöä varten on hankittava yhteistili Envestnetistä ja lisättävä koodi Yodlee-ohjelmointirajapinnan integrointia varten.
 >
 > Envestnet Yodlee Bank Feeds -palvelua tuetaan vain Yhdysvalloissa ja Kanadassa.
 > Vain näissä maissa ja näillä alueilla sijaitsevia pankkeja tuetaan, vaikka muiden maiden tai alueiden pankit voivat näkyä Envestnet Yodlee Bank Feeds -pankin valintaikkunassa [!INCLUDE[prod_short](includes/prod_short.md)]issa.
@@ -30,20 +30,21 @@ Envestnet Yodlee Bank Feeds -palvelu on asennettu [!INCLUDE[prod_short](includes
 
 Kun olet ottanut pankkisyötepalvelun käyttöön, pankkitili on linkitettävä siihen verkkopankkitiliin, josta syöte tulee. Voit linkittää pankkitilit verkkopankkitileihin seuraavissa erilaisissa skenaarioissa:
 
-* Verkkopankkitilille ei ole määritetty [!INCLUDE[prod_short](includes/prod_short.md)]in pankkitiliä. Tämän vuoksi luodaan pankkitili linkittämällä se verkkopankkitilistä.
+* Verkkopankkitilille määritettyä pankkitiliä ei ole [!INCLUDE[prod_short](includes/prod_short.md)]issa. Tämän vuoksi luodaan pankkitili linkittämällä se verkkopankkitilistä.
 * [!INCLUDE[prod_short](includes/prod_short.md)]issa on pankkitili, jonka haluat linkittää verkkopankkitiliin.
 * Linkitetyn pankkitilin linkitys on peruutettava, koska haluat lopettaa tilin pankkisyötepalvelun käyttämisen.
 * Verkkopankkitilejä on muutettu, ja haluat päivittää [!INCLUDE[prod_short](includes/prod_short.md)]in pankkitilien tiedot.
 
-Kun pankkisyötepalvelu on otettu käyttöön, voit määrittää pankkitilille uusien tiliotteiden automaattisen tuonnin **Maksujen täsmäytyskirjauskansio** -sivun kahden tunnin välein. Niiden maksujen tapahtumia, jotka on jo kohdistettu ja/tai täsmäytetty **Maksujen täsmäytyskirjauskansio** -sivulla, ei tuoda. Lisätietoja on “Pankin tiliotteiden automaattisen tuonnin ottaminen käyttöön” -osassa.
+Kun pankkisyötepalvelu on otettu käyttöön, voit määrittää pankkitilille uusien tiliotteiden automaattisen tuonnin **Maksujen täsmäytyskirjauskansio** -sivulle kahden tunnin välein. Niiden maksujen tapahtumia, jotka on jo kohdistettu ja/tai täsmäytetty **Maksujen täsmäytyskirjauskansio** -sivulla, ei tuoda. Lisätietoja on “Pankin tiliotteiden automaattisen tuonnin ottaminen käyttöön” -osassa.
 
 > [!NOTE]  
 > Jos käytössä on yrityksen määrittämisen avustettu määritys, jotkin seuraavien toimenpiteiden yrityksen pankkitilin asennusvaiheet suoritetaan automaattisesti. Lisätietoja on ohjeaiheessa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).
 
 ## Pankkisyötepalvelun ottaminen käyttöön
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten vastaava linkki.
 2. Avaa pankkisyötepalvelussa käytettävä pankkitili.
-3. Valitse **Pankkitili**-sivun **Pankin tiliotteen tuontimuoto** -kenttään YODLEEBANKFEED.  
+3. Valitse **Pankkitilikortti**-sivun **Pankin tiliotteen tuontimuoto** -kenttään YODLEEBANKFEED.  
 
 Pankkisyötepalvelu otetaan käyttöön, kun linkität pankkitilin siihen liittyvään verkkopankkitiliin. Tutustu seuraaviin toimiin.  
 
@@ -51,6 +52,7 @@ Pankkisyötepalvelu otetaan käyttöön, kun linkität pankkitilin siihen liitty
 > Jos käytät **Yrityksen asennus** -asetusten ohjattua määritystä, voit ottaa palvelun käyttöön valitsemalla **Käytä pankin syötepalvelua** -valintaruudun. Lisätietoja on kohdassa [Uusien yritysten luominen Business Centralissa](about-new-company.md).
 
 ## Uuden linkitetyn pankkitilin luominen
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten vastaava linkki.
 2. Valitse asianmukainen pankkitili ja valitse sitten **Luo uusi linkitetty pankkitili**. Hetken kuluttua näyttöön avautuu **Pankkitilin linkitys** -sivu.
 
@@ -58,7 +60,7 @@ Pankkisyötepalvelu otetaan käyttöön, kun linkität pankkitilin siihen liitty
     > Tällä sivulla näytetään Envestnet Yodlee Bank Feeds -palvelun todellinen verkkosivu. Sivulla näkyvät termit ja toiminnot eivät ehkä vastaa tämän ohjeaiheen ohjeita.  
 3. Käytä **Verkkopankkitilin linkitys** -sivun **Linkitä tili** -ruudun hakutoimintoa, kun etsit pankin, jossa sinulla on vähintään yksi verkkopankkitili.
 4. Valitse pankin nimi. **Kirjaudu sisään** -ruutu avautuu.
-5. Syötä käyttäjätunnus ja salasana, jota käytät kirjautuessasi verkkopankkiin, ja valitse sitten **Seuraava**-painike.  
+5. Syötä käyttäjätunnus ja salasana, jota käytät verkkopankkiin kirjautumiseen, ja valitse sitten **Seuraava**-painike.  
 6. Pankkisyötepalvelu valmistelee määritetyn pankin ensimmäisen verkkopankkitiliin ja [!INCLUDE[prod_short](includes/prod_short.md)]in uuden pankkitilin linkityksen.
 
     > [!NOTE]  
@@ -67,9 +69,9 @@ Pankkisyötepalvelu otetaan käyttöön, kun linkität pankkitilin siihen liitty
     Kun käsittely on tehty, pankin nimi näkyy **Linkitetty**-välilehden **Omat tilit** -ruudussa. Sulkeissa oleva luku osoittaa linkitettyjen verkkopankkien määrän.  
 7. Valitse **OK**-painike.
 
-    Jos linkität vain yhden verkkopankkitilin **Pankkitilin kortti** -sivu avautuu ja verkkopankkitilin nimi näkyy, Nyt pankkitilin linkitystehtävä on valmis. Jäljellä on enää pankkitilin määrittäminen. Lisätietoja on kohdassa [Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md).
+    Jos linkität vain yhden verkkopankkitilin, **Pankkitilin kortti** -sivu avautuu ja verkkopankkitilin nimi näkyy, Nyt pankkitilin linkitystehtävä on valmis. Jäljellä on enää pankkitilin määrittäminen. Lisätietoja on kohdassa [Pankkitilien määrittäminen](bank-how-setup-bank-accounts.md).
 
-    Jos linkität useita verkkopankkitilejä, **Pankkitilin linkitys** -sivu avautuu. Tällä sivulla on luettelo verkkopankkitileistä, joita ei ole vielä linkitetty [!INCLUDE[prod_short](includes/prod_short.md)]in pankkitileihin. Noudata tällaisessa tapauksessa seuraavaa vaihetta.  
+    Jos linkität useita verkkopankkitilejä, **Pankkitilin linkitys** -sivu avautuu. Tällä sivulla on luettelo verkkopankkitileistä, joita ei ole vielä linkitetty pankkitileihin [!INCLUDE[prod_short](includes/prod_short.md)]issa. Noudata tällaisessa tapauksessa seuraavaa vaihetta.  
 8. Valitse **Pankkitilin linkitys** -sivulla verkkopankkitilin rivi ja valitse sitten **Linkitä uuteen pankkitiliin** -toiminto.  
 
     Näyttöön avautuu uuden pankkitilin **Pankkitilin kortti** -sivu ja verkkopankkitilin nimi näkyy.
@@ -79,10 +81,11 @@ Pankkisyötepalvelu otetaan käyttöön, kun linkität pankkitilin siihen liitty
 10. Valitse **Pankkitililuettelo**-sivulla pankkitili, johon linkitys tehdään, ja valitse sitten **OK**-painike.
 
 ## Pankkitilin linkittäminen verkkopankkitiliin
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten vastaava linkki.
 2. Valitse sen pankkitilin rivi, jota ei ole linkitetty verkkopankkitiliin, ja valitse sitten **Linkitä verkkopankkitiliin** -toiminto. Näyttöön avautuu **Verkkopankkitilin linkitys** -sivu, joka sisältää **Linkitä tili** -ruudussa annetun pankin nimen.
 3. Valitse pankin nimi. **Kirjaudu sisään** -ruutu avautuu.
-4. Syötä käyttäjätunnus ja salasana, jota käytät kirjautuessasi verkkopankkiin, ja valitse sitten **Seuraava**-painike.  
+4. Syötä käyttäjätunnus ja salasana, jota käytät verkkopankkiin kirjautumiseen, ja valitse sitten **Seuraava**-painike.  
 
     Pankkisyötepalvelu valmistelee [!INCLUDE[prod_short](includes/prod_short.md)]in pankkitilin ja liittyvän verkkopankkitilin linkityksen.  
 
@@ -92,11 +95,13 @@ Pankkisyötepalvelu otetaan käyttöön, kun linkität pankkitilin siihen liitty
 **Pankkitililuettelo**-sivun **Linkitetty**-valintaruutu valitaan.
 
 ## Verkkopankkitilin tunnistetietojen muokkaaminen
+
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilit** ja valitse sitten liittyvä linkki.  
 2. Valitse sen pankkitilin rivi, joka on linkitetty verkkopankkitiliin, ja valitse sitten **Muokkaa verkkopankkitilin tietoja** -toiminto.
 3. Päivitä tunnistetiedot.
 
 ## Pankkitilin linkityksen poistaminen
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten vastaava linkki.  
 2. Valitse sen linkitetyn pankkitilin rivi, jonka linkityksen liittyvään verkkopankkitiliin haluat poistaa. Valitse sitten **Poista verkkopankkitilin linkitys** -toiminto.
 
@@ -104,12 +109,14 @@ Pankkisyötepalvelu otetaan käyttöön, kun linkität pankkitilin siihen liitty
 > Jos valitset vahvistusvalintaikkunassa **Kyllä**, verkkopankkitilin linkki poistetaan ja sisäänkirjaustiedot poistetaan. Voit linkittää pankkitilin uudelleen verkkopankkitiliin kirjautumalla pankkiin sisään uudelleen. Lisätietoja on “Pankkitilin linkittäminen verkkopankkitiliin“ -osassa.
 
 ## Pankkitilin linkityksen päivittäminen
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten vastaava linkki.
 2. Valitse asianmukainen pankkitili ja valitse sitten **Päivitä pankkitilien linkitys** -toiminto.
 
 Jos **Pankkitililuettelo**-sivun linkitetyissä pankkitileissä esiintyy ongelmia, näyttöön avautuu **Pankkitilin linkitys** -sivu, jossa kerrotaan pankkitili, jota ongelmat koskevat. Ongelmien ratkaiseminen tapahtuu parhaiten poistamalla verkkopankkitilin linkitys ja luomalla linkitys uudelleen. Lisätietoja on Pankkitilin linkittäminen verkkopankkitiliin -osassa.
 
 ## Pankin tiliotteiden automaattisen tuonnin ottaminen käyttöön
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten vastaava linkki.
 2. Valitse linkitetyn pankkitilin rivi ja valitse sitten **Pankin tiliotteen automaattisen tuonnin asetukset** -toiminto.
 3. Määritä **Pankin tiliotteen automaattisen tuonnin asetukset** -sivun **Sisällytettyjen päivien lukumäärä** -kentässä, miltä kaukaiselta ajalta uudet pankkitapahtumat haetaan.
@@ -124,10 +131,11 @@ Jos **Pankkitililuettelo**-sivun linkitetyissä pankkitileissä esiintyy ongelmi
 > Niiden maksujen tapahtumia, jotka on jo kohdistettu ja/tai täsmäytetty **Maksujen täsmäytyskirjauskansio** -sivulla, ei tuoda.
 
 ## Katso myös
+
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  
 [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
+[[!INCLUDE[prod_short](includes/prod_short.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

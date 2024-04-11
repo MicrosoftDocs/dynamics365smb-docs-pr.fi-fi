@@ -5,19 +5,19 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 12/13/2023
+ms.date: 03/06/2024
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="add-marketing-text-to-items"></a>Markkinointitekstin lisääminen nimikkeille
+# Markkinointitekstin lisääminen nimikkeille
 
 Voit kirjoittaa nimikettä koskevan *markkinointitekstin* mille tahansa Business Centralin rekisteröidylle nimikkeelle. Vaikka markkinointiteksti on eräänlainen kuvaus, se on eri kuin nimikkeen **Kuvaus**-kenttä. **Kuvaus**-kenttää käytetään tyypillisesti suppeana näyttönimenä, jotta tuote voidaan määrittää nopeasti. Toisaalta markkinointiteksti on rikas ja kuvaava teksti. Sen tarkoitus on lisätä markkinointi-ja mainossisältöä, joka tunnetaan myös nimellä *copy*. Tämä teksti voidaan sitten julkaista tuotteen kanssa, jos se on julkaistu verkkokaupassa, kuten Shopifyssa, tai liittää sähköposteihin tai muihin asiakkaiden kanssa käytäviin keskusteluihin.
 
 Markkinointitekstin voi luoda kahdella tavalla. Helpoin tapa päästä alkuun on käyttää Copilotia, mikä ehdottaa sinulle tekoälyn luomaa tekstiä. Toinen vaihtoehto on aloittaa tyhjästä. 
 
-## <a name="get-marketing-text-suggestions-with-copilot"></a><a name=copilot></a>Copilotin avulla luotujen markkinointitekstiehdotusten hakeminen
+## <a name=copilot></a>Copilotin avulla luotujen markkinointitekstiehdotusten hakeminen
 
 Copilot luo nopeasti tekstiehdotuksen, joka luodaan puolestasi automaattisesti. Tekoälyn luoma teksti on räätälöity nimikkeelle ja se antaa hyvän lähtökohdan. Teksti perustuu seuraaviin tietoihin:
 
@@ -28,9 +28,9 @@ Copilot luo nopeasti tekstiehdotuksen, joka luodaan puolestasi automaattisesti. 
 
 Copilot on suunniteltu säästämään sinua ja auttamaan luovan ja mukaansatempaavan tekstin kirjoittamisessa, joka kuvastaa brändiä ja on yhdenmukainen koko tuotelinjan kanssa. Aloita luomalla ehdotus ja muuta ehdotettua tekstiä tarpeen mukaan.
 
-### <a name="prerequisites"></a>Vaatimukset
+### Vaatimukset
 
-- Markkinointitekstiehdotustoiminto on otettu käyttöön ja aktivoitu ympäristössä. Tämän toiminnon tekee tavallisesti ylläpitäjä. Lisätietoja on kohdassa [Määritä Copilot ja tekoälyominaisuudet](enable-ai.md).
+- Markkinointitekstiehdotustoiminto on aktivoitu ympäristössä. Tämän toiminnon tekee tavallisesti ylläpitäjä. Lisätietoja on kohdassa [Määritä Copilot ja tekoälyominaisuudet](enable-ai.md).
 - Käytät jotakin niistä kielistä, joita markkinointitekstiehdotukset tällä hetkellä tukevat.
 
   [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
@@ -38,7 +38,7 @@ Copilot on suunniteltu säästämään sinua ja auttamaan luovan ja mukaansatemp
   Valitse oikeasta yläkulmasta **Asetukset**-kuvake ![Asetukset.](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") > **Omat asetukset** > **Kieli**. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md#language).
 - Tutustu [UKK:iin markkinointitekstiehdotuksia varten](faqs-marketing-text.md)  saadaksesi lisätietoja tekoälyn soveltamisesta.
 
-### <a name="create-first-draft-with-copilot"></a>Luo ensimmäinen luonnos Copilotin avulla
+### Luo ensimmäinen luonnos Copilotin avulla
 
 Lisää aiemmin luotuun nimikkeeseen markkinointitekstiä noudattamalla seuraavia vaiheita. Saat lisätietoja uuden nimikkeen luomisesta valitsemalla [Rekisteröi uudet nimikkeet](inventory-how-register-new-items.md).
 
@@ -48,28 +48,28 @@ Lisää aiemmin luotuun nimikkeeseen markkinointitekstiä noudattamalla seuraavi
 
    - Kaksoisnapsauta nimikettä tai valitse sen arvo kohdassa **Nro**-sarakkeessa .
 
+1. Nimikkeen kortissa on kaksi tapaa, joilla voit aloittaa markkinointitekstin kirjoittamisen avustajan avulla: **Markkinointiteksti**-tietoruudusta tai käyttämällä **Markkinointiteksti**-toimintoa. Nämä menetelmät esitetään seuraavassa nimikekortin kaaviossa.  
+
    [![Näyttää nimikkeen kortin, jossa on markkinointitekstiruutu](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
 
-2. Voit aloittaa markkinointitekstin kirjoittamisen Copilotissa nimikkeen kortista kahdella eri tavalla. Tee jompikumpi seuraavista:
+   Voit luoda nimikkeen ensimmäisen luonnoksen tekemällä jonkin seuraavista vaiheista:
 
    - Valitse **Teee luonnos Copilotin avulla** sivun oikeassa reunassa olevan tietoruudun **markkinointiteksti**-ruudussa. 
-   
-     Copilot aloittaa markkinointitekstin laatimisen. 
+
+     Copilot aloittaa markkinointitekstin laatimisen.
 
    - Valitse sivun yläosassa **Markkinointiteksti**-toiminto ja valitse **Muokkaa markkinointitekstiä** -ikkunassa **Tee luonnos Copilotin avulla**.  Näyttöön tulee **Tee luonnos markkinointitekstistä Copilotin avulla** -ikkuna ja se sisältää nimikkeen kaikki käytettävissä olevat määritteet.
-   
-     ![Näyttää muokkaa markkinointitekstiä -ikkuna](media/marketing-text-copilot-attributes.svg)
+1. Valitse määritteet, joille haluat Copilotin perusehdotuksia, ja valitse sitten **Luo**. Voit muuttaa valittuja määritteitä ja muita vaihtoehtoja myöhemmin. Copilot aloittaa markkinointitekstin laatimisen. 
 
-     Valitse määritteet, joille haluat Copilotin perusehdotuksia, ja valitse sitten **Luo**. Voit muuttaa valittuja määritteitä ja muita vaihtoehtoja myöhemmin. Copilot aloittaa markkinointitekstin laatimisen. 
-     
-3. Kun Copilot on saanut luonnoksen valmiiksi, teksti näkyy Copilot-editorin ikkunassa tarkistettavaksi ja muokattavaksi. 
+   ![Näyttää muokkaa markkinointitekstiä -ikkuna](media/marketing-text-copilot-attributes.svg)
+
+1. Kun Copilot on saanut luonnoksen valmiiksi, teksti näkyy Copilot-editorin ikkunassa tarkistettavaksi ja muokattavaksi.
 
    [![Näyttää Luo Copilotilla -ikkunat](media/create-with-copilot-window.svg)](media/create-with-copilot-window.svg#lightbox)
 
    Voit nyt saada lisää ehdotuksia, yrittää parantaa saamiasi ehdotuksia, muokata tekstiä, ja enemmän. Siirry [Tarkista, Muokkaa ja Tallenna](#review-edit-and-save-text) -kohtaan lisätietoja varten.
 
-
-### <a name="review-edit-and-save-text"></a>Tarkista, muokkaa ja tallenna teksti
+### Tarkista, muokkaa ja tallenna teksti
 
 Kun olet saanut ensimmäisen luonnoksen, sinun täytyy tarkistaa se ja tehdä tekstiin muutoksia, jotta saat sen valmiiksi julkaistavaksi. Tämä työ tehdään Copilot-editorilla, jonka avulla voit saada lisää ehdotuksia, muuttaa asetuksia vaikuttaaksesi ehdotuksiin ja manuaalisesti tehdä muutoksia ja muokata tekstiä.
 
@@ -92,7 +92,7 @@ Viimeistele ja tallenna markkinointiteksti seuraavien ohjeiden avulla.
    - Jos haluat tallentaa tekstin, valitse **Säilytä se**. 
    - Jos et halua tallentaa, valitse hylkää-painike (roska-astia) ![Näyttää roska-astiakuvakkeen kaikkien pankkitilin täsmäytystä koskevien Copilot-ehdotusten poistamiseksi](media/copilot-delete-trash-can.png).
 
-### <a name="improve-and-tailor-text-suggestions"></a>Tekstiehdotusten parantaminen ja mukauttaminen
+### Tekstiehdotusten parantaminen ja mukauttaminen
 
 Voit parantaa tekstiehdotuksia ja nipistää niitä henkilökohtaisten tai yrityksen mieltymysten mukaisiksi muutamalla toimenpiteellä.
 
@@ -115,11 +115,11 @@ Voit parantaa tekstiehdotuksia ja nipistää niitä henkilökohtaisten tai yrity
 
    Copilot etsii luokkaan liittyviä sanoja ja lauseita ja työstää niitä ehdotettuun tekstiin.
 
-### <a name="working-with-multiple-languages"></a>Monikielinen työskentely
+### Monikielinen työskentely 
 
 Teksti luodaan aina käyttäjän [asetuksissasi](ui-change-basic-settings.md#language) määritetyllä kielellä. Jos organisaatiosi toimii ja syöttää tietoja Business Centraliin eri kielellä tai jos Business Central on yhdistetty verkkokauppaasi, kuten  Shopifyhin, tämä saattaa johtaa sisällön julkaisemiseen, joka ei vastaa samanlaista markkinointisisältöä. .
 
-## <a name="create-text-from-scratch"></a>Luo teksti tyhjästä
+## Luo teksti tyhjästä
 
 1. Avaa Business Centralissa nimike, jota haluat muokata seuraavalla tavalla:
 
@@ -133,7 +133,7 @@ Teksti luodaan aina käyttäjän [asetuksissasi](ui-change-basic-settings.md#lan
 3. Tee muutokset tekstiin suoraan **markkinointiteksti**-ruudussa. Käytä ruudun alaosassa olevaa työkalupalkkia, kun haluat muotoilla ja tyylitellä tekstiä, lisätä linkkejä ja paljon muuta.
 4. Valitse **OK**, kun olet valmis tallentamaan tekstin.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Markkinointitekstiehdotusten yleiskatsaus](ai-overview.md)  
 [Copilot- ja tekoälyominaisuuksien vianmääritys](ai-copilot-troubleshooting.md)  

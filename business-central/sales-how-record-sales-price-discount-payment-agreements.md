@@ -35,7 +35,7 @@ Perushintamallin käyttöä varten on määritettävä vain nimikkeen tai resurs
 * Vähimmäismäärä
 * Päivämäärät, jotka määrittävät ajanjakson, jolla hinnat ovat voimassa.
 
-Sen jälkeen kun erikoishinnat on määritetty, [!INCLUDE[prod_short](includes/prod_short.md)] voi laskea parhaat hinnat myynti- ja ostoasiakirjoille sekä työ- ja nimikeasiakirjojen riveille. Lisätietoja on kohdassa [Parhaan hinnan laskenta](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
+Sen jälkeen kun erikoishinnat on määritetty, [!INCLUDE[prod_short](includes/prod_short.md)] voi laskea parhaat hinnat myynti- ja ostoasiakirjoille sekä projekti- ja nimikeasiakirjojen riveille. Lisätietoja on kohdassa [Parhaan hinnan laskenta](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
 Voit määrittää seuraavat kaksi myyntialennustyyppiä:
 
@@ -223,7 +223,7 @@ Jos haluat päivittää monien nimikkeiden hinnat, sinun täytyy luoda uusi hinn
 
 ## Parhaan hinnan laskenta
 
-Kun olet tallentanut erikoishinnat ja rivialennukset myynneille ja ostoille, [!INCLUDE[prod_short](includes/prod_short.md)] laskee parhaan hinnan myynti- ja ostotositteisiin sekä työ- ja nimikepäiväkirjariveihin.
+Kun olet tallentanut erikoishinnat ja rivialennukset myynneille ja ostoille, [!INCLUDE[prod_short](includes/prod_short.md)] laskee parhaan hinnan myynti- ja ostotositteisiin sekä projekti- ja nimikepäiväkirjariveihin.
 
 Paras hinta on alin hinta, jolla on suurin sallittu rivialennus tiettynä päivänä. [!INCLUDE[prod_short](includes/prod_short.md)] laskee parhaat hinnat, kun se lisää yksikköhinnat ja rivialennusprosentit asiakirjan ja päiväkirjan riveille.
 

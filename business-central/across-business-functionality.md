@@ -25,7 +25,7 @@ ms.service: dynamics-365-business-central
 |Myyntiprosessien ja -tietojen, kuten tarjousten, tilausten, palautusten ja asiakastilien, hallinta sekä suoratoimitukset.|[Myynti](sales-manage-sales.md)|
 |Ostoprosessien ja tietojen, kuten laskujen, tilausten, palautusten ja toimittajatilien hallinta sekä nimikkeiden osto myyntiasiakirjoista. |[Osto](purchasing-manage-purchasing.md)|
 |Uuden varaston tai palvelutyypin nimikkeiden rekisteröinti, nimikkeiden luokittelu haun helpottamiseksi, varastotasojen muuttaminen ja yleisten varaston arvostustehtävien suorittaminen.|[Varasto](inventory-manage-inventory.md)|
-|Projektin töiden luonti ja resurssien ajoittaminen, projektibudjettien hallinta, etenemisen seuranta sekä koneiden ja työntekijöiden työtuntien seuranta.|[Projektinhallinta](projects-manage-projects.md)|
+|Projektien luonti ja resurssien ajoittaminen projekteille, projektibudjettien hallinta, etenemisen seuranta sekä koneiden ja työntekijöiden työtuntien seuranta.|[Projektinhallinta](projects-manage-projects.md)|
 |Järjestä käyttöomaisuutta, varmista oikeat jaksottaiset poistot ja seuraa kunnossapitokustannuksia.|[Käyttöomaisuus](fa-manage.md)|
 |Myyntitoimintojen hallinta ja tuki sekä vuorovaikutuksen keskittäminen ensisijaisiin asiakkaisiin ja kontakteihin.|[Kontaktienhallinta](marketing-relationship-management.md)|
 |Tarkkojen työtekijätietojen tallentaminen ja poissaolojen rekisteröinti analysointia varten. |[Henkilöstöhallinto](hr-manage-human-resources.md)|

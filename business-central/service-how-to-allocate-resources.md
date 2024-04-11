@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ---
 
 # Resurssien kohdistaminen
-Huollon toimittavat henkilöt ovat huoltohallinnon tärkein elementti. Voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in määrittämään henkilöt heille soveltuviin projekteihin. Toimeksiannot voivat perustua henkilön tai huollon sijainnin mukaisiin huoltoalueisiin. Lisäksi resurssit voi ryhmitellä yhteen huoltopyyntöihin vastattaessa. Lisätietoja on kohdassa [Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md).
+Huollon toimittavat henkilöt ovat huoltohallinnon tärkein elementti. [!INCLUDE[prod_short](includes/prod_short.md)] voidaan määrittää määrittämään henkilöt heille soveltuviin projekteihin. Toimeksiannot voivat perustua henkilön tai huollon sijainnin mukaisiin huoltoalueisiin. Lisäksi resurssit voi ryhmitellä yhteen huoltopyyntöihin vastattaessa. Lisätietoja on kohdassa [Resurssien kohdistamisen määrittäminen](service-how-setup-resource-allocation.md).
 
 Huoltonimikkeille kohdistetaan resursseja, esimerkiksi teknikoita, käyttämällä **Lähetystaulukko**, tai huoltotilauksesta. Voit kohdistaa resurssit niiden saatavuuden mukaan suorittamaan tilausten tai tarjousten huoltotehtäviä.
 

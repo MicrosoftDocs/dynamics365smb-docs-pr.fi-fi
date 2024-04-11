@@ -1,11 +1,11 @@
 ---
-title: 'Toimintaohje: erikoistilausten luominen'
+title: Erikoistilausten luominen
 description: 'Tietoja siitä, miten erikoistilauksen voi luoda tietylle luettelonimikkeelle, joka toimitetaan tietylle asiakkaalle.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/23/2021
+ms.date: 02/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -24,11 +24,11 @@ Ennen kuin tätä ominaisuutta voi käyttää, tilaukselle tarpeelliset asiakas-
 3.  Täytä myyntirivi **Rivit**-pikavälilehdessä. Valitse **Ostamisen koodi** -kentässä ostokoodi, jonka **Erikoistilaus**-kenttä on valittuna.
 
     Luo seuraavaksi ostotilaus hankintalistasta.  
-4. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hankintalista** ja valitse sitten liittyvä linkki.  
+4. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hankintalistat** ja valitse sitten liittyvä linkki.  
 5. Valitse ensin **Erikoistilaus**-toiminto ja sitten **Hae myyntitilaukset** -toiminto.  
 6.  Näytä **Hae myyntitilaukset** -sivulla tulokset, joissa **Asiakirjan nro.** on myyntitilauksen numero. Valitse **OK**-painike. Ohjelma luo nimikkeelle hankintalistan rivin.  
 7.  Valitse hankintalistarivin  **Toimenpideviesti**-kentässä **Uusi**.  
-8.  Valitse **Hankintalista**-sivulla **Toteuta toimenpideviesti** -toiminto. **Toteuta toim.pideviesti - hank** -sivu avautuu. Valitse **OK**-painike.  
+8.  Valitse **Hankintalistat**-sivulla **Toteuta toimenpideviesti** -toiminto. **Toteuta toim.pideviesti - hank** -sivu avautuu. Valitse **OK**-painike.  
 
     Näyttöön tulee ikkuna, jossa ilmoitetaan, että ostotilaukset on luotu. Valitse **OK**-painike.  
 

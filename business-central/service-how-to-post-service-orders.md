@@ -70,7 +70,7 @@ Seuraavassa ohjeessa neuvotaan, miten kirjataan nimikkeet, resurssitunnit ja/tai
 4. Etsi tarvittavat tapahtumat ja määritä **Laskutettava määrä** -kentässä määrät, joiden kulutuksen kirjaat. Määrä ei voi olla suurempi kuin jo toimitettu määrä ja jäljellä oleva määrä, mutta jota ei ole laskutettu tämän toimituksen osalaskutuksen jälkeen.  
 
     > [!NOTE]  
-    >  Jos haluat ohjelman rekisteröivän kulutuksen Projektit-alueelle, täytä huoltorivin **Projektinro**-, **Projektitehtävänro**- ja **Projektin rivityyppi** -kentän arvot.  
+    >  Kulutus projektiin nähden rekisteröidään täyttämällä huoltorivin **Projektinro**-, **Projektitehtävänro**- ja **Projektin rivityyppi** -kentät.  
 
 5. Valitse ensin kirjattavat rivit ja sitten **Kirjaa**-toiminto. Valitse avautuvalla sivulla **Lähetä ja kuluta**.  
 

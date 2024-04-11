@@ -80,7 +80,7 @@ Jotta Microsoft suojasi huollon ja sen asiakkaat, lokiin kirjaamista ja tarkaste
 
 Markkinointitekstiehdotusten ominaisuus kerää Business Centralin minimitiedot palvelun tarjoamiseksi. Lisätietoja on kohdassa [Dynamics 365:n käyttöehdot Azure OpenAI -pohjaisille ominaisuuksille](https://go.microsoft.com/fwlink/?linkid=2236010).
 
-Ominaisuus kerää tietoja myös palautekäyttäjiltä, jotka voivat käyttää **Copilot**-sivun yläosassa olevia tykkään (peukalo ylös)- tai en tykkää (peukalo alas) -kuvakkeita. Tiedot ovat anonyymejä ja sisältävät valinnan tykkää tai ei tykkää, ei-tykkäämisen syyn, jos se on annettu, ja Copilot-ominaisuuden, jota palaute koskee. Käytämme näitä tietoja ominaisuuden laadun arviointiin ja parantamiseen.
+Ominaisuus kerää tietoja myös palautekäyttäjiltä, jotka voivat käyttää **Copilot**-sivun yläosassa olevia tykkään (peukalo ylös)- tai en tykkää (peukalo alas) -kuvakkeita. Tiedot ovat anonyymeja ja sisältävät valinnan tykkää tai ei tykkää, ei-tykkäämisen syyn, jos se on annettu, ja Copilot-ominaisuuden, jota palaute koskee. Käytämme näitä tietoja ominaisuuden laadun arviointiin ja parantamiseen.
 
 ## Mitkä ovat [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] -ohjelman rajoitukset? Miten käyttäjät voivat minimoida [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] -ohjelman rajoitukset, kun he käyttävät järjestelmää?
 
@@ -88,7 +88,6 @@ Ominaisuus kerää tietoja myös palautekäyttäjiltä, jotka voivat käyttää 
 - [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
 
   Epätarkkoja vastauksia saatetaan palauttaa, kun käyttäjät ovat vuorovaikutuksessa järjestelmän kanssa muilla kuin tuetuilla kielillä. Myös virheellinen teksti voi syntyä, kun käyttäjän kieli ja tietokannan perustietokieli [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa eivät ole samoja.
-
 
 ## Mitkä operatiiviset tekijät ja asetukset mahdollistavat järjestelmän tehokkaan ja vastuullisen käytön?
 

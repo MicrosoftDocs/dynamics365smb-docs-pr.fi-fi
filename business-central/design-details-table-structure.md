@@ -10,10 +10,12 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Rakennetiedot: taulukkorakenne
+
 Dimensiotapahtumien tallennuksen ja kirjauksen ymmärtäminen edellyttää taulukkorakenteen ymmärtämistä.  
 
 ## Taulukko 480, Dimensioyhdistelmän tapahtuma  
-Tätä taulukkoa ei voi muuttaa. Kun tiedot on kirjoitettu taulukkoon, et voi poistaa tai muokata niitä.
+
+Tätä taulukkoa ei voi muuttaa. Kun tiedot on kirjoitettu taulukkoon, niitä ei voi poistaa eikä muokata.
 
 |Kentän nro|Kentän nimi|Tietotyyppi|Kommentti|  
 |---------------|----------------|---------------|-------------|  
@@ -25,7 +27,7 @@ Tätä taulukkoa ei voi muuttaa. Kun tiedot on kirjoitettu taulukkoon, et voi po
 |6|**Dimensioarvon nimi**|Teksti 30|CalcField. Taulukon 349 haku.|  
 
 ## Taulukko 481, Dimensioyhdistelmän puusolmu  
-Tätä taulukkoa ei voi muuttaa. Sitä käytetään hakuun dimensioyhdistelmässä. Jos dimensioyhdistelmää ei löydy, tällöin luodaan uusi yhdistelmä.  
+Tätä taulukkoa ei voi muuttaa. Sitä käytetään hakuun dimensioyhdistelmässä. Jos dimensioyhdistelmää ei löydy, uusi yhdistelmä luodaan.  
 
 |Kentän nro|Kentän nimi|Tietotyyppi|Kommentti|  
 |---------------|----------------|---------------|-------------|  
@@ -71,7 +73,7 @@ Muiden taulukon dimensiokenttien lisäksi nämä kentät ovat tärkeitä.
 |12|**Dimensioarvon tunnus**|Kokonaisluku|AutoIncrement. Käytetään viitteinä taulukossa 480 ja 481.|  
 
 ### Taulukot, jotka sisältävät Dimensionasetustunnus-kentän
- **Dimensioasetustunnus**-kenttä (480) on seuraavissa taulukoissa. Kirjattua tietoa sisältävien taulukoiden osalta kenttä tarjoaa vain ei muokattavissa olevan näkymän niistä dimensioista, joilla on Poraudu-merkintä. Niiden taulukoiden kohdalla, jota tallentavat työasiakirjoja, kenttä on muokattavissa. Puskuritaulukoissa, joita käytetään sisäisesti, ei tarvita muokattava- tai ei-muokattava-kykyä.  
+ **Dimensioasetustunnus**-kenttä (480) on seuraavissa taulukoissa. Kirjattua tietoa sisältävien taulukoiden osalta kenttä tarjoaa vain ei muokattavissa olevan näkymän niistä dimensioista, joilla on Poraudu-merkintä. Niiden taulukoiden kohdalla, jota tallentavat työasiakirjoja, kenttä on muokattavissa. Puskuritaulukoiden, joita käytetään sisäisesti, ei tarvitse olla muokattavissa tai ei-muokattavissa.  
 
  Kenttä 480 ei ole muokattavissa seuraavissa taulukoissa.  
 
@@ -140,8 +142,8 @@ Kenttä 480 on muokattavissa seuraavissa taulukoissa.
 |89|**Tuoterakenteen päiväkirjan rivi**|  
 |96|**KP-budjetin tapahtuma**|  
 |207|**Resurssipäiväkirjan rivi**|  
-|210|**Projektipäiväkirjan rivi**|  
-|221|**Yleisen päiväkirjan kohdistus**|  
+|210|**Projektin kirjauskansiorivi**|  
+|221|**Yleisen pvk:n kohdistus**|  
 |246|**Hankintarivi**|  
 |295|**Muistutuksen otsikko**|  
 |302|**Viivästyskululaskun otsikko**|  

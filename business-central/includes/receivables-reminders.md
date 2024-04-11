@@ -1,11 +1,14 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 02/09/2022
+ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 Muistutusten avulla voit muistuttaa asiakkaita erääntyneistä summista. Niiden avulla voit myös laskea viivästyskuluja, kuten korkoja tai lisämaksuja, ja sisällyttää ne muistutukseen.
+
+> [!TIP]
+> Vaikka tässä artikkelissa olevat tiedot ovat oikeita, siinä kuvaillaan lähinnä manuaalista prosessia. [!INCLUDE [prod_short](prod_short.md)]issa on työkaluja, joilla voidaan automatisoida muistutusten luonti-, julkaisu- ja lähetysprosessit. Näiden vaiheiden automatisointi voi säästää merkittävästi perintään käytettyä aikaa. Lisätietoja on kohdassa [Perinnän muistutusten automatisointi](../finance-automate-reminders.md).
 
 Ennen kuin voit luoda muistutuksia, sinun on määritettävä muistutusehdot ja määritettävä ne asiakkaille. Lisätietoja on ohjeaiheessa [Muistutusehtojen ja -tasojen määrittäminen](../finance-setup-reminders.md). [!INCLUDE [reminder-terms](reminder-terms.md)] – **Viivästyskuluehdot-sivu määrittää**, lasketaanko muistutukseen korot.  
 

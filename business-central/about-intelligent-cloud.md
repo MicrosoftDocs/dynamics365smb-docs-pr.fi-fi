@@ -1,33 +1,33 @@
 ---
-title: Älykkäät tiedot ja pilvisiirto
+title: Älykkäät merkitykselliset tiedot ja pilvipalveluihin siirtyminen (vain paikallinen)
 description: 'Business Central onlinessa voi käyttää muita verkkopalveluja ja saada älykkäitä esimerkiksi Azuren tekoälyyn perustuvia tietoja. Jatka lukemista, jos harkitset siirtymistä paikallisesta ympäristöstä pilvipalveluihin.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.reviewer: bholtorf
 ms. search.keywords: 'cloud, migrate, insights'
-ms.search.form: 4010
-ms.date: 04/12/2021
+ms.search.form: '4010,'
+ms.date: 03/15/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# [!INCLUDE[prod_short](includes/prod_short.md)] Onlinen älykkäät tiedot
+# Älykkäät merkitykselliset tiedot ja pilvipalveluihin siirtyminen (vain paikallinen)
 
-[!INCLUDE[prod_short](includes/prod_short.md)] tuotteen verkkoversion käyttäjänä, sinulla on täysi käyttöoikeus skenaarioihin, jotka perustuvat älykkääseen pilveen, kuten koneoppimiseen perustuviin suorituskyvyn mittareihin tai kun tarkastalet tietoja Power BIn kautta.   
+Jos käytössä on [!INCLUDE[prod_short](includes/prod_short.md)] Online, älykkääseen pilveen perustuvat skenaariot ovat kokonaisuudessaan käytettävissä. Esimerkkejä ovat tunnusluvut, jotka perustuvat koneoppimiseen, tai tietojen tarkasteleminen Power BI:ssa.  
 
-Jos käytössä on kuitenkin paikallinen [!INCLUDE [prod_short](includes/prod_short.md)], käytössä ei ole samoja merkityksellisiä tietoja. Jos haluat hyödyntää verkkoskenaarioita, sinun on siirryttävä [!INCLUDE [prod_short](includes/prod_short.md)] onlineen. Lisätietoja on kohdassa [Paikallisten tietojen siirtäminen Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) -ohjelmaan [!INCLUDE[prod_short](includes/prod_short.md)]-hallintasisällössä.  
+Jos käytössä on kuitenkin paikallinen [!INCLUDE [prod_short](includes/prod_short.md)], samat merkitykselliset tiedot eivät ole käytettävissä. Jos haluat hyödyntää verkkoskenaarioita, sinun on siirryttävä [!INCLUDE [prod_short](includes/prod_short.md)] onlineen. Lisätietoja on kohdassa [Paikallisten tietojen siirtäminen Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) -ohjelmaan [!INCLUDE[prod_short](includes/prod_short.md)]-hallintasisällössä.  
 
 ## [!INCLUDE[prod_short](includes/prod_short.md)] Onlinen merkityksellisten tietojen näyttäminen
 
-[!INCLUDE[prod_short](includes/prod_short.md)] onlinessa **Älykkään pilven tiedot** -sivulla on seuraavat neljä kohtaa, jotka ovat tärkeitä useimmissa yrityksissä:
+Paikallisessa ympäristössä, josta tiedot siirrettiin [!INCLUDE[prod_short](includes/prod_short.md)] Onlineen, verkkoympäristön **Älykkään pilven tiedot** -sivulla on neljä keskeistä kiinnostuksenkohdetta useimmille yrityksille:
 
 - Käteisvarojen saatavuus
 - Myynnin kannattavuus
 - Nettotuotto
 - Varaston arvo
 
-KPI-kaavioiden vieressä on tietoja mahdollisista ongelma-alueista, kuten erääntyneistä maksuista. Valitse tiedot, joita haluat tarkastella.  
+KPI-kaavioiden vieressä on tietoja mahdollisista ongelma-alueista, kuten erääntyneistä maksuista. Valitse tarkasteltavat tiedot.  
 
 > [!div class="mx-imgBorder"]
 > ![Älykkään pilven tiedot.](media/across-intelligent-cloud/intelligentcloudApril19.png "Näyttää Älykkäät pilvipalvelun Tiedot -sivun Business Central onlinessa")

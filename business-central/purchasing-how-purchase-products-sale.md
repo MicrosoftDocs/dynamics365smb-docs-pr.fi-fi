@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'supply planning, sales demand, replenish'
 ms.search.form: '50, 51, 56, 9308'
-ms.date: 04/01/2021
+ms.date: 03/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -60,8 +60,8 @@ Voit luoda yhden ostolaskun yhdelle tai usealle myyntiasiakirjan riville valitse
 
 ## Katso myös
 [Osto](purchasing-manage-purchasing.md)  
-[Ostojen kirjaus](purchasing-how-record-purchases.md)  
-[Myynnin laskutus](sales-how-invoice-sales.md)  
+[Ostojen kirjaaminen](purchasing-how-record-purchases.md)  
+[Lasku – myynti](sales-how-invoice-sales.md)  
 [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

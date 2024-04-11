@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.service: dynamics-365-business-central
 ms.search.keywords: 'find, search, Tell Me'
 ms.search.form: TellMe
-ms.date: 09/21/2023
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.custom: bap-template
@@ -41,7 +41,7 @@ Voit käyttää Kerro, mitä haluat tehdä -toimintoa paikallisesti verkkoasiaka
 
 ## Onko Kerro, mitä haluat tehdä -toiminto käytettävissä kaikissa laitemuodoissa?
 
-Kyllä. Se otettiin käyttöön puhelimissa ja tableteissa Business Central 2023 -julkaisuaallossa 2, mutta se on otettava käyttöön [ominaisuuksien hallinnassa](/dynamics365/business-central/dev-itpro/administration/feature-management) käyttämällä **Ominaisuus: Etsi sivuja ja tietoja mobiilisovelluksella** -kytkintä. 
+Kyllä. Se otettiin käyttöön puhelimissa ja tableteissa Business Centralin vuoden 2023 2. julkaisuaallossa. Vuoden 2023 2. julkaisuaallossa se on otettava käyttöön [ominaisuuksien hallinnassa](/dynamics365/business-central/dev-itpro/administration/feature-management) **Ominaisuus: Etsi sivuja ja tietoja mobiilisovelluksella** -kytkimellä. Vuoden 2024 1. julkaisuaallosta alkaen se on aina käyttöönotettuna.
 
 <!-- removed in v20 because of Help pane
 ### Are the documentation results available in any language?

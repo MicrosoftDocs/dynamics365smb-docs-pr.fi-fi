@@ -1,14 +1,14 @@
 ---
 title: Lähetä muistutuksia avoimista saldoista
-description: 'Tutustu siihen, miten asiakkaalle lähetetään muistutus erääntyneestä maksusta.  miten maksuun lisätään myöhästymismaksu.'
+description: 'Tutustu siihen, miten asiakkaalle lähetetään muistutus erääntyneestä maksusta.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.search.form: '436, 437, 442, 431, 432, 434'
-ms.date: 02/09/2022
+ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Avoimia saldoja koskevien muistutusten lähettäminen
 

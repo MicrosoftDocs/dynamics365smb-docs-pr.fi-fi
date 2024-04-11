@@ -22,7 +22,6 @@ Yleistietoja suosituimmista pikanäppäimistä on kohdassa [Pikanäppäimet (vai
 > [ ![PDF-tiedoston kuvake.](media/keyboard_shortcut_inline.png) ](media/keyboard-shortcuts-2023.pdf "PDF-tiedoston avaava kuvake")
 
 
-
 ## Yleiskuvaus
 
 Pikanäppäimet ovat helppokäyttötoimintoja. Ne auttavat ja tehostavat sivun eri alueiden ja elementtien välillä siirtymistä. Useimmat selaimet tukevat pikanäppäimiä, joskin niiden toiminta voi vaihdella jonkin verran eri selaimissa.
@@ -194,12 +193,12 @@ Päivämääräkenttää määrittäessäsi voit syöttää päivämäärän man
 |--------------------------------|----------|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd>|Avaa kalenteri, jos se on suljettu. **Huomautus**: ei toimi, jos päivämääräkenttä on ruudukossa, jossa <kbd>Ctrl</kbd>+<kbd>Home</kbd> siirtää ensimmäiselle riville.|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Home</kbd>)|Siirry nykyisen kuukauden tähän päivään.|
-|<kbd>Ctrl</kbd>+<kbd>vasen nuoli</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>vasen nuoli</kbd>)|Siirry edelliseen päivään.|
-|<kbd>Ctrl</kbd>+<kbd>oikea nuoli</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>oikea nuoli</kbd>)|Siirry seuraavaan päivään.|
-|<kbd>Ctrl</kbd>+<kbd>ylänuoli</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>ylänuoli</kbd>)|Siirry edellisen viikon samaan viikonpäivään.|
-|<kbd>Ctrl</kbd>+<kbd>alanuoli</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>alanuoli</kbd>)|Siirry seuraavan viikon samaan viikonpäivään.|
+|<kbd>Vasen nuoli</kbd><br /><br />(<kbd>Vasen nuoli</kbd>)|Siirry edelliseen päivään.|
+|<kbd>Oikea nuoli</kbd><br /><br />(<kbd>Oikea nuoli</kbd>)|Siirry seuraavaan päivään.|
+|<kbd>Ylänuoli</kbd><br /><br />(<kbd>Ylänuoli</kbd>)|Siirry edellisen viikon samaan viikonpäivään.|
+|<kbd>Nuoli alas</kbd><br /><br />(<kbd>Nuoli alas</kbd>)|Siirry seuraavan viikon samaan viikonpäivään.|
 |<kbd>Syötä</kbd>|Valitse kohdistettu päivä.|
-|<kbd>Ctrl</kbd>+<kbd>End</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>End</kbd>)|Sulje kalenteri ja poista nykyinen päivämäärä.|
+|<kbd>End</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>End</kbd>)|Sulje kalenteri ja poista nykyinen päivämäärä.|
 |<kbd>Esc</kbd>|Sulje kalenteri ilman valintaa, säilytä nykyinen päivämäärä.|
 |<kbd>Sivu alas</kbd>|Siirry seuraavaan kuukauteen.|
 |<kbd>Sivu ylös</kbd>|Siirry edelliseen kuukauteen.|  

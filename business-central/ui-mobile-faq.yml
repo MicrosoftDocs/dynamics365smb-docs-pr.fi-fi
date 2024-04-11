@@ -6,7 +6,7 @@ metadata:
   ms.topic: faq
   ms.service: dynamics-365-business-central
   ms.search.keywords: 'phone, tablet'
-  ms.date: 09/21/2023
+  ms.date: 03/18/2024
   ms.author: bholtorf
   ms.reviewer: jswymer
   ms.custom: bap-template
@@ -36,9 +36,7 @@ sections:
           | Toimintoryhmät | Vain **Aloitus**-toimintoryhmä näkyy. | Vain **Aloitus**-toimintoryhmä näkyy. | **Aloitus**- ja **Lähetetyt asiakirjat** `Sales Order Processor` -roolikeskuksessa. |  |
           | Useiden tietueiden valitseminen luetteloista | Ei käytettävissä. | Ei käytettävissä. | <kbd>Ctrl</kbd>+<kbd>A</kbd> tai <kbd>Ctrl</kbd>+<kbd>Click</kbd> riveillä luettelossa selaimessa. |
           | Toiminnot toimintopalkissa | Vain korostetut toiminnot näytetään. | Vain korostetut toiminnot näytetään. |  |
-          | Tietoruudut | Ei näytetä luettelosivuilla tai työkirjasivuilla. | Ei näytetä luettelosivuilla tai työkirjasivuilla. | `Customer`-luettelo `Small Business` -roolikeskuksessa. |
           | Lisäsuodattimet | Sarakekohtaista suodatusta ei ole käytettävissä. | Sarakekohtaista suodatusta ei ole käytettävissä. | `Customer`-luettelosivulla. |
-          | Kerro, mitä haluat tehdä | Sen on oltava käytössä [ominaisuuksien hallinnassa](/dynamics365/business-central/dev-itpro/administration/feature-management) käyttämällä kytkintä **Ominaisuus: Etsi sivuja ja tietoja mobiilisovelluksella**. Sovellustulosten **Hae Microsoft AppSourcesta** -osa ei ole käytettävissä. | Sama kuin tabletit | Siirry kohtaan [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md). |  |
           | Roolienhallinta | Ei käytettävissä vielä. | Ei käytettävissä vielä. | Siirry kohtaan [Sivujen etsiminen roolienhallinnan avulla](ui-role-explorer.md). |
           | Pikavälilehtien kentät | Luettelosivujen pikavälilehtien kentät eivät näy. Vain repeater-ohjausobjekti näkyy sivun sisältöalueessa. | Ei käytettävissä. |  |
           | Valitse koko luettelosta | Ei käytettävissä hakujen yhteydessä. Käyttäjät eivät voi käyttää hakusivun toimintoja, eivätkä he voi käyttää kaikkia tietueita. | Ei käytettävissä hakujen yhteydessä. Käyttäjät eivät voi käyttää hakusivun toimintoja, eivätkä he voi käyttää kaikkia tietueita. | `Item Card` -kohdassa, kun valitaan **Perusmittayksikkö**. |
@@ -46,7 +44,6 @@ sections:
           | Valinnat | Saatavilla. | Saatavilla sillä erotuksella, että kehittyneet ja yksinkertaiset valinnat käyttäytyvät samalla tavalla puhelimessa. Valinta ei tuo näyttöön korttia, näytä tietoruutuja tai mitään kenttäryhmiä. | Lue esimerkkejä `Customer Card` -sivulta. |
           | Matriisiohjausobjektit | Ei käytettävissä. | Ei käytettävissä. | Siirry esimerkkiin kohdassa `G/L Budget`. |
           | Tiedoston lataaminen | Saatavilla. Useaa tiedostoa ei voi ladata samaan aikaan. | Saatavilla. Useaa tiedostoa ei voi ladata samaan aikaan. | `Trial Balance` -raportti **Tulosta Exceliin** -valintaruudussa. |
-          | Työkirjan sivut | Saatavilla. | Ei käytettävissä; näyttöön tulee virhesanoma. | `Sales Price` -työkirja tai `Cash Flow` -työkirja. |
           | Luettelot | Saatavilla. | Käytettävissä sillä erotuksella, että nämä näkyvät tiiliasettelussa. | Asiakkaat- tai Myyntitilaukset-sivut. |
           | repeater-ohjausobjektien sisennys | Saatavilla. | Ei käytettävissä. repeater-ohjausobjekti hahmonnetaan tavalliseksi tasaiseksi tiiliasetteluksi. | Tilikartta- ja Yhteyshenkilöluettelo-sivut. |
           | Automaattinen syötteen kohdistus sivun ensimmäiseen muokattavaan kenttään | Ei käytettävissä. | Ei käytettävissä. | `Customer Card` -sivu.<BR /><BR />Kohdistus siirtyy selaimessa automaattisesti ensimmäiseen muokattavaan kenttään (esimerkiksi `Name`-kenttään), jolloin arvoa voi muuttaa heti.<BR /><BR />Tablet- ja puhelinsovelluksissa tämä kenttä ei ole kohdistuksessa. Sen sijaan sinun täytyy valita kenttä manuaalisesti ensin, jotta voit tehdä muutoksia.|

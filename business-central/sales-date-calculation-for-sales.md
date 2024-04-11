@@ -1,15 +1,15 @@
 ---
-title: Myynnin toimituspäivämäärän laskenta
+title: Myynnin toimituspäivämäärän laskeminen
 description: 'Sovellus laskee automaattisesti päivämäärän, jolloin nimike on tilattava sen saamiseksi tietyn päivän varastoon ja poimittavaksi.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 09/22/2022
+ms.date: 03/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Myynnin toimituspäivämäärän laskenta
+# Myynnin toimituspäivämäärän laskeminen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] laskee automaattisesti varhaisimman mahdollisen päivämäärän, jolloin myyntitilausrivin nimike voidaan toimittaa.
 
@@ -30,7 +30,7 @@ Jos nimikkeet ovat poimittavissa lähetyspäivämääränä, myyntiprosessi voi 
 
 ## Varhaisimman mahdollisen toimituspäivämäärän laskeminen
 
-Jos et ole määrittänyt pyydettyä toimituspäivämäärää myyntitilausrivillä tai jos toimitus ei onnistu pyydettynä toimituspäivämääränä, ohjelma laskee varhaisimman päivämäärän, jolloin nimikkeet ovat saatavilla. Sen jälkeen ohjelma syöttää tämän päivämäärän rivin **Toimituspvm**-kenttään ja laskee päivämäärän, jolloin nimikkeet suunnitellaan lähetettävän, ja päivämäärän, jolloin ne toimitetaan asiakkaalle, seuraavien laskukaavojen mukaan:
+Jos pyydettyä toimituspäivämäärää ei ole määritetty myyntitilausrivillä tai jos toimitus ei onnistu pyydettynä toimituspäivämääränä, lasketaan varhaisin päivämäärän, jolloin nimikkeet ovat saatavilla. Tämä päivämäärä syötetään sitten rivin **Toimituspvm**-kenttään. Nimikkeille lasketaan seuraavilla kaavoilla suunniteltu lähetyspäivämäärä ja päivämäärä, jolloin ne toimitetaan asiakkaalle:
 
 - *Suunniteltu toimituspvm = lähtevä f.var. käsittelyaika + toimituspäivä*
 - *suunniteltu lähetyspvm + toimitusaika = suunniteltu toimituspvm*

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: client
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -33,7 +33,7 @@ Seuraava toimenpide perustuu asiakaskorttiin. Toimittajan ja kontaktin korttien 
 5. Valitse **Ohita**-valintaruutu jokaisessa sellaisessa kentässä, jossa haluat käyttää muuta kuin nykyistä arvo. **Vaihtoehtoinen arvo** -kentän arvo siirretään sitten nykyiseen tietueeseen, kun prosessi valmistuu.
 6. Kun olet valinnut säilytettävät tai ohitettavat arvot, valitse **Yhdistä**-toiminto.
 
-    Järjestelmä tarkistaa, aiheuttaako asiakkaan kaksoiskappaleen arvon yhdistäminen nykyiseen asiakkaaseen ristiriitoja. Ristiriitoja on, jos ainakin yhden perusavaimen kentän arvo on sama molemmissa asiakkaissa mutta kahden asiakkaan **Ei**-kentän arvo on eri.
+    Järjestelmä tarkistaa, aiheuttaako asiakkaan kaksoiskappaleen arvon yhdistäminen nykyiseen asiakkaaseen ristiriitoja. Ristiriita on, jos ainakin yhden perusavaimen kentän arvo on sama molemmissa asiakkaissa mutta kahden asiakkaan **Ei**-kentän arvo on eri.
 
 7. Jos ristiriitoja löytyy, valitse vahvistussanomassa **Kyllä**-painike.
 

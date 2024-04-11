@@ -16,7 +16,7 @@ Voit hakea online-karttapalvelusta karttoja, joissa näkyy osoite ja sijainti ta
 * Asiakaskortti
 * Toimittajan kortti
 * Resurssin kortti
-* Työkortti
+* Projektikortti
 * Pankkitilin kortti
 * Kontaktin kortti
 * Työntekijän kortti

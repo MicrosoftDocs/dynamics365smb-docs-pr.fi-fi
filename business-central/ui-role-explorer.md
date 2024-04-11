@@ -11,11 +11,11 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# Sivujen etsiminen roolienhallinnan avulla
+# Sivujen ja raporttien etsiminen roolienhallinnan avulla
 
-Saat yleiskuvan kaikista roolin käytössä olevista liiketoimintaominaisuuksista ja muiden roolien toiminnoista, jos siirryt yhden vaiheen eteenpäin. Seuraavassa dokumentaatiossa tätä ominaisuutta kutsutaan *Roolienhallinnaksi*.
+Saat yleiskuvan kaikista roolin käytössä olevista liiketoimintaominaisuuksista ja muiden roolien toiminnoista, jos siirryt yhden vaiheen eteenpäin. Tässä artikkelissa ominaisuutta kutsutaan *roolienhallinnaksi*.
 
-Jokainen roolienhallinnan elementti on sivun avaava toiminto. Niinpä voitkin siirtyä [!INCLUDE[prod_short](includes/prod_short.md)]issa roolienhallinnan avulla.
+Jokainen roolienhallinnan elementti on sivun tai raportin avaava toiminto. Niinpä voitkin siirtyä [!INCLUDE[prod_short](includes/prod_short.md)]issa roolienhallinnan avulla.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
@@ -23,14 +23,21 @@ Jokainen roolienhallinnan elementti on sivun avaava toiminto. Niinpä voitkin si
 
 Voit avata roolienhallinnan roolikeskuksesta ja kaikilta luettelosivuilta sekä **Kerro, mitä haluat tehdä** -ikkunasta.
 
-- Valitse Roolikeskuksessa tai millä tahansa luettelosivulla ![Valikko-painike.](media/ui_menu_button.png "Valikko-painike") -painike siirtymispalkin oikealla puolella tai paina näppäinyhdistelmä <kbd>Vaihto</kbd>+<kbd>F12</kbd>.
+- Valitse roolikeskuksessa tai millä tahansa luettelosivulla ![Valikko-painike.](media/ui_menu_button.png "Valikko-painike") -painike siirtymispalkin oikealla puolella tai paina näppäinyhdistelmä <kbd>Vaihto</kbd>+<kbd>F12</kbd>.
 - Valitse **Kerro, mitä haluat tehdä** -ikkunassa alareunassa oleva **tutustumistoiminto**.
 
 Kun avaat roolikeskuksen ensimmäisen kerran, siinä näkyvät useimpien roolisi käytettävissä olevien toimintojen linkit.
 
+## Raporttien näyttämiseen suodatetun roolienhallinnan avaaminen 
+
+Voit avata roolienhallinnan näkymässä, joka on suodatettu näyttämään roolikeskuksen ja kaikkien luettelosivujen sekä **Kerro, mitä haluat tehdä** -ikkunan raportit.
+
+- Valitse roolikeskuksessa tai luettelosivulla **Kaikki raportit** -linkin siirtymispalkin oikealla puolella.
+- Valitse **Kerro, mitä haluat tehdä** -ikkunan alareunassa **raporttien tutustumistoiminto**.
+
 ## Navigoi ominaisuuksia
 
-Sivujen avoimet toiminnot on järjestetty ominaisuuksien tai sovellusalueiden mukaan nimetyille solmuille. Jokainen solmu voidaan tiivistää tai laajentaa yksittäin, ja voit tiivistää/laajentaa kaikki solmut yhteen.
+Sivujen tai raporttien avoimet toiminnot on järjestetty ominaisuuksien tai sovellusalueiden mukaan nimetyille solmuille. Kukin solmu voidaan tiivistää tai laajentaa yksittäin taikka kaikki solmut yhdessä.
 
 - Jos haluat laajentaa tai supistaa yksittäisen solmun, valitse solmu. Tämä koskee ylimmän tason solmuja ja alisolmuja.
 - Jos haluat laajentaa tai kutistaa kaikki sivun ylätason solmut, mutta jättää alisolmut sellaisiksi kuin ne ovat, valitse ylhäällä **...** ja valitse sitten **Laajenna** tai **Tiivistä**.
@@ -38,14 +45,14 @@ Sivujen avoimet toiminnot on järjestetty ominaisuuksien tai sovellusalueiden mu
 
 ## Etsi ominaisuuksia
 
-Voit etsiä ominaisuuksia nopeasti valitsemalla **Etsi** ja kirjoittamalla sanan tai lauseen etsimääsi ominaisuutta varten. Roolikeskus tuo esiin mahdollisen vastaavan tekstin. Jos ominaisuus on piilossa tiivistetyn solmun näkymästä, tiivistetty solmu merkitään pisteellä. 
+Voit etsiä ominaisuuksia nopeasti valitsemalla **Etsi** ja kirjoittamalla sanan tai lauseen etsimääsi ominaisuutta varten. Roolikeskus tuo esiin mahdollisen vastaavan tekstin. Jos ominaisuus on piilossa tiivistetyssä solmussa, tiivistetty solmu merkitään pisteellä. 
 
 ## Tutki muita rooleja
 
-Jos haluat tutkia muita rooleja kuin omia rooleja, valitse **Tutki lisää rooleja**. Roolikeskus näyttää jokaisen roolin oman otsikon alla, ja siinä on linkit sen ominaisuuksiin. Voit sitten navigoida ja etsiä ominaisuuksia aivan kuten omassa roolissasi.
+Jos haluat tutkia muita rooleja kuin omia rooleja, valitse **Tutki lisää rooleja**. Roolikeskus näyttää jokaisen roolin oman otsikon alla, ja siinä on linkit sen ominaisuuksiin. Voit sitten etsiä ominaisuuksia ja siirtyä niihin oman roolin tavoin.
 
 > [!NOTE]
-> Näet vain roolit, jotka on määritetty näkymään roolinhallinnassa. Jos et näe roolia, jonka oletit näkeväsi, sitä ei todennäköisesti ole määritetty. Lisätietoja on kohdassa [Profiilien hallinta](admin-users-profiles-roles.md). 
+> Vain niitä rooleja voidaan käyttää, jotka on määritetty näkymään roolinhallinnassa. Jos rooli ei ole käytettävissä, sitä ei todennäköisesti ole määritetty nähtäväksi. Lisätietoja on kohdassa [Profiilien hallinta](admin-users-profiles-roles.md). 
 
 Kun tutustut muihin rooleihin, voit rajata etsintää myös roolikeskuksen yläosassa olevien **Raportti ja analyysi**- ja **Hallinta**-toimintojen avulla.
 
@@ -64,7 +71,7 @@ There a several actions along the top of the role explorer to help you locate fe
 |------|------|
 |**All**|Shows all features that are related to the role.|
 |**Find**|Lets you enter a word or phrase to quickly locate feature names that match.|
-|**Explore more roles**|All business features that are available for all roles including your own. When exploring all roles, the other actions work the same way, except for all roles shown. **NOTE:** You will only see roles that are set up to show in role explorer. For more information, see [Manage Profiles](admin-users-profiles-roles.md).  |
+|**Explore more roles**|All business features that are available for all roles including your own. When exploring all roles, the other actions work the same way, except for all roles shown. **NOTE:** You can only access roles that are set up to show in role explorer. For more information, see [Manage Profiles](admin-users-profiles-roles.md).  |
 |**Report & Analysis**|This action Shows only those features that are categorized as reports and analysis features.|
 |**Administration**|Shows only those features that are categorized as administration features.|
 
@@ -90,6 +97,7 @@ Sivujen avoimet toiminnot on järjestetty ominaisuuksien tai sovellusalueiden mu
   - Valitse oikeassa yläkulmassa **...** ja valitse sitten **Laajenna kaikki**- tai **Tiivistä kaikki** -toiminto.
 
 ## Katso myös
+
 [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)  
 [Profiilien hallinta](admin-users-profiles-roles.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

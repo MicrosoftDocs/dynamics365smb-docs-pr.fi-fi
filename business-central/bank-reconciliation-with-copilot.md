@@ -8,15 +8,17 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 10/25/2023
+ms.date: 03/27/2024
 ms.custom: bap-template
 ---
 
 # Pankkitilien täsmäyttäminen Copilotin avulla (esiversio)
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE[preview-banner](includes/preview-banner.md)]
 
 Tässä artikkelissa kerrotaan, miten pankkitilin täsmäytysavustaja auttaa pankkitapahtumien täsmäytyksessä Business Centralin tapahtumien kanssa.
+
+[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 ## Tietoja pankkitilin täsmäytysavustajasta
 
@@ -25,7 +27,7 @@ Pankkitilin täsmäytysavustaja on joukko tekoälyä käyttäviä ominaisuuksia,
 - Tapahtumien ja kirjanpitotietojen yhteensovittamisen parantaminen
 
    Saatat jo tuntea **Täsmäytä automaattisesti** -toiminnon **Pankkitilin täsmäytys** -sivulla, joka yhdistää automaattisesti useimmat pankkitapahtumat kirjapitomerkintöihin. Operaatiota kutsutaan *automaattiseksi täsmäytykseksi*. Vaikka automaattinen täsmäytys toimii hyvin, sen käyttämät algoritmit voivat joskus johtaa moniin täsmäyttämättömiin tapahtumiin. Copilot käyttää tekoälyteknologiaa, kun halutaan tarkastaa jäljellä olevat tapahtumat ja tunnistaa useampia vastaavuuksia päivämäärien, summien ja kuvausten perusteella. Jos asiakas esimerkiksi maksoi useita laskuja yhtenä kertakorvauksena, Copilot täsmäyttää yksittäisen tiliotteen rivin useiden laskutapahtumien kanssa.
-   
+
    Siirry kohtaan [Täsmäytä pankkitilit Copilotin avulla](#reconcile-bank-accounts-with-copilot).
 
 - Ehdotetut pääkirjanpitotilit
@@ -34,11 +36,9 @@ Pankkitilin täsmäytysavustaja on joukko tekoälyä käyttäviä ominaisuuksia,
   
    Siirry kohtaan [Siirrä täsmäyttämättömät pankkitilitapahtumat ehdotetuille kirjanpitotileille](#transfer-unmatched-bank-transactions-to-suggested-general-ledger-accounts).
 
-
-   
 ## Vaatimukset
 
-- Pankkitilin täsmäytysavustaja on käytössä ja aktivoitu. Järjestelmänvalvoja tekee tämän tehtävän. [Lisätietoja Copilotin ja tekoälyn ominaisuuksien käyttöönotosta](enable-ai.md).
+- Pankkitilin täsmäytysavustaja on aktivoitu. Järjestelmänvalvoja tekee tämän tehtävän. [Lisätietoja Copilotin ja tekoälyn ominaisuuksien määrittämisestä](enable-ai.md).
 - Business Centralin pankkitilit, jotka haluat täsmäyttää, on linkitetty online-pankkitiliin tai ne on määritetty pankin tiliotteen tuontimuodon avulla. 
 - Pankkitilien täsmäytys Business Centralissa on sinulle tuttua, kuten kohdassa [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md) on kuvattu. 
 

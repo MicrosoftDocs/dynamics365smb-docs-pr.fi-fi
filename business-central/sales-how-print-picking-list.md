@@ -5,11 +5,11 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/25/2021
+ms.date: 02/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Tulosta poimintaluettelo
+# Poimintaluettelon tulostaminen
 
 Voit tulostaa varaston poimintaluettelon suoraan myyntitilauksesta tai mistä tahansa muusta asiakirjasta, joka aloittaa tavaroiden lähettämisen.
 

@@ -21,8 +21,8 @@ Kun sijainti määritetään edellyttämään fyysisen varaston poiminnan ja toi
 
 Fyysisen varastoinnin poiminta-asiakirjaa ei voi luoda tyhjästä. Poiminnat ovat sellaisen työnkulun osa, jossa tilausta käsittelevä henkilö luo ne push-menetelmänä tai varastotyöntekijä luo ne pull-menetelmänä:
 
-- Push-menetelmässä käytetään **Luo poiminta** -toimintoa **Tuotantotilaus**-, **Kokoonpanotilaus**- ja **Työkortti**-sivulla. Poimittavat rivit valitaan ja poiminnat valmistellaan määrittämällä esimerkiksi, mistä varastopaikoista otetaan ja mihin asetetaan sekä kuinka monta yksikköä käsitellään. Varastopaikat on voitu määrittää valmiiksi fyysisen varaston sijainnissa tai resurssissa.
-- Pull-menetelmässä **tuotantotilaus**, **kokoonpanotilaus** ja **työkortti** vapautetaan fyysiseen varastoon, jolloin nimikkeet ovat poimittavissa. Varastontyöntekijä voi sitten käyttää **Poimintatyökirja**-sivulla **Hae f. varastoinnin asiakirjat** -toimintoa määritettyjen poimintojen noutamiseen.
+- Push-menetelmässä käytetään **Luo poiminta** -toimintoa **Tuotantotilaus**-, **Kokoonpanotilaus**- ja **Projektikortti**-sivulla. Poimittavat rivit valitaan ja poiminnat valmistellaan määrittämällä esimerkiksi, mistä varastopaikoista otetaan ja mihin asetetaan sekä kuinka monta yksikköä käsitellään. Varastopaikat on voitu määrittää valmiiksi fyysisen varaston sijainnissa tai resurssissa.
+- Pull-menetelmässä **tuotantotilaus**, **kokoonpanotilaus** ja **projektikortti** vapautetaan fyysiseen varastoon, jolloin nimikkeet ovat poimittavissa. Varastontyöntekijä voi sitten käyttää **Poimintatyökirja**-sivulla **Hae f. varastoinnin asiakirjat** -toimintoa määritettyjen poimintojen noutamiseen.
 
 Lähdeasiakirjojen komponenttien poimiminen tai siirtäminen pull-menetelmällä edellyttää lähdeasiakirjan vapauttamista, jotta poimimiseen ollaan valmiita. Vapauta sisäisten toimintojen lähdeasiakirjat seuraavilla tavoilla.  
 
@@ -52,7 +52,7 @@ Kokoonpanon komponentit voidaan siirtää kokoonpanoalueelle **F.varastoinnin po
 Projektin komponentteja voi poimia työnkulussa projektinhallintaan **F.varastoinnin poiminta** -asiakirjojen avulla.
 
 > [!NOTE]
-> Projektin suunnittelurivien komponenttien poimintamahdollisuus lisättiin sovellukseen [!INCLUDE[d365fin](includes/d365fin_md.md)] vuoden 2022 2. julkaisuaallossa. Jotta ominaisuutta voi käyttää, järjestelmänvalvojan on otettava käyttöön **Ominaisuuspäivitys: Ota käyttöön varaston ja fyysisen varaston poiminnat projekteista** **Ominaisuuksien hallinta** -sivulla.
+> Projektin suunnittelurivien komponenttien poimintamahdollisuus lisättiin [!INCLUDE[d365fin](includes/d365fin_md.md)]iin vuoden 2022 2. julkaisuaallossa. Jotta ominaisuutta voi käyttää, järjestelmänvalvojan on otettava käyttöön **Ominaisuuspäivitys: Ota käyttöön varaston ja fyysisen varaston poiminnat projekteista** **Ominaisuuksien hallinta** -sivulla.
 >
 > Projektit eivät tue laajennettuja määrityksiä, joissa **Ohjattu poiminta ja hyllytys** on otettu vaihtopainikkeella käyttöön.
 
@@ -138,7 +138,7 @@ Projektin komponentteja voi poimia työnkulussa projektinhallintaan **F.varastoi
     Nimikkeet voidaan nyt tuoda kyseiselle alueelle ja poimittujen komponenttien käyttö tai kulutus voidaan kirjata kirjaamalla kulutuspäiväkirja, kokoonpanotilaus tai projektipäiväkirja. Seuraavissa artikkeleissa on lisätietoja:
 
     * [Yhden vapautetun tuotantotilausrivin kulutuksen ja tuotoksen rekisteröiminen](production-how-to-register-consumption-and-output.md)
-    * [Kokoa nimikkeet](assembly-how-to-assemble-items.md)
+    * [Nimikkeiden kokoonpano](assembly-how-to-assemble-items.md)
     * [Projektien kulutuksen tai käytön kirjaaminen](projects-how-record-job-usage.md)
 
 ## Tuotannon komponenttien materiaaliotto laajennetussa fyysisen varaston määrityksessä

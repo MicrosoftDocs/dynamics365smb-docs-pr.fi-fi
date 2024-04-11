@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: overview
 ms.custom: bap-template
 ms.search.keywords: version
-ms.date: 12/13/2023
+ms.date: 03/11/2024
 ms.review: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central
@@ -35,7 +35,7 @@ Suosittelemme, että käytät verkkoselaimen vakaata kanavaversiota, koska se on
 
 ## Outlook 
 
-**Outlook-sovellukset:** jos haluat käyttää [!INCLUDE[prod_short](includes/prod_short.md)] onlinea Outlookin yrityssähköpostina, tarvitset Outlook 2019:n tai uudemman tai Outlookin verkkoversion. Organisaatiossa on oltava käytössä myös Microsoft 365. Et voi käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen online-versiota Outlookin yrityssähköpostina, jos organisaatiossa on käytössä paikallinen Exchange Server. 
+**Outlook-sovellukset:** jos haluat käyttää [!INCLUDE[prod_short](includes/prod_short.md)] onlinea Outlookin yrityssähköpostina, tarvitset Outlook 2021:n tai uudemman tai Outlookin verkkoversion. Organisaatiossa on oltava käytössä myös Microsoft 365. Et voi käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen online-versiota Outlookin yrityssähköpostina, jos organisaatiossa on käytössä paikallinen Exchange Server. 
 
 **Selaimet:** Kun [!INCLUDE[prod_short](includes/prod_short.md)] on käytössä Outlookin yrityssähköpostina Outlookin selaimessa, apuohjelma edellyttää, että yritys käyttää jotakin aiemmin tässä artikkelissa mainittua tuettua selainta. 
 
@@ -51,7 +51,7 @@ Suosittelemme, että käytät verkkoselaimen vakaata kanavaversiota, koska se on
 
 ## Excel
 
-**Muokkaa Excelissä:** Jotta voit tehdä muutoksia Excelissä ja tuoda muutokset takaisin [!INCLUDE[prod_short](includes/prod_short.md)]:een Excel-lisäosan avulla, tarvitset Excel 2019 -version tai uudemman. Lisätietoja on kohdassa [Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md).  
+**Muokkaa Excelissä:** Jotta voit tehdä muutoksia Excelissä ja tuoda muutokset takaisin [!INCLUDE[prod_short](includes/prod_short.md)]:een Excel-lisäosan avulla, tarvitset Excel 2021 -version tai uudemman. Lisätietoja on kohdassa [Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md).  
 
 ## <a name="TAC"></a> Business Centralin hallintakeskuksen käyttäminen
 

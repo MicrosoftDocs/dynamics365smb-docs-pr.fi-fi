@@ -25,23 +25,26 @@ Shopify-yhdistimen avulla yritykset voivat linkittää Shopify-kauppansa [!INCLU
 - Tuki useammalle kuin yhdelle Shopify-kaupalle
   - Jokaisella myymälällä on omat määrityksensä, kuten tuotekokoelma, varaston laskemiseen käytetyt sijainnit ja hinnastot.  
 - Nimikkeiden tai tuotteiden kaksisuuntainen synkronointi
-  - Yhdistin synkronoi kuvat, nimikevariantit, viivakoodit, toimittajien nimikenumerot, laajennetut tekstit ja tunnisteet.  
+  - Yhdistin synkronoi kuvat, nimikevariantit, viivakoodit, toimittajien nimikenumerot, laajennetut tekstit ja markkinointitekstit sekä tunnisteet.  
   - Nimikemääritteiden vienti Shopifyhin.  
-  - Käytä valittuja asiakashintaryhmiä ja alennuksia määrittääksesi Shopifyhin vietyjä hintoja.  
-  - Päätä, voidaanko nimikkeitä luoda automaattisesti vai sallitaanko vain päivitykset aiemmin luotuihin tuotteisiin.  
+  - Käytä valittuja asiakashintaryhmiä ja alennuksia määrittääksesi Shopifyhin vietyjä hintoja.
+  - Määritä yritystenvälisiin yhtiöihin linkitettyjen tuoteluetteloiden hinnat ja alennukset.
+  - Päätä, voidaanko nimikkeitä luoda automaattisesti vai sallitaanko vain päivitykset aiemmin luotuihin tuotteisiin.
 - Varastotasojen synkronointi
   - Valitse joitakin [!INCLUDE [prod_short](../includes/prod_short.md)] -ohjelmassa käytettävissä olevista sijainneista tai ne kaikki.  
   - Päivitä usean sijainnin varastotasot Shopifyssa.  
-- Asiakkaiden kaksisuuntainen synkronointi
+- Asiakkaiden ja yritysten kaksisuuntainen synkronointi
   - Kohdista asiakkaat älykkäästi puhelinnumeron ja sähköpostiosoitteen perusteella.  
   - Käytä maa- ja aluekohtaisia malleja asiakkaiden luomisessa. Näin varmistetaan, että veroasetukset ovat oikein.  
 - Tilausten tuonti Shopifysta
-  - Sisällytä tilaukset, jotka on luotu eri myyntikanavissa, kuten verkkokaupassa tai **Shopify POS** -sovelluksessa.
+  - Sisällytä tilaukset, jotka on luotu eri myyntikanavissa, kuten verkkokaupassa, **Shopify-myyntipisteessä** tai **yritystenvälisenä**.
   - Toimituskulut, lahjakortit, vinkit, toimitus- ja maksutavat, tapahtumat ja petosriski.  
   - Tuonnin aikana voit luoda automaattisesti asiakkaita [!INCLUDE [prod_short](../includes/prod_short.md)] -ohjelmassa tai päättää hallita asiakkaita Shopifyssa.  
   - Vastaanota maksusuoritustietoja Shopify Paymentsista.
 - Täyttämistietojen seuranta
-  - Voit halutessa valita nimikeseurantatietojen siirron [!INCLUDE [prod_short](../includes/prod_short.md)] -ohjelmasta Shopifyhin.  
+  - Voit halutessa valita nimikeseurantatietojen siirron [!INCLUDE [prod_short](../includes/prod_short.md)] -ohjelmasta Shopifyhin.
+- Oheislaitteeton integrointi
+  - Esimerkiksi tuotteiden, varaston, tilausten ja täyttämisten automaattisen synkronoinnin ottaminen käyttöön.
 
 ## Miksi Microsoft ja Shopify ryhtyivät tähän kumppanuuteen?
 
@@ -52,6 +55,8 @@ Shopify-yhdistimen avulla yritykset voivat linkittää Shopify-kauppansa [!INCLU
 Tämä ominaisuus on käytössä vain [!INCLUDE[prod_short](../includes/prod_short.md)] onlinessa alkaen varsiosta 20.1. Sitä ei ole saatavilla paikallisiin ympäristöihin. Yhdistin on esiasennettu uusiin ympäristöihin. Organisaatiot, joilla on jo ympäristöjä, voivat ladata ja asentaa yhdistimen AppSourcesta. Organisaatiolla on oltava sekä [!INCLUDE [prod_short](../includes/prod_short.md)] -käyttöoikeus että Shopify-käyttöoikeus käyttääkseen yhdistintä. Lisätietoja tuetuista maista, alueista, kielistä ja [!INCLUDE[prod_short](../includes/prod_short.md)] -versioista on kohdassa [Shopify-yhdistin AppSourcessa](https://go.microsoft.com/fwlink/?linkid=2196238).
 
 Shopify-yhdistin ei toimi [upotetussa sovelluksessa](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), jossa asiakkaan URL-osoitteen muoto on `https://[application name].bc.dynamics.com`.
+
+Shopify-yhdistin ei toimi muiden Dynamics 365 -valikoiman tuotteiden kanssa.
 
 ## Millaista tukea Shopify-yhdistimelle on tarjolla?
 
@@ -69,8 +74,6 @@ Voit myös tutustua [Experts Marketplaceen](https://experts.shopify.com/) löyt�
 
 ## Seuraavia ominaisuuksia ei tueta tällä hetkellä, mutta pidämme niitä silmällä ja saatamme harkita niiden lisäämistä
 
-- B2B-ominaisuudet, mukaan lukien yritykset, yritysten hinnastot ja maksuehdot
-  - B2B:n lisätuki on saatavilla vuoden 2024 1. julkaisuaallossa. Lisätietoja on kohdassa [Business Centralin yhdistäminen Shopifyn B2B:hen](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/connect-business-central-shopify-b2b)
 - Markkinat
   - Päätietojen useat käännökset. Voit valita yhden kielen, jota käytetään tuotetietojen viennissä.
   - Maa-/aluekohtaiset hinnat. Valitulle valuutalle on saatavilla yksi hinnasto. Shopify käsittelee muuntamisen muihin valuuttoihin.
@@ -78,7 +81,7 @@ Voit myös tutustua [Experts Marketplaceen](https://experts.shopify.com/) löyt�
 
 ## Voidaanko Shopify-yhdistintä laajentaa?
 
-Kyllä, Shopify-yhdistintä voidaan laajentaa. Tarkista GitHub ja tutustu [laajennettavuuspisteiden luetteloon](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) ja tutki joitakin [esimerkkejä](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md).
+Kyllä, Shopify-yhdistintä voidaan laajentaa. Tarkista GitHub ja tutustu [laajennettavuuspisteiden luetteloon](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) ja tutki joitakin [esimerkkejä](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify).
 
 ## Voivatko muut osallistua Shopify-yhdistimen työstämiseen?
 

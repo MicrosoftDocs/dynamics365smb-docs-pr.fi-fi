@@ -19,7 +19,7 @@ Fyysisen varaston ominaisuuksia voidaan määrittää eri tavoin. On tärkeää,
 
 ### Saapuva virta (hyllytys)
 
-|Monimutkaisuustaso|Kuvaus|Asetukset|Varastopaikan koodi|Tuotantotilauksen saapuva virta|Kokoonpanotilauksen saapuva virta|Projektien saapuva virta|  
+|Monimutkaisuustaso|Kuvaus|Asetukset|Varastopaikan koodi|Tuotantotilauksen saapuva virta|Kokoonpanotilauksen saapuva virta|Esimerkki saapuvasta projektityönkulusta|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
 |Ei määritettyä fyysisen varaston toimintaa.|Kirjaaminen tilauksista ja päiväkirjoista.||Valinnainen. Hallitaan **Varastopaikka on pakollinen** -vaihtopainikkeella.|Tuotantopäiväkirja -> tuotospäiväkirja</br><br/> **HUOMAUTUS**: tuotos voidaan kirjata käyttämällä **tuotantopäiväkirjaa**.|Kokoonpanotilaus|Hyllytys ei ole saatavana projekteissa|  
 |Perus|Tilauksittain.|Vaadi hyllytys. </br><br/> **HUOMAUTUS**: vaikka asetuksen nimi on **Vaadi hyllytys**, tuotos voidaan silti kirjata lähdeasiakirjoista sijainneissa, joissa tämä valintaruutu valitaan. |Valinnainen. Hallitaan **Varastopaikka on pakollinen** -vaihtopainikkeella.|Tuotantotilaus -> varaston hyllytys|Kokoonpanotilaus|Hyllytys ei ole saatavana projekteissa|
@@ -30,11 +30,11 @@ Jotkin määritykset eivät salli hyllytysten rekisteröintiä käyttämällä e
 
 ### Lähtevä virta (poiminta)
 
-|Monimutkaisuustaso|Kuvaus|Asetukset|Varastopaikan koodi|Tuotantotilauksen lähtevä virta|Kokoonpanotilauksen lähtevä virta|Projektien lähtevä virta|  
+|Monimutkaisuustaso|Kuvaus|Asetukset|Varastopaikan koodi|Tuotantotilauksen lähtevä virta|Kokoonpanotilauksen lähtevä virta|Lähtevä projektityönkulku|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
 |Ei määritettyä fyysisen varaston toimintaa.|Kirjaaminen tilauksista ja päiväkirjoista.||Valinnainen. Hallitaan **Varastopaikka on pakollinen** -vaihtopainikkeella.|Tuotantopäiväkirja -> Kulutuspäiväkirja </br><br/> **HUOMAUTUS**: kulutus voidaan kirjata käyttämällä **tuotantopäiväkirjaa**.|Kokoonpanotilaus|Projekti -> Projektipäiväkirja|  
 |Perus|Tilauksittain.|Vaadi poiminta. </br><br/> **HUOMAUTUS**: vaikka asetuksen nimi on **Vaadi poiminta**, tuotos voidaan silti kirjata lähdeasiakirjoista sijainneissa, joissa tämä valintaruutu valitaan. <!-- ToDo Test prod output-->|Valinnainen. Hallitaan **Varastopaikka on pakollinen** -vaihtopainikkeella.|Tuotantotilaus -> Varaston poiminta|Kokoonpanotilaus -> Varastosiirto</br><br/>**Varastosiirtoa** voidaan käyttää vain varastopaikkoja käytettäessä.|Projekti -> Varaston poiminta|
-|Lisäasetukset|Useiden lähdeasiakirjojen konsolidoidut poimintatoiminnot.|Vaadi toimitus + vaadi poiminta|Valinnainen. Hallitaan Varastopaikka on pakollinen -vaihtopainikkeella|Tuotantotilaukset -> Fyysisen varastoinnin poiminta -> kulutuspäiväkirja |Kokoonpanotilaukset -> Fyysisen varastoinnin poiminta| Projektit -> Fyysisen varastoinnin poiminta -> Projektityökirja |
+|Lisäasetukset|Useiden lähdeasiakirjojen konsolidoidut poimintatoiminnot.|Vaadi toimitus + vaadi poiminta|Valinnainen. Hallitaan Varastopaikka on pakollinen -vaihtopainikkeella|Tuotantotilaukset -> Fyysisen varastoinnin poiminta -> kulutuspäiväkirja |Kokoonpanotilaukset -> Fyysisen varastoinnin poiminta| Projektit -> Fyysisen varastoinnin poiminta -> Projektipäiväkirja |
 |Lisäasetukset|Sama kuin edellä + ohjatut poiminta- ja hyllytystoiminnot|Ohjattu poiminta ja hyllytys (kyseiset vaihtopainikkeet otetaan käyttöön automaattisesti)|Pakollinen|Sama kuin edellä|Sama kuin edellä| Projektit eivät tue ohjattua poimintaa ja hyllytystä|
 
 Samoin kuin saapuvassa virrassa jotkin määritykset eivät salli hyllytysten rekisteröintiä käyttämällä erillisiä fyysisen varastoinnin asiakirjoja. Jos sijainnissa käytetään varastopaikkoja, tuotettuja tai koottuja nimikkeitä voidaan siirtää yleisillä varaston siirtoasiakirjoilla. Lisätietoja on kohdassa [Nimikkeiden siirtäminen varastossa](warehouse-move-items.md).
@@ -44,7 +44,7 @@ Samoin kuin saapuvassa virrassa jotkin määritykset eivät salli hyllytysten re
 Esimerkiksi kulutusta ja tuotannon tuotosta halutaan todennäköisesti seurata, vaikka käytössä ei olisikaan erillisiä varastotoimintoja. Seuraavissa artikkeleissa on tietoja lähdeasiakirjojen vastaanottojen käsittelemisestä.
 
 * [Yhden vapautetun tuotantotilausrivin kulutuksen ja tuotoksen rekisteröiminen](production-how-to-register-consumption-and-output.md)
-* [Kokoa nimikkeet](assembly-how-to-assemble-items.md)
+* [Nimikkeiden kokoonpano](assembly-how-to-assemble-items.md)
 * [Projektien kulutuksen tai käytön kirjaaminen](projects-how-record-job-usage.md)
 
 ## Fyysisen varastoinnin perusmääritykset
@@ -85,7 +85,7 @@ Varastopaikkoja käyttävät sijainnit:
 
 Projektin komponentteja voi poimia työnkulussa projektinhallintaan **Varaston poiminta** -asiakirjojen avulla.
 
-Varastopaikkoja käyttävässä sijainnissa sijainnin **Projektiin-lokeron koodi** -kenttää määrittää oletustyönkulut projektinhallintaan.
+Varastopaikkoja käyttävässä sijainnissa sijainnin **Projektin valmisteluvarastopaikkakoodiin** -kenttää määrittää oletustyönkulut projektinhallintaan.
 
 ## Laajennetut varastomääritykset  
 
@@ -121,7 +121,7 @@ Kokoonpano varastoon on osa sisäistä fyysisen varastoinnin työnkulkuja, kun t
 
 Komponentteja poimitaan projektinhallinnan työnkulussa käyttämällä **F.varastoinnin poiminta** -asiakirjoja ja **Poimintatyökirja**-sivua.
 
-Varastopaikkoja käyttävissä sijainneissa sijainnin **Projektiin-lokeron koodi** -kenttää määrittää oletustyönkulut projektialueelle.
+Varastopaikkoja käyttävissä sijainneissa sijainnin **Projektin valmisteluvarastopaikkakoodiin** -kenttää määrittää oletustyönkulut projektialueelle.
 
 ## Katso myös  
 

@@ -28,7 +28,7 @@ Tapahtumia voi peruuttaa kaikista **Tapahtumakirjaukset**-sivuilta. Seuraava men
 > [!NOTE]
 > Kirjauksen on oltava peräisin päiväkirjan kirjauksesta.
 >
-> Et voi peruuttaa tapahtumia, jotka on kirjattu työn tiedoilla tai joilla on realisoituneet voitot ja tappiot samassa tapahtumassa.
+> Et voi peruuttaa tapahtumia, jotka on kirjattu projektin tiedoilla tai joilla on realisoituneet voitot ja tappiot samassa tapahtumassa.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon tapahtumat** ja valitse sitten vastaava linkki.
 2. Valitse ensin peruutettava tapahtuma ja sitten **Peruuta tapahtuma** -toiminto.

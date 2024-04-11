@@ -107,7 +107,7 @@ Uusien työnkulkujen luominen tai vanhojen muokkaaminen ja hallinta (esimerkiksi
 Nämä tehtävät tekee yleensä vain järjestelmänvalvoja tai superkäyttäjä. Tehtävät edellyttävät [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman liiketoimintaprosessien laajempaa tuntemusta. Lisätietoja on Business Centralin kehittäjien ja IT-ammattilaisten ohjeen seuraavissa artikkeleissa:
 
 - [Power Automate -integraatio](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview)
-- [Luo automaattisia työnkulkuja](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) (tämä kattaa myös hyväksymistyönkulut)
+- [Luo automaattisia työnkulkuja](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) (tämä kattaa myös hyväksymistyönkulut)
 - [Luo pikatyönkulkuja](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)
 - [Power Automate -työnkulkujen hallinta](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows)
 <!-- 

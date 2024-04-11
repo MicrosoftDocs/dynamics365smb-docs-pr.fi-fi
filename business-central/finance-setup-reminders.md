@@ -6,30 +6,44 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
 ms.search.form: '431, 432, 436, 478'
-ms.date: 02/09/2022
+ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Muistutusehtojen ja -tasojen määrittäminen.
 
-Muistutusten avulla voit muistuttaa asiakkaita erääntyneistä summista. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
+Muistutusten avulla voidaan muistuttaa asiakkaita erääntyneistä summista ja pyytää maksua. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
+
+> [!TIP]
+> Kun muistutusehdot ja -tasot on määritetty, ne voidaan sisällyttää muistutusten automaattisiin luonti-, julkaisu- ja lähetysprosesseihin. Lisätietoja automaattisista prosesseista on kohdassa [Perinnän muistutusten automatisointi](finance-automate-reminders.md).
 
 ## Muistutusehdot
 
 Jos asiakkailla on erääntyneitä maksuja, sinun täytyy päättää, milloin ja miten heille lähetetään muistutus. Lisäksi saattaa olla tarpeen veloittaa heidän tileiltään korkoja tai maksuja. Muistutusehtoja voi määrittää kuinka monta tahansa.  
 
 > [!NOTE]
-> Jos haluat laskea erääntyneiden maksujen koron, voit tehdä sen muistutusten luomisen yhteydessä. Jos haluat laskea koron ja tiedottaa siitä asiakkaille lähettämättä muistutuksia, käytä [viivästyskululaskuja](finance-setup-finance-charges.md). Lisätietoja on vastaavasti kohdissa [Muistutukset](receivables-collect-outstanding-balances.md#reminders) tai [Viivästyskulut](receivables-collect-outstanding-balances.md#finance-charges).
+> Jos haluat laskea erääntyneiden maksujen koron, voit tehdä sen muistutusten luomisen yhteydessä. Jos halutaan kuitenkin laskea vain korko ja ilmoittaa se asiakkaille lähettämättä muistutuksia, käytä [viivästyskululaskua](finance-setup-finance-charges.md). Lisätietoja on kohdissa [Muistutukset](receivables-collect-outstanding-balances.md#reminders) tai [Viivästyskulut](receivables-collect-outstanding-balances.md#finance-charges).
+
+### Viestinnän liitteiden ja sähköpostin perustekstien määrittäminen
+
+**Muistutusehtojen asetukset** -sivulla voidaan määrittää liitetekstit ja vakiosähköpostiviestit, joita käytetään kaikilla muistutustasoilla. Vaihtoehtoisesti viestit voidaan luoda tasokohtaisesti. Esimerkiksi ensimmäisellä muistutustasolla lähetettävän viestin sävy tai sisältö voi olla erilainen kuin toisella tai kolmannella tasolla. Kaikkien tasojen liite- ja sähköpostiviestitekstit luodaan valitsemalla **Asiakasviestit** sivun yläosassa. Tiettyjen rivien viestit luodaan valitsemalla **Muistutustaso**-pikavälilehdessä rivi ja valitsemalla sitten **Asiakasviesti**-toiminto pikavälilehdessä.
+
+Liitteen ja sähköpostiviestin teksteissä käytetään oletusarvoisesti käyttäjän kieliasetusta. Jos muistutus lähetetään muiden maiden asiakkaille, viestintään halutaan ehkä käyttää eri kieltä. Jokaisella [!INCLUDE [prod_short](includes/prod_short.md)]in tukemalla kielellä voidaan luoda tekstejä **Lisää tekstiä kielelle** -toiminnolla. Siinä tapauksessa on varmistettava, että liiteteksteissä ja sähköpostiviestin teksteissä käytetään samaa kieltä. Jos ne eivät samat ja muistutusehdoissa on useita tasoja, automaatio ei ehkä pysty mukauttamaan viestiä yhdellä tai usealla tasolla. Kielien vastaavuus voidaan varmistaa **Viestien yleiskuvaus** -toiminnossa vertaamalla viestien tekstejä.
+
+Kun sähköpostiviesti lähetetään, muistutus liitetään raporttina sähköpostiviestiin. Muistutuksen luova raportti määritetään **Raporttivalintojen muistutus-/viivästyskulu** -sivulla. Tällä sivulla voidaan valita myös raportti, joka sisältää sähköpostin perustekstin **Sähköpostin perustekstin asettelun nimi** -kentässä. Kun asiakkaille lähetetään sähköpostiviestejä, **Sähköpostiviestin teksti** -pikavälilehdessä olevat tekstit lisätään **Sähköpostin perustekstin asettelun nimi** -kentässä valittuun raporttiin. Vakioraportissa on tekstikenttä tätä tekstiä varten. Tätä raporttia voidaan tarvittaessa muokata esimerkiksi lisäämällä tai poistamalla sisältöä. Näiden raporttien asettelua muokataan **Raporttiasettelut**-sivulla. Lisätietoja raporttiasetteluista on kohdassa [Raporttiasettelujen luonnin aloittaminen](ui-get-started-layouts.md).
+
+> [!NOTE]
+> Sähköpostiviestintä suoraan [!INCLUDE [prod_short](includes/prod_short.md)]ista edellyttää, että kyseinen määritys on tehty. Lisätietoja sähköpostitilien yhdistämisestä [!INCLUDE [prod_short](includes/prod_short.md)]iin on kohdassa [Sähköpostin määrittäminen](admin-how-setup-email.md).
 
 ### Muistutusehtojen määrittäminen
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muistutusehdot** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muistutusehdot** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Voit käyttää useita muistutusehtoyhdistelmä, kun määrität kullekin koodin.
 
 ## Muistutustasot
 
-Voit määrittää kullekin muistutusehtojen koodille rajoittamattoman määrän muistutustasoja. Kun asiakkaalle luodaan ensimmäinen muistutus, ohjelma käyttää tason 1 asetuksia. Kun muistutus lähetetään, tason numero rekisteröidään muistutustapahtumiin, jotka luodaan ja linkitetään yksittäisiin asiakastapahtumiin. Jos asiakkaalle on tarpeen lähettää uusi muistutus, kaikki avoimiin asiakastapahtumiin linkitetyt muistutustapahtumat tarkistetaan suurimman tason numeron selvittämistä varten. Tämän jälkeen käytetään uutta muistutusta varten seuraavan tason numeron ehtoja.
+Kullekin muistutusehdolle voidaan määrittää rajoittamaton määrä muistutustasoja, joskin useimmat yritykset käyttävät kahta tai kolmea tasoa. Kun asiakkaalle luodaan ensimmäinen muistutus, ohjelma käyttää tason 1 asetuksia. Kun muistutus lähetetään, tason numero rekisteröidään muistutustapahtumiin, jotka luodaan ja linkitetään yksittäisiin asiakastapahtumiin. Jos asiakkaalle on tarpeen lähettää uusi muistutus, kaikki avoimiin asiakastapahtumiin linkitetyt muistutustapahtumat tarkistetaan suurimman tason numeron selvittämistä varten. Tämän jälkeen käytetään uutta muistutusta varten seuraavan tason numeron ehtoja.
 
 Jos luot enemmän muistutuksia kuin mille olet määrittänyt tasoja, ohjelma käyttää ylimmän tason ehtoja. Luotavien muistutusten enimmäismäärä määräytyy muistutusehtojen **Muistutusten enimmäislukumäärä** -kentän mukaan.
 
@@ -67,7 +81,7 @@ Jos luot enemmän muistutuksia kuin mille olet määrittänyt tasoja, ohjelma k�
     Voit määrittää kutakin muistutustasoa varten tekstin, joka tulostetaan ennen muistutuksen merkintöjä (**Aloitusteksti**) tai niiden jälkeen (**Lopetusteksti**).
 
 6. Valitse tilanteen mukaan joko **Aloitusteksti**- tai **Lopetusteksti**-toiminto ja täytä **Muistutusteksti**-sivun tiedot.
-7. Voit lisätä liittyviä arvoja automaattisesti muistutustekstiin käyttämällä seuraavia paikkamerkkejä **Teksti**-kentässä.  
+7. Liittyviä arvoja voidaan lisätä automaattisesti muistutustekstiin käyttämällä seuraavia paikkamerkkejä **Teksti**-kentässä.  
 
     |Paikkamerkki|Arvo|  
     |-----------------|-----------|  
@@ -84,12 +98,14 @@ Jos luot enemmän muistutuksia kuin mille olet määrittänyt tasoja, ohjelma k�
     |%11|Yrityksen nimi|  
     |%12|Muistutuksen otsikon **Lisämaksu riviä kohti** -kentän sisältö|  
 
-    Jos kirjoitat kenttään esimerkiksi **Velkasi on %9 %7, joka erääntyy %2**, muistutustekstiksi tulee **Velkasi on 1200,50 PVA, joka erääntyy 2.2.2014.**.
+    Jos kenttään kirjoitetaan esimerkiksi **Velkasi on %9 %7, ja se erääntyy %2.**, muistutustekstiksi tulee **Velkasi on 1200,50 USD, ja se erääntyy 2.2.2024.**.
 
     > [!NOTE]
-    > Eräpäivä lasketaan annetun päivämääräkaavan mukaan. Lisätietoja on kohdassa [Päivämäärän kaavojen käyttäminen](ui-enter-date-ranges.md#use-date-formulas).
+    > [!INCLUDE [prod_short](includes/prod_short.md)] laskee eräpäivän annetun päivämääräkaavan mukaan. Lisätietoja on kohdassa [Päivämäärän kaavojen käyttäminen](ui-enter-date-ranges.md#use-date-formulas).
 
-Kun olet määrittänyt muistutusehdot sekä lisätasot ja tekstin, määritä jokin koodeista kussakin asiakkaan kortissa. Lisätietoja on kohdassa [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md).  
+8. Sähköpostiviestin kieli määritetään valitsemalla **Lisää tekstiä kielelle** -toiminto. **Kielikoodi**-kenttä päivittyy näyttämään valinnan. Kirjoita **Sähköpostiviestin teksti** -pikavälilehdessä viestin sisältö valitulla kielellä.
+
+Kun muistutusehdot on määritetty, ne voidaan määrittää asiakkaille Asiakaskortti-sivulla. Lisätietoja on kohdassa [Uusien asiakkaiden rekisteröinti](sales-how-register-new-customers.md).  
 
 ## Katso myös
 

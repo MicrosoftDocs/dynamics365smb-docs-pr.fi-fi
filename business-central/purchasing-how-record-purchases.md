@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: procurement
 ms.search.form: '50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310'
-ms.date: 12/19/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,11 +26,11 @@ Kun varastonimikkeitä vastaanotetaan tai ostettu palvelu on valmis, ostolasku k
 Seuraavissa vaiheissa kerrotaan, miten ostolasku luodaan. Vaiheet ovat samankaltaisia ostotilauksen luomiselle. Tärkein ero on se, että ostotilauksilla on lisäkenttiä ja -toimintoja nimikkeiden fyysistä käsittelemistä varten.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut**, valitse sitten vastaava linkki.  
-2. Syötä **Toimittaja**-kenttään nykyisen toimittajan nimi.
+2. Syötä **Toimittajan nimi**-kenttään nykyisen toimittajan nimi.
 
     Muut **Ostolasku**-sivun kentät täytetään nyt valitun toimittajan vakiotiedoilla. Jos toimittajaa ei ole rekisteröity, toimi seuraavasti:
 
-    1. Syötä **Toimittaja**-kenttään uuden toimittajan nimi.
+    1. Syötä **Toimittaja nimi** -kenttään uuden toimittajan nimi.
     2. Valitse uuden toimittajan rekisteröimisen valintaikkunassa **Kyllä**.
     3. Lue lisätietoja toimittajan kortin täyttämisestä kohdasta [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md).  
     4. Kun olet määrittänyt toimittajakortin, valitse **OK** palataksesi **Ostolasku**-sivulle.
@@ -79,7 +79,7 @@ Ostolaskun rivejä voivat olla **Resurssi**- tai **Nimike**-tyyppiä. Tuotekorti
 > [!NOTE]
 > **Resurssi**-ostorivityypin avulla voit ostaa myös ulkoisia resursseja, kuten esimerkiksi laskuttaa toimittajaa tehdystä työstä. Lisätietoja kohdassa [Resurssien määrittäminen](projects-how-setup-resources.md).
 >
-> Jos haluat käyttää ostettua resurssia, resurssin kapasiteetti on mahdollisesti määritettävä ja liitettävä manuaalisesti työhön. Resurssin ostaminen luo resurssitapahtuman. Resurssitapahtumia ei kuitenkaan seurata määrän ja arvon osalta kuten esimerkiksi nimikkeitä. Jos määrän ja arvon seuranta on pakollista, kannattaa harkita muiden rivinimiketyyppien käyttämistä.
+> Jos haluat käyttää ostettua resurssia, resurssin kapasiteetti on mahdollisesti määritettävä ja liitettävä manuaalisesti projektiin. Resurssin ostaminen luo resurssitapahtuman. Resurssitapahtumia ei kuitenkaan seurata määrän ja arvon osalta kuten esimerkiksi nimikkeitä. Jos määrän ja arvon seuranta on pakollista, kannattaa harkita muiden rivinimiketyyppien käyttämistä.
 
 ## Ostotilausten käyttö
 

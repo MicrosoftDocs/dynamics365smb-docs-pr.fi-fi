@@ -6,13 +6,13 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: '41, 9300'
-ms.date: 07/12/2021
+ms.date: 02/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Myyntitarjousten tekeminen
 
-Luot myyntitarjouksen tallentaaksesi tarjouksen asiakkaalle tai mahdolliselle asiakkaalle myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla. Voit lähettää myyntitarjouksen asiakkaalle kommunikoidaksenne tarjouksesta. Voit lähettää asiakirjan sähköpostitse PDF-liitteenä. Sähköpostin perusteksti voidaan esitäyttää tarjouksen yhteenvedolla. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md).
+Luot myyntitarjouksen tallentaaksesi tarjouksen asiakkaalle tai mahdolliselle asiakkaalle myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla. Voit lähettää myyntitarjouksen asiakkaalle kommunikoidaksenne tarjouksesta. Voit lähettää asiakirjan sähköpostitse PDF-liitteenä. Sähköpostin perusteksti voidaan esitäyttää tarjouksen yhteenvedolla. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md#to-send-documents-by-email).
 
 Kun neuvottelet asiakkaan tai mahdollisen asiakkaan kanssa, voit muuttaa ja lähettää myyntitarjouksen uudelleen niin usein kuin tarvitaan. Kun asiakas hyväksyy tarjouksen, voit muuntaa myyntitarjouksen myyntilaskuksi tai -tilaukseksi, jossa myynti käsitellään. Lisätietoja on kohdassa [Myynnin laskuttaminen](sales-how-invoice-sales.md) tai [Tuotteiden myyminen](sales-how-sell-products.md).
 
@@ -73,7 +73,7 @@ Useimmissa tapauksissa myyntitarjouksia lähetetään mahdollisille asiakkaille.
     > Jos haluat, että **Tarjouksen voimassaolon päättymispäivä** -kohtaan täytetään automaattisesti tietty päivien määrä tarjouksen luonnin jälkeen, täytä **Tarjouksen voimassaolon laskenta** -kenttä **Myynti ja myyntisaamiset** -sivulla.
 
 10. Kun myyntitarjouksen rivit ovat valmiit, valitse **Lähetä sähköpostitse** -toiminto.
-11. Täytä **Lähetä sähköpost** -sivulla jäljellä olevat kentät ja tarkista upotettu myyntitarjous. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md).
+11. Täytä **Lähetä sähköpost** -sivulla jäljellä olevat kentät ja tarkista upotettu myyntitarjous. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md#to-send-documents-by-email).
 12. Jos kontakti hyväksyy tarjouksen, valitse **Tee tilaus** -toiminto.  
 
     Voit valita myös **Tee lasku** -toiminnon, jos organisaatiosi suosii tätä prosessia.  
@@ -95,7 +95,7 @@ Muunnos poistaa myyntitarjouksen tietokannasta. Myyntilasku tai -tilaus luodaan 
 
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
-[Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
+[Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md#to-send-documents-by-email)  
 [Asiakirjojen arkistoiminen](across-how-to-archive-documents.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

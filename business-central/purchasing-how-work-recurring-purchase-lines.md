@@ -6,11 +6,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'trade, purchase, replenishment'
 ms.search.form: 177
-ms.date: 07/06/2022
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Toistuvien ostorivien luonti
+# Toistuvien ostorivien luominen
 
 Jos sinun on usein luotava samankaltaisia tietoja sisältäviä ostorivejä, voit määrittää vakiorivejä ja lisätä ne sitten toistuviin ostoasiakirjoihin, kuten toistuviin täydennystilauksiin.
 
@@ -40,14 +40,14 @@ Määritä toimittajalle vähintään yksi toistuva ostorivi, jotta näitä rive
 |Asetus|Kuvaus|
 |------|-----------|
 |**Manuaalinen**|Toimittajalla olevat toistuvat ostorivit on valittava ja lisättävä manuaalisesti.|
-|**Automaattinen**|Jos toimittajalla on useita toistuvia ostorivejä, saat ilmoituksen siitä, mistä voi valita, mikä rivi lisätään. Jos toistuvia ostorivejä on vain yksi, se lisätään automaattisesti.<br /><br />Tämä toimii vain, jos uusi asiakirja luotiin asiakirjaluettelosta esimerkiksi valitsemalla **Uusi**-toiminto **Ostotilaukset**-sivulla. Se ei toimi, jos asiakirja luotiin esimerkiksi toimittajakortista.|
+|**Automaattinen**|Jos toimittajalla on useita toistuvia ostorivejä, saat ilmoituksen siitä, mistä lisättävä rivi voidaan valita. Jos toistuvia ostorivejä on vain yksi, se lisätään automaattisesti.<br /><br />Tämä toimii vain, jos uusi asiakirja luotiin asiakirjaluettelosta esimerkiksi valitsemalla **Uusi**-toiminto **Ostotilaukset**-sivulla. Se ei toimi, jos asiakirja luotiin esimerkiksi toimittajakortista.|
 |**Kysy aina**|Ilmoitus avautuu ja kaikki aiemmin luodut toistuvat ostorivit näytetään. Voit sitten valita niistä yhden.
 
 ## Lisää toistuvia ostorivejä ostolaskulle
 
 Jos toimittajalla on toistuvia ostorivejä, voit lisätä tai antaa lisätä niitä automaattisesti kaikenlaisiin ostoasiaakirjoihin, kuten ostolaskuihin. Jos olet aktivoinut **Kysy aina** -asetukset määrittäessäsi toistuvia ostorivejä toimittajille, saat ilmoituksen, jos toistuvia ostorivejä on.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten vastaava linkki.
 2. Avaa ostolasku, johon haluat lisätä vähintään yhden vakio-ostorivin.
 3. Valitse **Nouda toistuvat ostorivit** -toiminto.
 4. Valitse **Toistuvat ostorivit** -sivun **Koodi**-kentässä hakupainike ja valitse sitten vakio-ostorivijoukko.

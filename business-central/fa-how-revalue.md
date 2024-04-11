@@ -1,27 +1,28 @@
 ---
 title: Käyttöomaisuuden uudelleenarvostus
-description: 'Opi muuttamaan käyttöomaisuuden arvoa, kirjaamaan uusia summia arvonalennuksiksi tai -korotuksiksi sekä kirjaamaan muita hankintakustannuksia.'
+description: 'Tietoja käyttöomaisuuden arvoa muuttamisesta, uusien summien kirjaamisesta arvonalennuksiksi tai -korotuksiksi sekä muiden hankintakustannusten kirjaamisesta.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.form: '5628, 5629, 5633'
-ms.date: 04/01/2021
 ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: conceptual
+ms.search.form: '5628, 5629, 5633'
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Käyttöomaisuuden uudelleenarvostus
 
 Käyttöomaisuuserien uudelleenarvostus voi koostua arvonkorotuksista, arvonalennuksista tai yleisistä arvon oikaisuista.
 
-Kun käyttöomaisuuserän arvoa on lisätty, voit kirjata päiväkirjariville suuremman summan (arvonkorotuksen) poistokirjaan. Uusi summa tallennetaan arvonkorotuksena käyttöomaisuuden kirjausasetusten mukaan.
+Kun käyttöomaisuuserän arvo kasvaa, voit kirjata päiväkirjariville arvonkorotuksen poistokirjaan. Uusi summa kirjataan arvonkorotuksena käyttöomaisuuden kirjausasetusten mukaan.
 
-Kun käyttöomaisuuserän arvoa on vähennetty, voit kirjata päiväkirjariville alhaisemman summan (arvonalennuksen) poistokirjaan. Uusi summa tallennetaan arvonalennuksena käyttöomaisuuden kirjausasetusten mukaan.
+Kun käyttöomaisuuden arvo pienenee, voit kirjata päiväkirjariville alhaisemman summan, arvonalennuksen, poistokirjaan. Uusi summa tallennetaan arvonalennuksena käyttöomaisuuden kirjausasetusten mukaan.
 
 Indeksointia käytetään muuttamaan useiden käyttöomaisuuserien arvoja esimerkiksi yleisten hintatason muutosten mukaan. **Tee indeksimuutos KO:teen** -eräajon avulla voi muuttaa erilaisia summia, kuten arvonalennus- ja arvonkorotussummia.
 
 ## Arvonkorotuksen kirjaaminen käyttöomaisuuden KP-päiväkirjasta
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten vastaava linkki.  
 2. Luo alkuperäisen päiväkirjan rivi ja täytä kentät tarpeen mukaan.
 3. Valitse **KO:n kirjaustyyppi** -kentässä **Uudelleenarvostus**.
 4. Valitse **Syötä KO-vastatili** -toiminto. Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty arvonkorotuksen kirjaamista varten.
@@ -57,11 +58,11 @@ Indeksointia käytetään muuttamaan useiden käyttöomaisuuserien arvoja esimer
     > [!TIP]  
     >   Jos indeksiluvut on tarkoitettu vain simulointia varten, niiden tallentamiseksi voi luoda erityisen poistokirjan. Tällä tavalla tapahtumat eivät vaikuta muihin poistokirjoihin.
 
-## Lisähankintakustannusten kirjaaminen
+## Muiden hankintakustannusten kirjaaminen
 
-Käyttöomaisuuden lisähankintameno kirjataan samalla tavalla kuin alkuperäinen hankintameno: ostolaskusta tai käyttöomaisuuden päiväkirjasta. Lisätietoja on kohdassa [Käyttöomaisuuden hankinta](fa-how-acquire.md).  
+Käyttöomaisuuden muut hankintamenot kirjataan ostolaskusta tai käyttöomaisuuden päiväkirjasta samalla tavalla kuin alkuperäinen hankintameno. Lisätietoja on kohdassa [Käyttöomaisuuden hankinta](fa-how-acquire.md).  
 
-Jos käyttöomaisuudelle on jo laskettu poisto, valitse **Poiston hankintameno** -valintaruutu tehdäksesi poiston lisähankintamenolle vähennettynä jäännösarvolla samassa suhteessa kuin aiemmin hankitulle käyttöomaisuudelle on jo tehty poisto. Näin varmistat, että poistojaksoa ei muuteta.  
+Jos käyttöomaisuudelle on jo laskettu poisto, valitse **Poiston hankintameno** -valintaruutu tehdäksesi poiston muille hankintamenoille vähennettynä jäännösarvolla samassa suhteessa kuin aiemmin hankitulle käyttöomaisuudelle tehty poisto. Tämä menetelmä varmistaa, ettei poistojaksoa muuteta.  
 
 Poistoprosentti lasketaan seuraavasti:  
 
@@ -69,9 +70,9 @@ Poistoprosentti lasketaan seuraavasti:
 
 *Poistosumma = (PR/100) x (lisähankintameno - jäännösarvo)*  
 
-Muista valita laskun käyttöomaisuuden KO-päiväkirjan tai päiväkirjarivien **Poisto KO-kirjauspvm:ään asti** -valintaruutu varmistuaksesi siitä, että poisto lasketaan viimeisestä käyttöomaisuuden kirjauspäivämäärästä lisähankintamenon kirjauspäivämäärään asti.
+Muista valita laskun käyttöomaisuuden KO-päiväkirjan tai päiväkirjarivien **Poisto KO-kirjauspvm:ään asti** -valintaruutu varmistuaksesi siitä, että poisto lasketaan viimeisestä käyttöomaisuuden kirjauspäivämäärästä muiden hankintamenojen kirjauspäivämäärään asti.
 
-### Esimerkki - Lisähankintamenojen kirjaaminen
+### Esimerkki – muiden hankintamenojen kirjaaminen
 
 Kone ostetaan elokuun 1. päivä 2000. Hankintameno on 4 800. Poistomenetelmä on tasapoisto neljän vuoden ajalta.
 
@@ -89,25 +90,25 @@ Jos valitsit laskun **Poisto KO-kirjauspvm:ään asti** -valintaruudun ennen kir
 
 Jos valitsit laskun **Poiston hankintameno** -valintaruudun ennen kirjausta, suoritetaan seuraava laskenta:  
 
-*Lisähankintamenolle tehdään poisto seuraavasti; ((150 x 100) / 4 800) / 100 x 480 = 15*
+*Muu hankintameno poistetaan seuraavasti: ((150 x 100) / 4 800) / 100 x 480 = 15*
 
-Poistopohja on nyt *5 280 = (4 800 + 480)*, ja kumulatiivinen poisto on *165 = (100 + 50 + 15)*, joka vastaa kokonaishankintamenon 45 poistopäivää. Tämä tarkoittaa sitä, että käyttöomaisuuserälle tehdään kokonaispoisto arvioidun neljän vuoden eliniän aikana.  
+Poistopohja on nyt *5 280 = (4 800 + 480)*, ja kumulatiivinen poisto on *165 = (100 + 50 + 15)*, joka vastaa kokonaishankintamenon 45 poistopäivää. Tämä laskelma tarkoittaa sitä, että käyttöomaisuuserälle tehdään kokonaispoisto arvioidun neljän vuoden elinkaaren aikana.  
 
 Kun **Laske poisto** -eräajo suoritetaan 30.09.00, käytetään seuraavaa laskentaa:  
 
 *Jäljellä oleva poistoaika on 3 vuotta, 10 kuukautta ja 15 päivää = 1 395 päivää*  
 
-*Kirjanpitoarvo on (5 280 - 165) = 5 115*  
+*Kirjanpitoarvo on (5280 - 165) = 5115*  
 
 *Poistosumma syyskuulle 2000: 5 115 x 15 / 1 395 = 55,00*  
 
 *Kokonaispoisto = 165 + 55 = 220*  
 
-Jos et valinnut **Poisto KO-kirjauspvm:ään asti** -kenttää, omaisuuserä menettää 15 poistopäivää, koska 30.09.00 suoritettu **Laske poisto** -eräajo laskisi poiston 15.09.00 ja 30.09.00 väliseltä ajalta. Tämä tarkoittaa sitä, että kun **Laske poisto** -eräajo suoritetaan 30.09.00, laskenta tehdään seuraavasti:  
+Jos et valinnut **Poisto KO-kirjauspvm:ään asti** -valintaruutua, omaisuuserä menettää 15 poistopäivää, koska 30.9.2000 suoritettu **Laske poisto** -eräajo laskisi poiston 15.9.2000 ja 30.9.2000 väliseltä ajalta. Tämä tarkoittaa sitä, että kun **Laske poisto** -eräajo suoritetaan 30.09.00, laskenta tehdään seuraavasti:  
 
-*Jäljellä oleva ikä on 3 vuotta, 10 kuukautta ja 15 päivää = 1395 päivää*  
+*Jäljellä oleva ikä on 3 vuotta, 10 kuukautta ja 15 päivää = 1 395 päivää*  
 
-*Kirjanpitoarvo on (4 800 + 480 - 100 - 15) = 5 165*
+*Kirjanpitoarvo on (4800 + 480 - 100 - 15) = 5165*
 
 *Poistosumma syyskuulle 2000: 5 165 x 15 / 1 395 = 55,54*  
 

@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 12/08/2023
+ms.date: 03/15/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
@@ -28,6 +28,11 @@ Tässä artikkelissa opit analysoimaan tietoja luettelosivuilta ja kyselyistä *
 > Saatat huomata joitakin luettelosivuja, joissa ei ole **Analysoi**-valitsinta, jotta siirrytään analyysitilaan. Tämän vuoksi kehittäjät voivat poistaa tiettyjen sivujen analyysitilan käytöstä AL-taulukon [AnalysisModeEnabled-ominaisuuden](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) avulla.
 
 ## Aloittaminen
+
+Suorittamalla nämä vaiheet voidaan aloittaa tietojen analysointi analyysitilassa.
+
+>[!TIP]
+> Analyysitila sisältää myös *analyysiavustaja*-nimisen Copilot-ominaisuuden, joka voi auttaa alkuun. [Lisätietoja Copilotin analyysiavustajasta](analysis-assist.md).
 
 1. Avaa luettelosivu tai kysely.
 

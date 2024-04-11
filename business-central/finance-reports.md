@@ -1,6 +1,6 @@
 ---
-title: Talousraportit ja analytiikka
-description: 'Katso, mitkä talousraportit ja mikä analytiikka on saatavilla Business Centralin vakioversiossa, jotta voit seurata liiketoimintaasi. Käytä raporttia 38 voitto/tappio (V & T) -raportointia varten.'
+title: Business Centralin valmiit raportit
+description: 'Tutustuminen Business Centralin vakioversiossa oleviin valmiisiin talousraportteihin, joita voi käyttää liiketoiminnan seuraamiseen. Käytä raporttia 38 voitto/tappio (V & T) -raportointia varten.'
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
@@ -9,27 +9,15 @@ ms.date: 12/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Talousraportit ja analytiikka Business Centralissa
 
-[!INCLUDE [prod_short](includes/prod_short.md)]in talousraportoinnin avulla talouden ja liiketoiminnan ammattilaiset voivat luoda, ylläpitää, ottaa käyttöön ja tarkastella taloudellisia raportteja. Se ylittää perinteisen raportoinnin rajoitukset, jotta voit suunnitella tehokkaasti erityyppisiä raportteja. [!INCLUDE [prod_short](includes/prod_short.md)] sisältää useita raportteja, jäljitystoimintoja ja työkaluja, joiden avulla tilintarkastajat tai valvojat ovat vastuussa talousosaston raportoinnista. Taloudelliseen raportointiin sisältyy dimensioiden tuki, joten tilisegmentit tai -dimensiot ovat heti saatavilla. Muita työkaluja tai määritysvaiheita ei tarvita.  
+# Business Centralin valmiit raportit
+
+[!INCLUDE [prod_short](includes/prod_short.md)] sisältää useita valmiita raportteja, jäljitystoimintoja ja työkaluja, joista on hyöytä talousosaston raportoinnista vastaaville tilintarkastajille tai valvojille. 
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## Raportit
-
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## Tehtävät
-
-Seuraavissa artikkeleissa kuvataan joitakin yrityksen tilan analysointiin liittyviä keskeisiä tehtäviä:
-
-* [Todellisten summien analysointi budjetoituihin summiin nähden](bi-how-analyze-actual-versus-budget.md)  
-* [Talousraportoinnin valmisteleminen taloustietojen ja tililuokkien avulla](bi-how-work-account-schedule.md)  
-* [Talousraportteihin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
-* [Tietojen analysoiminen dimensioiden mukaan](bi-how-analyze-data-dimension.md)  
-* [Analyysiraporttien luominen](bi-how-create-analysis-views-reports.md)  
-* [Raporttien luominen XBRL:n avulla](bi-create-reports-with-xbrl.md)  
-* [Tietokannan käyttötarkoituksen hallinta](admin-data-access-intent.md)  
 
 ## Katso myös
 

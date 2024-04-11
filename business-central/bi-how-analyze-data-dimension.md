@@ -2,29 +2,31 @@
 title: Analysoi tiedot dimensioiden mukaan
 description: 'Tässä artikkelissa kuvataan, miten liiketoimintatietoja voidaan analysoida dimensioiden avulla saadaksesi paremman käsityksen yrityksestäsi.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: kepontop
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '545, 555, 556, 557, 558, 9372, 9370, 9371'
-ms.date: 09/22/2022
-ms.author: bholtorf
+ms.date: 03/27/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Analysoi tiedot dimensioiden mukaan
 
-Talousanalyysissä dimensio on tieto, jonka lisäät tapahtumaan eräänlaiseksi merkiksi. Tämän tiedon avulla voi yhdistää ryhmiksi tapahtumia, joilla on samoja ominaisuuksia, kuten asiakkaita, alueita, tuotteita tai myyjiä, sekä noutaa nämä ryhmät helposti analysoitavaksi. Dimensioita voi käyttää päiväkirjojen tapahtumissa, asiakirjoissa ja budjeteissa. 
+# Tietojen analysoiminen dimensioiden mukaan
 
-Kukin dimensio kuvaa analysoinnin fokusta. Joten esimerkiksi kaksidimensioinen analyysi voisi olla myynti per alue. Käyttämällä tapahtumaa luodessasi useita dimensiota voit luoda monimutkaisia analyysejä, kuten myynti per myyntikampanja per asiakasryhmä per alue. Saat liiketoiminnasta selkeän kuvan ja voit arvioida esimerkiksi, miten hyvin yritys toimii, missä se menestyy ja missä ei, sekä minne pitäisi kohdentaa enemmän resursseja, otta voit tehdä tietoisempia päätöksiä siirtyessäsi eteenpäin. Lisätietoja on kohdassa [Dimensioiden käsitteleminen](finance-dimensions.md).
+Talousanalyysissä dimensio on tieto, joka lisätään tapahtumaan eräänlaiseksi merkiksi ryhmitellä tapahtumia, joissa on samankaltaisia ominaisuuksia. Dimensiot esimerkiksi ryhmittelevät usein asiakkaiden, alueiden, tuotteiden ja myyjien tapahtumat. Ryhmien avulla on helppo noutaa niitä koskevia tietoja analysoitavaksi. Dimensioita voidaan käyttää päiväkirjojen tapahtumissa, asiakirjoissa ja budjeteissa.
+
+Kukin dimensio kuvaa sitä, mihin analysointi keskittyy. Joten esimerkiksi kaksidimensioinen analyysi voisi olla myynti per alue. Useamman kuin kahden dimension käyttäminen tapahtumaa luotaessa mahdollistaa monisyisen analysoinnin. Esimerkki monimutkaisesta analyysista on perehtyä alue-, asiakasryhmä- ja myyntikampanjakohtaiseen myyntiin. Näin saadaan entistä enemmän merkityksellisiä tietoja liiketoiminnasta. Tällaisia tietoja ovat esimerkiksi se, miten hyvin yritys toimii, missä se menestyy ja missä ei sekä minne pitäisi kohdentaa enemmän resursseja. Nämä merkitykselliset tiedot auttavat tekemään tietopohjaisia liiketoimintapäätöksiä. Lisätietoja on kohdassa [Dimensioiden käsitteleminen](finance-dimensions.md).
 
 > [!TIP]
 > Tapahtumatietoja voi analysoida nopeasti dimensioiden mukaan suodattamalla tilikarttojen loppusummat ja kaikkien **Tapahtumat**-sivujen tapahtumat dimensioittain. Hae **Määritä dimension suodatus** -toiminto.
 
 > [!NOTE]
-> Jos havaitset, että kirjatuissa pääkirjanpidon tapahtumissa on käytetty virheellistä dimensioarvoa, voit korjata sen ja päivittää analyysinäkymät. Lisätietoja on [Vianmääritys ja dimensioiden korjaaminen](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting) -osassa.
+> Jos havaitset, että kirjatuissa pääkirjanpidon tapahtumissa oli käytetty virheellistä dimensioarvoa, voit korjata sen ja päivittää analyysinäkymät. Lisätietoja on kohdassa [Vianmääritys ja dimensioiden korjaaminen](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
 
 ## Analyysinäkymän luominen
 
-Dimensioittainen analyysi käyttää valittua dimensioyhdistelmää. Kyseinen dimensiojoukko tallennetaan, noudetaan ja päivitetään luomalla **analyysinäkymä**-kortti. 
+Dimensioittainen analyysi käyttää valittua dimensioyhdistelmää. Kyseinen dimensiojoukko tallennetaan, noudetaan ja päivitetään luomalla **analyysinäkymä**-kortti.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Analyysinäkymät**, valitse sitten vastaava linkki.  
 2. Valitse **Analyysinäkymän luettelo** -sivulla **Uusi**-toiminto.
@@ -34,29 +36,29 @@ Dimensioittainen analyysi käyttää valittua dimensioyhdistelmää. Kyseinen di
 
 ## Analyysi dimensioiden mukaan
 
-Käytä analyysinäkymiä, jotka olet jo määrittänyt **analyysi dimension mukaan** -matriisilla, nähdäksesi pääkirjapidon summia.   
+Käytä analyysinäkymiä, jotka olet jo määrittänyt **analyysi dimension mukaan** -matriisilla, nähdäksesi pääkirjapidon summia.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Analyysinäkymät**, valitse sitten vastaava linkki.  
 2. Valitse haluamasi analyysinäkymä ja valitse sitten **Analyysi dimensioittain** -toiminto.
 3. Täyttämällä **Analyysi dimensioittain** -sivun yläosan kentät määrität, mitkä tiedot näytetään ja miten ne näytetään.
-4. Avaa määritettyyn analyysinäkymään liittyvä matriisisivu valitsemalla **Näytä matriisi** -toiminto.
-5. Voit näyttää matriisisivulla näkyvän summan määrityksen siirtymällä siihen valitsemalla summan.  
+4. Avaa analyysinäkymän matriisisivu valitsemalla **Näytä matriisi** -toiminto.
+5. Matriisisivun summan tietoja voi käyttää valitsemalla summa.  
 
-- Vasemmanpuoleisimmisssa sarakkeissa oleva tieto perustuu otsikon **Näytä riveinä** -kentässä tekemääsi valintaan.  
-- Oikeanpuoleisissa sarakkeissa oleva tieto perustuu otsikon **Näytä sarakkeina** -kentässä tekemääsi valintaan.
+- Vasemmalla olevissa sarakkeissa oleva tieto perustuu otsikon **Näytä riveinä** -kentässä tehtyyn valintaan.  
+- Oikealla olevissa sarakkeissa oleva tieto perustuu otsikon **Näytä sarakkeina** -kentässä tehtyyni valintaan.
 
 > [!IMPORTANT]  
-> **Analyysinäkymä**-kortin Pvmtiivistys-kentässä määritettyä jaksoa lyhyempää jakson pituutta ei voi valita. **Seuraava joukko**- ja **Edellinen joukko** -komennot eivät ole käytettävissä, jos olet valinnut **Jakso**-vaihtoehdon **Näytä riveinä**- tai **Näytä sarakkeina** -kentässä.  
+> **Analyysinäkymä**-kortin päivämäärätiivistyksessä määritettyä jaksoa lyhyempää jakson pituutta ei voi valita. **Seuraava joukko**- ja **Edellinen joukko** -toiminnot eivät ole käytettävissä, jos **Jakso**-vaihtoehto on valittu **Näytä riveinä**- tai **Näytä sarakkeina** -kentässä.  
 
 > [!NOTE]  
-> Voit käyttää **Dimensiot - Yksityiskohdat** -raporttia, kun haluat yksityiskohtaisen erittelyn siitä, miten dimensioita on käytetty tapahtumissa tietyn ajanjakson aikana. **Dimensiot - Yhteensä** -raporttia voidaan käyttää yhteissummien tarkastelemiseen.  
+> **Dimensiot - Yksityiskohdat** -raportti sisältää yksityiskohtaisen luokittelun, josta näkyy, miten dimensioita on käytetty valitun jakson tapahtumissa. **Dimensiot - Yhteensä** -raporttia voidaan käyttää yhteissummien tarkastelemiseen.  
 
 > [!TIP]  
 > Voit muuttaa näkymää myös muuttamalla **Näytä riveinä**- ja **Näytä sarakkeina** -kenttien sisältöä. Voit peruuttaa näkymäasetukset **Muuta rivit ja sar. käänt.** -toiminnolla.
 
 ## Analyysinäkymän päivittämien
 
-Summat, jotka näkyvät **Analyysi dimensioittain** -sivulla, kuvaavat yrityksen tilaa viimeisimmän päivityksen aikaan. Jos haluat nähdä nykyisen tilanteen, sinun on päivitettävä analyysinäkymä suorittamalla päivitystoiminto.
+**Analyysi dimensioittain** -sivun summat kuvaavat yrityksen tilaa viimeisimmän päivityksen aikaan. Tämän hetkisen tilan saa päivittämällä analyysinäkymään päivitystoiminnolla.
 
 Seuraavan menettelyn avulla voit päivittää analyysinäkymän **Analyysi dimensioittain** -sivulla. Vaiheet ovat samanlaiset, kuin päivitys **Analyysinäkymän kortti** ja **Analyysinäkymän luettelo** -sivuilla.  
 
@@ -67,10 +69,10 @@ Seuraavan menettelyn avulla voit päivittää analyysinäkymän **Analyysi dimen
 5. Valitse **Analyysinäkymät**-sivulla ensin analyysinäkymä, sitten **Päivitä**-toiminto.  
 
 > [!TIP]  
-> Jos valitset **Päivitä kirjattaessa** -valintaruudun analyysinäkymän kortilla, näkymä päivitetään automaattisesti liittyvää tapahtumaa kirjattaessa.
+> Jos valitset **Päivitä kirjattaessa** -valintaruudun analyysinäkymäkortissa, näkymä päivittyy automaattisesti, kun joku kirjaa liitetyn tapahtuman.
 
 > [!NOTE]  
-> Kun haluat päivittää joitakin tai kaikkia analyysinäkymiä samanaikaisesti, sinun täytyy käyttää **Päivitä analyysinäkymät** -eräajoa.  
+> **Päivitä analyysinäkymät** -erätyön avulla voi päivittää osan analyysinäkymistä tai kaikki analyysinäkymät samanaikaisesti.  
 
 ## Katso myös
 

@@ -5,14 +5,14 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
 ms.topic: conceptual
-ms.date: 09/25/2023
+ms.date: 03/14/2024
 ms.custom: bap-template
 ms.search.keywords: 'consolidation, subsidiaries, consolidate'
 ms.search.form: '1826, 1827'
 ms.service: dynamics-365-business-central
 ---
 
-# Määritä yrityksen konsolidointi
+# Yrityksen konsolidoinnin määrittäminen
 
 Ennen kuin voit konsolidoida kahden tai useamman yrityksen (tytäryritysten) pääkirjanpidon tapahtumat konsolidoituun yritykseen, sinun täytyy valmistella tilikartat ja konsolidointiyritys.  
 
@@ -75,8 +75,21 @@ Liiketoimintayksikön määrittämisessä on suuri osa sen määrittämistä, mi
 > [!NOTE]
 > Ohjelmointirajapinnan vaihtoehdon avulla voit myös jakaa pääkirjanpidon tapahtumia muista [!INCLUDE [prod_short](includes/prod_short.md)] -ympäristöistä. Jotta ohjelmointirajapinnan vaihtoehtoa voi käyttää, konsolidoinnin määrittävällä käyttäjällä on oltava kp-tapahtumien käyttöoikeus. Voit käyttää esimerkiksi D365 Perus- ja D365-luku-käyttöoikeuksien joukkoa.
 
+#### Liiketoimintayksikön valuuttojen määrittäminen
+
+Kun ulkomaanvaluuttaa käyttävien liiketoimintayksiköiden konsolidointi suoritetaan, huomiota on kiinnitettävä etenkin prosessien eri osien käyttämiin vaihtokursseihin ja varsinkin silloin, kun konsolidointi suoritetaan uudelleen. Sitä varten voi käyttää **Liiketoimintayksikön valuuttojen määrittäminen** -sivua, sillä se helpottaa kurssien seuraamista.
+
+**Liiketoimintayksikön valuuttojen määrittäminen** -sivulla viimeisimmät keskivaihtokurssit, loppukurssit ja viimeisimmät loppuvaihtokurssit. Vaihtokurssit voidaan hakea valuutan vaihtokurssitaulukossa, mikä helpottaa kurssien tarkistamista. Nykyisen ajon vaihtokurssit voidaan muuttaa syöttämällä arvot tai kopioimalla ne aiemmista ajoista. Kurssit kopioidaan valitsemalla **Liiketoimintayksikön valuuttojen määrittäminen**. Tämä sivu tärkeä etenkin silloin, kun halutaan suorittaa edellinen konsolisointi uudelleen, jolloin on käytettävä aiempaa loppukurssia. Se on välttämätöntä, jotta taseen nimikkeiden uudelleenarvostus tehdään oikein. **Valitse aiemmista konsolidoinneista** -sivu on kätevä myös silloin, jos halutaan vain tarkastella käytettyjä kursseja esimerkiksi vianmäärityksen aikana. Tämä sivu suodatettu näyttämään ajo, jotka sisältyvät valittuun liiketoimintayksikköön.
+
+**Suorita konsolidointi** -eräajo suoritetaan **Liiketoimintayksiköt**-luettelosivulta. **Määritä liiketoimintayksikön valuutat** -sivu löydetään myös valitsemalla **Vaihtokurssit**-toiminto.
+
+> [!NOTE]
+> Keskikurssin, loppukurssin ja viimeisen loppukurssin vaihtokurssin määrityssivut, jotka ovat tällä hetkellä käytettävissä **Liiketoimintayksikkö**-kortissa, vanhentuvat tulevassa versiossa. Näitä kursseja voidaan kuitenkin edelleen ylläpitää, jos liiketoimintayksiköitä on tuotu tiedostojen kautta.
+
+#### Liiketoimintayksikön luominen
+
 1. Kirjaudu konsolidoituun yritykseen.
-2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Liiketoimintayksiköt** ja valitse sitten vastaava linkki.  
+2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Liiketoimintayksiköt** ja valitse sitten vastaava linkki.  
 3. Valitse **Uusi** ja täytä sitten pakolliset kentät **Yleiset**- ja **KP-tilit**-pikavälilehdissä. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!IMPORTANT]
@@ -113,13 +126,11 @@ Seuraavassa taulukossa käsitellään tileillä käytettäviä vaihtokurssimenet
 |Yhdistelmäkurssi | Kuluvan jakson summat muunnetaan keskikurssin mukaan ja lisätään aiemmin kirjattuun saldoon konsolidoidussa yrityksessä. Tätä menetelmää käytetään tavallisesti jakamattoman voiton tileihin. Nämä tilit sisältävät summia eri jaksoilta, joten ne sisältävät eri vaihtokursseja sisältäviä summia.|
 |Pääomakurssi | Tämä vaihtoehto muistuttaa **yhdistelmäkurssia**. Erot kirjataan erillisille kirjanpitotileille.|
 
-Liiketoimintayksiköiden vaihtokurssit määritetään seuraavasti:
+Liiketoimintayksikön vaihtokurssit määritetään seuraavasti:
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Liiketoimintayksiköt** ja valitse sitten vastaava linkki.  
-2. Valitse ensin **Liiketoimintayksiköiden luettelo** -sivulla liiketoimintayksikkö ja sitten **Keskikurssi (manuaalinen)** -toiminto.  
-3. **Muuta vaihtokurssi** -sivun **Suhteellinen vaihtokurssi** -kentän sisältö on kopioitu **Valuutan vaihtokurssi** -taulukosta. Sisältöön voi kuitenkin tehdä muutoksia. Sulje sivu.  
-4. Valitse **Loppukurssi**-toiminto.  
-5. Anna vaihtokurssi **Suhteellinen vaihtokurssisumma** -kentässä
+2. Valitse ensin **Liiketoimintayksiköiden luettelo** -sivulla liiketoimintayksikkö ja sitten **Vaihtokurssit**-toiminto.  
+3. Täytä tarvittavat kentät **Määritä liiketoimintayksikön valuutat** -sivulla. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="dim"></a>Dimensioiden sisällyttäminen tai jättäminen pois
 

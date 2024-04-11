@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '555, 556, 557, 558, 9372, 9370, 9371'
-ms.date: 09/22/2022
+ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -14,11 +14,11 @@ ms.service: dynamics-365-business-central
 
 Myyntipäälliköiden on analysoitava liikevaihtoa, bruttokatetta ja muita myynnin tunnuslukuja säännöllisesti. Ostajat ovat kiinnostuneempia ostovolyymien dynamiikasta, toimittajien suorituskyvystä ja ostohinnoista. Logistiikka-/varastopäälliköt puolestaan tarvitsevat tietoja varaston kierrosta, varaston siirtoanalyysin ja tilastotietoja varaston arvosta. Yhden koon analyysiraporttia ei siis ole.
 
-Voit mukauttaa analyysiraportteja kirjattujen tapahtumien, esimerkiksi myynnin, ostojen, siirtojen ja varastonmuutosten, tietueiden perusteella. Räätälöitävän raportin lähdetietoja, jotka johdetaan nimiketapahtumista (niihin liittyvien arvotapahtumien kera), voidaan yhdistää, vertailla ja esittää mielekkäillä käyttäjän määrittämillä tavoilla. Niinpä analyysiraportti muistuttaa hyvin paljon Microsoft Excelin pivot-taulukkoraporttia.  
+Voit mukauttaa analyysiraportteja kirjattujen tapahtumien, esimerkiksi myynnin, ostojen, siirtojen ja varastonmuutosten, tietueiden perusteella. Räätälöitävän raportin lähdetietoja, jotka johdetaan nimiketapahtumista (niihin liittyvien arvotapahtumien kera), voidaan yhdistää, vertailla ja esittää mielekkäillä käyttäjän määrittämillä tavoilla. Niinpä analyysiraportti muistuttaa paljon Microsoft Excelin pivot-taulukkoraporttia.  
 
 Voit esimerkiksi luoda henkilökohtaisen raportin, jossa keskitytään avaintiliisi tuotteen kokonaisvaihtuvuuden ja myytyjen määrien, bruttotuoton ja bruttotuoton prosenttiosuuden osalta kuluvana kuukautena. Sitten voit verrata näitä lukuja edellisen kuukauden tai saman kuukauden viime vuoden tuloksiin ja laskea poikkeamat. Kaikki tämä voidaan tehdä yhdessä ja samassa näkymässä, jolloin voit navigoida tunnistettujen ongelma-alueiden syihin ja jopa valita pudotusvalikosta nollataksesi yksityiskohdat aina yksittäisten tapahtumien tasolle asti.  
 
-Analyysiraportit koostuvat analysoitavista objekteista, (kuten asiakkaista, asiakasryhmistä ja myyjistä, jotka esitetään riveinä), ja analyysin parametreista eli objektin analysointitavasta, (kuten katelaskelmista, myyntisummien ja -määrien jaksoittaisista vertailuista tai todellisten ja budjetoitujen lukujen jaksoittaisista vertailuista, jotka esitetään sarakkeina). 
+Analyysiraportit koostuvat analysoitavista objekteista (kuten asiakkaista, asiakasryhmistä ja myyjistä, jotka esitetään riveinä) ja analyysin parametreista eli objektin analysointitavasta (kuten katelaskelmista, myyntisummien ja -määrien jaksoittaisista vertailuista tai todellisten ja budjetoitujen lukujen jaksoittaisista vertailuista, jotka esitetään sarakkeina). 
 
 Analyysiraporttien lisäksi voit luoda ja tarkastella samanlaisia tietoja analyysinäkymissä, (jotka perustuvat dimensioihin). Lue lisätietoja kohdasta [Analysoi tietoja dimensioiden mukaan](bi-how-analyze-data-dimension.md).
 
@@ -60,7 +60,7 @@ Voit esimerkiksi esittää kuukausiraportin määrittämällä yhden ryhmän riv
 
 Seuraava toimenpide perustuu myynnin analyysinäkymiin. Vaiheet ovat samanlaiset ostojen ja varaston analyysinäkymille.
 
-Analyysisarakemalli sisältää joukon rivejä, joista jokainen edustaa analyysiraporttiin haluamaasi analyysisaraketta. Kun määrität sarakkeen, liitä analyysin tyyppikoodi riviin. Analyysin tyyppikoodi määrittää lähdetietojen tyypin nimiketapahtumissa, joihin analyysi perustuu. Lähdetiedot voivat sisältää kustannukset, myyntisumman tai määrän ja niihin liittyvät arvotapahtumat. Voit määrittää haluamasi määrän sarakkeen malleja ja luoda sen jälkeen niiden avulla uusia analyysiraportteja.    
+Analyysisarakemalli sisältää joukon rivejä, joista jokainen edustaa analyysiraporttiin haluamaasi analyysisaraketta. Kun määrität sarakkeen, riville on määritettävä analyysin tyyppikoodi. Analyysin tyyppikoodi määrittää lähdetietojen tyypin nimiketapahtumissa, joihin analyysi perustuu. Lähdetiedot voivat sisältää kustannukset, myyntisumman tai määrän ja niihin liittyvät arvotapahtumat. Voit määrittää haluamasi määrän sarakkeen malleja ja luoda sen jälkeen niiden avulla uusia analyysiraportteja.    
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntisarakemallit**, valitse sitten liittyvä linkki.  
 2. Valitse ensimmäinen tyhjä rivi ja täytä tarvittavat kentät.

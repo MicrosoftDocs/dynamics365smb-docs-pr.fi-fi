@@ -1,25 +1,28 @@
 ---
 title: Tuottojen ja kulujen siirtäminen
-description: 'Jos haluat tulouttaa tuoton tai kulun jaksoon, jonka aikana tapahtumaa ei kirjattu, voit siirtää tai lykätä ne automaattisesti tietyn aikataulun mukaan.'
+description: 'Lisätietoja tuottojen ja kulujen automaattinen siirtämäinen tai lykkääminen kausille, jolloin tapahtumaa ei kirjattu, tai niiden lykkäämisestä tietyn aikataulun mukaan.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: postpone
 ms.search.form: '1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707'
-ms.date: 12/06/2023
+ms.date: 03/13/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 # Tuottojen ja kulujen siirtäminen
 
-Jos haluat tulouttaa tuoton tai kulun jaksoon, joka on eri kuin se, jonka aikana tapahtuma on kirjattu, käytä toimintoja, jotka siirtävät tuotot ja kulut automaattisesti tietyn aikataulun mukaan.
+Jos haluat tulouttaa tuoton tai kulun muuhun jaksoon kuin siihen, jonka aikana tapahtuma on kirjattu, tuotot ja kulut voidaan siirtää automaattisesti tietyn aikataulun mukaan.
 
 Voit jakaa tuotot tai kulut liittyville kirjanpitojaksoille määrittämällä sille resurssille, nimikkeelle tai KP-tilille siirtomallin, jolle tuotto tai kulu kirjataan. Kun kirjaat liittyvän myynti- tai ostoasiakirjan, tuotto tai kulu siirretään liittyville kirjanpitojaksoille sen siirron aikataulun mukaan, jota siirtomallin ja kirjauspäivämäärän asetukset koskevat.
 
+> [!NOTE]
+> Myynti- ja ostopäiväkirjat tarkistavat lähdekoodin. Tarkistus edellyttää, että myynnin ja myyntipäiväkirjojen sekä oston ja ostopäiväkirjojen lähdekoodi ei ole sama siirtoja käytettäessä. Jos se on määritetty samaksi, rajoituksen voi kiertää luomalla toista lähdekoodi käyttävän mallin ja erän.
+
 ## KP-tilin määrittäminen siirtoa varten
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi**-toiminto.
 3. Luo siirretyille tuotoille KP-tili täyttämällä tarvittavat kentät. Lisätietoja on kohdassa [Pääkirjanpito ja tilikartta](finance-general-ledger.md).
 4. Luo siirretyille kuluille uusi KP-tili toistamalla vaiheet 2 ja 3.

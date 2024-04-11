@@ -1,12 +1,12 @@
 ---
 title: Sähköisten asiakirjojen vastaanottaminen ja muuntaminen
-description: 'Tämä aihe kuvailee, miten voit vastaanottaa sähköisiä asiakirjoja suoraan kauppakumppaneilta tai OCR-palvelusta.'
+description: 'Tämä artikkelissa käsitellään, miten sähköisiä asiakirjoja vastaanotetaan suoraan kauppakumppaneilta tai OCR-palvelusta.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '189, 190, 191'
-ms.date: 06/23/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,7 +26,7 @@ Ennen kuin voit vastaanottaa sähköisiä asiakirjoja OCR-palvelun kautta, mää
 
 Sähköisten asiakirjojen saapuvan ja lähtevän liikenteen [!INCLUDE[prod_short](includes/prod_short.md)]:ssa hallitsee työjono-ominaisuus. Ennen kuin voit vastaanottaa sähköisiä asiakirjoja, on aloitettava asianmukainen työjono.  
 
-Sähköisten asiakirjojen muuntaminen voit käynnistää joko manuaalisesti tässä proseduurissa kuvatulla tavalla tai voit ottaa työnkulun muuntamaan sähköiset asiakirjat automaattisesti niiden saapuessa. Yleinen [!INCLUDE[prod_short](includes/prod_short.md)] -versio sisältää työnkulkumallin, *Saapuvasta sähköisestä OCR:n kautta avoimen ostolaskun työnkulkuun*, joka on valmis kopioitavaksi työnkuluun ja otettavaksi käyttöön. Lisätietoja on kohdassa [Työnkulku](across-workflow.md).  
+Sähköisten asiakirjojen muuntaminen voidaan käynnistää joko manuaalisesti tässä toimenpiteessä kuvatulla tavalla tai antamalla työnkululle mahdollisuuden muuntamaan sähköiset asiakirjat automaattisesti niiden saapuessa. Yleinen [!INCLUDE[prod_short](includes/prod_short.md)] -versio sisältää työnkulkumallin, *Saapuvasta sähköisestä OCR:n kautta avoimen ostolaskun työnkulkuun*, joka on valmis kopioitavaksi työnkuluun ja otettavaksi käyttöön. Lisätietoja on kohdassa [Työnkulku](across-workflow.md).  
 
 > [!NOTE]  
 > Kun muunnat OCR-palvelusta vastaanotettuja sähköisiä asiakirjoja tai päiväkirjarivejä [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa, monta lähdeasiakirjan riviä yhdistetään yhdelle riville. Yhden rivin tyypiksi tulee KP-tili, ja **Kuvaus**- ja (KP-tilin) **Nro**-kentät ovat tyhjiä. **Summa**-kentän arvo on sama kuin kaikkien lähdeasiakirjan rivien kokonaissumma ilman ALV:tä.  

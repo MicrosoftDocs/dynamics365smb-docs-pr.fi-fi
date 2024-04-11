@@ -1,14 +1,14 @@
 ---
 title: Resurssin käytön ja hintojen kirjaaminen ja muuttaminen
-description: 'Tässä ohjeaiheessa kerrotaan, miten voit kirjata projektiin liitetyn resurssin käytön tai kulutuksen sekä seurata ja hallinta kustannuksia, hintoja ja työtyyppejä.'
+description: 'Tässä aiheessa kerrotaan, miten voit kirjata projektiin liitetyn resurssin käytön tai kulutuksen sekä seurata ja hallinta kustannuksia, hintoja ja työtyyppejä.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.topic: how-to
 ms.search.keywords: 'project management, capacity, staff'
 ms.search.form: '201,206, 207, 271, 493'
-ms.date: 03/08/2023
+ms.date: 02/22/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Resurssien käyttäminen projekteissa
 
@@ -19,7 +19,7 @@ Kirjaa resurssien käyttö projektipäiväkirjaan, kun haluat seurata kustannuks
 
 Voit kirjata resurssin käytön myös resurssipäiväkirjaan. Resurssipäiväkirjassa kirjatuilla tapahtumilla ei ole vaikutusta pääkirjanpitoon.
 
-## Resurssien määrittäminen projekteihin:
+## Resurssien määrittäminen projekteihin
 
 Voit määrittää resursseja projekteihin luomalla projektiin suunnittelurivejä. Lisätietoja on kohdassa [Projektien luominen](projects-how-create-jobs.md).
 
@@ -75,6 +75,5 @@ Jos olet jo määrittänyt vaihtoehtoisia resurssihintoja joillekin resursseille
 [Osto](purchasing-manage-purchasing.md)         
 [Myynti](sales-manage-sales.md)     
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

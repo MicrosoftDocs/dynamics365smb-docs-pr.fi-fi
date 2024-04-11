@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: bholtorf
-ms.date: 09/28/2023
+ms.date: 02/27/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -17,9 +17,20 @@ ms.service: dynamics-365-business-central
 
 Organisaatiot, jotka käyttävät kohdetta [!INCLUDE[prod_long](includes/prod_long.md)], voivat saada teknistä tukea kaikkiin ongelmiin, joita he voivat kohdata. Tässä artikkelissa näytämme seuraavia tietoja ja monia muita vinkkejä kohteen [!INCLUDE[prod_short](includes/prod_short.md)] käyttöön:
 
+- Tietoja tekoälypohjaisen avustajan [antamasta opastuksesta ja selityksistä](#chat-with-copilot)
 - Opettele [pääsemään eteenpäin](#in-product-tips)  
-- Opi hakemaan [lisätietoja](#help-pane)    
-- Opi etsimään [tekniset tiedot](#help--support-page), joita tarvitset tukipyynnön lähettämiseen    
+- Opi hakemaan [lisätietoja](#help-pane)
+- Opi etsimään [tekniset tiedot](#help--support-page), joita tarvitset tukipyynnön lähettämiseen
+
+## Keskustelu Copilotin avulla
+
+[!INCLUDE [online_only](includes/online_only.md)]
+
+Keskustelu Copilotin avulla tekoälypohjainen työkalu, joka vastaa kysymyksiin ja etsii Business Centraliin liittyviä liiketoimintatietoja. Sitä voi käyttää miltä tahansa sivulta valitsemalla ![Näkyvissä Keskustelu Copilotin avulla -kuvassa](media/chat-copilot-icon.png) **Copilot**-kuvake oikeassa yläkulmassa. [Lisätietoja keskustelusta Copilotin avulla](chat-with-copilot.md).
+
+### Kenttiä koskeva ohje
+
+Copilot voi auttaa ymmärtämään yksittäisten kenttien tarkoituksen ja tyyppisen käyttötavan. Kun kentän työkaluvihjeessä valitaan **Kysy Copilotilta**, avautuvassa keskustelussa kentän nimen selityskehote, ja Copilot antaa siitä lisätietoja. Copilot muodostaa linkin viitattuihin artikkeleihin, joten kuvaus on helppo vahvistaa.
 
 ## Tuotteen sisäiset vinkit
 
@@ -35,14 +46,9 @@ Organisaatiot, jotka käyttävät kohdetta [!INCLUDE[prod_long](includes/prod_lo
 
 Seuraavassa luettelossa kuvataan, miten voit käyttää ohjeruutua ja se, lisätäänkö siihen seuraavat kortit:
 
-- Valitse kentän työkaluvihjeen *Lisätietoja*-linkki
-
-  Seuraava kortti lisätään ohjeruutuun:
-
-  - Kentän työkaluvihje
-- Valitse toiminnon työkaluvihjeen *Lisätietoja*-linkki
 - Valitse Ohje-valikon kohta (oikeassa yläkulmassa oleva kysymysmerkki)
-- Näppäinyhdistelmää <kbd>Ctrl</kbd>+<kbd>F1</kbd> voi käyttää mistä tahansa.
+- Näppäinyhdistelmää <kbd>Ctrl</kbd>+<kbd>F1</kbd> voi käyttää mistä tahansa
+- Valitse kentän työkaluvihjeen *Lisätietoja*-linkki, jos se on käytettävissä. *Lisätietoja*-linkki on käytettävissä vain mobiilisovelluksessa tai verkkoasiakasohjelman mukautetuissa kentissä (eli muissa kuin Microsoftin laajennuksissa).
 
 > [!TIP]
 > Kun valitset linkin, kohdeartikkeli avautuu uuteen selainvälilehteen. Voit päättää poistaa selaimen välilehden kiinnityksen ja siten voit tarkastella asiaankuuluvia tietoja rinnakkain [!INCLUDE [prod_short](includes/prod_short.md)]in kanssa. Ruutu pysyy avoimena, kun siirryt [!INCLUDE [prod_short](includes/prod_short.md)]issa, jotta etsimäsi sisältö pysyy näkyvissä.  

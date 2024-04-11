@@ -6,11 +6,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'cancel, undo, correct'
 ms.search.form: '6640, 6643, 9307, 9309, 9308, 6652, 145, 147'
-ms.date: 04/01/2021
+ms.date: 03/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Ostopalautusten tai peruutusten käsittely
+# Ostopalautusten tai -peruutusten käsittely
 
 Jos haluat palauttaa nimikkeitä toimittajalle tai peruuttaa ostamiasi palveluita, voit luoda ja kirjata ostohyvityslaskun, joka määrittää pyydetyn muutoksen alkuperäisen ostolaskun suhteen. Voit sisällyttää oikeat ostolaskun tiedot luomalla ostohyvityslaskun suoraan kirjatusta ostolaskusta. Vaihtoehtoisesti voit luoda uuden ostohyvityslaskun, johon laskun tiedot on kopioitu.
 
@@ -102,9 +102,9 @@ Ostohyvityslasku poistetaan ja korvataan uudella kirjattujen ostohyvityslaskujen
 
     Seuraavat toimenpiteet suoritetaan:  
 
-    - Tyyppiä **Nimike** oleville kirjatuille asiakirjariveille luodaan uusi asiakirjarivi, joka on kirjatun asiakirjarivin kopio, jolla on määrä, jota ei ole vielä varattu. **Kohdista nimiketapahtumaan** -kenttä on täytetty soveltuvalla kirjatun asiakirjarivin nimiketapahtuman numerolla.  
+    - **Nimike**-tyypin kirjatuille asiakirjariveille luodaan uusi asiakirjarivi, joka on kirjatun asiakirjarivin kopio. Sillä on määrä, jota ei ole vielä peruutettu. **Kohdista nimiketapahtumaan** -kenttä on täytetty soveltuvalla kirjatun asiakirjarivin nimiketapahtuman numerolla.  
 
-    - Niille kirjatuille asiakirjariveille, joiden tyyppi ei ole **Nimike** (kuten nimikekulut) ohjelma luo uuden asiakirjarivin, joka on alkuperäisen kirjatun asiakirjarivin kopio.  
+    - Niille kirjatuille asiakirjariveille, joiden tyyppi ei ole **Nimike** (kuten nimikekulut), luodaan uusi asiakirjarivi, joka on alkuperäisen kirjatun asiakirjarivin kopio.  
 
     - Laskee uuden rivin **Yksikkökustannus (PVA)** -kentän arvon vastaavan nimiketapahtumien kustannuksista.  
 
@@ -143,7 +143,7 @@ Tämän alennetun ostokustannuksen voi kirjata nimikekuluna hyvityslaskuun tai p
 2. Avaa uusi tyhjä ostohyvityslasku valitsemalla **Uusi**-toiminto.  
 3. Täytä hyvityslaskun otsikko sen toimittajan tiedoilla, joka on lähettänyt ostoalennuksen.  
 4. Valitse **Rivit**-pikavälilehden **Tyyppi**-kentässä **Kulu (nimike)**.  
-5. Valitse **Nro**-kenttään asiaankuuluva nimikekulun arvo.  
+5. Valitse **Nro**-kenttään sopiva nimikekulun arvo.  
 
     Voit haluta luoda erityisen nimikekulunumeron koskemaan ostoalennuksia.  
 6. Syötä **Määrä**-kenttään **1**.  

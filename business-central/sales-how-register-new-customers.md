@@ -2,20 +2,20 @@
 title: Uusien asiakkaiden rekisteröiminen asiakkaan kortin luomisen avulla (sisältää videon)
 description: 'Tässä ohjeaiheessa kerrotaan, miten asiakkaan kortti luodaan rekisteröimään tietoja kustakin uudesta asiakkaasta, jolle myyt.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
 ms.search.keywords: 'client, customer, credit'
 ms.search.form: '7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305'
-ms.date: 11/01/2023
-ms.author: bholtorf
+ms.date: 02/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Uusien asiakkaiden rekisteröiminen
 
 Asiakkaat ovat tulonlähteesi. Jokainen asiakas, jolle myyt, on rekisteröitävä asiakaskorttina. Asiakkaan kortit sisältävät tietoja, jotka tarvitaan tuotteiden asiakkaalle myymistä varten. Lisätietoja on kohdissa [Myyntien laskuttaminen](sales-how-invoice-sales.md) ja [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md).  
 
 Ennen kuin voit rekisteröidä uusia asiakkaita, sinun on määritettävä myyntikoodit, jotka voidaan valita asiakkaiden korttien täyttämisen yhteydessä. Lisätietoja kohdassa [Myynnin määrittäminen](sales-setup-sales.md).
-
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
@@ -80,6 +80,14 @@ Voit valita, ettet saa varoitusta siitä, että asiakkaan luottoraja on ylitetty
     |**Luottoraja**|Asiakaskortin **Luottoraja**-kentän arvoa verrataan asiakkaan saldoon, ja näyttöön tulee varoitus, jos asiakkaan saldo ylittää kentän arvon.|
     |**Erääntynyt saldo**|**Erääntynyt saldo** -kenttä asiakkaan kortilla on valittuna ja jos asiakkaalla on erääntyneitä saldoja, näytetään varoitus.|
     |**Ei varoitusta**|Asiakkaan tilasta ei näytetä luottovaroituksia.|
+
+## Myyjän määrittäminen
+
+Myyjä voidaan määrittää toimitusasiakkaan osoitteeseen eikä asiakkaan laskutusosoitteeseen, jolloin myyntiraportin ilmaisevat myynnin todellisen maantieteellisen jakautumisen. Myyjän määrittäminen toimitusasiakkaan osoitteeseen antaa tarkkoja merkityksellisiä tietoja ja optimoi resurssien kohdistuksen.
+
+Myyjä määritetään **Asiakas**-korttisivulla valitsemalla ensin **Asiakas** ja sitten **Toimitusasiakkaan osoitteet**, jolloin **Toimitusasiakk. osoiteluettelo** -sivu avautuu. **Toimitusasiakkaan osoite** -korttisivu avautuu valitsemalla ensin **Hallinta** ja sitten **Muokkaa**. Myyjä valitaan syöttämällä tai valitsemalla **Myyjän koodi**.
+
+Kun myyntiasiakirjassa valitaan **Toimitusasiakas**-osoitteeksi **Vaihtoehtoinen toimitusosoite**, **myyjän koodi** päivittyy vastaamaan **Toimitusasiakas**-kohdan myyjää **Laskutusasiakkaan**-osoitetta. 
 
 ## Katso myös
 

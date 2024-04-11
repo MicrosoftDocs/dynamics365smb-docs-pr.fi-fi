@@ -1,16 +1,16 @@
 ---
-title: Myynnin palautusten tai peruutusten käsittely
+title: Myyntipalautusten tai -peruutusten käsittely
 description: 'Ohjeaiheessa kerrotaan, miten luodaan myyntihyvityslasku käsittelemään sellaisten nimikkeiden tai palvelujen palautus, peruutus tai hyvitys, joiden maksun olet vastaanottanut.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'undo, credit memo, return'
 ms.search.form: '44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
-ms.date: 09/27/2021
+ms.date: 02/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Myynnin palautusten tai peruutusten käsittely
+# Myyntipalautusten tai -peruutusten käsittely
 
 Jos asiakas haluaa palauttaa nimikkeitä tai saada hyvitystä nimikkeistä tai palveluista, jotka olet myynyt ja joista olet saanut maksun, sinun on luotava ja kirjattava myyntihyvityslasku, joka määrittää pyydetyn muutoksen. Voit sisällyttää oikeat myyntilaskun tiedot seuraavasti:  
 
@@ -73,7 +73,7 @@ Voit kirjata tämän alennushinnan nimikekuluna hyvityslaskuun tai palautustilau
 3. Täytä hyvityslaskun otsikko asianmukaisilla tiedoilla asiakkaasta, jolle haluat antaa myyntialennuksen.  
 4. Valitse **Rivit**-pikavälilehden **Tyyppi**-kentässä **Kulu (nimike)**.  
 5. Valitse **Nro**-kenttään sopiva nimikekulun arvo.  
-     Voit haluta luoda erityisen nimikekulunumeron myyntialennuksille.  
+     Haluat ehkä erityisen nimikekulunumeron myyntialennuksille.  
 6. Syötä **Määrä**-kenttään **1**.  
 7. Syötä **Yksikköhinta Ilman ALV** -kenttään myyntialennuksen summa.  
 8. Määritä myyntialennus nimikekuluksi kirjatun toimituksen nimikkeille. Lisätietoja on kohdassa [Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md) Kun olet määrittänyt alennuksen, siirry takaisin **Hyvityslasku**-sivulle.  
@@ -85,7 +85,7 @@ Tämä toiminto on hyödyllinen, jos asiakkaasi palauttaa useita nimikkeitä, jo
 
 Kun vastaanotat nimikkeet varastollesi, kirjaa asianmukaiset myyntipalautustilaukset vastaanotetuiksi. Tällä tavoin luodaan kirjatut palautusvastaanotot.  
 
-Sitten kun olet valmis laskuttamaan asiakasta, voit luoda myyntihyvityslaskun ja kopioida automaattisesti kirjatut palautusvastaanottorivit tähän asiakirjaan, sen sijaan että laskuttaisit jokaisen myyntipalautustilauksen erikseen. Sen jälkeen voit kirjata myyntihyvityslaskun ja laskuttaa kaikki avoimet myyntipalautustilaukset kätevästi kerralla.  
+Kun olet valmis laskuttamaan asiakasta, voit luoda myyntihyvityslaskun ja kopioida automaattisesti kirjatut palautusvastaanottorivit tähän asiakirjaan, sen sijaan että laskuttaisit jokaisen myyntipalautustilauksen erikseen. Sen jälkeen voit kirjata myyntihyvityslaskun ja laskuttaa kaikki avoimet myyntipalautustilaukset kätevästi kerralla.  
 
 **Asiakaskortti**-sivun **Tee koontilasku** -valintaruutu on valittava, jotta palautusvastaanottoja voidaan yhdistää.  
 
@@ -100,7 +100,7 @@ Sitten kun olet valmis laskuttamaan asiakasta, voit luoda myyntihyvityslaskun ja
     - Voit lisätä kaikki rivit valitsemalla ensin kaikki rivit ja sitten **OK**.  
 
     - Voit lisätä tietyt rivit valitsemalla ensin rivit ja sitten **OK**.  
-6.  Jos valitsit virheellisen rivin tai haluat aloittaa alusta, voit yksinkertaisesti poistaa hyvityslaskun rivit ja ajaa **Hae palautusvast.oton rivit** -toiminnon uudelleen.  
+6.  Jos valitsit virheellisen rivin tai haluat aloittaa alusta, voit yksinkertaisesti poistaa hyvityslaskun rivit ja suorittaa **Hae palautusvast.oton rivit** -toiminnon uudelleen.  
 7.  Kirjaa lasku.  
 
 ### Palautusvastaanottojen yhdistäminen automaattisesti

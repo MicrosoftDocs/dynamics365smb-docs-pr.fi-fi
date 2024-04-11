@@ -6,18 +6,18 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'numbers, numbering'
 ms.search.form: '456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31'
-ms.date: 03/24/2022
+ms.date: 02/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Numerosarjojen luominen
 
-Jokaiselle yritykselle on määritettävä yksilölliset tunnuskoodit esimerkiksi pääkirjanpidon tilejä, asiakas- ja toimittajatilejä, laskuja ja muita asiakirjoja varten. Numerointi ei ole tärkeää pelkästään tunnistamisen kannalta. Hyvin suunniteltu numerointijärjestelmä helpottaa myös yrityksen hallittavuutta ja analysointia ja voi vähentää tietojen syötössä tapahtuvien virheiden määrää.
+Jokaiselle yritykselle on määritettävä yksilölliset tunnuskoodit esimerkiksi pääkirjanpidon tilejä, asiakas- ja toimittajatilejä, laskuja ja muita asiakirjoja varten. Numerointi ei ole tärkeää pelkästään tunnistamisen kannalta. Hyvin suunniteltu numerointijärjestelmä helpottaa myös yrityksen hallittavuutta ja analysointia, minkä lisäksi se voi vähentää tietojen syöttövirheitä.
 
 > [!Important]
 > Numerosarjoissa ei oletusarvoisesti sallita aukkoja, koska lainsäädäntö edellyttää, että rahoitustapahtumien täsmällinen historia on oltava käytettävissä tilintarkastuksessa, minkä vuoksi järjestyksen on oltava katkeamaton ilman poistettuja numeroita.
-> 
-> Jos haluat sallia aukot tietyissä numerosarjoissa, varmista ensin tilintarkistajalta tai talouspäälliköltä, että noudatat maan tai alueen lakisääteisiä vaatimuksia. Lisätietoja on kohdassa [Numerosarjojen aukot](#gaps-in-number-series).
+>
+> Jos haluat sallia aukot tietyissä numerosarjoissa, varmista tilintarkistajalta tai talouspäälliköltä, että noudatat maan tai alueen lakisääteisiä vaatimuksia. Lisätietoja on kohdassa [Numerosarjojen aukot](#gaps-in-number-series).
 
 > [!NOTE]  
 > On suositeltavaa käyttää niitä numerosarjan koodeja, jotka on mainittu CRONUS-esittely-yrityksen **Numerosarjaluettelo**-sivulla. Koodit, kuten *O-LASKU+*, eivät ehkä avaudu heti, mutta [!INCLUDE[prod_short](includes/prod_short.md)]issa on tiettyjä oletusasetuksia, jotka perustuvat näihin numerosarjan koodeihin.
@@ -32,11 +32,12 @@ Numerosarjat määritetään yleensä lisäämään seuraava peräkkäinen numer
 Jos haluat käyttää useita numerosarjakoodeja yhdelle perustietotyypille (esimerkiksi silloin, kun haluat eri numerosarjoja eri nimikeluokille), voit käyttää numerosarjasuhteita.
 
 ## Numerosarjojen aukot
+
 Kaikki [!INCLUDE[prod_short](includes/prod_short.md)]issa luotavat tietueet eivät ole rahoitustapahtumia, joissa on käytettävä peräkkäisiä numeroita. Esimerkiksi asiakaskortit, myyntitarjoukset ja varastotoiminnot ovat tietueita, joille määritetään numerosarjan mukainen numero mutta joita tilintarkastus ei koske ja/tai jotka voidaan poistaa. Tällaisissa numerosarjoissa **Salli välit numeroissa** -valintaruudun voi valita **Nrosarjojen rivit** -sivulla. Tämän asetuksen voi muuttaa myös numerosarjan luomisen jälkeen. Lisätietoja on kohdassa [Uuden numerosarjan luominen](ui-create-number-series.md#to-create-a-new-number-series).
 
 ## Nro-kentän toiminta asiakirjoissa ja korteissa
 
-Myynti-, osto- ja siirtoasiakirjojen ja korttien **Nro** -kenttä voidaan täyttää automaattisesti esimääritetystä numerosarjasta, tai voit lisätä sen manuaalisesti. Tietyissä olosuhteissa **Nro** -kenttä on näkymätön sen muokkaamisen estämiseksi.  
+Myynti-, osto-, siirto- ja huoltoasiakirjojen ja korttien **Nro** -kenttä voidaan täyttää automaattisesti esimääritetystä numerosarjasta, tai voit lisätä sen manuaalisesti. Tietyissä olosuhteissa **Nro** -kenttä on näkymätön sen muokkaamisen estämiseksi.  
 
 **Nro**-kenttä voidaan täyttää kolmella tavalla:
 
@@ -45,20 +46,22 @@ Myynti-, osto- ja siirtoasiakirjojen ja korttien **Nro** -kenttä voidaan täytt
     Vaikka määriteltäisiin malleja, joissa on useita numerosarjoja asiakkaille, jos **Myyntien ja myyntisaamisten asetukset** -sivulla määritetty numerosarja määritetään tällä tavalla, **Nro** -kenttä on näkymätön asiakaskortissa riippumatta siitä, mitä mallia käytät. Sama pätee muun tyyppisiin kortteihin ja asiakirjoihin.  
 
     > [!NOTE]  
-    > Jos numerosarja ei toimi esimerkiksi siksi, että sen numerot ovat loppuneet, tällöin **Nro**-kenttä on näkyvissä ja voit kirjoittaa numeron manuaalisesti tai ratkaista ongelmat **Nrosarja**-sivulla.
+    > Jos numerosarja ei toimi esimerkiksi siksi, että sarjaan määritetty viimeinen numero on käytetty, **Nro**-kenttä on näkyvissä ja numero voidaan syöttää manuaalisesti. Ongelmat voidaan ratkaista **Nrosarja**-sivulla.
 
-2. Jos asiakirjatyypillä tai kortilla on useita numerosarjoja eikä nykyisen kohdistetun numerosarjan **Oletusnrot**-valintaruutua ole valittu, **Nro**-kenttä näkyy ja voit valita käytettävän numerosarjan **Nrosarja**-sivulla. Sarjan seuraava numero lisätään sitten **Nro** -kentässä.
+2. Jos asiakirjatyypillä tai kortilla on useita numerosarjoja eikä nykyisen määritetyn numerosarjan **Oletusnrot**-valintaruutua ole valittu, **Nro**-kenttä näkyy ja voit valita käytettävän numerosarjan siirtymällä **Nrosarja**-sivulle. Sarjan seuraava numero lisätään sitten **Nro** -kentässä.
 
-3. Jos asiakirjatyypin tai kortin numerosarjaa ei ole määritetty tai jos numerosarjoille on valittu **Manuaaliset nrot** -kenttä, **Nro**-kenttä näkyy ja numerot on annettava manuaalisesti. Voit kirjoittaa enintään 20 merkkiä, sekä numeroita että kirjaimia.
+3. Jos asiakirjatyypin tai kortin numerosarjaa ei ole määritetty tai jos numerosarjoille on valittu **Manuaaliset nrot** -kenttä, **Nro**-kenttä on näkyvissä ja numero on syötettävä manuaalisesti. Voit syöttää enintään 20 merkkiä, sekä numeroita että kirjaimia.
 
-Kun uuden asiakirjan tai kortin, jolla on jo numerosarja, vastaava **Numerosarja-asetukset**-sivu avautuu. Voit määrittää tällä sivulla kyseisen asiakirjatyypin tai kortin numerosarjan, ennen kuin jatkat muiden tietojen antamista.
+Kun uusi asiakirja tai kortti, jolla on jo numerosarja, avataan, **Numerosarja-asetukset**-sivu avautuu. Voit määrittää tällä sivulla kyseisen asiakirjatyypin tai kortin numerosarjan ja jatkaa työskentelyä.
 
 > [!NOTE]  
 > Jos manuaalinen numerointi on otettava käyttöön esimerkiksi uusissa korteissa, jotka luoneessa tietojen siirtoprosessissa **Nro**-kenttä on oletusarvoisesti piilotettu, siirry **Varastonhallinnan asetukset** -sivulle ja valitse **Nimikenrot**-kenttä. Voit nyt avata ja määrittää liittyvien numerosarjojen asetuksiksi **Manuaaliset nrot**.
+>
+> Samalla tavalla toimitaan myös huollonhallinnan ominaisuuksia käytettäessä. Ratkaise ongelma siirtymällä **Varastonhallinnan asetukset** -sivulle ja valitsemalla **Huoltonimikenrot**-kenttä. Voit nyt avata ja määrittää liittyvien numerosarjojen asetuksiksi **Manuaaliset nrot**.
 
 ## Uuden numerosarjan luominen
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nrosarja** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nrosarja** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi**-toiminto.  
 3. Täytä tarvittavat uuden rivin kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Valitse **Rivit**-toiminto.  
@@ -68,7 +71,7 @@ Kun uuden asiakirjan tai kortin, jolla on jo numerosarja, vastaava **Numerosarja
 > [!TIP]
 > Jos haluat, että käyttäjät voivat määrittää numeroita manuaalisesti, kun he rekisteröivät uuden asiakkaan tai toimittajan, valitse **Manuaaliset nrot** -kenttä itse numerosarjassa. Jos haluat estää manuaaliset numerot, tyhjennä kenttä.
 
-Voit määrittää numerosarjoja niille malleille, jotka määrität myynti- ja ostohenkilöstön useimmin tuotteeseen [!INCLUDE [prod_short](includes/prod_short.md)] lisäämille erilaisille asiakas- ja toimittajatyypeille. Määritä tällöin asianmukaiset numerosarjat, linkitä ne suhteiden avulla ja lisää sitten kulloisenkin suhteen ensimmäinen numerosarja kulloiseenkin määrityssivuun. Kun käyttäjä luo asiakkaan, hän valitsee asianmukaisen mallin, ja uusi asiakas saa numeron, joka on määritetty kyseiseen malliin määritetystä numerosarjasta.  
+Voit määrittää numerosarjoja niille malleille, jotka määrität myynti- ja ostohenkilöstön useimmin lisäämille asiakas- ja toimittajatyypeille. Määritä tällöin asianmukaiset numerosarjat, linkitä ne suhteiden avulla ja lisää sitten kulloisenkin suhteen ensimmäinen numerosarja kulloiseenkin määrityssivuun. Kun käyttäjä luo asiakkaan, hän valitsee asianmukaisen mallin, ja uusi asiakas saa numeron, joka on määritetty kyseiseen malliin määritetystä numerosarjasta.  
 
 ## Numerosarjojen suhteiden luonti
 

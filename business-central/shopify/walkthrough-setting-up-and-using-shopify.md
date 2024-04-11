@@ -132,9 +132,9 @@ Huomaa, että tilauksen tila on nyt **Shopify Adminissa** *Fulfilled*. Voit myö
 
 ### Skenaario
 
-Uuden verkkokauppasi onnistuneen lanseerauksen jälkeen haluat, että nykyiset asiakkaasi vierailevat siellä ja aloittavat tilausten tekemisen. Shopify-suunnitelmasta ja prosessista riippuen voit kokeilla B2B- ja D2C-virtoja.
+Uuden verkkokauppasi onnistuneen lanseerauksen jälkeen haluat, että nykyiset asiakkaasi vierailevat siellä ja aloittavat tilausten tekemisen. Shopify-suunnitelmasta ja prosessista riippuen voit kokeilla B2B- ja DTC-virtoja.
 
-### D2C-vaiheet
+### DTC-vaiheet
 
 Toimi [!INCLUDE[prod_short](../includes/prod_short.md)]issa seuraavasti:
 

@@ -1,12 +1,12 @@
 ---
-title: Myynnin laskutus
+title: Myynnin laskuttaminen
 description: 'Tässä ohjeaiheessa kerrotaan, miten luodaan kauppakirja tai myyntilasku tai myyntitilaus kirjaamaan asiakkaan kanssa tehty sopimus tuotteiden myynnistä tietyin ehdoin.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'bill, sale, invoice, order'
 ms.search.form: '43, 48, 9301'
-ms.date: 11/01/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,7 +26,7 @@ Voit neuvotella asiakkaan kanssa luomalla ensin myyntitarjoukseen, jonka voit mu
 
 ## Luo myyntilaskut
 
-Jos asiakas päättää tehdä oston, luo liittyvä määrä- ja arvotapahtuma kirjaamalla myyntilasku. Kun kirjaat myyntilaskun, voit myös lähettää sen PDF-liitteenä sähköpostitse. Voit täyttää sähköpostin tekstiosan yhteenvedolla lasku- ja maksutiedoista. Tietoihin voi kuulua esimerkiksi PayPal-linkki. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostilla](ui-how-send-documents-email.md). Kun asiakas maksaa laskun, voit rekisteröidä maksun eri tavoilla organisaation koosta ja ensisijaisista työnkuluista riippuen. Lisätietoja on kohdassa [Rekisteröintimaksut](#register-payments).  
+Jos asiakas päättää tehdä oston, luo liittyvä määrä- ja arvotapahtuma kirjaamalla myyntilasku. Kun kirjaat myyntilaskun, voit myös lähettää sen PDF-liitteenä sähköpostitse. Voit täyttää sähköpostin tekstiosan yhteenvedolla lasku- ja maksutiedoista. Tietoihin voi kuulua esimerkiksi PayPal-linkki. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostilla](ui-how-send-documents-email.md#to-send-documents-by-email). Kun asiakas maksaa laskun, voit rekisteröidä maksun eri tavoilla organisaation koosta ja ensisijaisista työnkuluista riippuen. Lisätietoja on kohdassa [Rekisteröintimaksut](#register-payments).  
 
 Nimikkeen kortin tyyppi voi olla **Varasto**, **palvelu** tai **Muu kuin varasto**. Se määrittää, onko nimike fyysisen varasto yksikkö, työn aikayksikkö vai fyysinen yksikkö, jota ei vastaavasti säilytetä varastossa. Lisätietoja on kohdassa [Uusien nimikkeiden rekisteröinti](inventory-how-register-new-items.md). Myyntilaskuprosessi on sama kaikille kolmelle nimiketyypeille.
 
@@ -126,7 +126,7 @@ Voit luoda jopa suoraan maksettavia laskuja rekisteröimättömille asiakkaille,
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Poimintaluettelon tulostaminen](sales-how-print-picking-list.md)  
 [Varasto](inventory-manage-inventory.md)  
-[Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md)  
+[Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md#to-send-documents-by-email)  
 [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)  
 [Joukkolaskutus Business Centralin Microsoft Bookingsista ](finance-bookings.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

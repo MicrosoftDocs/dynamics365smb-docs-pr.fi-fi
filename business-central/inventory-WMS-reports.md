@@ -1,5 +1,5 @@
 ---
-title: 'Varasto, varastoraportit ja analytiikka'
+title: Varasto ja varastoraportit sekä analytiikka
 description: 'Katso, mitkä varastoraportit ja mikä analytiikka on saatavilla Business Centralin vakioversiossa, jotta voit seurata liiketoimintaasi.'
 author: brentholtorf
 ms.author: bholtorf
@@ -7,11 +7,11 @@ ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 'Report_707, Report_716, Report_813, Report_1001, Report_5807, Report_5808, Report_5809, Report_7313, Report_7319, Report_7320'
-ms.date: 04/13/2023
+ms.date: 03/21/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Varasto, varastoraportit ja analytiikka
+# Varasto ja varastoraportit sekä analytiikka
 
 Sovelluksen [!INCLUDE [prod_short](includes/prod_short.md)] varastoraporttien avulla varaston ja liiketoiminnan ammattilaiset voivat saada merkityksellistä tietoa ja analytiikkaa nykyisistä ja aiemmista varastotoiminnoista.  
 

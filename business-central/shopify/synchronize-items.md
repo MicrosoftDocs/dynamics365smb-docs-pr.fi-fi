@@ -1,12 +1,12 @@
 ---
 title: Synkronoi nimikkeet ja varasto
 description: Määritä ja suorita nimikkeiden synkronoinnit Shopifyn ja Business Centralin välillä
-ms.date: 11/17/2023
+ms.date: 02/28/2024
 ms.topic: article
 ms.search.form: '30116, 30117, 30126, 30127,'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.collection:
   - bap-ai-copilot
 ---
@@ -50,30 +50,8 @@ Tuo ensin nimikkeitä Shopifysta joko joukkona tai yhdessä tilausten tuonnin ka
 |**Varastointiyksikön kenttäerotin**|Käytä tätä yhdessä **Varastointiyksikön yhdistämismääritysten** kanssa, joka on määritetty **[Tuotenro + Varianttikoodi](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)** -vaihtoehtoon.<br>Määritä erotin, jota käytetään SKU-luettelon jakamista varten.<br>Jos siis luot Shopifyssa muunnelman varastointiyksiköllä '1000/001', kirjoita '/' **Varastointiyksikön erotin** -kenttään saadaksesi tuotenumeron [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa muodossa "1000" ja nimikkeen muunnelman koodi "001". Huomaa, että jos luot muunnelman SKU:lla 1000/001/111 Shopifyssa, tuotteen numero [!INCLUDE[prod_short](../includes/prod_short.md)]  on "1000" ja tuoteversion koodi "001". 111-osa ohitetaan. |
 |**Version etuliite**|Käytä yhdessä **Varastointiyksikön yhdistämismäärityksen** kanssa , jonka arvona on joko **Varianttikoodi** tai **Nimikenro + varianttikoodi** -vaihtoehtoja varmistusstrategiaksi silloin, kun Shopifysta lähtevä varastointiyksikkö on tyhjä.<br>Jos haluat luoda nimikevariantin [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa automaattisesti, sinun täytyy syöttää arvo **koodiin**. Oletusarvon mukaan käytetään Shopifysta tuodussa varastointiyksikkökentässä määritettyä arvoa. Jos varastointiyksikkö on kuitenkin tyhjä, se luo koodin alkaen määritetystä variantti-etuliitteestä ja "001"-numerosta.|
 |**Shopify voi päivittää nimikkeen**|Valitse tämä vaihtoehdoista, jos haluat päivittää nimikkeet ja/tai variantit automaattisesti.|
-
-### Shopify-tuotteiden SKU:iden ja viivakoodien vaikutus tuotteiden ja varianttien kartoittamiseen ja luomiseen Business Centralissa
-
-Kun tuotteet tuodaan Shopifysta **Shopify-tuotteet**- ja **Shopify-variantit**-taulukoihin, [!INCLUDE[prod_short](../includes/prod_short.md)] yrittää löytää aiemmin luotuja tietueita.
-
-Seuraavassa taulukossa kuvaillaan eri vaihtoehtojen väliset erot **Varastointiyksikön yhdistämismääritykset** -kentässä.
-
-|Asetus|Vaikutus yhdistämiseen|Vaikutus luomiseen|
-|------|-----------------|------------------|
-|**Tyhjä**|Varastointiyksikkö-kenttää ei käytetä nimikkeen yhdistämisrutiinissa.|Ei vaikutusta nimikkeen luomiseen.<br>Tämä asetus estää varianttien luomisen. Myyntitilauksessa käytetään vain päänimikettä. Variantti voidaan silti linkittää manuaalisesti **Shopify-tuote**-sivulta.|
-|**Nimikkeen nro**|Valitse, jos varastointiyksikkö-kentässä on nimikkeen numero|Ei vaikutusta nimikkeen luomiseen ilman variantteja. Jos nimikkeellä on variantteja, jokainen variantti luodaan erillisenä nimikkeenä.<br>Jos Shopifylla on tuote, jossa on kaksi versiota ja niiden varastointiyksiköt ovat 1000 ja 2000, [!INCLUDE[prod_short](../includes/prod_short.md)] luo kaksi nimikettä, joilla on numerot 1000 ja 2000.|
-|**Versiokoodi**|Varastointiyksikkö-kenttää ei käytetä nimikkeen yhdistämisrutiinissa.|Ei vaikutusta nimikkeen luomiseen. Kun nimikevariantti luodaan, koodina käytetään varastointiyksikkökentän arvoa. Jos varastointiyksikkö on tyhjä, luodaan **varianttietuliite**-kentän avulla koodi.|
-|**Nimikenro + versiokoodi**|Valitse tämä vaihtoehto, jos varastointiyksikkö-kentässä on nimikkeen numero ja nimikkeen varianttikoodi, joka on erotettu **varastointiyksikkö-kenttäerotin** -kentässä määritetyllä arvolla.|Kun nimike luodaan, määritetään varastointiyksikkö-kentän arvon ensimmäiseksi osaksi **nro**-arvo. Jos varastointiyksikkökenttä on tyhjä, nimikkeen numero luodaan käyttämällä numerosarjoja, jotka on määritetty **Nimikemallikoodi**- tai **Nimikenumero**-kentässä **Varaston määritys** -sivulla.<br>Kun nimike luodaan, varianttifunktio käyttää varastointiyksikkö-kentän arvon toista osaa muodossa **Koodi**. Jos varastointiyksikkökenttä on tyhjä, luodaan **varianttietuliite**-kentän avulla koodi.|
-|**Toimittajan nimikenro**|Valitse, jos varastointiyksikkö-kentässä on toimittajanimikkeen numero. Tässä tapauksessa nimikkeen **Toimittajanro**-kenttää ei käytetä **nimikkeen kortti** -sivulla. **Toimittajan nimikenro** -vaihtoehtoa käytetään **nimikkeen toimittajakatalogista**. Jos löydetyssä *nimiketoimittajaluettelo*-tietueessa on varianttikoodi, tätä koodia käytetään Shopify-variantin yhdistämiseen.|Jos vastaava toimittaja on olemassa [!INCLUDE[prod_short](../includes/prod_short.md)] -järjestelmässä, varastointiyksikköarvoa käytetään **Toimittajan nimikenro** -arvona **Nimikkeen kortti** -sivulla sekä *toimittajan* tyypin **Nimikeviittaus**-arvona. <br>Estää varianttien luonnin. Se on hyödyllinen silloin, kun haluat käyttää päänimikettä vain myyntitilauksessa. Voit silti yhdistää variantin manuaalisesti **Shopify-tuote**-sivulla.|
-|**Viivakoodi**|Valitse, jos varastointiyksikkö-kentässä on viivakoodi. Haku suoritetaan niiden **nimikeviittausten** osalta, joiden tyyppi on *viivakoodi*. Jos löydetyssä nimikeviitetietueessa on varianttikoodi, tätä varianttikoodia käytetään Shopify-variantin yhdistämiseen.|Ei vaikutusta nimikkeen luomiseen. <br>Estää varianttien luonnin. Se on hyödyllinen silloin, kun haluat käyttää päänimikettä vain myyntitilauksessa. Voit silti yhdistää variantin manuaalisesti **Shopify-tuote**-sivulla.|
-
-Seuraava taulukko luonnostelee **Viivakoodi**-kentän vaikutuksen.
-
-|Vaikutus yhdistämiseen|Vaikutus luomiseen|
-|-----------------|------------------|
-|Haku suoritetaan **Tuoteviittauksista**, jotka sisältävät Shopifyn **Viivakoodi**-kentän arvona viivakoodityypin. Jos löydetyssä nimikeviitetietueessa on varianttikoodi, tätä varianttikoodia käytetään Shopify-variantin yhdistämiseen.|Viivakoodi tallennetaan nimikkeen ja nimikevariantin **nimikeviitteenä**.|
-
-> [!NOTE]  
-> Voit käynnistää valittujen tuotteiden/varianttien tai kaikkien tuotujen yhdistämättömien tuotteiden yhdistämisen valitsemalla **Yritä etsiä tuotteen yhdistäminen** tai **Yritä etsiä yhdistämisiä**.
+|**Mittayksikkö versiona**| Valitse tämä vaihtoehto, jos haluat viedä kaikki nimikkeen mittayksiköt erillisinä variantteina. Lisää kenttä mukauttamalla. Lisätietoja on osassa [Mittayksikkö varianttina](synchronize-items.md#unit-of-measure-as-variant).|
+|**Mittayksikköversiovaihtoehdon nimi**| Käytä tätä kenttää ja **Mittayksikkö versiona** -vaihtoehtoa määrittämään, missä vaihtoehdossa lisätään mittayksikön ilmaisevat variantit. Oletusarvo on *Mittayksikkö*. Lisää kenttä mukauttamalla.|
 
 ## Vie nimikkeet Shopifyhin
 
@@ -101,6 +79,37 @@ Voit hallita nimikkeiden vientiprosessia seuraavien asetusten avulla:
 |**Varastoa seurataan**| Valitse, miten järjestelmä täyttää Shopifyn vietävien tuotteiden **seuraa varastoa** -kentän. Voit päivittää niiden tuotteiden saatavuustiedot [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmasta Shopifyssa oleville tuotteille, joiden seuranta on otettu käyttöön. Katso lisätietoja [Varasto](synchronize-items.md#sync-inventory-to-shopify)-osasta.|
 |**Oletusvarastokäytäntö**|Valitse *kiellä*, jos haluat estää Shopify-puolen negatiivisen varaston. <br>Jos **Voi päivittää Shopify -tuotteita** on käytössä, **Oletusvarastokäytäntö**-kentän muutokset lisätään Shopifyihin kaikkien **Shopify-tuotteet**-sivulla lueteltujen tuotteiden ja varianttien seuraavan synkronoinnin jälkeen valitule kaupalle.|
 |**Voi päivittää Shopify-tuotteita**|Määritä tämä kenttä, jos [!INCLUDE[prod_short](../includes/prod_short.md)] voi luoda vain nimikkeitä tai jos voi myös päivittää nimikkeitä. Valitse tämä vaihtoehto, jos aiot päivittää nimikkeet manuaalisesti **Lisää nimike** -toiminnon käynnistämän synkronoinnin jälkeen **Synkronoi tuote** -toiminnolla tai toistuvien päivitysten työjonon kautta. Muista valita **Shopifyhin** **Nimikkeen synkronointi** -kentässä.<br>**Voi päivittää Shopify-tuotteita** -toiminnolla ei ole vaikutusta hintojen, kuvien tai varastotasojen synkronointiin, jotka riippumattomat valvojat ovat määrittäneet.<br>Jos **Voi päivittää Shopify-tuotteita** on käytössä, seuraavat Shopify-puolen kentät päivitetään tuote- ja tarvittaessa varianttitasolla: **SKU**, **viivakoodi**, **paino**. Tuotteen **nimike**, **tuotetyyppi**, **toimittaja** ja **kuvaus** päivittyvät myös, jos viedyt arvot eivät ole tyhjiä. Kuvauksen osalta tämä tarkoittaa, että sinun on otettava käyttöön jokin **Synkronoi nimikkeen laajennettu teksti**, **Synkronoi nimikkeen markkinointiteksti** ja **Synkronoi nimikemääritteet** -vaihtoehdoista, ja määritteillä, laajennuksilla tai markkinointitekstillä on oltava arvot. Jos tuote käyttää variantteja, ohjelma lisää tai poistaa variantin tarpeen mukaan. <br>Jos tuote on määritetty Shopifyssa käyttämään varianttimatriisia, joka yhdistää kaksi tai useampia vaihtoehtoja, Shopify Connector ei voi luoda varianttia kyseiselle tuotteelle. Asetusmatriisia ei voi määrittää [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa, joten liitin käyttää **Varianttikoodia** ainoana vaihtoehtona. Shopify odottaa kuitenkin useita vaihtoehtoja ja kieltäytyy luomasta varianttia, jos toisen ja muiden vaihtoehtojen tietoja puuttuu. |
+|**Mittayksikkö versiona**| Valitse tämä vaihtoehto, jotkin vaihtoehdot halutaan viedä tuotuina mittayksiköinä eikä variantteina. Lisää kenttä mukauttamalla. Lisätietoja on osassa [Mittayksikkö varianttina](synchronize-items.md#unit-of-measure-as-variant).|
+|**Mittayksikköversiovaihtoehdon nimi**| Käytä tätä kenttää ja **Mittayksikkö versiona** -vaihtoehtoa määrittämään, mikä vaihtoehto sisältää mittayksikön ilmaisevat variantit. Oletusarvo on *Mittayksikkö*. Lisää kenttä mukauttamalla.|
+
+> [!NOTE]
+> Jos vietäviä nimikkeitä ja variantteja on runsaasti, jotkin niistä on voitu estää. Estettyjä nimikkeitä ja variantteja ei voi sisällyttää hintalaskelmiin, joten niitä ei viedä. Yhdistin ohittaa kyseiset nimikkeet ja variantit, joten niitä ei tarvitse suodattaa **Lisää nimike Shopifyhin** -pyyntösivulla.
+
+## Lisätietoja
+
+### Shopify-tuotteiden SKU:iden ja viivakoodien vaikutus tuotteiden ja varianttien kartoittamiseen ja luomiseen Business Centralissa
+
+Kun tuotteet tuodaan Shopifysta **Shopify-tuotteet**- ja **Shopify-variantit**-taulukoihin, [!INCLUDE[prod_short](../includes/prod_short.md)] yrittää löytää aiemmin luotuja tietueita.
+
+Seuraavassa taulukossa kuvaillaan eri vaihtoehtojen väliset erot **Varastointiyksikön yhdistämismääritykset** -kentässä.
+
+|Asetus|Vaikutus yhdistämiseen|Vaikutus luomiseen|
+|------|-----------------|------------------|
+|**Tyhjä**|Varastointiyksikkö-kenttää ei käytetä nimikkeen yhdistämisrutiinissa.|Ei vaikutusta nimikkeen luomiseen.<br>Tämä asetus estää varianttien luomisen. Myyntitilauksessa käytetään vain päänimikettä. Variantti voidaan silti linkittää manuaalisesti **Shopify-tuote**-sivulta.|
+|**Nimikkeen nro**|Valitse, jos varastointiyksikkö-kentässä on nimikkeen numero|Ei vaikutusta nimikkeen luomiseen ilman variantteja. Jos nimikkeellä on variantteja, jokainen variantti luodaan erillisenä nimikkeenä.<br>Jos Shopifylla on tuote, jossa on kaksi versiota ja niiden varastointiyksiköt ovat 1000 ja 2000, [!INCLUDE[prod_short](../includes/prod_short.md)] luo kaksi nimikettä, joilla on numerot 1000 ja 2000.|
+|**Versiokoodi**|Varastointiyksikkö-kenttää ei käytetä nimikkeen yhdistämisrutiinissa.|Ei vaikutusta nimikkeen luomiseen. Kun nimikevariantti luodaan, koodina käytetään varastointiyksikkökentän arvoa. Jos varastointiyksikkö on tyhjä, luodaan **varianttietuliite**-kentän avulla koodi.|
+|**Nimikenro + versiokoodi**|Valitse tämä vaihtoehto, jos varastointiyksikkö-kentässä on nimikkeen numero ja nimikkeen varianttikoodi, joka on erotettu **varastointiyksikkö-kenttäerotin** -kentässä määritetyllä arvolla.|Kun nimike luodaan, määritetään varastointiyksikkö-kentän arvon ensimmäiseksi osaksi **nro**-arvo. Jos varastointiyksikkökenttä on tyhjä, nimikkeen numero luodaan käyttämällä numerosarjoja, jotka on määritetty **Nimikemallikoodi**- tai **Nimikenumero**-kentässä **Varaston määritys** -sivulla.<br>Kun nimike luodaan, varianttifunktio käyttää varastointiyksikkö-kentän arvon toista osaa muodossa **Koodi**. Jos varastointiyksikkökenttä on tyhjä, luodaan **varianttietuliite**-kentän avulla koodi.|
+|**Toimittajan nimikenro**|Valitse, jos varastointiyksikkö-kentässä on toimittajanimikkeen numero. Tässä tapauksessa nimikkeen **Toimittajanro**-kenttää ei käytetä **nimikkeen kortti** -sivulla. **Toimittajan nimikenro** -vaihtoehtoa käytetään **nimikkeen toimittajakatalogista**. Jos löydetyssä *nimiketoimittajaluettelo*-tietueessa on varianttikoodi, tätä koodia käytetään Shopify-variantin yhdistämiseen.|Jos vastaava toimittaja on olemassa [!INCLUDE[prod_short](../includes/prod_short.md)] -järjestelmässä, varastointiyksikköarvoa käytetään **Toimittajan nimikenro** -arvona **Nimikkeen kortti** -sivulla sekä *toimittajan* tyypin **Nimikeviittaus**-arvona. <br>Estää varianttien luonnin. Se on hyödyllinen silloin, kun haluat käyttää päänimikettä vain myyntitilauksessa. Voit silti yhdistää variantin manuaalisesti **Shopify-tuote**-sivulla.|
+|**Viivakoodi**|Valitse, jos varastointiyksikkö-kentässä on viivakoodi. Haku suoritetaan niiden **nimikeviittausten** osalta, joiden tyyppi on *viivakoodi*. Jos löydetyssä nimikeviitetietueessa on varianttikoodi, tätä varianttikoodia käytetään Shopify-variantin yhdistämiseen.|Ei vaikutusta nimikkeen luomiseen. <br>Estää varianttien luonnin. Se on hyödyllinen silloin, kun haluat käyttää päänimikettä vain myyntitilauksessa. Voit silti yhdistää variantin manuaalisesti **Shopify-tuote**-sivulla.|
+
+Seuraava taulukko luonnostelee **Viivakoodi**-kentän vaikutuksen.
+
+|Vaikutus yhdistämiseen|Vaikutus luomiseen|
+|-----------------|------------------|
+|Haku suoritetaan **Tuoteviittauksista**, jotka sisältävät Shopifyn **Viivakoodi**-kentän arvona viivakoodityypin. Jos löydetyssä nimikeviitetietueessa on varianttikoodi, tätä varianttikoodia käytetään Shopify-variantin yhdistämiseen.|Viivakoodi tallennetaan nimikkeen ja nimikevariantin **nimikeviitteenä**.|
+
+> [!NOTE]  
+> Voit käynnistää valittujen tuotteiden/varianttien tai kaikkien tuotujen yhdistämättömien tuotteiden yhdistämisen valitsemalla **Yritä etsiä tuotteen yhdistäminen** tai **Yritä etsiä yhdistämisiä**.
 
 ### Kenttien yhdistämisen yleiskatsaus
 
@@ -118,7 +127,7 @@ Voit hallita nimikkeiden vientiprosessia seuraavien asetusten avulla:
 |Kustannus per nimike|**Yksikkökustannus**|**Yksikkökustannus**. Yksikkökustannus tuodaan vain uusille nimikkeille, eikä sitä päivitetä myöhemmissä synkronoinneissa.|
 |Varastointiyksikkö|Lisätietoja varastointiyksiköistä on [Vie nimikkeitä Shopifyhin](synchronize-items.md#export-items-to-shopify) **SKU-määritys**-kohdassa.|Lue lisää varastointiyksiköistä [Shopifyn tuotteiden varastointiyksiköiden ja viivakoodien vaikutus nimikkeiden ja varianttien kartoittaminen ja luominen Business Centralissa](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central) -osasta.|
 |Viivakoodi|Viivakoodityypin **nimikeviitteet**.|Viivakoodityypin **nimikeviitteet**.|
-|Varasto varastoidaan kohteessa| Riippuu Shopify-kaupan sijainneista. Jos **Business Central -toteutuspalveluilla** on **Oletus**- kenttä käytössä, varasto on varastoitu ja lähetetty **Business Central -toteutuspalveluista**. Muutoin käytetään Shopifyn ensisijaista sijaintia tai useaa sijaintia.| Ei käytetty.|
+|Varasto varastoidaan kohteessa| Riippuu Shopify-kaupan sijainneista. Jos **Tuotteen oletussijainti** -kenttä on otettu käyttöön **Business Centralin täyttämispalveluissa**, varasto varastoidaan ja lähetetään **Business Centralin täyttämispalveluista**. Muutoin käytetään Shopifyn ensisijaista sijaintia tai useaa sijaintia. Lisätietoja on kohdassa [Kaksi tapaa hallita täyttämisiä](synchronize-items.md#two-approaches-to-manage-fulfillments)| Ei käytetty.|
 |Seurattava määrä|**Shopify-ostoskortti**-sivun **Seurattu varasto** -kentän mukaan. Katso lisätietoja [Varasto](synchronize-items.md#sync-inventory-to-shopify)-osasta. Käytetään vain, kun tuote viedään ensimmäisen kerran.|Ei käytetty.|
 |Jatka myyntiä, kun varasto on loppunut|**Shopify-ostoskortin** **Oletusvarastokäytännön** mukaan.|Ei käytetty.|
 |Tyyppi|**Nimikekategoriakoodin** **kuvaus**. Jos tyyppiä ei ole määritetty Shopifyssa, se lisätään mukautettuna tyyppinä.|**Nimikeluokan koodi**. Linkitys kuvauksen mukaan.|
@@ -132,6 +141,23 @@ Voit hallita nimikkeiden vientiprosessia seuraavien asetusten avulla:
 
 Poista tuodut tunnisteen **Tunnisteet**-tietoruudusta **Shopify-tuote**-sivulla. Muokkaa tunnisteita valitsemalla **Tunnisteet**-toiminto samalla sivulla.
 Jos **Shopifyhin** on valittuna **Synkronoi nimike** -kentässä, määritetyt tunnisteet viedään Shopifyhin seuraavan synkronoinnin yhteydessä.
+
+### Mittayksikkö varianttina
+
+Shopify ei tue useita mittayksiköitä. Jos sama tuote halutaan myydä esimerkiksi kappaletavarana ja pakkauksena sekä käyttää eri hintoja tai alennuksia, mittayksikkö on luotava tuotevarianttina.
+Shopify-yhdistin voidaan määrittää viemään mittayksikkö varianttina tai tuomaan variantit mittayksikkönä.
+
+Tämä ominaisuus otetaan käyttöön **Shopify-ostoskortin** **Mittayksikkö versiona**- ja **Versiovaihtoehdon nimi** -kentissä. Kentät on oletusarvoisesti piilotettu, joten ne on lisättävä sivulle mukauttamalla.
+
+**Mittayksikköä varianttina koskevia huomautuksia**
+
+* Kun tuote tuodaan [!INCLUDE[prod_short](../includes/prod_short.md)]iin, yhdistin luo mittayksikön. **Määrä mittayksikköä kohti** on päivitettävä.
+* Varianttimatriisia, kuten väriä ja mittayksikköä, käytettäessä ja tuotteita tuotaessa *Nimikenro + varianttikoodi* on määritettävä **Varastointiyksikön yhdistämismääritykset** -kentässä. Lisäksi on varmistettava, että Shopifyn **Varastointiyksikkö**-kentässä on sama arvo kaikille mittayksiköille ja sekä nimikenumero että varianttikoodi.
+* Saatavuus lasketaan [!INCLUDE[prod_short](../includes/prod_short.md)]issa nimike- tai nimikevarianttikohtaisesti eikä mittayksikön mukaan. Tällä tavoin sama saatavuus määritetään kullekin mittayksikköä ilmaisevalla variantille (**Määrä mittayksikköä kohti** -arvon osalta). Tämä voi johtaa tilanteisiin, joissa Shopifyssa oleva määrä ei ole tarkka. Esimerkki: Nimike myydään kappaletavarana ja 6 tuotteen pakkauksena. Varasto [!INCLUDE[prod_short](../includes/prod_short.md)]issa on 6 kpl. Nimike viedään Shopifyhyn tuotteena, jolla on kaksi varianttia. Varaston synkronoinnin jälkeen Shopifyn varastomäärä on 6, kun varianttina on kappaletavara, ja 1, kun varianttina on pakkaus. Ostaja voi tutkia vain myymälää ja havaitsee, että tuotteen molemmat vaihtoehdot ovat saatavana. Ostaja päättää tilata 1 pakkauksen. Seuraava ostaja näkee, että pakkaus ei ole saatavana, mutta kappaletavaraa on jäljellä 6. Tämä korjautuu seuraavan varaston synkronoinnin jälkeen.
+
+### URL- ja esiversion URL-osoite
+
+Shopifyhin lisätyllä tai Shopifysta tuodulla nimikkeellä voi olla **URL**- tai **Esiversion URL**-osoite täytettynä. **URL-osoite**-kenttä on tyhjä, jos tuotetta ei julkaistu verkkokaupassa esimerkiksi siksi, että sen tila on luonnos. **URL-osoite** on tyhjä, jos kauppa on suojattu salasanalla esimerkiksi siksi, että se on kehityskauppa. Useimmissa tapauksissa voit tarkistaa **Esiversion URL-osoitteen** avulla, miltä tuote näyttää julkaisun jälkeen.
 
 ## Suorita nimikkeiden synkronointi
 
@@ -162,10 +188,6 @@ Vaihtoehtoisesti voit synkronoida yhden kohteen valitsemalla **Lisää Shopifyhy
 Vaihtoehtoisesti voit käyttää **Synkronoi tuotteet** - toimintoa **Shopify-tuotteet**-sivulla tai hae **Synkronoi tuotteet** -eräajoa.
 
 Voit ajoittaa tehtävän suoritettavaksi automaattisesti. Lisätietoja on kohdassa [Toistuvien tehtävien ajoittaminen](background.md#to-schedule-recurring-tasks).
-
-### URL- ja esiversion URL-osoite
-
-Shopifyhin lisätyllä tai Shopifysta tuodulla nimikkeellä voi olla **URL**- tai **Esiversion URL**-osoite täytettynä. **URL-osoite**-kenttä on tyhjä, jos tuotetta ei julkaistu verkkokaupassa esimerkiksi siksi, että sen tila on luonnos. **URL-osoite** on tyhjä, jos kauppa on suojattu salasanalla esimerkiksi siksi, että se on kehityskauppa. Useimmissa tapauksissa voit tarkistaa **Esiversion URL-osoitteen** avulla, miltä tuote näyttää julkaisun jälkeen.
 
 ### Shopify-tuotteiden Ad-Hoc-päivitykset
 
@@ -253,8 +275,7 @@ Varaston synkronointi voidaan määrittää jo synkronoiduille nimikkeille. On t
 4. Valitse **Hae Shopify-sijainnit** -toiminto, jos haluat tuoda kaikki Shopifyssa määritetyt sijainnit. Voit etsiä niitä [**Sijainnit**](https://www.shopify.com/admin/settings/locations)-asetuksista **Shopify-järjestelmänvalvojastasi**.
 5. Lisää **sijaintisuodatus** -kenttään sijainteja, jos haluat sisällyttää varaston vain tietyistä sijainneista. Voit siis syöttää arvoksi *ITÄ|LÄNSI*, jolloin varasto vain näistä kahdesta sijainnista on myynnissä verkkokaupan kautta.
 6. Valitse varaston laskentatapa, jota käytetään valituissa Shopify-sijainneissa.
-7. Ota **oletusasetus** käyttöön, jos haluat, että sijaintia käytetään varastotietueiden luonnissa ja jos haluat osallistua varaston synkronointiin. Aktivoi **oletusasetus** **Business Centralin täyttämispalveluille**, kun haluat luoda varastotietueen, joka edustaa täyttämispalvelua. Muutoin luodaan varastotietue ensisijaisesta shopify-sijainnista ja kaikista normaaleista sijainneista, joissa **Oletus** on päällä.
-
+7. Ota **Tuotteen oletussijainti** käyttöön, jos haluat, että sijaintia käytetään varastotietueiden luonnissa ja jos haluat osallistua varaston synkronointiin. 
 
 Voit alustaa varaston synkronoinnin kahdella alla kuvatulla tavalla.
 
@@ -271,11 +292,11 @@ Voit alustaa varaston synkronoinnin kahdella alla kuvatulla tavalla.
 
 ### Varaston huomautukset
 
-* Varaston vakiolaskentamenetelmä on **Oletettu saatavilla oleva päivän saldo**. Laajennettavuuden avulla voit lisätä vaihtoehtoja. Saat lisätietoja laajennettavuudesta siirtymällä [esimerkkeihin](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify#stock-calculation). 
+* Varaston laskentaan kaksi vakiomenetelmää: **Oletettu saatavilla oleva päivän saldo** ja **Vapaa varasto (ei varattu)**. Laajennettavuuden avulla voit lisätä vaihtoehtoja. Saat lisätietoja laajennettavuudesta siirtymällä [esimerkkeihin](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify#stock-calculation). 
 * Voit tarkistaa Shopifysta saadut varastotiedot **Shopify-varaston tietoruutu** -sivulta. Tässä tietoruudussa on yleiskuvaus Shopify-varastosta ja viimeisestä lasketusta varastosta [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa. Sijaintia kohti on yksi tietue.
 * Jos Shopifyn varastotiedot poikkeavat [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelman **Arvioidusta käytettävissä olevasta saldosta**, varastotiedot päivitetään Shopifyssa.
 * Kun lisäät uuden sijainnin Shopifyhyn, sitä varten on lisättävä myös varastotietueita. Shopify ei tee sitä automaattisesti olemassa oleville tuotteille ja varianteille, eikä yhdistin synkronoi näiden nimikkeiden varastomääriä uudessa sijainnissa. Saat lisätietoja siirtymällä kohtaan [Varaston määrittäminen sijainteihin](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
-* Sekä **Business Centralin täyttämispalvelut** että normaalit sijainnit ovat tuettuja, ja niitä voidaan käyttää toimitukseen ja varastoon.
+* Sekä **Business Centralin täyttämispalveluja** että normaalit sijainteja tuetaan, ja niitä voidaan käyttää toimitukseen ja varastoon.
 
 #### Esimerkki oletetun saatavilla olevan saldon laskemisesta
 
@@ -285,6 +306,51 @@ Nimikettä A saatavilla on 10 kappaletta ja niille on kaksi avointa myyntitilaus
 |------|-----------------|-----------------|
 |Tiistai|9|Varasto 10 miinus myyntitilaus asetettu lähetettäväksi maanantaina|
 |Perjantai|7|Varasto 10 miinus molemmat myyntitilaukset|
+
+### Kaksi tapaa hallita täyttämisiä
+
+Täyttämiseen on Shopifyssa kaksi tapaa:
+* Shopifyhyn sisältyvä täyttäminen ja varaston seuranta
+* Kolmannen osapuolen täyttäminen ja varaston seuranta
+
+Kunkin Shopifyn tuotteen varasto voi olla joko Shopifyn tai 3PL-palvelun varastoima.
+
+Jos käytössä on Shopifyn täyttäminen, Shopifyhyn voidaan määrittää useita sijainteja. Kun tilaus on luotu, Shopify valitsee sijainnin saatavuuden ja prioriteetin perusteella. Lisäksi voidaan määrittää, missä sijainnissa tiettyä tuotetta on tarkoitus seurata. Esimerkki: sijainnissa *Esittelytila* ei ole koskaan myyntiä.
+
+Jos käytössä 3PL, 3PL-palvelu huolehtii fyysisestä käsittelystä, joten sijainteja ei tarvita. 3PL-palvelu Varastointiyksikkö-kenttä on tulossa pakolliseksi.
+
+Kun on päätetty, missä sijainnissa nimikettä seurataan, Shopify luo tietueet **Varastomäärä**-taulukossa, johon varaston saatavuus voidaan päivittää manuaalisesti.
+
+Yhdistin tukee kumpaakin tilaa. Se voi lähettää varastoa useisiin Shopify-sijainteihin tai toimia täyttämispalveluna.
+
+[!INCLUDE[prod_short](../includes/prod_short.md)]in kannalta nimikettä luotaessa ja lähetettäessä se Shopifyhyn halutaan myös
+* määrittää **Tuotteen oletussijainti** -vaihtopainikkeella, käytetäänkö nimikkeen täyttämiseen Shopifyta vai 3PL-palvelua. Käytössä on aina **Business Centralin täyttämispalvelu**, mutta käytössä voi myös muita täyttämispalveluita, jos myös muita sovelluksia on asennettu. **Tuotteen oletussijainti** voidaan ottaa käyttöön vain yhdessä tietueessa, jos täyttämispalvelua halutaan käyttää. 
+* määrittää **Tuotteen oletussijainti** -vaihtopainikkeella, mitä sijainteja halutaan käyttää varaston seurantaan. **Tuotteen oletussijainti** voidaan ottaa käyttöön useissa sijainneissa, joissa **On jakelupalvelu** on poistettu käytöstä. Kannattaa muistaa, että pääsijainnin varastoa seurataan aina. 
+ 
+#### Vaihtoehtojen erot
+
+Shopify-täyttäminen on kätevä käytettäessä Shopify-myyntipisteitä ja kun fyysisiä myymälöitä on useita. Fyysisen myymälän työntekijän halutaan olevan perillä nykyisestä varastosta. Siinä tapauksessa Shopifyhyn ja [!INCLUDE[prod_short](../includes/prod_short.md)]iin luodaan useita sijainteja ja **Tuotteen oletussijainti** aktivoidaan kaikissa näissä sijainneissa.  
+
+Jos logistiikka käsitellään [!INCLUDE[prod_short](../includes/prod_short.md)]issa, jossa voi olla tarvittava määrä jakelukeskukset ilmaisevia sijainteja, sijainteja ei tarvitse luoda Shopifyssa, Shopify-yhdistin luo Business Centralin täyttämispalvelut automaattisesti ja varasto voi linkittää sijaintisuodattimien kautta useista sijainneista yhteen täyttämispalvelutietueeseen. Tämän vuoksi Shopifyssa ei kuitenkaan ole tietoja siitä, mistä tavarat lähetetään vaan ainoastaan seurannan tiedot. Valinta voidaan tehdä [!INCLUDE[prod_short](../includes/prod_short.md)]issa saatavuuden ja kohteen läheisyyden perusteella. 
+
+#### Esimerkki Tuotteen oletussijainti -vaihtopainikkeen käyttämisestä
+
+Seuraavat sijainnit näkyvät, kun **Hae Shopify-sijainnit** -toiminto on valittu **Shopify-sijainnit**-sivulla:
+
+|Nimi|On jakelupalvelu|On ensisijainen|
+|------|-----------------|-----------------|
+|Pääasiallinen| |**Kyllä**|
+|Toissijainen| | |
+|Business Centralin täyttämispalvelu|**Kyllä**| |
+
+Tuotteen oletussijainti -vaihtopainikkeen käyttöönoton vaikutuksen tarkastelu:
+
+|Niiden sijaintien nimi, joissa Tuotteen oletussijainti on otettu käyttöön vaihtopainikkeella|Vaikutus tuotteen luontiin Shopifyssa|
+|------|-----------------|
+|Pääasiallinen| Varaston varastointipaikka: useita sijainteja; valitut sijainnit: pääasiallinen (ensisijainen) |
+|Pääasiallinen ja toissijainen| Varaston varastointipaikka: useita sijainteja; valitut sijainnit: pääasiallinen ja toissijainen |
+|Business Centralin täyttämispalvelu|Varaston varastointipaikka: Business Centralin täyttämispalvelu; valitut sijainnit: (sovellus) Business Centralin täyttämispalvelu|
+|Business Centralin täyttämispalvelu ja pääasiallinen| Virhe: Shopify-vakiosijainteja ei voi käyttää täyttämispalvelusijaintien kanssa|
 
 ## Katso myös
 

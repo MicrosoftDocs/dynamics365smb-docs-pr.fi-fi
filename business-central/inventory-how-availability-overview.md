@@ -1,5 +1,5 @@
 ---
-title: Saatavuuden yleiskuva
+title: Saatavuuden yleiskatsaus
 description: Saat tietoja nimikkeiden tai varaston saatavuudesta eri sijainneissa esimerkiksi myynti- tai ostotapahtumien tai ajanjakson mukaan.
 documentationcenter: ''
 author: brentholtorf
@@ -7,7 +7,7 @@ ms.topic: overview
 ms.devlang: al
 ms.search.keywords: stock
 ms.search.form: '908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390'
-ms.date: 09/21/2022
+ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -20,7 +20,7 @@ Voit tarkastella kaikkien nimikkeiden saatavuutta sijainneittain sekä kunkin ni
 > [!NOTE]  
 >   Sijaintiin perustuvat saatavuusnäkymät edellyttävät, että varastoa pidetään useissa sijainneissa. Lisätietoja on kohdassa [Sijaintien määrittäminen](inventory-how-setup-locations.md).
 
-Jos käytät varastointitoimintoa, saatavuus vaihtelee varastohuoneen kiintöiden mukaan, kun varastointitoimenpiteitä, kuten noutoja ja siirtoja tapahtuu ja silloin, kun varaston varausjärjestelmät luovat rajoitteita. Varsin monimutkainen algoritmi tarkistaa, että kaikki edellytykset täyttyvät ennen kuin poimintojen määrät määritetään lähteville virroille. Lisätietoja [Lisätietoja: Saatavuus Varastossa](design-details-availability-in-the-warehouse.md)
+Jos käytät varastointitoimintoa, saatavuus vaihtelee varastohuoneen kiintöiden mukaan, kun varastointitoimenpiteitä, kuten noutoja ja siirtoja tapahtuu ja silloin, kun varaston varausjärjestelmät luovat rajoitteita. Varsin monimutkainen algoritmi tarkistaa, että kaikki edellytykset täyttyvät ennen kuin poimintojen määrät määritetään lähteville virroille. Lisätietoja on kohdassa [Rakennetiedot: Saatavuus varastossa](design-details-availability-in-the-warehouse.md).
 
 [!INCLUDE[prod_short](includes/prod_short.md)]ssa saatavuusluvut näytetään yleensä kahdessa eri kentässä, joista molemmilla on eri määritelmä:
 
@@ -59,11 +59,11 @@ Nimikkeen saatavuutta määritettynä aikajaksolla voit tarkastella **Nimikk. sa
 
 Voit tarkastella nimikkeen saatavuutta kaikissa paikoissa, jossa sitä varastoidaan **Nimikkeen saatavuus sijainnin mukaan** -sivulla.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
 2. Avaa sen nimikkeen kortti, jonka saatavuuden haluat näyttää.
 3. Valitse **Nimikkeen saatavuus** -toiminto ja sitten **Sijainti**-toiminto.
 
-    **Nimikkeen saatavuus sijainnin mukaan** -sivulla näkyy, kuinka nimikkeen varastosaldo kehittyy jatkossa, kullekin varastosijainnille eriteltynä.
+    **Nimikkeen saatavuus sijainnin mukaan** -sivulla näkyy, kuinka nimikkeen varastosaldo kehittyy jatkossa kullekin varastosijainnille eriteltynä.
 4. Valitse arvo **Varastosaldo** -kentässä tarkastellaksesi nimiketapahtumia tai avataksesi asiakirjoja, jotka muodostavat arvon.
 5. Valitse arvo **Oletettu saatavilla oleva saldo** -kentässä tarkastellaksesi nimiketapahtumia tai avataksesi asiakirjoja, jotka muodostavat arvon.
 
@@ -127,15 +127,15 @@ Seuraavat kentät määrittävät saatavuusluvut sekä päänimikkeiden että al
 
 - Automaattisesti myyntitilausrivistä kokoonpano tilausta varten - tilanteissa, kun syötät määrän, joka saa aikaan osan saatavuusongelman.
 - Automaattisesti kokoonpanotilauksen otsikosta, kun syötät Määrä-kenttään arvon, joka saa aikaan osan saatavuusongelman.
-- Manuaalisesti, kun avaat sen kokoonpanotilauksesta. Valitse Toiminnot-välilehden Funktiot-ryhmässä Näytä saatavuus.
+- Manuaalisesti, kun avaat sen kokoonpanotilauksesta. Valitse Toiminnot-välilehden Toiminnot-ryhmässä Näytä saatavuus.
 
 **Tiedot**-pikavälilehdessä on kokoonpanon nimikkeen yksityiskohtaiset saatavuustiedot, kuten montako kokoonpanotilausten määrää voidaan koota eräpäivään mennessä tarvittavien osien saatavuuden perusteella. Tämä näkyy Mahdollista koota -kentässä Tiedot-pikavälilehdellä.
 
-**Mahdollista koota** -kentän arvo näkyy punaisella fontilla, jos määrä on pienempi kuin **Jäljellä oleva määrä** -kentässä näkyvä määrä, mikä ilmaisee, että osia ei riitä koko määrän kokoamiseen.
+**Voi koota** -kentän arvo näkyy punaisella fontilla, jos määrä on pienempi kuin **Jäljellä oleva määrä** -kentässä näkyvä määrä, mikä ilmaisee, että osia ei riitä koko määrän kokoamiseen.
 
 **Rivit**-pikavälilehdessä on kokoonpanon komponenttien yksityiskohtaiset saatavuustiedot.
 
-Jos vähintään yksi kokoonpanon komponentti ei ole saatavana, vaikutus näkyy kyseisen rivin **Mahdollista koota** -kentässä niin, että sen määrä on pienempi kuin **Tiedot**-pikavälilehden **Jäljellä oleva määrä** -kentän arvo.
+Jos vähintään yksi kokoonpanon komponentti ei ole saatavana, vaikutus näkyy kyseisen rivin **Voi koota** -kentässä niin, että sen määrä on pienempi kuin **Tiedot**-pikavälilehden **Jäljellä oleva määrä** -kentän arvo.
 
 ## Katso myös
 

@@ -51,6 +51,10 @@ Olemassa olevien [!INCLUDE[prod_short](../includes/prod_short.md)] -esiintymien 
 2. Valitse **Uusi**-toiminto.  
 3. Syötä **Koodi**-kenttään koodi, jonka avulla etsiminen on helppoa [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa. Nimi voi esimerkiksi kuvastaa sitä, mitä kauppa myy, kuten "huonekalut" tai "kahvi", tai maata tai aluetta, jossa se palvelee.
 4. Syötä **Shopify URL** -kenttään URL-osoite verkkokauppaan, johon muodostat yhteyttä. Käytä seuraavaa muotoa: `https://{shop}.myshopify.com/`.
+
+   > [!TIP]
+   > URL-osoite voidaan kopioida Shopifyn hallinnosta, esimerkiksi `https://admin.shopify.com/store/{shop}`, ja yhdistin muuntaa sen tarvittavaan muotoon.
+
 5. Ota käyttöön **Käytössä**-valitsin ja tarkista ja hyväksy sitten ehdot ja edellytykset.
 6. Jos ohjelma pyytää, kirjaudu Shopify-tilillesi. Tarkasta tietosuojan ehdot ja käyttöoikeudet ja valitse sitten **Asenna sovellus** -painike.
 
@@ -69,8 +73,8 @@ Toista vaiheet 2-6 kaikille verkkokaupoille, jotka haluat yhdistää.
 
 Nyt verkkokauppa on yhteydessä [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmaan. Seuraavissa vaiheissa määritetään, miten ja mitä synkronoidaan.
 
-- [Kohteiden synkronointi](synchronize-items.md)
-- [Asiakkaiden synkronointi](synchronize-customers.md)
+- [Synkronoi nimikkeet ja varasto](synchronize-items.md)
+- [Synkronoi asiakkaat](synchronize-customers.md)
 - [Tilausten synkronointi](synchronize-orders.md)
 
 ## Testistrategiat

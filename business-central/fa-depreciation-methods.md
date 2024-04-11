@@ -7,32 +7,27 @@ ms.reviewer: bnielse
 ms.topic: conceptual
 ms.search.keywords: 'write down, depreciate, depreciation'
 ms.search.form: '5629, 5633'
-ms.date: 09/22/2023
+ms.date: 03/25/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
+
 # Käyttöomaisuuden poistomenetelmät
 
-Kahdeksan poistomenetelmää on saatavilla kohdassa [!INCLUDE [prod_short](includes/prod_short.md)]:  
+[!INCLUDE [prod_short](includes/prod_short.md)] tukee kahdeksaa erilaista käyttöomaisuuden poistomenetelmää:
 
-* Suora viiva  
-* Menojäännöspoisto 1  
-* Menojäännöspoisto 2  
-* MJP1/TP  
-* MJP2/TP  
-* Käyttäjäkohtainen  
-
-  Määritä oma poistotapa käyttämällä poistotaulukoita. Lisätietoja käyttäjän määrittämän poistomenetelmän soveltamisesta on kohdassa [Käyttäjän määrittämän poistomenetelmän määrittäminen](fa-how-setup-user-defined-depreciation-method.md).
-* Manuaalinen  
-
-  Tätä manuaalista menetelmää voidaan käyttää omaisuuserille, joille ei tehdä poistoja, kuten maa-alueille. Poisto on vietävä käyttöomaisuuserän KP-päiväkirjaan. **Laske poisto** -eräajo jättää huomiotta käyttöomaisuuserät, joille käytetään manuaalista poistomenetelmää.  
-* Puolivuotissopimus  
-
-  Tällä menetelmällä käyttöomaisuudesta poistetaan joka vuosi sama summa.  
+* Tasapoisto (SL)
+* Menojäännöspoisto 1 (DB1)
+* Menojäännöspoisto 2 (DB2)
+* MJP1/TP
+* MJP2/TP
+* Puolivuotissopimus
+* Manuaalinen
+* Käyttäjän määrittämä poisto
 
 ## Tasapoisto
 
-Tasapoistomenetelmää käytettäessä käyttöomaisuuden poistokirjaan on määritettävä jokin seuraavista vaihtoehdoista:  
+Tasapoiston avulla omaisuuserän arvoa poistetaan joko kiinteällä vuosiprosentilla tai kiinteällä vuosittaisella summalla poistojakson aikana. Tasapoistomenetelmää käytettäessä käyttöomaisuuden poistokirjaan on määritettävä jokin seuraavista vaihtoehdoista:  
 
 * Poistojakso (vuotta tai kuukautta) tai poiston lopetuspäivämäärä  
 * Kiinteä vuosittainen prosentti  
@@ -43,9 +38,9 @@ Tasapoistomenetelmää käytettäessä käyttöomaisuuden poistokirjaan on mää
 
 Jos annat poistojakson (poistovuosien tai poistokuukausien lukumäärän tai poiston lopetuspäivämäärän), poistosumma lasketaan seuraavalla kaavalla:  
 
-*Poistosumma = ((Kirjanpitoarvo - Jäännösarvo) x Poistopäivien lukumäärä) / Jäljellä olevat poistopäivät*  
+* Poistosumma = ((Kirjanpitoarvo - Jäännösarvo) x Poistopäivien lukumäärä) / Jäljellä olevat poistopäivät*  
 
-Jäljellä oleviksi poistopäiviksi lasketaan poistopäivien lukumäärä miinus poiston aloituspäivän ja viimeisen käyttöomaisuustapahtuman päivän välisten päivien lukumäärä.  
+Jäljellä oleviksi poistopäiviksi lasketaan poistopäivien lukumäärä vähennettynä poiston aloituspäivän ja viimeisen käyttöomaisuustapahtuman päivän välisten päivien lukumäärällä.  
 
 Kirjanpitoarvoa voidaan vähentää kirjatulla arvonkorotuksella, arvonalennuksella, mukautettu 1- tai mukautettu 2 -summilla riippuen siitä, onko **Sisällytä poistolaskentaan** -kentästä poistettu aktivointi ja onko **Kirjanpitoarvon osa** -kenttä aktivoitu **KO:n kirjaustyypin asetukset** -sivulla. Laskenta takaa sen, että käyttöomaisuudelle tehdään kokonaispoisto poiston lopetuspäivämääränä.  
 
@@ -53,13 +48,13 @@ Kirjanpitoarvoa voidaan vähentää kirjatulla arvonkorotuksella, arvonalennukse
 
 Jos annat kiinteän vuosittaisen prosentin, [!INCLUDE [prod_short](includes/prod_short.md)] käyttää poistosumman laskemiseen seuraavaa laskukaavaa:  
 
-*Poistosumma = (Tasapoisto-% x Poistopohja x Poistopäivien lkm) / (100 x 360)*  
+* Poistosumma = (Tasapoisto-% x Poistopohja x Poistopäivien lkm) / (100 x 360)*  
 
 ### Kiinteä vuosittainen summa
 
 Jos annat kiinteän vuosittaisen summan, [!INCLUDE [prod_short](includes/prod_short.md)] käyttää poistosumman laskemiseen seuraavaa laskukaavaa:  
 
-* *Poistosumma = (Kiinteä poistosumma x Poistopäivien lukumäärä) / 360*  
+* Poistosumma = (Kiinteä poistosumma x Poistopäivien lukumäärä) / 360*  
 
 ### Esimerkki - Tasapoisto
 
@@ -68,14 +63,15 @@ Käyttöomaisuuden hankintameno on PVA 100 000. Arvioitu käyttöikä on kahdeks
 Tässä esimerkissä käyttöomaisuustapahtuma näyttää seuraavalta:  
 
 | Pvm | KO:n kirjaustyyppi | Päivää | Summa | Kirjanpitoarvo |
-| --- | --- | --- | --- | --- |
+| ---- | --------------- | ---- | ------ | ---------- |
 | 01/01/20 |Hankintameno |(Poiston aloituspvm) |100,000.00 |100,000.00 |
 | 06/30/20 |Arvonalennus |180 |-6.250,00 |93,750.00 |
 | 12/31/20 |Arvonalennus |180 |-6.250,00 |87,500.00 |
 | 06/30/21 |Arvonalennus |180 |-6.250,00 |81,250.00 |
 | 12/31/21 |Arvonalennus |180 |-6.250,00 |75,000.00 |
-| 06/30/27 |Arvonalennus |180 |-6.250,00 |6,250.00 |
-| 12/31/27 |Arvonalennus |180 |-6.250,00 |0 |
+| ...      |             |    |          |          |
+| 06/30/27 |Arvonalennus |180 |-6.250,00 |6,250.00  |
+| 12/31/27 |Arvonalennus |180 |-6.250,00 |0         |
 
 ## Menojäännöspoisto 1 -poisto
 
@@ -83,7 +79,7 @@ Tämä poistomenetelmä kohdistaa suurimman osan omaisuuserän kustannuksesta se
 
 Poistosumma lasketaan seuraavalla kaavalla:  
 
-* *Poistosumma = (Menojäännöspoisto-% x Poistopäivien lkm x Poistopohja) / (100 x 360)*  
+* Poistosumma = (Menojäännöspoisto-% x Poistopäivien lkm x Poistopohja) / (100 x 360)*  
 
 Poistettavissa olevaksi pohjaksi lasketaan kirjanpitoarvo vuoden alussa. Poistopäivien määrä on kirjauspäivän ja viimeisen poistopäivän välisten päivien lukumäärä. [!INCLUDE [prod_short](includes/prod_short.md)] laskee poiston olettaen, että tilikaudelle tehdyt poistot tehdään tällä laskukaavalla.  
 
@@ -96,7 +92,7 @@ Käyttöomaisuuden hankintameno on PVA 100 000. **Menojäännöspoisto-%** -kent
 Seuraavassa taulukossa on esimerkkejä käyttöomaisuustapahtumista.  
 
 | Pvm | KO:n kirjaustyyppi | Päivää | Summa | Kirjanpitoarvo |
-| --- | --- | --- | --- | --- |
+| ---- | --------------- | ---- | ------ | ---------- |
 | 01/01/20 |Hankintamenot |(Poiston aloituspvm) |100,000.00 |100,000.00 |
 | 06/30/20 |Arvonalennus |180 |-12.500,00 |87,500.00 |
 | 12/31/20 |Arvonalennus |180 |-12.500,00 |75,000.00 |
@@ -108,14 +104,14 @@ Seuraavassa taulukossa on esimerkkejä käyttöomaisuustapahtumista.
 | 12/31/23 |Arvonalennus |180 |-5.273,44 |31,640.62 |
 | 06/30/24 |Arvonalennus |180 |-3.955,08 |27,685.54 |
 | 12/31/24 |Arvonalennus |180 |-3.955,08 |23,730.46 |
+| ...      |             |    |          |          |
 
 Laskentamenetelmä:  
 
 * Vuosi 1: *25 % arvosta 100 000 = 25 000 = 12 500 + 12 500*
-
 * Vuosi 2: *25 % arvosta 75 000 = 18 750 = 9 375 + 9 375*
-
 * Vuosi 3: *25 % arvosta 56 250 = 14 062,50 = 7 031,25 + 7 031,25*
+* ...
 
 Laskenta jatkuu siihen asti, kun kirjanpitoarvo on yhtä kuin lopullinen pyöristyssumma tai jäännösarvo, jonka syötit.  
 
@@ -149,13 +145,14 @@ Menojäännöspoisto 1- ja Menojäännöspoisto 2 -menetelmät laskevat saman ko
 
 Käyttöomaisuuden hankintameno on PVA 100 000. **Menojäännöspoisto-%** -kentässä on arvo 25. **Laske poisto** -eräajo suoritetaan kaksi kertaa vuodessa. Käyttöomaisuustapahtumat näyttävät seuraavalta:  
 
-| Pvm | KO:n kirjaustyyppi | Päivää | Summa | Kirjanpitoarvo |
-| --- | --- | --- | --- | --- |
+| Pvm     | KO:n kirjaustyyppi  | Päivää                       | Summa    | Kirjanpitoarvo |
+| -------- | ---------------- | -------------------------  | --------- | ---------- |
 | 01/01/20 |Hankintamenot |(Poiston aloituspvm)|100,000.00 |100,000.00 |
-| 06/30/20 |Arvonalennus |180 |-13.397,46 |86,602.54 |
-| 12/31/20 |Arvonalennus |180 |-11.602,54 |75,000.00 |
-| 06/30/21 |Arvonalennus |180 |-10.048,09 |64,951.91 |
-| 12/31/21 |Arvonalennus |180 |-8.701,91 |56,250.00 |
+| 06/30/20 |Arvonalennus      |180                         |-13.397,46 | 86,602.54 |
+| 12/31/20 |Arvonalennus      |180                         |-11.602,54 | 75,000.00 |
+| 06/30/21 |Arvonalennus      |180                         |-10.048,09 | 64,951.91 |
+| 12/31/21 |Arvonalennus      |180                         |-8.701,91  | 56,250.00 |
+| ...      |                  |                            |           |           |
 
 Laskentamenetelmä:  
 
@@ -165,18 +162,19 @@ Laskentamenetelmä:
 * *P* = *MJPP*/100  
 * *P* = *PM*/360  
 
-Poistosumman laskennan kaava on:  
+Poistosumman laskentakaava:  
 
-*PS* = *KP* x (1 – (1 –P)<sup>P</sup>)
+* *PS* = *KP* x (1 – (1 –P)<sup>P</sup>)
 
 Poistojen arvot ovat:  
 
-| Pvm | Laskenta |
-| --- | --- |
+| Pvm     | Laskenta                                                |
+| -------- | -----------                                                |
 | 06/30/20 |PS = 100 000,00 x (1 -(1 - 0,25)<sup>0,5</sup>) = 13 397,46 |
 | 12/31/20 |PS = 86 602,54 x (1 - (1 - 0,25)<sup>0,5</sup>) = 11 602,54 |
 | 06/30/21 |PS = 75 000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 10 048,09 |
-| 12/31/21 |PS = 64 951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8 701,91 |
+| 12/31/21 |PS = 64 951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8 701,91  |
+| ...      |                                                            |
 
 ## MJP1/TP-poisto
 
@@ -195,7 +193,7 @@ Jos tätä menetelmää käytetään, **KO-poistokirjat** -sivulla on annettava 
 
 ### Esimerkki - MJP1/TP-poisto
 
-Käyttöomaisuuden hankintameno on PVA 100 000. **KO-poistokirjat** -sivun **Menojäännöspoisto-%** -kentässä on 25 ja **Poistovuosien lukumäärä** -kentässä on 8. **Laske poisto** -eräajo suoritetaan kaksi kertaa vuodessa.  
+Käyttöomaisuuden hankintameno on PVA 100 000. **KO-poistokirjat** -sivun **Menojäännöspoisto-%** -kentässä on 25 ja **Poistovuosien lukumäärä** -kentässä on **8**. **Laske poisto** -eräajo suoritetaan kaksi kertaa vuodessa.  
 
 Käyttöomaisuustapahtumat näyttävät seuraavalta:  
 
@@ -225,15 +223,15 @@ Laskentamenetelmä:
 
 * Vuosi 1 (2020):  
 
-    *Menojäännöspoistosumma: 25 % 100 000:sta = 25 000 = 12 500 + 12 500*  
+    *Menojäännöspoistosumma: 25 % 100 000:sta = 25 000=12 500+12 500*  
 
     *Tasapoistosumma = 100 000/8=12 500=6 250+6 250*  
 
     Tässä käytetään menojäännöspoistosummaa, koska se on suurempi.  
-
+* ...
 * Vuosi 5 (2025):  
 
-    *Menojäännöspoistosumma: 25 % 23 730,46:sta = 4 943,85 = 2 471,92 + 2 471,92*  
+    *Menojäännöspoistosumma: 25 % 23 730,46:sta = 4 943,85= 2 471,92+2 471,92*  
 
     *Tasapoistosumma = 23 730,46/3 = 7 910,15=3 995,07+3 995,08*  
 
@@ -241,15 +239,15 @@ Laskentamenetelmä:
 
 ## Poisto puolivuotissopimusta käyttämällä
 
-Puolivuotissopimus-menetelmää käytetään vain, jos **KO-poistokirja**-sivun **Käytä puolivuotissopimusta** -kentässä on valintamerkki.  
+Puolivuotissopimus-menetelmää käytetään vain, jos käyttöomaisuuden **Käytä puolivuotissopimusta** otetaan käyttöön vaihtopainikkeella **Käyttöomaisuuden kortti** -sivulla.  
 
-Tätä poistomenetelmää voidaan käyttää seuraavien sovelluksen poistomenetelmien kanssa:  
+Tätä poistomenetelmää voidaan käyttää seuraavien poistomenetelmien kanssa:  
 
 * Suora viiva  
 * Menojäännöspoisto 1  
 * MJP1/TP  
 
-Kun käytetään Puolivuotissopimusta, käyttöomaisuudelle tehdään kuuden kuukauden poisto ensimmäisenä tilikautena **Poiston aloituspvm** -kentän sisällöstä huolimatta.  
+Kun käytetään Puolivuotissopimus-menetelmää, käyttöomaisuudelle tehdään kuuden kuukauden poisto ensimmäisenä tilikautena **Poiston aloituspvm** -kentän sisällöstä huolimatta.  
 
 > [!NOTE]  
 > Käyttöomaisuuden arvioitu ikä, joka on jäljellä ensimmäisen tilikauden jälkeen, on aina puoli vuotta silloin, kun käytetään Puolivuotissopimus-menetelmää. Jotta Puolivuotissopimus-menetelmää voitaisiin käyttää oikein, **KO-poistokirja**-sivun **Poiston lopetuspvm** -kentässä tulee aina olla päivämäärä, joka on tasan kuusi kuukautta ennen sen tilikauden viimeistä päivämäärä, jolloin käyttöomaisuudelle tehdään kokonaispoisto.  
@@ -297,23 +295,23 @@ Laskentamenetelmä:
     *Tasapoistosumma = Koko vuoden summa = 100 000 / 5 = 20 000.* Joten puolen vuoden summa = 20 000 / 2 =10 000  
 
     Tässä käytetään menojäännöspoistosummaa, koska se on suurempi.  
-
+* ...
 * Vuosi 5 (2024):  
 
     *Menojäännöspoistosumma = 40 % 17 280,00:sta = 6 912,00*  
 
-    *Tasapoistosumma = 28 800 / 1,5 = 11 520,00*  
+    *Tasapoistosumma = 28 800/1,5 = 11 520,00*  
 
     Tässä käytetään tasapoistosummaa, koska se on suurempi.  
 
 ## Tapahtumien monistaminen lisäpoistokirjoihin
 
-Jos poistokirjoja on kolme – B1, B2 ja B3 – ja jos haluat monistaa tapahtumia B1:stä B2:een ja B3:een, valitse B2:n ja B3:n poistokirjakorttien **Osa monistusluettelosta** -valintaruutu. Tästä asetuksesta voi olla hyötyä esimerkiksi seuraavissa tapauksissa:
+Jos poistokirjoja on kolme – B1, B2 ja B3 – ja jos haluat monistaa tapahtumia B1:stä B2:een ja B3:een, ota **Osa monistusluettelosta** käyttöön vaihtopainikkeella B2:n ja B3:n poistokirjakorteissa. Tästä asetuksesta voi olla hyötyä esimerkiksi seuraavissa tapauksissa:
 
 * Poistokirja B1 integroituu pääkirjanpitoon ja käyttää käyttöomaisuuden KP-päiväkirjaa.
 * Poistokirjat B2 ja B3 eivät integroidu pääkirjanpitoon ja käytä käyttöomaisuuden käyttöomaisuuspäiväkirjaa.  
 
-Kun käyttöomaisuuskirjanpidon B1-kirjaan pääkirjanpidossa tehdään kirjaus ja valitaan **Käytä monistusluetteloa** -valintaruudun, [!INCLUDE [prod_short](includes/prod_short.md)] monistaa kirjauksen B2- ja B3-kirjaan käyttöomaisuuskirjanpidossa, kun kirjaus kirjataan.  
+Kun käyttöomaisuuskirjanpidon B1-kirjaan pääkirjanpidossa tehdään kirjaus ja **Osa monistusluettelosta** otetaan käyttöön vaihtopainikkeella, [!INCLUDE [prod_short](includes/prod_short.md)] monistaa kirjauksen B2- ja B3-kirjaan käyttöomaisuuskirjanpidossa, kun tapahtuma kirjataan.  
 
 > [!NOTE]  
 > Samaan päiväkirjaan tai päiväkirjan erään, josta olet monistamassa, ei voi monistaa. Jos tapahtumia kirjataan käyttöomaisuuden KP-päiväkirjaan, ne voidaan monistaa KO-päiväkirjaan tai käyttöomaisuuden KP-päiväkirjaan muuta erää käyttämällä.  
@@ -321,9 +319,17 @@ Kun käyttöomaisuuskirjanpidon B1-kirjaan pääkirjanpidossa tehdään kirjaus 
 > [!NOTE]  
 > Samaa numerosarjaa ei voi käyttää sekä käyttöomaisuuden KP-päiväkirjassa että KO-päiväkirjassa. Kun kirjaat tapahtumia KO/KP-päiväkirjaan, jätä **Asiakirjan nro** -kenttä tyhjäksi. Jos annat kenttään numeron, numero monistetaan KO-päiväkirjaan. Asiakirjanumero on muutettava manuaalisesti ennen päiväkirjan kirjaamista.  
 
+## Manuaalinen poisto
+
+Tätä manuaalista menetelmää voidaan käyttää omaisuuserille, joille ei tehdä poistoja, kuten maa-alueille. Poisto on vietävä käyttöomaisuuserän KP-päiväkirjaan. **Laske poisto** -eräajo jättää huomiotta käyttöomaisuuserät, joille käytetään manuaalista poistomenetelmää.
+
+## Käyttäjän määrittämä poisto
+
+Jos valmiit poistomenetelmät eivät vastaa tarpeita, oma poistomenetelmä voidaan määrittää poistotaulukoiden avulla. Lisätietoja käyttäjän määrittämän poistomenetelmän soveltamisesta on kohdassa [Käyttäjän määrittämän poistomenetelmän määrittäminen](fa-how-setup-user-defined-depreciation-method.md).
+
 ## Katso myös
 
-[Käyttöomaisuus](fa-manage.md)  
+[Käyttöomaisuuden yleiskatsaus](fa-manage.md)  
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Taloushallinto](finance.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  

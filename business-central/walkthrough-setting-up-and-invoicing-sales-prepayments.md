@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 12/03/2021
+ms.date: 01/29/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -126,7 +126,7 @@ Susanna luo ennakkomaksulaskun ja lähettää sen asiakkaalle.
     |**Nimike**|**1896-S**|**1**|  
     |**Nimike**|**1900-S**|**1**|
 
-    Myyntirivien ennakkomaksukentät on oletusarvoisesti piilotettu. Jos haluat näyttää kentät, sinun täytyy mukauttaa sivua. Lisätietoja on kohdassa, jossa [Sivun mukauttaminen mukautusvalintanauhan avulla](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
+    Myyntirivien ennakkomaksukentät on oletusarvoisesti piilotettu. Jos haluat näyttää kentät, sivua on mukautettava. Lisätietoja on kohdassa, jossa [Sivun mukauttaminen mukautusvalintanauhan avulla](ui-personalization-user.md#start-personalizing-by-using-the-personalization-mode).
 
 6. Varmista, että **Ennakkomaksuprosentti**-kentässä rivillä, jossa on nimike **1900-S**, lukee **30**. Tämä oletusarvo on peräisin myynnin tunnistetiedoista, joka on täytetty asiakkaan kortista.  
 
@@ -156,7 +156,7 @@ Kun Susanna on lisännyt oikean ennakkomaksuarvon tilaukseen, hän luo ennakkoma
 
 ### Ennakkomaksulaskun luominen
 
-1. Valitse **Myyntitilaus**-sivulla **Toiminnot**, sitten **Kirjaus**, sitten **Ennakkomaksu** ja valitse sitten **Kirjaa ja tulosta ennakkomaksulasku**
+1. Valitse **Myyntitilaus**-sivulla ensin **Toiminnot**, sitten **Kirjaus**, seuraavaksi **Ennakkomaksu** ja lopuksi **Kirjaa ja tulosta ennakkomaksulasku**
 2. Kirjaa lasku valitsemalla **Kyllä**-painike.  
 
 > [!NOTE]  
@@ -171,8 +171,8 @@ Seuraavana päivänä asiakas soittaa Susannalle ja tekee muutoksia tilaukseen. 
 1. Valitse **Myyntitilaus**-sivulla **Vapauta**-toiminto ja sitten **Avaa uudelleen**.  
 2. Syötä nimikkeen **1896-S** kentässä **Määrä** arvoksi **2**.  
 
-    Valitse **Tilaus**-toiminnossa **Tilastotiedot**. **Ennakkomaksun summa ilman ALV:tä** -kenttä sisältää nyt arvon **768,04**, ja **Laskutettu ennakkomaksun summa ilman ALV:tä** -kenttä sisältää arvon **417,76**. Nämä arvot osoittavat, että on ylimääräinen ennakkomaksun määrä, jota ei ole vielä laskutettu.  
-3. Kirjaa ylimääräinen ennakkomaksun summa valitsemalla **Toiminnot**, sitten **Kirjaus**, sitten **Ennakkomaksu** ja sitten valitse **Kirjaa ja tulosta ennakkomaksulasku**
+    Valitse **Tilaus**-toiminnossa **Tilastotiedot**. **Ennakkomaksun summa ilman ALV:tä** -kentässä on nyt **768,04** ja **Laskutettu ennakkomaksun summa ilman ALV:tä** -kentässä on **417,76**. Nämä arvot osoittavat, että on ylimääräinen ennakkomaksun määrä, jota ei ole vielä laskutettu.  
+3. Kirjaa ylimääräinen ennakkomaksun summa valitsemalla ensin **Toiminnot**, sitten **Kirjaus**, seuraavaksi **Ennakkomaksu** ja lopuksi **Kirjaa ja tulosta ennakkomaksulasku**
 4. Kirjaa lasku valitsemalla **Kyllä**-painike.  
 
 ## Ennakkomaksujen kohdistaminen

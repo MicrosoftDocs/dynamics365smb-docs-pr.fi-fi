@@ -7,7 +7,7 @@ ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.forms: '498, 497'
-ms.date: 09/19/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -18,7 +18,7 @@ Voit varata nimikkeitä myyntitilauksiin, ostotilauksiin, huoltotilauksiin, koko
 Jokaisella nimikkeiden varaamista varten avatulla **Varaus**-sivun rivillä on tietoja yhdestä rivin (myynti, osto, päiväkirja) tai varastotapahtuman tyypistä. Riveillä kuvataan, kuinka monta nimikettä on saatavilla varattavaksi kustakin rivin tai tapahtuman tyypistä.
 
 > [!TIP]
-> Varastossa varaamiesi määrien perusteella [!INCLUDE [prod_short](includes/prod_short.md)] näyttää asiakirjoissa tilan, josta tiedät nopeasti seuraavan vaiheen. Näkyvissä voi esimerkiksi olla, että voit toimittaa myyntitilauksen tai aloittaa työn, kokoonpanon tai tuotantotilauksen parissa työskentelemisen. Tila auttaa myös vähentämään osittaisten toimitusten tai viivytysten vaaraa, joka johtuu puuttuvasta varastosta tuotanto- ja kokoonpanotilausten osalta.
+> Varastossa varaamiesi määrien perusteella [!INCLUDE [prod_short](includes/prod_short.md)] näyttää asiakirjoissa tilan, josta tiedät nopeasti seuraavan vaiheen. Näkyvissä voi esimerkiksi olla, että voit toimittaa myyntitilauksen tai aloittaa projektin, kokoonpanon tai tuotantotilauksen käsittelemisen. Tila auttaa myös vähentämään osittaisten toimitusten tai viivytysten vaaraa, joka johtuu puuttuvasta varastosta tuotanto- ja kokoonpanotilausten osalta.
 >
 > **Varattu varastosta** -kenttä voi auttaa sinua ymmärtämään, voiko tietyn tilauksen tai tilausrivin toimittaa vai poimia. Riveillä Varattu varastosta -kenttä on käytettävissä tietoruuduissa. Saat koko tilauksen tiedot näyttöön, kun kenttä on **Tilasto**-sivulla.
 
@@ -79,13 +79,13 @@ Varaa ja kohdista saapuvat tavarat joukkotoiminnolla **Varaustyökirja**-sivulla
 2. Valitse **Hae kysyntä** -toiminto ja määritä sitten, minkälaisen kysynnän haluat varata saatavilla olevasta varastosta.
 3. Täytä tarvittavat suodattimet. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 4. Valinnainen: Voit kohdistaa nimikkeet heti valitsemalla **Kohdista**-toiminnon.
-5. Valitse jokaiselle vaiheelle jokin menettelytapa **Kohdistustapa**-sivulla
+5. Valitse jokaiselle vaiheelle jokin menettelytapa **Kohdistuskäytäntö**-sivulla
 
    |Kohdistuskäytäntö  |Kuvaus  |
    |---------|---------|
    |Perus     | Kohdistaa varastot kysyntään, jos ristiriitoja ei ole ja kysyntä voidaan kattaa kokonaan. Sinulla on esimerkiksi myyntitilaus A, jonka määrä on 10, ja työ, jonka määrä on 7. Jos varastossa on 20, molemmat vaatimukset saavat täyden määrän. Jos varastosi on 12, varastoa ei kohdisteta. Määrä tulee kohdistaa manuaalisesti.        |
    |Tasan    | Jakaa saatavilla olevan varaston kysyntään tasan. Sinulla on esimerkiksi myyntitilaus, jonka määrä on 10, ja työ, jonka määrä on 7. Jos varastotasosi on 20, molemmat kysynnät saavat täyden määrän. Jos varastosi on 12, molemmat kysynnät saavat 6.        |
-   |Asiakkaan prioriteetin mukaan|Jako asiakaskortin Prioriteetti-kentän perusteella. Jos määriä ei ole riittävästi, järjestelmä priorisoi niiden asiakkaiden toimituksia, joilla on korkein prioriteetti.|
+   |Asiakkaan prioriteetin mukaan|Jako **Asiakaskortti**-sivun **Prioriteetti**-kentän perusteella. Jos varastomäärät ovat alhaisia, Business Central toimittaa ensin korkean prioriteetin asiakkaille.|
 
 6. Jos haluat varata kaikki rivit, joilla **Hyväksy** on otettu käyttöön, valitse **Tee varaus** -toiminto.
     

@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
 ms.topic: conceptual
-ms.date: 06/28/2023
+ms.date: 03/08/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -70,6 +70,12 @@ Valuutan synkronointi on yksisuuntaista [!INCLUDE [prod_short](includes/prod_sho
 
 * [!INCLUDE[prod_short](includes/cds_long_md.md)]n perusvaluutan summat muunnetaan [!INCLUDE [prod_short](includes/prod_short.md)]in paikalliseksi valuutaksi [!INCLUDE [prod_short](includes/prod_short.md)]ista synkronoidun uusimman vaihtokurssin perusteella.
 * [!INCLUDE [prod_short](includes/prod_short.md)]in paikallisen valuutan summat synkronoidaan [!INCLUDE [prod_short](includes/prod_short.md)]in paikallisen valuutan kanssa jonakin muuna valuuttana (ei perusvaluuttana) [!INCLUDE[prod_short](includes/cds_long_md.md)]ssa.
+
+## Mitä tapahtuu, kun yritys kopioidaan
+
+[!INCLUDE[prod_short](includes/cds_long_md.md)]- tai [!INCLUDE[crm_md](includes/crm_md.md)] -integroidut yritykset voidaan kopioida turvallisesti. Yritysten kopiointi auttaa pienentämään riskiä tietojen epäjohdonmukaisuuksista ja säästämään arvokasta aikaa. Lisätietoja yritysten kopioinnista on kohdassa [Yrityksen kopiointi](about-new-company.md#copy-a-company).
+
+[!INCLUDE [dataverse-copy-company](includes/dataverse-copy-company.md)]
 
 ## Katso myös
 

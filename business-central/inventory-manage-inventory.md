@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'warehouse, stock'
 ms.search.forms: '5804, 2106, 5823, 5751, 5750, 772, 5829, 5828, 513, 304, 40, 38, 167, 117, 5827, 9223, 158, 354, 9152, 286, 5754, 5402, 209, 297, 298, 99000782'
-ms.date: 12/19/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -56,11 +56,11 @@ Seuraavassa taulukossa on esitetty liittyviä tehtäviä.
 
 ## Katso myös
 
-[Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
-[Hankinta](purchasing-manage-purchasing.md)  
-[Myynti](sales-manage-sales.md)  
-[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
+[Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)    
+[Osto](purchasing-manage-purchasing.md)    
+[Myynti](sales-manage-sales.md)    
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
+[Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)    
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

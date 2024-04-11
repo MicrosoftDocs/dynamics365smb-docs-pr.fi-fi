@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'undo, credit memo, return, order'
 ms.search.form: '44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
-ms.date: 09/08/2021
+ms.date: 03/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -27,7 +27,7 @@ Alkuperäisen kirjatun myyntilaskun lisäksi voit kohdistaa myyntihyvityslaskun 
     - Voit kopioida aiemmin luodun asiakirjan palautustilaukseen **Kopioi asiakirjasta** -toiminnolla. Käytä tätä toimintoa, kun kopioit koko asiakirjan. Se voi olla kirjattu asiakirja tai asiakirja, jota ei ole vielä kirjattu. Voit peruuttaa tällä toiminnolla todelliset kustannukset vain silloin, kun **Todellisen kust. peruutt. pakollinen** -valintaruutu on valittu **Myyntien ja saamisten asetukset** -sivulla.  
 
 5. Valitse **Käsittele**-toiminto ja valitse sitten **Hae peruutettavat kirjatut asiakirjarivit** -toiminto.
-6. Valitse **Kirjatut myyntiasiakirjarivit** -sivun yläosassa **Näytä vain peruutettavat rivit** -valintaruutu, jos haluat nähdä vain palauttamattomia määriä sisältävät rivit. Jos kirjattu myyntilaskun määrä on jo palautettu, et ehkä halua palauttaa uuden myyntipalautusasiakirjan määrää.
+6. Valitse **Kirjatut myyntiasiakirjarivit** -sivun yläosassa **Näytä vain peruutettavat rivit** -valintaruutu, jos haluat nähdä vain palauttamattomia määriä sisältävät rivit. Jos esimerkiksi kirjattu myyntilaskun määrä on jo palautettu, et ehkä halua palauttaa uuden myyntipalautusasiakirjan määrää.
 
     > [!NOTE]  
     >  Tämä kenttä toimii vain kirjattujen toimitusten ja kirjattujen laskutusrivien kohdalla. Se ei toimi kirjattujen palautusten tai kirjattujen hyvityslaskurivien kohdalla.
@@ -44,9 +44,9 @@ Alkuperäisen kirjatun myyntilaskun lisäksi voit kohdistaa myyntihyvityslaskun 
 
     Seuraavat toimenpiteet suoritetaan:  
 
-    -   Tyyppiä **Nimike** oleville kirjatuille asiakirjariveille luodaan uusi asiakirjarivi, joka on kirjatun asiakirjarivin kopio. Sillä on määrä, jota ei ole vielä peruutettu. **Kohdistus nimiketapahtumasta** -kenttä on täytetty soveltuvalla kirjatun asiakirjarivin nimiketapahtuman numerolla.  
+    -   **Nimike**-tyypin kirjatuille asiakirjariveille luodaan uusi asiakirjarivi, joka on kirjatun asiakirjarivin kopio. Sillä on määrä, jota ei ole vielä peruutettu. **Kohdistus nimiketapahtumasta** -kenttä on täytetty soveltuvalla kirjatun asiakirjarivin nimiketapahtuman numerolla.  
 
-    -   Niille kirjatuille asiakirjariveille, joiden tyyppi ei ole **Nimike** (kuten nimikekulut) ohjelma luo uuden asiakirjarivin, joka on alkuperäisen kirjatun asiakirjarivin kopio.  
+    -   Niille kirjatuille asiakirjariveille, joiden tyyppi ei ole **Nimike** (kuten nimikekulut), luodaan uusi asiakirjarivi, joka on alkuperäisen kirjatun asiakirjarivin kopio.  
 
     -   Laskee uuden rivin **Yksikkökustannus (PVA)** -kentän arvon vastaavan nimiketapahtumien kustannuksista.  
 
