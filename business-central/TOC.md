@@ -471,6 +471,8 @@ ms.service: dynamics-365-business-central
 
 ### Taloushallinnon raportointi (käyttämällä tilinpäätöksiä ja tunnuslukuja)
 #### [Taloushallinnon raportoinnin valmisteleminen](bi-how-work-account-schedule.md)
+#### [Rivimääritykset taloushallinnon raportoinnissa](bi-row-definitions.md)
+#### [Sarakemääritykset taloushallinnon raportoinnissa](bi-column-definitions.md)
 #### [Vaihekuvaus: kassavirtaennusteiden tekeminen taloushallinnon raportoinnin avulla](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Taloushallinnon raportointiin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Tietojen analysoiminen tilastotilien avulla](bi-use-statistical-accounts.md)
@@ -1049,6 +1051,7 @@ ms.service: dynamics-365-business-central
 
 ### Islanti
 #### [Paikalliset toiminnot Islannin versiossa](LocalFunctionality/Iceland/iceland-local-functionality.md)
+#### [Islannin W1-perussovelluksen määritys](LocalFunctionality/Iceland/iceland-global-core-app.md)
 #### ALV
 ##### [ALV-yhteenvetotietojen tulostaminen asiakirjoihin](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 ##### [Erityistietojen ja -raporttien tuottaminen veronviranomaisille](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
@@ -1057,6 +1060,7 @@ ms.service: dynamics-365-business-central
 #### Yleiset  
 ##### [Veronumeroiden yhdistäminen tilikarttaan](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 ##### [Kirjattujen laskujen ja hyvityslaskujen poistaminen](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
+##### [Rekisteröintinumero Islannin lokalisoinnissa](LocalFunctionality/Iceland/use-registration-no.md)
 
 ### Intia
 #### [Yleiskatsaus](LocalFunctionality/India/india-local-functionality.md)
