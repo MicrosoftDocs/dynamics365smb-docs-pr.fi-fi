@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bnielse
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 01/25/2023
+ms.date: 04/05/2024
 ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
@@ -20,6 +20,39 @@ Kun olet määrittänyt päätietojen synkronoinnin ja synkronoinnin ensimmäise
 Joskus asiat menevät kuitenkin pieleen, ja voi olla tilanteita, joita sinun täytyy hallita tai tutkia. Jos esimerkiksi ihmiset muuttavat samaa tietuetta sekä lähdeyrityksessä että tytäryrityksessä, synkronointi epäonnistuu, että voit määrittää oikean muutoksen. Lähdeyritys voi myös asentaa laajennuksen, joka muuttaa jommankumman taulukon rakennetta lisäämällä kentän tai kaksi synkronointia. Jos haluat synkronoida tytäryritysten uudet kentät, sinun täytyy asentaa samat laajennukset ja päivittää taulukkomallit niiden asetuksissa.
 
 Tässä artikkelissa kuvataan työkalut, joita voit käyttää synkronoinnin sujuvuuden säilyttämiseksi.
+
+## Ohita paikallinen muutos
+
+**Korvaa paikallinen muutos** -valintaruutua voi käyttää synkronoitavissa kentissä ja taulukoissa, jotta lähdeyrityksen tiedot voivat korvata tytäryrityksen tiedot.
+
+> [!NOTE]
+> Et voi ottaa käyttöön kentän synkronointia ja antaa tytäryrityksen kirjoittaa siihen arvoja lähdeyrityksestä itsenäisesti. Voit joko poistaa kentän synkronoinnin käytöstä tai antaa lähdeyrityksen korvata paikalliset muutokset.
+
+## Päivitä taulukkomallit
+
+Jos lähdeyritys muuttaa taulukkoa esimerkiksi lisäämällä synkronoitavan kentän, tytäryritysten on päivitettävä kenttien yhdistämismääritykset. Käytä **Synkronointi kentät** -sivulla **Päivitä kentät** -toimintoa.
+
+## Tietueiden välisten liitosten ottaminen käyttöön tai poistaminen käytöstä
+
+Voit käynnistää tai pysäyttää tiettyjen taulukon tietueiden yhdistämisen valitsemalla **Synkronointikentät**-sivulla kentät ja käyttämällä sitten joko **Ota käyttöön**- tai **Poista käytöstä** -toimintoa.
+
+> [!TIP]
+> Nopea tapa ottaa useita kenttiä käyttöön tai poistaa ne käytöstä samanaikaisesti on valita ne luettelosta ja käyttää sitten joko **Ota käyttöön**- tai **Poista käytöstä** -toimintoa.
+
+## Täyden synkronoinnin suorittaminen
+
+**Suorita koko synkronointi** -toiminto aikatauluttaa kaikkien lähdeyrityksen taulukon tietueiden synkronoinnin ja synkronoi kaikki tietueet uudelleen ehdoitta. Uudelleensynkronointi on hyödyllistä esimerkiksi silloin, kun lisäkenttä otetaan käyttöön synkronointitaulukossa tai lisäkenttä lisätään **Päivitä kentät** -toiminnon avulla. Toiminto synkronoi kyseisten kenttien tiedot takautuvasti.
+
+## Synkronoi muokatut tietueet
+
+Jos muutat taulukon tai kentän asetusta tytäryrityksessä, synkronointi täytyy päivittää. Voit päivittää synkronoinnin käyttämällä **Synkronoi muokatut tietueet** -toimintoa **Synkronointitaulukot**-sivulla.
+
+**Synkronoi muokatut tietueet** -toiminto aikatauluttaa seuraavien taulukon tietueiden synkronoinnin:
+
+* Tietueet, jotka eivät onnistuneet synkronoimaan viimeisessä yrityksessä.
+* Tietueet, joita on muutettu lähdeyrityksessä edellisen ajoitetun synkronoinnin jälkeen. Edellisen ajoitetun synkronointiajan voi tarkistaa **Synkronointitaulukot**-sivulla **Synkronoi muutokset alkaen** -kentässä.
+
+Toiminto toimii samalla tavalla kuin ajoitettu synkronointi. Toimintoa voi käyttää tapana synkronoida aikataulun ulkopuolella. Jos esimerkiksi valitset **Korvaa paikallinen muutos** -valintaruudun kentässä, jotta lähdeyrityksen tiedot voivat korvata paikalliset muutokset, toiminto päivittää tiedot. Voit myös odottaa, että seuraava ajoitettu synkronointi tapahtuu.
 
 ## Synkronoinnin tilan tarkasteleminen
 
@@ -38,20 +71,12 @@ Toiminnot kuvaillaan seuraavassa taulukossa.
 > [!NOTE]
 > Jos huomaat **synkronoinnin integrointityöt** -sivulla virheen, jota et pysty ratkaisemaan itse, on hyödyllistä antaa virheilmoitus ja kutsupinotiedot, jos otat yhteyttä kumppaniin tai Microsoftiin.
 
-## Synkronoi muokatut tietueet
+## Siivoa vanhat tapahtumat
 
-Jos muutat taulukon tai kentän asetusta tytäryrityksessä, synkronointi täytyy päivittää. Jos esimerkiksi päätät valita **Korvaa paikallinen muutos** -valintaruudun kentässä, jotta lähdeyrityksen tiedot voivat korvata paikalliset muutokset. Voit päivittää synkronoinnin käyttämällä **Synkronoi muokatut tietueet** -toimintoa **Synkronointitaulukot**-sivulla.
+Ajan mittaan synkronointilokin tapahtumien lukumäärä muuttuu isoksi, joten sinun kannattaa vähän siivota tarpeettomien merkintöjen poistamiseksi. Jotta vanhojen merkintöjen poistaminen olisi helpompaa, **integroinnin synkronointityöt** -sivulla on seuraavat toiminnot:
 
-## Päivitä taulukkomallit
-
-Jos lähdeyritys muuttaa taulukkoa esimerkiksi lisäämällä synkronoitavan kentän, tytäryritysten on päivitettävä kenttien yhdistämismääritykset. Käytä **Synkronointi kentät** -sivulla **Päivitä kentät** -toimintoa. 
-
-## Tietueiden välisten liitosten ottaminen käyttöön tai poistaminen käytöstä
-
-Voit käynnistää tai pysäyttää tiettyjen taulukon tietueiden yhdistämisen valitsemalla **Synkronointikentät**-sivulla kentät ja käyttämällä sitten joko **Ota käyttöön**- tai **Poista käytöstä** -toimintoa. 
-
-> [!TIP]
-> Nopea tapa ottaa useita kenttiä käyttöön tai poistaa ne käytöstä samanaikaisesti on valita ne luettelosta ja käyttää sitten joko **Ota käyttöön**- tai **Poista käytöstä** -toimintoa.
+* **Poista yli 7 päivää vanhat tapahtumat**
+* **Poista kaikki tapahtumat**
 
 ## Laajennusten lisääminen
 
@@ -59,13 +84,6 @@ Jos lähdeyritys asentaa uuden laajennuksen, myös tytäryrityksen täytyy asent
 
 > [!NOTE]
 > Jotkin taulukot saavat tietoja liittyvistä taulukoista. Jos lisäät tunnisteen, joka ei sisällä toisiinsa liittyviä taulukoita, näiden taulukoiden kentät eivät ole käytettävissä. Varmista, että olet lisännyt kaikki liittyvät taulukot.
-
-## Siivoa vanhat tapahtumat
-
-Ajan mittaan synkronointilokin tapahtumien lukumäärä muuttuu isoksi, joten sinun kannattaa vähän siivota tarpeettomien merkintöjen poistamiseksi. Jotta vanhojen merkintöjen poistaminen olisi helpompaa, **integroinnin synkronointityöt** -sivulla on seuraavat toiminnot:
-
-* **Poista yli 7 päivää vanhat tapahtumat**
-* **Poista kaikki tapahtumat**
 
 <!--
 ## Recreate a deleted job queue entry

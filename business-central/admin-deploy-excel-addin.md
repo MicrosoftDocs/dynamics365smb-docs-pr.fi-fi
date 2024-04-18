@@ -10,20 +10,20 @@ ms.date: 10/07/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="get-the-business-central-add-in-for-excel"></a>Business Central -apuohjelman hankkiminen Exceliin
+# Business Central -apuohjelman hankkiminen Exceliin
 
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää Excelin apuohjelman, jonka avulla käyttäjät voivat valita **Muokkaa Excelissä** -toiminnon tietyillä sivuilla tietojen avaamiseksi Excel-työkirjassa. Tämä toiminto ei ole sama kuin **Avaa Excelissä** -toiminto, koska sen avulla käyttäjät tekevät muutoksia Excelissä ja julkaista muutokset sitten takaisin kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]
 
-## <a name="overview"></a>Yleiskuvaus
+## Yleiskuvaus
 
-### <a name="about-the-add-in"></a>Tietoja apuohjelmasta
+### Tietoja apuohjelmasta
 
 Apuohjelma on nimeltään **Microsoft Dynamics Office-apuohjelma**, ja sen voi asentaa [Office-kaupasta (AppSourcesta)](https://appsource.microsoft.com/). Kun apuohjelma on asennettu, **Muokkaa Excelissä** -toiminto on käytettävissä useimmissa luettelo- ja luettelo-osa-sivuissa **Jaa**-kuvakkeesta ![Jaa sivu toisessa sovelluksessa.](media/share-icon.png). Lisätietoja apuohjelman käyttämisestä on kohdassa [Tarkasteleminen ja muokkaaminen Excelissä Business Centralista](across-work-with-excel.md).
 
 > [!NOTE]
 > Apuohjelma toimii vain Windowsissa, ei Mac-käyttöjärjestelmässä.
 
-### <a name="about-deployment-as-an-admin"></a>Tietoja käyttöönotosta ylläpitäjänä
+### Tietoja käyttöönotosta ylläpitäjänä
 
 [!INCLUDE[prod_short](includes/prod_short.md)] onlinen avulla apuohjelman voi saada käyttäjille muutamalla eri tavalla. Yksi valinta on *yksittäinen hankinta*, jossa käyttäjät voivat asentaa apuohjelman itse. Tällä asetuksella käyttäjillä on oltava oikeus ladata tiedostoja Office-kaupasta. Toinen tapa on määrittää *keskitetty käyttöönotto* Microsoft 365 -hallintakeskuksessa, jolloin lisäosa otetaan automaattisesti käyttöön koko organisaatiolle, ryhmille tai tietyille käyttäjille. Keskitetty käyttöönotto tarjoaa tavan saada apuohjelma käyttöön käyttäjille, jos organisaatiosi ei myönnä käyttäjille Office-kaupan käyttöoikeutta.
 
@@ -35,21 +35,21 @@ Loppukäyttäjän osalta asennuskokemus poikkeaa kahdessa käyttöönottoskenaar
 
 Molempien käyttöönotto vaihtoehtojen yhteydessä apuohjelma määritetään automaattisesti muodostamaan yhteys kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]. Kolmas käyttöönottovaihtoehto on apuohjelman manuaalinen asennus suoraan Excelistä. Tässä vaihtoehdossa käyttäjän on määritettävä apuohjelman muodostamaan yhteys kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around"></a><a name="switch"></a>Siirtyminen yksittäisestä hankinnasta keskitettyyn käyttöönottoon tai toisin päin
+### <a name="switch"></a>Siirtyminen yksittäisestä hankinnasta keskitettyyn käyttöönottoon tai toisin päin
 
 Kun vaihdat apuohjelman yksittäisestä hankkimisesta keskitettyyn käyttöönottoon tai päinvastoin, tämä vaikuttaa Excel-tiedostoihin, jotka käyttäjät ovat luoneet ennen vaihtoa. Siirtymisen jälkeen käyttäjät voivat yhä avata **Muokkaa Excelissä** -toiminnossa aiemmin luodut tai Excel-apuohjelman määrittämällä manuaalisesti luodut Excel-laskentataulukot. He eivät kuitenkaan pysty päivittämään tiedoston tietoja Business Centralista tai lähettämään päivityksiä Business Centralin
 
 Tämä ehto aiheutuu siitä, että jokaiseen Excel-tiedostoon liitetään apuohjelma-tunniste. Siirryttäessä keskitettyyn käyttöönottoon tai siitä pois eri tunnus määritetään, joten aiempi tunnus estetään.
 
-## <a name="preparation-on-premises-only"></a>Valmistelu (vain on-premises)
+## Valmistelu (vain on-premises)
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises edellyttää, että ympäristön on määritetty apuohjelmaa varten. Jos näin ei ole, **Muokkaa Excelissä** -toiminto ei ole käyttäjien käytettävissä. Lisätietoja on kehittäjien ja IT-ammattilaisten ohjeen kohdassa [Excel-apuohjelman määrittäminen Business Central -tietojen muokkaamiseen](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
-## <a name="deploy-the-add-in-by-using-centralized-deployment"></a>Apuohjelman käyttöönottaminen keskitetyn käyttöönoton avulla
+## Apuohjelman käyttöönottaminen keskitetyn käyttöönoton avulla
 
 Keskitetty käyttöönotto on Microsoft 365 -hallintakeskuksen ominaisuus, jonka avulla voit asentaa apuohjelmat automaattisesti käyttäjien Office-sovelluksiin, kuten Exceliin. Keskitetyssä käyttöönotossa auttaa se, että [!INCLUDE[prod_short](includes/prod_short.md)] sisältää **Excel-apuohjelman keskitetyn käyttöönoton** avustetun asennuksen.
 
-### <a name="before-you-begin"></a>Alkutoimet
+### Alkutoimet
 
 - Lisätietoja käyttäjien lataamisen estämisestä Office-kaupasta on ohjeaiheessa [aApuohjelmien hallinta hallintakeskuksessa](/microsoft-365/admin/manage/manage-addins-in-the-admin-center).
 - Varmista, että keskitetty käyttöönotto toimii organisaatiossasi. Lisätietoja on kohdassa [Määritä, toimiiko apuohjelmien keskitetty käyttöönotto organisaatiossasi](/microsoft-365/admin/manage/centralized-deployment-of-add-ins).
@@ -58,7 +58,7 @@ Keskitetty käyttöönotto on Microsoft 365 -hallintakeskuksen ominaisuus, jonka
 > [!NOTE]
 > Keskitetyn käyttöönoton ottaminen käyttöön vaikuttaa Excel-apuohjelmaa käyttäviin ominaisuuksiin, kuten **Muokkaa Excelissä** -toimintoon. Sillä ei ole vaikutusta muihin Exceliin liittyviin toimintoihin ja tai käyttöoikeuksiin, jotka on määritetty käyttäjille kohteessa [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="set-up-centralized-deployment-of-the-add-in"></a>Määritä apuohjelman keskitetty käyttöönotto
+### Määritä apuohjelman keskitetty käyttöönotto
 
 Työskentelet sekä [!INCLUDE[prod_short](includes/prod_short.md)]issa että Microsoft 365 -hallintakeskuksessa.
 
@@ -87,7 +87,7 @@ Kun olet valmis, voit aina muuttaa käyttöönottoa Microsoft 365 -hallintakesku
 > [!NOTE]
 > Apuohjelman automaattinen käyttöönotto käyttäjille voi kestää 24 tuntia.
 
-## <a name="individual-acquisition-install-the-add-in-manually-for-your-own-use"></a><a name="install"></a>Yksittäinen hankinta: Asenna apuohjelma manuaalisesti omaan käyttöön
+## <a name="install"></a>Yksittäinen hankinta: Asenna apuohjelma manuaalisesti omaan käyttöön
 
 Useimmissa tapauksissa, kun avaat Excelin Business Centralista, apuohjelma asennetaan joko automaattisesti puolestasi tai sinua kehotetaan asentamaan se. Saattaa kuitenkin olla tilanteita, joissa apuohjelma on asennettava manuaalisesti.
 
@@ -97,7 +97,7 @@ Useimmissa tapauksissa, kun avaat Excelin Business Centralista, apuohjelma asenn
 
 Kun apuohjelma on asennettu, se näkyy paneelina Excelissä. Seuraavaksi määritetään yhteys.
 
-### <a name="configure-the-business-central-connection"></a>Business Central -yhteyden määrittäminen
+### Business Central -yhteyden määrittäminen
 
 Jos käyttäjä ei voi muodostaa yhteyttä automaattisesti, voit poistaa eston pyytämällä heitä noudattamaan seuraavia vaiheita:
 
@@ -109,11 +109,11 @@ Jos käyttäjä ei voi muodostaa yhteyttä automaattisesti, voit poistaa eston p
 
 Apuohjelma on nyt yhdistetty kohteeseen [!INCLUDE [prod_short](includes/prod_short.md)] ja voit muokata tietoja ja julkaista muutokset kohtaan [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Valmistele laitteet ja verkko Excel-apuohjelmaa varten
+## Valmistele laitteet ja verkko Excel-apuohjelmaa varten
 
 Verkkopalveluiden, kuten välityspalvelimien tai palomuurien, on sallittava reititys kunkin sellaisen asiakaslaitteen, johon apuohjelma on asennettu, ja useiden palvelun päätepisteiden välillä. Luettelo päätepisteistä on kohdassa [Verkon valmisteleminen Excel-apuohjelmaa varten](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins).
 
-## <a name="troubleshooting"></a>Vianetsintä
+## Vianetsintä
 
 Toisinaan käyttäjät kohtaavat ongelmia Excel-apuohjelmassa. Tässä osassa on vihjeitä siitä, miten voit poistaa käyttäjien eston tietyissä tilanteissa.
 
@@ -127,14 +127,14 @@ Toisinaan käyttäjät kohtaavat ongelmia Excel-apuohjelmassa. Tässä osassa on
 |Käyttäjät eivät voi enää kirjautua apuohjelmaan. Kun he yrittävät kirjautua, prosessi pysähtyy ilman loppuun suorittamista.| Tämä ongelma saattaa johtua apuohjelmaan jossakin vaiheessa heinäkuuta 2022 tekemästämme päivityksestä. Lisätietoja ja korjauskeino: [Muokkaa Excelin apuohjelmamääritys tukemaan heinäkuun 2022 päivitystä](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Koskee vain paikallista [!INCLUDE [prod_short](includes/prod_short.md)]ia|
 
 <!--
-## <a name="deploy-the-excel-add-in-for-business-central-online"></a>Deploy the Excel add-in for Business Central online
+## Deploy the Excel add-in for Business Central online
 
 For [!INCLUDE [prod_short](includes/prod_short.md)] online, the administrator can deploy the add-in for all users. But users can also install the add-in themselves, provided they have permission to configure their Office experience.  
 
 > [!TIP]
 > In some organizations, administrators cannot deploy add-ins centrally. For more information, see [Determine if Centralized Deployment of add-ins works for your organization](/microsoft-365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).
 
-### <a name="to-deploy-the-excel-add-in-for-all-users"></a>To deploy the Excel add-in for all users
+### To deploy the Excel add-in for all users
 
 1. As the administrator, sign in to the Microsoft commercial website and find the add-in at [https://appsource.microsoft.com/product/office/WA104379629](https://appsource.microsoft.com/product/office/WA104379629).
 2. Choose the **Get it now** button.
@@ -145,7 +145,7 @@ For [!INCLUDE [prod_short](includes/prod_short.md)] online, the administrator ca
 5. Save your changes.
 
 
-### <a name="to-add-the-excel-add-in-locally"></a>To add the Excel add-in locally
+### To add the Excel add-in locally
 
 1. Open Excel, and then open any Excel workbook.
 2. On the **Insert** menu, choose **Office Add-ins**, and then choose **Admin managed** or **Store** as appropriate.
@@ -159,7 +159,7 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md)  
 [Business Centralin käyttäminen](ui-work-product.md)  

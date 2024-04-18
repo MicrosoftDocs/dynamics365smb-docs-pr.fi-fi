@@ -1,46 +1,37 @@
 ---
-title: Sähköisten asiakirjojen käyttäminen myynnissä ja ostoissa
-description: Lisätietoja myynti- ja ostolaskuihin liittyvien sähköisten asiakirjojen toimintojen käyttämisestä.
+title: Sähköisten asiakirjojen käyttö myynnissä
+description: Lisätietoja myyntiin liittyvien sähköisten asiakirjojen toimintojen käyttämisestä.
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
-ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice, sales, purchase'
-ms.search.form: '42, 43, 51, 6103, 6133, 6121, 9301, 9305, 9308'
-ms.date: 10/03/2023
+ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice, sales, deliver'
+ms.search.form: '42, 43, 132, 6103, 6133, 6121, 9301, 9305'
+ms.date: 03/29/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Sähköisten asiakirjojen käyttäminen myynnissä ja ostoissa
+# Sähköisten asiakirjojen käyttäminen myyntiprosessissa
 
-Voit käyttää määritettyjä sähköisiä asiakirjoja myynti- ja ostoasiakirjojen yhteydessä.
+Voit käyttää määritettyjä sähköisiä asiakirjoja myyntiasiakirjojen yhteydessä.
 
-Tällä hetkellä voit käyttää seuraavia asiakirjoja sähköisten asiakirjojen toimintojen kanssa:  
+Tällä hetkellä voit käyttää seuraavia myyntiasiakirjoja sähköisten asiakirjojen toimintojen kanssa:  
 
-- Myynti: 
-    - Myyntilaskut
-    - Myyntitilaukset
-    - Myyntihyvityslaskut
-    - Huoltolaskut
-    - Huollon hyvityslaskut
-    - Rahoituskululaskut
-    - Muistutukset
-- Ostot: 
-    - Ostolaskut
-    - Ostotilaukset (vain luo uusi asiakirja)
-    - Ostohyvityslaskut
-    - Yleiset päiväkirjat
+- Myyntilaskut
+- Myyntitilaukset
+- Myyntihyvityslaskut
+- Huoltolaskut
+- Huollon hyvityslaskut
+- Rahoituskululaskut
+- Muistutukset
 
-> [!NOTE]
-> Tällä hetkellä ostotilausta voidaan käyttää vain silloin, kun asiakirja luodaan toimittajan lähettämästä sähköisestä asiakirjasta. Et kuitenkaan voi päivittää olemassa olevaa asiakirjaa riveillä, jotka olet saanut toimittajaltasi.  
-
-## Myynnin sähköiset asiakirjat
+## Myynnin sähköiset asiakirjat  
 
 Voit luoda ja lähettää asiakkaalle sähköisen laskun, jos luot ensin myyntilaskun ja kirjaat sen. Lisätietoja vakioprosessista on kohdassa [Myynnin laskutus](sales-how-invoice-sales.md).
 
 Kun olet kirjannut myyntiasiakirjan, avaa **Kirjattu myyntilasku** -sivu ja sen jälkeen liittyvä **Sähköinen asiakirja** -sivu.
 
-### Sähköisten asiakirjojen tarkasteleminen
+### Sähköisten asiakirjojen tarkasteleminen   
 
 Voit tarkastella aiemmin luotuja sähköisiä asiakirjoja alla olevien ohjeiden avulla.
 
@@ -49,7 +40,7 @@ Voit tarkastella aiemmin luotuja sähköisiä asiakirjoja alla olevien ohjeiden 
 3. **Tietue**-kentässä on kirjatun myyntilaskun asiakirjanumero. Avaa asiakirja valitsemalla linkki.
 4. **Sähköisen asiakirjan tila** -kentässä voit tarkastella asiakirjan reaaliaikaista tilaa ja sen sijaintia prosessiputkessa. Jos asiakirja on kirjattu, tila on **Käsitelty**.
 
-### Sähköisten asiakirjojen tilat ja lokit
+### Sähköisten asiakirjojen tilat ja lokit 
 
 Saat lisätietoja sähköisen asiakirjapalvelun tilan tasosta **Sähköisen asiakirjapalvelun tila** -pikavälilehdestä. Järjestelmä näyttää riveillä vähintään yhden asiakirjan käyttämän palvelun. Yleisimmässä skenaariossa jokainen asiakirja käyttää vain yhtä palvelua. Asiakirja voi kuitenkin käyttää useita palveluita.
 
@@ -73,45 +64,6 @@ Jos palveluntarjoajan kanssa on ongelmia, eikä asiakirjaa voi lähettää, etsi
 
 Kun ongelma on korjattu, suorita manuaalisesti **Lähetä asiakirja** -toiminnot. Jos tarvitset erilaisia toimintoja, kuten **Uudelleenluotu asiakirja**-, **Peruuta asiakirja**- tai **Hae hyväksyntää** -toiminnon, voit suorittaa niitä.
 
-## Sähköiset asiakirjat ostoissa
-
-Dynamics 365 Business Centralin ostojen sähköisten laskujen vastaanotto voidaan tehdä eräajona tai manuaalisesti.
-
-### Eräajon suorittaminen
-
-> [!NOTE]
-> Tämä eräajo on tarkoitettu saapuvien laskujen automaattista keräilyä varten. Toiminnon käyttäminen on mahdollista vain, jos se on otettu käyttöön maassa tai alueella.
-
-Aina, kun työjono suoritetaan ja ulkoisella palvelulla on toimittajan lähettämiä saapuvia laskuja, järjestelmä kerää ja tuo kyseiset laskut. Voit suorittaa prosessin loppuun alla olevien ohjeiden avulla.
-
-1. Kun eräajo on suoritettu loppuun, juuri tuodut laskut ja niiden perustiedot näkyvät **Sähköiset asiakirjat** -sivulla.
-2. Voit tarkastella lisätietoja avaamalla tietyn sähköisen asiakirjan.
-3. Jos sähköisessä asiakirjassa ja sen yhdistämismäärityksessä ei ollut virheitä tai ongelmia, **Tietue**-kentässä näkyy järjestelmän automaattisesti luoma ostolaskun asiakirjanumero. Avaa asiakirja valitsemalla linkki. Järjestelmän luoma asiakirja ei ole kirjattu asiakirja.
-4. Voit siirtyä suoraan ostoasiakirjaan valitsemalla **Tietue**-kentän. Kun olet avannut **Ostolasku**-sivun, tarkista asiakirja. Jos kaikki on nyt oikein, voit kirjata asiakirjan.
-5. Kun kirjaat ostoasiakirjan, **Sähköinen asiakirja** -sivun**Tietue**-kentän arvo päivitetään **Lasku**-arvosta **Ostotilaus**-arvoksi, ja kirjatun ostoasiakirjan numero on saatavilla. Voit valita numeron, jos haluat avata kirjatun ostolaskun.
-
-Lokien tiedot ovat samat kuin sähköisten asiakirjojen myyntiprosessissa.
-
-Koska myyntiprosessin virheet liittyvät useimmiten palvelun saatavuuteen, saapuva asiakirja voi sisältää useita syitä. Virheen yleisin syy on se, että järjestelmä ei tunnista toimittajalta saadun sähköisen asiakirjan rivejä. Sen vuoksi ostolaskuun ei voida syöttää rivejä.
-
-Seuraavassa kerrotaan kaksi yleisintä virhettä:
-
-- Jos haluat käyttää suoraan pääkirjanpidon (KP) tilille kirjatun toimittajalaskun tiettyä riviä, **Tekstin linkitys** -arvo on määritettävä oikein. Jos haluat ohittaa tämän virheen ja käyttää KP-tilejä, valitse **Linkitä teksti tiliin** ja luo **Tekstin linkitys** -arvolle ja käytettävälle **Debet-tilin numero** -arvolle tietty yhdistämismääritys.
-- Jos haluat seurata varastoa ja käyttää toimittajalaskun rivejä asiakirjarivien nimikkeiden täyttämisessä, määritä oikein **Nimikeviittauksen nro** -arvo. Voit ohittaa tämän virheen linkittämällä ulkoisen nimikkeen nimikenumeroihin nimikkeen viiteluettelon avulla. Saat lisätietoja kohdasta [Nimikkeen viittausten käyttäminen](inventory-how-use-item-cross-refs.md).
-
-Virheiden ja varoitusten korjaamisen jälkeen voit manuaalisesti määrittää, milloin järjestelmän tulee luoda ostolasku asetusten perusteella, valitsemalla **Luo tiedosto**.
-
-### Laskujen tuominen manuaalisesti
-
-Voit tuoda manuaalisesti ulkoisia sähköisiä asiakirjoja alla olevien ohjeiden mukaan.
-
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sähköinen asiakirjapalvelu** ja valitse sitten vastaava linkki.
-2. Valitse **Sähköinen asiakirjapalvelu** -sivulla aktiivinen palvelu. 
-3. Valitse **Vastaanotto** ja lataa toimittajalta saatu sähköisen asiakirjan tiedosto.
-4. Jos virhesanoma näkyy jälleen, avaa sähköinen asiakirja ja korjaa virheet.
-5. Kun virheet on korjattu, valitse **Tuo manuaalisesti** -ryhmässä **Luo asiakirja**.
-6. Kun asiakirja on luotu Business Centralissa, voit tarkastella sitä samalla tavalla kuin eräajoa käytettäessä.
-
 ## Sähköisten asiakirjojen tilojen yleiskatsaus
 
 Jos haluat aiempaa paremman yleiskatsauksen yrityksen kaikista sähköisistä asiakirjoista, voit valita **Kirjanpitäjä**-roolikeskuksen, jossa sähköisten asiakirjojen tilat ovat. Siellä voit etsiä sähköistä asiakirjaa koskevat aktiviteetit, joilla on seuraavat tilat:
@@ -122,11 +74,6 @@ Jos haluat aiempaa paremman yleiskatsauksen yrityksen kaikista sähköisistä as
     - Työn alla
     - Virhe
 
-- **Saapuvat asiakirjat:**
-
-    - Käsitelty
-    - Työn alla
-    - Virhe
 
 ## Katso myös
 

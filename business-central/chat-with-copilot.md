@@ -12,7 +12,7 @@ ms.collection:
   - get-started
 ---
 
-# <a name="chat-with-copilot-preview"></a>Keskustelu Copilotin avulla (esiversio)
+# Keskustelu Copilotin avulla (esiversio)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -20,7 +20,7 @@ Tässä artikkelissa käsitellään yrityksen tietoja koskevien vastauksen saami
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## <a name="about-chat-with-copilot"></a>Tietoja keskustelusta Copilotin avulla
+## Tietoja keskustelusta Copilotin avulla
 
 Microsoft Copilot on tekoälypohjainen avustaja, joka inspiroi toimimaan luovasti, tehostaa tuottavuutta ja poistaa tarpeen tehdä pitkäveteisiä tehtäviä. Keskustelemalla Copilotin avulla Business Centralissa saadaan vastauksia kysymyksiin ja löydetään liiketoimintatietoja. Keskustelun tavoite ilmaistaan luonnollisella kielellä. Seuraavat ovat mahdollisia keskustelun avulla:
 
@@ -34,13 +34,13 @@ Keskustelu Copilotin avulla poistaa tarpeen siirtymiseen käyttöliittymässä t
   
 > [Katso video](https://go.microsoft.com/fwlink/?linkid=2250609)
 
-## <a name="prerequisites"></a>Vaatimukset
+## Vaatimukset
 
 - Keskustelu Copilotin avulla -ominaisuus on aktivoitu. Järjestelmänvalvoja tekee tämän tehtävän. [Lisätietoja Copilotin ja tekoälyn ominaisuuksien määrittämisestä](enable-ai.md).
 - Business Centralin näyttökieleksi on määritetty jokin seuraavista englannin kielialueista: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Lisätietoja kielen vaihtamisesta](ui-change-basic-settings.md#language).
 - Business Central -ympäristö on jossain muussa maassa tai muulla alueella kuin Kanadassa. (Tämä ominaisuus ei ole vielä saatavana Kanadassa.)
 
-## <a name="get-started-using-chat-with-copilot"></a>Keskustelun Copilotin avulla aloittaminen
+## Keskustelun Copilotin avulla aloittaminen
 
 1. Valitse näytön oikeassa yläkulmassa ![Näkyvissä Keskustelu Copilotin avulla -kuvake](media/chat-copilot-icon.png) **Copilot**-kuvake ![Näkyvissä selite numero 1](media/callout-number-1.svg).
 
@@ -65,13 +65,13 @@ Keskustelu Copilotin avulla poistaa tarpeen siirtymiseen käyttöliittymässä t
 
    Keskustelu muistaa kontekstin, joten alkuperäisen kysymyksen keskeisiä kohtia ei tarvitse toistaa.
 
-## <a name="clear-chat-to-start-over"></a>Alusta aloittaminen tyhjentämällä keskustelu
+## Alusta aloittaminen tyhjentämällä keskustelu
 
 Keskustelussa Copilotin avulla voidaan siirtyä toiseen aiheeseen valitsemalla ![Näkyvissä keskustelun tyhjennyskuvake](media/clear-chat-icon.png) **Aloita uusi Copilot-keskusteluistunto** -kuvake Copilot-ruudun alaosassa kysymysruudun yläpuolella. Tämä toiminto tyhjentää viimeisimmät viestit Copilotin muistista. Alusta aloittaminen on usein kätevää, jos pitkässä keskustelussa on ollut paljon viestejä. Se voi myös auttaa Copilot antamaan tarkempia vastauksia.
 
 Keskustelu tyhjennetään myös silloin, jos Business Central suljetaan tai siitä kirjaudutaan ulos.
 
-## <a name="get-the-most-out-of-your-questions"></a><a name="tips"></a>Kysymysten tehokas käyttö
+## <a name="tips"></a>Kysymysten tehokas käyttö
 
 Tässä osassa keinoja, joilla voi parantaa Copilotin antamia vastauksia.
 
@@ -83,7 +83,7 @@ Tässä osassa keinoja, joilla voi parantaa Copilotin antamia vastauksia.
 - Jos ensimmäisen vastaus ei vastaa täysin kysymyksiin, esitä lisäkysymyksiä tai muotoilu viimeisin kysymys uudelleen.
 - Jos kysymys koskee eri aihealuetta kuin edellinen kysymys, aloita alusta tyhjentämällä nykyinen keskusteluistunto.
 
-## <a name="example-prompts"></a>Esimerkkikehotteita
+## Esimerkkikehotteita
 
 Copilotille esitettävät kysymykset vaihtelevat luonnollisesti roolin, nykyisen tehtävän, organisaation käyttämien prosessien ja oman ilmaisutavan mukaan. Seuraavat esimerkit osoittavat erilaisia tapoja esittää kysymyksiä keskusteluruudussa. Niistä voi olla apua omien kysymysten kirjottamiseen omassa tilanteessa.
 
@@ -111,7 +111,7 @@ Copilotin vastauksia voidaan arvioida käyttämällä tykkää (peukku ylös) -p
 1. If you want help getting you're question started, select the prompts either from the **Find**, **Explain**, or **Guide** buttons at the top of the Coplit pane or use the **View Prompts** menu above **Ask a question** box at the bottom.
 
    Prompts are predefined short phrases that start a question. Apart from saving you time, they're designed to target responses to specific categories. They also help you undestand how you can phrase questions to get the responses.-->
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Copilot- ja tekoälyominaisuuksien vianmääritys](ai-copilot-troubleshooting.md)  
 [Copilot- ja tekoälyominaisuuksien määrittäminen](enable-ai.md)  

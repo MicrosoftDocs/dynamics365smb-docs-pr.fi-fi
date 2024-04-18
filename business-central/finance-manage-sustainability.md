@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD'
 ms.search.form: null
-ms.date: 02/12/2024
+ms.date: 03/29/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-management-overview"></a>Kestävän kehityksen hallinnan yleiskatsaus
+# Kestävän kehityksen hallinnan yleiskatsaus
 
 >[!IMPORTANT]
 >Tämä ominaisuus on käytettävissä Business Centralissa vuoden **2024 1. julkaisuaallosta** alkaen, ja kaikki viitelinkit otetaan käyttöön heti, kun ne ovat saatavilla.
@@ -38,13 +38,16 @@ Aloita Sustainability Managementin käyttäminen tutustumalla alla oleviin artik
 
 |  Artikkeli  |  Kuvaus  |  
 |--------|--------------| 
-|Vastuullisuusmääritys | Tässä artikkelissa on tietoja, jotka auttavat määrittämään koko Sustainability-moduulin oikein. |
-|Kestävyystilien tilikartta ja kirjanpito | Tässä artikkelissa kerrotaan, miten kestävyystilikartan, tilikategorioiden ja alaluokkien kaavio määritetään oikein ja miten kestävyystapahtumien tietoja analysoidaan. |
-|Toimintaohje: päästöjen kirjaus | Tämän artikkelin avulla voit tutustua kaikentyyppisiin kestävyyspäiväkirjoihin. |
+|[Vastuullisuusmääritys](finance-sustainability-setup.md) | Tässä artikkelissa on tietoja, jotka auttavat määrittämään koko Sustainability-moduulin oikein. |
+|[Kestävyystilien tilikartta ja kirjanpito](finance-sustainability-accounts-ledger.md) | Tässä artikkelissa kerrotaan, miten kestävyystilikartan, tilikategorioiden ja alaluokkien kaavio määritetään oikein ja miten kestävyystapahtumien kirjanpitotietoja analysoidaan. |
+|[Toimintaohje: kasvihuonekaasupäästöjen (GHG) kirjaus](finance-sustainability-journal.md) | Tämän artikkelin avulla voit tutustua kaikentyyppisiin kestävyyspäiväkirjoihin. |
 
 
-## <a name="see-also"></a>Katso myös
-[Rahoitus](finance.md)    
+## Katso myös  
+[Vastuullisuuden asetukset](finance-sustainability-setup.md) 
+[Vastuullisuustilien kaavio ja kirjanpito](finance-sustainability-accounts-ledger.md) 
+[Kuinka tallentaa GHG-päästöt](finance-sustainability-journal.md)
+[Rahoitus](finance.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice'
 ms.search.form: '359, 360, 6103, 6133'
-ms.date: 10/05/2023
+ms.date: 03/29/2023
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
@@ -73,11 +73,11 @@ Jos et käytä **Tiedonsiirtomääritys**-muotoa, voit luoda ja määrittää mu
 
 ### Tuetut asiakirjatyypit 
 
-Tuetut asiakirjatyypit perustuvat valittuun **asiakirjamuotoon**. Tarkista tuetut asiakirjatyypit suorittamalla **Sähköinen asiakirjapalvelu** -sivulla  **Tuetut asiakirjatyypit** . **Sähköisen tiedostopalvelun tuetut lähdeasiakirjatyypit** avautuu ja **Lähdeasiakirjatyyppi**-sarakkeesta löydät kaikki tuetut asiakirjatyypit.  
+Tuetut asiakirjatyypit perustuvat valittuun **asiakirjamuotoon**. Tarkista tuetut asiakirjatyypit valitsemalla **Sähköinen asiakirjapalvelu** -sivulla **Tuetut asiakirjatyypit** . **Sähköisen tiedostopalvelun tuetut lähdeasiakirjatyypit** avautuu ja **Lähdeasiakirjatyyppi**-sarakkeessa voit valita erilaisia asiakirjatyyppejä, jotta ne ovat tuettuja käyttämäsi muodon mukaan. Varmista, että et käytä asiakirjatyyppiä, jos kyseistä asiakirjaa ei ole valittu tällä sivulla.   
 
 ## Asiakirjan lähetyksen profiilin määrittäminen
 
-Voit määrittää kullekin asiakkaalle myyntiasiakirjojen lähettämisen ensisijaisen tavan. Näin lähetysvaihtoehtoa ei tarvitse valita aina, kun **Kirjaa ja lähetä** -toiminto valitaan. **Asiakirjan lähetyksen profiilit** -sivulla voi määrittää eri lähetyksen profiileja, joista voit valita asiakkaan kortin **Asiakirjan lähetyksen profiili** -kentässä. Valitse **Oletus**-valintaruutu, kun haluat, että asiakirjan lähetyksen profiili on kaikkien asiakkaiden oletusprofiili lukuun ottamatta niitä asiakkaita, joiden **Asiakirjan lähetyksen profiili** -kenttä on määritetty toiselle lähetyksen profiilille.
+Voit määrittää kullekin asiakkaalle myyntiasiakirjojen lähettämisen ensisijaisen tavan. Näin lähetysvaihtoehtoa ei tarvitse valita aina, kun valitset **Kirjaa ja lähetä** -toiminnon. **Asiakirjan lähetyksen profiilit** -sivulla voi määrittää eri lähetyksen profiileja, joista voit valita asiakkaan kortin **Asiakirjan lähetyksen profiili** -kentässä. Valitse **Oletus**-valintaruutu, kun haluat, että asiakirjan lähetyksen profiili on kaikkien asiakkaiden oletusprofiili lukuun ottamatta niitä asiakkaita, joiden **Asiakirjan lähetyksen profiili** -kenttä on määritetty toiselle lähetyksen profiilille.
 
 Tätä toimintoa käytetään määritettäessä sähköisen laskutuksen automaatio. Kun valitset **Kirjaa ja lähetä** -toiminnon myyntiasiakirjassa, näkyviin tulee **Kirjaa ja lähetä vahvistus** -valintaikkuna, jossa näkyy käytetty lähetyksen profiili. Se on joko asiakkaalle määritetty profiili tai kaikille asiakkaille yhteinen oletusprofiili.
 
@@ -104,7 +104,7 @@ Alla olevien vaiheiden avulla voit määrittää työnkulun, jota käytetään s
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulkumallit** ja valitse sitten vastaava linkki.
 2. Jos **Sähköisen asiakirjan työnkulkumallit** -kohtaa ei löydy **Työnkulkumallit**-sivulta, valitse **Palauta Microsoft-mallit**. **Sen jälkeen pitäisi näkyä sähköisen asiakirjan työnkulkumallit**. Sulje sivu.
 3. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut** ja valitse sitten vastaava linkki.
-4. Suorita **Uusi työnkulku mallista** -toiminto, jos haluat valita mallin sähköisten asiakirjojen prosessia varten. Käytettävissä olevat mallit ovat **Lähetä yhteen palveluun** ja **Lähetä useisiin palveluihin**.
+4. Valitse **Uusi työnkulku mallista** -toiminto, jos haluat valita mallin sähköisten asiakirjojen prosessia varten. Käytettävissä olevat mallit ovat **Lähetä yhteen palveluun** ja **Lähetä useisiin palveluihin**.
 5. Valitse **OK**, jos haluat viimeistellä työnkulun asetuksen.
 6. Valitse **Vastaus**-kentässä **Lähetä sähköinen asiakirja asetuksen avulla**, jos haluat määrittää työnkulun vastaukset.
 7. Valitse vaihtoehtona luotu sähköinen asiakirjapalvelu. Valitse **OK** ja ota työnkulku käyttöön.
@@ -129,6 +129,21 @@ Voit määrittää sähköiseen asiakirjaan liittyvät säilytyskäytännöt all
     - Sähköisen asiakirjan integrointiloki
     - Sähköisen asiakirjan yhdistämismääritysloki
     - Sähköisen asiakirjan tietojen tallennustila
+
+## E-asiakirjan demotiedot  
+
+> [!NOTE]
+> Business Centralin versiosta 24.0 voidaan määrittää demotietoja E-asiakirjoille.
+
+Microsoft on luonut uuden demomoduulin sähköisiä asiakirjoja varten, jotta **E-asiakirjojen** testaus- ja esittelyominaisuuksien käyttö on helpompaa. Voit ottaa tämän moduulin käyttöön noudattamalla seuraavia vaiheita:  
+
+1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Contoso-demotyökalu** ja valitse sitten vastaava linkki.  
+2.  Ennen kuin **E-asiakirjan Contoso-moduuli** otetaan käyttöön riippuvuussuhteiden takia, seuraavat moduulit on otettava käyttöön: **Yleinen moduuli** ja **Fyysisen varaston moduuli**. 
+3.  Kun olet ottanut nämä moduulit käyttöön, valitse **E-asiakirjan Contoso-moduuli** ja valitse **Luo**-toiminto. 
+4.  Toimi vaiheiden mukaisesti.  
+5.  Sulje sivu.   
+
+Kun käytössä oleva moduuli on otettu käyttöön, uudet demonimikkeet on luotu, kuusi sähköistä asiakirjaa on tuotu (Peppol BIS 3:een perustuen) ja **E-asiakirjapalvelu** on jo määritetty luotujen työnkulkujen avulla.  
 
 ## Katso myös
 
