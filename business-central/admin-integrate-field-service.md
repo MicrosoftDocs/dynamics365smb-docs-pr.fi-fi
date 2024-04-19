@@ -9,7 +9,7 @@ ms.reviewer: ivkoleti
 ms.custom: bap-template
 ---
 
-# <a name="integrate-with-microsoft-dynamics-365-field-service"></a>Microsoft Dynamics 365 Field Service ‑integrointi
+# Microsoft Dynamics 365 Field Service ‑integrointi
 
 Huolto-organisaatiot tarvitsevat kokonaisvaltaisen sovelluksen, jossa taloustiedot, varasto ja hankinta on kytketty tiukasta huollon toimittamiseen. Jokainen tapahtuma muodostaa niissä taloustietoja. Jokainen työtilaus on sekä kustannus että tuotto; jokainen resurssi tuottaa voittoa ja tappiota. Asiakasvuorovaikutukset lisäävät tapahtumia pääkirjanpitoon. [!INCLUDE [prod_short](includes/prod_short.md)]in ja [!INCLUDE [field-service-short](includes/field-service-short.md)]in välinen integrointi sujuvoittaa huollon hallintatoimintojen kokonaisvaltaista hallintaa sekä varmistaa sujuvan tiedonkulun järjestelmien välillä.  
 
@@ -19,27 +19,27 @@ Integrointi edistää myös työtilausten laskutusta ja täyttämistä [!INCLUDE
 
 [!INCLUDE [prod_short](includes/prod_short.md)]in ja [!INCLUDE [field-service-short](includes/field-service-short.md)]en integroinnin ansiosta tietoja ei tarvitse syöttää manuaalisesti eikä samoja tehtäviä tarvitse tehdä kahdesti. Integrointi mahdollistaa myös kattavan näkymän huoltotoiminnoista ja taloustiedosta, mikä parantaa päätöksentekoa ja tehostaa toimintaa.
 
-## <a name="prerequisites"></a>Vaatimukset
+## Vaatimukset
 
 Koska [!INCLUDE [field-service-short](includes/field-service-short.md)] pohjautuu Dynamics 365 Salesiin, [Dataverse-yhteys on määritettävä](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#to-use-the-dataverse-connection-setup-assisted-setup-guide) ja [Dynamics 365 Sales -integrointi otettava käyttöön](/dynamics365/business-central/admin-prepare-dynamics-365-for-sales-for-integration#connection-settings-in-the-setup-guide).
 
-### <a name="permissions-and-security-roles-for-user-accounts"></a>Käyttäjätilien käyttöoikeudet ja käyttöoikeusroolit
+### Käyttäjätilien käyttöoikeudet ja käyttöoikeusroolit
 
 Kun integrointiratkaisua asennetaan, integroinnin käyttäjätilin käyttöoikeudet määritetään. Jos nämä käyttöoikeudet muuttuvat, ne on ehkä palautettava alkuperäisiksi. Se tehdään asentamalla integrointiratkaisu **Dynamics 365 -yhteyden määritys** -sivulla valitsemalla **Ota integrointiratkaisu uudelleen käyttöön**. Seuraavissa osissa käsitellään käyttöoikeuksia ja käyttöoikeusrooleja, jotka ratkaisu ottaa käyttöön kussakin sovelluksessa.
 
-#### <a name="sales"></a>Myynti
+#### Myynti
 
 * Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)]in integroinnin järjestelmänvalvoja
 * Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)]in integraation käyttäjä
 * Dynamics 365 [!INCLUDE [prod_short](includes/prod_short.md)] -tuotteen saatavuuden käyttäjä
 
-#### <a name="business-central"></a>Business Central
+#### Business Central
 
 Projektipäiväkirjoja kirjaavilla on oltava seuraava käyttöoikeuksien joukko:
 
 * Dynamics 365 Sales -integrointi
 
-#### <a name="field-service"></a>Field Service
+#### Field Service
 
 Käyttäjät tarvitset seuraavan käyttöoikeusroolin integroitujen tietojen käyttämiseen:
 
@@ -60,7 +60,7 @@ Käyttäjällä on oltava tämä rooli esimerkiksi työtilausten yhdistämiseen 
 **Dynamics 365 Business Central -yhteys** (nav_connection) -taulukkoon on oltava **lukuoikeudet**.
 **Dynamics 365 Business Central -oletusyhteys** (nav_defaultconnection) -taulukkoon on oltava **luku**-, **kirjoitus**- ja **poisto**-oikeudet.
 
-### <a name="other-settings-in-field-service"></a>Muut Field Servicen asetukset
+### Muut Field Servicen asetukset
 
 **Field Service -asetukset** -sivun asetusten määritys:
 
@@ -70,7 +70,7 @@ Käyttäjällä on oltava tämä rooli esimerkiksi työtilausten yhdistämiseen 
 > [!NOTE]
 > Yhteyden muodostaminen [!INCLUDE [field-service-short](includes/field-service-short.md)]en poistaa resurssien ja tuotteiden välisen yhdistämisen. [!INCLUDE [prod_short](includes/prod_short.md)] -nimikkeet saadaan käyttöön [!INCLUDE [field-service-short](includes/field-service-short.md)]ssa päivittämällä **Field Servicen tuotteen tyyppi** vastaamaan nimikkeiden **Tyyppi**-kenttää [!INCLUDE [prod_short](includes/prod_short.md)]issa. Lisätietoja on kohdassa [Tuotteen tai palvelun luominen](/dynamics365/field-service/create-product-or-service#create-a-product-or-service).
 
-## <a name="set-up-the-integration-in-business-central"></a>Integroinnin määrittäminen Business Centralissa
+## Integroinnin määrittäminen Business Centralissa
 
 Kun yhteys Dataverseen ja Salesiin on muodostettu, [!INCLUDE [field-service-short](includes/field-service-short.md)] -integrointi voidaan määrittää. Ohjatun asetusten määritysopas suoritetaan valitsemalla [!INCLUDE [prod_short](includes/prod_short.md)]in **Asetusten ohjattu määritys** -sivulla **Määritä Dynamics 365 Field Service -integrointi**. Tässä osassa käsitellään oppaan tärkeitä asetuksia.
 
@@ -91,7 +91,7 @@ Määritysten valmistumisen jälkeen suoritetaan täydellinen synkronointi **Dyn
 * Resurssit, joita ei ole estetty, joissa **Käytä aikaraporttia** ei ole valittu ja joissa **Tunnit** on määritetty mittayksiköksi **Dynamics 365 Field Service -integroinnin asetukset** -sivulla.
 * Huoltonimikkeet (edellyttää, että käytössä on [!INCLUDE [prod_short](includes/prod_short.md)]in Premium-käyttökokemus).
 
-## <a name="standard-field-service-entity-mapping-for-synchronization"></a>Synkronoinnin Field Service -yksikön vakioyhdistämismääritys
+## Synkronoinnin Field Service -yksikön vakioyhdistämismääritys
 
 Tietojen synkronointi [!INCLUDE [prod_short](includes/prod_short.md)]in taulukoiden ja kenttien yhdistämiseen Dataversen taulukoihin ja sarakkeisiin, jotta sovellukset voivat vaihtaa tietoja. Yhdistäminen tapahtuu integrointitaulujen avulla. Lisätietoja taulukon yhdistämismäärityksistä on kohdassa [Synkronoitavien taulujen ja kenttien yhdistäminen](/dynamics365/business-central/admin-how-to-modify-table-mappings-for-synchronization).
 
@@ -103,11 +103,11 @@ Tietojen synkronointi [!INCLUDE [prod_short](includes/prod_short.md)]in taulukoi
 * **RESOURCE-BOOKABLERSC** – yhdistää [!INCLUDE [prod_short](includes/prod_short.md)]in resurssit varattavissa oleviin [!INCLUDE [field-service-short](includes/field-service-short.md)]n resursseihin.
 * **SVCITEM-CUSTASSET** – (vain Premium-kokemus) yhdistää [!INCLUDE [prod_short](includes/prod_short.md)]in huoltonimikkeet asiakkaan resursseihin [!INCLUDE [field-service-short](includes/field-service-short.md)]ssa.
 
-## <a name="use-data-in-both-applications"></a>Tietojen käyttäminen kummassakin sovelluksissa
+## Tietojen käyttäminen kummassakin sovelluksissa
 
 Seuraavissa osissa käsitellään toimintoja, joissa voidaan käyttää [!INCLUDE [prod_short](includes/prod_short.md)]in ja [!INCLUDE [field-service-short](includes/field-service-short.md)]n tietoja.
 
-### <a name="field-service-1"></a>Kenttähuolto
+### Kenttähuolto
 
 [**Työtilauksia** voidaan luoda](/dynamics365/field-service/create-work-order) käyttämällä [!INCLUDE [prod_short](includes/prod_short.md)]in **palvelutiliä** ja **laskutustiliä**. Työtilauksissa on valittava **Business Central -projektitehtävä** **Ulkoinen projekti** -kentässä. Projektin valinta mahdollistaa työtilauksen tuotteiden ja palvelujen synkronoinnin oikeaan projektitehtävään [!INCLUDE [prod_short](includes/prod_short.md)]issa.
 
@@ -120,7 +120,7 @@ Huoltotyyppinen nimike voidaan lisätä **työtilauksen palveluina**, jonka jäl
 
 Resurssi voidaan varata ja liittää **varaukset** työtilauksen palveluihin käyttämällä **Varattavissa oleva resurssi** -vaihtoehtoa [!INCLUDE [prod_short](includes/prod_short.md)]issa.
 
-### <a name="business-central-1"></a>Business Central
+### Business Central
 
 **Field Service -integroinnin asetukset** -sivun asetusten mukaan tuotteita ja palveluja sisältävien työtilausten kulutustiedot siirretään ja kirjataan [!INCLUDE [prod_short](includes/prod_short.md)]in **projektipäiväkirjan** avulla.
 
@@ -135,7 +135,7 @@ Resurssi voidaan varata ja liittää **varaukset** työtilauksen palveluihin kä
 >
 > **Palvelu**-tyyppisen nimikkeen lasku voidaan luoda laskutettavan projektin suunnitteluriviltä, kun taas budjetin projektin suunnitteluriviä käytetään rekisteröimään resurssin kustannus.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Microsoft Dataverse-integrointi tietojen synkronoinnin avulla](admin-common-data-service.md)  
 [Synkronoitavien taulujen ja kenttien yhdistäminen](admin-how-to-modify-table-mappings-for-synchronization.md)
