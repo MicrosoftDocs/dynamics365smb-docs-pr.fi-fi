@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="use-e-documents-in-the-sales-process"></a>Sähköisten asiakirjojen käyttäminen myyntiprosessissa
+# Sähköisten asiakirjojen käyttäminen myyntiprosessissa
 
 Voit käyttää määritettyjä sähköisiä asiakirjoja myyntiasiakirjojen yhteydessä.
 
@@ -25,13 +25,13 @@ Tällä hetkellä voit käyttää seuraavia myyntiasiakirjoja sähköisten asiak
 - Rahoituskululaskut
 - Muistutukset
 
-## <a name="e-documents-in-sales"></a>Myynnin sähköiset asiakirjat
+## Myynnin sähköiset asiakirjat  
 
 Voit luoda ja lähettää asiakkaalle sähköisen laskun, jos luot ensin myyntilaskun ja kirjaat sen. Lisätietoja vakioprosessista on kohdassa [Myynnin laskutus](sales-how-invoice-sales.md).
 
 Kun olet kirjannut myyntiasiakirjan, avaa **Kirjattu myyntilasku** -sivu ja sen jälkeen liittyvä **Sähköinen asiakirja** -sivu.
 
-### <a name="view-e-documents"></a>Sähköisten asiakirjojen tarkasteleminen
+### Sähköisten asiakirjojen tarkasteleminen   
 
 Voit tarkastella aiemmin luotuja sähköisiä asiakirjoja alla olevien ohjeiden avulla.
 
@@ -40,7 +40,7 @@ Voit tarkastella aiemmin luotuja sähköisiä asiakirjoja alla olevien ohjeiden 
 3. **Tietue**-kentässä on kirjatun myyntilaskun asiakirjanumero. Avaa asiakirja valitsemalla linkki.
 4. **Sähköisen asiakirjan tila** -kentässä voit tarkastella asiakirjan reaaliaikaista tilaa ja sen sijaintia prosessiputkessa. Jos asiakirja on kirjattu, tila on **Käsitelty**.
 
-### <a name="e-document-statuses-and-logs"></a>Sähköisten asiakirjojen tilat ja lokit
+### Sähköisten asiakirjojen tilat ja lokit 
 
 Saat lisätietoja sähköisen asiakirjapalvelun tilan tasosta **Sähköisen asiakirjapalvelun tila** -pikavälilehdestä. Järjestelmä näyttää riveillä vähintään yhden asiakirjan käyttämän palvelun. Yleisimmässä skenaariossa jokainen asiakirja käyttää vain yhtä palvelua. Asiakirja voi kuitenkin käyttää useita palveluita.
 
@@ -64,7 +64,7 @@ Jos palveluntarjoajan kanssa on ongelmia, eikä asiakirjaa voi lähettää, etsi
 
 Kun ongelma on korjattu, suorita manuaalisesti **Lähetä asiakirja** -toiminnot. Jos tarvitset erilaisia toimintoja, kuten **Uudelleenluotu asiakirja**-, **Peruuta asiakirja**- tai **Hae hyväksyntää** -toiminnon, voit suorittaa niitä.
 
-## <a name="overview-of-e-document-statuses"></a>Sähköisten asiakirjojen tilojen yleiskatsaus
+## Sähköisten asiakirjojen tilojen yleiskatsaus
 
 Jos haluat aiempaa paremman yleiskatsauksen yrityksen kaikista sähköisistä asiakirjoista, voit valita **Kirjanpitäjä**-roolikeskuksen, jossa sähköisten asiakirjojen tilat ovat. Siellä voit etsiä sähköistä asiakirjaa koskevat aktiviteetit, joilla on seuraavat tilat:
 
@@ -75,7 +75,7 @@ Jos haluat aiempaa paremman yleiskatsauksen yrityksen kaikista sähköisistä as
     - Virhe
 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Sähköisten asiakirjojen määrittäminen Business Centralissa](finance-how-setup-edocuments.md)  
 [Sähköisten asiakirjojen laajentaminen Business Centralissa](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
