@@ -148,7 +148,7 @@ Raportit voi toimittaa työtovereille ja muille kahdella tavalla:
 
 ## <a name="fixing-problems"></a>Ongelmien korjaaminen
 
-### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Tietuetta ei voi lisätä. Nykyinen yhteystarkoitus on vain luku.". virhe muodostettaessa yhteyttä mukautettuun ohjelmointirajapintasivuun
+### <a name="cant-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Tietuetta ei voi lisätä. Nykyinen yhteystarkoitus on vain luku.". virhe muodostettaessa yhteyttä mukautettuun ohjelmointirajapintasivuun
 
 > **KOHDE:** Business Central online
 

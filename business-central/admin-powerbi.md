@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="introduction-to--and-power-bi"></a>[!INCLUDE[prod_short](includes/prod_short.md)]-sovelluksen ja Power BI:n esittely
+# <a name="introduction-to-business-central-and-power-bi"></a>[!INCLUDE[prod_short](includes/prod_short.md)]-sovelluksen ja Power BI:n esittely
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -19,7 +19,7 @@ ms.service: dynamics-365-business-central
 
 ![Power BI ja Business Central.](media/power-bi-intro.png)
 
-## <a name="what-you-can-do-with-power-bi-and-"></a>Power BI:n ja [!INCLUDE[prod_short](includes/prod_short.md)]in käyttötapoja
+## <a name="what-you-can-do-with-power-bi-and-business-central"></a>Power BI:n ja [!INCLUDE[prod_short](includes/prod_short.md)]in käyttötapoja
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in ja Power BI:n käyttöä varten on erilaisia ominaisuuksia. Joitakin toimintoja voi tehdä Power BI:ssa, kun taas joitakin tehdään [!INCLUDE[prod_short](includes/prod_short.md)]issa. Lisäksi osa ominaisuuksista on käytössä vain [!INCLUDE[prod_short](includes/prod_short.md)] online -versiossa mutta ei paikallisessa versiossa. Seuraavassa taulukossa on ominaisuuksien yleiskuva.
 
