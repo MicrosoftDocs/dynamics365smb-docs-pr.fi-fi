@@ -9,7 +9,7 @@ metadata:
   ms.service: dynamics-365-business-central
   author: jswymer
   ms.author: jswymer
-  ms.date: 06/16/2023
+  ms.date: 04/11/2024
   hide_bc: true
 highlightedContent:
   items:
@@ -71,9 +71,17 @@ additionalContent:
               url: /dynamics365/business-central/across-onedrive-overview
     - title: Hallinnointi ja kehittäminen
       items:
+        - title: Copilot- ja tekoälyominaisuudet
+          links:
+            - text: Copilot- ja tekoälyominaisuuksien määrittäminen
+              url: /dynamics365/business-central/enable-ai
+            - text: Copilotin laajentaminen Business Centralissa
+              url: /dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page
+            - text: Ominaisuudet ja vastuullisen tekoälyn usein kysytyt kysymykset
+              url: /dynamics365/business-central/responsible-ai-overview
         - title: Käyttäjien käyttöoikeuksien hallinta
           links:
-            - text: Luo käyttäjiä
+            - text: Käyttäjien luonti
               url: /dynamics365/business-central/ui-how-users-permissions
             - text: Käyttöoikeuksien delegoiminen käyttäjille ja ryhmille
               url: /dynamics365/business-central/ui-define-granular-permissions
@@ -133,6 +141,20 @@ additionalContent:
               url: /dynamics365/business-central/dev-itpro/api-reference/v2.0/
     - title: Tuottava toiminta
       items:
+        - title: Copilot
+          links:
+            - text: Luettelotietojen analysointi
+              url: /dynamics365/business-central/analysis-assist
+            - text: Keskustelu Copilotin avulla
+              url: /dynamics365/business-central/chat-with-copilot
+            - text: Markkinointitekstiehdotusten hyödyntäminen
+              url: /dynamics365/business-central/ai-overview
+            - text: Sähköisten asiakirjojen vastaavuudet
+              url: /dynamics365/business-central/map-edocuments-with-copilot
+            - text: Pankkitilien täsmäyttäminen
+              url: /dynamics365/business-central/bank-reconciliation-with-copilot
+            - text: Ehdotusrivien ehdotukset
+              url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
         - title: Työtilan asetukset
           links:
             - text: 'Kieli, alue, käsittelypäivämäärä, aikavyöhyke, yms.'
@@ -147,13 +169,13 @@ additionalContent:
           links:
             - text: Yleiskuvaus
               url: /dynamics365/business-central/across-share-data-features
-            - text: Jaa tietoja Teamsin keskusteluissa ja kanavissa
+            - text: Tietojen jakaminen Teamsin keskusteluissa ja kanavissa
               url: /dynamics365/business-central/across-teams-overview
-            - text: Jaa tiedostoja OneDrivessa
+            - text: Tiedostojen jakaminen OneDrivessa
               url: /dynamics365/business-central/across-share-onedrive
-            - text: Tee yhteistyötä Excelissä
+            - text: Yhteistyö Excelissä
               url: /dynamics365/business-central/across-work-with-excel
-        - title: 'Liiketoimintatiedot, raportointi ja tietojen analysointi'
+        - title: 'BI, raportointi ja tietojen analysointi'
           links:
             - text: Yleiskuvaus
               url: /dynamics365/business-central/reports-bi-reporting
@@ -165,7 +187,9 @@ additionalContent:
               url: /dynamics365/business-central/analysis-mode
             - text: Raporttitietojen analysoiminen Excelillä
               url: /dynamics365/business-central/report-analyze-excel
-        - title: Yrityksen yleiset toiminnot
+    - title: Liikeasioiden hoitaminen
+      items:
+        - title: Yleiset
           links:
             - text: Yleiset päiväkirjat
               url: /dynamics365/business-central/ui-work-general-journals
@@ -175,8 +199,6 @@ additionalContent:
               url: /dynamics365/business-central/admin-job-queues-schedule-tasks
             - text: Saapuvat asiakirjat
               url: /dynamics365/business-central/across-income-documents
-    - title: Liikeasioiden hoitaminen
-      items:
         - title: Taloushallinto
           links:
             - text: Yleiskuvaus

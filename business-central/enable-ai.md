@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 02/27/2024
+ms.date: 04/16/2024
 ms.custom: bap-template
 ms.search.form: 7775
 ms.collection:
@@ -35,12 +35,12 @@ Tässä artikkelissa kerrotaan, miten hallita Copilotia ja muita tekoälyominais
 
   In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. [Learn more](#enable-feature-in-feature-management)-->
 
-Jos jokin näistä vaatimuksista ei täyty, ominaisuus ei ole käytettävissä.-->
+Jos jokin näistä vaatimuksista ei täyty, ominaisuus ei ole käytettävissä.
 
 ## Vaatimukset
 
-- Käytössä on Business Central Online <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
-- Sinulla on Business Centralin järjestelmänvalvojan tai pääkäyttäjän käyttöoikeudet.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
+- Käytössä on Business Central Online.
+- Olet Business Centralin [järjestelmänvalvoja](#requirements-for-being-an-administrator).
 
 ## Salli tietojen siirto eri maantieteellisillä alueilla
 
@@ -119,18 +119,34 @@ Seuraavassa taulukossa on luettelo käyttöoikeuksista, joita tarvitaan Business
 |Analyysiavustaja|**DATA ANALYSIS - EEC** -käyttöoikeusjoukko tai järjestelmäobjektin 9640 **Salli tietojen analysointitila** käyttöoikeuden suorittaminen. Näitä samoja käyttöoikeuksia tarvitaan analyysitilan käyttämiseen.|
 |Pankkitilin täsmäytyksen avustaja|Käyttöoikeus sivulla 7250 **Pankkitilin täsmäytyksen tekoälyyn perustuva ehdotus** ja sivu 7252 **Siirto KP-tilin tekoälyehdotukseen**.|
 |Keskustelu |Mikään käyttöoikeus tai käyttöoikeusjoukko ei hallita keskustelun käyttöoikeutta käyttäjäkohtaisesti. Jos keskustelu on aktivoitu, se on kaikkien käyttäjien käytettävissä.|
+|Liitä sähköisiä asiakirjoja |Käyttöoikeus sivulla 6166 **Sähköisen asiak. PO:n Copilotin omin.**|
 |Markkinointitekstiehdotukset |Käyttöoikeus sivulla 5836 **Copilotin markkinointiteksti**|
+|Myyntirivin ehdotukset |Käyttöoikeus sivulle 7275 **Myyntirivin tekoälyehdotukset** ja sivu 7276 **Myyntirivin tekoälyehdotusten alirivi**|
 
 Tietyn muun kuin Microsoftin avustajan ja tekoälyominaisuuksien käyttöoikeuden myöntämisestä tai kieltämisestä on lisätietoja ohjeissa tai kyseisen ominaisuuden julkaisijalla. Tällä tavoin saadaan selville, mitä käyttöoikeuksia tarvitaan.
+
+## Järjestelmänvalvojan vaatimukset
+
+Sinulla on oltava joko SUPER-käyttöoikeudet Business Central -käyttäjätilissä tai jokin seuraavista Business Central -käyttöoikeuksista:
+
+- Delegoitu järjestelmänvalvoja
+- Delegoitu helpdesk
+- Yleinen järjestelmänvalvoja
+- BC-järjestelmänvalvoja
+- D365-järjestelmänvalvoja
+
+Business Central ei vielä tarjoa rakeisia objektitason käyttöoikeuksia, joten vain tietyt järjestelmänvalvojat voivat määrittää Copilotin.
 
 ## Seuraavat vaiheet
 
 Kun olet ottanut ominaisuudet käyttöön ja antanut niihin suostumuksesi, voit kokeilla niitä. Mene kohtaan:
 
-- [Markkinointitekstin lisääminen nimikkeille](item-marketing-text.md)
-- [Tietojen analysoiminen analyysitilassa Copilotin avulla](analysis-assist.md)  
+- [Lisää markkinointiteksti nimikkeille Copilotin avulla](item-marketing-text.md)
+- [Luetteloiden tietojen analysointi Copilotin avulla](analysis-assist.md)  
 - [Keskustelu Copilotin avulla](chat-with-copilot.md)
-- [Täsmäyttäminen pankkitilien täsmäytysavustajan avulla](bank-reconciliation-with-copilot.md)
+- [Sähköisten asiakirjojen yhdistäminen ostotilausriveille Copilotin avulla](map-edocuments-with-copilot.md)
+- [Pankkitilien täsmäyttäminen Copilotin avulla](bank-reconciliation-with-copilot.md)
+- [Rivien ehdottaminen myyntitilaukseen Copilotin avulla](sales-suggest-sales-lines-with-copilot.md)  
 
 ## Katso myös
 
@@ -138,5 +154,8 @@ Kun olet ottanut ominaisuudet käyttöön ja antanut niihin suostumuksesi, voit 
 [Analyysiavustajan usein kysytyt kysymykset](faqs-analysis-assist.md)  
 [Pankkitilin täsmäytyksen avustajan usein kysytyt kysymykset](faqs-bank-reconciliation.md)  
 [Usein kysyttyjä kysymyksiä keskustelusta Copilotin avulla](faqs-chat-with-copilot.md)  
+[Usein kysyttyjä kysymyksiä sähköisten asiakirjojen yhdistämisestä ostotilauksiin](faqs-map-edocuments.md)  
 [Markkinointitekstiehdotusten usein kysytyt kysymykset](faqs-marketing-text.md)  
+[Myyntirivin ehdotusten UKK](faq-sales-suggest-sales-lines-with-copilot.md)  
+
 [Markkinointitekstiehdotusten yleiskatsaus](ai-overview.md)  

@@ -127,6 +127,37 @@ Talousraportin avulla voidaan luoda laskelma, joka vertaa pääkirjanpidon ja bu
 
 Nyt voit kopioida ja liittää budjettierittelyn laskentataulukkoon.  
 
+## Talousraporttien integroiminen Exceliin
+
+Voit integroida talousraportin Excel-työkirjamallin kanssa, muuttaa asettelun tarpeidesi mukaan ja päivittää Excel-malliin tiedot [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmasta. Integrointi helpottaa esimerkiksi kuukausittaisten ja vuosittaisten taloudellisten raporttien luontia sinulle toimivassa muodossa.
+
+### Excel-integroinnin määrittäminen rahoitusraportille (Luo Excel-malli)
+
+Kun haluat määrittää Excel-integroinnin rahoitusraportille, luo raporttia varten Excel-malli noudattamalla näitä vaiheita.
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 4.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Talousraportit** ja valitse sitten vastaava linkki.
+1. Valitse **Talousraportit**-sivulla talousraportti ottaaksesi Excelin käyttöön ja valitse sitten **Tuo Exceliin** -toiminto.
+1. Valitse **Luo uusi tiedosto** -toiminto. Tämä toiminto lataa Excel-mallin työkirjan, jossa on yksi raportin nimen mukaan nimetty työkirja.
+1. Kopioi työkirja ja nimeä se uudelleen **Dataksi**.
+1. Nimeä raportin työkirja uudelleen mieleiseksesi.
+1. Merkitse raporttityökirjaan kaikki solut, joissa näkyy talousraportin tietoja (mukaan lukien sarake- ja riviotsikot). Etsi **Kotisivu**-valintanauhan **Numero**-valikko ja valitse muodoksi **Yleinen**.
+1. Valitse alueen vasemmanpuoleisin solu, jossa on talousraportin tietoja, ja määritä viittaus vastaavaan soluun Data-työkirjassa. Laajenna kaavaa ensimmäisen rivin kaikkiin soluihin vetämällä riviä alas ja peitä sitten talousraportin kaikki rivit vetämällä riviä alas.
+1. Piilota **data**-työkirja.
+1. Muotoile raporttityökirja tarpeidesi mukaan.
+1. Tallenna työkirja OneDriveen tai vastaavaan paikkaan, jossa tiedosto varmuuskopioidaan ja versioidaan.
+1. Sulje työkirja.
+
+### Talousraportin suorittaminen Excel-mallin avulla
+
+Voit suorittaa talousraportin Excel-mallin avulla noudattamalla seuraavia vaiheita:
+
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 4.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Talousraportit** ja valitse sitten vastaava linkki.
+1. Valitse **Talousraportit**-sivulla talousraportti ottaaksesi Excelin käyttöön ja valitse sitten **Tuo Exceliin** -toiminto.
+1. Valitse **Päivitä kopio olemassa olevasta asiakirjasta** -toiminto.
+1. Lataa Excel-malli (sulje Excel-työkirja ennen sen lataamista).
+1. Valitse **Nimi-/Arvo-haku**-sivulla Data-työkirja.
+1. [!INCLUDE[prod_short](includes/prod_short.md)] suorittaa talousraportin ja yhdistää tuloksena syntyvät tiedot Excel-malliin.
+
 ## Tulosta ja tallenna talousraportit
 
 Voit tulostaa talousraportteja laitteesi tulostuspalveluiden avulla. [!INCLUDE[prod_short](includes/prod_short.md)]issa on myös mahdollisuus tallentaa raportit Excel-työkirjoina, Word-asiakirjoina sekä PDF- ja XML-tiedostoina.
@@ -147,6 +178,7 @@ Voit tallentaa taloudellisen raportin tiedostomuodoissa, kuten PDF, XML, Word ta
 1. Määritä raportti sen mukaisesti ja valitse sitten **Lähetä**-toiminto.
 1. Valitse tiedostomuoto tai **Ajoita**-toiminto ja valitse **OK**.
 1. Voit luoda ajoitetun tai toistuvan talousraportin täyttämällä kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>Toistuvissa talousraporteissa luodaan talousraportti määrittämällä **Varhaisin aloituspäivämäärä/aika** ja **Vanhentumispäivä/aika** -kenttiin ensimmäinen ja viimeinen päivämäärä. Valitse myös sen päivän päivämäärä, jolloin raportti luodaan, määrittämällä **Seuraava suorituspvm-kaava** -kenttä [Käytä pvm-kaavoja](ui-enter-date-ranges.md#use-date-formulas) -osassa selostettujen muotojen jälkeen.
+
 
 ## Taloudellisten raporttimääritysten käytön parhaat käytännöt
 

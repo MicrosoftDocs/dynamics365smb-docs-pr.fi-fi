@@ -5,13 +5,13 @@ author: jswymer
 ms.topic: overview
 ms.service: dynamics-365-business-central
 ms.search.keywords: 'privacy, trial, Microsoft services'
-ms.date: 12/12/2023
+ms.date: 04/14/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Muihin Microsoft-palveluihin yhteydessä olevat kokeiluominaisuudet
+# Muihin Microsoft-palveluihin yhteydessä olevat kokeiluominaisuudet 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] on kokonaisvaltainen liiketoiminnan hallintaratkaisu, joka on vahvasti integroitu Microsoft 365:n tuottavuussovelluksiin ja Power Platformiin. Maksuton Business Centralin kokeiluversio voi muodostaa yhteyden useisiin Microsoft-palveluihin, jotka on ensin määritettävä ja otettava käyttöön. Saadaksesi parhaan hyödyn ilmaisesta kokeilustasi, jotkin näistä ominaisuuksista on otettu käyttöön automaattisesti. Vaikka yhteys [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan on otettu käyttöön, nämä palvelut eivät sisälly kokeiluversioon, ja ne on hankittava erikseen, ellei niitä ole jo olemassa.
 
@@ -22,7 +22,7 @@ Seuraava taulukko ilmaisee Microsoft-palveluihin liittyvät yhteydet, jotka otet
 |Microsoft Teams|Kyllä|Ei|**Jaa Teamsiin** -toiminto **Nimike**-kortissa |[Teamsin ja Business Centralin integroinnin hallinta](admin-teams-integration.md)|  
 |Microsoft OneDrive for Business|Kyllä|Ei|**Avaa OneDrivessa** -toiminto **Nimike**-liitteissä |[OneDriven ja Business Centralin integroinnin hallinta](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
 | Microsoft Power Automate |Kyllä|Ei|**Automaattiset** toiminnot **Nimike**-kortissa |[Power Automate -integraation määrittäminen](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
-| Microsoft Azure OpenAI Automate |Kyllä |Ei|**Copilot (esiversio)** |[Nimikkeen tekoälypohjaisen markkinointitekstin määrittäminen Copilotin avulla](enable-ai.md)|
+| Microsoft Azure OpenAI -palvelu |Kyllä |Ei|**Copilot** |[Nimikkeen tekoälypohjaisen markkinointitekstin määrittäminen Copilotin avulla](enable-ai.md)|
 
 > [!NOTE]
 > Käyttämällä toimintoja, jotka muodostavat yhteyden näihin palveluihin: 

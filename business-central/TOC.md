@@ -573,6 +573,7 @@ ms.service: dynamics-365-business-central
 ### [Tietoja KET-menetelmistä](projects-understanding-wip.md)
 ### [Projektin edistymisen ja suorituskyvyn valvonta](projects-how-monitor-progress-performance.md)
 ### [Projektien laskutus](projects-how-invoice-jobs.md)
+### [Kokoonpano projektiin](projects-assemble-to-project.md)
 
 ## Käyttöomaisuus
 ### [Käyttöomaisuuden yleiskatsaus](fa-manage.md)

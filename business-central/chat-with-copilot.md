@@ -103,7 +103,7 @@ Kehote: `How does I save my filterrings to do them later?`
 
 Tässä esimerkissä Copilotilta pyydetään ohjeita jonkin tehtävän suorittamiseen Business Centralissa. Copilot ymmärtää yleensä kysymyksen tarkoituksen, vaikka siinä olisi kielioppi- tai oikeinkirjoitusvirheitä taikka lyhenteitä.
 
-Kehote: `Provide feedback on answers`
+## Anna vastauksiin palautetta
 
 Copilotin vastauksia voidaan arvioida käyttämällä tykkää (peukku ylös) -painiketta, jos arvio on hyvä, tai ei tykkää (peukku alas) -painiketta, jos arvio on huono. Ei tykkää -painikkeen valinnan yhteydessä voidaan valita syy, kuten epätarkka, epäsopiva tai muu. Nämä tiedot voivat auttaa parantamaan ehdotuksia.
 

@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Poiminta tuotantoa, kokoonpanoa tai töitä varten fyysisen varaston lisämäärityksissä
+# Poiminta tuotantoa, kokoonpanoa tai töitä varten fyysisen varaston lisämäärityksissä
 
 Tuotantoon, projekteihin tai koonpanotilauksiin poimittujen komponenttien hyllytystapa määräytyy sen mukaan, miten fyysinen varasto on määritetty sijaintina. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).
 
@@ -32,7 +32,7 @@ Lähdeasiakirjojen komponenttien poimiminen tai siirtäminen pull-menetelmällä
 |Kokoonpanotilaus|Muuta tilaksi Vapautettu.|
 |Projektit | Tilaksi vaihdetaan Avoin tai vaihtoehtoisesti luodaan heti projekti, jonka tila on Avoin.|  
 
-## <a name="production"></a>Tuotanto
+## Tuotanto
 
 Tuotannon komponentteja voi poimia työkulussa tuotantoon **F.varastoinnin poiminta** -asiakirjojen avulla.
 
@@ -41,13 +41,13 @@ Jos sijainnissa käytetään varastopaikkoja nimikkeiden siirtämiseen avoimiin 
 * Jos sijainnissa käytetään ohjattua hyllytystä ja poimintaa, lisätietoja on artikkelissa [Nimikkeiden siirtäminen laajennetuissa fyysisen varaston määrityksissä](warehouse-how-to-move-items-in-advanced-warehousing.md).
 * Muita sijainteja koskevia lisätietoja on artikkelissa [Nimikkeiden sisäinen siirtäminen fyysisen varastoinnin perusmäärityksissä](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
-## <a name="assembly"></a>Kokoonpano
+## Kokoonpano  
 
 Kokoonpanon komponentit voidaan siirtää kokoonpanoalueelle **F.varastoinnin poiminta** -asiakirjojen avulla.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] tukee kokoonpanovirtoja, joiden tyyppi on kokoonpanoa varastoa varten ja kokoonpano tilausten varten. Lisätietoja fyysisen varaston lähtevän virran kokoonpanosta tilausten varten on kohdassa [Kokoonpano tilausta varten -nimikkeiden käsitteleminen fyysisen varastoinnin toimituksissa](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-## <a name="project-management"></a>Projektinhallinta
+## Projektinhallinta  
 
 Projektin komponentteja voi poimia työnkulussa projektinhallintaan **F.varastoinnin poiminta** -asiakirjojen avulla.
 
@@ -56,11 +56,11 @@ Projektin komponentteja voi poimia työnkulussa projektinhallintaan **F.varastoi
 >
 > Projektit eivät tue laajennettuja määrityksiä, joissa **Ohjattu poiminta ja hyllytys** on otettu vaihtopainikkeella käyttöön.
 
-## <a name="check-whether-items-are-available-for-picking"></a>Tarkista, ovatko nimikkeet poimittavissa
+## Tarkista, ovatko nimikkeet poimittavissa
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Poiminta-asiakirjojen joukkoluonti poimintatyökirjan avulla
+## Poiminta-asiakirjojen joukkoluonti poimintatyökirjan avulla
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poimintatyökirja** ja valitse sitten vastaava linkki.  
 
@@ -113,7 +113,7 @@ Projektin komponentteja voi poimia työnkulussa projektinhallintaan **F.varastoi
 
 8. Valitse **OK**-painike.  
 
-## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Tuotantotilauksen, kokoonpanotilauksen, projektin nimikkeiden poimiminen
+## Tuotantotilauksen, kokoonpanotilauksen, projektin nimikkeiden poimiminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poiminnat** ja valitse sitten vastaava linkki.  
 
@@ -141,7 +141,7 @@ Projektin komponentteja voi poimia työnkulussa projektinhallintaan **F.varastoi
     * [Nimikkeiden kokoonpano](assembly-how-to-assemble-items.md)
     * [Projektien kulutuksen tai käytön kirjaaminen](projects-how-record-job-usage.md)
 
-## <a name="flushing-production-components-in-an-advanced-warehouse-configuration"></a>Tuotannon komponenttien materiaaliotto laajennetussa fyysisen varaston määrityksessä
+## Tuotannon komponenttien materiaaliotto laajennetussa fyysisen varaston määrityksessä
 
 Materiaaliottotavat vaikuttavat komponenttien siirtymiseen tuotantoon. Lisätietoja on kohdassa [Komponenttien materiaalinotto toiminnan tuotoksen mukaan](production-how-to-flush-components-according-to-operation-output.md). Valitun materiaaliottotavan mukaan komponentteja voi poimia tuotantoon seuraavilla tavoilla:
 
@@ -149,7 +149,7 @@ Materiaaliottotavat vaikuttavat komponenttien siirtymiseen tuotantoon. Lisätiet
 * Käyttämällä **F.varastoinnin poiminta** -asiakirjaa **Poiminta + eteenpäin**- tai **Poiminta + taaksepäin** -materiaaliottotapaa käyttävien nimikkeiden poiminnan kirjaamiseen. Komponentteja kulutetaan automaattisesti, joko muutettaessa tuotantotilauksen tilaa taikka aloitettaessa tai lopetettaessa työvaihetta. Kaikkien pakollisten komponenttien on oltava saatavana. Muutoin kyseisen komponentin materiaalinoton kirjaus lopetetaan.
 * Käyttämällä **F. var. siirto** -asiakirjaa viittaamatta lähdeasiakirjaan tai kirjaamalla muulla tavoin **Eteenpäin**- tai **Taaksepäin**-materiaaliottotapaa käyttävien komponenttien varaston siirrot. Komponentteja kulutetaan automaattisesti, joko muutettaessa tuotantotilauksen tilaa taikka aloitettaessa tai lopetettaessa työvaihetta. Kaikkien pakollisten komponenttien on oltava saatavana. Muutoin kyseisen komponentin materiaalinoton kirjaus lopetetaan. Lisätietoja on kohdassa [Nimikkeiden siirtäminen](warehouse-move-items.md).
 
-### <a name="example"></a>Esimerkki
+### Esimerkki
 
 Nimikkeellä SP-SCM1004 on 15 kappaleen tuotantotilaus.. Joiden komponenttiluettelon nimikkeiden materiaaliotto on tehtävä manuaalisesti kulutuspäiväkirjassa. Muiden nimikkeiden poiminta ja materiaaliotto voidaan tehdä automaattisesti käyttämällä **Poiminta + taaksepäin** -materiaaliottotapaa.  
 
@@ -172,7 +172,7 @@ Seuraavassa kuvassa esitetään, milloin **Bin-koodi** -kenttä osaluettelossa t
 
 :::image type="content" source="media/binflow.png" alt-text="Yleiskatsaus Varastopaikkakoodi-kenttä täyttämisen ajankohdasta ja täyttämistavasta.":::
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 - [Varaston hallinta](inventory-manage-inventory.md)  
 - [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  

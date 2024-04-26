@@ -36,10 +36,10 @@ Lisätietoja hallintasisällössä: [Valtuutettu järjestelmänvalvojan käyttö
 
 |Tehtävä  |Katso  |
 |---------|---------|
-|Voit helpottaa useiden käyttäjien käyttöoikeuksien hallintaa järjestämällä ne suojausryhmiin ja määrittämällä sitten yhden toiminnon useille käyttäjille yhden käyttöoikeusjoukon tai muuttamaan sitä.| [Käyttöoikeuksien hallinta käyttäjäryhmien avulla](#to-manage-permissions-through-user-groups) |
-|Käyttöoikeuksien joukkojen hallinta tiettyjen käyttäjien osalta | [Käyttöoikeusjoukkojen määrittäminen käyttäjälle](#to-assign-permission-sets-to-users) |
-|Lisätietoja käyttöoikeuksien joukon määrittämisestä|[Käyttöoikeuksien joukon luominen](#to-create-a-permission-set)|
-|Käyttäjän käyttöoikeuksien tarkasteleminen tai vianmääritys|[Yleiskuvan saaminen käyttöoikeuksista](#to-get-an-overview-of-a-users-permissions)|
+|Voit helpottaa useiden käyttäjien käyttöoikeuksien hallintaa järjestämällä ne suojausryhmiin ja määrittämällä sitten yhden toiminnon useille käyttäjille yhden käyttöoikeusjoukon tai muuttamaan sitä.| [Käyttöoikeuksien hallinta käyttäjäryhmien avulla](#manage-permissions-through-user-groups) |
+|Käyttöoikeuksien joukkojen hallinta tiettyjen käyttäjien osalta | [Käyttöoikeusjoukkojen määrittäminen käyttäjälle](#assign-permission-sets-to-users) |
+|Lisätietoja käyttöoikeuksien joukon määrittämisestä|[Käyttöoikeuksien joukon luominen](#create-a-permission-set)|
+|Käyttäjän käyttöoikeuksien tarkasteleminen tai vianmääritys|[Yleiskuvan saaminen käyttöoikeuksista](#get-an-overview-of-a-users-permissions)|
 |Tietoja tietuetason suojauksesta|[Suojaussuodattimet rajoittavat käyttäjän käyttöoikeuden tiettyihin taulukon tietueisiin](#security-filters-limit-a-users-access-to-specific-records-in-a-table)|
 
 > [!NOTE]
@@ -136,7 +136,7 @@ Luo uusi käyttöoikeuksien joukko kopioimalla toinen joukko. Uusi joukko sisäl
 
 ## Käyttöoikeuksien luominen tai muokkaaminen toimia tallentamalla
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöoikeuksien joukot** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöoikeuksien joukot** ja valitse sitten vastaava linkki.
 
     Vaihtoehtoisesti voit valita **Käyttäjät**-sivulla **Käyttöoikeuksien joukko** -toiminnon.
 2. Valitse **Käyttöoikeuksien joukko** -sivulla **Uusi**-toiminto.
@@ -171,7 +171,7 @@ Usean vuokraajan ympäristöissä käyttöoikeuksien joukko tuodaan tietylle vuo
 
 Käyttöoikeusien joukot tuodaan.
 
-## Voit poistaa vanhentuneet käyttöoikeudet kaikista käyttöoikeuksien joukoista seuraavasti.
+## Voit poistaa vanhentuneet käyttöoikeudet kaikista käyttöoikeuksien joukoista seuraavasti
 
 Valitse **Käyttöoikeuksien joukot** -sivulla **Poista vanhentuneet käyttöoikeudet** -toiminto.
 
@@ -183,6 +183,14 @@ Järjestelmänvalvojat voivat määrittää ajanjaksot, joina määritetyt käyt
 2. Valitse avautuvalla **Käyttäjäasetukset**-sivulla **Uusi**-toiminto.
 3. Anna **Käyttäjätunnus**-kentässä käyttäjän tunnus tai valitse kenttä, jos haluat nähdä kaikki järjestelmässä tällä hetkellä olevat Windows-käyttäjät.
 4. Täytä tarvittavat kentät.
+
+## Tiettyjen yritysten käyttöoikeuksien hallinta
+
+Kun Business Centralissa on useita yrityksiä, käyttöoikeuksien hallinta yrityksissä vaatii lisäharkintaa. Et ehkä halua, että käyttäjillä on identtiset käyttöoikeudet kaikkiin yrityksiin. Käyttäjä voi sen sijaan joutua myöntämään käyttöoikeudet yritysliittymien perusteella. Kun liität käyttöoikeuksia yksittäisiin käyttäjiin tai suojausryhmiin, voit tämän skenaarion tueksi valita yrityksen, johon käyttöoikeusasetus pätee. Yritystä ei ole eksplisiittisesti määritetty käyttöoikeusjoukossa, vaan pikemminkin silloin, kun käyttöoikeusjoukko määritetään käyttäjälle tai suojausryhmälle.
+
+Jos et määritä yritystä määrittäessäsi käyttöoikeusjoukkoa, tämä käyttöoikeusjoukko koskee kaikkia yrityksiä. Jos haluat, että käyttöoikeus määritetään usealle yritykselle, mutta ei kaikille yrityksille, lisää kullekin yritykselle määritetty käyttöoikeus erikseen.
+
+Lue lisätietoja kohdassa [Määritä käyttöoikeuksien joukot käyttäjille](#assign-permission-sets-to-users) tai [Määritä käyttöoikeuksien joukot käyttöoikeusjoukoille](ui-security-groups.md#assign-permissions-to-a-security-group).
 
 ## Käyttöoikeuksien hallinta käyttäjäryhmien avulla
 
@@ -227,7 +235,7 @@ Uusi käyttäjäryhmä lisätään **Käyttäjäryhmät**-sivulle. Aloita käytt
 3. Avaa **Käyttöoikeuksien joukot**-toiminto, jos haluat avata **Käyttöoikeuksien joukot** -sivun.
 4. Täytä **Käyttöoikeuksien joukot** -sivulla uudella rivillä tarvittavat kentät.
 
-### Käyttöoikeuksien joukon määrittäminen **Käyttöoikeuksien joukko käyttäjäryhmän mukaan** -sivulla
+### Käyttöoikeuksien joukon määrittäminen Käyttöoikeuksien joukko käyttäjäryhmän mukaan -sivulla
 
 Seuraavassa kerrotaan, miten käyttöoikeuksien joukot määritetään käyttäjäryhmälle **Käyttöoikeuksien joukko käyttäjäryhmän mukaan** -sivulla.
 
@@ -242,7 +250,7 @@ Voit myös määrittää käyttöoikeusjoukkoja suoraan käyttäjälle.
 
 Käyttöoikeusjoukko on joukko tiettyjen tietokantaobjektien käyttöoikeuksia. Kaikille käyttäjille on määritettävä vähintään yksi käyttöoikeusjoukko, ennen kuin he voivat käyttää [!INCLUDE[prod_short](includes/prod_short.md)]ia.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisu sisältää esimääritettyjä käyttöoikeuksien joukkoja, jotka Microsoft tai oma ratkaisutoimittajasi on lisännyt. Voit myös lisätä uusia käyttöoikeusjoukkoja, jotka on räätälöity organisaatiosi tarpeiden mukaan. Lisätietoja on [Käyttöoikeuksien joukon luominen](#to-create-a-permission-set) -osassa.
+[!INCLUDE[prod_short](includes/prod_short.md)] -ratkaisu sisältää esimääritettyjä käyttöoikeuksien joukkoja, jotka Microsoft tai oma ratkaisutoimittajasi on lisännyt. Voit myös lisätä uusia käyttöoikeusjoukkoja, jotka on räätälöity organisaatiosi tarpeiden mukaan. Lisätietoja on [Käyttöoikeuksien joukon luominen](#create-a-permission-set) -osassa.
 
 > [!NOTE]
 > Jos et halua rajoittaa käyttäjän oikeuksia enempää kuin käyttöoikeussopimuksessa on jo määritetty, voit määrittää käyttäjälle erityisen käyttöoikeusjoukon nimeltä SUPER. Tämä käyttöoikeusjoukko varmistaa, että käyttäjä voi käyttää kaikkia lisenssissä määritettyjä objekteja.
@@ -257,18 +265,22 @@ Voit määrittää käyttöoikeusjoukkoja käyttäjille kahdella seuraavalla tav
 ### Käyttäjäoikeuksien joukon määrittäminen käyttäjän kortissa
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten vastaava linkki.
-2. Valitse käyttäjä, jolle haluat määrittää käyttöoikeuden.
-Kaikki käyttäjälle jo määritetyt käyttöoikeusjoukot **Käyttöoikeuksien joukot** -tietoruudussa.
-3. Avaa **Käyttäjän kortti** -sivu valitsemalla **Muokkaa** -toiminto.
-4. Täytä **Käyttöoikeuksien joukot** -tietoruudun uudella rivillä tarvittavat kentät. Lisätietoja on kohdassa [Käyttöoikeuksien joukon luominen tai muokkaaminen](ui-define-granular-permissions.md#to-create-a-permission-set).
+1. Valitse käyttäjä, jolle haluat määrittää käyttöoikeuden.
 
-   Käytä **Yritys**-kenttää, kun haluat käyttää tietylle yritykselle määritettyjä käyttöoikeuksia. Jos jätät kentän tyhjäksi, kenttä koskee kaikkia yrityksiä.
+   Kaikki käyttäjälle jo määritetyt käyttöoikeusjoukot **Käyttöoikeuksien joukot** -tietoruudussa.
+1. Avaa **Käyttäjän kortti** -sivu valitsemalla **Muokkaa** -toiminto.
+1. Täytä **Käyttöoikeuksien joukot** -tietoruudun uudella rivillä tarvittavat kentät. Lisätietoja on kohdassa [Käyttöoikeuksien joukon luominen tai muokkaaminen](ui-define-granular-permissions.md#create-a-permission-set).
+
+   Jos haluat, että käyttöoikeusjoukko koskee vain tiettyä yritystä, määritä **yritys**-kentäksi kyseinen yritys. Jos haluat, että käyttöoikeus määritetään koskemaan kaikkia yrityksiä, jätä **Yritys**-kenttä tyhjäksi. [Lisätietoja](#control-access-to-specific-companies).
 
 ## Käyttöoikeuksien joukon määrittäminen Käyttöoikeuksien joukko käyttäjän mukaan -sivulla
 
+Tämä menetelmä helpottaa eri käyttöoikeusjoukkojen määrittämistä useille käyttäjille. 
+
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten vastaava linkki.
-2. Valitse **Käyttäjät**-sivulla **Käyttöoikeuksien joukko käyttäjän mukaan** -toiminto.
-3. Valitse **Käyttöoikeuksien joukko käyttäjän mukaan** -sivulla sen käyttöoikeuksien joukon rivin **[käyttäjätunnus]**-valintaruutu, joka määritetään käyttäjälle.
+1. Valitse **Käyttäjät**-sivulla **Käyttöoikeuksien joukko käyttäjän mukaan** -toiminto.
+1. Jos haluat, että käyttöoikeusjoukot koskevat vain tiettyä yritystä, määritä **yrityksen nimi** -kentäksi kyseinen yritys. Jos haluat, että käyttöoikeus määritetään koskemaan kaikkia yrityksiä, jätä **Yrityksen nimi** -kenttä tyhjäksi. [Lisätietoja](#control-access-to-specific-companies).
+1. Valitse **Käyttöoikeuksien joukko käyttäjän mukaan** -sivulla sen käyttöoikeuksien joukon rivin **[käyttäjätunnus]**-valintaruutu, joka määritetään käyttäjälle.
 
     Valitse **Kaikki käyttäjät** -valintaruutu, jos haluat määrittää käyttöoikeuksien joukon kaikille käyttäjille.
 
@@ -293,7 +305,7 @@ Voit tarkastella muiden käyttäjien käyttöoikeuksia vain, jos sinut on liitet
     >
     > Rivit, joiden lähde on oikeutus, ovat peräisin tilauslisenssistä. Oikeutuksen käyttöoikeusarvot korvaavat muiden käyttöoikeuksien joukkojen arvot, jos niillä on korkeampi luokitus. Muun kuin oikeuden käyttöoikeuksien joukon arvo, jonka luokitus on korkeampi kuin oikeutuksen liittyvän arvon luokitus, on suluissa. Tämä osoittaa, että se ei ole voimassa, koska oikeutus korvaa sen.
     >
-    > Lisätietoja luokituksesta on kohdassa [Käyttöoikeuksien joukon luominen](ui-define-granular-permissions.md#to-create-a-permission-set).  
+    > Lisätietoja luokituksesta on kohdassa [Käyttöoikeuksien joukon luominen](ui-define-granular-permissions.md#create-a-permission-set).  
 
 4. Voit muokata käyttöoikeuksien joukkoa valitsemalla **Käyttöoikeuksien joukon mukaan** -osan asianmukaisen käyttöoikeuksien joukon **Käyttäjän määrittämä** -tyyppisellä rivillä yksi viidestä käyttöoikeustyypin kentästä ja valitse siihen toinen arvo.
 
@@ -305,6 +317,7 @@ Voit tarkastella muiden käyttäjien käyttöoikeuksia vain, jos sinut on liitet
 ### Suojaussuodattimet rajoittavat käyttäjän käyttöoikeutta tiettyihin taulukon tietueisiin
 
 Sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] tietuetason suojauksessa käyttäjän käyttöoikeus rajoitetaan taulukon tietoihin suojaussuodattimien avulla. Suojaussuodattimet luodaan taulukon tietojen perusteella. Suojaussuodatin kuvaa sitä taulukon tietuejoukkoa, jonka käyttöoikeus käyttäjällä on. Voit määrittää esimerkiksi, että käyttäjä saa lukea vain tietueita, joissa on tietoja tietystä asiakkaasta. Tällä tavoin käyttäjällä ei ole muiden asiakkaiden tietoja sisältävien tietueiden käyttöoikeutta. Lisätietoja on hallintasisällön kohdassa [Suojaussuodattimien käyttäminen](/dynamics365/business-central/dev-itpro/security/security-filters).
+
 
 ## Käyttöoikeuksien muutosten telemetrian tarkasteleminen
 

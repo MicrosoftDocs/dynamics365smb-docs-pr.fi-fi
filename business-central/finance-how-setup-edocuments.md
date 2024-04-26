@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice'
 ms.search.form: '359, 360, 6103, 6133'
-ms.date: 03/29/2023
+ms.date: 04/10/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-e-documents"></a>Sähköisten asiakirjojen määrittäminen
+# Sähköisten asiakirjojen määrittäminen
 
 > [!IMPORTANT]
 > Sähköisten asiakirjojen ydinmoduuli on kehys. Oletusarvoisesti **Palvelun integrointi** -kenttää ei ole. Jos löydät oletusarvoisesti  **Dokumenttimuoto** -vaihtoehdot, ota huomioon, että ne tarjotaan esimerkkinä ja että lokalisoinnin on tarjottava yksityiskohtainen muoto. Nämä tiedot ovat osa lokalisointisovelluksia, koska ne ovat paikallisia tarpeita koskevia.
@@ -21,12 +21,12 @@ ms.service: dynamics-365-business-central
 
 Sähköisten asiakirjojen määrityksen ensimmäinen vaihe on määrittää sähköinen asiakirjapalvelu. Tällöin määritetään järjestelmän koko toiminta, koska se liittyy sähköisten asiakirjojen viestintään.
 
-## <a name="set-up-the-e-document-service"></a>Sähköisen asiakirjapalvelun määrittäminen
+## Sähköisen asiakirjapalvelun määrittäminen
 
 Määritä sähköinen asiakirjapalvelu alla olevien ohjeiden mukaan.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sähköiset asiakirjapalvelut** ja valitse sitten vastaava linkki.
-2. Valitse **Uusi** ja määritä sitten **Yleinen**-pikavälilehden **Sähköinen asiakirjapalvelu** -sivulla kentät alla olevan taulukon mukaan.
+2. Valitse **Uusi** ja määritä sitten **Yleinen**-pikavälilehden **Sähköiset asiakirjapalvelut** -sivulla kentät alla olevan taulukon mukaan.
 
     | Kenttä | Kuvaus |
     |-------|-------------|
@@ -71,11 +71,11 @@ Jos olet määrittänyt lokalisoinnissa **Tiedonsiirtomääritys**-muodon, voit 
 
 Jos et käytä **Tiedonsiirtomääritys**-muotoa, voit luoda ja määrittää muotoja  [käyttöliittymän](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) avulla. Säädä tietoja **Viennin yhdistämismäärityksessä** ja **Tuonnin yhdistämismäärityksessä** , joista löydät taulukot ja kentät muunnossääntöjen määrittämistä varten. Tässä tapauksessa sinun on lisättävä muotoosi liittyvä uusi vaihtoehto  **Asiakirjan muoto** -kenttään.  
 
-### <a name="supported-document-types"></a>Tuetut asiakirjatyypit
+### Tuetut asiakirjatyypit 
 
-Tuetut asiakirjatyypit perustuvat valittuun **asiakirjamuotoon**. Tarkista tuetut asiakirjatyypit valitsemalla **Sähköinen asiakirjapalvelu** -sivulla **Tuetut asiakirjatyypit** . **Sähköisen tiedostopalvelun tuetut lähdeasiakirjatyypit** avautuu ja **Lähdeasiakirjatyyppi**-sarakkeessa voit valita erilaisia asiakirjatyyppejä, jotta ne ovat tuettuja käyttämäsi muodon mukaan. Varmista, että et käytä asiakirjatyyppiä, jos kyseistä asiakirjaa ei ole valittu tällä sivulla.   
+Tuetut asiakirjatyypit perustuvat valittuun **asiakirjamuotoon**. Tarkista tuetut asiakirjatyypit valitsemalla **Sähköiset asiakirjapalvelut** -sivulla **Tuetut asiakirjatyypit** . **Sähköisen tiedostopalvelun tuetut lähdeasiakirjatyypit** avautuu ja **Lähdeasiakirjatyyppi**-sarakkeessa voit valita erilaisia asiakirjatyyppejä, jotta ne ovat tuettuja käyttämäsi muodon mukaan. Varmista, että et käytä asiakirjatyyppiä, jos kyseistä asiakirjaa ei ole valittu tällä sivulla.   
 
-## <a name="set-up-a-document-sending-profile"></a>Asiakirjan lähetyksen profiilin määrittäminen
+## Asiakirjan lähetyksen profiilin määrittäminen
 
 Voit määrittää kullekin asiakkaalle myyntiasiakirjojen lähettämisen ensisijaisen tavan. Näin lähetysvaihtoehtoa ei tarvitse valita aina, kun valitset **Kirjaa ja lähetä** -toiminnon. **Asiakirjan lähetyksen profiilit** -sivulla voi määrittää eri lähetyksen profiileja, joista voit valita asiakkaan kortin **Asiakirjan lähetyksen profiili** -kentässä. Valitse **Oletus**-valintaruutu, kun haluat, että asiakirjan lähetyksen profiili on kaikkien asiakkaiden oletusprofiili lukuun ottamatta niitä asiakkaita, joiden **Asiakirjan lähetyksen profiili** -kenttä on määritetty toiselle lähetyksen profiilille.
 
@@ -97,7 +97,7 @@ Alla olevien vaiheiden avulla voit määrittää asiakirjan lähetyksen profiili
     > [!NOTE]
     > Jos valitset **Laajennettu sähköisten asiakirjojen palvelutyönkulku** -kohdan **Sähköinen asiakirja** -kentässä, sähköisten asiakirjojen työnkulun määritys on oltava jo tehty.
 
-## <a name="set-up-the-workflow"></a>Työnkulun määrittäminen
+## Työnkulun määrittäminen
 
 Alla olevien vaiheiden avulla voit määrittää työnkulun, jota käytetään sähköisen asiakirjan toiminnossa.
 
@@ -114,9 +114,9 @@ Alla olevien vaiheiden avulla voit määrittää työnkulun, jota käytetään s
 
 Jos haluat käyttää enemmän työnkulkuja, määritä ne eri asiakkaiden asiakirjojen lähetysprofiilien kautta. Kun määrität työnkulkua, määritä asiakirjan lähetysprofiili **Ehdolla** -sarakkeessa  **Työnkulun vaiheet** -pikavälilehdessä, koska sinulla ei voi olla kahta palvelua, jotka käyttävät samaa asiakirjan lähetysprofiilia työnkuluissa.
 
-Kun määrität työnkulkusi  **Työnkulku**-sivulla, osoita  **Ehdolla**-kenttään  **Työnkulun vaiheet** -pikavälilehdessä. Valitse  **Tapahtumaehdot** -sivun  **Suodatin**-kentästä asiakirjan lähetysprofiili, jota haluat käyttää.
+Kun määrität työnkulkusi **Työnkulut**-sivulla, osoita **Ehdolla**-kenttään **Työnkulun vaiheet** -pikavälilehdessä. Valitse  **Tapahtumaehdot** -sivun  **Suodatin**-kentästä asiakirjan lähetysprofiili, jota haluat käyttää.
 
-## <a name="set-up-a-retention-policy-for-e-documents"></a>Sähköisten asiakirjojen säilytyskäytäntöjen määrittäminen
+## Sähköisten asiakirjojen säilytyskäytäntöjen määrittäminen
 
 Sähköisiä asiakirjoja voivat koskea erilaiset paikalliset säädökset, jotka liittyvät sähköisten asiakirjojen säilytysjaksoon. Tämän vuoksi säilytyskäytännön asetukset on lisätty kaikkiin tärkeisiin tietoihin, jotka liittyvät sähköisiin asiakirjoihin. Järjestelmänvalvojat voivat määrittää säilytyskäytännöt, jotka määrittävät, miten usein Dynamics 365 Business Central poistaa sähköisiin asiakirjoihin liittyvät vanhentuneet tietueet. Lisätietoja säilytyskäytännöistä on kohdassa [Säilytyskäytäntöjen määrittäminen](admin-data-retention-policies.md).
 
@@ -130,7 +130,7 @@ Voit määrittää sähköiseen asiakirjaan liittyvät säilytyskäytännöt all
     - Sähköisen asiakirjan yhdistämismääritysloki
     - Sähköisen asiakirjan tietojen tallennustila
 
-## <a name="e-documents-demo-data"></a>E-asiakirjan demotiedot
+## E-asiakirjan demotiedot  
 
 > [!NOTE]
 > Business Centralin versiosta 24.0 voidaan määrittää demotietoja E-asiakirjoille.
@@ -143,15 +143,16 @@ Microsoft on luonut uuden demomoduulin sähköisiä asiakirjoja varten, jotta **
 4.  Toimi vaiheiden mukaisesti.  
 5.  Sulje sivu.   
 
-Kun käytössä oleva moduuli on otettu käyttöön, uudet demonimikkeet on luotu, kuusi sähköistä asiakirjaa on tuotu (Peppol BIS 3:een perustuen) ja **E-asiakirjapalvelu** on jo määritetty luotujen työnkulkujen avulla.  
+Kun käytössä oleva moduuli on otettu käyttöön, uudet demonimikkeet on luotu, kuusi sähköistä asiakirjaa on tuotu (Peppol BIS 3:een perustuen) ja **E-asiakirjapalvelut** on jo määritetty luotujen työnkulkujen avulla.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
-[Sähköisten asiakirjojen käyttäminen Business Centralissa](finance-how-use-edocuments.md)  
-[Sähköisten asiakirjojen laajentaminen Business Centralissa](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
-[Taloushallinto](finance.md)  
-[Lasku – myynti](sales-how-invoice-sales.md)  
-[Ostojen kirjaaminen ostolaskujen ja tilausten avulla](purchasing-how-record-purchases.md)  
-[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Tietoja sähköisten asiakirjojen käytöstä myynnissä](finance-how-use-edocuments.md)    
+[Tietoja sähköisten asiakirjojen käytöstä ostossa](finance-how-use-edocuments-purchase.md)  
+[Sähköisten asiakirjojen laajentaminen Business Centralissa](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)    
+[Taloushallinto](finance.md)    
+[Myynnin laskutus](sales-how-invoice-sales.md)    
+[Ostojen kirjaaminen ostolaskujen ja tilausten avulla](purchasing-how-record-purchases.md)    
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

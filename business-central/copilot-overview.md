@@ -8,7 +8,7 @@ ms.topic: overview
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 03/27/2024
+ms.date: 04/16/2024
 ms.custom: bap-template
 ---
 
@@ -24,7 +24,7 @@ Microsoft Copilot on tekoälypohjainen avustaja, joka inspiroi toimimaan luovast
 
 Copilot sisältää jatkuvasti laajentuvan ominaisuusjoukon, joka avustaa erilaisten roolien käyttäjiä erilaisissa tehtävissä. Lisätietoja Business Centralin Copilotista ja muista tekoälyominaisuuksista: [aka.ms/BCAI](https://aka.ms/BCAI). 
 
-## Onko Copilot maksuton? 
+## Onko Copilot maksuton?
 
 Tällä hetkellä Business Centralin Copilot sisältyy Business Central -käyttöoikeuteen ilman lisäkustannuksia. On kuitenkin mahdollista, että kohtuullisen käytön käytäntöjä, kiintiöitä ja hinnoittelu otetaan myöhemmin käyttöön.
 
@@ -40,11 +40,15 @@ Business Centralissa on runsaasti tekoälypohjaisia ominaisuuksia. Jotkin ominai
 
 Copilot sisältää jatkuvasti laajentuvan ominaisuusjoukon, joka avustaa erilaisten roolien käyttäjiä erilaisissa tehtävissä. Kukin Copilotin ominaisuus määrittää oman tuettujen alueiden ja tuettujen kielien luettelon. Vaikka useimmat ominaisuudet ovat aluksi todennäköisesti saatavana vain englanninkielisinä, tarkoitus on ottaa käyttää lisää kieliä ja alueita ajan mittaan. Yrityssovelluksissa käytettävissä olevien Copilotin kielien ja alueiden yleiskatsaus on osoitteessa [https://dynamics.microsoft.com/availability-reports/copilotreport](https://dynamics.microsoft.com/availability-reports/copilotreport).
 
-## Voiko Business Centralille kehittää avustajia?
+## Onko Copilot tietoinen ympäristömukautuksistani?
+
+Osa Copilotin ominaisuuksista ei ole käytettävissä mukautettujen sivujen ja taulukoiden parissa. Voit esimerkiksi käyttää [analyysiapua](analysis-assist.md) mukautettujen luetteloiden yhteydessä tai etsiä tietueita mukautetuissa taulukoissa [keskustelemalla Copilotin kanssa](chat-with-copilot.md). Lisätietoja mukautuksia käsittelevistä Copilot-toiminnoista on kunkin ominaisuuden artikkeleissa.
+
+## Voiko Business Centralille kehittää Copiloteja?
 
 Business Centralin Copilotia voi laajentaa käyttämällä Business Centralin vakiokehitysympäristöön kuuluvilla työkaluilla. [Lisätietoja tekoälyn integroinnista käyttämällä Copilotin kehittäjien työkaluja](/dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page).
 
-Avustajia voidaan myös yhdistää Copilot Studion avulla. Vaihtoehtoisesti voidaan toteuttaa omia erillisiä tekoälypohjaisia sovelluksia ja palveluja, jotka yhdistetään Business Centraliin. Lisätietoja Copilot-kokemusten kehittämisestä tai mukauttamisesta Microsoft Cloudissa on kohdassa [Copilot-kokemusten käyttöönottaminen, laajentaminen ja muodostaminen Microsoft Cloudissa](/microsoft-cloud/dev/copilot/overview).
+Copiloteja voidaan myös yhdistää Copilot Studion avulla. Vaihtoehtoisesti voidaan toteuttaa omia erillisiä tekoälypohjaisia sovelluksia ja palveluja, jotka yhdistetään Business Centraliin. Lisätietoja Copilot-kokemusten kehittämisestä tai mukauttamisesta Microsoft Cloudissa on kohdassa [Copilot-kokemusten käyttöönottaminen, laajentaminen ja muodostaminen Microsoft Cloudissa](/microsoft-cloud/dev/copilot/overview).
 
 ## Miten saadaan uusimmat Business Centralin Copilotia koskevat uutiset? 
 
