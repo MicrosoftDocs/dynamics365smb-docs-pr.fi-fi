@@ -68,7 +68,7 @@ Luo sitten myyntitilaus, jonka määrä on 12 sijainnissa LÄNSI. Suunnittelujä
 > [!NOTE]  
 > Jos sijaintiperustaisia ennusteita tarkastellaan erillään muista, kokonaisennuste ei välttämättä ole totuudenmukainen.
 
-### <a name="do-not-use-forecast-by-locations"></a>Älä käytä ennusteita sijaintien mukaan
+### <a name="if-you-dont-use-forecast-by-locations"></a>Älä käytä ennusteita sijaintien mukaan
 
 Jos poistat **Käytä ennusteita sijaintien mukaan** -vaihtopainikkeen käytöstä, [!INCLUDE[prod_short](includes/prod_short.md)] ohittaa kaikki kullekin kysyntäennustetapahtumalle määritetyt sijaintikoodit ja koostaa ennusteet tyhjien sijaintien ennusteille.  
 

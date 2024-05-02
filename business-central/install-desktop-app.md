@@ -9,7 +9,7 @@ ms.date: 01/11/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="get-business-central-desktop-app"></a>Business Central -työpöytäsovelluksen hankkiminen
+# <a name="get-the-business-central-desktop-app"></a>Business Central -työpöytäsovelluksen hankkiminen
 
 Jos sinulla on Windows (PC)- tai macOS-tietokone, voit asentaa Business Central -sovelluksen työpöydälle. Sovellus toimii Business Central Onlinessa ja paikallisesti.
 
@@ -24,7 +24,7 @@ Business Central -sovellus muistuttaa verkkoasiakasta, mutta siinä on muutamia 
 
      Kun avaat sovelluksen tiettyä ympäristöä varten, ympäristön nimi sisältyy ikkunan otsikkoon. Kun työskentelet useissa [!INCLUDE[prod_short](includes/prod_short.md)] -ympäristöissä, jokainen sovellusikkuna näytetään erikseen. Nimi helpottaa sinua näkemään, mikä ikkuna kuhunkin ympäristöön liittyy.
 
-## <a name="install-the-app-for-business-central-online"></a>Sovelluksen asentaminen Business Central Onlinea varten
+## <a name="install-the-app-for--online"></a>Sovelluksen asentaminen Business Central Onlinea varten
 
 Business Central Onlinen sovelluksen voi asentaa kahdella tavalla. Voit asentaa sen suoraan selaimesta tai Microsoft Storesta. Sovellus on kummassakin tapauksessa sama. Erona on se, että asentaminen selaimesta mahdollistaa sovelluksen asentamisen jokaiseen ympäristöön, kun ympäristöjä on enemmän kuin yksi.
 
@@ -56,7 +56,7 @@ Kun seuraavan kerran haluat avata sovelluksen, etsi se **Käynnistä**-valikosta
 
 Kun sovellus on asennettu, se näkyy **Käynnistä**-valikossa. Jos olet valinnut sovellukselle tietyn ympäristön, ympäristön nimi lisätään sovelluksen nimeen **Käynnistä**-valikossa.
 
-## <a name="install-the-app-for-business-central-on-premises"></a>Sovelluksen asentaminen paikallista Business Centralia varten
+## <a name="install-the-app-for--on-premises"></a>Sovelluksen asentaminen paikallista Business Centralia varten
 
 Käytettäessä Business Centralia paikallisesti työpöytäsovellus asennetaan suoraan selaimesta, kuten [edellä kuvataan](#from-the-browser). Jos sinulla on vain yksi vuokraaja, avaa vain Business Central selaimessasi ja valitse sitten joko ![kuvake sovelluksen asentamiseen Edgessä.](media/ui-edge-install-app-icon.png) **Sovellus saatavilla. Asenna Business Central** tai ![Kuvake sovelluksen asentamiseen Chromessa.](media/ui-chrome-install-app-icon.png) **Asenna Business Central** yllä kuvatulla tavalla.
 

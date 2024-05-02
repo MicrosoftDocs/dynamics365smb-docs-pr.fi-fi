@@ -11,7 +11,7 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Projektien hallinta
+# <a name="project-management"></a>Projektien hallinta
 
 [!INCLUDE[prod_short](includes/prod_short.md)]issa voi suorittaa yleisiä projektinhallinnan tehtäviä, kuten määrittää projektin ja aikatauluttaa resurssin, sekä antaa budjettien hallinnassa ja projektin etenemisen valvonnassa tarvittavia tietoja. Voit seurata projektin koneiden käyttötunteja ja työntekijöiden työtunteja käyttämällä aikaraportteja. Projektipäällikkö saa hyvän yleiskuvan yksittäisten projektien lisäksi työntekijöiden varauksista sekä koneiden ja muiden resurssien käytöstä kaikissa projekteissa.
 
@@ -31,11 +31,11 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 | Kirjaa projektin keskeneräisen työn materiaalien, resurssien ja muiden kulujen kulutus. Tällä tavoin voit valvoa taloudellista arvoa ja ylläpitää oikeita taloudellisia raportteja, vaikka kirjaat projektin kulut ennen projektin laskuttamista. |[Projektin edistymisen ja suorituskyvyn valvonta](projects-how-monitor-progress-performance.md) |
 | Kirjaa projektin kustannukset resurssin käytön, materiaalien ja projektiin liittyvien ostojen osalta jatkuvasti. Laskuta asiakasta projektin valmistuttua tai laskutusaikataulun mukaisesti. |[Projektin laskutus](projects-how-invoice-jobs.md) |
 
-## Projektien käytön aloittaminen
+## <a name="get-started-with-projects"></a>Projektien käytön aloittaminen
 
 Projektinhallinta on jo sinänsä monimutkaista, ja projektien luonti ja keskeneräisen työn hallinnan oppiminen uudessa työkalussa voi olla lisähaaste. Voit aloittaa projektinhallinnan käytön [!INCLUDE[prod_short](includes/prod_short.md)]issa katsomalla [projektien luontia käsittelevän videon](https://www.youtube.com/watch?v=VqaPWr7BWmw) [!INCLUDE[prod_short](includes/prod_short.md)] YouTube -kanavassa.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Projektinhallinnan määrittäminen](projects-setup-projects.md)  
 [Video: Projektin luonti Dynamics 365 Business Centralissa](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
