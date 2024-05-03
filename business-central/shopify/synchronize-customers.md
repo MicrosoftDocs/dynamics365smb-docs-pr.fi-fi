@@ -154,7 +154,7 @@ Aiemmin luodut asiakkaat voidaan joukkoviedä Shopifyhyn yrityksenä. Kussakin t
 |**Oletuskontaktin käyttöoikeus**| Määritä, mitkä käyttöoikeudet on määritettävä pääyhteyshenkilölle. Valittavana on **Ei mitään**, **Vain tilaus** ja **Sijainnin hallinta**.|
 |**Luo luettelo automaattisesti**| Ota tämä vaihtoehto käyttöön, jos halutaan luoda kaikki tuotteet sisältävä luettelo. Luettelo luodaan kullekin tuodulle yritykselle.|
 
-## <a name="export-b2b-company-to-shopify"></a>Yritystenvälisen yrityksen vienti Shopifyhyn
+## <a name="export-a-b2b-company-to-shopify"></a>Yritystenvälisen yrityksen vienti Shopifyhyn
 
 ### <a name="initial-sync-of-b2b-companies-from-business-central-to-shopify"></a>Yritystenvälisten yritysten ensimmäinen synkronointi Business Centralista Shopifyhyn
 

@@ -50,7 +50,7 @@ Shopify-yhdistimen avulla yritykset voivat linkittää Shopify-kauppansa [!INCLU
 
 [!INCLUDE[prod_short](../includes/prod_long.md)] tekee yhteistyötä Shopifyn kanssa auttaakseen asiakkaitaan luomaan paremman ostoskokemuksen. Shopify tarjoaa kauppiaille helppokäyttöisen verkkokaupparatkaisun, kun taas [!INCLUDE[prod_short](../includes/prod_short.md)] tarjoaa kattavan liiketoiminnan hallintaratkaisun, joka tarjoaa kattavaa liiketoiminnan hallintaa talous-, myynti-, palvelu- ja toimintotiimien laajuisesti. Saumaton yhteys sovellusten välillä synkronoi tilaukset, varastot ja asiakastiedot, jotta kauppiaat voivat täyttää tilauksensa nopeammin ja palvella asiakkaitaan paremmin.
 
-## <a name="which-microsoft-products-is-the-shopify-connector-available-for"></a>Mille Microsoft-tuotteille Shopify-yhdistin on saatavilla?
+## <a name="which-microsoft-products-work-with-the-shopify-connector"></a>Mille Microsoft-tuotteille Shopify-yhdistin on saatavilla?
 
 Tämä ominaisuus on käytössä vain [!INCLUDE[prod_short](../includes/prod_short.md)] onlinessa alkaen varsiosta 20.1. Sitä ei ole saatavilla paikallisiin ympäristöihin. Yhdistin on esiasennettu uusiin ympäristöihin. Organisaatiot, joilla on jo ympäristöjä, voivat ladata ja asentaa yhdistimen AppSourcesta. Organisaatiolla on oltava sekä [!INCLUDE [prod_short](../includes/prod_short.md)] -käyttöoikeus että Shopify-käyttöoikeus käyttääkseen yhdistintä. Lisätietoja tuetuista maista, alueista, kielistä ja [!INCLUDE[prod_short](../includes/prod_short.md)] -versioista on kohdassa [Shopify-yhdistin AppSourcessa](https://go.microsoft.com/fwlink/?linkid=2196238).
 
@@ -87,7 +87,7 @@ Kyllä, Shopify-yhdistintä voidaan laajentaa. Tarkista GitHub ja tutustu [laaje
 
 Kyllä, yhteisö voi osallistua tämän laajennuksen työstämiseen. Löydät [lähdekoodin](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) Microsoft AL -sovelluksen lisäosasäilöstä.
 
-## <a name="building-your-version-of-shopify-connector"></a>Shopify-yhdistimen rakentaminen
+## <a name="building-your-version-of-the-shopify-connector"></a>Shopify-yhdistimen rakentaminen
 
 Shopifyn mukaan, jos haluat luoda ja julkaista Shopify-markkinapaikalla yhdistinsovelluksen, jonka pääasiallisena tarkoituksena on siirtää tai jakaa kauppiastietoja kolmannelle osapuolelle ([!INCLUDE [prod_short](../includes/prod_short.md)]), sinulla on oltava Shopifyn kirjallinen suostumus. Osana tätä prosessia sinun tulee saada Microsoftin suostumus Loppuvastaanottajan tietojen kuittauslomake -lomakkeeseen. Meidän on pyydettävä sinua käsittelemään asiaa Shopifyn kanssa, koska Microsoft ei voi allekirjoittaa kolmansien osapuolten sopimuksia.
 

@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="financial-analytics-in-business-central"></a>Business Centralin talousanalytiikka
+# <a name="financial-analytics"></a>Business Centralin talousanalytiikka
 
 Yritykset sieppaavat valtavan määrän tietoa päivittäisten toimintojen aikana, ja ne tukevat päätöksentekijöille arvokkaita liiketoimintatietoja: 
 

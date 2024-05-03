@@ -327,7 +327,7 @@ Yhdistin tukee kumpaakin tilaa. Se voi lähettää varastoa useisiin Shopify-sij
 * määrittää **Tuotteen oletussijainti** -vaihtopainikkeella, käytetäänkö nimikkeen täyttämiseen Shopifyta vai 3PL-palvelua. Käytössä on aina **Business Centralin täyttämispalvelu**, mutta käytössä voi myös muita täyttämispalveluita, jos myös muita sovelluksia on asennettu. **Tuotteen oletussijainti** voidaan ottaa käyttöön vain yhdessä tietueessa, jos täyttämispalvelua halutaan käyttää. 
 * määrittää **Tuotteen oletussijainti** -vaihtopainikkeella, mitä sijainteja halutaan käyttää varaston seurantaan. **Tuotteen oletussijainti** voidaan ottaa käyttöön useissa sijainneissa, joissa **On jakelupalvelu** on poistettu käytöstä. Kannattaa muistaa, että pääsijainnin varastoa seurataan aina. 
  
-#### <a name="what-is-the-difference"></a>Vaihtoehtojen erot
+#### <a name="whats-the-difference"></a>Vaihtoehtojen erot
 
 Shopify-täyttäminen on kätevä käytettäessä Shopify-myyntipisteitä ja kun fyysisiä myymälöitä on useita. Fyysisen myymälän työntekijän halutaan olevan perillä nykyisestä varastosta. Siinä tapauksessa Shopifyhyn ja [!INCLUDE[prod_short](../includes/prod_short.md)]iin luodaan useita sijainteja ja **Tuotteen oletussijainti** aktivoidaan kaikissa näissä sijainneissa.  
 

@@ -157,7 +157,7 @@ Jos haluat lisätä toleranssia ja sallia eron **E-laskun** ja **Ostotilauksen**
 3. Nämä asetukset koskevat kaikkia vastaavia rivejä, mutta harkitsevat jälleen kokonaissumman toleranssia, kuten **välitön yksikkökustannus** yhdessä kohdistetun **rivialennus-%:n** kanssa.  
 4. Sulje sivu.   
 
-##### <a name="to-match-lines-from-e-document"></a>E-asiakirjan rivien täsmäytys
+##### <a name="matching-lines-from-e-document"></a>E-asiakirjan rivien täsmäytys
 
 Voit täsmäyttää rivejä **E-asiakirja** -sivulla. Voit aloittaa tämän käyttämällä seuraavia vaiheita:  
 
