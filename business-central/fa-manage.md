@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="manage-fixed-assets"></a>Käyttöomaisuuden hallinta
+# Käyttöomaisuuden hallinta
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman Käyttöomaisuus-sovellusalueesta saat yleiskuvan käyttöomaisuudestasi, ja se takaa oikeat jaksottaiset poistot. Se mahdollistaa myös kunnossapitokulujen seuraamisen, vakuutussopimusten hallinnoimisen, käyttöomaisuustransaktioiden kirjaamisen sekä monenlaisten raporttien ja tilastojen luomisen.
 
-## <a name="video-overview"></a>Videon yleiskatsaus
+## Videon yleiskatsaus
 
 Seuraavassa videossa käsitellään käyttöomaisuuden perusteet:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="fixed-assets-overview"></a>Käyttöomaisuuden yleiskatsaus
+## Käyttöomaisuuden yleiskatsaus
 
 Kunkin käyttöomaisuuserän osalta tulee määrittää kortti, joka sisältää tietoja kyseisestä käyttöomaisuuserästä. Voit määrittää rakennuksia tai tuotantolaitoksia pääkäyttöomaisuuseräksi. Voit myös ryhmitellä niitä eri tavoin, kuten esimerkiksi luokan, osaston ja sijainnin mukaan. Tämän jälkeen voit aloittaa käyttöomaisuuden hankinnan, kunnossapidon ja myynnin. Voit myös määrittää budjetoitua käyttöomaisuutta. Budjetointi mahdollistaa minkä tahansa ennakoidun hankinnan ja myynnin sisällyttämisen raportteihin.
 
@@ -46,7 +46,7 @@ Kukin käyttöoikeus voidaan liittää vähintään yhteen vakuutussopimukseen j
 > [!NOTE]  
 > Voit tallentaa käyttöomaisuustapahtumat **Käyttöomaisuuden KP-päiväkirja**- tai **Käyttöomaisuuspäiväkirja**-sivulle sen mukaan, koskevatko tapahtumat talousraportointia vai sisäistä hallintaa. Käyttöomaisuuden ohje sisältää tietoja vain **Käyttöomaisuuden KP-päiväkirja** -sivun käyttämisestä. Lisätietoja on kohdassa [Käyttöomaisuuden poiston määrittäminen](fa-how-setup-depreciation.md).
 
-## <a name="how-to-use-fixed-assets"></a>Käyttöomaisuuden käyttäminen
+## Käyttöomaisuuden käyttäminen
 
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkeleihin.
 
@@ -64,7 +64,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 | Hallitse käyttöominaisuuserien budjetteja, budjetin hankintamenoja, käyttöomaisuuden luovutusten budjetointia ja poistojen budjetointia. |[Käyttöomaisuuden budjettien hallinta](fa-how-manage-budgets.md) |
 | Lisätietoja valmiista käyttöomaisuuden raportointi- ja analysointiominaisuuksista. | [Käyttöomaisuuden raportit ja analytiikka](fa-reports.md) |
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
 [Talouden yleiskatsaus](finance.md)  
