@@ -11,11 +11,11 @@ ms.search.form: null
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="revalue-general-ledger-account-balances"></a>Pääkirjanpitotilin saldojen uudelleenarvostus
+# Pääkirjanpitotilin saldojen uudelleenarvostus
 
 Jos pääkirjanpitotilejä käytetään rekisteröimään taseen nimikkeitä ulkomaanvaluuttoina, tilin saldot on arvostettava uudelleen ennen lopullisten tilipäätösten tuottamista. Valuuttakurssit muuttuvat usein ja uudelleenarvostus auttaa tarkentamaan tilinpäätöksiä.
 
-## <a name="set-up-revaluations"></a>Uudelleenarvostusten määrittäminen
+## Uudelleenarvostusten määrittäminen
 
 Jokainen uudelleenarvostukseen sisällytettävä tili määritetään **KP-tilin kortti**-sivulla. Valittavissa on, kirjataanko uudelleenarvostuksen muutokset realisoituneille vai ei-realisoituneiden voittojen ja tappioiden tileille. Voittojen ja tappioiden kirjaaminen valuuttakurssin muutoksen aikana noudattaa tavanomaista kirjausrutiinia. Se tehdään esimerkiksi kullekin **Valuutat**-sivun määritykselle. Lisätietoja vaihtokurssin muutoksista on kohdassa [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md).
 
@@ -26,7 +26,7 @@ Virheet voidaan minimoida määrittämällä **Lähdevaluutan kirjaus** -kentäs
 * Sama valuutta
 * Paikallinen valuutta
 
-## <a name="run-a-revaluation"></a>Uudelleenarvostuksen suorittaminen
+## Uudelleenarvostuksen suorittaminen
 
 Ulkomaanvaluutan summien uudelleenarvostus paikallisena valuuttana KP-tilin saldoihin tehdään käynnistämällä eräajo käyttämällä **KP-valuutan uudelleenarvostus** -toimintoa **Tilikartta**-sivulla. Eräajo luo muutostapahtumat valitussa päiväkirjassa. Tapahtumia kirjattaessa voidaan muuttaa tilin paikallisen valuutan (PVA) saldoa. Aina paikallisena valuuttana näytettävissä KP-tilin saldoissa näkyy nyt muutokset valuuttoihin, joissa tapahtumat kirjattiin. Tämä uudelleenarvostus mahdollistaa aiempaa tarkempien tilinpäätösten tuottaminen entistä vaivattomammin.
 
@@ -38,7 +38,7 @@ Jos käytössä on lisäraportointivaluutta (LVA), KP-uudelleenarvostustapahtumi
 > [!NOTE]
 > Uudelleenarvostus ei mahdollista tapahtumien kohdistamista tai kohdistamisen peruuttamista, mikä on mahdollista asiakas- ja toimittajatapahtumissa. Saldon muutokset tehdään valuuttakohtaisesti.
 
-## <a name="revaluate-accounts-vs-customer-and-vendor-exchange-rate-adjustments"></a>Tilien uudelleenarvostuksen vertailu asiakkaan ja toimittajan vaihtokurssin muutoksiin
+## Tilien uudelleenarvostuksen vertailu asiakkaan ja toimittajan vaihtokurssin muutoksiin
 
 Uudelleenarvostus yksinkertaistaa KP-tilin saldojen muuttamista. Tämä ominaisuus uudelleenarvostaa saldo valuutta- ja KP-tili-kohtaisesti, mikä vastaa muutosten tekemistä pankkitileihin linkitettyihin KP-tileihin. Jos KP-tiliä käytetään useiden resurssien seuraamiseen, kannattaa harkita sen sijaan toimittaja- tai asiakastilin käyttämistä.
 
@@ -56,7 +56,7 @@ Tämä ero tärkeää arvioitaessa, vastaako KP-uudelleenarvostus ominaisuutena 
 > [!TIP]
 > Kirjanpitäjältä tai tilintarkastajalta kannattaa kysyä, minkä tyyppinen tili soveltuu omaan liiketoimintaan. [AppSourcessa](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=dynamics-365-business-central) saattaa myös olla liiketoimintaskenaarioihin juuri sopiva [!INCLUDE [prod_short](includes/prod_short.md)]iin tarkoitettu sovellus.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Summien tarkistaminen kirjanpitotileillä](finance-review-accounts.md)  
 [Tietoja pääkirjanpidosta ja tilikartasta](finance-general-ledger.md)  

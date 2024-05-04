@@ -11,30 +11,30 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="how-to-record-sustainability-entries"></a>Kestävyystapahtumien tallentaminen
+# Kestävyystapahtumien tallentaminen  
 
 Tällä hetkellä ainoa tapa kirjata GHG-päästöjä **kestävyyskirjauksiin** on käyttää **kestävyyspäiväkirjoja**.   
 
-## <a name="sustainability-journal"></a>Vastuullisuuspäiväkirja
+## Vastuullisuuspäiväkirja  
 
 **Vastuullisuuspäiväkirjat** on suunniteltu seuraamaan ja tallentamaan kestävyyteen liittyviä toimia käyttäen samaa käyttökokemusta kuin muissakin Business Centralin päiväkirjoissa. Päiväkirjassa käyttäjillä on mahdollisuus syöttää päästöjä manuaalisesti, jos heillä on tarvittavat tiedot. Vaihtoehtoisesti, jos heiltä puuttuu nämä tiedot, he voivat käyttää sisäisiä kaavoja laskeakseen päästöjä tarkasti tiettyjen tunnettujen parametrien perusteella, jotka vastaavat eri tyyppisiä lähteitä ja tilejä. 
 
 Päiväkirjaan lisäämäsi tiedot ovat väliaikaisia, ja niitä voidaan muuttaa niiden ollessa päiväkirjassa. Kun kirjaat päiväkirjan, tiedot siirretään **Kestävyyskirjanpitotapahtumiin** yksittäisiin **kestävyystileihin**, missä niitä ei voi muuttaa. Voit kuitenkin kirjata peruuttavia tai korjaavia tapahtumia.  
 
-### <a name="use-journal-templates-and-batches"></a>Päiväkirjan mallien ja erien käyttäminen
+### Päiväkirjan mallien ja erien käyttäminen 
 
 Ohjelmassa on oletusarvoisesti kaksi **kestävyyspäiväkirjan mallia**, vakiomalli ja toistuva malli. Voit määrittää kullekin päiväkirjan mallille oman henkilökohtaisen päiväkirjan päiväkirjan eränä. Tämä edellyttää, että valitset **Erät**-toiminnon **Kestävyyspäiväkirjan mallit** -sivulla ja luot uuden **kestävyyspäiväkirjan erän** uudelle sivulle. Voit esimerkiksi määrittää oman päiväkirjan erän kullekin päästöjen vaikutusalueelle käyttämällä **Päästöjen laajuus** -vaihtoehtoa, jossa voit valita kolmesta olemassa olevasta vaikutusalueesta. Voit myös lisätä tai muuttaa **lähdekoodia** ja **syykoodia** kunkin erän osalta. 
 
 >[!TIP]
 >Kullekin päästötyypille voi olla yksi päiväkirjan erä, jos rivejä on monta, koska se voi vähentää virheiden mahdollisuutta, mutta voit myös käyttää yleistä erää kaikentyyppisille päästöille.   
 
-### <a name="validating-sustainability-journals"></a>Kestävyyspäiväkirjojen arviointi
+### Kestävyyspäiväkirjojen arviointi 
 
 Voit ottaa taustatarkistuksen käyttöön **Kestävyyden asetuksissa**, mikä auttaa estämään viiveet kirjauksessa. Merkki ilmoittaa sinulle, kun käsittelemäsi **Kestävyyspäiväkirjassa** on virhe ja se estää sinua kirjaamasta päiväkirjaa.  
 
 Kun oikeellisuustarkistus otetaan käyttöön, **päiväkirjan tarkistuksen** -tietoruudussa näkyvät tämän rivin ja koko erän seurantakohteet. Vahvistus tehdään silloin, kun lataat päiväkirjan erän ja kun valitset toisen päiväkirjarivin. Tietoruudun **Virheet yhteensä** -ruudussa näkyy [!INCLUDE [prod_short](includes/prod_short.md)]in löytämien virheiden kokonaismäärä, ja valitsemalla se voidaan avata virheiden yleiskatsaus. 
 
-### <a name="work-with-sustainability-journals"></a>Kestävyystapahtumien päiväkirjojen käyttäminen
+### Kestävyystapahtumien päiväkirjojen käyttäminen 
 
 Voit aloittaa **kestävyyspäiväkirjojen** käytön noudattamalla seuraavia vaiheita:   
 
@@ -55,7 +55,7 @@ Voit aloittaa **kestävyyspäiväkirjojen** käytön noudattamalla seuraavia vai
 
 Jos kaava perustuu **Kestävyystilin luokka** -taulukon **Laske pääkirjanpidosta** -vaihtoehtoon, sinun täytyy käyttää **Kerää summa KP-tapahtumista** -toimintoa ennen päiväkirjan kirjausta, kun haluat laskea päästöt tämän tietolähteen perusteella. Lisäksi jos olet tehnyt joitain muutoksia päästökertoimiin täytettyäsi päiväkirjan rivit, sinun täytyy valita **Laske uudelleen** -toiminto saadaksesi oikean summan päiväkirjaan.  
 
-### <a name="recurring-journals"></a>Toistuvat kirjaukset
+### Toistuvat kirjaukset 
 
 **Kestävyyspäiväkirja** on yleinen päiväkirja, jossa on tiettyjä kenttiä sellaisten tapahtumien hallintaa varten, jotka kirjataan usein vähäisin muutoksin tai ilman muutoksia. Esimerkiksi kestävyystransaktioita, kuten sähkö-, lämpö- tai muita vastaavia transaktioita. Toistuvia päiväkirjoja käyttämällä voit kirjata kiinteitä ja muuttuvia summia. Toistuvan päiväkirjan avulla luot merkinnät, jotka kirjataan säännöllisesti vain kerran. Esimerkiksi tilit, dimensiot ja dimensioarvot säilyvät päiväkirjassa kirjaamisen jälkeen. Jos muutoksia tarvitaan, ne voidaan tehdä aina kirjauksen yhteydessä. 
 
@@ -65,7 +65,7 @@ Sinun tulee myös määrittää **Toistuvuuden tiheys** -kenttä, sillä tämä 
 
 **Päättymispäivämäärä**-kenttä määrittää päivämäärän, jolloin rivi kirjataan viimeisen kerran. Riviä ei kirjata tämän päivämäärän jälkeen. **Päättymispäivämäärä**-kentän käyttämisessä on se etu, että rivi ei poistu päiväkirjasta heti. Voit syöttää myöhemmän päivämäärän, jotta voit käyttää riviä tulevaisuudessa. Jos kenttä on tyhjä, rivi kirjataan joka kerta, kunnes se poistetaan päiväkirjasta.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 [Rahoitus](finance.md)    
 [Kestävän kehityksen hallinnan yleiskatsaus](finance-manage-sustainability.md)   
 [Vastuullisuusmääritys](finance-sustainability-setup.md)   
