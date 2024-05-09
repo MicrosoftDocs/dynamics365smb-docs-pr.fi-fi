@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-setup"></a>Kestävyysmääritys
+# Kestävyysmääritys  
 
 Jotta kestävyys-moduuli toimisi oikein, on ensin määritettävä perusohjausobjekteja ja -ohjeita, jotka liittyvät kokonaistoimintoihin.  
 
@@ -49,7 +49,7 @@ Määritä kestävyysmoduuli noudattamalla seuraavia vaiheita:
 >[!NOTE]
 > Versiossa 24.0 [!INCLUDE[prod_short](includes/prod_short.md)] ei tue raportointia millekään viranomaiselle. **Raportointi**-pikavälilehden määrittämiseen liittyvää kenttää käytetään siis tulevia raportointiominaisuuksia varten, mutta kumppanit voivat käyttää sitä myös lokalisoiduissa versioissa.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 [Rahoitus](finance.md)    
 [Vastuullisuuden hallinnan yleiskuvaus](finance-manage-sustainability.md)
 [Vastuullisuustilien ja -kirjauksenkaavio](finance-sustainability-accounts-ledger.md)

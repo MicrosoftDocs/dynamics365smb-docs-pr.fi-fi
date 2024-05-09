@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="analytics-in-purchasing"></a>Ostamisen analyysi
+# Ostamisen analyysi
 
 Yritykset sieppaavat paljon tietoa päivittäisten toimintojen aikana, ja ne tukevat ostopäälliköille arvokkaita liiketoimintatietoja:
 
@@ -30,7 +30,7 @@ Kullakin näistä ominaisuuksista on etunsa ja haittapuolensa tietojen analyysit
 
 Tässä artikkelissa esitellään, kuinka voit käyttää näitä analyyttisiä ominaisuuksia saadaksesi tietoa ostoksista.
 
-## <a name="analytics-needs-in-purchasing"></a>Ostojen analyysitarpeet
+## Ostojen analyysitarpeet
 
 Myynnin analyysitarpeita pohdittaessa kannattaa käyttää persoonapohjaista mallia, joka kuvaa korkealla tasolla erilaisia analytiikkatarpeita.
 
@@ -47,14 +47,14 @@ Eri tehtävissä toimivilla henkilöillä voi olla erilaisia tietoja koskevia ta
 |Hankintavastaava/ostaja | Eritellyt tiedot     | Valmiit operatiiviset raportit <br> Näytöllä näkyvät tehtävän tiedot |
 
 <!-- 
-## <a name="purchasing-kpis"></a>Purchasing KPIs
+## Purchasing KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In purchasing management, people often use the following KPIs to monitor their organization's purchasing performance:
 
 - TODO  
 -->
 
-## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-purchasing"></a>Financial Reportingin käyttö tilinpäätösten ja KPI:iden tuottamiseen (ostoihin liittyvä)
+## Financial Reportingin käyttö tilinpäätösten ja KPI:iden tuottamiseen (ostoihin liittyvä)
 
 **Financial Reporting** -ominaisuus antaa merkityksellisiä tietoja tilikartassa näkyvistä taloudellisesta tiedoista. Talousraportit voidaan määrittää analysoimaan kirjanpitotilien lukuja ja vertaamaan pääkirjanpidon tapahtumia budjettitapahtumiin. Erityisesti ostoja varten voidaan määrittää talousraportteja pääkirjanpidon (KP-) tileille, joita käytetään ostokirjausten seurantaan.
 
@@ -62,13 +62,13 @@ Dimensioilla on tärkeä tehtävä liiketoimintatiedoissa. Dimensio on tieto, jo
 
 Lisätietoja talousraporteista on kohdassa [Talousraporttien valmisteleminen taloustietojen ja tililuokkien avulla](bi-how-work-account-schedule.md).
 
-## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-purchasing"></a>Taloushallinnon raportointi liiketoimintayksiköiden tai yritysten välillä (ostoihin liittyvät)
+## Taloushallinnon raportointi liiketoimintayksiköiden tai yritysten välillä (ostoihin liittyvät)
 
 Jotkin organisaatiot käyttävät [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaa useassa liiketoimintayksikössä tai yrityksessä. Muut käyttävät [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaa tytäryhtiöissä, jotka raportoivat pääorganisaatioille. [!INCLUDE [prod_short](includes/prod_short.md)] antaa kirjanpitäjille työkalut, jotka auttavat heitä siirtämään pääkirjanpidon tapahtumia kahdesta tai useammasta yrityksestä (tytäryrityksistä) konsolidoituun yritykseen. Erityisesti ostojenhallintaa varten pääkirjanpidon tapahtumat voidaan haluta konsolidoida ostotilien osalta, jotta ostojen KPI:iä voitaisiin seurata liiketoimintayksiköissä tai oikeushenkilöissä.
 
 Lisätietoja on kohdassa [Yrityksen konsolidointi](finance-consolidated-company-reporting.md).
 
-## <a name="ad-hoc-analysis-of-purchasing-data"></a>Ostotietojen ad-hoc-analyysi
+## Ostotietojen ad-hoc-analyysi
 
 Joskus on tarkistettava nopeasti, täsmäävätkö luvut, tai vahvistettava luku. Seuraavat ominaisuudet sopivat erinomaisesti tapauskohtaisiin analyyseihin:
 
@@ -88,7 +88,7 @@ Vastaavasti **Avaa Excelissä** -toiminnolla voi avata luettelosivun, suodattaa 
 
 Lisätietoja ostotietojen tapauskohtaisen analyysin tekemisestä on [ostotietojen ad hoc -analyysissä](ad-hoc-analysis-purchasing.md).
 
-## <a name="built-in-reports-for-purchasing"></a>Valmiit ostoraportit
+## Valmiit ostoraportit
 
 [!INCLUDE [prod_short](includes/prod_short.md)] sisältää useita sisäisiä raportteja, jäljitystoimintoja ja työkaluja, joiden avulla osto-organisaatiot voivat raportoida tiedoistaan.
 
@@ -103,13 +103,13 @@ Saatavana olevien raporttien yleiskuvan saa valitsemalla **Kaikki raportit** alo
 
 Jos haluat lisätietoja ostoihin liittyvistä raporteista, siirry kohtaan [Sisäiset ostoraportit](purchase-reports.md).
 
-## <a name="on-screen-purchasing-analytics"></a>Ostojen analytiikka näytöllä
+## Ostojen analytiikka näytöllä
 
 [!INCLUDE [prod_short](includes/prod_short.md)]issa on useita sivuja, joista saadaan ostojen yleiskatsauksia ja tehtäviä töitä. Seuraavassa on esimerkki siitä, miten pääset aloittamaan:
 
 - [Ostojen päivämäärien laskeminen](purchasing-date-calculation-for-purchases.md)
 
-### <a name="show-purchasing-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Ostoihin liittyvän pääkirjanpidon tapahtumien ja saldojen näyttäminen Tilikartta-sivulta
+### Ostoihin liittyvän pääkirjanpidon tapahtumien ja saldojen näyttäminen Tilikartta-sivulta
 
 Tilikartta-sivulla on näkyvissä kaikki kirjanpitotilit ja kootut luvut pääkirjanpitoon tehdyistä kirjauksista. Seuraavat ovat mahdollisia tällä sivulla:  
 
@@ -123,7 +123,7 @@ Erityisesti ostoja varten Tilikartta-sivulla voidaan luoda näkymä, jossa näky
 
 Lisätietoja on kohdassa [Tilikartan ymmärtäminen](finance-general-ledger.md#the-chart-of-accounts).
 
-### <a name="analyze-data-by-dimensions-related-to-purchasing"></a>Analysoi tiedot dimensioiden mukaan (liittyvät ostoihin)
+### Analysoi tiedot dimensioiden mukaan (liittyvät ostoihin)
 
 Dimensiot ovat tapahtumia luokittelevia arvoja, jotta voit seurata ja analysoida tapahtumia asiakirjoissa, kuten ostotilauksissa. Dimensioiden avulla voit esimerkiksi ilmaista, mistä projektista tai osastosta tapahtuma on lähtöisin.  
 
@@ -131,7 +131,7 @@ Sen sijaan että kullekin osastolle ja sijainnille määritettäisiin erilliset 
 
 Lue lisätietoja kohdasta [Analysoi tietoja dimensioiden mukaan](bi-how-analyze-data-dimension.md).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Yrityksen konsolidointi](finance-consolidated-company-reporting.md)  
 [Talousraporttien valmisteleminen taloustietojen ja tililuokkien avulla](bi-how-work-account-schedule.md)  
