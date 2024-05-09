@@ -10,23 +10,23 @@ ms.date: 09/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-contact-sync-with-outlook-for-business-central-on-premises"></a>Määritä yhteyshenkilön synkronointi paikalliselle Outlook for Business Centralille
+# Määritä yhteyshenkilön synkronointi paikalliselle Outlook for Business Centralille
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Tässä artikkelissa on tietoja siitä, miten voit määrittää paikalliset [!INCLUDE[prod_short](includes/prod_short.md)]-tiedot synkronoimaan yhteyshenkilöitä [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa Outlook-kontaktien avulla. Lisätietoja ominaisuudesta on kohdassa [Synkronoi yhteystiedot Business Centralissa Microsoft Outlookin kontaktien avulla](admin-synchronize-outlook-contacts.md).
 
-## <a name="introduction"></a>Esittely
+## Esittely
 
 Kontaktin synkronointi edellyttää OAuth 2.0-protokollan käyttämistä Exchange Online -todennukseen. Aiemmin perustodennusta tuettiin myös, mutta se on vanhentunut eikä sitä enää tueta Exchange Onlinessa. Voit lukea lisää poistoista kohdassa [Perustodennuksen vanhentuminen Exchange Onlinessa](/exchange/clients-and-mobile-in-exchange-online/deprecation-of-basic-authentication-exchange-online). Tämä muutos tarkoittaa sitä, että Business Centralin yhteystietojen synkronointi on saattanut lakata toimimasta paikallisessa ympäristössä. Tämä artikkeli kertoo, miten saada se taas toimimaan.
 
-## <a name="prerequisites"></a>Vaatimukset
+## Vaatimukset
 
 - Exchange Online, joko itsenäinen versio tai Microsoft 365 -suunnitelman kautta  
 - Käytä Microsoft Entra -vuokralaista, jota Exchange Online käyttää
 - [!INCLUDE[prod_short](includes/prod_short.md)] -käyttäjillä on Microsoft 365- tai Exchange Online -sähköpostitili, joka on liitetty [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman tileihin. Voit tarkistaa tämän asetuksen **Käyttäjät**-luettelossa käyttäjäprofiilin **Microsoft 365 -todennus** -osassa. 
 
-## <a name="set-up-contact-sync"></a>Kontaktin synkronoinnin määritys
+## Kontaktin synkronoinnin määritys
 
 Määritä kontaktin synkronointi suorittamalla seuraavat vaiheet. Jos käytössäsi on [!INCLUDE[prod_short](includes/prod_short.md)] kevät 2019 (v.14), sinun on tehtävä ylimääräinen vaihe, joka joko muuttaa sovelluskoodia tai määrittää yhteyden Power BI:hin.
 
@@ -57,10 +57,10 @@ Määritä kontaktin synkronointi suorittamalla seuraavat vaiheet. Jos käytöss
      PasswordRequired := AzureADMgt.GetAccessToken(AzureADMgt.GetO365Resource,AzureADMgt.GetO365ResourceName,TRUE) = '';
      ```
 
-   - Määritä Power BI seuraamalla ohjeita kohdassa [Määritä paikallisen Business Centralin Power BI -integraatio](admin-powerbi-setup.md#setup).
+   - Määritä Power BI seuraamalla ohjeita kohdassa [Määritä paikallisen Business Centralin Power BI -integraatio](across-working-with-business-central-in-powerbi.md).
 
    Kun valitsemasi ratkaisu on valmis, pyydä käyttäjiä joko suorittamaan uusi/modifioitu sivu tai [muodostamaan yhteys Power BI:hin](across-working-with-powerbi.md#connect). Tämä vaihe tarvitsee tehdä vain kerran.
 
-## <a name="next-steps"></a>Seuraavat vaiheet
+## Seuraavat vaiheet
 
 [Business Centralin kontaktien synkronisointi Microsoft Outlookin yhteystietojen kanssa](admin-synchronize-outlook-contacts.md)  

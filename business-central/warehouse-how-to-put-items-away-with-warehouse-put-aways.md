@@ -6,11 +6,11 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 09/19/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.search.forms: '7352, 7333'
 ---
-# <a name="put-items-away-with-warehouse-put-aways"></a>Nimikkeiden hyllyttäminen ja fyysisen varaston hyllytykset
+# Nimikkeiden hyllytys fyysisen varaston hyllytysten avulla
 
 [!INCLUDE[prod_short](includes/prod_short.md)]issa nimikkeiden vastaanottoon ja hyllytykseen on neljä tapaa, jotka käsitellään seuraavassa taulukossa.
 
@@ -31,7 +31,7 @@ Jos sijainti on määritetty edellyttämään fyysisen varastoinnin hyllytyksen 
 
 Tässä artikkelissa käsiteltyjen fyysisen varaston hyllytysten vakioluontitapojen lisäksi hyllytyksiä voidaan luoda liittyvästä kirjatusta fyysisen varaston vastaanotosta. Tämä on kätevää, jos hyllytysrivit on poistettu tai jos päätetään olla käyttämättä hyllytystyökirjaa, koska hyllytysohjeet voidaan luoda tai uudelleenluoda kirjatuilta vastaanottoriveiltä.
 
-## <a name="zone-and-bin-codes"></a>Alueen ja varastopaikan koodit
+## Alueen ja varastopaikan koodit
 
 Ohjattua hyllytystä ja poimintaa käyttämään määritetyissä sijainneissa seuraavat asetukset ovat pakollisia määritettäessä, mikä on paras paikka hyllytettäville nimikkeille:  
 
@@ -41,7 +41,7 @@ Ohjattua hyllytystä ja poimintaa käyttämään määritetyissä sijainneissa s
 
 Varastopaikan luokittelua käytetään, jos hyllytysmallin ehtoja vastaavia varastopaikkoja on useita. Jos sekä hyllytysmallin ehdot että varastopaikan luokittelu ovat samat useissa varastopaikoissa, ohjelma valitsee varastopaikan, jonka numero on suurin.
 
-## <a name="to-create-put-away-documents-in-bulk-with-the-put-away-worksheet"></a>Hyllytysasiakirjojen joukkoluonti hyllytystyökirjan avulla
+## Hyllytysasiakirjojen joukkoluonti hyllytystyökirjan avulla  
 
 [!INCLUDE [edit-in-excel](includes/edit-in-excel.md)]
 
@@ -54,12 +54,12 @@ Useille vastaanotoille voidaan luoda samanaikaisesti hyllytysasiakirjoja **Hylly
 3. Valitse käsiteltävät asiakirjat. Voit käsitellä samaan aikaan useista asiakirjoista peräisin olevia rivejä.  
 
     > [!NOTE]  
-    >  Jos valittavalle vastaanoton tai sisäisen hyllytyksen asiakirjan kaikille riveille on jo luotu ohjeet, [!INCLUDE[prod_short](includes/prod_short.md)] ilmoittaa, että mitään käsiteltävää ei ole.  
+    > Jos valittavalle vastaanoton tai sisäisen hyllytyksen asiakirjan kaikille riveille on jo luotu ohjeet, [!INCLUDE[prod_short](includes/prod_short.md)] ilmoittaa, että mitään käsiteltävää ei ole.  
 
 4. Järjestä rivit täyttämällä **Järjestämistapa**-kenttä.  
 
     > [!NOTE]  
-    >  Rivien lajittelu työkirjassa ei automaattisesti toteudu samanlaisena hyllytysohjeessa. Käytössä on kuitenkin samat järjestely- ja varastopaikan luokittelumahdollisuudet. Työkirjassa suunniteltu rivijärjestys voidaan siten luoda uudelleen, kun hyllytysohjeita luodaan tai hyllytysohjeissa tehdään järjestelyjä.
+    > Rivien lajittelu työkirjassa ei automaattisesti toteudu samanlaisena hyllytysohjeessa. Käytössä on kuitenkin samat järjestely- ja varastopaikan luokittelumahdollisuudet. Työkirjassa suunniteltu rivijärjestys voidaan siten luoda uudelleen, kun hyllytysohjeita luodaan tai hyllytysohjeissa tehdään järjestelyjä.
 
 5. Täytä **Käsiteltävä määrä** -kenttä. Valitse **Täytä autom. käsitelt. määrä** -toiminto tai täytä kentät manuaalisesti.  
 6. Rivejä voi tarvittaessa muokata manuaalisesti. Rivejä voidaan poistaa esimerkiksi silloin, jos jotkin nimikkeet on hyllytettävä varastopaikkaan, joka on kaukana muiden nimikkeiden varastopaikoista.  
@@ -77,7 +77,7 @@ Useille vastaanotoille voidaan luoda samanaikaisesti hyllytysasiakirjoja **Hylly
 
 8. Luo hyllytys valitsemalla **OK**.  
 
-## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Luo hyllytys kirjatusta vastaanotosta
+## Luo hyllytys kirjatusta vastaanotosta
 
 Jos sijainnissa käytetään sekä hyllytyksen että vastaanoton käsittelyä ja hyllytysrivit on poistettu tai jos käytössä ohjattua hyllytys ja poiminta, minkä lisäksi on päätetty olla käyttämättä hyllytystyökirjaa, kirjattujen vastaanottorivien hyllytysohjeet voidaan luoda tai luoda uudelleen.
 
@@ -90,7 +90,7 @@ Jos sijainnissa käytetään sekä hyllytyksen että vastaanoton käsittelyä ja
 4. Jos vastaanotto on hyllytetty osittain tai sitä ei ole hyllytetty lainkaan, valitse **Luo hyllytys** -toiminto.  
 5. Täytä tarvittavat kentät ja valitse sitten **OK**.  
 
-## <a name="to-put-items-away"></a>Nimikkeiden hyllyttäminen
+## Nimikkeiden hyllyttäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston hyllytykset** ja valitse sitten vastaava linkki.
 
@@ -101,6 +101,9 @@ Jos sijainnissa käytetään sekä hyllytyksen että vastaanoton käsittelyä ja
 
     * Jos kunkin vastaanottorivin Ota- ja Aseta-rivit eivät ole peräkkäiset ja niiden halutaan olevan peräkkäisiä, järjestä rivit valitsemalla **Nimike** **Järjestämistapa**-kentässä.  
     * Jos varastopaikan luokittelut vastaavat fyysisen varaston fyysistä asettelua, työt järjestetään varastopaikkojen sijainnin perusteella käyttämällä **Varastopaikan luokittelu** -järjestämistapaa.
+
+  > [!NOTE]  
+  > Rivit on lajiteltu valittujen kriteereiden nousevassa järjestyksessä. Jos järjestelet asiakirjan mukaan, lajittelu tehdään ensin asiakirjatyypin mukaan **F. varastoinnin aktiviteetin lähdeasiakirja** -kentän perusteella. Jos järjestelet määränpään mukaan, lajittelu tehdään ensin kohdetyypin mukaan **F. varastoinnin kohdetyyppi** -kentän perusteella.
 
 4. Suorita toiminnot.
 
@@ -114,7 +117,7 @@ Jos sijainnissa käytetään sekä hyllytyksen että vastaanoton käsittelyä ja
 
 5. Kun olet asettanut kaikki nimikkeet varastopaikkoihin ohjeiden mukaisesti, valitse **Rekisteröi hyllytys** -toiminto.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
 [Varasto](inventory-manage-inventory.md)  

@@ -12,4 +12,4 @@ Contoson Coffee -esittelytietojen käyttäminen edellyttää, että asennat asia
 - **Contoso Coffee Demo Dataset (maatunnus)**  
     Tämä sovellus lisää maakohtaisen sisällön perussovelluksen päälle.
 <br><br>
-Lisää sovellukset tyhjään yritykseen maksulliseen tilaukseen tai kokeiluversion osana. Voit esimerkiksi luoda uuden yrityksen, jolla ei ole näytetietoja **Luo uusi yritys** -asennustoiminnon avulla, jonka voit avata **Yritykset**-luettelosta. Lisää sitten sovellukset [Marketplacesta](../ui-extensions-install-uninstall.md#install), jos niitä ei ole vielä **Laajennusten hallinta** -sivulla.  
+Lisää sovellukset yritykseen maksulliseen tilaukseen tai kokeiluversion osana. Lisää sovellukset [Marketplacesta](../ui-extensions-install-uninstall.md#install), jos niitä ei ole vielä **Laajennusten hallinta** -sivulla.

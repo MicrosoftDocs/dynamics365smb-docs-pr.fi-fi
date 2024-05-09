@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="manage-fixed-assets"></a>Käyttöomaisuuden hallinta
+# Käyttöomaisuuden hallinta
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman Käyttöomaisuus-sovellusalueesta saat yleiskuvan käyttöomaisuudestasi, ja se takaa oikeat jaksottaiset poistot. Se mahdollistaa myös kunnossapitokulujen seuraamisen, vakuutussopimusten hallinnoimisen, käyttöomaisuustransaktioiden kirjaamisen sekä monenlaisten raporttien ja tilastojen luomisen.
 
-## <a name="video-overview"></a>Videon yleiskatsaus
+## Videon yleiskatsaus
 
 Seuraavassa videossa käsitellään käyttöomaisuuden perusteet:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="fixed-assets-overview"></a>Käyttöomaisuuden yleiskatsaus
+## Käyttöomaisuuden yleiskatsaus
 
 Kunkin käyttöomaisuuserän osalta tulee määrittää kortti, joka sisältää tietoja kyseisestä käyttöomaisuuserästä. Voit määrittää rakennuksia tai tuotantolaitoksia pääkäyttöomaisuuseräksi. Voit myös ryhmitellä niitä eri tavoin, kuten esimerkiksi luokan, osaston ja sijainnin mukaan. Tämän jälkeen voit aloittaa käyttöomaisuuden hankinnan, kunnossapidon ja myynnin. Voit myös määrittää budjetoitua käyttöomaisuutta. Budjetointi mahdollistaa minkä tahansa ennakoidun hankinnan ja myynnin sisällyttämisen raportteihin.
 
@@ -46,27 +46,29 @@ Kukin käyttöoikeus voidaan liittää vähintään yhteen vakuutussopimukseen j
 > [!NOTE]  
 > Voit tallentaa käyttöomaisuustapahtumat **Käyttöomaisuuden KP-päiväkirja**- tai **Käyttöomaisuuspäiväkirja**-sivulle sen mukaan, koskevatko tapahtumat talousraportointia vai sisäistä hallintaa. Käyttöomaisuuden ohje sisältää tietoja vain **Käyttöomaisuuden KP-päiväkirja** -sivun käyttämisestä. Lisätietoja on kohdassa [Käyttöomaisuuden poiston määrittäminen](fa-how-setup-depreciation.md).
 
-## <a name="how-to-use-fixed-assets"></a>Käyttöomaisuuden käyttäminen
+## Käyttöomaisuuden käyttäminen
 
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkeleihin.
 
 | Vastaanottaja  | Katso |
 | --- | --- |
 | Käyttöoikeusominaisuuden käyttämiseen tarvittavien edellytysten määrittäminen (oletusarvojen, käyttöomaisuuden kirjanpidon, kirjausryhmien, kohdistusavaimien ja kirjaustyyppien määrittäminen). | [Käyttöomaisuuden määrittäminen](fa-setup.md)|
-| Luo käyttöomaisuus, liitä poistomenetelmät, kirjaa hankinnat ja jäännösarvot ja tulosta käyttöomaisuusluettelot. |[Hankittu käyttöomaisuus](fa-how-acquire.md) |
+| Hallitse käyttöominaisuuserien budjetteja, budjetin hankintamenoja, käyttöomaisuuden luovutusten budjetointia ja poistojen budjetointia. |[Käyttöomaisuuden budjettien hallinta](fa-how-manage-budgets.md) |
+| Luo käyttöomaisuus, liitä poistomenetelmät, kirjaa hankinnat ja jäännösarvot ja tulosta käyttöomaisuusluettelot. |[Käyttöomaisuuden hankkiminen](fa-how-acquire.md) |
+| Lisätietoja käyttöomaisuuden erilaisista poistotavoista. |[Poistotavat](fa-depreciation-methods.md) |
+| Laske ja kirjaa poisto sekä analysoi poisto käyttöomaisuusraporteissa. |[Käyttöomaisuuden poistaminen tai kuolettaminen](fa-how-depreciate-amortize.md) |
+| Lisätietoja valmiista käyttöomaisuuden raportointi- ja analysointiominaisuuksista. | [Käyttöomaisuuden analyysin yleiskatsaus](fa-analytics-overview.md) |
 | Tallenna huoltokäynnit ja kirjaa kunnossapitokustannukset sekä seuraa niitä. |[Käyttöomaisuuden ylläpito](fa-how-maintain.md) |
 | Päivitä vakuutustiedot, kirjaa hankintakustannukset vakuutussopimuksiin, muokkaa vakuutuksen kattavuutta, katsele vakuutustilastoja ja luetteloi vakuutussopimukset. |[Käyttöomaisuuden vakuuttaminen](fa-how-insure.md) |
 | Luokittele käyttöomaisuus uudelleen, siirrä käyttöomaisuus eri sijainteihin, jaa käyttöomaisuuseriä tai yhdistä niitä. |[Käyttöomaisuuserien siirtäminen, jakaminen tai yhdistäminen](fa-how-trans-split-combine.md) |
 | Muuta käyttöomaisuuserien arvoja ja kirjaa arvonkorotus- sekä arvonalennustransaktiot. |[Käyttöomaisuuden uudelleenarvostus](fa-how-revalue.md) |
-| Laske ja kirjaa poisto sekä analysoi poisto käyttöomaisuusraporteissa. |[Käyttöomaisuuden poistaminen tai kuolettaminen](fa-how-depreciate-amortize.md) |
-| Lisätietoja käyttöomaisuuden erilaisista poistotavoista. |[Poistotavat](fa-depreciation-methods.md) |
-| Kirjaa luovutustransaktiot, tarkastele luovutustapahtumia ja kirjaa osittaisia luovutuksia. |[Käyttöomaisuuden käytöstä poistaminen](fa-how-dispose-retire.md) |
-| Hallitse käyttöominaisuuserien budjetteja, budjetin hankintamenoja, käyttöomaisuuden luovutusten budjetointia ja poistojen budjetointia. |[Käyttöomaisuuden budjettien hallinta](fa-how-manage-budgets.md) |
-| Lisätietoja valmiista käyttöomaisuuden raportointi- ja analysointiominaisuuksista. | [Käyttöomaisuuden raportit ja analytiikka](fa-reports.md) |
+| Kirjaa luovutustransaktiot, tarkastele luovutustapahtumia ja kirjaa osittaisia luovutuksia. |[Käyttöomaisuuden luovuttaminen tai poistaminen käytöstä](fa-how-dispose-retire.md) |
 
-## <a name="see-also"></a>Katso myös
+
+## Katso myös
 
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  
+[Käyttöomaisuuden analyysin yleiskatsaus](fa-analytics-overview.md)   
 [Talouden yleiskatsaus](finance.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

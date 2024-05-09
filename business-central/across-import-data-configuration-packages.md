@@ -1,15 +1,16 @@
 ---
-title: Tietojen tuominen Business Central -ohjelmaan Excelin avulla
+title: Tietojen tuominen Excelin avulla
 description: Voit lisätä asiakastietoja Excelissä oletusmäärityspaketin avulla ja tuoda tiedot takaisin Business Central -sovellukseen.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: 'migration, Excel'
-ms.date: 05/10/2022
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: 'migration, Excel'
+ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="import-business-data-from-other-finance-systems"></a>Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä
+# Liiketoimintatietojen tuominen muista taloushallintojärjestelmistä
 
 Kun rekisteröidyt [!INCLUDE[prod_short](includes/prod_short.md)]iin, voit luoda tyhjän yrityksen, ladata siihen omat tietosi ja testata uuden [!INCLUDE[prod_short](includes/prod_short.md)]-yrityksesi. Yrityksen tällä hetkellä käytössä olevan rahoitusratkaisun mukaan voit siirtää tietoja asiakkaista, toimittajista, varastosta ja pankkitileistä.  
 
@@ -20,11 +21,11 @@ Roolikeskuksen avustetun asennusoppaan avulla voit siirtää liiketoimintatiedot
 > [!TIP]  
 > Suosittelemme, että käytät tietojen siirtotoimintoja, jos haluat tuoda tietoja Dynamics GP:stä, Dynamics NAVista tai QuickBooksista. Lisätietoja on kohdassa [Paikallisten tietojen siirtäminen Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) -ohjelmaan hallintasisällössä tai [QuickBooks-tiedonsiirto-ohjelmassa](ui-extensions-quickbooks-data-migration.md).
 
-## <a name="work-with-data-in-excel"></a>Tietojen käyttäminen Excelissä
+## Tietojen käyttäminen Excelissä
 
 Voit käyttää Excel-apuohjelmaa valmistelemaan olemassa olevaa sisältöä käytettäväksi [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa. Lisätietoja on kohdassa [Tarkasteleminen ja muokkaaminen Excelissä Business Centralista](across-work-with-excel.md).  
 
-## <a name="import-data-from-configuration-packages"></a>Tietojen tuominen määrityspaketeista
+## Tietojen tuominen määrityspaketeista
 
 Suuremmissa käyttöönottotöissä voit määrittää ratkaisukohtaisia määrityspaketteja. Lisätietoja on kohdassa [Yrityksen määrityspakettien määrittäminen](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages) (vain englanniksi) hallinnan sisällössä.  
 
@@ -41,7 +42,7 @@ Kun tuot oletusmäärityspaketin Exceliin, luodussa työkirjassa on kutakin pake
 > [!NOTE]
 > BLOB-tyypin kenttiä ei voi viedä tai tuoda Excelin avulla.
 
-### <a name="tables-in-the-default-configuration-package"></a>Oletusmäärityspaketin taulukot
+### Oletusmäärityspaketin taulukot
 
 Oletusmäärityspaketti tukee seuraavia taulukoita:
 
@@ -72,7 +73,7 @@ Oletusmäärityspaketti tukee seuraavia taulukoita:
 - Myyntihinta
 - Ostohinta
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Paikallisten tietojen siirtäminen Business Central Onlineen (vain englanniksi)](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Määritä yrityksen konfigurointipaketit](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)  

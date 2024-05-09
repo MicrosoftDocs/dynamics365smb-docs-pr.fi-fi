@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
-ms.date: 12/13/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -133,6 +133,14 @@ Projektin komponentteja voi poimia työnkulussa projektinhallintaan **F.varastoi
     > [!NOTE]
     > Jos yhden rivin nimikkeet on poimittava useasta varastopaikasta tai asetettava useaan varastopaikkaan esimerkiksi siksi, että määritetty varastopaikka on täynnä, käytä **Rivit**-pikavälilehden **Jaa rivi** -toimintoa. Toiminto luo rivin jäljellä olevalle käsiteltävälle määrälle.
 
+      Poimintarivejä voidaan järjestellä erilaisten ehtojen, kuten nimikkeen, hyllynumeron tai eräpäivän, mukaan. Järjestäminen voi auttaa hyllytysprosessin optimoinnissa esimerkiksi seuraavasti:
+
+    * Jos kunkin lähetysrivin Ota- ja Aseta-rivit eivät ole peräkkäiset ja niiden halutaan olevan peräkkäisiä, järjestä rivit valitsemalla **Nimike** **Järjestämistapa**-kentässä.  
+    * Jos varastopaikan luokittelut vastaavat fyysisen varaston fyysistä asettelua, työt järjestetään varastopaikkojen sijainnin perusteella käyttämällä **Varastopaikan luokittelu** -järjestämistapaa.
+
+  > [!NOTE]  
+  > Rivit on lajiteltu valittujen kriteereiden nousevassa järjestyksessä. Jos järjestelet asiakirjan mukaan, lajittelu tehdään ensin asiakirjatyypin mukaan **F. varastoinnin aktiviteetin lähdeasiakirja** -kentän perusteella. Jos järjestelet määränpään mukaan, lajittelu tehdään ensin kohdetyypin mukaan **F. varastoinnin kohdetyyppi** -kentän perusteella.
+
 4. Kun nimikkeet on poimittu ja asetettu tuotanto-, kokoonpano- tai projektialueelle taikka -varastopaikkaan, valitse **Rekisteröi poiminta** -toiminto.  
 
     Nimikkeet voidaan nyt tuoda kyseiselle alueelle ja poimittujen komponenttien käyttö tai kulutus voidaan kirjata kirjaamalla kulutuspäiväkirja, kokoonpanotilaus tai projektipäiväkirja. Seuraavissa artikkeleissa on lisätietoja:
@@ -171,6 +179,14 @@ Seuraavissa vaiheissa käsitellään toimintoja, joita eri henkilöt tekevät ja
 Seuraavassa kuvassa esitetään, milloin **Bin-koodi** -kenttä osaluettelossa täytetään sijainnin tai koneen/työkeskuksen asetusten mukaisesti.  
 
 :::image type="content" source="media/binflow.png" alt-text="Yleiskatsaus Varastopaikkakoodi-kenttä täyttämisen ajankohdasta ja täyttämistavasta.":::
+
+## Tilausohjattujen (MTO) komponenttien materiaaliotto laajennetussa fyysisen varaston määrityksessä
+
+Esimerkkitilanteissa, joissa tuotettu nimike koostuu raaka-aineista ja puolivalmiista nimikkeistä, joiden tuotantotapana on **tilausohjautuva**, näiden puolivalmiiden komponenttien fyysisen varastoinnin poiminta lisätään samaan tuotantotilaukseen niin, että **Suunnittelutason koodi** -kenttä on täytetty. Puolivalmiiden nimikkeiden oletetaan olevan heti kulutuksessa, eivätkä ne vaadi poimintaa, joten niitä ei sisällytetä fyysisen varastoinnin poiminta-asiakirjaan. Luodut fyysisen varastoinnin poiminnat sisältävät raaka-aineet vain tuotetun nimikkeen ja puolivalmiiden nimikkeiden osalta.
+
+Jos varastossa on kuitenkin puolivalmiita nimikkeitä, suunnittelujärjestelmä ehdottaa nimikkeiden kulutusta koko määrän tuottamisen asemesta. Esimerkiksi tuotettu nimike vaatii viisi puolivalmista komponenttia, mutta kolme on jo varastossa. Tässä tapauksessa tuotantotilauksen komponenteissa näkyy viisi puolivalmista nimikettä, mutta vain kaksi tuotetaan samassa tuotantotilauksessa erillisenä tuotantotilausrivinä.
+Tällaiset asetukset eivät ole yhteensopivia fyysisen varastoinnin poimintojen kanssa, ja tiheydestä riippuen tällaisten puolivalmiiden nimikkeiden tuotantotapa tulee muuttaa **varasto-ohjautuvaksi** tai tuotantotilauksen komponenttirivi tulee jakaa manuaalisesti silloin, kun aiemmin tuotetut puolivalmiit nimikkeet tulee poimia.
+
 
 ## Katso myös
 

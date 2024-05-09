@@ -408,7 +408,8 @@ ms.service: dynamics-365-business-central
 #### [Tilinpäätöstapahtuman kirjaaminen](year-how-post-year-end-close-entry.md)
 
 ### Tilikartan ja pääkirjanpidon (KP) käsitteleminen
-#### [Pääkirjanpidon ja tilikartan ymmärtäminen](finance-general-ledger.md)
+#### [Tietoja pääkirjanpidosta](finance-general-ledger.md)
+#### [Tietoja tilikartasta](finance-chart-of-accounts.md)
 #### [Tilien tarkistaminen](finance-review-accounts.md)
 #### [Pääkirjanpitotilin saldojen uudelleenarvostus](finance-revalue-account-balances.md)
 #### [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)
@@ -477,7 +478,6 @@ ms.service: dynamics-365-business-central
 #### [Taloushallinnon raportointiin perustuvan KPI-verkkopalvelun määrittäminen ja julkaiseminen](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Tietojen analysoiminen tilastotilien avulla](bi-use-statistical-accounts.md)
 #### [Tietojen analysoiminen dimensioiden mukaan](bi-how-analyze-data-dimension.md)
-#### [Analyysiraporttien luominen](bi-how-create-analysis-views-reports.md)
 
 <!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
 
@@ -495,7 +495,12 @@ ms.service: dynamics-365-business-central
 
 ## Myynti
 ### [Myynnin yleiskatsaus](sales-manage-sales.md)
-### [Myyntiraportit](sales-reports.md)
+### Myynnin analyysi 
+#### [Myynnin analyysin yleiskatsaus](sales-analytics-overview.md)
+#### [Myynnin analyysiraporttien luominen](bi-how-create-analysis-views-reports.md)
+#### [Myyntitietojen ad-hoc-analyysi](ad-hoc-analysis-sales.md)
+#### [Valmiit myyntiraportit](sales-reports.md)
+
 ### [Vaihekuvaus: myyntikampanjan suorittaminen](walkthrough-conducting-a-sales-campaign.md)
 ### [Vaihekuvaus: myynnin ennakkomaksujen määrittäminen ja laskuttaminen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Uusien asiakkaiden rekisteröiminen](sales-how-register-new-customers.md)
@@ -522,7 +527,10 @@ ms.service: dynamics-365-business-central
 
 ## Ostaminen
 ### [Ostamisen yleiskatsaus](purchasing-manage-purchasing.md)
-### [Ostoraportit](purchase-reports.md)
+### Ostamisen analyysi 
+#### [Ostamisen analyysin yleiskatsaus](purchasing-analytics-overview.md)
+#### [Ostotietojen ad-hoc-analyysi](ad-hoc-analysis-purchasing.md)
+#### [Valmiit ostoraportit](purchase-reports.md)
 ### [Vaihekuvaus: ostojen hyväksynnän työnkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Ostojen kirjaaminen](purchasing-how-record-purchases.md)
 ### [Tarjousten pyytäminen](purchasing-how-request-quotes.md)
@@ -577,9 +585,18 @@ ms.service: dynamics-365-business-central
 
 ## Käyttöomaisuus
 ### [Käyttöomaisuuden yleiskatsaus](fa-manage.md)
+### Käyttöomaisuuden analyysi
+#### [Käyttöomaisuuden analyysin yleiskatsaus](fa-analytics-overview.md)
+#### Valmiit käyttöomaisuuden analytiikkatyökalut
+##### [Kunnossapitokustannusten valvonta](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Vakuutuksen kattavuuden tarkkailu](fa-how-insure.md#to-monitor-insurance-coverage)
+##### [Muuttuneiden poistokirja-arvojen tarkasteleminen](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+##### [Luovutustapahtumien tarkasteleminen](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+##### [Suunniteltujen luovutusarvojen tarkasteleminen](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+#### [Valmiit käyttöomaisuusraportit](fa-reports.md)
 ### [Käyttöomaisuuden määrittäminen](fa-setup.md)
 ### [Poistotavat](fa-depreciation-methods.md)
-### [Käyttöomaisuuden raportit ja analytiikka](fa-reports.md)
+### [Käyttöomaisuuden budjettien hallinta](fa-how-manage-budgets.md)
 ### [Käyttöomaisuuden hankkiminen](fa-how-acquire.md)
 ### [Käyttöomaisuuden ylläpitäminen](fa-how-maintain.md)
 ### [Käyttöomaisuuden vakuuttaminen](fa-how-insure.md)
@@ -587,8 +604,8 @@ ms.service: dynamics-365-business-central
 ### [Käyttöomaisuuden uudelleenarvostus](fa-how-revalue.md)
 ### [Käyttöomaisuuden poistaminen tai kuolettaminen](fa-how-depreciate-amortize.md)
 ### [Käyttöomaisuuden luovuttaminen tai poistaminen käytöstä](fa-how-dispose-retire.md)
-### [Käyttöomaisuuden budjettien hallinta](fa-how-manage-budgets.md)
 ### [KO-tapahtumien vianmääritys](fa-troubleshooting-fa-ledger-entries.md)
+
 
 ## Liikesuhteiden hallinta
 ### [Liikesuhteiden hallinnan yleiskatsaus](marketing-relationship-management.md)
@@ -1758,7 +1775,7 @@ ms.service: dynamics-365-business-central
 ###### [Luettelotiedot näyttävien raporttien luominen](across-how-use-powerbi-reports-factbox.md)
 ##### Yrityskäyttäjä
 ###### [Power BI ‑raporttien käyttäminen Business Centralissa](across-working-with-powerbi.md)
-###### [Business Centralin tietojen käyttäminen Power BI:ssä](across-working-with-business-central-in-powerbi.md)
+###### [Yhdistäminen Power BI:hin paikallisesta Business Centralista](across-working-with-business-central-in-powerbi.md)
 ###### [Business Central ‑sovellusten käyttäminen Power BI:ssä](across-powerbi-business-central-apps.md)
 ##### [Usein kysytyt kysymykset](power-bi-faq.md)
 #### Power Automaten käyttäminen Business Centralin kanssa
@@ -1787,6 +1804,20 @@ ms.service: dynamics-365-business-central
 ## [Analytiikan yleiskatsaus](reports-bi-reporting.md)
 ## [Tunnuslukujen käyttäminen liiketoimintatavoitteiden saavuttamiseen](./analytics-about-kpis.md)
 ## [Talousraportoinnin käyttäminen](bi-how-work-account-schedule.md)
+
+## Ad-hoc-tietoanalyysi
+### [Yleiskatsaus](reports-adhoc-analysis.md)
+### [Lajitteleminen, hakeminen ja suodattaminen](ui-enter-criteria-filters.md)
+### [Lajittelemisen ja suodattamisen usein kysytyt kysymykset](ui-search-filter-faq.yml)
+### [Sivutietojen analysoiminen Excelissä](across-work-with-excel.md)
+### [Raporttitietojen analysoiminen Excelillä](report-analyze-excel.md)
+### [Luettelo- ja kyselytietojen analysoiminen analyysitilassa](analysis-mode.md)
+
+## Valmiit analytiikkatyökalut
+### [Yleiskatsaus](reports-built-in-analytics.md)
+### [Power BI ‑raporttien käyttäminen](across-working-with-powerbi.md)
+### [Älykkäät merkitykselliset tiedot (paikalliset)](about-intelligent-cloud.md)
+### [Raportin käytön telemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
 
 ## Raporttien käyttäminen päivittäisessä työssä
 ### [Yleiskatsaus](reports-use-reports.md)
@@ -1857,33 +1888,6 @@ ms.service: dynamics-365-business-central
 #### [Huoltotarjousten yleiskatsaus](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Kirjatun huoltoasiakirjan yleiskatsaus](service-service-posting.md#to-view-information-about-a-posted-service-document)
 
-## Ad-hoc-tietoanalyysi
-### [Yleiskatsaus](reports-adhoc-analysis.md)
-### [Lajitteleminen, hakeminen ja suodattaminen](ui-enter-criteria-filters.md)
-### [Lajittelemisen ja suodattamisen usein kysytyt kysymykset](ui-search-filter-faq.yml)
-### [Sivutietojen analysoiminen Excelissä](across-work-with-excel.md)
-### [Raporttitietojen analysoiminen Excelillä](report-analyze-excel.md)
-### [Luettelo- ja kyselytietojen analysoiminen analyysitilassa](analysis-mode.md)
-### [Taloushallinnon liiketoimintatiedot](bi.md)
-
-## Valmis analytiikka 
-### [Yleiskatsaus](reports-built-in-analytics.md)
-### [Älykkäät merkitykselliset tiedot](about-intelligent-cloud.md)
-### [Power BI ‑raporttien käyttäminen](across-working-with-powerbi.md)
-### [Taloushallinnon liiketoimintatiedot](bi.md)
-### [Tilinpäätösten analysoiminen Excelin avulla](finance-analyze-excel.md)
-### [Usean yrityksen kirjanpitotietojen yhdistäminen](finance-consolidated-company-reporting.md)
-### [Raportin käytön telemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
-
-
-## Tietojen analysoiminen liiketoimintatietotyökaluilla
-### [Yleiskatsaus](reports-external-analysis.md)
-### [Microsoft Fabric ja Business Central](admin-fabric.md)
-### [Power BI:n käyttäminen Business Centralin kanssa](admin-powerbi.md)
-### [Tilinpäätösten analysoiminen Excelin avulla](finance-analyze-excel.md)
-### [Tietojen poimiminen tietovarastoon tai Data Lake ‑tallennustilaan](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
-### [Tietojen lukeminen Business Centralin ohjelmointirajapinnan avulla](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
 ## Raporttien kehittäminen
 ### [Yleiskatsaus](reports-develop-reports.md)
 ### Raporttiasettelujen kehittäminen
@@ -1901,6 +1905,16 @@ ms.service: dynamics-365-business-central
 ### Raporttitietojoukkojen kehittäminen
 #### [Raporttien kehittämisopas](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Raporttien suorituskyvyn hienosäätöopas](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+## Tietojen analysoiminen liiketoimintatietotyökaluilla
+### [Yleiskatsaus](reports-external-analysis.md)
+### [Microsoft Fabric ja Business Central](admin-fabric.md)
+### [Power BI:n käyttäminen Business Centralin kanssa](admin-powerbi.md)
+### [Tilinpäätösten analysoiminen Excelin avulla](finance-analyze-excel.md)
+### [Tietojen poimiminen tietovarastoon tai Data Lake ‑tallennustilaan](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Tietojen lukeminen Business Centralin ohjelmointirajapinnan avulla](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+
 
 # Tietoturva, yhteensopivuus ja suojaus
 ## Tietoturva ja suojaus

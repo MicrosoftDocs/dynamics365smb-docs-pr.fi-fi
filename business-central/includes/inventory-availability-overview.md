@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 09/11/2023
+ms.date: 04/23/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,11 +26,11 @@ Tiedot huomioivat myös muut saatavuuteen vaikuttavat tekijät. Esimerkiksi erit
 > [!NOTE]
 > Tämä ominaisuus edellyttää, että **Ohjattu hyllytys ja poiminta** ottaa käyttöön poimintaprosessissa käytettävien sijaintien osalta.
 
-### <a name="set-up-previews"></a>Esiversioiden määrittäminen
+### Esiversioiden määrittäminen
 
 Kun haluat lisätietoja poimittavista ja ei-poimittavista kohteista, ota käyttöön **Näytä yhteenveto (ohjattu hyllytys ja poiminta)** -valinta **F. var.-lähde - luo asiakirja**- tai **F. var.toimitus - luo poiminta** -pyyntösivuilla.
 
-### <a name="determine-the-quantity-you-can-pick"></a>Määritä poimittavissa oleva määrä
+### Määritä poimittavissa oleva määrä
 
 **Käsiteltävä määrä (perus)** -kenttä näyttää **Luo fyysisen varaston poimintayhteenveto** -sivun riveillä, mitkä nimikkeet ja kuinka monta nimikettä [!INCLUDE [prod_short](prod_short.md)] on yrittänyt poimia. **Yhteenveto**-tietoruudussa on lisätietoja.
 
@@ -57,7 +57,7 @@ Seuraava kuva kuvaa poiminnassa huomioon otettavan enimmäismäärän.
 |B     |Varastopaikat, joiden tyyppi on Poiminta ja joiden lähtevä siirto on estetty         |
 |O     |Muut varastopaikat         |
 
-### <a name="reservations"></a>Varaukset
+### Varaukset
 
 Jos poimittavalle nimikkeelle on varauksia, laskenta jatkuu. Ajatuksena on, että varatulla kysynnällä on korkeampi prioriteetti kuin varaamattomalla kysynnällä, eli ei-varatun kysynnän poiminta ei saa estää poimimista varatulle kysynnälle myöhemmin.
 
@@ -70,12 +70,29 @@ Voit tarkistaa, että määrä kattaa kysynnän, vertaamalla **Poimittava määr
 * Ne on jo poimittu toimituksia varten.
 * Ne ovat suljettuja nimike-eriä tai sarjanumeroita.
 * Ne ovat suljetuissa varastopaikoissa.
+* Ne ovat erityisvarastopaikoissa.
 
 Nämä määrät voivat olla saatavilla, mutta niitä ei ehkä vielä voi poimia. Ne voivat olla vielä vastaanotto-, varastointi- tai laadunvarmistusalueilla. Voit siirtää ne poiminta-alueelle käsittelemällä hyllytyksen tai varaston siirron työkirjaa.
 
 **Saatavilla oleva määrä ilman toimituslokeroa** ja varattu määrä fyysisessä varastossa on poimittavissa oleva määrä ilman, että se vaikuttaa varattuun varastoon.
 
-### <a name="other-details"></a>Muut tiedot
+Seuraava kuva havainnollistaa käytettävissä olevan määrän jakamista varatulle määrälle.
+
+:::image type="content" source="../media/Warehouse_Reservation_Pick.png" alt-text="Enimmäismäärä, joka otetaan huomioon poimintaa varten varauksen yhteydessä.":::
+
+**Selite**
+
+|Kirjain  |Kuvaus  |
+|---------|---------|
+|J     |Poimittava määrä         |
+|TR    |Varattu määrä yhteensä fyysisessä varastossa.         |
+|RS    |Varatut määrät, jotka on jo poimittu ja jotka ovat valmiita toimituksiin, käyttöön tai kulutukseen       |
+|L     |Saatavilla oleva määrä ilman toimituslokeroa         |
+|B     |Erityisten tai suljettujen varastopaikkojen, suljettujen nimike-erien tai sarjanumeroiden määrä         |
+
+Vaikka fyysisessä varastossa on tarpeeksi saatavilla olevaa määrää poiminnan täyttämiseksi kokonaan, se johtaa siihen, että varattu kokonaismäärä on kohdistettu erityisten tai suljettujen varastopaikkojen määriin, mikä estää poiminnan tämän kysynnän osalta. Koska varatulla kysynnällä on korkeampi prioriteetti, [!INCLUDE [prod_short](prod_short.md)] vähentää poimittavaa määrää negatiivisten vaikutusten, kuten poimintakyvyttömyyden, estämiseksi varattuun kysyntään.
+
+### Muut tiedot
 
 Jos nimikkeet vaativat nimikeseurantaa, voit löytää määrän myös suljettujen erien tai sarjanumeroiden osalta, mikä aiheuttaa seuraavat vähennykset:
 

@@ -158,6 +158,10 @@ Käyttäjällä, joka pyysi käyttöoikeutta, ei ole oikeuksia hallita sovelluks
 
 Pyydä uusi tunnus, koska yhdistimen päivitetty versio vaatii enemmän käyttöoikeuksia (sovelluksen käyttöalueita). Lue lisätietoja kohdasta [Pyydä käyttöoikeustunnusta](#request-the-access-token).
 
+### [API] Virheellinen API-avain tai käyttöoikeustunnus (tunnistamaton kirjautumistunnus tai väärä salasana)
+
+Pyydä uusi tunnus, koska yhdistimen päivitetty versio vaatii enemmän käyttöoikeuksia (sovelluksen käyttöalueita). Lue lisätietoja kohdasta [Pyydä käyttöoikeustunnusta](#request-the-access-token).
+
 ## Katso myös
 
 [Shopifyn yhdistimen käytön aloittaminen](get-started.md)

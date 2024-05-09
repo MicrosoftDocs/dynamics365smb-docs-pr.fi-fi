@@ -2,28 +2,25 @@
 title: Valmis analytiikka
 description: Antaa yleiskuvan kaikista Business Central -tuotteen analytiikkatehtäviä tukevista ominaisuuksista.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: feature overview
-ms.date: 02/03/2022
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: feature overview
+ms.date: 04/30/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="built-in-analytics"></a>Valmis analytiikka
+# Valmis analytiikka
 
-[!INCLUDE[prod_short](includes/prod_short.md)] sisältää joitakin ominaisuuksia, joiden avulla voit analysoida tietoja koostetussa muodossa. Tämä ominaisuus on hyödyllinen esimerkiksi silloin, kun seurataan taloushallinnon tunnuslukuja (KPI:t) tai analysoidaan tilinpäätöksiä Microsoft Excelissä. Alla on linkkejä, joiden avulla opit käyttämään ominaisuutta.
+[!INCLUDE[prod_short](includes/prod_short.md)] sisältää ominaisuuksia, joiden avulla voit analysoida tietoja koostetussa muodossa. Voit käyttää näitä ominaisuuksia esimerkiksi taloushallinnon tunnuslukujen seuraamiseen tai rahoituslaskelmien analysointiin Microsoft Excelissä. Seuraavassa taulukossa on linkkejä artikkeleihin, joiden avulla voit oppia käyttämään sisäänrakennettua analytiikkaa.
 
 | Vastaanottaja | Katso |
 | --- | --- |
-|Saat yhteenvedon tunnusluvuista, kuten käteisvarojen saatavuudesta, myynnin kannattavuudesta, nettotuotosta tai varaston arvosta | [Älykkäät Tiedot ](about-intelligent-cloud.md) |
-|Analysoi tietoja valmiiden Power BI -raporttien avulla. | [Power BI -raporttien käyttö](across-working-with-powerbi.md) |
-|Analysoi taloustietoja reaaliaikaisesti talousraporttien ja analyysinäkymien avulla.| [Talousanalytiikka](bi.md) |
-|Tilinpäätösten analysoiminen Excelissä | [Rahoituslaskelmien analysoiminen Excelissä](finance-analyze-excel.md) |
-|Useiden yritysten taloustietojen analysoiminen | [Usean yrityksen kirjanpitotietojen konsolidointi](finance-consolidated-company-reporting.md) |
+|Analysoi tietoja valmiiden Power BI -raporttien avulla. | [Power BI -raporttien käyttäminen](across-working-with-powerbi.md) |
 |Tietojen hankkiminen siitä, mitä raportteja käyttäjät käyttävät| [Raportin käytön telemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
-[Business Intelligencen ja raportoinnin yleiskuva](reports-use-reports.md)
+[Analytiikan yleiskatsaus](reports-bi-reporting.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

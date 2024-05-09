@@ -1,48 +1,51 @@
 ---
-title: Tietoa pääkirjanpidosta ja tilikartasta
+title: Tietoja pääkirjanpidosta ja tilikartasta
 description: 'Tämä artikkeli sisältää tietoja pääkirjanpidosta, tilikartasta ja tililuokista. Määritä Pääkirjanpidon asetukset -sivulla, miten yrityksen kirjanpitoasiat käsitellään.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'analysis, history, track'
 ms.search.form: '18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158'
-ms.date: 12/19/2023
+ms.date: 04/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Tietoja pääkirjanpidosta ja tilikartasta
 
-Pääkirjanpito(KP) sisältää taloustiedot ja tilikartta näyttää tilit, joihin kaikki pääkirjanpidon tapahtumat kirjataan. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää tilikartan, joka on valmis tukemaan liiketoimintaasi.
+Pääkirjanpito(KP) sisältää taloustiedot ja tilikartta näyttää tilit, joihin kirjaat kaikki pääkirjanpidon tapahtumat. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää tilikartan, joka on valmis tukemaan liiketoimintaasi.
 
 ## Pääkirjanpidon asetukset ja yleiset kirjausasetukset
 
 Pääkirjanpidon asetukset ovat keskeisiä rahoitusprosesseja, sillä niillä määritetään tietojen kirjaaminen. Erityisesti kaksi sivua on tärkeässä osassa rahoitusprosessien määrittämisessä:  
 
-* **Pääkirjanpidon asetukset** -sivu
+* **Pääkirjanpidon asetukset**
+* **Yleiset kirjausasetukset**
 
-  **Pääkirjanpidon asetukset** -sivulla määritetään, miten esimerkiksi seuraavat yrityksen kirjanpitoasiat:  
+### **Pääkirjanpidon asetukset** -sivu
 
-  * Laskun pyöristystiliedot  
-  * Osoitteen muodot  
-  * Talousraportointi
+Käytä **Pääkirjanpidon asetukset** -sivua määrittääksesi, miten käsitellä esimerkiksi seuraavia yrityksen kirjanpitoasioita:  
 
-  > [!TIP]
-  > **Pääkirjanpidon asetukset** -sivulla on yleisiä kenttiä ja kenttiä, jotka ovat maa- tai aluekohtaisia. Jos et ole varma kentän merkityksestä, suosittelemme työskentelemään kirjanpitäjän kanssa ja miettimään, onko kentällä merkitystä organisaatiolle. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+* Laskun pyöristystiliedot  
+* Osoitteen muodot  
+* Talousraportointi
 
-  Avaa sivu [täällä](https://businesscentral.dynamics.com/?page=118).
-  
-* **Yleiset kirjausasetukset** -sivu
+> [!TIP]
+> **Pääkirjanpidon asetukset** -sivulla on yleisiä kenttiä ja kenttiä, jotka ovat maa- tai aluekohtaisia. Jos et ole varma kentän merkityksestä, suosittelemme työskentelemään kirjanpitäjän kanssa ja miettimään, onko kentällä merkitystä organisaatiolle. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-  Samaan tapaan määritetään **Yleiset kirjausasetukset** -sivulla, miten liiketoiminnan ja tuotteen yleisten kirjausryhmien yhdistelmät määritetään. Kirjausryhmät yhdistävät objektit, kuten asiakkaat, toimittajat, nimikkeet, resurssit sekä myynti- ja ostoasiakirjoja pääkirjanpidon tileille. Jokaiselle liiketoiminnan kirjausryhmän ja tuotteen kirjausryhmän yhdistelmälle täytetään rivi. Voit myös avata jokaisen rivin omassa kirjauksien asetusten kortissaan. Lisätietoja kohdassa [Kirjausryhmien määritykset](finance-posting-groups.md).  
+Kun haluat avata sivun nyt, käytä seuraavaa [Pääkirjanpidon asetukset](https://businesscentral.dynamics.com/?page=118) -linkkiä.
 
-  > [!TIP]
-  > Jos etsimäsi **Yleiset kirjausasetukset** -sivun kentät eivät ole näkyvissä, siirry sivulla oikealle sivun alaosassa olevan vaakavierityspalkin avulla.  
+### **Yleiset kirjausasetukset** -sivu
 
-  Avaa sivu [täällä](https://businesscentral.dynamics.com/?page=314).
+Käytä **Yleiset kirjausasetukset** -sivulla voi määrittää yleisen liiketoimintaryhmän ja yleisen tuoteryhmän yhdistelmiä. Kirjausryhmät yhdistävät objektit, kuten asiakkaat, toimittajat, nimikkeet, resurssit sekä myynti- ja ostoasiakirjoja pääkirjanpidon tileille. Jokaiselle liiketoiminnan kirjausryhmän ja tuotteen kirjausryhmän yhdistelmälle täytetään rivi. Voit myös avata jokaisen rivin omassa kirjauksien asetusten kortissaan. Lisätietoja kohdassa [Kirjausryhmien määritykset](finance-posting-groups.md).  
+
+> [!TIP]
+> Jos etsimäsi **Yleiset kirjausasetukset** -sivun kentät eivät ole näkyvissä, siirry sivulla oikealle sivun alaosassa olevan vaakavierityspalkin avulla.  
+
+Kun haluat avata sivun nyt, käytä seuraavaa [Yleiset kirjausasetukset](https://businesscentral.dynamics.com/?page=314).
 
 ## Tilikartta
 
-Kaikki pääkirjanpidon tilit näkyvät tilikartassa. Tilikartassa voi tehdä esimerkiksi seuraavia toimintoja:  
+**Pääkirjanpidon tilit** -sivulla näkyvät kaikki pääkirjanpidon tilit. Tilikartassa voi tehdä esimerkiksi seuraavia toimintoja:  
 
 * Voit tarkastella pääkirjanpitotapahtumat- ja saldot näyttäviä raportteja.  
 * Voit sulkea tuloslaskelman.  
@@ -50,7 +53,7 @@ Kaikki pääkirjanpidon tilit näkyvät tilikartassa. Tilikartassa voi tehdä es
 * Voit tarkastella luetteloa kyseisen tilin kirjausryhmistä.
 * Yhden tilin erillisten debet- ja kreditsaldojen näyttäminen.
 
-Voit lisätä, muuttaa tai poistaa pääkirjanpidon tilejä. Ristiriitojen estämiseksi et voi kuitenkaan poistaa pääkirjanpidon tiliä, jos sen tietoja käytetään tilikartassa. Alkaen vuoden 2022 2. julkaisuaallosta voit myös estää tilien vahingossa poistamisen arkaluonteisina kausina. Lisätietoja on [Tilien poistaminen](finance-setup-chart-accounts.md#delete-accounts) -osassa.  
+Lisätietoja on kohdassa [Tilikartan ymmärtäminen](finance-chart-of-accounts.md).
 
 ## Tililuokat
 
@@ -64,9 +67,9 @@ Voit määrittää, pitääkö tietyntyyppisten raporttien sisältää kunkin al
 
 ### Esimerkki
 
-Esimerkiksi oletussaldon tiliotteessa on *Käteisvarat*-alaluokka *Vastaavaa*-kohdassa. Jos haluat, että tiliote ottaa käteiskassan ja sekit huomioon, sinun tulee suorittaa seuraavat vaiheet:
+Esimerkiksi oletussaldon tiliotteessa on *Käteisvarat*-alaluokka *Vastaavaa*-kohdassa. Jos haluat, että tiliote ottaa käteiskassan ja sekit huomioon, voit suorittaa seuraavat vaiheet:
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KP-tililuokat** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KP-tililuokat** ja valitse sitten vastaava linkki.
    1. Vaihtoehtoisesti [Avaa tämä sivu](https://businesscentral.dynamics.com/?page=790).
 2. Valitse **Muokkaa luetteloa** -toiminto.
 3. Lisää kaksi alaluokkaa: Niistä toinen on tarkoitettu käteiskassalle ja toinen sekkitilille:
@@ -87,19 +90,22 @@ Kun valitset **Luo talousraportit** -toiminnon tai seuraavan kerran, kun raportt
 * Rivit, joissa on saldot käteiskassalle ja sekkitilille.  
 
 > [!NOTE]
-> Jos luot KP-tilin määrittelemättä tililuokkaa, kun liität tilin kirjausryhmään [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelma liittää tililuokan KP-tilistä automaattisesti tilikarttaan. Jos haluat sisällyttää uuden tilin talousraportteihin, sinun täytyy kuitenkin valita **Luo rahoitusraportit** -toiminto **pääkirjanpidon tililuokat** -sivulta. Vaihtoehtoisesti voit avata KP-tilin korttisivun, määrittää tililuokan ja luoda talousraportin uudelleen.
+> Jos luot KP-tilin määrittelemättä tililuokkaa, kun liität tilin kirjausryhmään [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelma liittää tililuokan KP-tilistä automaattisesti tilikarttaan. Jos haluat sisällyttää uuden tilin talousraportteihin, sinun täytyy kuitenkin valita **Luo rahoitusraportit** -toiminto **pääkirjanpidon tililuokat** -sivulta. Vaihtoehtoisesti avaa KP-tilin korttisivu, määritä tililuokka ja luo talousraportti uudelleen.
 
-## Nopean yleiskuvauksen saaminen
+## Luo ja muokkaa KP-tilejä ja tililuokkia
 
-**Tilikartat**-sivulla näkyvät hierarkkisessa luettelossa olevat tilit, jotka tarjoavat nopean pääsyn kunkin tilin avaintietoihin. Luettelo on kuitenkin staattinen, ja jos sinulla on paljon tilejä, sinun on ehkä vieritettävä nähdäksesi eri tilejä. Jos haluat vain nopean yleiskatsauksen perusasioista, kuten nettomuutoksista ja saldoista, **Tilikartan yleiskuvaus** -sivu on hyödyllinen vaihtoehto. Sivun sarakeasettelu on nyt sama kuin jonka löydät **tilikartta**-sivulta (vaikkakin vähemmillä sarakkeilla), joten sinun ei tarvitse suuntautua uudelleen. Voit tiivistää näkymää laajentamalla tai kutistamalla hierarkiatasoja. Jotta sivuja olisi helppo vaihtaa, **Tilikartan yleiskuvaus** -sivu on käytettävissä **Tilikartta**-sivulta.
+Pienessä organisaatiossa, kuten CRONUS-esittely-yrityksessä, useimmat käyttäjät voivat muokata talouskokonaisuuksia, kuten KP-tilejä, tililuokkia ja tilikarttoja, paitsi ne käyttäjät, joilla on RYHMÄN JÄSEN -käyttöoikeus. Suuremmissa organisaatioissa käytetään tyypillisesti rooleja ja käyttöoikeuksia rajoittamaan näiden entiteettien muokkausoikeutta. Jos olet järjestelmänvalvoja tai sinulla on *Liiketoimintajohtaja*- tai *Kirjanpitäjä*-rooli, voit hallita käyttöoikeuksia antaaksesi oikeille käyttäjille oikeuden käyttää asianomaisia taulukoita. Lue lisätietoja kohdasta [Käyttäjän käyttöoikeuksien yleiskatsauksen hankkiminen](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
 
-## Luo ja muokkaa tilejä ja tililuokkia
+## Dimensioiden käyttäminen tilikartan yksinkertaistamiseksi
 
-Pienessä organisaatiossa, kuten CRONUS-esittely-yrityksessä, useimmat käyttäjät voivat muokata tilikarttaa lukuun ottamatta niitä käyttäjiä, joilla on TEAM MEMBER -käyttöoikeus. Suuremmissa organisaatioissa käytetään tyypillisesti rooleja ja käyttöoikeuksia rajoittamaan tilikartan muokkausoikeutta. Jos olet järjestelmänvalvoja tai sinulla on *Liiketoimintajohtaja*- tai *Kirjanpitäjä*-rooli, voit hallita käyttöoikeuksia antaaksesi oikeille käyttäjille oikeuden käyttää asianomaisia taulukoita. Lue lisätietoja [Käyttäjän käyttöoikeuksien yleiskatsauksen hankkiminen](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions) -osassa.  
+Dimensiot ovat tapahtumia luokittelevia arvoja, jotta voit seurata ja analysoida tapahtumia asiakirjoissa, kuten myyntitilauksissa. Dimensioiden avulla voit esimerkiksi ilmaista, mistä projektista tai osastosta tapahtuma on lähtöisin. Sen sijaan, että määrittäisit kullekin osastolle ja projektille erilliset kirjanpitotilit, voit käyttää dimensioita analyysin perustana ja välttää monimutkaisen tilikartan luomisen.
+
+Lue lisätietoja dimensioista kohdasta [Asiakkaiden, toimittajien ja muiden tilien oletusdimensioiden määrittäminen](finance-dimensions.md#to-set-up-default-dimensions-for-customers-vendors-and-other-accounts).
 
 ## Katso myös
 
-[Tilikartan määrittäminen tai muuttaminen](finance-setup-chart-accounts.md)  
+[Tietoja tilikartasta](finance-chart-of-accounts.md)  
+[Dimensioiden käsitteleminen](finance-dimensions.md)  
 [Käyttöoikeuksien delegoiminen käyttäjille ja ryhmille](ui-define-granular-permissions.md)  
 [Business Intelligence](bi.md)  
 [Rahoitus](finance.md)  

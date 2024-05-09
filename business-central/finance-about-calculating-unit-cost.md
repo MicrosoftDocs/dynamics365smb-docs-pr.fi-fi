@@ -1,19 +1,20 @@
 ---
-title: Tietoja yksikkökustannuslaskennasta
+title: Tietoja yksikkökustannusten laskemisesta
 description: 'Tutustu siihen, miten arvostusmenetelmä ja muut tekijät vaikuttavat nimikekortin yksikkökustannukseen.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: article
-ms.date: 03/06/2022
-ms.author: bholtorf
+ms.date: 04/19/2024
 ---
-# <a name="about-unit-cost-calculation"></a>Tietoja yksikkökustannuslaskennasta
+# Tietoja yksikkökustannusten laskemisesta
 
 Kullakin nimikkeellä on yksikkökustannus, joka lasketaan yrityksen arvostusmenetelmän ja muiden tekijöiden perusteella. *Vakio*-arvostusmenetelmässä sääntönä on, että **Yksikkökustannus**-kentän arvo perustuu nimikkeen vakiokustannukseen. Kaikissa muissa arvostusmenetelmissä (*FIFO*, *LIFO*, *Spesifi* ja *Keskiarvo*) yksikköhinta lasketaan tietyn ajan keskimääräisen yksikkökustannuksen perusteella.  
 
 Lisätietoja on kohdassa [Varaston kustannusten hallinta](finance-manage-inventory-costs.md).  
 
-## <a name="when-is-the-unit-cost-field-updated"></a>Yksikkökustannuksen kentän päivittämisaika
+## Yksikkökustannuksen kentän päivittämisaika
 
 Valittu arvostusmenetelmä vaikuttaa siihen, milloin **Yksikkökustannus**-kenttä päivitetään.
 
@@ -33,35 +34,35 @@ Jos jokin näistä ehdoista on tosi, **Yksikkökustannus**-kenttä päivitetää
 
 Nimikekortin **Yksikkökustannus**-kentässä voit porautua tarkastelemaan tapahtumahistoriaa, jonka perusteella varastossa olevien yksikköjen keskimääräinen hinta **Keskimääräisten kustannusten laskennan yleiskuvaus** -ikkunassa lasketaan.
 
-## <a name="unit-cost-calculation-for-purchases"></a>Yksikkökustannusten laskeminen ostoille
+## Yksikkökustannusten laskeminen ostoille
 
 Aina kun ostat nimikkeitä, nimikekortin **Viimeinen välitön kustannus** -kentän arvo kopioidaan ostorivin **Välitön yksikkökustannus** -kenttään tai nimikepäiväkirjan rivin **Yksikkösumma**-riville.
 
 Se, mitä valitset **Kustannustapa**-kentässä vaikuttaa siihen, miten [!INCLUDE[prod_short](includes/prod_short.md)] laskee **Yksikkökustannus**-kentän sisällön riveillä.
 
-### <a name="costing-method-fifo-lifo-specific-or-average"></a>Kustannusmenetelmä FIFO, LIFO, Spesifi tai Keskimäärä
+### Kustannusmenetelmä FIFO, LIFO, Spesifi tai Keskimäärä
 
 [!INCLUDE[prod_short](includes/prod_short.md)] laskee ostorivin **Yksikkökustannus PVA** -kentän sisällön tai nimikepäiväkirjan rivin **Yksikkökustannus**-kentän sisällön seuraavan laskukaavan mukaan:
 
 *Yksikkökustannus (PVA) = (Välitön yksikkökustannus - (Alennussumma / Määrä)) * (1 + Välillinen kustannus-% / 100) + Yleiskustannus*
 
-### <a name="costing-method-standard"></a>Arvostusmenetelmä Vakio
+### Arvostusmenetelmä Vakio
 
 Järjestelmä syöttää **yksikkökustannus (PVA)** -kentän ostoriville sekä **yksikkökustannus** -kentän nimikepäiväkirjalle kopioimalla arvon nimikekortin **yksikkökustannus** -kentästä. Jos arvostustapa on *Vakio*, perustuu kustannus aina vakiokustannukseen.
 
 Kun kirjaat oston, [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelma käyttää ostorivin tai nimikepäiväkirjan yksikkökustannusta oston nimikelaskutapahtumaan. Sen voi nähdä nimikkeen tapahtumaluettelossa
 
-### <a name="all-costing-methods"></a>Kaikki arvostusmenetelmät
+### Kaikki arvostusmenetelmät
 
 Lähdeasiakirjan rivin yksikkökustannusta käytetään kyseiseen nimiketapahtumaan liittyvän **Kustannussumma todellinen** -kentän (tai tarpeen mukaan **Kustannussumma oletettu** -kentän) sisällön laskennassa huolimatta siitä, mikä nimikkeen arvostusmenetelmä on.
 
-## <a name="unit-cost-calculation-for-sales"></a>Myynnin yksikkökustannusten laskenta
+## Myynnin yksikkökustannusten laskenta
 
 Kun myyt nimikkeitä, ohjelma kopioi yksikkökustannuksen nimikekortin **Yksikkökustannus**-kentästä myyntiriville tai nimikepäiväkirjan riville.
 
 Kirjauksen yhteydessä ohjelma kopioi yksikkökustannuksen myyntilaskun nimiketapahtumaan, ja se näkyy nimikkeen tapahtumaluettelossa. [!INCLUDE[prod_short](includes/prod_short.md)] käyttää lähdeasiakirjan rivin yksikkökustannusta kyseiseen nimiketapahtumaan liittyvän arvotapahtuman **Kustannussumma todellinen** -kentän (tai tarpeen mukaan **Kustannussumma oletettu** -kentän) sisällön laskennassa.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  

@@ -2,45 +2,43 @@
 title: Huoltohallinto
 description: 'Opi käyttämään Business Centralin ominaisuuksia, jotka on suunniteltu hallitsemaan ja seuraamaan palveluita ja siten tukemaan korjaamo- ja kenttäpalvelutoimintoja.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: null
-ms.date: 06/23/2021
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: null
+ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="service-management"></a>Huoltohallinto
+# Palveluiden hallinta
+
 > [!NOTE]
 > Tässä ohjeaiheessa ja aliohjeaiheissa esitellyt toiminnot näkyvät käyttöliittymässä vain, jos käytössä on **Premium**-käyttökokemus. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
 
-Jatkuvan huollon tarjoaminen asiakkaille on tärkeä osa liiketoimintaa. Toimiva huolto lisää asiakkaiden tyytyväisyyttä ja uskollisuutta sekä kasvattaa tuottoa Huollon hallinta ja seuranta ei kuitenkaan aina ole helppoa. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää työkaluja, jotka helpottavat näitä tehtäviä. Nämä työkalut on suunniteltu tukemaan korjaamojen sekä kentällä tapahtuvan huollon toimintoja, ja niitä voi käyttää myös liiketoimintaskenaarioissa, kuten asiakaspalvelun monitasoisissa jakelujärjestelmissä, tuoterakenteita käyttävissä teollisuushuoltoympäristöissä, usean huoltoteknikon lähettämisessä sekä varaosien hallinnassa.  
+Jatkuvan huollon tarjoaminen asiakkaille on tärkeä osa liiketoimintaa. Toimiva huolto lisää asiakkaiden tyytyväisyyttä ja uskollisuutta sekä kasvattaa tuottoa Huollon hallinta ja seuranta ei kuitenkaan aina ole helppoa. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää työkaluja, jotka helpottavat näitä tehtäviä. Nämä työkalut on suunniteltu tukemaan korjaamoita ja kenttähuoltotoimintoja sekä tavallisia skenaarioita näissä yrityksissä:
 
- Näillä työkaluilla voit tehdä seuraavaa:  
-
-* ajoittaa huoltokäyntejä ja määrittää huoltotilauksia  
+* Aikatauluta huoltokäynnit.
+* Huoltotilausten hallinta.  
 * seurata korjausosia ja tarvikkeita  
 * määrittää huoltohenkilöstöä taitojen ja saatavuuden perusteella  
 * luoda huoltoarvioita ja -laskuja.  
 
 Lisäksi työkaluja voi käyttää koodien standardisointiin, sopimusten määrittämiseen, laskutuskäytäntöjen käyttöönottoon ja huoltohenkilöstön reittikarttojen luomiseen.  
 
-Huoltohallinto koostuu tavallisesti kahdesta osasta: järjestelmän määrittämisestä ja käyttämisestä. Järjestelmä taas sisältää hinnoittelun, sopimukset, tilaukset, huoltohenkilöstön lähettämisen ja projektin aikataulutuksen.  
-
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.   
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkeleihin.
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
-|Määritä huoltohallinto, kuten vikakoodit, käytännöt sekä oletusasiakirjat ja -mallit.|[Huoltohallinnon määrittäminen](service-setup-service.md)|  
+|Määritä huoltohallinnon asetukset, mukaan lukien vikakoodit, käytännöt, oletusasiakirjat ja mallit.|[Huoltohallinnon määrittäminen](service-setup-service.md)|  
 |Hallitse huoltohinnoittelua, luo huoltonimikkeitä ja hahmota etenemisen seuranta.|[Huollon suunnittelu](service-plan-service.md)|  
 |Luo ja hallitse asiakkaiden kanssa tehtyjä sopimuksia.|[Huoltosopimusten toteuttaminen](service-fulfill-service-contracts.md)|  
 |Tarjoa asiakkaille huoltoja ja laskuta huoltotilauksia.|[Huollon toimittaminen](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Katso myös
-[Myyntisaamisten hallinta](receivables-manage-receivables.md)   
-[Projektit](projects-how-create-jobs.md)   
-[Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin!](welcome.md)
+## Katso myös  
+
+[Myyntisaamisten hallinta](receivables-manage-receivables.md)  
+[Projektit](projects-how-create-jobs.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

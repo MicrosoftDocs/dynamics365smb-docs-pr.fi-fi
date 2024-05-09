@@ -26,6 +26,8 @@ Seuraavissa artikkeleissa kuvataan joitakin yrityksen tilan analysointiin liitty
 
 ## Katso myös
 
+[Myynnin analyysin yleiskatsaus](sales-analytics-overview.md)   
+[Myyntitietojen ad-hoc-analyysi](ad-hoc-analysis-sales.md)    
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Myynti](sales-manage-sales.md)  
 [Nimikkeiden varaaminen](inventory-how-to-reserve-items.md)

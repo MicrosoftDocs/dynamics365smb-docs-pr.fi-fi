@@ -27,7 +27,11 @@ sections:
         answer: |
           Kyllä. Järjestelmänvalvoja, kehittäjä tai kumppani voi muokata ja luoda omia apuohjelman kokoonpanotietoja. Yksi tapa on ladata Kontaktin tiedot -luettelo jokaisesta ympäristöstä, johon käyttäjät haluavat muodostaa yhteyden. Muokkaa `<Id>`- ja `<DisplayName>`-tunnisteita niin, että apuohjelman useat versiot sallitaan asennettaviksi. Nämä muutokset mahdollistavat sen, että käyttäjälle on asennettu useita Business Central -apuohjelmia, joista jokainen viittaa omaan ympäristöönsä.
 
-          ![Useita Outlookin Business Central -apuohjelmia.](media/outlook-multiple-addins.png) 
+          ![Useita Outlookin Business Central -apuohjelmia.](media/outlook-multiple-addins.png)
+      - question: |
+          Outlook-lisäosa kertoo, että sivua ei tueta. Miksi?
+        answer: |
+          Jotkin Business Centralin ominaisuudet vaativat runsaasti työtilaa tarjotakseen erinomaisen käyttökokemuksen, eivätkä ne ole käytettävissä Outlook-lisäosaruudussa. Esimerkiksi mikä tahansa ohjatun vaiheittaisen toiminnon sivu ei ole käytettävissä ruudussa. Voit ratkaista tämän avaamalla sivun apuohjelmassa käyttämällä Ponnahdusikkuna-toimintoa. Ponnahdusikkunaa voi venyttää minkä tahansa kokoiseksi, myös laajentamalla näytön kokoiseksi.
 additionalContent: |
 
   ## Katso myös

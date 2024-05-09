@@ -2,32 +2,34 @@
 title: Hallitse tallennustilaa poistamalla asiakirjoja tai pakkaamalla tietoja.
 description: Opi käsittelemään historiallisten asiakirjojen kertymistä (ja vähentämään tietokantaan tallennettujen tietojen määrää) poistamalla tai pakkaamalla ne.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.form: '107, 9035, 9040'
-ms.date: 09/14/2022
-ms.author: bholtorf
+ms.date: 04/16/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Hallitse tallennustilaa poistamalla asiakirjoja tai pakkaamalla tietoja.
+# Hallitse tallennustilaa poistamalla asiakirjoja tai pakkaamalla tietoja.
 
 Keskitetyn roolin, kuten sovelluksen järjestelmänvalvojan, on huolehdittava säännöllisesti siitä, että vanhat asiakirjat joko poistetaan tai tiivistetään.  
 
 > [!TIP]
 > Lisätietoja muista tavoista vähentää tietokantaan tallennettujen tietojen määrää on kehittäjien ja IT-ammattilaisten ohjeessa [Business Central -tietoantoihin tallennettujen tietojen vähentäminen](/dynamics365/business-central/dev-itpro/administration/database-reduce-data).
 
-## <a name="delete-documents"></a>Asiakirjojen poistaminen
+## Asiakirjojen poistaminen
 
 Jossain tapauksissa voi olla tarpeen poistaa laskutettuja ostotilauksia. Et kuitenkaan voi poistaa niitä, ellet ole kokonaan laskuttanut ja vastaanottanut nimikkeitä ostotilauksissa. [!INCLUDE[prod_short](includes/prod_short.md)] auttaa tarkistamalla sen.
 
-Ohjelma poistaa palautustilaukset tavallisesti sen jälkeen, kun ne on laskutettu. Kun kirjaat laskun, se siirretään **Kirjattu ostohyvityslasku** -sivulle. Jos kuitenkin olet valinnut **Palautustoimitus hyvityslaskutettaessa** -valintaruudun **Ostojen ja ostovelkojen asetukset** -sivulla, lasku siirretään **Kirjattu palautustoimitus** -sivulle. Voit poistaa asiakirjat **Poista laskutetut ostopal.til.** -eräajolla. Eräajo tarkistaa ennen poistamista, onko ostopalautustilaukset toimitettu ja laskutettu kokonaan.  
+Yritykset yleensä poistavat palautustilaukset sen jälkeen, kun ne on laskutettu. Kun kirjaat laskun [!INCLUDE [prod_short](includes/prod_short.md)] siirtää sen **Kirjattu ostohyvityslasku** -sivulle. Jos kuitenkin olet valinnut **Palautustoimitus hyvityslaskutettaessa** -valintaruudun **Ostojen ja ostovelkojen asetukset** -sivulla, lasku siirretään **Kirjattu palautustoimitus** -sivulle. Voit poistaa asiakirjat **Poista laskutetut ostopal.til.** -eräajolla. Ennen tiedostojen poistamista eräajo tarkistaa ennen poistamista, onko ostopalautustilaukset toimitettu ja laskutettu kokonaan.  
 
 Puiteostotilauksia ei poisteta automaattisesti sen jälkeen, kun kaikki liittyvät ostotilaukset on käsitelty ja laskutettu. Sen sijaan ne voi poistaa **Poista lask. puiteostotilaukset** -eräajolla.  
 
-Laskutetut huoltotilaukset poistetaan ohjelmasta automaattisesti sen jälkeen, kun ne on laskutettu kokonaan. Kun lasku on kirjattu, vastaava tapahtuma luodaan ja niitä voi tarkastella **Kirjatut huoltolaskut** -sivulla.  
+Tyypillisesti yritykset poistavat laskutetut huoltotilaukset ohjelmasta automaattisesti sen jälkeen, kun ne on laskutettu kokonaan. Kun lasku on kirjattu, vastaava tapahtuma luodaan ja niitä voi tarkastella **Kirjatut huoltolaskut** -sivulla.  
 
 Ohjelma ei poista huoltotilauksia automaattisesti, jos tilauksen kokonaismäärä on kirjattu **Huoltolasku**-sivulla eikä huoltotilauksessa. Tällaiset laskutetut tilaukset täytyy ehkä poistaa manuaalisesti suorittamalla **Poista laskutetut huoltotilaukset** -eräajo.  
 
-## <a name="compress-data-with-date-compression"></a>Pakkaa tiedot päivämäärätiivistyksen avulla
+## Pakkaa tiedot päivämäärätiivistyksen avulla
 
 Voit pakata tietoja [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa niin, että säästät tilaa tietokannassa&mdash;joka [!INCLUDE [prod_short](includes/prod_short.md)] onlinessa voi jopa säästää rahaa. Tiivistys perustuu päivämääriin ja toimintoihin, yhdistää useita vanhoja tapahtumia yhdeksi uudeksi tapahtumaksi.
 
@@ -56,9 +58,9 @@ Kun määrität tiivistyksen ehtoja, voit säilyttää tiettyjen kenttien sisäl
 
 Tiivistyksen jälkeen seuraavien kenttien sisältö säilytetään aina: **Kirjauspvm**, **Toimittajanro**, **Asiakirjan tyyppi**, **Valuutan koodi**, **Kirjausryhmä**, **Summa**, **Jäljellä oleva summa**, **Alkuperäinen summa (PVA)**, **Jäljellä oleva summa (PVA)**, **Summa (PVA)**, **Osto (PVA)**, **Laskualennus (PVA)**, **Annettu maksualennus (PVA)** ja **Maksualennus mahdollinen**.
 
-## <a name="posting-compressed-entries"></a>Tiivistettyjen tapahtumien kirjaaminen
+## Tiivistettyjen tapahtumien kirjaaminen
 
-Tiivistetyt tapahtumat kirjataan hieman eri tavalla kuin vakiokirjaukset. Tämä vähentää tiivistyksen avulla luotujen uusien pääkirjanpidon tapahtumien määrää, ja se on erityisen tärkeää, kun pidät yllä tietoja, kuten dimensioita ja asiakirjanumeroita. Päivämäärätiivistys luo uusia tapahtumia seuraavasti:
+Tiivistetyt tapahtumat kirjataan hieman eri tavalla kuin vakiokirjaukset. Tämä ero vähentää tiivistyksen avulla luotujen uusien pääkirjanpidon tapahtumien määrää, ja se on erityisen tärkeää, kun pidät yllä tietoja, kuten dimensioita ja asiakirjanumeroita. Päivämäärätiivistys luo uusia tapahtumia seuraavasti:
 
 * **Pääkirjanpidon tapahtumat** -sivulla tiivistetyille tapahtumille luodaan uusia tapahtumia. **Kuvaus**-kenttä sisältää **Tiivistetty**-päivämäärän niin, että tiivistetyt tapahtumat on helppo yksilöidä. 
 * Kirjanpitosivuilla, kuten **Asiakastapahtumat**-sivulla, luodaan yksi tai useampia uusia tapahtumia. 
@@ -66,17 +68,17 @@ Tiivistetyt tapahtumat kirjataan hieman eri tavalla kuin vakiokirjaukset. Tämä
 Kirjausprosessi luo numerosarjojen aukkoja **Pääkirjanpidon tapahtumat** -sivulla oleville tapahtumille. Nämä numerot on määritelty vain kirjanpitosivujen tapahtumille. Tapahtumiin liitetty numeroalue on saatavilla **KP-rekisteri**-sivun **Tapahtumasta nro**- ja **Tapahtumaan nro** -kentistä. 
 
 > [!NOTE]
-> Kun olet suorittanut päivämäärien tiivistyksen, kaikki kirjanpidon tilit on lukittu. Tämä tarkoittaa, että et voi esimerkiksi peruuttaa toimittajan tai pankkikirjan merkintöjä millekään tilille, johon pakkaaminen vaikuttaa.
+> Tiivistyksen jälkeen et voi peruuttaa toimittaja- tai pankkitilitapahtumia sellaisten tapahtumien osalta, joihin tiivistys vaikuttaa.
 
 Päivämäärätiivistyksen tuloksena syntyvien tapahtumien määrä perustuu siihen, kuinka monta suodatinta asetat, mitkä kentät yhdistetään ja minkä jakson pituuden valitset. Tapahtumia syntyy aina vähintään yksi.
 
 > [!WARNING]
 > Tiivistys poistaa tapahtumia, joten aina ennen kuin aloitat eräajon, tee varmuuskopio tietokannasta.
 
-### <a name="to-run-a-date-compression"></a>Suorita Pvmtiivistys
+### Suorita Pvmtiivistys
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Tietojen hallinta**, valitse sitten aiheeseen liittyvä linkki.
-2. Tee jompikumpi seuraavista toimista:
+2. Tee tarpeistasi riippuen jokin seuraavista:
     * Jos haluat käyttää avustettua opasta asentaaksesi päivämäärätiivistyksen vähintään yhdelle tietotyypille, valitse **Tietojen hallinnan opas**.
     * Jos haluat määrittää tiivistyksen yksittäiselle tietotyypille, valitse **Tietojen tiivistys**, **Tiivistä tapahtumat**, valitse sitten tiivistettävät tiedot.
 
@@ -84,7 +86,7 @@ Päivämäärätiivistyksen tuloksena syntyvien tapahtumien määrä perustuu si
    > Voit pakata vain yli viisi vuotta vanhoja tietoja. Jos haluat pakata alle viisi vuotta vanhoja tietoja, ota yhteyttä Microsoft-kumppaniisi. Heidän on käytettävä `OnSetMinimumNumberOfYearsToKeep` -tapahtumaa Päivämäärätiivistys-codeunitissa kynnyksen asettamiseen.
 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Hallinta](admin-setup-and-administration.md)  
 

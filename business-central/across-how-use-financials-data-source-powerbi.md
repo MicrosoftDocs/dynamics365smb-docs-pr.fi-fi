@@ -5,18 +5,18 @@ author: jswymer
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysis'
-ms.date: 09/07/2022
+ms.date: 01/22/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="building-power-bi-reports-to-display--data"></a>Power BI -raporttien luominen näyttämään [!INCLUDE [prod_long](includes/prod_long.md)] -tietoja
+# Power BI -raporttien luominen näyttämään [!INCLUDE [prod_long](includes/prod_long.md)] -tietoja
 
 Voit määrittää [!INCLUDE[prod_long](includes/prod_long.md)]in tiedot käytettäviksi Power BI Desktop:n tietolähteenä ja tehokkaiden liiketoiminnan tilasta kertovien raporttien luomista varten.
 
 Tässä artikkelissa käsitellään Power BI Desktopin käytön aloittamista luomaan [!INCLUDE[prod_long](includes/prod_long.md)] -tiedot näyttäviä raportteja.  Kun raportit on luotu, voit julkaista ne Power BI -palveluun tai jakaa ne organisaation kaikkien käyttäjien kanssa. Kun nämä raportit ovat Power BI -palvelussa, käyttäjät, joilla on raporttien tarkasteluoikeudet, voivat tarkastella niitä [!INCLUDE[prod_long](includes/prod_long.md)]issa.
 
-## <a name="get-ready"></a>Valmistelut
+## Valmistelut
 
 - Rekisteröidy Power BI -palveluun.
 
@@ -30,14 +30,14 @@ Tässä artikkelissa käsitellään Power BI Desktopin käytön aloittamista luo
 
   Lisätietoja on kohdassa [Tietojen näyttäminen API-sivujen tai OData-verkkopalvelujen kautta](admin-powerbi-setup.md#exposedata).
 
-- Paikallista [!INCLUDE[prod_short](includes/prod_short.md)] -versiota varten tarvitaan seuraavat tiedot:
+<!--- For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, get the following information:
 
-  - [!INCLUDE[prod_short](includes/prod_short.md)]in ODatan URL-osoite.
+  - The OData URL for [!INCLUDE[prod_short](includes/prod_short.md)].
   
-    Tämän URL-osoitteen muoto on yleensä `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, kuten `https://localhost:7048/BC190/ODataV4`. Jos kyse on monen vuokraajan käyttöönotossa, URL-osoitteen on sisällettävä vuokraaja, kuten `https://localhost:7048/BC190/ODataV4?tenant=tenant1`.
-  - [!INCLUDE[prod_short](includes/prod_short.md)] -tilin käyttäjänimi ja verkkopalvelun käyttöoikeusavain.
+    Typically, this URL has the format `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, for example, `https://localhost:7048/BC190/ODataV4`. If you have a multi-tenant deployment, include the tenant in the URL, for example, `https://localhost:7048/BC190/ODataV4?tenant=tenant1`.
+  - A user name and web service access key of a [!INCLUDE[prod_short](includes/prod_short.md)] account.
 
-    Power BI käyttää perustodennusta [!INCLUDE[prod_short](includes/prod_short.md)] -tietojen hakemiseen. Yhteyttä varten tarvitaan tämän vuoksi käyttäjänimi ja verkkopalvelun käyttöoikeusavain. Tili voi olla oma käyttäjänimi. Organisaatiolla voi olla myös erillinen tili tätä tarkoitusta varten.
+    To get data from [!INCLUDE[prod_short](includes/prod_short.md)], Power BI uses basic authentication. So, you'll need a user name and web service access key to connect. The account might be your own user account, or your organization may have specific account for this purpose.-->
 
 - Lataa [!INCLUDE [prod_short](includes/prod_short.md)] -raportin teema (valinnainen).
 
@@ -45,7 +45,7 @@ Tässä artikkelissa käsitellään Power BI Desktopin käytön aloittamista luo
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in lisääminen Power BI Desktopin tietolähteeksi
+## <a name="getdata"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in lisääminen Power BI Desktopin tietolähteeksi
 
 Raporttien luomisen ensimmäinen tehtävä on [!INCLUDE[prod_short](includes/prod_short.md)]in lisääminen Power BI Desktopin tietolähteeksi. Raportin luonnin voi aloittaa, kun yhteys on muodostettu.
 
@@ -57,7 +57,7 @@ Raporttien luomisen ensimmäinen tehtävä on [!INCLUDE[prod_short](includes/pro
 4. Tee **Verkkopalvelut**-ruudussa jokin seuraavista:
 
     - Jos haluat muodostaa yhteyden [!INCLUDE [prod_short](includes/prod_short.md)] onlineen, valitse **Dynamics 365 Business Central** ja sitten **Yhdistä**.
-    - Jos haluat muodostaa paikallisen [!INCLUDE [prod_short](includes/prod_short.md)] -yhteyden, valitse **Dynamics 365 Business Central (paikallinen)** ja sitten **Yhdistä**.
+    <!--- To connect to  [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, select **Dynamics 365 Business Central (on-premises)**, then **Connect**.-->
 
 5. Kirjaudu sisään [!INCLUDE [prod_short](includes/prod_short.md)]iin (vain kerran).
 
@@ -65,7 +65,7 @@ Raporttien luomisen ensimmäinen tehtävä on [!INCLUDE[prod_short](includes/pro
 
     - Valitse [!INCLUDE [prod_short](includes/prod_short.md)] onlinessa **Kirjaudu sisään** ja valitse sitten asiaankuuluva tili. Käytä samaa tiliä, jolla kirjaudut [!INCLUDE [prod_short](includes/prod_short.md)]iin. Kun olet valmis, valitse **Yhdistä**.
 
-    - Paikallisessa [!INCLUDE [prod_short](includes/prod_short.md)]issa syötä ensin [!INCLUDE[prod_short](includes/prod_short.md)]in OData-URL-osoite ja valitse sitten **OK**. Anna pyydettäessä sen tilin käyttäjänimi ja salasana, jolla muodostetaan yhteys [!INCLUDE[prod_short](includes/prod_short.md)]iin. Anna **Salasana**-ruudussa verkkopalvelun käyttöoikeusavain. Kun olet valmis, valitse **Yhdistä**.
+    <!--- For [!INCLUDE [prod_short](includes/prod_short.md)] on-premises, first enter the OData URL for [!INCLUDE[prod_short](includes/prod_short.md)], then select **OK**. When prompted, enter the user name and password of the account to use for connecting to [!INCLUDE[prod_short](includes/prod_short.md)]. In the **Password** box, enter the web service access key. When done, select **Connect**.-->
 
     > [!NOTE]  
     > Kun yhteys [!INCLUDE[prod_short](includes/prod_short.md)]iin on muodostettu, sinua ei pyydetä kirjautumaan uudelleen. [Miten muutan tai tyhjennän tilin, jota tällä hetkellä käytän yhteyden muodostamiseen Business Centraliin Power BI Desktopista?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
@@ -88,8 +88,9 @@ Raporttien luomisen ensimmäinen tehtävä on [!INCLUDE[prod_short](includes/pro
 
           Tässä kansiossa on luettelo sivuista, koodiyksiköistä ja kyselyistä, jotka julkaistaan verkkopalveluina Business Centralissa.
 
+    <!--
     > [!NOTE]
-    > Paikallisen Business Centralin rakenne on erilainen, koska se ei tue API-sivuja.
+    > The structure for Business Central on-premises is different because it doesn't support API pages.-->
 
 7. Valitse tietomalliin lisättävä tietolähde tai lisättävät tietolähteet ja valitse sitten **Lataa**-painike.
 8. Jos haluat myöhemmin lisätä Business Central -tietoja, voit toistaa edelliset vaiheet.
@@ -99,45 +100,45 @@ Kun tiedot on ladattu, ne näkyvät sivun oikeassa siirtymisruudussa. Olet nyt m
 > [!TIP]
 > Lisätietoja Power BI Desktopin käytöstä on kohdassa [Power BI Desktopin käytön aloittaminen](/power-bi/fundamentals/desktop-getting-started).
 
-## <a name="creating-accessible-reports"></a>Helppokäyttötoimintoja sisältävien raporttien luominen
+## Helppokäyttötoimintoja sisältävien raporttien luominen
 
 Raportit on tärkeä luoda sellaisiksi, että mahdollisimman moni henkilö voi käyttää niitä. Yritä suunnitella raportit niin, että ne eivät vaadi erityistä mukauttamista henkilöiden erityisten tarpeiden täyttämiseksi. Varmista, että suunnittelija käyttää hyväksi käyttöä tukevia vakiotekniikoita, kuten näytönlukuohjelmia. Power BI sisältää erilaisia helppokäyttötoimintoja, työkaluja ja ohjeita tämän tavoitteen saavuttamiseksi. Lisätietoja on Power BI:n ohjeiden kohdassa [Power BI:n raporttien suunnitteleminen helppokäyttötoimintoja varten](/power-bi/create-reports/desktop-accessibility-creating-reports).
 
-## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Raporttien luominen näyttämään luetteloon liitetyt tiedot
+## Raporttien luominen näyttämään luetteloon liitetyt tiedot
 
 Voit luoda [!INCLUDE [prod_short](includes/prod_short.md)] -luettelosivun tietoruudussa näytettäviä raportteja. Raporteissa voi olla tietoja luettelossa valitusta tietueesta. Vaikka näiden raporttien luominen muistuttaa muiden raporttien luontia, raporttien näkyminen odotetusti edellyttää muutamia toimintoja. Lisätietoja on kohdassa [Power BI -raporttien luominen näyttämään luettelotietoja [!INCLUDE[prod_short](includes/prod_short.md)]issa](across-how-use-powerbi-reports-factbox.md).
 
-## <a name="using-the--report-theme-optional"></a><a name="theme"></a>[!INCLUDE [prod_short](includes/prod_short.md)] -raportin teeman käyttäminen (valinnainen)
+## <a name="theme"></a>[!INCLUDE [prod_short](includes/prod_short.md)] -raportin teeman käyttäminen (valinnainen)
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -teematiedosto kannattaa ladata ja tuoda ennen raportin luontia. Teematiedosto luo värivalikoiman, jonka avulla voit luoda raportteja samalla värityylillä kuin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksissa ilman, että kunkin visuaalisen ominaisuuden mukautetut värit on määritettävä erikseen.
 
 > [!NOTE]
 > Tämä tehtävä on valinnainen. Voit aina luoda omia raportteja ja ladata ja käyttää tyylimallia myöhemmin.
 
-### <a name="download-the-theme"></a>Teeman lataaminen
+### Teeman lataaminen
 
 Teematiedosto on saatavana JSON-tiedostona Microsoft Power BI -yhteisön teemavalikoimassa. Teematiedosto ladataan seuraavasti:
 
 1. Siirry [Microsoft Dynamics 365 Business Centralin Microsoft Power BI -yhteisön teemavalikoimaan](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
 2. Valitse ladattava liite **Microsoft Dynamics Business Central.json**.
 
-### <a name="import-the-theme-on-a-report"></a>Teeman tuominen raporttiin
+### Teeman tuominen raporttiin
 
 Kun [!INCLUDE [prod_short](includes/prod_short.md)] -raportin teema on ladattu, voit luoda sen raportteihin. Tuo teema valitsemalla **Näkymä** > **Teema** > **Teemojen selaus**. Lisätietoja on kohdassa [Power BI Desktop – mukautettujen raportin teemojen tuominen](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
-## <a name="publish-reports"></a>Raporttien julkaiseminen
+## Raporttien julkaiseminen
 
 Kun raportti on luotu tai sitä on muokattu, voit julkaista raportin Power BI -palveluun sekä jakaa sen organisaatiossa muiden kanssa. Raportti näkyy julkaisun jälkeen Power BI:ssa. Raportti on lisäksi valittavana [!INCLUDE[prod_short](includes/prod_short.md)]issa.
 
 Voit julkaista raportin valitsemalla **Julkaise** valintanauhan **Aloitus**-välilehdessä tai **Tiedosto**-valikossa. Jos olet kirjautunut Power BI -palveluun, raportti on julkaistava tähän palveluun. Muussa tapauksessa sinua pyydetään kirjautumaan sisään. 
 
-## <a name="distribute-or-share-a-report"></a>Raportin jakaminen tai jakelu
+## Raportin jakaminen tai jakelu
 
 Raportit voi toimittaa työtovereille ja muille kahdella tavalla:
 
 - Raporttien jakaminen .pbix-tiedostoina.
 
-    Raportit tallennetaan tietokoneeseen .pbix-tiedostoina. Voit jakaa raportin käyttäjille .pbix-tiedostona muiden tiedostojen tavoin. Käyttäjät voivat sitten ladata tiedoston Power BI -palveluun. Lisätietoja on kohdassa [Raporttien lataaminen tiedostoista](across-working-with-business-central-in-powerbi.md#upload).
+    Raportit tallennetaan tietokoneeseen .pbix-tiedostoina. Voit jakaa raportin käyttäjille .pbix-tiedostona muiden tiedostojen tavoin. Käyttäjät voivat sitten ladata tiedoston Power BI -palveluun. Lisätietoja on kohdassa [Raporttien lataaminen tiedostoista](across-working-with-powerbi.md#upload).
 
     > [!NOTE]
     > Kun raportit jaetaan tällä tavoin, kukin käyttäjä päivittää raportin tiedot itse. Tämä voi vaikuttaa [!INCLUDE[prod_short](includes/prod_short.md)]in suorituskykyyn.
@@ -146,9 +147,9 @@ Raportit voi toimittaa työtovereille ja muille kahdella tavalla:
 
     Jos sinulla on Power BI Pro -käyttöoikeus, voit jakaa raportin muille suoraan Power BI -palvelusta. Lisätietoja on kohdassa [Power BI – koontinäytön tai raportin jakaminen](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
-## <a name="fixing-problems"></a>Ongelmien korjaaminen
+## Ongelmien korjaaminen
 
-### <a name="cant-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>"Tietuetta ei voi lisätä. Nykyinen yhteystarkoitus on vain luku.". virhe muodostettaessa yhteyttä mukautettuun ohjelmointirajapintasivuun
+### "Tietuetta ei voi lisätä. Nykyinen yhteystarkoitus on vain luku.". virhe muodostettaessa yhteyttä mukautettuun ohjelmointirajapintasivuun
 
 > **KOHDE:** Business Central online
 
@@ -179,9 +180,9 @@ Helmikuusta 2022 alkaen uudet Business Central -tietoja käyttävät raportit mu
 9. Valitse **Valmis**.
 10. Tallenna muutokset ja sulje Power Query Editor valitsemalla valintanauhasta **Sulje ja käytä**.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
-[Yritystietojen ottaminen käyttöön Power BI:ta varten](admin-powerbi.md)  
+[Yritystietojen ottaminen käyttöön Power BI:ta varten](admin-powerbi-setup.md)  
 [Business Intelligence](bi.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  

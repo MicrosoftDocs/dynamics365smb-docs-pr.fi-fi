@@ -153,11 +153,11 @@ additionalContent:
               url: /dynamics365/business-central/map-edocuments-with-copilot
             - text: Pankkitilien täsmäyttäminen
               url: /dynamics365/business-central/bank-reconciliation-with-copilot
-            - text: Ehdotusrivien ehdotukset
+            - text: Ehdota myyntirivejä
               url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
         - title: Työtilan asetukset
           links:
-            - text: 'Kieli, alue, käsittelypäivämäärä, aikavyöhyke, yms.'
+            - text: 'Kieli, alue, käsittelypäivämäärä, aikavyöhyke yms.'
               url: /dynamics365/business-central/ui-change-basic-settings
             - text: Vaihda ympäristöä tai yritystä
               url: /dynamics365/business-central/ui-organization-switch
@@ -223,7 +223,7 @@ additionalContent:
               url: /dynamics365/business-central/sales-how-make-offers
             - text: Myynnin laskuttaminen
               url: /dynamics365/business-central/sales-how-invoice-sales
-        - title: Osto
+        - title: Ostaminen
           links:
             - text: Yleiskuvaus
               url: /dynamics365/business-central/purchasing-manage-purchasing
