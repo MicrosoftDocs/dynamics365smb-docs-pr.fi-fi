@@ -10,7 +10,7 @@ ms.date: 04/23/2024
 ms.author: altotovi
 --- 
 
-# Maksukäytäntöraportit  
+# <a name="payment-practices-report"></a>Maksukäytäntöraportit
 
 Jotkin maat tai alueet edellyttävät, että yritykset raportoivat toimittajiensa maksuajat paikallisten viranomaisten määrittelemien määritysten mukaisesti. Raportointi voi perustua eri lähteisiin, ja se voi lajitella toimittajia niiden koon tai määritettyjen maksuehtojen perusteella. Näin toimittajat voivat raportoida seuraavien viranomaisten edellyttämällä tavalla:  
 
@@ -23,7 +23,7 @@ Käyttäjät voivat valita ajanjakson, jolta he haluavat suorittaa laskennan, ja
 > [!NOTE]
 > Joissakin maissa raportointi on toistaiseksi pakollista, mutta se on maailmanlaajuinen ominaisuus, ja sitä voidaan käyttää kaikkialla. Tällä hetkellä ruotsalaisten yli 250 työntekijän yritysten on joka vuosi raportoitava Ruotsin yritysrekisteritoimistolle, mitkä maksuajat heillä on ostoksille itseään pienemmiltä yrityksiltä. Vastaavia säädöksiä on Yhdistyneessä kuningaskunnassa, Australiassa ja Uudessa-Seelannissa.  
 
-## Luo raportti 
+## <a name="generate-the-report"></a>Luo raportti
 
 Voit suorittaa **Maksukäytännöt**-raportin noudattamalla seuraavia vaiheita:
 
@@ -47,7 +47,7 @@ Voit suorittaa **Maksukäytännöt**-raportin noudattamalla seuraavia vaiheita:
 6. Kaikista lasketuista kentistä voit mennä syvemmälle katsomaan, miten tämä tulos on laskettu, avaamalla **Maksukäytännön tietoluettelo** -sivun.
 7. Jos haluat tulostaa asiakirjan, voit tehdä sen suorittamalla **Tulosta**-toiminnon.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Taloushallinnon raportit](finance-reports.md)  
 [Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md)  

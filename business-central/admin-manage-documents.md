@@ -10,14 +10,14 @@ ms.date: 04/16/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Hallitse tallennustilaa poistamalla asiakirjoja tai pakkaamalla tietoja.
+# <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Hallitse tallennustilaa poistamalla asiakirjoja tai pakkaamalla tietoja.
 
 Keskitetyn roolin, kuten sovelluksen järjestelmänvalvojan, on huolehdittava säännöllisesti siitä, että vanhat asiakirjat joko poistetaan tai tiivistetään.  
 
 > [!TIP]
 > Lisätietoja muista tavoista vähentää tietokantaan tallennettujen tietojen määrää on kehittäjien ja IT-ammattilaisten ohjeessa [Business Central -tietoantoihin tallennettujen tietojen vähentäminen](/dynamics365/business-central/dev-itpro/administration/database-reduce-data).
 
-## Asiakirjojen poistaminen
+## <a name="delete-documents"></a>Asiakirjojen poistaminen
 
 Jossain tapauksissa voi olla tarpeen poistaa laskutettuja ostotilauksia. Et kuitenkaan voi poistaa niitä, ellet ole kokonaan laskuttanut ja vastaanottanut nimikkeitä ostotilauksissa. [!INCLUDE[prod_short](includes/prod_short.md)] auttaa tarkistamalla sen.
 
@@ -29,7 +29,7 @@ Tyypillisesti yritykset poistavat laskutetut huoltotilaukset ohjelmasta automaat
 
 Ohjelma ei poista huoltotilauksia automaattisesti, jos tilauksen kokonaismäärä on kirjattu **Huoltolasku**-sivulla eikä huoltotilauksessa. Tällaiset laskutetut tilaukset täytyy ehkä poistaa manuaalisesti suorittamalla **Poista laskutetut huoltotilaukset** -eräajo.  
 
-## Pakkaa tiedot päivämäärätiivistyksen avulla
+## <a name="compress-data-with-date-compression"></a>Pakkaa tiedot päivämäärätiivistyksen avulla
 
 Voit pakata tietoja [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa niin, että säästät tilaa tietokannassa&mdash;joka [!INCLUDE [prod_short](includes/prod_short.md)] onlinessa voi jopa säästää rahaa. Tiivistys perustuu päivämääriin ja toimintoihin, yhdistää useita vanhoja tapahtumia yhdeksi uudeksi tapahtumaksi.
 
@@ -58,7 +58,7 @@ Kun määrität tiivistyksen ehtoja, voit säilyttää tiettyjen kenttien sisäl
 
 Tiivistyksen jälkeen seuraavien kenttien sisältö säilytetään aina: **Kirjauspvm**, **Toimittajanro**, **Asiakirjan tyyppi**, **Valuutan koodi**, **Kirjausryhmä**, **Summa**, **Jäljellä oleva summa**, **Alkuperäinen summa (PVA)**, **Jäljellä oleva summa (PVA)**, **Summa (PVA)**, **Osto (PVA)**, **Laskualennus (PVA)**, **Annettu maksualennus (PVA)** ja **Maksualennus mahdollinen**.
 
-## Tiivistettyjen tapahtumien kirjaaminen
+## <a name="posting-compressed-entries"></a>Tiivistettyjen tapahtumien kirjaaminen
 
 Tiivistetyt tapahtumat kirjataan hieman eri tavalla kuin vakiokirjaukset. Tämä ero vähentää tiivistyksen avulla luotujen uusien pääkirjanpidon tapahtumien määrää, ja se on erityisen tärkeää, kun pidät yllä tietoja, kuten dimensioita ja asiakirjanumeroita. Päivämäärätiivistys luo uusia tapahtumia seuraavasti:
 
@@ -75,7 +75,7 @@ Päivämäärätiivistyksen tuloksena syntyvien tapahtumien määrä perustuu si
 > [!WARNING]
 > Tiivistys poistaa tapahtumia, joten aina ennen kuin aloitat eräajon, tee varmuuskopio tietokannasta.
 
-### Suorita Pvmtiivistys
+### <a name="to-run-a-date-compression"></a>Suorita Pvmtiivistys
 
 1. Valitse ![Etsi sivu tai raportti](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Tietojen hallinta**, valitse sitten aiheeseen liittyvä linkki.
 2. Tee tarpeistasi riippuen jokin seuraavista:
@@ -86,7 +86,7 @@ Päivämäärätiivistyksen tuloksena syntyvien tapahtumien määrä perustuu si
    > Voit pakata vain yli viisi vuotta vanhoja tietoja. Jos haluat pakata alle viisi vuotta vanhoja tietoja, ota yhteyttä Microsoft-kumppaniisi. Heidän on käytettävä `OnSetMinimumNumberOfYearsToKeep` -tapahtumaa Päivämäärätiivistys-codeunitissa kynnyksen asettamiseen.
 
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Hallinta](admin-setup-and-administration.md)  
 

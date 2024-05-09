@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Myynnin analyysi
+# <a name="sales-analytics"></a>Myynnin analyysi
 
 Yritykset sieppaavat paljon tietoa päivittäisten toimintojen aikana, ja ne tukevat myyntipäälliköille arvokkaita liiketoimintatietoja:
 
@@ -32,7 +32,7 @@ Kullakin näistä ominaisuuksista on etunsa ja haittapuolensa tietojen analyysit
 
 Tässä artikkelissa käsitellään miten näitä analyysiominaisuuksia käytetään merkityksellisten myyntitietojen hankkimiseen.
 
-## Myynnin analyysitarpeet
+## <a name="analytics-needs-in-sales"></a>Myynnin analyysitarpeet
 
 Myynnin hallinnan analytiikkatarpeita pohdittaessa voi olla hyödyllistä käyttää persoonapohjaista mallia, joka kuvaa korkealla tasolla erilaisia analytiikan tarpeita.
 
@@ -49,14 +49,14 @@ Eri tehtävissä toimivilla henkilöillä voi olla erilaisia tietoja koskevia ta
 |Asiakaspäällikkö/Myyjä | Eritellyt tiedot     | Valmiit operatiiviset raportit <br> Näytöllä näkyvät tehtävän tiedot |
 
 <!-- 
-## Sales KPIs
+## <a name="sales-kpis"></a>Sales KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In sales management, people often use the following KPIs to monitor their organization's sales performance:
 
 - TODO  
 -->
 
-## Financial Reportingin käyttö myyntiin liittyvien tilinpäätösten ja KPI:iden tuottamiseen
+## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-sales"></a>Financial Reportingin käyttö myyntiin liittyvien tilinpäätösten ja KPI:iden tuottamiseen
 
 **Financial Reporting** -ominaisuus antaa merkityksellisiä tietoja tilikartassa näkyvistä taloudellisesta tiedoista. Talousraportit voidaan määrittää analysoimaan kirjanpitotilien lukuja ja vertaamaan pääkirjanpidon tapahtumia budjettitapahtumiin. Erityisesti myynninhallintaa varten voidaan määrittää talousraportteja pääkirjanpidon (KP-) tileille, joita käytetään myynnin kirjausten seurantaan.
 
@@ -64,13 +64,13 @@ Dimensioilla on tärkeä tehtävä liiketoimintatiedoissa. Dimensio on tieto, jo
 
 Lisätietoja talousraporteista on kohdassa [Talousraporttien valmisteleminen taloustietojen ja tililuokkien avulla](bi-how-work-account-schedule.md).
 
-## Taloushallinnon raportointi ostoihin liittyvien liiketoimintayksiköiden tai yritysten välillä
+## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-sales"></a>Taloushallinnon raportointi ostoihin liittyvien liiketoimintayksiköiden tai yritysten välillä
 
 Jotkin organisaatiot käyttävät [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaa useassa liiketoimintayksikössä tai yrityksessä. Muut käyttävät [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaa tytäryhtiöissä, jotka raportoivat pääorganisaatioille. [!INCLUDE [prod_short](includes/prod_short.md)] antaa kirjanpitäjille työkalut, jotka auttavat heitä siirtämään pääkirjanpidon tapahtumia kahdesta tai useammasta yrityksestä (tytäryrityksistä) konsolidoituun yritykseen. Erityisesti myynninhallintaa varten pääkirjanpidon tapahtumat voidaan haluta konsolidoida myyntitilien osalta, jotta ostojen KPI:iä voitaisiin seurata liiketoimintayksiköissä tai oikeushenkilöissä.
 
 Lisätietoja on kohdassa [Yrityksen konsolidointi](finance-consolidated-company-reporting.md).
 
-## Myyntitietojen ad-hoc-analyysi
+## <a name="ad-hoc-analysis-of-sales-data"></a>Myyntitietojen ad-hoc-analyysi
 
 Joskus on tarkistettava nopeasti, täsmäävätkö luvut, tai vahvistettava luku. Seuraavat ominaisuudet sopivat erinomaisesti tapauskohtaisiin analyyseihin:
 
@@ -90,7 +90,7 @@ Vastaavasti **Avaa Excelissä** -toiminnolla voi avata luettelosivun, suodattaa 
 
 Lisätietoja myyntitietojen tapauskohtaisen analyysin tekemisestä on [myyntitietojen ad hoc -analyysissä](ad-hoc-analysis-sales.md). 
 
-## Valmiit myyntiraportit
+## <a name="built-in-reports-for-sales"></a>Valmiit myyntiraportit
 
 [!INCLUDE [prod_short](includes/prod_short.md)] sisältää useita sisäisiä raportteja, jäljitystoimintoja ja työkaluja, joiden avulla myyntiorganisaatiot voivat raportoida tiedoistaan.
 
@@ -105,7 +105,7 @@ Valmiita raportteja on kahdenlaisia:
 
 Jos haluat lisätietoja myynteihin liittyvistä raporteista, siirry kohtaan [Sisäiset myyntiraportit](sales-reports.md).
 
-## Myynnin analytiikka näytöllä
+## <a name="on-screen-sales-analytics"></a>Myynnin analytiikka näytöllä
 
 [!INCLUDE [prod_short](includes/prod_short.md)]issa on useita sivuja, joista saadaan myynnin yleiskatsauksia ja tehtäviä töitä. Seuraavassa on joitakin esimerkkejä, joilla voit aloittaa:
 
@@ -117,7 +117,7 @@ Jos haluat lisätietoja myynteihin liittyvistä raporteista, siirry kohtaan [Sis
 - [Laske myyntitilausten toimituspäivämäärät](sales-date-calculation-for-sales.md)
 - [Pakettien seuraaminen](sales-how-track-packages.md)
 
-### Näytä pääkirjanpidon myyntiin liittyvät tapahtumat ja saldot Tilikartta-sivulta
+### <a name="show-sales-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Näytä pääkirjanpidon myyntiin liittyvät tapahtumat ja saldot Tilikartta-sivulta
 
 Tilikartta-sivulla on näkyvissä kaikki kirjanpitotilit ja kootut luvut pääkirjanpitoon tehdyistä kirjauksista. Seuraavat ovat mahdollisia tällä sivulla:  
 
@@ -131,7 +131,7 @@ Erityisesti myyntejä varten Tilikartta-sivulla voidaan luoda näkymä, jossa n�
 
 Lisätietoja on kohdassa [Tilikartan ymmärtäminen](finance-general-ledger.md#the-chart-of-accounts).
 
-### Analysoi tiedot dimensioiden mukaan (liittyvät myynteihin)
+### <a name="analyze-data-by-dimensions-related-to-sales"></a>Analysoi tiedot dimensioiden mukaan (liittyvät myynteihin)
 
 Dimensiot ovat tapahtumia luokittelevia arvoja, jotta voit seurata ja analysoida tapahtumia asiakirjoissa, kuten myyntitilauksissa. Dimensioiden avulla voit esimerkiksi ilmaista, mistä projektista tai osastosta tapahtuma on lähtöisin.  
 
@@ -139,7 +139,7 @@ Sen sijaan että kullekin osastolle ja sijainnille määritettäisiin erilliset 
 
 Lue lisätietoja kohdasta [Analysoi tietoja dimensioiden mukaan](bi-how-analyze-data-dimension.md).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Yrityksen konsolidointi](finance-consolidated-company-reporting.md)   
 [Talousraporttien valmisteleminen taloustietojen ja tililuokkien avulla](bi-how-work-account-schedule.md)  
