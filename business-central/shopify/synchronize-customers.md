@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ---
 
-# Asiakkaiden ja yritysten synkronointi
+# <a name="synchronize-customers-and-companies"></a>Asiakkaiden ja yritysten synkronointi
 
 Kun tuot tilauksen Shopifysta, asiakkaan tietojen hankkiminen on olennaista asiakirjan käsittelemisessä [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa. On olemassa kaksi päävaihtoehtoa ja useita yhdistelmiä:
 
@@ -30,7 +30,7 @@ Asiakkaan vienti [!INCLUDE[prod_short](../includes/prod_short.md)]ista Shopifyhy
 * Asiakkaan vienti kuluttajakaupassa Shopify-asiakkaana.
 * Asiakkaan vienti yritys- ja asiakasparina yritystenvälisessä työnkulussa.
 
-## Tärkeät asetukset tuotaessa kuluttajakaupan asiakkaita Shopifysta
+## <a name="important-settings-when-importing-dtc-customers-from-shopify"></a>Tärkeät asetukset tuotaessa kuluttajakaupan asiakkaita Shopifysta
 
 Joko tuot asiakkaita Shopifysta joukkona tai yhdessä tilausten tuonnin kanssa käyttämällä seuraavia asetuksia, jotka mahdollistavat prosessin hallinnan:
 
@@ -42,7 +42,7 @@ Joko tuot asiakkaita Shopifysta joukkona tai yhdessä tilausten tuonnin kanssa k
 |**Luo tuntemattomat asiakkaat automaattisesti**| Valitse tämä kenttä, jos haluat, että yhdistin luo puutuvat asiakkaat, kun **asiakkaan yhdistämismäärityksen tyyppi** -kentässä on valittuna **sähköpostilla/puhelimella** tai **Laskutusasiakkaan tiedoilla**. Uusi asiakas luodaan käyttämällä tuotuja tietoja ja **asiakasmallin koodia**, joka on määritetty **Shopify-ostoskortti**- tai **Shopify-asiakasmalli**-sivuilla. Huomaa, että Shopify-asiakkaalla täytyy olla vähintään 1 osoite. Shopify-myyntipisteen kautta luoduista tilauksista puuttuvat usein osoitetiedot. Jos tämä asetus ei ole käytössä, asiakas on luotava manuaalisesti ja linkitettävä Shopify-asiakkaaseen.|
 |**Asiakas-/yritysmallin koodi**|Tätä kenttää käytetään yhdessä **Tuntemattomien asiakkaiden luominen automaattisesti** -toiminnon kanssa.</br></br> Valitse oletusmalli, jota käytetään automaattisesti luoduille asiakkaille. Varmista, että valitussa mallissa on pakolliset kentät, kuten **Yleinen liiketoiminnan kirjausryhmä**, **Asiakkaan kirjausryhmä**, arvonlisävero (ALV) tai veroihin liittyvät kentät.</br></br>Voit määrittää malleja kullekin maalle tai alueelle **Shopify-asiakasmallit** -sivulla, mikä auttaa laskemaan verot oikein.</br></br>Lisätietoja kohdassa [Verojen määrittäminen](setup-taxes.md).|
 
-### Asiakasmalli maata tai aluetta kohti
+### <a name="customer-template-per-countryregion"></a>Asiakasmalli maata tai aluetta kohti
 
 Jotkin asetukset voidaan määrittää maan tai alueen tasolla tai osavaltion/provinssin tasolla. Asetukset voidaan määrittää kohdassa [Toimitus-ja toimitus](https://www.shopify.com/admin/settings/shipping) Shopifyssa.
 
@@ -56,7 +56,7 @@ Voit tehdä seuraavan toimen kullekin asiakkaalle **Shopify-asiakasmallin** avul
 > [!NOTE]  
 > Maakoodit ovat ISO 3166-1 alpha-2-maakoodeja. Lisätietoja kohdassa [maakoodi](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
 
-## Tärkeät asetukset vietäessä kuluttajakaupan asiakkaita Shopifyhyn
+## <a name="important-settings-when-exporting-dtc-customers-to-shopify"></a>Tärkeät asetukset vietäessä kuluttajakaupan asiakkaita Shopifyhyn
 
 Voit viedä olemassa olevat asiakkaat Shopifyhin joukkona. Kussakin tapauksessa luodaan asiakas ja yksi oletusosoite. Voit hallita prosessia seuraavien asetusten avulla:
 
@@ -79,7 +79,7 @@ Seuraavat vaatimukset koskevat asiakkaan viemistä:
 
 Kun asiakkaat on luotu Shopifyssa, heille voidaan lähettää suoria kutsuja ja kannustaa näin heitä aktivoimaan tilinsä.
 
-### Asiakastietojen täyttäminen Shopifyssa
+### <a name="populate-customer-information-in-shopify"></a>Asiakastietojen täyttäminen Shopifyssa
 
 Shopifyssa asiakkaalla on etunimi, sukunimi, sähköpostiosoite ja/tai puhelinnumero. Etunimen ja sukunimen voi syöttää [!INCLUDE[prod_short](../includes/prod_short.md)]in asiakaskortista.
 
@@ -98,9 +98,9 @@ Asiakkaalla on Shopifyssa myös oletusosoite. Osoite voi myös sisältää yrity
 
 Valitse osoitteissa, joissa käytetään lääniä tai provinssia, valitsemalla **Koodi** tai **Nimi** -ostoskortin **Läänin lähde**-kentässä **Shopify-ostoskortissa**. Tämä koodi määrittää **Lääni**-kentän [!INCLUDE[prod_short](../includes/prod_short.md)]iin tallennettavien tietojen tyypin. Muista alustaa asiakasmalleja maittain tai alueittain niin, että läänin koodi/nimi-kartoitus on valmis. 
 
-## Kuluttajakaupan asiakkaiden vienti Shopifyhyn
+## <a name="export-dtc-customers-to-shopify"></a>Kuluttajakaupan asiakkaiden vienti Shopifyhyn
 
-### Asiakkaiden ensimmäinen synkronointi Business Centralista Shopifyhyn
+### <a name="initial-sync-of-customers-from-business-central-to-shopify"></a>Asiakkaiden ensimmäinen synkronointi Business Centralista Shopifyhyn
 
 1. Siirry hakuun ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Shopify-asiakkaat** ja valitse vastaava linkki.
 2. Valitse **Lisää asiakas** -toiminto.
@@ -113,7 +113,7 @@ Tuloksena olevat asiakkaat osoitteineen luodaan Shopifyssa automaattisesti.
 > [!NOTE]  
 > Asiakkaiden ensimmäinen synkronointi [!INCLUDE[prod_short](../includes/prod_short.md)]ista Shopifyhyn ei ota huomioon **Voi päivittää Shopify -asiakkaita** -asetuksia.
 
-### Synkronoi asiakkaat
+### <a name="sync-customers"></a>Synkronoi asiakkaat
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeeseen, syötä **Shopify-myymälä** ja valitse sitten vastaava linkki.
 2. Valitse määrättykauppa, jolle haluat synkronoida asiakkaat.
@@ -123,11 +123,11 @@ Vaihtoehtoisesti voit käyttää **Käynnistä asiakkaan synkronointi** - toimin
 
 Voit ajoittaa tehtävän suoritettavaksi automaattisesti. Lisätietoja on kohdassa [Toistuvien tehtävien ajoittaminen](background.md#to-schedule-recurring-tasks).
 
-## Yritystenväliset yritykset
+## <a name="b2b-companies"></a>Yritystenväliset yritykset
 
 Jos yritystenvälistä kauppaa käytetään Shopifyssa, asiakkaiden lisäksi voidaan luoda myös yrityksiä. Yksi tai usea yksittäinen asiakas voidaan linkittää yritykseen. Lisäksi voidaan määrittää maksuehdot, sijainnit ja luettelot.
 
-## Tärkeät asetukset tuotaessa yritystenvälisiä yrityksiä Shopifysta
+## <a name="important-settings-when-importing-b2b-companies-from-shopify"></a>Tärkeät asetukset tuotaessa yritystenvälisiä yrityksiä Shopifysta
 
 Riippumatta siitä, tuodaanko yritykset Shopifysta joukkotuontina tai tilauksia tuotaessa, prosessi hallitaan seuraavan taulukon asetusten avulla.
 
@@ -144,7 +144,7 @@ Riippumatta siitä, tuodaanko yritykset Shopifysta joukkotuontina tai tilauksia 
 > Vain vanhin sijainti tuodaan.
 > Vain pääyhteyshenkilö tuodaan.
 
-## Tärkeät asetukset tuotaessa yritystenvälisiä yrityksiä Shopifyhyn
+## <a name="important-settings-when-exporting-b2b-companies-to-shopify"></a>Tärkeät asetukset tuotaessa yritystenvälisiä yrityksiä Shopifyhyn
 
 Aiemmin luodut asiakkaat voidaan joukkoviedä Shopifyhyn yrityksenä. Kussakin tapauksessa yritys ja yksi oletussijainti luodaan samoin kuin yksi pääyhteyshenkilö. Myös luettelo voidaan luoda.
 
@@ -154,9 +154,9 @@ Aiemmin luodut asiakkaat voidaan joukkoviedä Shopifyhyn yrityksenä. Kussakin t
 |**Oletuskontaktin käyttöoikeus**| Määritä, mitkä käyttöoikeudet on määritettävä pääyhteyshenkilölle. Valittavana on **Ei mitään**, **Vain tilaus** ja **Sijainnin hallinta**.|
 |**Luo luettelo automaattisesti**| Ota tämä vaihtoehto käyttöön, jos halutaan luoda kaikki tuotteet sisältävä luettelo. Luettelo luodaan kullekin tuodulle yritykselle.|
 
-## Yritystenvälisen yrityksen vienti Shopifyhyn
+## <a name="export-a-b2b-company-to-shopify"></a>Yritystenvälisen yrityksen vienti Shopifyhyn
 
-### Yritystenvälisten yritysten ensimmäinen synkronointi Business Centralista Shopifyhyn
+### <a name="initial-sync-of-b2b-companies-from-business-central-to-shopify"></a>Yritystenvälisten yritysten ensimmäinen synkronointi Business Centralista Shopifyhyn
 
 1. Siirry hakuun ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Shopify-yritys** ja valitse liittyvä linkki.
 2. Valitse **Lisää yritys** -toiminto.
@@ -169,7 +169,7 @@ Tuloksena oleva yritys ja asiakkaat luodaan automaattisesti Shopifyssa.
 > [!NOTE]  
 > Yritysten ensimmäinen synkronointi [!INCLUDE[prod_short](../includes/prod_short.md)]ista Shopifyhyn ei ota huomioon **Voi päivittää Shopify-yrityksen** -asetuksia.
 
-### Yritystenvälisen yrityksen synkronointi
+### <a name="sync-b2b-company"></a>Yritystenvälisen yrityksen synkronointi
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeeseen, syötä **Shopify-myymälä** ja valitse sitten vastaava linkki.
 2. Valitse määrättykauppa, jolle haluat synkronoida asiakkaat.
@@ -179,6 +179,6 @@ Vaihtoehtoisesti voidaan käyttää **Aloita yrityksen synkronointi** -toiminto 
 
 Tehtävä voidaan ajoittaa suoritettavaksi automaattisesti. Lisätietoja on kohdassa [Toistuvien tehtävien ajoittaminen](background.md#to-schedule-recurring-tasks).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Shopifyn yhdistimen käytön aloittaminen](get-started.md)  
