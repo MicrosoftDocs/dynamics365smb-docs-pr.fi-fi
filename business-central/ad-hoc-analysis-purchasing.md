@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-analyses-in-purchasing"></a>Ad-hoc-analyysit ostamisessa
+# Ad-hoc-analyysit ostamisessa
 
 Tässä artikkelissa kerrotaan, kuinka voit analysoida ostotietoja luettelosivuilta ja kyselyistä **Tietojen analysointi** -ominaisuuden avulla. Ominaisuuden avulla voit analysoida tietoja suoraan sivulta ilman, että sinun tarvitsee ajaa raporttia tai avata muuta sovellusta, kuten Exceliä. Tietojen analysointi mahdollistaa vuorovaikutteisen ja monipuolisen tavan laskea, tiivistää ja tarkastella tietoja. Sen sijaan, että raportteja suoritetaan vaihtoehdoilla ja suodattimilla, voit lisätä useita välilehtiä, jotka edustavat erilaisia tehtäviä tai näkymiä tiedoista. Esimerkkejä ovat "Toimittajani", "Ostotilastot", tai mikä tahansa muu näkymä, jonka voit kuvitella. Lisätietoja **Tietojen analysointi** -ominaisuuden käytöstä on kohdassa [analyysitilassa olevien luettelo- ja kyselytietojen analysointi](analysis-mode.md).
 
@@ -24,7 +24,7 @@ Käytä seuraavia luettelosivuja ostoprosessien tapauskohtaiseen analysointiin:
 - [Toimittajatapahtumat](https://businesscentral.dynamics.com/?page=29)
 - [Pääkirjanpidon tapahtumat](https://businesscentral.dynamics.com/?page=20)
 
-## <a name="ad-hoc-analysis-scenarios-for-purchasing"></a>Ostamisen ad-hoc-analyysiskenaariot
+## Ostamisen ad-hoc-analyysiskenaariot
 
 **Tietojen analysointi** -toiminnon avulla voit tarkistaa tiedot nopeasti ja tehdä tapauskohtaisia analyysejä seuraavasti:
 
@@ -39,7 +39,7 @@ Seuraavissa osissa on esimerkkejä ostoskenaarioista [!INCLUDE [prod_short](incl
 | [GRNI – yleiskatsaus](#example-goods-received-not-invoiced-grni-overview) | Hae vastaanotettujen tavaroiden, ei laskutettujen tavaroiden (GRNI) yleiskuvaus toimittajilta. | **Tyyppi**, **Summan laskut. ei laskutettu (PVA)** (suodatin näissä kentissä), **Toimittajan nro**, **Asiakirjan nro**, **Nro** ja **Summan laskut. ei laskutettu (PVA)** <br> **HUOMAA:** Jos haluat näyttää kentät, sivua on mukautettava. Lue lisää kohdasta [Työtilan mukauttaminen](ui-personalization-user.md). | 
 | [Raha-asiat (Ostovelat)](#example-finance-accounts-payable) | Katso, mitä olet velkaa toimittajillesi, jaoteltuina aikaväleihin summien erääntymisen osalta. | [Toimittajatapahtumat](https://businesscentral.dynamics.com/?page=29) | **Toimittajan nimi**, **Asiakirjatyyppi**, **Asiakirjan nro**, **Eräpäivä vuosi**, **Eräpäivä kuukausi** ja **Jäljellä oleva summa**. |
 
-## <a name="example-goods-received-not-invoiced-grni-overview"></a>Esimerkki: Tavarat vastaanotettu, Ei laskutettu (GRNI) -yleiskuvaus
+## Esimerkki: Tavarat vastaanotettu, Ei laskutettu (GRNI) -yleiskuvaus
 
 Voit luoda Tavarat vastaanotettu, ei laskut. (GRNI) -yleiskuvan toimittajista noudattamalla seuraavia vaiheita:
  
@@ -55,7 +55,7 @@ Voit luoda Tavarat vastaanotettu, ei laskut. (GRNI) -yleiskuvan toimittajista no
 1. Jos haluat tehdä analyysin tietyltä vuodelta tai vuosineljännekseltä, käytä suodatinta **Lisäsuodattimet**-valikossa. Valikko on sivun oikealla puolella, **sarakkeet**-valikon alapuolella.
 1. Nimeä analyysivälilehden nimeksi uudelleen **tavarat vastaanotettu, ei laskutettu (GRNI)** tai tuotteiksi, jotka kuvaavat analyysiä puolestasi.
 
-## <a name="example-finance-accounts-payable"></a>Esimerkki: Raha-asiat (Ostovelat)
+## Esimerkki: Raha-asiat (Ostovelat)
 
 Seuraa näitä vaiheita nähdäksesi, mitä olet velkaa toimittajillesi, jaoteltuina aikaväleihin summien erääntymisen osalta:
 
@@ -71,7 +71,7 @@ Seuraavassa kuvassa on näiden työvaiheiden tulokset.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Esimerkki tietojen analysoinnista asiakastapahtumien sivulla" lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
-## <a name="data-foundation-for-ad-hoc-analysis-on-purchasing"></a>Ostamisen ad-hoc-analyysin tietopohja
+## Ostamisen ad-hoc-analyysin tietopohja
 
 Kun kirjaat ostoasiakirjan [!INCLUDE [prod_short](includes/prod_short.md)] päivittää toimittajan tilin, pääkirjanpidon (KP), nimiketapahtumat ja resurssitapahtumat:
 
@@ -84,7 +84,7 @@ Kun kirjaat ostoasiakirjan [!INCLUDE [prod_short](includes/prod_short.md)] päiv
 
 Lisätietoja on kohdassa [Ostojen kirjaaminen](purchasing-how-record-purchases.md#posting-purchases).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Ostojen kirjaaminen](purchasing-how-record-purchases.md#posting-purchases)  
 [Luettelo- ja kyselytietojen analysoiminen analyysitilassa](analysis-mode.md)  
