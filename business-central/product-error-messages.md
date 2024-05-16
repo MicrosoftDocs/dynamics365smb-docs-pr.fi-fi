@@ -9,29 +9,29 @@ ms.date: 03/08/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-temeplate
 ---
-# <a name="warnings-and-error-messages"></a>Varoitukset ja virhesanomat
+# Varoitukset ja virhesanomat
 
 Työpäivän aikana voi näkyä ilmoituksia [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa esimerkiksi siitä, että jotain on mennyt pieleen tai että jotain ei voitu kirjata. Ilmoituksen avulla on usein helppo ratkaista asia tai peruuttaa tekemäsi muutokset. Muissa tapauksissa sinulla ei ehkä ole tietoja, joita tarvitset ratkaistaksesi asian. Tässä artikkelissa on vihjeitä siitä, miten voit onnistua.  
 
-## <a name="in-product-user-assistance"></a>Tuotteen sisäinen käyttäjätuki
+## Tuotteen sisäinen käyttäjätuki
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman oletusversio sisältää useimpien kenttien, sarakkeiden ja toimintojen kuvaukset, joita voi käyttää, kun valitset nimen. Yhdessä tärkeiden sivujen, kuvailevien kuvatekstien ja ohjetekstien opastusvihjeiden kanssa nämä työkaluvihjeet tai kuvatekstit ovat nykyinen *upotetun käyttäjätuen* toteutus, mikä on tärkeä periaate nykyisessä ohjelmistosuunnittelussa.  
 
-Jos sinulla on kysyttävää jostakin kentästä tai käyttöliittymän jostakin muusta osasta, valitse nimi ja lyhyt kuvaus tulee näkyviin. Valitse *Kysy Copilotilta* -linkki, jos se ei riitä. Voit myös etsiä vastauksia kysymyksiisi tuotteen sisäisestä ohjeruudusta.  
+Jos sinulla on kysyttävää jostakin kentästä tai käyttöliittymän jostakin muusta osasta, valitse nimi lukeaksesi lyhyen kuvauksen. Valitse **Kysy Copilotilta** -linkki, jos se ei riitä. Voit myös etsiä vastauksia kysymyksiisi tuotteen sisäisestä ohjeruudusta.  
 
 Saadaksesi lisätietoja, katso [Dynamics 365 Business Central -käyttäjäapumalli](/dynamics365/business-central/dev-itpro/user-assistance)n hallinnon sisällössä [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmalle.  
 
-## <a name="help-and-support-page"></a>Ohje- ja tukisivu
+## Ohje- ja tukisivu
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in Ohje-valikosta (kysymysmerkki oikeassa yläkulmassa) pääsee **Ohje ja tuki** -sivulle. Siellä on linkkejä resursseihin, jotka auttavat löytämään vastauksia kysymyksiin. Lisätietoja on kohdassa [Resurssit ohjeelle ja tuelle](product-help-and-support.md).  
 
-## <a name="help-others"></a>Auta muita
+## Auta muita
 
 Jos olet järjestelmänvalvoja tai pääkäyttäjä, voit auttaa muita käyttäjiä etsimällä virhesanomia **Virhesanomien rekisteröinti**- tai Hallintokeskus -sivuilta. Monissa tapauksissa varoitus- tai virhesanomassa on kyse asennuksesta tai puutteellisista oikeuksista ja samankaltaisissa kysymyksissä, joissa pääkäyttäjä tai järjestelmänvalvoja voi helposti auttaa. Muissa tapauksissa saatat joutua tarkastamaan sivut syyn selvittämiseksi. Lisätietoja on kohdassa [Teknisten tietojen etsiminen](/dynamics365/business-central/dev-itpro/administration/manage-technical-support#finding-technical-information) [!INCLUDE [prod_short](includes/prod_short.md)] -hallintasisällöstä.  
 
-## <a name="share-error-details-for-faster-assistance"></a>Avun saannin nopeuttaminen virhetietoja jakamalla
+## Avun saannin nopeuttaminen virhetietoja jakamalla
 
-Ongelmien ratkaiseminen ja käyttökatkosten minimointi hyödyntämällä työtovereiden ja aihealueen asiantuntijoiden osaamista. Jos virhe estää jatkamisen, virheen tiedot on helppo jakaa, kun apua saadaan. 
+Ongelmien ratkaiseminen ja käyttökatkosten minimointi hyödyntämällä työtovereiden ja aihealueen asiantuntijoiden osaamista. Jos virhe estää jatkamisen, virheen tiedot on helppo jakaa, kun apua saadaan.
 
 Näitä tietoja ovat esimerkiksi virhesanoma, virhekoodi ja muut tiedot, joista on apua virheen vianmäärityksessä. Jakamalla virheen tiedot voidaan viestittää tehokkaasti esillä oleva ongelma, mikä auttaa työtovereita antamaan apua.  
 
@@ -47,22 +47,26 @@ Vaihtoehtoisesti voi jakaa tiedot sähköpostitse valitsemalla **Jaa tiedot säh
 * Kopioi virheen tiedot.
 * Avaa oletussähköpostiohjelma, jossa kopioidut virheen tiedot liitetään ja määritetään, keneltä halutaan pyytää apua. [!INCLUDE [prod_short](includes/prod_short.md)] lisää linkin sivulle, jossa ongelma esiintyi.
 
-## <a name="help-yourself"></a>Omaehtoinen apu
+## Omaehtoinen apu
 
-Ympäristövirheiden ymmärtämistä, niihin siirtymistä ja niiden ratkaisemista on helpotettu.
+Virhesanomat sisältävät tietoja ja toimintoja, jotka helpottavat alustalta peräisin olevien virheiden ymmärtämistä, käyttöä ja ratkaisemista.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -ympäristön luomissa virhesanomissa on kaikki tekniset tiedot, mukaan lukien kenttien nimet, **Eritelty virhesanoma** -osassa. Valitse tarkistusvirheissä tai virhesanomissa **Kopioi tiedot** -kuvake, sillä näin saadaan tekniset tiedot.
 
-Virhesanomien toiminnot vievät suoraan sivulle, jossa kenttä aiheuttaa virheen. Sivun tai kentän etsimiseen ei siis kulu aikaa. Kun virhesanomassa valitaan toiminto, [!INCLUDE [prod_short](includes/prod_short.md)] siirtää oikeaan sijaintiin ratkaisemaan virheen.
+Virhesanomien toiminnot vievät suoraan sivulle, jossa kenttä aiheuttaa virheen. Sivun tai kentän etsimiseen ei siis kulu aikaa. Ratkaise virhe valitsemalla toiminto virheviestissä ja [!INCLUDE [prod_short](includes/prod_short.md)] siirtää sinut oikeaan sijaintiin ratkaisemaan virheen.
 
-### <a name="tip-for-developers"></a>Vinkki kehittäjille
+Seuraavassa videossa kuvataan, miten voidaan käyttää toteutettavissa olevia virhesanomia, kun niitä ei avata.
 
-Jos kehittäjä kutsuu [TestField](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-testfield-joker-joker-errorinfo-method)-menetelmää eikä ErrorInfo-objektia siirretä, [!INCLUDE [prod_short](includes/prod_short.md)] luo automaattisesti linkin sivulle, jossa käyttäjä voi korjata ongelman. [!INCLUDE [prod_short](includes/prod_short.md)] hakee ensin tietueen haku- tai porautumissivun ja etsii sitten kortti- tai hakusivun sekä lisää navigointilinkin kyseiselle korttisivulle. [!INCLUDE [prod_short](includes/prod_short.md)] ei lisää linkkiä seuraavissa tilanteissa:
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1l2sM]
+
+### Vinkki kehittäjille
+
+Jos kehittäjä kutsuu [TestField](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-testfield-joker-joker-errorinfo-method)-menetelmää eikä |`ErrorInfo`-objektia siirretä, [!INCLUDE [prod_short](includes/prod_short.md)] luo automaattisesti linkin sivulle, jossa käyttäjä voi korjata ongelman. [!INCLUDE [prod_short](includes/prod_short.md)] hakee ensin tietueen haku- tai porautumissivun ja etsii sitten kortti- tai hakusivun sekä lisää navigointilinkin kyseiselle korttisivulle. [!INCLUDE [prod_short](includes/prod_short.md)] ei lisää linkkiä seuraavissa tilanteissa:
 
 * Virhe on avoimena olevalla sivulla.
 * Käyttäjällä ei ole taustatietueen muokkausoikeutta.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Ohje- ja tukiresurssit](product-help-and-support.md)  
 [Usein kysytyt kysymykset](across-faq.yml)  

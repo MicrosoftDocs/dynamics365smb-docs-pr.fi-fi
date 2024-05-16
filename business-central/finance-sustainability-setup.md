@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD'
 ms.search.form: null
-ms.date: 04/02/2024
+ms.date: 04/24/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-setup"></a>Kestävyysmääritys
+# Kestävyysmääritys  
 
 Jotta kestävyys-moduuli toimisi oikein, on ensin määritettävä perusohjausobjekteja ja -ohjeita, jotka liittyvät kokonaistoimintoihin.  
 
@@ -28,6 +28,10 @@ Määritä kestävyysmoduuli noudattamalla seuraavia vaiheita:
 | **Vastuupaikka pakollinen** | Määrittää, onko vastuupaikka pakollinen, koska vastuupaikkaa voidaan käyttää laitoskohtaisten päästöjen mittauksen toimintona. Voit käyttää tätä kenttää kirjauskansioissa määrittämättä tätä, mutta voit valita sen, jos haluat valvoa käyttäjien täyttävän kentän ennen kirjausta. |
 | **Estä laskentaperusteen muutos, jos tapahtumakirjauksia on olemassa** | Määrittää, onko laskentaperusteen muutos Tilikategoriassa suljettu kestävyystapahtuman yhteydessä, mikä tarkoittaa, että tämä laskukaava on jo kohdistettu. |
 | **Ota käyttöön taustavirheen tarkistus** | Määrittää, onko vastuullisuuspäiväkirjan rivien taustavirheen tarkistus käytössä. |
+
+> [!NOTE]
+> Kun olet ottaa **taustavirhetarkistuksen** käyttöön päiväkirjoissa tai poista sen käytöstä, kirjaudu uudelleen sisään ennen uusien asetusten aloittamista.
+ 
 
 3.  Määritä **Laskennat**-pikavälilehdessä pakolliset kentät, jotka liittyvät päästöjen laskennassa käytettyihin kaavoihin:  
 
@@ -49,12 +53,12 @@ Määritä kestävyysmoduuli noudattamalla seuraavia vaiheita:
 >[!NOTE]
 > Versiossa 24.0 [!INCLUDE[prod_short](includes/prod_short.md)] ei tue raportointia millekään viranomaiselle. **Raportointi**-pikavälilehden määrittämiseen liittyvää kenttää käytetään siis tulevia raportointiominaisuuksia varten, mutta kumppanit voivat käyttää sitä myös lokalisoiduissa versioissa.
 
-## <a name="see-also"></a>Katso myös
-[Rahoitus](finance.md)    
-[Vastuullisuuden hallinnan yleiskuvaus](finance-manage-sustainability.md)
-[Vastuullisuustilien ja -kirjauksenkaavio](finance-sustainability-accounts-ledger.md)
-[Päästöjen tallennus](finance-sustainability-journal.md)
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman toiminta](ui-work-product.md)
+## Katso myös  
+[Taloushallinto](finance.md)  
+[Kestävän kehityksen hallinnan yleiskatsaus](finance-manage-sustainability.md)    
+[Kestävyystilien tilikartta ja kirjanpito](finance-sustainability-accounts-ledger.md)    
+[Toimintaohje: päästöjen kirjaus](finance-sustainability-journal.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

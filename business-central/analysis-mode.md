@@ -14,22 +14,22 @@ ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144,
 
 > **KOHDISTETAAN:** Business Central 2023 -julkaisuaallon 1 ja sitä uudemman julkinen esikatselu luettelosivujen analysointia varten; Yleisesti käytettävissä Business Central 2023 -julkaisuaallossa 2, kun haluat analysoida luettelosivujen ja kyselyjen tietoja.
 
-Tässä artikkelissa opit analysoimaan tietoja luettelosivuilta ja kyselyistä *tietojen analysointi* -ominaisuuden avulla. Tietojen analysointiominaisuuden avulla voit analysoida tietoja suoraan sivulta ilman, että sinun tarvitsee ajaa raporttia tai vaihtaa muuhun sovellukseen, kuten Exceliin. Se tarjoaa vuorovaikutteisen ja monipuolisen tavan laskea, tiivistää ja tarkastella tietoja. Sen sijaan, että raportteja suoritetaan eri vaihtoehdoilla ja suodattimilla, voit lisätä useita välilehtiä, jotka edustavat erilaisia tehtäviä tai näkymiä tiedoista. Esimerkkejä voivat olla Omat asiakkaat, Seurantanimikkeet, Äskettäin lisätyt toimittajat, Myyntitilastot tai mikä tahansa muu näkymä, jonka voi kuvitella.
+Tässä artikkelissa kerrotaan, miten luettelosivujen ja kyselyiden tietojen analysointiominaisuutta käytetään. Tietoanalyysin avulla voit analysoida tietoja suoraan sivulta ilman, että sinun tarvitsee ajaa raporttia tai avata muuta sovellusta, kuten Exceliä. Ominaisuus tarjoaa vuorovaikutteisen ja monipuolisen tavan laskea, tiivistää ja tarkastella tietoja. Sen sijaan, että raportteja suoritetaan eri vaihtoehdoilla ja suodattimilla, voit lisätä useita välilehtiä, jotka edustavat erilaisia tehtäviä tai näkymiä tiedoista. Muutamia esimerkkejä ovat Omat asiakkaat, Seurantanimikkeet, Äskettäin lisätyt toimittajat, Myyntitilastot tai mikä tahansa muu näkymä, jonka voi kuvitella.
 
 > [!TIP]
-> Tietojen analysointiominaisuudessa on se hyvä puoli, että se ei muuta luettelosivun tai kyselyn taustatietoja tai sivun asettelua, kun se ei ole analysointitilassa. Joten paras tapa oppia, mitä voit tehdä analysointitilassa on kokeilla asioita.
+> Hyvä asia tietojen analysointiominaisuudessa on se, että se ei muuta luettelosivun tai kyselyn taustalla olevia tietoja. Se ei myöskään muuta sivun tai kyselyn asettelua silloin, kun se ei ole analyysitilassa. Joten paras tapa oppia, mitä voit tehdä analysointitilassa on kokeilla asioita.
 
-## Vaatimukset 
+## Vaatimukset
 
-- Jos käytössä on Business Centralin versio 22, tietojen analysointiominaisuus on esiversio. Järjestelmänvalvojan on siis otettava se käyttöön, ennen kuin sitä voi alkaa käyttää. Voit ottaa sen käyttöön siirtymällä **Ominaisuuksien hallinta** -sivulle ja ottamalla käyttöön **Ominaisuuden päivitys: analyysitila, analysoi tiedot nopeasti suoraan Business Centralin avulla**. [Lue lisää kohdasta Ominaisuuksien hallinta](/dynamics365/business-central/dev-itpro/administration/feature-management).
+- Jos käytössä on [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman versio 22, tietojen analysointiominaisuus on esiversio. Järjestelmänvalvojan on siis otettava se käyttöön, ennen kuin sitä voi alkaa käyttää. Voit ottaa sen käyttöön siirtymällä **Ominaisuuksien hallinta** -sivulle ja ottamalla käyttöön **Ominaisuuden päivitys: analyysitila, analysoi tiedot nopeasti suoraan Business Centralin avulla**. [Lue lisää kohdasta Ominaisuuksien hallinta](/dynamics365/business-central/dev-itpro/administration/feature-management).
 - Versiossa 23 ja sitä uudemmissa versioissa tilillesi on määritettävä **DATA ANALYSIS - EXEC** -käyttöoikeuksien joukko tai sisällytettävä järjestelmän objektin **9640 Salli tietojen analysointitila** -suoritusoikeus. Järjestelmänvalvojana voit jättää nämä käyttöoikeudet pois käyttäjiltä, jotka eivät halua käyttää analyysitilaa.
 
 > [!NOTE]
-> Saatat huomata joitakin luettelosivuja, joissa ei ole **Syötä analyysitila** -valitsinta, jotta siirrytään analyysitilaan. Tämän vuoksi kehittäjät voivat poistaa tiettyjen sivujen analyysitilan käytöstä AL-taulukon [AnalysisModeEnabled-ominaisuuden](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) avulla.
+> Jotkin luettelosivut, jotka eivät tarjoa **Siirry analyysitilaan** -valintaa, voivat ottaa analyysitilan käyttöön. Tämän vuoksi kehittäjät voivat poistaa tiettyjen sivujen analyysitilan käytöstä AL-taulukon [AnalysisModeEnabled-ominaisuuden](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) avulla.
 
 ## Aloittaminen
 
-Suorittamalla nämä vaiheet voidaan aloittaa tietojen analysointi analyysitilassa.
+Seuraa näitä vaiheita aloittaaksesi analyysitilan käytön.:
 
 >[!TIP]
 > Analyysitila sisältää myös *analyysiavustaja*-nimisen Copilot-ominaisuuden, joka voi auttaa alkuun. [Lisätietoja Copilotin analyysiavustajasta](analysis-assist.md).
@@ -70,9 +70,9 @@ Tietoalue näyttää luettelosivun kyselyn rivit ja sarakkeet, ja tiedoista tehd
 
 - Jos haluat siirtää sarakkeen, valitse se ja vedä se analyysisi kannalta järkevimpään paikkaan.
 - Lajittele sarakkeessa valitsemalla sarakkeen otsikko. Jos haluat lajitella useita sarakkeita, pidä <kbd>Vaihto</kbd>-näppäintä painettuna samalla, kun valitset sarakeotsikot, joiden mukaan haluat lajitella.
-- Napsauta saraketta hiiren kakkospainikkeella tai siirrä osoitin sen päälle ja valitse valikkokuvake ![Näyttää analyysitilassa sarakkeen kuvakkeen, joka avaa toimintojen valikon](media/analysis-mode-column-menu-icon.png) käyttääksesi useita toimintoja, joita voit tehdä sarakkeissa. Esimerkiksi:
+- Voit käyttää useita sarakkeissa tehtäviä toimintoja napsauttamalla saraketta hiiren kakkospainikkeella tai viemällä hiiren sen päälle ja valitsemalla valikkokuvakkeen ![Näyttää analyysitilassa sarakkeen kuvakkeen, joka avaa toimintojen valikon](media/analysis-mode-column-menu-icon.png). Esimerkki:
 
-  - Jos haluat kiinnittää sarakkeen tietoalueen vasempaan tai oikeaan reunaan niin, että se ei siirry pois näytöstä vieritettäessä, valitse ![Näyttää kuvakkeen sarakkeessa analysointitilassa, joka avaa toimintojen valikon](media/analysis-mode-column-menu-icon.png) > **PIN-koodin sarake** > **PIN-koodi vasen** -sarakkeen osa.
+  - Jos haluat kiinnittää sarakkeen tietoalueeseen niin, että se ei siirry pois näytöstä vieritettäessä, valitse ![Näyttää kuvakkeen sarakkeessa analysointitilassa, joka avaa toimintojen valikon](media/analysis-mode-column-menu-icon.png) > **PIN-koodin sarake** > **PIN-koodi vasen** -sarakkeen osa.
   - Määritä tietosuodattimet suoraan sarakemääritykseen **analyysisuodattimet**-ruutujen sijaan. Voit vielä tarkastella tietoja asiaan liittyvistä tiedoista ja kustakin rivistä sekä avata kortin ja lukea lisätietoja tietystä kohteesta.
 - Käytä tietoaluetta tietojen vuorovaikutukseen. Sarakkeissa, jotka sisältävät numeerisia arvoja, voit saada kuvaavia tilastoja kenttäjoukosta merkitsemällä ne. Tilastotiedot näkyvät sivun alaosassa tilarivillä (2).
 - Vie tiedot Excel- tai csv-muodossa. Napsauta hiiren kakkospainikkeella tietoaluetta tai valittua solua, johon vienti tehdään.
@@ -104,7 +104,7 @@ Seuraavassa taulukossa kuvataan kokonaissummat-alueessa näkyvät numerot:
 
 |Alueet|Kuvaus|
 |-|-|
-|Etsi/tarkista tai tyhjennä kaikki ruudut|Hae sarakkeita. Merkitse valintaruutu valitaksesi/tyhjentääksesi kaikki sarakkeet.|
+|Etsi/tarkista tai tyhjennä kaikki ruudut|Hae sarakkeita. Valitse valintaruutu valitaksesi/tyhjentääksesi kaikki sarakkeet.|
 |Valintaruudut|Tämä alue sisältää jokaisen luettelon tai kyselyn lähdetaulukon kentän valintaruudun. Tämän alueen avulla voit muuttaa näkyvät sarakkeet. Valitse valintaruutu, jos haluat näyttää sivun kentän sarakkeen. Piilota sarake poistamalla valintaruudun valinta. |
 |Riviryhmät|Tämän alueen avulla voit ryhmitellä ja laskea yhteen tai useampaan kenttään tietoja. Voit sisällyttää vain muita kuin numeerisia kenttiä, kuten tekstiä, päivämäärä- ja kellonaikakenttiä. Riviryhmiä käytetään usein pivot-tilassa.|
 |Arvot|Tämän alueen avulla voit määrittää kentät, joille haluat laskea summan. Voit sisällyttää vain sellaiset kentät, jotka sisältävät numeroita, jotka voidaan laskea yhteen. Esimerkiksi ei teksti-, päivä määrä- tai kellonaikakenttä.|
@@ -132,11 +132,11 @@ Tässä on joitain vinkkejä useiden analyysivälilehtien käyttämiseen:
    - **Delete** poistaa avoinna olevan välilehden. **Poista kaikki** poistaa kaikki lisäämäsi välilehdet, paitsi oletusvälilehden **Analyysi 1**.
 - Et voi poistaa **Analyysi 1**:tä kokonaan, mutta voit nimetä sen uudelleen käyttämällä **Nimeä uudelleen** -toimintoa ja poistamalla tekemäsi muutokset **Poista**- tai **Poista kaikki** -toiminnolla.  
 
-- Lisäämäsi ja määrittämäsi analyysivälilehdet säilyvät, kunnes poistat ne. Joten jos palaat analysointitilaan uudelleen, näet ne juuri sellaisina kuin ne jätit.
+- Lisäämäsi ja määrittämäsi analyysivälilehdet säilyvät, kunnes poistat ne. Jos palaat analysointitilaan uudelleen, ne ovat juuri sellaisia kuin ne jätit.
 
    > [!TIP]
    > Määrittämäsi välilehdet näkyvät vain sinulle. Muut käyttäjät näkevät vain määrittämäsi välilehdet.
-- Voit kopioida analyysivälilehtiä. Kopioiminen voi olla hyödyllistä, jos haluat kokeilla välilehden muuttamista alkuperäistä muuttamatta tai jos haluat luoda eri muunnelmia samasta analyysista.
+- Voit kopioida analyysivälilehtiä. Kopioiminen voi olla hyödyllistä esimerkiksi, kun kokeillaan välilehteä muuttamatta alkuperäistä. Kopioiminen on hyödyllistä myös silloin, kun haluat luoda erilaisia vaihtoehtoja samasta analyysistä.
 
 ## Päivämäärähierarkiat
 
@@ -179,7 +179,7 @@ Jos analysoitava tietojoukko ylittää 100 000 riviä, ehdotetaan, että syötä
    - aikavyöhykkeet
 - Kentillä, joita käytetään pivot-tilassa ja jotka lisätään sarakeotsikoihin, on oltava pieni määrä erillisiä arvoja.
 
-   Jos otat pivot-tilan käyttöön ja vedät kentän **Sarakeotsikot**-alueelle, jolla kentän taustalla olleilla tiedoilla on liian monta eri arvoa, selainvälilehti ei ehkä vastaa ja sulkeutuu lopulta, jolloin aloitat alusta uudessa istunnossa. Tällöin älä käännä kenttää tai aseta suodatinta kenttään ennen kuin lisäät sen **Sarakeotsikot**-alueeseen.
+   Jos otat pivot-tilan käyttöön ja vedät kentän **Sarakeotsikot**-alueelle, jolla kentän taustalla olleilla tiedoilla on liian monta eri arvoa, selainvälilehti ei ehkä vastaa ja sulkeutuu. Selain sulkeutuu lopulta, mikä edellyttää, että aloitat alusta uudessa istunnossa. Tällöin älä käännä kenttää tai aseta suodatinta kenttään ennen kuin lisäät sen **Sarakeotsikot**-alueeseen.
 
 ## Jaa data-analyysi
 
@@ -196,56 +196,36 @@ Kun olet tehnyt analyysin välilehdessä, voit jakaa sen linkkinä työtoverien 
    ![Näyttää analyysivälilehden kopiointilinkin valintaikkunan](media/analysis-link-copied.svg)
 
 1. Valitse **Kopioi**.
-1. Liitä linkki haluamaasi viestintävälineisiin, esimerkiksi Wordiin, Outlookiin, Teamsiin tai OneNoteen. 
-1. Kun vastaanottaja on vastaanotettu, hän voi valita linkin ja avata sivun tai kyselyn analyysin Business Centralissa. Ohjelma pyytää heitä määrittämään uuden analyysivälilehden nimen, joka luodaan.  
+1. Liitä linkki haluamaasi viestintävälineisiin, esimerkiksi Wordiin, Outlookiin, Teamsiin tai OneNoteen.
+1. Kun vastaanottaja on vastaanotettu, hän voi valita linkin ja avata sivun tai kyselyn analyysin [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa. Ohjelma pyytää heitä määrittämään uuden analyysivälilehden nimen, joka luodaan.  
 
 ## Esimerkkejä tietojen analysoinnista
 
-*Analysoi tiedot* -toiminto on tarkoitettu nopeaan faktantarkistuksen ja ad-hoc-analyysin luomiseen, kun et halua suorittaa raporttia, jos erityistarpeitasi varten on olemassa raportti tai jos haluat nopeasti iteroida saadaksesi hyvän yleiskuvan osasta liiketoimintaasi.
+**Tietojen analysointi** -toiminnon avulla voit tarkistaa tiedot nopeasti ja tehdä tapauskohtaisia analyysejä seuraavasti:
 
-Seuraavissa osissa on esimerkkejä käyttöskenaarioista useille Business Central -sovelluksen toiminnallisille alueille.
+- Jos et halua suorittaa raporttia.
+- Jos erityiseen tarpeeseesi sopivaa raporttia ei ole.
+- Jos haluat nopeasti iteroida saadaksesi hyvän yleiskuvan osasta liiketoimintaasi.
 
-| Alue | Vastaanottaja... | Avaa tämä sivu analyysitilassa | Näiden kenttien käyttäminen |
-| ---- | ----- | ------------------------------- |------------------- |
-| [Raha-asiat (Myyntireskontra)](#example-finance-accounts-receivables) | Katso, mitä asiakkaasi ovat sinulle velkaa, jaoteltuina esimerkiksi aikaväleihin summien erääntymisen osalta. | [Asiakastapahtumat](https://businesscentral.dynamics.com/?page=25) | **Asiakkaan nimi**, **Eräpäivä** ja **Jäljellä oleva summa** |
-| [Raha-asiat (Tuloslaskelma)](#example-finance-income-statement) | Tulot tilikartan tulotileillä, esimerkiksi eriteltyinä aikaväleihin summien kirjauksen ajalta. | [Pääkirjanpidon tapahtumat](https://businesscentral.dynamics.com/?page=20) | **KP-tilinro**, **Kirjauspvm** ja **Summa**. |
-| [Raha-asiat (Resurssit yhteensä)](#example-finance-total-assets) | Resurssit tilikartan resurssitileillä, esimerkiksi eriteltyinä aikaväleihin summien kirjauksen ajalta. | [Pääkirjanpidon tapahtumat](https://businesscentral.dynamics.com/?page=20) | **KP-tilinro**, **Kirjauspvm** ja **Summa**. |
+Seuraavissa osissa on esimerkkejä skenaarioista monille toiminta-alueille [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa.
 
 ### Esimerkki: Raha-asiat (Myyntireskontra)
 
 Seuraa näitä vaiheita nähdäksesi, mitä asiakkaasi ovat sinulle velkaa, jaoteltuina aikaväleihin summien erääntymisen osalta:
 
-1. Avaa [Asiakastapahtumien merkinnät](https://businesscentral.dynamics.com/?page=25) -luettelosivu ja ota analyysitila käyttöön.
-1. Siirry **Sarakkeet**-valikkoon ja poista kaikki sarakkeet (valitse *Haku*-kentän vieressä oleva ruutu).
-1. Ota **pivot*-tila** käyttöön (sijaitsee suoraan **haku**-kentän yläpuolella).
-1. Vedä nyt *Asiakkaan nimi* -kenttä **Riviryhmät**-alueeseen ja vedä **Jäljellä oleva summa** **Arvot**-alueelle. 
-1. Etsi lopuksi **Eräpäivä kuukausi** -kenttä **Sarakeselitteet**-alueeseen. 
-1. Jos haluat rajoittaa analyysin tiettyyn vuoteen/vuosineljännekseen, käytä suodatinta **Lisäsuodattimet**-valikossa (oikealla puolella, **Sarakkeet**-valikon alapuolella.) 
-1. Nimeä analyysivälilehden nimeksi uudelleen Erääntyneet tilit kuukausittain tai tuotteiksi, jotka kuvaavat analyysiä puolestasi. 
+1. Avaa [Asiakastapahtumamerkinnät](https://businesscentral.dynamics.com/?page=25) -luettelosivu ja valitse :::image type="content" source="media/analysis-mode-icon.png" alt-text="Siirry analyysitilaan."::: ottaaksesi analyysitilan käyttöön.
+1. Siirry **Sarakkeet**-valikkoon ja poista kaikki sarakkeet (valitse *Haku*-kentän vieressä oleva ruutu oikealla puolella).
+1. Ota **pivot*-tila** käyttöön (sijaitsee **haku**-kentän yläpuolella oikealla).
+1. Vedä **Asiakkaan nimi** -kenttä **Riviryhmät**-alueeseen ja vedä **Jäljellä oleva summa** **Arvot**-alueelle.
+1. Vedä **Eräpäivä kuukausi** -kentät **Sarakeselitteet**-alueeseen.
+1. Jos haluat tehdä analyysin tietyltä vuodelta tai vuosineljännekseltä, käytä suodatinta **Analyysisuodattimet**-valikossa (sivun oikealla puolella, **Sarakkeet**-valikon alapuolella.)
+1. Nimeä analyysivälilehden nimeksi uudelleen **Erääntyneet tilit kuukausittain** tai tuotteiksi, jotka kuvaavat analyysiä.
 
-### Esimerkki: Raha-asiat (Tuloslaskelma)
+### Tapauskohtainen data-analyysin esimerkit toiminta-alueittain
 
-Tee seuraavalla tavalla nähdäksesi tulot tilikartan tulotileillä, esimerkiksi eriteltyinä aikaväleihin summien kirjauksen ajalta:
+Monissa toiminnallisissa kohteissa [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa on artikkeleita, joissa on tapauskohtaisia data-analyysiesimerkkejä.
 
-1. Avaa [Pääkirjanpidon merkinnät](https://businesscentral.dynamics.com/?page=20) -luettelosivu ja ota analyysitila käyttöön.
-1. Siirry **Sarakkeet**-valikkoon ja poista kaikki sarakkeet (valitse **Haku**-kentän vieressä oleva ruutu).
-1. Ota **pivot**-tila käyttöön (sijaitsee suoraan **haku**-kentän yläpuolella).
-1. Vedä nyt **KP-tilin numero** -kenttä **Riviryhmät**-alueeseen ja vedä **Summa** **Arvot**-alueelle.
-1. Etsi lopuksi **Kirjauspäivä kuukausi** -kenttä **Sarakeselitteet**-alueeseen.
-1. Tuloslaskelmaa varten sinun täytyy suodattaa tätä varten käyttämäsi tilit, Business Central -demotiedoissa nämä ovat tilejä alkaen 4:stä. Tilikartan asetukset voivat olla erilaisia (jos suoritat [Alustava saldo jaksoittain](https://businesscentral.dynamics.com/?report=38) -raportin, näet helposti, mitä tilejä asetuksissasi käytetään). Aseta suodatin sopiville tileille **Lisäsuodattimet**-valikon (sivun oikealla puolella, **Sarakkeet**-valikon alapuolella.)
-1. Nimeä analyysivälilehden nimeksi uudelleen Tulot kuukausittain tai tuotteiksi, jotka kuvaavat analyysiä puolestasi.
-
-### Esimerkki: Raha-asiat (Resurssit yhteensä)
-
-Tee seuraavalla tavalla nähdäksesi resurssit tilikartan resurssitileillä, esimerkiksi eriteltyinä aikaväleihin summien kirjauksen ajalta:
-
-1. Avaa [Pääkirjanpidon merkinnät](https://businesscentral.dynamics.com/?page=20) -luettelosivu ja ota analyysitila käyttöön.
-1. Siirry **Sarakkeet**-valikkoon ja poista kaikki sarakkeet (valitse **Haku**-kentän vieressä oleva ruutu).
-1. Ota **pivot**-tila käyttöön (sijaitsee suoraan **haku**-kentän yläpuolella).
-1. Vedä nyt **KP-tilin numero** -kenttä **Riviryhmät**-alueeseen ja vedä **Summa** **Arvot**-alueelle.
-1. Etsi lopuksi **Kirjauspäivä kuukausi** -kenttä **Sarakeselitteet**-alueeseen.
-1. Resurssien kokonaislaskelmaa varten on suodatettava tätä varten käytettäviä tilejä, Business Central -demotiedoissa nämä ovat tilejä alkaen 10:stä. Tilikartan asetukset voivat olla erilaisia. Jos suoritat [Alustava saldo jaksoittain](https://businesscentral.dynamics.com/?report=38) -raportin, voit helposti nähdä, mitä tilejä asetuksissasi käytetään. Aseta suodatin sopiville tileille **Lisäsuodattimet**-valikon (sivun oikealla puolella, **Sarakkeet**-valikon alapuolella.)
-1. Nimeä analyysivälilehden nimeksi uudelleen Tulot kuukausittain tai tuotteiksi, jotka kuvaavat analyysiä puolestasi.
+[!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
 ## Rajoitukset vuoden 2023 julkaisuaallossa 1 (esiversio)
 
@@ -257,5 +237,6 @@ Tämän ominaisuuden julkisella esiversiolla on seuraavat rajoitukset:
 
 ## Katso myös
 
-[Ad-hoc-tietoanalyysi](reports-adhoc-analysis.md)  
+[Tapauskohtainen data-analyysi toiminta-alueittain](ad-hoc-data-analysis-by-functional-area.md)   
+[Tapauskohtainen tietoanalyysi](reports-adhoc-analysis.md)  
 [Tarkasteleminen ja muokkaaminen Excelissä](across-work-with-excel.md)  

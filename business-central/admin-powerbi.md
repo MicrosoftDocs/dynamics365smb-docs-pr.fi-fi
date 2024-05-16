@@ -1,6 +1,6 @@
 ---
 title: Johdatus Business Centraliin ja Power BIhin
-description: 'Power BI:n yleiskatsaus merkityksellisten tietojen, liiketoimintatietojen ja tunnuslukujen hakemiseen Business Central -tiedoista.'
+description: 'Power BI:n yleiskatsaus merkityksellisten tietojen ja tunnuslukujen hakemiseen Business Central -tiedoista.'
 author: jswymer
 ms.topic: overview
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
@@ -35,7 +35,7 @@ ms.service: dynamics-365-business-central
 
 ## Power BI:n valmistelu käyttöä varten
 
-Muutama tehtävä on suoritettava, ennen kuin Power BI:ta voi käyttää [!INCLUDE[prod_short](includes/prod_short.md)]in kanssa. <!-- Some of the tasks are typically only done by administrators or super users.--> Tehtävät määräytyvät sen mukaan, mikä roolisi organisaatiossa on ja mitä haluat tehdä Power BI:ssä.
+Muutama tehtävä on suoritettava, ennen kuin Power BI:ta voi käyttää [!INCLUDE[prod_short](includes/prod_short.md)]in kanssa.<!-- Some of the tasks are typically only done by administrators or super users.--> Tehtävät määräytyvät sen mukaan, mikä roolisi organisaatiossa on ja mitä haluat tehdä Power BI:ssä:
 
 - Jos olet *yrityskäyttäjä*, haluat tarkastella Power BI -raportteja joko Power BI -palvelussa tai Business Centralissa.
 - Jos olet *järjestelmänvalvoja*, hallitset koko organisaation asetuksia, jotka hallinnoivat sitä, miten Business Central ja Power BI toimivat.
@@ -48,25 +48,6 @@ Muutama tehtävä on suoritettava, ennen kuin Power BI:ta voi käyttää [!INCLU
 |Business Central -tietojen julkaiseminen Power BI:hin||![se on valintamerkki.](media/check.png)|![jälleen valintamerkki](media/check.png)|[Tietojen näyttäminen API-sivujen tai OData-verkkopalvelujen kautta](admin-powerbi-setup.md#exposedata)
 |Ota Power BI -integrointi käyttöön<br />(vain paikallinen)||![se on valintamerkki.](media/check.png)||[Määritä paikallinen Business Central Power BI -integraatiota varten](across-working-with-business-central-in-powerbi.md#setup)|
 
-## Liiketoiminnan KPI:iden seuraaminen Power BI -mittareiden avulla
-
-Jos käytät Power BI:tä [!INCLUDE[prod_short](includes/prod_short.md)] -tietoihin, voit helposti seurata sinulle tärkeitä suorituskykyilmaisimia tai mittareita. 
-
-Power BI:hin sisältyvien mittareiden avulla voit käsitellä omia mittareita ja jäljittää niitä liiketoiminnan päätavoitteita vastaan yhdessä ruudussa. Tämä ominaisuus tehostaa tietokulttuuria edistämällä organisaation ryhmien ja aloitteiden vastuullisuutta, yhdenmukaisuutta ja näkyvyyttä. 
-
-Määritä Power BI:n mittarit noudattamalla tätä nelivaiheista prosessia:
-
-1. Luo tuloskortti Power BI -palveluun. Lisätietoja on kohdassa [Power BI:n tuloskorttien luominen](/power-bi/create-reports/service-goals-create).  
-2. Lisää _mittarit_, joita haluat seurata, muodostamalla yhteys telemetrian Power BI -raporttiin. Lisätietoja on kohdassa [Yhdistettyjen muuttujien luominen](/power-bi/create-reports/service-goals-create-connected).  
-3. Voit lisätä hälytyksen määrittämällä mittareita koskevat tilasäännöt. Lisätietoja on kohdassa [automaattisten tilasääntöjen luominen mittareita varten](/power-bi/create-reports/service-metrics-status-rules).  
-
-    Tämän vaiheen avulla tilapäivitykset automatisoidaan kyseistä mittaria säätelevien sääntöjen perusteella. Säännöt laukaisevat muutoksia, jotka perustuvat arvoon, saavutetun tavoitteen prosenttiosuuteen, päivämääräehtoihin tai näiden kolmen yhdistelmään, mikä tekee säännöistä mahdollisimman monipuolisia. Yhdistettyjä mittareita varten nämä tilasäännöt päivitetään aina, kun tuloskortin tiedot päivitetään.
-4. Seuraa lopuksi mittareita, niin saat hälytyksiä Teamsissa tai sähköpostilla. Lisätietoja on kohdassa [Mittareiden seuraaminen](/power-bi/create-reports/service-metrics-follow).  
-
-Lisätietoja Power BI-mittareista on kohdassa [Power BI:n mittareiden käytön aloittaminen](/power-bi/create-reports/service-goals-introduction).
-
-> [!NOTE]
-> Business Central 2023 -julkaisuaallosta 2 alkaen on mahdollista upottaa tuloskortteja Power BI -mittareista kohteessa [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ## Seuraavat vaiheet
 
@@ -75,8 +56,8 @@ Lisätietoja Power BI-mittareista on kohdassa [Power BI:n mittareiden käytön a
 
 ## Katso myös
 
-[Business Intelligence](bi.md)  
-[Määritä [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Analytiikan yleiskatsaus](reports-bi-reporting.md)   
+[KPI:iden seuraaminen Power BI -mittareiden avulla](track-kpis-with-power-bi-metrics.md)   
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power BI:n tietolähteenä](across-how-use-financials-data-source-powerbi.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Apps:n tietolähteenä](across-how-use-financials-data-source-powerapps.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in käyttäminen Power Automatessa](across-how-use-financials-data-source-flow.md)  

@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 # Ostoraportointi ja analytiikka
 
-[!INCLUDE [prod_short](includes/prod_short.md)] -ostoraporttien avulla hankinnan ja liiketoiminnan ammattilaiset voivat saada merkityksellistä tietoa ja analytiikkaa nykyisistä ja aiemmista ostotoiminnoista.  
+Ostoraporttien avulla hankinnan ja liiketoiminnan ammattilaiset voivat saada merkityksellistä tietoa ja analytiikkaa nykyisistä ja aiemmista ostotoiminnoista.  
 
 ## Raportit
 
@@ -20,13 +20,25 @@ ms.service: dynamics-365-business-central
 
 ## Tehtävät
 
-Seuraavissa artikkeleissa kuvataan joitakin yrityksen tilan analysointiin liittyviä keskeisiä tehtäviä:
+Seuraavissa artikkeleissa kuvataan joitakin ostojen tilan analysointiin liittyviä keskeisiä tehtäviä:
 
-* [Analyysiraporttien luominen](bi-how-create-analysis-views-reports.md)  
-* [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)  
+- [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)  
+- [Ostojen päivämäärien laskeminen](purchasing-date-calculation-for-purchases.md)
+- [Ostojen nimiketapahtumien tarkasteleminen](purchasing-how-record-purchases.md#viewing-ledger-entries)
+
+## Ostoraporttien tutkiminen Report Explorerin avulla
+
+Ostojen saatavana olevien raporttien yleiskuvan saa valitsemalla **Kaikki raportit** aloitussivulla. Tämä toiminto avaa roolienhallinta-sivun, joka on suodatettu näyttämään **Raportti ja analyysi** -vaihtoehdon ominaisuudet. Valitse **Ostot**-otsikon alla **Tutustu**.
+
+:::image type="content" source="media/report-explorer-purchasing.png" alt-text="Esimerkki XXX-roolikeskuksen raporteista" lightbox="media/report-explorer-purchasing.png":::
+
+Lisätietoja on kohdassa [Raporttien etsiminen roolienhallinnan avulla](ui-role-explorer.md). 
 
 ## Katso myös
+
+[Ostotietojen ad-hoc-analyysi](ad-hoc-analysis-purchasing.md)  
+[Ostamisen analyysin yleiskatsaus](purchasing-analytics-overview.md)   
 [Ostojen määrittäminen](purchasing-setup-purchasing.md)  
-[Osto](purchasing-manage-purchasing.md)  
+[Ostamisen yleiskatsaus](purchasing-manage-purchasing.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

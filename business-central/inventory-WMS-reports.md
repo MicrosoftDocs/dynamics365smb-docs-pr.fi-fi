@@ -44,8 +44,20 @@ Sovelluksen asentamisen jälkeen voit tulostaa 1D- ja 2D-viivakoodit **Tulosta e
 > [!NOTE]
 > Jotkin tulostimet ja viivakoodi-/QR-koodimuodot vaativat tietyn toteutuksen. Voit joutua lataamaan toisen Word-mallin tai kloonaamaan raportin luodaksesi oman mukautetun version.
 
+
+## Varastoraporttien tutkiminen Report Explorerin avulla
+
+Varastoinnin saatavana olevien raporttien yleiskuvan saa valitsemalla **Kaikki raportit** aloitussivulla. Tämä toiminto avaa roolienhallinta-sivun, joka on suodatettu näyttämään **Raportti ja analyysi** -vaihtoehdon ominaisuudet. Valitse **Myynti ja markkinointi** -otsikon alla **Tutki**.
+
+:::image type="content" source="media/report-explorer-sales.png" alt-text="Esimerkki taloushallinnon roolikeskuksen raporteista" lightbox="media/report-explorer-sales.png":::
+
+Lisätietoja on kohdassa [Raporttien etsiminen roolienhallinnan avulla](ui-role-explorer.md).
+
+
 ## Katso myös
 
+[Varastotietojen ad-hoc-analyysi](ad-hoc-analysis-inventory.md)  
+[Varaston analyysien yleiskatsaus](inventory-analytics-overview.md)   
 [Varaston määrittäminen](inventory-setup-inventory.md)  
 [Varasto](inventory-manage-inventory.md)  
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  

@@ -14,16 +14,23 @@ ms.service: dynamics-365-business-central
 
 Jotta voit hallita myyntisaamisiasi helpommin [!INCLUDE [prod_short](includes/prod_short.md)]issa, vakioraportit ja analytiikka ovat sisään rakennettuina. Se ylittää perinteisen raportoinnin rajoitukset, jotta voit suunnitella tehokkaasti erityyppisiä raportteja.  
 
+
 ## Raportit
+
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
+
+
+## Talousraporttien tutkiminen Report Explorerin avulla
+
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
+
 
 ## Katso myös
 
-[Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md)  
-[Dimensioiden käyttäminen](finance-dimensions.md)  
-[Käyttöomaisuuden hallinta](fa-manage.md)  
-[Paikallisten toiminnallisuuksien yleiskatsaus](about-localization.md)  
+[Tärkeimmät talousraportit](finance-reports.md)  
+[Taloustietojen tapauskohtainen analyysi](ad-hoc-analysis-finance.md)   
+[Talousanalytiikka](bi.md)   
+[Myynnin analyysi](sales-analytics-overview.md)  
 [Kirjanpitäjän käyttökokemukset [!INCLUDE[prod_long](includes/prod_long.md)]issa](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

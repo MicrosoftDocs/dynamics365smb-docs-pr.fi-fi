@@ -1,6 +1,6 @@
 ---
-title: Business Centralin talousanalytiikka
-description: 'Business Central sisältää useita ominaisuuksia, joiden avulla voit kerätä, analysoida ja jakaa arvokkaita yritystietoja liiketoimintatietoa ja päätöksentekoa varten.'
+title: Talousanalytiikka
+description: 'Business Centralin avulla voit kerätä, analysoida ja jakaa yrityksen tietoja liiketoimintatiedon saamiseksi.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: kepontop
@@ -12,9 +12,9 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="financial-analytics"></a>Business Centralin talousanalytiikka
+# Talousanalytiikka
 
-Yritykset sieppaavat valtavan määrän tietoa päivittäisten toimintojen aikana, ja ne tukevat päätöksentekijöille arvokkaita liiketoimintatietoja: 
+Yritykset sieppaavat valtavan määrän tietoa päivittäisten toimintojen aikana, ja ne tukevat päätöksentekijöille arvokkaita liiketoimintatietoja:
 
 - Myyntiluvut
 - Ostot
@@ -33,7 +33,7 @@ Kullakin näistä ominaisuuksista omat etunsa ja haittapuolensa tietojen analyys
 
 Tässä artikkelissa käsitellään näiden analyysiominaisuuksien käyttämistä merkityksellisten taloustietojen tuottamiseen.
 
-## <a name="analytics-needs-in-finance"></a>Taloushallinnon analyysitarpeet
+## Taloushallinnon analyysitarpeet
 
 Taloushallinnon analyysitarpeita pohdittaessa kannattaa ehkä käyttää mielikuvaa, joka perustuu ylätasolla kuvattuihin henkilötyyppeihin ja heidän vaihteleviin analyysitarpeisiin.
 
@@ -49,7 +49,7 @@ Eri tehtävissä toimivilla henkilöillä voi olla erilaisia tietoja koskevia ta
 |Rahoituksenhallinta | Trendit, yhteenvedot | Valmiit johdon raportit <br> Tapahtumakohtainen analyysi      | 
 |Kirjanpitäjä         | Eritellyt tiedot     | Valmiit operatiiviset raportit <br> Näytöllä näkyvät tehtävän tiedot |
 
-## <a name="finance-kpis"></a>Taloushallinnon tunnusluvut
+## Taloushallinnon tunnusluvut
 
 Suorituskykymittari (tunnusluku) on mitattava arvo, joka ilmaisee, kuinka tehokkaasti tavoite toteutuu. Taloushallinnossa käytetään usein seuraavia tunnuslukuja seuraamaan organisaation taloudellista tilannetta:
 
@@ -67,11 +67,11 @@ Suorituskykymittari (tunnusluku) on mitattava arvo, joka ilmaisee, kuinka tehokk
 For more information, see [Financial KPIs in Business Central](bi-finance-kpis.md) 
 -->
 
-## <a name="using-financial-reporting-to-produce-financial-statements-and-kpis"></a>Tilinpäätösten ja tunnuslukujen tuottaminen taloushallinnon raportoinnin avulla
+## Tilinpäätösten ja tunnuslukujen tuottaminen taloushallinnon raportoinnin avulla
 
 **Talousraportit**-ominaisuus antaa merkityksellisiä tietoja tilikartassa näkyvistä taloudellisesta tiedoista. Talousraportit voidaan määrittää analysoimaan kirjanpitotilien lukuja ja vertaamaan pääkirjanpidon tapahtumia budjettitapahtumiin. Tulokset näkyvät aloitussivun kaavioissa ja raporteissa, kuten kassavirtakaaviossa sekä Tuloslaskelma- ja Tase-raporteissa.
 
-Dimensioilla on tärkeä tehtävä liiketoimintatiedoissa. Dimensio on tieto, jonka voi lisätä tapahtumaan parametriksi. Dimensioiden avulla voidaan ryhmitellä samankaltaisia ominaisuuksia, kuten asiakkaita, alueita, tuotteita ja myyjiä, ja noutaa nämä ryhmät helposti analyysia varten. Dimensioita voi käyttää esimerkiksi analyysinäkymien määrityksessä sekä talousraporttien luonnissa. Lisätietoja on kohdassa [Dimensioiden käsitteleminen](finance-dimensions.md).
+Dimensioilla on tärkeä tehtävä liiketoimintatiedoissa. Dimensio on tieto, joka voidaan lisätä tapahtumaan parametriksi. Dimensiot mahdollistavat sellaisten tapahtumien ryhmittelyn, joilla on samanlaiset ominaisuudet, jotta ne on helpompi analysoida. Esimerkiksi asiakkaat, alueet, tuotteet ja myyjät. Dimensioita voi käyttää esimerkiksi analyysinäkymien määrityksessä sekä talousraporttien luonnissa. Lisätietoja on kohdassa [Dimensioiden käsitteleminen](finance-dimensions.md).
 
 > [!TIP]
 > Tapahtumatietoja voi analysoida nopeasti suodattamalla tilikarttojen loppusummat ja kaikkien **Tapahtumat**-sivujen tapahtumat dimensioittain. Hae **Määritä dimension suodatus** -toiminto.  
@@ -87,13 +87,13 @@ Seuraavassa taulukossa on taloushallinnon raportoinnin tehtäväsarja ja linkit 
 | Näkymän määrittäminen tietojen analysointia varten dimensioiden avulla.|[Tietojen analysointi dimensioiden mukaan](bi-how-analyze-data-dimension.md)|
 | Uusien analyysiraporttien luominen myyntejä, ostoja ja varastoa varten sekä analyysimallien määrittäminen. |[Analyysiraporttien luominen](bi-how-create-analysis-views-reports.md)|
 
-## <a name="finance-reporting-across-business-units-or-legal-entities"></a>Taloushallinnon raportointi liiketoimintayksiköiden tai yritysten välillä
+## Taloushallinnon raportointi liiketoimintayksiköiden tai yritysten välillä
 
 Jotkin organisaatiot käyttävät [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaa useassa liiketoimintayksikössä tai yrityksessä. Muut käyttävät [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaa tytäryhtiöissä, joiden tulee raportoida emo-organisaatioihin. [!INCLUDE [prod_short](includes/prod_short.md)] antaa kirjanpitäjille työkalut, jotka auttavat heitä siirtämään pääkirjanpidon tapahtumia kahdesta tai useammasta yrityksestä (tytäryrityksistä) konsolidoituun yritykseen.  
 
 Lisätietoja on kohdassa [Yrityksen konsolidointi](finance-consolidated-company-reporting.md).
 
-## <a name="ad-hoc-analysis-of-finance-data"></a>Taloustietojen tapauskohtainen analyysi
+## Taloustietojen tapauskohtainen analyysi
 
 Joskus on tarkistettava nopeasti, täsmäävätkö luvut, tai vahvistettava luku. Seuraavat ominaisuudet sopivat erinomaisesti tapauskohtaisiin analyyseihin:
 
@@ -111,14 +111,14 @@ Vastaavasti **Avaa Excelissä** -toiminnolla voi avata tapahtumien luettelosivun
 > [!TIP]
 > Jos järjestelmän ominaisuudet määritetään OneDriveen, Excel-työkirja avautuu selaimeen käyttämällä Exceliä verkossa. 
 
-<!-- Not ready yet
-For more information on how to do ad-hoc analysis on ledgers, see [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md). 
--->
-## <a name="built-in-reports-for-finance"></a>Valmiit talousraportit
+
+Lisätietoja kirjanpidon tilapäisen analyysin tekemisestä on kohdassa [Raha-asioiden tietojen ad-hoc-analyysi](ad-hoc-analysis-finance.md). 
+
+## Valmiit talousraportit
 
 [!INCLUDE [prod_short](includes/prod_short.md)] sisältää useita valmiita raportteja, jäljitystoimintoja ja työkaluja, joista on hyöytä talousosaston raportoinnista vastaaville tilintarkastajille tai valvojille.
 
-Saatavana olevien raporttien yleiskuvan saa valitsemalla **Kaikki raportit** aloitussivun yläruudussa. Tämä avaa roolienhallinnan, joka on suodatettu näyttämään **Raportti ja analyysi** -vaihtoehdon ominaisuudet. Lisätietoja on kohdassa [Raporttien etsiminen roolienhallinnan avulla](ui-role-explorer.md).
+Saatavana olevien raporttien yleiskuvan saa valitsemalla **Kaikki raportit** aloitussivun yläruudussa. Tämä toiminto avaa roolienhallinta-sivun, joka on suodatettu näyttämään **Raportti ja analyysi** -vaihtoehdon ominaisuudet. Lisätietoja on kohdassa [Raporttien etsiminen roolienhallinnan avulla](ui-role-explorer.md).
 
 :::image type="content" source="media/report-explorer-finance.png" alt-text="Esimerkki taloushallinnon roolikeskuksen raporteista" lightbox="media/report-explorer-finance.png":::
 
@@ -141,11 +141,11 @@ Lisätietoja on seuraavissa taloushallintoon soveltuvien raporttien yleiskatsauk
 * [Built-in Tax and VAT reports](tax-and-vat-reports.md) 
 -->
 
-## <a name="on-screen-finance-task-pages"></a>Näytössä näkyvät taloushallinnon tehtäväsivut
+## Näytössä näkyvät taloushallinnon tehtäväsivut
 
-[!INCLUDE [prod_short](includes/prod_short.md)]issa on useita sivuja, joista saadaan taloushallinnon yleiskatsauksia ja tehtäviä töitä.
+[!INCLUDE [prod_short](includes/prod_short.md)]issa on useita sivuja, joista saadaan rahoituksen yleiskatsauksia ja tehtäviä töitä.
 
-### <a name="show-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Pääkirjanpidon tapahtumien ja saldojen näyttäminen Tilikartta-sivulta
+### Pääkirjanpidon tapahtumien ja saldojen näyttäminen Tilikartta-sivulta
 
 Tilikartta-sivulla on näkyvissä kaikki kirjanpitotilit ja kootut luvut pääkirjanpitoon tehdyistä kirjauksista. Seuraavat ovat mahdollisia tällä sivulla:  
 
@@ -157,13 +157,13 @@ Tilikartta-sivulla on näkyvissä kaikki kirjanpitotilit ja kootut luvut pääki
 
 Lisätietoja on kohdassa [Tilikartan ymmärtäminen](finance-general-ledger.md#the-chart-of-accounts).
 
-### <a name="view-actual-amounts-compared-to-budgeted-amounts-for-all-accounts-and-for-several-periods"></a>Todellisten summien tarkasteleminen verrattuna kaikkien tilien budjetoituihin summiin useilta kausilta
+### Todellisten summien tarkasteleminen verrattuna kaikkien tilien budjetoituihin summiin useilta kausilta
 
-Yrityksen tietojen keräämisen, analysoinnin ja jakamisen osana halutaan ehkä tarkastella todellisia summia sekä verrata niitä kaikkien tilien ja useiden ajanjaksojen budjetoituihin summiin. Se voidaan tehdä **Tilikartta**-sivulla valitsemalla **KP-saldo/-budjetti**-toiminto.
+Yrityksen tietojen keräämisen, analysoinnin ja jakamisen osana halutaan ehkä tarkastella todellisia summia sekä verrata niitä kaikkien tilien ja useiden ajanjaksojen budjetoituihin summiin. Voit tehdä vertailun **Tilikartta**-sivulla valitsemalla **KP-saldo/-budjetti**-toiminto.
 
 Lisätietoja on kohdassa [Todellisten summien analysointi budjetoituihin summiin nähden](bi-how-analyze-actual-versus-budget.md).
 
-### <a name="analyze-data-by-dimensions"></a>Tietojen analysoiminen dimensioiden mukaan
+### Tietojen analysoiminen dimensioiden mukaan
 
 Dimensiot ovat tapahtumia luokittelevia arvoja, jotta voit seurata ja analysoida tapahtumia asiakirjoissa, kuten myyntitilauksissa. Dimensioiden avulla voit esimerkiksi ilmaista, mistä projektista tai osastosta tapahtuma on lähtöisin.  
 
@@ -171,7 +171,7 @@ Sen sijaan että kullekin osastolle ja projektille määritettäisiin erilliset 
 
 Talousanalyysissa dimensio on tieto, joka lisätään KP-tapahtumaan eräänlaiseksi merkiksi. Tämän tiedon avulla voidaan yhdistää ryhmiksi KP-tapahtumia, joilla on samoja ominaisuuksia, kuten asiakkaita, alueita, tuotteita tai myyjiä, sekä noutaa nämä ryhmät helposti analysoitavaksi. Dimensioita voidaan käyttää päiväkirjojen tapahtumissa, asiakirjoissa ja budjeteissa. Lisätietoja on kohdassa [Tietojen analysointi dimensioittain](bi-how-analyze-data-dimension.md)
 
-### <a name="analyzing-cash-flow"></a>Kassavirran analysoiminen
+### Kassavirran analysoiminen
 
 Kirjanpitäjän aloitussivun **Rahoituksen suorituskyky** -kohdan Käyttöpääomasykli-, Kassavirta- ja Tulot ja kulut -kaavioiden avulla voi analysoida kassavirtaa eri tavoin:
 
@@ -189,12 +189,12 @@ Ennusteeseen voi perehtyä tarkastelemalla ennustetapahtumien lisäksi myös kas
 
 Lisätietoja on kohdassa [Yrityksen kassavirran analysoiminen](finance-analyze-cash-flow.md).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Taloushallinnon raportoinnin käsitteleminen liiketoimintayksiköiden tai yritysten välillä](finance-consolidated-company-reporting.md)  
 <!-- [Financial KPIs in Business Central](bi-finance-kpis.md)    -->
 [Talousraporttien valmisteleminen taloustietojen ja tililuokkien avulla](bi-how-work-account-schedule.md)  
-<!-- [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md)   -->
+[Taloustietojen tapauskohtainen analyysi](ad-hoc-analysis-finance.md)   
 [Tilikartan ymmärtäminen](finance-general-ledger.md#the-chart-of-accounts)  
 [Excelin valmiit talousraportit](finance-analyze-excel.md)  
 [Valmiit keskeiset talousraportit](finance-reports.md)  

@@ -21,6 +21,13 @@ Joskus [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa on analysoitav
 | Raportin tietojoukon tietojen tarkastelu ja analysointi Excelissä | [Raporttitietojen analysointi Excelillä ja XML:llä](report-analyze-excel.md) |
 | Luettelotietojen analysointi suoraan sivulta |[Luettelotietojen analysoiminen analysointitilan avulla](analysis-mode.md)|
 
+## Tapauskohtainen data-analyysi toiminta-alueittain
+
+Ad-hoc-tietoanalyysin yleinen sisältö on saatavilla myös erikoisversioina monille [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman toiminnallisille alueille. 
+
+[!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
+
+
 ## Katso myös
 
 [Business Intelligencen ja raportoinnin yleiskuva](ui-work-report.md)

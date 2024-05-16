@@ -24,6 +24,16 @@ Voit parantaa nimikkeiden yhteenvetoa ja auttaa niiden etsimisessä luokittelema
 
 Nimikkeiden suunnittelu kysynnän täyttämiseksi katetaan osana tarjonnan suunnittelutoimintoa. Lisätietoja kohdassa [Suunnittelu](production-planning.md).  
 
+## Varastoanalyysi
+
+Tässä osassa kuvataan analyysityökaluja, joita voit käyttää, kun haluat saada varastotietoja.
+
+| Vastaanottaja... | Katso |
+| --- | --- |
+| Tutustu varastotietojen analysointimahdollisuuksiin. | [Myynnin analyysin yleiskatsaus](inventory-analytics-overview.md) |
+| Tee varastotietojen ad-hoc-analyysi suoraan luettelosivuilla ja kyselyissä. | [Varastotietojen ad-hoc-analyysi](ad-hoc-analysis-inventory.md) |
+| Tutki valmiita varastoraportteja. | [Valmiit varaston ja fyysisen varastoinnin raportit](inventory-WMS-reports.md) |
+
 ## Varaston täsmäytys
 
 Kun kirjaat varastotapahtumia, kuten myyntitoimituksia, ostolaskuja tai varaston muutoksia, muuttuneet nimikekustannukset kirjataan niiden arvotapahtumiin. Jotta varastoarvon muutos päivittyisi talouskirjoihin, varastokustannukset kirjataan automaattisesti pääkirjanpidon liittyviin varastotileihin. Jokaista itse kirjattua varastotapahtumaa kohti kirjataan sopiva arvo varastotilille, muutostilille ja myytyjen tuotteiden kustannusten tilille pääkirjanpidossa. Lisätietoja kohdassa [Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md).

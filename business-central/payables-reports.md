@@ -12,18 +12,21 @@ ms.service: dynamics-365-business-central
 ---
 # Ostovelkojen raportit ja analytiikka
 
-Jotta voit hallita ostovelkojasi helpommin [!INCLUDE [prod_short](includes/prod_short.md)]issa, vakioraportit ja analytiikka ovat sisään rakennettuina. Se ylittää perinteisen raportoinnin rajoitukset, jotta voit suunnitella tehokkaasti erityyppisiä raportteja.  
+[!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa on valmiita raportteja ja analytiikkaa, jotka voivat auttaa hallitsemaan ostovelkoja. Työkalut ylittävät perinteisen raportoinnin rajoitukset, ja helpottavat erityyppisten raporttien suunnittelua.  
 
 ## Raportit
+
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
+
+## Talousraporttien tutkiminen Report Explorerin avulla
+
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 ## Katso myös
 
-[Rahoituslaskelmien analysointi Microsoft Excelissä](finance-analyze-excel.md)  
-[Dimensioiden käyttäminen](finance-dimensions.md)  
-[Käyttöomaisuuden hallinta](fa-manage.md)  
-[Paikallisten toiminnallisuuksien yleiskatsaus](about-localization.md)  
+[Taloustietojen tapauskohtainen analyysi](ad-hoc-analysis-finance.md)  
+[Talousanalytiikka](bi.md)  
+[Ostamisen analyysi](purchasing-analytics-overview.md)  
 [Kirjanpitäjän käyttökokemukset [!INCLUDE[prod_long](includes/prod_long.md)]issa](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,11 +1,11 @@
 ---
-title: Luo käyttäjät käyttöoikeuksien mukaan
+title: Käyttäjien luominen käyttöoikeuksien mukaan
 description: 'Kuvaa, miten käyttäjät lisätään käyttöoikeuksiin perustuviin Business Central online- tai paikallisiin toimipaikkoihin.'
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security'
 ms.search.form: '119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173'
-ms.date: 02/21/2024
+ms.date: 05/03/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics-365-business-central
@@ -17,7 +17,7 @@ ms.custom: bap-template
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
-Tässä artikkelissa kuvataan, miten järjestelmänvalvojat luovat käyttäjiä ja määrittävät, ketkä voivat kirjautua sisään kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]. Opit myös kohdistamaan käyttöoikeuksia eri käyttäjille tuotteesi käyttöoikeuksien mukaan.
+Tässä artikkelissa kuvataan, miten järjestelmänvalvojat luovat käyttäjiä ja määrittävät, ketkä voivat kirjautua sisään kohteeseen [!INCLUDE[prod_short](includes/prod_short.md)]. Tämä artikkeli kuvaa sitä, miten määritetään käyttöoikeuksia eri käyttäjille tuotteen käyttöoikeuksien mukaan.
 
 Kun luot käyttäjiä [!INCLUDE[prod_short](includes/prod_short.md)] -järjestelmässä, myönnät heille käyttöoikeuksia käyttöoikeuksien joukkojen avulla. Voit myös järjestää käyttäjiä käyttäjäryhmiin. Käyttäjäryhmien avulla on helppo hallita useiden käyttäjien käyttöoikeuksia ja muita asetuksia samanaikaisesti. Lisätietoja on kohdassa [Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md).  
 
@@ -80,13 +80,13 @@ Muut käyttöoikeuksien joukot lisätään automaattisesti käyttöoikeuteen koh
 Jos tämä oletusarvoinen kokoonpano ei sovi tietylle ympäristölle, järjestelmänvalvoja voi muuttaa sitä. Mukautetut käyttöoikeudet vaikuttavat kuitenkin vain uusiin käyttäjiin, joille kyseinen käyttöoikeus on määritetty. Käyttöoikeus ei vaikuta olemassa olevien käyttäjien käyttöoikeuksiin, joille käyttöoikeus on määritetty.  
 
 1. Kirjaudu sisään [!INCLUDE[prod_short](includes/prod_short.md)]iin järjestelmänvalvojatilillä.  
-2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöoikeuden määritys** ja valitse sitten vastaava linkki.  
+2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöoikeuden määritys** ja valitse sitten vastaava linkki.  
 
     <!--Alternatively, if you're already in the **Users** page, you can run the **Update Users from Microsoft 365** guide, and then, on the first page of the guide, choose the **Configure permissions per license** link.-->  
 3. Valitse mukautettava käyttöoikeus **Käyttöoikeuden määritys** -sivulta ja valitse sitten **Määritä**-toiminto.  
-4. Valitse **Mukauta oikeuksia** -kenttä, kun haluat ottaa mukauttamisen käyttöön, ja tee tarvittavat muutokset.  
+4. Valitse **Mukauta oikeuksia** -kenttä, kun haluat ottaa mukauttamisen käyttöön, ja tee muutokset.  
 
-    Tässä esimerkissä järjestelmänvalvoja haluaa poistaa muokkaamisoikeuden Excelissä, joten hän poistaa *Excelin vientitoiminto* -käyttäjäryhmän tiimin jäsenen käyttöoikeudesta. Jatkossa uudet käyttäjät, joille on määritetty tiimin jäsenen käyttöoikeus, eivät voi viedä tietoja Exceliin. Jos organisaatio muuttaa mielensä tästä aiheesta, he voivat vain palata **Käyttöoikeuden määritys** -sivulle ja poistaa kyseisen käyttöoikeustyypin räätälöinnin.  
+    Tässä esimerkissä järjestelmänvalvoja haluaa poistaa muokkaamisoikeuden Excelissä, joten hän poistaa *Excelin vientitoiminto* -käyttäjäryhmän tiimin jäsenen käyttöoikeudesta. Tämän jälkeen uudet käyttäjät, joille on määritetty ryhmän jäsen -käyttöoikeus, eivät voi viedä tietoja Exceliin. Jos organisaatio muuttaa mielensä tästä aiheesta, he voivat vain palata **Käyttöoikeuden määritys** -sivulle ja poistaa kyseisen käyttöoikeustyypin räätälöinnin.  
 
 > [!IMPORTANT]
 > Tämä käyttöoikeuksien mukauttaminen koskee vain uusia käyttäjiä, joille kohdistat asiaankuuluvan käyttöoikeuden. Nykyisiä käyttäjiä ei päivitetä. Suosittelemme käyttöoikeuksien mukauttamista, ennen kuin käyttäjien käyttöoikeuksien aletaan määrittää Microsoft 365 -hallintakeskuksessa.
@@ -108,7 +108,7 @@ Kun olet lisännyt käyttäjiä tai muuttanut käyttäjätietoja Microsoft 365 -
 > [!NOTE]
 > **Päivitä käyttäjät Microsoft 365:stä** -opas ei päivitä käyttäjiä, joille ei ole määritetty lisenssiä, kuten henkilöä, joka on Yleinen järjestelmänvalvoja ja Dynamics 365 -järjestelmänvalvoja. Nämä käyttäjät päivittävät seuraavan kerran, kun he kirjautuvat ympäristöön.
 
-Seuraava vaihe uusille käyttäjille on käyttäjäryhmien ja käyttöoikeuksien kohdistaminen. Lisätietoja on kohdassa [Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md). Jos päivität käyttäjää ja päivitys sisältää käyttöoikeuden muutoksen, käyttäjät liitetään asianmukaiseen käyttäjäryhmään ja niiden käyttöoikeuksien joukot päivitetään. Lisätietoja on kohdassa [Käyttäjien käyttöoikeuksien hallinta käyttäjäryhmien kautta](ui-define-granular-permissions.md).  
+Seuraava vaihe uusille käyttäjille on käyttäjäryhmien ja käyttöoikeuksien kohdistaminen. Lisätietoja on kohdassa [Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md). Jos päivität käyttäjän ja päivitys sisältää käyttöoikeuden muutoksen, [!INCLUDE [prod_short](includes/prod_short.md)] määrittää käyttäjät asianmukaiseen käyttäjäryhmään ja päivittää niiden käyttöoikeuksien joukot. Lisätietoja on kohdassa [Käyttäjien käyttöoikeuksien hallinta käyttäjäryhmien kautta](ui-define-granular-permissions.md).  
 
 > [!NOTE]
 > Kaikille ympäristön käyttäjille on määritettävä sama käyttöoikeus, joko Essentials tai Premium. Lisätietoja käyttöoikeuksista on [Business Centralin](https://dynamics.microsoft.com/business-central/overview/) sivustolla.
@@ -135,9 +135,9 @@ Kun määrität käyttöoikeuden [!INCLUDE[prod_short](includes/prod_short.md)] 
 - Järjestelmänvalvoja voi lisätä käyttäjän valitsemalla **Päivitä käyttäjät Microsoft 365:stä** -toiminnon **Käyttäjät**-sivulta [Käyttäjän lisääminen tai käyttäjätietojen päivittäminen Business Centralissa](#adduser) -osiossa kuvatulla tavalla.
 - Käyttöoikeustiedot päivitetään automaattisesti, kun käyttäjä kirjautuu sisään ensimmäisen kerran.
 
-Molemmissa tapauksissa useita asetuksia otetaan käyttöön automaattisesti. Ne asetukset on luetteloitu taulukon toisessa ja kolmannessa sarakkeessa.
+Molemmissa tapauksissa useita asetuksia otetaan käyttöön automaattisesti. Ne asetukset on luetteloitu seuraavan taulukon toisessa ja kolmannessa sarakkeessa.
 
-Jos muutat käyttäjätietoja Microsoft 365:ssä, voit päivittää [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen vastaamaan muutosta. Käytä jotain **Käyttäjät**-sivun toimintoa päivitettävästä kohdasta riippuen. Toiminnot kuvataan alla olevan taulukon kahdessa viimeisessä sarakkeessa.
+Jos muutat käyttäjätietoja Microsoft 365:ssä, voit päivittää [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen vastaamaan muutosta. Käytä jotain **Käyttäjät**-sivun toimintoa päivitettävästä kohdasta riippuen. Toiminnot kuvataan seuraavan taulukon kahdessa viimeisessä sarakkeessa.
 
 |Mitä tapahtuu, kun:|Ensimmäinen käyttäjä, ensimmäinen sisäänkirjautuminen|Päivitä käyttäjät Microsoft 365:stä|Palauttaa käyttäjän oletuskäyttäjäryhmät|
 |-|-|-|-|
@@ -147,7 +147,7 @@ Jos muutat käyttäjätietoja Microsoft 365:ssä, voit päivittää [!INCLUDE[pr
 |Synkronoi käyttäjän palvelupaketit (lisenssit) ja käyttöoikeudet sekä määritetyt roolit Microsoft 365:ssä.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**|**X**|
 |Lisää käyttäjä käyttäjäryhmiin nykyisen käyttäjän palvelupakettien mukaan. Poista SUPER-käyttöoikeusjoukko kaikilta muilta käyttäjiltä paitsi ensimmäiseltä sisäänkirjautuvalta käyttäjältä ja [järjestelmänvalvojilta](/dynamics365/business-central/dev-itpro/administration/tenant-administration). Vähintään yksi SUPER-käyttäjä on määritettävä.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**X**|**X**|**X**<br /><br />Poistaa määritetyt käyttäjäryhmät ja käyttöoikeudet manuaalisesti.|
 
-Käyttäjät voivat käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -tietoja Teamsissa käyttämällä vain Microsoft 365 -käyttöoikeuttaan. Kun käyttöoikeus on otettu käyttöön ympäristössä, **Päivitä käyttäjät Microsoft 365:stä** -toiminnolla suoritettu synkronointi ei sisällä käyttäjiä, joilla on vain Microsoft 365 -käyttöoikeus. Jos haluat sisällyttää nämä käyttäjät synkronointiin, sinun täyty ensin päivittää ympäristön asetukset ja kohdistaa suojausryhmä, joka sisältää [!INCLUDE[prod_short](includes/prod_short.md)] -käyttöoikeuden omistavat käyttäjät sekä käyttäjät, joilla on vain Microsoft 365 -käyttöoikeus.
+Käyttäjät voivat käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -tietoja Teamsissa käyttämällä vain Microsoft 365 -käyttöoikeuttaan. Kun käyttöoikeus on otettu käyttöön ympäristössä, **Päivitä käyttäjät Microsoft 365:stä** -toiminnolla suoritettu synkronointi ohittaa käyttäjät, joilla on vain Microsoft 365 -käyttöoikeus. Jos haluat sisällyttää nämä käyttäjät synkronointiin, sinun täyty ensin päivittää ympäristön asetukset ja kohdistaa suojausryhmä, joka sisältää [!INCLUDE[prod_short](includes/prod_short.md)] -käyttöoikeuden omistavat käyttäjät sekä käyttäjät, joilla on vain Microsoft 365 -käyttöoikeus.
 
 Lisätietoja ympäristöjen käytön suojaamisesta suojausryhmillä on kohdassa [Käyttöoikeuksien hallinta Microsoft Entra -ryhmien avulla](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups).
 
@@ -171,9 +171,46 @@ Järjestelmänvalvoja luo, muokkaa ja poistaa käyttäjiä paikallisesti käytt�
 >
 > Lisätietoja on [Todennus- ja käyttäjätietotyypit](/dynamics365/business-central/dev-itpro/administration/users-credential-types) -kohdassa [!INCLUDE[prod_short](includes/prod_short.md)]:n hallintaohjeessa.
 
+## Käyttäjän tilan analysointi käyttöoikeustyypin mukaan
+
+**Tietojen analysointi** -toiminnon avulla voit analysoida tietoja [Käyttäjät](https://businesscentral.dynamics.com/?page=9800)-sivulla. Sinun ei tarvitse suorittaa raporttia tai avata toista sovellusta, kuten Exceliä. Ominaisuus tarjoaa vuorovaikutteisen ja monipuolisen tavan laskea, tiivistää ja tarkastella tietoja. Sen sijaan, että raportteja suoritetaan vaihtoehdoilla ja suodattimilla, voit lisätä useita välilehtiä, jotka edustavat erilaisia tehtäviä tai näkymiä tiedoista. Esimerkkejä ovat "Käyttäjät tilan mukaan", "Käyttäjät käyttöoikeuden mukaan", tai mikä tahansa muu näkymä, jonka voit kuvitella. Lisätietoja **Tietojen analysointi** -ominaisuuden käytöstä on kohdassa [analyysitilassa olevien luettelo- ja kyselytietojen analysointi](analysis-mode.md).
+
+### Käyttäjäanalyysiskenaariot
+
+Seuraavissa osissa on esimerkkejä skenaarioista, joissa käyttäjäluettelon analysoiminen voi helpottaa muutosten seurantaa ja käyttäjiesi tilaa.
+
+| Alue | Vastaanottaja... | Avaa tämä sivu analyysitilassa | Näiden kenttien käyttäminen |
+| ---- | ----- | ------------------------------- |------------------- |
+| [Käyttäjät tilan mukaan](#example-users-by-status) | Käyttäjien luettelon katsominen niiden tilan perusteella (käytössä tai poissa käytöstä). | [Käyttäjät](https://businesscentral.dynamics.com/?page=9800) | **Tila**, **Käyttäjänimi**, **Koko nimi**, **Valtuutussähköposti** ja **Käyttöoikeustyyppi**. |
+| [Käyttäjät käyttöoikeustyypin mukaan](#example-users-by-license-type) | Käyttäjien luettelon katsominen niiden käyttöoikeustyypin perusteella. | [Käyttäjät](https://businesscentral.dynamics.com/?page=9800) | **Käyttöoikeustyyppi**, **Tila**, **Käyttäjänimi**, **Koko nimi** ja **Valtuutussähköposti**. |
+
+### Esimerkki: Käyttäjät tilan mukaan
+
+Voit analysoida käyttäjiä tilan mukaan noudattamalla seuraavia vaiheita:
+
+1. Avaa [Käyttäjät](https://businesscentral.dynamics.com/?page=9800) -luettelosivu ja valitse :::image type="content" source="media/analysis-mode-icon.png" alt-text="Siirry analyysitilaan."::: -kuvake ja ota analyysitila käyttöön.
+1. Poista kaikki sarakkeet **Sarakkeet**-valikosta (valitse **Haku**-kentän vieressä oleva ruutu oikealla).
+1. Vedä **Tila** (käyttäjä käytössä/ei käytössä) ja **Käyttöoikeuden tyyppi**- kentät **Riviryhmät**-alueeseen.
+1. Valitse kentät **Käyttäjänimi**, **Koko nimi** ja **Valtuutussähköposti**.
+1. Nimeä analyysivälilehden nimeksi uudelleen **Käyttäjät tilan mukaan** tai tuotteiksi, jotka kuvaavat analyysiä.
+
+Seuraavassa kuvassa on näiden työvaiheiden tulokset.
+
+:::image type="content" source=" media/data-analysis-users.png" alt-text="Esimerkki tietoanalyysin tekemisestä Muutoslokin tapahtumat -sivulla (Kuka muutti mitä tietoja milloin) -sivulla." lightbox="media/data-analysis-users.png":::
+
+### Esimerkki: Käyttäjät käyttöoikeustyypin mukaan
+
+Voit analysoida käyttäjiä käyttöoikeustyypin mukaan noudattamalla seuraavia vaiheita:
+
+1. Avaa [Käyttäjät](https://businesscentral.dynamics.com/?page=9800) -luettelosivu ja valitse :::image type="content" source="media/analysis-mode-icon.png" alt-text="Siirry analyysitilaan."::: -kuvake ja ota analyysitila käyttöön.
+1. Poista kaikki sarakkeet **Sarakkeet**-valikosta (valitse **Haku**-kentän vieressä oleva ruutu oikealla).
+1. Vedä **Käyttöoikeustyyppi**- ja **Tila**- (käyttäjä käytössä/ei käytössä) -kentät **Riviryhmät**-alueeseen.
+1. Valitse **Käyttäjänimi**-, **Koko nimi**- ja **Valtuutussähköposti**-kentät.
+1. Nimeä analyysivälilehden nimeksi uudelleen **Käyttäjät käyttöoikeuden mukaan** tai tuotteiksi, jotka kuvaavat analyysiä.
+
 ## Katso myös
 
-[Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md)  
+[Käyttöoikeuksien delegoiminen käyttäjille ja ryhmille](ui-define-granular-permissions.md)  
 [Profiilien hallinta](admin-users-profiles-roles.md)  
 [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen mukauttaminen](ui-customizing-overview.md)  

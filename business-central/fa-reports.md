@@ -17,9 +17,15 @@ Jotta voit hallita käyttöomaisuuttasi helpommin [!INCLUDE [prod_short](include
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
+## Talousraporttien tutkiminen Report Explorerin avulla
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
+
+
 ## Katso myös
 
+[Käyttöomaisuuden tapauskohtainen analyysi](ad-hoc-analysis-fa.md)     
 [Käyttöomaisuuden analyysin yleiskatsaus](fa-analytics-overview.md)   
+[Talousanalytiikan yleiskatsaus](bi.md)   
 [Käyttöomaisuuden hallinta](fa-manage.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

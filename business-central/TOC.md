@@ -72,9 +72,9 @@ ms.service: dynamics-365-business-central
 ##### [Rakennetiedot: pääkirjanpidon tilit](design-details-accounts-in-the-general-ledger.md)
 ##### [Rakennetiedot: varaston arvostus](design-details-inventory-valuation.md)  
 ##### [Rakennetiedot: uudelleenarvostus](design-details-revaluation.md)
-#### Rakennetiedot: muutosarvotapahtuman kirjauspäivä
-##### [Muutosarvotapahtuman kirjauspäivän yleiskatsaus](design-details-inventory-adjustment-value-entry-posting-date.md)  
-##### [Kirjauspäivä ei kuulu sallittujen kirjauspäivien alueelle -virhesanoma](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+#### Rakennetiedot: muutosarvotapahtuman kirjauspäivämäärä
+##### [Muutosarvotapahtuman kirjauspäivämäärän yleiskatsaus](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Kirjauspäivämäärä ei kuulu sallittujen kirjauspäivämäärien alueelle](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
 ##### [Muutosarvotapahtuman kirjauspäivä verrattuna lähdetapahtumaan](design-details-inventory-adjustment-value-entry-source-entry.md)
 #### Rakennetiedot: dimensioyhdistelmän tapahtumat
 ##### [Rakennetiedot: dimensioyhdistelmän tapahtumien yleiskatsaus](design-details-dimension-set-entries-overview.md)
@@ -202,7 +202,7 @@ ms.service: dynamics-365-business-central
 ### [Älykkäät merkitykselliset tiedot (vain verkossa)](about-intelligent-cloud.md)
 ## Usein kysytyt kysymykset
 ### [Usein kysytyt kysymykset](across-faq.yml)
-### [Usein kysyttyjä kysymyksiä keskustelusta Copilotin avulla (esiversio)](chat-with-copilot-faq.md)
+### [Usein kysytyt kysymykset keskustelusta Copilotin avulla (esiversio)](chat-with-copilot-faq.md)
 ### [Kerro minulle, mitä haluat tehdä -toiminnon usein kysytyt kysymykset](ui-search-faq.md)
 ### [Lajittelemisen ja suodattamisen usein kysytyt kysymykset](ui-search-filter-faq.yml)
 ### [Luettelonäkymien usein kysytyt kysymykset](ui-views-faq.yml)
@@ -449,9 +449,16 @@ ms.service: dynamics-365-business-central
 ### Sähköisten asiakirjojen määrittäminen ja käyttäminen
 #### [Sähköisten asiakirjojen yleiskatsaus](finance-edocuments-overview.md)
 #### [Sähköisten asiakirjojen määrittäminen](finance-how-setup-edocuments.md)
-#### [Sähköisten asiakirjojen käyttäminen myynnissä ja ostoissa](finance-how-use-edocuments.md)
+#### [Sähköisten asiakirjojen käyttö myynnissä](finance-how-use-edocuments.md)
+#### [Sähköisten asiakirjojen käyttö ostoissa](finance-how-use-edocuments-purchase.md)
 #### [Sähköisten asiakirjojen yhdistimen määrittäminen ulkoisten päätepisteiden kanssa](finance-how-setup-edocuments-external.md)
 #### [Sähköisten asiakirjojen toimintojen laajentaminen](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
+### Vastuullisuuden hallinta
+#### [Vastuullisuuden hallinnan yleiskatsaus](finance-manage-sustainability.md)
+#### [Vastuullisuusmääritys](finance-sustainability-setup.md)
+#### [Vastuullisuustilien ja -kirjanpidon tilikartta](finance-sustainability-accounts-ledger.md)
+#### [Toimintaohje: kasvihuonekaasupäästöjen (GHG) kirjaus](finance-sustainability-journal.md)
 
 ### [Useat toimipaikat ja kansainväliset organisaatiot](finance-multi-site-organizations.md)
 #### Usean yrityksen kirjanpitotietojen yhdistäminen
@@ -479,7 +486,7 @@ ms.service: dynamics-365-business-central
 #### [Tietojen analysoiminen tilastotilien avulla](bi-use-statistical-accounts.md)
 #### [Tietojen analysoiminen dimensioiden mukaan](bi-how-analyze-data-dimension.md)
 
-<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
+### [Taloustietojen ad-hoc-analyysi](ad-hoc-analysis-finance.md)
 
 ### Valmiit talousanalyysin työkalut
 #### [Tilikartan taloustietojen analysoiminen](finance-general-ledger.md)
@@ -549,7 +556,10 @@ ms.service: dynamics-365-business-central
 
 ## Varasto
 ### [Varaston yleiskatsaus](inventory-manage-inventory.md)
-### [Varaston ja fyysisen varaston raportit](inventory-WMS-reports.md)
+### Varastoanalyysi 
+#### [Varastoanalyysin yleiskatsaus](inventory-analytics-overview.md)
+#### [Varastotietojen ad-hoc-analyysi](ad-hoc-analysis-inventory.md)
+#### [Sisäänrakennetut varaston ja fyysisen varaston raportit](inventory-WMS-reports.md)
 ### [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)
 ### [Tuoterakenteen käyttäminen](inventory-how-work-BOMs.md)
 ### [Nimikkeiden luokitteleminen](inventory-how-categorize-items.md)
@@ -585,8 +595,10 @@ ms.service: dynamics-365-business-central
 
 ## Käyttöomaisuus
 ### [Käyttöomaisuuden yleiskatsaus](fa-manage.md)
+
 ### Käyttöomaisuuden analyysi
 #### [Käyttöomaisuuden analyysin yleiskatsaus](fa-analytics-overview.md)
+#### [Käyttöomaisuuden ad-hoc-analyysi](ad-hoc-analysis-fa.md)
 #### Valmiit käyttöomaisuuden analytiikkatyökalut
 ##### [Kunnossapitokustannusten valvonta](fa-how-maintain.md#to-monitor-maintenance-costs)
 ##### [Vakuutuksen kattavuuden tarkkailu](fa-how-insure.md#to-monitor-insurance-coverage)
@@ -594,6 +606,7 @@ ms.service: dynamics-365-business-central
 ##### [Luovutustapahtumien tarkasteleminen](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 ##### [Suunniteltujen luovutusarvojen tarkasteleminen](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 #### [Valmiit käyttöomaisuusraportit](fa-reports.md)
+
 ### [Käyttöomaisuuden määrittäminen](fa-setup.md)
 ### [Poistotavat](fa-depreciation-methods.md)
 ### [Käyttöomaisuuden budjettien hallinta](fa-how-manage-budgets.md)
@@ -650,7 +663,7 @@ ms.service: dynamics-365-business-central
 ### [Ennusteen luominen](production-how-to-create-a-forecast.md)
 ### [Tuotantotilausten luominen myyntitilauksista](production-how-to-create-production-orders-from-sales-orders.md)
 ### [Uuden kysyntätilauksen suunnitteleminen tilauksen mukaan](production-how-to-plan-for-new-demand.md)
-### [Kokonaisvaltaisen suunnittelun, tuotanto-ohjelman tai tarvelaskennan suorittaminen](production-how-to-run-mps-and-mrp.md)
+### [Kokonaisvaltaisen suunnittelun, MPS:n tai MRP:n](production-how-to-run-mps-and-mrp.md)
 ### [Tuotantotilausten suora uudelleensuunnittelu tai päivittäminen](production-how-to-replan-refresh-production-orders.md)
 ### [Kysynnän ja tarjonnan välisten suhteiden seuraaminen](production-how-track-demand-supply.md)
 ### [Hankintatyökirja](production-about-planning-functionality.md#requisition-worksheet)
@@ -776,6 +789,7 @@ ms.service: dynamics-365-business-central
 <!--LF-->
 ## Paikalliset toiminnot
 ### [Paikallisten toimintojen yleiskatsaus](about-localization.md)
+### [Validoitujen lokalisointisovellusten kehittäminen](about-validated-localization-apps.md)
 
 ### Australia
 #### [Australian version yleiskatsaus](LocalFunctionality/Australia/australia-local-functionality.md)
@@ -1567,7 +1581,11 @@ ms.service: dynamics-365-business-central
 #### [Paikalliset toiminnot Yhdysvaltojen versiossa](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Vero
 ##### [Veron perusasetukset](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Myyntiveron raportoiminen Yhdysvalloissa](LocalFunctionality/UnitedStates/us-sales-tax.md)  
+##### [Myyntiveron raportoiminen Yhdysvalloissa](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [IRS 1099 ‑lomakkeiden ja niiden toimintojen esittely](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
+##### [IRS 1099 ‑lomakkeen määrittäminen ja käyttäminen versiolle 24 (vuoden 2024 julkaisuaalto 1)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
+#### [IRS 1099 ‑lomakkeiden käyttäminen](LocalFunctionality/UnitedStates/how-to-1099-use.md)
+#### [IRS 1099 ‑lomakkeiden lähettäminen ja raportointi](LocalFunctionality/UnitedStates/how-to-1099-report.md)       
 ##### [IRS 1099 -lomakkeen määrittäminen ja käyttäminen](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Regulatory 1099 -muodon muutokset ja tiedot](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [IRS 1096 -lomakkeen määrittäminen ja käyttäminen](LocalFunctionality/UnitedStates/set-up-use-irs1096-form.md)
@@ -1802,8 +1820,14 @@ ms.service: dynamics-365-business-central
 # Analytiikka, liiketoimintatiedot ja raportointi 
 
 ## [Analytiikan yleiskatsaus](reports-bi-reporting.md)
-## [Tunnuslukujen käyttäminen liiketoimintatavoitteiden saavuttamiseen](./analytics-about-kpis.md)
-## [Talousraportoinnin käyttäminen](bi-how-work-account-schedule.md)
+## [Analytiikka toiminnallisen alueen mukaan](analytics-by-functional-area.md)
+
+## KPI-luvut, koontinäytöt ja talousraportit
+### [Tunnuslukujen (KPI) käyttäminen liiketoimintatavoitteiden saavuttamiseen](analytics-about-kpis.md)
+### [Johdatus Business Centraliin ja Power BI:hin](admin-powerbi.md)
+### [Power BI ‑raporttien käyttäminen](across-working-with-powerbi.md)
+### [Tunnuslukujen seuraaminen Power BI ‑mittarien avulla](track-kpis-with-power-bi-metrics.md)
+### [Talousraportoinnin käyttäminen](bi-how-work-account-schedule.md)
 
 ## Ad-hoc-tietoanalyysi
 ### [Yleiskatsaus](reports-adhoc-analysis.md)
@@ -1812,12 +1836,7 @@ ms.service: dynamics-365-business-central
 ### [Sivutietojen analysoiminen Excelissä](across-work-with-excel.md)
 ### [Raporttitietojen analysoiminen Excelillä](report-analyze-excel.md)
 ### [Luettelo- ja kyselytietojen analysoiminen analyysitilassa](analysis-mode.md)
-
-## Valmiit analytiikkatyökalut
-### [Yleiskatsaus](reports-built-in-analytics.md)
-### [Power BI ‑raporttien käyttäminen](across-working-with-powerbi.md)
-### [Älykkäät merkitykselliset tiedot (paikalliset)](about-intelligent-cloud.md)
-### [Raportin käytön telemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+### [Ad-hoc-tietoanalyysi toiminnallisen alueen mukaan](ad-hoc-data-analysis-by-functional-area.md)
 
 ## Raporttien käyttäminen päivittäisessä työssä
 ### [Yleiskatsaus](reports-use-reports.md)
@@ -1834,44 +1853,21 @@ ms.service: dynamics-365-business-central
 ## Valmiit raportit
 ### [Raportin yleiskatsaus](reports-available-reports.md)
 ### Taloushallinto
-#### [Taloushallinnon liiketoimintatiedot](bi.md)
-#### [Tilinpäätösten analysoiminen Excelin avulla](finance-analyze-excel.md)
+#### [Taloushallinnon raportoinnin valmisteleminen](bi-how-work-account-schedule.md)
 #### [Tärkeimmät talousraportit](finance-reports.md)
 #### [Myyntireskontran raportit](receivables-reports.md)
 #### [Ostoreskontran raportit](payables-reports.md)
-#### [Kassavirta-analyysi](finance-setup-cash-flow-analyses.md)
-#### [Usean yrityksen kirjanpitotietojen yhdistäminen](finance-consolidated-company-reporting.md)
 
-### Myynti
-#### [Myyntiraportit](sales-reports.md)
-#### [Puitemyyntitilauksen tila](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
-#### [Paketin seuranta](sales-how-track-packages.md)
-#### [Kirjaamattomien ja kirjattujen puitemyyntitilausrivien tarkasteleminen](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
+### [Myyntiraportit](sales-reports.md)
+### [Ostoraportit](purchase-reports.md)
+### [Varaston ja fyysisen varaston raportit](inventory-wms-reports.md)
 
-### Ostot
-#### [Ostoraportit](purchase-reports.md)
-#### [Ostojen nimiketapahtumien tarkasteleminen](purchasing-how-record-purchases.md#viewing-ledger-entries)
-
-### Varasto ja fyysinen varasto
-#### [Varaston ja fyysisen varaston raportit](inventory-wms-reports.md)
-#### [Nimikkeen saatavuus](inventory-how-availability-overview.md)
-#### [Sarja-, erä- ja pakettinumeroita sisältävien nimikkeiden seuraaminen](inventory-how-work-item-tracking.md)
-#### [Nimikeseurannassa olevien nimikkeiden jäljittäminen](inventory-how-to-trace-item-tracked-items.md)
-#### [Varastotapahtumien ja pääkirjanpidon välisen täsmäytyksen tarkistaminen](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
-#### [Laituroitujen nimikkeiden tarkasteleminen toimituksessa tai poimintatyökirjassa](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
-
-### §Projekti
+### Projekti
 #### [Projektiraportit](project-reports.md)
 #### [Projektin käyttöarvioiden tarkasteleminen](projects-how-record-job-usage.md#to-view-project-usage-estimates-and-post-updates)
 #### [Projektin edistymisen ja suorituskyvyn valvonta](projects-how-monitor-progress-performance.md)
 
-### Käyttöomaisuus
-#### [Käyttöomaisuuden raportit](fa-reports.md)
-#### [Kunnossapitokustannusten valvonta](fa-how-maintain.md#to-monitor-maintenance-costs)
-#### [Vakuutuksen kattavuuden tarkkailu](fa-how-insure.md#to-monitor-insurance-coverage)
-#### [Muuttuneiden poistokirja-arvojen tarkasteleminen](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-#### [Luovutustapahtumien tarkasteleminen](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-#### [Suunniteltujen luovutusarvojen tarkasteleminen](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+### [Käyttöomaisuuden raportit](fa-reports.md)
 
 ### Kokoonpanon hallinta
 #### [Kokoonpanon hallinnan raportit](assembly-reports.md)
@@ -1887,6 +1883,9 @@ ms.service: dynamics-365-business-central
 #### [Huoltotilausten yleiskatsaus](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Huoltotarjousten yleiskatsaus](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Kirjatun huoltoasiakirjan yleiskatsaus](service-service-posting.md#to-view-information-about-a-posted-service-document)
+
+### [Raportin käytön telemetria](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
 
 ## Raporttien kehittäminen
 ### [Yleiskatsaus](reports-develop-reports.md)
@@ -1909,11 +1908,9 @@ ms.service: dynamics-365-business-central
 ## Tietojen analysoiminen liiketoimintatietotyökaluilla
 ### [Yleiskatsaus](reports-external-analysis.md)
 ### [Microsoft Fabric ja Business Central](admin-fabric.md)
-### [Power BI:n käyttäminen Business Centralin kanssa](admin-powerbi.md)
-### [Tilinpäätösten analysoiminen Excelin avulla](finance-analyze-excel.md)
 ### [Tietojen poimiminen tietovarastoon tai Data Lake ‑tallennustilaan](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
 ### [Tietojen lukeminen Business Centralin ohjelmointirajapinnan avulla](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
+### [Älykkäät merkitykselliset tiedot (paikalliset)](about-intelligent-cloud.md)
 
 
 # Tietoturva, yhteensopivuus ja suojaus
@@ -2036,9 +2033,9 @@ ms.service: dynamics-365-business-central
 #### [Rakennetiedot: nimikkeen kohdistus](design-details-item-application.md)  
 #### [Rakennetiedot: nimikkeen kohdistuksen tunnettu ongelma](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 #### [Rakennetiedot: kustannusten muutos](design-details-cost-adjustment.md)  
-#### Rakennetiedot: muutosarvotapahtuman kirjauspäivä
-#### [Rakennetiedot: muutosarvotapahtuman kirjauspäivä](design-details-inventory-adjustment-value-entry-posting-date.md)  
-##### [Kirjauspäivä ei kuulu sallittujen kirjauspäivien alueelle -virhesanoma](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
+#### Rakennetiedot: muutosarvotapahtuman kirjauspäivämäärä
+#### [Rakennetiedot: muutosarvotapahtuman kirjauspäivämäärä](design-details-inventory-adjustment-value-entry-posting-date.md)  
+##### [Kirjauspäivämäärä ei kuulu sallittujen kirjauspäivämäärien alueelle -virhesanoma](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
 ##### [Muutosarvotapahtuman kirjauspäivä verrattuna lähdetapahtumaan](design-details-inventory-adjustment-value-entry-source-entry.md)  
 #### [Rakennetiedot: oletetun kustannuksen kirjaus](design-details-expected-cost-posting.md)  
 #### [Rakennetiedot: keskimääräinen kustannus](design-details-average-cost.md)  

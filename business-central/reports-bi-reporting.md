@@ -40,7 +40,7 @@ Talousraporttiominaisuuden avulla saadaan tietoja tilikarttaan sisältyvistä ki
 
 :::image type="content" source="media/acc_schedule_13_columns.jpg" alt-text="Näyttökuvassa talousraportti" lightbox="media/acc_schedule_13_columns.jpg":::
 
-Dimensioilla on tärkeä tehtävä liiketoimintatiedoissa. Dimensio on tieto, joka voidaan lisätä tapahtumaan parametriksi. Dimensioiden avulla voidaan ryhmitellä samankaltaisia ominaisuuksia, kuten asiakkaita, alueita, tuotteita ja myyjiä, ja noutaa nämä ryhmät helposti analyysia varten. Dimensioita voi käyttää esimerkiksi analyysinäkymien määrityksessä sekä talousraporttien luonnissa. Lisätietoja on kohdassa [Dimensioiden käsitteleminen](finance-dimensions.md).
+Dimensioilla on tärkeä tehtävä liiketoimintatiedoissa. Dimensio on tieto, joka voidaan lisätä tapahtumaan parametriksi. Dimensiot mahdollistavat sellaisten tapahtumien ryhmittelyn, joilla on samanlaiset ominaisuudet. Esimerkiksi asiakasryhmät, alueet, tuotteet ja myyjä. Ryhmät helpottavat tietojen hakemista analysoimista varten. Dimensioita voi käyttää esimerkiksi analyysinäkymien määrityksessä sekä talousraporttien luonnissa. Lisätietoja on kohdassa [Dimensioiden käsitteleminen](finance-dimensions.md).
 
 Lisätietoja tilinpäätöksistä ja tunnusluvuista on kohdassa [Tilinpäätösten ja tunnuslukujen tuottaminen taloushallinnon raportoinnin avulla](bi.md).
 
@@ -61,7 +61,7 @@ Lisätietoja tunnusluvuista on kohdassa [Tunnuslukujen käyttäminen liiketoimin
 
 ## Ad-hoc-tietoanalyysi
 
-Joskus on ehkä tarkistettava nopeasti, täsmäävätkö luvut, vahvistettava tai kumottava liiketoimintaa koskeva päätelmä tai ehkäpä etsittävä poikkeamia taloustiedoista. Tapauskohtaisia analyyseja varten ei ehkä ole valmiita raportteja, jotka auttavat vastaamaan kysymyksiin. Talouskohtaisissa analyyseissa käytetään kahta seuraavaa ominaisuutta:
+Sinun on ehkä tarkistettava nopeasti, täsmäävätkö luvut, vahvistettava tai kumottava liiketoimintaa koskeva päätelmä tai ehkäpä etsittävä poikkeamia taloustiedoista. Tapauskohtaisia analyyseja varten ei ehkä ole valmiita raportteja, jotka auttavat vastaamaan kysymyksiin. Talouskohtaisissa analyyseissa käytetään kahta seuraavaa ominaisuutta:
 
 - Tietojen analyysi tapahtumaluettelosivuilla
 - Avaa Excelissä
@@ -107,7 +107,7 @@ Seuraavassa taulukossa on luettelo artikkeleista, joissa käsitellään [!INCLUD
 
 ## Ulkoiset liiketoimintatieto- ja raportointityökalut
 
-Jos halutaan käyttää mieluummin liiketoimintatyökaluja, joita ei ole upotettu [!INCLUDE[prod_short](includes/prod_short.md)]iin, seuraavassa taulukossa on linkkejä työkalujen ohjeisiin ja ulkoisten työkalujen käyttötapoja.
+Halutessasi voit käyttää liiketoimintatietojen työkaluja, joita ei ole upotettu [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan. Seuraavassa taulukossa on linkkejä ohjeisiin ja ulkoisten työkalujen käyttötapoihin.
 
 | Vastaanottaja  | Katso |
 | --- | --- |
@@ -116,6 +116,18 @@ Jos halutaan käyttää mieluummin liiketoimintatyökaluja, joita ei ole upotett
 | Tietojen poimiminen tietovarastoon tai Data Lake ‑tallennustilaan| [Tietojen poimiminen tietovarastoon tai Data Lakeen](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses) |
 | Business Centralin tietojen analysointi Microsoft Fabricin avulla| [Microsoft Fabricin ja Business Centralin esittely](admin-fabric.md) |
 | Tietojen lukeminen Business Centralista ohjelmointirajapintojen avulla | [Business Centralin ohjelmointirajapinta v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
+
+## Analytiikka toiminnallisten alueitten mukaan
+
+Tämän artikkelin yleinen sisältö on saatavilla myös erikoisversioina monille [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman toiminnallisille alueille.
+
+| Jos työskentelet... | Katso |
+| --- | --- |
+| Taloushallinto | [Talousanalytiikka](bi.md) |
+| Myynti | [Myynnin analyysi](sales-analytics-overview.md) |
+| Ostaminen | [Ostamisen analyysi](purchasing-analytics-overview.md) |
+| Käyttöomaisuuden hallinta | [Käyttöomaisuuden analyysi](fa-analytics-overview.md) |
+
 
 ## Katso myös
 

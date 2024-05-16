@@ -22,21 +22,66 @@ Tuotteet voivat olla sekä varastonimikkeitä että palveluita. Lisätietoja on 
 
 Voit ottaa hyväksymistyönkulun käyttöön kaikissa ostoprosesseissa esimerkiksi silloin, kun pyydät talouspäälliköltä hyväksyntää suurille ostoille. Lisätietoja on kohdassa [Hyväksymistyönkulkujen käyttäminen](across-how-use-approval-workflows.md).
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkeleihin.
+Seuraavassa osissa kuvataan tehtäväsarja ja linkit tehtäviä kuvaaviin artikkeleihin.
+
+## Osto-ominaisuuksien käytön aloittaminen
+
+Ennen kuin ostat tavaroita, määritä, miten haluat hallita yrityksesi ostoprosesseja.
+
+|Vastaanottaja...| Katso |
+|---|---|
+| Määritä säännöt ja arvot, jotka määrittävät yrityksen ostokäytännöt. | [Ostojen määrittäminen](purchasing-setup-purchasing.md) |
+| Rekisteröi jokainen toimittaja, jolta ostat toimittajakortin kanssa. | [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md) |
+
+## Ostoanalyysit
+
+Tässä osassa kuvataan analyysityökaluja, joita voit käyttää, kun haluat saada ostoprosesseja.
+
+| Vastaanottaja... | Katso |
+| --- | --- |
+| Tutustu ostotietojen analysointimahdollisuuksiin. | [Ostamisen analyysin yleiskatsaus](purchasing-analytics-overview.md) |
+| Tee ostotietojen ad-hoc-analyysi suoraan luettelosivuilla ja kyselyissä. | [Ostotietojen ad-hoc-analyysi](ad-hoc-analysis-purchasing.md) |
+| Tutki valmiita ostoraportteja. | [Valmiit ostoraportit](purchase-reports.md) |
+
+## Tarjouksesta tilaukseen ja ostolaskuun
+
+Seuraavassa taulukossa kuvataan, miten yksinkertaisia ostoprosesseja käytetään.
 
 | Vastaanottaja | Katso |
 | --- | --- |
-| Luot ostolasku tallentaaksesi sopimuksesi asiakkaan kanssa tuotteiden ostamisesta tietyillä toimitus- ja maksuehdoilla. |[Ostojen kirjaus](purchasing-how-record-purchases.md) |
 |Luo toimittajan tarjouspyyntöä vastaava ostotarjous, jonka voit myöhemmin muuntaa ostotilaukseksi.|[Tarjousten pyytäminen](purchasing-how-request-quotes.md)|
 | Luo ostolasku kaikille valituille myyntilaskun riveille. |[Nimikkeiden ostaminen myyntiin](purchasing-how-purchase-products-sale.md) |
+| Luot ostolasku tallentaaksesi sopimuksesi asiakkaan kanssa tuotteiden ostamisesta tietyillä toimitus- ja maksuehdoilla. |[Ostojen kirjaaminen](purchasing-how-record-purchases.md) |
+| Lisätietoja tavasta, jolla [!INCLUDE[prod_short](includes/prod_short.md)] laskee nimikkeen tilausajankohdan, niin että se vastaanotetaan tiettynä päivänä.|[Ostojen päivämäärien laskeminen](purchasing-date-calculation-for-purchases.md)|
 |Tietoja siitä, mitä tapahtuu ostoasiakirjoja kirjattaessa.|[Ostojen kirjaaminen](ui-post-purchases.md)|
+
+Jos tarvitset monimutkaisempia ostoprosesseja, seuraavassa taulukossa on luettelo artikkeleista, joissa kerrotaan, miten voit tehdä [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmalla.
+
+| Vastaanottaja | Katso |
+| --- | --- |
 | Suorita toiminto maksamattomalle kirjatulle ostolaskulle hyvityslaskun automaattiseksi luomiseksi ja joko peruuta ostolasku tai luo se uudelleen, jotta voit tehdä korjauksia. |[Maksamattomien myyntilaskujen korjaaminen tai peruuttaminen](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Luo ostohyvityslasku palauttamaan tietty kirjattu ostolasku ilmaisemaan, mitkä tuotteet palautetaan toimittajalle ja mikä maksusumma peritään. |[Ostopalautusten tai -peruutusten käsittely](purchasing-how-process-purchase-returns-cancellations.md) |
+|Voit hallita toimittajan suurta määrää koskevaa ostositoumustasi, joka toimitetaan useassa erässä tietyn ajan kuluessa.|[Puiteostotilaukset käyttäminen](sales-how-to-create-blanket-sales-orders.md)|
+
+
+## Peruutetut tilaukset, hyvitykset ja palautukset
+
+Seuraavassa taulukossa kuvataan, miten ostojen peruutettuja tilauksia, hyvityksiä ja palautuksia käsitellään.
+
+| Vastaanottaja | Katso |
+| --- | --- |
 |Valmistaudu laskuttamaan kerralla useita vastaanottoja samalta toimittajalta yhdistämällä vastaanotot yhteen laskuun.|[Vastaanottojen yhdistäminen yhteen laskuun](purchasing-how-to-combine-receipts.md)|
 |Voit muuntaa esimerkiksi toimittajien sähköiset laskut ostolaskuiksi Business Centralissa.|[Sähköisten asiakirjojen vastaanottaminen ja muuntaminen](purchasing-how-to-receive-and-convert-electronic-documents.md)|
-| Lisätietoja tavasta, jolla [!INCLUDE[prod_short](includes/prod_short.md)] laskee nimikkeen tilausajankohdan, niin että se vastaanotetaan tiettynä päivänä.|[Ostojen päivämäärälaskenta](purchasing-date-calculation-for-purchases.md)|
+
+
+## Muut myyntiprosessit
+
+Seuraavassa taulukossa kuvataan, miten muita ostoprosesseja käytetään.
+
+| Vastaanottaja | Katso |
+| --- | --- |
 |Ratkaise ristiriita, kun samalla toimittajalla on ainakin tietuetta.|[Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)|
-|Voit hallita toimittajan suurta määrää koskevaa ostositoumustasi, joka toimitetaan useassa erässä tietyn ajan kuluessa.|[Puiteostotilaukset käyttäminen](sales-how-to-create-blanket-sales-orders.md)|
+
 
 ## Ulkoisen tiedoston numerot
 
@@ -46,10 +91,10 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 
 [Ostojen määrittäminen](purchasing-setup-purchasing.md)  
 [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md)  
+[Ostamisen analyysin yleiskatsaus](purchasing-analytics-overview.md)   
 [Ostovelkojen hallinta](payables-manage-payables.md)  
-[Projektien hallinta](projects-manage-projects.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
+[Yrityksen yleiset toiminnot](ui-across-business-areas.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
