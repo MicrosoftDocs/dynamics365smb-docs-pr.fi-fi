@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Kestävän kehityksen hallinnan yleiskatsaus
+# <a name="sustainability-management-overview"></a>Kestävän kehityksen hallinnan yleiskatsaus
 
 >[!IMPORTANT]
 >Tämä ominaisuus on käytettävissä Business Centralissa vuoden **2024 1. julkaisuaallosta** alkaen, ja kaikki viitelinkit otetaan käyttöön heti, kun ne ovat saatavilla.
@@ -43,7 +43,7 @@ Aloita Sustainability Managementin käyttäminen tutustumalla alla oleviin artik
 |[Toimintaohje: kasvihuonekaasupäästöjen (GHG) kirjaus](finance-sustainability-journal.md) | Tämän artikkelin avulla voit tutustua kaikentyyppisiin kestävyyspäiväkirjoihin. |
 
 
-## Katso myös  
+## <a name="see-also"></a>Katso myös
 [Vastuullisuusmääritys](finance-sustainability-setup.md)   
 [Kestävyystilien tilikartta ja kirjanpito](finance-sustainability-accounts-ledger.md)   
 [Toimintaohje: kasvihuonekaasupäästöjen kirjaus](finance-sustainability-journal.md)  
