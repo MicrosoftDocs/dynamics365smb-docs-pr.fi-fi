@@ -36,7 +36,7 @@ Tässä vaihekuvauksessa esitellään projektinhallinnan toimintoja. Projektien 
 - Katso, kuinka sopimuksen ja laskun arvot määritetään  
 - Salli ylimääräisen (laskuttamattoman) työn lisääminen aikatauluun.  
 
-### <a name="copying-a-job"></a>Projektin kopioiminen
+### <a name="copying-a-project"></a>Projektin kopioiminen
 
  Tässä vaihekuvauksessa keskitytään koko projektin tai sen osa kopioimiseen, mikä vähentää tietojen manuaalisen syöttämisen tarvetta ja parantaa tarkkuutta. Se sisältää seuraavat:  
 
@@ -223,11 +223,11 @@ Seuraavassa toimenpiteessä luodaan projektipäiväkirjan erä Mariannea varten,
 
 Rivit kirjataan.  
 
-## <a name="creating-and-posting-a-job-sales-invoice"></a>Projektin myyntilaskun luominen ja kirjaaminen
+## <a name="creating-and-posting-a-project-sales-invoice"></a>Projektin myyntilaskun luominen ja kirjaaminen
 
  Seuraavaksi Marianne voi luoda uuden laskun koko projektia tai projektin osaa varten. Marianne voi myös liittää laskun saman asiakkaan toiseen, samaa projektia koskevaan laskuun. Tällöin Marianne laskuttaa koko projektista, koska projekti on nyt valmis.  
 
-### <a name="to-create-a-job-sales-invoice"></a>Projektin myyntilaskun luominen
+### <a name="to-create-a-project-sales-invoice"></a>Projektin myyntilaskun luominen
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten vastaava linkki.  
 2.  Valitse ensin aiemmin luotu projekti ja sitten **Luo projektin myyntilasku** -toiminto.  
@@ -261,7 +261,7 @@ Rivit kirjataan.
 
  CRONUS kanssa on tehty sopimus kokoushuoneiden määrittämiseksi. Projektipäällikkö Thomas tarvitsee hyvän yleiskäsityksen projektin edellyttämistä tehtävistä sekä kuhunkin tehtävään liittyvistä budjetoiduista ja kertyneistä kustannuksista. Tarkoitus on myös selvittää projektin sopimuksenmukainen kokonaishinta sekä tähän mennessä laskutettu summa. Asiakkaan kanssa on päästy sopimukseen projektin kiinteästä hinnoittelusta.  
 
-### <a name="to-manage-fixed-pricing-in-jobs"></a>Kiinteän hinnoittelun hallinta projekteissa
+### <a name="to-manage-fixed-pricing-in-projects"></a>Kiinteän hinnoittelun hallinta projekteissa
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten vastaava linkki.  
 2. Valitse ensin **Espoo**-projektinumero ja sitten **Projektitehtävärivit**- toiminto.  

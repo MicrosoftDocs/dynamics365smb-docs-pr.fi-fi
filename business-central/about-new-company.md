@@ -11,7 +11,7 @@ ms.search.keywords: 'company, setup wizard'
 ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.service: dynamics-365-business-central
 ---
-# Uusien yritysten luominen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa
+# <a name="create-new-companies-in-"></a>Uusien yritysten luominen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in liiketoimintayksikölle tai yritykselle kuuluvaa liiketoimintatietojen säilöä kutsutaan *yritykseksi*. Kun rekisteröidyt [!INCLUDE[prod_short](includes/prod_short.md)]iin, saat käyttöösi esimerkkiyrityksen ja tyhjän yrityksen, jonka nimi on *Oma yritys*. Yritysten välillä siirtyminen on helppoa: valitse vain **Omat asetukset** ja siirry toiseen yritykseen. Voit myös luoda uusia yrityksiä [!INCLUDE[prod_short](includes/prod_short.md)]issa yrityksen tarpeiden mukaan.  
 
@@ -22,7 +22,7 @@ Kun luot uuden yrityksen, asetusten ohjattu määritysopas auttaa varmistamaan, 
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## Valitse oikea malli
+## <a name="choose-the-right-template"></a>Valitse oikea malli
 
 Jos päätät lisätä yrityksen [!INCLUDE[prod_short](includes/prod_short.md)]iin, pääset alkuun käyttämällä ohjattua **Luo uusi yritys** -asetusten määritystä. Asetusoppaan voi valita **Yritykset**-sivulla ja **Omat asetukset** -kohdassa **Yritys**-kentän valintaruudussa.  
 
@@ -45,7 +45,7 @@ Jos haluat, että uuden yrityksen käytön aloittaminen on helppoa, valitse **Tu
 
 Järjestelmänvalvoja saa lisätietoja kokeiluversioista ja tilauksista [täältä](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
-## Kopioi yritys
+## <a name="copy-a-company"></a>Kopioi yritys
 
 **Yritykset** -sivulla voit käyttää **Kopiointi**-toimintoa toisen yrityksen luomiseen olemassa olevan yrityksen sisällön perusteella. Yrityksen kopioimisesta on hyötyä esimerkiksi silloin, kun haluat testata yritystä häiritsemättä tuotantotietoja.
 
@@ -56,7 +56,7 @@ Järjestelmänvalvoja saa lisätietoja kokeiluversioista ja tilauksista [täält
 
 [!INCLUDE [dataverse-copy-company](includes/dataverse-copy-company.md)]
 
-## Määritä yritys
+## <a name="set-up-the-company"></a>Määritä yritys
 
 Kun kirjaudut uuteen yritykseen, ohjattu **Yrityksen asennus** -asetusten ohjattu määritysopas helpottaa aloittamista. Opas kysyy yritystä koskevia tietoja, kuten osoite, pankkitiedot ja varaston arvostusmenetelmä. Nämä tiedot muodostavat perustan monille alueille [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa, joten niitä ei tarvitse määrittää manuaalisesti.  
 
@@ -64,24 +64,24 @@ Kun kirjaudut uuteen yritykseen, ohjattu **Yrityksen asennus** -asetusten ohjatt
 
 Kun perustiedot on annettu, voi määrittää loput keskeiset alueet. Sen jälkeen voi aloittaa liiketoimintatietojen, kuten asiakkaiden ja toimittajien, lisäämisen. Lisätietoja on kohdassa [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman määrittäminen](setup.md).  
 
-## Yritykset ja ympäristöt
+## <a name="companies-and-environments"></a>Yritykset ja ympäristöt
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
 Lisätietoja on kohdassa [Siirtyminen toiseen yritykseen tai ympäristöön](ui-organization-switch.md). Lisätietoja ympäristöistä: [Business Central Onlinen infrastruktuurin ymmärtäminen](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology) (vain englanniksi).  
 
-## Yrityksen nimen muuttaminen
+## <a name="changing-a-companys-name"></a>Yrityksen nimen muuttaminen
 
 Kun olet luonut yrityksen, sen nimeä ei voi muuttaa. Voit kuitenkin muuttaa sen **näyttönimeä** eli tekstiä, joka näkyy kaikkialla sovelluksessa yrityksen nimenä.  
 
 > [!TIP]
 > Voit nimetä yrityksen uudelleen, jos käytät [!INCLUDE[prod_short](includes/prod_short.md)] on-premises -versiota.
 
-## Lisää Contoso Coffee
+## <a name="add-contoso-coffee"></a>Lisää Contoso Coffee
 
 Contoso Coffee -sovellus sisältää esittelytietoja, joiden avulla voit tutkia [!INCLUDE [prod_short](includes/prod_short.md)]-ohjelman kehittyneitä ominaisuuksia. Etsi sovellus AppSourcessa ja asenna se tyhjään yritykseen, esimerkiksi yritykseen eristysympäristössä. Lisätietoja on kohdassa [Johdatus Contoso Coffee -demotietoihin](contoso-coffee/contoso-coffee-intro.md).  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Business Central -sovelluksen mukauttaminen](ui-customizing-overview.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  

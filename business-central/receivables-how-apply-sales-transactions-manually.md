@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="reconcile-customer-payments-with-the-cash-receipt-journal-or-from-customer-ledger-entries"></a>Asiakkaan maksujen täsmäyttäminen kassapäiväkirjan avulla tai asiakastapahtumista
+# <a name="reconcile-customer-payments-with-a-cash-receipt-journal-or-from-customer-ledger-entries"></a>Asiakkaan maksujen täsmäyttäminen kassapäiväkirjan avulla tai asiakastapahtumista
 
 Kun asiakkaalta saadaan käteismaksu tai asiakkaalle annetaan käteishyvitys, voit suorittaa maksun tai hyvityksen avoimeen debet- tai kredit-tapahtumaan sen sulkemiseksi. Voit määrittää kohdistettavan summan. Voit esimerkiksi kohdistaa osamaksut asiakastapahtumiin. Asiakastapahtumien sulkeminen varmistaa, että tiedot, kuten asiakkaan tilastotiedot, tiliotteet ja viivästyskulut, ovat päivitettyjä.
 

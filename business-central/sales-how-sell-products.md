@@ -11,7 +11,7 @@ ms.date: 02/06/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Tuotteiden myyminen asiakkaan myyntitilauksen avulla
+# <a name="sell-products-with-a-customer-sales-order"></a>Tuotteiden myyminen asiakkaan myyntitilauksen avulla
 
 Tämä artikkeli antaa ohjeita siitä, milloin sinun tulee käyttää asiakkaan myyntitilausta laskun lisäksi. Jos myyntiprosessi edellyttää, että lähetät vain osan tilauksesta, ehkä siksi, että koko määrä ei ole heti saatavilla, sinun on käsiteltävä kyseinen myynti tekemällä myyntitilaus.
 
@@ -23,7 +23,7 @@ Yritysympäristöissä, joissa asiakas maksaa heti (kuten PayPal-maksuna tai kä
 
 Voit luoda jopa suoraan maksettavia tilauksia rekisteröimättömille asiakkaille, kun määrität ensin käteisasiakaskortin, jossa viitataan myyntitilaukseen. Lisätietoja kohdassa [Käteisasiakkaiden määrittäminen](finance-how-to-set-up-cash-customers.md).
 
-## Luo myyntitilaus
+## <a name="create-a-sales-order"></a>Luo myyntitilaus
 
 > [!NOTE]  
 > Seuraavassa oletetaan, että asiakas on jo määritetty. Lisätietoja tämän tekemisestä on kohdassa [Uusien asiakkaiden rekisteröiminen](sales-how-register-new-customers.md).
@@ -87,17 +87,17 @@ Asiakkaan ensisijainen asiakirjojen vastaanottomenetelmä näkyy **Kirjaa ja lä
 
 Nyt järjestelmässä luodaan liittyvä nimike ja asiakastapahtumat. Myyntitilaus tulostetaan PDF-asiakirjana. Kun myyntitilaus on kirjattu kokonaan, se poistetaan myyntitilausluettelosta ja korvataan uusilla kirjattujen myyntilaskujen luettelon ja kirjattujen myyntitoimitusten luettelon asiakirjoilla.  
 
-## Ulkoisen tiedoston numero
+## <a name="external-document-number"></a>Ulkoisen tiedoston numero
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Summan sisältävien kenttien käsitteleminen
+## <a name="working-with-amount-fields"></a>Summan sisältävien kenttien käsitteleminen
 
 Summat näyttävien kenttien arvot voivat olla positiivisia tai negatiivisia sen mukaan, vastaako arvo kredit- vai debet-summaa. Tässä videossa kuvataan, miten summia näyttäviä kenttiä käsitellään.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Lasku – myynti](sales-how-invoice-sales.md)  
 [Myynnin kirjaaminen](ui-post-sales.md)  

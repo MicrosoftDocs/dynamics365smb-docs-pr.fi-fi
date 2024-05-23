@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Varastotietojen ad-hoc-analyysi
+# <a name="ad-hoc-analysis-of-inventory-data"></a>Varastotietojen ad-hoc-analyysi
 
 Tässä artikkelissa kerrotaan, kuinka voit käyttää **Tietojen analysointi** -ominaisuutta varastotietojen analysointiin suoraan luettelosivuilta ja kyselyistä. Sinun ei tarvitse suorittaa raporttia tai siirtyä toiseen sovellukseen, kuten Exceliin. Ominaisuus tarjoaa vuorovaikutteisen ja monipuolisen tavan laskea, tiivistää ja tarkastella tietoja. Sen sijaan, että raportteja suoritetaan vaihtoehdoilla ja suodattimilla, voit lisätä useita välilehtiä, jotka edustavat erilaisia tehtäviä tai näkymiä tiedoista. Esimerkkejä ovat "vanheneva varasto", "Parhaat myyjät", tai mikä tahansa muu näkymä, jonka voit kuvitella. Lisätietoja **Tietojen analysointi** -ominaisuuden käytöstä on kohdassa [analyysitilassa olevien luettelo- ja kyselytietojen analysointi](analysis-mode.md).
 
@@ -20,7 +20,7 @@ Käytä seuraavia luettelosivuja varastoprosessien tapauskohtaiseen analysointii
 
 - [Nimiketapahtumat](https://businesscentral.dynamics.com/?page=38)
 
-## Varastoinnin ad-hoc-analyysiskenaariot
+## <a name="inventory-ad-hoc-analysis-scenarios"></a>Varastoinnin ad-hoc-analyysiskenaariot
 
 **Tietojen analysointi** -toiminnon avulla voit tarkistaa tiedot nopeasti ja tehdä tapauskohtaisia analyysejä seuraavasti:
 
@@ -38,7 +38,7 @@ Seuraavissa osissa on esimerkkejä varastoskenaarioista [!INCLUDE [prod_short](i
 | Varaston läpikulkumäärä | Hanki yleiskuvaus varaston ostoista ja myynneistä kuukauden tai vuosineljänneksen mukaan. | [Nimiketapahtumat](https://businesscentral.dynamics.com/?page=38) | **Kirjauspvm-vuosi**, **Kirjauspvm-kuukausi**, **Nimikkeen nro**, **Määrä**, **Myyntisumma**, **Kustannussumma (todellinen)** ja **Kirjauspvm-kuukausi** |
 | [Varastosiirrot] | Tutustu varaston tavaroiden siirtoon sijaintien välillä. | [Nimiketapahtumat](https://businesscentral.dynamics.com/?page=38) | **Sijaintikoodi**, **Määrä**, **Kirjauspvm**, **Nimikkeen nro** |
 
-## Esimerkki: Käytettävissä oleva varasto
+## <a name="example-inventory-on-hand"></a>Esimerkki: Käytettävissä oleva varasto
 
 Voit analysoida varastossa olevia nimikkeitä noudattamalla seuraavia vaiheita:
 
@@ -54,7 +54,7 @@ Seuraavassa kuvassa on näiden työvaiheiden tulokset.
 
 :::image type="content" source="media/data-analysis-inventory-on-hand.png" alt-text="Esimerkki varastosaldotietojen analyysin tekemisestä." lightbox="media/data-analysis-inventory-on-hand.png":::
 
-## Esimerkki: seuraa vanhentuvaa tai vanhaa varastoa
+## <a name="example-track-expiring-or-old-stock"></a>Esimerkki: seuraa vanhentuvaa tai vanhaa varastoa
 
 Seuraa näitä ohjeita hankkiaksesi yleiskuvauksen varastossa olevista nimikkeistä, jotka ovat olleet varastossa pitkään ja jotka eivät myy hyvin:
 
@@ -69,7 +69,7 @@ Seuraavassa kuvassa on näiden työvaiheiden tulokset.
 
 :::image type="content" source="media/data-analysis-inventory-dead-stock.png" alt-text="Esimerkki jäännöserän tietojen analysoinnista nimiketapahtumamerkintöjen sivulla." lightbox="media/data-analysis-inventory-dead-stock.png":::
 
-## Esimerkki: Palautetut nimikkeet palautuksen syyn mukaan
+## <a name="example-returned-items-by-return-reason"></a>Esimerkki: Palautetut nimikkeet palautuksen syyn mukaan
 
 Voit analysoida palautettuja nimikkeitä niiden palautuksen syiden mukaan lajiteltuina noudattamalla seuraavia vaiheita:
 
@@ -83,7 +83,7 @@ Voit analysoida palautettuja nimikkeitä niiden palautuksen syiden mukaan lajite
 1. Lisää muut analyysiin haluamasi kentät ja ota ne käyttöön **Sarakkeet**-alueella. Voit esimerkiksi lisätä **kirjauspvm**-, **Asiakirjatyyppi**-, **Nimikkeen nro.**- ja**Asiakirjan nro.** -kentät.
 1. Nimeä analyysivälilehden nimeksi uudelleen **Palautetut nimikkeet palautussyyn mukaan** tai tuotteiksi, jotka kuvaavat analyysiä.  
 
-## Esimerkki: Varaston läpikulkumäärä
+## <a name="example-inventory-throughput"></a>Esimerkki: Varaston läpikulkumäärä
 
 1. Avaa [Nimikkeen kirjanpitomerkinnät](https://businesscentral.dynamics.com/?page=38) -luettelosivu ja valitse :::image type="content" source="media/analysis-mode-icon.png" alt-text="Siirry analyysitilaan."::: ottaaksesi analyysitilan käyttöön.
 1. Siirry **Sarakkeet**-valikkoon ja poista kaikki sarakkeet (valitse **Haku**-kentän vieressä oleva ruutu oikealla puolella).
@@ -93,7 +93,7 @@ Voit analysoida palautettuja nimikkeitä niiden palautuksen syiden mukaan lajite
 1. Vedä **Kirjauksen päivä kuukausi** -kentät **Sarakeryhmät**-alueeseen.
 1. Nimeä analyysivälilehden nimeksi uudelleen **Varaston läpikulkumäärä kuukausittain** tai tuotteiksi, jotka kuvaavat analyysiä.  
 
-## Varastosiirrot
+## <a name="inventory-movements"></a>Varastosiirrot
 
 Voit seurata varaston siirtoja sijaintien välillä noudattamalla seuraavia vaiheita:
 
@@ -107,7 +107,7 @@ Voit seurata varaston siirtoja sijaintien välillä noudattamalla seuraavia vaih
    > [!TIP]
    > Jos lisäät Kirjauspvm-kentän, voit seurata myös ajan mittaan tapahtuvia siirtoja.
 
-## Varaston ad-hoc-analyysin tietopohja
+## <a name="data-foundation-for-ad-hoc-analysis-on-inventory"></a>Varaston ad-hoc-analyysin tietopohja
 
 Kun kirjaat myyntitilauksen [!INCLUDE [prod_short](includes/prod_short.md)] päivittää asiakkaan tilin, pääkirjanpidon ja nimiketapahtumat.
 
@@ -117,7 +117,7 @@ Kun kirjaat ostoasiakirjan [!INCLUDE [prod_short](includes/prod_short.md)] päiv
 
 - Kullekin ostoriville luodaan soveltuvin osin tapahtumia **Nimiketapahtuma**-taulukkoon (jos ostorivi on Nimike-tyyppinen). Lisäksi ostoasiakirjat tallennetaan aina **Tavaran vastaanoton otsikko**- ja **Ostolaskun otsikko** -taulukoihin. Lisätietoja on kohdassa [Ostojen kirjaaminen](purchasing-how-record-purchases.md#posting-purchases).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Luettelo- ja kyselytietojen analysoiminen analyysitilassa](analysis-mode.md)  
 [Varaston analyysien yleiskatsaus](inventory-analytics-overview.md)  

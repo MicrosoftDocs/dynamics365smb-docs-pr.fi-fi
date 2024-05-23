@@ -11,7 +11,7 @@ ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Miten hyväksymistyönkulkuja käytetään
+# <a name="how-to-use-approval-workflows"></a>Miten hyväksymistyönkulkuja käytetään
 
 Jos organisaatiosi henkilön pitää hyväksyä tietue, kuten ostoasiakirja tai asiakaskortti, hänelle lähetetään hyväksyntäpyyntö työnkulun osana. Hyväksyjä saa työnkulun määrityksen mukaan ilmoituksen siitä, että tietue odottaa hänen hyväksyntäänsä.
 
@@ -21,7 +21,7 @@ Tässä artikkelissa kuvattujen hyväksyntätyönkulkujen lisäksi voit suoritta
 
 Ostoasiakirjojen, myyntiasiakirjojen, maksupäiväkirjojen, asiakaskorttien ja nimikekorttien perushyväksyntätyönkulut ovat valmiita käynnistettäväksi oppaina. Lue lisätietoja kohdasta [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).
 
-## Tietueen hyväksynnän pyytäminen
+## <a name="request-a-record-approval"></a>Tietueen hyväksynnän pyytäminen
 
 Hyväksynnän käyttäjä suorittaa seuraavan tehtävän.
 
@@ -32,7 +32,7 @@ Hyväksyntämerkinnän tila muuttuu **Luotu** -tilasta**Avoin**-tilaksi. Tietuee
 
 Kun kaikki vaaditut hyväksyjät ovat hyväksyneet tietueen, sen tilaksi muuttuu **Vapautettu**. Tämän jälkeen voit jatkaa tietueeseen liittyviä tehtäviä.
 
-## Peruuta hyväksymispyyntö
+## <a name="cancel-approval-requests"></a>Peruuta hyväksymispyyntö
 
 Hyväksymisoikeudet omaava hyväksynnän käyttäjä suorittaa seuraavan tehtävän.
 
@@ -42,7 +42,7 @@ Tilanne voi toisinaan edellyttää, että asiakkaan täytyy tehdä muutoksia til
 
 Kun hyväksyntäpyyntö on peruutettu, siihen liittyvän hyväksyntämerkinnän tilaksi tulee **Peruutettu**. Tietueen tila muuttuu **Odottaa hyväksyntää** -tilasta**Avoin**-tilaksi. Tässä vaiheessa hyväksyntäprosessi voi alkaa uudelleen.
 
-## Hyväksymispyyntöjen hyväksyminen tai hylkääminen
+## <a name="approve-or-reject-approval-requests"></a>Hyväksymispyyntöjen hyväksyminen tai hylkääminen
 
 Hyväksymisoikeudet omaava hyväksynnän käyttäjä suorittaa seuraavan tehtävän.
 
@@ -58,7 +58,7 @@ Jos hyväksyjähierarkia on määritelty, tietueen tilaksi määritellään **Od
 
 Hyväksynnän tila muuttuu samanaikaisesti **Luodusta** **Avoimeksi** heti, kun tietueelle luodaan hyväksymispyyntö. Jos pyyntö hylätään, hyväksynnän tilaksi muutetaan **Hylätty**. Tila pysyy **Avoimena** tai **Hylättynä** kunnes kaikki hyväksyjät ovat hyväksyneet pyynnön.
 
-## Delegoi hyväksymispyynnöt
+## <a name="delegate-approval-requests"></a>Delegoi hyväksymispyynnöt
 
 Hyväksymisoikeudet omaava hyväksynnän käyttäjä suorittaa seuraavan tehtävän.
 
@@ -69,7 +69,7 @@ Työnkulun tukkiutumisen tai tietueiden kasaantumisen estämiseksi hyväksyjä j
 
 Ilmoitus hyväksyttävästä pyynnöstä lähetetään sijaiselle.
 
-## Myöhässä olevien hyväksymispyyntöjen hallinta
+## <a name="manage-overdue-approval-requests"></a>Myöhässä olevien hyväksymispyyntöjen hallinta
 
 Hyväksymisoikeudet omaava hyväksynnän käyttäjä suorittaa seuraavan tehtävän.
 
@@ -80,7 +80,7 @@ Sinun on säännöllisin väliajoin muistutettava hyväksynnän työnkulun käyt
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Erääntyneet hyväksymispyynnöt** ja valitse sitten vastaava linkki.
 2. Valitse **Myöhässä olevat hyväksyntäpyynnöt** -sivulla **Lähetä erääntyneiden hyväksyntöjen ilmoitukset** -toiminto.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Hyväksymistyönkulkujen käyttäminen](across-use-workflows.md)  
 [Työnkulku](across-workflow.md)  
