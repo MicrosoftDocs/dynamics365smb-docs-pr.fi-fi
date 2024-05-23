@@ -34,7 +34,8 @@ Seuraavissa osissa on esimerkkejä käyttöomaisuusskenaarioista [!INCLUDE [prod
 | Alue | Vastaanottaja... | Avaa tämä sivu analyysitilassa | Näiden kenttien käyttäminen |
 | ---- | ----- | ------------------------------- |------------------- |
 | [Käyttöomaisuus (nykyarvo)](#example-fixed-assets-current-value) | Seuraa käyttöomaisuuden arvoa sekä kaikissa käyttöomaisuuksissa että yhdessä käyttöomaisuudessa. | [KO-tapahtumat](https://businesscentral.dynamics.com/?page=5604) | **Poistokirja**, **KO-nro**, **KO:n kirjauspvm**, **KO:n kirjaustyyppi** ja **Summa** |
-|[Esimerkki: käyttöomaisuuden poistot ajan mittaan](#example-fixed-asset-depreciations-over-time) | Seuraa poistoja ajan mittaan sekä kaikissa käyttöomaisuuksissa että yhdessä käyttöomaisuudessa. | [KO-tapahtumat](https://businesscentral.dynamics.com/?page=5604) | **Poistokirja**, **KO-nro**, **KO:n kirjausvuosi**, **KO:n kirjauskuukausi**, **Summa** ja **KO:n kirjaustyyppi** |
+| [Resurssien arvon muutokset ajan mittaan](#example-asset-value-changes-over-time) | Resurssien arvon muutosten seuranta ajan mittaan. | [KO-tapahtumat](https://businesscentral.dynamics.com/?page=5604) | **KO:n kirjaustyyppi**, **KO:n kirjauspvm** ja **Summa**- |
+|[Käyttöomaisuuden poistot ajan mittaan](#example-fixed-asset-depreciations-over-time) | Seuraa poistoja ajan mittaan sekä kaikissa käyttöomaisuuksissa että yhdessä käyttöomaisuudessa. | [KO-tapahtumat](https://businesscentral.dynamics.com/?page=5604) | **Poistokirja**, **KO-nro**, **KO:n kirjausvuosi**, **KO:n kirjauskuukausi**, **Summa** ja **KO:n kirjaustyyppi** |
 
 ### Esimerkki: Käyttöomaisuuden nykyarvo
 
@@ -51,13 +52,29 @@ Seuraavassa kuvassa on näiden työvaiheiden tulokset.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png" alt-text="Esimerkki siitä, miten tietoja analysoidaan KO-tapahtumat-sivulla omaisuuserän arvon katsomiseksi." lightbox="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png":::
 
+### Esimerkki: Resurssien arvon muutosten seuranta ajan mittaan
+
+Voit seurata käyttöomaisuuden arvon muutoksia ajan mittaan noudattamalla seuraavia vaiheita:
+
+1. Avaa [KO:n kirjanpitomerkinnät](https://businesscentral.dynamics.com/?page=5604) -luettelosivu ja valitse :::image type="content" source="media/analysis-mode-icon.png" alt-text="Siirry analyysitilaan."::: ottaaksesi analyysitilan käyttöön.
+1. Siirry **Sarakkeet**-valikkoon ja poista kaikki sarakkeet (valitse **Haku**-kentän vieressä oleva ruutu oikealla puolella).
+1. Ota **pivot-tila** käyttöön (sijaitsee **haku**-kentän yläpuolella oikealla).
+1. Vedä **KO:n kirjaustyyppi** -kenttä **Riviryhmät**-alueelle.
+1. Vedä **KO:n kirjausvuosi**- ja **KO:n kirjauskuukausi** -kentät **Sarakeselitteet**-alueeseen.
+1. Vedä **summa**-kenttä **Arvot**-alueelle.
+1. Nimeä analyysivälilehden nimeksi uudelleen **Resurssin arvon muutokset ajan mittaan** tai tuotteiksi, jotka kuvaavat analyysiä.
+
+Seuraavassa kuvassa on näiden työvaiheiden tulokset.
+
+:::image type="content" source="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png" alt-text="Esimerkki siitä, miten tietoja analysoidaan KO-tapahtumat-sivulla nähdäksesi resurssin arvon muutokset ajan mittaan." lightbox="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png":::
+
 ### Esimerkki: käyttöomaisuuden poistot ajan mittaan
 
 Voit seurata yhden tai useamman käyttöomaisuuserän poistoa noudattamalla seuraavia vaiheita:
 
 1. Avaa [KO:n kirjanpitomerkinnät](https://businesscentral.dynamics.com/?page=5604) -luettelosivu ja valitse :::image type="content" source="media/analysis-mode-icon.png" alt-text="Siirry analyysitilaan."::: ottaaksesi analyysitilan käyttöön.
 1. Siirry **Sarakkeet**-valikkoon ja poista kaikki sarakkeet (valitse **Haku**-kentän vieressä oleva ruutu oikealla puolella).
-1. Ota **pivot*-tila** käyttöön (sijaitsee **haku**-kentän yläpuolella oikealla).
+1. Ota **pivot-tila** käyttöön (sijaitsee **haku**-kentän yläpuolella oikealla).
 1. Vedä **poistokirja** ja **KO-nro.** -kentät **riviryhmät**-alueelle.
 1. Vedä **KO:n kirjausvuosi**- ja **KO:n kirjauskuukausi** -kentät **Sarakeselitteet**-alueeseen.
 1. Vedä **summa**-kenttä **Arvot**-alueelle.
@@ -71,6 +88,12 @@ Seuraavassa kuvassa on näiden työvaiheiden tulokset.
 ## Käyttöomaisuuden ad-hoc-analyysin tietopohja
 
 Kun käyttöomaisuuspäiväkirjoja kirjataan, [!INCLUDE [prod_short](includes/prod_short.md)] luo tapahtumat **KO-tapahtuma** -taulukkoon. Tämän vuoksi käyttöomaisuuden tapauskohtainen analyysi tehdään yleensä [KO-tapahtumat](https://businesscentral.dynamics.com/?page=5604)-sivulla.
+
+## Avustajat
+
+*Microsoft ylläpitää tätä artikkelia. Osan esimerkeistä on alun perin kirjoittanut seuraava avustaja.*
+
+* [Aldona Stec](https://www.linkedin.com/in/aldona-stec-25283bb1) | [!INCLUDE[prod_short](includes/prod_short.md)] konsultti
 
 ## Katso myös
 

@@ -3,13 +3,13 @@ title: Kirjauksen kumoaminen kirjaamalla palautustapahtuma
 description: 'Jos huomaat virheen yleisen päiväkirjan kirjauksessa, voit käyttää Peruuta tapahtuma -toimintoa kumotaksesi kirjauksen ja luodaksesi oikean kirjausketjun.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/28/2023
+ms.date: 05/07/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen
+# Päiväkirjakirjausten peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen
 
 Käänteiset päiväkirjan kirjaukset ovat hyödyllisiä esimerkiksi virheiden korjaamiseen ja vanhan jaksotustapahtuman tyhjentämiseen ennen uuden syöttämistä. Käänteinen kirjaus on sama kuin alkuperäinen kirjaus, mutta sillä on vastakkainen merkki **Summa**-kentässä. Käänteisellä kirjauksella tulee olla sama asiakirjanumero ja kirjauspäivämäärä kuin alkuperäisessä kirjauksessa. Kun peruutat tapahtuman, lisää tapahtuma korjattuna.
 
@@ -27,10 +27,8 @@ Tapahtumia voi peruuttaa kaikista **Tapahtumakirjaukset**-sivuilta. Seuraava men
 
 > [!NOTE]
 > Kirjauksen on oltava peräisin päiväkirjan kirjauksesta.
->
-> Et voi peruuttaa tapahtumia, jotka on kirjattu projektin tiedoilla tai joilla on realisoituneet voitot ja tappiot samassa tapahtumassa.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon tapahtumat** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon tapahtumat** ja valitse sitten vastaava linkki.
 2. Valitse ensin peruutettava tapahtuma ja sitten **Peruuta tapahtuma** -toiminto.
 3. Valitse **Peruuta tapahtumakirjaukset**-sivulla **Peruuta**-toiminto.
 4. Vahvista peruutus valitsemalla **Kyllä**.
@@ -84,9 +82,20 @@ Vaiheet ovat samankaltaisia kirjatuissa palautuskuiteissa.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
+## Peruuta asiakkaan ja toimittajan pääkirjanpidon kirjaus toteutuneella voitolla tai tappiolla
+
+**Peruuta tapahtuma** -toiminnon avulla voit peruuttaa maksut, jotka on kohdistettu tapahtumiin, jotka ovat peräisin ulkomaan valuutasta ja joita on muutettu Vaihtokurssin muutos -eräajon avulla. Ominaisuus toimii sekä ostoissa että myynneissä.
+
+Seuraavassa on yksinkertainen esimerkki, joka kuvaa, miten se toimii:
+
+1. Ulkomaan valuuttaa käyttävän asiakkaan myyntilaskun kirjaaminen.
+2. Muuta valuutan vaihtokurssia.
+3. Kirjaa laskuun kohdistettu maksu.
+4. Poista maksutapahtuman kohdistus ja peruuta se esimerkiksi **Asiakastapahtumat**-sivulta.
+
 ## Katso myös
 
-[Kokoonpanon kirjauksen kumoaminen](assembly-how-to-undo-assembly-posting.md)  
+[Kokoonpanon kirjaamisen kumoaminen](assembly-how-to-undo-assembly-posting.md)  
 [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
 [Rahoitus](finance.md)  

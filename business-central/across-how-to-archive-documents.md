@@ -3,14 +3,14 @@ title: Myyntien ja myyntiasiakirjojen arkistointi
 description: 'Voit arkistoida myynti-ja ostotilauksia, tarjouksia, palautustilauksia ja puitetilauksia.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 02/26/2024
 ms.custom: bap-template
 ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ms.service: dynamics-365-business-central
 ---
-# <a name="archive-documents"></a>Asiakirjojen arkistoiminen
+# Asiakirjojen arkistoiminen
 
 Voit arkistoida myynti-ja ostotilauksia, tarjouksia, palautustilauksia ja puitetilauksia. Jos käytössä projektinhallinnan ominaisuuksia, projekteja voidaan myös arkistoida. Asiakirjoja ja projekteja voidaan arkistoida useita kertoja, jolloin kullakin kerralla tallennetaan erilainen arkistoitu versio.
 
@@ -21,7 +21,7 @@ Jos kyse on myyntiasiakirjoista, joiden alkuperäinen versio on vielä olemassa 
 
 Jos kyse on arkistoiduista asiakirjoista, joiden alkuperäinen versio on poistettu, voit käyttää sisällön uudelleen kopioimalla tiedot esimerkiksi **Kopioi asiakirjasta** -toiminnolla  
 
-## <a name="to-set-up-automatic-document-archiving"></a>Asiakirjojen automaattisen arkistoinnin määrittäminen
+## Asiakirjojen automaattisen arkistoinnin määrittäminen
 
 Arkistointi voidaan automatisoida luomaan uusi versio arkistoidusta asiakirjasta, kun joku tekee seuraavat asiat:
 
@@ -43,7 +43,7 @@ Seuraavassa taulukossa kuvataan **Arkistoi tarjoukset**-kentän vaihtoehdot.
 |**Kysymys**|Kysy käyttäjältä myyntitarjousten arkistoinnista tarjousten poistamisen yhteydessä.|
 |**Aina**|Arkistoi myyntitarjoukset automaattisesti poistamisen yhteydessä.|
 
-## <a name="to-manually-archive-a-sales-order"></a>Myyntitilauksen arkistointi manuaalisesti
+## Myyntitilauksen arkistointi manuaalisesti
 
 Seuraavassa kuvataan, miten myyntitilaus arkistoidaan manuaalisesti. Vaiheet ovat samanlaiset kaikissa arkistoitavissa asiakirjoissa ja projekteissa.
 
@@ -53,7 +53,7 @@ Seuraavassa kuvataan, miten myyntitilaus arkistoidaan manuaalisesti. Vaiheet ova
 
 Myyntitilaus on arkistoitu. Voit tarkastella sitä **Arkistoidut myyntitilaukset** -sivulla.
 
-## <a name="to-restore-a-non-posted-sales-document-or-a-project-from-the-archive"></a>Kirjaamattomien myyntiasiakirjan tai projektin palauttaminen arkistosta
+## Kirjaamattomien myyntiasiakirjan tai projektin palauttaminen arkistosta
 
 Seuraavaksi käsitellään menetelmä, jolla arkistoitu myyntitilaus palautetaan alkuperäiseen myyntitilaukseen. Asiakirjan palauttaminen on mahdollista vain, jos alkuperäistä asiakirjaa ei ole kirjattu. Vaiheet ovat samankaltaiset kaikille tilauksille, puitetilauksille, palautustilauksille ja tarjouksille sekä projekteille.
 
@@ -62,7 +62,7 @@ Seuraavaksi käsitellään menetelmä, jolla arkistoitu myyntitilaus palautetaan
 
 Alkuperäisen myyntitilauksen tai projektin sisältö korvataan arkistoidulla versiolla.
 
-## <a name="to-delete-archived-versions"></a>Arkistoitujen versioiden poistaminen
+## Arkistoitujen versioiden poistaminen
 
 Säilytyskäytännön avulla voidaan tyhjentää arkistoidut versiot, joita ei enää tarvita. Säilytyskäytäntöjen avulla järjestelmänvalvojat voivat määrittää, kuinka kauan he haluavat säilyttää tietoja. He voivat esimerkiksi määrittää käytännön, joka poistaa tiedot vanhentumispäivämäärän jälkeen. Lisätietoja on kohdassa [Säilytyskäytäntöjen määrittäminen](admin-data-retention-policies.md).
 
@@ -72,7 +72,7 @@ Arkistoitujen asiakirjojen ja projektien säilytyskäytäntöjen luomista varten
 * Kun määrität säilytyskäytännön, voit määrittää käytännön poistamaan kaikki arkistoidut versiot uusinta lukuun ottamatta. Versioita voi olla esimerkiksi 10 ja haluat säilyttää viimeisimmän kopion. 
 * [!INCLUDE [prod_short](includes/prod_short.md)] Central laskee asiakirjojen vanhentumispäivämäärän viimeisimmän arkistoidun version päivämäärän perusteella.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Asiakirjarivien seuraaminen](across-how-to-track-document-lines.md)  
 [Myynti](sales-manage-sales.md)  

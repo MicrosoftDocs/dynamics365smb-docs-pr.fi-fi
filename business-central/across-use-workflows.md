@@ -3,7 +3,7 @@ title: Hyväksymistyönkulkujen käyttäminen
 description: 'Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät liiketoimintaprosessin tehtäviä, kuten automaattisen kirjaamisen tai uusien tietueiden hyväksynnän pyytämisen ja myöntämisen.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.form: '1500, 1501, 1503, 1504, 1505'
@@ -11,7 +11,7 @@ ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="use-approval-workflows"></a>Hyväksymistyönkulkujen käyttäminen
+# Hyväksymistyönkulkujen käyttäminen
 
 Työnkulku on tehtäväsarja, joka käynnistyy toiminnon, ehdon tai säännön seurauksena. Työnkulut toteutetaan yleensä liiketoimintalogiikan integroimiseksi organisaatioon, esimerkkeinä tehtävien erottelu, prosessien yhdistäminen tai parhaiden käytäntöjen soveltaminen.
 
@@ -64,7 +64,7 @@ Ennen kuin voit aloittaa työnkulkujen käyttämisen, sinun on määritettävä 
 | Tarkastele **Valmis**-tilassa olevia työnkulun osavaiheita. | [Arkistoitujen työnkulun osavaiheen ilmentymien tarkasteleminen](across-how-to-view-archived-workflow-step-instances.md) |
 | Poista hyväksyntätyönkulku, joka ei ole enää käytössä. | [Hyväksymistyönkulkujen poistaminen](across-how-to-delete-workflows.md) |
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Hyväksymistyönkulkujen määrittäminen](across-set-up-workflows.md)  
 [Työnkulku](across-workflow.md)  

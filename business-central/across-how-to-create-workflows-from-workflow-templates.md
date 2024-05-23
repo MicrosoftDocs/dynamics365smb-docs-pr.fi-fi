@@ -3,14 +3,14 @@ title: Työnkulkujen luominen työnkulkumalleista
 description: Voit säästää aikaa uusien hyväksymistyönkulkujen luomisessa luomalla työnkulut työnkulkumalleista.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: dajoo
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: null
 ms.date: 03/27/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-workflows-from-workflow-templates"></a>Työnkulkujen luominen työnkulkumalleista
+# Työnkulkujen luominen työnkulkumalleista
 
 Voit luoda **Työnkulku**-sivulla työnkulun luomalla riveillä työnkulkuvaiheiden sarjan. Jokainen vaihe koostuu työnkulun tapahtumasta (Kun - tapahtuma), jota valvotaan tapahtuman ehtojen mukaan (Ehto) ja työnkulun vastauksesta (Sitten-vastaus), jota valvotaan vastausvaihtoehtojen mukaan. Työnkulkurivien kentissä on kiinteä luettelo tapahtumien ja vastausten arvoja, jotka ilmaisevat tuettuja [!INCLUDE [prod_short](includes/prod_short.md)]-skenaarioita. Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).
 
@@ -25,7 +25,7 @@ Jos työnkulkumallia muutetaan, jota myöhemmin kadutaan, työnkulun alkuperäin
 
 Työnkulku voidaan luoda nopeasti myös tuomalla se esimerkiksi tuomalla se toisesta [!INCLUDE[prod_short](includes/prod_short.md)] -esiintymästä. Lisätietoja on kohdassa [Työnkulkujen vieminen ja tuominen](across-how-to-export-and-import-workflows.md).  
 
-## <a name="to-create-a-workflow-from-a-workflow-template"></a>Työnkulun luominen työnkulkumallista
+## Työnkulun luominen työnkulkumallista
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut**, valitse sitten vastaava linkki.  
 2. Valitse **Uusi työnkulku mallista** -toiminto. **Työnkulkumallit**-sivu avautuu.  
@@ -34,7 +34,7 @@ Työnkulku voidaan luoda nopeasti myös tuomalla se esimerkiksi tuomalla se tois
    Uuden työnkulun avautuvalla **Työnkulku**-sivulla on kaikki valitun mallin tiedot. **Koodi**-kentän arvoon liitetään esimerkiksi ”-01”, joka osoittaa, että kyseessä on ensimmäinen työnkulkumallista luotu työnkulku.  
 4. Työnkulku mukautetaan muokkaamalla työnkulun vaiheita tai lisäämällä uusia vaiheita. Lisätietoja on kohdassa [Työnkulkujen luominen](across-how-to-create-workflows.md).  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Hyväksymistyönkulkujen luominen](across-how-to-create-workflows.md)  
 [Hyväksymistyönkulkujen vieminen ja tuominen](across-how-to-export-and-import-workflows.md)  

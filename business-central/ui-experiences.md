@@ -3,7 +3,7 @@ title: Näytettävien ominaisuuksien muuttaminen
 description: 'Tietoja siitä, miten Essential- ja Basic-käyttäjäkokemus tarkoittaa käyttöliittymässä, sovellusalueilla ja yrityksessä.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'essential, basic, user interface, application area, experience'
 ms.search.form: '1,'
@@ -11,7 +11,7 @@ ms.date: 03/11/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="change-which-features-are-displayed"></a>Näytettävien ominaisuuksien muuttaminen
+# Näytettävien ominaisuuksien muuttaminen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on suunniteltu auttamaan sinua pyörittämään yritystäsi sen koosta ja monimutkaisuudesta riippumatta. Tuotteen ytimessä on olennaisia ominaisuuksia, kuten talousraportointi, myynti, osto ja varastonhallinta. Kun liiketoiminnan monimutkaisuus kasvaa, voit ottaa käyttöön esimerkiksi tuotannon ja huollon hallinnan toiminnot.
 
@@ -36,11 +36,11 @@ Ennen kuin määrität yrityksen kokemusasetukset, voit määrittää käyttäji
 
 **Kokemus**-asetus koskee yrityksen kaikkia käyttäjiä, mutta jokainen käyttäjä voi mukauttaa omia kokemuksiaan muuttamalla sivun asettelua ja sisältöä. Lisätietoja on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
-## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Premium-ominaisuuksien ottaminen käyttöön palvelupaketin päivittämisen jälkeen
+## Premium-ominaisuuksien ottaminen käyttöön palvelupaketin päivittämisen jälkeen
 
 Käyttäjille määritetään suunnitelmat Microsoft 365 -hallintakeskuksessa samassa yhteydessä kuin Business Central -käyttäjiä määritetään. Lisätietoja on kohdassa [Käyttäjien lisääminen ja käyttöoikeuksien määrittäminen samaan aikaan](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
-### <a name="to-update-plan-changes-in-users-groups"></a>Suunnitelman muutoksien päivittäminen käyttäjäryhmissä
+### Suunnitelman muutoksien päivittäminen käyttäjäryhmissä
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -50,18 +50,18 @@ Kun olet tehnyt muutoksia käyttäjien suunnitelmiin Microsoft 365 -hallintakesk
 2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttäjät** ja valitse sitten vastaava linkki.
 3. Valitse **Käyttäjät**-sivulla **Päivitä käyttäjät Microsoft 365:stä** -toiminto.
 
-### <a name="to-select-the-premium-experience"></a>Premium-käyttäjäkokemuksen valinta
+### Premium-käyttäjäkokemuksen valinta
 
 Voit nyt siirtyä valitsemaan uuden käyttökokemuksen.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yrityksen tiedot** ja valitse sitten vastaava linkki.
 2. Valitse **Yrityksen tiedot** -sivun **Käyttäjäkokemus**-pikavälilehden **Kokemus**-kentässä Premium.
 
-## <a name="help-assumes-the-premium-experience"></a>Ohje käsittelee Premium-käyttäjäkokemusta
+## Ohje käsittelee Premium-käyttäjäkokemusta
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen käyttäjän dokumentaation kaikkien toimintojen kuvauksissa käsitellään **Premium**-käyttökokemusta. Tämä tarkoittaa sitä, että kuvaukset sisältävät käyttöliittymän kaikki elementit.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Työtilan mukauttaminen](ui-personalization-user.md)  
 [Business Central -sovelluksen mukauttaminen](ui-customizing-overview.md)  

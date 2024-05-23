@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="analytics-by-functional-area"></a>Analytiikka toiminnallisten alueitten mukaan
+# Analytiikka toiminnallisten alueitten mukaan
 
 Analyysin yleinen sisältö on saatavilla myös erikoisversioina monille [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman toiminnallisille alueille. 
 
@@ -24,7 +24,7 @@ Analyysin yleinen sisältö on saatavilla myös erikoisversioina monille [!INCLU
 | Käyttöomaisuuden hallinta | [Käyttöomaisuuden analyysi](fa-analytics-overview.md) |
 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Analytiikan yleiskatsaus](reports-bi-reporting.md)  
 

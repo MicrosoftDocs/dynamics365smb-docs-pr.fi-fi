@@ -1,129 +1,133 @@
 ---
-title: Kestävyystilien tilikartta ja kirjanpito
+title: Vastuullisuustilien ja -kirjanpidon tilikartta
 description: 'Tutustu kestävyystilikartan, -luokat- ja alaluokkien hallintaan sekä kestävyystapahtumien yksityiskohtiin.'
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD, CoA, Chart, Account, Ledger'
 ms.search.form: '6210, 6213, 6214, 6220'
-ms.date: 04/02/2024
+ms.date: 05/07/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="chart-of-sustainability-accounts-and-ledger"></a>Kestävyystilien tilikartta ja kirjanpito
+# Kestävyystilien tilikartta ja kirjanpito
 
-## <a name="chart-of-sustainability-accounts"></a>Kestävyystilien tilikartta
+## Kestävyystilien tilikartta
 
-**Kestävyystilikartta** (CoSA) muodostaa perustavan rakenteen luettelon, jota käytetään kaikkien päästötietojen tallentamiseen. Se toimii kehyksenä, joka luokittelee ja järjestää kestävyystilit niiden määritteiden, kuten laajuuden tai muiden ryhmittymien, perusteella. Jokaiselle tilille määritetään yleensä yksilöivä koodi tai numero, jota on helppo viitata ja seurata. Tilit ovat rakenteeltaan samat kuin perinteisellä **tilikartalla**, mutta ne on räätälöity erityisesti kestävyyteen liittyvien tietojen ja muuttujien seurantaa varten organisaatiossa. 
- 
-Käyttäjät voivat lisätä **Tililuokat** ja **Alakategoriat** määrittääkseen, miten järjestelmä toimii, valitsemalla erityiset päästöt seurantaa, päästötekijöitä, kaavoja ja vastaavia määrityksiä varten.  
+Kestävyystilikartta (CoSA) muodostaa perustavan rakenteen luettelon, jota käytetään kaikkien päästötietojen tallentamiseen. Se toimii kehyksenä, joka luokittelee ja järjestää kestävyystilit niiden määritteiden, kuten laajuuden tai muiden ryhmittymien, perusteella. Jokaiseen tiliin on yleensä liitetty yksilöivä koodi tai numero, jotta siihen on helppo viitata ja seurata sitä. Sillä on sama rakenne kuin perinteisellä tilikartalla, mutta se on räätälöity erityisesti kestävyyteen liittyvien tietojen ja mittareiden seurantaa varten organisaatiossa.
 
->[!NOTE]
->GHG (Greenhouse gases) -standardeihin perustuvien päästöalueisiin tutustumista varten on kolme päästöaluetta:  
->- **Vaikutusalueen 1 päästöt**: näihin kuuluvat kiinteistä ja liikkuvista polttolähteistä sekä tahattomista hajapäästöistä johtuvat päästöt. 
->- **Vaikutusalueen 2 päästöt**: näihin kuuluvat epäsuorat päästöt, jotka aiheutuvat palveluntarjoajilta ostetun energian muodostamisesta. 
->- **Vaikutusalueen 3 päästöt**: näihin kuuluvat laaja kirjo päästöjä ostetuista tavaroista ja palveluista sekä pääomahyödykkeistä, polttoaineeseen ja energiaan liittyvistä toiminnoista, alku- ja loppupään kuljetuksista, syntyvästä jätteestä, liikematkoista ja työntekijöiden työmatkoista jne. 
+Käyttäjät voivat lisätä kestävyystilien luokkia ja kestävyystilien aliluokkia määrittääkseen, miten järjestelmä käyttäytyy. Tällä tavalla he voivat valita seurattavia päästöjä, päästökertoimia, kaavoja ja vastaavia määrityksiä.
 
-**Kestävyystilikartassa** (CoSA) voi tehdä esimerkiksi seuraavia toimintoja:  
+> [!NOTE]
+> Kasvihuonekaasu (GHG) -standardeihin perustuen on olemassa kolme päästöaluetta:
+>
+> - **Vaikutusalueen 1 päästöihin** kuuluvat kiinteistä ja liikkuvista polttolähteistä sekä tahattomista hajapäästöistä johtuvat päästöt.
+> - **Vaikutusalueen 2 päästöihin** kuuluvat epäsuorat päästöt, jotka aiheutuvat palveluntarjoajilta ostetun energian muodostamisesta.
+> - **Vaikutusalueen 3 päästöihin** kuuluu laaja kirjo päästöjä ostetuista tavaroista ja palveluista sekä pääomahyödykkeistä, polttoaineeseen ja energiaan liittyvistä toiminnoista, alku- ja loppupään kuljetuksista, syntyvästä jätteestä, liikematkoista ja työntekijöiden työmatkoista jne.
 
--   Voit tarkastella kestävyyskirjanpitotapahtumat- ja saldot näyttäviä raportteja. 
--   Voita avata **kestävyystilikortin** asetusten lisäämistä tai muuttamista varten.  
--   Katso tilin luokka ja alaryhmä.   
--   Yksittäisen tilin kunkin päästön erillisten saldojen tarkastelu. 
--   Lisää yksi tai useampi **dimensio** jokaiseen tiliin ja aseta dimensiosuodatus. 
-    
-Voit lisätä, muuttaa tai poistaa **Kestävyystilejä**. Erojen estämiseksi et voi poistaa **Kestävyystiliä**, jos tiliin liittyy yksi tai useampia tapahtumia.  
+CoSA:sta voit tehdä esimerkiksi:
 
-### <a name="add-or-change-accounts"></a>Lisää tai muuta tilejä
+- Voit tarkastella kestävyyskirjanpitotapahtumat- ja saldot näyttäviä raportteja.
+- Voita avata kestävyystilikortin asetusten lisäämistä tai muuttamista varten.
+- Tarkastella tilin luokkaa ja alaryhmää. 
+- Yksittäisen tilin kunkin päästön erillisten saldojen tarkastelu.
+- Lisää yksi tai useampi dimensio kuhunkin tiliin ja aseta dimensiosuodatukset.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 3.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kestävyystilikartta** ja valitse sitten vastaava linkki. 
-2. **Kestävyystilikartta** (CoSA) -sivulla voit avata jokaisen **Kestävyystilin** ja lisätä tai muuttaa asetuksia. Lue lyhyt kuvaus siirtämällä kohdistin kentän päälle. 
+Voit lisätä, muuttaa tai poistaa kestävyystilejä. Erojen estämiseksi et voi poistaa Kestävyystiliä, jos siihen liittyy yksi tai useampia tapahtumia.
 
-**Summa**-tyyppisten tilien osalta sinun täytyy täyttää **Summausväli**-kenttä. **Loppusumma**-tilien osalta Sisennä-toiminto täyttää tämän kentän automaattisesti. Kun olet määrittänyt kaikki tilit, valitse **Sisennä kestävyystilikartta** -toiminto tehdäksesi sen.  
+### Lisää tai muuta tilejä
 
->[!IMPORTANT]
->Jos olet syöttänyt määritelmiä **Summausväli**-kentässä **Loppusumma**-tileille ennen sisentämistä, sinun täytyy syöttää ne uudestaan, koska Sisennys-toiminto korvaa kaikki arvot **Loppusumma**-kentässä.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 3.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kestävyystilikartta** ja valitse sitten vastaava linkki.
+2. **Kestävyystilikartta**-sivulla voit avata jokaisen kestävyystilin ja lisätä tai muuttaa asetuksia. Lue lyhyt kuvaus siirtämällä kohdistin kentän päälle.
 
-### <a name="delete-accounts"></a>Poista tilejä
+**Summa**-tyyppisten tilien osalta sinun täytyy määrittää **Summausväli**-kenttä.
 
-Voit poistaa **kestävyystilin**. Varmista kuitenkin ennen sen poistamista, että tiliin liittyy yksi tai useampia tapahtumia, sillä Business Central estää sinua poistamasta **kestävyystiliä** tässä tilanteessa.  
+**Loppusumma**-tyyppisille tileille sisennys-toiminto asettaa automaattisesti **Summaus**-kentän. Kun olet määrittänyt kaikki tilit, suorita Sisennys-toiminto valitsemalla **Sisennä kestävyystilikartta** -toiminto ja aseta **Summausväli**-kenttä.
 
-## <a name="account-categories"></a>Tililuokat
+> [!IMPORTANT]
+> Sisennys-funktio korvaa **Loppusumma**-tilien kaikkien kenttien arvon. Tästä syystä, jos olet antanut määritelmiä **Loppusumma**-tilien **Summausväli**-kenttiin ennen sisennyksen suorittamista, määritelmät on annettava uudelleen.
 
-Käyttäjien on lisättävä **kestävyystilikategoria** kuhunkin **kestävyystiliin**, määritettävä järjestelmän toimintatapa, valittava päästöjen laajuus, erityiset päästöt seurantaa varten, kaavat ja vastaavat kokoonpanot.  
+### Poista tilejä
 
-Voit tarkistaa **kestävyystililuokat** noudattamalla seuraavia vaiheita: 
+Voit poistaa kestävyystilin. Varmista kuitenkin ensin, ettei siihen liity kirjanpitotapahtumia. Business Central estää sinua poistamasta kestävyystiliä, jos siihen on liitetty yksi tai useampi kirjanpitotapahtuma.
 
-1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 3.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kestävyystililuokat** ja valitse sitten vastaava linkki. 
-2.  **Kestävyystilin luokat** -sivulla voit muokata aiemmin luotua luetteloa tai luoda uuden luokan. Kun haluat luoda uuden luokan, valitse **Uusi**-toiminto.  
-3.  Täytä **Koodi**- ja **Kuvaus**-kentät.   
-4.  Määritä **Päästöalue**-kenttä ja valitse yksi vaikutusalueen vaihtoehdoista.  
-5.  Valitse seurattavat kaasupäästöt. Tällä hetkellä voit käyttää yhtä vaihtoehdoista: **CO2**, **CH4** tai **N2O**. Voit valita minkä tahansa seurattavan yhdistelmän, mutta seurannassa tulee olla vähintään yksi päästö.  
-6.  **Laskentaperuste**-kentässä voit valita minkä tahansa kaavoista, joita haluat käyttää, jos et tiedä tarkkaa päästösummaa. Tässä voit määrittää päästölaskennan laskentaperustan (kaava). Voit valita jonkin seuraavista vaihtoehdoista: **Polttoaine/sähkö**, **Etäisyys**, **Asennus** tai **Mukautettu**. 
-7.  Jos valitset **Mukautettu**-kaavan, mukautettu kuvaus voidaan määrittää **Mukautettu arvo** -kentässä.  
+## Tililuokat
 
->[!NOTE]
->Jos tämä tarjottujen kaavojen sarja **Laskentaperuste**-kentässä ei riitä, voit laajentaa tätä kenttää ja lisätä laskelmia järjestelmään, jota käytetään **kestävyyspäiväkirjoissa**.  
+Käyttäjät voivat lisätä kestävyystilien luokkia ja kestävyystilien aliluokkia määrittääkseen, miten järjestelmä käyttäytyy. He voivat valita päästöalueita, seurattavia päästöjä, kaavoja ja vastaavia määrityksiä.
 
-Jos käytät **Laskentaperustetta** (kaavoja), on olemassa kuvaus siitä, miten järjestelmä laskee valitsemasi vaihtoehdon perusteella (**EF** on **päästökerroin**, jonka voit määrittää **Kestävyystilin alaryhmä** -sivulla): 
+Voit tarkistaa kestävyystililuokat noudattamalla seuraavia vaiheita:
 
-|  Päästön tyyppi  |  Laskentaperuste  |  Kaava         | Kommentti      |
-|------------|--------------|------------------------------|---------------------------------|
-| **VAIKUTUSALUE 1**  |
-| Kiinteät polttolähteet | Polttoaine/sähkö | Päästöt = Polttoaine * EF | _ts., Polttoaine = Kattiloiden, lämmittimien ja lämpöhapettimien polttoaineen määrä..._ |
-| Liikkuvat polttolähteet | Polttoaine/sähkö | Päästöt = Polttoaine * EF | _ts., Polttoaine = Maantie- tai ei-maantieajoneuvoihin, rautatieajoneuvoihin käytetyn polttoaineen määrä..._ |
-|  |  |  Päästö = Etäisyys * EF | _ts., Etäisyys = Maantie- tai ei-maantieajoneuvojen, rautateiden mittarilukema..._ |
-| Hajapäästöt | Asennus | Päästöt = Asennuskerroin * Mukautettu määrä / 100 * Aikakerroin | _ts., Mukautettu määrä = Kokoonpanotappiot, Vuosittainen vuotamisprosentti..._ |
-| **VAIKUTUSALUE 2**  |
-| Yleishyödylliset palvelut | Polttoaine/sähkö | Päästöt = Sähkö * EF | _ts., Polttoaine/Sähkö = Sähkömäärä, Höyrymäärä, Lämmitysyksikkö..._ |
-|  | Mukautettu | Päästöt = Mukautettu määrä * EF | _ts., Mukautettu määrä = Lämpöyksikkö, Tonnitunti..._ |
-| **VAIKUTUSALUE 3**  |
-| Ostetut tavarat ja palvelut sekä tuotantohyödykkeet | Mukautettu | Päästöt = Mukautettu määrä * EF | _ts., Mukautettu määrä = Kustannus (KP).._ |
-| Alkupään kuljetus ja jakelu | Etäisyys | Päästö = Etäisyys * EF |  |
-|  | Etäisyys | Päästö = Etäisyys * Kerroin * EF | _Kerroin = Lastin tonnit_ |
-| Loppupään kuljetus ja jakelu | Etäisyys | Päästö = Etäisyys * EF |  |
-|  | Etäisyys | Päästö = Etäisyys * Kerroin * EF | _Kerroin = Lastin tonnit_ |
-| Myytävien tuotteiden toiminnassa ja loppukäsittelyssä syntyvät jätteet | Mukautettu | Päästöt = Mukautettu määrä * EF | _ts., Mukautettu määrä = Jäte_ |
-| Liikematkustus ja työntekijöiden työmatkustus | Etäisyys | Päästö = Etäisyys * EF | _ts., Etäisyys = Käytetyn työsuhdeauton mittarilukema, vuokra-auto, juna, lento..._ |
-|  | Mukautettu | Päästöt = Mukautettu määrä * EF | _ts., Mukautettu määrä = Hotellimajoitus..._ |
-|  | Polttoaine/sähkö | Päästöt = Polttoaine * EF | _ts., Polttoaine = Yrityksen autoon, vuokra-autoon käytetyn polttoaineen määrä..._ |
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 3.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kestävyystililuokat** ja valitse sitten vastaava linkki.
+2. **Kestävyystilin luokat** -sivulla voit muokata aiemmin luotua luetteloa tai luoda uuden luokan. Luo uusi luokka valitsemalla **Uusi**-toiminto.
+3. Määritä **Koodi**- ja **Kuvaus**-kentät.
+4. Valitse yksi vaikutusalueen vaihtoehdoista **Päästöalue**-kentässä.
+5. Valitse seurattavat kaasupäästöt. Tällä hetkellä seuraavat vaihtoehdot ovat saatavilla: **CO2**, **CH4** ja **N2O**. Voit valita minkä tahansa seurattavan yhdistelmän, mutta valittuna tulee olla vähintään yksi päästö.
+6. **Laskentaperuste**-kentässä voidaan valita päästöjen laskennassa käytettävä laskentaperuste (kaava), jos et tiedä tarkkaa päästösummaa. Voit valita jonkin seuraavista vaihtoehdoista: **Polttoaine/sähkö**, **Etäisyys**, **Asennus** tai **Mukautettu**.
 
-## <a name="account-subcategories"></a>Tilin aliluokat
+    > [!NOTE]
+    > Jos tämä saatavilla olevien kaavojen sarja **Laskentaperuste**-kentässä ei riitä, voit laajentaa kenttää ja lisätä laskelmia järjestelmään, jota käytetään kestävyyspäiväkirjoissa.
 
-Käyttäjien on lisättävä **kestävyystilin alaryhmä** kuhunkin **kestävyystiliin** määrittääkseen päästökertoimia, joita käytetään kaavoissa, mutta se perustuu **kestävyystilikategorian** päästöjen seurannan valintaan.  
+7. Jos valitsit **Laskentaperuste**-kentässä **Mukautettu**, mukautettu kuvaus voidaan määrittää **Mukautettu arvo** -kentässä.
 
-Voit tarkistaa **kestävyystilin alaluokat** noudattamalla seuraavia vaiheita:  
+Jos **Laskentaperuste**-kenttä määritetään, seuraavassa taulukossa selitetään, miten järjestelmä laskee päästöt valitsemasi vaihtoehdon perusteella. (Tässä taulukossa *EF* kuvaa **Päästökerroin**-arvoa, jonka voit määrittää **Kestävyystilin alaryhmä** -sivulla.)
 
-1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 3.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kestävyystilin alaluokat** ja valitse sitten vastaava linkki. 
-2.  **Kestävyystilin alaluokat** -sivulla voit muokata aiemmin luotua luetteloa tai luoda uuden luokan. Kun haluat luoda uuden luokan, valitse **Uusi**-toiminto.  
-3.  Täytä **Koodi**- ja **Kuvaus**-kentät.   
-4.  **Kestävyystililuokassa** seurattavien kaasupäästöjen perusteella ja tämän alakategorian liittämiseksi voit täyttää myös yhden tai useamman päästötekijän: 
+| Päästön tyyppi | Laskentaperuste | Kaava | Kommentti |
+|---------------|------------------------|---------|---------|
+| **Laajuus 1** | | | |
+| Kiinteät polttolähteet | Polttoaine/sähkö | *Päästöt* = *Polttoaine* &times; *EF* | *Polttoaine* = Kattiloiden, lämmittimien ja lämpöhapettimien jne. polttoaineen määrä |
+| Liikkuvat polttolähteet | Polttoaine/sähkö | *Päästöt* = *Polttoaine* &times; *EF* | *Polttoaine* = Maantie- tai ei-maantieajoneuvoihin, rautatieajoneuvoihin käytetyn jne. polttoaineen määrä |
+| | | *Päästö* = *Etäisyys* &times; *EF* | *Etäisyys* = Maantie- tai ei-maantieajoneuvojen, rautateiden jne. mittarilukema |
+| Hajapäästöt | Asennus | *Päästöt* = *Asennuskerroin* &times; *Mukautettu määrä* &divide; 100 &times; *Aikakerroin* | *Mukautettu määrä* = Kokoonpanotappiot, Vuosittainen vuotamisprosentti jne. |
+| **Laajuus 2** | | | |
+| Yleishyödylliset palvelut | Polttoaine/sähkö | *Päästöt* = *Sähkö* &times; *EF* | *Polttoaine/Sähkö* = Sähkömäärä, Höyrymäärä, Lämmitysyksikkö jne. |
+| | Mukautettu | *Päästöt* = *Mukautettu määrä* &times; *EF* | *Mukautettu määrä* = Lämpöyksikkö, Tonnitunti jne. |
+| **Laajuus 3** | | | |
+| Ostetut tavarat ja palvelut sekä tuotantohyödykkeet | Mukautettu | *Päästöt* = *Mukautettu määrä* &times; *EF* | *Mukautettu määrä* = Kustannus (KP) jne. |
+| Alkupään kuljetus ja jakelu | Etäisyys | *Päästö* = *Etäisyys* &times; *EF* | |
+| | Etäisyys | *Päästö* = *Etäisyys* &times; *Kerroin* &times; *EF* | *Kerroin* = Lastin tonnit |
+| Loppupään kuljetus ja jakelu | Etäisyys | *Päästö* = *Etäisyys* &times; *EF* | |
+| | Etäisyys | *Päästö* = *Etäisyys* &times; *Kerroin* &times; *EF* | *Kerroin* = Lastin tonnit |
+| Myytävien tuotteiden toiminnassa ja loppukäsittelyssä syntyvät jätteet | Mukautettu | *Päästöt* = *Mukautettu määrä* &times; *EF* | *Mukautettu määrä* = Jäte |
+| Liikematkustus ja työntekijöiden työmatkustus | Etäisyys | *Päästö* = *Etäisyys* &times; *EF* | *Etäisyys* = Käytetyn työsuhdeauton mittarilukema, vuokra-auto, juna, lento jne. |
+| | Mukautettu | *Päästöt* = *Mukautettu määrä* &times; *EF* | *Mukautettu määrä* = Hotellimajoitus jne. |
+| | Polttoaine/sähkö | *Päästöt* = *Polttoaine* &times; *EF* | *Polttoaine* = Yrityksen autoon, vuokra-autoon käytetyn polttoaineen määrä jne. |
 
-   - **Päästökerroin CO2** - Määrittää CO2-päästön päästökertoimen.  
-   - **Päästökerroin CH4** - Määrittää CH4-päästön päästökertoimen. 
-   - **Päästökerroin N2O** - Määrittää N2O-päästön päästökertoimen.  
+## Tilin aliluokat
 
-5.  Jos tämä alaryhmä liittyy uusiutuvaan energiaan, valitse **Uusiutuva energia** -kenttä.   
+Käyttäjien on lisättävä kestävyystilin alaluokka jokaiseen kestävyystiliin. Tämä alaryhmä määrittää kaavoissa käytettävät päästötekijät kestävyystilikategorian päästöjen seurannan valinnan perusteella.
 
->[!NOTE]
->**Tuo tiedot**- ja **Tuo kohteesta** -kentät on tarkoitettu mahdolliseen integrointiin ulkoisten järjestelmien kanssa, joita käytetään päästökertoimien keräämiseen, mutta vuoden **2024 1. julkaisuaaltoa** ei voi käyttää oletusarvoisesti ominaisuutena.  
+Voit tarkistaa kestävyystilin alaluokat noudattamalla seuraavia vaiheita:
 
-## <a name="sustainability-ledger-entries"></a>Vastuullisuustapahtumat
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 3.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kestävyystilin alaluokat** ja valitse sitten vastaava linkki. 
+2. **Kestävyystilin alaluokat** -sivulla voit muokata aiemmin luotua luetteloa tai luoda uuden luokan. Luo uusi luokka valitsemalla **Uusi**-toiminto.
+3. Määritä **Koodi**- ja **Kuvaus**-kentät.
+4. Kestävyystililuokassa seurattavien kaasupäästöjen perusteella ja tämän alakategorian liittämiseksi voit määrittää myös yhden tai useamman päästötekijän: 
 
-**Kestävyyskirjaukset** tallentavat kaikkien kirjattujen kestävyystransaktioiden historian ja organisoivat kaikki päästötiedot **kestävyystilikartan** mukaan. Kun käyttäjä kirjaa **kestävyyspäiväkirjan**, kaikki ratkaisevat tiedot tallennetaan sinne. Kaikki aktiiviset raportit on luotu **kestävyyskirjaustapahtumien** perusteella.   
+    - **Päästökerroin CO2** – Hiilidioksidipäästöjen päästökerroin (CO<sub>2</sub>).
+    - **Päästökerroin CH4** – Metaanin päästökerroin (CH<sub>4</sub>).
+    - **Päästökerroin N2O** – Typpioksiduulipäästöjen päästökerroin (N<sub>2</sub>).
 
-Käyttäjä voi avata tämän tilitapahtuman tietylle tilille käyttämällä **Kestävyystilin kaavio** -sivun **Tapahtumakirjaukset**-toimintoa , tai kun haluat avata kaikki tapahtumat, valitse ![Lamppu, joka avaa Kerro minulle -ominaisuuden 3.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kestävyyskirjaustapahtumat** ja valitse sitten vastaava linkki. Lue lyhyt kuvaus siirtämällä kohdistin kentän päälle.  
+5. Jos alaryhmä liittyy uusiutuvaan energiaan, valitse **Uusiutuva energia** -kenttä.
 
->[!IMPORTANT]
->Kun olet kirjannut tiedot kestävyystapahtumiin, et voi poistaa niitä. Jos teit virheen, voit kirjata vastakirjauksen käyttäen samoja yksityiskohtia, mutta käyttämällä summalle negatiivista merkkiä.  
+> [!NOTE]
+> **Tuo tiedot**- ja **Tuo kohteesta** -kentät on tarkoitettu mahdolliseen integrointiin ulkoisten järjestelmien kanssa, joita käytetään päästöjen kertymiseen. **Vuoden 2024 julkaisuaallossa 1** näitä kenttiä ei kuitenkaan voi käyttää oletusarvoisesti ominaisuutena.
 
-## <a name="see-also"></a>Katso myös
-[Rahoitus](finance.md)    
-[Kestävyyden hallinnan yleiskuvaus](finance-manage-sustainability.md)
-[Kestävyyden määritys](finance-sustainability-setup.md)
-[Päästöjen tallennus](finance-sustainability-journal.md)
-[[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman toiminta](ui-work-product.md)
+## Vastuullisuustapahtumat
 
+Kestävyyskirjaukset tallentavat kaikkien kirjattujen kestävyystransaktioiden historian ja organisoivat kaikki päästötiedot kestävyystilikartan (CoSA) mukaan. Kun käyttäjä kirjaa kestävyyspäiväkirjan, kaikki ratkaisevat tiedot tallennetaan sinne. Kaikki aktiiviset raportit on luotu kestävyyskirjaustapahtumien perusteella.
+
+Kun haluat avata tämän kirjanpidon tietylle tilille, käytä **Kestävyystilin kaavio** -sivulla olevaa **Tapahtumakirjaukset**-toimintoa. Avataksesi kaikki kirjanpitotapahtumat valitse ![Lamppu, joka avaa toisena Kerro-ominaisuuden 3.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kestävyyskirjaustapahtumat** ja valitse sitten vastaava linkki. Lue lyhyt kuvaus siirtämällä kohdistin kentän päälle.
+
+> [!IMPORTANT]
+> Kun olet kirjannut tiedot kestävyystapahtumiin, et voi poistaa sitä. Jos teit virheen, voit kirjata vastakirjauksen käyttäen samoja yksityiskohtia, mutta käyttämällä summalle negatiivista merkkiä.
+
+## Katso myös
+
+[Taloushallinto](finance.md)  
+[Vastuullisuuden hallinnan yleiskatsaus](finance-manage-sustainability.md)  
+[Vastuullisuusmääritys](finance-sustainability-setup.md)  
+[Toimintaohje: päästöjen kirjaus](finance-sustainability-journal.md)  
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

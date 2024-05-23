@@ -3,7 +3,7 @@ title: Projektin tarvikkeiden hallinta
 description: Käsitellään erilaisia tapoja hallita tarvikkeita sekä ostaa materiaaleja ja palveluja projekteihin.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: 'project management, material, purchase'
 ms.search.form: '98, 1020'
@@ -11,13 +11,13 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="manage-project-supplies"></a>Projektin tarvikkeiden hallinta
+# Projektin tarvikkeiden hallinta
 
 Projektin tarvikkeiden nimikkeiden, palveluiden ja kulujen hallinta on olennainen ja tärkeä kaikkien projektien osa. Voit käyttää varastomääriä tai tehdä projektikohtaisia ostoja ostotilausten tai ostolaskujen avulla. Oletetaan esimerkiksi, että tietokoneen huoltoprojektia varten tarvitaan uusi levy. Uuden levyn ostamista varten luodaan uusi ostolasku ja projekti, jossa sitä käytetään, kirjataan.
 
 Jos ostoprosessi ei edellytä, että fyysinen tapahtuma kirjataan erikseen, osto voidaan käsitellä **Projektin KP-päiväkirja** -sivulla. Lisätietoja on kohdassa [Projektiin liittyvän kulun kirjaaminen](projects-how-manage-project-supplies.md#to-post-a-project-related-expense).
 
-## <a name="to-purchase-items-or-services-for-a-project"></a>Nimikkeiden tai palveluiden ostaminen projektille
+## Nimikkeiden tai palveluiden ostaminen projektille
 
 Seuraavassa kerrotaan, miten projektille ostetaan tuotteita ostolaskun avulla. Samat vaiheet toimivat myös silloin, kun käytetään ostotilausta.  
 
@@ -28,7 +28,7 @@ Seuraavassa kerrotaan, miten projektille ostetaan tuotteita ostolaskun avulla. S
     **Projektin rivityyppi** -kentässä valitsemasi arvo määrittää, luodaanko suunnittelurivi nimikkeen käytön kirjaamisen yhteydessä. Jos kentän arvo on **Laskutettava**, ne projektin suunnittelurivit, jotka ovat valmiita asiakkaalta laskutettaviksi, luodaan. Lisätietoja on kohdassa [Projektien laskutus](projects-how-invoice-jobs.md).
 4. Valitse **Kirjaa**-toiminto.
 
-## <a name="to-view-the-value-of-purchases-for-a-project"></a>Projektin ostojen arvon tarkasteleminen
+## Projektin ostojen arvon tarkasteleminen
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projekti** ja valitse sitten vastaava linkki.
 2. Avaa sopiva projektikortti.
@@ -38,7 +38,7 @@ Seuraavassa kerrotaan, miten projektille ostetaan tuotteita ostolaskun avulla. S
     **Ei laskut. vast.ottojen summa** -kentässä näkyy ostoasiakirjoja vastaan toimitettujen, mutta vielä laskuttamattomien, nimikkeiden arvo.  
 3. Valitse jompikumpi kentistä ja avaa **Ostorivit**-sivu, jossa voit tarkastella liittyvien ostoasiakirjarivien tietoja sekä tietoa siitä, mitkä nimikkeet tai palvelut on vastaanotettu.
 
-## <a name="to-post-a-project-related-expense"></a>Projektiin liittyvän kulun kirjaaminen
+## Projektiin liittyvän kulun kirjaaminen
 
 Jos sisällytät satunnaisen tai kertaluontoisen projektin kuluja, voit käyttää **Projektin KP-päiväkirja** -sivua ja kirjata ne suoraan soveltuvalle projektitilille.
 
@@ -46,7 +46,7 @@ Jos sisällytät satunnaisen tai kertaluontoisen projektin kuluja, voit käyttä
 2. Luo uusi rivi ja syötä kulua koskevat tiedot, mukaan lukien tiedot **Projektinro**- ja **Projektitehtävän nro** -kentissä.  
 3. Kun päiväkirja on valmis, valitse **Kirjaa**-toiminto.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Projektien hallinta](projects-manage-projects.md)  
 [Taloushallinto](finance.md)  

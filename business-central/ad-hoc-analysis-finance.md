@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-analysis-of-finance-data"></a>Taloustietojen tapauskohtainen analyysi
+# Taloustietojen tapauskohtainen analyysi
 
 Tässä artikkelissa kerrotaan, kuinka voit käyttää **Tietojen analysointi** -ominaisuutta taloustietojen analysointiin suoraan luettelosivuilta ja kyselyistä. Sinun ei tarvitse suorittaa raporttia tai siirtyä toiseen sovellukseen, kuten Exceliin. Ominaisuus tarjoaa vuorovaikutteisen ja monipuolisen tavan laskea, tiivistää ja tarkastella tietoja. Sen sijaan, että raportteja suoritetaan vaihtoehdoilla ja suodattimilla, voit lisätä useita välilehtiä, jotka edustavat erilaisia tehtäviä tai näkymiä tiedoista. Esimerkkejä ovat "Kaikki käyttöomaisuus ajan mittaan", "Myyntisaatava", "Ostovelat", tai mikä tahansa muu näkymä. Lisätietoja **Tietojen analysointi** -ominaisuuden käytöstä on kohdassa [analyysitilassa olevien luettelo- ja kyselytietojen analysointi](analysis-mode.md).
 
@@ -22,7 +22,7 @@ Käytä seuraavia luettelosivuja rahoitusprosessien tapauskohtaisen analysoinnin
 - [Asiakastapahtumat](https://businesscentral.dynamics.com/?page=25)
 - [Toimittajatapahtumat](https://businesscentral.dynamics.com/?page=29)
 
-## <a name="finance-ad-hoc-analysis-scenarios"></a>Rahoituksen ad-hoc-analyysiskenaariot
+## Rahoituksen ad-hoc-analyysiskenaariot
 
 **Tietojen analysointi** -toiminnon avulla voit tarkistaa tiedot nopeasti ja tehdä tapauskohtaisia analyysejä seuraavasti:
 
@@ -39,7 +39,7 @@ Seuraavissa osissa on esimerkkejä rahoitusskenaarioista [!INCLUDE [prod_short](
 | [Raha-asiat (Tuloslaskelma)](#example-finance-income-statement) | Tulot tilikartan tulotileillä, esimerkiksi eriteltyinä aikaväleihin summien kirjauksen ajalta. | [Pääkirjanpidon tapahtumat](https://businesscentral.dynamics.com/?page=20) | **KP-tilinro**, **Kirjauspvm** ja **Summa**. |
 | [Raha-asiat (Resurssit yhteensä)](#example-finance-total-assets) | Resurssit tilikartan resurssitileillä, esimerkiksi eriteltyinä aikaväleihin summien kirjauksen ajalta. | [Pääkirjanpidon tapahtumat](https://businesscentral.dynamics.com/?page=20) | **KP-tilinro**, **Kirjauspvm** ja **Summa**. |
 
-### <a name="example-finance-accounts-receivables"></a>Esimerkki: Raha-asiat (Myyntireskontra)
+### Esimerkki: Raha-asiat (Myyntireskontra)
 
 Seuraa näitä vaiheita nähdäksesi, mitä asiakkaasi ovat sinulle velkaa, jaoteltuina aikaväleihin summien erääntymisen osalta:
 
@@ -51,7 +51,7 @@ Seuraa näitä vaiheita nähdäksesi, mitä asiakkaasi ovat sinulle velkaa, jaot
 1. Jos haluat tehdä analyysin tietyltä vuodelta tai vuosineljännekseltä, käytä suodatinta **Analyysisuodattimet**-valikossa (sivun oikealla puolella, **Sarakkeet**-valikon alapuolella.)
 1. Nimeä analyysivälilehden nimeksi uudelleen **Erääntyneet tilit kuukausittain** tai tuotteiksi, jotka kuvaavat analyysiä.
 
-### <a name="example-finance-accounts-payable"></a>Esimerkki: Raha-asiat (Ostovelat)
+### Esimerkki: Raha-asiat (Ostovelat)
 
 Seuraa näitä vaiheita nähdäksesi, mitä olet velkaa toimittajillesi, jaoteltuina aikaväleihin summien erääntymisen osalta:
 
@@ -67,7 +67,7 @@ Seuraavassa kuvassa on näiden työvaiheiden tulokset.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Esimerkki tietojen analysoinnista asiakastapahtumien sivulla" lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
-### <a name="example-finance-income-statement"></a>Esimerkki: Raha-asiat (Tuloslaskelma)
+### Esimerkki: Raha-asiat (Tuloslaskelma)
 
 Tee seuraavalla tavalla nähdäksesi tulot tilikartan tulotileillä, esimerkiksi eriteltyinä aikaväleihin summien kirjauksen ajalta:
 
@@ -83,7 +83,7 @@ Tee seuraavalla tavalla nähdäksesi tulot tilikartan tulotileillä, esimerkiksi
 
 1. Nimeä analyysivälilehden nimeksi uudelleen **Tulot kuukausittain** tai tuotteiksi, jotka kuvaavat analyysiä.
 
-### <a name="example-finance-total-assets"></a>Esimerkki: Raha-asiat (Resurssit yhteensä)
+### Esimerkki: Raha-asiat (Resurssit yhteensä)
 
 Tee seuraavalla tavalla nähdäksesi resurssit tilikartan resurssitileillä, esimerkiksi eriteltyinä aikaväleihin summien kirjauksen ajalta:
 
@@ -99,7 +99,7 @@ Tee seuraavalla tavalla nähdäksesi resurssit tilikartan resurssitileillä, esi
 
 1. Nimeä analyysivälilehden nimeksi uudelleen **Tulot kuukausittain** tai tuotteiksi, jotka kuvaavat analyysiä.
 
-## <a name="data-foundation-for-ad-hoc-analysis-on-finance"></a>Rahoituksen ad-hoc-analyysin tietopohja
+## Rahoituksen ad-hoc-analyysin tietopohja
 
 Kun kirjauskansioita kirjataan, [!INCLUDE [prod_short](includes/prod_short.md)] luo tapahtumat **KP-tapahtuma** -taulukkoon. Tämän vuoksi yleinen rahoitustapauskohtainen analyysi tehdään yleensä [Kirjanpitotapahtumat](https://businesscentral.dynamics.com/?page=20)-sivulla. Myyntisaatavien ja ostovelkojen osalta voit analysoida [asiakastapahtumamerkintöjä](https://businesscentral.dynamics.com/?page=25) ja [toimittajatapahtumia](https://businesscentral.dynamics.com/?page=29).
 
@@ -108,7 +108,7 @@ Saat lisätietoja siirtymällä seuraaviin ohjeartikkeleihin:
 - [Myymisen ad-hoc-analyysin tietopohja](ad-hoc-analysis-sales.md#data-foundation-for-ad-hoc-analysis-on-sales)
 - [Ostamisen ad-hoc-analyysin tietopohja](ad-hoc-analysis-purchasing.md#data-foundation-for-ad-hoc-analysis-on-purchasing)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Luettelo- ja kyselytietojen analysoiminen analyysitilassa](analysis-mode.md)  
 [Talousanalytiikan yleiskatsaus](bi.md)  

@@ -1,17 +1,17 @@
 ---
-title: Synkronointi ja tietojen integrointi | Microsoft Docs
+title: Synkronointi ja tiedon integrointi
 description: Synkronointi kopioi tiedot Microsoft Dataverse -taulukoiden ja Business Centralin tietueiden välillä ja pitää kummankin järjestelmän tiedot ajan tasalla.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 03/31/2023
+ms.date: 05/07/2024
 ms.custom: bap-template
 ms.search.keywords: 'Dataverse, integration, sync, synchronize, mapping'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Tietojen synkronointi Business Centralissa Microsoft Dataversen avulla
+# Tietojen synkronointi Business Centralissa Microsoft Dataversen avulla
 
 Kun [!INCLUDE[prod_short](includes/cds_long_md.md)] ja [!INCLUDE[prod_short](includes/prod_short.md)] integroidaan, voit päättää, synkronoidaanko [!INCLUDE[prod_short](includes/prod_short.md)] -rivien (kuten asiakkaiden, kontaktien ja myyjien) valittujen kenttien tiedot vastaavien [!INCLUDE[prod_short](includes/cds_long_md.md)] -rivien (kuten tilien, yhteyshenkilöiden ja käyttäjien) kanssa. Rivin tyypin mukaan voit synkronoida tietoja [!INCLUDE[prod_short](includes/cds_long_md.md)]ista [!INCLUDE[prod_short](includes/prod_short.md)]iin ja päinvastoin. Lisätietoja on kohdassa [Dynamics 365 Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md).  
 
@@ -35,7 +35,7 @@ Synkronointia määritettäessä voit yhdistää [!INCLUDE[prod_short](includes/
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/cds_long_md.md)] -ohjelman ja [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman välinen synkronointi työjono tapahtumien aikataulutetun suorituksen perusteella ei takaa kahden palvelun reaaliaikaisen tietojen yhdenmukaisuutta. Reaaliaikaisten tietojen johdonmukaisuuden varmistamiseksi voit tutkia [Business Centralin virtuaalitauluja](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) tai Business Centralin ohjelmointirajapintaa.   
 
-## <a name="standard-table-mapping-for-synchronization"></a>Synkronoinnin vakiotaulukon yhdistämismääritys
+## Synkronoinnin vakiotaulukon yhdistämismääritys
 
 Taulukot, kuten tilit [!INCLUDE[prod_short](includes/cds_long_md.md)]ssä yhdistetään samantyyppisiin tietoihin [!INCLUDE[prod_short](includes/prod_short.md)]ssa, kuten asiakkaisiin. [!INCLUDE[prod_short](includes/cds_long_md.md)]in tietoja käytetään määrittämällä linkkejä [!INCLUDE[prod_short](includes/prod_short.md)]in ja [!INCLUDE[prod_short](includes/cds_long_md.md)]in taulukoiden välille. Tätä sanotaan yhdistämiseksi.
 
@@ -55,11 +55,11 @@ Seuraavassa taulukossa on luettelo tavallisista yhdistämismäärityksistä [!IN
 > [!NOTE]
 > **Dataverse**-toiminnot eivät ole käytettävissä sivuilla, esimerkiksi Asiakaskortti-sivulla, jos tietueessa ei ole käytössä integroinnin taulukon yhdistämismäärityksen taulukkosuodatusta.
 
-### <a name="tip-for-admins-viewing-table-mappings"></a>Järjestelmänvalvojan vihje: taulukon yhdistämismääritysten näyttäminen
+### Järjestelmänvalvojan vihje: taulukon yhdistämismääritysten näyttäminen
 
 Voit tarkastella [!INCLUDE[prod_short](includes/cds_long_md.md)]in taulukoiden ja [!INCLUDE[prod_short](includes/prod_short.md)]in taulukoiden välistä yhdistämismääritystä **Integrointitaulukon yhdistämismääritykset** -sivulla, jossa voit käyttää myös suodattimia. [!INCLUDE[prod_short](includes/prod_short.md)]in taulukoiden kenttien ja [!INCLUDE[prod_short](includes/cds_long_md.md)]in taulukoiden sarakkeiden välinen yhdistämismääritys määritetään **Integrointitaulukon yhdistämismääritykset** -sivulla, jossa voit lisätä myös lisämäärityksen logiikan. Tässä voi hyötyä esimerkiksi synkronoinnin vianmäärityksessä.
 
-## <a name="use-virtual-tables-to-get-more-data"></a>Virtuaalitaulukoiden käyttäminen tietojen hakemiseksi
+## Virtuaalitaulukoiden käyttäminen tietojen hakemiseksi
 
 Kun olet määrittämässä integrointia, voit käyttää virtuaalitaulukoita, jotta saat enemmän tietoa saataville kohteessa [!INCLUDE[prod_short](includes/cds_long_md.md)] ilman kehittäjän apua.
 
@@ -71,7 +71,7 @@ Virtuaalinen taulukko on mukautettu taulukko, jonka sarakkeissa ja riveillä on 
 Lisätietoja virtuaalitaulukoista on seuraavissa artikkeleissa:
 
 * [Ulkoisen tietolähteen tietoja sisältävien virtuaalitaulukoiden luominen ja muokkaaminen](/power-apps/maker/data-platform/create-edit-virtual-entities) (Power Apps -dokumentaatio)
-* [Business Centralin virtuaalitaulukko Microsoft Dataverse -järjestelmänvalvojan viittauksia varten](/business-central/dev-itpro/powerplatform/powerplat-admin-reference) ([!INCLUDE [prod_short](includes/prod_short.md)] -dokumentaatio)
+* [Business Centralin virtuaalitaulukko Microsoft Dataverse -järjestelmänvalvojan viittauksia varten](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-admin-reference) ([!INCLUDE [prod_short](includes/prod_short.md)] -dokumentaatio)
 
 Virtuaalitaulukoiden käyttäminen edellyttää, että asennat **Business Central -virtuaaliobjekti** -sovelluksen [AppSourcesta](https://appsource.microsoft.com/en-US/product/dynamics-365/microsoftdynsmb.businesscentral_virtualentity). 
 
@@ -81,11 +81,11 @@ Kun olet asentanut sovelluksen, voit ottaa virtuaalitaulukot käyttöön jollaki
 * **Dataverse-yhteyden asetukset**-, **Virtuaalitaulukot**- ja **Käytettävissä olevat virtuaalitaulukot** -sivuilta.  
 * Power App Maker Portalista.
 
-## <a name="synchronize-data-from-multiple-companies-or-environments"></a>Useiden yritysten tai ympäristöjen tietojen synkronoiminen
+## Useiden yritysten tai ympäristöjen tietojen synkronoiminen
 
 Voit synkronoida usean [!INCLUDE [prod_short](includes/prod_short.md)] -yrityksen tai -ympäristön tietoja [!INCLUDE[prod_short](includes/cds_long_md.md)] -ympäristön kanssa. Usean yrityksen synkronointiskenaarioissa on harkittavana useita asioita.
 
-### <a name="set-company-ids"></a>Yrityksen tunnusten määrittäminen
+### Yrityksen tunnusten määrittäminen
 
 Kun synkronoit tietueita, määritämme [!INCLUDE[prod_short](includes/cds_long_md.md)] -entiteetille yritystunnuksen, joka selkeyttää [!INCLUDE [prod_short](includes/prod_short.md)] -yritystä, josta tietueet ovat peräisin. Integrointitaulukon yhdistämismäärityksissä on integrointitaulukon suodatuskentät, joissa yritystunnus otetaan huomioon. Jos haluat sisällyttää taulukon yhdistämismäärityksen usean yrityksen asetuksiin, valitse **Integrointitaulukon yhdistämismääritys** -sivulta **Usean yrityksen synkronointi käytössä** -valintaruutu. Asetus optimoi sen, miten integrointitaulukon suodatuskentät suodattavat yrityksen tunnukset usean yrityksen asetuksissa.
 
@@ -93,18 +93,18 @@ Integrointitaulukon määritysten kohdalla, jotka synkronoivat asiakirjoja, kute
 
 Muissa integrointitaulukon yhdistämismäärityksessä, kun valitset **Usean yrityksen synkronointi käytössä** -valintaruudun, poistat suodattimen yrityksen tunnuksesta. Synkronoinnissa otetaan huomioon asiaan liittyvät objektit yrityksen tunnuksista riippumatta.
 
-### <a name="specify-the-synchronization-direction"></a>Määritä synkronointisuunta
+### Määritä synkronointisuunta
 
 Jos otat usean yrityksen tuen käyttöön integrointitaulukon yhdistämismäärityksessä, on suositeltavaa määrittää määrityksen suunnaksi **FromIntegration**. Jos asetat suunnaksi **ToIntegration** tai **Bidirectional**, on hyvä käyttää **Taulukkosuodatusta** ja **Integrointitaulukkosuodatusta**, kun halutaan hallita, mitkä objektit synkronoidaan minkäkin yrityksen kanssa. On myös hyvä käyttää vastaavuuteen perustuvaa yhdistämistä, jotta vältetään tietueiden kopioiden luominen. Lisätietoja vastaavuuteen perustuvasta yhdistämisestä on kohdassa [Vastaavuuteen perustuvan yhdistämisen mukauttaminen](/dynamics365/business-central/admin-how-to-set-up-a-dynamics-crm-connection#customize-the-match-based-coupling).
 
-### <a name="use-unique-numbers"></a>Käytä yksilöllisiä numeroita
+### Käytä yksilöllisiä numeroita
 
 Jos numerosarjasi eivät takaa, että perusavainarvot ovat yksilöllisiä jokaisessa yrityksessä, on suositeltavaa käyttää etuliitteitä. Kun haluat aloittaa etuliitteiden käytön, luo muuntosääntö integrointikenttien yhdistämismääritykseen. Lisätietoja muutossäännöistä on [Kenttien arvojen erojen käsitteleminen](admin-how-to-modify-table-mappings-for-synchronization.md#handle-differences-in-field-values) -kohdassa.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 
 [Tietueiden yhdistäminen ja synkronoiminen manuaalisesti](admin-how-to-couple-and-synchronize-records-manually.md)   
-[Ajoitettu synkronointi](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
+[Synkronoimisen ajoittaminen](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)  
 [Dynamics 365 Sales -integrointi](admin-prepare-dynamics-365-for-sales-for-integration.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

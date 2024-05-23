@@ -3,25 +3,25 @@ title: Huoltonimikkeiden luominen
 description: 'Lue, miten voit luoda huoltonimikkeitä Business Centralissa esimerkiksi huoltotilauksen sisäisesti tai toimitessasi nimikkeitä.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: null
 ms.date: 03/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-service-items"></a>Huoltonimikkeiden luonti
+# Huoltonimikkeiden luonti
 
 [!INCLUDE[prod_short](includes/prod_short.md)]issä huoltonimikkeellä tarkoitetaan huoltoa edellyttävää laitetta tai nimikettä. Kun luot huoltotilauksen, määrität huoltoa tarvitsevat nimikkeet. Voit linkittää huoltonimikkeen tilauksessa varaston tai huoltonimikeryhmän nimikkeeseen.
 
 Kun vastaanotat huoltoa tarvitsevan nimikkeen, voit rekisteröidä sen huoltonimikkeeksi. Sen voi tehdä usealla tavalla. Voit esimerkiksi luoda huoltonimikkeen **Huoltonimikkeet**-sivulla tai toisen prosessin osana esimerkiksi huoltotilausta käsiteltäessä.
 
-## <a name="to-create-a-service-item"></a>Huoltonimikkeiden luominen
+## Huoltonimikkeiden luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltonimikkeet** ja valitse sitten vastaava linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="to-create-service-items-within-a-service-order"></a>Huoltonimikkeiden luominen huoltotilauksissa
+## Huoltonimikkeiden luominen huoltotilauksissa
 
 Kun vastaanotat huollettavaksi nimikkeitä, jotka haluat rekisteröidä huoltonimikkeiksi, ne voi luoda huoltonimikkeiksi **Huoltotilaus**- tai **Huoltotarjous**-sivulla.  
 
@@ -31,7 +31,7 @@ Kun vastaanotat huollettavaksi nimikkeitä, jotka haluat rekisteröidä huoltoni
 
     Numero annetaan huoltonimikkeelle ja huoltonimikekortti luodaan. Se täyttää **Huoltonimikkeen nro** -kentän uuden huoltonimikkeen numerolla.
 
-## <a name="to-create-a-service-item-when-shipping-items"></a>Huoltonimikkeiden luominen nimikkeitä toimitettaessa
+## Huoltonimikkeiden luominen nimikkeitä toimitettaessa
 
 Kun nimikkeitä toimitetaan kirjaamalla joko myyntitilauksia tai myyntilaskuja, ohjelma rekisteröi toimitetut nimikkeet automaattisesti huoltonimikkeiksi, jos seuraava ehto toteutuu. Nimikkeiden tulee kuulua huoltonimikeryhmään, jonka **Luo huoltonimike** -kentässä on valintamerkki. Jos nimikkeille on rekisteröity sarjanumero Nimikkeen seurantarivit -sivulla, ohjelma kopioi tämän tiedon automaattisesti huoltonimikekortin **Sarjanro**-kenttään huoltonimikkeiden luonnin yhteydessä.  
 
@@ -48,7 +48,7 @@ Seuraavassa kuvataan, miten huoltonimikkeitä luodaan myyntitilauksissa olevia n
 >
 > Jos nimike on tuoterakenne etkä ole purkanut tuoterakennetta, ohjelma luo nimikkeelle huoltonimikkeen huoltonimikeryhmää koskevan ehdon ja mahdollisen sarjanumeroehdon mukaan.  
 
-## <a name="to-insert-a-starting-fee-for-a-service-item"></a>Aloitusmaksujen syöttäminen huoltonimikkeille
+## Aloitusmaksujen syöttäminen huoltonimikkeille
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotehtävät** ja valitse sitten vastaava linkki.
 2. Valitse **Nimikkeen työkirja** -toiminto.
@@ -56,7 +56,7 @@ Seuraavassa kuvataan, miten huoltonimikkeitä luodaan myyntitilauksissa olevia n
 
     Ohjelma lisää **Kustannus**-tyypin huoltorivin, jolla on aloitusmaksu. Tämä aloitusmaksu koskee valittua huoltonimikettä.
 
-## <a name="block-items-item-variants-or-specific-service-items"></a>Nimikkeiden, nimikevarianttien tai tiettyjen huoltonimikkeiden estäminen
+## Nimikkeiden, nimikevarianttien tai tiettyjen huoltonimikkeiden estäminen
 
 Nimikkeiden, nimikevarianttien tai huoltonimikkeiden käyttäminen huollonhallinnan tapahtumissa, kuten huoltosopimuksissa, huoltotilauksissa ja huoltolaskuissa, voidaan estää. Tämä voi olla kätevää, jos halutaan rajoittaa joidenkin nimikkeiden tai palvelunimikkeiden saatavuutta huollossa esimerkiksi päättyneen tuen, rajallisen varaston tai sopimuksen ehtojen vuoksi.
 
@@ -79,7 +79,7 @@ Lisäksi seuraavia toimintoja ei voi käyttää, jos huoltosopimukset, huoltosop
 - **Vapauta toimitettavaksi** tai **Kirjaa** **Huoltotilaus**-sivulla.
 - **Kirjaa** **Huoltolasku**-sivulla.
 
-### <a name="block-a-service-item"></a>Huoltonimikkeen estäminen
+### Huoltonimikkeen estäminen
 
 Huoltonimikkeen käytön estäminen huollonhallinnan tapahtumissa tehdään valitsemalla **Huoltonimikekortti**-sivun **Estetty**-kentässä jokin seuraavista vaihtoehdoista:
 
@@ -107,14 +107,14 @@ Estettyjä huoltonimikkeitävoi tarkastella myös käyttämällä suodatinta seu
 - Huoltonimikkeet ilman takuuta (raportti 5937)
 - Huollon tuotto (huoltonimikk.) (raportti 5938)
 
-### <a name="data-upgrade"></a>Tietojen päivitys
+### Tietojen päivitys
 
 Tämä ominaisuus ei edellytä lisäasetuksia. Seuraavat on kuitenkin huomattava, jos [!INCLUDE [prod_short](includes/prod_short.md)] päivitetään:
 
 - Jos käytössä on nimikkeitä, nimikevariantteja tai nimikemalleja, joissa **Myynti estetty** on otettu käyttöön vaihtopainikkeella, myös **Huolto estetty** -kenttä on otettu käyttöön kyseisissä tietueissa päivityksen yhteydessä. Tämä varmistaa, että aiemmin luotua myynnin estologiikkaa käytetään huollonhallinnan tapahtumiin.
 - Tiedot päivittyvät vain, jos yrityksessä on vähintään yksi huoltonimike, mikä tarkoittaa, että huollon hallintatoimintoja käytetään ja tiedot on päivitettävä. Jos huoltonimikkeitä ei ole, tietojen päivitys ohitetaan, ja **Huolto estetty** poistetaan oletusarvoisesti käytöstä vaihtopainikkeella kaikissa nimikkeissä, nimikevarianteissa ja nimikemalleissa.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Huoltonimikkeiden ja huoltonimikkeiden komponenttien määrittäminen](service-how-setup-service-items.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  
