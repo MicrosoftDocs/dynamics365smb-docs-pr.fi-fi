@@ -26,7 +26,7 @@ Tämä virhesanoma ilmaisee, että käyttäjällä ei ole oikeutta kirjata kysei
 
 Tässä tapauksessa käyttäjälle määritetty sallittu kirjauspäivämääräalue on 11.9. - 30.9. Muutoksen arvotapahtuman kirjauspäivämäärä ei siis voi olla 10.9.  
 
-### <a name="overview-of-involved-posting-date-setup"></a>Asiaankuuluvan kirjauspäivämäärän asetuksen yleiskuvaus
+### <a name="overview-of-the-posting-date-setup"></a>Asiaankuuluvan kirjauspäivämäärän asetuksen yleiskuvaus
 
 #### <a name="inventory-periods"></a>Varastokaudet
 

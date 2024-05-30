@@ -142,7 +142,7 @@ Tietyn käyttäjän kirjausten rajoittaminen:
 3. Valitse **Salli kirjaus kohteesta** -kentässä ALV-päivämäärä, josta kirjaus sallitaan. Asiakirjan tai kirjauskansion kirjaaminen ALV-päivämäärällä ennen tätä päivämäärää ei ole sallittua.
 4. Valitse **Salli kirjaus kohteeseen** -kentässä ALV-päivämäärä, johon asti kirjaus sallitaan. Asiakirjan tai kirjauskansion kirjaaminen ALV-päivämäärälle tämän päivämäärän jälkeen ei ole sallittua.
 
-## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Määritä oman maan tai alueen ALV-rekisteröintinumerot
+## <a name="set-up-vat-registration-numbers-for-your-countryregion"></a>Määritä oman maan tai alueen ALV-rekisteröintinumerot
 
 Voit auttaa varmistamaan, että annettavat ALV-rekisteröintinumerot ovat kelvollisia, määrittämällä niiden maiden tai alueiden ALV-rekisteröintinumeroiden muodot, joissa sinulla on liiketoimintaa. [!INCLUDE[prod_short](includes/prod_short.md)] näyttää virhesanoman, jos joku tekee virheen tai käyttää muotoa, jota ei hyväksytä maassa tai alueella.
 
@@ -232,7 +232,7 @@ Seuraavissa osissa käsitellään ALV-kirjausryhmien määrittämistä yksittäi
     * Laajenna **Resurssi**-kortissa **Laskutus**-pikavälilehti.  
 3. Valitse tuotteen ALV-kirjausryhmä.  
 
-## <a name="set-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Määritä lausekkeet ALV-vapautuksen tai poikkeavien ALV-prosenttien selittämiseksi
+## <a name="set-up-clauses-to-explain-vat-exemption-or-nonstandard-vat-rates"></a>Määritä lausekkeet ALV-vapautuksen tai poikkeavien ALV-prosenttien selittämiseksi
 
 Määritä ALV-lause kuvaamaan tietoja käytettävästä ALV-tyypistä. Tietoja voidaan vaatia hallituksen asetuksilla. Kun olet määrittänyt ALV-lauseen ja liittänyt sen ALV-kirjausasetukseen, ALV-lause näkyy kaikissa tulostetuissa myyntiasiakirjoissa, jotka käyttävät ALV-kirjausten asetusryhmää.
 
@@ -293,7 +293,7 @@ Määritä tuonnin ALV:n koodit seuraavasti:
 5. Valitse **ALV-laskennan tyyppi** -kentässä **Täysi ALV**.  
 6. Anna **Ostojen ALV-tili** -kentässä se pääkirjanpidon tili, jota käytetään tuonnin ALV:n kirjaamiseen. Kaikki muut tilit ovat valinnaisia.  
 
-## <a name="use-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>ALV-vastakirjauksen käyttäminen EU-maiden tai -alueiden välisessä kaupassa
+## <a name="use-reverse-charge-vat-for-trade-between-eu-countriesregions"></a>ALV-vastakirjauksen käyttäminen EU-maiden tai -alueiden välisessä kaupassa
 
 Joiden yritysten on käytettävä ALV-vastakirjausta tehdessään kauppaa muiden yritysten kanssa. Sääntö koskee esimerkiksi EU:n maiden tai alueiden välisiä myyntejä ja ostoja.  
 
@@ -303,7 +303,7 @@ Joiden yritysten on käytettävä ALV-vastakirjausta tehdessään kauppaa muiden
 > [!TIP]  
 > Voit tarkistaa EU:n ALV-rekisteröintinumeron vahvistuspalvelun avulla, onko yritys rekisteröity ALV-velvolliseksi toisessa EU-maassa tai toisella EU-alueella. Palvelua voi käyttää maksutta [!INCLUDE[prod_short](includes/prod_short.md)]issa. Lisätietoja on ohje aiheessa [ALV-rekisterinumeroiden vahvistaminen](finance-how-validate-vat-registration-number.md).
 
-### <a name="sales-to-eu-countries-or-regions"></a>Myynti EU-maihin tai -alueille
+### <a name="sales-to-eu-countriesregions"></a>Myynti EU-maihin tai -alueille
 
 ALV:tä ei lasketa myynneistä muiden EU-maiden/alueiden ALV-velvollisille yrityksille. Näiden EU-maihin/alueille tapahtuvien myyntien arvo on raportoitava erikseen ALV-ilmoituksessa.  
 

@@ -9,7 +9,7 @@ ms.date: 09/27/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="customizing-business-central-online-with-apps"></a>Business Central Onlinen mukauttaminen sovellusten avulla
+# <a name="customizing-business-central-online-using-apps"></a>Business Central Onlinen mukauttaminen sovellusten avulla
 
 Voit muuttaa [!INCLUDE[prod_short](includes/prod_short.md)] onlinea asentamalla sovelluksia, jotka sisältävät lisätoimintoja, muuttavat toimintaa tai mahdollistavat esimerkiksi uusien verkkopalveluiden käyttämisen. Nämä sovellukset ovat niin sanottuja *laajennuksia*, koska ne *laajentavat* [!INCLUDE [prod_short](includes/prod_short.md)]ia.
 

@@ -11,7 +11,7 @@ ms.date: 05/01/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Asiakirjojen ja sähköpostien lähettäminen
+# <a name="send-documents-and-emails"></a>Asiakirjojen ja sähköpostien lähettäminen
 
 Voit helposti jakaa tietoja ja asiakirjoja, kuten myynti- ja ostotilauksia ja laskuja, sähköpostitse suoraan [!INCLUDE[prod_short](includes/prod_short.md)]ista ilman sähköpostisovelluksen avaamista.  
 
@@ -24,7 +24,7 @@ Ota sähköpostit käyttöön [!INCLUDE[prod_short](includes/prod_short.md)]issa
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] tukee vain lähteviä sähköpostiviestejä. Et voi vastaanottaa vastauksia sovelluksessa.
 
-## Asiakirjojen lähettäminen sähköpostitse
+## <a name="to-send-documents-by-email"></a>Asiakirjojen lähettäminen sähköpostitse
 
 Tässä kuvataan, miten kirjattu myyntilasku liitetään sähköpostiin PDF-tiedostona ja asiakirjakohtaisen sähköpostiviestin tekstinä. Vaiheet ovat samat muissa asiakirjoissa.
 
@@ -46,14 +46,14 @@ Tässä kuvataan, miten kirjattu myyntilasku liitetään sähköpostiin PDF-tied
 > [!NOTE]  
 > Jos et halua määrittää sähköpostiviestin asetuksia aina, kun lähetät asiakirjan sähköpostitse, valitse **Kyllä (Käytä oletusasetuksia)** -vaihtoehto **Lähetä asiakirja kohteeseen** -sivun **Sähköposti**-kentässä. Tällöin **Lähetä sähköposti** -sivu ei avaudu. Lisätietoja on vaiheessa 4. Lisätietoja on kohdassa [Asiakirjan lähetysprofiilien määrittäminen](sales-how-setup-document-send-profiles.md).  
 
-## Sähköpostin kirjoittaminen ja lähettäminen
+## <a name="to-compose-and-send-an-email"></a>Sähköpostin kirjoittaminen ja lähettäminen
 
 Voit luoda nopeasti sähköpostit kontakteille, asiakkaille, toimittajille, myyjille/ostajille ja pankkitileille suoraan kyseisten entiteettien sivuilta. Valitse vain **Käsittele** ja **Lähetä sähköpostiviesti** sähköpostieditorin avaamista varten. Pankkitileille **Lähetä sähköpostiviesti** -toiminto on kohdassa **Toiminnot**.
 
 > [!TIP]
 > Jos lähetät usein samankaltaisia sähköpostiviestejä tai haluat lähettää joukkoviestintää esimerkiksi myyntikampanjan mainostamista varten, voit nopeuttaa prosessia käyttämällä Word-malleja sähköpostiviesteissä. Voit luoda mallin sellaisille entiteeteille kuten asiakkaat, toimittajat ja kontaktit, jotka luovat sähköpostiviestin sisällön ja jopa räätälöivät sen vastaanottajan mukaan [!INCLUDE[prod_short](includes/prod_short.md)]in tietojen perusteella. Lisätietoja on kohdassa [Word-mallien käyttäminen joukkoviestinnässä](ui-mail-merge.md).  
 
-### Liitä asiakirja sähköpostiviestiin
+### <a name="attach-a-document-to-an-email"></a>Liitä asiakirja sähköpostiviestiin
 
 Asiakirjoja voi liittää sähköpostiviesteihin usealla eri tavalla.
 
@@ -65,11 +65,11 @@ Voit liittää tiedoston itse sähköpostieditorissa seuraavien toimintojen avul
 * Voit lisätä sähköpostiskenaarioon liittyvän tiedoston manuaalisesti valitsemalla **Lisää tiedostot oletusvalinnasta**.
 * Valitse asiakirjaan liitetty tiedosto valitsemalla **Lisää tiedosto lähdeasiakirjasta**. Tiedostot on liitetty joko itse asiakirjaan tai yhteen tai useampaan sen riviin.
 
-## Asiakirjat, jotka on merkitty tulostetuiksi, kun ne lähetetään
+## <a name="documents-marked-as-printed-when-they-are-sent"></a>Asiakirjat, jotka on merkitty tulostetuiksi, kun ne lähetetään
 
 Joissakin [!INCLUDE[prod_short](includes/prod_short.md)] -sivuston asia kirjoissa on kenttä, joka määrittää, kuinka monta kertaa asiakirja on tulostettu. Kentän numero <!--"that field?" need a name...--> päivitetään myös, jos lähetät asiakirjan sähköpostitse, koska sille luodaan PDF-tiedosto. Numero päivittyy, vaikka et lähettäisi sähköpostia. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
-## Lähetetyt sähköpostit ja lähtevien sähköpostien kansio
+## <a name="sent-emails-and-your-email-outbox"></a>Lähetetyt sähköpostit ja lähtevien sähköpostien kansio
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tallentaa lähettämäsi sähköpostit **Lähetetyt**-sivulle. Se antaa sinun lähettää sähköposteja uudelleen tai lähettää ne jollekulle muulle. Jos et löydä sähköpostia lähetetyistä kohteista, etsi se **Sähköpostin Lähtevät-kansio** -sivulta. 
 
@@ -78,7 +78,7 @@ Joissakin [!INCLUDE[prod_short](includes/prod_short.md)] -sivuston asia kirjoiss
 
 **Sähköpostin Lähtevät-kansioon** on tallennettu luonnoksina tallentamasi sähköpostit ja sähköpostit, joita ei voitu lähettää, esimerkiksi jos sähköpostiosoite oli virheellinen. Viesteille, joita ei voitu lähettää, voit valita **Näytä virhe** tai **tutki virhe** ja tehdä ongelman vianmäärityksen.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md)  
 [Sähköpostin määrittäminen](admin-how-setup-email.md)  
