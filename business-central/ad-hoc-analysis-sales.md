@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-analysis-of-sales-data"></a>Myyntitietojen ad-hoc-analyysi
+# Myyntitietojen ad-hoc-analyysi
 
 Tässä artikkelissa kerrotaan, kuinka voit käyttää **Tietojen analysointi** -ominaisuutta myyntitietojen analysointiin suoraan luettelosivuilta ja kyselyistä. Sinun ei tarvitse suorittaa raporttia tai siirtyä toiseen sovellukseen, kuten Exceliin. Ominaisuus tarjoaa vuorovaikutteisen ja monipuolisen tavan laskea, tiivistää ja tarkastella tietoja. Sen sijaan, että raportteja suoritetaan vaihtoehdoilla ja suodattimilla, voit lisätä useita välilehtiä, jotka edustavat erilaisia tehtäviä tai näkymiä tiedoista. Esimerkkejä ovat "Asiakkaani", "Myyntitilastot", tai mikä tahansa muu näkymä, jonka voit kuvitella. Lisätietoja **Tietojen analysointi** -ominaisuuden käytöstä on kohdassa [analyysitilassa olevien luettelo- ja kyselytietojen analysointi](analysis-mode.md).
 
@@ -25,7 +25,7 @@ Käytä seuraavia luettelosivuja myyntiprosessien tapauskohtaiseen analysointiin
 - Kirjatut myyntilaskut
 - Myyntipalautustilaukset
 
-## <a name="sales-ad-hoc-analysis-scenarios"></a>Myynnin ad-hoc-analyysiskenaariot
+## Myynnin ad-hoc-analyysiskenaariot
 
 **Tietojen analysointi** -toiminnon avulla voit tarkistaa tiedot nopeasti ja tehdä tapauskohtaisia analyysejä seuraavasti:
 
@@ -41,7 +41,7 @@ Seuraavissa osissa on esimerkkejä myyntiskenaarioista [!INCLUDE [prod_short](in
 | [Myynti (asiakasmyynti volyymin mukaan)](#example-sales-customer-sales-by-volume) | Saat nopean yleissilmäyksen asiakkaista, jotka ostavat eniten, ja asiakkaista, jotka ovat eniten velkaa. | [Asiakastapahtumat](https://businesscentral.dynamics.com/?page=25) | **Asiakkaan nimi**, **Asiakirjan nro**, **Summa** ja **Jäljellä oleva summa**. |
 | [Raha-asiat (Myyntireskontra)](#example-finance-accounts-receivables) | Katso, mitä asiakkaasi ovat sinulle velkaa, jaoteltuina esimerkiksi aikaväleihin summien erääntymisen osalta. | [Asiakastapahtumat](https://businesscentral.dynamics.com/?page=25) | **Asiakkaan nimi**, **Eräpäivä** ja **Jäljellä oleva summa**. |
 
-## <a name="example-sales-expected-sales-volume"></a>Esimerkki: Myynti (oletettu myyntivolyymi)
+## Esimerkki: Myynti (oletettu myyntivolyymi)
 
 Voit analysoida jokaisen asiakkaan oletettujen myyntivolyymien ja toimittamattomien tilausten myyntisummia vuoden tai kuukauden mukaan noudattamalla seuraavia vaiheita:
 
@@ -54,7 +54,7 @@ Voit analysoida jokaisen asiakkaan oletettujen myyntivolyymien ja toimittamattom
 1. Jos haluat tehdä analyysin tietyltä vuodelta tai vuosineljännekseltä, käytä suodatinta **Lisäsuodattimet**-valikossa. Valikko on sivun oikealla puolella, **sarakkeet**-valikon alapuolella.
 1. Nimeä analyysivälilehden nimeksi uudelleen **Odotettu myyntimäärä** tai tuotteiksi, jotka kuvaavat analyysiä puolestasi.
 
-## <a name="example-sales-customer-sales-by-volume"></a>Esimerkki: Myynti (asiakasmyynti volyymin mukaan)
+## Esimerkki: Myynti (asiakasmyynti volyymin mukaan)
 
 Voit luoda yleiskatsauksen asiakkaista, jotka ostavat eniten tai jotka ovat eniten velkaa, seuraavasti:
 
@@ -69,7 +69,7 @@ Seuraavassa kuvassa on näiden työvaiheiden tulokset.
 
 :::image type="content" source="media/data-analysis-customer-ledger-entries.png" alt-text="Esimerkki tietojen analysoinnista asiakastapahtumamerkintöjen sivulla." lightbox="media/data-analysis-customer-ledger-entries.png":::
 
-## <a name="example-finance-accounts-receivables"></a>Esimerkki: Raha-asiat (Myyntireskontra)
+## Esimerkki: Raha-asiat (Myyntireskontra)
 
 Seuraa näitä vaiheita nähdäksesi, mitä asiakkaasi ovat sinulle velkaa, jaoteltuina aikaväleihin summien erääntymisen osalta:
 
@@ -81,7 +81,7 @@ Seuraa näitä vaiheita nähdäksesi, mitä asiakkaasi ovat sinulle velkaa, jaot
 1. Jos haluat tehdä analyysin tietyltä vuodelta tai vuosineljännekseltä, käytä suodatinta **Lisäsuodattimet**-valikossa. Valikko on sivun oikealla puolella, **sarakkeet**-valikon alapuolella.
 1. Nimeä analyysivälilehden nimeksi uudelleen **Erääntyneet tilit kuukausittain** tai tuotteiksi, jotka kuvaavat analyysiä puolestasi.
 
-## <a name="data-foundation-for-ad-hoc-analysis-on-sales"></a>Myymisen ad-hoc-analyysin tietopohja
+## Myymisen ad-hoc-analyysin tietopohja
 
 Kun olet syöttänyt tiedot myyntitilauksesta ja lisännyt kaikki myyntitilausrivit, voit kirjata tilauksen. Kirjaus luo toimituksen ja laskun. [!INCLUDE [prod_short](includes/prod_short.md)] päivittää asiakkaan tilin, pääkirjanpidon ja nimiketapahtumien päivittämiseksi:
 
@@ -90,7 +90,7 @@ Kun olet syöttänyt tiedot myyntitilauksesta ja lisännyt kaikki myyntitilausri
 
 Jos haluat lisätietoja myyntien kirjauksesta, siirry kohtaan [Myyntien kirjaus](ui-post-sales.md).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Myynnin kirjaaminen](ui-post-sales.md)  
 [Luettelo- ja kyselytietojen analysoiminen analyysitilassa](analysis-mode.md)  
