@@ -11,7 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Liiketoimintatietojen nopea alku
+# <a name="business-intelligence-quick-start"></a>Liiketoimintatietojen nopea alku
 
 Kyky kerätä ja analysoida yhä kasvavia tietomääriä toimivalla tavalla on arvokas osa liiketoimintaa näinä päivinä. [!INCLUDE[prod_short](includes/prod_short.md)] tarjoaa monia Business Intelligence (BI)-työkaluja&mdash;sekä sisäänrakennettuja että integroituja muihin palveluihin&mdash;jotka auttavat yritystä päätöksenteossa.
 
@@ -28,7 +28,7 @@ Organisaation eri roolit käyttävät ja analysoivat usein mieluummin dataa, jok
 
 Lisätietoja analytiikasta on Analyticsin [yleiskuvassa](reports-bi-reporting.md).
 
-## Analytiikka toiminnallisten alueitten mukaan
+## <a name="analytics-by-functional-area"></a>Analytiikka toiminnallisten alueitten mukaan
 
 Seuraavassa taulukossa on linkkejä artikkeleihin, joissa kuvataan, miten analytiikkaa käytetään tietyissä toiminta-alueilla [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -39,7 +39,7 @@ Seuraavassa taulukossa on linkkejä artikkeleihin, joissa kuvataan, miten analyt
 | Ostaminen | [Ostamisen analyysi](purchasing-analytics-overview.md) |
 | Käyttöomaisuuden hallinta | [Käyttöomaisuuden analyysi](fa-analytics-overview.md) |
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Analytiikan yleiskatsaus](reports-bi-reporting.md)  
 [Business Centralin pika-aloitusopas](quick-start-business-central.md)  

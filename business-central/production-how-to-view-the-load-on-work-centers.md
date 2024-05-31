@@ -9,18 +9,18 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Tuotantosolujen ja kuormituskeskusten kuormituksen tarkasteleminen
+# <a name="view-load-on-work-and-machine-centers"></a>Tuotantosolujen ja kuormituskeskusten kuormituksen tarkasteleminen
 
 Voit tarkastella **Tuotantosolukortti**- ja **Kuormitusryhmän kortti** -sivuilla suunniteltujen ja vapautettujen tuotantotilausten seurauksena syntyvää tuotannon kuormitusta.  
 
-## Tuotantosolujen kuormituksen näyttäminen
+## <a name="to-view-the-load-on-work-centers"></a>Tuotantosolujen kuormituksen näyttäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotantosolut** ja valitse sitten vastaava linkki.  
 2. Avaa luettelossa käsiteltävä **Tuotantosolukortti** ja valitse sitten **Kuormitus**-toiminto.  
 
 Valitse jakso **Vaihtoehdot**-pikavälilehden **Näyttöperuste**- ja **Näyttömuoto**-kenttien avulla.  
 
-## Katso myös  
+## <a name="see-also"></a>Katso myös
 [Tuotanto](production-manage-manufacturing.md)
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
 [Suunnittelu](production-planning.md)  

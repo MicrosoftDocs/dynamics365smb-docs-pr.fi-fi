@@ -11,14 +11,14 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.service: dynamics-365-business-central
 ---
-# Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista
+# <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista
 
 [!INCLUDE [prod_short](includes/prod_short.md)] sallii kokoonpanon nimikkeiden toimittamisen seuraavilla tavoilla:
 
 * Kokoonpano tilausta varten  
 * Kokoonpano varastoon  
 
-## Kokoonpano tilausta varten
+## <a name="assemble-to-order"></a>Kokoonpano tilausta varten
 
 Tilausta kokoonpanoa varten käytetään nimikkeissä, joita ei haluta varastoida. Syy tähän voi olla esimerkiksi jokin seuraavista:
 
@@ -44,7 +44,7 @@ Kun tilausta varten koottava nimike syötetään myyntitilausriville, kokoonpano
 
 Nimike määritetään tilausta varten koottavaksi valitsemalla nimikkeen **Nimikekortti**-sivun **Kokoonpanokäytäntö**-kentässä **Kokoonpano tilausta varten**.  
 
-## Kokoonpano varastoon
+## <a name="assemble-to-stock"></a>Kokoonpano varastoon
 
 Kokoonpano varastoon -prosessia käytetään nimikkeissä, jotka kokoonpannaan ja varastoidaan tulevaa myyntiä varten. Varastoon kokoonpantavat nimikkeet ovat vakionimikkeitä, kuten tuotepaketteja, joita ei mukauteta. Näitä nimikkeitä voidaan kuluttaa myös alikokoonpanon komponentteina. Nämä nimikkeet poimitaan ja niitä käsitellään yksittäisenä nimikkeinä, jotka katsotaan valmistuneiksi tuotantonimikkeiksi. Lisätietoja kokoonpanon nimikkeistä on kohdassa [Nimikkeiden kokoaminen](assembly-how-to-assemble-items.md).  
 
@@ -55,7 +55,7 @@ Kun myyntiriville määritetään varastoon koottava nimike, nimikettä käsitel
 
 Nimike määritetään varastoon koottavaksi valitsemalla nimikkeen **Nimikekortti**-sivun **Kokoonpanokäytäntö**-kentässä **Kokoonpano varastoon**.  
 
-## Yhdistelmäskenaariot
+## <a name="combination-scenarios"></a>Yhdistelmäskenaariot
 
 Kun tilausta varten kootut määrät ja varastomäärät yhdistetään myyntirivillä, tilausta varten kootut on toimitettava ensimmäisenä.  
 
@@ -97,7 +97,7 @@ Tämän esimerkin perusteella **Kokoonpantava määrä** -kenttää voidaan muut
 * Pienin syötettävä määrä on 1. Vähintään yksi yksikkö on koottava, jotta neljän yksikön myynti on mahdollista, olettaen, että loput kolme ovat saatavana varastossa.  
 * Suurin määrä, joka voidaan syöttää on 4. Tämä raja varmistaa, että kokoonpantavien nimikkeiden määrä ei ylitä myyntiin tarvittavaa määrää.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Kokoonpanon tuoterakenteiden käyttäminen](assembly-how-work-assembly-boms.md)  

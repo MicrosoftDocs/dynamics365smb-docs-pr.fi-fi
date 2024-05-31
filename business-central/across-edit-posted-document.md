@@ -11,7 +11,7 @@ ms.date: 06/10/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Kirjattujen asiakirjojen muokkaaminen
+# <a name="edit-posted-documents"></a>Kirjattujen asiakirjojen muokkaaminen
 
 Joskus kirjattu asiakirja on päivitettävä, koska asiakirjaan liittyvät tiedot ovat muuttuneet. Kirjatussa asiakirjassa tällainen tieto voi olla esimerkiksi kuljetusliikkeen paketin seurantanumero. Kirjatussa ostoasiakirjassa tämä voi olla maksun viiteteksti.
 
@@ -31,7 +31,7 @@ Seuraavia lisäasiakirjoja voi muokata tietyissä maissa ja alueilla:
 - RU: Kirjattu myyntihyvityslasku
 - IT: Kirjattu siirtotoimitus, kirjattu huoltotoimitus
 
-## Kirjatun myyntitoimituksen muokkaaminen
+## <a name="to-edit-a-posted-sales-shipment"></a>Kirjatun myyntitoimituksen muokkaaminen
 
 Seuraavassa kerrotaan, miten kirjattua myyntitoimitusta muokataan. Vaiheet ovat samanlaiset muissa tuetuissa asiakirjoissa.
 
@@ -42,7 +42,7 @@ Seuraavassa kerrotaan, miten kirjattua myyntitoimitusta muokataan. Vaiheet ovat 
 
 Kirjattu myyntitoimitus päivitetään.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Asiakirjojen ja päiväkirjojen kirjaaminen](ui-post-documents-journals.md)  
 [Etsi liittyviä tapahtumia asiakirjoille](ui-find-entries.md)  

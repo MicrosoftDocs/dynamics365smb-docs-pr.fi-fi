@@ -10,13 +10,13 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Sekin asettelun valitseminen
+# <a name="select-a-check-layout"></a>Sekin asettelun valitseminen
 
 Voit suunnitella omat sekit, joiden avulla pystyt noudattamaan paikallisten viranomaisten määrittämiä standardeja. Sekkikuvat voidaan tulostaa englannin-, ranskan ja espanjankielisinä.
 
 Sekit suunnitellaan tulostettavaksi sekä Yhdysvaltojen että Kanadan sekkikuvamuodoissa joko muodossa sekki-talonki-sekki tai talonki-talonki-sekki.
 
-## Sekin asettelun valitseminen
+## <a name="to-select-a-check-layout"></a>Sekin asettelun valitseminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Raporttivalintojen pankkitili** ja valitse sitten vastaava linkki.
 2. Valitse **Raporttivalinta - Pankkitili** -sivun **Käyttö**-kentässä **Sekki**.
@@ -33,7 +33,7 @@ Kun olet määrittänyt sekkien asettelut, voit tulostaa sekit **Maksupäiväkir
 
 Voit muuttaa jotakin näistä sekkien oletusasetteluista käyttämällä joko Word- tai RDLC-integrointia. Lisätietoja on kohdassa [Raportin mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md).
 
-## MICR- ja suojausfonttien käyttäminen
+## <a name="use-micr-and-security-fonts"></a>MICR- ja suojausfonttien käyttäminen
 [!INCLUDE[prod_short](includes/prod_short.md)]:n online-versio sisältää valmiiksi asennetut fontit palvelimissa, joita voidaan käyttää sekin asettelujen määrittämisessä. Seuraavassa on esitetty, mitkä fontit ovat käytettävissä, ja siinä on linkit kolmansien osapuolten fonttien toimittajien yksityiskohtaisiin tietoihin.
 
 > [!Important]
@@ -44,19 +44,19 @@ Päivityksessä 15.3 ja uudemmissa on asennettu magneettisten merkkien tunnistuk
 > [!NOTE]
 > Suojaus- ja oikeudellisista syistä mukautettuja fontteja ei voi ladata [!INCLUDE[prod_short](includes/prod_short.md)]-ympäristöön.
 
-### MICR E-13B -määritykset
+### <a name="micr-e-13b-specifications"></a>MICR E-13B -määritykset
 
 Seuraavassa on yhteenveto MICR E-13B -fonteista, joista voi olla hyötyä, kun fontteja kalibroidaan sekkiasetteluissa tiettyjen MICR-tulostimien avulla.
 
 ![MICR E-13B -määritykset.](media/font_MICR_E-13B_Specifications.png "MICR E-13B -määritykset")
 
-### Erottimen merkit
+### <a name="delimiter-characters"></a>Erottimen merkit
 
 ![Erottimen merkit.](media/font-micr-letters.png "Erottimen merkit")
 
 MICR E-13B -fonttien kokomääritys löytyy toimittajan dokumentaatiosta täältä: (https://www.idautomation.com/micr-fonts/e13b/).
 
-### MICR CMC-7 -määritykset
+### <a name="micr-cmc-7-specifications"></a>MICR CMC-7 -määritykset
 
 Seuraavat CMC-7 -fontit ovat käytettävissä [!INCLUDE[prod_short](includes/prod_short.md)] -online-käytössä:
 
@@ -69,13 +69,13 @@ Seuraavassa on yhteenveto MICR CMC-7 -fonteista, joista voi olla hyötyä, kun f
 
 ![MICR CMC-7 -määritykset.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7 -määritykset")
 
-### Erottimen merkit
+### <a name="delimiter-characters-1"></a>Erottimen merkit
 
 ![Erottimen CMC-7-merkit.](media/font-cmc7-letters.png "Erottimen CMC-7-merkit")
 
 MICR CMC-7 -fonttien kokomääritys löytyy toimittajan dokumentaatiosta täältä: (http://www.idautomation.com/micr-fonts/cmc7/).
 
-### Suojattujen fonttien määritykset
+### <a name="secure-font-specifications"></a>Suojattujen fonttien määritykset
 
 Seuraavassa on yhteenveto sekkisuojausfonteista, joista voi olla hyötyä, kun fontteja kalibroidaan sekkiasetteluissa tiettyjen MICR-tulostimien avulla.
 
@@ -85,7 +85,7 @@ Sekkisuojausfonttien kokomääritys löytyy toimittajan dokumentaatiosta täält
 
 Fontit muihin tarkoituksiin ovat myös saatavilla [!INCLUDE[prod_short](includes/prod_short.md)]. Lisätietoja on kohdassa [Käytettävissä olevat fontit](ui-fonts.md)
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Raporttien mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md)  
 [Fontit Business Centralissa](ui-fonts.md)  

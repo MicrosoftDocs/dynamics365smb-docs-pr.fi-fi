@@ -10,20 +10,20 @@ ms.date: 03/17/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Business Centralin kontaktien synkronisointi Microsoft Outlookin yhteystietojen kanssa
+# <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Business Centralin kontaktien synkronisointi Microsoft Outlookin yhteystietojen kanssa
 
 Voit määrittää kontaktien synkronoinnin siten, että kontakteillasi [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa on samat tiedot kuin kontakteillasi Microsoft Outlookissa. Myyjät esimerkiksi saattavat käyttää Outlookia ja [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaa samanaikaisesti. Jos kontaktit ovat samat molemmissa, työ on yksinkertaisempaa.  
 
 Synkronoimasi kontaktit säilytetään oletusarvoisesti Outlookin kansioruudun suosikkien **Business Central** -kansiossa. Business Central -kansion avulla on helpompi tunnistaa, mitkä kontaktit synkronoidaan. Voit määrittää suodattimia synkronoidaksesi vain tietyt kontaktit [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmasta Outlookiin. Synkronoinnin määrittämisen jälkeen voit synkronoida manuaalisesti tai automatisoida prosessin suorittamaan synkronoinnin säännöllisin väliajoin.  
 
-## Vaatimukset
+## <a name="prerequisites"></a>Vaatimukset
 
 - [!INCLUDE[prod_short](includes/prod_short.md)] -käyttäjäprofiilissasi määritetään oma Microsoft 365 -sähköpostitilisi.
 
   Voit tarkistaa tämän asetuksen **Käyttäjät**-luettelossa oman käyttäjäprofiilisi **Microsoft 365 -todennus** -osassa.
 - [!INCLUDE[prod_short](includes/prod_short.md)]-ohjelman avulla olet määrittänyt kontaktin synkronoinnin [Määritä yhteystietojen synkronointi paikallisen Outlook for Business Central -ohjelman kanssa](admin-contact-sync-setup-onprem.md) -kohdassa kuvatulla tavalla
 
-## Synkronoinnin määritys
+## <a name="set-up-synchronization"></a>Synkronoinnin määritys
 
 Määrität, miten haluat synkronoida Outlookin yhteystiedot [!INCLUDE[prod_short](includes/prod_short.md)]:n **Exchangen synkronointiasetukset** -sivulla. 
 
@@ -33,7 +33,7 @@ Kunkin työtovereistasi voi myös määrittää oman Exchange-synkronointinsa ja
 
 Synkronoinnin määrittämisen jälkeen voit synkronoida kontaktin muutokset manuaalisesti tai voit automatisoida prosessin määrittämällä työjonotapahtuman. Lisätietoja automaatiosta on tämän artikkelin seuraavassa osassa.
 
-### Synkronoinnin automatisointi
+### <a name="automate-synchronization"></a>Synkronoinnin automatisointi
 
 Voit luoda työjonotapahtuman, joka synkronoi kontaktit määrittämäsi aikataulun mukaan. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](admin-job-queues-schedule-tasks.md). 
 
@@ -44,7 +44,7 @@ Seuraava taulukko sisältää **Työjonotapahtumakortin** asetukset, jotka on ta
 |Suoritettavan objektin tyyppi|Koodiyksikkö|
 |Suoritettavan objektin tunnus|6700|
 
-## Kontaktien synkronointi
+## <a name="synchronize-contacts"></a>Kontaktien synkronointi
 
 Jos olet tottunut käyttämään kontakteja [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa, sinun on helppo suorittaa synkronointi manuaalisesti **Kontaktit**-luettelosta aina, kun se sinulle sopii. Voit synkronoida kontakteja kahdella tavalla:
 
@@ -61,7 +61,7 @@ Molemmissa tapauksissa kontaktit synkronoidaan Outlookista vain jos niiden pakol
 > [!NOTE]
 > Jos poistat kontaktin Outlookissa, mutta haluat säilyttää sen [!INCLUDE[prod_short](includes/prod_short.md)] ohjelmassa, kontakti luodaan Outlookissa uudelleen seuraavan synkronoinnin yhteydessä. 
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Rahoitus](finance.md)  

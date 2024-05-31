@@ -9,12 +9,12 @@ ms.date: 03/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Pakettien seuraaminen
+# <a name="track-packages"></a>Pakettien seuraaminen
 Useimmilla kuljetusliikkeillä on verkkopalvelu, jossa voi seurata matkalla olevien pakettien tilaa. Tästä tiedosta voi olla hyötyä monissa liiketoimintaprosesseissa esimerkiksi asiakaspalvelua tarjottaessa. Jos käytössä on useita kuljetusliikkeitä, voit antaa niistä perustietoja ja käyttää sitten niiden paketin seurantapalvelua suoraan Kirjatut myyntitoimitukset-, Kirjatut myyntilaskut-, Kirjatut myyntihyvityslaskut- ja Kirjattu palautusvastaanotto -sivut. Lisätietoja on kohdassa [Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md). 
 
 Seuraavassa kuvataan, miten pakettia seurataan kirjatusta myyntitoimituksesta, mutta samoja vaiheita käytetään, jotta voidaan ottaa käyttöön pakettien seuranta kirjatusta myyntilaskusta, kirjatusta myyntihyvityslaskusta ja kirjatuista palautuskuittisivuista.  
 
-## Paketin seuraaminen
+## <a name="to-track-a-package"></a>Paketin seuraaminen
 
 > [!NOTE]
 > Seuraavassa menettelyssä käytetään Kirjattu myyntitoimitus -sivua esimerkkinä. Paketin seurantavaiheet ovat samat Kirjatut myyntilaskut-, Kirjatut myyntilaskusivut- ja Kirjattu palautusvastaanotto -sivut.
@@ -25,7 +25,7 @@ Seuraavassa kuvataan, miten pakettia seurataan kirjatusta myyntitoimituksesta, m
 4. Varmista, että kuljetusliike ja palvelun taso ovat oikein, ja sulje sitten sivu.
 5. Avaa kuljetusliikkeen kollin seurantasivu valitsemalla **Seuraa kollia**.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md)  
 [Myynti](sales-manage-sales.md)  

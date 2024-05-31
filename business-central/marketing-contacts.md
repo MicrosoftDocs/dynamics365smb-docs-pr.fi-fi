@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Kontaktien hallinta
+# <a name="managing-contacts"></a>Kontaktien hallinta
 
 Yrityksen työntekijät kohtaavat säännöllisesti mahdollisia liikesuhteita, joista voi kehittyä virallisia liikesuhteita. Kaikki tällaiset ulkoiset yhteyshenkilöt ja heidän eritellyt tietonsa tulee tallentaa järjestelmään, jotta viestintä onnistuu. Tämän jälkeen yhteyshenkilöt voidaan helposti muuntaa virallisesti asiakkaiksi, toimittajiksi tai pankkisuhteiksi.
 
@@ -26,7 +26,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 |Määritä kyselyprofiileja niille kyselyille, joita haluat käyttää, kun annat tietoja kontaktien profiileista.|[Liiketoimintakontaktien luokittelu profiilikyselyiden avulla](marketing-create-contact-profile-questionnaire.md)|
 |Ratkaise ristiriita, kun samalla kontaktilla on ainakin kaksi tietuetta.|[Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)|
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [Lajitteleminen, hakeminen ja suodattaminen](ui-enter-criteria-filters.md)  
