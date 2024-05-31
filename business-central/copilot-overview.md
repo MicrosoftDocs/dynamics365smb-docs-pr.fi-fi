@@ -8,7 +8,7 @@ ms.topic: overview
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 04/16/2024
+ms.date: 05/17/2024
 ms.custom: bap-template
 ---
 
@@ -43,6 +43,10 @@ Copilot sisältää jatkuvasti laajentuvan ominaisuusjoukon, joka avustaa erilai
 ## Onko Copilot tietoinen ympäristömukautuksistani?
 
 Osa Copilotin ominaisuuksista ei ole käytettävissä mukautettujen sivujen ja taulukoiden parissa. Voit esimerkiksi käyttää [analyysiapua](analysis-assist.md) mukautettujen luetteloiden yhteydessä tai etsiä tietueita mukautetuissa taulukoissa [keskustelemalla Copilotin kanssa](chat-with-copilot.md). Lisätietoja mukautuksia käsittelevistä Copilot-toiminnoista on kunkin ominaisuuden artikkeleissa.
+
+## Tarvitseeko Copilotia kouluttaa tietojeni perusteella?
+
+Business Centralin copilot on riippuvainen tehokkaista AI-pohjamalleista sekä Business Central -alustan tiedonhallintatoiminnoista. Organisaatio ei tarvitse kallista tai aikaa vievää koulutusta, jotta se voi aloittaa Kopiointi-ikkunan käytön oman yrityksesi tietojen avulla.
 
 ## Voiko Business Centralille kehittää Copiloteja?
 

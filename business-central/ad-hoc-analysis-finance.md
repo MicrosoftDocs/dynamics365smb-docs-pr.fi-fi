@@ -22,7 +22,7 @@ Käytä seuraavia luettelosivuja rahoitusprosessien tapauskohtaisen analysoinnin
 - [Asiakastapahtumat](https://businesscentral.dynamics.com/?page=25)
 - [Toimittajatapahtumat](https://businesscentral.dynamics.com/?page=29)
 
-## Rahoituksen ad-hoc-analyysiskenaariot
+## Tapauskohtaiset analyysiskenaariot rahoituksessa
 
 **Tietojen analysointi** -toiminnon avulla voit tarkistaa tiedot nopeasti ja tehdä tapauskohtaisia analyysejä seuraavasti:
 
@@ -34,12 +34,13 @@ Seuraavissa osissa on esimerkkejä rahoitusskenaarioista [!INCLUDE [prod_short](
 
 | Alue | Vastaanottaja... | Avaa tämä sivu analyysitilassa | Näiden kenttien käyttäminen |
 | ---- | ----- | ------------------------------- |------------------- |
-| [Raha-asiat (Myyntireskontra)](#example-finance-accounts-receivables) | Katso, mitä asiakkaasi ovat sinulle velkaa, jaoteltuina esimerkiksi aikaväleihin summien erääntymisen osalta. | [Asiakastapahtumat](https://businesscentral.dynamics.com/?page=25) | **Asiakkaan nimi**, **Eräpäivä** ja **Jäljellä oleva summa** |
+|[Esimerkki: Rahoitus (myyntisaatavat)](#example-finance-accounts-receivable) | Katso, mitä asiakkaasi ovat sinulle velkaa, jaoteltuina esimerkiksi aikaväleihin summien erääntymisen osalta. | [Asiakastapahtumat](https://businesscentral.dynamics.com/?page=25) | **Asiakkaan nimi**, **Eräpäivä** ja **Jäljellä oleva summa** |
 | [Raha-asiat (Ostovelat)](#example-finance-accounts-payable) | Katso, mitä olet velkaa toimittajillesi, jaoteltuina aikaväleihin summien erääntymisen osalta. | [Toimittajatapahtumat](https://businesscentral.dynamics.com/?page=29) | **Toimittajan nimi**, **Asiakirjatyyppi**, **Asiakirjan nro**, **Eräpäivä vuosi**, **Eräpäivä kuukausi** ja **Jäljellä oleva summa**. |
+| [Rahoitus (myyntilaskut KP-tililtä)](#example-finance-sales-invoices-by-gl-account) | Myyntilaskujen jako tilikartan KP-tileille esimerkiksi jaksotettuina summien kirjauksen aikaväleihin. | [Pääkirjanpidon tapahtumat](https://businesscentral.dynamics.com/?page=20) | **KP-tilin nimi**, Lähdekoodi **,** KP-tilin nimi **,** KP-tilinro **,** Debet-summa **,** Kredit-summa **,** Kirjauspvm-vuosi **,** Kirjauspvm.vuosineljännes **ja** Kirjauspvm-kuukausi **·** |
 | [Raha-asiat (Tuloslaskelma)](#example-finance-income-statement) | Tulot tilikartan tulotileillä, esimerkiksi eriteltyinä aikaväleihin summien kirjauksen ajalta. | [Pääkirjanpidon tapahtumat](https://businesscentral.dynamics.com/?page=20) | **KP-tilinro**, **Kirjauspvm** ja **Summa**. |
 | [Raha-asiat (Resurssit yhteensä)](#example-finance-total-assets) | Resurssit tilikartan resurssitileillä, esimerkiksi eriteltyinä aikaväleihin summien kirjauksen ajalta. | [Pääkirjanpidon tapahtumat](https://businesscentral.dynamics.com/?page=20) | **KP-tilinro**, **Kirjauspvm** ja **Summa**. |
 
-### Esimerkki: Raha-asiat (Myyntireskontra)
+### Esimerkki: Rahoitus (myyntisaatavat)
 
 Seuraa näitä vaiheita nähdäksesi, mitä asiakkaasi ovat sinulle velkaa, jaoteltuina aikaväleihin summien erääntymisen osalta:
 
@@ -67,12 +68,32 @@ Seuraavassa kuvassa on näiden työvaiheiden tulokset.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Esimerkki tietojen analysoinnista asiakastapahtumien sivulla" lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
+### Esimerkki: Rahoitus (myyntilaskut KP-tililtä)
+
+Voit tarkistaa, miten myyntilaskut jakautuvat tilikartan KP-tileille jaoteltuina esimerkiksi summien kirjauksen aikavälien mukaan, noudattamalla seuraavia vaiheita:
+
+1. Avaa Pääkirjanpidon [tapahtumat -](https://businesscentral.dynamics.com/?page=20) sivu.
+1. Lisää KP-tilin nimi **-** ja **Lähdekoodi-kentät** mukauttamalla sivua yksilöllisesti. Valitse **Asetukset**-valikosta **Mukauta**.
+1. Poistu mukautustilasta.
+1. Valitse :::image type="content" source="media/analysis-mode-icon.png" alt-text="Siirry analyysitilaan."::: ottaaksesi analyysitilan käyttöön.
+1.  **Aseta Analyysisuodattimet-valikon** Lähdekoodi-kentän **suodattimeksi** **MYYNTI**. Jos sinulla on mukautuksia, jotka lisäävät muita arvoja, voit lisätä myös ne.
+1. Poista kaikki sarakkeet **Sarakkeet**-valikosta (valitse **Haku**-kentän vieressä oleva ruutu).
+1. Ota **pivot-tila** käyttöön (sijaitsee **haku**-kentän yläpuolella oikealla).
+1. Vedä KP-tilin **nimi** ja **KP-tilin numero.** -kentät riviryhmät-alueelle **·** .
+1.  **Vedä Debet-summa** - ja **Kreditsumma-kentät** Arvot-alueeseen **·** .
+1. Vedä Kirjauspvm.vuosi-, **Kirjauspvm.neljännes**- ja **Kirjauspvm.pvm-kentät** Osoitetarrat-alueeseen **·** . **·** 
+1. Nimeä analyysivälilehti uudelleen tilikohtaksi **laskun** erittelyksi tai analyysia kuvaavan vaihtoehdon perusteella.
+
+Seuraavassa kuvassa on näiden työvaiheiden tulokset.
+
+:::image type="content" source="media/data-analysis-gl-entries-invoices.png" alt-text="Esimerkki tietojen analysoimisesta KP-tapahtumat -sivulla (myyntien kirjausten ymmärtäminen)." lightbox="media/data-analysis-gl-entries-invoices.png":::
+
 ### Esimerkki: Raha-asiat (Tuloslaskelma)
 
 Tee seuraavalla tavalla nähdäksesi tulot tilikartan tulotileillä, esimerkiksi eriteltyinä aikaväleihin summien kirjauksen ajalta:
 
 1. Avaa [Pääkirjanpitotapahtumamerkinnät](https://businesscentral.dynamics.com/?page=20) -luettelosivu ja valitse :::image type="content" source="media/analysis-mode-icon.png" alt-text="Siirry analyysitilaan."::: ottaaksesi analyysitilan käyttöön.
-1. Siirry **Sarakkeet**-valikkoon ja poista kaikki sarakkeet (valitse **Haku**-kentän vieressä oleva ruutu).
+1. Siirry **Sarakkeet**-valikkoon ja poista kaikki sarakkeet (valitse **Haku**-kentän vieressä oleva ruutu oikealla puolella).
 1. Ota **pivot-tila** käyttöön (sijaitsee **haku**-kentän yläpuolella oikealla).
 1. Vedä **KP-tilin numero** -kenttä **Riviryhmät**-alueeseen ja vedä **Summa** **Arvot**-alueelle.
 1. Vedä **Kirjauksen päivä kuukausi** -kentät **Sarakeselitteet**-alueeseen.
@@ -113,7 +134,7 @@ Saat lisätietoja siirtymällä seuraaviin ohjeartikkeleihin:
 [Luettelo- ja kyselytietojen analysoiminen analyysitilassa](analysis-mode.md)  
 [Talousanalytiikan yleiskatsaus](bi.md)  
 [Analytiikan, liiketoimintatietojen ja raportoinnin yleiskatsaus](reports-bi-reporting.md)  
-[Talouden yleiskatsaus](finance.md)   
+[Talouden yleiskatsaus](finance.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

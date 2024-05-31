@@ -14,7 +14,33 @@ ms.custom: bap-template
 
 # Käyttöomaisuuden hallinta
 
-[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman Käyttöomaisuus-sovellusalueesta saat yleiskuvan käyttöomaisuudestasi, ja voit varmistaa, että poistot ovat oikein. Se mahdollistaa myös kunnossapitokulujen seuraamisen, vakuutussopimusten hallinnoimisen, käyttöomaisuustransaktioiden kirjaamisen sekä monenlaisten raporttien ja tilastojen luomisen.
+[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman Käyttöomaisuus-sovellusalueesta saat yleiskuvan käyttöomaisuudestasi, ja voit varmistaa, että poistot ovat oikein. Se auttaa myös seuraamaan kunnossapitokustannuksia, hallitsemaan vakuutussopimuksia, kirjaamaan käyttöomaisuustransaktioita sekä luomaan erilaisia raportteja ja tilastoja.
+
+## Mikä on käyttöomaisuus?
+
+Käyttöomaisuuserät eroavat fyysisen varaston muista nimikkeistä. Käyttöomaisuus, joka tunnetaan myös pääomaomaisuuseränä, on aineellinen omaisuuserä, laitos tai väline (PP&E), jonka omistat tai jota hallinnoit odottaen, että se jatkaa tulojen tuottamista. Omaisuuserä on käyttöomaisuus silloin, kun se on nimike, jota yrityksesi ei kuluta, myy tai muunna käteisenä seuraavan kalenterivuoden aikana. Käyttöomaisuuserät eroavat käyttöomaisuuseristä, jotka ovat käteisenä tai jotka muunnetaan käteiseksi seuraavien 12 kuukauden aikana. Myös käyttöomaisuuserät eroavat varastosta, koska varastoa kulutetaan yleensä lyhyessä ajassa.
+
+## Käyttöomaisuuden tyypit
+
+Yritykset investoivat yleensä muutamiin käyttöomaisuuseriin. Esimerkkejä ovat:
+
+- Rakennukset ja tilat
+- Atk-laitteet ja ohjelmistot
+- Huonekalut ja kalusteet
+- Koneet
+- Ajoneuvot
+
+## Käyttöomaisuuslaskennan ymmärtäminen
+
+Käyttöomaisuuslaskenta tarkoittaa, että pääomaomaisuudesta on pidettävä tarkkoja kirjanpitotietoja. Nämä tietueet sisältävät yksityiskohtaisia tietoja omaisuuserän elinkaaren viidestä vaiheesta. Alkuperäisen oston jälkeen kunkin käyttöomaisuuserän elinkaaressa on vähintään kolme seuraavaa vaihetta:
+
+- Hankinta: Kirjoihin lisätään uusi käyttöomaisuus.
+- Poisto: Omaisuuserän jaksottainen arvon lasku kirjataan, ja poistomenetelmää käytetään laskennassa. Lisätietoja on KO: [n poistolaskennassa](LocalFunctionality/India/FA_Depreciation.md).
+- Uudelleenarvostus: Omaisuuserän käypää markkina-arvoa arvioidaan. Lisätietoja on siirry kohtaan [Käyttöomaisuuden uudelleenarvostaminen](fa-how-revalue.md).
+- Arvonalentuminen: Tapahtumista tai olosuhteista johtuva arvon lasku kirjataan.
+- Luovutus: Käyttöomaisuuserä myydään, hukkataan tai käytetään muuta tapaa, jolla omaisuuserästä luovutaan sen käyttöiän lopussa.
+
+Tilintarkastukset sisältyvät myös yrityksen kirjanpitotietueiden yksityiskohtaisiin tarkastuksiin tilikauden kirjojen sulkemisen jälkeen. Olipa kyse sisäisistä tai ulkoisista tarkastuksista, saatat huomata epäjohdonmukaisuuksia tai eroja muistioiden ja käyttöomaisuuserien todellisen tilan välillä. Tilintarkastukset lisäävät käyttöomaisuuden ja kirjanpidon avoimuutta, jos menetät ennakoitua enemmän rahaa.
 
 ## Videon yleiskatsaus
 
@@ -61,7 +87,7 @@ Kunkin käyttöomaisuuserän osalta tulee määrittää kortti, joka sisältää
 
 Käyttöomaisuuden poistoja sekä muita käyttöomaisuuden rahoitustapahtumia voidaan seurata määrittämällä niistä jokaiselle vähintään yksi poistokirja. Resurssien poistaminen edellyttää muutamien vaiheiden suorittamista:
 
-1. Aja raportti jaksottaisten poistojen laskemiseksi.
+1. Aja raportti, joka laskee jaksoittaiset poistot.
 1. Täytä päiväkirja tuloksena olevilla merkinnöillä.
 1. Kirjaa päiväkirja.
 
@@ -94,6 +120,15 @@ Voit tallentaa kunnossapitokulut ja seuraavan huoltopäivämäärän kullekin k�
 | Kirjaa luovutustransaktiot, tarkastele luovutustapahtumia ja kirjaa osittaisia luovutuksia. |[Käyttöomaisuuden luovuttaminen tai poistaminen käytöstä](fa-how-dispose-retire.md) |
 | Katso luovutustapahtumia. | [Luovutustapahtumien tarkasteleminen](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Katso suunniteltuja luovutusarvoja. | [Suunniteltujen luovutusarvojen tarkasteleminen](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
+
+## Vinkkejä käyttöomaisuuslaskennan kehittämiseen
+
+Käyttöomaisuuden kirjanpitostrategiassa voidaan toteuttaa muutamia asioita, jotka voivat auttaa varmistamaan, että tulot maksimoidaan.
+
+- Määritä pääomasijainnille kynnysarvo. Kun ostat nimikkeen, määritä kiinteä summa pääomasijainnille. Summa auttaa varmistamaan kirjanpitokirjojen johdonmukaisuuden ja helpottaa kirjanpitovirheiden havaitsemista.
+- Arvioi laitteiden elinkaari uudelleen. On tärkeää arvioida oikein aika, jonka käyttöomaisuutta voi käyttää alkuperäisiin tarkoituksiin. Koska kirjanpito ja poistot perustuvat oikeisiin elinkaariarvioihin, uudelleenarvosta tarvittaessa, koska ne voivat muuttua ajan mittaan.
+- Merkitse omaisuuserät. On tärkeää seurata ja merkitä omaisuutta koko niiden elinkaaren ajan, koska monet tekijät voivat vaikuttaa niiden arvoon. Merkitseminen auttaa seuraamaan nimikkeitä niiden elinkaaren eri vaiheissa, auttaa ehkäisemään varkauksia, poistamaan käyttövirheet ja tukemaan taloudellisia tilastoja.
+- Automatisoi käyttöomaisuuden kirjanpito-ohjelmiston avulla oivalluksia. Manuaalisen aktiviteetin automatisointi tietojen seuraamiseksi käyttöomaisuuslaskentaohjelmiston avulla helpottaa prosessien valmistumista. Salasanasuojaus voi auttaa tarjoamaan pääsyn vain ihmisille, jotka tarvitsevat sitä ja jotka on koulutettu siihen.
 
 ## Katso myös
 

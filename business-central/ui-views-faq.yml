@@ -6,7 +6,7 @@ metadata:
   ms.topic: faq
   ms.devlang: al
   ms.search.keywords: 'list, filter, pane, views'
-  ms.date: 08/09/2022
+  ms.date: 02/28/2024
   ms.author: mikebc
   ms.service: dynamics-365-business-central
 title: Luettelonäkymien usein kysytyt kysymykset
@@ -86,7 +86,7 @@ sections:
           - Vanhat järjestelmänäkymät, jotka ovat osa liiketoimintasovellusta mutta jotka on luotu vanhalla [!INCLUDE[prod_short](includes/prod_short.md)] -versiolla. Näissä näkymissä on vähemmän vaihtoehtoja. Ne voidaan vain tallentaa uutena näkymänä, eikä niitä voi myöskään piilottaa tai järjestää uudelleen. Vanhojen järjestelmänäkymien käyttö lopetetaan tulevassa [!INCLUDE[prod_short](includes/prod_short.md)] -päivityksessä.
 
           > [!NOTE]
-          > Business Centralin vuoden 2023 2. julkaisuaallosta lähtien vanhoja näkymiä ei enää tueta, eivätkä ne näy luettelosivulla. Lisätietoja siitä, miten kehittäjät voivat siirtyä moderneihin luettelonäkymiin, on kohdassa [Siirtyminen vanhoista näkymistä moderneihin näkymiin](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy). 
+          > Business Centralin vuoden 2024 1. julkaisuaallosta lähtien vanhoja näkymiä ei enää tueta, eivätkä ne näy luettelosivulla. Lisätietoja siitä, miten kehittäjät voivat siirtyä moderneihin luettelonäkymiin, on kohdassa [Siirtyminen vanhoista näkymistä moderneihin näkymiin](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy). 
       - question: |
           Miten voin ohittaa vanhojen järjestelmänäkymien rajoitukset?
         answer: |

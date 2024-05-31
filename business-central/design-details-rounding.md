@@ -9,14 +9,14 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-rounding"></a>Rakennetiedot: pyöristys
+# Rakennetiedot: pyöristys
 Pyöristyksestä voi jäädä jäännöksiä, kun arvioit varaston vähennyksen kustannuksia, jotka on mitattu eri määristä, kuin vastaava varaston kasvu. Pyöristyksen jäännökset lasketaan kaikille kustannuslaskentamenetelmille, kun suoritat **Muuta kustannuksia - Nimiketapahtumat** -eräajon.  
 
  Kun käytössä on keskimääräinen arvostusmenetelmä, pyöristysjäännös lasketaan ja tallennetaan kumulatiivisesti ja syöttö syötöltä.  
 
  Kun käytät jotain muuta kuin keskimääräistä arvostusmenetelmää, pyöristysjäännös lasketaan, kun varaston arvon nousu on kohdistettu kokonaan eli varaston arvon nousun jäljellä oleva määrä on nolla. Pyöristyksen jäljelle jäävälle osalle luodaan tämän jälkeen erillinen tapahtuma ja tämän pyöristystapahtuman kirjauspäivämäärä on viimeisen laskutetun varaston lisäyksen arvotapahtuma.  
 
-## <a name="example"></a>Esimerkki
+## Esimerkki  
  Seuraava esimerkki kuvaa sitä, kuinka eri pyöristysjäämiä käsitellään keskimääräisen kustannuslaskelman menetelmässä sekä ei-keskimääräisen kustannuslaskelman menetelmässä tässä järjestyksessä. Kummassakin tapauksessa **Muuta kustannuksia - Nimiketapahtumat** -erätyö on suoritettu.  
 
  Seuraavassa taulukossa esitetään nimikkeen pääkirjan kirjaukset, joihin esimerkki perustuu.  
@@ -51,7 +51,7 @@ Pyöristyksestä voi jäädä jäännöksiä, kun arvioit varaston vähennyksen 
 |04-01-20|-1|-3.33|4|4|  
 |01-01-20|0|-0.01|1|5|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
  [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)   
  [Rakennetiedot: Kustannuksen muutos](design-details-cost-adjustment.md)   
  [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md) [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  

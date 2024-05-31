@@ -611,11 +611,11 @@ ms.service: dynamics-365-business-central
 ### [Poistotavat](fa-depreciation-methods.md)
 ### [Käyttöomaisuuden budjettien hallinta](fa-how-manage-budgets.md)
 ### [Käyttöomaisuuden hankkiminen](fa-how-acquire.md)
+### [Käyttöomaisuuden poistaminen tai kuolettaminen](fa-how-depreciate-amortize.md)
 ### [Käyttöomaisuuden ylläpitäminen](fa-how-maintain.md)
 ### [Käyttöomaisuuden vakuuttaminen](fa-how-insure.md)
 ### [Käyttöomaisuuden siirtäminen, jakaminen tai yhdistäminen](fa-how-trans-split-combine.md)
 ### [Käyttöomaisuuden uudelleenarvostus](fa-how-revalue.md)
-### [Käyttöomaisuuden poistaminen tai kuolettaminen](fa-how-depreciate-amortize.md)
 ### [Käyttöomaisuuden luovuttaminen tai poistaminen käytöstä](fa-how-dispose-retire.md)
 ### [KO-tapahtumien vianmääritys](fa-troubleshooting-fa-ledger-entries.md)
 

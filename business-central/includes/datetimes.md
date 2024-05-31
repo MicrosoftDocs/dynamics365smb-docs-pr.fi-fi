@@ -19,7 +19,7 @@ Seuraavassa taulukossa on luettelo eri tavoista, joilla päivämääriä ja aiko
 |1.12.22 5|01-12-22 05:00:00|
 |1.12.22|01-12-22 00:00:00|
 |11 12|11.nykyinen kuukausi.nykyinen vuosi 12:00:00|
-|1112 12|11.12.nykyinen vuosi 12:00:00|
+|1112 12|11-12-nykyinen vuosi 12:00:00|
 |t tai tänään|tämän päivän päivämäärä 00:00:00|
 |a aika|tämän päivän pvm tämänhetkinen aika|
 |t 10:30:00|tämän päivän päivämäärä 10:30:00|

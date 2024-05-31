@@ -10,18 +10,18 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="design-details-non-deductible-vat"></a>Suunnittelun tiedot: vähennyskelvoton ALV
+# Suunnittelun tiedot: vähennyskelvoton ALV
 
 Vähennyskelvoton arvonlisävero (ALV) on ostajan maksettavaksi tuleva ALV, mutta se ei ole vähennyskelpoinen ostajan omasta ALV-velasta. Koska voi olla vaikea tietää, missä ja miten nimikettä käytetään, sinun on otettava yhteyttä oman maasi tai alueesi paikallisiin veroviranomaisiin ja selvitettävä, vähennetäänkö tietty prosenttiosuus ALV:stä. Vaikka tiedät, että tietty prosenttiosuus ALV:stä ei ole vähennyskelpoinen, vähennyskelvottomia määriä käsitellään eri malleilla, koska ne liittyvät **nimikkeisiin** ja **käyttöomaisuuteen**.
 
-## <a name="prerequisites-for-using-non-deductible-vat"></a>Vähennyskelvottoman ALV:n käytön edellytykset
+## Vähennyskelvottoman ALV:n käytön edellytykset
 
 Voit käyttää ja kirjata vähennyskelvottoman ALV:n seuraavasti.
 
 1. Valitse **ALV-asetukset**-sivulla **Ota käyttöön vähennyskelvoton ALV**, jotta ominaisuus otetaan käyttöön.
 2. Valitse **ALV-kirjausten asetukset** -sivulta, mitkä ALV-kirjausryhmät voivat käyttää vähennyskelvotonta ALV:tä.
 
-## <a name="examples"></a>Esimerkkejä
+## Esimerkkejä
 
 Seuraavissa esimerkeissä vähennyskelvoton ALV on käytössä ja seuraavat asetukset on suoritettu:
 
@@ -38,7 +38,7 @@ Seuraavissa esimerkeissä vähennyskelvoton ALV on käytössä ja seuraavat aset
 
 Kaikki esimerkit käyttävät nimikkeitä ja käyttöomaisuutta, joissa tuotteen ALV-kirjausryhmä on **NDVAT**.
 
-### <a name="items"></a>Nimikkeet
+### Nimikkeet
 
 Uuden nimikkeen **NDVAT**-arvo on määritetty tuotteen ALV-kirjausryhmäksi. Ostoasiakirjassa **määrä** = **1** ja **välitön kustannus ilman ALV:tä** = **1 000,00**.
 
@@ -53,19 +53,19 @@ Tiedot näkyvät **arvotapahtumissa**.
 > [!NOTE]
 > Voit ottaa käyttöön **Käytä kohteen kustannuksiin** -kentän **ALV-asetukset**-sivulla.
 
-#### <a name="use-for-item-cost-isnt-enabled"></a>Käytä nimikekustannuksille ei ole käytössä
+#### Käytä nimikekustannuksille ei ole käytössä
 
 | Nimiketapahtuman tyyppi | Tapahtuman tyyppi | Kustannussumma (todellinen) | Nimiketapahtumien määrä |
 |---|---|---|---|
 | Ostot | Välitön kustannus | 1,000.00 | 1 |
 
-#### <a name="use-for-item-cost-is-enabled"></a>Käytä nimikekustannuksille on käytössä
+#### Käytä nimikekustannuksille on käytössä
 
 | Nimiketapahtuman tyyppi | Tapahtuman tyyppi | Kustannussumma (todellinen) | Nimiketapahtumien määrä |
 |---|---|---|---|
 | Ostot | Välitön kustannus | 1,250.00 | 1 |
 
-### <a name="fixed-assets"></a>Käyttöomaisuus
+### Käyttöomaisuus
 
 Uudella käyttöomaisuuserällä on hankintamenotili, joka on määritetty käyttämään **NDVAT**-tiliä tuotteen ALV-kirjausryhmänä. Ostoasiakirjassa **määrä** = **1** ja **välitön kustannus ilman ALV:tä** = **1 000,00**.
 
@@ -80,20 +80,20 @@ Tiedot näkyvät **käyttöomaisuuskirjanpidon tapahtumissa**.
 > [!NOTE]
 > Voit ottaa käyttöön **Käytä käyttöomaisuuden kustannuksiin** -kentän **ALV-asetukset**-sivulla.
 
-#### <a name="use-for-fixed-asset-cost-isnt-enabled"></a>Käyttöomaisuuskustannusten käyttö ei ole käytössä
+#### Käyttöomaisuuskustannusten käyttö ei ole käytössä
 
 | Asiakirjatyyppi | KO:n kirjaustyyppi | Summa | ALV-summa |
 |---|---|---|---|
 | Lasku | Hankintameno | 1,000.00 | 250.00 |
 
-#### <a name="use-for-fixed-asset-cost-is-enabled"></a>Käyttöomaisuuskustannusten käyttö on käytössä
+#### Käyttöomaisuuskustannusten käyttö on käytössä
 
 | Asiakirjatyyppi | KO:n kirjaustyyppi | Summa | ALV-summa |
 |---|---|---|---|
 | Lasku | Hankintameno | 1,000.00 | 250.00 |
 | Lasku | Hankintameno | 250.00 | 0.00 |
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Vähennyskelvottoman ALV:n määritys](finance-setup-nondeductible-vat.md)  
 [Taloushallinto](finance.md)  

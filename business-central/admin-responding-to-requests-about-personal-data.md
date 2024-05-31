@@ -10,11 +10,11 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="responding-to-requests-about-users-personal-data"></a>Käyttäjien henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen
+# Käyttäjien henkilökohtaisia tietoja koskeviin pyyntöihin vastaaminen
 
 Tietojen kohteet voivat pyytää erilaisia henkilökohtaisia tietoja koskevia toimintoja. Esimerkiksi joidenkin tietosuojalakien ja -asetusten nojalla heillä on oikeus pyytää henkilötietojensa vientiä, poistamista ja muuttamista. Näitä kutsuja kutsutaan *Tietoaihe pyynnöiksi*. Jos olet luokitellut tietojen luottamuksellisuuden ja olet varma, että ne ovat oikein, järjestelmänvalvoja voi vastata pyyntöihin **IT-päällikkö**-roolikeskuksen **Tietosuoja**-välilehden vaihtoehtojen avulla.
 
-## <a name="types-of-requests"></a>Pyyntöjen tyypit
+## Pyyntöjen tyypit
 
 Seuraavassa taulukossa on esimerkkejä pyyntötyypeistä, joihin järjestelmänvalvojat voivat vastata.
 
@@ -27,11 +27,11 @@ Seuraavassa taulukossa on esimerkkejä pyyntötyypeistä, joihin järjestelmänv
 |Poistopyynnöt|Tietojen kohde voi pyytää henkilökohtaisten tietojensa poistamista. Henkilökohtaiset tiedot voi poistaa useilla eri tavoilla mukautusominaisuuksien avulla. Käyttäjän on kuitenkin tehtävä päätös ja toteutus. Joissakin tapauksissa saatat haluta muokata tietojasi suoraan. Esimerkiksi yhteyshenkilö voidaan poistaa ja tämän jälkeen suorittaa Poista peruutettu vuorovaikutus -eräajo yhteyshenkilön vuorovaikutusten poistamiseksi. <br><br> **Huomautus:** Jos **Myyntien ja myyntisaamisten asetukset**- tai **Ostojen ja ostovelkojen asetukset** -sivujen **Salli asiakirjan poisto ennen** -kenttään on määritetty päivämäärä, saatat joutua muuttamaan päivämäärää, jotta voit poistaa kirjatut myynti- ja ostotositteet, joiden kirjauspäivämäärä on sama tai sitä aikaisempi.|
 |Korjauspyynnöt|Tietojen kohde voi pyytää virheellisten henkilökohtaisten tietojen korjaamista. Sen voi tehdä usealla tavalla. Joissakin tapauksissa voit viedä luettelot Exceliin, joukkomuokata useita tietueita nopeasti ja tuoda sitten päivitetyt tiedot. Lisätietoja on kohdassa [Liiketoimintatietojen vieminen Exceliin](about-export-data.md). Voit muokata henkilökohtaisia tietoja sisältäviä kenttiä myös manuaalisesti. Tiedot voivat olla esimerkiksi asiakaskortin asiakasta koskevia tietoja. Tietueet, kuten yleinen-, asiakas-ja verotapahtumat, ovat kuitenkin tärkeitä. Jos liiketoimintatapahtumatietueisiin tallennetaan henkilökohtaisia tietoja, tietojen muokkaamisessa kannattaa käyttää mukautusominaisuuksia.|
 
-## <a name="restrict-data-processing-for-a-data-subject"></a>Tietojen kohteen tietojen käsittelyn rajoittaminen
+## Tietojen kohteen tietojen käsittelyn rajoittaminen
 
 Tietojen kohde voi pyytää henkilökohtaisten tietojensa käsittelyn tilapäistä lopettamista. Voit noudattaa pyyntöjä ja merkitä kyseiset tietueet estetyiksi tietosuojan vuoksi. Tällöin tietojen käsittely lopetetaan. Kun tietue on merkitty estetyksi, et voi luoda uusia tapahtumia, joissa kyseinen tietue on käytössä. Et voi esimerkiksi luoda asiakkaalle uutta laskua, jos asiakas tai myyjä on estetty. Voit merkitä tietojen kohteen estetyksi avaamalla tietojen kohteen kortin, esimerkiksi asiakkaan, toimittajan tai yhteyshenkilön kortin, ja valitsemalla **Estetty tietosuojan vuoksi** -valintaruudun. Sinun on ehkä valittava **Näytä lisää**, jotta kenttä näkyy.  
 
-## <a name="handling-data-subject-requests-when-using-a-trial-version"></a>Tietojen kohteen pyyntöjen käsittely kokeiluversiota käytettäessä
+## Tietojen kohteen pyyntöjen käsittely kokeiluversiota käytettäessä
 
 Tietyt henkilötiedot ovat osa Microsoft 365 -tiliä, ja vain järjestelmänvalvojat voivat viedä tiedot. Tietojen kohteen pyyntöjen käsittelyprosessi on erilainen [!INCLUDE[prod_short](includes/prod_short.md)] -vuokraajan tyypin mukaan.
 
@@ -43,21 +43,21 @@ Työpaikkojen ja oppilaitosten tietosuoja -sivulla voit myös sulkea tilisi. On 
 
 Voit edelleen merkitä henkilöitä estetyiksi tietosuojan vuoksi ja viedä, muokata tai poistaa tapahtumia tässä artikkelissa esitetyllä tavalla.  
 
-## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Tietojen vieminen taulukoista, joita ei ole luokiteltu tietojen aiheen mukaan
+## Tietojen vieminen taulukoista, joita ei ole luokiteltu tietojen aiheen mukaan
 
 Jos sinun on vietävä tietoja, joita ei ole luokiteltu siten, että ne viedään automaattisesti, kuten tiedot Profiilin vastaukset -taulukosta, sinun on suoritettava seuraavat toimet:
 
 * Harkitse, onko sinun todella vietävä sellaisia lisätietoja, jotka eivät liity suoraan kontaktiin.
 * Lisää taulukko ja suhde manuaalisesti nopeaan aloituspakettiin ja vie se suoraan nopean käynnistyksen paketista. Luomme sinulle nopean aloituksen paketin, jotta voit muokata sitä tällaisissa tilanteissa.
 
-## <a name="handling-data-about-minors"></a>Alaikäisiä koskevien tietojen käsitteleminen
+## Alaikäisiä koskevien tietojen käsitteleminen
 
 Jos yhteyshenkilö on niin nuori, ettei hän voi antaa laillista suostumusta alueen lakien mukaan, voit osoitaa tämän valitsemalla **Yhteyshenkilö**-kortin **Alaikäinen**-valintaruudun. Tällöin **Estetty tietosuojan vuoksi** -valintaruutu valitaan automaattisesti. Kun saat alaikäisen vanhemman tai laillisen huoltajan suostumuksen, voit valita **Vanhemman suostumus vastaanotettu** -valintaruudun, jolloin sisällön esto poistetaan. Voit käsitellä alaikäisten henkilökohtaisia tietoja, mutta et voi käyttää Dynamics 365 Salesin profilointitoimintoja.
 
 > [!Note]
 > Muutoslokiin voidaan tallentaa erilaisia tietoja, kuten esimerkiksi milloin **Vanhemman suostumus vastaanotettu** -valintaruutu valittiin ja kuka sen valitsi. Järjestelmänvalvoja voi määrittää tämän **Muutoslokin asetukset** -ohjeiden avulla ja myös valitsemalla **Yhteyshenkilö**-kortin **Vanhemman suostumus vastaanotettu -kohdan lokimuutos** -valintaruudun. Lisätietoja on kohdassa [Muutosten kirjaaminen lokiin](across-log-changes.md)  
 
-### <a name="see-also"></a>Katso myös
+### Katso myös
 
 <!-- [Classifying Data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json)  
 [Classifying Data Sensitivity](admin-classifying-data-sensitivity.md)  -->

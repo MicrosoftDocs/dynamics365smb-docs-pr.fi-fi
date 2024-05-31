@@ -10,11 +10,11 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="using-key-performance-indicators-kpis-to-meet-your-business-goals"></a>Suorituskykyilmaisimien (tunnuslukujen) käyttäminen liiketoimintatavoitteiden saavuttamiseen
+# Suorituskykyilmaisimien (tunnuslukujen) käyttäminen liiketoimintatavoitteiden saavuttamiseen
 
 Suorituskykymittari (tunnusluku) on mitattava arvo, joka ilmaisee, kuinka tehokkaasti tavoite toteutuu. Tunnusluvat ovat eräänlainen yrityksen tuloskortti eli tapa mitata, toteutuvatko tavoitteet.
 
-## <a name="why-kpis-matter"></a>Tunnuslukujen merkitys
+## Tunnuslukujen merkitys
 
 Tunnuslukujen tunnistaminen ja seuraaminen ilmaisee, eteneekö liiketoiminta oikeaan suuntaan vai onko tehtävä muutoksia, jotta arvokasta aikaa ja rahaa ei kulu hukkaan. Oikein käytettyinä tunnusluvut ovat tehokkaita työkaluja, joiden avulla voi
 
@@ -25,7 +25,7 @@ Tunnuslukujen tunnistaminen ja seuraaminen ilmaisee, eteneekö liiketoiminta oik
 - motivoida ryhmän jäseniä
 - parantaa ja nopeuttaa päätöksentekoa.
 
-## <a name="get-started-identifying-your-kpis"></a>Tunnuslukujen tunnistaminen aloittaminen
+## Tunnuslukujen tunnistaminen aloittaminen
 
 Miten liiketoiminnalle tärkeiden tunnuslukujen tunnistamisessa päästään alkuun? Aluksi on selkeytettävä strategiset tavoitteet joko yhteisesti tai osastoittain.
 
@@ -35,7 +35,7 @@ Seuraavaksi määritetään tavoiteltavat tunnusluvut, joihin pyritään; myös 
 
 Tiimin kanssa kannattaa keskustella avoimesti tunnusluvuista ja niiden tavoitearvoista. Ovatko tavoitteet liian kunnianhimoisia? Vai liian helppoja? Vaikka tavoitteiden on oltava haastavia, liian kunnianhimoisia tai liiaksi tiimin hallinnan ulkopuolella oleviin mittareihin perustuvia tavoitteita kannattaa harkita uudelleen. Lisäksi kannattaa perehtyä aktiviteetteihin ja taktiikkaan, joita yritys käyttää kyseisten tavoitteiden saavuttamiseen. Lopuksi kannattaa varata aikaa sen arviointiin, mikä on tilanne juuri nyt, sillä se on tunnusluvun aloituskohta.
 
-## <a name="get-to-know-the-different-types-of-kpis"></a>Erilaisiin tunnuslukuihin tutustuminen
+## Erilaisiin tunnuslukuihin tutustuminen
 
 Seurattavien tunnuslukujen määrittäminen helpottuu, kun edistymiseen yleisesti käytetyt tunnuslukutyypit tunnetaan paremmin.
 
@@ -47,7 +47,7 @@ Seurattavien tunnuslukujen määrittäminen helpottuu, kun edistymiseen yleisest
 
 Kullekin seurattavaksi valitulle tunnusluvulle on määritettävä omistaja, minkä lisäksi on sovittava seurantaväli. Riippumatta siitä, mitä tunnuslukuja päätetään seurata, tunnuslukuympäristön tai -työkalun käyttäminen on välttämätöntä, jotta tiimi voi tehdä yhdessä tunnuslukumääritelmät. Kunkin tunnusluvun määrittämien yhdessä sekä tilannekohtaisten tietojen sieppaaminen ja yhdistäminen sitten yhdeksi näkymäksi mahdollistaa täsmälliset, reaaliaikaiset toiminnot.
 
-## <a name="kpi-reporting"></a>Tunnuslukujen raportointi
+## Tunnuslukujen raportointi
 
 Tunnuslukuraportit siirtävät tunnuslukujen koontinäytössä näytetyt tiedot uudelle tasolle. Niissä tarkastellaan tietoja entistä perusteellisemmin, jolloin saadaan entistäkin tarkempia merkityksellisiä tietoja ja analyyseja.
 
@@ -68,7 +68,7 @@ Muita huomioon otettavia seikkoja tunnuslukuraportteja luotaessa:
 - Vain olennaisten tunnuslukujen esittäminen, jottei raportti täyty tunnusluvuilla, jotka eivät yhdisty takaisin tavoitteiden raportointiin.
 - Raportoinnin on varmistettava olevan selkeää ja helposti ymmärrettävissä, minkä lisäksi tarkoitetun kohdeyleisön on voitava toimia sen pohjalta.
 
-## <a name="tools-for-implementing-kpis"></a>Tunnuslukujen toteuttamisen työkaluja
+## Tunnuslukujen toteuttamisen työkaluja
 
 Seuraavassa taulukossa on linkkejä artikkeleihin, joissa käsitellään tunnuslukujen toteuttamista käyttämällä liiketoimintatietojen ja raportointityökaluja [!INCLUDE[prod_short](includes/prod_short.md)] -tiedoissa.
 
@@ -79,7 +79,7 @@ Seuraavassa taulukossa on linkkejä artikkeleihin, joissa käsitellään tunnusl
 | [Tilinpäätösten analysoiminen Microsoft Excelin avulla](finance-analyze-excel.md) |
 | Ulkoisten liiketoimintatietotyökalujen ja [!INCLUDE[prod_short](includes/prod_short.md)]in integrointi.| [Ulkoiset liiketoimintatietotyökalut](reports-external-analysis.md) |
 
-## <a name="kpi-best-practices"></a>Tunnuslukujen parhaat käytännöt
+## Tunnuslukujen parhaat käytännöt
 
 Tunnuslukujen tehokasta käyttöä edistämään on koottu muutamia vihjeitä, joiden avulla pääsee alkuun.
 
@@ -96,7 +96,7 @@ Tunnuslukujen seuranta:
 - Päätä tunnuslukujen seuranta- ja toimintaväli. Seurataanko tunnuslukujen koontinäyttöjä päivittäin vai viikoittain? Tehdäänkö toimia vasta raportoinnin jälkeen vai saavatko sidosryhmät ja/tai tiimin jäsenet muuttaa taktiikkaan matkan varrella?
 - Varmista, että tietojen koontinäytöissä on käytössä yksinkertainen ja kattava tietojen suojaus sekä mahdollisuus jakaa organisaation ulkopuolelle.
 
-## <a name="common-kpi-mistakes"></a>Yleisiä tunnuslukuja koskevia virheitä
+## Yleisiä tunnuslukuja koskevia virheitä
 
 Vältettäviä yleisiä tunnuslukujen virheitä:
 
@@ -106,7 +106,7 @@ Vältettäviä yleisiä tunnuslukujen virheitä:
 - Tunnuslukujen seuranta ilman omistajia. Vastuullisuuden on merkitystä tulosten lisäksi myös prosessin kannalta. Kullakin tunnusluvulla on oltava omistaja, joka vastaa seurannasta, raportoinnista, analysoinnista ja toiminnasta.
 - Tunnuslukuihin ei reagoida. Olipa kyse tavoitteiden saavuttamisesta tai jälkeenjäämisestä, tunnusluvut ovat työkaluja, jotka auttavat parantamaan päätöksentekoa. Seuranta seurannan vuoksi on turhaa – toiminta ratkaisee.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Analytiikan yleiskatsaus](reports-bi-reporting.md)  
 [Tilinpäätösten ja tunnuslukujen tuottaminen taloushallinnon raportoinnin avulla](bi.md)  

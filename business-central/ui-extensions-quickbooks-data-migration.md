@@ -11,12 +11,12 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="the-quickbooks-data-migration-extension"></a>QuickBooks-tietojen siirtolaajennus
+# QuickBooks-tietojen siirtolaajennus
 
 Tämän laajennuksen avulla asiakkaat, toimittajat, nimikkeet ja tilit on helppo siirtää QuickBooksista [!INCLUDE[prod_short](includes/prod_short.md)]iin. Jos yrityksessä on käytössä QuickBooks, voit viedä tarpeelliset tiedot ja ladata ne sitten [!INCLUDE[prod_short](includes/prod_short.md)]iin avaamalla avustetun asennusoppaan.  
 Lisätietoja on kohdassa [Tietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md).
 
-## <a name="data-from-quickbooks-desktop"></a>QuickBooks Desktopin tiedot
+## QuickBooks Desktopin tiedot
 
 Voit tuoda seuraavat tiedot QuickBooks Onlinesta Business Centraliin:
 
@@ -33,7 +33,7 @@ Myynti- ja ostoasiakirjoissa vain täydet summat siirretään. Osittain maksettu
 > [!NOTE]
 > Osto- tai myyntitilauksia ei siirretä.
 
-## <a name="before-you-start"></a>Ennen kuin aloitat
+## Ennen kuin aloitat
 
 Siirtoprosessiin olennaisesti kuuluva osa on määrittää tilit, joihin tapahtumat siirretään. Nämä yhdistämismääritykset on hyvä suunnitella ennen tietojen siirtoa. Kyse on esimerkiksi tileistä, joille seuraavat tapahtumat kirjataan:
 
@@ -49,18 +49,18 @@ Tietojen saaminen QuickBooks Desktop -sovelluksesta edellyttää Microsoftin tie
 > [!NOTE]
 > Tällä hetkellä tietojen vientityökalua voi käyttää vain QuickBooks 2017:n ja 2018:n kanssa.
 
-## <a name="finding-the-quickbooks-data-migration-extension"></a>QuickBooks-tietojen siirtolaajennuksen etsiminen
+## QuickBooks-tietojen siirtolaajennuksen etsiminen
 
 QuickBooks-tietojen siirtolaajennus on asennettu ja valmis käytettäväksi tietojen siirtoasetusten ohjatun määrityksen osana. Jos olet valmis aloittamaan nyt ja olet vienyt tietosi QuickBooksista, valitse ![Hehkulamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asetusten ohjattu määritys** ja valitse sitten vastaava linkki. Valitse **Siirrä liiketoimintatiedot** ja noudata oppaan ohjeita.  
 
-## <a name="what-do-i-do-after-i-migrate-data"></a>Toimenpiteet tietojen siirtämisen jälkeen
+## Toimenpiteet tietojen siirtämisen jälkeen
 
 Tietojen siirron jälkeen tapahtumien tila on Kirjaamaton, joten voit tarkastella niitä ja tehdä muutoksia. Voit tarkastella tapahtumia siirtymällä sivulle, jossa ne yleensä ovat. Voit tarkastella kirjaamattomia myyntilaskuja esimerkiksi siirtymällä Myyntilaskut-sivulle. Voit tarkastella maksupäiväkirjoja siirtymällä Maksupäiväkirjat-sivulle.
 Tietyt toimenpiteet kannattaa tehdä: Jos QuickBooks Onlinen tapahtumissa oli korotettuja ja alennettuja summia, nämä summat on lisättävä manuaalisesti liittyviin tapahtumiin Business Centralissa ennen niiden kirjaamista.
 Jos käytät arvolisäveroa (ALV:tä), liiketoiminnan kirjausryhmä ja tuotteen kirjausryhmä on ehkä lisättävä kirjausasetuksiin ALV-summien kirjaamista varten.
 Tarkista pääkirjanpidon tilien alkusaldot. QuickBooks ei tallenna kaikkien tilien ajankohtaisia saldoja, joten alkusaldoja on ehkä korjattava.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [[!INCLUDE[prod_short](includes/prod_short.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  

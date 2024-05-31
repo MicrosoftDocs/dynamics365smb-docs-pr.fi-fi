@@ -10,7 +10,7 @@ ms.date: 11/01/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="business-functionality"></a>Liiketoiminnan toiminnallisuus
+# Liiketoiminnan toiminnallisuus
 
 [!INCLUDE[prod_short](includes/prod_short.md)]issa on lähinnä tukkukauppa- ja palvelualalla toimivien PK-yritysten tavallisissa liiketoimintaprosesseissa tarvitsemat toiminnot. Tämän lisäksi tuetaan myös monimutkaisia prosesseja, kuten kokoonpanoa, tuotantoa, huoltoa ja ohjattua varastoinninhallintaa. Tutustu [tästä](trial-signup.md) siihen, miten saat ilmaisen kokeiluversion.  
 
@@ -38,7 +38,7 @@ ms.service: dynamics-365-business-central
 |Mahdollista käyttäjille tietojen vaihtaminen ulkoisten lähteiden kanssa, kuten sähköisten asiakirjojen lähettämisessä ja vastaanottamisessa sekä pankkitiedostojen tuonnissa ja viennissä ja valuutan vaihtokurssien päivittämisessä.|[Sähköinen tiedonsiirto](across-data-exchange.md)|
 |Kirjaa ulkoiset asiakirjat [!INCLUDE[prod_short](includes/prod_short.md)]issa liitteineen, luo sitten manuaalisesti liittyvät asiakirjat tai muunna tiedostot automaattisesti sähköisiksi asiakirjoiksi.|[Saapuvat asiakirjat](across-income-documents.md)|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Hallinta](admin-setup-and-administration.md)    
 [Tutki Dynamics 365 Business Central -ominaisuuksia](https://dynamics.microsoft.com/business-central/capabilities/)  

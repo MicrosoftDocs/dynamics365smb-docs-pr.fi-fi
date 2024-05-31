@@ -10,7 +10,7 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="customize-business-central"></a>Business Centralin mukauttaminen
+# Business Centralin mukauttaminen
 
 Sovelluksen voi mukauttaa useilla eri tavoilla, jotta sinä ja työtoverisi voitte käyttää eniten tarvitsemianne ominaisuuksia, toimintoja ja tietoja tavalla, joka sopii parhaiten päivittäiseen työhönne. Seuraavassa taulukossa kerrotaan ketkä näkevät muutokset sen mukaan, mitä teet.
 
@@ -27,7 +27,7 @@ Sovelluksen voi mukauttaa useilla eri tavoilla, jotta sinä ja työtoverisi voit
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen käyttäjän dokumentaation kaikkien toimintojen kuvauksissa käsitellään **Premium**-käyttökokemusta. Tämä tarkoittaa sitä, että kuvaukset sisältävät käyttöliittymän kaikki elementit. Tämän vuoksi **Essential**-käyttökokemuksen käyttäjien ohjeaiheissa saatetaan käsitellä toimintoja ja käyttöliittymän elementtejä, jotka eivät ole käytettävissä käyttöliittymässä. Lisätietoja on kohdassa [Näytettävien ominaisuuksien muuttaminen](ui-experiences.md).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
