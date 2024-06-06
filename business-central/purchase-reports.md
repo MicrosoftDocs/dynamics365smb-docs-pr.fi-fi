@@ -10,15 +10,15 @@ ms.search.form: 'Report_311, Report_312, Report_313, Report_320, Report_709, Rep
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# Ostoraportointi ja analytiikka
+# <a name="purchase-reporting-and-analytics"></a>Ostoraportointi ja analytiikka
 
 Ostoraporttien avulla hankinnan ja liiketoiminnan ammattilaiset voivat saada merkityksellistä tietoa ja analytiikkaa nykyisistä ja aiemmista ostotoiminnoista.  
 
-## Raportit
+## <a name="reports"></a>Raportit
 
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## Tehtävät
+## <a name="tasks"></a>Tehtävät
 
 Seuraavissa artikkeleissa kuvataan joitakin ostojen tilan analysointiin liittyviä keskeisiä tehtäviä:
 
@@ -26,7 +26,7 @@ Seuraavissa artikkeleissa kuvataan joitakin ostojen tilan analysointiin liittyvi
 - [Ostojen päivämäärien laskeminen](purchasing-date-calculation-for-purchases.md)
 - [Ostojen nimiketapahtumien tarkasteleminen](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
-## Ostoraporttien tutkiminen Report Explorerin avulla
+## <a name="explore-purchase-reports-with-report-explorer"></a>Ostoraporttien tutkiminen Report Explorerin avulla
 
 Ostojen saatavana olevien raporttien yleiskuvan saa valitsemalla **Kaikki raportit** aloitussivulla. Tämä toiminto avaa roolienhallinta-sivun, joka on suodatettu näyttämään **Raportti ja analyysi** -vaihtoehdon ominaisuudet. Valitse **Ostot**-otsikon alla **Tutustu**.
 
@@ -34,7 +34,7 @@ Ostojen saatavana olevien raporttien yleiskuvan saa valitsemalla **Kaikki raport
 
 Lisätietoja on kohdassa [Raporttien etsiminen roolienhallinnan avulla](ui-role-explorer.md). 
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Ostotietojen ad-hoc-analyysi](ad-hoc-analysis-purchasing.md)  
 [Ostamisen analyysin yleiskatsaus](purchasing-analytics-overview.md)   

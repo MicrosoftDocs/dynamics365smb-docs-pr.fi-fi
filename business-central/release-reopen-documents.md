@@ -10,11 +10,11 @@ ms.custom: bap-template
 author: jswymer
 ---
 
-# Myynti- ja ostoasiakirjojen vapauttaminen ja avaaminen uudelleen
+# <a name="release-and-reopen-sales-and-purchase-documents"></a>Myynti- ja ostoasiakirjojen vapauttaminen ja avaaminen uudelleen
 
 Tässä artikkelissa kerrotaan, miten myynti- ja ostoasiakirjoja, kuten tilauksia, laskuja ja tarjouksia, vapautetaan tai avataan uudelleen. Vapautat myynti- ja ostoasiakirjoja siirtääksesi ne seuraavaan käsittelyvaiheeseen ennen niiden kirjausta. Kun tilaus vapautetaan, se sisällytetään kaikkiin saatavuuslaskentoihin nimikkeiden oletetusta vastaanottopäivämäärästä lähtien.
 
-## Myynti- tai ostoasiakirjan vapauttaminen
+## <a name="release-a-sales-or-purchase-document"></a>Myynti- tai ostoasiakirjan vapauttaminen
 
 1. Avaa seuraavalla tavalla asiakirja, jonka haluat vapauttaa:
 
@@ -25,7 +25,7 @@ Tässä artikkelissa kerrotaan, miten myynti- ja ostoasiakirjoja, kuten tilauksi
 
    Tietueen **tilaksi** tulee tämän jälkeen **Vapautettu**.
 
-## Avaa myynti- tai ostoasiakirja uudelleen
+## <a name="reopen-a-sales-or-purchase-document"></a>Avaa myynti- tai ostoasiakirja uudelleen
 
 Vapautettuun myynti- ja ostoasiakirjaan voi tehdä muutoksia avaamalla sen uudelleen.
 
@@ -43,7 +43,7 @@ Nyt asiakirjaan voi tehdä muutoksia ennen sen vapauttamista uudelleen.
 > [!NOTE]
 > Asiakirjariveille, jotka on jo käsitelty varastossa, voi tehdä muutoksia vain määrään.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
   
 [Myynti](sales-manage-sales.md)  
 [Osto](purchasing-manage-purchasing.md)  

@@ -11,7 +11,7 @@ ms.search.form: '10140, 10141, 10143, 10144, 10146, 10147, 10148, 36646'
 ms.date: 09/04/2023
 ms.custom: bap-template
 ---
-# Pankkitalletusten luominen
+# <a name="create-bank-deposits"></a>Pankkitalletusten luominen
 
 > [!NOTE]
 > Mahdollisuus luoda pankkitalletuksia- on uusi ominaisuus useissa maissa ja useilla alueilla Business Centralin vuoden 2022 1. julkaisuaallossa. Jos käytit Business Centralia Yhdysvalloissa, Kanadassa tai Meksikossa ennen kyseistä julkaisua, käytössäsi saattaa olla aiemmat ominaisuudet. Voit jatkaa, mutta uudet ominaisuudet korvaavat vanhat ominaisuudet tulevassa versiossa. Jos haluat käyttää tässä artikkelissa kuvattuja uusia ominaisuuksia, järjestelmänvalvoja voi siirtyä **Ominaisuuksien hallinta** -sivulle ja ottaa käyttöön **Ominaisuuspäivitys: Standardoidut pankkitäsmäytykset ja -talletukset** -asetuksen.  
@@ -30,17 +30,17 @@ Kun olet täyttänyt talletustiedot ja -rivit, sinun täytyy kirjata se. Kirjaus
 
 **Pankkitalletus**-raportissa näkyvät asiakkaan ja toimittajan talletukset, joissa on alkuperäinen talletussumma, avoimena jäljellä olevan talletuksen summa ja kohdistettu summa. Raportissa näkyy myös kirjatun talletuksen kokonaissumma täsmäytystä varten.
 
-## Ennen kuin aloitat
+## <a name="before-you-start"></a>Ennen kuin aloitat
 
 On määritettävä muutamia asioita ennen pankkitalletusten käyttämistä. Sinulla täytyy olla numerosarja ja yleisen päiväkirjan malli valmiina. Sinun tulisi myös määrittää, kirjataanko pankkitalletusten summat kokonaissummana. Tämä tarkoittaa, että kaikkien talletusrivien summien yhteenlaskettu kokonaissumma. Muussa tapauksessa jokainen rivi kirjataan yksittäisenä tapahtumana. Talletuksen kirjaaminen yhtenä pankkitapahtumana voi helpottaa pankkitäsmäytyksen tekemistä.
 
-### Numerosarjat ja kertasummatalletukset
+### <a name="number-series-and-lump-sum-deposits"></a>Numerosarjat ja kertasummatalletukset
 
 Sinun täytyy määrittää pankkitalletuksille numerosarja ja määrittää sitten sarja **Myynnin ja saamisten asetukset** -sivun **Pankkitalletusten nrot** -kentässä. Lue lisätietoja numerosarjoista kohdassa [Numerosarjojen luominen](ui-create-number-series.md).
 
 Ota **Myynnin ja saamisten asetukset** -sivulla **Kirjaa pankkitalletukset kertasummana** -valitsin käyttöön kirjataksesi myös talletuksia kertasuorituksina yksittäisten rivien sijaan. Talletuksen kirjaaminen kertasuorituksena luo yhden pankkitapahtuman koko talletuksen summaa varten, joka voi helpottaa pankkitäsmäytyksen tekemistä.
 
-### Pankkitalletuksiin liittyvät yleisen päiväkirjan mallit
+### <a name="general-journal-templates-for-bank-deposits"></a>Pankkitalletuksiin liittyvät yleisen päiväkirjan mallit
 
 Talletuksille on myös luotava yleisen päiväkirjan malli. Yleisiä päiväkirjoja käytetään pankki-, asiakas-, toimittaja- ja käyttöomaisuus- ja KP-tilien tapahtumien kirjaamiseen. Päiväkirjan mallit suunnittelevat yleisen päiväkirjan sopimaan työsi tarkoitukseen. Tämä tarkoittaa sitä, että päiväkirjan mallin kentät ovat juuri niitä, joita tarvitset.
 
@@ -48,14 +48,14 @@ Talletukset ovat kassakuitteja, joten haluat ehkä käyttää numerosarjaa uudel
 
 Mallille on myös luotava erätyö. Voit luoda erätyön valitsemalla **Yleisen päivä kirjan mallit** -sivulla **Erät**-toiminnon. Jos haluat lisätietoja eristä, siirry kohtaan [Päiväkirjan mallien ja erien käyttäminen](ui-work-general-journals.md#use-journal-templates-and-batches).
 
-## Dimensiot pankkitalletusriveillä
+## <a name="dimensions-on-bank-deposit-lines"></a>Dimensiot pankkitalletusriveillä
 
 Pankkitalletuksen rivit käyttävät automaattisesti **osastokoodi**- ja **asiakasryhmäkoodi**-kentissä määritettyjä oletusdimensioita. Kun valitset **Tilityyppi**  -kentässä **asiakas** tai **toimittaja**, asiakkaalle tai toimittajalle määritetyt dimensiot korvaavat oletukset. Voit muuttaa rivien dimensioita tarvittaessa.
 
 > [!TIP]
 > Rivien dimensio määritetään oletusdimensioprioriteettien mukaisesti. Rivin dimensiot priorisoidaan ennen otsikon dimensioita. Voit välttää ristiriitoja luomalla sääntöjä, jotka priorisoivat dimension käyttöä lähteen mukaan. Jos haluat muuttaa dimensioiden priorisointia, voit muuttaa niiden sijoitusta **Oletusdimensioprioriteetit**-sivulla. Lisätietoja on kohdassa [Oletusdimensioprioriteettien määrittäminen](finance-dimensions.md#to-set-up-default-dimension-priorities).
 
-## Pankkitalletuksen luominen
+## <a name="create-a-bank-deposit"></a>Pankkitalletuksen luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitalletukset** ja valitse sitten vastaava linkki.
 2. Avaa **Pankkitalletus**-sivu valitsemalla **Uusi**.
@@ -96,13 +96,13 @@ Pankkitalletuksen rivit käyttävät automaattisesti **osastokoodi**- ja **asiak
     > [!TIP]
     > Voit tarkistaa tiedot ennen talletuksen kirjaamista valitsemalla **Testiraportti** -toiminnon. Raportissa näkyy, onko ongelmia, kuten puuttuvia tietoja, jotka estävät kirjauksen.  
 
-## Kirjattujen pankkitalletusten etsiminen
+## <a name="find-posted-bank-deposits"></a>Kirjattujen pankkitalletusten etsiminen
 
 **Kirjatut pankkitalletukset** -sivulla on luettelo yrityksesi aiemmista talletuksista. Luettelossa voit tarkistaa talletuksille määritetyt kommentit ja dimensiot. Voit avata pankkitalletuksen nähdäksesi lisätietoja, ja sieltä voit tutkia tarkemmin. Voit esimerkiksi valita **Etsi tapahtumat** -toiminnon, jos haluat tarkastella kirjattuja pankkitapahtumia. Pankkitapahtumasta löytyy sitä vastaava kirjattu pääkirjanpidon tapahtuma.
 
 Jos haluat hakea kirjattujen talletusrivien kaikki pääkirjanpidon tapahtumat, siirry **KP-rekisteri** -sivulle ja käytä **Pääkirjanpito**-toimintoa. Sieltä löydät kaikki pääkirjanpidon tapahtumat, myös asiakkaiden ja toimittajien tapahtumat.
 
-## Kirjatun pankkitalletuksen peruuttaminen
+## <a name="reverse-a-posted-bank-deposit"></a>Kirjatun pankkitalletuksen peruuttaminen
 
 Kirjatun pankkitalletuksen voi peruuttaa kahdella eri tavalla:
 
@@ -112,7 +112,7 @@ Kirjatun pankkitalletuksen voi peruuttaa kahdella eri tavalla:
 > [!NOTE]
 > Voit peruuttaa vain yhden tapahtumatyypin sisältävän rekisterin. Rekisterissä täytyy siis olla vain asiakastapahtumia tai toimittajatapahtumia, mutta ei molempia. Jos rekisterissä on molempia, sinun täytyy manuaalisesti peruuttaa talletus.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Rahoitus](finance.md)  
 [Financen määrittäminen](finance.md)  

@@ -9,11 +9,11 @@ ms.date: 02/27/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Huolto- ja hyvityslaskujen luominen
+# <a name="create-service-invoices-or-credit-memos"></a>Huolto- ja hyvityslaskujen luominen
 
 Huoltotilausten laskuttamisen helppous on yksi [!INCLUDE[prod_short](includes/prod_short.md)]:n tärkeimmistä ominaisuuksista. [!INCLUDE[prod_short](includes/prod_short.md)] voidaan määrittää siten, että huoltoteknikko voi luoda laskun kentällä, vaikka palvelua ei olisikaan liitetty sopimukseen tai tilaukseen. Vaihtoehtoisesti voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman niin, että laskutat huoltosopimukset jaksoittain. Kunkin sopimuksen laskutusjakso määrää, kuinka usein sopimus laskutetaan.
 
-## Useiden huoltosopimusten laskuttaminen
+## <a name="to-invoice-several-service-contracts"></a>Useiden huoltosopimusten laskuttaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Luo huoltosopimuslaskuja** ja valitse sitten vastaava linkki.  
 2. Määritä käytettävät suodattimet.  
@@ -24,7 +24,7 @@ Huoltotilausten laskuttamisen helppous on yksi [!INCLUDE[prod_short](includes/pr
   
 Huoltosopimus voidaan laskuttaa myös suoraan **Huoltosopimus**-sivulta, jos sopimuksen seuraava laskutuspäivämäärä on aikaisempi kuin käsittelypäivämäärä.
 
-## Huoltosopimuksen laskuttaminen Huoltosopimus -ikkunassa   
+## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Huoltosopimuksen laskuttaminen Huoltosopimus -ikkunassa
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltosopimukset** ja valitse sitten vastaava linkki.  
 2. Valitse laskutettava huoltosopimus ja avaa sopimuksen kortti.  
@@ -34,7 +34,7 @@ Huoltosopimus voidaan laskuttaa myös suoraan **Huoltosopimus**-sivulta, jos sop
   > [!NOTE]  
   > Et voi luoda huoltosopimuksen huoltolaskuja, kun **Muuta tilaa** -kentän arvoksi on määritetty **Avoin**.  
 
-## Kulutuksen kirjaaminen huoltotilauksesta  
+## <a name="to-post-an-invoice-from-a-service-order"></a>Kulutuksen kirjaaminen huoltotilauksesta
 
 Seuraavaksi kuvataan, miten asiakkaalta veloitettava huollon osa määritetään.  
 
@@ -54,7 +54,7 @@ Seuraavaksi kuvataan, miten asiakkaalta veloitettava huollon osa määritetään
   
  Kun kirjaat tilauksen ilman **Lasku**-valintaa, ohjelma luo kirjatun huoltolaskun sekä vastaavat tapahtumat ja päivittää tilauksen huoltorivien kentät. Lisäksi aiemmin kirjatut toimitusasiakirjat päivitetään laskutetuilla määrillä. Jos valitset **Toimitus ja lasku** -kirjausvalinnan, ohjelma luo myös kirjatun toimituksen.
 
-## Huoltolaskun luominen manuaalisesti  
+## <a name="to-create-a-service-invoice-manually"></a>Huoltolaskun luominen manuaalisesti
 
 Tavallisesti kun kirjaat huoltotilauksen **Lasku**- tai **Toimitus ja lasku** -valinnan kanssa, ohjelma luo automaattisesti kirjatun huoltolaskun. Silti on ehkä luotava lasku, jota ei ole linkitetty huoltosopimukseen tai huoltotilaukseen. Työvaiheessa kerrotaan, miten lasku luodaan, samalla kun asiakas vastaanottaa huollon.  
 
@@ -73,7 +73,7 @@ Tavallisesti kun kirjaat huoltotilauksen **Lasku**- tai **Toimitus ja lasku** -v
 6. Syötä **Asiakirjan pvm** -päivämäärä, joka näkyy tulostetussa laskussa ja jonka lasketaan eräpäivä.  
 7. Täytä laskun huoltorivit. Rekisteröi huollossa käytetyt nimikkeet, resurssit ja/tai kustannukset täyttämällä **Tyyppi**-, **Nro**- ja **Määrä**-kenttä.
 
-## Voit luoda laskun, joka yhdistää kirjatut toimitusrivit yhdestä tai useammasta huoltotilauksesta 
+## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>Voit luoda laskun, joka yhdistää kirjatut toimitusrivit yhdestä tai useammasta huoltotilauksesta
 
 Voit luoda huoltolaskun huollolle, joka on jo toimitettu (huoltotilauksista) mutta jota ei ole vielä laskutettu tai kulutettu. Ohjelma mahdollistaa tietyn asiakkaan laskurivien täyttämisen automaattisesti valituilla kirjatuilla toimitusriveillä.  
 
@@ -84,7 +84,7 @@ Voit luoda huoltolaskun huollolle, joka on jo toimitettu (huoltotilauksista) mut
   
  Kirjattu huoltolasku ja vastaavat tapahtumat luodaan. Aiemmin kirjatut toimitusasiakirjat päivitetään laskutetuilla määrillä ja lähdetilausten huoltorivien määrillä.  
 
-## Uuden huollon hyvityslaskun luominen  
+## <a name="to-create-a-service-credit-memo"></a>Uuden huollon hyvityslaskun luominen
 
 Huollon hyvityslaskuasiakirjaan käytetään tavallisesti, kun asiakas palauttaa nimikkeen. Niitä voidaan käyttää kuitenkin myös asiakashyvityksenä tai virheellisen laskun korjaamiseen.  
 
@@ -93,7 +93,7 @@ Huollon hyvityslaskuasiakirjaan käytetään tavallisesti, kun asiakas palauttaa
 3. Käsittelypäivämäärä näkyy **Kirjauspvm**- ja **Asiakirjapvm**-kentissä. Voit muuttaa sitä tarvittaessa.    
 4. Syötä hyvityslaskun riveille tietoja nimikkeistä, jotka on palautettu tai poistettu tai asiakkaalle annettavasta korvauksesta.  
 
-## Huoltolaskujen virheiden korjaaminen
+## <a name="correct-errors-in-service-invoices"></a>Huoltolaskujen virheiden korjaaminen
 
 Huoltolaskuja, joihin on liitetty huoltotapahtumia, voidaan poistaa. Niinpä huoltolaskujen virheet voidaan korjata tai niihin voidaan tehdä muutoksia juuttumatta tai tietoja menettämättä. Jos esimerkiksi tuotteen kirjausryhmä määrittäminen KP-tiliin on unohtunut, se voidaan lisätä myöhemmin ja luoda huoltolaskun uudelleen.
 
@@ -109,7 +109,7 @@ Huoltolaskun poistamisella on seuraavat seuraukset:
 >
 > Huoltolaskua ei voi poistaa, jos sen tietoja, kuten laskutuskautta tai **Ennakkoon maksettu** -vaihtopainikkeen asentoa, muutettiin liittyvässä huoltosopimuksessa. Laskut on muistettava poistaa ennen asetusten muuttamista huoltosopimuksessa.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Huoltolaskujen kirjaaminen](service-how-to-post-service-orders.md)  
 [Huoltohallinnon määrittäminen](service-setup-service.md)  

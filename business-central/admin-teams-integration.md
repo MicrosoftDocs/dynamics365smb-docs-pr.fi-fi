@@ -11,15 +11,15 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Microsoft Teamsin ja [!INCLUDE [prod_short](includes/prod_short.md)]in integroinnin hallinta
+# <a name="managing-microsoft-teams-integration-with-"></a>Microsoft Teamsin ja [!INCLUDE [prod_short](includes/prod_short.md)]in integroinnin hallinta
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Tässä artikkelissa on yleiskuvaus siitä, mitä voit tehdä järjestelmänvalvojana, kun haluat hallita Microsoft Teamsin ja [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman integrointia.
 
-## Microsoft Teamsissa
+## <a name="in-microsoft-teams"></a>Microsoft Teamsissa
 
-### Vähimmäisvaatimukset
+### <a name="minimum-requirements"></a>Vähimmäisvaatimukset
 
 Tässä osassa kuvataan vähimmäisvaatimukset, jotka koskevat [!INCLUDE [prod_short](includes/prod_short.md)] -sovellusominaisuuksia Teams-työskentelyssä.
 
@@ -42,7 +42,7 @@ Tässä osassa kuvataan vähimmäisvaatimukset, jotka koskevat [!INCLUDE [prod_s
 
     **Salli URL-esikatselut** -käytäntöasetuksen on oltava käytössä. Muussa tapauksessa Teams-keskusteluun liitetyissä [!INCLUDE [prod_short](includes/prod_short.md)] -linkeissä ei voi luoda korttia. Lisätietoja tästä asetuksen käyttämisestä on kohdassa [Teamsin viestintäkäytäntöjen hallinta](/microsoftteams/messaging-policies-in-teams).
 
-### [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen hallinta (valinnainen)
+### <a name="managing-the--app-optional"></a>[!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen hallinta (valinnainen)
 
 Teamsin järjestelmänvalvojana voit hallita kaikkia organisaatiosi sovelluksia, myös [!INCLUDE [prod_short](includes/prod_short.md)] -sovellusta. Voit hyväksyä tai asentaa [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen organisaatiota varten, estää käyttäjän asentamasta sovellusta ja paljon muuta.
 
@@ -51,9 +51,9 @@ Lisätietoja on seuraavissa Microsoft Teams -asiakirjojen artikkeleissa:
 - [Sovellusten hallinta Microsoft Teams -hallintakeskuksessa](/MicrosoftTeams/manage-apps)
 - [Sovelluksen määrityskäytäntöjen hallinta Microsoft Teamsissa](/microsoftteams/teams-app-setup-policies)
 
-## [!INCLUDE [prod_short](includes/prod_short.md)]issa
+## <a name="in-"></a>[!INCLUDE [prod_short](includes/prod_short.md)]issa
 
-### Vähimmäisvaatimukset
+### <a name="minimum-requirements-1"></a>Vähimmäisvaatimukset
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] -versio:
 
@@ -75,7 +75,7 @@ Lisätietoja on seuraavissa Microsoft Teams -asiakirjojen artikkeleissa:
     
     Tietoja käyttöoikeuksista on kohdassa [Määritä käyttöoikeudet käyttäjille ja ryhmille](ui-define-granular-permissions.md).
 
-## Business Central -sovelluksen asentaminen keskitetyn käyttöönoton avulla
+## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a>Business Central -sovelluksen asentaminen keskitetyn käyttöönoton avulla
 
 Microsoft Teams -hallintakeskus on paikka, jossa määritetään Teams-sovelluksen asetuskäytännöt organisaatiota varten. Teams-hallintakeskuksessa voit käyttää keskitetyn käyttöönoton ominaisuutta, kun haluat asentaa Business Central -sovelluksen automaattisesti Teamsiin kaikille organisaation käyttäjille, tietyille ryhmille tai yksittäisille käyttäjille.
 
@@ -99,18 +99,18 @@ Microsoft Teams -hallintakeskus on paikka, jossa määritetään Teams-sovelluks
 > [!IMPORTANT]
 > Sovelluksen asennuskäytännön päivitys ja sovelluksen käyttöönotto käyttäjille voi kestää jopa 24 tuntia.
 
-## Tietosuojan ja vaatimustenmukaisuuden hallinta 
+## <a name="managing-privacy-and-compliance"></a>Tietosuojan ja vaatimustenmukaisuuden hallinta
 
 Microsoft Teams sisältää laajoja hallintatoimintoja, jotka koskevat arkaluontoisten tai henkilökohtaisten tunnistetietojen säännöstenmukaisuutta ja hallintaa – koskien myös [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen chatteihin ja kanaviin lisättyjä tietoja.
 
-### [!INCLUDE [prod_short](includes/prod_short.md)] -korttien tallennussijainnin ymmärtäminen
+### <a name="understanding-where--cards-are-stored"></a>[!INCLUDE [prod_short](includes/prod_short.md)] -korttien tallennussijainnin ymmärtäminen
 
 Kun kortti on lähetetty chattiin, kortti ja kortissa näkyvät kentät kopioidaan Teamsiin. Nämä tiedot ovat organisaation Teams-käytäntöjen, esimerkiksi tietojensäilytyskäytäntöjen, alaisia. Kun näytetään kortin tiedot, mitään Tiedot-ikkunan tietoja ei tallenneta Teamsiin. Tiedot säilyvät tallennettuna [!INCLUDE [prod_short](includes/prod_short.md)]iin ja Teams vain noutaa ne, kun käyttäjä päättää tarkastella tietoja. 
 
 - Lisätietoja siitä, mihin Teams tallentaa tiedot, on kohdassa [Tietojen sijainti Microsoft Teamsissa](/microsoftteams/location-of-data-in-teams).
 - Lisätietoja Teamsin säilytyskäytännöistä on kohdassa [Microsoft Teamsin säilytyskäytännöt](/microsoftteams/retention-policies).
 
-### Korttien jakamisen rajoittaminen 
+### <a name="restricting-sharing-of-cards"></a>Korttien jakamisen rajoittaminen
 
 Voit estää tiettyjä käyttäjiä tai ryhmiä lähettämästä kortteja chatteihin tai kanaviin, kun määrität viestikäytäntöjä, jotka ottavat **URL-esikatselut** -asetuksen pois käytöstä. Lisätietoja tästä asetuksen käyttämisestä on kohdassa [Teamsin viestintäkäytäntöjen hallinta](/microsoftteams/messaging-policies-in-teams). 
 
@@ -118,7 +118,7 @@ Tietoesteiden avulla voit myös estää yksittäisiä henkilöitä tai ryhmiä v
 
 Microsoft 365 Security & Compliance Centerin tietojen menetyksen estämisen ominaisuuksia ei voi kohdistaa erityisesti kortteihin. Mutta niitä voidaan käyttää chat-viesteihin, jotka sisältävät kortteja. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
-### Tietopyyntöihin vastaaminen
+### <a name="responding-to-data-requests"></a>Tietopyyntöihin vastaaminen
 
 Annat tiimin jäsenille ja tiimin omistajille mahdollisuuden poistaa viestejä, jotka sisältävät arkaluonteisia kortteja, määrittämällä viestikäytännöt, kuten: **Omistajat voivat poistaa lähetettyjä viestejä** ja **Käyttäjät voivat poistaa lähetettyjä viestejä**. Lisätietoja: [Teamsin viestintäkäytäntöjen hallinta](/microsoftteams/messaging-policies-in-teams).
 
@@ -126,7 +126,7 @@ Microsoft 365:n tietoturva- ja yhteensopivuuskeskuksen sisältöhaun ja eDiscove
 
 Koska Teamsin korttien tiedot ovat kopio [!INCLUDE [prod_short](includes/prod_short.md)]in tiedoista, voit myös käyttää [!INCLUDE [prod_short](includes/prod_short.md)] -ominaisuuksia asiakkaan tietojen viemiseen pyydettäessä. Lisä tietoja tietosuojasta on [!INCLUDE [prod_short](includes/prod_short.md)][Business Central-asiakkaiden tietosuojan usein kysytyissä kysymyksissä](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
-## Näytä tai Piilota korttien tietueiden tiedot
+## <a name="show-or-hide-record-data-on-cards"></a>Näytä tai Piilota korttien tietueiden tiedot
 
 Kun tietue jaetaan muiden kanssa Teams-keskustelussa tai -kanavassa, näytetään kortti, jossa on tietueen tietoja sisältävät kentät. Kaikki vastaanottajat voivat tarkastella näitä tietoja (tai tietueiden yhteenvetoa) oletusarvoisesti riippumatta niiden käyttöoikeuksista tai oikeuksista Business Centralin yhteydessä. Jos olet ylläpitäjä, voit piilottaa tietueiden yhteenvedon **kortin asetukset** asetusten ohjattu määritys -toiminnolla, joka näkyy Teamsin korteissa. Tietueen yhteenvedon piilottaminen poistaa kaikki kentät ja kuvat, mutta näyttää edelleen **Tiedot**-painikkeen ja muut kortilla olevat ei-tietuetiedot.
 
@@ -145,7 +145,7 @@ Asetus määritetään ympäristöä kohti. Joten kun otat tietueiden yhteenvedo
 4. Ota **Tietojen näkyvyys** -sivulla käyttöön **Näytä tietueiden yhteenveto** -kytkin, joka näyttää korttien tiedot tai piilottaa tiedot.
 5. Valitse **Seuraava** ja viimeistele asennusopas noudattamalla ohjeita.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [[!INCLUDE [prod_short](includes/prod_short.md)]in ja Microsoft Teamsin integroinnin yleiskatsaus](across-teams-overview.md)  
 [Microsoft Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen](across-install-app-for-teams.md)  

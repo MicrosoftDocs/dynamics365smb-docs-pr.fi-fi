@@ -11,22 +11,22 @@ ms.date: 03/21/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Varasto ja varastoraportit sekä analytiikka
+# <a name="inventory-and-warehouse-reports-and-analytics"></a>Varasto ja varastoraportit sekä analytiikka
 
 Sovelluksen [!INCLUDE [prod_short](includes/prod_short.md)] varastoraporttien avulla varaston ja liiketoiminnan ammattilaiset voivat saada merkityksellistä tietoa ja analytiikkaa nykyisistä ja aiemmista varastotoiminnoista.  
 
-## Raportit
+## <a name="reports"></a>Raportit
 
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
-## Tehtävät
+## <a name="tasks"></a>Tehtävät
 
 Seuraavissa artikkeleissa kuvataan joitakin yrityksen tilan analysointiin liittyviä keskeisiä tehtäviä:
 
 * [Analyysiraporttien luominen](bi-how-create-analysis-views-reports.md)  
 * [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)
 
-## Viivakoodien tulostaminen ja lukeminen
+## <a name="print-and-scan-barcodes"></a>Viivakoodien tulostaminen ja lukeminen
 
 Viivakoodien avulla saapuvien, lähtevien ja sisäisten varastoprosessien tehostaminen ja nopeuttaminen on mahdollista. 
 
@@ -45,7 +45,7 @@ Sovelluksen asentamisen jälkeen voit tulostaa 1D- ja 2D-viivakoodit **Tulosta e
 > Jotkin tulostimet ja viivakoodi-/QR-koodimuodot vaativat tietyn toteutuksen. Voit joutua lataamaan toisen Word-mallin tai kloonaamaan raportin luodaksesi oman mukautetun version.
 
 
-## Varastoraporttien tutkiminen Report Explorerin avulla
+## <a name="explore-inventory-reports-with-report-explorer"></a>Varastoraporttien tutkiminen Report Explorerin avulla
 
 Varastoinnin saatavana olevien raporttien yleiskuvan saa valitsemalla **Kaikki raportit** aloitussivulla. Tämä toiminto avaa roolienhallinta-sivun, joka on suodatettu näyttämään **Raportti ja analyysi** -vaihtoehdon ominaisuudet. Valitse **Myynti ja markkinointi** -otsikon alla **Tutki**.
 
@@ -54,7 +54,7 @@ Varastoinnin saatavana olevien raporttien yleiskuvan saa valitsemalla **Kaikki r
 Lisätietoja on kohdassa [Raporttien etsiminen roolienhallinnan avulla](ui-role-explorer.md).
 
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Varastotietojen ad-hoc-analyysi](ad-hoc-analysis-inventory.md)  
 [Varaston analyysien yleiskatsaus](inventory-analytics-overview.md)   

@@ -10,7 +10,7 @@ ms.date: 03/23/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Tietojen antaminen
+# <a name="entering-data"></a>Tietojen antaminen
 
 Käytettävissä on monia yleisiä ominaisuuksia, jotka helpottavat, nopeuttavat ja täsmentävät tietojen antamista. Tässä artikkelissa käsitellään tietojen antamisen perusperiaatteita ja edistyneitä ominaisuuksia.  
 
@@ -18,7 +18,7 @@ Käytettävissä on monia yleisiä ominaisuuksia, jotka helpottavat, nopeuttavat
 
 Tämän artikkelin esimerkeissä käytetään esimerkkitietoja.
 
-## Muokattavien kenttien käsitteleminen
+## <a name="work-with-editable-fields"></a>Muokattavien kenttien käsitteleminen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -kohteen kentissä voi olla erilaisia muokattavia tietoja, kuten tekstiä tai valuuttasummia. Muokattavat kentät näyttävät tavallisesti syöttöruudun, johon voit kirjoittaa tai valita arvon. Ei-muokattavat kentät näkyvät tavallisesti harmaana taustana.   
 
@@ -32,7 +32,7 @@ Joidenkin muokattavien kenttien avulla voit määrittää arvon.
 |Kytkin tai valintaruutu|Joissakin kentissä on helppo valita *Kyllä*- tai *Ei*-arvoja. Valitsinta käytetään määrittämään tämä arvo, ja se näkyy aina valintaruutuna luetteloissa|
 |Muokkausapu       |Joissakin kentissä on mukautettuja valitsimia, jotka soveltuvat kyseisen kentän parhaan arvon etsimiseen ja valitsemiseen, esimerkiksi ponnahdusikkunaan|
 
-### Kentän arvon muokkaaminen
+### <a name="modifying-a-field-value"></a>Kentän arvon muokkaaminen
 
 Jos haluat muuttaa kentän arvoa, sinun on ensin määritettävä kentän kohdistus. Voit määrittää kohdistuksen tekemällä seuraavat toimet:
 
@@ -56,25 +56,25 @@ Kun kohdistin näkyy kentän arvon lopussa:
 
 [!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]
 
-## Pikanäppäimet
+## <a name="keyboard-shortcuts"></a>Pikanäppäimet
 
 On olemassa useita pikanäppäimiä, joiden avulla voit työskennellä "hiirettä" ja nopeuttaa tietojen syöttöä. Näistä pikanäppäimistä on hyötyä erityisesti suurissa kirjauksissa ja toistuvissa kirjoitustehtävissä.
 
 Lisätietoja pikanäppäimissä on kohdassa [Pikanäppäimet](keyboard-shortcuts.md). Tässä artikkelissa käsitellään muutamia pikanäppäimiä.
 
-## <a name="QuickEntry"></a>Tietojen syöttämisen helpottaminen pikatapahtuman avulla
+## <a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Tietojen syöttämisen helpottaminen pikatapahtuman avulla
 
 Pikatapahtuma on näppäimistön avulla tapahtuvaa tietojen antamista varten suunniteltu ominaisuus. Pikatapahtumia voi käyttää kentissä (kuten korttisivuilla) ja luetteloissa (rivit ja sarakkeet). Se on hyödyllistä, kun teet toistuvia kirjoitustehtäviä, jotka edellyttävät monen tietueen luomista peräkkäin. Esimerkkeinä mainittakoon myyntitilausten erä tai uusien nimikkeiden rekisteröinti.
 
 Voit käyttää sarkainnäppäintä siirtyäksesi sivulla kentästä seuraavaan muokattavaan kenttään. Sarkaimen käytön haittapuolena on kuitenkin se, että se siirtyy aina seuraavaan kenttään. <!-- even if the field is non-editable or seldom filled it in.-->Voit muuttaa tätä polkua pikatapahtuman avulla. Pikasyötön avulla voit siirtyä vain haluamillesi kentille <kbd>Enter</kbd>-näppäimellä. Pikasyöttö hyppää ei-muokattavien kenttien ja niiden kenttien, joita et tavallisesti täytä, yli. Olet ehkä jo havainnut tämän toiminnan joillakin sivuilla. Tämä johtuu siitä, että kentät mihin kenttiin Enter-näppäimellä siirrytään ja mitkä ohitetaan, ovat ennalta määritettyjä. Voit mukauttaa pikatapahtumaa mukauttamalla työtilaa ja optimoimalla tietojen antamistavan kullakin sivulla.
 
-### Pikatapahtuman toimintaperiaate
+### <a name="how-quick-entry-works"></a>Pikatapahtuman toimintaperiaate
 
 Jokainen kenttää voidaan merkitä joko *pikatapahtumaan sisällytetyksi* tai *pikatapahtumasta poissuljetuksi*. Pikamerkintään sisältyvät kentät sisällytetään polkuun <kbd>Enter</kbd>-näppäimen valinnan jälkeen. Pikamerkinnän ulkopuolelle jäävät kentät eivät ole.
 
 Kun tiedot on annettu kenttään, vahvista muutokset <kbd>Enter</kbd>-näppäimellä ja siirry samalla seuraavaan kenttään. Jos haluat palata taaksepäin ja siirtyä edelliseen kenttään, paina näppäinyhdistelmää <kbd>Vaihto</kbd>+<kbd>Enter</kbd>. Lisätietoja pikanäppäimistä on kohdassa [Kenttien pikatapahtumien pikanäppäimet](keyboard-shortcuts.md#QuickEntry)
 
-#### Vihjeet ja vinkit
+#### <a name="tips-and-tricks"></a>Vihjeet ja vinkit
 
 Seuraavassa luettelossa on joitakin hyödyllisiä tietoja pikatapahtumien käyttämisestä.
 
@@ -85,7 +85,7 @@ Seuraavassa luettelossa on joitakin hyödyllisiä tietoja pikatapahtumien käytt
 - Pikasyöttö on käytettävissä riippumatta siitä, ovatko kentät pakollisia vai eivät. Tämän vuoksi kannattaa varmistaa, että pakolliset kentät sisällytetään pikasyöttöön.
 - Oletusarvoisesti useimmat kentät sisällytetään automaattisesti pikatapahtumaan. Tämän vuoksi joudutkin luultavasti aluksi sulkemaan kenttiä pois pikatapahtumasta.
 
-### Pikatapahtumakenttien muuttaminen
+### <a name="to-change-quick-entry-fields"></a>Pikatapahtumakenttien muuttaminen
 
 Voit määrittää kenttiin pikasyötön käyttämällä mukauttamista.
 
@@ -94,13 +94,13 @@ Voit määrittää kenttiin pikasyötön käyttämällä mukauttamista.
 
 Lisätietoja mukauttamisesta on kohdassa [Työtilan mukauttaminen](ui-personalization-user.md).
 
-## Pakolliset kentät
+## <a name="mandatory-fields"></a>Pakolliset kentät
 
 Kun annat tietoja sivuilla, tietyt kentät on merkitty punaisella tähtimerkillä. Punainen tähti tarkoittaa, että kenttä on täytettävä tietyn prosessin suorittamiseksi loppuun. Esimerkkinä voidaan kirjata kauppatapahtuma, joka käyttää kentän arvoa.  
 
 Vaikka kenttä on pakollinen, et joudu täyttämään kenttää ennen kuin jatkat muihin kenttiin tai suljet sivun. Punainen tähti toimii vain muistutuksena siitä, että sinua estetään suorittamasta tiettyä prosessia.  
 
-## Tietojen etsiminen kirjoitettaessa
+## <a name="finding-data-as-you-type"></a>Tietojen etsiminen kirjoitettaessa
 
  Kun alat kirjoittaa merkkejä kenttään, näyttöön tulee avattava luettelo, joka sisältää kentän mahdollisia arvoja. Luettelon sisältö muuttuu, kun kirjoitat lisää merkkejä, ja voit valita luettelosta haluamasi vaihtoehdon, kun luettelo on näkyvissä.  
 
@@ -110,7 +110,7 @@ Vaikka kenttä on pakollinen, et joudu täyttämään kenttää ennen kuin jatka
 
 - Avattava luettelo - Ohjelma näyttää kentän eri vaihtoehdot. Voit valita vain yhden vaihtoehdoista.  
 
-## Kenttien ja rivien kopioimisen ja liittämisen usein kysytyt kysymykset
+## <a name="copying-and-pasting-faq-fields-and-lines"></a>Kenttien ja rivien kopioimisen ja liittämisen usein kysytyt kysymykset
 
 Voit kopioida yhden tai useamman rivin luettelosta tai yhden kentän sivulla. Liitä sitten kopioimasi kohde samalle sivulle, toiselle sivulle tai ulkoiseen asiakirjaan. Voit esimerkiksi liittää Microsoft Exceliin tai Outlook-sähköpostiin. Jos haluat kopioida, valitse näppäimistöllä <kbd>Ctrl</kbd>+<kbd>C</kbd> (cmd+C macOS-käyttöjärjestelmässä). Jos haluat liittää, paina näppäimiä <kbd>Ctrl</kbd>+<kbd>V</kbd> tai <kbd>cmd+V</kbd> macOS-käyttöjärjestelmässä.
 
@@ -118,25 +118,25 @@ Kopioi luettelossa kenttä yläpuolella olevan rivin samasta sarakkeesta ja liit
 
 Lisätietoja on kohdassa [Kopioinnin ja liittämisen usein kysytyt kysymykset](faq-copy-paste.yml).
 
-## Rivinimikkeiden suodattaminen
+## <a name="filtering-line-items"></a>Rivinimikkeiden suodattaminen
 
 Aloita suodatus valitsemalla ![Suodatusruudun kuvake](media/open-filter-pane-icon.png "Suodatinruudun kuvake") luettelon yläosasta tai paina <kbd>Vaihto</kbd>+<kbd>F3</kbd> avataksesi suodatuspaneelin. Voit käyttää suodatinruutua samalla tavoin kuin muitakin luetteloita. Lisätietoja on kohdassa [Suodattaminen](ui-enter-criteria-filters.md#filtering).
 
 Suodatuksesta on apua erityisesti silloin, kun tarkasteltava ja analysoitava asiakirja on pitkä. Kuvittele, että avaat kirjatun myyntilaskun. Sen jälkeen voit suodattaa rivinimikkeet niin, että ne näyttävät kaikki rivinimikkeet, joiden yksittäinen alennus on yli 5 %. Voit myös suodattaa näyttämään vain polkupyörätarvikkeet, joiden nimessä on "Pro".
 
-## <a name="Focus"></a>Kohdistaminen rivinimikkeisiin
+## <a name="focusing-on-line-items"></a><a name="Focus"></a>Kohdistaminen rivinimikkeisiin
 
 Jos käsiteltävissä asiakirjoissa on rivinimikeosia, voit siirtää kohdistuksen vain rivinimikkeisiin. Esimerkkiasiakirjat ovat myyntitilaus- tai laskusivuja. Rivinimikkeet-osa laajenee niin, että se peittää lähes koko työtilan. Se piilottaa sivun muut osat paitsi toiminnot-alueen yläosassa. Saat tällä sijoittelulla hyvän yleiskuvan rivinimikkeistä, ja sinulla on enemmän tilaa niiden käsittelemiseen.
 
 Hyödyt erityisesti, kun työskentelet suurten rivinimikeluetteloiden parissa, ja haluat syöttää tietoja nopeasti. Tämä ominaisuus tarjoaa myös kehittyneitä suodatusominaisuuksia. Kuten muissakin luetteloissa, rivinimikkeiden selaaminen ja etsiminen helpottuu entisestään.
 
-### Kohdituksen Kytkeminen Päälle ja Pois
+### <a name="switching-the-focus-on-and-off"></a>Kohdituksen Kytkeminen Päälle ja Pois
 
 Jos haluat keskittyä rivikohteisiin, valitse missä tahansa rivikohteen osassa ja valitse sitten ![Kohdistustila-kuvake.](media/focus-mode.png "Tarkennustilan kuvake") oikeassa yläkulmassa tai paina näppäinyhdistelmää <kbd>Ctrl</kbd>+<kbd>Vaihto</kbd>+<kbd>F12</kbd>.
 
 Jos haluat palata normaalinäkymään, valitse ![Tarkennustila-kuvake.](media/focus-mode.png "Tarkennustilan kuvake") tai valitse <kbd>Ctrl</kbd>+<kbd>Vaihto</kbd>+<kbd>F12</kbd> uudelleen.
 
-## Monen tehtävän suorittaminen yhtä aikaa useilla sivuilla
+## <a name="multitasking-across-multiple-pages"></a>Monen tehtävän suorittaminen yhtä aikaa useilla sivuilla
 
 Voit avata kortin tai asiakirjan sivun uudessa ikkunassa. Avaamalla uuden ikkunan voit:
 
@@ -162,11 +162,11 @@ Toinen tapa tehdä useita toimintoja samanaikaisesti on avata [!INCLUDE[prod_sho
 > [!NOTE]
 > Älä käytä selaimen **Monista**-toimintoa uuden välilehden luomiseen, koska se voi aiheuttaa toimintoja yhdelle välilehdelle estämään muiden välilehtien toiminnot, koska ne ovat osa samaa istuntoa.
 
-## Määrien antaminen laskutoimituksia käyttämällä
+## <a name="entering-quantities-by-calculation"></a>Määrien antaminen laskutoimituksia käyttämällä
 
 Kun syötät lukuja määräkenttiin, kuten nimikepäiväkirjan rivin **Määrä**-kenttään, voit syöttää summan asemesta kaavan. Seuraavassa on esimerkkejä:  
 
-### Esimerkkejä  
+### <a name="examples"></a>Esimerkkejä
 
 - Jos syötät 19+19, kentän arvoksi lasketaan 38.  
 
@@ -176,7 +176,7 @@ Kun syötät lukuja määräkenttiin, kuten nimikepäiväkirjan rivin **Määrä
 
 - Jos syötät 12/4, kentän arvoksi lasketaan 3.  
 
-## Negatiivisten lukujen syöttäminen
+## <a name="entering-negative-numbers"></a>Negatiivisten lukujen syöttäminen
 
 Voit antaa negatiivisia lukuja kahdella tavalla. Numero -20,5 voidaan syöttää seuraavasti:  
 
@@ -189,14 +189,14 @@ Kummassakin tapauksessa summa kirjataan arvona -20,5.
 
 Jos lausekkeen viimeinen merkki on **+** tai **-**, koko lauseke kirjataan kyseisen merkin kanssa. Esimerkiksi **10-20+** johtaa tulokseen 10, ei tulokseen -10.  
 
-## Päivämäärien ja aikojen syöttäminen
+## <a name="entering-dates-and-times"></a>Päivämäärien ja aikojen syöttäminen
 
 Päivämääriä ja aikoja voi määrittää kaikissa päivämääräkentissä. Voit syöttää päivämäärät käyttäen erottimia tai ilman niitä.
 
 > [!NOTE]  
 > Päivämäärien ja kellonaikojen antaminen määräytyy **Alue**-asetusten mukaan. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md).  
 
-### Päivämäärien syöttäminen
+### <a name="entering-dates"></a>Päivämäärien syöttäminen
 
 Voit käyttää joko päivämäärän valitsinta valitaksesi päivämäärän kalenterista, tai antaa päivämäärät manuaalisesti. Tässä osassa käsitellään lyhyesti päivämäärien antamista. Lisätietoja on kohdassa [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md).
 
@@ -222,7 +222,7 @@ Tietyn päivämäärän antamisen sijaan voit antaa jonkin seuraavista koodeista
 |k|Määrittää sovelluksessa määritettävän käsittelypäivämäärän. Lisätietoja käsittelypäivämäärän muuttamisesta on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md). Haluat ehkä käyttää käsittelypäivämäärää, jos sellaisia tapahtumia on paljon, joissa on jokin muu kuin tämän päivän päivämäärä.|
 |n|Määrittää, että n:n jälkeinen päivämäärä on sulkemispäivämäärä, kuten N31.12.01.|  
 
-## Aikojen syöttäminen
+## <a name="entering-times"></a>Aikojen syöttäminen
 
 Kun syötät aikoja, voit lisätä minkä tahansa erotinmerkin yksiköiden väliin, mutta se ei ole tarpeen. Minuutteja, sekunteja tai AM/PM-merkintää (aamupäivä/iltapäivä) ei tarvitse kirjoittaa.  
 
@@ -240,11 +240,11 @@ Seuraavassa taulukossa on luettelo eri tavoista, joilla aikoja voi syöttää ja
 
  Jos et käytä erotinmerkkiä, jokaiselle aikayksikölle tulee syöttää kaksi numeroa.  
 
-## Yhdistettyjen päivämäärien ja aikojen syöttäminen
+## <a name="entering-combined-datetimes"></a>Yhdistettyjen päivämäärien ja aikojen syöttäminen
 
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
-## Keston syöttäminen
+## <a name="entering-duration"></a>Keston syöttäminen
 
 Kesto syötetään numerona, jota seuraa sen mittayksikkö.  
 
@@ -265,7 +265,7 @@ Seuraavassa on muutamia esimerkkejä:
 
  Numero 5 muunnetaan 5 tunniksi, jos mittayksikkö on tunti.  
 
-## <a name="decimal"></a>Numeeristen näppäimistöjen käyttämän desimaalierottimen asettaminen
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Numeeristen näppäimistöjen käyttämän desimaalierottimen asettaminen
 
 Kun syötät tietoja numeronäppäimistön <kbd>desimaalierottimen</kbd> avulla, kenttään syötetty todellinen desimaali erotin määräytyy Business Centralin alueasetuksen mukaan. Useimmat alueet käyttävät piste (.)- tai pilkku (,) -symbolia desimaaliarvojen erottimena, kuten tavallisesti valuuttasummissa. Näppäimistön desimaalinäppäin mukautuu alueeseen. Se on usein eri kuin muun näppäimistön piste- tai pilkkunäppäimet. Määritä alue Business Centralin **Omat asetukset** -sivulla.
 
@@ -274,7 +274,7 @@ Oletetaan esimerkiksi, että käytät numeronäppäimistöä, joka käyttää pi
 > [!TIP]
 > Joskus voi olla tarpeen käyttää desimaalierotinta pisteen (.) syöttämiseen. Oletetaan esimerkiksi, että syötät päivämäärävälin suodattimeen, esimerkiksi `01/01/2022..04/01/2022`tai mikä tahansa, joka edellyttää pistettä. Tämän mahdollistamiseksi valitse numeronäppäimistön <kbd>Alt</kbd>+<kbd>desimaalierotin</kbd>-näppäimiä. Tämä näppäinyhdistelmä vaihtaa desimaalierottimen pisteen syöttämisen ja **Alue**-asetuksessa määritetyn desimaalierottimen välillä.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Luetteloiden lajitteleminen ja suodattaminen sekä luetteloista hakeminen](ui-enter-criteria-filters.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Vaihekuvaus: Saapuva ja lähtevä työnkulku edistyneissä varastokokoonpanoissa
+# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration"></a>Vaihekuvaus: Saapuva ja lähtevä työnkulku edistyneissä varastokokoonpanoissa
 
 Tässä vaihekuvauksessa kuvataan, miten saapuvat ja lähtevät työnkulut suoritetaan kohteessa Lisäasetukset: Ohjatun hyllytyksen ja poiminnan määritys. Lisätietoja on kohdassa [Erilaisten määritysvaihtoehtojen yleiskatsaus](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## Vaatimukset  
+## <a name="prerequisites"></a>Vaatimukset
 Tämän vaihekuvauksen suorittaminen edellyttää, että teet itsestäsi fyysisen varastoinnin työntekijän *VALKOINEN*-sijainnissa noudattamalla seuraavia ohjeita:  
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](../../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston työntekijät** ja valitse sitten vastaava linkki.  
 2. Valitse ensin **Käyttäjätunnus**-kenttä ja valitse oma käyttäjätilisi **Käyttäjät**-sivulla.  
@@ -23,10 +23,10 @@ Tämän vaihekuvauksen suorittaminen edellyttää, että teet itsestäsi fyysise
 4. Ota käyttöön **Oletus**-vaihto.
 
 
-## Skenaario  
+## <a name="scenario"></a>Skenaario
 Ellen, varastopäällikkö, käyttää laiturointia ja varastopaikan täydennystoimintoja nopeuttamaan vastaanottoa ja toimitusaikaa.  
 
-## Vaiheet
+## <a name="steps"></a>Vaiheet
 
 1. Luo fyysisen varaston toimitus.  
 
@@ -135,7 +135,7 @@ Ellen, varastopäällikkö, käyttää laiturointia ja varastopaikan täydennyst
     4. Vahvista **Toimitus**-valinta.
 
 
-## Tulokset
+## <a name="results"></a>Tulokset
 - **Kirjatut fyysisen varaston vastaanotot** luodaan
 - **Rekisteröity fyysisen varaston hyllytys** luodaan    
 - **Kirjattu ostovastaanotto** luodaan    
@@ -149,7 +149,7 @@ Ellen, varastopäällikkö, käyttää laiturointia ja varastopaikan täydennyst
 
 
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 [Nimikkeiden vastaanottaminen](../../warehouse-how-receive-items.md) 
 [Rakennetiedot: saapuvan fyysisen varastoinnin virta](../../design-details-inbound-warehouse-flow.md) 
 [Nimikkeiden lähettäminen](../../warehouse-how-ship-items.md) 
