@@ -11,7 +11,7 @@ ms-service: dynamics-365-business-central
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-incoming-document-records-directly-from-documents-and-entries"></a>Saapuvien asiakirjatietueiden luominen suoraan asiakirjoista ja tapahtumista
+# Saapuvien asiakirjatietueiden luominen suoraan asiakirjoista ja tapahtumista
 
 Voit tallentaa ulkoisia liiketoiminta-asiakirjoja [!INCLUDE[prod_short](includes/prod_short.md)]iin liittämällä asiakirjatiedostoja soveltuviin saapuviin asiakirjatietueisiin. Vaikka asiakirja (kuten ostolasku) ei olisi ollut alun pitäen saapuva asiakirjatietue, voit silti luoda ja yhdistää siihen saapuvan asiakirjatietueen myöhemmin. Voit myös liittää saapuvia asiakirjatiedostoja kirjattuihin osto- ja myyntiasiakirjoihin sekä toimittaja-, asiakas- ja pääkirjanpidon tapahtumiin käyttämällä **Saapuvat asiakirjatiedostot** -tietoruutua esimerkiksi **Kirjatut ostolaskut**- ja **Toimittajatapahtumat**-sivuilla.
 
@@ -21,7 +21,7 @@ Seuraavassa kuvataan, kuinka voit liittää tiedoston toimittajatapahtumaan tai 
 
 [!INCLUDE [incoming-doc-archived-doc](includes/incoming-doc-archived-doc.md)]
 
-## <a name="create-and-connect-an-incoming-document-record-from-a-purchase-invoice"></a>Saapuvan asiakirjatietueen luominen ja yhdistäminen ostolaskusta
+## Saapuvan asiakirjatietueen luominen ja yhdistäminen ostolaskusta
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten vastaava linkki.
 2. Valitse sen ostolaskun rivi, johon haluat liittää tiedoston, ja valitse sitten **Luo saapuva asiakirja tiedostosta** -toiminto.
@@ -31,7 +31,7 @@ Seuraavassa kuvataan, kuinka voit liittää tiedoston toimittajatapahtumaan tai 
    [!INCLUDE[file-upload](includes/file-upload.md)]
 
 
-## <a name="create-and-connect-an-incoming-document-record-from-a-vendor-ledger-entry"></a>Saapuvan asiakirjatietueen luominen ja yhdistäminen toimittajatapahtumasta
+## Saapuvan asiakirjatietueen luominen ja yhdistäminen toimittajatapahtumasta
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajatapahtumat** ja valitse sitten vastaava linkki.
 2. Valitse sen toimittajatapahtuman rivi, johon haluat liittää tiedoston, ja valitse sitten **Luo saapuva asiakirja tiedostosta** -toiminto.
@@ -41,7 +41,7 @@ Seuraavassa kuvataan, kuinka voit liittää tiedoston toimittajatapahtumaan tai 
    [!INCLUDE[file-upload](includes/file-upload.md)]
 
 
-## <a name="remove-a-connection-from-an-incoming-document-record-to-a-posted-document"></a>Saapuvan asiakirjan tietueen ja kirjatun asiakirjan yhteyden poistaminen
+## Saapuvan asiakirjan tietueen ja kirjatun asiakirjan yhteyden poistaminen
 
 Voit poistaa liitetiedostot kirjaamattomista asiakirjoista milloin tahansa poistamalla saapuvan asiakirjan tietueen. Jos asiakirja on kirjattu, liitos saapuvan asiakirjan tietueeseen on poistettava ensin.
 
@@ -50,7 +50,7 @@ Voit poistaa liitetiedostot kirjaamattomista asiakirjoista milloin tahansa poist
 
 Yhteys kirjattuun asiakirjaan poistetaan. Voit nyt liittää toisen saapuvan asiakirjatietueen kirjattuun asiakirjaan tässä artikkelissa kuvatulla tavalla.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Saapuvien asiakirjatietueiden luonti](across-how-create-income-document-records.md)
 [Käytä OCR:ää PDF-ja kuvatiedostojen muuntamiseksi sähköisiksi asiakirjoiksi](across-how-use-ocr-pdf-images-files.md)

@@ -11,11 +11,11 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="analytics-business-intelligence-and-reporting-overview"></a>Analytiikan, liiketoimintatietojen ja raportoinnin yleiskatsaus
+# Analytiikan, liiketoimintatietojen ja raportoinnin yleiskatsaus
 
 Pienet ja keskisuuret yritykset käyttävät valmista analytiikkaa ja raportointiominaisuuksia, joita ne voivat käyttää suoraan liiketoimintansa seuraamiseen. [!INCLUDE[prod_short](includes/prod_short.md)]issa raportteja ja analyysityökaluja, jotka kattavat kyseisten organisaatioiden perustason ja monimutkaiset liiketoimintaprosessit. Lisäksi tapahtumakohtaisia analyyseja voidaan tehdä suoraan aloitussivulla.  
 
-## <a name="analytics-needs-in-organizations"></a>Organisaatioiden analyysitarpeet
+## Organisaatioiden analyysitarpeet
 
 Organisaatioiden analyysitarpeita pohdittaessa kannattaa ehkä käyttää mielikuvaa, joka perustuu ylätasolla kuvattuihin henkilötyyppeihin ja heidän vaihteleviin analyysitarpeisiinsa.
 
@@ -34,7 +34,7 @@ Seuraavissa osissa on lisätietoja tavoista, joilla tietoja käsitellään [!INC
 - Tapahtumakohtainen analyysi
 - Raportit
 
-## <a name="using-financial-reports-to-produce-financial-statements-and-kpis"></a>Tilinpäätösten ja tunnuslukujen tuottaminen talousraporttien avulla
+## Tilinpäätösten ja tunnuslukujen tuottaminen talousraporttien avulla
 
 Talousraporttiominaisuuden avulla saadaan tietoja tilikarttaan sisältyvistä kirjanpitotiedoista. Talousraportit voidaan määrittää analysoimaan kirjanpitotilien lukuja ja vertaamaan pääkirjanpidon tapahtumia budjettitapahtumiin.
 
@@ -44,7 +44,7 @@ Dimensioilla on tärkeä tehtävä liiketoimintatiedoissa. Dimensio on tieto, jo
 
 Lisätietoja tilinpäätöksistä ja tunnusluvuista on kohdassa [Tilinpäätösten ja tunnuslukujen tuottaminen taloushallinnon raportoinnin avulla](bi.md).
 
-## <a name="using-key-performance-indicators-to-meet-your-business-goals"></a>Tunnuslukujen käyttäminen liiketoimintatavoitteiden saavuttamiseen
+## Tunnuslukujen käyttäminen liiketoimintatavoitteiden saavuttamiseen
 
 Suorituskykymittari (tunnusluku) on mitattava arvo, joka ilmaisee, kuinka tehokkaasti tavoite toteutuu. Tunnusluvat ovat eräänlainen yrityksen tuloskortti eli tapa mitata, toteutuvatko tavoitteet.
 
@@ -59,7 +59,7 @@ Tunnuslukujen tunnistaminen ja seuraaminen ilmaisee, eteneekö liiketoiminta oik
 
 Lisätietoja tunnusluvuista on kohdassa [Tunnuslukujen käyttäminen liiketoimintatavoitteiden saavuttamiseen](./analytics-about-kpis.md)
 
-## <a name="ad-hoc-data-analysis"></a>Ad-hoc-tietoanalyysi
+## Ad-hoc-tietoanalyysi
 
 Sinun on ehkä tarkistettava nopeasti, täsmäävätkö luvut, vahvistettava tai kumottava liiketoimintaa koskeva päätelmä tai ehkäpä etsittävä poikkeamia taloustiedoista. Tapauskohtaisia analyyseja varten ei ehkä ole valmiita raportteja, jotka auttavat vastaamaan kysymyksiin. Talouskohtaisissa analyyseissa käytetään kahta seuraavaa ominaisuutta:
 
@@ -79,7 +79,7 @@ Vastaavasti **Avaa Excelissä** -toiminnolla voi avata luettelosivun, suodattaa 
 
 Lisätietoja tapauskohtaisista analyyseista on kohdassa [Tapauskohtainen tietoanalyysi](reports-adhoc-analysis.md).
 
-## <a name="reports"></a>Raportit
+## Raportit
 
 Raportti [!INCLUDE[prod_short](includes/prod_short.md)]issa kerää tietoja määritettyjen ehtosarjojen perusteella. Raporteissa tiedot järjestetään ja ilmaistaan helposti luettavassa muodossa, jota voi käyttää Excelissä ja jonka voi tulostaa tai tallentaa tiedostona.  
 
@@ -105,7 +105,7 @@ Seuraavassa taulukossa on luettelo artikkeleista, joissa käsitellään [!INCLUD
 | Tietoja [!INCLUDE[prod_short](includes/prod_short.md)]issa käytettävissä olevista valmiista raporteista. |[Raportin yleiskatsaus](reports-available-reports.md)| 
 | Kaikkien valmiiden raporttien näyttäminen raporttienhallinnan avulla. | [Raportteihin tutustuminen roolikohtaisesti](ui-role-explorer.md) |
 
-## <a name="external-business-intelligence-and-reporting-tools"></a>Ulkoiset liiketoimintatieto- ja raportointityökalut
+## Ulkoiset liiketoimintatieto- ja raportointityökalut
 
 Halutessasi voit käyttää liiketoimintatietojen työkaluja, joita ei ole upotettu [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan. Seuraavassa taulukossa on linkkejä ohjeisiin ja ulkoisten työkalujen käyttötapoihin.
 
@@ -117,7 +117,7 @@ Halutessasi voit käyttää liiketoimintatietojen työkaluja, joita ei ole upote
 | Business Centralin tietojen analysointi Microsoft Fabricin avulla| [Microsoft Fabricin ja Business Centralin esittely](admin-fabric.md) |
 | Tietojen lukeminen Business Centralista ohjelmointirajapintojen avulla | [Business Centralin ohjelmointirajapinta v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
 
-## <a name="analytics-by-functional-area"></a>Analytiikka toiminnallisten alueitten mukaan
+## Analytiikka toiminnallisten alueitten mukaan
 
 Tämän artikkelin yleinen sisältö on saatavilla myös erikoisversioina monille [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman toiminnallisille alueille.
 
@@ -129,7 +129,7 @@ Tämän artikkelin yleinen sisältö on saatavilla myös erikoisversioina monill
 | Käyttöomaisuuden hallinta | [Käyttöomaisuuden analyysi](fa-analytics-overview.md) |
 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Tilinpäätösten ja tunnuslukujen tuottaminen taloushallinnon raportoinnin avulla](bi.md)  
 [Tunnuslukujen käyttäminen liiketoimintatavoitteiden saavuttamiseen](analytics-about-kpis.md)  

@@ -11,11 +11,11 @@ ms.date: 05/03/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="auditing-changes"></a>Muutosten valvonta
+# Muutosten valvonta
 
 Monien liikkeenjohtosovellusten yhteisenä haasteena on välttää ei-toivottuja muutoksia tiedoissa. Kyseessä voi olla mikä tahansa väärästä asiakkaan puhelinnumerosta väärään pääkirjanpitokirjaukseen. Tässä artikkelissa kuvataan, miten voidaan selvittää, mitä muutoksia on tehty, kuka sen muutoksen teki ja milloin se tehtiin.
 
-## <a name="about-the-change-log"></a>Muutoslokista
+## Muutoslokista
 
 Voit seurata muutoslokiin avulla kaikkia suoria muutoksia, joita käyttäjä tekee tietokannan tietoihin. Jokainen taulukko ja kenttä voidaan haluttaessa määrittää erikseen seurattavaksi, ja sitten loki aktivoidaan. Muutosloki perustuu seuraamiesi taulukoiden tietoihin tehtyihin muutoksiin. **Muutoslokin tapahtumat** -sivulla tapahtumat järjestetään aikajärjestykseen. Sivulla näkyy kaikki muutokset, jotka tehdään määrittämiesi taulukoiden kenttien arvoihin.
 
@@ -37,7 +37,7 @@ Muutosloki otetaan pois käytöstä, kun [!INCLUDE [prod_short](includes/prod_sh
 > - Käyttäjä valitsi toisen yrityksen tai roolikeskuksen.
 > - Käyttäjä kirjautui ensin ulos ja sitten takaisin sisään.
 
-## <a name="setting-up-the-change-log"></a>Muutoslokin määrittäminen
+## Muutoslokin määrittäminen
 
 **Muutoslokin asetukset** -sivulla voit ottaa muutoslokin käyttöön tai poistaa sen käytöstä. Kun teet näin, aktiviteetti kirjataan lokiin, joten voit aina nähdä, kuka muutoksen teki.
 
@@ -48,11 +48,11 @@ Jos valitset **Muutoslokin asetukset** -sivulla **Taulukot**-toiminnon, voit mä
 
 Kun olet määrittänyt muutoslokin, aktivoinut sen ja muuttanut tietoja, voit tarkastella ja suodattaa muutoksia **Muutoslokin tapahtumat** -sivulla. Jos haluat poistaa tapahtumia, määritä säilytyskäytäntö, jossa voit asettaa suodattimia päivämäärien ja ajan perusteella. Lisätietoja Teamsin säilytyskäytännöistä on kohdassa [Säilytyskäytäntöjen määrittäminen](admin-data-retention-policies.md).  
 
-## <a name="analyze-data-in-the-change-log"></a>Tietojen analysointi muutoslokissa
+## Tietojen analysointi muutoslokissa
 
 **Tietojen analysointi** -toiminnon avulla voit analysoida muutoslokin tietoja [Muutoslokin tapahtumat](https://businesscentral.dynamics.com/?page=595) -sivulta. Sinun ei tarvitse suorittaa raporttia tai avata toista sovellusta, kuten Exceliä. Ominaisuus tarjoaa vuorovaikutteisen ja monipuolisen tavan laskea, tiivistää ja tarkastella tietoja. Sen sijaan, että raportteja suoritetaan vaihtoehdoilla ja suodattimilla, voit lisätä useita välilehtiä, jotka edustavat erilaisia tehtäviä tai näkymiä tiedoista. Joitakin esimerkkejä ovat "Kuka muutti mitäkin tietoa ja milloin" tai "Tieto muuttuu taulukon/kentän mukaan" tai mikä tahansa muu näkymä, jonka voit kuvitella. Lisätietoja **Tietojen analysointi** -ominaisuuden käytöstä on kohdassa [analyysitilassa olevien luettelo- ja kyselytietojen analysointi](analysis-mode.md).
 
-### <a name="change-log-ad-hoc-analysis-scenarios"></a>Muutoslokin ad-hoc-analyysiskenaariot
+### Muutoslokin ad-hoc-analyysiskenaariot
 
 Seuraavissa osissa on esimerkkejä skenaarioista, joissa muutoslokin analysoiminen voi helpottaa muutosten seurantaa ja tarkastamista.
 
@@ -61,7 +61,7 @@ Seuraavissa osissa on esimerkkejä skenaarioista, joissa muutoslokin analysoimin
 | [Kuka muutti mitä tietoja ja milloin](#example-who-changed-what-data-and-when) | Katso kuka muutti mitä tietoja. | [Muutoslokin tapahtumat](https://businesscentral.dynamics.com/?page=595) | **Käyttäjätunnus**, **Pvm ja aika**, **Taulukon otsikko**, **Kentän otsikko**, **Perusavainarvo 2**, **Perusavainarvo 3**, **Muutoksen tyyppi**, **Vanha arvo** ja **Uusi arvo**. |
 | [Tietojen muutokset taulukon/kentän mukaan](#example-data-changes-by-tablefield) | Tietojen muutosten katsominen taulukon/kentän mukaan, sekä muutoksen tekijä. | [Muutoslokin tapahtumat](https://businesscentral.dynamics.com/?page=595) | **Taulukon otsikko**, **Kentän otsikko**, **Käyttäjätunnus**, **Pvm ja aika**, **Perusavainarvo 2**, **Perusavainarvo 3**, **Muutoksen tyyppi**, **Vanha arvo** ja **Uusi arvo**. |
 
-### <a name="example-who-changed-what-data-and-when"></a>Esimerkki: Kuka muutti mitä tietoja ja milloin
+### Esimerkki: Kuka muutti mitä tietoja ja milloin
 
 Kun haluat analysoida, Kuka muutti mitä tietoja milloin, noudata seuraavia vaiheita:
 
@@ -82,7 +82,7 @@ Seuraavassa kuvassa on näiden työvaiheiden tulokset.
 
 :::image type="content" source=" media/data-analysis-change-log-entries-Who-changed-What-data-When.png" alt-text="Esimerkki tietoanalyysin tekemisestä Muutoslokin tapahtumat -sivulla (Kuka muutti mitä tietoja milloin) -sivulla." lightbox="media/data-analysis-change-log-entries-Who-changed-What-data-When.png":::
 
-### <a name="example-data-changes-by-tablefield"></a>Esimerkki: tietojen muutokset taulukon/kentän mukaan
+### Esimerkki: tietojen muutokset taulukon/kentän mukaan
 
 Voit analysoida tietojen muutoksia taulukon/kentän mukaan noudattamalla seuraavia vaiheita:
 
@@ -102,22 +102,22 @@ Seuraavassa kuvassa on näiden työvaiheiden tulokset.
 
 :::image type="content" source=" media/data-analysis-change-log-entries-data-changes-by-table-field.png" alt-text="Esimerkki tietoanalyysin tekemisestä Muutoslokin tapahtumat -sivulla (tietojen muutokset taulukon/kentän mukaan) -sivulla." lightbox="media/data-analysis-change-log-entries-data-changes-by-table-field.png":::
 
-## <a name="about-activity-logs"></a>Tietoja tapahtumalokeista
+## Tietoja tapahtumalokeista
 
 Joillakin [!INCLUDE [prod_short](includes/prod_short.md)]in sivuilla voi tarkastella toimintalokeja, joissa näkyy [!INCLUDE [prod_short](includes/prod_short.md)]ista vietävien ja sovellukseen tuotavien tiedostojen tila ja mahdolliset virheet.  
 
-### <a name="work-with-activity-logs"></a>Toimintalokien käyttäminen
+### Toimintalokien käyttäminen
 
 Tiedot näytetään **Toimintaloki**-sivulla sen kontekstin mukaan, josta avasit ne. Voit esimerkiksi avata sivun **Document Exchange -palvelun asetukset**-, **Saapuva asiakirja**-, **Kirjattu myyntilasku**- ja **Kirjattu myyntihyvityslasku** -sivuilta. Voit tyhjentää lokitapahtumaluettelon tai poistaa vain yli seitsemän päivää vanhemmat tapahtumat.  
 
-## <a name="monitor-sensitive-fields"></a>Valvo herkkiä kenttiä
+## Valvo herkkiä kenttiä
 
 Luottamuksellisten tietojen suojaaminen ja yksityisyys ovat useimmille yrityksille keskeinen huolenaihe. Jos haluat lisätä suojauskerroksen, voit seurata tärkeitä kenttiä ja saada sähköpostiviestin, kun joku muuttaa arvoa. Saatat esimerkiksi haluta saada ilmoituksen, jos joku muuttaa yrityksesi IBAN-numeroa.
 
 > [!NOTE]
 > Ilmoitusten lähettäminen sähköpostitse edellyttää, että määrität sähköpostiominaisuuden [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan. Lisätietoja on kohdassa [Sähköpostin määrittäminen](admin-how-setup-email.md).
 
-### <a name="set-up-field-monitoring"></a>Määritä kentän seuranta
+### Määritä kentän seuranta
 
 **Kentän valvonnan asetusten määrittäminen** -avustetun asennusoppaan avulla kentät, joita haluat seurata suodatusehtojen, kuten kenttien tietojen arkaluonteisuusluokituksen perusteella. Lisätietoja on kohdassa [Tietojen arkaluontoisuuden luokitteleminen](admin-classifying-data-sensitivity.md). Oppaassa voidaan myös määrittää henkilö, joka saa sähköposti-ilmoituksen muutoksen tapahtuessa, sekä sähköpostitili, jolla ilmoitus lähetetään. Määritä sekä käyttäjä, jolle ilmoitetaan että tili, josta ilmoitus lähetetään. Kun ohjelma on valmis, voit hallita kentän seurannan asetuksia **Kentän seuranta-asetukset** -sivulla.
 
@@ -133,7 +133,7 @@ Voit hallita kentän seurannan asetuksia, kuten sen, lähetetäänkö sähköpos
 > [!NOTE]
 > Kun olet lisännyt yhden tai useamman kentän ja käynnistät seurannan, sinun on kirjauduttava ulos [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmasta ja kirjautua uudelleen sisään, jotta voit ottaa asetukset käyttöön.
 
-### <a name="work-with-field-monitoring"></a>Kentän seurannan käsitteleminen
+### Kentän seurannan käsitteleminen
 
 Tarkkailtujen kenttien kaikkien muutettujen arvojen tapahtumat ovat käytettävissä **Tarkkailtavat kentät-lokin tapahtumat** -sivulla. Merkinnät sisältävät esimerkiksi seuraavat tiedot:
 
@@ -143,18 +143,18 @@ Tarkkailtujen kenttien kaikkien muutettujen arvojen tapahtumat ovat käytettävi
 
 Jos haluat tutkia muutosta edelleen, valitse arvo, joka avaa sivun, jossa se on tehty. Voit tarkastella kaikkien tapahtumien luetteloa valitsemalla **Kentän muutostapahtumat**.
 
-### <a name="view-field-monitoring-telemetry"></a>Kentän seurannan telemetrian tarkastelu
+### Kentän seurannan telemetrian tarkastelu
 
 Voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in lähettämään kentän seurannan aktiviteetit Application Insights -resurssille Microsoft Azuressa. Sitteen Azure Monitorin avulla luot raportteja ja määrität hälytyksiä kerätyille tiedoille. Lisätietoja on [!INCLUDE[prod_short](includes/prod_short.md)]in kehittäjien ja IT-ammattilaisten ohjeen seuraavissa artikkeleissa:
 
 - [Telemetrian seuranta ja analysointi – Application Insightsin käyttöönotto](/dynamics365/business-central/dev-itpro/administration/telemetry-overview?toc=/dynamics365/business-central/toc.json#enable)
 - [Kentän seurannan telemetrian analysointi](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace?toc=/dynamics365/business-central/toc.json)
 
-## <a name="define-retention-policies"></a>Määritä säilytyskäytännöt
+## Määritä säilytyskäytännöt
 
 Voit luoda säilytyskäytäntöjä, jotka poistavat tarpeettomia tietoja lokeista määrittämäsi ajanjakson jälkeen. Esimerkiksi ajan mittaan lokimerkintöjen määrä voi kasvaa. Puhdistamalla vanhoja tapahtumia voit helpottaa keskittymistä viimeaikaisiin ja todennäköisesti osuvimpiin tapahtumiin. Lisätietoja Teamsin säilytyskäytännöistä on kohdassa [Säilytyskäytäntöjen määrittäminen](admin-data-retention-policies.md).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Valvo herkkiä kenttiä](across-log-changes.md#monitor-sensitive-fields)  
 [Kentän seurannan telemetrian analysointi](/dynamics365/business-central/dev-itpro/administration/telemetry-field-monitoring-trace?toc=/dynamics365/business-central/toc.json)  

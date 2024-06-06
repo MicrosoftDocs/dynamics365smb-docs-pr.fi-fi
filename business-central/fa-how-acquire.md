@@ -11,7 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="acquire-fixed-assets"></a>Käyttöomaisuuden hankkiminen
+# Käyttöomaisuuden hankkiminen
 
  **Käytä Käyttöomaisuuden kortti -** sivua syöttääksesi tietoja käyttöomaisuuserästä. Voit määrittää rakennuksia tai tuotantolaitoksia pääkäyttöomaisuuseräksi. Voit myös ryhmitellä niitä eri tavoin, kuten esimerkiksi luokan, osaston ja sijainnin mukaan. Poistokirja tulee määrittää ja määritellä kullekin käyttöomaisuuserälle ennen kuin sen voi hankkia.
 
@@ -19,7 +19,7 @@ Sen jälkeen kun käyttöomaisuuserä on määritetty ja poistokirja määritelt
 
 Indeksimuutosten käyttäminen yleisten hintatason muutosten mukaan. Käytä Luetteloi KO: **teen -** eräajoa hankintamenojen ja vaihtokustannusten laskemiseen.
 
-## <a name="add-a-fixed-asset-to-your-list-of-fixed-assets"></a>Lisää käyttöomaisuus käyttöomaisuusluetteloon
+## Lisää käyttöomaisuus käyttöomaisuusluetteloon
 
 Ennen kuin käyttöomaisuuserän voi hankkia, se tulee lisätä omaisuuserien luetteloon. Luetteloon voi lisätä käyttöomaisuuserät usealla eri tavalla:
 
@@ -30,7 +30,7 @@ Ennen kuin käyttöomaisuuserän voi hankkia, se tulee lisätä omaisuuserien lu
 
 Kun olet lisännyt käyttöomaisuuserät luetteloon, seuraava vaihe on käyttöomaisuuden hankkiminen, jotta niitä voi käyttää transaktioissa. Lisätietoja on käyttöomaisuuden [hankinnassa](#acquire-fixed-assets).
 
-### <a name="add-a-fixed-asset-on-the-fixed-asset-card-page"></a>Käyttöomaisuuden lisääminen Käyttöomaisuuden kortti -sivulle
+### Käyttöomaisuuden lisääminen Käyttöomaisuuden kortti -sivulle
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuus** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto ja täytä tarvittaessa **Yleinen**-pikavälilehden kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -39,7 +39,7 @@ Kun olet lisännyt käyttöomaisuuserät luetteloon, seuraava vaihe on käyttöo
 
     Kun tarvittavat kentät on täytetty, **käyttöomaisuuden voi hankkia.** -ilmoitus tulee näkyviin sivun yläosaan. Jos olet nyt valmis hankkimaan omaisuuserän, valitse Hankinta-toiminto **·** . Suorita hankinta loppuun noudattamalla **avustetun käyttöomaisuuden hankinta** -sivun työvaiheita. Jos et ole valmis, voit hankkia omaisuuserän aina myöhemmin.
 
-### <a name="use-edit-in-excel-to-add-assets"></a>Lisää käyttöomaisuuseriä Muokkaa Excelissä -kentässä.
+### Lisää käyttöomaisuuseriä Muokkaa Excelissä -kentässä.
 
 Jos haluat lisätä useita käyttöomaisuuseriä, Muokkaa Excelissä on hyvä työkalu käytettäväksi. Työkalu lataa nykyisen luettelon työkirjan omaisuuseristä, joka sisältää suurimman osan Käyttöomaisuuden kortti -sivulla saatavilla olevista kentistä. Voit täyttää kunkin omaisuuserän rivin kentät tai kaikki kentät sekä lisätä ne luetteloon [!INCLUDE [prod_short](includes/prod_short.md)] julkaisemalla muutokset. Jos et voi täyttää kaikkia tarvittavia kenttää, se on ok. Voit päivittää tiedot, [!INCLUDE [prod_short](includes/prod_short.md)] kun olet valmis.
 
@@ -55,7 +55,7 @@ Jos haluat lisätä useita käyttöomaisuuseriä, Muokkaa Excelissä on hyvä ty
 
 4. Voit päivittää [!INCLUDE [prod_short](includes/prod_short.md)] valitsemalla **Microsoft Dynamics** ruudussa **Julkaise**.
 
-### <a name="add-a-fixed-asset-from-a-purchase-order-or-invoice"></a>Käyttöomaisuuden lisääminen ostotilauksesta tai -laskusta
+### Käyttöomaisuuden lisääminen ostotilauksesta tai -laskusta
 
 Seuraavassa kuvataan, miten käyttöomaisuus lisätään ostotilauksesta. Vaiheet ovat samanlaiset ostolaskun kohdalla.
 
@@ -66,7 +66,7 @@ Seuraavassa kuvataan, miten käyttöomaisuus lisätään ostotilauksesta. Vaihee
 5. Valitse **Nro**-kenttään -kentästä, joko valitse olemassa oleva käyttöomaisuus kustannukseen tai lisää uusi käyttöomaisuuserä valitsemalla **Uusi** .
 6. Kun olet syöttänyt uuden omaisuuserän ja ostotilauksen tiedot, valitse **Kirjaa**.
 
-## <a name="acquire-a-fixed-asset-by-using-a-fixed-asset-gl-journal"></a>Käyttöomaisuuden hankkiminen käyttöomaisuuden KP-päiväkirjaa käyttämällä
+## Käyttöomaisuuden hankkiminen käyttöomaisuuden KP-päiväkirjaa käyttämällä
 
 Seuraavassa kuvataan, miten hankinta luodaan ja kirjataan tarvittavien käyttöomaisuuden KP-päiväkirjarivien avulla. Voit myös luoda ja kirjata päiväkirjarivit manuaalisesti. Jos haluat lisätietoja, siirry käyttöomaisuuden hankintaan [käyttämällä käyttöomaisuuden KP-päiväkirjaa](#acquire-a-fixed-asset-by-using-a-fixed-asset-gl-journal).
 
@@ -79,7 +79,7 @@ Seuraavassa kuvataan, miten hankinta luodaan ja kirjataan tarvittavien käyttöo
 
 Kun valitaan **Valmis**, Käyttöomaisuuden kortti **-sivulla oleva** Kirjanpitoarvo-kenttä **täytetään**, mikä tarkoittaa, että käyttöomaisuus on hankittu määritellyllä hankintamenolla.  
 
-## <a name="to-post-a-fixed-asset-acquisition-manually-with-a-fixed-asset-gl-journal"></a>Käyttöomaisuuden hankinnan kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjalla
+## Käyttöomaisuuden hankinnan kirjaaminen manuaalisesti käyttöomaisuuden KP-päiväkirjalla
 
 Seuraavassa kerrotaan, miten käyttöomaisuus hankitaan manuaalisesti luomalla ja kirjaamalla rivit **Käyttöom. KP-päiväkirja** -sivulla. Käyttöomaisuuden voi hankkia automaattisesti **myös Käyttöomaisuuden kortti -** sivulla valitsemalla **Hanki käyttöomaisuus -** toiminnon. Lisätietoja on siirry kohdasta [Käyttöomaisuuden](#acquire-fixed-assets) hankkiminen.
 
@@ -94,7 +94,7 @@ Seuraavassa kerrotaan, miten käyttöomaisuus hankitaan manuaalisesti luomalla j
 > [!TIP]  
 > Jos Vakuutusnro-kenttä **·**  täytetäänkirjaa [!INCLUDE[prod_short](includes/prod_short.md)]  myös käyttöomaisuuden hankintamenon vakuutuksen kattavuuskirjauksiin. Lisätietoja on kohdassa [Käyttöomaisuuden vakuuttaminen](fa-how-insure.md).
 
-## <a name="to-set-up-a-component-list-for-a-main-asset"></a>Komponenttiluetteloiden määrittäminen pääkäyttöomaisuuserälle
+## Komponenttiluetteloiden määrittäminen pääkäyttöomaisuuserälle
 
 Käyttöomaisuuden voi ryhmitellä pääkäyttöomaisuuseriksi ja niiden komponenteiksi. Tuotantokone voi koostyä esimerkiksi useista osista, jotka haluat ryhmitllä tällä tavalla.  
 
@@ -108,7 +108,7 @@ Pääomaisuuserä ja kaikki sen komponentit tulee määrittää yksittäiseksi k
 6. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuuden asetukset** ja valitse sitten vastaava linkki.
 7.  **Ota Käyttöön Salli kirjaus pääomaisuuseriin** -vaihto.
 
-## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Yhden käyttöomaisuuserän hankintamenon kirjauksen peruuttaminen
+## Yhden käyttöomaisuuserän hankintamenon kirjauksen peruuttaminen
 
 Jos teet virheen hankintamenon kirjaamisessa, voit poistaa tapahtuman **Peruuta KO-tapahtumia** -eräajon avulla ja kirjata sitten oikean hankintatapahtuman. Virheelliset merkinnät siirretään **KO-virhetapahtumat** -sivulle.
 
@@ -124,7 +124,7 @@ Jos esimerkiksi kirjaat hankinnan väärälle päivämäärälle, se on korjatta
 5. Suorita eräajo valisemalla **OK**.
 6. Kun virheellinen tapahtuma tai tapahtumat on peruutettu, voit kirjata oikean hankintamenon.
 
-## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Jäännösarvon kirjaaminen yhdessä hankintamenon kanssa
+## Jäännösarvon kirjaaminen yhdessä hankintamenon kanssa
 
 Jäännösarvo on käyttöomaisuuden jäljellä oleva arvo silloin, kun käyttöomaisuutta ei voida enää käyttää. Voit kirjata jäännösarvon samaan aikaan, kun hankintameno kirjataan. Lisätietoja on käyttöomaisuuden [poistossa](fa-how-depreciate-amortize.md) tai poistossa.
 
@@ -141,7 +141,7 @@ Jäännösarvon voi kirjata käyttöomaisuuden KP-päiväkirjasta yhdessä hanki
 > [!NOTE]
 > Jos käyttöomaisuudelle on olemassa jäännösarvo, tätä arvoa käytetään poistokirjauksessa KO:n poistokirjat **-sivun Loppukirjanpitoarvo-kentän**  **arvon** sijaan. Lisätietoja on [loppukirjanpitoarvon](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value) hallinnassa.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Käyttöomaisuus](fa-manage.md)  
 [Käyttöomaisuuden määrittäminen](fa-setup.md)  

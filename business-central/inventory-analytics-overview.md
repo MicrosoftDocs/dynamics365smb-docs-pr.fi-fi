@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="inventory-analytics"></a>Varastoanalyysi
+# Varastoanalyysi
 
 Yritykset sieppaavat paljon tietoa päivittäisten toimintojen aikana, ja ne tukevat varastopäälliköille arvokkaita liiketoimintatietoja:
 
@@ -31,7 +31,7 @@ Kullakin näistä ominaisuuksista on etunsa ja haittapuolensa tietojen analyysit
 
 Tässä artikkelissa esitellään, kuinka voit käyttää näitä analyyttisiä ominaisuuksia saadaksesi tietoa varastostasi.
 
-## <a name="analytics-needs-in-inventory"></a>Varastojen analyysitarpeet
+## Varastojen analyysitarpeet
 
 Varaston hallinnan analytiikkatarpeita pohdittaessa voi olla hyödyllistä käyttää persoonapohjaista mallia, joka kuvaa korkealla tasolla erilaisia analytiikan tarpeita.
 
@@ -48,14 +48,14 @@ Eri tehtävissä toimivilla henkilöillä voi olla erilaisia tietoja koskevia ta
 |Varastotyöntekijä   | Eritellyt tiedot     | Sisäiset toimintaraportit, näyttötehtävätiedot |
 
 <!-- 
-## <a name="inventory-kpis"></a>Inventory KPIs
+## Inventory KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In inventory management, people often use the following KPIs to monitor their organization's sales performance:
 
 - TODO  
 -->
 
-## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-inventory"></a>Financial Reportingin käyttö tilinpäätösten ja varastoon liittyvien KPI:iden tuottamiseen
+## Financial Reportingin käyttö tilinpäätösten ja varastoon liittyvien KPI:iden tuottamiseen
 
 **Financial Reporting** -ominaisuus antaa merkityksellisiä tietoja tilikartassa näkyvistä taloudellisesta tiedoista. Talousraportit voidaan määrittää analysoimaan kirjanpitotilien lukuja ja vertaamaan pääkirjanpidon tapahtumia budjettitapahtumiin. Erityisesti varastonhallintaa varten voidaan määrittää talousraportteja pääkirjanpidon (KP-) tileille, joita käytetään varaston kirjausten seurantaan.
 
@@ -63,13 +63,13 @@ Dimensioilla on tärkeä tehtävä liiketoimintatiedoissa. Dimensio on tieto, jo
 
 Lisätietoja talousraporteista on kohdassa [Talousraporttien valmisteleminen taloustietojen ja tililuokkien avulla](bi-how-work-account-schedule.md).
 
-## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-inventory"></a>Taloushallinnon raportointi liiketoimintayksiköiden tai yritysten välillä (varastoihin liittyvät)
+## Taloushallinnon raportointi liiketoimintayksiköiden tai yritysten välillä (varastoihin liittyvät)
 
 Jotkin organisaatiot käyttävät [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaa useassa liiketoimintayksikössä tai yrityksessä. Muut käyttävät [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaa tytäryhtiöissä, jotka raportoivat pääorganisaatioille. [!INCLUDE [prod_short](includes/prod_short.md)] antaa kirjanpitäjille työkalut, jotka auttavat heitä siirtämään pääkirjanpidon tapahtumia kahdesta tai useammasta yrityksestä (tytäryrityksistä) konsolidoituun yritykseen. Erityisesti varastonhallintaa varten pääkirjanpidon tapahtumat voidaan haluta konsolidoida varastotilien osalta, jotta ostojen KPI:iä voitaisiin seurata liiketoimintayksiköissä tai oikeushenkilöissä.
 
 Lisätietoja on kohdassa [Yrityksen konsolidointi](finance-consolidated-company-reporting.md).
 
-## <a name="ad-hoc-analysis-of-inventory-data"></a>Varastotietojen ad-hoc-analyysi
+## Varastotietojen ad-hoc-analyysi
 
 Joskus on tarkistettava nopeasti, täsmäävätkö luvut, tai vahvistettava luku. Seuraavat ominaisuudet sopivat erinomaisesti tapauskohtaisiin analyyseihin:
 
@@ -89,7 +89,7 @@ Vastaavasti **Avaa Excelissä** -toiminnolla voi avata luettelosivun, suodattaa 
 
 Lisätietoja varastotietojen tapauskohtaisen analyysin tekemisestä on [varastotietojen ad hoc -analyysissä](ad-hoc-analysis-inventory.md).
 
-## <a name="built-in-reports-for-inventory"></a>Valmiit varastoraportit
+## Valmiit varastoraportit
 
 [!INCLUDE [prod_short](includes/prod_short.md)] sisältää useita sisäisiä raportteja, jäljitystoimintoja ja työkaluja, joiden avulla varasto-organisaatiot voivat raportoida tiedoistaan.
 
@@ -104,7 +104,7 @@ Saatavana olevien raporttien yleiskuvan saa valitsemalla **Kaikki raportit** alo
 
 Jos haluat lisätietoja varastoihin liittyvistä raporteista, siirry kohtaan [Sisäiset varastot ja varastoraportit](inventory-WMS-reports.md).
 
-## <a name="on-screen-inventory-analytics"></a>Varastojen analytiikka näytöllä
+## Varastojen analytiikka näytöllä
 
 [!INCLUDE [prod_short](includes/prod_short.md)]issa on useita sivuja, joista saadaan varaston yleiskatsauksia ja tehtäviä töitä. Seuraavassa on joitakin esimerkkejä, joilla voit aloittaa:
 
@@ -120,7 +120,7 @@ Myyntimoduuli sisältää myös varastoon liittyviä analytiikkasivuja:
 - [Laske myyntitilausten toimituspäivämäärät](sales-date-calculation-for-sales.md)
 - [Pakettien seuraaminen](sales-how-track-packages.md)
 
-### <a name="show-inventory-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Varastoihin liittyvän pääkirjanpidon tapahtumien ja saldojen näyttäminen Tilikartta-sivulta
+### Varastoihin liittyvän pääkirjanpidon tapahtumien ja saldojen näyttäminen Tilikartta-sivulta
 
 **Tilikartta**-sivulla on näkyvissä kaikki kirjanpitotilit ja kootut luvut pääkirjanpitoon tehdyistä kirjauksista. Seuraavat ovat mahdollisia tällä sivulla:  
 
@@ -134,7 +134,7 @@ Erityisesti varastonhallintaa varten Tilikartta-sivulla voidaan luoda näkymä, 
 
 Lisätietoja on kohdassa [Tilikartan ymmärtäminen](finance-general-ledger.md#the-chart-of-accounts).
 
-### <a name="analyze-inventory-data-by-dimensions"></a>Analysoi varastotiedot dimensioiden mukaan
+### Analysoi varastotiedot dimensioiden mukaan
 
 Dimensiot ovat tapahtumia luokittelevia arvoja, jotta voit seurata ja analysoida tapahtumia asiakirjoissa, kuten myyntitilauksissa. Dimensioiden avulla voit esimerkiksi ilmaista, mistä projektista tai osastosta tapahtuma on lähtöisin.  
 
@@ -142,7 +142,7 @@ Sen sijaan että kullekin osastolle ja sijainnille määritettäisiin erilliset 
 
 Lue lisätietoja kohdasta [Analysoi tietoja dimensioiden mukaan](bi-how-analyze-data-dimension.md).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Yrityksen konsolidointi](finance-consolidated-company-reporting.md)   
 [Talousraporttien valmisteleminen taloustietojen ja tililuokkien avulla](bi-how-work-account-schedule.md)  
