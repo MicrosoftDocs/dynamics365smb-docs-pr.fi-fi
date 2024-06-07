@@ -10,12 +10,12 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="the-tax-file-formats-dk-extension"></a>Verotiedostomuotojen (DK) laajennus
+# Verotiedostomuotojen (DK) laajennus
 Jos käyt kauppaa muissa EU-maissa tai muilla EU-alueilla sijaitsevien yritysten, sivuliikkeiden tai tytäryhtiöiden kanssa, niitä koskevien aktiviteettien tiedot on ilmoitettava SKAT- ja Danmarks Statistik -virastoihin. Jos käytät [!INCLUDE[prod_short](includes/prod_short.md)]in ALV- ja Intrastat-raportointiominaisuuksia, laajennus varmistaa, että vietävä tiedosto vastaa kyseisten organisaatioiden vaatimuksia. Laajennus lisää MS-ECSL-raportin vientitiedoston ja Intrastat-vientirivien lähetyksen codeunitit ALV-raporttimäärityksiin, joten voit viedä tiedot uudessa muodossa heti.
 
 Laajennus on maksuton, joten sinun tarvitsee vain asentaa se.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Business Central -sovelluksen mukauttaminen laajennusten avulla](ui-extensions.md)
 
 

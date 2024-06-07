@@ -11,11 +11,11 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="developing-business-central-report-layouts-and-datasets"></a>Business Central -raporttien asettelujen ja tietojoukkojen kehittäminen
+# Business Central -raporttien asettelujen ja tietojoukkojen kehittäminen
 
 Tuotteessa [!INCLUDE[prod_short](includes/prod_short.md)] raportti koostuu raporttiobjektista, joka määrittää raportin _tietojoukon_ (mitä tietoja on käytettävissä) sekä _raporttiasettelujen_ määrän (miten tiedot esitetään).  
 
-## <a name="developing-report-layouts"></a>Raporttiasettelujen kehittäminen
+## Raporttiasettelujen kehittäminen
 
 Haluatko muokata tuotteeseen [!INCLUDE[prod_short](includes/prod_short.md)] sisältyviä raporttiasetteluja? Asetteluun käytetyn teknologian mukaan tämä voi olla tehtävissä itse (Excel-asettelut ja ehkä myös Word-asettelut) tai siihen tarvitaan kehittäjää (pikselitarkat RDLC-asettelut).
 
@@ -30,7 +30,7 @@ Haluatko muokata tuotteeseen [!INCLUDE[prod_short](includes/prod_short.md)] sis�
 | Raportin oletusasettelun muuttaminen. | [Oletusasettelun muuttaminen](ui-how-change-layout-currently-used-report.md) |
 <!-- | Excel-asettelujen käyttö | [Excel-asettelujen käyttö](ui-how-add-fields-word-report-layout.md) | -->
 
-## <a name="developing-report-datasets"></a>Raporttitietojoukkojen kehittäminen
+## Raporttitietojoukkojen kehittäminen
 
  Jos haluat muuttaa tietojoukkomäärityksiä, jotka määrittävät raportissa käytettävissä olevat tiedot, tarvitset kehittäjän, joka tuntee AL-ohjelmointikielen sekä työkalut raporttiobjektien ja raporttilaajennusten kehittämiseen.
 
@@ -39,7 +39,7 @@ Haluatko muokata tuotteeseen [!INCLUDE[prod_short](includes/prod_short.md)] sis�
 | Tutustuminen raporttien ohjelmointiin AL:ssä | [Raporttien kehittämisopas](/dynamics365/business-central/dev-itpro/developer/devenv-reports) |
 | Kaiken irti ottaminen raporteista | [Raporttien suorituskyvyn hienosäätöopas](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports) |
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Business Intelligencen ja raportoinnin yleiskuva](reports-use-reports.md)
 

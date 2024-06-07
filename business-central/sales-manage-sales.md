@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sales"></a>Myynti
+# Myynti
 
 Luo myyntilasku tai -tilaus tallentaaksesi sopimuksesi asiakkaan kanssa ja myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla.
 
@@ -34,7 +34,7 @@ Voit sisällyttää hyväksynnän työnkulun kaikkiin myyntiprosesseihin. Hyväk
 
 Seuraavassa osissa kuvataan tehtäväsarja ja linkit tehtäviä kuvaaviin artikkeleihin.
 
-## <a name="get-started-with-sales-capabilities"></a>Myyntiominaisuuksien käytön aloittaminen
+## Myyntiominaisuuksien käytön aloittaminen
 
 Ennen kuin myyt, määritä, miten haluat hallita yrityksesi myyntiprosesseja.
 
@@ -43,7 +43,7 @@ Ennen kuin myyt, määritä, miten haluat hallita yrityksesi myyntiprosesseja.
 | Luo asiakkaan kortti jokaiselle asiakkaalle, jolle myyt.|[Uusien asiakkaiden rekisteröiminen](sales-how-register-new-customers.md) |
 | Määritä, miten myynnit hoidetaan, esimerkiksi hinnat ja alennukset, asiakkaan hinta- ja alennusryhmät, myyjät, toimitusehdot ja agentit. | [Myynnin määrittäminen](sales-setup-sales.md) |
 
-## <a name="sales-analytics"></a>Myynnin analyysi
+## Myynnin analyysi
 
 Tässä osassa kuvataan analyysityökaluja, joita voit käyttää, kun haluat saada myyntitietoja.
 
@@ -53,7 +53,7 @@ Tässä osassa kuvataan analyysityökaluja, joita voit käyttää, kun haluat sa
 | Tee myyntitietojen ad-hoc-analyysi suoraan luettelosivuilla ja kyselyissä. | [Myynnin analyysiraporttien luominen](bi-how-create-analysis-views-reports.md) |
 | Tutustu valmiisiin myyntiraportteihin. | [Valmiit myyntiraportit](sales-reports.md) |
 
-## <a name="quote-to-order-to-sales-invoice"></a>Tarjouksesta tilaukseen ja myyntilaskuun
+## Tarjouksesta tilaukseen ja myyntilaskuun
 
 Seuraavassa taulukossa kuvataan, miten yksinkertaisia myyntiprosesseja käytetään.
 
@@ -74,7 +74,7 @@ Jos tarvitset monimutkaisempia myyntiprosesseja, seuraavassa taulukossa on luett
 |Laskuta asiakasta vain kerran yhdistämällä useiden toimitusten toimitukset yhteen laskuun.|[Toimitusten yhdistäminen yhteen laskuun](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Sellaiset kokoonpanon nimikkeet, jotka eivät ole tällä hetkellä saatavana, myydään luomalla linkitetty kokoonpanotilaus. Kokoonpanotilaus voi toimittaa myyntitilauksen koko tai osittaisen määrän.|[Kokoonpano tilausta varten -nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md)|
 
-## <a name="pick-and-ship"></a>Poiminta ja lähettäminen
+## Poiminta ja lähettäminen
 
 Seuraavassa taulukossa kuvataan, miten myyntitilauksen nimikkeitä poimitaan ja toimitetaan asiakkaalle.
 
@@ -86,7 +86,7 @@ Seuraavassa taulukossa kuvataan, miten myyntitilauksen nimikkeitä poimitaan ja 
 |Ilmoitta tilauksen toimiaika asiakkaille laskemalla joko mahdollinen luvattavaksi- tai luvattavissa -päivämäärä.|[Toimituksen lupaamisen päivämäärien laskeminen](sales-how-to-calculate-order-promising-dates.md)|
 | Tutustu, miten kollia seurataan kirjatusta myyntitoimituksesta. | [Pakettien seuraaminen](sales-how-track-packages.md) |
 
-## <a name="canceled-orders-refunds-and-returns"></a>Peruutetut tilaukset, hyvitykset ja palautukset
+## Peruutetut tilaukset, hyvitykset ja palautukset
 
 Seuraavassa taulukossa kuvataan, miten peruutettuja tilauksia, hyvityksiä ja palautuksia käsitellään.
 
@@ -95,7 +95,7 @@ Seuraavassa taulukossa kuvataan, miten peruutettuja tilauksia, hyvityksiä ja pa
 | Suorita toiminto maksamattomalle kirjatulle myyntilaskulle hyvityslaskun automaattiseksi luomiseksi ja joko peruuta myyntilasku tai luo se uudelleen, jotta voit tehdä korjauksia. |[Maksamattomien myyntilaskujen korjaaminen tai peruuttaminen](sales-how-correct-cancel-sales-invoice.md) |
 | Luo myyntihyvityslasku palauttamaan tietty kirjattu myyntilasku siten, että vastaa asiakaspalautuksen tuotteita ja hyvitettävää summaa. |[Myyntipalautusten tai -peruutusten käsittely](sales-how-process-sales-returns-cancellations.md) |
 
-## <a name="other-processes-in-sales"></a>Muut myyntiprosessit
+## Muut myyntiprosessit
 
 Seuraavassa taulukossa kuvataan, miten muita myyntiprosesseja käytetään.
 
@@ -103,7 +103,7 @@ Seuraavassa taulukossa kuvataan, miten muita myyntiprosesseja käytetään.
 | --- | --- |
 |Ratkaise ristiriita, kun samalla asiakkaalla on ainakin kaksi tietuetta.|[Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Uusien asiakkaiden rekisteröiminen](sales-how-register-new-customers.md)  

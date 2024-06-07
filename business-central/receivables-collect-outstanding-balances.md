@@ -11,20 +11,20 @@ ms.date: 03/13/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="collect-outstanding-balances"></a>Avointen saldojen perintä
+# Avointen saldojen perintä
 
 Myyntisaamisten hallintaan kuuluu sen tarkistaminen, onko erääntyneet summat maksettu ajoissa. Jos asiakkailla on erääntyneitä maksuja, voit aloittaa lähettämällä heille **Asiakkaan tiliote** -raportin muistutuksena. Vaihtoehtoisesti voit lähettää muistutuksia.
 
 Muistutusten avulla voidaan muistuttaa asiakkaita erääntyneistä summista. Niiden avulla voit myös laskea viivästyskuluja, kuten korkoja tai lisämaksuja, ja sisällyttää ne muistutukseen. Käytä viivästyskululaskuja, jos haluat veloittaa asiakkailta korkoja tai maksuja muistuttamatta erääntyneistä summista.
 
-## <a name="statements"></a>Tiliotteet
+## Tiliotteet
 
 Asiakaskortissa voit luoda ilmoituksen asiakkaan kanssa tapahtuville tapahtumille. Sitten voidaan luoda PDF-tiedosto, joka lähetetään asiakkaalle. Vaihtoehtoisesti **asiakastiliotteen** avulla voit lähettää asiakkaille yleiskatsauksen liiketoiminnasta kanssasi. 
 
 > [!TIP]
 > Tarvittaessa tiliote voidaan lähettää Exceliin muutoksia varten.  
 
-### <a name="to-send-the-customer-statement-report"></a>Asiakkaan tilioteraportin lähettäminen
+### Asiakkaan tilioteraportin lähettäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 10.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaan tiliote** ja valitse sitten vastaava linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -33,11 +33,11 @@ Asiakaskortissa voit luoda ilmoituksen asiakkaan kanssa tapahtuville tapahtumill
 > [!NOTE]
 > Jos käytössä on useita valuuttoja, asiakkaan tiliotteen raportti tulostetaan aina asiakkaan valuuttana. Tiliotteen päivämääränä ja erääntymispäivämääränä, jos erääntyminen otetaan huomioon, käytetään tiliotteen kauden viimeistä päivämäärää.
 
-## <a name="reminders"></a>Muistutukset
+## Muistutukset
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="finance-charges"></a>Viivästyskulut
+## Viivästyskulut
 
 Jos asiakas ei suorita maksua eräpäivään mennessä, voit antaa ohjelman laskea viivästyskulut automaattisesti ja lisätä ne asiakkaan tilin erääntyneisiin summiin. Voi antaa asiakkaille tiedon lisätyistä kuluista lähettämällä viivästyskululaskuja.  
 
@@ -52,7 +52,7 @@ Viivästyskululaskujen luomisen jälkeen voit muokata niitä. Kunkin viivästysk
 
 Kun olet luonut viivästyskululaskut ja tehnyt tarvittavat muutokset, voit joko tulostaa testiraportteja tai lähettää viivästyskululaskut – yleensä sähköpostina.
 
-### <a name="to-create-a-finance-charge-memo-manually"></a>Viivästyskululaskujen luominen manuaalisesti
+### Viivästyskululaskujen luominen manuaalisesti
 
 Viivästyskululasku on samanlainen kuin tavallinen lasku. Voit täyttää otsikon manuaalisesti ja antaa ohjelman täyttää rivit, tai voit antaa ohjelman luoda viivästyskululaskut kaikille asiakkaille automaattisesti.
 
@@ -65,7 +65,7 @@ Viivästyskululasku on samanlainen kuin tavallinen lasku. Voit täyttää otsiko
     > Vaikka ne on luetteloitu, **Maksun** ja **Hyvityslaskun** valitseminen **Asiakirjatyyppi**-suodattimiksi ei vaikuta siihen, koska **Ehdota viivästyskululaskun rivejä** -toiminto käsittelee vain positiivisia määriä.
 5. Aloita eräajo valitsemalla **OK**.  
 
-### <a name="to-update-finance-charge-memo-texts"></a>Viivästyskululaskutekstien päivitys
+### Viivästyskululaskutekstien päivitys
 
 Joskus voit haluta muuttaa viivästyskuluehtoihin määrittämiäsi alku- ja lopputekstejä. Jos teet tämän silloin, kun olet luonut viivästyskululaskut – mutta et vielä lähettänyt niitä, voit antaa ohjelman päivittää muutetut tekstit laskuihin.
 
@@ -74,7 +74,7 @@ Joskus voit haluta muuttaa viivästyskuluehtoihin määrittämiäsi alku- ja lop
 3. Voit määrittää **Päivitä lisäkulun teksti** -sivulla suodattimen, jos haluat päivittää useita laskuja.
 4. Päivitä aloitus- ja lopputekstit valitsemalla **OK**.  
 
-### <a name="to-issue-finance-charge-memos"></a>Viivästyskululaskujen lähettäminen
+### Viivästyskululaskujen lähettäminen
 
 Kun viivästyskululaskut on luotu ja tarvittavat muutokset on tehty, voit joko tulostaa testiraportteja tai lähettää viivästyskululaskut.
 
@@ -97,14 +97,14 @@ Lisäksi viivästyskululaskun lähettämisen seurauksena voi olla ALV-tapahtumia
 
 Viivästyskululasku on joko tulostettu tai lähetetty määritettyyn sähköpostiin PDF-liitteenä.
 
-### <a name="to-cancel-an-issued-finance-charge-memo"></a>Lähetetyn viivästyskululaskun peruuttaminen
+### Lähetetyn viivästyskululaskun peruuttaminen
 
 Jos viivästyskululaskut lähetettiin vahingossa, voit peruuttaa ne, ennen kuin ne lähetetään vastaanottajalle. Voit tehdä sen joko yksi kerrallaan tai eränä.
 
 1. Valitse **Lähetetyt viivästyskululaskut** -sivulla vähintään yhden peruutettavan viivästyskululaskun rivi ja valitse sitten **Peruuta**-toiminto.
 2. Täytä **Peruuta lähetetyt viivästyskululaskut** -sivulla tarvittavat kentät ja valitse sitten **OK**-painike.
 
-### <a name="to-view-reminder-and-finance-charge-entries"></a>Muistutus-/Viivästyskulutapahtumien katsominen
+### Muistutus-/Viivästyskulutapahtumien katsominen  
 
 Kun lähetät muistutuksen, muistutustapahtuma luodaan **Muistutus-/viivästyskulutap.**-sivulle kullekin asiakastapahtuman sisältävälle muistutusriville. Voit sitten hakea tietyn asiakkaan muistutustapahtumien yleiskuvauksen.
 
@@ -112,11 +112,11 @@ Kun lähetät muistutuksen, muistutustapahtuma luodaan **Muistutus-/viivästysku
 2. Avaa kyseessä olevan asiakkaan kortti ja valitse **Tapahtumakirjaukset**-toiminto.
 3. Valitse **Asiakastapahtumat**-sivulla tapahtumarivi, jonka muistutukset haluat nähdä, ja valitse sitten **Muistutus-/viivästyskulutapah.**-toiminto.
 
-## <a name="multiple-interest-rates"></a>Useita korkoprosentteja
+## Useita korkoprosentteja
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)]Lisätietoja on kohdassa [Useiden korkoprosenttien määrittäminen](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Muistutusehtojen ja -tasojen määrittäminen.](finance-setup-reminders.md)  
 [Viivästyskuluehtojen määrittäminen](finance-setup-finance-charges.md)  

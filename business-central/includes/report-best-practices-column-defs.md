@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-## <a name="best-practices-for-working-with-column-definitions"></a>Sarakemääritysten käytön parhaat käytännöt
+## Sarakemääritysten käytön parhaat käytännöt
 
 Sarakemäärityksiä ei versioida. Kun muutat sarakemääritystä, vanha versio korvataan, kun muutos tallentuu tietokantaan. Seuraavassa luettelossa on joitakin parhaita käytäntöjä sarakemääritysten parissa työskentelemiseen.
 

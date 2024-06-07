@@ -10,11 +10,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="copy-existing-items-to-create-new-items"></a>Uusien nimikkeiden luominen kopioimalla aiemmin luotuja nimikkeitä
+# Uusien nimikkeiden luominen kopioimalla aiemmin luotuja nimikkeitä
 
 Kun lisäät uuden nimikkeen, voit säästää aikaa kopioimalla aiemmin luodun nimikkeen **Kopioi nimike** -toiminnolla uuden nimikkeen malliksi.  
 
-## <a name="to-copy-an-existing-item-to-a-new-item"></a>Aiemmin luodun nimikkeen kopiointi uuteen nimikkeeseen
+## Aiemmin luodun nimikkeen kopiointi uuteen nimikkeeseen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
 2. Valitse kopioitava nimike ja valitse sitten **Kopioi nimike** -toiminto.  
@@ -28,7 +28,7 @@ Kun lisäät uuden nimikkeen, voit säästää aikaa kopioimalla aiemmin luodun 
 
 4. Voit kopioida valintasi uuteen nimikkeeseen valitsemalla **OK**-painikkeen.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Varaston määrittäminen](inventory-setup-inventory.md)  

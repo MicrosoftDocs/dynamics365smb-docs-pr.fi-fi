@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="finding-pages-and-reports-with-the-role-explorer"></a>Sivujen ja raporttien etsiminen roolienhallinnan avulla
+# Sivujen ja raporttien etsiminen roolienhallinnan avulla
 
 Saat yleiskuvan kaikista roolin käytössä olevista liiketoimintaominaisuuksista ja muiden roolien toiminnoista, jos siirryt yhden vaiheen eteenpäin. Tässä artikkelissa ominaisuutta kutsutaan *roolienhallinnaksi*.
 
@@ -19,7 +19,7 @@ Jokainen roolienhallinnan elementti on sivun tai raportin avaava toiminto. Niinp
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="open-the-role-explorer"></a>Avaa roolien hallinta
+## Avaa roolien hallinta
 
 Voit avata roolienhallinnan roolikeskuksesta ja kaikilta luettelosivuilta sekä **Kerro, mitä haluat tehdä** -ikkunasta.
 
@@ -28,14 +28,14 @@ Voit avata roolienhallinnan roolikeskuksesta ja kaikilta luettelosivuilta sekä 
 
 Kun avaat roolikeskuksen ensimmäisen kerran, siinä näkyvät useimpien roolisi käytettävissä olevien toimintojen linkit.
 
-## <a name="open-the-role-explorer-filtered-to-show-reports"></a>Raporttien näyttämiseen suodatetun roolienhallinnan avaaminen
+## Raporttien näyttämiseen suodatetun roolienhallinnan avaaminen 
 
 Voit avata roolienhallinnan näkymässä, joka on suodatettu näyttämään roolikeskuksen ja kaikkien luettelosivujen sekä **Kerro, mitä haluat tehdä** -ikkunan raportit.
 
 - Valitse roolikeskuksessa tai luettelosivulla **Kaikki raportit** -linkin siirtymispalkin oikealla puolella.
 - Valitse **Kerro, mitä haluat tehdä** -ikkunan alareunassa **raporttien tutustumistoiminto**.
 
-## <a name="navigate-features"></a>Navigoi ominaisuuksia
+## Navigoi ominaisuuksia
 
 Sivujen tai raporttien avoimet toiminnot on järjestetty ominaisuuksien tai sovellusalueiden mukaan nimetyille solmuille. Kukin solmu voidaan tiivistää tai laajentaa yksittäin taikka kaikki solmut yhdessä.
 
@@ -43,11 +43,11 @@ Sivujen tai raporttien avoimet toiminnot on järjestetty ominaisuuksien tai sove
 - Jos haluat laajentaa tai kutistaa kaikki sivun ylätason solmut, mutta jättää alisolmut sellaisiksi kuin ne ovat, valitse ylhäällä **...** ja valitse sitten **Laajenna** tai **Tiivistä**.
 - Jos haluat laajentaa tai kutistaa kaikki sivun ylätason solmut ja alisolmut, valitse ylhäällä **...** ja valitse sitten **Laajenna kaikki** tai **Tiivistä kaikki**.
 
-## <a name="search-for-features"></a>Etsi ominaisuuksia
+## Etsi ominaisuuksia
 
 Voit etsiä ominaisuuksia nopeasti valitsemalla **Etsi** ja kirjoittamalla sanan tai lauseen etsimääsi ominaisuutta varten. Roolikeskus tuo esiin mahdollisen vastaavan tekstin. Jos ominaisuus on piilossa tiivistetyssä solmussa, tiivistetty solmu merkitään pisteellä. 
 
-## <a name="explore-other-roles"></a>Tutki muita rooleja
+## Tutki muita rooleja
 
 Jos haluat tutkia muita rooleja kuin omia rooleja, valitse **Tutki lisää rooleja**. Roolikeskus näyttää jokaisen roolin oman otsikon alla, ja siinä on linkit sen ominaisuuksiin. Voit sitten etsiä ominaisuuksia ja siirtyä niihin oman roolin tavoin.
 
@@ -63,7 +63,7 @@ Kun tutustut muihin rooleihin, voit rajata etsintää myös roolikeskuksen yläo
 > Sovelluskehittäjille voit luokitella sivuja ja raportteja määrittämällä objektin AL-koodissa [UsageCategory-ominaisuuden](/dynamics365/business-central/dev-itpro/developer/properties/devenv-usagecategory-property).
 <!--
  
-## <a name="role-explorer-actions"></a>Role explorer actions
+## Role explorer actions
 
 There a several actions along the top of the role explorer to help you locate features of your role and other roles.
 
@@ -86,7 +86,7 @@ Choose the **Explore more roles** action at the top of the role explorer to get 
 > Only Role Center actions for profiles where the **Show in Role Explorer** check box is selected will appear on the extended version of the role explorer (shown with the **Explore more roles** action). For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 -->
 
-## <a name="expand-and-collapse-nodes-on-the-role-explorer"></a>Solmujen laajentaminen ja tiivistäminen roolienhallinnassa
+## Solmujen laajentaminen ja tiivistäminen roolienhallinnassa
 
 Sivujen avoimet toiminnot on järjestetty ominaisuuksien tai sovellusalueiden mukaan nimetyille solmuille. Jokainen solmu voidaan tiivistää tai laajentaa yksittäin, ja voit tiivistää/laajentaa kaikki solmut yhteen.
 
@@ -96,7 +96,7 @@ Sivujen avoimet toiminnot on järjestetty ominaisuuksien tai sovellusalueiden mu
   - Paina <kbd>Ctrl</kbd>+<kbd>Vaihto</kbd>-näppäimiä samalla kun valitset **Laajenna** tai **Tiivistä**-toiminnon oikeassa yläkulmassa.
   - Valitse oikeassa yläkulmassa **...** ja valitse sitten **Laajenna kaikki**- tai **Tiivistä kaikki** -toiminto.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Sivujen ja tietojen etsiminen Kerro, mitä haluat tehdä -toiminnolla](ui-search.md)  
 [Profiilien hallinta](admin-users-profiles-roles.md)  
