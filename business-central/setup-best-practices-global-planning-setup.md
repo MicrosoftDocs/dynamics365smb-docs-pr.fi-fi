@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setup-best-practices-global-planning-setup"></a>Asetukset - parhaat käytännöt: yleiset suunnitteluasetukset
+# Asetukset - parhaat käytännöt: yleiset suunnitteluasetukset
 **Suunnittelu**-pikavälilehden **Tuotannon asetukset**-sivulla on useita kenttiä, jotka määrittävät tarjonnan suunnittelun yleiset säännöt.  
 
  Seuraavassa taulukossa on parhaita käytäntöjä siitä, miten voit määrittää valitun yleisen suunnitteluparametrin kentät. Saat lisätietoja kentästä valitsemalla **Asetuskenttä**-sarakkeessa olevan linkin.  
@@ -22,7 +22,7 @@ ms.service: dynamics-365-business-central
 |Oletusvaimentimen jakso|Valitse 1D tai 5D.<br /><br /> Jos et ole aiemmin käyttänyt ohjelman [!INCLUDE[prod_short](includes/prod_short.md)] suunnittelutoimintoa, määritä pidempi jakso.|Kun käyttäjät tuntevat toimintosanomien eri syyt, lyhennä puskuriaikaa antaaksesi lisää muutosehdotuksia.|  
 |Oletuspuskurimäärä-%|Määritä 5-20% nimikkeen eräkoosta.||  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
  [Asetukset - parhaat käytännöt: toimitusten suunnittelu](setup-best-practices-supply-planning.md)   
  [Rakennetiedot: Toimitusten suunnittelu](design-details-supply-planning.md)   
  [Monimutkaisten sovellusalueiden määrittäminen parhaiden käytäntöjen avulla](set-up-complex-application-areas-using-best-practices.md)  

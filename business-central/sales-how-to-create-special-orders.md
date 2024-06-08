@@ -9,7 +9,7 @@ ms.date: 02/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-special-orders"></a>Erikoistilausten luominen
+# Erikoistilausten luominen
 
 Erikoistilauksen voi luoda tietylle luettelonimikkeelle, joka toimitetaan tietylle asiakkaalle. Toimittajasi toimittaa nimikkeen fyysiseen varastoosi, ja sen jälkeen voit toimittaa nimikkeen asiakkaallesi joko erikseen tai yhdessä muiden, toisen tilauksen nimikkeiden kanssa.  
 
@@ -17,7 +17,7 @@ Erikoistilaukset ilmaisevat, että osto- ja myyntitilaus on linkitetty toisiinsa
 
 Ennen kuin tätä ominaisuutta voi käyttää, tilaukselle tarpeelliset asiakas-, myyjä- ja nimikekortit tulee määrittää.  
 
-## <a name="to-create-a-special-order"></a>Erikoistilausten luominen
+## Erikoistilausten luominen
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaus** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto. Luo nimikkeelle  myyntitilaus ja täytä se. Lisätietoja on kohdassa [Tuotteiden myyminen](sales-how-sell-products.md).
@@ -37,7 +37,7 @@ Suunnittelujärjestelmä säilyttää myyntitilaukselle erikoistilauksena luodun
 > [!NOTE]  
 >  Et voi käyttää erikoistilauksen toimintoja, jos nimike on jo varattu. Tämän varmista erikoistilauksina myydyille nimikkeille, että **Varaa**-kenttää nimikkeen kortissa ei ole määritetty arvoon **Aina**.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Luettelonimikkeiden käsitteleminen](inventory-how-work-nonstock-items.md)  
 [Myynti](sales-manage-sales.md)  

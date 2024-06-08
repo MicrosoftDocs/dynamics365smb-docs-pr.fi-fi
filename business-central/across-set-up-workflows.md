@@ -10,7 +10,7 @@ ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="set-up-approval-workflows"></a>Määritä hyväksymistyönkulut
+# Määritä hyväksymistyönkulut
 
 Voit määrittää ja käyttää työnkulkuja, jotka yhdistävät eri käyttäjien suorittamista liiketoimintaprosessin tehtäviä. Järjestelmätehtäviä (kuten automaattinen kirjaus) voidaan sisällyttää työnkulkuihin, joita käyttäjän tehtävät edeltävät tai seuraavat. Uusien tietueiden luontiin liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita. Lisätietoja on kohdassa [Hyväksyntätyönkulkujen käyttäminen](across-use-workflows.md).
 
@@ -35,14 +35,14 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 |Jaa työnkulkuja muiden [!INCLUDE[prod_short](includes/prod_short.md)]in tietokantojen kanssa.|[Hyväksyntätyönkulkujen vienti ja tuonti](across-how-to-export-and-import-workflows.md)|  
 |Opi määrittämään myyntiasiakirjojen työnkulkujen hyväksyntäpyyntöjä päästä päähän -menetelmällä.|[Vaihekuvaus: Ostojen hyväksyntä -työnkulun määrittäminen ja käyttäminen](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
-## <a name="example-of-an-approval-workflow"></a>Esimerkki hyväksymistyönkulusta
+## Esimerkki hyväksymistyönkulusta
 
 Tässä videossa kerrotaan, miten määritetään työnkulku, joka edellyttää käyttäjältä jonkun toisen hyväksynnän pyytämistä, ennen kuin on mahdollista muuttaa olemassa olevan asiakkaan tietoja tai luoda uutta asiakasta.  
 <br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Hyväksymistyönkulkujen käyttäminen](across-use-workflows.md)  
 [Työnkulku](across-workflow.md)  

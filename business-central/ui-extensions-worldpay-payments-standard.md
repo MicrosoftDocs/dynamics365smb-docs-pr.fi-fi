@@ -9,7 +9,7 @@ ms.date: 12/11/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="the-worldpay-payments-standard-extension"></a>WorldPay Payments Standard -laajennus
+# WorldPay Payments Standard -laajennus
 
 > [!CAUTION]
 > WorldPay Payments Standard -laajennus vanhenee. Koodi on merkitty vanhentuneeksi alkaen 2023 julkaisuaallosta 2. Sovellus on aktiivinen kolmen seuraavan pääjulkaisun kanssa ja sitten se poistetaan.
@@ -20,7 +20,7 @@ Jos otat laajennuksen käyttöön, kun lähetät myyntilaskun sähköpostitse, a
 
 Maksupalvelulaajennukset voi ottaa maksutta käyttöön [!INCLUDE[prod_short](includes/prod_short.md)]issa. Tiliä varten on kuitenkin otettava yhteys maksupalveluun. Lisätietoja on kohdassa [Asiakkaan maksujen ottaminen käyttöön maksupalvelujen kautta](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [[!INCLUDE[prod_short](includes/prod_short.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  

@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="understanding-wip-methods-in-project-management"></a>Tietoja projektinhallinnan KET-menetelmistä
+# Tietoja projektinhallinnan KET-menetelmistä
 
 Projektin edetessä kulutetaan materiaaleja, resursseja ja muita kuluja, ja nämä on kirjattava projektiin. Keskeneräinen työ (KET) on ominaisuus, jonka avulla voidaan arvioida kirjanpidossa olevien projektien taloudellisen arvon projektin ollessa kesken. Monissa tapauksissa saatat kirjata projektille kuluja ennen projektin laskuttamista. Kun projektista on kirjattu vain kuluja, rahoituslaskelma on epätarkka.
 
@@ -27,7 +27,7 @@ Voit seurata arvoa kirjanpidossa laskemalla KET:n ja kirjaamalla arvon kirjanpit
 | Valmistumisen prosenttiosuus |Tuloutetut kustannukset = käytön kokonaiskustannukset<br /><br /> Tuloutettu tuotto = laskutettava kokonaishinta x valmistumisen %-osuus<br /><br /> Valmistumisen %-osuus = käytön kokonaiskustannukset / budjetoidut kokonaiskustannukset<br /> (Tallennetaan projektitehtäväriveillä **Kustannuksen valmistumisprosentti** -kenttään)<br /><br /> KET-myynti = tuloutettu myynti - laskutettava laskutettu hinta |Valmistumisen %-osuuden laskennat tulouttavat tuoton suhteessa valmistumisen prosenttiosuuteen (eli käytön kokonaiskustannuksiin ja budjetin kustannuksiin).<br /><br /> Tämä laskenta edellyttää, että koko projektin laskutettava kokonaishinta ja budjetin kokonaiskustannukset on syötettävä oikein. |
 | Valmis sopimus |KET-summa = KET-kustannusten summa = käyttö (kokonaiskustannukset)<br /><br /> KET-myynnin summa = laskutettava (laskutettu hinta) |Valmis sopimus ei tulouta tuottoa ja kustannuksia ennen projektin valmistumista. Tästä voi olla hyötyä, kun projektin kustannusten ja tuoton arviointi on hyvin epävarmaa.<br /><br /> Kaikki käyttö kirjataan KET-kustannusten tilille (saatavat) ja kaikki laskutettu myynti kirjataan laskutetun KET-myynnin tilille (velat), kunnes projekti on valmis. |
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Projektien hallinta](projects-manage-projects.md)  
 [Taloushallinto](finance.md)  

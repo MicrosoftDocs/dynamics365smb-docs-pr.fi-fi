@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="the-ceridian-payroll-extension"></a>Ceridian Payroll -laajennus
+# Ceridian Payroll -laajennus
 
 Jotta palkanmaksut ja liittyvät tapahtumat voidaan käsitellä, palkanlaskennan tarjoajan tekemät rahoitustapahtumat on tuotava ja kirjattava pääkirjanpitoon.
 
@@ -18,7 +18,7 @@ Voit tehdä tämän tuomalla ensin palkanlaskennan tarjoajalta saadun csv-tiedos
 
 Voit tuoda Ceridian Payroll -laajennuksella palkkatapahtumia Ceridian HR/Payroll (USA)- ja Ceridian PowerPay (Kanada) -palveluista.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [[!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Rahoitus](finance.md)  

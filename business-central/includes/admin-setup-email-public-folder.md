@@ -16,7 +16,7 @@ Ennen sähköpostin lokiinkirjauksen määrittämistä Office 365:een on valmist
 
 Määritä Exchange Online seuraavien vaiheiden avulla ja linkit, joiden avulla saat lisätietoja.
 
-### <a name="create-an-admin-role-group"></a>Järjestelmänvalvojan rooliryhmän luominen
+### Järjestelmänvalvojan rooliryhmän luominen
 
 Yleisten kansioiden järjestelmänvalvojan rooliryhmän luonti seuraavan taulukon tietojen perusteella:
 
@@ -28,7 +28,7 @@ Yleisten kansioiden järjestelmänvalvojan rooliryhmän luonti seuraavan tauluko
 
 Lisätietoja on kohdassa [Rooliryhmien hallinta Exchange Onlinessa](/exchange/permissions-exo/role-groups).
 
-### <a name="create-a-new-public-folder-mailbox"></a>Uuden yleisen kansion postilaatikon luominen
+### Uuden yleisen kansion postilaatikon luominen
 
 Uuden yleisen kansioin postilaatikon luonti seuraavan taulukon tietojen perusteella:
 
@@ -38,7 +38,7 @@ Uuden yleisen kansioin postilaatikon luonti seuraavan taulukon tietojen perustee
 
 Lisätietoja on kohdassa [Yleisen kansion postilaatikon luonti](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
 
-### <a name="create-new-public-folders"></a>Uusien yleisten kansioiden luominen
+### Uusien yleisten kansioiden luominen
 
 1. Luo juuritasolle uusi yleinen kansio, jonka nimi on **Email Logging**, jolloin kansion täydellinen polku on `\Email Logging\`.
 2. Luo kaksi alikansiota, jolloin kansioiden täydelliseksi poluksi tulee
@@ -48,23 +48,23 @@ Lisätietoja on kohdassa [Yleisen kansion postilaatikon luonti](/exchange/collab
 
 Lisätietoja on kohdassa [Yleisen kansion luonti](/exchange/collaboration-exo/public-folders/create-public-folder).
 
-### <a name="set-public-folder-ownership"></a>Yleisen kansion omistajuuden määrittäminen
+### Yleisen kansion omistajuuden määrittäminen
 
 Määritä sähköpostin kirjaamisen käyttäjä molempien yleisten kansioiden,*Jono* ja *Tallennustila*, omistajaksi.
 
 Lisätietoja on kohdassa [Käyttöoikeuksien määrittäminen yleiseen kansioon](/exchange/collaboration-exo/public-folders/set-up-public-folders#step-3-assign-permissions-to-the-public-folder).
 
-### <a name="mail-enable-the-queue-public-folder"></a>Sähköpostin käyttöönotto yleisessä *Queue*-kansiossa
+### Sähköpostin käyttöönotto yleisessä *Queue*-kansiossa
 
   Lisätietoja on kohdassa [Sähköpostin käyttöönotto tai käytöstäpoistaminen yleisessä kansiossa](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
-### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>Sähköpostin ottaminen käyttöön sähköpostien lähettämiseksi julkiseen *Jono*-kansioon
+### Sähköpostin ottaminen käyttöön sähköpostien lähettämiseksi julkiseen *Jono*-kansioon
 
 Sähköpostin käyttöönoton sähköpostien lähettämiseen yleiseen *Queue*-kansioon käyttämällä Outlookia tai Exchange-palvelimen hallintaliittymää.
 
 Lisätietoja on kohdassa [Luvan antaminen anonyymeille käyttäjille sähköpostin lähettämiseen yleiseen kansioon, jossa sähköposti on otettu käyttöön](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?preserve-view=true).
 
-### <a name="create-mail-flow-rules"></a>Sähköpostin työnkulkusääntöjen luominen
+### Sähköpostin työnkulkusääntöjen luominen
 
 Kahden postityönkulkusäännön luonti seuraavan taulukon tietojen perusteella:
 

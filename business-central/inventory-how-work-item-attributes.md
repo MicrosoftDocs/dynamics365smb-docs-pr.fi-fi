@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-item-attributes"></a>Nimikkeen määritteiden käsitteleminen
+# Nimikkeen määritteiden käsitteleminen
 
 Kun asiakkaat tekevät kyselyjä nimikkeestä kirjeenvaihdon tai integroidun verkkokaupan avulla, he voivat tehdä kyselyjä ominaisuuksien, kuten korkeuden ja vuosimallin, perusteella. Voit auttaa asiakasta määrittämällä nimikkeisiin erilaisia nimikkeen määritteen arvoja, joita voidaan käyttää nimikkeiden haussa.
 
@@ -19,7 +19,7 @@ Voit myös määrittää nimikkeen määritteitä nimikeluokkiin, jotka kohdiste
 > [!TIP]  
 > Jos liität nimikkeisiin kuvia, kuvan analysointilaajennus havaitsee kuvassa olevat määritteet. Lisäksi se ehdottaa määritteitä, ja voit päättää, määritetäänkö ne. Laajennusta voi käyttää heti, kun olet ottanut sen käyttöön. Lisätietoja on kohdassa [Kuvan analysointilaajennus](ui-extensions-image-analyzer.md).
 
-## <a name="create-item-attributes"></a>Nimikkeen määritteiden luominen
+## Nimikkeen määritteiden luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeen määritteet** ja valitse sitten vastaava linkki.
 2. Valitse **Nimikkeen määritteet** -sivulla **Uusi**-toiminto.
@@ -28,13 +28,13 @@ Voit myös määrittää nimikkeen määritteitä nimikeluokkiin, jotka kohdiste
 > [!NOTE]  
 > Jos valitset **Tyyppi**-kentässä **Asetus**, voit valita **Nimikkeen määritteen arvot** -toiminnon ja luoda nimikkeen määritteelle arvot. Lisätietoja on kohdassa [Arvojen luominen nimikkeen määritteille, joiden tyyppi on Asetus](inventory-how-work-item-attributes.md#create-values-for-item-attributes-of-type-option).  
 
-## <a name="create-values-for-item-attributes-of-type-option"></a>Arvojen luominen nimikkeen määritteille, joiden tyyppi on Asetus
+## Arvojen luominen nimikkeen määritteille, joiden tyyppi on Asetus
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeen määritteet** ja valitse sitten vastaava linkki.
 2. Valitse **Nimikkeen määritteet** -sivulla nimikkeen määrite, jonka tyyppi on **Asetus** ja jolle haluat määrittää arvot. Valitse sitten **Nimikkeen määritteen arvot** -toiminto.
 3. Täytä **Nimikkeen määritteen arvot** -sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="assign-item-attributes-to-items"></a>Nimikkeen määritteiden määrittäminen nimikkeille
+## Nimikkeen määritteiden määrittäminen nimikkeille
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
 2. Valitse **Nimikkeet**-sivulla nimike, jolle haluat määrittää nimikkeen määritteet. Valitse sitten **Määritteet**-toiminto.
@@ -44,7 +44,7 @@ Voit myös määrittää nimikkeen määritteitä nimikeluokkiin, jotka kohdiste
 6. Valitse **Asetus**-tyyppisille nimikkeen määritteille **Arvo**-kentän valintapainike. Valitse sitten nimikkeen määritteen arvo. Vaihtoehtoisesti voit valita **Uusi**-toiminnon ja luoda ensin uuden nimikkeen määritteen arvon kohdassa [Arvojen luominen nimikkeen määritteille, joiden tyyppi on Asetus](inventory-how-work-item-attributes.md#assign-item-attributes-to-items) esitetyllä tavalla.
 7. Toista vaiheet 4–6 kaikille niille nimikkeen määritteille, jotka haluat määrittää nimikkeeseen.
 
-## <a name="assign-item-attributes-to-item-categories"></a>Nimikkeen määritteiden määrittäminen nimikeluokille
+## Nimikkeen määritteiden määrittäminen nimikeluokille
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikeluokat** ja valitse sitten vastaava linkki.
 2. Valitse **Nimikeluokat**-sivulla nimikeluokka, jolle haluat määrittää nimikkeen määritteet. Valitse sitten **Muokkaa**-toiminto.
@@ -56,7 +56,7 @@ Voit myös määrittää nimikkeen määritteitä nimikeluokkiin, jotka kohdiste
 > [!NOTE]  
 > Päänimikeluokkien nimikkeen määritteet periytyvät alinimikeluokille. Tämä osoitetaan **Peritty kohteesta** -kentässä **Määritteet**-pikavälilehdessä. Lisätietoja on kohdassa [Nimikkeiden luokitteleminen](inventory-how-categorize-items.md).
 
-## <a name="filter-by-item-attributes"></a>Suodattaminen nimikkeen määritteiden mukaan
+## Suodattaminen nimikkeen määritteiden mukaan
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
 2. Valitse **Nimikkeet**-sivulla **Suodata määritteiden mukaan** -toiminto.
@@ -74,7 +74,7 @@ Voit myös määrittää nimikkeen määritteitä nimikeluokkiin, jotka kohdiste
 
 **Nimikkeet**-sivun nimikkeet suodatetaan määritettyjen nimikkeen määritteen arvojen mukaan.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Nimikkeiden luokitteleminen](inventory-how-categorize-items.md)  
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  

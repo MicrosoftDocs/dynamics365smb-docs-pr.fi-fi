@@ -9,7 +9,7 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-multiple-interest-rates-for-delayed-payment"></a>Useiden korkoprosenttien määrittäminen viivästynyttä maksua varten
+# Useiden korkoprosenttien määrittäminen viivästynyttä maksua varten
 
 Useita korkoprosentteja voidaan käyttää kauppatapahtumien viivästyneissä maksuissa eri jaksoilla. [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)]
 
@@ -17,7 +17,7 @@ Esimerkiksi valtio määrittää asiakkaalta perittävän enimmäiskoron. Tätä
 
 Kun luot viivästyskuluehdot ja muistutusehdot viivästysmaksulle, voit määrittää useita korkoprosentteja. Viivästysmaksu siis lasketaan eri kausille eri korkoprosentin mukaan.  
 
-## <a name="to-set-up-multiple-interest-rates"></a>Useiden korkoprosenttien määrittäminen
+## Useiden korkoprosenttien määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Viivästyskuluehdot** ja valitse sitten vastaava linkki.  
 2. Valitse **Viivästyskuluehdot**-sivulla pakollinen rahoitusehto ja valitse sitten **Korkoprosentit**-toiminto.  
@@ -29,7 +29,7 @@ Kun luot viivästyskuluehdot ja muistutusehdot viivästysmaksulle, voit määrit
 
 Kun viivästyskululasku lähetetään, laskussa näkyvät viivästyskulut ja eri korkoprosentit tietyille ajanjaksoille. Lasku sisältää myös asiakkaan ja laskun lähettäneen yrityksen yhteystiedot, lisäsumman ja kokonaissumman. Laskun alkutapahtuma näkyy lihavoituna. Viivästyskulut lasketaan useilla korkoprosenteilla tietylle ajanjaksolle. Ne tulostetaan laskuun alkutapahtuman jälkeen.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Avointen saldojen perintä](receivables-collect-outstanding-balances.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)

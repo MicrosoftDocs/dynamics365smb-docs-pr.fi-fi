@@ -11,13 +11,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="company-information-quick-start"></a>Yritystietojen pika-aloitus
+# Yritystietojen pika-aloitus
 
 Jotta yrityksesi saadaan käyntiin [!INCLUDE[prod_short](includes/prod_short.md)]issa, sinun on ensin täytettävä yrityksen perustiedot ja tarvittavat tiedot yrityksesi tarpeiden mukaan.  
 
 Voit syöttää kaikki tarvittavat tiedot **Yritystiedot**-sivulla, kun määrität uuden yrityksen.
 
-## <a name="to-set-up-company-information"></a>Yrityksen tietojen määrittäminen
+## Yrityksen tietojen määrittäminen  
 
 1. Valitse ![Hammaspyörä-kuvake, joka avaa Asetukset-valikon.](media/ui-experience/settings_icon_small.png) -valikko ja valitse sitten **Yrityksen tiedot** -toiminto.
 2. Täytä tiedot pikavälilehtiin seuraavassa taulukossa kuvatulla tavalla. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
@@ -26,7 +26,7 @@ Voit syöttää kaikki tarvittavat tiedot **Yritystiedot**-sivulla, kun määrit
 
 Kun olet täyttänyt tiedot, voit sulkea sivun.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 
 [Yrityksen tietojen yleiskatsaus](admin-company-information.md)  
 [Yrityksen tietojen määrittäminen Italiassa](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

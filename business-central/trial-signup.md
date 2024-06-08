@@ -9,7 +9,7 @@ ms.date: 01/17/2024
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sign-up-for-a-free-dynamics-365-business-central-trial"></a>Rekisteröidy maksuttoman Dynamics 365 Business Central -kokeiluversion käyttäjäksi
+# Rekisteröidy maksuttoman Dynamics 365 Business Central -kokeiluversion käyttäjäksi
 
 Business Central tarjoaa ilmaisen kokeilujakson, jonka löydät **[Dynamics 365 Business Central -tuote](https://www.microsoft.com/en-us/dynamics-365/products/business-central)** -sivulta. Nopean käyttäjäksi rekisteröitymisen jälkeen sovelluksen monet keskeiset toiminnot ovat käytettävissä. Kokeiluversion avulla voit testata sovellusta näytetiedoilla. Jos haluat kokeilla ohjelmaa omilla tiedoillasi, vaihda maksuttomaan 30 päivän kokeiluversioon. [Lisätietoja Business Central -ominaisuuksista](across-business-functionality.md).  
 
@@ -17,7 +17,7 @@ Business Central tarjoaa ilmaisen kokeilujakson, jonka löydät **[Dynamics 365 
 
 [!INCLUDE [trial-get](includes/trial-get.md)]
 
-## <a name="what-to-try"></a>Kokeiltavissa
+## Kokeiltavissa
 
 Kokeiluympäristössä on samat toiminnot kuin maksullisessa versiossa. Alla olevien linkkien avulla voi tutustua joihinkin tärkeisiin toimintoihin.
 
@@ -26,7 +26,7 @@ Kokeiluympäristössä on samat toiminnot kuin maksullisessa versiossa. Alla ole
 - [Tuottava toimiminen](ui-work-product.md)  
 - [Pikaoppaat](quick-start-business-central.md)  
 
-## <a name="get-started-with-a-subscription"></a>Tilauksen käytön aloittaminen
+## Tilauksen käytön aloittaminen
 
 Aina kun kirjaudut sovellukseen kokeilujakson aikana, jäljellä oleva aika näkyy yläreunassa olevassa sinisessä palkissa. Jos päätät tehdä tilauksen, voit etsiä [!INCLUDE[prod_short](includes/prod_short.md)] -kumppanin. Lisätietoja on kohdassa [Miten löydän jälleenmyyjäpartnerin?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner). Jälleenmyyjäkumppanin avulla voit määrittää sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] yrityksesi tarpeiden mukaan, kuten tietojen tuomisen aiemmasta järjestelmästä. Voit myös mukauttaa [!INCLUDE[prod_short](includes/prod_short.md)]ia lisäämällä sovelluksia [Microsoftin kaupallisesta sovelluskaupasta](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
@@ -39,7 +39,7 @@ Voit ottaa yhteyttä myös [[!INCLUDE[prod_short](includes/prod_short.md)] -myyn
 
 Lisätietoja siitä, mitä voit tehdä [!INCLUDE [prod_short](includes/prod_short.md)] -toiminnolla, on kohdassa [Yritystoimintaan valmistautuminen](ui-get-ready-business.md) ja [Yritystoiminnot](across-business-functionality.md).  
 
-## <a name="additional-resources"></a>Lisäresurssit
+## Lisäresurssit
 
 - [Microsoftin videokirjastoon tutustuminen](across-videos.md)  
 - [Kokeiluversion usein kysytyt kysymykset](trial-faq.md)  
