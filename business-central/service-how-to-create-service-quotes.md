@@ -9,12 +9,12 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Huoltotarjousten luominen
+# <a name="create-service-quotes"></a>Huoltotarjousten luominen
 Huoltotarjoukset voidaan mieltää huoltotilausten pohjaksi. Ne ovatkin itse asiassa lähes samanlaisia. Kummassakin on tietoja esimerkiksi asiakkaasta, tilaustyypistä, huollettavista nimikkeistä, laskutus- ja toimitustiedoista sekä tehtävästä huoltotyöstä.
  
 Voit käyttää huoltotarjousta huoltotilauksen luonnoksena ja muuntaa tarjouksen sitten huoltotilaukseksi.  
   
-## Huoltotarjousten luominen  
+## <a name="to-create-a-service-quote"></a>Huoltotarjousten luominen
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltotarjoukset** ja valitse sitten vastaava linkki.  
 2. Luo uusi huoltotarjous.  
 3. Valitse **Nro**-kenttään numero huoltotarjoukselle. Jos taas olet määrittänyt huoltotarjouksille numerosarjan **Huoltohallinnon asetukset** -sivulla, voit valita seuraavan saatavilla olevan huoltotarjouksen numeron <kbd>Enter</kbd>-näppäimellä.  
@@ -27,7 +27,7 @@ Voit käyttää huoltotarjousta huoltotilauksen luonnoksena ja muuntaa tarjoukse
 6. Täytä huoltonimikerivit.  
 7. Rekisteröi arvioidut kustannukset huoltoriveille  
   
-## Katso myös  
+## <a name="see-also"></a>Katso myös
 [Huoltotilausten luominen](service-how-to-create-service-orders.md)  
 [Huoltotehtävien käyttäminen](service-how-to-work-on-service-tasks.md)  
 

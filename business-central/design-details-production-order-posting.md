@@ -9,7 +9,7 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Rakennetiedot: tuotantotilauksen kirjaus
+# <a name="design-details-production-order-posting"></a>Rakennetiedot: tuotantotilauksen kirjaus
 Kokoonpanotilauksen kirjauksen tavoin kulutetut komponentit ja käytetty koneaika muunnetaan ja tuotetaan tuotettuna nimikkeenä, kun tuotantotilaus on valmis. Lisätietoja on kohdassa [Rakennetiedot: Kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md). Kokoonpanotilausten kustannusvirta on kuitenkin yksinkertaisempi erityisesti sen vuoksi, että kokoonpanokustannuksen kirjaus tapahtuu vain kerran, joten se ei luo keskeneräisten töiden varastoa.
 
 
@@ -45,7 +45,7 @@ Erityyppisten valmistettujen varastojen arvonnousujen ja -laskujen arvot tallenn
 
 Vaikka niiden tapahtumien arvot, jotka liittyvät arvot ostettuihin tavaroihin kirjataan vain nimiketapahtumiksi vastaavilla arvotapahtumilla, tuotettuihin nimikkeisiin liittyvät tapahtumat kirjataan kapasiteettitapahtumiksi vastaavilla arvotapahtumilla nimiketapahtumien lisäksi.  
 
-## Kirjausrakenne  
+## <a name="posting-structure"></a>Kirjausrakenne
 tuotantotilausten kirjaaminen KET-varastoon sisältää tuotoksen, kulutuksen ja kapasiteetin.  
 
 Seuraavassa kaaviossa esitetään asiaankuuluvat tiliöintirutiinit koodiyksikössä 22.  
@@ -68,12 +68,12 @@ KET-varastoarvoa kuvaava arvotapahtuma voidaan liittää yhteen seuraavista kust
 
 Lisätietoja tuotannon ja kokoonpanon kustannusten kirjaamisesta pääkirjanpitoon on kohdassa [Rakennetiedot: Varastokirjaus](design-details-inventory-posting.md).  
 
-## Kapasiteetin kirjaus  
+## <a name="capacity-posting"></a>Kapasiteetin kirjaus
 Viimeisen tuotantotilauksen reititysrivin tuotoksen kirjaaminen aiheuttaa kapasiteettitapahtuman loppunimikkeelle, sen varastoarvon kasvun lisäksi.  
 
  Kapasiteettilokin kirjaus on sen ajan tallenne, joka on kulutettu nimikkeen tuottamiseen. Liittyvä arvokirjaus kuvaa WIP-varastoarvon kasvun, joka on siirtymiskustannusten arvo. Lisätietoja on ohjeaiheen [Rakennetiedot: Pääkirjanpidon tilit](design-details-accounts-in-the-general-ledger.md) kohdassa Kapasiteettitapahtumista.  
 
-## Tuotantotilauksen arvostus  
+## <a name="production-order-costing"></a>Tuotantotilauksen arvostus
  Tuotantoyrityksen on mitattava tuotantotilausten kustannukset varasto- ja tuotantokustannusten valvontaa varten, koska jokaisen tuotetun nimikkeen ennalta määritetyt vakiokustannukset aktivoidaan taseessa. Lisätietoja syistä, joiden vuoksi tuotetut nimikkeet käyttävät vakioarvostusmenetelmää on kohdassa [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md).  
 
 > [!NOTE]  
@@ -97,7 +97,7 @@ Vakiokustannusympäristöissä tuotantotilauksen arvostus perustuu seuraavaan me
     >  Tämä on erilainen kuin kokoonpanotilauksen kirjaus, jossa kirjataan aina toteutuneet kustannukset. Lisätietoja on kohdassa [Rakennetiedot: Kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md).  
 2.  Kun tuotantotilauksen tilaksi on määritetty **Valmis**, tilaus laskutetaan suorittamalla **Muuta kustannuksia - Nimiketapahtumat** -eräajo. Tämän seurauksena tilauksen kokonaiskustannus lasketaan kulutettujen materiaalien ja kapasiteetin vakiokustannusten perusteella. Laskettujen vakiokustannusten ja toteutuneiden tuotantokustannusten väliset erot lasketaan ja kirjataan.  
 
-## Katso myös  
+## <a name="see-also"></a>Katso myös
  [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)   
  [Rakennetiedot: Kokoonpanotilauksen kirjaus](design-details-assembly-order-posting.md)  
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md) [Rahoitus](finance.md)  

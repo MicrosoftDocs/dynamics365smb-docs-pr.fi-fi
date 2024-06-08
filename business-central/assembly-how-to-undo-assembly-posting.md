@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.service: dynamics-365-business-central
 ---
-# Kokoonpanon kirjauksen kumoaminen
+# <a name="undo-assembly-posting"></a>Kokoonpanon kirjauksen kumoaminen
 
 Korjaa virhe kumoamalla kokoonpanotilauksen kirjaus tai poista ei-toivottu kirjaus.
 
@@ -34,7 +34,7 @@ Kokoonpanotilaukset voidaan palauttaa vain, jos alkuperäisen kokoonpanotilaukse
 
 Seuraavassa ohjeessa neuvotaan, miten kumotaan varastoon kokoonpantuja nimikkeitä sisältävät kirjatut kokoonpanotilaukset. Jos kumottavissa kirjatuissa kokoonpanotilauksissa on tilausta varten kokoonpantuja nimikkeitä, liittyvissä kirjatussa toimituksessa käytetään **Peruuta toimitus** -toimintoa. Lisätietoja toimitusten peruuttamisesta on kohdassa [Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md). Kirjattu kokoonpanotilaus kumotaan siten tässä artikkelissa kuvatulla tavalla.  
 
-## Kumoa kokoonpanotilauksen kirjaus
+## <a name="to-undo-posting-of-an-assembly-order"></a>Kumoa kokoonpanotilauksen kirjaus
 
 Kokonaan tai osittain kirjatut kokoonpanotilaukset voidaan kumota.
 
@@ -51,7 +51,7 @@ Kokoonpanotilauksen **Peruutettu**-otsikkokentän arvoksi muuttuu **Kyllä**. Ko
 > [!NOTE]  
 > Jos määrät halutaan palauttaa kokoonpanotilauksessa, jossa on tehty useita osittaisia kirjauksia, kaikki kirjatut kokoonpanotilaukset on kumottava vaiheiden 1–3 mukaisesti.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md)  

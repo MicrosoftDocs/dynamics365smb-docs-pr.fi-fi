@@ -11,9 +11,9 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Kestävyystilien tilikartta ja kirjanpito
+# <a name="chart-of-sustainability-accounts-and-ledger"></a>Kestävyystilien tilikartta ja kirjanpito
 
-## Kestävyystilien tilikartta
+## <a name="chart-of-sustainability-accounts"></a>Kestävyystilien tilikartta
 
 Kestävyystilikartta (CoSA) muodostaa perustavan rakenteen luettelon, jota käytetään kaikkien päästötietojen tallentamiseen. Se toimii kehyksenä, joka luokittelee ja järjestää kestävyystilit niiden määritteiden, kuten laajuuden tai muiden ryhmittymien, perusteella. Jokaiseen tiliin on yleensä liitetty yksilöivä koodi tai numero, jotta siihen on helppo viitata ja seurata sitä. Sillä on sama rakenne kuin perinteisellä tilikartalla, mutta se on räätälöity erityisesti kestävyyteen liittyvien tietojen ja mittareiden seurantaa varten organisaatiossa.
 
@@ -36,7 +36,7 @@ CoSA:sta voit tehdä esimerkiksi:
 
 Voit lisätä, muuttaa tai poistaa kestävyystilejä. Erojen estämiseksi et voi poistaa Kestävyystiliä, jos siihen liittyy yksi tai useampia tapahtumia.
 
-### Lisää tai muuta tilejä
+### <a name="add-or-change-accounts"></a>Lisää tai muuta tilejä
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 3.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kestävyystilikartta** ja valitse sitten vastaava linkki.
 2. **Kestävyystilikartta**-sivulla voit avata jokaisen kestävyystilin ja lisätä tai muuttaa asetuksia. Lue lyhyt kuvaus siirtämällä kohdistin kentän päälle.
@@ -48,11 +48,11 @@ Voit lisätä, muuttaa tai poistaa kestävyystilejä. Erojen estämiseksi et voi
 > [!IMPORTANT]
 > Sisennys-funktio korvaa **Loppusumma**-tilien kaikkien kenttien arvon. Tästä syystä, jos olet antanut määritelmiä **Loppusumma**-tilien **Summausväli**-kenttiin ennen sisennyksen suorittamista, määritelmät on annettava uudelleen.
 
-### Poista tilejä
+### <a name="delete-accounts"></a>Poista tilejä
 
 Voit poistaa kestävyystilin. Varmista kuitenkin ensin, ettei siihen liity kirjanpitotapahtumia. Business Central estää sinua poistamasta kestävyystiliä, jos siihen on liitetty yksi tai useampi kirjanpitotapahtuma.
 
-## Tililuokat
+## <a name="account-categories"></a>Tililuokat
 
 Käyttäjät voivat lisätä kestävyystilien luokkia ja kestävyystilien aliluokkia määrittääkseen, miten järjestelmä käyttäytyy. He voivat valita päästöalueita, seurattavia päästöjä, kaavoja ja vastaavia määrityksiä.
 
@@ -93,7 +93,7 @@ Jos **Laskentaperuste**-kenttä määritetään, seuraavassa taulukossa selitet�
 | | Mukautettu | *Päästöt* = *Mukautettu määrä* &times; *EF* | *Mukautettu määrä* = Hotellimajoitus jne. |
 | | Polttoaine/sähkö | *Päästöt* = *Polttoaine* &times; *EF* | *Polttoaine* = Yrityksen autoon, vuokra-autoon käytetyn polttoaineen määrä jne. |
 
-## Tilin aliluokat
+## <a name="account-subcategories"></a>Tilin aliluokat
 
 Käyttäjien on lisättävä kestävyystilin alaluokka jokaiseen kestävyystiliin. Tämä alaryhmä määrittää kaavoissa käytettävät päästötekijät kestävyystilikategorian päästöjen seurannan valinnan perusteella.
 
@@ -113,7 +113,7 @@ Voit tarkistaa kestävyystilin alaluokat noudattamalla seuraavia vaiheita:
 > [!NOTE]
 > **Tuo tiedot**- ja **Tuo kohteesta** -kentät on tarkoitettu mahdolliseen integrointiin ulkoisten järjestelmien kanssa, joita käytetään päästöjen kertymiseen. **Vuoden 2024 julkaisuaallossa 1** näitä kenttiä ei kuitenkaan voi käyttää oletusarvoisesti ominaisuutena.
 
-## Vastuullisuustapahtumat
+## <a name="sustainability-ledger-entries"></a>Vastuullisuustapahtumat
 
 Kestävyyskirjaukset tallentavat kaikkien kirjattujen kestävyystransaktioiden historian ja organisoivat kaikki päästötiedot kestävyystilikartan (CoSA) mukaan. Kun käyttäjä kirjaa kestävyyspäiväkirjan, kaikki ratkaisevat tiedot tallennetaan sinne. Kaikki aktiiviset raportit on luotu kestävyyskirjaustapahtumien perusteella.
 
@@ -122,7 +122,7 @@ Kun haluat avata tämän kirjanpidon tietylle tilille, käytä **Kestävyystilin
 > [!IMPORTANT]
 > Kun olet kirjannut tiedot kestävyystapahtumiin, et voi poistaa sitä. Jos teit virheen, voit kirjata vastakirjauksen käyttäen samoja yksityiskohtia, mutta käyttämällä summalle negatiivista merkkiä.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Taloushallinto](finance.md)  
 [Vastuullisuuden hallinnan yleiskatsaus](finance-manage-sustainability.md)  

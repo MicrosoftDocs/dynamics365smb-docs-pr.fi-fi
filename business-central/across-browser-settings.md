@@ -9,19 +9,19 @@ ms.date: 12/04/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Selaimen määrittäminen ja vianetsintä Business Central -verkkoasiakkaan kanssa työskentelyä varten
+# <a name="setting-up-and-troubleshooting-your-browser-to-work-with-business-central-web-client"></a>Selaimen määrittäminen ja vianetsintä Business Central -verkkoasiakkaan kanssa työskentelyä varten
 
 Tässä artikkelissa kerrotaan, miten selain määritetään niin, että [!INCLUDE[web_client](includes/web_client.md)] ja kaikki sen ominaisuudet toimivat oikein. Lue tämä artikkeli, jos sinulla on ongelmia [!INCLUDE[web_client](includes/web_client.md)]:n avaamisessa, koska selaimen asetukset saattavat olla syynä joihinkin ongelmiin.
 
 Artikkelissa on yksityiskohtaisia tietoja Microsoft Edgen määrityksestä, mutta JavaScriptin, evästeiden ja ponnahdusikkunoiden vaatimukset ovat samat kaikissa tuetuissa selaimissa. Katso lisätietoja muista selaimista valmistajan tarjoamista ohjeista.  
 
-## Käytä tuettua selainta
+## <a name="use-a-supported-browser"></a>Käytä tuettua selainta
 
 Varmista, että käytät jotakin tuetuista selaimista. Lisätietoja on kohdassa [Business Centralin käytön vähimmäisvaatimukset](product-requirements.md#browsers).
 
 Suosittelemme, että käytät verkkoselaimen vakaata kanavaversiota, koska se on luotettavin ja vakaa versio, joka on käynyt läpi laajan testauksen ja virheenkorjauksen. Tämä varmistaa, että saat parhaan käyttökokemuksen, etkä todennäköisesti kohtaa ongelmia käyttäessäsi verkkoasiakasohjelmaa.  
 
-## Salli JavaScript Business Centralista
+## <a name="allow-javascript-from-business-central"></a>Salli JavaScript Business Centralista
 
 *Ongelma:*
 
@@ -38,7 +38,7 @@ The resource you are looking for has been removed, had its name changed, or is t
     - Siirrä **Sallittu**-valitsin vasemmalle (pois käytöstä). Valitse sitten **Lisää** ja kirjoita [!INCLUDE[prod_short](includes/prod_short.md)]in osoite (URL-osoite) **Sivusto**-ruutuun. Valitse **Lisää**, kun olet valmis.
     - Siirrä **Sallittu**-valitsin oikealle (käytössä).
 
-## Salli evästeet Business Centralista
+## <a name="allow-cookies-from-business-central"></a>Salli evästeet Business Centralista
 
 *Ongelma:*
 
@@ -51,7 +51,7 @@ Jos selain ei salli evästeitä, saat seuraavan virheilmoituksen:
 1. Siirry Microsoft Edgessä kohtaan **Asetukset** > **Evästeet ja sivuston käyttöoikeudet** > **Evästeet ja sivuston tiedot**.
 2. Siirrä **Salli sivustojen tallentaa ja lukea evästetietoja** -valitsin oikealle (päällä).  
 
-## <a name="popup"></a>Salli ponnahdusikkunat Business Centralista
+## <a name="allow-pop-ups-from-business-central"></a><a name="popup"></a>Salli ponnahdusikkunat Business Centralista
 
 [!INCLUDE[prod_short](includes/prod_short.md)] integroituu useisiin tuotteisiin. Joissakin tapauksissa, kuten Microsoft Teamsin kanssa, [!INCLUDE[prod_short](includes/prod_short.md)] avaa tai "ponnauttaa" ponnahdusikkunan tuotteen sisällä. Tämä ominaisuus edellyttää, että selain sallii ponnahdusikkunat [!INCLUDE[prod_short](includes/prod_short.md)]ista.
 
@@ -76,7 +76,7 @@ Try again
 2. Siirrä **Estetty**-valitsin oikealle (käytössä).
 3. Valitse **Lisää**. Kirjoita **Sivusto**- ruutuun `https://businesscentral.dynamics.com` ja valitse sitten **Lisää**.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Vianetsintä – Teams](admin-teams-troubleshooting.md)  
 

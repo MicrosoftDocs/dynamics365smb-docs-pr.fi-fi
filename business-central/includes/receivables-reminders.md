@@ -20,7 +20,7 @@ Asiakastapahtuma, jolla on **Estossa**-kenttä valittuna, ei aiheuta muistutukse
 
 Kun olet luonut muistutukset ja tehnyt tarvittavat muutokset, voit joko tulostaa testiraportteja tai lähettää muistutukset – yleensä sähköpostina.
 
-### Muistutusten luominen automaattisesti
+### <a name="to-create-a-reminder-automatically"></a>Muistutusten luominen automaattisesti
 
 Muistutus on vastaava kuin lasku. Kun luot muistutuksen, muistutuksen otsikko ja vähintään yksi muistutusrivi on oltava lisättynä. Voit luoda toiminnolla muistutuksia kaikille asiakkaille automaattisesti.
 
@@ -29,7 +29,7 @@ Muistutus on vastaava kuin lasku. Kun luot muistutuksen, muistutuksen otsikko ja
 3. Täytä **Luo muistutukset** -sivulla kentät, joilla määrität, miten muistutukset luodaan ja kenelle ne luodaan.
 4. Valitse **OK**-painike.
 
-### Muistutusten luominen manuaalisesti
+### <a name="to-create-a-reminder-manually"></a>Muistutusten luominen manuaalisesti
 
 Voit täyttää **Muistutus**-sivulla **Yleiset**-pikavälilehden tiedot manuaalisesti, jonka jälkeen rivit täytetään automaattisesti.
 
@@ -46,7 +46,7 @@ Voit täyttää **Muistutus**-sivulla **Yleiset**-pikavälilehden tiedot manuaal
 
 8. Valitse **OK**-painike.
 
-### Muistutustekstien vaihtaminen
+### <a name="to-replace-reminder-texts"></a>Muistutustekstien vaihtaminen
 
 On monta tapaa määrittää teksti, joka näkyy tulostetussa muistutuksessa. Joskus voit haluta korvata nykyiselle luokalle määritetyt alku- ja lopputekstit eri luokkien teksteillä.
 
@@ -55,7 +55,7 @@ On monta tapaa määrittää teksti, joka näkyy tulostetussa muistutuksessa. Jo
 3. Anna **Päivitä muistutusteksti** -sivun **Muistutustaso**-kentässä tarvittava taso.
 4. Päivitä aloitus- ja lopputekstit valitsemalla **OK**.
 
-### Muistutuksen lähettäminen
+### <a name="to-issue-a-reminder"></a>Muistutuksen lähettäminen
 
 Kun olet luonut muistutukset ja tehnyt tarvittavat muutokset, voit joko tulostaa testiraportteja tai lähettää muistutukset.
 
@@ -80,7 +80,7 @@ Lisäksi muistutuksen lähettämisestä voi seurata ALV-tapahtumia.
 
 Muistutus on joko tulostettu lähettäväksi määritettyyn sähköpostiin PDF-liitteenä.
 
-### Lähetetyn muistutuksen peruuttaminen
+### <a name="to-cancel-an-issued-reminder"></a>Lähetetyn muistutuksen peruuttaminen
 
 Jos muistutukset lähetettiin vahingossa, voit peruuttaa ne, ennen kuin ne lähetetään vastaanottajalle. Voit tehdä sen joko yksi kerrallaan tai eränä.
 

@@ -10,11 +10,11 @@ ms.date: 05/20/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Microsoft Bookingsin massalaskutus [!INCLUDE[prod_short](includes/prod_short.md)]issa
+# <a name="bulk-invoicing-for-microsoft-bookings-in-"></a>Microsoft Bookingsin massalaskutus [!INCLUDE[prod_short](includes/prod_short.md)]issa
 
 Voit käyttää tapaamisten massalaskutusta, jos yrityksesi käyttää Microsoft 365:n Bookings-sovellusta. [!INCLUDE[prod_short](includes/prod_short.md)]in **Laskuttamattomat varaukset** -sivulla esitetään luettelo yrityksen valmiista varauksista. Tällä sivulla voit valita nopeasti tapaamiset, jotka haluat laskuttaa ja joille haluat luoda luonnoslaskut tarjotuista palveluista.  
 
-## Yhdistäminen Bookings-sovellukseen
+## <a name="connect-to-bookings"></a>Yhdistäminen Bookings-sovellukseen
 
 Jos haluat yhdistää oman [!INCLUDE[prod_short](includes/prod_short.md)]in Bookingsiin, sinun on määritettävä Bookings-yritys, Bookingsiin synkronoitavat tiedot, synkronointiväli ja käytettävät mallit. Voit määrittää nämä tiedot **Bookings-synkronoinnin asetukset** -sivulla, jonka voit avata **Exchangen synkronointiasetukset** -sivulta, jonka löydät [Hakutoiminnon](ui-search.md) avulla.  
 
@@ -28,7 +28,7 @@ Jos vastaavasti haluat synkronoida palvelunimikkeet Bookingsin ja [!INCLUDE[prod
 > [!NOTE]
 > Vain *Palvelu*-tyyppiset nimikkeet synkronoidaan Bookingsin ja [!INCLUDE[prod_short](includes/prod_short.md)]in välillä. **Määritysmallit**-sivulla nimikkeen synkronointia varten määritetyn mallin tyypiksi on määritetty *Palvelu*.
 
-## Laskuta tapaamiset
+## <a name="invoice-appointments"></a>Laskuta tapaamiset
 
 Kun on aika lähettää laskut valmiista varauksista, voit siirtyä **Laskuttamattomat varaukset** -sivulle. Luettelon pituus riippuu tietojen synkronointiaikataulusta. Voit luoda laskut kaikille luettelon varauksille tai yhdelle varaukselle kerrallaan. Voit valita luettelosta useita tapahtumia ja laskuttaa ainoastaan ne.  
 
@@ -37,7 +37,7 @@ Bookings-tapaamisten laskuttamisen tuki on yksinkertaisempi kuin myyntitarjouste
 > [!NOTE]
 > Toukokuussa 2022 havaitsimme ongelman Bookings-integroinnissa. Tällä hetkellä synkronointi Bookingsista [!INCLUDE [prod_short](includes/prod_short.md)]iin edellyttää laskujen manuaalista yhdistämistä asiakkaisiin [!INCLUDE [prod_short](includes/prod_short.md)]issa.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Rahoitus](finance.md)  
 [Myynnin laskutus](sales-how-invoice-sales.md)  

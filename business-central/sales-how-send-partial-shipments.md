@@ -8,7 +8,7 @@ ms.search.keywords: 'shipping advice, partial shipments, partial deliveries, tra
 ms.date: 02/14/2024
 ms.author: bholtorf
 ---
-# Osittaisten toimitusten prosessointi
+# <a name="process-partial-shipments"></a>Osittaisten toimitusten prosessointi
 
 Osittaisessa toimituksessa tilausta ei toimiteta kerralla. Esimerkiksi 100 yksikön tilauksesta 40 yksikköä toimitetaan heti ja 60 yksikköä myöhemmin. Ohjelmassa ei ole rajoituksia yhteen tilaukseen tehtyjen toimitusten lukumäärästä.
 
@@ -18,7 +18,7 @@ Ennen kuin voit käyttää osittaisia toimituksia [!INCLUDE [prod_short](include
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Tuotteiden myyminen asiakkaan myyntitilauksen avulla](sales-how-sell-products.md)  
 [Nimikkeiden lähettäminen](warehouse-how-ship-items.md)  

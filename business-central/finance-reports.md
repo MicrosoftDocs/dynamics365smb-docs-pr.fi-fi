@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Business Centralin valmiit raportit
+# <a name="built-in-finance-reports-in-business-central"></a>Business Centralin valmiit raportit
 
 [!INCLUDE [prod_short](includes/prod_short.md)] sisältää useita valmiita raportteja, jäljitystoimintoja ja työkaluja, joista on hyöytä talousosaston raportoinnista vastaaville tilintarkastajille tai valvojille.
 
@@ -20,11 +20,11 @@ ms.service: dynamics-365-business-central
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## Talousraporttien tutkiminen Report Explorerin avulla
+## <a name="explore-finance-reports-with-report-explorer"></a>Talousraporttien tutkiminen Report Explorerin avulla
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Myyntireskontran raportit ja analytiikka](receivables-reports.md)  
 [Ostovelkojen raportit ja analytiikka](payables-reports.md)  
