@@ -10,11 +10,11 @@ ms.date: 12/28/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Myyntimahdollisuuksien käsitteleminen
+# <a name="process-sales-opportunities"></a>Myyntimahdollisuuksien käsitteleminen
 
 Mahdollisuuden luomisen jälkeen sen hallinnassa ja valmistumisprosessissa voidaan käyttää useita toimintoja.
 
-## Mahdollisuuksien tarkasteleminen
+## <a name="view-opportunities"></a>Mahdollisuuksien tarkasteleminen
 
 Olemassa olevat myyntimahdollisuudet ovat käytettävissä **Mahdollisuusluettelo**-sivulla. Seuraavassa taulukossa kuvataan tapoja päästä sivulle myyntimahdollisuuksien käsittelyä varten.
 
@@ -26,7 +26,7 @@ Olemassa olevat myyntimahdollisuudet ovat käytettävissä **Mahdollisuusluettel
 
 Jokainen näistä tehtävistä avaa **Mahdollisuusluettelo**-sivun.
 
-## Mahdollisuuksien sulkeminen
+## <a name="close-opportunities"></a>Mahdollisuuksien sulkeminen
 
 Voit sulkea mahdollisuuden, kun neuvottelut ovat ohi. Mahdollisuuden sulkemisen yhteydessä voit määrittää, onko se voitettu vai menetetty ja sulkemisen syyt. Syyn määrittäminen edellyttää suljettujen mahdollisuuksien koodien määrittämistä.
 
@@ -37,7 +37,7 @@ Voit sulkea mahdollisuuden, kun neuvottelut ovat ohi. Mahdollisuuden sulkemisen 
 
    Valitse **Sulje mahdollisuuden koodi** -kentässä jokin olemassa olevista suljettujen mahdollisuuksien koodeista tai lisää uusi koodi. Voit lisätä uuden koodin valitsemalla avattavasta luettelosta **Valitse koko luettelosta** ja valitsemalla sitten **Uusi**. Täytä tyhjän rivin **Koodi**-, **Tyyppi**- ja **Kuvaus**-kenttä ja valitse sitten **OK**-painike.
 
-## Mahdollisuuksien tarjousten luominen
+## <a name="create-quotes-for-opportunities"></a>Mahdollisuuksien tarjousten luominen
 
 > [!NOTE]
 > Voit luoda myyntitarjouksia vain mahdollisuuksista, joiden yhteyshenkilön tyyppi on Yritys.
@@ -45,7 +45,7 @@ Voit sulkea mahdollisuuden, kun neuvottelut ovat ohi. Mahdollisuuden sulkemisen 
 1. Valitse **Mahdollisuusluettelo**-sivulla mahdollisuus ja valitse sitten **Määritä myyntitarjous** -toiminto. **Myyntitarjous**-sivu aukeaa.
 2. Täytä asianmukaiset kentät.
 
-## Mahdollisuuksien myyntitilausten luominen
+## <a name="create-sales-orders-for-opportunities"></a>Mahdollisuuksien myyntitilausten luominen
 
 Voit tehdä myyntitilauksia niistä myyntitarjouksista, jotka olet luonut mahdollisuuksillesi. Ennen kun voit luoda myyntitilauksia kontakteillesi, sinun täytyy luoda kontaktista asiakas. Lisätietoja on kohdassa [Kontaktien luominen](marketing-create-contact-companies.md).
 
@@ -55,7 +55,7 @@ Voit tehdä myyntitilauksia niistä myyntitarjouksista, jotka olet luonut mahdol
 
 Käsitellessäsi myyntien mahdollisuuksia sinulle ehkä tarvitsee luoda tarjous sille kontaktille, johon mahdollisuus on linkitetty.
 
-## Poista mahdollisuudet
+## <a name="delete-opportunities"></a>Poista mahdollisuudet
 
 Voit poistaa mahdollisuuksia esimerkiksi silloin, kun olet tehnyt sopimuksen. Voit kuitenkin poistaa vain suljettuja mahdollisuuksia. Suljetut mahdollisuudet voi poistaa kahdella eri tavalla. Voit poistaa yksittäisiä suljettuja mahdollisuuksia **Mahdollisuusluettelo**-sivulla tai voit suorittaa **Poista mahdollisuudet** -erätyön ja poistaa useita mahdollisuuksia määritettyjen ehtojen perusteella.
 
@@ -69,7 +69,7 @@ Voit poistaa suljetut mahdollisuudet **Poista mahdollisuudet** -eräajon avulla 
 
 Kun olet poistanut mahdollisuuden, se poistetaan **Mahdollisuusluettelo**-sivulta.
 
-## Mahdollisuuden siirtäminen myyntisyklin vaiheiden läpi
+## <a name="move-an-opportunity-through-sales-cycle-stages"></a>Mahdollisuuden siirtäminen myyntisyklin vaiheiden läpi
 
 Jos mahdollisuus seuraa myyntisykliä, voit siirtää sen seuraavaan tai edelliseen vaiheeseen ja jopa ohittaa vaiheen.
 
@@ -82,7 +82,7 @@ Jos mahdollisuus seuraa myyntisykliä, voit siirtää sen seuraavaan tai edellis
    * **Päivitä**-kohdan avulla voi muuttaa tietoja (kuten muokata onnistumismahdollisuuksien arviota ja arvioituja arvoja) ilman toiseen vaiheeseen siirtymistä.
 3. Täytä muut tarvittavat kentät ja valitse **OK**-painike.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Kontaktien luonti ja hallinta](marketing-contacts.md)  

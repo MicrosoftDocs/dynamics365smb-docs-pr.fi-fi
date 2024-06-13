@@ -10,15 +10,15 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Oikaisun arvon tapahtuman kirjauspäivämäärä verrattuna lähdetapahtumaan
+# <a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a>Oikaisun arvon tapahtuman kirjauspäivämäärä verrattuna lähdetapahtumaan
 
 Tässä artikkelissa verrataan muutosarvotapahtuman kirjauspäivämäärää sen tapahtuman kirjauspäivämäärään, joka aiheuttaa Muuta kustannuksia – Nimiketapahtumat -eräajon suorituksen, erityisesti uudelleenarvostusskenaario ja nimikekuluskenaario.
 
 **Muuta kustannuksia – Nimiketapahtumat** -eräajo käsittelee tiedot riippuen skenaariosta ja [!INCLUDE[prod_short](includes/prod_short.md)]in kokoonpanosta. Tässä osassa kuvataan kaksi erillistä prosessia, ja jokaisesta näytämme, millaisia vaikutuksia Muuta kustannuksia – Nimiketapahtumat -eräajolla on tietoihin.
 
-## Uudelleenarvostusskenaario
+## <a name="revaluation-scenario"></a>Uudelleenarvostusskenaario
 
-### Vaatimukset  
+### <a name="prerequisites"></a>Vaatimukset
 
 Määritä seuraavat arvot:
 
@@ -44,7 +44,7 @@ Määritä seuraavat arvot:
 
 - Viimeinen sallittu kirjauspvm = Tyhjä  
 
-### Skenaarion testaaminen
+### <a name="to-test-the-scenario"></a>Skenaarion testaaminen
 
 Testaa tämä skenaario suorittamalla seuraavat vaiheet.
 
@@ -149,15 +149,15 @@ Negatiiviseen muutokseen vaiheessa 3 tehty muutos aiheuttaa keskustelua. Muutoks
 
 Jotta negatiiviseen muutokseen voidaan tehdä muutos joulukuussa vaiheessa 3, pääkirjanpidon asetusten Ensimm. sallittu kirjauspvm -kentän päivämäärän on oltava joulukuussa.  
 
-### Yhteenveto
+### <a name="conclusion"></a>Yhteenveto
 
 Kun otetaan huomioon tässä skenaariossa saatu kokemus ja kun otetaan huomioon sopivimmat asetukset yrityksen sallimalle Kirjauspvm-alueelle, kannattaa ehkä harkita seuraavaa. Niin kauan kuin sallit varastoarvon muutosten kirjaamisen kaudessa, esimerkiksi joulukuussa tässä tapauksessa, asetukset, joita yritys käyttää sallituille kirjauspäivämääräväleille, tulisi yhtenäistää tämän päätöksen kanssa. Pääkirjanpidon asetusten Ensimm. sallittu kirjauspvm -kenttä, johon on määritetty 1.12., sallii joulukuussa tehdyn uudelleenarvostuksen ohjauksen edelleen saman kauden muuttuneisiin lähteviin tapahtumiin.  
 
 Tässä skenaariossa ollut asetus, jonka mukaan käyttäjäryhmät, jotka eivät voi tehdä kirjauksia joulukuussa, voivat tehdä niitä tammikuussa, kannattaa määrittää käyttäjäasetuksissa pääkirjanpidon asetusten sijaan.  
 
-## Nimikekulujen skenaario  
+## <a name="item-charge-scenario"></a>Nimikekulujen skenaario
 
-### Vaatimukset  
+### <a name="prerequisites-1"></a>Vaatimukset
 
 Määritä seuraavat arvot:
 
@@ -183,7 +183,7 @@ Määritä seuraavat arvot:
 
 - Viimeinen sallittu kirjauspvm = Tyhjä  
 
-### Skenaarion testaaminen  
+### <a name="to-test-the-scenario-1"></a>Skenaarion testaaminen
 
 Testaa tämä skenaario suorittamalla seuraavat vaiheet:
 
@@ -349,7 +349,7 @@ On haastavaa, kun Varaston arvostus -raportissa määritetään, että määrä 
 
 Tässä skenaariossa eräs vaihtoehto olisi ollut määrittää pääkirjanpidon asetusten Ensimm. sallittu kirjauspvm -kentän arvoksi muutamaa päivää aikaisempi joulukuun päivämäärä ja kirjata ensimmäinen nimikekulu viiveellä, jolloin edellisen kauden/tilivuoden kaikki kustannukset tuloutettaisiin kaudelle, jolle ne alussa kuuluivat. Tämän jälkeen suoritettaisiin Muuta kustannuksia - Nimiketapahtumat -eräajo ja siirrettäisiin sallittu kirjauspäivämäärä seuraavaan kauteen\/tilivuoteen. Kirjatuksi olisi tullut ensimmäinen nimikekulu, jonka kirjauspäivämäärä on 2.1.  
 
-## Katso myös  
+## <a name="see-also"></a>Katso myös
 
 [Rakennetiedot: Muutoksen arvotapahtuman kirjauspäivämäärä](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)  

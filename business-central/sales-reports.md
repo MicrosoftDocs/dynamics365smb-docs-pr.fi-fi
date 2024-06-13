@@ -9,15 +9,15 @@ ms.date: 05/03/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Business Centralin myyntiraportit ja analytiikka
+# <a name="sales-reports-and-analytics-in-business-central"></a>Business Centralin myyntiraportit ja analytiikka
 
 Myyntiraporttien avulla myynnin ja liiketoiminnan ammattilaiset voivat saada merkityksellistä tietoa ja analytiikkaa nykyisistä ja aiemmista myyntitoiminnoista.  
 
-## Raportit
+## <a name="reports"></a>Raportit
 
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
-## Tehtävät
+## <a name="tasks"></a>Tehtävät
 
 Seuraavissa artikkeleissa kuvataan joitakin myynnin tilan analysointiin liittyviä keskeisiä tehtäviä:
 
@@ -27,7 +27,7 @@ Seuraavissa artikkeleissa kuvataan joitakin myynnin tilan analysointiin liittyvi
 * [Paketin seuranta](sales-how-track-packages.md)
 * [Kirjaamattomien ja kirjattujen puitemyyntitilausrivien tarkasteleminen](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
 
-## Myyntiraporttien tutkiminen Report Explorerin avulla
+## <a name="explore-sales-reports-with-report-explorer"></a>Myyntiraporttien tutkiminen Report Explorerin avulla
 
 Myynnille saatavana olevien raporttien yleiskuvan saa valitsemalla **Kaikki raportit** aloitussivulla. Tämä toiminto avaa roolienhallinta-sivun, joka on suodatettu näyttämään **Raportti ja analyysi** -vaihtoehdon ominaisuudet. Valitse **Myynti ja markkinointi** -otsikon alla **Tutki**.
 
@@ -35,7 +35,7 @@ Myynnille saatavana olevien raporttien yleiskuvan saa valitsemalla **Kaikki rapo
 
 Lisätietoja on kohdassa [Raporttien etsiminen roolienhallinnan avulla](ui-role-explorer.md).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Myyntitietojen ad-hoc-analyysi](ad-hoc-analysis-sales.md)    
 [Myynnin analyysin yleiskatsaus](sales-analytics-overview.md)   

@@ -11,14 +11,14 @@ ms.search.keywords: 'move, warehouse'
 ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755'
 ms.service: dynamics-365-business-central
 ---
-# Varastonimikkeiden siirtäminen sijaintien välillä
+# <a name="transfer-inventory-between-locations"></a>Varastonimikkeiden siirtäminen sijaintien välillä
 
 Varastonimikkeitä siirretään sijaintien välillä luomalla siirtotilauksia. Vaihtoehtoisesti voit käyttää uudelleenluokituspäiväkirjaa.
 
 > [!NOTE]
 > Nimikkeiden siirtäminen edellyttää sijaintien siirtoreittien määrittämistä. Lisätietoja sijaintien määrittämisestä on kohdassa [Sijaintien määrittäminen](inventory-how-setup-locations.md). Siirtotilauksia ei voi käyttää *tyhjissä* sijainneissa.
 
-## Siirtotilaukset
+## <a name="transfer-orders"></a>Siirtotilaukset
 
 Lähtevä siirto voidaan lähettää yhdestä sijainnista ja vastaanottaa kohteessa saapuvana siirtona. Voit:
 
@@ -27,7 +27,7 @@ Lähtevä siirto voidaan lähettää yhdestä sijainnista ja vastaanottaa kohtee
 * Saapuvissa ja lähtevissä sijainneissa käytetään erilaisia varastointiominaisuuksia:
 * Joitakin rajoituksia lukuun ottamatta siirtotilauksia voidaan käyttää suorissa siirroissa.
 
-## Nimikkeen uudelleenluokituspäiväkirjat
+## <a name="item-reclassification-journals"></a>Nimikkeen uudelleenluokituspäiväkirjat
 
 * Yksinkertainen nimikkeiden suora siirto sijaintien välillä
 * Nimikkeiden siirtäminen varastopaikkojen välillä. Lisätietoja nimikkeiden siirtämisestä varastopaikkojen välillä on kohdassa [Nimikkeiden suunnittelematon siirtäminen fyysisen varastoinnin perusmäärityksissä](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
@@ -36,7 +36,7 @@ Lähtevä siirto voidaan lähettää yhdestä sijainnista ja vastaanottaa kohtee
 * Nimikkeiden uudelleenluokitteleminen *tyhjästä* sijainnista varsinaiseen sijaintiin.
 * Fyysisen varaston aktiviteetteja ei hallita. Fyysisen varastoinnin tapahtumat luodaan.
 
-## Nimikkeiden siirtäminen siirtotilauksella
+## <a name="to-transfer-items-with-a-transfer-order"></a>Nimikkeiden siirtäminen siirtotilauksella
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Siirtotilaukset** ja valitse sitten vastaava linkki.
 2. Täytä **Siirtotilaus**-sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -61,7 +61,7 @@ Lähtevä siirto voidaan lähettää yhdestä sijainnista ja vastaanottaa kohtee
     Kohteesta-sijainnin varastotyöntekijänä voit siirtyä nimikkeiden vastaanottamiseen. Siirtotilausrivit ovat samat kuin toimituksen aikana eikä niitä voi muokata.
 5. Valita ensin **Kirjaa**-toiminto, sitten **Vastaanotto**-asetus ja lopuksi **OK**-painike.
 
-### Kirjaa useita siirtotilauksia erässä
+### <a name="post-multiple-transfer-orders-in-a-batch"></a>Kirjaa useita siirtotilauksia erässä
 
 Siirtotilauksia voi eräkirjata toimimalla seuraavasti.
 
@@ -81,7 +81,7 @@ Siirtotilauksia voi eräkirjata toimimalla seuraavasti.
     > [!NOTE]
     > Usean asiakirjan kirjaaminen voi kestää jonkin aikaa ja estää muita käyttäjiä. Harkitse taustakirjauksen käyttöönottoa. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
-### Työjonotapahtuman ajoittaminen useiden asiakirjojen kirjaamiseksi erässä
+### <a name="schedule-a-job-queue-entry-to-post-multiple-documents-in-a-batch"></a>Työjonotapahtuman ajoittaminen useiden asiakirjojen kirjaamiseksi erässä
 
 Työjonon avulla voit myös ajoittaa kirjauksen tapahtuvaksi organisaatiolle sopivana ajankohtana. Yrityksessä saattaa olla esimerkiksi hyödyllistä suorittaa tietyt toiminnot sen jälkeen, kun suurin osa päivän tiedoista on syötetty.
 
@@ -101,7 +101,7 @@ Seuraavaksi selitetään, miten **Eräkirjaa siirtotilaukset** -raportti määri
 8. Anna **Aloitusaika**-kentässä arvoksi **16.00**.
 9. Valitse **Määritä tilaksi valmis** -toiminto.
 
-## Siirrä nimikkeet nimikkeiden uudelleenluokituspäiväkirjan avulla
+## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Siirrä nimikkeet nimikkeiden uudelleenluokituspäiväkirjan avulla
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeen uudell.luokit. pvk:t** ja valitse sitten vastaava linkki.
 2. Täytä tarvittavat kentät **Nimik. uud.luok.pvk** -sivulla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -114,7 +114,7 @@ Seuraavaksi selitetään, miten **Eräkirjaa siirtotilaukset** -raportti määri
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Peruuta siirtotoimitus
+## <a name="undo-a-transfer-shipment"></a>Peruuta siirtotoimitus
 
 Jos kirjatun siirtotilauksen määrässä on virhe, niin kauan kuin toimitusta ei ole vastaanotettu, määrä on helppo korjata. **Kirjattu siirtotoimitus** -sivulla **Peruuta toimitus** -toiminto luo korjausrivejä seuraavasti:
 
@@ -126,7 +126,7 @@ Jos määrä toimitettiin fyysisen varastoinnin toimituksena, korjaava rivi luod
 
 Viimeistele korjaus avaamalla siirtotilaus, antamalla oikea määrä ja kirjaamalla tilaus. Jos tilaus on toimitettu fyysisen varastoinnin toimituksen kautta, uusi fyysisen varastoinnin toimitus luodaan ja kirjataan.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Varaston hallinta](inventory-manage-inventory.md)  
 [Sijaintien määrittäminen](inventory-how-setup-locations.md)  

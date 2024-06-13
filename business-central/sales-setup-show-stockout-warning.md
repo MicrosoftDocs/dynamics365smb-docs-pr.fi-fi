@@ -12,21 +12,21 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Näytä varoitus varaston loppumisesta
+# <a name="display-a-stockout-warning"></a>Näytä varoitus varaston loppumisesta
 
 Kun joku syöttää nimikkeelle myyntiasiakirjaan määrän, joka ylittää nimikkeen nykyisen varastotason sijainnissa, voit haluta ilmoittaa sen näyttämällä ilmoituksen. Ilmoituksen tarkoitus on vain kertoa heille mahdollisista ongelmista, eikä se estä heitä luomasta tilausta.
 
-## Näyttää varoituksen alhaisesta varastosta myyntiasiakirjassa
+## <a name="to-show-a-warning-about-low-inventory-on-a-sales-document"></a>Näyttää varoituksen alhaisesta varastosta myyntiasiakirjassa
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntien ja myyntisaamisten asetukset** ja valitse sitten vastaava linkki.
 1. Sen mukaan, haluatko näyttää varoituksen, ota **varastovaroitus käyttöön" tai sammuta se.
 
-## Video-opastus
+## <a name="video-guidance"></a>Video-opastus
 
 Seuraavassa videossa näkyy tilanne, jossa joku luo myyntitilausta, ja määrä ylittää sijainnissa olevan nimikkeen saatavilla olevan varastotason.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h9hL]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Myynnin määrittäminen](sales-setup-sales.md)

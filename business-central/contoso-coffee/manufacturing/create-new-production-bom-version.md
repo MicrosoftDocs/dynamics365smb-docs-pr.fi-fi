@@ -7,17 +7,17 @@ ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
-# Vaihekuvaus: Uuden tuotannon tuoterakenteen ja tuoterakenneversion luominen
+# <a name="walkthrough-create-a-new-production-bom-and-bom-version"></a>Vaihekuvaus: Uuden tuotannon tuoterakenteen ja tuoterakenneversion luominen
 
 Tässä artikkelissa on tietoja Contoso Coffee -esittelytietojen käytöstä tuoterakenteen käytössä tuotantoprosesseissa.  
 
-## Esimerkkitilanne
+## <a name="scenario"></a>Esimerkkitilanne
 
 Contoso Coffee on päättänyt lisätä toisen kahvinkeittimien tuotelinjaan: **SP-SCM1008 Airpot Lite**. Tämä kahvinkeitin on identtinen nykyisen nimikkeen **SP-SCM1009 Airpot** kanssa, paitsi että se ei sisällä lämmityslevyä **SP-BOM1104**. Erillisessä vaiheessa on/off-merkki valo, **SP-BOM1106** poistetaan Airpot Liten tuoterakenteen versiosta.
 
 Contoso Coffeen prosessi-insinööri Oscarin on määritettävä uusi tuotannon tuoterakenne, joka määrittää Airpot Liten alkuperäiset komponenttivaatimukset. Tämän jälkeen Oscarin täytyy määrittää uusi tuoterakenneversio, jonka alkamispäivämäärä on 1. heinäkuuta, ja se on yhdenmukaistettava lisäsuunnitelmien kanssa toisen painoksen julkaisemiseksi.
 
-## Vaiheet
+## <a name="steps"></a>Vaiheet
 
 1. Luo uusi tuotannon tuoterakenne Airpot Litelle.
 
@@ -72,6 +72,6 @@ Contoso Coffeen prosessi-insinööri Oscarin on määritettävä uusi tuotannon 
 
 Uusi kahvinkeitin on nyt määritetty tuotannon tuoterakenteena, jolla on yksi versio.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Johdatus Contoson kahvidemotietoihin](../contoso-coffee-intro.md)  
