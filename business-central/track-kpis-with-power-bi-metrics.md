@@ -3,7 +3,7 @@ title: 'Liiketoiminnan KPI:iden seuraaminen Power BI -mittareiden avulla'
 description: 'Power BI:n yleiskatsaus tietojen, liiketoimintatietojen ja tunnuslukujen hakemiseen Business Central -tiedoista.'
 author: kennienp
 ms.author: kepontop
-ms.reviewer: jswymer
+ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.search.form: '6316, 6317'
@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="track-your-business-kpis-with-power-bi-metrics"></a>Liiketoiminnan KPI:iden seuraaminen Power BI -mittareiden avulla
+# Liiketoiminnan KPI:iden seuraaminen Power BI -mittareiden avulla
 
 Jos käytät Power BI:tä [!INCLUDE[prod_short](includes/prod_short.md)] -tietoihin, voit helposti seurata sinulle tärkeitä suorituskykyilmaisimia tai mittareita.
 
@@ -32,7 +32,7 @@ Lisätietoja Power BI-mittareista on kohdassa [Power BI:n mittareiden käytön a
 > [!NOTE]
 > Business Central 2023 -julkaisuaallosta 2 alkaen on mahdollista upottaa tuloskortteja Power BI -mittareista kohteessa [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Tunnuslukujen käyttäminen liiketoimintatavoitteiden saavuttamiseen](analytics-about-kpis.md)  
 [Johdatus Business Centraliin ja Power BI:hin](admin-powerbi.md)  

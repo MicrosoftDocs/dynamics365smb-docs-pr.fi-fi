@@ -9,15 +9,16 @@ ms.search.form: '359, 360, 6103, 6133'
 ms.date: 12/13/2023
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="set-the-e-documents-connector-with-external-endpoints"></a>Sähköisten asiakirjojen yhdistimen määrittäminen ulkoisten päätepisteiden kanssa
+# Sähköisten asiakirjojen yhdistimen määrittäminen ulkoisten päätepisteiden kanssa
 
 Tässä artikkelissa kerrotaan, kuinka sähköiset asiakirjat-toiminto määritetään, kun se on yhdistetty ulkoisiin päätepisteisiin.
 
 Ennen kuin käytät tässä artikkelissa kuvattuja toimintoja, asenna **Sähköiset asiakirjat -käynnistin ulkoisilla päätepisteillä** -sovellus yleisen **Sähköisen asiakirjan ydin** -sovelluksen päälle. Tätä sovellusta voidaan käyttää oletusintegraatioon ulkoisten (kolmannen osapuolen) tukiasemien kanssa sähköisten asiakirjojen työnkulun automatisoimiseksi. Koska tämä sovellus edustaa vain osaa valituista käynnistimistä, et rajoitu sen olemassa oleviin integraatioihin. Suurin osa käynnistimistä on saatavilla tulevaisuudessa AppSourcessa.
 
-## <a name="set-up-the-connection"></a>Yhteyden määrittäminen
+## Yhteyden määrittäminen
 
 Aloita määritys noudattamalla [Sähköisen asiakirjan ydinsovelluksen](finance-how-setup-edocuments.md) ohjeita. Kun olet suorittanut nämä vaiheet, palaa tähän artikkeliin ja suorita seuraavat vaiheet:
 
@@ -44,7 +45,7 @@ Aloita määritys noudattamalla [Sähköisen asiakirjan ydinsovelluksen](finance
     > [!NOTE]
     > Pyydä palveluntarjoajaltasi kaikki aikaisemmat tiedot yhteyden muodostamiseksi tukiasemaan.
 
-## <a name="set-up-company-information"></a>Yrityksen tietojen määrittäminen
+## Yrityksen tietojen määrittäminen
 
 Ennen kuin alat käyttää sähköisiä asiakirjoja, päivitä **Yritystiedot**-sivusi suorittamalla seuraavat vaiheet:
 
@@ -59,7 +60,7 @@ Ennen kuin alat käyttää sähköisiä asiakirjoja, päivitä **Yritystiedot**-
 
 3. Sulje sivu.
 
-## <a name="set-up-customers-to-receive-e-documents"></a>Määritä asiakkaat vastaanottamaan sähköisiä asiakirjoja
+## Määritä asiakkaat vastaanottamaan sähköisiä asiakirjoja
 
 Jotta asiakkaat voivat vastaanottaa sähköisiä asiakirjojasi, suorita seuraavat vaiheet:
 
@@ -69,11 +70,11 @@ Jotta asiakkaat voivat vastaanottaa sähköisiä asiakirjojasi, suorita seuraava
 4. Merkitse **Käytä GLN:ää sähköisissä asiakirjoissa** -kenttä osoittaaksesi, käytetäänkö maailmanlaajuista sijaintinumeroa (GLN) osapuolen tunnistenumerona sähköisissä asiakirjoissa.
 5. Sulje sivu.
 
-## <a name="other-setup"></a>Muut asetukset
+## Muut asetukset
 
 Ennen kuin alat käsitellä sähköisiä asiakirjoja, määritä sähköisten asiakirjojen **työnkulut** ja **asiakirjan lähetyksen profiilit** käyttämään työnkulkujasi. Kun palveluyhteys on muodostettu, voit aloittaa sähköisen asiakirjaratkaisusi käytön.
 
-## <a name="available-service-providers"></a>Saatavilla olevat palveluntarjoajat
+## Saatavilla olevat palveluntarjoajat
 
 Microsoft haluaa kannustaa liityntäpisteiden tarjoajia lisäämään yhdistimiensä päälle **Sähköisen asiakirjan ydin** -kehyksen.
 
@@ -81,7 +82,7 @@ Tällä hetkellä Pagero on ainoa tukiaseman tarjoaja, joka kuuluu tämän järj
 
 Päivitämme tätä luetteloa sitä mukaa, kun saamme uusia sähköisten asiakirjojen vaihtotukipisteiden tarjoajia.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Sähköisten asiakirjojen määrittäminen Business Centralissa](finance-how-setup-edocuments.md)  
 [Sähköisten asiakirjojen käyttäminen Business Centralissa](finance-how-use-edocuments.md)  

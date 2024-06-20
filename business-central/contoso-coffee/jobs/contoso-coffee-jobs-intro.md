@@ -7,9 +7,10 @@ ms.topic: how-to
 ms.date: 05/31/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-jobs-and-project-management"></a>Johdatus Contoso Coffeeen töihin ja projektinhallintaan
+# Johdatus Contoso Coffeeen töihin ja projektinhallintaan
 
 Contoso Coffee on kuvitteellinen yritys, joka tuottaa kuluttajille ja yrityksille kahvinkeittimiä. **Contoso Coffee** -sovellukset Business Centralille lisäävät demotietoja, joiden avulla voit opetella käyttämään työ- ja projektinhallintaominaisuuksia Business Centralissa.
 
@@ -22,7 +23,7 @@ Tässä sovelluksessa on useita elementtejä, joita käytetään pääkuvauksiss
 > Ennen kuin suoritat mitään Contoso Coffeen skenaarioista, kirjaa kaikki nimikepäiväkirja rivit, joilla on alkusaldot. Lisätietoja vaatimuksista on [Contoso Coffee -tietojen määrittäminen](#set-up-contoso-coffee-jobs-and-project-management-data) -osiossa.
 >
 > 
-## <a name="set-up-contoso-coffee-jobs-and-project-management-data"></a>Määritä Contoso Coffeeen töiden ja projektinhallinnan tiedot
+## Määritä Contoso Coffeeen töiden ja projektinhallinnan tiedot
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
@@ -47,4 +48,4 @@ Kun asianmukaiset sovellukset on asennettu, siirry [Contoso Coffeen töiden esit
 
 Kun olet valmis, valitse **Luo demotiedot** -toiminto. Tietojen lisääminen pohjana olevaan tietokantaan kestää muutaman minuutin, mutta sitten olet valmis suorittamaan erilaisia skenaarioita.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös

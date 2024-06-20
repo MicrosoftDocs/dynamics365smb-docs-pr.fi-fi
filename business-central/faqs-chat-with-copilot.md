@@ -10,13 +10,13 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.search.keywords: 'copilot, AI, chat'
 ---
-# <a name="responsible-ai-faq-for-chat-with-copilot-preview"></a>Vastuullisen tekoälyn usein kysyttyjä kysymyksiä keskustelusta Copilotin avulla (esiversio)
+# Vastuullisen tekoälyn usein kysyttyjä kysymyksiä keskustelusta Copilotin avulla (esiversio)
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 Näissä usein kysytyissä kysymyksissä käsitellään tekoälyn vaikutusta [!INCLUDE[prod_short](includes/prod_short.md)]in keskusteluun Copilotin avulla. Lisätietoja ominaisuuden käyttöön liittyvistä yleisistä kysymyksistä on kohdassa [Usein kysyttyjä kysymyksiä keskustelusta Copilotin avulla](chat-with-copilot-faq.md).
 
-## <a name="what-is-chat-with-copilot"></a>Keskustelu Copilotin avulla – mikä se on?
+## Keskustelu Copilotin avulla – mikä se on?
 
 Microsoft Copilot on tekoälypohjainen avustaja, joka inspiroi toimimaan luovasti, tehostaa tuottavuutta ja poistaa tarpeen tehdä pitkäveteisiä tehtäviä. Keskustelemalla Copilotin avulla Business Centralissa saadaan vastauksia kysymyksiin ja löydetään liiketoimintatietoja. Keskustelun tavoite ilmaistaan luonnollisella kielellä.
 
@@ -24,11 +24,11 @@ Keskustelun Copilotin kanssa tai lyhyemmin keskustelu on vuorovaikutteinen omina
 
 Käyttäjät kysyvät kysymyksiä luonnollisella kielellä. Esimerkkejä: Voidaanko tavarat toimittaa asiakkaille suoraan toimittajilta? tai Onko varastossa työtuoleja, joiden hinta on alle 600 $? Copilot vastaa kysymyksiin luonnollisella kielellä. Kysymykset määrittävät, onko vastauksen sisältö vain teksti -muotoinen, linkkejä [!INCLUDE[prod_short](includes/prod_short.md)]in tietueisiin tai sivuille ja linkkejä [!INCLUDE[prod_short](includes/prod_short.md)]in ohjeartikkeleihin Microsoft Learnissa.
 
-## <a name="what-are-capabilities-of-chat-with-copilot"></a>Minkälaisia ominaisuuksia keskustelussa Copilotin kanssa on?
+## Minkälaisia ominaisuuksia keskustelussa Copilotin kanssa on?
 
 Keskustelua Copilotin avulla voi käyttää vastausten saamiseen seuraavien luokkien kysymyksiin:
 
-### <a name="explain-and-guide"></a>Selittäminen ja opastaminen
+### Selittäminen ja opastaminen
 
 Käyttäjät voivat pyytää Copilotia selittämään tiettyjä [!INCLUDE[prod_short](includes/prod_short.md)]iin liittyviä käsitteitä, kuten dimensiot, tai opastamaan tehtävän suorittamisessa, kuten myyntitilauksen kirjaamisessa. Copilot hakee tietoa Microsoftin julkaisemista virallisista [!INCLUDE[prod_short](includes/prod_short.md)]in ohjeista ja vastaa kysymyksiin ohjeiden perusteella.
 
@@ -36,7 +36,7 @@ Käyttäjät voivat pyytää Copilotia selittämään tiettyjä [!INCLUDE[prod_s
 
 - Copilot ei suorita toimintoja, luo uutta tietoa tai muokkaa määrityksiä. Sen sijaan se laatii yhteenvedon Microsoft Learnista löytyneistä keskustelun kysymystä tai kehotetta vastaavista kappaleista.
 
-### <a name="find-business-data-and-related-pages"></a>Yritystietojen ja niihin liittyvien sivujen etsiminen
+### Yritystietojen ja niihin liittyvien sivujen etsiminen
 
 Käyttäjät voivat pyytää Copilotia paikantamaan sivuja nimen perusteella tai pyytää tietueita niiden kenttien ja rajoitusten perusteella. Jos Copilot löytää vastineen, sen vastaus sisältää soveltuvan tietueen tai sivun linkin, jonka avaamisen käyttäjä voi valita.
 
@@ -46,16 +46,16 @@ Käyttäjät voivat pyytää Copilotia paikantamaan sivuja nimen perusteella tai
 
 - Copilot ei suorita toimintoja, luo uutta tietoa tai muokkaa määrityksiä. Se vain laatii yhteenvedon tietueista, jotka saatiin [!INCLUDE[prod_short](includes/prod_short.md)]in oman tietohaun tuloksena. 
 
-## <a name="what-is-the-intended-use-of-chat-with-copilot"></a>Mihin keskustelua Copilotin avulla on tarkoitus käyttää?
+## Mihin keskustelua Copilotin avulla on tarkoitus käyttää?
 
 Keskustelu on suunniteltu yrityskäyttöön vastaamaan kysymyksiin, jotka liittyvät [!INCLUDE[prod_short](includes/prod_short.md)]iin ja sen sisältämiin liiketoimintatietoihin. Ominaisuus antaa käyttäjille mahdollisuuden ratkaista yleisiä tehtäviä, kuten tietueiden etsimistä ja opastusta itsensä ilmaisemiseen omin sanoin, mikä helpottaa [!INCLUDE[prod_short](includes/prod_short.md)]in käyttöä.
 
-## <a name="how-was-chat-with-copilot-evaluated-what-metrics-are-used-to-measure-performance"></a>Miten keskustelu Copilotin avulla arvioitiin? Mitä mittareita suorituskyvyn mittaamiseen käytetään?
+## Miten keskustelu Copilotin avulla arvioitiin? Mitä mittareita suorituskyvyn mittaamiseen käytetään?
 
 - Ominaisuuden laajan testauksen aikana Copilotiin syötettiin runsaasti englanninkielisiä tekstejä, jotka käsittelevät monenlaisia aiheita ja tarkoituksia ilmaisevia tyylejä. Tulokset arvioitiin tarkkuuden, osuvuuden ja turvallisuuden perusteella.
 - Ominaisuus pohjautuu Microsoftin vastuulliseen tekoälystandardiin. [Lisätietoja Microsoftin vastuullisesta tekoälystä](https://aka.ms/RAI).
 
-## <a name="how-does-microsoft-monitor-the-quality-of-generated-content"></a>Miten Microsoft seuraa luodun sisällön laatua?
+## Miten Microsoft seuraa luodun sisällön laatua?
 
 Microsoftilla on erilaisia järjestelmiä, joilla varmistetaan, että Copilotin luoma sisältö on korkealaatuista, havaitsee väärinkäytön sekä varmistaa asiakkaiden ja heidän tietojensa turvallisuuden.
 
@@ -66,7 +66,7 @@ Käyttäjillä on mahdollisuus antaa palautetta jokaisesta Copilotin vastauksest
 - Jos kohtaat sopimatonta sisältöä, ilmoita siitä Microsoftille käyttämällä tätä palautelomaketta: [Ilmoita väärinkäytöstä](https://go.microsoft.com/fwlink/?linkid=2249810).
 - Microsoft voi poistaa Copilotiin liittyvät toiminnot käytöstä valittujen asiakkaiden osalta, jos toimintojen väärinkäyttö havaitaan.
 
-## <a name="what-are-the-limitations-of-chat-with-copilot-how-can-users-minimize-the-impact-of-the-chat-with-copilot-limitations-when-using-the-system"></a>Mitä rajoituksia keskustelussa Copilotin avulla on? Miten käyttäjät voivat minimoida keskustelua Copilotin avulla koskevat rajoitukset, kun he käyttävät järjestelmää?
+## Mitä rajoituksia keskustelussa Copilotin avulla on? Miten käyttäjät voivat minimoida keskustelua Copilotin avulla koskevat rajoitukset, kun he käyttävät järjestelmää?
 
 - Tekoälyn yleiset rajoitukset
 
@@ -88,17 +88,17 @@ Käyttäjillä on mahdollisuus antaa palautetta jokaisesta Copilotin vastauksest
 
 <!--## What operational factors and settings allow for effective and responsible use of the feature?-->
 
-## <a name="what-data-does-chat-with-copilot-collect-and-how-is-it-used"></a>Mitä tietoja keskustelussa Copilotin avulla kerätään ja miten niitä käytetään?
+## Mitä tietoja keskustelussa Copilotin avulla kerätään ja miten niitä käytetään?
 
 Microsoft ei käytä yrityksen tietoja, mukaan lukien Copilotiin lähettyä tekstiä, muiden käyttöön tarkoitettujen perustekoälymallien kouluttamiseen. Yrityksen järjestelmänvalvojat hallitsevat täysin näitä Azure-tilaukseen kuuluvia tietoja. Koska järjestelmänvalvojilla tai muilla yrityksen työntekijöillä voi olla näiden tietojen käyttöoikeus työnantajan määrittämällä tavalla, on suositeltavaa, ettei arkaluonteisia tietoja, kuten salasanoja tai muita salaisia tietoja, syötetä.
 
-## <a name="what-does-chat-with-copilot-offer-for-security"></a>Miten keskustelu Copilotin avulla on suojattu?
+## Miten keskustelu Copilotin avulla on suojattu?
 
 Keskustelu on suunniteltu turvalliseksi, ja sitä käytetään käyttäjän käyttäjätietojen perusteella, joten se perii kaikki käyttöoikeudet ja muut rajoitukset. Se ei myöskään koskaan toimi [!INCLUDE[prod_short](includes/prod_short.md)]in ympäristösuojauksen ulkopuolella. Niinpä Copilot voi käyttää vain tietoja, joiden käyttöoikeus käyttäjällä on.
 
 Jos käyttäjällä on SUPER-käyttöoikeus, keskustelun on helppo paikantaa suojaamattomat tiedot, joiden käyttäminen on yleensä hankalaa muille käyttäjille. Jos organisaatiot eivät käytä [!INCLUDE[prod_short](includes/prod_short.md)]in suojausmallia rajoittamaan käyttäjän tai käyttäjäroolin käytössä olevia taulukoita tai objekteja, keskustelun käyttö voi aiheuttaa niille enemmän riskejä. Tämän vuoksi suositellaan, että organisaatio joko toteuttaa [!INCLUDE[prod_short](includes/prod_short.md)]in suojausmallin tai poistaa keskustelun aktivoinnin.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Keskustelu Copilotin avulla (esiversio)](chat-with-copilot.md)
 

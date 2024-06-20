@@ -8,12 +8,13 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="design-details-table-structure"></a>Rakennetiedot: taulukkorakenne
+# Rakennetiedot: taulukkorakenne
 
 Dimensiotapahtumien tallennuksen ja kirjauksen ymmärtäminen edellyttää taulukkorakenteen ymmärtämistä.  
 
-## <a name="table-480-dimension-set-entry"></a>Taulukko 480, Dimensioyhdistelmän tapahtuma
+## Taulukko 480, Dimensioyhdistelmän tapahtuma  
 
 Tätä taulukkoa ei voi muuttaa. Kun tiedot on kirjoitettu taulukkoon, niitä ei voi poistaa eikä muokata.
 
@@ -26,7 +27,7 @@ Tätä taulukkoa ei voi muuttaa. Kun tiedot on kirjoitettu taulukkoon, niitä ei
 |5|**Dimension nimi**|Teksti 30|CalcField. Taulukon 348 haku.|  
 |6|**Dimensioarvon nimi**|Teksti 30|CalcField. Taulukon 349 haku.|  
 
-## <a name="table-481-dimension-set-tree-node"></a>Taulukko 481, Dimensioyhdistelmän puusolmu
+## Taulukko 481, Dimensioyhdistelmän puusolmu  
 Tätä taulukkoa ei voi muuttaa. Sitä käytetään hakuun dimensioyhdistelmässä. Jos dimensioyhdistelmää ei löydy, uusi yhdistelmä luodaan.  
 
 |Kentän nro|Kentän nimi|Tietotyyppi|Kommentti|  
@@ -36,7 +37,7 @@ Tätä taulukkoa ei voi muuttaa. Sitä käytetään hakuun dimensioyhdistelmäss
 |3|**Dimensioyhdistelmän tunnus**|Kokonaisluku|AutoIncrement. Käytetään taulukon 480 kentässä 1.|  
 |4|**Käytössä**|Totuusarvo|Epätosi, jos se ei ole käytössä.|  
 
-## <a name="table-482-reclas-dimension-set-buffer"></a>Taulukko 482 Uudelleenluokita dimensioyhdistelmän puskuri
+## Taulukko 482 Uudelleenluokita dimensioyhdistelmän puskuri  
 Taulukkoa käytetään, kun muutat dimensioarvon koodia esimerkiksi nimiketapahtumassa käyttämällä **Nimikkeen uudelleenluokituspäiväkirja** -sivua.  
 
 |Kentän nro|Kentän nimi|Tietotyyppi|Kommentti|  
@@ -50,14 +51,14 @@ Taulukkoa käytetään, kun muutat dimensioarvon koodia esimerkiksi nimiketapaht
 |7|**Dimensioarvon nimi**|Teksti 30|CalcField. Taulukon 349 haku.|  
 |8|**Uusi dimensioarvon nimi**|Teksti 30|CalcField. Taulukon 349 haku.|  
 
-## <a name="transaction-and-budget-tables"></a>Tapahtuma- ja budjettitaulukot
+## Tapahtuma- ja budjettitaulukot  
 Muiden taulukon dimensiokenttien lisäksi tämä kenttä on tärkeä:  
 
 |Kentän nro|Kentän nimi|Tietotyyppi|Kommentti|  
 |---------------|----------------|---------------|-------------|  
 |480|**Dimensioyhdistelmän tunnus**|Kokonaisluku|Viittaukset kenttään 1 taulukossa 480.|  
 
-### <a name="table-83-item-journal-line"></a>Taulukko 83, Nimikepäiväkirjan rivi
+### Taulukko 83, Nimikepäiväkirjan rivi  
 Muiden taulukon dimensiokenttien lisäksi nämä kentät ovat tärkeitä.  
 
 |Kentän nro|Kentän nimi|Tietotyyppi|Kommentti|  
@@ -65,14 +66,14 @@ Muiden taulukon dimensiokenttien lisäksi nämä kentät ovat tärkeitä.
 |480|**Dimensioyhdistelmän tunnus**|Kokonaisluku|Viittaukset kenttään 1 taulukossa 480.|  
 |481|**Uusi dimensioyhdistelmän tunnus**|Kokonaisluku|Viittaukset kenttään 1 taulukossa 480.|  
 
-### <a name="table-349-dimension-value"></a>Taulukko 349, Dimensioarvo
+### Taulukko 349, Dimensioarvo  
 Muiden taulukon dimensiokenttien lisäksi nämä kentät ovat tärkeitä.  
 
 |Kentän nro|Kentän nimi|Tietotyyppi|Kommentti|  
 |---------------|----------------|---------------|-------------|  
 |12|**Dimensioarvon tunnus**|Kokonaisluku|AutoIncrement. Käytetään viitteinä taulukossa 480 ja 481.|  
 
-### <a name="tables-that-contain-the-dimension-set-id-field"></a>Taulukot, jotka sisältävät Dimensionasetustunnus-kentän
+### Taulukot, jotka sisältävät Dimensionasetustunnus-kentän
  **Dimensioasetustunnus**-kenttä (480) on seuraavissa taulukoissa. Kirjattua tietoa sisältävien taulukoiden osalta kenttä tarjoaa vain ei muokattavissa olevan näkymän niistä dimensioista, joilla on Poraudu-merkintä. Niiden taulukoiden kohdalla, jota tallentavat työasiakirjoja, kenttä on muokattavissa. Puskuritaulukoiden, joita käytetään sisäisesti, ei tarvitse olla muokattavissa tai ei-muokattavissa.  
 
  Kenttä 480 ei ole muokattavissa seuraavissa taulukoissa.  
@@ -175,7 +176,7 @@ Kenttä 480 on seuraavissa puskuritaulukoissa.
 |5637|**KO - KP-kirjauspuskuri**|  
 |7136|**Nimikkeen budjettipuskuri**|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Dimensioyhdistelmätapahtumien yleiskuva](design-details-dimension-set-entries-overview.md)  
 [Rakennetiedot: Dimensioyhdistelmien etsiminen](design-details-searching-for-dimension-combinations.md)   

@@ -9,19 +9,20 @@ ms.search.form: '6216, 6219, 6220'
 ms.date: 05/07/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="record-sustainability-entries"></a>Kestävyystapahtumien tallentaminen
+# Kestävyystapahtumien tallentaminen
 
 Tällä hetkellä ainoa tapa kirjata kasvihuonekaasu (GHG) -päästöjä kestävyyskirjauksiin on käyttää kestävyyspäiväkirjoja.
 
-## <a name="sustainability-journals"></a>Vastuullisuuspäiväkirjat
+## Vastuullisuuspäiväkirjat
 
 Vastuullisuuspäiväkirjat on suunniteltu seuraamaan ja tallentamaan kestävyyteen liittyviä toimia käyttäen samaa käyttökokemusta kuin muissakin Business Centralin päiväkirjoissa. Käyttäjät, joilla on tarvittavat tiedot, voivat syöttää päästöjä päiväkirjaan manuaalisesti. Vaihtoehtoisesti, jos heiltä puuttuu nämä tiedot, he voivat käyttää sisäisiä kaavoja laskeakseen päästöjä tarkasti tiettyjen tunnettujen parametrien perusteella, jotka vastaavat eri tyyppisiä lähteitä ja tilejä.
 
 Päiväkirjaan lisäämäsi tiedot ovat väliaikaisia, ja niitä voi muuttaa niiden ollessa siinä päiväkirjassa. Kun kirjaat päiväkirjan, tiedot siirretään Kestävyyskirjanpitotapahtumiin yksittäisiin kestävyystileihin, missä niitä ei voi muuttaa. Voit kuitenkin kirjata peruuttavia tai korjaavia tapahtumia.
 
-### <a name="use-journal-templates-and-batches"></a>Päiväkirjan mallien ja erien käyttäminen
+### Päiväkirjan mallien ja erien käyttäminen
 
 Oletusarvoisesti on olemassa kaksi kestävyyspäiväkirjan mallia: vakiomalli ja toistuva malli.
 
@@ -30,13 +31,13 @@ Voit määrittää kullekin päiväkirjan mallille oman henkilökohtaisen päiv�
 > [!TIP]
 > Jos rivejä on useita, virheiden riskiä voi vähentää, kun jokaiselle päästötyypille on yksi päiväkirjan erä. Vaihtoehtoisesti voit käyttää yleistä erää kaikille päästötyypeille.
 
-### <a name="validate-sustainability-journals"></a>Arvioi kestävyyspäiväkirjat
+### Arvioi kestävyyspäiväkirjat
 
 **Kestävyyden asetuksissa** -sivulla voit ottaa käyttöön taustatarkistuksen, joka auttaa estämään lähetysviiveitä. Jos kestävyyspäiväkirjaa käsitellessäsi tapahtuu virheitä, validointi ilmoittaa sinulle ja estää sinua kirjaamasta päiväkirjaa.
 
 Kun oikeellisuustarkistus otetaan käyttöön, **päiväkirjan tarkistuksen** -tietoruudussa näkyvät tämän rivin ja koko erän seurantakohteet. Vahvistus tehdään silloin, kun lataat päiväkirjan erän ja kun valitset toisen päiväkirjarivin. Tietoruudun **Virheet yhteensä** -ruudussa näkyy [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman havaitsemien ongelmien kokonaismäärä. Voit avata yleiskuvauksen ongelmista valitsemalla ruudun.
 
-### <a name="work-with-sustainability-journals"></a>Kestävyystapahtumien päiväkirjojen käyttäminen
+### Kestävyystapahtumien päiväkirjojen käyttäminen
 
 Voit aloittaa kestävyyspäiväkirjojen käytön noudattamalla seuraavia vaiheita:
 
@@ -57,7 +58,7 @@ Voit aloittaa kestävyyspäiväkirjojen käytön noudattamalla seuraavia vaiheit
 
 Jos kaava perustuu Kestävyystilin luokka -taulukon **Laske pääkirjanpidosta** -vaihtoehtoon, sinun täytyy käyttää **Kerää summa KP-tapahtumista** -toimintoa ennen päiväkirjan kirjausta, kun haluat laskea päästöt tämän tietolähteen perusteella. Lisäksi jos olet tehnyt joitain muutoksia päästökertoimiin täytettyäsi päiväkirjan rivit, sinun täytyy valita **Laske uudelleen** -toiminto saadaksesi oikean summan päiväkirjaan.
 
-### <a name="recurring-journals"></a>Toistuvat kirjaukset
+### Toistuvat kirjaukset
 
 Kestävyyspäiväkirja on yleinen päiväkirja, jossa on tiettyjä kenttiä sellaisten tapahtumien hallintaa varten, jotka kirjataan usein vähäisin muutoksin tai ilman muutoksia. Esimerkkeihin kuuluvat kestävyystransaktiot, kuten sähkö-, lämpö- tai muut vastaavat transaktiot. Voit käyttää toistuvia päiväkirjoja kirjataksesi kiinteitä ja muuttuvia summia.
 
@@ -69,7 +70,7 @@ Kun käytät toistuvaa päiväkirjaa, säännöllisesti kirjattavat merkinnät t
 
 **Päättymispäivämäärä**-kenttä määrittää päivämäärän, jolloin rivi kirjataan viimeisen kerran. Riviä ei kirjata tämän päivämäärän jälkeen. **Päättymispäivämäärä**-kentän käyttämisessä on se etu, että rivi ei poistu päiväkirjasta heti. Voit syöttää myöhemmän päivämäärän, jotta voit käyttää riviä tulevaisuudessa. Jos kenttä on tyhjä, rivi kirjataan joka kerta, kunnes se poistetaan päiväkirjasta.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Taloushallinto](finance.md)  
 [Vastuullisuuden hallinnan yleiskatsaus](finance-manage-sustainability.md)  

@@ -9,9 +9,10 @@ ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="design-details-change-the-costing-method-for-items"></a>Rakennetiedot: nimikkeiden arvostusmenetelmän muuttaminen
+# Rakennetiedot: nimikkeiden arvostusmenetelmän muuttaminen
 
 Nimikkeen arvostusmenetelmää ei voi muuttaa [!INCLUDE[prod_short](includes/prod_short.md)]issa sen jälkeen, kun se on sisällytetty tapahtumaan. Niinpä sitä ei voi tehdä esimerkiksi nimikkeen ostamisen tai myymisen jälkeen. Jos nimikkeille on määritetty väärä arvostusmenetelmä, ongelmaa ei ehkä huomata ennen talousraportointia.
 
@@ -23,7 +24,7 @@ Tässä aiheessa käsitellään tämän tilanteen ratkaisemista. Suosituksena on
 > [!TIP]
 > Prosessiin kannattaa perehtyä käyttämällä muuntoprosessissa luksi yhtä nimikettä tai pientä nimikejoukkoa.
 
-## <a name="about-costing-methods"></a>Tietoja arvostusmenetelmistä
+## Tietoja arvostusmenetelmistä
 
 Arvostusmenetelmät ohjaavat tavaroiden ostamiseen, varastoon vastaanottamiseen ja myyntiin liittyvää kustannuslaskentaa. Arvostusmenetelmät vaikuttavat sellaisten myytyjen tuotteiden kustannuksiin kirjattujen summien ajoitukseen, jotka vaikuttavat bruttovoittoon. Ja juuri tämä virta laskee myytyjen tuotteiden kustannukset. Bruttotuotto määritetään myytyjen tuotteiden kustannusten (MTKUST) ja tuoton perusteella seuraavasti:
 
@@ -39,7 +40,7 @@ Kun varastonimikkeitä määritetään, niille on määritettävä arvostusmenet
 
 Katso lisätietoja kohdasta [Rakennetiedot: arvostusmenetelmät](design-details-costing-methods.md).
 
-## <a name="use-assembly-orders-to-change-costing-method-assignments"></a>Arvostusmenetelmämääritysten muuttaminen kokoonpanotilauksia käyttämällä
+## Arvostusmenetelmämääritysten muuttaminen kokoonpanotilauksia käyttämällä
 
 Tässä osassa käsitellään seuraavia nimikkeelle määritetyn arvostusmenetelmän muutoksen vaiheet:
 
@@ -52,21 +53,21 @@ Tässä osassa käsitellään seuraavia nimikkeelle määritetyn arvostusmenetel
 7. Kysyntään kohdistettujen varastomäärien käsitteleminen.
 8. Alkuperäisen nimikkeen käytön estäminen.  
 
-### <a name="define-a-default-costing-method"></a>Arvostuksen oletusmenetelmän määrittäminen
+### Arvostuksen oletusmenetelmän määrittäminen
 
 Virheet voidaan estää jatkossa määrittämällä uusille nimikkeille oletusarvoisen arvostusmenetelmän. Aina kun joku luo uuden nimikkeen, [!INCLUDE[prod_short](includes/prod_short.md)] ehdottaa arvostuksen oletusmenetelmää. Oletusmenetelmä määritetään **Varastonhallinnan asetukset** -sivun **Arvostuksen oletusmenetelmä** -kentässä. 
 
-### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a>Niiden nimikkeiden määrittäminen, joiden kustannusmenetelmä muutetaan ja nimikkeiden uudelleenumerointi
+### Niiden nimikkeiden määrittäminen, joiden kustannusmenetelmä muutetaan ja nimikkeiden uudelleenumerointi
 
 Uusille nimikkeille halutaan ehkä antaa sama numero kuin oli nimikkeillä, jotka ne korvaavat. Sitä varten on muutettava aiemmin luotujen nimikkeiden numerot. Jos aiemman luodun nimikkeen numero on esimerkiksi P1000, sen voi korvat numerolla X-P1000. Tämä manuaalinen muutos on tehtävä jokaiselle nimikkeelle.
 
-### <a name="create-new-items-with-the-old-numbering-scheme-and-copy-the-master-data-in-a-batch"></a>Uusien nimikkeiden luonti vanhalla numerointimallilla ja päätietojen kopiointi eränä
+### Uusien nimikkeiden luonti vanhalla numerointimallilla ja päätietojen kopiointi eränä
 
 Nykyistä numeromallia käyttävien uusien nimikkeiden luonti on mahdollista. **Arvostusmenetelmä**-kenttää lukuun ottamatta uusissa nimikkeissä pitäisi olla samat päätiedot kuin nykyisissä nimikkeissä. Nimikkeen päätiedot ja muiden ominaisuuksien liittyvät tiedot siirretään valitsemalla **Kopioi nimike** -toiminto **Nimikkeen kortti** -sivulla. Lisätietoja on kohdassa [Uusien nimikkeiden luominen kopioimalla aiemmin luotuja nimikkeitä](inventory-how-copy-items.md).
 
 Uusien nimikkeiden luonnin ja päätietojen siirron jälkeen määritetään oikea arvostusmenetelmä.
 
-### <a name="manually-copy-related-master-data-from-the-original-item-to-the-new-item"></a>Liittyvien päätietojen manuaalinen kopiointi alkuperäisestä nimikkeestä uuteen nimikkeeseen
+### Liittyvien päätietojen manuaalinen kopiointi alkuperäisestä nimikkeestä uuteen nimikkeeseen
 
 Uusien nimikkeiden täysi käytettävyys edellyttää, että joitakin päätietoja kopioidaan manuaalisesti muilta alueilta seuraavassa taulukossa kuvatulla tavalla.
 
@@ -88,7 +89,7 @@ Uusien nimikkeiden täysi käytettävyys edellyttää, että joitakin päätieto
 > [!IMPORTANT]
 > Jos uutena arvostusmenetelmänä on Vakio, arvo annetaan **Nimikkeen kortti** -sivun **Vakiokustannus**-kentässä. Kustannusjakauma voidaan sitten määrittää **Vakiokustannustyökirja**-sivulla. Lisätietoja on kohdassa [Vakiokustannusten päivittäminen](finance-how-to-update-standard-costs.md).
 
-### <a name="determine-the-inventory-quantity-to-convert-from-the-original-item-to-the-new-item"></a>Alkuperäisestä nimikkeestä uuteen nimikkeeseen muunnettavan varastomäärän määrittäminen
+### Alkuperäisestä nimikkeestä uuteen nimikkeeseen muunnettavan varastomäärän määrittäminen
 
 > [!NOTE]
 > Tässä vaiheessa ei oteta huomioon määriä, jotka sisältyvät toimittamattomiin tilauksiin. Lisätietoja on kohdassa [Kysyntään kohdistettujen varastomäärien käsitteleminen](design-details-changing-costing-methods.md#handle-inventory-quantities-that-are-allocated-to-demand). 
@@ -100,13 +101,13 @@ Varaston määrien luettelo luodaan käyttämällä inventointipäiväkirjaa. Fy
 
 Kumpikin päiväkirja voi laskea nimikkeen varastomäärän, mukaan lukien sijainnin, variantin, varastopaikan ja varastosijainnin. Lisätietoja on kohdassa [Varaston laskeminen, muuttaminen ja uudelleenluokitus päiväkirjojen avulla](inventory-how-count-adjust-reclassify.md).
 
-### <a name="transfer-the-inventory-to-the-new-item"></a>Varaston siirtäminen uuteen nimikkeeseen
+### Varaston siirtäminen uuteen nimikkeeseen
 
 Kustannus ja varastomäärä voidaan siirtää alkuperäisestä nimikkeestä uuteen nimikkeeseen luomalla ja kirjaamalla kokoonpanotilauksia. Kokoonpanotilaukset voivat muuntaa nimikkeen toiseksi nimikkeeksi kustannukset säilyttäen. Näin voidaan varmistaa, että varastotilin ja myytyjen tuotteiden kustannusten nettosummat eivät muutu (paitsi silloin kun uusi arvostusmenetelmä on Vakio, jolloin tapauksen kustannukset voidaan jakaa vaihtelutileille). Lisätietoja on kohdassa [Kokoonpanon hallinta](assembly-assemble-items.md).
 
 Kokoonpanotilauksia luotaessa käytetään Kun luot kokoonpano tilauksia, käytetään inventointipäiväkirjan tai f.var. inventointipvk:n tietoja. Seuraavassa taulukossa käsitellään raporttien kokoonpanotilauksen otsikkoon ja riveille annettavia tietoja.
 
-#### <a name="header"></a>Otsikko
+#### Otsikko
 
 |Kenttä  |Annettava arvo  |
 |---------|---------|
@@ -117,7 +118,7 @@ Kokoonpanotilauksia luotaessa käytetään Kun luot kokoonpano tilauksia, käyte
 |Mittayksikön koodi |Sama kuin inventointipäiväkirjassa. |
 |Varastopaikan koodi |Sama kuin inventointipäiväkirjassa. |
 
-#### <a name="lines"></a>Rivit
+#### Rivit
 
 |Kenttä  |Annettava arvo  |
 |---------|---------|
@@ -134,7 +135,7 @@ Kokoonpanotilauksia luotaessa käytetään Kun luot kokoonpano tilauksia, käyte
 > [!NOTE]
 > Fyysisen varaston sijaintia varten on ehkä luotava poimintoja, ennen kuin kokoonpanotilaus voidaan kirjata. Siihen voi perehtyä tutustumalla poiminnan määritykseen **Sijaintikortti**-sivulla. Lisätietoja on kohdassa [Nimikkeiden ja sijaintien määrittäminen ohjattua hyllytystä ja poimintaa varten](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md).
 
-### <a name="handle-inventory-quantities-that-are-allocated-to-demand"></a>Kysyntään kohdistettujen varastomäärien käsitteleminen
+### Kysyntään kohdistettujen varastomäärien käsitteleminen
 
 Alkuperäisen nimikkeen varastomääräksi tulisi parhaassa tapauksessa nolla sen jälkeen, kun varastomäärät on siirretty. Järjestelmässä voi kuitenkin olla avoimia tilauksia, työkirjoja ja päiväkirjoja (katso seuraava taulukko), joissa tarvitaan alkuperäistä nimikettä. Myös varauksilla ja nimikeseurannalla voi olla tietty määrä varattuna.
 
@@ -157,11 +158,11 @@ Seuraavassa taulukossa käsitellään toiminnallisia alueita, joilla voi olla av
 |Palvelu |Huoltoasiakirjat ja huoltosopimukset |
 |Tuotanto |Tuotantotilaukset (suunniteltu, sitovasti suunniteltu ja julkaistu) |
 
-### <a name="block-the-original-item-from-further-use"></a>Alkuperäisen nimikkeen käytön estäminen
+### Alkuperäisen nimikkeen käytön estäminen
 
 Kun alkuperäisen nimikkeen varasto on nolla, nimikkeen käyttö uusissa tapauksissa voidaan estää. Nimike estetään ottamalla **Nimikkeen kortti** -sivulla **Estetty**-valitsin käyttöön. Lisätietoja on kohdassa [Nimikkeiden myynnin tai oston estäminen](inventory-how-block-items.md).
 
-## <a name="summary"></a>Yhteenveto
+## Yhteenveto
 
 Tapahtumissa käytettyjen nimikkeiden arvostusmenetelmän muuttaminen on prosessi, eikä se ole [!INCLUDE[prod_short](includes/prod_short.md)]in vakiotoiminto. Prosessin mallina voi käyttää tässä aiheessa kuvattuja vaiheita.
 
@@ -172,7 +173,7 @@ Suositukset:
 1. Prosessin toteutettavuuden arviointi suorittamalla koko prosessin toimet yhdessä tai muutamassa mallinimikkeessä.
 2. Kokeneen kumppanin hankkiminen auttamaan prosessin aikana.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)  
 [Yleiskuvaus](design-details-inventory-costing.md)

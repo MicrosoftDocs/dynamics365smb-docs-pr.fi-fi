@@ -8,22 +8,23 @@ ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940
 ms.date: 06/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="assembly-reports-and-analytics-in-business-central"></a>Business Centralin kokoonpanoraportit ja analytiikka
+# Business Centralin kokoonpanoraportit ja analytiikka
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -kokoonpanoraporttien avulla tuotannon ja liiketoiminnan ammattilaiset voivat saada merkityksellistä tietoa ja analytiikkaa nykyisistä ja aiemmista kokoonpanotoiminnoista.  
 
-## <a name="reports"></a>Raportit
+## Raportit
 
 [!INCLUDE [assembly_reports](includes/assembly-reports-include.md)]
 
-## <a name="tasks"></a>Tehtävät
+## Tehtävät
 
 Seuraavissa artikkeleissa kuvataan joitakin yrityksen tilan analysointiin liittyviä keskeisiä tehtäviä:
 
 * [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Kokoonpanon hallinta](assembly-assemble-items.md)  
 [Kokoonpanon tuoterakenteiden käyttäminen](assembly-how-work-assembly-boms.md)  

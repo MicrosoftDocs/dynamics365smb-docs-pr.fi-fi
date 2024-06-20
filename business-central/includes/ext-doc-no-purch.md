@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Ostoasiakirjoissa ja päiväkirjoissa voit määrittää asiakirjanumeron, joka viittaa toimittajan numerointijärjestelmään. Tämän kentän avulla voit tallentaa numeron, jonka toimittaja on määrittänyt tilaukselle, laskulle tai hyvityslaskulle. Tätä numeroa voi käyttää myöhemmin, jos sinun tarvitsee etsiä kirjattua merkintää tätä numeroa käyttämällä.

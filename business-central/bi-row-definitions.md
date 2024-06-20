@@ -3,7 +3,7 @@ title: Rivimääritykset Financial Reportingissa
 description: 'Kuvaa, miten rivimääritykset talousraportoinnissa toimivat.'
 author: kennieNP
 ms.author: kepontop
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 03/27/2024
 ms.custom: bap-template
@@ -12,11 +12,11 @@ ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="row-definitions-in-financial-reporting"></a>Rivimääritykset Financial Reportingissa
+# Rivimääritykset Financial Reportingissa
 
 Talousraporttien rivimääritykset mahdollistavat laskelmat, joita ei voi tehdä suoraan tilikartassa. Voit esimerkiksi luoda tiliryhmien välisummia ja sisällyttää ne muihin summiin. Lisäksi voidaan laskea välivaiheet, joita ei näytetä lopullisessa raportissa.
 
-## <a name="create-or-edit-a-row-definition"></a>Rivimäärityksen luominen tai muokkaaminen
+## Rivimäärityksen luominen tai muokkaaminen
 
 Luo tai muokkaa rivimääritys seuraavien ohjeiden mukaisesti:
 
@@ -29,7 +29,7 @@ Luo tai muokkaa rivimääritys seuraavien ohjeiden mukaisesti:
 > [!NOTE]
 > Kullekin rivimäärityksen riville määritetyt sarakkeet ilmaisevat **Talousraportti**-sivulla sarakkeita sarakkeesta 3 alkaen. Kaksi ensimmäistä saraketta, **Rivikoodi** ja **Kuvaus**, ovat kiinteitä sarakkeita.  
 
-## <a name="built-in-row-definitions"></a>Valmiit rivimääritykset
+## Valmiit rivimääritykset
 
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää esimerkkirivimäärityksiä, joiden avulla voit nopeasti aloittaa tarpeitasi vastaavien talousraporttien määrittämisen.
 
@@ -45,7 +45,7 @@ Luo tai muokkaa rivimääritys seuraavien ohjeiden mukaisesti:
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)]in esimerkkitalousraportit eivät ole sellaisenaan käyttövalmiita. KP-tilien, dimensioiden, KP-tililuokkien ja budjettien määrittämistapa määrittää, miten esimerkkirivi- ja sarakemäärityksiä sekä niitä käyttäviä talousraportteja on muutettava omia määrityksiä vastaaviksi.
 
-## <a name="use-gl-account-categories-to-change-the-layout-of-your-financial-statements"></a>Tilinpäätösten asettelun muuttaminen KP-tililuokkien avulla
+## Tilinpäätösten asettelun muuttaminen KP-tililuokkien avulla
 
 KP-tililuokkien avulla voit muuttaa rahoituslaskelmien asettelua. Esimerkki: Kun tililuokat on määritetty **KP-tililuokat**-sivulla, **Luo talousraportit** -toiminto voidaan valita ja talousraportit, joihin perustalousraportit pohjautuvat, voidaan päivittää. Kun jokin näistä raporteista, kuten **Tase**-raportti suoritetaan seuraavan kerran, uudet kokonaissummat ja alatapahtumat lisätään.
 
@@ -56,7 +56,7 @@ KP-tililuokkien etuna rivimäärityksissä pelkkiä käyttäviin KP-tileihin nä
 >
 > Sinun tulisi luoda ja jäsentää omat alemman tason KP-tililuokat alusta alkaen hierarkkisesti sen sijaan, että yrittäisit järjestää aiemmin luotuja. Voit esimerkiksi jäsentää **Velat**-solmun uudelleen niin, että siinä on uusi **Oma pääoma** -solmu, ja sen perässä ovat **Lyhytaikaiset velat**- ja **Pitkäaikaiset velat** -solmut. Lisätietoja on kohdassa [Pääkirjanpitotilien yhdistäminen tililuokkiin](finance-general-ledger.md#account-categories).
 
-## <a name="best-practices-for-working-with-row-definitions"></a>Rivimääritysten käytön parhaat käytännöt
+## Rivimääritysten käytön parhaat käytännöt
 
 Rivimäärityksiä ei versioida. Kun muutat rivimääritystä, vanha versio korvataan, kun muutos tallentuu tietokantaan. Seuraavassa luettelossa on joitakin parhaita käytäntöjä rivimääritysten parissa työskentelemiseen:
 
@@ -64,7 +64,7 @@ Rivimäärityksiä ei versioida. Kun muutat rivimääritystä, vanha versio korv
 - Ennen kuin muutat rivimääritystä, harkitse kopion ottamista varmuuskopioksi siltä varalta, että muutos ei toimi odotetulla tavalla. Voit joko kopioida määrityksen (antaa sille hyvän nimen) tai viedä sen. Lisätietoja on kohdassa [siirry rivimääritysten tuomiseen tai viemiseen](#import-or-export-financial-reporting-row-definitions).
 - Jos tarvitset uuden kopion määrityksestä, jonka [!INCLUDE[prod_short](includes/prod_short.md)] tarjoaa, helppo tapa saada sellainen, on luoda uusi yritys, joka sisältää vain asetustietoja. Vie sitten määritys ja tuo se yritykseen, jossa määrityksen päivitystä tarvitaan.
 
-## <a name="import-or-export-financial-reporting-row-definitions"></a>Talousraporttien rivimääritysten tuominen tai vieminen
+## Talousraporttien rivimääritysten tuominen tai vieminen
 
 Voit tuoda ja viedä taloudellisia rivimäärityksiä RapidStart-konfigurointipaketteina. Esimerkiksi määrityspaketit ovat hyödyllisiä silloin, kun jaat tietoja muiden yritysten kanssa. Paketti luodaan .rapidstart-tiedostosssa, joka pakkaa paketin sisällön.
 
@@ -76,7 +76,7 @@ Talousraportin rivimääritykset tuodaan tai viedään seuraavasti:
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 4.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Rivimääritykset** ja valitse aiheeseen liittyvä linkki.
 1. Valitse ensin rivimääritys, sitten **Tuo rivimääritys**- tai **Vie rivimääritys** -toiminto sen mukaan, mitä halutaan tehdä.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Sarakemääritykset taloushallinnon raportoinnissa](bi-column-definitions.md)  
 [Taloushallinnon raportoinnin valmisteleminen](bi-how-work-account-schedule.md)  

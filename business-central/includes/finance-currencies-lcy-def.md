@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Jos yrityksesi toimii useammassa kuin yhdessä maassa tai alueella, on todennäköisesti tärkeää, että voit harjoittaa liiketoimintaa useammassa kuin yhdessä valuutassa. Paikallinen valuutta (PVA) määritetään **Pääkirjanpidon asetukset** -sivulla. Myöhemmin paikallinen valuutta näkyy tyhjänä valuuttana asiakirjoissa ja tapahtumissa. Kun **Valuutta**-kenttä on tyhjä, valuutta on PVA.
 

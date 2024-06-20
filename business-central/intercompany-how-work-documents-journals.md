@@ -3,7 +3,7 @@ title: Konsernin asiakirjojen ja päiväkirjojen kirjaaminen
 description: 'Tämä aihe selitää, miten voit kirjata tapahtumat konsernikumppanien kanssa konsernin asiakirjojen tai päiväkirjojen avulla.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 02/06/2023
 ms.custom: bap-template
@@ -11,7 +11,7 @@ ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary, bank-to-ba
 ms.search.form: '600, 610'
 ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-intercompany-documents-and-journals"></a>Konserniasiakirjojen ja -päiväkirjojen käyttäminen
+# Konserniasiakirjojen ja -päiväkirjojen käyttäminen
 
 Voit kirjata konsernin asiakirjojen tai päiväkirjojen avulla tapahtumia yhdessä konsernikumppanien kanssa. Voit kirjata tapahtumia KP-tileille, ja jos olet määrittänyt konsernin pankkitilit, voit myös kirjata pankkien välisiä tilisiirtoja. Lisätietoja konsernin pankkitiliasetuksista on ohjeaiheessa [Konsernikumppanien käyttöön tarkoitettujen pankkitilitapahtumien määrittäminen](intercompany-how-setup.md#specify-the-bank-accounts-to-use-for-intercompany-partners).  
 
@@ -21,7 +21,7 @@ Myynti- ja ostoasiakirjojen osalta asiakkaan tai toimittajan konsernikumppanin k
 
 Sama pätee konsernin yleisen päiväkirjan riveihin. Sinun ei tarvitse määrittää tilejä, valitse vain kumppaniyritys. Vastaavat konsernin yleisen päiväkirjan rivit luodaan sitten kumppaniyrityksessä.
 
-## <a name="fill-in-and-send-an-intercompany-sales-order"></a>Konsernin myyntitilauksen täyttäminen ja lähettäminen
+## Konsernin myyntitilauksen täyttäminen ja lähettäminen
 
 Voit lähettää myynti- ja ostotilauksia sekä palauttaa tilauksia ennen kirjaamista. Laskut ja hyvityslaskut voi lähettää vasta, kun ne on kirjattu.
 
@@ -36,7 +36,7 @@ Seuraavissa ohjeissa neuvotaan, kuinka voit täyttää ja lähettää konsernin 
 > [!NOTE]
 > Jos teet vaiheen 5, myyntitilaus siirretään konsernin Lähtevät-kansioon, josta voit lähettää sen myöhemmin. Jos haluat lisätietoja konsernin Saapuneet-kansiosta ja Lähtevät-kansiosta, siirry [Konsernin Saapuneet- ja Lähtevät-kansion hallinta](intercompany-how-manage-intercompany-inbox.md) -kohtaan.
 
-## <a name="fill-in-and-post-an-intercompany-journal"></a>Voit täyttää ja kirjata konsernin päiväkirjan seuraavasti
+## Voit täyttää ja kirjata konsernin päiväkirjan seuraavasti
 
 Kun kirjaat konsernin yleisen päiväkirjan rivin omassa yrityksessä, vastaava päiväkirjarivi luodaan konsernin Lähtevät-kansioon kumppanille lähettämistä varten. Alkaen vuoden 2022 julkaisuaallosta 1 voit myös määrittää yrityksen konsernikumppaneilta saatujen konsernin sisäisten tapahtumien automaattista luontia varten, jotka on kirjattu konsernin yleiseen päiväkirjaan. Kumppaniyritys voi sitten kirjata vastaavan tapahtuman omassa yrityksessään ilman, että tiedot on annettava uudelleen.
 
@@ -51,7 +51,7 @@ Kun kirjaat konsernin yleisen päiväkirjan rivin omassa yrityksessä, vastaava 
 
 Tapahtumat kirjataan omaan yritykseen ja päiväkirjaan. Lisäksi vastaavat tapahtumat luodaan konsernin Lähtevät-kansioon, josta voit lähettää ne kumppaniyritykselle.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Konsernitapahtumien hallinta](intercompany-manage.md)  
 [Rahoitus](finance.md)  

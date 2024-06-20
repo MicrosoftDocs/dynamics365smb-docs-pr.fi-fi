@@ -9,8 +9,9 @@ ms.search.form: '460, 9307'
 ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="purchasing"></a>Ostaminen
+# Ostaminen
 
 Voit luoda ostolaskun tai -tilauksen ostojen kustannusten tallentamiseksi ja ostoreskontran seuraamiseksi. Jos haluat hallita varastoa, myös ostolaskuja käytetään varastotasojen dynaamiseen päivittämiseen, jotta voit minimoida varaston kustannukset ja tarjota parempaa asiakaspalvelua. Ostokustannukset, sisältäen palvelukulut ja varastoarvot, jotka aiheutuvat tiliöinnin ostolaskuista, vaikuttavat voittolukuihin ja muihin talouden KPI:hin roolikeskuksessasi.
 
@@ -24,7 +25,7 @@ Voit ottaa hyväksymistyönkulun käyttöön kaikissa ostoprosesseissa esimerkik
 
 Seuraavassa osissa kuvataan tehtäväsarja ja linkit tehtäviä kuvaaviin artikkeleihin.
 
-## <a name="get-started-with-purchase-capabilities"></a>Osto-ominaisuuksien käytön aloittaminen
+## Osto-ominaisuuksien käytön aloittaminen
 
 Ennen kuin ostat tavaroita, määritä, miten haluat hallita yrityksesi ostoprosesseja.
 
@@ -33,7 +34,7 @@ Ennen kuin ostat tavaroita, määritä, miten haluat hallita yrityksesi ostopros
 | Määritä säännöt ja arvot, jotka määrittävät yrityksen ostokäytännöt. | [Ostojen määrittäminen](purchasing-setup-purchasing.md) |
 | Rekisteröi jokainen toimittaja, jolta ostat toimittajakortin kanssa. | [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md) |
 
-## <a name="purchase-analytics"></a>Ostoanalyysit
+## Ostoanalyysit
 
 Tässä osassa kuvataan analyysityökaluja, joita voit käyttää, kun haluat saada ostoprosesseja.
 
@@ -43,7 +44,7 @@ Tässä osassa kuvataan analyysityökaluja, joita voit käyttää, kun haluat sa
 | Tee ostotietojen ad-hoc-analyysi suoraan luettelosivuilla ja kyselyissä. | [Ostotietojen ad-hoc-analyysi](ad-hoc-analysis-purchasing.md) |
 | Tutki valmiita ostoraportteja. | [Valmiit ostoraportit](purchase-reports.md) |
 
-## <a name="quote-to-order-to-purchase-invoice"></a>Tarjouksesta tilaukseen ja ostolaskuun
+## Tarjouksesta tilaukseen ja ostolaskuun
 
 Seuraavassa taulukossa kuvataan, miten yksinkertaisia ostoprosesseja käytetään.
 
@@ -64,7 +65,7 @@ Jos tarvitset monimutkaisempia ostoprosesseja, seuraavassa taulukossa on luettel
 |Voit hallita toimittajan suurta määrää koskevaa ostositoumustasi, joka toimitetaan useassa erässä tietyn ajan kuluessa.|[Puiteostotilaukset käyttäminen](sales-how-to-create-blanket-sales-orders.md)|
 
 
-## <a name="canceled-orders-refunds-and-returns"></a>Peruutetut tilaukset, hyvitykset ja palautukset
+## Peruutetut tilaukset, hyvitykset ja palautukset
 
 Seuraavassa taulukossa kuvataan, miten ostojen peruutettuja tilauksia, hyvityksiä ja palautuksia käsitellään.
 
@@ -74,7 +75,7 @@ Seuraavassa taulukossa kuvataan, miten ostojen peruutettuja tilauksia, hyvityksi
 |Voit muuntaa esimerkiksi toimittajien sähköiset laskut ostolaskuiksi Business Centralissa.|[Sähköisten asiakirjojen vastaanottaminen ja muuntaminen](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 
 
-## <a name="other-processes-in-sales"></a>Muut myyntiprosessit
+## Muut myyntiprosessit
 
 Seuraavassa taulukossa kuvataan, miten muita ostoprosesseja käytetään.
 
@@ -83,11 +84,11 @@ Seuraavassa taulukossa kuvataan, miten muita ostoprosesseja käytetään.
 |Ratkaise ristiriita, kun samalla toimittajalla on ainakin tietuetta.|[Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md)|
 
 
-## <a name="external-document-numbers"></a>Ulkoisen tiedoston numerot
+## Ulkoisen tiedoston numerot
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Ostojen määrittäminen](purchasing-setup-purchasing.md)  
 [Uusien toimittajien rekisteröiminen](purchasing-how-register-new-vendors.md)  

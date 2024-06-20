@@ -11,7 +11,7 @@ ms.date: 08/03/2022
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="assemble-to-project"></a>Kokoonpano projektiin
+# Kokoonpano projektiin
 
 Kokoonpano projektiin auttaa parantaa varastonhallintaa kokoamalla tilausta varten vasta tarvittaessa.
 
@@ -19,7 +19,7 @@ Kun projektin suunnittelurivillä valitaan kokoonpano tilausta varten -nimike, [
 
 Kokoonpanotilaukset varataan projekteille ja [!INCLUDE [prod_short](includes/prod_short.md)] synkronoi nimikeseurannan projektin suunnittelurivien ja kokoonpanotilauksen välillä.
 
-## <a name="integrate-with-warehouse-management"></a>Varastonhallinnan integrointi
+## Varastonhallinnan integrointi
 
 Kokoonpano projektiin integroituu varastonhallinnan ominaisuuksiin, mikä helpottaa kokoonpanoa ja toimitusta. Prosessi auttaa myös varmistamaan, että työnkulku projektin kokoonpanosta toimitukseen tapahtuu sujuvasti sisäisissä varastoprosesseissa. Lisätietoja projektien sisäisistä varastotyönkuluista on kohdassa [Tuotanto-, kokoonpano- ja projektityönkulut](design-details-internal-warehouse-flows.md#flows-to-and-from-assembly-in-a-basic-warehouse-configuration).
 
@@ -31,7 +31,7 @@ Seuraavassa taulukossa käsitellään varastomäärityksiä, joita kokoonpano ti
 |**Varaston poiminta**|Täyden tai osittaisen käytön kirjaaminen varaston poiminnan avulla. Kokoonpanotilauksen komponenttien tuotos ja kulutus kirjataan automaattisesti.          |
 |**F.varastoinnin poiminta**|Komponenttien fyysisen varaston poimintojen luominen ja rekisteröiminen sekä käytön kirjaaminen projektipäiväkirjaan. [!INCLUDE [prod_short](includes/prod_short.md)] tarkistaa, poimittiinko kulutetut kokoonpanon komponentit. Kokoonpanotilauksen komponenttien tuotos ja kulutus kirjataan automaattisesti.         |
 
-## <a name="known-limitations"></a>Tunnetut rajoitukset
+## Tunnetut rajoitukset
 
 Tässä osassa käsitellään tunnettuja kokoonpano projektiin -rajoituksia.
 
@@ -42,7 +42,7 @@ Tässä osassa käsitellään tunnettuja kokoonpano projektiin -rajoituksia.
 * **Kokoonpantava määrä tilausta varten** -kenttään ei voi syöttää negatiivista arvoa.
 * Kokoonpanoa ei voi kumota.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Projektien hallinta](projects-manage-projects.md)  
 [Kokoonpanon hallinta](assembly-assemble-items.md)  

@@ -8,14 +8,15 @@ ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, eco
 ms.date: 06/14/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="incoming-documents"></a>Saapuvat asiakirjat
+# Saapuvat asiakirjat
 
 Ulkoinen liiketoiminta-asiakirja saattaa voi tulla yritykseesi sähköpostin liitteenä tai paperiversiona, jonka voit skannata tiedostoon. Tämä skenaario on tyypillinen ostoille, joissa saapuvat asiakirjatiedostot edustavat kulujen maksukuitteja tai pieniä ostoja.
 
 **Saapuvat asiakirjat** -sivulla voit käyttää erilaisia toimintoja, joilla voit tarkistaa kulutositteita, hallita OCR-tehtäviä ja muuntaa saapuvia asiakirjatiedostoja manuaalisesti tai automaattisesti sekä siirtää niistä tietoja asiakirjoihin tai kirjanpitoriveille. Ulkoisia tiedostoja voi liittää missä tahansa prosessin vaiheessa myös kirjattuihin asiakirjoihin ja muodostuviin toimittaja-, asiakas- ja pääkirjamerkintöihin.
 
-## <a name="usage-scenario"></a>Käyttöskenaario
+## Käyttöskenaario
 
 Voit rekisteröidä kauppakumppaneilta saatuja tiedostoja tai paperikopioita [!INCLUDE[prod_short](includes/prod_short.md)]iin ja luoda asiakirjatietueita. Esimerkiksi osto- tai myyntilasku, hyvityslasku tai päiväkirjarivi.
 
@@ -29,7 +30,7 @@ Kun esimerkiksi saat PDF-muotoisen laskun toimittajalta, voit lähettää sen OC
 > [!TIP]
 > Luo saapuvat asiakirjatietueet [!INCLUDE[prod_short](includes/prod_short.md)]issa suoraan toimittajien lähettämistä sähköposteista käyttämällä Outlook-apuohjelmaa. Lisätietoja on kohdassa [Business Centralin käyttäminen yrityssähköpostina Outlookissa](work-outlook-addin.md).
 
-## <a name="incoming-document-features"></a>Saapuvan asiakirjan ominaisuudet
+## Saapuvan asiakirjan ominaisuudet
 
 Saapuvien asiakirjojen käsittely voi muodostua seuraavista pääaktiviteeteista:
 
@@ -56,7 +57,7 @@ Saapuvien asiakirjojen käsittely voi muodostua seuraavista pääaktiviteeteista
 | **Tilikartta**- ja **Pääkirjanpidon tapahtumat** -sivujen hakutoiminnon avulla voit etsiä pääkirjanpidon tapahtumia kirjatuille asiakirjoille, joilla ei ole saapuvia asiakirjatietueita. Tämän jälkeen voit keskitetysti muodostaa yhteyden olemassa oleviin tietueisiin tai luoda uusia tietueita ja niihin liittyviä asiakirjatiedostoja. |[Sellaisten kirjattujen asiakirjojen etsiminen, joilla ei ole saapuvia asiakirjatietueita](across-how-find-posted-documents-without-income-document-records.md) |
 | Saat paremman yleiskuvan määrittämällä saapuvien asiakirjatietueiden tilaksi *Käsitelty*, kun haluat poistaa ne oletusnäkymästä. |[Useiden saapuvien asiakirjatietueiden hallinta](across-how-manage-many-income-document-records.md) |
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Osto](purchasing-manage-purchasing.md)  
 [Kirjattujen asiakirjojen muokkaaminen](across-edit-posted-document.md)  

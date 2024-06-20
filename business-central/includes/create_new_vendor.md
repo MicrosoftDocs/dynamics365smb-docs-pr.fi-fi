@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 09/27/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 2.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten vastaava linkki.  

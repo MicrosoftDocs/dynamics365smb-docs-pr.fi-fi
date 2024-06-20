@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="configure-service-management-processes"></a>Huoltohallintoprosessien määrittäminen
+# Huoltohallintoprosessien määrittäminen
 
 Seuraavaksi käsitellään esimerkkejä asetuksista, joita voidaan käyttää huoltohallintoprosesseissa:  
   
@@ -21,12 +21,12 @@ Seuraavaksi käsitellään esimerkkejä asetuksista, joita voidaan käyttää hu
 * Sopimusten asetukset, kuten huoltosopimustilauksissa käytettävien päivien enimmäismäärä, sopimuksen peruutuksessa mahdollisesti käytettävät syykoodit, kuvausten vakiotekstit ja sopimuksen arvot.  
 * Huoltoon liittyvissä asiakirjoissa ja nimikkeissä käytettävät numerosarjat.  
 
-## <a name="to-enter-general-and-mandatory-settings"></a>Yleisten ja pakollisten asetusten antaminen
+## Yleisten ja pakollisten asetusten antaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Huoltohallinnon asetukset** ja valitse sitten vastaava linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="set-up-service-invoice-posting-policies-for-users"></a>Käyttäjien huoltolaskun kirjauskäytäntöjen määrittäminen
+## Käyttäjien huoltolaskun kirjauskäytäntöjen määrittäminen
 
 Yrityksillä on usein yksilöllisiä lasku- ja toimitusprosesseja. Prosessit voivat vaihdella esimerkiksi yhdestä henkilöstä, joka kirjaa kaiken huoltotilaukseen, useisiin työntekijöihin, joista kukin käsittelee omaa sivuaan.
 
@@ -55,7 +55,7 @@ Seuraavassa taulukossa käsitellään vaikutuksia eri asiakirjoihin.
 > [!NOTE]
 > Kun kirjaat huoltolaskuja ja hyvityslaskuja, kirjausvaihtoehtoja ei ole. Asiakirjat kirjaavat aina fyysiset tapahtumat ja rahoitustapahtumat yhdessä. Huoltolaskuja ja hyvityslaskuja ei voi kirjata osittain.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 
 [Vikojen raportoinnin määrittäminen](service-how-setup-fault-reporting.md)  
 [Resurssin kohdistuksen määrittäminen](service-how-setup-resource-allocation.md)  

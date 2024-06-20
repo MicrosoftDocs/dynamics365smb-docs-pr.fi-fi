@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 05/31/2023
 ms.author: andreipa
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Contoson Coffee -esittelytietojen käyttäminen edellyttää, että asennat asianomaiseen yritykseen [!INCLUDE [prod_short](../includes/prod_short.md)] -ratkaisussa kaksi sovellusta:  <br><br>

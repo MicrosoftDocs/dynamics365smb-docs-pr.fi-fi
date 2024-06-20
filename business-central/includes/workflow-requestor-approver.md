@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 05/30/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Kun määrität käyttäjiä hyväksynnän työnkulkuihin, on tärkeää, että sama käyttäjä ei ole työnkulun käyttäjäryhmässä sekä pyytäjä että hyväksyjä. Kun käyttäjä on sekä pyytäjä että hyväksyjä, hyväksynnät toimivat heille seuraavasti:

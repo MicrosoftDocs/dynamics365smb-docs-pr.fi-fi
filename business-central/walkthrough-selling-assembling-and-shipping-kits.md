@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Vaihekuvaus: pakettien myynti, kokoaminen ja toimitus
+# Vaihekuvaus: pakettien myynti, kokoaminen ja toimitus
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -19,18 +20,18 @@ Erityinen toiminto koskee tilausta varten kokoonpantujen määrien toimitusta se
 
 Kun fyysisen varaston perusmääritysten kokoonpano tilausta varten -määrä on toimitusvalmis, varastotyöntekijä kirjaa varastopoiminnan myyntitilausriveille. Tämä luo varastosiirron osille ja kirjaa kokoonpanon tuotoksen ja myyntitilauksen toimituksen. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden käsitteleminen varaston poiminnoissa](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
-## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta
+## Tietoja tästä vaihekuvauksesta
 
 Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:  
 
-### <a name="setting-up-assembly-items"></a>Kokoonpanon nimikkeiden määrittäminen
+### Kokoonpanon nimikkeiden määrittäminen
 
 Kokoonpanon osat määrittää niiden täydennysjärjestelmä ja kokoonpanon tuoterakenne. Nimikkeen kokoonpanokäytäntö voi olla joko koonti tilauksesta (ATO) tai koonti varastoon (ATS). Tässä osassa käsitellään seuraavia tehtäviä:  
 
 -   Sopivan täydennysjärjestelmän ja kokoonpanokäytännön määrittäminen uudelle nimikekortille.  
 -   Kokoonpanon tuoterakenteen luominen, joka listaa kokoonpanon osat ja resurssin, joka siirtyy kokoonpanon nimikkeeseen.  
 
-### <a name="selling-customized-assembly-items"></a>Mukautetun kokoonpanon nimikkeiden myynti
+### Mukautetun kokoonpanon nimikkeiden myynti
 
 [!INCLUDE[prod_short](includes/prod_short.md)]issa voi kirjata joustavasti sekä varastomäärän että Kokoonpano tilausta varten -määrän yhdelle myyntitilausriville. Tässä osassa käsitellään seuraavia tehtäviä:  
 
@@ -40,14 +41,14 @@ Kokoonpanon osat määrittää niiden täydennysjärjestelmä ja kokoonpanon tuo
 -   Yhdistelmämyyntitilausrivin luominen, jossa osa myyntimäärtästä tulee varastosta ja muu osa on koottava ennen toimitusta.  
 -   Tietoja ATO:n saatavuusvaroituksista.  
 
-### <a name="planning-for-assembly-items"></a>Kokoonpanon nimikkeiden suunnittelu
+### Kokoonpanon nimikkeiden suunnittelu
 
 Kokoonpanon kysynnän ja tarjonnan käsittelee suunnittelujärjestelmä, aivan kuten ostoa, siirtoa ja tuotantoa varten. Tässä osassa käsitellään seuraavia tehtäviä:  
 
 -   Sellaisten nimikkeiden uudelleensuunnittelun suorittaminen, joiden kokoonpanotarjonnalla on myyntikysyntä.  
 -   Kokoonpanotilauksen myyntirivin luominen tarpeen täyttämiseksi vaaditun toimituspäivämäärän mukaan.  
 
-### <a name="assembling-items"></a>Nimikkeiden kokoonpano
+### Nimikkeiden kokoonpano
 
 Kokoonpanotilaukset toimivat samalla tavoin kuin tuotantotilaukset, paitsi kulutus ja tuotos tallennetaan ja kirjataan suoraan tilauksesta. Kun kohteet on koottu varastoon, varastotyöntekijällä on täydet käyttöoikeudet kaikkiin otsikko- ja rivikenttiin. Kun nimikkeet on koottu tilaukseen, jossa määrä ja päivämäärä on luvattu asiakkaalle, tietyt kokoonpanotilauksen kentät eivät ole muokattavia. Tässä tapauksessa kokoonpanotoimitus suoritetaan linkitetyn myyntitilauksen fyysisen varastoinnin toimituksen mukaan. Tässä osassa käsitellään seuraavia tehtäviä.  
 
@@ -55,7 +56,7 @@ Kokoonpanotilaukset toimivat samalla tavoin kuin tuotantotilaukset, paitsi kulut
 -   Varastoinnin toimitusrivin käyttäminen ATO-kokoonpanotilauksesta kokoonpanotyön kirjaamiseksi.  
 -   ATO-kokoonpanotilauksen käyttäminen varastotoimitusriviltä automaattisesti kirjoitettujen tietojen arvioimiseksi.  
 
-### <a name="shipping-assembly-items-from-stock-and-assembled-to-order"></a>Toimitetaan kokoonpanon nimikkeet varastosta ja kokoonpano tilausta varten
+### Toimitetaan kokoonpanon nimikkeet varastosta ja kokoonpano tilausta varten
 
 Erityinen toiminto koskee tilausta varten kokoonpantujen määrien toimitusta. Tässä osassa käsitellään seuraavia tehtäviä:  
 
@@ -65,7 +66,7 @@ Erityinen toiminto koskee tilausta varten kokoonpantujen määrien toimitusta. T
 -   Toimitetaan kokoonpano tilausta varten -määrät.  
 -   Toimitetaan kokoonpanon varastonimikkeitä.  
 
-## <a name="roles"></a>Roolit
+## Roolit
 
 Tässä vaihekuvauksessa havainnollistetaan seuraavien käyttäjäroolien tehtäviä:  
 
@@ -75,7 +76,7 @@ Tässä vaihekuvauksessa havainnollistetaan seuraavien käyttäjäroolien tehtä
 -   Valitsin  
 -   Toimitusvastaava  
 
-## <a name="prerequisites"></a>Vaatimukset
+## Vaatimukset
 
 Tee seuraavat toimet ennen tämän vaihekuvauksen tehtävien suorittamista:  
 
@@ -109,7 +110,7 @@ Poista sisäisten prosessien oletusläpimenoaika seuraavasti:
 
 <!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
-## <a name="story"></a>Taustatietoja
+## Taustatietoja
 
 23. tammikuuta myyntitilausten käsittelijä Sanna ottaa Laitekauppa-yritykseltä tilauksen kolmesta tuotepaketti B:stä, joka on ATO-nimike. Kaikki kolme yksikköä on mukautettu, ja niissä on oltava tehokas grafiikkakorttti ja ylimääräistä RAM-muistia. Levyasemat päivitetään DVD-asemiksi, koska CD-asemia ei ole saatavilla. Sanna tietää, että yksiköt voidaan koota heti, joten hän jättää ehdotetuksi toimituspäiväksi tammikuun 23. päivän.  
 
@@ -137,7 +138,7 @@ Sammy pakkaa kymmenen ATS-yksikköä viidellä ATO-yksiköllä, jotka Linda koko
 
 Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja linkitetyt kokoonpanotilaukset poistetaan.  
 
-## <a name="prepare-sample-data"></a>Esimerkkitietojen valmisteleminen
+## Esimerkkitietojen valmisteleminen
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **F. var. nimikepvk:t** ja valitse sitten vastaava linkki.  
 2.  Valitse **Erän nimi** -kenttä, ja valitse sitten oletuspäiväkirja.  
@@ -161,7 +162,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 7.  Valitse **Laske f. var. muutos** -sivulla **OK**.  
 8.  **Nimikepäiväkirja**-sivulla valitse **Kirjaa**-toiminto ja valitse sitten **Kyllä**-painike.  
 
-### <a name="creating-the-assembly-items"></a>Kokoonpanon nimikkeiden luominen
+### Kokoonpanon nimikkeiden luominen  
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
 2.  Valitse **Uusi**-toiminto.  
@@ -212,7 +213,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
     |Vaihtoehto|80210|1|  
     |Resurssi|Leea|1|  
 
-### <a name="selling-the-assembly-items"></a>Kokoonpanon nimikkeiden myynti
+### Kokoonpanon nimikkeiden myynti  
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaukset** ja valitse sitten vastaava linkki.  
 2.  Valitse **Uusi**-toiminto.  
@@ -265,7 +266,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 17. Valitse **Luo F.var. toimitus** -toiminto.  
 18. Sulje myyntitilaus.  
 
-### <a name="planning-for-the-unavailable-ats-items"></a>Ei käytettävissä olevien ATS-nimikkeiden suunnittelu
+### Ei käytettävissä olevien ATS-nimikkeiden suunnittelu  
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suunnittelutyökirja** ja valitse sitten vastaava linkki.  
 2.  Valitse **Laske uudelleensuunnittelu** -toiminto.  
@@ -283,7 +284,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 6.  Valitse **Toteuta toim.pideviesti** -sivun **Kokoonpanotilaus**-kenttä ja valitse sitten **Tee kokoonpanotilaukset**.  
 7.  Valitse **OK**-painike.  
 
-### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Ensimmäisen ATO-määrän kokoaminen ja toimitus
+### Ensimmäisen ATO-määrän kokoaminen ja toimitus  
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston toimitus** ja valitse sitten vastaava linkki.  
 
@@ -343,7 +344,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Varastoaktiviteetit täyttämään ensimmäisen myyntitilausrivin tammikuun 23. päivään mennessä on saatu valmiiksi. Täytä seuraavaksi myyntitilausrivit, jotka toimitetaan 27. tammikuuta.  
 
-### <a name="assembling-and-recording-the-second-ato-quantity"></a>Toisen ATO-määrän kokoonpano ja tallentaminen
+### Toisen ATO-määrän kokoonpano ja tallentaminen  
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kokoonpanotilaukset** ja valitse sitten vastaava linkki.  
 
@@ -367,7 +368,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
 5.  Sulje **Kokoonpanotilaus**-sivu.  
 
-### <a name="assembling-the-ats-quantity"></a>ATS-määrän kokoonpano
+### ATS-määrän kokoonpano  
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kokoonpanotilaukset** ja valitse sitten vastaava linkki.  
 2.  Avaa kokoonpanotilaus tuotepaketin A kymmenen yksikön tilausta varten.  
@@ -395,7 +396,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Huomaa, että kokoonpanotilaus poistetaan avoimien tilausten luettelosta.  
 
-### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>Toimitetaan jäljellä olevat nimikkeet osittain varastosta ja osittain kootaan tilausta varten
+### Toimitetaan jäljellä olevat nimikkeet osittain varastosta ja osittain kootaan tilausta varten  
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Fyysisen varaston toimitus** ja valitse sitten vastaava linkki.  
 2.  Avaa viimeisimmän fyysisen varastoinnin toimitus, joka on luotu VALKOINEN-sijainnissa.  
@@ -435,7 +436,7 @@ Kun myyntitilaus on myöhemmin kirjattu kokonaan laskutetuksi, myyntitilaus ja l
 
     Kun Laitekauppa maksaa 18 tietokoneen vastaanotosta CRONUSista, myyntitilaus ja sen linkitetyt kokoonpanotilaukset poistetaan.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
  [Tietoja Kokoonpano tilausta varten- ja Kokoonpano varastoon -toiminnoista](assembly-assemble-to-order-or-assemble-to-stock.md)   
  [Kokoa nimikkeet](assembly-how-to-assemble-items.md)   

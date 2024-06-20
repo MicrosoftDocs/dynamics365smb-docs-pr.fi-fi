@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 04/11/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 0.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-raportin asetukset** ja valitse sitten vastaava linkki.  
 2. Jos haluat, että käyttäjät voivat muuttaa ja uudelleenlähettää näitä raportteja, valitse **Salli muokkaus** -kenttä.  

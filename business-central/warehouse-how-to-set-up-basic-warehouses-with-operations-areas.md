@@ -9,8 +9,9 @@ ms.search.form: '6774, 6775, 6776'
 ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="set-up-basic-warehouses-with-operations-areas"></a>Fyysisten perusvarastojen ja toimintoalueiden määrittäminen
+# Fyysisten perusvarastojen ja toimintoalueiden määrittäminen
 
 Jos sellaisen fyysisen varaston perusmäärityksissä, jonka sijainnit käyttävät **Var.paikka pakollinen** -asetuskenttää ja mahdollisesti myös **Vaadi poiminta**- ja **Vaadi hyllytys** -asetuskenttää, on sisäisiä toimintoalueita, kuten tuotanto tai kokoonpano, sisäisten toimintoalueiden fyysisen varastoinnin toimintojen tallentamisessa on käytettävä seuraavia fyysisen varastoinnin perusasiakirjoja:  
 
@@ -34,14 +35,14 @@ Seuraavat toimet perustuvat perusvarastoinnin aktiviteettien määrittämiseen t
 > [!NOTE]  
 >  Seuraavassa toimenpiteessä sijaintikorttien **Var.paikka pakollinen** -asetuskenttä valitaan ennakkoehtona, koska sitä pidetään fyysisen varastoinnin hallinnan perustana kaikilla tasoilla.  
 
-## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Ota käyttöön sisäisten toimintojen varaston asiakirjat
+## Ota käyttöön sisäisten toimintojen varaston asiakirjat
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten vastaava linkki.
 2. Avaa määritettävä sijaintikortti.  
 3.  Valitse **Fyysinen varasto** -pikavälilehdessä **Vaadi hyllytys** -valintaruutu. Se osoittaa, että kun varastopaikkakoodin sisältävä lähtevä tai sisäinen lähdeasiakirja vapautetaan, varaston hyllytys- tai varastosiirtoasiakirja voidaan luoda.  
 4.  Valitse **Vaadi poiminta** -valintaruutu. Se osoittaa, että kun varastopaikkakoodin sisältävä lähtevä tai sisäinen lähdeasiakirja luodaan, myös varaston poiminta- tai varastosiirtoasiakirja on luotava.  
 
-## <a name="to-define-a-default-bin-structure-in-the-production-area"></a>Varastopaikan oletusrakenteen määrittäminen tuotantoalueella
+## Varastopaikan oletusrakenteen määrittäminen tuotantoalueella
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten vastaava linkki.
 2. Avaa määritettävä sijainti.  
@@ -59,7 +60,7 @@ Tämä työnkulkukaavio näyttää, miten tuotantotilauksen osarivien**Varastopa
 
 ![Varastopaikkojen työnkulkukaavio.](media/binflow.png "BinFlow")
 
-## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Varastopaikan oletusrakenten määrittäminen kokoonpanoalueella
+## Varastopaikan oletusrakenten määrittäminen kokoonpanoalueella
 
 Kokoonpanotilausten osia ei voi poimia tai kirjata varastopoiminnan kanssa. Käytä sen sijaan **Varaston siirto** -sivua. Lisätietoja on kohdassa [Tuotannon, kokoonpanon tai töiden poimiminen tai siirtäminen perusvarastoinnissa](warehouse-how-to-pick-for-production.md).
 
@@ -67,12 +68,12 @@ Kun poiminnan ja toimituksen myyntirivin määriä kootaan tilaukseen, varaston 
 
 Lisätietoja on kohdassa [Kokoonpanon hallinta](assembly-assemble-items.md).
 
-### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>Automaattisesti luotavan varastosiirron luominen, kun varasto poiminta luodaan kokoonpanon nimikkeelle
+### Automaattisesti luotavan varastosiirron luominen, kun varasto poiminta luodaan kokoonpanon nimikkeelle
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kokoonpanon asetukset** ja valitse sitten vastaava linkki.
 2. Valitse **Luo varaston siirrot automaattisesti** -valintaruutu.
 
-### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Komponenttien oletusvarastopaikan kokoonpanoalueen määrittäminen, ennen kuin ne voidaan kuluttaa kokoonpanossa
+### Komponenttien oletusvarastopaikan kokoonpanoalueen määrittäminen, ennen kuin ne voidaan kuluttaa kokoonpanossa
 
 Tämän kentän arvo lisätään automaattisesti kokoonpanorivien **Varastopaikkakoodi**-kenttään, kun tämä sijainti lisätään kokoonpanorivin **Sijaintikoodi**-kenttään.
 
@@ -80,7 +81,7 @@ Tämän kentän arvo lisätään automaattisesti kokoonpanorivien **Varastopaikk
 2. Avaa määritettävä sijainti.
 3. Täytä **Kokoonpanoon-varastop.koodi**-kenttä.
 
-### <a name="to-set-up-the-bin-in-the-assembly-area-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-stock"></a>Varastopaikan määrittäminen kokoonpanoalueella, jossa varastoon koottavat valmiit kokoonpanon nimikkeet kirjataan
+### Varastopaikan määrittäminen kokoonpanoalueella, jossa varastoon koottavat valmiit kokoonpanon nimikkeet kirjataan
 
 Tämän kentän arvo lisätään automaattisesti kokoonpano-otsikoiden **Varastopaikkakoodi**-kenttään, kun tämä sijaintikoodi täytetään kokoonpano-otsikon **Sijaintikoodi**-kentässä.
 
@@ -93,7 +94,7 @@ Varastopaikkakoodit, jotka on määritetty sijaintikortteihin, määrittävät o
 2. Avaa määritettävä sijainti.
 3. Täytä **Kokoonpanosta-varastop.koodi**-kenttä.
 
-### <a name="to-set-up-the-bin-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-a-linked-sales-order"></a>Sellaisen varastopaikan määrittäminen, jossa valmiit kokoonpanon nimikkeet kirjataan, kun ne kootaan linkitettyyn myyntitilaukseen
+### Sellaisen varastopaikan määrittäminen, jossa valmiit kokoonpanon nimikkeet kirjataan, kun ne kootaan linkitettyyn myyntitilaukseen
 
 Kokoonpanon nimikkeet toimitetaan tästä varastopaikasta välittömästi varaston poiminnan kautta myyntitilauksen tarpeiden täyttämiseksi.
 
@@ -115,7 +116,7 @@ Sama varastopaikkakoodi kopioidaan puolestaan varaston poimintarivin **Varastopa
 2. Avaa määritettävä sijainti.
 3. Täytä **Kok. til.ltoimit. -var.p.koodi** -kenttä.
 
-## <a name="to-create-dedicated-component-bins"></a>Osien erityisvarastopaikkojen luominen
+## Osien erityisvarastopaikkojen luominen
 
 Voit määrittää, että varastopaikan määrät suojataan nykyistä tarkoitusta lukuun ottamatta kaikilta muiden tarpeiden poiminnoilta.
 
@@ -135,7 +136,7 @@ Erillisen varastopaikan tekeminen tuottaa samantapaisen toiminnan kuin varastopa
 > [!NOTE]  
 >  Varastopaikan on oltava tyhjä ennen kuin voit valita tai poistaa **Erityinen**-kentän.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
 [Varasto](inventory-manage-inventory.md)  

@@ -9,13 +9,14 @@ ms.search.form: '118, 472, 473'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Ei-realisoituneen arvonlisäveron määrittäminen kassaperusteista kirjanpitoa varten
+# Ei-realisoituneen arvonlisäveron määrittäminen kassaperusteista kirjanpitoa varten
 
 Jos käytät kassaperusteista kirjanpitoa, voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in käsittelemään ei-realisoidun arvonlisäveron.
 
-## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Pääkirjanpidon tilien käyttäminen ei-realisoitunutta arvonlisäveroa varten
+## Pääkirjanpidon tilien käyttäminen ei-realisoitunutta arvonlisäveroa varten
 
 ALV-summat voidaan laskea ja kirjata väliaikaiselle kirjanpitotilille laskun kirjaamisen yhteydessä. Sen jälkeen ne voidaan kirjata oikealle kirjanpitotilille ja sisällyttää ALV-ilmoituksiin laskun maksun kirjaamisen yhteydessä. Ennen sitä sinun täytyy [määrittää ALV-kirjausasetukset](finance-setup-vat.md).
 
@@ -45,7 +46,7 @@ Käytä ei-realisoituneen arvonlisäveron tilejä seuraavasti:
 > [!NOTE]  
 > ALV-summa kirjataan tälle tilille, jossa se on asiakkaan maksun kirjaamisen saakka. Summa siirretään sitten oston ALV-tilille.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen](finance-setup-vat.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

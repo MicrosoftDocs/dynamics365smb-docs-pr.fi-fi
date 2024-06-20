@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 08/16/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Jos haluat tilata RSS (Really Simple Syndication) -syötteen kaikista päivityksistä, jotka on tehty learn.microsoft.comissa [!INCLUDE [prod_short](prod_short.md)]in yritystoimintoihin, käytä seuraavaa linkkiä:
 

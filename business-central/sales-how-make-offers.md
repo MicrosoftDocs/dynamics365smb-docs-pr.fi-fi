@@ -9,8 +9,9 @@ ms.search.form: '41, 9300'
 ms.date: 02/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="make-sales-quotes"></a>Myyntitarjousten tekeminen
+# Myyntitarjousten tekeminen
 
 Luot myyntitarjouksen tallentaaksesi tarjouksen asiakkaalle tai mahdolliselle asiakkaalle myydäksesi määrätyt tuotteet määrätyillä toimitus- ja maksuehdoilla. Voit lähettää myyntitarjouksen asiakkaalle kommunikoidaksenne tarjouksesta. Voit lähettää asiakirjan sähköpostitse PDF-liitteenä. Sähköpostin perusteksti voidaan esitäyttää tarjouksen yhteenvedolla. Lisätietoja on kohdassa [Asiakirjojen lähettäminen sähköpostitse](ui-how-send-documents-email.md#to-send-documents-by-email).
 
@@ -18,7 +19,7 @@ Kun neuvottelet asiakkaan tai mahdollisen asiakkaan kanssa, voit muuttaa ja läh
 
 Useimmissa tapauksissa myyntitarjouksia lähetetään mahdollisille asiakkaille. Sinulla on usein yhteyshenkilö, jonka kanssa neuvottelet. Jos he hyväksyvät tarjouksesi, muutat myyntitarjouksen tilaukseksi ja rekisteröit mahdollisen asiakkaan asiakkaaksi [!INCLUDE [prod_short](includes/prod_short.md)]issa. Seuraavassa vaiheessa keskitymme kontakteihin, mutta voit myös lähettää tarjouksia nykyisille asiakkaille.  
 
-## <a name="to-create-a-sales-quote"></a>Myyntitarjousten luominen
+## Myyntitarjousten luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") kuvake, syötä **Myyntitarjoukset** ja valitse sitten vastaava linkki.
 2. Määritä kontakti tai asiakas, jolle haluat lähettää myyntitarjouksen.
@@ -87,11 +88,11 @@ Useimmissa tapauksissa myyntitarjouksia lähetetään mahdollisille asiakkaille.
 
 Muunnos poistaa myyntitarjouksen tietokannasta. Myyntilasku tai -tilaus luodaan myyntitarjouksen tietojen perusteella, jotta voit käsitellä myynnin. Myyntilaskun tai myyntitilauksen **Tarjouksen nro** -kenttä määrittää sen myyntitarjouksen numeron, josta tilaus on muunnettu. Lisätietoja on kohdassa [Myynnin laskuttaminen](sales-how-invoice-sales.md) tai [Tuotteiden myyminen](sales-how-sell-products.md).  
 
-## <a name="external-document-number"></a>Ulkoisen tiedoston numero
+## Ulkoisen tiedoston numero
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  

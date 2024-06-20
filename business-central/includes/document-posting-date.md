@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 11/14/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Myynti- ja ostoasiakirjojen **Asiakirjan pvm**- ja **Kirjauspvm**-kentät auttavat sinua noudattamaan kirjanpitostandardeja ja saamaan tarkat talouslaskelmat. Kentät ovat eri tarkoituksia varten:

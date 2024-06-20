@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Kirjattu lasku löytyy kirjattujen laskujen luettelossa. Kirjatut laskut näkyvät yhdessä lopullisten laskunumeroiden kanssa sekä **Kirjatut myyntilaskut** -luettelossa että **Kirjatut ostolaskut** -luettelossa. Luettelossa voi hakea kunkin kirjatun laskun sekä oikaista kirjattua laskua tai peruuttaa sen.  
 

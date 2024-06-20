@@ -10,9 +10,10 @@ ms.search.form: '1439,'
 ms.date: 12/12/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="the-essential-business-insights-extension"></a>Essential-liiketoimintatietojen laajennus
+# Essential-liiketoimintatietojen laajennus
 
 Olennaisten liiketoimintanäkemysten laajennus etsii kiinnostavia liiketoimintatietoja yrityksen tiedoista ja näyttää ne sanomalehdistä tutuksi tulleiden otsikoiden tyyliin roolikeskuksissa. Näkemykset ovat edellisen viikon, edellisen kuukauden tai kolmen edellisen kuukauden ajalta riippuen siitä, millaisia tietoja laajennus löytää. Näkemykset päivitetään 10 minuutin välein.  
 
@@ -31,7 +32,7 @@ Seuraavassa taulukossa esitellään näkemykset, jotka tämä laajennus tarjoaa 
 |Projektipäällikkö| Näyttää tervehdyksen ja linkin tuotetietoihin.|
 |Järjestelmänvalvoja| Näyttää tervehdyksen ja linkin tuotetietoihin.|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [[!INCLUDE[prod_short](includes/prod_short.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)
 

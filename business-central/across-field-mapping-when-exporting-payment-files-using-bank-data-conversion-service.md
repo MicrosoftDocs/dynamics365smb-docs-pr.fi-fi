@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Kentien yhdistäminen, kun maksutiedostoja viedään AMC Banking 365 Fundamentals -laajennuksen avulla
+# Kentien yhdistäminen, kun maksutiedostoja viedään AMC Banking 365 Fundamentals -laajennuksen avulla
 Kun viet maksutiedostoja AMC Banking 365 Fundamentals -laajennuksen avulla, vietävät tiedot paljastuvat palveluntarjoajalle. Palveluntarjoaja vastaa näiden tietojen tietosuojasta. Lisätietoja AMC Banking 365 Fundamentals -laajennuksesta on kohdassa [AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
@@ -62,7 +63,7 @@ Seuraavassa taulukossa on luettelo kentistä [!INCLUDE[prod_short](includes/prod
 |Yleisen päiväkirjan erän nimi|Päiväkirjan erän nimi|Yleisen päiväkirjan rivi|Yleisen päiväkirjan erän nimi, jota käytetään maksurivillä|  
 |Lähettäjän pankin nimi – tiet. muunto|Pankin nimi - Tietojen muuntaminen|Pankkitili|Lähettäjän pankkitilin nimi, jota AMC Banking 365 Fundamentals -laajennus on pyytänyt ja joka on määritetty pankkitilin kortissa|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 [Tiedonsiirron määrittäminen](across-set-up-data-exchange.md)  
 [Tietojen vaihtaminen sähköisesti](across-data-exchange.md)
 [AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md)   

@@ -9,9 +9,10 @@ ms.search.form: '10, 315, 466, 467, 468, 469, 10015, 10016, 10101'
 ms.date: 07/21/2022
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="sales-tax-in-the-default-version-of-business-central"></a>Myyntivero Business Centralin oletusversiossa
+# Myyntivero Business Centralin oletusversiossa
 
 **Myyntivero** on vero, joka veloitetaan kuluttajien ostamista sekä yritysten myymistä tuotteista ja palveluista. Myyntiveron tulisi ihannetapauksessa koskea kaikkea lopullista kuluttamista muutamin poikkeuksin. Lopullisen kulutuksen poikkeukset riippuvat paikallisista viranomaisista, mutta yleisesti ottaen yritysten väliset liiketoimet on vapautettu myyntiverosta.  
 
@@ -22,7 +23,7 @@ Tavallisesti myyntiverot koskevat tuotteiden ja palvelujen jälleenmyyntiä, ja 
 > [!IMPORTANT]
 > Myyntivero on käytettävissä oletusversiossa, mutta Microsoft tukee myyntiveron käyttöä vain Yhdysvalloissa ja Kanadassa.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Myyntiveron raportointi Yhdysvalloissa](localfunctionality/UnitedStates/us-sales-tax.md)  
 [Myyntiveron raportointi Kanadassa](localfunctionality/canada/ca-sales-tax.md)  

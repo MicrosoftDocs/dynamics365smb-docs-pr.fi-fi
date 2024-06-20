@@ -7,8 +7,9 @@ ms.topic: how-to
 ms.date: 05/31/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="walkthrough-of-basic-jobs"></a>Perustöiden vaihekuvaus
+# Perustöiden vaihekuvaus
 
 Tässä vaihekuvauksessa kuvataan useita ydinprosesseja:
 
@@ -16,13 +17,13 @@ Tässä vaihekuvauksessa kuvataan useita ydinprosesseja:
 - Projektin aika- ja materiaalikustannusten kirjaaminen
 - Projektien laskutus
 
-## <a name="adding-a-project-task"></a>Projektitehtävän lisääminen
+## Projektitehtävän lisääminen
 
-### <a name="scenario"></a>Skenaario
+### Skenaario  
 
 Projektipäällikkö Simon haluaa kirjata espressokoneen käytön opettamiseen kuluneen ajan. Simon haluaa käyttää erillistä projektin tehtävää kaupallisen laitteen asentamiseen asiakkaan tiloihin.
 
-### <a name="steps"></a>Vaiheet
+### Vaiheet
 
 1. Projektitehtävän luominen.
 
@@ -38,17 +39,17 @@ Projektipäällikkö Simon haluaa kirjata espressokoneen käytön opettamiseen k
    1. Etsi **Sisennä projektitehtävät** -toiminto Tehtävät-alueella.
    2. Vahvista tehtävien sisennys valitsemalla **Kyllä**.
 
-### <a name="results"></a>Tulokset
+### Tulokset
 
  - Nyt aika ja kulut voidaan tallentaa uuteen projektitehtävään
 
-## <a name="record-time-and-material-expenses-to-a-project"></a>Aika- ja materiaalikustannusten kirjaaminen projektille
+## Aika- ja materiaalikustannusten kirjaaminen projektille
 
-### <a name="scenario-1"></a>Skenaario
+### Skenaario  
 
 Koneen asentavan teknikko Edginin on kirjattava projektin asennukseen käytetty aika ja materiaalit laskutusta varten. Edgin on jo lisännyt matkat ja materiaalit, ja nyt on lisättävä aika, joka käytetään koneen käytön opettamiseen henkilöstölle.
 
-### <a name="steps-1"></a>Vaiheet
+### Vaiheet
 
 1. Luo projektipäiväkirjaan lisää rivejä.
 
@@ -64,20 +65,20 @@ Koneen asentavan teknikko Edginin on kirjattava projektin asennukseen käytetty 
    1. Valitse **Kirjaa**-toiminto.
    2. Vahvista rivien kirjaaminen valitsemalla **Kyllä**.
 
-### <a name="results-1"></a>Tulokset
+### Tulokset
 
 - *Käyttö*-tyyppiset projektitapahtumat ja resurssitapahtumat luodaan.
 - Nimiketapahtumat luodaan varaston negatiivista muuttamista varten.
 - Projektikortin Tehtävät-alueen kustannukset ja hinnat vastaavat laskutettavaa uutta saldoa.
 - Projektikortin projektin tietojen tietoruudussa näkyvät hintojen kokonaissummat.
 
-## <a name="creating-a-sales-invoice-for-a-project"></a>Projektin myyntilaskun luominen
+## Projektin myyntilaskun luominen
 
-### <a name="scenario-2"></a>Skenaario
+### Skenaario  
 
 Simonin on luotava ja kirjattava asiakkaalle lähetettävä lasku, jossa on projektin aika ja kustannukset.
 
-### <a name="steps-2"></a>Vaiheet
+### Vaiheet
 
 1. Luo myyntilasku.
 
@@ -92,7 +93,7 @@ Simonin on luotava ja kirjattava asiakkaalle lähetettävä lasku, jossa on proj
    2. Valitse viimeinen lasku, jos haluat avata sen tarkasteltavaksi.
    3. Valitse **Kirjaa**-toiminto.
 
-### <a name="results-2"></a>Tulokset
+### Tulokset
 
 - *Myynti*-tyyppiset projektitapahtumat ja resurssitapahtumat luodaan.
 - Projektikortin tehtäväalueen kustannukset ja hinnat vastaavat uusia laskutettavia saldoja.

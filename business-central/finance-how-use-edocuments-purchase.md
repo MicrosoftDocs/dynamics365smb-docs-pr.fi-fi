@@ -9,9 +9,10 @@ ms.search.form: '50, 51, 138, 6103, 6133, 6121, 6167, 9307, 9308'
 ms.date: 05/02/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="use-e-documents-in-the-purchases-process"></a>Sähköisten asiakirjojen käyttäminen ostoprosessissa
+# Sähköisten asiakirjojen käyttäminen ostoprosessissa
 
 Voit käyttää määritettyjä sähköisiä asiakirjoja ostoasiakirjojen yhteydessä.
 
@@ -25,11 +26,11 @@ Seuraavia ostoasiakirjoja voidaan käyttää sähköisten asiakirjojen toimintoj
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] -versiosta 24.0 on mahdollista liittää **ostotilaukset** vastaanotettuihin **E-asiakirjoihin**.  
 
-## <a name="e-documents-in-purchases"></a>Sähköiset asiakirjat ostoissa
+## Sähköiset asiakirjat ostoissa
 
 Dynamics 365 Business Centralin ostojen e-asiakirjojen vastaanotto voidaan tehdä eräajona tai manuaalisesti.  
 
-### <a name="how-to-set-up-vendors-to-work-with-different-purchase-documents"></a>Miten määrittää toimittajia työskentelemään eri ostoasiakirjojen kanssa
+### Miten määrittää toimittajia työskentelemään eri ostoasiakirjojen kanssa  
 
 Määritä toimittajat käyttämään näitä saapuvia elektronisia laskuja oikein noudattamalla seuraavia ohjeita: 
 
@@ -46,9 +47,9 @@ Määritä toimittajat käyttämään näitä saapuvia elektronisia laskuja oike
 4. Valitse yksi vaihtoehdoista, joita haluat käyttää valitulle toimittajalle. 
 5. Sulje sivu.   
 
-### <a name="to-work-with-purchase-invoices"></a>Ostolaskujen käyttäminen
+### Ostolaskujen käyttäminen  
 
-#### <a name="run-the-batch-job"></a>Eräajon suorittaminen
+#### Eräajon suorittaminen  
 
 > [!NOTE]
 > Tämä eräajo on tarkoitettu saapuvien laskujen automaattista keräilyä varten. Toiminnon käyttäminen on mahdollista vain, jos se on otettu käyttöön maassa tai alueella.  
@@ -76,7 +77,7 @@ Seuraavassa kerrotaan kaksi yleisintä virhettä:
 
 Virheiden ja varoitusten korjaamisen jälkeen voit manuaalisesti määrittää, milloin järjestelmän tulee luoda ostolasku asetusten perusteella, valitsemalla **Luo tiedosto**.   
 
-#### <a name="manually-import-invoices"></a>Laskujen tuominen manuaalisesti
+#### Laskujen tuominen manuaalisesti  
 
 Voit tuoda manuaalisesti ulkoisia sähköisiä asiakirjoja alla olevien ohjeiden mukaan:
 
@@ -87,9 +88,9 @@ Voit tuoda manuaalisesti ulkoisia sähköisiä asiakirjoja alla olevien ohjeiden
 5. Kun virheet on korjattu, valitse **Tuo manuaalisesti** -ryhmässä **Luo asiakirja**.  
 6. Kun asiakirja on luotu [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmasssa, eräajon käyttäminen ei muuta tapaa, jolla näet sen. 
 
-### <a name="e-documents-with-purchase-orders"></a>Ostotilausten sähköiset asiakirjat
+### Ostotilausten sähköiset asiakirjat  
 
-#### <a name="to-link-purchase-orders-with-the-received-e-documents"></a>Linkitä ostotilaukset vastaanotettuihin sähköisiin asiakirjoihin
+#### Linkitä ostotilaukset vastaanotettuihin sähköisiin asiakirjoihin
 
 Jos **toimittajasi** on määrittänyt **Vastaanota e-asiakirjalle** -kentän käyttämään **ostotilauksia**, niin kun sähköinen asiakirja on luotu [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa (manuaalisesti tai ulkoisesta päätepisteestä), [!INCLUDE[prod_short](includes/prod_short.md)] se tekee seuraavaa:  
 
@@ -99,7 +100,7 @@ Jos **toimittajasi** on määrittänyt **Vastaanota e-asiakirjalle** -kentän k�
 
 3. Jos kyseisen toimittajan **ostotilausta** ei ole olemassa, kun uusi **E-asiakirja** luodaan, [!INCLUDE[prod_short](includes/prod_short.md)] luo uuden **ostotilauksen** käyttäen samaa luontimallia kuin uusissa **ostolaskuissa** jo on. Tämän **sähköisen asiakirjan** **asiakirjan tila** on **käsitellään**, ja **Palvelun tila** -alisivun **sähköisen asiakirjan tila** on **Tuotu asiakirja luotu**. Linkki näkyy kyseisen **E-asiakirjan** **Asiakirja**-kentässä.   
 
-#### <a name="matching-lines-from-received-e-document-with-purchase-order"></a>Vastaanotetun e-asiakirjan rivien täsmäytys ostotilauksen kanssa
+#### Vastaanotetun e-asiakirjan rivien täsmäytys ostotilauksen kanssa  
 
 Voit liittää vastaanotetut sähköiset asiakirjat ostotilausten riveihin kahdesta eri paikasta: **E-asiakirja**-sivulta tai **Ostotilaus**-sivulta. Helpoin tapa paikallistaa jo linkitetyt **ostotilaukset** on käyttää **Linkitetyt ostotilaukset** -ruutua osana **E-asiakirjan toimenpiteitä**. Kaikki ei-linkitetyt asiakirjat löytyvät **odottavat ostojen e-laskut** -ruudusta, jossa on luettelo tarkasteltavissa olevista **E-asiakirjoista**.  
 
@@ -109,7 +110,7 @@ Voit liittää vastaanotetut sähköiset asiakirjat ostotilausten riveihin kahde
 > [!NOTE]
 > Jos ALV-prosentti eroaa saapuvan tositteen ja yrityksen ALV-prosentin välillä, vastaavia tositteita ei voi käyttää usean maan ympäristössä.  
 
-##### <a name="matching-lines-from-purchase-order"></a>Ostotilauksen rivien kohdistus
+##### Ostotilauksen rivien kohdistus  
 
 Voit täsmätä **Ostotilaukset**-luettelon tai jonkin avatun **ostotilauksen** rivejä. Voit aloittaa tämän käyttämällä seuraavia vaiheita:  
 
@@ -159,7 +160,7 @@ Jos haluat lisätä toleranssia ja sallia eron **E-laskun** ja **Ostotilauksen**
 3. Nämä asetukset koskevat kaikkia vastaavia rivejä, mutta harkitsevat jälleen kokonaissumman toleranssia, kuten **välitön yksikkökustannus** yhdessä kohdistetun **rivialennus-%:n** kanssa.  
 4. Sulje sivu.   
 
-##### <a name="matching-lines-from-e-document"></a>E-asiakirjan täsmäävät rivit
+##### E-asiakirjan täsmäävät rivit  
 
 Voit täsmäyttää rivejä **E-asiakirja** -sivulla. Voit aloittaa tämän käyttämällä seuraavia vaiheita:  
 
@@ -168,7 +169,7 @@ Voit täsmäyttää rivejä **E-asiakirja** -sivulla. Voit aloittaa tämän käy
 3. Avaa **Ostotilauksen täsmäytys** -sivu valitsemalla **Täsmäytä ostotilaus** -toiminto.  
 4. Toista samat työvaiheet, joita käytit aloittaessasi ostotilauksien täsmäytyksen.
 
-### <a name="e-document-matching-assistance-copilot"></a>Sähköisen asiakirjan kohdistusavustaja
+### Sähköisen asiakirjan kohdistusavustaja  
 
 > [!NOTE]
 > Tällä hetkellä **Sähköisen asiakirjan kohdistusavustaja** on Valmis tuotantoon -esiversiotilassa, ja se on saatavilla maailmanlaajuisesti, paitsi Kanadassa. Se toimii vain englanniksi. 
@@ -176,7 +177,7 @@ Voit täsmäyttää rivejä **E-asiakirja** -sivulla. Voit aloittaa tämän käy
 > [!NOTE]
 > Copilot on tekoälyyn perustuva avustaja, joka auttaa organisaatiossa työskenteleviä ihmisiä olemaan luovia ja automatisoimaan yksitoikkoisia tehtäviä. **Sähköisen asiakirjan kohdistusavustajan** avulla käyttäjät voivat helposti liittää vastaanotetut sähköiset laskunsa olemassa oleviin ostotilausriveihin käyttämällä LLM-mallia, jonka avulla kahden eri asiakirjan väliset rivit täsmäävät. 
 
-#### <a name="to-activate-the-copilot"></a>Avustajan aktivoiminen
+#### Avustajan aktivoiminen  
 
 Jos et aktivoinut **Sähköisen asiakirjan kohdistusavustaja** -toimintoa, se on tehtävä manuaalisesti. Ota **Sähköisen asiakirjan kohdistusavustaja** käyttöön noudattamalla näitä seuraavia vaiheita: 
 
@@ -185,7 +186,7 @@ Jos et aktivoinut **Sähköisen asiakirjan kohdistusavustaja** -toimintoa, se on
 
 Kun avustaja on aktivoitu, sitä voidaan alkaa käyttää.
 
-#### <a name="use-the-e-document-matching-assistance-copilot"></a>Käytä sähköisen asiakirjan kohdistusavustajaa
+#### Käytä sähköisen asiakirjan kohdistusavustajaa 
 
 Jos avustaja on aktivoitu, olemassa olevat toiminnot **Yhdistä e-asiakirjan rivit** ostotilauksiin ja **Täsmäytä ostotilaus** **E-asiakirja** -sivulla saavat eri kuvakkeita, jotka symboloivat tekoälyominaisuutta. Voit suorittaa nämä toiminnot (samalla tavalla kuin aiemmissa esimerkeissä ostotilausten luettelosta), yhdestä **ostotilauksista** tai **E-asiakirjasta**. Kaikki suoritusvaiheet ovat samat, mutta kun suoritat tämän toiminnon, tulokset poikkeavat toisistaan, ja sinun on noudatettava seuraavia vaiheita:  
 
@@ -230,7 +231,7 @@ Jos avustaja on aktivoitu, olemassa olevat toiminnot **Yhdistä e-asiakirjan riv
 > [!NOTE]
 > Hinnan/kustannuksen analysointi, ja saatavilla oleva määrätarkistus on osa esikäsittelytoimintoa.   
 
-## <a name="overview-of-e-document-statuses"></a>Sähköisten asiakirjojen tilojen yleiskatsaus
+## Sähköisten asiakirjojen tilojen yleiskatsaus
 
 Jos haluat aiempaa paremman yleiskatsauksen yrityksen kaikista sähköisistä asiakirjoista, voit valita **Kirjanpitäjä**-roolikeskuksen, jossa sähköisten asiakirjojen tilat ovat. Siellä voit etsiä sähköistä asiakirjaa koskevat aktiviteetit, joilla on seuraavat tilat:
 
@@ -241,7 +242,7 @@ Jos haluat aiempaa paremman yleiskatsauksen yrityksen kaikista sähköisistä as
     - Virhe
 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Sähköisten asiakirjojen määrittäminen](finance-how-setup-edocuments.md)    
 [Sähköisen asiakirjan käyttäminen myyntiprosessissa](finance-how-use-edocuments.md)   

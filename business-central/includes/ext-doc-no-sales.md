@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 05/27/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Myyntiasiakirjoissa ja päiväkirjoissa voit määrittää asiakirjanumeron, joka viittaa asiakkaan numerointijärjestelmään. <!--You can enter a maximum of ten characters, both numbers and letters.--> Tämän kentän avulla voit tallentaa numeron, jonka asiakas on määrittänyt tilaukselle, laskulle tai hyvityslaskulle. Tätä numeroa voi käyttää myöhemmin, jos sinun tarvitsee etsiä kirjattua merkintää tätä numeroa käyttämällä.  

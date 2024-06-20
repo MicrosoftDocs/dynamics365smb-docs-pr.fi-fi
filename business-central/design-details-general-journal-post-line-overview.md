@@ -8,14 +8,15 @@ ms.search.keywords: 'design, general ledger, post'
 ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="general-journal-post-line-overview"></a>Yleisen päiväkirjan kirjausrivin yleiskuva
+# Yleisen päiväkirjan kirjausrivin yleiskuva
 
 Codeunit 12, **Yleinen päiväkirja - rivin kirjaus**, on pääkirjanpidon kirjauksen tärkeä sovellusobjekti ja ainoa paikka, jossa lisätään pääkirja-, ALV- sekä asiakkaan ja toimittajan reskontratapahtumia. Tätä codeunitia käytetään myös Käytä-, Peruuta kohdistus- ja Peruuta-toiminnoissa.  
   
 Microsoft Dynamics NAV 2013 R2:n codeunit uusittiin, koska siitä oli tullut hyvin suuri, noin 7 600 koodiriviä. Arkkitehtuuri muutettiin ja codeunitista tehtiin yksinkertaisempi ja ylläpidettävämpi. Tässä ohjeessa kuvaillaan muutokset ja tiedot, joita tarvitset päivitystä varten.  
   
-## <a name="old-architecture"></a>Vanha arkkitehtuuri
+## Vanha arkkitehtuuri  
 Vanhassa arkkitehtuurissa oli seuraavat ominaisuudet:  
   
 * Yleisten muuttujien käyttö oli laajaa, mikä lisäsi piilotettujen virheiden mahdollisuutta, jos muuttujia käytettiin väärässä laajuudessa.  
@@ -26,7 +27,7 @@ Vanhassa arkkitehtuurissa oli seuraavat ominaisuudet:
 * Suuri osa codeunitin 12 koodista, noin 30 prosenttia, liittyy maksualennus- ja toleranssilaskelmiin, vaikka useissa maissa tai alueilla näitä ominaisuuksia ei tarvita.  
 * Kirjaus, kohdista, peruuta kohdistus, peruuta, maksualennus ja toleranssi sekä vaihtokurssin muutos on liitetty yhteen codeunitissa 12 yleisten muuttujien pitkää listaa käyttäen.  
   
-### <a name="new-architecture"></a>Uusi arkkitehtuuri
+### Uusi arkkitehtuuri  
 [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa codeunit 12 on saanut seuraavia parannuksia:  
   
 * Codeunit 12 on jaettu pienempiin osiin (kaikissa alle 100 koodiriviä).  
@@ -36,7 +37,7 @@ Vanhassa arkkitehtuurissa oli seuraavat ominaisuudet:
 * Monet aputoiminnot on siirretty vastaaviin asiakkaan ja toimittajan tapahtumataulukoihin.  
 * Yleisten muuttujien käyttö on minimoitu, jotta jokainen toimintosarja käyttää parametreja ja kapseloi oman sovelluslogiikkansa.  
   
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rakenteen tiedot: Kirjausliittymän rakenne](design-details-posting-interface-structure.md)  
 [Rakenteen tiedot: Kirjausohjelman rakenne](design-details-posting-engine-structure.md)  

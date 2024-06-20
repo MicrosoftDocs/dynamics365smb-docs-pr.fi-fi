@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 09/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 22.](../media/ui-search/search_small.png "Hakusuurennuslasi") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  

@@ -3,7 +3,7 @@ title: Raportin yleiskuvaus
 description: 'Katso, mitkä raportit ovat käytettävissä Business Centralin vakioversion kaikilla toimintoalueilla, jotta voit seurata liiketoimintaasi.'
 author: KennieNP
 ms.author: kepontop
-ms.reviewer: jswymer
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 09/11/2023

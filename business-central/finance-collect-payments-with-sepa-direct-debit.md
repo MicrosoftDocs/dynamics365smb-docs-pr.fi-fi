@@ -3,14 +3,14 @@ title: SEPA-suoraveloitus Business Centralissa
 description: Asiakkaan suostumuksella voit kerätä maksut suoraan asiakkaan pankkitililtä SEPA-muodon mukaisesti.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.form: '371, 423, 424, 427, 1208, 1207, 1230'
 ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="collect-payments-with-sepa-direct-debit"></a>Maksujen kerääminen SEPA-suoraveloitusperintänä.
+# Maksujen kerääminen SEPA-suoraveloitusperintänä.
 
 Asiakkaan suostumuksella voit kerätä maksut suoraan asiakkaan pankkitililtä SEPA-muodon mukaisesti.  
 
@@ -25,7 +25,7 @@ Kun maksut on käsitelty onnistuneesti pankin tiedottamalla tavalla, voit kirjat
 > [!NOTE]  
 > Kun maksut kerätään SEPA-suoraveloituksen avulla, myyntilaskun valuutan on oltava EURO.  
 
-## <a name="setting-up-sepa-direct-debit"></a>SEPA-suoraveloituksen määrittäminen
+## SEPA-suoraveloituksen määrittäminen
 
 **Suoraveloitusperinnät**-sivulla voi viedä sähköiseen pankkiin ohjeita, jotka ohjaavat pankkiasi suorittamaan suoraveloituksen asiakkaan pankkitililtä omalle pankkitilillesi SEPA-suoraveloitusmuodon mukaisesti.
 
@@ -40,13 +40,13 @@ Ennen kuin voit käsitellä asiakkaan maksuja sähköisesti viemällä suoravelo
 * Määritä asiakkaan maksutapa.  
 * Määritä suoraveloitustoimeksianto, joka kuvaa asiakkaan kanssa tekemääsi sopimusta maksujen keräämisestä tietyllä sopimuskaudella.  
 
-### <a name="to-set-up-your-bank-account-for-sepa-direct-debit"></a>SEPA-suoraveloituksen pankkitilin määrittäminen
+### SEPA-suoraveloituksen pankkitilin määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten vastaava linkki.  
 2. Avaa pankkitili, jota haluat käyttää suoraveloitukseen.  
 3. Valitse **Yleinen**-pikavälilehden **SEPA-suoraveloituksen vientimuoto** -kentässä SEPA-suoraveloitusasetus.  
 
-### <a name="to-set-up-the-customers-payment-method-for-sepa-direct-debit"></a>SEPA-suoraveloituksen asiakkaan maksutavan määrittäminen
+### SEPA-suoraveloituksen asiakkaan maksutavan määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksutavat** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
@@ -66,7 +66,7 @@ Ennen kuin voit käsitellä asiakkaan maksuja sähköisesti viemällä suoravelo
 7. Valitse **Maksutavan koodi** -kenttä ja sitten maksutavan koodi, jonka määritit vaiheessa 3.  
 8. Toista vaiheet 6–7 kaikille asiakkaille, joille haluat määrittää SEPA-suoraveloitusperinnän.  
 
-#### <a name="to-set-up-the-direct-debit-mandate-that-represents-the-customer-agreement"></a>Suoraveloitusvaltakirjan määrittäminen, joka vastaa asiakkaan sopimusta
+#### Suoraveloitusvaltakirjan määrittäminen, joka vastaa asiakkaan sopimusta
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakkaat** ja valitse sitten vastaava linkki.  
 2. Avaa asiakkaan kortti, jonka haluat määrittää SEPA-suoraveloituksille.  
@@ -89,14 +89,14 @@ Ennen kuin voit käsitellä asiakkaan maksuja sähköisesti viemällä suoravelo
 
  Suoraveloitusvaltakirja lisätään automaattisesti **Suoraveloitusvaltakirjan tunnus** -kenttään, kun luot myyntilaskun vaiheessa 2 valitulle asiakkaalle. Lisätietoja on kohdassa [Toistuvien myynti- ja ostorivien luominen](sales-how-work-standard-lines.md).
 
-## <a name="creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file"></a>SEPA-suoraveloitusperintätapahtumien luominen ja vieminen pankkitiedostoon
+## SEPA-suoraveloitusperintätapahtumien luominen ja vieminen pankkitiedostoon
 
 Jos haluat ohjata pankin siirtämään maksusumman asiakkaan pankkitililtä yrityksesi tilille, luo suoraveloitusperintätapahtuma, joka säilyttää tiedot asiakkaan pankkitilistä, kyseisestä myyntilaskuista ja suoraveloitusvaltakirjasta. Syntyvästä suoraveloitusperintämerkinnästä viet sitten XML-tiedoston, jonka lähetät tai lataat verkkopankkiin käsittelyä varten. Kaikista maksuista, joita pankki ei voinut käsitellä, tiedotetaan sinulle pankin toimesta. Sinun täytyy sitten manuaalisesti hylätä kyseessä olevat suoraveloitusmerkinnät.  
 
  > [!NOTE]  
  > Kun maksut kerätään SEPA-suoraveloituksen avulla, myyntilaskun valuutan on oltava EURO.  
 
-### <a name="to-create-a-direct-debit-collection"></a>Suoraveloitusperinnän luominen
+### Suoraveloitusperinnän luominen  
 
  1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suoraveloitusperinnät** ja valitse sitten vastaava linkki.  
  2. Valitse **Suoraveloitusperinnät**-sivulla **Luo suoraveloitusperintä** -toiminto.  
@@ -116,7 +116,7 @@ Jos haluat ohjata pankin siirtämään maksusumman asiakkaan pankkitililtä yrit
 
 Suoraveloitusperintä lisätään **Suoraveloitusperinnät**-sivulle ja vähintään yksi suoraveloitusperintätapahtuma luodaan.  
 
-### <a name="to-export-a-direct-debit-collection-entry-to-a-bank-file"></a>Suoraveloitusperintätapahtuman vieminen pankkitiedostoon
+### Suoraveloitusperintätapahtuman vieminen pankkitiedostoon
 
  1. Valitse **Suoraveloitusperinnät**-sivulla **Suoraveloitusperintämerkintä**-toiminto.  
  2. Valitse **Suoraveloitusperintätapahtumat**-sivulla merkintä, jonka haluat viedä, ja valitse sitten **Luo suoraveloitustiedosto**.  
@@ -126,13 +126,13 @@ Suoraveloitusperintä lisätään **Suoraveloitusperinnät**-sivulle ja vähint�
 
  Jos vietyä tiedostoa ei voi käsitellä, esimerkiksi sen vuoksi, että asiakkaan pankkitilillä ei ollut riittävästi varoja, voit hylätä suoraveloitusperintämerkinnän. Jos pankki käsitteli vientitiedoston onnistuneesti, kyseessä olevien myyntilaskujen erääntyneet maksut kerätään automaattisesti kyseisiltä asiakkailta. Tässä tapauksessa voit sulkea perinnän.  
 
-### <a name="to-reject-a-direct-debit-collection-entry"></a>Suoraveloitusperintätapahtuman hylkääminen
+### Suoraveloitusperintätapahtuman hylkääminen  
 
 * Valitse **Suoraveloitusperintätapahtumat**-sivulla tapahtuma, jonka käsittely ei onnistunut, ja valitse sitten **Hylkää tapahtuma**.  
 
     **Suoraveloitusperintätapahtumat**-sivun **Tila**-kentän arvoksi muutetaan **Hylätty**.  
 
-### <a name="to-close-a-direct-debit-collection"></a>Suoraveloitusperinnän sulkeminen
+### Suoraveloitusperinnän sulkeminen
 
 * Valitse **Suoraveloitusperintätapahtumat**-sivulla tapahtuma, jonka käsittely ei onnistunut, ja valitse sitten **Sulje kokoelma**.  
 
@@ -140,13 +140,13 @@ Suoraveloitusperintä lisätään **Suoraveloitusperinnät**-sivulle ja vähint�
 
  Voit nyt siirtyä kirjaamaan mukana olevien myyntilaskujen maksukuitit. Voit tehdä tämän, kun yleensä kirjaat maksukuitteja, kuten **Maksurekisteröinti**-sivulla, tai voit kirjata liittyvät maksukuitit suoraan **Suoraveloitusperintätapahtumat**-sivulta. Lisätietoja on ohjeaiheessa [Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md).
 
-## <a name="posting-sepa-direct-debit-payment-receipts"></a>SEPA-suoraveloitusmaksujen kirjaaminen
+## SEPA-suoraveloitusmaksujen kirjaaminen
 
 Kun pankki on käsitellyt onnistuneesti suoraveloitusperinnän, voit siirtyä kirjaamaan maksukuitit kyseiselle myyntilaskuille. Lisätietoja on kohdassa [SEPA-suoraveloitusperintätapahtumien luominen ja vieminen pankkitiedostoon](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file).  
 
 Voit kirjata suoraan maksun suoraan **Suoraveloitusperinnät**- tai **Suoraveloitusperintätapahtumat**-sivulta. Vaihtoehtoisesti voit siirtää työn toiselle käyttäjälle valmistelemalla siihen liittyvät päiväkirjarivit.  
 
-### <a name="to-post-a-direct-debit-payment-receipt-from-the-direct-debit-collections-page"></a>Suoraveloitusmaksukuitin kirjaaminen suoraveloitusperinnän sivulta
+### Suoraveloitusmaksukuitin kirjaaminen suoraveloitusperinnän sivulta
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suoraveloitusperinnät** ja valitse sitten vastaava linkki.  
 2. Valitse rivi suoraveloitusperinnälle, joka on viety pankkitiedostoon ja jonka pankki on käsitellyt onnistuneesti.
@@ -162,7 +162,7 @@ Voit kirjata suoraan maksun suoraan **Suoraveloitusperinnät**- tai **Suoraveloi
 
 5. Valitse **OK**-painike.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Huoltohallinto](service-service.md)
