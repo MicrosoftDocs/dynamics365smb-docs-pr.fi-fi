@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Nimikkeiden ja sijaintien määrittäminen ohjattua hyllytystä ja poimintaa varten
+# <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Nimikkeiden ja sijaintien määrittäminen ohjattua hyllytystä ja poimintaa varten
 
 Kun otat ohjatun hyllytyksen ja poiminnan käyttöön fyysisen varastoinnin sijainnissa, voit tehostaa fyysistä varastointia uusien toimintojen avulla. Jotta hyötyisit mahdollisimman paljon näistä toiminnoista, anna ohjelmalle nimikkeistä lisätietoja, joiden avulla ohjelma voi laskea tehokkaimman fyysisen varastoinnin aktiviteettien suoritustavan. 
 
-## Nimikkeen määritys ohjattua hyllytystä ja poimintaa varten  
+## <a name="to-set-up-an-item-for-directed-put-away-and-pick"></a>Nimikkeen määritys ohjattua hyllytystä ja poimintaa varten
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
 2. Avaa ohjattua hyllytystä ja poimintaa varten määritettävän nimikkeen kortti.
@@ -25,7 +25,7 @@ Kun otat ohjatun hyllytyksen ja poiminnan käyttöön fyysisen varastoinnin sija
 6. Valitse **Varastopaikan sisältö** -toiminto.
 7. Määritä **Varastopaikan sisältö** -sivulla sijainti ja varastopaikka, johon nimike on liitettävä. **Oletusarvo**-kenttä ei ole käytössä, kun sijainnissa on käytössä ohjattu hyllytys ja poiminta.  
 
-## Ohjatun hyllytyksen ja poiminnan käytön aloittaminen
+## <a name="to-start-using-directed-put-away-and-pick"></a>Ohjatun hyllytyksen ja poiminnan käytön aloittaminen
 
 Ohjatun hyllytyksen ja poiminnan avulla voit käyttää laajennettuja varastomääritystoimintoja, jotka tehostavat varastointia ja parantavat tietojen luotettavuutta. Jotta voisit käyttää tätä toimintoa, tietyt fyysisen varastoinnin sijainnin parametrit on määritettävä ensin.  
 
@@ -46,7 +46,7 @@ Voit myös määrittää fyysisen varastoinnin luokkakoodeja, jos fyysisessä va
 
 Seuraavaksi voidaan tarvittaessa määrittää vyöhykkeet. Käyttämällä alueita voidaan vähentää varastopaikkoja määritettäessä täytettävien kenttien määrää, koska alueille luodut varastopaikat perivät useita ominaisuuksia alueelta. Alueet voivat myös helpottaa uusien tai väliaikaisten työntekijöiden toimia fyysisessä varastoinnissa. Huomaa, että varastopaikat ohjaavat työnkulkua, ja siksi on mahdollista käytää varastopaikkoja ja vain yhtä aluetta.  
 
-## Alueen määrittäminen fyysiseen varastoon  
+## <a name="to-set-up-a-zone-in-your-warehouse"></a>Alueen määrittäminen fyysiseen varastoon
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten vastaava linkki.  
 2. Valitse sijainti, johon haluat määrittää alueen, ja avaa sijaintikortti. Valitse sitten **Alueet**-toiminto.  
@@ -61,7 +61,7 @@ Seuraava määritysvaihe on varastopaikkojen määritys. Lisätietoja on kohdass
 
 Lisäksi on luotava hyllytysmallit ja laskentajaksot. Lisätietoja on kohdassa [Hyllytysmallien määrittäminen](warehouse-how-to-set-up-put-away-templates.md).  
 
-## Katso myös  
+## <a name="see-also"></a>Katso myös
 
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
 [Varasto](inventory-manage-inventory.md)  

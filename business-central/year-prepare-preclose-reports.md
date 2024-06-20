@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Sulkemista edeltävien raporttien käyttäminen
+# <a name="use-pre-closing-reports"></a>Sulkemista edeltävien raporttien käyttäminen
 
 Ennen kirjojen sulkemista vuoden tai kauden lopussa voit varmistaa tilien tietojen oikeellisuuden käyttämällä useita eri vakioraportteja. Voit esimerkiksi tarkistaa **Asiakas - Alust. saldo** -raportin avulla, että asiakkaan kirjausryhmän saldo vastaa vastaavan kirjanpitotilin saldoa tiettynä päivämääränä.
 
@@ -30,7 +30,7 @@ Seuraavassa taulukossa on luettelo raporteista, joista voi olla hyötyä tässä
 
 Raportin nähdäksesi valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita nimi sellaisena kuin se näkyy taulukossa ja valitse sitten liittyvä linkki.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

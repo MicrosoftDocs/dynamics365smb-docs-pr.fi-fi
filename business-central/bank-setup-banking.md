@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Pankkitoiminnan määrittäminen
+# <a name="setting-up-banking"></a>Pankkitoiminnan määrittäminen
 
 Pankkitilikorttien avulla voit seurata kaikkia pankkitilejäsi missä tahansa valuutassa. Kun olet määrittänyt pankkitilit, voit myös käyttää Sekin tulostus -vaihtoehtoa.
 
@@ -25,7 +25,7 @@ Voit käyttää sähköisiä pankkipalveluita pankin tiliotteiden tuonnissa ja m
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  

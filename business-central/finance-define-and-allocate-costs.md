@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Kustannusten määrittäminen ja kohdistaminen
+# <a name="defining-and-allocating-costs"></a>Kustannusten määrittäminen ja kohdistaminen
 
 Kustannusten kohdistukset siirtävät kustannuksia ja tuottoja eri kustannustyyppien, kustannuspaikkojen ja kustannuskohteiden välillä. Voit määrittää niin monta kodhistusta kuin on tarpeen. Jokainen kohdistus koostuu:  
 
@@ -28,11 +28,11 @@ Määritä jokaiselle kohdistuksen kohteelle kohdistusperuste. Kohdistusperuste 
 
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.
 
-## Kohdistuksen lähteen ja sen tavoitteiden määrittäminen
+## <a name="setting-up-allocation-source-and-targets"></a>Kohdistuksen lähteen ja sen tavoitteiden määrittäminen
 
 Jokainen kohdistus koostuu kohdistuslähteestä ja sekä vähintään yhdestä kohdistuskohteesta. Kohdistuksen lähde määrittää, mitkä kustannukset kohdistetaan. Kohdistuskohteet määrittävät, mihin kustannukset kohdistetaan.  
 
-### Määritä kustannusten kohdistamiset
+### <a name="to-set-up-cost-allocations"></a>Määritä kustannusten kohdistamiset
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannusten kohdistaminen** ja valitse sitten vastaava linkki.  
 2. Valitse **Kustannusten kohdistaminen** -sivulla **Muokkaa**-toiminto.  
@@ -50,11 +50,11 @@ Jokainen kohdistus koostuu kohdistuslähteestä ja sekä vähintään yhdestä k
 > [!NOTE]  
 > Deaktivoi kohdistamisen määritys valitsemalla **Estetty** -valintaruutu.
 
-## Suodattimien määrittäminen dynaamisen kohdistuksen perusteille.
+## <a name="setting-filters-for-dynamic-allocation-bases"></a>Suodattimien määrittäminen dynaamisen kohdistuksen perusteille.
 
 Dynaaminen kohdistusmenetelmä on perustuu muutettaviin arvoihin. Esimerkiksi kustannuspaikan työntekijöiden tai kustannuskohteen myytyjen nimikkeiden määrä tietyn ajanjakson aikana. Ohjelmassa on yhdeksän ennalta määritettyä kohdistamisen perustetta ja kaksitoista dynaamista päivämääräväliä. Voit määrittää eri suodattimia kohdistuksen perusteella.  
 
-### Asetetaan suodattimia
+### <a name="setting-filters"></a>Asetetaan suodattimia
 
 Seuraavassa taulukossa on esitetty mitä suodattimia on mahdollista käyttää eri kohdistusperusteille ja mitkä arvot ovat mahdollisia **Nrosuodatus**- ja **Ryhmäsuodatus**-kentissä. Luo tarkat kuvaukset painamalla <kbd>F1</kbd>-näppäintä **Päivämäärän suodatuskoodi** -kentässä.  
 
@@ -70,7 +70,7 @@ Seuraavassa taulukossa on esitetty mitä suodattimia on mahdollista käyttää e
 |Nimikkeitä myyty (Summa)|Nimikkeen nro|Kyllä|Kyllä|Kyllä|Varaston kirjausryhmä|  
 |Nimikkeitä ostettu (Summa)|Nimikenro|Kyllä|Kyllä|Kyllä|Varaston kirjausryhmä|
 
-## Skenaario 1: Kohdistamissuhteeseen perustuvan staattisen kohdistamisen määrittäminen
+## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio"></a>Skenaario 1: Kohdistamissuhteeseen perustuvan staattisen kohdistamisen määrittäminen
 
 Staattinen kohdistaminen perustuu määriteltyihin arvoihin, kuten pinta-alaan tai vahvistettu-varaus -suhteeseen, esimerkiksi 5:2:4.  
 
@@ -79,7 +79,7 @@ Tässä aiheessa kuvataan, miten määrittää kolmen uuden kohdistuskohteen kus
 > [!NOTE]  
 > Esimerkissä käytetään demodataa [!INCLUDE[prod_short](includes/prod_short.md)]:sta.  
 
-### Määritä varauksen lähde TUOT kustannuspaikka yleisessä pikavälilehdessä  
+### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Määritä varauksen lähde TUOT kustannuspaikka yleisessä pikavälilehdessä
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannusten kohdistaminen** ja valitse sitten vastaava linkki.  
 2. Valitse **Kustannusten kohdistaminen** -sivulla **Uusi**-toiminto.  
@@ -89,7 +89,7 @@ Tässä aiheessa kuvataan, miten määrittää kolmen uuden kohdistuskohteen kus
 6. Syötä **Kustanuspaikkakoodi**-kenttään **TUOT**.  
 7. Syötä **Luotto kustannustyyppiin** -kenttään kustannustyyppi **9903**.  
 
-### Määritä kodhistuskohteen kustannus-objektit Rivit-pikavälilehdellä  
+### <a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a>Määritä kodhistuskohteen kustannus-objektit Rivit-pikavälilehdellä
 
 1. Syötä laskun ensimmäiselle riville **Kohdekustannustyyppi**-kenttään **9903**.  
 2. Syötä ensimmäiselle riville **Kohdekustannuskohde**-kenttään **LISÄLAITT**.  
@@ -110,14 +110,14 @@ Tässä aiheessa kuvataan, miten määrittää kolmen uuden kohdistuskohteen kus
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] laskee automaattisesti **Prosentti**-kenttään prosenttiarvon, joka määräytyy kaikkien niiden kolmen kohdistussuhteen mukaan, jotka syötetty **Osuus**-kenttään kaikilla kolmella rivillä.
 
-## Skenaario 2: Dynaamisten kohdistamisten määrittäminen myytyjen nimikkeiden perusteella
+## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a>Skenaario 2: Dynaamisten kohdistamisten määrittäminen myytyjen nimikkeiden perusteella
 
 Tässä aiheessa kuvataan esimerkki siitä, kuinka kohdistuksia määritetään käyttämällä dynaamista kohdistustapaa. Esimerkissä muutetaan MYYNTI-kustannuspaikan kustannusten dynaaminen kohdistaminen tukemaan uutta IT-LAITTEISTO -kustannuskohdetta. IT-LAITTEISTO-paketeissa ovat nimikenumerot välilä 8904-W – 8924-W. Osuus lasketaan edellisen vuoden myyntilukujen avulla. Kohdistus kirjataan apukustannuslajiin 9903.  
 
 > [!NOTE]  
 > Esimerkissä käytetään demodataa [!INCLUDE[prod_short](includes/prod_short.md)]:sta.  
 
-### Märitä edellisvuonna myyytihin nimikkeisiin perustuvat dynaamiset kohdistukset  
+### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Märitä edellisvuonna myyytihin nimikkeisiin perustuvat dynaamiset kohdistukset
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannusten kohdistamiset** ja valitse sitten vastaava linkki.  
 2. Valitse **Kustannusten kohdistaminen** -sivulla **Uusi**-toiminto.  
@@ -137,7 +137,7 @@ Tässä aiheessa kuvataan esimerkki siitä, kuinka kohdistuksia määritetään 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] käyttää edellisen vuoden myyntilukuja laskettaessa 1596.50 PVA:n 100 prosentin osuus IT-LAITTEISTO -paketteja varten. Tämä tarkoittaa sitä, että kaikki viime vuonna myydyt nimikkeet kohdennetaan kustannuskohteelle IT-LAITTEISTO.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
  [Kustannuslaskennan määrittäminen](finance-set-up-cost-accounting.md)  
  [Kustannustapahtumien siirtäminen ja kirjaaminen](finance-transfer-and-post-cost-entries.md)  

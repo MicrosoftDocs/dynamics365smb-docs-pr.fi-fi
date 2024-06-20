@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Ennakkomaksujen laskuttaminen
+# <a name="invoicing-prepayments"></a>Ennakkomaksujen laskuttaminen
 
 [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -29,7 +29,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Tilauksen luominen, ennakkomaksusummien muuttaminen ja ennakkomaksusummien mukaisen laskun lähettäminen.|[Ennakkomaksulaskujen luominen](finance-how-to-create-prepayment-invoices.md)|  
 |Lisäennakkomaksulaskun lähettäminen joko lisänimikkeiden tai alkuperäiseen tilaukseen kuulumattoman lisätalletuksen vuoksi tai ennakkomaksun hyvityslaskun lähettäminen.|[Ennakkomaksujen korjaaminen](finance-how-to-correct-prepayments.md)|  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Rahoitus](finance.md)  

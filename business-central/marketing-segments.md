@@ -12,7 +12,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Segmenttien hallinta
+# <a name="managing-segments"></a>Segmenttien hallinta
 Luomalla segmenttejä voit valita kontaktiryhmän tiettyjen ehtojen mukaan. Esimerkiksi segmentti voi olla toimiala, johon kontaktit kuuluvat, tai liikesuhde kontaktien kanssa. Luomalla segmentin voit valita kampanjan kohteeksi haluamasi kontaktit.
 
 Segmenttien luomisessa on seuraavat kaksi päätehtävää:
@@ -28,7 +28,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 | Hallitse segmentteihin liitettyjä kontakteja. |[Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md) |
 | Lisätietoja segmenttien vuorovaikutusten, myös lokiin kirjaamisen käyttämisestä. |[Segmenttien vuorovaikutusten hallinta](marketing-interaction-segments.md) |
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  
 [Kontaktien hallinta](marketing-contacts.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

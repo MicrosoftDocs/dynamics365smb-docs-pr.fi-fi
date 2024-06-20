@@ -7,7 +7,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-### Päiväkirjojen peruuttaminen virheiden korjaamiseksi
+### <a name="reversing-journals-to-correct-mistakes"></a>Päiväkirjojen peruuttaminen virheiden korjaamiseksi
 
 Kun käsittelet päiväkirjoja, joissa on monta riviä ja jokin menee pieleen, on tärkeää, että virheet on helppo korjata. **Kirjattu yleisen päiväkirjan** sivu sisältää muutamia toimintoja, jotka voivat auttaa.
 

@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Johdatus Business Centraliin ja Power BIhin
+# <a name="introduction-to-business-central-and-power-bi"></a>Johdatus Business Centraliin ja Power BIhin
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -19,7 +19,7 @@ ms.service: dynamics-365-business-central
 
 ![Power BI ja Business Central.](media/power-bi-intro.png)
 
-## Power BI:n ja Business Centralin käyttötapoja
+## <a name="what-you-can-do-with-power-bi-and-business-central"></a>Power BI:n ja Business Centralin käyttötapoja
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in ja Power BI:n käyttöä varten on erilaisia ominaisuuksia. Joitakin toimintoja voi tehdä Power BI:ssa, kun taas joitakin tehdään [!INCLUDE[prod_short](includes/prod_short.md)]issa. Lisäksi osa ominaisuuksista on käytössä vain [!INCLUDE[prod_short](includes/prod_short.md)] online -versiossa mutta ei paikallisessa versiossa. Seuraavassa taulukossa on ominaisuuksien yleiskuva.
 
@@ -33,7 +33,7 @@ ms.service: dynamics-365-business-central
 
 <a name="onprem"><sup>*</sup></a> Tätä ominaisuutta varten tarvitaan Microsoft Azuressa rekisteröity Business Centralin sovellus. Lisätietoja on kohdassa [Paikallisen Business Centralin rekisteröinti Microsoft Entra ID:ssä muiden palvelujen integrointia varten](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## Power BI:n valmistelu käyttöä varten
+## <a name="get-ready-to-use-power-bi"></a>Power BI:n valmistelu käyttöä varten
 
 Muutama tehtävä on suoritettava, ennen kuin Power BI:ta voi käyttää [!INCLUDE[prod_short](includes/prod_short.md)]in kanssa.<!-- Some of the tasks are typically only done by administrators or super users.--> Tehtävät määräytyvät sen mukaan, mikä roolisi organisaatiossa on ja mitä haluat tehdä Power BI:ssä:
 
@@ -49,12 +49,12 @@ Muutama tehtävä on suoritettava, ennen kuin Power BI:ta voi käyttää [!INCLU
 |Ota Power BI -integrointi käyttöön<br />(vain paikallinen)||![se on valintamerkki.](media/check.png)||[Määritä paikallinen Business Central Power BI -integraatiota varten](across-working-with-business-central-in-powerbi.md#setup)|
 
 
-## Seuraavat vaiheet
+## <a name="next-steps"></a>Seuraavat vaiheet
 
 - Jos olet järjestelmänvalvoja, joka täytyy määrittää Power BI [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan, siirry kohtaan [Power BI -integroinnin käyttöönotto](admin-powerbi-setup.md).
 - Jos Power BI on jo määritetty ja haluat kokeilla ominaisuuksia, siirry kohtaan [Power BI -raporttien käsitteleminen Business Centralissa](across-working-with-powerbi.md).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Analytiikan yleiskatsaus](reports-bi-reporting.md)   
 [KPI:iden seuraaminen Power BI -mittareiden avulla](track-kpis-with-power-bi-metrics.md)   

@@ -9,7 +9,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Business Central-tiedostojen avaaminen ja jakaminen Microsoft OneDrivessa
+# <a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a>Business Central-tiedostojen avaaminen ja jakaminen Microsoft OneDrivessa
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in avulla on helppo tallentaa, hallita ja jakaa tiedostoja muiden ihmisten kanssa Microsoft OneDrive for Businessin kautta. Useimmilla sivuilla, joilla on saatavilla tiedostoja, kuten raportin Saapuneet-kansio tai kun tiedostot on liitetty tietueisiin, löydät **Avaa OneDrivessa**- ja **Jaa**-toiminnot.
 
@@ -20,7 +20,7 @@ ms.reviewer: jswymer
 :::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="Liitteiden Avaa OneDrivessa- ja Jaa-toiminnot":::
 
 
-## Avaa OneDrivessa
+## <a name="open-in-onedrive"></a>Avaa OneDrivessa
 
 **Avaa OneDrivessa** -toiminto kopioi tiedoston OneDriveen ja avaa tiedoston sovelluksessa, kuten Microsoft Excel Online, Microsoft Word Online tai Microsoft PowerPoint Online. 
 
@@ -32,7 +32,7 @@ Näiden sovellusten Online-versioiden avulla voit lisätä huomautuksia, muokata
 
 Muita suosittuja tiedostotyyppejä, kuten PDF-tiedostoja, tekstitiedostoja ja kuvia, varten OneDrive tarjoaa tiedostojen katselijat, jotka tarjoavat ominaisuuksia esimerkiksi tulostamiseen ja jakamiseen. Jos tiedostoa ei voi tarkastella OneDrivessa , sinua saatetaan pyytää lataamaan se.
 
-## Jaa
+## <a name="share"></a>Jaa
 
 **Jaa**-toiminto kopioi tiedoston OneDriveen, jolloin voit nähdä kenen kanssa olet jo jakanut tiedoston, ja voit myös jakaa tiedoston muiden käyttäjien kanssa. Kun valitset **Jaa**-toiminnon, seuraava sivu avautuu.
 
@@ -54,7 +54,7 @@ Business Centralin jakamistoiminto perustuu OneDriveen. Lisätietoja OneDriven j
 > [!NOTE]
 > **Jaa**-toiminto ei ole käytettävissä mobiililaitteiden Business Central -sovelluksessa.
 
-## Ensimmäisen kerran kirjautuminen Business Centralista
+## <a name="first-time-sign-in-from-business-central"></a>Ensimmäisen kerran kirjautuminen Business Centralista
 
 Kun käytät **Avaa OneDrivessa**- tai **Jaa**-toimintoa ensimmäistä kertaa, [!INCLUDE[prod_short](includes/prod_short.md)] tekee seuraavat toimet:
 
@@ -65,7 +65,7 @@ Kun käytät **Avaa OneDrivessa**- tai **Jaa**-toimintoa ensimmäistä kertaa, [
 
 Sitten, kun seuraavan kerran käytät **Avaa OneDrivessa** tai **Jaa**-toimintoa, [!INCLUDE[prod_short](includes/prod_short.md)] vain kopioi ja avaa tiedoston. 
 
-## Tiedoston useiden kopioiden hallinta
+## <a name="managing-multiple-copies-of-a-file"></a>Tiedoston useiden kopioiden hallinta
 
 Kun valitset **Avaa OneDrivessa** tai **Jaa**, tiedosto kopioidaan [!INCLUDE[prod_short](includes/prod_short.md)]ista OneDrive-kansioon. Jos muokkaat tiedostoa OneDrivessa, tiedoston kopiot ovat erilaiset kuin [!INCLUDE[prod_short](includes/prod_short.md)] -tiedostossa. Voit päivittää [!INCLUDE[prod_short](includes/prod_short.md)]iin uusimman tiedostoversion poistamalla aiemmin luodun tiedoston [!INCLUDE[prod_short](includes/prod_short.md)]ista ja lataamalla uusimman kopion.
 
@@ -83,7 +83,7 @@ Jos samanniminen tiedosto on jo olemassa OneDrivessa, sinulle annetaan seuraavat
 
   Tämä valinta säilyttää nykyisen tiedoston sellaisenaan ja tallentaa Business Centralista valitsemasi tiedoston eri nimellä. Uusi nimi on samankaltainen kuin olemassa oleva nimi, paitsi että liitteen numero on esimerkiksi "Nimikkeet (2).xlsx".
 
-## Tietoja Business Central-kansiosta OneDrivessa
+## <a name="about-your-business-central-folder-on-onedrive"></a>Tietoja Business Central-kansiosta OneDrivessa
 
 Kansio ja sen sisältö ovat yksityisiä, kunnes päätät jakaa ne muiden kanssa. Joten voit päättää jakaa sisältöä yhden tai useamman työtoverisi tai jopa organisaatiosi ulkopuolisen henkilön kanssa. 
 
@@ -94,7 +94,7 @@ Voit käyttää OneDrivea **Omat asetukset** -sivulta valitsemalla linkin **Pilv
 <!--## Extending the Connection to OneDrive
 You can create an extension and connect it to... For more information, see...-->
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Business Centralin ja OneDriven integraatio](across-onedrive-overview.md)  
 [OneDriven ja Business Centralin integroinnin hallinta](admin-onedrive-integration.md)  

@@ -11,7 +11,7 @@ ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Tilikartan ymmärtäminen
+# <a name="understanding-the-chart-of-accounts"></a>Tilikartan ymmärtäminen
 
 Tilikartta (COA) toimii rahoitustilien ja niitä vastaavien viitenumeroiden kattavana hakemistona. COA:ssa on yleensä kaksi tililuokkaa:
 
@@ -39,7 +39,7 @@ Yrityksesi tilikartan kokoonpano on johdon tekemä strateginen päätös (tai ma
 * Teknologiayritys voisi keskittyä aineettomaan omaisuuteen, kuten patentteihin ja ohjelmistoihin.
 * Tuotantolaitos seuraisi käyttöomaisuutta ja toimituksia.
 
-## Tilikartta-sivu
+## <a name="the-chart-of-accounts-page"></a>Tilikartta-sivu
 
 Kaikki pääkirjanpidon tilit näkyvät tilikartassa. Tilikartassa voi tehdä esimerkiksi seuraavia toimintoja:  
 
@@ -51,11 +51,11 @@ Kaikki pääkirjanpidon tilit näkyvät tilikartassa. Tilikartassa voi tehdä es
 
 Voit lisätä, muuttaa tai poistaa pääkirjanpidon tilejä. Ristiriitojen estämiseksi et voi kuitenkaan poistaa pääkirjanpidon tiliä, jos sen tietoja käytetään tilikartassa. Voit myös estää tilien tahattoman poistamisen arkaluonteisissa jaksoissa. Lisätietoja tilien suojaamisesta poistolta on kohdassa [Tilien poisto](finance-setup-chart-accounts.md#delete-accounts).  
 
-## Koodihierarkia KP-tileillä
+## <a name="the-code-hierarchy-in-gl-accounts"></a>Koodihierarkia KP-tileillä
 
 Yritykset luovat tyypillisesti hierarkkisen rakenteen KP-tilin koodeissa, jotta se heijastaa, mihin ne kuuluvat tilin luettelossa. Esimerkiksi joissakin täytäntöönpanoissa KP-tilien koodit, jotka alkavat numerosta **1**, viittaavat käyttöomaisuustileihin, kun taas KP-tilien koodit, jotka alkavat numerosta 3, viittaavat pääomatileihin. Joillakin alueilla on paikallisia sääntöjä vakiotilikartan käytöstä. Voit auttaa käyttäjiä ymmärtämään tätä hierarkiaa ilman sisäistä koodirakennetta määrittämällä tilikartassa otsikoita ja välisummia, jotka kapseloivat nämä sisäiset rakenteet.
 
-## Oman tilikartan rakentaminen
+## <a name="designing-your-chart-of-accounts"></a>Oman tilikartan rakentaminen
 
 Kukin tilikauden rivi on yksi seuraavan tyyppisistä KP-tileistä:
 
@@ -70,17 +70,17 @@ Minimalistinen tilikartta voi koostua vain kirjaustilien riveistä. Neljän muun
 > [!TIP]
 > Jos käytät tilikartassasi muita tilityyppejä kuin **Kirjaus**, voit määrittää eri näkymiä, joissa näkyvät "raa'at" kirjaustilit, joilla ei ole raportointityyppistä tilityyppiä summaukselle ja otsikoille. Voit esimerkiksi näyttää vain kirjaustilit ja piilottaa suljettuja tilejä.
 
-## Dimensioiden käyttäminen tilikartan yksinkertaistamiseksi
+## <a name="use-dimensions-to-simplify-your-chart-of-accounts"></a>Dimensioiden käyttäminen tilikartan yksinkertaistamiseksi
 
 Dimensiot ovat tapahtumia luokittelevia arvoja, jotta voit seurata ja analysoida tapahtumia asiakirjoissa, kuten myyntitilauksissa. Dimensioiden avulla voit esimerkiksi ilmaista, mistä projektista tai osastosta tapahtuma on lähtöisin. Sen sijaan, että määrittäisit kullekin osastolle ja projektille erilliset kirjanpitotilit, voit käyttää dimensioita analyysin perustana ja välttää monimutkaisen tilikartan luomisen.
 
 Saat lisätietoja dimensioista siirtymällä kohtaan [Dimensioiden käyttäminen](finance-dimensions.md).
 
-## Hanki nopea yleiskuva raha-asioistasi
+## <a name="get-a-quick-overview-of-your-finances"></a>Hanki nopea yleiskuva raha-asioistasi
 
 **Tilikartat**-sivulla näkyvät hierarkkisessa luettelossa olevat tilit, jotka tarjoavat nopean pääsyn kunkin tilin avaintietoihin. Luettelo on kuitenkin staattinen, ja jos sinulla on paljon tilejä, sinun on ehkä vieritettävä nähdäksesi eri tilejä. Jos haluat vain nopean yleiskatsauksen perusasioista, kuten nettomuutoksista ja saldoista, **Tilikartan yleiskuvaus** -sivu on hyödyllinen vaihtoehto. Sivun sarakeasettelu on nyt sama kuin jonka löydät **tilikartta**-sivulta (vaikkakin vähemmillä sarakkeilla), joten se on helppo ymmärtää. Voit laajentaa tai kutistaa hierarkiatasoja. Jotta sivuja olisi helppo vaihtaa, **Tilikartan yleiskuvaus** -sivu on käytettävissä **Tilikartta**-sivulta.
 
-## Pääsy tilikartan luomiseen ja muokkaamiseen
+## <a name="access-to-create-and-edit-the-chart-of-accounts"></a>Pääsy tilikartan luomiseen ja muokkaamiseen
 
 Pienessä organisaatiossa, kuten CRONUS-esittely-yrityksessä, useimmat käyttäjät voivat muokata tilikarttaa lukuun ottamatta niitä käyttäjiä, joilla on TEAM MEMBER -käyttöoikeus. Suuremmissa organisaatioissa käytetään tyypillisesti rooleja ja käyttöoikeuksia rajoittamaan tilikartan muokkausoikeutta. Jos olet järjestelmänvalvoja tai sinulla on Liiketoimintajohtaja- tai Kirjanpitäjä-rooli, voit hallita käyttöoikeuksia antaaksesi oikeille käyttäjille oikeuden käyttää asianomaisia taulukoita. Lue lisätietoja kohdasta [Käyttäjän käyttöoikeuksien yleiskatsauksen hankkiminen](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
 
@@ -95,7 +95,7 @@ Here are some examples of such standards that have been implemented in localized
 * [Standard chart of accounts in Denmark](localfunctionality/denmark/how-to-set-up-standard-coa.md)
 -->
 
-## Tilikartan parhaat käytännöt
+## <a name="chart-of-accounts-best-practices"></a>Tilikartan parhaat käytännöt
 
 Seuraavassa on joitakin parhaita toimintatapoja, joita kannattaa harkita tilikartan kehittämisessä ja ylläpidossa:
 
@@ -105,7 +105,7 @@ Seuraavassa on joitakin parhaita toimintatapoja, joita kannattaa harkita tilikar
 * Dimensioiden käyttäminen tilikartan yksinkertaistamiseksi. Sinulla ei ole KP-tilejä kullekin tuotteelle tai osastolle.
 * Lisää uusia KP-tilejä niiden edetessä, mutta poista tilit tilikartasta vain rahoitusjakson jakson lopussa.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Tilikartan määrittäminen tai muuttaminen](finance-setup-chart-accounts.md)  
 [Pääkirjanpidon ymmärtäminen](finance-general-ledger.md)

@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Kustannuslaskenta
+# <a name="accounting-for-costs"></a>Kustannuslaskenta
 Kustannuslaskennan avulla voit ymmärtää käynnissä olevan liiketoiminnan kustannuksia. Aloita Kustannuslaskenta katsomalla seuraavat aiheet.  
 
 |Tehtävä|Katso|  
@@ -24,7 +24,7 @@ Kustannuslaskennan avulla voit ymmärtää käynnissä olevan liiketoiminnan kus
 |Tutustu kustannusbudjetin luonnin prosesseihin.|[Kustannusbudjettien luominen](finance-create-cost-budgets.md)|
 |Peruutat kustannusbudjettitapahtumat kustannusbudjettirekisteristä.|[Kustannusbudjettitapahtumien poistaminen](finance-how-to-delete-cost-budget-entries.md)|
 
-## Katso myös  
+## <a name="see-also"></a>Katso myös
 [Taloushallinto](finance.md)  
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

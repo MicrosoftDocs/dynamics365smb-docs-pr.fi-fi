@@ -11,11 +11,11 @@ ms.search.form: '103, 104, 108, 488, 489, 490'
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Vaihekuvaus: Kassavirtaennusteiden tekeminen talousraporttien avulla
+# <a name="walkthrough-making-cash-flow-forecasts-using-financial-reports"></a>Vaihekuvaus: Kassavirtaennusteiden tekeminen talousraporttien avulla
 
 Tässä vaihekuvauksessa kuvataan, kuinka talousraporttien ominaisuuden avulla voit tehdä kassavirtaennusteita. Talousraportit suorittavat laskutoimituksia, joita ei voi tehdä suoraan kassavirtakaavioihin. Talousraporttien avulla voidaan määrittää välisummat kassavirtavastaanottoja ja suorituksia varten. Nämä välisummat voidaan sisällyttää uusiin kokonaissummiin, joita voidaan sitten käyttää kassavirtaennusteita tehtäessä.  
 
-## Tietoja tästä vaihekuvauksesta
+## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta
 
 Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:  
 
@@ -25,28 +25,28 @@ Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:
 - Sarakemäärityksen liittäminen talousraporttiin.  
 - Tarkastellaan ja tulostetaan kassavirtaennustetta.  
 
-### Vaatimukset
+### <a name="prerequisites"></a>Vaatimukset
 
 Tämän vaihekuvauksen ohjeiden noudattamisen edellytykset:  
 
 - [!INCLUDE[prod_short](includes/prod_short.md)]  
 - Kassavirtatyökirja ja rekisteröidyt rivit  
 
-## Roolit
+## <a name="roles"></a>Roolit
 
 Tässä vaihekuvauksessa havainnollistetaan seuraavien käyttäjäroolien tehtäviä:  
 
 - Valvoja  
 
-## Taustatietoja
+## <a name="story"></a>Taustatietoja
 
 Ken on CRONUS -päällikkö, joka tekee kuukausittaisia kassavirtaennusteita. Ken sisällyttää ennusteisiin rahoituksen, myynnin, oston ja käyttöomaisuuden ja esittelee ne talousjohtaja Saralle liiketoimintanäkemysten tarjoamiseksi.  
 
-## Uuden talousraportin nimen määrittäminen
+## <a name="setting-up-a-new-financial-report-name"></a>Uuden talousraportin nimen määrittäminen
 
 Talousraportin nimi on nimi, joka annetaan määritettyjen rivien joukon ja sarakemäärityksen sisältävälle kassavirtaennusteelle.  
 
-### Uuden talousraportin nimen määrittäminen  
+### <a name="set-up-a-new-financial-report-name"></a>Uuden talousraportin nimen määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Talousraportit** ja valitse sitten vastaava linkki.  
 2. Valitse **Talousraportit**-sivulla **Uusi** uuden kassavirran talousraportin nimen luomiseksi.  
@@ -54,11 +54,11 @@ Talousraportin nimi on nimi, joka annetaan määritettyjen rivien joukon ja sara
 4. Kirjoita **Kuvaus**-kenttään **Kassavirtaennuste**.  
 5. Jätä **Rivimääritys**- ja **Sarakemääritys**-kentät tyhjiksi.
 
-## Rivimäärityksen rivien määrittäminen
+## <a name="setting-up-row-definition-lines"></a>Rivimäärityksen rivien määrittäminen
 
 Kun talousraportin nimi on määritetty, Ken määrittää kassavirran talousraportin kunkin rivin. Ken määrittää rivit, jotka näytetään raporteissa niiden rivien lisäksi, jotka on tarkoitettu vain laskentaan.  
 
-### Rivimäärityksen rivien määrittäminen  
+### <a name="set-up-row-definition-lines"></a>Rivimäärityksen rivien määrittäminen
 
 1. Valitse **Talousraportit**-sivulla uusi luotu **Ennuste**-talousraportti ja valitse sitten **Muokkaa rivimääritystä'** -toiminto.  
 2. Anna **Rivimääritys**-sivulla kukin rivi seuraavassa taulukossa esitetyllä tavalla.  
@@ -94,7 +94,7 @@ Kun talousraportin nimi on määritetty, Ken määrittää kassavirran talousrap
     > [!NOTE]
     > Rivinumeroa R10 käytetään saamistilien summien sitouttamiseen. Rivinumeroa R20 käytetään laskemaan kaikkien käteiskuittien summa. Rivinumeroa R30 käytetään ostovelkatilien summien sitouttamiseen. Rivinumeroa R40 käytetään laskemaan kaikkien käteiskassasuoritusten summa. Rivinumeroa R50 käytetään laskemaan käteisylijäämän summa. Rivinumeroa R60 käytetään sitouttamaan käyttövaroja. Rivinumeroa R70 käytetään laskemaan ennustettu kassavirta.
 
-## Uuden sarakemäärityksen määrittäminen
+## <a name="setting-up-a-new-column-definition"></a>Uuden sarakemäärityksen määrittäminen
 
 Ennen kuin Ken voi tulostaa kassavirtaennusteen, hänen on luotava sarakemääritys numeerisille tiedoille. Sarakkeisiin Ken määrittää tiedot, jotka hän haluaa käyttää riveiltä.
 
@@ -103,7 +103,7 @@ Ennen kuin Ken voi tulostaa kassavirtaennusteen, hänen on luotava sarakemääri
 - Kolmannessa sarakkeessa on numero *C30* ja otsikko **Koko vuosi**, ja se sisältää koko tilikauden saldojen nettomuutoksen.  
 - Lopuksi Ken määrittää sarakemäärityksen talousraportin **ennusteen** oletusasetukseksi.  
 
-### Uuden sarakemäärityksen määrittäminen
+### <a name="set-up-a-new-column-definition"></a>Uuden sarakemäärityksen määrittäminen
 
 1. Valitse **Talousraportit**-sivulla luomasi uuden **Ennuste**-talousraportin nimi. Valitse **Kotisivu**-välilehden **Käsittely**-ryhmässä **Muokkaa sarakemääritystä**.
 
@@ -119,22 +119,22 @@ Ennen kuin Ken voi tulostaa kassavirtaennusteen, hänen on luotava sarakemääri
     |C20|Summa päivämäärään|Saldo pvm:ttäin|Tapahtumat|Nettosumma|Aina|  
     |C30|Koko tilikausi|Koko tilikausi|Tapahtumat|Nettosumma|Aina|
 
-## Sarakemäärityksen liittäminen talousraportin nimeen
+## <a name="assigning-the-column-definition-to-the-financial-report-name"></a>Sarakemäärityksen liittäminen talousraportin nimeen
 
 Ken on nyt valmis määrittämään sarakemäärityksen talousraportin nimeen.  
 
-### Sarakemäärityksen liittäminen talousraportin nimeen
+### <a name="assign-the-column-definition-to-the-financial-report-name"></a>Sarakemäärityksen liittäminen talousraportin nimeen
 
 1. Valitse **Talousraportit**-sivulla **Ennuste**-talousraportti ja valitse sitten **Muokkaa sarakemääritystä'** -toiminto.  
 2. Valitse **Nimi**-kentässä **Kassavirta**-sarakemääritys oletussarakemääritykseksi.  
 
-## Kassavirtaennusteen tarkasteleminen ja tulostaminen
+## <a name="view-and-print-the-cash-flow-forecast"></a>Kassavirtaennusteen tarkasteleminen ja tulostaminen
 
 1. Valitse **Talousraportit**-sivulla **Ennuste**-talousraportti uuden kassavirtaennusteen tarkastelemista varten.  
 2. **Talousraportti**-sivulla voit valita summan ja näyttää sitten kassavirran tuotantoennustetapahtumat, joista summa muodostuu. Lisäksi voit tarkastella kaavaa, jota käytetään summan laskemisessa. Voit myös suodattaa määrät dimension ja päivämäärän mukaan.  
 3. Tulosta kassavirtaennuste valitsemalla **Tulosta**-toiminto.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Talousraporttien käsitteleminen](bi-how-work-account-schedule.md)  
 [Yrityksen kassavirran analysoiminen](finance-analyze-cash-flow.md)  

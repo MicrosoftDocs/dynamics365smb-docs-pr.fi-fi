@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Käyttöomaisuuden tapauskohtainen analyysi
+# <a name="ad-hoc-analysis-of-fixed-assets-data"></a>Käyttöomaisuuden tapauskohtainen analyysi
 
 Tässä artikkelissa kerrotaan, kuinka voit käyttää **Tietojen analysointi** -ominaisuutta käyttöomaisuustietojen analysointiin suoraan luettelosivuilta ja kyselyistä. Sinun ei tarvitse suorittaa raporttia tai siirtyä toiseen sovellukseen, kuten Exceliin. Ominaisuus tarjoaa vuorovaikutteisen ja monipuolisen tavan laskea, tiivistää ja tarkastella tietoja. Sen sijaan, että raportteja suoritetaan vaihtoehdoilla ja suodattimilla, voit lisätä useita välilehtiä, jotka edustavat erilaisia tehtäviä tai näkymiä tiedoista. Esimerkkejä ovat "Kaikki resurssit", "Poistot ajan kuluessa", tai mikä tahansa muu näkymä, jonka voit kuvitella. Lisätietoja **Tietojen analysointi** -ominaisuuden käytöstä on kohdassa [analyysitilassa olevien luettelo- ja kyselytietojen analysointi](analysis-mode.md).
 
@@ -21,7 +21,7 @@ Käytä seuraavia luettelosivuja käyttöomaisuusprosessien tapauskohtaisen anal
 - [KO-tapahtumat](https://businesscentral.dynamics.com/?page=5604)
 - [Pääkirjanpidon tapahtumat](https://businesscentral.dynamics.com/?page=20)
 
-## Käyttöomaisuuden tapauskohtaiset analyysiskenaariot
+## <a name="fixed-assets-ad-hoc-analysis-scenarios"></a>Käyttöomaisuuden tapauskohtaiset analyysiskenaariot
 
 **Tietojen analysointi** -toiminnon avulla voit tarkistaa tiedot nopeasti ja tehdä tapauskohtaisia analyysejä seuraavasti:
 
@@ -37,7 +37,7 @@ Seuraavissa osissa on esimerkkejä käyttöomaisuusskenaarioista [!INCLUDE [prod
 | [Resurssien arvon muutokset ajan mittaan](#example-asset-value-changes-over-time) | Resurssien arvon muutosten seuranta ajan mittaan. | [KO-tapahtumat](https://businesscentral.dynamics.com/?page=5604) | **KO:n kirjaustyyppi**, **KO:n kirjauspvm** ja **Summa**- |
 |[Käyttöomaisuuden poistot ajan mittaan](#example-fixed-asset-depreciations-over-time) | Seuraa poistoja ajan mittaan sekä kaikissa käyttöomaisuuksissa että yhdessä käyttöomaisuudessa. | [KO-tapahtumat](https://businesscentral.dynamics.com/?page=5604) | **Poistokirja**, **KO-nro**, **KO:n kirjausvuosi**, **KO:n kirjauskuukausi**, **Summa** ja **KO:n kirjaustyyppi** |
 
-### Esimerkki: Käyttöomaisuuden nykyarvo
+### <a name="example-fixed-assets-current-value"></a>Esimerkki: Käyttöomaisuuden nykyarvo
 
 Voit seurata yhden tai useamman käyttöomaisuuserän arvoa noudattamalla seuraavia vaiheita:
 
@@ -52,7 +52,7 @@ Seuraavassa kuvassa on näiden työvaiheiden tulokset.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png" alt-text="Esimerkki siitä, miten tietoja analysoidaan KO-tapahtumat-sivulla omaisuuserän arvon katsomiseksi." lightbox="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png":::
 
-### Esimerkki: Resurssien arvon muutosten seuranta ajan mittaan
+### <a name="example-asset-value-changes-over-time"></a>Esimerkki: Resurssien arvon muutosten seuranta ajan mittaan
 
 Voit seurata käyttöomaisuuden arvon muutoksia ajan mittaan noudattamalla seuraavia vaiheita:
 
@@ -68,7 +68,7 @@ Seuraavassa kuvassa on näiden työvaiheiden tulokset.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png" alt-text="Esimerkki siitä, miten tietoja analysoidaan KO-tapahtumat-sivulla nähdäksesi resurssin arvon muutokset ajan mittaan." lightbox="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png":::
 
-### Esimerkki: käyttöomaisuuden poistot ajan mittaan
+### <a name="example-fixed-asset-depreciations-over-time"></a>Esimerkki: käyttöomaisuuden poistot ajan mittaan
 
 Voit seurata yhden tai useamman käyttöomaisuuserän poistoa noudattamalla seuraavia vaiheita:
 
@@ -85,17 +85,17 @@ Seuraavassa kuvassa on näiden työvaiheiden tulokset.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-depreciation-by-asset.png" alt-text="Esimerkki siitä, miten tietoja analysoidaan KO-tapahtumat-sivulla nähdäksesi poistot ajan mittaan." lightbox="media/data-analysis-fa-ledger-entries-depreciation-by-asset.png":::
 
-## Käyttöomaisuuden ad-hoc-analyysin tietopohja
+## <a name="data-foundation-for-ad-hoc-analysis-on-fixed-assets"></a>Käyttöomaisuuden ad-hoc-analyysin tietopohja
 
 Kun käyttöomaisuuspäiväkirjoja kirjataan, [!INCLUDE [prod_short](includes/prod_short.md)] luo tapahtumat **KO-tapahtuma** -taulukkoon. Tämän vuoksi käyttöomaisuuden tapauskohtainen analyysi tehdään yleensä [KO-tapahtumat](https://businesscentral.dynamics.com/?page=5604)-sivulla.
 
-## Avustajat
+## <a name="contributors"></a>Avustajat
 
 *Microsoft ylläpitää tätä artikkelia. Osan esimerkeistä on alun perin kirjoittanut seuraava avustaja.*
 
 * [Aldona Stec](https://www.linkedin.com/in/aldona-stec-25283bb1) | [!INCLUDE[prod_short](includes/prod_short.md)] konsultti
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Luettelo- ja kyselytietojen analysoiminen analyysitilassa](analysis-mode.md)  
 [Käyttöomaisuuden analyysin yleiskatsaus](fa-analytics-overview.md)  

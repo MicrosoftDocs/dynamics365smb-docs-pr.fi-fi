@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Rakennetiedot: kokoonpanotilauksen kirjaus
+# <a name="design-details-assembly-order-posting"></a>Rakennetiedot: kokoonpanotilauksen kirjaus
 Kokoonpanotilauksen kirjaus perustuu samoihin periaatteisiin kuin myyntitilausten ja tuotannon kulutuksen / tuotoksen kirjauksen vastaavat toiminnot. Periaatteet on kuitenkin yhdistetty niin, että kokoonpanotilauksilla on omat kirjauksen käyttöliittymänsä, kuten myyntitilauksille on omansa ja todellinen tapahtuman kirjaus tapahtuu taustalla suorana nimikkeen ja resurssipäiväkirjan kirjauksena, kuten tuotannon kulutukselle, tuotokselle ja kapasiteetille.  
 
 Samoin kuin tuotantotilauksen tiliöinti, käytetyt osat ja käytetyt resurssit muunnetaan ja tuotetaan kokoonpanonimikkeenä, kun kokoonpanotuotantotilaus on lähetetty. Katso lisätietoja kohdasta [Rakennetiedot: tuotantotilauksen kirjaus](design-details-production-order-posting.md). Kokoonpanotilausten kustannusvirta on kuitenkin yksinkertaisempi, erityisesti siksi, koska kokoonpanokustannuksen kirjaus tapahtuu vain kerran, ja tämän vuoksi se ei luo keskeneräisten töiden varastoa.  
@@ -33,7 +33,7 @@ Seuraavassa kaaviossa esitetään, kuinka kokoonpanotiedot kulkevat pääkirjaan
 
 ![Kokoonpanoon liittyvien tapahtumien työnkulku kirjauksen aikana.](media/design_details_assembly_posting_2.png "Kokoonpanoon liittyvien tapahtumien työnkulku kirjauksen aikana")  
 
-## Järjestyksen kirjaaminen  
+## <a name="posting-sequence"></a>Järjestyksen kirjaaminen
 Kokoonpanotilauksen tiliöinti tapahtuu seuraavassa järjestyksessä:  
 
 1.  Kokoonpanotilauksen rivit on kirjattu.  
@@ -49,12 +49,12 @@ Seuraava taulukko luonnostelee toimintasarjat.
 > [!IMPORTANT]  
 >  Kokoonpanon tuotos kirjataan todellisena kustannuksena, toisin kuin tuotannon tuotos, joka kirjataan oletettuna kustannuksena.  
 
-## Kustannusten muuttaminen  
+## <a name="cost-adjustment"></a>Kustannusten muuttaminen
  Kun kokoonpanotilaus kirjataan, joka tarkoittaa sitä, että komponentit (materiaali) ja resurssit kootaan uudeksi nimikkeeksi, tämän kokoonpanon nimikkeen todellisen kustannuksen ja mukana olevien komponenttien todellisen varastokustannuksen määrittämisen tulisi olla mahdollista. Tämä saavutetaan siirtämällä kustannukset lähteen (komponentit ja resurssit) kirjatuista tapahtumista kohteen (kokoonpanonimike) kirjattuihin tapahtumiin. Kustannusten vienti eteenpäin tehdään laskemassa ja luomalla uudet kirjaukset nimeltä oikaisukirjaukset, jotka tulevat liittymään kohdekirjauksiin.  
 
  Edelleen lähetettävät kokoonpanokustannukset havaitaan tilaustason havaintomekanismin avulla. Lisätietoja muista muutoksen tunnistusmekanismeista on kohdassa [Rakennetiedot: kustannuksen muutos](design-details-cost-adjustment.md).  
 
-### Muutoksen havaitseminen  
+### <a name="detecting-the-adjustment"></a>Muutoksen havaitseminen
 Tilaustason havainnointitoimintoa käytetään muunto-, tuotanto- ja kokoonpanoskenaarioissa. Toiminto toimii seuraavasti:  
 
 -   Kustannusten muuttaminen havaitaan merkitsemällä tilaus aina, kun materiaali/resurssi kirjataan kulutetuksi/käytetyksi.  
@@ -64,7 +64,7 @@ Seuraavassa kaaviossa esitetään sopeuttamiskirjauksen rakenne ja kuinka kokoon
 
 ![Kokoonpanoon liittyvien tapahtumien työnkulku kustannusoikaisun aikana.](media/design_details_assembly_posting_3.png "Kokoonpanoon liittyvien tapahtumien työnkulku kirjauksen aikana")  
 
-### Muutoksen suorittaminen  
+### <a name="performing-the-adjustment"></a>Muutoksen suorittaminen
 Havaittujen materiaali- ja resurssikustannusten määritysten laajennus kokoonpanon tuotantokirjauksiin suoritetaan **Määritä kustannukset – nimikekirjaukset** eräajossa. Se sisältää Suorita monitasoinen muutos -toiminnon, joka muodostuu seuraavista kahdesta elementistä:  
 
 -   Suorita kokoonpanotilauksen muutos – joka välittää kustannuksen materiaalin ja resurssien käytöstä kokoonpanon tuotos-tapahtumaan. Alla olevan algoritmin rivit 5 ja 6 vastaavat tästä.  
@@ -77,7 +77,7 @@ Havaittujen materiaali- ja resurssikustannusten määritysten laajennus kokoonpa
 
 Saat lisätietoja siitä, kuinka tuotannon ja kokoonpanon kustannukset kirjataan pääkirjanpitoon kohdasta [Rakennetiedot: varaston kirjaus](design-details-inventory-posting.md).  
 
-## Kokoonpanokustannukset ovat aina todellisia  
+## <a name="assembly-costs-are-always-actual"></a>Kokoonpanokustannukset ovat aina todellisia
  Työprosessin (WIP) konseptia ei voi käyttää kokoonpanotilauksen tiliöintiin. Kokoonpanokustannukset kirjataan vain todellisina kustannuksina, eikä koskaan oletettuina kustannuksina. Katso lisätietoja kohdasta [Rakennetiedot: oletetun kustannuksen kirjaus](design-details-expected-cost-posting.md).  
 
 Seuraava tietorakenne käyttää tätä.  
@@ -95,21 +95,21 @@ Lisäksi kirjausryhmä-kentät kokoonpanotilaus-otsikossa ja kokoonpanotilausriv
 
 Näin ollen vain todelliset kustannukset kirjataan pääkirjanpitoon ja väliaikaisia tilejä ei täytetä kokoonpanotilauksen kirjauksesta. Lisätietoja on kohdassa [Rakennetiedot: pääkirjanpidon tilit](design-details-accounts-in-the-general-ledger.md).  
 
-## Kokoonpano tilausta varten  
+## <a name="assemble-to-order"></a>Kokoonpano tilausta varten
 Nimiketapahtuma, joka on tuloksena kokoonpanotilauksen myynnistä on liitetty kiinteästi kokoonpanon tuotokseen liittyvään nimiketapahtumaan. Näin ollen kohdan kokoonpano tilausta varten kustannus on johdettu kokoonpanotilauksesta, johon se on linkitetty.  
 
 Kokoonpano tilausta varten -määrien kirjauksesta syntyvät myyntityypin nimiketapahtumien merkintänä on **Kyllä** **Kokoonpano tilausta varten** -kentässä.  
 
 Niiden myyntitilausrivien kirjaaminen, joilla osa on varastomäärä ja osa kokoonpano tilausta varten -määrä, aiheuttaa erilliset nimiketapahtumat: toisen varastomäärää ja toisen kokoonpano tilausta varten -määrää varten.  
 
-### Kirjauspäivämäärät
+### <a name="posting-dates"></a>Kirjauspäivämäärät
 
 Yleensä kirjauspäivämäärät kopioidaan myyntitilauksesta linkitettyyn kokoonpanotilaukseen. Kokoonpanotilauksen kirjauspäivämäärä päivittyy automaattisesti silloin, kun muutat myyntitilauksen kirjauspäivämäärää suoraan tai epäsuorasti, esimerkiksi jos muutat kirjauspäivämäärää varastotoimituksessa, varaston poiminnassa tai joukkokirjausten osana.
 
 Voit muuttaa kokoonpanotilauksen kirjauspäivämäärää manuaalisesti. Se ei kuitenkaan voi olla myöhempi kuin kirjauspäivämäärä linkitetyssä myyntitilauksessa. Tämä päivämäärä säilyy järjestelmässä, ellet päivitä myyntitilauksen kirjauspäivämäärää.
 
 
-## Katso myös  
+## <a name="see-also"></a>Katso myös
  [Rakennetiedot: varaston arvostus](design-details-inventory-costing.md)   
  [Rakennetiedot: tuotantotilauksen kirjaus](design-details-production-order-posting.md)   
  [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)  

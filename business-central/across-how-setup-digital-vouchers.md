@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.reviewer: bholtorf
 ---
 
-# Digitaalisten tositteiden määrittäminen
+# <a name="set-up-digital-vouchers"></a>Digitaalisten tositteiden määrittäminen
 
 Järjestelmänvalvojat voivat käyttää digitaalisia tositetoimintoja vaatiakseen, että asiakirjat liitetään tiettyihin tapahtumiin, kun ne kirjataan. Siksi tämä toiminto mahdollistaa lähdelähtöisen lähestymistavan ja tarjoaa paremman kirjausketjun. Tätä tarkoitusta varten voidaan konfiguroida eri tyyppisiä täytäntöönpanotoimia tositteiden tai lokityyppien mukaan.
 
@@ -21,14 +21,14 @@ Termi *digitaalinen tosite* viittaa perinteisen kirjanpidon tositteen digitaalis
 > [!IMPORTANT]
 > Joissakin maissa ja joillakin alueilla joidenkin asetusten määrittäminen saattaa olla rajoitettua, koska lakisääteiset vaatimukset saattavat edellyttää tiettyjä asetuksia. Jos kohtaat näitä rajoituksia, etsi yksityiskohtaista selitystä maasi tai alueesi dokumentaatiosivulta.
 
-## Digitaalisten tositteiden käyttöönotto
+## <a name="enable-digital-vouchers"></a>Digitaalisten tositteiden käyttöönotto
 
 Ota digitaalinen tositetoiminto käyttöön noudattamalla näitä ohjeita.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 3.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Digitaalisten tositteiden asetukset** ja valitse sitten vastaava linkki.
 2. Valitse **Käytössä**-valintaruutu.
 
-## Digitaalisten tositteiden määrittäminen
+## <a name="set-up-digital-vouchers-1"></a>Digitaalisten tositteiden määrittäminen
 
 Voit käyttää erilaisia ​​asetuksia seuraaville asiakirjoille ja päiväkirjoille.
 
@@ -48,7 +48,7 @@ Seuraa näitä ohjeita määrittääksesi, kuinka organisaatiosi käyttää pako
 4. Valitse **Luo automaattisesti** -valintaruutu luodaksesi digitaalisen tositteen automaattisesti. Jos et esimerkiksi halua lisätä tapahtumaasi manuaalisesti myyntilaskua, valitse tämä valintaruutu. Sitten sinun tarvitsee vain lähettää asiakirja. Järjestelmä luo asiakirjan automaattisesti raportin asettelun perusteella ja liittää sen tapahtumaan.
 5. Valitse **Ohita, jos lisätty manuaalisesti** -valintaruutu, jos et halua lisätä automaattisesti luotua digitaalista tositetta, jos käyttäjä on jo lisännyt manuaalisen liitteen.
 
-### Käytä asennuksessa lähdekoodeja
+### <a name="use-source-codes-for-setup"></a>Käytä asennuksessa lähdekoodeja
 
 Jos haluat käyttää valvontaa päiväkirjoille, mutta ei kaikille tapahtumatyypeille, yhdistä tietty lähdekoodi merkintätyypin tunnistamiseksi yleiseksi päiväkirjaksi, myyntipäiväkirjaksi tai ostopäiväkirjaksi.
 
@@ -58,7 +58,7 @@ Seuraa näitä vaiheita, jotta voit luoda digitaalisten tositteiden erityisiä l
 2. Valitse **Tositteen lähdekoodit** -sivulla lähdekoodit, jotka haluat määrittää.
 3. Sulje sivu.
 
-## Käytä toimintoa
+## <a name="use-the-functionality"></a>Käytä toimintoa
 
 Avaa osto- tai myyntitosite ja kirjoita tiedot vaadittuihin kenttiin. Ennen kuin lähetät asiakirjan, sinun on liitettävä digitaalinen tosite noudattamalla näitä ohjeita.
 
@@ -75,13 +75,13 @@ Jos liität vahingossa väärän tositteen, poista se näiden ohjeiden mukaisest
 > [!NOTE]
 > Jos digitaalisen tositteen liittäminen on määritetty pakolliseksi ja yrität kirjata asiakirjoja tai päiväkirjoja liittämättä tositteita, järjestelmä estää kirjaamisen. Näyttöön tulee seuraava virhesanoma: "Ei ole mahdollista lähettää liittämättä digitaalista tositetta."
 
-### Etsi liitetyt tositteet tapahtumista
+### <a name="find-attached-vouchers-in-transactions"></a>Etsi liitetyt tositteet tapahtumista
 
 Löydät liitteenä olevan tositteen lähetetystä asiakirjasta tai **Pääkirjan merkinnät** -sivulta katsomalla **Saapuvat tositetiedostot** -FactBoxista.
 
 Et voi poistaa liitettyä asiakirjaa, kun lähetys on valmis. Voit kuitenkin lisätä liitteitä, kun lähetys on valmis.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Taloushallinto](finance.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

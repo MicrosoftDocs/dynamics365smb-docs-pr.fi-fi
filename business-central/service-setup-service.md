@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Huoltohallinnon määrittäminen
+# <a name="setting-up-service-management"></a>Huoltohallinnon määrittäminen
 Tietyt toiminnot on määritettävä, ennen kuin [!INCLUDE[prod_short](includes/prod_short.md)]in huoltohallinnon toimintoja voi käyttää. Voit määrittää esimerkiksi vakiohuoltojen koodauksen, oire- ja vikakoodit sekä huoltonimikkeet ja huoltonimiketyypit yrityksen asiakaspalvelutarpeiden perusteella.  
 
 Huoltohallintoa määritettäessä on päätettävä, mitä huoltoja tarjoat asiakkaille ja mikä kyseisten huoltojen aikataulu on. Palvelu on yhden tai useamman resurssin suorittama työ, joka toimitetaan asiakkaalle. Huolto voi olla esimerkiksi tietokoneen korjaamista. Huoltonimike on laite tai nimike, joka tarvitsee huoltoa, kuten tietokone, joka on asennettu asiakkaalle. Voit määrittää palvelut osaksi ryhmää liittyviä korjaus- ja huolto-osia.  
@@ -35,7 +35,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 | Määritä huoltonimikkeet ja huoltonimikkeen komponentit. |[Huoltonimikkeiden määrittäminen](service-how-setup-service-items.md) |
 | Tee pohjatyö huoltosopimusten ja sopimustarjousten luontia varten. |[Huoltosopimusten määrittäminen](service-how-setup-service-contracts.md) |
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 [Huoltohallinto](service-service.md)  
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 

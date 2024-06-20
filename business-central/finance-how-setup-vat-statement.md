@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# ALV-ilmoitusmallien ja ALV-ilmoitusten nimien määrittäminen
+# <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>ALV-ilmoitusmallien ja ALV-ilmoitusten nimien määrittäminen
 
 Veroviranomaiset voivat muuttaa ALV:n kirjausvaatimuksia. ALV-ilmoitusmallit ja ALV-ilmoitusten nimet voivat auttaa tulevien muutosten valmistelemisessa. Niiden avulla siirtyminen uusiin vaatimuksiin on sujuva. ALV-ilmoitusmallien avulla voit määrittää erilaisia raportteja, kun valitset raportin tulostuksen. Jokaisessa ALV-ilmoitusmallissa voi olla useita ALV-ilmoituksen nimiä, jotka puolestaan määrittävät laskennat, ja voit luoda uuden ALV-ilmoituksen nimen tarpeidesi muuttuessa. Esimerkiksi yksi nimi voi laskea tämän vuoden ALV:in nykyisten vaatimusten ja toinen malli seuraavan vuoden vaatimusten perusteella. Nimien avulla voi myös ylläpitää ALV-ilmoitusten muotojen historiaa esimerkiksi niin, että voit katsoa, miten edellisen vuoden ALV laskettiin.
 
-## ALV-ilmoituksen määrittely
+## <a name="to-define-a-vat-statement"></a>ALV-ilmoituksen määrittely
 
 ALV-ilmoitusten avulla voi laskea ALV-laskelman summan tietyltä kaudelta, esimerkiksi neljännesvuoden ajalta.
 
@@ -27,7 +27,7 @@ ALV-ilmoitusten avulla voi laskea ALV-laskelman summan tietyltä kaudelta, esime
 > Voit suodattaa ilmoituksen sisältämät tiedot sen mukaan, mikä arvo **Tyyppi**-kentässä on valittu. **Tilien summat** -kohta on hyödyllinen silloin, kun haetaan tietyn tilin ALV.
 **ALV-tapahtumien summat** hakee ALV:n **Yleinen kirjaustyyppi**-, **Liiketoiminnan ALV-kirjausryhmä**- ja/tai **Tuotteen ALV-kirjausryhmä** -kenttien valikoimaan liitetyistä tileistä. Voit syöttää arvon **Rivien summat** -kenttään tai pikasuodattimen ehdot **Rivien summat** -kenttään. Lisätietoja on kohdassa [Tietojen hakeminen, suodattaminen ja lajitteleminen](ui-enter-criteria-filters.md). **Kuvaus**-kohtaa käytetään usein, kun ilmoitukseen lisätään huomautus. Voit käyttää sitä esimerkiksi otsikkona, kun käytössä on rivien summa.
 
-## ALV-ilmoituksen esikatseleminen
+## <a name="to-preview-the-vat-statement"></a>ALV-ilmoituksen esikatseleminen
 
 Kun ALV-ilmoitus on määritetty, voit esikatsella sitä ja varmistaa, että se täyttää tarpeet.
 > [!Tip]
@@ -39,7 +39,7 @@ Kun ALV-ilmoitus on määritetty, voit esikatsella sitä ja varmistaa, että se 
 4. Niillä riveillä, joiden **Tyyppi**-kentässä lukee **ALV-tapahtumien summat**, näkyy luettelo ALV-tapahtumista, kun valitset summan **Sarakkeen summa** -kentässä.
 5. Voit käyttää mukauttamista, kun haluat näyttää lisää kenttiä riveillä. Esimerkiksi ei-realisoituneen perussumman ja ei-realisoituneen ALV:in summan, jos käytät ei-realisoitunutta ALV:ia.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Arvonlisäveron määritys](finance-setup-vat.md)  
 [Ei-realisoituneen arvonlisäveron määrittäminen](finance-setup-unrealized-vat.md)  

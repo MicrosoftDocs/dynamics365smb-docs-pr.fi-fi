@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen
+# <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen
 
 Kuluttajat ja yritykset maksavat arvonlisäveroa (ALV:tä), kun he ostavat tavaroita tai palveluja. ALV:n määrä voi vaihdella useiden tekijöiden mukaan. ALV määritetään [!INCLUDE[prod_short](includes/prod_short.md)]issa määrittämään prosentti, joita käytettiin verosummien laskemiseen, seuraavien parametrien perusteella:
 
@@ -26,7 +26,7 @@ Jos haluat kuitenkin määrittää ALV-laskelmat itse tai jos haluat lisätietoj
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
-## Käytä ALV:n määrityksessä asetusten ohjattua määritysopasta (suositus)
+## <a name="set-up-vat-using-the-assisted-setup-guide-recommended"></a>Käytä ALV:n määrityksessä asetusten ohjattua määritysopasta (suositus)
 
 > [!NOTE]
 > Voit käyttää **ALV:n määritys** -opasta vain siinä tapauksessa, että olet luonut *Oman yrityksen* etkä ole vielä kirjannut ALV:n sisältäviä tapahtumia.
@@ -37,7 +37,7 @@ Avaa avustettu asennusopas seuraavasti:
 2. Valitse **Määritä arvonlisävero (ALV)** ja suorita vaiheet.
 3. Kun olet suorittanut avustetut asetukset, käy **ALV-kirjausten asetukset** -sivulla ja tarkista, onko sinun täytettävä lisää kenttiä paikallisen vaatimusten mukaan [!INCLUDE [prod_short](includes/prod_short.md)] -versiossasi. Lue lisätietoja kohdasta [Business Centralin paikalliset toiminnot](about-localization.md).  
 
-### Tarkista ALV-kirjausasetukset.
+### <a name="check-the-vat-posting-setup"></a>Tarkista ALV-kirjausasetukset.
 
 Jos haluat tukea nopeaa aloitusta, [!INCLUDE [prod_short](includes/prod_short.md)] ilmoittaa, jos kirjausryhmistä tai kirjausasetuksissa (esimerkiksi **ALV-kirjausten asetukset** -sivulla) puuttuu KP-tilit. Voit ottaa tämäntyyppisen ilmoituksen käyttöön tai poistaa sen käytöstä käyttämällä *KP-tili puuttuu kirjausryhmästä tai määrityksestä* -ilmoitusta **Omat ilmoitukset** -sivulla. Siirry **Omat asetukset** -sivulle ja valitse *Ilmoitusten vastaanottoajankohdan muuttaminen*. linkki.  
 
@@ -45,7 +45,7 @@ Jos valitset tällaisen ilmoituksen, [!INCLUDE [prod_short](includes/prod_short.
 
 Tässä vaiheessa saatat vain täyttää puuttuvat KP-tilit. Mutta myöhemmin, kun tarkennat asetuksia tarkemmin, saatat huomata, että alkuperäinen asetus on virheellinen. Eikä [!INCLUDE [prod_short](includes/prod_short.md)] salli ALV-kirjausasetusten ja yleisten kirjausasetusten poistoa silloin, kun luodaan tapahtumia, jotka perustuvat tällaisiin määrityksiin. Joten vuoden 2022 1. julkaisuaallossa voit käyttää **ALV-kirjausasetukset** -sivun **Estetty**-kenttää, jos haluat estää käyttäjiä vahingossa käyttämästä asetuksia, jotka eivät enää ole merkityksellisiä uusissa kirjauksissa.
 
-## ALV:n oletuspäivämäärän määrittäminen asiakirjoille ja päiväkirjoille
+## <a name="set-up-a-default-vat-date-for-documents-and-journals"></a>ALV:n oletuspäivämäärän määrittäminen asiakirjoille ja päiväkirjoille
 
 ALV-raportointi, jota [!INCLUDE [prod_short](includes/prod_short.md)] käyttää, perustuu **ALV-päivämäärään**, joka sisällytetään ALV-tapahtumiin ALV-kauden ALV-raporteissa. ALV-päivämäärää voi muuttaa kaikissa asiakirjoissa ja päiväkirjoissa, mutta sille on määritettävä oletusarvo.
 
@@ -61,7 +61,7 @@ Voit määrittää ALV-päivämääräksi oletusarvon seuraavasti:
 > [!NOTE]
 > Oletusarvoisesti **ALV-oletuspäivämäärä** on **kirjauspäivämäärä**.
 
-### ALV-päivämääräominaisuuden ottaminen käyttöön tai poistaminen käytöstä
+### <a name="enabling-or-disabling-the-vat-date-feature"></a>ALV-päivämääräominaisuuden ottaminen käyttöön tai poistaminen käytöstä
 
 Joissakin maissa ja joillakin alueilla edellytetään, että yritykset käyttävät tiettyä ALV-päivämäärää. Joissakin maissa ja joillakin alueilla yritykset voivat myös muuttaa ALV-päivämäärää tietyissä tilanteissa, kun ne ovat kirjoittaneet asiakirjoja, mutta toiset maat eivät salli ALV-päivämäärien muuttamista. Jos haluat sallia eri konteksteja, voit valita, haluatko käyttää tätä toimintoa ja missä määrin.
 
@@ -81,14 +81,14 @@ Voit määrittää ALV-päivämäärän käytön tason seuraavasti:
 > [!IMPORTANT]
 > Vaikka valitsisit **Ei käytä ALV-päivämäärää -toimintoa** -asetuksen, [!INCLUDE [prod_short](includes/prod_short.md)] käyttää **ALV-päivämäärää** taustalla. Koska **ALV-oletuspäivämäärä** on määritetty **Kirjaus päivämääräksi** etkä voi muuttaa sitä tässä tapauksessa, saat saman kokemuksen kuin ilman tätä ominaisuutta. **ALV-päivämäärä**-kentät poistetaan kaikilta sivuilta, mutta tämä kenttä on edelleen taulukoissa ja raportit toimivat sen perusteella.
 
-### Kausien rajoittaminen ALV-päivämäärän kirjaamista ja muuttamista varten
+### <a name="limiting-periods-for-posting-and-changing-the-vat-date"></a>Kausien rajoittaminen ALV-päivämäärän kirjaamista ja muuttamista varten
 
 Voit estää käyttäjiä kirjaamasta tai vaihtamasta tiettyjen päivämäärävälien ALV-tapahtumia. Rajoitus määritetään käyttämällä kahta seuraavaa asetusta:
 
 * Suljetun **ALV-palautusjakson** perusteella
 * **Salli kirjaaminen kohteesta**- ja **Salli kirjaaminen kohteeseen** -kenttien perusteella.
 
-#### ALV-palautusjaksoon perustuvan kirjauksen rajoittaminen
+#### <a name="to-limit-posting-based-on-vat-return-period"></a>ALV-palautusjaksoon perustuvan kirjauksen rajoittaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Yleinen**-pikavälilehdellä **ALV-kauden hallinta** -kentässä ALV-palautusjakson ohjausaste. Asetukset kuvaillaan seuraavassa taulukossa.
@@ -100,12 +100,12 @@ Voit estää käyttäjiä kirjaamasta tai vaihtamasta tiettyjen päivämääräv
 | **Varoita kirjattaessa suljetulla jaksolla** | Näytä varoitus, mutta älä estä kirjausta, jos haluat kirjata asiakirjan tai kirjauskansion, jolla on ALV-päivämäärä suljetussa **ALV-palautusjaksossa**. |
 | **Poistettu käytöstä** | Älä tee toimenpiteitä suljetun **ALV-palautuskauden** perusteella. |
 
-#### Sellaisen kirjauksen rajoittaminen, joka perustuu sallimiseen kohteesta/kohteeseen
+#### <a name="limit-posting-based-on-allow-fromto-period"></a>Sellaisen kirjauksen rajoittaminen, joka perustuu sallimiseen kohteesta/kohteeseen
 
 > [!NOTE]
 > Business Centralin versiosta 23.1 lähtien tätä ohjausobjektia on muutettu. Aiemmissa versioissa **Pääkirjanpidon asetukset** -sivulla oli vain yksi ohjausobjekti sekä kirjaus- että ALV-päivämäärälle. Nyt nämä ohjausobjektit on jaettu niin, että **Pääkirjanpidon asetukset** -sivulla on vain **kirjauspäivämäärän** ohjausobjekti ja **ALV-asetukset**-sivulla vain **ALV-päivämäärän** ohjausobjekti. **Käyttäjäasetukset**-sivulla on uusia päivämääräohjausobjekteja.  
 
-##### Versio 23.1 tai uudempi
+##### <a name="version-231-or-newer"></a>Versio 23.1 tai uudempi
 
 > [!IMPORTANT]
 > Varmista uuteen versioon päivitettäessä, että arvot päivitetään uudessa **Salli ALV-päivämäärästä alkaen / Salli ALV-päivämäärään asti** -kohdassa **ALV-asetukset**-sivulla **Ensimm. sallittu kirjauspvm / Viimeinen sallittu kirjauspvm** -kohdasta **Pääkirjanpidon asetukset** -sivulla. Jos haluat käyttää eri päivämääräohjausobjekteja, avaa **ALV-asetukset**-sivu ja tee muutokset.  
@@ -125,7 +125,7 @@ Tietyn käyttäjän kirjausten rajoittaminen:
 3. Valitse **Salli ALV-päivämäärästä alkaen** -kentässä ALV-päivämäärä, josta kirjaus sallitaan. Asiakirjan tai kirjauskansion kirjaaminen ALV-päivämäärällä ennen tätä päivämäärää ei ole sallittua. 
 4. Valitse **Salli ALV-päivämäärään asti** -kentässä ALV-päivämäärä, johon asti kirjaus sallitaan. Asiakirjan tai kirjauskansion kirjaaminen ALV-päivämäärälle tämän päivämäärän jälkeen ei ole sallittua.  
 
-##### Versiot ennen versiota 23.1 
+##### <a name="versions-before-231"></a>Versiot ennen versiota 23.1
 
 Voit määrittää rajoituksia yritykselle tai tietyille käyttäjätasoille.
 
@@ -142,7 +142,7 @@ Tietyn käyttäjän kirjausten rajoittaminen:
 3. Valitse **Salli kirjaus kohteesta** -kentässä ALV-päivämäärä, josta kirjaus sallitaan. Asiakirjan tai kirjauskansion kirjaaminen ALV-päivämäärällä ennen tätä päivämäärää ei ole sallittua.
 4. Valitse **Salli kirjaus kohteeseen** -kentässä ALV-päivämäärä, johon asti kirjaus sallitaan. Asiakirjan tai kirjauskansion kirjaaminen ALV-päivämäärälle tämän päivämäärän jälkeen ei ole sallittua.
 
-## Määritä oman maan tai alueen ALV-rekisteröintinumerot
+## <a name="set-up-vat-registration-numbers-for-your-countryregion"></a>Määritä oman maan tai alueen ALV-rekisteröintinumerot
 
 Voit auttaa varmistamaan, että annettavat ALV-rekisteröintinumerot ovat kelvollisia, määrittämällä niiden maiden tai alueiden ALV-rekisteröintinumeroiden muodot, joissa sinulla on liiketoimintaa. [!INCLUDE[prod_short](includes/prod_short.md)] näyttää virhesanoman, jos joku tekee virheen tai käyttää muotoa, jota ei hyväksytä maassa tai alueella.
 
@@ -159,7 +159,7 @@ Voit määrittää ALV-rekisteröintinumerot seuraavasti:
     > [!TIP]
     > Voit käyttää muita merkkejä, kunhan niitä käytetään maan tai alueen muodossa. Joten, jos sinun on sisällytettävä esimerkiksi numeroiden välinen piste tai yhdysviiva, voit määrittää muodon seuraavasti: ##.####.### tai @@-###-###.  
 
-## Liiketoiminnan ALV-kirjausryhmien määrittäminen
+## <a name="set-up-vat-business-posting-groups"></a>Liiketoiminnan ALV-kirjausryhmien määrittäminen
 
 Liiketoiminnan ALV-kirjausryhmien on vastattava niitä markkinoita, joilla teet kauppaa asiakkaiden ja toimittajien kanssa, ja niiden määritettävä ALV:n laskeminen ja kirjaaminen kullakin markkinalla. Esimerkkejä liiketoiminnan ALV-kirjausryhmistä: **Kotimaa** ja **Euroopan unioni (EU)**.  
 
@@ -172,7 +172,7 @@ Liiketoiminnan ALV-kirjausryhmä määritetään seuraavasti:
 
 Liiketoiminnan ALV-kirjausryhmien oletusarvot voidaan luoda linkittämällä ne liiketoiminnan kirjausryhmiin. [!INCLUDE[prod_short](includes/prod_short.md)] määrittää automaattisesti liiketoiminnan ALV-kirjausryhmän koodin, kun määrität liiketoiminnan kirjausryhmän asiakkaaseen, toimittajaan tai pääkirjanpidon tiliin.
 
-## Tuotteen ALV-kirjausryhmien määrittäminen
+## <a name="set-up-vat-product-posting-groups"></a>Tuotteen ALV-kirjausryhmien määrittäminen
 
 ALV-tuotekirjausryhmät edustavat tuotteita ja resursseja, joita ostat tai myyt, ja määrittävät, kuinka ALV lasketaan ja kirjataan tuotteen tai resurssin tyypin mukaan.
 
@@ -183,7 +183,7 @@ Liiketoiminnan ALV-kirjausryhmä määritetään seuraavasti:
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 4.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tuotteen ALV-kirjausryhmät** ja valitse sitten vastaava linkki.  
 2. Täytä tarvittavat kentät.
 
-## ALV-kirjausryhmien yhdistäminen ALV-kirjausasetuksissa
+## <a name="combine-vat-posting-groups-in-vat-posting-setups"></a>ALV-kirjausryhmien yhdistäminen ALV-kirjausasetuksissa
 
 [!INCLUDE[prod_short](includes/prod_short.md)] laskee myynnin ja ostojen ALV-summat ALV-kirjausryhmien perusteella. Nämä ryhmät puolestaan ovat yhdistelmä liiketoiminnan ja tuotteen ALV-kirjausryhmiä. Voit määrittää kullekin yhdistelmälle ALV-prosentin, ALV-laskennan tyypin sekä myyntiin, ostoihin ja vastakirjaukseen liittyvien ALV-kirjausten pääkirjanpidon tilit. Voit määrittää myös, lasketaanko ALV uudelleen, kun maksualennusta käytetään tai vastaanotetaan.  
 
@@ -197,7 +197,7 @@ ALV-kirjausasetukset yhdistetään seuraavasti:
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 5.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-kirjausten asetukset** ja valitse sitten vastaava linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## ALV-kirjausryhmien määrittäminen oletusarvoisesti useille objekteille
+## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>ALV-kirjausryhmien määrittäminen oletusarvoisesti useille objekteille
 
 Jos haluat käyttää samoja ALV-kirjausryhmiä useissa objekteissa, voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in tekemään niin oletusarvoisesti. Määrityksen voi tehdä kahdella tavalla:
 
@@ -206,24 +206,24 @@ Jos haluat käyttää samoja ALV-kirjausryhmiä useissa objekteissa, voit määr
 
 Liiketoiminnan tai tuotteen ALV-kirjausryhmä määritetään, kun valitse asiakkaan, toimittajan, nimikkeen tai resurssin liiketoiminnan tai tuotteen kirjausryhmän.
 
-## Määritä ALV-kirjausryhmät yksittäisille tileille, asiakkaille, toimittajille, nimikkeille ja resursseille
+## <a name="assign-vat-posting-groups-to-accounts-customers-vendors-items-and-resources"></a>Määritä ALV-kirjausryhmät yksittäisille tileille, asiakkaille, toimittajille, nimikkeille ja resursseille
 
 Seuraavissa osissa käsitellään ALV-kirjausryhmien määrittämistä yksittäisille objekteille.
 
-### ALV-kirjausryhmien määrittäminen yksittäisille pääkirjanpidon tileille
+### <a name="to-assign-vat-posting-groups-to-individual-general-ledger-accounts"></a>ALV-kirjausryhmien määrittäminen yksittäisille pääkirjanpidon tileille
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 6.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten vastaava linkki.  
 2. Avaa valitun tilin **KP-tilin** kortti.  
 3. Valitse **Kirjaus**-pikavälilehden **Yleinen kirjaustyyppi** -kentässä joko **Myynti** tai **Osto**.  
 4. Valitse myynti- tai ostotilillä käytettävät ALV-kirjausryhmät.  
 
-### Liiketoiminnan ALV-kirjausryhmien määrittäminen asiakkaille ja toimittajille
+### <a name="to-assign-vat-business-posting-groups-to-customers-and-vendors"></a>Liiketoiminnan ALV-kirjausryhmien määrittäminen asiakkaille ja toimittajille
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 7.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakas** tai **Toimittaja** ja valitse sitten vastaava linkki.  
 2. Laajenna **Laskutus**-pikavälilehti **Asiakas**- tai **Toimittaja**-kortissa.  
 3. Valitse liiketoiminnan ALV-kirjausryhmä.  
 
-### Tuotteen ALV-kirjausryhmien määritetään yksittäisille nimikkeille ja resursseille
+### <a name="to-assign-vat-product-posting-groups-to-individual-items-and-resources"></a>Tuotteen ALV-kirjausryhmien määritetään yksittäisille nimikkeille ja resursseille
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 8.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimike** tai **Resurssi** ja valitse sitten vastaava linkki.  
 2. Tee jompikumpi seuraavista toimista:  
@@ -232,7 +232,7 @@ Seuraavissa osissa käsitellään ALV-kirjausryhmien määrittämistä yksittäi
     * Laajenna **Resurssi**-kortissa **Laskutus**-pikavälilehti.  
 3. Valitse tuotteen ALV-kirjausryhmä.  
 
-## Määritä lausekkeet ALV-vapautuksen tai poikkeavien ALV-prosenttien selittämiseksi
+## <a name="set-up-clauses-to-explain-vat-exemption-or-nonstandard-vat-rates"></a>Määritä lausekkeet ALV-vapautuksen tai poikkeavien ALV-prosenttien selittämiseksi
 
 Määritä ALV-lause kuvaamaan tietoja käytettävästä ALV-tyypistä. Tietoja voidaan vaatia hallituksen asetuksilla. Kun olet määrittänyt ALV-lauseen ja liittänyt sen ALV-kirjausasetukseen, ALV-lause näkyy kaikissa tulostetuissa myyntiasiakirjoissa, jotka käyttävät ALV-kirjausten asetusryhmää.
 
@@ -242,7 +242,7 @@ Kun poikkeavia ALV-prosentteja käytetään erityyppisissä asiakirjoissa, kuten
 
 Voit muokata tai poistaa ALV-lauseen, ja muutokset näkyvät luodussa raportissa. [!INCLUDE[prod_short](includes/prod_short.md)] ei kuitenkaan säilytä muutoshistoriaa. Raportissa ALV-lauseen kuvaukset tulostetaan ja näytetään raportin kaikille riveille ALV-summan ja ALV-perusteen summan rinnalla. Jos ALV-lausetta ei ole määritetty millekään myyntiasiakirjan riville, koko osa jätetään pois raporttia tulostettaessa.
 
-### ALV-lauseiden määrittäminen
+### <a name="to-set-up-vat-clauses"></a>ALV-lauseiden määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 9.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-lauseet** ja valitse sitten vastaava linkki.  
 2. Luo **ALV-lauseet**-sivulla uusi rivi.  
@@ -253,19 +253,19 @@ Voit muokata tai poistaa ALV-lauseen, ja muutokset näkyvät luodussa raportissa
 7. Valinnainen: ALV-lauseen voi määrittää ALV-kirjausryhmään heti valitsemalla ensin **Asetukset** ja sitten lauseen. Jos halua odottaa, voit määrittää lauseen myöhemmin **ALV-kirjausten asetukset** -sivulla.  
 8. Valinnainen: Valitsemalla **Käännökset** toiminnon voit määrittää, miten ALV-lause käännetään.
 
-### ALV-lauseen määrittäminen ALV-kirjausryhmään
+### <a name="to-assign-a-vat-clause-to-a-vat-posting-setup"></a>ALV-lauseen määrittäminen ALV-kirjausryhmään
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 10.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-kirjausten asetukset** ja valitse sitten vastaava linkki.  
 2. Valitse **ALV-lause**-sarakkeessa lause, jota käytetään kussakin ALV-kirjauksen asetuksissa, joihin sitä sovelletaan.  
 
-### ALV-lauseiden käännösten määrittäminen
+### <a name="to-specify-translations-for-vat-clauses"></a>ALV-lauseiden käännösten määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 11.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **ALV-lauseet** ja valitse sitten vastaava linkki.  
 2. Valitse **Käännökset**-toiminto.  
 3. Valitse **Kielikoodi**-kentässä kieli, jolle käännetään.  
 4. Kirjoita kuvausten käännökset **Kuvaus**- ja **Kuvaus 2** -kenttiin. Tämä teksti näkyy käännetyissä ALV-raporttiasiakirjoissa.  
 
-### ALV-lauseiden lisätekstin määrittäminen
+### <a name="to-specify-extended-text-for-vat-clauses"></a>ALV-lauseiden lisätekstin määrittäminen
 
 > [!NOTE]  
 > Jos maasi tai alueesi vaatii ALV-lausekkeille oletusversion tukemaa pidemmän tekstin, voit määrittää pidemmän tekstin ALV-lausekkeille *lisätekstinä*, jotta se tulostetaan myynti-ja ostoraportteihin.  
@@ -280,7 +280,7 @@ Voit muokata tai poistaa ALV-lauseen, ja muutokset näkyvät luodussa raportissa
 8. Valitse asianmukaiset kentät niitä asiakirjatyyppejä varten, joihin haluat lisätekstin tulostuvan.  
 9. Sulje sivu.  
 
-## ALV-kirjausten asetukset luominen käsittelemään tuonnin ALV:tä
+## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a>ALV-kirjausten asetukset luominen käsittelemään tuonnin ALV:tä
 
 *Tuonnin ALV* -ominaisuudella kirjataan asiakirja, jossa koko summaa on ALV:tä. Tämä on tarpeellista, jos saat veroviranomaisilta laskun tuontitavaroiden arvonlisäverosta.  
 
@@ -293,7 +293,7 @@ Määritä tuonnin ALV:n koodit seuraavasti:
 5. Valitse **ALV-laskennan tyyppi** -kentässä **Täysi ALV**.  
 6. Anna **Ostojen ALV-tili** -kentässä se pääkirjanpidon tili, jota käytetään tuonnin ALV:n kirjaamiseen. Kaikki muut tilit ovat valinnaisia.  
 
-## ALV-vastakirjauksen käyttäminen EU-maiden tai -alueiden välisessä kaupassa
+## <a name="use-reverse-charge-vat-for-trade-between-eu-countriesregions"></a>ALV-vastakirjauksen käyttäminen EU-maiden tai -alueiden välisessä kaupassa
 
 Joiden yritysten on käytettävä ALV-vastakirjausta tehdessään kauppaa muiden yritysten kanssa. Sääntö koskee esimerkiksi EU:n maiden tai alueiden välisiä myyntejä ja ostoja.  
 
@@ -303,7 +303,7 @@ Joiden yritysten on käytettävä ALV-vastakirjausta tehdessään kauppaa muiden
 > [!TIP]  
 > Voit tarkistaa EU:n ALV-rekisteröintinumeron vahvistuspalvelun avulla, onko yritys rekisteröity ALV-velvolliseksi toisessa EU-maassa tai toisella EU-alueella. Palvelua voi käyttää maksutta [!INCLUDE[prod_short](includes/prod_short.md)]issa. Lisätietoja on ohje aiheessa [ALV-rekisterinumeroiden vahvistaminen](finance-how-validate-vat-registration-number.md).
 
-### Myynti EU-maihin tai -alueille
+### <a name="sales-to-eu-countriesregions"></a>Myynti EU-maihin tai -alueille
 
 ALV:tä ei lasketa myynneistä muiden EU-maiden/alueiden ALV-velvollisille yrityksille. Näiden EU-maihin/alueille tapahtuvien myyntien arvo on raportoitava erikseen ALV-ilmoituksessa.  
 
@@ -319,17 +319,17 @@ Jos haluat käyttää liiketoiminnan ALV-kirjausryhmän ja tuotteen ALV-kirjausr
 > [!NOTE]  
 > **EU-palvelu** -kenttä on käytettävissä vain ALV-raporteissa. Kenttä ei liity **Palveluilmoitus**- tai **Palveluiden Intrastat** -ominaisuuksiin.
 
-## ALV:n pyöristäminen asiakirjoja varten
+## <a name="vat-rounding-for-documents"></a>ALV:n pyöristäminen asiakirjoja varten
 
 Vielä kirjaamattomien asiakirjojen summat pyöristetään ja näytetään kirjattujen summien lopullista pyöristämistä vastaavalla tavalla. ALV lasketaan koko asiakirjalle, mikä tarkoittaa sitä, että laskettu ALV perustuu kaikkien rivien summaan, joilla on sama ALV-tunnus asiakirjassa.  
 
-## Määritä ALV-raportointi
+## <a name="set-up-vat-reporting"></a>Määritä ALV-raportointi
 
 Sinun on määritettävä tiedot siitä, mitä vaatimuksia maasi veroviranomaisella on ALV-raporttien lähettämisen suhteen. Seuraavissa vaiheissa kuvataan yleisimmin käytettävät tiedot. Maasi tai alueesi voi kuitenkin edellyttää muitakin vaiheita. Lisätietoja saat asianomaisesta artikkelista vasemman paneelin *Paikalliset toiminnot* -osasta.
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [ALV-ilmoitusmallien ja ALV-ilmoitusten nimien määrittäminen](finance-how-setup-vat-statement.md)  
 [Ei-realisoituneen arvonlisäveron määrittäminen](finance-setup-unrealized-vat.md)  

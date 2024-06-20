@@ -9,18 +9,18 @@ ms.date: 05/15/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# Yhteyden muodostaminen Business Central -tietoihin yrityssovelluksen luomista varten Power Appsin avulla
+# <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Yhteyden muodostaminen Business Central -tietoihin yrityssovelluksen luomista varten Power Appsin avulla
 
 Voit käyttää [!INCLUDE[prod_short](includes/prod_short.md)] -tietoja Power Appsin tietolähteenä.  
 
 > [!TIP]  
 > Business Central tarjoaa nyt kehitys- ja toimintatukea Power Platformin Al-Go-ja näyte-ohjelmissa, joiden avulla pääset alkuun omien sovellusten luomisessa Power Appsissa. Nämä ominaisuudet ovat tällä hetkellä esiversiotoimintoja. Saat lisätietoja siirtymällä [Business Centraliin ja Power Appsiin](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-overview) kehittäjien ja IT-ammattilaisten ohjeissa.
 
-## Vaatimukset
+## <a name="prerequisites"></a>Vaatimukset
 
 Sinulla on oltava kelvollinen [!INCLUDE[prod_short](includes/prod_short.md)]- ja Power Apps -tili.  
 
-## [!INCLUDE[prod_short](includes/prod_short.md)]in lisääminen Power Appsin tietolähteeksi
+## <a name="add--as-a-data-source-in-power-apps"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in lisääminen Power Appsin tietolähteeksi
 
 Näiden vaiheiden avulla Business Centralin taulukko, kuten asiakkaat tai nimikkeet, lisätään Power Apps -sovelluksen tietolähteeksi.
 
@@ -51,15 +51,15 @@ Tässä kohtaa olet yhdistänyt [!INCLUDE[prod_short](includes/prod_short.md)] d
 Kun olet suunnitellut ja rakentanut sovelluseksi, voit jakaa sen kollegoidesi kanssa. Lisätietoja on kohdassa [Kaaviosovelluksen tallentaminen julkaiseminen Power Appsissa](/powerapps/maker/canvas-apps/save-publish-app).  
 
 <!--
-## Sample apps to get started
+## <a name="sample-apps-to-get-started"></a>Sample apps to get started
 
 As a preview version, Business Central offers several sample apps that you can use as a starting point for building your own apps that use Business Central data. These sample apps are available in the [Business Central Demos](https://github.com/BusinessCentralDemos) repo on GitHub. For a quick overview on the apps, go to [Power Apps samples for Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-samples).
 
-## Develop and maintain apps application lifecycle management
+## <a name="develop-and-maintain-apps-application-lifecycle-management"></a>Develop and maintain apps application lifecycle management
 
 As an app developer, you may already be familiar with Business Central AL-Go. AL-Go is set of tools on GiHub that enables you to maintain professional DevOps processes for your Business Central AL projects. AL-Go supports source control and activities, like building, testing, and deploying. As a preview, Business Central now offers an Al-Go version that supports for Power Platform solutions. The preview, for example, includes workflows that let you push and pull Power Platfrom changes to and from enviroments. You can access the tools at [https://github.com/BusinessCentralDemos/AL-Go-PTE](https://github.com/BusinessCentralDemos/AL-Go-PTE). For more information, see [Application lifecycle management for Power Apps in Business Central](/dynamics365/business-central/dev-itpro/powerplatform/power-apps-alm).-->
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Kaaviosovelluksen luominen Power Appsin mallista](/powerapps/maker/canvas-apps/get-started-test-drive)  
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
