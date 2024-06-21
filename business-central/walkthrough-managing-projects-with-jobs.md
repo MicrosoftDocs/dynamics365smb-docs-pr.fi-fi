@@ -9,7 +9,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Vaihekuvaus: Projektinhallinta
+# <a name="walkthrough-managing-projects"></a>Vaihekuvaus: Projektinhallinta
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -17,11 +17,11 @@ Tässä vaihekuvauksessa esitellään projektinhallinnan toimintoja. Projektien 
 
  Tässä vaihekuvauksessa käsitellään uuden projektin määrittämistä moduulissa sekä joitakin tavanomaisia tehtäviä, kuten kiinteän hinnoittelun käsittely, maksujen suorittaminen osamaksuina, projektien laskujen kirjaaminen ja projektien kopioiminen.  
 
-## Tietoja tästä vaihekuvauksesta
+## <a name="about-this-walkthrough"></a>Tietoja tästä vaihekuvauksesta
 
  Tässä vaihekuvauksessa käsitellään seuraavia tehtäviä:  
 
-### Projektin määrittäminen
+### <a name="setting-up-a-project"></a>Projektin määrittäminen
 
  Kun budjettirakenne on määritetty projekteille, projektin luominen on yksinkertaista. Tässä vaihekuvauksessa käsitellään seuraavia vaiheita:  
 
@@ -29,14 +29,14 @@ Tässä vaihekuvauksessa esitellään projektinhallinnan toimintoja. Projektien 
 - Projektikohtaisten hintojen luominen nimikkeille, resursseille ja KP-tileille  
 - Laskuttaminen projektista  
 
-### Kiinteiden hintojen käsitteleminen
+### <a name="handling-fixed-prices"></a>Kiinteiden hintojen käsitteleminen
 
  Kiinteiden hintojen lisäksi käsitellään myös sellaisia palveluiden tai tavaroiden hintoja, joista on sovittu ennalta asiakkaiden kanssa. Tässä vaihekuvauksessa voit tehdä seuraavat toimet:  
 
 - Katso, kuinka sopimuksen ja laskun arvot määritetään  
 - Salli ylimääräisen (laskuttamattoman) työn lisääminen aikatauluun.  
 
-### Projektin kopioiminen
+### <a name="copying-a-project"></a>Projektin kopioiminen
 
  Tässä vaihekuvauksessa keskitytään koko projektin tai sen osa kopioimiseen, mikä vähentää tietojen manuaalisen syöttämisen tarvetta ja parantaa tarkkuutta. Se sisältää seuraavat:  
 
@@ -44,7 +44,7 @@ Tässä vaihekuvauksessa esitellään projektinhallinnan toimintoja. Projektien 
 - projektikohtaisten hintojen kopioiminen  
 - suunnittelurivien kopioiminen.  
 
-### Maksujen suorittaminen osamaksuina
+### <a name="making-payment-by-installment"></a>Maksujen suorittaminen osamaksuina
 
  Kun suuri, kallis projekti kestää pitkään, asiakas tekee usein yrityksen kanssa sopimuksen maksuerien maksamiseksi. Tämä esimerkki näyttää, miten maksutapa määritellään osamaksuina, ja se kattaa seuraavat asiat:  
 
@@ -52,31 +52,31 @@ Tässä vaihekuvauksessa esitellään projektinhallinnan toimintoja. Projektien 
 - maksujen laskuttaminen asiakkailta  
 - käytön ottaminen huomioon projektissa, jossa käytetään osamaksua.  
 
-## Roolit
+## <a name="roles"></a>Roolit
 
  Tässä vaihekuvauksessa on seuraaviin rooleihin liittyviä tehtäviä:  
 
 - Projektipäällikkö  
 - Projektitiimin jäsen  
 
-## Vaatimukset
+## <a name="prerequisites"></a>Vaatimukset
 
  Tee seuraavat toimet ennen tämän vaihekuvauksen tehtävien suorittamista:  
 
 - Asenna CRONUS-esittelytietokanta.
 - Luo esimerkkitietoja noudattamalla seuraavan osan toimintaohjeita.  
 
-## Taustatietoja
+## <a name="story"></a>Taustatietoja
 
 Tämä vaihekuvaus keskittyy CRONUS-nimiseen suunnittelu- ja konsulttifirmaan, joka suunnittelee ja sovittaa uusia infrastruktuureja, kuten konferenssihalleja ja toimistoja huonekaluineen, tarvikkeineen ja varastointiyksikköineen. Sen useimmat työt projektisuuntautuneita. Thomas, CRONUSin projektipäällikkö, saa projektin avulla yleiskäsityksen kustakin CRONUSin käynnistämästä tehtävästä samoin kuin valmistuneista tehtävistä. Thomas on yleensä se, joka tekee kauppoja asiakkaiden kanssa ja syöttää projektin ytimen, joka on hintojen lisäksi tehtävä- ja suunnittelurivit [!INCLUDE[prod_short](includes/prod_short.md)]. Thomas toteaa, että tietojen luominen, ylläpitäminen ja tarkistaminen on suoraviivaista. Thomas pitää myös tavasta, jolla [!INCLUDE[prod_short](includes/prod_short.md)] mahdollistaa projektien kopioinnin ja maksamisen osamaksuina.
 
  Projektitiimin jäsen Marianne, joka työskentelee Thomasin alaisena, on projektin päivittäinen vastuuhenkilö. Marianne lisää paitsi omat työt myös teknikoiden kussakin tehtävässä suorittamat työt, mukaan lukien työssä käytetyt nimikkeet ja työstä kertyneet kustannukset.  
 
-## Esimerkkitietojen valmisteleminen
+## <a name="preparing-sample-data"></a>Esimerkkitietojen valmisteleminen
 
  Valmistaudu tähän vaihekuvaukseen lisäämällä Tricia uutena resurssina.  
 
-### Esimerkkitietojen valmisteleminen  
+### <a name="to-prepare-the-sample-data"></a>Esimerkkitietojen valmisteleminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Resurssit** ja valitse sitten vastaava linkki.  
 2. Luo uusi resurssin kortti valitsemalla **Uusi**-toiminto.  
@@ -99,7 +99,7 @@ Tämä vaihekuvaus keskittyy CRONUS-nimiseen suunnittelu- ja konsulttifirmaan, j
 
 Seuraavassa toimenpiteessä luodaan projektipäiväkirjan erä Mariannea varten, jotta hän voi kirjata käyttönsä.  
 
-### Projektipäiväkirjaerän luominen  
+### <a name="to-create-a-project-journal-batch"></a>Projektipäiväkirjaerän luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektipäiväkirjat** ja valitse sitten vastaava linkki.  
 2. Valitse **Projektipäiväkirja**-sivulla **Erän nimi**-kenttä. **Projektipäiväkirjan erät** -sivu avautuu.  
@@ -111,11 +111,11 @@ Seuraavassa toimenpiteessä luodaan projektipäiväkirjan erä Mariannea varten,
 
 4. Tallenna muutokset valitsemalla **OK**-painike.
 
-## Projektin määrittäminen
+## <a name="setting-up-a-project-1"></a>Projektin määrittäminen
 
  Tässä skenaariossa CRONUS on voittanut sopimuksen Progressive Home Furnishings -yrityksen kanssa, jonka kanssa on päästy sopimukseen neuvottelusalin ja ruokasalin suunnittelemisesta. Asiakkaan tilat ovat Yhdysvalloissa, ja projektissa tarvitaan erityistä ohjelmistoa. Projektipäällikkö solmii sopimuksen asiakkaan kanssa ja sopimuksen keston kattava projekti luodaan.  
 
-### Projektin määrittäminen  
+### <a name="to-set-up-a-project"></a>Projektin määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projekti** ja valitse sitten vastaava linkki.  
 2. Luo uusi kortti valitsemalla **Uusi**-toiminto.  
@@ -135,7 +135,7 @@ Seuraavassa toimenpiteessä luodaan projektipäiväkirjan erä Mariannea varten,
 
  Asiakkaiden hinnoittelu voidaan mukauttaa projektikohtaiseksi määritettyjen sopimusten mukaisesti. Seuraavassa toimenpiteessä projektipäällikkö määrittää kustannukset Mariannen ajasta, määrittää tarvittavan ohjelmiston hinnan ja lisää matkakustannukset, jotka asiakas on suostunut maksamaan.  
 
-### Mukauta hinnoittelu  
+### <a name="to-customize-pricing"></a>Mukauta hinnoittelu
 
 1. Valitse **projektikortissa** **Resurssi**-toiminto.  
 2. Lisää seuraavat tiedot **Projektiresurssien hinnat** -sivulle:  
@@ -161,7 +161,7 @@ Seuraavassa toimenpiteessä luodaan projektipäiväkirjan erä Mariannea varten,
 
  Projektin määrittämisen viimeisissä vaiheissa lisätään projektin tehtävät sekä kunkin tehtävän suunnittelurivi. Nämä suunnittelurivit määrittävät, mitä asiakkaalta laskutetaan.  
 
-### Projektitehtävien lisääminen  
+### <a name="to-add-project-tasks"></a>Projektitehtävien lisääminen
 
 1.  Valitse **uuden projektin Projekti-kortissa** Projektitehtävärivit-toiminto **·** .  
 2.  Seuraavassa taulukossa kuvaillaan tiedot, jotka tulisi syöttää kenttiin.  
@@ -183,7 +183,7 @@ Seuraavassa toimenpiteessä luodaan projektipäiväkirjan erä Mariannea varten,
 
  Tässä vaihekuvauksessa projektipäällikön käytössä on **Sekä budjetti että laskutettava**. Hän luo tehtävälle 1010 kolme suunnitteluriviä ja tehtävälle 1020 kaksi suunnitteluriviä.  
 
-### Luo suunnittelurivit  
+### <a name="to-create-planning-lines"></a>Luo suunnittelurivit
 
 1. Valitse ensin rivi 1010 ja sitten **Projektin suunnittelurivit** -toiminto.  
 
@@ -205,11 +205,11 @@ Seuraavassa toimenpiteessä luodaan projektipäiväkirjan erä Mariannea varten,
 
 4. Sulje sivu. Summat on päivitetty **Projektitehtävärivit**-sivulla.  
 
-## Jäljellä olevan käytön laskeminen
+## <a name="calculating-remaining-usage"></a>Jäljellä olevan käytön laskeminen
 
  Marianne, projektiryhmän jäsen, on tehnyt työtä projektissa jonkin aikaa ja haluaa rekisteröidä omat tuntinsa ja käytön projektissa. Työmäärä ja käyttö eivät ole ylittäneet asiakkaan kanssa sovittua määrää. Marianne laskee **Laske jäljellä oleva käyttö** -eräajon avulla projektin jäljellä olevan käytön projektipäiväkirjaan. Erätyö laskee kullekin tehtävälle nimikkeiden, resurssien ja kirjanpitokustannusten suunnitellun käytön ja projektitapahtumiin kirjatun todellisen käytön välisen eron. Jäljellä oleva käyttö tulee näkyviin projektipäiväkirjaan, josta sen voi kirjata.  
 
-### Jäljellä olevan käytön laskeminen  
+### <a name="to-calculate-remaining-usage"></a>Jäljellä olevan käytön laskeminen
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektipäiväkirjat** ja valitse sitten vastaava linkki.  
 2. Avaa **Projektipäiväkirjan erät** -luettelo **Projektipäiväkirja**-sivun **Erän nimi** -kentässä. Valitse **Marianne**-projektipäiväkirjan erä.  
@@ -223,11 +223,11 @@ Seuraavassa toimenpiteessä luodaan projektipäiväkirjan erä Mariannea varten,
 
 Rivit kirjataan.  
 
-## Projektin myyntilaskun luominen ja kirjaaminen
+## <a name="creating-and-posting-a-project-sales-invoice"></a>Projektin myyntilaskun luominen ja kirjaaminen
 
  Seuraavaksi Marianne voi luoda uuden laskun koko projektille tai osalle projektia. Marianne voi myös liittää laskun saman asiakkaan toiseen laskuun samasta projektista. Tässä tapauksessa Marianne laskuttaa koko projektia, koska projekti on nyt valmis.  
 
-### Projektin myyntilaskun luominen  
+### <a name="to-create-a-project-sales-invoice"></a>Projektin myyntilaskun luominen
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projekti** ja valitse sitten vastaava linkki.  
 2.  Valitse projekti, jonka loit aiemmin, ja valitse **sitten Luo projektin myyntilasku -** toiminto.  
@@ -237,13 +237,13 @@ Rivit kirjataan.
 
  Kun Marianne on luonut laskun, hän voi käyttää sitä esimerkiksi **Myyntitilausten käsittelijän** roolikeskuksessa. 
 
-### Uuden myyntilaskun kirjaaminen  
+### <a name="to-post-a-new-sales-invoice"></a>Uuden myyntilaskun kirjaaminen
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntilaskut** ja valitse sitten vastaava linkki.  
 2.  Avaa sen asiakkaan lasku, jonka asiakkaan numero on 01445544. Suunnitteluriveiltä lisätyt tiedot tulevat näkyviin.  
 3.  Valitse **Kirjaa**-toiminto. Vahvista kirjaus valitsemalla **Kyllä**.  
 
-### Kirjatun laskun tarkasteleminen  
+### <a name="to-view-the-posted-invoice"></a>Kirjatun laskun tarkasteleminen
 
 1.  Avaa projekti ja valitse **sitten Projektin suunnittelurivit** -toiminto.  
 2.  Valitse ensin jokin laskutettu suunnittelurivi ja sitten **Myyntilasku/hyvityslasku**-toiminto.
@@ -251,17 +251,17 @@ Rivit kirjataan.
 
  Mariannella on tässä projektissa olennaisia hintoja, kustannuksia ja tuottoja koskeva kysymys, joten Marianne käyttää näitä tietoja **Tilasto-sivulla** .  
 
-### Tilastot-sivun avaaminen  
+### <a name="to-open-the-statistics-page"></a>Tilastot-sivun avaaminen
 
 1.  Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projekti** ja valitse sitten vastaava linkki.  
 2.  Valitse **Tilastot**-toiminto. Voit tarkastella yksityiskohtaisia tietoja projektin hinnoista, kustannuksista ja tuotoista sekä paikallisina että ulkomaan valuutoissa.  
 3.   **Sulje Projektin tilastot** -sivu valitsemalla Sulje-painike **·** .  
 
-## Kiinteiden hintojen käsitteleminen
+## <a name="handling-fixed-prices-1"></a>Kiinteiden hintojen käsitteleminen
 
  CRONUS kanssa on tehty sopimus kokoushuoneiden määrittämiseksi. Projektipäällikkö Thomas haluaa hyvän yleiskuvan projektille tarvittavista tehtävistä sekä kuhunkin tehtävään liittyvistä budjetoiduista ja kertyneistä kustannuksista. Thomas haluaa lisäksi tietää projektin sopimuksen kokonaishinnan ja tähän pisteeseen laskutetun summan. He ovat päässeet asiakkaan kanssa sopimukseen projektin kiinteästä hinnoittelusta.  
 
-### Kiinteän hinnoittelun hallinta projekteissa  
+### <a name="to-manage-fixed-pricing-in-projects"></a>Kiinteän hinnoittelun hallinta projekteissa
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projekti** ja valitse sitten vastaava linkki.  
 2. Valitse Espoo-projektin **numero** ja valitse projektitehtävärivit-toiminto **·** .  
@@ -281,7 +281,7 @@ Rivit kirjataan.
 
 Kun Marianne on lisätty tämän tehtävärivin aikatauluun, hän työskentelee projektissa 25 tuntia ja lisää nämä tunnit projektipäiväkirjaan.  
 
-### Tuntien lisääminen projektipäiväkirjaan  
+### <a name="to-enter-hours-in-a-project-journal"></a>Tuntien lisääminen projektipäiväkirjaan
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektipäiväkirjat** ja valitse sitten vastaava linkki.  
 2. Lisää seuraavat tiedot uudelle riville:  
@@ -336,13 +336,13 @@ Kun Marianne on lisätty tämän tehtävärivin aikatauluun, hän työskentelee 
 
 Kun sopimuksen kokonaishintaa tarkastellaan taulukossa, vain alkuperäiset, sopimuksenmukaiset 30 tuntia ovat mukana, koska tästä on asiakkaan kanssa sovittu.  
 
-## Projektien kopioiminen
+## <a name="copying-projects"></a>Projektien kopioiminen
 
 Thomas on päässyt Tinayhtymä Oy -asiakkaan kanssa sopimukseen kymmenen neuvotteluhuoneen sisustamisesta. Sopimus muistuttaa aiempaa projektia. Sen vuoksi aikaa säästyy, kun kyseinen aiempi projekti kopioidaan.  
 
  **Kopioi projekti -** sivulla voit valita kopioitettavat projekti- ja tehtävärivit. Voit myös kopioida lähdeprojektitapahtumat, jotka luovat todelliseen käyttöön perustuvia suunnittelurivejä, tai voit kopioida lähdeprojektin suunnittelurivit, jotka kopioivat alkuperäiset suunnittelurivit uuteen projektiin. Sen jälkeen voit valita sisällytettävän suunnittelurivin tai tapahtumarivin tyypin ja valita vain sen, mikä on merkityksellistä tälle uudelle projektille. Lopuksi voit valita projektin, johon haluat kopioida, ja määrittää, kopioidaanko myös hinnat ja määrät.  
 
-### Projektin kopiointi  
+### <a name="to-copy-a-project"></a>Projektin kopiointi
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projekti** ja valitse sitten vastaava linkki.  
 2.  **Luo uusi projekti valitsemalla Uusi-toiminto** . Lisää seuraavat tiedot:  
@@ -364,11 +364,11 @@ Thomas on päässyt Tinayhtymä Oy -asiakkaan kanssa sopimukseen kymmenen neuvot
 
 Vertaamalla hintoja, projektitehtävärivejä ja projektin suunnittelurivejä näiden kahden projektin osalta näet, että tiedot kopioitiin onnistuneesti.  
 
-## Maksujen suorittaminen osamaksuina
+## <a name="making-payments-by-installments"></a>Maksujen suorittaminen osamaksuina
 
 CRONUS on juuri ottanut hoitaakseen suuren projektin, joka kestää kokonaisen vuoden. Koska siihen täytyy kohdistaa huomattava määrä resursseja, asiakkaalta halutaan ennakkomaksu, maksu projektin puolivälissä ja lopullinen maksu projektin valmistuessa.  
 
-### Uuden tilin luominen  
+### <a name="to-set-up-a-new-account"></a>Uuden tilin luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten vastaava linkki.  
 2. Luo uusi kortti valitsemalla **Tilikartta**-sivulla **Uusi**.  
@@ -382,7 +382,7 @@ CRONUS on juuri ottanut hoitaakseen suuren projektin, joka kestää kokonaisen v
 
 Seuraavassa kuvataan, miten luodaan uusi projekti, määritetään hinnoittelu ja määritetään maksut osamaksuina. Projektitehtäväriveillä voidaan luoda yksinomaan osamaksuja varten tarkoitettuja rivejä. Kaikki projektin valmistuneet työt, jotka on lisätty aikatauluun, lisätään käyttöriveille. Jokaisen suunnittelurivin maksutehtävärivin rivityyppi on **Laskutettava**. Se tarkoittaa, että asiakasta tullaan laskuttamaan. Syötä uusi rivi ennakkomaksulle. Käyttötehtävärivillä voit syöttää tässä projektissa käytettyjen nimikkeiden ja resurssien tiedot, kuten projektissa käytetyt työntekijätunnit ja nimikkeet.  
 
-### Osamaksujen käyttäminen  
+### <a name="to-make-a-payment-by-installment"></a>Osamaksujen käyttäminen
 
 1. Luo uusi projekti.  
 2. Täytä seuraavat tiedot uuteen **Projekti-korttiin** :  
@@ -443,17 +443,17 @@ Seuraavassa kuvataan, miten luodaan uusi projekti, määritetään hinnoittelu j
 
  Kun tehtävä- ja suunnittelurivit on nyt lisätty, Thomas luo laskun ensimmäistä maksua varten. Nämä toimet tehdään projektitehtävän riveiltä, jotta laskussa on varmasti vain ensimmäisen maksun rivit. Voit avata myyntitilauksen suunnitteluriveiltä tai tehtäväriveiltä.  
 
-### Luo lasku  
+### <a name="to-create-an-invoice"></a>Luo lasku
 
 1.  Valitse **Projektitehtävärivit**-sivulla ensin rivi 1000 ja sitten **Luo myyntilasku** -toiminto.  
 2.  Määritä **Luo myyntilasku** -sivulla kuluva päivämäärä kirjauspäivämääräksi, määritä **Tehtäväkohtainen** ja valitse **OK**, jos haluat luoda oletustiedot sisältävän laskun. Sulje vahvistussivu valitsemalla **OK**.  
 3.  Valitse **Myyntilasku/hyvityslasku**-toiminto. Myyntilaskussa näkyy, että vain ennakkomaksu on mukana laskussa. Voit nyt lähettää tämän asiakkaalle sopimuksen mukaisesti.  
 
-## Seuraavat vaiheet
+## <a name="summary"></a>Seuraavat vaiheet
 
  Tässä vaihekuvauksessa käytiin läpi joitakin perusvaiheita, joita noudattamalla projekteja [!INCLUDE[prod_short](includes/prod_short.md)] voi käsitellä. Olet oppinut luomaan uuden projektin, kopioimaan projektin ja käsittelemään maksuja. Olet myös nähnyt esityksen siitä, miten voit luoda laskuja ja seurata tunteja.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
  [Liiketoimintaprosessien vaihekuvaukset](walkthrough-business-process-walkthroughs.md)  
  [Projektinhallinnan määrittäminen](projects-setup-projects.md)  

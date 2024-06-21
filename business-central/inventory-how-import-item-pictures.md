@@ -11,12 +11,12 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Useiden nimikekuvien tuominen
+# <a name="import-multiple-item-pictures"></a>Useiden nimikekuvien tuominen
 Voit tuoda kerralla useita nimikekuvia. Sinun tarvitsee vain antaa kuvatiedostoille nimikenumeroita vastaavat nimet, pakata ne zip-tiedostoon ja hallita sitten nimikekuivien tuontia Tuo nimikekuvat -sivulla.
 
 Kaikkia yleisiä tiedostomuotoja tuetaan.
 
-## Kuvatiedostojen nimeäminen nimikenimillä ja ZIP-tiedoston valmisteleminen
+## <a name="to-name-picture-files-by-the-item-names-and-prepare-the-zip-file"></a>Kuvatiedostojen nimeäminen nimikenimillä ja ZIP-tiedoston valmisteleminen
 1. Anna kullekin tiedostolle nimikekuvien tallennussijainnissa nimi, joka vastaa liittyvän nimikkeen numeroa. Esimerkiksi:
 
     |Nimikkeen nro|Tiedostonimi|
@@ -27,7 +27,7 @@ Kaikkia yleisiä tiedostomuotoja tuetaan.
 
 2. Kerää kaikki tiedostot ZIP-tiedostoon. Valitse esimerkiksi Resurssienhallinnassa ensin tiedostot ja sitten **Lähetä kohteeseen** ja **Pakattu kansio (zip-tiedosto)**.     
 
-## Nimikekuvien tuominen
+## <a name="to-import-item-pictures"></a>Nimikekuvien tuominen
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastonhallinnan asetukset** ja valitse sitten vastaava linkki.
 2. Valitse **Tuo nimikekuva** -toiminto.
 3. Valitse **Valitse ZIP-tiedosto** -kentässä oikea ZIP-kansio ja valitse sitten **Avaa**-painike.
@@ -41,7 +41,7 @@ Kaikkia yleisiä tiedostomuotoja tuetaan.
 
 **Tuonnin tila** -kenttä päivitetään näyttämään, onko kuvan tuonti ohitettu tai onko se valmis.       
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Numerosarjojen luominen](ui-create-number-series.md)  
 [Varasto](inventory-manage-inventory.md)  

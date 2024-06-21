@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Puitekokoonpanotilausten luominen
+# <a name="create-blanket-assembly-orders"></a>Puitekokoonpanotilausten luominen
 
 Voit mukauttaa kokoonpanonimikettä asiakkaan pyynnöstä myyntiprosessin kokoonpanon hallinnan avulla. Lisätietoja on kohdassa [Kokoonpano tilausta varten -nimikkeiden myyminen](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -20,7 +20,7 @@ Voit mukauttaa kokoonpanonimikettä asiakkaan pyynnöstä myyntiprosessin kokoon
 > [!NOTE]  
 >  Kuten kaikissa puitetilauksissa, kokoonpanon joukkotilausten määrät ovat vain ennusteita, eikä niitä käytetä, ennen kuin ne muunnetaan todellisiksi kokoonpanotilauksiksi. Tämän vuoksi tilaustoiminnot, kuten saatavuus, laskenta, varaus ja nimikeseuranta, eivät ole aktiivisia kokoonpanon puitetilauksissa.  
 
-## Luo puitekokokoonpanotilaus kokoonpano\-tilausta\-varten -nimikkeelle  
+## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>Luo puitekokokoonpanotilaus kokoonpano\-tilausta\-varten -nimikkeelle
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Puitemyyntitilaukset** ja valitse sitten vastaava linkki.  
 2. Luo uusi puitemyyntitilaus yhdellä kokoonpanonimikkeen rivillä. Lisätietoja on kohdassa [Puitemyyntitilausten luominen](sales-how-to-create-blanket-sales-orders.md).  
@@ -36,7 +36,7 @@ Voit mukauttaa kokoonpanonimikettä asiakkaan pyynnöstä myyntiprosessin kokoon
 
 Linkitetty puitekokoonpanotilaus ja kaikki muokkaukset on linkitetty uuteen myyntitilaukseen kokoonpanon tai myynnin valmistelua varten.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Puitemyyntitilausten luominen](sales-how-to-create-blanket-sales-orders.md)  
 [Kokoonpanon hallinta](assembly-assemble-items.md)  

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-## Tarkista asiakirjojen ja päiväkirjojen tiedot samalla kun työskentelet
+## <a name="check-data-in-documents-and-journals-while-you-work"></a>Tarkista asiakirjojen ja päiväkirjojen tiedot samalla kun työskentelet
 
 Järjestelmänvalvoja voi mahdollistaa, että [!INCLUDE [prod_short](prod_short.md)] tarkistaa asiakirjoihin ja päiväkirjoihin syöttämäsi tiedot reaaliaikaisesti.
 

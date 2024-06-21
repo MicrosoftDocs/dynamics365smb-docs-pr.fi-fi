@@ -11,11 +11,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Tietojen omistusmallit synkronointia varten
+# <a name="data-ownership-models-for-synchronization"></a>Tietojen omistusmallit synkronointia varten
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] edellyttää, että määrität tallennettavien tietojen omistajan. Lisätietoja on Power Apps -dokumentaation kohdassa [Taulukkotyypit](/powerapps/maker/data-platform/types-of-entities). Kun määrität [!INCLUDE[prod_short](includes/cds_long_md.md)]- ja [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksen välisen integroinnin, sinun on valittava synkronoiduille tietueille omistajaksi **käyttäjä tai ryhmä**. Näille tietueille suoritettavia toimintoja voidaan hallita käyttäjätasolla. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 
-## Tiimin omistus
+## <a name="team-ownership"></a>Tiimin omistus
 [!INCLUDE[prod_short](includes/prod_short.md)] -sovelluksessa yritys on oikeushenkilö- ja yritystaulukko, jonka avulla liiketoimintatiedot voidaan suojata ja visualisoida. Käyttäjät työskentelevät aina yrityksen kontekstissa. Lähimpänä tätä konseptia [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksessa on liiketoimintataulukko. Se ei sisällä oikeushenkilö- tai yritysviittauksia.
 
 Koska liiketoimintayksiköissä ei ole oikeushenkilö- tai yritysviittauksia, et voi pakottaa tietojen synkronointia yrityksen ja liiketoimintayksikön välillä yksi yhteen (1:1) -yhdistämismäärityksen avulla yhteen tai kahteen suuntaan. Jotta synkronointi olisi mahdollista, [!INCLUDE[prod_short](includes/prod_short.md)] -yrityksen synkronoinnin käyttöönoton aikana tapahtuu seuraavaa [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksessa:
@@ -49,21 +49,21 @@ Synkronointi määrittää tietueet omistavan tiimin. **Omistava oletustiimi** -
 > [!NOTE]
 > Tietueet ovat vain luku -tilassa yrityksen lisäämisen ja tallentamisen jälkeen. Varmista siis, että valitset oikean yrityksen.
 
-## Toisen liiketoimintayksikön valitseminen
+## <a name="choosing-a-different-business-unit"></a>Toisen liiketoimintayksikön valitseminen
 Voit muuttaa liiketoimintayksikön valintaa, jos käytät ryhmien omistajuus -mallia. Jos käytät henkilön omistajuus -mallia, oletusliiketoimintayksikkö valitaan aina. 
 
 Jos valitset toisen liiketoimintayksikön, esimerkiksi aiemmin [!INCLUDE[prod_short](includes/cds_long_md.md)] -sovelluksessa luodun yksikön, sen alkuperäinen nimi säilytetään. Tämä tarkoittaa sitä, että nimen alkuun ei tule yritystunnusta. Luodaan tiimi, joka käyttää nimeämiskäytäntöjä.
 
 Kun muutat liiketoimintayksikköä, voit valita vain ne liiketoimintayksiköt, jotka ovat yhden tason pääliiketoimintayksikön alapuolella.
 
-## Henkilön omistus
+## <a name="person-ownership"></a>Henkilön omistus
 Jos valitset henkilön omistusmallin, määritä kaikki myyjät, jotka omistavat uusia tietueita. Liiketoimintayksikkö ja tiimi luodaan [Tiimin omistajuus](admin-cds-company-concept.md#team-ownership) -osan mukaisesti.
 
 Oletusliiketoimintayksikköä käytetään, kun henkilön omistajuus -malli valitaan, eikä toista liiketoimintayksikköä voi valita. Oletusliiketoimintayksikköön liitetty ryhmä omistaa tietueita yleisille taulukoille, kuten tuotetaulukolle, jotka eivät liity tiettyihin myyjiin.
 
 Kun lisäät myyjiä [!INCLUDE[prod_short](includes/prod_short.md)]:ssä [!INCLUDE[prod_short](includes/cds_long_md.md)] -ohjelman käyttäjiin, [!INCLUDE[prod_short](includes/prod_short.md)] lisää käyttäjän oletusryhmään [!INCLUDE[prod_short](includes/cds_long_md.md)] -ohjelmaan. Voit varmistaa, että käyttäjät lisätään tarkastelemalla **Käyttäjät - Common Data Service** -sivun **Oletusryhmänjäsen**-saraketta. Jos käyttäjää ei lisätä, voit lisätä ne manuaalisesti käyttämällä **Lisää sidotut käyttäjät tiimiin** -toimintoa. Lisätietoja on kohdassa [Business Centralin tietojen synkronointi Dataversen avulla](admin-synchronizing-business-central-and-sales.md).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 [Tietoja [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md) -sovelluksesta
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

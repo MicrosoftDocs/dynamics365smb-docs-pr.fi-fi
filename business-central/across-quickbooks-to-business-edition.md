@@ -13,7 +13,7 @@ ms.reviewer: bholtorf
 ---
 
 
-# Vaihtaminen QuickBooks-sovelluksesta Dynamics 365 Business Centraliin
+# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Vaihtaminen QuickBooks-sovelluksesta Dynamics 365 Business Centraliin
 
 Yhtä useammat kasvavat yritykset ovat vaihtamassa startup-yrityksille ja muille pienyrityksille tarkoitetuista taloushallinnon sovelluksista, kuten QuickBooks Desktop ja QuickBooks Online, [!INCLUDE[prod_short](includes/prod_short.md)]iin, joka tukee myös suuria ja monimutkaisia organisaatioita. 
 
@@ -27,11 +27,11 @@ Lue lisää QuickBooks-sovellukseen sopivasta laajennuksesta:
 * [QuickBooks Desktopin tietojen siirtolaajennus](ui-extensions-quickbooks-data-migration.md)
 * [QuickBooks Onlinen tietojen siirtolaajennus](ui-extensions-quickbooks-online-data-migration.md)
 
-## Oletko valmis aloittamaan?
+## <a name="ready-now"></a>Oletko valmis aloittamaan?
 
 Jos olet valmis aloittamaan nyt, valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asetusten ohjattu määritys** ja valitse sitten vastaava linkki. Valitse **Siirrä liiketoimintatiedot** ja noudata oppaan ohjeita.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Liiketoimintatietojen tuominen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
 [Business Central -sovelluksen mukauttaminen laajennusten avulla](ui-extensions.md)   

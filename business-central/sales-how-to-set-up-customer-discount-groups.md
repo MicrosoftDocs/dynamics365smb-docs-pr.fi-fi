@@ -8,13 +8,13 @@ ms.date: 06/08/2022
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
-# Asiakasalennusryhmien määrittäminen
+# <a name="set-up-customer-discount-groups"></a>Asiakasalennusryhmien määrittäminen
 
 Voit määrittää myyntirivialennuksia asiakasryhmälle sen sijaan, että soveltaisit niitä yksitellen.
 
 **Asiakasalennusryhmät** toimivat samalla tavalla kuin [asiakashintaryhmät](sales-how-to-set-up-customer-price-groups.md), mutta ne voidaan yhdistää nimikealennusryhmiin useiden nimikkeiden rivialennusten nopeaksi määrittämiseksi valituille asiakkaille.
 
-## Myyntirivialennusten luonti asiakasryhmälle
+## <a name="create-sales-line-discounts-for-a-customer-group"></a>Myyntirivialennusten luonti asiakasryhmälle
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asiakasalennusryhmät** ja valitse sitten vastaava linkki.
 2. Valitse **Asiakasalennusryhmät**-sivulla **Uusi** luodaksesi uuden alennusryhmän, anna sille nimi **Koodi**-sarakkeessa ja lisää kuvaus.
@@ -27,7 +27,7 @@ Voit määrittää myyntirivialennuksia asiakasryhmälle sen sijaan, että sovel
 
 Toista vaiheet 4–8 kunkin sellaisen nimikkeen tai nimikealennusryhmän osalta, jolle haluat luoda myyntirivialennuksen.
 
-## Lisää asiakas alennusryhmään
+## <a name="assign-a-customer-to-a-discount-group"></a>Lisää asiakas alennusryhmään
 
 Sen jälkeen, kun olet määrittänyt asiakasalennusryhmät, voit syöttää asiakkaan alennusryhmäkoodit asiakaskortteihin.
 
@@ -35,7 +35,7 @@ Sen jälkeen, kun olet määrittänyt asiakasalennusryhmät, voit syöttää asi
 2. Avaa sen asiakkaan **asiakaskortti**, jonka haluat liittää asiakasalennusryhmään.
 3. Valitse **Laskutus**-pikavälilehden **Asiakkaan alennusryhmä** -kentässä ryhmäkoodi.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  

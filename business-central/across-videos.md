@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Vieraile Microsoftin videokirjastossa
+# <a name="visit-our-video-library"></a>Vieraile Microsoftin videokirjastossa
 
 Olet löytänyt asiakirjat. Mutta jotkut ihmiset mieluummin katselevat sisältöä kuin lukevat sitä. Tätä varten olemme tuottaneet lyhyitä, helposti katsottavia videoita. Useimmat videot täydentävät käyttäjäapua, ja joitakin niistä voi katsella itsenäisesti.  
 
@@ -24,7 +24,7 @@ Voit tarkastella myös opastusvideoita sekä runsaasti muuta sisältöä [!INCLU
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Dynamics 365 -kanava YouTubessa](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  

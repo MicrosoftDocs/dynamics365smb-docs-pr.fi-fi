@@ -9,7 +9,7 @@ ms.date: 04/24/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Työnkulkujen luominen liiketoimintaprosessin yhdistämistehtäviä varten
+# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Työnkulkujen luominen liiketoimintaprosessin yhdistämistehtäviä varten
 
 Voit luoda työnkulkuja, jotka yhdistävät eri käyttäjien suorittamia tehtäviä liiketoimintaprosesseissa. Voit sisällyttää mukaan järjestelmätehtäviä (kuten automaattinen kirjaus) työnkulkuihin, joita käyttäjän tehtävät edeltävät tai seuraavat. Uusien tietueiden luontiin liittyvien hyväksyntöjen pyytäminen ja antaminen ovat tyypillisiä työnkulun osavaiheita.  
 
@@ -43,7 +43,7 @@ Työnkulku jakautuu kolmeen osaan:
 
 Tapahtumien ja vastausten vaihtoehdot ovat järjestelmän määrittämiä. Jos haluat lisätä uusia vaihtoehtoja, sinun on kehitettävä laajennus.
 
-## Työnkulun luominen
+## <a name="to-create-a-workflow"></a>Työnkulun luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Työnkulut**, valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto. **Työnkulku**-sivu avautuu.  
@@ -114,7 +114,7 @@ Tapahtumien ja vastausten vaihtoehdot ovat järjestelmän määrittämiä. Jos h
 > [!TIP]  
 > Jos haluat tarkastella työnkuluissa käytettävien taulukoiden välisiä suhteita, valitse ![Kerro-ominaisuuden avaava hehkulamppu.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä sitten **Työnkulku – Taulukon suhteet**.  
 
-## Esimerkki uuden työnkulun luomisesta aiemmin luotujen tapahtumien avulla
+## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Esimerkki uuden työnkulun luomisesta aiemmin luotujen tapahtumien avulla
 
 Seuraavassa esimerkissä luodaan uusi työnkulku, joka hyväksyy muutoksen toimittajan nimeen:
 
@@ -173,7 +173,7 @@ Seuraavassa kuvassa on yleiskuvaus tämän menettelyn tuloksesta.
 
 Testaa seuraavaksi työnkulku avaamalla aiemmin luotu toimittajakortti ja muuttamalla toimittajan nimeä. Varmista, että hyväksymispyyntö lähetetään toimittajan nimen muuttamisen jälkeen.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Työnkulkujen luominen työnkulkumalleista](across-how-to-create-workflows-from-workflow-templates.md)  
 [Hyväksynnän käyttäjien määrittäminen](across-how-to-set-up-approval-users.md)  

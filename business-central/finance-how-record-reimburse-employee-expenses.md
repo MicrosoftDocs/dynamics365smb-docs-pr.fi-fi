@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Työntekijöiden kulujen kirjaaminen ja hyvittäminen
+# <a name="record-and-reimburse-employees-expenses"></a>Työntekijöiden kulujen kirjaaminen ja hyvittäminen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tukee työntekijöiden tapahtumia samalla tavoin kuin toimittajien tapahtumia. Niinpä työntekijän kirjausryhmien avulla voidaan varmistaa, että työntekijätapahtumat kirjataan oikeille yleisen päiväkirjan tileille.
 
@@ -28,7 +28,7 @@ Työntekijätilien yleisiä päiväkirjoja voidaan käyttää rekisteröimään 
 
 Summien valuuttakurssin ajantasaisuus varmistetaan oikaisemalla työntekijän saldot, kun valuutan vaihtokurssi suoritetaan erätyönä. Jos halutaan käyttää vaihtokurssitaulukkoa mutta selvittää työntekijän saldon paikallisena valuuttana, työntekijätilit voidaan jättää pois vaihtokurssien muuttamisen yhteydessä.
 
-## Työntekijän kulun kirjaaminen
+## <a name="to-record-an-employees-expense"></a>Työntekijän kulun kirjaaminen
 
 Voit kirjat työntekijän kulut **Yleinen päiväkirja** -sivulla.
 
@@ -44,7 +44,7 @@ Voit kirjat työntekijän kulut **Yleinen päiväkirja** -sivulla.
     > Jos haluat antaa työntekijän pankkitilille useita kulurivejä yhden vastatilin rivin yläpuolelle, valitse erän rivillä **Ehdota vastasummaa** -valintaruutu **Yleisen päiväkirjan erät** -sivulla. Tällöin vastatilin rivin **Summa**-kenttä täytetään automaattisesti arvolla, joka vaaditaan kulujen täsmäyttämiseen.
 5. Kirjaa kulut työntekijän tilille valitsemalla **Kirjaa**-toiminto.
 
-## Hyvityksen tekeminen työntekijälle
+## <a name="to-reimburse-an-employee"></a>Hyvityksen tekeminen työntekijälle
 
 Hyvitys tehdään työntekijöille kirjaamalla maksut heidän pankkitililleen **Maksupäiväkirja**-sivulla.  
 
@@ -54,11 +54,11 @@ Hyvitys tehdään työntekijöille kirjaamalla maksut heidän pankkitililleen **
 4. Vaihtoehtoisesti voit valita **Ehdota työntekijämaksuja**-toiminnon, joka lisää automaattisesti odottavat työntekijän hyvitysten päiväkirjarivit.
 5. Rekisteröi hyvitys valitsemalla **Kirjaa**-toiminto.  
 
-## Hyvitysten täsmäyttäminen työntekijätapahtumien kanssa
+## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Hyvitysten täsmäyttäminen työntekijätapahtumien kanssa
 
 Voit kohdistaa työntekijämaksut niiden liittyviin avoimiin työntekijätapahtumiin liittyvien pankkitilitapahtumien perusteella samalla tavoin kuin toimittajan maksut. Voit tehdä tämän esimerkiksi **Maksujen täsmäytyskirjauskansio** -sivulla. Lisätietoja on kohdassa [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md). Vaihtoehtoisesti voit tehdä kohdistuksen manuaalisesti **Työntekijätapahtumat**-sivulla. Lisätietoja on liittyvässä kohdassa [Toimittajamaksujen täsmäyttäminen maksukirjauskansiolla tai toimittajatapahtumista](payables-how-apply-purchase-transactions-manually.md)  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  

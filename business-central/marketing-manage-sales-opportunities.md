@@ -12,7 +12,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Myyntimahdollisuuksien hallinta
+# <a name="managing-sales-opportunities"></a>Myyntimahdollisuuksien hallinta
 Kaikkia saapuvia leadeja voidaan pitää myyntimahdollisuuksina. Voit luoda mahdollisuuksia ja määrittää ne myyjälle, jolloin voit seurata mahdollista myyntiä.
 
 Myyntisyklit ja myyntisyklin vaiheet on määritettävä ennen mahdollisuuksien hallinnan käyttöönottoa. Mahdollisuuksien luomisen yhteydessä on määritettävä tietoja kontaktista, myyjästä, myyntisyklistä ja päivämääristä sekä omat arviot mahdollisuuden myyntiarvosta ja onnistumisesta.
@@ -25,7 +25,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 | Luo kontakteiltasi peräisin olevat myyntimahdollisuudet. |[Mahdollisuuksien luominen](marketing-how-create-opportunities.md) |
 | Siirrä myyntimahdollisuus myyntisyklin kautta valmistumiseen. |[Myyntimahdollisuuksien käsitteleminen](marketing-processing-sales-opportunities.md) |
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 [Myynti](sales-manage-sales.md)  
 [Kontaktien luonti ja hallinta](marketing-contacts.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

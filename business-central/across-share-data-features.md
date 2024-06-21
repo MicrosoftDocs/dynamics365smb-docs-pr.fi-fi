@@ -9,13 +9,13 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Yritystietojen jakaminen Business Centralista
+# <a name="sharing-business-data-from-business-central"></a>Yritystietojen jakaminen Business Centralista
 
 Organisaation sisä- ja ulkopuolisten henkilöiden välinen yhteistyö on osa useimpia yrityksiä. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää useita toimintoja, joiden avulla voit jakaa yritystietoja, kuten tietueluettelon, tietyt tietueet tai asiakirjat. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.-->
 
 Kaikkien näiden ominaisuuksien avulla tietojen käyttö on suojattu Business Centralin lisenssillä ja käyttöoikeuksilla.
 
-## Linkin kopioiminen
+## <a name="copying-a-link"></a>Linkin kopioiminen
 
 ![Tuettu](media/check.png) Business Central Online ![Tuettu](media/check.png) Business Central On-premises
 
@@ -34,22 +34,22 @@ Kun liität URL-osoitteen rtf-editoriin, kuten Wordiin, Outlookiin tai Teamsiin,
 > [!TIP]
 > Samanlaista nimeämistapaa käytetään selainvälilehdissä.
 
-### Jaa data-analyysi
+### <a name="share-data-analysis"></a>Jaa data-analyysi
 Jos tarkastelet sivua tai kyselyä tietojen analysointitilassa, voit jakaa tietyn analyysivälilehden valitsemalla välilehdessä alanuolipään ja valitsemalla sitten **Kopioi linkki**. [Lisätietoja tietojen analysointitilasta](analysis-mode.md). 
 
-### Muokkaa sivun linkkiä
+### <a name="modify-the-page-link"></a>Muokkaa sivun linkkiä
 
 Kun olet kopioinut linkin, ennen sen lähettämistä voit muokata URL-osoitetta niin, että se vaikuttaa siihen, mitä näytetään, kun sivu avataan. Voit esimerkiksi lisätä suodattimia tai määrittää eri yrityksen.
 
 [Lisätietoja verkkoasiakasohjelman URL-osoitteesta](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls).
 
-### Tietoja suodatetuista luetteloista
+### <a name="about-filtered-lists"></a>Tietoja suodatetuista luetteloista
 
 Luettelosivujen suodatinruudun avulla voit tarkentaa luettelossa olevia tietueita käyttämällä suodattimia. Jos käytät **Kopioi linkki** -toimintoa tai kopioit URL-osoitteen selaimesta, sivun linkki ei sisällä suodattimen muutoksia. Linkin avaavat käyttäjät näkevät koko kokoelman. Tapa säilyttää suodatus kokoelmasivulla on tallentaa suodatettu sivu **näkymäksi** ensin. Avaa sitten näkymä ja kopioi linkki sieltä.
 
 [Lisätietoja lajittelusta, hausta ja suodattamisesta](ui-enter-criteria-filters.md).
 
-## Jakaminen Teamsiin
+## <a name="sharing-to-teams"></a>Jakaminen Teamsiin
 
 ![Tuettu](media/check.png) Business Central Online ![Ei tueta](media/x-icon.png) Business Central On-premises
 
@@ -57,7 +57,7 @@ Suoraan useimmista kokoelmasivuista ja tietosivuista voit lähettää linkin siv
 
 [Lisätietoja tietueiden ja sivulinkkien jakamisesta Teamsissa](across-working-with-teams.md).
 
-## Jakaminen OneDriven kautta
+## <a name="sharing-through-onedrive"></a>Jakaminen OneDriven kautta
 
 ![Tuettu](media/check.png) Business Central Online ![Tuettu](media/check.png) Business Central On-premises
 
@@ -65,7 +65,7 @@ Business Centralin avulla on helppo tallentaa, hallita ja jakaa tiedostoja muide
 
 [Lisätietoja tiedostojen jakamisesta OneDrivessa](across-share-onedrive.md)
 
-## Avaaminen Excelissä
+## <a name="opening-in-excel"></a>Avaaminen Excelissä
 
 ![Tuettu](media/check.png) Business Central Online ![Tuettu](media/check.png) Business Central On-premises
 
@@ -73,7 +73,7 @@ Voit käyttää **Avaa Excelissä** -toimintoa luettelosivuissa ja luetteloissa,
 
 [Lisätietoja tarkastelusta ja muokkaamisesta Excelissä](across-work-with-excel.md).
 
-## Rivien tai taulukoiden jakaminen
+## <a name="sharing-rows-or-tables"></a>Rivien tai taulukoiden jakaminen
 
 ![Tuettu](media/check.png) Business Central Online ![Tuettu](media/check.png) Business Central On-premises
 
@@ -81,7 +81,7 @@ Voit jakaa yhden tai useamman tietueen luettelossa. Kopioi leikepöydälle näpp
 
 [Lisätietoja kopioimisesta ja liittämisestä usein kysytyissä kysymyksissä](faq-copy-paste.yml).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Business Centralin ja OneDriven integraatio](across-onedrive-overview.md)  
 [OneDriven ja Business Centralin integroinnin hallinta](admin-onedrive-integration.md)  

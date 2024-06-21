@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Vastuullisuusmääritys
+# <a name="sustainability-setup"></a>Vastuullisuusmääritys
 
 Ennen kuin kestävyysmoduuli voi toimia oikein, sinun on määritettävä joitain perusohjausobjekteja ja ohjeita, jotka liittyvät koko toimintoon.
 
@@ -53,7 +53,7 @@ Määritä kestävyysmoduuli noudattamalla vaiheita:
     | **Päästön pyöristystarkkuus** | Määritä sen välin suuruus, jota käytetään pyöristettäessä päästösummia viranomaisille raportoitaessa. |
     | **Päästön pyöristystyyppi** | Määritä, miten ohjelma pyöristää päästösummat, kun raportoidaan viranomaisille. Käytettävissä ovat seuraavat vaihtoehdot: **Lähin**, **Ylös** ja **Alas**. |
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Taloushallinto](finance.md)  
 [Vastuullisuuden hallinnan yleiskatsaus](finance-manage-sustainability.md)  

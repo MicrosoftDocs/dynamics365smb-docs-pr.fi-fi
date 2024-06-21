@@ -11,7 +11,7 @@ ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Vuosien ja kausien sulkeminen
+# <a name="closing-years-and-periods"></a>Vuosien ja kausien sulkeminen
 
 Tilikauden lopussa on suoritettava joukko hallinnollisia tehtäviä. On esimerkiksi tarkistettava, että kaikki asiakirjat ja päiväkirjat on kirjattu, valuuttatiedot ovat ajan tasalla ja kirjat on suljettu. Suoritettavat tehtävät riippuvat yrityksestä.
 
@@ -29,7 +29,7 @@ Seuraava taulukko sisältää yleiskuvauksen tehtävistä, joita yleensä suorit
 | Rahoituslaskelmien luomisessa apuna käytettävien raporttien tulostaminen. |[Tilinpäätöslaskelmien valmisteleminen](year-prepare-close-statement.md) |
 | Kirjanpitojaksojen ja tilikausien sulkeminen, tuloslaskelmasaldojen siirtäminen tasetileille ja vuositilinpäätöstapahtuman kirjaaminen. |[Kirjojen sulkeminen](year-close-books.md) |
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Kirjanpitojaksojen ja tilikausien käyttäminen](finance-accounting-periods-and-fiscal-years.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

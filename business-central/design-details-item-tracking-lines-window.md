@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Rakennetiedot: Nimikkeen seurantarivit -sivu
+# <a name="design-details-item-tracking-lines-page"></a>Rakennetiedot: Nimikkeen seurantarivit -sivu
 Nimikkeen seurantatietueet ja varaustietueet luodaan varausjärjestelmässä ja niiden saatavuus lasketaan dynaamisesti. **Nimikkeen seurantarivit** -sivulla kirjoitettuja tietoja hallitaan väliaikaisella **Seurannan määrittely** -taulukon versiolla. Kun sivu suljetaan, aktiiviset tiedot lisätään **Varaustapahtuma**-taulukkoon ja historialliset tiedot **Seurannan määrittely** -taulukkoon. Lisätietoja on kohdassa [Rakennetiedot: aktiivisen nimikkeen seurantatapahtumat verrattuna historiallisen nimikkeen seurantatapahtumiin](design-details-active-versus-historic-item-tracking-entries.md).  
   
 **Sarjanumero**- ja **Eränro**-kentissä suoritettu haku näyttää saatavuuden perustuen sekä **Nimiketapahtuma**-taulukkoon että **Varaustapahtuma**-taulukkoon ilman päivämääräsuodatinta. Määräkenttien taulukko **Nimikkeen seurantarivit** -sivun otsikossa näyttää dynaamisesti nimikkeen seurantanumeroiden määrät ja summat, jotka syötetään sivun riveille. Määrien tulee vastata asiakirjarivillä olevia määriä, joka ilmaistaan sivun otsikossa olevalla arvolla **0** **Määrittämätön**-kentissä.  
@@ -23,7 +23,7 @@ Sarja- ja eränumeroiden varaston läpi kulkevan virran koordinoinnissa käytet�
   
 Tietojen kirjauksen säännöt **Nimikkeen seurantarivit** -sivulla tukevat myös kytkentäperiaatteita, jotka kattavat tilausseurannan, suunnittelun ja varauksen. Katso lisätiedot kohdasta [Rakennetiedot: nimikkeen seuranta ja suunnittelu](design-details-item-tracking-and-planning.md).  
   
-## Katso myös  
+## <a name="see-also"></a>Katso myös
 [Rakennetiedot: nimikkeen seuranta](design-details-item-tracking.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

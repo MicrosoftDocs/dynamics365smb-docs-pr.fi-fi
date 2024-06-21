@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Vastuullisuuden hallinnan yleiskatsaus
+# <a name="sustainability-management-overview"></a>Vastuullisuuden hallinnan yleiskatsaus
 
 > [!IMPORTANT]
 > Tämä ominaisuus on saatavilla Business Centralissa vuoden **2024 julkaisuaallosta 1** alkaen. Kaikki viitelinkit otetaan käyttöön, kun ne ovat käytettävissä.
@@ -43,7 +43,7 @@ Aloita Sustainability Managementin käyttäminen tutustumalla alla oleviin artik
 | [Vastuullisuustilien ja -kirjanpidon tilikartta](finance-sustainability-accounts-ledger.md) | Tässä artikkelissa on tietoja kestävyystilikartan (CoSA), tililuokkien ja alakategorioiden määrittämisestä oikein sekä kestävän kehityksen kirjanpitotietojen analysoinnista. |
 | [Kestävyystapahtumien tallentaminen](finance-sustainability-journal.md) | Tämän artikkelin avulla voit tutustua kaikentyyppisiin kestävyyspäiväkirjoihin. |
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Vastuullisuusmääritys](finance-sustainability-setup.md)  
 [Kestävyystilien tilikartta ja kirjanpito](finance-sustainability-accounts-ledger.md)  
