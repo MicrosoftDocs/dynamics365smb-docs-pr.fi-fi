@@ -12,11 +12,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="specify-posting-periods"></a>Kirjausjaksojen määrittäminen
+# Kirjausjaksojen määrittäminen
 
 Kirjauskausien avulla voit määrittää, milloin käyttäjät voivat kirjata pääkirjanpitoon.  
 
-## <a name="to-specify-posting-periods"></a>Kirjausjaksojen määrittäminen
+## Kirjausjaksojen määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** ja valitse sitten vastaava linkki.  
 2. Määritä jakso **Pääkirjanpidon asetukset** -sivulla antamalla päivämäärät **Ensimm. sallittu kirjauspvm**- ja **Viimeinen sallittu kirjauspvm** -kenttiin.  
@@ -24,13 +24,13 @@ Kirjauskausien avulla voit määrittää, milloin käyttäjät voivat kirjata p�
 > [!NOTE]  
 > Nämä kirjausjaksot koskevat yritystä ja kaikki käyttäjiä. Voit sallia poikkeukset määrittämällä eri kirjausjaksot tietyille käyttäjille **Käyttäjäasetukset**-sivulla. Nämä kirjausjaksot ohittavat **Pääkirjanpidon asetukset** -sivulla määritetyt jaksot. Lisätietoja on kohdassa [Käyttäjien aikarajoitteiden määrittäminen](ui-define-granular-permissions.md#set-up-time-constraints-for-users).
 
-## <a name="video-guidance"></a>Video-opastus
+## Video-opastus
 
 Kun olet sulkemassa tilikautta, saatat haluta estää uusien viestien saapumisen tai sallia vain tiettyjen ihmisten kirjata tapahtumia. Seuraava video näyttää, kuinka voit hallita, milloin ja kuka voi kirjata tapahtumia pääkirjaasi.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1fAB8]
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Taloushallinto](finance.md)  
 [Kauden lopun prosessien viimeisteleminen](year-how-complete-period-end-processes.md)  

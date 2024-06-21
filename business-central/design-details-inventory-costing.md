@@ -11,13 +11,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="design-details-inventory-costing"></a>Rakennetiedot: varaston arvostus
+# Rakennetiedot: varaston arvostus
 
 Tässä dokumentaatiossa on yksityiskohtaisia teknisiä tietoja [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman varaston arvostuksen toiminnoissa käytettävistä konsepteista ja periaatteista.  
 
 Varaston arvostus, jota kutsutaan myös kustannuslaskennaksi, käsittelee liiketoiminnan toimintokustannusten tallennusta ja raportointia.  
 
-## <a name="in-this-section"></a>Tämän osan sisältö
+## Tämän osan sisältö
 
 [Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)  
 [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md)  

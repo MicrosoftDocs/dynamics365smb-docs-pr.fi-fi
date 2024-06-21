@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="accessibility-and-keyboard-shortcuts"></a>Helppokäyttötoiminnot ja pikanäppäimet
+# Helppokäyttötoiminnot ja pikanäppäimet
 
 Tässä artikkelissa on tietoja toiminnoista, joiden ansiosta [!INCLUDE[prod_short](includes/prod_short.md)] on jo toimintarajoitteisten käyttäjien käytettävissä. [!INCLUDE[prod_short](includes/prod_short.md)] tukee seuraavia helppokäyttötoimintoja:  
 
@@ -26,7 +26,7 @@ Tässä artikkelissa on tietoja toiminnoista, joiden ansiosta [!INCLUDE[prod_sho
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="navigation"></a><a name="Navigation"></a>Siirtyminen
+## <a name="Navigation"></a> Siirtyminen
   
 Voit käyttää näppäimistön sarkain-, vaihto- ja nuolinäppäimiä, jos haluat siirtyä sivun elementtien välillä. Elementtejä ovat toiminnot, kentät ja sarakkeet, osat ja muut ohjausobjektit. Yleensä voit siirtyä seuraavaan tai edelliseen elementtiin valitsemalla <kbd>sarkain</kbd>- tai <kbd>vaihto</kbd>+<kbd>sarkain</kbd>-näppäimiä.
 
@@ -34,29 +34,29 @@ Kun keskitys tehdään toimintoja sisältävälle alueelle, siirry nuolinäppäi
 
 Voit siirtyä sarkaimella järjestyksessä pääselainsivun ja esimerkiksi vahvistusta pyytävän valintaikkunan tai kirjautumissivun välillä.  
 
-## <a name="headings-in-content"></a><a name="Headings"></a>Sisällön otsikot
+## <a name="Headings"></a>Sisällön otsikot
 
 [!INCLUDE[prod_short](includes/prod_short.md)]:n sisällön HTML-lähde käyttää tunnisteita, jotka auttavat helppokäyttötoimintojen käyttäjiä ymmärtämään sivun rakennetta ja sisältöä. Esimerkiksi luettelosivuilla sarakkeet määritetään TH.-tunnisteilla ja sarakeotsikot määritetään tunnisteen sisällä olevalla TITLE-määritteellä. Otsikkotunnisteet (H1, H2, H3 ja H4) sisältävät elementtien, kuten pikavälilehtien, tietoruutujen ja kenttien, selosteet.  
 
-## <a name="image-and-links"></a><a name="Images"></a>Kuva ja linkit
+## <a name="Images"></a> Kuva ja linkit
 
 Kuvien kuvaileva teksti määritetään IMG-tunnisteeseen sisältyvällä ALT-määritteellä. Hyperlinkkien kuvaileva teksti määritetään A-tunnisteeseen sisältyvällä TITLE-määritteellä.  
 
-## <a name="assistive-technologies"></a><a name="AssistiveTech"></a>Käyttöä tukevat tekniikat
+## <a name="AssistiveTech"></a> Käyttöä tukevat tekniikat
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tukee erilaisia käyttöä helpottavia tekniikoita, kuten suurta kontrasti, näytönlukuohjelmia ja puheentunnistusohjelmistoja. Jotkin käyttöä helpottavat tekniikat eivät ehkä toimi hyvin tiettyjen [!INCLUDE[prod_short](includes/prod_short.md)]:n sivuelementtien kanssa.  
 
-## <a name="zoom"></a><a name="zoom"></a>Zoomaa
+## <a name="zoom"></a>Zoomaa
 
 Useimmat selaimet käyttävät vakiopikanäppäimiä, kun haluat lähentää ja loitontaa nykyistä sivua. Nämä pikanäppäimet eivät ole tuotteelle [!INCLUDE [prod_short](includes/prod_short.md)] ominaisia, mutta ne toimivat, kun [!INCLUDE [prod_short](includes/prod_short.md)] on käytössä selaimessa. Luettelo tuetuista pikanäppäimistä on kohdassa [Pikanäppäimet lähentämistä ja loitontamista varten](keyboard-shortcuts.md#zoomshortcuts).
 
-## <a name="tooltips"></a>Työkaluvihjeet
+## Työkaluvihjeet
 
 Työkaluvihjeet ovat käytettävissä useimmissa käyttöliittymän elementeissä, kuten sivun kentissä ja sarakkeissa, toiminnoissa, pinoruuduissa ja kaavioissa. Työkalu Vihje sisältää lisä tekstin, jossa selitetään elementti, joka helpottaa sen tarkoituksen ymmärtämistä. 
 
 Työkaluvihjeet ovat käytettävissä eri tavoilla asiakasohjelman (verkko tai mobiili) ja käyttämäsi laitteen mukaan. Käytä seuraavaa taulukkoa oppaana. Näytönlukuohjelmat voivat lukea osan työkaluvihjeistä. Tässä tapauksessa työkaluvihjeitä käytetään taulukossa kuvatulla tavalla. Tämän jälkeen siirrytään työkaluvihjeeseen näytönlukuohjelman avulla samalla tavalla kuin mihin tahansa muuhun elementtiin.
 
-#### <a name="accessing-tooltips"></a>Työkaluvihjeiden käyttäminen
+#### Työkaluvihjeiden käyttäminen
 
 |Elementti|Hiiritoiminto verkkoasiakasohjelmassa|Verkkoasiakasohjelman pikanäppäimet|Mobiilisovelluksen kosketusele tabletissa/puhelimessa|Näytönlukuohjelman tuki|
 |-------|-----------------|------------|--------------------------|---------------------|
@@ -73,11 +73,11 @@ Työkaluvihjeet ovat käytettävissä eri tavoilla asiakasohjelman (verkko tai m
 
 -->
 
-## <a name="for-more-accessibility-information"></a>Lisätietoja helppokäyttötoiminnoista
+## Lisätietoja helppokäyttötoiminnoista
 
 Lisätietoja Microsoftin tuotteiden helppokäyttötoiminnoista ja käyttöä helpottavista tekniikoista on [Microsoftin helppokäyttötoimintojen](https://go.microsoft.com/fwlink/?LinkId=262160) sivustossa.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

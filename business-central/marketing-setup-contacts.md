@@ -10,14 +10,14 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="set-up-contacts"></a>Kontaktien määrittäminen
+# Kontaktien määrittäminen
 Voit antaa kontaktien luomisen yhteydessä tietoja, kuten toimialan, johon kontakti kuuluu, sekä liikesuhteesi kontakteihin.
 
 Ennen kontaktien luomista ja liikesuhteiden tietojen tallentamista on määritettävä koodit, joiden avulla tiedot liitetään kontaktin yrityksiin ja henkilöihin. Koodit voidaan määrittää postitusryhmille, toimialaryhmille, liikesuhteille, verkkolähteille, organisatorisille tasoille ja vastuualueille. Voit määrittää nämä valitsemalla **Uusi**-toiminnon, kun valitse luetteloita kontaktikortissa.  
 
 Kun nämä tiedot on määritetty, kontaktien luominen on organisoidumpaa ja kontaktien etsiminen tietyn ryhmän perusteella tehokkaampaa. Jokainen yrityksen ryhmä saa tiedot käyttöönsä, ja näin kontakteihin voi pitää yhteyttä tehokkaammin.
 
-## <a name="to-assign-industry-groups-to-a-contact"></a>Toimialaryhmien määrittäminen kontaktille
+##  Toimialaryhmien määrittäminen kontaktille
 Toimialaryhmien avulla osoitetaan, minkä tyyppiseen toimialaryhmään (esimerkiksi vähittäistavarakauppa ja autoteollisuus) kontaktit kuuluvat.
 
 > [!NOTE]
@@ -35,7 +35,7 @@ Kontaktille määritettyjen toimialaryhmien lukumäärä näkyy **Kontaktin kort
 
 Kun olet liittänyt toimialaryhmiä kontakteihisi, voit käyttää näitä tietoja valitessasi kontakteja segmentteihisi. Lisätietoja on kohdassa [Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md).
 
-## <a name="to-assign-mailing-groups-to-a-contact"></a>Postitusryhmien määrittäminen kontaktiin
+##  Postitusryhmien määrittäminen kontaktiin
 Postitusryhmien avulla voi määrittää niiden kontaktien ryhmät, joiden haluat vastaanottavan samat tiedot. Voit määrittää esimerkiksi kontaktien postitusryhmän, jolle haluat lähettää ilmoituksen toimiston siirtämisestä, tai toisen ryhmän, jolle haluat lähettää lomalahjoja.
 
 Postitusryhmän koodi määrittää ryhmän tyypin tai luokan. Se voi olla SIIRTO toimiston siirrolle tai LAHJA lomalahjalle. Toimialaryhmän koodeja voi olla useita. Voit määrittää toimialaryhmät **Postitusryhmät**-sivun avulla.
@@ -50,7 +50,7 @@ Kontaktiin liitettyjen postitusryhmien lukumäärä näytetään **Kontaktin kor
 
 Kun olet liittänyt postitusryhmät kontakteihisi, voit käyttää näitä tietoja valitessasi kontakteja segmentteihisi. Lisätietoja on kohdassa [Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md).
 
-## <a name="to-define-a-contacts-alternate-address"></a>Kontaktin vaihtoehtoisen osoitteen määrittäminen
+## Kontaktin vaihtoehtoisen osoitteen määrittäminen
 Voit määrittää vaihtoehtoisen osoitteen (esimerkiksi kesämökin osoitteen), johon kontakti haluaa vastaanottaa joskus lähetetään postia ja tietoja. Voit määrittää myös vähintään yhden päivämäärävälin jokaiseen vaihtoehtoiseen osoitteeseen, jonka olet antanut kontakteillesi määrittämään, milloin osoite on voimassa.
 
 1. Avaa haluamasi kontaktin kortti.
@@ -61,7 +61,7 @@ Voit määrittää vaihtoehtoisen osoitteen (esimerkiksi kesämökin osoitteen),
 
 Toista nämä vaiheet ja määritä niin monta vaihtoehtoista osoitetta kuin haluat. Voit määrittää jokaiselle vaihtoehtoiselle osoitteelle vähintään yhden päivämäärävälin.
 
-## <a name="to-assign-job-responsibilities-to-a-contact"></a>Vastuualueiden liittäminen kontakteihin:
+## Vastuualueiden liittäminen kontakteihin:
 Voit lisätä kontaktihenkilöiden vastuualueiden tietoja, kun haluat osoittaa, mistä kontaktihenkilö vastaa yrityksessä (esimerkiksi IT, hallinto tai tuotanto). Voit käyttää näitä tietoja kontaktien tietojen syöttämisessä.
 
 > [!NOTE]
@@ -79,7 +79,7 @@ Kontaktille liittämiesi vastuualueiden lukumäärä näkyy **Yhteyshenkilö**-s
 
 Kun olet liittänyt vastuualueita kontakteihisi, voit käyttää näitä tietoja valitessasi kontakteja segmentteihisi. Lisätietoja on kohdassa [Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md).
 
-## <a name="to-assign-organizational-levels-to-a-contact"></a>Organisaatiotasojen määrittäminen kontaktille
+## Organisaatiotasojen määrittäminen kontaktille
 Voit käyttää kontakteissa organisaatiotasoja (esimerkiksi ylin johto) kun haluat määrittää, missä asemassa he ovat yrityksessä. Voit käyttää näitä tietoja kontaktien tietojen antamiseen.
 
 > [!NOTE]
@@ -94,7 +94,7 @@ Kun olet liittänyt kontakteihisi organisaatiotasoja, voit käyttää näitä ti
 
 Kun olet määrittänyt vastuualueita kontakteille, voit käyttää näitä tietoja valitessasi kontakteja segmentteihisi. Lisätietoja on kohdassa [Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md).
 
-## <a name="to-assign-web-sources-to-a-contact"></a>Verkkolähteiden määrittäminen kontaktille
+## Verkkolähteiden määrittäminen kontaktille
 Voit käyttää verkkolähteitä (esimerkiksi hakukoneita ja verkkosivustoja) kontaktiyrityksissä silloin, kun haluat ilmaista, mistä aiot hakea tietoa kontakteistasi Internetissä. Kun liität verkkolähteitä, määritä, mitä hakukonetta ja hakusanaa sovellus käyttää hakiessaan pyydettyjä tietoja.
 
 > [!NOTE]
@@ -109,7 +109,7 @@ Kun liität verkkolähteitä, määritä, mitä hakukonetta ja hakusanaa sovellu
 
 Toista nämä vaiheet ja luo niin monta verkkolähdettä kuin haluat.
 
-## <a name="to-assign-business-relations-to-a-contact"></a>Liikesuhteiden määrittäminen kontaktille
+##  Liikesuhteiden määrittäminen kontaktille
 Voit käyttää liikesuhteita, kun haluat osoittaa eri kontaktien, kuten prospektin, pankin, konsultin tai palvelun toimittajan, kanssa olevan liikesuhteen.
 
 > [!NOTE]
@@ -125,29 +125,29 @@ Kontaktille liitettyjen liikesuhteiden lukumäärä näkyy **Kontakti**-sivun **
 
 Kun olet liittänyt liikesuhteita kontakteihisi, voit käyttää näitä tietoja valitessasi kontakteja segmentteihisi. Lisätietoja on kohdassa [Kontaktien lisääminen segmentteihin](marketing-add-contact-segment.md).
 
-## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Tiettyjen tietojen kopioiminen automaattisesti kontaktiyrityksistä kontaktihenkilöille
+## Tiettyjen tietojen kopioiminen automaattisesti kontaktiyrityksistä kontaktihenkilöille
 Jotkin kontaktiyritysten tiedoista ovat samat kuin tämän yrityksen kontaktihenkilön tiedot, esimerkiksi osoitetiedot. Voit määrittää **Kontaktienhallinnan asetukset** -sivun **Periytyminen**-pikavälilehdessä, mitkä yrityksen kontaktikortin kentät kopioidaan henkilön kontaktikorttiin aina, kun luot kontaktiyritykseen kontaktihenkilön.
 
 Kun muutat yhtä näistä kentistä kontaktiyrityksen kortissa, samat kentät päivitetään kontaktihenkilön kortissa, mikäli et ole manuaalisesti muuttanut kenttää kontaktihenkilön kortissa.
 
 Lisätietoja on kohdassa [Kontaktien luominen](marketing-create-contact-companies.md).
 
-## <a name="use-predefined-defaults-on-new-contacts"></a>Ennalta määritettyjen oletusarvojen käyttäminen uusissa kontakteissa
+## Ennalta määritettyjen oletusarvojen käyttäminen uusissa kontakteissa
 Voit päättää, että sovellus liittää automaattisesti tietyn kielikoodin, territoriokoodin, myyjäkoodin ja maa-/aluekoodin oletusarvon jokaiseen luomaasi uuteen kontaktiin. Voit myös antaa myyntisyklin oletuskoodin, jonka sovellus sitten liittää jokaiseen luomaasi uuteen mahdollisuuteen. Tämä määritetään **Kontaktienhallinnan asetukset** -sivun **Oletusarvot**-pikavälilehdessä.
 
 Kenttien periytyminen syrjäyttää määrittämäsi oletusarvot. Jos olet esimerkiksi määrittänyt englannin oletuskieleksi, mutta kontaktiyrityksen kieli on saksa, sovellus liittää automaattisesti saksan kielikoodin yrityksen kontaktihenkilölle.
 
-## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa
+## Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa
 Kontaktin kortti voidaan synkronoida linkitetyn asiakkaan, toimittajan tai pankkitiliin kortin kanssa, kun täytät asianmukaisen kentän **Kontaktienhallinnan asetukset** -sivun **Vuorovaikutukset**-pikavälilehden **Liikesuhteen koodi kohteelle** -osassa.  
 
 Lisätietoja on kohdassa [Kontaktien synkronoiminen asiakkaiden, toimittajien ja pankkitilien kanssa](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
-## <a name="searching-for-duplicate-contacts"></a>Kontaktien kaksoiskappaleiden hakeminen
+## Kontaktien kaksoiskappaleiden hakeminen
 Voit valita, että sovellus hakee kaksoiskappaleita automaattisesti aina, kun luot kontaktin. Vaihtoehtoisesti voit valita, että haet kaksoiskappaleet manuaalisesti kontaktien luomisen jälkeen. Voit myös valita, että sovellus päivittää hakumerkkijonot automaattisesti aina, kun muutat kontaktin tietoja tai luot uuden kontaktin. Voit päättää Haun osuma-%:n, siis sen identtisten merkkijonojen prosenttiosuuden, joka kahdella kontaktilla täytyy olla, jotta sovellus tulkitsee ne kopioiksi. Tämä määritetään **Kontaktienhallinnan asetukset** -sivun **Kopiot**-pikavälilehdessä.
 
 Jos löydät kontaktin kaksoiskappaleen, voit yhdistää sen säilytettävään kontaktitietueeseen **Yhdistä kaksoiskappale** -sivulla. Lisätietoja on kohdassa [Tietueiden kaksoiskappaleiden yhdistäminen](sales-how-merge-duplicate-records.md).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Kontaktien hallinta](marketing-contacts.md)  
 [Kontaktien luominen](marketing-create-contact-companies.md)  
 [Myyntimahdollisuuksien hallinta](marketing-manage-sales-opportunities.md)  

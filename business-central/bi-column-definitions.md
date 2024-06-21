@@ -12,11 +12,11 @@ ms.search.form: '103, 104, 108, 195, 196, 197, 198, 488, 489, 490, 764, 765, 766
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="column-definitions-in-financial-reporting"></a>Sarakemääritykset Financial Reportingissa
+# Sarakemääritykset Financial Reportingissa
 
 Määritä sarakemääritysten avulla, mitkä sarakkeet sisällytetään raporttiin. Suunniteltava raporttiasettelu voi esimerkiksi nettomuutosta ja saldoa samalta jaksolta kuluvana ja edellisenä vuonna. Sarakemäärityksessä saa olla enintään 15 saraketta. Useat sarakkeet ovat käteviä esimerkiksi silloin, kun näytetään 12 kuukauden budjetit, joissa on summan näyttävä sarake.
 
-## <a name="create-or-edit-a-column-definition"></a>Sarakemäärityksen luominen tai muokkaaminen
+## Sarakemäärityksen luominen tai muokkaaminen
 
 Luo tai muokkaa sarakemääritys seuraavien ohjeiden mukaisesti.
 
@@ -28,7 +28,7 @@ Luo tai muokkaa sarakemääritys seuraavien ohjeiden mukaisesti.
 1. Valitse **OK**.
 1. Avaa **Talousraportti**-sivu ajoittain ja varmista, että uusi sarakemääritys toimii odotetusti.
 
-## <a name="built-in-column-definitions"></a>Valmiit sarakemääritykset
+## Valmiit sarakemääritykset
 
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää esimerkkisarakemäärityksiä, joiden avulla voit nopeasti aloittaa tarpeitasi vastaavien talousraporttien määrittämisen.
 
@@ -41,7 +41,7 @@ Luo tai muokkaa sarakemääritys seuraavien ohjeiden mukaisesti.
 | TBA 4 | TBA 4 | TBA 4 |
 -->
 
-## <a name="example-create-a-column-definition-to-calculate-percentages"></a>Esimerkki: Prosenttiosuuden laskevan sarakemäärityksen luominen
+## Esimerkki: Prosenttiosuuden laskevan sarakemäärityksen luominen
 
 Talousraporttiin halutaan sisällyttää ehkä sarake, joka laskee kokonaissumman prosenttiosuuksia. Jos sinulla esimerkiksi on myynnin dimensioittain eritteleviä rivejä, voit lisätä sarakkeen, joka ilmoittaa kunkin rivin prosenttiosuuden kokonaissummasta.
 
@@ -58,7 +58,7 @@ Talousraporttiin halutaan sisällyttää ehkä sarake, joka laskee kokonaissumma
     1. Anna **Kaava**-kenttään sen summan kaava, jolle haluat laskea prosentin, ja sen perään prosenttimerkki (%). Joten jos esimerkiksi sarake N sisältää nettomuutoksen, syötä **N %**.  
 1. Toista vaiheet 4-7 kullekin riviryhmälle, jonka haluat jakaa prosenttiluvun mukaan.
 
-## <a name="comparing-accounting-periods-using-period-formulas"></a>Kirjanpitojaksojen vertaaminen käyttäen jakson kaavoja
+## Kirjanpitojaksojen vertaaminen käyttäen jakson kaavoja
 
 Talousraporttisi voi verrata eri kirjanpitojaksojen tuloksia, kuten viime kuun tuloksia edellisen vuoden saman kuukauden tuloksiin. Voit tehdä sen avaamalla **sarakemääritys**-sivun ja mukauttamalla sen lisäämällä **Vertailujakson kaava** -kentän sarakkeeksi. Lue lisää kohdasta [Työtilan mukauttaminen](ui-personalization-user.md). Tämän jälkeen kenttä voidaan määrittää jakson kaavaksi.  
 
@@ -94,7 +94,7 @@ Lisätietoja on kohdassa [Kalenterin päivämäärien ja aikojen käsitteleminen
 
 [!INCLUDE [report-best-practices-column-defs](includes/report-best-practices-column-defs.md)]
 
-## <a name="import-or-export-financial-report-column-definitions"></a>Talousraporttien sarakemääritysten tuominen tai vieminen
+## Talousraporttien sarakemääritysten tuominen tai vieminen
 
 Vuoden 2024 1. julkaisuaallosta (versio 24.1) alkaen voit tuoda ja viedä rahoitusraportin sarakemääritelmiä RapidStart-määrityspaketteina. Esimerkiksi määrityspaketit ovat hyödyllisiä silloin, kun jaat tietoja muiden yritysten kanssa. Paketti luodaan .rapidstart-tiedostosssa, joka pakkaa paketin sisällön.
 
@@ -106,7 +106,7 @@ Talousraportin sarakemääritykset tuodaan tai viedään seuraavasti:
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 4.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sarakemääritykset** ja valitse sitten liittyvä linkki.
 1. Valitse ensin rivimääritys ja sitten **Tuo sarakemääritys**- tai **Vie sarakemääritys** -toiminto sen mukaan, mitä halutaan tehdä.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rivimääritykset taloushallinnon raportoinnissa](bi-row-definitions.md)  
 [Taloushallinnon raportoinnin valmisteleminen](bi-how-work-account-schedule.md)  

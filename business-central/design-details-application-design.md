@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="application-design-details"></a>Sovelluksen rakennetiedot
+# Sovelluksen rakennetiedot
 
 Artikkelit tässä osiossa sisältävät yksityiskohtaisia teknisiä tietoja [!INCLUDE[prod_short](includes/prod_short.md)] monimutkaisista ominaisuuksista.  
 
@@ -26,7 +26,7 @@ Rakennetietojen sisältö on tarkoitettu käyttöönottajille, kehittäjille ja 
 |Lisätietoja nimikeseurannan historiallisesta ja nykyisestä rakenteesta, ja kuinka se integroituu varausjärjestelmään, ja sisällyttää sarja-/ eränumerot saatavuuslaskelmiin.|[Rakennetiedot: Nimikkeen seuranta](design-details-item-tracking.md)|  
 |Tietoja yleisen päiväkirjan kirjausriviominaisuudesta.|[Rakennetiedot: Yleisen päiväkirjan kirjausrivi](design-details-general-journal-post-line.md)|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Suunnittelu](production-planning.md)  
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  

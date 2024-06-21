@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345'
 ---
-# <a name="moving-items"></a>Nimikkeiden siirtäminen
+# Nimikkeiden siirtäminen
 
 Nimikeitä voi siirtää varastossa eri tavoin sen mukaan, miten varasto on määritetty. Monimutkaisuudessa on eroja:
 
@@ -36,7 +36,7 @@ Nimikkeiden inventointi, muuttaminen ja uudelleenluokittelu voivat sisältää v
 |Fyysisen varastoinnin siirtotyökirjan sekä sisäisen poiminnan ja hyllytyksen avulla voidaan siirtää nimikkeitä laajennetuissa varastointimäärityksissä ohjatun poiminnan ja hyllytyksen avulla.|[Nimikkeiden siirtäminen laajennetuissa varastomäärityksissä](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Järjestä fyysinen varasto uudelleen uusilla varastopaikan koodeilla ja uusilla varastopaikan ominaispiirteillä sekä mahdollisesti vaihtamalla niiden paikkaa.|[Fyysisten varastojen uudelleenjärjestely](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Varastoinninhallinnan yleiskatsaus](design-details-warehouse-management.md)  
 [Varasto](inventory-manage-inventory.md)  

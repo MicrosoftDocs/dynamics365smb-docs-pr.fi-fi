@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setup-best-practices-reordering-policies"></a>Asetukset - parhaat käytännöt: uusintatilaustavat
+# Asetukset - parhaat käytännöt: uusintatilaustavat
 
 **Uusintatilaustapa**-kenttä nimikekorteissa antaa neljä eri suunnittelumetodia, jotka määrittävät, kuinka yksittäiset suunnitteluparametrit käyttäytyvät.  
 
@@ -35,7 +35,7 @@ Seuraava taulukko sisältää parhaat käytännöt neljästä tavasta valitsemis
 |**Kiinteä uusintatil. määrä**|Käytä C-nimikkeisiin.<br /><br /> Yhdistä uusintatilauspisteparametrien kanssa.<br /><br /> Käytä tuotannon alimman tason komponenteissa.<br /><br /> Älä käytä, jos nimike on usein varattu.|C-nimikkeet, kuten teekupit, ovat vähäsen arvon nimikkeitä, jolla on suuri ja säännöllinen tilausnopeus. Paras uusintatilaustapa C-nimikkeille on siis sellainen, joka varmistaa jatkuvan saatavuuden pysymällä aina uusintatilauspisteen yläpuolella.<br /><br /> Jos käyttäjä varaa määrää kaukaista kysyntää varten, suunnittelun perusta häiriintyy. Vaikka oletettu varastotaso on hyväksyttävä suhteessa uusintatilauspisteeseen, määrät eivät ehkä ole käytettävissä varauksen vuoksi.|  
 |**Enimmäismäärä**|Käytä C-nimikkeisiin, joissa on korkeat ylläpitokustannukset tai tallennusrajoitukset.<br /><br /> Yhdistä yksi tai useampi tilauksen valitsin (minimi/maksimi tilausmäärä tai monitilaus).|C-nimikkeet, kuten teekupit, ovat vähäsen arvon nimikkeitä, jolla on suuri ja säännöllinen tilausnopeus. Paras uusintatilaustapa C-nimikkeille on siis sellainen, joka varmistaa jatkuvan saatavuuden pysymällä aina uusintatilauspisteen yläpuolella, mutta varaston enimmäiskapasiteetin alapuolella.<br /><br /> Kun muutat ehdotettua järjestyä, haluat ehkä laskea tilausmäärää määritettyyn enimmäistilausmäärään tai nostaa määritettyyn minimitilausmäärään tai pyöristää vastaamaan määritettyä tilauskerrannaista. **Huomautus:**  Jos tätä käytetään uusintatilauspisteen kanssa, varaston määrä pysyy uusintatilauspisteen määrän ja enimmäismäärän välillä.|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
  [Parhaiden käytäntöjen määrittäminen: Tarjonnan suunnittelu](setup-best-practices-supply-planning.md)  
  [Rakennetiedot: Uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)  

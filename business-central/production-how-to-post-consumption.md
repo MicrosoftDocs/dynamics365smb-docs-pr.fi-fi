@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="batch-post-production-consumption"></a>Tuotannon kulutuksen eräkirjaus
+# Tuotannon kulutuksen eräkirjaus
 
 Jos materiaalinottotapa on **Manuaalinen**, komponentit tulee kirjata manuaalisesti kulutuspäiväkirjaa käyttämällä.  
 
@@ -19,7 +19,7 @@ Jos materiaalinottotapa on **Manuaalinen**, komponentit tulee kirjata manuaalise
 
 Voit myös määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in kirjaamaan (*materiaalioton*) komponentit automaattisesti, kun aloitat tai päätät tuotantotilauksia. Lisätietoja on kohdassa [Komponenttien materiaalinoton ottaminen käyttöön toiminnan tuotoksen mukaan](production-how-to-flush-components-according-to-operation-output.md).
 
-## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Vähintään yhden tuotantotilausrivin kulutuksen kirjaaminen
+## Vähintään yhden tuotantotilausrivin kulutuksen kirjaaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kulutuspäiväkirja** ja valitse sitten vastaava linkki.  
 2. Täytä kentät tuotantotilauksen tiedoilla ja kulutustiedoilla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -33,7 +33,7 @@ Voit myös määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in kirjaa
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Tuotanto](production-manage-manufacturing.md)  
 [Tuotannon määrittäminen](production-configure-production-processes.md)  

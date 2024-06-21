@@ -11,7 +11,7 @@ ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="create-number-series"></a>Numerosarjojen luominen
+# Numerosarjojen luominen
 
 Jokaiselle yritykselle on määritettävä yksilölliset tunnuskoodit esimerkiksi pääkirjanpidon tilejä, asiakas- ja toimittajatilejä, laskuja ja muita asiakirjoja varten. Numerointi ei ole tärkeää pelkästään tunnistamisen kannalta. Hyvin suunniteltu numerointijärjestelmä helpottaa myös yrityksen hallittavuutta ja analysointia, minkä lisäksi se voi vähentää tietojen syöttövirheitä.
 
@@ -32,11 +32,11 @@ Numerosarjat määritetään yleensä lisäämään seuraava peräkkäinen numer
 
 Jos haluat käyttää useita numerosarjakoodeja yhdelle perustietotyypille (esimerkiksi silloin, kun haluat eri numerosarjoja eri nimikeluokille), voit käyttää numerosarjasuhteita.
 
-## <a name="gaps-in-number-series"></a>Numerosarjojen aukot
+## Numerosarjojen aukot
 
 Kaikki [!INCLUDE[prod_short](includes/prod_short.md)]issa luotavat tietueet eivät ole rahoitustapahtumia, joissa on käytettävä peräkkäisiä numeroita. Esimerkiksi asiakaskortit, myyntitarjoukset ja varastotoiminnot ovat tietueita, joille määritetään numerosarjan mukainen numero mutta joita tilintarkastus ei koske ja/tai jotka voidaan poistaa. Tällaisissa numerosarjoissa **Salli välit numeroissa** -valintaruudun voi valita **Nrosarjojen rivit** -sivulla. Tämän asetuksen voi muuttaa myös numerosarjan luomisen jälkeen. Lisätietoja on kohdassa [Uuden numerosarjan luominen](ui-create-number-series.md#to-create-a-new-number-series).
 
-## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Nro-kentän toiminta asiakirjoissa ja korteissa
+## Nro-kentän toiminta asiakirjoissa ja korteissa
 
 Myynti-, osto-, siirto- ja huoltoasiakirjojen ja korttien **Nro** -kenttä voidaan täyttää automaattisesti esimääritetystä numerosarjasta, tai voit lisätä sen manuaalisesti. Tietyissä olosuhteissa **Nro** -kenttä on näkymätön sen muokkaamisen estämiseksi.  
 
@@ -60,7 +60,7 @@ Kun uusi asiakirja tai kortti, jolla on jo numerosarja, avataan, **Numerosarja-a
 >
 > Samalla tavalla toimitaan myös huollonhallinnan ominaisuuksia käytettäessä. Ratkaise ongelma siirtymällä **Varastonhallinnan asetukset** -sivulle ja valitsemalla **Huoltonimikenrot**-kenttä. Voit nyt avata ja määrittää liittyvien numerosarjojen asetuksiksi **Manuaaliset nrot**.
 
-## <a name="to-create-a-new-number-series"></a>Uuden numerosarjan luominen
+## Uuden numerosarjan luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nrosarja** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi**-toiminto.  
@@ -74,7 +74,7 @@ Kun uusi asiakirja tai kortti, jolla on jo numerosarja, avataan, **Numerosarja-a
 
 Voit määrittää numerosarjoja niille malleille, jotka määrität myynti- ja ostohenkilöstön useimmin lisäämille asiakas- ja toimittajatyypeille. Määritä tällöin asianmukaiset numerosarjat, linkitä ne suhteiden avulla ja lisää sitten kulloisenkin suhteen ensimmäinen numerosarja kulloiseenkin määrityssivuun. Kun käyttäjä luo asiakkaan, hän valitsee asianmukaisen mallin, ja uusi asiakas saa numeron, joka on määritetty kyseiseen malliin määritetystä numerosarjasta.  
 
-## <a name="to-create-relationships-between-number-series"></a>Numerosarjojen suhteiden luonti
+## Numerosarjojen suhteiden luonti
 
 Jos tietylle perustiedolle tai tapahtumalle on luotu useampia numerosarjoja, näiden koodien välille voidaan luoda suhteita. Tämä toiminto auttaa koodien valinnassa kun käytetään numeroa. Kun määrität suhteen usean numerosarjan välille, liität kaikki toisiinsa liittyvät sarjat yhteen numerosarjan koodiin. Sitten voit syöttää tämän koodin kenttään **Numerointi**-pikavälilehdessä jollakin asianosaisista määrityssivuilta (esim. **Myyntien ja myyntisaamisten asetukset**).  
 
@@ -86,7 +86,7 @@ Jos tietylle perustiedolle tai tapahtumalle on luotu useampia numerosarjoja, nä
 
 Kun tarvitset numeron voit käyttää niitä suhteita, joita on luotu numerosarjojen valitsemiseksi.
 
-## <a name="to-set-up-where-a-number-series-is-used"></a>Numerosarjan käyttökohteen määrittäminen
+## Numerosarjan käyttökohteen määrittäminen
 
 Seuraavaksi selitetään, miten myyntialueen numerosarja määritetään. Myös muut alueet määritetään vastaavasti.  
 
@@ -95,7 +95,7 @@ Seuraavaksi selitetään, miten myyntialueen numerosarja määritetään. Myös 
 
 Valitulla numerolla täytetään kyseisen kortin tai asiakirjan **Nro**-kenttä numerosarjarivillä tehtyjen asetusten mukaisesti.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

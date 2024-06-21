@@ -10,14 +10,14 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="delivery-date-calculation-for-sales"></a>Myynnin toimituspäivämäärän laskeminen
+# Myynnin toimituspäivämäärän laskeminen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] laskee automaattisesti varhaisimman mahdollisen päivämäärän, jolloin myyntitilausrivin nimike voidaan toimittaa.
 
 * Jos asiakas on pyytänyt tietyn toimituspäivämäärän, ohjelma laskee päivämäärän, jolloin nimikkeiden tulee olla poimittavissa, jotta toimitus onnistuu sinä päivänä.
 * Jos asiakas ei pyydä tiettyä toimituspäivämäärää, lasketaan päivämäärä, jona nimikkeet voidaan toimittaa. Laskenta alkaa päivämäärästä, jona nimikkeet ovat saatavilla poimintaa varten.
 
-## <a name="calculating-a-requested-delivery-date"></a>Pyydetyn toimituspäivämäärän laskeminen
+## Pyydetyn toimituspäivämäärän laskeminen
 
 Jos myyntitilausrivillä on pyydetty toimitusottopäivämäärä, ohjelma käyttää tätä päivämäärää lähtökohtana seuraaville laskennoille:
 
@@ -29,14 +29,14 @@ Jos nimikkeet ovat poimittavissa lähetyspäivämääränä, myyntiprosessi voi 
 > [!NOTE]
 > Jos prosessi perustuu taaksepäin laskentaan ja esimerkiksi toimituspäivä saadaan käyttämällä suunniteltua toimituspäivää, on suositeltavaa käyttää päivämääräkaavoja, joiden kesto on kiinteä. Sellainen on esimerkiksi 5P viidelle päivälle tai 1V yhdelle viikolle. Päivämääräkaava, jonka kesto ei ole kiinteä, kuten KV kuluvalle viikolle tai KK kuluvalle kuukaudelle, voi aiheuttaa virheellisiä päivämäärälaskelmia. Lisätietoja päivämääräkaavoista on kohdassa [Kalenterin päivämäärien ja aikojen käsitteleminen](ui-enter-date-ranges.md).
 
-## <a name="calculating-the-earliest-possible-delivery-date"></a>Varhaisimman mahdollisen toimituspäivämäärän laskeminen
+## Varhaisimman mahdollisen toimituspäivämäärän laskeminen
 
 Jos pyydettyä toimituspäivämäärää ei ole määritetty myyntitilausrivillä tai jos toimitus ei onnistu pyydettynä toimituspäivämääränä, lasketaan varhaisin päivämäärän, jolloin nimikkeet ovat saatavilla. Tämä päivämäärä syötetään sitten rivin **Toimituspvm**-kenttään. Nimikkeille lasketaan seuraavilla kaavoilla suunniteltu lähetyspäivämäärä ja päivämäärä, jolloin ne toimitetaan asiakkaalle:
 
 - *Suunniteltu toimituspvm = lähtevä f.var. käsittelyaika + toimituspäivä*
 - *suunniteltu lähetyspvm + toimitusaika = suunniteltu toimituspvm*
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Ostojen päivämäärien laskeminen](purchasing-date-calculation-for-purchases.md)  
 [Toimituksen lupaamisen päivämäärien laskeminen](sales-how-to-calculate-order-promising-dates.md)  

@@ -12,7 +12,7 @@ ms.search.form: '2500, 2514, 20350'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="install-and-uninstall-extensions-apps-in-business-central"></a>Laajennusten (sovellusten) asentaminen ja asennusten poistaminen Business Centralissa
+# Laajennusten (sovellusten) asentaminen ja asennusten poistaminen Business Centralissa
 
 Voit muuttaa [!INCLUDE[prod_short](includes/prod_short.md)]ia asentamalla sovelluksia, jotka esimerkiksi sisältävät lisätoimintoja, muuttavat toimintaa tai antavat uusien verkkopalveluiden käyttöoikeuden. Lisätietoja on kohdassa [Business Centralin mukauttaminen laajennusten avulla](ui-extensions.md).
 
@@ -23,7 +23,7 @@ Voit muuttaa [!INCLUDE[prod_short](includes/prod_short.md)]ia asentamalla sovell
 
 Jos haluat käyttää laajennusta, sinun on määritettävä sen mukana tulevat käyttöoikeuksien joukot.
 
-## <a name="install-an-extension"></a><a name="install"></a>Laajennuksen asentaminen
+## <a name="install"></a>Laajennuksen asentaminen
 
 Sovelluksia ja laajennuksia hallitaan **Laajennusten hallinta** -sivulla. Tämä sivu löytyy kotisivulta. Vaihtoehtoisesti valitse **Hae sivua tai raporttia** -kuvake ![Lamppu, joka avaa Kerro-toiminnon.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") oikeassa yläkulmassa, syötä **Laajennus** ja valitse sitten liittyvä linkki.  
 
@@ -70,19 +70,19 @@ Microsoft tarjoaa seuraavat sovellukset:
 * [Yhdistyneen kuningaskunnan postinumeroiden GetAddress.io-laajennus](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA – Maksusuoritusilmoituksen lähettäminen](ui-extensions-send-remittance-advice.md)
 
-## <a name="set-up-an-app"></a>Sovelluksen määrittäminen
+## Sovelluksen määrittäminen
 
 Sovelluksen asentamisen jälkeen se on ehkä määritettävä. Esimerkiksi **Sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] PayPal Payments Standard** -sovellukselle on määritettävä PayPal-tili. Jos näin on tehtävä, [!INCLUDE[prod_short](includes/prod_short.md)] kysyy käyttäjältä asennuksen valmistuttua, haluaako tämä määrittää sovelluksen heti. Sovellus saattaa vaatia asetukset toimiakseen.
 
 Jos haluat määrittää sovelluksen heti ja se vaaditaan asetuksessa, [!INCLUDE[prod_short](includes/prod_short.md)] avaa vaaditun asetuksen. Asetus voi olla sivu, johon syötetään tietoja, tai asetusten ohjattu määritysopas, joka auttaa vaiheiden suorittamisessa. Jos et tee asetusta kerralla valmiiksi, voit käyttää **_Sovelluksen nimi_ – asetukset** -sivua, jolla sovelluksen asetukset kerrotaan. Pakolliset asetukset osoitetaan **lihavoinnilla**.
 
-## <a name="upload-a-per-tenant-extension-pte"></a>Vuokraajakotaisen laajennuksen (PTE) lataaminen palvelimeen
+## Vuokraajakotaisen laajennuksen (PTE) lataaminen palvelimeen
 
 Lataat PTE:n käyttämällä **Laajennuksen hallinta** -sivua. Valitse **Laajennuksen hallinta** -sivulla **Hallinta** ja valitse sitten **Lataa laajennus palvelimeen**. Valitse **Lataa ja ota käyttöön laajennus** -sivulla ladattava .app-tiedosto. Jatka valitsemalla **Hyväksy**-painike ja sitten **Ota käyttöön**-painike, jolloin PTE-käyttöönottoprosessi aloitetaan.
 
 Jos PTE sisältää rikkovia mallin muutoksia, on mahdollista *pakottaa* sen lataaminen. Voit tehdä sen valitsemalla **Mallin synkronointi tila** -kohdassa **Pakota**-asetuksen. Näyttöön tulee vahvistusikkuna, jonka voi hyväksyä ennen jatkamista.  
 
-## <a name="uninstall-an-app"></a>Sovelluksen asennuksen poistaminen
+## Sovelluksen asennuksen poistaminen
 
 Sovelluksen asennus poistetaan **Laajennuksen hallinta** -sivulla. Jos haluat poistaa sovelluksen, valitse se sivulla ja valitse sitten **Poista asennus** -toiminto. Jos poistat sovelluksen asennuksen ja haluat ottaa sen takaisin käyttöön, voit asentaa sovelluksen uudelleen.
 
@@ -95,7 +95,7 @@ Oletusarvoisesti, kun poistat sovelluksen, jota olet käyttänyt, tietojasi ei p
 
 Jos haluat säilyttää poistetun sovelluksen tiedot, voit poistaa tiedot myöhemmin. **Poista orpojen laajennusten tiedot** -sivulla on luettelo sovelluksista, joista sinulla on vielä dataa. Voit poistaa tiedot valitsemalla sovelluksen ja valitsemalla sitten **Poista tiedot**. 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Business Centralin mukauttaminen](ui-customizing-overview.md)  
 [Muiden toimittajien Business Central -laajennukset](ui-extensions-other.md)  

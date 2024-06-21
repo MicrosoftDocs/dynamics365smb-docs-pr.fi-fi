@@ -11,13 +11,13 @@ ms.search.keywords: 'bi, power BI, analysis, KPI, account schedule, financial re
 ms.search.form: 'Report_25, 103, 104, 108, 195, 196, 197, 198, 488, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
-# <a name="prepare-financial-reporting-with-financial-data-and-account-categories"></a>Talousraportoinnin valmisteleminen taloustietojen ja tililuokkien avulla
+# Talousraportoinnin valmisteleminen taloustietojen ja tililuokkien avulla
 
 **Talousraportit**-ominaisuus antaa merkityksellisiä tietoja tilikartassa näkyvistä taloudellisesta tiedoista. Talousraportit voidaan määrittää analysoimaan kirjanpitotilien lukuja ja vertaamaan pääkirjanpidon tapahtumia budjettitapahtumiin. Tulokset näkyvät roolikeskuksen kaavioissa ja raporteissa, kuten kassavirtakaaviossa sekä Tuloslaskelma- ja Tase-raporteissa. Voit käyttää näitä kahta raporttia esimerkiksi liiketoimintajohtajan ja kirjanpitäjän aloitussivujen **Tilinpäätökset**-toiminnon avulla.  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää talousraporttinäytteitä, joita voi käyttää heti malleina. Lisäksi voidaan määrittää omia raportteja vertailulukujen määrittämistä varten. Voit esimerkiksi luoda taloudellisia raportteja katteen laskemista varten osastojen tai asiakasryhmien kaltaisille dimensioille. Luotavien talousraporttien määrää ei ole rajoitettu, eikä niiden luontiin tarvita kehittäjän apua.  
 
-## <a name="prerequisites-for-financial-reporting"></a>Talousraportoinnin edellytykset
+## Talousraportoinnin edellytykset
 
 Taloudellisten raporttien määrittäminen edellyttää tilikartan rakenteen ymmärtämistä. Taloudellisten raporttien suunnittelussa on todennäköisimmin otettava huomioon kolme keskeistä käsitettä:
 
@@ -31,7 +31,7 @@ Dimensioiden määrittäminen mahdollistaa taloushallinnon tietojen jaottelun or
 
 Jos kirjanpitotapahtumia halutaan tarkastella budjettitapahtumien prosenttiosuuksina, sitä varten on luotava KP-budjetteja. Lisätietoja on kohdassa [KP-budjettien luominen](finance-how-create-budgets.md).
 
-## <a name="financial-reports"></a>Talousraportit
+## Talousraportit
 
 Taloudelliset raportit järjestävät tilikarttasi tilejä tavoilla, jotka tekevät tiedoista helpommin esitettäviä. Voit määrittää eri asetteluja määrittääksesi tiedot, jotka haluat suodattaa tilikartasta. Taloudelliset raportit mahdollistavat myös laskelmat, joita ei voi tehdä suoraan tilikartassa. Voit esimerkiksi luoda tiliryhmien välisummia ja sisällyttää ne muihin summiin. Toinen esimerkki on laskea katteita osastojen tai asiakasryhmien kaltaisille dimensioille. Lisäksi pääkirjanpidon tapahtumia ja budjettitapahtumia voi suodattaa esimerkiksi nettomuutoksen tai veloitussumman perusteella.
 
@@ -63,13 +63,13 @@ Vähintään kahta talousraporttia ja sarakemääritystä voidaan verrata myös 
 - luoda tarvitta määrä talousraportteja, joista kullakin on yksilöivä nimi
 - määrittää useita raportin asetteluita sekä tulostaa raportit käyttäen nykyisiä lukuja.
 
-## <a name="learning-path-create-financial-reports-in-microsoft-dynamics-365-business-central"></a>Oppimispolku: Talousraporttien luominen Microsoft Dynamics 365 Business Centralissa
+## Oppimispolku: Talousraporttien luominen Microsoft Dynamics 365 Business Centralissa
 
 Haluatko oppia luomaan budjetteja ja käyttämään sitten talousraportteja, ulottuvuuksia sekä rivi- ja sarakemäärityksiä yritysten tyypillisesti tarvitsemien talousraporttien luomiseen?
 
 Aloita käyttämällä seuraavaa oppimispolkua [Talousraporttien luominen Microsoft Dynamics 365 Business Centralissa](/training/paths/create-financial-reports-dynamics-365-business-central).
 
-## <a name="create-a-new-financial-report"></a>Luo uusi talousraportti
+## Luo uusi talousraportti
 
 Käytät talousraportteja pääkirjanpitotilien analysointiin tai pääkirjanpidon kirjausten vertaamiseen budjettimerkintöihin. Voit esimerkiksi tarkastella KP-tapahtumien prosenttiosuuksia budjettitapahtumista.
 
@@ -91,25 +91,25 @@ Käytät talousraportteja pääkirjanpitotilien analysointiin tai pääkirjanpid
 > [!NOTE]
 > Kun talousraportti avataan Näytä- tai Muokkaus-tilassa, suodatinruutu on käytettävissä. Raportin tietojen suodattimia ei määritetä suodatinruudussa. Kyseiset suodattimet voivat aiheuttaa virheitä, tai ne eivät suodata tietoja. Raportin suodattimet määritetään sen sijaan **Asetukset**- ja **Dimensiot**-pikavälilehtien kenttien avulla.
 
-### <a name="create-or-edit-a-row-definition"></a>Rivimäärityksen luominen tai muokkaaminen
+### Rivimäärityksen luominen tai muokkaaminen
 
 Talousraporttien rivimääritykset mahdollistavat laskelmat, joita ei voi tehdä suoraan tilikartassa. Voit esimerkiksi luoda tiliryhmien välisummia ja sisällyttää ne muihin summiin. Lisäksi voidaan laskea välivaiheet, joita ei näytetä lopullisessa raportissa.
 
 Lisätietoja on kohdassa [Rivimääritykset talousraporteissa](bi-row-definitions.md).
 
-### <a name="create-or-edit-a-column-definition"></a>Sarakemäärityksen luominen tai muokkaaminen
+### Sarakemäärityksen luominen tai muokkaaminen
 
 Määritä sarakemääritysten avulla, mitkä sarakkeet sisällytetään raporttiin. Suunniteltava raporttiasettelu voi esimerkiksi nettomuutosta ja saldoa samalta jaksolta kuluvana ja edellisenä vuonna. Sarakemäärityksessä saa olla enintään 15 saraketta. Useat sarakkeet ovat käteviä esimerkiksi silloin, kun näytetään 12 kuukauden budjetit, joissa on summan näyttävä sarake.
 
 Lisätietoja on kohdassa [Sarakemääritykset talousraporteissa](bi-column-definitions.md).
 
-## <a name="using-dimensions-in-financial-reports"></a>Dimensioiden käyttäminen talousraporteissa
+## Dimensioiden käyttäminen talousraporteissa
 
 Talousanalyysissä dimensio on tieto, jonka lisäät tapahtumaan eräänlaiseksi merkiksi. Tämän tiedon avulla voi yhdistää ryhmiksi tapahtumia, joilla on samoja ominaisuuksia, kuten asiakkaita, alueita, tuotteita tai myyjiä, sekä noutaa nämä ryhmät helposti analysoitavaksi. Dimensioita voidaan käyttää päiväkirjojen tapahtumissa, asiakirjoissa ja budjeteissa.
 
 Kukin dimensio kuvaa sitä, mihin analysointi keskittyy. Joten esimerkiksi kaksidimensioinen analyysi voisi olla myynti per alue. Useamman kuin kahden dimension käyttäminen tapahtumaa luotaessa mahdollistaa monisyisen analysoinnin. Esimerkki monimutkaisesta analyysista on perehtyä alue-, asiakasryhmä- ja myyntikampanjakohtaiseen myyntiin. Näin saadaan entistä enemmän merkityksellisiä tietoja liiketoiminnasta. Tällaisia tietoja ovat esimerkiksi se, miten hyvin yritys toimii, missä se menestyy ja missä ei sekä minne pitäisi kohdentaa enemmän resursseja. Nämä merkitykselliset tiedot auttavat tekemään tietopohjaisia liiketoimintapäätöksiä. Saat lisätietoja siirtymällä kohtaan [Dimensioiden käyttäminen](finance-dimensions.md).
 
-## <a name="set-up-financial-reports-with-overviews"></a>Määritä talousraportit yleiskatsausten avulla
+## Määritä talousraportit yleiskatsausten avulla
 
 Talousraportin avulla voidaan luoda laskelma, joka vertaa pääkirjanpidon ja budjetin lukuja.
 
@@ -127,11 +127,11 @@ Talousraportin avulla voidaan luoda laskelma, joka vertaa pääkirjanpidon ja bu
 
 Nyt voit kopioida ja liittää budjettierittelyn laskentataulukkoon.  
 
-## <a name="integrate-financial-reports-with-excel"></a>Talousraporttien integroiminen Exceliin
+## Talousraporttien integroiminen Exceliin
 
 Voit integroida talousraportin Excel-työkirjamallin kanssa, muuttaa asettelun tarpeidesi mukaan ja päivittää Excel-malliin tiedot [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmasta. Integrointi helpottaa esimerkiksi kuukausittaisten ja vuosittaisten taloudellisten raporttien luontia sinulle toimivassa muodossa.
 
-### <a name="set-up-excel-integration-for-a-financial-report-create-an-excel-template"></a>Excel-integroinnin määrittäminen rahoitusraportille (Luo Excel-malli)
+### Excel-integroinnin määrittäminen rahoitusraportille (Luo Excel-malli)
 
 Kun haluat määrittää Excel-integroinnin rahoitusraportille, luo raporttia varten Excel-malli noudattamalla näitä vaiheita.
 
@@ -147,7 +147,7 @@ Kun haluat määrittää Excel-integroinnin rahoitusraportille, luo raporttia va
 1. Tallenna työkirja OneDriveen tai vastaavaan paikkaan, jossa tiedosto varmuuskopioidaan ja versioidaan.
 1. Sulje työkirja.
 
-### <a name="run-a-financial-report-with-an-excel-template"></a>Talousraportin suorittaminen Excel-mallin avulla
+### Talousraportin suorittaminen Excel-mallin avulla
 
 Voit suorittaa talousraportin Excel-mallin avulla noudattamalla seuraavia vaiheita:
 
@@ -158,7 +158,7 @@ Voit suorittaa talousraportin Excel-mallin avulla noudattamalla seuraavia vaihei
 1. Valitse **Nimi-/Arvo-haku**-sivulla Data-työkirja.
 1. [!INCLUDE[prod_short](includes/prod_short.md)] suorittaa talousraportin ja yhdistää tuloksena syntyvät tiedot Excel-malliin.
 
-## <a name="print-and-save-financial-reports"></a>Tulosta ja tallenna talousraportit
+## Tulosta ja tallenna talousraportit
 
 Voit tulostaa talousraportteja laitteesi tulostuspalveluiden avulla. [!INCLUDE[prod_short](includes/prod_short.md)]issa on myös mahdollisuus tallentaa raportit Excel-työkirjoina, Word-asiakirjoina sekä PDF- ja XML-tiedostoina.
 
@@ -169,7 +169,7 @@ Voit tulostaa talousraportteja laitteesi tulostuspalveluiden avulla. [!INCLUDE[p
     1. **(Selaimen käsittelemä)** -vaihtoehto ilmaisee, että raportille ei ole määritetty tulostinta. Tässä tapauksessa selain käsittelee tulosteen ja näyttää vakiotulostusvaiheet. Voit valita laitteeseesi yhdistetyn paikallisen tulostimen. **(Käsitellään selaimessa)** ei ole käytettävissä [!INCLUDE[prod_short](includes/prod_short.md)] -mobiilisovelluksessa tai Teamsin sovelluksessa.
 1. Valitse **Tulosta**-toiminto.
 
-### <a name="schedule-a-financial-report-or-save-as-a-pdf-word-or-excel-document"></a>Talousraportin ajoittaminen tai tallentaminen PDF-, Word- tai Excel-tiedostona
+### Talousraportin ajoittaminen tai tallentaminen PDF-, Word- tai Excel-tiedostona
 
 Voit tallentaa taloudellisen raportin tiedostomuodoissa, kuten PDF, XML, Word tai Excel. [!INCLUDE[prod_short](includes/prod_short.md)] voi myös luoda toistuvia talousraportteja.
 
@@ -180,7 +180,7 @@ Voit tallentaa taloudellisen raportin tiedostomuodoissa, kuten PDF, XML, Word ta
 1. Voit luoda ajoitetun tai toistuvan talousraportin täyttämällä kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>Toistuvissa talousraporteissa luodaan talousraportti määrittämällä **Varhaisin aloituspäivämäärä/aika** ja **Vanhentumispäivä/aika** -kenttiin ensimmäinen ja viimeinen päivämäärä. Valitse myös sen päivän päivämäärä, jolloin raportti luodaan, määrittämällä **Seuraava suorituspvm-kaava** -kenttä [Käytä pvm-kaavoja](ui-enter-date-ranges.md#use-date-formulas) -osassa selostettujen muotojen jälkeen.
 
 
-## <a name="best-practices-for-working-with-financial-report-definitions"></a>Taloudellisten raporttimääritysten käytön parhaat käytännöt
+## Taloudellisten raporttimääritysten käytön parhaat käytännöt
 
 Talousraportin määrityksiä ei versioita. Kun muutat raporttimääritystä, vanha versio korvataan, kun muutos tallentuu tietokantaan. Seuraavassa luettelossa on joitakin parhaita käytäntöjä talousraporttimääritysten parissa työskentelemiseen:
 
@@ -188,7 +188,7 @@ Talousraportin määrityksiä ei versioita. Kun muutat raporttimääritystä, va
 - Ennen kuin muutat raporttimääritystä, harkitse kopion ottamista varmuuskopioksi siltä varalta, että muutos ei toimi odotetulla tavalla. Voit joko kopioida määrityksen (antaa sille hyvän nimen) tai viedä sen. Lisätietoja on kohdassa [Talousraporttimääritysten tuominen tai vieminen](#import-or-export-financial-report-definitions).
 - Jos tarvitset uuden kopion määrityksestä, jonka [!INCLUDE[prod_short](includes/prod_short.md)] tarjoaa, helppo tapa saada sellainen, on luoda uusi yritys, joka sisältää vain asetustietoja. Vie sitten määritys ja tuo se yritykseen, jossa määrityksen päivitystä tarvitaan.
 
-## <a name="import-or-export-financial-report-definitions"></a>Tuo tai vie talousraporttien määrityksiä
+## Tuo tai vie talousraporttien määrityksiä
 
 Voit tuoda ja viedä taloudellisia raporttimäärityksiä RapidStart-konfigurointipaketteina. Esimerkiksi määrityspaketit ovat hyödyllisiä silloin, kun jaat tietoja muiden yritysten kanssa. Paketti luodaan .rapidstart-tiedostosssa, joka pakkaa paketin sisällön.
 
@@ -205,7 +205,7 @@ Lisätietoja talousraportin rivi- tai sarakemääritysten tuomisesta tai viemise
 - [Talousraporttien rivimääritysten tuominen tai vieminen](bi-row-definitions.md#import-or-export-financial-reporting-row-definitions) tai
 - [Talousraportoinnin sarakemääritysten tuominen tai vieminen](bi-column-definitions.md#import-or-export-financial-report-column-definitions)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rivimääritykset taloushallinnon raportoinnissa](bi-row-definitions.md)  
 [Sarakemääritykset taloushallinnon raportoinnissa](bi-column-definitions.md)  

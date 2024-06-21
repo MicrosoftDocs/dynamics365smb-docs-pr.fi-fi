@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="design-details-item-tracking-and-planning"></a>Rakennetiedot: nimikkeen seuranta ja suunnittelu
+# Rakennetiedot: nimikkeen seuranta ja suunnittelu
 Nimikkeen seurantanumerot on sovitettu täysin yhteen tilausseurannan tietueiden kanssa, koska ne ovat tallennettu varausjärjestelmään. Tämä tarkoittaa sitä, että nimikkeille, joilla on tilauksen seurantatietueet, voidaan määrittää nimikkeen seurantanumerot. Käänteisesti, seurantanumerot omaavat nimikkeet voivat muuttua tilauksen seurantatietueiksi. Lisätietoja on kohdassa [Rakennetiedot: nimikeseurannan rakenne](design-details-item-tracking-design.md).
 
 Lisätietoja integroiduista järjestelmistä on kohdassa [Rakenteen tiedot: varaukset, tilauksen seuranta ja toimenpiteiden viestitys](design-details-reservation-order-tracking-and-action-messaging.md).
@@ -35,7 +35,7 @@ Erityistä nimikeseurantaa käyttävien nimikkeiden osalta kaikki sarja- tai er�
 
 Lisätietoja on kohdassa [Rakennetiedot: siirrot suunnittelussa](design-details-transfers-in-planning.md).
 
-## <a name="balancing-demand-and-supply"></a>Kysynnän ja tarjonnan täsmäytys
+## Kysynnän ja tarjonnan täsmäytys
 Jos nimike vaatii tietyn nimikeseurannan, tilauksen seurantalinkki luodaan koko nimikeseurannan kysynnästä mihin tahansa vastaavan nimikeseurannan tarjontaan. Ainoa rajoitus on, että tarjonnan tulee olla ennen kysyntää. Jos näissä olosuhteissa ei löydy nimikeseurantakohtaista kysyntää vastaavaa nimikeseurannan tarjontaa, järjestelmä luo välittömästi uuden nimikeseurannan tarjonnan huomioimatta tilauksen kokoa, suunnitteluparametreja tai olemassa olevan saman sarja- tai eränumeron tarjonnan uudelleen aikatauluttamista.
 
 Jos nimikkeen seurantanumerot on määritetty kysynnälle tai tarjonnalle ilman erityistä nimikeseurantaa, tilauksen seurantalinkki on luotu kysynnästä tähän tarjontaan perustuen sopivimpaan ajoitukseen ja määrään, kuten tavallisessa täsmäytyksessä. Määritetty nimikkeen seurantanumero siirtyy tilaustenseurantatietueeseen samalla tavalla kuin mikä tahansa määritetty nimikeseurannan määrä määrittää yhden lopputilauksen seurantalinkin. Tämä tarkoittaa sitä, että syötetty nimikkeen seurantanumero säilytetään samalla, kun se on osa tilauksen seurantatietuetta.
@@ -44,7 +44,7 @@ Jos nimikkeen seurantanumerot määritetään tarjonnalle ilman erityisen nimikk
 
 Lisätietoja on kohdassa [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md).  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 [Rakennetiedot: nimikkeen seurannan rakenne](design-details-item-tracking-design.md)  
 [Rakennetiedot: kysynnän ja tarjonnan täsmäytys](design-details-balancing-demand-and-supply.md)  
 [Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys](design-details-reservation-order-tracking-and-action-messaging.md)   

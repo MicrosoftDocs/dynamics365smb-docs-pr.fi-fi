@@ -10,11 +10,11 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="work-with-power-bi-reports-in-"></a>Power BI -raporttien käsittely [!INCLUDE [prod_short](includes/prod_short.md)]issa
+# Power BI -raporttien käsittely [!INCLUDE [prod_short](includes/prod_short.md)]issa
 
 Tässä artikkelissa on perustietoja raporttien käyttämisestä. Tämä sisältää Power BI -raporttien tarkastelemisen [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman sisällä (mukaan lukien tuloskortit ja koontinäytöt) ja [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaa tietolähteenä käyttävien Power BI -raporttien muokkaamisen. Artikkelissa käsitellään seikkoja, jotka helpottavat [!INCLUDE[prod_short](includes/prod_short.md)] -käytön aloittamista käyttäjänä. Yleistä opastusta ja ohjeita Power BI:n käytöstä on kohdassa [Power BI:n kuluttajille suunnattu dokumentaatio](/power-bi/consumer).
 
-## <a name="overview"></a>Yleiskuvaus
+## Yleiskuvaus
 
 Power BI -raporteilla saadaan merkityksellisiä tietoja [!INCLUDE[prod_short](includes/prod_short.md)]ista. [!INCLUDE [prod_short](includes/prod_short.md)]in eri sivuilla on Power BI -raporttiosa, jossa voidaan näyttää Power BI -raportteja. Roolikeskus on tyypillinen sivu, jossa Power BI -raporttiosa on näkyvissä. Power BI -osa on näkyvissä myös joillakin luettelosivuille, kuten **Nimikkeet**.
 
@@ -22,12 +22,12 @@ Power BI -raporteilla saadaan merkityksellisiä tietoja [!INCLUDE[prod_short](in
 
 ![Power BI osa Business Centralissa.](./media/power-bi-part.png)
 
-## <a name="get-started"></a>Aloittaminen
+## Aloittaminen
 
 > [!NOTE]
 > [!INCLUDE [prod_short](includes/prod_short.md)] online on jo määritetty Power BI -integrointia varten.
 
-### <a name="sign-up-power-bi"></a>Rekisteröityminen Power BI:hin
+### Rekisteröityminen Power BI:hin
 
 Ennen kuin Power BI:ta voi käyttää [!INCLUDE[prod_short](includes/prod_short.md)]issa, Power BI -palveluun on rekisteröidyttävä. Jos et ole vielä rekisteröitynyt, siirry osoitteeseen [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Käytä rekisteröityessä työpaikan sähköpostiosoitetta ja salasanaa.
 
@@ -39,7 +39,7 @@ Power BI -palvelu on kaikkien käytettävissä olevien raporttien isäntä. Jos 
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Power BI -yhteyden muodostaminen – kerran
+## <a name="connect"></a>Power BI -yhteyden muodostaminen – kerran
 
 Kun [!INCLUDE [prod_short](includes/prod_short.md)]iin kirjaudutaan ensimmäisen kerran, eri sivuilla näkyy luultavasti tyhjä Power BI -osa (kuten edellisessä kuvassa). Ensimmäiseksi onkin muodostettava yhteys Power BI -tiliin. Kun yhteys on muodostettu, raportit ovat näkyvissä. Tämä vaihe tarvitsee tehdä vain kerran.
 
@@ -63,23 +63,23 @@ Connecting to Power BI from [!INCLUDE [prod_short](includes/prod_short.md)] is s
 
 Once connected, you can select a report from the Power BI part on pages.-->
 
-## <a name="work-with-power-bi-reports"></a>Power BI -raporttien käyttö
+## Power BI -raporttien käyttö
 
-### <a name="get-the-latest-data"></a>Viimeisten tietojen hakeminen
+### Viimeisten tietojen hakeminen
 
 Kukin Power BI -raportti perustuu tietojoukkoon, joka saa tietoja [!INCLUDE[prod_short](includes/prod_short.md)] -lähteistä. Power BI -raporttien tietojen halutaan olevan aina ajantasaisia [!INCLUDE[prod_short](includes/prod_short.md)] -tietojen kanssa. Tätä kutsutaan *päivittämiseksi*.  Sen perusteella, miten organisaatio on määrittänyt Power BI:n, päivitystä ei välttämättä tehdä automaattisesti. Tiedot voidaan päivittää kahdella tavalla: manuaalisesti tai ajoitetulla päivityksellä. Manuaalinen päivitys tehdään tarvittaessa. Ajoitetussa päivityksessä tiedot päivitetään automaattisesti määritetyn ajan kuluttua.
 
-#### <a name="refresh-manually"></a>Manuaalinen päivitys
+#### Manuaalinen päivitys
 
 Valitse Power BI -onlinessa siirtymisruudussa **Tietojoukot**-kohdassa tietojoukon vieressä **Lisää vaihtoehtoja (...)** ja valitse sitten **Päivitä nyt**.
 
-#### <a name="schedule-a-refresh"></a>Päivityksen ajoittaminen
+#### Päivityksen ajoittaminen
 
 Valitse Power BI -onlinessa siirtymisruudussa Tietojoukot-kohdassa tietojoukon vieressä Lisää vaihtoehtoja (...) ja valitse sitten **Ajoita päivitys**. Täytä **Ajoita päivitys** -osan tiedot ja valitse **Käytä**.
 
 Lisätietoja on kohdassa [Aikataulutetun päivityksen määrittäminen](/power-bi/connect-data/refresh-scheduled-refresh)
 
-### <a name="show-reports-on-list-pages"></a>Raporttien näyttäminen luettelosivuilla
+### Raporttien näyttäminen luettelosivuilla
 
 [!INCLUDE[prod_long](includes/prod_long.md)] sisältää Power BI -tietoruudun useilla tärkeillä luettelosivuilla. Tässä luetteloruudussa on lisätietoja luettelon tiedoista. Raportti päivitetään ja suodatetaan valitun tapahtuman mukaan, kun siirryt luettelon riveillä.
 
@@ -90,13 +90,13 @@ Lisätietoja luettelosivujen raporttien luomisesta on kohdassa [Power BI -raport
 >
 > Tai jos käytössäsi on Business Centralin vanhempi versio, siirry toimintopalkkiin ja valitse **Toiminnot** > **Näytä** > **Näytä/Piilota Power BI -raportit**.
 
-### <a name="switch-reports"></a>Raporttien vaihtaminen
+### Raporttien vaihtaminen
 
 Sivun Power BI -osassa voi näyttää minkä tahansa käytettävissä olevan Power BI -raportin. Näkyvissä olevan raportin voi vaihtaa valitsemalla **Valitse raportti** -toiminnon osan yläreunassa olevasta avattavasta komentoluettelosta.  
 
 **Power BI -raporttien valinta** -sivulla on luettelo on kaikista käytettävissä olevista Power BI -raporteista. Tämä luettelo haetaan kaikista omista työtiloistasi tai työtiloista, jotka on jaettu sinulle Power BI -palvelussa. Valitse kaikkien niiden raporttien **Ota käyttöön** -ruutu,, jotka haluat näyttää aloitussivulla, ja valitse sitten **OK**. Palaat sivulle ja viimeinen käyttöönotettu raportti tulee näkyviin. Voit siirtyä raporttien välillä käyttämällä avattavan komentoluettelon **Edellinen**- ja **Seuraava**-komentoja.  
 
-### <a name="get-more-reports"></a>Lisäraporttien hakeminen
+### Lisäraporttien hakeminen
 
 Jos **Power BI -raporttien valinta** -sivulla ei näy raportteja tai jos haluamasi raportti ei ole näkyvissä, valitse **Lataa raportit**. Voit etsiä tällä toiminnolla raportteja kahdesta sijainnista: *Oma organisaatio* ja *Palvelut*.
 
@@ -106,7 +106,7 @@ Jos **Power BI -raporttien valinta** -sivulla ei näy raportteja tai jos haluama
 > [!TIP]
 > Jos sinulla on Power BI Desktop, voit myös luoda uusia Power BI -raportteja. Sitten kun nämä raportit on julkaistu Power BI -työtilaan, ne näkyvät **Power BI -raporttien valinta** -sivulla.  
 
-### <a name="manage-and-modify-reports"></a>Raporttien hallinta ja muokkaaminen
+### Raporttien hallinta ja muokkaaminen
 
 Voit tehdä muutoksia raporttiin Power BI -osassa. Tehdyt muutokset julkaistaan sitten Power BI -palveluun. Jos raportti on jaettu muiden käyttäjien kanssa, myös he näkevät muutokset paitsi siinä tapauksessa, että olet tallentanut muutokset uuteen raporttiin.
 
@@ -117,7 +117,7 @@ Kun palaat roolikeskukseen, päivitetty raportti on näkyvissä. Jos valitsit **
 > [!NOTE]
 > Tämä ominaisuus ei ole käytettävissä paikallisessa [!INCLUDE [prod_short](includes/prod_short.md)] -versiossa.
 
-### <a name="upload-reports"></a><a name="upload"></a>Raporttien lataaminen palvelimeen
+### <a name="upload"></a>Raporttien lataaminen palvelimeen
 
 Power BI -raportteja voi jakaa käyttäjille .pbix-tiedostoina. Jos sinulla on .pbix-tiedostoja, voit ladata ja jakaa ne kaikkien [!INCLUDE [prod_short](includes/prod_short.md)] -käyttäjien kanssa. Raportit jaetaan kussakin [!INCLUDE [prod_short](includes/prod_short.md)] -yrityksessä.  
 
@@ -128,7 +128,7 @@ Kun raportti on latautunut Power BI -työtilaan, se latautuu automaattisesti mui
 > [!NOTE]
 > Raportin lataaminen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman kautta edellyttää in SUPER-käyttäjän oikeuksia [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa. Et tarvitse erityislupaa raporttien lataamiseen työtilaan Power BI -palvelun kautta.
 
-## <a name="upload-reports-from-files"></a><a name="upload"></a>Raporttien lataaminen tiedostoista
+## <a name="upload"></a>Raporttien lataaminen tiedostoista
 
 Power BI -raportteja voi jakaa käyttäjille .pbix-tiedostoina. .pbix-tiedoston voi puolestaan ladata työtilaan. Raportti ladataan seuraavasti:
 
@@ -147,7 +147,7 @@ Lisätietoja on kohdassa [Raportin lataaminen palveluun](/power-bi/paginated-rep
 > [!TIP]
 > Jos käytössä on [!INCLUDE[prod_short](includes/prod_short.md)] online, raportin voi ladata myös [!INCLUDE[prod_short](includes/prod_short.md)]issa. Lisätietoja on kohdassa [Power BI -raporttien käyttäminen [!INCLUDE [prod_short](includes/prod_short.md)]issa – raporttien lataaminen palvelimeen](across-working-with-powerbi.md#upload).
 
-## <a name="share-reports-with-others"></a><a name="share"></a>Raporttien jakaminen muiden kanssa
+## <a name="share"></a>Raporttien jakaminen muiden kanssa
 
 Kun raportti on työtilassa, sen voi jakaa organisaatiossa muiden kanssa.
 
@@ -156,23 +156,23 @@ Voit jakaa raportin valitsemalla raporttiluettelossa tai avoimessa raportissa **
 > [!NOTE]
 > Sekä sinulla että henkilöillä, joiden kanssa jaat raportin, on oltava [Power BI Pro -käyttöoikeus](/power-bi/service-features-license-type). Muussa tapauksessa sisällön on oltava [Premium-kapasiteettina](/power-bi/service-premium-what-is). Lisätietoja on kohdassa [Työn jakaminen Power BI:ssä](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## <a name="fixing-problems"></a>Ongelmien korjaaminen
+## Ongelmien korjaaminen
 
 Tämä osa sisältää ratkaisun tyypillisempiin ongelmiin.  
 
-### <a name="you-dont-have-a-power-bi-account"></a>Power BI -tiliä ei ole
+### Power BI -tiliä ei ole
 
 Power BI -tiliä ei ole määritetty. Kelvollisen Power BI -tilin saaminen edellyttää, että sinulla on käyttöoikeus ja että olet aiemmin kirjautunut Power BI:hin luomaan Power BI -työtilan.
 
-### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Sanoma: Käyttöönotettuja raportteja ei ole. Valitsemalla Valitse raportti saat näkyviin luettelon raporteista, joita voit tarkastella.
+### Sanoma: Käyttöönotettuja raportteja ei ole. Valitsemalla Valitse raportti saat näkyviin luettelon raporteista, joita voit tarkastella.
 
 Tämä sanoma avautuu, jos oletusraporttia ei voitu ottaa käyttöön Power BI -työtilassa. Vaihtoehtoisesti se otettiin käyttöön mutta sen päivittäminen epäonnistui. Siirry raporttiin Power BI -työtilassa, valitse **Tietojoukko**, **Asetukset** ja päivitä sitten tunnistetiedot manuaalisesti. Kun tietojoukko on päivitetty, siirry takaisin [!INCLUDE[prod_short](includes/prod_short.md)]iin ja valitse raportti manuaalisesti **Valitse raportit** -sivulla.
 
-#### <a name="you-cant-see-a-report-on-the-select-report-page-on-a-list-page"></a>Raportti ei näy luettelosivun Valitse raportti -sivulla
+#### Raportti ei näy luettelosivun Valitse raportti -sivulla
 
 Syynä luultavasti se, että raportin nimi ei sisällä luettelosivun nimeä. Saat näkyviin luettelon kaikista Power BI:ssa käytettävistä raporteista tyhjentämällä suodattimen.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Business Central ja Power BI](admin-powerbi.md)    
 [Power BI -raporttien luominen näyttämään [!INCLUDE [prod_long](includes/prod_long.md)] -tietoja](across-how-use-financials-data-source-powerbi.md)    

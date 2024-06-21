@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="use-reports-in-daily-work"></a>Raporttien käyttö päivittäisessä työssä
+# Raporttien käyttö päivittäisessä työssä
 
 Raportti [!INCLUDE[prod_short](includes/prod_short.md)]issa kerää tietoja määritettyjen ehtosarjojen perusteella. Se järjestää ja esittää tiedot helposti luettavassa muodossa, jonka voit tulostaa tai tallentaa tiedostona.  
 
@@ -25,7 +25,7 @@ Raportti [!INCLUDE[prod_short](includes/prod_short.md)]issa kerää tietoja mä�
 | Lisätietoja raportin oletusasettelun muuttamisesta. | [Raportin oletusasettelun muuttaminen](ui-how-change-layout-currently-used-report.md) |
 | Raportin tietojoukon tietojen tarkastelu ja analysointi Microsoft Excelissä. | [Raportin tietojoukon tallennus Exceliin pyyntösivulta](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Raportin yleiskatsaus](reports-available-reports.md)  
 [Business Intelligencen ja raportoinnin yleiskuva](ui-work-report.md)  

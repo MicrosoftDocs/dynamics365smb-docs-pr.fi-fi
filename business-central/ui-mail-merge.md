@@ -11,7 +11,7 @@ ms.search.forms: '9989, 13,'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="use-word-templates-for-bulk-communication"></a>Word-mallien käyttö joukkoviestinnässä
+# Word-mallien käyttö joukkoviestinnässä
 
 Microsoft Word -mallit helpottavat entiteettien, kuten kontaktien, asiakkaiden ja toimittajien, kanssa tapahtuvaa joukkoviestintää postitse tai sähköpostitse. Voit esimerkiksi luoda
 
@@ -22,7 +22,7 @@ Microsoft Word -mallit helpottavat entiteettien, kuten kontaktien, asiakkaiden j
 > [!NOTE]
 > Kun määrität Word-malleja, sinun täytyy käyttää laitetta, jossa on Microsoft Word 2019 tai uudempi ja Windows-käyttöjärjestelmä asennettuna.
 
-## <a name="set-up-the-source-of-data"></a>Valitse tietolähde
+## Valitse tietolähde
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in entiteettejä voi käyttää mallin tietolähteinä, ja asiakirjat voidaan mukauttaa kullekin entiteetille lisäämällä yhdistämiskenttiä. Yhdistämiskentät saadaan [!INCLUDE[prod_short](includes/prod_short.md)]in entiteetistä. Kun Word-mallia käytetään entiteetissä, yhdistämiskenttien tiedot lisätään asiakirjaan.
 
@@ -43,7 +43,7 @@ Kun lataat mallin, saat. zip-tiedoston, joka sisältää kaksi tiedostoa.
 
 Saat lisätietoja mallin määrittämisestä Wordissa valitsemalla [Mallin määrittäminen Wordissa](#set-up-the-template-in-word).
 
-## <a name="add-entries-that-are-related-or-unrelated-to-the-source-entity"></a>Lähdeobjektiin liittyvien tai liittymättömien tapahtumien lisääminen
+## Lähdeobjektiin liittyvien tai liittymättömien tapahtumien lisääminen
 
 Voit myös yhdistää muiden entiteettien tietoja. Jos haluat lisätä muita objekteja tietolähteiksi, käytä jotakin seuraavista toiminnoista **Word-mallit** -sivulla tai käyttäessäsi asetusten ohjattua määritystä:
 
@@ -58,7 +58,7 @@ Voit luoda objektihierarkian, sekä toisiinsa liittyvät että liittymättömät
 
 Kun lisäät objekteja, voit määrittää kenttien nimien etuliitteen käyttämällä **Kentän etuliite** -kenttää. Kun myöhemmin lisäät kenttiä malliin, etuliite helpottaa lähteen ja muiden objektien kenttien erottamista toisistaan.
 
-### <a name="select-the-fields-to-include"></a>Valitse sisällytettävät kentät
+### Valitse sisällytettävät kentät
 
 Voit määrittää kunkin objektin osalta, mitä kenttiä haluat käyttää mallissa. Valitse numero **Valittujen kenttien määrä** -sarakkeesta, niin voit avata käytettävissä olevien kenttien luettelon. **Kentän valinta** -sivulla voit määrittää kentät **Sisällytä**-valintaruudun avulla. Joissakin objekteissa yritysten yleisesti käyttämät kentät on sisällytetty oletusarvoisesti. Voit esimerkiksi muokata luetteloa ja poistaa oletuskentät. Tekemäsi muutokset koskevat vain mallia, jota käsittelet.
 
@@ -68,7 +68,7 @@ Voit määrittää kunkin objektin osalta, mitä kenttiä haluat käyttää mall
 > [!NOTE]
 > Sinä tai Microsoft-kumppani voi lisätä objekteihin mukautettuja kenttiä. Kun teet näin, kenttien nimen etuliitteenä on **CALC** ja niiden kenttätyyppinä on **Laskettu**. Kenttätyyppiä kutsutaan lasketuksi ilmaisemaan, että kenttä voi näyttää erityyppisiä arvoja, kuten tekstiä, numeroita, päivämääriä ja niin edelleen.
 
-## <a name="to-create-a-word-template-in-business-central"></a>Word-mallin luominen Business Centralissa
+## Word-mallin luominen Business Centralissa
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Word-mallit** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi**, sitten **Luo malli** ja noudata sitten avustetun asennusoppaan ohjeita. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -76,19 +76,19 @@ Voit määrittää kunkin objektin osalta, mitä kenttiä haluat käyttää mall
 > [!TIP]
 > Voit myös luoda mallin suoraan entiteetin sivulta valitsemalla **Käytä Word-mallia** -toiminnon avataksesi avustetun asetusoppaan ja sitten **Uusi malli**. Kun teet näin, tietolähde valitaan entiteetin tyypin mukaan.
 
-## <a name="set-up-the-template-in-word"></a>Mallin määrittäminen Wordissa
+## Mallin määrittäminen Wordissa
 
 Kun mallia määritetään Wordissa, yhdistämiskentät voidaan lisätä **Postitukset**-välilehdessä valitsemalla **Lisää yhdistämiskenttä**. Yhdistämiskentät ovat peräisin tietolähdetiedostosta, jonka latasit entiteetille. Ne toimivat paikkamerkkeinä, jotka kertovat Wordille, mihin asiakirjassa on tarkoitus sijoittaa entiteetin tiedot.
 
 :::image type="content" source="media/word-tmpl-merge-field.PNG" alt-text="Yhdistämiskenttien lisääminen Microsoft Wordiin":::
 
-## <a name="apply-a-template"></a>Käytä mallia
+## Käytä mallia
 
 Kun Word-malli on valmis, asiakirjat voidaan luoda valitsemalla **Word-mallit**-sivulla **Käytä**. Kun Word-mallia käytetään entiteetissä, yhdistämiskenttien tiedot lisätään asiakirjaan. Voit luoda joko yhden asiakirjan, jossa on osa kullekin entiteetille, tai valita **Jaa**-toiminnon luomaan uuden asiakirjan kullekin entiteetille.
 
 Voit käyttää **Käytä Word-malleja** -toimintoa, kun haluat käyttää malleja yhdessä tai useassa samantyyppisessä objektissa, kuten asiakas, suoraan objektin sivun kontekstissa. Esimerkiksi **Asiakas**- tai **Toimittaja**-sivut.
 
-## <a name="use-word-templates-with-email"></a>Word-mallien käyttäminen sähköpostissa
+## Word-mallien käyttäminen sähköpostissa
 
 Voit lisätä sisältöä sähköpostiviesteihin Word-mallien avulla. Kun kirjoitat sähköpostiviestiä, voit ottaa mallin sisällön käyttöön viestissä käyttämällä **Käytä Word-mallia** -toimintoa. Objektille on luotava malleja. Voit käyttää yhtä mallia kerrallaan ja siirryttäessä mallien välillä viesti muuttuu valitun mallin sisällön mukaiseksi.
 
@@ -96,7 +96,7 @@ Lisäksi voit liittää mallin sisällön sähköpostiin tiedostona käyttämäl
 
 :::image type="content" source="media/email-word-tmpl.PNG" alt-text="Wordin-mallin sisällön käyttövaihtoehdot sähköpostissa":::
 
-## <a name="edit-a-word-template"></a>Word-mallin luominen
+## Word-mallin luominen
 
 Voit tehdä seuraavat muutokset Word-malleihin:
 
@@ -105,7 +105,7 @@ Voit tehdä seuraavat muutokset Word-malleihin:
 * Voit korvata Word-mallin uudella mallilla käyttämällä **Lataa**-toimintoa
 * Poista malli
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Raporttien ja asiakirjojen asettelujen hallinta](ui-manage-report-layouts.md)  
 [Määritä sähköposti](admin-how-setup-email.md)  

@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="overview-of-tasks-to-set-up-"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in määritystehtävien yleiskatsaus
+# [!INCLUDE[prod_short](includes/prod_short.md)]in määritystehtävien yleiskatsaus
 
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää vakiomääritykset useimmille liiketoimintaprosesseille. Voit muuttaa määritykset organisaatiosi tarpeita vastaaviksi. [Business Centralin pika-aloituksen](quick-start-business-central.md) artikkelien avulla voit ottaa ensimmäiset askelet [!INCLUDE [prod_short](includes/prod_short.md)]in käyttöönotossa. Tässä artikkelissa on yleiskuvaus siitä, miten voit määrittää [!INCLUDE [prod_short](includes/prod_short.md)]in organisaatiollesi.
 
@@ -55,13 +55,13 @@ Joidenkin alueiden edellytyksenä on, että käyttäjä on [!INCLUDE[prod_short]
 > [!NOTE]
 > Järjestelmänvalvojana voit määrittää uuden yrityksen [!INCLUDE[prod_short](includes/prod_short.md)]issa RapidStart Servicesin avulla. RapidStart Services on työkalu, joka on suunniteltu lyhentämään käyttöönottoa, parantamaan toteutuksen laatua, esittelemään toistettavia lähestymistapoja toteutuksiin sekä lisäämään tuottavuutta automatisoimalla ja yksinkertaistamalla toistuvia tehtäviä. Lisätietoja on kohdassa [Yrityksen määrittäminen RapidStart Servicesin avulla](admin-set-up-a-company-with-rapidstart.md).
 
-## <a name="set-up-apps"></a>Sovellusten määrittäminen
+## Sovellusten määrittäminen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] sisältää ydinominaisuuksia, joiden päälle Microsoft lisää joitakin [**Laajennusten hallinta** -sivulla](https://businesscentral.dynamics.com/?page=2500) olevia sovelluksia. Vuoden 2022 lokakuusta lähtien jokainen sovellus sisältää linkin sovelluksen asetussivun käynnistämiseksi. Se tapahtuu valitsemalla **Määritä**-toiminto.  
 
 Voit lisätä ominaisuuksia sovellukseen [!INCLUDE [prod_short](includes/prod_short.md)] lisäämällä AppSource-sovelluksia. Lisätietoja on kohteessa [Business Central Onlinen mukauttaminen laajennusten avulla](ui-extensions.md).  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Yrityksen tietojen yleiskatsaus](admin-company-information.md)  
 [Hallinta](admin-setup-and-administration.md)  

@@ -10,13 +10,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="external-document-numbers-on-purchase-documents"></a>Ulkoisten asiakirjojen numerot ostoasiakirjoissa
+# Ulkoisten asiakirjojen numerot ostoasiakirjoissa
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 Voit myös määrittää ulkoisen tiedoston numeroita myyntiasiakirjoihin. Lisätietoja on kohdassa [Ulkoisen tiedoston numerot](sales-how-invoice-sales.md#external-document-numbers)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Ulkoisten asiakirjojen numeroiden syöttäminen](across-enter-external-document-numbers.md)  
 [Osto](purchasing-manage-purchasing.md)  

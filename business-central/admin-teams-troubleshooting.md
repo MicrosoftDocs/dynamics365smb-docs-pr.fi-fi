@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# <a name="troubleshoot-microsoft-teams-integration-with-"></a>[!INCLUDE [prod_short](includes/prod_short.md)] ja Microsoft Teamsin integroinnin vianmääritys
+# [!INCLUDE [prod_short](includes/prod_short.md)] ja Microsoft Teamsin integroinnin vianmääritys
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -19,30 +19,30 @@ ms.reviewer: jswymer
 
 Tässä artikkelissa on tietoja tavallisten käyttäjien tai järjestelmänvalvojien kohtaamien ongelmien tunnistamisesta ja korjaamisesta, kun käytetään Microsoft Teamsia [!INCLUDE [prod_short](includes/prod_short.md)]in kanssa.
 
-## <a name="the-sign-in-link-doesnt-work"></a>Sisäänkirjautumislinkki ei toimi
+## Sisäänkirjautumislinkki ei toimi
 
 Jos yritit kirjautua Teamsin [!INCLUDE [prod_short.md](includes/prod_short.md)] -sovellukseen heti sovelluksen asentamisen jälkeen eikä kirjautumislinkki toiminut, sovelluksen asennus ei ehkä ole vielä täysin valmis. Yritä korjata ongelma kirjautumalla ulos Teams-asiakasohjelmasta ja kirjautumalla sitten uudelleen sisään.
 
-## <a name="the-settings-page-is-empty"></a>Asetukset-sivu on tyhjä
+## Asetukset-sivu on tyhjä
 
 Asetuksiin pääsee vasta kirjautumisen jälkeen. Kirjaudu sovellukseen joko liittämällä linkki [!INCLUDE [prod_short.md](includes/prod_short.md)] -tietueeseen ja yrittämällä hakea yhteyshenkilöitä. Kumpikin toiminto vie kirjautumiskokemukseen, jonka jälkeen **Asetukset**-sivu on käytettävissä.
 
-## <a name="i-changed-company-but-it-didnt-seem-to-work"></a>Yrityksen vaihtaminen ei näytä onnistuneen
+## Yrityksen vaihtaminen ei näytä onnistuneen
 
 Kun yritys on vaihdettu **Asetukset**-sivulla, komentoruudun avattava luettelo voi ilmaista, että haku tapahtuu edelleen edellisessä yrityksessä. Tämä ongelma esiintyy, kun **Asetukset**-sivu avataan suoraan komentoruudussa. Tässä tapauksessa yrityksen vaihtaminen onnistui ja haku tehdään vaihdetussa yrityksessä. Ongelmana on vain se, että komentoruudun avattavaa luetteloa ei ole vielä päivitetty. Jotta avattava luettelo ilmaisisi haun kohteena olevan yrityksen oikein, [!INCLUDE [prod_short.md](includes/prod_short.md)] on suljettava komentoruudussa tai sen kiinnitys poistettava, jonka jälkeen sovellus on avattava uudelleen. 
 
 
 <!--When you change company from the **Settings** page that you reach from the command box, returning to the command box drop-down continues to show the previous company even though the company was successfully changed. For the drop-down accurately reflect the company you'll search in, you must close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box and then find it again.-->
 
-## <a name="something-went-wrong-error-when-searching-for-contacts"></a>Tapahtui virhe -ilmoitus yhteyshenkilöitä haettaessa
+## Tapahtui virhe -ilmoitus yhteyshenkilöitä haettaessa
 
 Tämä virhe voi esiintyä, kun haku koskee yritystä, jota ei ole käynnistetty tai joka ei vastaa. Hakua ei voi esimerkiksi tehdä uudessa kokeiluversion yrityksessä, joka ei vielä hyväksynyt käyttöehtoja. Ongelman voi ratkaista kokeilemalla kirjautumista [!INCLUDE [prod_short.md](includes/prod_short.md)] -verkkoasiakasohjelmaan sekä toimimalla avautuvien valintaikkunoiden ohjeiden mukaisesti tai hylkäämällä ne.
 
-## <a name="cannot-find-the-contactcontact-summary-api-error-when-searching-for-contacts"></a>Yhteyshenkilön tai yhteyshenkilön yhteenvedon ohjelmointirajapintaa ei löydy -virhe, kun yhteyshenkilöitä haetaan
+## Yhteyshenkilön tai yhteyshenkilön yhteenvedon ohjelmointirajapintaa ei löydy -virhe, kun yhteyshenkilöitä haetaan
 
 Mukauttamiset tai toimialasovellukset voivat aiheuttaa tämän virheen vaikuttaessaan tuotteeseen [!INCLUDE [prod_short.md](includes/prod_short.md)] tai muokatessaan sitä, tai ne eivät sisällä yhteyshenkilön tai yhteyshenkilön yhteenvedon ohjelmointirajapintaa. Jos ongelma toistuu, ota yhteys järjestelmänvalvojaan tai tukeen.
 
-## <a name="none-of-my-links-expand-into-a-card"></a>Yksikään linkkini ei laajennu kortiksi
+## Yksikään linkkini ei laajennu kortiksi 
 
 Jos kohtaat tämän ongelman, kokeile seuraavia asioita:
 
@@ -63,7 +63,7 @@ Jos kohtaat tämän ongelman, kokeile seuraavia asioita:
 
 4. Organisaatiosi voi myös rajoittaa, että et voi liittää linkkejä, jotka laajenevat korteiksi. Ota yhteyttä järjestelmänvalvojaan, jotta ymmärrät Teamsin organisaatiokäytännöt, jotka voivat koskea sinua.
 
-## <a name="my-link-sometimes-doesnt-expand-into-a-card"></a>Linkki ei aina laajennu kortiksi
+## Linkki ei aina laajennu kortiksi 
 
 Linkki ei laajennu kortiksi seuraavissa tilanteissa:
 
@@ -85,7 +85,7 @@ Esimerkiksi:
 
 Teknisiä tietoja [!INCLUDE [prod_short](includes/prod_short.md)]in URL-osoitteista on [!INCLUDE [prod_short](includes/prod_short.md)]in kehittäjän ja IT-ammattilaisen ohjeessa kohdassa [Verkkoasiakkaan URL-osoite](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls).
 
-## <a name="the-details-window-opens-but-shows-an-error-before-details-are-shown"></a>Tiedot-ikkuna aukeaa, mutta näyttöön tulee virhe, ennen kuin tiedot näkyvät
+## Tiedot-ikkuna aukeaa, mutta näyttöön tulee virhe, ennen kuin tiedot näkyvät
 
 Tämä ongelma voi johtua muutamasta asiasta: käyttöoikeuksien puutteesta [!INCLUDE [prod_short](includes/prod_short.md)]issa tai selaimen asetuksista (käytettäessä Teamsia selaimessa).
 
@@ -103,7 +103,7 @@ Tämä ongelma voi johtua muutamasta asiasta: käyttöoikeuksien puutteesta [!IN
 
     Lisätietoja selaimen vähimmäisvaatimuksista on kohdassa [[!INCLUDE [prod_short](includes/prod_short.md)]in käytön vähimmäisvaatimukset](product-requirements.md#browsers) 
 
-## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Minulla on ongelmia kameran tai sijainnin kanssa Teamsissa
+## Minulla on ongelmia kameran tai sijainnin kanssa Teamsissa
 
 Kun käytät [!INCLUDE [prod_short](includes/prod_short.md)]issa tietoikkunassa ominaisuuksia, jotka vaativat sijainnin tai laitteen kameran käyttöä, sinun on ensin annettava Teamsille suostumuksesi näiden laiteominaisuuksien käyttämiseen.  
 
@@ -117,7 +117,7 @@ Lisätietoja näiden asetusten muuttamisesta on Microsoft-tuen ohjeaiheessa [Kam
 
 Joissakin selaimissa, kuten uudessa Microsoft Edgessä, voit valita, mitä laitekameraa käytetään, kun laitteesi tukee useaa kameraa. 
 
-## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams näyttää useita kieliä korteissani ja korttien tiedoissa
+## Teams näyttää useita kieliä korteissani ja korttien tiedoissa
 
 Jotta korttien ja korttien tiedot näkyvät johdonmukaisesti samalla kielellä Teamsissa, Teams-asiakkaan kielen ja [!INCLUDE [prod_short](includes/prod_short.md)] -verkkoasiakkaassa käytettävän kielen on vastattava toisiaan.
 
@@ -127,11 +127,11 @@ Jotta korttien ja korttien tiedot näkyvät johdonmukaisesti samalla kielellä T
 
 Lisätietoja siitä, miten kielet toimivat Teamsin ja [!INCLUDE [prod_short](includes/prod_short.md)]in välillä, on kohdassa [Teams – usein kysytyt kysymykset](teams-faq.md#language).
 
-## <a name="i-edited-a-field-in-the-details-window-but-my-change-wasnt-saved"></a>Muokkasin tietoikkunan kenttä, mutta muutosta ei tallennettu
+## Muokkasin tietoikkunan kenttä, mutta muutosta ei tallennettu
 
 Tiedot-ikkunoissa kenttään tekemäsi muutokset tallentuvat automaattisesti, kun poistut kentästä. Ennen kuin suljet ikkunan sen jälkeen, kun olet muuttanut kenttää, valitse <kbd>Sarkain</kbd>-näppäin tai napsauta/napauta kentän ulkopuolella.
 
-## <a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a>Uusi ruutu ilmestyi sovelluksen käynnistimeen. Miten poistan sen?
+## Uusi ruutu ilmestyi sovelluksen käynnistimeen. Miten poistan sen?
 
 Kun tarkastelet sovelluksia Office 365 -kotisivulla (https://home.office.com) tai sovelluksen käynnistimessä, uusi "Business Central teams Integration Service Connector" -niminen ruutu tulee näkyviin, kun Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovellus on asennettu. Tämä ruutu ei tarjoa arvoa itsessään, ja se voidaan piilottaa turvallisesti.
 
@@ -145,19 +145,19 @@ Järjestelmänvalvoja, jolla on Microsoft Entra -järjestelmänvalvojan käyttö
 > [!NOTE]
 > Tämä muutos tulee voimaan jonkin ajan kuluttua.
 
-## <a name="duplicate-text-in-the-share-to-teams-window"></a>Monista teksti Jaa Teamsiin -ikkunassa
+## Monista teksti Jaa Teamsiin -ikkunassa
 
 Kun liität tekstiä **Jaa Teamsiin** -ikkunan sanomaruutuun, teksti monistetaan. Tämä ongelma on Microsoftin tiedossa, ja sitä käsitellään myöhemmässä päivityksessä. 
 
-## <a name="unable-to-sign-in-to-the-share-to-teams-window"></a>Jaa Teamsiin -ikkunaan ei voi kirjautua
+## Jaa Teamsiin -ikkunaan ei voi kirjautua 
 
 Tämä ongelma voi johtua useista eri syistä. Esimerkiksi käyttäjätunnuksella, jota käytät sisäänkirjautuessa, on oltava käyttöoikeus Microsoft Teamsiin esimerkiksi Microsoft 365 -tilauksen kautta.
 
-## <a name="my-cards-no-longer-have-a-popout-button"></a>Kortteissani ei ole enää ponnahduspainiketta
+## Kortteissani ei ole enää ponnahduspainiketta
 
 Huhtikuusta 2022 alkaen linkit, jotka näkyvät kompaktina korttina Teamsissa, eivät enää sisällä **Ponnahdusikkuna**-painiketta. Jos haluat avata kortin omassa ikkunassaan, valitse **Tiedot**-painike ja sitten **Avaa selaimessa** ikkunan oikeassa yläkulmassa olevasta ellipsivalikosta (**...**).
 
-## <a name="cant-pin-a-card-to-tab"></a>Kortin kiinnittäminen välilehteen ei onnistu
+## Kortin kiinnittäminen välilehteen ei onnistu
 
 Tälle ongelmalle on pari syytä.
 
@@ -165,16 +165,16 @@ Tälle ongelmalle on pari syytä.
 
 - Kiinnittäminen ei onnistu, ennen kuin lisäät ensimmäisen Business Central -välilehden. Tämä ongelma on tiedossa Teamsissa. 
 
-## <a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a>Joku lisäsi välilehden, mutta välilehti ei näy minulle
+## Joku lisäsi välilehden, mutta välilehti ei näy minulle
 
 Tämä ongelma johtuu siitä, että sinulla ei ole asennettuna BC-sovellusta Teamsille. Vain he, joilla on sovellus asennettuna, näkevät Business Central -välilehdet.
 
-## <a name="others-see-a-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Toiset näkevät eri lajittelu- tai sarakeasettelun kuin välilehden tekijä näkee
+## Toiset näkevät eri lajittelu- tai sarakeasettelun kuin välilehden tekijä näkee
 
 Tämä ongelma johtuu todennäköisesti siitä, että olet jakanut oman näkymän luettelonäkymänä. Tässä tapauksessa voit työskennellä yhdessä järjestelmänvalvojan kanssa ja luoda joko roolikohtaisia luettelonäkymiä, jotka peittävät kanavan/keskustelun eri roolit, tai luoda tämän näkymän koko organisaatiolle, jotta kaikki voivat saada yhdenmukaisen näkymän.
 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [[!INCLUDE [prod_short](includes/prod_short.md)]in ja Microsoft Teamsin integroinnin yleiskatsaus](across-teams-overview.md)  
 [Microsoft Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen](across-install-app-for-teams.md)  

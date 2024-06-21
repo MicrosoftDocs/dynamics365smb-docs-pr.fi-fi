@@ -12,11 +12,11 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="faq-for-marketing-text-suggestions-with-copilot"></a>Copilotin avulla luotujen markkinointitekstiehdotusten UKK
+# Copilotin avulla luotujen markkinointitekstiehdotusten UKK
 
 Nämä usein kysytyt kysymykset (UKK) kuvaavat tekoälyn vaikutusta [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] -ominaisuuteen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa.
 
-## <a name="what-is-item-marketing-text-suggestions"></a>Mitä ovat kohteen markkinointitekstiehdotukset?
+## Mitä ovat kohteen markkinointitekstiehdotukset?
 
 Copilotin tarjoaa kirjoitusapua käyttäjille, jotka vastaavat markkinointitekstin (eli copyn) kirjoittamisesta nimikkeissä [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa. Tätä ominaisuutta kutsutaan nimellä [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]. [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] -ominaisuus tarjoaa kirjoitusapua käyttäjille, jotka vastaavat markkinointitekstin (eli *copyn*) kirjoittamisesta nimikkeissä [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa.
 
@@ -33,20 +33,20 @@ Tämän ominaisuuden keskeisiä etuja ovat seuraavat:
 - Avaa luovuuden ja tarjoaa kiinnostavamman tuotekuvauksen.
 - Parantaa tuoteryhmien markkinointimateriaalin yhdenmukaisuutta.
 
-## <a name="what-are-the-systems-capabilities"></a>Mitkä ovat järjestelmän toiminnot?
+## Mitkä ovat järjestelmän toiminnot?
 
 [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] -ominaisuus käyttää [Microsoft Azure OpenAI Serviceä](/azure/cognitive-services/openai/overview) käyttääkseen tehokkaita kielimalleja, jotka analysoivat ja luovat luonnollista kieltä. Nämä mallit on koulutettu laajoilla tekstikokonaisuuksilla. Tämän seurauksena Copilot voi luoda ehdotettuja, henkilökohtaisia vastauksia englanniksi. Ne perustuvat vähimmäismäärään syötettyä tietoa, kuten kohteen määritteitä, luokkaa tai kuvausta. 
 
-## <a name="what-is-the-systems-intended-use"></a>Mitä järjestelmän on tarkoitus käyttää?
+## Mitä järjestelmän on tarkoitus käyttää?
 
 Tämän ominaisuuden tarkoituksena on auttaa käyttäjiä luomaan markkinointitekstiä nimikkeille [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa. Kirjoittajat käyttävät ominaisuutta saadakseen nopeasti pakottavia ja kiinnostavia tekstiehdotuksia, joita sitten tarkistetaan ja muokataan oikeellisuuden varmistamiseksi. 
 
-## <a name="how-was-item-marketing-text-evaluated-what-metrics-are-used-to-measure-performance"></a>Miten nimikkeen markkinointiteksti on arvioitu? Mitä mittareita suorituskyvyn mittaamiseen käytetään?
+## Miten nimikkeen markkinointiteksti on arvioitu? Mitä mittareita suorituskyvyn mittaamiseen käytetään?
 
 - Ominaisuus kävi läpi laajan testauksen, jossa kieliasiantuntijat arvioivat lukuisia eri kielillä käytettäviä tekstejä eri kriteerien perusteella. Testaus perustui [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman esimerkkitietoihin ja muihin kuvitteellisiin tuotekatalogeihin.
 - Tämä ominaisuus on rakennettu Microsoftin Vastuullinen tekoäly -standardin mukaisesti. [Lisätietoja Microsoftin vastuullisesta tekoälystä](https://aka.ms/RAI).
 
-## <a name="how-does-microsoft-monitor-the-quality-of-generated-content"></a>Miten Microsoft seuraa luodun sisällön laatua?
+## Miten Microsoft seuraa luodun sisällön laatua?
 
 Microsoftilla on käytössään useita järjestelmiä, joiden avulla varmistetaan, että Copilot-ominaisuudet pysyvät toiminnassa ja ne luovat mahdollisimman laadukasta sisältöä.
 
@@ -68,7 +68,7 @@ Microsoftilla on käytössään useita järjestelmiä, joiden avulla varmistetaa
 
    Lisätietoja on kohdassa [Azure OpenAI -palvelun tiedot, tietosuoja ja tietoturva](/legal/cognitive-services/openai/data-privacy#abuse-and-harmful-content-generation).
 
-## <a name="is-there-a-logging-and-human-review-process-as-part-of-azure-openai-service-and-if-so-can-i-opt-out"></a>Onko olemassa lokiinkirjaus- ja ihmistarkistusprosessi osana Azure OpenAI Serviceä, ja jos on, voinko kieltäytyä?
+## Onko olemassa lokiinkirjaus- ja ihmistarkistusprosessi osana Azure OpenAI Serviceä, ja jos on, voinko kieltäytyä?  
 
 Osana Azure OpenAI Servicen tarjoamista Microsoft käsittelee ja varastoi palveluun lähetettyjä asiakastietoja sekä tulostussisältöä tarkkaillakseen ja estääkseen palvelun väärinkäyttöä tai haitallisia käyttötarkoituksia tai tuotoksia; ja kehittääkseen, testatakseen ja parantaakseen valmiuksia, joiden avulla estetään palvelun väärinkäyttö ja/tai haitalliset tuotokset. 
 
@@ -76,20 +76,20 @@ Valtuutettu Microsoft-henkilöstö voi tarkastella tietoja, jotka ovat käynnist
 
 Jotta Microsoft suojasi huollon ja sen asiakkaat, lokiin kirjaamista ja tarkastelemista koskevia prosesseja ei voi kieltää.
 
-## <a name="what-data-does-the-capability-collect-how-is-the-data-used"></a>Mitä tietoja ominaisuus kerää? Miten tietoja käytetään?
+## Mitä tietoja ominaisuus kerää? Miten tietoja käytetään?
 
 Markkinointitekstiehdotusten ominaisuus kerää Business Centralin minimitiedot palvelun tarjoamiseksi. Lisätietoja on kohdassa [Dynamics 365:n käyttöehdot Azure OpenAI -pohjaisille ominaisuuksille](https://go.microsoft.com/fwlink/?linkid=2236010).
 
 Ominaisuus kerää tietoja myös palautekäyttäjiltä, jotka voivat käyttää **Copilot**-sivun yläosassa olevia tykkään (peukalo ylös)- tai en tykkää (peukalo alas) -kuvakkeita. Tiedot ovat anonyymeja ja sisältävät valinnan tykkää tai ei tykkää, ei-tykkäämisen syyn, jos se on annettu, ja Copilot-ominaisuuden, jota palaute koskee. Käytämme näitä tietoja ominaisuuden laadun arviointiin ja parantamiseen.
 
-## <a name="what-are-the-limitations-of--how-can-users-minimize-the-impact-of-the-includefeature-marketing-text-suggestions-limitations-when-using-the-system"></a>Mitkä ovat [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] -ohjelman rajoitukset? Miten käyttäjät voivat minimoida [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] -ohjelman rajoitukset, kun he käyttävät järjestelmää?
+## Mitkä ovat [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] -ohjelman rajoitukset? Miten käyttäjät voivat minimoida [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)] -ohjelman rajoitukset, kun he käyttävät järjestelmää?
 
 - Koska ominaisuuden taustalla oleva teknologia käyttää tekoälyä, joka on koulutettu monenlaisilla lähteillä, tuotettu sisältö ei aina ole tosiasiallista tai sopivaa. Joihinkin ehdotuksiin voi sisältyä jopa kyseenalaista tai sopimatonta sisältöä. On sinun vastuullasi tarkistaa ja muokata luotuja ehdotuksia varmistaaksesi, että se on oikea ja sopiva.
 - [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
 
   Epätarkkoja vastauksia saatetaan palauttaa, kun käyttäjät ovat vuorovaikutuksessa järjestelmän kanssa muilla kuin tuetuilla kielillä. Myös virheellinen teksti voi syntyä, kun käyttäjän kieli ja tietokannan perustietokieli [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa eivät ole samoja.
 
-## <a name="what-operational-factors-and-settings-allow-for-effective-and-responsible-use-of-the-system"></a>Mitkä operatiiviset tekijät ja asetukset mahdollistavat järjestelmän tehokkaan ja vastuullisen käytön?
+## Mitkä operatiiviset tekijät ja asetukset mahdollistavat järjestelmän tehokkaan ja vastuullisen käytön?
 
 On olemassa muutamia asioita, joita voit tehdä, jotta saat kaiken irti ominaisuudesta:
 
@@ -104,7 +104,7 @@ Lisätietoja on ohjeaiheessa [Tekstiehdotusten parantaminen ja mukauttaminen](it
 > Tarkista aina tarkkuusehdotukset, ennen kuin tallennat ne ja julkaiset ne yleiseen käyttöön.
 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 - [Markkinointitekstiehdotukset](ai-overview.md)
 

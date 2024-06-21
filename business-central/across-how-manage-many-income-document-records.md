@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="manage-many-incoming-document-records"></a>Useiden saapuvien asiakirjatietueiden hallinta
+# Useiden saapuvien asiakirjatietueiden hallinta
 
 Kun luot tai käsittelet saapuvia asiakirjatietueita, **Saapuvat asiakirjat** -sivun sisältämien rivien määrä voi kasvaa niin paljon, että yleiskuvauksen tarkasteleminen ei enää ole mahdollista. Tämän vuoksi voit määrittää saapuvien asiakirjatietueiden tilaksi *Käsitelty*, kun haluat poistaa ne oletusnäkymästä. Kun valitset **Näytä kaikki** -toiminnon, näkyvillä ovat sekä käsitellyt että käsittelemättömät tietueet.
 
@@ -22,7 +22,7 @@ Kun luot tai käsittelet saapuvia asiakirjatietueita, **Saapuvat asiakirjat** -s
 > [!NOTE]  
 > Kun avaat **Saapuvat asiakirjat** -sivun, jonka Roolikeskuksessa on **Omat saapuvat asiakirjat** -toiminto, oletusarvoisesti näytetään vain käsittelemättömät saapuvat asiakirjatietueet. Sitä kutsutaan tässä ohjeaiheessa "oletusnäkymäksi".
 
-## <a name="to-remove-incoming-document-records-from-the-default-view"></a>Saapuvien asiakirjatietueiden poistaminen oletusnäkymästä
+## Saapuvien asiakirjatietueiden poistaminen oletusnäkymästä
 
 1. Valitse **Saapuvat asiakirjat** -sivulla saapuvista asiakirjatietueista vähintään yksi oletusnäkymästä poistettava rivi.
 2. Valitse **Määritä tilaksi Käsitelty** -toiminto.
@@ -32,13 +32,13 @@ Kun luot tai käsittelet saapuvia asiakirjatietueita, **Saapuvat asiakirjat** -s
 > [!NOTE]  
 > Voit tehdä tämän toiminnon yksittäiselle tietueelle **Saapuvan asiakirjan kortti** -sivulla.
 
-## <a name="to-view-all-incoming-document-records"></a>Saapuvien asiakirjatietueiden tarkasteleminen
+## Saapuvien asiakirjatietueiden tarkasteleminen
 
 1. Valitse **Saapuvat asiakirjat** -sivulla **Näytä kaikki** -toiminto.
 
 Näkyvissä ovat kaikki saapuvat asiakirjatietueet, eli myös ne tietueet, joiden **Käsitelty**-valintaruutua ei ole valittu.
 
-## <a name="to-add-incoming-document-records-to-the-default-view"></a>Saapuvien asiakirjatietueiden lisääminen oletusnäkymään
+## Saapuvien asiakirjatietueiden lisääminen oletusnäkymään
 
 1. Valitse **Saapuvat asiakirjat** -sivulla **Näytä kaikki** -toiminto.
 2. Valitse saapuvista asiakirjatietueista vähintään yksi rivi, jonka haluat näkyvän oletusnäkymässä.
@@ -47,7 +47,7 @@ Näkyvissä ovat kaikki saapuvat asiakirjatietueet, eli myös ne tietueet, joide
 > [!NOTE]  
 > Voit tehdä tämän toiminnon yksittäiselle tietueelle **Saapuvan asiakirjan kortti** -sivulla.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
   
 [Saapuvien asiakirja tietueiden luonti](across-how-create-income-document-records.md)
 [Saapuvien asiakirjatietueiden luominen suoraan asiakirjoista ja tapahtumista](across-how-connect-disconnect-income-document-records.md)

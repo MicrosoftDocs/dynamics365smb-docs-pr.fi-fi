@@ -10,20 +10,20 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="view-test-reports-before-posting"></a>Testiraporttien tarkastelu ennen kirjausta
+# Testiraporttien tarkastelu ennen kirjausta
 Kun olet valmis kirjaamaan asiakirjan, kuten tilauksen, laskun tai hyvityslaskun, voit testata asiakirjan ja varmistaa, ettei kirjausta estäviä ongelmia ole.
 
 > [!NOTE]  
 >   Seuraavassa on tietoja ennen ostoasiakirjan kirjausta tehtävästä testauksesta. Toiminto toimii samalla tavalla myyntiasiakirjoille.
 
-## <a name="to-print-a-test-report-before-posting-a-purchase-invoice"></a>Testiraporttien tulostaminen ennen ostolaskujen kirjausta
+## Testiraporttien tulostaminen ennen ostolaskujen kirjausta
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolaskut** ja valitse sitten vastaava linkki.
 2. Avaa ostolasku, jonka haluat testata.
 3. Valitse **Testiraportti**-toiminto.  
 
 Ohjelma testaa kaikki ostolaskun osat ja esittää tulokset raportissa. Jos raportin mukaan laskussa on virheitä tai tietoja puuttuu, virheet täytyy korjata ennen ostolaskun kirjausta.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Asiakirjojen ja päiväkirjojen kirjaaminen](ui-post-documents-journals.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
