@@ -1,15 +1,15 @@
 ---
-title: Rakennetiedot – uusintatilauskäytäntöjen käsittely
+title: 'Rakennetiedot: uusintatilauskäytäntöjen käsittely'
 description: Tässä on artikkelissa on yleiskatsaus toimitusten suunnittelussa käytettävistä uusintatilauskäytännöistä.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 02/24/2023
+ms.date: 06/12/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-handling-reordering-policies"></a>Rakennetiedot: uusintatilauskäytäntöjen käsittely
+# Rakennetiedot: uusintatilauskäytäntöjen käsittely
 
 Nimike sisällytetään toimitusten suunnitteluun määrittämällä sen uusintatilauskäytäntö **Nimikekortti**-sivulla. Käytettävissä on seuraavat uusintatilauskäytännöt:  
 
@@ -20,43 +20,43 @@ Nimike sisällytetään toimitusten suunnitteluun määrittämällä sen uusinta
 
 **Kiinteä uusintatil. määrä**- ja **Enimmäismäärä**-käytännöt liittyvät varaston suunnitteluun. Nämä käytännöt ovat käytössä samanaikaisesti vaiheittaisten toimitusten ja tilauksen suunnittelun seurannan täsmäytyksen kanssa.  
 
-## <a name="the-role-of-the-reorder-point"></a>Uusintatilauspisteen tehtävä
+## Uusintatilauspisteen tehtävä
 
 Uusintatilauspiste edustaa kysyntää toimitusaikana. Kun varastomäärän arvioidaan alittavan uusintatilauspisteelle määritetyn määrän, on aika tilata lisää. Varasto vähenee vähitellen täydennyksen saapumiseen saakka. Varasto voi vähentyä nollaan tai varmuusvaraston tasolle. Suunnittelujärjestelmä ehdottaa eteenpäin aikataulutettua toimitustilausta kohdassa, jossa varasto alittaa uusintatilauspisteen.  
 
 Varastomäärät voivat vaihdella merkittävästi aikavälin aikana. Suunnittelujärjestelmä seuraa varastoa tämän vuoksi jatkuvasti.
 
-## <a name="monitoring-the-projected-inventory-level-and-the-reorder-point"></a>Suunnitellun varastomäärän ja uusintatilauspisteen seuranta
+## Suunnitellun varastomäärän ja uusintatilauspisteen seuranta
 
 Varasto on tarjonnan tyyppi mutta varaston suunnittelussa suunnittelujärjestelmä erottaa kaksi varastotasoa:  
 
 * Suunniteltu varasto  
 * Oletettu saatavilla oleva varasto  
 
-### <a name="projected-inventory"></a>Suunniteltu varasto
+### Suunniteltu varasto  
 
 Suunnitteluprosessin alussa suunniteltu varasto on varaston bruttomäärä. Bruttomäärä sisältää aiemman kirjatun ja kirjaamattoman kysynnän ja tarjonnan. Tästä määrästä tulee suunniteltu varastomäärä, jota ylläpidetään tulevan kysynnän ja tarjonnan bruttomäärien avulla. Tuleva kysyntä ja tarjonta otetaan käyttöön aikajanalla, jossa se on joko varattu tai kohdistettu muilla tavoin.  
 
 Suunnittelujärjestelmä seuraa suunnitellun varaston avulla uusintatilauspistettä ja määrittää uusintatilausmäärän **Enimmäismäärä**-uusintatilauskäytännön avulla.  
 
-### <a name="projected-available-inventory"></a>Oletettu saatavilla oleva varasto
+### Oletettu saatavilla oleva varasto  
 
 Oletettu saatavilla oleva varasto on varasto, joka on tiettyyn aikaan saatavilla kysynnän täyttämistä varten. Suunnittelujärjestelmä käyttää oletettua saatavilla olevaa varastoa varmuusvaraston tason seurantaan. Varmuusvarastoa on oltava aina saatavilla odottamatonta kysyntää varten.  
 
-### <a name="time-buckets"></a>Aikavälit
+### Aikavälit  
 
 Suunniteltu varasto on tärkeä uusintatilauspisteen tunnistamisessa sekä oikean tilausmäärän laskemisessa **Enimmäismäärä**-uusintatilauskäytäntöä käytettäessä.  
 
 Suunniteltu varastomäärä lasketaan suunnittelujakson alussa. Se on bruttotaso, joka ei ota huomioon varauksia tai muita kohdistuksia. Suunniteltujärjestelmä seuraa tätä varastomäärää suunnittelujakson aikana seuraamalla tietyn ajan aikana koottuja muutoksia. Tätä jatkoa kutsutaan *aikaväliksi*. Lisätietoja aikaväleistä on kohdassa [Aikavälin rooli](#the-role-of-the-time-bucket). Suunnittelujärjestelmä varmistaa, että aikaväli on vähintään yksi päivä. Yksi päivä on kysyntä- tai tarjontatapahtumien vähimmäisaika.  
 
-### <a name="determining-the-projected-inventory-level"></a>Suunnittelun varastomäärän määrittäminen
+### Suunnittelun varastomäärän määrittäminen  
 
 Seuraavaksi käsitellään tapaa, jolla suunnittelujärjestelmä määrittää suunnitellun varastomäärän:  
 
 * Kun tarjontatapahtuma, kuten ostotilaus, on kokonaan suunniteltu, se kasvattaa suunniteltua varastoa tapahtuman eräpäivänä.  
 * Kokonaan täytetty kysyntätapahtuma ei vähennä suunniteltua varastoa heti. Se kirjaa sen sijaan vähennysmuistutuksen eli sisäisen tietueen, joka sisältää päivämäärän ja suunniteltuun varastoon lisättävän määrän.  
 * Kun tarjontatapahtuma suunnitellaan ja lisätään aikajanalle myöhemmin, järjestelmä tarkistaa suunnitellulle toimituspäivälle kirjatut vähennysmuistutukset yksi kerrallaan. Tämän prosessin aikana sisäisen lisäysmuistutuksen uusintatilaustaso saatetaan saavuttaa tai ylittää.  
-* Jos uusi toimitustilaus otetaan käyttöön, se tarkistaa, onko se syötetty ennen nykyistä tarjousta. Jos näin on, uudesta tarjonnasta tulee nykyinen tarjonta ja täsmäytys käynnistyy uudelleen.  
+* Kun uusi toimitustilaus otetaan käyttöön, se tarkistaa, onko se syötetty ennen nykyistä tarjousta. Jos näin on, uudesta tarjonnasta tulee nykyinen tarjonta ja täsmäytys käynnistyy uudelleen.  
 
 Seuraavassa kuvassa käytetään tätä periaatetta.  
 
@@ -78,7 +78,7 @@ Seuraavassa kuvassa käytetään tätä periaatetta.
 8. Suunnittelujärjestelmä lisää vähennysmuistutuksen (-3) suunniteltuun varastomäärään seuraavasti: A: +4 -3 = 1 tai B: +6 -3 = +3.  
 9. Tapauksessa A suunnittelujärjestelmä luo eteenpäin aikataulutetun tilauksen, jonka aloituspäivämäärä on **Da**. Tapauksessa B uusintatilauspiste on saavutettu ja uusi tilaus luodaan.
 
-## <a name="the-role-of-the-time-bucket"></a>Aikavälin tehtävä
+## Aikavälin tehtävä
 
 Aikavälin tarkoitus on kerätä kysyntätapahtumia ajanjakson sisällä, jotta yhteinen toimitustilaus voidaan tehdä.  
 
@@ -92,7 +92,7 @@ Aikavälikäsite vastaa varastomäärän manuaalisesti tehtävää säännöllis
 
 Aikavälejä käytetään usein limittäisyyden välttämiseksi. Esimerkiksi täsmäytetty kysynnän ja tarjonnan rivi, jossa aikainen kysyntä on peruutettu tai uusi luodaan. Tuloksena on, että jokainen toimitustilaus (paitsi viimeisin) aikataulutetaan uudelleen.
 
-## <a name="stay-below-the-overflow-level"></a>Sallitun ylityksen alapuolella pysyminen
+## Sallitun ylityksen alapuolella pysyminen
 
 **Enimmäismäärä**- ja **Kiinteä uusintatil. määrä** -uusintatilauskäytäntöjä käytettäessä suunnittelujärjestelmä keskittyy suunniteltuun varastoon vain annetulla aikavälillä. On mahdollista, että lisätarjontaa ehdotetaan, kun aikavälin ulkopuolella tapahtuu negatiivisia kysynnän tai positiivisia tarjonnan muutoksia. Lisätarjontaa varten suunnittelujärjestelmä laskee määrän, jolla tarjontaa on vähennettävä. Tätä määrää kutsutaan ylivuototasoksi. Ylitys on käytettävissä suunnittelurivinä, jossa on **Muuta määrä (vähennys)**- tai **Peruuta**-toiminto ja seuraava varoitus:  
 
@@ -100,11 +100,11 @@ Aikavälejä käytetään usein limittäisyyden välttämiseksi. Esimerkiksi tä
 
 ![Varaston sallittu ylitys.](media/supplyplanning_2_overflow1_new.png "Varaston sallittu ylitys")  
 
-### <a name="calculating-the-overflow-level"></a>Sallitun ylityksen laskeminen
+### Sallitun ylityksen laskeminen  
 
 Sallittu ylitys lasketaan eri tavoin uusintatilauskäytännön mukaan.  
 
-#### <a name="maximum-qty"></a>Enimmäismäärä
+#### Enimmäismäärä
 
 Sallittu ylitys = enimmäisvarasto  
 
@@ -113,7 +113,7 @@ Sallittu ylitys = enimmäisvarasto
 >
 > sallittu ylitys = enimmäisvarasto + vähimmäistilausmäärä.  
 
-#### <a name="fixed-reorder-qty"></a>Kiinteä uusintatil. määrä
+#### Kiinteä uusintatil. määrä  
 
 sallittu ylitys = uusintatilausmäärä + uusintatilauspiste  
 
@@ -122,15 +122,15 @@ sallittu ylitys = uusintatilausmäärä + uusintatilauspiste
 >
 > sallittu ylitys = uusintatilausmäärä + vähimmäistilausmäärä  
 
-#### <a name="order-multiple"></a>Tilauskerrannainen
+#### Tilauskerrannainen  
 
 Jos tilauskerrannainen on olemassa, se säätää sekä enimmäismäärän että kiinteän uusintatilausmäärän uusintatilauskäytännön sallittua ylitystä.  
 
-### <a name="creating-the-planning-line-with-an-overflow-warning"></a>Ylitysvaroituksen sisältävän suunnittelurivin luominen
+### Ylitysvaroituksen sisältävän suunnittelurivin luominen  
 
 Suunnittelurivi luodaan, kun suunniteltu varasto on aikavälin lopussa tarjonnan vuoksi suurempi kuin sallittu ylitys. Ylimääräisestä tarjonnasta varoitettaessa suunnittelurivillä on varoitussanoma, **Hyväksy toimenpideviesti** -kenttää ei ole valittu ja toimenpidesanoma on joko **Peruuta** tai **Muuta määrä**.  
 
-#### <a name="calculating-the-planning-line-quantity"></a>Suunnittelurivin määrän laskeminen
+#### Suunnittelurivin määrän laskeminen  
 
 Suunnittelurivillä oleva määrä lasketaan seuraavasti:
 
@@ -139,12 +139,12 @@ suunnittelurivin määrä = nykyisen tarjonnan määrä – (suunniteltu varasto
 > [!NOTE]  
 > Kaikkien muiden varoitusrivien tavoin tilauksen enimmäis- ja vähimmäismäärät sekä tilauskerrannainen ohitetaan.  
 
-#### <a name="defining-the-action-message-type"></a>Toimenpidesanoman tyypin määrittäminen
+#### Toimenpidesanoman tyypin määrittäminen  
 
 * Jos suunnittelurivin määrä on suurempi kuin 0, toimenpidesanoma on **Muuta määrä.**  
 * Jos suunnittelurivin määrä on yhtä suuri tai pienempi kuin 0, toimenpidesanoma on **Peruuta**  
 
-#### <a name="composing-the-warning-message"></a>Varoitussanoman luominen
+#### Varoitussanoman luominen  
 
 Ylivuototilanteessa **Ei-seuratut suunnitteluelementit** -sivulla on varoitussanoma, jossa on seuraavat tiedot:  
 
@@ -154,28 +154,28 @@ Ylivuototilanteessa **Ei-seuratut suunnitteluelementit** -sivulla on varoitussan
 
 Esimerkki: Suunniteltu varasto 120 on suurempi kuin sallittu ylitys 60 kohteessa 01-28-23.  
 
-### <a name="example-scenario"></a>Esimerkkiskenaario
+### Esimerkkiskenaario  
 
 Tässä tilanteessa asiakas muuttaa myyntitilauksen arvosta 70 kappaletta arvoksi 40 kappaletta suunnitteluajojen välillä. Ylitystoiminto vähentää ostoa, jota ehdotettiin alkuperäiselle myyntimäärälle.  
 
-#### <a name="item-setup"></a>Nimikkeen asetus
+#### Nimikkeen asetus  
 
 |Uusintatilaustapa|Enimmäismäärä|  
 |-----------------------|------------------|  
 |Enimmäistilausmäärä|100|  
 |Uusintatilauspiste|50|  
-|Varasto|80|  
+|Vaihto-omaisuus|80|  
 
-#### <a name="situation-before-a-sales-decrease"></a>Tilanne ennen myynnin vähenemistä
+#### Tilanne ennen myynnin vähenemistä  
 
-|Tapahtuma|Muuta määrä|Suunniteltu varasto|  
+|Tapahtuma|Muuta määrää|Suunniteltu varasto|  
 |-----------|-----------------|-------------------------|  
 |Yksi päivä|Ei mitään|80|  
 |Myynti|-70|10|  
 |Aikavälin loppu|Ei mitään|10|  
 |Ehdota uutta ostopalautustilausta|+90|100|  
 
-#### <a name="situation-after-sales-decrease"></a>Tilanne myynnin vähenemisen jälkeen
+#### Tilanne myynnin vähenemisen jälkeen  
 
 |Vaihtoraha|Muuta määrä|Suunniteltu varasto|  
 |------------|-----------------|-------------------------|  
@@ -185,7 +185,7 @@ Tässä tilanteessa asiakas muuttaa myyntitilauksen arvosta 70 kappaletta arvoks
 |Aikavälin loppu|Ei mitään|130|  
 |Ehdotus tilauksen pienentämiseksi<br><br> tilaus arvosta 90 arvoon 60|-30|100|  
 
-#### <a name="resulting-planning-lines"></a>Tuloksena olevat suunnittelurivit
+#### Tuloksena olevat suunnittelurivit  
 
 Järjestelmä luo varoitussuunnittelurivin vähentämään ostoa 30 yksiköllä 90 yksiköstä 60 yksikköön, jotta suunniteltu varasto pysyy 100 yksikössä sallitun ylityksen mukaisesti.  
 
@@ -194,7 +194,7 @@ Järjestelmä luo varoitussuunnittelurivin vähentämään ostoa 30 yksiköllä 
 > [!NOTE]  
 > Jos ylitystoiminta ei ole, varoitusta ei luoda suunnitellun varastomäärän ylittäessä enimmäismäärän, minkä seurauksena voi olla 30 yksikön ylitarjonta.
 
-## <a name="handling-projected-negative-inventory"></a>Suunnitellun negatiivisen varaston käsittely
+## Suunnitellun negatiivisen varaston käsittely
 
 Jälkitilauspiste ilmaisee ennakkokysynnän nimikkeen läpimenoajan aikana. Suunnittelun varaston on oltava riittävän suuri kattamaan kysyntä uuden tilauksen vastaanottamiseen saakka. Tänä aikana varmuusvaraston tulisi huolehtia kysynnän vaihteluista palvelun kohdetasolle asti.  
 
@@ -228,11 +228,11 @@ Seuraavassa kuvassa tarjonta D vastaa negatiivisen varaston oikaisevaa hätätil
 
 Seuraavassa osassa kuvataan neljän tuetun jälkitilausohjeen ominaisuudet.
 
-## <a name="reordering-policies"></a>Uusintatilauskäytännöt
+## Uusintatilauskäytännöt
 
 Uusintatilausohjeet määrittävät sen, kuinka paljon tilataan, kun nimikkeitä tarvitaan lisää. Käytössä on neljä erilaista uusintatilaustapaa.  
 
-### <a name="fixed-reorder-quantity"></a>Kiinteä uusintatilausmäärä
+### Kiinteä uusintatilausmäärä
 
 Kiinteän uusintatilausmäärän käytäntöä käytetään yleensä, kun varastosuunnittelun kohteena olevilla nimikkeillä on seuraavat ominaisuudet:
 
@@ -242,7 +242,7 @@ Kiinteän uusintatilausmäärän käytäntöä käytetään yleensä, kun varast
 
 Tätä käytäntöä käytetään yleensä silloin, kun uusintatilauspiste vastaa odotettua kysyntää nimikkeen toimitusajan aikana.  
 
-#### <a name="calculated-per-time-bucket"></a>Laskettu aikavälikohtaisesti
+#### Laskettu aikavälikohtaisesti  
 
 Jos uusintatilauspiste saavutetaan tai ylitetään aikavälillä (uusintatilausvälillä), järjestelmä ehdottaa kahta toimenpidettä:
 
@@ -251,7 +251,7 @@ Jos uusintatilauspiste saavutetaan tai ylitetään aikavälillä (uusintatilausv
 
 Aikavälin uudelleentilauspiste vähentää tarjontaehdotusten määrää. Se vastaa prosessia, jossa varaston varastopaikkojen todellinen sisältö tarkistetaan manuaalisesti.  
 
-#### <a name="creates-only-necessary-supply"></a>Vain tarvittavan tarjonnan luonti
+#### Vain tarvittavan tarjonnan luonti  
 
 Suunnittelujärjestelmä tarkistaa seuraavat tarjonnan osalta ennen uudelleentilauspistettä vastaavan uuden toimitustilauksen ehdottamista:
 
@@ -262,7 +262,7 @@ Järjestelmä ei ehdota uutta toimitustilausta, jos tarjonta tuo suunnittelun va
 
 Nimenomana uusintatilauspisteeseen kohdistuvat toimitustilaukset jätetään tarjonnan täsmäytyksen ulkopuolelle, eikä niitä muuteta. Jos uudelleentilauspisteen sisältävä nimike halutaan poistaa vähitellen käytöstä, avoimet toimitustilaukset on tarkistettava manuaalisesti tai uusintatilauskäytännöksi on vaihdetta **Erä-erästä**. Järjestelmä vähentää tai peruuttaa ylimääräisen tarjonnan.  
 
-#### <a name="combines-with-order-modifiers"></a>Yhdistää tilausmääritteiden kanssa
+#### Yhdistää tilausmääritteiden kanssa  
 
 Vähimmäistilausmäärä, enimmäistilausmäärä ja tilauskerrannainen ovat tilausmääritteitä, joilla ei pitäisi olla merkittävää vaikutusta kiinteän uusintatilausmäärän käytäntöä käytettäessä. Suunnittelujärjestelmä ottaa ne kuitenkin huomioon:
 
@@ -270,27 +270,27 @@ Vähimmäistilausmäärä, enimmäistilausmäärä ja tilauskerrannainen ovat ti
 * Tilauksen kasvattaminen määritettyyn vähimmäistilausmäärään.
 * Tilausmäärän pyöristäminen määritettyä tilauskerrannaista vastaavaksi.  
 
-#### <a name="combines-with-calendars"></a>Yhdistäminen kalentereihin
+#### Yhdistäminen kalentereihin  
 
 Ennen kuin suunnittelujärjestelmä ehdottaa uusintatilauspistettä vastaavaa uutta toimitustilausta, se tarkistaa, onko tilaus aikataulutettu muulle kuin työpäivälle. Se käyttää kalenteria, joka määritetään **Yritystiedot**- ja **Sijaintikortti**-sivujen **Peruskalenterin koodi** -kentässä.  
 
 Jos aikataulutettu päivämäärä ei ole työpäivä, suunnittelujärjestelmä siirtää tilauksen seuraavaan työpäivään. Päivämäärän siirtäminen voi johtaa tilaukseen, joka täyttää uusintatilauspisteen mutta ei täytä tiettyä kysyntää. Suunnittelujärjestelmä luo ylimääräisen tarjonnan vastaamaan epätasapainoiseen kysyntään.  
 
-#### <a name="shouldnt-be-used-with-forecasts"></a>Ei tule käyttää ennusteen kanssa
+#### Ei tule käyttää ennusteen kanssa  
 
 Koska oletettu kysyntä on jo ilmaistu uusintatilauspisteen tasolla, ennustetta ei tarvitse sisällyttää suunnitteluun. Jos suunnitelman on syytä pohjautua ennusteeseen, käytettävissä on **Erä-erästä**-käytäntö.  
 
-#### <a name="must-not-be-used-with-reservations"></a>Ei tule käyttää varausten kanssa
+#### Ei tule käyttää varausten kanssa  
 
 Jos esimerkiksi varastossa oleva määrä on varattu kaukana tulevaisuudessa olevaa kysyntää varten, suunnittelun perusta voi häiriintyä. Vaikka oletettu saatavilla oleva varasto on hyväksyttävä suhteessa uusintatilauspisteeseen, määrät eivät ehkä ole käytettävissä varauksen vuoksi. Järjestelmä voi yrittää korjata tilannetta luomalla poikkeustilauksia. Sellaisten nimikkeiden **Varaa**-kentän arvoksi kannattaa määrittää **Ei koskaan**, jotka on suunniteltu käyttämällä uusintatilauspistettä.
 
-### <a name="maximum-quantity"></a>Enimmäismäärä
+### Enimmäismäärä
 
 Maksimimääräohjeet on tapa ylläpitää varastoa käyttämällä jälkitilauspistettä.  
 
 Kaikki kiinteää uusintatilausmäärän käytäntöä koskeva koskee myös tätä käytäntöä. Ainoa ero on ehdotetun tarjonnan määrä. Enimmäismääräkäytäntöä käytettäessä uusintatilausmäärä määritetään dynaamisesti suunnitellun varastomäärän perusteella. Tämän vuoksi se yleensä vaihtelee tilauskohtaisesti.  
 
-#### <a name="calculate-per-time-bucket"></a>Laskettu aikavälikohtaisesti
+#### Laskettu aikavälikohtaisesti
 
 Kun uudelleentilauspiste saavutetaan tai ylitetään, järjestelmä määrittää uudelleentilausmäärän aikavälin päättyessä. Se mittaa tämän hetkisen varastomäärän ja määritetyn enimmäismäärän välisen eron sekä määrittää näin tilattavan määrän. Sen jälkeen järjestelmä tarkistaa seuraavat:
 
@@ -301,21 +301,21 @@ Siinä tapauksessa järjestelmä vähentää uuden toimitustilauksen määrää 
 
 Jos varaston enimmäismäärää ei määritetä, suunnittelujärjestelmä varmistaa, että suunniteltu varasto saavuttaa uudelleentilausmäärän.
 
-#### <a name="combine-with-order-modifiers"></a>Yhdistäminen tilausmääritteiden kanssa
+#### Yhdistäminen tilausmääritteiden kanssa
 
-Määritysten mukaan saattaa on järkevintä yhdistää enimmäismääräkäytäntö muihin tilausmääritteisiin: 
+Määritysten mukaan saattaa on järkevintä yhdistää enimmäismääräkäytäntö muihin tilausmääritteisiin:
 
 * Vähimmäistilausmäärän varmistaminen
 * Määrän pyöristäminen oston mittayksikön kokonaislukuun
 * Määrän jakaminen enimmäistilausmäärän määrittämiin eriin  
 
-### <a name="combine-with-calendars"></a>Yhdistäminen kalentereihin
+### Yhdistäminen kalentereihin
 
 Ennen kuin suunnittelujärjestelmä ehdottaa uusintatilauspistettä vastaavaa uutta toimitustilausta, se tarkistaa, onko tilaus aikataulutettu muulle kuin työpäivälle. Se käyttää kalenteria, joka määritetään **Yritystiedot**- ja **Sijaintikortti**-sivujen **Peruskalenterin koodi** -kentässä.  
 
 Jos aikataulutettu päivämäärä ei ole työpäivä, suunnittelujärjestelmä siirtää tilauksen seuraavaan työpäivään. Päivämäärän siirtäminen voi johtaa tilaukseen, joka täyttää uusintatilauspisteen mutta ei täytä tiettyä kysyntää. Suunnittelujärjestelmä luo ylimääräisen tarjonnan vastaamaan epätasapainoiseen kysyntään.
 
-### <a name="order"></a>Järjestys
+### Järjestys
 
 Tilausohjautuvassa ympäristössä nimike ostetaan tai tuotetaan kattamaan tietty kysyntä. Tilauksen uusintatilauskäytäntöä käytetään nimikkeissä, joilla on seuraavat ominaisuudet:
 
@@ -331,11 +331,11 @@ Tilausohjautuvassa ympäristössä nimike ostetaan tai tuotetaan kattamaan tiett
 > [!TIP]
 > Jos nimikemääritteet eivät vaihtele, paras vaihtoehto voi olla Erä-erästä-uudelleentilauskäytäntö. Tämän vuoksi järjestelmä käyttää suunnittelematonta varastoa ja kasvattaa vain myyntitilauksia, joilla on sama toimituspäivämäärä tai jotka ovat määritetyllä aikavälillä.  
 
-#### <a name="order-to-order-links-and-past-due-dates"></a>Tilausten väliset linkit ja erääntyneet määräpäivät
+#### Tilausten väliset linkit ja erääntyneet määräpäivät
 
 Toisin kuin useimmat tarjonta- ja kysyntäjoukot, järjestelmä suunnittelee kokonaan linkitetyt tilaukset, joiden eräpäivä on ennen suunnittelun alkupäivämäärää. Tämän poikkeuksen syynä on se, että tietyt kysyntä- ja tarjontajoukot on synkronoitava. Lisätietoja useimmissa kysyntä- ja tarjontatyypeissä käytettävästä jäädytetystä alueesta on kohdassa [Suunnittelun aloituspäivämäärää edeltävien tilausten käsitteleminen](design-details-balancing-demand-and-supply.md#process-orders-before-the-planning-start-date).
 
-### <a name="lot-for-lot"></a>Erä-erästä
+### Erä-erästä
 
 Erä-erästä on joustavin käytäntö, sillä järjestelmä reagoi vain toteutuneeseen kysyntään. Se toimii ennusteiden ja puitetilausten odotetun kysynnän perusteella ja ratkaisee sitten tilausmäärän kysynnän perusteella. Käytäntö on tarkoitettu nimikkeille, joissa varasto voidaan hyväksyä, joskin sitä pitäisi välttää.  
 
@@ -347,7 +347,7 @@ Aikaväli rajoittaa myös sitä, milloin toimitustilaus on ajoitettava uudelleen
 
 Tämän käytännön avulla voidaan määrittää varmuusvarasto kompensoimaan tarjonnan muutoksia tai äkillisen kysynnän täyttämistä. Erä-erästä-käytäntö voi sisältää myös puskuriajan ja puskurin määrän vähentääkseen tilausten ajoitusta.  
 
-Yhdessä **Uudelleenajoitusjakso**-kentän kanssa **Erän koontijakso** -kenttä auttaa määrittämään uudelleenjärjestelyjakson. Kaikki kysynnät kootaan ensimmäisen kysynnän päivämäärästä alkaen seuraavaan erän koontijaksoon yhteen toimitustilaukseen ensimmäisen kysynnän päivämääränä. Toimitustilaus ei kata kysyntää, joka on erän kertymisajan ulkopuolella.
+Yhdessä **Uudelleenajoitusjakso**-kentän kanssa **Erän koontijakso** -kenttä auttaa määrittämään uudelleenjärjestelyjakson. Järjestelmä kokoaa kaikki kysynnät ensimmäisen kysynnän päivämäärästä alkaen seuraavaan erän koontijaksoon yhteen toimitustilaukseen ensimmäisen kysynnän päivämääränä. Toimitustilaus ei kata kysyntää, joka on erän kertymisajan ulkopuolella.
 
 Koska toimitustilauksen määrä perustuu todelliseen kysyntään, tilausmääritteitä kannattaa käyttää:
 
@@ -355,7 +355,7 @@ Koska toimitustilauksen määrä perustuu todelliseen kysyntään, tilausmääri
 * Tilauksen kasvattaminen määritettyyn vähimmäistilausmäärään.
 * Määrän vähentäminen määritettyyn enimmäistilausmäärään (ja näin vähintään kahden toimituksen luominen tarvittavan kokonaismäärän saavuttamiseksi)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 
 [Rakennetiedot: suunnittelun parametrit](design-details-planning-parameters.md)  
 [Rakennetiedot: suunnittelun kohdistustaulukko](design-details-planning-assignment-table.md)  

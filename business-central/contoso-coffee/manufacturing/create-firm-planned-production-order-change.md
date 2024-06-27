@@ -6,19 +6,20 @@ ms.topic: article
 ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
+ms.reviewer: bholtorf
 ---
 
-# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a>Vaihekuvaus: Luo sitovasti suunniteltu tuotantotilaus muuta sitä
+# Vaihekuvaus: Luo sitovasti suunniteltu tuotantotilaus muuta sitä
 
 Tässä artikkelissa on tietoja Contoso Coffee -esittelyn tietojen käytöstä tuotantotilausten suhteen.  
 
-## <a name="scenario"></a>Esimerkkitilanne
+## Esimerkkitilanne
 
 Contoso Coffeen tuotantosuunnittelijan Eduardon on luotava uusi tuotantotilaus 10 yksikölle nimikkeelle **SP-SCM1009, Airpot**, jonka täytyy olla valmis 28. huhtikuuta. Eduardo taaksepäin aikatauluttaa tämän ja vahvistaa, että he voivat aloittaa tilauksen 27. huhtikuuta.  
 
 Pian tämän tehtävän päätyttyä Eduardoa pyydetään kasvattamaan tilausta 50 yksikköön. Tätä suoritettaessa taaksepäin aikataulutustoiminto siirtää tilauksen aloituspäivämäärän liian aikaiseen. Joten Eduardo eteenpäin aikatauluttaa tilauksen 23. huhtikuuta eteenpäin määrittääkseen realistisemman päättymispäivämäärän.  
 
-## <a name="steps"></a>Vaiheet
+## Vaiheet
 
 1. Luo alkuperäinen tuotantotilaus **SP-SCM1009, Airpot** -nimikkeen 10 yksikölle.
 
@@ -58,6 +59,6 @@ Pian tämän tehtävän päätyttyä Eduardoa pyydetään kasvattamaan tilausta 
 
 Uusi tuotantotilaus on nyt määritetty, ja Eduardon vaatimukset täyttyvät.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Johdatus Contoson kahvidemotietoihin](../contoso-coffee-intro.md)  

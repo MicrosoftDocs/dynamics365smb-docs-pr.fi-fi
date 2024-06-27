@@ -5,37 +5,32 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/14/2024
+ms.date: 06/13/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
 # Luetteloiden tietojen analysointi Copilotin avulla (esiversio)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Tässä artikkelissa käsitellään luettelosivujen tietojen analysointia *analyysiavustajan* avulla.
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Tietoja analyysiavustajasta
 
 Analyysiavustaja on Business Centralin luettelosivujen [analyysitilan](analysis-mode.md) Copilot. Tämä analyysitila mahdollistaa vuorovaikutteisen ja monipuolisen tavan laskea, tiivistää ja tarkastella tietoja. Analysoidessa tietoja analyysitilassa luodaan *analyysin* välilehti, jossa tiedot muunnetaan näyttämään toivotut koosteet ja yhteenvedot. Kentät voidaan esimerkiksi järjestää riveiksi ja sarakkeiksi, suodattimet määrittää, sarakkeet lajitella ja kenttiä käyttää pivot-toimintona. Analyysiavustajan avulla tätä tehtävää ei tarvitse tehdä manuaalisesti vaan samaan (tai ainakin alkuun) päästään käyttämällä sanoja. Toivottu rakenne ilmaistaan luonnollisella kielellä, kuten lajittele määrä pienimmästä suurimpaan tai näytä keskimääräinen kustannus luokkakohtaisesti, ja analyysiavustaja käyttää tekoälyä luomaan ehdotetun asettelun analyysivälilehteen.
 
+## Käytettävissä olevat kielet
 
-<!-- 
+[!INCLUDE[analysis-assist-language-support](includes/analysis-assist-language-support.md)]
 
- However, the data analysis mode requires some understanding of how to structure fields to meet the desired aggregations and summarizations. It requires you to move fields around to the appropriate areas within analysis mode pane which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals. Analysis assist minimizes these requirments by enabling you to express the desired layout in words. , like "group which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals
---> 
 ## Vaatimukset
 
 - Analyysiavustajaominaisuus on aktivoitu ja sen käyttöoikeus on myönnetty. Tämä tehtävän suorittaa yleensä järjestelmänvalvoja. [Lisätietoja Copilotin ja tekoälyominaisuuksien määrittämisestä](enable-ai.md).
-- Business Centralin näyttökieleksi on määritetty jokin seuraavista englannin kielialueista: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Lisätietoja kielen vaihtamisesta](ui-change-basic-settings.md#language).
-- Business Central -ympäristö on jossain muussa maassa tai muulla alueella kuin Kanadassa. (Tämä ominaisuus ei ole vielä saatavana Kanadassa.)
-
-<!--
-> [!NOTE]
-> You may notice some list pages that don't include the **Analyze** switch for changing to the analysis mode. The reason is that developers can disable analysis mode on specific pages by using the [AnalysisModeEnabled property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.-->
+<!-- - The display language in Business Central is set to one the following English locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Learn how to change the language](ui-change-basic-settings.md#language)-->
+<!-- - Your Business Central environment is in any country/region except Canada (this feature isn't yet available in Canada).-->
 
 ## Aloittaminen
 
@@ -48,7 +43,7 @@ Analyysiavustaja on Business Centralin luettelosivujen [analyysitilan](analysis-
     - Valitse sivun yläosan toimintopalkissa ![Näkyvissä avustajakuvake](media/copilot-icon.png) **Copilot** > **Analysoi luettelo**.
     - Valitse sivun yläosan toimintopalkissa ![Näkyvissä analyysitilaan siirtymiskuvake](media/analysis-mode-icon.png) **Siirry analyysitilaan** ja valitse sitten ![Näkyvissä avustajakuvake](media/copilot-icon.png) **Copilot** > **Luo uusi analyysi**.
 
-1. Kirjoita **Analysoi** Copilotin avulla -ikkunaan toivotun asettelu kuvaus. Tätä Kuvausta kutsutaan *kehotteeksi*.
+1. Kirjoita **Analysoi nimikkeitä** Copilotin avulla -ikkunaan toivotun asettelu kuvaus. Tätä Kuvausta kutsutaan *kehotteeksi*.
 
     ![Näkyvissä analyysiavustajan Copilot](media/analysis-assist.png)
 
@@ -87,7 +82,7 @@ Seuraavissa kehote-esimerkeissä käytetään analyysiavustajaa **Nimikkeet**-lu
 
 Kehote: `Show items by brand and unit of measure`
 
-Tämä kehote yrittää näyttää kaikkien yhteenlaskettavien kenttien yhteissummat brändin ja **Perusmittayksikkö**-kentän mukaan ryhmiteltynä. Tässä tapauksessa brändi ei vastaa minkään kentän nimeä, joten Copilot ei todennäköisesti löydä vastaavaa kenttää, joten se pyytää muotoilemaan kehotteen uudelleen ja yrittämään uudelleen.
+Tämä kehote yrittää näyttää kaikkien yhteenlaskettavien kenttien yhteissummat brändin ja **Perusmittayksikkö**-kentän mukaan ryhmiteltynä. Tässä tapauksessa brändi ei vastaa minkään kentän nimeä, joten Copilot ei todennäköisesti löydä vastaavaa kenttää. Sen jälkeen ohjelma pyytää muotoilemaan kehotteen uudelleen ja yrittämään uudelleen.
 
 Kehote: `Show items by type and uom`
 

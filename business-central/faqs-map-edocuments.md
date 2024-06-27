@@ -12,15 +12,15 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="faq-for-mapping-e-documents-with-purchase-orders-using-copilot-preview"></a>Usein kysyttyjä kysymyksiä sähköisten asiakirjojen yhdistämisestä ostotilauksiin Copilotin avulla (esiversio)
+# Usein kysyttyjä kysymyksiä sähköisten asiakirjojen yhdistämisestä ostotilauksiin Copilotin avulla (esiversio)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Nämä usein kysytyt kysymykset käsittelevät tekoälyn vaikutusta [!INCLUDE [prod_short](includes/prod_short.md)]in **Sähköisen asiakirjan kohdistusapuri**.
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## <a name="what-is-e-documents-matching-assistance"></a>Mikä on sähköisten asiakirjojen kohdistusapuri?
+## Mikä on sähköisten asiakirjojen kohdistusapuri?
 
 Modernit liiketoimintatapahtumat ohjautuvat sähköisiin asiakirjoihin. Ne ovat keskeisiä dokumentteja, kuten laskuja ja kuitteja, jotka siirtävät kaksisuuntaisesti toimituksen ja vastaanoton välillä. Sähköisiä laskuja voidaan luoda ja lähettää digitaalisesti jäsennetyssä muodossa, joka helpottaa automaattista laskujen käsittelyä. Saapuvien digitaalisten laskujen käsittely voi kuitenkin olla haasteellista ostoreskontratiimeille.  
 
@@ -30,7 +30,7 @@ Pienissä ja keskisuurissa yrityksissä (PK-yrityksissä) ostoreskontratiimin me
 
 **Sähköisen asiakirjan kohdistusapuri** käyttää generatiivista tekoälyä sujuvoittamaan tätä prosessia automatisoimalla ulkoisten sähköisten laskujen analyysia. Ominaisuus antaa kirjanpitäjille mahdollisuuden pyytää Copilotia täsmäyttämään saapuvien sähköisten laskujen rivit ja ostotilausten rivit [!INCLUDE [prod_short](includes/prod_short.md)]issa.
 
-## <a name="what-are-capabilities-of-the-e-documents-matching-assistance"></a>Mitä ominaisuuksia sähköisten asiakirjojen kohdistusapurissa on?
+## Mitä ominaisuuksia sähköisten asiakirjojen kohdistusapurissa on?
 
 Copilotin ansiosta käytössä tekoälypohjaista avustusta kohdistettaessa vastaanotettu digitaalinen lasku aiemmin luotuihin ostotilauksiin [!INCLUDE [prod_short](includes/prod_short.md)]issa. Copilot kohdistaa rivit seuraavien perusteella:
 
@@ -43,11 +43,11 @@ Copilot tunnistaa samankaltaiset kuvaukset, jos niissä on oikeat mittayksiköt 
 
 Copilot ei yhdistä sähköisiä asiakirjoja päätepistepalveluun digitaalisten tositteiden noutoa tai lähettämistä varten. Tämä tehtävä pysyy täysin käyttäjän hallinnassa ja on edellytys Copilotin hyödyntämiseen. Näin toimitaan riippumatta siitä, onko digitaaliset asiakirjat lisätty [!INCLUDE [prod_short](includes/prod_short.md)]iin käyttämällä päätepistepalvelun yhteyttä tai syöttämällä manuaalisesti.  
 
-## <a name="what-is-the-intended-use-of-the-e-documents-matching-assistance"></a>Mikä on sähköisten asiakirjojen kohdistusapurin käyttötarkoitus?
+## Mikä on sähköisten asiakirjojen kohdistusapurin käyttötarkoitus?  
 
 **Sähköisen asiakirjan kohdistusapuri** -ominaisuuden tavoite on auttaa ostoreskontratiimiä kohdistamaan aiemmin luodut ostotilaukset ja saapuvat sähköiset laskut. Suurin osa tästä toiminnasta koskee merkkijonojen kohdistusta. [!INCLUDE [prod_short](includes/prod_short.md)]issa on ominaisuus, joka automatisoi osan tästä toiminnasta, ja LLM-malleissa on tunnistettu mahdollisuus täydentää kyseistä ominaisuutta ja vähentää entisestään manuaalisia toimia.  
 
-## <a name="how-was-e-documents-matching-assistance-evaluated-what-metrics-are-used-to-measure-performance"></a>Miten sähköisten asiakirjojen kohdistusapuri arvioitiin? Mitä mittareita suorituskyvyn mittaamiseen käytetään?
+## Miten sähköisten asiakirjojen kohdistusapuri arvioitiin? Mitä mittareita suorituskyvyn mittaamiseen käytetään?
 
 Ominaisuutta testattiin käyttämällä seuraavien tietojen yhdistelmiä:
 
@@ -60,25 +60,27 @@ Ominaisuutta testattiin käyttämällä seuraavien tietojen yhdistelmiä:
 
 Testitiedot ilmaisevat sekä tyypillistä käyttöä että haitallisten toimijoiden käyttöä. Suorituskykyä mitattiin vertaamalla sitä samojen sähköisten laskujen ja ostotilausten tietojen manuaaliseen kohdistamiseen.
 
-## <a name="what-are-the-limitations-of-e-documents-matching-assistance-how-can-users-minimize-the-impact-of-the-e-documents-matching-assistance-limitations-when-using-the-system"></a>Mitä rajoituksia sähköisten asiakirjojen kohdistusapurissa on? Miten käyttäjät voivat minimoida sähköisten asiakirjojen kohdistusapurin rajoitukset, kun he käyttävät järjestelmää?
+## Mitä rajoituksia sähköisten asiakirjojen kohdistusapurissa on? Miten käyttäjät voivat minimoida sähköisten asiakirjojen kohdistusapurin rajoitukset, kun he käyttävät järjestelmää?
 
 **Sähköisen asiakirjan kohdistusapuri** toimii parhaiten, kun ulkoinen (sähköinen lasku) ja sisäinen ([!INCLUDE [prod_short](includes/prod_short.md)]) nimikekuvaus sekä mittayksiköt ovat kaikki samankielisiä. Jos kieliä on useita tai nimikekuvauksia on useilla kielillä, tuloksena on usein vähemmän vastineita ja ehdotuksia.  
 
-Sähköisten laskujen nimikkeiden ja ostotilausten nimikkeiden ehdotettu kohdistus toimii parhaiten englannin kieltä käytettäessä. Vaikka ominaisuutta voi käyttää millä tahansa kielellä, jota [!INCLUDE [prod_short](includes/prod_short.md)] tukee, muilla kielillä nimikevasteita saattaa olla vähemmän.
+Sähköisten laskujen nimikkeiden ja ostotilausten nimikkeiden ehdotettu kohdistus toimii parhaiten englannin kieltä käytettäessä. Vaikka ominaisuutta voi käyttää millä tahansa kielellä, jota [!INCLUDE [prod_short](includes/prod_short.md)] tukee, muilla kielillä nimikevasteita saattaa olla vähemmän. Lue lisätietoja kielestä kohdasta [Millä maantieteellisillä alueilla ja kielillä sähköisten asiakirjojen kohdistusapuri on saatavana?](#in-which-geographies-and-languages-is-e-documents-matching-assistance-available).
 
-## <a name="in-which-geographies-and-languages-is-e-documents-matching-assistance-available"></a>Millä maantieteellisillä alueilla ja kielillä sähköisten asiakirjojen kohdistusapuri on saatavana?
+## Millä maantieteellisillä alueilla ja kielillä sähköisten asiakirjojen kohdistusapuri on saatavana?
 
-Tämä ominaisuus on käytettävissä kaikissa ympäristöissä, maa- tai aluelokalisoinnissa ja millä tahansa käyttäjän kielellä Kanadaa lukuun ottamatta. Rajoitetun kielituen vuoksi ominaisuus ei ole aluksi kanadalaisten asiakkaiden käytettävissä, koska ominaisuus ei ole kielen osalta säädösten mukainen. 
+- Saatavilla olevat maantieteelliset tilat
 
-Sellaisten maiden tai alueiden ympäristöissä, joissa Azure OpenAI Servicea ei ole otettu käyttöön, tämän ominaisuuden saatavuus edellyttää, että järjestelmänvalvojien on ensin suostuttava tietojen siirtämiseen rajojen yli [!INCLUDE [prod_short](includes/prod_short.md)]issa, sillä yhteys Azure OpenAI Serviceen ei ole muutoin mahdollista.  
+   Tämä Copilot-ominaisuus on käytettävissä kaikissa tuetuissa [Business Centralin maissa/alueilla](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). Kuitenkin asiakasympäristöissä, jotka sijaitsevat maissa/alueilla, joissa Azure OpenAI Serviceä ei ole otettu käyttöön, edellytetään sitä, että järjestelmänvalvojien on ensin annettava suostumus tietojen siirtämiseen yli rajojen, jotta [!INCLUDE [prod_short](includes/prod_short.md)] voi muodostaa yhteyden Azure OpenAI Serviceen. Lisätietoja kohdassa [Copilot-tietojen siirtäminen maantieteellisten alueiden välillä](ai-copilot-data-movement.md).
 
-Lisätietoja kielistä on kohdissa [Mitä rajoituksia sähköisten asiakirjojen kohdistusapurissa on? Miten käyttäjät voivat minimoida sähköisten asiakirjojen kohdistusapurin rajoitukset, kun he käyttävät järjestelmää?](#what-are-the-limitations-of-e-documents-matching-assistance-how-can-users-minimize-the-impact-of-the-e-documents-matching-assistance-limitations-when-using-the-system).   
+- Käytettävissä olevat kielet
 
-## <a name="what-operational-factors-and-settings-allow-for-effective-and-responsible-use-of-the-feature"></a>Mitkä operatiiviset tekijät ja asetukset mahdollistavat ominaisuuden tehokkaan ja vastuullisen käytön?
+   [!INCLUDE[e-docs-matching-language-support](includes/e-docs-matching-language-support.md)]
+
+## Mitkä operatiiviset tekijät ja asetukset mahdollistavat ominaisuuden tehokkaan ja vastuullisen käytön?
 
 Copilot täydentää [!INCLUDE [prod_short](includes/prod_short.md)]issa jo olevaa yhdistämismääritysalgoritmia ja yhdistää rivit, joita algoritmi ei yhdistänyt.
 
-### <a name="what-is-expected-of-users-while-using-e-documents-matching-assistance"></a>Mitä loppukäyttäjien odotetaan tekevän sähköisten asiakirjojen kohdistusapuria käytettäessä?
+### Mitä käyttäjien odotetaan tekevän sähköisten asiakirjojen kohdistusapuria käytettäessä?
 
 <!--Not sure that this is the right content for this section. Seems like it belongs more in the overview article because it's more related to how to use the feature-->
 
@@ -95,9 +97,9 @@ Kun saapuvat sähköiset laskut on yhdistetty ostotilauksiin, asiakirjojen rivit
 
 Copilotin vastineet voivat on virheellisiä tai epätäydellisiä. Niiden tarkkuus onkin aina tarkistettava, ennen kuin ne päätetään säilyttää. Copilotin vastineet ja ehdotukset tallennetaan [!INCLUDE [prod_short](includes/prod_short.md)]iin, kun **Säilytä se** valitaan ja lopeta Copilot. Vastineita ja ehdotuksia voidaan muokata ja korjata osumia ennen niiden säilyttämisen valitsemista. 
 
-### <a name="what-is-expected-of-administrators-and-users-when-operating-e-documents-matching-assistance"></a>Mitä järjestelmänvalvojilta ja loppukäyttäjiltä odotetaan sähköisten asiakirjojen kohdistusapuria käytettäessä?
+### Mitä järjestelmänvalvojilta ja käyttäjiltä odotetaan sähköisten asiakirjojen kohdistusapuria käytettäessä?
 
-Loppukäyttäjien, kuten kirjanpitäjien, tai muiden sähköisiä laskuja vastaanottavien on aina tarkistettava Copilotin vastineiden ja ehdotusten tarkkuus, ennen kuin he valitsevat niiden säilyttämisen. Ostotilausrivit kannattaa tarkistaa, sillä näin voidaan varmistaa näin niiden tarkkuus ja löytää mahdolliset ristiriidat. **Sähköisten asiakirjojen kohdistusapurin** käyttäminen on käyttäjän päätettävissä. Vaikka järjestelmänvalvoja on ottanut **sähköisten asiakirjojen kohdistusapurin** käyttöön ja se on käytettävissä, käyttäjä voi silti valita, käytetäänkö sitä aina, joskus vai ei koskaan.  
+Käyttäjien, kuten kirjanpitäjien, tai muiden sähköisiä laskuja vastaanottavien on aina tarkistettava Copilotin vastineiden ja ehdotusten tarkkuus, ennen kuin he valitsevat niiden säilyttämisen. Ostotilausrivit kannattaa tarkistaa, sillä näin voidaan varmistaa näin niiden tarkkuus ja löytää mahdolliset ristiriidat. **Sähköisten asiakirjojen kohdistusapurin** käyttäminen on käyttäjän päätettävissä. Vaikka järjestelmänvalvoja on ottanut **sähköisten asiakirjojen kohdistusapurin** käyttöön ja se on käytettävissä, käyttäjä voi silti valita, käytetäänkö sitä aina, joskus vai ei koskaan.  
 
 Järjestelmänvalvojat päättävät viime kädessä, käytetäänkö Copilotia [!INCLUDE [prod_short](includes/prod_short.md)]issa. Jos järjestelmänvalvojat ottavat Copilotin käyttöön, heidän on varmistettava, että he myöntävät sen käyttöoikeuden asianmukaisesti.
 
@@ -105,17 +107,17 @@ Järjestelmänvalvojat päättävät viime kädessä, käytetäänkö Copilotia 
 > - Ominaisuutta ei tueta [!INCLUDE [prod_short](includes/prod_short.md)]in paikallisissa versioissa tai yksityisissä pilvissä.
 > - Kumppanit eivät voi laajentaa tätä ominaisuutta. Kumppanikehittäjät eivät voi muokata, korvata eivätkä laajentaa tätä ominaisuutta. 
 
-## <a name="is-copilot-the-only-way-to-match-e-documents-to-purchase-orders"></a>Onko Copilot ainoa tapa kohdistaa sähköiset asiakirjat ostotilauksiin?
+## Onko Copilot ainoa tapa kohdistaa sähköiset asiakirjat ostotilauksiin?  
 
 Ei. Käyttäjä päättää itse Copilotin käytöstä. [!INCLUDE [prod_short](includes/prod_short.md)]issa on muita kuin tekoälypohjaisia tapoja kohdistaa vastaanotetun sähköisen laskun nimikkeet ostotilausten nimikkeisiin [!INCLUDE [prod_short](includes/prod_short.md)]issa. Organisaatiot voivat myös käyttää molempia vaihtoehtoja samanaikaisesti.  
 
-## <a name="how-do-i-give-feedback-about-ai-generated-content"></a>Miten annan palautetta tekoälyn luomasta sisällöstä?
+## Miten annan palautetta tekoälyn luomasta sisällöstä?  
 
-Aina kun Copilot antaa vastineita tai ehdotuksia, Microsoftille voidaan antaa palautetta suoraan Copilot-ikkunasta Tykkää- ja Ei tykkää -ohjausobjekteilla. Palautteesi pysyy anonyyminä ja me käytämme näitä tietoja palvelun laadun parantamiseen.  
+Aina kun Copilot antaa vastineita tai ehdotuksia, Microsoftille voidaan antaa palautetta suoraan Copilot-ikkunasta **Tykkää**- ja **Ei tykkää** -ohjausobjekteilla. Palautteesi pysyy anonyyminä ja me käytämme näitä tietoja palvelun laadun parantamiseen.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
-[Sähköisten asiakirjojen yleiskatsaus](finance-edocuments-overview.md)
+[Sähköisten asiakirjojen yleiskatsaus](finance-edocuments-overview.md)  
 [Sähköisten asiakirjojen yhdistäminen ostotilausriveille Copilotin avulla](map-edocuments-with-copilot.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

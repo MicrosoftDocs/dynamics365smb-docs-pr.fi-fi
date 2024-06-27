@@ -1,6 +1,6 @@
 ---
 title: Myyntireskontran raportit ja analytiikka
-description: 'Katso, mitkä tuotantoraportit ja mikä analytiikka on saatavilla Business Centralin vakioversiossa, jotta voit seurata myyntisaataviasi.'
+description: 'Tutustu Business Centralin vakioversion raportteihin ja analyyseihin, joiden avulla voit seurata myyntisaamiasi.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
@@ -10,22 +10,20 @@ ms.search.form: 'Report_33, Report_101, Report_104, Report_109, Report_112, Repo
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="accounts-receivable-reports-and-analytics"></a>Myyntireskontran raportit ja analytiikka
+# Myyntireskontran raportit ja analytiikka
 
 Jotta voit hallita myyntisaamisiasi helpommin [!INCLUDE [prod_short](includes/prod_short.md)]issa, vakioraportit ja analytiikka ovat sisään rakennettuina. Se ylittää perinteisen raportoinnin rajoitukset, jotta voit suunnitella tehokkaasti erityyppisiä raportteja.  
 
-
-## <a name="reports"></a>Raportit
+## Raportit
 
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
-
-## <a name="explore-finance-reports-with-report-explorer"></a>Talousraporttien tutkiminen Report Explorerin avulla
+## Talousraporttien tutkiminen Report Explorerin avulla
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Tärkeimmät talousraportit](finance-reports.md)  
 [Taloustietojen tapauskohtainen analyysi](ad-hoc-analysis-finance.md)   

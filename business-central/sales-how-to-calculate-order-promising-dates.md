@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 03/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="calculate-order-promising-dates"></a>Toimituksen lupaamisen päivämäärien laskeminen
+# Toimituksen lupaamisen päivämäärien laskeminen
 
 Yrityksen on voitava ilmoittaa asiakkailleen tilauksen toimituksen päivämäärät. Voit tehdä tämän **Toimituksen lupaamisen rivit** -sivulla myyntitilauksesta.  
 
@@ -27,7 +28,7 @@ Jos et ole määrittänyt pyydettyä toimituspäivämäärää myyntitilausrivil
 - Suunniteltu toimituspvm = lähtevä f.var. käsittelyaika + toimituspäivä  
 - Suunniteltu toimituspvm + toimitusaika = suunniteltu toimituspvm  
 
-## <a name="about-order-promising"></a>Tietoja toimituksen lupaamisesta
+## Tietoja toimituksen lupaamisesta
 
 Toimituksen lupaamistoiminnon ansiosta voidaan luvata, että tilaus lähetetään tai toimitetaan tiettynä päivänä. Ohjelma laskee päivämäärän, jolloin nimike on luvattavissa tai mahdollinen luvattavaksi, ja se luo tilausrivejä niille päivämäärille, jotka hyväksyt. Toiminto laskee aikaisimman mahdollisen päivämäärän, jolloin nimike on saatavilla toimitusta tai lähetystä varten. Se luo myös hankintarivit hyväksytyille päivämäärille siinä tapauksessa, että nimikkeitä on ensin tuotettava tai ostettava.
 
@@ -36,19 +37,19 @@ Toimituksen lupaamistoiminnon ansiosta voidaan luvata, että tilaus lähetetää
 - Luvattavissa (ATP)  
 - Mahdollinen luvattavaksi (CTP)  
 
-### <a name="available-to-promise"></a>Luvattavissa
+### Luvattavissa
 
 Luvattavissa (ATP) laskee päivämäärät varausjärjestelmän mukaan. Se suorittaa varaston varaamattomien määrien saatavuustarkistuksen suunnitellun tuotannon, ostojen, siirtojen ja myyntipalautusten varalta. [!INCLUDE[prod_short](includes/prod_short.md)] laskee näiden tietojen perusteella asiakkaan tilauksen toimituspäivämäärän, koska nimikkeet ovat käytettävissä joko varastossa tai suunnitelluissa vastaanotoissa.  
 
-### <a name="capable-to-promise"></a>Mahdollinen luvattavaksi
+### Mahdollinen luvattavaksi
 
 Mahdollinen luvattavaksi (CTP) olettaa entä jos -esimerkkitilanteen, joka koskee vain nimikemääriä, jotka eivät ole varastossa tai aikataulutetuissa tilauksissa. [!INCLUDE[prod_short](includes/prod_short.md)] laskee tämän skenaarion perusteella varhaisimman päivämäärän, jolloin nimike voi olla käytettävissä, jos se tuotetaan, ostetaan tai siirretään.
 
-#### <a name="example"></a>Esimerkki
+#### Esimerkki
 
 Jos tilauksen määrä on 10 kpl ja varastossa tai aikatauluteissa tilauksissa on saatavana 6 kpl, Mahdollinen luvattavaksi -laskennan perustana on 4 kpl.
 
-### <a name="calculations"></a>Laskelmat
+### Laskelmat
 
 Kun [!INCLUDE[prod_short](includes/prod_short.md)] laskee asiakkaan toimituspäivän, se suorittaa kaksi tehtävää:  
 
@@ -73,7 +74,7 @@ Tilausten käsittelijä päättää CTP-prosessin hyväksymällä päivämäär�
 
 **Toimituksen lupaamisen rivit** -sivulla suoritettavan ulkoisen toimituksen lupaamisen lisäksi voit luvata tuoterakenteen nimikkeille myös sisäisiä tai ulkoisia päivämääriä. Lisätietoja on kohdassa [Nimikkeiden saatavuuden tarkasteleminen](inventory-how-availability-overview.md).
 
-## <a name="to-set-up-order-promising"></a>Toimituksen lupaamisen määrittäminen
+## Toimituksen lupaamisen määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimituksen lupaamisen asetuk.** ja valitse sitten vastaava linkki.  
 2. Syötä **Offset (Aika)** -kenttään numero ja aikayksikön koodi. Valitse yksi seuraavista koodeista:  
@@ -91,16 +92,16 @@ Tilausten käsittelijä päättää CTP-prosessin hyväksymällä päivämäär�
 4. Anna **Toimituksen lupaamisen malli** -kenttään toimituksen lupaamisen malli valitsemalla rivi **Hankintalistan mallien luett.** -sivun luettelosta.  
 5. Anna **Toimituk. lupaamisen työkirja** -kenttään hankintalista valitsemalla rivi **Hankintalistojen nimet** -sivun luettelosta.
 
-### <a name="inbound-and-outbound-warehouse-handling-times-in-order-promising"></a>Saapuvan ja lähtevän fyysisen varastoinnin käsittelyajat toimituksen lupaamisen aikana
+### Saapuvan ja lähtevän fyysisen varastoinnin käsittelyajat toimituksen lupaamisen aikana
 
 Jos haluat sisällyttää varaston käsittelyajan ostorivin tilauslupaavaan laskelmaan, **Varaston asetukset** -sivulla voit määrittää oletuskäsittelyn ajan myynti- ja ostotositteisiin käytettäväksi. Voit myös määrittää kullekin sijainnille tietyt ajat **Sijaintikortti**-sivulla. 
 
-#### <a name="to-enter-default-inbound-and-outbound-warehouse-handling-times-for-sales-and-purchase-documents"></a>Saapuvien ja lähtevien varastointien oletuskäsittelyaikojen syöttäminen myynti- ja ostoasiakirjoihin
+#### Saapuvien ja lähtevien varastointien oletuskäsittelyaikojen syöttäminen myynti- ja ostoasiakirjoihin
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varastonhallinnan asetukset** ja valitse sitten vastaava linkki.  
 2. Syötä **Yleinen**-pikavälilehden **Saapuva f. var. käsittelyaika**- ja **Lähtevä f. var. käsittelyaika** -kenttiin päivien lukumäärä, jonka haluat ohjelman sisällyttävän tilauksen lupaamisen laskentaan.  
 
-#### <a name="to-enter-inbound-and-outbound-warehouse-handling-times-on-locations"></a>Saapuvan ja lähtevän fyysisen varastoinnin käsittelyaikojen syöttäminen sijainteihin
+#### Saapuvan ja lähtevän fyysisen varastoinnin käsittelyaikojen syöttäminen sijainteihin
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainti** ja valitse sitten vastaava linkki.  
 2.  Avaa käsiteltävä sijainnin kortti.  
@@ -109,14 +110,14 @@ Jos haluat sisällyttää varaston käsittelyajan ostorivin tilauslupaavaan lask
 > [!NOTE]  
 >  Kun luot ostotilausta, valitse **Toimitus ja maksu** -pikavälilehden **Lähetys**-kentässä **Sijainti** ja valitse sitten sijainti **Sijaintikoodi**-kentässä, **Lähtevä f. var. käsittelyaika** ja **Saapuva f. var. käsittelyaika** -kentät käyttävät sijainnille määritettyä käsittelyaikaa. Myyntitilausten osalta sama pätee, jos valitset sijainnin **Sijaintikoodi**-kentässä. Jos sijainnille ei ole määritetty käsittelyaikaa, **Lähtevä f. var. käsittelyaika** ja **Saapuva f. var. käsittelyaika** -kentät ovat tyhjiä. Jos jätät **Sijaintikoodi**-kentän tyhjäksi osto- ja myyntiasiakirjoissa, laskennassa käytetään **Varastonhallinnan asetukset** -sivulla määritettyä käsittelyaikaa.
 
-## <a name="to-make-an-item-critical"></a>Nimikkeen määritteleminen kriittiseksi
+## Nimikkeen määritteleminen kriittiseksi
 
 Nimike on merkittävä kriittiseksi, ennen kuin sen voi sisällyttää toimituksen lupaamislaskentaan. Tämä asetus varmistaa, etteivät ei-kriittiset nimikkeet aiheuta turhia toimituksen lupaamislaskutoimituksia.   
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
 2.  Avaa oikea nimikkeen kortti.  
 3.  Valitse **Suunnittelu**-pikavälilehdessä **Kriittinen**-kenttä.  
 
-## <a name="to-calculate-an-order-promising-date"></a>Toimituksen lupaamisen päivämäärän laskeminen
+## Toimituksen lupaamisen päivämäärän laskeminen
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyntitilaus** ja valitse sitten vastaava linkki.  
 2.  Avaa asianmukainen myyntitilaus ja valitse myyntitilausrivit, jotka haluat sovelluksen laskevan.  
@@ -127,7 +128,7 @@ Nimike on merkittävä kriittiseksi, ennen kuin sen voi sisällyttää toimituks
     - Valitse **Mahdollinen luvattavaksi**, jos tiedät, että nimikettä ei ole nyt varastossa, ja jos haluat ohjelman laskevan aikaisimman päivämäärän, jolloin nimike voi olla saatavilla, lähettämällä uusia täydennyshankintoja.  
 5.  Valitse **Hyväksy** -painike hyväksyäksesi aikaisimman mahdollisimman lähetyspäivämäärän.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Myynti](sales-manage-sales.md)  
 [Ostojen päivämäärien laskeminen](purchasing-date-calculation-for-purchases.md)  

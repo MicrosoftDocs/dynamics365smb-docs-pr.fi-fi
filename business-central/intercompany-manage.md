@@ -3,15 +3,15 @@ title: Konsernitapahtumien hallinta
 description: Voit yksinkertaistaa konsernitoiminnoilla samaan organisaatioon kuuluvien yritysten välisiä liiketoimintaprosesseja ja tapahtumia.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bhielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 02/06/2023
+ms.date: 05/24/2024
 ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605,'
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-intercompany-transactions"></a>Konsernitapahtumien hallinta
+# Konsernitapahtumien hallinta
 
 Yritykset, joissa on useampi kuin yksi oikeushenkilöä erillisillä kirjanpitofunktioilla voivat hyötyä konsernin tapahtumista. Se on hyödyllistä esimerkiksi yrityksille, joilla on tytäryhtiöitä useilla kansainvälisillä markkinoilla tai alueilla. Organisaatio saattaa koostua useasta yrityksestä, mutta siinä ei välttämättä ole samaa määrää laskenta- ja hallintotyöryhmiä. Konsernin tapahtumat yksinkertaistavat ja virtaviivaistavat yritysten välisiä liiketoimintaprosesseja ja -tapahtumia konserniyritysten välisessä kumppanuudessa.
 
@@ -21,10 +21,10 @@ Konsernitoimintoihin liittyy neljä merkittävää etua:
 
 * Ajansäästö ja yksinkertaistetut tapahtumat lisäävät tuottavuutta.  
 * Tietojen kertakirjaus ja järjestelmänlaajuiset automaattiset päivitykset vähentävät virheitä  
-* Kirjausketju on täydellinen, ja liiketoiminnoilla sekä tapahtumahistorioilla on täysi näkyvyys.  
-* Tapahtumat sisar- ja tytäryhtiöiden kanssa ovat tehokkaita ja kannattavia.  
+* Läpinäkyvä kirjausketju on täydellinen, ja liiketoiminnoilla sekä tapahtumahistorioilla on täysi näkyvyys  
+* Tapahtumat sisar- ja tytäryhtiöiden kanssa ovat tehokkaita  
 
-## <a name="streamline-the-flow-of-business-activities"></a>Liiketoimintojen sujuvuuden parantaminen
+## Liiketoimintojen sujuvuuden parantaminen  
 
 Konsernin tapahtumat -toiminto mahdollistaa myynti- ja ostoasiakirjojen sekä yleisen päiväkirjan merkintöjen jakamisen kaikkiin sivutoimistoihin, myyntitoimistoihin tai tytäryrityksiin. Tapahtumien jakelu säästää aikaa ja lisää tehokkuutta koko organisaatiossa vähentämällä tietojen syöttöä. Se vähentää tarvetta lähettää, vastaanottaa, tulostaa ja arkistoida myynti- ja ostoasiakirjoja.  
 
@@ -32,7 +32,7 @@ Kaikki tapahtuma-asiakirjat ovat täysin hallinnassasi. Voit esimerkiksi hylät�
 
 Kun syötät tapahtuman, sinun ei tarvitse määrittää käytössä olevia tilejä. Valitse vain konsernikumppani. Konsernitoiminto luo yleisen päiväkirjan rivejä, jotka täsmäävät molempien tapahtumaan osallistuneiden yritysten tilit. Myyntisaamisissa ja ostoveloissa asiakkaille ja toimittajille voi määrittää konsernikumppanin koodin. Tästä hetkestä lähtien kaikki näiden yritysten välisten tapahtumien tilaukset ja laskut tuottavat vastaavia asiakirjoja yhteistyöyrityksessä. Tuloksena on oikein täsmätyt tilit.  
 
-Konserni keskittyy myynti- ja ostoasiakirjoihin sekä yleisen päiväkirjan riveihin ja mahdollistaa liiketoimet eri [!INCLUDE [prod_short](includes/prod_short.md)]-tietokantojen välillä. Esimerkiksi:
+Konserni keskittyy myynti- ja ostoasiakirjoihin sekä yleisen päiväkirjan riveihin ja mahdollistaa liiketoimet eri [!INCLUDE [prod_short](includes/prod_short.md)]-tietokantojen välillä. Esimerkki:
 
 * Eri maissa/alueilla
 * Useat valuutat
@@ -69,7 +69,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 |Järjestää ja käsitellä konsernikumppanien kanssa vaihdettavat saapuvat ja lähtevät tapahtumat.|[Konsernin Saapuneet- ja Lähtevät-kansion hallinta](intercompany-how-manage-intercompany-inbox.md)|
 |Konserniyritysten välisten tapahtumien avulla voit jakaa kustannuksia kumppaniyritysten kesken.|[Kustannusten kohdistaminen konsernikumppaneille](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rahoitus](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  

@@ -1,16 +1,17 @@
 ---
-title: Sijaintikortin ja siirtoreittien määrittäminen (sisältää videon)
+title: Sijaintikortin ja siirtoreittien määrittäminen
 description: 'Jos ostat, tallennat tai myyt nimikkeitä useassa paikassa, voit määrittää kunkin paikan sijainniksi.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'warehouse, distribution center'
 ms.search.forms: '5703, 15'
-ms.date: 03/25/2023
-ms.author: bholtorf
+ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-locations"></a>Sijaintien määrittäminen
+# Määritä sijainnit
 
 Sijainnit ovat paikkoja, kuten varasto, jossa nimikkeitä ostetaan, säilytetään tai myydään. [!INCLUDE [prod_short](includes/prod_short.md)] käyttää sijainteja varaston seurannassa sekä yksinkertaisissa että monimutkaisissa varastoprosesseissa.
 
@@ -19,7 +20,7 @@ Voit sitten luoda asiakirjarivejä tietylle sijainnille, tarkastella saatavuutta
   
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
-## <a name="location-cards"></a>Sijaintikortit
+## Sijaintikortit
 
 Tietoja sijainnista, esimerkiksi fyysisestä varastosta tai jakelukeskuksesta määritetään **Sijaintikortti**-sivulla. Kullekin sijainnille annetaan sijaintia kuvaava nimi ja koodi. Tämän jälkeen sijaintikoodin voi syöttää muualle ohjelmaan silloin, kun haluat tallentaa transaktioita tietylle sijainnille.  
 
@@ -29,7 +30,7 @@ Jotkut vaihtoehtokentät määräytyvät **Sijaintikortti**-sivun asetusten muka
 
 Valitse toiminnot **Alueet** tai **Varastopaikat** nähdäksesi tiedot alueista ja varastopaikoista, jotka on määritetty sijainnille.
 
-### <a name="to-set-up-a-location"></a>Sijaintien määrittäminen
+### Sijaintien määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Sijainnit** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi**-toiminto.
@@ -43,7 +44,7 @@ Voit muuttaa sijainnin määritystä, jos sijainnissa ei ole nimiketapahtumia.
 
 Jos sinulla on useampia sijainteja, voit määrittää sijaintien välisiä siirtoreittejä. Lisätietoja siirtoreiteistä on kohdassa [Siirtoreittien luominen](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
-### <a name="to-create-a-transfer-route"></a>Siirtoreittien luominen
+### Siirtoreittien luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Siirtoreitit** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi**-toiminto.
@@ -51,7 +52,7 @@ Jos sinulla on useampia sijainteja, voit määrittää sijaintien välisiä siir
 
 Voit nyt siirtää varastonimikkeitä sijaintien välillä. Lisätietoja siirroista on kohdassa [Varastonimikkeiden siirtäminen sijaintien välillä](inventory-how-transfer-between-locations.md).
 
-## <a name="bins"></a>Varastopaikat
+## Varastopaikat
 
 Varastopaikat edustavat fyysisen varaston perusrakennetta. Ne voivat ehdottaa, minne nimikkeet kannattaa sijoittaa. Varastopaikoissa voi olla sisältöä tai ne voivat olla määrittelemättömiä varastopaikkoja, joissa ei ole tiettyä sisältöä.
 
@@ -60,11 +61,11 @@ Jos haluat käyttää varastopaikkatoimintoa sijainnissa, aktivoi toiminto ensin
 > [!NOTE]
 > Ennen kuin voit määrittää varastopaikkakoodeja sijainnissa, on luotava varastopaikkakoodit. Saat lisätietoja varastopaikoista valitsemalla [Varastopaikkojen luominen](warehouse-how-to-create-individual-bins.md) ja [Varastopaikkojen määrittäminen](warehouse-how-to-set-up-bin-types.md).  
 
-## <a name="zones"></a>Alueet
+## Alueet
 
 Jos haluat jäsentää varastopaikat alueiden alla, voit tehdä sen **Alueet**-sivulla. Kun varastopaikoille määritetään alue, [!INCLUDE [prod_short](includes/prod_short.md)] kopioi tiedot alueelta varastopaikkoihin. Voit myös määrittää yhden alueen ja käyttää varastopaikkoja yksin fyysisen varaston järjestämiseksi. Lisätietoja vyöhykkeistä on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).  
 
-## <a name="default-dimensions-for-locations"></a>Sijaintien oletusdimensiot
+## Sijaintien oletusdimensiot
 
 Dimensiot ovat tapahtumia luokittelevia arvoja, joita voi seurata ja analysoida erilaisilla raportointityökaluilla. Dimensioiden avulla voit esimerkiksi ilmaista, mistä osastosta tai projektista tapahtuma on lähtöisin. Kun oletusdimensiot ovat käytössä, käyttäjät eivät voi tehdä virheitä ja syöttää dimensioita manuaalisesti transaktiotasolle, jos kaikki tavarat ovat peräisin yhdestä sijainnista ja osastosta.
 
@@ -80,7 +81,7 @@ Tarvittaessa voit poistaa rivin dimension tai muuttaa sitä. **Arvon kirjaaminen
 
 Koska siirtotilausasiakirjat ja uudelleenluokittelupäiväkirjat käsittelevät useampaa kuin yhtä sijaintia, tietojen syöttämisen järjestys on tärkeää. Oletusdimensiot kopioidaan viimeinen sijainti -kentästä (kuljetuksessa-sijainti ohitetaan).
 
-### <a name="example-of-default-dimensions-on-locations"></a>Esimerkki sijaintien oletusdimensioista
+### Esimerkki sijaintien oletusdimensioista
 
 Seuraavissa esimerkeissä havainnollistetaan, miten oletusdimensiota käytetään.
 
@@ -103,7 +104,7 @@ Kentät on täytettävä vastakkaisessa järjestyksessä seuraavasti:
 
 ADM-dimensio kopioidaan sijainnista EAST.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Varaston hallinta](inventory-manage-inventory.md)  
 [Varastonimikkeiden siirtäminen sijaintien välillä](inventory-how-transfer-between-locations.md)  

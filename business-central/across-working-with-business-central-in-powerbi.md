@@ -8,22 +8,23 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 01/22/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
-# <a name="connect-to-power-bi-from-business-central-on-premises"></a>Yhdistä Power BI:hin paikallisesta Business Centralista
+# Yhdistä Power BI:hin paikallisesta Business Centralista
 
 <!--In this article, you learn some of the basics about working with reports and dashboards in Power BI that use [!INCLUDE [prod_short](includes/prod_short.md)] as a data source. The article discusses some aspects that will help you get started as a [!INCLUDE[prod_short](includes/prod_short.md)] user. For general guidelines and instructions about using Power BI, see [Power BI documentation for consumers](/power-bi/consumer).
 
-## <a name="get-ready"></a>Get ready
+## Get ready
 
 Sign up for the Power BI service. If you haven't already signed up, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). When you sign up, use a work email address and password.-->
 
-## <a name="get-started"></a>Aloittaminen
+## Aloittaminen
 
 Käyttääksesi paikallista [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaa, Power BI -integraation on oltava siinä käytössä. Yleensä järjestelmänvalvoja tekee tämän tehtävän. Lisätietoja Business Central Onlinen Power BI -integraation käyttöönotosta internetissä on kohdassa [Business Centralin määrittäminen yrityksen tiloissa Power BI -integrointia varten](admin-powerbi-setup.md).
 
 Osa ominaisuuksista on käytössä vain Business Central Online -versiossa mutta ei paikallisessa versiossa. Lisätietoja, katso [Tietoja Business Centralista ja Power BI:stä](admin-powerbi.md#what-you-can-do-with-power-bi-and-business-central)
 
-## <a name="set-up--on-premises-for-power-bi-integration"></a><a name="setup"></a>Paikallisen [!INCLUDE[prod_short](includes/prod_short.md)] -version Power BI -integroinnin valmistelu
+## <a name="setup"></a>Paikallisen [!INCLUDE[prod_short](includes/prod_short.md)] -version Power BI -integroinnin valmistelu
 
 Tässä osassa käsitellään paikallisen [!INCLUDE[prod_short](includes/prod_short.md)] -käyttöönoton edellytyksiä Power BI -integrointia varten.
 
@@ -56,7 +57,7 @@ Tässä osassa käsitellään paikallisen [!INCLUDE[prod_short](includes/prod_sh
 
     Voit muodostaa ensimmäisen yhteyden avaamalla [!INCLUDE[prod_short](includes/prod_short.md)]in ja suorittamalla aloitussivulla **Aloita Power BI:n käyttö** -toiminnon. Tämä toiminto opastaa hyväksyntäprosessin läpi ja tarkistaa Power BI -käyttöoikeutesi. Ohjelma pyytää kirjautumaan sisään käyttämällä Microsoft Entra -järjestelmänvalvojatiliä. Lisätietoja on kohdassa [Power BI -yhteyden muodostaminen – kerran](across-working-with-powerbi.md#connect).
 
-## <a name="build-power-bi-reports-to-display--data"></a>Power BI -raporttien luominen näyttämään [!INCLUDE [prod_long](includes/prod_long.md)] -tietoja
+## Power BI -raporttien luominen näyttämään [!INCLUDE [prod_long](includes/prod_long.md)] -tietoja
 
 Voit määrittää Dynamics 365 Business Centralin tiedot käytettäviksi Power BI Desktop:n tietolähteenä ja tehokkaiden liiketoiminnan tilasta kertovien raporttien luomista varten.
 
@@ -71,7 +72,7 @@ Käytä Power BI Desktopia luodaksesi raportteja, jotka näyttävät Dynamics 36
 
     Power BI käyttää perustodennusta [!INCLUDE[prod_short](includes/prod_short.md)] -tietojen hakemiseen. Yhteyttä varten tarvitaan tämän vuoksi käyttäjänimi ja verkkopalvelun käyttöoikeusavain. Tili voi olla oma käyttäjänimi. Organisaatiolla voi olla myös erillinen tili tätä tarkoitusta varten.
 
-## <a name="add--as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in lisääminen Power BI Desktopin tietolähteeksi
+## <a name="getdata"></a>[!INCLUDE[prod_short](includes/prod_short.md)]in lisääminen Power BI Desktopin tietolähteeksi
 
 Raporttien luomisen ensimmäinen tehtävä on [!INCLUDE[prod_short](includes/prod_short.md)]in lisääminen Power BI Desktopin tietolähteeksi. Raportin luonnin voi aloittaa, kun yhteys on muodostettu.
 
@@ -105,12 +106,12 @@ Kun tiedot on ladattu, ne näkyvät sivun oikeassa siirtymisruudussa. Olet nyt m
 > [!TIP]
 > Lisätietoja Power BI Desktopin käytöstä on kohdassa [Power BI Desktopin käytön aloittaminen](/power-bi/fundamentals/desktop-getting-started).
 
-## <a name="manage-and-modify-reports"></a>Raporttien hallinta ja muokkaaminen
+## Raporttien hallinta ja muokkaaminen
 
 > [!NOTE]
 > Et voi hallita ja muokata raportteja. 
 
-## <a name="upload-reports"></a>Raporttien lataaminen palvelimeen
+## Raporttien lataaminen palvelimeen
 
 Paikallisissa [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmissa ei ole käytettävissä demoraportteja, joten aloitat alusta käyttämällä Power BI Desktopia. Vaihtoehtoiesti Power BI -raportit voidaan jakaa palvelimeen ladattavina tiedostoina suoraan Power BI -verkkopalvelusta. Lisätietoja on kohdassa [Raportin lataaminen palveluun](/power-bi/paginated-reports/paginated-reports-quickstart-aw#upload-the-report-to-the-service).
 
@@ -132,11 +133,11 @@ If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, you'
 
 Each Power BI report is based on a dataset that gets data from the [!INCLUDE[prod_short](includes/prod_short.md)] sources. You want to make sure that the data in your Power BI reports is up to date with the data in [!INCLUDE[prod_short](includes/prod_short.md)]. This concept is referred to as *refreshing*.  Depending on how your organization has set up Power BI, refreshing might not happen automatically. There are two ways to refresh data: manually or by scheduling a refresh. Manual refreshing is done on-demand, as needed. Scheduled refreshing lets you refresh automatically at defined time intervals.
 
-### <a name="refresh-manually"></a>Refresh manually
+### Refresh manually
 
 In the navigation pane, under **Datasets**, select **More options (...)** next to the dataset, then select **Refresh now**.
 
-### <a name="schedule-a-refresh"></a>Schedule a refresh
+### Schedule a refresh
 
 In the navigation pane, under Datasets, select More options (...) next to the dataset, then select **Schedule refresh**. Fill in the information under the **Schedule refresh** section, and select **Apply**.
 
@@ -160,7 +161,7 @@ For more information, see [Upload the report to the service](/power-bi/paginated
 > [!TIP]
 > If you're using [!INCLUDE[prod_short](includes/prod_short.md)] online, you can also upload a report from within [!INCLUDE[prod_short](includes/prod_short.md)]. For more information, see [Work with Power BI Reports in [!INCLUDE [prod_short](includes/prod_short.md)] - Upload Reports](across-working-with-powerbi.md#upload).
 
-## <a name="share-reports-with-others"></a><a name="share"></a>Share reports with others
+## <a name="share"></a>Share reports with others
 
 Once a report is in your workspace, you can share it with others in your organization.
 
@@ -169,9 +170,9 @@ To share a report, in a list reports, or in an open report, select **Share**. In
 > [!NOTE]
 > You must have  [Power BI Pro license](/power-bi/service-features-license-type), and the people you share with do too. The content must be in a workspace in a [Premium capacity](/power-bi/service-premium-what-is). For more information, see [Ways to share your work in Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).-->
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Business Central ja Power BI](admin-powerbi.md)  
-[Raportin lataaminen tiedostoista](across-working-with-powerbi.md#upload-reports)  
+[Raporttien lataaminen palvelimeen](across-working-with-business-central-in-powerbi.md#upload-reports)
  
 [!INCLUDE[footer-include](includes/footer-banner.md)]

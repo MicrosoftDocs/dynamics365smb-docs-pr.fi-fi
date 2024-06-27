@@ -1,22 +1,23 @@
 ---
 title: Tehtävien suorittaminen taustalla ja toistuvasti
 description: Määritä tietojen synkronointi Business Centralin ja Shopifyn välillä taustalla.
-ms.date: 03/26/2024
+ms.date: 05/26/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 author: brentholtorf
 ms.author: bholtorf
+ms.custom: bap-template
 ---
 
-# <a name="run-tasks-in-the-background"></a>Tehtävien suorittaminen taustalla
+# Tehtävien suorittaminen taustalla
 
 On tehokasta suorittaa joitakin tehtäviä samanaikaisesti ja automatisoidusti. Voit suorittaa tällaisia tehtäviä taustalla ja määrittää aikataulun myös silloin, kun haluat, että kyseiset tehtävät suoritetaan automaattisesti. Voit suorittaa tehtäviä taustalla kahdessa tilassa:
 
 - Manuaalisesti käynnistyvät tehtävät ajoitetaan heti **Työjonon tapahtumien** avulla.
 - Toistuvat tehtävät ajoitetaan **Työjonotapahtumiin**.
 
-## <a name="run-tasks-in-the-background-for-a-specific-shop"></a>Tehtävien suorittaminen taustalla tietyn myymälän osalta
+## Tehtävien suorittaminen taustalla tietyn myymälän osalta
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Shopify-kauppa** ja valitse vastaava linkki.
 2. Valitse kauppa, jolle haluat suorittaa synkronoinnin taustalla avataksesi **Shopify-ostoskortti**-sivun.
@@ -24,7 +25,7 @@ On tehokasta suorittaa joitakin tehtäviä samanaikaisesti ja automatisoidusti. 
 
 Nyt kun synkronointitoiminto käynnistyy, edustalla suoritettavan tehtävän sijaan se pyytää odottamaan. Kun se on valmis, voit siirtyä seuraavaan toimintoon. Tehtävä luodaan **Työjonotapahtumana**, ja se alkaa heti.
 
-## <a name="to-schedule-recurring-tasks"></a>Toistuvien tehtävien ajoittaminen
+## Toistuvien tehtävien ajoittaminen
 
 Voit ajoittaa seuraavat toistuvat aktiviteetit suoritettavaksi automaattisesti. Lue lisätietoja tehtävien ajoittamisesta kohdasta [Työjonot](../admin-job-queues-schedule-tasks.md).
 
@@ -43,7 +44,9 @@ Voit ajoittaa seuraavat toistuvat aktiviteetit suoritettavaksi automaattisesti. 
 |**Synkronoi luettelohinnat**|Raportti 30116 Shopifyn synkronoidut luettelohinnat (yritystenvälinen)|
 
 > [!NOTE]
-> Osa elementeistä voi päivittyä usean tehtävän mukaan. Esimerkiksi silloin, kun tuot tilauksia **Shopify-ostoskortin** asetuksen mukaan, järjestelmä voi myös tuoda ja päivittää asiakkaan ja/tai tuotteen tietoja. Muista käyttää samaa työjonon luokkaa ristiriitojen välttämiseksi.
+> Osa elementeistä voi päivittyä usean tehtävän mukaan. Esimerkiksi silloin, kun tuot tilauksia **Shopify-ostoskortti** -sivun asetuksen mukaan, järjestelmä voi myös tuoda ja päivittää asiakkaan ja/tai tuotteen tietoja. Muista käyttää samaa työjonon luokkaa ristiriitojen välttämiseksi.
+>
+> Määritä suodattimet **Raporttipyyntösivu**-toiminnon avulla. Voit esimerkiksi määrittää, että tuot tilauksia vain, kun niiden tila on **Kokonaan maksettu**.
 
 Muita tehtäviä, joita voi olla hyödyllistä automatisoida myyntiasiakirjojen edelleenkäsittelyssä:
 
@@ -54,7 +57,7 @@ Voit käyttää **Shopify-tilausnro**-kenttää -kentästä tuotujen Shopify-myy
 
 Saat lisätietoja myyntitilausten kirjaamisesta erään siirtymällä kohtaan [Työjonotapahtuman luonti myyntitilausten eräkirjausta varten](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
-## <a name="to-check-the-status-of-synchronization"></a>Synkronoinnin tilan tarkasteleminen
+## Synkronoinnin tilan tarkasteleminen
 
 **Liiketoimintajohtajan** roolikeskuksen **Shopify-aktiviteetit**-osassa on useita pinoja, joiden avulla on helppo määrittää, onko Shopify-yhdistimessä ongelmia.
 
@@ -65,6 +68,6 @@ Saat lisätietoja myyntitilausten kirjaamisesta erään siirtymällä kohtaan [T
 - **Toimitusvirheet**: Shopify-yhdistin ei voinut synkronoida kirjattuja myyntitoimituksia Shopifyn kanssa.
 - **Synkronointivirheet**: Shopify-synkronointiin liittyviä epäonnistuneita työjonotapahtumia.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Shopify-yhdistimen käytön aloittaminen](get-started.md)  

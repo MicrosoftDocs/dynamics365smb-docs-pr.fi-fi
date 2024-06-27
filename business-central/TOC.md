@@ -200,7 +200,7 @@ ms.service: dynamics-365-business-central
 #### [Kosketuseleet ja kynän liikkeet](touch-gestures.md)
 ### [Vianmääritys: kameran ja sijainnin käyttäminen](ui-troubleshooting-camera-location.md)
 ### [Älykkäät merkitykselliset tiedot (vain verkossa)](about-intelligent-cloud.md)
-## Usein kysytyt kysymykset
+## Vianmääritys ja usein kysytyt kysymykset
 ### [Usein kysytyt kysymykset](across-faq.yml)
 ### [Usein kysytyt kysymykset keskustelusta Copilotin avulla (esiversio)](chat-with-copilot-faq.md)
 ### [Kerro minulle, mitä haluat tehdä -toiminnon usein kysytyt kysymykset](ui-search-faq.md)
@@ -211,6 +211,7 @@ ms.service: dynamics-365-business-central
 ### [Teamsin usein kysytyt kysymykset](teams-faq.md)
 ### [Sähköisen laskutuksen usein kysytyt kysymykset](faq-electronic-invoicing.yml)
 ### [Vähimmäisvaatimukset](product-requirements.md)
+### [Vianmääritys Business Centralissa](/troubleshoot/dynamics-365/business-central/welcome-business-central)
 
 ## Ohje ja tuki
 ### [Ohje- ja tukiresurssit](product-help-and-support.md)
@@ -459,8 +460,13 @@ ms.service: dynamics-365-business-central
 #### [Vastuullisuusmääritys](finance-sustainability-setup.md)
 #### [Vastuullisuustilien ja -kirjanpidon tilikartta](finance-sustainability-accounts-ledger.md)
 #### [Toimintaohje: kasvihuonekaasupäästöjen (GHG) kirjaus](finance-sustainability-journal.md)
+#### Vastuullisuusanalytiikka
+##### [Vastuullisuustietojen ad-hoc-analyysi](ad-hoc-analysis-sustainability.md)
+##### [Valmiit kestävyysraportit](sustainability-reports.md)
+#### Vastuullisuuden ohjelmointirajapinnat
+##### [Vastuullisuuden ohjelmointirajapinnat](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 
-### [Useat toimipaikat ja kansainväliset organisaatiot](finance-multi-site-organizations.md)
+### [Usean toimipaikan organisaatiot ja kansainväliset organisaatiot](finance-multi-site-organizations.md)
 #### Usean yrityksen kirjanpitotietojen yhdistäminen
 ##### [Yrityksen konsolidointi](finance-consolidated-company-reporting.md)
 ##### [Yrityksen konsolidoinnin määrittäminen](finance-consolidated-company-reporting-setup.md)
@@ -600,7 +606,7 @@ ms.service: dynamics-365-business-central
 #### [Käyttöomaisuuden analyysin yleiskatsaus](fa-analytics-overview.md)
 #### [Käyttöomaisuuden ad-hoc-analyysi](ad-hoc-analysis-fa.md)
 #### Valmiit käyttöomaisuuden analytiikkatyökalut
-##### [Kunnossapitokustannusten valvonta](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Kunnossapitokustannusten valvonta](fa-how-maintain.md#monitor-maintenance-costs)
 ##### [Vakuutuksen kattavuuden tarkkailu](fa-how-insure.md#to-monitor-insurance-coverage)
 ##### [Muuttuneiden poistokirja-arvojen tarkasteleminen](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 ##### [Luovutustapahtumien tarkasteleminen](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
@@ -1857,6 +1863,7 @@ ms.service: dynamics-365-business-central
 #### [Tärkeimmät talousraportit](finance-reports.md)
 #### [Myyntireskontran raportit](receivables-reports.md)
 #### [Ostoreskontran raportit](payables-reports.md)
+#### [Kestävyysraportit](sustainability-reports.md)
 
 ### [Myyntiraportit](sales-reports.md)
 ### [Ostoraportit](purchase-reports.md)

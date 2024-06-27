@@ -5,7 +5,7 @@ author: sorenfriisalexandersen
 ms.author: soalex
 ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 04/25/2023
+ms.date: 06/18/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -24,7 +24,7 @@ Jos kehität [!INCLUDE [prod_short](../includes/prod_short.md)] -laajennuksia, s
 
 ## Vaatimustenmukaisuutta edistävät kirjanpidon prosessit ja ohjaukset
 
-Yritysten kohtaamat kirjapidon haasteet lisääntyvät vuosittain. Toimialan, markkinoiden, maantieteellisen sijainnin ja taloudellisten vaatimusten mukaan yritysten on ehkä noudatettava paikallisia GAAP (yleisesti hyväksytyt kirjanpitoperiaatteet) -vaatimuksia ja vähintään yhtä seuraavista:
+Yritysten kohtaamat kirjapidon haasteet lisääntyvät vuosittain. Toimialan, markkinoiden, maantieteellisen sijainnin ja taloudellisten vaatimusten mukaan yritysten on ehkä noudatettava paikallisia yleisesti hyväksyttyjä kirjanpitoperiaatteita<!--note from editor: I assume that "local" means that you're not talking about the standard adopted by the SEC in the US. If this is true, you don't want to use the abbreviation because GAAP is an actual standard, which will need to be spelled out with title caps at first mention.--> ja yhden tai usean seuraavista toimista:
 
 - Yhdysvaltalainen vuonna 2002 säädetty SOX (Sarbanes-Oxley) -laki auttaa suojelemaan sijoittajia parantamalla yritysten antamien tietojen tarkkuutta ja luotettavuutta.
 - Euroopan unionin IAS/IFRS (International Accounting Standard) -standardien kansainvälisten tilinpäätösstandardien osa astui voimaan 2005. Se määrittää kansainväliset tunnistus-, mittaus-, konsolidointi- ja raportointistandardit.
@@ -62,7 +62,7 @@ Integroidut tiedot, yhdenmukaiset prosessit ja helppokäyttöiset työkalut autt
 
 - Määritä tietokentät hyväksymään vain oikeanmuotoiset tiedot, kuten oikea määrä desimaaleja tai aakkosnumeerisia malleja.
 - Varmista tietojen täydellisyys sovelluksen ohjausobjekteilla, kuten edellyttämällä, että toimittajan laskun numero annetaan, ennen kuin ostotilaus voidaan kirjata.
-- Pienennä epätarkkojen tietojen antamisen tai tietoihin puuttumisen riskiä ja auta suojaamaan arkaluonteisia tietoja antamalla tietojen käyttöoikeus työroolin perusteella.
+- Pienennä epätarkkojen tietojen antamisen tai tietoihin puuttumisen riskiä ja auta suojaamaan arkaluonteisia tietoja rajoittamalla tietojen käyttöoikeutta työroolin perusteella.
 - Estä tietojen käyttö, anna vain luku -oikeus tai anna käyttäjille mahdollisuus lisätä, muokata tai poistaa tietoja.
 - Helpota ristiriitojen tunnistamista ja ratkaisemista täsmäytystoiminnolla, joka hakee valitun pankkitilin ja tapahtuman tiedot sekä vertaa sitä kirjapitokirjauksiin.
 - Aikatauluta manuaaliset tai automaattiset varmuuskopioinnit, jotka suojaavat tietoja sähkökatkosten varalta.
@@ -82,19 +82,19 @@ Integroidut tiedot, yhdenmukaiset prosessit ja helppokäyttöiset työkalut autt
 
 ## Vaatimustenmukaisuus ja paikalliset toiminnot
 
-Microsoft muodostaa Business Centralin lokalisoituja versioita rajoitetulle määrälle markkinoita. Nämä lokalisoinnit keskittyvät pääasiassa vero- ja taloushallintoalueiden säädöstoimintoja, mutta joskus ne voivat koskea ratkaisun muita osia. Jos haluat nähdä, mitä lokalisoidut Business Centralin Microsoftin lokalisoimat versiot sisältävät, valitse tämän verkkosivun valikosta ensin **Paikalliset toiminnot** ja sitten maa tai alue. Lisätietoja on kohdassa [paikalliset toiminnot](../about-localization.md).  
+Microsoft muodostaa Business Centralin lokalisoituja versioita rajoitetulle määrälle markkinoita. Nämä lokalisoinnit keskittyvät pääasiassa vero- ja taloushallintoalueiden säädöstoimintoja, mutta joskus ne voivat koskea ratkaisun muita osia. Jos haluat nähdä, mitä lokalisoidut Business Centralin Microsoftin lokalisoimat versiot sisältävät, valitse tämän verkkosivun valikosta ensin **Paikalliset toiminnot** ja sitten maa tai alue. Lisätietoja on kohdassa [paikalliset toiminnot](../about-localization.md). 
 
-> [!NOTE]  
-> **Sarbanes-Oxley: tietojen ja prosessien tarkistaminen**  
-> Sarbanes-Oxley-laki määrittää kaikkien yhdysvaltalaisten pörssiyhtiöiden hallitusten, johdon ja julkisten kirjanpitoyritysten standardit, mukaan lukien yrityksen sisäisen tilintarkastuksen ohjauksen arvioinnin ja ilmoitusten riittävyys. Tärkeiden manuaalisten ja automatisoitujen ohjausten dokumentointi ja testaaminen sitoo erittäin paljon yritysten aikaa ja resursseja. Business Central soveltuu erityisesti suurten organisaatioiden tytäryhtiöille, ja se auttaa pieniä ja keskisuuria yrityksiä noudattamaan Sarbanes-Oxley-lainsäädäntöä.
+#### Sarbanes-Oxley: tietojen ja prosessien tarkistaminen
+ 
+Sarbanes-Oxley-laki määrittää kaikkien yhdysvaltalaisten pörssiyhtiöiden hallitusten, johdon ja julkisten kirjanpitoyritysten standardit, mukaan lukien yrityksen sisäisen tilintarkastuksen ohjauksen arvioinnin ja ilmoitusten riittävyys. Tärkeiden manuaalisten ja automatisoitujen ohjausten dokumentointi ja testaaminen sitoo erittäin paljon yritysten aikaa ja resursseja. Business Central soveltuu erityisesti suurten organisaatioiden tytäryhtiöille, ja se auttaa pieniä ja keskisuuria yrityksiä noudattamaan Sarbanes-Oxley-lainsäädäntöä.
 
-> [!NOTE]  
-> **IAS/IFRS: kirjaamis- ja arvostamisstandardit**  
-> Käytettävien paikallisten yleisesti hyväksyttyjen kirjanpitoperiaatteiden mukaan yksi IAS/IFRS:n merkittävistä kirjaamisen ja arvostamisen muutoksista on käyvän arvon periaatteiden laajentaminen historiallisten kustannusten sijaan. [!INCLUDE [prod_short](../includes/prod_short.md)] voi auttaa yrityksiä laskemaan käyvän arvon ja nykyisen nettoarvon (NPV). Nämä käsitteet keskittyvät nykyiseen ja odotettuun kassavirtaan historiallisen ostohinnan sijaan. Raportoinnin osalta se mahdollistaa liiketoimintayksikön ja maantieteellisen sijainnin mukaisen segmenttiraportoinnin.
+#### IAS/IFRS: kirjaamis- ja arvostamisstandardit
+  
+Käytettävien paikallisten yleisesti hyväksyttyjen kirjanpitoperiaatteiden mukaan yksi IAS/IFRS:n merkittävistä kirjaamisen ja arvostamisen muutoksista on käyvän arvon periaatteiden laajentaminen historiallisten kustannusten sijaan. [!INCLUDE [prod_short](../includes/prod_short.md)] voi auttaa yrityksiä laskemaan käyvän arvon ja nykyisen nettoarvon (NPV). Nämä käsitteet keskittyvät nykyiseen ja odotettuun kassavirtaan historiallisen ostohinnan sijaan. Raportoinnin osalta se mahdollistaa liiketoimintayksikön ja maantieteellisen sijainnin mukaisen segmenttiraportoinnin.
 
-> [!NOTE]  
-> **Basel II: vaikutukset raportointiin ja analysointiin**  
-> Kansainvälisen järjestelypankin kehittämä Basel II auttaa varmistamaan rahoitusjärjestelmän suojauksen ja turvallisuuden kolmella alueella: vähimmäispääomavaatimukset, valvojan tarkastusprosessi ja markkinakuri. Vaikka sopimus koskee rahoituslaitoksia eikä se koske pieniä ja keskisuuria yrityksiä, Basel II -sopimus voi vaikuttaa jossain määrin näiden organisaatioiden raportointiin ja analyysiin.
+#### Basel II: vaikutukset raportointiin ja analysointiin
+
+Kansainvälisen järjestelypankin kehittämä Basel II auttaa varmistamaan rahoitusjärjestelmän suojauksen ja turvallisuuden kolmella alueella: vähimmäispääomavaatimukset, valvojan tarkastusprosessi ja markkinakuri. Vaikka sopimus koskee rahoituslaitoksia eikä se koske pieniä ja keskisuuria yrityksiä, Basel II -sopimus voi vaikuttaa jossain määrin näiden organisaatioiden raportointiin ja analyysiin.
 
 ## Katso myös
 
@@ -102,6 +102,6 @@ Microsoft muodostaa Business Centralin lokalisoituja versioita rajoitetulle mä�
 [Palvelun yhteensopivuus](compliance-service-compliance.md)  
 [Sertifikaatit](compliance-certifications.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+## [!INCLUDE[free_trial_md](../includes/free_trial_md.md)]  
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-banner](../includes/footer-banner.md)]

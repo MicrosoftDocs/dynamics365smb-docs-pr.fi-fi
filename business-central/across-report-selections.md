@@ -2,27 +2,27 @@
 title: Raporttien valinta Business Centralissa
 description: Tietoja eri asiakirjatyyppien tulostamiseen tarvittavien raporttien määrittämisestä Business Centralissa.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'setup, reporting'
 ms.search.form: '306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917'
-ms.date: 06/09/2022
-ms.author: bholtorf
+ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
 ---
-# <a name="report-selection-for-documents-in-business-central"></a>Asiakirjojen raporttien valinta Business Centralissa
+# Asiakirjojen raporttien valinta Business Centralissa
 
-Voit määrittää oletusraportteja, joita käytetään myynti-, osto- ja huoltoasiakirjojen, kuten tilausten, tarjousten ja laskujen, tulostamiseen. Jos sinulla on esimerkiksi myyntilaskuissa tietty asettelu, voit määrittää raportin **Raporttivalinnat – myynti** -sivulla, jotta sitä käytetään myyntilaskujen lähettämiseen tai tulostamiseen.  
+Voit määrittää oletusraportteja, joita käytetään myynti-, osto- ja huoltoasiakirjojen, kuten tilausten, tarjousten ja laskujen, tulostamiseen. Jos sinulla on esimerkiksi myyntilaskuissa tietty asettelu, voit määrittää raportin **Raporttivalinnat – myynti** -sivulla. Voit sitten käyttää raporttia, kun lähetät tai tulostat myyntilaskuja.  
 
-## <a name="available-report-selections"></a>Käytettävissä olevat raporttivalinnat
+## Käytettävissä olevat raporttivalinnat
 
-**Raporttivalinnat**-sivu määrittää, mikä raportti tulostetaan eri tilanteissa. [!INCLUDE [prod_short](includes/prod_short.md)] tarjoaa oletusmääritykset, mutta voit muuttaa niitä tarvittaessa. Voit myös lisätä raportteja **Raporttivalinnat**-sivuille, jos haluat että ohjelmassa on esimerkiksi enemmän kuin yksi raportti asiakirjatyyppiä kohden. 
+**Raporttivalinnat**-sivu määrittää, mitkä raportit tulostetaan eri tilanteissa. [!INCLUDE [prod_short](includes/prod_short.md)] tarjoaa oletusmääritykset, mutta voit muuttaa niitä tarvittaessa. Voit myös lisätä raportteja **Raporttivalinnat**-sivuille, jos haluat että ohjelmassa on esimerkiksi enemmän kuin yksi raportti asiakirjatyyppiä kohden. 
 
 Seuraavassa taulukossa kuvataan, mistä voit löytää tietoa eri sivuista.  
 
 |Alue tai tehtävä  |Lisätietoja|
 |--------------|----------|
-|Esimerkki raporttivalinnan toiminnasta (myynti)|[Myyntiasiakirjojen raporttivalinta](#example-report-selection-for-sales-documents) löytyy alta|
+|Esimerkki raporttivalinnan toiminnasta (myynti)|[Myyntiasiakirjojen raporttivalinta](#example-report-selection-for-sales-documents)|
 |Myynti- ja ostoasiakirjojen sähköpostien oletusasettelu  |[Uudelleenkäytettävien sähköpostitekstien ja -asettelujen määrittäminen myynti- ja ostoasiakirjoille](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts) |
 |Sekkien asetteluiden määrittäminen     |[Sekin asettelun valitseminen](finance-how-define-check-layouts.md) |
 |Raporttien määrittäminen arvonlisäveroraportointia (ALV) varten (Saksa)|[ALV- ja Intrastat-raporttien määrittäminen](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
@@ -33,21 +33,23 @@ Seuraavassa taulukossa kuvataan, mistä voit löytää tietoa eri sivuista.
 [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelman oletusversio sisältää seuraavat **Raporttivalinta**-sivut:
 
 * **Raporttivalinta - Myynti**  
-* **Raporttivalinta - Osto**  
-* **Raporttivalinta - Varasto**  
-* **Raporttivalinta - Kassavirta**  
-* **Raporttivalinta - Fyysinen varasto**  
-* **Raporttivalinta - Pankkitili**  
-* **Raporttivalinta – Projekti**  
+* **Raporttivalinta - Projekti**  
 * **Raporttivalinta - Huolto**
+* **Raporttivalinta  - Osto**  
+* **Raporttivalinta - Kassavirta**  
+* **Raporttivalinta - varasto**  
+* **Raporttivalinta - Varasto**  
+* **Raporttivalinta - pankkitili**  
+* **Raporttivalinnat - tuotantotilaus**  
+* **Raporttivalinta - Muistutus- / viivästyskulu**  
 
-## <a name="example-report-selection-for-sales-documents"></a>Esimerkki: Myyntiasiakirjojen raporttivalinta
+## Esimerkki: Myyntiasiakirjojen raporttivalinta
 
 **Raporttivalinta – Myynti** -sivu tarjoaa kullekin liittyvälle asiakirjatyypille eri skenaarioissa käytettävät oletusraportit. Valitse asiakirjatyyppi **Käyttö**-kentässä, lisää tai tarkista raportin valinta. Voit määrittää useamman kuin yhden raportin ja määrittää järjestyksen lajittelun, jossa raportit täytyy lähettää tai tulostaa.  
 
 [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-Et voi lähettää kaikentyyppisiä asiakirjoja sähköpostin liitteinä. Niiden, joita voit, **Raportin valinta** -sivulla on ylimääräisiä kenttiä.  
+Et voi lähettää kaikentyyppisiä asiakirjoja sähköpostin liitteinä. Niiden asiakirjatyyppien, joita voit, **Raportin valinta** -sivulla on ylimääräisiä kenttiä.  
 
 Esimerkiksi **Raporttivalinta – Myynti** ja **Raporttivalinta – Osto** -sivuilla seuraavat kentät auttavat määrittämään sähköpostin:
 
@@ -57,7 +59,7 @@ Esimerkiksi **Raporttivalinta – Myynti** ja **Raporttivalinta – Osto** -sivu
 |**Käytä sähköpostin liitteenä**| Liitä liittyvä asia kirja sähköpostiviestiin.|
 |**Sähköpostin perustekstin asettelun kuvaus**|Määritä käytettävä sähköpostin perustekstin asettelu. Yleensä se on mukautettu raporttiasettelu. |
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Uudelleenkäytettävien sähköpostitekstien ja -asettelujen määrittäminen](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Sekin asettelun valitseminen](finance-how-define-check-layouts.md)  

@@ -9,14 +9,15 @@ ms.search.form: '11, 130'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="set-up-shipment-methods"></a>Toimitusehtojen määrittäminen
+# Toimitusehtojen määrittäminen
 
 Toimitusehdot määräytyvät usein nimikkeiden, asiakkaiden ja toimittajien mukaan. Jos asiakas asuu esimerkiksi saarella, hän voi valita, että nimikkeet toimitetaan aina lentoteitse tai aina meriteitse. Jotkin asiakkaat saattavat haluta toimituksen seuraavana päivänä. Jotkin asiakkaat taas haluavat noutaa tilauksen. Asiakas- ja toimittajakortteihin voit määrittää, kuinka toimitus toteutetaan.
 
 Kullekin toimitusehdolle määritetään kuvaus ja koodi **Toimitusehto**-sivulla. Voit esimerkiksi määrittää koodiksi FOB ja syöttää **Kuvaus**-kenttään Vapaasti aluksessa. Voit syöttää koodin **Toimitusehtokoodi**-kenttään myös muualla järjestelmässä, esimerkiksi asiakaskortissa. Kun tämän jälkeen luot esimerkiksi uusia tilauksia, laskuja ja hyvityslaskuja, järjestelmä syöttää koodin kuvauksen. Voit muuttaa kuvausta tarvittaessa asiakirjassa.
 
-## <a name="to-set-up-a-shipment-method"></a>Toimitustapojen määrittäminen
+## Toimitustapojen määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimitusmuodot** ja valitse sitten vastaava linkki.
 2. Valitse **Toimitusehdot**-sivulla **Uusi**-toiminto.
@@ -25,7 +26,7 @@ Kullekin toimitusehdolle määritetään kuvaus ja koodi **Toimitusehto**-sivull
 > [!TIP]
 > Jos käytät Incotermsiä, määritä toimitustavat edustamaan asianmukaisia Incoterms-sääntöjä.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Kuljetusliikkeiden määrittäminen](sales-how-to-set-up-shipping-agents.md)  
 [Kollien seuraaminen](sales-how-track-packages.md)  

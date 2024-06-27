@@ -12,19 +12,19 @@ ms.collection: bap-ai-copilot
 ms.custom: responsible-ai-faqs
 ---
 
-# <a name="faq-for-sales-line-suggestions-with-copilot-preview"></a>Usein kysyttyjä kysymyksiä Copilotin myyntiriviehdotuksista (esiversio)
+# Usein kysyttyjä kysymyksiä Copilotin myyntiriviehdotuksista (esiversio)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Näissä usein kysytyissä kysymyksissä käsitellään tekoälyn vaikutusta [!INCLUDE [prod_short](includes/prod_short.md)]in myyntiriviehdotuksiin.
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## <a name="what-is-sales-line-suggestions-with-copilot"></a>Mitä Copilotin myyntiriviehdotukset ovat?
+## Mitä Copilotin myyntiriviehdotukset ovat?
 
 Copilotin myyntiriviehdotus voi auttaa luomaan rivejä myyntiasiakirjoihin, kuten myyntitarjouksiin, tilauksiin ja laskuihin, jäsennetyn syötön tai luonnollisen kielen perusteella. Ominaisuus ei ole yleinen keskustelu vaan erittäin kohdistettu ja integroitu kokemus, jota voi käyttää myyntiasiakirjoissa. Ominaisuudessa on kaksi erillistä taitoa, jotka auttavat etsimään yksittäisiä tuotteita tai koko asiakirjoja koskevia tietoja.
 
-## <a name="what-are-capabilities-of-sales-line-suggestions-with-copilot"></a>Copilotin myyntiriviehdotusten ominaisuudet
+## Copilotin myyntiriviehdotusten ominaisuudet
 
 * Tuotteiden etsiminen
 
@@ -34,7 +34,7 @@ Copilotin myyntiriviehdotus voi auttaa luomaan rivejä myyntiasiakirjoihin, kute
 
   Ihmiset toistavat usein edellisen tilauksen tai ainakin käyttävät sitä aloituskohtana. Oikean tilauksen löytäminen tilauspinosta voi olla kuitenkin hankalaa. Muistissa on ehkä tilaustunnuksen osa, joka voi olla yritykselle määritetty numero tai asiakkaalta saatu viitanumero. Kehotteet, kuten *tarvitsen huhtikuun viimeisen laskun*, todennäköisesti nopeuttavat tilauksen löytämistä.
 
-## <a name="what-is-the-intended-use-of-sales-line-suggestions-with-copilot"></a>Mikä on Copilotin myyntiriviehdotusten käyttötarkoitus?
+## Mikä on Copilotin myyntiriviehdotusten käyttötarkoitus?
 
 * Tuotteiden etsiminen
 
@@ -59,13 +59,13 @@ Copilotin myyntiriviehdotus voi auttaa luomaan rivejä myyntiasiakirjoihin, kute
   * *Hae tilauksen103031 tuotteet*
   * *Tarvitsen elokuun viimeisen laskun tuotteet*
 
-## <a name="how-was-sales-line-suggestions-with-copilot-evaluated-what-metrics-are-used-to-measure-performance"></a>Miten Copilotin myyntiriviehdotukset arvioitiin? Mitä mittareita suorituskyvyn mittaamiseen käytetään?
+## Miten Copilotin myyntiriviehdotukset arvioitiin? Mitä mittareita suorituskyvyn mittaamiseen käytetään?
 
 Ominaisuutta testattiin laajasti käyttämällä runsaasti Yhdysvaltain englanninkielisiä kehotteita, jotka ilmaisivat sekä tyypillistä käyttöä että haitallisten toimijoiden käyttöä. Testaus perustui [!INCLUDE [prod_short](includes/prod_short.md)]in esittelytietoihin ja suureen avoimena lähdekoodina saatavana olevaan otsikoituun tuoteluetteloon.
 
 Tämä ominaisuus on rakennettu Microsoftin Vastuullinen tekoäly -standardin mukaisesti. [Lisätietoja Microsoftin vastuullisesta tekoälystä](https://aka.ms/RAI).
 
-## <a name="what-are-the-limitations-of-sales-line-suggestions-with-copilot-how-can-users-minimize-the-impact-of-the-sales-line-suggestions-with-copilot-limitations-when-using-the-system"></a>Mitä rajoituksia Copilotin myyntiriviehdotuksissa on? Miten käyttäjät voivat minimoida Copilotin myyntiriviehdotuksia koskevat rajoitukset, kun he käyttävät järjestelmää?
+## Mitä rajoituksia Copilotin myyntiriviehdotuksissa on? Miten käyttäjät voivat minimoida Copilotin myyntiriviehdotuksia koskevat rajoitukset, kun he käyttävät järjestelmää?
 
 * Tuotteiden etsiminen
   
@@ -113,33 +113,39 @@ Seuraavassa taulukossa on luettelo taulukoista ja kentistä, joista Copilot hake
 
   Copilot ei palauta Nimike-tyypin kaikkia rivejä. Vain nimikenumerot, varianttikoodit ja määrät siirretään. Lähdeasiakirjan määrät muunnetaan **myynnin mittayksiköksi**.
 
-## <a name="in-which-geographies-and-languages-is-sales-lines-suggestions-available"></a>Millä maantieteellisillä alueilla ja kielillä myyntiriviehdotukset ovat saatavana?
+## Millä maantieteellisillä alueilla ja kielillä myyntiriviehdotukset ovat saatavana?
 
-Kanadaa lukuun ottamatta tämä ominaisuus on saatavana kaikissa ympäristöissä, maa- tai aluelokalisoinnissa ja kaikilla tuetuilla kielillä. Rajoitetun kielituen vuoksi ominaisuus ei ole aluksi kanadalaisten asiakkaiden käytettävissä, koska ominaisuus ei ole kielen osalta säädösten mukainen. Tämän ominaisuuden saatavuus niiden maiden ja alueiden asiakasympäristöissä, joissa Azure OpenAI Servicea ei ole otettu käyttöön, edellyttää, että järjestelmänvalvojien on ensin annettava suostumus tietojen siirtämiseen rajojen, jotta [!INCLUDE [prod_short](includes/prod_short.md)] voi muodostaa yhteyden Azure OpenAI Serviceen.  
+- Saatavilla olevat maantieteelliset tilat
 
-## <a name="what-operational-factors-and-settings-allow-for-effective-and-responsible-use-of-the-feature"></a>Mitkä operatiiviset tekijät ja asetukset mahdollistavat ominaisuuden tehokkaan ja vastuullisen käytön?
+   Tämä Copilot-ominaisuus on käytettävissä kaikissa tuetuissa [Business Centralin maissa/alueilla](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). Kuitenkin asiakasympäristöissä, jotka sijaitsevat maissa/alueilla, joissa Azure OpenAI Serviceä ei ole otettu käyttöön, edellytetään sitä, että järjestelmänvalvojien on ensin annettava suostumus tietojen siirtämiseen yli rajojen, jotta [!INCLUDE [prod_short](includes/prod_short.md)] voi muodostaa yhteyden Azure OpenAI Serviceen. Lisätietoja kohdassa [Copilot-tietojen siirtäminen maantieteellisten alueiden välillä](ai-copilot-data-movement.md).
+
+- Käytettävissä olevat kielet
+
+   [!INCLUDE[sales-lines-suggestions-language-support](includes/sales-lines-suggestions-language-support.md)]
+
+## Mitkä operatiiviset tekijät ja asetukset mahdollistavat ominaisuuden tehokkaan ja vastuullisen käytön?
 
 Tekoälypohjaiset ehdotukset voivat joskus olla virheellisiä tai epätäydellisiä. Copilotin ehdotusten oikeellisuus on aina tarkistettava ennen päätöstä ehdotusten säilyttämisestä. Copilotin ehdotuksia ei tallenneta [!INCLUDE [prod_short](includes/prod_short.md)] -tietokantaan ennen **Säilytä se** -painikkeen valintaa ja Copilot-ikkunan sulkemista. Ehdotuksia voi muokata ja korjata joko ennen kuin ne päätetty säilyttää tai sen jälkeen kun ne on lisätty myyntiasiakirjaan.
 
-### <a name="what-is-expected-of-administrators-and-end-users-when-using-sales-lines-suggestions"></a>Mitä järjestelmänvalvojilta ja loppukäyttäjiltä odotetaan myyntiriviehdotuksia käytettäessä?
+### Mitä järjestelmänvalvojilta ja loppukäyttäjiltä odotetaan myyntiriviehdotuksia käytettäessä?
 
 Kukin yksittäinen käyttäjä tekee oman valinnan **myyntiriviehdotusten** käyttämisestä. Vaikka järjestelmänvalvoja on ottanut ominaisuuden käyttöön ja se on käytettävissä, käyttäjä voi valita, käytetäänkö sitä aina, joskus vai ei koskaan.  
 
-Järjestelmänvalvojat päättävät viime kädessä, käytetäänkö Copilotin ominaisuuksia [!INCLUDE [prod_short](includes/prod_short.md)]issa. Jos järjestelmänvalvojat ottavat Copilotin käyttöön, heidän on varmistettava, että he myöntävät sen käyttöoikeuden soveltuville käyttäjille.   
+Järjestelmänvalvojat päättävät viime kädessä, käytetäänkö Copilotin ominaisuuksia [!INCLUDE [prod_short](includes/prod_short.md)]issa. Jos järjestelmänvalvojat ottavat Copilotin käyttöön, heidän on varmistettava, että he myöntävät sen käyttöoikeuden soveltuville käyttäjille.
 
-> [HUOMAUTUS!]
+> [!NOTE]
 > - Ominaisuutta ei tueta [!INCLUDE [prod_short](includes/prod_short.md)]in paikallisissa versioissa tai yksityisessä pilvessä.
 > - Kumppanit eivät voi laajentaa tätä ominaisuutta. Niinpä kumppanikehittäjät eivät voi muokata, korvata eivätkä laajentaa sitä.
 
-## <a name="is-copilot-the-only-means-to-create-sales-lines"></a>Onko Copilot ainoa tapa luoda myyntirivejä?
+## Onko Copilot ainoa tapa luoda myyntirivejä?  
 
 Ei. Copilotin käyttö on valinnaista. [!INCLUDE [prod_short](includes/prod_short.md)]issa on muita kuin tekoälypohjaisia tapoja lisätä myyntirivejä ja kopioida asiakirjoja. Organisaatiot voivat käyttää molempia vaihtoehtoja samanaikaisesti.  
 
-## <a name="how-do-i-give-feedback-about-ai-generated-content"></a>Miten annetaan palautetta tekoälyn luomasta sisällöstä?
+## Miten annetaan palautetta tekoälyn luomasta sisällöstä?  
 
 Aina kun Copilot tekee ehdotuksia, voit antaa palautetta Microsoftille suoraan Copilot-ikkunasta Tykkää- ja Ei tykkää -painikkeilla. Palaute pysyy anonyymina, ja näitä tietoja käytetään palvelun laadun parantamiseen.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Rivien ehdottaminen myyntitilaukseen Copilotin avulla](sales-suggest-sales-lines-with-copilot.md)  
 [Copilotin ja tekoälyn ominaisuuksien määrittäminen](enable-ai.md)  

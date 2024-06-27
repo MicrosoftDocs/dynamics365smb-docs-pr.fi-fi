@@ -1,29 +1,27 @@
 ---
-title: Pankkitilien määrittäminen (sisältää videon)
+title: Pankkitilien määrittäminen
 description: Tietoja pankkitilien käytöstä Business Centralissa ja summien täsmäyttämisestä pankin kanssa.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'Yodlee, feed, stream'
 ms.search.form: '370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280'
-ms.date: 08/03/2023
+ms.date: 05/24/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-bank-accounts"></a>Pankkitilien määrittäminen
+# Pankkitilien määrittäminen
 
-[!INCLUDE[prod_short](includes/prod_short.md)] seuraa pankkitapahtumia pankkitilien avulla. Tilit voidaan määrittää käyttämään paikallista valuuttaa tai ulkomaan valuuttaa. Kun olet määrittänyt pankkitilit, voit myös käyttää Sekin tulostus -vaihtoehtoa. Pankkitilit sisältävät lisätoimintoja maksujen [täsmäytystä](receivables-apply-payments-auto-reconcile-bank-accounts.md), [pankkitäsmäytystä](bank-how-reconcile-bank-accounts-separately.md) sekä pankkitiedostojen tuontia ja vientiä varten. Pankkitilit voidaan sisällyttää myös yleisten päiväkirjojen tapahtumiin. Kukin pankkitili linkitetään tilikartassa olevaan tiliin määritetyn pankkitilin kirjausryhmän kautta. Pankkitilin käyttö maksutapahtumassa luo automaattisesti tapahtuman sekä pankkitilille että yhdistetylle pääkirjanpitotilille (KP).  
+[!INCLUDE[prod_short](includes/prod_short.md)] seuraa pankkitapahtumia pankkitilien avulla. Tilit voidaan määrittää käyttämään paikallista valuuttaa tai ulkomaan valuuttaa. Kun olet määrittänyt pankkitilit, voit myös tulostaa sekkejä. Pankkitilit tarjoavat lisäksi toimintoja [maksujen täsmäytystä](receivables-apply-payments-auto-reconcile-bank-accounts.md), [pankkitäsmäytystä](bank-how-reconcile-bank-accounts-separately.md) sekä pankkitiedostojen tuontia ja vientiä varten.
+
+Voit sisällyttää pankkitilejä yleisen päiväkirjan tapahtumiin. Kukin pankkitili linkitetään tilikartassa olevaan tiliin määritetyn pankkitilin kirjausryhmän kautta. Pankkitilin käyttö maksutapahtumassa luo automaattisesti tapahtuman sekä pankkitilille että yhdistetylle pääkirjanpitotilille (KP).  
 
 Pankkitilit toimivat eri tavalla sen mukaan, onko valuuttakoodi määritetty:
 
-- Jos valuuttakoodi on tyhjä
-
-  Kaikki pankkitilin tapahtumat ovat nykyisen yrityksen paikallisena valuuttana (PVA). Jos tilille tehdään tapahtuma toisena valuuttana, summat kirjataan tilille PVA:na asianmukaisen valuutan vaihtokurssin perusteella. Kaikki tältä tililtä myönnetyt sekit on annettava PVA:na. Jos pankkitiliä käytetään kirjauskansiossa, päiväkirjan rivi perii automaattisesti tyhjän valuuttakoodin.  
+- Mikäli valuuttakoodia ei ole määritetty, kaikki pankkitilin tapahtumat ovat nykyisen yrityksen paikallisena valuuttana (PVA). Jos teet tilille tapahtuman toisena valuuttana, summat kirjataan tilille PVA:na asianmukaisen valuutan vaihtokurssin perusteella. Kaikkien tältä tililtä myönnettyjen sekkien on oltava PVA:na. Jos pankkitiliä käytetään kirjauskansiossa, päiväkirjan rivi käyttää automaattisesti tyhjää valuuttakoodia.  
   
-- Valuuttakoodi on määritetty
-
-  Kaikkien tälle tilille tehtyjen tapahtumien ja siltä tehtyjen shekkien on oltava siinä valuutassa, joka tilillä on määritetty.
+- Jos valuuttakoodi on määritetty, kaikissa tälle tilille tehdyissä tapahtumissa ja kaikissa siltä annetuissa shekeissä on käytettävä samaa valuuttaa kuin tili.
 
 Voit säästää tietojen syöttämiseen käytettävän ajan tekemällä pankkitilistä tilille määritetyn valuutan oletustilin. Jos teet näin, tili liitetään myynti- ja huoltoasiakirjoihin, jotka käyttävät valuuttaa. Kun haluat tehdä tilistä myynti- ja huoltoasiakirjojen oletustilin, Ota **Pankkitilin kortti** -sivulla käyttöön **Käytä oletusvaluuttana** -valitsin. Voit tarvittaessa valita eri tilin, kun käsittelet asiakirjaa.
 
@@ -31,22 +29,22 @@ Pankkitili on oleellinen osa [!INCLUDE[prod_short](includes/prod_short.md)] -ohj
 
 ![Kuva pankkitilien suhteista.](media/Set-Up-Bank-Accounts/Bank_Account_Relations.png)
 
-Tämä tarkoittaa, että pankkitilin luominen asettaa sen saataville kaikissa yllä mainituissa paikoissa. Lisäksi se peilataan asiaankuuluvalle KP-tilille ja **Yrityksen tiedot** -sivulle.
+Pankkitilin luominen asettaa sen saataville kaikissa kuvauksessa mainituissa paikoissa. Lisäksi se peilataan asiaankuuluvalle KP-tilille ja **Yrityksen tiedot** -sivulle.
 
-Pankkitiliä seurataan yleensä päivittäin, jotta mahdolliset uudet maksut asiakkailta rekisteröidään mahdollisimman nopeasti. Tämä auttaa varmistamaan, että asiakkaan todellinen tila näkyy [!INCLUDE[prod_short](includes/prod_short.md)] -kentässä. Tämän ansiosta myyjät, kirjanpitäjät ja muut työntekijät voivat käyttää asianmukaisimpia ja ajan tasalla olevia tietoja, jolloin he eivät tee tarpeettomia puheluja asiakkaalle erääntyneistä laskuista tai toimitusten viivästyksistä.  
+Pankkitilejä seurataan usein päivittäin, jotta mahdolliset uudet maksut asiakkailta rekisteröidään mahdollisimman nopeasti. Maksujen nopea rekisteröinti auttaa varmistamaan, että asiakkaan todellinen tila näkyy [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa. Asiakasmaksujen tilan säilyminen ajan tasalla auttaa myyjia, kirjanpitäjiä ja muita työntekijöitä, että he eivät soita tarpeettomia puheluita erääntyneistä laskuista tai toimitusten viivästyksistä.  
 
 ![Kuva pankkimaksusta.](media/Set-Up-Bank-Accounts/Bank-payment-flow.png)
 
-Toinen tehtävä on tuoda toimittajan valuuttamaksut ja toteutuneet valuuttakurssit, jotta varmistetaan, että toimittajien todellinen tila on ajan tasalla. [Maksun täsmäytys](receivables-apply-payments-auto-reconcile-bank-accounts.md) -toiminto on helpoin tapa tehdä se. **Maksujen täsmäytyskirjauskansiossa** voit tuoda pankkitapahtumia suoraan verkkopankkisovelluksesta ja kirjata ne enemmän tai vähemmän automaattisesti. Päiväkirja tunnistaa ja kirjaa automaattisesti seuraavaa:  
+Toinen tehtävä on tuoda toimittajan valuuttamaksut ja toteutuneet valuuttakurssit, jotta varmistetaan, että toimittajien todellinen tila on ajan tasalla. [Maksun täsmäytys](receivables-apply-payments-auto-reconcile-bank-accounts.md) -toiminto on helpoin tapa tehdä se. **Maksujen täsmäytyskirjauskansiossa** voit tuoda pankkitapahtumia suoraan verkkopankkisovelluksesta ja kirjata ne enemmän tai vähemmän automaattisesti. Päiväkirja tunnistaa ja kirjaa automaattisesti seuraavia tapahtumia:  
 
-- Suoraveloitusmaksut asiakkailta  
-- Asiakasmaksut yksittäisistä laskuista  
-- Kokonaissummamaksut asiakkailta  
-- Asiakasmaksut ulkomaan valuutoissa  
-- Toimittajamaksut  
-- Toimittajamaksut ulkomaan valuutoissa  
-- Toistuvat toimittajamaksut ja tilaukset  
-- Pankkikulut ja -korot  
+- Suoraveloitusmaksut asiakkailta.  
+- Asiakasmaksut yksittäisistä laskuista.  
+- Kokonaissummamaksut asiakkailta.  
+- Asiakasmaksut ulkomaan valuutoissa.  
+- Toimittajamaksut.  
+- Toimittajamaksut ulkomaan valuutoissa.  
+- Toimittajamaksut ja tilaukset, jotka ovat toistuvia.  
+- Pankkikulut ja -korot.  
 
 Maksujen täsmäytys säästää merkittävästi aikaa saapuvien ja lähtevien maksujen kirjaamisessa. Pankkitilin tapahtumia [!INCLUDE[prod_short](includes/prod_short.md)]issa ei kuitenkaan pidetä 100-prosenttisen oikeina, ennen kuin suoritat pankkitäsmäytyksen.  
 
@@ -54,15 +52,15 @@ Pankkitäsmäytyksellä varmistat, että pankkitili [!INCLUDE[prod_short](includ
 
  ![Kuva pankkitilien täsmäytyksestä.](media/Set-Up-Bank-Accounts/BankReconciliation.png)
 
-Yllä olevassa kuvassa vasemmanpuoleisin puoli edustaa pankkitiliä [!INCLUDE[prod_short](includes/prod_short.md)]issa ja oikeimmanpuoleisin puoli edustaa pankista verkkopankkisovelluksen kautta tuotuja tapahtumia. Keskellä olevassa kaaviossa näkyvät tapahtumat molemmilta puolilta, eli pankkitäsmäytys.
+Kuvassa vasen puoli edustaa pankkitiliä [!INCLUDE[prod_short](includes/prod_short.md)]issa ja oikea puoli edustaa pankista verkkopankkisovelluksen kautta tuotuja tapahtumia. Keskellä olevassa kaaviossa näkyvät tapahtumat molemmilta puolilta, eli pankkitäsmäytys.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] -pankkitilin useimpien tapahtumien tulisi olla fyysisen pankin tiedossa. Poikkeuksiin kuuluu muutamia tapauksia:  
 
-- [!INCLUDE[prod_short](includes/prod_short.md)]iin kirjatut korjaukset  
-- Myönnetyt sekit, joita ei ole vielä lunastettu 
-- Toimittajan maksut, joita pankki ei ole vielä hyväksynyt  
+- [!INCLUDE[prod_short](includes/prod_short.md)]iin kirjatut korjaukset.  
+- Lähetetyt sekit, joita ei ole lunastettu.
+- Toimittajan maksut, joita pankki ei ole vielä hyväksynyt.  
 
-Pankin fyysisen tilin tapahtumat, joita ei ole tunnistettu maksujen täsmäytyskirjauskansiossa, kuten seuraavat:  
+Pankin fyysisen tilin tapahtumat, joita ei ole tunnistettu maksujen täsmäytyskirjauskansiossa, kuten seuraavat tapahtumat:  
 
 - Uudet toimittajatilaukset  
 - Asiakasmaksut ilman kuvausta
@@ -72,7 +70,7 @@ Pankin fyysisen tilin tapahtumat, joita ei ole tunnistettu maksujen täsmäytysk
 
 Mitä parempia yhdistämistietoja teet maksujen täsmäytyskirjauskansiossa, sitä enemmän tapahtumia kirjataan automaattisesti ja sitä helpompaa kausittainen pankkitäsmäytys on.
 
-Katso alla olevasta videosta perusvaiheet pankkitilin määrittämiseksi [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa.
+Seuraava video näyttää perusvaiheet pankkitilin määrittämiseksi [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa.
 
 <br /><br />
 
@@ -81,7 +79,7 @@ Katso alla olevasta videosta perusvaiheet pankkitilin määrittämiseksi [!INCLU
 > [!WARNING]
 > Jotkin kentät voivat sisältää luottamuksellisia tietoja, kuten kentät **Pankkikonttorin nro**, **Pankkitilin numero**, **SWIFT-koodi** ja **IBAN-koodi**. Lue lisää kohdasta [Valvo arkaluontoisia kenttiä](across-log-changes.md#monitor-sensitive-fields).
 
-## <a name="to-set-up-bank-accounts"></a>Pankkitilien määrittäminen
+## Pankkitilien määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit**, valitse sitten vastaava linkki.
 2. Valitse **Pankkitilit**-sivulla **Uusi**-toiminto.
@@ -151,16 +149,16 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that is exported when you choose **Export Payments to File** on the **Payment Journal** page.|
 -->
 
-## <a name="to-enter-an-opening-balance"></a>Alkusaldon syöttäminen
+## Alkusaldon syöttäminen
 
-Voit täyttää **Saldo**-kenttään alkusaldon, kun pankkitilitapahtuma ja kyseinen summa on kirjattu. Voit tehdä tämän suorittamalla pankkitilin täsmäytyksen. Lisätietoja on kohdassa [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md).  
+Voit täyttää **Saldo**-kenttään alkusaldo, kun pankkitilitapahtuma ja kyseinen summa on kirjattu. Tapahtuma kirjataan pankkitilin täsmäytyksen kautta. Lisätietoja on kohdassa [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md).  
 >
 > Vaihtoehtoisesti voit ottaa käyttöön alkusaldon osana yleistietojen luontia uusissa yrityksissä käyttämällä asetusten ohjattua **Siirrä yritystiedot** -määritysopasta. Lue lisätietoja kohdasta [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
 
 > [!IMPORTANT]
-> Älä kirjaa alkusaldoa suoraan pääkirjanpitoon. Jos KP-tilillä on kirjauksia, jotka on kirjattu siihen suoraan, et yleensä pysty täsmäyttämään pankkitiliä. Valuuttamääräisten pankkitilien kohdalla tällainen käytäntö johtaa erojen kertymiseen, kun kirjaat lisää pankkitilin täsmäytyksiä. Usein pankin avaussaldo kirjataan suoraan pankkitilille, ja summa päätyy KP-tiliin. Voit vaihtoehtoisesti kumota sen myöhemmin sellaisen KP-tilin osalta, jota käytät pääkirjanpidon avaussaldon tasapainottamista varten. Molemmissa tapauksissa sinun on tasapainotettava mahdolliset suorat kirjaukset KP-tiliin ennen ensimmäisen pankkitäsmäytyksen aloittamista&mdash;erityisesti silloin, kun pankkitili käyttää ulkomaan valuuttaa.
+> Älä kirjaa alkusaldoa suoraan pääkirjanpitoon. KP-tilin kirjaukset, jotka on kirjattu siihen suoraan, yleensä estävät sen, että pystyt täsmäyttämään pankkitiliä. Valuuttamääräisten pankkitilien kohdalla suorat kirjaukset johtavat erojen kertymiseen, kun kirjaat lisää pankkitilin täsmäytyksiä. Usein pankin avaussaldo kirjataan suoraan pankkitilille, ja summa päätyy KP-tiliin. Voit vaihtoehtoisesti kumota sen myöhemmin sellaisen KP-tilin osalta, jota käytät pääkirjanpidon avaussaldon tasapainottamista varten. Molemmissa tapauksissa sinun on tasapainotettava mahdolliset suorat kirjaukset KP-tiliin ennen ensimmäisen pankkitäsmäytyksen aloittamista&mdash;erityisesti silloin, kun pankkitili käyttää ulkomaan valuuttaa.
 
-## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Pankkitilin määrittäminen pankkitiedostojen tuontia tai vientiä varten
+## Pankkitilin määrittäminen pankkitiedostojen tuontia tai vientiä varten
 
 **Pankkitilin kortti** -sivun **Siirto**-pikavälilehden kentät liittyvät pankkisyötteiden ja -tiedostojen tuontiin ja vientiin. Lue lisätietoja on kohdissa [AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md) ja [Envestnet Yodlee Bank Feeds -palvelun määrittäminen](bank-how-setup-bank-statement-service.md).
 
@@ -173,15 +171,15 @@ Voit täyttää **Saldo**-kenttään alkusaldon, kun pankkitilitapahtuma ja kyse
 
 Pankkitilin **Siirto**-pikavälivälilehden kentät palvelevat eri tarkoituksia sen mukaan, onko maksu saapuva vai lähtevä.
 
-Alla oleva kuva näyttää saapuvien maksujen reitin (kuvauksen numerot vastaavat kuvassa olevia numeroita):
+Seuraavassa kuvassa on saapuvien maksujen reitti. Kuvauksen numerot vastaavat kuvassa olevia numeroita.
 
 :::row:::
     :::column:::
 
 1. Tapahtumat viedään pankkitililtä joko ihmisen luettavissa olevassa .csv-muodossa tai pankin omassa muodossa.
-2. *Tiedonsiirtomääritys* yhdistää tiedoston tiedot kenttiin [!INCLUDE[prod_short](includes/prod_short.md)]issa. Lisätietoja kohdassa [Tietojen vaihdon määrittäminen](across-set-up-data-exchange.md)
-3. *Tietojen vienti- ja tuontiasetukset* määrittävät viennin tai tuonnin, ja ne linkittyvät tiedonsiirtomääritykseen.
-4. *Tiliotteiden tuontimuoto* linkittää tuontiasetukset pankkitiliin.
+2. Tiedonsiirtomääritys yhdistää tiedoston tiedot kenttiin [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa. Lisätietoja kohdassa [Tietojen vaihdon määrittäminen](across-set-up-data-exchange.md)
+3. Tietojen vienti- ja tuontiasetukset määrittävät viennin tai tuonnin, ja ne linkittyvät tiedonsiirtomääritykseen.
+4. Tiliotteiden tuontimuoto linkittää tuontiasetukset pankkitiliin.
 5. Maksut tuodaan joko **maksujen täsmäytyskirjauskansio**- tai **pankkitilin täsmäytys** -sivun kautta.
 
   :::column-end:::
@@ -194,15 +192,15 @@ Alla oleva kuva näyttää saapuvien maksujen reitin (kuvauksen numerot vastaava
 
 Saapuvat maksut tuodaan aina **maksujen täsmäytyskirjauskansio** -sivun kautta tai suoraan **pankkitilin täsmäytys** -sivulle. Sitä vastoin lähtevät maksut voivat olla peräisin mistä tahansa maksupäiväkirjasta. Ainoa edellytys on, että **Salli maksun vienti** -kenttä on valittuna asiaankuuluvassa maksupäiväkirjaerässä.
 
-Alla oleva kuva näyttää lähtevien maksujen reitin (kuvauksen numerot vastaavat kuvassa olevia numeroita):
+Seuraavassa kuvassa on lähtevien maksujen reitti. Kuvauksen numerot vastaavat kuvassa olevia numeroita.
 
 :::row:::
     :::column:::
 
 6. Tapahtumat, jotka täytetään maksupäiväkirjaan, joka on valmisteltu maksujen tiedostoon viemistä varten.
-7. *Tiliotteiden tuontimuoto* linkittää tuontiasetukset pankkitiliin.
-8. *Tietojen vienti- ja tuontiasetukset* määrittävät viennin tai tuonnin, ja ne linkittyvät tiedonsiirtomääritykseen.
-9. *Tiedonsiirtomääritys* yhdistää tiedoston tiedot kenttiin [!INCLUDE[prod_short](includes/prod_short.md)]issa. Lisätietoja kohdassa [Tietojen vaihdon määrittäminen](across-set-up-data-exchange.md)
+7. Tiliotteiden tuontimuoto linkittää tuontiasetukset pankkitiliin.
+8. Tietojen vienti- ja tuontiasetukset määrittävät viennin tai tuonnin, ja ne linkittyvät tiedonsiirtomääritykseen.
+9. Tiedonsiirtomääritys yhdistää tiedoston tiedot kenttiin [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa. Lisätietoja kohdassa [Tietojen vaihdon määrittäminen](across-set-up-data-exchange.md)
 10. Maksut viedään maksupäiväkirjasta ja tuodaan pankkitilille.
 
   :::column-end:::
@@ -213,13 +211,13 @@ Alla oleva kuva näyttää lähtevien maksujen reitin (kuvauksen numerot vastaav
   :::column-end:::
 :::row-end:::
 
-## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Toimittajan pankkitilien määrittäminen pankkitiedostojen vientiä varten
+## Toimittajan pankkitilien määrittäminen pankkitiedostojen vientiä varten
 
 **Toimittajan pankkitilin kortti** -sivun **Siirto**-pikavälilehden kentät liittyvät pankkisyötteiden ja -tiedostojen vientiin. Lisätietoja on kohdassa [AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md) ja [Maksujen vieminen pankkitiedostoon](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 [!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
-## <a name="changing-your-bank-account"></a>Pankkitilin vaihtaminen
+## Pankkitilin vaihtaminen
 
 Käyttääksesi yrityksessäsi toista pankkitiliä, sinun on luotava uusi pankkitili [!INCLUDE[prod_short](includes/prod_short.md)]issa. Suosittelemme, ettet vain korvaa tällä hetkellä käyttämäsi tilin tietoja, koska se voi aiheuttaa virheellisiä tietoja. Esimerkiksi avaussaldosi voi olla virheellinen tai pankkisyöte saattaa lakata toimimasta oikein. On tärkeää, että pidät nykyiset ja uudet tilit erillään.
 
@@ -230,7 +228,7 @@ Kun olet luonut uuden pankkitilin, luo myös uusi pankin kirjausryhmä ja määr
 
 Jos haluat tarkastella käteistilejäsi tarkemmin taloudellisessa raportoinnissa, käytä **Alkusumma**- ja **Loppusumma**-tilejä tilikartassasi, **Summausväli**-rivejä taloudellisissa raporteissa tai KP-tililuokkia. Lisätietoja on kohdassa [Liiketoimintatiedot ja Financial Reporting](bi.md).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  
 [Kirjausryhmien määrittäminen](finance-posting-groups.md)  

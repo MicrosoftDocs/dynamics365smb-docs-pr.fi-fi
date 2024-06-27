@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 09/22/2022
+ms.date: 06/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -9,10 +9,10 @@ ms.reviewer: bholtorf
 
 Seuraavassa taulukossa kuvataan joitakin keskeisiä talousraportteja.
 
-| Raportti | Kuvaus | Tunnus | 
+| Raportti | Kuvaus | Tunnus |
 |--|--|--|
 | [Alustava saldo](https://businesscentral.dynamics.com?report=6) | Raportissa näkyy tilikartta saldoineen ja nettomuutoksineen. Voit tarkastella tiettyjen dimensioiden alustavia saldoja tai käyttää raporttia kirjanpitojakson tai tilikauden päättyessä. | 6 |
-| [Alustava saldo jakson mukaan](https://businesscentral.dynamics.com?report=38) | Tässä raportissa on KP-tilikohtainen alkusaldo, valitun jakson (kuukauden, vuosineljänneksen tai vuoden) tapahtumat ja tuloksena oleva loppusaldo. <br>Vinkki: Voidaan käyttää voiton ja tappion (V & T) näyttämiseen kunkin kuukauden kokonaissummalla.| 38 |
+| [Alustava saldo jakson mukaan](https://businesscentral.dynamics.com?report=38) | Tässä raportissa on KP-tilikohtainen alkusaldo, valitun jakson (kuukauden, vuosineljänneksen tai vuoden) tapahtumat ja tuloksena oleva loppusaldo. <br>Vinkki: Raportti voi näyttää voiton ja tappion (V & T) kunkin kuukauden kokonaissummalla.| 38 |
 | [Alustava saldo/budjetti](https://businesscentral.dynamics.com?report=9) | Raportissa näkyy alustava saldo verrattuna budjettiin. Voit haluta esimerkiksi tarkastella tiettyjen dimensioiden alustavia saldoja. Raporttia voi käyttää kirjanpitojakson tai tilikauden päättyessä. | 9 |
 | [Eritelty alustava saldo](https://businesscentral.dynamics.com?report=4) | Raportissa näkyy eritelty alustava saldo valituilta KP-tileiltä. Asettamalla suodattimia voit määrittää, mitkä tilit sisällytetään eräajoon. Raporttia voi käyttää kirjanpitojakson tai tilikauden päättyessä. | 4 |
 | [Alustava saldo / edellinen vuosi](https://businesscentral.dynamics.com?report=7) | Tässä raportissa näkyy alustava saldo verrattuna edellisen vuoden lukuihin. Voit haluta esimerkiksi tarkastella tiettyjen dimensioiden alustavia saldoja. Raporttia voi käyttää kirjanpitojakson tai tilikauden päättyessä. *Edellinen vuosi* tarkoittaa tässä samaa jaksoa yhtä kalenterivuotta aikaisemmin. | 7 | 

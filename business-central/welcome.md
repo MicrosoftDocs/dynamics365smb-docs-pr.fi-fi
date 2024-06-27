@@ -4,9 +4,11 @@ description: 'Tutustu Business Centralin ominaisuuksiin ja työskenaarioihin, jo
 author: jswymer
 ms.topic: landing-page
 ms.devlang: al
-ms.date: 05/22/2023
+ms.date: 05/23/2024
 ms.author: jswymer
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin
 
@@ -66,22 +68,38 @@ Seuraavat osiot viittaavat tärkeimpiin artikkeleihin, joiden avulla voit tutust
 - [Kehittäminen ja hallinto](/dynamics365/business-central/dev-itpro/index)
 - [Kokeilut ja tilaukset](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 - [AL-kehittäminen](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
-- [AL-kehitysympäristö](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
+- [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [AL-koodin säännöt ja ohjeistus](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
+
+## Copilot- ja tekoälysisältö
+
+- [Yleiskatsaus](copilot-overview.md)
+- Toiminnot
+  - [Luetteloiden tietojen analysointi Copilotin avulla](analysis-assist.md)
+  - [Pankkitilien täsmäyttäminen Copilotin avulla](bank-reconciliation-with-copilot.md)
+  - [Keskustelu Copilotin avulla](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+  - [Markkinointitekstiehdotusten yleiskatsaus](ai-overview.md)
+  - [Rivien ehdottaminen myyntitilaukseen Copilotin avulla](sales-suggest-sales-lines-with-copilot.md)
+  - [Sähköisten asiakirjojen yhdistäminen ostotilausriveille Copilotin avulla](map-edocuments-with-copilot.md)
+- Hallinta
+  - [Copilot- ja tekoälyominaisuuksien määrittäminen](enable-ai.md)
+  - [Vastuullisen tekoälyn usein kysytyt kysymykset](responsible-ai-overview.md)
+- Kehittämismenot
+  - [Copilotin laajentaminen Business Centralissa](/dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page)
 
 ## Microsoft Learn -koulutus
 
 Etsi maksutonta verkko-oppimissisältöä sovelluksesta [!INCLUDE[prod_short](includes/prod_short.md)] [Microsoft Learn -koulutuksesta](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).
 
-Videokirjastossa voi katsoa myös uusia ja usein käytettyjä ominaisuuksia koskevia videoita. Lisätietoja on [videokirjastossamme](across-videos.md).  
+Videokirjastossa voi katsoa myös uusia ja usein käytettyjä ominaisuuksia koskevia videoita. Lisätietoja on osoitteessa [Visit Our Video Library](across-videos.md).  
 
 ## Yhteisöresurssit
 
 - [Microsoft Dynamics 365 Business Central -yhteisön keskustelupalsta](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  
-- [Microsoft Dynamics 365 Business Central Dynamics 365 -blogissa](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
+- [Microsoft Dynamics 365 Business Central Dynamics 365 -blogissa](https://www.microsoft.com/dynamics-365/blog/business-leader/product/dynamics-365-business-central/)  
 - [Microsoft Dynamics 365:n julkaisusuunnitelmat](/dynamics365/release-plans/)  
-- [Microsoft Dynamics 365 Business Central -sovelluksen toteutussuunnitelma](https://dynamics.microsoft.com/roadmap/business-central/)  
-- [Microsoftin kumppaniverkosto \(käyttöön tarvitaan Microsoftin kumppaniverkoston jäsentili\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)  
+- [Microsoft Dynamics 365 Business Centralin julkaisusuunnittelija](https://releaseplans.microsoft.com/?app=Business+Central&group=dynamics-365&subgroup=dynamics-365-business-central) 
+- [Microsoftin kumppaniverkosto \(käyttöön tarvitaan Microsoftin kumppaniverkoston jäsentili\)](https://mspartner.microsoft.com)  
 
 ## Ilmoitukset tehdyistä muutoksista RSS-syötteen kautta
 
@@ -104,8 +122,8 @@ Videokirjastossa voi katsoa myös uusia ja usein käytettyjä ominaisuuksia kosk
 [Uudet ja muuttuneet ominaisuudet](/dynamics365/business-central/dev-itpro/whatsnew/overview)  
 [Business Central Onlinen suuret ja pienet päivitykset](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  
 [Dynamics 365:n ohjeistus](/dynamics365/)  
-[Dynamics 365 Business Central microsoft.comissa](https://dynamics.microsoft.com/business-central/overview/)  
-[Tutki Dynamics 365 Business Central -ominaisuuksia](https://dynamics.microsoft.com/business-central/capabilities/)  
+[Dynamics 365 Business Central microsoft.comissa](https://www.microsoft.com/dynamics-365/products/business-central/)  
+[Tutki Dynamics 365 Business Central -ominaisuuksia](https://www.microsoft.com/en-us/dynamics-365/products/business-central#Features)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 

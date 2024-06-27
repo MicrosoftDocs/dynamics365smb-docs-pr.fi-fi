@@ -1,11 +1,12 @@
 ---
 author: jswymer
 ms.topic: include
-ms.date: 11/01/2023
+ms.date: 06/10/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
-Markkinointitekstiehdotuksia tuetaan vain seuraavilla kielillä ja alueilla:
+Tämä Copilot-ominaisuus on vahvistettu vain seuraaville kielille:
 
 |Kieli|Alueet|
 |-|-|
@@ -17,3 +18,5 @@ Markkinointitekstiehdotuksia tuetaan vain seuraavilla kielillä ja alueilla:
 |hollanti|nl-NL, nl-BE|
 |italia|it-IT, it-CH|
 |japani|ja-JP|
+
+Vaikka sitä voi käyttää muilla kielillä, se ei välttämättä toimi tarkoitetulla tavalla. Kielen laatu voi vaihdella käyttäjän vuorovaikutus- tai järjestelmäasetusten mukaan, mikä voi vaikuttaa tarkkuuteen ja käyttökokemukseen.

@@ -8,16 +8,16 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 04/10/2024
+ms.date: 06/10/2024
 ms.custom: bap-template
 ---
 
 # Sähköisten asiakirjojen yhdistäminen ostotilausriveille Copilotin avulla (esiversio)
 
-Hankintaprosessien digitalisoituessa Business Centralin sähköisten asiakirjojen ominaisuudella on merkittävä tehtävä toimittajan laskujen vastaanoton ja käsittelyn automatisoinnissa. Copilot voi auttaa tässä prosessissa parantamalla toimittajan laskujen yhdistämistä ja kohdistamista ostotilauksiin. Tämä vähentää aikaavieviä tehtäviä, jotka muuten sisältäisivät runsaasti hakuja, valintoja ja tieto syöttämistä. Lisähyötyä saadaan sen vuoksi, että toimittajan laskut eivät useinkaan vastaa tarkalleen ostotilauksia, minkä vuoksi Copilot pystyy tunnistamaan paremmin vastaavat ostotilaukset. Etenkin parannetuista kohdistusominaisuuksista on hyötyä pienille ja keskisuurille organisaatioille, jotka tarvitsevat tehokkaan asiakirjaseurannan ostotilausrivien osalta. Copilot on tekoälypohjainen avustaja, jonka käyttö edistää Business Central -käyttäjien luovuutta ja parantaa tuottavuutta.
+Hankintaprosessien digitalisoituessa Business Centralin sähköisten asiakirjojen ominaisuudella on merkittävä tehtävä toimittajan laskujen vastaanoton ja käsittelyn automatisoinnissa. Copilot voi auttaa tässä prosessissa parantamalla toimittajan laskujen yhdistämistä ja kohdistamista ostotilauksiin. Tämä avustus vähentää aikaa vieviä tehtäviä, jotka muuten sisältäisivät runsaasti hakuja, valintoja ja tieto syöttämistä. Toinen etu on se, että toimittajan laskut eivät liity ostotilauksiin täysin. Tällöin Copilotilla on hyvät positiot vastaavien ostotilausten yksilöimiseksi. Etenkin parannetuista kohdistusominaisuuksista on hyötyä pienille ja keskisuurille organisaatioille, jotka tarvitsevat tehokkaan asiakirjaseurannan ostotilausrivien osalta. Copilot on tekoälypohjainen avustaja, jonka käyttö edistää Business Central -käyttäjien luovuutta ja parantaa tuottavuutta.
 
 > [!IMPORTANT]
-> - Tämä on tuotantovalmis esiversio tuotanto- ja eristysympäristöihin Kanadaa lukuun ottamassa kaikissa maakohtaisissa lokalisoinneissa.
+> - Tämä on tuotantovalmis esiversio tuotanto- ja eristysympäristöihin maakohtaisissa lokalisoinneissa<!-- with the exception of Canada -->.
 > - Tuotantovalmista esiversiota koskevat ominaisuuksien lisäkäyttöehdot. Lisätietoja: [Dynamics 365:n esiversion lisäkäyttöehdot](https://go.microsoft.com/fwlink/?linkid=2105274)
 > - Tekoälyn luoma sisältö voi olla virheellistä.
 
@@ -25,10 +25,9 @@ Hankintaprosessien digitalisoituessa Business Centralin sähköisten asiakirjoje
 
 Business Centralissa aiemmin luotua ostotilausta voidaan nyt päivittää sähköisessä laskussa saaduilla tiedoilla.
 
-<!--
-> [!NOTE]
-> - This feature is available as a production-ready preview for production and sandbox environments in any country localization, with the exception of Canada. Production-ready previews are subject to supplemental terms of use. For more information, see [Supplemental terms of use for Dynamics 365 preview](https://go.microsoft.com/fwlink/?linkid=2105274).
-> - AI-generated content may be incorrect.-->
+## Käytettävissä olevat kielet
+
+[!INCLUDE[e-docs-matching-language-support](includes/e-docs-matching-language-support.md)]
 
 ## Copilotin aktivoiminen  
 
@@ -37,13 +36,13 @@ Jos et aktivoinut **Sähköisen asiakirjan kohdistusavustaja** -Copilotia, se on
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Copilot- ja tekoälyominaisuudet** ja valitse sitten liittyvä linkki. 
 2. Valitse ominaisuuksien luettelossa **Sähköisen asiakirjan kohdistusavustaja** ja muuta tilaksi **Aktiivinen**.  
 
-Voit aloittaa Copilotin käytön heti, kun se on aktivoitu. 
+Voit aloittaa Copilotin käytön heti, kun olet aktivoinut sen. 
 
 ## Ostotilausten tunnistaminen
 
 Ensimmäiseksi tunnistetaan automaattisesti kohdistettavat ostotilaukset. Jos **toimittajasi** on määrittänyt **Vastaanota e-asiakirjalle** -kentän käyttämään **ostotilauksia**, niin kun sähköinen asiakirja on luotu [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa (manuaalisesti tai ulkoisesta päätepisteestä), [!INCLUDE[prod_short](includes/prod_short.md)] se tekee seuraavaa:
 
-1. Jos kyseisen toimittajan **ostotilaus** *on olemassa ja vastaanotetussa **Sähköinen asiakirja** -tiedostossa on ostotilausnumero*, [!INCLUDE[prod_short](includes/prod_short.md)] linkittää tämän **Sähköisen asiakirjan** automaattisesti määritettyyn **ostotilaukseen**. Tämän **sähköisen asiakirjan** **asiakirjan tila** on **käsittelyssä**, ja **Palvelun tila** -alisivun **sähköisen asiakirjan tila** on **Asiakirja linkitetty**.  
+1. Jos kyseisen toimittajan **ostotilaus** on olemassa ja vastaanotetussa **Sähköinen asiakirja** -tiedostossa on *ostotilausnumero*, [!INCLUDE[prod_short](includes/prod_short.md)] linkittää tämän **Sähköisen asiakirjan** automaattisesti määritettyyn **ostotilaukseen**. Tämän **sähköisen asiakirjan** **asiakirjan tila** on **käsittelyssä**, ja **Palvelun tila** -alisivun **sähköisen asiakirjan tila** on **Asiakirja linkitetty**.  
 Linkki näkyy kyseisen **E-asiakirjan** **Asiakirja**-kentässä. Jos sinun täytyy muuttaa linkitetty **ostotilaus** automaattisesti, voit tehdä sen käyttämällä **Päivitä ostotilauslinkki** -toimintoa ja valita manuaalisesti yhden toimittajan olemassa olevista ostotilauksista. Voit tehdä sen vain, ennen kuin vastaat **E-asiakirjan** ja **ostotilauksen** välisiä rivejä.  
 2. Jos **Ostotilaus** tälle tietylle toimittajalle *on olemassa, mutta vastaanotetussa **Sähköinen asiakirja** -tiedostossa ei ole ostotilausnumeroa*, jos latasit tämän asiakirjan manuaalisesti, [!INCLUDE[prod_short](includes/prod_short.md)] antaa sinun valita jonkin olemassa olevista ostotilauksista avaamalla **Ostotilaukset**-luettelon tilauksista, jotka olet saanut toimittajilta, jotka sisältävät vain **Sähköisen asiakirjan**. Valitse haluamasi **Ostotilaus** ja valitse **OK**. Jos et ole valinnut oikeaa **ostotilausta** tai sait **E-asiakirjan** automaattisesti ulkoisesta päätepisteestä **työjonon** avulla, uutta **e-asiakirjaa** ei linkitetä minkään ostoasiakirjan kanssa, ja **asiakirjan tilaksi** tulee **Virhe** ja **Huollon tila** -alasivun **sähköisen asiakirjan tilaksi** **tuodun asiakirjan käsittelyvirhe**. Kun haluat lopettaa linkittämisen **ostotilaukseen**, valitse **Päivitä ostotilauslinkki** -toiminto ja valitse yksi tämän toimittajan ostotilauksista.  
 
@@ -64,11 +63,11 @@ Kun haluat suorittaa vastaavuuden ostotilauksesta, valitse **Liitä sähköisen 
 2. Voit huomata, että **Sähköisen asiakirjan täsmäytystilausrivit, joissa on Copilot** toimivat ja taustalla on **Ostotilauksen täsmäytys** -sivu. Tämä tarkoittaa, että sama prosessi tapahtuu, mutta **Copilotin** automaattisella tuella, joka suorittaa täsmäytysprosessin sinun sijastasi. 
 3. Muutaman sekunnin kuluttua **E-asiakirjan vastaavuustilausrivit Copilotin kanssa** ehdottaa rivejä, joiden vastaavuuksien lisätiedot ovat: 
 
-    1. Voit etsiä seuraavat tiedot kehotteen otsikosta: 
+    1. Voit etsiä seuraavat tiedot kehotteen otsikosta:   
 
     |Kentän nimi |Kuvaus |
     |--------|-----------------|
-    |Kohdistettu automaattisesti | Määrittää automaattisesti ehdotettujen kohdistusten määrän. Tämä perustuu merkkijonovertailuun, ja jos kuvaus on vähintään 80 %:n päällekkäinen, järjestelmä vastaa näitä kuvauksia automaattisesti käyttämättä GPT-ominaisuuksia. |
+    |Kohdistettu automaattisesti | Määrittää automaattisesti ehdotettujen kohdistusten määrän. Tämä perustuu merkkijonovertailuun, ja jos kuvaus on vähintään 80 %:n päällekkäinen, järjestelmä vastaa näitä kuvauksia automaattisesti käyttämättä Copilot-ominaisuuksia. |
     |Copilotin kohdistamat | Määrittää Copilotin ehdottamien osumien määrän käyttäen sekä merkkijonoa että semanttista vertailua. |
     |Sähköisen asiakirjan nro | Määrittää linkitetyn sähköisen asiakirjan numeron. |
     |Laskun summa yhteensä ilman ALV:tä | Määrittää laskun kokonaissumman ilman arvonlisäveroa. |
@@ -84,7 +83,7 @@ Kun haluat suorittaa vastaavuuden ostotilauksesta, valitse **Liitä sähköisen 
     |Kohdistettu määrä | Määrittää määrän, joka kohdistetaan ostotilausriviin. |
     |Ehdotus | Määrittää tekoälyn ehdottaman toimen, ja nämä ehdotetut toimenpiteet liittyvät ostotilausrivien vastaavuuksien täsmäytykseen. |
 
-    4. Kaikki täysin ehdotetut ja toisiaan vastaavat rivit on merkitty vihreällä värillä. Jos on olemassa ongelma eli eri hinta, mutta sallitulla hintavälillä tämä rivi merkitään keltaiseksi, ja jos kuvauskenttien välillä on samankaltaisuutta, mutta hintaero on suurempi kuin sallittu, tämä rivi merkitään punaiseksi. 
+    4. Kaikki täysin ehdotetut ja toisiaan vastaavat rivit on merkitty vihreällä värillä. Jos on olemassa ongelma, esimerkiksi eri hinta, mutta sallitun hintavälin sisällä, tämä rivi on merkitty keltaisella värillä. Jos kuvauskenttien välillä on samankaltaisuutta, mutta hintaero on suurempi kuin sallittu, rivi on merkitty punaisella värillä.
     5. Jos et ole tyytyväinen joihinkin ehdotuksiin, voit poistaa ne **Poista rivi** -toiminnolla.  
     6. Jos haluat nähdä ehdotuksen täsmäytykset, voit avata **E-asiakirjan vastaavuustiedot** -sivun valitsemalla linkin **Ehdotus**-sarakkeesta. 
     7. **E-asiakirjan vastaavuuksien tiedot** -sivulla voit vertailla **E-asiakirjan** ja **ostotilauksen** tietoja varmistaaksesi ehdotetun vastaavuuden ennen sen vahvistamista. 

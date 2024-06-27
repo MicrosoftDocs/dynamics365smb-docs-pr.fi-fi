@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/06/2024
+ms.date: 06/10/2024
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
@@ -28,15 +28,13 @@ Copilot luo nopeasti tekstiehdotuksen, joka luodaan puolestasi automaattisesti. 
 
 Copilot on suunniteltu säästämään sinua ja auttamaan luovan ja mukaansatempaavan tekstin kirjoittamisessa, joka kuvastaa brändiä ja on yhdenmukainen koko tuotelinjan kanssa. Aloita luomalla ehdotus ja muuta ehdotettua tekstiä tarpeen mukaan.
 
+### Käytettävissä olevat kielet
+
+[!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
+
 ### Vaatimukset
 
-- Markkinointitekstiehdotustoiminto on aktivoitu ympäristössä. Tämän toiminnon tekee tavallisesti ylläpitäjä. Lisätietoja on kohdassa [Määritä Copilot ja tekoälyominaisuudet](enable-ai.md).
-- Käytät jotakin niistä kielistä, joita markkinointitekstiehdotukset tällä hetkellä tukevat.
-
-  [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
-
-  Valitse oikeasta yläkulmasta **Asetukset**-kuvake ![Asetukset.](media/ui-experience/settings_icon_small.png "Roolikeskuksen Asetukset-kuvake") > **Omat asetukset** > **Kieli**. Lisätietoja on kohdassa [Perusasetusten muuttaminen](ui-change-basic-settings.md#language).
-- Tutustu [UKK:iin markkinointitekstiehdotuksia varten](faqs-marketing-text.md)  saadaksesi lisätietoja tekoälyn soveltamisesta.
+Markkinointitekstiehdotustoiminto on aktivoitu ympäristössä. Tämän toiminnon tekee tavallisesti ylläpitäjä. Lisätietoja on kohdassa [Määritä Copilot ja tekoälyominaisuudet](enable-ai.md).
 
 ### Luo ensimmäinen luonnos Copilotin avulla
 
@@ -137,6 +135,6 @@ Teksti luodaan aina käyttäjän [asetuksissasi](ui-change-basic-settings.md#lan
 
 [Markkinointitekstiehdotusten yleiskatsaus](ai-overview.md)  
 [Copilot- ja tekoälyominaisuuksien vianmääritys](ai-copilot-troubleshooting.md)  
-[Markkinointitekstiehdotusten UKK](faqs-marketing-text.md)  
-[Copilot- ja tekoälyominaisuuksien määrittäminen](enable-ai.md)  
+[Markkinointitekstiehdotusten usein kysytyt kysymykset](faqs-marketing-text.md)  
+[Copilotin ja tekoälyn ominaisuuksien määrittäminen](enable-ai.md)  
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  

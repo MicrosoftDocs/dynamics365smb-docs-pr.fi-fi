@@ -2,19 +2,19 @@
 title: 'Parhaiden käytäntöjen määrittäminen: Uusintatilaustavat | Microsoft Docs'
 description: 'Uusintatilaustapa-kenttä nimikekorteissa antaa neljä eri suunnittelumetodia, jotka määrittävät, kuinka yksittäiset suunnitteluparametrit käyttäytyvät.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 04/01/2021
-ms.author: bholtorf
+ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
 ---
-# <a name="setup-best-practices-reordering-policies"></a>Asetukset - parhaat käytännöt: uusintatilaustavat
+# Parhaiden käytäntöjen määrittäminen: uusintatilauskäytännöt
 
-**Uusintatilaustapa**-kenttä nimikekorteissa antaa neljä eri suunnittelumetodia, jotka määrittävät, kuinka yksittäiset suunnitteluparametrit käyttäytyvät.  
+**Uusintatilaustapa**-kenttä nimikekorteissa on suunnittelumetodeja, jotka määrittävät, kuinka yksittäiset suunnitteluparametrit käyttäytyvät.  
 
-Yksi hyvä perusta uusintatilaustavan valitsemiseen on nimikkeen ABC-luokittelu. Kun käytät ABC-luokittelua varaston valvonnan ja tarjonnan suunnitteluun, nimikkeitä hallitaan kolmen eri luokan mukaan riippuen niiden arvosta ja tilavuudesta suhteessa kokonaismäärään. Seuraavassa taulukossa näkyy kolmen luokan arvo-aseman jako.
+Yksi hyvä perusta uusintatilaustavan valitsemiseen on nimikkeen ABC-luokittelu. Kun käytät ABC-luokittelua, nimikkeitä hallitaan kolmen luokan mukaan. Käyttämäsi luokka riippuu nimikkeen arvosta ja tilavuudesta suhteessa kokonaisvarastoon. Seuraavassa taulukossa näkyy kolmen luokan arvo-aseman jako.
 
 |Luokka|Prosenttiosuus kokonaisvarastotilavuudesta|Prosenttiosuus kokonaisvarastoarvosta|
 |-----|-----------------------------|----------------------------|
@@ -31,11 +31,11 @@ Seuraava taulukko sisältää parhaat käytännöt neljästä tavasta valitsemis
 |Asetusvaihtoehto|Parhaat käytännöt|Kommentti|  
 |------------------|-------------------|-------------|  
 |**Tilaus**|Käytä A-nimikkeisiin.<br /><br /> Käytä tilausohjattuihin nimikkeisiin.<br /><br /> Käytä tuotannon ylimmän tason nimikkeissä ja kalliissa komponenteissa ja osakokoonpanoissa.<br /><br /> Käytä nimikkeisiin, jotka on ostettu suoratoimituksina ja serikoistilauksina.<br /><br /> Älä käytä, jos et hyväksy automaattista varausta.|Nimikkeet, kuten nahkasohvat huonekalumyymälässä, ovat arvokkaita nimikkeitä, joiden tilausmäärä on vähäinen ja epäsäännöllinen, joten inventaariota ei hyväksytä tai vaaditut attribuutit vaihtelevat. Paras uusintatilaustapa on siis sellainen, joka suunnitellaan erityisesti kysynnän ehdoilla.|  
-|**Erä-erästä**|Käytä B-nimikkeisiin.<br /><br /> Käytä tuotannon komponenteille, jotka esiintyvät useissa tuoterakenteissa. Tämä varmistaa, että saman toimittajan ostotilaukset yhdistetään, jolloin voidaan neuvotella paremmat hinnat.<br /><br /> Käytä, jos et ole varma minkä uusintatilaustavan valitset.|B-nimikkeillä kuten ruokailutuoleilla, on säännöllinen ja melko suuri tilauksen nopeus, mutta myös korkeat ylläpitokustannukset. Paras uusintatilaustapa B-nimikkeille on näin ollen se, joka on edullisin silloin, kun kysyntä otetaan huomioon uusintatilausvälissä.<br /><br /> 80 prosenttia kohteista voi käyttää tätä käytäntöä.<br /><br /> Voidaan käyttää onnistuneesti ilman suunnittelun parametreja.|  
+|**Erä-erästä**|Käytä B-nimikkeisiin.<br /><br /> Käytä tuotannon komponenteille, jotka esiintyvät useissa tuoterakenteissa. Käytäntö varmistaa, että saman toimittajan ostotilaukset yhdistetään, jolloin voidaan neuvotella paremmat hinnat.<br /><br /> Käytä, jos et ole varma minkä uusintatilaustavan valitset.|B-nimikkeillä kuten ruokailutuoleilla, on säännöllinen ja melko suuri tilauksen nopeus, mutta myös korkeat ylläpitokustannukset. Paras uusintatilaustapa B-nimikkeille on näin ollen se, joka on edullisin silloin, kun kysyntä otetaan huomioon uusintatilausvälissä.<br /><br /> 80 prosenttia kohteista voi käyttää tätä käytäntöä.<br /><br /> Voidaan käyttää onnistuneesti ilman suunnittelun parametreja.|  
 |**Kiinteä uusintatil. määrä**|Käytä C-nimikkeisiin.<br /><br /> Yhdistä uusintatilauspisteparametrien kanssa.<br /><br /> Käytä tuotannon alimman tason komponenteissa.<br /><br /> Älä käytä, jos nimike on usein varattu.|C-nimikkeet, kuten teekupit, ovat vähäsen arvon nimikkeitä, jolla on suuri ja säännöllinen tilausnopeus. Paras uusintatilaustapa C-nimikkeille on siis sellainen, joka varmistaa jatkuvan saatavuuden pysymällä aina uusintatilauspisteen yläpuolella.<br /><br /> Jos käyttäjä varaa määrää kaukaista kysyntää varten, suunnittelun perusta häiriintyy. Vaikka oletettu varastotaso on hyväksyttävä suhteessa uusintatilauspisteeseen, määrät eivät ehkä ole käytettävissä varauksen vuoksi.|  
-|**Enimmäismäärä**|Käytä C-nimikkeisiin, joissa on korkeat ylläpitokustannukset tai tallennusrajoitukset.<br /><br /> Yhdistä yksi tai useampi tilauksen valitsin (minimi/maksimi tilausmäärä tai monitilaus).|C-nimikkeet, kuten teekupit, ovat vähäsen arvon nimikkeitä, jolla on suuri ja säännöllinen tilausnopeus. Paras uusintatilaustapa C-nimikkeille on siis sellainen, joka varmistaa jatkuvan saatavuuden pysymällä aina uusintatilauspisteen yläpuolella, mutta varaston enimmäiskapasiteetin alapuolella.<br /><br /> Kun muutat ehdotettua järjestyä, haluat ehkä laskea tilausmäärää määritettyyn enimmäistilausmäärään tai nostaa määritettyyn minimitilausmäärään tai pyöristää vastaamaan määritettyä tilauskerrannaista. **Huomautus:**  Jos tätä käytetään uusintatilauspisteen kanssa, varaston määrä pysyy uusintatilauspisteen määrän ja enimmäismäärän välillä.|  
+|**Enimmäismäärä **|Käytä C-nimikkeisiin, joissa on korkeat ylläpitokustannukset tai tallennusrajoitukset.<br /><br /> Yhdistä yksi tai useampi tilauksen valitsin (minimi/maksimi tilausmäärä tai monitilaus).|C-nimikkeet, kuten teekupit, ovat vähäsen arvon nimikkeitä, jolla on suuri ja säännöllinen tilausnopeus. Paras uusintatilaustapa C-nimikkeille on siis sellainen, joka varmistaa jatkuvan saatavuuden pysymällä aina uusintatilauspisteen yläpuolella, mutta varaston enimmäiskapasiteetin alapuolella.<br /><br /> Kun muutat ehdotettua järjestyä, haluat ehkä laskea tilausmäärää määritettyyn enimmäistilausmäärään tai nostaa määritettyyn minimitilausmäärään tai pyöristää vastaamaan määritettyä tilauskerrannaista. **Huomautus:**  Jos tätä käytetään uusintatilauspisteen kanssa, varaston määrä pysyy uusintatilauspisteen määrän ja enimmäismäärän välillä.|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
  [Parhaiden käytäntöjen määrittäminen: Tarjonnan suunnittelu](setup-best-practices-supply-planning.md)  
  [Rakennetiedot: Uusintatilauskäytäntöjen käsittely](design-details-handling-reordering-policies.md)  

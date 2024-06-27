@@ -1,60 +1,63 @@
 ---
-title: Tavaroiden tai palvelujen nimikekorttien luominen (sisältää videon)
+title: Tavaroiden tai palvelujen nimikekorttien luominen
 description: 'Voit luoda nimikekortteja palveluille, joita myydään tunteina, ja fyysisille tuotteille. Esimerkkejä ovat kokoonpanon nimikkeet ja valmiit tavarat, joita myydään varastosta.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'item, finished good, component, raw material, assembly item, item substitution'
 ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719'
-ms.date: 11/02/2022
-ms.author: bholtorf
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Uusien nimikkeiden rekisteröiminen
 
-Nimikkeet ovat muiden tuotteiden ohella liiketoimintasi perusta; ne ovat siis tavaroita ja palveluja, joilla käyt kauppaa. Jokainen nimike on rekisteröitävä nimikekorttina.
+Nimikkeet ovat tavaroita tai palveluita, joita ostat, varastoit, myyt, lähetät ja tilität. Käytä **Nimikkeen kortti** -sivua rekisteröidäksesi tietoja seuraavista nimiketyypeistä:
 
-Nimikekortti sisältää tiedot, jotka tarvitaan nimikkeiden ostamista, tallentamista, myymistä ja toimittamista varten.
+* **Varasto** määrittää, että nimike on fyysinen yksikkö, jota hallitaan ja seurataan varastossa.
+* **Muu kuin varasto** ovat fyysisiä yksiköitä, joita ei hallita tai seurata varastossa.
+* **Huolto**-nimikkeet ovat työajan yksikkö, jota käytetään yleensä huoltohallinnossa.
 
-Nimikkeen kortin tyyppi voi olla **Varasto**, **Huolto** tai **Muu kuin varasto**. Se määrittää, onko nimike fyysisen varasto yksikkö, työn aikayksikkö vai fyysinen yksikkö, jota ei seurata varastossa. Lisätietoja on kohdassa [Tietoja nimiketyypeistä](inventory-about-item-types.md).
+Jos haluat oppia lisää muista kuin varastonimikkeistä, siirry kohtaan [Tietoja nimiketyypeistä](inventory-about-item-types.md).
 
-Nimike voi olla tuoterakenteessa päänimike, jonka alla on alinimikkeitä. Lisätietoja kokoonpanon tuoterakenteista ja tuotannon tuoterakenteista on kohdassa [Tuoterakenteiden käyttäminen](inventory-how-work-BOMs.md).
+> [!TIP]
+> On myös luettelonimikkeitä, jotka muistuttavat muita kuin varastonimikkeitä siinä, että ne ovat nimikkeitä, joita tarjotaan asiakkaille, mutta joita ei hallita ennen kuin myyt ne. Saat lisätietoja siirtymällä kohtaan [Luettelonimikkeiden käyttäminen](inventory-how-work-nonstock-items.md).  
 
-Jos ostat saman nimikkeen useammalta kuin yhdeltä toimittajalta, voit yhdistää kyseiset toimittajat nimikkeen korttiin. Toimittajat näkyvät **Nimikkeen toimittajaluettelo** -sivulla, jossa voit valita kätevästi vaihtoehtoisen toimittajan.
+## Ensisijaiset ja vaihtoehtoiset toimittajat
 
-*Luettelonimikkeet* ovat nimikkeitä, joita tarjoat asiakkaille, mutta joita et halua ylläpitää järjestelmässäsi ennen kuin niitä myydään. Luettelonimikkeet eivät ole tavallisia nimikkeitä, joiden tyyppi on **Muu kuin varasto**. Lisätietoja on kohdassa [Luettelonimikkeiden muokkaaminen](inventory-how-work-nonstock-items.md).  
+Jos ostat saman nimikkeen useammalta kuin yhdeltä toimittajalta, voit yhdistää kyseiset toimittajat nimikkeen. Käytä **Tuotekortti** **Toimittajat**-toimintoa avataksesi **Tuotetoimittajaluettelo**-sivun. Sivulla näkyvät toimittajat, joilta ostat nimikkeen, joten voit helposti luoda tai valita vaihtoehtoisen toimittajan silloin, kun luot ostotilauksen.
 
-> [!NOTE]  
-> Jos eri nimiketyypeillä on nimikemalleja, sivu avautuu, kun luot uuden nimikekortin, jossa voit valita sopivan mallin. Jos vain yksi nimikemalli on olemassa, uudet nimikekortit käyttävät aina kyseistä mallia.
+## Käytä nimikemalleja
 
-Seuraavaksi selitetään, miten nimikekortti luodaan alusta lähtien. Voit luoda uusia nimikekortteja myös kopioimalla aiemmin luotuja kortteja. Lisätietoja on kohdassa [Uusien nimikkeiden luominen kopioimalla aiemmin luotuja nimikkeitä](inventory-how-copy-items.md).  
+Voit käyttää erityyppisten nimikkeiden asetuksia uudelleen uusia nimikkeitä luotaessa tallentamalla nimikkeitä nimikemalleina. Nimikemallit helpottavat uusien nimikkeiden lisäysprosessia ja lisäävät nimiketietojen johdonmukaisuutta. Kun rekisteröit uuden nimikkeen, näyttöön tulee sivu, jonka avulla voit valita mallin. Kun olet valinnut mallin, sen asetukset täytetään luotavan nimikkeen osalta. Jos vain yksi nimikemalli on olemassa, uudet nimikkeet käyttävät aina kyseistä mallia. Lisätietoja nimikemallin määrittämisestä on kohdassa [Nimikekortin tallentaminen nimikemallina](#save-an-item-card-as-an-item-template).
 
-<br />
+## Sisällytä nimikkeet tuoterakenteisiin
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
+Voit järjestää hierarkioita, joilla on päänimike, jonka komponenttinimikkeet ovat kokoonpanossa ja tuotannon tuoterakenteessa. Lisätietoja kokoonpanon tuoterakenteesta on kohdassa [Kokoonpanon tuoterakenteiden käyttö](inventory-how-work-BOMs.md).
 
 ## Uuden nimikekortin luominen
+
+Seuraavassa taulukossa esitetään, kuinka ketju on määritetty nimikekortissa. Voit kuitenkin luoda uusia nimikekortteja myös kopioimalla aiemmin luotuja kortteja. Lukeaksesi lisää [Uusien nimikkeiden luominen kopioimalla aiemmin luotuja nimikkeitä](inventory-how-copy-items.md).  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 > [!NOTE]
-> Määritä **Arvostusmenetelmä** -kentässä tapa, jolla nimikkeen yksikkökustannukset lasketaan tekemällä oletuksia fyysisestä tavaravirrasta yrityksen läpi. Käytössä on viisi arvostusmenetelmää nimikkeen tyypin mukaan. Katso lisätietoja kohdasta [Rakennetiedot: arvostusmenetelmät](design-details-costing-methods.md).
+> Määritä **Arvostusmenetelmä** -kentässä tapa, jolla nimikkeen yksikkökustannukset lasketaan tekemällä oletuksia fyysisestä tavaravirrasta yrityksen läpi. Käytössä on viisi arvostusmenetelmää nimikkeen tyypin mukaan. Lisätietoja varaston arvostuskustannuksista on kohdassa [Suunnittelun yksityiskohdat: Kulujen edut](design-details-costing-methods.md).
 >
 > Jos valitset **Keskiarvo**, nimikkeen yksikkökustannus lasketaan kussakin vaiheessa keskimääräisenä yksikkökustannuksena oston jälkeen. Varastonarvostus olettaa, että kaikki varastot myydään samanaikaisesti. Voit valita tällä asetuksella **Keskimääräisten kustannusten laskennan yleiskuvaus** -sivun **Yksikkökustannus**-kentän, jolla voit tarkastella tapahtumahistoriaa, josta keskimääräinen kustannus lasketaan.
 
-Voit tarkastella tai muokata erityiset hinnat tai alennukset, jotka haluat myöntää nimikkeelle, tai toimittajasi myöntää sinulle, jos tietyt ehdot, kuten asiakas, vähimmäistilausmäärä tai päättymispäivämäärä, täyttyvät. Tämä tehdään valitsemalla **Määritä erikoishinnat**- tai **Määritä erikoisalennukset** -toiminto. Jokainen rivi, esimerkiksi **Myyntihinnat**-sivulla, edustaa erikoishintaa. Jokainen sarake vastaa ehtoa, jonka täytyy olla voimassa, jotta asiakkaalle voidaan myöntää erikoishinta, joka syötetään **Myyntihinnat**-sivun **Yksikköhinta**-kenttään. Lisätietoja on kohdassa [myyntihinnan, alennuksen ja maksusopimusten kirjaaminen](sales-how-record-sales-price-discount-payment-agreements.md) tai [erityisten ostohintojen ja alennusten kirjaaminen](purchasing-how-record-purchase-price-discount-payment-agreements.md).
+Voit käyttää erikoishintoja tai alennuksia, jotka sinä tai toimittajasi myönnät tuotteelle tiettyjen kriteerien perusteella. Kriteereihin kuuluvat esimerkiksi asiakas, vähimmäistilausmäärä tai lopetuspäivämäärä. Tämä tehdään valitsemalla **Määritä erikoishinnat**- tai **Määritä erikoisalennukset** -toiminto. Jokainen rivi, esimerkiksi **Myyntihinnat**-sivulla, edustaa erikoishintaa. Jokainen sarake vastaa ehtoa, jonka täytyy olla voimassa, jotta asiakkaalle voidaan myöntää erikoishinta, joka syötetään **Myyntihinnat**-sivun **Yksikköhinta**-kenttään. Lue lisätietoja on kohdassa [myyntihinnan, alennuksen ja maksusopimusten kirjaaminen](sales-how-record-sales-price-discount-payment-agreements.md) tai [erityisten ostohintojen ja alennusten kirjaaminen](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
-Nimike on nyt rekisteröity ja nimikekortti on valmis käytettäväksi osto- ja myyntiasiakirjoissa.
-
-Jos haluat käyttää tätä nimikekorttia mallina, kun luot uusia nimikkeen kortteja, tallenna se mallina. Lisätietoja on seuraavassa osassa.  
-
-### Nimikekortin tallentaminen mallina
+### Tallenna nimikekortti tallennusmallina
 
 1. Valitse **Nimikekortti**-sivulla **Tallenna mallina** -toiminto. **Nimikemalli**-sivu avautuu ja näyttää nimikekortin mallina.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Voit käyttää dimensioita malleina valitsemalla **Dimensiot**-toiminnon. **Dimensiomallit**-sivu avautuu ja esittää kaikki dimensiokoodit, jotka on määritetty nimikkeelle.
-4. Muokkaa tai syötä dimensiokoodit, joita käytetään mallin avulla luotuihin uusiin nimikkeen kortteihin.
-5. Kun olet määrittänyt uuden nimikemallin, valitse **OK**-painike.
+
+> [!TIP]
+> Voit myös käyttää nimikkeiden dimensioita uudelleen. Voit käyttää dimensioita malleina valitsemalla **Dimensiot**-toiminnon. **Dimensiomallit**-sivu avautuu ja näyttää dimensiokoodit, jotka on määritetty nimikkeelle. Muokkaa tai lisää dimensioita, jotka koskevat mallista luotavia uusia nimikkeitä.
 
 Nimikemalli lisätään nimikemallien luetteloon niin, että sen avulla voit luoda uusia nimikekortteja.
 

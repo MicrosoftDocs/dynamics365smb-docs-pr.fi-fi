@@ -1,69 +1,86 @@
 ---
-title: Käyttöomaisuuden ylläpito
-description: Käyttöomaisuuserän korjauksista ja huolloista ylläpidetään kunnossapitotietuetta käyttöomaisuuden arvon säilyttämiseksi.
+title: Käyttöomaisuuden ylläpitäminen
+description: Tallenna käyttöomaisuuden korjaukset ja huolto arvon säilyttämiseksi.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'repair, service'
 ms.search.form: '5642, 5625'
-ms.date: 06/15/2021
-ms.author: bholtorf
+ms.date: 05/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Käyttöomaisuuden ylläpito
+# Käyttöomaisuuden ylläpitäminen
 
-Kunnossapitokulut ovat ajoittaisia rutiinikustannuksia, jotka aiheutuvat käyttöomaisuuden arvon säilyttämisestä. Toisin kuin pääoman kohentaminen, kunnossapito ei lisää arvoa.
+Kunnossapitokustannukset ovat toimintakuluja asioille, joita tehdään käyttöomaisuuden ehdon säilyttämiseksi. Toisin kuin pääoman kohentaminen, kunnossapito ei lisää käyttöomaisuuserien arvoa.
 
-Voit tallentaa ajantasaisen tiedoston käyttöomaisuuden kunnossapidosta ja huollosta ja ylläpitää sitä, jotta käyttöomaisuudesta olisi helposti saatavilla täydelliset kunnossapitotiedot. Aina, kun käyttöomaisuus lähetetään huoltoon, tallennetaan kaikki olennaiset tiedot, kuten huoltopäivämäärä, toimittajan numero ja huoltoliikkeen puhelinnumero. Kunnossapitorekisteröinti tallennetaan kunkin käyttöomaisuuserän osalta kyseisestä käyttöomaisuuden kortista.
+Aina, kun käyttöomaisuus lähetetään huoltoon, tallennetaan kaikki olennaiset tiedot, kuten huoltopäivämäärä, työn suorittaneen toimittajan numero ja huoltoliikkeen puhelinnumero. Kunnossapitotietoja syötetään useammalle sivulle:
 
-Indeksointia käytetään muuttamaan arvoja yleisten hintatason muutosten mukaan. **Tee indeksimuutos KO:teen** -eräajoa voidaan käyttää kunnossapitokulujen uudelleenlaskemiseen.
+* Käyttöomaisuuden kortti
+* Ostotilaus
+* Ostolasku
+* Käyttöom. KP-päiväkirja
 
-## Käyttöomaisuuden kunnossapitotyön tallentaminen
+Indeksointia käytetään muuttamaan arvoja yleisten hintatason muutosten mukaan. Käytä **Tee indeksimuutos KO:teen** -eräajoa kunnossapitokulujen uudelleenlaskemiseen.
 
-Kunnossapito, kuten huoltokäynti, voidaan tallentaa sen suorittamisen yhteydessä kyseiselle käyttöomaisuudelle **Kunnossapidon rekisteröinti** -sivulla.  
+## Kirjaa ylläpitokustannukset suoraan käyttöomaisuuteen
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuus** ja valitse sitten vastaava linkki.  
+Aina kun omaisuudelle tehdään huoltoa, kuten huoltokäynti, voit tallentaa sen **Kunnossapidon rekisteröinnit** -sivulle.  
+
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuus** ja valitse sitten vastaava linkki.  
 2. Valitse käyttöomaisuus, jolle haluat tallentaa kunnossapitotyön. Valitse sitten **Kunnossapidon rekisteröinti** -toiminto.
 3. Täytä **Kunnossapidon rekisteröinti** -sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## Kunnossapitokustannusten kirjaaminen käyttöomaisuuden KP-päiväkirjasta
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poistokirjaluettelo** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poistokirjaluettelo** ja valitse sitten vastaava linkki.  
 2. Valitse poistokirja, joka on liitetty käyttöomaisuuteen, ja valitse sitten **Muokkaa**-toiminto.
-3. Varmista, että **Poistokirjakortti**-sivun **Kunnossapito**-valintaruutua ei ole valittu. Näin varmistetaan, että kunnossapitokustannuksia ei kirjata pääkirjanpitoon.
-4. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten vastaava linkki.  
+3. Varmista **Poistokirjan kortti** -sivulla, että **Kunnossapito**-valintaruutua ei ole valittu, jotta kunnossapitokustannuksia ei kirjata pääkirjanpitoon.
+4. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **KO - KP-päiväkirjat** ja valitse sitten vastaava linkki.  
 5. Luo alkuperäisen päiväkirjan rivi ja täytä kentät tarpeen mukaan.
 6. Valitse **KO:n kirjaustyyppi** -kentässä **Kunnossapito**.
 7. Valitse **Syötä KO-vastatili** -toiminto. Toinen päiväkirjan rivi luodaan vastatilille, joka on määritetty kunnossapidon kirjaamista varten.
 
     > [!NOTE]  
-    >   Vaihe 7 toimii vain, jos seuraavat arvot on määritetty: Käyttöomaisuuden kirjausryhmän **KO:n kirjausryhmän kortti** -sivun **Kunnossapitotili**-kenttä sisältää pääkirjanpidon debet-tilin ja **Kunnossapidon vastatili** -kenttä sisältää sen pääkirjanpitotilin, jolle arvonkorotuksen vastatilitapahtumat kirjataan. Lisätietoja on kohdassa [Käyttöomaisuuden kirjausryhmien määrittäminen](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
+    > Vaihe 7 toimii vain, jos seuraavat arvot on määritetty: Käyttöomaisuuden kirjausryhmän **KO:n kirjausryhmän kortti** -sivun **Kunnossapitotili**-kenttä sisältää pääkirjanpidon debet-tilin ja **Kunnossapidon vastatili** -kenttä sisältää sen pääkirjanpitotilin, jolle arvonkorotuksen vastatilitapahtumat kirjataan. Lisätietoja on kohdassa [Käyttöomaisuuden kirjausryhmien määrittäminen](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 8. Valitse **Kirjaa**-toiminto.
 
-## Käyttöomaisuuden huoltokäyntien seuraaminen
+## Kunnossapitokustannusten kirjaaminen ostolaskusta
 
-Tulosta **Kunnossapito – Seuraava huolto** -raportti, kun haluat tarkastella käyttöomaisuuseriä, joille on aikataulutettu huoltokäynti. Tätä raporttia voidaan käyttää myös silloin, kun päivitetään käyttöomaisuuskorttien **Seuraava huoltopvm** -kenttää.  
+Seuraavassa kuvataan, miten käyttöomaisuuden kunnossapitokustannukset kirjataan ostolaskusta. Ostotilausten vaiheet ovat vastaavanlaiset.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kunnossapidon seuraava huolto** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostolasku** ja valitse sitten vastaava linkki.
+2. Täytä **Yleiset**-pikavälilehdessä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+3. Valitse **Rivit**-pikavälilehden **Tyyppi**-kentässä **Käyttöomaisuus**.
+4. Valitse **Nro**-kenttään -kentästä, valitse käyttöomaisuuserä ja määritä määrä ja kustannus.
+5. Valitse **KO:n kirjaustyyppi** -kentässä **Kunnossapito**.
+6. Kirjaa ostolasku.
+
+## Huoltokäyntien seuranta
+
+Tulosta **Kunnossapito – Seuraava huolto** -raportti, kun haluat tarkastella käyttöomaisuuseriä, joille on aikataulutettu huolto. Tätä raporttia voidaan käyttää myös silloin, kun haluat päivittää käyttöomaisuuskorttien **Seuraava huoltopvm** -kenttää.  
+
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kunnossapidon seuraava huolto** ja valitse sitten vastaava linkki.  
 2. Täytä **Aloituspvm**- ja **Lopetuspvm**-kenttä.  
 3. Valitse **Tulosta**- tai **Esikatsele**-painike.
 
 ## Kunnossapitokustannusten valvonta
 
-Kunnossapitokustannuksia voi tarkastella käyttöomaisuuden tilastossa.  
+Kunnossapitokustannusten seuraamiseksi voi katsoa tilastoja.  
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuus** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Käyttöomaisuus** ja valitse sitten vastaava linkki.
 2. Valitse käyttöomaisuus, jonka kunnossapitokustannuksia haluat tarkastella. Valitse sitten **Poistokirjat**-toiminto.
 3. Valitse **KO:n poistokirjat** -sivulla kyseinen käyttöomaisuuden poistokirja ja valitse sitten **Tilasto**-toiminto.
 4. Valitse **Käyttöomaisuustilastot**-sivulla **Kunnossapito**-kenttä.
 
-Avautuvalla **Kunnossapitotapahtumat**-sivulla näkyvät ne tapahtumat, joista summa muodostuu **Kunnossapito**-kentässä.
+Avautuvalla **Kunnossapitotapahtumat**-sivulla nähdäksesi ne tapahtumat, joista summa muodostuu **Kunnossapito**-kentässä.
 
 ## Useiden käyttöomaisuuserien kunnossapitokustannusten tarkasteleminen tai tulostaminen
 
-**Kunnossapito – Analyysi** -raportissa voidaan valita, halutaanko kunnossapitokustannukset nähdä yhdeltä, kahdelta vai kolmelta kunnossapitokoodilta tietyn päivämäärän tai jakson osalta. Voit myös tarkastella kaikkien valittujen käyttöomaisuuserien kokonaissummaa vai tietyn omaisuuserän kokonaissummaa.
+**Kunnossapito – Analyysi** -raportissa voidaan valita, halutaanko kunnossapitokustannukset tutkia yhdeltä, kahdelta vai kolmelta kunnossapitokoodilta tietyn päivämäärän tai jakson osalta. Raportti voi näyttää kaikkien valittujen käyttöomaisuuserien kokonaissummaa vai tietyn omaisuuserän kokonaissummaa.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kunnossapitoanalyysi** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kunnossapitoanalyysi** ja valitse sitten vastaava linkki.
 2. Täytä tarvittavat kentät.
 3. Valitse **Tulosta**- tai **Esikatsele**-painike.
 
