@@ -8,11 +8,11 @@ ms.topic: conceptual
 ms.author: altotovi
 ---
 
-# Validoitujen lokalisointisovellusten kehittäminen
+# <a name="development-of-validated-localization-apps"></a>Validoitujen lokalisointisovellusten kehittäminen
 
 Tässä artikkelissa kuvataan [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman validoidun lokalisointisovelluksen kehittämiseen liittyvät vaatimukset ja suuntaviivat.
 
-## Mikä on validoitu lokalisointisovellus?
+## <a name="what-is-a-validated-localization-app"></a>Mikä on validoitu lokalisointisovellus?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on saatavilla [maailmanlaajuisesti yli 170 markkina-alueella](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json). Joillakin markkinoilla Microsoft tekee yhteistyötä ISV-kumppaneiden kanssa lokalisoidakseen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmia käyttämällä lokalisointisovelluksia, jotka ovat saatavilla [Microsoft AppSourcessa](https://go.microsoft.com/fwlink/?linkid=2081646). Näillä alueilla lokalisoinnit voivat olla käytettävissä ensisijaisen lokalisointisovellusohjelman kautta. Ensisijaiset lokalisointisovellukset -ohjelma tunnistaa ne sovellukset, jotka on rakennettu Microsoftin erityisten laatuohjeiden mukaisesti. ISV-kumppanit, jotka noudattavat näitä ohjelman vaatimuksia ja ohjeita, voivat hyötyä teknisesti ja kaupallisesti palvellakseen jälleenmyyjiään ja asiakkaitaan.  
 
@@ -33,7 +33,7 @@ Validoitu lokalisointi -pilottiohjelman sovellukset sisältävät joukon toimint
 > [!NOTE]
 > Paikalliset toiminnot ovat hyödyllisiä maan tuottavuusprosessien kannalta ja lisäävät näin liiketoiminnan arvoa, mutta niitä ei tarvita sääntelyn näkökulmasta, kuten tietyt pankki- ja maksumuodot, kustannusraportit, henkilöstöhallinnon toiminnot, palkkasummat ja vastaavat pienemmät tai suuremmat, ja kätevät ominaisuudet on eristettävä muihin sovelluksiin. Jos sovellukset sisältävät nämä toiminnot, niitä ei voi hyväksyä validoiduiksi lokalisointisovelluksiksi.   
 
-## Validoitu lokalisointi -sovelluksen liiketoimintavaatimukset  
+## <a name="validated-localization-app-business-requirements"></a>Validoitu lokalisointi -sovelluksen liiketoimintavaatimukset
 
 - Validoidun lokalisointisovelluksen tarjoaja täyttää kaikki CSP-palvelun epäsuoran palveluntarjoajan vaatimukset.  
 - Validoidun lokalisointisovelluksen tarjoaja tuo markkinoille minimitarjonnan viidessä maassa/alueella, jotka sisältyvät Dynamics 365 Business Centralin validoituun lokalisointisovellukseen. 
@@ -42,9 +42,9 @@ Validoitu lokalisointi -pilottiohjelman sovellukset sisältävät joukon toimint
 - Validoidut lokalisointisovellukset ovat kaikkien asiakkaiden ja kumppaneiden käytettävissä, jotka haluavat hyötyä siitä.     
 - Validoidun lokalisointisovelluksen tarjoaja käyttää Microsoftia toistuvasti tuotantovirroissa.
 
-## Validoidun lokalisointisovelluksen toiminnalliset ja tekniset vaatimukset  
+## <a name="validated-localization-app-functional-and-technical-requirements"></a>Validoidun lokalisointisovelluksen toiminnalliset ja tekniset vaatimukset
 
-### Toiminnallisuusvaatimukset   
+### <a name="functionality-requirements"></a>Toiminnallisuusvaatimukset
 
 Ensisijaisen lokalisointisovelluksen teknisten vaatimusten täyttämisen lisäksi ensisijaisen lokalisointisovelluksen käyttökelpoinen tuotevalikoima on vähintään:  
 
@@ -70,7 +70,7 @@ Ensisijaisen lokalisointisovelluksen teknisten vaatimusten täyttämisen lisäks
 - Valmistele asetusoppaita (ohjattuja toimintoja) alueille, jotka on määritetty monimutkaisiksi, jotta käyttäjät voivat ottaa lokalisointisovelluksen käyttöön, löytää ja käyttää ensimmäistä käyttökokemusta.  
 - Kumppanien on toimitettava toiminnallinen dokumentaatio lokalisointiin liittyvistä kaikista osa-alueista.  
 
-### Tekniset vaatimukset  
+### <a name="technical-requirements"></a>Tekniset vaatimukset
 
 Seuraavassa on luettelo vaatimuksista, jotka sinun on täytettävä, ennen kuin lähetät Validoitu lokalisointi -sovelluksen vahvistuksen laajennuksena. Tämä luettelo ei muuta [teknistä tarkistusluetteloa](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission) , ja se ainoastaan laajentaa vaatimuksia siellä.  
 
@@ -87,7 +87,7 @@ Seuraavassa on luettelo vaatimuksista, jotka sinun on täytettävä, ennen kuin 
 > [!NOTE]  
 > Voit luoda integroinnin myös silloin, kun on hyödyllistä, että jotkin toiminnot sijoitetaan [!INCLUDE[prod_short](includes/prod_short.md)] -ympäristön ulkopuolelle, ja voit sen sijaan muodostaa yhteyden [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmaan käyttämällä esimerkiksi ohjelmointirajapintaliittymää tai verkkopalvelua.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Tekninen tarkistus](/dynamics365/business-central/dev-itpro/developer/devenv-checklist-submission)  
 [Lokalisoinnin vakioratkaisun kehittäminen](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  

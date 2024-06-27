@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Tilinpäätöslaskelmien valmisteleminen
+# <a name="preparing-closing-statements"></a>Tilinpäätöslaskelmien valmisteleminen
 Yrityksen tilinpäätöslaskelmien laatimiseen tarvittavien tietojen keräämistä varten on useita vakioraportteja.
 
 Seuraavassa taulukossa on luettelo raporteista, joista voi olla hyötyä tässä prosessissa.  
@@ -27,7 +27,7 @@ Seuraavassa taulukossa on luettelo raporteista, joista voi olla hyötyä tässä
 
 Raportin nähdäksesi valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita nimi sellaisena kuin se näkyy taulukossa ja valitse sitten liittyvä linkki.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 [Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Business Intelligence](bi.md)

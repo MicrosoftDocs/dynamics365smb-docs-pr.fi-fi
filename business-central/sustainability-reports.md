@@ -10,21 +10,21 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Business Centralin kokoonpanoraportit ja analytiikka
+# <a name="sustainability-reports-and-analytics-in-business-central"></a>Business Centralin kokoonpanoraportit ja analytiikka
 
 Kestävyysraporttien avulla taloushallinnon ammattilaiset voivat saada merkityksellistä tietoa ja analytiikkaa nykyisistä ja aiemmista kestävyysinvestoinneista ja päästöistä.  
 
-## Raportit
+## <a name="reports"></a>Raportit
 
 [!INCLUDE [sustainability_reports](includes/sustainability-reports-include.md)]
 
-## Tehtävät
+## <a name="tasks"></a>Tehtävät
 
 Seuraavissa artikkeleissa kuvataan joitakin kestävyyshankkeiden tilan analysointiin liittyviä keskeisiä tehtäviä:
 
 * [Päästöjen laskeminen pääkirjanpidon perusteella](finance-sustainability-journal.md)
 
-## Kestävyysraporttien tutkiminen Report Explorerin avulla
+## <a name="explore-sustainability-reports-with-report-explorer"></a>Kestävyysraporttien tutkiminen Report Explorerin avulla
 
 Saatavana olevien kestävyysraporttien yleiskuvan saa valitsemalla **Kaikki raportit** aloitussivulla. Tämä toiminto avaa roolienhallinta-sivun, joka on suodatettu näyttämään **Raportti ja analyysi** -vaihtoehdon ominaisuudet. Valitse **TODO**-otsikon alla **Tutustu**.
 
@@ -34,7 +34,7 @@ Saatavana olevien kestävyysraporttien yleiskuvan saa valitsemalla **Kaikki rapo
 
 Lisätietoja on kohdassa [Raporttien etsiminen roolienhallinnan avulla](ui-role-explorer.md).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Vastuullisuustietojen ad-hoc-analyysi](ad-hoc-analysis-sustainability.md)   
 [Vastuullisuuden hallinnan yleiskatsaus](finance-manage-sustainability.md)   

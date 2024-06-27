@@ -10,7 +10,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Virhesanoma: "Kirjauspäivämäärä ei kuulu sallittujen kirjauspäivämäärien alueeseen..."
+# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Virhesanoma: "Kirjauspäivämäärä ei kuulu sallittujen kirjauspäivämäärien alueeseen..."
 
 Kun käytät **Muuta kust.- nimiketapahtumat** -eräajoa, saatat törmätä seuraavaan virhesanomaan:
 
@@ -18,7 +18,7 @@ Kun käytät **Muuta kust.- nimiketapahtumat** -eräajoa, saatat törmätä seur
 
 Tämä viesti tarkoittaa, että et voi kirjata tapahtumia syöttämääsi päivämäärää varten. Voit kiertää tämän ongelman muuttamalla käyttäjäasetuksia.
 
-## Käyttäjäasetusten muuttaminen  
+## <a name="change-the-user-setup"></a>Käyttäjäasetusten muuttaminen
 
 |Käyttäjätunnus  |Ensimm. sallittu kirjauspvm  | Viimeinen sallittu kirjauspvm  |
 |---------|---------|--------|
@@ -26,9 +26,9 @@ Tämä viesti tarkoittaa, että et voi kirjata tapahtumia syöttämääsi päiv�
 
 Tässä tapauksessa voit kirjata päivämääräväliksi 11.9.–30.9. Et kuitenkaan voi kirjata muutosarvotapahtumaa, jonka kirjauspäivämäärä on 10. syyskuuta.  
 
-### Kirjauspäivämäärän asetuksen yleiskuvaus
+### <a name="overview-of-the-posting-date-setup"></a>Kirjauspäivämäärän asetuksen yleiskuvaus
 
-#### Varastokaudet
+#### <a name="inventory-periods"></a>Varastokaudet
 
 |Päättymispäivämäärä  |Nimi  |Sulj.  |
 |---------|---------|---------|
@@ -45,7 +45,7 @@ Tässä tapauksessa voit kirjata päivämääräväliksi 11.9.–30.9. Et kuiten
 |2020-11-30     |Marraskuu 2020   |         |
 |2020-12-31     |Joulukuu 2020   |         |  
 
-#### Pääkirjanpidon asetukset
+#### <a name="general-ledger-setup"></a>Pääkirjanpidon asetukset
 
 |Kenttä|Arvo|
 |---------|---------|
@@ -54,7 +54,7 @@ Tässä tapauksessa voit kirjata päivämääräväliksi 11.9.–30.9. Et kuiten
 |Rekisteröi aika:       |         |
 |Paikallinen osoitemuoto:|   Postinro      |  
 
-#### Käyttäjäasetukset
+#### <a name="user-setup"></a>Käyttäjäasetukset
 
 |Käyttäjätunnus  |Ensimm. sallittu kirjauspvm  | Viimeinen sallittu kirjauspvm  |
 |---------|---------|--------|
@@ -62,7 +62,7 @@ Tässä tapauksessa voit kirjata päivämääräväliksi 11.9.–30.9. Et kuiten
 
 Jos määritetään laajempi sallittu kirjauspäivämääräalue kuin **varastokaudella** tai **kirjanpidon asetukset** -sivuilla, virhesanomassa mainittu ristiriita vältetään. Esimerkiksi laajemman vaihteluvälin ansiosta muutosarvotapahtuman päivämääräksi voidaan kirjata 10.9.
   
-## Katso myös  
+## <a name="see-also"></a>Katso myös
 
 [Rakennetiedot: Muutosarvotapahtuman kirjauspäivä](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)  

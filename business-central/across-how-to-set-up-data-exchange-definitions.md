@@ -11,7 +11,7 @@ ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Tiedonsiirtomääritysten määrittäminen
+# <a name="set-up-data-exchange-definitions"></a>Tiedonsiirtomääritysten määrittäminen
 
 Voit määrittää, että [!INCLUDE[prod_short](includes/prod_short.md)] vaihtaa tiettyjen taulukoiden tietoja ulkoisten tiedostojen tietoihin. Voit esimerkiksi lähettää ja vastaanottaa sähköisiä asia kirjoja, tuoda ja viedä pankkitietoja tai muita tietoja, kuten palkanlaskennan tai nimikeluetteloita. Lue lisää kohdasta [Sähköinen tiedonsiirto](across-data-exchange.md).  
 
@@ -28,14 +28,14 @@ Tämä artikkeli sisältää seuraavat menettelyt:
 * Tietojenvaihtomäärityksen vieminen XML-tiedostona muiden käyttöä varten.
 * XML-tiedoston tuominen olemassa olevaa tietojenvaihtomääritystä varten.
 
-## Tietojenvaihtomääritysten määrittäminen
+## <a name="create-a-data-exchange-definition"></a>Tietojenvaihtomääritysten määrittäminen
 
 Tietojenvaihtomäärityksen luominen muodostuu kahdesta tehtävästä:  
 
 1. Kuvaa tiedoston rivien ja sarakkeiden muotoilu **Tiedonsiirtomääritys**-sivulla. Lue lisätietoja [Tiedoston rivien ja sarakkeiden muotoilun kuvaileminen](#formatlinescolumns) -osasta.  
 2. Kohdista **Tiedonsiirron vastaavuus** -sivulla datatiedoston sarakkeet [!INCLUDE[prod_short](includes/prod_short.md)]in kenttiin. Lue lisätietoja [Kohdista datatiedoston sarakkeet [!INCLUDE[prod_short](includes/prod_short.md)]in kenttiin](#mapfields) -osassa.  
 
-### <a name=formatlinescolumns></a>Tiedoston rivien ja sarakkeiden muotoilun kuvaaminen
+### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name=formatlinescolumns></a>Tiedoston rivien ja sarakkeiden muotoilun kuvaaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tietojenvaihtomääritykset**, valitse sitten aiheeseen liittyvä linkki.  
 2. Valitse **Uusi**-toiminto.  
@@ -110,7 +110,7 @@ Seuraavaksi on päätettävä, mitkä datatiedoston sarakkeet tai XML-elementit 
 > [!NOTE]  
 > Erityinen kartoitus riippuu vaihdettavan tiedoston liiketoimintatarkoituksesta ja paikallisista variaatioista. Jopa SEPA-pankkistandardissa on paikallisia vaihteluita. [!INCLUDE[prod_short](includes/prod_short.md)] tukee SEPA CAMT -tiliotetiedostojen tuontia \-ilman\- lisä\-toimia. Siitä on osoituksena **SEPA CAMT** -tiedonsiirtomäärityksen tietuekoodi **Tiedonsiirtomääritykset**-sivulla. Lisätietoja SEPA CAMT -tuelle ominaisista kenttien yhdistämismäärityksistä on kohdassa [Kenttien yhdistämismääritykset SEPA CAMT -tiedostoja tuotaessa](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name=mapfields></a>Datatiedoston sarakkeiden yhdistäminen [!INCLUDE[prod_short](includes/prod_short.md)]in kenttiin
+### <a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name=mapfields></a>Datatiedoston sarakkeiden yhdistäminen [!INCLUDE[prod_short](includes/prod_short.md)]in kenttiin
 
 > [!TIP]
 > Joskus kenttien arvot, jotka haluat yhdistää, ovat erilaisia. Esimerkiksi yhdessä yrityssovelluksessa Yhdysvaltojen kielikoodi on "U.S.", mutta toisessa se on "US". Tämä tarkoittaa, että arvo on muunnettava, kun tietoja vaihdetaan. Tämä tapahtuu muutossäännöillä, jotka määrität kentille. Lisätietoja on kohdassa [Muuntosäännöt](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
@@ -165,7 +165,7 @@ Voit myös ryhmitellä minkä tahansa kentän mukaan, käyttää avainindeksiä 
      |**Kentän tunnus**|Määritä ryhmittelyyn käytettävän ulkoisen tiedoston kentän numero ja se, että käyttäjän on asetettava tämä kenttä.|
      |**Kentän seloste**|Määritä ryhmittelyssä käytetyn ulkoisen tiedoston kentän seloste.|
 
-## Muunnossäännöt
+## <a name="transformation-rules"></a>Muunnossäännöt
 
 Jos kenttien arvot ovat erilaisia, sinun on käytettävä muunnossääntöjä tietojen vaihdon määrityksissä, jotta ne olisivat samat. Voit määrittää muunnossäännöt tiedonvaihtomäärittelyjä varten avaamalla aiemmin luodun määrityksen tai luomalla uuden määrityksen ja valitsemalla sitten **Rivimääritykset** -pikavälilehdessä **Hallitse** ja sitten **Kenttien yhdistämismääritykset**. Ennalta määritetyt säännöt ovat käytettävissä, mutta voit myös luoda omia sääntöjä. Seuraavassa taulukossa kuvataan, millaisia muunnoksia voit suorittaa.
 
@@ -190,7 +190,7 @@ Jos kenttien arvot ovat erilaisia, sinun on käytettävä muunnossääntöjä ti
 > [!NOTE]  
 > Lisätietoja päivämäärä- ja aikamuotoiluista kohdassa [Vakiopäivämäärä- ja aika muotomerkkijonona](/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
-### Vinkki kehittäjille: Esimerkki mukautetusta vaihtoehdosta
+### <a name="tip-for-developers-example-of-the-custom-option"></a>Vinkki kehittäjille: Esimerkki mukautetusta vaihtoehdosta
 
 Seuraavassa esimerkissä kuvataan, miten oma muunnoskoodi toteutetaan.
 
@@ -208,7 +208,7 @@ codeunit 60100 "Hello World"
 
 Kun olet määritellyt säännöt, voit testata niitä. Kirjoita **Testi**-pikavälilehdessä esimerkki arvosta, jonka haluat muuttaa, tarkista sitten tulokset valitsemalla **Päivitä**.
 
-## Tietojenvaihtomäärityksen vieminen XML-tiedostona muiden käyttöä varten
+## <a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Tietojenvaihtomäärityksen vieminen XML-tiedostona muiden käyttöä varten
 
 Kun olet luonut tietojenvaihtomäärityksen tietylle datatiedostolle, voit viedä tietojenvaihtomäärityksen XML-tiedostona, joka voidaan tuoda. Tämä tehtävä kuvataan seuraavassa menettelytavassa.  
 
@@ -219,14 +219,14 @@ Kun olet luonut tietojenvaihtomäärityksen tietylle datatiedostolle, voit vied�
 
     Jos tietojenvaihtomääritys on jo luotu, riittää, että tuot XML-tiedoston tietojen vaihtamiskehykseen. Tämä tehtävä kuvataan seuraavassa menettelytavassa.  
 
-## Olemassa olevan tietojenvaihtomäärityksen tuominen
+## <a name="import-an-existing-data-exchange-definition"></a>Olemassa olevan tietojenvaihtomäärityksen tuominen
 
 1. Tallenna XML-tiedosto, joka edustaa tietojenvaihtomääritystä tarvittavassa paikassa.  
 2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tietojenvaihtomääritykset**, valitse sitten aiheeseen liittyvä linkki.  
 3. Valitse **Tuo tiedonsiirtomääritys** -toiminto.  
 4. Valitse vaiheessa 1 tallennettu tiedosto.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Tietojenvaihdon määrittäminen](across-set-up-data-exchange.md)  
 [Sähköisten asiakirjojen vastaanottamisen ja lähettämisen määrittäminen](across-how-to-set-up-electronic-document-sending-and-receiving.md)  

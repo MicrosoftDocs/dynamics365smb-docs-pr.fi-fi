@@ -12,7 +12,7 @@ ms.search.form: '1826, 1827'
 ms.service: dynamics-365-business-central
 ---
 
-# Yrityksen konsolidoinnin määrittäminen
+# <a name="set-up-company-consolidation"></a>Yrityksen konsolidoinnin määrittäminen
 
 Ennen kuin voit konsolidoida kahden tai useamman yrityksen (tytäryritysten) pääkirjanpidon tapahtumat konsolidoituun yritykseen, sinun täytyy valmistella tilikartat ja konsolidointiyritys.  
 
@@ -23,7 +23,7 @@ Yritysten monimutkaisuus määrittää, kumpaa tapaa käytetään konsolidoinnin
   * Määritä, mitkä kunkin liiketoimintayksikön pääkirjanpidon tilit sisällytetään konsolidointiin, sekä muuntomenetelmän määrittäminen kullekin tilille.
   * Liiketoimintayksikön kortin määrittäminen kullekin konsolidointiin sisällytettävälle yritykselle konsolidoidussa yrityksessä. Liiketoimintayksikön kortin tietoihin kuuluvat esimerkiksi liiketoimintayksikön tilikauden päivämäärät, kunkin konsolidointiin sisällytettävän tilin prosenttiosuus, joka tulee sisällyttää konsolidointiin.
 
-## Yksinkertaiset konsolidoinnin asetukset
+## <a name="simple-consolidation-setup"></a>Yksinkertaiset konsolidoinnin asetukset
 
 Jos kyse on suoraviivaisesta konsolidoinnista, koska esimerkiksi omistat kokonaan konsolidoitavat liiketoimintayksiköt, **Yrityksen konsolidointi** -määritys auttaa seuraavissa vaiheissa:
 
@@ -35,11 +35,11 @@ Käytä asetusten ohjattua määritystä seuraavasti:
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Asetusten ohjattu määritys** ja valitse sitten vastaava linkki.
 2. Valitse **Käsittele konsolidoinnit** ja tee vaiheet yrityksen konsolidoinnin ohjatun määrityksen mukaisesti.
 
-## Konsolidoinnin lisäasetukset
+## <a name="advanced-consolidation-setup"></a>Konsolidoinnin lisäasetukset
 
 Jos konsolidoinnissa on käytettävä lisäasetuksia, voit määrittää konsolidoinnin manuaalisesti. Sinulla voi esimerkiksi olla yrityksiä, jotka omistat osittain, tai et ehkä halua sisällyttää tiettyjä yrityksiä.  
 
-### Määritä konsolidoitu yritys
+### <a name="set-up-the-consolidated-company"></a>Määritä konsolidoitu yritys
 
 Ensin tulee määrittää konsolidoitu yritys. Konsolidoitu yritys määritetään samalla tavalla kuin muutkin yritykset. Lisätietoja yrityksen perustamisesta on kohdassa [Valmistautuminen liiketoimintaan](ui-get-ready-business.md).  
 
@@ -63,7 +63,7 @@ Seuraavassa luettelossa havainnollistetaan konsolidoidun yrityksen keskeiset pii
 
     Jos haluat lisätietoja, siirry [Dimensioiden sisällyttäminen tai jättäminen pois](#dim) -kohtaan.
 
-### <a name="busunit"></a>Lisää liiketoimintayksiköt
+### <a name="add-business-units"></a><a name="busunit"></a>Lisää liiketoimintayksiköt
 
 Määritä konsolidoidussa yrityksessä jokainen yritys, jonka tietoja haluat konsolidoida liiketoimintayksikkönä. Ennen konsolidoinnin suorittamista ja konsolidointiraportin luontia on hyvä tarkistaa kunkin liiketoimintayksikön finanssitiedot.
 
@@ -75,7 +75,7 @@ Liiketoimintayksikön määrittämisessä on huomattava osa sen määrittämist�
 > [!NOTE]
 > Ohjelmointirajapinnan vaihtoehdon avulla voit myös jakaa pääkirjanpidon tapahtumia muista [!INCLUDE [prod_short](includes/prod_short.md)] -ympäristöistä. Jotta ohjelmointirajapinnan vaihtoehtoa voi käyttää, konsolidoinnin määrittävällä käyttäjällä on oltava kp-tapahtumien käyttöoikeus. Voit käyttää esimerkiksi D365 Perus- ja D365-luku-käyttöoikeuksien joukkoa.
 
-#### Liiketoimintayksikön valuuttojen määrittäminen
+#### <a name="set-up-business-unit-currencies"></a>Liiketoimintayksikön valuuttojen määrittäminen
 
 Kun suoritat liiketoimintayksiköiden konsolidoinnin ulkomaan valuutassa, kiinnitä huomiota vaihtokursseihin, joita prosessin eri osat käyttävät. Tämä pitää paikkansa erityisesti konsolidoinnin uudelleenajon yhteydessä. Käytä **Liiketoimintayksikön valuuttojen määrittäminen** -sivua, sillä se helpottaa kurssien seuraamista.
 
@@ -86,7 +86,7 @@ Kun suoritat liiketoimintayksiköiden konsolidoinnin ulkomaan valuutassa, kiinni
 > [!NOTE]
 > Keskikurssin, loppukurssin ja viimeisen loppukurssin vaihtokurssin määrityssivut, jotka ovat tällä hetkellä käytettävissä **Liiketoimintayksikkö**-kortissa, vanhentuvat tulevassa versiossa. Näitä kursseja voidaan kuitenkin edelleen ylläpitää, jos liiketoimintayksiköitä on tuotu tiedostojen kautta.
 
-#### Liiketoimintayksikön luominen
+#### <a name="create-a-business-unit"></a>Liiketoimintayksikön luominen
 
 1. Kirjaudu konsolidoituun yritykseen.
 2. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Liiketoimintayksiköt** ja valitse sitten vastaava linkki.  
@@ -102,7 +102,7 @@ Kun suoritat liiketoimintayksiköiden konsolidoinnin ulkomaan valuutassa, kiinni
         Saat päätepisteen URL-osoitteen liiketoimintayksikköyrityksen [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa avaamalla **Konsolidoinnin asetukset -sivun** ja tarkistamalla Nykyisen ympäristön ohjelmointirajapinnan päätepistekentän arvon. 
    * Voit viedä .xml-tiedoston ja jakaa sen manuaalisesti valitsemalla **Tiedostomuoto**.
 
-### <a name="glacc"></a>Valmistele kirjanpitotilit konsolidointia varten
+### <a name="prepare-general-ledger-accounts-for-consolidation"></a><a name="glacc"></a>Valmistele kirjanpitotilit konsolidointia varten
 
 Konsolidoitavan yrityksen tilikartan on määritettävä konsolidoinnissa käytettävät tilit. Kunkin yrityksen kullekin KP-tilille on määritettävä konsolidoidun yrityksen KP-tili, jolle saldo siirretään. Yhdistämismäärityksen avulla voit konsolidoida yrityksiä, joilla on eri tilikartat.
 
@@ -117,7 +117,7 @@ Jos liiketoimintayksikön tilikartta poikkeaa konsolidoidun yrityksen tilikartas
 > [!TIP]
 > Saattaa olla tilanteita, joissa et halua sisällyttää tiliä konsolidointiin. Jos esimerkiksi haluat, että konsolidointiyritys ottaa huomioon vain tytäryritysten taseet. Jos haluat jättää tilin konsolidoinnin ulkopuolelle, ota tilin **Sulje pois konsolidoinnista** -vaihtoehto käyttöön.
 
-### <a name="exchrates"></a>Määritä valuutan vaihtokurssit konsolidoiduissa yrityksissä
+### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Määritä valuutan vaihtokurssit konsolidoiduissa yrityksissä
 
 Jos liiketoimintayksikön käyttämä valuutta ei ole sama kuin konsolidoidun yrityksen käyttämä valuutta, kullekin tilille on määritettävä vaihtokurssimenetelmä ennen konsolidointia. Kunkin tilin **Konsolid. muuntomenetelmä** -kentän sisältö määrittää vaihtokurssin. Määritä konsolidoidussa yhtiössä kunkin liiketoimintayksikön **Valuutan vaihtok.taulu** -kentässä, käytetäänkö konsolidoinnissa liiketoimintayksikön vai konsolidoidun yrityksen vaihtokursseja. Jos käytät konsolidoidun yrityksen vaihtokursseja, voit muuttaa liiketoimintayksikön vaihtokursseja. Jos liiketoimintayksikön kortin **Valuutan vaihtok.taulu** -kentässä on arvo **Paikallinen**, voit muuttaa vaihtokurssia liiketoimintayksikön kortista. Vaihtokurssit kopioidaan **Valuutan vaihtokurssi** -taulukosta, mutta voit muuttaa niitä ennen konsolidointia.
 
@@ -138,7 +138,7 @@ Liiketoimintayksikön vaihtokurssit määritetään seuraavasti:
 2. Valitse ensin **Liiketoimintayksiköiden luettelo** -sivulla liiketoimintayksikkö ja sitten **Vaihtokurssit**-toiminto.  
 3. Täytä tarvittavat kentät **Määritä liiketoimintayksikön valuutat** -sivulla. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="dim"></a>Dimensioiden sisällyttäminen tai jättäminen pois
+### <a name="include-or-exclude-dimensions"></a><a name="dim"></a>Dimensioiden sisällyttäminen tai jättäminen pois
 
 Voit konsolidoida dimensiotietoja samoin kuin KP-tilejäkin.
 
@@ -148,15 +148,15 @@ Voit konsolidoida dimensiotietoja samoin kuin KP-tilejäkin.
   * Konsolidoi dimension arvokoodi liiketoimintayksikössä eri dimension arvokoodilla konsolidoidussa yrityksessä täyttämällä dimensioiden **Konsolidointikoodi**-kenttä.  
 * Lisää dimensiot kirjanpitotileihin.
 
-### <a name="exclude"></a>Jätä yritys konsolidoinnin ulkopuolelle
+### <a name="exclude-a-company-from-consolidation"></a><a name="exclude"></a>Jätä yritys konsolidoinnin ulkopuolelle
 
 Jos et halua sisällyttää liiketoimintayksikköä konsolidointiin, voit jättää sen pois. Se onnistuu siirtymällä liiketoimintayksikön korttiin ja poistamalla **Konsolidoi**-valintaruudun valinta.
 
-### <a name="include"></a>Sisällytä osittain omistettu yritys konsolidointiin
+### <a name="include-a-partially-owned-company-in-consolidation"></a><a name="include"></a>Sisällytä osittain omistettu yritys konsolidointiin
 
 Jos omistat osan yrityksestä, voit sisällyttää kustakin tapahtumasta sen prosenttiosuuden, joka vastaa omistamaasi osuutta. Jos esimerkiksi omistat yrityksestä 70 prosenttia, konsolidointiin sisältyy lasku 70 dollaria 100 dollarin laskusta. Voit määrittää omistusosuuden yrityksestä siirtymällä liiketoimintayksikön korttiin ja antamalla prosenttiosuuden **Konsolidointi-%** -kentässä.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Usean yrityksen kirjanpitotietojen konsolidoiminen](finance-consolidated-company-reporting.md)  
 [Konsernitapahtumien hallinta](intercompany-manage.md)  

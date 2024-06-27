@@ -10,20 +10,20 @@ ms.search.form: 'Report_33, Report_101, Report_104, Report_109, Report_112, Repo
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# Myyntireskontran raportit ja analytiikka
+# <a name="accounts-receivable-reports-and-analytics"></a>Myyntireskontran raportit ja analytiikka
 
 Jotta voit hallita myyntisaamisiasi helpommin [!INCLUDE [prod_short](includes/prod_short.md)]issa, vakioraportit ja analytiikka ovat sisään rakennettuina. Se ylittää perinteisen raportoinnin rajoitukset, jotta voit suunnitella tehokkaasti erityyppisiä raportteja.  
 
-## Raportit
+## <a name="reports"></a>Raportit
 
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
-## Talousraporttien tutkiminen Report Explorerin avulla
+## <a name="explore-finance-reports-with-report-explorer"></a>Talousraporttien tutkiminen Report Explorerin avulla
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Tärkeimmät talousraportit](finance-reports.md)  
 [Taloustietojen tapauskohtainen analyysi](ad-hoc-analysis-finance.md)   

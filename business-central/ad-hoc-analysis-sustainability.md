@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Vastuullisuustietojen ad-hoc-analyysi
+# <a name="ad-hoc-analysis-of-sustainability-data"></a>Vastuullisuustietojen ad-hoc-analyysi
 
 Tässä artikkelissa kerrotaan, kuinka voit käyttää **Tietojen analysointi** -ominaisuutta kestävyystietojen analysointiin suoraan luettelosivuilta ja kyselyistä. Sinun ei tarvitse suorittaa raporttia tai siirtyä toiseen sovellukseen, kuten Exceliin. Ominaisuus tarjoaa vuorovaikutteisen ja monipuolisen tavan laskea, tiivistää ja tarkastella tietoja. Sen sijaan, että raportteja suoritetaan vaihtoehdoilla ja suodattimilla, voit lisätä useita välilehtiä, jotka edustavat erilaisia tehtäviä tai näkymiä tiedoista. Esimerkkejä ovat "Päästöjen yleiskatsaus", "Päästöt laajuuden mukaan", tai mikä tahansa muu näkymä, jonka voit kuvitella. Lisätietoja **Tietojen analysointi** -ominaisuuden käytöstä on kohdassa [analyysitilassa olevien luettelo- ja kyselytietojen analysointi](analysis-mode.md).
 
@@ -20,7 +20,7 @@ Käytä seuraavia luettelosivuja kestävyystietojen tapauskohtaiseen analysointi
 
 - [Vastuullisuustapahtumat](https://businesscentral.dynamics.com/?page=6220)
 
-## Kestävyyden ad-hoc-analyysiskenaariot
+## <a name="sustainability-ad-hoc-analysis-scenarios"></a>Kestävyyden ad-hoc-analyysiskenaariot
 
 **Tietojen analysointi** -toiminnon avulla voit tarkistaa tiedot nopeasti ja tehdä tapauskohtaisia analyysejä seuraavasti:
 
@@ -36,7 +36,7 @@ Seuraavissa osissa on esimerkkejä kestävyysskenaarioista [!INCLUDE [prod_short
 | [Keskimääräiset päästöt luokkaa kohti](#example-average-emissions-by-category) | Analysoi keskimääräiset päästöt luokittain. | [Vastuullisuustapahtumat](https://businesscentral.dynamics.com/?page=6220) | **Tililuokka**, **Tilin nimi**, **Päästöjen NH4**, **Päästöjen CO2** ja **Päästöjen N2O**.|
 | [Päästöt laajuuden mukaan](#example-emissions-by-scope) | Analysoi päästöt laajuuden mukaan. | [Vastuullisuustapahtumat](https://businesscentral.dynamics.com/?page=6220) | **Päästöjen laajuus**, **Tililuokka**, **Päästöjen NH4**, **Päästöjen CO2** ja **Päästöjen N2O**.|
 
-## Esimerkki: Päästöjen yleiskuvaus (kokonaissumma luokittain)
+## <a name="example-emission-overview-sum-by-category"></a>Esimerkki: Päästöjen yleiskuvaus (kokonaissumma luokittain)
 
 Voit analysoida päästöjä luokan mukaan noudattamalla seuraavia vaiheita:
 
@@ -51,7 +51,7 @@ Seuraavassa kuvassa on näiden työvaiheiden tulokset.
 
 :::image type="content" source="media/data-analysis-sustainability-entries.png" alt-text="Esimerkki 1 tietojen analysoinnista kestävyystapahtumamerkintöjen sivulla." lightbox="media/data-analysis-sustainability-entries.png":::
 
-## Esimerkki: Keskimääräiset päästöt luokkaa kohti
+## <a name="example-average-emissions-by-category"></a>Esimerkki: Keskimääräiset päästöt luokkaa kohti
 
 Voit analysoida keskimääräisiä päästöjä luokan mukaan noudattamalla seuraavia vaiheita:
 
@@ -67,7 +67,7 @@ Seuraavassa kuvassa on näiden työvaiheiden tulokset.
 
 :::image type="content" source="media/data-analysis-sustainability-entries-avg.png" alt-text="Esimerkki 2 tietojen analysoinnista kestävyystapahtumamerkintöjen sivulla." lightbox="media/data-analysis-sustainability-entries-avg.png":::
 
-## Esimerkki: Päästöt laajuuden mukaan
+## <a name="example-emissions-by-scope"></a>Esimerkki: Päästöt laajuuden mukaan
 
 Voit analysoida päästöjä laajuuden mukaan noudattamalla seuraavia vaiheita:
 
@@ -82,13 +82,13 @@ Seuraavassa kuvassa on näiden työvaiheiden tulokset.
 
 :::image type="content" source="media/data-analysis-sustainability-entries-scope.png" alt-text="Esimerkki 3 tietojen analysoinnista kestävyystapahtumamerkintöjen sivulla." lightbox="media/data-analysis-sustainability-entries-scope.png":::
 
-## Kestävyyden ad-hoc-analyysin tietopohja
+## <a name="data-foundation-for-ad-hoc-analysis-on-sustainability"></a>Kestävyyden ad-hoc-analyysin tietopohja
 
 Kestävyyspäiväkirjaan lisäämäsi tiedot ovat väliaikaisia, ja voit muuttaa niitä niiden ollessa päiväkirjassa. Kun kirjaat kestävyyspäiväkirjan, tiedot siirretään Kestävyyskirjanpitotapahtumiin yksittäisiin kestävyystileihin, missä niitä ei voi muuttaa. Voit kuitenkin kirjata peruuttavia tai korjaavia tapahtumia. [Kestävyystapahtumien kirjausten](https://businesscentral.dynamics.com/?page=6220) luettelosivu on tärkein tietolähde kestävyystietojen tapauskohtaisessa analyysissa.
 
 Lisätietoja kestävyystapahtumien kirjauksesta on kohdassa [Kestävyystapahtumien tallennus](finance-sustainability-journal.md).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Kestävyystapahtumien tallentaminen](finance-sustainability-journal.md)  
 [Valmiit kestävyysraportit](sustainability-reports.md)   

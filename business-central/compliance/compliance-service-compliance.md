@@ -10,7 +10,7 @@ ms.date: 06/16/2024
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
-# Palvelun yhteensopivuus
+# <a name="service-compliance"></a>Palvelun yhteensopivuus
 
 Tässä sisällössä on tietoja palvelun [!INCLUDE[prod_short](../includes/prod_short.md)] onlinea koskevasta yhteensopivuudesta.
 
@@ -20,11 +20,11 @@ Jos haluat yksityiskohtaisen luettelon Business Centralin pilvitietojen noudatta
 
 Jos haluat nähdä täydellisen luettelon Microsoftin yhteensopivuustuotteista, siirry [Microsoftin luottamuskeskukseen](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## Palvelun ehdot
+## <a name="service-terms"></a>Palvelun ehdot
 
 [!INCLUDE[service-terms](../includes/service-terms.md)]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Vaatimustenmukaisuus](compliance-overview.md)  
 [Sovelluksen yhteensopivuus](compliance-application-compliance.md)  

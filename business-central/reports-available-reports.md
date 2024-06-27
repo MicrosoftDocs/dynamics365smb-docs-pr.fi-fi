@@ -10,79 +10,79 @@ ms.date: 06/11/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Raportin yleiskatsaus
+# <a name="report-overview"></a>Raportin yleiskatsaus
 
 [!INCLUDE [prod_short](includes/prod_short.md)] sisältää monia valmiita raportteja, joita voi käyttää suoraan.  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)].
 
-## Talousraportit
+## <a name="financial-reports"></a>Talousraportit
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 Lisätietoja: [Talousraportit ja analytiikka Business Centralissa](finance-reports.md).
 
-## Myyntireskontran raportit
+## <a name="accounts-receivable-reports"></a>Myyntireskontran raportit
 
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
 Lisätietoja: [Myyntisaatavien raportit ja analytiikka Business Centralissa](receivables-reports.md).
 
-## Ostoreskontran raportit
+## <a name="accounts-payable-reports"></a>Ostoreskontran raportit
 
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
 
 Lisätietoja: [Ostovelkojen raportit ja analytiikka Business Centralissa](payables-reports.md).
 
-## Kestävyysraportit
+## <a name="sustainability-reports"></a>Kestävyysraportit
 
 [!INCLUDE [sustainability_reports](includes/sustainability-reports-include.md)]
 
 Lisätietoja on kohdassa [Kestävyysraportit](sustainability-reports.md).
 
-## Myyntiraportit
+## <a name="sales-reports"></a>Myyntiraportit
 
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
 Lisätietoja: [Myyntiraportit ja analytiikka Business Centralissa](sales-reports.md).
 
-## Ostoraportit
+## <a name="purchase-reports"></a>Ostoraportit
 
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
 Lisätietoja: [Ostoraportit ja analytiikka Business Centralissa](purchase-reports.md).
 
-## Varaston ja fyysisen varaston raportit
+## <a name="inventory-and-warehouse-reports"></a>Varaston ja fyysisen varaston raportit
 
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
 Lisätietoja: [Varasto, varastoraportit ja analytiikka Business Centralissa](inventory-wms-reports.md).
 
-## Projektiraportit
+## <a name="project-reports"></a>Projektiraportit
 
 [!INCLUDE [project_reports](includes/project-reports-include.md)]
 
 Lisätietoja: [Projektiraportit ja analytiikka Business Centralissa](project-reports.md).
 
-## Käyttöomaisuuden raportit
+## <a name="fixed-assets-reports"></a>Käyttöomaisuuden raportit
 
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 Lisätietoja: [Käyttöomaisuuden raportit ja analytiikka Business Centralissa](fa-reports.md).
 
-## Kokoonpanoraportit
+## <a name="assembly-reports"></a>Kokoonpanoraportit
 
 [!INCLUDE [assembly_reports](includes/assembly-reports-include.md)]
 
 Lisätietoja: [Kokoonpanonhallinnan raportit ja analytiikka Business Centralissa](assembly-reports.md).
 
-## Tuotantoraportit
+## <a name="production-reports"></a>Tuotantoraportit
 
 [!INCLUDE [production_reports](includes/production-reports-include.md)]
 
 Lisätietoja: [Tuotantoraportit ja analytiikka Business Centralissa](production-reports.md).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Raportin yleiskuvaus](reports-use-reports.md)   
 [Luettelo- ja kyselytietojen analysoiminen analyysitilassa](analysis-mode.md)   

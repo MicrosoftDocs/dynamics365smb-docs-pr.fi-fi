@@ -11,7 +11,7 @@ ms.search.form: '5, 16,118, 483, 495'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Lisäraportointivaluutan määrittäminen
+# <a name="set-up-an-additional-reporting-currency"></a>Lisäraportointivaluutan määrittäminen
 
 Yritysten toimiessa yhä useammassa maassa tai useammalla alueella niiden on entistä tärkeämpää pystyä tarkistamaan ja raportoimaan taloustiedot useana valuuttana.
 
@@ -25,7 +25,7 @@ Pääkirjanpito määritetään käyttämään paikallista valuuttaa (PVA), mutt
 >
 > Sinulla voi olla esimerkiksi suuri määrä myyntisaamisia Ison-Britannian puntina (GBP), ja olet määrittänyt LVA:n GBP:ksi. Tässä skenaariossa myyntisaamisten summia, jotka käyttävät GBP:tä, ei oikaista valuuttakurssivoitoiksi/tappioiksi LVA:ssa, vaan ainoastaan myyntisaamisten summat, jotka ovat eri valuutoissa. Tämä tarkoittaa sitä, että jos ilmoitat tilinpäätöksen LVA:n avulla, se voi johtaa liian pieniin tai liian suuriin avoimiin saldoihin myyntisaamisissa.
 
-## Raporttien ja summien näyttäminen LVA:na
+## <a name="displaying-reports-and-amounts-in-acy"></a>Raporttien ja summien näyttäminen LVA:na
 
 LVA:n käyttäminen voi helpottaa yrityksen raportointiprosessia seuraavissa tapauksissa:
 
@@ -34,11 +34,11 @@ LVA:n käyttäminen voi helpottaa yrityksen raportointiprosessia seuraavissa tap
 
 Useat talousraportit perustuvat kirjanpitotapahtumiin. Raportin tiedot voidaan näyttää LVA:na valitsemalla kyseisen KP-raportin **Vaihtoehdot**-pikavälilehdessä **Näytä summat lisäraportointivaluuttana** -valintaruutu.
 
-## Muutetaan vaihtokursseja
+## <a name="adjusting-exchange-rates"></a>Muutetaan vaihtokursseja
 
 Koska vaihtokurssit vaihtelevat jatkuvasti, järjestelmän LVA-arvot on tarkistettava jaksoittain. Jos muutoksia ei tehdä, ulkomaanvaluutoista (tai lisävaluutoista) muunnetut summat voivat olla harhaanjohtavia, kun ne kirjataan pääkirjanpitoon PVA:na. Lisäksi päivittäiset tapahtumat, jotka on kirjattu ennen päivittäisen vaihtokurssin lisäämistä sovellukseen, on päivitettävä, kun päivittäinen vaihtokurssi on lisätty. **Muuta vaihtokursseja** -eräajon avulla voidaan muuttaa kirjattujen asiakas-, toimittaja- ja pankkitilitapahtumien vaihtokursseja. Sen avulla voi myös päivittää KP-tapahtumien LVA-summia. Lisätietoja on kohdassa [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md).
 
-## LVA:n määritys
+## <a name="setting-up-an-acy"></a>LVA:n määritys
 
 Määritä LVA seuraavalla tavalla:
 
@@ -47,7 +47,7 @@ Määritä LVA seuraavalla tavalla:
 - Määritä vaihtokurssien muutosmenetelmän ALV-tapahtumille  
 - Aktivoi LVA.  
 
-### Määritä vaihtokurssien muutosmenetelmä kaikille pääkirjanpidon tileille  
+### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Määritä vaihtokurssien muutosmenetelmä kaikille pääkirjanpidon tileille
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Valuutat** ja valitse sitten vastaava linkki.  
 2. Täytä **Valuutat**-sivulla seuraavat kentät LVA:ta varten.  
@@ -64,7 +64,7 @@ Määritä LVA seuraavalla tavalla:
 
 Kutakin KP-tiliä varten on määritettävä, miten tilin KP-summat muutetaan PVA:n ja LVA:n välisen vaihtokurssin muuttuessa.  
 
-### Määritä vaihtokurssien muutosmenetelmä kaikille pääkirjanpidon tileille
+### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Määritä vaihtokurssien muutosmenetelmä kaikille pääkirjanpidon tileille
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten vastaava linkki.  
 2. Valitse ensin **Tilikartta**-sivulla sopiva tili ja sitten **Muokkaa**-toiminto.  
@@ -82,7 +82,7 @@ Kutakin KP-tiliä varten on määritettävä, miten tilin KP-summat muutetaan PV
 
 4.  Sulje **KP-tilin kortti** -sivu.  
 
-### Vaihtokurssien muutosmenetelmän määrittäminen ALV-tapahtumille
+### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Vaihtokurssien muutosmenetelmän määrittäminen ALV-tapahtumille
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Pääkirjanpidon asetukset** -sivun **ALV:n vaihtokurssin muutos** -kentässä sopiva menetelmä.  
@@ -98,7 +98,7 @@ Kutakin KP-tiliä varten on määritettävä, miten tilin KP-summat muutetaan PV
     |**Muuta summaa**|PVA muutetaan aina valuuttakurssitappion ja –voiton yhteydessä. Ohjelma kirjaa kaikki vaihtokurssivoitot ja -tappiot KP-tilille ( **Lisävaluutan summa** -kenttä) sekä **Valuutat**-sivun **Realisoitun. KP-voittojen tili**- tai **Realisoitun. KP-tapp. tili** -kentässä voitoille tai tappioille määritetyille tileille.|  
     |**Muuta lisävaluuttasummaa**|LVA muutetaan aina valuuttakurssitappion ja –voiton yhteydessä. Ohjelma kirjaa kaikki vaihtokurssivoitot ja -tappiot KP-tilille ( **Lisävaluutan summa** -kenttä) sekä **Valuutat**-sivun **Realisoitun. KP-voittojen tili**- tai **Realisoitun. KP-tapp. tili** -kentässä voitoille tai tappioille määritetyille tileille.|  
 
-### LVA:n aktivointi  
+### <a name="to-activate-the-acy"></a>LVA:n aktivointi
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** ja valitse sitten vastaava linkki.  
 2. Valitse **Pääkirjanpidon asetukset** -sivulla **Lisäraportointivaluutta**-kenttä ja valitse haluamasi raportoinnin lisävaluutta.  
@@ -125,7 +125,7 @@ Lisäksi kaikissa samantyyppisissä tulevissa tapahtumissa summat kirjataan sek�
 > [!NOTE]  
 > **Lisäraportointivaluutta**-kenttä aktivoituu vasta, kun olet napsauttanut **Muuta lisäraportointivaluuttaa**-eräajon **OK**-painiketta.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Valuutan vaihtokurssien päivittäminen](finance-how-update-currencies.md)  
 [Vuosien ja kausien sulkeminen](year-close-years-periods.md)  

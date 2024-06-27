@@ -11,7 +11,7 @@ ms.search.form: '39, 251'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Tapahtumien kirjaaminen suoraan pääkirjanpitoon
+# <a name="post-transactions-directly-to-the-general-ledger"></a>Tapahtumien kirjaaminen suoraan pääkirjanpitoon
 
 Yleisiä päiväkirjoja käytetään rahoitustapahtumien kirjaamisessa suoraan pääkirjanpitotileille sekä muille tileille, kuten pankki-, asiakas-, toimittaja- ja työntekijätileille.  
 
@@ -21,7 +21,7 @@ Yleisiä päiväkirjoja käytetään rahoitustapahtumien kirjaamiseen suoraan ki
 
 Asiakirjoissa kirjatut tapahtumat vaativat hyvityslaskuprosessin. Voit kuitenkin peruuttaa yleisen päiväkirjan avulla kirjatut tapahtumat. Lisätietoja on kohdassa [Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md).
 
-## Tapahtumien kirjaaminen suoraan pääkirjanpitoon
+## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Tapahtumien kirjaaminen suoraan pääkirjanpitoon
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Yleiset päiväkirjat** ja valitse sitten vastaava linkki.
 2. Avaa yleinen päiväkirjaerä. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).
@@ -35,7 +35,7 @@ Asiakirjoissa kirjatut tapahtumat vaativat hyvityslaskuprosessin. Voit kuitenkin
     > Jos haluat syöttää useita tapahtumarivejä ennen vastatilin riviä, esimerkiksi yhdelle pankkitilille, valitse erän rivillä oleva **Ehdota vastasummaa** -valintaruutu **Yleisen päiväkirjan erät** -sivulla. Vastatilin rivin **Summa**-kenttä täytetään automaattisesti arvolla, joka vaaditaan tapahtumien täsmäyttämiseen.
 5. Valitse **Kirjaa**-toiminto kirjataksesi tapahtumat määritetyille KP-tileille.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Yleisten päiväkirjojen käsitteleminen](ui-work-general-journals.md)  
 [Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md)  

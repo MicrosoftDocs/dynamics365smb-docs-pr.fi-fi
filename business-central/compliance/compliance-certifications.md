@@ -10,11 +10,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Sertifikaatit
+# <a name="certifications"></a>Sertifikaatit
 
 Tässä sisällössä on tietoja [!INCLUDE[prod_short](../includes/prod_short.md)]iin liittyvistä varmenteista.  
 
-## Maa tai aluekohtaiset sertifioinnit ja akkreditoinnit
+## <a name="countryregion-specific-certifications-and-accreditations"></a>Maa tai aluekohtaiset sertifioinnit ja akkreditoinnit
 
 Joissakin maissa tai alueilla kirjanpito-ohjelmiston on sertifioitava paikallisia verosäädöksiä ja taloushallintovaatimuksia noudattavaksi. Joissakin maissa se on tehtävä vuosittain, kun taas toisissa riittää, että se tehdään kerran. Seuraavassa luettelossa on mainittu maat tai alueet, joissa Business Centralilla on kyseiset sertifioinnit.
 
@@ -29,11 +29,11 @@ Joissakin maissa tai alueilla kirjanpito-ohjelmiston on sertifioitava paikallisi
 > [!NOTE]  
 > Maissa tai alueilla, joissa Microsoft ei julkaise paikallista versiota, yleensä kumppanit hankkivat Business Centralin perustuotteen sertifioinnin sekä sen lisäksi kumppanin lokalisoinnin ja säädösten mukaiset ominaisuudet.
 
-## Muut sertifioinnit
+## <a name="other-certifications"></a>Muut sertifioinnit
 
 Business Central on lisäksi saanut pilvipalveluna esimerkiksi ISO 27001 -standardin kaltaisia sertifiointeja. Saat täydellisen luettelon näistä hyväksynnäistä, kun [lataat Microsoft Dynamics 365 Cloud Service Compliance -taulukon](https://aka.ms/d365-compliance-list).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Vaatimustenmukaisuus](compliance-overview.md)  
 [Sovelluksen yhteensopivuus](compliance-application-compliance.md)  

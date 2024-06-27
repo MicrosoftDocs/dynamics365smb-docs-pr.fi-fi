@@ -10,15 +10,15 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Käyttäjien resurssit
+# <a name="resources-for-users"></a>Käyttäjien resurssit
 
 Onko käytössäsi [!INCLUDE [prod_short](includes/prod_short.md)], ja etsit asiaankuuluvia resursseja? Tässä artikkelissa on kaikki tarvittavat tiedot. Muista merkitä [aka.ms/BCUsers](https://aka.ms/BCUsers) kirjanmerkillä.
 
-## Ajankohtaiset aiheet juuri nyt
+## <a name="hot-topics-right-now"></a>Ajankohtaiset aiheet juuri nyt
 
 Rekisteröidy [!INCLUDE [prod_short](includes/prod_short.md)] -julkistustapahtumaan [aka.ms/BCLE](https://aka.ms/BCLE).
 
-## Viimeisimmät julkaisut ja päivitykset  
+## <a name="latest-release-and-updates"></a>Viimeisimmät julkaisut ja päivitykset
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] – julkaisusuunnitelma: [aka.ms/BCReleasePlan](https://aka.ms/BCReleasePlan) 
 - Suuret päivitykset: [aka.ms/BCUpdates](https://aka.ms/BCUpdates)
@@ -30,18 +30,18 @@ Rekisteröidy [!INCLUDE [prod_short](includes/prod_short.md)] -julkistustapahtum
 - Ilmoita Microsoftille tulevasta lakisääteisestä ominaisuudesta: [aka.ms/BCAlerts](https://aka.ms/BCAlerts)
 - Valinnaiset ominaisuudet, jotka ovat nyt pakollisia: [aka.ms/BCFeatureMgmt](https://aka.ms/BCFeatureMgmt)
 
-## Pysy ajan tasalla uusista ominaisuuksista
+## <a name="stay-up-to-date-on-whats-new"></a>Pysy ajan tasalla uusista ominaisuuksista
 
 - Katso sovelluksen [!INCLUDE [prod_short](includes/prod_short.md)] -julkistustapahtuman istunnot: [aka.ms/BCLE](https://aka.ms/BCLE).
 
-## Yhteisöpalvelu ja blogit
+## <a name="social-and-blogs"></a>Yhteisöpalvelu ja blogit
 
 - Pysy ajan tasalla siitä, mitä #MSDyn365BC-yhteisössä tapahtuu: [twitter.com/MSDYN365BC](https://twitter.com/MSDYN365BC) (#BCALHelp X:ssä (aiemmin Twitter), kun haluat nopeasti toimintavinkkejä) 
 - Seuraa meitä LinkedInissä: [aka.ms/BCLinkedIn](https://aka.ms/BCLinkedIn)
 - Ole osa yhteisöä: [!INCLUDE [prod_short](includes/prod_short.md)]: [community.dynamics.com/forums/thread/?partialUrl=business](https://community.dynamics.com/forums/thread/?partialUrl=business) 
 - Vieraile IT-ammattilaisten ja päätöksentekijöiden blogissa: [cloudblogs.microsoft.com/dynamics365/it/product/business-central](https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/product/dynamics-365-business-central/)
 
-## Asiakkaiden perehdytys ja resurssit
+## <a name="customer-onboarding-and-resources"></a>Asiakkaiden perehdytys ja resurssit
 
 - Tutustu kaikkiin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksiin AppSourcessa: [aka.ms/BCAppSource](https://appsource.microsoft.com/marketplace/apps?page=1&product=dynamics-365-business-central)
 - Hanki [!INCLUDE [prod_short](includes/prod_short.md)] mobiililaitteisiisi: [aka.ms/BusinessCentralApp](https://aka.ms/BusinessCentralApp)
@@ -50,30 +50,30 @@ Rekisteröidy [!INCLUDE [prod_short](includes/prod_short.md)] -julkistustapahtum
 - Katso tuottavuutta lisääviä vihjeitä: [aka.ms/BCProductivity](https://aka.ms/BCProductivity) 
 - Tutustu pikanäppäimiin: [aka.ms/BCKeys](https://aka.ms/BCKeys)
 
-## Raportointi ja liiketoimintatiedot
+## <a name="reporting-and-business-intelligence"></a>Raportointi ja liiketoimintatiedot
 
 - Raportoinnin käytön aloittaminen: [aka.ms/BCReporting](https://aka.ms/BCReporting)
 - Katso malleja Excelin asetteluista: [aka.ms/BCExcelSamples](https://aka.ms/BCExcelSamples)
 - Esittelyssä [!INCLUDE [prod_short](includes/prod_short.md)] ja Power BI: [aka.ms/BCPBI](https://aka.ms/BCPBI)
 
-## Power Platform
+## <a name="power-platform"></a>Power Platform
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] ja Power BI: [aka.ms/BCPBI](https://aka.ms/BCPBI)
 - [!INCLUDE [prod_short](includes/prod_short.md)] ja Power Automate: [aka.ms/BCAutomate](https://aka.ms/BCAutomate) 
 - [!INCLUDE [prod_short](includes/prod_short.md)] ja Power Apps: [aka.ms/BCPApps](https://aka.ms/BCPApps)
 
-## Siirtäminen paikallisesta online-tilaan
+## <a name="migrating-from-on-premises-to-online"></a>Siirtäminen paikallisesta online-tilaan
 
 - Tutustu resursseihin, joita käytetään siirrettäessä Dynamics GP:n, Dynamics NAV:n, Dynamics SL:n ja [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen paikallisista versioista [!INCLUDE [prod_short](includes/prod_short.md)] -online-versioon: [aka.ms/BCMigrations](https://aka.ms/BCMigrations)  
 - Käytä siirtotyökaluja: [Tietojen siirtäminen](/dynamics365/business-central/dev-itpro/administration/migrate-data) 
 
-## Telemetria ja suorituskyky
+## <a name="telemetry-and-performance"></a>Telemetria ja suorituskyky
 
 - Sovelluksen suorituskykyä koskevat ohjeet: [aka.ms/BCPerformance](https://aka.ms/BCPerformance)
 - Telemetriaa koskevat tiedot: [aka.ms/BCTelemetry](https://aka.ms/BCTelemetry) 
 - Ympäristön telemetriatiedot ja Power BI: [aka.ms/BCTelemetryReport](https://aka.ms/BCTelemetryReport) 
 
-## Tietoturva, yhteensopivuus ja suojaus
+## <a name="security-privacy-and-compliance"></a>Tietoturva, yhteensopivuus ja suojaus
 
 - Tietoturva ja suojaus: [aka.ms/BCSecurity](https://aka.ms/BCSecurity) 
 - Suojaus [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksessa: [aka.ms/BCSecurity](https://aka.ms/BCSecurity)
@@ -81,24 +81,24 @@ Rekisteröidy [!INCLUDE [prod_short](includes/prod_short.md)] -julkistustapahtum
 - Vaatimustenmukaisuuden yleiskatsaus: [aka.ms/BCCompliance](https://aka.ms/BCCompliance)
 - Sovelluksen vaatimustenmukaisuus: [aka.ms/BCAppCompliance](https://aka.ms/BCAppCompliance)
 
-## Käyttöoikeudet ja hinnoittelu
+## <a name="licensing-and-pricing"></a>Käyttöoikeudet ja hinnoittelu
 
 - [Business Centralin käyttöoikeusopas](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409)
 
-## Shopify-integrointi
+## <a name="shopify-integration"></a>Shopify-integrointi
 
 - Shopifyn käynnistys: [aka.ms/BCShopifyStart](https://aka.ms/BCShopifyStart)
 - Shopifyn usein kysytyt kysymykset: [aka.ms/BCShopifyFAQ](https://aka.ms/BCShopifyFAQ)
 - Shopify-konsultti: [aka.ms/BCShopifyConsultant](https://aka.ms/BCShopifyConsultant)
 
-## Tapahtumat asiakkaita varten
+## <a name="events-for-customers"></a>Tapahtumat asiakkaita varten
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] -julkistustapahtuma: [aka.ms/BCLE](https://aka.ms/BCLE)
 - [DynamicsMinds](https://www.dynamicsminds.com/)
 - [UG-huippukokous](https://www.summitna.com/)
 - [DynamicsCon](https://dynamicscon.com/)
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin!](welcome.md)  
 [Yrityksen toiminnot](across-business-functionality.md)  

@@ -11,7 +11,7 @@ ms.search.form: '1290, 1294, 1287'
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# Asiakkaan maksujen täsmäyttäminen maksamattomien myyntiasiakirjojen luettelosta
+# <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Asiakkaan maksujen täsmäyttäminen maksamattomien myyntiasiakirjojen luettelosta
 
 Tee seuraavat toiminnot sen jälkeen, kun asiakkaat ovat tehneet sähköisiä maksuja pankkitilillesi:
 
@@ -27,7 +27,7 @@ Varmista, että maksut peritään, käyttämällä **Rekisteröi asiakkaan maksu
 
 Sinun on kirjattava eri asiakkaiden maksut, joilla on eri maksupäivät, yksittäisinä maksuina. Saman asiakkaan maksut, joilla on sama maksupäivämäärä, voidaan kirjata kokonaissummana. Kokonaissummamaksut ovat hyödyllisiä esimerkiksi silloin, kun asiakas on suorittanut yksittäisen maksun, joka kattaa useita myyntilaskuja.
 
-## Voit määrittää maksukirjauspäiväkirjan
+## <a name="to-set-up-the-payment-registration-journal"></a>Voit määrittää maksukirjauspäiväkirjan
 
 Koska voit kirjata eri maksulajeja eri vastatileille, sinun on valittava vastatili **Maksurekisteröinnin asetukset** -sivulla, ennen kuin alat käsitellä asiakkaan maksuja. Jos kirjaat aina samalle vastatilille, voit määrittää kyseisen tilin oletusarvoksi ja välttää tämän vaiheen aina, kun avaat **Rekisteröi asiakkaan maksut** -sivun.  
 
@@ -37,7 +37,7 @@ Koska voit kirjata eri maksulajeja eri vastatileille, sinun on valittava vastati
 > [!TIP]
 > Voit määrittää kirjauskansioon tietyn numerosarjan. Tämä helpottaa tapahtumien tunnistamista myöhemmin maksukirjauskansiossa. Numerosarjoista on hyötyä, jos käytät maksujen täsmäytyskirjauskansioita käytetään maksujen rekisteröimiseen ja kohdistamiseen.
 
-## Asiakkaan maksujen rekisteröiminen yksitellen
+## <a name="to-register-customer-payments-individually"></a>Asiakkaan maksujen rekisteröiminen yksitellen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Rekisteröi asiakkaan maksut** ja valitse sitten vastaava linkki.  
 
@@ -54,7 +54,7 @@ Koska voit kirjata eri maksulajeja eri vastatileille, sinun on valittava vastati
 
 Maksutiedot kirjataan asiakirjoille, joita edustavat ne rivit, joiden **Maksu suoritettu** -valintaruutu on valittuna. Maksutapahtumat kirjataan pääkirjanpitoon, pankkiin ja asiakastileille.
 
-## Kokonaismaksujen täsmäyttäminen
+## <a name="to-reconcile-lump-sum-payments"></a>Kokonaismaksujen täsmäyttäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Rekisteröi asiakkaan maksut** ja valitse sitten vastaava linkki.
 2. Valitse **Maksu suoritettu** -valintaruutu riveille, jotka edustavat saman asiakkaan kirjattuja asiakirjoja, joista kokonaissumma on suoritettu.  
@@ -80,7 +80,7 @@ Jos pankissa suoritettua maksua ei kuitenkaan esitetä minkään rivin avulla **
 
 Jos pankissa suoritettua maksua ei kuitenkaan esitetä minkään asiakirjan avulla, avaa esitäytetty yleinen päiväkirja **Maksurekisteröinti**-sivulla ja kirjaa maksu suoraan vastatilille kohdistamatta maksua asiakirjaan. Vaihtoehtoisesti voit haluta tallentaa maksun päiväkirjaan ennen kuin maksun alkuperä on ratkaistu. Lisätietoja on kohdassa [Maksun kirjaaminen tai lähettäminen ilman aiheeseen liittyvää asiakirjaa](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md#to-record-or-post-a-payment-without-a-related-document),  
 
-## Alennettujen maksujen käsittely manuaalisesti
+## <a name="to-process-customer-payments-with-discounts-manually"></a>Alennettujen maksujen käsittely manuaalisesti
 
 Jos olet sopinut asiakkaan kanssa maksualennuksesta, sitten maksusummat voivat olla pienempiä kuin laskun summat, jos maksu suoritetaan ennen sovitun alennuksen päivämäärää.  
 
@@ -91,7 +91,7 @@ Seuraavaksi käsitellään erilaisia menettelytapaa alennettujen maksujen kirjaa
 * Sellaisen summan käsittely, joka on pienempi kuin jäljellä oleva alennettu määrä. Voit kirjata maksun osittain. Asiakirja pysyy avoimena ja kerää/maksaa jäljellä olevan summan.  
 * Sellaisen summan käsittely, joka on suurempi kuin jäljellä oleva alennettu määrä. Voit kirjata maksut sellaisenaan. Vain jäljelle jäävä summa kirjataan. Lisäsumma hyvitetään asiakkaalle.  
 
-### Sellaisen maksusumman käsittely, joka on yhtä suuri kuin alennettu summa, ja jonka maksupäivämäärä on ennen alennuspäivämäärää.
+### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-and-where-the-payment-date-is-before-the-discount-date"></a>Sellaisen maksusumman käsittely, joka on yhtä suuri kuin alennettu summa, ja jonka maksupäivämäärä on ennen alennuspäivämäärää.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Rekisteröi asiakkaan maksut** ja valitse sitten vastaava linkki.  
 2. Lisää maksusumma **Vastaanotettu summa** -kenttään. Summa on yhtä suuri kuin **Jäljellä oleva summa sis. alennuksen** -kentän summa.
@@ -101,7 +101,7 @@ Seuraavaksi käsitellään erilaisia menettelytapaa alennettujen maksujen kirjaa
 4. Varmista, että **Jäljellä oleva summa** -kentässä on nolla (0).  
 5. Valitse **Kirjaa maksut** -toiminto, kun haluat kirjata koko maksun pääkirjanpitoon, pankkiin ja asiakastileille.
 
-### Sellaisen maksusumman käsittely, joka on yhtä suuri kuin alennettu summa, mutta jonka maksupäivämäärä on alennuspäivämäärän jälkeen.
+### <a name="to-process-a-payment-amount-that-is-equal-to-the-discounted-amount-but-where-the-payment-date-is-after-the-discount-date"></a>Sellaisen maksusumman käsittely, joka on yhtä suuri kuin alennettu summa, mutta jonka maksupäivämäärä on alennuspäivämäärän jälkeen.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Rekisteröi asiakkaan maksut** ja valitse sitten vastaava linkki.  
 2. Lisää maksusumma **Vastaanotettu summa** -kenttään. Summa on yhtä suuri kuin **Jäljellä oleva summa sis. alennuksen** -kentän summa.
@@ -119,7 +119,7 @@ Seuraavaksi käsitellään erilaisia menettelytapaa alennettujen maksujen kirjaa
 
 Liittyvä asiakirja pysyy avoimena.
 
-### Sellaisen maksun käsittely, joka on pienempi kuin jäljellä oleva alennettu määrä.
+### <a name="to-process-a-payment-that-is-lower-than-the-remaining-discounted-amount"></a>Sellaisen maksun käsittely, joka on pienempi kuin jäljellä oleva alennettu määrä.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Rekisteröi asiakkaan maksut** ja valitse sitten vastaava linkki.  
 2. Lisää maksusumma **Vastaanotettu summa** -kenttään. Summa on pienempi kuin **Jäljellä oleva summa sis. alennuksen** -kentän summa.
@@ -131,7 +131,7 @@ Liittyvä asiakirja pysyy avoimena.
 
 Liittyvä asiakirja pysyy avoimena.
 
-### Sellaisen maksun käsittely, joka on suurempi kuin jäljellä oleva alennettu määrä.
+### <a name="to-process-a-payment-that-is-more-than-the-remaining-discounted-amount"></a>Sellaisen maksun käsittely, joka on suurempi kuin jäljellä oleva alennettu määrä.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Rekisteröi asiakkaan maksut** ja valitse sitten vastaava linkki.  
 2. Lisää maksusumma **Vastaanotettu summa** -kenttään. Summa on suurempi kuin **Jäljellä oleva summa sis. alennuksen** -kentän summa.  
@@ -143,7 +143,7 @@ Liittyvä asiakirja pysyy avoimena.
 
 Liittyvät asiakirja suljetaan ja asiakkaalle hyvitetään ylimääräinen maksusumma.  
 
-## Voit etsiä tietyn myyntiasiakirjan, jota ei ole laskutettu kokonaan
+## <a name="to-find-a-specific-sales-document-that-isnt-fully-invoiced"></a>Voit etsiä tietyn myyntiasiakirjan, jota ei ole laskutettu kokonaan
 
 **Rekisteröi asiakasmaksut** -sivu tukee tehtäviä, joita tarvitaan sisäisten tilien täsmäämiseen todellisten kassalukemien, jotta tehokas perintä asiakkailta voidaan varmistaa. Se näyttää avoimet saapuvat maksut riveinä, jotka edustavat myyntiasiakirjoja, joiden summa on erääntynyt maksettavaksi.  
 
@@ -172,7 +172,7 @@ Jos yksi tai usea asiakirja vastaa hakuehtoja, myös **Asiakirjahaun tulos** -si
 
 Jos pankissa suoritettua maksua ei kuitenkaan esitetä minkään asiakirjan avulla, avaa esitäytetty yleinen päiväkirja **Maksurekisteröinti**-sivulla ja kirjaa maksu suoraan vastatilille kohdistamatta maksua asiakirjaan. Vaihtoehtoisesti voit haluta tallentaa maksun päiväkirjaan ennen kuin maksun alkuperä on ratkaistu.  
 
-## Maksun kirjaaminen tai lähettäminen ilman aiheeseen liittyvää asiakirjaa
+## <a name="to-record-or-post-a-payment-without-a-related-document"></a>Maksun kirjaaminen tai lähettäminen ilman aiheeseen liittyvää asiakirjaa
 
 Jos pankissa olevaan maksuun ei ole liitetty asiakirjaa, voit avata valmiiksi täytetyn yleisen päiväkirjan rivin **Yleisen päiväkirjan** toiminnon avulla **Rekisteröi asiakasmaksut** -sivulta. Päiväkirjan käyttäminen maksun kirjaamiseen suoraan vastatilille kohdistamatta maksua asiakirjaan. Vaihtoehtoisesti voit haluta tallentaa maksun päiväkirjaan ennen kuin maksun alkuperä on ratkaistu.  
 
@@ -186,7 +186,7 @@ Voit kirjata päiväkirjarivin päivittämään vastatilin yhteissummaa. Voit my
 
 Jos et kirjaa päiväkirjan riviä, sen arvo lisätään **Maksurekisteröinti**-sivun **Rem. summa sis. alennus** -kentän arvoon.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Myynti](sales-manage-sales.md)  

@@ -6,7 +6,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-## Tuetut kielet Copilotissa
+## <a name="supported-languages-for-copilot"></a>Tuetut kielet Copilotissa
 
 Copilot toimii kaikkien Business Centralin näyttökielien kanssa, mutta vain seuraavia kieliä tuetaan tällä hetkellä täysin. Voit silti käyttää muita kieliä, mutta tulokset saattavat olla epätarkempia ja epäluotettavia.
 

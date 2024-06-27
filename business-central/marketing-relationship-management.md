@@ -11,7 +11,7 @@ ms.search.forms: '9076, 9026'
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Kontaktienhallinta
+# <a name="managing-relationships"></a>Kontaktienhallinta
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in kontaktienhallinnan toiminnot auttavat myyntitoimintojen hallinnassa ja tukemisessa. Ominaisuuksien avulla saat kaikki tiedot käyttöösi tarkkoina ja ajantasaisina ja voit keskittyä ensisijaisten asiakas-/kontaktisegmenttien hoitamiseen.
 

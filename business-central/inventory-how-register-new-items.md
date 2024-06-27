@@ -11,7 +11,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Uusien nimikkeiden rekisteröiminen
+# <a name="register-new-items"></a>Uusien nimikkeiden rekisteröiminen
 
 Nimikkeet ovat tavaroita tai palveluita, joita ostat, varastoit, myyt, lähetät ja tilität. Käytä **Nimikkeen kortti** -sivua rekisteröidäksesi tietoja seuraavista nimiketyypeistä:
 
@@ -24,19 +24,19 @@ Jos haluat oppia lisää muista kuin varastonimikkeistä, siirry kohtaan [Tietoj
 > [!TIP]
 > On myös luettelonimikkeitä, jotka muistuttavat muita kuin varastonimikkeitä siinä, että ne ovat nimikkeitä, joita tarjotaan asiakkaille, mutta joita ei hallita ennen kuin myyt ne. Saat lisätietoja siirtymällä kohtaan [Luettelonimikkeiden käyttäminen](inventory-how-work-nonstock-items.md).  
 
-## Ensisijaiset ja vaihtoehtoiset toimittajat
+## <a name="primary-and-alternate-vendors"></a>Ensisijaiset ja vaihtoehtoiset toimittajat
 
 Jos ostat saman nimikkeen useammalta kuin yhdeltä toimittajalta, voit yhdistää kyseiset toimittajat nimikkeen. Käytä **Tuotekortti** **Toimittajat**-toimintoa avataksesi **Tuotetoimittajaluettelo**-sivun. Sivulla näkyvät toimittajat, joilta ostat nimikkeen, joten voit helposti luoda tai valita vaihtoehtoisen toimittajan silloin, kun luot ostotilauksen.
 
-## Käytä nimikemalleja
+## <a name="use-item-templates"></a>Käytä nimikemalleja
 
 Voit käyttää erityyppisten nimikkeiden asetuksia uudelleen uusia nimikkeitä luotaessa tallentamalla nimikkeitä nimikemalleina. Nimikemallit helpottavat uusien nimikkeiden lisäysprosessia ja lisäävät nimiketietojen johdonmukaisuutta. Kun rekisteröit uuden nimikkeen, näyttöön tulee sivu, jonka avulla voit valita mallin. Kun olet valinnut mallin, sen asetukset täytetään luotavan nimikkeen osalta. Jos vain yksi nimikemalli on olemassa, uudet nimikkeet käyttävät aina kyseistä mallia. Lisätietoja nimikemallin määrittämisestä on kohdassa [Nimikekortin tallentaminen nimikemallina](#save-an-item-card-as-an-item-template).
 
-## Sisällytä nimikkeet tuoterakenteisiin
+## <a name="include-items-in-bills-of-materials"></a>Sisällytä nimikkeet tuoterakenteisiin
 
 Voit järjestää hierarkioita, joilla on päänimike, jonka komponenttinimikkeet ovat kokoonpanossa ja tuotannon tuoterakenteessa. Lisätietoja kokoonpanon tuoterakenteesta on kohdassa [Kokoonpanon tuoterakenteiden käyttö](inventory-how-work-BOMs.md).
 
-## Uuden nimikekortin luominen
+## <a name="to-create-a-new-item-card"></a>Uuden nimikekortin luominen
 
 Seuraavassa taulukossa esitetään, kuinka ketju on määritetty nimikekortissa. Voit kuitenkin luoda uusia nimikekortteja myös kopioimalla aiemmin luotuja kortteja. Lukeaksesi lisää [Uusien nimikkeiden luominen kopioimalla aiemmin luotuja nimikkeitä](inventory-how-copy-items.md).  
 
@@ -51,7 +51,7 @@ Seuraavassa taulukossa esitetään, kuinka ketju on määritetty nimikekortissa.
 
 Voit käyttää erikoishintoja tai alennuksia, jotka sinä tai toimittajasi myönnät tuotteelle tiettyjen kriteerien perusteella. Kriteereihin kuuluvat esimerkiksi asiakas, vähimmäistilausmäärä tai lopetuspäivämäärä. Tämä tehdään valitsemalla **Määritä erikoishinnat**- tai **Määritä erikoisalennukset** -toiminto. Jokainen rivi, esimerkiksi **Myyntihinnat**-sivulla, edustaa erikoishintaa. Jokainen sarake vastaa ehtoa, jonka täytyy olla voimassa, jotta asiakkaalle voidaan myöntää erikoishinta, joka syötetään **Myyntihinnat**-sivun **Yksikköhinta**-kenttään. Lue lisätietoja on kohdassa [myyntihinnan, alennuksen ja maksusopimusten kirjaaminen](sales-how-record-sales-price-discount-payment-agreements.md) tai [erityisten ostohintojen ja alennusten kirjaaminen](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
-### Tallenna nimikekortti tallennusmallina
+### <a name="save-an-item-card-as-an-item-template"></a>Tallenna nimikekortti tallennusmallina
 
 1. Valitse **Nimikekortti**-sivulla **Tallenna mallina** -toiminto. **Nimikemalli**-sivu avautuu ja näyttää nimikekortin mallina.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -61,11 +61,11 @@ Voit käyttää erikoishintoja tai alennuksia, jotka sinä tai toimittajasi myö
 
 Nimikemalli lisätään nimikemallien luetteloon niin, että sen avulla voit luoda uusia nimikekortteja.
 
-### Tuotantotilauksissa käytetyt nimikkeet
+### <a name="items-used-in-production-orders"></a>Tuotantotilauksissa käytetyt nimikkeet
 
 Jos halutaan rekisteröidä myöhemmin tuotantotilauksessa käytettäviä nimikkeitä, täydennysjärjestelmä määritetään *tuotantotilauksena* **Täydennys**-pikavälilehdessä. Lisätietoja on kohdassa [Tietoja tuotantotilauksista](production-about-production-orders.md).  
 
-## Useiden toimittajien määrittäminen nimikkeille
+## <a name="to-set-up-multiple-vendors-for-an-item"></a>Useiden toimittajien määrittäminen nimikkeille
 
 Jos ostat saman nimikkeen useammalta kuin yhdeltä toimittajalta, sinun tulee syöttää tietoja kustakin nimikkeen toimittajasta, esimerkiksi hinnat, toimitusaika ja alennukset.  
 
@@ -78,11 +78,11 @@ Jos ostat saman nimikkeen useammalta kuin yhdeltä toimittajalta, sinun tulee sy
 
 Toimittajat näkyvät nyt nimikkeen kortissa avattavassa **Nimikkeen toimittajaluettelo** -sivulla, jossa voit valita kätevästi vaihtoehtoisen toimittajan.
 
-## Määritä nimikekorvaukset
+## <a name="set-up-item-substitutions"></a>Määritä nimikekorvaukset
 
 Voit määrittää nimikkeille korvaavia tuotteita, kuten muita nimikkeitä, joita voidaan käyttää alkuperäisen nimikkeen tilalla.
 
-### Nimikkeen korvaamisen toteuttaminen
+### <a name="to-make-an-item-substitution"></a>Nimikkeen korvaamisen toteuttaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.  
 2. Etsi asianmukainen nimike ja avaa nimikekortti valitsemalla **Nimikenro**-painike.  
@@ -95,29 +95,29 @@ Kun pyydetty määrä on suurempi kuin määrä, joka on saatavilla varastossa, 
 > [!NOTE]  
 > Huomaa, että nimikkeen korvaaminen ei automaattisesti aiheuta nimikkeen korvaamista toisella nimikkeellä esimerkiksi myyntitilausta luotaessa tai tuoterakenteessa. Sen sijaan sinua varoitetaan siitä, että käytettävissäsi on korvaaminen.
 
-## Luokat, määritteet ja variantit
+## <a name="categories-attributes-and-variants"></a>Luokat, määritteet ja variantit
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
 Lisätietoja varianteista on kohdassa [Tuotevarianttien hallinta](inventory-item-variants.md).  
 
-## Nimikekorttien poistaminen
+## <a name="delete-item-cards"></a>Nimikekorttien poistaminen
 
 Jos kirjaat nimikkeelle tapahtuman, et voi poistaa korttia, koska nimiketapahtumia voidaan tarvita varaston arvostamiseen tai valvontaan. Voit poistaa nimiketapahtumia tapahtumakirjauksilta ottamalla yhteyttä Microsoft-kumppaniin koodin avulla.  
 
-## Hallitse varastoa fyysisessä varastossa
+## <a name="manage-inventory-in-warehouses"></a>Hallitse varastoa fyysisessä varastossa
 
 Kun rekisteröit uuden nimikkeen, näyttöön tulee varastoinnin hallintaan liittyviä kenttiä, erityisesti **Fyysinen varasto** -pikavälilehdessä. Jos organisaatiossasi ei käytetä sovelluksen [!INCLUDE [prod_short](includes/prod_short.md)] varastonhallinnan ominaisuuksia, voit ohittaa kyseiset kentät.  
 
 Jos organisaatio myöhemmin määrittää fyysisen varaston hallinnan, kannattaa varmistaa, että jokaisella olemassa olevalla nimikkeellä on oikeat tiedot eri kentissä. Näin fyysisen varaston prosessit voidaan suorittaa odotetulla tavalla. Tietoja voivat olla esimerkiksi **fyysisen varaston luokkakoodi** tai **hyllytysmallin koodi**. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).  
 
-## Suunnitt.
+## <a name="planning"></a>Suunnitt.
 
 Kun yrityksesi käyttää toimitussuunnitteluprosesseja [!INCLUDE [prod_short](includes/prod_short.md)]issa, tarvittavat kentät **Suunnittelu**-pikavälilehdessä on täytettävä. Tutustu suunnittelualueeseen kohdassa [Suunnittelutiedot: Suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md).  
 
 Esimerkkejä **Suunnittelu**-pikavälilehden kenttien käytöstä on kohdassa [Asetuksien parhaat käytännöt: Suunnitteluparametrit](setup-best-practices-planning-parameters.md).  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Varasto](inventory-manage-inventory.md)  
 [Mittayksiköiden määrittäminen](inventory-how-setup-units-of-measure.md)  

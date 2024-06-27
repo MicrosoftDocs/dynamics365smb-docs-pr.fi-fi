@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Myyjien määrittäminen
+# <a name="set-up-salespeople"></a>Myyjien määrittäminen
 
 Useat yritykset haluavat seurata yksittäisen työntekijän suoritusta perustana myyntiprovision tai bonuksen laskennalle. Tarkastele esimerkiksi **myyjien provisioiden** raporttia. Yritys voi myös haluta määrittää myyjän kullekin kontaktilleen.
 
@@ -18,14 +18,14 @@ Kun olet määrittänyt myyjän **Myyjät**-sivulla, voit valita luomasi myyjän
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43Vhm?rel=0]
 
-## Myyjäkoodin määrittäminen
+## <a name="to-set-up-a-salesperson-code"></a>Myyjäkoodin määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Myyjät** ja valitse sitten vastaava linkki.
 2. Valitse **Myyjät**-sivulla **Uusi**-toiminto.
 
 Voit käyttää myyjiä erilaisissa asiakkuudenhallinta- ja markkinointitöissä. Voit esimerkiksi määrittää tehtäviä myyjille siten, että tehtävät sisältyvät niihin myyntimahdollisuuksiin, jotka on määritetty myyjälle. Lisätietoja on ohjeaiheessa [Mahdollisuuden myyntisyklien ja syklin vaiheiden määrittäminen](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Myynnin määrittäminen](sales-setup-sales.md)  
 [Myynti](sales-manage-sales.md)  

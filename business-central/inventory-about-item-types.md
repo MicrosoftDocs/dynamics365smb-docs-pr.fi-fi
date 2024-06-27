@@ -11,7 +11,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Tietoja nimiketyypeistä
+# <a name="about-item-types"></a>Tietoja nimiketyypeistä
 
 Voit valita **Nimikkeen kortti** -sivun **Tyyppi**-kentässä nimikkeen käyttötarkoituksen yrityksessä. Valinta määrittää myös sen, missä määrin voit hallita tavaraa varastossa. Seuraavassa taulukossa on lueteltu ja kuvattu käytettävissä olevat kolme nimiketyyppiä.
 
@@ -30,7 +30,7 @@ Voit valita **Nimikkeen kortti** -sivun **Tyyppi**-kentässä nimikkeen käyttö
 |Muu kuin varasto|Kyllä|Kyllä|Kyllä|Kyllä|Kyllä|Kyllä|Ei|Ei|Ei|Ei|Ei|Ei|Ei|Ei|Ei|Ei|Kyllä|
 |Palvelu|Kyllä|Kyllä|Kyllä|Ei|Ei|Ei|Ei|Ei|Ei|Ei|Ei|Ei|Ei|Ei|Ei|Ei|Kyllä|
 
-## Nimiketyyppien arvostusmenetelmät
+## <a name="costing-methods-for-types-of-items"></a>Nimiketyyppien arvostusmenetelmät
 
 Kun kirjaat varastotapahtumia varaston määrien muutokset kirjataan nimiketapahtumiin ja varaston arvon muutokset arvotapahtumiin.
 
@@ -38,13 +38,13 @@ Varastonimikkeiden kustannukset kirjataan **Kustannusmäärä (todellinen)** -ke
 
 Muiden kuin varastonimikkeiden ja huoltonimikkeiden kustannus kirjataan **Arvotapahtumat**-sivun **Kustannussumma (ei-var.)** -kenttään. Muissa kuin varastonimikkeissä ja huoltonimikkeissä kustannus määritetään myynti-, kokoonpano- ja tuotantoasiakirjoissa ja -päiväkirjoissa. Oletuskustannus voidaan määrittää **Yksikkökustannus**-kentässä **Nimikkeen kortti**- ja **Varastointiyksikkö**-sivuilla. Näiden nimiketyyppien kustannuksia ei täsmäytetä pääkirjanpitoon.
 
-## Luettelo- ja huoltonimikkeet
+## <a name="catalog-and-service-items"></a>Luettelo- ja huoltonimikkeet
 
 Voit määrittää nimikkeitä, joita tarjoat asiakkaillesi, mutta et hallitse niitä ennen kuin myyt ne luettelonimikkeinä. Vaikka kataloginimikkeet ovat samanlaisia kuin tavalliset nimikkeet, joiden tyyppi on tässä suhteessa **Ei varasto**, älä sekoita näitä kahta, koska niissä on eroja. Saat lisätietoja siirtymällä kohtaan [Luettelonimikkeiden käyttäminen](inventory-how-work-nonstock-items.md).
 
 Asiakkaan nimikkeet, joita huolletaan (esimerkiksi tulostin), sanotaan huoltonimikkeiksi. Huoltonimikkeet eivät ole samanlaisia kuin tavalliset nimikkeet tai luettelonimikkeet. Huollon komponentit voivat kuitenkin olla tavallisia nimikkeitä. Lisätietoja on kohdassa [Huoltonimikkeiden ja huoltonimikkeiden komponenttien määrittäminen](service-how-setup-service-items.md).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Varaston määrittäminen](inventory-setup-inventory.md)  

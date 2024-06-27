@@ -10,11 +10,11 @@ ms.search.form: '306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Asiakirjojen raporttien valinta Business Centralissa
+# <a name="report-selection-for-documents-in-business-central"></a>Asiakirjojen raporttien valinta Business Centralissa
 
 Voit määrittää oletusraportteja, joita käytetään myynti-, osto- ja huoltoasiakirjojen, kuten tilausten, tarjousten ja laskujen, tulostamiseen. Jos sinulla on esimerkiksi myyntilaskuissa tietty asettelu, voit määrittää raportin **Raporttivalinnat – myynti** -sivulla. Voit sitten käyttää raporttia, kun lähetät tai tulostat myyntilaskuja.  
 
-## Käytettävissä olevat raporttivalinnat
+## <a name="available-report-selections"></a>Käytettävissä olevat raporttivalinnat
 
 **Raporttivalinnat**-sivu määrittää, mitkä raportit tulostetaan eri tilanteissa. [!INCLUDE [prod_short](includes/prod_short.md)] tarjoaa oletusmääritykset, mutta voit muuttaa niitä tarvittaessa. Voit myös lisätä raportteja **Raporttivalinnat**-sivuille, jos haluat että ohjelmassa on esimerkiksi enemmän kuin yksi raportti asiakirjatyyppiä kohden. 
 
@@ -43,7 +43,7 @@ Seuraavassa taulukossa kuvataan, mistä voit löytää tietoa eri sivuista.
 * **Raporttivalinnat - tuotantotilaus**  
 * **Raporttivalinta - Muistutus- / viivästyskulu**  
 
-## Esimerkki: Myyntiasiakirjojen raporttivalinta
+## <a name="example-report-selection-for-sales-documents"></a>Esimerkki: Myyntiasiakirjojen raporttivalinta
 
 **Raporttivalinta – Myynti** -sivu tarjoaa kullekin liittyvälle asiakirjatyypille eri skenaarioissa käytettävät oletusraportit. Valitse asiakirjatyyppi **Käyttö**-kentässä, lisää tai tarkista raportin valinta. Voit määrittää useamman kuin yhden raportin ja määrittää järjestyksen lajittelun, jossa raportit täytyy lähettää tai tulostaa.  
 
@@ -59,7 +59,7 @@ Esimerkiksi **Raporttivalinta – Myynti** ja **Raporttivalinta – Osto** -sivu
 |**Käytä sähköpostin liitteenä**| Liitä liittyvä asia kirja sähköpostiviestiin.|
 |**Sähköpostin perustekstin asettelun kuvaus**|Määritä käytettävä sähköpostin perustekstin asettelu. Yleensä se on mukautettu raporttiasettelu. |
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Uudelleenkäytettävien sähköpostitekstien ja -asettelujen määrittäminen](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Sekin asettelun valitseminen](finance-how-define-check-layouts.md)  

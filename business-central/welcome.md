@@ -10,7 +10,7 @@ ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin
+# <a name="welcome-to-"></a>Tervetuloa [!INCLUDE[prod_long](includes/prod_long.md)]iin
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on pienille ja keskisuurille organisaatioille tarkoitettu liiketoiminnan hallintaratkaisu, joka automatisoi ja selkeyttää liiketoiminnan prosesseja sekä auttaa liiketoiminnan hallinnassa. Yritykset voivat käyttää erittäin mukautettavaa ja monipuolista [!INCLUDE[prod_short](includes/prod_short.md)]ia liiketoiminnan osa-alueiden hallintaan, kuten rahoituksen, tuotannon, myynnin, toimituksen, projektinhallinnan ja huollon hallintaan. Yritykset voivat helposti lisätä omalla toiminta-alueella tarpeellisia toimintoja sekä toimintoja, jotka on mukautettu hyvinkin erikoistuneita toimialoja varten. [!INCLUDE[prod_short](includes/prod_short.md)]in voi ottaa nopeasti käyttöön ja sen määrittäminen on helppoa. Käytön yksinkertaisuus on ohjannut tuotesuunnittelun innovaatioita, kehitystä, toteutusta ja käytettävyyttä.  
 
@@ -23,7 +23,7 @@ Jos sinulla on jo [!INCLUDE[prod_short](includes/prod_short.md)], kirjaudu sivus
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## Microsoft Learn
+## <a name="microsoft-learn"></a>Microsoft Learn
 
 Vasemmalla olevasta siirtymispaneelista löydät tietoa [!INCLUDE[prod_short](includes/prod_short.md)]:n käyttämisestä yrityksessäsi. Linkkien etsiminen paljon käytettyihin ominaisuuksiin [Liiketoimintaprosessit](#business-processes)-osassa. Lisätietoja on [Lue lisää tuotteen dokumentaation käyttämisestä](product-help-and-support.md#learn-more-using-the-product-documentation) -osiossa.
 
@@ -36,7 +36,7 @@ Voit myös [vierailla videokirjastossamme](across-videos.md) tai aloittaa [Micro
 
 Seuraavat osiot viittaavat tärkeimpiin artikkeleihin, joiden avulla voit tutustua [!INCLUDE [prod_short](includes/prod_short.md)]iin.  
 
-## Liiketoimintaprosessit
+## <a name="business-processes"></a>Liiketoimintaprosessit
 
 - [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)
 - [[!INCLUDE[prod_short](includes/prod_short.md)]in määrittäminen](setup.md)
@@ -63,7 +63,7 @@ Seuraavat osiot viittaavat tärkeimpiin artikkeleihin, joiden avulla voit tutust
   - [Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)
   - [Paikalliset toiminnot](about-localization.md)
 
-## Kehitys- ja hallintosisältö
+## <a name="development-and-administration-content"></a>Kehitys- ja hallintosisältö
 
 - [Kehittäminen ja hallinto](/dynamics365/business-central/dev-itpro/index)
 - [Kokeilut ja tilaukset](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
@@ -71,7 +71,7 @@ Seuraavat osiot viittaavat tärkeimpiin artikkeleihin, joiden avulla voit tutust
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [AL-koodin säännöt ja ohjeistus](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
 
-## Copilot- ja tekoälysisältö
+## <a name="copilot-and-ai-content"></a>Copilot- ja tekoälysisältö
 
 - [Yleiskatsaus](copilot-overview.md)
 - Toiminnot
@@ -87,13 +87,13 @@ Seuraavat osiot viittaavat tärkeimpiin artikkeleihin, joiden avulla voit tutust
 - Kehittämismenot
   - [Copilotin laajentaminen Business Centralissa](/dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page)
 
-## Microsoft Learn -koulutus
+## <a name="microsoft-learn-training"></a>Microsoft Learn -koulutus
 
 Etsi maksutonta verkko-oppimissisältöä sovelluksesta [!INCLUDE[prod_short](includes/prod_short.md)] [Microsoft Learn -koulutuksesta](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).
 
 Videokirjastossa voi katsoa myös uusia ja usein käytettyjä ominaisuuksia koskevia videoita. Lisätietoja on osoitteessa [Visit Our Video Library](across-videos.md).  
 
-## Yhteisöresurssit
+## <a name="community-resources"></a>Yhteisöresurssit
 
 - [Microsoft Dynamics 365 Business Central -yhteisön keskustelupalsta](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  
 - [Microsoft Dynamics 365 Business Central Dynamics 365 -blogissa](https://www.microsoft.com/dynamics-365/blog/business-leader/product/dynamics-365-business-central/)  
@@ -101,11 +101,11 @@ Videokirjastossa voi katsoa myös uusia ja usein käytettyjä ominaisuuksia kosk
 - [Microsoft Dynamics 365 Business Centralin julkaisusuunnittelija](https://releaseplans.microsoft.com/?app=Business+Central&group=dynamics-365&subgroup=dynamics-365-business-central) 
 - [Microsoftin kumppaniverkosto \(käyttöön tarvitaan Microsoftin kumppaniverkoston jäsentili\)](https://mspartner.microsoft.com)  
 
-## Ilmoitukset tehdyistä muutoksista RSS-syötteen kautta
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>Ilmoitukset tehdyistä muutoksista RSS-syötteen kautta
 
 [!INCLUDE [ua-rss](includes/ua-rss.md)]  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Dynamics 365 Business Central -opetustoiminta](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Business Centralin pika-aloitus](quick-start-business-central.md)  

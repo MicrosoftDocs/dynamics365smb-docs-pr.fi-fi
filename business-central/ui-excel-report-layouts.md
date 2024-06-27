@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Microsoft Excel -asetteluiden käyttäminen
+# <a name="working-with-microsoft-excel-layouts"></a>Microsoft Excel -asetteluiden käyttäminen
 
 Excel-työkirjojen perustana ovat Microsoft Excel -raporttiasettelut (.xlsx-tiedostot). Niiden avulla voit luoda raportteja, jotka sisältävät tuttuja Excelin ominaisuuksia yhteenvetoon, analysointiin ja tietojen, kuten kaavojen, pivot-taulukoiden ja pivot-kaavioiden, esittämiseen.
 
@@ -19,7 +19,7 @@ Excel-työkirjojen perustana ovat Microsoft Excel -raporttiasettelut (.xlsx-tied
 
 Tässä artikkelissa selitetään joitakin tärkeitä, asioita, jotka sinun on tiedettävä, jotta voit aloittaa Excelin asettelujen käytön.
 
-## Miksi kannattaa käyttää Excel-asetteluja?
+## <a name="why-use-excel-layouts"></a>Miksi kannattaa käyttää Excel-asetteluja?
 
 Seuraavassa kerrotaan Excelin asettelujen käyttämisen hyötyjä:
 
@@ -35,14 +35,14 @@ Seuraavassa kerrotaan Excelin asettelujen käyttämisen hyötyjä:
 > [!TIP]
 > Kun OneDrive-integrointi on määritetty, Excel-työkirjatiedosto kopioidaan Excel-asettelulla OneDriveen ja avataan sitten Excelissä online-tilassa. Lisätietoja on kohdassa [Excel-työkirjojen tallentaminen ja tiedostojen raportointi OneDriveen](./across-onedrive-overview.md#save-excel-workbooks-and-report-files-in-onedrive)
 
-## Aloittaminen
+## <a name="get-started"></a>Aloittaminen
 
 Raportin Excel-asettelun määrittämiseen liittyy periaatteessa kaksi seuraavaa tehtävää:
 
 1. Luo uusi Excel-asettelutiedosto.
 2. Lisää uusi asettelu raporttiin.
 
-## Tehtävä 1: Luo Excel-asettelutiedosto
+## <a name="task-1-create-the-excel-layout-file"></a>Tehtävä 1: Luo Excel-asettelutiedosto
 
 Excel-asettelutiedoston voi luoda raporttiin kolmella alla mainitulla tavalla.
 
@@ -61,13 +61,13 @@ Näiden vaiheiden avulla voit luoda Excelin asettelun mistä tahansa raportista 
 
 Jos raportille on jo Excel-asettelu, voit käyttää aiemmin luotua asettelua lähtökohtana. Käytettävissä on kaksi tapaa saada kopio asettelusta. Voit joko viedä aiemmin luodun asettelun **Raporttiasettelut**-sivulta tai ladata asettelun raportin pyyntösivulta. Kumpikin tapa lataa Excel-asettelutiedoston, joka sisältää kaikki olemassa olevan tiedoston raportit. Jos se ladataan pyyntösivulta, asettelu sisältää todelliset tiedot. (Tiedot eivät ole pakollisia, mutta ne auttavat asettelun suunnittelussa.)
 
-#### Lähestymistapa 1: asettelun vieminen **Raporttiasettelut**-sivulta
+#### <a name="approach-1-export-the-layout-from-the-report-layouts-page"></a>Lähestymistapa 1: asettelun vieminen **Raporttiasettelut**-sivulta
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Valitse Excel-asettelu luettelosta ja valitse sitten **Vie asettelu** -toiminto sivun yläosasta.
 3. Avaa tiedosto Excelissä, tee muutokset ja tallenna sitten tiedosto.
 
-#### Lähestymistapa 2: Lataa asettelu raportin pyyntösivulta
+#### <a name="approach-2-download-the-layout-from-the-reports-request-page"></a>Lähestymistapa 2: Lataa asettelu raportin pyyntösivulta
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Valitse **Raporttiasettelut**-sivulla mikä tahansa raportin asettelu ja valitse sitten **Suorita raportti** -toiminto.
@@ -80,7 +80,7 @@ Tämä on kehittynein tapa Excel-raportin asettelun luomiseksi. Se on kohdistett
 
 ---
 
-## Tehtävä 2: Lisää Excel-asettelu raporttiin
+## <a name="task-2-add-the-excel-layout-to-the-report"></a>Tehtävä 2: Lisää Excel-asettelu raporttiin
 
 Kun sinulla on Excelin asettelutiedosto, seuraava tehtävä on lisätä se raportin uudeksi asetteluksi.
 
@@ -110,7 +110,7 @@ Kun sinulla on Excelin asettelutiedosto, seuraava tehtävä on lisätä se rapor
 3. Report metadata 
 -->
 
-## Tietoja Excelin asetteluista
+## <a name="understanding-excel-layouts"></a>Tietoja Excelin asetteluista
 
 On muutamia asioita, jotka tulee tietää tai ottaa huomioon, kun alat luoda tai tehdä muutoksia Excelin asetteluihin. Jokaisessa Excel-asettelussa on oltava kaksi elementtiä: **Tiedot**-laskentataulukko ja **Tiedot**-taulukko. Nämä elementit muodostavat asettelun perusteet määrittämällä Business Centralin liiketoimintatiedot, joita voit käsitellä. Voit ajatella **Tiedot**-laskentataulukkoa eräänlaisena sopimuksena asettelun ja yritystietojen välillä. Näitä tietoja käytetään niiden laskentojen ja visualisointien lähteenä, jotka haluat esittää muissa laskentataulukoissa.
 
@@ -132,7 +132,7 @@ Seuraavassa on yhteenveto tiedoista, jotka **Tiedot**-laskentataulukossa tulee o
 - Älä lisää sarakkeita, elleivät ne sisälly raportin tietojoukkoon.
 - Voit sijoittaa laskentataulukot haluamaasi järjestykseen niin, että **Tiedot**-laskentataulukko on ensimmäisenä tai viimeisenä.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 [Excel-asetteluraportin luominen (kehittäjien dokumentaatio)](/dynamics365/business-central/dev-itpro/developer/devenv-howto-excel-report-layout?toc=/dynamics365/business-central/toc.json)  
 [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  
 [Nykyisen raportin asettelun muuttaminen](ui-how-change-layout-currently-used-report.md)  

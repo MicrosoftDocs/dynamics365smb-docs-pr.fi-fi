@@ -10,19 +10,19 @@ ms.search.form: 'Report_5600, Report_5601, Report_5603, Report_5604, Report_5605
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Käyttöomaisuuden raportit ja analytiikka Business Centralissa
+# <a name="fixed-assets-reports-and-analytics-in-business-central"></a>Käyttöomaisuuden raportit ja analytiikka Business Centralissa
 
 Jotta voit hallita käyttöomaisuuttasi helpommin [!INCLUDE [prod_short](includes/prod_short.md)]issa, vakioraportit ja analytiikka ovat sisään rakennettuina. Se ylittää perinteisen raportoinnin rajoitukset, jotta voit suunnitella tehokkaasti erityyppisiä raportteja.  
 
-## Raportit
+## <a name="reports"></a>Raportit
 
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
-## Talousraporttien tutkiminen Report Explorerin avulla
+## <a name="explore-finance-reports-with-report-explorer"></a>Talousraporttien tutkiminen Report Explorerin avulla
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Käyttöomaisuuden ad-hoc-analyysi](ad-hoc-analysis-fa.md)  
 [Käyttöomaisuuden analyysin yleiskatsaus](fa-analytics-overview.md)  

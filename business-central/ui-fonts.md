@@ -11,14 +11,14 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Käytettävissä olevat fontit
+# <a name="available-fonts"></a>Käytettävissä olevat fontit
 
 [!INCLUDE[prod_short](includes/prod_short.md)]in online-versio sisältää valmiiksi asennetut fontit palvelimissa, joita voidaan käyttää raporttien luomisessa. Seuraavissa osissa on esitelty, mitkä fontit ovat käytettävissä.
 
 > [!NOTE]
 > Suojaus- ja oikeudellisista syistä mukautettuja fontteja ei voi ladata [!INCLUDE[prod_short](includes/prod_short.md)]-ympäristöön.
 
-## Asiakirjafontit
+## <a name="document-fonts"></a>Asiakirjafontit
 
 Seuraavat fontit ovat asennettuina ja käytettävissä Excel-, Word- ja RDL-raporttiasetteluissa:
  
@@ -158,7 +158,7 @@ Seuraavat fontit ovat asennettuina ja käytettävissä Excel-, Word- ja RDL-rapo
 * `Yu Gothic UI Semibold`
 * `Yu Gothic UI Semilight`
 
-## Sekkien fontit
+## <a name="fonts-for-checks"></a>Sekkien fontit
 
 Käytettävissä olevia magneettisten merkkien tunnistuksen (MICR) fontteja on asennettu. Sekä E-13B- että CMC-7-standardit ovat tuettuja.  
 
@@ -166,7 +166,7 @@ MICR-fonttien lisäksi käytettävissä on erityisiä suojausfontteja, joiden av
 
 Lisätietoja on kohdassa [Sekin asettelun valitseminen](finance-how-define-check-layouts.md).  
 
-## Viivakoodien fontit
+## <a name="fonts-for-barcodes"></a>Viivakoodien fontit
 Viivakoodien luomiseen käytettävät fontit ovat asennettuina ja käytettävissä sekä Word- että RDLC-raporttiasetteluissa.
 
 Seuraavia yksiulotteisia viivakoodisymbolijärjestelmiä tuetaan:
@@ -186,7 +186,7 @@ Seuraavia kaksiulotteisia viivakoodisymbolijärjestelmiä tuetaan:
 
 Lisätietoja on kohdassa [Business Central Onlinen viivakoodifontit](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Raporttiasetteluiden hallinta](ui-manage-report-layouts.md)  
 [Sekin asettelun valitseminen](finance-how-define-check-layouts.md)  

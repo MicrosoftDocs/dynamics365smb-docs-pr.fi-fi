@@ -11,7 +11,7 @@ ms.search.form: '36, 5870, 5872, 5874'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Kokoonpanon tuoterakenteiden käyttäminen
+# <a name="work-with-assembly-boms"></a>Kokoonpanon tuoterakenteiden käyttäminen
 
 Kokoonpanon tuoterakenteilla (BOM) voi jäsentää päänimikkeet, jotka on koottava tai tuotettava komponenteista hyvin vähillä resursseilla. Kokoonpanon tuoterakennetta voidaan käyttää esimerkiksi päänimikkeen myyntiin komponenttinimikkeistä koostuvana tuotepakettina.
 
@@ -21,7 +21,7 @@ Kokoonpanon tuoterakenne muodostaa perustiedot, jotka määrittävät, mitkä os
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tukee myös tuotannon tuoterakenteita. Tuotannon tuoterakenteet eroavat kokoonpanon tuoterakenteista, sillä ne ottavat käyttöön monimutkaisempia menettelyjä, kuten resurssien käyttöä, tuotannon reititystä ja tuotanto- tai kuormitusryhmiä. Lue lisää eroista kohdista [Tuoterakenteiden käyttäminen](inventory-how-work-BOMs.md) ja [Tuotannon tuoterakenteiden luominen](production-how-to-create-production-boms.md).
 
-## Luo kokoonpanon tuoterakenne
+## <a name="to-create-an-assembly-bom"></a>Luo kokoonpanon tuoterakenne
 
 Määrittääksesi nimikkeen, joka koostuu muista nimikkeistä ja ehkä resursseista, jotka kokoavat nimikkeen, sinun on luotava kokoonpanon tuoterakenne.  
 
@@ -43,7 +43,7 @@ Kokoonpanon tuoterakenteen luomisessa on kaksi osaa:
 > [!TIP]
 > Kokoonpanon nimikkeillä voi olla muunnelmia, kuten muillakin nimikkeillä, mikä auttaa pitämään tuoteluettelosi lyhyempänä. Lisätietoja ominaisuudesta on [Tuotevarianttien hallinnassa](inventory-item-variants.md).
 
-## Kokoonpanon tuoterakenteiden muokkaaminen
+## <a name="to-edit-assembly-boms"></a>Kokoonpanon tuoterakenteiden muokkaaminen
 
 Voit muokata kokoonpanon tuoterakenteen rivejä milloin tahansa. Tuoterakenne voi kuitenkin olla käytössä päätuoterakenteen meneillään olevissa myynneissä tai kokoonpanoissa. Tuoterakenteen muuttaminen voi vaikuttaa näihin aktiviteetteihin. Valitse **Käyttökohde**-toiminto, jossa näet, mitkä nimikkeet käyttävät sitä ja voiko se vaikuttaa myynti- tai kokoonpanotilauksiin.
 
@@ -51,7 +51,7 @@ Voit muokata kokoonpanon tuoterakenteen rivejä milloin tahansa. Tuoterakenne vo
 2. Valitse **Kyllä**-arvo **Kokoonpanon tuoterakenne** -sarakkeesta.
 3. Valitse **Kokoonpanon tuoterakenne** -sivulla **Muokkaa luetteloa** -toiminto, muuta sitten mitä tahansa kenttää tarpeen mukaan.
 
-## Kokoonpanonimikkeen osien ja resurssien näyttäminen tuoterakenteen perusteella sisennettyinä
+## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Kokoonpanonimikkeen osien ja resurssien näyttäminen tuoterakenteen perusteella sisennettyinä
 
 Voit avata **Kokoonpanon tuoterakenne** -sivulla erillisen sivun, joka näyttää osat ja resursseja sisennettynä kokoonpanonimikkeen alle niiden tuoterakenteen mukaisen sijainnin perusteella.
 
@@ -60,7 +60,7 @@ Voit avata **Kokoonpanon tuoterakenne** -sivulla erillisen sivun, joka näyttä�
 3. Valitse **Nimikekortti**-sivulla ensin **Kokoonpano**-toiminto, sitten **Kokoonpanon tuoterakenne** -toiminto.
 4. Valitse **Kokoonpanon tuoterakenne** -sivulla **Näytä tuoterakenne** -toiminto.
 
-## Kokoonpanon korvaaminen sen osilla asiakirjariveillä
+## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Kokoonpanon korvaaminen sen osilla asiakirjariveillä
 
 Voit käyttää missä tahansa kokoonpanonimikkeen sisältävässä myynti- ja ostoasiakirjassa erikoistoimintoa, jolla voit korvata kokoonpanonimikkeen rivin uusilla kokoonpanon komponenttien riveillä. Tämä toiminto on kätevä esimerkiksi silloin, kun haluat myydä komponentit kokoonpanonimikettä vastaavana tuotepakettina.
 
@@ -80,7 +80,7 @@ Kaikki kokoonpanonimikkeen myyntilaskurivin kentät poistetaan **Nimike**- ja **
 > [!NOTE]
 > Myös **Poimintaluettelo tilauksen mukaan** -raportti muuttuu niin, että siinä näkyvät vain komponentit. Tämä tarkoittaa sitä, että varastotyöntekijä, joka poimii päänimikkeen, kokoonpanonimikkeen, ei näe sitä keräysluettelossa. Lisätietoja on kohdassa [Poiminta luettelon tulostaminen](sales-how-print-picking-list.md).
 
-## Kokoonpanonimikkeen vakiokustannusten laskeminen
+## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Kokoonpanonimikkeen vakiokustannusten laskeminen
 
 Lasket kokoonpano-nimikkeen yksikkökustannuksen vyöryttämällä jokaisen osan yksikkökustannuksen ja resurssin nimikkeen kokoonpanon tuoterakenteessa.
 
@@ -104,7 +104,7 @@ Kokoonpanon tuoterakenteen yksikkökustannus on aina yhtä suuri kuin sen kompon
 
 Kokoonpanon tuoterakenteen muodostavien nimikkeiden kustannukset kopioidaan osanimikekorteilta. Kunkin nimikkeen kustannus kerrotaan määrällä ja kokonaiskustannus lisätään kokoonpanon nimikekortin **Yksikkökustannus**-kenttään.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Tuotevarianttien hallinta](inventory-item-variants.md)  

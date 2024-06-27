@@ -12,7 +12,7 @@ ms.collection:
   - get-started
 ---
 
-# Keskustelu Copilotin avulla (esiversio)
+# <a name="chat-with-copilot-preview"></a>Keskustelu Copilotin avulla (esiversio)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -20,7 +20,7 @@ Tässä artikkelissa käsitellään yrityksen tietoja koskevien vastauksen saami
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## Tietoja keskustelusta Copilotin avulla
+## <a name="about-chat-with-copilot"></a>Tietoja keskustelusta Copilotin avulla
 
 Microsoft Copilot on tekoälypohjainen avustaja, joka inspiroi toimimaan luovasti, tehostaa tuottavuutta ja poistaa tarpeen tehdä pitkäveteisiä tehtäviä. Keskustelemalla Copilotin avulla Business Centralissa, voit kysyä kysymyksiä ja saada vastauksia luonnollisella kielellä. Toimi näin:
 
@@ -34,13 +34,13 @@ Copilotin kanssa käydyn keskustelun käyttäminen virtaviivaistaa työnkulkua o
   
 > [Katso video](https://go.microsoft.com/fwlink/?linkid=2250609)
 
-## Vaatimukset
+## <a name="prerequisites"></a>Vaatimukset
 
 - Varmista, että järjestelmänvalvoja on aktivoinut keskustelutoiminnon Copilotissa. [Lisätietoja Copilotin ja tekoälyn ominaisuuksien määrittämisestä](enable-ai.md).
 - Määritä Business Centralin näyttökieleksi jokin seuraavista englannin kielialueista: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Lisätietoja kielen vaihtamisesta](ui-change-basic-settings.md#language).
 - Varmista, että Business Central -ympäristösi on jossain muussa maassa tai muulla alueella kuin Kanadassa. (Tämä ominaisuus ei ole vielä saatavana Kanadassa.)
 
-## Keskustelun Copilotin avulla aloittaminen
+## <a name="get-started-using-chat-with-copilot"></a>Keskustelun Copilotin avulla aloittaminen
 
 1. Valitse näytön oikeassa yläkulmassa ![Näkyvissä Keskustelu Copilotin avulla -kuvake](media/chat-copilot-icon.png) **Copilot**-kuvake ![Näkyvissä selite numero 1](media/callout-number-1.svg).
 
@@ -65,13 +65,13 @@ Copilotin kanssa käydyn keskustelun käyttäminen virtaviivaistaa työnkulkua o
 
    Keskustelu muistaa kontekstin, joten alkuperäisen kysymyksen keskeisiä kohtia ei tarvitse toistaa.
 
-## Alusta aloittaminen tyhjentämällä keskustelu
+## <a name="clear-chat-to-start-over"></a>Alusta aloittaminen tyhjentämällä keskustelu
 
 Keskustelussa Copilotin avulla voidaan siirtyä toiseen aiheeseen valitsemalla ![Näkyvissä keskustelun tyhjennyskuvake](media/clear-chat-icon.png) **Aloita uusi Copilot-keskusteluistunto** -kuvake Copilot-ruudun alaosassa kysymysruudun yläpuolella. Tämä toiminto tyhjentää viimeisimmät viestit Copilotin muistista. Alusta aloittaminen on usein kätevää, jos pitkässä keskustelussa on ollut paljon viestejä. Se voi myös auttaa Copilot antamaan tarkempia vastauksia.
 
 Keskustelu tyhjennetään myös silloin, jos Business Central suljetaan tai siitä kirjaudutaan ulos.
 
-## Vinkkejä parempiin kysymyksiin
+## <a name="tips-for-better-questions"></a>Vinkkejä parempiin kysymyksiin
 
 Tässä on muutamia keinoja, joilla voi parantaa Copilotin antamia vastauksia:
 
@@ -83,7 +83,7 @@ Tässä on muutamia keinoja, joilla voi parantaa Copilotin antamia vastauksia:
 - Jos ensimmäisen vastaus ei vastaa täysin kysymyksiin, esitä lisäkysymyksiä tai muotoilu viimeisin kysymys uudelleen.
 - Jos kysymys koskee eri aihealuetta kuin edellinen kysymys, aloita alusta tyhjentämällä nykyinen keskusteluistunto.
 
-## Esimerkkikehotteita
+## <a name="example-prompts"></a>Esimerkkikehotteita
 
 Copilotille esitettävät kysymykset vaihtelevat roolin, nykyisen tehtävän, organisaation käyttämien prosessien ja oman ilmaisutavan mukaan. Seuraavat esimerkit osoittavat erilaisia tapoja esittää kysymyksiä keskusteluruudussa. Niistä voi olla apua omien kysymysten kirjottamiseen omassa tilanteessa.
 
@@ -103,7 +103,7 @@ Kehote: `How does I save my filterrings for later?`
 
 Tässä esimerkissä Copilotilta pyydetään ohjeita jonkin tehtävän suorittamiseen Business Centralissa. Copilot ymmärtää yleensä kysymyksen tarkoituksen, vaikka siinä olisi kielioppi- tai oikeinkirjoitusvirheitä taikka lyhenteitä.
 
-## Anna vastauksiin palautetta
+## <a name="provide-feedback-on-answers"></a>Anna vastauksiin palautetta
 
 Copilotin vastauksia voidaan arvioida käyttämällä tykkää (peukku ylös) -painiketta, jos arvio on hyvä, tai ei tykkää (peukku alas) -painiketta, jos arvio on huono. Ei tykkää -painikkeen valinnan yhteydessä voidaan valita syy, kuten epätarkka, epäsopiva tai muu. Nämä tiedot voivat auttaa parantamaan ehdotuksia.
 
@@ -112,7 +112,7 @@ Copilotin vastauksia voidaan arvioida käyttämällä tykkää (peukku ylös) -p
 
    Prompts are predefined short phrases that start a question. Apart from saving you time, they're designed to target responses to specific categories. They also help you undestand how you can phrase questions to get the responses.-->
    
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 - [Copilot- ja tekoälyominaisuuksien vianmääritys](ai-copilot-troubleshooting.md)  
 - [Copilot- ja tekoälyominaisuuksien määrittäminen](enable-ai.md)  

@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Yhteensopivuuden yleiskatsaus
+# <a name="compliance-overview"></a>Yhteensopivuuden yleiskatsaus
 
 Tässä sisällössä on tietoja [!INCLUDE[prod_long](../includes/prod_long.md)]ia koskevasta yhteensopivuudesta.
 

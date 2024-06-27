@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Taloushallinto
+# <a name="financial-management"></a>Taloushallinto
 
 [!INCLUDE[prod_short](includes/prod_short.md)] sisältää useimpien taloushallinnon prosessien vakiomäärityksen. Voit muuttaa sitä liiketoiminnan tarpeiden mukaan. Lisätietoja kohdassa [Taloushallinnon määrittäminen](finance-setup-finance.md).
 
@@ -20,13 +20,13 @@ Oletusmääritys sisältää tilikartan ja vakiokirjausryhmät, joiden avulla ol
 
 Seuraavissa osissa kuvataan tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.  
 
-## Katso videoesittely
+## <a name="take-a-video-tour"></a>Katso videoesittely
 
 Tässä videossa kerrotaan joistakin keskeisistä taloudenhallinnan valmiuksista. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## Rahoitusominaisuuksien käytön aloittaminen
+## <a name="get-started-with-finance-capabilities"></a>Rahoitusominaisuuksien käytön aloittaminen
 
 Ennen kuin voit aloittaa yrityksesi pyörittämisen, sinun on määritettävä, miten haluat hallita yrityksesi rahoitusprosesseja.
 
@@ -35,7 +35,7 @@ Ennen kuin voit aloittaa yrityksesi pyörittämisen, sinun on määritettävä, 
 | Muuta [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelman vakiokokoonpano useimpia talousprosesseja varten yrityksesi tarpeiden mukaan. | [Rahoituksen määrittäminen](finance-setup-finance.md) | 
 | Lisätietoja pääkirjanpidosta ja tilikartasta. |[Pääkirjanpito ja aitoustodistus](finance-general-ledger.md) |
 
-## Kirjanpitopalvelut
+## <a name="accounting"></a>Kirjanpitopalvelut
 
 Tässä osassa kuvataan joitakin kirjanpitotyökaluja, joita käytetään rahoitustapahtumien rekisteröimiseen, jotta ne täyttävät rekisteröinti-, raportointi- ja johtamisrahoitustarpeet.
 
@@ -49,7 +49,7 @@ Tässä osassa kuvataan joitakin kirjanpitotyökaluja, joita käytetään rahoit
 | Tietoja käytettävissä olevista vaihtoehdoista, jotka automatisoivat tilauslaskujen lähettämisen asiakkaille ja rekisteröivät toistuvan tuoton. |[Toistuvan tuoton käsitteleminen](finance-recurring-invoicing.md)|
 |Kirjaa työntekijöiden kulut työhön liittyvistä aktiviteeteista ja tee hyvitykset suoraan työntekijöiden pankkitileille.|[Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md)|
 
-## Talousanalytiikka
+## <a name="financial-analytics"></a>Talousanalytiikka
 
 Tässä osassa kuvataan analyysityökaluja, joita voit käyttää, kun haluat saada rahoitustietoja.
 
@@ -67,7 +67,7 @@ Tässä osassa kuvataan analyysityökaluja, joita voit käyttää, kun haluat sa
 | Tutustu valmiisiin myyntireskontran avainraportteihin. | [Valmiit myyntireskontran raportit](receivables-reports.md)
 | Tutustu valmiisiin ostoreskontran raportteihin. | [Valmiit ostoreskontran raportit](payables-reports.md)
 
-## ALV ja verot
+## <a name="vat-and-taxes"></a>ALV ja verot
 
 ALV:n käyttäminen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa on helppoa, ja voit käyttää joko manuaalista tai automaattista määritystä. Näissä artikkeleissa on tietoa siitä, miten maa- tai aluekohtaiset määräykset tulee täyttää.
 
@@ -77,7 +77,7 @@ ALV:n käyttäminen [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa o
 |Valmistele raportti, jossa luetellaan myynneistä saatu arvonlisävero ja lähetä raportti Euroopan Unionin (EU:n) veroviranomaiselle. | [ALV:n raportointi veroviranomaisille](finance-how-report-vat.md)|
 |Muunna palvelusopimusten ALV-prosentti muuntamalla palvelusopimuksia manuaalisesti.|[ALV-summia sisältävien huoltosopimusten muuntaminen](service-how-to-convert-service-contracts.md)|
 
-## Ostovelkojen ja myyntisaamisten hallinta
+## <a name="manage-receivables-and-payables"></a>Ostovelkojen ja myyntisaamisten hallinta
 
 Rahoituksen ydin keskittyy myyntisaamisten ja ostovelkojen hallintaan, transaktioiden rekisteröintiin, pankkien tilien täsmäytykseen, toimittajien maksamiseen, asiakasmaksujen vastaanottamiseen, työntekijöiden kulujen korvaamiseen ja niin edelleen. Tässä osassa on linkkejä ydinkäsitteisiin.
 
@@ -88,7 +88,7 @@ Rahoituksen ydin keskittyy myyntisaamisten ja ostovelkojen hallintaan, transakti
 |Pyydä asiakkaita lähettämään maksu ennen toimitusta tai lähetä maksu toimittajille, ennen kuin he toimittavat sinulle.|[Ennakkomaksujen laskuttaminen](finance-invoice-prepayments.md)|
 | Täsmäytä ja siirrä varoja pankkitilien välillä. |[Pankkitilien täsmäytys](bank-manage-bank-accounts.md) |
 
-## Useamman yrityksen hallinta
+## <a name="manage-multiple-companies"></a>Useamman yrityksen hallinta
 
 [!INCLUDE [prod_short](includes/prod_short.md)] tarjoaa pienille ja keskisuurille yrityksille helppokäyttöisen ja edullisesti ylläpidettävän liiketoiminnan hallintaratkaisun.
 
@@ -98,7 +98,7 @@ Rahoituksen ydin keskittyy myyntisaamisten ja ostovelkojen hallintaan, transakti
 |Yhdistä useiden yritysten pääkirjanpidon tapahtumat yhteen virtuaaliseen konsolidoituun yritykseen talousanalyysia varten.|[Usean yrityksen kirjanpitotietojen konsolidoiminen](finance-consolidated-company-reporting.md)|
 | Tee tiivistä yhteistyötä niihin liittyvien yritysten kanssa, joihin sinulla on käyttöoikeus, ja hanki tietoja KPI (keskeiset kiinnostavuuspisteet) -tiedoista. | [Työnhallinta useiden yritysten välillä yrityksen keskittimessä](company-hub.md)|
 
-## Kauden lopun raportointi ja siihen liittyvät tehtävät
+## <a name="period-end-reporting-and-related-tasks"></a>Kauden lopun raportointi ja siihen liittyvät tehtävät
 
 Kunkin kirjanpitojakson tai tilikauden lopussa on useita hallinnollisia tehtäviä. Haluat esimerkiksi varmistaa, että kaikki asiakirjat ja kirjauskansiot on kirjattu, varmistaa, että valuuttatiedot ovat ajan tasalla, sulkea kirjat ja niin edelleen. Suoritettavat tehtävät riippuvat yrityksestä.
 
@@ -108,7 +108,7 @@ Kunkin kirjanpitojakson tai tilikauden lopussa on useita hallinnollisia tehtävi
 | Tuo palkkatapahtumat palkanlaskennan tarjoajalta pääkirjanpitoon. |[Palkkatapahtumien tuominen](finance-how-import-payroll-transactions.md)|
 |Lisätietoja kirjanpitäjän roolikeskuksesta, vuorovaikutuksesta ulkoisen kirjanpitäjän kanssa ja useiden asiakkaiden tilien hallinnasta yritystoiminnon avulla.|[Kirjanpitäjän käyttökokemukset Business Centralissa](finance-accounting.md)| 
 
-## Johdon kirjanpito
+## <a name="managerial-accounting"></a>Johdon kirjanpito
 
 Yritysjohtajana tai päällikkönä on tärkeää, että voit valmistella ja analysoida liiketoimintatietoja, joita tarvitset tietoon perustuvien päätösten tekemisessä. Seuraavan taulukon artikkelit helpottavan tietojen valmistelua. Lisätietoja analytiikasta on kohdassa [Liiketoimintatietojen ja raportoinnin yleiskuvaus](reports-bi-reporting.md).
 
@@ -119,13 +119,13 @@ Yritysjohtajana tai päällikkönä on tärkeää, että voit valmistella ja ana
 |Noudata kokonaisvaltaista prosessia, jossa kerrotaan, miten talousraportteja käytetään kassavirtaennusteiden tekemiseen.|[Vaihekuvaus: Kassavirtaennusteiden tekeminen talousraporttien avulla](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Käsittele tilinpäätöksiä ja yhteenvetoja Microsoft Excelissä. |[Rahoituslaskelmien analysointi Excelissä](finance-analyze-excel.md) |
 
-## Ilmaiset verkko-oppimissisältömoduulit
+## <a name="free-e-learning-modules"></a>Ilmaiset verkko-oppimissisältömoduulit
 
 Haluatko oppia lisää [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmasta omaan tahtiin? 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Rahoituksen määrittäminen](finance-setup-finance.md)  
 [Myyntimoduulin käyttäminen](sales-manage-sales.md)  

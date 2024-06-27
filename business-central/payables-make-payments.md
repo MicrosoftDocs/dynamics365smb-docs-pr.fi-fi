@@ -11,7 +11,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Maksujen suorittaminen
+# <a name="making-payments"></a>Maksujen suorittaminen
 
 Maksat maksut toimittajille tai asiakkaille tai hyvityksiä työntekijöille, kirjaat liittyvät maksurivit **Maksupäiväkirja**-sivulle. Maksupäiväkirja on yleinen päiväkirja, joka on tarkoitettu erityisesti maksujen tekemiseen ja joka tarjoaa paljon vahvoja toimia. Esimerkki: **Ehdota toimittajamaksuja** -toiminto, joka etsii erääntyvät toimittajamaksut, ja **Toimittaja - Eräänt.yht.kohtainen** -raportti, jossa on yleiskuva erääntyvistä toimittajamaksuista.  
 
@@ -35,7 +35,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 | Maksaa toimittajalle käteisellä tai sekillä ja kirjaa maksu, kun lasku kirjataan. |[Ostolaskujen selvittäminen viipymättä](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Varmista lähettämällä toimittaja-, sekki- ja maksutiedot sisältävä tiedosto, että pankki vahvistaa vain tarkistetut sekit ja summat. |[Positive Pay -tiedoston vieminen](finance-how-positive-pay.md) |
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Osto](purchasing-manage-purchasing.md)  
