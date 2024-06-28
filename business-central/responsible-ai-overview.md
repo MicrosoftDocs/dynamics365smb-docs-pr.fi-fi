@@ -12,7 +12,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Dynamics 365 Business Centralin vastuullisen tekoälyn usein kysytyt kysymykset
+# <a name="responsible-ai-faqs-for-dynamics-365-business-central"></a>Dynamics 365 Business Centralin vastuullisen tekoälyn usein kysytyt kysymykset
 
 [!INCLUDE[responsible-ai-features-intro](includes/responsible-ai-intro.md)]
 

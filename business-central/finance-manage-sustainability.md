@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Vastuullisuuden hallinnan yleiskatsaus
+# <a name="sustainability-management-overview"></a>Vastuullisuuden hallinnan yleiskatsaus
 
 > [!IMPORTANT]
 > Tämä ominaisuus on saatavilla Business Centralissa vuoden **2024 julkaisuaallosta 1** alkaen. Kaikki viitelinkit otetaan käyttöön, kun ne ovat käytettävissä.
@@ -49,7 +49,7 @@ Aloita Sustainability Managementin käyttäminen tutustumalla alla oleviin artik
 | **Integroinnit** |             |
 | [Vastuullisuuden ohjelmointirajapinnat](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json) | Tämän artikkelin avulla voit tutustua siihen liittyviin sovelluksiin, jotka muodostavat Business Central -ohjelman ja muiden kuin Microsoft Sustainabilityn ratkaisujen tai -palveluiden välisen pisteestä pisteeseen -yhteyden ohjelmointirajapintaliittymän avulla. |
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Vastuullisuusmääritys](finance-sustainability-setup.md)    
 [Vastuullisuustilien ja -kirjanpidon tilikartta](finance-sustainability-accounts-ledger.md)    
