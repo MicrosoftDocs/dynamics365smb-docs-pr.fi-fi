@@ -6,18 +6,18 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD'
 ms.search.form: null
-ms.date: 05/08/2024
+ms.date: 06/19/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="sustainability-management-overview"></a>Vastuullisuuden hallinnan yleiskatsaus
+# Vastuullisuuden hallinnan yleiskatsaus
 
 > [!IMPORTANT]
 > Tämä ominaisuus on saatavilla Business Centralissa vuoden **2024 julkaisuaallosta 1** alkaen. Kaikki viitelinkit otetaan käyttöön, kun ne ovat käytettävissä.
 
-Business Central tarjoaa kestävyydenhallintaominaisuuden, jonka avulla voit valvoa ja hallita organisaation ympäristövaikutuksia. Tämä ominaisuus on suunniteltu valvomaan ja sääntelemään organisaation ympäristöjalanjälkeä seuraamalla erilaisia kasvihuonekaasupäästöjä. Tällä tavoin se helpottaa kunnollisia oivalluksia. Ominaisuus tukee päästöjen tietojen keruun perusprosessia kestävyyspäiväkirjojen kautta. Voit joko syöttää tiedossa olevat tiedot manuaalisesti tai käyttää sisäisiä menetelmiä päästöjen jalanjälkien laskentaan.
+Business Central tarjoaa kestävyydenhallintaominaisuuden, jonka avulla voit valvoa ja hallita organisaatiotasi ja sen ympäristövaikutuksia. Tämä ominaisuus on suunniteltu valvomaan ja sääntelemään organisaation ympäristöjalanjälkeä seuraamalla erilaisia kasvihuonekaasupäästöjä. Tällä tavoin se helpottaa kunnollisia oivalluksia. Ominaisuus tukee päästöjen tietojen keruun perusprosessia kestävyyspäiväkirjojen kautta. Voit joko syöttää tiedossa olevat tiedot manuaalisesti tai käyttää sisäisiä menetelmiä päästöjen jalanjälkien laskentaan.
 
 > [!NOTE]
 > Tämä ensimmäinen julkaisu toimii perustana ja on täysin riippumaton muista Business Central -ominaisuuksista. Tulevat julkaisut pyrkivät kuitenkin tiiviimpään integrointiin ja voivat automatisoida joitain manuaalisia prosesseja.
@@ -39,16 +39,25 @@ Aloita Sustainability Managementin käyttäminen tutustumalla alla oleviin artik
 
 | Artikkeli | Kuvaus |
 |---------|-------------|
+| **Ominaisuus** |             |
 | [Vastuullisuusmääritys](finance-sustainability-setup.md) | Tässä artikkelissa on tietoja, jotka auttavat määrittämään koko Sustainability-moduulin oikein. |
-| [Vastuullisuustilien ja -kirjanpidon tilikartta](finance-sustainability-accounts-ledger.md) | Tässä artikkelissa on tietoja kestävyystilikartan (CoSA), tililuokkien ja alakategorioiden määrittämisestä oikein sekä kestävän kehityksen kirjanpitotietojen analysoinnista. |
+| [Vastuullisuustilien ja -kirjanpidon tilikartta](finance-sustainability-accounts-ledger.md) | Tässä artikkelissa on tietoja siitä, miten määritetään kestävyystilikartat (CoSA), tilikategoriat ja alakategoriat. Ja miten analysoida tietoja kestävyystapahtumissa. |
 | [Kestävyystapahtumien tallentaminen](finance-sustainability-journal.md) | Tämän artikkelin avulla voit tutustua kaikentyyppisiin kestävyyspäiväkirjoihin. |
+| **Raportointi** |             |
+| [Vastuullisuustietojen ad-hoc-analyysi](ad-hoc-analysis-sustainability.md) | Tämä artikkeli tarjoaa tietoa siitä, kuinka voit käyttää ad-hoc-analyyseja kestävyystietojen analysointiin suoraan luettelosivuilta ja kyselyistä. |
+| [Business Centralin kokoonpanoraportit ja analytiikka](sustainability-reports.md) | Tässä artikkelissa kerrotaan, miten Business Centralin kestävyyteen liittyviä integroituja raportteja ja analytiikkaa käytetään. |
+| **Integroinnit** |             |
+| [Vastuullisuuden ohjelmointirajapinnat](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json) | Tämän artikkelin avulla voit tutustua siihen liittyviin sovelluksiin, jotka muodostavat Business Central -ohjelman ja muiden kuin Microsoft Sustainabilityn ratkaisujen tai -palveluiden välisen pisteestä pisteeseen -yhteyden ohjelmointirajapintaliittymän avulla. |
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
-[Vastuullisuusmääritys](finance-sustainability-setup.md)  
-[Kestävyystilien tilikartta ja kirjanpito](finance-sustainability-accounts-ledger.md)  
-[Kestävyystapahtumien tallentaminen](finance-sustainability-journal.md)  
-[Taloushallinto](finance.md)  
-[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Vastuullisuusmääritys](finance-sustainability-setup.md)    
+[Vastuullisuustilien ja -kirjanpidon tilikartta](finance-sustainability-accounts-ledger.md)    
+[Kestävyystapahtumien tallentaminen](finance-sustainability-journal.md)    
+[Vastuullisuustietojen ad-hoc-analyysi](ad-hoc-analysis-sustainability.md)    
+[Business Centralin kokoonpanoraportit ja analytiikka](sustainability-reports.md)   
+[Kestävyyden ohjelmointirajapinnat](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)    
+[Rahoitus](finance.md)    
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -12,24 +12,24 @@ ms.date: 06/10/2024
 ms.custom: bap-template
 ---
 
-# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>Sähköisten asiakirjojen yhdistäminen ostotilausriveille Copilotin avulla (esiversio)
+# Sähköisten asiakirjojen yhdistäminen ostotilausriveille Copilotin avulla (esiversio)
 
 Hankintaprosessien digitalisoituessa Business Centralin sähköisten asiakirjojen ominaisuudella on merkittävä tehtävä toimittajan laskujen vastaanoton ja käsittelyn automatisoinnissa. Copilot voi auttaa tässä prosessissa parantamalla toimittajan laskujen yhdistämistä ja kohdistamista ostotilauksiin. Tämä avustus vähentää aikaa vieviä tehtäviä, jotka muuten sisältäisivät runsaasti hakuja, valintoja ja tieto syöttämistä. Toinen etu on se, että toimittajan laskut eivät liity ostotilauksiin täysin. Tällöin Copilotilla on hyvät positiot vastaavien ostotilausten yksilöimiseksi. Etenkin parannetuista kohdistusominaisuuksista on hyötyä pienille ja keskisuurille organisaatioille, jotka tarvitsevat tehokkaan asiakirjaseurannan ostotilausrivien osalta. Copilot on tekoälypohjainen avustaja, jonka käyttö edistää Business Central -käyttäjien luovuutta ja parantaa tuottavuutta.
 
 > [!IMPORTANT]
 > - Tämä on tuotantovalmis esiversio tuotanto- ja eristysympäristöihin maakohtaisissa lokalisoinneissa<!-- with the exception of Canada -->.
-> - Tuotantovalmista esiversiota koskevat ominaisuuksien lisäkäyttöehdot. Lisätietoja: [Dynamics 365:n esiversion lisäkäyttöehdot](https://go.microsoft.com/fwlink/?linkid=2105274)
+> - Tuotantovalmista esiversiota koskevat ominaisuuksien lisäkäyttöehdot. Lisätietoja: [Dynamics 365:n esiversion lisäkäyttöehdot](https://go.microsoft.com/fwlink/?linkid=2189520)
 > - Tekoälyn luoma sisältö voi olla virheellistä.
 
 **Sähköisten asiakirjojen** sovelluksen ensimmäisessä julkaisussa otettiin käyttöön koko myyntiprosessin sähköisiä asiakirjoja koskevia perusskenaarioita. Vastaanotettujen asiakirjojen käsittelyssä tarvitaan kuitenkin parannuksia ja automatisointia erityisesti ostoprosessien yhteydessä. Copilot tarkentaa sähköisten asiakirjojen hallintaa ostoprosessissa etenkin ostotilausten osalta. Sähköinen asiakirjakehys mahdollistaa kullekin toimittajalle luotavan ostoasiakirjan tyypin määrittämisen, kun toimittajilta vastaanotetaan sähköisiä laskuja. Aiemmin ainoa vaihtoehto oli luoda ostolasku joko asiakirjana tai KP-päiväkirjana.
 
 Business Centralissa aiemmin luotua ostotilausta voidaan nyt päivittää sähköisessä laskussa saaduilla tiedoilla.
 
-## <a name="available-languages"></a>Käytettävissä olevat kielet
+## Käytettävissä olevat kielet
 
 [!INCLUDE[e-docs-matching-language-support](includes/e-docs-matching-language-support.md)]
 
-## <a name="activate-copilot"></a>Copilotin aktivoiminen
+## Copilotin aktivoiminen  
 
 Jos et aktivoinut **Sähköisen asiakirjan kohdistusavustaja** -Copilotia, se on tehtävä manuaalisesti. Ota **Sähköisen asiakirjan kohdistusavustaja** käyttöön noudattamalla näitä seuraavia vaiheita: 
 
@@ -38,7 +38,7 @@ Jos et aktivoinut **Sähköisen asiakirjan kohdistusavustaja** -Copilotia, se on
 
 Voit aloittaa Copilotin käytön heti, kun olet aktivoinut sen. 
 
-## <a name="identify-purchase-orders"></a>Ostotilausten tunnistaminen
+## Ostotilausten tunnistaminen
 
 Ensimmäiseksi tunnistetaan automaattisesti kohdistettavat ostotilaukset. Jos **toimittajasi** on määrittänyt **Vastaanota e-asiakirjalle** -kentän käyttämään **ostotilauksia**, niin kun sähköinen asiakirja on luotu [!INCLUDE[prod_short](includes/prod_short.md)] -ohjelmassa (manuaalisesti tai ulkoisesta päätepisteestä), [!INCLUDE[prod_short](includes/prod_short.md)] se tekee seuraavaa:
 
@@ -46,7 +46,7 @@ Ensimmäiseksi tunnistetaan automaattisesti kohdistettavat ostotilaukset. Jos **
 Linkki näkyy kyseisen **E-asiakirjan** **Asiakirja**-kentässä. Jos sinun täytyy muuttaa linkitetty **ostotilaus** automaattisesti, voit tehdä sen käyttämällä **Päivitä ostotilauslinkki** -toimintoa ja valita manuaalisesti yhden toimittajan olemassa olevista ostotilauksista. Voit tehdä sen vain, ennen kuin vastaat **E-asiakirjan** ja **ostotilauksen** välisiä rivejä.  
 2. Jos **Ostotilaus** tälle tietylle toimittajalle *on olemassa, mutta vastaanotetussa **Sähköinen asiakirja** -tiedostossa ei ole ostotilausnumeroa*, jos latasit tämän asiakirjan manuaalisesti, [!INCLUDE[prod_short](includes/prod_short.md)] antaa sinun valita jonkin olemassa olevista ostotilauksista avaamalla **Ostotilaukset**-luettelon tilauksista, jotka olet saanut toimittajilta, jotka sisältävät vain **Sähköisen asiakirjan**. Valitse haluamasi **Ostotilaus** ja valitse **OK**. Jos et ole valinnut oikeaa **ostotilausta** tai sait **E-asiakirjan** automaattisesti ulkoisesta päätepisteestä **työjonon** avulla, uutta **e-asiakirjaa** ei linkitetä minkään ostoasiakirjan kanssa, ja **asiakirjan tilaksi** tulee **Virhe** ja **Huollon tila** -alasivun **sähköisen asiakirjan tilaksi** **tuodun asiakirjan käsittelyvirhe**. Kun haluat lopettaa linkittämisen **ostotilaukseen**, valitse **Päivitä ostotilauslinkki** -toiminto ja valitse yksi tämän toimittajan ostotilauksista.  
 
-## <a name="map-lines"></a>Rivien yhdistäminen
+## Rivien yhdistäminen
 
 Copilot auttaa kohdistamaan sähköisen laskun rivit ja ostotilauksen rivit automaattisesti, minkä lisäksi se mahdollistaa kohdistuksia parantavan älykkään lisäkohdistuksen.
 
@@ -100,7 +100,7 @@ Kun haluat suorittaa vastaavuuden ostotilauksesta, valitse **Liitä sähköisen 
 > [!NOTE]
 > Hinnan/kustannuksen analysointi, ja saatavilla oleva määrätarkistus on osa esikäsittelytoimintoa. 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Sähköisten asiakirjojen yleiskuvaus](finance-edocuments-overview.md)    
 [Sähköisten asiakirjojen käyttö myynnissä](finance-how-use-edocuments.md)    
