@@ -2127,6 +2127,7 @@ ms.service: dynamics-365-business-central
 ### [Usein kysyttyjä kysymyksiä sähköisten asiakirjojen yhdistämisestä ostotilauksiin Copilotin avulla](faqs-map-edocuments.md)
 # Vastuullinen tekoäly
 ## [Yleiskatsaus](responsible-ai-overview.md)
+## [Usein kysyttyjä kysymyksiä Copilotin tietosuojasta ja yksityisyydestä](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [Usein kysyttyjä kysymyksiä analyysiavustajasta (esiversio)](faqs-analysis-assist.md)
 ## [Usein kysyttyjä kysymyksiä pankkitilin täsmäytyksen avustajasta (esiversio)](faqs-bank-reconciliation.md)
 ## [Usein kysyttyjä kysymyksiä keskustelusta Copilotin avulla (esiversio)](faqs-chat-with-copilot.md)
