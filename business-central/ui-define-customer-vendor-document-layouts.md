@@ -37,7 +37,7 @@ Jos et ole vielä luonut mukautettua raporttiasettelua asiakirjatyypille, luo se
 3. Valitse **Asiakirjojen asettelut** -sivulla **Mukautetun asettelun kuvaus** -kenttä siltä raporttiasettelun riviltä, jolle haluat käyttää mukautettua asettelua.
 4. Valitse **Mukautetut raporttiasettelut** -sivulta asiakirja-asettelu, jota haluat käyttää kyseisessä myyntiasiakirjatyypissä. Lisätietoja on kohdassa [Raportin mukautettujen asettelujen luominen ja muokkaaminen](ui-how-create-custom-report-layout.md).
 
-## <a name="to-specify-which-contact-will-receive-which-document-layout-for-a-customer"></a>Määritetään, kuka yhteyshenkilö vastaanottaa minkäkin asiakirja-asettelun asiakkaan kohdalla
+## <a name="to-specify-which-contact-receives-which-document-layout-for-a-customer"></a>Määritetään, kuka yhteyshenkilö vastaanottaa minkäkin asiakirja-asettelun asiakkaan kohdalla
 
 Voit säästää aikaa lähettäessäsi asiakirja asiakkaan ja toimittajan yhteyshenkilöille sähköpostitse, jos määrität sähköpostiosoitteet asiakirja-asetteluissa. Voit esimerkiksi aina lähettää asiakastiliotteet kirjanpitäjän yhteyshenkilöille ja myyntitilaukset ostajille tai ostotilaukset toimittajan myyjille.
 
