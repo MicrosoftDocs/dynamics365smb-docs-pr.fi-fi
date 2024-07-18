@@ -25,7 +25,7 @@ Kun maksut on käsitelty onnistuneesti pankin tiedottamalla tavalla, voit kirjat
 > [!NOTE]  
 > Kun maksut kerätään SEPA-suoraveloituksen avulla, myyntilaskun valuutan on oltava EURO.  
 
-## <a name="setting-up-sepa-direct-debit"></a>SEPA-suoraveloituksen määrittäminen
+## <a name="how-to-set-up-sepa-direct-debit"></a>SEPA-suoraveloituksen määrittäminen
 
 **Suoraveloitusperinnät**-sivulla voi viedä sähköiseen pankkiin ohjeita, jotka ohjaavat pankkiasi suorittamaan suoraveloituksen asiakkaan pankkitililtä omalle pankkitilillesi SEPA-suoraveloitusmuodon mukaisesti.
 
