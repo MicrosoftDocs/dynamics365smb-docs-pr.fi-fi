@@ -2,20 +2,20 @@
 title: PayPal Payments Standard -laajennuksen käyttäminen
 description: 'Tässä artikkelissa kerrotaan, miten vakiolaajennusten avulla asiakkaille voidaan antaa mahdollisuus suorittaa PayPal-maksuja.'
 author: brentholtorf
+ms.author: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'app, add-in, manifest, customize'
 ms.search.form: '1070, 1071, 1073, 1074'
-ms.date: 12/12/2023
-ms.author: bholtorf
+ms.date: 07/09/2024
+ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="the-paypal-payments-standard-extension"></a>PayPal Payments Standard -laajennus
+# PayPal Payments Standard -laajennus
 
-Asiakkaat vaativat jatkuvasti yhä korkeatasoisempaa asiakaspalvelua sekä tuotteen laadun että toimitus- ja maksuvaihtoehtojen osalta. Voit parantaa asiakaspalvelun tasoa PayPal Payments Standard -palvelun avulla.
+PayPal Payments Standard -laajennus voi auttaa kasvattamaan asiakaspalvelutasojasi, sillä se helpottaa asiakkaiden laskujen maksamista.
 
-Pankkisiirron tai luottokorttien lisäksi asiakkaille voi tarjota mahdollisuuden maksaa PayPal-tilin avulla. Kun lähetät myyntilaskun sähköpostitse, sähköpostin perustekstissä ja liitetyssä PDF-tiedostossa on PayPal-linkki. Kun asiakas valitsee PayPal-linkin, näyttöön avautuu asiakkaan PayPal-tilin palvelusivu, joka sisältää myyntiä koskevat maksutiedot. Tämän jälkeen asiakas voi maksaa laskun kuten minkä tahansa PayPal-maksun.
+Vaihtoehto maksujen keräämiselle pankkisiirron tai Kortit kautta, asiakkaat voivat maksaa PayPal tilinsä kautta. Kun lähetät myyntilaskun sähköpostitse, sähköpostin perustekstissä ja liitetyssä PDF-tiedostossa on PayPal-linkki. Jos asiakas valitsee linkin, PayPal tilinsä huoltosivu avautuu ja siinä näkyvät maksutiedot. Tämän jälkeen asiakas voi maksaa laskun kuten minkä tahansa PayPal-maksun.
 
 PayPal Payments Standard -palvelusta on apua seuraavissa asioissa:
 
@@ -27,9 +27,18 @@ PayPal Payments Standard -palvelusta on apua seuraavissa asioissa:
 * PayPal Payments Standard -palvelu ei sisällä kuukausi- tai aloitusmaksuja.
 * Koska palvelu on laajennus, voit ottaa PayPal Payment Standard -palvelun helposti käyttöön silloin, kun yritys tarvitsee sitä.  
 
-Lisätietoja on kohdassa [Asiakkaan maksujen ottaminen käyttöön PayPalin kautta](sales-how-enable-payment-service-extensions.md).
+Lisätietoja laajennuksen [määrittämisestä on asiakkaan maksun ottamisesta käyttöön PayPal](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Katso myös
+## Yritystilien maksujen rekisteröiminen automaattisesti
+
+[!INCLUDE [prod_short](includes/prod_short.md)] voit rekisteröidä maksut automaattisesti, jos sinulla on yrityskauppiastili PayPal Commerce Platformia varten. Kun asiakkaasi käyttävät PayPal-linkkiä laskun maksamiseen, [!INCLUDE [prod_short](includes/prod_short.md)]  kirjaa tapahtumat ja sulkee asiakirjan.
+
+Kun haluat käyttää tätä ominaisuutta, **ota** Maksurekisteröinnin asetukset - [!INCLUDE [prod_short](includes/prod_short.md)] sivulla **rekisterimaksut käyttöön automaattisesti**, kun vaihdat ja vahvistat tilit, joita käytät maksuissa. Jos päätät, ettet halua rekisteröidä maksuja automaattisesti, voit poistaa ne käytöstä uudelleen.
+
+> [!TIP]
+> Kehittäjät voivat käyttää eristysruututilejä asetusten testaamiseen. Voit tehdä tämän muuttamalla PayPal URL-osoitteen numeroksi **sandbox.paypal.com**. [!INCLUDE [prod_short](includes/prod_short.md)] käyttää IPN (PayPals Instant Payment Notification) -ilmoitusta notify_url.
+
+## Katso myös
 
 [[!INCLUDE[prod_short](includes/prod_short.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
