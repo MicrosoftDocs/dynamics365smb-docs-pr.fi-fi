@@ -3,16 +3,16 @@ title: Sovellusten asentaminen ja asennusten poistaminen
 description: Lisätietoja sovellusten ja laajennusten asentamisesta ja asennusten poistamisesta Business Centralissa.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: solsen
 ms.topic: conceptual
-ms.date: 09/07/2023
+ms.date: 06/26/2024
 ms.custom: bap-template
 ms.search.keywords: 'app, add-in, manifest, customize, install, uninstall'
 ms.search.form: '2500, 2514, 20350'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="install-and-uninstall-extensions-apps-in-business-central"></a>Laajennusten (sovellusten) asentaminen ja asennusten poistaminen Business Centralissa
+# Laajennusten (sovellusten) asentaminen ja asennusten poistaminen Business Centralissa
 
 Voit muuttaa [!INCLUDE[prod_short](includes/prod_short.md)]ia asentamalla sovelluksia, jotka esimerkiksi sisältävät lisätoimintoja, muuttavat toimintaa tai antavat uusien verkkopalveluiden käyttöoikeuden. Lisätietoja on kohdassa [Business Centralin mukauttaminen laajennusten avulla](ui-extensions.md).
 
@@ -23,7 +23,7 @@ Voit muuttaa [!INCLUDE[prod_short](includes/prod_short.md)]ia asentamalla sovell
 
 Jos haluat käyttää laajennusta, sinun on määritettävä sen mukana tulevat käyttöoikeuksien joukot.
 
-## <a name="install-an-extension"></a><a name="install"></a>Laajennuksen asentaminen
+## <a name="install"></a>Laajennuksen asentaminen
 
 Sovelluksia ja laajennuksia hallitaan **Laajennusten hallinta** -sivulla. Tämä sivu löytyy kotisivulta. Vaihtoehtoisesti valitse **Hae sivua tai raporttia** -kuvake ![Lamppu, joka avaa Kerro-toiminnon.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") oikeassa yläkulmassa, syötä **Laajennus** ja valitse sitten liittyvä linkki.  
 
@@ -32,7 +32,7 @@ Uusia sovelluksia on saatavana kaupasta osoitteessa [AppSource.microsoft.com](ht
 > [!NOTE]  
 > Kirjaudu sivustoon [AppSource.microsoft.com](https://appsource.microsoft.com/) [!INCLUDE[prod_short](includes/prod_short.md)]issa käyttämäsi sähköpostitilin tiedoilla. Saman sähköpostitilin käyttäminen myös muissa palveluissa ja tuotteissa takaa sujuvan käyttökokemuksen.  
 
-Pääset AppSourceen myös käyttämällä sovellusta [!INCLUDE[prod_short](includes/prod_short.md)]. Tällä hetkellä asennettuna olevat sovellukset näkyvät **Laajennusten hallinta** -sivulla. Voit avata **Laajennuskauppa**-sivun, jossa näkyvät AppSourcessa tällä hetkellä käytettävissä olevat [!INCLUDE[prod_short](includes/prod_short.md)]in sovellukset. Jos valitset *Lisää sovelluksia* -linkin, sinut siirretään sivustolle [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Pääset AppSourceen myös käyttämällä sovellusta [!INCLUDE[prod_short](includes/prod_short.md)]. Tällä hetkellä asennettuna olevat sovellukset näkyvät **Laajennusten hallinta** -sivulla. Voit avata **Microsoft AppSource -sovellukset** -sivun, jossa näkyvät AppSourcessa tällä hetkellä käytettävissä olevat [!INCLUDE[prod_short](includes/prod_short.md)] -sovellukset. Jos valitset **Näytä AppSource** -toiminnon, sinut siirretään sivustolle [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646). Lisätietoja: [AppSource-sovellusten hallinta](admin-manage-appsource-apps.md).  
 
 Valitse sovellus saadaksesi tietoja siitä, miten se toimii ja hakea lisätietoja käyttämällä sovelluksen Ohje-toimintoa. Kun haluat noutaa sovelluksen, sinun on hyväksyttävä sen käyttöehdot. Jos noudat sovelluksen AppSource-sivustosta, sinut kirjataan sisään sovellukseen [!INCLUDE[prod_short](includes/prod_short.md)] asennuksen viimeistelemiseksi.  
 
@@ -70,19 +70,19 @@ Microsoft tarjoaa seuraavat sovellukset:
 * [Yhdistyneen kuningaskunnan postinumeroiden GetAddress.io-laajennus](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA – Maksusuoritusilmoituksen lähettäminen](ui-extensions-send-remittance-advice.md)
 
-## <a name="set-up-an-app"></a>Sovelluksen määrittäminen
+## Sovelluksen määrittäminen
 
 Sovelluksen asentamisen jälkeen se on ehkä määritettävä. Esimerkiksi **Sovelluksen [!INCLUDE[prod_short](includes/prod_short.md)] PayPal Payments Standard** -sovellukselle on määritettävä PayPal-tili. Jos näin on tehtävä, [!INCLUDE[prod_short](includes/prod_short.md)] kysyy käyttäjältä asennuksen valmistuttua, haluaako tämä määrittää sovelluksen heti. Sovellus saattaa vaatia asetukset toimiakseen.
 
 Jos haluat määrittää sovelluksen heti ja se vaaditaan asetuksessa, [!INCLUDE[prod_short](includes/prod_short.md)] avaa vaaditun asetuksen. Asetus voi olla sivu, johon syötetään tietoja, tai asetusten ohjattu määritysopas, joka auttaa vaiheiden suorittamisessa. Jos et tee asetusta kerralla valmiiksi, voit käyttää **_Sovelluksen nimi_ – asetukset** -sivua, jolla sovelluksen asetukset kerrotaan. Pakolliset asetukset osoitetaan **lihavoinnilla**.
 
-## <a name="upload-a-per-tenant-extension-pte"></a>Vuokraajakotaisen laajennuksen (PTE) lataaminen palvelimeen
+## Vuokraajakotaisen laajennuksen (PTE) lataaminen palvelimeen
 
 Lataat PTE:n käyttämällä **Laajennuksen hallinta** -sivua. Valitse **Laajennuksen hallinta** -sivulla **Hallinta** ja valitse sitten **Lataa laajennus palvelimeen**. Valitse **Lataa ja ota käyttöön laajennus** -sivulla ladattava .app-tiedosto. Jatka valitsemalla **Hyväksy**-painike ja sitten **Ota käyttöön**-painike, jolloin PTE-käyttöönottoprosessi aloitetaan.
 
 Jos PTE sisältää rikkovia mallin muutoksia, on mahdollista *pakottaa* sen lataaminen. Voit tehdä sen valitsemalla **Mallin synkronointi tila** -kohdassa **Pakota**-asetuksen. Näyttöön tulee vahvistusikkuna, jonka voi hyväksyä ennen jatkamista.  
 
-## <a name="uninstall-an-app"></a>Sovelluksen asennuksen poistaminen
+## Sovelluksen asennuksen poistaminen
 
 Sovelluksen asennus poistetaan **Laajennuksen hallinta** -sivulla. Jos haluat poistaa sovelluksen, valitse se sivulla ja valitse sitten **Poista asennus** -toiminto. Jos poistat sovelluksen asennuksen ja haluat ottaa sen takaisin käyttöön, voit asentaa sovelluksen uudelleen.
 
@@ -95,10 +95,11 @@ Oletusarvoisesti, kun poistat sovelluksen, jota olet käyttänyt, tietojasi ei p
 
 Jos haluat säilyttää poistetun sovelluksen tiedot, voit poistaa tiedot myöhemmin. **Poista orpojen laajennusten tiedot** -sivulla on luettelo sovelluksista, joista sinulla on vielä dataa. Voit poistaa tiedot valitsemalla sovelluksen ja valitsemalla sitten **Poista tiedot**. 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Business Centralin mukauttaminen](ui-customizing-overview.md)  
 [Muiden toimittajien Business Central -laajennukset](ui-extensions-other.md)  
+[AppSource-sovellusten hallinta](admin-manage-appsource-apps.md)  
 [Envestnet Yodlee Bank Feeds -palvelun määrittäminen](bank-how-setup-bank-statement-service.md)  
 [Asiakkaan maksujen ottaminen käyttöön PayPalin kautta](sales-how-enable-payment-service-extensions.md)  
 [Liiketoiminnan tietojen siirtäminen muista rahoitusjärjestelmistä](across-import-data-configuration-packages.md)  
