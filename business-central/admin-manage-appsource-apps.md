@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# AppSource-sovellusten hallinta
+# <a name="manage-appsource-apps"></a>AppSource-sovellusten hallinta
  
 Sovelluksesta [!INCLUDE[prod_short](includes/prod_short.md)] käsin voit löytää, tarkastella, lajitella ja suodattaa käytettävissä olevia AppSource -sovelluksia, jotka integroituvat sovellukseen [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -27,6 +27,6 @@ Sivulla käytettävissä ovat seuraavat toiminnot:
  
 Kuten muiden luettelosivujen osalta, esimerkiksi Analyysitilaa tuetaan esimerkiksi sitä varten, että voit ryhmitellä sovelluksia julkaisijan mukaan. Suunnittele Copilotin avulla itsellesi **Analyysitila**-näkymä
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Business Central Onlinen mukauttaminen sovellusten avulla](ui-extensions.md)  
