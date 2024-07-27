@@ -930,6 +930,7 @@ ms.service: dynamics-365-business-central
 ##### [ALV:n valvontaraportti](LocalFunctionality/Czech/vat-control-report.md)
 ##### [ALV-raportit](LocalFunctionality/Czech/vat-reports-cz.md)
 ##### [ALV-korjaus paikallisena valuuttana](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
+##### [Vähennyskelvoton ALV](LocalFunctionality/Czech/non-deductible-VAT.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
 ##### [Intrastat – Tšekki (laajennus)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Käyttöomaisuus
@@ -1587,7 +1588,7 @@ ms.service: dynamics-365-business-central
 #### [Paikalliset toiminnot Yhdysvaltojen versiossa](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Vero
 ##### [Veron perusasetukset](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Myyntiveron raportoiminen Yhdysvalloissa](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Arvonlisävero Yhdysvalloissa](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [IRS 1099 ‑lomakkeiden ja niiden toimintojen esittely](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
 ##### [IRS 1099 ‑lomakkeen määrittäminen ja käyttäminen versiolle 24 (vuoden 2024 julkaisuaalto 1)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
 #### [IRS 1099 ‑lomakkeiden käyttäminen](LocalFunctionality/UnitedStates/how-to-1099-use.md)
