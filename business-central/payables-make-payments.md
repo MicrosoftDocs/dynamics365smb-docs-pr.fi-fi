@@ -11,7 +11,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="making-payments"></a>Maksujen suorittaminen
+# <a name="make-payments"></a>Maksujen suorittaminen
 
 Maksat maksut toimittajille tai asiakkaille tai hyvityksiä työntekijöille, kirjaat liittyvät maksurivit **Maksupäiväkirja**-sivulle. Maksupäiväkirja on yleinen päiväkirja, joka on tarkoitettu erityisesti maksujen tekemiseen ja joka tarjoaa paljon vahvoja toimia. Esimerkki: **Ehdota toimittajamaksuja** -toiminto, joka etsii erääntyvät toimittajamaksut, ja **Toimittaja - Eräänt.yht.kohtainen** -raportti, jossa on yleiskuva erääntyvistä toimittajamaksuista.  
 

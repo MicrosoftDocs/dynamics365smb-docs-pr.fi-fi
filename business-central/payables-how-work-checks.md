@@ -50,7 +50,7 @@ Täysin kohdistetut toimittajatapahtumat ja pankkitilitapahtumat luodaan.
 > [!NOTE]  
 > Jos sekkejä täytyy tulostaa ja maksaa monessa valuutassa eri pankkitileiltä, sinun täytyy suorittaa **Tulosta sekki** -eräajo erikseen kullekin valuutalle ja määrittää sopivat pankkitilit.
 
-## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Kirjaamattomien ja tulostettujen sekkien peruuttaminen
+## <a name="to-cancel-printed-checks-that-arent-posted"></a>Kirjaamattomien ja tulostettujen sekkien peruuttaminen
 
 Voit peruuttaa kirjaamattomat sekit niiden tulostamisen jälkeen **Maksupäiväkirja**-sivun **Mitätöi sekki** -toiminnon avulla.
 
