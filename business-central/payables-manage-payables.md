@@ -8,10 +8,11 @@ ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '161, 254, 256, 347, 574, 599, 9002'
-ms.date: 06/06/2024
+ms.date: 07/12/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-payables"></a>Ostovelkojen hallinta
+
+# Ostovelkojen hallinta
 
 Keskeinen osa ostoreskontran hoitoa on toimittajille maksamista tai kulujen hyvittämistä työntekijöille. Voit lisätä toiminnoilla erääntyviin ostolaskuihin maksurivejä **Maksupäiväkirja**-sivulla. Voit lähettää tapahtumia pankkiin viemällä useita maksupäiväkirjan rivejä tiedostoon ja ladata sitten tiedoston pankkiin. Voit myös maksaa sekeillä ja siirtää sekkejä sähköisinä maksuina.
 
@@ -29,12 +30,12 @@ Seuraavassa taulukossa on ostoreskontran tehtäväsarja ja linkit tehtäviä kuv
 |Varmista varaston oikea arvostus määrittämällä lisätyt nimikekulut, kuten nimikkeiden ostamisessa syntyvät rahti-, käsittely-, vakuutus- ja kuljetuskulut.|[Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md)|
 |Hyvitä työntekijöiden liiketoimintaan liittyvät henkilökohtaiset kulut suorittamalla maksu työntekijän pankkitilille.|[Työntekijöiden kulujen kirjaaminen ja hyvittäminen](finance-how-record-reimburse-employee-expenses.md)|
 
-## <a name="see-also"></a>Katso myös
-[Osto](purchasing-manage-purchasing.md)  
-[Myyntisaamisten hallinta](receivables-manage-receivables.md)  
-[Kaupan lisäkustannusten huomioiminen nimikekulujen avulla](payables-how-assign-item-charges.md)  
-[Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)  
-[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Katso myös
+[Osto](purchasing-manage-purchasing.md)    
+[Myyntisaamisten hallinta](receivables-manage-receivables.md)    
+[Käytä nimikekuluja lisäkauppakustannusten tilittämiseen](payables-how-assign-item-charges.md)    
+[Yleiset liiketoimintatoiminnot](ui-across-business-areas.md)    
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

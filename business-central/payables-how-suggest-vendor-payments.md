@@ -1,5 +1,5 @@
 ---
-title: Ehdota toimittajamaksuja
+title: Toimittajan maksujen ehdottaminen
 description: Käytä Ehdota toimittajamaksuja -erätyötä luodaksesi maksurivejä toimittajillesi eräpäivien ja maksualennusten perusteella.
 author: brentholtorf
 ms.author: bholtorf
@@ -7,11 +7,12 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '256,'
-ms.date: 12/04/2023
+ms.date: 07/17/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="suggest-vendor-payments"></a>Ehdota toimittajamaksuja
+
+# Toimittajan maksujen ehdottaminen
 
 Voit ehdottaa maksurivejä käyttämällä **Maksupäiväkirja**-sivulla **Ehdota toimittajamaksuja** -eräajoa. [!INCLUDE [prod_short](includes/prod_short.md)] ehdottaa asetuksiin perustuvia rivejä:
 
@@ -30,19 +31,19 @@ Maksuehdotuksia voi hyödyntää täysimääräisesti, kun toimittajat on priori
 > * erääntyneissä toimittajatapahtumissa, joita ei ole priorisoitu  
 > * Avoimissa toimittajatapahtumissa, joissa voi käyttää maksualennuksia. Tapahtumat on järjestetty toimittajan numeron mukaan.  
 
-## <a name="use-the-suggest-vendor-payments-action"></a>Ehdota toimittajamaksuja -toiminnon käyttäminen
+## Ehdota toimittajamaksuja -toiminnon käyttäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten vastaava linkki.  
 2. Avaa päiväkirja ja valitse **Ehdota toimittajamaksuja** -toiminto.  
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Valitse **OK**-painike.  
 
-## <a name="insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Eräpäivän lisääminen maksupäiväkirjan rivien kirjauspäivämääräksi
+## Eräpäivän lisääminen maksupäiväkirjan rivien kirjauspäivämääräksi
 
-Kun **Ehdota toimittajamaksuja** -eräajoa käytetään toimittajien maksurivien luomisessa, täyttämällä kaksi erikoiskenttää voi varmistaa, että luodut rivit käyttävät eräpäivää kirjauspäivämäärän laskemisessa. Nämä kentät ovat **Laske kirjauspäivämäärä kohdistuksen asiakirjan eräpäivästä** ja **Kohdistuksen asiakirjan eräpäivän siirtymä**.  
+Kun **Ehdota toimittajamaksuja** -eräajoa käytetään toimittajien maksurivien luomisessa, täyttämällä kaksi erikoiskenttää voi varmistaa, että luodut rivit käyttävät eräpäivää kirjauspäivämäärän laskemisessa. Nämä kentät ovat **Laske kirjauspvm kohdistetaan asiakirjaan -kentästä. Eräpäivä** ja **Kohdistetaan asiakirjaan Eräpäivän vastakirjaus**.  
 
 > [!IMPORTANT]  
-> Et voi käyttää **Laske kirjauspäivämäärä kohdistuksen asiakirjan eräpäivästä** -kenttää yhdessä **Hae maksualennukset**- tai **Tee yhteenveto toimittajittain** -kentän kanssa. Jos kirjauspäivä perustuu eräpäivään, joitain maksualennuksia ei ehkä ole laskettu oikein, koska kirjauspäivä on maksualennuspäivän jälkeen.  
+> Laske kirjauspvm kohdistetaan asiakirjaan -kentästä ei voi käyttää **. Eräpäivä-kenttä** yhdessä Etsi maksualennukset -kentän tai **Tiivistys** toimittajaa **kohti -kentän kanssa** . Jos kirjauspäivä perustuu eräpäivään, joitain maksualennuksia ei ehkä ole laskettu oikein, koska kirjauspäivä on maksualennuspäivän jälkeen.  
 
 Jos laskettu kirjauspäivämäärä on myös menneisyydessä, kirjauspäivämäärää siirretään käsittelypäivämäärään ja näyttöön tulee varoitus.  
 
@@ -51,7 +52,7 @@ Voit myös luoda maksurivejä manuaalisesti niin, että eräpäivää käytetä�
 > [!NOTE]  
 > Jos ostolasku on myöhässä, kirjauspäivämäärä määritetään käsittelypäivämääräksi ja rivin fontti muuttuu punaiseksi.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 - [Ostovelkojen hallinta](payables-manage-payables.md)  
 - [Maksujen suorittaminen](payables-make-payments.md)  

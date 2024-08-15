@@ -10,30 +10,31 @@ ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="manage-product-variants"></a>Tuotevarianttien hallinta
+
+# Tuotevarianttien hallinta
 
 Nimikevariantit ovat hyvä tapa hallita tuoteluetteloa. Tämä on hyödyllistä esimerkiksi silloin, jos on olemassa suuri määrä lähes samanlaisia nimikkeitä, joissa vain värit poikkeavat toisistaan. Jokainen variantti voidaan määrittää erilliseksi nimikkeeksi. Voit myös päättää määrittää yhden nimikkeen ja määrittää useita värejä nimikkeen varianteiksi.  
 
 > [!TIP]
 > Käytännöllinen esittely varianttien käyttämisestä tuotannossa on Contoso Coffeen esittelytietojen kohdassa [Vaihekuvaus: Variantit](contoso-coffee/manufacturing/variants.md).  
 
-## <a name="add-variants-to-an-item"></a>Varianttien lisääminen nimikkeeseen
+## Varianttien lisääminen nimikkeeseen
 
 Nimikkeelle on helppo määrittää variantteja.  
 
-### <a name="to-add-variants"></a>Varianttien lisääminen
+### Varianttien lisääminen
 
 1. Avaa [**Nimikeluettelo**-sivu](https://businesscentral.dynamics.com/?page=31) ja avaa sitten haluamasi nimike.  
-2. Valitse **Nimikkeen kortti** -sivulla **Variantit**-toiminto.  
-3. **Nimikevariantit**-sivulla näkyy varianttiluettelo.  
+2. Valitse **Nimike kortti-ikkunassa** Aiheeseen liittyvä **toiminto, valitse**  **nimike ja valitse variantit-toiminto** **.**   
+3.  **Luetteloi Variantit-sivulla** variantit.  
 
-Kun sitten luot myyntiasiakirjan ja lisäät nimikkeen, voit määrittää nimikkeen variantin **Varianttikoodi**-kenttään. Sama koskee ostoasiakirjoja.  
+Kun sitten luot myyntiasiakirjan ja lisäät nimikkeen, voit määrittää nimikkeen variantin Varianttikoodi-kenttään **·** . Sama pätee myös ostoasiakirjoihin.  
 
-## <a name="item-availability-by-variant"></a>Nimikkeen saat. varianteittain
+## Nimikkeen saat. varianteittain
 
 [!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
 
-## <a name="require-use-of-variants"></a>Vaadi varianttien käyttöä
+## Vaadi varianttien käyttöä
 
 Vuoden 2022 2. julkaisuaallosta lähtien järjestelmänvalvojat ovat voineet vaatia käyttäjiä määrittämään variantin asiakirjoissa ja kirjauskansioissa nimikkeille, joilla on variantteja. Voit aktivoida ominaisuuden siirtymällä **Varaston asetukset** -sivulla ja valitsemalla **Versio pakollinen, jos on** -kenttä. Voit ohittaa tämän yleisen asetuksen tiettyjen nimikkeiden osalta.  
 
@@ -50,12 +51,12 @@ Nimikekorteissa **Variantti pakollinen jos on olemassa** -kentässä on seuraava
 
 Jos ominaisuus on otettu käyttöön, käyttäjät eivät voi kirjata tapahtumaa, jos varianttia ei ole määritetty.
 
-## <a name="categories-attributes-and-variants"></a>Luokat, määritteet ja variantit
+## Luokat, määritteet ja variantit
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
-[Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
-[Yleisten varastotietojen määrittäminen](inventory-how-setup-general.md)  
-[Vaihekuvaus: Variantit](contoso-coffee/manufacturing/variants.md)  
+[Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)    
+[Yleisen varaston tietojen määrittäminen](inventory-how-setup-general.md)    
+[Vaihekuvaus: Variantit](contoso-coffee/manufacturing/variants.md)    

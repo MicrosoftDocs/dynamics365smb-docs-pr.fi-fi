@@ -1,20 +1,20 @@
 ---
-title: 'Rakennetiedot – varaus, tilauksen seuranta ja toimenpiteiden viestintä | Microsoft Docs'
-description: Varausjärjestelmä on kokonaisvaltainen ja se sisältää Tilausten seurannan ja toimintaviestinnän keskenään yhteydessä olevat ja rinnakkaiset ominaisuudet.
+title: 'Suunnittelun yksityiskohdat - varaus, tilauksen seuranta ja toimenpideviestit | Microsoft-asiakirjat'
+description: 'Varausjärjestelmä on kokonaisvaltainen, ja se sisältää Tilausten seurannan ja toimintaviestinnän keskenään yhteydessä olevat ja rinnakkaiset ominaisuudet.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'design, replenishment, reordering'
-ms.date: 06/08/2021
+ms.date: 07/23/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys
+# Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys
 
 Varausjärjestelmä on kokonaisvaltainen, ja se sisältää Tilausten seurannan ja toimintaviestinnän keskenään yhteydessä olevat ja rinnakkaiset ominaisuudet.  
 
-Varausjärjestelmän ydin on kysyntätapahtuman ja vastaavan toimitustapahtuman linkittäminen varauksen tai tilauksen seurannan kautta. Varaus on käyttäjän luoma linkki ja tilauksen seurantatietue on järjestelmän luoma linkki. Varausjärjestelmään kirjoitettava nimikemäärä on joko varattu tai tilauksen seuranta mutta se ei voi olla molempia samanaikaisesti. Järjestelmien nimikkeiden käsittely riippuu siitä miten nimike määritetään.  
+Varausjärjestelmän ytimessä on kysyntätapahtuman ja vastaavan tarjontatapahtuman linkittäminen joko varauksen tai tilauksen seurannan kautta. Varaus on käyttäjän luoma linkki ja tilauksen seurantatietue on järjestelmän luoma linkki. Varausjärjestelmään kirjoitettava nimikemäärä on joko varattu tai tilauksen seuranta mutta se ei voi olla molempia samanaikaisesti. Se, miten järjestelmät käsittelevät nimikettä, riippuu siitä, miten nimike on määritetty.  
 
 Varausjärjestelmä toimii yhteistyössä suunnittelujärjestelmän kanssa luomalla toimintaviestejä suunnitteluriveille suunnitteluajojen aikana. Toimenpideviestiä voidaan pitää lisäkkeenä seurantatietueelle. Toimenpideviestit tarjoavat kätevän työkalun tehokkaaseen tarjonnan suunnitteluun riippumatta siitä luodaanko ne dynaamisesti tilauksen seurannassa vai suunnitteluajon aikana.  
 
@@ -24,27 +24,28 @@ Varausjärjestelmä toimii yhteistyössä suunnittelujärjestelmän kanssa luoma
  Varausjärjestelmä muotoilee myös rakenteellisen perustan nimikkeenseurantajärjestelmälle. Lisätietoja on kohdassa [Rakennetiedot: nimikkeen seuranta](design-details-item-tracking.md).  
 
  <!--For more detailed information about how the reservation system works, see the _Reservation Entry Table_ white paper on [PartnerSource](https://go.microsoft.com/fwlink/?LinkId=258348).  -->
-
+<!--
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
+-->
 
-## <a name="reservation"></a>Varaus
+## Varaus  
 
  Varaus on sitova linkki, joka yhdistää tietyn kysynnän ja tietyn tarjonnan toisiinsa. Tämä linkki vaikuttaa suoraan tuleviin varastotapahtumiin ja varmistaa nimiketapahtumien oikean kohdistuksen kustannustarkoituksia varten. Varaus ohittaa nimikkeen oletusarvoisen arvostusmenetelmän. Lisätietoja on kohdassa [Rakennetiedot: nimikkeen seuranta](design-details-item-tracking.md).  
 
- **Varaus**-sivu on käytettävissä kaikilta tilausriveiltä sekä kysyntä- että tarjontatyypeissä. Tällä sivulla käyttäjä voi määrittää mihin kysyntä- tai tarjontatapahtumaan varauslinkki luodaan. Varaus koostuu tietueparista, jotka jakavat saman kirjausnumeron. Yhdessä tietueessa on negatiivinen etumerkki ja se osoittaa kysyntään. Toisessa tietueessa on positiivinen merkki ja se osoittaa tarjontaan. Nämä tietueet on tallennettu **Varaustapahtuma** -taulukkoon, jonka tilan arvo on **varaus**. Käyttäjä voi tarkastella kaikkia varauksia **Varaustapahtumat**-sivulla.  
+ **Varaus**-sivu on käytettävissä kaikilta tilausriveiltä sekä kysyntä- että tarjontatyypeissä. Tällä sivulla käyttäjä voi määrittää mihin kysyntä- tai tarjontatapahtumaan varauslinkki luodaan. Varaus koostuu tietueparista, jotka jakavat saman kirjausnumeron. Yhdessä tietueessa on negatiivinen etumerkki ja se osoittaa kysyntään. Toisessa tietueessa on positiivinen merkki ja se osoittaa tarjontaan. Nämä tietueet tallennetaan Varaustapahtuma-taulukkoon *·*, jossa on tila-arvo *Varaus*. Käyttäjä voi tarkastella kaikkia varauksia **Varaustapahtumat**-sivulla.  
 
-### <a name="offsetting-in-reservations"></a>Kompensoiminen varauksissa
+### Kompensoiminen varauksissa  
 
  Varaukset tehdään käytettävissä olevien nimikemäärien mukaisesti. Nimikkeen saatavuus lasketaan seuraavasti:  
 
- saatavilla oleva määrä + varasto + aikataulutetut vastaanotot - bruttotarve.  
+ `available quantity = inventory + scheduled receipts - gross requirements`
 
  Seuraavassa taulukossa kuvataan tiedot tilausverkoston kohteista, jotka ovat osa käytettävyyslaskelmaa.  
 
-||Kenttä kohteessa T27|Lähdetaulukko|Taulukkosuodatin|Lähdekenttä|  
+||Kenttä T27-nimikkeessä|Lähdetaulukko|Taulukkosuodatin|Lähdekenttä|  
 |-|------------------|------------------|------------------|------------------|  
-|**Varasto**|Varasto|Nimiketapahtuma|Ei saatavilla|määrä.|  
+|**Varasto**|Vaihto-omaisuus|Nimiketapahtuma|Ei saatavilla|määrä.|  
 |**Aikataulutetut vastaanotot**|Sitsuun. til. vast.ot. (määrä)|Tuot.til. rivi|=Sitovasti suunniteltu|Jäljellä oleva määrä (perus)|  
 |**Aikataulutetut vastaanotot**|Vapaut. til. vast.ot. (määrä)|Tuot.til. rivi|=Vapautettu|Jäljellä oleva määrä (perus)|  
 |**Aikataulutetut vastaanotot**|Määrä kokoonpanotilauksessa|Kokoonpanon otsikko|=Järjestys|Jäljellä oleva määrä (perus)|  
@@ -57,11 +58,11 @@ Varausjärjestelmä toimii yhteistyössä suunnittelujärjestelmän kanssa luoma
 
  Lisätietoja on kohdassa [Rakennetiedot: Saatavuus varastossa.](design-details-availability-in-the-warehouse.md)  
 
-### <a name="manual-reservation"></a>Manuaalinen varaus
+### Manuaalinen varaus  
 
 Kun käyttäjä luo varauksen tarkoituksenmukaisesti, hän saa näiden nimikkeiden täydet omistusoikeudet ja on nimikkeistä vastuussa. Tämä tarkoittaa sitä, että käyttäjän on myös muutettava tai peruutettava varaus manuaalisesti. Tällaiset manuaaliset muutokset voivat aiheuttaa kyseisten varausten automaattisen muokkauksen.  
 
-Seuraavassa taulukossa kuvataan milloin ja mitkä muutokset saattavat tapahtua:  
+Seuraavassa taulukossa näkyy, milloin ja mitä muutoksia voi tapahtua:  
 
 |Käyttäjän toimenpide|Järjestelmän reaktio|  
 |-----------------|---------------------|  
@@ -73,29 +74,29 @@ Seuraavassa taulukossa kuvataan milloin ja mitkä muutokset saattavat tapahtua:
 > [!NOTE]  
 > Late Binding -toiminto voi myös vaihtaa varaukset ilman, että tiedottaa tästä käyttäjää, järjestämällä uudelleen yleiset sarja- tai eränumeroiden varaukset. Lisätietoja on kohdassa [Rakennetiedot: Nimikkeen seuranta ja varaukset](design-details-item-tracking-and-reservations.md).  
 
-### <a name="automatic-reservations"></a>Automaattiset varaukset
+### Automaattiset varaukset  
 
  Nimikekortti voidaan määritellä olemaan aina automaattisesti varattu kysynnästä, kuten myyntitilaukset. Tässä tapauksessa varaus suoritetaan varastolle, ostotilauksille, kokoonpanotilauksille ja tuotantotilauksille. Järjestelmä antaa varoituksen, jos tarjontaa ei ole riittävästi.  
 
- Lisäksi erilaiset suunnittelutoiminnot varaavat nimikkeitä automaattisesti kysynnän pitämiseksi linkitettynä tiettyyn tarjontaan. Tilauksenseurantakirjaukset tällaisille seurantalinkeille sisältävät **Varauksen** **Varauksen tila** -kentässä **Varauksen kirjaus** -taulukossa. Automaattiset varaukset luodaan seuraavissa tilanteissa:  
+ Lisäksi erilaiset suunnittelutoiminnot varaavat nimikkeitä automaattisesti kysynnän pitämiseksi linkitettynä tiettyyn tarjontaan. Tällaisten suunnittelulinkkien **tilauksen seurantatapahtumissa** on Varaustapahtuma-taulukon Varauksen tila **-** kentässä *Varaus* . Automaattiset varaukset luodaan seuraavissa tilanteissa:  
 
-- Monitasoinen tuotantotilaus, jossa liittyvän ylä- ja alatason nimikkeiden **Tuotantotapa**-kentän arvoksi on asetettu **Tilausohjattu**. Suunnittelujärjestelmä luo varaukset alkuperäisen tuotantotilauksen ja alla olevan tuotantotilausten välillä, jolloin varmistetaan, että ne suoritetaan yhdessä. Tällainen varausside kumoaa nimikkeen oletuskustannukset ja sovellusmenetelmät.  
+- Monitasoinen tuotantotilaus, jossa liittyvän ylä- ja alatason nimikkeiden **Tuotantotapa**-kentän arvoksi on asetettu **Tilausohjattu**. Suunnittelujärjestelmä luo pääelementti tuotantotilauksen ja sen perustana olevien tuotantotilausten välille varauksia, joilla varmistetaan, että ne käsitellään yhdessä. Tällainen varausside kumoaa nimikkeen oletuskustannukset ja sovellusmenetelmät.  
 
 - Tuotanto-, kokoonpano- tai ostotilaus, jossa liittyvän nimikkeen **Uusintatilaustapa**-kentän arvoksi on asetettu **Tilaus**. Suunnittelujärjestelmä luo varaukset kysynnän ja suunnitellun tarjonnan välillä, jolloin varmistetaan, että erityinen tarjonta on luotu. Lisätietoja on kohdassa [Tilaus](design-details-handling-reordering-policies.md#order).  
 
 - Myyntitilauksesta luotu tuotantotilaus, jonka **Myyntitilaussuunnittelu**-toiminto on linkitetty myyntitilaukseen automaattisella varauksella.  
 
-- Myyntitilausriville automaattisesti luotu kokoonpanotilaus täyttää **($ T_37_900 Qty. to Assemble to Order $)** -kentän määrän. Tämä automaattinen varaus linkittää myynnin kysynnän ja kokoonpanon tarjonnan niin, että myyntitilauksen käsittelijät voivat mukauttaa sitä ja luvata kokoonpanonimikkeen asiakkaalle heti. Lisäksi varaus linkittää kokoonpanon tuotoksen myyntitilausriviin toimitustoiminnon kautta, joka täyttää asiakkaan tilauksen.  
+- Myyntitilausriville automaattisesti luotu kokoonpanotilaus, joka täyttää Tilaukseen koottava määrä **-** kentän määrän. Tämä automaattinen varaus linkittää myynnin kysynnän ja kokoonpanon tarjonnan niin, että myyntitilauksen käsittelijät voivat mukauttaa sitä ja luvata kokoonpanonimikkeen asiakkaalle heti. Lisäksi varaus linkittää kokoonpanon tuotoksen myyntitilausriviin toimitustoiminnon kautta, joka täyttää asiakkaan tilauksen.  
 
-Määrittelemättömän tarjonnan tai kysynnän osalta suunnittelujärjestelmä määrittelee automaattisesti varauksen tilan tyypiksi **Ylijäämä**. Syy voi olla kysyntä, joka aiheutuu ennustemääristä tai käyttäjän syöttämistä suunnitteluparametreista. Tämä on järjestelmän tunnistama sallittu ylijäämä, eikä järjestelmä lähetä toimenpideviestejä. Ylijäämä voi olla myös aito, ylittää tarjonnan tai kysynnän, joka jää seuraamatta. Tämä kertoo tilausverkon epätasapainosta. Epätasapainon vuoksi järjestelmä antaa toimenpideviestejä. Huomaa, että toimenpideviesti, joka ehdottaa määrän muutosta viittaa aina tyyppiin **Ylijäämä**. Katso lisätietoja tämän ohjeaiheen "Esimerkki: tilauksen seuranta myynnissä, tuotannossa ja siirroissa" -osiosta.  
+Jos tarjontaa tai kysyntää ei ole kohdistettu, suunnittelujärjestelmä määrittää automaattisesti varaustilan, jonka tyyppi **on Ylijäämä**. Syy voi olla kysyntä, joka aiheutuu ennustemääristä tai käyttäjän syöttämistä suunnitteluparametreista. Tämä on oikeutettua ylijäämää, jonka järjestelmä tunnistaa, eikä se aiheuta toimenpideviestejä. Ylijäämä voi olla myös aito, ylittää tarjonnan tai kysynnän, joka jää seuraamatta. Tämä kertoo tilausverkon epätasapainosta. Epätasapainon vuoksi järjestelmä antaa toimenpideviestejä. Huomaa, että toimenpideviesti, joka ehdottaa määrän muutosta viittaa aina tyyppiin **Ylijäämä**. Lisätietoja [on tämän artikkelin Kohdassa Esimerkki: Tilauksen seuranta myynneissä, tuotannossa ja siirroissa](#example-order-tracking-in-sales-production-and-transfers) .  
 
 Automaattiset varaukset, jotka luodaan suunnitteluajon aikana käsitellään seuraavilla tavoilla:  
 
-- Ne kohdistetaan saatavuuden laskennan osana oleviin nimikemääriin, kuten manuaalisiin varauksiin. Lisätietoja on tämän aiheen "Kompensoiminen varauksissa" -osassa.  
+- Niitä käytetään vastaan nimikemääriä, jotka ovat osa saatavuuslaskentaa, kuten myös manuaalisia varauksia. Lisätietoja on tämän artikkelin "Varausten kompensointi" -osassa.  
 
-- Nämä sisältyvät peräkkäisiin suunnitteluajoihin ja niitä voidaan muuttaa toisin kuin manuaalisesti varattuja nimikkeitä.  
+- Ne sisällytetään seuraaviin suunnitteluajoihin ja niitä voidaan mahdollisesti muuttaa sen sijaan, että ne varatut nimikkeet olisi varattu manuaalisesti.  
 
-## <a name="order-tracking"></a>Tilauksen seuranta
+## Tilauksen seuranta  
 
 Tilauksen seuranta auttaa suunnittelijaa säilyttämään kelvollisen toimitussuunnitelman esittämällä yleiskuvan kysynnän ja tarjonnan siirtymästä tilausverkossa. Tilauksenseurantatietueet palvelevat pohjana, jolle luodaan dynaamiset toimintaviestit ja suunnitteluriviehdotukset suunnitteluajojen aikana.  
 
@@ -103,9 +104,9 @@ Tilauksen seuranta auttaa suunnittelijaa säilyttämään kelvollisen toimitussu
 > Tilauksenseurantajärjestelmä hyvittää käytettävissä olevan varaston, kun tilaukset on kirjattu tilausverkostoon. Tämä tarkoittaa sitä, että järjestelmä ei priorisoi mahdollisesti kiireellisempiä tilauksia niiden eräpäivän perusteella. Näin ollen näiden prioriteettien uudelleen järjestäminen on suunnittelujärjestelmän logiikan tai suunnittelijan vastuulla.  
 
 > [!NOTE]  
-> Tilauksen seuraamisen tapaa ja Hae toimenpideviestit -funktiota ei ole integroitu töiden kanssa. Tämä tarkoittaa sitä, että projektiin liittyvää kysyntää ei seurata automaattisesti. Koska sitä ei seurata, se voi aiheuttaa olemassa olevan täydennystilauksen ja projektitietojen seurannan käytön toiseen kysyntään, esimerkiksi myyntitilaukseen. Saatat kohdata tilanteen, jossa käytettävissä olevia varastotietoja ei ole synkronoitu.  
+> Tilauksen seurantatapaa ja Hae toimenpideviestit -toimintoa ei ole integroitu projektien kanssa. Tämä tarkoittaa sitä, että projektiin liittyvää kysyntää ei seurata automaattisesti. Koska sitä ei seurata, se voi aiheuttaa olemassa olevan täydennystilauksen ja projektitietojen seurannan käytön toiseen kysyntään, esimerkiksi myyntitilaukseen. Saatat kohdata tilanteen, jossa käytettävissä olevia varastotietoja ei ole synkronoitu.  
 
-### <a name="the-order-network"></a>Tilausverkosto
+### Tilausverkosto  
 
 Tilauksenseurantajärjestelmä perustuu periaatteeseen, jossa tilausverkoston tulee aina olla balanssissa, ja jossa jokainen kysyntä, joka kirjataan järjestelmään, kompensoidaan vastaavalla tarjonnalla ja päinvastoin. Järjestelmä tekee tämän tunnistamalla tilausverkon kysyntä- ja tarjontatapahtumien väliset loogiset linkit.  
 
@@ -113,88 +114,131 @@ Tämä periaate osoittaa, että kysynnän muutos johtaa vastaavan epätasapainon
 
 Suunnittelujärjestelmän laskentojen läpinäkyvyyttä nostaa ei-seurattujen määrien näkyminen **Ei-seuratut suunnitteluelementit** -sivulla. Arvo osoittaa tunnetun kysynnän ja ehdotetun tarjonnan välisen määrän eron. Jokainen sivun rivi viittaa ylittävän määrän syyhyn, kuten **Puitetilaus**, **Varaston turvataso**, **Kiinteä uusintatilausmäärä**, **Vähimmäistilausmäärä**, **Pyöristys** tai **Puskuriaika**.  
 
-### <a name="offsetting-in-order-tracking"></a>Kompensoiminen tilausten seurannassa
+### Kompensoiminen tilausten seurannassa  
 
 Toisin kuin varaukset, jotka voidaan tehdä vain käytettävissä olevien nimikkeiden määrän kohdalla, nimikkeen seuranta on mahdollista kaikkien tilausverkon yksiköiden kohdalla, jotka ovat osa suunnittelujärjestelmän nettotarpeiden laskentaa. Verkkovaatimukset lasketaan seuraavasti:  
 
-*nettotarpeet = bruttotarpeet + uusintatilauspiste - aikataulutetut vastaanotot - suunnitellut vastaanotot - oletettu saatavilla oleva saldo  
+`net requirements = gross requirements + reorder point - scheduled receipts - planned receipts - projected available balance`  
 
 > [!NOTE]  
 > Kysyntää, joka liittyy ennusteisiin tai suunnitteluparametreihin, ei seurata.  
 
-### <a name="example-order-tracking-in-sales-production-and-transfers"></a>Esimerkki: tilauksen seuranta myynnissä, tuotannossa ja siirroissa
+### Esimerkki: tilauksen seuranta myynnissä, tuotannossa ja siirroissa  
 
-Seuraavassa skenaariossa esitetään mitkä tilauksenseurantakirjaukset luodaan **Varauskirjaus**-taulukossa tuloksena useista tilausverkoston muutoksista.  
+Seuraavassa esimerkkitilanteessa varaustapahtuma-taulukkoon *luodaan* tilauksen seurantatapahtumat eri tilausverkkomuutosten seurauksena.  
 
 Oletetaan, että seuraavat tiedot koskevat kahta nimikettä, joille asetetaan tilauksen seuranta.  
 
-|Nimike 1|Name|"Komponentti"|
+|Vaihtoehto|Parametri|Erittely|
 |-|-|-|
-||Saatavuus|100 yksikköä, LÄNSI sijainti<br /><br />- 30 yksikköä LOTA-erää<br />- 70 yksikköä LOTB-erää|  
-|Nimike 2|Name|"Tuotettu nimike"|
+|Nimike 1|Nimi|Komponentti|
+||Saatavuus|100 yksikköä ITÄ-sijainnissa<br /><br />- 30 yksikköä LOTA-erää<br />- 70 yksikköä LOTB-erää|  
+|Nimike 2|Nimi|Tuotettu nimike|
 ||Tuotannon tuoterakenne|1 määrä komponenttia kohti|  
-||Kysyntä|100 yksikön myynti sijainnissa EAST|  
-||Tarjonta|Julkaistu tuotantotilaus (luotu **Myyntitilauksen suunnittelu** -toiminnon avulla 100 yksikön myyntiä varten)|  
+||Kysyntä|100 yksikön myynti sijainnissa WEST|  
+||Tarjonta|Vapautettu tuotantotilaus (joka on luotu 100 yksikön myynnin Myyntitilauksen suunnittelu *-toiminnolla*)|  
 
-**Tuotannon asetukset** -sivun **Komponentit sijainnissa** -kentän arvoksi on määritetty **PUNAINEN**.
+ **Tuotannon asetukset -** sivulla Komponentit **sijainnissa** -kentän arvoksi *määritetään ITÄ*.
 
-Seuraavat tilauksenseurantakirjaukset ovat olemassa **Varauskirjaus** -taulukossa, joka perustuu taulukon tietoihin.  
+Varaustapahtuma-taulukossa *on* seuraavat tilauksen seurantatapahtumat taulukon tietojen perusteella.  
 
- ![Ensimmäinen esimerkki: Varaustapahtumataulukon tilausten seurantatapahtumat.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
+<!--![First example of order tracking entries in Reservation Entry table.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  -->
+**Varaustapahtumat**
 
-### <a name="entry-numbers-8-and-9"></a>Tapahtumanumerot 8 ja 9
+|Tapahtumanro|Positiivinen|Nimikenro|Sijaintikoodi|Määrä|Varauksen tila|Kuvaus|Eränro|Alkuperäinen tyyppi|Lähdetunnus|Sitovuus|  
+|--------|--------|--------|-------------|--------|------------------|-----------|-------|-----------|---------|-------| 
+|8|-|KOMPONENTTI|ITÄ|-70|Seuranta|Komponentti|-|5407|101004|-|
+|8|Kyllä|KOMPONENTTI|ITÄ|70|Seuranta|Komponentti|ERÄB|32|-|-| 
+|9|-|KOMPONENTTI|ITÄ|-30|Seuranta|Komponentti|-|5407|1001004|-| 
+|9|Kyllä|KOMPONENTTI|ITÄ|30|Seuranta|Komponentti|LOTA|32|-|-| 
+|10|-|TUOTETTU NIMIKE|LÄNSI|-100|Varaus|Tuotettu nimike|-|37|1001|Tilaus Tilauksesta|
+|10|Kyllä|TUOTETTU NIMIKE|LÄNSI|100|Varaus|Tuotettu nimike|-|5406|101004|Tilaus Tilauksesta|
 
-Vastaavasti LOTA:n ja LOTB:n komponenttitarpeen osalta seurantalinkit luodaan taulukon 5407, **Tuotantotilauksen komponentti** kysynnästä tarjontaan taulukossa 32, **Nimiketapahtuma**. **Varauksen tila** -kenttä sisältää **Seurannan**, joka ilmaisee, että nämä kirjaukset ovat dynaamisen tilaustenseurannan linkkejä kysynnän ja tarjonnan välillä.  
+
+#### Tapahtumanumerot 8 ja 9  
+
+ERÄA- ja ERÄB-komponenttitarvetta varten luodaan tilauksen seurantalinkkejä taulukon 5407 Tuotantotilauksen *komponentti* kysynnästä taulukon 32 Nimiketapahtuma *tarjontaan*. Varauksen **tila -** kentässä *on Seuranta* osoittamaan, että nämä tapahtumat ovat tarjonta ja kysyntä välisiä dynaamisia tilauksen seurantalinkkejä.  
 
 > [!NOTE]  
 > **Eränro**-kenttä on tyhjä kysyntäriveillä, koska eränumeroita ei ole määritetty julkaistun tuotantotilauksen osariveillä.  
 
-### <a name="entry-number-10"></a>Tapahtumanumero 10
+#### Tapahtumanumero 10  
 
-Myynnin kysynnästä taulukossa 37, **Myyntirivi** luodaan tilausseurantalinkki tarjontaan taulukossa 5406, **Tuot. til. rivi**. **Varauksen tila** -kenttä sisältää **Varauksen** ja **Sitova**-kenttä sisältää **Tilauksesta tilaukseen**. Tämä johtuu siitä, että vapautettu tuotantotilaus luotiin erityisesti myyntitilausta varten. Sen linkitys on säilytettävä, toisin kuin tilauksen seurantalinkit, joiden varauksen tila on **Seuranta**. Nämä linkit luodaan dynaamisesti ja niitä myös muokataan dynaamisesti. Lisätietoja on tämän aiheen "Automaattiset varaukset" -osassa.  
+Taulukon 37 Myyntirivit *myyntikysynnästä* luodaan tilauksen seurantalinkki tarjontaan taulukossa 5406, *Tuotantotilausrivi*. Varauksen **tila -** kentässä on *Varaus*, ja **Sitova-kentässä** on *Tilauskohtainen*. Tämä johtuu siitä, että vapautettu tuotantotilaus luotiin erityisesti myyntitilausta varten, ja se tulee säilyttää linkitettynä toisin kuin tilauksen seurantalinkit, joiden varaustila on Seuranta, joka luodaan ja muutetaan dynaamisesti. Lisätietoja [on tämän artikkelin Automaattiset](#automatic-reservations) varaukset -osassa.  
 
- Tässä skenaarion vaiheessa 100 yksikköä LOTA- ja LOTB-kohteita siirretään ITÄ-sijaintiin siirtotilauksella.  
+ Tässä skenaarion vaiheessa 100 YKSIKKÖÄ ERÄA ja ERÄB siirretään WEST-sijaintiin siirtotilauksella.  
 
 > [!NOTE]  
 > Vain siirtotilauksen toimitus kirjataan tässä vaiheessa, ei vastaanottoa.  
 
- Nyt **Varaustapahtuma**-taulukossa on seuraavat tilauksen seurantatapahtumat.  
+ Varaustapahtuma-taulukossa on *nyt seuraavat tilauksen seurantatapahtumat* .  
 
- ![Toinen esimerkki: Varaustapahtumataulukon tilausten seurantatapahtumat.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
+<!-- ![Second example of order tracking entries in Reservation Entry table.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  -->
+**Varaustapahtumat**
 
-### <a name="entry-numbers-8-and-9-1"></a>Tapahtumanumerot 8 ja 9
+|Tapahtumanro|Positiivinen|Nimikenro|Sijaintikoodi|Määrä|Varauksen tila|Kuvaus|Eränro|Alkuperäinen tyyppi|Lähdetunnus|Sitovuus|  
+|---------|--------|--------|-------------|--------|------------------|-----------|-------|-----------|---------|-------| 
+|9|-|KOMPONENTTI|ITÄ|-30|Ylijäämä|Komponentti|-|5407|1001004|-| 
+|10|-|TUOTETTU NIMIKE|LÄNSI|-100|Varaus|Tuotettu nimike|-|37|1001|Tilaus Tilauksesta|
+|10|Kyllä|TUOTETTU NIMIKE|LÄNSI|100|Varaus|Tuotettu nimike|-|5406|101004|Tilaus Tilauksesta|
+|12|Kyllä|KOMPONENTTI|LÄNSI|70|Ylijäämä|Komponentti|ERÄB|5741|1011|-| 
+|14|Kyllä|KOMPONENTTI|LÄNSI|30|Ylijäämä|Komponentti|LOTA|5741|1011|-| 
+|15|Kyllä|KOMPONENTTI|ULOS. LOKI.|70|Ylijäämä|Komponentti|ERÄB|32|-|-| 
+|16|Kyllä|KOMPONENTTI|ULOS. LOKI.|30|Ylijäämä|Komponentti|LOTA|32|-|-| 
 
-Komponentin kahden erän tilauksen seurantatapahtumia, jotka kuvaavat kysyntää taulukossa 5407, muutetaan **Seuranta**-varaustilasta arvoon **Ylijäämää**. Syy on se, että siirtotilauksen lähetykseen on käytetty tarjontoja, joihin ne oli linkitetty ennen, taulukossa 32.  
+#### Tapahtumanumerot 8 ja 9  
 
-Aito ylijäämä, kuten tässä tapauksessa, kuvastaa ylimääräistä tarjontaa tai kysyntää, jota ei seurata. Se on osoitus epätasapainosta tilausverkossa, ja suunnittelujärjestelmä luo toimenpideviestin ellei sitä ratkaista dynaamisesti.  
+Taulukon 5407 kysyntää kuvaavan komponentin kahden erän tilauksen seurantatapahtumat muutetaan seurannan varaustilasta *Ylijäämäksi*  *.* Syy on se, että siirtotilauksen lähetykseen on käytetty tarjontoja, joihin ne oli linkitetty ennen, taulukossa 32.  
 
-### <a name="entry-numbers-12-to-16"></a>Tapahtumanumerot 12–16
+Aito ylijäämä, kuten tässä tapauksessa, kuvastaa ylimääräistä tarjontaa tai kysyntää, jota ei seurata. Se on osoitus epätasapainosta tilausverkossa, joka luo suunnittelujärjestelmän toimenpideviestin, ellei sitä ratkaista dynaamisesti.  
 
-Koska komponentin kaksi lokeroa kirjataan siirtotilaukseen toimitetuiksi mutta ei vastaanotetuiksi, kaikki liittyvät positiiviset seurantatapahtumat ovat varaustyyppiä **Ylijäämä**, joka tarkoittaa, että niitä ei kohdisteta mihinkään pyyntöihin. Jokaisen eränumeron osalta yksi merkintä liittyy taulukkoon 5741, **Siirtorivi** ja yksi merkintä liittyy nimiketapahtumaan kuljetuksessa-sijainnissa, jossa nimikkeet ovat tällä hetkellä.  
+#### Tapahtumanumerot 12–16  
 
-Tässä skenaarion vaiheessa LÄNSI- ja ITÄ-sijainnin komponenttien siirtotilaus kirjataan vastaanotetuksi.  
+Koska komponentin kaksi erää on kirjattu siirtotilaukseen toimitetuiksi, mutta ei vastaanotetuiksi, kaikki asiaan liittyvät positiivisen tilauksen seurantatapahtumat ovat varaustyyppiä *Ylijäämä*, mikä osoittaa, että niitä ei ole kohdistettu mihinkään kysyntään. Jokaisen eränumeron osalta yksi tapahtuma liittyy taulukkoon 5741, *Siirtorivi*, ja yksi tapahtuma liittyy nimiketapahtumaan kuljetuksessa-sijainnissa, jossa nimikkeet ovat nyt olemassa.  
 
-Nyt **Varaustapahtuma**-taulukossa on seuraavat tilauksen seurantatapahtumat.  
+Tässä esimerkkitilanteessa komponenttien *siirtotilaus ITÄ-Sijainnista*  *LÄNTEEN* kirjataan vastaanotetuksi.  
 
- ![Kolmas esimerkki: Varaustapahtumataulukon tilausten seurantatapahtumat.](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3")  
+Varaustapahtuma-taulukossa on *nyt seuraavat tilauksen seurantatapahtumat* .  
 
-Tilauksenseurantakirjaukset ovat nyt yhteneväisiä skenaarion ensimmäisen kohdan kanssa, ennen kuin siirtotilaus tiliöitiin ja lähetettiin, lukuun ottamatta sitä, että osakirjaukset ovat nyt varaustilaltaan **Surplus**. Tämä johtuu siitä, että komponentti on yhä LÄNSI-sijainnissa. Se tarkoittaa sitä, että tuotantotilauksen komponenttirivin **Sijaintikoodi**-kenttä sisältää **LÄNSI**-merkinnän **Komponentit sijainnissa** -asetuskentän asetuksissa. Tarjonta kohdistettiin tälle kysynnälle ennen ITÄ-sijaintiin siirtoa, joten sen täysi seuranta on mahdollista, ellei tuotantotilausrivin komponenttitarvetta muuteta ITÄ-sijainnissa.  
+<!-- ![Third example of order tracking entries in Reservation Entry table.](media/supply_planning_RTAM_3.png "supply_planning_RTAM_3") -->
+ **Varaustapahtumat**
 
-Tässä skenaarion vaiheessa tuotantotilausrivin **Sijaintikoodi** asetetaan arvoon **ITÄ**. Lisäksi **Nimikkeen seurantarivit**-sivulla 30 yksikköä LOTA-erästä ja 70 yksikköä LOTB-erästä kohdistetaan tuotantotilausriville.  
+|Tapahtumanro|Positiivinen|Nimikenro|Sijaintikoodi|Määrä|Varauksen tila|Kuvaus|Eränro|Alkuperäinen tyyppi|Lähdetunnus|Sitovuus|  
+|---------|--------|--------|-------------|--------|------------------|-----------|-------|-----------|---------|-------| 
+|8|-|KOMPONENTTI|ITÄ|-70|Ylijäämä|Komponentti|-|5407|101004|-| 
+|9|-|KOMPONENTTI|ITÄ|-30|Ylijäämä|Komponentti|-|5407|1001004|-|
+|10|-|TUOTETTU NIMIKE|LÄNSI|-100|Varaus|Tuotettu nimike|-|37|1001|Tilaus Tilauksesta|
+|10|Kyllä|TUOTETTU NIMIKE|LÄNSI|100|Varaus|Tuotettu nimike|-|5406|101004|Tilaus Tilauksesta|
+|17|Kyllä|KOMPONENTTI|LÄNSI|70|Ylijäämä|Komponentti|ERÄB|32|-|-| 
+|18|Kyllä|KOMPONENTTI|LÄNSI|30|Ylijäämä|Komponentti|LOTA|32|-|-| 
 
-Nyt **Varaustapahtuma**-taulukossa on seuraavat tilauksen seurantatapahtumat.  
+Tilauksen seurantatapahtumat muistuttavat nyt skenaarion ensimmäistä pistettä, ennen kuin siirtotilaus kirjattiin vain toimitetuksi, paitsi että komponentin tapahtumilla on nyt varaustila *Ylijäämä*. Tämä johtuu siitä, että komponenttitarve on yhä ITÄ-sijainnissa *·*, mikä kuvastaa sitä, että **tuotantotilauksen komponenttirivin Sijaintikoodi-kentässä** on *ITÄ* Komponentit **sijainnissa** -kentän määritysten mukaisesti. Kyseiselle kysynnälle aiemmin kohdistettu tarjonta on siirretty *LÄNSI-sijaintiin*, eikä sitä voi nyt seurata täysin, ellei tuotantotilausrivin komponenttitarvetta muuteta WEST-sijainniksi *·* .  
 
- ![Neljäs esimerkki: Varaustapahtumataulukon tilausten seurantatapahtumat.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
+Tässä skenaarion vaiheessa tuotantotilauksen **komponenttirivin Sijaintikoodi-kentän** arvoksi *määritetään LÄNSI*.  **Lisäksi Nimikkeen seurantarivit** -sivulla tuotantotilauksen komponenttiriville on määritelty 30 ERÄA-yksikköä ja 70 ERÄB-yksikköä.  
 
-### <a name="entry-numbers-21-and-22"></a>Tapahtumanumerot 21 ja 22
+Varaustapahtuma-taulukossa on *nyt seuraavat tilauksen seurantatapahtumat* .  
 
-Koska osa pitää vaihtaa sijaintiin EAST ja tarjonta on käytettävissä nimikkeen pääkirjan kirjauksina sijainnissa EAST, kaikkia tilausseurantakirjauksia, jotka kohdistuvat kahteen eränumeroon, seurataan koko ajan ja ne ilmaistaan varaustilassa **Seuranta**.  
+<!-- ![Fourth example of order tracking entries in Reservation Entry table.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")   -->
+ **Varaustapahtumat**
+
+|Tapahtumanro|Positiivinen|Nimikenro|Sijaintikoodi|Määrä|Varauksen tila|Kuvaus|Eränro|Alkuperäinen tyyppi|Lähdetunnus|Sitovuus|  
+|---------|--------|--------|-------------|--------|------------------|-----------|-------|-----------|---------|-------| 
+|10|-|TUOTETTU NIMIKE|LÄNSI|-100|Varaus|Tuotettu nimike|-|37|1001|Tilaus Tilauksesta|
+|10|Kyllä|TUOTETTU NIMIKE|LÄNSI|100|Varaus|Tuotettu nimike|-|5406|101004|Tilaus Tilauksesta|
+|21|-|KOMPONENTTI|LÄNSI|-70|Seuranta|Komponentti|ERÄB|5407|101004|-| 
+|21|Kyllä|KOMPONENTTI|LÄNSI|70|Seuranta|Komponentti|ERÄB|32|-|-| 
+|22|-|KOMPONENTTI|LÄNSI|-30|Seuranta|Komponentti|LOTA|5407|1001004|-| 
+|22|Kyllä|KOMPONENTTI|LÄNSI|30|Seuranta|Komponentti|LOTA|32|-|-| 
+
+#### Tapahtumanumerot 21 ja 22  
+
+Koska komponenttitarve on muutettu LÄNSI-sijainniksi *ja* tarjonta on saatavilla nimiketapahtumina LÄNSI-sijainnissa *·*, kaikkia näiden kahden eränumeron tilauksen seurantatapahtumia seurataan nyt täysin, mikä näkyy Seurannan *varaustilana*.  
 
 **Eränro**-kenttä on nyt täytetty tilauksen seurantakirjauksessa taulukossa 5407, koska eränumerot on määritetty tuotantotilauksen osariveillä.  
 
-## <a name="action-messaging"></a>Toimenpiteiden viestitys
+## Toimenpiteiden viestitys  
 
-Kun tilausten seurantajärjestelmä havaitsee epätasapainotilan tilausverkossa, se luo automaattisesti toimenpideviestin käyttäjälle. Toimenpideviestit ovat järjestelmän luomia kutsuja käyttäjälle, jotka määrittävät epätasapainon tiedot ja ehdotukset tasapainon palauttamisesta tilausverkkoon. Ne näkyvät suunnitteluriveinä **Suunnittelutyökirja**-sivulla, kun valitset **Hae toimenpideviestit**. Lisäksi toimenpideviestit näytetään niillä suunnitteluriveillä, jotka on luotu suunnitteluajon aikana vastaamaan suunnittelujärjestelmän ehdotuksia tasapainon palauttamiseksi tilausverkkoon. Molemmissa tapauksissa ehdotukset suoritetaan tilausverkossa, kun valitset **Toteuta toimenpideviesti**.  
+Kun tilausten seurantajärjestelmä havaitsee epätasapainotilan tilausverkossa, se luo automaattisesti toimenpideviestin käyttäjälle. Toimenpideviestit ovat järjestelmän luomia kutsuja käyttäjälle, jotka määrittävät epätasapainon tiedot ja ehdotukset tasapainon palauttamisesta tilausverkkoon. Ne näkyvät suunnitteluriveinä Suunnittelutyökirjat-sivulla, **kun valitset** Hae toimenpideviestit **-** toiminnon. Lisäksi toimenpideviestit näytetään niillä suunnitteluriveillä, jotka on luotu suunnitteluajon aikana vastaamaan suunnittelujärjestelmän ehdotuksia tasapainon palauttamiseksi tilausverkkoon. Molemmissa tapauksissa ehdotukset suoritetaan tilausverkossa, kun valitset **Toteuta toimenpideviesti -** toiminnon.  
 
 Toimenpideviesti käsittelee yhden tuoterakenteen tason kerralla. Jos käyttäjä hyväksyy toimenpideviestin, tämä voi synnyttää lisätoimenpideviestejä seuraavalla tuoterakennetasolla.  
 
@@ -205,26 +249,26 @@ Seuraavassa taulukossa esitellään olemassa olevat toimintaviestit.
 |**Muuta määrä**|Muuttaa olemassa olevan toimitustilauksen määrän kattamaan muuttunutta tai uutta kysyntää.|  
 |**Aikataul. uud.**|Aikatauluttaa olemassa olevan tilauksen eräpäivän.|  
 |**Aikataul. uud. & Muuta määrä**|Aikatauluttaa määräpäivän uudelleen ja muuttaa olemassa olevan tilauksen määrää.|  
-|**Uusi**|Luo uuden tilauksen, jos kysyntä ei ole täytettävissä kummallakaan aiemmalla toimenpideviestillä.|  
+|**Uusi**|Luo uuden tilauksen, jos kumpikaan aiemmista toimenpideviesteistä ei pysty täyttämään kysyntää.|  
 |**Peruuta**|Peruuttaa olemassa olevan tilauksen.|  
 
-Tilauksenseurantajärjestelmä yrittää aina ratkaista epätasapainon olemassa olevassa tilausverkostossa. Jos tämä ei ole mahdollista, järjestelmä antaa toimenpideviestin uuden tilauksen luomisesta. Seuraava on tilausten seurantajärjestelmän käyttämä prioriteetin mukaan järjestetty luettelo, jota käytetään täsmäytyksen palauttamiseen. Jos tilausverkkoon on siirtynyt lisäkysyntää, järjestelmä pyrkii tilaamaan seuraavien tarkistusten kautta:  
+Tilauksenseurantajärjestelmä yrittää aina ratkaista epätasapainon olemassa olevassa tilausverkostossa. Jos tämä ei ole mahdollista, se antaa toimenpideviestin uuden tilauksen luomiseksi. Seuraava on tilausten seurantajärjestelmän käyttämä prioriteetin mukaan järjestetty luettelo, jota käytetään täsmäytyksen palauttamiseen. Jos tilausverkkoon on siirtynyt lisäkysyntää, järjestelmä pyrkii tilaamaan seuraavien tarkistusten kautta:  
 
 1. Tarkista tämän kysynnän ylimääräinen tarjonta olemassa olevassa seurantatietueessa.  
 2. Tarkista suunnitellut ja aikataulutetut vastaanotot vastaanottopäivämääräjärjestyksessä. Viimeisin mahdollinen päivämäärä on valittu.  
 3. Tarkista käytettävissä oleva varasto.  
-4. Tarkista, onko toimitustilausta olemassa nykyisen tilauksen seurantatietueessa. Jos näin on, järjestelmä antaa **Muuta**-toimenpideviestintilauksen kasvattamiseksi.  
-5. Tarkista, että nykyisen tilauksen seurantatietueessa ei ole toimitustilausta. Jos näin on, järjestelmä antaa **Uusi**-toimenpideviestin uuden tilauksen luomiseksi.  
+4. Tarkista, onko toimitustilausta olemassa nykyisen tilauksen seurantatietueessa. Jos on, järjestelmä antaa muuta-tyyppisen *toimenpideviestin* tilauksen lisäämiseksi.  
+5. Tarkista, että nykyisen tilauksen seurantatietueessa ei ole toimitustilausta. Jos on, järjestelmä luo uuden tilauksen luoden toimenpideviestin, jonka tyyppi *on Uusi* .  
 
 Avaa kysyntä kulkee luettelon läpi ja siirtää käytettävissä olevaa tarjontaa jokaisessa kohdassa. Kaikki jäljellä oleva kysyntä täytetään aina tarkastuksessa 4 tai tarkastuksessa 5.  
 
 Jos kysynnän määrä vähenee, tilausten seurantajärjestelmä yrittää ratkaista epätasapainon suorittamalla aiemmat tarkastukset käänteisessä järjestyksessä. Tämä tarkoittaa sitä, että olemassa olevia toimenpideviestejä voi muokata ja tarvittaessa ne voi poistaa. Tilauksenseurantajärjestelmä esittää aina nettotuloksen laskelmista käyttäjälle.  
 
-## <a name="order-tracking-and-planning"></a>Tilauksen seuranta ja suunnittelu
+## Tilauksen seuranta ja suunnittelu  
 
 Kun suunnittelujärjestelmä toimii, se poistaa kaikki olemassa olevat tilauksen seurantatietueet ja toimenpideviestitapahtumat ja luo ne uudelleen suunnittelurivin ehdotuksina tarjonta/kysyntä-parien ja prioriteettien mukaan. Kun suunnittelu on valmis, tilausverkko on tasapainossa.  
 
-### <a name="planning-system-versus-order-tracking-and-action-messaging"></a>Suunnittelujärjestelmän vertailu tilauksen seurantaan ja toimenpideviesteihin
+### Suunnittelujärjestelmän vertailu tilauksen seurantaan ja toimenpideviesteihin  
 
  Seuraava vertailu osoittaa erot menetelmien välillä, joita suunnittelujärjestelmä käyttää luodessaan suunnittelurivin ehdotuksia ja menetelmiä, joita tilauksenseurantajärjestelmä käyttää luodakseen tilauksenseurantatietueet ja toimintaviestit.  
 
@@ -234,11 +278,11 @@ Kun suunnittelujärjestelmä toimii, se poistaa kaikki olemassa olevat tilauksen
 
 - Suunnittelujärjestelmä muodostaa linkkejä kysynnän ja tarjonnan välille etusijalle asetetun eräpäivän mukaisesti. Tilauksen seuranta muodostaa linkit kysynnän ja tarjonnan välille tilaustapahtumien järjestyksen perusteella.  
 
-- Suunnittelujärjestelmä ottaa suunnitteluparametrit huomioon, kun taas tilauksenseuranta ei ota.  
+- Suunnittelujärjestelmässä otetaan huomioon suunnitteluparametrit, kun taas tilauksen seurannassa ei oteta huomioon.  
 
 - Suunnittelujärjestelmä luo linkit käyttäjän aktivoimassa erätilassa, kun se tasapainottaa kysyntää ja tarjontaa, kun taas tilaustenseuranta luo linkit automaattisesti ja dynaamisesti, kun käyttäjä syöttää tilaukset.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 
 [Rakennetiedot: Suunnittelujärjestelmän keskeiset käsitteet](design-details-central-concepts-of-the-planning-system.md)  
 [Rakennetiedot: Tarjonnan suunnittelu](design-details-supply-planning.md)

@@ -1,36 +1,36 @@
 ---
-title: Maksujen täsmäyttäminen eron tilille siirron toiminnolla
-description: 'Tässä ohjeaiheessa kerrotaan, miten käsitellään maksut, joita ei voi kohdistaa asiakirjaan esimerkiksi silloin, kun summat eivät ole samat vaihtokurssin vuoksi.'
+title: Siirtoero tiliin -ominaisuuden käyttäminen maksujen täsmäytykseen
+description: 'Tässä kuvataan, miten käsitellään maksuja, joita ei voi kohdistaa asiakirjaan, esimerkiksi silloin, kun vaihtokurssi aiheuttaa erilaisia summia.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'payment process, cash receipts'
 ms.search.form: '1290, 1294, 1287'
-ms.date: 04/01/2021
+ms.date: 07/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="reconcile-payments-that-cant-be-applied-automatically"></a>Niiden maksujen täsmäyttäminen, joita ei voi kohdistaa automaattisesti
-Joskus pankkitilillä käsitellään maksuja, joita ei voi kohdistaa liittyvään avoimeen asiakas-, toimittaja- tai pankkitapahtumaan. Syy voi olla se, että [!INCLUDE[prod_short](includes/prod_short.md)]issa ei ole asiakirjaa, johon maksu voitaisiin kohdistaa, tai [!INCLUDE[prod_short](includes/prod_short.md)]in liittyvä asiakirja sisältää eri summan kuin tapahtuman summa esimerkiksi valuuttamuutoksen vuoksi. Kaikki niiden maksujen tapahtumien summat, joita ei ole vielä kohdistettu, näkyvät **Maksujen täsmäytyskirjauskansio** -sivun **Ero**-kentässä. Siellä näkyvät esimerkiksi summat, joita ei voi kohdistaa edellä mainittujen syiden vuoksi.
+# Täsmäytä maksut, joita ei voi kohdistaa automaattisesti
+Saatat joutua joskus käsittelemään pankkitilillesi maksuja, joita ei voi kohdistaa liittyvään avoimeen asiakas-, toimittaja- tai pankkitilitapahtumaan. Syynä voi olla se, että mitään asiakirjaa ei ole siinä [!INCLUDE[prod_short](includes/prod_short.md)] , johon maksu voidaan kohdistaa, tai että asiakirjan [!INCLUDE[prod_short](includes/prod_short.md)] summa poikkeaa transaktiosummasta esimerkiksi valuutan vaihdon vuoksi.  **Kaikki sellaisten maksujen kauppatapahtumat, joita ei ole vielä kohdistettu, näkyvät** Maksun täsmäytyspäiväkirja **-sivulla Ero-kentässä** . Summat mukaan lukien summat, joita ei voi kohdistaa edellä mainitun syyn vuoksi.
 
 Näiden kohdistamattomien maksujen ratkaisutavat:
 * Kohdista manuaalisesti
 * Käytä tekstistä tiliin yhdistämistä
 * Voit siirtää ylimääräisen summan päiväkirjan riville luodaksesi ja kirjataksesi vaaditun tapahtuman, kuten liikasuorituksen hyvityksen.
 
-Maksut, joita ei voi kohdistaa, voivat näkyä maksujen täsmäytyskirjauskansion riveillä seuraavilla tavoilla:
+Maksut, joita ei voi kohdistaa, voivat näkyä maksun täsmäytyspäiväkirjan riveillä seuraavilla tavoilla:
 
 * **Ero**-kentän arvo on sama kuin **Tapahtuman summa** -kentän arvo. Tämä tarkoittaa sitä, että mitään maksun osaa ei voi kohdistaa liittyvään avoimeen asiakas-, toimittaja- tai pankkitapahtumaan.
-* **Ero**-kentän arvo on pienempi kuin **Tapahtuman summa** -kentän arvo. Tämä tarkoittaa sitä, että osa maksusta voidaan kohdistaa liittyvään avoimeen asiakas-, toimittaja- tai pankkitapahtumaan. Maksun jäljellä olevaa osaa ei voi kohdistaa. Se on täsmäytettävä manuaalisesti tai kirjaamalla se suoraan tilille.
+* **Ero**-kentän arvo on pienempi kuin **Tapahtuman summa** -kentän arvo. Tämä tarkoittaa sitä, että osa maksusta voidaan kohdistaa liittyvään avoimeen asiakas-, toimittaja- tai pankkitapahtumaan. Maksun jäljellä olevaa osaa ei voi kohdistaa, ja se täytyy täsmäyttää manuaalisesti tai kirjaamalla se suoraan tilille.
 
 Voit täsmäyttää tällaiset maksut valitsemalla **Siirrä erotus tilille** -toiminnon ja määrittämällä, mille tilille **Ero**-kentän summa kirjataan, kun teet kirjauksen maksujen täsmäytyskirjauskansioon. Voit tehdä tämän joko **Maksujen täsmäytyskirjauskansio** -sivulta tai avaamaltasi **Maksun kohdistuksen tarkistus** -sivulta valitsemalla arvon **Vastaavuuden luotettavuus** -kentässä tai valitsemalla **Ero**-kentän.
 
 > [!TIP]  
 >   Vastaavan toiminnon avulla voit määrittää automaattisen täsmäytyksen toistuville maksuille, joita ei voi kohdistaa liittyviin avoimiin asiakas-, toimittaja- tai pankkitapahtumiin. Lisätietoja on kohdassa [Toistuvien maksujen tekstin yhdistäminen tileihin automaattisen täsmäytyksen suorittamiseksi](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md).
 
-## <a name="to-reconcile-payments-that-cant-be-applied-automatically"></a>Niiden maksujen täsmäyttäminen, joita ei voi kohdistaa automaattisesti
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksujen täsmäytyskirjauskansiot** ja valitse sitten liittyvä linkki.
+## Sellaisten maksujen täsmäyttäminen, joita ei voi kohdistaa automaattisesti
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksujen täsmäytyskirjauskansiot** ja valitse sitten liittyvä linkki.
 2. Avaa maksun täsmäytyksen päiväkirja. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
 3. Valitse **Siirrä erotus tilille**. **Siirrä erotus tilille** -sivu avautuu.
 4. Määritä **Tilityyppi**-kenttään sen tilin tyyppi, johon maksun summa kirjataan.
@@ -42,7 +42,7 @@ Jos **Ero**-kentän arvo on sama kuin **Tapahtuman summa** -kentän arvo, kun ki
 
 Jos **Ero**-kentän arvo on pienempi kuin **Tapahtuman summa** -kentän arvon, samalla tekstillä ja päivämäärällä luodaan päiväkirjan lisärivi ja ero lisätään **Tapahtuman summa** -kenttään. Alkuperäisen päiväkirjan rivin ero vähennetään **Tapahtuman summa** -kentän arvosta ja maksun kohdistus siihen liittyvään asiakas-, toimittaja- tai pankkitilitapahtumaan säilyy. Kun kirjaat maksun täsmäytyskirjauskansion, yksi maksun osa kirjataan kohdistettuna maksuna. Maksun toinen osa kirjataan suoraan määritetylle tilille.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Myynti](sales-manage-sales.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

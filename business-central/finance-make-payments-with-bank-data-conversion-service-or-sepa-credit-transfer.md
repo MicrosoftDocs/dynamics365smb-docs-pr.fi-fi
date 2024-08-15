@@ -1,101 +1,103 @@
 ---
-title: Maksujen suorittaminen AMC Banking -laajennuksen (Yhdysvallat) tai SEPA-tilisiirron (EU) avulla
+title: Maksujen suorittaminen AMC-pankkitoiminnolla (US) tai SEPA-hyvityksen siirrolla (EU)
 description: Käsittele maksut toimittajille viemällä tiedosto (EFT) yhdessä maksutietojen kanssa päiväkirjan riveiltä.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '256, 1205, 1206, 1209, 10810, 10811'
-ms.date: 07/06/2021
+ms.date: 07/17/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Maksujen suorittaminen AMC Banking 365 Fundamentals -laajennuksen tai SEPA-tilisiirron avulla
+# Maksujen suorittaminen AMC pankki 365 peruslaajennuksella tai SEPA-hyvityksen siirrolla
 
-Voit käsitellä **Maksupäiväkirja**-sivulla maksut toimittajille viemällä tiedoston yhdessä maksutietojen kanssa päiväkirjan riveiltä. Voit sitten ladata tiedoston verkkopankkiin, jossa liittyvät rahansiirrot käsitellään. [!INCLUDE[prod_short](includes/prod_short.md)] tukee SEPA-hyvitysten siirtomuotoa, mutta maa- tai aluekohtaisesti voi olla käytettävissä muita sähköisiä maksumuotoja.
+ **Maksupäiväkirjat-sivulla** voit käsitellä toimittajille suoritettavia maksuja viemällä tiedoston sekä maksutiedot päiväkirjan riveiltä. Voit sitten ladata tiedoston verkkopankkiin, jossa liittyvät rahansiirrot käsitellään. [!INCLUDE[prod_short](includes/prod_short.md)] tukee SEPA-hyvityksen siirto -muotoa, mutta omassa maassasi/alueellasi saattaa olla muita elektronisten maksujen muotoja.
 
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)]in yleisessä versiossa asetetaan ja yhdistetään yleiset palvelut pankkitietojen muuntamiseen mihin tahansa pankkisi vaatimaan muotoon. Pohjois-Amerikan versioissa samaa palvelua voi käyttää maksutiedostojen lähettämiseen sähköisenä rahansiirtona (EFT), esimerkkinä usein käytetty ACH-verkko (Automated Clearing House), joskin prosessi on hieman erilainen. Lisätietoja on kohdan [Maksujen vienti pankkitiedostoon](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file) vaiheessa 6.  
 
- Kun haluat ottaa SEPA-hyvityksen siirrot käyttöön, määritä ensin pankkitili, toimittaja ja yleinen päiväkirja, johon maksupäiväkirja perustuu. Tämän jälkeen maksut valmistellaan toimittajia varten automaattisesti täyttämällä erääntyneet maksut ja määritetyt kirjauspäivämäärät **Maksupäiväkirja**-sivulle.  
+ Kun haluat ottaa SEPA-hyvityksen siirrot käyttöön, määritä ensin pankkitili, toimittaja ja yleinen päiväkirja, johon maksupäiväkirja perustuu. Tämän jälkeen toimittajille suoritettavia maksuja valmistellaan täyttämällä **automaattisesti Maksupäiväkirjat-sivulle** erämaksut määritetyillä kirjauspäivämäärillä.  
 
 > [!NOTE]  
 > Kun olet varmistanut, että pankki on käsitellyt maksut onnistuneesti, voit jatkaa maksupäiväkirjan rivien kirjaamista.  
 
-## <a name="setting-up-the-amc-banking-365-fundamentals-extension"></a>AMC Banking 365 Fundamentals -laajennuksen määrittäminen
+## AMC Banking 365 Fundamentals -laajennuksen määrittäminen
 
 Voit aktivoida AMC Banking 365 Fundamentals -laajennuksen, jolla voi muuntaa minkä tahansa pankin tiliotteen tuotavaan muotoon, tai voit muuttaa viedyt maksutiedostot pankin edellyttämään muotoon. Lisätietoja on kohdassa [AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md).
 
-## <a name="setting-up-sepa-credit-transfer"></a>SEPA-hyvityksen siirron määrittäminen
+## SEPA-hyvityksen siirron määrittäminen
 
-Voit viedä maksuja **Maksupäiväkirja**-sivulta tiedostoon siirrettäväksi verkkopankkiisi liittyvien tilisiirtojen käsittelemiseksi. [!INCLUDE[prod_short](includes/prod_short.md)] tukee SEPA-hyvitysten siirtomuotoa, mutta maa- tai aluekohtaisesti voi olla käytettävissä muita sähköisiä maksumuotoja.  
+ **Maksupäiväkirjat-sivulta** voit viedä maksuja tiedostoon, joka on tarkoitus ladata sähköiseen pankkiin liittyvien rahansiirtojen käsittelyä varten. [!INCLUDE[prod_short](includes/prod_short.md)] tukee SEPA-hyvityksen siirto -muotoa, mutta omassa maassasi/alueellasi saattaa olla muita elektronisten maksujen muotoja.  
 
-Jos haluat ottaa käyttöön sellaisten pankkitiedostomuotojen viennin, joita [!INCLUDE[prod_short](includes/prod_short.md)] ei tue suoraan, voit määrittää tiedonsiirtomäärityksen tiedonsiirtokehyksen avulla. Lisätietoja on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).  
+Tietojen vaihdon kehystä käyttämällä voit ottaa käyttöön sellaisten pankin tiedostomuotojen viennin, joita ei tueta ruudusta [!INCLUDE[prod_short](includes/prod_short.md)]. Lisätietoja on kohdassa [Tietojenvaihtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md).  
 
 Ennen kuin voit käsitellä maksun sähköisesti viemällä maksutiedostot SEPA-hyvityksen siirto -muodossa, sinun on suoritettava seuraavat asetukset:  
 
 * Määritä kyseinen pankkitilin käsittelemään SEPA-hyvityksen siirtomuoto  
 * Määritä toimittajan kortit, jotta voit käsitellä maksut viemällä tiedostot SEPA-hyvityksen siirtomuotoon  
-* Määritä liittyvä yleisen päiväkirja erä ottamaan käyttöön maksujen vienti **Maksupäiväkirja**-sivulta  
+* Määritä liittyvä yleisen päiväkirjan erä, joka ottaa maksuviennin **käyttöön Maksupäiväkirjat-sivulta** .  
 * Yhdistä vähintään yhden maksutyypin tiedonsiirtomääritys liittyvään maksutapaan  
 
+> [!NOTE]
+> Business Central tukee sekä SEPA-muotoista CT-kipua.001.001.03 että TT-kipua.001.001.09. Voit valita minkä tahansa muodon Pankkitilin **kortti**  sivulla.  
 > [!TIP]
 > Tämä artikkeli koskee yleistä [!INCLUDE [prod_short](includes/prod_short.md)] -versiota. Omassa maassa tai omalla alueella eri sivuille on voitu lisätä muita pakollisia kenttiä. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="to-set-up-a-bank-account-for-sepa-credit-transfer"></a>Pankkitilin määrittäminen SEPA-hyvityksen siirtoa varten
+### Pankkitilin määrittäminen SEPA-hyvityksen siirtoa varten
 
-1. Syötä **Etsi**-ruudussa **Pankkitilit** ja valitse sitten vastaava linkki.  
-2. Avaa sen pankkitilin kortti, josta viet maksutiedostot SEPA-hyvitys siirtomuodossa.  
-3. Valitse **Siirto**-välilehden **Maksun vientimuoto** -kentässä **SEPACT**.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pankkitilit** ja valitse sitten vastaava linkki.  
+2. Avaa sen pankkitilin kortti, jolta viet maksutiedostot SEPA-hyvityksen siirto -muodossa.  
+3. Valitse Tilinhaltija-pikavälilehden **·**  **Maksun vientimuoto** -kentässä sePA-muoto, jota haluat käyttää.  
 4. Valitse **Yleiset**-pikavälilehden **Hyvityksen siirtoviestinrot** -kentässä numerosarja, josta numerot määritetään SEPA-tilisiirtotapahtumiin.  
 5. Varmista, että **IBAN**-kenttä on täytetty.  
 
     > [!NOTE]  
     > **Valuuttakoodi**-kentän asetuksena on oltava **EUR**, koska SEPA-hyvityksen siirrot voidaan tehdä vain euroina.  
 
-### <a name="to-set-up-a-vendor-card-for-sepa-credit-transfer"></a>Toimittajan kortin määrittäminen SEPA-hyvityksen siirtoa varten
+### Toimittajan kortin määrittäminen SEPA-hyvityksen siirtoa varten
 
-1. Syötä **Etsi**-ruudussa **Toimittajat** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten vastaava linkki.  
 2. Avaa sen toimittajan kortti, josta maksat sähköisesti viemällä maksutiedostot SEPA-hyvitys siirtomuodossa.  
-3. Valitse **Maksu**-pikavälilehden **Maksutavan koodi** -kentässä **PANKKI**.  
-4. Valitse **Ensisijainen pankkitili** -kentässä pankki, johon rahat siirretään, kun ne käsitellään verkkopankissasi.  
+3. Valitse **Maksut-pikavälilehden**  **Maksutavan koodi** -kentässä **PANKKI**.  
+4.  **Valitse Ensisijainen pankkitili -** kentässä pankki, johon rahat siirretään, kun verkkopankkisi käsittelee ne.  
 
     Jos toimittajalle ei ole vielä määritetty pankkitietoja, se voidaan tehdä nyt. Lisätietoja on kohdassa [Toimittajan pankkitilien määrittäminen pankkitiedostojen vientiä varten](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). **Ensisijainen pankkitili** -kentän arvo kopioidaan **Maksupäiväkirja**-sivun **Vastaanottajan pankkitili** -kenttään.  
 
-### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>Maksupäiväkirjan määrittäminen maksutiedostojen vientiä varten
+### Maksupäiväkirjan määrittäminen maksutiedostojen vientiä varten
 
-1. Anna **Haku**-ruudussa **Maksupäiväkirjat** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten vastaava linkki.  
 2. Valitse **Erän nimi** -kentässä avattavan\- luettelon painike.  
 3. Valitse **Yleisen päiväkirjan erät** -sivulla **Muokkaa luetteloa** -toiminto.  
-4. Valitse sen maksupäiväkirjan rivillä, jonka avulla viet maksut, **Salli maksun vienti** -valintaruutu.  
+4. Valitse maksupäiväkirjan rivillä, jota aiot käyttää maksujen viemiseen, **Salli maksuvienti -** valintaruutu.  
 
-### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>Vähintään yhden maksutyypin tiedonsiirtomäärityksen yhdistäminen liittyvään maksutapaan
+### Vähintään yhden maksutyypin tiedonsiirtomäärityksen yhdistäminen liittyvään maksutapaan
 
-1. Anna **Haku**-ruudussa **Maksutavat** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksutavat** ja valitse sitten vastaava linkki.  
 2. Valitse **Maksutavat**-sivulla ensin maksutapa, jolla maksut viedään, ja sitten **Maksun vientirivin määritys** -kenttä.  
 3. Valitse **Maksun vientirivin määritykset** -sivulla koodi, jonka määritit **Rivimääritykset**-pikavälilehden **Koodi**-kentässä ohjeaiheen [Tiedonsiirtomääritysten määrittäminen](across-how-to-set-up-data-exchange-definitions.md) Tiedoston rivien ja sarakkeiden muotoilun kuvaaminen -kohdan vaiheessa 4.  
 
-## <a name="preparing-the-payment-journal"></a>Maksupäiväkirjan valmistelu
+## Maksupäiväkirjan valmistelu
 
 Täytä maksupäiväkirja toimittajiin kohdistuvilla erääntyvillä maksuriveillä ja vaihtoehdolla lisätä kirjauspäivämäärät perustuen liittyvien ostoasiakirjojen eräpäivään. Lisätietoja on kohdassa [Ostovelkojen hallinta](payables-manage-payables.md).
 
-## <a name="exporting-payments-to-a-bank-file"></a>Maksujen vienti pankkitiedostoon
+## Maksujen vienti pankkitiedostoon
 
-Kun olet valmis suorittamaan maksut toimittajille tai hyvitykset työntekijöille, voit viedä tiedoston ja päiväkirjan rivien maksutiedot **Maksupäiväkirja**-sivulla. Voit sitten ladata tiedoston pankkiin kyseisten rahansiirtojen käsittelyä varten.
+Kun olet valmis suorittamaan maksuja toimittajille tai työntekijöillesi karttoja, voit viedä tiedoston, jossa on maksutiedot Maksupäiväkirjat-sivun **riveillä** . Voit sitten ladata tiedoston pankkiin kyseisten rahansiirtojen käsittelyä varten.
 
 AMC Banking 365 Fundamentals -laajennus on saatavana [!INCLUDE[prod_short](includes/prod_short.md)]in yleisessä versiossa. Pohjoisamerikkalaisessa versioissa maksutiedostot voidaan lähettää samalla laajennuksella sähköisenä rahansiirtona, joskin prosessi on hieman erilainen. Lisätietoja on kohdan [Maksujen vienti pankkitiedostoon](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file) vaiheessa 6.
 
 > [!NOTE]  
 > Määritä liittyvän pankkitilin sähköinen muoto ennen maksutiedostojen vientiä maksupäiväkirjasta ja ota AMC Banking 365 Fundamentals -laajennus käyttöön. Lisätietoja on kohdissa [Pankkitilin määrittäminen](bank-how-setup-bank-accounts.md) ja [AMC Banking 365 Fundamentals -laajennuksen käyttäminen](ui-extensions-amc-banking.md). Valitse myös **Salli maksun vienti** -valintaruutu **Yleisen päiväkirjan erät** -sivulla. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).  
 
-Voit tarkastella maksupäiväkirjasta vietyjä maksutiedostoja **Hyvityksen siirron rekisterit** -sivulla. Voit myös viedä sivulla maksutiedostot uudelleen, jos tekniset virheet tai tiedostomuutokset vaativat sitä. Huomaa kuitenkin, että viedyt sähköiset rahansiirtotiedostot eivät näy tällä sivulla eikä niitä voi viedä uudelleen.  
+Voit tarkastella maksupäiväkirjasta vietyjä maksutiedostoja **Hyvityksen siirron rekisterit** -sivulla. Voit myös viedä sivulla maksutiedostot uudelleen, jos tekniset virheet tai tiedostomuutokset vaativat sitä. Huomaa kuitenkin, että viedyt EFT-tiedostot eivät näy tällä sivulla, eikä niitä voi viedä uudelleen.  
 
-### <a name="to-export-payments-to-a-bank-file"></a>Maksujen vienti pankkitiedostoon
+### Maksujen vienti pankkitiedostoon
 
 Seuraavassa kuvataan, miten toimittajalle maksetaan sekillä. Vaiheet ovat samankaltaiset kuin hyvitettäessä asiakkaalle sekkimaksuna.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten vastaava linkki.
 2. Täytä maksupäiväkirjan rivit. Lisätietoja on ohjeaiheessa [Maksujen ja hyvitysten kirjaaminen](payables-how-post-payments-refunds.md).
 
     > [!NOTE]
@@ -115,7 +117,7 @@ Seuraavassa kuvataan, miten toimittajalle maksetaan sekillä. Vaiheet ovat saman
 
     > [!NOTE]  
     > Jos käytät sähköistä rahansiirtoa, tallenna saatava toimittajan maksusuorituslomake Word-asiakirjana tai valitse sen lähettäminen suoraan toimittajalle. Maksut on nyt lisätty **Luo sähköinen rahansiirtotiedosto** -sivulle, jossa voit luoda samanaikaisesti useita maksutilauksia, mikä säästää lähetyskustannuksia. Lisätietoja on seuraavissa vaiheissa:
-6. Valitse **Maksupäiväkirja**-sivulla **Luo sähköinen rahansiirtotiedosto** -toiminto.
+6. Valitse **Maksupäiväkirjat-sivulta**  **Luo EFT-tiedosto** -toiminto.
 
     **Luo sähköinen rahansiirtotiedosto** -sivulla kaikki sähköistä rahansiirtoa varten määritetyt maksut, jotka on viety maksupäiväkirjasta määritetylle pankkitilille mutta joita ei ole vielä muodostettu, on mainittu **Rivit**-pikavälilehdessä.
 7. Vie kaikki sähköiset rahansiirtomaksut sisältävä tiedosto valitsemalla **Luo sähköinen rahansiirtotiedosto** -toiminto.
@@ -123,37 +125,37 @@ Seuraavassa kuvataan, miten toimittajalle maksetaan sekillä. Vaiheet ovat saman
 
 Pankin maksutiedosto viedään määrittämääsi sijaintiin ja voit jatkaa sen lataamista verkkopankkitilille ja suorittaa todelliset maksut. Voit sitten kirjata viedyn maksupäiväkirjan rivit.
 
-### <a name="to-plan-when-to-post-exported-payments"></a>Vietyjen maksujen kirjaamisajankohdan suunnitteleminen
+### Vietyjen maksujen kirjaamisajankohdan suunnitteleminen
 
-Jos et halua kirjata viedyn maksun maksupäiväkirjan riviä, koska esimerkiksi odotat pankin vahvistusta tapahtuman käsittelystä, voit poistaa päiväkirjan rivin. Kun luot myöhemmin maksupäiväkirjan rivin, jolla maksetaan jäljellä oleva laskun summa, **Viety summa yhteensä** -kenttä näyttää, kuinka paljon maksun summasta on jo viety. Lisäksi saat lisätietoja viedystä kokonaissummasta valitsemalla **Hyvityksen siirron rekisterimerkinnät** -painikkeen, joka avaa vietyjen maksutiedostojen tiedot.
+Jos et halua kirjata vietyä maksua varten maksupäiväkirjan riviä esimerkiksi siksi, että odotat vahvistusta, että pankki on käsitellyt kauppatapahtuman, voit vain poistaa päiväkirjan rivin. Kun luot myöhemmin maksupäiväkirjan rivin, jolla maksetaan jäljellä oleva laskun summa, **Viety summa yhteensä** -kenttä näyttää, kuinka paljon maksun summasta on jo viety. Lisäksi saat lisätietoja viedystä kokonaissummasta valitsemalla **Hyvityksen siirron rekisterimerkinnät** -painikkeen, joka avaa vietyjen maksutiedostojen tiedot.
 
-Jos noudatat prosessia, jossa maksut kirjataan vasta sen jälkeen, kun pankin suorittamasta maksujen käsittelystä on saatu vahvistus, voit hallita tätä kahdella eri tavalla.
+Jos noudatat prosessia, jossa et kirjaa maksuja ennen kuin olet vahvistanut, että ne on käsitelty pankissa, voit hallita niitä kahdella tavalla.
 
-* Maksupäiväkirjan ehdotettujen maksurivien kohdalla voit lajitella joko **Viety maksutiedostoon** -sarakkeen tai **Viety summa yhteensä**-kentän mukaan ja sitten poistaa maksuehdotukset avoimilta laskuilta, jotka on jo maksettu ja joita et halua maksaa.
-* Voit valita **Ehdota toimittajamaksuja** -sivulla, jossa määrität maksupäiväkirjaan lisättävät maksut, **Ohita viedyt maksut** -valintaruudun, jos et halua lisätä päiväkirjarivejä jo viedyille maksuille.
+* Maksupäiväkirjassa, jossa on ehdotettuja maksurivejä, voit lajitella joko **Viety maksutiedostoon** -sarakkeen tai **Viety kokonaissumma** -sarakkeen ja poistaa sitten maksuehdotukset avoimista laskuista, joiden maksut on jo suoritettu etkä halua suorittaa maksuja.
+*  **Ehdota toimittajamaksuja -** sivulla, jossa määrität, mitkä maksut lisätään maksupäiväkirjaan, voit valita **Ohita viedyt maksut -** valintaruudun, jos et halua lisätä päiväkirjarivejä jo vietyihin maksuihin.
 
 Saat lisätietoja viedyistä maksuista valitsemalla **Maksujen vientihistoria** -toiminnon.
 
-### <a name="to-re-export-payments-to-a-bank-file"></a>Maksujen vieminen uudelleen pankkitiedostoon
+### Maksujen vieminen uudelleen pankkitiedostoon
 
-Voit viedä maksutiedostot uudelleen **Hyvityksen siirron rekisterit** -sivulla. Ennen kuin poistat tai kirjaat maksupäiväkirjan rivejä, voit myös viedä maksutiedoston uudelleen **Maksupäiväkirja**-sivulla yksinkertaisesti viemällä sen uudelleen. Jos olet poistanut tai kirjannut maksupäiväkirjan rivit viennin jälkeen, voit viedä saman maksutiedoston uudelleen **Hyvityksen siirron rekisterit** -sivulla. Valitse rivi tilisiirtojen erälle, jonka haluat viedä uudelleen, ja käyttämällä sitten **Vie maksut uudelleen tiedostoon** -toimintoa.
+Voit viedä maksutiedostot uudelleen **Hyvityksen siirron rekisterit** -sivulla. Ennen kuin poistat tai kirjaat maksupäiväkirjan rivejä, voit myös viedä maksutiedoston **uudelleen Maksupäiväkirjat-sivulta** viemällä sen uudelleen. Jos poistat tai kirjaat maksupäiväkirjan rivit viennin jälkeen, voit viedä saman maksutiedoston **uudelleen Kredit-siirtorekisterit-sivulta** . Valitse rivi tilisiirtojen erälle, jonka haluat viedä uudelleen, ja käyttämällä sitten **Vie maksut uudelleen tiedostoon** -toimintoa.
 
 > [!NOTE]  
 > Viedyt sähköiset rahansiirtotiedostot eivät näy **Hyvityksen siirron rekisterit** -sivulla, eikä niitä voi viedä uudelleen.
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyvityksen siirron rekisterit** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Hyvityksen siirron rekisterit** ja valitse sitten vastaava linkki.
 2. Valitse ensin uudelleenvietävä maksun vienti ja sitten **Vie maksut uudelleen tiedostoon** -toiminto.
 
-## <a name="posting-the-payments"></a>Maksujen kirjaaminen
+## Maksujen kirjaaminen
 
 Kirjaa maksut sen jälkeen, kun pankki on käsitellyt ne onnistuneesti. Lisätietoja on kohdassa [Maksujen suorittaminen](payables-make-payments.md).
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Käytä AMC Banking 365 Fundamentals -laajennusta](ui-extensions-amc-banking.md)  
 [Ostovelkojen hallinta](payables-manage-payables.md)  
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
-[Maksujen kerääminen SEPA-suoraveloitusperintänä.](finance-collect-payments-with-sepa-direct-debit.md)  
+[Maksujen kerääminen SEPA-suoraveloitusperintänä](finance-collect-payments-with-sepa-direct-debit.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

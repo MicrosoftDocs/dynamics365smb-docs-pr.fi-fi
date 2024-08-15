@@ -1,16 +1,17 @@
 ---
-title: Ennakkomaksujen laskutus
+title: Ennakkomaksujen laskuttaminen
 description: 'Tietoja siitä, miten ennakkomaksutoimintojen avulla voit laskuttaa ja kerätä asiakkailta talletuksia tai suorittaa talletuksia toimittajille Business Centralissa.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '42, 42, 48, 50, 52, 9305, 9307'
-ms.date: 12/03/2021
+ms.date: 07/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="invoicing-prepayments"></a>Ennakkomaksujen laskuttaminen
+
+# Laskutuksen ennakkomaksut
 
 [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -21,7 +22,7 @@ Voit esimerkiksi määrittää koko tilauksen kokonaissumman tai voit jakaa enna
 > [!NOTE]
 > Jos haluat poistaa rivin, jonka ennakkomaksu on jo laskutettu, sinun on lähetettävä ennakkomaksun hyvityslasku ennen rivin poistamista.
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkeleihin.
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
@@ -29,7 +30,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 |Tilauksen luominen, ennakkomaksusummien muuttaminen ja ennakkomaksusummien mukaisen laskun lähettäminen.|[Ennakkomaksulaskujen luominen](finance-how-to-create-prepayment-invoices.md)|  
 |Lisäennakkomaksulaskun lähettäminen joko lisänimikkeiden tai alkuperäiseen tilaukseen kuulumattoman lisätalletuksen vuoksi tai ennakkomaksun hyvityslaskun lähettäminen.|[Ennakkomaksujen korjaaminen](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Vaihekuvaus: Myynnin ennakkomaksujen määrittäminen ja laskuttaminen](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Rahoitus](finance.md)  

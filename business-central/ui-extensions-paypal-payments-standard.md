@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="the-paypal-payments-standard-extension"></a>PayPal Payments Standard -laajennus
+# PayPal Payments Standard -laajennus
 
 PayPal Payments Standard -laajennus voi auttaa kasvattamaan asiakaspalvelutasojasi, sillä se helpottaa asiakkaiden laskujen maksamista.
 
@@ -29,7 +29,7 @@ PayPal Payments Standard -palvelusta on apua seuraavissa asioissa:
 
 Lisätietoja laajennuksen [määrittämisestä on asiakkaan maksun ottamisesta käyttöön PayPal](sales-how-enable-payment-service-extensions.md).
 
-## <a name="register-payments-automatically-for-business-accounts"></a>Yritystilien maksujen rekisteröiminen automaattisesti
+## Yritystilien maksujen rekisteröiminen automaattisesti
 
 [!INCLUDE [prod_short](includes/prod_short.md)] voit rekisteröidä maksut automaattisesti, jos sinulla on yrityskauppiastili PayPal Commerce Platformia varten. Kun asiakkaasi käyttävät PayPal-linkkiä laskun maksamiseen, [!INCLUDE [prod_short](includes/prod_short.md)]  kirjaa tapahtumat ja sulkee asiakirjan.
 
@@ -38,7 +38,7 @@ Kun haluat käyttää tätä ominaisuutta, **ota** Maksurekisteröinnin asetukse
 > [!TIP]
 > Kehittäjät voivat käyttää eristysruututilejä asetusten testaamiseen. Voit tehdä tämän muuttamalla PayPal URL-osoitteen numeroksi **sandbox.paypal.com**. [!INCLUDE [prod_short](includes/prod_short.md)] käyttää IPN (PayPals Instant Payment Notification) -ilmoitusta notify_url.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [[!INCLUDE[prod_short](includes/prod_short.md)]in mukauttaminen laajennusten avulla](ui-extensions.md)  
 [Myynnin määrittäminen](sales-setup-sales.md)  
