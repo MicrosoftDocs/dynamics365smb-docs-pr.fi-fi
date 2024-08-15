@@ -11,7 +11,7 @@ ms.search.form: '256, 233, 624, 1228'
 ms.date: 07/17/2024
 ms.service: dynamics-365-business-central
 ---
-# Maksujen ja hyvitysten tallentaminen maksupäiväkirjaan
+# <a name="record-payments-and-refunds-in-the-payment-journal"></a>Maksujen ja hyvitysten tallentaminen maksupäiväkirjaan
 
  **Maksupäiväkirjat-sivulle tallennetaan toimittajille suoritetut** maksut ja asiakkaille suoritetut hyvitykset. Kun kirjaat maksupäiväkirjan rivin, maksettu summa kirjataan määritetylle pankkitilille. Sinun on tehtävä sitten todellinen rahan siirto liittyvältä pankkitililtä muutaman vaiheen kautta.  
 
@@ -29,7 +29,7 @@ Maksupäiväkirjat ovat yleisiä päiväkirjoja, joka on tarkoitettu erityisesti
 
     Maksun suorituksen kirjaamisen lisäksi voit käyttää myös **Maksupäiväkirja**-sivua siirtämään maksun pankin lisäkäsittelyä varten. Lisätietoja on kohdissa [Sekkimaksujen suorittaminen](payables-how-work-checks.md) ja [Sähköisten maksujen suorittaminen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
-## Maksujen tekeminen maksupäiväkirjaan
+## <a name="to-make-payments-in-the-payment-journal"></a>Maksujen tekeminen maksupäiväkirjaan
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten vastaava linkki.
 2. Avaa päiväkirjaerä, jota käytät maksuja varten.
@@ -40,7 +40,7 @@ Maksupäiväkirjat ovat yleisiä päiväkirjoja, joka on tarkoitettu erityisesti
 5. Vaihtoehtoisesti voit käyttää **Ehdota toimittajamaksuja** -toimintoa. Myös kaikki kohdistustiedot ja summat syötetään päiväkirjariveille. Lisätietoja on kohdassa [Ehdota toimittajamaksuja](payables-how-suggest-vendor-payments.md).
 6. Kun kaikki maksupäiväkirjan rivit ovat valmiit, valitse **Kirjaa**-toiminto.
 
-## Palautussekin julkaiseminen
+## <a name="to-issue-a-refund-check"></a>Palautussekin julkaiseminen
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -toiminnon](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten liittyvä linkki.
 2. Valitse **Asiakirjatyyppi**-kentässä **Hyvitys**.  
@@ -53,7 +53,7 @@ Maksupäiväkirjat ovat yleisiä päiväkirjoja, joka on tarkoitettu erityisesti
 9. Valitse **Kohdistetaan asiakirjaan nro** -kentässä hyvitystä vaativat asiakirjat.  
 10. Kun kaikki maksupäiväkirjan rivit on täytetty, valitse **Kirjaa/tulosta**-toiminto, valitse **Kirjaa ja tulosta** -toiminto ja valitse sitten **Kyllä**.  
   
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Sekkimaksujen suorittaminen](payables-how-work-checks.md)  
 [Sähköisten maksujen tekeminen](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

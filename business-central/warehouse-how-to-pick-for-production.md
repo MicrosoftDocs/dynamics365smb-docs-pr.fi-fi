@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.forms: '9330, 931, 990008, 89, 900, 902'
 ---
-# <a name="pick-for-production-assembly-or-jobs-in-basic-warehouse-configurations"></a>Tuotanto-, kokoonpano- ja projektipoiminta perusvarastointimäärityksissä
+# <a name="pick-for-production-assembly-or-projects-in-basic-warehouse-configurations"></a>Tuotanto-, kokoonpano- ja projektipoiminta perusvarastointimäärityksissä
 
 Tuotantoon, projekteihin tai koonpanotilauksiin poimittujen komponenttien hyllytystapa määräytyy sen mukaan, miten fyysinen varasto on määritetty sijaintina. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).
 

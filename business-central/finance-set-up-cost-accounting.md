@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-cost-accounting"></a>Kustannuslaskennan määrittäminen
+# <a name="set-up-cost-accounting"></a>Kustannuslaskennan määrittäminen
 
 Ennen kuin alat käsitellä kustannuslaskentaa, sinun täytyy suorittaa asetustehtävät.
 
@@ -24,7 +24,7 @@ Näin luot seuraavan kirjanpitolaskutoimituksen:
 
 Kun tulostat Kustannustyyppikaavion, kustannuspaikkakaavion ja kustannuskohteiden raporttikaavion, voit analysoida tämän suhteen.
 
-## <a name="setting-up-cost-types"></a>Kustannustyyppien määrittäminen
+## <a name="set-up-cost-types"></a>Kustannustyyppien määrittäminen
 
 Kustannustyyppikartta vastaa pääkirjanpidon tilikarttaa. Voit määrittää kustannustyyppikaavion seuraavilla tavoilla:  
 

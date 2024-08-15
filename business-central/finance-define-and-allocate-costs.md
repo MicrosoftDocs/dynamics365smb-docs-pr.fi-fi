@@ -28,7 +28,7 @@ Määritä jokaiselle kohdistuksen kohteelle kohdistusperuste. Kohdistusperuste 
 
 Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisiin.
 
-## <a name="setting-up-allocation-source-and-targets"></a>Kohdistuksen lähteen ja sen tavoitteiden määrittäminen
+## <a name="set-up-allocation-source-and-targets"></a>Kohdistuksen lähteen ja sen tavoitteiden määrittäminen
 
 Jokainen kohdistus koostuu kohdistuslähteestä ja sekä vähintään yhdestä kohdistuskohteesta. Kohdistuksen lähde määrittää, mitkä kustannukset kohdistetaan. Kohdistuskohteet määrittävät, mihin kustannukset kohdistetaan.  
 
@@ -50,11 +50,11 @@ Jokainen kohdistus koostuu kohdistuslähteestä ja sekä vähintään yhdestä k
 > [!NOTE]  
 > Deaktivoi kohdistamisen määritys valitsemalla **Estetty** -valintaruutu.
 
-## <a name="setting-filters-for-dynamic-allocation-bases"></a>Suodattimien määrittäminen dynaamisen kohdistuksen perusteille.
+## <a name="to-set-filters-for-dynamic-allocation-bases"></a>Suodattimien määrittäminen dynaamisen kohdistuksen perusteille.
 
 Dynaaminen kohdistusmenetelmä on perustuu muutettaviin arvoihin. Esimerkiksi kustannuspaikan työntekijöiden tai kustannuskohteen myytyjen nimikkeiden määrä tietyn ajanjakson aikana. Ohjelmassa on yhdeksän ennalta määritettyä kohdistamisen perustetta ja kaksitoista dynaamista päivämääräväliä. Voit määrittää eri suodattimia kohdistuksen perusteella.  
 
-### <a name="setting-filters"></a>Asetetaan suodattimia
+### <a name="set-filters"></a>Asetetaan suodattimia
 
 Seuraavassa taulukossa on esitetty mitä suodattimia on mahdollista käyttää eri kohdistusperusteille ja mitkä arvot ovat mahdollisia **Nrosuodatus**- ja **Ryhmäsuodatus**-kentissä. Luo tarkat kuvaukset painamalla <kbd>F1</kbd>-näppäintä **Päivämäärän suodatuskoodi** -kentässä.  
 

@@ -9,7 +9,7 @@ ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.date: 05/17/2024
 ms.service: dynamics-365-business-central
 ---
-# Rahoituksen määrittäminen
+# <a name="setting-up-finance"></a>Rahoituksen määrittäminen
 
 Ennen kuin voit aloittaa yrityksesi pyörittämisen, sinun on määritettävä, miten haluat hallita yrityksen rahoitusprosesseja. Aloita määrittämällä yrityksen tilitietueiden perusta – tilikartta. Sitten määritetään kirjausryhmät. Tämä tehostaa pääkirjanpidon oletuskirjaustilien määrittämistä asiakkaille, toimittajille ja nimikkeille.
 
@@ -50,7 +50,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin aiheisii
 > [!TIP]
 > Maantieteellinen sijaintisi mukaan jotkin Business Central -sivut voivat sisältää kenttiä, joita ei ole kuvattu yllä olevassa luettelossa, koska ne koskevat paikallisia toimintoja tai mukautuksia. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Taloushallinto](finance.md)  
 [Pankkitilien täsmäytys](bank-manage-bank-accounts.md)  

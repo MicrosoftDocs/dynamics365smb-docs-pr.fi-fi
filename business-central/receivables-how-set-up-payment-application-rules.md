@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Maksujen automaattisen kohdistuksen sääntöjen määrittäminen
+# <a name="set-up-rules-for-automatic-application-of-payments"></a>Maksujen automaattisen kohdistuksen sääntöjen määrittäminen
 
 Määritä **Maksusovelluksen säännöt** -sivulla säännöt, jotka hallinnoivat sitä, kuinka (pankkitapahtuman) maksutekstit kohdistetaan automaattisesti niihin liittyviin avoimiin (maksamattomiin) laskuihin, hyvityslaskuihin tai muihin kirjauksiin, kun käytät **Sovella automaattisesti** -toimintoa **Maksujen täsmäytyskirjauskansio** -sivulla. Lisätietoja on [kohdassa Maksujen täsmäyttäminen automaattisen kohdistuksen avulla](receivables-how-reconcile-payments-auto-application.md).
 
@@ -29,7 +29,7 @@ Kohdistustietojen lisäksi seuraavaa sovelletaan maksumäärän etumerkkiin:
 - Negatiivisille määrille täsmäytys tehdään ensin asiakkaan laskuja edustavia avoimia tapahtumia vastaan ja sitten toimittajan hyvityslaskuja vastaan.
 - Positiivisille määrille täsmäytys tehdään ensin toimittajan laskuja edustavia avoimia tapahtumia vastaan ja sitten asiakkaan hyvityslaskuja vastaan.
 
-## Maksun sovellussäännön asettaminen
+## <a name="to-set-up-a-payment-application-rule"></a>Maksun sovellussäännön asettaminen
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksukohdistussäännöt** ja valitse sitten liittyvä linkki.
 2. Määritä uusi tai muokattu maksun sovellussääntö täyttämällä rivin kentät seuraavassa taulukossa kuvatulla tavalla.
 
@@ -74,7 +74,7 @@ Seuraavassa taulukossa kuvataan [!INCLUDE[prod_short](includes/prod_short.md)]in
 | Heikko              | 4        | Ei                    | Ei                             | Yksi vastaavuus                      |
 | Heikko              | 5        | Ei                    | Ei                             | Useita vastaavuuksia               |
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md)  
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Myynti](sales-manage-sales.md)  

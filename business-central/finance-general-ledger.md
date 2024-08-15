@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Tietoja pääkirjanpidosta ja tilikartasta
+# <a name="understand-the-general-ledger-and-chart-of-accounts"></a>Tietoja pääkirjanpidosta ja tilikartasta
 
 Pääkirjanpito(KP) sisältää taloustiedot ja tilikartta näyttää tilit, joihin kirjaat kaikki pääkirjanpidon tapahtumat. [!INCLUDE[prod_short](includes/prod_short.md)] sisältää tilikartan, joka on valmis tukemaan liiketoimintaasi.
 

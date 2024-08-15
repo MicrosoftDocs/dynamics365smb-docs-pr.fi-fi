@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Toimittajan maksujen täsmäyttäminen maksupäiväkirjan kanssa tai toimittajatapahtumista
+# <a name="reconcile-vendor-payments-with-the-payment-journal-or-from-vendor-ledger-entries"></a>Toimittajan maksujen täsmäyttäminen maksupäiväkirjan kanssa tai toimittajatapahtumista
 Kun lähetät maksukuitin toimittajalle tai saat hyvityksen toimittajalta, päätä, kohdistetaanko maksu tai hyvitys yhteen avoimeen debet- tai kredit-tapahtumaan vai useaan tällaiseen tapahtumaan. Voit määrittää tarkasti summan, jota käytetään maksukuitin tai hyvityksen kohdistuksessa, eli toimittajapahtumat kohdistetaan tällöin vain osittain. Kaikki toimittajatapahtumat täytyy sulkea (kohdistaa), jotta toimittajatilastot sekä tiliotteiden ja viivästyskulujen raportit ovat virheettömiä.
 
 > [!NOTE]  
@@ -31,7 +31,7 @@ Toimittajamaksut voi kohdistaa manuaalisesti niihin liittyviin ostoasiakirjoihin
 
 Voit kohdistaa toimittajan maksuja ja asiakkaan maksuja myös sen jälkeen, kun maksut näkyvät negatiivisina pankkitapahtumina pankissa.  **Maksun täsmäytyspäiväkirjat** -sivulla voit käyttää pankin tiliotteen tuonnin, automaattisen kohdistuksen ja pankkitilin täsmäytyksen toimintoja. Lisätietoja on kohdassa [Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta](receivables-how-reconcile-payments-auto-application.md).
 
-## Maksun kohdistaminen yhteen tai useaan toimittajatapahtumaan
+## <a name="to-apply-a-payment-to-a-single-or-multiple-vendor-ledger-entries"></a>Maksun kohdistaminen yhteen tai useaan toimittajatapahtumaan
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten vastaava linkki.
 2.  **Syötä maksupäiväkirjat-sivulle** ensimmäiselle päiväkirjan riville olennaiset tiedot maksutapahtumasta.
 3. Voit kohdistaa yhden toimittajatapahtuman seuraavasti:
@@ -49,7 +49,7 @@ Voit kohdistaa toimittajan maksuja ja asiakkaan maksuja myös sen jälkeen, kun 
 5. Valitse **OK**-painike.
 6. Valitse **Kirjaa**-toiminto, kun haluat kirjata maksupäiväkirjan.
 
-## Hyvityslaskun kohdistaminen yhteen tai useaan toimittajatapahtumaan
+## <a name="to-apply-a-credit-memo-to-a-single-or-multiple-vendor-ledger-entries"></a>Hyvityslaskun kohdistaminen yhteen tai useaan toimittajatapahtumaan
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Ostohyvityslaskut** ja valitse sitten vastaava linkki.
 2. Avaa hyvityslasku, jonka haluat kohdistaa.
 3. Syötä tarvittavat tiedot otsikkoon.
@@ -66,7 +66,7 @@ Voit kohdistaa toimittajan maksuja ja asiakkaan maksuja myös sen jälkeen, kun 
     **Ostohyvityslaskut-sivulla** on Kohdistetaan asiakirjatyyppiin **-kentässä ja** Kohdistetaan asiakirjaan nro -kentässä valitsemasi **tapahtuma.** pelto. Sivulla näkyy myös kirjattava hyvityslaskun summa sekä mahdolliset maksualennukset.
 7. Kirjaa ostohyvityslasku valitsemalla **Kirjaa**-painike.
 
-## Kirjattujen toimittajatapahtumien kohdistus:
+## <a name="to-apply-posted-vendor-ledger-entries"></a>Kirjattujen toimittajatapahtumien kohdistus:
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten vastaava linkki.
 2. Avaa asianmukainen toimittaja, jolla on aiemmin kirjattuja tapahtumia.
 3. Valitse **Tapahtumakirjaukset**-toiminto ja valitse sitten **Kohdista tapahtumat** -toiminto.
@@ -83,7 +83,7 @@ Voit kohdistaa toimittajan maksuja ja asiakkaan maksuja myös sen jälkeen, kun 
     Näyttöön avautuu **Kirjaa kohdistus** -sivu, joka sisältää kohdistettavan tapahtuman asiakirjanumeron sekä viimeksi kirjatun tapahtuman kirjauspäivämäärän.
 9. Kirjaa sovellus valitsemalla **OK**.
 
-## Eri valuutoissa olevien toimittajatapahtumien kohdistaminen toisiinsa:
+## <a name="to-apply-vendor-ledger-entries-in-different-currencies-to-one-another"></a>Eri valuutoissa olevien toimittajatapahtumien kohdistaminen toisiinsa:
 Jos ostat toimittajalta yhdessä valuutassa ja maksat maksun toisessa valuutassa, maksu voidaan silti kohdistaa maksun laskuun.
 
 Jos tapahtuma (tapahtuma 1) kohdistetaan eri valuuttaa käyttävään tapahtumaan (tapahtuma 2), tapahtuman 2 summien muuntamisessa käytettävä vaihtokurssi etsitään tapahtuman 1 kirjauspäivämäärän mukaan. Vaihtokurssi löytyy **Valuutan vaihtokurssit** -sivulta. Siinä tapauksessa toimittajatapahtumien kohdistus on otettava käyttöön eri valuutoissa. Lisätietoja on kohdassa [Tapahtumakirjausten kohdistamisen ottaminen käyttöön eri valuutoissa](finance-how-enable-application-ledger-entries-different-currencies.md).
@@ -98,7 +98,7 @@ Jos tapahtuma (tapahtuma 1) kohdistetaan eri valuuttaa käyttävään tapahtumaa
 > [!IMPORTANT]  
 >   Kun erivaluuttaisia tapahtumia kohdistetaan toisiinsa, tapahtumat muunnetaan paikalliseen valuuttaan (USD). Vaikka asianmukaisten valuuttojen vaihtokurssit ovat kiinteät (esimerkiksi Yhdysvaltain dollarin ja euron välillä), pieniä jäännössummia saattaa esiintyä, kun ohjelma muuntaa nämä ulkomaan valuutat USD:ksi. Nämä pienet jäännössummat kirjataan voitoiksi ja tappioiksi **Valuutat**-sivun **Realisoitun. val.voitt. tili**- ja **Realisoitun. val.tapp. tili** -kentissä määritetyille tileille. **Summa (USD)** -kenttää muokataan myös asianmukaisten toimittajatapahtumien mukaan.
 
-## Toimittajan tapahtumien kohdistuksen peruuttaminen
+## <a name="to-unapply-an-application-of-vendor-entries"></a>Toimittajan tapahtumien kohdistuksen peruuttaminen
 Kun teet virheellisen kohdistuksen, ohjelma luo ja kirjaa kaikille tapahtumille, myös kaikille kohdistuksesta johdetuille pääkirjanpidon kirjauksille, kuten maksualennuksille ja valuuttavoitoille ja -tappioille, identtiset tapahtumat, joilla on vastakkainen loki summakentässä. Ohjelma avaa uudelleen kohdistuksen sulkemat tapahtumat.
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Toimittajat** ja valitse sitten vastaava linkki.
@@ -112,7 +112,7 @@ Kun teet virheellisen kohdistuksen, ohjelma luo ja kirjaa kaikille tapahtumille,
 > [!IMPORTANT]  
 >   Jos tapahtumaan on tehty useita kohdistuksia, on viimeisin kohdistustapahtuma poistettava ensin.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 [Ostovelat](payables-manage-payables.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

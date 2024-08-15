@@ -65,7 +65,7 @@ Järjestelmänvalvoja voi saada yleiskuvan niistä [!INCLUDE [prod_short](includ
 <!-- >[!NOTE]
 > User personalizations do not have anything to do with the *personal* lightweight changes a user can make to the user experience.-->
 
-## <a name="to-review-or-delete-user-personalizations"></a>Käyttäjän mukautusten tarkasteleminen ja poistaminen
+## <a name="review-or-delete-user-personalizations"></a>Käyttäjän mukautusten tarkasteleminen ja poistaminen
 
 1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Mukautetut sivut** ja valitse sitten vastaava linkki.
 2. Näkyviin tulee luettelo käyttäjistä ja heidän mukautetuista sivuistaan. Käyttäjän mukautukset poistetaan napsauttamalla kyseistä riviä tai valitsemalla ensin **Hallinta** ja sitten **Poista**.

@@ -22,7 +22,7 @@ Vakiokustannuksia voidaan ylläpitää nimikkeiden osalta, jotka täydennetään
 |**Kokoonpano**|Välittömät materiaalikustannukset, välittömät tai kiinteän työn kustannukset ja yleiskustannukset.|  
 |**Tuotantotilaus**|Välittömät materiaalikustannukset, työkustannukset, alihankintakustannukset ja yleiskustannukset.|  
 
-## <a name="setting-up-standard-costs"></a>Vakiokustannusten määrittäminen
+## <a name="set-up-standard-costs"></a>Vakiokustannusten määrittäminen
 
 Vakiokustannukset on muodostettava jokaiselle kustannuselementille, koska kokoonpannun tai tuotetun nimikkeen vakiokustannukset koostuvat useista kustannuselementeistä, joita ovat materiaalien, kapasiteetin (työvoima) ja alihankkijan kustannukset (välittömät ja yleiset).  
 
@@ -88,7 +88,7 @@ Alihankkijan kustannuksia ovat yrityksen ulkopuolisille toimittajille tai alihan
 
 Koska alihankinta on ulkoistettua kapasiteettia, alihankintapalveluiden kustannukset (välittömät ja välilliset) määritetään alihankintatoimintoa edustavalle toimintosolukortille.  
 
-## <a name="updating-standard-costs"></a>Vakiokustannusten päivittäminen
+## <a name="update-standard-costs"></a>Vakiokustannusten päivittäminen
 
 Päivitä tai laske kokoonpanon nimikkeiden standardikustannukset käyttäen funktiota nimikekortista.  
 

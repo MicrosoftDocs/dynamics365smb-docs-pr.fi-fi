@@ -28,7 +28,7 @@ Seuraavissa luvuissa kerrotaan, miten
 3. Syötä **Lopetuspvm**-kenttään viimeinen päivämäärä, jonka haluat varastokaudelle määrittää. Kun kausi suljetaan, et voi enää kirjata ennen tätä päivämäärää tapahtuneita varaston muutoksia.  
 4. Anna **Nimi**-kenttään kuvaava nimi. Valitse **OK**-painike.  
 
-## <a name="closing-inventory-periods"></a>Varastokausien sulkeminen
+## <a name="to-close-inventory-periods"></a>Varastokausien sulkeminen
 
 **Suljettu**-kenttä osoittaa, onko varastokausi suljettu varaston arvon muutoksilta. Et voi muokata tätä kenttää.  
 

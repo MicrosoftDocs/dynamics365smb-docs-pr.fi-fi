@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Yrityksen kassavirran analysoiminen
+# <a name="analyze-cash-flow-in-your-company"></a>Yrityksen kassavirran analysoiminen
 Kirjanpitäjän roolikeskuksesta saa merkityksellisiä tietoja, joiden avulla voi päättää järkevästi käteisvarojen käytöstä.  
 
 | Vastattava kysymys | Käytettävä kaavio |

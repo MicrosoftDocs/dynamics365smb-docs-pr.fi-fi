@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Poiminta tuotantoa, kokoonpanoa tai töitä varten fyysisen varaston lisämäärityksissä
+# <a name="pick-for-production-assembly-or-projects-in-advanced-warehouse-configurations"></a>Poiminta tuotantoa, kokoonpanoa tai töitä varten fyysisen varaston lisämäärityksissä
 
 Tuotantoon, projekteihin tai koonpanotilauksiin poimittujen komponenttien hyllytystapa määräytyy sen mukaan, miten fyysinen varasto on määritetty sijaintina. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).
 
@@ -113,7 +113,7 @@ Projektin komponentteja voi poimia työnkulussa projektinhallintaan **F.varastoi
 
 8. Valitse **OK**-painike.  
 
-## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Tuotantotilauksen, kokoonpanotilauksen, projektin nimikkeiden poimiminen
+## <a name="to-pick-items-for-a-production-order-assembly-order-or-project"></a>Tuotantotilauksen, kokoonpanotilauksen, projektin nimikkeiden poimiminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poiminnat** ja valitse sitten vastaava linkki.  
 

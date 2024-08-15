@@ -24,7 +24,7 @@ Voit myös esimerkiksi määrittää *Osasto*-nimisen dimension ja käyttää si
 * nimikkeen myyjä.
 * kuka asiakas osti sen.
 
-## <a name="analyzing-by-dimensions"></a>Analyysi dimensioittain
+## <a name="analyze-by-dimensions"></a>Analyysi dimensioittain
 
 Dimensiot ovat tärkeä osa liiketoimintatietoja esimerkiksi analyysinäkymiä määritettäessä. Lue lisätietoja kohdasta [Analysoi tietoja dimensioiden mukaan](bi-how-analyze-data-dimension.md).
 
@@ -40,7 +40,7 @@ Dimensioyhdistelmä on dimensioarvojen yksilöllinen yhdistelmä. Ne tallennetaa
 
 Kun luot päiväkirjarivin, asiakirjaotsikon tai asiakirjarivin, voit määrittää dimensioarvojen yhdistelmän. Sen sijaan, että tallentaisit jokaisen dimensioarvon erikseen tietokantaan, dimensioyhdistelmä määritetään päiväkirjan rivillä, asiakirjaotsikossa tai asiakirjan rivillä dimensioyhdistelmän tunnuksen avulla.  
 
-## <a name="setting-up-dimensions"></a>Dimensioiden luominen
+## <a name="set-up-dimensions"></a>Dimensioiden luominen
 
 Voit määrittää päiväkirjojen ja asiakirjojen, kuten myynti- ja ostotilausten, luokitteluun käytettävät dimensiot ja dimension arvot. Dimensiot määritetään **Dimensiot**-sivulla, jossa kullekin dimensiolle luodaan yksi rivi. Dimensioita ovat esimerkiksi *Projekti*, *Osasto*, *Alue* ja *Myyjä*.
 

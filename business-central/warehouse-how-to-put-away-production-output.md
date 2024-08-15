@@ -33,7 +33,7 @@ Tuotoksen hyllytyksen luonnin ensimmäinen vaihe on luoda saapuvan varastoinnin 
 > [!NOTE]  
 > Voit luoda saapuvan fyysisen varastoinnin pyynnön myös valitsemalla **Luo saapuva pyyntö** --kentän, kun päivität tuotantotilauksen. Lisätietoja on kohdassa [Tuotantotilausten päivittäminen tai uudelleensuunnittelu](production-how-to-replan-refresh-production-orders.md).  
 
-### <a name="to-put-output-away-with-an-inventory-put-away"></a>Nimikkeiden hyllyttäminen varastohyllytyksen avulla
+### <a name="to-put-away-output-with-an-inventory-put-away"></a>Nimikkeiden hyllyttäminen varastohyllytyksen avulla
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston hyllytys** ja valitse sitten vastaava linkki.  
 2. Luo uusi varaston hyllytys. Lisätietoja on kohdassa [Nimikkeiden hyllyttäminen varaston hyllytyksen avulla](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
@@ -49,7 +49,7 @@ Kun kirjaat varastohyllytyksen, oletuksena on, että kaikki toiminnot kirjataan 
 
 Jos vain viimeisen toiminnon määritys- tai ajoaika on kirjattava, määritä viimeisen toiminnon tuotoksen määräksi 0. Viimeinen rivi voidaan jättää kirjaamatta myös poistamalla se.
 
-## <a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a>Kokoonpanon tai tuotannon tuloksen hyllytys laajennetuissa varastointimäärityksissä
+## <a name="to-put-away-assembly-and-production-output-in-advanced-warehouse-configurations"></a>Kokoonpanon tai tuotannon tuloksen hyllytys laajennetuissa varastointimäärityksissä
 
 Kun kirjaat tuotanto- tai kokoonpanotilauksen tuotoksen fyysiseen varastoon, joka käyttää ohjattua hyllytystä ja poimintaa, tuotos sijoitetaan varastopaikkaan, joka on määritetty tuotanto- tai kokoonpanotilauksessa. Lisätietoja erilaisista tavoista siirtää nimikkeitä fyysisessä varastossa laajennettujen määritysten avulla on kohdassa [Nimikkeiden siirtäminen laajennetuissa varastomäärityksissä](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet).
 

@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Toimittajan maksujen ehdottaminen
+# <a name="suggest-vendor-payments"></a>Toimittajan maksujen ehdottaminen
 
 Voit ehdottaa maksurivejä käyttämällä **Maksupäiväkirja**-sivulla **Ehdota toimittajamaksuja** -eräajoa. [!INCLUDE [prod_short](includes/prod_short.md)] ehdottaa asetuksiin perustuvia rivejä:
 
@@ -31,14 +31,14 @@ Maksuehdotuksia voi hyödyntää täysimääräisesti, kun toimittajat on priori
 > * erääntyneissä toimittajatapahtumissa, joita ei ole priorisoitu  
 > * Avoimissa toimittajatapahtumissa, joissa voi käyttää maksualennuksia. Tapahtumat on järjestetty toimittajan numeron mukaan.  
 
-## Ehdota toimittajamaksuja -toiminnon käyttäminen
+## <a name="use-the-suggest-vendor-payments-action"></a>Ehdota toimittajamaksuja -toiminnon käyttäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksupäiväkirjat** ja valitse sitten vastaava linkki.  
 2. Avaa päiväkirja ja valitse **Ehdota toimittajamaksuja** -toiminto.  
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Valitse **OK**-painike.  
 
-## Eräpäivän lisääminen maksupäiväkirjan rivien kirjauspäivämääräksi
+## <a name="insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Eräpäivän lisääminen maksupäiväkirjan rivien kirjauspäivämääräksi
 
 Kun **Ehdota toimittajamaksuja** -eräajoa käytetään toimittajien maksurivien luomisessa, täyttämällä kaksi erikoiskenttää voi varmistaa, että luodut rivit käyttävät eräpäivää kirjauspäivämäärän laskemisessa. Nämä kentät ovat **Laske kirjauspvm kohdistetaan asiakirjaan -kentästä. Eräpäivä** ja **Kohdistetaan asiakirjaan Eräpäivän vastakirjaus**.  
 
@@ -52,7 +52,7 @@ Voit myös luoda maksurivejä manuaalisesti niin, että eräpäivää käytetä�
 > [!NOTE]  
 > Jos ostolasku on myöhässä, kirjauspäivämäärä määritetään käsittelypäivämääräksi ja rivin fontti muuttuu punaiseksi.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 - [Ostovelkojen hallinta](payables-manage-payables.md)  
 - [Maksujen suorittaminen](payables-make-payments.md)  

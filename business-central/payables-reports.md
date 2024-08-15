@@ -10,19 +10,19 @@ ms.search.form: '347, Report_301, Report_304, Report_305, Report_312, Report_317
 ms.date: 07/15/2024
 ms.service: dynamics-365-business-central
 ---
-# Ostovelkojen raportit ja analytiikka
+# <a name="accounts-payable-reports-and-analytics"></a>Ostovelkojen raportit ja analytiikka
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa on valmiita raportteja ja analytiikkaa, jotka voivat auttaa hallitsemaan ostovelkoja. Työkalut ylittävät perinteisen raportoinnin rajoitukset, ja helpottavat erityyppisten raporttien suunnittelua.  
 
-## Raportit
+## <a name="reports"></a>Raportit
 
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
 
-## Talousraporttien tutkiminen Report Explorerin avulla
+## <a name="explore-finance-reports-with-report-explorer"></a>Talousraporttien tutkiminen Report Explorerin avulla
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Taloustietojen tapauskohtainen analyysi](ad-hoc-analysis-finance.md)  
 [Talousanalytiikka](bi.md)  

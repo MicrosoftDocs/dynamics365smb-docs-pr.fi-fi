@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Vastuupaikkojen käsitteleminen
+# <a name="work-with-responsibility-centers"></a>Vastuupaikkojen käsitteleminen
 
 Vastuupaikat mahdollistavat hallintakeskusten käsittelemisen. Vastuupaikka voi olla kustannuspaikka, kannattavuuspaikka, sijoituspaikka tai muu yrityksen määrittämä hallintapaikka. Vastuupaikkoja ovat esimerkiksi myyntitoimistot, usean sijainnin osto-osastot sekä tehtaan suunnittelutoimistot. Yritykset voivat esimerkiksi määrittää käyttäjäkohtaiset näkymät tiettyyn vastuupaikkaan liittyville osto- ja myyntiasiakirjoille.  
 
@@ -19,7 +19,7 @@ Useiden sijaintien käyttäminen yhdessä vastuupaikan kanssa mahdollistaa yrity
 
 Useat sijainnit mahdollistavat sen, että yritykset voivat hallita varastoaan useissa sijainneissa yhden tietokannan avulla. Tämän rakeen kaksi tärkeintä konseptia ovat sijainnit ja varastointiyksiköt. Sijainti on paikka, joka käsittelee nimikkeiden fyysistä sijoittelua ja määriä. Konsepti on niin laaja, että se kattaa esimerkiksi voimalat tai tuotantolaitokset ja jakelukeskukset, varastot, näyttelytilat ja huoltoajoneuvot. Varastointiyksikkö on tietyssä sijainnissa oleva nimike ja/tai variantti. Varastointiyksiköiden avulla useissa paikoissa toimivat yritykset voivat lisätä täydennystietoja, osoitteita ja taloudellisia kirjaustietoja sijaintitasolla. Tämän seurauksena ne voivat täydentää saman nimikkeen variantteja kunkin sijainnin ja tilausnimikkeiden osalta sijaintikohtaisten täydennystietojen perusteella.  
 
-## Vastuupaikkojen luominen
+## <a name="to-set-up-a-responsibility-center"></a>Vastuupaikkojen luominen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vastuupaikat** ja valitse sitten vastaava linkki.  
 2. Valitse **Uusi**-toiminto.  
@@ -34,7 +34,7 @@ Tätä koodia käytetään kaikissa osto-, myynti- ja huoltoasiakirjoissa, jos k
 > [!NOTE]  
 > Kun syötät asiakirjaan vastuupaikan koodin, se vaikuttaa asiakirjan osoitteeseen, dimensioihin ja hintoihin.  
 
-## Vastuupaikkojen liittäminen käyttäjiin
+## <a name="to-assign-responsibility-centers-to-users"></a>Vastuupaikkojen liittäminen käyttäjiin
 
 Voit määrittää käyttäjät siten, että [!INCLUDE [prod_short](includes/prod_short.md)] hakee vain kyseiseen aihealueeseen liittyvät asiakirjat. Käyttäjät on liitetty yhteen vastuupaikkaan, ja he työskentelevät vain sen vastuupaikan tiettyihin sovellusalueisiin liittyvien asiakirjojen parissa.  
 
@@ -49,7 +49,7 @@ Määritä tämä määrittämällä vastuupaikat käyttäjille kolmella toimint
 > [!NOTE]  
 > Käyttäjät voivat tarkastella vain omaan vastuukeskukseensa liittyviä kirjattuja asiakirjoja. He voivat kuitenkin tarkastella kaikkia kirjapintotapahtuma ja siirtyä muihin kirjattuihin asiakirjoihin kirjanpitotapahtumista.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Varaston määrittäminen](inventory-setup-inventory.md)    
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)    

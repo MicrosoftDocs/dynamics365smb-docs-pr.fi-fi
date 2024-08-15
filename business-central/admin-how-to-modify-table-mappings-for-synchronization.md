@@ -28,7 +28,7 @@ Kun luot yhteyden sovellusten välille, [!INCLUDE[prod_short](includes/prod_shor
 >
 > Jotta suorituskyky ei hidastuisi, voit ottaa käyttöön tai poistaa käytöstä tapahtumapohjaisen tietojen synkronoinnin mihin tahansa taulukkoon **integrointi taulukon yhdistämiset** -sivulla. Oletusarvon mukaan tapahtumiin perustuva synkronointi on käytössä, joten aiemmin luodut integroinnit eivät muutu. Järjestelmänvalvoja voi ottaa sen käyttöön tai poistaa sen käytöstä tiettyjen taulukoiden osalta.
 
-### <a name="additional-mappings"></a>Lisäyhdistämismääritykset
+### <a name="add-table-and-field-mappings-to-existing-integration-tables"></a>Lisäyhdistämismääritykset
 
 Maksuehdot, toimitusehdot ja kuljetusliikkeet voivat muuttua. Näiden tietojen muuttaminen voi olla tärkeää. Jos otat käyttöön **Ominaisuuden päivitys: Liitä Dataverseen asetusjoukkoihin ilman koodi** -ominaisuuden [Ominaisuuksien hallinta](https://businesscentral.dynamics.com/?page=2610) -sivulla, voit manuaalisesti lisätä integrointitaulukon yhdistämispäivitykset maksuehdoille (PAYMENT TERMS), toimitusehdoille (SHIPMENT METHOD) ja kuljetusliikkeille (SHIPPING AGENT). Tämän yhdistämismäärityksen avulla voit varmistaa, että [!INCLUDE[prod_short](includes/cds_long_md.md)] ja [!INCLUDE[cds_long_md](includes/cds_long_md.md)] omaavat samat käytännöt asetuksissaan.
 

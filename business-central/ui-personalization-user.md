@@ -27,7 +27,7 @@ Voit tehdä erilaisia muutoksia, kuten siirtää tai piilottaa kenttiä, sarakke
 > Järjestelmänvalvojat voivat tehdä samat asettelun muutokset kuin käyttäjät mukauttamalla profiilia (roolia), jolle on määritetty useita käyttäjiä. Saat lisätietoja roolien sivuista valitsemalla [Roolien sivujen mukauttaminen](ui-personalization-manage.md)<br /><br />
 Järjestelmänvalvojat voivat myös ohittaa käyttäjien mukauttamiset tai poistaa ne käytöstä sekä määrittää, mitkä ominaisuudet käyttäjät näkevät kaikissa tai tietyissä yrityksissä. Lisätietoja on kohdassa [Business Centralin mukauttaminen](ui-customizing-overview.md).
 
-## <a name="video"></a>Video
+## <a name="video-and-training"></a>Video
 
 Seuraava video näyttää joitakin tapoja, joilla voit mukauttaa roolikeskuksesi.
 

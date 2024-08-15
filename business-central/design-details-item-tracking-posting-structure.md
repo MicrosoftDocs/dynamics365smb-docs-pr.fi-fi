@@ -25,13 +25,13 @@ Tilausverkon yksiköiden ja tilausverkon ulkopuolisten yksiköiden nimikkeen seu
   
 Olemassa olevan **Kirjausnro** -kentän toiminnallisuus, joka liittyy nimikkeen pääkirjan kirjaukseen tiliöityyn asiakirjariviin, käsittelee tyypillistä yksi yhteen -suhdetta, kun nimikkeen seurantanumeroita ei ole tiliöidyllä asiakirjarivillä. Jos nimikkeen seurantanumerot on olemassa, **Tapahtumanro**-kenttä jätetään tyhjäksi ja **Nimiketapahtuman suhde**-taulukko käsittelee yhden suhde moneen -suhdetta. Jos kirjatulla asiakirjarivillä on nimikkeen seurantanumeroita, mutta ne liittyvät vain yksittäiseen nimiketapahtumaan, **Tapahtumanro**-kenttä käsittelee suhteen ja **Nimiketapahtuman suhde**-taulukossa ei luoda tietuetta.  
   
-## <a name="codeunits-80-and-90"></a>Koodiyksiköt 80 ja 90
+## <a name="codeunits-80-sales-post--and-90-purch-post"></a>Koodiyksiköt 80 ja 90
 Jos haluat jakaa nimiketapahtumat kirjauksen aikana, koodiyksikön 80 ja 90 koodi ympäröidään silmukoilla, jotka suoritetaan yleisen väliaikaisen tietueen muuttujien kautta. Tämä koodi kutsuu koodiyksikköä 22 ja nimikepäiväkirjan riviä. Nämä muuttujat alustetaan silloin, kun asiakirjan rivillä on nimikkeiden seurantanumerot. Kun tätä silmukkarakennetta käytetään aina, koodi pysyy yksinkertaisena. Jos asiakirjarivillä ei ole nimikkeen seurantanumeroita, yksittäinen tietue lisätään ja silmukka suoritetaan vain kerran.  
   
 ## <a name="posting-the-item-journal"></a>Nimikepäiväkirjan kirjaaminen
 Nimikkeen seurantanumerot siirretään varaustapahtumien kautta, jotka liittyvät nimiketapahtumaan ja kierrätys nimikkeen seurantanumeroiden läpi tapahtuu koodiyksikössä 22. Tämä käsite toimii samalla tavalla kuin nimikepäiväkirjariviä käytetään epäsuorasti myynti- tai ostotilauksen kirjaamiseen samalla tavalla kuin nimikepäiväkirjariviä käytetään suoraan. Kun nimikepäiväkirjaa käytetään suoraan, **Lähderivin tunnus** -kenttä osoittaa nimikepäiväkirjan riviin.  
   
-## <a name="code-unit-22"></a>Koodiyksikkö 22
+## <a name="code-unit-22--item-jnl-post-line"></a>Koodiyksikkö 22
 Koodiyksiköt 80 ja 90 käyvät silmukassa läpi koodiyksikön 22 kutsun nimikkeen seurantanumeroiden laskujen kirjauksen aikana ja vastaanottojen olemassa olevien toimitusten laskutuksen aikana.  
   
 Nimikkeen seurantanumeroiden määräkirjauksen aikana koodiyksikkö 22 noutaa seurantanumerot kirjaukseen liittyvistä tapahtumista kohteesta T337. Nämä tapahtumat asetetaan suoraan nimikepäiväkirjan riville.  

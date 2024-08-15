@@ -11,11 +11,11 @@ ms.date: 05/16/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Nimikeviittausten käyttäminen
+# <a name="use-item-references"></a>Nimikeviittausten käyttäminen
 
 Jos ostat tai myyt nimikkeitä, joissa sinä sekä toimittaja tai asiakas käyttävät erilaisia ehtoja, nimikkeiden ehtojen ja kyseisen nimikkeen asiakkaan tai toimittajan käyttämien ehtojen välille voidaan määrittää viittaus. Tällä tavoin toimittajan tai asiakkaan nimikkeen kuvaus, mittayksikkö tai varianttikoodi lisätään automaattisesti soveltuviin asiakirjoihin, kun tiedot annetaan **Nimikeviittauksen nro** -kentässä.  
 
-## Nimikeviittauksen määrittäminen
+## <a name="to-set-up-an-item-reference"></a>Nimikeviittauksen määrittäminen
 
 1. Valitse :::image type="icon" source="media/ui-search/search_small.png" border="false":::-kuvake, kirjoita **Nimikkeet** ja valitse sitten liittyvä linkki.
 2. Avaa sen nimikkeen kortti, jolle haluat luoda viittauksen.
@@ -27,7 +27,7 @@ Jos ostat tai myyt nimikkeitä, joissa sinä sekä toimittaja tai asiakas käytt
 
 Seuraavaksi käsitellään nimikeviittauksen määrittämistä ostotilauksessa. Vastaavat ohjeet koskevat myyntiasiakirjoja ja muita ostoasiakirjoja.  
 
-## Toimittajan nimikekuvauksen antaminen asiakirjassa
+## <a name="to-enter-a-vendors-item-description-on-a-document"></a>Toimittajan nimikekuvauksen antaminen asiakirjassa
 
 1. Valitse :::image type="icon" source="media/ui-search/search_small.png" border="false":::-kuvake, kirjoita **Ostotilaukset** ja valitse sitten liittyvä linkki.
 2. Luo ostotilaus toimittajalle, jolle määritit nimikkeen viittauksen edellisessä menettelyssä.
@@ -36,7 +36,7 @@ Seuraavaksi käsitellään nimikeviittauksen määrittämistä ostotilauksessa. 
 
 Rivin **Kuvaus**-kentän tiedot on korvattu toimittajan nimikkeen kuvauksella nimikkeen viittaustapauksessa määritetyllä tavalla. Jos nimikeviittaus sisältää varianttikoodin tai mittayksikön, myös nämä arvot kopioidaan asiakirjaan.  
 
-## Viivakoodien skannaaminen Business Central -mobiilisovelluksen kanssa
+## <a name="scan-barcodes-with-the-business-central-mobile-app"></a>Viivakoodien skannaaminen Business Central -mobiilisovelluksen kanssa
 
 [!INCLUDE [barcode-mobile-app](includes/barcode-mobile-app.md)]
 
@@ -50,7 +50,7 @@ Seuraavassa taulukossa ovat sivut, jotka tukevat nimikeviittausten viivakoodien 
 |Ostorivi     |   Nimikeviittauksen nro      |
 |Myyntirivi     | Nimikeviittauksen nro        |
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Uusien nimikkeiden rekisteröiminen](inventory-how-register-new-items.md)  
 [Varasto](inventory-manage-inventory.md)  

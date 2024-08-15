@@ -76,7 +76,7 @@ Lisätietoja on kohdassa [Business Central -välilehden lisääminen Teamsiin](a
 3. [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen Teamsiin. Katso [Asenna [!INCLUDE [prod_short](includes/prod_short.md)] -sovellus Microsoft Teamsiin](across-install-app-for-teams.md).
 4. Kun sovellus on asennettu, olet valmis aloittamaan. Lisätietoja on kohdassa [Asiakkaiden, toimittajien ja muiden yhteystietojen etsiminen Microsoft Teams](across-search-contacts-teams.md)issa ja [Jaa tietueita Microsoft Teams](across-working-with-teams.md)issa.
 
-## <a name="see-also"></a>Katso myös
+## <a name="related-information"></a>Katso myös
 
 [Teams – usein kysytyt kysymykset](teams-faq.md)  
 [Vianetsintä – Teams](admin-teams-troubleshooting.md)  

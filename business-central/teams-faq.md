@@ -441,7 +441,7 @@ Tällä hetkellä Jaa Teamsiin -toiminto on saatavilla työpöydän verkkoasiakk
 **Jaa Teamsiin -toiminto** löytyy kaikkien sivujen **Jaa**-valikosta, kuten kortti- ja asiakirjasivuista, luettelo- tai laskentataulukko-sivuista, mukaan lukien mukautetut sivut. Toiminto ei ole käytettävissä valintaikkunoissa tai sivuissa, jotka näkyvät valintaikkunoina, kuten hakusivuissa tai ohjatuissa toiminnoissa.
 
 ---
-## <a name="see-also"></a>Katso myös
+## <a name="related-information"></a>Katso myös
 
 [[!INCLUDE [prod_short](includes/prod_short.md)]in ja Microsoft Teamsin integroinnin yleiskatsaus](across-teams-overview.md)  
 [Microsoft Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen](across-install-app-for-teams.md)  

@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Tuoterakenteen käyttäminen
+# <a name="work-with-bills-of-material"></a>Tuoterakenteen käyttäminen
 
 Tuoterakenteilla voi jäsentää päänimikkeet, jotka resurssien tai kuormituskeskusten on koottava muista nimikkeistä tai tuotettava komponenteista.
 
-## Kokoonpanon tuoterakenteet tai tuotannon tuoterakenteet
+## <a name="assembly-boms-or-production-boms"></a>Kokoonpanon tuoterakenteet tai tuotannon tuoterakenteet
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tukee kahta seuraavaa erityyppistä tuoterakennetta:
 
@@ -36,7 +36,7 @@ Tuotannossa olevien resurssien konsepti on paljon kehittyneempi kuin kokoonpanon
 
 Sekä kokoonpanotilaukset että tuotantotilaukset voidaan linkittää suoraan myyntitilauksiin. Voit käyttää kokoonpanotilauksia kuitenkin vain loppunimikkeen mukauttamiseen suoraan asiakkaan pyynnöstä myyntitilauksessa
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Kokoonpanon tuoterakenteiden käsitteleminen](assembly-how-work-assembly-boms.md)    
 [Tuotannon tuoterakenteiden luominen](production-how-to-create-production-boms.md)    

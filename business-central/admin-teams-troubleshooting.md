@@ -174,7 +174,7 @@ Tämä ongelma johtuu siitä, että sinulla ei ole asennettuna BC-sovellusta Tea
 Tämä ongelma johtuu todennäköisesti siitä, että olet jakanut oman näkymän luettelonäkymänä. Tässä tapauksessa voit työskennellä yhdessä järjestelmänvalvojan kanssa ja luoda joko roolikohtaisia luettelonäkymiä, jotka peittävät kanavan/keskustelun eri roolit, tai luoda tämän näkymän koko organisaatiolle, jotta kaikki voivat saada yhdenmukaisen näkymän.
 
 
-## <a name="see-also"></a>Katso myös
+## <a name="related-information"></a>Katso myös
 
 [[!INCLUDE [prod_short](includes/prod_short.md)]in ja Microsoft Teamsin integroinnin yleiskatsaus](across-teams-overview.md)  
 [Microsoft Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen](across-install-app-for-teams.md)  

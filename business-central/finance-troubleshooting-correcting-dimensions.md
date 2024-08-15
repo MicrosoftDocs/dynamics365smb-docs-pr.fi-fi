@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="troubleshooting-and-correcting-dimensions"></a>Dimensioiden vianmääritys ja korjaaminen
+# <a name="troubleshoot-and-correct-dimensions"></a>Dimensioiden vianmääritys ja korjaaminen
 
 Talousraportointi ja analyysinäkymät perustuvat usein dimensioiden tietoihin. Käytettävissä olevista turvatoimista huolimatta tapahtuu joskus vahinkoja, jotka johtavat epätarkkuuksiin. Tässä artikkelissa kuvataan joitakin tyypillisiä virheitä ja kerrotaan, miten kirjattujen tapahtumien dimensiomääritykset korjataan talousraporttien saattamiseksi ajan tasalle.
 
@@ -45,14 +45,14 @@ Jos havaitset, että kirjatuissa pääkirjanpidon tapahtumissa on virheellinen d
 > [!IMPORTANT]
 > Dimensioiden korjaamisen ominaisuuksien tavoite on saattaa talousraportointi ajan tasalle. Dimensioiden korjaukset koskevat vain KP-tapahtumia. Ne eivät muuta saman tapahtuman muiden kirjanpitojen tapahtumiin määritettyjä dimensioita. Pääkirjanpitoon ja alikirjanpitoon liitettyjen dimensioiden välillä siis on ristiriita.
 
-### <a name="setting-up-dimension-corrections"></a>Dimension korjausten määrittäminen
+### <a name="set-up-dimension-corrections"></a>Dimension korjausten määrittäminen
 
 Dimension korjauksia määritettäessä on otettava huomioon kaksi seikkaa:
 
 * Ovatko jotkin dimensiot sellaisia, joita muuttamista ei haluta sallia? Määritä **Dimension korjauksen asetukset** -sivulla dimensiot, joissa haluat estää muutokset.
 * Kuka voi muuttaa dimensioita? Käyttäjät, jolle on määritetty **D365 DIMENSIOIDEN KORJAUS** -oikeus, voivat tehdä muutoksia. Näillä oikeuksilla voidaan luoda dimension korjauksia, suorittaa niitä ja kumota ne tarvittaessa. Ne voivat myös määrittää estetyt dimensiot. Lisätietoja on kohdassa [Käyttöoikeuksien määrittäminen käyttäjille ja ryhmille](ui-define-granular-permissions.md). 
 
-### <a name="correcting-a-dimension"></a>Dimension korjaaminen
+### <a name="correct-a-dimension"></a>Dimension korjaaminen
 
 Voit valita manuaalisesti vähintään yhden kirjanpitotapahtuman tai voit valita tapahtumajoukon suodattamia käyttämällä. Voit tarvittaessa myös lisätä tai poistaa dimensioita. 
 
@@ -82,13 +82,13 @@ Voit valita manuaalisesti vähintään yhden kirjanpitotapahtuman tai voit valit
 5. Korjauksen voi vahvistaa valitsemalla **Vahvista dimension muutokset**. Lisätietoja on kohdassa [Dimension korjausten vahvistaminen](finance-troubleshooting-correcting-dimensions.md#validating-dimension-corrections).
 6. Valitse **Suorita**.
 
-### <a name="validating-dimension-corrections"></a>Dimension korjausten vahvistaminen
+### <a name="validate-dimension-corrections"></a>Dimension korjausten vahvistaminen
 
 Korjaus kannattaa vahvistaa, ennen kuin se suoritetaan. Vahvistus tarkistaa KP-tilille kirjattavien arvojen rajoitukset ja dimensioiden rajoitukset sekä mahdollisesti estetyt dimension arvot. Vahvistuksen aikana korjauksen tilaksi on määritetty **Keskeneräinen vahvistus**. Kun korjaus on vahvistettu, tulos näytetään **Vahvistuksen tila** -kentässä. Jos virheitä löytyi, niihin voi perehtyä **Näytä virheet** -toiminnolla. Kun virhe on korjattu, käytä **Avaa uudelleen** -toimintoa korjauksen suorittamiseen tai uuden vahvistukseen.
 
 Voit suorittaa korjauksen joko heti tai aikatauluttaa sen suorittavaksi myöhemmin. Jos korjauksia suoritetaan suuressa tietojoukossa, se kannattaa aikatauluttaa suoritettavaksi työajan ulkopuolella. Lisätietoja on kohdassa [Suurten tietojoukkojen dimension korjaukset](finance-troubleshooting-correcting-dimensions.md#dimension-corrections-on-large-data-sets).
 
-### <a name="undoing-a-correction"></a>Korjauksen kumoaminen
+### <a name="undo-a-correction"></a>Korjauksen kumoaminen
 
 Jos pidä dimension korjauksen tuloksesta, voit palauttaa aiemman arvon käyttämällä **Kumoa**-toimintoa. Kuitenkin vain viimeisin korjaus voidaan kumota. Voit vahvistaa ennen korjauksen kumoamista, mitkä muutokset ovat kumoamistoiminnon tuloksia. Vahvistus on kätevää, jos esimerkiksi dimension rajoitukset ovat muuttuneet korjauksen jälkeen.
 
@@ -102,11 +102,11 @@ Suuria tapahtumajoukkoja, joissa on esimerkiksi yli 10 000 tapahtumaa, korjattae
 
 Jos **Päivitä kirjattaessa** on otettu käyttöön analyysinäkymässä, [!INCLUDE[prod_short](includes/prod_short.md)] voi päivittää, mitkä asiakirjat ja päiväkirjat on kirjattu. Myös näkymät voidaan päivittää, kun tämä asetus on otettu käyttöön dimension korjaustuloksissa. Asetus otetaan käyttöön **Päivitä analyysinäkymät**-vaihtopainikkeella. Analyysinäkymien päivittäminen voi vaikuttaa suorituskykyyn, etenkin jos kyse on suurista tietojoukoista, joten vain pienien tietojoukkojen analyysinäkymien päivittämistä suositellaan.  
 
-### <a name="viewing-historical-dimension-corrections"></a>Historiallisten dimension korjausten näyttäminen
+### <a name="view-historical-dimension-corrections"></a>Historiallisten dimension korjausten näyttäminen
 
 Jos kirjapitotapahtuma on korjattu, muutosta voi tarkastella **Dimension korjaushistoria** -toiminnolla.
 
-### <a name="handling-incomplete-corrections"></a>Keskeneräisten korjausten käsitteleminen
+### <a name="handle-incomplete-corrections"></a>Keskeneräisten korjausten käsitteleminen
 
 Jos korjaus on keskeneräinen, korjauskortissa näkyy varoitus. Korjauksen voi siinä tapauksessa palauttaa luonnostilaan ja muutokset kumota **Palauta**-toiminnolla. Korjauksen voi suorittaa sitten uudelleen.
 

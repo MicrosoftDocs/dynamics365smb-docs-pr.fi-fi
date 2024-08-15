@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Varaustapahtuma-taulukko - Johdatus
+# <a name="reservation-entry-table---introduction"></a>Varaustapahtuma-taulukko - Johdatus
 
 Tässä teknisessä valkoisessa paperissa *on ohjeita, jotka auttavat ymmärtämään ja vianetsintään varaustapahtuma-taulukon* (taulukko 337) epäjohdonmukaisuuksia Microsoft Dynamics NAV. Ensimmäinen osa on tämän taulukon tietoja luovien tai muokkaavien toimintojen esittely. Se kattaa myös useita Varaustapahtuma-taulukon *kenttiä*, jotka kannattaa osoittaa näiden ominaisuuksien yhteydessä. Toisessa osassa havainnollistetaan esimerkeillä, miten Varaustapahtuma-taulukon *tapahtumia* luodaan, poistetaan tai muokataan silloin, kun siirtotilauksia käsitellään tai suunnittelutoimintoja suoritetaan.
 
@@ -28,9 +28,9 @@ Varaustapahtuma-taulukkoon *luodut tiedot määräytyvät* yleisesti ottaen sen 
 - Nimikkeen tai varastointiyksikön suunnitteluparametrit kortti
 - Nimikkeen seurantakoodi
 
-## Ominaisuudet, jotka päivittävät Varaustapahtuma-taulukon
+## <a name="features-that-update-the-reservation-entry-table"></a>Ominaisuudet, jotka päivittävät Varaustapahtuma-taulukon
 
-### Tilauksen seurannan menettelytapa
+### <a name="order-tracking-policy"></a>Tilauksen seurannan menettelytapa
 
  **Jos nimikkeen Tilauksen seurantatapa** -kentän arvoksi on määritetty Ei mitään, Microsoft Dynamics NAV  varaustapahtuma-taulukkoon *ei luoda varaustapahtumia*, ellei Nettomuutossuunnitelma- tai Uudelleensuunnittelu-, Varaus- tai Nimikeseurantaa suoriteta. Lisäksi ilman tilauksen seurantaa voi olla varaustapahtumia, kun käytetään Tuotanto-tilaus- tai Kokoonpano-tilaukseen -käytäntöjä.
 
@@ -51,7 +51,7 @@ Vaihe **2 luodun varauksen tila** päivitetään Seuranta-tilaksi, ja Microsoft 
 > [!NOTE]  
 > Seurantatoiminto ei korvaa suunnittelutoimintoa, joka ottaa kaikki nimikkeet, vaatimukset ja tarvikkeet huomioon ja tarjoaa optimaaliset suunnitteluehdotukset asiakaspalvelutasojen optimoimiseksi ja varastotasojen tasapainottamiseksi.
 
-### Varaustapa
+### <a name="reservation-policy"></a>Varaustapa
 
 Varaus koostuu Varaustapahtuma-taulukon tietueparista *, jolla on* varauksen tila **ja jolla on sama tapahtumanumero.**  Yhdessä tietueessa Positiivinen-kenttä on käytössä ja se osoittaa tarjontaan. Toisen tietueen Positiivinen-kenttä **ei** ole käytössä ja se osoittaa kysyntään. Lähdetyyppi- **, Lähdeviitteen nro**- ja **Lähdetunnus-kentissä** **korostetaan kysynnän ja tarjonnan välistä varauslinkkiä** .
 
@@ -122,7 +122,7 @@ Microsoft Dynamics NAV näyttöön tulee seuraava varoitussanoma:
 
 Tässä kentässä on esimerkki automaattisten varausten ja tilausten seurannan välisestä vuorovaikutuksesta. Esimerkeistä käy ilmi, mitä tapahtuu, kun muutat eräpäiviä, ja virhesanoma, joka käynnistyy silloin, kun varausristiriita ilmenee.
 
-### Laskettu suunnittelu
+### <a name="planning-calculated"></a>Laskettu suunnittelu
 
 Suunnittelu, joka tehdään tilauksen suunnittelun, hankintalistan tai suunnittelutyökirjan avulla, luo tapahtumia *Varaustapahtuma-taulukkoon*  **. Varauksen tila** -kentän arvona on Seuranta, Varaus tai Ylijäämä. Aina tulisi olla vastaava pari, jolla on sama Tapahtumanumero. jos tila on Seuranta tai Varaus, Määrä (perus) **-kentässä on positiivinen ja negatiivinen arvo** .  **Lähdetyyppi-kenttä** on kysyntätyyppi eli negatiivisen määrän taulukko 37 ja positiivisen määrän suunnittelutaulukko, esimerkiksi taulukko 246. Lähdetunnus-kenttä **on** SUUNNITTELU.
 
@@ -145,7 +145,7 @@ Tapahtumat luodaan suunnitteluajon aikana ja ne selvittävät, mistä tilauksen 
 
 Varaustapahtuma-taulukossa *·*, kuten Osto-, Siirto- ja Tuotantotilauksissa, on Suunnittelun **joustavuus** -kenttä. Tässä asetuskentässä määritetään, ottaako suunnittelujärjestelmä näiden toimitustilausten tarjonnan huomioon toimenpideviestien laskennassa. Jos kentässä on vaihtoehto Rajaton, suunnittelujärjestelmä sisällyttää rivin laskiessaan toimenpideviestejä. Jos kentässä on vaihtoehto Ei mitään, rivi on kiinteä, eikä sitä voi muuttaa. Suunnittelujärjestelmä ei sisällytä riviä toimenpideviestien laskentaan. Ominaisuutta hallitaan *Varaustapahtuma-taulukossa* samannimisen kentän avulla.
 
-### Uusintatilaus- ja tuotantotapa
+### <a name="reordering-and-manufacturing-policy"></a>Uusintatilaus- ja tuotantotapa
 
 Jos suunnitteluominaisuus toteutetaan sellaiselle nimikkeelle, jonka uusintatilaustavana on Tilaus, Varaustapahtuma-taulukkoon Microsoft Dynamics NAV luodaan tapahtumia *,*  joiden varaustila on Seuranta-sijaan Varaus.
 
@@ -153,7 +153,7 @@ Lähdetyyppi **-** ja **Lähdetunnus-kentät** vastaavat muiden uusintatilaustap
 
 Sidonta-kenttä **täytetään**, kun halutaan hallita tiettyä kysyntään sidottuja toimitustilauksia, esimerkiksi tuotantotilauksia, jotka on luotu suoraan myyntitilauksesta. Tässä kentässä näkyy Tilaus tilauskohtainen silloin, kun tapahtuma on sidottu erityisesti kysyntään tai tarjontaan (Automaattinen varaus). Kysyntä voi liittyä myynti- tai komponenttitarpeisiin.
 
-### Nimikeseuranta ja prospektin varaustapahtuma
+### <a name="item-tracking-and-prospect-reservation-entry"></a>Nimikeseuranta ja prospektin varaustapahtuma
 
 Prospektin varauksen tila voidaan luoda Microsoft Dynamics NAV  *Varaustapahtuma-taulukossa* silloin, kun tilausverkko-objekteja eli Tilauksen seurantaa ei käytetä. Esimerkiksi kulutuspäiväkirjan rivillä komponentille määritellään nimikeseuranta. Jos nimikettä on jo seurattu, Microsoft Dynamics NAV  lisää Prospektin varaustapahtumia voi kuitenkin luoda. Tämä käy ilmi tämän asiakirjan toisessa osassa siirtotilauksiin liittyvässäEXAMPLE 2 -kohdassa.
 
@@ -167,15 +167,15 @@ Koska nimiketapahtumilla on nimikeseurannan tiedot, varaus varaa epäsuoraan tie
 
 Lisätietoja Microsoft Dynamics NAV on asiakirjan lopussa olevassa Lisäresurssit-kohdassa luetelluissa teknisissä asiakirjoissa.
 
-### Lähde-alatyyppi-, Peruutettu toimenpideviesti-, Toimenpideviestin muutos- ja Estä peruutus -kentät
+### <a name="source-subtype-suppressed-action-msg-action-message-adjustment-and-disallow-cancellation-fields"></a>Lähde-alatyyppi-, Peruutettu toimenpideviesti-, Toimenpideviestin muutos- ja Estä peruutus -kentät
 
 Varaustapahtuma-taulukon Lähde-alatyyppi **-,** Peruutettu toimenpideviestin **muutos** **- ja** Estä peruutus - **kentät** *on kuvattu tässä osassa.*  Esimerkkitilanteissa havainnollistetaan Peruutettu toimenpideviesti -, **Toimenpideviestin** muutos **- ja** Peruuta peruutus - **kenttien käyttöä.**   **Toimenpideviestin muutos -** kenttää käytetään tilauksen seurantatavan toiminnolle Seuranta ja Toimenpideviesti.  **Peruuta peruutus -** kenttää käytetään kokoonpano-tilaukseen -ominaisuutta varten vuonna Microsoft Dynamics NAV 2013.
 
-#### Lähteen alatyyppi
+#### <a name="source-subtype"></a>Lähteen alatyyppi
 
 Lähteen **alatyyppi -** kenttä ilmaisee, mihin Alatyypin lähteeseen varaustapahtuma liittyy. Jos tapahtuma liittyy osto- tai myyntiriviin, kenttä kopioidaan rivin **Asiakirjatyyppi-kentästä** . Jos kenttä liittyy päiväkirjan riviin, ohjelma kopioi kentän päiväkirjarivin **Tapahtuman tyyppi** -kentästä.
 
-#### Laukkautettu toimenpideviesti
+#### <a name="suppressed-action-msg"></a>Laukkautettu toimenpideviesti
 
 Tukahdutettu **toimenpide msg.** -kenttä tallentaa tiedot silloin, kun aiemmin luotu tarjonta on jo osittain käsitelty, esimerkiksi silloin, kun ostotilaus on jo osittain vastaanotettu tai tuotantotilauksen kulutus on kirjattu sitä vastaan.
 
@@ -208,7 +208,7 @@ Taulukon 337 tapahtumanumerolla 28 on varaustilan Seuranta, joka vastaa nimiketa
 
 Tapahtumanro 30 on olemassa oleva ostotilaus, joka on vastaanotettu osittain määrällä 2. Tämän seurauksena **Varauksen tila -** kentän arvo on Ylijäämä, ja Microsoft Dynamics NAV se määrittää **Määrä (perus)** -kentän arvoksi *8*  (jäljellä oleva saldo) ja **Vaimennetun toiminnon määritteet.** -kenttä on käytössä.
 
-#### Toimenpideviesti muutos
+#### <a name="action-message-adjustment"></a>Toimenpideviesti muutos
 
 Toimenpideviestin **muutos** -kentässä näkyy tilauksen seurannan tarjontapuolen muutos, joka saadaan aikaan silloin, kun hyväksyt asiaan liittyvät toimenpideviestit. Tässä kentässä näkyy arvo vain silloin, kun sekä tilausseurannan että toimenpideviestien toiminnot ovat aktiivisia (Tilauksen seuranta -käytännöksi on asetettu Seuranta ja toimenpideviesti). Arvo lasketaan Toimenpideviestitapahtuma-taulukon *tietojen perusteella* (taulukko 99000849). Esimerkkinä käytetään seuraavaa:
 1. Avaa nimike 80002. Määritä seuraava kenttä:
@@ -224,7 +224,7 @@ Taulukon 337 tilatiedot näkyvät seuraavassa kuvassa.
 6. Tapahtumanumerolla 34 on toimenpideviestin muutos **-kenttä** taulukossa 337 käytössä 5 yksikössä, joiden varaustila on Ylijäämä. Kun myyntitilausta lisättiin 5 vaihe, varaus luotiin, Microsoft Dynamics NAV  koska tarjontaa tarvitaan enemmän.
 7.  **Avaa Suunnittelutyökirjat-sivu** ja **valitse** Aloitus-välilehden **Prosessi-ryhmässä**  **Hae toimenpideviestit**. Microsoft Dynamics NAV ehdottaa ostotilausmäärän kasvattamista 100:sta 105:een.
 
-#### Älä salli peruutusta
+#### <a name="disallow-cancellation"></a>Älä salli peruutusta
 
  **Peruuta peruutus -** kenttä ilmaisee, että varaustapahtuma edustaa myyntitilausrivin ja kokoonpanotilauksen välistä linkkiä. Varausta ei voi poistaa, koska sitä tarvitaan ylläpitämään synkronointia, joka ilmenee, kun nimike kootaan tilaukseen. Esimerkkinä käytetään seuraavaa:
 
@@ -253,7 +253,7 @@ Tapahtumanumerolla 82 varaustilan ylijäämä on 9 yksikköä varaston Kokoonpan
 
 Tapahtumanumerolla 86 on sitova tilaustilaus ja varauksen tilavaraus. Lisäksi **Peruuta peruutuksen peruutus -** kenttä on käytössä, koska kokoonpanokäytännöksi on määritetty Kokoonpano tilaukseksi nimikkeen Kokoonpano FG osalta. Suunnittelun **joustavuus** -kentän arvoksi määritetään Ei mitään, koska Microsoft Dynamics NAV suunnittelulogiikka ei voi poistaa varausta.
 
-#### Poimittavissa ja varattavissa oleva määrä
+#### <a name="quantity-available-to-pick-and-reservations"></a>Poimittavissa ja varattavissa oleva määrä
 
 Varattu poiminta **ja toimitusmäärä** -kenttä taulukossa 337, joka on versioissa ennen Microsoft Dynamics NAV vuotta 2013, ohjaa nimikkeen saatavuutta hallinnoidussa fyysisessä varastossa. Kaikissa varastoinninhallinnan asennuksissa Microsoft Dynamics NAV nimikemääriä on sekä fyysisen varastoinnin tapahtumina että nimiketapahtumina. Näillä kahdella tapahtumatyypillä on eri tiedot siitä, missä nimikkeitä on ja onko niitä saatavilla. Fyysisen varastoinnin tapahtumat määrittävät nimikkeen saatavuuden varastopaikan ja varastopaikan tyypin mukaan. Jälkimmäistä kutsutaan myös varastopaikan sisällöksi. Nimiketapahtumat määrittävät nimikkeen saatavuuden lähtevien asiakirjojen varauksen perusteella. Poiminta-algoritmissa on erityistoimintoja, joiden avulla lasketaan poimittavissa oleva määrä silloin, kun varastopaikan sisältö yhdistetään varauksiin. Poimintaalgoritmi vähentää muille lähteville asiakirjoille varatut määrät, aiemmin luotujen poiminta-asiakirjojen määrät ja poimitut määrät, joita ei ole vielä toimitettu tai kulutettu. Tulos näkyy **Poimintatyökirja-sivun** Poimittava **saatavilla oleva määrä -kentässä**, jossa kenttä lasketaan dynaamisesti. Arvo lasketaan myös silloin, kun käyttäjä luo fyysisen varastoinnin poimintoja suoraan lähtevistä asiakirjoista, kuten myyntitilauksista, tuotannon kulutuksesta tai lähtevistä siirroista.
 
@@ -301,9 +301,9 @@ Kun fyysisen varastoinnin hyllytys rekisteröidään vaihe 7, fyysisen varastoin
 
 Seuraava kuva on otettu 2009 R2:sta Microsoft Dynamics NAV .
 
-## Siirtotilauksia ja suunnittelua käyttävät kuvat
+## <a name="illustrations-using-transfer-orders-and-planning"></a>Siirtotilauksia ja suunnittelua käyttävät kuvat
 
-### Siirtotilaukset
+### <a name="transfer-orders"></a>Siirtotilaukset
 
 Kun käytetään siirtotilauksia ja nimike toimitetaan, mutta ei kokonaan vastaanotettu, *Varaustapahtuma-taulukossa* on varaustila Ylijäämä. Sijaintikoodi on kohteeseen-sijainti.
 
@@ -313,7 +313,7 @@ Kun tilauksen seuranta on aktivoitu eikä kysyntää (myyntitilausta tai kulutus
 
 Tämä näkyy ensimmäisessä esimerkissä.
 
-#### Esimerkki 1
+#### <a name="example-1"></a>Esimerkki 1
 
 1. Avaa nimikkeet 80003 ja 80004 ja määritä **seurantakäytännöksi**  *Vain* seuranta. Jätä muut kentät oletuksena.
 2. Avaa nimikepäiväkirja ja lisää näiden nimikkeiden varastomääräksi 10 sijaintia PUNAINEN vastaan ja kirjaa päiväkirjarivit.
@@ -342,7 +342,7 @@ Seuraavien Varaustapahtuma 43:a vastaan olevien kenttien kuvaus on seuraavanlain
 |**Lähdetyyppi**|Nimiketapahtuma-taulukko 32.|  
 |**Lähde viitenro**|Avoin nimiketapahtuma numero 322.|
 
-#### Esimerkki 2
+#### <a name="example-2"></a>Esimerkki 2
 
 Seuraava esimerkki kuvaa, mitä tapahtuu, kun komponentti siirretään sijaintien välillä, mutta samaan aikaan sitä seurataan kysyntätarpeen ja saatavilla olevan tarjonnan välillä. Komponentit siirretään sijainnista PUNAINEN sininen, joka käytetään vapautetun tuotantotilauksen kanssa. Komponentti käyttää Tilauksen seurantaa, Tilauksen suunnittelua ja Nimikeseurantaa.
 
@@ -378,7 +378,7 @@ Tuotettu nimike saa tuotoksen sijaintia SININEN vastaan.
 
 Taulukon 337 tilatiedot näkyvät seuraavassa kuvassa.
 
-##### Varaustapahtumat, joissa on numerot 55 ja 56
+##### <a name="reservation-entries-with-numbers-55-and-56"></a>Varaustapahtumat, joissa on numerot 55 ja 56
 
 Erän A ja B komponenttitarpeen osalta luodaan tilauksen seurantalinkkejä taulukon 5407 Tuotantotilauksen komponentti kysynnästä taulukon 32 Nimiketapahtuma tarjontaan. Varauksen **tila -** kentässä on kaikkien neljän merkinnän seuranta, joka osoittaa, että nämä dynaamiset tilauksen seurantalinkit tarjonta ja kysyntä välillä.
 
@@ -387,7 +387,7 @@ Taulukon 5407 Tuotantotilauksen komponentti kysyntä on linkitetty vapautetun tu
 > [!NOTE]  
 > **Eränro**-kenttä on tyhjä kysyntäriveillä, koska eränumeroita ei ole määritetty julkaistun tuotantotilauksen osariveillä.
 
-##### Varaustapahtuma numerolla 57
+##### <a name="reservation-entry-with-number-57"></a>Varaustapahtuma numerolla 57
 
 Taulukon 37 Myyntirivi myyntikysynnästä luodaan tilauksen seurantalinkki tarjontaan taulukossa 5406, Tuotantotilausrivi. Varauksen **tila -** kentässä on Varaus, ja **Sitova-kentässä** on Tilauskohtainen. Tämä johtuu siitä, että vapautettu tuotantotilaus luotiin erityisesti myyntitilausta varten, ja se tulee säilyttää linkitettynä toisin kuin tilauksen seurantalinkit, joiden seurannan varaustila on Seuranta. Linkit luodaan ja muutetaan dynaamisesti.
 
@@ -405,11 +405,11 @@ Kirjaa avoin kokonaismäärä vain toimitetuksi.
 
 Taulukon 337 tilatiedot näkyvät seuraavassa kuvassa.
 
-##### Varaustapahtumat, joissa on numerot 55 ja 56
+##### <a name="reservation-entries-with-number-55-and-56"></a>Varaustapahtumat, joissa on numerot 55 ja 56
 
 Taulukon 5407 kysyntää kuvaavan komponentin kahden erän tilauksen seurantatapahtumat muutetaan seurannan varaustilasta Ylijäämäksi. Syy on se, että siirtotilauksen lähetykseen on käytetty tarjontoja, joihin ne oli linkitetty ennen, taulukossa 32. Aito ylijäämä, kuten tässä tapauksessa, kuvastaa ylimääräistä tarjontaa tai kysyntää, jota ei seurata. Se on osoitus epätasapainosta tilausverkossa, joka luo suunnittelujärjestelmän toimenpideviestin, ellei sitä ratkaista dynaamisesti.
 
-##### Varaustapahtuman numerot 59-63
+##### <a name="reservation-entry-numbers-59-to-63"></a>Varaustapahtuman numerot 59-63
 
 Koska komponentin kaksi erää on kirjattu siirtotilaukseen toimitetuiksi, mutta ei vastaanotetuiksi, kaikki asiaan liittyvät positiivisen tilauksen seurantatapahtumat ovat varaustyyppiä Ylijäämä, mikä osoittaa, että niitä ei ole kohdistettu mihinkään kysyntään. Yksi tapahtuma liittyy jokaisen eränumeron osalta taulukkoon 5741, Siirtorivi, ja yksi tapahtuma liittyy nimiketapahtumaan kuljetuksessa-sijainnissa, jossa nimikkeet ovat nyt olemassa.
 
@@ -434,21 +434,21 @@ Sulje Nimikkeen seuranta -lomake.
 
 Taulukon 337 tilatiedot näkyvät seuraavassa kuvassa.
 
-##### Varaustapahtumat, joissa on numerot 68 ja 69
+##### <a name="reservation-entries-with-numbers-68-and-69"></a>Varaustapahtumat, joissa on numerot 68 ja 69
 
 Koska komponenttitarve on muutettu SININEN-sijainniksi ja tarjonta on saatavilla nimiketapahtumina SININEN-sijainnissa, näiden kahden eränumeron kaikkia tilauksen seurantatapahtumia seurataan nyt täysin, mikä näkyy seurannan varaustilana. Eränumeroita ei nouteta Eränro-kenttään **.** -kenttä suhteessa vapautetun tuotantotilauksen komponentin kysyntään 5406, **Tuot.til. rivi** -taulukkoon, koska emme määrittäneet eränumeroita vapautetun tuotantotilauksen komponentille.
 
-##### Varaustapahtumat, joissa on numerot 70 ja 71
+##### <a name="reservation-entries-with-numbers-70-and-71"></a>Varaustapahtumat, joissa on numerot 70 ja 71
 
 Tapahtumat, joiden varaustila on Prospekti, luodaan taulukossa 337. Syy on se, että molemmat eränumerot määritetään kulutuspäiväkirjan komponenttia vastaan, mutta päiväkirjaa ei ole kirjattu.
 
 Varaustapahtuma-taulukon **tilausten seurantatapahtumien** luomisen, muokkauksen ja poistamisen tapa on nyt nyt valmis, kun useita ominaisuuksia käytetään yhdessä siirtotilausten kanssa.
 
-### Laskettu suunnittelu
+### <a name="planning-calculated-1"></a>Laskettu suunnittelu
 
 Kun käytetään suunnittelutoimintoja eli hankintalistaa, suunnittelutyökirjaa **tai** tilauksen suunnittelua **, Varaustapahtuma-taulukon** 337 varaustapahtumia **saatetaan muokata tai lisätä logiikan** suunnitteluehdotuksen mukaisesti. **·**  Microsoft Dynamics NAV Esimerkki 3 käyttää **tuotetulle nimikkeelle uusintatilaustapaa** tilaus, jossa **on tuotantotavan** tilaus. Komponentti käyttää **uusintatilaustapaa** Kiinteä uusintatilausmäärä.
 
-#### Esimerkki 3
+#### <a name="example-3"></a>Esimerkki 3
 
 1.  **Tuotannon asetukset**  kortti,Komponentti **sijainnissa** on PUNAINEN aiemmasta esimerkistä.
 2. Luo uusi pääelementti Nimike 70061. Määritä seuraavat kentät:
@@ -497,17 +497,17 @@ Varauksen **tila -** kenttä on Varaus ja Tilauskohtainen sidonta luodaan. Syy o
 
 40 yksikön kysyntä lähdetunnusta **vastaan** on myyntitilauksen numero 1005, ja Lähdetyyppi on *Myyntirivi-taulukko* 37. Varaustapahtuma on linjassa suunnitteluehdotuksen Lähde viitenro kanssa. 10000, Lähdetunnus on SUUNNITTELU JA Lähdetyyppi hankintarivi-taulukko *246*. Myyntitilauksen kysynnän ja suunnittelumoduulin ehdottaman tarjonnan välillä on siis tasapaino.
 
-##### Varaustapahtuman numerot 73 ja 74
+##### <a name="reservation-entry-numbers-73-and-74"></a>Varaustapahtuman numerot 73 ja 74
 
 Laske suunnitelma -eräajon avulla luodaan seuraavat neljä merkintää, joiden varaustilana on Seuranta. Tämä johtuu komponentin uusintatilaustavan Kiinteä uusintatilausmäärä asetuksesta. Komponentille 70062 tarvittavaa tarjontaa täydennetään annetuilla suunnitteluehdotuksilla, Lähdeviitteen nro. 20000 ja 30000, joiden Lähdetunnus on asetettu SUUNNITTELU- ja Lähdetyyppi hankintarivi *-taulukosta* 246. Komponenttitarve luodaan täyttämään kysyntä suhteessa pääelementti Nimikkeeseen 70061 kokonaismäärän (perus) 40 osalta. Kysynnän seurauksena Lähde tuot.til. rivi **-kentän arvo** on 1 0000, ja lähdetyyppi on *Komponenttitarve-taulukko* 99000829.
 
 Varauksen tila ei ole Ylijäämä, koska pääelementti nimikkeen 70061 kysynnän ja Komponenttinimikkeen 70062 tarjonnan välillä on tilauksen seuranta.
 
-##### Varaustapahtuman numerot 75 ja 76
+##### <a name="reservation-entry-numbers-75-and-76"></a>Varaustapahtuman numerot 75 ja 76
 
 Kahdella viimeisellä tapahtumalla on varaustila Ylijäämä, koska ne ovat Ei-seurattuja määriä, jotka on luotu suunnittelutyökirjassa uusintatilausparametreihin Uusintatilauspiste ja Uusintatilausmäärä.
 
-## Katso myös  
+## <a name="see-also"></a>Katso myös
 [Rakennetiedot: Nimikeseurannan rakenne](design-details-item-tracking-design.md)  
 [Rakennetiedot: Kysynnän ja tarjonnan tasaaminen](design-details-balancing-demand-and-supply.md)  
 [Rakennetiedot: varaus, tilauksen seuranta ja toimenpiteiden viestitys](design-details-reservation-order-tracking-and-action-messaging.md)   

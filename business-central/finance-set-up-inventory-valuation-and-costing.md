@@ -9,7 +9,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a>Varastonarvostuksen ja kustannuslaskennan määrittäminen
+# <a name="set-up-inventory-valuation-and-costing"></a>Varastonarvostuksen ja kustannuslaskennan määrittäminen
 
 Voit varmistaa, että varastokustannukset kirjataan oikein, määrittämällä tietyt kentät ja sivut ennen nimiketapahtumien tekemistä. Yleensä yritykset valitsevat tietyn kustannuslaskentamenetelmän ja soveltavat niitä esimerkiksi varastonimikkeisiin voidakseen seurata varastossa olevien nimikkeiden arvoa.  
 

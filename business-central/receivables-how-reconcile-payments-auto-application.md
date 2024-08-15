@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Maksujen täsmäyttäminen automaattisen kohdistuksen avulla
+# <a name="reconcile-payments-using-automatic-application"></a>Maksujen täsmäyttäminen automaattisen kohdistuksen avulla
 
 **Maksujen täsmäytyskirjauskansio** -sivulla määritetään saapuvat ja lähtevät maksut, jotka on tallennettu tapahtumina verkkopankkitilille tai maksupalveluun. Voit kohdistaa maksut liittyviin avoimiin asiakas-, toimittaja-ja pankkitilitapahtumiin. Päiväkirjan täyttäminen tuomalla pankin tiliote pankkisyötteenä tai -tiedostona tai syöttämällä manuaalisesti maksupalvelussa suoritettuja kauppatapahtumia.
 
@@ -43,7 +43,7 @@ Voit avata kullekin maksua esittävälle **Maksujen täsmäytyskirjauskansio** -
 > [!NOTE]  
 > Voit aloittaa pankkitapahtumien tuonnin samaan aikaan kuin avaat **Maksujen täsmäytyskirjauskansio** -sivun aiemmin luodulle kirjauskansiolle. Seuraava toimenpide kuvaa kuinka pankkitapahtumat tuodaan **Maksujen täsmäytyskirjauskansio** -sivulle, kun olet luonut uuden päiväkirjan.
 
-## Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta
+## <a name="to-reconcile-payments-using-automatic-application"></a>Maksujen täsmäyttäminen käyttämällä automaattista kohdistusta
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Maksujen täsmäytyskirjauskansiot** ja valitse sitten liittyvä linkki.
 2. Voit käsitellä uuden maksun täsmäytyksen päiväkirjaa valitsemalla **Uusi päiväkirja** -toiminnon.
 3. Valitse **Maksun pankkitililuettelo** -sivulla pankkitili, johon maksut täsmäytetään, ja valitse sitten **OK**-painike.
@@ -88,7 +88,7 @@ Voit verrata **Pankkitilin saldo kirjauksen jälkeen** -kentän ja **Tiliotteen 
 > [!NOTE]  
 >   Jos et halua täsmäyttää pankkitiliä Maksun täsmäytyspäiväkirja **-sivulta**, sinun täytyy käyttää Pankkitilin **täsmäytys** -sivua. Lisätietoja on kohdassa [Pankkitilien](bank-how-reconcile-bank-accounts-separately.md) täsmäyttäminen.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Myyntisaamisten hallinta](receivables-manage-receivables.md)  
 [Myynti](sales-manage-sales.md)  

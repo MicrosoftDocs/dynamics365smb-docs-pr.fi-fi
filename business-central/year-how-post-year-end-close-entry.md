@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="posting-the-year-end-closing-entry"></a>Vuositilinpäätöstapahtuman kirjaaminen
+# <a name="post-the-year-end-closing-entry"></a>Vuositilinpäätöstapahtuman kirjaaminen
 
 Kun olet luonut vuositilinpäätöstapahtuman tai -tapahtumat **Sulje tuloslaskelma** -eräajolla, sinun on avattava eräajossa määrittämäsi päiväkirja sekä tarkistettava ja kirjattava tapahtumat.  
 

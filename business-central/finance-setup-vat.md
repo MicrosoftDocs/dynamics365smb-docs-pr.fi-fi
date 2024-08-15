@@ -62,7 +62,7 @@ Voit määrittää ALV-päivämääräksi oletusarvon seuraavasti:
 > [!NOTE]
 > Oletusarvoisesti **ALV-oletuspäivämäärä** on **kirjauspäivämäärä**.
 
-### <a name="enabling-or-disabling-the-vat-date-feature"></a>ALV-päivämääräominaisuuden ottaminen käyttöön tai poistaminen käytöstä
+### <a name="enable-or-disable-the-vat-date-feature"></a>ALV-päivämääräominaisuuden ottaminen käyttöön tai poistaminen käytöstä
 
 Joissakin maissa ja joillakin alueilla edellytetään, että yritykset käyttävät tiettyä ALV-päivämäärää. Joissakin maissa ja joillakin alueilla yritykset voivat myös muuttaa ALV-päivämäärää tietyissä tilanteissa, kun ne ovat kirjoittaneet asiakirjoja, mutta toiset maat tai alueet eivät salli ALV-päivämäärien muuttamista. Jos haluat sallia eri konteksteja, voit valita, haluatko käyttää tätä toimintoa ja missä määrin.
 

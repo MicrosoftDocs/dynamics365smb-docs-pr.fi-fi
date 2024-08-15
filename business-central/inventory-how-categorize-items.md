@@ -12,7 +12,7 @@ ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Nimikkeiden luokitteleminen
+# <a name="categorize-items"></a>Nimikkeiden luokitteleminen
 
 Nimikkeet kannattaa järjestää nimikeluokkiin. Niiden avulla voi järjestellä nimikkeitä ja helpottaa nimikkeiden lajittelemista ja etsimistä.
 
@@ -21,7 +21,7 @@ Voit etsiä nimikkeitä ominaisuuksien mukaan, kun määrität nimikkeille ja ni
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4j4mo?rel=0]
 
-## Nimikeluokan luominen
+## <a name="to-create-an-item-category"></a>Nimikeluokan luominen
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikeluokat** ja valitse sitten vastaava linkki.
 2. Valitse **Nimikekategoriat**-sivulla **Uusi**-toiminto.
 3. Täytä tarvittaessa **Nimikeluokan kortti** -sivun **Yleinen**-pikavälilehden kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -35,17 +35,17 @@ Voit etsiä nimikkeitä ominaisuuksien mukaan, kun määrität nimikkeille ja ni
 
 Jos muutat mieltäsi nimikeluokasta, voit poistaa sen. Jos luokka on kuitenkin jo määritetty jollekin nimikkeelle, kyseinen tehtävä on poistettava.
 
-## Nimikeluokan määrittäminen nimikkeeseen
+## <a name="to-assign-an-item-category-to-an-item"></a>Nimikeluokan määrittäminen nimikkeeseen
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeet** ja valitse sitten vastaava linkki.
 2. Avaa sen nimikkeen kortti, jonka haluat määrittää nimikeluokkaan.
 3. Valitse **Nimikeluokan koodi** -kentän valintapainike ja valitse sitten aiemmin määritetty nimikeluokka. Vaihtoehtoisesti voit valita **Uusi**-toiminnon ja luoda ensin uuden nimikeluokan kohdassa [Nimikeluokan luominen](inventory-how-categorize-items.md#to-create-an-item-category) esitetyllä tavalla.
 
-## Luokat, määritteet ja variantit
+## <a name="categories-attributes-and-variants"></a>Luokat, määritteet ja variantit
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Nimikkeen määritteiden käsitteleminen](inventory-how-work-item-attributes.md)    
 [Tuotevarianttien hallinta](inventory-item-variants.md)    

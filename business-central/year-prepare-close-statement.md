@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# Tilinpäätöslaskelmien valmisteleminen
+# <a name="preparing-closing-statements"></a>Tilinpäätöslaskelmien valmisteleminen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa on vakioraportteja, joiden avulla voit kerätä yrityksen tilinpäätöslaskelmien valmisteluun tarvittavat tiedot. Seuraavassa taulukossa kuvataan raportit.  
 
@@ -26,7 +26,7 @@ ms.reviewer: jswymer
 
 Etsi raportti valitsemalla ![Valolamppu, joka avaa Tell Me -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita nimi sellaisena kuin se näkyy taulukossa ja valitse sitten liittyvä linkki.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Vuosien ja kausien sulkeminen](year-close-years-periods.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
