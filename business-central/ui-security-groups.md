@@ -11,13 +11,13 @@ ms.date: 04/15/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Business Centralin käyttöoikeuden hallinta suojausryhmien avulla
+# <a name="control-access-to-business-central-using-security-groups"></a>Business Centralin käyttöoikeuden hallinta suojausryhmien avulla
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Suojausryhmien avulla järjestelmänvalvojien on helpompi hallita käyttöoikeuksia. Esimerkiksi [!INCLUDE [prod_short](includes/prod_short.md)] onlinessa ne ovat uudelleenkäytettäviä Dynamics 365-sovelluksiin, kuten SharePoint Online, CRM Online, ja [!INCLUDE [prod_short](includes/prod_short.md)]. Järjestelmänvalvojat lisäävät [!INCLUDE [prod_short](includes/prod_short.md)]-suojausryhmiin käyttöoikeuksia ja lisätessään käyttäjiä ryhmään käyttöoikeudet koskevat kaikkia jäseniä. Järjestelmänvalvoja voi esimerkiksi luoda [!INCLUDE [prod_short](includes/prod_short.md)]-suojausryhmän, joka antaa myyjille mahdollisuuden luoda ja kirjata myyntitilauksia. Voit myös antaa ostajien tehdä saman ostotilauksille.
 
-## Business Central Online- ja paikalliset versiot
+## <a name="business-central-online-and-on-premises"></a>Business Central Online- ja paikalliset versiot
 
 Voit käyttää suojausryhmiä [!INCLUDE [prod_short](includes/prod_short.md)]-ohjelman online-ja paikallinen-versioissa. Luo versiostasi riippuen ryhmiä jollakin seuraavista tavoista:
 
@@ -29,7 +29,7 @@ Luo sen jälkeen vastaava suojausryhmä [!INCLUDE [prod_short](includes/prod_sho
 > [!NOTE]
 > Jos olet määrittänyt erityisen käyttäjätyypin, jolla on Windows-ryhmän käyttöoikeustyyppi, [!INCLUDE [prod_short](includes/prod_short.md)]-ohjelman paikallisessa versiossa, joka on aiempi kuin vuoden 2023 julkaisuaalto 1:n versio, kun päivität [!INCLUDE [prod_short](includes/prod_short.md)]-ohjelman käyttäjän suojausryhmäksi. Uudella suojausryhmällä on sama nimi kuin Windows-ryhmällä. Suojausryhmä antaa paremman yleiskuvan ryhmän jäsenistä ja niiden käytössä olevista käyttöoikeuksista.
 
-## Suojausryhmän lisääminen Business Centralissa
+## <a name="add-a-security-group-in-business-central"></a>Suojausryhmän lisääminen Business Centralissa
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Suojausryhmät** ja valitse sitten vastaava linkki.
 1. Luo uusi ryhmä valitsemalla **Uusi**.
@@ -41,7 +41,7 @@ Luo sen jälkeen vastaava suojausryhmä [!INCLUDE [prod_short](includes/prod_sho
 > [!NOTE]
 > Käyttäjät näkyvät **Jäsenet**-kortissa tietoruudussa tai **Suojausryhmän jäsenet** -sivulla vain, jos heidät on lisätty kohteen [!INCLUDE [prod_short](includes/prod_short.md)] käyttäjiksi. Lisätietoja käyttäjien lisäämisestä on kohdassa [Käyttäjien lisääminen tai käyttäjätietojen ja käyttöoikeuksien delegoinnin päivittäminen Business Centralissa](ui-how-users-permissions.md#adduser).  
 
-### Käyttöoikeuksien määrittäminen suojausryhmälle
+### <a name="assign-permissions-to-a-security-group"></a>Käyttöoikeuksien määrittäminen suojausryhmälle
 
 1. Valitse ryhmä **Suojausryhmät** -sivulla ja valitse sitten **Käyttöoikeudet** -toiminto.
 1. Määritä käyttöoikeudet seuraavilla tavoilla:
@@ -50,20 +50,20 @@ Luo sen jälkeen vastaava suojausryhmä [!INCLUDE [prod_short](includes/prod_sho
     * Voit määrittää useampia käyttöoikeusjoukkoja valitsemalla **Lisää useita** -toiminnon ja valitsemalla sitten määritettävät joukot.
 1. Jos haluat, että käyttöoikeusjoukot koskevat vain tiettyä yritystä, määritä **yritys**-sarakkeeksi kyseinen yritys. Jos haluat, että käyttöoikeus määritetään koskemaan kaikkia yrityksiä, jätä **Yritys**-sarake tyhjäksi. [Lisätietoja](ui-define-granular-permissions.md#control-access-to-specific-companies).
 
-## Tarkastele käyttöoikeusryhmän oikeuksia
+## <a name="review-the-permissions-in-a-security-group"></a>Tarkastele käyttöoikeusryhmän oikeuksia
 
 **Suojausryhmät** -sivulla tietoruudussa näkyvät ryhmälle määritetyt **käyttöoikeuksien joukot**. Jokaisella **Jäsenet**-kortissa olevalla käyttäjällä on kyseiset käyttöoikeudet. **Käyttöoikeuksien joukko suojausryhmän mukaan** -toiminnon avulla määritetty käyttöoikeus määrittää yksityiskohtaisen näkymän. Siellä voit myös tutkia kunkin suojausryhmän yksilöllisiä käyttöoikeuksia.
 
 Käyttöoikeudet ovat käytettävissä myös **Käyttäjät**-sivulla. Tietoruudussa näkyvät valitulle käyttäjälle **Käyttöoikeuksien joukot suojausryhmistä**- ja **Suojausryhmän jäsenyydet** -kortit.
 
-## Suojausryhmät ja käyttäjäryhmät
+## <a name="security-groups-and-user-groups"></a>Suojausryhmät ja käyttäjäryhmät
 
 > [!NOTE]
 > Käyttäjäryhmät eivät enää ole saatavilla tulevassa versiossa.
 
 Suojausryhmät muistuttavat hyvin paljon tällä hetkellä saatavilla olevia käyttäjäryhmiä. Käyttäjäryhmät ovat kuitenkin merkityksellisiä vain [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmille. Suojausryhmät perustuvat Microsoft Entra ID:n tai Windows Active Directoryn ryhmiin sen mukaan, onko käytössä [!INCLUDE [prod_short](includes/prod_short.md)] online vai paikallinen. Ryhmistä on hyötyä ylläpitäjille, koska he voivat käyttää niitä muiden Dynamics 365 -sovellusten kanssa. Jos esimerkiksi myyjät käyttävät [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmaa ja SharePointia, järjestelmänvalvojien ei tarvitse luoda ryhmää ja sen jäseniä uudelleen.
 
-### Valinnainen: Muunna käyttöoikeuksien joukot käyttäjäryhmille
+### <a name="optional-convert-user-groups-to-permission-sets"></a>Valinnainen: Muunna käyttöoikeuksien joukot käyttäjäryhmille
 
 Vuoden 2023 julkaisuaalto 1:ssä ja uudemmissa versioissa käyttäjäryhmät voidaan muuntaa käyttöoikeusjoukkona vuokralaiselle. Käyttöoikeus joukot tarjoavat samat toiminnot kuin käyttäjäryhmät. Seuraavassa on muutamia esimerkkejä:
 
@@ -77,7 +77,7 @@ Muunna ryhmät **Käyttäjäryhmien siirto** -avusteisen asennusoppaan avulla. V
 |Määritä käyttäjälle     | Määritä käyttäjäryhmien käyttöoikeudet suoraan ryhmään liitetyille käyttäjille ja poista niiden käyttäjäryhmämääritykset.        |
 |Muunna käyttöoikeuksien joukoksi     | Luo uusi käyttöoikeus kunkin käyttäjäryhmän käyttöoikeuksia varten. Uusi käyttöoikeusjoukko määritetään kaikkien käyttäjäryhmien kaikille jäsenille.          |
 
-### Käyttöoikeuden määritykset ovat yhä voimassa
+### <a name="license-configurations-still-apply"></a>Käyttöoikeuden määritykset ovat yhä voimassa
 
 Voit määrittää [!INCLUDE [prod_short](includes/prod_short.md)] -oikeudet käyttöoikeuksien perusteella. Käyttöoikeudet on määritetty suoraan uusiin käyttäjiin. Nämä määritykset ovat käytössä, vaikka alkaisitkin käyttää suojausryhmiä.
 
@@ -85,7 +85,7 @@ Suosittelemme, että poistat käyttöoikeusmääritykset, jos haluat käyttää 
 
 Voit poistaa käyttöoikeuksien määrityksiä **Käyttöoikeuden määritys** -sivulla. Valitse käyttöoikeus ja poista sitten kaikki sille määritetyt käyttöoikeuksien joukot.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Käyttäjien luominen käyttöoikeuksien mukaan](ui-how-users-permissions.md)  
 [Business Centralin käytön määrittäminen Teamsissa Microsoft 365 -käyttöoikeuksilla](admin-access-with-m365-license-setup.md)  

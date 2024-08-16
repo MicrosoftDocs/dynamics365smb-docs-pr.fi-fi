@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Varasto- ja tuotantokustannusten käsitteleminen
+# <a name="handling-inventory-and-manufacturing-costs"></a>Varasto- ja tuotantokustannusten käsitteleminen
 
 Vaikka suuri osa kustannuslaskentatoiminnoista ilmenee taustalla olevissa prosesseissa, joissa ei ole käyttäjän vuorovaikutusta ( esimerkiksi tapahtuman kohdistus ja automaattinen kustannusten muuttaminen), monet kentät, sivut ja raportit on tarkoitettu käyttäjille, jotka hallitsevat nimikkeiden tai toimintojen kustannuksia suoraan tai epäsuorasti.  
 
@@ -30,7 +30,7 @@ Vaikka suuri osa kustannuslaskentatoiminnoista ilmenee taustalla olevissa proses
 |Nimikkeen kohdistuksen peruuttaminen manuaalisesti tai sovelluksen luomien nimiketapahtumien kohdistaminen uudelleen.|[Nimiketapahtumien poistaminen ja uudelleenkohdistaminen](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Luo nimikepäiväkirjan **Kohdistukset tapahtumista** -kentän avulla manuaalisesti kiinteä kohdistus saapuvan tapahtuman ja lähtevän alkuperäisen tapahtuman välille.|[Nimikepäiväkirjan kiinteästä kohdistuksesta aiheutuvien avointen nimiketapahtumien sulkeminen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)    
 [Rakennetiedot: Varaston kustannuslaskenta](design-details-inventory-costing.md)    

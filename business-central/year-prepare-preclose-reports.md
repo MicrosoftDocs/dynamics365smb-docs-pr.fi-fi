@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Tilinpäätöstä edeltävien raporttien käyttäminen
+# <a name="use-pre-closing-reports"></a>Tilinpäätöstä edeltävien raporttien käyttäminen
 
 Ennen kirjojen sulkemista vuoden tai kauden lopussa voit varmistaa tilien tietojen oikeellisuuden käyttämällä useita eri vakioraportteja. Voit esimerkiksi tarkistaa **Asiakas - Alust. saldo** -raportin avulla, että asiakkaan kirjausryhmän saldo vastaa vastaavan kirjanpitotilin saldoa tiettynä päivämääränä.
 
@@ -31,7 +31,7 @@ Seuraavassa taulukossa on useita raportteja, joista voi olla hyötyä tässä pr
 
 Raportin nähdäksesi valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita nimi sellaisena kuin se näkyy taulukossa ja valitse sitten liittyvä linkki.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Tilikauden päättämisvuodet ja -jaksot](year-close-years-periods.md)    
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

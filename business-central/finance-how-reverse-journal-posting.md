@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Päiväkirjakirjausten peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen
+# <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Päiväkirjakirjausten peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen
 
 Käänteiset päiväkirjan kirjaukset ovat hyödyllisiä esimerkiksi virheiden korjaamiseen ja vanhan jaksotustapahtuman tyhjentämiseen ennen uuden syöttämistä. Käänteinen kirjaus on sama kuin alkuperäinen kirjaus, mutta sillä on vastakkainen merkki **Summa**-kentässä. Käänteisellä kirjauksella tulee olla sama asiakirjanumero ja kirjauspäivämäärä kuin alkuperäisessä kirjauksessa. Kun peruutat tapahtuman, lisää tapahtuma korjattuna.
 
@@ -22,7 +22,7 @@ Jos olet tehnyt virheellisen negatiivisen määräkirjauksen, kuten kirjannut os
 
 Jos olet tehnyt virheellisen positiivisen määräkirjauksen, kuten kirjannut myyntitoimitukselle tai ostopalautustoimitukselle väärän määrän toimitetuksi mutta ei laskutetuksi, voit kumota kirjauksen.
 
-## Pääkirjanpidon tapahtuman päiväkirjakirjauksen peruuttaminen
+## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Pääkirjanpidon tapahtuman päiväkirjakirjauksen peruuttaminen
 
 Tapahtumia voi peruuttaa kaikista **Tapahtumakirjaukset**-sivuilta. Seuraava menettely perustuu **Pääkirjanpidon tapahtumat** -sivuun.
 
@@ -34,7 +34,7 @@ Tapahtumia voi peruuttaa kaikista **Tapahtumakirjaukset**-sivuilta. Seuraava men
 3. Valitse **Peruuta tapahtumakirjaukset**-sivulla **Peruuta**-toiminto.
 4. Vahvista peruutus valitsemalla **Kyllä**.
 
-## Negatiivisen tapahtuman kirjaaminen  
+## <a name="to-post-a-negative-entry"></a>Negatiivisen tapahtuman kirjaaminen
 
 Kirjaa **Korjaus**-kentän avulla tilille negatiivinen debet kreditin sijaan tai negatiivinen kredit debetin sijaan. Oletusarvon mukaan kenttä on käytettävissä kaikissa päiväkirjoissa. **Debet-summa**- ja **Kredit-summa**-kentät sisältävät sekä alkuperäisen että korjatun tapahtuman. Kentät eivät vaikuta tilin saldoon.  
 
@@ -44,7 +44,7 @@ Kirjaa **Korjaus**-kentän avulla tilille negatiivinen debet kreditin sijaan tai
 4. Valitse **Korjaus**-valintaruutu sen kirjauskansion rivillä, jonka haluat ottaa käyttöön negatiivisia tapahtumia varten.  
 5. Kirjaa kirjauskansio valitsemalla **Kirjaa**-toiminto ja valitsemalla sitten **Kyllä**-painike.
 
-## Kirjatun ostovastaanoton määrän kumoaminen  
+## <a name="to-undo-a-quantity-on-a-posted-purchase-receipt"></a>Kirjatun ostovastaanoton määrän kumoaminen
 
 Seuraavissa vaiheissa kerrotaan, miten kirjattu nimikkeiden tai resurssien vastaanotto kumotaan. Vaiheet ovat samankaltaisia kirjatuissa toimituksissa.
 
@@ -57,7 +57,7 @@ Korjaava rivi lisätään valitun kuittirivin alle. Jos määrä vastaanotettiin
 
 **Vastaanotettu määrä** ja **Vast.otettu laskuttamaton määrä** -kenttien arvoiksi liittyvällä ostotilauksella asetetaan nolla.
 
-## Kirjatun palautustoimituksen määrän kirjauksen kumoaminen ja tekeminen uudelleen
+## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Kirjatun palautustoimituksen määrän kirjauksen kumoaminen ja tekeminen uudelleen
 
 Seuraavissa vaiheissa kerrotaan, miten
 
@@ -83,7 +83,7 @@ Vaiheet ovat samankaltaisia kirjatuissa palautuskuiteissa.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
-## Peruuta asiakkaan ja toimittajan pääkirjanpidon kirjaus toteutuneella voitolla tai tappiolla
+## <a name="reverse-a-customer-and-vendor-ledger-entry-with-a-realized-gain-or-loss-entry"></a>Peruuta asiakkaan ja toimittajan pääkirjanpidon kirjaus toteutuneella voitolla tai tappiolla
 
 **Peruuta tapahtuma** -toiminnon avulla voit peruuttaa maksut, jotka on kohdistettu tapahtumiin, jotka ovat peräisin ulkomaan valuutasta ja joita on muutettu Vaihtokurssin muutos -eräajon avulla. Ominaisuus toimii sekä ostoissa että myynneissä.
 
@@ -94,7 +94,7 @@ Seuraavassa on yksinkertainen esimerkki, joka kuvaa, miten se toimii:
 3. Kirjaa laskuun kohdistettu maksu.
 4. Poista maksutapahtuman kohdistus ja peruuta se esimerkiksi **Asiakastapahtumat**-sivulta.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Kumoa kokoonpanokirjaus](assembly-how-to-undo-assembly-posting.md)    
 [Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)    

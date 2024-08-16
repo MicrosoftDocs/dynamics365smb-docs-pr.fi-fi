@@ -10,7 +10,7 @@ ms.date: 08/12/2024
 ms.custom: bap-template
 ms.search.forms: '9326, 99000831, 9315, 7375'
 ---
-# Tuotannon tai kokoonpanon tuotoksen hyllyttäminen
+# <a name="put-away-production-or-assembly-output"></a>Tuotannon tai kokoonpanon tuotoksen hyllyttäminen
 
 Tuotannon hyllytystapa määräytyy sen mukaan, miten fyysinen varasto on määritetty sijaintina Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).  
 
@@ -22,11 +22,11 @@ Aktivoi seuraavat asetukset saapuvan työnkulun (hyllytyksen) **fyysisen varasto
 
 Laajennetuissa fyysisen varastoinnin määrityksissä, joissa sijainti vaatii hyllytystä, voit hyllyttää tuotoksen luoden sisäisen hyllytysasiakirjan tai siirtoasiakirjan.  
 
-## Tuotannon tuotosten hyllyttäminen varastohyllytyksen avulla
+## <a name="to-put-away-production-output-with-an-inventory-put-away"></a>Tuotannon tuotosten hyllyttäminen varastohyllytyksen avulla
 
 Tuotoksen hyllytyksen luonnin ensimmäinen vaihe on luoda saapuvan varastoinnin pyyntö. Tämä pyyntö ilmaisee fyysiselle varastolle, että tuotanto- tai kokoonpanotilauksen tuotos on valmis hyllytettäväksi.
 
-### Saapuvan f. varastoinnin pyyntö  
+### <a name="to-create-the-inbound-warehouse-request"></a>Saapuvan f. varastoinnin pyyntö
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Vapautettu tuotantotilaus** ja valitse sitten vastaava linkki.  
 2. Valitse ensin hyllytykseen valmis tuotantotilaus ja sitten **Luo saapuva f. var. pyyntö** -toiminto.  
@@ -34,7 +34,7 @@ Tuotoksen hyllytyksen luonnin ensimmäinen vaihe on luoda saapuvan varastoinnin 
 > [!NOTE]  
 > Voit luoda saapuvan fyysisen varastoinnin pyynnön myös valitsemalla **Luo saapuva pyyntö** --kentän, kun päivität tuotantotilauksen. Lisätietoja on kohdassa [Tuotantotilausten päivittäminen tai uudelleensuunnittelu](production-how-to-replan-refresh-production-orders.md).  
 
-### Tuotoksen hyllyttäminen varaston hyllytyksen avulla  
+### <a name="to-put-away-output-with-an-inventory-put-away"></a>Tuotoksen hyllyttäminen varaston hyllytyksen avulla
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Varaston hyllytys** ja valitse sitten vastaava linkki.  
 2. Luo uusi varaston hyllytys. Lisätietoja on kohdassa [Nimikkeiden hyllyttäminen varaston hyllytyksen avulla](warehouse-how-to-put-items-away-with-inventory-put-aways.md)
@@ -50,14 +50,14 @@ Kun kirjaat varaston hyllytyksen, oletetaan, [!INCLUDE [prod_short](includes/pro
 
 Jos sinun tarvitsee kirjata vain viimeisen operaation asetukset tai ajoaika, aseta viimeisen operaation tuotosmääräksi 0. Voit valita, ettet kirjaa viimeistä riviä ollenkaan poistamalla sen.
 
-## Kokoonpanon ja tuotannon tuotoksen hyllyttäminen laajennetuissa fyysisen varastoinnin määrityksissä
+## <a name="to-put-away-assembly-and-production-output-in-advanced-warehouse-configurations"></a>Kokoonpanon ja tuotannon tuotoksen hyllyttäminen laajennetuissa fyysisen varastoinnin määrityksissä
 
 Kun tuotanto- tai kokoonpanotilauksen tuotos kirjataan ohjattua hyllytystä ja poimintaa käyttävässä fyysisessä varastossa, tuotos siirtyy tuotanto- tai kokoonpanotilauksessa määritettyyn varastopaikkaan. Lisätietoja nimikkeiden eri siirtotavoista fyysisessä varastoinnissa, jossa on lisäasetuksia, siirry nimikkeiden siirtoon [laajennetuissa fyysisen varastoinnin määrityksissä](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet).
 
 > [!NOTE]  
 > Lähdeasiakirjan numeroa, kuten tuotantotilauksen numeroa ei voi syöttää kokoonpano- tai tuotannon tuotosprosessien sisäisessä hyllytyksen, hyllytyksen tai siirron asiakirjoissa.  
 
-## Katso myös  
+## <a name="see-also"></a>Katso myös
 
 [Varastohallinnan yleiskuvaus](design-details-warehouse-management.md)
 [Varasto](inventory-manage-inventory.md)  

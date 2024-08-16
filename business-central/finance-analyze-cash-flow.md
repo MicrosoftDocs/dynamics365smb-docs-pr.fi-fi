@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Yrityksen kassavirran analysointi
+# <a name="analyze-cash-flow-in-your-company"></a>Yrityksen kassavirran analysointi
 Kirjanpitäjän roolikeskuksesta saa merkityksellisiä tietoja, joiden avulla voi päättää järkevästi käteisvarojen käytöstä.  
 
 | Vastattava kysymys | Käytettävä kaavio |
@@ -37,13 +37,13 @@ Jos haluat tarkastella ennustetta, voit perehtyä ennustetapahtumien lisäksi my
 * vähentää ostoreskontran ja lisää myyntireskontran  
 * ohittaa myynti- ja ostotilausten kaksoiskappaleet.  
 
-## Kassavirtatyökirjan tarkastelu
+## <a name="to-view-a-cash-flow-worksheet"></a>Kassavirtatyökirjan tarkastelu
 
 1. Hae **Kassavirtaennusteet** ja valitse liittyvä linkki.  
 2. Valitse ensin kassavirtaennustee ja sitten **Kassavirtatyökirja**-toiminto.  
 3. Valitse **Kassavirtatyökirja**-sivulla **Ehdota työkirjan rivejä** -toiminto.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Rahoituksen määrittäminen](finance-setup-finance.md)    
 [-töiden käsitteleminen [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   

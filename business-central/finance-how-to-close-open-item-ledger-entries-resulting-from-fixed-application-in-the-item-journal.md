@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Kiinteästä kohdistuksesta johtuvien avointen nimiketapahtumien sulkeminen nimikepäiväkirjassa
+# <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Kiinteästä kohdistuksesta johtuvien avointen nimiketapahtumien sulkeminen nimikepäiväkirjassa
 
 Voit luoda **Nimikepäiväkirja**-sivun **Kohdistukset tapahtumista** -kentässä manuaalisesti kiinteän kohdistuksen saapuvan tapahtuman ja lähtevän alkuperäisen tapahtuman välille. Voit korjata esimerkiksi lähtevän tapahtuman tai käsitellä sen palautuksen.  
 
@@ -24,7 +24,7 @@ Voit tietyin edellytyksin muuttaa ja uudelleen käyttää kohdistustapahtumia **
 
 Seuraavassa ohjeessa neuvotaan, miten sulkea nämä tapahtumat suorittamalla kaksi korjaavaa kirjausta nimikepäiväkirjaan.  
 
-## Sulje avoimet nimiketapahtumat, jotka aiheutuvat nimikepäiväkirjan kiinteästä kohdistuksesta  
+## <a name="to-close-open-item-ledger-entries-that-result-from-a-fixed-application-in-the-item-journal"></a>Sulje avoimet nimiketapahtumat, jotka aiheutuvat nimikepäiväkirjan kiinteästä kohdistuksesta
 
 1. Kirjaa **Kohdistukset tapahtumista** -kentässä positiivinen muutos ja vastaava määrä. Tämä sulkee alkuperäisen korjaavan negatiivisen tapahtuman, jossa on kiinteä kohdistus.  
 
@@ -33,7 +33,7 @@ Seuraavassa ohjeessa neuvotaan, miten sulkea nämä tapahtumat suorittamalla kak
 
     **Kohdistukset tapahtumista** -kenttä määrittää, onko nimikepäiväkirjan rivin määrä kohdistettava jo kirjattuun asiakirjaan. Jos rivi on kohdistettava jo kirjattuun asiakirjaan, anna sen nimiketapahtuman numero, johon haluat kohdistaa nimikepäiväkirjan rivin.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Nimiketapahtumien poistaminen ja kohdistaminen uudelleen](finance-how-to-remove-and-reapply-item-entries.md)    
 [Myyntipalautusten ja peruutusten käsitteleminen](sales-how-process-sales-returns-cancellations.md)    

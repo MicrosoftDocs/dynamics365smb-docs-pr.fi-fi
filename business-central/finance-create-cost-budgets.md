@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Kustannusbudjettien luominen
+# <a name="creating-cost-budgets"></a>Kustannusbudjettien luominen
 
 Budjetointi kustannuslaskennassa muistuttaa pääkirjanpidon budjetointia. Kustannusbudjetti luodaan kustannustyyppien perusteella samalla tavalla kuin pääkirjanpidon budjetti luodaan pääkirjanpitotilien perusteella.  
 
@@ -27,7 +27,7 @@ Voit luoda ja analysoida kustannusbudjetteja seuraavilla sivuilla. Valitse ![Lam
 |Katso kustannusbudjetin rekisterit ja kustannusbudjettitapahtumat.|**Kustannusbudjettirekisterit** -sivu|  
 |Tulosta kustannusbudjettivertailut eri raporttien avulla.|**Kustannuslaskennan saldo/budjetti** -raportti<br /><br /> **Kustannuslaskelma/budjetti** -raportti<br /><br /> **Kustannusbudjetti kustannuspaikoittain** -raportti<br /><br /> **Kustannusbudjetti kustannuskohteittain** -raportti|  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Kustannuslaskenta](finance-manage-cost-accounting.md)  
 [KP-budjettien luominen](finance-how-create-budgets.md)  

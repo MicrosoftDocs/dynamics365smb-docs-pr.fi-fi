@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Nimikekustannusten muuttaminen
+# <a name="adjust-item-costs"></a>Nimikekustannusten muuttaminen
 
 Nimikekustannus (varastoarvo) voi muuttua, kun ostat nimikkeen ja myyt sen myöhemmin, koska rahtikulut lisätään ostohintaan nimikkeen myynnin jälkeen. Kustannusten muuttamisella on merkitystä etenkin tilanteissa, jossa tavaroita myydään ennen tavaroiden oston laskuttamista. Jotta oikea varastoarvo olisi aina tiedossa, nimikekustannuksia on muutettava säännöllisesti. Oikeat kustannukset auttavat varmistetaan, että tuottotilastot ovat ajan tasalla ja talouden avaintunnusluvut ovat oikein. Katso lisätietoja kohdasta [Rakennetiedot: kustannuksen muutos](design-details-cost-adjustment.md).
 
@@ -29,13 +29,13 @@ Jos käytät Keskiarvo-arvostusmenetelmää, nimikkeen yksikkökustannus lasketa
 
 Kustannusten muuttamistoiminto käsittelee vain arvotapahtumia, joita ei ole muutettu. Tilanteessa, jossa muuttuneet saapuvien kustannukset on siirrettävä liittyviin lähteviin tapahtumaan, se luo uusia muutosarvotapahtumia. Muutosarvotapahtumat perustuvat alkuperäisten arvotapahtumien tietoihin sisältäen muutossumman. Kustannusten muuttamistoiminto käyttää muutostapahtumassa alkuperäisen arvotapahtuman kirjauspäivämäärää, ellei päivämäärä ole suljetulla varastokaudella. Siinä tapauksessa sovellus käyttää seuraavan avoimen varastokauden aloituspäivämäärää. Jos varastokausia ei käytetä, **Pääkirjanpidon asetukset** -sivun **Ensimm. sallittu kirjauspvm** -kentässä oleva päivämäärä määrittää, milloin muutostapahtuma kirjataan.
 
-## Nimikekustannusten muokkaaminen manuaalisesti
+## <a name="to-adjust-item-costs-manually"></a>Nimikekustannusten muokkaaminen manuaalisesti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muuta kust. - Nimiketapahtumat** ja valitse sitten vastaava linkki.
 2. Määritä **Muuta kustannuksia - Nimiketapahtumat** -sivulla nimikkeet, joiden kustannuksia muutetaan.
 3. Valitse **OK**-painike.
 
-## Yleisten muutosten tekeminen välittömään yksikkökustannukseen
+## <a name="to-make-general-changes-in-the-direct-unit-cost"></a>Yleisten muutosten tekeminen välittömään yksikkökustannukseen
 
 Jos välitöntä yksikkökustannusta on muutettava useissa nimikkeissä, voit käyttää **Muuta nimikekustannuksia tai -hintoja** -eräajoa.  
 
@@ -47,45 +47,45 @@ Eräajo muuttaa nimikekortin **Yksikköhinta**-kentän sisällön. Eräajo muutt
 4. Määritä **Nimike**-pikavälilehdessä määritettävät suodattimet, kuten se, mitä nimikkeitä eräajossa käsitellään.  
 5. Valitse **OK**-painike.  
 
-## Tietoja yksikkökustannuksen laskennasta
+## <a name="understanding-unit-cost-calculation"></a>Tietoja yksikkökustannuksen laskennasta
 
 Nimikekortin **Yksikkökustannus**-kentässä olevan arvon perustana on vakiokustannus niiden nimikkeiden osalta, joilla on vakioarvostusmenetelmä. Niiden nimikkeiden osalta, joilla on jokin muu arvostusmenetelmä, arvon perustana on varastosaldo (laskutetut kustannukset ja oletetut kustannukset) jaettuna saatavana olevalla määrällä.  
 
 Se, miten **Arvostusmenetelmä**-kentän sisältö vaikuttaa myyntien ja ostojen yksikkökustannuksen laskentaan, kuvataan yksityiskohtaisemmin seuraavissa luvuissa.  
 
-## Yksikkökustannusten laskeminen ostoille  
+## <a name="unit-cost-calculation-for-purchases"></a>Yksikkökustannusten laskeminen ostoille
 
 Aina kun ostat nimikkeitä, nimikekortin **Viimeinen välitön kustannus** -kentän arvo kopioidaan ostorivin **Välitön yksikkökustannus** -kenttään tai nimikepäiväkirjan rivin **Yksikkösumma**-riville.  
 
 Se, mitä valitset **Kustannustapa**-kentässä vaikuttaa siihen, miten [!INCLUDE[prod_short](includes/prod_short.md)] laskee **Yksikkökustannus**-kentän sisällön riveillä.  
 
-### Arvostusmenetelmät FIFO, LIFO, spesifi tai keskiarvo  
+### <a name="fifo-lifo-specific-or-average-costing-methods"></a>Arvostusmenetelmät FIFO, LIFO, spesifi tai keskiarvo
 
 [!INCLUDE[prod_short](includes/prod_short.md)] käyttää seuraavaa kaavaa ostorivin **Yksikkökustannus PVA** -kentän sisällön tai nimikepäiväkirjan rivin **Yksikkökustannus**-kentän sisällön laskemiseen:  
 
 "Yksikkökustannus (PVA) = (Välitön yksikkökustannus - (Alennussumma / Määrä)) * (1 + Välillinen kustannus-% / 100) + Yleiskustannus  
 
-### Vako-arvostusmenetelmä  
+### <a name="standard-costing-method"></a>Vako-arvostusmenetelmä
 
 Järjestelmä syöttää **yksikkökustannus (PVA)** -kentän ostoriville sekä **yksikkökustannus** -kentän nimikepäiväkirjalle kopioimalla arvon nimikekortin **yksikkökustannus** -kentästä. Jos käytössä on vakioarvostusmenetelmä, arvo perustuu aina vakiokustannukseen.  
 
 Kun osto kirjataan, ostorivin tai nimikepäiväkirjan yksikkökustannus kopioidaan oston nimikelaskutapahtumaan. Se näyttää nimikkeen tapahtumaluettelossa.  
 
-### Kaikki arvostusmenetelmät  
+### <a name="all-costing-methods"></a>Kaikki arvostusmenetelmät
 
 Lähdeasiakirjan rivin yksikkökustannusta käytetään laskemaan **Kustannussumma (todellinen)** -kentän arvo tai tarvittaessa tähän nimiketapahtumaan liittyvän **Kustannussumma (oletettu)** -kentän arvo. Kustannus sisällytetään laskelmaan nimikkeen arvostusmenetelmästä riippumatta.  
 
-## Myynnin yksikkökustannusten laskenta  
+## <a name="unit-cost-calculation-for-sales"></a>Myynnin yksikkökustannusten laskenta
 
 Kun nimikkeitä myydään, yksikkökustannus kopioidaan nimikekortin **Yksikkökustannus**-kentästä myyntiriville tai nimikepäiväkirjan riville.  
 
 Yksikkökustannus kopioidaan kirjattaessa myyntilaskun nimiketapahtumaan, ja se näkyy nimikkeen tapahtumaluettelossa. [!INCLUDE[prod_short](includes/prod_short.md)] käyttää lähdeasiakirjan rivin yksikkökustannusta laskemaan **Kustannussumma (todellinen)** -kentän sisällön tai tarvittaessa **Kustannussumma (oletettu)** -kentän sisällön tähän nimiketapahtumaan liittyvässä arvotapahtumassa.  
 
-## Nimikekustannusten muutosten seuraaminen
+## <a name="track-item-cost-adjustments"></a>Nimikekustannusten muutosten seuraaminen
 
 Nimikekustannukset voivat muuttua monista syistä, joten on tärkeää, että kustannusten muutoksia voi seurata. **Varastokustannusmuutos**-sivulla voi hallita ja seurata kustannusten muutosprosessia. Tällä sivulla on näkyvissä nimikkeet sekä niiden kustannuslaskennan parametrit ja kustannusmuutoksen tila. Luettelo voidaan suodattaa keskittymään nimikkeet, joita on muutettava tai jotka jätetty pois kustannusten muutosprosessista. Lisätietoja kustannusmuutosten seurannasta on kohdassa [Nimikekustannusten muutosten seuraaminen](finance-track-inventory-costs.md).
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
 [Varasto](inventory-manage-inventory.md)  
