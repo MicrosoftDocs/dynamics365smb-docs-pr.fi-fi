@@ -1,21 +1,22 @@
 ---
-title: Tietoja varaston arvostuksesta
+title: Tietoja varaston arvostuskustannuksista
 description: Varastokustannusten hallinta käsittelee liiketoiminnan toimintokustannusten tallennusta ja raportointia. Se sisältää esimerkiksi tuotanto- ja varastointikustannusten eli nimikkeiden arvon raportoinnin.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/16/2021
+ms.date: 07/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="about-inventory-costing"></a>Tietoja varaston arvostuksesta
+
+# Tietoja varaston arvostuskustannuksista
 Varastokustannusten hallinta käsittelee liiketoiminnan toimintokustannusten tallennusta ja raportointia. Se sisältää tuotanto- ja varastointikustannusten eli nimikkeiden arvon raportoinnin..  
 
  Tärkeintä on ymmärtää, että arvostusmenetelmät määrittävät, miten nimikkeet arvostetaan varastosta lähdön jälkeen, että kustannusten muuttaminen päivittää myytyjen tuotteiden kustannukset liittyvillä myynnin jälkeen kirjatuilla ostokustannuksilla ja että varaston arvot on kirjattava säännöllisesti erityisille KP-tileille.  
 
- Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.   
+ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkeleihin.   
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
@@ -29,9 +30,9 @@ Varastokustannusten hallinta käsittelee liiketoiminnan toimintokustannusten tal
 |Varaston arvon näyttäminen pääkirjanpidossa.|[Varaston kustannusten täsmäyttäminen pääkirjanpitoon](finance-how-to-post-inventory-costs-to-the-general-ledger.md)|  
 |Nimikekulujen, kuten rahdin tai vakuutuksen, aiheuttamien lisäkustannuskomponenttien määrittäminen nimikkeen yksikkökustannukseen.|[Kaupan lisäkustannusten huomiointi nimikekulujen avulla](payables-how-assign-item-charges.md)|  
 |Varastokausien käyttäminen yrityksen varaston arvon pitkäaikaisessa hallinnassa määrittämällä lyhyempiä kausia, jotka voi sulkea kirjaamista varten tilikauden edetessä.|[Varastokausien käsitteleminen](finance-how-to-work-with-inventory-periods.md)|  
-|Tutustu kaikki kustannuslaskentaohjelman kaikkiin mekanismeihin, myös siihen mitä tapahtuu, kun kokoonpano- ja tuotantotapahtumia kirjataan.|[Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)|  
+|Tutustu kaikki kustannuslaskentaohjelman kaikkiin mekanismeihin, myös siihen mitä tapahtuu, kun kokoonpano- ja tuotantotapahtumia kirjataan.|[Rakennetiedot: Varaston kustannuslaskenta](design-details-inventory-costing.md)|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)    
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

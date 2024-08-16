@@ -1,22 +1,23 @@
 ---
-title: Tilin tietojen oikeellisuuden varmistamiseen käytettävien sulkemista edeltävien raporttien yleiskatsaus
+title: Tilinpäätöstä edeltävien raporttien yleiskuvaus tilitarkkuuden tarkistamista varten
 description: 'Ohjeaiheessa on yleiskatsaus raporteista, joilla voidaan varmistaa tilien tietojen oikeellisuus ennen kirjojen sulkemista vuoden tai kauden lopussa.'
 author: jswymer
 ms.topic: overview
 ms.devlang: al
 ms.search.form: '1393, 1394'
-ms.date: 04/01/2021
+ms.date: 08/05/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="use-pre-closing-reports"></a>Sulkemista edeltävien raporttien käyttäminen
+
+# Tilinpäätöstä edeltävien raporttien käyttäminen
 
 Ennen kirjojen sulkemista vuoden tai kauden lopussa voit varmistaa tilien tietojen oikeellisuuden käyttämällä useita eri vakioraportteja. Voit esimerkiksi tarkistaa **Asiakas - Alust. saldo** -raportin avulla, että asiakkaan kirjausryhmän saldo vastaa vastaavan kirjanpitotilin saldoa tiettynä päivämääränä.
 
-Seuraavassa taulukossa on luettelo raporteista, joista voi olla hyötyä tässä prosessissa.
+Seuraavassa taulukossa on useita raportteja, joista voi olla hyötyä tässä prosessissa.
 
-| Toiminta | Tarkastele tätä raporttia |
+| Vastaanottaja | Tarkastele tätä raporttia |
 | --- | --- |
 | Pankkitilien eritellyn alustavan saldoraportin tulostaminen siten, että raportissa on lisätietoja yksittäisistä tapahtumista. |Pankkitili - Er. alust. saldo |
 | Valittujen asiakkaiden eritellyn alustavan saldoraportin tulostaminen. |Asiakas - Alustava saldo |
@@ -30,9 +31,9 @@ Seuraavassa taulukossa on luettelo raporteista, joista voi olla hyötyä tässä
 
 Raportin nähdäksesi valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita nimi sellaisena kuin se näkyy taulukossa ja valitse sitten liittyvä linkki.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
-[Vuosien ja jaksojen sulkeminen](year-close-years-periods.md)  
+[Tilikauden päättämisvuodet ja -jaksot](year-close-years-periods.md)    
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

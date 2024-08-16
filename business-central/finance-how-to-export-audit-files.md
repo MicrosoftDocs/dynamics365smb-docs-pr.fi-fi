@@ -7,12 +7,12 @@ ms.topic: how-to
 ms.devlang: al
 ms.search.keywords: 'audit, export, SIE, SAF-T, FAC, GDPdU, file export'
 ms.search.form: '5260, 5261, 5264, 5266, 5267, 5270'
-ms.date: 04/04/2023
+ms.date: 08/07/2024
 ms.author: altotovi
 ms.reviewer: bholtorf
 ---
 
-# <a name="audit-file-export"></a>Tarkistustiedoston vienti
+# Tarkistustiedoston vienti
 
 Kirjanpitotietojen vieminen järjestelmästä on joidenkin paikallisten viranomaisten tai tilintarkastajien tavallinen pyyntö. Muotojen ja vaadittavien tietojen vienti voi vaihdella. Viennin tapahtumat ovat yleensä pääkirjanpidon (KP) tapahtumia tai arvonlisäverotapahtumia (ALV). Joskus tarvitaan kuitenkin muita tietoja.
 
@@ -21,7 +21,7 @@ Kirjanpitotietojen vieminen järjestelmästä on joidenkin paikallisten viranoma
 > [!NOTE]
 > Tällä hetkellä voit valita SIE (Ruotsi), FEC (Ranska) ja SAF-T-muodon lisäsovelluksena. Kumppanit voivat myös kehittää mukautetun muodon. Käytettävissä olevien muotojen määrä kasvaa ajan mittaan.
 
-## <a name="set-up-audit-file-export"></a>Määritä tarkistustiedoston vienti
+## Määritä tarkistustiedoston vienti
 
 1. Valitse hakupainikkeen ![Suurennuslasi-painike, joka avaa Kerro minulle -toiminnon.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä"), kirjoita **Tarkistustiedoston viennin asetukset** ja valitse sitten aiheeseen liittyvä linkki.
 2. Seuraa **Tarkistustiedoston viennin asetukset** -sivulla seuraavia vaiheita:
@@ -42,14 +42,14 @@ Kirjanpitotietojen vieminen järjestelmästä on joidenkin paikallisten viranoma
     2. Kirjoita **Tarkistustiedoston nimi** -kenttään vietävän tarkistustiedoston oletustiedostonimi tai tiedostonimimalli.
     3. Valitse **Arkistoi zip-tiedostoon** -valintaruutu, jos haluat automaattisesti pakata viedyt tiedostot.
 
-## <a name="provide-the-gl-account-mapping-for-audit-file-export"></a>Määritä tarkistustiedoston viennin KP-tilin yhdistämismääritys
+## Määritä tarkistustiedoston viennin KP-tilin yhdistämismääritys
 
 Useimmat viranomaisten KP-tileiltä vaatimat muodot edellyttävät tiettyä vakiotilikarttaa. Sen jälkeen kun olet määrittänyt KP-tilit, viety tiedosto perustuu yhdistämismäärityksiin. Voit käyttää järjestelmässä useampia yhdistämismäärityksiä.
 
 Seuraa näitä ohjeita määrittääksesi tarkistustiedoston viennin KP-tilin yhdistämismäärityksen.
 
 1. Valitse hakupainikkeen ![Suurennuslasi-painike, joka avaa Kerro minulle -toiminnon.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä"), kirjoita **KP-tilin yhdistämismääritys** ja valitse sitten aiheeseen liittyvä linkki.
-2. Luo yhdistämismääritys **KP-yhdistämismääritys**-sivulla valitsemalla **Uusi**.
+2.  **Luo yhdistämismääritys valitsemalla** KP-tilin yhdistämismääritys **sivulla Uusi** .
 3. Määritä raportointijaksoa kuvaavan yhdistämismäärityksen koodi **Koodi**-kentässä.
 4. Valitse **Vakiotilityyppi**-kentässä KP-tilien vakiotyyppi.
 5. Valitse **Tarkistustiedoston vientimuoto** -kentässä tarkistustiedoston vientimuoto, johon tavalliset KP-tilit on linkitetty.
@@ -67,7 +67,7 @@ Seuraa näitä ohjeita määrittääksesi tarkistustiedoston viennin KP-tilin yh
     1. Valitse **Alusta yhdistämismäärityksen lähde** luodaksesi rivejä **KP-tilin yhdistämismääritys** -sivulla aiemman tilikartan perusteella. Jos haluat kopioida KP-tilin määrityksen jostain muusta yhdistämismäärityskoodista, valitse **Kopioi toisesta yhdistämismäärityksestä**. Kun olet lopettanut rivien luomisen, kaikki kirjatut KP-tilit on merkitty vihreällä.
     2. Jos haluat merkitä vain KP-tilit, joilla on tapahtumia, valitse **Päivitä KP-tapahtumien saatavuus**. Jos **Sisällytä saapuva saldo** -asetus on käytössä, kaikki kirjatut KP-tapahtumat otetaan huomioon laskennassa. Muussa tapauksessa otetaan huomioon vain raportointikauden KP-tapahtumat.
 
-## <a name="export-the-audit-file"></a>Vie tarkistustiedosto
+## Vie tarkistustiedosto
 
 1. Valitse hakupainikkeen ![Suurennuslasi-painike, joka avaa Kerro minulle -toiminnon.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä"), kirjoita **Tarkistustiedoston viennin tiedostot** ja valitse sitten aiheeseen liittyvä linkki.
 2. Valitse **Tarkistustiedoston vientiasiakirjat** -sivulta **Uusi**.
@@ -95,10 +95,10 @@ Seuraa näitä ohjeita määrittääksesi tarkistustiedoston viennin KP-tilin yh
 > [!IMPORTANT]
 > Jos viet useampia tapahtumia, Microsoft ei suosittele niiden viemistä käynnissä olevaan istuntoon mahdollisten suorituskykyongelmien vuoksi. Sen sijaan on suositeltavaa käyttää rinnakkaista käsittelyaikaa muiden kuin työpäivien tai -tuntien aikana.
 
-## <a name="see-also"></a>Katso myös
-[Taloushallinto](finance.md)  
-[Tietoja pääkirjanpidosta ja tilikartasta](finance-general-ledger.md)  
-[Dimensioiden käsitteleminen](finance-dimensions.md)  
-[Business Centralin käyttäminen](ui-work-product.md)
+## Katso myös
+[Taloushallinto](finance.md)    
+[Pääkirjanpidon ja tilikartan ymmärtäminen](finance-general-ledger.md)    
+[Dimensioiden käsitteleminen](finance-dimensions.md)    
+[Business Centralin käyttäminen](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

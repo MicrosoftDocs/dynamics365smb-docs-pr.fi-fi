@@ -1,17 +1,18 @@
 ---
-title: Työntekijöiden kulujen kirjaaminen ja hyvittäminen
+title: Työntekijöiden kulujen kirjaaminen ja korvaaminen
 description: Hyvitä liiketoimintaan liittyvä kulu kirjaamalla työntekijän kulut ensin yleisessä päiväkirjassa työntekijän tilille ja sitten maksu hänen tililleen.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: reimbursement
 ms.search.form: '63, 234, 625, 5224, 5237, 5238, 5239, 5240'
-ms.date: 03/13/2024
+ms.date: 08/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="record-and-reimburse-employees-expenses"></a>Työntekijöiden kulujen kirjaaminen ja hyvittäminen
+
+# Työntekijöiden kulujen kirjaaminen ja korvaaminen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tukee työntekijöiden tapahtumia samalla tavoin kuin toimittajien tapahtumia. Niinpä työntekijän kirjausryhmien avulla voidaan varmistaa, että työntekijätapahtumat kirjataan oikeille yleisen päiväkirjan tileille.
 
@@ -20,7 +21,7 @@ ms.reviewer: bholtorf
 
 Jos työntekijät voivat käyttää omia varojaan liiketoiminnoissa, voit kirjata kulun työntekijän tilille. Työntekijälle tehdään sitten hyvitys suorittamalla maksu työntekijän pankkitilille toimittajille tehtävien maksujen tavoin.  
 
-Tässä artikkelissa käsitellään kulujen kirjaamista kirjoihin ja niiden hyvittämistä työntekijöille. Organisaatiossa voi olla portaali tai sovellus, jossa työntekijät voivat lähettää kuluraportit.
+Tässä artikkelissa käsitellään kulujen kirjaamista kirjoihin ja niiden hyvittämistä työntekijöille. Organisaatiollasi voi olla portaali tai sovellus, jossa työntekijät voivat lähettää kustannusraporttejaan.
 
 Joustavana [!INCLUDE [prod_short](includes/prod_short.md)] sopii moniin erilaisiin käytäntöihin. Käytettävät tilinumerot määräytyvät organisaation määritysten ja prosessien mukaan.  
 
@@ -28,7 +29,7 @@ Työntekijätilien yleisiä päiväkirjoja voidaan käyttää rekisteröimään 
 
 Summien valuuttakurssin ajantasaisuus varmistetaan oikaisemalla työntekijän saldot, kun valuutan vaihtokurssi suoritetaan erätyönä. Jos halutaan käyttää vaihtokurssitaulukkoa mutta selvittää työntekijän saldon paikallisena valuuttana, työntekijätilit voidaan jättää pois vaihtokurssien muuttamisen yhteydessä.
 
-## <a name="to-record-an-employees-expense"></a>Työntekijän kulun kirjaaminen
+## Työntekijän kulun kirjaaminen
 
 Voit kirjat työntekijän kulut **Yleinen päiväkirja** -sivulla.
 
@@ -44,7 +45,7 @@ Voit kirjat työntekijän kulut **Yleinen päiväkirja** -sivulla.
     > Jos haluat antaa työntekijän pankkitilille useita kulurivejä yhden vastatilin rivin yläpuolelle, valitse erän rivillä **Ehdota vastasummaa** -valintaruutu **Yleisen päiväkirjan erät** -sivulla. Tällöin vastatilin rivin **Summa**-kenttä täytetään automaattisesti arvolla, joka vaaditaan kulujen täsmäyttämiseen.
 5. Kirjaa kulut työntekijän tilille valitsemalla **Kirjaa**-toiminto.
 
-## <a name="to-reimburse-an-employee"></a>Hyvityksen tekeminen työntekijälle
+## Hyvityksen tekeminen työntekijälle
 
 Hyvitys tehdään työntekijöille kirjaamalla maksut heidän pankkitililleen **Maksupäiväkirja**-sivulla.  
 
@@ -54,17 +55,17 @@ Hyvitys tehdään työntekijöille kirjaamalla maksut heidän pankkitililleen **
 4. Vaihtoehtoisesti voit valita **Ehdota työntekijämaksuja**-toiminnon, joka lisää automaattisesti odottavat työntekijän hyvitysten päiväkirjarivit.
 5. Rekisteröi hyvitys valitsemalla **Kirjaa**-toiminto.  
 
-## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Hyvitysten täsmäyttäminen työntekijätapahtumien kanssa
+## Hyvitysten täsmäyttäminen työntekijätapahtumien kanssa
 
-Voit kohdistaa työntekijämaksut niiden liittyviin avoimiin työntekijätapahtumiin liittyvien pankkitilitapahtumien perusteella samalla tavoin kuin toimittajan maksut. Voit tehdä tämän esimerkiksi **Maksujen täsmäytyskirjauskansio** -sivulla. Lisätietoja on kohdassa [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md). Vaihtoehtoisesti voit tehdä kohdistuksen manuaalisesti **Työntekijätapahtumat**-sivulla. Lisätietoja on liittyvässä kohdassa [Toimittajamaksujen täsmäyttäminen maksukirjauskansiolla tai toimittajatapahtumista](payables-how-apply-purchase-transactions-manually.md)  
+Työntekijämaksut kohdistetaan niihin liittyviin avoimiin työntekijätapahtumiin samalla tavalla kuin toimittajan maksuihin, esimerkiksi **Maksun täsmäytyspäiväkirjat** -sivulla, niihin liittyvien pankin tiliotteen tapahtumien perusteella. Lisätietoja on kohdassa [Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md). Vaihtoehtoisesti voit tehdä kohdistuksen manuaalisesti **Työntekijätapahtumat**-sivulla. Lisätietoja on liittyvässä kohdassa [Toimittajamaksujen täsmäyttäminen maksukirjauskansiolla tai toimittajatapahtumista](payables-how-apply-purchase-transactions-manually.md)  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
-[Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)  
-[Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)  
-[Päiväkirjakirjauksen peruuttaminen sekä vastaanottojen tai toimitusten kumoaminen](finance-how-reverse-journal-posting.md)  
-[Rahoitus](finance.md)  
-[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Tapahtumien kirjaaminen suoraan pääkirjanpitoon](finance-how-post-transactions-directly.md)    
+[Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)    
+[Päiväkirjakirjausten peruuttaminen ja vastaanottojen/toimitusten kumoaminen](finance-how-reverse-journal-posting.md)    
+[Rahoitus](finance.md)    
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

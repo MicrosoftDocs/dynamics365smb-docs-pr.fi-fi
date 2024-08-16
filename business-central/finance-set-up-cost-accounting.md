@@ -1,20 +1,21 @@
 ---
-title: Kustannuslaskennan määrittäminen
+title: Määritä kustannuslaskenta
 description: 'Ennen kuin alat käsitellä kustannuslaskentaa, sinun täytyy suorittaa asetustehtävät. Jokaisella kustannustapahtumalla täytyy olla määritettynä sekä kustannustyyppi ja joko kustannuspaikkakoodi tai kustannuskohde.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '1100, 1112, 1113, 1122'
-ms.date: 10/09/2023
+ms.date: 07/25/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="set-up-cost-accounting"></a>Kustannuslaskennan määrittäminen
+
+# Määritä kustannuslaskenta
 
 Ennen kuin alat käsitellä kustannuslaskentaa, sinun täytyy suorittaa asetustehtävät.
 
-## <a name="balances-between-cost-type-cost-center-and-cost-object"></a>Kustannustyypin, kustannuspaikan ja kustannusobjektin saldot
+## Kustannustyypin, Kustannuspaikan ja Kustannuskohteen väliset saldot
 
 Kun määrität kustannuslaskennan, sinun on varmistettava, että kaikki tapahtumat on liitetty sekä kustannustyyppiin että kustannuspaikkaan ja kustannuskohteeseen. Tämä tarkoittaa, että jokaisella kustannustapahtumalla täytyy olla määritettynä sekä kustannustyyppi ja joko kustannuspaikkakoodi tai kustannuskohde. Tämä sääntö varmistaa, että kukin kustannustapahtuma näkyy joko kustannuspaikassa tai kustannuskohteessa, mutta ei koskaan molemmissa.  
 
@@ -24,14 +25,14 @@ Näin luot seuraavan kirjanpitolaskutoimituksen:
 
 Kun tulostat Kustannustyyppikaavion, kustannuspaikkakaavion ja kustannuskohteiden raporttikaavion, voit analysoida tämän suhteen.
 
-## <a name="set-up-cost-types"></a>Kustannustyyppien määrittäminen
+## Kustannustyyppien määrittäminen
 
 Kustannustyyppikartta vastaa pääkirjanpidon tilikarttaa. Voit määrittää kustannustyyppikaavion seuraavilla tavoilla:  
 
 - Kustannustyyppien kaavioiden rakenne vastaa pääkirjanpidon tuloslaskelmatilejä. Sitten voit siirtää kirjanpidon tilikartan kustannustyyppikaavioon. Siirron jälkeen voit tehdä tarvittavat muutokset.  
 - Luo uusi kustannustyyppien kaavio tai lisää uudet kustannustyypit aiemmin luotuun kustannustyyppien kaavioon. Sinun on luotava jokainen uusi kustannustyyppi erikseen.  
 
-### <a name="to-transfer-the-general-ledger-chart-of-accounts-to-the-chart-of-cost-types"></a>Siirrä pääkirjanpidon tilikartta kustannustyyppikaavioon
+### Siirrä pääkirjanpidon tilikartta kustannustyyppikaavioon
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannustyyppikartta** ja valitse sitten vastaava linkki.  
 2. Valitse **Hae kustannustyypit tilikartasta** -toiminto. Vahvista siirto valitsemalla valintaikkunassa **Kyllä**. Funktio käyttää tilikarttaa kustannustyyppikaavion luontiin.  
@@ -41,7 +42,7 @@ Kustannustyyppikartta vastaa pääkirjanpidon tilikarttaa. Voit määrittää ku
     > [!IMPORTANT]  
     >  **Rekisteröi kustannustyypit tilikartassa** -toiminto päivittää tilikartan ja kustannustyyppukaavion välisen suhteen. **Nro**-kenttä on täytetty ja vahvistettu, että jokaiselle KP-tilille on liitetty vain yksi kustannuslaji. Toiminto suoritetaan automaattisesti ennen KP-tapahtumien siirtämistä kustannuslaskentaan.  
 
-### <a name="to-set-up-new-cost-types-in-the-chart-of-cost-types-page"></a>Uuden kustannustyypin määrittäminen Kustannustyyppikartta-sivulla
+### Uuden kustannustyypin määrittäminen Kustannustyyppikartta-sivulla
 
 1. Avaa **Kustannustyyppikartta**-sivu muokkaustilassa.  
 2. Täytä kentät tarvittaessa ohjeiden mukaan. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -55,7 +56,7 @@ Kustannustyyppikartta vastaa pääkirjanpidon tilikarttaa. Voit määrittää ku
     > [!IMPORTANT]  
     >  Jos olet antanut määritelmiä **Loppusumma**-rivien **Summausväli**-kentissä ennen **Sisennä kustannustyypit** -toiminnon suorittamista, määritelmät on annettava uudelleen, koska toiminto korvaa kaikki **Loppusumma**-kenttien arvot.  
 
-### <a name="to-update-cost-types"></a>Päivitä kustannustyypit
+### Päivitä kustannustyypit
 
 1. Valitse **Kustannuslaskennan asetukset** -sivulla, haluatko kustannustyyppikaavion päivittyvän automaattisesti, kun tilikarttaa muutetaan.  
 2. Voit tehdä **Tasaa KP-tili** -kentässä valinnan seuraavista vaihtoehdoista:  
@@ -64,7 +65,7 @@ Kustannustyyppikartta vastaa pääkirjanpidon tilikarttaa. Voit määrittää ku
 - **Automaattinen** - Vastaava muutos tehdään kustannustyyppikaaviossa, kun muutat tilikartan.  
 - **Kysy** - Näkyviin tulee sanoma, jossa kysytään, haluatko tehdä vastaavan muutoksen kustannustyyppien kaaviossa, kun muutat tilikarttaa.
 
-## <a name="defining-the-relationship-between-cost-types-and-general-ledger-accounts"></a>Pääkirjanpitotilien ja kustannustyyppien välisen suhteen määrittäminen
+## Pääkirjanpitotilien ja kustannustyyppien välisen suhteen määrittäminen
 
 Kustannustyypin ja KP-tilin välinen suhde luodaan kustannustyypissä ja KP-tilillä.  
 
@@ -73,7 +74,7 @@ Kustannustyypin ja KP-tilin välinen suhde luodaan kustannustyypissä ja KP-tili
 
 Nämä kaksi kenttää täytetään automaattisesti, kun käytät **Hae kustannustyypit tilikartasta** -toimintoa.  
 
-### <a name="relationship-between-general-ledger-accounts-and-cost-types"></a>Pääkirjanpitotilien ja kustannustyyppien välinen suhde.
+### Pääkirjanpitotilien ja kustannustyyppien välinen suhde.
 
 Pääkirjanpitotilien ja kustannustyyppien välissä on olemassa n:1-suhde. Useita pääkirjanpitotilejä voi kuulua yhdelle kustannustyypille, mutta jokainen pääkirjanpitotili kuuluu vain yhdelle kustannustyypille. Seuraava taulukko kuvaa suhteen yksityiskohtia.  
 
@@ -84,7 +85,7 @@ Pääkirjanpitotilien ja kustannustyyppien välissä on olemassa n:1-suhde. Usei
 |Kustannustyypit ilman vastaavia pääkirjanpitotilejä|\<Empty\>||  
 |Kirjanpitotilit, joiden tapahtumia ei siirretä||\<Empty\>|  
 
-### <a name="cost-types-without-a-relationship-to-the-general-ledger"></a>Kustannustyypit ilman suhdetta pääkirjanpitoon
+### Kustannustyypit ilman suhdetta pääkirjanpitoon
 
 Kustannuksen tyypillä ei ehkä ole yhteyttä pääkirjanpidon tileille, jos jokin seuraavista ehdoista toteutuu:  
 
@@ -92,17 +93,17 @@ Kustannuksen tyypillä ei ehkä ole yhteyttä pääkirjanpidon tileille, jos jok
 - Auttavia kustannustyyppejä, kuten [!INCLUDE[prod_short](includes/prod_short.md)] -tietokannassa olevia tyyppejä 9901, 9902 ja 9903, käytetään kredit- ja debet-tileinä kohdistuksissa.  
 - Auttava tili, 9920 [!INCLUDE[prod_short](includes/prod_short.md)] -tietokannassa, sisältää todellisia kertymiä, jotka näyttävät kustannusten ja KP-kulujen eron.
 
-## <a name="setting-up-cost-centers"></a>Kustannuspaikkojen määrittäminen
+## Kustannuspaikkojen määrittäminen
 
 Kustannuspaikat ovat osastoja, jotka vastaavat tuloista ja menoista. Kustannuspaikkakaavio vastaa pääkirjanpidon dimensiotietoja. Voit määrittää kustannuspaikkakaavion seuraavilla tavoilla:  
 
 - Siirrä dimensioarvot pääkirjanpidosta kustannuspaikkakaavioon. Siirron jälkeen voit tehdä tarvittavat muutokset.  
 - Luo uusi kustannuspaikan kaavio, joka on riippumaton pääkirjanpidosta, tai lisää uusi kustannuspaikka nykyiseen kustannuspaikan kaavioon. Sinun on luotava kukin kustannuspaikka erikseen.  
 
-### <a name="to-transfer-dimension-values-in-the-general-ledger-to-the-chart-of-cost-centers"></a>Dimensioarvojen siirtäminen pääkirjanpidosta kustannuspaikkakaavioon
+### Dimensioarvojen siirtäminen pääkirjanpidosta kustannuspaikkakaavioon
 
 1. Määritä dimensio kustannuspaikan dimensioksi **Kustannuslaskennan määritys** -sivulla. Vain tämän dimension arvot siirretään.
-Voit valita **Toiminnot** > **funktiot** > **Päivitä kustannuslaskennan dimensiot** -toiminto, joka päivittää kustannuslaskennan dimensiot.
+Voit valita **Päivitä kustannustili. Dimensiot-toiminto**, joka päivittää kustannuslaskennan dimensiot.
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 2.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannuspaikkakartta** ja valitse sitten vastaava linkki.  
 1. Valitse **Toiminnot**-välilehden **Funktiot**-ryhmässä **Nouda kustannuspaikat dimensiosta**, jolloin dimensioarvot siirretään kustannuspaikkakaavioon. Toiminto siirtää kohdassa 1 määritetyt dimensioarvot.  
 
@@ -111,7 +112,7 @@ Voit valita **Toiminnot** > **funktiot** > **Päivitä kustannuslaskennan dimens
 
 Kustannuspaikkakaavio sisältää nyt kaikki pääkirjanpidossa määritetyt dimensioarvot, mukaan lukien otsikot ja välisummat.  
 
-### <a name="to-create-new-cost-centers-in-the-chart-of-cost-centers-page"></a>Uuden kustannuspaikan luominen Kustannuspaikkakartta-sivulla
+### Uuden kustannuspaikan luominen Kustannuspaikkakartta-sivulla
 
 Voit määrittää ja ylläpitää kustannuspaikkoja joko **Kustannuspaikan kortti** -kortissa tai **Kustannuspaikkakartta**-sivulla. Tässä toimenpiteessä määrität kustannuspaikat **Kustannuspaikkakartta**-sivulla.  
 
@@ -129,14 +130,14 @@ Voit määrittää ja ylläpitää kustannuspaikkoja joko **Kustannuspaikan kort
 > [!IMPORTANT]  
 > Jos olet antanut määritelmiä **Loppusumma**-kustannuspaikkojen **Summausväli**-kenttiin ennen sisennyksen suorittamista, määritelmät on annettava uudelleen. Toiminto korvaa kaikki **Loppusumma**-kentän arvot.
 
-## <a name="setting-up-cost-objects"></a>Kustannuskohteiden määrittäminen
+## Kustannuskohteiden määrittäminen
 
 Kustannuskohteet ovat yrityksen projekteja, tuotteita tai palveluja. Kustannuskohdekaavio vastaa pääkirjanpidon dimensiotietoja. Voit määrittää kustannuskohdekaavion seuraavilla tavoilla:  
 
 * Siirrä dimensioarvot pääkirjanpidosta kustannuskohdekaavioon. Siirron jälkeen voit tehdä tarvittavat muutokset.  
 * Luo uusi kustannuskohteen kaavio, joka on riippumaton pääkirjanpidosta, tai lisää uusi kustannuskohde nykyiseen kustannuskohteiden kaavioon. Sinun on luotava kukin kustannuskohde erikseen.  
 
-### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Dimensioarvojen siirtäminen pääkirjanpidosta kustannuskohdekaavioon
+### Dimensioarvojen siirtäminen pääkirjanpidosta kustannuskohdekaavioon
 
 1.  Määritä dimensio kustannuskohteen dimensioksi **Päivitä KL-dimensiot** -sivulla. Vain tämän dimension arvot siirretään.  
 2.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 3.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannuskohdekartta** ja valitse sitten vastaava linkki.  
@@ -147,7 +148,7 @@ Kustannuskohteet ovat yrityksen projekteja, tuotteita tai palveluja. Kustannusko
 
 Kustannuskohdekaavio sisältää nyt kaikki pääkirjanpidossa määritetyt dimensioarvot, mukaan lukien otsikot ja välisummat.  
 
-### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Uuden kustannuskohteen luominen Kustannuskohdekartta-sivulla
+### Uuden kustannuskohteen luominen Kustannuskohdekartta-sivulla
 
 Voit määrittää ja ylläpitää kustannuskohteita joko **Kustannuskohteen kortti** -kortissa tai **Kustannuskohdekartta**-sivulla. Tässä toimenpiteessä määrität kustannuskohteet **Kustannuskohdekartta**-sivulla.  
 
@@ -165,11 +166,11 @@ Voit määrittää ja ylläpitää kustannuskohteita joko **Kustannuskohteen kor
 > [!IMPORTANT]  
 >  Jos olet antanut määritelmiä **Loppusumma**-kustannuskohteiden **Summan lähde/kohde** -kenttiin ennen sisennyksen suorittamista, määritelmät on annettava uudelleen. Toiminto korvaa kaikki **Loppusumma**-kentän arvot.
 
-## <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Kustannuspaikkojen ja kustannuskohteiden määrittäminen tilikarttaan
+## Kustannuspaikkojen ja kustannuskohteiden määrittäminen tilikarttaan
 
 Voit siirtää kulu- ja tuottotapahtumat automaattisesti pääkirjanpidosta kustannuslaskentaan joko jokaisen pääkirjanpidon kirjauksen tai eräajon yhteydessä. Kun teet siirron, [!INCLUDE[prod_short](includes/prod_short.md)] vain siirtää tapahtumat, jotka on jo linkitetty kustannuspaikkaan tai kustannuskohteeseen. Muodosta mielekäs siirto varmistamalla, että kustannuspaikat ja kustannuskohdeet on asianmukaisesti määritetty.  
 
-### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Dimension oletusarvojen määrittäminen pääkirjanpitotilejä varten
+### Dimension oletusarvojen määrittäminen pääkirjanpitotilejä varten
 
 Voit määrittää kunkin pääkirjanpidon tilin dimension oletusarvot **Oletusdimensio**-taulukossa. Seuraavassa esimerkissä näytetään, miten määritetään, että KP-tilin kirjauksia tehdessä tulee aina olla OSASTO-kustannuspaikka eikä koskaan PROJEKTI-kustannuskohde.  
 
@@ -178,7 +179,7 @@ Voit määrittää kunkin pääkirjanpidon tilin dimension oletusarvot **Oletusd
 |Osaston|Koodi pakollinen|  
 |Projektin|Ei koodia|  
 
-### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Dimensioarvojen määrittäminen yleiskustannuksille ja suorille kustannuksille
+### Dimensioarvojen määrittäminen yleiskustannuksille ja suorille kustannuksille
 
  Voit siirtää yleiskustannukset kustannuspaikkaan ja suorat kustannukset kustannuskohteeseen. Seuraavassa taulukossa näytetään dimension asetusarvojen optimaalinen yhdistelmä.  
 
@@ -188,9 +189,9 @@ Voit määrittää kunkin pääkirjanpidon tilin dimension oletusarvot **Oletusd
 |Kustannuskohde|Ei koodia|Koodi pakollinen|  
 
 > [!NOTE]  
->  Varmista, että kirjanpitoon ennalta määritetty kustannuspaikka ja kustannusobjekti siirretään automaattisesti kustannuslaskentaan, valitsemalla **Tarkista KP-kirjaukset** -valintaruutu Kustannuslaskennan asetukset -sivulla.
+>  Voit varmistaa, että pääkirjanpidossa määritetyt ennalta määritetyt kustannuspaikat ja kustannusobjektit siirretään automaattisesti kustannuslaskentaan valitsemalla **Kustannuslaskennan asetukset -sivulla Tarkista KP-kirjaukset** - **valintaruutu** .
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Kustannuslaskenta](finance-manage-cost-accounting.md)  
 [Kustannustapahtumien siirtäminen ja kirjaaminen](finance-transfer-and-post-cost-entries.md)  

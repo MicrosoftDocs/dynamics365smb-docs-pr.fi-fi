@@ -1,22 +1,23 @@
 ---
-title: Varaston ja tuotannon kustannusten käsitteleminen
-description: 'Tietoja siitä, miten useat kentät, sivut ja raportit on suunnattu käyttäjille, jotka hallitsevat suoraan tai epäsuorasti nimikkeiden tai toimintojen kustannuksia.'
+title: Varasto- ja tuotantokustannusten käsitteleminen
+description: 'Tutustu siihen, kuinka monta kenttää, sivua ja raporttia on tarkoitettu käyttäjille, jotka hallinnoivat nimikkeiden tai toimintojen kustannuksia suoraan tai epäsuorasti.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/16/2021
+ms.date: 07/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="handling-inventory-and-manufacturing-costs"></a>Varaston ja tuotannon kustannusten käsitteleminen
 
-Vaikka useat kustannuslaskennan toiminnot (kuten tapahtuman kohdistus ja automaattinen kustannusten muuttaminen) tapahtuvat taustalla olevissa prosesseissa ilman käyttäjän toimia, useat kentät, sivut ja raportit on tarkoitettu käyttäjille, jotka hallitsevat nimikkeiden tai toimintojen kustannuksia suoraan tai epäsuorasti.  
+# Varasto- ja tuotantokustannusten käsitteleminen
+
+Vaikka suuri osa kustannuslaskentatoiminnoista ilmenee taustalla olevissa prosesseissa, joissa ei ole käyttäjän vuorovaikutusta ( esimerkiksi tapahtuman kohdistus ja automaattinen kustannusten muuttaminen), monet kentät, sivut ja raportit on tarkoitettu käyttäjille, jotka hallitsevat nimikkeiden tai toimintojen kustannuksia suoraan tai epäsuorasti.  
 
  Nimikekulujen liittäminen ostoasiakirjoihin on esimerkki epäsuorasta kustannuslaskentatehtävästä. Kokoonpanon tai tuotannon tuoterakenteen yksikkökustannuksen päivittäminen on esimerkki suorahkosta kustannuslaskentatehtävästä.  
 
- Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.   
+ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkeleihin.   
 
 |**Tehtävä**|**Katso**|  
 |------------|-------------|  
@@ -29,10 +30,10 @@ Vaikka useat kustannuslaskennan toiminnot (kuten tapahtuman kohdistus ja automaa
 |Nimikkeen kohdistuksen peruuttaminen manuaalisesti tai sovelluksen luomien nimiketapahtumien kohdistaminen uudelleen.|[Nimiketapahtumien poistaminen ja uudelleenkohdistaminen](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Luo nimikepäiväkirjan **Kohdistukset tapahtumista** -kentän avulla manuaalisesti kiinteä kohdistus saapuvan tapahtuman ja lähtevän alkuperäisen tapahtuman välille.|[Nimikepäiväkirjan kiinteästä kohdistuksesta aiheutuvien avointen nimiketapahtumien sulkeminen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
-[Varaston kustannusten hallinta](finance-manage-inventory-costs.md)
-[Rakennetiedot: Varaston arvostus](design-details-inventory-costing.md)
+[Varaston kustannusten hallinta](finance-manage-inventory-costs.md)    
+[Rakennetiedot: Varaston kustannuslaskenta](design-details-inventory-costing.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

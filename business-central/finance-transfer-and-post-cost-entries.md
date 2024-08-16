@@ -5,12 +5,13 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '1100, 1103, 1104, 1108, 1113, 1135'
-ms.date: 06/16/2021
+ms.date: 07/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="transferring-and-posting-cost-entries"></a>Kustannustapahtumien siirtäminen ja kirjaaminen
+
+# Kustannustapahtumien siirtäminen ja kirjaaminen
 
 Ennen kuin voit määrittää kustannusten kohdistamisen, sinun on ymmärrettävä, miten kustannustapahtumat tulevat seuraavista lähteistä:  
 
@@ -19,9 +20,9 @@ Ennen kuin voit määrittää kustannusten kohdistamisen, sinun on ymmärrettäv
 - Automaattinen kohdistusten kirjaus todellisille kustannuksille.  
 - Siirrä budjettitapahtumat toteumaan.
 
-## <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Kriteerit pääkirjanpidon tapahtumien siirtämiseksi kustannustapahtumiin
+## Pääkirjanpidon tapahtumien kustannustapahtumiin siirtämiskriteerit
 
-On tärkeää ymmärtää ehdot, joiden mukaan pääkirjanpidon tapahtumat siirretään kustannustapahtumiin. Siirron aikana **Siirrä KP-tapahtumat kustannuslaskentaan** -eräajo käyttää seuraavia kriteerejä määrittääkseen, jos ja miten pääkirjanpidon tapahtumat siirretään.  
+On tärkeää ymmärtää kriteerit, joiden mukaan pääkirjanpidon tapahtumia siirretään kustannustapahtumiin. Siirron aikana **Siirrä KP-tapahtumat kustannuslaskentaan** -eräajo käyttää seuraavia kriteerejä määrittääkseen, jos ja miten pääkirjanpidon tapahtumat siirretään.  
 
 Kirjanpitotapahtumat siirretään, jos:  
 
@@ -30,23 +31,23 @@ Kirjanpitotapahtumat siirretään, jos:
 - Asiakirjan numeroa ei ole tapahtumissa, joten kustannustapahtumissa näytetään asiakirjanumeron kohdalla 0000.  
 - Tapahtumat siirretään kustannustyypille, jolla yhdistettyjä tapahtumia voidaan käsitellä, ja tapahtumat siirretään yhdistettynä joko kuukausittain tai päivittäin.  
 
-Kirjanpitotapahtumia ei siirretä, jos:  
+Pääkirjanpidon tapahtumia ei siirretä, jos:  
 
-- Tapahtumilla on dimensioarvot, jotka eivät vastaa kustannuspaikkaa tai kustannuskohdetta.  
+- Tapahtumilla on dimensioarvoja, jotka eivät vastaa kustannuspaikkaa tai kustannuskohdetta.  
 - Tapahtumien summa on nolla.  
 - Tapahtumissa on poistettu KP-tili.  
-- Tapahtumissa on KP-tili, joka ei ole **Tuloslaskelma**-tyyppiä  
-- Tapahtumissa on KP-tili, jolle ei ole määritetty kustannustyyppiä.  
+- Tapahtumilla on yleinen kirjanpitotili, joka ei ole tuloslaskelma-tyyppiä **·**.  
+- Tapahtumilla on yleinen kirjanpitotili, jolle ei ole määritetty kustannustyyppiä.  
 - Tapahtumien kirjauspäivämäärä on ennen **KP-siirron alkamispäivämäärää**.  
 - Tapahtumille on kirjattu sulkemispäivämäärä. Tässä on tyypillisiä tapahtumia, jotka palauttavat tuloslaskelman saldon vuoden lopussa.
 
-## <a name="transferring-general-ledger-entries-to-cost-entries"></a>Pääkirjanpidon tapahtumien siirtäminen kustannustapahtumiin
+## Pääkirjanpidon tapahtumien siirtäminen kustannustapahtumiin
 
 Voit siirtää pääkirjanpidon tapahtumat kustannustapahtumiin.  
 
 Ennen kuin suoritat prosessin pääkirjanpidon merkintöjen siirtämiseksi kustannusmerkintöihin, sinun täytyy laatia siirto manuaalisen korjauksen kirjaamisen välttämiseksi.  
 
-### <a name="to-prepare-the-transfer"></a>Valmistele siirto
+### Valmistele siirto  
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kustannuslaskennan asetukset** ja valitse sitten vastaava linkki.  
 2.  Varmista **Kustannuslaskennan asetukset** -sivulla, että **KP-siirron alkamispäivämäärä** -kenttään on määritetty oikea arvo.  
@@ -56,16 +57,16 @@ Ennen kuin suoritat prosessin pääkirjanpidon merkintöjen siirtämiseksi kusta
 6.  Tarkista, että kunkin käsiteltävän pääkirjanpidon tilin **KP-tilin kortti** -sivulla, että **Kustannustyypin numero** -kenttä on linkitetty oikein kustannuslajiin. Lisätietoja on kohdassa [Kustannuslaskennan määrittäminen](finance-set-up-cost-accounting.md).  
 7.  Tarkista, että kaikilla kyseessä olevilla pääkirjanpidon tapahtumilla on dimensioarvot, jotka vastaavat kustannuspaikkaa ja kustannuskohdetta.  
 
-### <a name="to-transfer-general-ledger-entries-to-cost-entries"></a>Siirrä pääkirjanpidon tapahtumat kustannustapahtumiin
+### Siirrä pääkirjanpidon tapahtumat kustannustapahtumiin
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Siirrä KP-tapahtumat kustannuslaskentaan** ja valitse sitten vastaava linkki.  
-2.  Aloita siirto valitsemalla **Kyllä**. Prosessi siirtää kaikki pääkirjanpidon tapahtumat, joita ei ole jo siirretty.  
+2.  Aloita siirto valitsemalla **Kyllä**. Prosessi siirtää kaikki pääkirjanpidon tapahtumat, joita ei ole vielä siirretty.  
 
 Siirron aikana prosessi luo yhteyksiä tapahtumiin **Kustannustapahtuma** -taulukossa ja **Kustannusrekisteri** -taulukossa. Tämä mahdollistaa kustannustapahtumien lähteen jäljittämisen.
 
-## <a name="automatic-transfer-and-combined-entries"></a>Automaattinen siirto ja yhdistetyt tapahtumat
+## Automaattiset siirto- ja yhdistetyt tapahtumat
 
-Voit siirtää kustannuslaskennassa pääkirjanpitotapahtumat kustannustyyppiin yhdistetyn kirjauksen avulla. Voit määrittää, jos kustannustyyppi vastaanottaa yhdistettyjä tapahtumia **Yhdistä tapahtumat** -kentässä kustannustyypin määrityksessä. Seuraavassa taulukossa kuvaillaan eri asetukset.  
+Kustannuslaskennassa voi siirtää pääkirjanpitotapahtumat kustannustyyppiin yhdistetyn kirjauksen avulla. Voit määrittää, jos kustannustyyppi vastaanottaa yhdistettyjä tapahtumia **Yhdistä tapahtumat** -kentässä kustannustyypin määrityksessä. Seuraavassa taulukossa kuvaillaan eri asetukset.  
 
 |Yhdistä tapahtumat|Description|  
 |---------------------|-----------------|  
@@ -76,15 +77,15 @@ Voit siirtää kustannuslaskennassa pääkirjanpitotapahtumat kustannustyyppiin 
 > [!IMPORTANT]  
 >  Jos olet valinnut **Automaattinen siirto kirjanpidosta** -valintaruudun **Kustannuslaskennan asetukset** -sivulla, [!INCLUDE[prod_short](includes/prod_short.md)] päivittää kustannuslaskennan jokaisen kirjanpidon kirjauksen jälkeen. Yhdistetyt tapahtumat eivät ole mahdollisia.
 
-## <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Tulokset siirrettäessä pääkirjanpidon tapahtumat kustannustapahtumiin
+## Pääkirjanpidon tapahtumien kustannustapahtumiin siirtämisen tulokset
 
 Kun pääkirjanpidon tapahtumia siirretään kustannustapahtumiin, [!INCLUDE[prod_short](includes/prod_short.md)] luo yhteyksiä tapahtumiin **KP-tapahtuma**-, **Kustannustapahtuma**- ja **Kustannusrekisteri**-taulukossa. Tämä mahdollistaa pääkirjanpidon tapahtumien ja kustannustapahtumien välisten yhteyksien jäljittämisen.  
 
-### <a name="general-ledger-entries"></a>Pääkirjanpidon tapahtumat
+### Pääkirjanpidon tapahtumat
 
 [!INCLUDE[prod_short](includes/prod_short.md)] täyttää kaikkien kustannuslaskentaan siirrettävien pääkirjanpidon tapahtumien kustannusten **Tapahtumanro**-kentän.  
 
-### <a name="cost-entries"></a>Kustannustapahtumat
+### Kustannustapahtumat
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tallentaa vastaavan pääkirjanpidon tapahtuman jokaisen kustannustapahtuman numeron **Kustannustapahtuma**-ikkunan **KP-tapahtuman nro** -kenttään.  
 
@@ -94,11 +95,11 @@ Kun pääkirjanpidon tapahtumia siirretään kustannustapahtumiin, [!INCLUDE[pro
 
 [!INCLUDE[prod_short](includes/prod_short.md)] siirtää yksittäisten kustannustapahtumien kirjaustekstin pääkirjanpidon tapahtumasta **Kuvaus**-tekstikenttään. Tekstikenttä osoittaa, että yhdistetyt tapahtumat siirretään yhdistettyinä tapahtumina. Esimerkiksi vuoden 2013 lokakuun yhdistetyn tapahtuman teksti voi olla **Yhdistetyt tapahtumat, lokakuu 2013**.  
 
-### <a name="cost-register"></a>Kustannusrekisteri
+### Kustannusrekisteri
 
-**Kustannusrekisteri**-taulukkoon [!INCLUDE[prod_short](includes/prod_short.md)] luo merkinnän lähteen siirtämisestä pääkirjanpidosta. Tapahtuma kirjaa siirrettyjen pääkirjanpidon tapahtumien ensimmäisen ja viimeisen tapahtumanumeron sekä luotujen kustannustapahtumien ensimmäisen ja viimeisen tapahtumanumeron.
+**Kustannusrekisteri**-taulukkoon [!INCLUDE[prod_short](includes/prod_short.md)] luo merkinnän lähteen siirtämisestä pääkirjanpidosta. Tapahtuma tallentaa siirrettyjen pääkirjanpidon tapahtumien ensimmäiset ja viimeiset tapahtumanumerot luotujen kustannustapahtumien ensimmäisen ja viimeisen tapahtumanumeron lisäksi.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
  [Tietoja kustannuslaskennasta](finance-about-cost-accounting.md)  
  [Kustannuslaskennan määrittäminen](finance-set-up-cost-accounting.md)  

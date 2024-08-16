@@ -5,12 +5,13 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: 40
-ms.date: 12/12/2023
+ms.date: 07/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Nimikepäiväkirjan kiinteästä kohdistuksesta aiheutuvien avointen nimiketapahtumien sulkeminen
+
+# Kiinteästä kohdistuksesta johtuvien avointen nimiketapahtumien sulkeminen nimikepäiväkirjassa
 
 Voit luoda **Nimikepäiväkirja**-sivun **Kohdistukset tapahtumista** -kentässä manuaalisesti kiinteän kohdistuksen saapuvan tapahtuman ja lähtevän alkuperäisen tapahtuman välille. Voit korjata esimerkiksi lähtevän tapahtuman tai käsitellä sen palautuksen.  
 
@@ -23,7 +24,7 @@ Voit tietyin edellytyksin muuttaa ja uudelleen käyttää kohdistustapahtumia **
 
 Seuraavassa ohjeessa neuvotaan, miten sulkea nämä tapahtumat suorittamalla kaksi korjaavaa kirjausta nimikepäiväkirjaan.  
 
-## <a name="to-close-open-item-ledger-entries-that-result-from-a-fixed-application-in-the-item-journal"></a>Sulje avoimet nimiketapahtumat, jotka aiheutuvat nimikepäiväkirjan kiinteästä kohdistuksesta
+## Sulje avoimet nimiketapahtumat, jotka aiheutuvat nimikepäiväkirjan kiinteästä kohdistuksesta  
 
 1. Kirjaa **Kohdistukset tapahtumista** -kentässä positiivinen muutos ja vastaava määrä. Tämä sulkee alkuperäisen korjaavan negatiivisen tapahtuman, jossa on kiinteä kohdistus.  
 
@@ -32,13 +33,13 @@ Seuraavassa ohjeessa neuvotaan, miten sulkea nämä tapahtumat suorittamalla kak
 
     **Kohdistukset tapahtumista** -kenttä määrittää, onko nimikepäiväkirjan rivin määrä kohdistettava jo kirjattuun asiakirjaan. Jos rivi on kohdistettava jo kirjattuun asiakirjaan, anna sen nimiketapahtuman numero, johon haluat kohdistaa nimikepäiväkirjan rivin.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
-[Nimiketapahtumien poistaminen ja uudelleenkohdistaminen](finance-how-to-remove-and-reapply-item-entries.md)  
-[Myynnin palautusten ja peruutusten käsittely](sales-how-process-sales-returns-cancellations.md)  
-[Varastonarvostuksen ja kustannuslaskennan määrittäminen](finance-set-up-inventory-valuation-and-costing.md)  
-[Varaston kustannusten hallinta](finance-manage-inventory-costs.md)  
-[Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)
+[Nimiketapahtumien poistaminen ja kohdistaminen uudelleen](finance-how-to-remove-and-reapply-item-entries.md)    
+[Myyntipalautusten ja peruutusten käsitteleminen](sales-how-process-sales-returns-cancellations.md)    
+[Varaston arvostuksen ja arvostuksen määrittäminen](finance-set-up-inventory-valuation-and-costing.md)    
+[Varaston kustannusten hallinta](finance-manage-inventory-costs.md)    
+[Rakennetiedot: Arvostusmenetelmät](design-details-costing-methods.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,12 +5,13 @@ author: jswymer
 ms.topic: overview
 ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI'
-ms.date: 07/05/2024
+ms.date: 08/05/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="preparing-closing-statements"></a>Tilinpäätöslaskelmien valmisteleminen
+
+# Tilinpäätöslaskelmien valmisteleminen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] -ohjelmassa on vakioraportteja, joiden avulla voit kerätä yrityksen tilinpäätöslaskelmien valmisteluun tarvittavat tiedot. Seuraavassa taulukossa kuvataan raportit.  
 
@@ -26,11 +27,11 @@ ms.reviewer: jswymer
 
 Etsi raportti valitsemalla ![Valolamppu, joka avaa Tell Me -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita nimi sellaisena kuin se näkyy taulukossa ja valitse sitten liittyvä linkki.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
-[Vuosien ja kausien sulkeminen](year-close-years-periods.md)  
-[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Business Intelligence](bi.md)
+[Tilikauden päättämisvuodet ja -jaksot](year-close-years-periods.md)    
+[Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
+[Business Intelligence](bi.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

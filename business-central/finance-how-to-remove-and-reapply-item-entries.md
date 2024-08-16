@@ -1,16 +1,17 @@
 ---
-title: Nimiketapahtumien poistaminen ja uudelleenkohdistaminen
+title: Nimiketapahtumien poistaminen ja kohdistaminen uudelleen
 description: 'Voit tarkastella ja muuttaa manuaalisesti tietyn nimikkeen kohdistustapahtumia, jotka on luotu automaattisesti varastotapahtumien yhteydessä.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '506, 521, 9125'
-ms.date: 04/01/2021
+ms.date: 07/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="remove-and-reapply-item-ledger-entries"></a>Nimiketapahtumien poistaminen ja uudelleenkohdistaminen
+
+# Nimiketapahtumien poistaminen ja kohdistaminen uudelleen
 Voit tarkastella ja muuttaa **Kohdistustyökirja**-sivulla manuaalisesti tietyn nimikkeen kohdistustapahtumia, jotka on luotu automaattisesti varastotapahtumien yhteydessä.  
 
 Kun kirjaat tapahtuman, jossa nimikkeitä siirretään varastosta tai varastoon, nimikesovellus luodaan jookaisen varastoarvon nousun varastoarvon laskun väliin. Nämä kohdistukset määrittävät varastoon vastaanotettavien tavaroiden ja varastosta otettavien tavaroiden kustannusvirran. Yksikkökustannuksen laskentatavan mukaan nimikkeen virheellinen kohdistus voi johtaa vääristyneeseen keskimääräiseen kustannukseen ja yksikkökustannukseen. Katso lisätiedot kohdasta Rakennetiedot: nimikkeen kohdistus.
@@ -23,7 +24,7 @@ Seuraavat tilanteet saattavat vaatia, että kohdistus peruutetaan tai nimiketapa
 
 Käytä asiakirjaa nimiketapahtuman kohdistamisessa uudelleen, jos mahdollista. Jos esimerkiksi teet ostopalautuksen nimikkeelle, jonka myynti on jo kohdistettu, voit tehdä uudelleenkohdistuksen yksinkertaisesti luomalla ja kirjaamalla oikean kohdistuksen sisältävän ostopalautusasiakirjan ostopalautusrivin **Kohdista nimiketapahtumaan** -kentässä. Voit käyttää **Hae peruutettavat kirjatut asiakirjarivit** -toimintoa tai **Kopioi asiakirjasta** -toimintoa ostopalautusasiakirjassa, jolloin kohdistus on helpompaa. Kun kirjaat asiakirjan, nimiketapahtuma otetaan automaattisesti uudelleen käyttöön. Lisätietoja on kohdassa [Ostopalautusten tai -peruutusten käsitteleminen](purchasing-how-process-purchase-returns-cancellations.md).
 
-Jos et tehdä uudelleenkohdistusta, kuten korjata kiinteää kohdistusta, asiakirjassa, korjaa kohdistus **Kohdistustyökirja**-sivulla.
+Jos et voi käyttää asiakirjaa uudelleenkokeen käyttämiseen esimerkiksi silloin, kun sinun täytyy korjata kiinteä kohdistus, käytä Kohdistustyökirja-sivua **kohdistuksen** korjaamiseen.
 
 > [!Warning]  
 > Seuraavassa on tärkeitä muistettavia asioita, kun käsitellään kohdistustyökirjaa:
@@ -33,7 +34,7 @@ Jos et tehdä uudelleenkohdistusta, kuten korjata kiinteää kohdistusta, asiaki
     - Voit poistaa usean tapahtuman kohdistukset samanaikaisesti kohdistustyökirjassa. Koska tapahtumien kohdistaminen vaikuttaa useisiin kohdistuksen käytettävissä oleviin tapahtumiin, voit luoda kohdistuksen vain yhdelle tapahtumalle samanaikaisesti.
     - Kohdistustyökirja ei voi tehdä kohdistusta seuraavassa tilanteessa: Jos varastossa ei ole tarpeeksi kohdistettavaa määrää, kohdistustyökirja ei voi tehdä kohdistusta, jos yrität kohdistaa varaston vähennystapahtumaa, jolla ei ole nimikeseurannan tietoja, sellaiseen varaston lisäystapahtumaan, jolla on nimikeseurannan tiedot.
 
-## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Nimikkeen kohdistuksen ja kohdistustyökirjan poistaminen
+## Nimikkeen kohdistuksen ja kohdistustyökirjan poistaminen
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kohdistustyökirja** ja valitse sitten vastaava linkki.  
 2.  **Kohdistustyökirja**-sivu aukeaa näyttäen kaikkia nimikkeitä koskevat nimiketapahtumat.  
@@ -43,14 +44,14 @@ Jos et tehdä uudelleenkohdistusta, kuten korjata kiinteää kohdistusta, asiaki
 6.  Valitse **Poista kohdistus** -toiminto. Nämä kaksi nimiketapahtumaa linkittävä nimikkeen kohdistustapahtuma poistetaan ja siirretään **Nimikkeen kohdistustapahtumahistoria** -sivulle.  
 7.  Sulje **Näytä kohdistetut tapahtumat - Kohdistetut tapahtumat** -sivu.  
 
- Kahden nimiketapahtuman **Jäljellä oleva määrä** -kenttien määrä lisääntyy sillä määrällä, jolta poistettiin kohdistus. Poistettu nimiketapahtuma voidaan nyt kohdistaa uudelleen **Näytä kohdistetut tapahtumat - kohdistamattomat tapahtumat** -sivulla.  
+  **Kahden nimiketapahtuman Jäljellä oleva määrä** -kenttää kasvatetaan kohdistuksen poistamalla määrällä. Poistettu nimiketapahtuma voidaan nyt kohdistaa uudelleen **Näytä kohdistetut tapahtumat - kohdistamattomat tapahtumat** -sivulla.  
 
 > [!IMPORTANT]  
 >  Älä jätä kohdistustapahtumia pitkäksi aikaa käyttämättä, koska muut käyttäjät eivät voi käsitellä nimikkeitä ennen kuin käytät kohdistustapahtumia uudelleen tai suljet **Kohdistustyökirja**-sivun. Seuraava virhesanoma näytetään, jos yrität suorittaa toimintoja, jotka liittyvät manuaalisesti peruutettuun kohdistustapahtumaan:  
 >   
 >  **Et voi suorittaa tätä toimintoa, koska käyttäjä \<user\> on peruuttanut nimikkeen \<item\> kohdistuksen kohdistustyökirjassa.**  
 
-## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Nimikkeen kohdistuksen ja kohdistustyökirjan luominen
+## Nimikkeen kohdistuksen ja kohdistustyökirjan luominen
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 2.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kohdistustyökirja** ja valitse sitten vastaava linkki.  
 2.  **Kohdistustyökirja**-sivu aukeaa näyttäen kaikkia nimikkeitä koskevat nimiketapahtumat.  
@@ -67,13 +68,13 @@ Jos et tehdä uudelleenkohdistusta, kuten korjata kiinteää kohdistusta, asiaki
     >  Jos olet valinnut sellaisen kohdistuksen tekemisen, joka loisi päättymättömän silmukan kustannusten muutosprosessiin, ehdottamaasi kohdistusta ei tehdä. Näin voi tapahtua, kun alkuperäiset tapahtumat loivat negatiivisen varaston. Sovellusta ei ole tehty. Tämän vuoksi on valittava sovellukselle eri tapahtuma.  
 6.  Jos **varastonhallinnan asetusten** **Automaattinen kustannusten muuttaminen** -kentän arvoksi määritetään **Aina**, kustannusten muuttamisen eräajo suoritetaan automaattisesti uudelleenkohdistuksen jälkeen. Muussa tapauksessa voit varmistaa suorittamalla **Muuta kustannuksia - Nimiketapahtumat** -eräajon, että kaikki kustannukset on päivitetty.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
-[Nimikepäiväkirjan kiinteästä kohdistuksesta aiheutuvien avointen nimiketapahtumien sulkeminen](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
- [Ostopalautusten tai peruutusten käsittely](purchasing-how-process-purchase-returns-cancellations.md)  
+[Kiinteästä kohdistuksesta synty olevien avointen nimiketapahtumien sulkeminen nimikepäiväkirjassa](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)    
+ [Ostopalautusten tai peruutusten käsitteleminen](purchasing-how-process-purchase-returns-cancellations.md)    
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)   
- [Rakennetiedot: Nimikkeen kohdistus](design-details-item-application.md)  
- [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Suunnittelun yksityiskohdat: Nimikkeen kohdistus](design-details-item-application.md)    
+ [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

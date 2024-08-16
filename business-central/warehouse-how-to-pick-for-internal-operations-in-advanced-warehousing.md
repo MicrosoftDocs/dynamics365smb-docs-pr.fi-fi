@@ -1,23 +1,27 @@
 ---
 title: Poiminta sisäisissä toiminnoissa laajennetuissa varastomäärityksissä
-description: 'Jos sijainnit käyttävät poimintaa ja toimituksia, poimi komponentteja tuotannon, kokoonpanon ja projektin toimintoja varten F.varastoinnin poiminta -sivulla.'
+description: 'Jos sijainneissasi käytetään poimintaa ja toimitusta, poimi komponentteja tuotantoa, kokoonpanoa ja projektitoimintoja varten F. varastoinnin poiminta -sivulla.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: null
-ms.date: 04/23/2024
+ms.date: 08/12/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="pick-for-production-assembly-or-projects-in-advanced-warehouse-configurations"></a>Poiminta tuotantoa, kokoonpanoa tai töitä varten fyysisen varaston lisämäärityksissä
+# Poiminta tuotantoa, kokoonpanoa tai projekteja varten laajennetuissa fyysisen varastoinnin määrityksissä
 
-Tuotantoon, projekteihin tai koonpanotilauksiin poimittujen komponenttien hyllytystapa määräytyy sen mukaan, miten fyysinen varasto on määritetty sijaintina. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).
+Komponenttien poimintatapa tuotantoa, projekteja tai kokoonpanotilauksia varten määräytyy sen mukaan, miten fyysinen varastointi on määritetty sijainniksi. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).
 
-Lähtevän virran (poiminta) laajennetuissa fyysisen varastoinnin määrityksissä **Vaadi poiminta** ja **Vaadi toimitus** otetaan käyttöön vaihtopainikkeilla sijainnin **Sijaintikortti**-sivulla.
+Käytä lähtevää virtaa (poimintaa) varten laajennetussa fyysisen varastoinnin määrityksessä **sijainnin Sijainti-kortti**  sivulla seuraavia asetuksia:
 
-Kun sijainti määritetään edellyttämään fyysisen varaston poiminnan ja toimituksenkäsittelyä, fyysisen varaston poiminta-asiakirjoilla voi luoda ja käsitellä poimintatietoja ennen komponenttien käytön tai kulutuksen kirjaamista.  
+* Tuotanto Tuot **. kulutus f. var. Valitse Käsittely-kenttä**, F **. var. poiminta (valinnainen)**  tai **F. varastoinnin poiminta (pakollinen)**.
+* Kokoonpano, **Asm. Kulutus F. var. Valitse Käsittely-kenttä**, F **. var. poiminta (valinnainen)**  tai **F. varastoinnin poiminta (pakollinen).**
+* projektinhallinta **projektin kulutus f. var. Valitse Käsittely-kenttä**, F **. var. poiminta (valinnainen)**  tai **F. varastoinnin poiminta (pakollinen).**
+
+Kun sijainnissa on määritetty pakolliseksi fyysisen varastoinnin poiminnan käsittely, käytä fyysisen varastoinnin poiminta-asiakirjoja luodaksesi ja käsitelläksesi poimintatietoja ennen komponenttien käytön tai kulutuksen kirjaamista.  
 
 Fyysisen varastoinnin poiminta-asiakirjaa ei voi luoda tyhjästä. Poiminnat ovat sellaisen työnkulun osa, jossa tilausta käsittelevä henkilö luo ne push-menetelmänä tai varastotyöntekijä luo ne pull-menetelmänä:
 
@@ -30,9 +34,9 @@ Lähdeasiakirjojen komponenttien poimiminen tai siirtäminen pull-menetelmällä
 |---------------------|--------------------|  
 |Tuotantotilaus|Tilauksen tilaksi muutetaan Vapautettu tai vaihtoehtoisesti vapautettu tuotantotilaus luodaan heti.|  
 |Kokoonpanotilaus|Muuta tilaksi Vapautettu.|
-|Projektit | Tilaksi vaihdetaan Avoin tai vaihtoehtoisesti luodaan heti projekti, jonka tila on Avoin.|  
+|Projektit | Muuta tilaksi Avoin tai luo projekti, jonka tila on Avoin heti.|  
 
-## <a name="production"></a>Tuotanto
+## Tuotanto
 
 Tuotannon komponentteja voi poimia työkulussa tuotantoon **F.varastoinnin poiminta** -asiakirjojen avulla.
 
@@ -41,32 +45,29 @@ Jos sijainnissa käytetään varastopaikkoja nimikkeiden siirtämiseen avoimiin 
 * Jos sijainnissa käytetään ohjattua hyllytystä ja poimintaa, lisätietoja on artikkelissa [Nimikkeiden siirtäminen laajennetuissa fyysisen varaston määrityksissä](warehouse-how-to-move-items-in-advanced-warehousing.md).
 * Muita sijainteja koskevia lisätietoja on artikkelissa [Nimikkeiden sisäinen siirtäminen fyysisen varastoinnin perusmäärityksissä](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
-## <a name="assembly"></a>Kokoonpano
+## Kokoonpano  
 
 Kokoonpanon komponentit voidaan siirtää kokoonpanoalueelle **F.varastoinnin poiminta** -asiakirjojen avulla.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] tukee kokoonpanovirtoja, joiden tyyppi on kokoonpanoa varastoa varten ja kokoonpano tilausten varten. Lisätietoja fyysisen varaston lähtevän virran kokoonpanosta tilausten varten on kohdassa [Kokoonpano tilausta varten -nimikkeiden käsitteleminen fyysisen varastoinnin toimituksissa](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-## <a name="project-management"></a>Projektinhallinta
+## Projektien hallinta  
 
-Projektin komponentteja voi poimia työnkulussa projektinhallintaan **F.varastoinnin poiminta** -asiakirjojen avulla.
+Poimi projektin komponentteja projektinhallinnan työnkulussa F. varastoinnin poiminta **-asiakirjojen avulla** .
 
 > [!NOTE]
-> Projektin suunnittelurivien komponenttien poimintamahdollisuus lisättiin [!INCLUDE[d365fin](includes/d365fin_md.md)]iin vuoden 2022 2. julkaisuaallossa. Jotta ominaisuutta voi käyttää, järjestelmänvalvojan on otettava käyttöön **Ominaisuuspäivitys: Ota käyttöön varaston ja fyysisen varaston poiminnat projekteista** **Ominaisuuksien hallinta** -sivulla.
->
-> Projektit eivät tue laajennettuja määrityksiä, joissa **Ohjattu poiminta ja hyllytys** on otettu vaihtopainikkeella käyttöön.
+> Project ei tue laajennettuja määrityksiä, joissa ohjattu poiminta **- ja hyllytysvalinta** on käytössä.
 
-## <a name="check-whether-items-are-available-for-picking"></a>Tarkista, ovatko nimikkeet poimittavissa
+## Tarkista, ovatko nimikkeet poimittavissa
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Poiminta-asiakirjojen joukkoluonti poimintatyökirjan avulla
+## Poiminta-asiakirjojen joukkoluonti poimintatyökirjan avulla
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poimintatyökirja** ja valitse sitten vastaava linkki.  
-
 2. Valitse **Hae f. varastoinnin asiakirjat** -toiminto.  
 
-    Luettelo sisältää vapautetun tuotannon, projektit ja kokoonpanotilaukset, jotka siirretty poimintatoimintoon. Tilaukset sisältävät myös ne, joille poimintaohjeet on jo luotu. Tässä luettelossa ei ole asiakirjoja, joiden poimintarivit on poimittu ja rekisteröity.  
+    Luettelossa näkyvät vapautetut tuotantotilaukset, projektit ja kokoonpanotilaukset, jotka on välitetty poimintatoimintoon. Tilaukset sisältävät ne, joille poimintaohjeet on jo luotu. Tässä luettelossa ei ole asiakirjoja, joiden poimintarivit on poimittu ja rekisteröity.  
 3. Valitse tilaukset, joiden poiminta halutaan valmistella.
 
     > [!NOTE]  
@@ -93,17 +94,17 @@ Projektin komponentteja voi poimia työnkulussa projektinhallintaan **F.varastoi
     |Asetus|Kuvaus|
     |-|-|
     |Per f.var. Asiakirja|Luo erilliset poiminta-asiakirjat työkirjan riveille, joilla on sama varastolähdeasiakirja.|
-    |Per asiak./toimit./sijainti|Luo erilliset poiminta-asiakirjat kullekin asiakkaalle (projekteille)|
+    |Per asiak./toimit./sijainti|Luo erilliset poiminta-asiakirjat kullekin asiakkaalle (projektille)|
     |Per nimike|Luo erilliset poiminta-asiakirjat kullekin nimikkeelle poimintatyökirjassa.|
     |Per lähtöalue|Luo erilliset poiminta-asiakirjat kullekin alueelle, josta nimikkeitä otetaan.|
     |Per lokero|Luo erilliset poiminta-asiakirjat kullekin varastopaikalle, josta nimikkeitä otetaan.|
     |Per eräpäivä|Luo erilliset varastopoiminta-asiakirjat lähdeasiakirjoille, joilla on sama eräpäivä.|
 
-    Poiminta-asiakirjojen luonnin määrittäminen tekemällä valinnan seuraavista vaihtoehdoista.  
+    Määritä seuraavien asetusten avulla, miten poiminta-asiakirjat luodaan.  
 
     |Asetus|Kuvaus|
     |-|-|
-    |Maks. Ei. poimintarivejä|Luo poiminta-asiakirjat, joista jokaisessa on enintään määritetty määrä rivejä.|
+    |Maks. Nro poimintarivejä|Luo poiminta-asiakirjat, joista jokaisessa on enintään määritetty määrä rivejä.|
     |Maks. Ei. poiminnan lähdeasiakirjoja|Luo poiminta-asiakirjat, jotka kattavat määritetyn määrän lähdeasiakirjoja.|
     |Määritetty käyttäjätunnus|Luo poiminta-asiakirjat vain työkirjan riveille, jotka on liitetty valittuun varastotyöntekijään.|
     |Järjestämistapa poimintariveille|Rivien lajittelu luodussa poiminta-asiakirjassa tekemällä valinnan käytettävistä olevista vaihtoehdoista.|
@@ -113,9 +114,9 @@ Projektin komponentteja voi poimia työnkulussa projektinhallintaan **F.varastoi
 
 8. Valitse **OK**-painike.  
 
-## <a name="to-pick-items-for-a-production-order-assembly-order-or-project"></a>Tuotantotilauksen, kokoonpanotilauksen, projektin nimikkeiden poimiminen
+## Nimikkeiden poiminta tuotantotilausta, kokoonpanotilausta tai projektia varten
 
-1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poiminnat** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poiminnat** ja valitse sitten vastaava linkki.  
 
     Jos tiettyä poimintaa on käsiteltävä, poiminta valitaan luettelosta tai määritetyt poiminnat etsitään suodattamalla luetteloa. Avaa poiminnan kortti.  
 2. Jos **Määritetty käyttäjätunnus** -kenttä on tyhjä, syötä tunnus tarvittaessa itse.  
@@ -123,7 +124,7 @@ Projektin komponentteja voi poimia työnkulussa projektinhallintaan **F.varastoi
 
     Jos fyysinen varasto on määritetty käyttämään varastopaikkoja, nimikkeen ottopaikkoja ehdotettaessa käytetään nimikkeen oletusvarastopaikkoja. Ohjeissa on ainakin kaksi erillistä otto- ja asetustoimintojen riviä.  
 
-    Toimintoalueilla, kuten tuotannon varastopaikoissa, voi olla oletusvarastopaikka vaadituille komponenteille. Jos se on olemassa, oletusvarastopaikkakoodi lisätään fyysisen varaston poiminta-asiakirjaan osoittamaan, minne nimikkeet sijoitetaan. Lue lisätietoja kohdasta **Tuotannon valmisteluvarastopaikkakoodi**- **Kokoonpanoon-varastop.koodi**- ja **Projektiin-lokeron koodi** -kenttien työkaluvihjeissä.
+    Toimintoalueilla, kuten tuotannon varastopaikoissa, voi olla oletusvarastopaikka vaadituille komponenteille. Jos se on olemassa, oletusvarastopaikkakoodi lisätään fyysisen varaston poiminta-asiakirjaan osoittamaan, minne nimikkeet sijoitetaan. Lisätietoja on Tuotanto-varastopaikan koodi-, **Kokoonpanon varastopaikkakoodi**- ja **Projektiin-varastopaikkakoodi**-kenttien työkaluvihjeissä **.** 
 
     Jos fyysinen varasto on määritetty käyttämään ohjattua hyllytystä ja poimintaa, parhaat poimintavarastopaikat lasketaan varastopaikan luokittelun avulla. Kyseisiä varastopaikkoja ehdotetaan poimintarivillä. Ohjeissa on ainakin kaksi erillistä otto- ja asetustoimintojen riviä.  
 
@@ -141,7 +142,7 @@ Projektin komponentteja voi poimia työnkulussa projektinhallintaan **F.varastoi
   > [!NOTE]  
   > Rivit on lajiteltu valittujen kriteereiden nousevassa järjestyksessä. Jos järjestelet asiakirjan mukaan, lajittelu tehdään ensin asiakirjatyypin mukaan **F. varastoinnin aktiviteetin lähdeasiakirja** -kentän perusteella. Jos järjestelet määränpään mukaan, lajittelu tehdään ensin kohdetyypin mukaan **F. varastoinnin kohdetyyppi** -kentän perusteella.
 
-4. Kun nimikkeet on poimittu ja asetettu tuotanto-, kokoonpano- tai projektialueelle taikka -varastopaikkaan, valitse **Rekisteröi poiminta** -toiminto.  
+4. Kun olet poiminut ja sijoittanut nimikkeet tuotantoon, kokoonpanoon, projektialueeseen tai varastopaikkaan, valitse Rekisteröi poiminta **-** toiminto.  
 
     Nimikkeet voidaan nyt tuoda kyseiselle alueelle ja poimittujen komponenttien käyttö tai kulutus voidaan kirjata kirjaamalla kulutuspäiväkirja, kokoonpanotilaus tai projektipäiväkirja. Seuraavissa artikkeleissa on lisätietoja:
 
@@ -149,7 +150,7 @@ Projektin komponentteja voi poimia työnkulussa projektinhallintaan **F.varastoi
     * [Nimikkeiden kokoonpano](assembly-how-to-assemble-items.md)
     * [Projektien kulutuksen tai käytön kirjaaminen](projects-how-record-job-usage.md)
 
-## <a name="flushing-production-components-in-an-advanced-warehouse-configuration"></a>Tuotannon komponenttien materiaaliotto laajennetussa fyysisen varaston määrityksessä
+## Tuotannon komponenttien materiaaliotto laajennetussa fyysisen varaston määrityksessä
 
 Materiaaliottotavat vaikuttavat komponenttien siirtymiseen tuotantoon. Lisätietoja on kohdassa [Komponenttien materiaalinotto toiminnan tuotoksen mukaan](production-how-to-flush-components-according-to-operation-output.md). Valitun materiaaliottotavan mukaan komponentteja voi poimia tuotantoon seuraavilla tavoilla:
 
@@ -157,7 +158,7 @@ Materiaaliottotavat vaikuttavat komponenttien siirtymiseen tuotantoon. Lisätiet
 * Käyttämällä **F.varastoinnin poiminta** -asiakirjaa **Poiminta + eteenpäin**- tai **Poiminta + taaksepäin** -materiaaliottotapaa käyttävien nimikkeiden poiminnan kirjaamiseen. Komponentteja kulutetaan automaattisesti, joko muutettaessa tuotantotilauksen tilaa taikka aloitettaessa tai lopetettaessa työvaihetta. Kaikkien pakollisten komponenttien on oltava saatavana. Muutoin kyseisen komponentin materiaalinoton kirjaus lopetetaan.
 * Käyttämällä **F. var. siirto** -asiakirjaa viittaamatta lähdeasiakirjaan tai kirjaamalla muulla tavoin **Eteenpäin**- tai **Taaksepäin**-materiaaliottotapaa käyttävien komponenttien varaston siirrot. Komponentteja kulutetaan automaattisesti, joko muutettaessa tuotantotilauksen tilaa taikka aloitettaessa tai lopetettaessa työvaihetta. Kaikkien pakollisten komponenttien on oltava saatavana. Muutoin kyseisen komponentin materiaalinoton kirjaus lopetetaan. Lisätietoja on kohdassa [Nimikkeiden siirtäminen](warehouse-move-items.md).
 
-### <a name="example"></a>Esimerkki
+### Esimerkki
 
 Nimikkeellä SP-SCM1004 on 15 kappaleen tuotantotilaus.. Joiden komponenttiluettelon nimikkeiden materiaaliotto on tehtävä manuaalisesti kulutuspäiväkirjassa. Muiden nimikkeiden poiminta ja materiaaliotto voidaan tehdä automaattisesti käyttämällä **Poiminta + taaksepäin** -materiaaliottotapaa.  
 
@@ -180,7 +181,7 @@ Seuraavassa kuvassa esitetään, milloin **Bin-koodi** -kenttä osaluettelossa t
 
 :::image type="content" source="media/binflow.png" alt-text="Yleiskatsaus Varastopaikkakoodi-kenttä täyttämisen ajankohdasta ja täyttämistavasta.":::
 
-## <a name="make-to-order-mto-production-components-in-an-advanced-warehouse-configuration"></a>Tilausohjattujen (MTO) komponenttien materiaaliotto laajennetussa fyysisen varaston määrityksessä
+## Tilausohjattujen (MTO) komponenttien materiaaliotto laajennetussa fyysisen varaston määrityksessä
 
 Esimerkkitilanteissa, joissa tuotettu nimike koostuu raaka-aineista ja puolivalmiista nimikkeistä, joiden tuotantotapana on **tilausohjautuva**, näiden puolivalmiiden komponenttien fyysisen varastoinnin poiminta lisätään samaan tuotantotilaukseen niin, että **Suunnittelutason koodi** -kenttä on täytetty. Puolivalmiiden nimikkeiden oletetaan olevan heti kulutuksessa, eivätkä ne vaadi poimintaa, joten niitä ei sisällytetä fyysisen varastoinnin poiminta-asiakirjaan. Luodut fyysisen varastoinnin poiminnat sisältävät raaka-aineet vain tuotetun nimikkeen ja puolivalmiiden nimikkeiden osalta.
 
@@ -188,7 +189,7 @@ Jos varastossa on kuitenkin puolivalmiita nimikkeitä, suunnittelujärjestelmä 
 Tällaiset asetukset eivät ole yhteensopivia fyysisen varastoinnin poimintojen kanssa, ja tiheydestä riippuen tällaisten puolivalmiiden nimikkeiden tuotantotapa tulee muuttaa **varasto-ohjautuvaksi** tai tuotantotilauksen komponenttirivi tulee jakaa manuaalisesti silloin, kun aiemmin tuotetut puolivalmiit nimikkeet tulee poimia.
 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 - [Varaston hallinta](inventory-manage-inventory.md)  
 - [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  

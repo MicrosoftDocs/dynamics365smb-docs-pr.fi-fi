@@ -1,7 +1,7 @@
 ---
 title: Shopify-yhdistimen määrittäminen ja käyttäminen
 description: Useita integrointiskenaarioita Shopifyn ja Business Centralin välisen työnkulun esittelyyn
-ms.date: 06/21/2022
+ms.date: 08/01/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 ms.search.form: '30101, 30102, 30106, 30107, 30113, 30115, 30126, 30156, 30157'
@@ -10,13 +10,13 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-set-up-and-use-the-shopify-connector"></a>Vaihekuvaus: Shopify-yhdistimen määrittäminen ja käyttäminen
+# Vaihekuvaus: Shopify-yhdistimen määrittäminen ja käyttäminen
 
 Tässä osiossa esitellään joitakin tyypillisiä skenaarioita ja käydään läpi vaiheet, joiden avulla voit testata integroidun [!INCLUDE[prod_short](../includes/prod_short.md)] -järjestelmän ja Shopify-kaupan välistä työnkulkua ja kouluttaa käyttäjiä sen parissa.
 
-## <a name="prerequisites"></a>Vaatimukset
+## Vaatimukset 
 
-### <a name="shopify"></a>Shopify
+### Shopify
 
 Tarvitaan:
 
@@ -25,13 +25,13 @@ Tarvitaan:
 
 Lisätietoja Shopify-kokeiluversioiden luomisesta ja suositelluista asetuksista on kohdassa [Luo ja määritä Shopify-tili](shopify-account.md).
 
-### <a name="business-central"></a>Business Central
+### Business Central
 
 Sinulla täytyy olla [!INCLUDE[prod_short](../includes/prod_short.md)] -tili. 
 
 Voit esimerkiksi luoda esittelytilin tai aloittaa kokeiluversion. Lisätietoja on kohdissa [Dynamics 365 Business Central -esittely-ympäristöjen valmistelu](/dynamics365/business-central/dev-itpro/administration/demo-environment) ja [Rekisteröityminen kokeiluversion käyttäjäksi](../trial-signup.md). 
 
-## <a name="connect-business-central-to-the-shopify-shop"></a>Business Centralin yhdistäminen Shopify-kauppaan
+## Business Centralin yhdistäminen Shopify-kauppaan
 
 Toimi [!INCLUDE[prod_short](../includes/prod_short.md)]issa seuraavasti:
 
@@ -62,13 +62,13 @@ Määritä sijaintien yhdistäminen:
 3. Syötä **Sijaintisuodatus**-kenttään `''|EAST|MAIN`.
 4. Valitse *Arvioitu käytettävissä oleva saldo tänään* **Varastolaskenta**-kentästä ottaaksesi varastosynkronoinnin käyttöön valitussa Shopify-sijainnissa.
 
-## <a name="walkthrough-start-selling-products-online"></a>Vaihekuvaus: Tuotteiden myynnin aloittaminen verkossa
+## Vaihekuvaus: Tuotteiden myynnin aloittaminen verkossa
 
-### <a name="scenario"></a>Skenaario
+### Skenaario
 
 Oletetaan, että haluat kokeilla Shopifya verkkokauppana kuluttamatta liian paljon aikaa määritykseen, varsinkin koska ylläpidät jo nimikkeitäsi [!INCLUDE[prod_short](../includes/prod_short.md)] -järjestelmässä oikein. Kun julkaiset Shopify-verkkokauppasi, saat heti uusia asiakkaita, jotka ovat tyytyväisiä kauppaasi ja ostokokemukseensa. Tästä syystä he päättävät jättää tippiä kassalla.
 
-### <a name="steps"></a>Vaiheet
+### Vaiheet
 
 Seuraa näitä ohjeita [!INCLUDE[prod_short](../includes/prod_short.md)]-ohjelmassa:
 
@@ -78,7 +78,7 @@ Seuraa näitä ohjeita [!INCLUDE[prod_short](../includes/prod_short.md)]-ohjelma
 4. Määritä `CHAIR`-suodatin **Nimikeluokan koodi** -kentälle.
 5. Ota **Synkronoi tuotekuvat** -valitsin käyttöön.
 6. Ota **Synkronoi varasto** -valitsin käyttöön.
-7. Valitse **OK** ja odota, kunnes nimikkeiden, hintojen, kuvien ja varaston alustava synkronointi on suoritettu.
+7. Valitse **OK** ja odota, kunnes nimikkeiden, hintojen, kuvien ja varaston alustava synkronointi on valmis.
 
 **Shopify-verkkokaupassa**:
 > [!Tip]  
@@ -115,7 +115,7 @@ Tuotu tilaus on valmis käsiteltäväksi.
 
 1. Valitse tuotu tilaus avataksesi **Shopify-tilaus**-ikkunan.
 2. Huomaa, että uusi asiakas ja myyntitilaukset luodaan.
-3. Tutki **Riski**- ja **Toimituskulut**-toimintoja.
+3.  **Tutustu riskeihin** ja **toimituskustannuksiin** .
 4. Valitse **Myyntitilaus** avataksesi **Myyntitilaus**-ikkunan. Myyntitilaus on kysyntä, joka voidaan tarvittaessa kattaa kokoonpanolla, tuotannolla tai ostoksella suunnittelumoduulin avulla. Se tukee myös erilaisia varaston käsittelyprosesseja, joilla on toisistaan täysin erilliset tehtävät.
 6. Syötä **Agentti**-kenttään `DHL`. Avaa tilaus tarvittaessa uudelleen valitsemalla **Avaa uudelleen** -toiminto.
 7. Syötä **Kollin seurantanro** -kenttään `123456789`.
@@ -128,13 +128,13 @@ Fyysiset ja taloudelliset tiedot on nyt rekisteröity [!INCLUDE[prod_short](../i
 
 Huomaa, että tilauksen tila on nyt **Shopify Adminissa** *Fulfilled*. Voit myös tarkastella toimituksen tietoja ja nähdä seurannan URL-osoitteen. Jos suoritat **Synkronoi tilaukset Shopifysta** -toiminnon uudelleen, tilaus arkistoidaan molempiin järjestelmiin.
 
-## <a name="walkthrough-add-your-customers-to-your-new-online-store"></a>Vaihekuvaus: Asiakkaiden lisääminen uuteen verkkokauppaasi
+## Vaihekuvaus: Asiakkaiden lisääminen uuteen verkkokauppaasi
 
-### <a name="scenario-1"></a>Skenaario
+### Skenaario
 
 Uuden verkkokauppasi onnistuneen lanseerauksen jälkeen haluat, että nykyiset asiakkaasi vierailevat siellä ja aloittavat tilausten tekemisen. Shopify-suunnitelmasta ja prosessista riippuen voit kokeilla B2B- ja DTC-virtoja.
 
-### <a name="dtc-steps"></a>DTC-vaiheet
+### DTC-vaiheet
 
 Toimi [!INCLUDE[prod_short](../includes/prod_short.md)]issa seuraavasti:
 
@@ -144,9 +144,9 @@ Toimi [!INCLUDE[prod_short](../includes/prod_short.md)]issa seuraavasti:
 4. Määritä kohteen **Nro** suodattimeksi `20000` -kentässä.
 5. Valitse **OK** ja odota, kunnes asiakkaiden alustava synkronointi on suoritettu.
 
-Huomaa, että asiakas tuotiin **Shopify Adminiin**. Avaa asiakkaat ja huomioi, että asiakkaan etu- ja sukunimi saadaan **asiakkaan kortin** **Yhteyshenkilön nimi** -kentästä. Yrityksen nimi löytyy oletusosoitteesta, joka on linkitetty asiakkaaseen. Jos käytät *Klassisia asiakastilejä*, voit valita **Lähetä asiakaskutsu** kutsuaksesi asiakkaan. *Uudet asiakastilit* eivät vaadi salasanaa, jotta asiakkaat voivat kirjautua sisään, vaan Shopify sallii asiakkaiden kirjautua sisään käyttämällä kertakäyttöistä 6-numeroista vahvistuskoodia, joka lähetetään sähköpostitse. 
+Huomaa, että asiakas tuotiin **Shopify Adminiin**. Avaa asiakkaat ja huomioi, että asiakkaan etu- ja sukunimi saadaan **asiakkaan kortin** **Yhteyshenkilön nimi** -kentästä. Yrityksen nimi löytyy oletusosoitteesta, joka on linkitetty asiakkaaseen. Jos käytät *Klassisia asiakastilejä*, voit valita **Lähetä asiakaskutsu** kutsuaksesi asiakkaan. Uusien asiakastilien *avulla* asiakkailta ei vaadita salasanaa, vaan Shopify asiakkaat voivat kirjautua sisään sähköpostitse lähetetyn kertaisen 6-numeroisen vahvistuskoodin avulla. 
 
-### <a name="b2b-steps"></a>B2B-vaiheet
+### B2B-vaiheet
 
 [!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
 
@@ -154,19 +154,19 @@ Toimi [!INCLUDE[prod_short](../includes/prod_short.md)]issa seuraavasti:
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Shopify-yritykset** ja valitse vastaava linkki.
 2. Valitse **Lisää yritys**.
-3. Kirjoita **Kaupan koodi** -kenttään `DEMO1`.
+3. Syötä Tuotantokoodi-kenttään **·**  `DEMO1`.
 4. Määritä kohteen **Nro** suodattimeksi `30000` -kentässä.
 5. Valitse **OK** ja odota, kunnes asiakkaiden alustava synkronointi on suoritettu.
 
-Huomaa **Shopify-järjestelmänvalvojassa**, että sekä yritys että asiakas on tuotu. Avaa asiakkaat ja huomaa Yritys-tietoruutu, jossa on linkki Yritykseen, sijaintiin ja määritettyihin käyttöoikeuksiin. Kutsu asiakas valitsemalla **[...]** **Yritys-tietoruudussa ja valitsemalla sitten **Lähetä B2B-käyttösähköposti**.
+ **Shopify Huomaa järjestelmänvalvojassa**, että sekä yritys että asiakas on tuotu. Avaa asiakkaat ja huomaa Yritys-tietoruutu, jossa on linkki Yritykseen, sijaintiin ja määritettyihin käyttöoikeuksiin. Valitse **[...]**  ** kutsu asiakas valitsemalla **Yritys-tietoruudussa Lähetä B2B-käyttöoikeussähköposti** .
 
-## <a name="walkthrough-fine-tuning-of-item-management"></a>Vaihekuvaus: Nimikkeiden hallinnan hienosäätö
+## Vaihekuvaus: Nimikkeiden hallinnan hienosäätö
 
-### <a name="scenario-2"></a>Skenaario
+### Skenaario 
 
 Haluat varmasti tehdä nimikkeiden hallinnan prosesseista joustavampia ja helpommin hallittavia. Haluat parantaa tuotteiden kuvausta ja lisätä uusia tarkistusvaiheita ennen kuin tuotteet julkaistaan kaikille asiakkaille.
 
-### <a name="steps-1"></a>Vaiheet
+### Vaiheet
 
 Toimi [!INCLUDE[prod_short](../includes/prod_short.md)]issa seuraavasti:
 
@@ -179,7 +179,7 @@ Valmistele tiedot.
 5. Valitse nimike *1896-S, Athens Desk* ja seuraa sitten näitä vaiheita.
 
 6. Valitse **Variantit**-toiminto ja lisää sitten kaksi varianttia: `PREMIUM, Athens Desk, Premium edition` ja `ESSENTIAL, Athens Desk, Essential edition`.
-7. Valitse **Markkinointiteksti**-toiminto ja käytä **Luo luonnos Copilotin avulla** -toimintoa, kun haluat luovaa ja kiinnostavaa tekstiä. Jos markkinointitekstiehdotus ei ole käytössä, syötä vain: '**Yksinkertainen tyylikäs muotoilu** sulautuu mihin tahansa kokoonpanoon. *Saatavilla kahtena versiona.* 
+7. Valitse **Markkinointiteksti**-toiminto ja käytä **Luo luonnos Copilotin avulla** -toimintoa, kun haluat luovaa ja kiinnostavaa tekstiä. Jos markkinointitekstiehdotus ei ole käytössä, syötä vain: '**Yksinkertainen tyylikäs muotoilusekoitus** minkä tahansa kokoonpanon kanssa. *Saatavilla kahtena versiona.* 
 8. Valitse **Myyntihinnat**-toiminto ja lisää seuraavassa taulukossa esitetyt uudet hinnat:
 
    |Rivi|Myynnin tyyppi|Myyntikoodi|Tyyppi|Postinumero|Versiokoodi<br>(lisää kenttä mukautuksen avulla)|Yksikköhinta|
@@ -228,7 +228,7 @@ Suorita synkronointi.
 5. Määritä *TABLE|DESK*-suodatin **Nimikeluokan koodi** -kentälle.
 6. Ota **Synkronoi tuotekuvat** -valitsin käyttöön.
 7. Ota **Synkronoi varasto** -valitsin käyttöön.
-8. Valitse **OK** ja odota, kunnes nimikkeiden, hintojen, kuvien ja varaston alustava synkronointi on suoritettu.
+8. Valitse **OK** ja odota, kunnes nimikkeiden, hintojen, kuvien ja varaston alustava synkronointi on valmis.
 
 Tuotteet lisätään. Huomaa, että niiden tilaksi määritetään *Luonnos*, joten nimikkeitä ei näytetä Shopify-verkkokaupassa.
 
@@ -251,7 +251,7 @@ Huomaa, että ANTWERP Conference Table -nimikkeen varasto on 100, koska määrit
 
 Avaa tuotekatalogi **Shopify-verkkokaupassa** ja etsi *ATHENS Desk* -tuote. Huomaa, että saatavilla on eri vaihtoehtoja. Hinnat vaihtelevat eri vaihtoehdoissa. Kiinnitä huomiota alennustietoihin.
 
-### <a name="additional-steps-for-b2b"></a>B2B:n lisävaiheet
+### B2B:n lisävaiheet
 
 [!INCLUDE [shopify-preview](../includes/shopify-preview.md)]
 
@@ -296,13 +296,13 @@ Tutki *B2B*-luettelon hintoja **Shopify-järjestelmänvalvojassa**.
 
 Avaa tuotekatalogi **Shopify-verkkokaupassa** ja etsi *ATHENS Desk* -tuote. Huomaa, että hinnat ovat alennustietoja.
 
-## <a name="walkthrough-check-out-and-order-synchronization-for-individual-buyer-and-company-representative"></a>Vaihekuvaus: Yksittäisen ostajan ja yrityksen edustajan tilauksen synkronointi
+## Vaihekuvaus: Yksittäisen ostajan ja yrityksen edustajan tilauksen synkronointi
 Tämä on jatkoa [Vaihekuvaus: Tuotteiden myynnin aloittaminen verkossa](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online) -osiolle. Voit myös kokeilla käyttää omia tietojasi, esimerkiksi Shopify-kauppaasi tai -eristysympäristöäsi.
 
 Yksittäinen ostaja
 
 1. **Shopify-verkkokaupassa**. Valitse **Asiakas**-kuvake. Syötä sähköpostiosoite, johon sinulla on käyttöoikeus.
-2. Kirjaudu sisään käyttämällä kuusinumeroista vahvistuskoodia, joka lähetettiin syöttämääsi sähköpostiin.
+2. Kirjautua sisään käyttämällä syöttämääsi kertaista 6-numeroista vahvistuskoodia.
 3. Tutustu tuotekatalogiin ja tarkastele kaikkia tuotteita, joilla on vähittäishintoja.
 4. Valitse Olennainen variantti ja valitse **Osta se nyt** ja jatka kassalle.
 5. Täytä **Etunimi**- ja **Sukunimi**-kentät.
@@ -321,14 +321,14 @@ Yrityksen edustaja
 1. **Shopify-järjestelmänvalvojassa**.
 2. Valitse **Shopify-järjestelmänvalvojan** sivupalkissa **Asiakkaat** ja sitten **Yritykset**.
 3. Avaa *Kuvataidekoulun* tapahtuma.
-4. Valitse **[...]** **Kuvataidekoulun** tietoruudusta, **muokkaa maksuehtoja** ja valitse *Erääntyvä täydennys*.
-5. Valitse **[...]** **Asiakas**-tietoruudussa ja sitten **Lisää asiakas** ja lisää se sähköpostilla, jota käytit aiemmin kauppaan kirjautumiseen.
+4. Valitse **[...]** ja **valitse Sitten** Kuvataidekoulu-tietoruudussa **Muokkaa maksuehtoja** ja valitse *Erääntyvä täyttäminen*.
+5. Valitse **[...]**  **ja** lisää sitten **asiakas** ja lisää sellainen sähköpostilla, jota käytit aiemmin kauppaan kirjautumiseen.
 6. **Shopify-verkkokaupassa**. Valitse **Asiakas**-kuvake. Syötä sähköpostiosoite, johon sinulla on käyttöoikeus.
-7. Kirjaudu sisään käyttämällä kuusinumeroista vahvistuskoodia, joka lähetettiin syöttämääsi sähköpostiin.
+7. Kirjautua sisään käyttämällä syöttämääsi kertaista 6-numeroista vahvistuskoodia.
 8. Tutustu tuotekatalogiin, niin näet vain ne *B2B*-luetteloon lisätyt tuotteet, joilla on erityishintoja vähittäiskaupassa.
 9. Valitse Olennainen variantti ja valitse **Osta se nyt** ja jatka kassalle.
 10. Huomaa, että tili, Toimitusasiakas, maksutapa on täytetty.
-11. Täytä viitatun **Ostotilausnumeron** tietoihin `PO-12345`.
+11. Täytä PO-numero **-** kenttään arvo `PO-12345`.
 12. Valitse **Lähetä tilaus**.
  
 Suorita [!INCLUDE[prod_short](../includes/prod_short.md)]issa seuraavat vaiheet:
@@ -340,23 +340,23 @@ Suorita [!INCLUDE[prod_short](../includes/prod_short.md)]issa seuraavat vaiheet:
 Tuotu tilaus on valmis käsiteltäväksi.
 
 1. Valitse tuotu tilaus avataksesi **Shopify-tilaus**-ikkunan.
-2. Huomaa, että vaikka molemmat tilaukset on lähettänyt sama henkilö, ne on linkitetty kahteen eri asiakkaaseen. 
+2. Huomaa, että molemmat tilaukset on lähettänyt sama henkilö, ne on linkitetty kahteen eri asiakkaaseen. 
 3. Yrityksen puolesta lähetetyssä tilauksessa näkyy arvo **Ostotilausnumero**-kentässä, joka siirretään myös luodun myyntiasiakirjan **Ulkoisen asiakirjan nro** -kenttään.
 4. Koska määritimme B2B-yrityksen käsittelemään maksuja Shopifyn ulkopuolella, **Taloudellinen tila** on *Odottaa*. Kun olet vastaanottanut maksun, valitse **Merkitse maksetuksi** -toiminto. Taloudellinen tila päivitetään Shopifyssa. 
 
-## <a name="walkthrough-import-items-customers-companies-from-shopify"></a>Vaihekuvaus: Nimikkeiden, asiakkaiden, yritysten tuominen Shopifysta
+## Vaihekuvaus: Nimikkeiden, asiakkaiden, yritysten tuominen Shopifysta
 
-### <a name="scenario-3"></a>Skenaario
+### Skenaario 
 
 Sinulla on jo menestyvä verkkokauppa ja haluaisit aloittaa [!INCLUDE[prod_short](../includes/prod_short.md)]in käyttämisen liiketoiminnan hallintaohjelmistona. Haluat tuoda mahdollisimman paljon tietoja Shopifysta. 
 
-### <a name="steps-2"></a>Vaiheet
+### Vaiheet
 
 Tämä on jatkoa toiminnoille [Vaihekuvaus: Tuotteiden myynnin aloittaminen verkossa](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online) ja [Vaihekuvaus: Lisää asiakkaasi uuteen verkkokauppaasi](walkthrough-setting-up-and-using-shopify.md#walkthrough-add-your-customers-to-your-new-online-store). Voit myös kokeilla käyttää omia tietojasi, esimerkiksi Shopify-kauppaasi tai -eristysympäristöäsi.
 
 Noudata seuraavia vaiheita [!INCLUDE[prod_short](../includes/prod_short.md)] -ohjelmassa.
 
-#### <a name="prepare-data"></a>Valmistele tiedot
+#### Valmistele tiedot
 
 1. Vaihda maksuttomaan 30 päivän kokeiluversioon ilman näytetietoja. Lisätietoja on kohdassa [Omien tietojen lisääminen tyhjään kokeiluyritykseen](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions#add-your-own-data-to-an-empty-trial-company).
 2. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Shopify-kaupat** ja valitse sitten vastaava linkki.
@@ -374,12 +374,12 @@ Määritä Shopify-kauppa seuraavassa kuvatulla tavalla:
 5. Valitse *Synkronoi nimikekuvat* -kentästä **Shopifysta**.
 6. Valitse **Varastointiyksikön yhdistämismääritykset** -kentästä *Nimikenro + versiokoodi*.
 7. Valitse *Asiakkaan tuonti Shopifysta* -kentästä **Kaikki asiakkaat**.
-8. Ota **Luo tuntematon asiakas automaattisesti** -valitsin käyttöön.
+8. Ota **Luo tuntemattomat asiakkaat automaattisesti** -valitsin käyttöön.
 9. Täytä **Asiakas-/yritysmallin koodi** -kenttä asiaankuuluvalle mallilla.
 10. Valitse *Yrityksen tuonti Shopifysta* -kentästä **Kaikki asiakkaat**.
 11. Ota **Luo tuntemattomat yritykset automaattisesti** -valitsin käyttöön.
 
-#### <a name="run-the-synchronization"></a>Suorita synkronointi
+#### Suorita synkronointi
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvakkeeseen, syötä **Shopify-myymälät**, valitse sitten vastaava linkki.
 2. Valitse *DEMO2*-kauppa, jolle haluat synkronoida tiedot, avataksesi **Shopify-ostoskortti**-sivun.
@@ -388,7 +388,7 @@ Määritä Shopify-kauppa seuraavassa kuvatulla tavalla:
 5. Valitse **Synkronoi asiakkaat**.
 6. Valitse **Synkronoi yritykset**
 
-### <a name="results"></a>Tulokset
+### Tulokset
 
 * Shopify-tuotteet tuodaan. Jos haluat vahvistaa tulokset, valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Shopify-tuotteet** ja valitse vastaava linkki.
 * Nimikkeet ja kuvat luodaan. Jos haluat vahvistaa tulokset, valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimike** ja valitse vastaava linkki.
@@ -397,6 +397,6 @@ Määritä Shopify-kauppa seuraavassa kuvatulla tavalla:
 * Asiakkaat luodaan. Jos haluat vahvistaa tulokset, valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](../media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Asiakkaat** ja valitse vastaava linkki.
 
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Shopify-yhdistimen käytön aloittaminen](get-started.md)  

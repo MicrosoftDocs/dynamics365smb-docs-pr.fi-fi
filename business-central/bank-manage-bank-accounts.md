@@ -6,12 +6,13 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: reconcile
 ms.search.form: '377, 378, 165, 1284'
-ms.date: 10/04/2023
+ms.date: 07/24/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="manage-and-reconcile-your-bank-accounts"></a>Pankkitilien hallinta ja täsmäytys
+
+# Pankkitilien hallinta ja täsmäyttäminen
 
 Pankkitilin täsmäytys tulee suorittaa säännöllisin väliajoin kaikille pankkitileille, jotta yrityksen käteistietueet ovat oikein. Voit tehdä tämän vertaamalla sisäisten pankkitilien tapahtumia pankkitapahtumiin pankistasi ja kirjaamalla sitten saldot sisäisiin pankkitileihin, jolloin summat ovat talouspäälliköiden käytettävissä. Pankkitilin täsmäytys on myös käytännöllinen tapa löytää ja ratkaista puuttuvat maksut ja kirjanpitovirheet.
 
@@ -20,11 +21,11 @@ Voit suorittaa tehtävän erikseen maksukäsittelystä **Pankkitilin täsmäytys
 > [!NOTE]  
 > Pohjois-Amerikan versioissa voi suorittaa pankkitilin täsmäytyksen myös **Pankin täsmäytyksen työkirja** -sivulla, joka sopii paremmin sekeille ja talletuksille mutta ei sisällä pankin tiliotetiedostojen tuontia. Voit käyttää tätä sivua **Pankkitilin täsmäytys** -sivun sijasta poistamalla **Pankin täsmäytys ja autom. vastaavuus** -kentän valinta **Pääkirjanpidon asetukset** -sivulla. Lisätietoja on kohdan [Pankkitilien täsmäyttäminen](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) Yhdysvaltain paikallisissa toimintoja käsittelevässä osassa.
 
-Jokainen pankkitili on määritettävä pankkitilin kortiksi, ennen kuin pankkitilejä voidaan hallita kohteessa [!INCLUDE[prod_short](includes/prod_short.md)]. Lisäksi on määritettävä sähköiset palvelut, joita käytetään pankin tiliotteen tuonnissa ja maksutiedoston viennissä. Lisätietoja on kohdassa [Pankkitoiminnan määrittäminen](bank-setup-banking.md).
+Ennen kuin voit hallita pankkitilejäsi, [!INCLUDE[prod_short](includes/prod_short.md)] sinun täytyy määrittää jokainen pankkitili pankkitilin kortti. Lisäksi on määritettävä sähköiset palvelut, joita käytetään pankin tiliotteen tuonnissa ja maksutiedoston viennissä. Lisätietoja on kohdassa [Pankkitoiminnan määrittäminen](bank-setup-banking.md).
 
-Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aiheisiin.
+Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkeleihin.
 
-| Tehtävä | Katso |
+| Vastaanottaja | Katso |
 | --- | --- |
 | Täsmäytä pankkitilit erillisenä tehtävänä **Pankkitilin täsmäytys** -sivulla. |[Pankkitilien täsmäytys](bank-how-reconcile-bank-accounts-separately.md) |
 | Täsmäytä maksukäsittelyyn liittyvät pankkitilit **Maksujen täsmäytyskirjauskansio** -sivulla. |[Maksujen kohdistaminen automaattisesti ja pankkitilien täsmäyttäminen](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
@@ -32,7 +33,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä käsitteleviin aih
 > [!TIP]
 > Pankkitilin täsmäytyksen avulla voi varmistaa, että kirjat ovat ajan tasalla ja että täsmäytystä ei kirjata, ennen kuin olet tyytyväinen täsmäytykseen.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Pankkitoiminnan määrittäminen](bank-setup-banking.md)  
 [Pankkitilien täsmäyttäminen](bank-how-reconcile-bank-accounts-separately.md)  

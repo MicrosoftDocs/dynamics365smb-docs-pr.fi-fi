@@ -6,17 +6,17 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'cash, VAT, unrealized, cash-based'
 ms.search.form: '118, 472, 473'
-ms.date: 04/01/2021
+ms.date: 08/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Ei-realisoituneen arvonlisäveron määrittäminen kassaperusteista kirjanpitoa varten
+# Ei-realisoituneen ALV:n määrittäminen käteispohjaista kirjanpitoa varten
 
-Jos käytät kassaperusteista kirjanpitoa, voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)]in käsittelemään ei-realisoidun arvonlisäveron.
+Jos käytät käteispohjaisia kirjanpitomenetelmiä, voit määrittää [!INCLUDE[prod_short](includes/prod_short.md)] käsittelemään ei-realisoitunutta ALV:ia.
 
-## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Pääkirjanpidon tilien käyttäminen ei-realisoitunutta arvonlisäveroa varten
+## Pääkirjanpidon tilien käyttäminen ei-realisoitunutta arvonlisäveroa varten
 
 ALV-summat voidaan laskea ja kirjata väliaikaiselle kirjanpitotilille laskun kirjaamisen yhteydessä. Sen jälkeen ne voidaan kirjata oikealle kirjanpitotilille ja sisällyttää ALV-ilmoituksiin laskun maksun kirjaamisen yhteydessä. Ennen sitä sinun täytyy [määrittää ALV-kirjausasetukset](finance-setup-vat.md).
 
@@ -31,7 +31,7 @@ Käytä ei-realisoituneen arvonlisäveron tilejä seuraavasti:
 | Asetus | Kuvaus |
 | --- | --- |
 | Tyhjä | Valitse tämä vaihtoehto, jos et halua käyttää ei-realisoitunuttu ALV-toimintoa. |
-| Prosentti | Maksut kattavat sekä ALV-summan että laskun summan siinä suhteessa, kuinka suuri osa kyseinen maksu on jäljellä olevasta laskun summasta. Maksettu ALV-summa siirretään ei-realisoituneen ALV:n tililtä realisoituneen ALV:n tilille. |
+| Prosentti | Maksut kattavat sekä ALV:n että laskun summan siinä suhteessa, kuinka suuri osa maksusta on jäljellä olevasta laskun summasta. Maksettu ALV-summa siirretään ei-realisoituneen ALV:n tililtä realisoituneen ALV:n tilille. |
 | Ensimmäinen | Maksut kattavat ensin ALV:n ja sitten laskun summat. Tässä tapauksessa ei-realisoituneen ALV:in tililtä siirretään ALV-tilille yhtä suuri summa kuin maksun summa kunnes ALV on kokonaisuudessaan maksettu. |
 | Viimeinen | Maksut kattavat ensin laskun summan ja sitten ALV:n. Tässä tapauksessa mitään summaa ei siirretä ei-realisoituneen ALV:in tililtä ALV-tilille ennen kuin koko laskun summa, ilman ALV:tä, on maksettu. |
 | Ensimmäinen (kokonaan maksettu) | Maksut kattavat ensin ALV:n (kuten _Ensimmäinen_-vaihtoehdossa), mutta mitään summaa ei siirretä ALV-tilille ennen kuin koko ALV-summa on maksettu. |
@@ -46,7 +46,7 @@ Käytä ei-realisoituneen arvonlisäveron tilejä seuraavasti:
 > [!NOTE]  
 > ALV-summa kirjataan tälle tilille, jossa se on asiakkaan maksun kirjaamisen saakka. Summa siirretään sitten oston ALV-tilille.
 
-## <a name="see-also"></a>Katso myös
-[Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen](finance-setup-vat.md)
+## Katso myös
+[Arvonlisäveron laskemisen ja kirjaustapojen määrittäminen](finance-setup-vat.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
