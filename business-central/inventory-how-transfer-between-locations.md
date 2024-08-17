@@ -5,7 +5,7 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 07/08/2024
+ms.date: 08/12/2024
 ms.custom: bap-template
 ms.search.keywords: 'move, warehouse'
 ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755'
@@ -23,7 +23,7 @@ Varastonimikkeitä siirretään sijaintien välillä luomalla siirtotilauksia. V
 
 Lähtevä siirto voidaan lähettää yhdestä sijainnista ja vastaanottaa kohteessa saapuvana siirtona. Voit:
 
-* Kuljetuksessa olevan määrän seuraaminen
+* Seuraa kuljetuksessa olevaa määrää.
 * Päivämäärän laskentaa ja suunnittelua varten määritetään kalenterit, reitit sekä saapuvien ja lähtevien käsittelyajat. Lisätietoja suunnittelusta on kohdassa [Tietoja suunnittelutoiminnosta](production-about-planning-functionality.md).
 * Saapuvissa ja lähtevissä sijainneissa käytetään erilaisia varastointiominaisuuksia:
 * Käytä siirtomääräyksiä suoriin siirtoihin tietyin rajoituksin.
@@ -33,7 +33,7 @@ Lähtevä siirto voidaan lähettää yhdestä sijainnista ja vastaanottaa kohtee
 Voit käyttää **Nimikkeen uudelleenluokituspäiväkirja** -sivua:
 
 * Nimikkeiden suora siirto sijaintien välillä.
-* Nimikkeiden siirtäminen varastopaikkojen välillä. Lisätietoja nimikkeiden siirtämisestä varastopaikkojen välillä on kohdassa [Nimikkeiden suunnittelematon siirtäminen fyysisen varastoinnin perusmäärityksissä](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
+* Siirrä nimikkeitä varastopaikkojen välillä. Lisätietoja nimikkeiden siirtämisestä varastopaikkojen [välillä on siirtymällä nimikkeiden siirtoon, jota ei ole suunniteltu perusvarastointimäärityksissä](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 * Erä- tai sarjanumeron vaihtaminen uuteen erä- tai sarjanumeroon. Lisätietoja sarja- ja eränumeroiden uudelleenluokittelusta on kohdassa [Sarja- ja eränumeroiden uudelleenluokittelu](inventory-how-work-item-tracking.md#to-reclassify-serial-or-lot-numbers).
 * Vanhentumispäivän vaihtaminen uudeksi päivämääräksi.
 * Nimikkeiden uudelleenluokitteleminen tyhjästä sijainnista varsinaiseen sijaintiin.
@@ -45,7 +45,7 @@ Voit käyttää **Nimikkeen uudelleenluokituspäiväkirja** -sivua:
 2. Täytä **Siirtotilaus**-sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!NOTE]  
-    >   Jos **Siirtoreitin määritykset** -sivun **Kuljetuksessa-koodi**-, **Kuljetusliikkeen koodi**- ja **Kuljetusliikkeen palvelu** -kentät on täytetty siirtoreitin määrityksen yhteydessä, vastaavat kentät täytetään automaattisesti siirtotilauksessa.
+    > Jos **Siirtoreitin määritykset** -sivun **Kuljetuksessa-koodi**-, **Kuljetusliikkeen koodi**- ja **Kuljetusliikkeen palvelu** -kentät on täytetty siirtoreitin määrityksen yhteydessä, vastaavat kentät täytetään automaattisesti siirtotilauksessa.
 
     Kun **Kuljetusliikkeen palvelu** -kenttä täytetään, kohteeseen-sijainnin vastaanottopäivämäärä lasketaan lisäämällä kuljetusliikkeen palvelun toimitusajan Kohteesta-pikavälilehden lähetyksen päivämäärään.
 
@@ -63,6 +63,18 @@ Voit käyttää **Nimikkeen uudelleenluokituspäiväkirja** -sivua:
 
     Kohteesta-sijainnin varastotyöntekijänä voit siirtyä nimikkeiden vastaanottamiseen. Siirtotilausrivit ovat samat kuin toimituksen aikana eikä niitä voi muokata.
 5. Valita ensin **Kirjaa**-toiminto, sitten **Vastaanotto**-asetus ja lopuksi **OK**-painike.
+
+### Peruuta siirtotoimitus
+
+Jos kirjatun siirtotilauksen määrässä on virhe, niin kauan kuin toimitusta ei ole vastaanotettu, määrä on helppo korjata.  **Peruuta toimitus** -toiminto luo Kirjattu siirtotoimitus - **sivulla** korjaavia rivejä seuraavasti:
+
+* **Toimitettu määrä** -kentän arvo laskee kumotulla määrällä.
+* **Toimitettava määrä** -kentän arvo nousee kumotulla määrällä.
+* **Korjaus**-valintaruutu valitaan riveille.
+
+Jos määrä toimitettiin fyysisen varastoinnin toimituksessa, kirjatussa fyysisen varastoinnin toimituksessa luodaan korjaava rivi.
+
+Viimeistele korjaus avaamalla siirtotilaus, antamalla oikea määrä ja kirjaamalla tilaus. Jos tilaus on toimitettu fyysisen varastoinnin toimituksen kautta, uusi fyysisen varastoinnin toimitus luodaan ja kirjataan.
 
 ### Kirjaa useita siirtotilauksia erässä
 
@@ -104,6 +116,43 @@ Seuraavaksi selitetään, miten **Eräkirjaa siirtotilaukset** -raportti määri
 8. Anna **Aloitusaika**-kentässä arvoksi **16.00**.
 9. Valitse **Määritä tilaksi valmis** -toiminto.
 
+### Siirtotilausten eri asetusten vertailu
+
+Voit kirjata siirtotilauksia eri tilassa, joko kuljetuksessa-sijainnissa tai ilman sitä. Poista suora siirto **-vaihto käytöstä** ja valitse väliaikainen sijainti Siirtotilaus-sivun **Kuljetuksessa-koodi**  **-** kentässä. Kun kirjaat toimituksen siirtotilaukselle, joka käyttää kuljetuksessa-sijaintia, rivillä olevat nimikkeet eivät ole enää saatavilla yhdessä sijainneistasi, koska ne ovat kuljetuksessa. Suorakirjaus varmistaa, että kuljetuksessa-sijaintia ei käytetä, ja toimitus- ja vastaanottoprosessia samanaikaisesti. Suorakirjaus tarkka toiminta voi olla erilainen Sen arvon perusteella, joka on valittu **Varastonhallinnan asetukset -sivun Suorasiirtokirjaus-kentässä**  **·** .
+
+Seuraavassa taulukossa kuvataan, miten yhdistelmät eroavat toisistaan.
+
+|Ominaisuus|Suorasiirto-kenttä **ei** ole käytössä Siirtotilaus-sivulla **·** .|**Suora siirto** on käytössä Siirtotilaus-sivulla **·** </br>**Suora siirtokirjaus** on asetettu **suoraksi siirroksi** varastonhallinnan **asetukset -** sivulla.|**Suora siirto** on käytössä **Siirtotilaus-sivulla** </br>**Suora siirtokirjaus** on asetettu **Vastaanotto ja Toimitus** Varastonhallinnan **asetukset -** sivulla.|
+|---|---|---|---|
+|Käytä kuljetuksessa-sijaintia|Kyllä|Ei|Ei|
+|Voi kirjata vastaanoton ilman toimitusta.</br>Voi käyttää **Peruuta vastaanottoa**.|Kyllä|Ei|Ei|
+|Osittainen kirjaus|Kyllä|Ei|Kyllä|
+|Nimiketapahtumat|4:</br>Siirto kohteesta -sijainti,</br>Siirto kuljetuksessa -kohteeseen,</br>Siirto kuljetuksessa -ohjelmasta,</br>Siirrä kohteeseen-sijaintiin.|2:</br>Siirto kohteesta -sijainti,</br>Siirrä kohteeseen-sijaintiin.|4:</br>Siirto kohteesta -sijainti,</br>Siirrä *tyhjäksi*,</br>Siirrä *tyhjästä*,</br>Siirrä kohteeseen-sijaintiin.|
+|Kirjatut asiakirjat|Kirjattu siirtotoimitus</br>Kirjattu siirtovastaanotto.|Kirjattu suora siirto|Kirjattu siirtotoimitus</br>Kirjattu siirtovastaanotto.|
+|Varaus: saapuva ja lähtevä|Kyllä|Kyllä|Kyllä|
+|Nimikekulut - määritetään kirjatulle siirtovastaanotolle|Kyllä|Ei|Kyllä|
+|Fyysisen varastoinnin käsittely|Täysi|Ei|Rajoitettu, katso alla|
+
+F. varastoinnin käsittely -matriisi määritystä varten: **Suora siirto** on käytössä **Siirtotilaus-sivulla** ja **Suora siirtokirjaus** on asetettu Suoraksi siirroksi **Varastonhallinnan** **asetukset -** sivulla.
+
+|Kohteesta \ kohteeseen|Kohteeseen: Ei fyysisen varastoinnin käsittelyä|Kohteeseen: Fyysisen varastoinnin vastaanotto|Kohteeseen: Varastohyllytys|Kohteeseen: Ohjattu hyllytys ja poiminta|
+|-|-|-|-|-|
+|**Kohteesta: Ei fyysisen varastoinnin käsittelyä**|1|Ei tueta|1, 4|Ei tueta|
+|**Kohteesta: Fyysisen varastoinnin toimitus**|1, 2|Ei tueta|1,2,4|Ei tueta|
+|**Kohteesta: Varaston hyllytys**|1, 3|Ei tueta|1,3,4|Ei tueta|
+|**Kohteesta: Ohjattu hyllytys ja poiminta**|2|Ei tueta|2|Ei tueta|
+
+Solujen numerot näyttävät tuetut kirjausasetukset.
+
+1. Kirjaa siirtotilauksesta. Joissakin yhdistelmissä **toimitettava määrä** -kenttä on ehkä täytettävä.
+2. Luo ja kirjaa fyysisen varastoinnin toimitus.
+3. Luo ja kirjaa varaston poiminta.
+4. Luo ja kirjaa varaston hyllytys. Joissakin yhdistelmissä **on ehkä tarpeen täyttää Toimitettava** määrä -kenttä.
+
+Toimitus- ja vastaanottotapahtumat suoritetaan menetelmästä riippumatta. Voit esimerkiksi luoda siirtotilauksen sijainnista, joka vaatii varaston poiminnan sijaintiin, joka vaatii varaston hyllytystä. Voit luoda ja kirjata varaston hyllytyksen, ja sekä toimitus- että vastaanottotapahtumat luodaan. Voit kirjata tällaisia asiakirjoja myös siirtotilauksesta tai varaston poiminnasta.  
+
+Lisätietoja fyysisen varastoinnin käsittelystä on Varastoinninhallinnan yleiskuvaus -kohdassa [...](design-details-warehouse-management.md).
+
 ## Siirrä nimikkeet nimikkeiden uudelleenluokituspäiväkirjan avulla
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeen uudell.luokit. pvk:t** ja valitse sitten vastaava linkki.
@@ -117,17 +166,6 @@ Seuraavaksi selitetään, miten **Eräkirjaa siirtotilaukset** -raportti määri
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Peruuta siirtotoimitus
-
-Jos kirjatun siirtotilauksen määrässä on virhe, niin kauan kuin toimitusta ei ole vastaanotettu, määrä on helppo korjata. **Kirjattu siirtotoimitus** -sivulla **Peruuta toimitus** -toiminto luo korjausrivejä seuraavasti:
-
-* **Toimitettu määrä** -kentän arvo laskee kumotulla määrällä.
-* **Toimitettava määrä** -kentän arvo nousee kumotulla määrällä.
-* **Korjaus**-valintaruutu valitaan riveille.
-
-Jos määrä toimitettiin fyysisen varastoinnin toimituksena, korjaava rivi luodaan kirjattuun fyysisen varastoinnin toimitukseen.
-
-Viimeistele korjaus avaamalla siirtotilaus, antamalla oikea määrä ja kirjaamalla tilaus. Jos tilaus on toimitettu fyysisen varastoinnin toimituksen kautta, uusi fyysisen varastoinnin toimitus luodaan ja kirjataan.
 
 ## Katso myös
 

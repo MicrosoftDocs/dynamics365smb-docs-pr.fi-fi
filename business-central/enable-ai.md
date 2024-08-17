@@ -12,7 +12,7 @@ ms.collection:
 ms.search.form: '7771,7772_Primary,7775_Primary'
 ---
 
-# <a name="configure-copilot-and-ai-capabilities"></a>Copilot- ja tekoälyominaisuuksien määrittäminen
+# Copilot- ja tekoälyominaisuuksien määrittäminen
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
@@ -39,12 +39,12 @@ Copilot on järjestelmäominaisuus ja olennainen osa Business Centralia. Kuten u
 
 Jos jokin näistä vaatimuksista ei täyty, ominaisuus ei ole käytettävissä.
 
-## <a name="prerequisites"></a>Vaatimukset
+## Vaatimukset
 
 - Käytössä on Business Central Online.
 - Olet Business Centralin [järjestelmänvalvoja](#requirements-for-being-an-administrator).
 
-## <a name="allow-data-movement-across-geographies"></a>Salli tietojen siirto eri maantieteellisillä alueilla
+## Salli tietojen siirto eri maantieteellisillä alueilla
 
 Tämä tehtävä on käytössä vain, jos **Salli tiedonsiirto** -valinta tulee näkyviin **Copilot ja tekoälytoiminnot** -sivun yläosan lähelle. Jos **Miten ohjaan avustajatietojani?** -linkki näytetään **Salli tietojen liikkuminen** -valinnan sijaan, ohita tämä tehtävä.
 
@@ -84,7 +84,7 @@ Meanwhile, customers with environments outside the United States can use Copilot
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
 
-## <a name="activate-features"></a>Aktivoi ominaisuuksia
+## Aktivoi ominaisuuksia
 
 Kaikki Copilot- ja tekoälyominaisuudet ovat oletusarvoisesti aktiivisia, kun ne ovat saatavilla esiversiona tai ne tulevat yleisesti saataville. **Copilotin ja tekoälyn ominaisuudet** -sivulla voit poistaa kaikki ominaisuudet käytöstä kaikilta käyttäjiltä tai ottaa ne taas käyttöön.
 
@@ -99,7 +99,7 @@ Kaikki Copilot- ja tekoälyominaisuudet ovat oletusarvoisesti aktiivisia, kun ne
 <!-- don't review 
 
 <!-- For 2024 there are no AI features governed by **Feature Management**, so this section is not shown
-## <a name="enable-feature-in-feature-management"></a>Enable feature in Feature Management
+## Enable feature in Feature Management
 
 When individual Copilot capabilities are released in Business Central minor updates, these capabilities are optional until the next major update. **Feature Management** is used to turn on or off features that are in preview, like bank reconciliation, and some features that are generally available, like marketing text suggestions. [Learn more about feature management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -112,7 +112,7 @@ When individual Copilot capabilities are released in Business Central minor upda
 
    For more information about feature management in general, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).-->
 
-## <a name="granting-user-access"></a>Käyttäjien käyttöoikeuksien myöntäminen
+## Käyttäjien käyttöoikeuksien myöntäminen
 
 Copilot- ja tekoälyominaisuudet voivat tarjota toimintoja, jotka on tarkoitettu kaikille organisaation käyttäjille tai tietyille käyttäjärooleille. Useimmat Copilot- ja tekoälyominaisuudet tarjoavat pääsynhallinnan Business Centralin käyttöoikeuksien hallintajärjestelmän lupien ja käyttöoikeusjoukkojen avulla. [Lue lisää käyttöoikeuksista ja käyttöoikeusjoukoista](ui-define-granular-permissions.md).
 
@@ -129,7 +129,7 @@ Seuraavassa taulukossa on luettelo käyttöoikeuksista, joita tarvitaan Business
 
 Tietyn muun kuin Microsoftin avustajan ja tekoälyominaisuuksien käyttöoikeuden myöntämisestä tai kieltämisestä on lisätietoja ohjeissa tai kyseisen ominaisuuden julkaisijalla. Tällä tavoin saadaan selville, mitä käyttöoikeuksia tarvitaan.
 
-## <a name="requirements-for-being-an-administrator"></a>Järjestelmänvalvojan vaatimukset
+## Järjestelmänvalvojan vaatimukset
 
 Sinulla on oltava joko SUPER-käyttöoikeudet omassa Business Central -käyttäjätilissä tai jokin seuraavista Business Central -käyttöoikeuksista:
 
@@ -141,7 +141,7 @@ Sinulla on oltava joko SUPER-käyttöoikeudet omassa Business Central -käyttäj
 
 Business Central ei vielä tarjoa rakeisia objektitason käyttöoikeuksia, joten vain tietyt järjestelmänvalvojat voivat määrittää Copilotin.
 
-## <a name="next-steps"></a>Seuraavat vaiheet
+## Seuraavat vaiheet
 
 Kun olet ottanut ominaisuudet käyttöön ja antanut niihin suostumuksesi, voit kokeilla niitä. Siirry seuraaviin artikkeleihin:
 
@@ -152,7 +152,7 @@ Kun olet ottanut ominaisuudet käyttöön ja antanut niihin suostumuksesi, voit 
 - [Pankkitilien täsmäyttäminen Copilotin avulla](bank-reconciliation-with-copilot.md)
 - [Rivien ehdottaminen myyntitilaukseen Copilotin avulla](sales-suggest-sales-lines-with-copilot.md)
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Copilot- ja tekoälyominaisuuksien vianmääritys](ai-copilot-troubleshooting.md)  
 [Analyysiavustajan usein kysytyt kysymykset](faqs-analysis-assist.md)  

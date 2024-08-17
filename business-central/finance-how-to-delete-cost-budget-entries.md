@@ -11,13 +11,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="delete-cost-budget-entries"></a>Poista kustannusbudjetin tapahtumat
+# Poista kustannusbudjetin tapahtumat
 
 Voit käyttää **Poista kustannusbudjettitapahtumat** -eräajoa peruuttaaksesi kustannusbudjetin tapahtumat kustannusbudjetinrekisteristä.  
 
 Jotta kustannusbudjetin tapahtumissa ja kustannusrekisteritapahtumissa ei olisi aukkoja, et voi poistaa yhtä tapahtumaa tai tapahtumaerää keskellä rekisteritapahtumien luetteloa.  
 
-## <a name="to-delete-a-cost-budget-entry"></a>Poista kustannusbudjettitapahtumat
+## Poista kustannusbudjettitapahtumat  
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Poista kustannusbudjettitapahtumat** ja valitse sitten vastaava linkki.  
 
@@ -29,7 +29,7 @@ Jotta kustannusbudjetin tapahtumissa ja kustannusrekisteritapahtumissa ei olisi 
 > [!NOTE]  
 > Vältä kustannusbudjettien poistoa epähuomiossa ja sulje rekisteritapahtumat merkitsemällä rivit **Suljetuiksi** **Suljettu** -kentässä **Kustannusbudjettirekisterit** -sivulla.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Kustannusten huomioon minen](finance-manage-cost-accounting.md)    
 [Kustannusbudjettien luominen](finance-create-cost-budgets.md)    

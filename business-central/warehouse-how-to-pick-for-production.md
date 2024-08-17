@@ -10,7 +10,7 @@ ms.date: 08/12/2024
 ms.custom: bap-template
 ms.search.forms: '9330, 931, 990008, 89, 900, 902'
 ---
-# <a name="pick-for-production-assembly-or-projects-in-basic-warehouse-configurations"></a>Poiminta tuotantoa, kokoonpanoa tai projekteja varten perusvarastoinnin määrityksissä
+# Poiminta tuotantoa, kokoonpanoa tai projekteja varten perusvarastoinnin määrityksissä
 
 Komponenttien poimintatapa tuotantoa, projekteja tai kokoonpanotilauksia varten määräytyy sen mukaan, miten fyysinen varastointi on määritetty sijainniksi. Lisätietoja on kohdassa [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md).
 
@@ -25,14 +25,14 @@ Käytössä on seuraavat sisäisten toimintojen asiakirjat:
 * Varaston poiminta
 * Varaston siirto
 
-## <a name="inventory-picks"></a>Varaston poiminnat
+## Varaston poiminnat
 
 * Kun rekisteröit varaston poiminnan sisäiselle operaatiolle, kuten tuotannolle tai projektille, poimittavien komponenttien kulutus kirjataan samaan aikaan.
 
 * **Sijaintikortti**-sivun **Var.paikka pakollinen** -valintapainike on valinnainen.
 * Varaston poimintoja käytettäessä tuotantotilauksen komponentin rivillä tai projektin suunnitteluriveillä oleva **Varastopaikkakoodi**-kenttä määrittää *ota*-varastopaikan. Ottovarastopaikan komponenttien määrä vähenee, kun kulutus kirjataan.
 
-## <a name="inventory-movements"></a>Varastosiirrot
+## Varastosiirrot
 
 * Varaston siirrot edellyttävät että **Varastopaikka pakollinen** otetaan vaihtopainikkeella käyttöön sijainnin **Sijaintikortti** -sivulla.
 * Varaston siirrot toimivat vain tuotantotilauksen komponenttiriveillä ja kokoonpanotilauksen riveillä.
@@ -40,13 +40,13 @@ Käytössä on seuraavat sisäisten toimintojen asiakirjat:
 * Varaston siirtoja käytettäessä tuotantotilauksen komponenttirivien **Varastopaikkakoodi**-kenttä määrittää *asettamisen* varastopaikan toimenpidealueella. Varastotyöntekijöiden on asetettava komponentit asettamisen varastopaikkaan.
 * Poimittujen komponenttien kulutus rekisteröidään erikseen kirjaamalla kulutuspäiväkirja tai kokoonpanotilaus.
 
-### <a name="production"></a>Tuotanto
+### Tuotanto
 
 Tuotannon komponentteja voi poimia työkulussa tuotantoon **Varaston poiminta** -asiakirjojen avulla.
 
 Jos sijainnissa käytetään varastopaikkoja, työnkulkua tuotantoon voidaan laajentaa käyttämällä **Varaston siirto** -asiakirjoja. Varaston siirrot ovat hyödyllisiä etenkin komponentin materiaaliotossa. Lisätietoja komponentin kulutuksen materiaaliotoista tuotannon valmistelun tai avoimista tuotannon varastopaikoista on kohdassa [Tuotannon komponenttien materiaaliotot fyysisen varastoinnin perusmäärityksissä](#flushing-production-components-in-a-basic-warehouse-configuration).
 
-### <a name="assembly"></a>Kokoonpano
+### Kokoonpano  
 
 Kokoonpanon komponentit siirretään kokoonpanoalueelle **Varastosiirto**-asiakirjojen avulla.
 
@@ -55,7 +55,7 @@ Kokoonpanon komponentit siirretään kokoonpanoalueelle **Varastosiirto**-asiaki
 
 [!INCLUDE [prod_short](includes/prod_short.md)] tukee kokoonpanovirtoja, joiden tyyppi on kokoonpanoa varastoa varten ja kokoonpano tilausten varten. Lisätietoja fyysisen varaston lähtevän virran kokoonpanosta tilausten varten on kohdassa [Varaston poimintoja sisältävien kokoonpano tilausta varten -nimikkeiden käsitteleminen](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-### <a name="project-management"></a>Projektien hallinta
+### Projektien hallinta  
 
 Projektin komponentteja voi poimia työnkulussa projektinhallintaan **Varaston poiminta** -asiakirjojen avulla.
 
@@ -64,7 +64,7 @@ Varastopaikkoja käyttävien sijaintien osalta voit laajentaa työnkulun projekt
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] käyttää **Jäljellä oleva määrä** -kentän arvoa projektin suunnittelurivillä, kun se luo varastopoiminnat. Jotta voit käyttää projektien varastopoimintoja, ota käyttöön **Projektin kortti**  sivun **Kohdista käyttölinkki** -asetus projekteissa. Tämän ansiosta voit seurata, vastaako käyttö suunnitelmaa. Jos et ota vaihtopainiketta käyttöön, jäljelle jäävän määrän arvona pysyy **0** eikä varastopoimintaa luoda. Lisätietoja on kohdassa [Projektin käytön seurannan määrittäminen](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-project-usage-tracking).
 
-## <a name="pick-or-move-for-production-assembly-and-projects-in-a-basic-warehouse-configuration"></a>Tuotantoon, kokoonpanoon ja projekteihin poimiminen tai siirtäminen fyysisen varastoinnin perusmäärityksissä
+## Tuotantoon, kokoonpanoon ja projekteihin poimiminen tai siirtäminen fyysisen varastoinnin perusmäärityksissä
 
 Varaston poiminnan tai varaston siirron voi luoda kolmella tavalla:  
 
@@ -72,26 +72,26 @@ Varaston poiminnan tai varaston siirron voi luoda kolmella tavalla:
 * Useille lähdeasiakirjoille samanaikaisesti eräajon avulla.  
 * Kahdessa vaiheessa. Lähdeasiakirja vapautetaan valmistelemaan lähdeasiakirja poimintaa varten. Varaston poiminnan tai siirron luominen **Varaston poiminta**- tai **Varaston siirto** -asiakirjoista. Varaston poiminta tai siirto perustuu lähdeasiakirjaan.  
 
-### <a name="to-create-an-inventory-pick-from-the-source-document"></a>Varastopoiminnan lähdeasiakirjasta luominen
+### Varastopoiminnan lähdeasiakirjasta luominen
 
 1. Valitse lähdeasiakirjassa, joka voi olla tuotantotilaus tai projekti, Luo varastohyllytys **/-poiminta** -toiminto.  
 2. Valitse **Luo varaston poiminta** -valintaruutu.
 3. Valitse **OK**-painike.
 
-### <a name="to-create-an-inventory-movement-from-the-source-document"></a>Varaston siirron luominen lähdeasiakirjasta
+### Varaston siirron luominen lähdeasiakirjasta
 
 1. Valitse lähdeasiakirjassa, joka voi olla tuotantotilaus, kokoonpanotilaus tai projekti, **Luo varastohyllytys/-poiminta** -toiminto.  
 2. Valitse **Luo varaston siirto** -valintaruutu.
 3. Valitse **OK**-painike.
 
-### <a name="to-create-multiple-inventory-picks-or-movements-with-a-batch-job"></a>Useiden varaston poimintojen tai siirtojen luominen eräajon avulla
+### Useiden varaston poimintojen tai siirtojen luominen eräajon avulla
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Luo varaston hyllytys/poiminta/siirto** ja valitse sitten vastaava linkki.  
 2. Käytä **F.varastoinnin pyyntö** -pikavälilehden **Lähdeasiakirja**- ja **Lähteen nro** -kenttiä suodattamiseen asiakirjatyyppien tai asiakirjanumeroalueiden perusteella. Poiminnat voidaan luoda esimerkiksi vain myyntitilauksille.
 3. Ota **Asetukset**-pikavälilehdessä **Luo varaston poiminta** tai **Luo varaston siirto** käyttöön vaihtopainikkeella.
 4. Valitse **OK**-painike.
 
-### <a name="to-create-inventory-picks-or-movements-in-two-steps"></a>Varaston poimintojen tai siirtojen luominen kahdessa vaiheessa
+### Varaston poimintojen tai siirtojen luominen kahdessa vaiheessa
 
 Lähdeasiakirjojen komponenttien poimiminen tai siirtäminen kahdessa vaiheessa edellyttää lähdeasiakirjan vapauttamista poiminnan valmistelua varten. Vapauta sisäisten toimintojen lähdeasiakirjat seuraavilla tavoilla.  
 
@@ -113,7 +113,7 @@ Varastotyöntekijä, jolle nimikkeiden poiminta on määritetty, voi luoda lähd
 5. Vaihtoehtoisesti voit valita **Hae lähdeasiakirja** -toiminnolla asiakirjan niiden saapuvien lähdeasiakirjojen luettelosta, jotka ovat sijainnissa valmiita poimintaan.  
 6. Täytä poiminnan tai varaston siirron rivit valitun lähdeasiakirjan mukaisesti valitsemalla **OK**.  
 
-## <a name="to-record-the-inventory-pick"></a>Varaston poiminnan kirjaaminen
+## Varaston poiminnan kirjaaminen
 
 1. Avaa **Varaston poiminta** -sivulla asiakirja, johon poiminta kirjataan.  
 2. Poimintarivien **Varastopaikkakoodi**-kentässä varastopaikka, josta nimikkeet on poimittava ja jossa nimike on saatavana. Varastopaikkaan voi muuttaa tarvittaessa.
@@ -129,7 +129,7 @@ Kirjausprosessin sisältö:
 
 [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## <a name="to-record-the-inventory-movement"></a>Varastosiirron kirjaaminen
+## Varastosiirron kirjaaminen
 
 1. Avaa **Varastosiirto**-sivulla asiakirja, johon varaston siirto kirjataan.  
 2. Varaston siirron rivien **Varastopaikkakoodi**-kentässä varastopaikkaa, josta nimikkeet poimitaan, ehdotetaan nimikkeen oletusvarastopaikan ja saatavuuden mukaan. Varastopaikkaan voi muuttaa tarvittaessa.  
@@ -145,7 +145,7 @@ Kirjausprosessin sisältö:
 >[!NOTE]
 > Toisin kuin siirrettäessä komponentteja varaston poimintoina kulutusta ei kirjata varastosiirron rekisteröinnin yhteydessä. Kulutus rekisteröidään erillisenä vaiheena kirjaamalla lähdeasiakirja.
 
-## <a name="flushing-production-components-in-a-basic-warehouse-configuration"></a>Tuotannon komponenttien materiaaliotot fyysisen varastoinnin perusmäärityksissä
+## Tuotannon komponenttien materiaaliotot fyysisen varastoinnin perusmäärityksissä
 
 Materiaaliottotavat vaikuttavat komponenttien siirtymiseen tuotantoon. Lisätietoja on kohdassa [Komponenttien materiaalinotto toiminnan tuotoksen mukaan](production-how-to-flush-components-according-to-operation-output.md). Valitun materiaaliottomenetelmän mukaan komponentteja voidaan poimia tuotantoon seuraavilla tavoilla:
 
@@ -154,7 +154,7 @@ Materiaaliottotavat vaikuttavat komponenttien siirtymiseen tuotantoon. Lisätiet
 * Käyttämällä viitteen lähdeasiakirjaan sisältävää **Varastosiirto**-asiakirjaa kirjaamaan **Poiminta + eteenpäin**- tai **Poiminta + taaksepäin** -materiaaliottomenetelmää käyttävien komponenttien poiminnat. Komponentteja kulutetaan automaattisesti, joko muutettaessa tuotantotilauksen tilaa taikka aloitettaessa tai lopetettaessa työvaihetta. Kaikkien pakollisten komponenttien on oltava saatavana. Muutoin kyseisen komponentin materiaalinoton kirjaus lopetetaan.
 * Käyttämällä **Varastosiirto**-asiakirjaa viittaamatta lähdeasiakirjaan tai kirjaamalla muulla tavoin **Eteenpäin**- tai **Taaksepäin**-materiaaliottomenetelmää käyttävien komponenttien varaston siirrot. Komponentteja kulutetaan automaattisesti, joko muutettaessa tuotantotilauksen tilaa taikka aloitettaessa tai lopetettaessa työvaihetta. Kaikkien pakollisten komponenttien on oltava saatavana. Muutoin kyseisen komponentin materiaalinoton kirjaus lopetetaan. Lisätietoja on kohdassa [Nimikkeiden sisäinen siirtäminen fyysisen varastoinnin perusmäärityksissä](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
-### <a name="example"></a>Esimerkki
+### Esimerkki
 
 Nimikkeellä SP-SCM1004 on 15 kappaleen tuotantotilaus.. Joidenkin komponenttiluettelon nimikkeiden materiaaliotto on tehtävä manuaalisesti kulutuspäiväkirjassa, kun taas joidenkin nimikkeiden poiminta ja materiaaliotto voidaan tehdä automaattisesti käyttämällä **Poimi + taaksepäin** -materiaaliottomenetelmää.  
 
@@ -174,7 +174,7 @@ Seuraavissa vaiheissa on esimerkki toiminnoista, joita eri henkilöt tekevät ja
 
 :::image type="content" source="media/binflow.png" alt-text="Yleiskatsaus Varastopaikkakoodi-kenttä täyttämisen ajankohdasta ja täyttämistavasta.":::
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Varasto](inventory-manage-inventory.md)  
 [Varastoinninhallinnan määrittäminen](warehouse-setup-warehouse.md)  

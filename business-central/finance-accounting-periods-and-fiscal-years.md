@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="work-with-accounting-periods-and-fiscal-years"></a>Kirjanpitojaksojen ja tilikausien käyttäminen
+# Kirjanpitojaksojen ja tilikausien käyttäminen
 
 Tilijaksot, joita kutsutaan myös raportointikausiksi, ovat ajanjaksoja, jolloin yritys tai organisaatio raportoi taloudellisen tuloksen luomalla esimerkiksi tuloslaskeman tai taseen. Yleensä kirjanpitojaksoilla viitataan yrityksen tilikauteen, joka voi koostua useista tilijaksoista, kuten kuukausista tai neljännesvuosista.
 
@@ -21,11 +21,11 @@ Monille yrityksille tilikausi ei ole yhdenmukainen kalenterivuoden kanssa, esime
 
 Voit käyttää tilikausia raportoinnissa, esimerkiksi tarkastellessasi merkintöjä **Saldo/budjetti**-sivulla, jossa raportointiväli määritetään. Yksi määritettä olevista vaihtoehdoista on raportointi kirjanpitojakson mukaan. Voit myös muodostaa taloudellisen raportin, joka vertaa eri kirjanpitojaksojen tuloksia.
 
-## <a name="creating-a-new-fiscal-year"></a>Uuden tilikauden luominen
+## Uuden tilikauden luominen
 
 Voit luoda kirjanpitojaksoja joukkotoiminnolla käyttämällä **Luo tilikausi** -eräajoa tai voit luoda ne manuaalisesti.
 
-### <a name="how-to-create-accounting-periods-in-bulk"></a>Kirjanpitojaksojen luominen joukkotoiminnolla
+### Kirjanpitojaksojen luominen joukkotoiminnolla
 
 Jaa tilikausi saman mittaisiksi jaksoiksi **Luo tilikausi** -eräajon avulla.  
 
@@ -36,7 +36,7 @@ Jaa tilikausi saman mittaisiksi jaksoiksi **Luo tilikausi** -eräajon avulla.
 5. Määritä **Jakson pituus** -kentässä kunkin jakson kesto. Keston tunnuksiin kuuluvat: yksi kuukausi on 1K, yksi neljännesvuosi on 1Q ja yksi vuosi 1V.  
 6. Valitse **OK**.  
 
-### <a name="how-to-create-accounting-periods-manually"></a>Kirjanpitojaksojen luominen manuaalisesti
+### Kirjanpitojaksojen luominen manuaalisesti
 
 Jos tilikauden kirjanpitojaksojen pituudet vaihtelevat, kuten vähittäismyynnissä käytetty 4-4-5-kalenteri, määritys voidaan tehdä manuaalisesti.  
   
@@ -45,7 +45,7 @@ Jos tilikauden kirjanpitojaksojen pituudet vaihtelevat, kuten vähittäismyynnis
 3. Ilmaise **Uusi tilikausi** -valintaruudun valinnalla, että kyse on vuoden ensimmäisestä jaksosta. [!INCLUDE[prod_short](includes/prod_short.md)] määrittää tämän jakson perusteella, mitkä jaksot sulkevat tilikauden.
 4. Toista vaiheet 2 ja 3 kunkin jäljellä olevan jakson kohdalla.  
 
-## <a name="closing-a-fiscal-year"></a>Tilikauden sulkeminen
+## Tilikauden sulkeminen
 
 Tilikauden sulkeminen on yksi kirjojen sulkemistehtävistä. Kun tilikausi on suljettu, **Suljettu**- ja **Pvm lukittu** -valintaruudut valitaan kaikille tilikauden jaksoille. Et voi avata vuotta uudelleen tai poistaa valintaruutuja.
 
@@ -55,11 +55,11 @@ Tilikauden sulkeminen on yksi kirjojen sulkemistehtävistä. Kun tilikausi on su
 1. Valitse ![Etsi sivua tai raporttia.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvake, syötä **Kirjanpitojaksot** ja valitse sitten vastaava linkki.  
 2. Valitse **Sulje vuosi** -toiminto.  
 
-## <a name="posting-entries-to-a-closed-fiscal-year"></a>Tapahtumien kirjaaminen suljettuun tilikauteen
+## Tapahtumien kirjaaminen suljettuun tilikauteen
 
 Vaikka tilikausi on suljettu, voit silti kirjata tilikaudelle KP-tapahtumia. Kun teet tämän, tapahtumat merkitään kirjatuiksi suljetulle tilikaudelle ja **Edellisen vuoden tapahtuma** -valintaruutu valitaan. Valintaruutu ei näy oletusarvon mukaan sivulla, mutta voit lisätä sen. Seuraavaksi suljetaan tuloslaskelmatilit ja siirretään vuoden tulostaseessa olevalle tilille. Toista nämä vaiheet aina, kun kirjaat tapahtumia suljetulle tilikaudelle.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Kirjojen sulkeminen](year-close-books.md)    
 [Tilikauden päättämisvuodet ja -jaksot](year-close-years-periods.md)    

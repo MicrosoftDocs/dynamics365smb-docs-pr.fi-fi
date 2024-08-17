@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="reconcile-inventory-costs-with-the-general-ledger"></a>Varaston kustannusten täsmäyttäminen pääkirjanpitoon
+# Varaston kustannusten täsmäyttäminen pääkirjanpitoon
 
 Kun kirjaat varastotapahtumia, kuten myyntitoimituksia, ostolaskuja tai varaston muutoksia, muuttuneet nimikekustannukset kirjataan niiden arvotapahtumiin. Jotta varastoarvon muutos päivittyisi talouskirjoihin, varastokustannukset kirjataan automaattisesti pääkirjanpidon liittyviin varastotileihin. Ohjelma kirjaa jokaista itse kirjaamaasi varastotapahtumaa kohti sopivan arvon varastotilille, muutostilille ja myytyjen tuotteiden kustannusten tilille pääkirjanpidossa.
 
@@ -20,7 +20,7 @@ Kun kirjaat varastotapahtumia, kuten myyntitoimituksia, ostolaskuja tai varaston
 
 Vaikka kustannukset kirjattaisiin automaattisesti pääkirjanpitoon, on tarpeen varmistaa, että tavaroiden kustannukset välitetään liitetään lähtevälle tapahtumalle. Tämä on erityisen tärkeää, kun myyt tavaroita ennen näiden tavaroiden oston laskutusta. Tätä kutsutaan kustannusmuutokseksi. Nimikekustannukset muutetaan automaattisesti, kun kirjaat nimiketapahtumia, mutta voit muuttaa niitä myös manuaalisesti. Lisätietoja on kohdassa [Nimikekustannuksien muuttaminen](inventory-how-adjust-item-costs.md).
 
-## <a name="to-post-inventory-costs-manually"></a>Varaston kustannusten kirjaus manuaalisesti
+## Varaston kustannusten kirjaus manuaalisesti
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjaa varaston kustannus KP:oon** ja valitse sitten vastaava linkki.
 2. Kirjaa varaston kustannukset pääkirjanpitoon suorittamalla eräajo. Ohjelma luo tämän eräajon aikana KP-tapahtumia arvotapahtumien perusteella. Voit kirjata tapahtumat niin, että ne lasketaan yhteen kirjausryhmän mukaan.
@@ -32,7 +32,7 @@ Saat virheluettelon näkyviin ennen kirjauksen eräajon ajoa, kun suoritat **Kir
 
 Jos haluat yleiskuvan siitä, mitkä arvot pääkirjanpitoon voidaan kirjata suorittamatta kirjausta, voit suorittaa **Kirjaa varaston kustannus** KP:oon -eräajon kirjaamatta arvoja pääkirjanpitoon. Voit tehdä tämän poistamalla valintaruudun valinnan **Kirjaa** -kentässä pyyntösivulla. Näin raporttiin tuotetaan eräajoa suoritettaessa arvot, jotka ovat valmiita kirjata pääkirjanpitoon, mutta niitä ei kirjata.
 
-## <a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a>Varastotapahtumien ja pääkirjanpidon välisen täsmäytyksen tarkistaminen
+## Varastotapahtumien ja pääkirjanpidon välisen täsmäytyksen tarkistaminen
 **Varasto - Kirjanpidon täsmäytys** -sivun sisältö:
 
 - osoittaa täsmäytyserot vertaamalla kirjanpidon ja varastokirjausten (arvotapahtumat) tallennuksia
@@ -65,7 +65,7 @@ Seuraavissa sarakkeissa näkyvät samojen tilityyppien kokonaissummat pääkirja
 
 Valitsemalla kokonaissummakentän summan voit tarkastella varastoraportin tapahtumia, joiden perusteella kokonaissummat on laskettu. Varaston kokonaissummien osalta varastoraportin tapahtumat ovat nimikkeiden arvotapahtumien summia. Pääkirjanpidon kokonaissummien osalta varastoraportin tapahtumat ovat pääkirjanpidon tapahtumien summia.
 
-## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Kustannukset raportointi ja täsmäyttäminen pääkirjanpidon kanssa
+## Kustannukset raportointi ja täsmäyttäminen pääkirjanpidon kanssa
 Muut raportit, jäljitysfunktiot ja erityinen täsmäytystyökalu ovat niiden tilintarkastajien tai tarkistajien käytettävissä, jotka vastaavat oikeellisen ja tasapainotetun varastoarvon raportoinnista talousosastolle.
 
 Niitä kuvaillaan seuraavassa taulukossa.    
@@ -77,7 +77,7 @@ Niitä kuvaillaan seuraavassa taulukossa.
 |Valittujen nimikkeiden varaston arvon tarkastelu, mukaan lukien todellinen ja oletettu kustannus määritettynä päivämääränä.|**Varaston arvostus - Kust. määr.** -raportti|  
 |Raportin käyttäminen kustannusvarianssien analysoimiseksi tai myytyjen tuotteiden kustannusosuuksien selvittämiseksi.|**Kustannusjakaumien erittely** -raportti|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös  
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)    
 [Osto](purchasing-manage-purchasing.md)    
 [Myynti](sales-manage-sales.md)    

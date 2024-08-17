@@ -12,12 +12,12 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# <a name="closing-the-books"></a>Kirjojen sulkeminen
+# Kirjojen sulkeminen
 Kun olet varmistanut, että kaikki tilit ovat ajan tasalla, ja kohdistanut kustannukset ja tulot, voit sulkea tilikauden tai kirjanpitojakson kirjat.
 
 Sinun ei tarvitse sulkea vuotta, mutta se helpottaa järjestelmän käyttöä, koska voit hyödyntää käteviä suodatusvaihtoehtoja. Tapahtumatietojen menettämisestä ei myöskään tarvitse huolehtia, sillä suljetun tilikauden kaikki tiedot säilyvät myös sulkemisen jälkeen.
 
-## <a name="closing-book-process"></a>Tilinpäätöskirjan käsittely
+## Tilinpäätöskirjan käsittely
 Kirjan sulkemisprosessi sisältää seuraavat päätehtävät:
 
 1. Kirjanpitojakson sulkeminen.
@@ -39,7 +39,7 @@ Kirjan sulkemisprosessi sisältää seuraavat päätehtävät:
 
     Lisätietoja on kohdassa [Vuoden lopun tilinpäätöstapahtuman kirjaaminen](year-how-post-year-end-close-entry.md).
 
-## <a name="what-happens-when-you-close"></a>Sulkemisen yhteydessä tapahtuvat asiat
+## Sulkemisen yhteydessä tapahtuvat asiat
 
 Kun suljet tilikauden vuoden lopussa, järjestelmä siirtää voiton laskennallisesta voitosta jakamattoman voiton tilille. Järjestelmä myös merkitsee tilikauden suljetuksi ja kaikki myöhemmät suljetun vuoden tapahtumat edellisen vuoden tapahtumiksi.
 
@@ -47,7 +47,7 @@ Järjestelmä luo sitten tilinpäätöstapahtuman, mutta tapahtumaa ei kirjata a
 
 Voit tehdä kirjauksia edelliselle tilikaudelle myös tuloslaskelmatilien sulkemisen jälkeen suorittamalla Sulje tuloslaskelma -eräajon myöhemmin uudelleen.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Kirjanpitojaksojen ja tilikausien käsitteleminen](finance-accounting-periods-and-fiscal-years.md)    
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    

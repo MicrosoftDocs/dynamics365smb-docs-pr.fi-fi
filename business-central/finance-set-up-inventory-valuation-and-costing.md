@@ -10,7 +10,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="set-up-inventory-valuation-and-costing"></a>Varaston arvostuksen ja arvostuksen määrittäminen
+# Varaston arvostuksen ja arvostuksen määrittäminen
 
 Voit varmistaa, että varastokustannukset kirjataan oikein, määrittämällä tietyt kentät ja sivut ennen nimiketapahtumien tekemistä. Yleensä yritykset valitsevat tietyn kustannuslaskentamenetelmän ja soveltavat niitä esimerkiksi varastonimikkeisiin voidakseen seurata varastossa olevien nimikkeiden arvoa.  
 
@@ -33,7 +33,7 @@ Seuraavassa taulukossa on tehtäväsarja ja linkit tehtäviä kuvaaviin artikkel
 |Varmista, että ostopalautukset kohdistetaan alkuperäiseen saapuvaan tapahtumaan varaston arvon säilyttämiseksi.|**Ostot ja ostovelat** -sivun **Todellisen kust. peruutt. pakollinen** -kenttä|
 |Nimikehintojen ja vakiokustannusten muuttamisessa tai ehdottamisessa käytettävien pyöristyssääntöjen määrittäminen.|**Pyöristystapa**-sivu|  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)    
 [Yleisen varaston tietojen määrittäminen](inventory-how-setup-general.md)    

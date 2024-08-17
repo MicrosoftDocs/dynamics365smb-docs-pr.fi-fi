@@ -11,7 +11,7 @@ ms.date: 07/27/2024
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
-# <a name="manage-user-settings-and-preferences"></a>Käyttäjäasetusten ja asetusten hallinta
+# Käyttäjäasetusten ja asetusten hallinta
 
 Järjestelmänvalvojana voit määrittää käyttäjäasetuksia [!INCLUDE[prod_short](includes/prod_short.md)]issa samalla tavoin kuin yksittäiset käyttäjät voivat hallita omia asetuksiaan **Omat asetukset** -sivulla.  
 
@@ -22,7 +22,7 @@ Hanki yleiskuva kaikista Käyttäjät-luettelon käyttäjistä **ja muuta yksitt
 
  **Käyttäjäasetukset**  kortti sivu on samanlainen kuin **Omat asetukset -** sivu, johon kukin käyttäjä voi käyttää. Sivu on tehokas työkalu esimerkiksi oletusasetusten määrittämiseen ja mukautettujen sivujen tyhjentämiseen.  
 
-## <a name="types-of-user-settings"></a>Käyttäjäasetusten tyypit
+## Käyttäjäasetusten tyypit
 
 *Käyttäjäasetukset* eivät ole sama asia kuin *käyttäjän määritykset*, jotka koskevat käyttäjää entiteettinä ja käyttäjän järjestelmän käyttöoikeuksia. Käyttäjäasetuksilla ei ole myöskään mitään tekemistä käyttäjän mukauttamisella, mikä tarkoittaa pinnallisia käyttöliittymän muutoksia. Käyttäjäasetuksilla määritetään kunkin käyttäjän esimääritetyt asetukset siltä osin, miten sovelluksen eri osat näkyvät käyttäjälle. Seuraavaksi käsitellään viisi käyttäjäasetus- ja määritystyyppiä, jotka yksittäinen käyttäjä voi määrittää tai jotka järjestelmänvalvoja voi määrittää keskitetysti.
 
@@ -58,21 +58,21 @@ Hanki yleiskuva kaikista Käyttäjät-luettelon käyttäjistä **ja muuta yksitt
 > [!NOTE]
 > Jos Microsoft 365 -käyttäjän synkronointi tapahtuu silloin, kun käyttäjät ovat kirjautuneet [!INCLUDE[prod_short](includes/prod_short.md)]iin, kyseisten käyttäjien on ladattava selain uudelleen tai kirjauduttava ensin ulos ja sitten takaisin [!INCLUDE[prod_short](includes/prod_short.md)]iin, jotta synkronointitoiminnon mahdollisesti määrittämä toinen kielijoukko on näkyvissä.
 
-## <a name="overview-of-all-user-specific-changes"></a>Kaikkien käyttäjäkohtaisten muutosten yleiskuvaus
+## Kaikkien käyttäjäkohtaisten muutosten yleiskuvaus
 
 Järjestelmänvalvoja voi saada yleiskuvan niistä [!INCLUDE [prod_short](includes/prod_short.md)]iin tehdyistä yksittäisistä muutoksista, joita kukin käyttäjä on voinut tehdä [!INCLUDE [prod_short](includes/prod_short.md)]in eri sivuille. Kun käyttäjät tekevät muutoksia käyttökokemukseensa [!INCLUDE [prod_short](includes/prod_short.md)], muutokset näkyvät **Mukautettujen sivujen** luettelossa. <!--Administrators can also set these settings for users before they log in the first time, so users do not have to do it themselves, providing them a better *getting started* experience.-->
 
 <!-- >[!NOTE]
 > User personalizations do not have anything to do with the *personal* lightweight changes a user can make to the user experience.-->
 
-## <a name="review-or-delete-user-personalizations"></a>Käyttäjien mukautusten tarkistaminen tai poistaminen
+## Käyttäjien mukautusten tarkistaminen tai poistaminen
 
 1. Valitse ![Sivun tai raportin etsiminen.](media/ui-search/search_small.png "Etsi sivua tai raporttia -kuvake") -kuvaketta, syötä **Mukautetut sivut** ja valitse sitten liittyvä linkki.
 2. Näkyviin tulee luettelo käyttäjistä ja heidän mukautetuista sivuistaan. Voit tyhjentää käyttäjän mukautukset napsauttamalla haluamaasi riviä, valitsemalla **Hallinta ja valitsemalla** sitten **Poista**.
 
 Mukautus poistetaan ja kyseisen sivun käyttökokemus palautuu oletustilaan.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Valmistautuminen liiketoimintaan](ui-get-ready-business.md)  
 [Maa- ja aluekohtainen saatavuus ja tuetut kielet](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

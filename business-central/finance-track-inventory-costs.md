@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="track-item-cost-adjustments"></a>Nimikekustannusten muutosten seuraaminen
+# Nimikekustannusten muutosten seuraaminen
 
 On tärkeää, että nimikekustannukset pysyvät tarkkoina ja että tapahtuman kirjaamisen ja sen kustannuksen kirjanpidossa näkymisen väli lyhenee. Yksittäisten muutosajojen ja nimikkeiden kustannusten muutoksia voidaan seurata. Virhetilanteessa ongelmalliset nimikkeet voidaan tunnistaa ja korjaukset voidaan tehdä. Nimikkeitä voidaan esimerkiksi jättää pois laskelmista, mikä varmistaa, ettei muiden nimikkeiden muutokset keskeydy. Yksittäisten nimikkeiden kustannuksia voidaan muuttaa. Vaihtoehtoisesti voidaan luoda nimike-eriä, jotka sitten muutetaan samanaikaisesti.
 
-## <a name="start-tracking-cost-adjustments"></a>Kustannusten muutosten seurannan aloittaminen
+## Kustannusten muutosten seurannan aloittaminen
 
 Aloittaminen on helppoa. **Varastonhallinnan asetukset** -sivun **Kustannusmuutoksen lokiinkirjaus** -kentässä on muutamia vaihtoehtoja:
 
@@ -29,11 +29,11 @@ Aloittaminen on helppoa. **Varastonhallinnan asetukset** -sivun **Kustannusmuuto
 
 Myös **Kirjaa varaston kustannus KP:oon (1002)** -työjonotapahtuma on määritettävä. Tämä työjonotapahtuma muuttaa kustannukset automaattisesti aikataulun mukaisesti. Lisätietoja työjonotapahtumista on kohdassa [Työjonojen käyttäminen tehtävien ajoittamisessa](admin-job-queues-schedule-tasks.md).
 
-## <a name="manage-cost-adjustments"></a>Kustannusten muutosten hallinta
+## Kustannusten muutosten hallinta
 
 **Varastokustannusmuutos**-sivulla voi hallita ja seurata kustannusten muutosprosessia. Tällä sivulla on näkyvissä nimikkeet sekä niiden kustannuslaskennan parametrit ja kustannusmuutoksen tila. Luettelo voidaan suodattaa keskittymään nimikkeet, joita on muutettava tai jotka jätetty pois kustannusten muutosprosessista.
 
-### <a name="about-item-batches"></a>Tietoja nimike-eristä
+### Tietoja nimike-eristä
 
 Useiden nimikkeiden kustannusten muutos voidaan suorittaa ryhmittelemällä nimikkeet eriksi. Erien avulla on helppo muuttaa nimikkeitä erikseen esimerkiksi siksi, että niiden muuttaminen kestää pitkään. Erät voivat myös auttaa tunnistamaan ongelmalliset nimikkeet.
 
@@ -54,7 +54,7 @@ Kun erä on suoritettu, erän tilana on **Nimike-erät**-sivulla jokin seuraavis
 
 > [VIHJE!] Kukin erä suoritetaan erillisenä istuntona. Edistymistä voi seurata **Päivitys**-toiminnolla.
 
-### <a name="run-cost-adjustment"></a>Suorita kustannusmuutos
+### Suorita kustannusmuutos
 
 Muutoksia tehdään **Varastokustannusmuutos**-sivulla.
 
@@ -69,7 +69,7 @@ Muutoksia tehdään **Varastokustannusmuutos**-sivulla.
     
     Lisätietoja eristä on kohdassa [Tietoja nimike-eristä](#about-item-batches).
 
-### <a name="explore-item-details"></a>Nimikkeen tietoihin perehtyminen
+### Nimikkeen tietoihin perehtyminen
 
 **Nimike**-valikon kautta saadaan tietoja valitun nimikkeen kustannusten muutoksista.
 
@@ -78,24 +78,24 @@ Muutoksia tehdään **Varastokustannusmuutos**-sivulla.
 * **Kustannusmuutostapahtumien pisteet**: Avaa se **Keskim. kust. muutoksen tulopaikka** -sivu, jota ensisijaisesti käytetään keskimääräisen kustannuksen laskemiseen. Tällä sivulla on niiden nimikkeiden, sijaintien, varianttien ja arvostuspäivien yhdistelmiä, joille kustannusten muutoksia suoritetaan tai joille ne on suoritettava.
 * **Kustannusmuutostilaukset**: Avaa **Varastonmuutostapahtuma (Tilaus)** -sivun, jossa muutetaan tuotanto- ja kokoonpanotilauksia. Näkyvissä on, onko tilauksia muutettu vai onko niitä muutettava.
 
-### <a name="view-the-outcome"></a>Tuloksen tarkasteleminen
+### Tuloksen tarkasteleminen
 
 **Kirjaa loki suoritusta kohti** -valikon avulla voi tarkastella kustannusten muutosten tulosta:
 
 * **Suorita**: Näyttää kunkin suorituksen kustannusten muutoslokit. Lokissa on tietoja nimikkeen suodattimesta, tilasta (onnistui, epäonnistui tai aikakatkaistu), alkamis- ja päättymispäivästä ja -ajasta sekä suorituksen tuloksena olevista kustannusten eroista.
 * **Nimike**: näyttää tarkkoja tietoja valitun nimikkeen muutosprosessista.
 
-### <a name="include-or-exclude-items-from-adjustments"></a>Nimikkeiden sisällyttäminen muutoksiin tai jättäminen pois niistä
+### Nimikkeiden sisällyttäminen muutoksiin tai jättäminen pois niistä
 
 Jos yksi tai usea nimike epäonnistui, nimikkeet voidaan jättää pois muutossuorituksesta ja sisällyttää ne sitten myöhempiin suorituksiin. **Toiminnot**-valikossa valitaan jompikumpi seuraavista:
 
 * **Sulje nimike pois muutoksesta** ja **sisällytä nimike muutokseen**: Poista nimike väliaikaisesti käytöstä ja ota sitten kustannusten muutos uudelleen käyttöön valitun nimikkeen osalta. Kustannusten muutos jatkaa muiden nimikkeiden kustannusten pitämistä ajan tasalla samalla, kun tiettyyn nimikkeeseen liittyvää ongelmaa selvitetään.
 
-## <a name="post-adjusted-costs-to-the-general-ledger"></a>Muutettujen kustannusten kirjaaminen pääkirjanpitoon
+## Muutettujen kustannusten kirjaaminen pääkirjanpitoon
 
 Uudet arvotapahtumat kirjataan yleensä pääkirjanpitoon **Kirjaa varaston kustannus KP:oon (1002)** -työjonotapahtuman aikataulun mukaisesti. Muutokset voidaan kuitenkin kirjata heti pääkirjanpitoon **Varastokustannusmuutos**-sivulta valitsemalla **Toiminnot**-valikossa **Varastokustannusmuutos**.
 
-## <a name="troubleshoot-cost-adjustments"></a>Kustannusten muutosten vianmääritys
+## Kustannusten muutosten vianmääritys
 
 Kustannusten muutossuoritusten vianmääritys voidaan tehdä seuraavilla **Diagnostiikka**-valikon vaihtoehdoilla.
 
@@ -105,7 +105,7 @@ Kustannusten muutossuoritusten vianmääritys voidaan tehdä seuraavilla **Diagn
 * **Arvostusongelmien havaitsemisraportti**: Tyypillisten tietoongelmien diagnosointi aiheuttaa laskentavirheitä kustannuslaskennassa. Se tarkistaa, ovatko nimiketapahtumat, arvotapahtumat, nimikkeen kohdistustapahtumat ja kapasiteettitapahtumat oikein.
 * **Poista nimiketiedot**: Tyhjennä tietokannan kaikki nimikkeeseen liittyvät taulukot. Tämä toiminto on saatavana vain eristysympäristöissä tai arviointiyrityksissä.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Nimikekustannusten muuttaminen](inventory-how-adjust-item-costs.md)  
 [Rakennetiedot: Kustannusten muutos](design-details-cost-adjustment.md)  

@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="allocate-recurring-costs-and-income"></a>Toistuvien kustannusten ja tulojen kohdistaminen
+# Toistuvien kustannusten ja tulojen kohdistaminen
 
 Voit kohdistaa toistuvan yleisen päiväkirjan tapahtuman useille tileille päiväkirjan kirjaamisen yhteydessä. Jos haluat lisätietoja toistuvista yleisistä päiväkirjoista, siirry kohtaan [Toistuvien tapahtumien päiväkirjojen käyttäminen](ui-work-general-journals.md#work-with-recurring-journals). 
 
@@ -27,7 +27,7 @@ Kohdistustoimintoja voi käyttää toistuvien yleisten päiväkirjojen ja käytt
 
 Seuraavaksi kerrotaan, miten kustannusten kohdistus valmistellaan toistuvissa yleisessä päiväkirjassa määrittämällä kohdistusavaimet. Kun kohdistusavaimet on määritetty, voit suorittaa ja kirjata päiväkirjan muiden toistuvien yleisten päiväkirjojen tavoin. Lisätietoja on kohdassa [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md).
 
-## <a name="to-set-up-allocation-keys"></a>Kohdistusavaimien määrittäminen
+## Kohdistusavaimien määrittäminen
 
 Voit kohdistaa toistuvan yleisen päiväkirjan tapahtuman useille eri tileille päiväkirjan kirjaamisen yhteydessä. Kohdistus voidaan tehdä määrän, prosentin tai summan mukaan.  
 
@@ -45,14 +45,14 @@ Voit kohdistaa toistuvan yleisen päiväkirjan tapahtuman useille eri tileille p
 10. Kun olet syöttänyt kohdistusrivit, valitse **OK** palataksesi takaisin **Toistuva yleinen päiväkirja** -sivulle. **Kohdistettu summa (USD)** -kenttä on täytetty ja vastaa **Summa** -kenttää.
 11. Kirjaa päiväkirja.
 
-## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Aiemmin määritetyn kohdistusavaimen muuttaminen
+## Aiemmin määritetyn kohdistusavaimen muuttaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvaketta, syötä **Toistuvat yleiset päiväkirjat** ja valitse linkit.
 2. Valitse Toistuvien yleisten **päiväkirjojen sivulta päiväkirja, jossa kohdistus** on.
 3. Valitse ensin kohdistuksen rivi ja sitten **Kohdistukset**-toiminto.
 4. Vaihda soveltuvat kentät ja valitse sitten **OK**.
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Tilikauden päättämisvuodet ja -jaksot](year-close-years-periods.md)    
 [Yleisten päiväkirjojen käyttäminen](ui-work-general-journals.md)    

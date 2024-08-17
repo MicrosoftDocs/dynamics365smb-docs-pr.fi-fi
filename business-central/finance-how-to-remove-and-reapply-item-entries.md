@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="remove-and-reapply-item-ledger-entries"></a>Nimiketapahtumien poistaminen ja kohdistaminen uudelleen
+# Nimiketapahtumien poistaminen ja kohdistaminen uudelleen
 Voit tarkastella ja muuttaa **Kohdistustyökirja**-sivulla manuaalisesti tietyn nimikkeen kohdistustapahtumia, jotka on luotu automaattisesti varastotapahtumien yhteydessä.  
 
 Kun kirjaat tapahtuman, jossa nimikkeitä siirretään varastosta tai varastoon, nimikesovellus luodaan jookaisen varastoarvon nousun varastoarvon laskun väliin. Nämä kohdistukset määrittävät varastoon vastaanotettavien tavaroiden ja varastosta otettavien tavaroiden kustannusvirran. Yksikkökustannuksen laskentatavan mukaan nimikkeen virheellinen kohdistus voi johtaa vääristyneeseen keskimääräiseen kustannukseen ja yksikkökustannukseen. Katso lisätiedot kohdasta Rakennetiedot: nimikkeen kohdistus.
@@ -34,7 +34,7 @@ Jos et voi käyttää asiakirjaa uudelleenkokeen käyttämiseen esimerkiksi sill
     - Voit poistaa usean tapahtuman kohdistukset samanaikaisesti kohdistustyökirjassa. Koska tapahtumien kohdistaminen vaikuttaa useisiin kohdistuksen käytettävissä oleviin tapahtumiin, voit luoda kohdistuksen vain yhdelle tapahtumalle samanaikaisesti.
     - Kohdistustyökirja ei voi tehdä kohdistusta seuraavassa tilanteessa: Jos varastossa ei ole tarpeeksi kohdistettavaa määrää, kohdistustyökirja ei voi tehdä kohdistusta, jos yrität kohdistaa varaston vähennystapahtumaa, jolla ei ole nimikeseurannan tietoja, sellaiseen varaston lisäystapahtumaan, jolla on nimikeseurannan tiedot.
 
-## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Nimikkeen kohdistuksen ja kohdistustyökirjan poistaminen
+## Nimikkeen kohdistuksen ja kohdistustyökirjan poistaminen
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 1.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kohdistustyökirja** ja valitse sitten vastaava linkki.  
 2.  **Kohdistustyökirja**-sivu aukeaa näyttäen kaikkia nimikkeitä koskevat nimiketapahtumat.  
@@ -51,7 +51,7 @@ Jos et voi käyttää asiakirjaa uudelleenkokeen käyttämiseen esimerkiksi sill
 >   
 >  **Et voi suorittaa tätä toimintoa, koska käyttäjä \<user\> on peruuttanut nimikkeen \<item\> kohdistuksen kohdistustyökirjassa.**  
 
-## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Nimikkeen kohdistuksen ja kohdistustyökirjan luominen
+## Nimikkeen kohdistuksen ja kohdistustyökirjan luominen
 
 1.  Valitse ![Lamppu, joka avaa Kerro-ominaisuuden 2.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kohdistustyökirja** ja valitse sitten vastaava linkki.  
 2.  **Kohdistustyökirja**-sivu aukeaa näyttäen kaikkia nimikkeitä koskevat nimiketapahtumat.  
@@ -68,7 +68,7 @@ Jos et voi käyttää asiakirjaa uudelleenkokeen käyttämiseen esimerkiksi sill
     >  Jos olet valinnut sellaisen kohdistuksen tekemisen, joka loisi päättymättömän silmukan kustannusten muutosprosessiin, ehdottamaasi kohdistusta ei tehdä. Näin voi tapahtua, kun alkuperäiset tapahtumat loivat negatiivisen varaston. Sovellusta ei ole tehty. Tämän vuoksi on valittava sovellukselle eri tapahtuma.  
 6.  Jos **varastonhallinnan asetusten** **Automaattinen kustannusten muuttaminen** -kentän arvoksi määritetään **Aina**, kustannusten muuttamisen eräajo suoritetaan automaattisesti uudelleenkohdistuksen jälkeen. Muussa tapauksessa voit varmistaa suorittamalla **Muuta kustannuksia - Nimiketapahtumat** -eräajon, että kaikki kustannukset on päivitetty.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Kiinteästä kohdistuksesta synty olevien avointen nimiketapahtumien sulkeminen nimikepäiväkirjassa](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)    
  [Ostopalautusten tai peruutusten käsitteleminen](purchasing-how-process-purchase-returns-cancellations.md)    
