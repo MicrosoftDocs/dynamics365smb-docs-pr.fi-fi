@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Tuottojen ja kulujen siirtäminen
+# <a name="defer-revenues-and-expenses"></a>Tuottojen ja kulujen siirtäminen
 
 Jos haluat tulouttaa tuoton tai kulun muuhun jaksoon kuin siihen, jonka aikana tapahtuma on kirjattu, tuotot ja kulut voidaan siirtää automaattisesti tietyn aikataulun mukaan.
 
@@ -21,7 +21,7 @@ Voit jakaa tuotot tai kulut liittyville kirjanpitojaksoille määrittämällä s
 > [!NOTE]
 > Myynti- ja ostopäiväkirjat tarkistavat lähdekoodin. Tarkistus edellyttää, että myynnin ja myyntipäiväkirjojen sekä oston ja ostopäiväkirjojen lähdekoodi ei ole sama siirtoja käytettäessä. Jos se on määritetty samaksi, rajoituksen voi kiertää luomalla toista lähdekoodi käyttävän mallin ja erän.
 
-## KP-tilin määrittäminen siirtoa varten
+## <a name="to-set-up-a-gl-account-for-deferral"></a>KP-tilin määrittäminen siirtoa varten
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Tilikartta** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi**-toiminto.
@@ -30,7 +30,7 @@ Voit jakaa tuotot tai kulut liittyville kirjanpitojaksoille määrittämällä s
 
 Valitse kummallekin siirtotyypille **Tase** **Tyyppi**-kenttään. Anna tileille soveltuvat nimet, kuten esimerkiksi siirretyille tuotoille Ansaitsematon tulo ja siirretyille kuluille Maksamattomat kulut.
 
-## Siirtomallin määrittäminen
+## <a name="to-set-up-a-deferral-template"></a>Siirtomallin määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Siirtomallit** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi**-toiminto.
@@ -52,7 +52,7 @@ Valitse kummallekin siirtotyypille **Tase** **Tyyppi**-kenttään. Anna tileille
 
 Esimerkki: Kirjauspäivämäärä on 6.2.2016. Jos annat Kulut siirretty: %4 %6, näytettävä kuvaus on Kulut siirretty: helmikuu 2016.
 
-## Siirtomallin määrittäminen nimikkeelle
+## <a name="to-assign-a-deferral-template-to-an-item"></a>Siirtomallin määrittäminen nimikkeelle
 
 > [!NOTE]  
 > Tämän proseduurin vaiheet ovat samat kuin silloin, kun siirtomalli liitetään KP-tiliin tai -resurssiin.
@@ -61,7 +61,7 @@ Esimerkki: Kirjauspäivämäärä on 6.2.2016. Jos annat Kulut siirretty: %4 %6,
 2. Avaa sen nimikkeen kortti, jonka tuotot tai kulut on siirrettävä kirjanpitojaksoille nimikkeen myynnin tai oston yhteydessä.
 3. Valitse **Kustannukset ja kirjaus -** pikavälilehden **Oletus lykkäysmalli** -kentässä asianmukainen lykkäysmalli.
 
-## Siirtomallin muuttaminen myyntilaskusta
+## <a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a>Siirtomallin muuttaminen myyntilaskusta
 
 > [!NOTE]  
 > Tämän menettelytavan vaiheet ovat samat kuin vaiheet silloin, kun kulun siirtomalli muutetaan ostolaskusta.
@@ -75,7 +75,7 @@ Esimerkki: Kirjauspäivämäärä on 6.2.2016. Jos annat Kulut siirretty: %4 %6,
 5. Valitse **Laske aikataulu** -toiminto.
 6. Valitse **OK**-painike. Myyntilaskun siirron aikataulu päivitetään. Liittyvää siirtomallia ei muuteta.
 
-## Siirrettyjen tuottojen tai kulujen kirjanpitoon kirjaamisen tarkasteleminen
+## <a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a>Siirrettyjen tuottojen tai kulujen kirjanpitoon kirjaamisen tarkasteleminen
 
 > [!NOTE]  
 > Tämän menettelytavan vaiheet ovat samat kuin kulujen siirtojen kirjausten esikatselun vaiheet.
@@ -85,7 +85,7 @@ Esimerkki: Kirjauspäivämäärä on 6.2.2016. Jos annat Kulut siirretty: %4 %6,
 
 Tietylle siirtotilille, kuten Ansaitsematon tulo -tilille, kirjattavat KP-tapahtumat merkitään kuvauksella, joka syötettiin siirtomallin **Jakson kuvaus** -kenttään. Esimerkki: Siirretyt kulut: helmikuu 2016.
 
-## Kirjattujen siirtojen tarkasteleminen Myynnin siirron yhteenveto -raportissa
+## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a>Kirjattujen siirtojen tarkasteleminen Myynnin siirron yhteenveto -raportissa
 
 > [!NOTE]  
 > Tämän menettelytavan vaiheet ovat samat kuin Ostojen siirron yhteenveto -raportin tarkastelun vaiheet.
@@ -94,7 +94,7 @@ Tietylle siirtotilille, kuten Ansaitsematon tulo -tilille, kirjattavat KP-tapaht
 2. Syötä **Myynnin siirron yhteenveto** -sivun **Saldon tilanne** -kenttään päivämäärä, johon asti siirretyt tuotot näytetään.
 3. Valitse **Esikatsele**-painike.
 
-## Kauden määrittäminen lykkäyksen kirjauksen sallimiseksi
+## <a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a>Kauden määrittäminen lykkäyksen kirjauksen sallimiseksi
 
 Voit määrittää ajanjakson, jolloin ihmiset voivat kirjata transaktioita syöttämällä päivämäärät **Salli kirjaus kohteesta**- ja **Salli kirjaaminen kohteeseen** -kenttiin seuraavasti:
 
@@ -106,13 +106,13 @@ Jos olet tehnyt sen, sinun täytyy tehdä poikkeuslykkäyksiä, jotta ne voitais
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Pääkirjanpidon asetukset** tai **Käyttäjän määritys** ja valitse sitten vastaava linkki.
 2. Syötä **Salli lykkäyskirjaus kohteesta**- ja **Salli lykkäyskirjaus kohteeseen** -kenttiin jakson alkamis- ja päättymispäivämäärä.
 
-### Video-opastus
+### <a name="video-guidance"></a>Video-opastus
 
 Seuraava video näyttää, kuinka voit määrittää ajanjakson, jonka aikana sallit ihmisten kirjata lykättyjä tuloja ja kuluja, ja kuinka määrittää poikkeuksia.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1fG6C]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Taloushallinto](finance.md)  
 [Rahoituksen määrittäminen](finance-setup-finance.md)  

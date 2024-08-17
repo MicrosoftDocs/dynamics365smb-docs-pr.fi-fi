@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Yrityksen ja muiden asetusten muuttaminen Teamsissa
+# <a name="changing-company-and-other-settings-in-teams"></a>Yrityksen ja muiden asetusten muuttaminen Teamsissa
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -27,7 +27,7 @@ Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksessa on **Aset
 
    ![Business Centralin asetukset viestiruudusta.](media/teams-settings-command-box.png)
 
-## Katso myös
+## <a name="related-information"></a>Katso myös
 
 [Business Centralin ja Microsoft Teamsin integraation yleiskatsaus](across-teams-overview.md)  
 [Microsoft Teamsin [!INCLUDE [prod_short](includes/prod_short.md)] -sovelluksen asentaminen](across-install-app-for-teams.md)  

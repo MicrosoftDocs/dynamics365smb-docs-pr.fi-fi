@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Sotku kustannustilinpidossa
+# <a name="terminology-in-cost-accounting"></a>Sotku kustannustilinpidossa
 
 Tässä artikkelissa määritetään kustannuslaskentaan käytettävät avainehdot.  
 
-## Avainehdot
+## <a name="key-terms"></a>Avainehdot
 
  Seuraavassa taulukossa on esitetty keskeiset määritelmät kustannuslaskennassa.  
 
@@ -44,7 +44,7 @@ Tässä artikkelissa määritetään kustannuslaskentaan käytettävät avainehd
 |Muuttuva kustannus|Muuttuvat kustannukset ovat kuluja, jotka muuttuvat suhteessa yrityksen toimintaan. Muuttuvat kustannukset ovat kaikkien tuotettujen yksiköiden marginaalikustannusten summa. Kokonaiskustannusten kaksi osaa muodostuvat kiinteistä kustannuksista ja muuttuvista kustannuksista.|  
 |Variantti|Varianttia käytetään valinnaisena käyttäjän määrittämänä nimenä määrityksille. Etiketin tarkoitus on suodattaa jakoryhmiä.|  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
  [Tietoja kustannuslaskennasta](finance-about-cost-accounting.md)  
  [Kustannuslaskenta](finance-manage-cost-accounting.md)  

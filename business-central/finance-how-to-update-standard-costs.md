@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Vakiokustannusten päivittäminen
+# <a name="update-standard-costs"></a>Vakiokustannusten päivittäminen
 Komponenttien vakiokustannukset on päivitettävä säännöllisesti ja uudet kustannukset on vyörytettävä päänimikkeelle. Prosessi sisältää yleensä seuraavat neljä vaihetta:  
 
 1.  Päivitä kustannukset osa- ja kapasiteettitasolla. Lisätietoja on kohdassa **Ehdota nimikkeen vakiokust.** -eräajo.  
@@ -21,7 +21,7 @@ Komponenttien vakiokustannukset on päivitettävä säännöllisesti ja uudet ku
 
 Lisätietoja on kohdassa [Tietoja vakiokustannusten laskennasta](finance-about-calculating-standard-cost.md).
   
-## Vakiokustannusten päivittäminen
+## <a name="to-update-standard-costs"></a>Vakiokustannusten päivittäminen
 
 1.  Suorita **Muuta kustannuksia - Nimiketapahtumat** -eräajo. Jos haluat käynnistää eräajon, valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Muuta kust. - Nimiketapahtumat** ja valitse sitten vastaava linkki. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Tarkasta tulokset ja tee tarvittavat muutokset.  
 2.  Suorita **Kirjaa varaston kust. KP:oon** -eräajo. Jos haluat käynnistää eräajon, valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjaa varaston kustannus KP:oon** ja valitse sitten vastaava linkki. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Tarkasta tulokset ja tee tarvittavat muutokset.  
@@ -36,7 +36,7 @@ Lisätietoja on kohdassa [Tietoja vakiokustannusten laskennasta](finance-about-c
     7.  Suorita **Ota käyttöön vakiokustannusten muutokset** -eräajo.  
 4.  Tarkista ja kirjaa **Nimikkeen uudelleenarvostuspäiväkirjat** -sivu, joka on täytetty tämän prosessin edellisten vaiheiden tapahtumilla.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
  [Tietoja standardikustannuksen laskemisesta](finance-about-calculating-standard-cost.md)   
  [Varaston kustannusten hallinta](finance-manage-inventory-costs.md)   

@@ -13,10 +13,10 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Varaston uudelleenarvostaminen
+# <a name="revalue-inventory"></a>Varaston uudelleenarvostaminen
 Jos haluat nostaa tai laskea nimikkeen tai tietyn nimiketapahtuman varastoarvoa, sinun tulee käyttää uudelleenarvostuspäiväkirjaa.
 
-## Varaston uudelleenarvostus
+## <a name="to-revalue-inventory"></a>Varaston uudelleenarvostus
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Uud.arviointipvk.** ja valitse sitten vastaava linkki.
 2. Valitse **Laske varaston arvo** -toiminto.
 3. Täytä **Laske varaston arvo** -sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -28,7 +28,7 @@ Jos haluat nostaa tai laskea nimikkeen tai tietyn nimiketapahtuman varastoarvoa,
 
 Kirjaamiasi uudelleenarvostuksia vastaavat uudet arvotapahtumat on nyt luotu. Uudet arvot näkyvät vastaavissa nimikekorteissa.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 [Suunnittelun yksityiskohdat: Uudelleenarvostus](design-details-revaluation.md)    
 [Vaihto-omaisuus](inventory-manage-inventory.md)    
 [Myynti](sales-manage-sales.md)    

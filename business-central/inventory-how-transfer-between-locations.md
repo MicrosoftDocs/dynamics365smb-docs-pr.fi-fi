@@ -12,14 +12,14 @@ ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 57
 ms.service: dynamics-365-business-central
 ---
 
-# Varastonimikkeiden siirtäminen sijaintien välillä
+# <a name="transfer-inventory-between-locations"></a>Varastonimikkeiden siirtäminen sijaintien välillä
 
 Varastonimikkeitä siirretään sijaintien välillä luomalla siirtotilauksia. Vaihtoehtoisesti voit käyttää uudelleenluokituspäiväkirjaa.
 
 > [!NOTE]
 > Nimikkeiden siirtäminen edellyttää sijaintien siirtoreittien määrittämistä. Lisätietoja sijaintien määrittämisestä on kohdassa Sijaintien [määrittäminen](inventory-how-setup-locations.md). Siirtotilauksia ei voi käyttää *tyhjissä* sijainneissa.
 
-## Siirtotilaukset
+## <a name="transfer-orders"></a>Siirtotilaukset
 
 Lähtevä siirto voidaan lähettää yhdestä sijainnista ja vastaanottaa kohteessa saapuvana siirtona. Voit:
 
@@ -28,7 +28,7 @@ Lähtevä siirto voidaan lähettää yhdestä sijainnista ja vastaanottaa kohtee
 * Saapuvissa ja lähtevissä sijainneissa käytetään erilaisia varastointiominaisuuksia:
 * Käytä siirtomääräyksiä suoriin siirtoihin tietyin rajoituksin.
 
-## Nimikkeen uudelleenluokituspäiväkirjat
+## <a name="item-reclassification-journals"></a>Nimikkeen uudelleenluokituspäiväkirjat
 
 Voit käyttää **Nimikkeen uudelleenluokituspäiväkirja** -sivua:
 
@@ -39,7 +39,7 @@ Voit käyttää **Nimikkeen uudelleenluokituspäiväkirja** -sivua:
 * Nimikkeiden uudelleenluokitteleminen tyhjästä sijainnista varsinaiseen sijaintiin.
 * Luo fyysisen varastoinnin tapahtumia, jos et hallitse fyysisen varastoinnin toimintoja.
 
-## Nimikkeiden siirtäminen siirtotilauksella
+## <a name="to-transfer-items-with-a-transfer-order"></a>Nimikkeiden siirtäminen siirtotilauksella
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Siirtotilaukset** ja valitse sitten vastaava linkki.
 2. Täytä **Siirtotilaus**-sivulla tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -64,7 +64,7 @@ Voit käyttää **Nimikkeen uudelleenluokituspäiväkirja** -sivua:
     Kohteesta-sijainnin varastotyöntekijänä voit siirtyä nimikkeiden vastaanottamiseen. Siirtotilausrivit ovat samat kuin toimituksen aikana eikä niitä voi muokata.
 5. Valita ensin **Kirjaa**-toiminto, sitten **Vastaanotto**-asetus ja lopuksi **OK**-painike.
 
-### Peruuta siirtotoimitus
+### <a name="undo-a-transfer-shipment"></a>Peruuta siirtotoimitus
 
 Jos kirjatun siirtotilauksen määrässä on virhe, niin kauan kuin toimitusta ei ole vastaanotettu, määrä on helppo korjata.  **Peruuta toimitus** -toiminto luo Kirjattu siirtotoimitus - **sivulla** korjaavia rivejä seuraavasti:
 
@@ -76,7 +76,7 @@ Jos määrä toimitettiin fyysisen varastoinnin toimituksessa, kirjatussa fyysis
 
 Viimeistele korjaus avaamalla siirtotilaus, antamalla oikea määrä ja kirjaamalla tilaus. Jos tilaus on toimitettu fyysisen varastoinnin toimituksen kautta, uusi fyysisen varastoinnin toimitus luodaan ja kirjataan.
 
-### Kirjaa useita siirtotilauksia erässä
+### <a name="post-multiple-transfer-orders-in-a-batch"></a>Kirjaa useita siirtotilauksia erässä
 
 Siirtotilauksia voi eräkirjata toimimalla seuraavasti.
 
@@ -96,7 +96,7 @@ Siirtotilauksia voi eräkirjata toimimalla seuraavasti.
     > [!NOTE]
     > Usean asiakirjan kirjaaminen voi kestää jonkin aikaa ja estää muita käyttäjiä. Harkitse taustakirjauksen käyttöönottoa. Lisätietoja on kohdassa [Tehtävien aikatauluttaminen työjonojen avulla](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
-### Työjonotapahtuman ajoittaminen useiden asiakirjojen kirjaamiseksi erässä
+### <a name="schedule-a-job-queue-entry-to-post-multiple-documents-in-a-batch"></a>Työjonotapahtuman ajoittaminen useiden asiakirjojen kirjaamiseksi erässä
 
 Työjonon avulla voit myös ajoittaa kirjauksen tapahtuvaksi organisaatiolle sopivana ajankohtana. Yrityksessä saattaa olla esimerkiksi hyödyllistä suorittaa tietyt toiminnot sen jälkeen, kun suurin osa päivän tiedoista on syötetty.
 
@@ -116,7 +116,7 @@ Seuraavaksi selitetään, miten **Eräkirjaa siirtotilaukset** -raportti määri
 8. Anna **Aloitusaika**-kentässä arvoksi **16.00**.
 9. Valitse **Määritä tilaksi valmis** -toiminto.
 
-### Siirtotilausten eri asetusten vertailu
+### <a name="comparison-of-different-settings-for-transfer-orders"></a>Siirtotilausten eri asetusten vertailu
 
 Voit kirjata siirtotilauksia eri tilassa, joko kuljetuksessa-sijainnissa tai ilman sitä. Poista suora siirto **-vaihto käytöstä** ja valitse väliaikainen sijainti Siirtotilaus-sivun **Kuljetuksessa-koodi**  **-** kentässä. Kun kirjaat toimituksen siirtotilaukselle, joka käyttää kuljetuksessa-sijaintia, rivillä olevat nimikkeet eivät ole enää saatavilla yhdessä sijainneistasi, koska ne ovat kuljetuksessa. Suorakirjaus varmistaa, että kuljetuksessa-sijaintia ei käytetä, ja toimitus- ja vastaanottoprosessia samanaikaisesti. Suorakirjaus tarkka toiminta voi olla erilainen Sen arvon perusteella, joka on valittu **Varastonhallinnan asetukset -sivun Suorasiirtokirjaus-kentässä**  **·** .
 
@@ -153,7 +153,7 @@ Toimitus- ja vastaanottotapahtumat suoritetaan menetelmästä riippumatta. Voit 
 
 Lisätietoja fyysisen varastoinnin käsittelystä on Varastoinninhallinnan yleiskuvaus -kohdassa [...](design-details-warehouse-management.md).
 
-## Siirrä nimikkeet nimikkeiden uudelleenluokituspäiväkirjan avulla
+## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Siirrä nimikkeet nimikkeiden uudelleenluokituspäiväkirjan avulla
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Nimikkeen uudell.luokit. pvk:t** ja valitse sitten vastaava linkki.
 2. Täytä tarvittavat kentät **Nimik. uud.luok.pvk** -sivulla. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -167,7 +167,7 @@ Lisätietoja fyysisen varastoinnin käsittelystä on Varastoinninhallinnan yleis
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Varaston hallinta](inventory-manage-inventory.md)  
 [Sijaintien määrittäminen](inventory-how-setup-locations.md)  

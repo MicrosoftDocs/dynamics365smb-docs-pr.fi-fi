@@ -11,7 +11,7 @@ ms.date: 08/09/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Tietoja tuotantotilauksista
+# <a name="about-production-orders"></a>Tietoja tuotantotilauksista
 
 Tuotantotilauksilla hallitaan ostettujen materiaalien muuntamista valmistetuiksi tuotteiksi. Tuotantotilaukset reitittävät työn tuotannon eri tuotantosoluihin tai kuormitusryhmiin.  
 
@@ -32,7 +32,7 @@ Tuotantotilaukset toimivat lähtökohtana
 - meneillään olevan tuotannon hallinnassa  
 - valmistuneen tuotannon seurannassa.  
 
-## Tuotantotilausten luominen  
+## <a name="production-order-creation"></a>Tuotantotilausten luominen
 
 Tuotantotilauksia voidaan luoda manuaalisesti tilaus kerrallaan **Tuotantotilaus**-sivulla, mutta niitä voi luoda myös **Myyntitilauksen suunnittelu**- tai **Tilauksen suunnittelu** -sivuilla. **Suunnittelutyökirja**-sivulla voidaan luoda myös useita tilauksia.  
 
@@ -44,7 +44,7 @@ Tuotantotilauksen luodaan käyttämällä seuraavien kohteiden tietoja:
 - kuormitusryhmät  
 - tuotantosolut.  
 
-## Tuotantotilauksen luomiseen liittyviä rajoituksia  
+## <a name="limitations-on-creating-production-orders"></a>Tuotantotilauksen luomiseen liittyviä rajoituksia
 
 Tuotantotilaukset varataan ja niitä seurataan automaattisesti lähteeseen, kun  
 
@@ -57,18 +57,18 @@ Lisätietoja on kohdassa [Kysynnän ja tarjonnan välisten suhteiden seuranta](p
 
 Muilla keinoilla luotuja tuotantotilauksia ei varata eikä seurata automaattisesti.
 
-## Tuotantotilauksen tila  
+## <a name="production-order-status"></a>Tuotantotilauksen tila
 
 Tuotantotilauksen tilan avulla hallitaan tuotantotilauksen toimintaa sovelluksessa. Tilauksen tila määrittää tuotannon muodon ja sisällön. Tuotantotilaukset näkyvät tilansa mukaisesti eri sivuilla. Tuotantotilauksen tilaa ei voi muuttaa manuaalisesti. **Muuta tilaa** -toimintoa on käytettävä yksittäisessä tuotantotilauksessa tai **Muuta tuotantotilauksen tila** -sivulla.  
 
-### Simuloitu tuotantotilaus  
+### <a name="simulated-production-order"></a>Simuloitu tuotantotilaus
 
 Simuloitu tuotantotilaus yksilöivä, ja se perustuu seuraaviin ominaisuuksiin:  
 
 - Nimen mukaisesti kyse on tarjouksissa ja kustannuslaskennassa käytettävästä simulaatiosta. Esimerkki: tuotekehitysosasto haluaa saada ehdotetun nimikkeen kustannusarvion. Simuloitu tuotantotilaus toimii esimerkkinä tuotantotilauksesta.  
 - Ne eivät vaikuta tilausten suunnitteluun. Simuloidut tuotantotilaukset eivät ota huomioon suunnittelua (tuotanto-ohjelmassa ja tarvelaskennassa). Simuloitua tuotantotilausta ei myöskään voi käyttää mallina, koska se häviää tilaa muutettaessa.  
 
-### Suunniteltu tuotantotilaus  
+### <a name="planned-production-order"></a>Suunniteltu tuotantotilaus
 
 Seuraavat ominaisuudet tekevät suunnitellusta tuotantotilauksesta yksilöllisen:  
 
@@ -78,7 +78,7 @@ Seuraavat ominaisuudet tekevät suunnitellusta tuotantotilauksesta yksilöllisen
 - Suunnittelun yhteydessä tehtävän luomisen tuloksena saadaan ehdotettu "suunniteltu tilausvapautus", jossa on määrä, vapautuspäivämäärä ja eräpäivä. Suunnittelujärjestelmän logiikka perustuu täydennysjärjestelmään, uusintatilauskäytäntöihin ja tilauksen määritteisiin, jotka tuleva esiin nettotarpeiden suunnittelutoimissa.  
 - Voit tarkastella niiden vaikutusta tutustumalla kunkin tuotantosolun tai kuormitusryhmän kuormitukseen suunnitellun tuotantotilauksen reitityksessä.  
 
-### Sitovasti suunniteltu tuotantotilaus  
+### <a name="firm-planned-production-order"></a>Sitovasti suunniteltu tuotantotilaus
 
 Seuraavat ominaisuudet tekevät sitovasti suunnitellusta tuotantotilauksesta yksilöllisen:  
 
@@ -88,7 +88,7 @@ Seuraavat ominaisuudet tekevät sitovasti suunnitellusta tuotantotilauksesta yks
 - Suunnittelun yhteydessä tehtävän luomisen tuloksena saadaan ehdotettu "suunniteltu tilausvapautus", jossa on määrä, vapautuspäivämäärä ja eräpäivä. Suunnittelujärjestelmän logiikka perustuu täydennysjärjestelmään, uusintatilauskäytäntöihin ja tilauksen määritteisiin, jotka tuleva esiin nettotarpeiden suunnittelutoimissa.  
 - Voit tarkastella niiden vaikutusta tutustumalla kunkin tuotantosolun tai kuormitusryhmän kuormitukseen sitovasti suunnitellun tuotantotilauksen reitityksessä.  
 
-### Vapautettu tuotantotilaus  
+### <a name="released-production-order"></a>Vapautettu tuotantotilaus
 
 Seuraavat ominaisuudet tekevät vapautetusta tuotantotilauksesta yksilöllisen:  
 
@@ -97,7 +97,7 @@ Seuraavat ominaisuudet tekevät vapautetusta tuotantotilauksesta yksilöllisen:
 - Tilauspohjaisessa tuotannossa vapautetun tuotantotilauksen luominen heti myyntitilauksen syöttämisen jälkeen on sangen tavallista.  
 - Materiaalin todellinen kulutus ja tuotteen tuotos voidaan kirjata manuaalisesti vapautetun tuotantotilauksen avulla. Kulutuksen ja tuotteen tuotoksen automaattinen materiaalinotto tehdään vain vapautetuille tuotantotilauksille.  
 
-### Valmis tuotantotilaus  
+### <a name="finished-production-order"></a>Valmis tuotantotilaus
 
 Seuraavat ominaisuudet tekevät valmiista tuotantotilauksesta yksilöllisen:  
 
@@ -106,7 +106,7 @@ Seuraavat ominaisuudet tekevät valmiista tuotantotilauksesta yksilöllisen:
 - Valmiita tuotantotilauksia käytetään tilastoraporteissa. Ne myös tukevat mahdollisuutta seurata tilausta muihin tilauksiin (esimerkiksi myynti-, tuotanto- ja ostotilauksiin). Voit tarkastella yksityiskohtaisia historiatietoja seuraamalla valmiita tuotantotilauksia taaksepäin.  
 - Valmiita tuotantotilauksia ei missään vaiheessa voi muuttaa.  
 
-## Tuotantotilauksen toteuttaminen  
+## <a name="production-order-execution"></a>Tuotantotilauksen toteuttaminen
 
 Kun tuotantotilaus on luotu ja ajoitettu, se on vapautettava tuotantoon toteutettavaksi. Tilauksen toteuttamisen yhteydessä kirjataan  
 
@@ -116,7 +116,7 @@ Kun tuotantotilaus on luotu ja ajoitettu, se on vapautettava tuotantoon toteutet
 
 Nämä tiedot voidaan kirjata manuaalisesti tai automaattisella raportoinnilla. Menetelmä määräytyy nimikkeen ja tuotantosolun Materiaaliottotapa-kentän määrityksistä.  
 
-### Materiaalin kulutus  
+### <a name="material-consumption"></a>Materiaalin kulutus
 
 [!INCLUDE [prod_short](includes/prod_short.md)] sisältää erilaisia vaihtoehtoja materiaalin kulutuksen kirjaamiseen. Materiaalin kulutus voidaan tallentaa esimerkiksi manuaalisesti. Tämä voi olla hyvä vaihtoehto, jos komponentteja korvataan usein toisilla tai hukkatavaran määrä on odotettua suurempi.  
 
@@ -133,7 +133,7 @@ Takautuva kulutusraportti – Tämä menetelmä on kaikkien automaattisesti vali
 
 Kun tuotantotilaus päivitetään, materiaalinottotapa kopioidaan nimikkeen kortista. Koska tuotantotilauksen kunkin komponentin materiaalinottotapa ohjaa kulutuksen kirjaamisen tapaa ja ajankohtaa, on tärkeää muistaa, että yksittäisten nimikkeiden materiaalinottotapaa voi muuttaa suoraan tuotantotilauksesta. Lisätietoja on kohdassa [Komponenttien materiaalinotto toiminnan tuotoksen mukaan](production-how-to-flush-components-according-to-operation-output.md).
 
-### Tuotannon tuotos  
+### <a name="production-output"></a>Tuotannon tuotos
 
 [!INCLUDE [prod_short](includes/prod_short.md)] mahdollistaa tuotantotilauksen käsittelyyn kuluvan ajan seurannan sekä tuotetun määrän kirjaamisen. Näiden tietojen avulla tuotannon kustannusten määrittäminen sujuu aiempaa tarkemmin. Standardipohjaisia kustannuslaskentajärjestelmiä käyttävät valmistajat voivat myös halutessaan kirjata todellisia tietoja, joista on hyöytä entistä parempien standardien kehittämisessä.  
 
@@ -145,13 +145,13 @@ Eteenpäin-menetelmä kirjaa oletetun tuotoksen (ja ajan), joka kirjataan automa
 
 Taaksepäin-menetelmä on oletettu tuotos (ja aika), joka kirjataan automaattisesti tuotantotilauksen valmistuessa. Reitityslinkin koodeilla ei ole vaikutusta tuotoksen Taaksepäin-materiaalinottoon.  
 
-### Kulutuksen ja tuotoksen kirjaaminen  
+### <a name="posting-consumption-and-output"></a>Kulutuksen ja tuotoksen kirjaaminen
 
 Sekä kulutuksessa että tuotoksessa voi käyttää mitä tahansa automaattisen materiaalinoton ja manuaalisesti kirjattujen tietojen yhdistelmää. Voit esimerkiksi käyttää komponenteissa automaattista Eteenpäin-materiaalinottoa ja kirjata hukkatavaran kulutuspäiväkirjan avulla. Voit kirjata vastaavasti tuotoksen automaattisesti ja päänimikkeen hukkatavaran tai tilaukseen kuluneen ylimääräisen ajan tuotospäiväkirjan avulla.  
 
 Jos kulutus ja tuotos lisätään manuaalisesti, näiden tietojen kirjausjärjestys on määritettävä. Voit kirjata kulutuksen ensin ja lisätä tuotoksen oletettuun määrään perustuvat tiedot pikamenetelmällä. Voit myös lisätä tuotoksen ensin **Pura reititys** -toiminnolla. Tämän jälkeen voit kirjata kulutuksen tuotoksen todellisen määrän perusteella.  
 
-### Tuotantopäiväkirja  
+### <a name="production-journal"></a>Tuotantopäiväkirja
 
 [Tuotantopäiväkirjassa](production-how-to-register-consumption-and-output.md) kulutus- ja tuotospäiväkirjojen toiminnot yhdistyvät yhdeksi päiväkirjaksi, joka voidaan avata suoraan vapautetusta tuotantotilauksesta.  
 
@@ -178,7 +178,7 @@ Tuotantopäiväkirjat eroavat kuitenkin seuraavilla tavoilla kulutus- ja tuotosp
 
 Tuotantopäiväkirjassa kulutusmäärät kirjataan negatiivisina nimiketapahtumina, tuotoksen määrät kirjataan positiivisina tapahtumina ja käytetyn ajan tiedot kirjataan kapasiteettitapahtumina.  
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Tuotanto](production-manage-manufacturing.md)
 [Tuotannon määrittäminen](production-configure-production-processes.md)  
