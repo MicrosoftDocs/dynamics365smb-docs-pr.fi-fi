@@ -5,15 +5,15 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 02/22/2024
+ms.date: 08/19/2024
 ms.custom: bap-template
 ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-projects-prices-and-project-posting-groups"></a>Projektien, hintojen ja projektin kirjausryhmien määrittäminen
+# Projektien, hintojen ja projektin kirjausryhmien määrittäminen
 
-Projektipäällikkö määrittää projektit, jotka määrittävät jokaisen [!INCLUDE[prod_short](includes/prod_short.md)]issa hallittavan projektin. **Projektiasetukset**-sivulla voidaan määrittää, miten projektiominaisuuksia käytetään.
+Projektipäällikkönä voit määrittää kaikki hallinnoitavat projektit [!INCLUDE[prod_short](includes/prod_short.md)]. **Projektiasetukset**-sivulla voidaan määrittää, miten projektiominaisuuksia käytetään.
 
 Kullekin projektille määritetään monenlaisia tietoja:
 
@@ -22,33 +22,15 @@ Kullekin projektille määritetään monenlaisia tietoja:
 * Projektin kirjanpitotilit
 * Projektin kirjausryhmät (pakollinen)
 
-## <a name="to-set-general-information-for-projects"></a>Projektien yleistietojen määrittäminen
+## Projektien yleistietojen määrittäminen
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektiasetukset** ja valitse sitten sopiva linkki.
 2. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
-> **Käytä käyttölinkkiä oletusarvoisesti** -valinta **Projektiasetukset**-sivulla ilmaisee, onko projektitapahtumat linkitetty projektin suunnitteluriveihin oletusarvoisesti. Tämä asetus otetaan vaihtopainikkeella käyttöön kaikissa uusissa projekteissa. Tietyn projektin projektin käytön seuranta voidaan ottaa käyttöön tai poistaa käytöstä **Projektikortti**-sivun **Käytä käyttölinkkiä** -vaihtopainikkeella.
+> **Käytä käyttölinkkiä oletusarvoisesti** -valinta **Projektiasetukset**-sivulla ilmaisee, onko projektitapahtumat linkitetty projektin suunnitteluriveihin oletusarvoisesti. Tämä asetus otetaan vaihtopainikkeella käyttöön kaikissa uusissa projekteissa. Tietyn projektin projektin käytön seuranta voidaan ottaa käyttöön tai poistaa käytöstä **Projektikortti**-sivun **Käytä käyttölinkkiä** -vaihtopainikkeella.  **Kohdista käyttölinkki** -toiminnolla aktivoidaan myös projektin fyysisen varastoinnin käsittely-, suunnittelu-, kokoonpano-tilaus-, nimikeseuranta- ja varausominaisuudet.
 
-### <a name="specify-a-default-location-for-project-items"></a>Projektin nimikkeiden oletussijainnin määrittäminen
-
-Tietojen syöttämisessä säästyy aikaa, kun projektien oletussijainti ja -varastopaikka määritetään **Projektikortti**-sivulla. Oletussijainti ja -varastopaikka määritetään automaattisesti, kun projektin tehtäviä, projektin suunnittelurivejä ja projektipäiväkirjan rivejä luodaan projektille. Sijaintikoodia ja varastopaikkaa voidaan kuitenkin tarvittaessa muuttaa tehtävissä ja riveillä.
-
-Jos **Projektin valmisteluvarastopaikkakoodiin** määritetään sijainnissa, valmisteluvarastopaikkakoodi täytetään, kun sijaintikoodi valitaan. Jos varastotyönkulku edellyttää varastopoimintoja, nimikkeiden kuluttamista varten voidaan määrittää myös muita varastopaikkoja.
-
-Nämä kentät ovat oletuksia projektitehtäviä luotaessa. Aiemmin luodut projektitehtävät eivät muutu.
-
-Seuraavat seikat on otettava oletussijainteja käytettäessä huomioon:
-
-* Jos projektitehtävissä määritetään **Projektin valmisteluvarastopaikkakoodiin** määritetään sijainnissa, varastopaikkakoodi määritetään, kun sijaintikoodi valitaan. Jos varastotyönkulku edellyttää varastopoimintoja, nimikkeiden kuluttamista varten voidaan määrittää myös muita varastopaikkoja.
-* Projektin suunnitteluriveillä **sijaintikoodi** perustuu projektin suunnittelurivillä nimikettä valittaessa valittuun arvoon. Jos projektitehtävälle ei määritetä varastopaikkakoodia, varastopaikka valitaan oletusvarastopaikkasisällöstä. Kumpikin arvo voidaan muuttaa manuaalisesti.
-* Projektipäiväkirjan riveillä **sijaintikoodi** perustuu projektipäiväkirjan rivillä nimikettä valittaessa valittuun arvoon. Jos projektitehtävälle ei määritetä varastopaikkakoodia, varastopaikka valitaan oletusvarastopaikkasisällöstä. Kumpikin arvo voidaan muuttaa manuaalisesti.
-
-### <a name="invoice-multiple-customers-for-project-tasks"></a>Useiden asiakkaiden laskuttaminen projektitehtävien osalta
-
-Jos projekteissa on useita asiakkaita, oikean tehtävän laskuttaminen oikealta asiakkaalta voi olla haastavaa. [!INCLUDE [prod_short](includes/prod_short.md)] yksinkertaistaa laskutusta mahdollistamalla laskutus- ja tilausasiakkaiden määrittämisen kullakin projektitehtävärivillä, joten laskut voidaan luoda automaattisesti oikeille asiakkaille. Lisätietoja useiden asiakkaiden laskuttamisesta on kohdassa [Projektitehtävien laskuttaminen yhdeltä tai usealta asiakkaalta](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
-
-### <a name="to-set-up-project-usage-tracking"></a>Projektin käytön seurannan määrittäminen
+### Projektin käytön seurannan määrittäminen
 
 Kun työskentelet projektin parissa, haluat ehkä tietää, miten käyttöäsi seurataan suunnitelman perusteella. Käyttöön voi perehtyä luomalla linkki projektin suunnittelurivien ja toteutuneen käytön välille. Linkin avulla voit seurata kustannuksia ja selvittää, kuinka paljon työtä on jäljellä. Oletusarvoisesti projektin suunnittelurivin tyyppi on **Budjetti**, mutta rivintyypin **Sekä budjetti että laskutettava** käytöllä on samanlainen vaikutus.
 
@@ -62,7 +44,23 @@ Kun käytön seuranta on määritetty ottamalla **Käytä käyttölinkkiä oletu
 > [!IMPORTANT]
 > Jos projektipäiväkirjarivin tai ostorivin **Rivityyppi**-kentän arvoa ei määritetä, projektin suunnittelurivejä ei luoda, kun projektipäiväkirja tai ostoasiakirja kirjataan.
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-projects"></a>Hintojen määrittäminen töiden projekteille, resursseille ja KP-tileille
+### Useiden asiakkaiden laskuttaminen projektitehtävien osalta
+
+Jos projekteissa on useita asiakkaita, oikean tehtävän laskuttaminen oikealta asiakkaalta voi olla haastavaa. [!INCLUDE [prod_short](includes/prod_short.md)] yksinkertaistaa laskutusta mahdollistamalla laskutus- ja tilausasiakkaiden määrittämisen kullakin projektitehtävärivillä, joten laskut voidaan luoda automaattisesti oikeille asiakkaille.  Oletustehtävän **laskutustapa -** kentän avulla voit määrittää, laskutatko oletusarvoisesti yhtä asiakasta vai useita asiakkaita. Tietyn projektin tehtävän laskutustapaa voi muuttaa käyttämällä **Projekti-kortti**  sivun **Tehtävän laskutustapa** -kenttää. Lisätietoja useiden asiakkaiden laskuttamisesta on kohdassa [Projektitehtävien laskuttaminen yhdeltä tai usealta asiakkaalta](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
+
+### Käytettyjen nimikkeiden kustannusten synkronoiminen
+
+Ostojen ja myöhemmin projektissa käytettävän nimikkeen (varastoarvon) kustannukset voivat muuttua sen eliniän aikana. Tämä johtuu esimerkiksi siitä, että rahtikustannus lisätään ostokustannukseen nimikkeen käytön kirjaamisen jälkeen.
+
+- [!INCLUDE [prod_short](includes/prod_short.md)] ikkunassa nimikekustannuksia voi muuttaa manuaalisesti tai automaattisesti. Muutos näkyy arvotapahtumissa ja pääkirjanpidossa. Lisätietoja on varastokustannusten hallinnassa. [...](finance-manage-inventory-costs.md)
+
+Projekteihin liittyen on myös vaihtoehtoja, joiden avulla muutokset voidaan ottaa huomioon.
+
+Voit varmistaa, että kustannusten muutokset muuttuvat automaattisesti projektissa aina **Muuta kustannuksia - Nimiketapahtumat -** eräajon suorituksen yhteydessä, kun **päivität projektin nimikekustannukset** automaattisesti.
+
+Jos et käytä päivitystoimintoa, muista suorittaa Päivitä projektiprojektin **kustannukset** -tehtävä manuaalisesti tai työjonotapahtuman avulla.
+
+## Hintojen määrittäminen töiden projekteille, resursseille ja KP-tileille
 
 > [!NOTE]
 > Vuoden 2020 julkaisuaallossa 2 julkaisimme uudet prosessit hintojen ja alennusten määritykseen ja hallintaan. Jos olet uusi asiakas, käytät uutta käyttökokemusta. Jos olet jo asiakas, uuden käyttöokemuksen käyttö riippuu siitä, onko järjestelmänvalvoja ottanut käyttöön **Uusi myyntihinnoittelukokemus** -ominaisuuden päivityksen **ominaisuuksien hallinnassa**. Lisätietoja on kohdassa [Tulevien ominaisuuksien ottaminen käyttöön etuajassa](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -79,9 +77,9 @@ Kun projektille valitaan resurssi, nimike tai kirjanpitotili, [!INCLUDE [prod_sh
 
 |Sarake1  |Sarake2  |
 |---------|---------|
-|**Projektin resurssit**|**Projektitehtävän nro**-, **Työtyyppi**-, **Valuuttakoodi**-, **Rivialennus-%**- ja **Yksikkökustannustekijä**-kentät. Resurssin **Yksikköhinta**-kentän arvoa käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa, kun resurssi tai resurssiryhmään liitetty resurssi määritetään. Tämä hinta ohittaa **Resurssihinta / resurssiryhmän hinta** -sivulla määritetyt hinnat.|
 |**Projektinimikkeet**|**Projektitehtävän nro**-, **Valuuttakoodi**- ja **Rivialennus-%**-kentät. Nimikkeen **Yksikköhinta**-kentän arvoa käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa tämän nimikkeen syöttämisen yhteydessä. Tämä hinta ohittaa nimikkeiden normaalin asiakashinnan (parhaan hinnan mekanismi). Jos haluat käyttää tavallista asiakashintaa, älä määritä projektin projektinimikkeiden hintoja.|
 |**Kirjanpitotilit**|**Projektitehtävän nro**-, **Valuutan koodi**-, **Rivialennus-%**-, **Yksikkökustannustekijä**- ja **Yksikkökustannus**-kentän tietoja käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa, kun tämä kirjapitotili syötetään ja lisätään projektiin. Kun valitset pääkirjanpitotilin, projektin suunnittelurivit ja projektipäiväkirjat käyttävät **Yksikköhinta**-kentän arvoa pääkirjapidon projektikuluina.|
+|**Projektin resurssit**|**Projektitehtävän nro**-, **Työtyyppi**-, **Valuuttakoodi**-, **Rivialennus-%**- ja **Yksikkökustannustekijä**-kentät. Resurssin **Yksikköhinta**-kentän arvoa käytetään projektin suunnitteluriveillä ja projektipäiväkirjoissa, kun resurssi tai resurssiryhmään liitetty resurssi määritetään. Tämä hinta ohittaa **Resurssihinta / resurssiryhmän hinta** -sivulla määritetyt hinnat.|
 
 #### [Uusi kokemus](#tab/new-experience)
 
@@ -90,7 +88,7 @@ Kun projektille valitaan resurssi, nimike tai kirjanpitotili, [!INCLUDE [prod_sh
 
 ---
 
-## <a name="to-set-up-project-posting-groups"></a>Projektin kirjausryhmien määrittäminen
+## Projektin kirjausryhmien määrittäminen
 
 Yksi osa projektien suunnittelua on sen päättäminen, mitä kirjaustilejä projektin kustannuslaskentaan käytetään. Projektien kirjaus edellyttää, että määrität kullekin projektin kirjausryhmälle tilit kirjausta varten. Kirjausryhmä ilmaisee projektin ja sen kirjanpitokäsittelyn välisen linkin. Kun projekti luodaan, kirjausryhmä määritetään ja oletusarvoisesti kunkin projektiin luotava tehtävä liitetään kyseiseen kirjausryhmään. Voit kuitenkin ohittaa oletusarvon tehtävien luonnin yhteydessä ja valita sopivamman kirjausryhmän.  
 
@@ -118,7 +116,7 @@ Yksi osa projektien suunnittelua on sen päättäminen, mitä kirjaustilejä pro
 | **Tuloutettujen kustannusten tili** |Kustannustili, joka sisältää projektin tuloutetut kustannukset. Yleensä tili on debetkustannustili. | Tuloutetut kustannukset|
 | **Tuloutetun myynnin tili** |Tulotili, joka sisältää projektin tuloutetut tuotot. Yleensä tili on kredittulotili. | Tuloutettu myynti|
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Projektienhallinnan määrittäminen](projects-setup-projects.md)  
 [Video: Projektin luonti Dynamics 365 Business Centralissa](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

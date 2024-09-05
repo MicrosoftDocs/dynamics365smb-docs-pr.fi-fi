@@ -1,5 +1,5 @@
 ---
-title: KET-menetelmien laskeminen ja projektin edistymisen kirjaaminen
+title: Projektin edistymisen laskemisen ja kirjaamisen KET-menetelmät
 description: 'Tässä artikkelissa käsitellään KET-menetelmiä, joilla kirjataan, seurataan ja lasketaan keskeneräisten projektien rahoitustietoja.'
 author: brentholtorf
 ms.author: bholtorf
@@ -7,33 +7,79 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'work in process, work in progress, calculate project WIP'
 ms.search.form: '1010,'
-ms.date: 02/22/2024
+ms.date: 08/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="understanding-wip-methods-in-project-management"></a>Tietoja projektinhallinnan KET-menetelmistä
+# Projektinhallinnan KET-menetelmien ymmärtäminen
 
-Projektin edetessä kulutetaan materiaaleja, resursseja ja muita kuluja, ja nämä on kirjattava projektiin. Keskeneräinen työ (KET) on ominaisuus, jonka avulla voidaan arvioida kirjanpidossa olevien projektien taloudellisen arvon projektin ollessa kesken. Monissa tapauksissa saatat kirjata projektille kuluja ennen projektin laskuttamista. Kun projektista on kirjattu vain kuluja, rahoituslaskelma on epätarkka.
+Projektin edetessä kulutetaan materiaaleja, resursseja ja muita kuluja, ja nämä on kirjattava projektiin. Keskeneräinen työ (KET) on ominaisuus, jonka avulla voidaan arvioida kirjanpidossa olevien projektien taloudellisen arvon projektin ollessa kesken. Monissa tapauksissa saatat kirjata projektille kuluja ennen projektin laskuttamista. Kun vain kuluja kirjataan, rahoituslaskelma on epätarkka.
 
 Voit seurata arvoa kirjanpidossa laskemalla KET:n ja kirjaamalla arvon kirjanpitoon. Lisätietoja on kohdassa [Projektin edistymisen ja suorituskyvynvalvominen](projects-how-monitor-progress-performance.md).
 
-[!INCLUDE[prod_short](includes/prod_short.md)] tukee seuraavia keskeneräisen työn arvon laskennan ja kirjaamisen menetelmiä.
+Tukee seuraavia keskeneräisen [!INCLUDE[prod_short](includes/prod_short.md)]  työn arvon laskenta- ja tallennusmenetelmiä.
 
-| KET-menetelmä | Laskentakaava | Laskennan kuvaus |
-| --- | --- | --- |
-| Kustannusarvo |Tuloutettu tuotto = laskutettava laskutettu hinta <br /><br />Budjetin kustannusten suhde = Budjetin kokonaiskustannukset / budjetin kokonaishinta <br /><br />Arvioidut kokonaiskustannukset = laskutettava kokonaishinta x budjetin kustannusten suhde <br /><br />Valmistumisen %-osuus = käytön kokonaiskustannukset / budjetoidut kokonaiskustannukset <br /><br />Laskutettu % = laskutettava laskutettu hinta / laskutettava kokonaishinta <br /><br />KET-kustannus = (valmistumisen %-osuus - laskutettu -%) * arvioidut kokonaiskustannukset <br /><br />Tuloutetut kustannukset = käytön kokonaiskustannukset - KET-kustannukset|Kustannusarvon laskelmat aloitetaan laskemalla tuotettujen arvo. Se tehdään ottamalla osa valmistumisen prosenttiosuuteen perustuvista arvioiduista kustannuksista. Laskutetut kustannukset vähennetään ottamalla osa laskutettuun prosenttiin perustuvista arvioiduista kokonaiskustannuksista.<br /><br />Tämä laskenta edellyttää, että koko projektin laskutettava kokonaishinta, budjetoitu kokonaishinta ja budjetoidut kokonaiskustannukset on syötettävä oikein. |
-| Myynnin kulut |Tuloutettu tuotto = laskutettava laskutettu hinta<br /><br /> Tuloutetut kustannukset = budjetoidut kokonaiskustannukset x laskutettu prosenttiosuus<br /><br /> Laskutettu % = laskutettava laskutettu hinta / laskutettava kokonaishinta<br /> (Laskutettu % on projektitehtävärivin sarake)<br /><br /> KET-kustannukset = käytön kokonaiskustannukset - tuloutetut kustannukset |Myynnin kulujen laskeminen alkaa tuloutettujen kustannusten laskemisella. Kustannukset tuloutetaan suhteessa budjetin kokonaiskustannuksiin.<br /><br /> Tämä laskenta edellyttää, että koko projektin laskutettava kokonaishinta ja budjetin kokonaiskustannukset on syötettävä oikein. |
-| Myyntiarvo |Tuloutetut kustannukset = käytön kokonaiskustannukset<br /><br /> Tuloutettu tuotto = käytön kokonaishinta x odotettu laskutuksen suhde<br /><br /> Kustannusten korvaus-% = laskutettava kokonaishinta / budjetin kokonaishinta<br /><br /> KET-myynti = tuloutettu myynti - laskutettava laskutettu hinta |Myyntiarvon laskelmat tulouttavat tuoton suhteessa käytön kokonaiskustannuksiin ja odotettuihin kustannuksiin korvaussuhteen perusteella.<br /><br /> Tämä laskenta edellyttää, että koko projektin laskutettava kokonaishinta ja budjetin kokonaishinta on syötettävä oikein. |
-| Valmistumisen prosenttiosuus |Tuloutetut kustannukset = käytön kokonaiskustannukset<br /><br /> Tuloutettu tuotto = laskutettava kokonaishinta x valmistumisen %-osuus<br /><br /> Valmistumisen %-osuus = käytön kokonaiskustannukset / budjetoidut kokonaiskustannukset<br /> (Tallennetaan projektitehtäväriveillä **Kustannuksen valmistumisprosentti** -kenttään)<br /><br /> KET-myynti = tuloutettu myynti - laskutettava laskutettu hinta |Valmistumisen %-osuuden laskennat tulouttavat tuoton suhteessa valmistumisen prosenttiosuuteen (eli käytön kokonaiskustannuksiin ja budjetin kustannuksiin).<br /><br /> Tämä laskenta edellyttää, että koko projektin laskutettava kokonaishinta ja budjetin kokonaiskustannukset on syötettävä oikein. |
-| Valmis sopimus |KET-summa = KET-kustannusten summa = käyttö (kokonaiskustannukset)<br /><br /> KET-myynnin summa = laskutettava (laskutettu hinta) |Valmis sopimus ei tulouta tuottoa ja kustannuksia ennen projektin valmistumista. Tästä voi olla hyötyä, kun projektin kustannusten ja tuoton arviointi on hyvin epävarmaa.<br /><br /> Kaikki käyttö kirjataan KET-kustannusten tilille (saatavat) ja kaikki laskutettu myynti kirjataan laskutetun KET-myynnin tilille (velat), kunnes projekti on valmis. |
+| KET-menetelmä | Kuvaus | Tuloutetut kustannukset | Tuloutettu myynti |
+| --- | ------- |--- | --- |
+| Kustannusarvo |Tunnistaa kustannuksen, kun asiakasta laskutetaan. Tunnistaa laskutettuun myyntiin perustuvan myynnin. |Kustannusarvo|Sopimus (laskuhinta)|
+| Myynnin kulut |Tunnistaa kustannuksen, kun asiakasta laskutetaan. Tunnistaa laskutettuun myyntiin perustuvan myynnin.|Myynnin kulut|Sopimus (laskutettu hinta)|
+| Myyntiarvo |Tunnistaa kustannukset raportoitaessa. Tuloutetaan myynti suhteessa raportoituihin kustannuksiin.|Käyttö (kokonaiskustannus)|Myyntiarvo|
+| Valmistumisen prosenttiosuus |Tunnistaa kustannukset raportoitaessa. Tuloutetaan myynti suhteessa raportoituihin kustannuksiin.|Käyttö (kokonaiskustannus)|Valmistumisen prosenttiosuus|
+| Valmis sopimus |Mikään myynti tai kustannus ei ole osa KET-laskentaa. Valmis sopimus ei tulouta tuottoa ja kustannuksia ennen projektin valmistumista. Tämä vaihtoehto on hyödyllinen esimerkiksi silloin, kun projektin kustannus- ja tuottoarvioiden ympärillä on suurta epävarmuutta.|Valmistuessa|Valmistuessa|
 
-## <a name="see-also"></a>Katso myös
+Tarkat kaavat ja pääkirjanpidon tapahtumat määritetään Tuloutettu [**kustannus- ja**](#recognized-cost) Tuloutettu myynti [**-kenttien valinnalla**](#recognized-sales) .
+
+## Projektin KET-menetelmän luominen
+
+Projektiin luodaan organisaation tarpeita vastaava KET-menetelmä, joka määritetään oletukseksi.  
+
+> [!NOTE]
+> Kun olet luonut KET-tapahtumat menetelmän avulla, et voi muuttaa tai poistaa tapaa.  
+
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvaketta, kirjoita **Projektin KET-menetelmät** ja valitse linkit.  
+2. Valitse Uusi-toiminto **·**, valitse tuloutetut kustannukset **- ja** Tuloutettu myynti **-kentille asianmukaiset arvot** ja täytä sitten muut kentät tarpeen mukaan. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
+3. Sulje sivu.
+4. Jos haluat tehdä tästä menetelmästä oletusarvon, valitse ![Valolamppu, joka avaa Kerro minulle -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvaketta, määritä **projektin asetukset** ja valitse linkit.  
+5. Valitse **Oletus KET-menetelmä** -kentässä menetelmä luettelosta.
+
+### Tuloutettu kustannus
+
+| Tuloutettu kustannus | Tuloutetun kustannuksen laskentakaava | Pääkirjanpidon tapahtumat |
+| --- | --- | ---------- |
+|Valmistuessa|0 (Nolla)| **Tuloutettujen kustannusten tilin** hyvitysten **KET-kustannusten tili** </br>Summa: Tuloutettu kustannus </br></br>KeT-kustannusten **tilin**  **kohdistetut projektin kustannukset -tili** </br>Summa: MAKSIMI[tuloutettu kustannus; Todellinen (kokonaiskustannus)]|
+|Myynnin kulut|Todellinen (kokonaiskustannus) - Budjetti (kokonaiskustannukset) * Laskutettu%, jossa:</br></br> Laskutettu% = Laskutettu (kokonaishinta) / Laskutettava (kokonaishinta)</br></br>**Huomaa:**  Tämä laskenta edellyttää, että laskutettava (kokonaishinta) ja Budjetti (kokonaiskustannukset) on syötetty oikein koko projektille.| **Tuloutettujen kustannusten tilin** hyvitysten **KET-kustannusten tili** </br>Summa: Tuloutettu kustannus </br></br>KeT-kustannusten **tilin**  **kohdistetut projektin kustannukset -tili** </br>Summa: MAKSIMI[tuloutettu kustannus; Todellinen (kokonaiskustannus)] </br></br> **Projektin kustannusten muutostilin**  **kertyneiden KET-kustannusten tili** </br>Summa: Tuloutettu kustannus - todellinen (kokonaiskustannus), jos tuloutettu kustannus > todellinen (kokonaiskustannus)|
+|Kustannusarvo|Todellinen (kokonaiskustannus) - [valmistumis-% - Laskutettu%] * Laskutettava (kokonaishinta) * BudgetCostPriceRatio, jossa: </br></br> BudgetCostPriceRatio = Budjetti (kokonaiskustannus) / Budjetti (kokonaishinta)</br>Laskutettu% = Laskutettu (kokonaishinta) / Laskutettava (kokonaishinta)</br>Valmistumis-% = Todellinen (kokonaiskustannus)/budjetti (kokonaiskustannus)</br></br>**Huomaa:**  Tämä laskenta edellyttää, että laskutettava (kokonaishinta), Budjetti ( kokonaishinta) ja budjetti (kokonaiskustannukset) syötetään oikein koko projektia varten.| **Tuloutettujen kustannusten tilin** hyvitysten **KET-kustannusten tili** </br>Summa: Tuloutettu kustannus</br></br>KeT-kustannusten **tilin**  **kohdistetut projektin kustannukset -tili** </br>Summa: MAKSIMI[tuloutettu kustannus; Todellinen (kokonaiskustannus)] </br></br> **Projektin kustannusten muutostilin**  **kertyneiden KET-kustannusten tili** </br>Summa: Tuloutettu kustannus - todellinen (kokonaiskustannus), jos tuloutettu kustannus > todellinen (kokonaiskustannus)|
+|Sopimus (laskutettu kustannus)|Laskutettu (kokonaiskustannus) | **Tuloutettujen kustannusten tilin** hyvitysten **KET-kustannusten tili** </br>Summa: Tuloutettu kustannus </br></br> KeT-kustannusten **tilin**  **kohdistetut projektin kustannukset -tili** </br>Summa: MAKSIMI[tuloutettu kustannus; Todellinen (kokonaiskustannus)] </br></br> **Projektin kustannusten muutostilin**  **kertyneiden KET-kustannusten tili** </br>Summa: Tuloutettu kustannus - todellinen (kokonaiskustannus), jos tuloutettu kustannus > todellinen (kokonaiskustannus)|
+|Käyttö (kokonaiskustannus)|Toteuma (kokonaiskustannus) | **Tuloutettujen kustannusten tilin** hyvitysten **KET-kustannusten tili** </br>Summa: Tuloutettu kustannus </br></br>KeT-kustannusten **tilin**  **kohdistetut projektin kustannukset -tili** </br>Summa: MAKSIMI[tuloutettu kustannus; Todellinen (kokonaiskustannus)]|
+
+Kun projektin tilaksi muutetaan Valmis, **Laske KET** -tehtävä peruuttaa KET-tapahtuman ja kirjaa sen sijaan.
+
+Tuloutetun kustannuksen **tilin** hyvitysprojektin **kohdistetun kustannuksen tili**, Summa: **Todellinen (kokonaiskustannus)**
+
+> [!NOTE]
+> Käytetty **KET-kirjaustapa -kentän** valinnan **mukaan Projektin kust. kohdistettu tili** -tiliä, **Resurssin kust. kohdistettu tili**- tai **KP-kust. kohdistetun kirjanpidon tiliä** voidaan käyttää projektin kohdistetun kustannuksen **tilin** sijaan. Lisätietoja [on projektin kirjausryhmissä](projects-how-setup-jobs.md#to-set-general-information-for-projects).
+
+### Tuloutettu myynti
+
+| Tuloutettu myynti | Tuloutetun myynnin laskentakaava | Pääkirjanpidon tapahtumat |
+| --- | --- | ---------- |
+|Valmistuessa|0 (Nolla)|Laskutetun KET-myynnin **tilin**  **tuloutetun myynnin tili** </br>Summa: Tuloutetut summat</br></br>Projektin myyntikoht **. kohdistettu tili** Hyvitys **keT laskutettu myyntitili** </br>Summa: Laskutettu (kokonaishinta)|
+|Sopimus (laskutettu hinta)|Laskutettu (kokonaishinta)|Laskutetun KET-myynnin **tilin**  **tuloutetun myynnin tili** </br>Summa: Tuloutetut summat</br></br>Projektin myyntikoht **. kohdistettu tili** Hyvitys **keT laskutettu myyntitili** </br>Summa: Laskutettu (kokonaishinta)|
+|Käyttö (kokonaiskustannus)|Toteuma (kokonaiskustannus)|Laskutetun KET-myynnin **tilin**  **tuloutetun myynnin tili** </br>Summa: Tuloutetut summat</br></br>Projektin myyntikoht **. kohdistettu tili** Hyvitys **keT laskutettu myyntitili** </br>Summa: Laskutettu (kokonaishinta)
+|Valmistumisen prosenttiosuus|MIN[Laskutettava (kokonaishinta) * Valmistumis-%; Laskutus (kokonaishinta)], jossa:</br></br>Valmistumis-% = Todellinen (kokonaiskustannus)/budjetti (kokonaiskustannus)</br></br>**Huomaa:**  Tämä laskenta edellyttää, että laskutettava (kokonaishinta) ja Budjetti (kokonaiskustannukset) on syötetty oikein koko projektille.|Kertyneen KET-myynnin **tilin**  **tuloutetun myynnin tili** </br>Summa: Tuloutetut summat</br></br>Projektin myyntikoht **. kohdistettu tili** Hyvitys **keT laskutettu myyntitili** </br>Summa: Laskutettu (kokonaishinta)|
+|Käyttö (kokonaishinta)|Toteuma (kokonaishinta)|Laskutetun KET-myynnin **tilin**  **tuloutetun myynnin tili** </br>Summa: Tuloutetut summat </br></br>Projektin myyntikoht **. kohdistettu tili** Hyvitys **keT laskutettu myyntitili** </br>Summa: MAKS[tuloutetut tuloutetut myyntisaaminen; Laskutettu (kokonaishinta)]</br></br>Kertyneen KET-myyntitilin **·**  **projektin myynnin muutoksen tili** </br>Summa: MAKS[tuloutetut tuloutetut myyntisaaminen; Laskutettu (kokonaishinta)] - Laskutettu (kokonaishinta)|
+|Myyntiarvo| Todellinen (kokonaishinta) * laskutettava (kokonaishinta)/budjetti (kokonaishinta)</br></br>**Huomaa:**  Tämä laskenta edellyttää, että laskutettava (kokonaishinta) ja Budjetti (kokonaishinta) on syötetty oikein koko projektille.|Laskutetun KET-myynnin **tilin**  **tuloutetun myynnin tili** </br>Summa: Tuloutetut summat</br></br>Projektin myyntikoht **. kohdistettu tili** Hyvitys **keT laskutettu myyntitili** </br>Summa: MAKS[tuloutetut tuloutetut myyntisaaminen; Laskutettu (kokonaishinta)]</br></br>Kertyneen KET-myyntitilin **·**  **projektin myynnin muutoksen tili** </br>Summa: MAKS[tuloutetut tuloutetut myyntisaaminen; Laskutettu (kokonaishinta)] - Laskutettu (kokonaishinta)|
+
+Kun projektin tilaksi muutetaan Valmis, **Laske KET** -tehtävä peruuttaa KET-tapahtuman ja kirjaa sen sijaan.
+
+ **Projektin myynnin kohdistustilin**  **tuloutetun myynnin tili**, Summa: **Laskutettu (kokonaishinta)**
+
+## Katso myös
 
 [Projektien hallinta](projects-manage-projects.md)  
 [Taloushallinto](finance.md)  
 [Osto](purchasing-manage-purchasing.md)  
 [Myynti](sales-manage-sales.md)  
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

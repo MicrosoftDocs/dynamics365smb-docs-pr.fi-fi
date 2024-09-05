@@ -1,5 +1,5 @@
 ---
-title: Projektin laskuttaminen luomalla projektin myyntilasku
+title: Projektin myyntilaskun luominen projektin laskuttamiseksi
 description: 'Käsitellään sitä, miten projektin kustannukset laskutetaan asiakkailta projektin edetessä ja kustannusten kertyessä.'
 author: brentholtorf
 ms.author: bholtorf
@@ -10,21 +10,18 @@ ms.search.form: '1002, 1007,'
 ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="invoice-projects"></a>Projektien laskutus
+# Projektien laskuttaminen
 
 Projektin aikana voi kertyä projektin kustannuksia resurssien käytöstä, materiaaleista ja projektiin liittyvistä ostoista. Projektin edetessä nämä tapahtumat kirjataan projektipäiväkirjaan. On tärkeää, että kaikki kustannukset kirjataan projektipäiväkirjaan ennen asiakkaan laskuttamista.
+Laskutuksen voi tehdä joko projektin valmistumisen jälkeen tai tietyin laskutusaikataulun mukaisin väliajoin projektin aikana.
 
-> [!NOTE]
-> Voit ostaa myös ulkoisia resursseja, jotka eivät liity projektiin, kuten laskuttaa toimittajaa tehdystä työstä. Lisätietoja on kohdassa [Ostojen kirjaaminen](purchasing-how-record-purchases.md).
+Voit laskuttaa:
 
-Voit laskuttaa koko projektin **Projektitehtävärivit**-sivulla tai laskuttaa vain valitut laskutettavat rivit **Projektin suunnittelurivit** -sivulla. Laskutuksen voi tehdä joko projektin valmistumisen jälkeen tai tietyin laskutusaikataulun mukaisin väliajoin projektin aikana.
+* Useita projekteja, jotka **käyttävät Projekti luo myyntilasku -** tehtävää.
+* Kokonaisia projekteja, projekteja, joissa on projekti, tai yksittäisiä projektin suunnittelurivejä, jotka käyttävät asiaankuuluvaa projektisivujen toimintoa.
+* Yhdistä useita projektin suunnittelurivejä eri projekteista yhdeksi myyntilaskuksi käyttämällä **Hae projektin suunnittelurivit** -toimintoa **Myyntilasku-sivulla** .
 
-> [!NOTE]  
-> Jos valitset projektiin liittyvien ostojen ostoasiakirjojen **Projektin rivityyppi** -kentässä **Laskutettava**, luodaan projektin suunnittelurivit, jotka ovat valmiita asiakkaalta laskutusta varten. Lisätietoja on kohdassa [Projektin tarvikkeiden hallinta](projects-how-manage-project-supplies.md).
-
-Voit myös laskuttaa yritystä, joka ei ole loppuasiakas. Joskus osapuoli, jolle projekti on luotu, eroaa laskun maksavasta osapuolesta. **Projektit**-sivulla voit määrittää projektista hyötyvän asiakkaan **Tilausasiakas**-kentissä sekä laskutettavan osapuolen **Laskutusasiakas**-kentissä.
-
-## <a name="to-create-multiple-project-sales-invoices"></a>Usean projektin myyntilaskun luominen
+## Usean projektin myyntilaskun luominen
 
 Asiakkaalle voidaan luoda lasku projektista tai vähintään yhdestä projektitehtävästä, kun laskutettava työ on valmis tai kun laskutusaikatauluun perustuva laskutuspäivämäärä on saavutettu.
 
@@ -35,12 +32,12 @@ Seuraavaksi näytetään, miten eräajoa käytetään useiden projektien laskutt
 3. Määritä suodattimet, jos haluat rajata erätyön käsittelemien projektien määrää.
 4. Luo laskut valitsemalla **OK**.  
 
-Voit tarkastella ja kirjata luotuja laskuja **Myyntilaskut**-ikkunassa.
+Voit tarkistaa ja kirjata luotuja laskuja **Myyntilaskut-sivulla** .
 
 > [!NOTE]
-> Vaihtoehtoisesti voit laskuttaa asiakasta valitsemalla ensin projektin ja sitten **Luo projektin myyntilasku** -toiminnon. 
+> Vaihtoehtoisesti voit laskuttaa asiakasta valitsemalla projektin ja valitsemalla **sitten Luo projektin myyntilasku -** toiminnon tai käyttämällä **Luo myyntilasku -** toimintoa projektitehtävissä.
 
-## <a name="to-create-and-post-project-sales-invoice-from-project-planning-lines"></a>Projektin myyntilaskun luominen ja kirjaaminen projektin suunnitteluriveiltä
+## Projektin myyntilaskun luominen ja kirjaaminen projektin suunnitteluriveiltä
 
 Voit luoda laskun projektin suunnitteluriveiltä ja määrittää samalla nimikkeen määrän, resurssin tai KP-tilin, jonka haluat laskuttaa.
 
@@ -59,7 +56,26 @@ Voit luoda laskun projektin suunnitteluriveiltä ja määrittää samalla nimikk
 > [!NOTE]  
 > Projektiin liittyvän myyntihyvityslaskun luominen, tarkistaminen ja kirjaaminen tapahtuu vastaavalla tavalla.
 
-## <a name="see-also"></a>Katso myös
+## Useiden projektitehtävien laskuttaminen yhdeltä asiakkaalta
+
+Laskutusprosessia voidaan yksinkertaistaa lähettämällä asiakkaalle yksi lasku, joka sisältää useita projekteja. Useiden projektien projektin suunnittelurivit lisätään kerralla myyntilaskuun. Tämä prosessi muistuttaa myyntilaskun luontia projektin suunnitteluriviltä ja arvon syöttämistä **Liitä myyntilaskun nroon** -kenttään.
+
+Prosessin yleiskatsaus:
+
+1. Luo uusi myyntilasku ja määritä arvo **Tilausasiakkaan nro** -kentässä. Täytä tarvittaessa myös **Laskutusasiakkaan nro**- ja **Valuuttakoodi**-kentät.
+2. Valitse **Rivit**-pikavälilehdessä **Hae projektin suunnittelurivit** -toiminto. **Hae projektin suunnittelurivit** -sivulla on näkyvissä tilausasiakkaan projektien laskutettavat projektin suunnittelurivit, laskutusasiakas ja laskutusvaluutta, jos laskutettava määrä on suurempi kuin nolla. 
+3. Valitse laskuun lisättävät rivit ja valitse sitten **OK**.
+
+Toista nämä vaiheet, jos haluat lisätä toiseen projektin suunnittelurivijoukon. Lasku tai sen rivit voidaan myös poistaa ja aloittaa alusta.
+
+> [!NOTE]
+> Rajoitukset:
+>
+> * **Hae projektin suunnittelurivit** -toiminto ei ole saatavana myyntitilauksissa tai myyntitarjouksissa.
+> * Suodatus ei ole mahdollista **Toimitusasiakkaan koodi**- tai **Yhteyshenkilön nro** -kentässä.
+
+
+## Katso myös
 
 [Projektien hallinta](projects-manage-projects.md)  
 [Taloushallinto](finance.md)  

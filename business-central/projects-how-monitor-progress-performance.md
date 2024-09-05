@@ -5,20 +5,18 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 07/31/2024
+ms.date: 08/19/2024
 ms.custom: bap-template
 ms.search.keywords: 'project management, KPI, work in process, work in progress'
 ms.search.form: '89, 92, 1010'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="monitor-project-progress-and-performance"></a>Projektin edistymisen ja suorituskyvyn valvonta
+# Projektin edistymisen ja suorituskyvyn valvonta
 
 Keskeneräinen työ (KET) on ominaisuus, jonka avulla voidaan arvioida keskeneräisten projektien taloudellinen arvo kirjanpidossa.
 
-Projektin edetessä materiaaleja ja resursseja kulutetaan, ja aiheutuneet kulut on kirjattava projektiin. Monissa tapauksissa projektille saatetaan kirjata kuluja ennen laskuttamista. Jos projektista on kirjattu kuitenkin vain kulut, rahoituslaskelma on epätarkka. Projektin todellista arvoa voidaan seurata laskemalla KET ja kirjaamalla se pääkirjanpitoon. Lisätietoja on kohdassa [Tietoja KET-menetelmistä](projects-understanding-wip.md).
-
-Voit laskea KET:n seuraavien arvojen perusteella:
+Projektin edetessä materiaaleja ja resursseja kulutetaan, ja aiheutuneet kulut on kirjattava projektiin. Monissa tapauksissa projektille saatetaan kirjata kuluja ennen laskuttamista. Mutta jos kirjaat vain kuluja, rahoituslaskelmasi on epätarkka. Projektin todellista arvoa voidaan seurata laskemalla KET ja kirjaamalla se pääkirjanpitoon. Seuraavat KET-menetelmät ovat käytettävissä ruudussa:
 
 * Kustannusarvo
 * Myyntiarvo
@@ -26,15 +24,11 @@ Voit laskea KET:n seuraavien arvojen perusteella:
 * Valmistumisen prosenttiosuus
 * Valmis sopimus
 
-<!--If you want to view the result using a different method, change the method and calculate WIP again. There's no limit to the number of times you calculate WIP; it doesn't get automatically posted to the general ledger. After you've calculated WIP using the method you prefer, you can post to the general ledger.-->
-<!--Unhide the above paragraph?-->
+Voit myös luoda keT-menetelmän, joka vastaa organisaatiosi tarpeita ja määrittää sen oletusarvoksi.  
 
-## <a name="create-a-project-wip-method"></a>Projektin KET-menetelmän luominen
+Lisätietoja on kohdassa [Tietoja KET-menetelmistä](projects-understanding-wip.md).
 
-Projektiin luodaan organisaation tarpeita vastaava KET-menetelmä, joka määritetään oletukseksi.  
-
-> [!NOTE]
-> Kun olet käyttänyt uutta menetelmääsi KET-tapahtumien luomiseen, et voi muokata tai poistaa sitä.  
+Jos haluat tarkastella tulosta jollakin toisella menetelmällä, muuta menetelmää ja laske KET uudelleen. KESKENERÄisen työn laskentakertaa ei ole rajoitettu. Arvoa ei kirjata automaattisesti pääkirjanpitoon. Kun olet laskenut KET:n haluamallasi tavalla, voit kirjata sen pääkirjanpitoon.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvaketta, kirjoita **Projektin KET-menetelmät** ja valitse linkit.  
 2. Valitse **Uusi**-toiminto ja täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -42,28 +36,27 @@ Projektiin luodaan organisaation tarpeita vastaava KET-menetelmä, joka määrit
 4. Jos haluat tehdä tästä uudesta menetelmästä oletusmenetelmän, valitse ![Kerro-ominaisuuden avaava hehkulamppu.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvaketta, syötä **Projektin asetukset** ja valitse sitten liittyvä linkki.  
 5. Valitse **Oletus KET-menetelmä** -kentässä menetelmä luettelosta.
 
-## <a name="define-a-wip-method-for-a-project"></a>Projektin KET-menetelmän määrittäminen
+## Projektin KET-menetelmän määrittäminen
 
 Uutta projektia luotaessa on määritettävä, mihin projektin KET-menetelmää käytetään. Joissakin tapauksissa käytettävä projektin KET-menetelmä on jo määritetty oletukseksi.
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten vastaava linkki.
 2. Valitse **Uusi**-toiminto. Lisätietoja on kohdassa [Projektien luominen](projects-how-create-jobs.md).  
-3.  **Valitse Projektin kortti**  sivun **Kirjaus-pikavälilehden**  **KET-menetelmä-kentässä** keT-menetelmä luettelosta. Vaikka oletusmenetelmä olisi määritetty, voit valita tarvittaessa toisen vaihtoehdon.  
+3.  **Valitse Projektin kortti**  sivun **Kirjaus-pikavälilehden**  **KET-menetelmä-kentässä** keT-menetelmä luettelosta. Jos oletustapa on määritetty, voit tarvittaessa valita toisen vaihtoehdon.  
 
-### <a name="define-a-wip-method-for-a-project-task"></a>KET-menetelmän määrittäminen projektitehtävälle
+### KET-menetelmän määrittäminen projektitehtävälle
 
-Projektitehtävälle voidaan määrittää KET-menetelmä, jättää tietyt projektitehtävät pois KET-laskutoimituksista tai ryhmitellä yhdessä laskettavat tehtävät. 
+Voit määrittää projektitehtävälle KET-menetelmän, jättää projektitehtävät pois KET-laskennasta tai ryhmiteltää laskettavat tehtävät.
 
 Jos kunkin projektitehtävän KET halutaan laskea erikseen, KET-kirjaus mahdollistaa yksittäisille tehtäville määritetyt dimensiot.
 
 **KET - Yhteensä** määrittää projektitehtävät, jotka halutaan ryhmittää yhteen keskeneräisiä töitä ja tuloutusta laskettaessa. Kaikissa tehtäväryhmissä on oltava yksi tehtävä, joka täyttää kaksi ehtoa:
 <!--But doesn't the parenthetical below contradict this -* if there is no total, the application sets the total for you, meaning the condition does not HAVE to be satisfied, right? Or am I missing something?-->
 
-* **KET - Yhteensä** -kentän arvo on *Yhteensä*. (Jos yhdenkään projektitehtävän **KET - Yhteensä** -kentän arvo ei ole *Yhteensä*, *Yhteensä*-kentän arvo määritetään automaattisesti viimeisellä projektitehtävärivillä, kun KET lasketaan ensimmäisen kerran).
+* **KET - Yhteensä** -tyypiksi **on määritetty Yhteensä**. Jos projektitehtäviä, joiden **KET-kokonaissummaksi ei ole määritetty Yhteensä**, Yhteensä määritetään automaattisesti viimeiselle projektitehtäväriville, kun KET lasketaan ensimmäistä kertaa.
+* Projektitehtävänro-kentän **·**  numero-kenttä on projektitehtävien ryhmän tai alueen viimeinen.
 
-* Sisältää **Projektitehtävän nro** -arvon, joka on projektitehtävien ryhmän tai alueen viimeinen numero.
-
-Seuraavassa taulukossa kuvaillaan kolme asetusta:
+Vaihtoehdot on kuvattu seuraavassa taulukossa:
 
 | Kenttä | Kuvaus |
 |--|--|
@@ -91,13 +84,12 @@ Seuraavassa esimerkissä projektitehtävät on jaettu kahteen KET-kokonaisarvon 
 
 Huomaat:
 
-* *1000* - *1299*: Tämän projektitehtäväryhmän KET lasketaan erikseen. On kuitenkin huomattava, että tehtäviä 1010 ja 1110 ei sisällytetä KET-laskutoimituksiin, koska niiden projektitehtävän tyyppi on **Kirjaus**.
+* Ohjelma *laskee tälle projektitehtäväryhmälle erikseen KET-summat 1 000*  *:sta 1299*:ään. Huomaa kuitenkin, että kaksi tehtävää, 1010 ja 1110, jätetään pois KET-laskennasta, koska niiden projektitehtävän tyyppi on **Kirjaus**.
+* Ohjelma *laskee tälle projektitehtäväryhmälle erikseen 1300-1399*  *keskeneräisen* työn.
 
-* *1300* - *1399*: Tämän projektitehtäväryhmän KET lasketaan erikseen.
+## Laske KET
 
-## <a name="calculate-wip"></a>Laske KET
-
-Voit määrittää tasetileille kirjattavan KET-summan kauden lopussa suoritettavaa raportointia varten. Se tehdään **Laske projektin KET** -eräajon avulla.  
+Voit määrittää tasetileille kirjattavan KET-summan jakson lopun raportointia varten Laske projektin KET **-eräajon** avulla.  
 
 1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvaketta, syötä **Laske projektin KET** ja valitse sitten liittyvä linkki.  
 2. Valitse **Laske KET** -toiminto.
@@ -105,43 +97,59 @@ Voit määrittää tasetileille kirjattavan KET-summan kauden lopussa suoritetta
 4. Valitse **OK**-painike.  
 
 > [!NOTE]  
-> Eräajo laskee KET:n muttei kirjaa sitä pääkirjanpitoon. Se kirjataan suorittamalla **Kirjaa KET kirjanpitoon** -eräajo, kun KET on laskettu. Katso lisätietoja seuraavasta toimenpiteestä.
+> Eräajo laskee KET:n, mutta ei kirjaa sitä pääkirjanpitoon. Voit kirjata KET:n suorittamalla **Kirjaa KET kirjanpitoon** -eräajon keskeneräisen työn laskelman jälkeen. Katso lisätietoja seuraavasta toimenpiteestä.
 
-## <a name="post-wip"></a>Kirjaa KET
+### Tarkista varoitukset
 
-Kun olet laskenut KET:n, voit kirjata sen tasetileille kauden lopussa suoritettavaa raportointia varten. Se tehdään **Kirjaa projektin KET kirjanpitoon** -eräajon avulla.
+Jos KET-laskennan tuloksena ohjelma laskee KESKENERÄisen *työn varoituksella*, varoitukset kannattaa ehkä tarkistaa.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Kirjaa projektin KET kirjanpitoon** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektin KET-ohjaamo** ja valitse sitten vastaava linkki.  
+2. Valitse projekti, jonka varoituksia haluat tarkastella.  **KET-varoitusten** vaihto on käytössä projekteissa, joissa on KET-varoituksia.
+3. Valitse **Näytä varoitus -** toiminto.
+
+### Poista KET-tapahtumat
+
+Jos haluat kokeilla eri KET-menetelmiä, voit määrittää *, että Projektitehtävää ei voi muuttaa, koska projektiin liittyy projektin KET-tapahtumien* virhe. Voit tarkistaa KET-menetelmän poistamalla aiemmin luodut KET-tapahtumat.
+
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektin KET-ohjaamo** ja valitse sitten vastaava linkki.  
+2. Valitse projekti, jonka KET-tapahtumat haluat poistaa.
+3. Valitse **Poista KET-tapahtumat -** toiminto.
+
+## Kirjaa KET
+
+Kun lasket KET:iä, voit kirjata sen tasetileille jakson lopun raportointia varten.  **Kirjaa projektin KET kirjanpitoon** -eräajon käyttäminen.
+
+1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -painikkeen avulla voit kirjoittaa **Kirjaa projektin KET kirjanpitoon** ja valita linkin.  
 2. Täytä **Kirjaa projektin KET kirjanpitoon** -sivulla tarvittavat kentät.  
 3. Valitse **OK**-painike.
 
-## <a name="calculate-and-post-project-completion-entries"></a>Projektin valmistumistapahtumien laskeminen ja kirjaaminen
+## Projektin valmistumistapahtumien laskeminen ja kirjaaminen
 
-Kun kaikki projektin toimenpiteet, kuten käytön kirjaus ja laskutus, ovat valmiita valmiiksi, projekti on päivitettävä tilaan **Valmis**. Tämän jälkeen mahdollinen kirjanpitoon kirjattu KET peruuntuu.
+Kun olet saanut kaikki projektin toimenpiteet, kuten käytön ja laskutuksen kirjauksen, valmiiksi, projektin tila on päivitettävä **Valmiiksi**. Tällöin kaikki pääkirjanpitoon kirjattu KET on peruutettava.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten vastaava linkki.  
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektit** ja valitse sitten vastaava linkki.  
 2. Valitse avoin projekti ja valitse sitten **Muokkaa**-toiminto.
 3. Valitse Kirjaus-pikavälilehden **·**  **Tila-kentästä**  **Valmis**.
 4. Laske ja kirjaa KET ohjattujen vaiheiden avulla tai tee se manuaalisesti vaiheiden 5 ja 6 mukaisesti.  
 5. Valitse **Laske KET** -toiminto.
 6. Täytä **Laske projektin KET** -sivulla tarvittavat kentät.  
 
-     Eräajon **luomien projektin KET-tapahtumien Projekti valmis -** valintaruutu on valittuna. Valintaruudussa näkyy, että kyseessä ovat valmistumistapahtumat.  
+     Eräajon luomien projektin KET-tapahtumien Project Complete - **valintaruutu on** valittuna osoittamaan, että kyseessä ovat valmistumistapahtumat.  
 7. Valitse **Kirjaa projektin KET kirjanpitoon** -toiminto.
 8. Täytä **Kirjaa projektin KET kirjanpitoon** -sivulla tarvittavat kentät.  
 
-     Eräprojektin luomien PROJEKTIN KET-kirjanpitotapahtumien Project Complete - **valintaruutu on** valittuna. Valintaruudussa näkyvät valmistumistapahtumat.
+     Eräprojektin luomien PROJEKTIN KET-kirjanpitotapahtumien Project Complete - **valintaruutu on** valittuna. Valintaruudun avulla voit osoittaa, että kyseessä ovat valmistumistapahtumat.
 
-## <a name="view-project-ledger-entries"></a>Projektitapahtumien tarkasteleminen
+## Projektitapahtumien tarkasteleminen
 
-Kaikki projekteihin liittyvät tapahtumat on tallennettu projektirekistereihin ja numeroitu järjestyksessä numerosta 1 alkaen. Projektirekisteristä saadaan yleiskuva kaikista projektitapahtumista.    
+Kaikki projekteihin liittyvät tapahtumat on tallennettu projektirekistereihin ja numeroitu järjestyksessä numerosta 1 alkaen. Projektirekisteristä saadaan yleiskuva kaikista projektitapahtumista.
 
-1. Valitse ![Lamppu, joka avaa Kerro, mitä haluat tehdä -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Projektirekisterit** ja valitse sitten vastaava linkki.
+1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, kirjoita **Projektirekisterit** ja valitse sitten vastaava linkki.
 2. Valitse sopiva rekisteri ja valitse sitten **Projektikirjaukset**-toiminto.
 
-**Projektitapahtumat**-sivulla voi tarkastella mihin tahansa projektiin liittyviä tapahtumia.  
+ **Projektitapahtumat-sivulla** voit tarkastella mihin tahansa projektiin liittyviä tapahtumia.  
 
-## <a name="see-also"></a>Katso myös
+## Katso myös
 
 [Vaihekuvaus - Projektin keskeneräisen työn laskeminen](walkthrough-calculating-work-in-process-for-a-job.md)    
 [Projektien hallinta](projects-manage-projects.md)    
@@ -150,6 +158,5 @@ Kaikki projekteihin liittyvät tapahtumat on tallennettu projektirekistereihin j
 [Osto](purchasing-manage-purchasing.md)    
 [Myynti](sales-manage-sales.md)    
 [Käsittele kohdetta [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
