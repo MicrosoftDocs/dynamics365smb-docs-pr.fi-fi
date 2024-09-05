@@ -21,7 +21,7 @@ Tässä vaihekuvauksessa kuvataan useita ydinprosesseja:
 - Täytä huoltotilauksen aikatapahtuma
 - Kirjaa ja laskuta sopimushuoltotilaus
 
-## <a name="creation-of-service-items"></a>Huoltonimikkeiden luonti
+## <a name="create-service-items"></a>Huoltonimikkeiden luonti
 
 ### <a name="scenario"></a>Skenaario
 
@@ -45,7 +45,7 @@ Tilausten käsittelijä Susan kirjaa myyntitilauksen, jossa myydään huoltonimi
 
 - Asiakkaalle 10000 luodaan huoltonimike
 
-## <a name="invoicing-a-service-contract"></a>Huoltosopimuksen laskuttaminen
+## <a name="invoice-a-service-contract"></a>Huoltosopimuksen laskuttaminen
 
 ### <a name="scenario-1"></a>Skenaario
 

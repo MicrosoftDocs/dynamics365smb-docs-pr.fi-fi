@@ -11,7 +11,7 @@ ms.date: 08/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Projektien luominen
+# <a name="create-projects"></a>Projektien luominen
 
 Uuden projektin aloittamisen yhteydessä on luotava projektikortti sekä integroidut projektitehtävät ja projektin suunnittelurivit, jotka on jäsennetty kahteen kerrokseen.  
 
@@ -24,7 +24,7 @@ Kerroksen rakenteen avulla projekti voidaan jakaa projektin pieniksi tehtäviksi
 > [!TIP]
 > Käynnistä asetusten ohjattu määritys valitsemalla **Uusi projekti** -toiminto **Projektipäällikkö**-roolikeskuksessa. Ohjattu määritys ohjaa vaihe vaiheelta projektin ja integroitujen tehtävien ja suunnittelurivien luonnissa. Seuraavassa kerrotaan, miten vaiheet suoritetaan manuaalisesti. <!-- For an example of how to create a project manually, go to [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).-->
 
-## Projektikortin luominen
+## <a name="to-create-a-project-card"></a>Projektikortin luominen
 
 Ensin luodaan projektikortti, jonka jälkeen sille luodaan projektitehtävä ja projektin suunnittelurivit.
 
@@ -46,7 +46,7 @@ Voit halutessasi merkitä projektin toimintoja estetyiksi **Estetty**-kentän av
 |Kirjaus    |Vaikka suunnittelurivejä voidaan käsitellä, projektin kirjaus on estetty. Projektin käyttöä tai myyntiä ei voi kirjata.|
 |Kaikki  |Kaikki toimenpiteet ovat suljettuja.|
 
-## Tehtävien luonti projektiin
+## <a name="to-create-tasks-for-a-project"></a>Tehtävien luonti projektiin
 
 Projektin luonnin keskeinen osa on määrittää siihen liittyvät tehtävät. Voit määrittää tehtäviä luomalla yhden rivin tehtävää kohti **Projektikortti**-sivun **Tehtävät**-pikavälilehdessä. Jokaisella projektilla on oltava vähintään yksi tehtävä.
 
@@ -57,7 +57,7 @@ Projektin luonnin keskeinen osa on määrittää siihen liittyvät tehtävät. V
 5. Toista vaiheet 3 ja 4 kaikille projektissa tarvittaville tehtäville.
 6. Projektitehtäville voidaan määrittää tietoja muista projektitehtävistä valitsemalla **Kopioi projektitehtävät kohteesta** -toiminto, täyttämällä tarvittavat kentät ja valitsemalla sitten **OK**-painikkeen.
 
-## Projektitehtävien laskuttaminen yhdeltä tai usealta asiakkaalta
+## <a name="invoice-one-or-more-customers-for-project-tasks"></a>Projektitehtävien laskuttaminen yhdeltä tai usealta asiakkaalta
 
 Joskus palvelua vastaanottava osapuoli eroaa laskun maksavasta osapuolesta. Ja joskus projektin tehtäviä on myös laskutettava useilta asiakkailta. Määritä **Projektikortti**-sivun **Tehtävän laskutustapa** -kentässä, laskutetaanko yhtä vai useaa asiakasta.
 
@@ -69,7 +69,7 @@ Jos laskutettavia asiakkaita on useita, palvelun vastaanottava asiakas ja laskut
 * Lisää ulkoisten viitteiden tietoja yksinkertaistaaksesi projektia koskevaa viestintää.
 * Korvaa projektin vakiotalousehdot.
 
-## Projektin nimikkeiden oletussijainnin määrittäminen
+## <a name="specify-a-default-location-for-project-items"></a>Projektin nimikkeiden oletussijainnin määrittäminen
 
 Tietojen syöttämisessä säästyy aikaa, kun projektien oletussijainti ja -varastopaikka määritetään **Projektikortti**-sivulla. Oletussijainti ja -varastopaikka määritetään automaattisesti, kun projektin tehtäviä, projektin suunnittelurivejä ja projektipäiväkirjan rivejä luodaan projektille. Sijaintikoodia ja varastopaikkaa voidaan kuitenkin tarvittaessa muuttaa tehtävissä ja riveillä.
 
@@ -83,7 +83,7 @@ Seuraavat seikat on otettava oletussijainteja käytettäessä huomioon:
 * Projektin suunnitteluriveillä **sijaintikoodi** perustuu projektin suunnittelurivillä nimikettä valittaessa valittuun arvoon. Jos projektitehtävälle ei määritetä varastopaikkakoodia, varastopaikka valitaan oletusvarastopaikkasisällöstä. Kumpikin arvo voidaan muuttaa manuaalisesti.
 * Projektipäiväkirjan riveillä **sijaintikoodi** perustuu projektipäiväkirjan rivillä nimikettä valittaessa valittuun arvoon. Jos projektitehtävälle ei määritetä varastopaikkakoodia, varastopaikka valitaan oletusvarastopaikkasisällöstä. Kumpikin arvo voidaan muuttaa manuaalisesti.
 
-## Projektin suunnittelurivien luominen
+## <a name="to-create-planning-lines-for-a-project"></a>Projektin suunnittelurivien luominen
 
 Uusia projektitehtäviä voidaan tarkentaa projektin suunnitteluriveillä. Suunnittelurivi voi sieppaa tiedot, joita halutaan seurata projektissa. Seurata voidaan esimerkiksi projektin tarvitsemia resursseja tai nimikkeitä. Käytettävissä on esimerkiksi tehtävä, jolla asiakas saadaan hyväksymään projekti. Tehtävä liitetään nimikkeiden suunnitteluriveihin, esimerkiksi asiakastapaamiseen tai resurssin liittämiseen.  
 
@@ -104,7 +104,7 @@ Projektin suunnittelurivin tyyppi voi olla jokin seuraavista tyypeistä.
 4. Täytä **Projektin suunnittelurivit** -sivulla tarvittavat kentät uudella rivillä.
 5. Toista vaiheet 3 ja 4 kaikille projektitehtävässä tarvittaville suunnitteluriveille.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Projektien hallinta](projects-manage-projects.md)  
 [Video: Projektin luonti Dynamics 365 Business Centralissa](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

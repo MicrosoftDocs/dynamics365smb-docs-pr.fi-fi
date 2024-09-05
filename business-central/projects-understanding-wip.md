@@ -11,7 +11,7 @@ ms.date: 08/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Projektinhallinnan KET-menetelmien ymmärtäminen
+# <a name="understanding-wip-methods-in-project-management"></a>Projektinhallinnan KET-menetelmien ymmärtäminen
 
 Projektin edetessä kulutetaan materiaaleja, resursseja ja muita kuluja, ja nämä on kirjattava projektiin. Keskeneräinen työ (KET) on ominaisuus, jonka avulla voidaan arvioida kirjanpidossa olevien projektien taloudellisen arvon projektin ollessa kesken. Monissa tapauksissa saatat kirjata projektille kuluja ennen projektin laskuttamista. Kun vain kuluja kirjataan, rahoituslaskelma on epätarkka.
 
@@ -29,7 +29,7 @@ Tukee seuraavia keskeneräisen [!INCLUDE[prod_short](includes/prod_short.md)]  t
 
 Tarkat kaavat ja pääkirjanpidon tapahtumat määritetään Tuloutettu [**kustannus- ja**](#recognized-cost) Tuloutettu myynti [**-kenttien valinnalla**](#recognized-sales) .
 
-## Projektin KET-menetelmän luominen
+## <a name="create-a-project-wip-method"></a>Projektin KET-menetelmän luominen
 
 Projektiin luodaan organisaation tarpeita vastaava KET-menetelmä, joka määritetään oletukseksi.  
 
@@ -42,7 +42,7 @@ Projektiin luodaan organisaation tarpeita vastaava KET-menetelmä, joka määrit
 4. Jos haluat tehdä tästä menetelmästä oletusarvon, valitse ![Valolamppu, joka avaa Kerro minulle -ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvaketta, määritä **projektin asetukset** ja valitse linkit.  
 5. Valitse **Oletus KET-menetelmä** -kentässä menetelmä luettelosta.
 
-### Tuloutettu kustannus
+### <a name="recognized-cost"></a>Tuloutettu kustannus
 
 | Tuloutettu kustannus | Tuloutetun kustannuksen laskentakaava | Pääkirjanpidon tapahtumat |
 | --- | --- | ---------- |
@@ -59,7 +59,7 @@ Tuloutetun kustannuksen **tilin** hyvitysprojektin **kohdistetun kustannuksen ti
 > [!NOTE]
 > Käytetty **KET-kirjaustapa -kentän** valinnan **mukaan Projektin kust. kohdistettu tili** -tiliä, **Resurssin kust. kohdistettu tili**- tai **KP-kust. kohdistetun kirjanpidon tiliä** voidaan käyttää projektin kohdistetun kustannuksen **tilin** sijaan. Lisätietoja [on projektin kirjausryhmissä](projects-how-setup-jobs.md#to-set-general-information-for-projects).
 
-### Tuloutettu myynti
+### <a name="recognized-sales"></a>Tuloutettu myynti
 
 | Tuloutettu myynti | Tuloutetun myynnin laskentakaava | Pääkirjanpidon tapahtumat |
 | --- | --- | ---------- |
@@ -74,7 +74,7 @@ Kun projektin tilaksi muutetaan Valmis, **Laske KET** -tehtävä peruuttaa KET-t
 
  **Projektin myynnin kohdistustilin**  **tuloutetun myynnin tili**, Summa: **Laskutettu (kokonaishinta)**
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Projektien hallinta](projects-manage-projects.md)  
 [Taloushallinto](finance.md)  

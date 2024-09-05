@@ -11,7 +11,7 @@ ms.date: 08/19/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Projektien resurssien määrittäminen
+# <a name="set-up-resources-for-projects"></a>Projektien resurssien määrittäminen
 
 Jotta voit hallita resurssitoimintoja tarkasti, sinun on määritettävä resurssit sekä niihin liittyvät kustannukset ja hinnat. Projekteihin liittyvät hinnat, alennukset ja kustannustekijäsäännöt määritetään projektikortissa. Voit määrittää kustannukset ja hinnat yksittäisille resursseille, resurssiryhmille tai kaikille yrityksen käytettävissä oleville resursseille.
 
@@ -22,7 +22,7 @@ Tuntikohtainen oletussumma määritetään resurssin luomisen yhteydessä. Jos k
 > [!NOTE]
 > Tiettyä projektia varten ei voi ostaa ulkoisia resursseja. On suositeltavaa, että tämän tyyppistä Huolto-tyyppistä nimikettä käytetään.
 
-## Resurssin määrittäminen
+## <a name="to-set-up-a-resource"></a>Resurssin määrittäminen
 
 Luo jokaiselle projekteissa käytettävälle resurssille kortti.
 
@@ -30,7 +30,7 @@ Luo jokaiselle projekteissa käytettävälle resurssille kortti.
 2. Valitse **Uusi**-toiminto.
 3. Täytä tarvittavat kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Resurssiryhmän määrittäminen
+## <a name="to-set-up-a-resource-group"></a>Resurssiryhmän määrittäminen
 
 Yhteen resurssiryhmään voi yhdistää useita resursseja. Kaikki resurssiryhmien kapasiteetit ja budjetit kertyvät yksittäisistä resursseista. Resurssiryhmille voi syöttää kapasiteetteja joko kertyneistä arvoista itsenäisesti tai niiden lisäksi.
 
@@ -38,7 +38,7 @@ Yhteen resurssiryhmään voi yhdistää useita resursseja. Kaikki resurssiryhmie
 2. Valitse **Uusi**-toiminto.
 3. Täytä tarvittavat kentät.
 
-## Resurssin kapasiteetin määrittäminen
+## <a name="to-set-capacity-for-a-resource"></a>Resurssin kapasiteetin määrittäminen
 
 Resurssien kapasiteetti on määritettävä työkalenteriin jaksoittaisena saatavuusaikana, jotta voit laskea, kuinka kauan resurssia voi käyttää projektissa. Tätä määritystä käytetään silloin, kun täytät projektin suunnittelurivit, jotka sisältävät resurssin. Lisätietoja on kohdassa [Projektien luominen](projects-how-create-jobs.md).
 
@@ -51,7 +51,7 @@ Resurssien kapasiteetti on määritettävä työkalenteriin jaksoittaisena saata
 7. Valitse **Päivitä kapasiteetti** -toiminto. **Resurssikapasiteetti**-sivulle päivitetään annettu kapasiteetti.
 8. Sulje sivu.
 
-## Vaihtoehtoisten resurssikustannusten määrittäminen
+## <a name="to-set-up-alternate-resource-costs"></a>Vaihtoehtoisten resurssikustannusten määrittäminen
 
 Resurssikortissa määritettyjen kustannusten lisäksi voit määrittää kullekin resurssille vaihtoehtoiset kustannukset. Jos esimerkiksi maksat työntekijälle suurempaa tuntipalkkaa ylityöstä, ylityöpalkalle voi määrittää resurssikustannuksen. Resurssille määritetty vaihtoehtoinen kustannus ohittaa resurssikortissa olevan kustannuksen silloin, kun resurssia käytetään resurssipäiväkirjassa.
 
@@ -63,7 +63,7 @@ Resurssikortissa määritettyjen kustannusten lisäksi voit määrittää kullek
 > [!NOTE]
 > Voit määrittää kaikki resursseja ja resurssiryhmiä koskevat resurssikustannukset avaamalla **Resurssikustannukset-sivun** ja täyttämällä kentät.
 
-## Vaihtoehtoisten resurssihintojen määrittäminen
+## <a name="to-set-up-alternate-resource-prices"></a>Vaihtoehtoisten resurssihintojen määrittäminen
 
 Resurssikortissa määritetyn hinnan lisäksi voit määrittää kullekin resurssille vaihtoehtoiset hinnat. Vaihtoehtoiset hinnat voivat olla ehdollisia. Ne voivat riippua siitä, minkä projekti- tai työtyypin yhteydessä resurssia käytetään.
 
@@ -72,7 +72,7 @@ Resurssikortissa määritetyn hinnan lisäksi voit määrittää kullekin resurs
 3. Täytä **Resurssihinnat**-sivun rivillä tarvittavat kentät.
 4. Toista vaihe 3 kaikkien määritettävien vaihtoehtoisten resurssihintojen kohdalla.
 
-## Resurssihintojen muuttaminen
+## <a name="to-adjust-resource-prices"></a>Resurssihintojen muuttaminen
 
 Jos haluat muuttaa useiden resurssien kustannuksia tai hintoja, voit käyttää eräajoa.  
 
@@ -82,7 +82,7 @@ Jos haluat muuttaa useiden resurssien kustannuksia tai hintoja, voit käyttää 
 > [!NOTE]  
 > Tämä eräajo ei luo tai muuta vaihtoehtoisia kustannuksia tai hintoja resursseille. Se muuttaa vain sen **Muuta kenttää** -kentässä olevan resurssin kortin kentän sisältöä, joka on valittu eräajoon. Muutos tulee resurssien osalta voimaan heti, joten tarkista muutoskertoimet ennen eräajon suorittamista.
 
-## Resurssihintojen muutosehdotusten saaminen olemassa olevien vaihtoehtoisten hintojen perusteella
+## <a name="to-get-resource-price-change-suggestions-based-on-existing-alternate-prices"></a>Resurssihintojen muutosehdotusten saaminen olemassa olevien vaihtoehtoisten hintojen perusteella
 
 Jos olet jo määrittänyt vaihtoehtoisia resurssihintoja joillekin resursseille, voit käyttää eräajoa useiden vaihtoehtoisten resurssihintojen määrittämiseen.
 
@@ -91,7 +91,7 @@ Jos olet jo määrittänyt vaihtoehtoisia resurssihintoja joillekin resursseille
 3. Valitse **OK**-painike.  
 4. Kun eräajo on päättynyt, eräajon tulokset näkyvät **Resurssin hinnan muutokset** -sivulla.
 
-## Resurssihintojen muutosehdotusten saaminen vakiohintojen perusteella
+## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Resurssihintojen muutosehdotusten saaminen vakiohintojen perusteella
 
 Jos haluat määrittää useita vaihtoehtoisia resurssihintoja resurssikorttien vakiohintojen perusteella, voit käyttää eräajoa.  
 
@@ -100,7 +100,7 @@ Jos haluat määrittää useita vaihtoehtoisia resurssihintoja resurssikorttien 
 3. Valitse **OK**-painike.  
 4. Kun eräajo on päättynyt, voit katsoa eräajon tulokset avaamalla **Resurssin hinnan muutokset** -sivun.
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Projektinhallinnan määrittäminen](projects-setup-projects.md)  
 [Projektien hallinta](projects-manage-projects.md)  

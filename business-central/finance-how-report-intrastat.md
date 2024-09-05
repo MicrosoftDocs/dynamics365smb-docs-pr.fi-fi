@@ -62,7 +62,7 @@ Kun olet täyttänyt **Intrastat-ilmoituksen**, voit suorittaa **Tarkistusluette
 
 Suorittamalla **Intrastat-raportin tarkistusluettelo** -raportin voit tarkistaa Intrastat-rivit ennen niiden viemistä vaaditussa muodossa. Tarkistus suoritetaan **Intrastat-raportin** sisällä.
 
-## <a name="recalculating-weight-or-supplementary-unit-of-measure"></a>Painon tai täydentävän mittayksikön uudelleenlaskenta
+## <a name="recalculate-weight-or-supplementary-unit-of-measure"></a>Painon tai täydentävän mittayksikön uudelleenlaskenta
 
 Jos sait virheilmoituksen *Kokonaispaino Intrastat-raportin rivillä ei saa olla tyhjä*, se johtuu todennäköisesti siitä, että et ole määrittänyt käytetylle lähteelle, nimikkeelle tai käyttöomaisuudelle **Nettopaino**-kenttää. Etsi tässä tapauksessa nimike tai käyttöomaisuuden kortti ja lisää tarvittava arvo. Sen jälkeen sinun tarvitsee vain avata **Intrastat-raportti** uudelleen ja noudattaa seuraavia vaiheita:
 

@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.reviewer: bholtorf
 ---
-# Resurssien käyttäminen projekteissa
+# <a name="use-resources-for-projects"></a>Resurssien käyttäminen projekteissa
 
 Kirjaa resurssien käyttö projektipäiväkirjaan, kun haluat seurata kustannuksia ja hintoja sekä projekteihin linkitettyjä työtyyppejä. Lisätietoja on kohdassa [Projektien käytön kirjaaminen](projects-how-record-job-usage.md).
 
@@ -20,11 +20,11 @@ Kirjaa resurssien käyttö projektipäiväkirjaan, kun haluat seurata kustannuks
 
 Voit kirjata resurssin käytön myös resurssipäiväkirjaan. Resurssipäiväkirjassa kirjatuilla tapahtumilla ei ole vaikutusta pääkirjanpitoon.
 
-## Resurssien määrittäminen projekteihin
+## <a name="to-assign-resources-to-projects"></a>Resurssien määrittäminen projekteihin
 
 Voit määrittää resursseja projekteihin luomalla projektiin suunnittelurivejä. Lisätietoja on kohdassa [Projektien luominen](projects-how-create-jobs.md).
 
-## Projektin resurssin käytön kirjaaminen
+## <a name="to-record-resource-usage-for-a-project"></a>Projektin resurssin käytön kirjaaminen
 
 1. Valitse ![Lamppu, joka avaa Kerro-ominaisuuden.](media/ui-search/search_small.png "Kerro, mitä haluat tehdä") -kuvake, syötä **Projektipäiväkirjat** ja valitse sitten vastaava linkki.
 2. Avaa kyseessä oleva projektipäiväkirjan erä ja täytä vaaditut kentät. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -32,7 +32,7 @@ Voit määrittää resursseja projekteihin luomalla projektiin suunnittelurivej�
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## Katso myös
+## <a name="see-also"></a>Katso myös
 
 [Projektinhallinta](projects-manage-projects.md)  
 [Taloushallinto](finance.md)  
